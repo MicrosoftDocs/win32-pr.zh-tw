@@ -1,23 +1,23 @@
 ---
-description: 從個人資訊交換將已註冊的憑證 (PFX) 檔案安裝至憑證存放區。
+description: 從個人資訊安裝註冊的憑證 Exchange (PFX) 檔案儲存至憑證存放區。
 ms.assetid: f42379d0-b80e-4d95-ab34-9bb35fde06fd
 title: installResponseFromPFX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0db435b3d61f5b2e53a9838024f4080bb8028ed1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 540e719f098d227afac4af59fd2d296d9d06606d04b9de80cf1e24081918d6f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117777604"
 ---
 # <a name="installresponsefrompfx"></a>installResponseFromPFX
 
-InstallResponseFromPFX 範例會將個人資訊交換 (PFX) 檔案中的已註冊憑證安裝至憑證存放區。
+installResponseFromPFX 範例會從個人資訊安裝註冊的憑證 Exchange (PFX) 檔加入至憑證存放區。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ installResponseFromPFX 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ installResponseFromPFX 資料夾中安裝範例。
 
 ## <a name="discussion"></a>討論
 

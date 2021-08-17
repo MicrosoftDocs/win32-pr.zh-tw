@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 469686cbd96dedc7f816fdd1f482d3474362688e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 141f79398e1f9f250b402df130daa728c8e2f0e5f78702d7866dbe9a202b5978
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323117"
 ---
 # <a name="iasyncoperationwithprogresscompletedhandlertresulttprogressinvoke-method"></a>IAsyncOperationWithProgressCompletedHandler<TResult，TProgress>：： Invoke 方法
 
@@ -41,7 +41,7 @@ HRESULT Invoke(
 *system.runtime.interopservices.windowsruntime.asyncinfo* \[在\]
 </dt> <dd>
 
-Type： **[**IAsyncOperationWithProgress<TResult，TProgress>**](/previous-versions//br205807(v=vs.85)) \** _
+類型： **[ **IAsyncOperationWithProgress<TResult，TProgress>**](/previous-versions//br205807(v=vs.85))\***
 
 報告完成的非同步動作。
 
@@ -49,7 +49,7 @@ Type： **[**IAsyncOperationWithProgress<TResult，TProgress>**](/previous-versi
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 

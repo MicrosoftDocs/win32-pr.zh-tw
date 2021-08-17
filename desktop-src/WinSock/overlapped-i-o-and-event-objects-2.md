@@ -1,19 +1,19 @@
 ---
-description: Windows 通訊端2支援重迭的 i/o，而且所有的傳輸提供者都支援這項功能。
+description: Windows通訊端2支援重迭的 i/o，而且所有傳輸提供者都支援這項功能。
 ms.assetid: b36ab606-df1a-4254-b048-6d47eb366275
 title: 重迭的 i/o 和事件物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed034f06243959d94a1ada7eaa71e33c84cd35ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bca6ae2ee17036275183518bfd444b9317bcdc05145a9fcb327ad48388618a66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741048"
 ---
 # <a name="overlapped-io-and-event-objects"></a>重迭的 i/o 和事件物件
 
-Windows 通訊端2支援重迭的 i/o，而且所有的傳輸提供者都支援這項功能。 重迭的 i/o 會遵循在 Windows 中建立的模型，並可在使用 [**通訊端**](/windows/desktop/api/Winsock2/nf-winsock2-socket)函數建立的通訊端上執行，或在使用 [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa)函式建立的通訊端上，使用 *dwFlags* 參數中所設定的 **WSA \_ 旗 \_** 標重迭旗標
+Windows通訊端2支援重迭的 i/o，而且所有傳輸提供者都支援這項功能。 重迭的 i/o 會遵循 Windows 中建立的模型，並可在使用 [**通訊端**](/windows/desktop/api/Winsock2/nf-winsock2-socket)函數建立的通訊端上執行，或在使用 [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa)函式建立的通訊端上，使用 *dwFlags* 參數中設定的 **WSA \_ 旗標 \_** 重迭旗標來執行
 
 > [!Note]  
 > 使用重迭的屬性建立通訊端，並不會影響通訊端目前是否處於封鎖或非封鎖模式。 使用重迭屬性建立的通訊端可以用來執行重迭的 i/o，這樣做並不會變更通訊端的封鎖模式。 由於重迭的 i/o 作業不會封鎖，因此通訊端的封鎖模式與這些作業無關。

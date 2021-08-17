@@ -4,12 +4,12 @@ ms.assetid: 71fbf409-fe19-48c1-b777-18e0459235c1
 title: 使用 Windows Installer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cba329af3dccfccde4eb093bd2c8e35f54830606
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6893c4fbb7ec786ed2847f4c0d1bb3d533ca41ac1975f3d6c2bc6e36647e57eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117804006"
 ---
 # <a name="using-windows-installer"></a>使用 Windows Installer
 
@@ -24,7 +24,7 @@ ms.locfileid: "103849143"
 -   [使用限定元件](using-qualified-components.md)
 -   [使用可轉移的元件](using-transitive-components.md)
 -   [當地語系化 Windows Installer 套件](localizing-a-windows-installer-package.md)
--   [搜尋現有的應用程式、檔案、登錄專案或 .ini 檔案專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
+-   [搜尋現有的應用程式、檔案、登錄專案或 .ini 的檔案專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
 -   [撰寫大型封裝](authoring-a-large-package.md)
 -   [判斷安裝內容](determining-installation-context.md)
 -   [檢查功能、元件和檔案的安裝](checking-the-installation-of-features-components-files.md)
@@ -40,7 +40,7 @@ ms.locfileid: "103849143"
 -   [撰寫安全安裝的指導方針](guidelines-for-authoring-secure-installations.md)
 -   [使用隔離的元件](using-isolated-components.md)
 -   [判斷 Windows Installer 版本](determining-the-windows-installer-version.md)
--   [安裝具有 Windows Installer 的 COM + 應用程式](installing-a-com--application-with-the-windows-installer.md)
+-   [安裝具有 Windows Installer 的 com + 應用程式](installing-a-com--application-with-the-windows-installer.md)
 -   [在安裝或移除元件時新增或移除登錄機碼](adding-or-removing-registry-keys-on-the-installation-or-removal-of-components.md)
 -   [新增和移除應用程式，而不在登錄中保留任何追蹤](adding-and-removing-an-application-and-leaving-no-trace-in-the-registry.md)
 -   [減少 .msi 檔案的大小](reducing-the-size-of-an--msi-file.md)

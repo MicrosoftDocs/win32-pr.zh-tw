@@ -1,4 +1,4 @@
-- name: Windows Media Player SDK
+- name: Windows Media PlayerSDK
   href: windows-media-player-sdk.md
   items:
     - name: 關於 Windows Media Player SDK
@@ -16,7 +16,7 @@
           href: samples.md
         - name: 詳細資訊
           href: for-more-information.md
-    - name: Windows Media Player 物件模型
+    - name: Windows Media Player物件模型
       href: windows-media-player-object-model.md
       items:
         - name: 關於 Player 物件模型
@@ -51,7 +51,7 @@
                   href: about-the-playlist--playlistcollection--and-playlistarray-objects.md
                 - name: 關於 Query 物件
                   href: about-the-query-object.md
-                - name: 關於 Settings 物件
+                - name: 關於設定物件
                   href: about-the-settings-object.md
                 - name: 關於 StringCollection 物件
                   href: about-the-stringcollection-object.md
@@ -152,7 +152,7 @@
                   href: using-the-windows-media-player-control-with-microsoft-visual-studio.md
                 - name: '在 c # 方案中內嵌 Windows Media Player 控制項'
                   href: embedding-the-windows-media-player-control-in-a-c--solution.md
-                - name: 在 Visual Basic .NET 方案中內嵌 Windows Media Player 控制項
+                - name: 在 Visual Basic .net 方案中內嵌 Windows Media Player 控制項
                   href: embedding-the-windows-media-player-control-in-a-visual-basic--net-solution.md
                 - name: 以程式設計方式建立 Windows Media Player 控制項
                   href: creating-the-windows-media-player-control-programmatically.md
@@ -282,7 +282,7 @@
                   href: dvd.md
                 - name: 詳細的物件模型比較
                   href: detailed-object-model-comparison.md
-        - name: Windows Media Player 物件模型參考
+        - name: Windows Media Player物件模型參考
           href: windows-media-player-object-model-reference.md
           items:
             - name: 腳本的物件模型參考
@@ -770,10 +770,10 @@
                       href: query-addcondition.md
                     - name: BeginNextGroup
                       href: query-beginnextgroup.md
-                - name: Settings 物件
+                - name: 設定物件
                   href: settings-object.md
                   items:
-                    - name: 設定。 autoStart
+                    - name: 設定 autoStart
                       href: settings-autostart.md
                     - name: 設定。餘額
                       href: settings-balance.md
@@ -793,17 +793,17 @@
                       href: settings-isavailable.md
                     - name: 設定. mediaAccessRights
                       href: settings-mediaaccessrights.md
-                    - name: 設定。靜音
+                    - name: 設定靜音
                       href: settings-mute.md
                     - name: 設定. playCount
                       href: settings-playcount.md
-                    - name: 設定。費率
+                    - name: 設定。速率
                       href: settings-rate.md
                     - name: 設定. requestMediaAccessRights
                       href: settings-requestmediaaccessrights.md
                     - name: 設定. setMode
                       href: settings-setmode.md
-                    - name: 設定。磁片區
+                    - name: 設定磁片區
                       href: settings-volume.md
                 - name: StringCollection 物件
                   href: stringcollection-object.md
@@ -1753,33 +1753,33 @@
                       items:
                         - name: 'IWMPVideoRenderConfig：:p ut_presenterActivate'
                           href: /previous-versions/windows/desktop/api/wmprealestate/nf-wmprealestate-iwmpvideorenderconfig-put_presenteractivate
-            - name: Visual Basic .NET 和 C 的物件模型參考#
+            - name: Visual Basic .net 和 C 的物件模型參考#
               href: object-model-reference-for-visual-basic--net-and-c.md
               items:
                 - name: 'AxWindowsMediaPlayer 物件 (VB 和 c # ) '
                   href: axwindowsmediaplayer-object--vb-and-c.md
                   items:
-                    - name: 'AxWindowsMediaPlayer AudioLanguageChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. AudioLanguageChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-audiolanguagechange.md
-                    - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的緩衝事件'
+                    - name: 'AxWindowsMediaPlayer (VB 和 c # 的緩衝事件 ) '
                       href: axwmplib-axwindowsmediaplayer-buffering.md
-                    - name: 'AxWindowsMediaPlayer CdromBurnError 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CdromBurnError 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-cdromburnerror.md
-                    - name: 'AxWindowsMediaPlayer CdromBurnMediaError 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CdromBurnMediaError 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-cdromburnmediaerror.md
-                    - name: 'AxWindowsMediaPlayer CdromBurnStateChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CdromBurnStateChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-cdromburnstatechange.md
                     - name: 'AxWindowsMediaPlayer. cdromCollection (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-cdromcollection--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer CdromMediaChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CdromMediaChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-cdrommediachange.md
-                    - name: 'AxWindowsMediaPlayer CdromRipMediaError 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CdromRipMediaError 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-cdromripmediaerror.md
-                    - name: 'AxWindowsMediaPlayer CdromRipStateChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CdromRipStateChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-cdromripstatechange.md
-                    - name: 'AxWindowsMediaPlayer： Click Event (VB and c # ) '
+                    - name: 'AxWindowsMediaPlayer：按一下 [事件 (] VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-click.md
-                    - name: 'AxWindowsMediaPlayer. close (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer： VB 和 c # ) 關閉 ('
                       href: axwmplib-axwindowsmediaplayer-close.md
                     - name: 'AxWindowsMediaPlayer. closedCaption (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-closedcaption--vb-and-c.md
@@ -1787,37 +1787,37 @@
                       href: axwmplib-axwindowsmediaplayer-ctlcontrols--vb-and-c.md
                     - name: 'AxWindowsMediaPlayer. Ctlenabled (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-ctlenabled--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer CurrentItemChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CurrentItemChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-currentitemchange.md
                     - name: 'AxWindowsMediaPlayer. currentMedia (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-currentmedia--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer CurrentMediaItemAvailable 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CurrentMediaItemAvailable 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-currentmediaitemavailable.md
                     - name: 'AxWindowsMediaPlayer. currentPlaylist (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-currentplaylist--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer CurrentPlaylistChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CurrentPlaylistChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-currentplaylistchange.md
-                    - name: 'AxWindowsMediaPlayer CurrentPlaylistItemAvailable 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. CurrentPlaylistItemAvailable 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-currentplaylistitemavailable.md
-                    - name: 'AxWindowsMediaPlayer )  (VB 和 c # 的中斷線上活動'
+                    - name: 'AxWindowsMediaPlayer VB 與 c # 的 (中斷連接事件 ) '
                       href: axwmplib-axwindowsmediaplayer-disconnect.md
-                    - name: 'AxWindowsMediaPlayer DomainChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. DomainChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-domainchange.md
-                    - name: 'AxWindowsMediaPlayer DoubleClick 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. DoubleClick 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-doubleclick.md
-                    - name: 'AxWindowsMediaPlayer DurationUnitChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. DurationUnitChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-durationunitchange.md
                     - name: 'AxWindowsMediaPlayer (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-dvd--vb-and-c.md
                     - name: 'AxWindowsMediaPlayer. enableCoNtextMenu (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-enablecontextmenu--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer EndOfStream 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. EndOfStream 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-endofstream.md
-                    - name: 'AxWindowsMediaPlayer (VB 和 c # ) 錯誤'
+                    - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的錯誤'
                       href: axwmplib-axwindowsmediaplayer-error--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer VB 和 c # )  (錯誤事件'
+                    - name: 'AxWindowsMediaPlayer VB 和 c # ) 的錯誤事件 ('
                       href: axwmplib-axwindowsmediaplayer-error.md
-                    - name: 'AxWindowsMediaPlayer FolderScanStateChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. FolderScanStateChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-folderscanstatechange.md
                     - name: 'AxWindowsMediaPlayer 全螢幕 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-fullscreen--vb-and-c.md
@@ -1825,89 +1825,89 @@
                       href: axwmplib-axwindowsmediaplayer-isonline--vb-and-c.md
                     - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的 KeyDown 事件'
                       href: axwmplib-axwindowsmediaplayer-keydown.md
-                    - name: 'AxWindowsMediaPlayer )  (VB 和 c # 的按鍵事件'
+                    - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的按鍵事件'
                       href: axwmplib-axwindowsmediaplayer-keypress.md
                     - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的 KeyUp 事件'
                       href: axwmplib-axwindowsmediaplayer-keyup.md
                     - name: 'AxWindowsMediaPlayer. launchURL (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-launchurl.md
-                    - name: 'AxWindowsMediaPlayer LibraryConnect 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. LibraryConnect 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-libraryconnect.md
-                    - name: 'AxWindowsMediaPlayer LibraryDisconnect 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. LibraryDisconnect 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-librarydisconnect.md
-                    - name: 'AxWindowsMediaPlayer MarkerHit 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. MarkerHit 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-markerhit.md
-                    - name: 'AxWindowsMediaPlayer MediaChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. MediaChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-mediachange.md
                     - name: 'AxWindowsMediaPlayer. mediaCollection (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer MediaCollectionAttributeStringAdded 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. MediaCollectionAttributeStringAdded 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-mediacollectionattributestringadded.md
-                    - name: 'AxWindowsMediaPlayer MediaCollectionAttributeStringChanged 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. MediaCollectionAttributeStringChanged 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-mediacollectionattributestringchanged.md
-                    - name: 'AxWindowsMediaPlayer MediaCollectionAttributeStringRemoved 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. MediaCollectionAttributeStringRemoved 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-mediacollectionattributestringremoved.md
-                    - name: 'AxWindowsMediaPlayer MediaCollectionChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. MediaCollectionChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-mediacollectionchange.md
-                    - name: 'AxWindowsMediaPlayer MediaCollectionMediaAdded 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. MediaCollectionMediaAdded 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-mediacollectionmediaadded.md
-                    - name: 'AxWindowsMediaPlayer MediaCollectionMediaRemoved 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. MediaCollectionMediaRemoved 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-mediacollectionmediaremoved.md
-                    - name: 'AxWindowsMediaPlayer MediaError 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. MediaError 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-mediaerror.md
-                    - name: 'AxWindowsMediaPlayer ModeChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. ModeChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-modechange.md
-                    - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的 MouseDown 事件'
+                    - name: 'AxWindowsMediaPlayer VB 和 c # ) 的事件 ('
                       href: axwmplib-axwindowsmediaplayer-mousedown.md
                     - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的 MouseMove 事件'
                       href: axwmplib-axwindowsmediaplayer-mousemove.md
                     - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的 MouseUp 事件'
                       href: axwmplib-axwindowsmediaplayer-mouseup.md
-                    - name: 'AxWindowsMediaPlayer (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. network (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-network--vb-and-c.md
                     - name: 'AxWindowsMediaPlayer. newMedia (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-newmedia.md
                     - name: 'AxWindowsMediaPlayer. [] (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-newplaylist.md
-                    - name: 'AxWindowsMediaPlayer NewStream 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. NewStream 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-newstream.md
                     - name: 'AxWindowsMediaPlayer. openPlayer (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-openplayer.md
-                    - name: 'AxWindowsMediaPlayer OpenPlaylistSwitch 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. OpenPlaylistSwitch 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-openplaylistswitch.md
                     - name: 'AxWindowsMediaPlayer. openState (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-openstate--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer OpenStateChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. OpenStateChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-openstatechange.md
-                    - name: 'AxWindowsMediaPlayer PlaylistChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. PlaylistChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-playlistchange.md
                     - name: 'AxWindowsMediaPlayer. playlistCollection (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-playlistcollection--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer PlaylistCollectionChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. PlaylistCollectionChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-playlistcollectionchange.md
-                    - name: 'AxWindowsMediaPlayer PlaylistCollectionPlaylistAdded 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. PlaylistCollectionPlaylistAdded 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-playlistcollectionplaylistadded.md
-                    - name: 'AxWindowsMediaPlayer PlaylistCollectionPlaylistRemoved 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. PlaylistCollectionPlaylistRemoved 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-playlistcollectionplaylistremoved.md
-                    - name: 'AxWindowsMediaPlayer PlaylistCollectionPlaylistSetAsDeleted 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. PlaylistCollectionPlaylistSetAsDeleted 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-playlistcollectionplaylistsetasdeleted.md
                     - name: 'AxWindowsMediaPlayer. playState (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-playstate--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer PlayStateChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. PlayStateChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-playstatechange.md
-                    - name: 'AxWindowsMediaPlayer PositionChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. PositionChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-positionchange.md
-                    - name: 'AxWindowsMediaPlayer ScriptCommand 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. ScriptCommand 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-scriptcommand.md
-                    - name: 'AxWindowsMediaPlayer VB 和 c # 的 (設定 ) '
+                    - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的設定'
                       href: axwmplib-axwindowsmediaplayer-settings--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer： VB 和 c # 的狀態 () '
+                    - name: 'AxWindowsMediaPlayer (VB 和 c # ) 的狀態'
                       href: axwmplib-axwindowsmediaplayer-status--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer StatusChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. StatusChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-statuschange.md
                     - name: 'AxWindowsMediaPlayer. stretchToFit (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-stretchtofit--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer StringCollectionChange 事件 (VB 和 c # ) '
+                    - name: 'AxWindowsMediaPlayer. StringCollectionChange 事件 (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-stringcollectionchange.md
                     - name: 'AxWindowsMediaPlayer. uiMode (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-uimode--vb-and-c.md
@@ -1915,11 +1915,11 @@
                       href: axwmplib-axwindowsmediaplayer-url--vb-and-c.md
                     - name: 'AxWindowsMediaPlayer. versionInfo (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-versioninfo--vb-and-c.md
-                    - name: 'AxWindowsMediaPlayer VB 和 c # )  (Warning 事件'
+                    - name: 'AxWindowsMediaPlayer VB 和 c # ) 的 Warning 事件 ('
                       href: axwmplib-axwindowsmediaplayer-warning.md
                     - name: 'AxWindowsMediaPlayer. windowlessVideo (VB 和 c # ) '
                       href: axwmplib-axwindowsmediaplayer-windowlessvideo--vb-and-c.md
-                - name: 適用于 Visual Basic .NET 和 C 的介面#
+                - name: 適用于 Visual Basic .net 和 C 的介面#
                   href: interfaces-for-visual-basic--net-and-c.md
                   items:
                     - name: 'IWMPCdrom 介面 (VB 和 c # ) '
@@ -1929,7 +1929,7 @@
                           href: wmplibiwmpcdrom-iwmpcdrom-drivespecifier--vb-and-c.md
                         - name: 'IWMPCdrom (VB 和 c # ) '
                           href: wmplibiwmpcdrom-iwmpcdrom-eject--vb-and-c.md
-                        - name: 'IWMPCdrom (VB 和 c # 的播放清單 ) '
+                        - name: 'IWMPCdrom (VB 和 c # ) 的播放清單'
                           href: wmplibiwmpcdrom-iwmpcdrom-playlist--vb-and-c.md
                     - name: 'IWMPCdromBurn 介面 (VB 和 c # ) '
                       href: iwmpcdromburn--vb-and-c.md
@@ -1948,7 +1948,7 @@
                           href: wmplibiwmpcdromburn-iwmpcdromburn-getiteminfo-iwmpcdromburn.md
                         - name: 'IWMPCdromBurn. isAvailable (VB 和 c # ) '
                           href: wmplibiwmpcdromburn-iwmpcdromburn-isavailable--vb-and-c.md
-                        - name: 'IWMPCdromBurn (VB 和 c # 的標籤 ) '
+                        - name: 'IWMPCdromBurn (VB 和 c # ) 的標籤'
                           href: wmplibiwmpcdromburn-iwmpcdromburn-label--vb-and-c.md
                         - name: 'IWMPCdromBurn. refreshStatus (VB 和 c # ) '
                           href: wmplibiwmpcdromburn-iwmpcdromburn-refreshstatus--vb-and-c.md
@@ -1959,11 +1959,11 @@
                     - name: 'IWMPCdromCollection 介面 (VB 和 c # ) '
                       href: iwmpcdromcollection--vb-and-c.md
                       items:
-                        - name: 'IWMPCdromCollection (VB 和 c # ) '
+                        - name: 'IWMPCdromCollection (VB 和 c # ) 的計數'
                           href: wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md
                         - name: 'IWMPCdromCollection. getByDriveSpecifier (VB 和 c # ) '
                           href: wmplibiwmpcdromcollection-iwmpcdromcollection-getbydrivespecifier--vb-and-c.md
-                        - name: 'IWMPCdromCollection (VB 和 c # ) '
+                        - name: 'IWMPCdromCollection (VB 和 c # ) 的專案'
                           href: wmplibiwmpcdromcollection-iwmpcdromcollection-item--vb-and-c.md
                     - name: 'IWMPCdromRip 介面 (VB 和 c # ) '
                       href: iwmpcdromrip--vb-and-c.md
@@ -2017,7 +2017,7 @@
                           href: wmplibiwmpcontrols-iwmpcontrols-fastreverse--vb-and-c.md
                         - name: 'IWMPControls. isAvailable (VB 和 c # ) '
                           href: iwmpcontrols-isavailable--vb-and-c.md
-                        - name: 'IWMPControls：接下來 (VB 和 c # ) '
+                        - name: 'IWMPControls 下 (VB 和 c # ) '
                           href: wmplibiwmpcontrols-iwmpcontrols-next--vb-and-c.md
                         - name: 'IWMPControls： pause (VB 和 c # ) '
                           href: wmplibiwmpcontrols-iwmpcontrols-pause--vb-and-c.md
@@ -2025,14 +2025,14 @@
                           href: wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md
                         - name: 'IWMPControls. playItem (VB 和 c # ) '
                           href: wmplibiwmpcontrols-iwmpcontrols-playitem--vb-and-c.md
-                        - name: 'IWMPControls 之前 (VB 和 c # ) '
+                        - name: 'IWMPControls 以前的 (VB 和 c # ) '
                           href: wmplibiwmpcontrols-iwmpcontrols-previous--vb-and-c.md
-                        - name: 'IWMPControls。停止 (VB 和 c # ) '
+                        - name: 'IWMPControls (VB 和 c # ) '
                           href: wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md
                     - name: 'IWMPControls2 介面 (VB 和 c # ) '
                       href: iwmpcontrols2--vb-and-c.md
                       items:
-                        - name: 'IWMPControls2 (VB 和 c # ) '
+                        - name: 'IWMPControls2 VB 和 c # ) 的步驟 ('
                           href: wmplibiwmpcontrols2-iwmpcontrols2-step--vb-and-c.md
                     - name: 'IWMPControls3 介面 (VB 和 c # ) '
                       href: iwmpcontrols3--vb-and-c.md
@@ -2056,11 +2056,11 @@
                       items:
                         - name: 'IWMPDVD. back (VB 和 c # ) '
                           href: wmplibiwmpdvd-iwmpdvd-back--vb-and-c.md
-                        - name: 'IWMPDVD (VB 和 c # ) '
+                        - name: 'IWMPDVD： domain (VB 和 c # ) '
                           href: wmplibiwmpdvd-iwmpdvd-domain--vb-and-c.md
                         - name: 'IWMPDVD. isAvailable (VB 和 c # ) '
                           href: iwmpdvd-isavailable--vb-and-c.md
-                        - name: 'IWMPDVD 繼續 (VB 和 c # ) '
+                        - name: 'IWMPDVD. 繼續 (VB 和 c # ) '
                           href: wmplibiwmpdvd-iwmpdvd-resume--vb-and-c.md
                         - name: 'IWMPDVD. titleMenu (VB 和 c # ) '
                           href: wmplibiwmpdvd-iwmpdvd-titlemenu--vb-and-c.md
@@ -2073,7 +2073,7 @@
                           href: wmplibiwmperror-iwmperror-clearerrorqueue--vb-and-c.md
                         - name: 'IWMPError. errorCount (VB 和 c # ) '
                           href: wmplibiwmperror-iwmperror-errorcount--vb-and-c.md
-                        - name: 'IWMPError (VB 和 c # ) '
+                        - name: 'IWMPError (VB 和 c # ) 的專案'
                           href: iwmperror-item--vb-and-c.md
                         - name: 'IWMPError. webHelp (VB 和 c # ) '
                           href: wmplibiwmperror-iwmperror-webhelp--vb-and-c.md
@@ -2082,18 +2082,18 @@
                       items:
                         - name: 'IWMPErrorItem. customUrl (VB 和 c # ) '
                           href: wmplibiwmperroritem-iwmperroritem-customurl--vb-and-c.md
-                        - name: 'IWMPErrorItem VB 和 c # )  (errorCode'
+                        - name: 'IWMPErrorItem VB 和 c # ) 的 errorCode ('
                           href: wmplibiwmperroritem-iwmperroritem-errorcode--vb-and-c.md
                         - name: 'IWMPErrorItem. errorCoNtext (VB 和 c # ) '
                           href: wmplibiwmperroritem-iwmperroritem-errorcontext--vb-and-c.md
                         - name: 'IWMPErrorItem. errorDescription (VB 和 c # ) '
                           href: wmplibiwmperroritem-iwmperroritem-errordescription--vb-and-c.md
-                        - name: 'IWMPErrorItem 更正 (VB 和 c # ) '
+                        - name: 'IWMPErrorItem 補救 (VB 和 c # ) '
                           href: wmplibiwmperroritem-iwmperroritem-remedy--vb-and-c.md
                     - name: 'IWMPErrorItem2 介面 (VB 和 c # ) '
                       href: iwmperroritem2--vb-and-c.md
                       items:
-                        - name: 'IWMPErrorItem2 (VB 和 c # ) '
+                        - name: 'IWMPErrorItem2 (VB 和 c # ) 的條件'
                           href: wmplibiwmperroritem2-iwmperroritem2-condition--vb-and-c.md
                     - name: 'IWMPLibrary 介面 (VB 和 c # ) '
                       href: iwmplibrary--vb-and-c.md
@@ -2104,7 +2104,7 @@
                           href: wmplibiwmplibrary-iwmplibrary-mediacollection--vb-and-c.md
                         - name: 'IWMPLibrary.name (VB 和 c # ) '
                           href: wmplibiwmplibrary-iwmplibrary-name--vb-and-c.md
-                        - name: 'IWMPLibrary。輸入 (VB 和 c # ) '
+                        - name: 'IWMPLibrary： type (VB 和 c # ) '
                           href: wmplibiwmplibrary-iwmplibrary-type--vb-and-c.md
                     - name: 'IWMPLibraryServices 介面 (VB 和 c # ) '
                       href: iwmplibraryservices--vb-and-c.md
@@ -2153,7 +2153,7 @@
                     - name: 'IWMPMedia2 介面 (VB 和 c # ) '
                       href: iwmpmedia2--vb-and-c.md
                       items:
-                        - name: 'IWMPMedia2 (VB 和 c # ) 錯誤'
+                        - name: 'IWMPMedia2 (VB 和 c # ) 的錯誤'
                           href: wmplibiwmpmedia2-iwmpmedia2-error--vb-and-c.md
                     - name: 'IWMPMedia3 介面 (VB 和 c # ) '
                       href: iwmpmedia3--vb-and-c.md
@@ -2183,7 +2183,7 @@
                           href: wmplibiwmpmediacollection-iwmpmediacollection-getbyname--vb-and-c.md
                         - name: 'IWMPMediaCollection. getMediaAtom (VB 和 c # ) '
                           href: wmplibiwmpmediacollection-iwmpmediacollection-getmediaatom--vb-and-c.md
-                        - name: 'IWMPMediaCollection。移除 (VB 和 c # ) '
+                        - name: 'IWMPMediaCollection 移除 (VB 和 c # ) '
                           href: wmplibiwmpmediacollection-iwmpmediacollection-remove--vb-and-c.md
                         - name: 'IWMPMediaCollection. setDeleted (VB 和 c # ) '
                           href: wmplibiwmpmediacollection-iwmpmediacollection-setdeleted--vb-and-c.md
@@ -2201,7 +2201,7 @@
                     - name: 'IWMPMetadataPicture 介面 (VB 和 c # ) '
                       href: iwmpmetadatapicture--vb-and-c.md
                       items:
-                        - name: 'IWMPMetadataPicture (VB 和 c # ) 的描述'
+                        - name: 'IWMPMetadataPicture (VB 和 c # 的描述 ) '
                           href: wmplibiwmpmetadatapicture-iwmpmetadatapicture-description--vb-and-c.md
                         - name: 'IWMPMetadataPicture. mimeType (VB 和 c # ) '
                           href: wmplibiwmpmetadatapicture-iwmpmetadatapicture-mimetype--vb-and-c.md
@@ -2212,9 +2212,9 @@
                     - name: 'IWMPMetadataText 介面 (VB 和 c # ) '
                       href: iwmpmetadatatext--vb-and-c.md
                       items:
-                        - name: 'IWMPMetadataText (VB 和 c # ) 的描述'
+                        - name: 'IWMPMetadataText (VB 和 c # 的描述 ) '
                           href: wmplibiwmpmetadatatext-iwmpmetadatatext-description--vb-and-c.md
-                        - name: 'IWMPMetadataText (VB 和 c # ) '
+                        - name: 'IWMPMetadataText VB 和 c # ) 的文字 ('
                           href: wmplibiwmpmetadatatext-iwmpmetadatatext-text--vb-and-c.md
                     - name: 'IWMPNetwork 介面 (VB 和 c # ) '
                       href: iwmpnetwork--vb-and-c.md
@@ -2233,7 +2233,7 @@
                           href: wmplibiwmpnetwork-iwmpnetwork-downloadprogress--vb-and-c.md
                         - name: 'IWMPNetwork. encodedFrameRate (VB 和 c # ) '
                           href: wmplibiwmpnetwork-iwmpnetwork-encodedframerate--vb-and-c.md
-                        - name: ' (VB 和 c # 的 IWMPNetwork 幀 ) '
+                        - name: 'IWMPNetwork (VB 和 c # ) '
                           href: wmplibiwmpnetwork-iwmpnetwork-framerate--vb-and-c.md
                         - name: 'IWMPNetwork. framesSkipped (VB 和 c # ) '
                           href: wmplibiwmpnetwork-iwmpnetwork-framesskipped--vb-and-c.md
@@ -2282,7 +2282,7 @@
                           href: iwmpplaylist-attributename--vb-and-c.md
                         - name: 'IWMPPlaylist： clear (VB 和 c # ) '
                           href: iwmpplaylist-iwmpplaylist-clear--vb-and-c.md
-                        - name: 'IWMPPlaylist (VB 和 c # ) '
+                        - name: 'IWMPPlaylist (VB 和 c # ) 的計數'
                           href: wmplibiwmpplaylist-iwmpplaylist-count--vb-and-c.md
                         - name: 'IWMPPlaylist. getItemInfo (VB 和 c # ) '
                           href: wmplibiwmpplaylist-iwmpplaylist-getiteminfo--vb-and-c.md
@@ -2290,7 +2290,7 @@
                           href: wmplibiwmpplaylist-iwmpplaylist-insertitem--vb-and-c.md
                         - name: 'IWMPPlaylist. isIdentical (VB 和 c # ) '
                           href: iwmpplaylist-isidentical--vb-and-c.md
-                        - name: 'IWMPPlaylist (VB 和 c # ) '
+                        - name: 'IWMPPlaylist (VB 和 c # ) 的專案'
                           href: iwmpplaylist-item--vb-and-c.md
                         - name: 'IWMPPlaylist. moveItem (VB 和 c # ) '
                           href: wmplibiwmpplaylist-iwmpplaylist-moveitem--vb-and-c.md
@@ -2303,9 +2303,9 @@
                     - name: 'IWMPPlaylistArray 介面 (VB 和 c # ) '
                       href: iwmpplaylistarray--vb-and-c.md
                       items:
-                        - name: 'IWMPPlaylistArray (VB 和 c # ) '
+                        - name: 'IWMPPlaylistArray (VB 和 c # ) 的計數'
                           href: wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md
-                        - name: 'IWMPPlaylistArray (VB 和 c # ) '
+                        - name: 'IWMPPlaylistArray (VB 和 c # ) 的專案'
                           href: wmplibiwmpplaylistarray-iwmpplaylistarray-item--vb-and-c.md
                     - name: 'IWMPPlaylistCollection 介面 (VB 和 c # ) '
                       href: iwmpplaylistcollection--vb-and-c.md
@@ -2320,7 +2320,7 @@
                           href: wmplibiwmpplaylistcollection-iwmpplaylistcollection-isdeleted--vb-and-c.md
                         - name: 'IWMPPlaylistCollection. [] (VB 和 c # ) '
                           href: wmplibiwmpplaylistcollection-iwmpplaylistcollection-newplaylist--vb-and-c.md
-                        - name: 'IWMPPlaylistCollection。移除 (VB 和 c # ) '
+                        - name: 'IWMPPlaylistCollection 移除 (VB 和 c # ) '
                           href: wmplibiwmpplaylistcollection-iwmpplaylistcollection-remove--vb-and-c.md
                     - name: 'IWMPQuery 介面 (VB 和 c # ) '
                       href: iwmpquery--vb-and-c.md
@@ -2332,9 +2332,9 @@
                     - name: 'IWMPSettings 介面 (VB 和 c # ) '
                       href: iwmpsettings--vb-and-c.md
                       items:
-                        - name: 'IWMPSettings (VB 和 c # ) '
+                        - name: 'IWMPSettings (VB 和 c # 的 autoStart ) '
                           href: wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md
-                        - name: 'IWMPSettings (VB 和 c # ) '
+                        - name: 'IWMPSettings (VB 和 c # ) 的餘額'
                           href: wmplibiwmpsettings-iwmpsettings-balance--vb-and-c.md
                         - name: 'IWMPSettings. baseURL (VB 和 c # ) '
                           href: wmplibiwmpsettings-iwmpsettings-baseurl--vb-and-c.md
@@ -2348,15 +2348,15 @@
                           href: wmplibiwmpsettings-iwmpsettings-invokeurls--vb-and-c.md
                         - name: 'IWMPSettings. isAvailable (VB 和 c # ) '
                           href: iwmpsettings-isavailable--vb-and-c.md
-                        - name: 'IWMPSettings (VB 和 c # ) 靜音'
+                        - name: 'IWMPSettings (VB 和 c # ) 的靜音'
                           href: wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md
                         - name: 'IWMPSettings. playCount (VB 和 c # ) '
                           href: wmplibiwmpsettings-iwmpsettings-playcount--vb-and-c.md
-                        - name: 'IWMPSettings (VB 和 c # 的速率 ) '
+                        - name: 'IWMPSettings (VB 和 c # ) 的速率'
                           href: wmplibiwmpsettings-iwmpsettings-rate--vb-and-c.md
                         - name: 'IWMPSettings. setMode (VB 和 c # ) '
                           href: wmplibiwmpsettings-iwmpsettings-setmode--vb-and-c.md
-                        - name: 'IWMPSettings (VB 和 c # ) '
+                        - name: 'IWMPSettings 磁片區 (VB 和 c # ) '
                           href: wmplibiwmpsettings-iwmpsettings-volume--vb-and-c.md
                     - name: 'IWMPSettings2 介面 (VB 和 c # ) '
                       href: iwmpsettings2--vb-and-c.md
@@ -2370,9 +2370,9 @@
                     - name: 'IWMPStringCollection 介面 (VB 和 c # ) '
                       href: iwmpstringcollection--vb-and-c.md
                       items:
-                        - name: 'IWMPStringCollection (VB 和 c # ) '
+                        - name: 'IWMPStringCollection (VB 和 c # ) 的計數'
                           href: wmplibiwmpstringcollection-iwmpstringcollection-count--vb-and-c.md
-                        - name: 'IWMPStringCollection (VB 和 c # ) '
+                        - name: 'IWMPStringCollection (VB 和 c # ) 的專案'
                           href: wmplibiwmpstringcollection-iwmpstringcollection-item--vb-and-c.md
                     - name: 'IWMPStringCollection2 介面 (VB 和 c # ) '
                       href: iwmpstringcollection2--vb-and-c.md
@@ -2621,7 +2621,7 @@
                       href: wm-beatsperminute-attribute.md
                     - name: WM/Category 屬性
                       href: wm-category-attribute.md
-                    - name: WM/編輯器屬性
+                    - name: WM/Composer 屬性
                       href: wm-composer-attribute.md
                     - name: WM/導體屬性
                       href: wm-conductor-attribute.md
@@ -2681,7 +2681,7 @@
                       href: wm-providerrating-attribute.md
                     - name: WM/ProviderStyle 屬性
                       href: wm-providerstyle-attribute.md
-                    - name: WM/發行者屬性
+                    - name: WM/Publisher 屬性
                       href: wm-publisher-attribute.md
                     - name: WM/SubscriptionContentID 屬性
                       href: wm-subscriptioncontentid-attribute.md
@@ -2719,7 +2719,7 @@
                   href: cd-playlist-attributes.md
                 - name: CD 軌屬性
                   href: cd-track-attributes.md
-                - name: 常用的 Windows Media 檔案屬性
+                - name: 常用 Windows 媒體檔案屬性
                   href: commonly-used-windows-media-file-attributes.md
                 - name: DVD 屬性
                   href: dvd-attributes.md
@@ -2760,7 +2760,7 @@
                   href: /previous-versions/windows/desktop/api/wmp/ne-wmp-wmpstringcollectionchangeeventtype
                 - name: WMPSyncState
                   href: /previous-versions/windows/desktop/api/wmp/ne-wmp-wmpsyncstate
-    - name: Windows Media Player 的外觀
+    - name: Windows Media Player皮膚
       href: windows-media-player-skins.md
       items:
         - name: 關於外觀
@@ -2789,7 +2789,7 @@
                       href: art-file-formats.md
                     - name: 簡易藝術範例
                       href: simple-art-example.md
-                - name: JScript 檔案
+                - name: JScript檔
                   href: jscript-files.md
             - name: 撰寫程式碼
               href: writing-code.md
@@ -2950,7 +2950,7 @@
                   href: onkeyup.md
                 - name: onmousedown
                   href: onmousedown.md
-                - name: </c4>
+                - name: onmousemove
                   href: onmousemove.md
                 - name: onmouseout
                   href: onmouseout.md
@@ -3781,7 +3781,7 @@
                   href: global-attributes.md
                 - name: 接聽屬性
                   href: listening-attributes.md
-        - name: Windows Media Player 行動外觀
+        - name: Windows Media Player行動外觀
           href: windows-media-player-mobile-skins.md
           items:
             - name: 關於外觀
@@ -3789,7 +3789,7 @@
               items:
                 - name: 關於相容性
                   href: about-compatibility.md
-                - name: Windows Media Player 行動功能
+                - name: Windows Media Player行動功能
                   href: windows-media-player-mobile-functionality.md
                   items:
                     - name: 按鈕函式
@@ -3999,7 +3999,7 @@
                       href: video-size.md
                     - name: 範例影片區段
                       href: sample-video-section.md
-    - name: Windows Media Player 外掛程式
+    - name: Windows Media Player外掛程式
       href: windows-media-player-plug-ins.md
       items:
         - name: 建立外掛程式
@@ -4009,7 +4009,7 @@
               href: getting-started-with-the-plug-in-wizard.md
             - name: 使用外掛程式嚮導搭配 Visual Studio
               href: using-the-plug-in-wizard-with-visual-studio.md
-        - name: Windows Media Player 自訂視覺效果
+        - name: Windows Media Player自訂視覺效果
           href: windows-media-player-custom-visualizations.md
           items:
             - name: 關於自訂視覺效果
@@ -4020,7 +4020,7 @@
                 - name: 開發人員總覽
                   href: developer-overview.md
                   items:
-                    - name: 控制流程
+                    - name: 控制項 Flow
                       href: flow-of-control.md
                 - name: 建立視覺效果
                   href: building-a-visualization.md
@@ -4106,7 +4106,7 @@
                       href: /previous-versions/windows/desktop/api/effects/ne-effects-playerstate
                     - name: TimedLevel
                       href: /previous-versions/bb249531(v%3Dvs.85)
-        - name: Windows Media Player 消費者介面外掛程式
+        - name: Windows Media Player消費者介面外掛程式
           href: windows-media-player-user-interface-plug-ins.md
           items:
             - name: 關於消費者介面外掛程式
@@ -4185,7 +4185,7 @@
                       href: /previous-versions/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-setproperty
                     - name: IWMPPluginUI：： TranslateAccelerator
                       href: /previous-versions/windows/desktop/api/wmpplug/nf-wmpplug-iwmppluginui-translateaccelerator
-        - name: Windows Media Player 的 DSP 外掛程式
+        - name: Windows Media PlayerDSP 外掛程式
           href: windows-media-player-dsp-plug-ins.md
           items:
             - name: 關於 DSP 外掛程式
@@ -4368,7 +4368,7 @@
                       href: /previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps
                     - name: WMPServices_StreamState
                       href: /previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate
-        - name: Windows Media Player 轉換外掛程式
+        - name: Windows Media Player轉換外掛程式
           href: windows-media-player-conversion-plug-ins.md
           items:
             - name: 關於轉換外掛程式
@@ -4393,10 +4393,10 @@
     - name: Windows Media 中繼檔案  (可能為英文網頁)
       href: windows-media-metafiles.md
       items:
-        - name: 關於 Windows Media 中繼檔
+        - name: 關於 Windows 媒體中繼檔
           href: about-windows-media-metafiles.md
           items:
-            - name: Windows Media 中繼檔總覽
+            - name: Windows媒體中繼檔總覽
               href: windows-media-metafiles-overview.md
               items:
                 - name: 中繼檔播放清單的用途
@@ -4405,18 +4405,18 @@
                   href: using-a-metafile-playlist.md
                 - name: 支援多種語言
                   href: support-for-multiple-languages.md
-            - name: ' (淘汰的 Windows Media 下載套件) '
+            - name: 'Windows媒體下載套件 (已淘汰) '
               href: windows-media-download-packages--deprecated.md
               items:
-                - name: 'Windows Media 下載套件的運作方式 (已淘汰) '
+                - name: 'Windows 媒體下載套件的運作方式 (已淘汰) '
                   href: how-windows-media-download-packages-work--deprecated.md
-                - name: '在 Windows Media 下載套件中使用框線 (已淘汰) '
+                - name: '使用 Windows 媒體下載套件中的框線 (已淘汰) '
                   href: using-borders-in-windows-media-download-packages--deprecated.md
-                - name: '在 Windows Media 下載套件中使用播放清單 (已淘汰) '
+                - name: '使用 Windows 媒體下載套件的播放清單 (已淘汰) '
                   href: using-playlists-in-windows-media-download-packages--deprecated.md
-                - name: ' (已淘汰) 建立 Windows Media 下載套件'
+                - name: '建立 Windows 媒體下載套件 (已淘汰) '
                   href: creating-a-windows-media-download-package--deprecated.md
-        - name: Windows Media 中繼檔指南
+        - name: Windows媒體中繼檔指南
           href: windows-media-metafile-guide.md
           items:
             - name: 播放清單的類型
@@ -4426,7 +4426,7 @@
               items:
                 - name: 嵌套中繼檔
                   href: nesting-metafiles.md
-                - name: 使用 ASP 頁面動態建立 Windows Media 中繼檔播放清單
+                - name: 使用 ASP 頁面動態建立 Windows 媒體中繼檔播放清單
                   href: using-asp-pages-to-dynamically-create-windows-media-metafile-playlists.md
             - name: 中繼檔播放清單
               href: metafile-playlists.md
@@ -4492,10 +4492,10 @@
               href: metafile-extension-guidelines.md
             - name: 優先順序
               href: order-of-precedence.md
-        - name: Windows Media 中繼檔參考
+        - name: Windows媒體中繼檔參考
           href: windows-media-metafile-reference.md
           items:
-            - name: Windows Media 中繼檔元素參考
+            - name: Windows媒體中繼檔元素參考
               href: windows-media-metafile-elements-reference.md
               items:
                 - name: ABSTRACT 元素
@@ -4547,17 +4547,17 @@
                   href: title-element--metafile.md
             - name: 副檔名
               href: file-name-extensions.md
-        - name: '舊版的 Windows Media 中繼檔 (已淘汰) '
+        - name: '舊版 Windows 媒體中繼檔 (已淘汰) '
           href: previous-versions-of-windows-media-metafiles--deprecated.md
           items:
             - name: '參考元素 (已被取代) '
               href: reference-element--deprecated.md
             - name: ' (已淘汰的 MSWMExt 參數) '
               href: mswmext-parameter--deprecated.md
-    - name: Windows Media 播放清單
+    - name: Windows媒體播放清單
       href: windows-media-playlists.md
       items:
-        - name: Windows Media 播放清單元素參考
+        - name: WindowsMedia 播放清單元素參考
           href: windows-media-playlist-elements-reference.md
           items:
             - name: 引數元素
@@ -4586,7 +4586,7 @@
               href: sourcefilter-element.md
             - name: .WPL) 的 title 元素 (
               href: title-element--wpl.md
-    - name: Windows Media Player 線上商店
+    - name: Windows Media Player線上商店
       href: windows-media-player-online-stores.md
       items:
         - name: 線上商店歡迎套件
@@ -4936,15 +4936,15 @@
                 - name: 建立 Type 2 線上商店的外掛程式
                   href: building-the-plug-in-for-a-type-2-online-store.md
                   items:
-                    - name: 安裝專案嚮導
+                    - name: 安裝 Project Wizard
                       href: installing-the-project-wizard.md
-                    - name: 建立範例專案
+                    - name: 建立範例 Project
                       href: creating-a-sample-project.md
-                    - name: 編譯範例專案
+                    - name: 編譯範例 Project
                       href: compiling-the-sample-project.md
-                    - name: 執行範例專案
+                    - name: 執行範例 Project
                       href: running-the-sample-project.md
-                    - name: 自訂範例專案
+                    - name: 自訂範例 Project
                       href: customizing-the-sample-project.md
                 - name: 類型2線上商店的流覽
                   href: navigation-for-type-2-online-stores.md
@@ -5075,7 +5075,7 @@
                   items:
                     - name: WMPSubscriptionServiceEvent
                       href: /previous-versions/windows/desktop/api/subscriptionservices/ne-subscriptionservices-wmpsubscriptionserviceevent
-                - name: Windows Media Player BITS 作業慣例
+                - name: Windows Media PlayerBITS 作業慣例
                   href: windows-media-player-bits-job-convention.md
                 - name: Type 2 線上商店的登錄機碼和專案
                   href: registry-keys-and-entries-for-a-type-2-online-store.md
@@ -5202,7 +5202,7 @@
               href: redistributing-windows-media-player-9.md
             - name: 從應用程式偵測 Windows Media Player
               href: detecting-windows-media-player-from-an-application.md
-            - name: 偵測 Windows Media 安裝程式的安裝狀態
+            - name: 偵測 Windows 媒體安裝程式的安裝狀態
               href: detecting-setup-status-for-windows-media-setup.md
         - name: 發佈 Windows Media Player 的編解碼器
           href: publishing-codecs-for-windows-media-player.md
@@ -5215,7 +5215,7 @@
               href: about-the-metadata.md
             - name: 適用于中繼資料傳輸的 MTP 裝置擴充功能
               href: mtp-device-extensions-for-metadata-transfer.md
-            - name: 適用于中繼資料傳輸的 Windows Media 裝置管理員裝置擴充功能
+            - name: Windows用於中繼資料傳輸的媒體裝置管理員裝置延伸模組
               href: windows-media-device-manager-device-extensions-for-metadata-transfer.md
               items:
                 - name: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE

@@ -4,12 +4,12 @@ ms.assetid: 1b4b6a2d-411e-42d1-a44b-bb1928e1c063
 title: 'MEQualityNotify 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42d8f486bfebfd137ba341176af0fdad257776df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4dd019db55a0791ec5464cf67c7ee4d3e4a86f918efc2b4e87f4ddde2f3574ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061873"
 ---
 # <a name="mequalitynotify-event"></a>MEQualityNotify 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "104512841"
 
 
 
-| VARTYPE           | Description                         |
+| VARTYPE           | 描述                         |
 |-------------------|-------------------------------------|
 | VT \_ I8<br/> | 請參閱＜備註＞。<br/> <br/> |
 
@@ -54,8 +54,8 @@ ms.locfileid: "104512841"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

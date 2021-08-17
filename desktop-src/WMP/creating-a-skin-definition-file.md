@@ -3,7 +3,7 @@ title: 建立外觀定義檔
 description: 建立外觀定義檔
 ms.assetid: ea7f8e7c-a505-478d-80c3-cb3a3f67859d
 keywords:
-- Windows Media Player 行動外觀、面板定義檔
+- Windows Media Player行動外觀、面板定義檔
 - 外觀、面板定義檔
 - 面板的檔案、外觀定義
 - 外觀定義檔，建立
@@ -11,12 +11,12 @@ keywords:
 - 建立外觀 Windows Media Player 行動裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b8a2920a08a3f57f740ff5ed3ca6e291ffd1bde
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0bb18289a8ed124c820e983c37ccc9fff60c5c1c2b0794e4964a8e170c84909
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341598"
 ---
 # <a name="creating-a-skin-definition-file"></a>建立外觀定義檔
 

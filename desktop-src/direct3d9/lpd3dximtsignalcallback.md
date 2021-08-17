@@ -4,12 +4,12 @@ ms.assetid: 97b07dbc-6b84-46d2-acc7-db81d94538f7
 title: LPD3DXIMTSIGNALCALLBACK
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dbf75bf1a3fc05b217feef8446636efaae55b3b
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 96e4f6ffaa4c844e755d489aae52dd13b8390da1145734d50f5865bbe0e3cfc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728505"
 ---
 # <a name="lpd3dximtsignalcallback"></a>LPD3DXIMTSIGNALCALLBACK
 
@@ -47,7 +47,7 @@ typedef HRESULT (WINAPI* LPD3DXIMTSIGNALCALLBACK)
 
 ## <a name="remarks"></a>備註
 
-宣告回呼函數時，請務必指定 [**Windows 資料類型**](../winprog/windows-data-types.md) 呼叫慣例。 否則，可能會發生堆疊溢位。
+宣告回呼函數時，請務必指定 [**Windows 資料類型**](../winprog/windows-data-types.md)呼叫慣例。 否則，可能會發生堆疊溢位。
 
 
 

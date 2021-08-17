@@ -5,12 +5,12 @@ ms.assetid: 745619bc-c7b3-48fa-8212-cb1b5b9ed4db
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 685bcf87ef8c634db367db62b3ec1472b50e3b6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a4a57cbc31ae19bd858a191cec827760d055a87fc7ca19b134f61b17f8fd065e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742767"
 ---
 # <a name="winrm-plug-in-api-structures"></a>WinRM 外掛程式 API 結構
 
@@ -18,7 +18,7 @@ ms.locfileid: "104301519"
 
 
 
-| 結構                                                        | Description                                                                              |
+| 結構                                                        | 描述                                                                              |
 |------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [**WSMAN \_ 授權 \_ 配額**](/windows/desktop/api/Wsman/ns-wsman-wsman_authz_quota)                 | 以每個使用者為基礎來定義配額資訊。                                           |
 | [**WSMAN \_ 憑證 \_ 詳細資料**](/windows/desktop/api/Wsman/ns-wsman-wsman_certificate_details) | 代表用戶端憑證中的欄位。                                     |
@@ -31,11 +31,11 @@ ms.locfileid: "104301519"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

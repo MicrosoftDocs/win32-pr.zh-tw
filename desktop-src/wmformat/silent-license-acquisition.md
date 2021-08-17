@@ -3,8 +3,8 @@ title: 無訊息授權取得
 description: 無訊息授權取得
 ms.assetid: bf88f1bb-0cbb-4c30-92e0-3d342977d67f
 keywords:
-- Windows Media Format SDK，無提示授權取得
-- Windows Media Format SDK，授權
+- Windows媒體格式 SDK，無提示授權取得
+- Windows媒體格式 SDK，授權
 - 數位版權管理 (DRM) ，無訊息授權取得
 - DRM (數位版權管理) ，無訊息授權取得
 - 數位版權管理 (DRM) 、授權
@@ -15,12 +15,12 @@ keywords:
 - 授權，取得無訊息授權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7ef92eaf4e347e8eb30f56c1111ec5b27f1e62d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7eff454ce673230f0c7dbe6f64afbf46e9bbe8b5f948609f5fb67d647a4151ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197460"
 ---
 # <a name="silent-license-acquisition"></a>無訊息授權取得
 
@@ -43,9 +43,9 @@ ms.locfileid: "104021736"
 [**使用媒體基礎事件模型**](using-the-media-foundation-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

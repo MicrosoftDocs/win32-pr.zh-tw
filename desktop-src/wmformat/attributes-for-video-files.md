@@ -29,7 +29,7 @@ ms.locfileid: "118434607"
 ## <a name="primary-attributes-for-video"></a>影片的主要屬性
 
 -   [**作者**](author.md)
--   [**Title**](title.md)
+-   [**標題**](title.md)
 -   [**WM/ContentDistributor**](wm-contentdistributor.md)
 -   如果有 (，則為 [**WM/DVDID**](wm-dvdid.md)否則，請使用 [**wm/WMCollectionID**](wm-wmcollectionid.md)、 [**wm/WMCollectionGroupID**](wm-wmcollectiongroupid.md)和 [**wm/WMContentID**](wm-wmcontentid.md)) 
 -   [**WM/內容類型**](wm-genre.md)

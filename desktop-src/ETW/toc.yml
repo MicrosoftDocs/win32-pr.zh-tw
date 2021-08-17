@@ -225,7 +225,7 @@
                           href: hwconfig-nic.md
                         - name: HWConfig_PhyDisk
                           href: hwconfig-phydisk.md
-                    - name: Image
+                    - name: 映像
                       href: image.md
                       items:
                         - name: Image_Load

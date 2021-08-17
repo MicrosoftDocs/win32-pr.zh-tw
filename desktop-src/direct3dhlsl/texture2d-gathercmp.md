@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 18455f33ba97c9d5a0180a59e39891cd617a09af
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
-ms.translationtype: HT
+ms.openlocfilehash: 3a6c77cfc8215c3428f32204881acfea8990226f45283f30ec321bba99d773df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104973900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117722925"
 ---
 # <a name="texture2dgathercmp-methods"></a>Texture2D：： GatherCmp 方法
 

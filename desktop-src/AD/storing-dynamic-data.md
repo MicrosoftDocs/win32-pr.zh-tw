@@ -7,12 +7,12 @@ keywords:
 - 儲存動態資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24f422fb61732d50fd9e2b436e56248a3ce6bbc9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cbb0ba01a84fc426cc1667a7fc6175ab6572c99e4c20a7903d11d876b22703bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183089"
 ---
 # <a name="storing-dynamic-data"></a>儲存動態資料
 
@@ -23,9 +23,9 @@ ms.locfileid: "103671223"
 -   [動態物件](dynamic-objects.md)
 -   [動態輔助類別](dynamic-auxiliary-classes.md)
 
- 
+ 
 
- 
+ 
 
 
 

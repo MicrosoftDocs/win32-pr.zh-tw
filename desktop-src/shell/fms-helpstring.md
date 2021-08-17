@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: b3ae7f86-5d58-47fa-87bd-e4e6a3541a93
-ms.openlocfilehash: 4e9521df91619d108c7a03b6574926147fc2b04a
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 85c7c94f91cad962239745d5dffa82898ef4ad0539431122106f7d85fdaff1c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224117"
 ---
 # <a name="fms_helpstring-structure"></a>FMS \_ HELPSTRING 結構
 

@@ -13,16 +13,16 @@ keywords:
 - 自訂配置登錄設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a02649d9536140fff0ff0d3188a5b25feb49688
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af1f20b69570a18d256049bb0e785099e43b091d080e4f9f65e62655c3103d68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750391"
 ---
 # <a name="custom-scheme-registry-settings"></a>自訂配置登錄設定
 
-配置是自訂的通訊協定。 Windows Media Player 會維護使用者電腦上登錄中的配置清單。 當使用者嘗試播放數位媒體檔案時，Player 會先檢查 Windows Media 格式 SDK 是否支援該配置。 如果不是，則播放清單會根據登錄中的清單來檢查配置。 如果找到相符的值，播放程式就會檢查指出哪些基礎技術或 *運行* 時間 (（例如 Microsoft DirectShow 或 Windows MEDIA Format SDK) ）可以用來播放檔案的值。 如果找不到相符項，播放程式會向使用者呈現警告對話方塊，提示使用者嘗試播放該檔案的許可權。 如果您使用自訂通訊協定配置串流數位媒體檔案，您可以註冊配置並提供執行時間的值，以防止此警告出現在使用者的電腦上。
+配置是自訂的通訊協定。 Windows Media Player 會維護使用者電腦上登錄中的配置清單。 當使用者嘗試播放數位媒體檔案時，播放者會先檢查 Windows 媒體格式 SDK 是否支援該配置。 如果不是，則播放清單會根據登錄中的清單來檢查配置。 如果找到相符的值，播放程式就會檢查指出哪些基礎技術或 *運行* 時間 (（例如 Microsoft DirectShow 或 Windows 媒體格式 SDK) ）可以用來播放檔案的值。 如果找不到相符項，播放程式會向使用者呈現警告對話方塊，提示使用者嘗試播放該檔案的許可權。 如果您使用自訂通訊協定配置串流數位媒體檔案，您可以註冊配置並提供執行時間的值，以防止此警告出現在使用者的電腦上。
 
 配置清單會以一組符合已註冊配置的登錄機碼來維護，而不含冒號和兩個斜線 (：//) 。 例如，用來串流豐富媒體的 wmhtml://配置金鑰，名為 "wmhtml"。 針對本機電腦和每個使用者都可以維護個別的清單。 針對本機電腦，配置索引鍵是下列登錄機碼的子機碼：
 
@@ -50,14 +50,14 @@ ms.locfileid: "104021038"
 
 | 值 | 描述                                |
 |-------|--------------------------------------------|
-| 6     | 使用 Windows Media Format SDK 轉譯。 |
-| 7     | 使用 Microsoft DirectShow 轉譯。         |
+| 6     | 使用 Windows 媒體格式 SDK 轉譯。 |
+| 7     | 使用 Microsoft DirectShow 呈現。         |
 
 
 
- 
+ 
 
-變更 Windows Media 格式 SDK 支援的配置 *運行* 時間值將不會有任何作用。 播放程式一律會使用 Windows Media Format SDK 做為 Windows Media Format SDK 所支援的配置執行時間。 此登錄值是設計來允許自訂配置的執行時間設定。
+變更 Windows 媒體格式 SDK 支援的配置 *運行* 時間值將不會有任何作用。 播放程式一律會使用 Windows 媒體格式 sdk 作為 Windows 媒體格式 sdk 所支援的配置執行時間。 此登錄值是設計來允許自訂配置的執行時間設定。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -66,9 +66,9 @@ ms.locfileid: "104021038"
 [**登錄設定**](registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

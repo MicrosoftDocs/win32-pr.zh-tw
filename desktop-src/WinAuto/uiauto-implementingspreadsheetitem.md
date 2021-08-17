@@ -15,12 +15,12 @@ keywords:
 - 介面，ISpreadsheetItemProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88ba050c5a5c8b10c68695fdf1a05d845353e638
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58d5feaa32b5fe79635c6acc01e1e0b18b9ba77c382ba3f07c64f7cb3e921b06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324368"
 ---
 # <a name="spreadsheetitem-control-pattern"></a>SpreadsheetItem 控制項模式
 
@@ -55,7 +55,7 @@ ms.locfileid: "104023964"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -78,6 +78,6 @@ ms.locfileid: "104023964"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

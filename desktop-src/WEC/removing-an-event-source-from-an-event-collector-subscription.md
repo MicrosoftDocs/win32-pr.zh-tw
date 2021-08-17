@@ -5,12 +5,12 @@ ms.assetid: 6c9e0dbf-59a2-4db9-8fb8-0dbfda5cf38b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 303e0a708c2b52225af83475674e5f60d1a8418d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 46e155e4d8467722e9ac5eae04189ed3ba8333f65ec162ffb50f6b9268cf8a92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751039"
 ---
 # <a name="removing-an-event-source-from-a-collector-initiated-subscription"></a>從收集器起始的訂用帳戶中移除事件來源
 
@@ -26,11 +26,11 @@ ms.locfileid: "103840331"
 >
 > 您可以使用此範例從收集器起始的訂用帳戶中移除事件來源，或者您可以在命令提示字元中輸入下列命令：
 >
-> **>wecutil ss** *SubscriptionName*  * */esa： * * * EventSourceAddress* **/res**
+> **>wecutil ss** *SubscriptionName* **/esa：**_EventSourceAddress_ **/res**
 >
 > *EventSourceAddress* 可以是本機電腦的 localhost 或遠端電腦的完整功能變數名稱。
 
- 
+ 
 
 此範例會遵循一連串的步驟，從收集器起始的訂用帳戶中移除事件來源。
 
@@ -325,12 +325,12 @@ DWORD GetEventSourceProperty(EC_OBJECT_ARRAY_PROPERTY_HANDLE hArray,
 [列出事件收集器訂閱](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Windows 事件收集器參考](windows-event-collector-reference.md)
+[Windows事件收集器參考](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

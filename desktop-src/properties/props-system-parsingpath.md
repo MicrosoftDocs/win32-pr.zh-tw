@@ -4,18 +4,18 @@ ms.assetid: e0fb2092-0427-40c9-9e09-aefc5ef017e6
 title: System. ParsingPath
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae62243ff37464617f87654f8ca1f04c3ea606da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de98a39806d2db752c72da9706eaf35b4b6b5296cb82f3a75bee4d35add3680c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230396"
 ---
 # <a name="systemparsingpath"></a>System. ParsingPath
 
 專案的 Shell 命名空間路徑。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

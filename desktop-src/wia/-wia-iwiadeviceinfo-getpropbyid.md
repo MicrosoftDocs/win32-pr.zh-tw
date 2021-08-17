@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: adbc8b6a29f97066c8dc5b2e45b7ddc5834f2b60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c996989661703c4a9c7416cd63904c376fdb7fcca3071d4558551bdd78470d3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208784"
 ---
 # <a name="deviceinfogetpropbyid-method"></a>DeviceInfo. GetPropById 方法
 
@@ -56,9 +56,9 @@ retVal = DeviceInfo.GetPropById(
 
 ## <a name="remarks"></a>備註
 
-您可以使用這個方法，從識別碼中找出裝置屬性的值。 如需屬性識別碼的清單，請參閱 [WIA 屬性常數定義](-wia-wia-property-constant-definitions.md)。 如需 Windows 映像取得 (WIA) 屬性本身的詳細資訊，請參閱 [Wia 屬性常數](-wia-wia-property-constants.md)。
+您可以使用這個方法，從識別碼中找出裝置屬性的值。 如需屬性識別碼的清單，請參閱 [WIA 屬性常數定義](-wia-wia-property-constant-definitions.md)。 如需 Windows 映像取得 (wia) 屬性本身的相關資訊，請參閱[wia 屬性常數](-wia-wia-property-constants.md)。
 
-若為 Microsoft Visual Basic 的應用程式，請新增「Windows 映像取得1.01 類型程式庫」的參考。 該檔案中定義的下列常數適用于此方法：
+針對 Microsoft Visual Basic 的應用程式，請新增「Windows 影像取得1.01 型別程式庫」的參考。 該檔案中定義的下列常數適用于此方法：
 
 ``` syntax
 const DeviceID = 2
@@ -103,8 +103,8 @@ Next
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (4.90 版或更新版本) </dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6da4ae2c360b13077a612b92ab19a739a58a07e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4250f178c4e1e2322e1609159eabd2fbd99611c10420bb90ce7bd287c44a5d88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170938"
 ---
 # <a name="hdn_begintrack-notification-code"></a>HDN \_ BEGINTRACK 通知碼
 
@@ -57,8 +57,8 @@ HDN_BEGINTRACK
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **HDN \_BEGINTRACKW** (Unicode) 和 **HDN \_ BEGINTRACKA** (ANSI) <br/>             |
 

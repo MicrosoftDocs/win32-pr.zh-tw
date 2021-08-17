@@ -6,12 +6,12 @@ keywords:
 - 調整效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad3af77bc24db387fff0854e0432c270fa2ce6d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d3a28e71dfb552a35bf138c245a82937bd600e61acd8b4a82b42cbc8d9d66a65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003657"
 ---
 # <a name="scale-effect"></a>調整效果
 
@@ -72,7 +72,7 @@ m_d2dContext->EndDraw();
 <thead>
 <tr class="header">
 <th>顯示名稱和索引列舉</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -168,8 +168,8 @@ BitmapSize<sub>y</sub> (圖元) = 縮放<sub>y</sub> \* 原始點陣圖大小<su
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

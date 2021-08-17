@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI、起始頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15cc702fec86f1202f1fbd00ba575fd848e4ab74
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: a03c82f075822d04edf27edc56e14bb058745ae2ee0d7fbe280cd33ee2af2282
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181432"
 ---
 # <a name="active-directory-service-interfaces"></a>Active Directory 服務介面
 
@@ -27,7 +27,7 @@ ADSI 可啟用一般管理工作，例如新增使用者、管理印表機，以
 > [!Note]  
 > 下列檔適用于電腦程式設計人員。 如果您是嘗試偵測列印錯誤或家用網路問題的使用者，請參閱 [Microsoft 社區論壇](https://answers.microsoft.com)。
 
- 
+ 
 
 ## <a name="where-applicable"></a>適用時
 
@@ -37,11 +37,11 @@ ADSI 可啟用一般管理工作，例如新增使用者、管理印表機，以
 
 ## <a name="developer-audience"></a>開發人員對象
 
-您可以撰寫許多語言的 ADSI 用戶端應用程式。 針對大部分的系統管理工作，ADSI 定義了可從與 Automation 相容的語言（例如 Microsoft Visual Basic、Microsoft Visual Basic Scripting Edition (VBScript) 和 JAVA）存取的介面和物件，以提供更高效能和效率的語言，例如 C 和 c + +。 在 COM 程式設計中，良好的基礎適用于 ADSI 程式設計人員。
+您可以撰寫許多語言的 ADSI 用戶端應用程式。 針對大部分的系統管理工作，ADSI 定義了可從符合自動化規範的語言（如 microsoft Visual Basic、microsoft Visual Basic 腳本撰寫版 (VBScript) 和 JAVA）存取的介面和物件，以提升效能和效率的語言，例如 c 和 c + +。 在 COM 程式設計中，良好的基礎適用于 ADSI 程式設計人員。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-Active Directory 在 Windows Server 網域控制站上執行。 不過，您可以在 Windows 上撰寫和執行使用 ADSI 的用戶端應用程式。 此外，開發人員也需要平臺軟體發展工具組 (SDK) ，也可在 MSDN 網站上取得。 若要調查 Active Directory 的內容，請使用 Active Directory 消費者和電腦 MMC 嵌入式管理單元。 此嵌入式管理單元取代了舊版 Windows 所提供的 Adsvw 工具。
+Active Directory 會在 Windows Server 網域控制站上執行。 不過，您可以在 Windows 上撰寫和執行使用 ADSI 的用戶端應用程式。 此外，開發人員也需要平臺軟體發展工具組 (SDK) ，也可在 MSDN 網站上取得。 若要調查 Active Directory 的內容，請使用 Active Directory 消費者和電腦 MMC 嵌入式管理單元。 此嵌入式管理單元會取代舊版 Windows 所提供的 Adsvw 工具。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -88,6 +88,6 @@ ADSI 介面和方法的檔。
 [Active Directory Domain Services](../ad/active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

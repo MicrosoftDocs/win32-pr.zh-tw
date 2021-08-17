@@ -23,12 +23,12 @@ keywords:
 - TSF 的安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d7a345087304be638be93fa352845cdd468bf15
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: be73494d4538b25dfa0b004c8691391fb1c572c7ce6d82247cacae4fb9e0a838
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952017"
 ---
 # <a name="new-features-in-tsf"></a>TSF 中的新功能
 
@@ -36,7 +36,7 @@ ms.locfileid: "104375500"
 
 ## <a name="extended-support-of-advanced-text-services"></a>Advanced Text Services 的延伸支援
 
-TSF 和 Windows 已新增支援，可為整個桌面的所有應用程式提供一致的使用者介面。 這項新的支援可讓不知道 TSF 的繼承應用程式或控制項充分利用一些 advanced text services。 例如，您現在可以在任何應用程式中，使用語音聽寫和手寫將文字輸入檔。
+已將支援新增至 TSF 和 Windows，為整個桌面的所有應用程式提供一致的使用者介面。 這項新的支援可讓不知道 TSF 的繼承應用程式或控制項充分利用一些 advanced text services。 例如，您現在可以在任何應用程式中，使用語音聽寫和手寫將文字輸入檔。
 
 這項新功能只適用于 WindowsXP Service Pack 1 或更新版本。 預設會關閉它。 若要啟用它，請在 [**地區及語言選項**] 控制台的 [**文字服務] 和 [輸入語言**] 部分中，按一下 [新的 **Advanced** ] 索引標籤中的核取方塊。
 
@@ -50,6 +50,6 @@ TSF 和 Windows 已新增支援，可為整個桌面的所有應用程式提供�
 
 TSF 的安全性和穩定性已大幅改善，可降低惡意程式存取堆疊、堆積或其他安全記憶體位置的可能性。 軟體發展工具組 (SDK) 範例應用程式和文字服務的安全性也已有所改善。
 
- 
+ 
 
- 
+ 

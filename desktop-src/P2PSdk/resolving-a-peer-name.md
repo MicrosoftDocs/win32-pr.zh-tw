@@ -4,12 +4,12 @@ ms.assetid: 7b21ec52-bc29-447e-9c46-34b9115574e0
 title: 解析對等名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e7f3aa59d3dc3be89f35ce9d6eca58bed1ce137
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7aefcae37c8853982fff8f4e925641ab9c650b8946766983fa437f9df18e01d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794441"
 ---
 # <a name="resolving-a-peer-name"></a>解析對等名稱
 

@@ -4,12 +4,12 @@ ms.assetid: abfc84d5-954f-4524-b3cb-5c5b9cfc7fa0
 title: 'MFPKEY_COMPLEXITYEX 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20579bcf7a06dc11f47cbef6a53629f3a36b48dc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e658e438909677f326372caa9e4da533e350b7133cc647b8f56562d09ad949e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873535"
 ---
 # <a name="mfpkey_complexityex-property"></a>MFPKEY \_ COMPLEXITYEX 屬性
 
@@ -31,8 +31,8 @@ VT \_ I4
 
 | 編碼器版本                 | 預設值 |
 |---------------------------------|---------------|
-| Windows Media 視訊9編碼器   | 3             |
-| Windows Media 視訊7/8 編碼器 | 1             |
+| WindowsMedia Video 9 編碼器   | 3             |
+| Windows媒體影片7/8 編碼器 | 1             |
 
 
 
@@ -46,8 +46,8 @@ VT \_ I4
 
 | 編碼器版本                 | 可能值  |
 |---------------------------------|------------------|
-| Windows Media 視訊9編碼器   | 0、1、2、3、4、5 |
-| Windows Media 視訊7/8 編碼器 | 0、1             |
+| WindowsMedia Video 9 編碼器   | 0、1、2、3、4、5 |
+| Windows媒體影片7/8 編碼器 | 0、1             |
 
 
 
@@ -65,8 +65,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: WSAPROTOCOL 資訊結構中的 Multipoint 屬性 \_ 包括 XP1 \_ �
 ms.assetid: f1bd5aa1-e705-4eaf-9436-fed0ea03f113
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baedcd07f53db462eb090217b53d93a1a4aa8c34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1275b6da00258be10b071bc9b2399abaf5dd608583f3d81a0fdb16af493824ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741102"
 ---
 # <a name="multipoint-attributes-in-wsaprotocol_info"></a>WSAPROTOCOL_INFO 中的 Multipoint 屬性
 

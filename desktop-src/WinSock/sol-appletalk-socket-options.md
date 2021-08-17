@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 api_location:
 - Atalkwsh.h
-ms.openlocfilehash: 146cfa02706cc9a2669cf21ba6d9eac0ac74ee4d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5ea45b4007a3bd36d2cfbceda5b7ec4f2cff20d9bb2387fb2d184710a8a4492c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740005"
 ---
 # <a name="sol_appletalk-socket-options"></a>SOL \_ APPLETALK 通訊端選項
 
@@ -29,7 +29,7 @@ ms.locfileid: "106999682"
 
 <dl> <dt><span id="SOL_APPLETALK_Socket_Options"></span><span id="sol_appletalk_socket_options"></span><span id="SOL_APPLETALK_SOCKET_OPTIONS"></span>**SOL \_ APPLETALK 通訊端選項**</dt> <dd> <dl> <dt> 
 
-| 選項                          | Get | 設定 | Optval 類型                          | Description                                                                                                                                                                                          |
+| 選項                          | Get | 集合 | Optval 類型                          | 描述                                                                                                                                                                                          |
 |---------------------------------|-----|-----|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_確認 \_ 名稱               | 是 |     | **WSH \_ NBP \_ 元組**                  | 確認指定的 AppleTalk 名稱已系結至指定的位址。                                                                                                                                  |
 | 所以取消 \_ 註冊 \_ 名稱            |     | 是 | **WSH \_ 註冊 \_ 名稱**              | 從網路取消註冊名稱。                                                                                                                                                               |
@@ -52,9 +52,9 @@ ms.locfileid: "106999682"
 
  
 
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_APPLETALK_options"></span><span id="windows_support_for_sol_appletalk_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_APPLETALK_OPTIONS"></span>**適用于 SOL APPLETALK 選項的 Windows 支援 \_**</dt> <dd> <dl> <dt> 
+</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_APPLETALK_options"></span><span id="windows_support_for_sol_appletalk_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_APPLETALK_OPTIONS"></span>**Windows支援 SOL \_ APPLETALK 選項**</dt> <dd> <dl> <dt> 
 
-| 選項                          | Windows Vista 和更新版本 | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/我 |
+| 選項                          | WindowsVista 和更新版本 | Windows Server 2003 | Windows XP | Windows 2000 | WindowsNT4 | Windows 9x/我 |
 |---------------------------------|-------------------------|---------------------|------------|--------------|-------------|---------------|
 | \_確認 \_ 名稱               |                         | x                   | x          | x            | x           |               |
 | 所以取消 \_ 註冊 \_ 名稱            |                         | x                   | x          | x            | x           |               |
@@ -77,7 +77,7 @@ ms.locfileid: "106999682"
 
  
 
-只有在 Windows 2000 和 Windows NT 4.0 的伺服器版本上，才支援 **SOL \_ APPLETALK** 選項。
+只有 Windows 2000 和 Windows NT 4.0 的伺服器版本才支援 **SOL \_ APPLETALK** 選項。
 
 
 </dt> </dl> </dd> </dl>

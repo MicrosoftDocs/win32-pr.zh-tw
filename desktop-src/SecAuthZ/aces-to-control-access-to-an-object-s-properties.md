@@ -4,12 +4,12 @@ ms.assetid: 79dd4a45-c42c-4775-93ce-6e3206894d63
 title: 用來控制物件屬性存取權的 Ace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1068ceb994e72deedcb795586ddf712fe9c1893
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fddd5d78ff5b02bbbe4b9b7a7ce0b77d7be263f9fd3926f44411469af2bb3c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785247"
 ---
 # <a name="aces-to-control-access-to-an-objects-properties"></a>用來控制物件屬性存取權的 Ace
 

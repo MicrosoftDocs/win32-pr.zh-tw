@@ -4,14 +4,14 @@ ms.assetid: 980b8242-2ba2-469f-b834-da7d3fb22e14
 title: 'ACE (Winnt. h) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4d06b3457e4df6aea38d3e35acf4f7aaa4e2f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de555170bc8b7c1594b38adaa95d19b7e9ace54c8241fc971ea9f5383cf3e115
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785217"
 ---
-# <a name="ace"></a>Ace
+# <a name="ace"></a>ACE
 
 **ACE** 是 [*存取控制清單*](/windows/desktop/SecGloss/a-gly)中 (ACL) 的 [*存取控制專案*](/windows/desktop/SecGloss/a-gly)。
 
@@ -181,9 +181,9 @@ ms.locfileid: "106982375"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Winnt (包括 Windows .h) </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                   |
+| 標頭<br/>                   | <dl> <dt>Winnt (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -200,7 +200,7 @@ ms.locfileid: "106982375"
 [**\_拒絕存取 \_ ACE**](/windows/desktop/api/Winnt/ns-winnt-access_denied_ace)
 </dt> <dt>
 
-[**Acl**](/windows/desktop/api/Winnt/ns-winnt-acl)
+[**ACL**](/windows/desktop/api/Winnt/ns-winnt-acl)
 </dt> <dt>
 
 [**系統 \_ 警報 \_ ACE**](/windows/desktop/api/Winnt/ns-winnt-system_alarm_object_ace)

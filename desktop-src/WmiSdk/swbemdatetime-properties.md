@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SWbemDateTime 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9366dc9d6bac727885f563ce256790c2068c3293
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fadeddf190fc7c864e68d278e66bfa27c4a9bfd3b40a8df17b3bc7ec6563c72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739405"
 ---
 # <a name="swbemdatetime-properties"></a>SWbemDateTime 屬性
 

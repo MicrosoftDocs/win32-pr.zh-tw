@@ -4,12 +4,12 @@ ms.assetid: 58fc8741-261a-4e63-9fd3-8f0ca05866ad
 title: MTP 延伸模組屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86a653d05285d62c7660bd914a785807a2341a01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0468d249b469c4e768962ab6a920935e7a64b51d8e035af111e8274f7f0b9af6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193944"
 ---
 # <a name="mtp-extension-properties"></a>MTP 延伸模組屬性
 

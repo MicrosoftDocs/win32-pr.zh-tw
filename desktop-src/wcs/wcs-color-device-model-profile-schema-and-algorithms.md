@@ -1,15 +1,15 @@
 ---
 title: WCS 色彩裝置模型設定檔架構和演算法
-description: 本主題提供有關 WCS 色彩裝置模型設定檔架構及其相關演算法的資訊。本主題包含下列各節 OverviewColor 裝置模型設定檔 ArchitectureThe CDMP SchemaWCS CDMP v 2.0 校正 AdditionThe CDMP 架構 ElementsColorDeviceModelProfileColorDeviceModelNamespaceVersionVersionDocumentationCRTDevice elementLCDDevice elementProjectorDevice elementScannerDevice elementCameraDevice elementRGBPrinterDevice elementCMYKPrinterDevice elementRGBVirtualDeviceelementPlugInDeviceTypeRGBVirtualMeasurementTypeGammaTypeGammaOffsetGainTypeGammaOffsetGainLinearGainTypeToneResponseCurvesTypeGamutBoundarySamplesTypeFloatPairListCMYKPrinterMeasurementTypeRGBPrinterMeasurementTypeRGBCaptureMeasurementTypeOneBasedIndexRGBProjectorMeasurementTypeDisplayMeasurementTy peMeasurementConditionsTypeGeometryTypeRGBPrimariesGroupNonNegativeCMYKSampleTypeNonNegativeRGBSampleTypeNonNegativeCMYKTypeNonNegativeRGBTypeExtensionTypeNonNegativeXYZTypeXYZTypeThe CDMP 基準 AlgorithmsCRT 裝置型號 BaselineLCD 裝置型號 BaselineRGB 印表機裝置型號 BaselineRGB 虛擬裝置型號 BaselineCMYK 印表機裝置型號 BaselineRGB 投影機裝置型號 BaselineICC 裝置型號 BaselineRelated 主題
+description: 本主題提供有關 WCS 色彩裝置模型設定檔架構及其相關演算法的資訊。本主題包含下列各節 OverviewColor 裝置模型設定檔 ArchitectureThe CDMP SchemaWCS CDMP v 2.0 校正 AdditionThe CDMP 架構 ElementsColorDeviceModelProfileColorDeviceModelNamespaceVersionVersionDocumentationCRTDevice elementLCDDevice elementProjectorDevice elementScannerDevice elementCameraDevice elementRGBPrinterDevice elementCMYKPrinterDevice elementRGBVirtualDeviceelementPlugInDeviceTypeRGBVirtualMeasurementTypeGammaTypeGammaOffsetGainTypeGammaOffsetGainLinearGainTypeToneResponseCurvesTypeGamutBoundarySamplesTypeFloatPairListCMYKPrinterMeasurementTypeRGBPrinterMeasurementTypeRGBCaptureMeasurementTypeOneBasedIndexRGBProjectorMeasurementTypeDisplayMeasurementTypeMeasurementConditionsTypeGeometryTypeRGBPrimariesGroupNonNegativeCMYKSampleTypeNonNegativeRGBSampleTypeNonNegativeCMYKTypeNonNegativeRGBTypeExtensionTypeNonNegativeXYZTypeXYZTypeThe CDMP 基準 AlgorithmsCRT 裝置型號 BaselineLCD 裝置型號 BaselineRGB 印表機裝置型號 BaselineRGB 虛擬裝置模型 BaselineCMYK 印表機裝置型號 BaselineRGB 投影機裝置型號 BaselineICC 裝置型號 BaselineRelated 主題
 ms.assetid: bbb3b50d-75fc-476d-a011-af7dcc2ac520
 keywords:
-- 'Windows Color System (WCS) ，色彩裝置模型設定檔 (CDMP) '
-- 'WCS (Windows 色彩系統) ，色彩裝置模型設定檔 (CDMP) '
+- 'Windows色彩系統 (WCS) ，色彩裝置模型設定檔 (CDMP) '
+- 'WCS (Windows 色彩系統) 、色彩裝置模型設定檔 (CDMP) '
 - '影像色彩管理、色彩裝置模型設定檔 (CDMP) '
 - '色彩管理、色彩裝置模型設定檔 (CDMP) '
 - '色彩、色彩裝置模型設定檔 (CDMP) '
-- Windows Color System (WCS) ，設定檔
-- WCS (Windows 色彩系統) ，設定檔
+- Windows色彩系統 (WCS) ，設定檔
+- WCS (Windows 色彩系統) 、設定檔
 - 影像色彩管理，設定檔
 - 色彩管理，設定檔
 - 色彩，設定檔
@@ -21,12 +21,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8b671bf97625b00c99060e65be4d39c44e5b35f
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 5210da85cd320a80e6b29a59e3cb5ff37c86fd174934832404e4b52cf53bd110
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104562165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118037804"
 ---
 # <a name="wcs-color-device-model-profile-schema-and-algorithms"></a>WCS 色彩裝置模型設定檔架構和演算法
 
@@ -484,7 +484,7 @@ DMP XML 架構的取樣元件提供基本色彩測量目標的支援，著重在
 
 ## <a name="wcs-cdmp-v20-calibration-addition"></a>加入 WCS CDMP 2.0 版校正
 
-CDMP 架構的 **ColorDeviceModel** 元素已在 Windows 7 中更新，以包含新的校正元素。 下圖顯示 CDMP 架構的變更。
+已在 Windows 7 中更新 CDMP 架構的 **ColorDeviceModel** 元素，以包含新的校正元素。 下圖顯示 CDMP 架構的變更。
 
 
 ```C++
@@ -557,7 +557,7 @@ targetNamespace = " http://schemas.microsoft.com/windows/2005/02/color/ColorDevi
 
 ### <a name="version"></a>版本
 
-Version = "1.0" 與 Windows Vista 搭配使用。
+Version = "1.0" Windows Vista。
 
 **驗證條件：** 任何版本值 &gt; 0.1 或 &lt; = 2.0 都有效，可支援格式的非重大變更。
 
@@ -1051,7 +1051,7 @@ Y 和 Z 有類似的運算式。用於調整 polynomials 的數學技巧會落�
 
 ![顯示演算法流程的圖表。](images/cdmp-lcd-dmp-figure4.png)
 
-**圖 4** ：用來判斷用於輸入 RGB 值之內推樣本點集合的流程圖
+**圖 4** ：用來判斷用於輸入 RGB 值之內推樣本點集合的 Flow 圖
 
 假設先前的進程產生了非空白的點， (*R <sub>i</sub>*、*G <sub>i</sub>*、b ) 和 *對應 <sub></sub>* 的 (*L <sub>i</sub>*，*a <sub>i</sub>*，*b <sub>i</sub>* ) ，然後針對每個這 *類的點*，指定的 *權數 <sub></sub>*
 
@@ -1243,7 +1243,7 @@ CIELUV 空間會在印表機模型中使用，而不是 CIEJab，因為裝置型
 [基本色彩管理概念](basic-color-management-concepts.md)
 </dt> <dt>
 
-[Windows 色彩系統架構和演算法](windows-color-system-schemas-and-algorithms.md)
+[Windows色彩系統架構和演算法](windows-color-system-schemas-and-algorithms.md)
 </dt> </dl>
 
  

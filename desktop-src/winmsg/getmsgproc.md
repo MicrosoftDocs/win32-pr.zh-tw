@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: aa055e4184cdc9be5bb60a421ad5937bbfd15393
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: e5c51f2abe8b3660ae40bae05c13428e0622fd4d5c4b8020fea8caa924a35681
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "106966595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200790"
 ---
 # <a name="getmsgproc-function"></a>GetMsgProc 函式
 
@@ -111,4 +111,4 @@ LRESULT CALLBACK GetMsgProc(
 
 [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw)
 
-[鉤](hooks.md)
+[勾點](hooks.md)

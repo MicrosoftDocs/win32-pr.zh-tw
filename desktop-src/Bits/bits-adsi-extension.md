@@ -6,12 +6,12 @@ keywords:
 - BITS ADSI 擴充功能位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34c045f8f7fff8e66251a94a9f704046674934ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6245fb1ea9e2c1f48a9f77068e5e48449d1182ba4550e1411ba781e056a87447
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173864"
 ---
 # <a name="bits-adsi-extension"></a>BITS ADSI 擴充功能
 
@@ -26,11 +26,11 @@ BITS 伺服器提供下列 ADSI 擴充介面，以啟用 BITS 上傳。
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

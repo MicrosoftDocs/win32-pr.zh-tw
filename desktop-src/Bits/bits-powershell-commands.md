@@ -4,12 +4,12 @@ description: 背景智慧型傳送服務 (位) 4.0 可以使用 Windows PowerShe
 ms.assetid: 2c151dfe-4f89-41ea-a533-21ffcf0aa39e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5bd195d2202849c2bf2df580d159ee401911c51
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7acc88c557209ed2958d06766215278e75223a1b297bd2704ca1dcba062cfed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173854"
 ---
 # <a name="managed-reference-for-bits-powershell-commands"></a>BITS PowerShell 命令的受管理參考
 
@@ -31,7 +31,7 @@ Start-BitsTransfer -Source https://aka.ms/WinServ16/StndPDF -Destination c:\temp
 
  
 
-如需有關使用 Windows Powershell 的詳細資訊，請參閱 [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx)。
+如需使用 Windows Powershell 的詳細資訊，請參閱[Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx)。
 
 ## <a name="bits-powershell-classes"></a>BITS PowerShell 類別
 

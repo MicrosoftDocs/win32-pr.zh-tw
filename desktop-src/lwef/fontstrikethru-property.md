@@ -4,16 +4,16 @@ description: FontStrikeThru 屬性
 ms.assetid: 2d87fded-2f3e-44cd-b2a5-5f9c76ca1cf5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c9e1ac8874a11832025dd225aa4df4afa91b4d8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 26832699bfdfd74e753e44ba88f89400560d8c93cf010ed6ab35878f31bc8495
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118479256"
 ---
 # <a name="fontstrikethru-property"></a>FontStrikeThru 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "106965358"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。FontStrikeThru**
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。FontStrikeThru_*
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "106965358"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -46,9 +46,9 @@ ms.locfileid: "106965358"
 
 在 [Microsoft 代理程式字元編輯器] 中，會設定字元字提示字元之字型設定的預設值。 此外，使用者可以覆寫 Microsoft Agent 屬性工作表中所有字元的字型設定。
 
- 
+ 
 
- 
+ 
 
 
 

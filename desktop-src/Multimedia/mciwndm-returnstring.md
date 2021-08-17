@@ -3,7 +3,7 @@ title: 'MCIWNDM_RETURNSTRING 訊息 (Vfw .h) '
 description: MCIWNDM \_ RETURNSTRING 訊息會將回復傳給傳送至 MCI 裝置的最新 mci 字串命令。
 ms.assetid: 36a5222c-a63c-4b8c-ad0c-a00477e95b96
 keywords:
-- MCIWNDM_RETURNSTRING message Windows 多媒體
+- MCIWNDM_RETURNSTRING 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b99307bd7d61a70db594d0a696cceccd6d246a3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2ea9624c70245c67f0f6a78af68bf291ae3ce60ba65ae2cd273008bbc914ec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137655"
 ---
 # <a name="mciwndm_returnstring-message"></a>MCIWNDM \_ RETURNSTRING 訊息
 

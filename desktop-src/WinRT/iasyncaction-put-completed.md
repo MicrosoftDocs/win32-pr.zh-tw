@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.Foundation.idl
-ms.openlocfilehash: ec26401aeeed61445b0f244880864366fd5c6118
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aff219d5e6847c64034eed1b057e300ea601eedaa8aa7a131f1467aeacc42422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323161"
 ---
 # <a name="iasyncactionput_completed-method"></a>IAsyncAction：:p 的 ui \_ 已完成方法
 
@@ -42,7 +42,7 @@ HRESULT put_Completed(
 *處理常式* \[擴展\]
 </dt> <dd>
 
-類型： **[**AsyncActionCompletedHandler**](asyncactioncompletedhandler.md) \** _
+類型： **[ **AsyncActionCompletedHandler**](asyncactioncompletedhandler.md)\***
 
 處理完成通知的方法。
 
@@ -50,7 +50,7 @@ HRESULT put_Completed(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -62,7 +62,7 @@ HRESULT put_Completed(
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 8<br/>                                                                              |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                                    |
-| 標頭<br/>                   | <dl> <dt>Windows .idl</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Windows。Foundation .idl</dt> </dl> |
 
 
 

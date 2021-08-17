@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d7b23cd9ca304ab4722c705ef87a813c28c0689d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 02f45ddeb8f16ca608c216eab9bf8cf96f469e2e75d4a29a45fe6eec2b3679e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117822073"
 ---
 # <a name="cdrawimagenotifyenddraw-method"></a>CDrawImage. NotifyEndDraw 方法
 

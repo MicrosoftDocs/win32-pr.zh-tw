@@ -1,5 +1,5 @@
 ---
-description: WMI 使用標準的 Windows 安全描述項來控制 WMI 命名空間的存取權。
+description: wmi 使用標準 Windows 安全描述項來控制 WMI 命名空間的存取權。
 ms.assetid: 5cf9886c-04fa-480e-889f-b64a6a70d053
 ms.tgt_platform: multiple
 title: 存取 WMI 命名空間
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6eaebe5370e97dcb42ddcf79018015ceff9147f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b750c8dee2b95597636620dc54ad193cb762cd259b2bf7149c52996e85e09b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926024"
 ---
 # <a name="access-to-wmi-namespaces"></a>存取 WMI 命名空間
 
-WMI 使用標準的 Windows *安全描述項* 來控制 WMI 命名空間的存取權。 當您透過 WMI "winmgmts" 的名字標記或 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) 或 [**wbemscripting.swbemlocator**](swbemlocator-connectserver.md)的呼叫來連線至 wmi 時，您會連接到特定的命名空間。
+wmi 使用標準 Windows *安全描述項* 來控制 WMI 命名空間的存取權。 當您透過 WMI "winmgmts" 的名字標記或 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) 或 [**wbemscripting.swbemlocator**](swbemlocator-connectserver.md)的呼叫來連線至 wmi 時，您會連接到特定的命名空間。
 
 本主題將討論下列資訊：
 
@@ -32,11 +32,11 @@ WMI 使用標準的 Windows *安全描述項* 來控制 WMI 命名空間的存�
 
 ## <a name="wmi-namespace-security"></a>WMI 命名空間安全性
 
-WMI 會將連接到命名空間之使用者的 [*存取權杖*](/windows/desktop/SecGloss/a-gly) 與命名空間的 [*安全描述項*](/windows/desktop/SecGloss/s-gly) 進行比較，以維護命名空間安全性。 如需 Windows 安全性的詳細資訊，請參閱 [存取 WMI 安全物件](access-to-wmi-securable-objects.md)。
+WMI 會將連接到命名空間之使用者的 [*存取權杖*](/windows/desktop/SecGloss/a-gly) 與命名空間的 [*安全描述項*](/windows/desktop/SecGloss/s-gly) 進行比較，以維護命名空間安全性。 如需 Windows 安全性的詳細資訊，請參閱[存取 WMI 安全物件](access-to-wmi-securable-objects.md)。
 
-請注意，從 Windows Vista 開始， [使用者帳戶控制 (UAC)](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) 會影響對 wmi 資料的存取權，以及可使用 [*wmi 控制項*](gloss-w.md)設定的內容。 如需詳細資訊，請參閱 [WMI 命名空間的預設許可權](#default-permissions-on-wmi-namespaces) 以及 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。
+請注意，從 Windows Vista 開始， [ (UAC) 的使用者帳戶控制](https://www.microsoft.com/technet/windowsvista/security/uac.mspx)會影響對 wmi 資料的存取權，以及可使用 [*wmi 控制項*](gloss-w.md)設定的內容。 如需詳細資訊，請參閱 [WMI 命名空間的預設許可權](#default-permissions-on-wmi-namespaces) 以及 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。
 
-從遠端電腦連線時，也會影響對 WMI 命名空間的存取。 如需詳細資訊，請參閱 [連接到遠端電腦上的 wmi](connecting-to-wmi-on-a-remote-computer.md)、 [保護遠端 WMI](securing-a-remote-wmi-connection.md)連線，以及 [透過 Windows 防火牆連接](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)。
+從遠端電腦連線時，也會影響對 WMI 命名空間的存取。 如需詳細資訊，請參閱[連接到遠端電腦上的 wmi](connecting-to-wmi-on-a-remote-computer.md)、[保護遠端 WMI](securing-a-remote-wmi-connection.md)連線，以及[透過 Windows 防火牆](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)進行連線。
 
 提供者必須依賴連接的模擬設定，以判斷用戶端腳本或應用程式是否應該接收資料。 如需腳本和用戶端應用程式的詳細資訊，請參閱 [設定用戶端應用程式處理安全性](setting-client-application-process-security.md)。 如需 [*提供者*](gloss-p.md) 模擬的詳細資訊，請參閱 [開發 WMI 提供者](developing-a-wmi-provider.md)。
 
@@ -46,7 +46,7 @@ WMI 會使用命名空間 [*系統存取控制清單 (SACL)*](/windows/desktop/S
 
 安裝作業系統時，不會啟用審核。 若要啟用 [審核]，請按一下標準 **安全性** 視窗中的 [**審核**] 索引標籤。 然後您可以新增一個審核專案。
 
-本機電腦的群組原則必須設定為 [允許審核]。 您可以執行 gpedit.msc MMC 嵌入式管理單元來啟用審核，並在 [電腦設定] 下設定 [**電腦** 設定] 視窗設定 [本機  >    >    >  **原則**  >  **稽核原則**] 下的 [audit 物件存取]。
+本機電腦的群組原則必須設定為 [允許審核]。 您可以執行 gpedit.msc MMC 嵌入式管理單元來啟用審核，並在 [**電腦** 設定] 下設定 **Audit 物件存取**  >  **Windows 設定**  >  **安全性設定**  >  **本機原則**  >  **稽核原則**。
 
 審核專案會編輯命名空間的 SACL。 當您新增審核專案時，它可以是使用者、群組、電腦或內建的安全性主體。 加入專案之後，您可以設定產生安全性記錄事件的存取作業。 例如，您可以在 [群組驗證的使用者] 中按一下 [執行方法]。 每當 [已驗證的使用者] 群組的成員在該命名空間中執行方法時，此設定就會產生安全性記錄檔事件。 WMI 事件的事件識別碼為4662。
 

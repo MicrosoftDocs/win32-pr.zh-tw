@@ -4,12 +4,12 @@ description: 如果呼叫物件實 ICancelMethodCalls 介面，用戶端可以�
 ms.assetid: 30a162f2-ce16-4ee6-8002-59216ac0e59a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 775b187f1abd3fca43ba907d92f6eabd926e4608
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 42d2751400d631c62c19f68f2cab841c0845b432df676abe60befed1f231e103
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737112"
 ---
 # <a name="canceling-an-asynchronous-call"></a>取消非同步呼叫
 
@@ -34,6 +34,6 @@ ms.locfileid: "104093383"
 [進行非同步呼叫](making-an-asynchronous-call.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

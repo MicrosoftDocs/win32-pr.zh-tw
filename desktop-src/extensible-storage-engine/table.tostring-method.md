@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 022fc92ca7fbc15991104068dac000b1cedfa305
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b20afca5a6f397c05eecda7001b3d266b54213fa7faa616ed959a2473c67da89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118484724"
 ---
 # <a name="tabletostring-method"></a>Table. ToString 方法
 

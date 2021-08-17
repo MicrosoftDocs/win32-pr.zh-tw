@@ -4,12 +4,12 @@ ms.assetid: 09bdb2fc-9c38-4632-89bd-f9d9123d3b22
 title: 對等基礎結構一般參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 999de1454c34b52e7951665a772c4f61a530802a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2792b1858561be64ec02938bfa98e4c03f5adfb24797d8f773867a3d2e53db8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794451"
 ---
 # <a name="peer-infrastructure-common-reference"></a>對等基礎結構一般參考
 

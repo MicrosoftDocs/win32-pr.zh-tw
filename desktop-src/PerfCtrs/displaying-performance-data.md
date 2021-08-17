@@ -4,16 +4,16 @@ ms.assetid: 75e45baf-51c5-400c-a31f-92bdab4ee492
 title: 顯示效能資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22d913474b794585dd557fae2b1fc232336b637d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c56a2882485c0bf21db6f1f00788fb927442219f020b1241ab4cd64619c7ec56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794009"
 ---
 # <a name="displaying-performance-data"></a>顯示效能資料
 
-大部分的計數器都需要兩個範例值，才能計算可顯示的值。 每個計數器的公式會決定計數器是否需要兩個樣本。 如需計數器及其公式的清單，請參閱 [Windows Server 2003 部署套件](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10))的「計數器類型」一節。
+大部分的計數器都需要兩個範例值，才能計算可顯示的值。 每個計數器的公式會決定計數器是否需要兩個樣本。 如需計數器及其公式的清單，請參閱[Windows Server 2003 部署套件](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10))的「計數器類型」一節。
 
 [收集效能資料](collecting-performance-data.md) 會顯示如何取出範例資料。 擁有範例之後，您通常會呼叫 [**PdhGetFormattedCounterValue**](/windows/desktop/api/Pdh/nf-pdh-pdhgetformattedcountervalue) 來計算可顯示的值。
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 99c25c377ff6064a704d56b9e7b31d41b37117e5
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3e5b5ff3451424251d778886af3841c673ce5a85d91022db9144c62574c16640
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118089321"
 ---
 # <a name="lit---vs"></a>亮-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104971569"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104971569"
 
 
 
- 
+ 
 
 假設來源向量包含下列虛擬程式碼中所示的值。
 
@@ -100,9 +100,9 @@ if (src.x > 0)
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

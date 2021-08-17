@@ -1,5 +1,5 @@
 ---
-description: 針對執行過時 Windows 的電腦上的個別使用者清單設定遠端存取許可權，無法使用透過 Windows 安全描述項的存取控制。
+description: 在執行過時版本的 Windows 的電腦上，設定個別使用者清單的遠端存取許可權，但無法使用透過 Windows 安全描述項的存取控制。
 ms.assetid: f6da65d3-86dd-4fc8-b4c0-f7ddc8536d4e
 ms.tgt_platform: multiple
 title: __SystemSecurity：： Set9XUserList 方法
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - all
-ms.openlocfilehash: dd377da3adf55aef6a78576e1c978196f349f619
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1185fa91d9d12e240f592d458b975b650947cf5b8cd1b289a7e016b455556a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118109959"
 ---
 # <a name="__systemsecurityset9xuserlist-method"></a>\_\_SystemSecurity：： Set9XUserList 方法
 
-**\_ \_ SystemSecurity：： Set9XUserList** 方法會針對執行過時 windows 的電腦上的個別使用者清單設定遠端存取許可權，而無法使用透過 windows 安全描述項的存取控制。
+**\_ \_ SystemSecurity：： Set9XUserList** 方法會針對執行過時版本的 Windows 電腦上的個別使用者清單設定遠端存取許可權，但無法使用透過 Windows 安全描述項的存取控制。
 
 此清單會指定為内嵌物件的陣列，其中每個物件都是 [**\_ \_ NTLMUser9X**](--ntlmuser9x.md)類別的實例。 這項功能類似于安全描述項，但更受限制。 群組不受支援，而且無法控制本機存取，因為本機使用者一律具有完整存取權。 拒絕和允許存取控制專案 (ACE) ，因此 ACE 順序在 (DACL) 的任意存取控制清單中很重要。 如需詳細資訊，請參閱 [DACL 中的 Ace 順序](/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl)。
 
@@ -51,7 +51,7 @@ HRESULT Set9XUserList(
 
 ## <a name="return-value"></a>傳回值
 
-這個方法會傳回 **HRESULT** ，指出方法呼叫的狀態。 下列清單列出對 **Set9XUserList** 而言很重要的傳回值。 針對編寫腳本和 Visual Basic 應用程式，可以從 OutParameters 取得結果 [ReturnValue](parsing-outparameters-objects.md)。 如需詳細資訊，請參閱 [建立 InParameters 物件和剖析 OutParameters 物件](constructing-inparameters-objects-and-parsing-outparameters-objects.md)。
+這個方法會傳回 **HRESULT** ，指出方法呼叫的狀態。 下列清單列出對 **Set9XUserList** 而言很重要的傳回值。 針對編寫腳本和 Visual Basic 應用程式，可以從 OutParameters 取得結果[ReturnValue](parsing-outparameters-objects.md)。 如需詳細資訊，請參閱 [建立 InParameters 物件和剖析 OutParameters 物件](constructing-inparameters-objects-and-parsing-outparameters-objects.md)。
 
 <dl> <dt>
 

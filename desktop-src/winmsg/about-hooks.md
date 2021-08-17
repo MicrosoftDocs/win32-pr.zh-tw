@@ -4,12 +4,12 @@ ms.assetid: 9ced0ac4-e602-425f-b954-6af9c741699a
 title: 攔截
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36c5d89f111604418d1dc3ea9a4ebce6fe0a8124
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10754f7275ce06c17b668e04c7792e6296a854fbe14a6ebc9544fbb70c73e9cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118201223"
 ---
 # <a name="hooks-overview"></a>攔截
 

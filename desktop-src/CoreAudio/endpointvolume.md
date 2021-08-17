@@ -4,12 +4,12 @@ ms.assetid: 2597f3b1-5339-4fd4-9938-39ff917626b4
 title: EndpointVolume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e89efe89035ec272c68c6a9289672a249616e23
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c157149e6b15014b1228b2b5c97080fcdbdccd9acc2745ee5a986a7de7c997f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828269"
 ---
 # <a name="endpointvolume"></a>EndpointVolume
 
@@ -24,7 +24,7 @@ ms.locfileid: "104468332"
 -   [執行範例](#running-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 這個範例會示範下列功能。
 
@@ -66,7 +66,7 @@ ms.locfileid: "104468332"
 
 1.  開啟 Windows SDK 的 CMD shell，並變更為 EndpointVolume 範例目錄。
 2.  在 EndpointVolume 目錄中執行命令 `start EndpointVolumeChanger.sln` ，以在 Visual Studio 視窗中開啟 EndpointVolumeChanger 專案。
-3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 SDK 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 SDK 組建環境。 在此情況下，除非您明確設定在專案檔 WASAPIEndpointVolume 中使用的環境變數 MSSdk，否則此範例不會建立。
+3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 sdk 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 sdk 組建環境。 在此情況下，除非您明確設定在專案檔 WASAPIEndpointVolume 中使用的環境變數 MSSdk，否則此範例不會建立。
 
 ## <a name="running-the-sample"></a>執行範例
 

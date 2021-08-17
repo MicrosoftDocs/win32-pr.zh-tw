@@ -1,5 +1,5 @@
 ---
-description: 提供 Microsoft Windows HTTP Services (WinHTTP) 的事件。
+description: 提供 Microsoft Windows HTTP 服務 (WinHTTP) 的事件。
 ms.assetid: 0721d7f9-2e84-41a9-be52-89c8d638eb90
 title: IWinHttpRequestEvents 介面
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - HttpRequest.idl
-ms.openlocfilehash: 3cdd0bf10c0d4bd75351ddaab6e88ce7182850fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42b8355de57ada064e57a129c77ba507a72028b1c38ce115e58db110f2ce976b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744346"
 ---
 # <a name="iwinhttprequestevents-interface"></a>IWinHttpRequestEvents 介面
 
-**IWinHttpRequestEvents** 介面提供 [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md)的事件。 它只會使用事件方法。
+**IWinHttpRequestEvents** 介面會提供 [Microsoft Windows HTTP 服務 (WinHTTP)](about-winhttp.md)的事件。 它只會使用事件方法。
 
 ## <a name="members"></a>成員
 
@@ -60,7 +60,7 @@ ms.locfileid: "106985319"
 若要查看一些註冊 COM 通知的程式碼，請參閱 [Com 連接點](/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points) 一文的用戶端一節。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -70,10 +70,10 @@ ms.locfileid: "106985319"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 
 
 

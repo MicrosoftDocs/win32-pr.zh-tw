@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CHString：： Mid 方法 (ChString .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 5d05259128f80bcb21d00144d19002ca58ce39c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbe5b7fc6e3f0d4130e106217c46c82202c230f180dd4c90d09f90073dee08ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319840"
 ---
 # <a name="chstringmid-methods"></a>CHString：： Mid 方法
 
@@ -37,7 +37,7 @@ ms.locfileid: "106989466"
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                                                                                      |
-| 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                                                                                                |
+| 最低支援的伺服器<br/> | Windows伺服器2008<br/>                                                                                                                                |
 | 標頭<br/>                   | <dl> <dt>ChString (包含 FwCommon) </dt> </dl>                                                    |
 | 程式庫<br/>                  | <dl> <dt>FrameDyn .lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll;</dt><dt>FrameDyn.dll</dt> </dl> |

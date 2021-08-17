@@ -8,12 +8,12 @@ keywords:
 - 服務連接點 AD，屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 511bbba8acf50a185f1bdd8b55d9b7f8ce684817
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 05241e958233bd271621f2155a97924e213b03144ea68ed5e783373df373496a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183565"
 ---
 # <a name="service-connection-point-properties"></a>服務連接點屬性
 

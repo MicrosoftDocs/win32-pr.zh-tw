@@ -4,12 +4,12 @@ ms.assetid: c6245571-428a-4965-b58c-24645ddca70d
 title: 硬體組態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ee4abe543f0603ab6cf80ef395fe56e4e3300c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e396b2d08b489e92c7a407ca892250135fdd3d174d16de50d0c2d75428a88dce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764416"
 ---
 # <a name="hardware-configuration"></a>硬體組態
 

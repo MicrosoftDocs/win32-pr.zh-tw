@@ -4,12 +4,12 @@ ms.assetid: 57dedad1-7264-48fc-9ac2-c6c72f7fee27
 title: TAPI 服務提供者總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e847ed49879e9ff55662477a762fa7297443d12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29871b21124eab7ea4e7e84a9e7e8ca49853cb7a236c6f7a482dbf842a568304
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104554298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760295"
 ---
 # <a name="tapi-service-provider-overview"></a>TAPI 服務提供者總覽
 

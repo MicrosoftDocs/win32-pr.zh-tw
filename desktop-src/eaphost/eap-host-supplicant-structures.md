@@ -4,12 +4,12 @@ description: 瞭解 EAPHost 要求者 API 結構，例如 EAP 認證 \_ \_ 需�
 ms.assetid: 77595f36-140d-4d8e-af8e-63e9de0031c4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e7121e123fd790a54a95dafb59c080f435ca917
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: e6703070eabbc571927569f28c39109bbe1eda2f1c70b621982dde3ab4ac3a61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904615"
 ---
 # <a name="eaphost-supplicant-structures"></a>EAPHost 要求者結構
 
@@ -34,12 +34,12 @@ EAPHost 要求者 API 結構如下所示。
 | [**EAP \_ 方法 \_ 屬性 \_ 值 \_ 字串**](/windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value_string) | Windows 7 或更新版本：包含 string 資料類型方法屬性值。                                               |
 | [**EAPHOST \_ AUTH \_ 資訊**](/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info)                                 | 描述 EAP 驗證程式之不同階段中目前的驗證資訊。          |
 | [**EapHostPeerMethodResult**](/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult)                       | 包含 EAPHost 在驗證會話期間產生的結果資料，然後傳遞給 EAP 方法。 |
-| [**EapHostPeerNapInfo**](/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult)                            | Windows 7 或更新版本：包含 EAP 要求者上 (NAP) 資訊的網路存取保護。                   |
+| [**EapHostPeerNapInfo**](/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult)                            | Windows 7 或更新版本：包含 EAP 要求者 (NAP) 資訊的網路存取保護。                   |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

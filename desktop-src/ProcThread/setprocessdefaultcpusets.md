@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 - KernelBase.dll
-ms.openlocfilehash: 7998b20815529b41c5e29204c0ef50fbc15e6288
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e085f769e5b086c1f68d721df6463afa7f51a0e5f9f292c7fce1dadd0356535
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793175"
 ---
 # <a name="setprocessdefaultcpusets-function"></a>SetProcessDefaultCpuSets 函式
 
@@ -74,8 +74,8 @@ BOOL WINAPI SetProcessDefaultCpuSets(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 10 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | Windows Server 2016 \[ desktop app \| UWP 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows 10 \[桌面應用程式 \| UWP 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[桌面應用程式 \| UWP 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Processthreadsapi。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Windows。h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |

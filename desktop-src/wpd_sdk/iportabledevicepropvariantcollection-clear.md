@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: fa7c2a8dddeb74b5ac666da2561bd6ee6536821a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0cec3f12757fe43c408488204de8b0dd95d5e95c75d8315ea758e4311ff5e9bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194136"
 ---
 # <a name="iportabledevicepropvariantcollectionclear-method"></a>IPortableDevicePropVariantCollection：： Clear 方法
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntdll.dll
 - ntoskrnl.exe
-ms.openlocfilehash: 30207c8d3d54c54f77194b542e10e9fee94e055a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7972d3d2e6b98f56829680dd77c4c0a97b51679ffb2d9cfef928d4a279f6b7f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792912"
 ---
 # <a name="zwqueryinformationprocess-function"></a>ZwQueryInformationProcess 函式
 
@@ -82,7 +82,7 @@ NTSTATUS WINAPI ZwQueryInformationProcess(
 </tr>
 <tr class="odd">
 <td><span id="ProcessWow64Information"></span><span id="processwow64information"></span><span id="PROCESSWOW64INFORMATION"></span><dl> <dt><strong>ProcessWow64Information</strong></dt> <dt>26</dt> </dl></td>
-<td>判斷進程是否正在 WOW64 環境中執行 (WOW64 是 x86 模擬器，可讓 Win32 應用程式在64位 Windows) 上執行。<br/> 最好使用 <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process"><strong>IsWow64Process</strong></a> 函式來取得此資訊。<br/></td>
+<td>判斷進程是否正在 wow64 環境中執行 (wow64 是 x86 模擬器，可讓 Win32 應用程式在 64 Windows) 上執行。<br/> 最好使用 <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process"><strong>IsWow64Process</strong></a> 函式來取得此資訊。<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ProcessImageFileName"></span><span id="processimagefilename"></span><span id="PROCESSIMAGEFILENAME"></span><dl> <dt><strong>ProcessImageFileName</strong></dt> <dt>27</dt> </dl></td>
@@ -93,7 +93,7 @@ NTSTATUS WINAPI ZwQueryInformationProcess(
 <td>抓取 <strong>ULONG</strong> 值，指出進程是否視為嚴重。<br/>
 <blockquote>
 [!Note]<br />
-從 Windows XP SP3 開始，可以使用這個值。 從 Windows 8.1 開始，應該改為使用 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical"><strong>IsProcessCritical</strong></a> 。
+從 Windows XP SP3 開始，可以使用這個值。 從 Windows 8.1 開始，應該改為使用<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical"><strong>IsProcessCritical</strong></a> 。
 </blockquote>
 <br/></td>
 </tr><tr class="even">
@@ -226,7 +226,7 @@ typedef enum _PS_PROTECTED_SIGNER {
 
 ## <a name="remarks"></a>備註
 
-**ZwQueryInformationProcess** 函式和它所傳回的結構是作業系統的內部，而且可能會從某個 Windows 版本變更為另一個。 若要維持應用程式的相容性，最好改為使用 *ProcessInformationClass* 參數描述中提及的公用函數。
+**ZwQueryInformationProcess** 函式及其傳回的結構都是作業系統的內部，而且可能會從一個 Windows 版本變更為另一個版本。 若要維持應用程式的相容性，最好改為使用 *ProcessInformationClass* 參數描述中提及的公用函數。
 
 如果您使用 **ZwQueryInformationProcess**，可透過 [執行時間動態連結](../dlls/using-run-time-dynamic-linking.md)存取函式。 這可讓您的程式碼有機會在作業系統中的函式已變更或移除時正常回應。 不過，簽章變更可能無法偵測。
 
@@ -238,8 +238,8 @@ typedef enum _PS_PROTECTED_SIGNER {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 
 

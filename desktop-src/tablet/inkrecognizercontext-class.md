@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: afe5469cabf6764ed9b02fdcffcc8c1bedaca1d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 781d1b440f1287b22d5c3ddf7ecf7132f7311fc5f48da5da20e4145717f65bb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218399"
 ---
 # <a name="inkrecognizercontext-class"></a>InkRecognizerCoNtext 類別
 
@@ -72,7 +72,7 @@ ms.locfileid: "104193155"
 |:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BackgroundRecognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize)                             | 指定辨識器應該在辨識完成時，辨識相關聯 [**的筆劃**](inkrecognizercontext-recognition.md) 並引發辨識事件。<br/>                                                                |
 | [**BackgroundRecognizeWithAlternates**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates) | 指定辨識器應該在辨識完成時，辨識相關聯的筆劃並引發 [**RecognitionWithAlternates**](inkrecognizercontext-recognitionwithalternates.md) 事件。<br/>                                    |
-| [**克隆**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                                                      | 建立重複的 **InkRecognizerCoNtext**。<br/>                                                                                                                                                                                               |
+| [**複製**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                                                      | 建立重複的 **InkRecognizerCoNtext**。<br/>                                                                                                                                                                                               |
 | [**EndInkInput**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-endinkinput)                                             | 結束筆墨輸入至 **InkRecognizerCoNtext**。<br/>                                                                                                                                                                                             |
 | [**IsStringSupported**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-isstringsupported)                                 | 指出系統字典、使用者字典或 [**單字清單**](inkwordlist-class.md) 是否包含指定的字串。<br/>                                                                                                             |
 | [**Recognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize)                                                 | 在 [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) 集合上執行辨識，並傳回辨識結果。<br/>                                                                                                                          |
@@ -95,7 +95,7 @@ ms.locfileid: "104193155"
 | [**指南**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_guide)<br/>                                     | 讀取/寫入<br/> | 取得或設定要用於筆墨輸入的 [**InkRecognizerGuide**](inkrecognizerguide-class.md) 。<br/>                                                   |
 | [**PrefixText**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext)<br/>                           | 讀取/寫入<br/> | 取得或設定 **InkRecognizerCoNtext** 物件中 [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85))集合之前的字元。<br/> |
 | [**RecognitionFlags**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags)<br/>               | 讀取/寫入<br/> | 取得或設定旗標，指定辨識器如何解讀筆墨並決定結果字串。<br/>                                     |
-| [**辨識器**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognizer)<br/>                           | 讀取/寫入<br/> | 取得或設定 **InkRecognizerCoNtext** 物件所使用的 [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer)物件。<br/>                                   |
+| [**識別**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognizer)<br/>                           | 讀取/寫入<br/> | 取得或設定 **InkRecognizerCoNtext** 物件所使用的 [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer)物件。<br/>                                   |
 | [**中風**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes)<br/>                                 | 讀取/寫入<br/> | 取得或設定與 **InkRecognizerCoNtext** 物件相關聯的 [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85))集合。<br/>                    |
 | [**SuffixText**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext)<br/>                           | 讀取/寫入<br/> | 取得或設定在 **InkRecognizerCoNtext** 物件中 [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85))集合之後的字元。<br/>  |
 | [**單詞表**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist)<br/>                               | 讀取/寫入<br/> | 取得或設定用來改善辨識結果的 [**InkWordList**](inkwordlist-class.md) 物件。<br/>                               |
@@ -127,7 +127,7 @@ ms.locfileid: "104193155"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

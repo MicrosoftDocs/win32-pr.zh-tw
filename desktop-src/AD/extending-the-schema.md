@@ -8,12 +8,12 @@ keywords:
 - 架構 AD，擴充架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90c03d57468fb5275c55ce0d725a2decd7cfbf0f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3c50853e7b782f46b84212965c249ac90b685958c799c1b44cd366d5526e158d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106965836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189556"
 ---
 # <a name="extending-the-schema"></a>擴充架構
 
@@ -35,6 +35,6 @@ Active Directory Directory 服務架構會定義 Active Directory Domain Service
 
 如需詳細資訊，包括預先定義之架構類別、屬性和屬性語法的參考頁面，請參閱 [Active Directory Domain Services 參考](active-directory-domain-services-reference.md)中的 Active Directory 架構參考。
 
- 
+ 
 
- 
+ 

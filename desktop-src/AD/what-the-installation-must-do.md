@@ -7,12 +7,12 @@ keywords:
 - 安裝必須進行的 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5724a7acbb4d0bf8ef3008fa48e2f10fcc04a324
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3dcf125a171fba921a5341ad5f3de8bbe5d791d4eb4dc072f551345df3218ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182171"
 ---
 # <a name="what-the-installation-must-do"></a>安裝必須做什麼
 
@@ -29,9 +29,9 @@ ms.locfileid: "103931869"
 
 如果不會立即使用延伸模組，則不需要步驟 4;視系統負載而定，擴充功能將會在架構快取中出現大約5分鐘。 如需架構快取的詳細資訊，以及如何觸發快取重載，請參閱 [更新架構](updating-the-schema-cache.md)快取。
 
- 
+ 
 
- 
+ 
 
 
 

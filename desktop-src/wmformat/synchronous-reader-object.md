@@ -3,19 +3,19 @@ title: 同步讀取器物件
 description: 同步讀取器物件
 ms.assetid: 52a4891f-03bf-4d8a-ab7b-e9739db30bc3
 keywords:
-- Windows Media Format SDK，同步讀取器物件
+- Windows媒體格式 SDK，同步讀取器物件
 - Advanced Systems Format (ASF) ，同步讀取器物件
 - ASF (Advanced Systems Format) ，同步讀取器物件
 - 物件、同步讀取器物件
 - 同步讀取器，物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 491fed915a049dbfc52acc24d06a0344d8e3109c
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 629f08684f996a611acaf00b913eaa8715869bdfd0219ea27994e2f8faf7c896
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106969094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197058"
 ---
 # <a name="synchronous-reader-object"></a>同步讀取器物件
 
@@ -32,7 +32,7 @@ ms.locfileid: "106969094"
 | [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)   | 設定和抓取標頭資訊，例如中繼資料、 [*標記*](wmformat-glossary.md)等等。                                            |
 | [**IWMHeaderInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2) | 列舉可用的編解碼器資訊。 繼承 **IWMHeaderInfo** 的所有方法。                                                                      |
 | [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) | 支援大型屬性大小、重複的屬性名稱，以及多語言支援。 繼承 **IWMHeaderInfo** 和 **IWMHeaderInfo2** 的所有方法。 |
-| [**IWMProfile**](iwmprofile.md)         | 提供對載入至讀取器之 Windows Media 檔案的設定檔資訊的存取。                                                                       |
+| [**IWMProfile**](iwmprofile.md)         | 可存取載入至讀取器之 Windows 媒體檔案的設定檔資訊。                                                                       |
 | [**IWMProfile2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2)       | 抓取與設定檔相關聯 (GUID) 的全域唯一識別碼（如果有的話）。 繼承 **IWMProfile** 的所有方法。                               |
 | [**IWMProfile3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3)       | 支援設定檔中的頻寬共用和串流優先順序資訊。 繼承 **IWMProfile** 和 **IWMProfile2** 的所有方法。                |
 | [**IWMSyncReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)   | 提供數位媒體檔案的同步讀取功能。                                                                                                 |
@@ -40,7 +40,7 @@ ms.locfileid: "106969094"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -55,9 +55,9 @@ ms.locfileid: "106969094"
 [**使用同步讀取器讀取檔案**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

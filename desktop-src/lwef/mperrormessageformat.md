@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a3499b3be885b29135d22b470da4143cfb23ea6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 124bf9e2c5c2ecc18f286b99f0c3b93695abd3f6a40853fcc47de580edef5db4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883505"
 ---
 # <a name="mperrormessageformat-function"></a>MpErrorMessageFormat 函式
 
@@ -63,9 +63,9 @@ HRESULT WINAPI MpErrorMessageFormat(
 *pwszErrorDesc* \[擴展\]
 </dt> <dd>
 
-類型： **LPWSTR \** _
+類型： **LPWSTR \***
 
-根據 _hrError * 傳回格式化的錯誤訊息。 您必須使用 [**MpFreeMemory**](mpfreememory.md)來釋放這個字串。
+根據 *hrError* 傳回格式化的錯誤訊息。 您必須使用 [**MpFreeMemory**](mpfreememory.md)來釋放這個字串。
 
 </dd> </dl>
 
@@ -104,8 +104,8 @@ HRESULT WINAPI MpErrorMessageFormat(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>MpClient。h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
