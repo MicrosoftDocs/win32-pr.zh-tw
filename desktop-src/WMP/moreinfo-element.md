@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: efc54fe9745566ec7eaa87b7f0f4645b07a055f0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 925783b6bd48fbc8b944d7b8fd2a2b94a9954c7036114145b99b015b90cbb6d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134951"
 ---
 # <a name="moreinfo-element"></a>MOREINFO 元素
 
@@ -122,10 +122,10 @@ ms.locfileid: "106983980"
 
 <dl> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔參考**](windows-media-metafile-reference.md)
+[**Windows媒體中繼檔參考**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: bd0138c435c15c0c2ac026487471554e0edf0afa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8b65ae82673e98d666754ae42348cb62b3c336a1e642a5f78607924dc58313dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118805428"
 ---
 # <a name="d3dcolor_argb-macro"></a>D3DCOLOR \_ ARGB 宏
 

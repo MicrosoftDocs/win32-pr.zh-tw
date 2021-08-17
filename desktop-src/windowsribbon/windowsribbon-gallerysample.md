@@ -22,7 +22,7 @@ ms.locfileid: "118706704"
 - [最低需求](#minimum-requirements)
 - [相關主題](#related-topics)
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 您可以從[Microsoft 下載中心](https://www.microsoft.com/download/details.aspx?id=9620)以獨立 Microsoft Visual Studio 專案形式下載 Windows 功能區架構範例，或將其安裝為[Windows 軟體開發套件 (SDK) ](https://developer.microsoft.com/windows/downloads/sdk-archive/)的一部分。
 

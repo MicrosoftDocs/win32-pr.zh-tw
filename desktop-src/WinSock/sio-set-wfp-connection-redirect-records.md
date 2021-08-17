@@ -8,18 +8,18 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 11ce07c94104ecd986dc117b00dba2a49a7b5dc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d8617f679907e46d8fc194bb75b9e5c2dac267a1c4781fc7cc0f1bf47d49d06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993358"
 ---
 # <a name="sio_set_wfp_connection_redirect_records-control-code"></a>SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS 控制碼
 
 ## <a name="description"></a>Description
 
-**SIO \_ SET WFP 連線重新 \_ \_ \_ 導向 \_ 記錄** 控制程式代碼會將重新導向記錄設定為用於連接到最終目的地的新 TCP 通訊端，以供 Windows 篩選平台 (WFP) 重新導向服務使用。
+**SIO \_ SET \_ WFP 連接重新 \_ \_ 導向 \_ 記錄** 控制程式代碼會將重新導向記錄設定為新的 TCP 通訊端，以用於連接到最終目的地，以供 Windows 篩選平台 (WFP) 重新導向服務使用。
 
 若要執行這項作業，請使用下列參數呼叫 [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) 或 **WSPIoctl** 函數。
 

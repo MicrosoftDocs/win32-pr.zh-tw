@@ -5,16 +5,16 @@ ms.assetid: e50075a1-cb43-4bd6-9bbf-6b715fde6a3a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa7cff2334d9839936d15f7258a70ce03f9751e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71c6039dde1884f2b4b7aa9801fbbd26bb0e10b9a5353dffb5096ba66461d1d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742944"
 ---
 # <a name="winrm-c-api"></a>WinRM c + + API
 
-Windows 遠端管理介面可以用來取得資料或管理遠端電腦上的 [*資源*](windows-remote-management-glossary.md) 。 此 API 主要是供內部使用。 建議您盡可能使用 [WinRM 用戶端 SHELL API](client-shell-api.md) 。 介面會緊密對應至 [WinRM 腳本 API](winrm-scripting-api.md)。
+Windows 遠端管理介面可以用來取得資料或管理遠端電腦上的 [*資源*](windows-remote-management-glossary.md)。 此 API 主要是供內部使用。 建議您盡可能使用 [WinRM 用戶端 SHELL API](client-shell-api.md) 。 介面會緊密對應至 [WinRM 腳本 API](winrm-scripting-api.md)。
 
 直接從 **IDispatch** 繼承的 WinRM 介面具有對應的腳本物件。 如需詳細資訊，請參閱 [WinRM 腳本 API](winrm-scripting-api.md)。
 
@@ -70,12 +70,12 @@ Windows 遠端管理介面可以用來取得資料或管理遠端電腦上的 [*
 
 <dl> <dt>
 
-[Windows 遠端管理參考](windows-remote-management-reference.md)
+[Windows遠端系統管理參考](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

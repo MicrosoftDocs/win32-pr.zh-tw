@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_DataFile 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c4caa89ca851b2197b7f2eec1b110f7ed063f8f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 12c351fc7fbd4527888e5ffd6f8ffcb2db8b7d3c2f03be914f73e329406e3163
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080802"
 ---
 # <a name="cim_datafile-methods"></a>CIM \_ 資料檔案方法
 

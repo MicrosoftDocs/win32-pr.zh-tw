@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3f3eb45e999d25c776014c3df5824e0468d03ffd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c4fbfb31b712e1521930fa468bae315a443105f3a6bc0863fe3267f9586f874a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118804564"
 ---
 # <a name="d3dxcreatekeyframedanimationset-function"></a>D3DXCreateKeyframedAnimationSet 函式
 

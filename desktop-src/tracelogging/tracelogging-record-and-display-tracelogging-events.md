@@ -4,12 +4,12 @@ description: 使用 Windows Performance Recorder (WPR 來記錄 TraceLogging 事
 ms.assetid: 906589FA-F48D-4105-9E56-1EC8B86542FB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09be054d274fc2c2c62635cc7bf12e8cf8acdef3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 25c77c1a1759988252f57c1ec54dca77cffaa21832878ead6ba8a827df3329fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966533"
 ---
 # <a name="record-and-view-tracelogging-events"></a>記錄和查看 TraceLogging 事件
 
@@ -18,12 +18,12 @@ ms.locfileid: "103842684"
 ## <a name="prerequisites"></a>必要條件
 
 -   Windows 10
--   Windows 10 版的 Windows Performance Recorder (WPR) ，以及 Windows 10 Windows Performance Analyzer 的 (版本) WPA®，這是 Windows (評定及部署套件) Windows ADK 的一部分。
+-   Windows 10 版的 Windows Performance Recorder (WPR) ，以及 Windows 10 Windows Performance Analyzer (的) 版本 Windows® (評估和部署套件 Windows) ADK 的一部分。
 
 > [!IMPORTANT]
 > 使用 TraceLogging 所捕捉的追蹤必須以 Windows Performance Recorder 的 Windows 10 版本來捕捉，並使用 Windows Performance Analyzer Windows 10 版本來查看。 如果您無法捕捉或解碼您的事件，請確認您使用的是 Windows 10 版的工具。
 
- 
+ 
 
 ### <a name="1-capture-trace-data-with-wpr"></a>1. 使用 WPR 來捕捉追蹤資料
 
@@ -37,7 +37,7 @@ ms.locfileid: "103842684"
 
     > \[!重要\]  
 
-     
+     
 
     如果您使用的是 TraceLogging C/c + + 快速入門，請在元素的屬性中指定提供者 GUID `Name` `<EventProvider>` 。 例如：`<EventProvider Id="EventProvider_SimpleTraceLoggingProvider" Name="3970F9cf-2c0c-4f11-b1cc-e3a1e9958833" />`。 如果您使用 managed TraceLogging 快速入門，請在專案的屬性中指定前面加上 ' ' 的提供者名稱 \* `Name` `<EventProvider />` 。 例如： `<EventProvider Name="*SimpleTraceLoggingProvider" />` 。
 
@@ -97,7 +97,7 @@ ms.locfileid: "103842684"
     > \[!提示\]  
     > 針對一般分析用途，您也可以將 **– Start GeneralProfile** 新增至 wpr.exe 命令列，以捕捉系統事件以及來自提供者的事件。 如果您只想要收集事件，請省略 **-Start GeneralProfile**。
 
-     
+     
 
 4.  執行包含您事件的應用程式。
 5.  停止追蹤捕捉。
@@ -107,7 +107,7 @@ ms.locfileid: "103842684"
     > \[!提示\]  
     > 如果您已新增 **–開始 GeneralProfile** 以收集系統事件，請將 **-stop GeneralProfile** 新增至上述 **wpr.exe** 命令列。
 
-     
+     
 
 ### <a name="2-capture-tracelogging-events-on-windows-phone"></a>2. 在 Windows Phone 上抓取 TraceLogging 事件
 
@@ -139,7 +139,7 @@ WPA 目前是唯一可用來查看 TraceLogging 追蹤 ( etl) 檔案的檢視器
     **<path to wpr>\\wpa.exe traceLoggingResults**
 
 2.  載入您在上述 wpa.exe 命令中指定的追蹤 ( .etl) 檔案，例如 traceLoggingResults。
-3.  查看您的提供者事件。 在 [WPA Graph Explorer] 中，展開 [ **系統活動**]。
+3.  查看您的提供者事件。 在 [WPA Graph Explorer] 中，展開 [**系統活動**]。
 4.  按兩下 [ **一般事件** ] 窗格，即可在 [ **分析** ] 窗格中查看事件。
 
     ![展開 [一般事件]](images/expandsystemactivity.png)
@@ -158,7 +158,7 @@ WPA 目前是唯一可用來查看 TraceLogging 追蹤 ( etl) 檔案的檢視器
 
     ![從 simpletraceloggingprovider 查看活動](images/eventview.png)
 
-    如需使用 WPA 的詳細資訊，請參閱 [Windows Performance Analyzer](/previous-versions/windows/it-pro/windows-8.1-and-8/hh448170(v=win.10))。
+    如需使用 WPA 的詳細資訊，請參閱[Windows Performance Analyzer](/previous-versions/windows/it-pro/windows-8.1-and-8/hh448170(v=win.10))。
 
 ## <a name="summary-and-next-steps"></a>摘要和後續步驟
 
@@ -166,6 +166,6 @@ WPA 目前是唯一可用來查看 TraceLogging 追蹤 ( etl) 檔案的檢視器
 
 如需其他 TraceLogging 範例，請參閱 [c/c + + Tracelogging 範例](tracelogging-c-cpp-tracelogging-examples.md) 。
 
- 
+ 
 
- 
+ 

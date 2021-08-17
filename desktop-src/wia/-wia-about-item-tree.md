@@ -1,19 +1,19 @@
 ---
-description: 在 Windows Vista 中，Windows 映像取得 (WIA) 專案樹狀結構已大幅變更。
+description: 在 Windows Vista 中，Windows 影像取得 (WIA) 專案樹狀結構已大幅變更。
 ms.assetid: dda87bcc-2315-4f0d-87a0-d5a33d5d929a
 title: 關於 IWiaItem2 專案樹狀結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4d3e7d39319c7b1c94f88612c5d571f17f2a027
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ae342f5a85e61b6384604dae703881c6888e3e1cf8e61cc8a39a32ac77ad436
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119264422"
 ---
 # <a name="about-the-iwiaitem2-item-tree"></a>關於 IWiaItem2 專案樹狀結構
 
-在 Windows Vista 中，Windows 映像取得 (WIA) 專案樹狀結構已大幅變更。 [**IWiaItem2**](-wia-iwiaitem2.md) 專案用來代表裝置屬性和裝置資料。 映射應用程式會看到 Windows 映像取得 (WIA) 2.0 裝置作為專案的階層式樹狀結構，其中包含代表裝置本身的根專案，以及代表可程式化資料來源、影像或包含影像之資料夾等專案的子專案。
+在 Windows Vista 中，Windows 影像取得 (WIA) 專案樹狀結構已大幅變更。 [**IWiaItem2**](-wia-iwiaitem2.md) 專案用來代表裝置屬性和裝置資料。 映射應用程式會看到 Windows 的影像取得 (WIA) 2.0 裝置作為專案的階層式樹狀結構，其中包含代表裝置本身的根專案，以及代表可程式化資料來源、影像或包含影像之資料夾等專案的子專案。
 
 -   [應用程式專案](#application-items)
 -   [專案旗標](#item-flags)

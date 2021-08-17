@@ -21,12 +21,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: bd67059f5257dad9b66e1c21f642fef04f03719e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b1a172b7c3c09ca5735e9e58da2003fcb3790f584cda5809e393ae721393e6a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070028"
 ---
 # <a name="process_typegroup1-class"></a>進程 \_ TypeGroup1 類別
 

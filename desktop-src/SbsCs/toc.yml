@@ -23,7 +23,7 @@
           items:
             - name: 預設組態
               href: default-configuration.md
-            - name: 發行者設定
+            - name: Publisher配置
               href: publisher-configuration.md
             - name: 每個應用程式設定
               href: per-application-configuration.md
@@ -178,13 +178,13 @@
               href: application-manifests.md
             - name: 應用程式組態檔
               href: application-configuration-files.md
-            - name: 發行者設定檔
+            - name: Publisher設定檔
               href: publisher-configuration-files.md
             - name: 資訊清單檔案架構
               href: manifest-file-schema.md
             - name: 應用程式佈建檔架構
               href: application-configuration-file-schema.md
-            - name: 發行者設定檔架構
+            - name: Publisher設定檔架構
               href: publisher-configuration-file-schema.md
         - name: 啟用內容參考
           href: activation-context-reference.md
@@ -246,7 +246,7 @@
               href: mt-exe.md
             - name: Pktextract.exe
               href: pktextract-exe.md
-        - name: ActCtx 物件
+        - name: 微軟。Windows。ActCtx 物件
           href: microsoft-windows-actctx-object.md
           items:
             - name: Manifest 屬性

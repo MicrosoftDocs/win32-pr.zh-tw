@@ -4,12 +4,12 @@ description: 視窗頂端的標題列會顯示應用程式定義的圖示和文�
 ms.assetid: f41ab777-6c94-4d8e-b743-c635e93df396
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1fee3642a67be85b27eac6a73ac7c452f2349d1
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: f9183e4c4f5364fb45ba2a73dd2d40509c03c7838bbb248e1d95765b675f50cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104374278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993998"
 ---
 # <a name="title-bar-msaa-ui-element-reference"></a>標題列 (MSAA UI 元素參考) 
 

@@ -42,7 +42,7 @@ ms.locfileid: "118707789"
 
 
 
-| 屬性索引鍵                                                                                             | 附註                                                                                                                                                                                                                         |
+| 屬性索引鍵                                                                                             | 備註                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [UI \_ PKEY \_ 已啟用](windowsribbon-reference-properties-uipkey-enabled.md)                               | 支援 [**IUIFramework：： GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) 和 [**IUIFramework：： SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty)。 |
 | [UI \_ PKEY \_ 按鍵提示](windowsribbon-reference-properties-uipkey-keytip.md)                                 | 只能透過失效進行更新。                                                                                                                                                                                     |

@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d68eccf44b7e2c248e366d8e3d8f05f4e7dd4774
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 3d3591caf2a2e6a51099afb9a823c64bf49af32a6c6726771d8a24a24968b485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106969938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984106"
 ---
 # <a name="credentialssource-eaptype-element"></a>CredentialsSource (EapType) 元素
 
@@ -43,8 +43,8 @@ ms.locfileid: "106969938"
 
 | 角色 | 最低支援作業系統版本 |
 |------|------------------------------|
-| 用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

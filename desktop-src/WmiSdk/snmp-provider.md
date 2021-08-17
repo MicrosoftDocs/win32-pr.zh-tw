@@ -1,20 +1,20 @@
 ---
-description: " (SNMP) 提供者的簡易網路管理通訊協定，可讓用戶端應用程式透過 Windows Management Instrumentation (WMI) 來存取 SNMP 資訊。"
+description: " (snmp) 提供者的簡易網路管理通訊協定，可讓用戶端應用程式透過 Windows Management Instrumentation (WMI) 來存取 SNMP 資訊。"
 ms.assetid: 71e758d9-2ea6-42f5-93b4-d370a96b10cf
 ms.tgt_platform: multiple
 title: WMI 和 SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ea7e8385e1fb95ac20d14af31f82444350e044
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6f1327afe2a86a1f56f40c0a93d904148ccaf1fd0547b6cb623d9eb420c2a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992298"
 ---
 # <a name="wmi-and-snmp"></a>WMI 和 SNMP
 
- (SNMP) 提供者的簡易網路管理通訊協定，可讓用戶端應用程式透過 Windows Management Instrumentation (WMI) 來存取 SNMP 資訊。 SNMP 提供者預設不會安裝。 如需安裝提供者的詳細資訊，請參閱 [設定 WMI SNMP 環境](setting-up-the-wmi-snmp-environment.md)。
+ (snmp) 提供者的簡易網路管理通訊協定，可讓用戶端應用程式透過 Windows Management Instrumentation (WMI) 來存取 SNMP 資訊。 SNMP 提供者預設不會安裝。 如需安裝提供者的詳細資訊，請參閱 [設定 WMI SNMP 環境](setting-up-the-wmi-snmp-environment.md)。
 
 簡易網路管理通訊協定 (SNMP) 使用架構來定義物件。 架構不同于 WMI 中使用的架構。 SNMPv1 和 SNMPv2C 架構稱為 (SMI-S) 管理資訊的結構，並封裝為管理資訊基礎 (MIB) 檔。 MIB 檔案會使用標準語言來定義物件-抽象語法標記法 1 (asn.1) ），以及一些巨集定義，做為描述物件的範本。 宏提供的資訊包括物件名稱、識別碼、語法、描述、存取權限、通訊協定作業和通訊協定編碼。 下表列出 SNMP 提供者如何處理 MIB 物件的不同層面。
 

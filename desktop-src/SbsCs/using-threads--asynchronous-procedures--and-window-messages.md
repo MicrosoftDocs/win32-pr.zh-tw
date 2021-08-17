@@ -4,12 +4,12 @@ ms.assetid: 6eda00d5-9dac-4267-bf61-b481814201f8
 title: 執行緒、非同步程式和視窗訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e615eb9795ba32bcf4bd227a4933e890e9b89055
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 529be75a3bc72679f44dfb69196f9487aa4f1de4f3cdbeada4ec89e26f05d646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141701"
 ---
 # <a name="using-threads-asynchronous-procedures-and-window-messages"></a>使用執行緒、非同步程式和視窗訊息
 

@@ -4,12 +4,12 @@ ms.assetid: 6637a9ce-6731-4f60-8b76-854e86b10bdd
 title: 'Billboarding (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e287624ef8800f0b66941e826e211d044b7bf27
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02624a3172df7a36f4d38bb2bc6d613ded26faab8ac6d4f4b37668f0868cd16c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123405"
 ---
 # <a name="billboarding-direct3d-9"></a>Billboarding (Direct3D 9) 
 

@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9bd46ebde99ae6c6d9e28975d67563424619db84
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1b85a4e80588b98625f166f76c09aff9d52b114adcee4507eb7b81957746d88e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080482"
 ---
 # <a name="cim_physicalmemory-class"></a>CIM \_ PhysicalMemory 類別
 
@@ -246,7 +246,7 @@ Unknown
 2
 </dt> <dd>
 
-Sip
+SIP
 
 </dd> <dt>
 
@@ -281,14 +281,14 @@ SOJ
 7
 </dt> <dd>
 
-Simm
+SIMM
 
 </dd> <dt>
 
 8
 </dt> <dd>
 
-Dimm
+DIMM
 
 </dd> <dt>
 
@@ -302,7 +302,7 @@ TSOP
 10
 </dt> <dd>
 
-Pga
+PGA
 
 </dd> <dt>
 
@@ -330,7 +330,7 @@ SRIMM
 14
 </dt> <dd>
 
-Smd
+SMD
 
 </dd> <dt>
 
@@ -365,7 +365,7 @@ SOIC
 19
 </dt> <dd>
 
-Lcc
+LCC
 
 </dd> <dt>
 
@@ -379,7 +379,7 @@ PLCC
 21
 </dt> <dd>
 
-Bga
+BGA
 
 </dd> <dt>
 

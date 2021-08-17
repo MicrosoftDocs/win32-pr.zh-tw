@@ -4,16 +4,16 @@ description: IAgentCharacterEx SetSRModeID
 ms.assetid: 8f9072ec-1f64-4f5c-972d-cd6799ce028c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 390d7e0126fe5ef62273cf6d7d23ada25c26bbdb
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: bd7fcfbf4aff25c1af0fbdb1f40471f6b54c4731f22fb2c736da42fe462eb390
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104462716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750415"
 ---
 # <a name="iagentcharacterexsetsrmodeid"></a>IAgentCharacterEx::SetSRModeID
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetSRModeID(
@@ -44,9 +44,9 @@ Microsoft 代理程式的語音引擎需求是以 Microsoft 語音 API 為基礎
 [**IAgentCharacterEx::GetSRModeID**](iagentcharacterex--getsrmodeid.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

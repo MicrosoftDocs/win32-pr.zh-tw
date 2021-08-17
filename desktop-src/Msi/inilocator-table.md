@@ -80,7 +80,7 @@ IniLocator 資料表具有下列資料行。
 
 
 
-| 常數                      | 十六進位 | Decimal | Description           |
+| 常數                      | 十六進位 | Decimal | 描述           |
 |-------------------------------|-------------|---------|-----------------------|
 | **msidbLocatorTypeDirectory** | 0x000       | 0       | 目錄位置。 |
 | **msidbLocatorTypeFileName**  | 0x001       | 1       | 檔案位置。      |

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 從 WMI 集合移除多個專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c44203f3279163a1de595cac8a00270dccd31c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17795378f5215977e5e7c2d0afd745c5d02fe6b294d062fcdbcf82f7ccc15351
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992438"
 ---
 # <a name="removing-multiple-items-from-a-wmi-collection"></a>從 WMI 集合移除多個專案
 

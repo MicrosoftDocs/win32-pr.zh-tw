@@ -4,12 +4,12 @@ ms.assetid: b77e955b-767b-4b64-9421-bacac9edf09c
 title: 使用 Windows Media 視訊9.1 影像類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44b545d37b61a1c89ffdd69615b28f636aa98b32
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c630be78ec3edef1a47322b31f6a2331f15134a0cdffa4107b5a79daa86e9091
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106985818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972627"
 ---
 # <a name="using-the-windows-media-video-91-image-category"></a>使用 Windows Media 視訊9.1 影像類別
 
@@ -17,13 +17,13 @@ Windows Media 視訊9.1 影像類別與 Windows Media 視訊9編碼器和解碼�
 
 編碼的 Windows Media 視訊9.1 影像內容幾乎與一般 Windows Media 視訊9編碼的內容相同，但它是由自己的 FOURCC ( "WMVP" ) 所識別。
 
-影片影像的編碼器輸出類型是以與標準 Windows Media 影片完全相同的方式來設定，不同之處在于子類型和壓縮值必須設定為影片影像識別碼。 這包括取得編解碼器私用資料，並將其附加至 [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) 結構的需求。 如需詳細資訊，請參閱設定 [影片編碼](configuringvideoencoding.md)。
+影片影像的編碼器輸出類型會以與標準 Windows 媒體影片完全相同的方式來設定，不同之處在于子類型和壓縮值必須設定為影片影像識別碼。 這包括取得編解碼器私用資料，並將其附加至 [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) 結構的需求。 如需詳細資訊，請參閱設定 [影片編碼](configuringvideoencoding.md)。
 
-影片影像的輸入類型設定也非常類似于其他影片編碼器的輸入設定。 您可以藉由呼叫 [**IMediaObject：： GetInputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputtype)，或使用媒體基礎 SDK，藉由呼叫 [**IMFTransform：： GetInputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputavailabletype) ，並使用 [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)來取得的 **\_ 媒體 \_ 類型**，以從編碼器取出部分完成的 [**sql-dmo \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)。 然後，您可以設定畫面格大小和 [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) 格式結構，就像標準影片一樣。 如同輸出型別，您必須確定子類型和壓縮值已正確設定。
+影片影像的輸入類型設定也非常類似于其他影片編碼器的輸入設定。 您可以藉由呼叫 [**IMediaObject：： GetInputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputtype)，或使用媒體基礎 SDK，藉由呼叫 [**IMFTransform：： GetInputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputavailabletype) ，並使用 [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)來取得 **DMO 的 \_ 媒體 \_ 類型**，以從編碼器取出部分完成的 [**DMO \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)。 然後，您可以設定畫面格大小和 [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) 格式結構，就像標準影片一樣。 如同輸出型別，您必須確定子類型和壓縮值已正確設定。
 
 ## <a name="creating-input-samples"></a>建立輸入範例
 
-影片影像編解碼器的輸入範例是結構化的。 影片影像所用的結構和常數定義不包含在 Windows Media 音訊和影片編解碼器介面中。 這些定義包含在 Windows Media 格式 SDK 中，在 Windows Media 格式 SDK 檔中也會完整說明其使用方式。
+影片影像編解碼器的輸入範例是結構化的。 影片影像所用的結構和常數定義不包含在 Windows Media 音訊和影片編解碼器介面中。 這些定義包含在 Windows 媒體格式 sdk 中，並在 Windows 媒體格式 sdk 檔中完整說明其使用方式。
 
 ## <a name="decoding"></a>解碼
 

@@ -86,7 +86,7 @@ ms.locfileid: "118767058"
 <thead>
 <tr class="header">
 <th> </th>
-<th>名稱</th>
+<th>Name</th>
 <th>描述</th>
 </tr>
 </thead>

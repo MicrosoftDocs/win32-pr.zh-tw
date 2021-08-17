@@ -1,21 +1,21 @@
 ---
-title: " (Windows Media Format 11 SDK) 的錯誤碼"
-description: 瞭解 Windows Media Format SDK 中使用的錯誤和成功碼。 這些程式碼是較大集合的子集。
+title: '錯誤碼 (Windows 媒體格式 11 SDK) '
+description: 瞭解 Windows 媒體格式 SDK 中使用的錯誤和成功碼。 這些程式碼是較大集合的子集。
 ms.assetid: ea1c129b-c0d7-4a1b-934c-c1c07364d4a8
 keywords:
-- Windows Media 格式 SDK，錯誤碼
+- Windows媒體格式 SDK，錯誤碼
 - Advanced Systems Format (ASF) ，錯誤碼
 - ASF (Advanced Systems Format) ，錯誤碼
-- Windows Media Format SDK，成功碼
+- Windows媒體格式 SDK，成功碼
 - Advanced Systems Format (ASF) 、success 碼
 - ASF (Advanced Systems Format) ，success 碼
-- Windows Media Format SDK，ASF 錯誤碼
+- Windows媒體格式 SDK，ASF 錯誤碼
 - Advanced Systems Format (ASF) ，ASF 錯誤碼
 - ASF (Advanced Systems Format) ，ASF 錯誤碼
-- Windows Media Format SDK，DRM 錯誤碼
+- Windows媒體格式 SDK，DRM 錯誤碼
 - Advanced Systems Format (ASF) ，DRM 錯誤碼
 - ASF (Advanced Systems Format) ，DRM 錯誤碼
-- Windows Media Format SDK，DRM 成功碼
+- Windows媒體格式 SDK，DRM 成功碼
 - Advanced Systems Format (ASF) ，DRM 成功碼
 - ASF (Advanced Systems Format) ，DRM 成功碼
 - 數位版權管理 (DRM) ，錯誤碼
@@ -24,16 +24,16 @@ keywords:
 - DRM (數位版權管理) ，成功碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51889a678d148abe2e3659edc4d2f5c7826e12a7
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: ef830a6fe40fef4ca91a084c501e61f5b0f7f06ee171d69b850d779c8e5b08ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112067894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085770"
 ---
-# <a name="error-codes-windows-media-format-11-sdk"></a> (Windows Media Format 11 SDK) 的錯誤碼
+# <a name="error-codes-windows-media-format-11-sdk"></a>錯誤碼 (Windows 媒體格式 11 SDK) 
 
-Microsoft 已定義下列錯誤和成功碼，以在 Windows Media Format SDK 中使用。 這些程式碼是較大集合的子集，您可以在標頭檔 asferr 中查看， (ASF 代碼) 和 nserror， (Windows Media 格式 SDK 中所含的其他程式碼) 。 您可以在 Winerror.h 中查看其他常見的錯誤碼。
+Microsoft 已定義下列錯誤和成功碼，以在 Windows 媒體格式 SDK 中使用。 這些程式碼是較大集合的子集，可在標頭檔 asferr 中查看 (ASF 代碼) 和 nserror (Windows 媒體格式 SDK 中所含的其他程式碼) 。 您可以在 Winerror.h 中查看其他常見的錯誤碼。
 
 ## <a name="asf-error-codes"></a>ASF 錯誤碼
 
@@ -41,7 +41,7 @@ Microsoft 已定義下列錯誤和成功碼，以在 Windows Media Format SDK �
 
 
 
-| 錯誤碼                        | 十六進位值 | Description                                                                                              |
+| 錯誤碼                        | 十六進位值 | 描述                                                                                              |
 |-----------------------------------|-------------------|----------------------------------------------------------------------------------------------------------|
 | ASF \_ E \_ ALREADYINITIALIZED        | 0xC00D07F7L       | 這個物件已經初始化;無法變更設定。                                 |
 | ASF \_ E \_ BADDATADESCRIPTOR         | 0xC00D0802L       | 未正確設定一或多個資料描述項。                                                       |
@@ -91,7 +91,7 @@ DRM-Related 錯誤和成功碼
 
 
 
-| 錯誤碼                                                   | 十六進位值 | Description                                                                                                                                                                                                                                                                                                       |
+| 錯誤碼                                                   | 十六進位值 | 描述                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | NS \_ E \_ DRM \_ 不正確 \_ 應用程式                             | 0xC00D2711L       | 數位 Rights Management 元件發生問題。 請洽詢此應用程式的產品支援。                                                                                                                                                                                                  |
 | NS \_ E \_ DRM \_ 授權 \_ 存放區 \_ 錯誤                            | 0xC00D2712L       | 授權儲存無法運作。 請洽詢 Microsoft 產品支援。                                                                                                                                                                                                                                                |
@@ -172,7 +172,7 @@ DRM-Related 錯誤和成功碼
 | NS \_ E \_ DRM \_ STORE \_ NOTALLSTORED                              | 0xC00D275F        | 某些授權無法儲存。                                                                                                                                                                                                                                                                         |
 | NS \_ E \_ DRM \_ 安全性 \_ 元件簽章 \_ \_ 無效          | 0xC00D2760        | 無法驗證數位 Rights Management 安全性升級元件。 請洽詢 Microsoft 產品支援。                                                                                                                                                                                               |
 | NS \_ E \_ DRM \_ 無效 \_ 資料                                    | 0xC00D2761        | 遇到無效或已損毀的資料。                                                                                                                                                                                                                                                                          |
-| NS \_ E \_ DRM \_ 原則 \_ 停用 \_ 線上                          | 0xC00D2762        | Windows Media 數位 Rights Management 系統無法執行要求的動作，因為您的電腦或網路系統管理員已啟用防止 Windows Media DRM 網際網路存取的群組原則。                                                                                                  |
+| NS \_ E \_ DRM \_ 原則 \_ 停用 \_ 線上                          | 0xC00D2762        | Windows 媒體數位 Rights Management 系統無法執行要求的動作，因為您的電腦或網路系統管理員已啟用防止 Windows Media DRM 網際網路存取的群組原則。                                                                                                  |
 | NS \_ E \_ DRM \_ 無法 \_ \_ 建立 \_ 驗證 \_ 物件       | 0xC00D2763        | 數位 Rights Management 元件發生問題。 請洽詢 Microsoft 產品支援。                                                                                                                                                                                                             |
 | \_ \_ \_ 未設定 NS E \_ DRM                                  | 0xC00D2764        | 尚未設定所有 DRM 的必要屬性。                                                                                                                                                                                                                                                        |
 | \_ \_ 已取消 NS E DRM \_ 裝置 \_ 啟用 \_                     | 0xC00D2765        | 可攜式裝置沒有將受保護的檔案複製到其中所需的安全性。 若要取得額外的安全性，請再次嘗試將檔案複製到可攜式裝置。 當訊息出現時，按一下 [確定]。                                                                                                   |
@@ -197,7 +197,7 @@ DRM-Related 錯誤和成功碼
 | NS \_ E \_ DRM \_ SDK \_ VERSIONMISMATCH                             | 0xC00D2778        | 未正確安裝數位 Rights Management 元件。 重新安裝播放機。                                                                                                                                                                                                                          |
 | NS \_ E \_ DRM \_ 許可證 \_ 需要 \_ \_ 設定裝置時鐘 \_                   | 0xC00D2779        | 無法傳送檔案，因為未設定裝置時鐘。                                                                                                                                                                                                                                            |
 | NS \_ E \_ 授權 \_ 標頭 \_ 遺失 \_ URL                         | 0xC00D277A        | 內容標頭缺少取得 URL。                                                                                                                                                                                                                                                                 |
-| NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置                            | 0xC00D277B        | 目前連接的裝置不支援 Windows Media DRM。                                                                                                                                                                                                                                                   |
+| NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置                            | 0xC00D277B        | 目前連接的裝置不支援 Windows 媒體 DRM。                                                                                                                                                                                                                                                   |
 | NS \_ E \_ DRM \_ 不正確 \_ APPCERT                                 | 0xC00D277C        | 數位 Rights Management 元件發生問題。 請洽詢 Microsoft 產品支援。                                                                                                                                                                                                             |
 | \_ \_ \_ \_ \_ \_ 建議上的 NS E DRM PROTOCOL 強制終止 \_    | 0xC00D277D        | 用戶端應用程式已在 DRM 建議期間強制終止。                                                                                                                                                                                                                                      |
 | NS \_ E \_ DRM \_ PROTOCOL \_ 強制 \_ 終止 \_ \_ 挑戰   | 0xC00D277E        | 用戶端應用程式已在 DRM 挑戰期間強制終止。                                                                                                                                                                                                                                     |
@@ -217,17 +217,17 @@ DRM-Related 錯誤和成功碼
 | \_ \_ \_ \_ \_ \_ 使用中的 NS DRM E 遷移來源電腦 \_              | 0xC00D278C        | 在授權遷移期間，數位 Rights Management 元件發生問題。 請洽詢 Microsoft 產品支援。                                                                                                                                                                                    |
 | NS \_ DRM \_ E \_ 遷移 \_ 目標 \_ 電腦 \_ 小於 \_ \_ LH       | 0xC00D278D        | 正在將授權遷移到執行舊版作業系統的電腦 (OS) 。 此作業只能在 Windows Vista 或更新版本的作業系統上執行。 請洽詢 Microsoft 產品支援。                                                                                                         |
 | NS \_ DRM \_ E \_ 遷移 \_ 映射 \_ 已 \_ 存在                | 0xC00D278E        | 遷移映射已經存在。 請洽詢 Microsoft 產品支援。                                                                                                                                                                                                                                            |
-| NS \_ E \_ DRM \_ SENSORS \_ 不符                             | 0xC00D278F        | 無法執行要求的動作，因為電腦上的 Windows Media 數位 Rights Management (DRM) 元件偵測到硬體設定變更。                                                                                                                              |
+| NS \_ E \_ DRM \_ SENSORS \_ 不符                             | 0xC00D278F        | 無法執行要求的動作，因為電腦上 Windows 媒體數位 Rights Management (DRM) 元件偵測到硬體設定變更。                                                                                                                              |
 | NS \_ E \_ 不正確 \_ drmv2clt.dll \_ STUBLIB                            | 0xC00D2790        | 錯誤的存根程式庫已使用 drmv2clt.dll 連結到應用程式或 DLL。                                                                                                                                                                                                                               |
 | NS \_ E \_ DRM \_ 遷移 \_ 不正確 \_ LEGACYV2 \_ 資料               | 0xC00D2791        | 要匯入的舊版 V2 資料無效。                                                                                                                                                                                                                                                                     |
 | NS \_ E \_ DRM \_ 遷移 \_ 授權 \_ 已 \_ 存在              | 0xC00D2792        | 匯入的授權已存在。                                                                                                                                                                                                                                                                        |
 | NS \_ E \_ DRM \_ 遷移 \_ 不正確 \_ LEGACYV2 \_ .sst \_ 密碼      | 0xC00D2793        | 要匯入之舊版 V2 .SST 專案的密碼不正確。                                                                                                                                                                                                                                              |
 | \_ \_ \_ \_ 不支援 NS E DRM \_ 遷移                        | 0xC00D2794        | 外掛程式不支援遷移。                                                                                                                                                                                                                                                                        |
 | NS \_ E \_ DRM \_ 無法 \_ \_ 建立 \_ 遷移匯 \_ 入工具 \_ 物件  | 0xC00D2795        | 無法為此媒體檔案建立遷移匯入工具。 重新安裝應用程式。                                                                                                                                                                                                                            |
-| NS \_ E \_ DRM \_ 檢查點 \_ 不相符                             | 0xC00D2796        | 無法執行要求的動作，因為電腦上的 Windows Media 數位 Rights Management (DRM) 元件發生問題。                                                                                                                                                           |
-| NS \_ E \_ DRM \_ 檢查點損毀 \_                              | 0xC00D2797        | 無法執行要求的動作，因為電腦上的 Windows Media 數位 Rights Management (DRM) 元件發生問題。                                                                                                                                                           |
-| NS \_ E \_ REG \_ FLUSH \_ 失敗                                   | 0xC00D2798        | 無法執行要求的動作，因為電腦上的 Windows Media 數位 Rights Management (DRM) 元件發生問題。                                                                                                                                                           |
-| NS \_ E \_ HDS \_ 金鑰 \_ 不符                                    | 0xC00D2799        | 無法執行要求的動作，因為電腦上的 Windows Media 數位 Rights Management (DRM) 元件發生問題。                                                                                                                                                           |
+| NS \_ E \_ DRM \_ 檢查點 \_ 不相符                             | 0xC00D2796        | 無法執行要求的動作，因為電腦上 Windows 媒體數位 Rights Management (DRM) 元件發生問題。                                                                                                                                                           |
+| NS \_ E \_ DRM \_ 檢查點損毀 \_                              | 0xC00D2797        | 無法執行要求的動作，因為電腦上 Windows 媒體數位 Rights Management (DRM) 元件發生問題。                                                                                                                                                           |
+| NS \_ E \_ REG \_ FLUSH \_ 失敗                                   | 0xC00D2798        | 無法執行要求的動作，因為電腦上 Windows 媒體數位 Rights Management (DRM) 元件發生問題。                                                                                                                                                           |
+| NS \_ E \_ HDS \_ 金鑰 \_ 不符                                    | 0xC00D2799        | 無法執行要求的動作，因為電腦上 Windows 媒體數位 Rights Management (DRM) 元件發生問題。                                                                                                                                                           |
 | NS \_ E \_ DRM \_ 遷移 \_ 操作已 \_ 取消                  | 0xC00D279A        | 已取消使用者的遷移。                                                                                                                                                                                                                                                                               |
 | \_ \_ \_ \_ \_ 使用中的 NS E DRM 遷移物件 \_                       | 0xC00D279B        | 遷移物件已在使用中，必須等到目前的作業完成之後，才能呼叫。                                                                                                                                                                                                                    |
 | NS \_ E \_ DRM \_ 格式錯誤的 \_ 內容 \_ 標頭                       | 0xC00D279C        | 內容標頭不符合 DRM 需求，無法使用。                                                                                                                                                                                                                                      |
@@ -276,7 +276,7 @@ DRM-Related 錯誤和成功碼
 | NS \_ E \_ DRM \_ 無效 \_ 會話                                 | 0xC00D28A9        | 要求的會話無效。                                                                                                                                                                                                                                                                                 |
 | NS \_ E \_ DRM \_ 裝置 \_ 未 \_ 開啟                                | 0xC00D28AA        | 裝置必須先開啟，才能用來接收內容。                                                                                                                                                                                                                                               |
 | NS \_ E \_ DRM \_ 裝置 \_ 已 \_ 註冊                      | 0xC00D28AB        | 裝置註冊失敗，因為裝置已註冊。                                                                                                                                                                                                                                              |
-| NS \_ E \_ DRM \_ 不支援的 \_ 通訊協定 \_ 版本                   | 0xC00D28AC        | 不支援網路裝置通訊協定版本的 Windows Media DRM。                                                                                                                                                                                                                                               |
+| NS \_ E \_ DRM \_ 不支援的 \_ 通訊協定 \_ 版本                   | 0xC00D28AC        | 網路裝置通訊協定版本不支援 Windows 媒體 DRM。                                                                                                                                                                                                                                               |
 | NS \_ E \_ DRM \_ 不支援的 \_ 動作                              | 0xC00D28AD        | 不支援要求的動作。                                                                                                                                                                                                                                                                            |
 | NS \_ E \_ DRM \_ 憑證 \_ 安全性 \_ 等級 \_ 不足         | 0xC00D28AE        | 憑證對要求的動作沒有足夠的安全性層級。                                                                                                                                                                                                                                |
 | NS \_ E \_ DRM \_ 無法 \_ \_ 開啟 \_ 埠                           | 0xC00D28AF        | 無法開啟指定的埠來接收鄰近的訊息。                                                                                                                                                                                                                                               |
@@ -295,11 +295,11 @@ DRM-Related 錯誤和成功碼
 
 ## <a name="other-error-codes"></a>其他錯誤碼
 
-下表包含一些在使用 Windows Media Format SDK 時可能會遇到的非 ASF 錯誤碼。
+下表包含一些在使用 Windows 媒體格式 SDK 時可能會遇到的非 ASF 錯誤碼。
 
 
 
-| 錯誤碼                     | 十六進位值 | Description                                                                |
+| 錯誤碼                     | 十六進位值 | 描述                                                                |
 |--------------------------------|-------------------|----------------------------------------------------------------------------|
 | E \_ 失敗                        | 0x80000008L       | 未指定的錯誤。                                                         |
 | E \_ INVALIDARG                  | 0x80000003L       | 傳送給函數的引數無效。                                       |

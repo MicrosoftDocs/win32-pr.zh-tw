@@ -4,12 +4,12 @@ ms.assetid: 81ce2be2-fe1e-462a-b756-76c4f494cf35
 title: 聯絡支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b56d5ba355bcbf638ff3e75239ee494aa5238d1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8bf8fcb4f8b61b6a9dd98d968d8fc2b33e9294c358cced1db706bd72cc498046
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128840"
 ---
 # <a name="contacting-support"></a>聯絡支援
 

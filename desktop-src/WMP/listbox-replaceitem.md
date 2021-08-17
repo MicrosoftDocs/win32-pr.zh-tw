@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74592feb9bc58e23853b886ee2383744e36b9cff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4524b479490dff81b9a114ca957c7c40282ded130d2bf35dba8c58a6197eab17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135211"
 ---
 # <a name="listboxreplaceitem"></a>LISTBOX. replaceItem
 
@@ -56,7 +56,7 @@ ms.locfileid: "106979429"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

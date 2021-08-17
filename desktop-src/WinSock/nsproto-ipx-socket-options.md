@@ -4,12 +4,12 @@ ms.assetid: 0d5c8299-14d7-41e5-8ff6-f57a732acb26
 title: 'NSPROTO_IPX 通訊端選項 (Wsnwlink .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 433e1fabed1963c3549d2d5a34fb432cac795e07
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6803b5ab6cdf3002a60726c30648a1ae61bb59430820f049aeb8b011f367e73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993628"
 ---
 # <a name="nsproto_ipx-socket-options"></a>NSPROTO \_ IPX 通訊端選項
 
@@ -19,7 +19,7 @@ ms.locfileid: "106984820"
 
 <dl> <dt><span id="NSPROTO_IPX_Socket_Options"></span><span id="nsproto_ipx_socket_options"></span><span id="NSPROTO_IPX_SOCKET_OPTIONS"></span>**NSPROTO \_ IPX 通訊端選項**</dt> <dd> <dl> <dt> 
 
-| 選項                      | Get | 設定 | Optval 類型                  | Description                                                                                                                                                                                                                                                                     |
+| 選項                      | Get | 集合 | Optval 類型                  | Description                                                                                                                                                                                                                                                                     |
 |-----------------------------|-----|-----|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | IPX \_ 位址                | 是 |     | **IPX \_ 位址 \_ 資料**       | 傳回已啟用 IPX 的特定介面卡相關資訊。                                                                                                                                                                                                          |
 | IPX \_ 位址 \_ 通知        | 是 |     | **IPX \_ 位址 \_ 資料**       | 當 IPX 介面卡的狀態變更時，以非同步方式通知。                                                                                                                                                                                                              |
@@ -42,9 +42,9 @@ ms.locfileid: "106984820"
 
  
 
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_NSPROTO_IPX_options"></span><span id="windows_support_for_nsproto_ipx_options"></span><span id="WINDOWS_SUPPORT_FOR_NSPROTO_IPX_OPTIONS"></span>**NSPROTO IPX 的 Windows 支援 \_ 選項**</dt> <dd> <dl> <dt> 
+</dt> </dl> </dd> <dt><span id="Windows_Support_for_NSPROTO_IPX_options"></span><span id="windows_support_for_nsproto_ipx_options"></span><span id="WINDOWS_SUPPORT_FOR_NSPROTO_IPX_OPTIONS"></span>**WindowsNSPROTO \_ IPX 選項的支援**</dt> <dd> <dl> <dt> 
 
-| 選項                      | Windows Vista 和更新版本 | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/我 |
+| 選項                      | WindowsVista 和更新版本 | Windows Server 2003 | Windows XP | Windows 2000 | WindowsNT4 | Windows 9x/我 |
 |-----------------------------|-------------------------|---------------------|------------|--------------|-------------|---------------|
 | IPX \_ 位址                |                         | x                   | x          | x            | x           | x             |
 | IPX \_ 位址 \_ 通知        |                         | x                   | x          | x            | x           | x             |
@@ -70,7 +70,7 @@ ms.locfileid: "106984820"
 
 </dt> </dl> </dd> </dl>
 
-下列 **NSPROTO 的 \_ IPX** 通訊端選項定義于 windows 通訊端 2 Protocol-Specific 附錄中，但不是由 WINDOWS IPX/SPX 通訊協定所執行。
+下列 **NSPROTO 的 \_ ipx** 通訊端選項是在 Windows socket 2 Protocol-Specific 附錄中定義，但不是由 Windows IPX/SPX 通訊協定所執行。
 
 *層級* **=****NSPROTO \_IPX**
 
@@ -89,7 +89,7 @@ ms.locfileid: "106984820"
 
  
 
-下列 **NSPROTO 的 \_ SPX** 通訊端選項定義于 windows 通訊端 2 Protocol-Specific 附錄中，但不是由 WINDOWS IPX/SPX 通訊協定在 windows 上執行。
+下列 **NSPROTO 的 \_ SPX** 通訊端選項是在 Windows socket 2 Protocol-Specific 附錄中定義，但不會在 Windows IPX/SPX 通訊協定的 Windows 上執行。
 
 *層級* **=****NSPROTO \_SPX**
 

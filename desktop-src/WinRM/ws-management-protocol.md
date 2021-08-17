@@ -5,12 +5,12 @@ ms.assetid: 2c47acd2-5d52-4e0f-8848-a11aff59f963
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61e01fdc860eeb5510dd78a4127fdc22b30d711a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 95a20900e77d7d686868e00f7067b23fff644255997a14c9d4c1cbdcf3d1951d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742729"
 ---
 # <a name="ws-management-protocol"></a>WS-Management 通訊協定
 
@@ -78,6 +78,6 @@ WS-Management 通訊協定提供使用各種 web 服務標準（例如 [*ws-addr
 [遠端硬體管理](remote-hardware-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

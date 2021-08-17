@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102112
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c49bd82f219e4c169a994f0eccdac7906f375a75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d3b577647123cc9c41481e788973a0259723e15028e0c788e362e97ee703932
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104562582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115838"
 ---
 # <a name="esentkeyduplicateexception-methods"></a>EsentKeyDuplicateException 方法
 

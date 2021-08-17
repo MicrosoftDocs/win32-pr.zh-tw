@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - IACom.h
-ms.openlocfilehash: b2471e77fec02900804de831fc1197c071b9f566
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96e932b8e47f323198e1b0cc87da0df7839a593a76850c00c2c2e4d095854851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091448"
 ---
 # <a name="recognizercapabilities-enumeration"></a>RecognizerCapabilities 列舉
 
@@ -200,7 +200,7 @@ typedef enum RecognizerCapabilities {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 

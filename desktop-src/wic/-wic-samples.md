@@ -4,12 +4,12 @@ ms.assetid: 0714f720-f06f-4480-bc3c-5cd0337510d7
 title: WIC 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 138f87a6377cf17f076237a765926ff5008a8570
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e54335b2c57a4e7118d7ca9b7924499ed76ab8c9c1df26120a9dee142f15cd1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086851"
 ---
 # <a name="wic-samples"></a>WIC 範例
 
@@ -28,7 +28,7 @@ WIC 提供兩種類型的範例：
 |--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [DirectX 明信片應用程式範例](https://github.com/microsoft/VCSamples/tree/master/VC2012Samples/Windows%208%20samples/C%2B%2B/Windows%208%20app%20samples/DirectX%20postcard%20app%20sample%20(Windows%208))                      | 示範如何使用 WIC 和檔案選擇器來載入和轉譯影像。                                                                                  |
 | [Direct2D 和 WIC 範例中的 JPEG YCbCr 優化](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/blob/master/Official%20Windows%20Platform%20Sample/JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample/%5BC%2B%2B%5D-JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample/C%2B%2B/JpegYCbCrOptimizations.h) | 示範 Direct2D 和 WIC 中的效能優化，以原生方式呈現 JPEG YCbCr 影像資料。                                                      |
-| [簡易映射範例](/samples/microsoft/windows-universal-samples/simpleimaging/)                                  | 示範如何使用 [**Windows Imaging**](/uwp/api/Windows.Graphics.Imaging?view=winrt-19041) 命名空間來編輯和儲存影像和影像屬性。       |
+| [簡易映射範例](/samples/microsoft/windows-universal-samples/simpleimaging/)                                  | 示範如何使用 [**Windows。圖形. 映射**](/uwp/api/Windows.Graphics.Imaging?view=winrt-19041)命名空間，以編輯和儲存影像和影像屬性。       |
 | [WIC Explorer](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/wic)                                       | 示範如何使用 WIC 來列舉和列出影像內的所有元素，包括中繼資料、框架和縮圖。                             |
 | [WIC 漸進解碼範例](-wic-sample-progressive-decoding.md)                                                  | 示範如何使用 WIC 來解碼以漸進式層級編碼的影像。                                                                   |
 | [WIC 動畫 Gif 範例](-wic-sample-animated-gif.md)                                                                  | 示範如何解碼 GIF 檔案中的框架、為每個框架讀取適當的中繼資料、撰寫框架，以及使用 Direct2D 呈現動畫。 |

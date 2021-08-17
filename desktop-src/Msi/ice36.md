@@ -35,7 +35,7 @@ Icon Bloat. Icon Icon4 is not used in the Class, Shortcut, or ProgID table. This
 
 
 
-| 名稱  | 資料     |
+| Name  | 資料     |
 |-------|----------|
 | Icon1 | Control1 |
 | Icon2 | Control2 |

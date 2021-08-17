@@ -4,12 +4,12 @@ ms.assetid: 718a6d56-c869-4340-bbb8-cac5b231c37e
 title: 'AVEncVideoInputColorLighting 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a447642a2f622480240ec653520ef40021e22437
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c505c8dabc938811f8e672a6247f7b689323d07ab40fabc5b9f4bd911b88cdb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275368"
 ---
 # <a name="avencvideoinputcolorlighting-property"></a>AVEncVideoInputColorLighting 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104025753"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

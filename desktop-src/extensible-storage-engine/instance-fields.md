@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inst
 ms:contentKeyID: 55103268
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: cc405911900b86739d41b1db78a546f1f07eef19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 892c70d68c400c47aa28ce5359052c94bc94bec256df2366849608f42a82efc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112600"
 ---
 # <a name="instance-fields"></a>執行個體欄位
 

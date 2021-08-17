@@ -4,12 +4,12 @@ ms.assetid: ed4e8f56-9137-47fd-a8f9-17eebfd06e97
 title: 使用自訂手勢辨識器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 376f567680cfe7e862f280d1b8e8dc35a2017316
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa4c58dd93bdb19f1f930be38e40f0068fa02239f09603035b572559d1f8a916
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091297"
 ---
 # <a name="using-a-custom-gesture-recognizer"></a>使用自訂手勢辨識器
 

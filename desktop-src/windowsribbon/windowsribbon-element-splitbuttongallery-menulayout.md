@@ -23,7 +23,7 @@ ms.locfileid: "118706896"
 
 代表 [分割按鈕庫](windowsribbon-controls-splitbuttongallery.md) 下拉式功能表版面配置的容器。
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 ``` syntax
 <SplitButtonGallery.MenuLayout>

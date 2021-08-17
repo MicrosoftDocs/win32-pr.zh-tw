@@ -1,19 +1,19 @@
 ---
-description: 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows Media 編碼器。 瞭解如何使用編碼器的啟用物件。
+description: 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows 媒體編碼器。 瞭解如何使用編碼器的啟用物件。
 ms.assetid: 18c26619-6047-4f7f-bb65-ca418f02e5b1
 title: 使用編碼器啟用物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c4111d116c8864cc0a500fa3a0c2f612d1d6345
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 24915020c1b888be6a1aeaca1e21af95d11cfc181a5c00a91c8359c3f780fa0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112067976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972737"
 ---
 # <a name="using-an-encoders-activation-objects"></a>使用編碼器的啟用物件
 
-若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows Media 編碼器。 若要使用這些編碼器，必須向系統註冊。
+若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows 媒體編碼器。 若要使用這些編碼器，必須向系統註冊。
 
 如需編碼器註冊的相關資訊，請參閱具現 [化編碼器 MFT](instantiating-the-encoder-mft.md)。
 
@@ -25,8 +25,8 @@ ms.locfileid: "112067976"
 
 另一種方法是使用編碼器的 [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) 介面 (在 [使用 CoCreateInstance 建立編碼器](using-an-encoder-s-imftransform--interface.md)) 中所述，您可以為編碼器建立啟用物件的實例。 啟用物件有助於建立編碼器，媒體基礎為此方法提供下列兩個功能：
 
--   [**MFCreateWMAEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate) 可具現化 Windows Media 音訊編碼器。
--   用來具現化 Windows Media video 編碼器的 [**MFCreateWMVEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmvencoderactivate) 。
+-   [**MFCreateWMAEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate)可具現化 Windows 媒體音訊編碼器。
+-   用來具現化 Windows 媒體影片編碼器的 [**MFCreateWMVEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmvencoderactivate) 。
 
 這兩個函式都需要您先建立目標媒體類型並設定編碼屬性，然後再呼叫這些函式。 如果您的應用程式使用 [管線層 ASF 元件](pipeline-layer-asf-components.md) 將檔案編碼為 asf 格式，而且已經建立並設定 [asf 媒體接收器](asf-media-sinks.md)，您就可以從 asf 媒體接收器取得這組資訊。
 
@@ -53,7 +53,7 @@ ms.locfileid: "112067976"
 
 ## <a name="encoder-enumeration-in-windows-7-and-later"></a>Windows 7 和更新版本中的編碼器列舉
 
-針對在 Windows 7 上執行的應用程式，除了 [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) 之外，您還可以藉由呼叫 [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex)來列舉編碼器 MFTs。 此函式會傳回編碼器 MFT 之啟用物件的指標。 函式的結構與上述 **MFTEnum** 非常類似，但 **MFTEnumEx** 會針對符合搜尋準則的編碼器 MFTs 傳回 [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) 指標的陣列。
+針對 Windows 7 上執行的應用程式，除了 [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum)之外，您還可以藉由呼叫 [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex)來列舉編碼器 MFTs。 此函式會傳回編碼器 MFT 之啟用物件的指標。 函式的結構與上述 **MFTEnum** 非常類似，但 **MFTEnumEx** 會針對符合搜尋準則的編碼器 MFTs 傳回 [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) 指標的陣列。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -62,7 +62,7 @@ ms.locfileid: "112067976"
 [具現化編碼器 MFT](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Windows Media 編碼器](windows-media-encoders.md)
+[Windows媒體編碼器](windows-media-encoders.md)
 </dt> <dt>
 
 [啟用物件](activation-objects.md)

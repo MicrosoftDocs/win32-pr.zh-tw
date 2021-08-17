@@ -4,12 +4,12 @@ ms.assetid: 4a6dc47f-caff-4f2b-8858-0e9bec32b137
 title: 站狀態控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37f6ddd1b1ce6df1ad2f3dc61e891ed6952a7f05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e136450dbda8cec260a460f49ce8d45b65d1b58ec588ccbcc435c5e3a2b1cd7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118861931"
 ---
 # <a name="station-status-control"></a>站狀態控制
 

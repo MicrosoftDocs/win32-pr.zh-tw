@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - dxva.h
-ms.openlocfilehash: 3ea05af8f27399af38419e177d7bd40b029cd63b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a355c27177a546a2e91e769f72d9f4b9e216b005f711d42b5b7af39b4b78361
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119269238"
 ---
 # <a name="idirect3dvideodevice9getdxvaguids-method"></a>IDirect3DVideoDevice9：： GetDXVAGuids 方法
 
@@ -70,8 +70,8 @@ Guid 陣列的位址或 **Null**。 如果此值為非 **Null**，則陣列會�
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Dxva。h</dt> </dl> |
 
 

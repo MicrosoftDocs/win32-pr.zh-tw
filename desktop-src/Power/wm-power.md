@@ -4,12 +4,12 @@ ms.assetid: ceaa5ca4-799e-4801-96cd-aeea3dfd7d52
 title: 'WM_POWER 訊息 (WinUser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc53fd165ee1cefe8970f85daea04b931a673b33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fd525b4bf229fdb04dac4c1d1492a52dad44317344f58a2f0807ba9afbdc962
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143181"
 ---
 # <a name="wm_power-message"></a>WM \_ 電源訊息
 
@@ -94,9 +94,9 @@ LRESULT CALLBACK WindowProc
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>WinUser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>WinUser (包含 Windows .h) </dt> </dl> |
 
 
 

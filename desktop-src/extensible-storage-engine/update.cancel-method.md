@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 235e743270c554122cbb5662a7ba253963bcae6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d24a4ac4fa5559433c6ee24279045ed3c3dbd29a6e3dfba680545fe71fb4bd39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978168"
 ---
 # <a name="updatecancel-method"></a>更新. Cancel 方法
 

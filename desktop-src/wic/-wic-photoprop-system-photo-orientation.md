@@ -4,12 +4,12 @@ ms.assetid: 27e6d4f5-39d5-4cb4-88bc-b0d61ccaa2f3
 title: 沖印相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a28f4f350cd1a4c24d71ec737b4679aea2f7cab5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87f9496942e6be971e0e047596125669fc9112cf82bce6eb02ec7e1cdbddc4de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087064"
 ---
 # <a name="systemphotoorientation-photo-metadata-policy"></a>沖印相片中繼資料原則
 

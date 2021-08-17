@@ -3,7 +3,7 @@ title: 'NM_CUSTOMDRAW (清單視圖) 通知碼 (Commctrl) '
 description: 由清單視圖控制項傳送，以通知其父視窗關於繪圖作業。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
 ms.assetid: 4e9b91e3-d042-4fd0-b063-a9e6ea9ad564
 keywords:
-- NM_CUSTOMDRAW (清單視圖) 通知碼 Windows 控制項
+- NM_CUSTOMDRAW (清單視圖) 通知程式碼 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19d8927006f3a6a7e5543f2b072d24469a73a7ec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2b30af8dc61f9bb12d524f2b3f6ac58fb1adecebf66b4ad4477756e17f9a621
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018868"
 ---
 # <a name="nm_customdraw-list-view-notification-code"></a>NM \_ CUSTOMDRAW (清單視圖) 通知碼
 
@@ -54,14 +54,14 @@ NM_CUSTOMDRAW
 | 傳回碼                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**CDRF \_ DODEFAULT**</dt> </dl>         | 控制項將會自行繪製。 它不會針對此繪製迴圈傳送任何額外的 [NM \_ CUSTOMDRAW](nm-customdraw.md) 通知碼。 當 **dwDrawStage** 等於 CDDS PREPAINT 時，就會發生這種情況 \_ 。<br/>                                                                                                                                                                                                                                                            |
-| <dl> <dt>**CDRF \_ DOERASE**</dt> </dl>           | Windows Vista。 控制項不會在專案周圍繪製焦點矩形。 <br/>                                                                                                                                                                                                                                                                                                                                                                                 |
+| <dl> <dt>**CDRF \_ DOERASE**</dt> </dl>           | Windows Vista。 控制項只會繪製背景。 <br/>                                                                                                                                                                                                                                                                                                                                                                                 |
 | <dl> <dt>**CDRF \_ NOTIFYITEMDRAW**</dt> </dl>    | 控制項將會通知任何專案相關繪圖作業的父系。 它會在繪製專案之前和之後傳送 [NM \_ CUSTOMDRAW](nm-customdraw.md) 通知碼。 當 **dwDrawStage** 等於 CDDS PREPAINT 時，就會發生這種情況 \_ 。<br/>                                                                                                                                                                                                                        |
 | <dl> <dt>**CDRF \_ NOTIFYPOSTERASE**</dt> </dl>   | 控制項將會在清除專案之後通知父代。 當 **dwDrawStage** 等於 CDDS PREPAINT 時，就會發生這種情況 \_ 。<br/>                                                                                                                                                                                                                                                                                                                                             |
 | <dl> <dt>**CDRF \_ NOTIFYPOSTPAINT**</dt> </dl>   | 控制項將會在繪製專案之後通知父系。 當 **dwDrawStage** 等於 CDDS PREPAINT 時，就會發生這種情況 \_ 。<br/>                                                                                                                                                                                                                                                                                                                                            |
 | <dl> <dt>**CDRF \_ NEWFONT**</dt> </dl>           | 應用程式為專案指定了新的字型;控制項將會使用新的字型。 如需變更字型的詳細資訊，請參閱 [變更字型和色彩](custom-draw.md)。 當 **dwDrawStage** 等於 CDDS ITEMPREPAINT 時，就會發生這種情況 \_ 。<br/>                                                                                                                                                                              |
 | <dl> <dt>**CDRF \_ NOTIFYSUBITEMDRAW**</dt> </dl> | [版本4.71。](common-control-versions.md) 您的應用程式將會在 [ \_ ](nm-customdraw.md) \_ \| \_ 繪製每個清單視圖子集合之前，收到具有 dwDrawStage 設定為 CDDS ITEMPREPAINT CDDS 子工作的 NM CUSTOMDRAW 控制項程式碼。 然後，您可以分別為每個子項指定字型和色彩，或針對預設處理傳回 [**CDRF \_ DODEFAULT**](cdrf-constants.md) 。 當 **dwDrawStage** 等於 CDDS ITEMPREPAINT 時，就會發生這種情況 \_ 。<br/> |
 | <dl> <dt>**CDRF \_ SKIPDEFAULT**</dt> </dl>       | 應用程式會以手動方式繪製專案。 控制項不會繪製專案。 當 **dwDrawStage** 等於 CDDS ITEMPREPAINT 時，就會發生這種情況 \_ 。<br/>                                                                                                                                                                                                                                                                                                                       |
-| <dl> <dt>**CDRF \_ SKIPPOSTPAINT**</dt> </dl>     | Windows Vista。 控制項只會繪製背景。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <dl> <dt>**CDRF \_ SKIPPOSTPAINT**</dt> </dl>     | Windows Vista。 控制項不會繪製焦點矩形。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 
 
@@ -77,8 +77,8 @@ NM_CUSTOMDRAW
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

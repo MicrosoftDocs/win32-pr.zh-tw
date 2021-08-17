@@ -4,12 +4,12 @@ ms.assetid: 4fdd8339-f660-4389-878a-e7ab067d8508
 title: 權杖記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ae7e1dcdd36d538ed44205fa51b8e2094d1ff14
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 456ee591f15cac6e6a3d2fecaad3dfca9f0709b39a63d20fe198e591a199f4dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797420"
 ---
 # <a name="token-records"></a>權杖記錄
 
@@ -31,8 +31,8 @@ ms.locfileid: "106991612"
 | 欄位 | 類型       | 大小 (位元組) | 目錄                       |
 |-------|------------|--------------|--------------------------------|
 | token | WORD       | 2            | 標記 \_ 名稱                    |
-| count | DWORD      | 4            | 名稱欄位的長度（以位元組為單位） |
-| NAME  | 位元組陣列 | count        | ASCII 名稱                     |
+| 計數 | DWORD      | 4            | 名稱欄位的長度（以位元組為單位） |
+| NAME  | 位元組陣列 | 計數        | ASCII 名稱                     |
 
 
 
@@ -47,8 +47,8 @@ ms.locfileid: "106991612"
 | 欄位      | 類型       | 大小 (位元組) | 目錄                         |
 |------------|------------|--------------|----------------------------------|
 | token      | WORD       | 2            | 標記 \_ 字串                    |
-| count      | DWORD      | 4            | 字串欄位的長度（以位元組為單位）  |
-| 字串     | 位元組陣列 | count        | ASCII 字串                     |
+| 計數      | DWORD      | 4            | 字串欄位的長度（以位元組為單位）  |
+| 字串     | 位元組陣列 | 計數        | ASCII 字串                     |
 | 終結 | DWORD      | 4            | 標記 \_ 分號或標記 \_ 逗號 |
 
 
@@ -97,7 +97,7 @@ ms.locfileid: "106991612"
 | 欄位 | 類型  | 大小 (位元組) | 目錄                         |
 |-------|-------|--------------|----------------------------------|
 | token | WORD  | 2            | tOKEN \_ 整數 \_ 清單             |
-| count | DWORD | 4            | 清單欄位中的整數數目 |
+| 計數 | DWORD | 4            | 清單欄位中的整數數目 |
 | list  | DWORD | 4 x 計數    | 整數清單                     |
 
 
@@ -113,7 +113,7 @@ ms.locfileid: "106991612"
 | 欄位 | 類型               | 大小 (位元組)   | 目錄                                  |
 |-------|--------------------|----------------|-------------------------------------------|
 | token | WORD               | 2              | tOKEN \_ FLOAT \_ 清單                        |
-| count | DWORD              | 4              | 清單欄位中的浮點數或雙精度浮點數 |
+| 計數 | DWORD              | 4              | 清單欄位中的浮點數或雙精度浮點數 |
 | list  | float/double 陣列 | 4或 8 x 計數 | Float 或 double 清單                      |
 
 

@@ -4,12 +4,12 @@ description: 代表介面卡的 PnP 硬體識別碼部分。
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 6882d9aa16bf72fb33f9a254a6434becb37f9cb8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68cdb130dd6f0c0338e5b94da2f68c58f98bb91d404871e18ac82e817881117c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118625"
 ---
 # <a name="dxcorehardwareid-structure"></a>DXCoreHardwareID 結構
 

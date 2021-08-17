@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103190
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 99aa51cfc62cd42e24f3cc827b6b1dea7af01cce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b615f493c016f312cc8bc4ebcf4f681245c40c4d801bdedbbbb9b5d1206955f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112787"
 ---
 # <a name="esentversionstoreentrytoobigexception-members"></a>EsentVersionStoreEntryTooBigException 成員
 

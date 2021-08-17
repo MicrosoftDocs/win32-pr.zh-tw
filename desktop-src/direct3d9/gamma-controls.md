@@ -4,12 +4,12 @@ ms.assetid: 74f106be-8f47-4875-9908-32ff35912968
 title: " (Direct3D 9) 的 Gamma 控制項"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6484bcf7e8fa5e07a3bf4bb718cd361330560f8c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5074f60199364ba86a0b5ad743fcc03121351cad0ac071d9231beef7c7156f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104556500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122199"
 ---
 # <a name="gamma-controls-direct3d-9"></a> (Direct3D 9) 的 Gamma 控制項
 

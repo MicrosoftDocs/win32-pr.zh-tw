@@ -4,12 +4,12 @@ ms.assetid: 4c67d652-3c6c-46ca-a1d6-cf35afd23440
 title: System.object. InterfaceGuid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ab6fb01052ecfb3e73709017c8e47427a5f89a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76e244ae3a424b60eebee8a1a7b89f776a552396fbd9ae07b0ba0f9bd6165a48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096997"
 ---
 # <a name="systemdeviceswwaninterfaceguid"></a>System.object. InterfaceGuid
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b06758bef18ed80b26e245afc5cfeb4dfda637a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c88252b824c1cba0e432ebae356619a9c6f79bf10d2b4b3989b096fe2daeb3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980028"
 ---
 # <a name="jet_instance_info-class"></a>JET_INSTANCE_INFO 類別
 

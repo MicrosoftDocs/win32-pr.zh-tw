@@ -4,18 +4,18 @@ ms.assetid: 735e7a00-78f9-4384-aec7-8caa1fdb3ac3
 title: ImgDirection Proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69cdcf9a94d17299fc6434689398812be50fba94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b283b67ecba8862fc24290c5cd7d9c257d66275329b50cb0fb97e0f5618028a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087256"
 ---
 # <a name="systemgpsimgdirection-proxy"></a>ImgDirection Proxy
 
 ImgDirection 相片中繼資料原則的屬性 proxy。
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 屬性 proxy 會透過 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal 成員傳回有理數 a。
 
