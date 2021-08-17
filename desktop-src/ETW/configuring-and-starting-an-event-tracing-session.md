@@ -4,12 +4,12 @@ ms.assetid: 8a6aa39c-ec81-42ac-a26e-29f1f6960220
 title: 設定和啟動事件追蹤會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f86ec57975e8f12ede17e5e2cda962c010aa1af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1650e503b8c54108d58f6e7cebda546eb9d9e32d8ef014da0c27e5d062af4567
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963158"
 ---
 # <a name="configuring-and-starting-an-event-tracing-session"></a>設定和啟動事件追蹤會話
 
@@ -17,7 +17,7 @@ ms.locfileid: "104973848"
 
 指定會話的屬性之後，請呼叫 [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) 函數來啟動會話。 如果函式成功， *SessionHandle* 參數會包含會話控制碼，而 **LoggerNameOffset** 屬性將會包含會話名稱的位移。
 
-若要啟用您想要將事件記錄到會話的提供者，請呼叫 [**EnableTrace**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) 函式來啟用傳統提供者和 [**EnableTraceEx**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) 函式，以啟用以 [資訊清單為基礎的](about-event-tracing.md) 提供者。 若要在 Windows 8.1、Windows Server 2012 R2 和更新版本上，將您想要記錄事件的「提供者」記錄至特定條件，請呼叫 [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) 函數。
+若要啟用您想要將事件記錄到會話的提供者，請呼叫 [**EnableTrace**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) 函式來啟用傳統提供者和 [**EnableTraceEx**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) 函式，以啟用以 [資訊清單為基礎的](about-event-tracing.md) 提供者。 若要在 Windows 8.1、Windows Server 2012 R2 和更新版本的特定條件下，讓您想要記錄事件的提供者進行篩選，請呼叫 [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2)函數。
 
 此外，您也可以透過呼叫 [**TraceSetInformation**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) 函式來追蹤事件的其他資訊。 **TraceSetInformation** 會將其他追蹤資訊放入事件的 [擴充資料] 區段中，而且可以包含追蹤版本資訊之類的資訊，或目前在系統上註冊的提供者。 如需詳細資訊，請參閱 [取出其他事件追蹤資料](retrieving-additional-event-tracing-data.md)。
 
@@ -25,7 +25,7 @@ ms.locfileid: "104973848"
 
 您可以使用這三個函式中的任一個來啟用提供者，但如果您使用 [**EnableTrace**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) 來啟用以資訊清單為基礎的提供者，則可能會遺失功能，因為您將無法提供 MatchAllKeyword 值、指定要包含在事件中的擴充資料項目，或提供提供者定義的篩選資料。 如需詳細資訊，請參閱每個函數的 [備註] 區段。
 
-在 Windows 8.1、Windows Server 2012 R2 和更新版本上， [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) 函式可以使用事件承載、範圍和堆疊逐步篩選，以及 [**啟用 \_ 追蹤 \_ 參數**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) 和 [**事件 \_ 篩選 \_ 描述**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) 項結構，以篩選記錄器會話中的特定條件。 如需事件裝載篩選準則的詳細資訊，請參閱 [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter)和 [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) 函式以及 **啟用 \_ 追蹤 \_ 參數**、 **事件 \_ 篩選器 \_ 描述** 元和承載 [**\_ 篩選 \_**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) 述詞結構。
+在 Windows 8.1、Windows Server 2012 R2 和更新版本上， [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2)函式可以使用事件承載、範圍和堆疊逐步篩選，以及 [**啟用 \_ 追蹤 \_ 參數**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters)和 [**事件 \_ 篩選器 \_ 描述**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor)元結構，以篩選記錄器會話中的特定條件。 如需事件裝載篩選準則的詳細資訊，請參閱 [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter)和 [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) 函式以及 **啟用 \_ 追蹤 \_ 參數**、 **事件 \_ 篩選器 \_ 描述** 元和承載 [**\_ 篩選 \_**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) 述詞結構。
 
 若要判斷用來啟用以資訊清單為基礎之提供者的層級和關鍵字，請使用下列其中一個命令：
 

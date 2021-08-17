@@ -4,18 +4,18 @@ ms.assetid: a2177c23-a3f7-42e9-b162-01eb6fcc178f
 title: VerticalResolution Proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2df05089ab8d0d767de807f8a23b0ebbed44bc09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63955e48f2bbad21744ae09ea9bd13f8a293bca3ad32d58324aec8fcde78e3f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441898"
 ---
 # <a name="systemimageverticalresolution-proxy"></a>VerticalResolution Proxy
 
 VerticalResolution 相片中繼資料原則的屬性 proxy。
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 屬性 proxy 會透過 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal 成員傳回有理數 a。
 
@@ -25,7 +25,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-Yes
+是
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 

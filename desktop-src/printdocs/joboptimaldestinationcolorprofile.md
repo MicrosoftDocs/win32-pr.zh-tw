@@ -4,12 +4,12 @@ ms.assetid: 70790dc2-180a-4e04-91a9-a10ee76c836b
 title: JobOptimalDestinationColorProfile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e7ad2ea269594809b047922ea4f6c99b924e5ae
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 9f2a63f63993f6a9cf8de8ba0a332407bb645099d98e6d92669c18368bd7629a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099666"
 ---
 # <a name="joboptimaldestinationcolorprofile"></a>JobOptimalDestinationColorProfile
 
@@ -59,11 +59,11 @@ ms.locfileid: "112408841"
 
 
 
-| Name                            | 資料類型         | 單位           | 支援的值          | 總結                                        |
+| Name                            | 資料類型         | 單位           | 支援的值          | 摘要                                        |
 |---------------------------------|-------------------|----------------|---------------------------|------------------------------------------------|
-| \_ProfileValue\_<br/>     | string<br/> | n/a<br/> | RGB、ICC、CMYK<br/> | 指定色彩設定檔。<br/>        |
-| \_PathValue\_<br/>        | string<br/> | n/a<br/> | n/a<br/>            | 指定設定檔的檔案路徑。<br/> |
-| \_ProfileDataValue\_<br/> | string<br/> | n/a<br/> | n/a<br/>            | 包含設定檔資料內容。<br/>      |
+| \_ProfileValue\_<br/>     | 字串<br/> | n/a<br/> | RGB、ICC、CMYK<br/> | 指定色彩設定檔。<br/>        |
+| \_PathValue\_<br/>        | 字串<br/> | n/a<br/> | n/a<br/>            | 指定設定檔的檔案路徑。<br/> |
+| \_ProfileDataValue\_<br/> | 字串<br/> | n/a<br/> | n/a<br/>            | 包含設定檔資料內容。<br/>      |
 
 
 

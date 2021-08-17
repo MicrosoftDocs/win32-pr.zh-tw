@@ -4,12 +4,12 @@ ms.assetid: d1c36c47-107c-4012-a839-1018c2652209
 title: PageWatermark
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b93eadfb3aeaa2c0be1de2cf5775bd1b5c88666
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 7b5070b6418b3ba0830f95cba059d6a84e9ababd1f83097830aeca5ca71e074f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091868"
 ---
 # <a name="pagewatermark"></a>PageWatermark
 
@@ -95,7 +95,7 @@ ms.locfileid: "112396083"
 
 
 
-| Name                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                      |
+| Name                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | \_選項名稱\_<br/>          | string<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
 | \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |

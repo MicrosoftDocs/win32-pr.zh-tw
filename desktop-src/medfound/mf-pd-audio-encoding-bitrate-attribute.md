@@ -4,12 +4,12 @@ ms.assetid: 700f61f4-a0d7-4b69-ace5-356e4e29b93d
 title: 'MF_PD_AUDIO_ENCODING_BITRATE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49566ecb225482ef6513e056de8ba11763de603e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 041e92eb71621d1f42d2b800557d204215bbca40f346a2afa4627863fc1a2206
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102875"
 ---
 # <a name="mf_pd_audio_encoding_bitrate-attribute"></a>MF \_ PD \_ 音訊 \_ 編碼 \_ 位元速率屬性
 
@@ -38,8 +38,8 @@ ms.locfileid: "104193625"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

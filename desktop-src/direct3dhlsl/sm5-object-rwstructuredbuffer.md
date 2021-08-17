@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f921ca795e761522828de14ede61894defe44f6e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58eacc277eac2d55aca0e6068698d11110768cfbe3ab6b564b97a0607715a7ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095148"
 ---
 # <a name="rwstructuredbuffer"></a>RWStructuredBuffer
 
@@ -64,7 +64,7 @@ RWStructuredBuffer 物件的前面可以加上儲存類別 **globallycoherent**�
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

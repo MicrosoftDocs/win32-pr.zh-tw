@@ -4,16 +4,16 @@ ms.assetid: 4f516cf0-d5b3-4df6-b171-54bbafc0ef93
 title: 作業系統屬性值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5747d5be27566bbdb5ec1e7e9208ac5ffbf6f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 461419a29bc62b9aa51e76fe2a471f4c6ef9a079767f40cbeaab397358a10ec8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145551"
 ---
 # <a name="operating-system-property-values"></a>作業系統屬性值
 
-本主題中的表格會顯示所選 Windows Installer [作業系統屬性](property-reference.md)的值。
+本主題中的表格會顯示所選 Windows Installer[作業系統屬性](property-reference.md)的值。
 
 
 
@@ -25,7 +25,7 @@ ms.locfileid: "106990472"
 | Windows 2000 + Service Pack 3                 | 500       | 2195                          | 3                |
 | Windows 2000 + Service Pack 4                 | 500       | 2195                          | 4                |
 | Windows XP                                    | 501       | 2600                          | 不適用   |
-| Windows XP Service Pack 1 (SP1)           | 501       | 2600                          | 1                |
+| WindowsXP Service Pack 1 (SP1)           | 501       | 2600                          | 1                |
 | Windows XP with Service Pack 2 (SP2)          | 501       | 2600                          | 2                |
 | Windows XP (含 Service Pack 3，SP3)          | 501       | 2600                          | 3                |
 | Windows Server 2003                           | 502       | 3790                          | 不適用   |

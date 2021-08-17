@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1f7ac79a16bb0464f6e81d90eba38384a3c2b483
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 918e432ce7a8ea2d43769b9d9ee1315a4b35bce6f2c0cb23f1153ec7afe1a599
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106970463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139211"
 ---
 # <a name="headerfield-headerfieldstype-element"></a>HeaderField (headerFieldsType) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "106970463"
 
 
 
-| 元素                                                                        | 衍生自                                                                 | Description                                                                                      |
+| 元素                                                                        | 衍生自                                                                 | 描述                                                                                      |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**HeaderFields**](taskschedulerschema-headerfields-sendemailtype-element.md) | [**headerFieldsType**](taskschedulerschema-headerfieldstype-complextype.md) | 指定標頭欄位，以及在電子郵件訊息的標頭中使用的值。<br/> |
 
@@ -46,9 +46,9 @@ ms.locfileid: "106970463"
 
 
 
-| 元素                                                            | 類型                                                                    | Description                                                            |
+| 元素                                                            | 類型                                                                    | 描述                                                            |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**Name**](taskschedulerschema-name-headerfieldtype-element.md)   | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md) | 在電子郵件訊息中指定標頭欄位的名稱。<br/> |
+| [**名稱**](taskschedulerschema-name-headerfieldtype-element.md)   | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md) | 在電子郵件訊息中指定標頭欄位的名稱。<br/> |
 | [**值**](taskschedulerschema-value-headerfieldtype-element.md) | **string**                                                              | 指定電子郵件訊息中標頭欄位的值。<br/>  |
 
 
@@ -65,8 +65,8 @@ ms.locfileid: "106970463"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

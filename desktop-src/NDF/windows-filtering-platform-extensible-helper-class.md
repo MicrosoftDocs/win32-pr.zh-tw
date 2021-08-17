@@ -1,17 +1,17 @@
 ---
-title: Windows 篩選平台可擴充 Helper 類別
+title: Windows篩選平臺可擴充 Helper 類別
 description: Windows 篩選平台 (WFP) 包含網路診斷架構 (NDF) helper 類別，稱為篩選平臺協助程式類別 (FPHC) 。
 ms.assetid: 006ea30c-8682-4a3d-803a-73dba5162696
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 858835c1a649602293ed042c13205ca982de9258
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ff972beffebb44b33eb68a0439193307639522738ac1f8766845404c03d3cd9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065208"
 ---
-# <a name="windows-filtering-platform-extensible-helper-class"></a>Windows 篩選平台可擴充 Helper 類別
+# <a name="windows-filtering-platform-extensible-helper-class"></a>Windows篩選平臺可擴充 Helper 類別
 
 [Windows 篩選平台 (WFP) ](/windows/desktop/FWP/windows-filtering-platform-start-page)包含網路診斷架構 (NDF) helper 類別，稱為篩選平臺協助程式類別 (FPHC) 。 FPHC 可協助識別 WFP 造成連線問題的根本原因。 協力廠商防火牆開發人員可以執行自己的 NDF helper 類別。 FPHC 擴充性可讓您在診斷期間叫用這些協力廠商 helper 類別。
 
@@ -43,7 +43,7 @@ FPHC 可將 WFP 識別為連接問題的原因。 如果有的話，FPHC 也可�
 
 下表顯示用來識別要在 WFP 事件記錄檔中的診斷中使用之假設的相符屬性。 
 
-| 名稱       | 類型    | Description                                                                                                                                                                                                                                                                                                 |
+| 名稱       | 類型    | 描述                                                                                                                                                                                                                                                                                                 |
 |------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ProviderID | REG \_ SZ | FPHC 延伸模組的 GUID。 此值必須與 WFP 提供者 GUID 相同。 <br/> 這個字串會區分大小寫。 它應該以大寫字母儲存在登錄中，並以封入括弧和連字號括住。 例如，{C200E360-38C5-11CE-AE62-08002B2B79EF} 是有效的 ProviderID。<br/> |
 
@@ -59,7 +59,7 @@ FPHC 可將 WFP 識別為連接問題的原因。 如果有的話，FPHC 也可�
 
 
 
-| 屬性     | [**屬性 \_類型**](/windows/win32/api/ndattrib/ne-ndattrib-attribute_type) 值 | Description                                                                                                                               |
+| 屬性     | [**屬性 \_類型**](/windows/win32/api/ndattrib/ne-ndattrib-attribute_type) 值 | 描述                                                                                                                               |
 |---------------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 提供者 GUID | 位於 \_ GUID                                        | 與篩選準則相關聯之提供者的 GUID。                                                                                      |
 | 時間戳記     | 在 \_ 八位 \_ 字串                               | 指定事件發生時間的 FILETIME 型別緩衝區。 這個時間戳記可以用來唯一識別事件。 |
@@ -77,7 +77,7 @@ FPHC 可將 WFP 識別為連接問題的原因。 如果有的話，FPHC 也可�
 
 建議將診斷和修復資訊提供給使用者之前，FPHC 延伸模組應收集比 FPHC 通知所提供更多的資料。 您可以從 [WFP 事件管理函數](/windows/desktop/FWP/fwp-mgmt-functions)取得此資料。 這些函式會在 [顯示 Net Events](/windows/desktop/FWP/displaying-net-events) 範例中示範。
 
-SDK 中包含更詳細的事件管理範例。 您可以在 SDK 安裝位置的 C： \\ Program Files \\ Microsoft sdk \\ Windows \\ <version number> \\ 範例 \\ NetDs \\ WFP \\ DiagEvents 中找到範例的原始程式碼。 您可以從 [下載中心](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf)取得 WINDOWS Vista SDK。
+SDK 中包含更詳細的事件管理範例。 您可以在 SDK 安裝位置的 C： \\ Program Files \\ Microsoft sdk \\ Windows \\ <version number> \\ 範例 \\ NetDs \\ WFP \\ DiagEvents 中找到範例的原始程式碼。 您可以從[下載中心](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf)取得 Windows Vista SDK。
 
 ## <a name="built-in-fphc-diagnostics"></a>內建 FPHC 診斷
 

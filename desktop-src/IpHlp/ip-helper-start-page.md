@@ -4,12 +4,12 @@ ms.assetid: 4896a9f8-0486-4380-bf49-d1c9ef114acc
 title: IP 協助程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1d50153e1ad890063f33a473058f6a850a9f171
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6262543d1644fbe62858f2c90064f42d2c1348b2f3c56033813f453d33470ce3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146771"
 ---
 # <a name="ip-helper"></a>IP 協助程式
 
@@ -23,11 +23,11 @@ IP 協助程式 API 適用于任何以程式設計方式操作網路和 TCP/IP �
 
 ## <a name="developer-audience"></a>開發人員對象
 
-IP Helper API 是設計來供 C/c + + 程式設計人員使用。 程式設計人員也應該熟悉 Windows 網路和 TCP/IP 網路概念。
+IP Helper API 是設計來供 C/c + + 程式設計人員使用。 程式設計人員也應該熟悉 Windows 網路和 tcp/ip 網路概念。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-IP 協助程式 API 可在所有 Windows 平臺上使用。 並非所有的作業系統都支援所有功能。 當 Windows 通訊端2平臺限制的特定執行或功能存在時，就會在檔中清楚注明它們。 如果在不支援函數的平臺上呼叫 IP Helper 函式， \_ \_ 則會傳回不支援的錯誤。 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的需求一節。
+IP 協助程式 API 可在所有 Windows 平臺上使用。 並非所有的作業系統都支援所有功能。 當 Windows 通訊端2平臺限制的特定實作為或功能存在時，就會在檔中清楚注明它們。 如果在不支援函數的平臺上呼叫 IP Helper 函式， \_ \_ 則會傳回不支援的錯誤。 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的需求一節。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -48,7 +48,7 @@ IP 協助程式 API 可在所有 Windows 平臺上使用。 並非所有的作�
 
 <dl> <dt>
 
-[Windows 通訊端2](/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows通訊端2](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
 [路由及遠端存取服務](../rras/routing-start-page.md)

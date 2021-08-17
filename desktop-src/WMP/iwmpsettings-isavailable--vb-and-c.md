@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e932f0adb325c4c2f9f88e9f80d75ecaecd3ca85
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 590979677e79073466f7511b3f382a4bfcebc8bf0fd8ad4cb10f6dcd957db28a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135371"
 ---
 # <a name="iwmpsettingsisavailable-vb-and-c"></a>IWMPSettings. isAvailable (VB 和 c # ) 
 
@@ -158,10 +158,10 @@ playerSettings.Lines = results
 [**IWMPSettings 介面 (VB 和 c # )**](iwmpsettings--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
+[**IWMPSettings (VB 和 c # 的 autoStart )**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-balance--vb-and-c.md)
+[**IWMPSettings (VB 和 c # ) 的餘額**](wmplibiwmpsettings-iwmpsettings-balance--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings. baseURL (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-baseurl--vb-and-c.md)
@@ -179,19 +179,19 @@ playerSettings.Lines = results
 [**IWMPSettings. invokeURLs (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-invokeurls--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings (VB 和 c # ) 靜音**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)
+[**IWMPSettings (VB 和 c # ) 的靜音**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings. playCount (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-playcount--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings (VB 和 c # 的速率 )**](wmplibiwmpsettings-iwmpsettings-rate--vb-and-c.md)
+[**IWMPSettings (VB 和 c # ) 的速率**](wmplibiwmpsettings-iwmpsettings-rate--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings. setMode (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-setmode--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-volume--vb-and-c.md)
+[**IWMPSettings 磁片區 (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-volume--vb-and-c.md)
 </dt> </dl>
 
  

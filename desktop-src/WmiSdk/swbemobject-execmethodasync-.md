@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8af1b7c10eed427423afea8b40a1df5bc237f99e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37d7a0ab0b2e4d1ab893619eda4b3d32b8b4e1f60791e0981125d4445bda5f98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857348"
 ---
 # <a name="swbemobjectexecmethodasync_-method"></a>SWbemObject.ExecMethodAsync \_ 方法
 
-[**SWbemObject**](swbemobject.md)的 **ExecMethodAsync \_** 方法會以非同步方式執行方法提供者所匯出的方法。 這個方法類似于 [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md)，但會直接在要執行之方法的物件上運作。 Windows Management Instrumentation (WMI) 不會執行此方法。 提供者會執行此方法。
+[**SWbemObject**](swbemobject.md)的 **ExecMethodAsync \_** 方法會以非同步方式執行方法提供者所匯出的方法。 這個方法類似于 [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md)，但會直接在要執行之方法的物件上運作。 WindowsManagement Instrumentation (WMI) 不會執行此方法。 提供者會執行此方法。
 
 如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。
 
@@ -179,7 +179,7 @@ objOutParams = .ExecMethodAsync_( _
 
 ## <a name="examples"></a>範例
 
-下列範例顯示 [**ExecMethodAsync**](swbemservices-execmethodasync.md) 方法。 腳本會建立 [**Win32 \_ 處理**](/windows/desktop/CIMWin32Prov/win32-process) 物件，該物件代表正在執行 [記事本] 的進程。 它會顯示 [**InParameters**](swbemmethod-inparameters.md) 物件的設定，以及如何從 [**OutParameters**](swbemmethod-outparameters.md) 物件取得結果。
+下列範例顯示 [**ExecMethodAsync**](swbemservices-execmethodasync.md) 方法。 腳本會建立 [**Win32 \_ 處理**](/windows/desktop/CIMWin32Prov/win32-process)物件，該物件代表正在執行記事本的進程。 它會顯示 [**InParameters**](swbemmethod-inparameters.md) 物件的設定，以及如何從 [**OutParameters**](swbemmethod-outparameters.md) 物件取得結果。
 
 如需顯示同步執行相同作業的腳本，請參閱 [**SWbemObject.ExecMethod**](swbemobject-execmethod-.md)。 如需使用直接存取的範例，請參閱 [**在 Class Win32 \_ 進程中建立方法**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process)。 如需使用 [**SWbemServices**](swbemservices.md) 物件進行相同操作的範例，請參閱 [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md)。
 
@@ -248,8 +248,8 @@ end sub
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemObject<br/>                                                           |
 | IID<br/>                      | IID \_ ISWbemObject<br/>                                                            |

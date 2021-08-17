@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立當地語系化的類別定義
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d41a183c1478c259b0428cd827088a769e680425
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: a2d7cb5f2970c3696de7cdd1bdb9d61d6eed5e86dc60c8941eec475d15145dd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106976638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119374768"
 ---
 # <a name="creating-localized-class-definitions"></a>建立當地語系化的類別定義
 

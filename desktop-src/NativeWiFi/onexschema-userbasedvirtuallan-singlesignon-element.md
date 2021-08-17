@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 6ef421e35f7fa121c31e58cfeba4eee969a1b6fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9272f61e7efeaf90ba68b1577af9b0062e507984372f7f09ebdbfc15e4ac6fbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064968"
 ---
 # <a name="userbasedvirtuallan-singlesignon-element"></a>userBasedVirtualLan (singleSignOn) 元素
 
@@ -25,7 +25,7 @@ UserBasedVirtualLan (singleSignOn) 元素會指定裝置所使用的虛擬 LAN (
 
 這是選擇性的項目。 當設定檔中未指定 userBasedVirtualLan 時，會使用 FALSE 值。
 
-Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 如果設定檔中有此元素，將會予以忽略。
+**Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 如果設定檔中有此元素，將會予以忽略。
 
 ``` syntax
 <xs:element name="userBasedVirtualLan"
@@ -46,8 +46,8 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

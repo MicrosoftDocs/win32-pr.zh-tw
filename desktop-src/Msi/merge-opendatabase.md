@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 2e200da6fe3f4913e53d96a237cac2b4d4c9b77e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63736c3346c68f6902c1e35b63be46a7a3f202dfb8ac0254ac448c808bf85bfc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119314888"
 ---
 # <a name="mergeopendatabase-method"></a>Merge. OpenDatabase 方法
 

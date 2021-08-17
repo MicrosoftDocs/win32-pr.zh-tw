@@ -7,18 +7,18 @@ keywords:
 - 檔案和登錄機碼 ADSI 的安全描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11600a495b9a70513b9bd401777e9cdd61449ede
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ae567e9550989153f0b85207be49a729bc0499c320f410c92fc993269d997da7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119333218"
 ---
 # <a name="security-descriptors-on-files-and-registry-keys"></a>檔案和登錄機碼上的安全描述項
 
 Active Directory 服務介面 (ADSI) 可以用來管理及保護組織內的檔案系統，包括在使用者建立的檔案或檔案共用上設定或修改 Acl 的能力。 安全性介面（例如 [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)、 [**IADsAccessControlList**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist)和 [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry) ）會在 Active Directory、Exchange、檔案、檔案共用或登錄機碼物件上設定 acl。 在使用這些介面之前，如果安全描述項使用介面中的不同格式，或您沒有安全描述項的 SACL 存取權限，則可能需要修改安全描述項，因為您不是安全性系統管理員群組的成員。
 
-若要取得、設定或修改安全描述項，請使用 [**IADsSecurityUtility**](/windows/desktop/api/Iads/nn-iads-iadssecurityutility) 介面。 這個介面可讓您從各種資源中取得安全描述項，例如 ADSI 格式 [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)、原始安全描述項，或做為在 Exchange 5.5 中使用的十六進位字串。 在抓取之後，您可以將它轉換成另一種格式，例如從原始安全描述項轉換為 **IADsSecurityDescriptor**。 然後，您可以將新的格式寫回資源。
+若要取得、設定或修改安全描述項，請使用 [**IADsSecurityUtility**](/windows/desktop/api/Iads/nn-iads-iadssecurityutility) 介面。 這個介面可讓您從各種資源（例如 ADSI 格式 [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)、原始安全描述項或十六進位字串）中取出安全描述項，Exchange 5.5 中使用。 在抓取之後，您可以將它轉換成另一種格式，例如從原始安全描述項轉換為 **IADsSecurityDescriptor**。 然後，您可以將新的格式寫回資源。
 
 某些 [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry) 屬性值（例如 [**AccessMask**](iadsaccesscontrolentry-property-methods.md) 和 **AceFlags**）會因不同的物件類型而有所不同。 例如，Active Directory 物件會針對 **IADsAccessControlEntry. AccessMask** 屬性使用 ads [**\_ 許可權 \_ 列舉**](/windows/win32/api/iads/ne-iads-ads_rights_enum)列舉的 **ads \_ RIGHT \_ 一般 \_ 讀取** 成員，但檔案物件的對等存取權限則是檔案 **\_ 一般 \_ 讀取**。 假設 Active Directory 物件和非 Active Directory 物件的所有屬性值都相同，並不安全。 下列清單顯示非 Active Directory 物件的不同 **IADsAccessControlEntry** 屬性，以及可取得適當值的位置。
 
@@ -86,7 +86,7 @@ Active Directory 服務介面 (ADSI) 可以用來管理及保護組織內的檔�
 
 如需詳細資訊和使用 [**IADsSecurityUtility**](/windows/desktop/api/Iads/nn-iads-iadssecurityutility) 介面將 ace 新增至檔案的程式碼範例，請參閱 [將 ace 新增至](example-code-for-adding-an-ace-to-a-file.md)檔案的範例程式碼。
 
-下列範例程式碼會為 [**AccessMask**](iadsaccesscontrolentry-property-methods.md)、 **AceType**、 **AceFlags** 和 **Flags** 屬性提供檔案、檔案共用和登錄物件的常數識別碼，以搭配 Visual Basic 和 Microsoft Visual Basic Scripting Edition 使用。
+下列範例程式碼會為 [**AccessMask**](iadsaccesscontrolentry-property-methods.md)、 **AceType**、 **AceFlags** 和 **Flags** 屬性提供檔案、檔案共用和登錄物件的常數識別碼，以搭配 Visual Basic 和 Microsoft Visual Basic 腳本編寫版本使用。
 
 
 ```VB
@@ -183,6 +183,6 @@ Const ACE_INHERITED_OBJECT_TYPE_PRESENT = 2
 
 
 
- 
+ 
 
- 
+ 

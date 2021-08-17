@@ -3,7 +3,7 @@ title: 'EM_REDO 訊息 (Richedit .h) '
 description: 將 EM \_ 重做訊息傳送至 rich edit 控制項，以重做控制項的重做佇列中的下一個動作。
 ms.assetid: 28ec1ec2-a56d-442f-b3cb-9feeb92edaeb
 keywords:
-- EM_REDO message Windows 控制項
+- EM_REDO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bba7a684db0d40ebcfeec4a540989c4dab4c5dd2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d39b679e8bf7e78cf7ce028d0bb440438770d0d0123516313fb418b2136ebc11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437858"
 ---
 # <a name="em_redo-message"></a>EM \_ 重做訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "104465897"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

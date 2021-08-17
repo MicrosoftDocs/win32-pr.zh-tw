@@ -35,7 +35,7 @@ ms.locfileid: "119391748"
 
 **HKEY \_本機 \_ 電腦** \\ **System** \\ **CurrentControlSet** \\ **Control** \\ **Sessionmanager** \\ **環境**
 
-以及
+及
 
 **HKEY \_使用者** \\ **< 使用者 >** \\ **環境**
 
@@ -308,7 +308,7 @@ class Win32_Environment : CIM_SystemResource
 
 **HKEY \_本機 \_ 電腦** \\ **System** \\ **CurrentControlSet** \\ **Control** \\ **Sessionmanager** \\ **環境**
 
-以及
+及
 
 **HKEY \_使用者** \\ **< 使用者 >** \\ **環境**
 

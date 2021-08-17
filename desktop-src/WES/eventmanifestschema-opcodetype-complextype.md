@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e5abaa11373086fe7f1237e10daf3e0a3df1cdb4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b18fa8a7591a54877251e10448842c3cd9d2394099028bf3a2cb680aee979bbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136211"
 ---
 # <a name="opcodetype-complex-type"></a>OpcodeType 複雜類型
 
@@ -65,13 +65,13 @@ ms.locfileid: "104106025"
 
 
 
-| 名稱     | 類型                                                              | Description                                                                                                                                                                                                                                                                                                          |
+| 名稱     | 類型                                                              | 描述                                                                                                                                                                                                                                                                                                          |
 |----------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | message  | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | Opcode 的當地語系化顯示名稱。 訊息字串會參考資訊清單之 [**stringTable**](eventmanifestschema-stringtable-resources-element.md) 區段中的當地語系化字串。 <br/>                                                                                                     |
 | mofValue | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | 已保留供內部使用。<br/>                                                                                                                                                                                                                                                                           |
 | NAME     | **QName**                                                         | Opcode 的名稱。 這個名稱在此提供者的範圍內必須是唯一的。 <br/>                                                                                                                                                                                                                      |
 | 符號   | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | 用來參考應用程式中之 opcode 的符號。 [**訊息編譯器 (MC.exe)**](message-compiler--mc-exe-.md)會使用符號，為編譯器產生的標頭檔中的 opcode 建立常數。 如果您未指定符號，編譯器會為您產生一個符號。<br/> |
-| value    | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | Opcode 值。 您可以指定範圍10和239的值。 如需預先定義之 opcode 值的清單，請參閱備註。<br/>                                                                                                                                                                                    |
+| 值    | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | Opcode 值。 您可以指定範圍10和239的值。 如需預先定義之 opcode 值的清單，請參閱備註。<br/>                                                                                                                                                                                    |
 
 
 
@@ -81,7 +81,7 @@ ms.locfileid: "104106025"
 
 
 
-| Name          | 值 | 符號                      | 描述                                                                                            |
+| 名稱          | 值 | 符號                      | 描述                                                                                            |
 |---------------|-------|-----------------------------|--------------------------------------------------------------------------------------------------------|
 | win： Info      | 0     | NEW-WINEVENT \_ OPCODE \_ 資訊      | 資訊事件。                                                                                |
 | win：開始     | 1     | NEW-WINEVENT \_ OPCODE \_ 開始     | 表示啟動活動的事件。                                                         |
@@ -105,8 +105,8 @@ ms.locfileid: "104106025"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

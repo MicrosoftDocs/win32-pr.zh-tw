@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_LogicalFile 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2227511388a2e1edf93f8c12bde6506a8cfce4b8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 65dc7166371bb535c748e0a9fbbe872daeb8bb62d93fbd17981088df81719302
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923028"
 ---
 # <a name="cim_logicalfile-methods"></a>CIM \_ LogicalFile 方法
 

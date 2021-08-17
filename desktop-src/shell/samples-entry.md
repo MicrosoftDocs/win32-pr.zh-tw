@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 61c043e83b5fd2f89e5cdd1e8c0acebeb5fb78d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32ee8cda819c134b473a4142e7a4b215bc46371fdca614dbf74b6d84afdbfbcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090178"
 ---
 # <a name="shell-samples"></a>Shell 範例
 
-本節說明 [GitHub](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell)上提供的 Shell 範例。
+本節說明[GitHub](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell)上可用的 Shell 範例。
 
 | 主題           | 目錄                    |
 |-------------|-----------------------|
@@ -33,7 +33,7 @@ ms.locfileid: "104973300"
 | [拖放視覺效果範例](samples-dragdropvisuals.md)                                                   | 示範如何使用 Shell 的拖放服務，取得可針對目標和來源提供 Shell 拖放支援的呈現功能。                                                                     |
 | [DropTarget 動詞範例](samples-droptargetverb.md)                                                          | 示範如何使用 DropTarget 方法來執行 Shell 動詞。                                                                                                                                                       |
 | [執行命令動詞範例](samples-executecommandverb.md)                                                 | 示範如何使用 ExecuteCommand 方法來執行 Shell 動詞。                                                                                                                                                   |
-| [在 Explorer 中執行範例](samples-execinexplorer.md)                                                      | 示範如何從 Windows 檔案總管進程呼叫 [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) 函數。                                                                                                                 |
+| [在 Explorer 中執行範例](samples-execinexplorer.md)                                                      | 示範如何從 Windows 檔案總管進程呼叫 [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea)函數。                                                                                                                 |
 | [Explorer 瀏覽器自訂內容範例](samples-explorerbrowsercustomcontents.md)                          | 示範如何為您的應用程式執行自訂的瀏覽器瀏覽器主。                                                                                                                                          |
 | [Explorer 瀏覽器搜尋範例](samples-explorerbrowsersearch.md)                                           | 示範如何使用 Windows 檔案總管瀏覽器控制項，在應用程式中內嵌 Windows 檔案總管，以及如何使用記憶體中的搜尋資料夾來執行搜尋功能。                                           |
 | [Explorer 命令動詞範例](samples-explorercommandverb.md)                                               | 示範如何使用 ExplorerCommand 和 ExplorerCommandState 方法來執行 Shell 動詞命令。                                                                                                                        |
@@ -60,7 +60,7 @@ ms.locfileid: "104973300"
 | [工作列週邊設備狀態範例](samples-taskbarperipheralstatus.md)                                       | 示範工作列圖示重迭和進度列。                                                                                                                                                                         |
 | [工作列縮圖工具列範例](samples-taskbarthumbnailtoolbar.md)                                       | 示範縮圖工具列、內嵌于視窗縮圖預覽中的作用中工具列控制項，用來提供視窗的按鍵命令存取權，而不需要使用者還原或啟動應用程式的視窗。 |
 | [使用影像 Factory 範例](samples-usingimagefactory.md)                                                   | 示範如何使用 [**IShellItemImageFactory**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory) 介面取得專案的最佳可能影像。                                                                                    |
-| [使用縮圖提供者範例](samples-usingthumbnailproviders.md)                                       | 示範如何使用 [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) 介面，從 Windows 縮圖快取系統中解壓縮專案的縮圖。                                                          |
+| [使用縮圖提供者範例](samples-usingthumbnailproviders.md)                                       | 示範如何使用 [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider)介面，從 Windows 縮圖快取系統中解壓縮專案的縮圖。                                                          |
 
 
 

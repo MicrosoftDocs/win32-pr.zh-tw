@@ -4,18 +4,18 @@ description: 網際網路金鑰交換 (IKE) 和已驗證的網際網路通訊協
 ms.assetid: 365bfebc-250a-440f-8056-ff9601daa030
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d58a6d00ddd337d56c3c00a34b6949213be6ee26
-ms.sourcegitcommit: 60ad94096619da5476f9bbcd4cc231b40b6f5358
+ms.openlocfilehash: a2963c804c6bd63f191563566bcc99dcf9f0f4a74bb2c844a402adc856dbad3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069058"
 ---
 # <a name="ikeauthip-exemptions"></a>IKE/AuthIP 豁免
 
 網際網路通訊協定安全性 (IPsec) 的加密模組、網際網路金鑰交換 (IKE) 和已驗證的網際網路通訊協定 (AuthIP) ，為了能夠運作，必須從 IPsec 篩選豁免網路流量。
 
-在 Windows 篩選平台 (WFP) 基礎篩選引擎 (BFE) 會在新增第一個 IKE 或 AuthIP 主要模式 (MM) 原則篩選器時自動新增 IKE 和 AuthIP 豁免篩選，並在刪除最後一個 IKE 或 AuthIP MM 原則篩選器時將其刪除。 如此一來，原則提供者不需要個別管理 IKE 和 AuthIP 篩選豁免。
+在 Windows 篩選平台 (WFP) 基礎篩選引擎 (BFE) 在新增第一個 ike 或 authip 主要模式 (MM) 原則篩選器時，自動新增 ike 和 authip 豁免篩選，並在刪除最後一個 ike 或 authip MM 原則篩選器時將其刪除。 如此一來，原則提供者不需要個別管理 IKE 和 AuthIP 篩選豁免。
 
 IKE MM 原則篩選器是引擎層 [**FWPM \_ 圖層 \_ IKEEXT \_ V {4 \| 6}**](management-filtering-layer-identifiers-.md) 中的篩選器，可參考 [**FWPM \_ IPSEC \_ IKE \_ MM \_ 內容**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)類型的提供者內容。
 

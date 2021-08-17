@@ -4,12 +4,12 @@ ms.assetid: 763bc763-e178-481e-a81a-c15715e56901
 title: 建立防護頁面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10768da75090a28ffecd5302d88dbc142ae9c147
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fee4d4a44a6e64d6af81e4b847347f357c3590edbd7e6b806e8f32653e1f869
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963288"
 ---
 # <a name="creating-guard-pages"></a>建立防護頁面
 

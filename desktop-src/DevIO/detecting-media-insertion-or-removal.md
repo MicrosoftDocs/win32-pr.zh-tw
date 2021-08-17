@@ -1,22 +1,22 @@
 ---
-description: '\_當新的裝置或媒體 (（例如 CD 或 DVD) 新增並變成可用，以及移除現有的裝置或媒體時），windows 會將一組預設的 WM DEVICECHANGE 訊息傳送給所有最上層 windows。'
+description: '\_當新的裝置或媒體 (（例如 CD 或 DVD) ）新增並變成可用，以及移除現有的裝置或媒體時，Windows 會將一組預設的 WM DEVICECHANGE 訊息傳送給所有最上層 Windows。'
 ms.assetid: 26baa3aa-e54d-42fe-b2b2-a3fcca6dee91
 title: 偵測媒體插入或移除
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e6cfd4539d6f2ce5eac41e355f56a5a87835505
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3f3f6d579ed654ae2d2f77d00f70b88dc1441d03bbce59c0f8cb39ca6800c6af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318348"
 ---
 # <a name="detecting-media-insertion-or-removal"></a>偵測媒體插入或移除
 
-當新的裝置或媒體 (（例如 CD 或 DVD) 新增並變成可用，以及移除現有的裝置或媒體時），windows 會將一組預設的 [**WM \_ DEVICECHANGE**](wm-devicechange.md) 訊息傳送給所有最上層 windows。 您不需要註冊來接收這些預設訊息。 如需預設傳送訊息的詳細資訊，請參閱 [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa) 中的「備註」一節。 下列程式碼範例中的訊息會在預設訊息中。
+當新的裝置或媒體 (（例如 CD 或 DVD) ）新增並變成可用，以及移除現有的裝置或媒體時，Windows 會將一組預設的 [**WM \_ DEVICECHANGE**](wm-devicechange.md)訊息傳送給所有最上層 Windows。 您不需要註冊來接收這些預設訊息。 如需預設傳送訊息的詳細資訊，請參閱 [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa) 中的「備註」一節。 下列程式碼範例中的訊息會在預設訊息中。
 
 > [!Note]  
-> Windows 只會將 CD 或 DVD 媒體事件的 [**WM \_ DEVICECHANGE**](wm-devicechange.md) 訊息傳送到在 active 主控台會話中執行的應用程式所擁有的最上層視窗。 在遠端桌面會話中執行的應用程式所擁有的最上層視窗，不會收到 CD 或 DVD 媒體事件的 [**WM \_ DEVICECHANGE**](wm-devicechange.md) 訊息。
+> Windows 只會將 CD 或 DVD 媒體事件的 [**WM \_ DEVICECHANGE**](wm-devicechange.md)訊息傳送到在 active 主控台會話中執行的應用程式所擁有的最上層視窗。 在遠端桌面會話中執行的應用程式所擁有的最上層視窗，不會收到 CD 或 DVD 媒體事件的 [**WM \_ DEVICECHANGE**](wm-devicechange.md) 訊息。
 
  
 

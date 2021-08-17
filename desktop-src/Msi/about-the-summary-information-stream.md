@@ -4,12 +4,12 @@ ms.assetid: b909955f-ddd6-4cf1-8e86-fcf89be80b41
 title: 關於摘要資訊資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ab931d7f9b6dd726fc6df3d7b805f4cc5c25caa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5178edc9fe2a94ddd2812abb8161c88423cc17cd033d228b066d5ce74b9f1694
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146031"
 ---
 # <a name="about-the-summary-information-stream"></a>關於摘要資訊資料流程
 

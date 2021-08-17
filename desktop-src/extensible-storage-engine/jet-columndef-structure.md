@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c541b5801c95f4b269e33360f5ffa2404ff8fc06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f33823c88bf421e82d1c30d8c286f352e35ce2013451ce8353197f430107ec98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968678"
 ---
 # <a name="jet_columndef-structure"></a>JET_COLUMNDEF 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_columndef-structure"></a>JET_COLUMNDEF 結構
 
@@ -115,7 +115,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="odd">
 <td><p>JET_bitColumnAutoincrement</p></td>
 <td><p>將會自動遞增資料行。 此數位是遞增的數位，而且在資料表中保證是唯一的。 不過，數位可能不是連續的。 例如，如果將五個數據列插入資料表中， &quot; 自動遞增 &quot; 資料行可以包含值 {1，2，6，7，8}。 這個位只能用在 <strong>JET_coltypLong</strong> 或 <strong>JET_coltypCurrency</strong>類型的資料行上。</p>
-<p><strong>Windows 2000：  </strong>在 Windows 2000 中，此位只能用在 <strong>JET_coltypLong</strong>類型的資料行上。</p></td>
+<p><strong>Windows 2000：</strong>在 Windows 2000 中，此位只能用於<strong>JET_coltypLong</strong>類型的資料行。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_bitColumnUpdatable</p></td>
@@ -190,7 +190,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

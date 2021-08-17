@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 58ad88c9f975455bdd2d77a0ef8ee028d9027d9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6adaa0f4884ad275137a6c949dbc466416006f33bb6603dc61e87153d9b23361
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065098"
 ---
 # <a name="lanprofile-element"></a>LANProfile 元素
 
@@ -74,7 +74,7 @@ LANProfile 元素的目標命名空間為 `https://www.microsoft.com/networking/
 
 
 
-| 元素                                                                 | 類型    | Description                                                                                                                              |
+| 元素                                                                 | 類型    | 描述                                                                                                                              |
 |-------------------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MSM**](lan-profileschema-msm-lanprofile-element.md)                 |         | 包含特定媒體模組 (MSM) 設定。 <br/>                                                                               |
 | [**OneXEnabled**](lan-profileschema-onexenabled-security-element.md)   | boolean | 指定有線網路的自動設定服務是否會嘗試使用 802.1 X 進行埠驗證。 <br/>      |
@@ -93,8 +93,8 @@ LANProfile 元素的目標命名空間為 `https://www.microsoft.com/networking/
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -11,12 +11,12 @@ keywords:
 - Echo DSP 外掛程式範例，CEchoPropPage Apply 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bdca8a771d3e3e26923567f25bf7d19e968595e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a53d05bee90908f766034c300c99bcfa8d529b06e6713c803bd99bcf042b579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135621"
 ---
 # <a name="implementing-cechoproppageapply"></a>執行 CEchoPropPage：： Apply
 
@@ -152,9 +152,9 @@ m_bDirty = FALSE; // Tell the property page to disable Apply.
 [**修改 Echo 範例屬性頁**](modifying-the-echo-sample-property-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 564f122242407f4d6f5dd28da9fd4d151ab6b47f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 19fc62179337236edbac2d5136cbcbff8152b46292ae666ae2836fd4b3c8d2d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439958"
 ---
 # <a name="setipusezerobroadcast-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetIPUseZeroBroadcast 方法 \_
 

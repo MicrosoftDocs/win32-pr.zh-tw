@@ -4,12 +4,12 @@ ms.assetid: 64465eb4-d23a-44e7-ad0d-060b195d37b3
 title: 預設轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab5f13c764a92c005fad36c9f2599b99a654284f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ba34effd9d6d43ab3b0abc740250c58788a8ce2f1556e89c92b78af823e58c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119469678"
 ---
 # <a name="default-transformations"></a>預設轉換
 

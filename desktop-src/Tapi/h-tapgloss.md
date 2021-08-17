@@ -5,12 +5,12 @@ ms.assetid: 0a394999-ed7e-448c-973c-faf6dadcb4fe
 title: 'H (電話語音 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef6459052bc4bd5cb8319e1cadc0a8ac036b7b55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7eff6d712283caaedc3484669a4d6a6e2e93bc08400500f47c7799f0f8e9661
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140541"
 ---
 # <a name="h-telephony-api"></a>H (電話語音 API) 
 

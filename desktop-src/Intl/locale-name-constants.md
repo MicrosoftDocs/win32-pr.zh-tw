@@ -4,12 +4,12 @@ ms.assetid: 63e2e368-af2f-4af0-bbea-2b27d1939394
 title: LOCALE_NAME * 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9aaaba8665c729a047be6a7e3a3d6b3239c81af7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f0c9c7afc7b03cd085a4121b61064f7cabb199534e41f98748a56682ab27817
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147391"
 ---
 # <a name="locale_name-constants"></a>地區設定 \_ 名稱 \* 常數
 

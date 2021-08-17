@@ -4,12 +4,12 @@ ms.assetid: ebe5f447-9b74-48dc-8192-f2ac90dca490
 title: 修補 Per-User 受控應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aa6a19933e5c8ab409d510d980b8ed634a630e1
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 516af282dc7f149b86d03192303dc1b3da14416d1a6a22a4f3e716f641777500
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106991399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979368"
 ---
 # <a name="patching-per-user-managed-applications"></a>修補 Per-User 受控應用程式
 

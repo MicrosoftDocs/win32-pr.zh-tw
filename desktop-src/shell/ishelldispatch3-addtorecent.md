@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 8d31d05e9eef889d9018e4806cf4c882dba3060e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8f5507755a6929cee9811f1f935e93b347aed9ebe57f2e0237365cdfbbf4b109
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090318"
 ---
 # <a name="ishelldispatch3addtorecent-method"></a>IShellDispatch3. AddToRecent 方法
 
@@ -83,9 +83,9 @@ IShellDispatch3.AddToRecent( _
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何使用 JScript、VBScript 和 Visual Basic 的 **AddToRecent** 。
+下列範例顯示 JScript、VBScript 和 Visual Basic 的 **AddToRecent** 用法。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -180,10 +180,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |
 
 

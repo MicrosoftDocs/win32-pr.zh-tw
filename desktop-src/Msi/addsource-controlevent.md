@@ -4,12 +4,12 @@ ms.assetid: fd8d6433-87cc-4544-9f4f-57a90e5f2ea5
 title: AddSource ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7441fb6cdf10abf25798c5e56405b6b4eab11b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b0adff72ac14376c7084d6c3c005a77b2891019947cd22e8d73e58bfa09ad64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145951"
 ---
 # <a name="addsource-controlevent"></a>AddSource ControlEvent
 

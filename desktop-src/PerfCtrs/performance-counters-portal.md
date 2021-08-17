@@ -4,16 +4,16 @@ ms.assetid: 9dcb7e84-a7d6-43b5-8fe9-4e33d683c74c
 title: 效能計數器
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 3339b4e8a7cf2bc29a3f594a02e0ca724e115331
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58f0443dc66895b856810e2ae3a12ec03dca412c17a65e50ff3caea4f3adb496
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143951"
 ---
 # <a name="performance-counters"></a>效能計數器
 
-Windows 效能計數器提供高階的抽象層，可提供一致的介面來收集各種類型的系統資料，例如 CPU、記憶體和磁片使用量。 系統管理員通常會使用效能計數器來監視系統的效能或行為問題。 軟體發展人員通常會使用效能計數器來檢查其程式的資源使用量。
+Windows效能計數器提供高階的抽象層，可提供一致的介面來收集各種類型的系統資料，例如 CPU、記憶體和磁片使用量。 系統管理員通常會使用效能計數器來監視系統的效能或行為問題。 軟體發展人員通常會使用效能計數器來檢查其程式的資源使用量。
 
 ## <a name="in-this-section"></a>本節內容
 

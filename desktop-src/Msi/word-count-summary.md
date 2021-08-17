@@ -4,12 +4,12 @@ ms.assetid: 1eeece25-4f24-4efe-879d-66ebbb6a9391
 title: 字數統計摘要屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c4200cb946f6948770d0c900c2df651b8fbff11
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0eb167c50db0894ea658bb93b97bfb9f49362d32cca8976a2ea3ec590b716450
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145231"
 ---
 # <a name="word-count-summary-property"></a>字數統計摘要屬性
 
@@ -42,7 +42,7 @@ ms.locfileid: "106995767"
 | 3     | 使用短檔案名的壓縮原始檔。 符合 [媒體資料表](media-table.md)中的封包和檔案。 若要安裝此套件，可能需要較高的許可權。                                                                                                                  |
 | 4     | 使用長檔名的系統管理映射。 符合 [目錄資料表](directory-table.md)中的樹狀結構。 若要安裝此套件，可能需要較高的許可權。                                                                                                                                |
 | 5     | 使用簡短檔案名的系統管理映射。 符合 [目錄資料表](directory-table.md)中的樹狀結構。 若要安裝此套件，可能需要較高的許可權。                                                                                                                               |
-| 8     | 安裝此套件不需要較高的許可權。 在 [不使用 UAC 對話方塊的情況下撰寫套件](authoring-packages-without-the-uac-dialog-box.md)時，請使用此值。從 Windows Installer 4.0 版和 Windows Vista 或 Windows Server 2008 開始提供。<br/> |
+| 8     | 安裝此套件不需要較高的許可權。 在[不使用 UAC 對話方塊的情況下撰寫套件](authoring-packages-without-the-uac-dialog-box.md)時，請使用此值。從 Windows Installer 4.0 版和 Windows Vista 或 Windows Server 2008 開始提供。<br/> |
 
 
 
@@ -52,7 +52,7 @@ ms.locfileid: "106995767"
 
 在轉換中，[ **字數統計摘要** ] 屬性應該是 Null。
 
-在 patch 封裝的摘要資訊資料流程中，[ **字數統計** ] 屬性會指出安裝修補程式所需的最小 Windows Installer 版本。
+在 patch 封裝的摘要資訊資料流程中，[**字數統計**] 屬性會指出安裝修補程式所需的最小 Windows Installer 版本。
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "106995767"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 
 
 

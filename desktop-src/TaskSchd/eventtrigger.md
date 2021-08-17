@@ -1,5 +1,5 @@
 ---
-title: 'EventTrigger 物件 (]) '
+title: 'EventTrigger 物件 (Windows.. h) '
 description: 代表觸發程式的腳本物件，此觸發程式會在系統事件發生時啟動工作。
 ms.assetid: 79cb6591-0919-441f-ad7f-4eb7cf0f9591
 keywords:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77b80bc8336c4756dfedc041aea40f79fd5f868e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a355106ee4fcd6756e7aaf59c19664f91204ffb1caae6ebc2dbe45575a5f2ec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060165"
 ---
 # <a name="eventtrigger-object"></a>EventTrigger 物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "104509127"
 
 
 
-| 屬性                                                            | 存取類型           | Description                                                                                                                                                                                                                                                                                                                                                                              |
+| 屬性                                                            | 存取類型           | 描述                                                                                                                                                                                                                                                                                                                                                                              |
 |:--------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**延遲**](eventtrigger-delay.md)<br/>                      | 讀取/寫入<br/> | 取得或設定值，這個值表示發生事件的時間與啟動工作的時間之間的時間長度。<br/>                                                                                                                                                                                                                                                            |
 | [**啟用**](trigger-enabled.md)<br/>                       | 讀取/寫入<br/> | 繼承自 [**觸發**](trigger.md) 程式物件。 取得或設定布林值，這個值會指出是否已啟用觸發程式。<br/>                                                                                                                                                                                                                                             |
@@ -72,9 +72,9 @@ ms.locfileid: "104509127"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                         |
-| 標頭<br/>                   | <dl> <dt>App.xaml.。h</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                         |
+| 標頭<br/>                   | <dl> <dt>Windows .xaml.。h</dt> </dl> |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl>      |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl>      |
 
@@ -84,7 +84,7 @@ ms.locfileid: "104509127"
 
 <dl> <dt>
 
-[**觸發**](trigger.md)
+[**觸發程序**](trigger.md)
 </dt> <dt>
 
 [**TriggerCollection**](triggercollection.md)

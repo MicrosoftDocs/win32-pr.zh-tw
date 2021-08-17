@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: 19f97abeec74af0d08f340b70aa139e1bec7bf1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6605e2fb02edad23831b22334b960eaa2e89f23206673608500f248452094ea6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061146"
 ---
 # <a name="pdhvbaddcounter-function"></a>PdhVbAddCounter 函式
 
@@ -62,7 +62,7 @@ ms.locfileid: "106983495"
 
 
 
-| 傳回碼                                                                                                     | Description                                                                   |
+| 傳回碼                                                                                                     | 描述                                                                   |
 |-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | <dl> <dt>**PDH \_ 不正確 \_ 引數**</dt> </dl>           | 一或多個引數無效或不正確。<br/>              |
 | <dl> <dt>**PDH \_ 記憶體 \_ 配置 \_ 失敗**</dt> </dl> | 無法配置記憶體緩衝區。<br/>                            |
@@ -83,8 +83,8 @@ ms.locfileid: "106983495"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 程式庫<br/>                  | <dl> <dt>Pdh. .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 

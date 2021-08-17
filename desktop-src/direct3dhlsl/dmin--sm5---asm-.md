@@ -4,12 +4,12 @@ description: 元件的雙精確度最小值。
 ms.assetid: 77331B4D-C4B5-49B2-BB6A-77BD5050B575
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e199b01c68acca6609123425438f309af872fb4
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 20977a24113db111e85bc644ed68eccaa7e75db91c18bf71d80ac89f5ee19547
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855118"
 ---
 # <a name="dmin-sm5---asm"></a>dmin (sm5-asm) 
 
@@ -50,7 +50,7 @@ NaN 具有特殊處理。 如果一個來源運算元為 NaN，則會傳回另�
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -67,11 +67,11 @@ NaN 具有特殊處理。 如果一個來源運算元為 NaN，則會傳回另�
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

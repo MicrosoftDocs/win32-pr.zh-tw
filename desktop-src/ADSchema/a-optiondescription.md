@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abc47ee05086376cb01e59741ec5a44c4c823bf6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7ea3f6b8a6f984a9e1df323097be91fb3b4e7afae1055587e19e93a0c66c9102
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924047"
 ---
 # <a name="option-description-attribute"></a>Option-Description 屬性
 

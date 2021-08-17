@@ -40,12 +40,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dd28ab0b9982606278e65705273a9965cfb9b396
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57d7da1bc240353f7d7258ab929903493f3a725d636e05cfab187d53ef4ffcc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923347"
 ---
 # <a name="cim_logicaldisk-class-cimwin32-wmi-providers"></a>CIM_LogicalDisk 類別 (CIMWin32 WMI 提供者) 
 
@@ -141,7 +141,7 @@ class CIM_LogicalDisk : CIM_StorageExtent
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -440,7 +440,7 @@ class CIM_LogicalDisk : CIM_StorageExtent
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 

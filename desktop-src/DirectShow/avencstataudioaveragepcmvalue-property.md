@@ -4,12 +4,12 @@ ms.assetid: 371c2eb6-24dc-42f0-a525-2a7fcd7cb087
 title: 'AVEncStatAudioAveragePCMValue 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15de3cb8f1a4aaf8f1e71f3d534dffed1535dbeb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4a516c0fe1fd00696892c3e2d35735bbea0f3502b0c0013d5016b92dc34b2209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275968"
 ---
 # <a name="avencstataudioaveragepcmvalue-property"></a>AVEncStatAudioAveragePCMValue 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104510270"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

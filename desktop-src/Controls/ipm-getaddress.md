@@ -3,7 +3,7 @@ title: 'IPM_GETADDRESS 訊息 (Commctrl .h) '
 description: 取得 IP 位址控制項中所有四個欄位的位址值。
 ms.assetid: 4fe68d45-7d7f-46da-a110-65f899b3c393
 keywords:
-- IPM_GETADDRESS message Windows 控制項
+- IPM_GETADDRESS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 426e9c76712701b2f4e108679133be23eb700687
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9bcb35ed71532e815b33b45e1c15e9b82b75b5c87fac406b52de80670e3d72a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434509"
 ---
 # <a name="ipm_getaddress-message"></a>IPM \_ GETADDRESS 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103934632"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

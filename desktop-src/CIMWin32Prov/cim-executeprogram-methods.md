@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_ExecuteProgram 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c1df56eb99211f26915c84e11ff919bd26958d1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 793d0b79c40382b63335bfb43f853dc558642be13b8c3e3983fb3832cd919f13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438868"
 ---
 # <a name="cim_executeprogram-methods"></a>CIM \_ ExecuteProgram 方法
 

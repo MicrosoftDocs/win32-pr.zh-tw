@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc03f175e780d63eed3881b9146116702a30a02a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7267a8462e89bdd995896a97fad82cb84ae4e8a36037e39767eca1239611af29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137601"
 ---
 # <a name="setsessiondirectoryexposeserverip-method-of-the-win32_tssessiondirectory-class"></a>Win32 TSSessionDirectory 類別的 SetSessionDirectoryExposeServerIP 方法 \_
 

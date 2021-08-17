@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bcfae6b1d2029fd916cf2e796e611a6b76318bc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1a3455529afd0b2fe9125410becb8f46ca75c4ec23a08ddd157ef0ecebfb9daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322188"
 ---
 # <a name="labeleduri-attribute"></a>labeledURI 屬性
 
@@ -64,7 +64,7 @@ ms.locfileid: "104467206"
 | Range-Upper            | \-                                                                                                                                         |
 | Search-Flags           | 0x00000000                                                                                                                                 |
 | System-Flags           | 0x00000000                                                                                                                                 |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "104467206"
 | Range-Upper            | \-                                                                                                                                         |
 | Search-Flags           | 0x00000000                                                                                                                                 |
 | System-Flags           | 0x00000000                                                                                                                                 |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -106,7 +106,7 @@ ms.locfileid: "104467206"
 | Range-Upper            | \-                                                                                                                                         |
 | Search-Flags           | 0x00000000                                                                                                                                 |
 | System-Flags           | 0x00000000                                                                                                                                 |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -127,7 +127,7 @@ ms.locfileid: "104467206"
 | Range-Upper            | \-                                                                                                                                         |
 | Search-Flags           | 0x00000000                                                                                                                                 |
 | System-Flags           | 0x00000000                                                                                                                                 |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 

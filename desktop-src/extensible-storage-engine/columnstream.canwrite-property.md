@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b9dd50d38aa320f433dbb9972cb8bf6e615a2125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e9ee84732aeaed5d8854008fc8dff7edf703a48d7427f289e5aeb4f525126be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976668"
 ---
 # <a name="columnstreamcanwrite-property"></a>ColumnStream. CanWrite 屬性
 

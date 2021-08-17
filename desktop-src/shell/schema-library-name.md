@@ -4,12 +4,12 @@ ms.assetid: 1F433405-5943-4579-BDAD-423C4E1A6E76
 title: " (程式庫架構的 name 元素) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54d38baa32587ee04c62c8c3086d5353e8eed9e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 179d8b4a1f4358ccb441cc38c6c0765a6dc4d9ade8b3c32a1504be2151cfedaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883938"
 ---
 # <a name="name-element-library-schema"></a> (程式庫架構的 name 元素) 
 

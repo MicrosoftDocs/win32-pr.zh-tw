@@ -4,16 +4,16 @@ ms.assetid: 1d6d5b01-bc0f-455f-8b23-bc0f409afde4
 title: 'ITSdp：： SetEmailNames 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9ff31e66f5f69fe7fad43da5ec436c3f567cd49
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f23fa550c5750a3fad5d0b20ccdf2e032ed98c20a10b2f8e758ea7c9874e05a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140231"
 ---
 # <a name="itsdpsetemailnames-method"></a>ITSdp：： SetEmailNames 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **SetEmailNames** 方法會設定與會議 blob 相關聯的電子郵件地址陣列。
 

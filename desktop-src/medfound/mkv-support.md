@@ -3,12 +3,12 @@ description: 本節說明 Matroska Media Container (.MKV) 檔的媒體基礎支�
 title: Matroska Media Container (.MKV) 支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd860f58087bc8a0f3fe95d278bfa81edc412d0
-ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
+ms.openlocfilehash: aceb7a836b4a0409af3c359c8d81a0f232e6eb61082960cfb2b0705531de199c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110154211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102138"
 ---
 # <a name="matroska-media-container-mkv-support"></a>Matroska Media Container (.MKV) 支援
 
@@ -65,7 +65,7 @@ Matroska 識別碼： V_MPEG4/ISO/ASP
 
 Matroska 識別碼： V_MS/VFW/FOURCC
 
-- 描述：對應至數個通常以可在主控台上使用的 AVI 格式支援的編解碼器。
+- 描述：地圖多個編解碼器，通常會以可在主控台上使用的 AVI 格式支援。
 
 Matroska 識別碼： V_THEORA
 
@@ -216,7 +216,7 @@ Matroska 識別碼： A_TRUEHD
 
 Matroska 識別碼： A_MS/ACM
 
-- MSFT 媒體基礎 MF_MT_SUBTYPE：對應至 mmreg 中定義的數個 WAVE_FORMAT 音訊類型
+- MSFT 媒體基礎 MF_MT_SUBTYPE：地圖至 mmreg 中定義的數個 WAVE_FORMAT 音訊類型
 
 
 ### <a name="subtitles-codec-support-for-mkv"></a>.MKV 的字幕編解碼器支援

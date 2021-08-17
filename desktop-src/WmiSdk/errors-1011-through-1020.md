@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 錯誤1011到1020
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a73f90ce0fc161604d87672fb5b33f9708aa945
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 960c646e600f57a9ce98230b12a89424ec9c61dc94c4fdc5360fb6ceaeda24d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119374498"
 ---
 # <a name="errors-1011-through-1020"></a>錯誤1011到1020
 

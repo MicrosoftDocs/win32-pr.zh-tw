@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 10088b1d0722f968e5d3742984baa91ec3e423aa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 85964d24c82367c8609e4f93b02f5614493c56efa299386038d7f73fd749dcab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440038"
 ---
 # <a name="setdnssuffixsearchorder-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetDNSSuffixSearchOrder 方法 \_
 
@@ -414,7 +414,7 @@ IP 位址無效。
 
 [ [修改所有網路介面卡的 DNS 尾碼搜尋順序](https://Gallery.TechNet.Microsoft.Com/2857b7b0-1327-4ce2-9f2b-b662cce387c6) ] VBScript 程式碼範例會將電腦設定為在執行 DNS 搜尋時使用兩個 dns 尾碼。
 
-[在 [電腦上啟用 Dhcp 設定](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125) ] VBScript 範例會設定在電腦上啟用 dhcp 時通常需要的所有設定。
+在[電腦上啟用 dhcp 設定](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125)VBScript 範例會設定在電腦上啟用 dhcp 時通常需要的所有設定。
 
 下列 PowerShell 程式碼會設定 DNS 尾碼搜尋順序。
 

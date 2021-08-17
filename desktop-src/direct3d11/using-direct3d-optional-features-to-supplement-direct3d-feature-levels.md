@@ -1,19 +1,19 @@
 ---
 title: 使用 Direct3D 11 功能資料來補充 Direct3D 功能等級
-description: 瞭解如何檢查裝置支援的選用功能，包括最新的 Windows 版本中新增的功能。
+description: 瞭解如何檢查裝置支援的選用功能，包括最近版本的 Windows 中新增的功能。
 ms.assetid: 91D9706A-47C5-4220-8AC7-167095E74F74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dcc770812281ea89e8ebb68065aa68a00e1887d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 03c2e7392f576b8c0dca059a4ef2fdd2ee6415230e5fd41e497d60899332f674
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124046"
 ---
 # <a name="using-direct3d-11-feature-data-to-supplement-direct3d-feature-levels"></a>使用 Direct3D 11 功能資料來補充 Direct3D 功能等級
 
-瞭解如何檢查裝置支援的選用功能，包括最新的 Windows 版本中新增的功能。
+瞭解如何檢查裝置支援的選用功能，包括最近版本的 Windows 中新增的功能。
 
 [Direct3D 功能等級](overviews-direct3d-11-devices-downlevel-intro.md) 表示定義完善的 GPU 功能集，大致上與不同的圖形硬體世代相對應。 這可大幅簡化檢查硬體 capaibilities 的工作，同時也能在各式各樣的不同裝置上提供一致的體驗。
 
@@ -25,9 +25,9 @@ ms.locfileid: "104315592"
 
 ## <a name="can-i-minimize-the-work-required-for-feature-support-checks"></a>是否可以將功能支援檢查所需的工作減到最少？
 
-除了具有正確的 Direct3D 11 執行時間 (通常與 Windows 版本相關) 圖形驅動程式也必須足以支援選擇性功能。 WDDM 規格需要可支援的選用功能（如果硬體可以支援的話）。 因此，當圖形驅動程式支援在特定 Windows 版本中新增的其中一項選用功能時，通常表示圖形驅動程式支援該 Windows 版本中新增的其他功能。 例如，如果設備磁碟機支援功能層級9上的陰影，則您知道設備磁碟機至少是 WDDM 1.2。
+除了具有正確的 Direct3D 11 執行時間 (通常與 Windows 版本相關聯) 圖形驅動程式也必須足以支援選擇性功能。 WDDM 規格需要可支援的選用功能（如果硬體可以支援的話）。 因此，當圖形驅動程式支援在特定版本的 Windows 中新增的其中一項選用功能時，通常表示圖形驅動程式支援該 Windows 版本中新增的其他功能。 例如，如果設備磁碟機支援功能層級9上的陰影，則您知道設備磁碟機至少是 WDDM 1.2。
 
-**注意**   如果 Microsoft Direct3D 裝置支援 [功能層級](overviews-direct3d-11-devices-downlevel-intro.md)11.1，除了 **SAD4ShaderInstructions** 和 **ExtendedDoublesShaderInstructions** 之外，也會自動支援 [**D3D11 \_ 功能 \_ 資料 \_ D3D11 \_ 選項**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options)所指出的所有選用功能。
+**注意** 如果 Microsoft Direct3D 裝置支援 [功能層級](overviews-direct3d-11-devices-downlevel-intro.md)11.1，除了 **SAD4ShaderInstructions** 和 **ExtendedDoublesShaderInstructions** 之外，也會自動支援 [**D3D11 \_ 功能 \_ 資料 \_ D3D11 \_ 選項**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options)所指出的所有選用功能。
 
 執行時間一律會以相同方式設定下列成員群組。 也就是說，群組中的所有值都是 **TRUE** 或 **FALSE** ：
 
@@ -39,9 +39,9 @@ ms.locfileid: "104315592"
 
 ### <a name="feature-support-on-windows-rt-81-and-windows-phone-81-devices"></a>Windows RT 8.1 和 Windows Phone 8.1 裝置上的功能支援
 
-Windows RT 平板裝置可支援各種功能等級和選用功能、已針對減少耗電量進行優化，並使用整合式圖形而非離散 Gpu。 適用于 ARM 裝置的 Windows Store 應用程式必須支援功能層級9.1。 適用于 Windows RT 的 DirectX 應用程式應該利用可以節省電源和迴圈的選用功能，例如簡單的實例（如果有的話）。
+Windows RT 平板裝置可支援各種功能等級和選用功能、已針對減少耗電量進行優化，並使用整合式圖形而非離散 gpu。 Windows適用于 ARM 裝置的儲存應用程式必須支援功能層級9.1。 適用于 Windows RT 的 DirectX 應用程式應該利用可以節省電源和迴圈的選用功能，例如簡單的實例（如果有的話）。
 
-Windows Phone 8 行動裝置支援具有特定選用功能的功能等級9.3。 請參閱 [ \_ Windows Phone 8 的 Direct3D 功能等級 9 3](/previous-versions/windows/apps/jj714085(v=vs.105))。
+Windows Phone 8 行動裝置支援具有特定選用功能的功能等級9.3。 請參閱[ \_ Windows Phone 8 的 Direct3D 功能等級 9 3](/previous-versions/windows/apps/jj714085(v=vs.105))。
 
 ## <a name="what-are-the-direct3d-11-optional-features"></a>什麼是 Direct3D 11 選用功能？
 
@@ -104,6 +104,6 @@ Direct3D 11.2 新增了可由 Direct3D 11 裝置支援的四個新的選擇性�
 [裝置](overviews-direct3d-11-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

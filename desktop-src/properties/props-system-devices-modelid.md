@@ -4,12 +4,12 @@ ms.assetid: eb2b9edf-a217-47d1-bd36-23ba166c0022
 title: ModelId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a90c23368a27638b6089b4f9e144ac476ff6ef67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8536885c71fecf16224987a349f72b6a7319284b16b2d82bf7e2144a3f442cbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119445528"
 ---
 # <a name="systemdevicesmodelid"></a>ModelId
 

@@ -4,12 +4,12 @@ ms.assetid: 8bee8059-b901-4a99-a7e4-60dad831c239
 title: 將 XPS OM 寫入 XPS 檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 811f773394ee9dbbcf77dc75d1429322bb733631
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40f6ef79f592ad241e54e9a01fb5e4fe72cc41573e75c78f347109cdfb1c6f32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098555"
 ---
 # <a name="write-an-xps-om-to-an-xps-document"></a>將 XPS OM 寫入 XPS 檔
 

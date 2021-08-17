@@ -1,19 +1,19 @@
 ---
-description: 在 Windows 的每個主要版本中，都有新增的字型可支援國際語言和腳本。
+description: 在 Windows 的每個主要版本中，都已新增可支援國際語言和腳本的字型。
 ms.assetid: 77b8c200-2682-4651-855a-602f768edc9b
 title: 國際字型列舉和選取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e5d0d07a0953f72f097f8578f5e32b3ee49093
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4b28e2dca3937f3513a930f157a364d466f761ed54a53d09c3e2b8b1c89bb30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146881"
 ---
 # <a name="international-font-enumeration-and-selection"></a>國際字型列舉和選取
 
-在 Windows 的每個主要版本中，都有新增的字型可支援國際語言和腳本。 請參閱 [windows 中的腳本與字型支援](https://msdn.microsoft.com/globalization/mt791278) ，以瞭解自 windows 2000 之後的每個 windows 版本中新增的字型，以及其支援的腳本、區域和語言。
+在 Windows 的每個主要版本中，都已新增可支援國際語言和腳本的字型。 請參考[Windows 中的腳本和字型支援](https://msdn.microsoft.com/globalization/mt791278)，以瞭解自 Windows 2000 之後，每個 Windows 版本中新增的字型，以及其支援的腳本、區域和語言。
 
 ## <a name="enumfontfamiliesex"></a>EnumFontFamiliesEx
 
@@ -31,7 +31,7 @@ ms.locfileid: "104321087"
 
 最後，如同 [字型] 對話方塊中的任何其他欄位，您可以選擇顯示 [空白腳本] 清單方塊。 如果使用者反白顯示數個橫跨數個字元集的不同字型，這項功能就很有用。 在此情況下，您會使用 **CF \_ NOSCRIPTSEL** 旗標來呼叫 [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) 。
 
-從 Windows 7 開始， [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) 可支援從字型挑選清單隱藏字型。 **ChooseFont** 只會列出顯示的字型，並篩選出隱藏的字型，同時在清單方塊中顯示字型。 [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85))結構之 Flags 成員中的其他旗標 (**CF \_ INACTIVEFONTS**) ，可讓您在 [字型] 清單中顯示所有已安裝的字型，與 Windows 7 之前的 **ChooseFont** 行為相同。 如需 Windows 7 中 **ChooseFont** 函式的行為差異詳細資料，請參閱 [Windows 7 應用程式品質操作手冊](../win7appqual/windows-7-application-quality-cookbook.md)中的 [**ChooseFont () Win32 通用對話方塊**](../win7appqual/choosefont-win32-common-dialog.md)。 請參考 **ChooseFont** 函式和 **ChooseFont** 結構，以瞭解 Windows 7 中的終端使用者體驗差異。
+從 Windows 7 開始， [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85))可支援從字型挑選清單隱藏字型。 **ChooseFont** 只會列出顯示的字型，並篩選出隱藏的字型，同時在清單方塊中顯示字型。 [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85))結構之 flags 成員中的其他旗標 (**CF \_ INACTIVEFONTS**) ，可讓您在 [字型] 清單中顯示所有已安裝的字型，與 Windows 7 之前的 **ChooseFont** 一樣。 如需 **ChooseFont** 函式 Windows 7 中行為差異的詳細資訊，請參閱 [Windows 7 應用程式品質操作手冊](../win7appqual/windows-7-application-quality-cookbook.md)中的 [**ChooseFont () Win32 通用對話方塊**](../win7appqual/choosefont-win32-common-dialog.md)。 請參考 **ChooseFont** 函式和 **ChooseFont** 結構，以瞭解 Windows 7 的終端使用者體驗差異。
 
 請注意，字元集是對應到預先 Unicode 字元集的舊版概念。 目前沒有任何機制可根據 Unicode 腳本或字元範圍來篩選字型。
 

@@ -4,12 +4,12 @@ description: 簡報是 UPnP 流程中的最後一個步驟。
 ms.assetid: e8d20ae6-2dd8-4de2-b07b-6cf4e725735e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 195399316882de71c148f2369dd2978c4cfbd728
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c92f8457a881dc0414713e996d230261330c10911f2aea285a2e365ad0d59320
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137191"
 ---
 # <a name="presentation"></a>簡報
 
@@ -32,7 +32,7 @@ ms.locfileid: "103839843"
 
 
 
- 
+ 
 
 用戶端腳本可能必須從展示 URL 中解壓縮裝置描述 URL 以載入 [**IUPnPDescriptionDocument**](/windows/desktop/api/Upnp/nn-upnp-iupnpdescriptiondocument) 物件。 這是藉由取得查詢字串，並以加號 ( "+" ) 來終止。
 
@@ -69,9 +69,9 @@ set Item = EmbeddedDevices.Item(DeviceUdnString)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

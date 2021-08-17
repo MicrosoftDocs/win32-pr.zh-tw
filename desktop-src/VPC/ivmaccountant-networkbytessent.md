@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d25a6c0a9ee784af8bfab196fc9aaef0d1474d7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 581aa5ec031674a7784a1d1da36b439a70b5122fe630f97dfe1f09f0670c9781
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473688"
 ---
 # <a name="ivmaccountantnetworkbytessent-property"></a>IVMAccountant：： NetworkBytesSent 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 抓取此虛擬機器的所有虛擬網路介面卡所傳送的位元組總數。
 
@@ -70,7 +70,7 @@ HRESULT get_NetworkBytesSent(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5099deff3913d23173a466245cbf08fd5b95a6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 995509385cabc18a7768300e29482b00f674ce347463b0b8aeb2c3af7e6a209b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475748"
 ---
 # <a name="imsrdpclientcolordepth-property"></a>IMsRdpClient：： ColorDepth 屬性
 

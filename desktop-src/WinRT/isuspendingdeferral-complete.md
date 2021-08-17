@@ -50,7 +50,7 @@ HRESULT Complete();
 | 最低支援的用戶端<br/> | Windows 8<br/>                                                                                    |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                                          |
 | 標頭<br/>                   | <dl> <dt>Windows。ApplicationModel。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Windows。ApplicationModel .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Windows。ApplicationModel .idl</dt> </dl> |
 
 
 

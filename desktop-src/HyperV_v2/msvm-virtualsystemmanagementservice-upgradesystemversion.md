@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4c34b33da14d8718f2c2414de3aea3079672bbb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64146c146bfd2c05d96e11d5193e246c76a6d1eb247d240b712cb46367a698c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148011"
 ---
 # <a name="upgradesystemversion-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 UpgradeSystemVersion 方法 \_
 
@@ -109,7 +109,7 @@ CIM 系統類型的 [**參考 \_**](cim-computersystem.md) ，代表要升級的
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                             |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                          |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |

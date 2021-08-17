@@ -17,7 +17,7 @@
           items:
             - name: 64 位元 Windows 程式設計手冊
               href: ./winprog64/programming-guide-for-64-bit-windows.md
-            - name: 適用于 Windows 的相容性操作手冊
+            - name: Windows 的相容性操作手冊
               href: ./w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md
             - name: Windows 7 指南
               href: ./windows-7.md
@@ -59,7 +59,7 @@
               items:
                 - name: 概觀
                   href: ./windows-application-ui-development.md
-                - name: 開發 Windows 應用程式的使用者介面開始使用
+                - name: 開始使用開發 Windows 應用程式的使用者介面
                   href: ./appuistart/getting-started-developing-user-interfaces-portal.md
                 - name: Windows 應用程式的國際化
                   href: ./intl/international-support.md
@@ -113,11 +113,11 @@
                   href: ./dataxchg/data-exchange.md
                 - name: 高 DPI
                   href: ./hidpi/high-dpi-desktop-application-development-on-windows.md
-                - name: Windows 動畫管理員
+                - name: Windows動畫管理員
                   href: ./uianimation/-main-portal.md
-                - name: Windows 控制項
+                - name: Windows控制
                   href: ./controls/window-controls.md
-                - name: Windows 功能區架構
+                - name: Windows功能區架構
                   href: ./windowsribbon/-uiplat-windowsribbon-entry.md
             - name: 桌面環境
               items:
@@ -125,7 +125,7 @@
                   href: ./user-interface.md
                 - name: Windows Shell
                   href: ./shell/shell-entry.md
-                - name: Windows 屬性系統
+                - name: Windows屬性系統
                   href: ./properties/windows-properties-system.md
                 - name: Windows 搜尋
                   href: ./search/windows-search.md
@@ -159,15 +159,15 @@
                   href: ./directshow/directshow.md
                 - name: Microsoft 媒體基礎
                   href: ./medfound/microsoft-media-foundation-sdk.md
-                - name: Windows Media Format 11 SDK
+                - name: Windows媒體格式 11 SDK
                   href: ./wmformat/windows-media-format-11-sdk.md
-                - name: Windows Media Player SDK
+                - name: Windows Media PlayerSDK
                   href: ./wmp/windows-media-player-sdk.md
                 - name: 媒體串流 API
                   href: ./mediastreaming/media-streaming-api-portal.md
-                - name: Windows 多媒體
+                - name: Windows多媒體
                   href: ./multimedia/windows-multimedia-start-page.md
-            - name: 資料存取和儲存
+            - name: 資料存取和儲存體
               items:
                 - name: 概觀
                   href: ./data-access-and-storage.md
@@ -179,7 +179,7 @@
                   href: ./cfapi/cloud-files-api-portal.md
                 - name: 分散式檔案系統
                   href: /windows/win32/api/_dfs/
-                - name: 可擴充儲存引擎
+                - name: 可擴充的儲存體引擎
                   href: ./extensible-storage-engine/extensible-storage-engine.md
                 - name: 映射主控 API
                   href: ./imapi/portal.md
@@ -215,7 +215,7 @@
                   href: wsdapi/wsd-portal.md
                 - name: WIA
                   href: ./wsdapi/wsd-portal.md
-            - name: Windows Media 裝置管理員 11 SDK
+            - name: WindowsMedia 裝置管理員 11 SDK
               href: ./wmdm/windows-media-device-manager-11-sdk.md
             - name: Windows 可攜式裝置
               items:
@@ -343,7 +343,7 @@
                   href: ./wic/-wic-lh.md
                 - name: Windows Mixed Reality
                   href: ./mixedreality/mixed-reality-portal.md
-                - name: Windows 色彩系統
+                - name: Windows色彩系統
                   href: ./wcs/windows-color-system.md
             - name: 網路功能和網際網路
               items:
@@ -383,15 +383,15 @@
                   href: ./websock/web-socket-protocol-component-api-portal.md
                 - name: Windows 篩選平台
                   href: ./fwp/windows-filtering-platform-start-page.md
-                - name: Windows 網路
+                - name: Windows網路
                   href: ./wnet/windows-networking-wnet-.md
-                - name: Windows 通訊端2
+                - name: Windows通訊端2
                   href: ./winsock/windows-sockets-start-page-2.md
                 - name: 無線網路
                   items:
                     - name: 概觀
                       href: ./wireless-networking.md
-                    - name: Bluetooth
+                    - name: 藍牙
                       href: ./bluetooth/bluetooth-start-page.md
                     - name: 行動寬頻
                       href: ./mbn/mobile-broadband-networks-portal.md
@@ -403,11 +403,11 @@
                       href: ./wcm/windows-connection-manager-portal.md
                 - name: WebDAV
                   href: ./webdav/webdav-portal.md
-                - name: Windows HTTP 服務
+                - name: WindowsHTTP 服務
                   href: ./winhttp/winhttp-start-page.md
-                - name: Windows 網際網路
+                - name: Windows互聯網
                   href: ./wininet/portal.md
-                - name: Windows Web 服務
+                - name: WindowsWeb 服務
                   href: ./wsw/portal.md
             - name: 安全性及身分識別
               items:
@@ -427,7 +427,7 @@
                   href: ./seccrypto/cryptography-portal.md
                 - name: 密碼編譯 API：新一代
                   href: ./seccng/cng-portal.md
-                - name: 目錄、身分識別和存取服務
+                - name: 目錄、身分識別和 Access Services
                   href: null
                   items:
                     - name: 目錄服務
@@ -514,15 +514,15 @@
                   href: ./sync/synchronization.md
                 - name: Windows 系統資訊
                   href: ./sysinfo/windows-system-information.md
-            - name: Windows Machine Learning
-              href: ./machinelearning/machine-learning-portal.md
+            - name: AI 和機器學習
+              href: /windows/ai/
             - name: 開發人員注意事項
               href: ./devnotes/developer-notes.md
         - name: 使用伺服器技術進行開發
           items:
             - name: 概觀
               href: ./server-and-system-technologies.md
-            - name: 目錄、身分識別和存取服務
+            - name: 目錄、身分識別和 Access Services
               href: ./srvnodes/directory--identity--and-access-services.md
               items:
                 - name: 目錄服務
@@ -573,7 +573,7 @@
             - name: Windows Server
               href: ./srvnodes/windows-server.md
               items:
-                - name: Windows Server 2012 R2 和 Windows Server 2012 的新功能
+                - name: Windows server 2012 R2 和 Windows Server 2012 的新功能
                   href: ./srvnodes/what-s-new-for-windows-server-2012-r2.md
                 - name: Mobile 裝置管理註冊
                   href: ./mdmreg/mobile-device-management-registration-portal.md
@@ -587,7 +587,7 @@
                   href: ./wds/windows-deployment-services-portal.md
                 - name: Windows Management Instrumentation
                   href: ./wmisdk/wmi-start-page.md
-                - name: Windows 管理基礎結構管理的 API
+                - name: Windows管理基礎結構受控 API
                   href: /previous-versions/windows/desktop/wmi_v2/mi-managed-api/mt738833(v=vs.85)
                 - name: WMI 提供者
                   href: null
@@ -598,19 +598,19 @@
                       href: ./hyperv_v2/hyper-v-management.md
                     - name: MDM 橋接器 WMI 提供者
                       href: ./dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md
-                    - name: Windows 系統評定工具
+                    - name: Windows系統評定工具
                       href: ./winsat/windows-system-assessment-tool-portal.md
                     - name: WMI 核心提供者
                       href: ./wmicoreprov/wmi-core-provider-.md
                 - name: Windows 遠端管理
                   href: ./winrm/portal.md
-                - name: Windows 資源保護
+                - name: Windows資源保護
                   href: ./wfp/windows-resource-protection-portal.md
         - name: API 索引
           href: ./apiindex/api-index-portal.md
-        - name: Windows 執行階段 c + + 參考
+        - name: Windows執行時間 c + + 參考
           href: ./winrt/reference.md
-        - name: Windows 認證
+        - name: Windows認證
           href: ./win_cert/windows-certification-portal.md
     - name: Desktop Win32 程式碼範例
       href: ./desktop-win32-code-samples.md

@@ -91,12 +91,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0ec6b287f3281fd0224e9c2efc39391781bd7f82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d149c733bfc9ccf408b7798a37a762b947eac23b25888beeda375e77c60417f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148351"
 ---
 # <a name="msvm_memory-class"></a>Msvm \_ Memory 類別
 
@@ -713,7 +713,7 @@ Delta 保留的目前值。 這個屬性繼承自 [**CIM \_ StorageExtent**](/wi
 存取類型：唯讀
 </dt> </dl>
 
-儲存範圍的其他狀態資訊超出在 **OperationalStatus** 中捕捉到的範圍，以及繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)的其他屬性。 這項額外資訊 (例如，「停用保護」、值 = 9) 是在 **VolumeStatus** 屬性中捕捉。 這個屬性繼承自 [**CIM \_ StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent)，而且一律設定為 2 (無/不適用) 。
+儲存體範圍的其他狀態資訊超出在 **OperationalStatus** 中捕捉到的範圍，以及繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)的其他屬性。 這項額外資訊 (例如，「停用保護」、值 = 9) 是在 **VolumeStatus** 屬性中捕捉。 這個屬性繼承自 [**CIM \_ StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent)，而且一律設定為 2 (無/不適用) 。
 
 </dd> <dt>
 
@@ -781,7 +781,7 @@ Delta 保留的目前值。 這個屬性繼承自 [**CIM \_ StorageExtent**](/wi
 存取類型：唯讀
 </dt> </dl>
 
-如果基礎儲存範圍參與儲存體冗余群組，**則為 True** 。 這個屬性繼承自 [**CIM \_ StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent)，一律設為 **False**。
+如果基礎儲存範圍參與儲存體的冗余群組，**則為 True** 。 這個屬性繼承自 [**CIM \_ StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent)，一律設為 **False**。
 
 </dd> <dt>
 
@@ -1319,8 +1319,8 @@ Delta 保留的目前值。 這個屬性繼承自 [**CIM \_ StorageExtent**](/wi
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

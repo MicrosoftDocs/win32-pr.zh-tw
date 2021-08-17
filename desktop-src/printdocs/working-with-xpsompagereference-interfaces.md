@@ -4,12 +4,12 @@ ms.assetid: bb227536-3b29-4221-b2d5-bab5e9d91448
 title: 使用 IXpsOMPageReference 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f4526e6c561a962b77fa3f2fc62d56431359aa6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee38856075a967fbf0f66255c922e181961dc42f1214f75e05da7d4062d6c4a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098680"
 ---
 # <a name="working-with-ixpsompagereference-interfaces"></a>使用 IXpsOMPageReference 介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "103849748"
 
 
 
-| 介面名稱                                                  | 邏輯子介面                    | Description                                                                                                                                                                                                                                                                                                                                                      |
+| 介面名稱                                                  | 邏輯子介面                    | 描述                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IXpsOMPageReference**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference)<br/>   | [**IXpsOMPage**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage)<br/> | 虛擬化檔頁面的內容。 <br/> 頁面參考包含頁面的基本資訊、一些頁面屬性，以及頁面內容的連結。 由 [**IXpsOMPageReference：： GetPage**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-getpage)方法傳回包含頁面內容的 [**IXpsOMPage**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage)介面。<br/> |
 | [**IXpsOMNameCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection)<br/> | 無<br/>                             | 包含超連結目標的頁面專案清單。 [**IXpsOMPageReference：： CollectLinkTargets**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-collectlinktargets)方法會傳回此清單。<br/>                                                                                                                                                               |
