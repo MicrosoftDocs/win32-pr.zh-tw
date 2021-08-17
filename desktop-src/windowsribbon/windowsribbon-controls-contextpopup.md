@@ -4,16 +4,16 @@ description: 內容快顯視窗是 Windows 功能區架構的 [CoNtextPopup] 視
 ms.assetid: c41b888a-15aa-4c47-ad73-5dc30b5fa6f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c77441cc3cdcc9212d27d2230d76d2618f1831ab
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 15424aa8b2b82580218eb3663e4b157bce321fdde027e03101ce2cf38626aac2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106988027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964409"
 ---
 # <a name="context-popup"></a>內容快顯視窗
 
-內容快顯視窗是 Windows 功能區架構的 [ [**CoNtextPopup] 視圖**](windowsribbon-element-contextpopup.md) 中的主要控制項。 它是一個豐富的內容功能表系統，僅由架構公開為功能區實作為擴充功能，架構不會以獨立控制項的形式公開內容快顯視窗。
+內容快顯視窗是 Windows 功能區架構的 [ [**CoNtextPopup] 視圖**](windowsribbon-element-contextpopup.md)中的主要控制項。 它是一個豐富的內容功能表系統，僅由架構公開為功能區實作為擴充功能，架構不會以獨立控制項的形式公開內容快顯視窗。
 
 -   [內容快顯視窗的元件](#context-popup)
 -   [執行內容快顯視窗](#implement-the-context-popup)
@@ -40,11 +40,11 @@ ms.locfileid: "106988027"
 > [!Note]  
 > 在感興趣的物件上，以滑鼠右鍵按一下 (或透過鍵盤快速鍵 SHIFT + F10) ，通常會顯示內容快顯視窗。 不過，顯示內容快顯視窗所需的步驟是由應用程式所定義。
 
- 
+ 
 
 ## <a name="implement-the-context-popup"></a>執行內容快顯視窗
 
-以類似于其他 Windows 功能區架構控制項的方式，會透過標記元件來執行內容快顯視窗，該元件會指定其簡報詳細資料，以及控制其功能的程式碼元件。
+以類似其他 Windows 功能區架構控制項的方式，會透過標記元件來執行內容快顯視窗，該元件會指定其簡報詳細資料，以及控制其功能的程式碼元件。
 
 下表列出每個內容快顯項目子控制項所支援的控制項。
 
@@ -68,7 +68,7 @@ ms.locfileid: "106988027"
 
 
 
- 
+ 
 
 ### <a name="markup"></a>標記
 
@@ -86,7 +86,7 @@ ms.locfileid: "106988027"
 > [!Note]  
 > 針對迷你工具列中的每個控制項資料列指定一個 [**MenuGroup**](windowsribbon-element-menugroup.md) 元素。
 
- 
+ 
 
 
 ```C++
@@ -108,7 +108,7 @@ ms.locfileid: "106988027"
 > [!Note]  
 > [**MenuGroup**](windowsribbon-element-menugroup.md)元素中的每一組控制項都會以內容功能表中的水準橫條分隔。
 
- 
+ 
 
 
 ```C++
@@ -212,7 +212,7 @@ HRESULT ShowContextualUI(POINT& ptLocation, HWND hWnd)
 > [!Caution]  
 > Mini-Toolbar 的內建淡化效果是以滑鼠指標的相近為基礎。 基於這個理由，建議您盡可能將 Mini-Toolbar 顯示為靠近滑鼠指標。 否則，由於衝突的顯示機制，Mini-Toolbar 可能不會如預期般呈現。
 
- 
+ 
 
 ## <a name="context-popup-properties"></a>內容快顯功能表屬性
 
@@ -222,12 +222,12 @@ HRESULT ShowContextualUI(POINT& ptLocation, HWND hWnd)
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [CoNtextPopup 範例](windowsribbon-contextpopupsample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

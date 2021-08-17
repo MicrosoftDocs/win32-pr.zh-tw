@@ -4,12 +4,12 @@ ms.assetid: ae4f077b-ef6e-4ba4-b5db-bc749c2dcb9c
 title: TAPI 2.x 至 TAPI 3.x 交互參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c37e23e23ec89f9c01e0dcd30f4fd67d8248734
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 330e740a4cdf6e641a1aab9c7a6b1a31966519a3f765ac62e95646af7834894e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139911"
 ---
 # <a name="tapi-2x-to-tapi-3x-cross-reference"></a>TAPI 2.x 至 TAPI 3.x 交互參考
 

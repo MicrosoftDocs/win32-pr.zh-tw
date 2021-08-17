@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 760ae7d40742a800556b3d62bc5a1609b89c986b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df13ccfb0d955714984af82daaf693522ee7d61af9c608107c53dc9f5464b591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001376"
 ---
 # <a name="imsrdpclientadvancedsettings3-interface"></a>IMsRdpClientAdvancedSettings3 介面
 
-管理 advanced client 設定。 衍生自 [**IMsRdpClientAdvancedSettings2**](imsrdpclientadvancedsettings2.md) 介面。 此介面包含方法，可取得和設定遠端桌面 ActiveX 控制項的 advanced (選擇性) 屬性。
+管理 advanced client 設定。 衍生自 [**IMsRdpClientAdvancedSettings2**](imsrdpclientadvancedsettings2.md) 介面。 此介面包含方法，可為遠端桌面 ActiveX 控制項取出並設定 advanced (選用) 屬性。
 
 若要取得這個介面的實例，請使用 [**IMsTscAx：： AdvancedSettings**](imstscax-advancedsettings.md) 屬性來取得 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) 介面指標。 然後呼叫 **IMsTscAdvancedSettings** 指標上的 [**queryinterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) ，然後將 **IID \_ IMsRdpClientAdvancedSettings3** 傳遞給 **QueryInterface**。
 
@@ -41,7 +41,7 @@ ms.locfileid: "103685869"
 
 
 
-| 屬性                                                                                                            | 存取類型           | Description                                                                            |
+| 屬性                                                                                                            | 存取類型           | 描述                                                                            |
 |:--------------------------------------------------------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------|
 | [**ConnectionBarShowMinimizeButton**](imsrdpclientadvancedsettings3-connectionbarshowminimizebutton.md)<br/> | 讀取/寫入<br/> | 指定是否要在連接列上顯示 [ **最小化** ] 按鈕。<br/> |
 | [**ConnectionBarShowRestoreButton**](imsrdpclientadvancedsettings3-connectionbarshowrestorebutton.md)<br/>   | 讀取/寫入<br/> | 指定是否要在連接列上顯示 [ **還原** ] 按鈕。<br/>  |

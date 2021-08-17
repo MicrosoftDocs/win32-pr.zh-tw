@@ -4,12 +4,12 @@ ms.assetid: 54d51e56-8022-4696-b488-4b3a226224d8
 title: DPWS 規格合規性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ed26e57a0f7a94069e802f96f346a3a5eca67b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce59ba29e8e36fd5030732c0b61a2dfd164d9c887bdd9881a775c8b1ce6ec353
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130822"
 ---
 # <a name="dpws-specification-compliance"></a>DPWS 規格合規性
 

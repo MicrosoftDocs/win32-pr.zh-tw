@@ -3,16 +3,16 @@ title: 存取媒體
 description: 存取媒體
 ms.assetid: 18ea844d-98c9-4168-9af2-161dda52f6bd
 keywords:
-- Windows Media 中繼檔播放清單，存取媒體
+- Windows媒體中繼檔播放清單，存取媒體
 - 播放清單，存取媒體
 - 中繼檔播放清單，存取媒體
-- Windows Media 中繼檔播放清單，媒體存取
+- Windows媒體中繼檔播放清單，媒體存取
 - 播放清單，媒體存取
 - 中繼檔播放清單，媒體存取
-- Windows Media 中繼檔播放清單，控制播放
+- Windows媒體中繼檔播放清單，控制播放
 - 播放清單，控制播放
 - 中繼檔播放清單，控制播放
-- Windows Media 中繼檔播放清單，設定持續時間
+- Windows媒體中繼檔播放清單，設定持續時間
 - 播放清單，設定持續時間
 - 中繼檔播放清單，設定持續時間
 - Windows Media Player，存取媒體
@@ -30,12 +30,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c5a995a6816e3c46a002bd1ea924c9ea9a207000
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c1a0846be4e8b9b62e424ce24d1b1800bc361c6a28f52a323c6bfa8511ae040b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956398"
 ---
 # <a name="accessing-media"></a>存取媒體
 
@@ -43,12 +43,12 @@ ms.locfileid: "106966405"
 
 您可以使用 **ENTRY 專案** 來指定單一媒體元件 (媒體檔案或即時資料流) 和任何子項目 (例如影像、 **MOREINFO** 連結和 **抽象** 文字) 。 使用 **ENTRYREF** 元素來指定播放清單。 播放清單可包含一或多個 **專案** 或 **ENTRYREF** 元素。 Windows Media Player 會從第一個專案開始，然後依序播放每個專案，直到清單完成為止，以執行播放清單。
 
-**專案專案** 可以指向任何 Windows Media Player 可以播放的媒體類型。 這不僅包括 .wma、.wmv、.asf 和 .avi 檔案，也可以命名一些但即時資料流。 藉由使用一系列的專案或 **ENTRYREF** **專案** 來參考媒體內容，您可以使用播放清單來傳送由多個來源組成的單一資料流程。 參考的資料流程會依序播放，並由檢視器視為一個連續串流。 例如，播放清單可以包含兩個 **ENTRY** 元素：標準的簡介： Windows Media 檔案副檔名為 .wma，以及即時 Windows media 資料流程。
+**專案專案** 可以指向任何 Windows Media Player 可以播放的媒體類型。 這不僅包括 .wma、.wmv、.asf 和 .avi 檔案，還可以命名一些但即時資料流。 藉由使用一系列的專案或 **ENTRYREF** **專案** 來參考媒體內容，您可以使用播放清單來傳送由多個來源組成的單一資料流程。 參考的資料流程會依序播放，並由檢視器視為一個連續串流。 例如，播放清單可以包含兩個 **ENTRY** 元素：標準簡介從 Windows 媒體檔案副檔名為 .wma，以及即時 Windows 媒體串流。
 
 > [!Note]  
-> 播放清單不能包含媒體檔案的連結，這些媒體檔案的內容是使用不同版本的數位 Rights Management (DRM) 所建立。 在中繼檔播放清單中，如果有包含 DRM 第1版內容的媒體檔案連結，以及以較新 DRM 版本建立的媒體檔案的連結，Windows Media Player 只會播放 DRM 第1版的內容。
+> 播放清單不能包含媒體檔案的連結，這些媒體檔案的內容是使用不同版本的數位 Rights Management (DRM) 所建立。 在中繼檔播放清單中，如果有包含 drm 第1版內容的媒體檔案連結，以及以較新 drm 版本建立的媒體檔案的連結，Windows Media Player 只會播放 drm 第1版的內容。
 
- 
+ 
 
 ## <a name="controlling-playback"></a>控制播放
 
@@ -105,15 +105,15 @@ ms.locfileid: "106966405"
 [**使用中繼檔播放清單**](using-metafile-playlists.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔指南**](windows-media-metafile-guide.md)
+[**Windows媒體中繼檔指南**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

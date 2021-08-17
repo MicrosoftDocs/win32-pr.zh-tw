@@ -4,12 +4,12 @@ description: 若要開啟會話，應用程式會呼叫 SnmpCreateSession 函數
 ms.assetid: 76650231-509b-45be-b156-09752b817854
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e006ffb81f6c2508b3505678b28c3ace8e60c85
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 41871c9adc2f7fcefc04b5816b29685ad6b1516a6238c1855ed41e878d5b2736
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009196"
 ---
 # <a name="opening-and-closing-a-winsnmp-session"></a>開啟和關閉 WinSNMP 會話
 
@@ -23,9 +23,9 @@ ms.locfileid: "104021772"
 
 如需詳細資訊，請參閱 [資源控制碼物件](resource-handle-objects.md) 和 [WinSNMP 會話](winsnmp-sessions.md)。
 
- 
+ 
 
- 
+ 
 
 
 

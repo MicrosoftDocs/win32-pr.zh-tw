@@ -3,10 +3,10 @@ title: 建立工作階段金鑰範例
 description: 建立工作階段金鑰範例
 ms.assetid: 4347502b-3900-4306-b58c-16d151200e6c
 keywords:
-- Windows Media Format SDK，工作階段金鑰
-- Windows Media Format SDK，內容金鑰
-- Windows Media Format SDK，範例程式碼
-- Windows Media Format SDK，程式碼範例
+- Windows媒體格式 SDK，工作階段金鑰
+- Windows媒體格式 SDK，內容金鑰
+- Windows媒體格式 SDK，範例程式碼
+- Windows媒體格式 SDK，程式碼範例
 - 數位版權管理 (DRM) ，工作階段金鑰
 - DRM (數位版權管理) ，工作階段金鑰
 - 數位版權管理 (DRM) 、內容金鑰
@@ -27,12 +27,12 @@ keywords:
 - 內容金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b757f5d67df0aea1dd70ee45ad2d1b0732040be2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cef4a9c673b0aef24e010bff0f9a84beaf6321a81fe4ac8a8a9935c126983eb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964137"
 ---
 # <a name="create-session-key-example"></a>建立工作階段金鑰範例
 
@@ -101,9 +101,9 @@ EXIT:
 [**DRM 匯入範例**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

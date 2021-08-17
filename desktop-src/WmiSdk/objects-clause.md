@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: OBJECTS 子句
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19e25848e0fc98ca79ef96e25423ba7872296e57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a9289be0a3fa228e74a720ec385a5b13354f849710a88287a9911f470e40758
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131040"
 ---
 # <a name="objects-clause"></a>OBJECTS 子句
 

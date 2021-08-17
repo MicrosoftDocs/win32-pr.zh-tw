@@ -4,18 +4,18 @@ ms.assetid: 8269cb92-bd3f-411f-8395-fe06ed550cc5
 title: Manifestchk.vbs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09aff347fbd8b6f44c4e38f123870fa5ee8df572
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 686843d1b4ab099d44a33b715f65564a12834f54ed6e8f62310df0aedbe53de1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142051"
 ---
 # <a name="manifestchkvbs"></a>Manifestchk.vbs
 
 VBScript 檔案 Manifestchk.vbs 是 Microsoft Windows 軟體開發套件 (SDK) 所提供的驗證工具，可驗證應用程式和組件資訊清單檔。
 
-執行此範例需要 Windows Script Host。 如需 Windows Script Host 的詳細資訊，請參閱 Windows SDK 的 Windows Script Host 一節。 Windows Script Host 其實是兩部主機。 CScript.exe 是可讓您從命令提示字元執行腳本的版本。 CScript.exe 提供命令列參數來設定腳本屬性。
+執行此範例需要 Windows 腳本主機。 如需 Windows 腳本主機的詳細資訊，請參閱 Windows SDK 的 Windows 腳本主機一節。 Windows腳本主機實際上是兩個主機。 CScript.exe 是可讓您從命令提示字元執行腳本的版本。 CScript.exe 提供命令列參數來設定腳本屬性。
 
 命令列格式如下所示：
 

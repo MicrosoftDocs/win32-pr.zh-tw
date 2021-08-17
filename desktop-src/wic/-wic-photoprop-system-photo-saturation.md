@@ -4,12 +4,12 @@ ms.assetid: 1dbb7515-7022-404c-928a-9eb09e43e7a7
 title: 照相相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcb2b199458f063f2c28d7f6780a6ea907f76f90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1be1c5be7a0663d5f57823dcb704b843f56e6076713de3682e4b12d6b533ff48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087011"
 ---
 # <a name="systemphotosaturation-photo-metadata-policy"></a>照相相片中繼資料原則
 

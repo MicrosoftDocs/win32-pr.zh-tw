@@ -21,7 +21,7 @@ ms.locfileid: "118957557"
 -   [建立範例](#building-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 VListVW 範例示範如何在應用程式中執行簡單的虛擬清單視圖控制項。 虛擬清單-view 控制項是具有 **lvs) \_ OWNERDATA** 樣式的標準清單視圖控制項。 此範例會建立「虛擬」保存100000專案的清單視圖控制項。 絕不會實際新增專案。 相反地，虛擬清單視圖控制項會「告知」它包含 [**LVM \_ SETITEMCOUNT**](lvm-setitemcount.md) 訊息的專案數目。 當需要繪製專案時，清單視圖控制項會查詢父視窗，以取得 [LVN \_ GETDISPINFO](lvn-getdispinfo.md) 通知的顯示資訊。
 

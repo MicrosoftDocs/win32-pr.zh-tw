@@ -4,12 +4,12 @@ ms.assetid: fa95f292-36e6-4e88-8a0d-aa8bd08def2b
 title: 組件簽署範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e4c47482074f7decdc44af6b94bc7df31df6969
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 3896da43b846edfd09348c6515fbf5e44fdd45dd2911b9fcdcf25e99f63fb6ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106986718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142461"
 ---
 # <a name="assembly-signing-example"></a>組件簽署範例
 
@@ -19,7 +19,7 @@ ms.locfileid: "106986718"
 
 從元件檔、組件資訊清單和您將用來簽署元件的憑證檔案開始。 憑證檔案必須是2048位或更大。 您不需要使用受信任的憑證。 憑證只能用來驗證元件是否已損毀。
 
-執行 Microsoft Windows 軟體開發套件 (SDK) 所提供的 [Pktextract.exe](pktextract-exe.md) 公用程式，從憑證檔案中解壓縮公開金鑰 token。 若要讓 Pktextract 正常運作，憑證檔案必須存在於與公用程式相同的目錄中。 使用已解壓縮的公開金鑰 token 值，更新資訊清單檔案中 **assemblyIdentity** 元素的 **publicKeyToken** 屬性。
+執行 Microsoft Windows 軟體開發套件 (SDK) 所提供的[Pktextract.exe](pktextract-exe.md)公用程式，從憑證檔案中解壓縮公開金鑰 token。 若要讓 Pktextract 正常運作，憑證檔案必須存在於與公用程式相同的目錄中。 使用已解壓縮的公開金鑰 token 值，更新資訊清單檔案中 **assemblyIdentity** 元素的 **publicKeyToken** 屬性。
 
 以下是名為 MySampleAssembly 的資訊清單檔案範例。 MySampleAssembly 元件僅包含一個檔案，MYFILE.DLL。 請注意， **assemblyIdentity** 元素的 **publicKeyToken** 屬性值已更新為公開金鑰 token 的值。
 
@@ -36,7 +36,7 @@ ms.locfileid: "106986718"
 </assembly>
 ```
 
-接下來，執行 Windows SDK 所提供的 [Mt.exe](mt-exe.md) 公用程式。 元件檔必須位於與資訊清單相同的目錄中。 在此範例中，這是 MySampleAssembly 目錄。 呼叫範例的 Mt.exe，如下所示：
+接下來，執行 Windows SDK 所提供的[Mt.exe](mt-exe.md)公用程式。 元件檔必須位於與資訊清單相同的目錄中。 在此範例中，這是 MySampleAssembly 目錄。 呼叫範例的 Mt.exe，如下所示：
 
 **c： \\ MySampleAssembly>mt.exe-資訊清單 MySampleAssembly. hashupdate-makecdfs**
 

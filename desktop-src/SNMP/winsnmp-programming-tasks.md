@@ -4,12 +4,12 @@ description: 下表摘要說明您必須執行以編寫 WinSNMP 應用程式程�
 ms.assetid: 70c24042-bf44-4484-8e5e-d117e2ba28d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7543a0fef8fff3f2ef1672ee29d72b0f82b75af7
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: 007ed1a50688ceff7cdd3bfd9916c1726773cf5ecb2e175af99880950c5c3db8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142791"
 ---
 # <a name="winsnmp-programming-tasks"></a>WinSNMP 程式設計工作
 

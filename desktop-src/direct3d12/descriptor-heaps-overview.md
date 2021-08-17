@@ -5,12 +5,12 @@ ms.assetid: 14561E77-44E0-4A58-8456-F40D59ECA175
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8bf720ebb71d016457fa4383a8d33aa62e2eee4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29d0017f10a6027fc7ce48618a9d28bd4e92262d83d0f3aa81cc0bc8d02b7edc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124333"
 ---
 # <a name="descriptor-heaps-overview"></a>描述元堆積總覽
 
@@ -56,7 +56,7 @@ CPU 可以看到所有堆積。 如果有任何) – write、回寫等等，應�
 
 如需無法搭配配套使用的 API 呼叫清單，請參閱 [建立和錄製命令清單和](recording-command-lists-and-bundles.md)組合。
 
-## <a name="management"></a>管理性
+## <a name="management"></a>管理
 
 若要轉譯場景中的所有物件，將需要許多描述項，而且可以遵循一些不同的管理原則。
 
@@ -81,9 +81,9 @@ CPU 可以看到所有堆積。 如果有任何) – write、回寫等等，應�
 [描述元堆積](descriptor-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

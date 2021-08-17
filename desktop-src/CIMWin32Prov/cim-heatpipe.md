@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9502509e5a48f4d2f407fddbb6b57766b5f7bffa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7c2aadb3c4637e66dbcbf984959ad622e14ed5be84f490ed5003b8d5184fc2cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923708"
 ---
 # <a name="cim_heatpipe-class"></a>CIM \_ HeatPipe 類別
 

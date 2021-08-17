@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3741972fdd81887713e75ed5b596e0ba1a10fd3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e03e2572912487cb924f65350dbdd7818d07d2a7b172d18cb28fab87335a00dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138561"
 ---
 # <a name="imsrdpdevicev2isusbdevice-property"></a>IMsRdpDeviceV2：： IsUSBDevice 屬性
 

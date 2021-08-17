@@ -4,12 +4,12 @@ ms.assetid: d72371f9-fe55-468d-b15b-0f8948674619
 title: 編碼的長度和值位元組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b45eaec36875446d7493f37fc150f7b5f9d1a59c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea44ec9892e9407cbe587dbb60219b758ac95392e64dfabcf4866e02a1ad9343
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904470"
 ---
 # <a name="encoded-length-and-value-bytes"></a>編碼的長度和值位元組
 

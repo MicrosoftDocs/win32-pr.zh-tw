@@ -4,12 +4,12 @@ ms.assetid: b21a6b08-c17c-4fcc-bc60-39037bc9902f
 title: 'COM + (元件服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b778c31957ddfe3f71db23b2f5be2a3ee681fde0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02f582096e7f14dc6c415459284e809d4a84098b4e36a143d4e5bc2735605ede
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128980"
 ---
 # <a name="com-component-services"></a>COM + (元件服務) 
 
@@ -25,11 +25,11 @@ COM + 可以用來開發適用于 Windows 的全企業、任務關鍵性、分�
 
 ## <a name="developer-audience"></a>開發人員對象
 
-COM + 主要是針對 Microsoft Visual C++ 和 Microsoft Visual Basic 開發人員所設計。
+com + 主要是針對 Microsoft Visual C++ 和 Microsoft Visual Basic 開發人員所設計。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-從 Windows XP 和 Windows Server 2003 開始，Windows 中包含 COM + 1.5 版。 COM + 1.0 版包含在 Windows 2000 中。
+從 Windows XP 和 Windows Server 2003 開始 Windows 中包含 com + 1.5 版。 com + 1.0 版包含在 Windows 2000 中。
 
 ## <a name="in-this-section"></a>本節內容
 

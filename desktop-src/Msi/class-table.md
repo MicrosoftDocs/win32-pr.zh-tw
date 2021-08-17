@@ -4,12 +4,12 @@ ms.assetid: 0fa00a3f-2a5d-411d-9fc6-9486a600f018
 title: 類別資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29e7584fcb0440b8754179d8e274158cc64e3b74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48985bd2d7e9670c89df53993e7170dc3e0e43a2b6e60f63d29e9f43e8d2ab3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066038"
 ---
 # <a name="class-table"></a>類別資料表
 
@@ -25,14 +25,14 @@ ms.locfileid: "106985642"
 | Context          | [識別碼](identifier.md) | Y   | N        |
 | 元件\_      | [識別碼](identifier.md) | Y   | N        |
 | ProgId \_ 預設值  | [Text](text.md)             | N   | Y        |
-| Description      | [Text](text.md)             | N   | Y        |
+| 描述      | [Text](text.md)             | N   | Y        |
 | AppId\_          | [GUID](guid.md)             | N   | Y        |
 | FileTypeMask     | [Text](text.md)             | N   | Y        |
 | 圖示\_           | [識別碼](identifier.md) | N   | Y        |
 | >iconindex        | [整數](integer.md)       | N   | Y        |
 | DefInprocHandler | [檔案名稱](filename.md)     | N   | Y        |
 | 引數         | [格式 化](formatted.md)   | N   | Y        |
-| 功能\_        | [識別碼](identifier.md) | N   | N        |
+| 特徵\_        | [識別碼](identifier.md) | N   | N        |
 | 屬性       | [整數](integer.md)       | N   | Y        |
 
 
@@ -43,7 +43,7 @@ ms.locfileid: "106985642"
 
 <dl> <dt>
 
-<span id="CLSID"></span><span id="clsid"></span>Clsid
+<span id="CLSID"></span><span id="clsid"></span>CLSID
 </dt> <dd>
 
 COM 伺服器 (識別碼) 的類別識別碼。
@@ -57,7 +57,7 @@ COM 伺服器 (識別碼) 的類別識別碼。
 
 
 
-| CLSID 金鑰                             | Description                                                               |
+| CLSID 金鑰                             | 描述                                                               |
 |---------------------------------------|---------------------------------------------------------------------------|
 | [LocalServer](../com/localserver.md)       | 指定16位本機伺服器應用程式的完整路徑。             |
 | [LocalServer32](../com/localserver32.md)   | 指定32位本機伺服器應用程式的完整路徑。             |

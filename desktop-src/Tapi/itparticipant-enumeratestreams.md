@@ -4,18 +4,18 @@ ms.assetid: 69db198d-fb4c-482b-bf49-5c636ac2f86b
 title: 'ITParticipant：： EnumerateStreams 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbc92c617ed4baee3ecc33aec65cbdcf50986a27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e1ec901c81bb0df666877ee06462b88da965b41bedd961e71cebbf25cd78ee30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140301"
 ---
 # <a name="itparticipantenumeratestreams-method"></a>ITParticipant：： EnumerateStreams 方法
 
-\[**EnumerateStreams** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**EnumerateStreams** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
-**EnumerateStreams** 方法會列舉目前與參與者的資料流程。 這個方法是針對 C 和 c + + 應用程式所提供。 Automation 用戶端應用程式（例如以 Visual Basic 撰寫的應用程式）必須使用「 [**取得 \_ 資料流程**](itparticipant-get-streams.md) 」方法。
+**EnumerateStreams** 方法會列舉目前與參與者的資料流程。 這個方法是針對 C 和 c + + 應用程式所提供。 Automation 用戶端應用程式（例如以 Visual Basic 撰寫的應用程式）必須使用「[**取得 \_ 資料流程**](itparticipant-get-streams.md)」方法。
 
 ## <a name="syntax"></a>語法
 

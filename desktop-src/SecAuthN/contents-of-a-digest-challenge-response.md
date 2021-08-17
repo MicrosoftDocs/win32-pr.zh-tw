@@ -4,12 +4,12 @@ ms.assetid: a9a30255-a78a-41aa-9dfd-340902f4c550
 title: 摘要挑戰回應的內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7168a7e6a468ecc7d573ef0bd853ec6db255b19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af2a4fd199dfe9e97d69628adb0e6012bc4941929b9c1e96e00de8c42d53eba7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141151"
 ---
 # <a name="contents-of-a-digest-challenge-response"></a>摘要挑戰回應的內容
 

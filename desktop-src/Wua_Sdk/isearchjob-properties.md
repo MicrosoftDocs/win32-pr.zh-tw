@@ -4,12 +4,12 @@ ms.assetid: 9e1675e9-fe40-4209-aba9-1cabb4f3ea4c
 title: ISearchJob 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d5c49a5af7435819750451c89ca68f976d76f13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4aea520b0ef395280c9f56317595a18b6d8653844f764516131b63e76fcf8d71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130490"
 ---
 # <a name="isearchjob-properties"></a>ISearchJob 屬性
 

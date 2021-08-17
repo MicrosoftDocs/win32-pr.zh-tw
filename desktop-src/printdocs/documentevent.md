@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: aa80e5fe17047eceacdc30e2a40a4a629088d89f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c38a95c4e0dc9820130e467c971c0adb5b9df0ede248506ed56f963c3246b3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971597"
 ---
 # <a name="documentevent-function"></a>DocumentEvent 函式
 
@@ -57,7 +57,7 @@ HRESULT DocumentEvent(
 *hdc* \[在\]
 </dt> <dd>
 
-由呼叫 [**CreateDC**](/windows/desktop/api/wingdi/nf-wingdi-createdca)所產生的裝置內容控制碼。 如果 *iEsc* 設為 DOCUMENTEVENT CREATEDCPRE，則為零 \_ 。 如需在64位版本的 Windows 上從32位應用程式列印的限制，請參閱備註。
+由呼叫 [**CreateDC**](/windows/desktop/api/wingdi/nf-wingdi-createdca)所產生的裝置內容控制碼。 如果 *iEsc* 設為 DOCUMENTEVENT CREATEDCPRE，則為零 \_ 。 如需在64位版 Windows 上從32位應用程式列印的限制，請參閱備註。
 
 </dd> <dt>
 
@@ -109,12 +109,12 @@ HRESULT DocumentEvent(
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DOCUMENTEVENT_ABORTDOC"></span><span id="documentevent_abortdoc"></span><dl> <dt>**DOCUMENTEVENT \_ ABORTDOC**</dt> </dl>                                                                                                                                                               | 未使用。<br/>                                                                                                                                                                                                                          |
 | <span id="DOCUMENTEVENT_CREATEDCPOST"></span><span id="documentevent_createdcpost"></span><dl> <dt>**DOCUMENTEVENT \_ CREATEDCPOST**</dt> </dl>                                                                                                                                                   | *pvIn* 包含對這個函式的前一個呼叫中， *pvOut* 參數所指定的 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)結構之指標的位址，其 *iEsc* 參數已設定為 DOCUMENTEVENT \_ CREATEDCPRE。<br/> |
-| <span id="DOCUMENTEVENT_CREATEDCPRE"></span><span id="documentevent_createdcpre"></span><dl> <dt>**DOCUMENTEVENT \_ CREATEDCPRE**</dt> </dl>                                                                                                                                                      | *pvIn* 指向 \_ [Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)中記載的 DOCEVENT CREATEDCPRE 結構。<br/>                                                                   |
+| <span id="DOCUMENTEVENT_CREATEDCPRE"></span><span id="documentevent_createdcpre"></span><dl> <dt>**DOCUMENTEVENT \_ CREATEDCPRE**</dt> </dl>                                                                                                                                                      | *pvIn* \_ 會指向 [Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)中記載的 DOCEVENT CREATEDCPRE 結構。<br/>                                                                   |
 | <span id="DOCUMENTEVENT_DELETEDC"></span><span id="documentevent_deletedc"></span><dl> <dt>**DOCUMENTEVENT \_ DELETEDC**</dt> </dl>                                                                                                                                                               | 未使用。<br/>                                                                                                                                                                                                                          |
 | <span id="DOCUMENTEVENT_ENDDOCPOST"></span><span id="documentevent_enddocpost"></span><dl> <dt>**DOCUMENTEVENT \_ ENDDOCPOST**</dt> </dl>                                                                                                                                                         | 未使用。<br/>                                                                                                                                                                                                                          |
 | <span id="DOCUMENTEVENT_ENDDOCPRE_or_DOCUMENTEVENT_ENDDOC"></span><span id="documentevent_enddocpre_or_documentevent_enddoc"></span><span id="DOCUMENTEVENT_ENDDOCPRE_OR_DOCUMENTEVENT_ENDDOC"></span><dl> <dt>**DOCUMENTEVENT \_ ENDDOCPRE 或 DOCUMENTEVENT \_ ENDDOC**</dt> </dl>                 | 未使用。<br/>                                                                                                                                                                                                                          |
 | <span id="DOCUMENTEVENT_ENDPAGE"></span><span id="documentevent_endpage"></span><dl> <dt>**DOCUMENTEVENT \_ ENDPAGE**</dt> </dl>                                                                                                                                                                  | 未使用。<br/>                                                                                                                                                                                                                          |
-| <span id="DOCUMENTEVENT_ESCAPE"></span><span id="documentevent_escape"></span><dl> <dt>**DOCUMENTEVENT \_ ESCAPE**</dt> </dl>                                                                                                                                                                     | *pvIn* 指向 \_ [Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)中記載的 DOCEVENT ESCAPE 結構。<br/>                                                                        |
+| <span id="DOCUMENTEVENT_ESCAPE"></span><span id="documentevent_escape"></span><dl> <dt>**DOCUMENTEVENT \_ ESCAPE**</dt> </dl>                                                                                                                                                                     | *pvIn* \_ 會指向 [Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)中記載的 DOCEVENT ESCAPE 結構。<br/>                                                                        |
 | <span id="DOCUMENTEVENT_QUERYFILTER"></span><span id="documentevent_queryfilter"></span><dl> <dt>**DOCUMENTEVENT \_ QUERYFILTER**</dt> </dl>                                                                                                                                                      | 與 DOCUMENTEVENT CREATEDCPRE 相同 \_ 。<br/>                                                                                                                                                                                            |
 | <span id="DOCUMENTEVENT_RESETDCPOST"></span><span id="documentevent_resetdcpost"></span><dl> <dt>**DOCUMENTEVENT \_ RESETDCPOST**</dt> </dl>                                                                                                                                                      | *pvIn* 包含對這個函式的前一個呼叫中， *pvOut* 參數所指定的 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)結構之指標的位址，其 *iEsc* 參數已設定為 DOCUMENTEVENT \_ RESETDCPRE。<br/>  |
 | <span id="DOCUMENTEVENT_RESETDCPRE"></span><span id="documentevent_resetdcpre"></span><dl> <dt>**DOCUMENTEVENT \_ RESETDCPRE**</dt> </dl>                                                                                                                                                         | *pvIn* 包含 [**ResetDC**](/windows/desktop/api/wingdi/nf-wingdi-resetdca)呼叫端所提供的 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)結構之指標的位址。<br/>                                                                                         |
@@ -151,7 +151,7 @@ HRESULT DocumentEvent(
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DOCUMENTEVENT_CREATEDCPRE"></span><span id="documentevent_createdcpre"></span><dl> <dt>**DOCUMENTEVENT \_ CREATEDCPRE**</dt> </dl> | 以驅動程式提供的 DEVMODE 結構指標，GDI 會使用此結構，而不是 [**CreateDC**](/windows/desktop/api/wingdi/nf-wingdi-createdca)呼叫端所提供的 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)結構。  (如果是 **Null**，GDI 會使用呼叫端提供的結構。 ) <br/> |
 | <span id="DOCUMENTEVENT_ESCAPE"></span><span id="documentevent_escape"></span><dl> <dt>**DOCUMENTEVENT \_ ESCAPE**</dt> </dl>                | 用來當做 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)之 *lpszOutData* 參數的緩衝區指標。<br/>                                                                                                              |
-| <span id="DOCUMENTEVENT_QUERYFILTER"></span><span id="documentevent_queryfilter"></span><dl> <dt>**DOCUMENTEVENT \_ QUERYFILTER**</dt> </dl> | 包含 DOCEVENT 篩選結構的緩衝區指標，該 \_ 結構記載于 [Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)中。<br/>                                          |
+| <span id="DOCUMENTEVENT_QUERYFILTER"></span><span id="documentevent_queryfilter"></span><dl> <dt>**DOCUMENTEVENT \_ QUERYFILTER**</dt> </dl> | 包含 DOCEVENT 篩選結構的緩衝區指標，該 \_ 結構記載于[Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)中。<br/>                                          |
 | <span id="DOCUMENTEVENT_RESETDCPRE"></span><span id="documentevent_resetdcpre"></span><dl> <dt>**DOCUMENTEVENT \_ RESETDCPRE**</dt> </dl>    | 以驅動程式提供的 DEVMODE 結構指標，GDI 會使用此結構，而不是 [**ResetDC**](/windows/desktop/api/wingdi/nf-wingdi-resetdca)呼叫端所提供的 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)結構。  (如果是 **Null**，GDI 會使用呼叫端提供的結構。 ) <br/>   |
 
 
@@ -203,14 +203,14 @@ HRESULT DocumentEvent(
 
 ## <a name="remarks"></a>備註
 
-針對 DOCUMENTEVENT QUERYFILTER 的 *iEsc* 值 \_ ，多工緩衝處理器可以 \_ 用兩種方式來解讀 **DOCUMENTEVENT** 所傳回的 DOCUMENTEVENT SUCCESS 值，這取決於驅動程式是否修改了 DOCEVENT 篩選結構的特定成員 \_ (，其記載于 [Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428) ) 中。  (*pvOut* 參數指向此結構。當多工緩衝處理器為此類型的結構配置記憶體時，) 它會將此結構的兩個成員（ **cElementsReturned** 和 **cElementsNeeded**）初始化為已知的值。 **DocumentEvent** 傳回之後，多工緩衝處理器會判斷這些成員的值是否已變更，並使用該資訊來解讀 **DocumentEvent** 傳回值。 下表摘要說明這種情況。
+針對 DOCUMENTEVENT QUERYFILTER 的 *iEsc* 值 \_ ，多工緩衝處理器可以 \_ 用兩種方式來解讀 **DOCUMENTEVENT** 所傳回的 DOCUMENTEVENT SUCCESS 值，這取決於驅動程式是否修改了 DOCEVENT 篩選結構的特定成員 \_ (，其記載于 [Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)) 。  (*pvOut* 參數指向此結構。當多工緩衝處理器為此類型的結構配置記憶體時，) 它會將此結構的兩個成員（ **cElementsReturned** 和 **cElementsNeeded**）初始化為已知的值。 **DocumentEvent** 傳回之後，多工緩衝處理器會判斷這些成員的值是否已變更，並使用該資訊來解讀 **DocumentEvent** 傳回值。 下表摘要說明這種情況。
 
 
 
 | 傳回值                          | CElementsReturned 和 cElementsNeeded 的狀態    | 意義                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DOCUMENTEVENT \_ 成功<br/>     | 驅動程式對任一成員都沒有任何變更。<br/> | 多工緩衝處理器會將此傳回值解釋為相當於 \_ 不支援的 DOCUMENTEVENT。 多工緩衝處理器無法從驅動程式抓取事件篩選器，因此它會持續呼叫所有事件的 **DocumentEvent** 。<br/>                                                                                                                                                                                                                         |
-| DOCUMENTEVENT \_ 成功<br/>     | 驅動程式已寫入一個或兩個成員。<br/>    | 多工緩衝處理器會接受此傳回值而不需要解讀。 如果驅動程式只寫入其中一個 **cElementsNeeded** 和 **cElementsReturned**，則多工緩衝處理器會將未變更的成員視為值為零。<br/> 多工緩衝處理器會篩選出 DOCEVENT 篩選 (的 **aDocEventCall** 成員中列出的所有事件， \_ 這些事件記載于 [Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428) ) 中。<br/> |
+| DOCUMENTEVENT \_ 成功<br/>     | 驅動程式已寫入一個或兩個成員。<br/>    | 多工緩衝處理器會接受此傳回值而不需要解讀。 如果驅動程式只寫入其中一個 **cElementsNeeded** 和 **cElementsReturned**，則多工緩衝處理器會將未變更的成員視為值為零。<br/> 多工緩衝處理器會篩選出 DOCEVENT 篩選 (的 **aDocEventCall** 成員中列出的所有事件， \_ 這些事件記載于 [Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)) 。<br/> |
 | \_不支援 DOCUMENTEVENT<br/> | 不適用<br/>                          | 驅動程式不支援 DOCUMENTEVENT \_ QUERYFILTER。<br/> 多工緩衝處理器無法從驅動程式抓取事件篩選器，因此它會持續呼叫所有事件的 **DocumentEvent** 。<br/>                                                                                                                                                                                                                                            |
 | DOCUMENTEVENT \_ 失敗<br/>     | 不適用<br/>                          | 驅動程式支援 DOCUMENTEVENT \_ QUERYFILTER，但遇到內部錯誤。<br/> 多工緩衝處理器無法從驅動程式抓取事件篩選器，因此它會持續呼叫所有事件的 **DocumentEvent** 。<br/>                                                                                                                                                                                                                 |
 
@@ -234,9 +234,9 @@ HRESULT DocumentEvent(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                      |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **DocumentEventW** (Unicode) 和 **DocumentEventA** (ANSI) <br/>                                     |
 
 
@@ -251,7 +251,7 @@ HRESULT DocumentEvent(
 [列印多工緩衝處理器 API 函式](printing-and-print-spooler-functions.md)
 </dt> <dt>
 
-[Windows 驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)
+[Windows驅動程式開發工具組](https://msdn.microsoft.com/windows/hardware/gg487428)
 </dt> </dl>
 
  

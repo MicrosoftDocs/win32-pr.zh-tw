@@ -4,12 +4,12 @@ ms.assetid: d2382e96-7ca4-42e4-8e5b-89f1da736904
 title: 系統。漫遊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f482bb306eeeed03592ae18bb7a8f63c109f2f0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2f13e9de3eb6c4b1d71bcfc0ac541ea5311cdf7160c3f18c0711aa3f76993ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097197"
 ---
 # <a name="systemdevicesroaming"></a>系統。漫遊
 

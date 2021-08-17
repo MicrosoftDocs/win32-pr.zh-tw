@@ -4,12 +4,12 @@ ms.assetid: 82a93f57-8273-45bf-81d7-50a673845ae1
 title: 彙總函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da68ad1104c93e8ae04f7ec37cbbde5020109336
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30d504a9343116bc23e847728716eeaa79fc2d26d993e962dd81ccd43669e22a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094951"
 ---
 # <a name="aggregate-functions"></a>彙總函式
 
@@ -17,7 +17,7 @@ ms.locfileid: "104563534"
 
 ## <a name="about-aggregate-functions"></a>關於彙總函式
 
-Windows Search 結構化查詢語言 (SQL)  (SQL) 中的彙總函式具有下列語法：
+Windows Search 結構化查詢語言 (SQL)  () SQL 中的彙總函式具有下列語法：
 
 
 ```

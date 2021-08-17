@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f53343e436ac78b93bcee30c7da5c9d8eb2dc415
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 44c06f0d88558fcb7692218cfe5aa98a2483fd1881dcab2f1d75f2c251bffb91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123056"
 ---
 # <a name="d3dxloadsurfacefromfile-function"></a>D3DXLoadSurfaceFromFile 函式
 
@@ -101,7 +101,7 @@ Type： **Const [**RECT**](/previous-versions//dd162897(v=vs.85)) \***
 
 </dd> <dt>
 
-*>colorkey* \[在\]
+*>Colorkey* \[在\]
 </dt> <dd>
 
 類型： **[ **D3DCOLOR**](d3dcolor.md)**
@@ -129,7 +129,7 @@ Type： **Const [**RECT**](/previous-versions//dd162897(v=vs.85)) \***
 
 編譯器設定也會決定函式版本。 如果已定義 Unicode，函式呼叫會解析為 D3DXLoadSurfaceFromFileW。 否則，函式呼叫會解析為 D3DXLoadSurfaceFromFileA，因為正在使用 ANSI 字串。
 
-此函式會處理壓縮紋理格式的轉換，並支援下列檔案格式： .bmp、.jpg、.dib、hdr、.jpg、. pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函式會處理壓縮紋理格式的轉換，並支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 寫入至非層級零的介面並不會更新中途的矩形。 如果呼叫 **D3DXLoadSurfaceFromFile** ，但介面尚未變更 (這在正常使用方式下不太可能) ，應用程式必須在介面上明確呼叫 [**AddDirtyRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect) 。
 

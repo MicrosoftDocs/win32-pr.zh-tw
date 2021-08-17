@@ -4,12 +4,12 @@ ms.assetid: 1ffa02ad-4a7e-474e-9e7f-d2148ca42d57
 title: XMCOLOR 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0569b4f3113cb5aafe0d9b15728803acf73eaf84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e6626b0fa105cdb846b15ed2e0cc2a7b9d0eeed42c4826aa6bf4811d29ebc6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841638"
 ---
 # <a name="xmcolor-operators"></a>XMCOLOR 運算子
 

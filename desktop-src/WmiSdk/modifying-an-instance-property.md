@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 修改實例屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5f5ea7d18713be0c06b932643d3884128308bac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc803bd952ab0957d473f7d5a6a81d8ecfe3c898c52161f461dd001d3456134e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131080"
 ---
 # <a name="modifying-an-instance-property"></a>修改實例屬性
 

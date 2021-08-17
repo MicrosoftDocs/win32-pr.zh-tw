@@ -4,12 +4,12 @@ ms.assetid: a7cfaa6d-e17d-458a-ae63-72963615bef8
 title: 如何使用中繼資料重新編碼 JPEG 影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c023defb760faeab2bc6ea92232fcc916ef15126
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 13851af04c6af742dbc68acc31fd674c3602ebeb16bec6903a3570f8cb1e0400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106986778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088160"
 ---
 # <a name="how-to-re-encode-a-jpeg-image-with-metadata"></a>如何使用中繼資料重新編碼 JPEG 影像
 
@@ -17,7 +17,7 @@ ms.locfileid: "106986778"
 
 本主題包含下列各節。
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [第1部分：將影像解碼](#part-1-decode-an-image)
 -   [第2部分：建立和初始化影像編碼器](#part-2-create-and-initialize-the-image-encoder)
 -   [第3部分：複製已解碼的框架資訊](#part-3-copy-decoded-frame-information)
@@ -29,7 +29,7 @@ ms.locfileid: "106986778"
 
 ## <a name="prerequisites"></a>必要條件
 
-若要瞭解本主題，您應該熟悉 [Wic 中繼資料總覽](-wic-about-metadata.md)中所述的 WINDOWS 影像處理元件 (wic) 中繼資料系統。 您也應該熟悉 WIC 編解碼器元件，如 [Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)中所述。
+若要瞭解本主題，您應該熟悉[wic 中繼資料總覽](-wic-about-metadata.md)中所述的 Windows 影像處理元件 (wic) 中繼資料系統。 您也應該熟悉 WIC 編解碼器元件，如[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)中所述。
 
 ## <a name="part-1-decode-an-image"></a>第1部分：將影像解碼
 

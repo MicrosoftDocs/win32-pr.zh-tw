@@ -6,12 +6,12 @@ keywords:
 - Direct2D，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e43529490d6115cb60d4093ba3d28fbf42fd62c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 69b5ab192fedffdcfc6ab3eb401a4bbaa1757fe2e8e84c843d6ad48feec93385
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "107001280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075002"
 ---
 # <a name="direct2d-reference"></a>Direct2D 參考
 
@@ -31,7 +31,7 @@ ms.locfileid: "107001280"
 | [Direct2D 結構](structures.md)<br/>                           | 列出 Direct2D 提供的結構。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [內建效果](built-in-effects.md)<br/>               | [Direct2D 效果](effects-overview.md) 會提供這組內建效果。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [HLSL 協助程式](hlsl-helpers.md)<br/>                       | 為了協助效果作者撰寫可連結圖元著色器，d2d1effecthelpers. hlsli 會以 helper 方法和宏的形式來定義一組 HLSL 語言延伸模組。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [SVG 支援](svg-support.md)<br/>                         | 從 Windows 10 年度更新版開始，Direct2D 支援包含 SVG 圖像大綱的轉譯 [色彩](/windows/desktop/DirectWrite/color-fonts) 字型，如 [OpenType 規格](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx) 中所述 (參閱 [svg 表格](/typography/opentype/spec/svg)) 。 從 Windows 10 Creators Update 開始，Direct2D 也支援呈現獨立 SVG 影像。 不過，在 OpenType SVG 字型內不允許某些 SVG 功能，而且 Direct2D 目前不支援某些 SVG 功能。 <br/> |
+| [SVG 支援](svg-support.md)<br/>                         | 從 Windows 10 周年更新開始，Direct2D 支援包含 svg 圖像大綱的轉譯[色彩](/windows/desktop/DirectWrite/color-fonts)字型（如[OpenType 規格](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx)中所述） (參閱[SVG 表格](/typography/opentype/spec/svg)) 。 從 Windows 10 Creators Update 開始，Direct2D 也支援呈現獨立 SVG 影像。 不過，在 OpenType SVG 字型內不允許某些 SVG 功能，而且 Direct2D 目前不支援某些 SVG 功能。 <br/> |
 
 
 

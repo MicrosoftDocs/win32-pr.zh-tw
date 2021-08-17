@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a0adf6bba8b27e99d62bffccc414028960f6ee24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0f8aadf93c62e7eb7403d39af2a0eabe28f3f6e6c7ec8246dc521947ed0b022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139241"
 ---
 # <a name="task-scheduler-schema-simple-types"></a>工作排程器架構簡單類型
 
@@ -36,9 +36,9 @@ ms.locfileid: "103674527"
 -   [**versionType**](taskschedulerschema-versiontype-simpletype.md)
 -   [**weekType**](taskschedulerschema-weektype-simpletype.md)
 
- 
+ 
 
- 
+ 
 
 
 

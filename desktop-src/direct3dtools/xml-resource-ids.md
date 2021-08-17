@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1dca06e32962d35eed7ff52034648299ba0ddc89
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 29617a4c4f8e42fd4c6049a987c98e7edcf11d783a0d226fc9fc751d8d28c2ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119072"
 ---
 # <a name="span-idvspixenginexml_resource_idsspanxml_resource_ids-enumeration"></a><span id="vspixengine.xml_resource_ids"></span>Xml \_ 資源 \_ 識別碼列舉
 

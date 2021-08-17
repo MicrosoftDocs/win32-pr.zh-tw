@@ -4,12 +4,12 @@ ms.assetid: e9be32ee-9d6e-4ffe-86b8-e44b0a74d14f
 title: 使用隔離的應用程式和並存元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a66cbe6dd61c99d4a9a55af4278a45276f13d1b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87a0cff5bb0e12f375fdb41c0323e7306328e43b4f4f82739cb7ad2dc57f823c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141731"
 ---
 # <a name="using-isolated-applications-and-side-by-side-assemblies"></a>使用隔離的應用程式和並存元件
 

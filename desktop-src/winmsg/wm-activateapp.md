@@ -4,12 +4,12 @@ ms.assetid: fc3626ac-8f19-4aa6-8fe9-5020d00c09db
 title: 'WM_ACTI加值稅EAPP 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee2d64b90426e004a3c18fdc60538fd21862c42f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9afeabe12dfcc36ae7bf2403a7757004847bcf58370f4a0a0904c9bf008e6c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931888"
 ---
 # <a name="wm_activateapp-message"></a>WM \_ ACTI加值稅EAPP 訊息
 
@@ -56,7 +56,7 @@ ms.locfileid: "106985471"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

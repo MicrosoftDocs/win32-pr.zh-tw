@@ -41,12 +41,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37d4bfcaa52d483adc8b0d0885d8316f10ce01d1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 95cc25d53014936e3adab4f12d5c92cfcbb7b35c7b663c4a2c1f7f77fb467fb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001138"
 ---
 # <a name="imsrdpclientnonscriptable3drivecollection-property"></a>IMsRdpClientNonScriptable3：:D riveCollection 屬性
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101099
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4c71acad16163aa665a7b106b41fdaf472aa8bbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0eaa3fb520fff9580199785219c84f29ceef7f2d5fa9201c66eed01b03319174
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104555882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117422"
 ---
 # <a name="esentbadbackupdatabasesizeexception-methods"></a>EsentBadBackupDatabaseSizeException 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 9805dc94-da38-4b2c-b18c-5f494b49691b
 title: COM + Low-Memory 啟用閘道
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad955cb1ed47008f52f1cf9b17edfc43b92aa674
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bfa35b162b760c818436b62e889277e374d416e2d75292192b2a639d8609390c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129160"
 ---
 # <a name="com-low-memory-activation-gates"></a>COM + Low-Memory 啟用閘道
 

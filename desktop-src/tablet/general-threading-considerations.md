@@ -4,12 +4,12 @@ ms.assetid: cf35724f-5f80-4b3e-992a-a9d5ea99aae9
 title: 一般執行緒考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f825ec7a1397dae7d60aa14b31603ee76a2f59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63f4c6f2aa76775d3d88e8ea60c3899a2d8ac47e5ef07fddbbdfaca96196dee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092572"
 ---
 # <a name="general-threading-considerations"></a>一般執行緒考慮
 
@@ -49,9 +49,9 @@ Tablet PC 平臺應用程式開發介面 (API) 具有事件（而非通知模型
 
 | 物件或控制項                                            | 事件                                                                                                                                                                                                                     |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InkCollector**](inkcollector-class.md) 物件<br/> | 基礎控制項的 [控制項。無效](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) 的控制項和 [控制項。繪製](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) 事件。<br/>                                 |
-| [**InkOverlay**](inkoverlay-class.md) 物件<br/>     | 基礎控制項的 [控制項。無效](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) 的控制項和 [控制項。繪製](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) 事件。<br/>                                 |
-| [InkPicture](inkpicture-control.md) 控制<br/>      | [InkPicture](inkpicture-control.md) 控制項的繼承 [控制項。無效](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) 的控制項。 [繪製](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) 事件。<br/> |
+| [**InkCollector**](inkcollector-class.md) 物件<br/> | 基礎控制項的[控制項。無效](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1)的和[control. 小畫家](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1)事件。<br/>                                 |
+| [**InkOverlay**](inkoverlay-class.md) 物件<br/>     | 基礎控制項的[控制項。無效](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1)的和[control. 小畫家](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1)事件。<br/>                                 |
+| [InkPicture](inkpicture-control.md) 控制<br/>      | [InkPicture](inkpicture-control.md)控制項的繼承[控制項。無效](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1)的和[control. 小畫家](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1)事件。<br/> |
 
 
 

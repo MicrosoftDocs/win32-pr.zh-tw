@@ -4,12 +4,12 @@ ms.assetid: 08f1872b-6e4d-44ee-abc7-48685e435acc
 title: 中繼資料擴充性總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6576585f7f35628432504086695dd6c64091d3b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7d38206fb02c47edbe9744deb6ceb0093277d8354f8717aa89c3f1976bdeb51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088170"
 ---
 # <a name="metadata-extensibility-overview"></a>中繼資料擴充性總覽
 
@@ -17,7 +17,7 @@ ms.locfileid: "104193563"
 
 本主題包含下列各節。
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [簡介](#introduction)
 -   [建立中繼資料讀取器](#creating-a-metadata-reader)
     -   [IWICMetadataReader 介面](#iwicmetadatareader-interface)
@@ -39,7 +39,7 @@ ms.locfileid: "104193563"
 
 ## <a name="prerequisites"></a>必要條件
 
-若要瞭解本主題，您應該對 WIC、其元件和映射的中繼資料有深入的瞭解。 如需 WIC 中繼資料的詳細資訊，請參閱 [Wic 中繼資料總覽](-wic-about-metadata.md)。 如需 WIC 元件的詳細資訊，請參閱 [Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)。
+若要瞭解本主題，您應該對 WIC、其元件和映射的中繼資料有深入的瞭解。 如需 WIC 中繼資料的詳細資訊，請參閱 [Wic 中繼資料總覽](-wic-about-metadata.md)。 如需 WIC 元件的詳細資訊，請參閱[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)。
 
 ## <a name="introduction"></a>簡介
 
@@ -478,7 +478,7 @@ WIC 使用 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvaria
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [WIC 中繼資料總覽](-wic-about-metadata.md)

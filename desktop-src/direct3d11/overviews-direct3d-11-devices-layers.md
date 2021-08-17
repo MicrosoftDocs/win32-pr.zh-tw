@@ -4,12 +4,12 @@ description: Direct3D 11 執行時間是使用圖層來建立，從核心的基�
 ms.assetid: c545983c-5351-42a9-82e5-deea73aa035f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb05658860e678e8020392cb046a634e3b03c7c2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f59d0405d53526b8fb0b93e52fd1a53b5c17839f6c58df919bac335b21ad2477
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124359"
 ---
 # <a name="software-layers"></a>軟體層
 
@@ -37,17 +37,17 @@ Debug 層提供大量的額外參數和一致性驗證 (例如驗證著色器連
 
 
 > [!Note]  
-> 若為 windows 7 （具有 Windows 7 的平臺更新 (KB2670838) 或 Windows 8 x）若要建立支援 debug 層的裝置，請安裝 (的 Windows 軟體開發套件) SDK Windows 8 以取得 D3D11 \_1SDKLayers.dll。
+> 若為 Windows 7 （Windows 7 (KB2670838) 或 Windows 8）的平臺更新，若要建立支援 debug 層的裝置，請安裝 Windows 軟體開發套件 (SDK) ，以取得 D3D11 \_ Windows 8。
 
 
 > [!Note]  
-> 針對 Windows 10，若要建立支援 debug 層的裝置，請啟用 [圖形工具] 選用功能。 移至 [設定] 面板中的 [系統、應用程式 & 功能]、[管理選擇性功能]、[新增功能]，然後尋找 [圖形工具]。
+> 針對 Windows 10，若要建立支援 debug 層的裝置，請啟用 [圖形工具] 選用功能。 移至 [系統]、[應用程式] & [功能]、[管理選擇性功能]、[新增功能]，然後尋找 [圖形工具] 下的設定面板。
 
 
 > [!Note]  
 > 如需有關如何從遠端偵測 DirectX 應用程式的詳細資訊，請參閱 [從遠端偵錯 directx 應用程式](/windows/desktop/direct3dtools/debugging-directx-apps-remotely)。
 
- 
+ 
 
 或者，您也可以使用 directx SDK 隨附的 [directx 主控台](/previous-versions//bb219725(v=vs.85)) 來啟用/停用偵錯工具旗標。
 
@@ -70,6 +70,6 @@ pTexture->SetPrivateData( WKPDID_D3DDebugObjectName, sizeof( c_szName ) - 1, c_s
 [裝置](overviews-direct3d-11-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

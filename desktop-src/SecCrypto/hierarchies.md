@@ -4,12 +4,12 @@ ms.assetid: bcae26cd-41bc-4436-8f8b-cd8c20e9fcfc
 title: 階層
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af1fe484d752fc7efc7f098aa1cd1af34d88e799
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 240f2f2fc2920db1a67adb18281ad5c1d67fabdb2996ae3aae8342f96b1810c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006296"
 ---
 # <a name="hierarchies"></a>階層
 

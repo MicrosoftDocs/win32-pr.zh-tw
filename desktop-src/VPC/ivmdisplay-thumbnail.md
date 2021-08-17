@@ -72,7 +72,7 @@ HRESULT get_Thumbnail(
 | 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
-| Product<br/>                  | Windows Virtual PC<br/>                                                                 |
+| 產品<br/>                  | Windows Virtual PC<br/>                                                                 |
 | 標頭<br/>                   | <dl> <dt>VPCCOMInterfaces。h</dt> </dl> |
 | IID<br/>                      | IID \_ IVMDisplay 定義為960895e9-f743-4498-96aa-261f867e7fc5<br/>                 |
 

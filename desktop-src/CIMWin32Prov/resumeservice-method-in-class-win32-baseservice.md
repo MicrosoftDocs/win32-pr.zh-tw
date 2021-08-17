@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bba09180121d5649542f70a01adf2cb3acd7b142
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bff71de077049df78718f6a4a12a0e3dc1e208bb3448ef6995a492fd518e75b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922908"
 ---
 # <a name="resumeservice-method-of-the-win32_baseservice-class"></a>Win32 BaseService 類別的 ResumeService 方法 \_
 

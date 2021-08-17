@@ -4,12 +4,12 @@ description: 使用 IConnectionPoint
 ms.assetid: afd50b84-1fd6-47ad-a3ef-e8b4a725b72b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe7aa758ec1bd40233b1cc41a6c375ed296fc167
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5d2449be5f1711457807666e9e2068d13defd8437bedee93402f7b974d5298d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129420"
 ---
 # <a name="using-iconnectionpoint"></a>使用 IConnectionPoint
 
@@ -27,6 +27,6 @@ ms.locfileid: "104024119"
 [可連線物件介面](connectable-object-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

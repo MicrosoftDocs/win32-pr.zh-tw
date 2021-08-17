@@ -4,12 +4,12 @@ ms.assetid: 4c3f76a3-e9f5-4d73-b5ef-eabfa9d6e4d4
 title: 建立處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75606a3006bf63359b3e52cf2172b8bc2d77ed56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be8e5e4340f5c956e964b74ab134a7618a4c4bf0fa44eee1989a0457741d7bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143101"
 ---
 # <a name="creating-processes"></a>建立處理常式
 
