@@ -4,21 +4,21 @@ description: VML H 元素
 ms.assetid: 2b9aec29-61d8-45dd-b7c6-e4dfd596845f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72bea6e02cb400a9fa46f0099758bc439709bf49
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e2d05218ab29e436a818eb48306563aa09ebdf7c15674ceb79e0c0daa5b2d39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117754534"
 ---
 # <a name="vml-h-element"></a>VML H 元素
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義圖形的控制碼。
 
@@ -40,12 +40,12 @@ ms.locfileid: "104507992"
 
 
 
- 
+ 
 
 **備註**
 
 這個元素必須定義在 [Shape](shape-element--vml.md) 元素內。
 
- 
+ 
 
- 
+ 

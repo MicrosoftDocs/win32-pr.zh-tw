@@ -6,12 +6,12 @@ keywords:
 - 路由器 RRAS，元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fb0cc69de5402b03550873b3b052f6329b5238
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f39f104e001db99076dcd29d9d5b603d5cf9f3c526d54cd16e1ed0e4d10c575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791592"
 ---
 # <a name="components-of-the-router-architecture"></a>路由器架構的元件
 
@@ -41,9 +41,9 @@ ms.locfileid: "104462220"
 
 WAN 介面具有額外的品質，通常只會在建立連線時接收網路位址。 例如，使用 PPP 的 WAN 介面會在連線過程中從遠端對等端接收其網路層位址。 在連接過程中接收網路位址有時稱為 *晚期繫結*。
 
- 
+ 
 
- 
+ 
 
 
 

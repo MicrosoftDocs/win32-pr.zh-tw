@@ -4,12 +4,12 @@ ms.assetid: b763b994-6488-40c0-9c14-e00b19e818b0
 title: D3DCURSORCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3b0efcbd5626ce4236b08f3ecd008fcb3d4f7d2
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 556d287e1b73807c683eaeab44fbf1b8a701336e748e53f27832297779c1282f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733140"
 ---
 # <a name="d3dcursorcaps"></a>D3DCURSORCAPS
 

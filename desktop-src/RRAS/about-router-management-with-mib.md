@@ -12,12 +12,12 @@ keywords:
 - 管理資訊基礎 RRAS，說明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e015dacc0b36a00ab62d42c710551aa368aa59e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a867d903e0fb79f9360dc5f1cb485040ed4489b328365bc2daa063a35fbe27d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792193"
 ---
 # <a name="about-router-management-with-mib"></a>關於使用 MIB 的路由器管理
 
@@ -48,9 +48,9 @@ ms.locfileid: "103673671"
 -   [**MibGetTrapInfo**](/windows/desktop/api/Routprot/nc-routprot-pmib_get_trap_info)
 -   [**MibSetTrapInfo**](/windows/desktop/api/Routprot/nc-routprot-pmib_set_trap_info)
 
- 
+ 
 
- 
+ 
 
 
 

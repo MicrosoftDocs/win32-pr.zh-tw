@@ -4,12 +4,12 @@ ms.assetid: fd88a5a0-c79d-44df-b575-21c439cf369f
 title: 對等基礎結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 555c4c1e50fb395641724feaddcfc835b7151698
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a2d157e1ab8126abfcdf065afbe60a7474968dec2a5f6bcaf6c043d15ba9d90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103693039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794421"
 ---
 # <a name="peer-infrastructure"></a>對等基礎結構
 

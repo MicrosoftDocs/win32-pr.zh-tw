@@ -25,16 +25,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cd312651dc73d63726fd04ad30fadaa79bebf7e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9abefdd11f2fe6a356eda4799f92cac5cfe53aa4a2306aa8337d90f2eaa55d7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118077920"
 ---
 # <a name="esentversionsupportswindows7features-property"></a>EsentVersion. SupportsWindows7Features 屬性
 
-取得值，這個值會指出目前版本的 ESENT 是否支援 Windows 7 版 ESENT 中提供的功能。
+取得值，這個值會指出目前的 esent 版本是否支援 Windows 7 版 ESENT 中提供的功能。
 
 **命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。

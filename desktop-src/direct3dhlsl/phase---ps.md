@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e9a16b01e186de5645ffe65e003ebbe6defca2d5
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: aac29792274a36ad4bb7266ffa02d0ea5d2bb1b6cec8efe2db213e9b0dd4890b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088691"
 ---
 # <a name="phase---ps"></a>階段-ps
 
@@ -41,7 +41,7 @@ phase
 
 
 
- 
+ 
 
 階段指令之前發生的著色器指示是階段1指示。 所有其他指示都是階段2指示。 有兩個指示的階段，每個著色器的指令數目上限就會增加。
 
@@ -71,9 +71,9 @@ phase
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

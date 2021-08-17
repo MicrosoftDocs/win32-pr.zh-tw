@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e77cd1d062be60033648942597a91f7d5ab4b951
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a343e853a45061d06a2442f45468b4df16143b71a4ba3a26dcae8f658f72f05e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723492"
 ---
 # <a name="texturecubegathercmpredsfloatfloatuint-function"></a>TextureCube：： GatherCmpRed (S，float，float，uint) 函數
 
@@ -92,7 +92,7 @@ TemplateType GatherCmpRed(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

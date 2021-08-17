@@ -10,12 +10,12 @@ keywords:
 - 消除鋸齒 (antialiasing)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 896d02dec050c72e59762ff5ee139b0bd091d9a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab36f41e3b639447b4f246d706e11c134d8f920528cde1e946d26af057a95951
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980344"
 ---
 # <a name="using-antialiasing-functions"></a>使用消除鋸齒功能
 
@@ -31,7 +31,7 @@ ms.locfileid: "104183308"
 
 
 
- 
+ 
 
 使用對等的 [**glDisable**](gldisable.md) 呼叫來關閉消除鋸齒功能。
 
@@ -72,9 +72,9 @@ linesmooth(SML_ON +  SML_END_CORRECT);
 
 OpenGL 對此函式沒有對等專案。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: 'RB_GETBANDINFO 訊息 (Commctrl .h) '
 description: 抓取 Rebar 控制項中指定之頻外的相關資訊。
 ms.assetid: c2a76c91-7d44-4278-823d-bd263520e7a8
 keywords:
-- RB_GETBANDINFO message Windows 控制項
+- RB_GETBANDINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b87715cf61b4eb2726eab83d500330721f41719f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b0ae509699c23ad24b9b97451178f4711ab52176a9c15aeef757bab85c861c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118409439"
 ---
 # <a name="rb_getbandinfo-message"></a>RB \_ GETBANDINFO 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104104790"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **RB \_GETBANDINFOW** (Unicode) 和 **RB \_ GETBANDINFOA** (ANSI) <br/>             |
 

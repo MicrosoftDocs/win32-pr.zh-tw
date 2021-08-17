@@ -3,7 +3,7 @@ title: 'WM_GETOBJECT 訊息 (Winuser .h) '
 description: 由 Microsoft Active Accessibility 和 Microsoft 消費者介面自動化傳送，可取得伺服器應用程式中所包含之可存取物件的相關資訊。
 ms.assetid: 59350aa1-1697-4110-b9a6-f30ee56c4cff
 keywords:
-- WM_GETOBJECT message Windows 協助工具
+- WM_GETOBJECT 訊息 Windows 協助工具
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcac5c7f6dd8203c32b9f6f3c4eb59144cc3f8ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2767a689b87c2e293cb481647c61a29ad40167992e637802d1c0be63d18fc74e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744734"
 ---
 # <a name="wm_getobject-message"></a>WM \_ GETOBJECT 訊息
 
@@ -49,12 +49,12 @@ dwObjId = (LPARAM)(DWORD) lParam;
 *dwObjId* 
 </dt> <dd>
 
-物件識別碼。 此值是其中一個 [物件識別碼](object-identifiers.md) 常數或自訂物件識別碼。 伺服器應用程式必須檢查此值，以識別所要求的資訊類型。 在比較此值與 OBJID \_ 值之前，伺服器必須將它轉換成 **DWORD**; 否則，在64位的 Windows 上， *lParam* 的正負號延伸可能會干擾比較。
+物件識別碼。 此值是其中一個 [物件識別碼](object-identifiers.md) 常數或自訂物件識別碼。 伺服器應用程式必須檢查此值，以識別所要求的資訊類型。 在比較此值與 OBJID \_ 值之前，伺服器必須將它轉換成 **DWORD**; 否則，在64位 Windows 上， *lParam* 的正負號延伸可能會干擾比較。
 
 -   如果 *dwObjId* 是其中一個 OBJID \_ 值（例如 [**OBJID \_ 用戶端**](object-identifiers.md)），則要求是針對可執行 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)的 Microsoft Active Accessibility 物件。
 -   如果 *dwObjId* 等於 **UiaRootObjectId**，則要求是針對消費者介面自動化提供者。 如果伺服器正在執行消費者介面自動化，則應該使用 [**UiaReturnRawElementProvider**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiareturnrawelementprovider) 函式傳回提供者。
 -   如果 *dwObjId* 是 [**OBJID \_ NATIVEOM**](object-identifiers.md)，則要求是針對控制項的基礎物件模型。 如果控制項支援此要求，則會呼叫 [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) 函式來傳回適當的 COM 介面。
--   如果 *dwObjId* 是 [**OBJID \_ QUERYCLASSNAMEIDX**](object-identifiers.md)，則要求會讓控制項將本身識別為標準的 Windows 控制項，或是通用控制項程式庫 (ComCtrl.dll) 所執行的通用控制項。
+-   如果 *dwObjId* 是 [**OBJID \_ QUERYCLASSNAMEIDX**](object-identifiers.md)，則要求會讓控制項將本身識別為標準 Windows 控制項，或是由通用控制項程式庫 (ComCtrl.dll) 所執行的通用控制項。
 
 </dd> </dl>
 
@@ -87,9 +87,9 @@ dwObjId = (LPARAM)(DWORD) lParam;
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 可轉散發套件<br/>          | 使用 SP6 和更新版本和 Windows 95 在 Windows NT 4.0 上 Active Accessibility 1.3 的 RDK<br/>              |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 可轉散發套件<br/>          | Windows NT 4.0 上的 SP6 和更新版本，以及 Windows 95 Active Accessibility 1.3 的 RDK<br/>              |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

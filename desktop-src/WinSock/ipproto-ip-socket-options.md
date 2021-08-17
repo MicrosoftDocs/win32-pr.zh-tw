@@ -4,12 +4,12 @@ ms.assetid: 6b06a29e-59cd-4446-bd2f-131dc25bf571
 title: IPPROTO_IP 通訊端選項
 ms.topic: article
 ms.date: 10/02/2019
-ms.openlocfilehash: b4c8daa18e7bd60e61473bdda1c885bbd163f0b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ce469ab9989bc1cd3ec261e3d3a1b3b819c30443225fee24ae06c92efb6bace
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117927708"
 ---
 # <a name="ipproto_ip-socket-options"></a>IPPROTO \_ IP 通訊端選項
 
@@ -21,7 +21,7 @@ ms.locfileid: "106992564"
 
 ## <a name="options"></a>選項。
 
-| 選項 | Get | 設定 | Optval 類型 | Description |
+| 選項 | Get | 集合 | Optval 類型 | 描述 |
 |-|-|-|-|-|
 | IP_ADD_IFLIST | | 是 | DWORD (IF_INDEX)  | 將介面索引加入與 **IP_IFLIST** 選項相關聯的 IFLIST。 |
 | IP_ADD_MEMBERSHIP | | 是 | [**ip_mreq**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-ip_mreq) | 將通訊端聯結至指定介面上提供的多播群組。 |
@@ -51,8 +51,8 @@ ms.locfileid: "106992564"
 | IP \_ 解除封鎖 \_ 來源 | | 是 | [**ip \_ mreq \_ 來源**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-ip_mreq_source) | 將指定來源以傳送者的形式新增至提供的多播群組和介面。 |
 | IP \_ 單播（ \_ 如果 | 是 | 是 | 如果索引) ，則為 DWORD (\_ | 取得或設定用於傳送 IPv4 流量的輸出介面。 此選項不會變更接收 IPv4 流量的預設介面。 此選項對於多重主目錄電腦而言很重要。  設定此選項的輸入值是以網路位元組順序表示的4位元組 IPv4 位址。 這個 DWORD 參數必須是以網路位元組順序排列的介面索引。 在 0. x. x. x 區塊中的任何 IP 位址 (第一個八位) 的 IP 位址，除非 IPv4 位址0.0.0.0 被視為介面索引。 介面索引是24位數位，且不會使用 0.0.0.0/8 IPv4 位址區塊 (此範圍是保留) 。 介面索引可以用來指定傳送 IPv4 流量的預設介面。 [**GetAdaptersAddresses**](/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses)函數可以用來取得介面索引資訊。 如果 *optval* 為零，則傳送流量的預設介面會設定為 [未指定]。  取得這個選項時， *optval* 會傳回目前的預設介面索引，以依主機位元組順序傳送 IPv4 流量。 |
 | IP_USER_MTU | 是 | 是 | DWORD | 取得或設定指定之通訊端的 IP 層 MTU (（位元組) ）上限。 如果值高於系統對路徑 MTU 的估計 (您可以藉由查詢 **IP_MTU** 通訊端選項) 在連接的通訊端上抓取，則選項不會有任何作用。 如果值較低，則大於此值的輸出封包將會被分割，或者將無法傳送，視 **IP_DONTFRAGMENT** 的值而定。 預設值為 **IP_UNSPECIFIED_USER_MTU** (MAXULONG) 。 針對型別安全，您應該使用 [**WSAGetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetipusermtu) 和 [**WSASetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetipusermtu) 函式，而不是直接使用通訊端選項。 |
-| IP \_ WFP 重新 \_ 導向 \_ 內容 | 是 | 是 | 具有控制資料的 WSACMSGHDR | 資料包通訊端附屬資料類型 (cmsg \_ 類型) ，指出使用者模式 Windows 篩選平台 (WFP) 重新導向服務所使用之 UDP 通訊端的重新導向內容。 |
-| IP \_ WFP 重新 \_ 導向 \_ 記錄 | 是 | 是 | 具有控制資料的 WSACMSGHDR | 資料包通訊端附屬資料類型 (cmsg \_ 類型) ，指出使用者模式 Windows 篩選平台 (WFP) 重新導向服務所使用之 UDP 通訊端的重新導向記錄。 |
+| IP \_ WFP 重新 \_ 導向 \_ 內容 | 是 | 是 | 具有控制資料的 WSACMSGHDR | 資料包通訊端附屬資料類型 (cmsg \_ 類型) 指出使用者模式所使用 UDP 通訊端的重新導向內容 Windows 篩選平台 (WFP) 重新導向服務。 |
+| IP \_ WFP 重新 \_ 導向 \_ 記錄 | 是 | 是 | 具有控制資料的 WSACMSGHDR | 資料包通訊端附屬資料類型 (cmsg \_ 類型) 指出使用者模式所使用 UDP 通訊端的重新導向記錄 Windows 篩選平台 (WFP) 重新導向服務。 |
 
 ## <a name="windows-support-for-ip_proto-options"></a>IP PROTO 選項的 Windows 支援 \_
 
@@ -118,7 +118,7 @@ ms.locfileid: "106992564"
 
 ## <a name="remarks"></a>備註
 
-在 Windows Vista 和更新版本的 Microsoft Windows 軟體開發套件 (SDK) 中，標頭檔的組織已變更，且 **IPPROTO \_ IP** 層級定義于 *Ws2def .h* 標頭檔中，該檔案會自動包含在 *Winsock2* 標頭檔中。 某些 **IPPROTO \_ IP** 通訊端選項定義于 *Ws2ipdef .h* 標頭檔中，該檔案會自動包含在 *Ws2tcpip .h* 標頭檔中。 其餘的 **IPPROTO \_ IP** 通訊端選項是在 *Wsipv6ok .h* 標頭檔中定義，此檔案會自動包含在 *Winsock2* 標頭檔中。 絕不能直接使用 *Ws2def .h*、 *Ws2ipdef .h* 和 *Wsipv6ok .h* 標頭檔。
+在 Windows Vista 和更新版本中發行的 Microsoft Windows 軟體開發套件 (SDK) 中，標頭檔的組織已變更，且 **IPPROTO \_ IP** 層級定義于 *Ws2def .h* 標頭檔中，該檔案會自動包含在 *Winsock2* 標頭檔中。 某些 **IPPROTO \_ IP** 通訊端選項定義于 *Ws2ipdef .h* 標頭檔中，該檔案會自動包含在 *Ws2tcpip .h* 標頭檔中。 其餘的 **IPPROTO \_ IP** 通訊端選項是在 *Wsipv6ok .h* 標頭檔中定義，此檔案會自動包含在 *Winsock2* 標頭檔中。 絕不能直接使用 *Ws2def .h*、 *Ws2ipdef .h* 和 *Wsipv6ok .h* 標頭檔。
 
 在針對 Windows Server 2003 和 Windows XP 發行的 Platform SDK 中， **IPPROTO \_ IP** 層級會定義于 *Winsock2* 標頭檔中。 某些 **IPPROTO \_ IP** 通訊端選項定義于 *Ws2tcpip .h* 標頭檔中。 其餘的 **IPPROTO \_ IP** 通訊端選項是在 *Wsipv6ok .h* 標頭檔中定義，此檔案會自動包含在 *Winsock2* 標頭檔中。 不應直接使用 *Wsipv6ok* 標頭檔。
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fefe92691a150571ce16b0c80d187540d58f5f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f9e02ff9665eac98717e1d316899a78f9b3b5908e5e41b3928b5cda541b96c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749250"
 ---
 # <a name="editboxwordwrap"></a>編輯方塊. wordWrap
 
@@ -43,7 +43,7 @@ ms.locfileid: "106994617"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

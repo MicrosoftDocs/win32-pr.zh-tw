@@ -4,12 +4,12 @@ ms.assetid: 4F33BF2D-EB32-46B6-B071-F9130D404201
 title: 'MF_MT_VIDEO_3D_FIRST_IS_LEFT 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 027d91509d772a9200cdfc0ac64cce15514aa5a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19b7deed122f3de419455abf54bfcc18ad50ef199d87afa8bcaad8d34000a011
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876799"
 ---
 # <a name="mf_mt_video_3d_first_is_left-attribute"></a>MF \_ MT \_ VIDEO \_ 3d \_ FIRST \_ 是 \_ LEFT 屬性
 
@@ -49,8 +49,8 @@ ms.locfileid: "104386289"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

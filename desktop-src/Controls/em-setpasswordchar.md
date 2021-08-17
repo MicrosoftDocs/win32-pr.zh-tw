@@ -3,7 +3,7 @@ title: 'EM_SETPASSWORDCHAR 訊息 (Winuser .h) '
 description: 設定或移除編輯控制項的密碼字元。 設定密碼字元時，會顯示該字元來取代使用者輸入的字元。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: 9091892c-9f37-4e06-a084-9326c5f7f31e
 keywords:
-- EM_SETPASSWORDCHAR message Windows 控制項
+- EM_SETPASSWORDCHAR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd2c75039a6d447809cc17e5c44d70c6e612ede
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 56cdfbc108ad5bc1b3e2e11b72937a92da473bcbfa01e974056743ed2e6fde1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412313"
 ---
 # <a name="em_setpasswordchar-message"></a>EM \_ SETPASSWORDCHAR 訊息
 
@@ -63,9 +63,9 @@ ms.locfileid: "104465053"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - MCI_WAIT 旗標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e552650aca9cf104d2c87d7faddd0b6c85b5a6b8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 311e1a55e756cfc3c1038f6ab3ccb4b708bb066dde962afff31006dcf39b7c4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801432"
 ---
 # <a name="the-wait-flag"></a>等候旗標
 
@@ -30,11 +30,11 @@ mciSendString("play mydevice from 0 to 100 wait",
 > [!Note]  
 > 使用者可以藉由按下 break 鍵來取消等候作業。 依預設，此索引鍵是 CTRL + BREAK。 應用程式可以使用 [**break**](break.md) ([**MCI \_ break**](mci-break.md)) 命令來重新定義此機碼。  (**mci \_ break** 會使用 [**MCI \_ break \_ PARMS**](mci-break-parms.md) 結構。 ) 等候作業取消時，MCI 會嘗試將控制權傳回給應用程式，而不會中斷與「等候」旗標相關聯的命令。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

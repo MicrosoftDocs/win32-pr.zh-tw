@@ -1,21 +1,21 @@
 ---
-description: Windows Media DRM-Enabled 應用程式的需求
+description: Windows 媒體 DRM-Enabled 應用程式的需求
 ms.assetid: 67f872dc-79ef-4799-bb7b-b84d7dc11c71
-title: Windows Media DRM-Enabled 應用程式的需求
+title: Windows 媒體 DRM-Enabled 應用程式的需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59543bf6ea803d2b9d58721fd775c49b79653c0b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 14ad59b5b590436ca5734fcb8d226d41f4f995a5d4ea97e0c46d771df476be6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106982807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118027047"
 ---
-# <a name="requirements-for-windows-media-drm-enabled-applications"></a>Windows Media DRM-Enabled 應用程式的需求
+# <a name="requirements-for-windows-media-drm-enabled-applications"></a>Windows 媒體 DRM-Enabled 應用程式的需求
 
 To create a Windows Media Digital Rights Management (DRM)-enabled application, you must have the headers and libraries described in the [General Requirements for Application Development](general-requirements-for-application-development.md) section of this document. 此外，在開啟裝置時，應用程式必須在用戶端資訊中提供其他屬性。
 
-下表說明啟用 Windows Media 受 DRM 保護的內容傳輸所需的兩個額外屬性。
+下表說明啟用 Windows 媒體受 DRM 保護的內容傳輸所需的兩個額外屬性。
 
 
 
@@ -30,7 +30,7 @@ To create a Windows Media Digital Rights Management (DRM)-enabled application, y
 
 當使用 [**IPortableDevice：： Open**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open) 方法開啟裝置時，必須在應用程式的用戶端資訊中提供這些屬性。 當提供這些屬性時，WPD API 會允許受保護的內容傳輸。 如果應用程式已提供憑證和私密金鑰，則 API 會建立安全通道，以將受保護的 WMDRM 內容傳輸至裝置。
 
-如需有關建立和散發支援 Windows Media DRM 之 Windows 應用程式的詳細資訊，請參閱下列以 [windows 為基礎的授權應用程式](https://www.microsoft.com/windows/windowsmedia/licensing/licensing_drm_apps.aspx) 主題。
+如需有關建立和散發支援 Windows 媒體 DRM Windows 型應用程式的詳細資訊，請參閱下列以[授權 Windows 為基礎的應用程式](https://www.microsoft.com/windows/windowsmedia/licensing/licensing_drm_apps.aspx)主題。
 
 ## <a name="transferring-content"></a>傳送內容
 
@@ -108,7 +108,7 @@ if (SUCCEEDED(hr))
 
 如果您的應用程式已經執行先前受保護的內容傳輸，上述從 **IStream** 指標取得 **IWMDRMDeviceApp** 介面的方法就是很方便的方法，然後再繼續進行計量和授權同步處理作業。
 
-對於需要存取 **IWMDRMDeviceApp** 的大部分應用程式，我們的建議是直接初始化 **IWMDRMDeviceApp** ，因為這不需要您的應用程式傳送受保護的內容或保存到傳輸介面，以便進行裝置計量和授權同步處理。此方法需要使用 Windows Media 裝置管理員 (WMDM) Api。 如需詳細資訊和範例程式碼，請參閱 WHDC 網站上的 [從 WPD 應用程式存取 WMDRM api](../windows-portable-devices.md) 白皮書。
+對於需要存取 **IWMDRMDeviceApp** 的大部分應用程式，我們的建議是直接初始化 **IWMDRMDeviceApp** ，因為這不需要您的應用程式傳送受保護的內容或保存到傳輸介面，以便進行裝置計量和授權同步處理。此方法將需要 Windows 媒體裝置管理員 (WMDM) api 的使用方式。 如需詳細資訊和範例程式碼，請參閱 WHDC 網站上的 [從 WPD 應用程式存取 WMDRM api](../windows-portable-devices.md) 白皮書。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d562cb2ac1c07b5dd0507bc8b059662e3abc55
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7acd07f3d1d323b300f914724cfc3d75492eb65631eef8b0331b974d4f54379b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118014419"
 ---
 # <a name="ms-ds-oidtogroup-link-attribute"></a>OIDToGroup-Link 屬性
 
@@ -54,7 +54,7 @@ ms.locfileid: "103935418"
 | 連結識別碼                | 2164                                                               |
 | MAPI-Id                | \-                                                                 |
 | System-Only            | 否                                                              |
-| 是-單一值       | 對                                                               |
+| 是-單一值       | 是                                                               |
 | 已編制索引             | 否                                                              |
 | 在通用類別目錄中      | 否                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                       |
@@ -62,7 +62,7 @@ ms.locfileid: "103935418"
 | Range-Upper            | \-                                                                 |
 | Search-Flags           | 0x00000000                                                         |
 | System-Flags           | 0x00000010                                                         |
-| 中使用的類別        | [**ms-PKI-企業-Oid**](c-mspki-enterprise-oid.md)<br/> |
+| 中使用的類別        | [**ms-chap-Enterprise-Oid**](c-mspki-enterprise-oid.md)<br/> |
 
 
 
@@ -75,7 +75,7 @@ ms.locfileid: "103935418"
 | 連結識別碼                | 2164                                                               |
 | MAPI-Id                | \-                                                                 |
 | System-Only            | 否                                                              |
-| 是-單一值       | 對                                                               |
+| 是-單一值       | 是                                                               |
 | 已編制索引             | 否                                                              |
 | 在通用類別目錄中      | 否                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                       |
@@ -83,7 +83,7 @@ ms.locfileid: "103935418"
 | Range-Upper            | \-                                                                 |
 | Search-Flags           | 0x00000000                                                         |
 | System-Flags           | 0x00000010                                                         |
-| 中使用的類別        | [**ms-PKI-企業-Oid**](c-mspki-enterprise-oid.md)<br/> |
+| 中使用的類別        | [**ms-chap-Enterprise-Oid**](c-mspki-enterprise-oid.md)<br/> |
 
 
 

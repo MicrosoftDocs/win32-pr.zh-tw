@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 安全性常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d360aa57c12c958db95c4b94f2b06327a3f70dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f2f3a8ff4727852637fe6e4b808f0b8d3a74c958808cb3beb7bc9df32b0c995
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739415"
 ---
 # <a name="wmi-security-constants"></a>WMI 安全性常數
 

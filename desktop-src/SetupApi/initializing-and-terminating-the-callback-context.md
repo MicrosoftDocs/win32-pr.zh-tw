@@ -4,12 +4,12 @@ ms.assetid: e25a9787-a4a3-4d06-bf55-f6f7cfb23481
 title: 初始化和終止回呼內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03cb4c144cb9069d395ccd688e2a172680df8a12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67df0707f91a17369503fa17ecbeefef3eb6827be60285b0b778b07d98eba3a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117965431"
 ---
 # <a name="initializing-and-terminating-the-callback-context"></a>初始化和終止回呼內容
 

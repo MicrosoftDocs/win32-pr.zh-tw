@@ -20,7 +20,7 @@ ms.locfileid: "117793462"
 
 系統會維護多個 QoS 層級，而每個層級都有差異的效能和電源效率。 Windows 針對每個 QoS 層級提供排程和處理器電源管理的標準預設設定。 您可以透過 Windows 布建來修改每個 QoS 層級的處理器電源管理和異類排程的精確調整。 如需效能微調和布建的詳細資訊，請參閱 [處理器電源管理選項](/windows-hardware/customize/power-settings/configure-processor-power-management-options)。
 
-| QoS 層級 | Description|效能和威力 | 版本 |
+| QoS 層級 | 描述|效能和威力 | 版本 |
 | --- | --- | --- | --- |
 | 高 | 以視窗化的應用程式，這些應用程式位於前景和焦點，或可聽見，並使用[SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation)以[SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation)或執行緒明確標記處理常式 | 標準高效能。 |1709 |
 | 中 | 視窗化的應用程式，可能會對終端使用者顯示，但不在焦點內。 | 依平臺而異，介於高與低之間。 | 1709 |

@@ -7,12 +7,12 @@ keywords:
 - 安全性 ADSI，ADSI ADSI，使用，安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 886d7f174df48a6d78e546d0987a3f5743a6a2b5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eac7667bb0ab8a30be0e95e90a2c752b3a1bc076d16bd29007875025a22a9639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118018168"
 ---
 # <a name="adsi-security-model"></a>ADSI 安全性模型
 
@@ -23,9 +23,9 @@ ADSI 提供的介面，可在目錄服務物件上強制執行使用者驗證和
 -   [驗證](authentication.md)
 -   [檔案和登錄機碼上的安全描述項](security-descriptors-on-files-and-registry-keys.md)
 
- 
+ 
 
- 
+ 
 
 
 

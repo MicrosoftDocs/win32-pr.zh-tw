@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 353009016c8d4d54cdc92fb8f0ed062567dded6f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 492bd510965499393b399e8e02c1b901fc33f9abc00acf191899c5bb6b8b6d71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118008942"
 ---
 # <a name="win32_pnpallocatedresource-class"></a>Win32 \_ PnPAllocatedResource 類別
 
