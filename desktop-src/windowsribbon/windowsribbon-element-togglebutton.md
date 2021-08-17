@@ -24,7 +24,7 @@ ms.locfileid: "119441588"
 
 代表 [切換按鈕](windowsribbon-controls-togglebutton.md) 控制項。
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 ``` syntax
 <ToggleButton
@@ -55,14 +55,14 @@ ms.locfileid: "119441588"
 <tr class="odd">
 <td><strong>S. IsChecked</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>只有當 <strong>切換按鈕</strong> 專案是 <a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>QuickAccessToolbar. s</strong></a>的子系時，這個屬性才有效。 <br/> 限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
@@ -130,7 +130,7 @@ ms.locfileid: "119441588"
 |                                     |           |
 |-------------------------------------|-----------|
 | 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 是       |
+| 可以是空的                        | Yes       |
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: 本節說明可在 Windows 檔案上設定之 Windows 屬性系統內的個別屬性。
+description: 本節說明 Windows 屬性系統內可在 Windows 檔案上設定的個別屬性。
 ms.assetid: 7532E58F-BBF2-4e36-9D81-C8E04B92CB7C
 title: Windows 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18a23f1bf253f370e2307072df3c878fa6a275da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 972af6283f7f0b4200f9e9932d5e447b8481cb4c24dbbe94e55ec0f08bca9a66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463923"
 ---
 # <a name="windows-properties"></a>Windows 屬性
 
-本節說明可在 Windows 檔案上設定之 Windows 屬性系統內的個別屬性。
+本節說明 Windows 屬性系統內可在 Windows 檔案上設定的個別屬性。
 
 -   [音訊](audio-bumper.md)
 -   [Calendar](calendar-bumper.md)
@@ -25,10 +25,10 @@ ms.locfileid: "104112504"
 -   [文件](document-bumper.md)
 -   [DRM](drm-bumper.md)
 -   [身分識別](identity-buffer.md)
--   [影像](./props-system-imageparsingname.md)
+-   [映像](./props-system-imageparsingname.md)
 -   [GPS](gps-bumper.md)
 -   [History](history-bumper.md)
--   [影像](image-bumper.md)
+-   [映像](image-bumper.md)
 -   [日誌](journal-bumper.md)
 -   [LayoutPattern](layoutpattern-bumper.md)
 -   [連結](link-bumper.md)

@@ -4,12 +4,12 @@ ms.assetid: 2d012508-de13-411f-9102-22e47faddffd
 title: 處理編解碼器 MFT 輸入和輸出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1af3a16fa1855574f1b7618bc0d41bf85c15412f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c3cbec9b92ae11d8f1f3722f2cb2540a5b5b01bb5d680e448d298a36ec682ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101837"
 ---
 # <a name="processing-codec-mft-input-and-output"></a>處理編解碼器 MFT 輸入和輸出
 

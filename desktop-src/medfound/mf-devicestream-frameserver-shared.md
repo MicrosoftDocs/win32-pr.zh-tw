@@ -4,12 +4,12 @@ ms.assetid: 15DF88A2-041C-4E73-A121-00454964E2C1
 title: 'MF_DEVICESTREAM_FRAMESERVER_SHARED 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbea28d4d53c7f8a63aa64379550d9c856da1760
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 591231d552c969e2b30d353849ab433c4b2f60b473ff0ce5d933c57b6162079b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104954"
 ---
 # <a name="mf_devicestream_frameserver_shared-attribute"></a>MF \_ DEVICESTREAM \_ FRAMESERVER \_ 共用屬性
 

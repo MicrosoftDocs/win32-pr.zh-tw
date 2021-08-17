@@ -3,10 +3,10 @@ title: 中繼檔播放清單的用途
 description: 中繼檔播放清單的用途
 ms.assetid: fd5f002e-79c9-4339-bb98-86d5f378d8ed
 keywords:
-- Windows Media 中繼檔播放清單，目的
+- Windows媒體中繼檔播放清單，目的
 - 中繼檔播放清單，目的
 - 播放清單、用途
-- Windows Media 中繼檔播放清單，關於
+- Windows媒體中繼檔播放清單，關於
 - 中繼檔播放清單，關於
 - 播放清單，關於
 ms.topic: article
@@ -16,12 +16,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: fbc251d1b8a12b10a1106a131457d01af1483730
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 47ed06080cc76ad863c201acad4279064c36cb1ea5bbba31a205aabd234078bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333859"
 ---
 # <a name="purpose-of-a-metafile-playlist"></a>中繼檔播放清單的用途
 
@@ -33,12 +33,12 @@ ms.locfileid: "104372272"
 
 <dl> <dt>
 
-[**Windows Media 中繼檔總覽**](windows-media-metafiles-overview.md)
+[**Windows媒體中繼檔總覽**](windows-media-metafiles-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

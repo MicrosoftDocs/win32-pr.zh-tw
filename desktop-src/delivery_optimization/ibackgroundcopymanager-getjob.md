@@ -64,7 +64,7 @@ HRESULT GetJob(
 
 
 
-| 傳回碼                                                                                      | 描述                                                        |
+| 傳回碼                                                                                      | Description                                                        |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>S_OK * * * *</dt> </dl>         | 已成功從傳送佇列中取出作業。<br/> |
 | <dl> <dt>**DO_E_NOT_FOUND**</dt> </dl> | 在佇列中找不到作業。<br/>                     |
@@ -83,7 +83,7 @@ HRESULT GetJob(
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
 | IID<br/>                      | IID_IBackgroundCopyManager 定義為5CE34C0D-0DC9-4C1F-897C-DAA1B78CEE7C<br/>           |

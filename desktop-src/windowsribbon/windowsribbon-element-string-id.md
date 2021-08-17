@@ -23,7 +23,7 @@ ms.locfileid: "119441648"
 
 表示字串資源的唯一識別碼。
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 ``` syntax
 <String.Id/>

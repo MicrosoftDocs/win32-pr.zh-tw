@@ -4,12 +4,12 @@ ms.assetid: 09F54504-A6CF-4385-BDD7-8D23B1D0125C
 title: 'MF_NALU_LENGTH_INFORMATION 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c46d9a0b7cbec92c4cde40548b8d3baecf955b50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2020c0086247adda742ce2613045bb3a2004c3b8c13c7cdcb04a0ff3997cf0cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104414"
 ---
 # <a name="mf_nalu_length_information-attribute"></a>MF \_ NALU \_ 長度 \_ 資訊屬性
 
@@ -17,7 +17,7 @@ ms.locfileid: "106992029"
 
 ## <a name="data-type"></a>資料類型
 
-**Blob**
+**BLOB**
 
 ## <a name="remarks"></a>備註
 
@@ -43,8 +43,8 @@ m_spSample->SetBlob( MF_NALU_LENGTH_INFORMATION,
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

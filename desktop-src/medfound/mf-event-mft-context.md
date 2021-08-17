@@ -4,12 +4,12 @@ ms.assetid: c6ab20d9-c2bc-43ba-a018-2c6682bf0485
 title: 'MF_EVENT_MFT_CONTEXT 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d61e8920c119da151df1215e8de8ce0d526220e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9518853030ec52a687f02ac0288c3fd3ffcf55b676be56c7036b349e1dec9aa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104844"
 ---
 # <a name="mf_event_mft_context-attribute"></a>MF \_ 事件 \_ MFT \_ 內容屬性
 
@@ -42,7 +42,7 @@ ms.locfileid: "104026446"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8d9ecb9b-8528-4b23-ab2f-234ba2cb7ed0
 title: 'OPM_SET_PROTECTION_LEVEL_ACCORDING_TO_CSS_DVD (Opmapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 971d288367bdc5c59e11bdfd5b86fb233755c95e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2290f8d0dd17e01d482c197a54448a3317b11f80840579c2ddd05f01b6103840
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101899"
 ---
 # <a name="opm_set_protection_level_according_to_css_dvd"></a>\_ \_ \_ \_ 根據 \_ \_ CSS \_ DVD OPM 設定保護等級
 
@@ -36,8 +36,8 @@ ms.locfileid: "104114377"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 
