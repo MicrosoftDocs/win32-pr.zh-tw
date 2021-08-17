@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 267748fe4ce1eeec4650544a2f72069df897a366
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bd8582d16022c9d5dfd60eb87847d564ef69203e329ff37eaa9c2964a11794c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317508"
 ---
 # <a name="csourcestreamqueryid-method"></a>CSourceStream. QueryId 方法
 
@@ -55,7 +55,7 @@ HRESULT QueryId(
 
 
 
-| 傳回碼                                                                                       | Description                                 |
+| 傳回碼                                                                                       | 描述                                 |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>              | 成功。<br/>                         |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl>     | 記憶體不足。<br/>             |

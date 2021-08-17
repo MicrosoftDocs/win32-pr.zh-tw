@@ -4,12 +4,12 @@ ms.assetid: bace274c-512a-46da-80a7-84734ee880b7
 title: 將影像或音樂檔案傳送至裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f3308212825f6c67ea79a40873fc466164d62f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44cf16c4c95080b5479825bbc4a0f8dcfd131fdb603821edab0a2e9df4d03c41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928058"
 ---
 # <a name="transferring-an-image-or-music-file-to-the-device"></a>將影像或音樂檔案傳送至裝置
 

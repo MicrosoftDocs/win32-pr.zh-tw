@@ -4,16 +4,16 @@ description: 瞭解 Command 物件的 Visible 屬性，它會傳回或設定命�
 ms.assetid: 80137e16-4646-4251-b1c0-bca39ff7a233
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af4efec1ad8a97d6412a560a81836273b93ebf2b
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 07ebc5dee52ff3ab388674bd844e476f0bcc768595b1ba5e69d3c3be5435553f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975458"
 ---
 # <a name="visible-property-command-object"></a>Visible 屬性 (Command 物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

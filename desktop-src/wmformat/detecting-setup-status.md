@@ -3,22 +3,22 @@ title: 偵測安裝狀態
 description: 偵測安裝狀態
 ms.assetid: d502a5d6-798b-4269-aef3-1412fc379819
 keywords:
-- Windows Media Format SDK，軟體轉散發
+- Windows媒體格式 SDK，軟體轉散發
 - Advanced Systems Format (ASF) 、軟體轉散發
 - ASF (Advanced Systems Format) ，軟體轉散發
-- Windows Media Format SDK，轉散發
+- Windows媒體格式 SDK，轉散發
 - Advanced Systems Format (ASF) ，轉散發
 - ASF (Advanced Systems Format) ，轉散發
 - 軟體轉散發，偵測安裝狀態
 - 重新發佈，偵測設定狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6add696f2b2989de1e77d48504a1d540634213d8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 250ab87fd81592b868e1dbf13106577f83e680796310aff246f0c1483fa847cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931388"
 ---
 # <a name="detecting-setup-status"></a>偵測安裝狀態
 
@@ -36,9 +36,9 @@ ms.locfileid: "103675679"
 
 
 
- 
+ 
 
-下列程式碼會根據元件轉散發套件中的 Windows Media 安裝程式所寫入的 **HRESULT** 值，適當地將 *fSucess* 和 *fRebootNeeded* 變數設為 **True** 或 **False**。
+下列程式碼會根據元件轉散發套件中 Windows 媒體安裝程式所寫入的 **HRESULT** 值，適當地將 *fSucess* 和 *fRebootNeeded* 變數設為 **True** 或 **False**。
 
 
 ```C++
@@ -122,9 +122,9 @@ int main( void )
 [**軟體轉散發**](software-redistribution.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

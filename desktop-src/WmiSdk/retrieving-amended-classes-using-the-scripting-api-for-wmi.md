@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: cef1971232eabdb984ad4321b5cadbdedd8b2be7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47d01af2515b26ca308a1b258aa40508f227a0c1d0eaa5b2b332c1e7b3200420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130880"
 ---
 # <a name="retrieving-amended-classes-using-the-scripting-api-for-wmi"></a>使用適用于 WMI 的腳本 API 來抓取修改過的類別
 

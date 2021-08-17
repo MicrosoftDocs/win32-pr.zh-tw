@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 127855b8cc532d800beda024dea59d17ba7c87ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: edaadb5aa40b9a4eb6654c99bc950c2189cae7bec0610e9857afa181f306819d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119338208"
 ---
 # <a name="guidelines-for-file-associations-and-default-programs"></a>檔案關聯和預設程式的指導方針
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104278
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d4eaa1632cf1097549ed4c20052cc12a094538e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9eed2113b63ccf297611c6ecaa807a042ffe8ea114e497ecad390081131c6b3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967178"
 ---
 # <a name="windows7param-fields"></a>Windows7Param 欄位
 

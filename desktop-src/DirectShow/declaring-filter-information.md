@@ -4,20 +4,20 @@ ms.assetid: ed3c1d44-ccef-4dde-819b-f5d4d3be6d1e
 title: 宣告篩選資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8975217f1b7746b26dc5dd16ce9f4e7f694f44bc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 89c22fb13b524bed56e8cc9d51e573f2729f843e56565db2793d1a8b4568af52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953197"
 ---
 # <a name="declaring-filter-information"></a>宣告篩選資訊
 
-第一個步驟是視需要宣告篩選資訊。 DirectShow 定義了下列描述篩選、釘選和媒體類型的結構：
+第一個步驟是視需要宣告篩選資訊。 DirectShow 定義下列用來描述篩選、釘選和媒體類型的結構：
 
 
 
-| 結構                                               | Description             |
+| 結構                                               | 描述             |
 |---------------------------------------------------------|-------------------------|
 | [**AMOVIESETUP \_ 篩選**](amoviesetup-filter.md)       | 描述篩選。     |
 | [**AMOVIESETUP \_ 釘選**](amoviesetup-pin.md)             | 描述 pin。        |
@@ -69,7 +69,7 @@ AMOVIESETUP_FILTER sudFilterReg = {
 
 <dl> <dt>
 
-[如何註冊 DirectShow 篩選器](how-to-register-directshow-filters.md)
+[如何註冊 DirectShow 篩選準則](how-to-register-directshow-filters.md)
 </dt> </dl>
 
  

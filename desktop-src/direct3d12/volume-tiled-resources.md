@@ -5,12 +5,12 @@ ms.assetid: F670D15D-BC0F-4F90-99C1-A35192FE8980
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5371926b38415a84803155c67ea70ed902b915
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: 2b8d6e9b4d7ae9ad4b93bae5cf29749c293bf7f55ea7fa35a1e1ca71040218e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123498"
 ---
 # <a name="volume-tiled-resources-direct3d-12"></a> (Direct3D 12) 的磁片區磚資源
 

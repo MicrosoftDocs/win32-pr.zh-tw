@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfea2e8e67af30075990d6643b10bb86cf3021ae
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e5c5e62e6d339482123f66b7f23aae771f335392b54b9a766681dab78f6fbafa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851638"
 ---
 # <a name="id3dx11effectconstantbuffer-interface"></a>ID3DX11EffectConstantBuffer 介面
 

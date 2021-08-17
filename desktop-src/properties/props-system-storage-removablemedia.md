@@ -1,17 +1,17 @@
 ---
 description: 指出存放裝置媒體是否為可移動。
 ms.assetid: 32090053-5666-4562-b9f0-d6394bdb9801
-title: RemovableMedia
+title: 系統。儲存體。RemovableMedia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd5278723e1755869168014ed799ccf098477679
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: d6b721f508f0c20ed4f847133d772ca971afda3d8feff87b7a97a33c842884cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104514356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095685"
 ---
-# <a name="systemstorageremovablemedia"></a>RemovableMedia
+# <a name="systemstorageremovablemedia"></a>系統。儲存體。RemovableMedia
 
 指出存放裝置媒體是否為可移動。
 

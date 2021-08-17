@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b652eb5e9cfc36f0d41e14d9953b295d35e660be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: acee402af28ed62c5f4627972b083d1fd5c3ed7f49b02a058fb4f2562ffbd681
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138162"
 ---
 # <a name="movedown-method-of-the-win32_tsgatewayradiusserver-class"></a>Win32 TSGatewayRADIUSServer 類別的 MoveDown 方法 \_
 

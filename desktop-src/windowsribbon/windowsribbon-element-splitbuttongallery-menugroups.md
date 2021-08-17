@@ -23,7 +23,7 @@ ms.locfileid: "119441717"
 
 代表 [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) 控制項中一組下拉式功能表專案的容器。
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 ``` syntax
 <SplitButtonGallery.MenuGroups>

@@ -4,12 +4,12 @@ ms.assetid: 8BD52813-3741-4C1F-B62A-B3C366A86362
 title: 筆跡展示者
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9bd9f4c3c98b443110a0a7948075ab836a9493c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccd201f39cf232e91c65d8ef15c6ccc0e8202b231818aa50d34d70f780f2d9e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977018"
 ---
 # <a name="ink-presenter"></a>筆跡展示者
 
@@ -21,7 +21,7 @@ ms.locfileid: "104193782"
 
 通用 Windows 平臺 (UWP) 使用 Extensible Application Markup Language (XAML 的應用程式) 透過 [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)控制項提供這種功能，以及連接到 XAML [DirectComposition](../directcomp/directcomposition-portal.md)視覺化樹狀結構的 [**InkPresenter**](/uwp/api/windows.ui.input.inking.inkpresenter)物件。 如需詳細資訊，請參閱 [畫筆和手寫筆互動](/windows/uwp/design/input/pen-and-stylus-interactions)。
 
-[筆墨](ink-renderer.md)轉譯器的設計目的是要讓通用 Windows 應用程式開發人員有興趣 [](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)在 / 原生 Win32 應用程式中提供以 XAML 為基礎的 InkCanvas [**InkPresenter**](/uwp/api/windows.ui.input.inking.inkpresenter)功能。
+[筆墨](ink-renderer.md)轉譯器的設計目的是要讓有興趣在 [](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) / 原生 Win32 應用程式中提供 XAML 架構 InkCanvas [**InkPresenter**](/uwp/api/windows.ui.input.inking.inkpresenter)功能的通用 Windows 應用程式開發人員使用。
 
 ## <a name="in-this-section"></a>本節內容
 

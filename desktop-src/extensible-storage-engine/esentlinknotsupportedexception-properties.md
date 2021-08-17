@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102131
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4b1d8f380aae3ccd855042942d2bdfab29fa40a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12cd711daac5e15bcc196ddd8ea82e00117fa88252c416a8f8c64f174002d5a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971908"
 ---
 # <a name="esentlinknotsupportedexception-properties"></a>EsentLinkNotSupportedException 屬性
 

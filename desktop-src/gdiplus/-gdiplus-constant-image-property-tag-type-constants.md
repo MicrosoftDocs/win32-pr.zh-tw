@@ -4,12 +4,12 @@ ms.assetid: d05cdf42-4b30-45ce-85a1-025d4f4e9d13
 title: '影像屬性標記類型常數 (Gdiplusimaging. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b1870ad117d8c6f84af9e48f88e94f812c59467
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb565972b2dc8b8962e367c7d2f3c09b4f857382156538a83f7d6ee338c66ab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977598"
 ---
 # <a name="image-property-tag-type-constants"></a>影像屬性標記類型常數
 

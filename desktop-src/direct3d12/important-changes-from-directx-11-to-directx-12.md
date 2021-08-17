@@ -5,12 +5,12 @@ ms.assetid: CE5066C9-7EA6-437D-9EB0-AACFB6CFAD9E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be891d71d6c1f3a12d8d5aac3ec46785207ed31
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3afc5fe9a451addf1d1f7b9aeddf1f55ca40a22db99134ba71d8195c72ad2b13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123831"
 ---
 # <a name="important-changes-from-direct3d-11-to-direct3d-12"></a>從 Direct3D 11 到 Direct3D 12 的重要變更
 
@@ -82,6 +82,6 @@ Direct3D 12 將系結模型變更為符合新式硬體，並大幅提升效能�
 [瞭解 Direct3D 12](directx-12-getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,16 +4,16 @@ ms.assetid: 76aeb3a1-3233-4425-b9db-efacbedc309e
 title: 'H245_CAPABILITY 列舉 (H323priv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae7a6f81f87480f221f87680d9cf086120deb2de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1666eb918748696263247f00f0d0e17ac9424e6c4bf85c5574f866bb10e28be1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140551"
 ---
 # <a name="h245_capability-enumeration"></a>H245 \_ 功能列舉
 
-\[**H245 \_功能** 無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**H245 \_功能** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **H245 \_ 功能** 列舉描述音訊和影片格式支援。
 

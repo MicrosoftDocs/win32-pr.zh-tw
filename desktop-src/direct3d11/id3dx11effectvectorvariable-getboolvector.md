@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a24563bd7c685579115e3b10309fb0a1c158c2e4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b5693ffb77cc3aa2e4973f6efb168779881deafe5cab4a9c9dd869c03cb46714
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124483"
 ---
 # <a name="id3dx11effectvectorvariablegetboolvector-method"></a>ID3DX11EffectVectorVariable：： GetBoolVector 方法
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca1ebe4bd85015ca9ce1c0bece24e7dc47ff9fe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fc0b2af0f12b06c7d5701db3fcc073d7b7c330e8798408206b64a8b9811f27d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135841"
 ---
 # <a name="buycd-element"></a>BuyCD 元素
 
@@ -50,14 +50,14 @@ ms.locfileid: "106994681"
 <span id="MediaCenterURL"></span><span id="mediacenterurl"></span><span id="MEDIACENTERURL"></span>**MediaCenterURL**
 </dt> <dd>
 
-線上商店顯示的網頁 URL，可提供在 Windows XP Media Center Edition 2004 更新中購買的 CD 或 DVD。
+線上商店顯示的網頁 URL，可在 Windows XP Media Center Edition 2004 更新中提供 CD 或 DVD 購買。
 
 </dd> <dt>
 
 <span id="BrowserURL"></span><span id="browserurl"></span><span id="BROWSERURL"></span>**BrowserURL**
 </dt> <dd>
 
-線上商店顯示的網頁 URL，可在另一個瀏覽器視窗中提供要購買的 CD 或 DVD。 Windows XP Service Pack 2 或更新版本也會使用此 URL 來取得「 **線上購物音樂** 」功能。
+線上商店顯示的網頁 URL，可在另一個瀏覽器視窗中提供要購買的 CD 或 DVD。 Windows XP Service Pack 2 或更新版本也會使用此 URL 來取得「**線上購物音樂**」功能。
 
 </dd> </dl>
 
@@ -80,11 +80,11 @@ ms.locfileid: "106994681"
 
 
 
-| Name         | 值                                                                                                                                                               |
+| 名稱         | 值                                                                                                                                                               |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *專輯*      | 媒體專案之 **WM/AlbumTitle** 屬性的值。                                                                                                        |
 | *演出者*     | **WM/AlbumArtist** 屬性的值（如果有的話），否則為媒體專案的 **Author** 屬性值。                                         |
-| *大地 水準面*      | Windows 地理位置識別碼。 在主控台的 [地區及語言選項] 設定的 [ **位置** ] 區域中，使用者會指定位置識別碼。 |
+| *大地 水準面*      | Windows 的地理位置識別碼。 在主控台的 [地區及語言選項] 設定的 [ **位置** ] 區域中，使用者會指定位置識別碼。 |
 | *locale*     | Windows Media Player 地區設定識別碼。                                                                                                                                     |
 | *標題*      | 媒體專案的 **標題** 屬性值。                                                                                                                |
 | *UFID*       | 媒體專案之 **WM/UniqueFileIdentifier** 屬性的值。                                                                                              |
@@ -95,7 +95,7 @@ ms.locfileid: "106994681"
 
  
 
-Windows XP Media Center Edition 2004 提供使用者介面，其設計目的是要在某個距離觀看。 您應該針對要在大型顯示器上查看的 *MediaCenterURL* 參數建立網頁。
+WindowsXP Media Center Edition 2004 提供使用者介面，其設計目的是要在某個距離觀看。 您應該針對要在大型顯示器上查看的 *MediaCenterURL* 參數建立網頁。
 
 ## <a name="requirements"></a>規格需求
 

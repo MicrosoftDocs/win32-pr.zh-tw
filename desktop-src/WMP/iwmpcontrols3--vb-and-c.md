@@ -1,5 +1,5 @@
 ---
-title: 'IWMPControls3 (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPControls3 (VB 和 C ) 介面 (Wmp. h) '
 description: 提供適用于音訊語言選取的屬性和方法，以及補充 IWMPControls2 介面的支援。除了繼承自 IWMPControls2 的屬性和方法之外，IWMPControls3 介面也會公開下列屬性。
 ms.assetid: 1f42a352-da97-4382-9b59-a9b074aa2a5a
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9788dbd1b5910d655cbaa17055c76a0ae6d0280e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2baf3f0b5f2bc4f2e4d0bfa5ccddd717c913aa30f5e24b5559eb527c910bcaf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135411"
 ---
 # <a name="iwmpcontrols3-vb-and-c-interface"></a>IWMPControls3 (VB 和 c # ) 介面
 
@@ -57,7 +57,7 @@ ms.locfileid: "106991131"
 
 
 
-| 屬性                                                                                                              | 存取類型           | Description                                                                                                                                         |
+| 屬性                                                                                                              | 存取類型           | 描述                                                                                                                                         |
 |:----------------------------------------------------------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**audioLanguageCount**](wmplibiwmpcontrols3-iwmpcontrols3-audiolanguagecount--vb-and-c.md)<br/>               | 唯讀<br/>  | 取得支援的音訊語言計數。 <br/>                                                                                            |
 | [**currentAudioLanguage**](wmplibiwmpcontrols3-iwmpcontrols3-currentaudiolanguage--vb-and-c.md)<br/>           | 讀取/寫入<br/> | 取得或設定用來播放之音訊語言 (LCID) 的地區設定識別碼。 <br/>                                                           |
@@ -84,7 +84,7 @@ ms.locfileid: "106991131"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPControls 介面 (VB 和 c # )**](iwmpcontrols--vb-and-c.md)

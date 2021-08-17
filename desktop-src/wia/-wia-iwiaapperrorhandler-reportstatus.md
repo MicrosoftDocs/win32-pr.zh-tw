@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 1285b5391014919d7108f207917b0c44c03fa360
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9cc727845489740fae54dcc96bf5bc903bceb0205688c1c60bee3df980f66845
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965747"
 ---
 # <a name="iwiaapperrorhandlerreportstatus-method"></a>IWiaAppErrorHandler：： ReportStatus 方法
 
@@ -55,13 +55,13 @@ HRESULT ReportStatus(
 *pWiaItem2* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+類型： **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
 要傳送之專案的指標。
 
 </dd> <dt>
 
-_hrStatus * \[ in\]
+*hrStatus* \[在\]
 </dt> <dd>
 
 類型： **HRESULT**
@@ -87,7 +87,7 @@ _hrStatus * \[ in\]
 
 
 
-| 傳回碼                                                                                              | Description                                                                                                                                                                                                                                        |
+| 傳回碼                                                                                              | 描述                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                     | 如果 *hrStatus* 是錯誤，則會採取適當的動作來更正錯誤，而且可以繼續傳送。 如果 *hrStatus* 是參考資訊，使用者就會收到非強制回應對話方塊的通知，並選擇不要取消傳送。<br/> |
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                  | 使用者取消了從錯誤處理常式非強制回應對話方塊的傳送。 無論 *hrStatus* 為何，都可以在任何時間點傳回這個值。 <br/>                                                                                      |
@@ -113,10 +113,10 @@ _hrStatus * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |
 
 

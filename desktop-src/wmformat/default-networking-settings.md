@@ -3,24 +3,24 @@ title: 預設網路設定
 description: 預設網路設定
 ms.assetid: 07464107-9cf7-4ed0-a76b-17ea153399a1
 keywords:
-- Windows Media Format SDK，預設網路設定
+- Windows媒體格式 SDK，預設網路設定
 - Advanced Systems Format (ASF) ，預設網路設定
 - ASF (Advanced Systems Format) ，預設網路設定
-- Windows Media Format SDK，網路設定
+- Windows媒體格式 SDK，網路設定
 - Advanced Systems Format (ASF) ，網路設定
 - ASF (Advanced Systems Format) ，網路設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f4f219a60d9211b63eb124500c014452a0143d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 591bf4aa2154d5cc04a8a17b5fc75f290a8493a39d530d4246bc0338c2424e62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931418"
 ---
 # <a name="default-networking-settings"></a>預設網路設定
 
-下表描述 Windows Media 格式 SDK （依介面分組）中網路參數的預設設定。
+下表說明 Windows 媒體格式 SDK （依介面分組）中網路參數的預設設定。
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "103840808"
 
 
 
- 
+ 
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "103840808"
 
 
 
- 
+ 
 
 
 
@@ -74,7 +74,7 @@ ms.locfileid: "103840808"
 
 
 
- 
+ 
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "103840808"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -95,9 +95,9 @@ ms.locfileid: "103840808"
 [**執行網路功能**](implementing-network-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

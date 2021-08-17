@@ -4,12 +4,12 @@ ms.assetid: 42b6d0b3-e5af-4a48-969c-53628d1b7c31
 title: 'MF_EVENT_DO_THINNING 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a08807413881a13789c50dbf2d063693e7e4539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9305df2b17e00b03bd9788ecd8caf26db82b8e331d1c72626374b63e7dcaf15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104934"
 ---
 # <a name="mf_event_do_thinning-attribute"></a>MF \_ 事件 \_ DO \_ THINNING 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103943544"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

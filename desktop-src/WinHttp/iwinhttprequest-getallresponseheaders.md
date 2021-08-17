@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 74c113216cf41e2f9816176dd28ba5e84208c635
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d853cfd80038081865eeefbbc456f470485b69a2dae02384e91e8b4d78d90810
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133101"
 ---
 # <a name="iwinhttprequestgetallresponseheaders-method"></a>IWinHttpRequest：： GetAllResponseHeaders 方法
 
@@ -56,7 +56,7 @@ HRESULT GetAllResponseHeaders(
 這個方法會傳回最近的伺服器回應中包含的所有標頭。 個別的標頭會以換行字元和換行字元組合 (ASCII 13 和 10) 分隔。 最後一個專案後面會加上兩個分隔符號 (13、10、13、10) 。 只有在呼叫 [**Send**](iwinhttprequest-send.md) 方法之後，才叫用此方法。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -179,10 +179,10 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WinHTTP .lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
 

@@ -4,12 +4,12 @@ ms.assetid: 076b2e6f-c2ca-4129-8827-1b18a655d634
 title: 不含寫入器參與的還原
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f89fd5ea855d2d91701d351e860bf966148be587
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 896cbe81a2c3487bb00b01379b6b5bbe4760ecbb28c1bf94c661eeb0049a3d37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056366"
 ---
 # <a name="restores-without-writer-participation"></a>不含寫入器參與的還原
 

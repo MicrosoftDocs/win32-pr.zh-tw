@@ -4,16 +4,16 @@ ms.assetid: 940c414d-274f-475c-a50e-7a0853c3c26b
 title: WinHTTP 中)  (Url 的統一資源定位器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 486ed3b17e2cf205f6ac815e87617a84e0ccc4cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 798d18dd2e3d2095e175904fcc2f3a332d618100174f174510c98780b06a57ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133003"
 ---
 # <a name="uniform-resource-locators-urls-in-winhttp"></a>WinHTTP 中)  (Url 的統一資源定位器
 
-URL 是網際網路上資源的位置和存取方法的 compact 標記法。 每個 URL 都是由 (HTTP、HTTPS、FTP 或 Gopher) 的配置，以及配置特定的字串所組成。 這個字串也可以包含目錄路徑、搜尋字串或資源名稱的組合。 Microsoft Windows HTTP Services (WinHTTP) 函數可讓您建立、合併、細分和標準化 Url。 如需詳細資訊，請參閱 [RFC 1738](https://www.ietf.org/rfc/rfc1738.txt)、 [統一資源定位器](https://www.ietf.org/rfc/rfc1738.txt) 和 [Rfc 2396](https://www.ietf.org/rfc/rfc2396.txt)、 [統一資源識別項 (URI) ：泛型語法](https://www.ietf.org/rfc/rfc1738.txt)。
+URL 是網際網路上資源的位置和存取方法的 compact 標記法。 每個 URL 都是由 (HTTP、HTTPS、FTP 或 Gopher) 的配置，以及配置特定的字串所組成。 這個字串也可以包含目錄路徑、搜尋字串或資源名稱的組合。 Microsoft Windows HTTP Services (WinHTTP) 函式可讓您建立、合併、細分和正常化 url。 如需詳細資訊，請參閱 [RFC 1738](https://www.ietf.org/rfc/rfc1738.txt)、 [統一資源定位器](https://www.ietf.org/rfc/rfc1738.txt) 和 [Rfc 2396](https://www.ietf.org/rfc/rfc2396.txt)、 [統一資源識別項 (URI) ：泛型語法](https://www.ietf.org/rfc/rfc1738.txt)。
 
 ## <a name="what-is-a-canonicalized-url"></a>什麼是正式的 URL？
 

@@ -4,12 +4,12 @@ ms.assetid: 409e1984-e5a4-4636-ab53-5973fe7b78ea
 title: 'LINEGATHERTERM_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 968492a584024c7750b417a9fd03b68ac1df42ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b8a6d5952ac4f69d11fd499df63554d6fda7dca76e46e4aad1a01ae326f363a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140031"
 ---
 # <a name="linegatherterm_-constants"></a>LINEGATHERTERM \_ 常數
 

@@ -24,12 +24,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b94f86b2cf0ec257be9fe9b801e6fceae364a46e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: fecf452bd6f879773a3fe200f721afbda5d29f1c41ae816846c261608d38ddca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138291"
 ---
 # <a name="itssbtargetfarmname-property"></a>ITsSbTarget：： FarmName 屬性
 
@@ -75,7 +75,7 @@ HRESULT get_FarmName(
 <td>Windows Server 2012<br/></td>
 </tr>
 <tr class="odd">
-<td>Idl<br/></td>
+<td>IDL<br/></td>
 <td><dl> <dt>Sbtsv .idl</dt> </dl></td>
 </tr>
 <tr class="even">

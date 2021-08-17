@@ -4,12 +4,12 @@ description: 這個程式碼範例會示範使用 CoNtextPopups 來執行 Window
 ms.assetid: f334dbfc-710a-4652-b914-a668ae36aecd
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: 5f469ac892f063fbd6c8beb0fe8af0c054216dbc
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: f0c739e368a26b2664b71efd4ff7cd8c3e7f8490ef7df8ccbe8ec6ace18af115
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964387"
 ---
 # <a name="contextpopup-sample"></a>CoNtextPopup 範例
 

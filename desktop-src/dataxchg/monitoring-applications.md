@@ -3,22 +3,22 @@ title: 監視應用程式
 description: 本主題討論如何使用動態資料交換管理程式庫的元素，建立可監視系統中動態資料交換活動的應用程式。
 ms.assetid: 6705dc8e-d1e9-4057-9fa2-42cd5cf818af
 keywords:
-- 'Windows 消費者介面，動態資料交換 (DDE) '
+- 'Windows消費者介面，動態資料交換 (DDE) '
 - 動態資料交換 (的 DDE) 監視應用程式
 - DDE (動態資料交換) ，監視應用程式
 - '資料交換、動態資料交換 (DDE) '
-- 'Windows 消費者介面、動態資料交換管理程式庫 (DDEML) '
+- 'Windows消費者介面，動態資料交換管理程式庫 (DDEML) '
 - 動態資料交換管理程式庫 (DDEML) 監視應用程式
 - DDEML (動態資料交換管理程式庫) ，監視應用程式
 - '資料交換、動態資料交換管理程式庫 (DDEML) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1f75685d4caa15e519485b2d8b37983faa35366
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8fbf6db1faa765378ea2b22b1146de770e9c94b14cf7e9e511ab862be48369c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128550"
 ---
 # <a name="monitoring-applications"></a>監視應用程式
 
@@ -40,7 +40,7 @@ ms.locfileid: "104021191"
 
 
 
- 
+ 
 
 下列範例示範如何註冊 DDE 監視應用程式，讓其 DDE 回呼函數接收所有 DDE 事件的通知。
 
@@ -73,7 +73,7 @@ DDEML 會將 [**XTYP \_ 監視器**](xtyp-monitor.md) 交易傳送至應用程�
 
 
 
-| 結構                                  | Description                                                       |
+| 結構                                  | 描述                                                       |
 |--------------------------------------------|-------------------------------------------------------------------|
 | [**MONCBSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-moncbstruct)     | 包含交易的相關資訊。                         |
 | [**MONCONVSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monconvstruct) | 包含對話的相關資訊。                        |
@@ -84,7 +84,7 @@ DDEML 會將 [**XTYP \_ 監視器**](xtyp-monitor.md) 交易傳送至應用程�
 
 
 
- 
+ 
 
 下列範例顯示 DDE 監視應用程式的 DDE 回呼函式，它會格式化每個字串控制碼事件的相關資訊，然後在視窗中顯示資訊。 函數會使用 [**MONHSZSTRUCT**](/windows/win32/api/ddeml/ns-ddeml-monhszstructa) 結構，從 DDE 物件中解壓縮資訊。
 
@@ -189,9 +189,9 @@ DWORD dwData2;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61afa07596a55208be63bd29759fd5f9f3e10170
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 502343b7654241a00e9efb33acc6f5de842c6fb6bad650f24839a5fe7febf9b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135741"
 ---
 # <a name="controlsisavailable"></a>IsAvailable
 
@@ -39,7 +39,7 @@ player.controls.isAvailable(
 
 
 
-| String          | Description                                                                                                                                                       |
+| String          | 描述                                                                                                                                                       |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | currentItem     | 判斷使用者是否可以設定 **currentItem** 屬性。                                                                                                 |
 | currentMarker   | 決定使用者是否可以搜尋特定標記。                                                                                                        |
@@ -63,7 +63,7 @@ player.controls.isAvailable(
 
 ## <a name="examples"></a>範例
 
-下列範例會建立 HTML BUTTON 元素，以搜尋目前媒體專案的開始位置。 JScript 程式碼會使用 **isAvailable** 來驗證檔案是否支援搜尋作業。 使用 ID = "Player" 建立 **player** 物件。
+下列範例會建立 HTML BUTTON 元素，以搜尋目前媒體專案的開始位置。 JScript 的程式碼會使用 **isAvailable** 來驗證檔案是否支援搜尋作業。 使用 ID = "Player" 建立 **player** 物件。
 
 
 ```JScript

@@ -4,12 +4,12 @@ ms.assetid: 479b3525-5beb-4c6b-b1ad-8fa72c0d0fd0
 title: 'MFPKEY_WMAAECMA_SYSTEM_MODE 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfca745b83c8a73a2eb4c17c8a2206f90255088c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 722b3e502b783f98ef4871cfc6dd184389dfce7f7f942bde1827468e96f5fa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973267"
 ---
 # <a name="mfpkey_wmaaecma_system_mode-property"></a>MFPKEY \_ WMAAECMA \_ 系統 \_ 模式屬性
 
@@ -54,8 +54,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

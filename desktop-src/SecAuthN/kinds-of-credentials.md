@@ -4,12 +4,12 @@ ms.assetid: eaf1c298-f0af-4b29-a09a-f399da20335d
 title: 認證類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f30968484b2cfc89b9238f624d9299fb75c72bd7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99d0e067b3918496310f3244153864abbf7548e5367569f4f2fbd06de40f207c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140931"
 ---
 # <a name="kinds-of-credentials"></a>認證類型
 

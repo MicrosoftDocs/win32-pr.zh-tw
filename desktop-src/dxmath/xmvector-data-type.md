@@ -4,12 +4,12 @@ ms.assetid: 1a044094-444d-e787-fa6a-76e88531aef1
 title: 'XMVECTOR 資料類型 (DirectXMath .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c62cab01098cd95f904ac2e2ee33d420309e8e99
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f0a65c7da346163c3cbfaab7c68982f56eb6c424b7f74a3ec01c754eb4104a5e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094478"
 ---
 # <a name="xmvector-data-type"></a>XMVECTOR 資料類型
 
@@ -55,7 +55,7 @@ typedef const XMVECTOR CXMVECTOR;
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

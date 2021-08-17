@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 70bb7706e520818c86286947acfba6cae0759b4d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4aebaf63613aeb3a1d14607971db16602745883ab6b7b9db4723dfa2367f9bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120282"
 ---
 # <a name="flow-control"></a>流量控制
 
@@ -38,9 +38,9 @@ HLSL 支援下列流程式控制制語句。
 [ (DirectX HLSL 的語言語法) ](dx-graphics-hlsl-language-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

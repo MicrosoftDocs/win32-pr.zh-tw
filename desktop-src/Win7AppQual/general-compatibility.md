@@ -4,12 +4,12 @@ ms.assetid: 2072bd3f-a6cf-43d5-bc55-9b86d819aea1
 title: 一般相容性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b55bd44947dede014669c433c19915234d026a2f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5e438d87d4a2c69a6ead0236a4a62d21c6f522776a90517a93548d697a9efe23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134091"
 ---
 # <a name="general-compatibility"></a>一般相容性
 
@@ -24,7 +24,7 @@ ms.locfileid: "108088356"
 -   [登錄機碼上的額外 Windows 資源保護](additional-windows-resource-protection-on-registry-keys.md)
 -   [移除 Microsoft 代理程式](removal-of-microsoft-agent.md)
 -   [搭配使用 .NET Framework 4 與舊版的應用程式](using--net-framework-4-with-applications-built-on-earlier-versions.md)
--   [\_在 windows 7 和 Windows Server 2008 R2 中 AppInit dll](appinit-dlls-in-windows-7-and-windows-server-2008-r2.md)
+-   [\_Windows 7 和 Windows Server 2008 R2 中的 AppInit dll](appinit-dlls-in-windows-7-and-windows-server-2008-r2.md)
 -   [移除 Windows 登錄反映](removal-of-windows-registry-reflection.md)
 -   [移除 Windows 可攜式裝置的 WPDUSB.SYS 驅動程式](removal-of-wpdusb-sys-driver-for-windows-portable-devices.md)
 -   [Microsoft Message Queuing (MSMQ) -SHA 2 是預設的雜湊演算法](microsoft-message-queuing--msmq----sha-2-is-the-default-hash-algorithm.md)

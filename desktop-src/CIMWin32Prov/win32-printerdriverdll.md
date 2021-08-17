@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 41484c39d9e1b59efd79d7aee08719b3a241de97
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 884c52e388da62529a2aceb49c68ca888f18e0fd7701e05d951880774c3ed035
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971858"
 ---
 # <a name="win32_printerdriverdll-class"></a>Win32 \_ PrinterDriverDll 類別
 
@@ -63,7 +63,7 @@ class Win32_PrinterDriverDll : CIM_Dependency
 限定詞：索引 [**鍵**](../wmisdk/standard-qualifiers.md)
 </dt> </dl>
 
-參考 [**CIM \_ 資料檔案**](cim-datafile.md) 實例，表示此 Windows 印表機的驅動程式檔案。
+[**CIM \_ 資料檔案**](cim-datafile.md)實例的參考，代表此 Windows 型印表機的驅動程式檔案。
 
 這個屬性繼承自 [**CIM 相依 \_**](cim-dependency.md)性。
 

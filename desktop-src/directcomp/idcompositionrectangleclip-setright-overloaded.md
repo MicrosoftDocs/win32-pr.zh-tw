@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 9c3c1aca2a2cb6da686b2d174c999f39deb88bf5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 774b6d25a9fc5ada82d94f9cd02751dbcb448422ee5281215442a9fee63c3b4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118902"
 ---
 # <a name="idcompositionrectangleclipsetright-methods"></a>IDCompositionRectangleClip：： SetRight 方法
 
@@ -41,7 +41,7 @@ ms.locfileid: "104093948"
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2012 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Dcomp。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Dcomp .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |

@@ -4,12 +4,12 @@ ms.assetid: d543bf24-8d6d-4d73-af5b-199e10925c4f
 title: 使用 MPEG-2 信號信號
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5395ff8e5c7dae996d9ef17012f8e3a5fc137f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f698199f869c8b476c5d8a9fd3221bb72f94133c8885813bf15c9c2aabad0cfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964648"
 ---
 # <a name="using-the-mpeg-2-demultiplexer"></a>使用 MPEG-2 信號信號
 

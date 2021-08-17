@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101305
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bd85d66c5cbb8b3501899fcf7fe05c787bc37053
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6087ff7ef4c2fa67b52147244cf6fc71ccd00689e22871279b5e40ffedbd8ea9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094488"
 ---
 # <a name="esentdatabase200formatexception-members"></a>EsentDatabase200FormatException 成員
 

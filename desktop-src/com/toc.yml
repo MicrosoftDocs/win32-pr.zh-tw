@@ -280,7 +280,7 @@
                       href: schannel.md
                     - name: Snego
                       href: snego.md
-                - name: Windows XP Service Pack 2 和 Windows Server 2003 Service Pack 1 中的 DCOM 安全性增強功能
+                - name: Windows XP service pack 2 和 Windows Server 2003 Service pack 1 中的 DCOM 安全性增強功能
                   href: dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1.md
                 - name: COM 的存取控制清單
                   href: access-control-lists-for-com.md
@@ -1244,14 +1244,14 @@
                 - name: IRpcProxyBuffer
                   href: /windows/desktop/api/objidl/nn-objidl-irpcproxybuffer
                   items:
-                    - name: Connect 方法
+                    - name: 連線方法
                       href: /windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-connect
                     - name: Disconnect 方法
                       href: /windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-disconnect
                 - name: IRpcStubBuffer
                   href: /windows/desktop/api/objidl/nn-objidl-irpcstubbuffer
                   items:
-                    - name: Connect 方法
+                    - name: 連線方法
                       href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect
                     - name: CountRefs 方法
                       href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-countrefs
@@ -1513,7 +1513,7 @@
                           href: insertable-progid.md
                         - name: 通訊協定
                           href: protocol.md
-                        - name: 殼層
+                        - name: Shell
                           href: shell.md
                     - name: <與版本無關的 ProgID> 金鑰
                       href: '-version-independent-progid--key.md'
@@ -2825,9 +2825,9 @@
             - name: ActiveX 控制項
               href: activex-controls.md
               items:
-                - name: ActiveX 控制項架構
+                - name: ActiveX控制項架構
                   href: activex-controls-architecture.md
-                - name: ActiveX 控制項介面
+                - name: ActiveX控制項介面
                   href: activex-controls-interfaces.md
                 - name: 屬性和方法
                   href: properties-and-methods.md
@@ -2854,7 +2854,7 @@
                 - name: 註冊和授權
                   href: registration-and-licensing.md
                   items:
-                    - name: ActiveX 控制項登錄資訊
+                    - name: ActiveX控制登錄資訊
                       href: activex-controls-registry-information.md
             - name: 屬性頁和屬性工作表
               href: property-pages-and-property-sheets.md
@@ -2863,7 +2863,7 @@
                   href: property-sheets-and-property-pages.md
                 - name: 透過 IPropertyNotifySink 的資料系結
                   href: data-binding-through-ipropertynotifysink.md
-            - name: ActiveX 控制項和控制項容器指導方針
+            - name: ActiveX控制和控制容器指導方針
               href: activex-control-and-control-container-guidelines.md
               items:
                 - name: 控制和控制容器指導方針
@@ -2927,7 +2927,7 @@
                       href: simple-data-binding.md
                     - name: Advanced Data Binding
                       href: advanced-data-binding.md
-                    - name: Visual Basic 私用介面
+                    - name: Visual Basic私用介面
                       href: visual-basic-private-interfaces.md
                       items:
                         - name: IGetOleObject
@@ -3286,7 +3286,7 @@
                   href: translating-to-c---from-visual-basic.md
                 - name: 從 JAVA 轉換成 c + +
                   href: translating-to-c---from-java.md
-                - name: 將 ActiveX 控制項新增至 Visual C++ 專案
+                - name: 將 ActiveX 控制項新增至 Visual C++ Project
                   href: adding-an-activex-control-to-a-visual-c---project.md
                 - name: MIDL 編譯器
                   href: midl-compiler.md
@@ -3301,11 +3301,11 @@
                   href: translating-to-visual-basic-from-c--.md
                 - name: 從 JAVA 轉譯為 Visual Basic
                   href: translating-to-visual-basic-from-java.md
-                - name: 將元件新增至 Visual Basic 專案
+                - name: 將元件新增至 Visual Basic Project
                   href: adding-a-component-to-a-visual-basic-project.md
-                - name: 加入 Visual Basic 專案的參考
+                - name: 新增 Visual Basic Project 的參考
                   href: adding-a-reference-to-a-visual-basic-project.md
-                - name: Visual Basic 物件瀏覽器
+                - name: Visual Basic物件瀏覽器
                   href: visual-basic-object-browser.md
             - name: 轉換成 JAVA
               href: translating-to-java.md
@@ -3327,7 +3327,7 @@
               href: embedding-com-objects-in-web-pages.md
             - name: 使用 Active Server Pages 中的 COM 物件
               href: using-com-objects-in-active-server-pages.md
-            - name: 在 Windows Script Host 中使用 COM 物件
+            - name: 在 Windows 腳本主機中使用 COM 物件
               href: using-com-objects-in-windows-script-host.md
             - name: 在自訂應用程式中編寫 COM 物件的腳本
               href: scripting-com-objects-in-custom-applications.md

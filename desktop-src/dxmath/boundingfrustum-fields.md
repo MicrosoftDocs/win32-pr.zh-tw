@@ -4,12 +4,12 @@ ms.assetid: 4c42f638-e909-4e40-bd35-572910294e4d
 title: BoundingFrustum 欄位
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 121bbc72fd665e0c96c4db76811e95949891c905
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b8939cfd950ea2571043f67b30563ec1d9bbf5013d274b5d8031ade9611901d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118545"
 ---
 # <a name="boundingfrustum-fields"></a>BoundingFrustum 欄位
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 56680a81cc564466dc3586bf0381cf4db97f914b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 957fe3fa556a3e41e2484116ff2c9242fd63efa1469a4a6040f31aa04a3627e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129380"
 ---
 # <a name="applicationinstances-collection"></a>ApplicationInstances 集合
 
@@ -40,7 +40,7 @@ ms.locfileid: "104468168"
 您可以從下列集合流覽至這個集合：
 
 -   [**應用程式**](applications.md)
--   [**根**](root.md)
+-   [**Root**](root.md)
 
 ## <a name="properties"></a>屬性
 

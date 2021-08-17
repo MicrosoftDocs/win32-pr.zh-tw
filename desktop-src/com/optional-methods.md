@@ -4,16 +4,16 @@ description: 選擇性方法
 ms.assetid: 8cdb5686-177c-48c9-8315-e5921520007c
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 904aad26ecfba6396c9911b247443f9a956bca7f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d64f4b22693c77295d3a21cfb59055f9a232d08bb1426d995f710bbf24073d60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130040"
 ---
 # <a name="optional-methods"></a>選擇性方法
 
-OLE 元件可以執行介面，而不會在介面中執行每個方法的所有語義，而是在適當的情況下傳回 E \_ >notimpl 或 S \_ OK。 下表描述 ActiveX 控制項容器不需要執行的這些方法 (也就是控制項容器可以傳回 E \_ >notimpl) 。
+OLE 元件可以執行介面，而不會在介面中執行每個方法的所有語義，而是在適當的情況下傳回 E \_ >notimpl 或 S \_ OK。 下表描述不需要 ActiveX 控制容器來執行的方法 (亦即，控制項容器可以傳回 e \_ >notimpl) 。
 
 下表說明選用的方法;請注意，方法必須仍然存在，但是可以直接傳回 E \_ >notimpl，而不是實作為實際的語法。 請注意，來自以下未列出之強制介面的任何方法都必須視為強制性，而且可能不會傳回 E \_ >notimpl。
 
@@ -117,7 +117,7 @@ OLE 元件可以執行介面，而不會在介面中執行每個方法的所有�
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ParseDisplayName**](/windows/desktop/api/OleIdl/nf-oleidl-iparsedisplayname-parsedisplayname)<br/> | 只有在支援連結至控制項或容器中的其他內嵌時，才支援這項功能，因為這是針對標記系結的必要項。<br/>                                                                                                                  |
 | [**LockContainer**](/windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-lockcontainer)<br/>           | 適用于 ParseDisplayName<br/>                                                                                                                                                                                                                   |
-| [**EnumObjects**](/windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-enumobjects)<br/>               | 透過 [**IEnumUnknown**](/windows/win32/api/objidlbase/nn-objidlbase-ienumunknown)的列舉值傳回所有 ActiveX 控制項，但不一定都 (的所有物件，因為不保證所有物件都是 ActiveX 控制項;有些可能是一般的 Windows 控制項) 。<br/> |
+| [**EnumObjects**](/windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-enumobjects)<br/>               | 透過 [**IEnumUnknown**](/windows/win32/api/objidlbase/nn-objidlbase-ienumunknown)的列舉值傳回所有 ActiveX 控制項，但不一定是所有物件都 (，因為無法保證所有物件都是 ActiveX 控制項;有些可能是定期 Windows 控制項) 。<br/> |
 
 
 

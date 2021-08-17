@@ -5,12 +5,12 @@ ms.assetid: 0d8d8f1c-786f-4d87-977c-91a167bcf118
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fa54f2015e0d5663db2917eb27b250f39eb4c0c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0b473c9e3370c3d1739fc904b8c6409d756f62b5c358db200c3de821f55349f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962257"
 ---
 # <a name="binding-to-active-directory-objects"></a>系結至 Active Directory 物件
 
@@ -68,9 +68,9 @@ Debug.Print dom.Get("whenCreated")
 [建立組織單位](creating-an-organizational-unit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

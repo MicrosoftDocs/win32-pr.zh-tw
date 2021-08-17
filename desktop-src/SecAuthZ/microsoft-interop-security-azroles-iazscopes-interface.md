@@ -61,7 +61,7 @@ ms.locfileid: "118912546"
 
 
 
-| 屬性                                                          | 存取類型          | Description                                                       |
+| 屬性                                                          | 存取類型          | 描述                                                       |
 |:------------------------------------------------------------------|:---------------------|:------------------------------------------------------------------|
 | **Azroles. IAzScopes. Count**<br/> | 唯讀<br/> | [**IAzScopes 的 Count 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazscopes-get_count)<br/> |
 | **Azroles. IAzScopes. Item**<br/>  | 唯讀<br/> | [**IAzScopes 的 Item 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazscopes-get_item)<br/>   |

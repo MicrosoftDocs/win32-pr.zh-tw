@@ -78,7 +78,7 @@ ms.locfileid: "119450828"
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
 | 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
-| Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 
 
 

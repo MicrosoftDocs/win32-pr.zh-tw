@@ -4,12 +4,12 @@ ms.assetid: b5897594-ef6c-4526-87b7-8ed6b7e03c13
 title: 使用 WinHTTP C/c + + API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79b8c16a29c57ee6d937f3b5e0f1a16156aa15d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8926b89c41d20d9708aa89c0a279c4da687422536fcb905f0f83d16cfc76a6e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133021"
 ---
 # <a name="using-the-winhttp-cc-api"></a>使用 WinHTTP C/c + + API
 

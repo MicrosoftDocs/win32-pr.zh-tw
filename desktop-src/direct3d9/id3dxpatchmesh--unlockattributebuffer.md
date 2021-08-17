@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 42ea5ffacae2a2de073f6c16a9d29a7f76633ef6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2070e3224d03e9e1d885827da2c92128bcd79193da95a0f7743eea556311d312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120692"
 ---
 # <a name="id3dxpatchmeshunlockattributebuffer-method"></a>ID3DXPatchMesh：： UnlockAttributeBuffer 方法
 

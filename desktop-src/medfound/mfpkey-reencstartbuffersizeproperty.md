@@ -4,12 +4,12 @@ ms.assetid: b93a6175-bd28-4d7b-a3a1-a94eeb55875a
 title: 'MFPKEY_REENCSTARTBUFFERSIZE 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 264209cb5c33b201371ecc633086a79983f24e6c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebfc8664b4cdeac66726896e3338c57bf9bcf0691dda6bd2e331ddbe0deb8592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973487"
 ---
 # <a name="mfpkey_reencstartbuffersize-property"></a>MFPKEY \_ REENCSTARTBUFFERSIZE 屬性
 

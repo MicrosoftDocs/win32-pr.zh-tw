@@ -4,12 +4,12 @@ description: 這個範例會嘗試執行現有的工作。 此範例假設本機
 ms.assetid: e4f38f8a-3488-4802-913b-f627ecca8bb2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9fa9ba112b642aa5e14abc3b408c1536c527d9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e11abcbd4581db306b8ca60f478e9b2927e531b7dd2fd8461742f4dc1c93a169
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139621"
 ---
 # <a name="cc-code-example-starting-a-task"></a>C/c + + 程式碼範例：啟動工作
 
@@ -104,9 +104,9 @@ int main(int argc, char **argv)
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: e51f25d7-41e5-408e-930b-396c7ac24437
 title: 'ITSdp：： GetEmailNames 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31f0200b5cc6ea0422f47a323cd1c57d7e0f9a5d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f74ea369210a6ca32e47bb3359000195c544374b7352da96570f6d0f58f2af4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140261"
 ---
 # <a name="itsdpgetemailnames-method"></a>ITSdp：： GetEmailNames 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **GetEmailNames** 方法會取得與會議 blob 相關聯之電子郵件名稱的陣列。
 
@@ -53,7 +53,7 @@ HRESULT GetEmailNames(
 
 
 
-| 傳回碼                                                                                   | Description                                                               |
+| 傳回碼                                                                                   | 描述                                                               |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                              |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PAddresses* 或 *pNames* 參數不是有效的指標。<br/> |

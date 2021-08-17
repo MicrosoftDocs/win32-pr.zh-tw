@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: e9e58895ae36a304e713ecdb21b4008a2027e8c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25334050e95ff20cf35ed1071bf2b1c006e29c0f9374923199a96c09bbae0471
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065078"
 ---
 # <a name="msm-lanprofile-element"></a>MSM (LANProfile) 元素
 
@@ -62,7 +62,7 @@ MSM (LANProfile) 元素包含媒體專屬模組 (MSM) 設定。
 
 
 
-| 元素                                                                 | 類型    | Description                                                                                                                              |
+| 元素                                                                 | 類型    | 描述                                                                                                                              |
 |-------------------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------|
 | [**OneXEnabled**](lan-profileschema-onexenabled-security-element.md)   | boolean | 指定有線網路的自動設定服務是否會嘗試使用 802.1 X 進行埠驗證。<br/>       |
 | [**OneXEnforced**](lan-profileschema-onexenforced-security-element.md) | boolean | 指定有線網路的自動設定服務是否需要使用 802.1 X 進行埠驗證。 <br/> |
@@ -76,8 +76,8 @@ MSM (LANProfile) 元素包含媒體專屬模組 (MSM) 設定。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

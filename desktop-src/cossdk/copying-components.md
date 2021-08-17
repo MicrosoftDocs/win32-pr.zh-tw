@@ -4,12 +4,12 @@ ms.assetid: 49dfd449-05eb-4442-989f-15bc1586d8c5
 title: 複製元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2224c42e9891c67999934062a50cd2215da2adc4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5cbc9d556a9e8ad375eca93d7edb7530aff5f4d9d5fde7c19cfa6b7fcb7220ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128800"
 ---
 # <a name="copying-components"></a>複製元件
 
@@ -30,7 +30,7 @@ ms.locfileid: "104510550"
 
 4.  輸入所複製元件的新 CLSID。 COM + 會顯示自動產生的 CLSID。 在大部分的情況下，這就足以唯一識別複製的元件。 只有在您想要變更 COM + 所提供的 CLSID 時，才輸入新的 CLSID。
 
-5.  按一下 [確定]  。
+5.  按一下 [確定]。
 
 ## <a name="related-topics"></a>相關主題
 

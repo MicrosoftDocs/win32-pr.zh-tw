@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74bc189996752d754599bf4547e8baa4d9fb74cc
-ms.sourcegitcommit: 12e9b14501d51641b690ee0cf764e2b91eb9a140
-ms.translationtype: HT
+ms.openlocfilehash: 46cf8c3fb0e3bc0b21c5bf8bc3d946851ce213b765731518d252495250071228
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "104990882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119252"
 ---
 # <a name="interlockedcompareexchange-function-hlsl-reference"></a>InterlockedCompareExchange 函式 (HLSL 參考) 
 
@@ -28,10 +28,10 @@ ms.locfileid: "104990882"
 
 ``` syntax
 void InterlockedCompareExchange(
-  in  R dest,
-  in  T compare_value,
-  in  T value,
-  out T original_value
+  in  R dest,
+  in  T compare_value,
+  in  T value,
+  out T original_value
 );
 ```
 
@@ -86,7 +86,7 @@ void InterlockedCompareExchange(
 > [!Note]  
 > 如果您在 [**for**](dx-graphics-hlsl-for.md)或 [**while**](dx-graphics-hlsl-while.md)計算著色器迴圈中呼叫 **InterlockedCompareExchange** ，以便正確編譯，您必須在該迴圈中使用 [ **\[ 允許 \_ uav \_ 條件 \]** ] 屬性。
 
- 
+ 
 
 ### <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -100,19 +100,19 @@ void InterlockedCompareExchange(
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      |  x   |  x     |  x       | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -124,9 +124,9 @@ void InterlockedCompareExchange(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

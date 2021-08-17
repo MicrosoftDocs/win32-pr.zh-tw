@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL，屬性，類型程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ddbe0399a526c8c4093d23b160452d23bed257a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 302597f8a4600c2ce168a9f16996dfa274a53bd6e47d1dda3533dd85cc03dcba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066658"
 ---
 # <a name="type-library-attributes"></a>類型程式庫屬性
 
@@ -64,13 +64,13 @@ ms.locfileid: "104023343"
 | [**字串**](string.md)                     | 指出一維 [**char**](char-idl.md)、 [**wchar \_ t**](wchar-t.md)、 [**byte**](byte.md) (或對等的) 陣列，或對這類陣列的指標必須視為字串。                                                                                                                                                                                                      |
 | [**uidefault**](uidefault.md)               | 表示類型資訊成員是在使用者介面中顯示的預設成員。                                                                                                                                                                                                                                                                                                    |
 | [**usesgetlasterror**](usesgetlasterror.md) | 指定模組進入點使用 [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) 傳回錯誤碼，而且如果在輸入函式時發生錯誤，呼叫者可以呼叫 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 來取得錯誤碼。                                                                                                                                                     |
-| [**uuid**](uuid.md)                         | 指定類型程式庫、 [**coclass**](coclass.md)或介面的唯一識別碼。                                                                                                                                                                                                                                                                                                           |
+| [**Uuid**](uuid.md)                         | 指定類型程式庫、 [**coclass**](coclass.md)或介面的唯一識別碼。                                                                                                                                                                                                                                                                                                           |
 | [**vararg**](vararg.md)                     | 指定函式使用引數的變數數字。                                                                                                                                                                                                                                                                                                                                      |
 | [**版本**](version.md)                   | 識別類型程式庫的特定版本。                                                                                                                                                                                                                                                                                                                                                     |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -85,6 +85,6 @@ ms.locfileid: "104023343"
 [使用 MIDL 產生類型程式庫](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
