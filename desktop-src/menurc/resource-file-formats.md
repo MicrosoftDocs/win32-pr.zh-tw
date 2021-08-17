@@ -4,12 +4,12 @@ description: 本節說明資源編譯器根據資源定義檔的內容所建立�
 ms.assetid: a0b17555-f50a-4d58-b2bc-760843dd67eb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90c789cd1684c1f5ca31af0e2d60a31052ca03f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 16bfc85190993992b7bf87001f3d807b777ed2fe27b4d66cba0b7f7c948d8cfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869789"
 ---
 # <a name="resource-file-formats"></a>資源檔案格式
 
@@ -61,6 +61,6 @@ ms.locfileid: "103842271"
 
 版本資源中的主要結構是 [**VS \_ FIXEDFILEINFO**](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo) 結構。 其他結構包含儲存語言資訊資料的 [**VarFileInfo**](varfileinfo.md) 結構，以及使用者定義字串資訊的 [**StringFileInfo**](stringfileinfo.md) 。 版本資源中的所有字串都採用 Unicode 格式。 每個資訊區塊都在 **DWORD** 界限上對齊。
 
- 
+ 
 
- 
+ 

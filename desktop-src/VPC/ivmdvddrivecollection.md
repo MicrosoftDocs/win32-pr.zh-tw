@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6afcf14a1ffe53dea0dcd7e21fcde8729e0bd0ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77225134a88ff2c66be3f53f5d3d44c9f8353d8f44077fb0862f0c943c5aec3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106976357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056856"
 ---
 # <a name="ivmdvddrivecollection-interface"></a>IVMDVDDriveCollection 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 定義虛擬機器中的 CD 和 DVD 光碟機集合。 若要取得 **IVMDVDDriveCollection** 物件，請使用 [**IVMVirtualMachine：:D vdromdrives**](ivmvirtualmachine-dvdromdrives.md) 屬性。
 
@@ -40,7 +40,7 @@ ms.locfileid: "106976357"
 
 
 
-| 屬性                                                       | 存取類型          | Description                                                                    |
+| 屬性                                                       | 存取類型          | 描述                                                                    |
 |:---------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------|
 | [**\_NewEnum**](ivmdvddrivecollection--newenum.md)<br/> | 唯讀<br/> | 集合的列舉值。<br/>                                   |
 | [**計數**](ivmdvddrivecollection-count.md)<br/>        | 唯讀<br/> | 此集合中的 CD 和 DVD 光碟機數目。<br/>                 |
@@ -56,7 +56,7 @@ ms.locfileid: "106976357"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

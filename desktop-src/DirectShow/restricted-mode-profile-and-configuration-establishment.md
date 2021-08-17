@@ -4,12 +4,12 @@ ms.assetid: 550f5413-eaa4-4530-867e-fd9b1907cadf
 title: 限制模式設定檔和設定建立
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17a424505b3934131527f249176f9fe0984b320a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c9bb4d4bea3f42eaf897e781ccf859d094a0d0321815e7457aa6c79f96cb5ded
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747048"
 ---
 # <a name="restricted-mode-profile-and-configuration-establishment"></a>限制模式設定檔和設定建立
 

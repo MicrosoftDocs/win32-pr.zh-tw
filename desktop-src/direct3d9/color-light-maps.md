@@ -4,12 +4,12 @@ ms.assetid: 47760884-7b9f-45de-9d4a-faf822da899f
 title: " (Direct3D 9) 的色彩淺色地圖"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 621c5056fe2cbb9e6446adfb5dcad3079c0d90bf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4dbff9fe246131fc90bda8ac9b5f1c49cd2413c412a7b3da5c013b1e936aa6f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989298"
 ---
 # <a name="color-light-maps-direct3d-9"></a> (Direct3D 9) 的色彩淺色地圖
 

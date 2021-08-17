@@ -4,12 +4,12 @@ ms.assetid: 19286f26-96f1-429c-9d6a-5e9b98597cd2
 title: 'AVEncStatCommonCompletedPasses 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2927e501963d450cbc08106e7860dfbfd2d7d98a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d5950a8f013dc697b0e8178e65610971776c0bd7bba233a58d164c05080f966f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106997464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275868"
 ---
 # <a name="avencstatcommoncompletedpasses-property"></a>AVEncStatCommonCompletedPasses 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "106997464"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 841c7daa-360c-4d96-8a14-6dcfa159a875
 title: 目錄控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4215a75622a7fa35ee36d45e769736bf1224a66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fc8f983748154a781e5dd2923e0c3e3351a26acb47c2230d3142d6ad6444513
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015217"
 ---
 # <a name="directory-handles"></a>目錄控制碼
 

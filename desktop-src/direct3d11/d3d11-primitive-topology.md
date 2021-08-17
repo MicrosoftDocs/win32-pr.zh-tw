@@ -4,12 +4,12 @@ ms.assetid: ca0547b2-d0f8-4edc-a62c-3c903e1b33ea
 title: D3D11 \_ 基本 \_ 拓撲列舉
 ms.date: 06/26/2019
 ms.topic: reference
-ms.openlocfilehash: 1d2beab107a3f3abe03e5a17f068e1b508422241
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
-ms.translationtype: HT
+ms.openlocfilehash: 7c899d738b2a80036eaea61352f5e8aa82c73ddbeb48433d275d74506a478d49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104991858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990008"
 ---
 # <a name="d3d11_primitive_topology-enumeration"></a>D3D11 \_ 基本 \_ 拓撲列舉
 

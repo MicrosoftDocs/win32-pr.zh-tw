@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9fefd44fe1b913fbba0e3ebfaa6f750b88d40813
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 185baf6818d2022dbe7b64cfab888945e1a2405433eefa925d2de70dcca286e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016856"
 ---
 # <a name="cbaserendererrender-method"></a>CBaseRenderer 轉譯方法
 
@@ -55,7 +55,7 @@ virtual Render(
 
 
 
-| 傳回碼                                                                             | Description                                                      |
+| 傳回碼                                                                             | 描述                                                      |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 篩選已停止，或 *pMediaSample* 為 **Null**。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                                              |

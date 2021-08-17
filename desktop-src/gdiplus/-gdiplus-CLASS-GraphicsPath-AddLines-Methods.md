@@ -4,12 +4,12 @@ ms.assetid: 39055c59-6d88-4b46-bc4c-cf2a4a927d29
 title: GraphicsPath. AddLines 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1690419c6743af85b3cd12c22bff867c9f4ac276
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a0fbc65e099038e1cb0208d8dcfa370afd693d5126626b5578ea4f1d32330e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964708"
 ---
 # <a name="graphicspathaddlines-methods"></a>GraphicsPath. AddLines 方法
 

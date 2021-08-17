@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfec99c109dfd3f69e22caf13071b77cd41f61bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b719771f265347da59ce4d8c5990a5b9dc5a72315780def0fd3a34b108e18169
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117756807"
 ---
 # <a name="itsremoteprogram-interface"></a>ITSRemoteProgram 介面
 
@@ -54,7 +54,7 @@ ms.locfileid: "104025237"
 
 
 
-| 屬性                                                                   | 存取類型           | Description                    |
+| 屬性                                                                   | 存取類型           | 描述                    |
 |:---------------------------------------------------------------------------|:----------------------|:-------------------------------|
 | [**RemoteProgramMode**](itsremoteprogram-remoteprogrammode.md)<br/> | 讀取/寫入<br/> | RemoteApp 模式。<br/> |
 

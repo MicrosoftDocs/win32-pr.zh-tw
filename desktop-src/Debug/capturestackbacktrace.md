@@ -34,12 +34,12 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 3c9edc9184000d513b82ad4131e3ac05c2ed22d6
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: 0b6cad22d7a52908c3aa02bef7e23a57899e421f87bda00660519750de742919
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "106969502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279499"
 ---
 # <a name="capturestackbacktrace-function"></a>CaptureStackBackTrace 函式
 
@@ -67,7 +67,7 @@ USHORT WINAPI CaptureStackBackTrace(
 要捕捉的框架數目。
 您可以捕獲最多 **MAXUSHORT** 的畫面格。
 
-**Windows Server 2003 和 WINDOWS XP：** *FramesToSkip* 和 *FramesToCapture* 參數的總和必須小於63。
+**Windows Server 2003 和 Windows XP：** *FramesToSkip* 和 *FramesToCapture* 參數的總和必須小於63。
 
 ### <a name="backtrace-out"></a>BackTrace [out]
 
@@ -87,7 +87,7 @@ USHORT WINAPI CaptureStackBackTrace(
 
 ## <a name="remarks"></a>備註
 
-**CaptureStackBackTrace** 函式會定義為 **RtlCaptureStackBackTrace** 函式 (定義會包含在 Windows SDK 從 Windows Vista) 開始。
+**CaptureStackBackTrace** 函式定義為 **RtlCaptureStackBackTrace** 函式 (定義包含在 Windows SDK 從 Windows Vista) 開始。
 如需詳細資訊，請參閱 WinBase .h 和 WinNT. h。
 
 ## <a name="see-also"></a>另請參閱

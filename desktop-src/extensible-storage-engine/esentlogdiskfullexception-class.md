@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7a237a8d21aab32114708a5cb59545ed827e05bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d86c9660186762c60e9f7e6ff02afa8fef334a171ff07e59c8b4284b8dc50f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119235498"
 ---
 # <a name="esentlogdiskfullexception-class"></a>EsentLogDiskFullException 類別
 
