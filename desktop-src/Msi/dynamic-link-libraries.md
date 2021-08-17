@@ -4,12 +4,12 @@ ms.assetid: 605c7b97-70bd-467a-9438-47b05d8b6b5d
 title: 'Dynamic-Link 程式庫 (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5f9ff0113d97d219220a4f42030c1563f16ce7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bcd2548851dcef4dcf08c53f168ec0f6b43ee036a1c250f9f65f072427a19e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378260"
 ---
 # <a name="dynamic-link-libraries-windows-installer"></a>Dynamic-Link 程式庫 (Windows Installer) 
 

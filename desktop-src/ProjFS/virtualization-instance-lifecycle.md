@@ -4,12 +4,12 @@ description: ProjFS 虛擬化實例的生命週期總覽。
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/17/2018
 ms.topic: article
-ms.openlocfilehash: 567eff1f7b8acf330dba7c652e2e12b724072b9b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bbaaf5eca5481f3959e3e5afeb36a8cf6b264c939e8eb2cc9d84ba501d3c8530
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792382"
 ---
 # <a name="virtualization-instance-lifecycle"></a>虛擬化實例生命週期
 

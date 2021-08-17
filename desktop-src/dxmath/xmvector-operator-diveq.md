@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e4d0c20975a93215a62bdb6b08dedc839ca8d079
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab9b0b003b3edea331ae617948176c38a9c7b47eca0972e63d6b54873d2669e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087124"
 ---
 # <a name="operator--operators"></a>operator/= 運算子
 

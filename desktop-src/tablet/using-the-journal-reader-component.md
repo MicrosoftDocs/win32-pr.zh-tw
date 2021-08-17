@@ -4,12 +4,12 @@ ms.assetid: 85dcda59-2972-48e3-a9f5-5cce0b60a1f1
 title: 使用日誌讀取器元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fd098db4ce1c0c92a5ded76b0950e264aa2a73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41559ac31ff081ecb810b0fe6e82ce1107ed87dae897cc7e6b8be4569e9b78f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449186"
 ---
 # <a name="using-the-journal-reader-component"></a>使用日誌讀取器元件
 
@@ -21,7 +21,7 @@ Microsoft Windows 筆記本 Note Reader 元件提供以程式設計方式讀取�
 
 元件不提供寫出 .jnt 檔案的能力。
 
-元件可用於非受控和受控版本。 未受管理的元件可在 journal.dll 動態連結程式庫 (DLL) 中取得。 受控版本位於 Microsoft.Ink.Journal.dll 元件 (，可轉散發至 Windows XP Tablet PC Edition 或 Windows Vista) ，或 Microsoft.Ink.dll。
+元件可用於非受控和受控版本。 未受管理的元件可在 journal.dll 動態連結程式庫 (DLL) 中取得。 受管理的版本位於 Microsoft.Ink.Journal.dll 元件 (，可轉散發至 Windows XP Tablet PC Edition 或 Windows Vista) 或 Microsoft.Ink.dll。
 
 > [!IMPORTANT]
 >
@@ -31,9 +31,9 @@ Microsoft Windows 筆記本 Note Reader 元件提供以程式設計方式讀取�
 
 ### <a name="assembly-changes-of-note"></a>注意事項的元件變更
 
-請務必留意元件的一些變更，其中包含與平板電腦開發人員套件1.7 版和 Windows Vista 作業系統隨附的版本之間所發行的「筆記本便箋讀取器」元件。
+請務必留意元件的一些變更，其中包含與 Tablet 開發人員套件1.7 版一起發行的筆記本便箋讀取器元件，以及 Windows Vista 作業系統隨附的版本。
 
-可以轉散發至 Windows XP 或 Windows Vista 的讀取器元件1.7 版本，包含在名為 Microsoft.Ink.Journal.dll 的元件中。 讀取器元件隨附于 Windows Vista 中，但已整合至核心 Microsoft.Ink.dll 元件。 這表示使用1.7 元件的應用程式必須將該元件重新發佈到其設定。
+讀取器元件的1.7 版本（可轉散發至 Windows XP 或 Windows Vista）包含在名為 Microsoft.Ink.Journal.dll 的元件中。 讀取器元件隨附于 Windows Vista 中，但已整合至核心 Microsoft.Ink.dll 元件。 這表示使用1.7 元件的應用程式必須將該元件重新發佈到其設定。
 
 ## <a name="using-the-component"></a>使用元件
 

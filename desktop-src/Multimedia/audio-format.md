@@ -10,12 +10,12 @@ keywords:
 - capSetAudioFormat 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e362abd393097ae8763b44b3ee3474685ffd5c2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5891e8c244487895c51d68dd92fc4935f8981a36cf67d81437ff45f58950527b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375697"
 ---
 # <a name="audio-format"></a>音訊格式
 
@@ -23,6 +23,6 @@ ms.locfileid: "103842147"
 
 您可以藉由將 [**WM \_ CAP \_ set \_ AUDIOFORMAT**](wm-cap-set-audioformat.md) message (或 [**capSetAudioFormat**](/windows/desktop/api/Vfw/nf-vfw-capsetaudioformat) 宏) 傳送至 capture 視窗，來設定音訊資料的捕捉格式。 設定音訊格式時，您可以根據指定的音訊格式，將指標傳遞至 [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat)、 **WAVEFORMATEX** 或 [**PCMWAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-pcmwaveformat) 結構。
 
- 
+ 
 
- 
+ 

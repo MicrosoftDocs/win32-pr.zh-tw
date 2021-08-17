@@ -4,16 +4,16 @@ description: 本文將重點放在目前產生的電腦遊戲中，我們看到�
 ms.assetid: 89b83473-1aa9-9a2d-8778-15cfb91cdea4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 547c977f7d8e4895ef73ba229a9012854a7c6d27
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b89be8ad7a68c247d589f304ea77fa9b3e63e105739264e39f71794c705b66cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "107001284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118396503"
 ---
 # <a name="top-issues-for-windows-titles"></a>Windows 標題的主要問題
 
-Microsoft Windows 遊戲和圖形技術開發人員關係群組每年會執行許多 Windows 遊戲的效能分析。 在這些課程中，我們會取得實際操作體驗，以系結至每天收到的開發人員意見反應和查詢。 有時候我們會協助您追蹤標題中有神秘的損毀或其他問題，讓我們進一步瞭解開發人員遇到的問題。
+Microsoft Windows 遊戲和圖形技術開發人員關係群組會為每年的許多 Windows 遊戲執行效能分析。 在這些課程中，我們會取得實際操作體驗，以系結至每天收到的開發人員意見反應和查詢。 有時候我們會協助您追蹤標題中有神秘的損毀或其他問題，讓我們進一步瞭解開發人員遇到的問題。
 
 本文將重點放在目前產生的電腦遊戲中，我們看到了許多常見的問題。
 
@@ -82,14 +82,14 @@ Microsoft Windows 遊戲和圖形技術開發人員關係群組每年會執行�
 
 ## <a name="over-reliance-on-real-time-audio-sample-rate-conversion"></a>Real-Time 音訊取樣率轉換 Over-Reliance
 
-當音訊系統必須在混合到硬體緩衝區期間轉換播放速率時，就會看到另一個常見的 CPU 週期燒錄來源。 使用 Windows Driver Model (WDM) 驅動程式時，硬體緩衝區格式不受直接應用程式控制，因為它是核心層級的資源;相反地，會根據所有來源的最高品質格式以及硬體的功能，來選取格式。 根據預設，Windows XP 會針對此程式使用高品質的取樣率轉換，而且如果大部分的音訊範例都需要速率轉換，則會耗用 CPU 週期的重要部分。
+當音訊系統必須在混合到硬體緩衝區期間轉換播放速率時，就會看到另一個常見的 CPU 週期燒錄來源。 使用 Windows Driver Model (WDM) 驅動程式時，硬體緩衝區格式不受直接應用程式控制，因為它是核心層級的資源;相反地，會根據所有來源的最高品質格式以及硬體的功能，來選取格式。 根據預設，Windows XP 會針對此程式使用高品質的取樣率轉換，而且如果大部分的音訊範例都需要速率轉換，就會耗用 CPU 週期的重要部分。
 
-建議您使用相同的取樣率來建立所有 DirectSound 緩衝區。 如果您使用 Microsoft Win32 **waveOut** 函式，您也應該使用一致的取樣率。 使用 WDM 驅動程式時，核心會將緩衝區全部混合，而如果您對某些緩衝區使用較高的取樣率，則所有其餘部分的取樣率將會轉換成相符的。 請注意，這表示所有音訊範例都使用相同的播放速率，包括任何串流音訊解壓縮緩衝區。 除非您的目標是 Windows 98 或 Windows Millennium Edition，否則設定主要緩衝區速率不會有任何作用。
+建議您使用相同的取樣率來建立所有 DirectSound 緩衝區。 如果您使用 Microsoft Win32 **waveOut** 函式，您也應該使用一致的取樣率。 使用 WDM 驅動程式時，核心會將緩衝區全部混合，而如果您對某些緩衝區使用較高的取樣率，則所有其餘部分的取樣率將會轉換成相符的。 請注意，這表示所有音訊範例都使用相同的播放速率，包括任何串流音訊解壓縮緩衝區。 除非您的目標是 Windows 98 或 Windows Millennium Edition，否則設定主要緩衝區速率沒有任何作用。
 
 > [!Note]  
-> 在 Windows Vista 和更新版本的作業系統上，DirectSound 和 **waveOut** 會針對所有音訊輸出使用 [WINDOWS 音訊會話 API (WASAPI)](/windows/desktop/CoreAudio/wasapi) 。
+> 在 Windows Vista 和更新版本的作業系統上，DirectSound 和 **waveOut** 會針對所有音訊輸出使用 [Windows 音訊會話 API (WASAPI)](/windows/desktop/CoreAudio/wasapi) 。
 
- 
+ 
 
 ## <a name="fragmention-of-virtual-memory"></a>虛擬記憶體的分散程度
 
@@ -106,7 +106,7 @@ Microsoft Windows 遊戲和圖形技術開發人員關係群組每年會執行�
 > [!Note]  
 > 如果您修改了控制字組，請使用 [**\_ controlfp \_**](https://msdn.microsoft.com/library/c9676k6h(v=VS.80).aspx) ，請注意，對於 x64 平臺，您無法透過控制字組變更浮點精確度。
 
- 
+ 
 
 在需要不同舍入規則或其他行為的任何程式庫中（例如處理軟體頂點著色器或編譯），我們會儲存並還原控制字組。 如果遊戲需要使用非標準的舍入或 FPU 例外狀況，它應該儲存並還原浮點控制字組，您應該確定它不會呼叫未經過證實的任何外部程式碼，而不會受到這些問題的保護，包括系統 Api。
 
@@ -118,23 +118,23 @@ Microsoft Windows 遊戲和圖形技術開發人員關係群組每年會執行�
 
 您可以從安裝套件執行此命令來完成 DirectX 的無訊息安裝： **dxsetup.exe/silent**
 
-此外，可轉散發資料夾的實際大小可設定為僅包含遊戲的目標平臺和使用方式所需的封包檔 ( .cab) 。
+此外，可轉散發資料夾的實際大小可設定為僅包含遊戲目標平臺和使用方式所需的封包檔 (.cab) 。
 
 > [!Note]  
 > 在使用 **dxsetup** 之前，請先閱讀 [ [不要直接設定](https://walbourn.github.io/)]。
 
- 
+ 
 
 ## <a name="excessive-use-of-thread-synchronization"></a>過度使用執行緒同步處理
 
 分析遊戲時，常見的熱點通常會與進入和離開重要區段有關。 隨著多核心 Cpu 的普及，在遊戲中使用多執行緒的方式大幅增加，而許多執行都依賴大量的執行緒同步處理。 即使沒有爭用的情況下，要採取重要區段的 CPU 時間很重要，而所有其他形式的執行緒同步處理也會更昂貴。 因此，必須小心將這些基本專案的使用降至最低。
 
-遊戲中過度同步處理的常見來源，是使用 [D3DCREATE \_ 多執行緒](/windows/desktop/direct3d9/d3dcreate)。 此旗標雖然讓 Direct3D 執行緒安全可從多個執行緒進行轉譯，但卻是非常保守的方法，因此會產生高度的同步處理負荷。 遊戲應避免此旗標。 改為建立引擎的架構，讓所有與 Direct3D 的通訊都是來自單一線程，而執行緒之間的任何通訊都會直接處理。 如需設計多執行緒遊戲的詳細資訊，請參閱 [Xbox 360 和 Microsoft Windows 上的多個核心的編碼](/windows/desktop/DxTechArts/coding-for-multiple-cores)文章。
+遊戲中過度同步處理的常見來源，是使用 [D3DCREATE \_ 多執行緒](/windows/desktop/direct3d9/d3dcreate)。 此旗標雖然讓 Direct3D 執行緒安全可從多個執行緒進行轉譯，但卻是非常保守的方法，因此會產生高度的同步處理負荷。 遊戲應避免此旗標。 改為建立引擎的架構，讓所有與 Direct3D 的通訊都是來自單一線程，而執行緒之間的任何通訊都會直接處理。 如需設計多執行緒遊戲的詳細資訊，請參閱[Xbox 360 和 Microsoft Windows 上多核心的編碼](/windows/desktop/DxTechArts/coding-for-multiple-cores)文章。
 
 ## <a name="use-of-rdtsc"></a>使用 RDTSC
 
 不建議使用 x86 指令 **RDTSC** 。 **RDTSC** 無法在某些電源管理配置上正確計算時間，以動態方式變更 CPU 頻率，並在許多多核心 cpu 上，不會在核心之間同步處理迴圈計數器。 遊戲應改為使用 [**QueryPerformanceCounter**](/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter) API。 如需有關 **RDTSC** 的問題，以及使用 **QueryPerformanceCounter** 來執行高解析度計時的詳細資訊，請參閱 [遊戲計時和多核心處理器](/windows/desktop/DxTechArts/game-timing-and-multicore-processors)一文。
 
- 
+ 
 
- 
+ 

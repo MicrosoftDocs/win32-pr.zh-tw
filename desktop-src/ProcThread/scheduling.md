@@ -4,12 +4,12 @@ ms.assetid: 45e53a49-7c9f-4be5-bb97-d49b4283743e
 title: 排程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6719485215e3562d21cd50a8554d64d9744d324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6e0d0cf13fac1cf19df36152d662436ecfbeb478d4d080924222d84d2f36ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793195"
 ---
 # <a name="scheduling"></a>排程
 

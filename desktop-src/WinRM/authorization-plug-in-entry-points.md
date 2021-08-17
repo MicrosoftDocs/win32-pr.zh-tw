@@ -5,12 +5,12 @@ ms.assetid: 6cbfa79a-b57b-44b8-a421-d5e79c1b3757
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ee0db76457860106e51bd6c29cead3d0f8227d7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d16ca861df6b6546920aaf3f778c61117776ff3861556377b280c990c03711fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "107001085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324076"
 ---
 # <a name="authorization-plug-in-entry-points"></a>授權外掛程式進入點
 

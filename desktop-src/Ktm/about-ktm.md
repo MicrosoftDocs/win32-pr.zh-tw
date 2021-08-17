@@ -4,12 +4,12 @@ ms.assetid: 85a79698-a1ae-45a4-805e-25175034fa65
 title: 關於 KTM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd1c477c7f9ae54b86fcee03435310416b38ea8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a08aca70afbd44b1c23243239ec86839639ff46c3e16e698b65e96ff8a250b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388917"
 ---
 # <a name="about-ktm"></a>關於 KTM
 

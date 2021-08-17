@@ -1,19 +1,19 @@
 ---
 title: 選取範圍和焦點屬性和方法
-description: 就像在 Microsoft Windows 作業系統上執行之應用程式中的許多專案一樣，可存取的物件會選取並接收鍵盤焦點。 這些屬性可讓使用者與應用程式元素互動、變更值，並以其他方式操作。
+description: 如同在 Microsoft Windows 作業系統上執行的應用程式中的許多元素，可存取的物件會選取並接收鍵盤焦點。 這些屬性可讓使用者與應用程式元素互動、變更值，並以其他方式操作。
 ms.assetid: 8170fe19-f157-4d7d-8eec-d384e51f1560
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bbb5eee361707ec4876245eef5b0eb352f8dfd6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3bf5c5bc4a60e664c124e7181f998d9e0a7af6ab82ef9b2d4f030f7541d530ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745227"
 ---
 # <a name="selection-and-focus-properties-and-methods"></a>選取範圍和焦點屬性和方法
 
-就像在 Microsoft Windows 作業系統上執行之應用程式中的許多專案一樣，可存取的物件會 *選取* 並接收鍵盤 *焦點*。 這些屬性可讓使用者與應用程式元素互動、變更值，並以其他方式操作。
+如同在 Microsoft Windows 作業系統上執行的應用程式中的許多元素，可存取的物件會 *選取* 並接收鍵盤 *焦點*。 這些屬性可讓使用者與應用程式元素互動、變更值，並以其他方式操作。
 
 物件選取和物件焦點之間有一些主要差異：
 
@@ -31,12 +31,12 @@ Microsoft Active Accessibility 會公開以 Microsoft Win32 功能表 Api 和資
 > [!Note]  
 > Microsoft Active Accessibility 不支援選取 [編輯] 和 [rich edit] 控制項中包含的文字，因為文字會在這些控制項的 [ [**值**](value-property.md) ] 屬性中公開為單一字串。
 
- 
+ 
 
 ## <a name="in-this-section"></a>本節內容
 
 -   [選取子物件](selecting-child-objects.md)
 
- 
+ 
 
- 
+ 

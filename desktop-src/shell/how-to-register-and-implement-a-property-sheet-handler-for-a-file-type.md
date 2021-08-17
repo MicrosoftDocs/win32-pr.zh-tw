@@ -3,12 +3,12 @@ description: 當使用者以滑鼠右鍵按一下檔案類型的成員來顯示 
 title: 如何註冊及執行檔案類型的屬性工作表處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77cf54886f7819fa910da23393c6db488ddfee72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ce0451071ba1f454ffae9ca1444f30428909946442f5aead853e74095d0c0c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049804"
 ---
 # <a name="how-to-register-and-implement-a-property-sheet-handler-for-a-file-type"></a>如何註冊及執行檔案類型的屬性工作表處理常式
 
@@ -18,7 +18,7 @@ ms.locfileid: "104991555"
 
 ### <a name="technologies"></a>技術
 
--   殼層
+-   Shell
 
 ### <a name="prerequisites"></a>必要條件
 

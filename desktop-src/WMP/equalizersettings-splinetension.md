@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 656e2a42504c87861f713a9e504a85a6727dff32
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0fa964380b669dd05006e2cca7b0877ca0a9d289e4a29c6e2ba17383e6145eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748673"
 ---
 # <a name="equalizersettingssplinetension"></a>EQUALIZERSETTINGS.splineTension
 

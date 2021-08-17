@@ -4,12 +4,12 @@ ms.assetid: f1e2e864-fa10-4058-ba56-faa0ba7363a1
 title: 大小可變大小的資料結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 873fcbaa1e4e3bda772d92ad2de9b1f6258363cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 182e349079abbce93f533b1b6cd299ab7e0e883d71e9b845dfdaf52bf0275ce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760193"
 ---
 # <a name="variably-sized-data-structures"></a>大小可變大小的資料結構
 

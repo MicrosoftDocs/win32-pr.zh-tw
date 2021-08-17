@@ -1,28 +1,28 @@
 ---
-description: 學習何時發生事件
+description: Learning當事件發生時
 ms.assetid: 4e44089b-676b-4220-9721-54ddf56bf760
-title: 學習何時發生事件
+title: Learning當事件發生時
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19ed537430fd66818687b142f059399292c923e1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 58696055bdf1e3cbf3cf36c4db4ae2258bda334956fcaa14f33eda96db249773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118397214"
 ---
-# <a name="learning-when-an-event-occurs"></a>學習何時發生事件
+# <a name="learning-when-an-event-occurs"></a>Learning當事件發生時
 
-若要處理 DirectShow 事件，應用程式需要一種方法來找出佇列中的事件何時等候。 篩選圖形管理員提供兩種方式來執行此作業：
+若要處理 DirectShow 事件，應用程式需要一種方法來找出佇列中的事件正在等待的時間。 篩選 Graph 管理員提供兩種方式來執行此作業：
 
--   **視窗通知：** 每當有新的事件時，篩選圖形管理員就會將使用者定義的 Windows 訊息傳送至應用程式視窗。
--   **事件信號：** 如果佇列中有 DirectShow 事件，篩選圖形管理員會通知 Windows 事件，如果佇列是空的，則會重設事件。
+-   **視窗通知：** 篩選 Graph 管理員會在每次有新事件時，將使用者定義的 Windows 訊息傳送至應用程式視窗。
+-   **事件信號：** 如果佇列中有 DirectShow 的事件，篩選 Graph 管理員會通知 Windows 事件，如果佇列是空的，則會重設事件。
 
 應用程式可以使用這兩種技術。 視窗通知通常更簡單。
 
 **視窗通知**
 
-若要設定視窗通知，請呼叫 [**IMediaEventEx：： SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) 方法，並指定私用訊息。 應用程式可以使用來自 WM 應用程式透過0xBFFF 的範圍中的訊息編號 \_ 作為私用訊息。 每當篩選圖形管理員在佇列中放置新的事件通知時，就會將此訊息張貼至指定的視窗。 應用程式會從視窗的訊息迴圈內回應訊息。
+若要設定視窗通知，請呼叫 [**IMediaEventEx：： SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) 方法，並指定私用訊息。 應用程式可以使用來自 WM 應用程式透過0xBFFF 的範圍中的訊息編號 \_ 作為私用訊息。 每當篩選 Graph 管理員在佇列中放置新的事件通知時，就會將此訊息張貼至指定的視窗。 應用程式會從視窗的訊息迴圈內回應訊息。
 
 下列程式碼範例顯示如何設定通知視窗。
 
@@ -34,7 +34,7 @@ pEvent->SetNotifyWindow((OAHWND)g_hwnd, WM_GRAPHNOTIFY, 0);
 
 
 
-此訊息是一般的 Windows 訊息，而且會與 DirectShow 事件通知佇列分開張貼。 這種方法的優點是大部分的應用程式都已執行訊息迴圈。 因此，您可以納入 DirectShow 事件處理，而不需要執行其他工作。
+訊息是一般的 Windows 訊息，而且會與 DirectShow 事件通知佇列分開張貼。 這種方法的優點是大部分的應用程式都已執行訊息迴圈。 因此，您可以併入 DirectShow 事件處理，而不需要執行其他工作。
 
 下列程式碼範例顯示如何回應通知訊息的大綱。 如需完整的範例，請參閱 [回應事件](responding-to-events.md)。
 
@@ -61,14 +61,14 @@ LRESULT CALLBACK WindowProc( HWND hwnd, UINT msg, UINT wParam, LONG lParam)
 
 **事件信號**
 
-篩選圖形管理員會保留手動重設事件，以反映事件佇列的狀態。 如果佇列包含暫止的事件通知，則篩選圖形管理員會發出手動重設事件的信號。 如果佇列是空的，則呼叫 [**IMediaEvent：： GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) 方法會重設事件。 應用程式可以使用此事件來判斷佇列的狀態。
+篩選 Graph 管理員會保留手動重設事件，以反映事件佇列的狀態。 如果佇列包含暫止的事件通知，則篩選 Graph 管理員會發出手動重設事件的信號。 如果佇列是空的，則呼叫 [**IMediaEvent：： GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) 方法會重設事件。 應用程式可以使用此事件來判斷佇列的狀態。
 
 > [!Note]  
-> 術語在此可能會造成混淆。 手動重設事件是由 Windows [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) 函數所建立的事件種類;與 DirectShow 所定義的事件無關。
+> 術語在此可能會造成混淆。 手動重設事件是 Windows [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa)函數所建立的事件種類;與 DirectShow 所定義的事件無關。
 
  
 
-呼叫 [**IMediaEvent：： GetEventHandle**](/windows/desktop/api/Control/nf-control-imediaevent-geteventhandle) 方法，以取得手動重設事件的控制碼。 藉由呼叫 [**WaitForMultipleObjects**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjects)之類的函式，等候事件發出信號。 通知事件之後，請呼叫 [**IMediaEvent：： GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) 來取得 DirectShow 事件。
+呼叫 [**IMediaEvent：： GetEventHandle**](/windows/desktop/api/Control/nf-control-imediaevent-geteventhandle) 方法，以取得手動重設事件的控制碼。 藉由呼叫 [**WaitForMultipleObjects**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjects)之類的函式，等候事件發出信號。 通知事件之後，請呼叫 [**IMediaEvent：： GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent)來取得 DirectShow 事件。
 
 下列程式碼範例說明此方法。 它會取得事件控制碼，然後以100毫秒的間隔等候事件收到信號。 如果事件收到信號，就會呼叫 **GetEvent** ，並將事件程式碼和事件參數列印至主控台視窗。 當執行 [**EC \_ 完成**](ec-complete.md) 事件（表示播放已完成）時，迴圈就會終止。
 

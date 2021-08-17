@@ -11,12 +11,12 @@ api_name:
 - SharedProperty
 api_type:
 - COM
-ms.openlocfilehash: a7a7857ad280ad722601bdced6c25d04b03dc0b3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9b0daa74c7329f8dc9f2566852d863715d22fd556ce3d4674dfaf246c17504b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915766"
 ---
 # <a name="sharedproperty-class"></a>SharedProperty 類別
 
@@ -46,7 +46,7 @@ ms.locfileid: "104110553"
 
 您可以使用 [**ISharedPropertyGroup**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroup)的 [**CreateProperty**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty)或 [**CreatePropertyByPosition**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition)方法來建立 **SharedProperty** 物件。
 
-若要從 Microsoft Visual Basic 使用這個類別，請新增 COM + 服務類型程式庫的參考。 SharedProperty 物件是藉由呼叫 [**SharedPropertyGroup**](sharedpropertygroup.md)物件的 [**CreateProperty**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty)或 [**CreatePropertyByPosition**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition)方法來建立。
+若要從 Microsoft Visual Basic 使用這個類別，請新增 com + 服務類型程式庫的參考。 SharedProperty 物件是藉由呼叫 [**SharedPropertyGroup**](sharedpropertygroup.md)物件的 [**CreateProperty**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty)或 [**CreatePropertyByPosition**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition)方法來建立。
 
 ## <a name="requirements"></a>規格需求
 

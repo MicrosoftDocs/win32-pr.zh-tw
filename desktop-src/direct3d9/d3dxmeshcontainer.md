@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: f57daea26f42d8dd680d0259199b0df77badf510
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 192b60c34c8a15c34a759bda8fd4f3350956003914f40578bd9c5efa54c772df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731664"
 ---
 # <a name="d3dxmeshcontainer-structure"></a>D3DXMESHCONTAINER 結構
 

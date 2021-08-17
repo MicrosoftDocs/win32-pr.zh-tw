@@ -3,7 +3,7 @@ title: 'CB_RESETCONTENT 訊息 (Winuser .h) '
 description: 從清單方塊中移除所有專案，並編輯下拉式方塊的控制項。
 ms.assetid: 55203c34-87ca-46e9-a914-a480d43ccadd
 keywords:
-- CB_RESETCONTENT message Windows 控制項
+- CB_RESETCONTENT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3567f31ef98fffe42e53c4811acc786d41ae9f78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4918437d7b0d347e071386486b31e5f4b9d948b4ff55b4c6eea6e3afe93fb1c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832246"
 ---
 # <a name="cb_resetcontent-message"></a>CB \_ RESETCONTENT 訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "103843564"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

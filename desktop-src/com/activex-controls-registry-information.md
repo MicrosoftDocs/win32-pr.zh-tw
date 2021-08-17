@@ -1,17 +1,17 @@
 ---
-title: ActiveX 控制項登錄資訊
-description: ActiveX 控制項登錄資訊
+title: ActiveX控制登錄資訊
+description: ActiveX控制登錄資訊
 ms.assetid: fda5b1e6-2048-4df7-ba8f-145652e3883c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6b180b327a4239b220185a9073ebc7bc0826c39
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 87f062c11304c50161308cc5c6e43001c23f63486e60e568f61d6335f0947380
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104508148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737382"
 ---
-# <a name="activex-controls-registry-information"></a>ActiveX 控制項登錄資訊
+# <a name="activex-controls-registry-information"></a>ActiveX控制登錄資訊
 
 有一些登錄專案和旗標會使用。 此外，控制項可以支援元件類別，以分類它們所提供的功能。
 
@@ -19,21 +19,21 @@ ms.locfileid: "104508148"
 
 ```
 HKEY_CLASSES_ROOT
-   CLSID
-      {control_CLSID}
-         ProgID = <identifier>
-         InprocServer32 = <filename>.dll
-         *DefaultIcon = <filename>.<ext>,resourceID
-         *ToolboxBitmap32 = <filename>.<ext>,resourceID
-         *Control
-         verb
-            *n = &Properties...
-         *MiscStatus = 0
-         TypeLib = {object_typelibID}
-         *Version = version_number
+   CLSID
+      {control_CLSID}
+         ProgID = <identifier>
+         InprocServer32 = <filename>.dll
+         *DefaultIcon = <filename>.<ext>,resourceID
+         *ToolboxBitmap32 = <filename>.<ext>,resourceID
+         *Control
+         verb
+            *n = &Properties...
+         *MiscStatus = 0
+         TypeLib = {object_typelibID}
+         *Version = version_number
 ```
 
-**DefaultIcon** 專案是用來識別將控制項最小化至圖示時所要顯示的圖示。 [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticona)函式是用來從取得圖示。DLL 或。指定的 EXE 檔案。
+**DefaultIcon** 專案是用來識別將控制項最小化至圖示時所要顯示的圖示。 [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticona)函式是用來從指定的 .DLL 或 .EXE 檔案取得圖示。
 
 **ToolboxBitmap32** 專案會識別 \* 要用於工具列或工具箱按鈕臉部的 16 15 點陣圖的模組名稱和資源識別碼。 標準 Windows 圖示大小太大，無法用於此用途。 此專案特別支援控制項容器，這些容器具有設計模式，其中一個會選取控制項，並將其放在設計的表單上。 例如，在 Visual Basic 中，控制項的圖示會在設計模式期間顯示于 Visual Basic 工具箱中。
 
@@ -51,6 +51,6 @@ HKEY_CLASSES_ROOT
 
 此外，在控制項的類型資訊中，屬性控制項會將 coclass 專案標記為描述控制項。
 
- 
+ 
 
- 
+ 

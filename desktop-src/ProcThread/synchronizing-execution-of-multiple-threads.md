@@ -4,12 +4,12 @@ ms.assetid: 74af0502-dae1-438c-8e4b-7663093b3fe3
 title: 同步處理多個執行緒的執行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6a1b3dd51d666d507771476792e679f7980fab8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c04a7e80f3c1d4ffdd874d9627a8212e26ee4923a5f2349bdebc4ff09299936c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793091"
 ---
 # <a name="synchronizing-execution-of-multiple-threads"></a>同步處理多個執行緒的執行
 

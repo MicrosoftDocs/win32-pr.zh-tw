@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 512bc457a84ad1d1b170ac9d31cb04e36d8a05d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be293636044e744ec02e3bdcddbc96b61373a35c9bddc04a03d282fcebe268d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118485507"
 ---
 # <a name="session-implicit-conversion-session-to-jet_sesid"></a> (會話的會話隱含轉換 JET_SESID) 
 

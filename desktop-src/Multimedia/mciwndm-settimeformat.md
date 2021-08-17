@@ -3,7 +3,7 @@ title: 'MCIWNDM_SETTIMEFORMAT 訊息 (Vfw .h) '
 description: MCIWNDM \_ SETTIMEFORMAT 訊息會設定 MCI 裝置的時間格式。 您可以使用 MCIWndSetTimeFormat 宏明確地傳送此訊息。
 ms.assetid: 7de82094-6d35-44fd-88e7-ebd18a558cfd
 keywords:
-- MCIWNDM_SETTIMEFORMAT message Windows 多媒體
+- MCIWNDM_SETTIMEFORMAT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcec1f0db5accad93211bf1eb6f1c9297e2b9f33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79620aecba07b11ed63dfc43fd2d70b41728586b36649b4b13aace9d1364197c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802892"
 ---
 # <a name="mciwndm_settimeformat-message"></a>MCIWNDM \_ SETTIMEFORMAT 訊息
 

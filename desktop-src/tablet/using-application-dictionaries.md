@@ -4,12 +4,12 @@ ms.assetid: 2ddf04dd-613b-4570-9474-0e33208c4012
 title: 使用應用程式字典
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74dfda443a688af9dfcec44a81f0e5ed2d50846c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c83013f704fe28b5754ab89fd95ed730e16d1cda5ab257d4fb411d0e7293347
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449230"
 ---
 # <a name="using-application-dictionaries"></a>使用應用程式字典
 

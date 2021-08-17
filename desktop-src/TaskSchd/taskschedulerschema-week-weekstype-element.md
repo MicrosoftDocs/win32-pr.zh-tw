@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0487aa07e1f1132c998b6cb2ba0f518a9db57ce2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a999eaa5ec7d4ed36b86fc292f4c0d5e8c474fd1df8f5f4b9da5b90f2dcca641
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106970452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117758204"
 ---
 # <a name="week-weekstype-element"></a>WeeksType) 元素 (周
 
@@ -36,7 +36,7 @@ Week 元素是由 [**weeksType**](taskschedulerschema-weekstype-complextype.md)�
 
 
 
-| 元素                                                                                                        | 衍生自                                                   | Description                                                           |
+| 元素                                                                                                        | 衍生自                                                   | 描述                                                           |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------------------|
 | [**MonthlyDayOfWeekScheduleType)  (周**](taskschedulerschema-weeks-monthlydayofweekscheduletype-element.md) | [**weeksType**](taskschedulerschema-weekstype-complextype.md) | 指定執行工作的月份周數。<br/> |
 
@@ -52,8 +52,8 @@ Week 元素是由 [**weeksType**](taskschedulerschema-weekstype-complextype.md)�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

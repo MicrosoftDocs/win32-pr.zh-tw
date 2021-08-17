@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 設定用戶端應用程式處理安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bfa0a42390ffa433cff01300b0976d40553665c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7be6b3f6e632ade53700bbe81afc7698a06fe2ff038e0c57c1b4a7eed44afa68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739466"
 ---
 # <a name="setting-client-application-process-security"></a>設定用戶端應用程式處理安全性
 

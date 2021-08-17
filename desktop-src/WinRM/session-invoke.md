@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 117c688b616f377730524a09234b1dc38a4996c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac2afa20390890c53a7362d776c1df7c84d0a638e7fcb10269c901d194a50dea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743249"
 ---
 # <a name="sessioninvoke-method"></a>Invoke 方法
 
@@ -60,7 +60,7 @@ Session.Invoke( _
 
 此參數可包含下列其中一項：
 
--   具有或不含 [*選取器*](windows-remote-management-glossary.md)的 URI。 在下列 Visual Basic Scripting Edition (VBScript) 範例中，是由指定索引鍵 `Win32_Service?Name=winmgmt` 。
+-   具有或不含 [*選取器*](windows-remote-management-glossary.md)的 URI。 在下列 Visual Basic 腳本撰寫版 (VBScript) 範例中，則是由指定索引鍵 `Win32_Service?Name=winmgmt` 。
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/" _ 
@@ -204,7 +204,7 @@ End Sub
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
@@ -214,7 +214,7 @@ End Sub
 
 <dl> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ description: ComboBoxEx 控制項是下拉式方塊控制項，可提供專案�
 ms.assetid: a4b1aa79-40c4-4eff-801c-4f308d86fb35
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 427abef015474047d1842d13e5fb40640d0406c5
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 993fa8db73246c62f8ceee805e767c13ffdcc15a12d0222e09f308324cc97bab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831834"
 ---
 # <a name="about-comboboxex-controls"></a>關於 ComboBoxEx 控制項
 
@@ -49,7 +49,7 @@ ComboBoxEx 控制項僅支援下列 ComboBox 樣式：
 > [!Note]  
 > 在某些情況下， [**CBS \_ 簡單**](combo-box-styles.md) 樣式可能無法正常運作。
 
- 
+ 
 
 由於 ComboBoxEx 控制項會根據指派的影像清單，為您執行「擁有者」繪製工作，因此會隱含 [**CBS \_ OWNERDRAWFIXED**](combo-box-styles.md) 樣式; 您在建立控制項時不需要使用它。 因為影像清單是用來提供專案圖形，所以無法使用 [**CBS \_ OWNERDRAWVARIABLE**](combo-box-styles.md) 樣式。 ComboBoxEx 控制項也支援 [ComboBoxEx 控制項擴充樣式](comboboxex-control-extended-styles.md) ，以提供額外的功能。
 
@@ -75,7 +75,7 @@ ComboBoxEx 控制項支援回呼專案屬性。 當您使用 [**CBEM \_ INSERTIT
 
 
 
- 
+ 
 
 控制項將會透過傳送 [CBEN \_ GETDISPINFO](cben-getdispinfo.md) 通知碼來要求回呼專案的相關資訊。 此通知會以 [**WM \_ 通知**](wm-notify.md) 訊息的形式傳送。 當您的應用程式處理此訊息時，它必須提供控制項要求的資訊。 如果您將隨附 [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema)結構的 **mask** 成員設定為 CBEIF \_ DI \_ SETITEM，控制項將會儲存專案資料，而且不會再次要求它。
 
@@ -88,7 +88,7 @@ ComboBoxEx 控制項支援回呼專案屬性。 當您使用 [**CBEM \_ INSERTIT
 > [!Note]  
 > 如果您使用 [**CBS \_ 簡單**](combo-box-styles.md) 樣式，則不會顯示圖示。
 
- 
+ 
 
 ## <a name="about-comboboxex-control-notification-messages"></a>關於 ComboBoxEx 控制通知訊息
 
@@ -108,7 +108,7 @@ ComboBoxEx 控制項會傳送通知訊息，以在本身或要求回呼專案資
 
 
 
- 
+ 
 
 ## <a name="comboboxex-control-message-forwarding"></a>ComboBoxEx 控制訊息轉送
 
@@ -139,6 +139,6 @@ ComboBoxEx 控制項會傳送通知訊息，以在本身或要求回呼專案資
 -   [**WM \_命令**](/windows/desktop/menurc/wm-command) (其中包含所有 CBN \_ 通知。 ) 
 -   [**WM \_ 通知**](wm-notify.md)
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: ffcbd59e-63ea-4df3-9db9-e7d4634eefeb
 title: 附錄 B： IP 版本中立的原始程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 333e344376695122ebcd650ebf2595d70afbf7ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37daf34b4a7d46a2fb8fc3cbaf5aed6cf7e054a3fb0147de8d86a643a9e4f59f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741605"
 ---
 # <a name="appendix-b-ip-version-agnostic-source-code"></a>附錄 B： IP 版本中立的原始程式碼
 

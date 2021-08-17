@@ -4,12 +4,12 @@ description: 元件類別及其運作方式
 ms.assetid: efbf4a25-3c73-4d09-a172-6676c6d6501b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faf8065584ae2dc83e470428b7345eb2d9321d32
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ddfd5580e12ce3d4a44ca251142e29f6eea8f9f5823cf18999f876a4ef732d09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737014"
 ---
 # <a name="component-categories-and-how-they-work"></a>元件類別及其運作方式
 
@@ -43,9 +43,9 @@ ms.locfileid: "103931908"
 [元件類別](component-categories.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

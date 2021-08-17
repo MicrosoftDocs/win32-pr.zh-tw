@@ -5,12 +5,12 @@ ms.assetid: 5df52696-ac2c-42b7-8b0f-99a27b58575b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8417289a218203dbdaee288ff03096d894f4bd4d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 584eb15c4b235a006b52551de8f9999ddb65459412af68db81f0500a0828888b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743222"
 ---
 # <a name="session-constants"></a>會話常數
 
@@ -61,9 +61,9 @@ iFlags = Wsman.SessionFlagUseNegotiate Or Wsman.SessionFlagCredUserNamePassword
 [遠端連線的驗證](authentication-for-remote-connections.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

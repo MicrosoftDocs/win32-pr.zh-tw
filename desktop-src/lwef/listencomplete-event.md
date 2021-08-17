@@ -4,16 +4,16 @@ description: ListenComplete 事件
 ms.assetid: 29e3f424-17b4-4287-b644-ed62b80e0035
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dbfe0fac272b50af3f82efdc8a422bebddbf786
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d25e9bfbf23c6a2911c718b576c99395ef06fd802853b39b699384a9ab92429b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883890"
 ---
 # <a name="listencomplete-event"></a>ListenComplete 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

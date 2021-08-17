@@ -14,12 +14,12 @@ api_type:
 api_location:
 - FrameDynOS.dll
 - FrameDyn.dll
-ms.openlocfilehash: 187c07b5cf0f867ee838f2f3725d6a82319d4634
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f53081c284ea60f77039b12c6bb43928ea45c306a0ddfbb1cc6e8c804661c3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925774"
 ---
 # <a name="cinstancesetchstring-methods"></a>CInstance：： SetCHString 方法
 

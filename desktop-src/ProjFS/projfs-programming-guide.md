@@ -4,12 +4,12 @@ description: 有關執行 ProjFS 提供者應用程式的概念資訊。
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: 86c6f49eaf9da578226031eaf84abff7ebb059c0
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: d935c99b73e11a2110e739a4e45fdde0f7a24300a2664a2b25d6217bd2235fa9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792541"
 ---
 # <a name="projected-file-system-projfs-programming-guide"></a>投射的檔案系統 (ProjFS) 程式設計指南
 
@@ -28,7 +28,7 @@ Windows 投射的檔案系統 (ProjFS) 允許名為「提供者」的使用者�
 | [檔案系統作業通知](file-system-operation-notifications.md)                               | 描述提供者如何接收檔案系統作業的通知。
 | [處理視圖變更](handling-view-changes.md)                                                           | 說明如何更新提供者備份存放區的用戶端視圖。
 | [非同步回呼處理](asynchronous-callback-handling.md)                                         | 描述提供者如何以非同步方式服務回呼。
-| [Windows 投射的檔案系統 API 參考](/windows/desktop/api/_projfs) | ProjFS 程式設計介面的參考資訊。
+| [Windows預計的檔案系統 API 參考](/windows/desktop/api/_projfs) | ProjFS 程式設計介面的參考資訊。
 
 ## <a name="additional-resources"></a>其他資源
 

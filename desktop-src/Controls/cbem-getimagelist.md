@@ -3,7 +3,7 @@ title: 'CBEM_GETIMAGELIST 訊息 (Commctrl .h) '
 description: 取得指派給 ComboBoxEx 控制項之影像清單的控制碼。
 ms.assetid: d577f920-b8f7-4d51-9507-765b7f925408
 keywords:
-- CBEM_GETIMAGELIST message Windows 控制項
+- CBEM_GETIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d143b8483fb5fb97ebd65fa2a98640089f6d548
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2564739a1904f93c9b1837a1afce2ae73645675ce04818fc9e76ea2ee38946f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118414078"
 ---
 # <a name="cbem_getimagelist-message"></a>CBEM \_ GETIMAGELIST 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "106965108"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

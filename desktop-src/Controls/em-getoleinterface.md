@@ -3,7 +3,7 @@ title: 'EM_GETOLEINTERFACE 訊息 (Richedit .h) '
 description: 抓取 IRichEditOle 物件，此物件可讓用戶端用來存取 rich edit 控制項的元件物件模型， (COM) 功能。
 ms.assetid: fa462c7b-29b9-4694-b7ad-6068c69ffb76
 keywords:
-- EM_GETOLEINTERFACE message Windows 控制項
+- EM_GETOLEINTERFACE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d7557d40c6dcec38ce629d949a8db9915714821
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4e1799039081ed8250cb062aa3d1348a2fe8a8dbdcfa768fab74855d18d8e9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831669"
 ---
 # <a name="em_getoleinterface-message"></a>EM \_ GETOLEINTERFACE 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104104819"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

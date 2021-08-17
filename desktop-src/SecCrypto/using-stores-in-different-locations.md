@@ -4,16 +4,16 @@ ms.assetid: bfb7ff48-1d6b-404f-9dd4-6de1898354b7
 title: 使用不同位置的商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e22fa4d4eca4748d6c4652a8b33d22a1db492a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e57e1c1584754f0b02b61438a7a6a83694c36cd77c633c52f6bec216721d7c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971404"
 ---
 # <a name="using-stores-in-different-locations"></a>使用不同位置的商店
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 下列範例示範使用 [**存放區**](store.md) 物件的各個層面。 它會顯示 CAPICOM 記憶體存放區中的開啟存放區 \_ \_ 、capicom \_ 目前 \_ \_ 的使用者存放區，以及 capicom \_ 本機 \_ 電腦 \_ 存放區的位置。
 

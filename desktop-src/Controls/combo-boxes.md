@@ -1,17 +1,17 @@
 ---
-title: " (Windows 控制項的下拉式方塊) "
+title: '下拉式方塊 (Windows 控制項) '
 description: 本章節包含與下拉式方塊搭配使用之程式設計項目的相關資訊。 下拉式方塊是下拉式方塊類別所定義的唯一控制項類型，結合了清單方塊和編輯控制項的大部分功能。
 ms.assetid: vs|controls|~\controls\comboboxes\comboboxes.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5ab64b07539f19c640a41710eca93ab544fac6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 62c133237bd10f2412dcdfad6ea6ab2148e487e4b25f57b5559276de961dbcf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832209"
 ---
-# <a name="combo-box-windows-controls"></a> (Windows 控制項的下拉式方塊) 
+# <a name="combo-box-windows-controls"></a>下拉式方塊 (Windows 控制項) 
 
 本章節包含與下拉式方塊搭配使用之程式設計項目的相關資訊。 下拉式方塊是 *下拉式* 方塊類別所定義的唯一控制項類型，結合了清單方塊和編輯控制項的大部分功能。
 

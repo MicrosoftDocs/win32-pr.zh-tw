@@ -4,12 +4,12 @@ description: 本主題包含範例程式碼，示範如何使用 IUIAutomationTr
 ms.assetid: 41ca783d-56d1-4ad5-8f07-c265ff2e07bd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed5c6c1bec961d4f0df83687cd19eecba6ed179
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16fe6539a24f271f5c1e8042b1be9933a77f1118b27730d510026de1852d7938
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324446"
 ---
 # <a name="how-to-walk-the-ui-automation-tree"></a>如何逐步進行消費者介面自動化樹狀結構
 
@@ -162,9 +162,9 @@ cleanup:
 [消費者介面自動化用戶端的使用說明主題](uiauto-howto-topics-for-uiautomation-clients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

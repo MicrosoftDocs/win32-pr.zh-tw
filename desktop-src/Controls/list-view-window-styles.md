@@ -33,12 +33,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cae95bdb8dc1263b485f0bd2c50a8124dd57fc3a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3e326f4508d08f1052747e64ea5eba184f45f7e73a1cb55539255a27fd8c8c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412023"
 ---
 # <a name="list-view-window-styles"></a>List-View 視窗樣式
 

@@ -8,12 +8,12 @@ keywords:
 - Active Directory Domain Services Active Directory，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b010710a647beb46976e1b85d5be9dadb851999
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: d2672ad2be33c553ce484dc6c90c12c8e75e5d6d7d78815e813f2a0dfa9c938f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118025255"
 ---
 # <a name="active-directory-domain-services-reference"></a>Active Directory Domain Services 參考
 
@@ -31,6 +31,6 @@ ms.locfileid: "104462949"
 
 若要查看 Active Directory 架構的線上參考頁面，請參閱 [Active Directory 架構](/windows/desktop/ADSchema/active-directory-schema)。 如需有關 Active Directory Domain Services 觀點來 Active Directory 架構的總覽資訊，請參閱 [Active Directory 架構](active-directory-schema.md)。
 
- 
+ 
 
- 
+ 

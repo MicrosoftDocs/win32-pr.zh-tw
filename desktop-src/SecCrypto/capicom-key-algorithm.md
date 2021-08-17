@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: e72f19c6449729dca7d8c395596823214824ae44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4952f11129763d4a60a65d49863f1a311f8f9ede968d6dffdc0337ca715acc0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772453"
 ---
 # <a name="capicom_key_algorithm-enumeration"></a>CAPICOM \_ 金鑰 \_ 演算法列舉
 

@@ -4,12 +4,12 @@ ms.assetid: bf06dd91-b0e8-434e-8551-6a2a659b8093
 title: System.string
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f66fc185e53ef6f9024d82f5f9305e486ba00f5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90636a7a68f356def83d8c9bf7e0042ceeaa0e43d6002145853aada7ef6d8c25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054017"
 ---
 # <a name="systemdevicesipaddress"></a>System.string
 

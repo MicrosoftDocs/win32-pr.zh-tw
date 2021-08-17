@@ -4,12 +4,12 @@ ms.assetid: CB05B5F8-BE15-4BE0-A651-F6E8912D649D
 title: '介面 (Windows 執行階段) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f627a77f91417b16d8bfc3e940036910003c40f0
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 468944bcd2437309d953fe53e64e36366ca0cd7ac6ad4d8c32aa9c8d71f91ca7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "107001237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741642"
 ---
 # <a name="interfaces"></a>介面
 
@@ -42,11 +42,11 @@ ms.locfileid: "107001237"
 | [**ICompositionGraphicsDeviceInterop**](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiongraphicsdeviceinterop) | 原生互通性介面，可讓您取得及設定圖形裝置。 |
 | [**IContactManagerInterop**](/previous-versions//dn302109(v=vs.85)) | 可存取管理多個視窗的應用程式中的 [**ContactManager**](/uwp/api/Windows.ApplicationModel.Contacts.ContactManager?view=winrt-19041) 方法。 |
 | [**ICoreApplication**](/previous-versions//hh438365(v=vs.85)) | 可讓應用程式處理狀態變更、管理 windows，以及與各種 UI 架構整合。 |
-| [**ICoreApplicationExit**](/previous-versions//hh438366(v=vs.85)) | 提供 Windows Store 應用程式停止執行的方法。 |
+| [**ICoreApplicationExit**](/previous-versions//hh438366(v=vs.85)) | 提供 Windows 存放區應用程式停止執行的方法。 |
 | [**ICoreApplicationInitialization**](/previous-versions//hh438370(v=vs.85)) | 包含用來從應用程式進入點啟動應用程式物件的 run 方法。 |
 | [**ICoreApplicationView**](/previous-versions//hh438372(v=vs.85)) | 表示應用程式的視圖。 |
 | [**ICoreImmersiveApplication**](/previous-versions//hh438382(v=vs.85)) | 包含在應用程式中管理檢視的方法。 |
-| [**ICoreInputInterop**](/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop) | 在 Windows Store 應用程式的 [**CoreInput**](https://www.bing.com/search?q=**CoreInput**) 物件上啟用輸入來源。 |
+| [**ICoreInputInterop**](/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop) | 在 Windows 存放區應用程式的 [**CoreInput**](https://www.bing.com/search?q=**CoreInput**)物件上啟用輸入來源。 |
 | [**ICoreWindowInterop**](/windows/desktop/api/corewindow/nn-corewindow-icorewindowinterop) | 讓應用程式取得與此介面相關聯 ([**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow?view=winrt-19041)) 視窗 handleof 視窗。 |
 | [**IDllServerActivatableClassRegistration**](/windows/win32/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration) | 允許取得同進程伺服器的註冊資訊。 |
 | [**IErrorReportingSettings**](/previous-versions//br205818(v=vs.85)) | 提供 Windows 執行階段應用程式的偵錯工具整合。 |
@@ -80,9 +80,9 @@ ms.locfileid: "107001237"
 | [**IOplockBreakingHandler**](/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-ioplockbreakinghandler) | 目前未執行這個介面。 |
 | [**IOutputStream**](/previous-versions//hh438390(v=vs.85)) | 可讓您在連續的位元組資料流程上取得非同步寫入器作業。 |
 | [**IPdfRendererNative**](/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative) | 代表高效能 API，用來顯示可攜檔案格式的單一頁面 (PDF) 檔。 |
-| [**IPackageDebugSettings**](/previous-versions//hh438393(v=vs.85)) | 讓偵錯工具開發人員能夠控制 Windows Store 應用程式的生命週期，例如暫停或繼續。 |
-| [**IPlayToManagerInterop**](/windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop) | 可在管理多個視窗的 Windows Store 應用程式中，存取 [**PlayToManager**](/uwp/api/Windows.Media.PlayTo.PlayToManager?view=winrt-19041) 方法。 |
-| [**IPrintManagerInterop**](/windows/desktop/api/printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop) | 可在管理多個視窗的 Windows Store 應用程式中，存取 [**PrintManager**](/uwp/api/Windows.Graphics.Printing.PrintManager?view=winrt-19041) 方法。 |
+| [**IPackageDebugSettings**](/previous-versions//hh438393(v=vs.85)) | 可讓偵錯工具開發人員控制 Windows 存放區應用程式的生命週期，例如暫停或繼續。 |
+| [**IPlayToManagerInterop**](/windows/desktop/api/playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop) | 可存取管理多個視窗的 Windows 存放區應用程式中的 [**PlayToManager**](/uwp/api/Windows.Media.PlayTo.PlayToManager?view=winrt-19041)方法。 |
+| [**IPrintManagerInterop**](/windows/desktop/api/printmanagerinterop/nn-printmanagerinterop-iprintmanagerinterop) | 可存取管理多個視窗的 Windows 存放區應用程式中的 [**PrintManager**](/uwp/api/Windows.Graphics.Printing.PrintManager?view=winrt-19041)方法。 |
 | [**IPropertyValue**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) | 表示 Windows 執行階段屬性存放區中的值。 |
 | [**IPropertyValueStatics**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics) | 建立可儲存在屬性存放區中的 [**IPropertyValue**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) 物件。 |
 | [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) | 允許取得位於隨機存取位元組資料流程上指定位置的非同步位元組讀取器或位元組寫入器。 |

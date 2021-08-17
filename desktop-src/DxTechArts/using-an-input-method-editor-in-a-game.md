@@ -4,17 +4,17 @@ description: 本文說明如何在全螢幕 Microsoft DirectX 應用程式中，
 ms.assetid: 760ed960-08a3-e967-282e-7fbdbaeb7a4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a119c5933aae14e2d3e45085dafa241a4dcb11e1
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 195d3272c4051adbafc25d910f01ac98ec036cead314c7f7b04301528508a494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118396420"
 ---
 # <a name="using-an-input-method-editor-in-a-game"></a>在遊戲中使用輸入法編輯器
 
 > [!Note]  
-> 本文詳細說明如何使用 Windows XP 輸入法編輯器 (IME) 。 針對 Windows Vista 的 IME 進行了變更，但這篇文章並未完整詳述。 如需 Windows Vista 的輸入法變更的詳細資訊，請參閱 Windows Vista 中的 [輸入法編輯器 (ime) ](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx#e4eac) -Microsoft 全球開發和運算入口網站上的 [國際化 Ever-Expanding 視圖](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx) 。
+> 本文詳細說明如何使用 Windows XP 輸入法編輯器 (IME) 。 針對 Windows Vista 的 IME 進行的變更，在本文中未完全詳述。 如需 Windows vista 之 ime 變更的詳細資訊，請參閱 Windows Vista 中的[輸入法編輯器 (ime) ](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx#e4eac) -Microsoft 全球開發和運算入口網站上[的國際化 Ever-Expanding 觀點](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx)。
 
  
 
@@ -44,7 +44,7 @@ ms.locfileid: "113118673"
 -   [轉譯](#rendering)
     -   [輸入地區設定指標](#input-locale-indicator)
     -   [撰寫視窗](#composition-window)
-    -   [讀取和候選視窗](#reading-and-candidate-windows)
+    -   [讀取和候選 Windows](#reading-and-candidate-windows)
 -   [限制](#limitations)
 -   [登錄資訊](#registry-information)
 -   [附錄 A：每個作業系統的 CHT 版本](#appendix-a-cht-versions-per-operating-system)
@@ -54,13 +54,13 @@ ms.locfileid: "113118673"
 
 ## <a name="default-ime-behavior"></a>預設 IME 行為
 
-Ime 會將鍵盤輸入對應至所選語言特定的語音元件或其他語言元素。 在一般案例中，使用者會輸入代表複雜字元發音的按鍵。 如果 IME 將發音辨識為有效，則會向使用者顯示一份單字或片語候選人清單，讓使用者可以從中選取最後的選項。 選擇的單字接著會透過一系列 Microsoft Windows [**WM \_ CHAR**](/windows/desktop/inputdev/wm-char) 訊息傳送至應用程式。 因為 IME 會在應用程式下方的某個層級上運作，藉由攔截鍵盤輸入，因此，IME 是否存在於應用程式中是透明的。 幾乎所有 Windows 應用程式都可以立即利用 Ime，而不需要知道它們是否存在，也不需要特殊的編碼。
+Ime 會將鍵盤輸入對應至所選語言特定的語音元件或其他語言元素。 在一般案例中，使用者會輸入代表複雜字元發音的按鍵。 如果 IME 將發音辨識為有效，則會向使用者顯示一份單字或片語候選人清單，讓使用者可以從中選取最後的選項。 選擇的單字接著會透過一系列 Microsoft Windows [**WM \_ CHAR**](/windows/desktop/inputdev/wm-char)訊息傳送至應用程式。 因為 IME 會在應用程式下方的某個層級上運作，藉由攔截鍵盤輸入，因此，IME 是否存在於應用程式中是透明的。 幾乎所有的 Windows 應用程式都可以在不知道是否存在且不需要特殊編碼的情況下，隨時利用 ime。
 
 一般的 IME 會顯示數個視窗，以引導使用者完成字元輸入，如下列範例所示。
 
 ![ime 會顯示數個視窗](images/ime-elements.png)
 
-| 視窗類型                                       | 描述                                                                                                                                                                                                                                                                                                                 | IME 輸出                                   |
+| 視窗類型                                       | Description                                                                                                                                                                                                                                                                                                                 | IME 輸出                                   |
 |---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
 | A. 讀取視窗                                 | 包含鍵盤的按鍵;通常會在每次擊鍵之後變更。                                                                                                                                                                                                                                              | 讀取字串                               |
 | B. 撰寫視窗                             | 包含使用者使用 IME 所撰寫的字元集合。 這些字元是由應用程式頂端的 IME 所繪製。 當使用者將組合字元串通知給 IME 時，IME 接著會透過一系列的 WM 字元訊息，將撰寫字串傳送給應用程式 \_ 。 | 組合字元串                           |
@@ -83,7 +83,7 @@ CDXUTIMEEditBox 會在下列 DXUT 程式碼中執行：
 
 ## <a name="overriding-the-default-ime-behavior"></a>覆寫預設的 IME 行為
 
-輸入法通常會使用標準的 Windows 程式來建立視窗 (請參閱 [使用 Windows](/windows/desktop/winmsg/using-windows)) 。 在正常情況下，這會產生令人滿意的結果。 不過，當應用程式在全螢幕模式下呈現時（如同遊戲的常見），標準 windows 將不再運作，而且可能不會顯示在應用程式的最上層。 若要解決這個問題，應用程式必須繪製 IME 視窗本身，而不是依賴 Windows 來執行這項工作。
+IME 通常會使用標準 Windows 程式來建立視窗 (請參閱[使用 Windows](/windows/desktop/winmsg/using-windows)) 。 在正常情況下，這會產生令人滿意的結果。 不過，當應用程式在全螢幕模式下呈現時（如同遊戲的常見），標準 windows 將不再運作，而且可能不會顯示在應用程式的最上層。 若要解決這個問題，應用程式必須繪製 IME 視窗本身，而不是依賴 Windows 來執行這項工作。
 
 當預設的 IME 視窗建立行為未提供應用程式所需的行為時，應用程式可以覆寫 IME 視窗處理。 應用程式可以藉由處理輸入法相關的訊息，並呼叫 [輸入方法管理員](/windows/desktop/Intl/input-method-manager) (IMM) API 來達到此目的。
 
@@ -224,7 +224,7 @@ unicode = IsNT() ? TRUE : FALSE;
 
 為了讓應用程式支援 IME，IME 相關訊息 WM ime SETCONTEXT 需要進行特殊處理 \_ \_ 。 因為 Windows 通常會在呼叫 PanoramaInitialize () 方法之前將此訊息傳送至應用程式，所以全景沒有機會處理 UI 來顯示候選清單視窗。
 
-下列程式碼片段會將 Windows 應用程式指定為不顯示任何與候選清單視窗相關聯的 UI，讓全景可以明確地處理這個 UI。
+下列程式碼片段會指定 Windows 應用程式不會顯示任何與候選清單視窗相關聯的 UI，讓全景可以明確地處理這個 ui。
 
 ``` syntax
 case WM_IME_SETCONTEXT:
@@ -282,7 +282,7 @@ CDXUTIMEEditBox 訊息處理常式也會將 \_ bShowReadingWindow 設定為 FALS
 <thead>
 <tr class="header">
 <th>IME 命令</th>
-<th>描述</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -343,7 +343,7 @@ IME 元素和視窗的轉譯很簡單。 CDXUTIMEEditBox 可讓基類先轉譯�
 
 資料指標應針對韓文 Ime 閃爍，但不應該用於其他 Ime。 RenderComposition 會根據使用韓文 IME 時的計時器值，決定是否要顯示資料指標。
 
-### <a name="reading-and-candidate-windows"></a>讀取和候選視窗
+### <a name="reading-and-candidate-windows"></a>讀取和候選 Windows
 
 讀取和候選視窗都是由相同的 CDXUTIMEEditBox 方法 RenderCandidateReadingWindow 所呈現。 這兩個視窗都包含垂直配置的字串陣列，或是水準配置時的單一字串。 RenderCandidateReadingWindow 中的大部分程式碼都是用來放置視窗，讓視窗中的部分不會落在應用程式視窗之外，而且會被裁剪。
 
@@ -395,7 +395,7 @@ Ime 有時包含增強的功能，可改善輸入文字的便利性。 下圖顯
 | Windows 98                 | 4.2             |
 | Windows 2000               | 4.3             |
 | 未知                    | 4.4             |
-| Windows ME                 | 5.0             |
+| Windows我                 | 5.0             |
 | Office XP                  | 5.1             |
 | Windows XP                 | 5.2             |
 | 獨立 web 可下載檔案 | 6.0             |

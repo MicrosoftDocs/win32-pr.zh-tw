@@ -3,7 +3,7 @@ title: 'WM_CAP_ABORT 訊息 (Vfw .h) '
 description: WM \_ CAP \_ ABORT 訊息會停止捕捉作業。
 ms.assetid: a0479d73-8422-4833-9e8a-c262ec386f58
 keywords:
-- WM_CAP_ABORT message Windows 多媒體
+- WM_CAP_ABORT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2843e3c4d59b62f2b58be20cef63ed0dc2e79d4b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 904edb47c371ee13ed3492fd9257e3933bf2f001010d7dd2b0177a7729500813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800652"
 ---
 # <a name="wm_cap_abort-message"></a>WM \_ CAP \_ 中止訊息
 

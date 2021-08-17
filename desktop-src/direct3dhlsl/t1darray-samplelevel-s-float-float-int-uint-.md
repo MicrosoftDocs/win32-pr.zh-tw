@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6ee1248ee72044e6a7d8a688753f0a61c7fb4e60
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 5841f237e4143f3b8a7e0ab84e8fb9338dfa672a4e60b673d8acbc35f3c5f3af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104323447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117724076"
 ---
 # <a name="samplelevelsamplelevelsfloatfloatintuint-function-for-texture1darray"></a>Texture1DArray 的 SampleLevel：： SampleLevel (S、float、float、int、uint) 函數
 

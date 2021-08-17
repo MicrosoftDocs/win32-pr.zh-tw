@@ -3,7 +3,7 @@ title: 'EM_NOSETFOCUS 訊息 (Commctrl .h) '
 description: 防止單一行編輯控制項接收鍵盤焦點。 您可以使用 [編輯 NoSetFocus] 宏明確地傳送此訊息 \_ 。
 ms.assetid: aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c
 keywords:
-- EM_NOSETFOCUS message Windows 控制項
+- EM_NOSETFOCUS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b82830cda3402d2089d3421debaa7c4dbf13de5d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 02ac35a30ff3deac7e9d6d227a6e8c403e6096e272ea89067dd817add9b2426e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831191"
 ---
 # <a name="em_nosetfocus-message"></a>EM \_ NOSETFOCUS 訊息
 
@@ -65,8 +65,8 @@ ms.locfileid: "104105102"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: bd688f81-4b7c-4016-b0bd-e40782131f8e
 title: DXVA 影片處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcf5058d93ddd7c506a501eb6ca07c4661755fc8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e38da7505e8ec877c332aaeb06f884c49a9ca590b239c603d4664bbf97131c50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117879679"
 ---
 # <a name="dxva-video-processing"></a>DXVA 影片處理
 

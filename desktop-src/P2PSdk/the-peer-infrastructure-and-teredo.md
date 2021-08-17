@@ -4,12 +4,12 @@ ms.assetid: b6ac1708-fb8a-449b-b30f-c889688a4bac
 title: 對等基礎結構和 Teredo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2550d8da46339205de60c4a537d03c10940da4b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18dfa3fe075d0829358849b3783272aac74e60545c1e58e1d9bf1663738e3721
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794235"
 ---
 # <a name="the-peer-infrastructure-and-teredo"></a>對等基礎結構和 Teredo
 

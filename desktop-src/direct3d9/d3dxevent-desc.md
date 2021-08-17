@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 32e02e75d3d73569b60c466f45dace2c074a6b3e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d5569eccd5b99939cd50797ee73593ce5a2bfc8ddd60236e05218ddcca7f4383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731806"
 ---
 # <a name="d3dxevent_desc-structure"></a>D3DXEVENT \_ DESC 結構
 
@@ -49,7 +49,7 @@ typedef struct D3DXEVENT_DESC {
 
 <dl> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 類型： **[ **D3DXEVENT \_ 類型**](./d3dxevent-type.md)**

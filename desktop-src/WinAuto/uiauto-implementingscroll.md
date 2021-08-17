@@ -15,12 +15,12 @@ keywords:
 - 介面，IScrollProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b525c77a7f89f7adc95a3d90d999f8b243cfcdb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c1d1cf3c04be18f362a64e619ec4659fac58923f29e6105174057b18a580f8d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324390"
 ---
 # <a name="scroll-control-pattern"></a>捲軸控制項模式
 
@@ -66,7 +66,7 @@ ms.locfileid: "103674315"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -83,9 +83,9 @@ ms.locfileid: "103674315"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

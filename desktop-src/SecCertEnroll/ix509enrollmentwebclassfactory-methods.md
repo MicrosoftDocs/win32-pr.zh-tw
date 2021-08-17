@@ -4,12 +4,12 @@ ms.assetid: F32995D4-E928-4CB8-9C44-C250D232F6A8
 title: IX509EnrollmentWebClassFactory 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aca5fc272051542be2de1c2e15e9fe9cc643a71d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6167e92e2ea769df7b4270f3c0e40f487589bef053f366c51ec5781e66fb0726
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117775886"
 ---
 # <a name="ix509enrollmentwebclassfactory-methods"></a>IX509EnrollmentWebClassFactory 方法
 

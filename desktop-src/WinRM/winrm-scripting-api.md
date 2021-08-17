@@ -1,6 +1,6 @@
 ---
 title: WinRM 腳本 API
-description: Windows 遠端管理腳本物件會實作為 WS-Management 通訊協定之上的一層。
+description: Windows遠端系統管理腳本物件會實作為 WS-Management 通訊協定之上的一層。
 ms.assetid: bd642669-554f-40ab-bd40-235013afa077
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,20 +10,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7910213487f525b74c3d1a8819a450f95336aba1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7ce6311fe80884ab0c71e66360a2072381221b5b85a8626fda0e0104168b4f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742756"
 ---
 # <a name="winrm-scripting-api"></a>WinRM 腳本 API
 
-Windows 遠端管理腳本物件會實作為 [WS-Management 通訊協定](ws-management-protocol.md)之上的一層。 腳本物件可讓您取得資料或管理本機和遠端電腦上的 [*資源*](windows-remote-management-glossary.md) 。
+Windows遠端系統管理腳本物件會實作為[WS-Management 通訊協定](ws-management-protocol.md)之上的一層。 腳本物件可讓您取得資料或管理本機和遠端電腦上的 [*資源*](windows-remote-management-glossary.md) 。
 
 ## <a name="ws-management-objects"></a>WS-Management 物件
 
-每個腳本物件都有對應的 c + + 介面。 如需詳細資訊，請參閱 [WinRM c + + API](winrm-c---api.md) 和 [腳本（Windows 遠端管理](scripting-in-windows-remote-management.md)）。
+每個腳本物件都有對應的 c + + 介面。 如需詳細資訊，請參閱[WinRM c + + API](winrm-c---api.md)和[腳本（Windows 遠端管理](scripting-in-windows-remote-management.md)）。
 
 以下是由 WinRM 腳本 API 提供的物件。
 
@@ -60,7 +60,7 @@ Windows 遠端管理腳本物件會實作為 [WS-Management 通訊協定](ws-man
 <span id="WSMan"></span><span id="wsman"></span><span id="WSMAN"></span>[**WSMan**](wsman.md)
 </dt> <dd>
 
-提供用來建立新會話或管理已建立會話的方法和屬性。 如需詳細資訊，請參閱 [使用 Windows 遠端管理](using-windows-remote-management.md)。 對應的 c + + 介面為 [**IWSMan**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsman) 和 [**IWSManEx**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex)。
+提供用來建立新會話或管理已建立會話的方法和屬性。 如需詳細資訊，請參閱[使用 Windows 遠端管理](using-windows-remote-management.md)。 對應的 c + + 介面為 [**IWSMan**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsman) 和 [**IWSManEx**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex)。
 
 </dd> </dl>
 
@@ -77,12 +77,12 @@ Windows 遠端管理腳本物件會實作為 [WS-Management 通訊協定](ws-man
 [Windows 遠端管理中的腳本](scripting-in-windows-remote-management.md)
 </dt> <dt>
 
-[Windows 遠端管理參考](windows-remote-management-reference.md)
+[Windows遠端系統管理參考](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

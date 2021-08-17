@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1851ef138cd3dd8b7868d3243973bd119bdd3bdb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 676ad5c0be8b069e803ce55ace3fc68e36d657a3004837da6436d57b86e7bbee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117894574"
 ---
 # <a name="jet_instance_infogethashcode-method"></a>JET_INSTANCE_INFO。GetHashCode 方法
 

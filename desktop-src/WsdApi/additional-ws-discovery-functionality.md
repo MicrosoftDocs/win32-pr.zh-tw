@@ -4,12 +4,12 @@ ms.assetid: ae7eff53-c932-4cba-9e71-c60f308f0e2d
 title: 其他 WS-Discovery 功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9856605273bec9c757e0b29c389991bf061309
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a7ee4094950c51ed84724abb9eaea493f7dad7cf7803832fb6e8762fdd99811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118106776"
 ---
 # <a name="additional-ws-discovery-functionality"></a>其他 WS-Discovery 功能
 
@@ -43,7 +43,7 @@ WSDAPI 的 DPWS 裝載物件將永遠不會在訊息本文中傳送具有[XAddrs
 
 ## <a name="app_max_delay"></a>應用程式 \_ 最大 \_ 延遲
 
-DPWS 會定義應用程式 \_ 最大 \_ 延遲，這是在接收 [探查](probe-message.md) 和傳送 [ProbeMatch](probematches-message.md)之間延遲的隨機間隔（以5000毫秒為單位）。 Windows 防火牆要求 UDP 的多播要求/單播回應模型只能在4秒的防火牆視窗中運作。 因此，WSDAPI 會以2500毫秒或更短的時間傳輸回應，而不是應用程式最大延遲所描述的 5000 ms 視窗 \_ \_ 。
+DPWS 會定義應用程式 \_ 最大 \_ 延遲，這是在接收 [探查](probe-message.md) 和傳送 [ProbeMatch](probematches-message.md)之間延遲的隨機間隔（以5000毫秒為單位）。 Windows防火牆要求 UDP 的多播要求/單播回應模型只會在4秒的防火牆視窗中運作。 因此，WSDAPI 會以2500毫秒或更短的時間傳輸回應，而不是應用程式最大延遲所描述的 5000 ms 視窗 \_ \_ 。
 
 ## <a name="iana-port-reservations"></a>IANA 埠保留
 

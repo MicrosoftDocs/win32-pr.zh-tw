@@ -5,12 +5,12 @@ ms.assetid: 2442a788-2e70-44c1-9c38-901c1c18a742
 title: 'R (磁碟區陰影複製服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5846454ef5d58acf8f1c546b5e1bbce379d0b103
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31221211ee10672cd16298feb38f0005375afa5162ecc8fe5a2a92af32201bbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751363"
 ---
 # <a name="r-volume-shadow-copy-service"></a>R (磁碟區陰影複製服務) 
 

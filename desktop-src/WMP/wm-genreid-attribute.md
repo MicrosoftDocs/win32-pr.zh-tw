@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d31e54805f778a51f345c84654056391ec4052e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 52fdb409453bbdc6a30026b5d36cb35bbaeb2a21264e5049c9e5fff520aea08b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118332324"
 ---
 # <a name="wmgenreid-attribute"></a>WM/GenreID 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "107000765"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -34,7 +34,7 @@ ms.locfileid: "107000765"
 
 ID3 第2版是一種標記慣例，原本是針對 MP3 所設計。 如需詳細資訊，請參閱 [ID3 組織的網站](https://id3.org/)。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszGenreID。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszGenreID。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 
