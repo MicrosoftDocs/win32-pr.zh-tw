@@ -4,12 +4,12 @@ ms.assetid: 8655eec4-5151-4f82-b485-4dbef947df0d
 title: RANK BY 子句
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5de7f7a63e33f43ba6387cbcea44a5f5b5ae8f99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33daf4865b0f7f08689802822d8c0d5b4d38702a1cb1f813563564e001811a6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462437"
 ---
 # <a name="rank-by-clause"></a>RANK BY 子句
 

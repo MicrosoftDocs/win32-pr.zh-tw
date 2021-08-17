@@ -1,6 +1,6 @@
 ---
 title: DirectComposition 結構
-description: 本節說明 Microsoft DirectComposition \ 32 所提供的結構;Api。
+description: 本節說明 Microsoft DirectComposition \ 32 所提供的結構;API。
 ms.assetid: 5BFF3D10-6241-4A68-92BD-FE736D9F6670
 ms.topic: reference
 ms.date: 05/31/2018

@@ -30,7 +30,7 @@ ms.locfileid: "118640443"
 | KeyColumn   | [整數](integer.md)             | N   | Y        |
 | 類別    | [Text](text.md)                   | N   | Y        |
 | 集合         | [Text](text.md)                   | N   | Y        |
-| 描述 | [Text](text.md)                   | N   | Y        |
+| Description | [Text](text.md)                   | N   | Y        |
 
 
 

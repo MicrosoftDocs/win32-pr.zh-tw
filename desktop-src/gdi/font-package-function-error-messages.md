@@ -4,12 +4,12 @@ ms.assetid: 3cf7a8a1-66b2-45ca-b53d-29c80f95ff70
 title: 字型套件函數錯誤訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06bcf84f92b60351e8375df682de0c3b01c2aa1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7008707675d9b2ef3eb31229535b07b1af6000e43d1122c2929fd12988fb4ea3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761081"
 ---
 # <a name="font-package-function-error-messages"></a>字型套件函數錯誤訊息
 
@@ -48,8 +48,8 @@ ms.locfileid: "104114653"
 | 錯誤 \_ 的 \_ 合併 \_ 格式無效   | 1010  | 嘗試以錯誤的 dttf 格式合併字型失敗。                                          |
 | 錯誤 \_ 的 \_ MERGE \_ NUMGLYPHS 無效 | 1012  | 嘗試從不同的母親字型合併兩個字型的字元數不成功。            |
 | 錯誤 \_ 的 \_ 名稱無效             | 1067  | 字型套件名稱或字型名稱無效。                                                                |
-| 錯誤 \_ 的 \_ POST 無效             | 1068  | 字型包含不正確 PostScript 資訊 (張貼) 資料表。                                               |
-| 錯誤 \_ 不正確 \_ OS2              | 1069  | 字型包含不正確 OS/2 和 Windows 特定的計量 (OS/2) 表。                                    |
+| 錯誤 \_ 的 \_ POST 無效             | 1068  | 字型 (post) 資料表中包含不正確 PostScript 資訊。                                               |
+| 錯誤 \_ 不正確 \_ OS2              | 1069  | 字型包含不正確 os/2 和 Windows 特定的計量 (os/2) 資料表。                                    |
 | 錯誤 \_ 不正確 \_ VHEA             | 1070  | 字型包含不正確垂直計量標頭 (vhea) 資料表。                                              |
 | 錯誤 \_ 不正確 \_ .VMTX             | 1071  | 字型包含不正確垂直度量 (.vmtx) 資料表。                                                     |
 | 錯誤 \_ 的 \_ SIMSUN18030.TTC \_ 索引無效       | 1015  | 傳遞了不正確以零為基底的 (SIMSUN18030.TTC) 在字型檔案中的索引。                                                 |

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 39513545
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4733e1d666bdf3f938c91f437c1764811fb10f18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 522acb283022150cf6baeb8e82be3ebbe3cabbbe7c7cd50289f8d2312fbccb61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118763789"
 ---
 # <a name="jet_recsize-properties"></a>JET_RECSIZE 屬性
 
