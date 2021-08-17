@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 56afc7cb576bc469a7b6e52b63f914b35e01a594
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 317b9aa1efc6a39bf9bf192c87cd5742afea5453e2ad084ad179b32d88157e14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119480538"
 ---
 # <a name="esentinvalidtableidexception-constructor"></a>EsentInvalidTableIdException 函式
 

@@ -4,12 +4,12 @@ description: Proxy 和可存取的物件設計取決於伺服器 UI 元素的設
 ms.assetid: 83a9ff66-2fe6-4589-a187-cdaf207b02b8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9578c79f93f91834dec14808a1a1867f40b215a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0cd96056f89e1efc18da3e299a76e92c85166efd7067e54f972a69eb8786d57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118830068"
 ---
 # <a name="design-considerations-for-proxy-objects"></a>Proxy 物件的設計考慮
 
@@ -28,9 +28,9 @@ Proxy 和可存取的物件設計取決於伺服器 UI 元素的設計。 無論
 
 若為不含此樣式的水準 trackbars，當捲軸捲動方塊位於控制項的左邊時，會傳回零 (0) ;當您將 [對齊] 捲軸移至右側時，這些值就會增加。 使用 **tb \_ 反轉** 樣式時， [**IAccessible：： get \_ accValue**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accvalue) 會在 [資料列] 捲軸位於左邊時，傳回 100 (100) ; 當您將 [資料列] 捲軸向右移動時，這些值就會降低。
 
- 
+ 
 
- 
+ 
 
 
 

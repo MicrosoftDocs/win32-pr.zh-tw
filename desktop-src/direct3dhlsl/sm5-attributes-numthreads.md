@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: abcca751b58bc88ba984ac5c2210a563591d592e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f790548fb8ab629b7f6e7af345fa535d28a0d2216f570d02e851ce18618bbae2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118510117"
 ---
 # <a name="numthreads"></a>numthreads
 
@@ -42,7 +42,7 @@ X、Y 和 Z 值表示特定方向的執行緒群組大小，X Y z 的總計會 \
 
 
 
- 
+ 
 
 下圖顯示傳遞至 >id3d11devicecoNtext 的參數之間的關聯性 [**：:D ispatch**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-dispatch)、分派 (5、3、2) 、numthreads 屬性中指定的值、numthreads (10、8、3) 以及將傳遞給執行緒相關系統值的計算著色器的值 ([SV \_ GroupIndex](sv-groupindex.md)、[sv \_ DispatchThreadID](sv-dispatchthreadid.md)、[sv \_ GroupThreadID](sv-groupthreadid.md)、[sv \_ GroupID](sv-groupid.md)) 。
 
@@ -52,13 +52,13 @@ X、Y 和 Z 值表示特定方向的執行緒群組大小，X Y z 的總計會 \
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -70,6 +70,6 @@ X、Y 和 Z 值表示特定方向的執行緒群組大小，X Y z 的總計會 \
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

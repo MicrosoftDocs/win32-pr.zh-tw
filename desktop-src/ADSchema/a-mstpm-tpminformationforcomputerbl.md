@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 298f6b11ddfbad300585da45cfac96e9ccf4350d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2da1f274507aa590bb894246927c09d2e94039dc6f8a125612bc48df1a699f02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837912"
 ---
 # <a name="ms-tpm-tpm-information-for-computer-bl-attribute"></a>ms-TPM-BL 屬性的-tpm-資訊
 
@@ -52,7 +52,7 @@ ms.locfileid: "106972722"
 |------------------------|--------------|
 | 連結識別碼                | 2183         |
 | MAPI-Id                | \-           |
-| System-Only            | 對         |
+| System-Only            | 是         |
 | 是-單一值       | 否        |
 | 已編制索引             | 否        |
 | 在通用類別目錄中      | 否        |

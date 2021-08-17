@@ -11,12 +11,12 @@ keywords:
 - 點陣位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd7e7cbbaf0a22385c83569775758e24f70cd210
-ms.sourcegitcommit: b95a94ffffda33f9ebbdd41787c01866444b4cf4
+ms.openlocfilehash: f2354264ed5ad022c0657c95a31007ad33df2882d3c9ab2c44cfafeea99b53d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "103679264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485788"
 ---
 # <a name="port-code-that-needs-a-current-graphics-position"></a>需要目前圖形位置的埠程式碼
 
@@ -40,9 +40,9 @@ OpenGL 具有對應至鳶尾花 GL 目前字元位置的點陣位置概念。 �
 -   [移植區、Screenmasks 和 Scrboxes](porting-viewports--screenmasks--and-scrboxes.md)
 -   [移植裁剪平面](porting-clipping-planes.md)
 
- 
+ 
 
- 
+ 
 
 
 

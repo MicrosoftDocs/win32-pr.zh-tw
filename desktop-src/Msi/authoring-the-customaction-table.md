@@ -4,12 +4,12 @@ ms.assetid: 56828105-bd72-426d-833f-f756c577c77f
 title: 撰寫 CustomAction 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56fb7d8cf99a30200e6a5525e3516e2b888c1129
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b618da6e88718aa59483b3b25c007ff0b41eb89f6e1dc18a7eb31563632dc54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066078"
 ---
 # <a name="authoring-the-customaction-table"></a>撰寫 CustomAction 資料表
 
@@ -37,7 +37,7 @@ Windows Installer SDK 提供動態連結程式庫的 c + + 原始程式碼。 �
 
 
 
-| Name        | 資料            |
+| 名稱        | 資料            |
 |-------------|-----------------|
 | Process.dll | {*二進位資料*} |
 | Create.dll  | {*二進位資料*} |

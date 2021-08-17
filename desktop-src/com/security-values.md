@@ -4,12 +4,12 @@ description: 有幾個值會影響 COM 應用程式的安全性，包括驗證�
 ms.assetid: c5b6b821-6bc9-43a3-b540-d187efe2533d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b04c04df77932f1775c4b67579c5d08416e72034
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07e0a95da867557e7210625a5e668a6955f83fa0c9c4cb679187d2e22dcb172f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117918109"
 ---
 # <a name="security-values"></a>安全性值
 
@@ -30,9 +30,9 @@ ms.locfileid: "104300595"
 [COM 中的安全性](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

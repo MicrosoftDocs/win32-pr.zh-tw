@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 662fc8739f90eea15295b762edc446ac16677aef
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 24d7052cd7d36da8a9464cbbef142904a70f83767872dadf25fda2033fa66fa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959107"
 ---
 # <a name="chkdsk-method-of-the-win32_logicaldisk-class"></a>Win32 LogicalDisk 類別的 Chkdsk 方法 \_
 

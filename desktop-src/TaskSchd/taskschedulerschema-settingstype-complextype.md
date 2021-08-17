@@ -1,6 +1,6 @@
 ---
 title: settingsType 複雜類型
-description: 定義 (taskType) 專案之設定的子項目和排序資訊。
+description: 定義設定 (taskType) 元素的子項目和排序資訊。
 ms.assetid: dba6b82d-aaa4-4f77-aeb1-c5a8f81aec25
 keywords:
 - settingsType 複雜類型工作排程器
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a3c2b3128a35ee0e46c56d19badd431400d4d862
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a48a124230a27a0c23cc9c2a9fa983b6ef3088b8ec22e8ac03fc371caadf0f00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118356350"
 ---
 # <a name="settingstype-complex-type"></a>settingsType 複雜類型
 
-定義 [**(taskType)**](taskschedulerschema-settings-tasktype-element.md) 專案之設定的子項目和排序資訊。
+定義 [**設定 (taskType)**](taskschedulerschema-settings-tasktype-element.md)元素的子項目和排序資訊。
 
 ``` syntax
 <xs:complexType name="settingsType">
@@ -142,7 +142,7 @@ ms.locfileid: "106968185"
 | [**Hidden**](taskschedulerschema-hidden-settingstype-element.md)                                                   | boolean                                                                                           | 依預設，指定工作不會在使用者介面中顯示 (UI) 。<br/>                                                                                                                                                                                                                     |
 | [**IdleSettings**](taskschedulerschema-idlesettings-settingstype-element.md)                                       | [**idleSettingsType**](taskschedulerschema-idlesettingstype-complextype.md)                      | 指定當電腦處於閒置狀態時，工作排程器如何執行工作。<br/>                                                                                                                                                                                                                   |
 | [**MultipleInstancesPolicy**](taskschedulerschema-multipleinstancespolicy-settingstype-element.md)                 | [**multipleInstancesPolicyType**](taskschedulerschema-multipleinstancespolicytype-simpletype.md) | 指定原則，定義工作排程器處理工作之多個實例的方式。 <br/>                                                                                                                                                                                                     |
-| [**NetworkProfileName**](taskschedulerschema-networkprofilename-settingstype-element.md)                           | 字串                                                                                            | 指定網路設定檔的名稱。 當 [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) 元素設定為 **True** 時，工作排程器服務會驗證此網路的可用性。 此名稱會用於顯示用途。<br/>        |
+| [**NetworkProfileName**](taskschedulerschema-networkprofilename-settingstype-element.md)                           | string                                                                                            | 指定網路設定檔的名稱。 當 [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) 元素設定為 **True** 時，工作排程器服務會驗證此網路的可用性。 此名稱會用於顯示用途。<br/>        |
 | [**NetworkSettings**](taskschedulerschema-networksettings-settingstype-element.md)                                 | [**networkSettingsType**](taskschedulerschema-networksettingstype-complextype.md)                | 指定工作排程器服務用來取得網路設定檔的設定。 當 [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) 元素設定為 **True** 時，工作排程器服務會檢查此網路的可用性。<br/> |
 | [**優先順序**](taskschedulerschema-priority-settingstype-element.md)                                               | [**priorityType**](taskschedulerschema-prioritytype-simpletype.md)                               | 指定工作的優先權層級。<br/>                                                                                                                                                                                                                                                               |
 | [**RestartOnFailure**](taskschedulerschema-restartonfailure-settingstype-element.md)                               | [**restartType**](taskschedulerschema-restarttype-complextype.md)                                | 指定當工作因為任何原因而失敗時，工作排程器將嘗試重新開機工作。 <br/>                                                                                                                                                                                                          |
@@ -161,8 +161,8 @@ ms.locfileid: "106968185"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

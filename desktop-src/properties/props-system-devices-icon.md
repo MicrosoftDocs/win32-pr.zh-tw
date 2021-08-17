@@ -4,12 +4,12 @@ ms.assetid: cf163996-2733-4be5-9455-26376575a0b2
 title: System.Devices.Icon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b07ecf1bd9bc65ad6d92ee3a386f56687300dc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89e636cc1388c4b34a09660b94d6528fb4eea4e3122f93f26146b943528d093a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728305"
 ---
 # <a name="systemdevicesicon"></a>System.Devices.Icon
 

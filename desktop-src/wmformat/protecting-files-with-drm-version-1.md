@@ -3,8 +3,8 @@ title: 使用 DRM 第1版保護檔案
 description: 使用 DRM 第1版保護檔案
 ms.assetid: 91de1c20-e926-4ff6-b0cd-e90fc9cbaad2
 keywords:
-- Windows Media Format SDK，建立受保護的檔案
-- Windows Media Format SDK，受保護的檔案
+- Windows媒體格式 SDK，建立受保護的檔案
+- Windows媒體格式 SDK，受保護的檔案
 - Advanced Systems Format (ASF) ，建立受保護的檔案
 - ASF (Advanced Systems Format) ，建立受保護的檔案
 - Advanced Systems Format (ASF) 、受保護的檔案
@@ -17,16 +17,16 @@ keywords:
 - DRM (數位版權管理) ，WMStubDRM .lib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d3e4d1ae9c0d3835c20f75b4e61c262a85a26f4
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 6b500f3711b8c92324cbd87d4dc199a8a0bb803cba69357a23f139fb96f8281f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104314517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084535"
 ---
 # <a name="protecting-files-with-drm-version-1"></a>使用 DRM 第1版保護檔案
 
-套用這種類型的保護時，會產生僅在提出授權要求的電腦上有效的 DRM 第1版授權。 因為未設定任何金鑰或金鑰種子，所以無法使用這項技術來產生受保護內容的可移植授權。 不過，使用 Windows Media 格式 SDK 7.1 或更新版本時，授權可在 Microsoft 授權遷移服務復原。
+套用這種類型的保護時，會產生僅在提出授權要求的電腦上有效的 DRM 第1版授權。 因為未設定任何金鑰或金鑰種子，所以無法使用這項技術來產生受保護內容的可移植授權。 不過，使用 Windows 媒體格式 SDK 7.1 或更新版本時，授權可在 Microsoft 授權遷移服務復原。
 
 若要使用 DRM 第1版保護 ASF 檔案，請執行下列步驟：
 
@@ -43,7 +43,7 @@ ms.locfileid: "104314517"
 
     
 
-     
+     
 
 下列範例程式碼示範如何針對 DRM 第1版建立啟用 DRM 的寫入器，並設定 DRM 屬性。 為了清楚起見，已省略錯誤檢查。
 
@@ -99,9 +99,9 @@ hr= pWMHeaderInfo->SetAttribute( 0,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

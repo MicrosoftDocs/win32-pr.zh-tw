@@ -4,17 +4,17 @@ description: 本主題說明 DirectComposition 支援的點陣圖內容類型。
 ms.assetid: BC32CF76-D5E4-4B25-AFD5-42E8DABFA0D0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c390778fef1ee7ad96c90a8b7706fa635f3615ff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bc36253511c060b264039f27975c694272c1c916ad0067c1955fd02f00553d6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118089048"
 ---
 # <a name="bitmap-objects"></a>點陣圖物件
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 Microsoft DirectComposition 是點陣圖組合引擎。 它可讓應用程式開發人員結合多個點陣圖，並以各種方式操作它們，以在應用程式 UI 中達成有趣的視覺效果和動畫。 本主題說明 DirectComposition 支援的點陣圖內容類型。
 
@@ -29,7 +29,7 @@ Microsoft DirectComposition 是點陣圖組合引擎。 它可讓應用程式開
 
 應用程式會藉由建立視覺物件，然後設定這些物件的 [content 屬性](basic-concepts.md) ，提供 DirectComposition 和點陣圖內容以供撰寫和建立動畫。 DirectComposition 不提供任何的點陣化服務。 應用程式必須使用其他以軟體為基礎或硬體加速的點陣化程式庫（例如 [Direct2D](../direct2d/direct2d-portal.md) 或 [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) ）來填入要組成的點陣圖。 撰寫之後，DirectComposition 會將構成點陣圖內容的傳遞至 [桌面視窗管理員 (DWM) ](/windows/desktop/dwm/dwm-overview) 以轉譯至螢幕。
 
-**支援的點陣圖內容類型**  Microsoft DirectComposition 支援下列幾種點陣圖：
+**支援的點陣圖內容類型** Microsoft DirectComposition 支援下列幾種點陣圖：
 
 -   [影片記憶體點陣圖](#video-memory-bitmaps)
 -   [視窗點陣圖](#window-bitmaps)
@@ -70,7 +70,7 @@ DirectComposition 不支援建立或操作身歷聲內容，也無法將 mono �
 
 所有點陣圖都有32位的每個圖元 (BPP) 格式，其中包含8個位的每圖元透明度。 但是，應用程式可以指定 DirectComposition 應該如何使用 Alpha 色板。 尤其是，DirectComposition 可以採用 Alpha 色板，也可以完全忽略 Alpha，在這種情況下，點陣圖會被視為完全不透明。
 
-額外的 Alpha 模式會忽略 Alpha 色板，但是會將紅色、綠色和藍色值視為每個通道的 Alpha 值，而不是將這些通道的一般轉譯視為色彩濃度。 這種模式適用于 ClearType 轉譯，需要有子圖元的涵蓋範圍資訊。 若要使用每個通道的 Alpha 模式，應用程式必須先使用 [Direct2D](../direct2d/direct2d-portal.md) 和 [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) 將子圖元涵蓋範圍資料寫入點陣圖。 接下來，應用程式必須設定正確的 Alpha 模式，並在將點陣圖與視覺效果關聯時指定文字色彩。 DirectComposition 會將文字色彩與涵蓋範圍資料混合，以針對背景產生 ClearType 混色。
+額外的 Alpha 模式會忽略 Alpha 色板，但是會將紅色、綠色和藍色值視為每個通道的 Alpha 值，而不是將這些通道的一般轉譯視為色彩濃度。 這種模式適用于 ClearType 轉譯，需要有子圖元的涵蓋範圍資訊。 若要使用每個通道的 Alpha 模式，應用程式必須先使用[Direct2D](../direct2d/direct2d-portal.md)和[DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) ，將子圖元涵蓋範圍資料寫入點陣圖。 接下來，應用程式必須設定正確的 Alpha 模式，並在將點陣圖與視覺效果關聯時指定文字色彩。 DirectComposition 會將文字色彩與涵蓋範圍資料混合，以針對背景產生 ClearType 混色。
 
 在 ClearType 演算法不適用的情況下（例如，如果點陣圖不是圖元對齊且軸對齊），或者如果需要繪製到中繼介面，DirectComposition 可以使用點陣圖中的子圖元涵蓋範圍資料，自動產生灰階的點陣化，而不會產生額外的費用。
 
@@ -83,6 +83,6 @@ DirectComposition 不支援建立或操作身歷聲內容，也無法將 mono �
 [DirectComposition 概念](directcomposition-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

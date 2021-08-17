@@ -3,7 +3,7 @@ title: 'LVM_GETWORKAREAS 訊息 (Commctrl .h) '
 description: 從清單視圖控制項抓取工作區域。 您可以明確地傳送此訊息，或使用 ListView \_ GetWorkAreas 宏。
 ms.assetid: 956368d9-bbb4-414a-ba17-0e8e4f0f1a45
 keywords:
-- LVM_GETWORKAREAS message Windows 控制項
+- LVM_GETWORKAREAS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a64546a17489eaf88a4d15430c6be26017a8d33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8aed6173ef00860900d7690199cfb2c81535f088790290e30cc01898666bb068
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968228"
 ---
 # <a name="lvm_getworkareas-message"></a>LVM \_ GETWORKAREAS 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104466500"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

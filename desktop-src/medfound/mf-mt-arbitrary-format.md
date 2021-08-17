@@ -4,12 +4,12 @@ ms.assetid: fc5b9890-1508-498e-b2ce-ed4fa2052f9c
 title: 'MF_MT_ARBITRARY_FORMAT 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cf98da23fbc4631ca67462dfc58f870abe73885
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa7629e92eea07059f562d553985628f2099df1da03bd371617f0eed5183dd69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973607"
 ---
 # <a name="mf_mt_arbitrary_format-attribute"></a>MF \_ MT \_ 任意 \_ 格式屬性
 
@@ -32,7 +32,7 @@ ms.locfileid: "106990309"
 在資料流程類型為 **ASF \_ 二進位 \_ 媒體** 的檔案中，此結構對應于資料流程屬性物件中特定類型資料的格式資料欄位。 如需詳細資訊，請參閱 ASF 規格。
 
 > [!Note]  
-> 在 Windows Media 格式 SDK 中，二進位資料流程稱為 *任意資料流程* 或 *任意* 資料流程。
+> 在 Windows 媒體格式 SDK 中，二進位資料流程稱為 *任意資料流程* 或 *任意* 資料流程。
 
  
 
@@ -44,8 +44,8 @@ ms.locfileid: "106990309"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

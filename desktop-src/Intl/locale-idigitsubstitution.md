@@ -4,12 +4,12 @@ ms.assetid: f3f7d7ac-8f1e-4bfa-84f0-dfe8cff568c3
 title: LOCALE_IDIGITSUBSTITUTION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c063ed5b937c3e4c4ae06e40631b9795f6a73ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf5fe8adf06cbca11bd5d262edf299b0f043286d4494c36172f9f7a461e17eeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948717"
 ---
 # <a name="locale_idigitsubstitution"></a>地區設定 \_ IDIGITSUBSTITUTION
 

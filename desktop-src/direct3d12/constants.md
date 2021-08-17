@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21c8218273350edede9f210f491c8b7fc2fb0c4f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2bdc1f2765688cd736353095450a95c6edd03817d32fbf23fbf16bd997f4e4a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858048"
 ---
 # <a name="constants-d3d12h"></a>常數 (D3D12 .h) 
 

@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 57ad0e2855b8f6901f9ddf1deb1f014350f7645a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88bb103e92445e1a25a156dc90bae0acab470cf1e0cfadef6a06a3f60a38233e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118088"
 ---
 # <a name="xmcolor-constructors"></a>XMCOLOR 函式
 

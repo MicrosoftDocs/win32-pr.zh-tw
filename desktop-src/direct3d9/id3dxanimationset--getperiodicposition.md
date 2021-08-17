@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a3c4f2e8e57efdfe0681b8ae691e0b5de42624e1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8451e3332b61d7e6e993de7df0832a78c0c45c0240633fd5f421998816f7f26f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122059"
 ---
 # <a name="id3dxanimationsetgetperiodicposition-method"></a>ID3DXAnimationSet：： GetPeriodicPosition 方法
 

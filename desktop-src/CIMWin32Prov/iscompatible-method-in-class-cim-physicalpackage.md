@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1957b8d0c1929ff6f7b4ef8c69fa55ea4ccc83b9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8479ce400fb9c4e52d51f9834ffbc7c1d57d7a44d21ebf37c88149c826911409
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834655"
 ---
 # <a name="iscompatible-method-of-the-cim_physicalpackage-class"></a>CIM PhysicalPackage 類別的 IsCompatible 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: 99d966ea-49b5-4a84-83a1-99dc8465c751
 title: TSPI 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e3468171bc160ca03ac9f5501a9eba7fd9221ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8c11700dcaa46284b4050908ca70ed640e03afeb2eb7a2269ad1bac9161c089
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139751"
 ---
 # <a name="tspi-structures"></a>TSPI 結構
 

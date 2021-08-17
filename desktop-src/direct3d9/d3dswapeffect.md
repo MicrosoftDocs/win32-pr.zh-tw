@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 58354e35ca8456f6fde57d2f2567a6b6a202f6d7
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: db869d277c98c3e99bd2bbc54f7e40ac86770f647e8258ee5718a96eaedec18c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096613"
 ---
 # <a name="d3dswapeffect-enumeration"></a>D3DSWAPEFFECT 列舉
 
@@ -75,7 +75,7 @@ typedef enum D3DSWAPEFFECT {
 
 Direct3D 9 與 Direct3D 9Ex 之間的差異：
 
-- D3DSWAPEFFECT 重迭 \_ 僅適用于在 Windows 7 上執行的 Direct3D9Ex (或更多目前的作業系統) 。
+- \_只有在 Windows 7 (或更多目前的作業系統) 上執行的 Direct3D9Ex 中，才能使用 D3DSWAPEFFECT 覆迭。
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Direct3D 9 與 Direct3D 9Ex 之間的差異：
 
 Direct3D 9 與 Direct3D 9Ex 之間的差異：
 
-- D3DSWAPEFFECT \_ FLIPEX 僅適用于在 Windows 7 上執行的 Direct3D9Ex (或更多目前的作業系統) 。
+- D3DSWAPEFFECT \_ FLIPEX 僅適用于 Windows 7 (或更多目前作業系統) 上執行的 Direct3D9Ex。
 
 </dd> <dt>
 

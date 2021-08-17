@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ba830dd8a35a2c60b14c4feec14846125223e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13fcd87105eace269d3b8f395392c8a0ba275a135c212863ef69e45e597eb752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144381"
 ---
 # <a name="inapserverinfogetfailurecategorymappings-method"></a>INapServerInfo：： GetFailureCategoryMappings 方法
 
@@ -68,7 +68,7 @@ HRESULT GetFailureCategoryMappings(
 
 
 
-| 傳回碼                                                                                     | Description                                                        |
+| 傳回碼                                                                                     | 描述                                                        |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> </dl>           | 作業成功。<br/>                                    |
 | <dl> <dt>**E \_ACCESSDENIED**</dt> </dl> | 許可權錯誤，拒絕存取。<br/>                       |
@@ -85,9 +85,9 @@ HRESULT GetFailureCategoryMappings(
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                               |
 | 標頭<br/>                   | <dl> <dt>NapServerManagement。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapServerManagement .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapServerManagement .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
 
 

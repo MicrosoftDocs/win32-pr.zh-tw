@@ -96,7 +96,7 @@ ms.locfileid: "118640285"
 
     
 
-    | 功能               | 功能 \_ 父系       | Title                 | 屬性 |
+    | 功能               | 功能 \_ 父系       | 標題                 | 屬性 |
     |-----------------------|-----------------------|-----------------------|------------|
     | FeatureParent1 \_ 本機 |                       | FeatureParent1 \_ 本機 | 16         |
     | FeatureChild1 \_ 本機  | FeatureParent1 \_ 本機 | FeatureParent1 \_ 本機 | 0          |

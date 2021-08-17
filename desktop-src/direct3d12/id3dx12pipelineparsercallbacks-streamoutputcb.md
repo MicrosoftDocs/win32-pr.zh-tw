@@ -17,12 +17,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae32f084edd2b6af374aa9b1cac4e563ef8a2eb6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f1e484d044bc4de2be3d40c6080e77b62aa57b59f0161c2021b8696316970542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106998579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632348"
 ---
 # <a name="id3dx12pipelineparsercallbacksstreamoutputcb-method"></a>ID3DX12PipelineParserCallbacks：： StreamOutputCb 方法
 
@@ -43,7 +43,7 @@ void StreamOutputCb(
 
 <dl> <dt>
 
-*>streamoutput* \[裁判\]
+*>Streamoutput* \[裁判\]
 </dt> <dd>
 
 Type： **Const [**D3D12 \_ 資料流程 \_ 輸出 \_ DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_stream_output_desc)**

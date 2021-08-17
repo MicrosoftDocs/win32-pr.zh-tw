@@ -4,12 +4,12 @@ ms.assetid: 2675ef16-2018-47e8-bb22-2fc0d62e6681
 title: 'MF_TOPOLOGY_ENUMERATE_SOURCE_TYPES 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 015042bbf9994f81058c621239224196e6ec9ac8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4cc9ff7cf9e1497f0d15f68e68c254483f0c9f074e2ce4204e9d77d84aee4ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117691294"
 ---
 # <a name="mf_topology_enumerate_source_types-attribute"></a>MF \_ 拓撲 \_ 列舉 \_ 來源 \_ 類型屬性
 
@@ -114,8 +114,8 @@ if failed
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

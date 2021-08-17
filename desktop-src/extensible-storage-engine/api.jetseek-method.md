@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 85c8c61bd4e56b342b33d26f22ae3946967640e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 088a8a8e1fdf968a6a970658257bace3ab42ab65a04a7b39c7a4c57bda6f3741
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118783801"
 ---
 # <a name="apijetseek-method"></a>JetSeek 方法
 

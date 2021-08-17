@@ -1,17 +1,17 @@
 ---
 description: 以下是發行者設定檔架構的完整清單。
 ms.assetid: 501151ee-67f5-4127-b048-91ea4a42f9e7
-title: 發行者設定檔架構
+title: Publisher設定檔架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88a8e3d86adc71efda144bb5eed72876bf99911a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f0e7d2b794d2fadd8e7906b2e4eeacc252fd6b6b802898070185ac2ae4c97f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141991"
 ---
-# <a name="publisher-configuration-file-schema"></a>發行者設定檔架構
+# <a name="publisher-configuration-file-schema"></a>Publisher設定檔架構
 
 以下是發行者設定檔架構的完整清單。
 

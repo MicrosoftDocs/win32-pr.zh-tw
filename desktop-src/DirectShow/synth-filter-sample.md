@@ -4,12 +4,12 @@ ms.assetid: 2d087967-3734-463f-bc5e-9552290ddc0b
 title: 合成濾波器範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd569091df92eca3fbff4d8cb200150d6e6bfdca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01a3a366a6612aadf653b5af13099dbc8a4f08c2fb828bca6e64514cb1801e4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119291189"
 ---
 # <a name="synth-filter-sample"></a>合成濾波器範例
 
@@ -21,7 +21,7 @@ ms.locfileid: "103852403"
 
 此篩選器會以「音訊合成器篩選」的形式出現在 GraphEdit 中。
 
-如需動態圖形建築物的詳細資訊，請參閱 [動態圖形建築物](dynamic-graph-building.md)。
+如需動態圖形建築物的詳細資訊，請參閱[動態 Graph 建築物](dynamic-graph-building.md)。
 
 ## <a name="usage"></a>使用方式
 
@@ -31,7 +31,7 @@ ms.locfileid: "103852403"
 
 1.  建立篩選器，並使用 Regsvr32 公用程式進行註冊。
 2.  啟動 GraphEdit。
-3.  插入音訊合成器篩選器。 它會出現在 [DirectShow 篩選準則] 分類中。
+3.  插入音訊合成器篩選器。 它會出現在 DirectShow 篩選準則分類中。
 4.  轉譯篩選的輸出圖釘。
 5.  按一下 [ **播放** ] 按鈕。
 6.  開啟篩選的屬性頁。
@@ -65,7 +65,7 @@ CDynamicSourceStream 類別在 [**CSourceStream**](csourcestream.md)中找不到
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
 此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ 濾波器 \\ 合成。
 
@@ -73,7 +73,7 @@ CDynamicSourceStream 類別在 [**CSourceStream**](csourcestream.md)中找不到
 
 <dl> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> </dl>
 
  

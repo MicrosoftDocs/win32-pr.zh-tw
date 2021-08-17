@@ -3,12 +3,12 @@ title: 封包時間戳記
 description: IP 協助程式封包時間戳記 Api 可讓您判斷網路介面卡的時間戳記功能，並以跨時間戳記的形式從網路介面卡查詢時間戳記。
 ms.topic: article
 ms.date: 01/19/2021
-ms.openlocfilehash: 07743473bcb606ccdb86c55f14a3413adf10d73a
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 12da7189dbae5f38085cdf4ad5f8e9ac1214cff7ddd0b683ecd97b70b2786c51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110559952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146631"
 ---
 # <a name="packet-timestamping"></a>封包時間戳記
 
@@ -18,13 +18,13 @@ ms.locfileid: "110559952"
 
 例如，您可以使用時間戳來計算電腦網路堆疊內的封包花費的時間，然後再傳送到網路或從中接收。 這些計算接著可以由 PTP 用來改善時間同步處理的精確度。 網路介面卡的封包時間戳記支援，有時特別適用于 PTP 通訊協定。 在其他情況下，則會提供更通用的支援。
 
-時間戳記 Api 讓 Windows 能夠針對 PTP 第2版通訊協定支援網路介面卡的硬體時間戳記功能。 整體來說，這些功能包括提供網路介面卡驅動程式支援時間戳記的能力，並讓使用者模式應用程式透過 [Windows 通訊端](/windows/win32/winsock/windows-sockets-start-page-2) 使用與封包相關的時間戳記 (查看 [Winsock 時間戳記](/windows/win32/winsock/winsock-timestamping)) 。 此外，也提供產生軟體時間戳記的功能，可讓網路驅動程式產生軟體中的時間戳記。 這類軟體時間戳記是由 NIC 驅動程式使用對等的 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) (QPC) 所產生。 但是，不支援同時啟用硬體 *和* 軟體時間戳記。
+時間戳記 api 可讓 Windows 針對適用于 PTP 第2版通訊協定的網路介面卡，支援硬體時間戳記功能的能力。 整體來說，這些功能包括提供網路介面卡驅動程式支援時間戳記的能力，並讓使用者模式應用程式使用與封包[Windows 通訊端](/windows/win32/winsock/windows-sockets-start-page-2)相關的時間戳記 (看到[Winsock 時間戳記](/windows/win32/winsock/winsock-timestamping)) 。 此外，也提供產生軟體時間戳記的功能，可讓網路驅動程式產生軟體中的時間戳記。 這類軟體時間戳記是由 NIC 驅動程式使用對等的 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) (QPC) 所產生。 但是，不支援同時啟用硬體 *和* 軟體時間戳記。
 
 特別是，本主題中所述的「網際網路通訊協定協助程式 (IP 協助程式) 封包時間戳記 Api，可讓使用者模式應用程式判斷網路介面卡的時間戳記功能，並以跨時間戳記的格式從網路介面卡查詢時間戳記 (如下) 所述。
 
 ## <a name="supporting-precision-time-protocol-version-2"></a>支援精確度時間通訊協定第2版
 
-如同前面所述，Windows 中的時間戳記支援主要目標是支援精確度時間通訊協定第2版 (PTPv2) 的通訊協定。 在 PTPv2 中，並非所有的訊息都需要時間戳記。 尤其是，PTP 事件訊息會使用時間戳。 目前，支援的範圍是透過使用者資料包協定 (UDP) 的 PTPv2。 不支援透過原始乙太網路的 PTP。
+如先前所述，Windows 中的時間戳記支援主要目標是支援精確度時間通訊協定第2版 (PTPv2) 通訊協定。 在 PTPv2 中，並非所有的訊息都需要時間戳記。 尤其是，PTP 事件訊息會使用時間戳。 目前，支援的範圍是透過使用者資料包協定 (UDP) 的 PTPv2。 不支援透過原始乙太網路的 PTP。
 
 在 *2 步驟* 模式中，PTPv2 操作支援時間戳記。 *2 步驟* 是指不會在硬體中即時產生 PTP 封包中的實際時間戳，而是從硬體中取出並以個別的訊息形式提供 (例如，使用追蹤訊息) 。
 
@@ -34,7 +34,7 @@ ms.locfileid: "110559952"
 
 應用程式（例如 PTP 時間同步處理服務）必須判斷網路介面卡的時間戳記功能。 使用抓取的功能，應用程式可以決定是否要使用時間戳。
 
-即使網路介面卡支援時間戳記 *，仍必須* 維持預設關閉的功能。 介面卡會在指示時開啟時間戳記。 Windows 會為應用程式提供 Api，以取得硬體的功能以及開啟的功能。
+即使網路介面卡支援時間戳記 *，仍必須* 維持預設關閉的功能。 介面卡會在指示時開啟時間戳記。 Windows 提供應用程式的 api 來取得硬體的功能，以及開啟了哪些功能。
 
 若要取得網路介面卡支援的時間戳記功能，請呼叫 [**GetInterfaceSupportedTimestampCapabilities**](/windows/win32/api/iphlpapi/nf-iphlpapi-getinterfacesupportedtimestampcapabilities) 函式，提供網路介面卡 (LUID) 的本機唯一識別碼，並傳回以 [**INTERFACE_TIMESTAMP_CAPABILITIES**](/windows/win32/api/iphlpapi/ns-iphlpapi-interface_timestamp_capabilities) 物件的形式取得支援的時間戳記功能。
 

@@ -4,12 +4,12 @@ description: 使用和執行 IUnknown
 ms.assetid: d44a6dc7-54e4-42b3-9a3d-a6569fa4128b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1fc5be5ee84bacfec9e239d28263344ec902a0d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce05f1bdd9f0e4b81d2aade7a583af86772fbe9d8949b85ac8f47d7c947bf781
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129440"
 ---
 # <a name="using-and-implementing-iunknown"></a>使用和執行 IUnknown
 
@@ -21,9 +21,9 @@ COM 提供一組豐富的標準來執行和使用物件，以及進行物件間�
 -   [執行 QueryInterface 的規則](rules-for-implementing-queryinterface.md)
 -   [透過參考計數來管理物件存留期](managing-object-lifetimes-through-reference-counting.md)
 
- 
+ 
 
- 
+ 
 
 
 

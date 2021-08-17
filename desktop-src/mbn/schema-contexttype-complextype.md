@@ -112,7 +112,7 @@ ms.locfileid: "118744445"
 | [**AuthProtocol**](schema-authprotocol-contexttype-element.md)       |                                                | 用來啟用 PDP 內容的驗證通訊協定。<br/>                    |
 | [**壓縮**](schema-compression-contexttype-element.md)         |                                                | 指定壓縮是否會用於標頭和資料傳輸的資料連結<br/> |
 | [**IgnorePassword**](schema-ignorepassword-userlogoncred-element.md) | boolean                                        | 如何在升級設定檔時處理密碼。<br/>                                    |
-| [**密碼**](schema-password-userlogoncred-element.md)             | string                                         | 用來驗證使用者的密碼<br/>                                                |
+| [**密碼**](schema-password-userlogoncred-element.md)             | 字串                                         | 用來驗證使用者的密碼<br/>                                                |
 | [**UserLogonCred**](schema-userlogoncred-contexttype-element.md)     |                                                | 登入連接的認證。<br/>                                                |
 | [**使用者**](schema-username-userlogoncred-element.md)             | [**nameType**](schema-nametype-simpletype.md) | 登入的使用者名稱<br/>                                                                 |
 

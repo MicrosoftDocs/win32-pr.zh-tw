@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6844d560ef677841c8c142cac8c57a5a8dc4bea
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 82d0fc7e9064c26a70a8a29230882c8e0444eb94406fb268ba9261ab8e4d0cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960447"
 ---
 # <a name="msmq-nt4-stub-attribute"></a>MSMQ-Nt4-Stub 屬性
 

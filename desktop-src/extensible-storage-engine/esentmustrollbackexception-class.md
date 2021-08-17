@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f7b5399db919b497579e25fae86de14003852fb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aece0dec8dde563b88c16747d95898625bc6950c61af37d155b088d4205b323b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115368"
 ---
 # <a name="esentmustrollbackexception-class"></a>EsentMustRollbackException 類別
 

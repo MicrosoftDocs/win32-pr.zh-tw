@@ -183,7 +183,7 @@ CA 階層的最上層 (CA) 的 [*憑證授權單位*](c-gly.md) 單位。 根授
 
 </dd> <dt>
 
-<span id="_security_rsa_gly"></span><span id="_SECURITY_RSA_GLY"></span>**Rsa**
+<span id="_security_rsa_gly"></span><span id="_SECURITY_RSA_GLY"></span>**RSA**
 </dt> <dd>
 
 RSA Data Security，Inc. 是 [*公開金鑰加密標準*](p-gly.md) 的主要開發人員和發行者， (PKCS) 。 名稱中的 "RSA" 代表公司的三名開發人員和擁有者的名稱： Rivest、Shamir 和 Adleman。

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_InfraredController 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd10558807449bdbf8c857b4f3b14e37b581c5d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 60184ddd9c942d88b7cf705cf143cad5e8a80e50040bc4c555d021681d1c33d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923468"
 ---
 # <a name="cim_infraredcontroller-methods"></a>CIM \_ InfraredController 方法
 

@@ -3,7 +3,7 @@ title: 'CB_SETEDITSEL 訊息 (Winuser .h) '
 description: 應用程式會傳送 CB \_ SETEDITSEL 訊息，以選取下拉式方塊編輯控制項中的字元。
 ms.assetid: 25a07341-a21c-42a9-a220-62650997757b
 keywords:
-- CB_SETEDITSEL message Windows 控制項
+- CB_SETEDITSEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a54e09697e266b4e0c4260104e90f454a5e3edfb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e8deb133559332ea8f727758086e19cb17483b4c343f8b3f8f1a3694911eedd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832266"
 ---
 # <a name="cb_seteditsel-message"></a>CB \_ SETEDITSEL 訊息
 
@@ -59,9 +59,9 @@ ms.locfileid: "104465252"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

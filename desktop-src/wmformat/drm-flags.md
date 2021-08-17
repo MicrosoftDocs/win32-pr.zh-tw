@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4f2f8eb2baa401f1bc8519da5ca555a1fe428ee
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: adf4f1b2065eb1b251f0c555f8c33e424e43aefd04377ed894edb90c121aacb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086009"
 ---
 # <a name="drm_flags"></a>DRM \_ 旗標
 
@@ -42,9 +42,9 @@ g \_ wszWMDRM \_ 旗標
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、描述、系結和控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1fad29ebc77d0c6f841df4b0e09735ae30ca812
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 639c6c8e1b6d7863306ee6412bf3522a282c02ad70d25f9988f7cc86349c4d97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932403"
 ---
 # <a name="binding-and-handles"></a>系結和控制碼
 
@@ -22,9 +22,9 @@ ms.locfileid: "104021370"
 
 除了系結和內容控制碼，Microsoft RPC 也支援用來編碼或解碼資料的序列化控制碼。 這些是用來在本機電腦上進行序列化，不牽涉到遠端綁定。 如需詳細資訊，請參閱 [序列化服務](serialization-services.md)。
 
- 
+ 
 
- 
+ 
 
 
 

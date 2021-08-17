@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 79e0d6a92aef75f3758adc16e9c82de81b8c6962
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfe3a65c52d23ee335a81560775f0063b8ca81a10cc43c1787e353a5b803eed4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117901844"
 ---
 # <a name="conversionscompareoptionsfromlcmapflags-method"></a>CompareOptionsFromLCMapFlags 方法
 

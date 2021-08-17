@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43711c6c394761f599271809419a46311265d8b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f80b43cfcf0c89283237f8ff2d3e4f8612050296d7462f54890c3efa908fa9be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930888"
 ---
 # <a name="drm_saplevel-deprecated"></a>DRM \_ SAPLEVEL (已淘汰) 
 
-\[**DRM \_SAPLEVEL** 不再適用于 Windows Vista。 相反地，請在媒體基礎程式庫中使用受保護的使用者模式音訊 (PUMA) 。 \]
+\[**DRM \_SAPLEVEL** 不再適用于 Windows Vista 的使用。 相反地，請在媒體基礎程式庫中使用受保護的使用者模式音訊 (PUMA) 。 \]
 
 **DRM \_ SAPLEVEL** 屬性會指定您的應用程式所支援的 (SAP) 層級的安全音訊路徑。
 

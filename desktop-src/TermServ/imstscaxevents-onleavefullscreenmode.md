@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b4ee414f2dceba35a17ff86bce03c83d75aab48
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: efacca782d771337ffe3419bd9820be268cacc1ae6f7d33f04a4bb8127079c7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138441"
 ---
 # <a name="imstscaxeventsonleavefullscreenmode-method"></a>IMsTscAxEvents：： OnLeaveFullScreenMode 方法
 

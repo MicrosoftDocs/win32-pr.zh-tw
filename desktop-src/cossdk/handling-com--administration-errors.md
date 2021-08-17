@@ -4,12 +4,12 @@ ms.assetid: 03f00c19-ff81-478b-b545-048f3dbe5eda
 title: 處理 COM + 管理錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e7e5838d7fee7616a23f5e361df1aef65421492
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 965276fff68edf45ae27423ee4ed707e4bb7f1476b0237dab270538e0fa0f1be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306706"
 ---
 # <a name="handling-com-administration-errors"></a>處理 COM + 管理錯誤
 

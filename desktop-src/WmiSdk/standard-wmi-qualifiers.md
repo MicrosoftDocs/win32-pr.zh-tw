@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e73b053354d86c4a56698a7a65c17e302425f56d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cfcd600bd539cbe17dad3d7a9c66bf27679618427665a6fd06e8a9a69a4ea5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383558"
 ---
 # <a name="standard-wmi-qualifiers"></a>標準 WMI 限定詞
 

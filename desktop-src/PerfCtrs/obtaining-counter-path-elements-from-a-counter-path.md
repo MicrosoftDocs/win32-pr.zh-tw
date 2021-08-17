@@ -4,12 +4,12 @@ ms.assetid: 65c722f9-6f9d-4e3d-abf3-867cf260ef9f
 title: 從計數器路徑取得計數器路徑元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08b8579033ddf7a97aec36b88bd067f9a240506d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 479c8df5c7176684fc439f632a22f829afe5afae202f7595579350450ee30c8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143971"
 ---
 # <a name="obtaining-counter-path-elements-from-a-counter-path"></a>從計數器路徑取得計數器路徑元素
 

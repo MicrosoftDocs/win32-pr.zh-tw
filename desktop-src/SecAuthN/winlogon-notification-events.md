@@ -4,12 +4,12 @@ ms.assetid: 48b0f389-5b3c-4b13-ad23-a8bc6bcd1850
 title: Winlogon 通知事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58827dc2699c92dfc3a814d2366608e1bd3fb662
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ea7359ef4d1d053e438d30564fcededbf3a0ccb10275cd6e4f669c2a20c54b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785711"
 ---
 # <a name="winlogon-notification-events"></a>Winlogon 通知事件
 

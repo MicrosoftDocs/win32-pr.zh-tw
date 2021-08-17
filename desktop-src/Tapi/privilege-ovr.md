@@ -4,12 +4,12 @@ ms.assetid: 0c02a88a-370f-4eb9-ba64-07a382bd2e87
 title: Privilege
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2f773edb05afc029a8f9fb6b014cd8a737eef0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4423b5eb1d50f5a7329726ab2e01040971daecca7e603247c49bcbc1d7c6d570
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060576"
 ---
 # <a name="privilege"></a>Privilege
 

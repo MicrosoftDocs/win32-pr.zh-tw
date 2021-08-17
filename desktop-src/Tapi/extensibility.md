@@ -4,12 +4,12 @@ ms.assetid: bc0a18f3-1f58-4a24-8afb-c31f3b561375
 title: " (電話語音 API) 的擴充性"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f29ad34b5156bdd652ab6b6f8901be7a2341bdc
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 89b9b130c27ffb01131181ad0b765d6a41b3eae0bbfc84cc2ab325c3a13230a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140671"
 ---
 # <a name="extensibility"></a>擴充性
 

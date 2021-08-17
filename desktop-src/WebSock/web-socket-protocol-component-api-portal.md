@@ -4,12 +4,12 @@ description: WebSocket 通訊協定元件 API
 ms.assetid: ae73fd5e-9715-448c-b7ca-898f2705e228
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c16290a7af5b5fea406e5f47c0db718d775e4d17
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a712234f55b0270db9da23dc0efa1da823c85907cca92ac3428cb1225fac8a97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134211"
 ---
 # <a name="websocket-protocol-component-api"></a>WebSocket 通訊協定元件 API
 
@@ -34,10 +34,10 @@ WebSocket 通訊協定元件 API 可透過 HTTP （可在現有的網路媒介�
 
 ## <a name="developer-audience"></a>開發人員對象
 
-WebSocket 通訊協定元件 API 是設計來供 C/c + + 程式設計人員使用。 需要熟悉 HTTP 和 Windows 網路功能。
+WebSocket 通訊協定元件 API 是設計來供 C/c + + 程式設計人員使用。 需要熟悉 HTTP 和 Windows 網路。
 
 > [!Note]  
-> 在 Windows 上使用 WebSocket 通訊協定的慣用方法是透過 [WINDOWS HTTP 服務 (WinHTTP) API](/windows/desktop/WinHttp/winhttp-start-page) 或 [windows. socket 命名空間](/uwp/api/Windows.Networking.Sockets)。
+> 在 Windows 上使用 WebSocket 通訊協定的慣用方式，是透過[Windows 的 HTTP 服務 (WinHTTP) API](/windows/desktop/WinHttp/winhttp-start-page)或[Windows。網路 Socket 命名空間](/uwp/api/Windows.Networking.Sockets)。
 
  
 
@@ -57,7 +57,7 @@ WebSocket 通訊協定元件 API 需要 Windows 8 和更新版本的 Windows 作
 [HTTP](/windows/desktop/Http/http-api-start-page)
 </dt> <dt>
 
-[Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)
+[Windows (WinHTTP) 的 HTTP 服務](/windows/desktop/WinHttp/winhttp-start-page)
 </dt> </dl>
 
  

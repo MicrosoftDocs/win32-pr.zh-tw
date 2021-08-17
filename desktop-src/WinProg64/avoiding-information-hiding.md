@@ -3,16 +3,16 @@ title: 避免資訊隱藏
 description: 有時候，程式會刻意或不慎隱藏 RPC 封送處理引擎的資訊。
 ms.assetid: 016b9221-092d-4c25-a396-4f41dcdfb3cf
 keywords:
-- 回溯相容性64位 Windows 程式設計
+- 回溯相容性 64-位 Windows 程式設計
 - 相容性問題 64-位 Windows 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f4b9e4ba7ed5165378beb93005243af03f9e469
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e68ab20ccf267fed187488e4ec2a4d740492338fa1758703827101bd9b98bd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132861"
 ---
 # <a name="avoiding-information-hiding"></a>避免資訊隱藏
 
@@ -30,8 +30,8 @@ DCOM 介面無法使用內容控制碼，因為 COM 會提供自己的內容管�
 
 同樣地，有時候您可能無法變更正在移植之程式碼的原始設計。 如果無法避免將指標以 **dword** 的形式傳送到網路上，您就必須在 **dword** 值和指標之間執行某種形式的伺服器端對應。 其中一種方式是將用戶端應用程式中的指標變更為指標精確度類型，例如 **ULONG \_ Ptr** 或 **DWORD \_** 指標。 然後使用 MIDL \[ [**呼叫 \_ 做為**](/windows/desktop/Midl/call-as) \] 屬性，將指標放在網路上作為 **DWORD** 值。 用戶端包裝函式只需要一併傳遞引數。 伺服器端包裝函式會處理兩種類型之間的對應。 以類似的方式，您可以使用 [ \[ [**傳輸 \_ 為**](/windows/desktop/Midl/transmit-as)] \] 屬性或 [ \[ [**表示 \_ 為**](/windows/desktop/Midl/represent-as)] 屬性，將 \] 您的資料轉換成與與舊版相容的線路表示格式。
 
-如果回溯相容性不是問題，或控制碼不是用於遠端呼叫，而您確定 32-和64位進程之間的遠端呼叫永遠不會發生，您可以將引數重新定義為 **ULONG64**。 如有必要，您可以修改32位應用程式，以將 **DWORD** 傳遞給使用者。 或者，您可以使用32位 Windows 上的 **DWORD** 和64位 windows 上的 **ULONG64** ，在每個平臺的個別 IDL 檔案中建立個別的存根。
+如果回溯相容性不是問題，或控制碼不是用於遠端呼叫，而您確定 32-和64位進程之間的遠端呼叫永遠不會發生，您可以將引數重新定義為 **ULONG64**。 如有必要，您可以修改32位應用程式，以將 **DWORD** 傳遞給使用者。 或者，您可以使用32位 Windows 上的 **DWORD** 和64位 Windows 上的 **ULONG64** ，從每個平臺的個別 IDL 檔案建立個別的存根。
 
- 
+ 
 
- 
+ 

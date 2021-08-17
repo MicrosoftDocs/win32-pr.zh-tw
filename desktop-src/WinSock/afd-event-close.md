@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: fbc6c63a3084db6a9be0a4b4ea7672d84881a29a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9068809c052638e33d45a5affadc23a289fa65ae04e6b1a71af1e40e4b508b15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993748"
 ---
 # <a name="afd_event_close-event"></a>AFD \_ 事件 \_ 關閉事件
 
@@ -67,7 +67,7 @@ const EVENT_DESCRIPTOR AFD_EVENT_CLOSE = {0x3e9, 0x0, 0x10, 0x4, 0xf, 0x3e9, 0x8
 *處理* 
 </dt> <dd>
 
-擁有相關通訊端之進程的 [EPROCESS](/windows-hardware/drivers/kernel/eprocess) 位址。 這是一個不透明的結構，可作為進程的處理常式物件。 如需詳細資訊，請參閱 [EPROCESS](/windows-hardware/drivers/kernel/eprocess) 結構的 Windows 驅動程式套件檔。
+擁有相關通訊端之進程的 [EPROCESS](/windows-hardware/drivers/kernel/eprocess) 位址。 這是一個不透明的結構，可作為進程的處理常式物件。 如需詳細資訊，請參閱[EPROCESS](/windows-hardware/drivers/kernel/eprocess)結構的 Windows 驅動程式套件檔。
 
 </dd> <dt>
 
@@ -95,8 +95,8 @@ const EVENT_DESCRIPTOR AFD_EVENT_CLOSE = {0x3e9, 0x0, 0x10, 0x4, 0xf, 0x3e9, 0x8
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

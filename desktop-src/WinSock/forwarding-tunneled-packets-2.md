@@ -4,12 +4,12 @@ ms.assetid: 6148fca7-adf4-460d-afd6-79c43285af6c
 title: IPv6 轉送通道封包
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f95f88a90a358317cf46516808a96f93b792dd5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42138c746ea9d0ec8ea61bc3801b84a97a6bdd4c6fb6de0871e6b74447fdf28b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132431"
 ---
 # <a name="ipv6-forwarding-tunneled-packets"></a>IPv6 轉送通道封包
 

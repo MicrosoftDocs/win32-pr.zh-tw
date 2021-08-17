@@ -1,9 +1,9 @@
 ---
 title: 'MIM_OPEN 訊息 (Mmsystem .h) '
-description: '\_開啟 midi 輸入裝置時，會將 MIM 開啟訊息傳送至 midi 輸入回撥函式。'
+description: '\_開啟 midi 輸入裝置時，會將 MIM 開啟的訊息傳送至 midi 輸入回撥函式。'
 ms.assetid: c7a8b856-aedd-457d-8a21-0ec2e9303960
 keywords:
-- MIM_OPEN message Windows 多媒體
+- MIM_OPEN 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49fcfd05ef7702fbc7bf3108365e49660071ae9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15cacc21fd31810adf3188cb1ba267c9727715a0426c98d18f231eeec19b9691
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428118"
 ---
-# <a name="mim_open-message"></a>MIM \_ 開啟訊息
+# <a name="mim_open-message"></a>MIM \_開啟訊息
 
-開啟 MIDI 輸入裝置時，會將 **MIM \_ 開啟** 訊息傳送至 midi 輸入回撥函式。
+開啟 midi 輸入裝置時，會將 **MIM \_ 開啟** 的訊息傳送至 midi 輸入回撥函式。
 
 
 ```C++
@@ -64,7 +64,7 @@ dwParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

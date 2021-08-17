@@ -4,18 +4,18 @@ ms.assetid: 74ea4530-3a73-4169-b0b7-f0272229192d
 title: Instmsi.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 229d748cda68731627a6af2af992e321755b5ca2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d2177fbb145dbfe2817dba2207cff95e5d80b801cc2f442085ba396f461870f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946116"
 ---
 # <a name="instmsiexe"></a>Instmsi.exe
 
-Instmsi.exe 是安裝 Windows Installer 2.0 和舊版 Windows Installer 的可轉散發套件。 請參閱 Windows Installer 3.0 和更新版本的可轉散發套件 [Windows Installer](windows-installer-redistributables.md) 可轉散發套件。
+Instmsi.exe 是安裝 Windows Installer 2.0 和舊版 Windows Installer 的可轉散發套件。 請參閱 Windows Installer 3.0 和更新版本的可轉散發套件[Windows Installer](windows-installer-redistributables.md)可轉散發套件。
 
-如需作業系統隨附的 Windows Installer 版本的詳細資訊，請參閱 [Windows Installer 的發行](released-versions-of-windows-installer.md)版。
+如需作業系統隨附的 Windows Installer 版本的詳細資訊，請參閱[Windows Installer 的發行](released-versions-of-windows-installer.md)版。
 
 某些可轉散發套件不應在特定版本的作業系統上執行。 下表說明哪些 Instmsi 與哪些作業系統相容。
 
@@ -23,10 +23,10 @@ Instmsi.exe 是安裝 Windows Installer 2.0 和舊版 Windows Installer 的可�
 
 | 如果 Instmsi.exe 安裝這個版本的 Windows Installer | Instmsi.exe 可以在這些作業系統上執行                    | Instmsi.exe 不得在這些作業系統上執行                                        |
 |---------------------------------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| Windows Installer 版本1。0                                 | Windows 95、Windows 98、Windows NT 4.0 + SP3                           | Windows Me、Windows 2000、Windows XP、Windows Server 2003、Windows Vista、Windows Server 2008 |
-| Windows Installer 版本1。1                                 | Windows 95、Windows 98、Windows NT 4.0 + SP3                           | Windows Me、Windows 2000、Windows XP、Windows Server 2003、Windows Vista、Windows Server 2008 |
-| Windows Installer 版本1。2                                 | Windows 95、Windows 98、Windows Me、Windows NT 4.0 + SP3               | Windows 2000、Windows XP、Windows Server 2003、Windows Vista、Windows Server 2008             |
-| Windows Installer 版本2。0                                 | Windows 95、Windows 98、Windows Me、Windows NT 4.0 + SP6、Windows 2000 | Windows XP、Windows Server 2003、Windows Vista、Windows Server 2008                           |
+| Windows安裝程式版本1。0                                 | Windows 95、Windows 98、Windows NT 4.0 + SP3                           | Windows我、Windows 2000、Windows XP、Windows Server 2003、Windows Vista Windows Server 2008 |
+| Windows安裝程式版本1。1                                 | Windows 95、Windows 98、Windows NT 4.0 + SP3                           | Windows我、Windows 2000、Windows XP、Windows Server 2003、Windows Vista Windows Server 2008 |
+| Windows安裝程式版本1。2                                 | Windows 95、Windows 98、Windows Me、Windows NT 4.0 + SP3               | Windows 2000、Windows XP、Windows Server 2003、Windows Vista、Windows Server 2008             |
+| Windows安裝程式版本2。0                                 | Windows 95、Windows 98、Windows Me、Windows NT 4.0 + SP6、Windows 2000 | WindowsXP、Windows server 2003、Windows Vista Windows Server 2008                           |
 
 
 
@@ -44,7 +44,7 @@ Instmsi.exe 是安裝 Windows Installer 2.0 和舊版 Windows Installer 的可�
 
 
 
-| 選項                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 選項                     | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | /q                         | 供應用程式使用，以在啟動載入器應用程式中重新發佈 Windows Installer。 不會向使用者顯示任何 UI。 啟動載入應用程式應該會檢查傳回碼，以判斷是否需要重新開機才能完成 Windows Installer 安裝。                                                                                                                                                                                                                          |
 | /t                         | 僅供用於偵錯工具用途。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -83,13 +83,13 @@ Instmsi.exe 是安裝 Windows Installer 2.0 和舊版 Windows Installer 的可�
 
 6.  如果步驟 (5) 不需要重新開機，且 Instmsi.exe \_ \_ \_ 在步驟 (1) 中傳回錯誤成功重新開機，請提示使用者重新開機，以完成系統上 Windows Installer 二進位檔的設定。 但是，如果在步驟 (5) 中發生重新開機，則不需要執行任何其他步驟。
 
-Instmsi.exe 適用于 [Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+Instmsi.exe 適用于[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[引導](bootstrapping.md)
+[啟動](bootstrapping.md)
 </dt> <dt>
 
 [網際網路下載啟動載入](internet-download-bootstrapping.md)
@@ -98,7 +98,7 @@ Instmsi.exe 適用于 [Windows Installer 開發人員 Windows SDK 元件](platfo
 [已發行的版本、工具和可轉散發套件](released-versions-tools-and-redistributables.md)
 </dt> <dt>
 
-[Windows Installer 開發工具](windows-installer-development-tools.md)
+[Windows安裝程式開發工具](windows-installer-development-tools.md)
 </dt> </dl>
 
  

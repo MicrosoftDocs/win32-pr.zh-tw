@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102652
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5d31528c575cdc0ddec0f5a2f6b75fc0ea5c419a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ebdd045116260e202292e5a5ea0a6e01688b26bb49f641e2fce3a7758d12f9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115198"
 ---
 # <a name="esentresourceexception-properties"></a>EsentResourceException 屬性
 

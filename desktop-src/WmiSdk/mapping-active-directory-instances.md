@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Active Directory 實例的對應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f51eaec7b2c6ef121d0f65df375e1bb0fce32cc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66a3e40a6f4a85ebb1bb3d7e1e5a5de7bc43c754ff7672f694aff05b62853dbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317635"
 ---
 # <a name="mapping-active-directory-instances"></a>Active Directory 實例的對應
 
@@ -58,7 +58,7 @@ ADSI 中的每個命名空間都會對應至 WMI \\ 根目錄命名空間中的�
 | 列印案例字串       | **CIM \_ 字串**                               | 從字串的值對應。                                      |
 | 複本連結            | **Uint8Array** 類別的内嵌物件       | 對應至 **Uint8Array** 類別的實例。                          |
 | SID                     | **Uint8Array** 類別的内嵌物件       | 對應至 **Uint8Array** 類別的實例。                          |
-| Time                    | **CIM \_ DATETIME**                             | 轉換成 CIM \_ DATETIME 標記法並對應。                 |
+| 時間                    | **CIM \_ DATETIME**                             | 轉換成 CIM \_ DATETIME 標記法並對應。                 |
 | 未定義               | N/A                                           | N/A                                                                       |
 | Unicode 字串          | **CIM \_ 字串**                               | 從字串的值對應。                                      |
 | UTC 編碼時間          | **CIM \_ DATETIME**                             | 轉換成 CIM \_ DATETIME 標記法並對應。                 |

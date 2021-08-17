@@ -4,18 +4,18 @@ ms.assetid: 0b2e9df1-4a06-4179-8cda-308d969f348b
 title: HomeFaxNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b91562d6ff4857d9ceeaaa39a30ae443e83c9333
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 394bd17a9eb079eae8778f7fe6d0f6c36328e84cc4ea9761bc3644320b350414
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118729788"
 ---
 # <a name="systemcontacthomefaxnumber"></a>HomeFaxNumber
 
 連絡人的首頁傳真號碼。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

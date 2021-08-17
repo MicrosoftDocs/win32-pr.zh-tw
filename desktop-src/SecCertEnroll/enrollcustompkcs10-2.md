@@ -4,18 +4,18 @@ ms.assetid: ACBD3CE1-6A2A-47EE-9482-7398ABE15F5C
 title: enrollCustomPKCS10_2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d20615826bb72b6282144b72a394cde41e35910
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb88a2295217874a12da8b701a46f8dafe3db1cbf53d01273222e607195a789a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780037"
 ---
 # <a name="enrollcustompkcs10_2"></a>enrollCustomPKCS10 \_ 2
 
 EnrollCustomPKCS10 \_ 2 範例會建立自訂的 PKCS \# 10 要求，並嘗試在企業 [*憑證授權單位*](/windows/desktop/SecGloss/c-gly) 單位 (CA) 中註冊它。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
 當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollCustomPKCS10 \_ 2 資料夾中。
 

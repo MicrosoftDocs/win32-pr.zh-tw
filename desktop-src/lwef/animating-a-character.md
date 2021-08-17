@@ -4,16 +4,16 @@ description: 製作字元動畫
 ms.assetid: ed42de30-acac-41e8-bacb-4caaff254724
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ed47b30a9bcfcdb5e305b87ced5f02526ae0056
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 937b970f1cdc9de9c973d298bbe963bfa70e4de3733869292e54d5d32742c722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976778"
 ---
 # <a name="animating-a-character"></a>製作字元動畫
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 載入字元之後，您可以使用數種 Microsoft 代理程式的方法來建立字元的動畫。 第一個使用的通常是 [**Show**](show-method.md) 方法。 **顯示** 會讓字元的框架顯示出來，並播放指派給該字元 **顯示** 狀態的動畫。
 
@@ -37,6 +37,6 @@ Microsoft Agent 會以非同步方式處理所有的動畫呼叫或 *要求*。 
 
 Microsoft 代理程式也會自動為您播放其他動畫。 例如，如果字元的狀態未變更數秒，則代理程式會開始播放指派給該字元 **閒置** 動畫的動畫。 同樣地，當語音輸入啟用時，代理程式會在偵測到語句時播放字元的 **接聽** 動畫，然後 **聽到** 動畫。 這些伺服器管理的動畫稱為「 *狀態*」，並會在建立字元時定義。 如需詳細資訊，請參閱 [設計 Microsoft Agent 的字元](agent-states.md)。
 
- 
+ 
 
- 
+ 

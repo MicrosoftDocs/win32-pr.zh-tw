@@ -10,16 +10,16 @@ keywords:
 - FileList 區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e364551d461eff6ae17a780bafc0b69182a1f16f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 73ebe106bdada4da55eef8891a3c93ee82aba3cc4da9194e1fcd4c7e71bcd4e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745679"
 ---
 # <a name="customizing-a-folders-web-view"></a>自訂資料夾的 Web View
 
-\[只有在 Windows XP 或更早版本才支援這項功能。 \]
+\[只有 Windows XP 或更早版本才支援這項功能。 \]
 
 Web view 是一種功能強大且有彈性的方式，可使用 Windows 檔案總管來顯示 Shell 資料夾內容的相關資訊。
 
@@ -31,18 +31,18 @@ Web view 是一種功能強大且有彈性的方式，可使用 Windows 檔案�
 
 ## <a name="introduction"></a>簡介
 
-Windows 提供使用者兩種主要方式來查看和流覽 Shell 命名空間。 最熟悉的是傳統樣式，類似于熟悉的 Windows 檔案管理員。 右窗格會以下列五種格式的其中一種來列出目前所選資料夾的內容：大型圖示、小圖示、清單、詳細資料和縮圖。 與 Windows 檔案管理員的主要差異在於左窗格，看起來非常類似 Windows Internet Explorer 的 [Explorer] 欄。 它可以調整大小或移除，而且除了熟悉的檔案系統樹狀目錄（例如搜尋窗格）之外，還可以顯示數個窗格。
+Windows 提供使用者兩種主要方式來查看和流覽 Shell 命名空間。 最熟悉的是傳統樣式，類似于熟悉的 Windows 檔管理員。 右窗格會以下列五種格式的其中一種來列出目前所選資料夾的內容：大型圖示、小圖示、清單、詳細資料和縮圖。 Windows 的 [檔案管理員] 的主要差異在於左窗格，看起來非常類似 Windows Internet Explorer 的 [Explorer] 欄。 它可以調整大小或移除，而且除了熟悉的檔案系統樹狀目錄（例如搜尋窗格）之外，還可以顯示數個窗格。
 
 > [!Note]  
 > 本檔中的資訊不適用於 Windows XP，所討論的技術只適用于舊版的 Windows。
 
- 
+ 
 
 下圖顯示傳統樣式的 [印表機] 資料夾。
 
 ![印表機資料夾的傳統樣式。](images/webview1.png)
 
-傳統樣式適用于一般檔系統資料夾和檔案。 不過，隨著 Windows 95 的推出，檔案系統已發展成命名空間。 命名空間可讓您建立 *虛擬資料夾*，例如印表機或網路鄰近地區，以代表與一般檔系統資料夾非常不同的資訊類型。
+傳統樣式適用于一般檔系統資料夾和檔案。 不過，隨著 Windows 95 的引進，檔案系統已發展成命名空間。 命名空間可讓您建立 *虛擬資料夾*，例如印表機或網路鄰近地區，以代表與一般檔系統資料夾非常不同的資訊類型。
 
 Web 樣式（也稱為 Web view）提供更有彈性且功能更強大的方式來呈現與傳統樣式相關的資訊。 在 Web 視圖中，使用者基本上會使用 Internet Explorer 來查看和流覽命名空間。 Web view 的基本版面配置類似于傳統樣式。 Explorer 列沒有變更。 不過，檔案清單所佔用的區域會變成一般用途的顯示區域，該區域實際上是網頁。 Web view 仍會用來顯示資料夾內容的相關資訊，但在顯示的資訊或方式方面有一些限制。 每個資料夾都可以有自己的網頁視圖，其自訂為符合其特定功能。
 
@@ -240,7 +240,7 @@ Web view 範本會控制在 Web 視圖中顯示的內容，以及如何進行。
 
 
 
-建立您自己的 Web view 範本的簡單方法，就是使用 htt 並加以修改。 因為它相當有限，所以您也應該查看其他更複雜的範例，以瞭解其他想法。 您可以搜尋系統，找出所有 Web view 範本所使用的 htt 延伸模組。 如果您想要建立資料夾的自訂範本，您應該從預設的 htt 範本開始，這個範本通常儲存在 C： \\ Winnt \\ Web 或 c： \\ Windows \\ Web 中。 請注意，這些檔案會定義為隱藏，因此您可能需要修改 Windows 檔案總管設定才能加以查看。 建立 htt 檔案之後，應該將它標示為唯讀並隱藏。
+建立您自己的 Web view 範本的簡單方法，就是使用 htt 並加以修改。 因為它相當有限，所以您也應該查看其他更複雜的範例，以瞭解其他想法。 您可以搜尋系統，找出所有 Web view 範本所使用的 htt 延伸模組。 如果您想要建立資料夾的自訂範本，您應該從預設的 htt 範本開始，此範本通常儲存在 C： \\ Winnt \\ Web 或 c： \\ Windows \\ Web。 請注意，這些檔案會定義為隱藏，因此您可能需要修改 Windows 檔案總管設定才能加以查看。 建立 htt 檔案之後，應該將它標示為唯讀並隱藏。
 
 Web view 範本使用 htt 副檔名，因為它們與傳統 .htm 檔稍有不同。 主要差異在於 htt 檔案中的數個特殊變數，系統會以目前的命名空間值取代這些變數。 % THISDIR% 和% THISDIRPATH% 變數代表目前選取之資料夾的名稱和路徑。 % TEMPLATEDIR% 變數代表儲存 Web 視圖樣式表單的資料夾。
 
@@ -250,7 +250,7 @@ Web view 範本使用 htt 副檔名，因為它們與傳統 .htm 檔稍有不同
 
 範本的主體會指定 Web view 將呈現的內容。 此外，也會載入用來顯示資訊的物件，以及與命名空間資料夾進行通訊的物件。 Htt 所定義的配置與上一節中的圖所示的版面配置類似。 有三個顯示區域：視圖左邊的橫幅和資訊區塊，以及右邊的檔案清單。
 
-這些區域是樣式表單和 DHTML 所要使用的所有指派識別碼。 如下一節所述，有兩個可能的橫幅，其識別碼為 "橫幅" 和 "MiniBanner"。 資訊區塊區域的識別碼是「資訊」。 檔案清單物件的識別碼是 "FileList"。 區域 [版面](#controlling-the-web-view-layout) 配置的詳細資料是由樣式表單和 Microsoft JScript 函式 [FixSize](#adjusting-the-layout-by-using-the-fixsize-function)所處理，本章節稍後會討論。
+這些區域是樣式表單和 DHTML 所要使用的所有指派識別碼。 如下一節所述，有兩個可能的橫幅，其識別碼為 "橫幅" 和 "MiniBanner"。 資訊區塊區域的識別碼是「資訊」。 檔案清單物件的識別碼是 "FileList"。 區域[版面](#controlling-the-web-view-layout)配置的詳細資料是由樣式表單和 Microsoft JScript 函式[FixSize](#adjusting-the-layout-by-using-the-fixsize-function)所處理，本章節稍後將討論這項功能。
 
 ### <a name="the-banner-region"></a>橫幅區域
 
@@ -350,7 +350,7 @@ Web view 範本的標頭包含執行大部分實際工作的腳本和功能。 �
 
 ### <a name="controlling-the-web-view-layout"></a>控制 Web View 版面配置
 
-Web view 的可用區域取決於 Web view 視窗的大小，以及 Windows 檔案總管 bar 所佔用的空間。 當視窗或 Windows 檔案總管的橫條調整大小時，這個區域就會變更。 因此，當 Web view 載入時，版面配置必須符合可用的區域，並在調整大小時適當地變更。 在樣式表單中指定了大部分的版面配置。 例如，資訊區域的定義是要佔用 Web view 的最左邊30%。
+web view 的可用區域取決於 web view 視窗的大小，以及 Windows 檔案總管 bar 所佔用的空間。 當視窗或 Windows 檔案總管的橫條調整大小時，這個區域就會變更。 因此，當 Web view 載入時，版面配置必須符合可用的區域，並在調整大小時適當地變更。 在樣式表單中指定了大部分的版面配置。 例如，資訊區域的定義是要佔用 Web view 的最左邊30%。
 
 
 ```
@@ -513,10 +513,10 @@ document.all.Info.style.pixelHeight = document.body.clientHeight
 
 所有資訊都會串連成單一文字字串，並以 <BR> 可讀性的標記。 然後將文字指派給 [TextBlock. innerHTML](https://msdn.microsoft.com/library/ms533897(VS.85).aspx)來顯示文字。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 本章概述一些可用來自訂 Windows 檔案總管顯示 Shell 資料夾相關資訊方式的技巧。 建立 Desktop.ini 檔案可讓您進行一些簡單的自訂，例如顯示自訂圖示來取代標準資料夾圖示。 當資料夾出現在 Web view 中時，它的版面配置和顯示是由以 HTML 為基礎的範本控制，以決定要顯示的資訊和方法。 您可以使用標準 HTML、DHTML 和腳本技術來建立自訂範本，以對資料夾的 Web 視圖進行高度的控制。
 
- 
+ 
 
- 
+ 

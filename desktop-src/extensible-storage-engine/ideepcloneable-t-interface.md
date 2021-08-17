@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5e1aa6ee4ce199438149b65984335ae24930596d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0cb7089aa7c7e2d6593b6731d2bf6160e94d9526bee8aa75b8aa2d58c36f8d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093648"
 ---
 # <a name="ideepcloneablet-interface"></a>IDeepCloneable \<T\> 介面
 

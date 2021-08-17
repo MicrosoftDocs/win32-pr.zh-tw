@@ -1,6 +1,6 @@
 ---
 title: DPAPIMasterKeys 屬性
-description: 為使用者儲存加密的 DPAPI 主要金鑰。
+description: 適用于使用者之加密 DPAPI 主要金鑰的儲存體。
 ms.assetid: 91e29a4b-0ff4-49a3-ba7f-18531188b9c0
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c79d9c801243e0ed099b88268e801c633b676679
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 376a4fbd54928ccf4ab20e67b118d91cd0e3712fc24230b5dde654df9c278c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960327"
 ---
 # <a name="ms-pki-dpapimasterkeys-attribute"></a>DPAPIMasterKeys 屬性
 
-為使用者儲存加密的 DPAPI 主要金鑰。
+適用于使用者之加密 DPAPI 主要金鑰的儲存體。
 
 
 
@@ -63,7 +63,7 @@ ms.locfileid: "103686999"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000280                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -84,7 +84,7 @@ ms.locfileid: "103686999"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000280                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 

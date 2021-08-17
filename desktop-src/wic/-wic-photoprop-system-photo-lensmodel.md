@@ -4,12 +4,12 @@ ms.assetid: 39aeff17-e8d3-4ceb-86a1-1749d2ca98d6
 title: LensModel 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a5249136346407ab9fcd1e4802d6910d3e514a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a07fff44e14a04dab220f8dbce243a638710f30db253c43c1ff79a240bb32f3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441868"
 ---
 # <a name="systemphotolensmodel-photo-metadata-policy"></a>LensModel 相片中繼資料原則
 

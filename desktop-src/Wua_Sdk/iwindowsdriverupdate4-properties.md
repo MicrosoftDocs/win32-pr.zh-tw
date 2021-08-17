@@ -4,12 +4,12 @@ ms.assetid: 24ee4959-9ec7-466f-a39d-4249cf7c1ca8
 title: IWindowsDriverUpdate4 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f895c92289d81a55cc8ec39b385c212dd4bf6c75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af074b0fa22d7c08aa6747af7335173c5360979bb6af0003162facecb848b109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130410"
 ---
 # <a name="iwindowsdriverupdate4-properties"></a>IWindowsDriverUpdate4 屬性
 

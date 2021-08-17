@@ -4,16 +4,16 @@ description: IAgentCharacter 中斷
 ms.assetid: ae05d317-e2d9-4d11-a6df-f9b25e43467a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17c9f19f716b15a48ec3cdb064aa4c0fdbbd1774
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 64ea2529d4da78607d3ad22bf688857c8917e3317df17ae9a5eb99d0b184878e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750903"
 ---
 # <a name="iagentcharacterinterrupt"></a>IAgentCharacter：：中斷
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT Interrupt(
@@ -48,6 +48,6 @@ HRESULT Interrupt(
 
 您無法使用這個方法來讓字元中斷本身，因為 Microsoft 代理程式伺服器會將 **中斷** 方法排入字元的動畫佇列中。 因此，您只能使用插 **斷來停止** 已載入之另一個字元的動畫。
 
- 
+ 
 
- 
+ 

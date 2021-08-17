@@ -4,12 +4,12 @@ ms.assetid: 95a4fa45-63d1-4931-9c91-b26807d2b043
 title: XSkinMeshHeader
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 306f8c183086846fca020040af00b9ccef2665cc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 78c86127e46809cd1415b191a769b25e09535405e6500e511df6248e6174888d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796852"
 ---
 # <a name="xskinmeshheader"></a>XSkinMeshHeader
 

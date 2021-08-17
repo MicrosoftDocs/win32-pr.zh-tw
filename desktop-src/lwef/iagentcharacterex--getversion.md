@@ -4,16 +4,16 @@ description: IAgentCharacterEx GetVersion
 ms.assetid: 78f6d7b6-f72d-4af8-a014-3acd185926f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5c72d9304aa689cda83117d57f26c2da776c9f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 864bd0cf53e9dd94a547a459bb17cd477189401d544aebca047ead2f049c1c6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750471"
 ---
 # <a name="iagentcharacterexgetversion"></a>IAgentCharacterEx：： GetVersion
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetVersion(
@@ -44,9 +44,9 @@ HRESULT GetVersion(
 
 當您使用 Microsoft 代理程式字元編輯器來建立時，系統會自動設定標準動畫組版本號碼。
 
- 
+ 
 
- 
+ 
 
 
 

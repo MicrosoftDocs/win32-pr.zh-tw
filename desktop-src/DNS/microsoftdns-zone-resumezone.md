@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da0645b370e591b45a5289c19edc77a45bacd0a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb5b7e5b73f5354e09675007d3106c4ac0ee8b6091489ea9323aa2210f07a272
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343958"
 ---
 # <a name="resumezone-method-of-the-microsoftdns_zone-class"></a>MicrosoftDNS 區域類別的 ResumeZone 方法 \_
 

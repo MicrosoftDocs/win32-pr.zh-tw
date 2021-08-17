@@ -7,12 +7,12 @@ keywords:
 - MCIWndCreate 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e459a0e7d93543af126287a776b64130595ad11
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07a75f9798c1bfe0ec4f67da0f990018143efd0285541b49a9035b9749a36de1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065658"
 ---
 # <a name="about-the-mciwnd-window-class"></a>關於 MCIWnd 視窗類別
 
@@ -23,11 +23,11 @@ MCIWnd 視窗類別很容易使用。 藉由使用單一函式， [**MCIWndCreat
 > [!Note]  
 > 有些裝置會播放儲存在檔案中的內容。 其他裝置，例如 CD 音訊裝置，則會播放儲存在另一個媒體中的內容。 為了清楚起見，此總覽將這兩種情況都稱為「播放裝置」。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

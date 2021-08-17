@@ -4,12 +4,12 @@ description: 在 [輪廓著色器宣告] 區段中宣告鑲嵌輸出基本類型
 ms.assetid: 95F074C5-6012-4160-B78E-440C33C1ECC3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 390f22cdafe3b0d078bf8a502623a1c741e34e34
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: d5805e522571588814a9dc4a55ff5cf8cd6f03ce49345de64c9d68a5b6a46c23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792954"
 ---
 # <a name="dcl_tessellator_output_primitive-sm5---asm"></a>dcl \_ 鑲嵌 \_ 輸出 \_ 基本 (sm5-asm) 
 
@@ -40,7 +40,7 @@ ms.locfileid: "104022854"
 
 
 
-| 頂點 | 船體                 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體                 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|----------------------|--------|----------|-------|---------|
 |        | 宣告區段 |        |          |       |         |
 
@@ -57,11 +57,11 @@ ms.locfileid: "104022854"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

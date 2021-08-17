@@ -26,12 +26,12 @@ keywords:
 - 外掛程式嚮導
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13d236c2160c5783f909430e6b49ef2e6361de22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1088d915715be44de092604d626bc24792f6d263a9765a1076ce1afa3f67ef4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135541"
 ---
 # <a name="installing-the-online-store-plug-in-wizard"></a>安裝線上商店外掛程式嚮導
 
@@ -39,7 +39,7 @@ ms.locfileid: "104021563"
 
 -   Microsoft Visual Studio 2005 或更新版本
 -   Windows Media Player 11 或更新版本
--   Windows SDK，其中包含 Windows Media Player SDK
+-   Windowssdk，包含 Windows Media Player sdk
 -   線上商店外掛程式嚮導
 
 ## <a name="installing-the-wizard"></a>安裝精靈
@@ -51,7 +51,7 @@ ms.locfileid: "104021563"
     -   wmpservices .vsz
     -   wmpservices 的 vsdir
     -   wmpservices .ico
-3.  使用 [記事本] 之類的文字編輯器來編輯 wmpservices .vsz 檔。
+3.  使用文字編輯器（例如記事本）編輯 wmpservices .vsz 檔。
 
     尋找下列程式碼行：
 
@@ -72,7 +72,7 @@ ms.locfileid: "104021563"
 
     
 
-     
+     
 
     尋找下列程式碼行：
 
@@ -84,7 +84,7 @@ ms.locfileid: "104021563"
 
     切換 `<path to wmpservices directory goes here>` 至 wizard 檔案所在的路徑。
 
-    例如，假設您有 Visual Studio 2008，而您的 wizard 檔案位於這裡： C： \\ Program files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ 範例 \\ 多媒體 \\ WMP \\ 的 \\ 服務。 然後您的 wmpservices .vsz 檔案看起來會像這樣：
+    例如，假設您有 Visual Studio 2008，而您的 wizard 檔案位於此處： C： \\ Program files \\ Microsoft sdk \\ Windows v2.0 \\ \\ 範例 \\ 多媒體 \\ WMP \\ \\ 的服務。 然後您的 wmpservices .vsz 檔案看起來會像這樣：
 
     ```
     VSWIZARD 7.0
@@ -107,9 +107,9 @@ ms.locfileid: "104021563"
 [建立類型1線上商店的外掛程式](building-the-plug-in-for-a-type-1-online-store.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: fb225e0c-a0c7-44e1-80fb-7b924b371afa
 title: SPI 中的服務類別資料結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5bf249c7437751e7c6d08b2fdf3830e92921ce7
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 53eb2fd61c5ec6295b65128048bc9fe477ae63f78f89bfba4be73798002ead88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104554317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993561"
 ---
 # <a name="service-class-data-structures-in-the-spi"></a>SPI 中的服務類別資料結構
 

@@ -3,7 +3,7 @@ title: 'EM_REPLACESEL 訊息 (Winuser .h) '
 description: 以指定的文字取代編輯控制項中選取的文字或 rich edit 控制項。
 ms.assetid: 525e6f5a-f52f-4bab-bc76-caa484729897
 keywords:
-- EM_REPLACESEL message Windows 控制項
+- EM_REPLACESEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d9745b870a310626a6cbbbddbef118a63c64479
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 478550432aa8c03a081e8de214cdd7e8337a46eca2676a0531b177a81ff20a54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831179"
 ---
 # <a name="em_replacesel-message"></a>EM \_ REPLACESEL 訊息
 
@@ -63,9 +63,9 @@ ms.locfileid: "104106271"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

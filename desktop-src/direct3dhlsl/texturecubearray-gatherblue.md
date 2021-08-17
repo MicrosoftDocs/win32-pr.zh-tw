@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: ee3946a2a205a679da835b2523da090611372331
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: bf6a87e4e4accb6a9c6742d6bb31b5cec36bc14f8120587e45f8979c9a5d3ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786321"
 ---
 # <a name="texturecubearraygatherblue-methods"></a>TextureCubeArray：： GatherBlue 方法
 

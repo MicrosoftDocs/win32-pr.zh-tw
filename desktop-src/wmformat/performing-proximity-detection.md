@@ -3,8 +3,8 @@ title: 執行鄰近性偵測
 description: 執行鄰近性偵測
 ms.assetid: 73207c4c-2d8d-4ec3-b3d0-78f55ee0a754
 keywords:
-- Windows Media Format SDK，執行鄰近性偵測
-- Windows Media Format SDK，鄰近性偵測
+- Windows媒體格式 SDK，執行鄰近性偵測
+- Windows媒體格式 SDK，鄰近性偵測
 - Advanced Systems Format (ASF) ，執行鄰近性偵測
 - ASF (Advanced 系統格式) ，執行鄰近性偵測
 - Advanced Systems Format (ASF) 、鄰近性偵測
@@ -16,20 +16,20 @@ keywords:
 - 鄰近性偵測
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9628a6c33832b56858e5c457f15fd0935c2c436
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 181b13d56e4c2b1fea0da1ff761f6d915680ff89c42747b9faf4260184ae4205
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963977"
 ---
 # <a name="performing-proximity-detection"></a>執行鄰近性偵測
 
-您必須先執行稱為鄰近偵測的進程， (也稱為驗證) ，才能將加密資料串流至 Windows Media DRM 10 for Network Devices 通訊協定中的已註冊裝置。 此程式牽涉到將訊息傳送至裝置，並接收回應。 接收回應所需的時間是用來判斷裝置是否接近網路上的電腦，以接收安全的資料。 確認裝置實際接近網路上的用戶端電腦有助於防止詐騙和其他未經授權的存取。
+在您可以將加密資料串流至 Windows 媒體 DRM 10 for Network Devices protocol 中的已註冊裝置之前，您必須執行稱為鄰近偵測的進程 (也稱為驗證) 。 此程式牽涉到將訊息傳送至裝置，並接收回應。 接收回應所需的時間是用來判斷裝置是否接近網路上的電腦，以接收安全的資料。 確認裝置實際接近網路上的用戶端電腦有助於防止詐騙和其他未經授權的存取。
 
 當近接偵測順利完成時，裝置就會被視為有效。 您可以藉由呼叫 [**IWMRegisteredDevice：： IsValid**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistereddevice-isvalid) 方法來檢查裝置是否有效。 裝置必須每隔48小時進行驗證。 在您的程式執行之前經過驗證超過48小時的裝置，必須重新驗證，方法是再次執行鄰近性偵測處理常式。
 
-若要執行鄰近性偵測，您必須建立與裝置的通訊，然後呼叫 [**IWMProximityDetection：： StartDetection**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmproximitydetection-startdetection) 方法。 偵測程式是由 Windows Media Format SDK 的內部 DRM 元件以非同步方式完成。 您的應用程式必須包含 [**IWMStatusCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) 介面的執行，以處理鄰近性偵測訊息。
+若要執行鄰近性偵測，您必須建立與裝置的通訊，然後呼叫 [**IWMProximityDetection：： StartDetection**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmproximitydetection-startdetection) 方法。 偵測程式是由 Windows 媒體格式 SDK 的內部 DRM 元件以非同步方式完成。 您的應用程式必須包含 [**IWMStatusCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) 介面的執行，以處理鄰近性偵測訊息。
 
 近接偵測程式會傳送兩則訊息：結果訊息和完成訊息。
 
@@ -45,12 +45,12 @@ ms.locfileid: "104374362"
 
 <dl> <dt>
 
-[**使用 Windows Media DRM 10 進行網路裝置通訊協定**](using-the-windows-media-drm-10-for-network-devices-protocol.md)
+[**使用 Windows 媒體 DRM 10 進行網路裝置通訊協定**](using-the-windows-media-drm-10-for-network-devices-protocol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

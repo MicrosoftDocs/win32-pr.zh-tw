@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6238a4b148de67275af1b288d57686cc4d381ee9
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 17030bb99eb472b5cffe53474eb04c30159e5e30ffb2d219f1ac47dfce9da205
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787731"
 ---
 # <a name="texm3x3---ps"></a>texm3x3-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104971549"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104971549"
 
 
 
- 
+ 
 
 此指示與 [texm3x3tex ps](texm3x3tex---ps.md) 指令相同，不需要材質查閱。
 
@@ -93,9 +93,9 @@ t (m + 2) <sub>RGBA</sub> = (u<sup>'</sup> 、v<sup>'</sup> 、w<sup>'</sup> 、
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

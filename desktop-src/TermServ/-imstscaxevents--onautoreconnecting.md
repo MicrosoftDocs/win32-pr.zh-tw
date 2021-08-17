@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3435be46f2bb2c7bcf8ca662b039f3e5ef856d8b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2a26bb57416cd73f6d838ab08167923c4900b7b923a6a6f411239bbacd3fdbac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119309138"
 ---
 # <a name="imstscaxeventsonautoreconnecting-method"></a>IMsTscAxEvents：： OnAutoReconnecting 方法
 
@@ -118,7 +118,7 @@ void OnAutoReconnecting(
 
  
 
-透過將 *pArcContinueStatus* 參數的值設定為 **autoReconnectContinueManual** 來變更自動重新連線程式的狀態時，容器將會藉由呼叫 [**Connect**](imstscax-connect.md) 來觸發連接嘗試或 [**中斷**](imstscax-disconnect.md) 連線以取消自動重新連線程式，以手動方式控制自動重新連接程式。 一旦設定為此值，控制項就會停止進行自動重新連線嘗試，並成為容器的原則，以進行 **連接** 呼叫以觸發自動重新連線嘗試。 這是在容器提供自動重新連線的自訂 UI 行為時完成，例如在自動重新連線程式之前重新開機已中斷的 RAS 或 VPN 連線。
+透過將 *pArcContinueStatus* 參數的值設定為 **autoReconnectContinueManual** 來變更自動重新連線程式的狀態時，容器會藉由呼叫 [**連線**](imstscax-connect.md)來觸發連接嘗試或 [**中斷**](imstscax-disconnect.md)連線以取消自動重新連線程式，以手動方式控制自動重新連接程式。 一旦設定為此值，控制項就會停止進行自動重新連線嘗試，並且成為容器的原則，以進行 **連線** 呼叫，以觸發自動重新連線嘗試。 這是在容器提供自動重新連線的自訂 UI 行為時完成，例如在自動重新連線程式之前重新開機已中斷的 RAS 或 VPN 連線。
 
 如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。
 

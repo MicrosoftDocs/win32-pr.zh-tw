@@ -4,12 +4,12 @@ ms.assetid: 44f50407-8f55-49c4-9e42-2f1666c9da7c
 title: Schannel 中的訊息驗證碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b93939c0c4b4550ad0c24f8e6ef0e0b8bf9f1b07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db81efbaa71dc94094e5efb14d11dde600798cc8f58855a3a3ae116a624b679f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117786980"
 ---
 # <a name="message-authentication-codes-in-schannel"></a>Schannel 中的訊息驗證碼
 

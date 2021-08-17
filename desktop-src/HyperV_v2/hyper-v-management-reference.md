@@ -4,12 +4,12 @@ ms.assetid: 87588AE3-54DF-4415-BA24-1D6E8B46E758
 title: Hyper-v 管理參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73f03e5335dd8883b07e68c02d503a99317bf2e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79dddd22c5f9545781c3e3c71606961ca79762ea86eab50f4cd5a5e9c38783d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119427508"
 ---
 # <a name="hyper-v-management-reference"></a>Hyper-v 管理參考
 

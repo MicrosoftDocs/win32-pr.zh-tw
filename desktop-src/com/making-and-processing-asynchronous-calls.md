@@ -4,12 +4,12 @@ description: COM 物件可支援非同步呼叫。
 ms.assetid: bf7f9f8e-66ce-41a4-854c-62dbe840a89e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 059f55cc64a70f130e7fb654426803edbe8b7209
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 173f33ea3a0d4ec59f994eeff259e776efa58ae5b0182ba97f77e1ba99dd0d82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106995154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130200"
 ---
 # <a name="making-and-processing-asynchronous-calls"></a>製作和處理非同步呼叫
 
@@ -22,7 +22,7 @@ COM 物件可支援非同步呼叫。 當用戶端進行非同步呼叫時，控
 > [!Note]  
 > 不提供適用于 **idispatch** 的非同步支援，或繼承 **IDispatch** 的介面。
 
- 
+ 
 
 支援非同步呼叫的伺服器物件會執行 [**ICallFactory**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory) 介面。 這個介面會公開單一方法 [**CreateCall**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall)，它會建立指定之呼叫物件的實例。 用戶端可以查詢 **ICallFactory** ，以判斷物件是否支援非同步呼叫。
 
@@ -43,6 +43,6 @@ COM 物件可支援非同步呼叫。 當用戶端進行非同步呼叫時，控
 -   [取消方法呼叫](canceling-method-calls.md)
 -   [呼叫同步處理](call-synchronization.md)
 
- 
+ 
 
- 
+ 

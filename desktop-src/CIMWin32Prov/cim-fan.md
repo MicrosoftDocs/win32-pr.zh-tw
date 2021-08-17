@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6a06e0ddebbdadf7cb4e6dd61afa3fa7c178f661
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2daf8073d457eec112de7ed6a88f07a36649280e1bd24c12c2c09ebaa4feb529
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923868"
 ---
 # <a name="cim_fan-class"></a>CIM \_ 風扇類別
 
@@ -358,7 +358,7 @@ class CIM_Fan : CIM_CoolingDevice
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -889,7 +889,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
+Windows隨插即用邏輯裝置的裝置識別碼。 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
 範例： " \* PNP030b"
 

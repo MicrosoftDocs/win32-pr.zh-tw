@@ -4,12 +4,12 @@ ms.assetid: 9E93622B-56E9-4F2F-9EFA-4F63D45EDCB6
 title: IX509EndorsementKey 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c4bbdbc464803988f5b1100ac42fc0e3697fb67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41d135205680e4c998c1157844cfa66a9ef9bd7ef4df5ff8258a31e562a685e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117776186"
 ---
 # <a name="ix509endorsementkey-properties"></a>IX509EndorsementKey 屬性
 

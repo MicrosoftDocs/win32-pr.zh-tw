@@ -4,12 +4,12 @@ description: 實行驗證通訊協定的廠商也可以為通訊協定提供設�
 ms.assetid: 956a7ad6-1fd5-4938-aa2f-4de646dfd6c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d7296f6afd8fd84f287b6c2c7085e5ed92685f5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 13c8b067ba65312edea412ba532620e029912088e9cc61885626f8a13f5a2834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117800"
 ---
 # <a name="client-side-configuration-user-interface"></a>Client-Side 設定消費者介面
 
@@ -31,6 +31,6 @@ ms.locfileid: "104314887"
 
 廠商可以在指定通訊協定預設設定資訊的驗證通訊協定的登錄機碼下新增值。 廠商也可以新增值，指定使用者建立電話簿專案時是否需要輸入設定資訊。 如需詳細資訊，請參閱 [驗證通訊協定登錄值](authentication-protocol-registry-values.md)。
 
- 
+ 
 
- 
+ 

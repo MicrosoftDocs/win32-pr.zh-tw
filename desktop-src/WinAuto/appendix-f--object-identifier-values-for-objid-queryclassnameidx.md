@@ -4,12 +4,12 @@ description: 當 OLEACC 傳送 \_ lParam 參數設定為 OBJIDQUERYCLASSNAMEIDX 
 ms.assetid: 2a54973c-7dfa-49af-8fd0-925fafa256ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faffd8382820aef2cd341ce54b23c9e9e7c9a59b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f22368f15fa40e30f909f9ad838cb478ed1e9a9c9ff25929f63bb91ec99e99b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134031"
 ---
 # <a name="appendix-f-object-identifier-values-for-objid_queryclassnameidx"></a>附錄 F： OBJID QUERYCLASSNAMEIDX 的物件識別碼值 \_
 
@@ -20,8 +20,8 @@ ms.locfileid: "106966467"
 | 使用者或通用控制項 | 傳回值 |
 |------------------------|--------------|
 | Listbox                | 65536 + 0      |
-| 按鈕                 | 65536 + 2      |
-| Static                 | 65536 + 3      |
+| Button                 | 65536 + 2      |
+| 靜態                 | 65536 + 3      |
 | 編輯                   | 65536 + 4      |
 | Combobox               | 65536 + 5      |
 | 捲軸              | 65536 + 10     |
@@ -41,7 +41,7 @@ ms.locfileid: "106966467"
 
 
 
- 
+ 
 
 只有使用者和 Windows 通用控制項 (COMCTL) 會傳回資料表中的其中一個值。 如果視窗傳回0以回應此訊息，則視窗可以是下列其中一項：
 
@@ -53,6 +53,6 @@ ms.locfileid: "106966467"
 
 一般而言，用戶端可以使用 OLEACC 所提供的資訊。
 
- 
+ 
 
- 
+ 

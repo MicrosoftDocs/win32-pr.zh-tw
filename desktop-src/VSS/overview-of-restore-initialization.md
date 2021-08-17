@@ -4,12 +4,12 @@ ms.assetid: 0a087125-c9d4-460a-8153-3e2e26633ac2
 title: 還原初始化的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb62e5282a74e38cd53d36c8ba004f4b8069746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c531e4b47c49e5bd5538ea30583a31273bb6645a445ef1b1ea851bac539411c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751687"
 ---
 # <a name="overview-of-restore-initialization"></a>還原初始化的總覽
 

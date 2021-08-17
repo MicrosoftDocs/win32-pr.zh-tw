@@ -4,12 +4,12 @@ description: 本文提供如何在偵錯工具中最好使用符號的概要說�
 ms.assetid: 7ce0c9c7-485c-8d72-0353-27fd2e369a7c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9935c490204736995e17e3c8013ce56f57624b
-ms.sourcegitcommit: 4c71a269e3a114c72dd9eb31ccb4948a32beaa5b
+ms.openlocfilehash: cdabd1a99f203adb2422cc4bbc71c3fb2f6108a0a3869077e97683bdcf830100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "114662258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070558"
 ---
 # <a name="debugging-with-symbols"></a>使用符號進行調試
 

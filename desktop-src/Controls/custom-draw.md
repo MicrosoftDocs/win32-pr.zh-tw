@@ -4,12 +4,12 @@ description: 自訂繪製不是通用控制項;它是許多常見控制項所提
 ms.assetid: vs|controls|~\controls\custdraw\custdraw.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5184d06dbb8e04185bf12a43c6c71dd96b933a6a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16271e915a942e21f3f3763237a25c37a8b934fc1a44a016bb7e3938491a3c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413176"
 ---
 # <a name="custom-draw"></a>自訂繪圖
 

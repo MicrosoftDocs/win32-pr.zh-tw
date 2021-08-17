@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - Root\CIMV2
-ms.openlocfilehash: fbad71cd88992673af5dd60c04b92dd3c833e5b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c1e5174cb9fcaf9279d16eceda547e9e5060c4ca4f7deda09cc170cf3dd7653
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244648"
 ---
 # <a name="cim_lastappliedsettingdata-class"></a>CIM \_ LastAppliedSettingData 類別
 

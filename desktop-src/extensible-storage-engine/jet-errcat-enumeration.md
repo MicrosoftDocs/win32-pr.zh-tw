@@ -60,12 +60,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e08ec4ce308003dc30edaa32a07000e244dc9f37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f259edf0e087831cfb667caa5fa8dcf215638ab6d739812fa2e6208327a22f7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119232798"
 ---
 # <a name="jet_errcat-enumeration"></a>JET_ERRCAT 列舉
 
@@ -135,7 +135,7 @@ public enum JET_ERRCAT
 </tr>
 <tr class="even">
 <td></td>
-<td>Quota</td>
+<td>配額</td>
 <td>某些 &quot; 特殊 &quot; 資源會在特定大小的集區中，讓您更輕鬆地偵測這些資源的洩漏。 復原：可能需要一些次要的程式碼變更。 在這些情況下，您的應用程式應該要有僅限 debug 的動作（例如判斷提示），才能在開發期間偵測它們。 針對零售程式碼，我們建議您將此錯誤視為記憶體類別錯誤，然後重試、釋出記憶體或結束作業。</td>
 </tr>
 <tr class="odd">
@@ -165,12 +165,12 @@ public enum JET_ERRCAT
 </tr>
 <tr class="even">
 <td></td>
-<td>Api</td>
+<td>API</td>
 <td>使用方式和狀態的容器。</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>使用方式</td>
+<td>使用量</td>
 <td>傳統使用方式錯誤，這表示用戶端程式代碼未傳遞正確的引數給 JET API。 此錯誤可能不會在重試後消失。 復原：一般而言，用戶端程式代碼應該判斷提示 () 此類別的錯誤不會傳回，因此在開發期間可能會發生問題。 在零售版中，應用程式可能會有極少的選項，但是將問題傳回給操作員。</td>
 </tr>
 <tr class="even">

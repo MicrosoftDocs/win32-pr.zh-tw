@@ -7,12 +7,12 @@ keywords:
 - 正在工作排程器應用程式名稱中抓取工作屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeb590900cf7b4c6d8821560e91e2f05c21c0f73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dde0d00910ab590e8668e66da3380744a85228e86dafba4d1db7349b24bb80a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139631"
 ---
 # <a name="cc-code-example-retrieving-the-task-application-name"></a>C/c + + 程式碼範例：正在抓取工作應用程式名稱
 
@@ -122,9 +122,9 @@ int main(int argc, char **argv)
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ description: SoundEffectsOn 屬性
 ms.assetid: 478c4748-5ca1-4237-958a-17f0a476c32c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5982a90fbc21aeae06d965dcb92ad7c3b9120db5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 664a9f3ce4e76d7f42cc6fb15e737bea302730bb03ea414e968336ee147772cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975708"
 ---
 # <a name="soundeffectson-property"></a>SoundEffectsOn 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104507196"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式*。**( "***CharacterID***" ) 的字元。SoundEffectsOn** \[  =  *布林值*\]
+*代理程式*。**( "**_CharacterID_*_" ) 的字元。SoundEffectsOn_* \[  =  *布林值*\]
 
 
 

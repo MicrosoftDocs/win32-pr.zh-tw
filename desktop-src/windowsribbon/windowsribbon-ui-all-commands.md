@@ -36,7 +36,7 @@ ms.locfileid: "118705957"
 | 最低支援的用戶端<br/> | Windows 7、Windows vista （含 SP2）和僅適用于 Windows Vista \[ 桌面應用程式的平臺更新\]<br/>                          |
 | 最低支援的伺服器<br/> | Windowsserver 2008 R2、Windows server 2008 SP2 和平臺更新，適用于 Windows Server 2008 \[ desktop 應用程式\]<br/> |
 | 標頭<br/>                   | <dl> <dt>Uiribbon。h</dt> </dl>                                             |
-| Idl<br/>                      | <dl> <dt>Uiribbon .idl</dt> </dl>                                           |
+| IDL<br/>                      | <dl> <dt>Uiribbon .idl</dt> </dl>                                           |
 
 
 

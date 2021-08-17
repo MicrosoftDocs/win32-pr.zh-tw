@@ -4,12 +4,12 @@ description: 'IBackgroundCopyJob 介面會公開下列方法。 | (BITS 的 IBac
 ms.assetid: CB1C6D64-416A-4F31-AC9D-B3C1A6818034
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1a7ebeeefa90c90435f1294d78c4816cf77be3c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1886eee54ed0fec0737a49b5598cbd2843872baa866dc371b0d09082362ac944
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104514409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959327"
 ---
 # <a name="ibackgroundcopyjob-methods-bits"></a> (BITS 的 IBackgroundCopyJob 方法) 
 

@@ -4,12 +4,12 @@ ms.assetid: 7bfc7d4e-2ab3-44ec-a936-f2d7dcfce263
 title: 'LINETONEMODE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9e1b5a8d49c927dfa3d5ec87f9a4830a91d79d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 268d8a20d9cceaad732b3ef99cf8a8e7a3c4e7de4d841feff07f0b606cf4d314
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404908"
 ---
 # <a name="linetonemode_-constants"></a>LINETONEMODE \_ 常數
 

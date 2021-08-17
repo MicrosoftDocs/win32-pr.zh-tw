@@ -4,16 +4,16 @@ description: IAgentNotifySink BalloonVisibleState
 ms.assetid: 240e049c-7167-41b7-b092-95ed2a83aad3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2dd63d8eef3a7f1a70af81e13506a7e92ad84f5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f61f1213c6d947f2ca23e0b67ff8eef393892f4732e4a419ec93c277a62af99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106978566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976178"
 ---
 # <a name="iagentnotifysinkballoonvisiblestate"></a>IAgentNotifySink::BalloonVisibleState
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT BalloonVisibleState(
@@ -44,9 +44,9 @@ HRESULT BalloonVisibleState(
 
 此事件會傳送到字元的所有用戶端。
 
- 
+ 
 
- 
+ 
 
 
 

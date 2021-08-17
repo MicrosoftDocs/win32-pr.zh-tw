@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ffd5fbc98e653a6bbaffa7d3cec16b13695365b2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ad2c68d7ab26a6aa80f5abb08207702433d55c6dc12473d94a87a2b1c3b25249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044636"
 ---
 # <a name="d3dxvec2maximize-function"></a>D3DXVec2Maximize 函式
 

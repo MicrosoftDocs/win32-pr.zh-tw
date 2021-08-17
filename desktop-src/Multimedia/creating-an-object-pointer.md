@@ -4,12 +4,12 @@ description: 建立物件指標
 ms.assetid: b66a2725-6ba1-4aea-b165-fe3f4da00375
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f57451e2781a94642e61365d3a6c694758f4056
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 586ba0b8c9ee261e29f21ed58c84193f4cc89d1399c62d75d82a2c0a49075dcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144681"
 ---
 # <a name="creating-an-object-pointer"></a>建立物件指標
 
@@ -35,9 +35,9 @@ typedef struct
 
 
 
- 
+ 
 
- 
+ 
 
 
 

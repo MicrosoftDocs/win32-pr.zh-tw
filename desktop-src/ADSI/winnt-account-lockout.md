@@ -8,12 +8,12 @@ keywords:
 - WinNT 提供者 ADSI、使用者管理範例、帳戶鎖定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ffeacb18b42beeb20b4af8bf571e611a85ab118
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 86e28c2a4bf58f5559070af78ca55235e8b10c16b2b856a63a256767d4d67a53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106965668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838358"
 ---
 # <a name="account-lockout-winnt-provider"></a> (WinNT 提供者的帳戶鎖定) 
 
@@ -153,6 +153,6 @@ HRESULT IsAccountLocked(LPCWSTR pwszUserDN, BOOL *pfLocked)
 
 
 
- 
+ 
 
- 
+ 

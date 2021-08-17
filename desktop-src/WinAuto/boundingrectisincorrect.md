@@ -4,12 +4,12 @@ description: BoundingRectIsIncorrect
 ms.assetid: 29D3EFB4-204D-419E-B241-25C8BAE28C11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8972a02086e7838c2356cc647ffbed4442d9015
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eccc5db6cbf0b3432871ba4a25d95ee8f6583fb47deeabf2e388942168a1c71c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118326721"
 ---
 # <a name="boundingrectisincorrect"></a>BoundingRectIsIncorrect
 
@@ -35,9 +35,9 @@ ms.locfileid: "104021345"
 [**AccessibleObjectFromPoint**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

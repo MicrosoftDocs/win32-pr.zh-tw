@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc6c43862b498fe5828d2746666c5e414de4c71e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d04e41845bc3c7ebb32b5b6300c5ccd1bc9d1444ef86497e613bc833c220cec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757435"
 ---
 # <a name="imsrdpclientadvancedsettingsshadowbitmap-property"></a>IMsRdpClientAdvancedSettings：： ShadowBitmap 屬性
 

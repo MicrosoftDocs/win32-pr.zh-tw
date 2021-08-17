@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b3b633e343a0ca7d43deffee5bda7666a3d144
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d193169baf60b3e52572cc4a7a5371f57198a2cacc99671508bf5e2de14d9a96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442758"
 ---
 # <a name="auxiliary-class-attribute"></a>Auxiliary-Class 屬性
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a23cfa34e167d43dfe5987525f7f33d57ba62062
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae34648ff1cdd8861270b4e0dd83d9e655df3e750ef7d436704416b3381c7e2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093618"
 ---
 # <a name="indexsegmentgethashcode-method"></a>IndexSegment. GetHashCode 方法
 

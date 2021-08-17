@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e67401329c161728478e7c93a5b3939c0c27746a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9c2951809241ed4a53ebbdf56006e6bc25703fb0962102e43d176efdf819e28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117979"
 ---
 # <a name="xmubyten4-constructors"></a>XMUBYTEN4 函式
 

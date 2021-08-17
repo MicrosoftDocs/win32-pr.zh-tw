@@ -4,12 +4,12 @@ ms.assetid: f62402d6-31de-4ff7-9538-7925a007a089
 title: 使用永久性地區設定資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4fe4990da53e4db9f71b2feffbd9eb40aedee9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a28f1545284f6bebc0d903f8f5fc3fdd3b74ea29730dc64f52c1ed384ae2a7c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383328"
 ---
 # <a name="using-persistent-locale-data"></a>使用永久性地區設定資料
 
@@ -21,7 +21,7 @@ ms.locfileid: "103852960"
 -   區域喜好設定可以變更。 例如，d/m/y 格式可能會變更為特定地區設定的 m/d/y 格式。
 -   由於拼寫 reforms，可能會變更日名稱的拼寫。 此外，也可以變更月份或日期名稱的大小寫。
 
-## <a name="use-locale-independent-formats-for-storage-and-data-interchange"></a>使用 Locale-Independent 格式進行儲存體和資料交換
+## <a name="use-locale-independent-formats-for-storage-and-data-interchange"></a>針對儲存體和資料交換使用 Locale-Independent 格式
 
 保存資料的應用程式應該使用與地區設定無關的儲存和資料交換格式。 範例有硬式編碼或標準格式;非變異地區設定的 [地區設定 \_ 名稱不 \_ 變](locale-name-constants.md); 以及二進位儲存格式。
 

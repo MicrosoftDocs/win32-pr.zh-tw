@@ -4,18 +4,18 @@ description: 本主題示範如何執行主控描繪清單方塊。
 ms.assetid: AE6E8943-DC03-4A21-9F0A-9C70C6BD7481
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81b48a56ca188fb2c277cc822dcb9a343205a331
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 2994c88aec9f3c11ae856136103cf3327d53a2b72c5b2e8903e187ece01bf0f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413196"
 ---
 # <a name="how-to-create-an-owner-drawn-list-box"></a>如何建立 Owner-Drawn 清單方塊
 
 本主題示範如何執行主控描繪清單方塊。
 
-本主題中的 c + + 程式碼範例示範如何繪製包含五個主控描繪專案的清單方塊：四個繪圖實作為一個分支。 每個清單專案都會顯示為點陣圖，後面接著物件的名稱。 按鈕會提示使用者選取一個與其他專案不同的專案。 選擇已選取分支的按鈕會顯示「您是 right！」 訊息並關閉對話方塊。 選擇已選取任何其他清單專案的按鈕會顯示「再試一次！」 回應。
+本主題中的 c + + 程式碼範例示範如何繪製包含五個主控描繪專案的清單方塊：四個繪圖實作為一個分支。 每個清單專案都會顯示為點陣圖，後面接著物件的名稱。 按鈕會提示使用者選取一個與其他專案不同的專案。 選擇已選取分支的按鈕會顯示「您是 right！」 訊息並關閉對話方塊。 選擇已選取任何其他清單專案的按鈕會顯示「再試一次！」 訊息。
 
 除了標準的清單方塊樣式之外，清單方塊還具有 [**磅 \_ OWNERDRAWFIXED**](list-box-styles.md) 和 [**磅 \_ HASSTRINGS**](list-box-styles.md) 樣式。
 
@@ -23,12 +23,12 @@ ms.locfileid: "103933752"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

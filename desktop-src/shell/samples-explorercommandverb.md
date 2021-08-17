@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: a35662c3df0e0fcddae049ccfaac2d9e3e265ee3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ec8f4c88ea01aad410e982fc24fd248f3c1826d8c8657e904844b535e621fd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719180"
 ---
 # <a name="explorer-command-verb-sample"></a>Explorer 命令動詞範例
 
@@ -61,7 +61,7 @@ ms.locfileid: "103852188"
 
 ## <a name="running-the-sample"></a>執行範例
 
-1.  使用命令提示字元或 Windows 檔案總管，流覽至包含 ExplorerCommandVerb.dll 的目錄。 請確定您在64位的 Windows 上使用64位的 DLL 檔案。
+1.  使用命令提示字元或 Windows 檔案總管，流覽至包含 ExplorerCommandVerb.dll 的目錄。 請確定您在64位 Windows 上使用64位 DLL 檔案。
 2.  在命令列中，輸入 `regsvr32.exe ExplorerCommandVerb.dll` 。
 3.  當您以滑鼠右鍵按一下 .txt 檔案時，內容功能表上會顯示兩個新的動詞命令。
 

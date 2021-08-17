@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: a8590a2a83cdbc9bd06575cf17ddbe65138a4a31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50d81fb8cfc5580ad0868df307771c493c0919e1bf2ce4de4b67d48db034a0d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118321108"
 ---
 # <a name="__cimomidentification-class"></a>\_\_CIMOMIdentification 類別
 
@@ -124,7 +124,7 @@ class __CIMOMIdentification : __SystemClass
 
 ## <a name="examples"></a>範例
 
-下列 VBScript 程式碼範例說明如何顯示 CIM 物件模型識別資訊，並取自 \\ \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ sysmgmt \\ wmi \\ 腳本的範例目錄。
+下列 VBScript 程式碼範例說明如何顯示 CIM 物件模型識別資訊，並取自 \\ \\ 程式檔 \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ sysmgmt \\ wmi \\ 腳本的範例目錄。
 
 
 ```VB
@@ -141,7 +141,7 @@ end if
 
 
 
-下列 Perl 程式碼範例說明如何顯示 CIM 物件模型識別資訊，並取自 \\ \\ 程式檔 \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ \\ sysmgmt \\ wmi \\ 腳本範例目錄。
+下列 Perl 程式碼範例說明如何顯示 CIM 物件模型識別資訊，並取自 \\ \\ 程式檔 \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ sysmgmt \\ wmi \\ 腳本的範例目錄。
 
 
 ```Perl

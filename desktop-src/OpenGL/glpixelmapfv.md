@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97124eeca8051ec23d9a4fea03a98468d320af8e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b2e447e471f1a37f4d0c8c6bd8fb3ce548bb5657e49afafa01e785b0870ebdd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938353"
 ---
 # <a name="glpixelmapfv-function"></a>glPixelMapfv 函式
 
@@ -51,16 +51,16 @@ void WINAPI glPixelMapfv(
 
 | 值                                                                                                                                                                               | 意義                                               |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| <span id="GL_PIXEL_MAP_I_TO_I"></span><span id="gl_pixel_map_i_to_i"></span><dl> <dt>**GL \_ 圖元 \_ 對應 \_ I \_ \_**</dt> </dl> | 將色彩索引對應至色彩索引。<br/>       |
-| <span id="GL_PIXEL_MAP_S_TO_S"></span><span id="gl_pixel_map_s_to_s"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ S \_ 到 \_ S**</dt> </dl> | 將樣板索引對應至樣板索引。<br/>   |
-| <span id="GL_PIXEL_MAP_I_TO_R"></span><span id="gl_pixel_map_i_to_r"></span><dl> <dt>**GL \_ 圖元 \_ 對應 \_ I \_ 到 \_ R**</dt> </dl> | 將色彩索引對應至紅色元件。<br/>      |
-| <span id="GL_PIXEL_MAP_I_TO_G"></span><span id="gl_pixel_map_i_to_g"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ I \_ 到 \_ G**</dt> </dl> | 將色彩索引對應至綠色元件。<br/>    |
-| <span id="GL_PIXEL_MAP_I_TO_B"></span><span id="gl_pixel_map_i_to_b"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ I \_ 到 \_ B**</dt> </dl> | 將色彩索引對應至藍色元件。<br/>     |
-| <span id="GL_PIXEL_MAP_I_TO_A"></span><span id="gl_pixel_map_i_to_a"></span><dl> <dt>**GL \_ 圖元 \_ 對應 \_ I \_ 到 \_**</dt> </dl> | 將色彩索引對應至 Alpha 元件。<br/>    |
-| <span id="GL_PIXEL_MAP_R_TO_R"></span><span id="gl_pixel_map_r_to_r"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ R \_ 至 \_ R**</dt> </dl> | 將紅色元件對應至紅色元件。<br/>     |
-| <span id="GL_PIXEL_MAP_G_TO_G"></span><span id="gl_pixel_map_g_to_g"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ G \_ 至 \_ G**</dt> </dl> | 將綠色元件對應至綠色元件。<br/> |
-| <span id="GL_PIXEL_MAP_B_TO_B"></span><span id="gl_pixel_map_b_to_b"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ B \_ 到 \_ B**</dt> </dl> | 將藍色元件對應至藍色元件。<br/>   |
-| <span id="GL_PIXEL_MAP_A_TO_A"></span><span id="gl_pixel_map_a_to_a"></span><dl> <dt>**GL \_ 圖元 \_ 將 \_ A 對應 \_ 至 \_**</dt> </dl> | 將 Alpha 元件對應至 Alpha 元件。<br/> |
+| <span id="GL_PIXEL_MAP_I_TO_I"></span><span id="gl_pixel_map_i_to_i"></span><dl> <dt>**GL \_ 圖元 \_ 對應 \_ I \_ \_**</dt> </dl> | 地圖色彩索引的色彩索引。<br/>       |
+| <span id="GL_PIXEL_MAP_S_TO_S"></span><span id="gl_pixel_map_s_to_s"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ S \_ 到 \_ S**</dt> </dl> | 地圖範本索引的樣板索引。<br/>   |
+| <span id="GL_PIXEL_MAP_I_TO_R"></span><span id="gl_pixel_map_i_to_r"></span><dl> <dt>**GL \_ 圖元 \_ 對應 \_ I \_ 到 \_ R**</dt> </dl> | 地圖紅色元件的色彩索引。<br/>      |
+| <span id="GL_PIXEL_MAP_I_TO_G"></span><span id="gl_pixel_map_i_to_g"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ I \_ 到 \_ G**</dt> </dl> | 地圖將色彩索引設為綠色的元件。<br/>    |
+| <span id="GL_PIXEL_MAP_I_TO_B"></span><span id="gl_pixel_map_i_to_b"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ I \_ 到 \_ B**</dt> </dl> | 地圖藍色元件的色彩索引。<br/>     |
+| <span id="GL_PIXEL_MAP_I_TO_A"></span><span id="gl_pixel_map_i_to_a"></span><dl> <dt>**GL \_ 圖元 \_ 對應 \_ I \_ 到 \_**</dt> </dl> | 地圖 Alpha 元件的色彩索引。<br/>    |
+| <span id="GL_PIXEL_MAP_R_TO_R"></span><span id="gl_pixel_map_r_to_r"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ R \_ 至 \_ R**</dt> </dl> | 將紅色元件地圖紅色元件。<br/>     |
+| <span id="GL_PIXEL_MAP_G_TO_G"></span><span id="gl_pixel_map_g_to_g"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ G \_ 至 \_ G**</dt> </dl> | 地圖綠色元件的綠色元件。<br/> |
+| <span id="GL_PIXEL_MAP_B_TO_B"></span><span id="gl_pixel_map_b_to_b"></span><dl> <dt>**GL \_ 圖元 \_ 地圖 \_ B \_ 到 \_ B**</dt> </dl> | 地圖藍色元件的藍色元件。<br/>   |
+| <span id="GL_PIXEL_MAP_A_TO_A"></span><span id="gl_pixel_map_a_to_a"></span><dl> <dt>**GL \_ 圖元 \_ 將 \_ A 對應 \_ 至 \_**</dt> </dl> | Alpha 元件地圖 Alpha 元件。<br/> |
 
 
 
@@ -92,7 +92,7 @@ void WINAPI glPixelMapfv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                                                    |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *地圖* 不是可接受的值。<br/>                                                                                                                                                                                |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *mapsize* 是負數或大於 GL \_ 圖元 \_ 地圖 \_ 資料表。 <br/>                                                                                                                                                   |
@@ -107,11 +107,11 @@ void WINAPI glPixelMapfv(
 
 *Map* 參數是符號對應名稱，表示要設定的十個地圖中的其中一個。 *Mapsize* 參數會指定地圖中的專案數，而 *值* 則是 *mapsize* 對應值陣列的指標。
 
-地圖中的專案可以指定為單精確度浮點數、不帶正負號的短整數或不帶正負號的長整數。 將色彩元件值儲存 (所有的對應，但 GL \_ 圖元 \_ 地圖 \_ i \_ 到 \_ i 和 gl 圖元的對應 \_ \_ \_ s \_ \_) 以浮點數格式保留其值，並具有未指定的尾數和指數大小。 [**GlPixelMapfv**](glpixelmap.md)所指定的浮點值會直接轉換成這些對應的內部浮點格式，然後壓制至範圍 \[ 0，1 \] 。 **GlPixelMapusv** 和 **glPixelMapuiv** 指定的不帶正負號的整數值會以線性方式轉換，使可代表的最大整數對應到1.0，而零對應到0.0。
+地圖中的專案可以指定為單精確度浮點數、不帶正負號的短整數或不帶正負號的長整數。 儲存色彩元件值的地圖 (全部，但 GL \_ 圖元 \_ 地圖 \_ i \_ 到 \_ i，而 gl 圖元對應 \_ \_ \_ \_ 至 \_ s) 以浮點數格式保留其值，但未指定尾數和指數大小。 [**GlPixelMapfv**](glpixelmap.md)所指定的浮點值會直接轉換成這些對應的內部浮點格式，然後壓制至範圍 \[ 0，1 \] 。 **GlPixelMapusv** 和 **glPixelMapuiv** 指定的不帶正負號的整數值會以線性方式轉換，使可代表的最大整數對應到1.0，而零對應到0.0。
 
-儲存索引、GL \_ 圖元 \_ 地圖 \_ i \_ 到 \_ i 和 GL 圖元圖元地圖的地圖會以 \_ \_ \_ \_ \_ 固定點格式保留其值，並在二進位點右邊指定不指定的位數。 [**GlPixelMapfv**](glpixelmap.md)所指定的浮點值會直接轉換成這些對應的內部固定點格式。 **GlPixelMapusv** 和 **glPixelMapuiv** 指定的不帶正負號的整數值會指定整數值，並在二進位點的右邊加上零。
+地圖儲存索引、GL \_ 圖元 \_ 對應 \_ i \_ 到 \_ i 和 gl 圖元對應 s 的，會以 \_ \_ \_ \_ \_ 固定點格式保留其值，並在二進位點右邊指定不指定的位數。 [**GlPixelMapfv**](glpixelmap.md)所指定的浮點值會直接轉換成這些對應的內部固定點格式。 **GlPixelMapusv** 和 **glPixelMapuiv** 指定的不帶正負號的整數值會指定整數值，並在二進位點的右邊加上零。
 
-下表顯示每個對應的初始大小和值。 以色彩或樣板索引編制索引的地圖必須有 *mapsize* = 2 ^ *n* ，部分 *n* 或結果未定義。 每個對應的允許大小上限取決於執行，而且可以藉由呼叫 **glGet** 與引數 GL \_ 最大 \_ 圖元 \_ 地圖 \_ 表格來判斷。 單一最大值適用于所有對應，且至少為32。
+下表顯示每個對應的初始大小和值。 某些 *n* 或結果未定義的 mapsize = 2 ^ n，以色彩或樣板索引編制索引的地圖必須有 = 2 ^ *n* 。 每個對應的允許大小上限取決於執行，而且可以藉由呼叫 **glGet** 與引數 GL \_ 最大 \_ 圖元 \_ 地圖 \_ 表格來判斷。 單一最大值適用于所有對應，且至少為32。
 
 
 

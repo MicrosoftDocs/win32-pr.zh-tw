@@ -3,7 +3,7 @@ title: 'TCM_DELETEALLITEMS 訊息 (Commctrl .h) '
 description: 從索引標籤控制項移除所有專案。 您可以使用 TabCtrl DeleteAllItems 宏明確地傳送此訊息 \_ 。
 ms.assetid: 733494c4-38f4-44ba-98d2-c33a8d63c3b7
 keywords:
-- TCM_DELETEALLITEMS message Windows 控制項
+- TCM_DELETEALLITEMS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b73a91cd6ec3b5472b6e7da2127f8224062cfbbc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a67a8e2fdf1137b51a1baf0097be3a555f404d13851a0e58fe301d3eafd5c64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434148"
 ---
 # <a name="tcm_deleteallitems-message"></a>TCM \_ DELETEALLITEMS 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104509215"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

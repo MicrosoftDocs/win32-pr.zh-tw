@@ -1,5 +1,5 @@
 ---
-title: 'IWMPMedia3 (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPMedia3 (VB 和 C ) 介面 (Wmp. h) '
 description: 提供其他方法來存取媒體專案的屬性。
 ms.assetid: e16aa5e2-ae44-41c2-8c61-fb688c2e89e2
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edb5438ad4d80031d5b45c738c6b6cc9335018af
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d536f792f0acc8003669be05448ec1f68f82830ccbadf75483bbbc6b84610ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119415913"
 ---
 # <a name="iwmpmedia3-vb-and-c-interface"></a>IWMPMedia3 (VB 和 c # ) 介面
 
@@ -75,7 +75,7 @@ ms.locfileid: "106986584"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPMedia 介面 (VB 和 c # )**](iwmpmedia--vb-and-c.md)

@@ -1882,7 +1882,7 @@
             - name: TSF 文字服務常數
               href: tsf-text-service-constants.md
               items:
-                - name: '>lattice 類型'
+                - name: '>Lattice 類型'
                   href: lattice-types.md
                 - name: 其他 TSF 文字服務常數
                   href: miscellaneous-tsf-text-service-constants.md

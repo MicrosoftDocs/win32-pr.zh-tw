@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9be825d6117cf1cc14464973146dbe176d696d25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 041ffccb3301831c91554ef3cda835d3f2e79204730e838b25f26660e76d9a52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119722"
 ---
 # <a name="output-depth-register"></a>輸出深度註冊
 
@@ -29,19 +29,19 @@ Syntax
 
 
 
- 
+ 
 
 其中：
 
 
 
-| Name   | 描述                                                       |
+| 名稱   | 描述                                                       |
 |--------|-------------------------------------------------------------------|
 | oDepth | 深度測試的新深度值-樣板緩衝區 |
 
 
 
- 
+ 
 
 要注意的是，寫入 oDepth 會導致遺失任何硬體特定深度緩衝區優化演算法 (亦即階層式 Z) ，可加快深度測試效能。
 
@@ -73,9 +73,9 @@ Syntax
 [寄存 器](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c39686231462119a88ef2a502ea06e1072506c6d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f836ac4bba3565fac5c8b779029c56d539312525771e015a4be46d1c0177f21e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925238"
 ---
 # <a name="international-isdn-number-attribute"></a>國際 ISDN 號碼屬性
 

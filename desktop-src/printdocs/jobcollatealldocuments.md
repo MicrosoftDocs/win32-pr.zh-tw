@@ -4,12 +4,12 @@ ms.assetid: 64fcd03f-8e0a-498d-82ea-0c69be0a3886
 title: JobCollateAllDocuments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e75eb21fcd518f0fda4edd4c3c4eff721a6a5b17
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4c5e9adc0b6e9682f3c67f1bc8f5ef46c5e272c434968c3c1490e474b7edc0b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971307"
 ---
 # <a name="jobcollatealldocuments"></a>JobCollateAllDocuments
 
@@ -43,7 +43,7 @@ OFF：針對 (JobCopiesAllDocuments x DocumentCopiesAllPages 的所有複本，)
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>     |
@@ -76,10 +76,10 @@ OFF：針對 (JobCopiesAllDocuments x DocumentCopiesAllPages 的所有複本，)
 
 
 
-| Name                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                      |
+| 名稱                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | string<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
-| \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
+| \_選項名稱\_<br/>          | 字串<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
+| \_IdentityOptionValue\_<br/> | 字串<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
 
 
 

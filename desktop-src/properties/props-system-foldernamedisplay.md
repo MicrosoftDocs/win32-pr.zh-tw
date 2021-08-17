@@ -4,12 +4,12 @@ ms.assetid: 4517a4bf-3cc1-4835-b21b-03de5b33db0c
 title: System. FolderNameDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60922054e80a6589bcb04c3962a4527ee62eaf7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb7b6f7d22eb7f835510b8ebe7cfe3ede01fcdea4a1cf86207e7733602b9b0ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033556"
 ---
 # <a name="systemfoldernamedisplay"></a>System. FolderNameDisplay
 

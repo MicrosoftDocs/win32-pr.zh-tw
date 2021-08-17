@@ -4,12 +4,12 @@ description: Direct3D 11.4 已新增下列功能。
 ms.assetid: 689A0460-5725-4C48-B960-41FE20499082
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5b0d2814aa1f9a7ac7b5f2c87ff9d918b36116f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 57190dbd244a565d579e807f7b7b2322ebfec0216d8a6862c4772c4cd4ebe142
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124533"
 ---
 # <a name="direct3d-114-features"></a>Direct3D 11.4 功能
 
@@ -46,6 +46,6 @@ Direct3D 11.4 已新增下列功能。
 [Direct3D 11 的新功能](dx-graphics-overviews-introduction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

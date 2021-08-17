@@ -4,12 +4,12 @@ ms.assetid: 6dbb2839-97ea-4881-8f22-0f8e943a3071
 title: 'EVRConfig_AllowBatching 屬性 (Uuid. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 191c3c0f0ea4ad18e7bb711ae6d37c21f75cd478
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1013ca2578d8fd46ea4019035df1ba3397ad629fd27c1901cd92ac8de1bc43af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118742377"
 ---
 # <a name="evrconfig_allowbatching-attribute"></a>EVRConfig \_ AllowBatching 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "104510793"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Uuid。h</dt> </dl> |
 
 

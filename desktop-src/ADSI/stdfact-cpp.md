@@ -1,5 +1,5 @@
 ---
-title: STDFACT.Cpp
+title: STDFACT.CPP
 description: 在範例提供者元件中，顯示標準 IClassFactory 實 Stdfact 的程式碼範例位於 .cpp 中。 如需詳細資訊，請參閱 IClassFactory。
 ms.assetid: 8d8f1698-c180-4c30-8760-193f87370fda
 ms.tgt_platform: multiple
@@ -12,7 +12,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/11/2021
 ms.locfileid: "118690373"
 ---
-# <a name="stdfactcpp"></a>STDFACT.Cpp
+# <a name="stdfactcpp"></a>STDFACT.CPP
 
 在範例提供者元件中，顯示標準 [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) 實 Stdfact 的程式碼範例位於 .cpp 中。 如需詳細資訊，請參閱 **IClassFactory**。
 

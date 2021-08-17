@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 計數器演算法計數器類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12bd55a2a9cc9cc9193a86ffe740ebfa856c0ffd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5568d4df0d1b50fd55a4f9d007d6506cf59a8f67a05885c21d64a6be8812536c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131430"
 ---
 # <a name="counter-algorithm-counter-types"></a>計數器演算法計數器類型
 
@@ -22,7 +22,7 @@ ms.locfileid: "104319675"
 
 
 
-| CounterType                                                                                              | Description                                                                                                                                                                                                                                                  |
+| CounterType                                                                                              | 描述                                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [效能 \_平均 \_ 大量](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10))十進位1073874176<br/>       | 在作業期間，平均處理的專案數。 此計數器類型會顯示已處理之專案的比率 (例如傳送的位元組數) 至已完成的作業數，而且需要具有效能平均基底的基底屬性 \_ \_ 做為計數器類型。 |
 | [效能 \_計數器 \_ 計數器](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10))Decimal 272696320<br/>     | 取樣間隔的每秒完成的平均作業數。 .                                                                                                                                                                          |

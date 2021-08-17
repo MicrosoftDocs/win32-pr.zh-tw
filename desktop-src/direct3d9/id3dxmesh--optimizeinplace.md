@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f889e0d3754cc1321ffa59eba294038b87991489
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0075e7a0b823f0d747859a4717a440e0c244fde76076e4b285c7d1b2a7e78d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120802"
 ---
 # <a name="id3dxmeshoptimizeinplace-method"></a>ID3DXMesh：： OptimizeInplace 方法
 
@@ -44,7 +44,7 @@ HRESULT OptimizeInplace(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **DWORD**](../winprog/windows-data-types.md)**

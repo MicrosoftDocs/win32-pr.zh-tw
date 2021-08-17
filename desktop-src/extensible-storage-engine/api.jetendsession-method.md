@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 10412f6b01b14d63557bf024d65975c271bbe31b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5209c27a6c1e19ed35aad9caf8a0b419335f81f4054401b1165dc20f7d959044
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784303"
 ---
 # <a name="apijetendsession-method"></a>JetEndSession 方法
 
