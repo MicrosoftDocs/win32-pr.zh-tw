@@ -4,12 +4,12 @@ ms.assetid: fbc88c91-3209-4b59-bdbb-0f5ba009a312
 title: 使用多個監視器作為獨立顯示器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4761e0e04ae1adaa197b06f04fa36c61ccda3083
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 710672e02e8ea7244e09c21b876197033e5f17144433b8f530ad8e52cd6806e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468248"
 ---
 # <a name="using-multiple-monitors-as-independent-displays"></a>使用多個監視器作為獨立顯示器
 

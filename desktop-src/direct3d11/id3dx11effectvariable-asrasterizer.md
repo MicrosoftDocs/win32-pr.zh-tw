@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cbe4edc1b1195a9d449b37897f0875b1f35aae3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dfaf83debc6c7e73a89f78b0c8c3899cce2fb83fb6a5884fa5a5ed9ed5b35912
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858098"
 ---
 # <a name="id3dx11effectvariableasrasterizer-method"></a>ID3DX11EffectVariable：： AsRasterizer 方法
 

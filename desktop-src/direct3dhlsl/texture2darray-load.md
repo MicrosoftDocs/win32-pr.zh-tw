@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: df1d9a1e17c50b9e95138f5df075d03f414e1428
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: f3e62c3e26d6128cbe527dc089f745c5199a364969d503fbf3489d176b614d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104022717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119456788"
 ---
 # <a name="texture2darrayload-methods"></a>Texture2DArray：： Load 方法
 

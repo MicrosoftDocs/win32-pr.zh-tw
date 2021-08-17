@@ -4,12 +4,12 @@ ms.assetid: eb1068c4-6a6a-4ef2-8ed6-033a6a2c273b
 title: 列印 XPS OM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c01ae1081c4f0c58c66efedc30406e310dd8dd9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12f1386352cff1556a5ce2403f34ebe4258c4110d4c3bf455990f3f1eb226d17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470901"
 ---
 # <a name="print-an-xps-om"></a>列印 XPS OM
 

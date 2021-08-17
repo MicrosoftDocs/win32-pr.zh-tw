@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9140bc662592f20c2c54606666ab76099326fd56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d777ed3d16ceacc058cfc447fc6a00d21238e8fe849255d8d35b9cb6a263e8fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118764008"
 ---
 # <a name="jet_recordlisttableid-property"></a>JET_RECORDLIST tableid 屬性
 

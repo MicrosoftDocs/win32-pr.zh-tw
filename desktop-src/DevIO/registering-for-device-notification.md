@@ -5,12 +5,12 @@ ms.date: 08/28/2020
 ms.assetid: f3a4477a-7b09-4943-8b06-f252f8f9fed8
 ms.topic: article
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: 16f529003d97c77d9ffc74207500390222c0baf8
-ms.sourcegitcommit: f374b50b37160b683da16b59ac9340282a8f50a5
+ms.openlocfilehash: 1c4c9fb6f4ead427dfa307c680a69a28b490ee963ffd96b9a320c48e51abbf9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "104108376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390958"
 ---
 # <a name="registering-for-device-notification"></a>註冊裝置通知
 

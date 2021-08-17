@@ -4,12 +4,12 @@ ms.assetid: 9a87ed78-902c-4c6b-a1e6-88fce53ce42f
 title: NotWorkingProperly
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 531e79c5c9d69f2dd37f254bfce47e09503542fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f6633f7ba6306540f1edc23f49322e97d5fd8cce70b8e928b5b7ea3354e914a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097507"
 ---
 # <a name="systemdevicesnotworkingproperly"></a>NotWorkingProperly
 

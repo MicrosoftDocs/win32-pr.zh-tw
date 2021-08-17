@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77902cbbeb5779acdf235a645fc48c865fb683bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89377e1428259453ebcf789fbb04c619b7cd403ec649e0a2f0b48202ab428157
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470858"
 ---
 # <a name="windows7idxinfo-class"></a>Windows7IdxInfo 類別
 
-已新增至 Windows 7 版本 ESENT 的資料行資訊層級。
+已加入至 Windows 7 版 ESENT 的資料行資訊層級。
 
 ## <a name="inheritance-hierarchy"></a>繼承階層
 

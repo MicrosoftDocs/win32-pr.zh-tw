@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1436674871068b09c3e3173d939324af07a5b28b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dcb49789ef44758830b24635bd8c37f2b25647f043408d260795dbafcf28270
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470718"
 ---
 # <a name="windows8paramcachepriority-field"></a>Windows8Param. CachePriority 欄位
 

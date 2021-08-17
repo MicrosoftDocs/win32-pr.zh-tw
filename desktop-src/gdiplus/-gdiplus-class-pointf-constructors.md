@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2c43a4d889b4a63446400057128c1519cd4991ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f501edc86c7e192b78e3cb17731f17fc557beb1c97e48d53192b4e9236c12b3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467508"
 ---
 # <a name="pointfpointf-constructors"></a>PointF. PointF 函數
 

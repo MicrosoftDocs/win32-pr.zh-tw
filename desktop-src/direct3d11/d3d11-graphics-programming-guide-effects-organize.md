@@ -4,12 +4,12 @@ description: 使用 Direct3D 11 時，會依結構來組織特定管線階段的
 ms.assetid: e5057f94-69dd-4219-a5f4-569e48502475
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5a0523dd8abdabde29a5485b8d3b1e6d13b9429
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 1d36bf99887e96dc5854778edb24f0ceacbc0cdf5a7994532bc2ebd94137fe8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119126092"
 ---
 # <a name="organizing-state-in-an-effect-direct3d-11"></a>將效果中的狀態組織 (Direct3D 11) 
 
@@ -25,7 +25,7 @@ ms.locfileid: "104990959"
 
 
 
- 
+ 
 
 針對著色器階段，其中的狀態變更數目需要更多應用程式控制，狀態已分割成常數緩衝區狀態、取樣器狀態、著色器資源狀態，以及圖元和計算著色器) 的未排序存取檢視狀態 (。 這可讓精心設計的應用程式只更新變更狀態，藉由減少必須傳遞至 GPU 的資料量來改善效能。
 
@@ -177,6 +177,6 @@ fxgroup g0
 [ (Direct3D 11) 的效果 ](d3d11-graphics-programming-guide-effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

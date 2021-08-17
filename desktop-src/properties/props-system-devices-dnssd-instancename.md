@@ -4,12 +4,12 @@ ms.assetid: c051560e-1d0e-4f57-a079-ea92e0d15143
 title: Dnssd. InstanceName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ab74a6c3fa59b7f06bc5247f16ebf710d751a7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f801a080a8b06ba7087df6c36b232a1861f2ac32146297b8a589eec19d97aa9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091298"
 ---
 # <a name="systemdevicesdnssdinstancename"></a>Dnssd. InstanceName
 

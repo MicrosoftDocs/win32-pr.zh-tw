@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddec0922218b9770d7a0c4cb4877f6144eded900
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 056dc0e53c5467ef1bff43926da6fa7ca8e28b45ad247b2c4462147c666cdeab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119371338"
 ---
 # <a name="d3dx_float4_to_b8g8r8a8_unorm-function"></a>D3DX \_ FLOAT4 \_ to \_ B8G8R8A8 \_ UNORM function
 

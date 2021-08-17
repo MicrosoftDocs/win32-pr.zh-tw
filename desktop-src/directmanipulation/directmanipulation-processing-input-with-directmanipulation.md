@@ -4,12 +4,12 @@ ms.assetid: 0818E34E-990E-4C36-9954-EF87EB226AF6
 title: 使用 DirectManipulation 處理輸入
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 284a0a1866a2082e2c34c65de347b0dcdfab3a64
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 49b72f88da8978192af402c8b810655c102395d5aad273f34340ed57e2703008
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094650"
 ---
 # <a name="processing-input-with-directmanipulation"></a>使用 DirectManipulation 處理輸入
 

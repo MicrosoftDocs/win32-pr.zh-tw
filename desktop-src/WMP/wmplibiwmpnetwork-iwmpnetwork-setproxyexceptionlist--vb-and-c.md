@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dad011dee8e1199e6111be60acfec41d85d1e58
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eddfd3ce8495c02fc6ae352f918349ff7174afb99e69d9e1ba8aa19c45d1a49d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745760"
 ---
 # <a name="iwmpnetworksetproxyexceptionlist-method"></a>IWMPNetwork：： setProxyExceptionList 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 454ee045-3abb-4ca0-bf01-b5d21ec85725
 title: LocationPaths
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 326646757e2a25a6804365780985be74cc57d0bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fb62c8294d3d57ef02965ab38156481d70e54daf7b8555de1600494c33e5e6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097612"
 ---
 # <a name="systemdeviceslocationpaths"></a>LocationPaths
 

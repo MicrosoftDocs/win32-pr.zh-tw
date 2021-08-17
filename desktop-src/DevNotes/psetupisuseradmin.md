@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 1c40a69fd682c22e2625a3ba362d11d719cf9cce
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 152feb3a0c473540b27e04befb2cf012bdd13aa3a0979cd88736b7521159f7bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386479"
 ---
 # <a name="psetupisuseradmin-function"></a>pSetupIsUserAdmin 函式
 
-\[在 Windows Vista 或 Windows Server 2008 中無法使用此功能。\]
+\[Windows Vista 或 Windows Server 2008 中無法使用此功能。\]
 
 指出目前的使用者是否為系統管理員。
 

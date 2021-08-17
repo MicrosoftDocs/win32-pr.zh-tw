@@ -4,12 +4,12 @@ ms.assetid: 16286da5-5979-413b-a4db-ca157b10a571
 title: 建立連線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56ea922b3cd44430dc7c213a513c44fa8ef2ab9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1317e164e0aff47d83cd1599835f105303c64d3d8c6f7dc189c5062589fdb609
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119392288"
 ---
 # <a name="establishing-a-connection"></a>建立連線
 
@@ -63,7 +63,7 @@ else
 
 
 
-針對 Windows 7， [**IPortableDevice**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevice) 支援兩個適用于 **CoCreateInstance** 的 clsid。 **CLSID \_PortableDevice** 會傳回未匯總無限制執行緒封送處理器的 **IPortableDevice** 指標; **CLSID \_PortableDeviceFTM** 是新的 CLSID，會傳回匯總無限制執行緒封送處理器的 **IPortableDevice** 指標。 這兩個指標都支援相同的功能，否則為。
+針對 Windows 7， [**IPortableDevice**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevice)支援兩個適用于 **CoCreateInstance** 的 clsid。 **CLSID \_PortableDevice** 會傳回未匯總無限制執行緒封送處理器的 **IPortableDevice** 指標; **CLSID \_PortableDeviceFTM** 是新的 CLSID，會傳回匯總無限制執行緒封送處理器的 **IPortableDevice** 指標。 這兩個指標都支援相同的功能，否則為。
 
 存留于單一執行緒單元中的應用程式應該使用 **CLSID \_ PortableDeviceFTM** ，因為這樣可避免介面指標封送處理的額外負荷。 **CLSID \_** 繼承應用程式仍支援 PortableDevice。
 

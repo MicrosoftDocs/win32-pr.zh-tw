@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 在64位平臺上提供 WMI 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec1d6b348c16765014c4eb6988b64976ba3f11a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49cb8a7e698723c6d4705a735591097fe7cf354db9684924d58f6b363c0ae6b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992638"
 ---
 # <a name="providing-wmi-data-on-a-64-bit-platform"></a>在64位平臺上提供 WMI 資料
 

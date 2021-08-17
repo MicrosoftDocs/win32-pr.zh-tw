@@ -4,12 +4,12 @@ ms.assetid: 33a1b546-ece2-44ef-a1c0-5579c32be0bc
 title: 'MF_DEVSOURCE_ATTRIBUTE_MEDIA_TYPE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a05283f33fa3b3bf4b9e339b830c2ae6a948ea82
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: eb4685f419658ecf77782a4cef770fd205119bb6cfd95523edb7fbbe001fd700
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "107000348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105034"
 ---
 # <a name="mf_devsource_attribute_media_type-attribute"></a>MF \_ DEVSOURCE \_ 屬性 \_ 媒體 \_ 類型屬性
 
@@ -46,8 +46,8 @@ ms.locfileid: "107000348"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

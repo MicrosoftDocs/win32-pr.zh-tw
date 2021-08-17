@@ -9,12 +9,12 @@ keywords:
 - 屬性顯示名稱廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d65cd6ac6fc3077ff0d2bba15ffa9904b147654
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 213132acfa6463b1c1e8a7615f5d7f488e53edfcdf9b75f8df5759fcd0e4d398
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022589"
 ---
 # <a name="class-and-attribute-display-names"></a>類別和屬性顯示名稱
 
@@ -55,6 +55,6 @@ ms.locfileid: "104462921"
 
 如需命名新類別和屬性的詳細資訊，請參閱 [命名屬性和類別](naming-attributes-and-classes.md)。
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d5b84f326807f730745268a217b6066dacb9aaa7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 224052bc882792f57eedf9ea58842b953e5853012d3581ef14cad58467b614b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953397"
 ---
 # <a name="ctransinplacefiltertransform-method"></a>CTransInPlaceFilter 轉換方法
 
@@ -55,7 +55,7 @@ virtual HRESULT Transform(
 
 
 
-| 傳回碼                                                                             | Description                            |
+| 傳回碼                                                                             | 描述                            |
 |-----------------------------------------------------------------------------------------|----------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 請勿傳遞此範例。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                    |

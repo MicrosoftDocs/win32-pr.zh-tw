@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cc813f4931a3b5a1d03cb5640e06d48d83e9aa07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e34b1a9093ff068454dd181c531e12d4201afd8b6964516b2db09f4d07207f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107212"
 ---
 # <a name="snapshotendgrbit-enumeration"></a>SnapshotEndGrbit 列舉
 

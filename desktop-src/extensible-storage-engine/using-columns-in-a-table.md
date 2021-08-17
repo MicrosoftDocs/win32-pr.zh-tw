@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg269178(v=EXCHG.10)
 ms:contentKeyID: 32765481
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: cd715b171162f63aaf0772ff6ec2e4a6d057a0d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 332cca1c64c851ded44951fc9bb7f68ebd9f6818030cefeb8406f965a1bd5d6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471298"
 ---
 # <a name="using-columns-in-a-table"></a>使用資料表中的資料行
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="using-columns-in-a-table"></a>使用資料表中的資料行
 

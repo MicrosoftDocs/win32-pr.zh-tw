@@ -4,16 +4,16 @@ description: 新增方法
 ms.assetid: dd258294-33d6-45f5-a6a1-a3a56b12a7df
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4527dec6014c93bb02b4f080e032266ea40159e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 26ae6cc3cd0a39be8b293a6ae64a96859e5d4fcf6d23ff410439422676b3527e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976828"
 ---
 # <a name="add-method"></a>新增方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104021336"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 命令。新增* *  *名稱*、*標題*、*語音*、*啟用*、*可見*
+*代理程式 ***。 ( "**_CharacterID_*" 的字元 _) 命令。新增_ *  *名稱*、*標題*、*語音*、*啟用*、*可見*
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "104021336"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -73,9 +73,9 @@ ms.locfileid: "104021336"
 [**Remove 方法**](remove-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

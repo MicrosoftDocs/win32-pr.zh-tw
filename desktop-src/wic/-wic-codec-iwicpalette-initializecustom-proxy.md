@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 3b64daf458a6b916f0f9e2ba23e135d6c7328a23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b68917782d768f526a21b16f22766c1a9add61eb5ee1987d27965b6f70a388db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088190"
 ---
 # <a name="iwicpalette_initializecustom_proxy-function"></a>IWICPalette \_ InitializeCustom \_ Proxy 函式
 
@@ -45,22 +45,22 @@ HRESULT IWICPalette_InitializeCustom_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) \** _
+類型： **[ **IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette)\***
 
-這個 [_ *IWICPalette* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette)物件的指標。
+這個 [**IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) 物件的指標。
 
 </dd> <dt>
 
 *pColors* \[在\]
 </dt> <dd>
 
-類型： **WICColor \** _
+類型： **WICColor \***
 
 色彩陣列的指標。
 
 </dd> <dt>
 
-_colorCount * \[ in\]
+*colorCount* \[在\]
 </dt> <dd>
 
 類型： **UINT**
@@ -83,8 +83,8 @@ _colorCount * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

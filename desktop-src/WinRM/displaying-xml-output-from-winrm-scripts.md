@@ -1,6 +1,6 @@
 ---
 title: 顯示 WinRM 腳本的 XML 輸出
-description: Windows 遠端管理腳本會傳回 XML 而非物件。 XML 不是人類看得懂的格式。 您可以使用 MSXML API 的方法和預先安裝的 XSL 檔案，將資料轉換成人類看得懂的格式。
+description: Windows遠端系統管理腳本會傳回 XML 而非物件。 XML 不是人類看得懂的格式。 您可以使用 MSXML API 的方法和預先安裝的 XSL 檔案，將資料轉換成人類看得懂的格式。
 ms.assetid: a2c9401b-bc1e-4f8e-aabf-b6ade1a849ba
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c70dd0a61181f6fc61e685641ff0ed5e3d43ffe8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: df5c27c1fe22ae87395357aeefe681af7c041420d32b7bccbf595fab38bb060b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680018"
 ---
 # <a name="displaying-xml-output-from-winrm-scripts"></a>顯示 WinRM 腳本的 XML 輸出
 
-Windows 遠端管理腳本會傳回 XML 而非物件。 XML 不是人類看得懂的格式。 您可以使用 [MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85)) API 的方法和預先安裝的 XSL 檔案，將資料轉換成人類看得懂的格式。
+Windows遠端系統管理腳本會傳回 XML 而非物件。 XML 不是人類看得懂的格式。 您可以使用[MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85)) API 的方法和預先安裝的 XSL 檔案，將資料轉換成人類看得懂的格式。
 
-如需 WinRM XML 輸出和 raw 和格式化 XML 範例的詳細資訊，請參閱 [Windows 遠端管理中的腳本](scripting-in-windows-remote-management.md)。
+如需 WinRM xml 輸出和 raw 和格式化 XML 範例的詳細資訊，請參閱[Windows 遠端管理中的腳本](scripting-in-windows-remote-management.md)。
 
 **Winrm** 命令列工具隨附名為 WsmTxt 的轉換檔案，會以表格形式顯示輸出。 如果您的腳本將此檔案提供給執行會將的 MSXML 方法，則輸出會與 **Winrm** 工具的輸出相同。
 
@@ -36,7 +36,7 @@ Windows 遠端管理腳本會傳回 XML 而非物件。 XML 不是人類看得�
 
     
 
-2.  建立代表 XML 回應輸出和 XSL 轉換的 MSXML 物件。
+2.  建立 MSXML 物件，代表 XML 回應輸出和 XSL 轉換。
 
     ```VB
     Set xmlFile = CreateObject( "MSXml.DOMDocument" )
@@ -54,7 +54,7 @@ Windows 遠端管理腳本會傳回 XML 而非物件。 XML 不是人類看得�
 
     
 
-4.  提供 MSXML [loadXML](/previous-versions/windows/desktop/ms754585(v=vs.85)) 方法的回應，以及用來儲存轉換檔案的 [load](/previous-versions/windows/desktop/ms762722(v=vs.85)) 方法。
+4.  提供 MSXML [loadXML](/previous-versions/windows/desktop/ms754585(v=vs.85))方法的回應，以及用來儲存轉換檔案的[load](/previous-versions/windows/desktop/ms762722(v=vs.85))方法。
 
     ```VB
     xmlFile.LoadXml(xmlResponse)
@@ -64,7 +64,7 @@ Windows 遠端管理腳本會傳回 XML 而非物件。 XML 不是人類看得�
 
     
 
-5.  使用 MSXML [transformNode](/previous-versions/windows/desktop/ms761399(v=vs.85)) 方法，並顯示或儲存輸出。
+5.  使用 MSXML [transformNode](/previous-versions/windows/desktop/ms761399(v=vs.85))方法，並顯示或儲存輸出。
 
     ```VB
     Wscript.Echo xmlFile.TransformNode(xslFile)
@@ -146,9 +146,9 @@ End Sub
 [使用 Windows 遠端管理](using-windows-remote-management.md)
 </dt> <dt>
 
-[Windows 遠端管理參考](windows-remote-management-reference.md)
+[Windows遠端系統管理參考](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

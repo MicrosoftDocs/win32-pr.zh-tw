@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 08b5ae7e44f7b9c35d6a395b78ce514aee050e5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ace79404808db750a15b2c17b6fedb336dbd1d72b1581888324a4d87bb7cd67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460878"
 ---
 # <a name="mxdc_escape-function"></a>MXDC \_ ESCAPE 函式
 
@@ -110,7 +110,7 @@ MXDC 和 XPSDrv 支援此 escape，但 GDI 不支援。
 
 若要判斷印表機驅動程式是否為 MXDC，請使用 [**GETTECHNOLOGY**](/previous-versions/windows/desktop/legacy/dd144931(v=vs.85)) escape 來呼叫 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) 。 如果驅動程式是 MXDC，則 **ExtEscape** 會傳回以零結尾的字串 " http://schemas.microsoft.com/xps/2005/06 "。 請確定 *lpszOutData* 參數所參考的緩衝區夠大，足以容納這個字串。
 
-若要判斷印表機驅動程式是否為 Windows 內建的 Microsoft XPS 檔寫入器驅動程式，請確認印表機驅動程式是否為 MXDC，然後判斷印表機驅動程式的名稱是否為 "Microsoft XPS Document Writer"。
+若要判斷印表機驅動程式是否為 Windows 的 [microsoft xps document writer] 驅動程式，請確認印表機驅動程式是否為 MXDC，然後判斷印表機驅動程式的名稱是否為 "Microsoft XPS Document Writer"。
 
 若要取得印表機驅動程式名稱，請使用下列其中一種技術。 <dl> 將 *Level* 參數值設定為1時，呼叫 [**GetPrinterDriver**](getprinterdriver.md) 。 [**驅動程式 \_ 資訊 \_ 1**](driver-info-1.md)結構的 **pName** 成員會傳回印表機驅動程式名稱。  
 或  
@@ -127,7 +127,7 @@ MXDC 和 XPSDrv 支援此 escape，但 GDI 不支援。
 | 縮圖    | /Documents/1/Metadata          |
 | 列印票證 | /Documents/1/Metadata          |
 | 字型         | /Documents/1/Resources/Fonts   |
-| Image        | /Documents/1/Resources/Images  |
+| 映像        | /Documents/1/Resources/Images  |
 
 
 
@@ -139,8 +139,8 @@ MXDC 和 XPSDrv 支援此 escape，但 GDI 不支援。
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mxdc。h</dt> </dl> |
 
 

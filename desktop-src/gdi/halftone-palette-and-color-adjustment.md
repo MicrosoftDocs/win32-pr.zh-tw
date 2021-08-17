@@ -4,12 +4,12 @@ ms.assetid: ee171379-2ab3-4c38-8e86-ff80fa63a357
 title: 半色調調色板和色彩調整
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3e6708aff92387b792424f07e9b82a1f6125ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8be13f780dc5496173ffb4ddb990a96f7dbe462223e41e8a48d4a58329451277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761002"
 ---
 # <a name="halftone-palette-and-color-adjustment"></a>半色調調色板和色彩調整
 

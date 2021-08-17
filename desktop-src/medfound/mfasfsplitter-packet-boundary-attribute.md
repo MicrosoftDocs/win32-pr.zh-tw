@@ -4,12 +4,12 @@ ms.assetid: eca3f9b7-6051-4654-8016-a9c679519bc7
 title: 'MFASFSPLITTER_PACKET_BOUNDARY 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 044fd3ed635dc7cb45db1cb9e5c480481b06cd31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0904c6b5a002d6aa18361365946a176521674ea22f7a45cc042b89d844c4210d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464058"
 ---
 # <a name="mfasfsplitter_packet_boundary-attribute"></a>MFASFSPLITTER 封 \_ 包 \_ 界限屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "106997096"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

@@ -4,18 +4,18 @@ ms.assetid: 1839485d-c933-4ca9-a45a-d44cbd29f9b5
 title: FocalLength
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0164a8a7b24783ed0d88b0ce9553c01eb8dcca3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ad4acc78e14fa0ad79e54dce785636771e16c1c86b92b2a8dc585a2e82281d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095930"
 ---
 # <a name="systemphotofocallength"></a>FocalLength
 
 拍攝相片時相機錄製的鏡頭焦點長度（以毫米為單位）。 這是實際的焦長度，而不會轉換成 35mm ([FocalLengthInFilm](./props-system-photo-focallengthinfilm.md)) 。 這個屬性是從 [FocalLengthNumerator](./props-system-photo-focallengthnumerator.md) 和 [FocalLengthDenominator](./props-system-photo-focallengthdenominator.md)計算而來。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

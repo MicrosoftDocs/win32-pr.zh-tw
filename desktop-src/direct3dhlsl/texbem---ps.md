@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f026819b268836fd7d4c1d550033ceefdf0bbbf9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 183036a56d905eed8d0d0a237445fb0f8e42fe402edabb6f6639243749b92240
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119367338"
 ---
 # <a name="texbem---ps"></a>texbem-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104971720"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104971720"
 
 
 
- 
+ 
 
 Src 暫存器中的紅色和綠色色彩資料會解讀為更動資料 (du、dv) 。
 
@@ -129,6 +129,6 @@ texbem 需要下列材質階段中的材質。
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -19,17 +19,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f0ac02142d48009d668d903b39163b425d738b55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: effd1ea5a9489df0a85af54a79cd773cc05b2fa3d6dbe57096a61fbd4c79c25a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472028"
 ---
 # <a name="jetgetsessionparameter-function"></a>JetGetSessionParameter 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 **JetGetSessionParameter** 函式會讀取指定會話的 session 參數。
 

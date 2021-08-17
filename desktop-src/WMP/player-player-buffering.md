@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a73ac77f9b8e81162a6cc0f9220562caba26eae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d0ac382315d37fcd36a5470ae3f7f07bf4454687b660a2311498b5b0866e32b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747519"
 ---
 # <a name="playerbuffering-event"></a>Media Player. 緩衝事件
 
@@ -68,7 +68,7 @@ Player.Buffering(
 
 您可以使用此事件來判斷何時啟動或停止緩衝或下載。 您可以針對案例和測試 *網路* 使用相同的事件區塊。**bufferingProgress** 和 *網路*。**downloadProgress** ，以判斷 Windows Media Player 目前是否正在緩衝或正在下載內容。
 
-事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入之 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
+事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
 
 ## <a name="requirements"></a>規格需求
 

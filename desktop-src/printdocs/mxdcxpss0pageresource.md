@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 90f8a52ed3bd1bcba4c8f21a086627781bdbbf67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21035a99b6237c481a5b7560f469086ef2960d655ba32582ed273edb48910ba8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971177"
 ---
 # <a name="mxdc_xps_s0page_resource_t-structure"></a>MXDC \_ XPS \_ S0PAGE \_ 資源 \_ T 結構
 
@@ -92,8 +92,8 @@ typedef struct tagMxdcXpsS0PageResource {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mxdc。h</dt> </dl> |
 
 

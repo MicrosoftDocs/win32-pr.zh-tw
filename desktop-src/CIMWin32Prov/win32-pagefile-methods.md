@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_PageFile 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 201de9f1e83c95442f9edbc145132ff92bcb2804
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a25d9f47ab8475769da0a1d723593e5b9d2a27b1d0d9f78533f251ec258660f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079722"
 ---
 # <a name="win32_pagefile-methods"></a>Win32 \_ 分頁檔方法
 

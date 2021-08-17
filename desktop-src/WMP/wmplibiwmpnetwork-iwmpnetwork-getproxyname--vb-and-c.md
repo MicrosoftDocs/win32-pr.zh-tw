@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e5e05b6552e5e6a922cf02037a0bfc4956bfc28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e5c8c15df5e741c02bf3c47ecac8b3f57d4adddfeeb41cb6a71cf418b600006
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745936"
 ---
 # <a name="iwmpnetworkgetproxyname-method"></a>IWMPNetwork：： getProxyName 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 6abadad1-262b-4536-8846-1c06226dc18a
 title: 使用應用程式字典搭配 Tablet PC 平臺 Api
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fc0e444ad2213d945c0210d07c72f9540ae16be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c30fec5539a9b1f4efb0ca89a53568becff2368942d069149106a4032676d50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091296"
 ---
 # <a name="using-application-dictionaries-with-the-tablet-pc-platform-apis"></a>使用應用程式字典搭配 Tablet PC 平臺 Api
 

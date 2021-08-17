@@ -4,16 +4,16 @@ description: IAgentCharacterEx GetLanguageID
 ms.assetid: 4e4e5342-edf9-480b-a9c3-e2626fd89e76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d847bf392709b2433b045a357a703173e2de454
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: fb0eeee052111ef0acbb843f4362ca0bfd3b40ab7d154ef0c46c43f6c2d0e0f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105546"
 ---
 # <a name="iagentcharacterexgetlanguageid"></a>IAgentCharacterEx::GetLanguageID
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetLanguageID(

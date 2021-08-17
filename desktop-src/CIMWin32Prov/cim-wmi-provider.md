@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM WMI 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a3249549e0915f51b6a9a6f2386c18ba695919a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: acb9a01e0771645cf6101171ce870be593181cb61d6118e627b9bf96b61994be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420330"
 ---
 # <a name="cim-wmi-provider"></a>CIM WMI 提供者
 
@@ -1570,7 +1570,7 @@ Cim 設定物件允許將 [**cim \_ 設定**](cim-setting.md)物件中 (定義�
 [**CIM \_ ServiceAccessBySAP**](cim-serviceaccessbysap.md)
 </dt> <dd>
 
-[**CIM \_ ServiceAccessBySAP**](cim-serviceaccessbysap.md)關聯類別代表服務的存取點。 例如，您可以透過 NetWare、Macintosh 或 Windows 服務存取點來存取印表機 (Sap) ，這些都可能裝載在不同的系統上。
+[**CIM \_ ServiceAccessBySAP**](cim-serviceaccessbysap.md)關聯類別代表服務的存取點。 例如，您可以透過 NetWare、Macintosh 或 Windows 服務存取點來存取印表機， (sap) ，這些都可能裝載在不同的系統上。
 
 </dd> <dt>
 

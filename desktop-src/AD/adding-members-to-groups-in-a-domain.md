@@ -8,12 +8,12 @@ keywords:
 - 群組 AD，將成員新增至網域中的群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bbd454348dc3eb519d03a7c5574746025c79a3f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 21c9f0c85943752b42cf3d9d8b88d385aaba9e014b21aa9f538955cb49b1a750
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118024755"
 ---
 # <a name="adding-members-to-groups-in-a-domain"></a>將成員新增至網域中的群組
 

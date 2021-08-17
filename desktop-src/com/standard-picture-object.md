@@ -4,12 +4,12 @@ description: 標準圖片物件
 ms.assetid: 2df9e0a7-444b-454c-983a-82e82b9ed9d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e8a711fc0c33cf5e99b0db6e90941dbe855289b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8f4b74daa4f62791c12927eba3fd0472ed2a956d4b84c03e3cc373c44e12ce25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129760"
 ---
 # <a name="standard-picture-object"></a>標準圖片物件
 
@@ -26,6 +26,6 @@ Picture 物件也支援 [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-obji
 [控制項屬性](control-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

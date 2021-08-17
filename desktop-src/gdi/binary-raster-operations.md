@@ -4,12 +4,12 @@ ms.assetid: 9a3a5b5d-b41f-4859-8830-98272983a635
 title: 二元點陣運算
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd8a70030b1940c31d036505a80a6b1868aececd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 462c07165d7f377f2a536722bf2f728446c308503108474cbb6a585cee6f68e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105807"
 ---
 # <a name="binary-raster-operations"></a>二元點陣運算
 

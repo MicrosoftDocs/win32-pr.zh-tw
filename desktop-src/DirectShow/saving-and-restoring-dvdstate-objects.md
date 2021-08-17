@@ -4,12 +4,12 @@ ms.assetid: 65180fe2-0faf-47c0-bccd-728e01056c46
 title: 儲存和還原 DvdState 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9640b20bc8d763054c15331017da343ef45f3c2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 922851cce72f736364c1f1e66b24032586221ad9cb75494c7286fe962eb34403
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106995180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982568"
 ---
 # <a name="saving-and-restoring-dvdstate-objects"></a>儲存和還原 DvdState 物件
 

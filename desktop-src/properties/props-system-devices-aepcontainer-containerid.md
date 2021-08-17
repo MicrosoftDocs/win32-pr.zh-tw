@@ -4,12 +4,12 @@ ms.assetid: 57af4101-ee2a-499e-a407-0f4498958b47
 title: System.Devices.AepContainer.ContainerId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47e4ce772fe7ab8fd3562fb825ba550b18d6d75d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc1c4f040907e76a0c58ede6f45554c14ebbd4ffcacc49e282b4135e1794dd6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097889"
 ---
 # <a name="systemdevicesaepcontainercontainerid"></a>System.Devices.AepContainer.ContainerId
 

@@ -4,12 +4,12 @@ ms.assetid: a2cbc127-7011-4107-9ee2-f7172c069ed7
 title: 家長監護的 WMI 提供者 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8d6790f201c74ea79c69814eb8d22a7a6f78106
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a02413f98750d8d1274b4523f11cd842989a64e8d90ce1252f7ed14452978db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100582"
 ---
 # <a name="parental-controls-wmi-provider-api"></a>家長監護的 WMI 提供者 API
 

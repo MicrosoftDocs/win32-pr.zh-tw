@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b183f86599d08a6892e33c169b938dc09a2b55de
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 29191a3790afee2d37fee3d2ee8fb58673ff487af178bd8b1e2b33f26f1ec44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982478"
 ---
 # <a name="evaluateattributeatsample-function"></a>EvaluateAttributeAtSample 函式
 
@@ -28,8 +28,8 @@ ms.locfileid: "103678295"
 
 ``` syntax
 numeric EvaluateAttributeAtSample(
-  in attrib numeric value,
-  in uint sampleindex
+  in attrib numeric value,
+  in uint sampleindex
 );
 ```
 
@@ -71,19 +71,19 @@ numeric EvaluateAttributeAtSample(
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -95,9 +95,9 @@ numeric EvaluateAttributeAtSample(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

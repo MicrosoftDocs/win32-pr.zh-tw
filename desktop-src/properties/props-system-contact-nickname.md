@@ -4,18 +4,18 @@ ms.assetid: c4470744-0f07-425e-a782-c12ec98af53d
 title: System.object
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf1b68d64413bdc10f33b090793ec2ba87b9a85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 883911a65bc46db2e851805793c12889ec31af479647aa6d74bd56c8525325db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091648"
 ---
 # <a name="systemcontactnickname"></a>System.object
 
 連絡人的暱稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

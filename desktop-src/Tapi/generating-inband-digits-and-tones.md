@@ -4,12 +4,12 @@ ms.assetid: a2afa7e9-c625-48ec-920b-0ae8c3e1b395
 title: 產生 Inband 數位和音調
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8325087882f90ae175edfd27a9f75aab492969af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f144d4bc6b6273f71da37f6b9864146465c5ca29b91018a2e2ff097f6f19b44f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119424878"
 ---
 # <a name="generating-inband-digits-and-tones"></a>產生 Inband 數位和音調
 

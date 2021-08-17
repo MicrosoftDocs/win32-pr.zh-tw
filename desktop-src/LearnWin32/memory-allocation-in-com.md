@@ -4,12 +4,12 @@ description: COM 中的記憶體配置
 ms.assetid: b3c318d2-1273-430e-8aca-5bd5c95c138e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82cb9913da55fab82f699ac05dae3998f7582224
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3a38477f0db860cf768493417470f2da3395e814bc106cf85f975ed11ba2c0b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979978"
 ---
 # <a name="memory-allocation-in-com"></a>COM 中的記憶體配置
 

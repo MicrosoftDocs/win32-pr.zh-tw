@@ -4,18 +4,18 @@ ms.assetid: 94f585bf-fd2f-4f71-bf06-6a39d1c4beb2
 title: PropList. XPDetailsPanel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b05b332a87ecb56e63852fecd7456197ab8e21c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b6c1771b7580085bf36e28f1e844605bff73a66fb13a162254be57528c67312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464941"
 ---
 # <a name="systemproplistxpdetailspanel"></a>PropList. XPDetailsPanel
 
 已過時。 要在 [XP web 視圖詳細資料] 面板中顯示的屬性清單。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -4,16 +4,16 @@ ms.assetid: a520b9e5-1f58-499f-b93a-c072cf79623b
 title: System.Doc>ument。LineCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ac6de3856720ce5c04d3f43175f62ffc0e7383b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 694f7e506e940dc39fc431a216ff594861dbf35859025cff5db9ad19e91acdee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091278"
 ---
 # <a name="systemdocumentlinecount"></a>System.Doc>ument。LineCount
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

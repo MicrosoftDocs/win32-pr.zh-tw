@@ -4,12 +4,12 @@ ms.assetid: 8a17a754-53ef-4c05-9189-7978d864b17a
 title: 來源讀取程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ba67b32fba7fcf899f339e9e2d0512d2574bad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81527392c97aae039de8b8cdbd76b1251e03842b6b66c22cc224118d4f428620
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101809"
 ---
 # <a name="source-reader"></a>來源讀取程式
 

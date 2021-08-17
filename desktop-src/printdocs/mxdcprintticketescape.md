@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 158ee2038c83b74077d00e6922b2c7050b76bc62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eca1858bbbf09d4e3c3af8a91f9bb91550eddfd703f59e86112e65c56a43d553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099062"
 ---
 # <a name="mxdc_printticket_escape_t-structure"></a>MXDC \_ PRINTTICKET \_ ESCAPE \_ T 結構
 
@@ -86,8 +86,8 @@ P_MXDC_PRINTTICKET_ESCAPE_T pS0PageEscapeData =
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mxdc。h</dt> </dl> |
 
 

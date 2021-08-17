@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 26e5785845f3ce8448269a821f67fcafc98bf4b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa63937bdf6f65ab46f012bd541eadcd7e8ef5b8a4d8957a462f2d6666e62a02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119266535"
 ---
 # <a name="createinkdivider-function"></a>CreateInkDivider 函式
 
@@ -54,7 +54,7 @@ INT_PTR CreateInkDivider(void);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 程式庫<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

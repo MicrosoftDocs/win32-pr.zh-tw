@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f6f4bbd80625df7b3a548cc6ad89707a5e595ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff864607ceced7942ccb759caab6be2bbef299c647f4b749056e172876d08a71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746577"
 ---
 # <a name="recordingtimeday-attribute"></a>RecordingTimeDay 屬性
 

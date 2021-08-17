@@ -4,12 +4,12 @@ ms.assetid: 0d96f229-76c0-46a3-bc4b-6f558b9956c6
 title: Terminal 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2568d3c6f047fec8ca46b3b7d56e5026b61a1113
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fe85dcf2643cbf60835a7df9e8b20de8287da2c752ed6555f480609d9b79873
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119476258"
 ---
 # <a name="terminal-object"></a>Terminal 物件
 
@@ -17,7 +17,7 @@ ms.locfileid: "106990500"
 
 終端物件代表來源或轉譯器，例如麥克風或喇叭。 應用程式會根據與通訊會話相關的媒體方向和類型或類型，從可用的終端機中選擇。 接著，每個相關聯的媒體串流都會選取到適當的終端機，以便開始串流。
 
-終端機通常由媒體服務提供者（ () MSP）來執行，如果沒有與通訊會話相關聯的 MSP，終端機物件將無法使用。 其中一個例外狀況是在 Windows 2000 SP1 和更新版本中，應用程式可以執行一種可 [插入的終端](pluggable-terminals.md)機形式。 這可讓會議服務器建立橋接終端機，以便將非 Windows 2000 SP1 或非多播 H323 用戶端新增至 TAPI 3 多方的 SDP/IP 多播會議。
+終端機通常由媒體服務提供者（ () MSP）來執行，如果沒有與通訊會話相關聯的 MSP，終端機物件將無法使用。 其中一個例外狀況是，在 Windows 2000 SP1 和更新版本中，應用程式可以執行可[插入的終端](pluggable-terminals.md)機形式。 這可讓會議服務器建立橋接終端機，以便將非 Windows 2000 SP1 或非多播 H323 用戶端新增至 TAPI 3 多方的 SDP/IP 多播會議。
 
 每個終端機都屬於一個 [終端機類別](terminal-class.md)。 終端機類別代表一組來源或轉譯功能。 例如，對應至一組音訊喇叭的終端機會被視為 CLSID \_ SpeakersTerminal，而服務提供者預期會執行磁片區控制。 TAPI 3 會定義一組終端機類別、MSP 可以定義額外的類別，而應用程式可註冊新的終端機類別。 每個終端機類別都會被指派全域唯一識別碼 (GUID) 。
 
@@ -31,7 +31,7 @@ ms.locfileid: "106990500"
 
 如需顯示使用終端機物件圖例的詳細資訊和程式碼範例，請參閱 [進行呼叫](make-a-call.md) 和 [接收呼叫](receive-a-call.md)。
 
-**WINDOWS XP：** 如需有關如何在 Windows XP 中展開終端機物件的詳細資訊，請參閱檔案 [終端](file-terminals.md)機、 [Multitrack 終端](multitrack-terminals.md)機和可 [插入的終端](pluggable-terminals.md)機。
+**Windows XP：** 如需有關如何在 Windows XP 中展開終端機物件的詳細資訊，請參閱檔案 [終端](file-terminals.md)機、 [Multitrack 終端](multitrack-terminals.md)機和可 [插入的終端](pluggable-terminals.md)機。
 
 如需詳細資訊和程式碼範例，請參閱 [使用檔案終端](using-file-terminals.md)機、 [使用 Multitrack 終端機和預設選取機制](using-multitrack-terminals-and-the-default-selection-mechanism.md)，以及 [插入式終端機註冊](pluggable-terminal-registration.md)。
 

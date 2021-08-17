@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_DeviceFile 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd6e675e37347b0c116a66045adccbcf15a8d593
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d266b52845caef2f26412d0daa17d4c9317dc910c79466d1cd27d7a877f3e6f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321618"
 ---
 # <a name="cim_devicefile-methods"></a>CIM \_ DeviceFile 方法
 

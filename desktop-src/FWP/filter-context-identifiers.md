@@ -17,16 +17,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c09968f1ab68016405f22460409e83cfd826b716
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fdc7d9914a9b6089ace87e7e9b942499d8e65dc7705bf524f74cddf96ee419d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951267"
 ---
 # <a name="filter-context-identifiers"></a>篩選內容識別碼
 
-內建于 Windows 篩選平台的篩選內容識別碼定義如下。
+內建至 Windows 篩選平台之篩選內容的識別碼定義如下。
 
 <dl> <dt>
 
@@ -48,7 +48,7 @@ ms.locfileid: "106968985"
 輸出層中的 IPsec 傳輸篩選內容。
 
 > [!Note]  
-> 若為 Windows 7，請使用 **FWPM \_ 內容 \_ IPSEC \_ 輸出 \_ 隱藏的 \_ 協商**。
+> 針對 Windows 7，請使用 **FWPM \_ 內容 \_ IPSEC \_ 輸出隱藏的 \_ \_ 協商**。
 
  
 
@@ -73,7 +73,7 @@ ms.locfileid: "106968985"
 用於 ALE 連接或接受層的篩選內容。
 
 > [!Note]  
-> 若為 Windows 7，請使用 **FWPM \_ 內容 \_ ale \_ 設定連線 \_ \_ 允許 \_ 第一個 \_ 輸入的 \_ PKT \_ 未加密，** 或 **FWPM \_ 內容 \_ ale \_ 允許 \_ 驗證 \_ FW**。
+> 針對 Windows 7，請使用 **FWPM \_ 內容 \_ ale 設定連線 \_ \_ \_ 允許 \_ 第一個 \_ 輸入的 \_ PKT \_ 未加密，** 或 **FWPM \_ 內容 \_ ale \_ 允許 \_ 驗證 \_ FW**。
 
  
 
@@ -106,8 +106,8 @@ RPC audit 子層中使用的內容。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Fwpmu。h</dt> </dl> |
 
 

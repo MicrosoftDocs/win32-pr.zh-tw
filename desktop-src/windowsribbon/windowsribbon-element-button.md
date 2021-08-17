@@ -1,9 +1,9 @@
 ---
-title: " (Windows 功能區架構) 的按鈕元素"
+title: 'Windows 功能區架構 (的按鈕元素) '
 description: 表示按鈕控制項。
 ms.assetid: a17d4dd8-9b0d-4b4a-93f4-f2a8c008fc58
 keywords:
-- 按鈕元素視窗功能區
+- 按鈕元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 40236b60a9fe9c72dd35d67fcf7c98bc188938af
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: ccd6084fef3c06c62e5dc780f526965a24966e9d36b5c249f57984921d9276c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964297"
 ---
 # <a name="button-element"></a>Button 元素
 
@@ -56,21 +56,21 @@ ms.locfileid: "111443569"
 <tr class="odd">
 <td><strong>S. IsChecked</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>只有當 <strong>Button</strong> 元素是 <a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>QuickAccessToolbar. s</strong></a>的子系時，這個屬性才有效。 <br/> 限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>只有在 <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> 是父元素時才有效。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 字串，其中包含0到31之間的整數清單（以逗號分隔）。<br/> 空白字元是有效的，而且會被忽略。<br/> 最大長度：250個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
@@ -92,7 +92,7 @@ ms.locfileid: "111443569"
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>                                                     |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>                                                 |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br/>                                               |
-| [**群組**](windowsribbon-element-group.md)<br/>                                                                   |
+| [**Group**](windowsribbon-element-group.md)<br/>                                                                   |
 | [**MenuGroup**](windowsribbon-element-menugroup.md)<br/>                                                           |
 | [**QuickAccessToolbar. s**](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md)<br/> |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                                                       |

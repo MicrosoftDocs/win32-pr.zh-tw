@@ -4,12 +4,12 @@ ms.assetid: 5fbf6c4a-3897-4a12-bef6-19478fdb48aa
 title: 家長監護 SKU 可用性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b858bc62e8f10a3b06313befd99d67e497b8d442
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21184a383a28e3ae06198f203475c1c03334e5d678278bbb3b4988b52971e79e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461198"
 ---
 # <a name="parental-controls-sku-availability"></a>家長監護 SKU 可用性
 
@@ -27,7 +27,7 @@ ms.locfileid: "106981554"
 
 建議解決方案透過檢查合規性 API 上的 COM CoCreateInstance 是否成功，來偵測家長監護基礎結構的可用性。
 
-以 Windows Vista 基礎結構為依據的可感知應用程式，也可能想要在支援的 SKU 上隱藏家長監護的 UI 時，隱藏任何自己的 UI 公開設定或其他功能。 為可見度判斷提供的函式，涵蓋已加入網域的隱藏專案。
+根據 Windows Vista 基礎結構，可感知家長監護的應用程式可能也會想要在支援的 SKU 上隱藏家長監護的 ui 時，隱藏任何自己的 ui 公開設定或其他功能。 為可見度判斷提供的函式，涵蓋已加入網域的隱藏專案。
 
  
 

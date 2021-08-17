@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 41be4cfef8b7ecf7be109c2f71b532d9f5bd9827
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20ce1e6947c0fbcbf0da352749a1b1ce30d365f2c108e08a9ea89088626976ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119403088"
 ---
 # <a name="esentrecordnotfoundexception-constructor"></a>EsentRecordNotFoundException 函式
 

@@ -1,5 +1,5 @@
 ---
-title: 'IWMPMediaCollection (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPMediaCollection (VB 和 C ) 介面 (Wmp. h) '
 description: 提供可用於組織大型媒體專案集合的方法。
 ms.assetid: a9e3d466-7dcf-4f1b-ba6f-9d166a35f03d
 keywords:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 424fd45b1fd3d02000a9774ffe75ec87e52dd9c5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce15616b2059802610360b52d5af9bfa8d56b56b7ed06129bb849de567e22e26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468448"
 ---
 # <a name="iwmpmediacollection-vb-and-c-interface"></a>IWMPMediaCollection (VB 和 c # ) 介面
 
@@ -85,7 +85,7 @@ ms.locfileid: "106993248"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPMediaCollection2 介面**](iwmpmediacollection2--vb-and-c.md)
