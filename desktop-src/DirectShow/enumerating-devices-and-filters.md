@@ -4,16 +4,16 @@ ms.assetid: 334bba2a-7477-4115-9ce0-d4495c1fc290
 title: 列舉裝置和篩選器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e69997a4af4f3160f0b338bc9c595adea83a5354
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9a53f4a36e2bf994cfeab34a49444d104b2213a839bb1fa8bd2aa4d70e0003b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401772"
 ---
 # <a name="enumerating-devices-and-filters"></a>列舉裝置和篩選器
 
-有時候，應用程式必須在使用者的系統上找出特定的篩選準則。 例如，影片捕獲應用程式可能會顯示可用的捕獲裝置清單。 因為 DirectShow 使用以元件為基礎的架構，所以您無法在設計階段得知使用者系統上安裝了哪些篩選器。 這特別適用于代表硬體裝置的篩選準則。 DirectShow 提供兩個元件來尋找已註冊的篩選：
+有時候，應用程式必須在使用者的系統上找出特定的篩選準則。 例如，影片捕獲應用程式可能會顯示可用的捕獲裝置清單。 因為 DirectShow 使用以元件為基礎的架構，所以您無法在設計階段得知使用者系統上安裝了哪些篩選器。 這特別適用于代表硬體裝置的篩選準則。 DirectShow 提供兩個元件來尋找已註冊的篩選準則：
 
 -   [系統裝置列舉](system-device-enumerator.md)值會依類別目錄來尋找篩選。
 -   [篩選器](filter-mapper.md)對應程式會根據應用程式所提供的搜尋條件來尋找篩選。
@@ -29,7 +29,7 @@ ms.locfileid: "103846600"
 
 <dl> <dt>
 
-[基本的 DirectShow 工作](basic-directshow-tasks.md)
+[基本 DirectShow 工作](basic-directshow-tasks.md)
 </dt> </dl>
 
  

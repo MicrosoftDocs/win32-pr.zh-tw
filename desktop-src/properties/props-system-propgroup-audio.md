@@ -4,18 +4,18 @@ ms.assetid: d15f1a0b-de24-4af2-9482-fc829052dd6c
 title: PropGroup 音訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d884b37fb74c220caa8c40c578a22f56ad922e7
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: f9bb966c09477cf11f3a618097611c6dafbeefbf13fab308340613566f50d438
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112403781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723065"
 ---
 # <a name="systempropgroupaudio"></a>PropGroup 音訊
 
 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

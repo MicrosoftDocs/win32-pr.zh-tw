@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a088a1be640c6653a8a8ccd8b00cf21bd027ecd7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5daa2b33fdc356782837aadfe37186bc4cc2b493208fdc78ba645ada9e746582
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884848"
 ---
 # <a name="ienumprogressitemsremotenext-method"></a>IEnumProgressItems：： RemoteNext 方法
 
@@ -73,7 +73,7 @@ HRESULT RemoteNext(
 
 
 
-| 傳回碼                                                                                   | Description                                                                     |
+| 傳回碼                                                                                   | 描述                                                                     |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | 指標無效。<br/> 值：且顯示0x80004003<br/>                   |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 無法配置所需的記憶體。<br/> 值：0x8007000E<br/> |
@@ -94,9 +94,9 @@ HRESULT RemoteNext(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （含 SP2） \[ 桌面應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
-| Idl<br/>                      | <dl> <dt>Imapi2fs .idl</dt> </dl> |
+| 最低支援的用戶端<br/> | WindowsVista、Windows XP （ \[ 僅限 SP2）桌面應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
+| IDL<br/>                      | <dl> <dt>Imapi2fs .idl</dt> </dl> |
 
 
 

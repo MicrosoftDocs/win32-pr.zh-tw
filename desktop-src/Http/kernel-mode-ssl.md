@@ -6,25 +6,25 @@ keywords:
 - 核心模式 SSL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 737ac7c6c25bac6e7b66d91aa967fc6fa550459b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c9dcfeb87b1a98539d7bd6a3b8b82dcfd5ee41fc9ad4c4c306f4c399aebd18a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106991090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393916"
 ---
 # <a name="kernel-mode-ssl"></a>核心模式 SSL
 
-核心模式 SSL 是在 Windows Server 2003 Service Pack 1 中引進， (SP1) 支援有限。 針對在 Windows Server 2003 SP1 上執行的電腦，必須將登錄機碼設定為啟用核心 SSL。 針對在 Windows Server 2008 和 Windows Vista 上執行的電腦，會提供 SSL 的完整核心模式支援。
+核心模式 SSL 是在 Windows Server 2003 Service Pack 1 (SP1) （支援有限）中引進。 針對 Windows Server 2003 SP1 上執行的電腦，必須將登錄機碼設定為啟用核心 SSL。 針對 Windows Server 2008 和 Windows Vista 上執行的電腦，會提供 SSL 的完整核心模式支援。
 
 下列各節說明核心模式的 SSL 支援：
 
--   Windows Server 2003 （含 SP1）中的核心模式 SSL
+-   Windows Server 2003 SP1 中的核心模式 SSL
 -   Windows Server 2008 和 Windows Vista 中的核心模式 SSL
 
-## <a name="kernel-modes-ssl-in-windows-server-2003-with-sp1"></a>Windows Server 2003 （含 SP1）中的核心模式 SSL
+## <a name="kernel-modes-ssl-in-windows-server-2003-with-sp1"></a>Windows Server 2003 SP1 中的核心模式 SSL
 
-在 Windows Server 2003 （含 SP1）中，HTTP 伺服器 API 提供在核心模式中執行 SSL 安全性的選項 (使用者模式 SSL 是預設) 。 核心模式功能藉由將加密和解密作業移至核心來改善 SSL 效能，進而減少核心模式和使用者模式之間的轉換數目。
+在 Windows server 2003 （含 SP1）中，HTTP 伺服器 API 可讓您選擇以核心模式執行 ssl 安全性 (使用者模式 SSL 是預設) 。 核心模式功能藉由將加密和解密作業移至核心來改善 SSL 效能，進而減少核心模式和使用者模式之間的轉換數目。
 
 當 SSL 以核心模式執行時，不支援下列功能：
 
@@ -42,7 +42,7 @@ ms.locfileid: "106991090"
 
 ## <a name="kernel-mode-ssl-in-windows-server-2008-and-windows-vista"></a>Windows Server 2008 和 Windows Vista 中的核心模式 SSL
 
-針對在 Windows Server 2008 和 Windows Vista 上執行的電腦，HTTP 伺服器 API 具備增強的 SSL 功能。
+針對 Windows Server 2008 和 Windows Vista 上執行的電腦，HTTP 伺服器 API 具備增強的 SSL 功能。
 
 以下是支援的新功能：
 
@@ -94,7 +94,7 @@ HKEY_LOCAL_MACHINE
 <tbody>
 <tr class="odd">
 <td>EnableKernelSSL</td>
-<td><strong>Windows Server 2008 和 Windows Vista：</strong> 此登錄值已過時。<br/></td>
+<td><strong>Windows Server 2008 和 Windows Vista：</strong>此登錄值已過時。<br/></td>
 </tr>
 <tr class="even">
 <td>EnableSslCloseNotify</td>

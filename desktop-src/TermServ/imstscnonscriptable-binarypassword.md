@@ -47,12 +47,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d6eab2a3902968ef4d4c953a8da8b9c884a497
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3aef3cb62a6ab2c72d39a79ee4cd6e5d64192ae24bc8ef201da603cdbc528859
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106993817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757124"
 ---
 # <a name="imstscnonscriptablebinarypassword-property"></a>IMsTscNonScriptable：： BinaryPassword 屬性
 

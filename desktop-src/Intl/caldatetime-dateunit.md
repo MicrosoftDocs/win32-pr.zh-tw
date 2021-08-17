@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6ce1f8929dd6e2f7de59d32d66229f73c062505c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f73aeebe738a631bff95a07beaa0b5928d3d1935ac7b400ed5fa333e79c1f044
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118391598"
 ---
 # <a name="caldatetime_dateunit-enumeration"></a>CALDATETIME \_ DATEUNIT 列舉
 
@@ -116,8 +116,8 @@ enum CALDATETIME_DATEUNIT {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

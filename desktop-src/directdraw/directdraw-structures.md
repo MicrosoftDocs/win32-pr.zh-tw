@@ -4,12 +4,12 @@ description: 此區段包含下列與 DirectDraw 搭配使用之結構的相關�
 ms.assetid: 36424B41-B179-414A-ACFF-E63DA7B27043
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52cf24c71da3f022833c6ecf9843e996df2c514b
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: a4aba62751b619982628575b380ea75eb57661db8737325fee1fb1b042e856ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "106967699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504340"
 ---
 # <a name="directdraw-structures"></a>DirectDraw 結構
 
@@ -32,7 +32,7 @@ ms.locfileid: "106967699"
 > [!Note]  
 > 使用結構之前，您應該將每個 DirectX 結構的記憶體初始化為0。 此外，對於包含 **dwSize** 成員的所有結構，您應該將成員設定為使用結構之前的結構大小（以位元組為單位）。 下列範例會在通用結構 [**DDCAPS**](/windows/desktop/api/Ddraw/ns-ddraw-ddcaps_dx3)上執行這些工作：
 
- 
+ 
 
 
 ```
@@ -48,9 +48,9 @@ ddcaps.dwSize = sizeof(DDCAPS);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

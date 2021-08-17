@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc31f5867f6410fd82f182468d0ee5847179b3e0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 30ac1d6ae0d48628c80c61a3042bb2dd823ab506013d1a491a7e5dfa689b3617
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118881351"
 ---
 # <a name="systemmonitorshowverticalgrid-property"></a>SystemMonitor. ShowVerticalGrid 屬性
 

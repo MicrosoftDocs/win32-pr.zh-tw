@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: ea73318db7a91fa4d422624b1c3c0c6f09d97cb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2b6fd8e548353dbede634d7b3bbaa08023d5e7bc2c8bc4cefbe37f7aba494ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470574"
 ---
 # <a name="printer_enum_values-structure"></a>印表機 \_ 列舉 \_ 值結構
 
@@ -88,7 +88,7 @@ typedef struct _PRINTER_ENUM_VALUES {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ 印表機 \_ 列舉 \_ VALUESW** (Unicode) 和 **\_ 印表機 \_ 列舉 \_ VALUESA** (ANSI) <br/>                 |
 
 

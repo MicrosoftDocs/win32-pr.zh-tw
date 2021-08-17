@@ -4,12 +4,12 @@ ms.assetid: 44244035-f7d5-47f1-b4d8-b895562be855
 title: XPS 數位簽章 API 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160fc532ed90cb41e4d0cb524daba87f72edefd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0eab2543702f8239fefc61a92fec8745f23eaf3e80d8dfa3a227c40fffbc1e20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469257"
 ---
 # <a name="xps-digital-signature-api-interfaces"></a>XPS 數位簽章 API 介面
 

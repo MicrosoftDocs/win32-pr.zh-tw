@@ -4,12 +4,12 @@ ms.assetid: 6dc41682-6104-418b-b045-7afe8c2b11e9
 title: Public、Global 和 Local 符號
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623bf93ec8f11d1cec9c5fec64e2479dd91ee5cd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 72ecaa40549b091af204f2e318aefef8a256408e5f81b461e63a54c333719dd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406098"
 ---
 # <a name="public-global-and-local-symbols"></a>Public、Global 和 Local 符號
 

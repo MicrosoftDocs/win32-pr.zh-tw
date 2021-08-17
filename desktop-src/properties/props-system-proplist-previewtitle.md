@@ -4,18 +4,18 @@ ms.assetid: f5ba6fb6-d3d7-4825-8a82-d767147103e7
 title: PropList. PreviewTitle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 307f425d02383f07261d69e6328e44b017c557aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 399632707ab414ad07fafd37473cc15bc4e4f5236ef843f918c9bc8a4fb56b45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465202"
 ---
 # <a name="systemproplistpreviewtitle"></a>PropList. PreviewTitle
 
 要在預覽窗格標題區段中顯示的一或兩個屬性。 選用的第二個屬性會顯示為子標題。 在 "PreviewTitle" 的 regvalue 下註冊。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

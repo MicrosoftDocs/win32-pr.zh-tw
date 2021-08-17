@@ -4,12 +4,12 @@ description: 您可以使用 CreateStatusWindow 函數，或使用 CreateWindowE
 ms.assetid: 4ED4BFD3-904D-4198-8152-5DD13CA7C189
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c133d7c7e15e5f43d198f21cadff54bcb4be14c2
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: e7075c8d8896d59a5711d5ee80be4af90948ee4ee99a441fbbf1140cd7452c4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413186"
 ---
 # <a name="how-to-create-status-bars"></a>如何建立狀態列
 
@@ -20,18 +20,18 @@ ms.locfileid: "104024143"
 > [!Note]  
 > 若要確定已載入通用控制項 DLL，請先使用 [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) 函式。
 
- 
+ 
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -115,6 +115,6 @@ HWND DoCreateStatusBar(HWND hwndParent, int idStatus, HINSTANCE
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

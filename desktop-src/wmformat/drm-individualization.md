@@ -3,22 +3,22 @@ title: DRM 的個人化
 description: DRM 的個人化
 ms.assetid: 8f129bc1-3db9-4b41-9d60-daff037237ff
 keywords:
-- Windows Media Format SDK，DRM 的個人化
+- Windows媒體格式 SDK，DRM 的個人化
 - 數位版權管理 (DRM) 、個人化
 - DRM (數位版權管理) 、個人化
 - DRM 的個人化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 217be5cb5c1c7abef882c28961439baa93011c29
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f16704c968002ee9d9d9cd9a47bf71dd315c2c599848b2ea18b23408ec7a0507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848688"
 ---
 # <a name="drm-individualization"></a>DRM 的個人化
 
-受保護內容的擁有者可能會要求使用者在存取其內容之前，先升級 Windows Media Format SDK 中包含的一些數位版權管理 (DRM) 元件。 如果使用者接受升級，則會從 Microsoft 網站下載安全性檔案的個人化版本 (唯一的電腦) 。 如果使用者拒絕升級，則不能存取內容;不過，他們仍然可以存取未受保護的內容，以及不需要升級的受保護內容。 執行安全性升級有助於提高 DRM 所提供的保護層級。
+受保護內容的擁有者可能會要求使用者先升級 Windows 媒體格式 SDK 中包含的一些數位版權管理 (DRM) 元件，才能存取其內容。 如果使用者接受升級，則會從 Microsoft 網站下載安全性檔案的個人化版本 (唯一的電腦) 。 如果使用者拒絕升級，則不能存取內容;不過，他們仍然可以存取未受保護的內容，以及不需要升級的受保護內容。 執行安全性升級有助於提高 DRM 所提供的保護層級。
 
 在安裝期間，或是當應用程式第一次遇到需要的 protected ASF 檔案時，就可以進行個人化。 因為此程式會修改使用者的系統元件，所以在執行升級之前，應用程式必須通知使用者並取得其告知同意。 例如，Microsoft Windows Media Player 會顯示具有下列文字的對話方塊：
 
@@ -37,7 +37,7 @@ ms.locfileid: "104300452"
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -49,9 +49,9 @@ ms.locfileid: "104300452"
 [**Individualizing DRM 應用程式**](individualizing-drm-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

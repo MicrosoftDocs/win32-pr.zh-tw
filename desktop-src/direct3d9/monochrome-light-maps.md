@@ -1,17 +1,17 @@
 ---
 description: 某些舊版 3D 加速板不支援使用 alpha 目的地像素值的紋理混合。
 ms.assetid: 77d3b9fd-3232-4955-9df2-d4763d3eed6f
-title: " (Direct3D 9) 的單色燈光地圖"
+title: 地圖 (Direct3D 9) 的單色 Light
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9ca63c2e7bb3ed51f1c6c5184536aa51e0a11e3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dac6f62aaba08ac6c8e1116a0bc5059fed3dea19da51d83b034bfae79653ed5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728235"
 ---
-# <a name="monochrome-light-maps-direct3d-9"></a> (Direct3D 9) 的單色燈光地圖
+# <a name="monochrome-light-maps-direct3d-9"></a>地圖 (Direct3D 9) 的單色 Light
 
 某些舊版 3D 加速板不支援使用 alpha 目的地像素值的紋理混合。 如需詳細資訊，請參閱 [ (Direct3D 9 的 Alpha 材質混合) ](alpha-texture-blending.md) 。 通常這些介面卡也不支援多紋理混合。 如果您的應用程式正在這類的介面卡上執行，就可以使用多重紋理混合來執行單色光線對應。
 

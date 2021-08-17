@@ -30,12 +30,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24722658fe1ca071ccdbd3799d32cb4fdeb6ff8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b1cece2ad968c3518ddbc912be1e2cfa417a259dfbaaf16d120fa370f0790e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118486494"
 ---
 # <a name="jet_cp-enumeration"></a>JET_CP 列舉
 

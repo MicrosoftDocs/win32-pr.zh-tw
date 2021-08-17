@@ -4,12 +4,12 @@ ms.assetid: c895488b-6e60-4175-8865-4ba4b0cb2d9a
 title: 安裝期間的 CRC 檢查
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56e03bb6754b0259aa8b27333c8137408e7dc956
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c81b80a9b1900abf6c294911803df155a4c75025f5ad5ef01609af7345b0431e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118379913"
 ---
 # <a name="crc-checking-during-an-installation"></a>安裝期間的 CRC 檢查
 

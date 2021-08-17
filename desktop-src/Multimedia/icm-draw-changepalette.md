@@ -3,7 +3,7 @@ title: 'ICM_DRAW_CHANGEPALETTE 訊息 (Vfw .h) '
 description: ICM \_ DRAW \_ CHANGEPALETTE 訊息會通知轉譯驅動程式，表示電影調色板正在變更。 您可以使用 ICDrawChangePalette 宏明確地傳送此訊息。
 ms.assetid: 974fc0d8-d0c7-4a82-af84-68b53f753259
 keywords:
-- ICM_DRAW_CHANGEPALETTE message Windows 多媒體
+- ICM_DRAW_CHANGEPALETTE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6364abb2c535158b2e64ff311041b00490c5958c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e936c7dce397910ef70a80e2efa7f3e031ab8a61b8f59fece158d5c28e9e1270
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987594"
 ---
-# <a name="icm_draw_changepalette-message"></a>ICM \_ 繪圖 \_ CHANGEPALETTE 訊息
+# <a name="icm_draw_changepalette-message"></a>ICM \_繪製 \_ CHANGEPALETTE 訊息
 
 **ICM \_ DRAW \_ CHANGEPALETTE** 訊息會通知轉譯驅動程式，表示電影調色板正在變更。 您可以使用 [**ICDrawChangePalette**](/windows/desktop/api/Vfw/nf-vfw-icdrawchangepalette) 宏明確地傳送此訊息。
 

@@ -9,12 +9,12 @@ keywords:
 - capCaptureSetSetup 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0ad32bd3983301687b0eb0bb01f0fd932a43944
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 95d3a4d28c12905722447189eabc494b220d737fc0c87f7a9ebc12948390920d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373501"
 ---
 # <a name="measuring-video-quality"></a>測量視頻品質
 
@@ -22,9 +22,9 @@ ms.locfileid: "104021374"
 
 您可以使用 [ [**WM \_ CAP \_ GET \_ SEQUENCE \_ 設定**](wm-cap-get-sequence-setup.md) 訊息] (或 [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) 宏) ，來取得目前已卸載框架的限制 (以百分比) 表示。 您可以設定新的限制，方法是將百分比指定為 **CAPTUREPARMS** 結構的 **wPercentDropForError** 成員值，然後使用 [ [**WM \_ CAP \_ set \_ SEQUENCE 設定 \_**](wm-cap-set-sequence-setup.md)訊息 (] 或 [ [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup)宏) ，將更新的結構傳送至 [捕獲] 視窗。 **WPercentDropForError** 的預設值為10%。
 
- 
+ 
 
- 
+ 
 
 
 

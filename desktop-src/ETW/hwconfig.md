@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: cfb194e09701dbc52b00279b624877f09ffac24b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1d4b8f69784729ffe5d51f3068b03fc0b4154182b2d05f2896e4556a05f7eba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394678"
 ---
 # <a name="hwconfig-class"></a>HWConfig 類別
 
@@ -44,7 +44,7 @@ class HWConfig : MSNT_SystemTrace
 
 **Windows 2000：** 不支援。
 
-如需 Windows Vista 和 Windows Server 2003 上的硬體設定事件，請參閱 [SystemConfig](systemconfig.md) 類別。
+如需 Windows Vista 和 Windows Server 2003 上的硬體設定事件，請參閱[SystemConfig](systemconfig.md)類別。
 
 事件追蹤取用者可以藉由呼叫 [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) 函式並將 [**EventTraceConfigGuid**](nt-kernel-logger-constants.md) 指定為 *pGuid* 參數，來執行硬體設定事件的特殊處理。 使用下列事件種類來識別使用事件時的實際硬體設定事件。
 
@@ -67,7 +67,7 @@ class HWConfig : MSNT_SystemTrace
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                   |
 
 

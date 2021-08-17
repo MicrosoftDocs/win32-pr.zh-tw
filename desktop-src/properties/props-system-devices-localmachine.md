@@ -4,12 +4,12 @@ ms.assetid: 6f90c4b5-e3f0-4a60-b942-fead336ab48a
 title: System.Devices.LocalMachine
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 987b1b60986b610b6ee8c69a4727a046dcc10f79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f49041f794d1cb2a2f4c0b2962e08249673d413c9cd12118fbb255bae06c7d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118467530"
 ---
 # <a name="systemdeviceslocalmachine"></a>System.Devices.LocalMachine
 

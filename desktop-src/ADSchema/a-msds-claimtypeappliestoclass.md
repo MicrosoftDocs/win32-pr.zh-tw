@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72b5d440b492f5a9b120420bddba31375aec877b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 55c9bf9b622c1a52b1476b83b659c685d2b4e9c207e156a3028b0487b2b6c17a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118014908"
 ---
 # <a name="ms-ds-claim-type-applies-to-class-attribute"></a>ms-DS-宣告類型-套用至類別的屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 810D4057-8319-4B9B-9098-CD7987CB292C
 title: 使用 WaaS 評定平臺
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed3a7d70e3dab0c75aea266f2a1874931e5e5d4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08401222b11036047a6c03e98cccaa9dc65e6f6a7cf39470480479c217549d57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884225"
 ---
 # <a name="using-the-waas-assessment-platform"></a>使用 WaaS 評定平臺
 

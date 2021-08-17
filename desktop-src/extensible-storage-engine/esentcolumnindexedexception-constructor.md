@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b188f7f4634e43c0ccacfe1f9aea8fd48f8c1407
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93a09280fd8ab6e4b60efadeca92fcb54636175494d4f1d1508a2216b37d350d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117714035"
 ---
 # <a name="esentcolumnindexedexception-constructor"></a>EsentColumnIndexedException 函式
 

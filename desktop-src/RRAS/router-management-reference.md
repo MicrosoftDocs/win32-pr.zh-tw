@@ -7,12 +7,12 @@ keywords:
 - 路由器管理 RRAS，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f371bf2973b50e5cd21498b4fdd490dd0d5b25e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78a26d30f8b91201de24e6752ddae21bc5d2632778436e90f69fc51bc7698312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787814"
 ---
 # <a name="router-management-reference"></a>路由器管理參考
 
@@ -24,9 +24,9 @@ ms.locfileid: "104311636"
 -   [路由器管理結構](router-management-structures.md)
 -   [路由器管理列舉](router-management-enumerations.md)
 
- 
+ 
 
- 
+ 
 
 
 

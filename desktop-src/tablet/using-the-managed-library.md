@@ -4,18 +4,18 @@ ms.assetid: d283ea1c-faf3-4222-a9a7-c67087636b86
 title: 使用受管理的程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b1a1050705a6d74e6b183d04ec1c8f82d3954f0
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 9d1241787b680045d6c84b440717ced5426e4352d8c280ef58c1bb7f75c9fc66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106982788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449242"
 ---
 # <a name="using-the-managed-library"></a>使用受管理的程式庫
 
 Common language runtime 是 Microsoft .NET Framework 的基礎。 您可以將 common language runtime 視為在運行時間管理程式碼的代理程式，提供核心服務，例如記憶體管理、執行緒管理和遠端處理，同時強制執行嚴格的程式碼安全性。 事實上，程式碼管理的概念是 common language runtime 的基本原則。 以 common language runtime 為目標的程式碼稱為 managed 程式碼。 不是以 common language runtime 為目標的程式碼稱為機器碼。
 
-Framework 類別庫是一組完整的物件導向集合，可供您用來開發應用程式，範圍從傳統的命令列或圖形化使用者介面， (GUI) 應用程式到以 ASP.NET 和 Web 服務所提供的最新創新為基礎的應用程式。
+Framework 類別庫是一組完整的物件導向集合，可供您用來開發應用程式，範圍從傳統的命令列或圖形化使用者介面， (GUI) 應用程式，再到 ASP.NET 和 Web 服務所提供的最新創新。
 
 Tablet PC Managed 程式庫包含一組受管理的物件，可延伸架構，以支援 Tablet PC 的手寫輸入和輸出，以及與其他電腦的資料交換。
 
@@ -35,13 +35,13 @@ Tablet PC API 中的 managed 程式庫物件會包裝 COM 程式庫的實現。 
 
 指示 common language runtime 載入器使用較新 DLL 的最佳方式，就是在應用層級重新導向元件版本。 您可以藉由將元件系結資訊放在應用程式的設定檔中，指定您的應用程式使用較新版本的元件。 如需在應用層級重新導向元件版本的詳細資訊，請參閱重新導向 [元件版本](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconassemblyversionredirection.asp%3fframe%3dtrue)，尤其是「在設定檔中指定元件系結」一節。
 
-您將需要在與可執行檔相同的目錄中建立設定檔。 設定檔的名稱必須與可執行檔的名稱相同，後面接著 .config 副檔名。 例如，MyApp.exe 的應用程式中，設定檔必須是 MyApp.exe.config 的檔案。 設定檔會使用 [bindingRedirect](/previous-versions/dotnet/netframework-1.1/eftw1fys(v=vs.71)) 專案來強制所有先前的版本對應至最新版本，如下列範例所示：
+您將需要在與可執行檔相同的目錄中建立設定檔。 設定檔的名稱必須與可執行檔的名稱相同，後面接著 .config 的副檔名。 例如，MyApp.exe 的應用程式中，設定檔必須是 MyApp.exe.config 的檔案。 設定檔會使用 [bindingRedirect](/previous-versions/dotnet/netframework-1.1/eftw1fys(v=vs.71)) 專案來強制所有先前的版本對應至最新版本，如下列範例所示：
 
 `<bindingRedirect oldVersion="0.0.0.0-1.7.2600.xxxx" newVersion="1.7.2600.xxxx" />`
 
 如需設定檔的詳細資訊，包括如何為設定檔建立可延伸標記語言 (XML)  (XML) 的範例，請參閱 [bindingRedirect](/previous-versions/dotnet/netframework-1.1/eftw1fys(v=vs.71)) 和重新導向 [元件版本](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconassemblyversionredirection.asp%3fframe%3dtrue)。
 
-使用 Microsoft Windows XP Tablet PC Edition 開發工具組1.7 和更新版本所建立的應用程式，會自動系結至新版的 Microsoft Ink 元件。 如需元件系結的詳細資訊，請參閱 [執行時間如何找出元件](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconHowRuntimeLocatesAssemblies.asp)。
+使用 microsoft Windows XP Tablet PC Edition 開發工具組1.7 和更新版本所建立的應用程式，會自動系結至新版的 microsoft Ink 元件。 如需元件系結的詳細資訊，請參閱 [執行時間如何找出元件](/documentation/?url=%2flibrary%2fcpguide%2fhtml%2fcpconHowRuntimeLocatesAssemblies.asp)。
 
 > [!Note]  
 > 使用 [分割](/previous-versions/ms583616(v=vs.100)) 類別或 [PenInputPanel](/previous-versions/aa514041(v=msdn.10)) 類別的應用程式無法使用應用程式原則系結至更新的元件。 使用其中一種類別的應用程式必須繼續使用 Microsoft.Ink.15.dll 或在參考更新的元件之後重新編譯。

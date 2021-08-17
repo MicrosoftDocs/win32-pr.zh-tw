@@ -4,18 +4,18 @@ ms.assetid: 22b62f60-c087-45ec-b0e2-8e94aa6bafe0
 title: ToName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b18d03f479287de3f4c662de72dc161c14a094
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44a4c4ad2af25909dcafd5c15257cb54febe80677815e514151374afcbd256d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683031"
 ---
 # <a name="systemmessagetoname"></a>ToName
 
 [發至：] 欄位中的人員名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

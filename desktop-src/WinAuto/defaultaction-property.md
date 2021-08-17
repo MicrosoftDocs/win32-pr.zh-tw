@@ -4,12 +4,12 @@ description: 物件的 DefaultAction 屬性會描述物件的主要操作方法�
 ms.assetid: 8242c0af-b42e-44a4-8807-d6740fa1a24a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73dc032037c331a2022f227cb8e8547dd8bce9d2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6dd5aa70e0c6c633aa5b0ca3fe5c40049dbeb8cf2496c7785eea513821e1d5ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325752"
 ---
 # <a name="defaultaction-property"></a>DefaultAction 屬性
 
@@ -26,9 +26,9 @@ ms.locfileid: "104300303"
 -   標示為「列印」的按鈕具有預設動作「按下」，沒有任何值。
 -   顯示「印表機」的靜態文字控制項或編輯控制項沒有預設動作，但值為「印表機」。
 
- 
+ 
 
- 
+ 
 
 
 

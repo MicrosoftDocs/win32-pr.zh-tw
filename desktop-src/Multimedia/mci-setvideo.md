@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a20e0cc5466ac9ff28a59543543069fa9acd05
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 23206d169ad5e273927ead247c44194660c8d6b201c725e1b4d4ab24fd5e1544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803375"
 ---
 # <a name="mci_setvideo-command"></a>MCI \_ SETVIDEO 命令
 
@@ -349,7 +349,7 @@ Gamma 更正指數值是在 *lpSetVideo* 所識別之結構的 **dwValue** 成�
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -357,7 +357,7 @@ Gamma 更正指數值是在 *lpSetVideo* 所識別之結構的 **dwValue** 成�
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令](mci-commands.md)

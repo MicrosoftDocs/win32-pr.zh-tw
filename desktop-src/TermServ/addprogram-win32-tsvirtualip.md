@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4de573e8d04500917ed44d5a0453005b3aa691bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d2f78cb461a61467867a544e954a71c23d59432e29450a7b0f35184f0edec57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757855"
 ---
 # <a name="addprogram-method-of-the-win32_tsvirtualip-class"></a>Win32 TSVirtualIP 類別的 AddProgram 方法 \_
 

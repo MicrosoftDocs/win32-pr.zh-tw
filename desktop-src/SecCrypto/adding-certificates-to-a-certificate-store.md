@@ -4,16 +4,16 @@ ms.assetid: a1cb6e1e-0702-4f73-827e-3f9e9237b4b6
 title: 將憑證新增至憑證存放區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6f4c018be697f48e40d52480f49694762fb956f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e3c4b2fafbcd11bf2d984dfd5b5a575f67dc4f6d3c70337de399ca6076029ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774033"
 ---
 # <a name="adding-certificates-to-a-certificate-store"></a>將憑證新增至憑證存放區
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista、Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 如果存放區是以讀取/寫入權限開啟，則可以在 [*憑證存放區*](../secgloss/c-gly.md)中新增或移除 [*憑證*](../secgloss/c-gly.md)。 未將讀取/寫入權限授與 Active Directory 存放區。 雖然可以在記憶體存放區中新增或移除憑證，但記憶體存放區中的變更不會在會話之間保存。
 

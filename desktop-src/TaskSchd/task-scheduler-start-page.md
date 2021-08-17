@@ -9,17 +9,17 @@ keywords:
 - 工作排程器，入口網站頁面
 ms.topic: article
 ms.date: 10/18/2019
-ms.openlocfilehash: dfbfb76145e38003e7c501b98c817f4aaca3ff09
-ms.sourcegitcommit: 087843ef08ddcd8bce9ed647b610035925da2b3e
+ms.openlocfilehash: 05edababae87c760f5506d8a40d18ef8dcc59ab35fa78b692cc76b5ad3b46579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/19/2019
-ms.locfileid: "104092325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118357741"
 ---
 # <a name="task-scheduler-for-developers"></a>適用于開發人員的工作排程器
 
 > [!IMPORTANT]
-> 本主題和本節中的其他主題適用于開發人員物件。 如果您想要以系統管理員或 IT 專業人員的容量使用工作排程器元件，請參閱 [工作排程器](/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler)。
+> 本主題和本節中的其他主題適用于開發人員物件。 如果您想要以系統管理員或 IT Professional 的容量使用工作排程器元件，請參閱[工作排程器](/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler)。
 
 ## <a name="about-the-task-scheduler"></a>關於工作排程器
 
@@ -50,8 +50,8 @@ ms.locfileid: "104092325"
 
 工作排程器需要下列作業系統。
 
-- 工作排程器2.0：用戶端需要 Windows Vista 或更新版本。 伺服器需要 Windows Server 2008 或更新版本。
-- 工作排程器1.0：用戶端需要 Windows Vista 或 Windows XP。 伺服器需要 Windows Server 2008 或 Windows Server 2003。
+- 工作排程器2.0：用戶端需要 Windows Vista 或更新版本。 伺服器需要 Windows server 2008 或更新版本。
+- 工作排程器1.0：用戶端需要 Windows Vista 或 Windows XP。 伺服器需要 Windows server 2008 或 Windows server 2003。
 
 ## <a name="in-this-section"></a>本節內容
 

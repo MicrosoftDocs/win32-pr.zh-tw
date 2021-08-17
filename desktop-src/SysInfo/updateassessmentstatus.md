@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - waasapitypes.h
-ms.openlocfilehash: 790077118db7704bdd04801758f44cbb50cc54b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4ece78c9593ab674a4198829c4e75612a9c4b337e17b3d2b6c5ed2fc19f42c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884304"
 ---
 # <a name="updateassessmentstatus-enumeration"></a>UpdateAssessmentStatus 列舉
 
@@ -150,8 +150,8 @@ typedef enum TagUpdateAssessmentStatus {
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1703版桌面應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                   |
-| Idl<br/>                      | <dl> <dt>WaaSAPI .idl</dt> </dl> |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                   |
+| IDL<br/>                      | <dl> <dt>WaaSAPI .idl</dt> </dl> |
 
 
 

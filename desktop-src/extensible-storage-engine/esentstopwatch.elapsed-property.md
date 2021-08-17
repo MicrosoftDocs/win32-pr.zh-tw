@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5609d22ec8702bcf02ff36857e469a0426558e90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02d60a19f799d5470711e9479b7ce0b28e190cdc63a23f853aa45a02d60aa70d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118490495"
 ---
 # <a name="esentstopwatchelapsed-property"></a>EsentStopwatch. 經過的屬性
 

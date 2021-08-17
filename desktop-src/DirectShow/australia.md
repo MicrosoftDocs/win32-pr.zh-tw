@@ -4,12 +4,12 @@ ms.assetid: f7d5aa66-3b8e-496a-a7fd-209f7334a868
 title: 澳大利亞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d00d98e13e2e0b8ea326a0e1e831b02553f8917
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f25b95b9ac5e6936fd38cf910f87357834f73dd72bc582c5e3dbdf7c8282f1e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824238"
 ---
 # <a name="australia"></a>澳大利亞
 

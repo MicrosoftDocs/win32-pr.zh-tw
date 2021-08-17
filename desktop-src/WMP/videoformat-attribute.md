@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c68e1e763a3b6d04dbcd8c8afec8d29ccc136954
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a4a74e811a3edab92a2c7a17f14f1fbd65ea8abe46176cd121e6f182621db035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333034"
 ---
 # <a name="videoformat-attribute"></a>VideoFormat 屬性
 

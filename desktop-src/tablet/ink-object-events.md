@@ -4,12 +4,12 @@ ms.assetid: 410f7126-5c4c-4c0c-8aa6-c94f15c903fc
 title: 筆墨物件事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0375606b4f4a2f257aa00c360c764972f28c467
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63217f603b06703b7824c19d3a709fdb97f31c9890e3148a6eeefd1e681d63b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118451935"
 ---
 # <a name="ink-object-events"></a>筆墨物件事件
 

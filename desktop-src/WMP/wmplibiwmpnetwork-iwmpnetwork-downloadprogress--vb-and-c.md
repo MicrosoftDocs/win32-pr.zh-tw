@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b10b767845ac951e1364e15c7f6f1d729882e0d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 96c2b47895d595a570191d9aa66b90b1cdc53392f8f111d64307074e5689f2ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331977"
 ---
 # <a name="iwmpnetworkdownloadprogress-property"></a>IWMPNetwork：:d ownloadProgress 屬性
 
@@ -155,7 +155,7 @@ End Sub
 
 <dl> <dt>
 
-[**AxWindowsMediaPlayer (VB 和 c # ) 的緩衝事件**](axwmplib-axwindowsmediaplayer-buffering.md)
+[**AxWindowsMediaPlayer (VB 和 c # 的緩衝事件 )**](axwmplib-axwindowsmediaplayer-buffering.md)
 </dt> <dt>
 
 [**IWMPNetwork 介面 (VB 和 c # )**](iwmpnetwork--vb-and-c.md)

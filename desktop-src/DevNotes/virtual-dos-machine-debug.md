@@ -4,12 +4,12 @@ ms.assetid: 031F93ED-D4C7-48F6-A158-6C5D9848A078
 title: 虛擬 DOS 機器調試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa19a48b05fa28687d92b7c1fa5bd6cd6835f98
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 06eb6a68ee2a594c102a480b89ba52e37be2beac26dc66d574787491e0e3094d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404397"
 ---
 # <a name="virtual-dos-machine-debug"></a>虛擬 DOS 機器調試
 

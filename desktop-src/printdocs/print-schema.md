@@ -4,18 +4,18 @@ ms.assetid: d746bdd1-96c2-41f5-ad99-0b51c8ee8731
 title: 舊版列印架構參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81a8f417d20913563cfd4a52ba51d21b516e73f0
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 540496004534dff3e66ce1c30415ccec14c6d7b31c59ecf2f79905c25d5e7861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470855"
 ---
 # <a name="legacy-print-schema-reference"></a>舊版列印架構參考
 
 本主題並非最新的。 如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。
 
-您可以在 Microsoft .NET Framework 3.0、Microsoft Windows Vista 及更新版本中取得列印架構和相關技術。
+您可以在 microsoft .NET Framework 3.0、microsoft Windows Vista 和更新版本中取得列印架構和相關技術。
 
 列印架構會提供以 XML 為基礎的格式來表示和組織一組大量的屬性，這些屬性會以階層結構化的方式來描述作業格式或 PrintCapabilities。
 

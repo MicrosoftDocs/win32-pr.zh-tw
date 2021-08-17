@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c455e9bd61038a4d72bb6537d7c62b30a5d0b733
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 07137068961447b9f311dbdb765d34fbf2689ca80fd2035e8a60ebe27e4037bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929761"
 ---
 # <a name="iwmpmediacollectiongetbyalbum-method"></a>IWMPMediaCollection：： getByAlbum 方法
 

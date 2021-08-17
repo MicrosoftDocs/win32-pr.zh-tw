@@ -4,17 +4,17 @@ ms.assetid: cacb0aec-d438-4875-a96e-4e0239fdc6ba
 title: '系統錯誤碼 (0-499)  (Winerror.h. h) '
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 413d9674f511bd49df12267b60d6c6c3dac366aa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a9eddec2baf098f62bb1c0ad88e632360807e7f3fd0ea045f2565587f13e93a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405647"
 ---
 # <a name="system-error-codes-0-499"></a>系統錯誤碼 (0-499) 
 
 > [!NOTE]
-> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[ [錯誤碼](system-error-codes.md) ] 頁面上有資源清單。
+> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[[錯誤碼](system-error-codes.md)] 頁面上有資源清單。
 
 下列清單說明 [系統錯誤碼](system-error-codes.md) (錯誤0到 499) 。 當有許多函式失敗時， [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 函式會傳回這些函數。 若要在您的應用程式中取得錯誤的描述文字，請使用 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函式，並搭配系統旗標的 **格式 \_ 訊息 \_ \_** 。
 
@@ -860,7 +860,7 @@ Windows 找不到網路路徑。 請確認網路路徑是否正確，且目的�
 
 
 
-無法使用儲存體來處理此要求。
+無法使用儲存體處理此要求。
 
 
 </dt> </dl> </dd> <dt>
@@ -3199,9 +3199,9 @@ Oplock 要求遭到拒絕。
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winerror.h (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                               |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                      |
+| 標頭<br/>                   | <dl> <dt>winerror.h (包含 Windows .h) </dt> </dl> |
 
 
 

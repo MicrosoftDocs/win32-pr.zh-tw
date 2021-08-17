@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 65cd54a1dd66f498e1d25fd5bb36f97b96a40a34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a986e56666fba1c97cb530fcd8ccf095b3ff87e6af42197159cd3f154bd503d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118485435"
 ---
 # <a name="snapshotgetfreezeinfogrbit-enumeration"></a>SnapshotGetFreezeInfoGrbit 列舉
 

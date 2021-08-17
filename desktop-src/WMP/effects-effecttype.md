@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3eda9cbd1a4634062683536f1f132393a2874691
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a452f9218c7004d1078ae6b9e878421a7cad301f3ee913ef6296aaa1c681b736
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749230"
 ---
 # <a name="effectseffecttype"></a>效果。 >effecttype
 
-**>effecttype** 方法會使用指定的登錄索引來抓取視覺效果的登錄名稱。 這個名稱是視覺效果作者所定義的唯一識別碼。
+**>Effecttype** 方法會使用指定的登錄索引來抓取視覺效果的登錄名稱。 這個名稱是視覺效果作者所定義的唯一識別碼。
 
 ``` syntax
         elementID.effectType(index)

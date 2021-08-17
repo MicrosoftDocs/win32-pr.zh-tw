@@ -4,12 +4,12 @@ description: 如果您使用 [檢查] 檢查 Microsoft WordPad 配件中的簡�
 ms.assetid: 30884e11-cc73-4bb8-9d9e-b9f1b53c4193
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb341881ee2ea503b1f74643723a1f90c8e5d1d5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c52dc54f2c32be3aff3e535427668943cf1ee21423636e3be8c018f6e3257b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745281"
 ---
 # <a name="screening-out-unnecessary-objects"></a>篩選掉不必要的物件
 
@@ -28,13 +28,13 @@ ms.locfileid: "106996550"
 
 
 
- 
+ 
 
 用戶端開發人員必須識別並篩選出這些父視窗物件和不可見的子物件，因為它們不會提供有意義的資訊給終端使用者。
 
- 
+ 
 
- 
+ 
 
 
 

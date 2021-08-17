@@ -19,7 +19,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                                     | 描述                                                                           |
+| Name                                                     | 描述                                                                           |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [**MsiSetInternalUI**](/windows/desktop/api/Msi/nf-msi-msisetinternalui)             | 啟用安裝程式的內部使用者介面。                                 |
 | [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia)             | 啟用以字串格式接收訊息的外部使用者介面處理常式。 |
@@ -34,7 +34,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                             | 描述                                                   |
+| Name                                             | 描述                                                   |
 |--------------------------------------------------|---------------------------------------------------------------|
 | [**MsiCloseHandle**](/windows/desktop/api/Msi/nf-msi-msiclosehandle)         | 關閉開啟的安裝控制碼。                           |
 | [**MsiCloseAllHandles**](/windows/desktop/api/Msi/nf-msi-msicloseallhandles) | 關閉所有開啟的安裝控制碼。 請勿使用進行清除。 |
@@ -47,7 +47,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                                                     | 描述                                                                                                                                                                                                                  |
+| Name                                                                     | 描述                                                                                                                                                                                                                  |
 |--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MsiAdvertiseProduct**](/windows/desktop/api/Msi/nf-msi-msiadvertiseproducta)                       | 通告產品。                                                                                                                                                                                                        |
 | [**MsiAdvertiseProductEx**](/windows/desktop/api/Msi/nf-msi-msiadvertiseproductexa)                   | 通告產品。                                                                                                                                                                                                        |
@@ -84,7 +84,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                                                     | 描述                                                                                                                                                                                                                   |
+| Name                                                                     | 描述                                                                                                                                                                                                                   |
 |--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MsiProvideAssembly**](/windows/desktop/api/Msi/nf-msi-msiprovideassemblya)                         | 安裝並傳回元件的完整元件路徑。                                                                                                                                                                 |
 | [**MsiProvideComponent**](/windows/desktop/api/Msi/nf-msi-msiprovidecomponenta)                       | 安裝並傳回元件的完整元件路徑。                                                                                                                                                                  |
@@ -103,7 +103,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                             | 描述                                                            |
+| Name                                             | 描述                                                            |
 |--------------------------------------------------|------------------------------------------------------------------------|
 | [**MsiCollectUserInfo**](/windows/desktop/api/Msi/nf-msi-msicollectuserinfoa) | 從安裝精靈儲存使用者資訊。                   |
 | [**MsiUseFeature**](/windows/desktop/api/Msi/nf-msi-msiusefeaturea)           | 遞增功能的使用計數，並指出安裝狀態。 |
@@ -118,7 +118,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                                             | 描述                                                                                                                                                                                                                       |
+| Name                                                             | 描述                                                                                                                                                                                                                       |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MsiEnumProducts**](/windows/desktop/api/Msi/nf-msi-msienumproductsa)                       | 列舉已公告的產品。                                                                                                                                                                                                   |
 | [**MsiEnumProductsEx**](/windows/desktop/api/Msi/nf-msi-msienumproductsexa)                   | 列舉指定內容中已公告或已安裝產品的所有實例。 適用于 Windows Installer 3.0 或更新版本。                                                                                    |
@@ -145,7 +145,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                                               | 描述                                                                            |
+| Name                                                               | 描述                                                                            |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [**MsiOpenProduct**](/windows/desktop/api/Msi/nf-msi-msiopenproducta)                           | 開啟要與存取資料庫的函數搭配使用的產品。                    |
 | [**MsiOpenPackage**](/windows/desktop/api/Msi/nf-msi-msiopenpackagea)                           | 開啟要與存取資料庫的函式搭配使用的封裝。                    |
@@ -165,7 +165,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                                                   | 描述                                                                                                                                                        |
+| Name                                                                   | 描述                                                                                                                                                        |
 |------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MsiApplyPatch**](/windows/desktop/api/Msi/nf-msi-msiapplypatcha)                                 | 叫用安裝並套用修補套件。                                                                                                               |
 | [**MsiEnumPatches**](/windows/desktop/api/Msi/nf-msi-msisourcelistaddmediadiska)                    | 傳回套用至產品的每個修補程式的 GUID，以及適用于產品的每個修補程式的轉換清單。                                  |
@@ -187,7 +187,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                                                     | 描述                                                                                                 |
+| Name                                                                     | 描述                                                                                                 |
 |--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**MsiGetFileHash**](/windows/desktop/api/Msi/nf-msi-msigetfilehasha)                                 | 取得檔案的路徑，並傳回該檔案的128位雜湊。                                           |
 | [**MsiGetFileSignatureInformation**](/windows/desktop/api/Msi/nf-msi-msigetfilesignatureinformationa) | 採用經過數位簽署的檔案路徑，並傳回檔案的簽署者憑證和雜湊。 |
@@ -201,7 +201,7 @@ ms.locfileid: "118630543"
 
 
 
-| 名稱                                               | 描述                                                                                                                                                                                         |
+| Name                                               | 描述                                                                                                                                                                                         |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MsiBeginTransaction**](/windows/desktop/api/Msi/nf-msi-msibegintransactiona) | 啟動多套件安裝的交易處理，並傳回交易的識別碼。 從 Windows Installer 4.5 開始，可以使用此函數。                    |
 | [**MsiJoinTransaction**](/windows/desktop/api/Msi/nf-msi-msijointransaction)   | 要求 Windows Installer 讓目前的進程成為安裝多套件安裝的交易擁有者。 從 Windows Installer 4.5 開始，可以使用此函數。 |

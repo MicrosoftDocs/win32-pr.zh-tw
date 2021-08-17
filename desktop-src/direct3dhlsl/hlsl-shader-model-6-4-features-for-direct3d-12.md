@@ -3,12 +3,12 @@ title: HLSL 著色器模型6。4
 description: 描述新增至 HLSL 著色器模型6.4 的機器學習內建函式。
 ms.topic: article
 ms.date: 02/21/2019
-ms.openlocfilehash: 10e74b268243ab059c2d0945887a6d429d40bb53
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 5e161d77439eef63547d92fcc4f47e3185ac798141d20017d7e7102ee86a38cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103853528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511832"
 ---
 # <a name="hlsl-shader-model-64"></a>HLSL 著色器模型6。4
 

@@ -1,21 +1,21 @@
 ---
-description: 封包是單一檔案（通常副檔名為 .cab），可將壓縮檔案儲存在檔案庫中。
+description: 封包是單一檔案，通常會有 .cab 副檔名，可將壓縮檔案儲存在檔案庫中。
 ms.assetid: df240302-b875-49bf-8e62-7a35204c35fb
 title: 封包檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c7b54ae737785abc33edd46c9e53edc93fcd288
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2331b60c42bf975856987d1e13d67c95bc01fa685f99f49543650c48347cac49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118380713"
 ---
 # <a name="cabinet-files"></a>封包檔
 
-封包是單一檔案（通常副檔名為 .cab），可將壓縮檔案儲存在檔案庫中。 封包格式是封裝多個檔案的有效方式，因為壓縮會跨檔案界限執行，如此可大幅改善壓縮率。
+封包是單一檔案，通常會有 .cab 副檔名，可將壓縮檔案儲存在檔案庫中。 封包格式是封裝多個檔案的有效方式，因為壓縮會跨檔案界限執行，如此可大幅改善壓縮率。
 
-開發人員可以使用封包檔建立工具（例如 Makecab.exe）製作封包檔，以與安裝程式套件搭配使用。 Makecab.exe 公用程式包含在 [Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)中。
+開發人員可以使用封包檔建立工具（例如 Makecab.exe）製作封包檔，以與安裝程式套件搭配使用。 Makecab.exe 公用程式包含在[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)中。
 
 開發人員也可以使用封包檔建立工具（例如 Cabarc.exe）製作封包檔，以與安裝程式套件搭配使用。 此工具會寫入鑽石封包結構。
 
@@ -25,9 +25,9 @@ ms.locfileid: "106996698"
 
 安裝程式會根據安裝所需的封包解壓縮檔案，並依照儲存在封包檔中的相同順序來安裝檔案。 安裝封包中儲存之檔案的空間需求與安裝未壓縮檔案的空間需求不同。
 
-封包檔可以位於 .msi 檔案的內部或外部。 從在 Windows 7 或 Windows Server 2008 R2 上執行的 Windows Installer 5.0 開始，安裝程式會先儲存任何內嵌在 .msi 檔案中的封包，再快取安裝套件。
+封包檔可以位於 .msi 檔案的內部或外部。 從 Windows 7 或 Windows Server 2008 R2 上執行的 Windows Installer 5.0 開始，安裝程式會先儲存在 .msi 檔案中內嵌的任何封包，再快取安裝套件。
 
-**[Windows Installer 4.5 或更早版本](not-supported-in-windows-installer-4-5.md)：** 為了節省磁碟空間，安裝程式一律會移除任何內嵌在 .msi 檔案中的封包，然後才在使用者的電腦上快取安裝套件。
+**[Windows Installer 4.5 或更早版本](not-supported-in-windows-installer-4-5.md)：** 為了節省磁碟空間，安裝程式會在快取使用者電腦上的安裝封裝之前，一律移除任何內嵌于 .msi 檔案中的封包。
 
  
 

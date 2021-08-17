@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d085e6f19c64f609fe1389a2822df1594ee69bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94e7f23a5d2678d3df024c78397aaeb6a388d8b75368f329867f6457b9ad4d84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742088"
 ---
 # <a name="wsmangeterrormessage-method"></a>WSMan. GetErrorMessage 方法
 
@@ -71,7 +71,7 @@ WSMan.GetErrorMessage( _
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 

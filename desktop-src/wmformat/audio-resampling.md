@@ -3,8 +3,8 @@ title: 音訊重新取樣
 description: 音訊重新取樣
 ms.assetid: ec6ad6b2-1d35-4ac4-9a1e-3fc9c053000c
 keywords:
-- Windows Media Format SDK，音訊重新取樣
-- Windows Media Format SDK，重新取樣音訊
+- Windows媒體格式 SDK，音訊重新取樣
+- Windows媒體格式 SDK，重新取樣音訊
 - Advanced Systems Format (ASF) 、音訊重新取樣
 - ASF (Advanced 系統格式) 、音訊重新取樣
 - Advanced Systems Format (ASF) 、重新取樣音訊
@@ -13,12 +13,12 @@ keywords:
 - 重新取樣音訊，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 608272a7e531d7380991a705d391e6226a6758d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a5d95ed50117ac9d0fe7d71a2148314e1b9faf3ba8a26b99bb69083029b991c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118434472"
 ---
 # <a name="audio-resampling"></a>音訊重新取樣
 
@@ -41,9 +41,9 @@ ms.locfileid: "104300824"
 [**使用輸出**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

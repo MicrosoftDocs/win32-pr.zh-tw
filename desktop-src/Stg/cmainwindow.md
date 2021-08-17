@@ -6,12 +6,12 @@ keywords:
 - CMainWindow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc3e9cb538246dfa6931a2f036ba75cab5e962a7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 45f67fd2a00bb6f3ab082499e5ca2a4a991a9fb33159a4f43c05923ae393efcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117962465"
 ---
 # <a name="cmainwindow"></a>CMainWindow
 
@@ -130,9 +130,9 @@ CMainWindow 具有 CGuiPaper 物件的指標，並會呼叫 [**CGuiPaper：： I
 
 放開滑鼠左鍵時，會收到 **WM \_ LBUTTONUP** 訊息。 [CGuiPaper：： InkStop](cguipaper-methods.md)方法會停止線條繪圖順序。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1527bea2-ec72-4532-9725-0310db68b876
 title: WinHTTP 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 229fe5d29ea908fdee18e63e4369b91edb39f05b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f179360dfcced70f66138012c98ec454257dd38622fc64dac4391834e7820fe8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744049"
 ---
 # <a name="winhttp-enumerations"></a>WinHTTP 列舉
 

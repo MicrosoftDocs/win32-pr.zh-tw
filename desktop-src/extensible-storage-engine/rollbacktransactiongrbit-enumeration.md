@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bf2635d94070fc47bebbd6cdd0e53deddeb4c5eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9b293fc938a0870b9b6db993773c311198a1c2b04566eee1e8dc5fadf72fc59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117703083"
 ---
 # <a name="rollbacktransactiongrbit-enumeration"></a>RollbackTransactionGrbit 列舉
 

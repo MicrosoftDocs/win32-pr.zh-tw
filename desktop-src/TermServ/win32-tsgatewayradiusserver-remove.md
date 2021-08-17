@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a91fc4a3ba8bf638dcffd76e3bf3517795674fa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 446a9ea6a9f2bdb4fada3fed38952988c0284b5bc4055503784c232255586407
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126572"
 ---
 # <a name="remove-method-of-the-win32_tsgatewayradiusserver-class"></a>移除 Win32 \_ TSGatewayRADIUSServer 類別的方法
 

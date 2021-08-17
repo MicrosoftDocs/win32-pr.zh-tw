@@ -4,12 +4,12 @@ ms.assetid: f2cee697-b4ec-5e4d-a87b-622c9fb7997c
 title: DirectXMath 程式庫3D 向量幾何函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 241f6a14e32cbdbebdf2aa5270970d405085810c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a57dd08bc8dd1c75a5abdbc3f97b12b5abf6249b7cee92e17d30b3121cb73234
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500282"
 ---
 # <a name="directxmath-library-3d-vector-geometric-functions"></a>DirectXMath 程式庫3D 向量幾何函數
 

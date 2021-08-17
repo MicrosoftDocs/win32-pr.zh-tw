@@ -4,12 +4,12 @@ ms.assetid: 8505CFA1-210A-4DA8-B92A-FCE62F0310E5
 title: 'MFT_DECODER_EXPOSE_OUTPUT_TYPES_IN_NATIVE_ORDER 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ecf074fa0767552a48e3238374dbd02f077404
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46b91492054215aee5a63dbcf0adf300d74933a0859a2d71256e7e4352deba9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872337"
 ---
 # <a name="mft_decoder_expose_output_types_in_native_order-attribute"></a>MFT \_ 解碼 \_ 會 \_ \_ \_ 以 \_ 原生 \_ 順序屬性公開輸出類型
 
@@ -43,7 +43,7 @@ ms.locfileid: "103692316"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 

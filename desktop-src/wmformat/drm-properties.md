@@ -3,19 +3,19 @@ title: DRM 屬性
 description: DRM 屬性
 ms.assetid: 862fc8bc-6e40-4496-862a-c12c8a382116
 keywords:
-- Windows Media Format SDK，DRM 屬性
+- Windows媒體格式 SDK，DRM 屬性
 - Advanced Systems Format (ASF) ，DRM 屬性
 - ASF (Advanced Systems Format) ，DRM 屬性
 - 數位版權管理 (DRM) ，屬性
 - DRM (數位版權管理) ，屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb8542d360c38ab3f12406462cefc0454e7eae33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d553d644a6f3ec7130262d0e8567a4aa6ceab53286b24248607b1928991f51d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848264"
 ---
 # <a name="drm-properties"></a>DRM 屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "104022110"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -67,9 +67,9 @@ ms.locfileid: "104022110"
 [**DRM 屬性清單**](drm-attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

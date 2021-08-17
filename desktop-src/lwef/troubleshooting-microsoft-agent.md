@@ -6,16 +6,16 @@ keywords:
 - Microsoft 代理程式，疑難排解
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d88a7c9c88185193cfd85512c50ea15d2e931d26
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dbdefa0a25e7f55152c2d3ef1d6341bd38aeec0cab8138c9b4fd6ede60b7a85d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474485"
 ---
 # <a name="troubleshooting-microsoft-agent"></a>疑難排解 Microsoft Agent
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 如果您在電腦上執行 Microsoft 代理程式時遇到困難，請參閱下列徵兆清單，並嘗試找出並解決問題的建議步驟。
 
@@ -23,9 +23,9 @@ ms.locfileid: "104021748"
 -   [輸出問題](output-problems.md)
 -   [語音輸入問題](speech-input-problems.md)
 
- 
+ 
 
- 
+ 
 
 
 

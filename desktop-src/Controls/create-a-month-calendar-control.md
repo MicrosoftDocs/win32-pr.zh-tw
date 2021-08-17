@@ -4,12 +4,12 @@ description: 本主題示範如何使用 CreateWindowEx 函式，以動態方式
 ms.assetid: 35ADDA85-5D7D-46F4-A637-99FEE4592B3B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82f3824618e9801b68eb67b13c64c638a5057481
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 22f0fbc819a79b05842db75c1871e8150b311444e6055d076a9831b0bc42486b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103684261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831814"
 ---
 # <a name="how-to-create-a-month-calendar-control"></a>如何建立月曆控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "103684261"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

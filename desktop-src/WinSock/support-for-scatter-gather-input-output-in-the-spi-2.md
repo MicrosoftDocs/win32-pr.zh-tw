@@ -4,12 +4,12 @@ ms.assetid: ecd3d2f1-74b1-42f7-8402-3170112e3aca
 title: 支援在 SPI 中散佈/收集輸入/輸出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c3f32e016c5c2e9f990c334716d4177d477c50f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b136898c1163ab298d8a177238f11239262b04306662b3f11b75bfb847f335d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739995"
 ---
 # <a name="support-for-scattergather-inputoutput-in-the-spi"></a>支援在 SPI 中散佈/收集輸入/輸出
 

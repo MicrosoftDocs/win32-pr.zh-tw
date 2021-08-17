@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de9cc61d72db541b5f06d8903d7c9dcf153ce07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f50f019b0e89f21d792f75c13e6c8e755486009d38d242878fec3121333fb9af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106970001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372323"
 ---
 # <a name="quality-command"></a>quality 命令
 
@@ -98,7 +98,7 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

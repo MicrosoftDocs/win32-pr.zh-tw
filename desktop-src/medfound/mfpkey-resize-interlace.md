@@ -4,12 +4,12 @@ ms.assetid: 01ee0766-06ed-4255-9057-2fe033a772cd
 title: 'MFPKEY_RESIZE_INTERLACE 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d0efe93901a08322a05dbed2515f76b04a214b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4c614865d0c8a49238b9c8d6f7714787bb22aaadaa317a8a3a0405a7f51c87be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873032"
 ---
 # <a name="mfpkey_resize_interlace-property"></a>MFPKEY 重 \_ 設大小 \_ 交錯屬性
 
@@ -50,8 +50,8 @@ VT \_ BOOL
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

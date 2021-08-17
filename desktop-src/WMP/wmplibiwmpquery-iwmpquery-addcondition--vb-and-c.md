@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9de3015ef0389fef82934cbd8e9326b6f9ec2307
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe85999c60364827d483f81d14ff88602c9b2831c16e7cff8a3e17076b77671d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745703"
 ---
 # <a name="iwmpqueryaddcondition-method"></a>IWMPQuery：： addCondition 方法
 

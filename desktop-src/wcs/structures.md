@@ -3,8 +3,8 @@ title: WCS 1.0 結構
 description: 參考的區段，其中包含 WCS 1.0 所使用的重要結構清單。
 ms.assetid: 68d681e6-4798-449b-9afd-ab35f24d6e67
 keywords:
-- Windows Color System (WCS) ，結構
-- WCS (Windows 色彩系統) ，結構
+- Windows色彩系統 (WCS) 、結構
+- WCS (Windows 色彩系統) 、結構
 - 影像色彩管理，結構
 - 色彩管理，結構
 - 色彩，結構
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d219f98ebf7fdfc5efbe1603e221f58894093698
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 9f8edf77c521c967a064296a005e1af834b3e5b2304da2ed6cd45d6e6ee2a6a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "107000639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118444715"
 ---
 # <a name="wcs-10-structures"></a>WCS 1.0 結構
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2691e3306a84ce4eff3d73df4b070ba4b65671f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03efb6cdfbea712f2fbca194073b89bcee66975481c1a7c0fdc2d7bd385eb652
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971019"
 ---
 # <a name="utilitieslocaltimetoutctime-method"></a>LocalTimeToUTCTime 方法
 

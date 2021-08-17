@@ -4,21 +4,21 @@ description: AccEvent (可存取的事件監看員) 可讓開發人員和測試�
 ms.assetid: 0077da81-7a1f-4f8b-b519-ebefcc63d264
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76e6fa4896c0cfe3155536537099b1c00af8ebe5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bb2192bf6973444bf2bfc307ff4613d9d1c593d5a22f9800ecb61bc310b3a210
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327798"
 ---
 # <a name="accessibility-tools---accevent-accessible-event-watcher"></a>協助工具工具-AccEvent (可存取的事件監看員) 
 
 **AccEvent (可存取的事件** 監看員) 可讓開發人員和測試人員驗證應用程式的 ui 元素是否會在 ui 變更時引發適當的 Microsoft 消費者介面自動化和 Microsoft Active Accessibility 事件。 當焦點變更時，或叫用、選取或變更狀態或屬性時，就會發生 UI 中的變更。
 
-**AccEvent** 會隨 WINDOWS 軟體開發套件 (SDK) 安裝。 它位於 \\ \\ < SDK 安裝路徑的 bin *版本* > \\ < *平臺*> 資料夾 (Accevent.exe) 。
+**AccEvent** 會隨 Windows 軟體開發套件 (SDK) 安裝。 它位於 \\ \\ < SDK 安裝路徑的 bin *版本* > \\ < *平臺*> 資料夾 (Accevent.exe) 。
 
 > [!NOTE]
-> **AccEvent** 是一種舊版工具。 建議您改為使用 [協助工具深入](https://accessibilityinsights.io/) 解析。
+> **AccEvent** 是一種舊版工具。 建議您改為使用[協助工具 Insights](https://accessibilityinsights.io/) 。
 
 ## <a name="requirements"></a>規格需求
 
@@ -60,17 +60,17 @@ ms.locfileid: "104376140"
 | WinEvents (出內容)    | 顯示 (WinEvents) 傳遞給位於用戶端位址空間之攔截函式的 Microsoft Active Accessibility 事件的相關資訊。 如需詳細資訊，請參閱 [跨內容](out-of-context-hook-functions.md)攔截函式。 |
 | 顯示反白顯示矩形     | 反白顯示引發所選事件之 UI 元素周圍的矩形。                                                                                                                                                                 |
 | 顯示資訊工具提示     | 在工具提示中顯示事件資訊。                                                                                                                                                                                                        |
-| 設定                     | 顯示 [ **UIA 事件設定** ] 或 [ **new-winevent 設定** ] 對話方塊。                                                                                                                                                                     |
+| 設定                     | 顯示 **UIA 事件設定** 或 **new-winevent 設定**] 對話方塊。                                                                                                                                                                     |
 
 
 
- 
+ 
 
 ### <a name="filtering-ui-automation-events"></a>篩選消費者介面自動化事件
 
-若要設定 **AccEvent** 視窗中顯示的消費者介面自動化事件和屬性，請按一下 [ **模式]** 功能表，選取 [ **UIA 事件**]，然後選取 [ **設定**]。 [ **UIA 事件設定** ] 對話方塊隨即顯示。 您也可以使用此對話方塊來篩選事件。
+若要設定 **AccEvent** 視窗中顯示的消費者介面自動化事件和屬性，請按一下 [**模式]** 功能表，選取 [ **UIA 事件**]，然後選取 [**設定**]。 [ **UIA 事件設定**] 對話方塊隨即顯示。 您也可以使用此對話方塊來篩選事件。
 
-[ **UIA 事件設定** ] 對話方塊包含下列窗格：
+**UIA 事件設定**] 對話方塊包含下列窗格：
 
 - **全域活動**
 
@@ -94,9 +94,9 @@ ms.locfileid: "104376140"
 
 ### <a name="filtering-active-accessibility-events"></a>篩選 Active Accessibility 事件
 
-若要設定 [ **AccEvent** ] 視窗中顯示的 Microsoft Active Accessibility 事件和屬性，請按一下 [ **模式]** 功能表，選取 [ **內容) 中** 的 [WinEvents] (或 [WinEvents] **(超出內容)**，然後選取 [ **設定**]。 [ **New-winevent 設定** ] 對話方塊隨即顯示。 您也可以使用此對話方塊來篩選事件。
+若要設定 [ **AccEvent** ] 視窗中顯示的 Microsoft Active Accessibility 事件和屬性，請按一下 [**模式]** 功能表，選取 [**內容) 中** 的 [WinEvents] (或 [WinEvents] **(超出內容)**，然後選取 [**設定**]。 [ **new-winevent 設定**] 對話方塊隨即顯示。 您也可以使用此對話方塊來篩選事件。
 
-[ **New-winevent 設定** ] 對話方塊包含下列窗格：
+[ **new-winevent 設定**] 對話方塊包含下列窗格：
 
 - **物件**
 

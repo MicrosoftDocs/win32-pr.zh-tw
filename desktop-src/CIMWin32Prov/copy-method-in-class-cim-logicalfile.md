@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 10ba9c28bde9d909d947e5a73241ce1aa8f1e956
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9decb093a78817e36dbaed1e904406c73b3b66fb0c6c3bfb7701ecdf44986b8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118419814"
 ---
 # <a name="copy-method-of-the-cim_logicalfile-class"></a>CIM LogicalFile 類別的 Copy 方法 \_
 
@@ -121,7 +121,7 @@ uint32 Copy(
 
 12
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

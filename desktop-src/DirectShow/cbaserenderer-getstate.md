@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 451078a6167ff7ca89ad4153c416826af8ac6d05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 532a41bb9e39f844b3a485fc236ae8d03450d45cdcb45d92c8cfa94d9af4a4bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403407"
 ---
 # <a name="cbaserenderergetstate-method"></a>CBaseRenderer. >getstate 方法
 
@@ -63,7 +63,7 @@ HRESULT GetState(
 
 
 
-| 傳回碼                                                                                                | Description                                                    |
+| 傳回碼                                                                                                | 描述                                                    |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 成功。<br/>                                            |
 | <dl> <dt>**VFW \_ S \_ 州 \_ 中繼**</dt> </dl> | 篩選正在轉換成指定的狀態。<br/> |

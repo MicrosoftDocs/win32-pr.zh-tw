@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 4764e922498a3c33278555cae37d09c1822959dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7dd35b076597d76f3dc75c92a6cdd57169e8b92601d11f1038f4b9c9c2a6aca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118440361"
 ---
 # <a name="iwiatransfercancel-method"></a>IWiaTransfer：： Cancel 方法
 
@@ -50,10 +50,10 @@ HRESULT Cancel();
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |
 
 
