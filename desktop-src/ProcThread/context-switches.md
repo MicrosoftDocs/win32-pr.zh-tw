@@ -4,12 +4,12 @@ ms.assetid: 82463d71-9cef-4608-b997-25dc9c1e1c0a
 title: 環境切換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7628ee9e659cdbc2369b5f69d25847e8864dbd62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c15f5d762525fd4a80030ea10e128e2c30a1ab914e9f17d0f954d80ecfd2e204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143131"
 ---
 # <a name="context-switches"></a>環境切換
 

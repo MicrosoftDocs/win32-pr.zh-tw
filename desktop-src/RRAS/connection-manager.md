@@ -4,12 +4,12 @@ description: 如果客戶想要使用遠端存取服務 API 開發自訂的撥�
 ms.assetid: c3227aea-ba36-44f6-b69d-2c6aa4be360e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7959482542630b6dc90149971df08f7944f83fc
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: fc20979ecd99f904aef158738d49ce1e5bc5a25309288db83dfc99de05959234
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104023106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791582"
 ---
 # <a name="connection-manager"></a>連線管理員
 
@@ -19,9 +19,9 @@ ms.locfileid: "104023106"
 
 自訂動作可讓遠端存取用戶端在連線程式的不同點上採取特定動作。 範例中示範的自訂動作會根據連接的伺服器位址，自動調整連線的 proxy 伺服器設定。 客戶可以使用此範例作為開始建立自己自訂動作的起點。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e1a632fa867269f04e8f5f66e6bc352ef1701cd9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 24c5195d38aeaebefd1713df31f23b6b2ec7b2324a31381027f3442b541678c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118094175"
 ---
 # <a name="id3dxanimationcontrollervalidateevent-method"></a>ID3DXAnimationController：： ValidateEvent 方法
 

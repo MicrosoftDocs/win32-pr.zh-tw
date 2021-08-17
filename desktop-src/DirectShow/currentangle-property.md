@@ -4,17 +4,17 @@ ms.assetid: 9b18ea65-4c17-4b52-b893-b668598aec0f
 title: CurrentAngle 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90c19aa157d5c55c9970480840572051a0182398
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e44b482ff4a7c4d0110f699271980005a43dbea2aa9b274521784b8914c8b98f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118155970"
 ---
 # <a name="currentangle-property"></a>CurrentAngle 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

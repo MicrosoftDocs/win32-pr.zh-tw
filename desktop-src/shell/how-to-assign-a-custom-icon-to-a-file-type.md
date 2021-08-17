@@ -4,12 +4,12 @@ ms.assetid: 84F293C2-BAB1-4BF8-9F89-122B6DAB29C3
 title: 如何將自訂圖示指派給檔案類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf625eb6177471702096f462846b8035772177ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d156322bfe0899ed48c6c27f2660b911d9e5c77791c550b6141144d95384b6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092994"
 ---
 # <a name="how-to-assign-a-custom-icon-to-a-file-type"></a>如何將自訂圖示指派給檔案類型
 
@@ -17,7 +17,7 @@ ms.locfileid: "104973181"
 
 ![預設圖示的螢幕擷取畫面](images/icon.png)
 
-雖然在此螢幕擷取畫面中顯示的所有檔案都是簡單的文字檔，但只有 MyDocs4 會顯示 Windows 預設圖示。 這是因為 .txt 副檔名是具有自訂預設圖示的已註冊檔案類型。
+雖然在此螢幕擷取畫面中顯示的所有檔案都是簡單的文字檔，但只有 MyDocs4 會顯示 Windows 預設圖示。 這是因為 .txt 的副檔名是具有自訂預設圖示的已註冊檔案類型。
 
 下列螢幕擷取畫面顯示已指派給 myp 檔案類型的自訂圖示。
 

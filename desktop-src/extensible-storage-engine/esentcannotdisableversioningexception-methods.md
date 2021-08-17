@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101160
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5a764b14826b35f6bab23e716577f99c78678aaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b232448458aec796b4cc0a4ba62b3278d7faff70ad4e0ba1367144d3297ab83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117715034"
 ---
 # <a name="esentcannotdisableversioningexception-methods"></a>EsentCannotDisableVersioningException 方法
 

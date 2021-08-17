@@ -13,12 +13,12 @@ keywords:
 - 延伸模組，加速中繼資料傳輸
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbe661dff0750f2ad46bef96e537b0852d480db8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a3a264b0233315d2fe1fb1c5f21121c7273c31d362724e073ba50672c5fb138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749810"
 ---
 # <a name="device-extensions-for-accelerated-metadata-transfer"></a>加速中繼資料傳輸的裝置擴充功能
 
@@ -30,7 +30,7 @@ Windows Media Player 10 引進了新的擴充功能，可讓您以可攜式裝�
 
 -   [關於中繼資料](about-the-metadata.md)
 -   [適用于中繼資料傳輸的 MTP 裝置擴充功能](mtp-device-extensions-for-metadata-transfer.md)
--   [適用于中繼資料傳輸的 Windows Media 裝置管理員裝置擴充功能](windows-media-device-manager-device-extensions-for-metadata-transfer.md)
+-   [Windows用於中繼資料傳輸的媒體裝置管理員裝置延伸模組](windows-media-device-manager-device-extensions-for-metadata-transfer.md)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -39,9 +39,9 @@ Windows Media Player 10 引進了新的擴充功能，可讓您以可攜式裝�
 [**Windows Media Player**](windows-media-player.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

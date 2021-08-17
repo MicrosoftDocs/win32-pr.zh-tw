@@ -4,12 +4,12 @@ ms.assetid: accc4046-fbac-4343-b47b-42633a07ab2c
 title: 使用安全性管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03dd8f8b0a7a6ad81aed08da332a23e33e7767fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f703d68ec3cba89d3d48a8f8ebc8830d6023ff5eacb27f6f1fd171f48d863be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004716"
 ---
 # <a name="using-security-management"></a>使用安全性管理
 

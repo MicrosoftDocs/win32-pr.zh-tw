@@ -4,12 +4,12 @@ ms.assetid: 68B667E2-E8C6-41F9-A0E2-C8CDF60D6472
 title: 雲端篩選函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afc055b688339f2c7da231e6d2e91700aa3a35cf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9793306aa8715e6de30c228094b8eaf6d984ca4f752751619063ae84115ec4ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737480"
 ---
 # <a name="cloud-filter-functions"></a>雲端篩選函數
 

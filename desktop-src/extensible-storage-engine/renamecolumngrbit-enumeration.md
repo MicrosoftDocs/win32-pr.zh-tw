@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 446b24bf584034d300c5b631ce450ead31f68741
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 904ce2d926814dc97d65ede9d5b622cfe94b9cbce6d97a01e5366d7f65b31e9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071798"
 ---
 # <a name="renamecolumngrbit-enumeration"></a>RenameColumnGrbit 列舉
 

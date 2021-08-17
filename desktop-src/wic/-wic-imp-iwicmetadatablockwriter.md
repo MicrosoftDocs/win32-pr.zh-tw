@@ -4,12 +4,12 @@ ms.assetid: 31824f21-04b1-45ca-adfa-15fd348e14a1
 title: 執行 IWICMetadataBlockWriter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62044ce9695a45a8fe052d67479158aa9e4baf6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43d49912ece0cc1e3c2299ace0a15f112ef7ab65ac03863b855b8a9ee64e62e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964967"
 ---
 # <a name="implementing-iwicmetadatablockwriter"></a>執行 IWICMetadataBlockWriter
 
@@ -93,7 +93,7 @@ for (UINT x=0; x < blockCount; x++)
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

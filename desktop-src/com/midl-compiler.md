@@ -4,12 +4,12 @@ description: MIDL 編譯器
 ms.assetid: ce3d40b7-49fd-4689-9100-fdbad4f0c557
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fa57131e31e9c6273270a771f9ba862d73bc142
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 1db4afbbe8c7a82f4335855b40e578fe2eea046fa4c7f0560e3e297b559a67ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736427"
 ---
 # <a name="midl-compiler"></a>MIDL 編譯器
 
@@ -39,6 +39,6 @@ MIDL 編譯器也支援數個選擇性參數。 如需完整清單，請參閱 V
 [轉換成 c + +](translating-to-c--.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

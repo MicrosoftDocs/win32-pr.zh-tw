@@ -1,17 +1,17 @@
 ---
 description: 下列主題依類別列出補充電話語音功能。
 ms.assetid: 0d1a81d2-aa9e-4a85-85d3-aa4eabb26eb5
-title: 補充電話語音功能
+title: 補充電話服務功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 527c39441a924a4f9787d22bf8db596882e7f257
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8ee0e32260ac3821fd06e7e8962ab2a6186fb42f1140eb6cd8f705709f2dfbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118861416"
 ---
-# <a name="supplementary-phone-service-functions"></a>補充電話語音功能
+# <a name="supplementary-phone-service-functions"></a>補充電話服務功能
 
 下列主題依類別列出補充電話語音功能。 如果函式會將回復訊息中的完成指出至應用程式，則會將函式識別為 [*非同步*](a-tapgloss.md) 。 如果函式一律會立即將其結果傳回給應用程式，則會將函數視為 [*同步*](s-tapgloss.md)。
 
@@ -23,13 +23,13 @@ ms.locfileid: "106981568"
 -   [Hookswitch 裝置](#hookswitch-devices)
 -   [燈](#lamps)
 -   [開啟和關閉手機裝置](#opening-and-closing-phone-devices)
--   [電話初始化和關機](#phone-initialization-and-shutdown)
+-   [電話初始化和關閉](#phone-initialization-and-shutdown)
 -   [電話狀態和功能](#phone-status-and-capabilities)
 -   [電話版本協商](#phone-version-negotiation)
 -   [環形](#ring)
 -   [狀態](#status)
 
-## <a name="phone-initialization-and-shutdown"></a>電話初始化和關機
+## <a name="phone-initialization-and-shutdown"></a>電話初始化和關閉
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "106981568"
 
  
 
-## <a name="opening-and-closing-phone-devices"></a>開啟和關閉手機裝置
+## <a name="opening-and-closing-phone-devices"></a>開啟和關閉電話裝置
 
 
 

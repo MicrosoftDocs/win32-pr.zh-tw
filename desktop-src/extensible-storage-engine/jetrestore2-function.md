@@ -20,21 +20,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bb297aac0bc26e50bba519206eff346abb7943c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38b669fdf38d6dcaffe5d8a0ac77c8ac362142faca2df03fb23eb45d869ed0ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117704042"
 ---
 # <a name="jetrestore2-function"></a>JetRestore2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetrestore2-function"></a>JetRestore2 函式
 
-**JetRestore2** 會還原並復原實例的串流備份，包括所有附加的資料庫。 這項功能主要是為了與 Windows 2000 及舊版的資料庫引擎回溯相容，其中只允許一個資料庫的實例。 在此情況下，使用中的實例是已還原的實例。
+**JetRestore2** 會還原並復原實例的串流備份，包括所有附加的資料庫。 這個函數主要是為了與 Windows 2000 和舊版的資料庫引擎回溯相容，其中只允許一個資料庫的實例。 在此情況下，使用中的實例是已還原的實例。
 
 ```cpp
     JET_ERR JET_API JetRestore2(
@@ -60,7 +60,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -70,7 +70,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -88,7 +88,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidParameter</p></td>
-<td><p>提供的其中一個參數包含未預期的值，或包含的值在與另一個參數的值結合時並沒有意義。 當引擎處於多重實例模式時， <a href="gg269306(v=exchg.10).md">JetRestoreInstance</a> 會傳回這個錯誤，而 pinstance 指的是不正確實例 Windows XP 和更新的版本。</p></td>
+<td><p>提供的其中一個參數包含未預期的值，或包含的值在與另一個參數的值結合時並沒有意義。 當引擎處於多重實例模式時， <a href="gg269306(v=exchg.10).md">JetRestoreInstance</a>會傳回這個錯誤，而 pinstance 指的是不正確實例 Windows XP 和更新的版本。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidPath</p></td>
@@ -100,7 +100,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>作業失敗，因為參數隱含的單一實例模式 (Windows 2000 相容性模式) ，而且引擎已在多重實例模式中。</p></td>
+<td><p>作業失敗，因為參數隱含的單一實例模式 (Windows 2000 相容性) 模式，而引擎已在多重實例模式中。</p></td>
 </tr>
 </tbody>
 </table>
@@ -134,7 +134,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

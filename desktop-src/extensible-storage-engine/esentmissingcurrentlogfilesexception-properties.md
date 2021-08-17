@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102289
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4c9497464867cc2bb432791f3207537aef3c36f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79f2df2c361a489e8bff2372e721fa9bdca9c070c3779eaf7d68be096634ae67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115548"
 ---
 # <a name="esentmissingcurrentlogfilesexception-properties"></a>EsentMissingCurrentLogFilesException 屬性
 

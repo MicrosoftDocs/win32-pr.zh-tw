@@ -4,12 +4,12 @@ ms.assetid: 42e003d8-1471-4f7f-b01a-23c7041036ea
 title: 完成 Winsock 用戶端程式代碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a9000aa117f7262bcd11663eee6fe8f5791538b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54584b21e3236e8c82bc66f16586af8d07ad04af63be4b2229d76116f8aa7ad2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741428"
 ---
 # <a name="complete-winsock-client-code"></a>完成 Winsock 用戶端程式代碼
 

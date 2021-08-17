@@ -4,12 +4,12 @@ description: 事件凍結
 ms.assetid: 1e537503-f7e7-42f4-aa3c-3c71715b84fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e403448d53949c263b8e146961690de1200436c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ba439ebce12a48d78e1eb1d2daa31990c02f4a42082d3425e9b6ef2f842b3ba1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736798"
 ---
 # <a name="event-freezing"></a>事件凍結
 
@@ -24,9 +24,9 @@ ms.locfileid: "103839928"
 
 在不同的情況下，每個技巧都是可接受的。 控制項開發人員負責決定和執行控制項功能的適當技術。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: 代表 CPU 錯誤事件。 此類別僅適用于64位的 Windows 系統。
+description: 代表 CPU 錯誤事件。 此類別僅適用于64位 Windows 系統。
 ms.assetid: 4ee4aa51-a965-4569-b53c-0ba21bf42752
 title: MSMCAEvent_CPUError 類別
 ms.topic: reference
@@ -24,16 +24,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: dff990b46d730a1e8b54ef99a24a686745e3dacf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42542f9e32bee31e44df65c0d0ade3d337e3fe395315fe28d6fd8b1c66b3b8dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926871"
 ---
 # <a name="msmcaevent_cpuerror-class"></a>MSMCAEvent \_ CPUError 類別
 
-**MSMCAEvent \_ CPUError** 類別代表 CPU 錯誤事件。 此類別僅適用于64位的 Windows 系統。
+**MSMCAEvent \_ CPUError** 類別代表 CPU 錯誤事件。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -218,7 +218,7 @@ MCA 記錄中的其他錯誤數目。
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**
@@ -227,7 +227,7 @@ MCA 記錄中的其他錯誤數目。
 存取類型：唯讀
 </dt> </dl>
 
-事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，當 Windows 事件記錄取用者提供者收到其中一個事件時，該訊息會用來插入事件記錄檔訊息。
+事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，而這些訊息是用來在接收到其中一個事件時，由 Windows 事件記錄取用者提供者插入事件記錄檔訊息。
 
 </dd> </dl>
 

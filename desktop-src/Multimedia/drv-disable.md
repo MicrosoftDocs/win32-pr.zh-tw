@@ -3,7 +3,7 @@ title: 'DRV_DISABLE 訊息 (Mmsystem .h) '
 description: 停用驅動程式。 驅動程式應該將對應的裝置（如果有的話）置於非使用中狀態，並終止任何回呼函式或執行緒。
 ms.assetid: 83e99397-6f0e-4174-9f96-e10c1f17ef0b
 keywords:
-- DRV_DISABLE message Windows 多媒體
+- DRV_DISABLE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b512e90612a02681008474c7f1323f17304422d2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75d9c5a99414f0b755efbae005365d89665a2b2bc5a4673436101066ec740564
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144411"
 ---
 # <a name="drv_disable-message"></a>WINSPOOL.DRV \_ 停用訊息
 
@@ -54,7 +54,7 @@ ms.locfileid: "103935076"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

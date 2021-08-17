@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 264c5520a6c20bbed5aab6a96af0b3174ce01379
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c22271f2ce73af343ce5877ee508ccbd31b392073600ef0d5a4519134e52341
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953377"
 ---
 # <a name="cvideotransformfilterm_nkeyframeperiod-member"></a>CVideoTransformFilter：： m \_ nKeyFramePeriod 成員
 

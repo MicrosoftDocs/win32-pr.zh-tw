@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IWbemQualifierSet 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3c9f2ec7dd81ada339aa5eef06b15d7b3c10f6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14eeb9cb2a93e1280696b860d21843dfee99541f9a7cb8d86d791eabea2c3e14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992948"
 ---
 # <a name="iwbemqualifierset-methods"></a>IWbemQualifierSet 方法
 

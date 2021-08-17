@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 35d338b71dba293d96a56fe54c2397bc21f1b550
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 83462788cc6d058da51ee8359c67a90ead261b629caaf58cf05ea1650a0e8035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117600"
 ---
 # <a name="baseeapuserpropertiesv1-schema-elements"></a>baseeapuserpropertiesv1 架構元素
 
@@ -35,9 +35,9 @@ ms.locfileid: "103683127"
 [baseeapuserpropertiesv1 架構](baseeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

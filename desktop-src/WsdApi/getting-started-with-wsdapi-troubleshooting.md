@@ -4,12 +4,12 @@ ms.assetid: d6877063-6cf9-48dc-8208-0f3fc85b6d6b
 title: 使用 WSDAPI 進行疑難排解的開始使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12396ea656423772d35dbd4ca237c7c536dcdaf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 413146288e6c7fc6e513f994fbe24d6ee9940897f22bcd5a715ae41f77f83c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738614"
 ---
 # <a name="getting-started-with-wsdapi-troubleshooting"></a>使用 WSDAPI 進行疑難排解的開始使用
 
@@ -42,8 +42,8 @@ ms.locfileid: "104192175"
 | 防火牆會封鎖網路探索流量。                                                                                                                                                       | [檢查介面卡和防火牆設定](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | 啟用防火牆上的網路探索例外可解決問題。                                                                                                                      |
 | 應用程式特定的防火牆例外狀況會封鎖訊息。                                                                                                                               | [檢查介面卡和防火牆設定](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | 停用防火牆可解決問題。 WF 會顯示應用程式特定的防火牆規則。                                                                                                      |
 | 裝置不會以及時的方式傳送 [ProbeMatches](probematches-message.md) 或 [ResolveMatches](resolvematches-message.md) 訊息， (小於4秒的) 來回應 UDP 要求。 | [檢查介面卡和防火牆設定](inspecting-adapter-and-firewall-settings.md)                                                                                                                                                         | 停用防火牆可解決此問題，而且在4秒內回應的一般主機會順利運作。                                                                            |
-| 應用程式的安全性內容不正確 (亦即，用戶端和主機沒有網路) 的足夠許可權。                                                                 | [使用泛型主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md) ，或 [使用泛型主機和用戶端進行 HTTP 中繼資料交換](using-a-generic-host-and-client-for-http-metadata-exchange.md) | 裝置位址不會顯示在 WSD Debug 用戶端輸出中。 以系統管理員身分執行應用程式可解決問題。                                                                          |
-| IPSec 原則正在封鎖訊息。                                                                                                                                                                | [使用泛型主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md) ，或 [使用泛型主機和用戶端進行 HTTP 中繼資料交換](using-a-generic-host-and-client-for-http-metadata-exchange.md) | 裝置位址不會顯示在 WSD Debug 用戶端輸出中。 停用防火牆無法解決此問題。 無法在不受任何 IPSec 原則的電腦上重現問題。 |
+| 應用程式的安全性內容不正確 (亦即，用戶端和主機沒有網路) 的足夠許可權。                                                                 | [使用泛型主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md)，或[使用泛型主機和用戶端來取得 HTTP 中繼資料 Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md) | 裝置位址不會顯示在 WSD Debug 用戶端輸出中。 以系統管理員身分執行應用程式可解決問題。                                                                          |
+| IPSec 原則正在封鎖訊息。                                                                                                                                                                | [使用泛型主機和用戶端進行 UDP WS 探索](using-a-generic-host-and-client-for-udp-ws-discovery.md)，或[使用泛型主機和用戶端來取得 HTTP 中繼資料 Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md) | 裝置位址不會顯示在 WSD Debug 用戶端輸出中。 停用防火牆無法解決此問題。 無法在不受任何 IPSec 原則的電腦上重現問題。 |
 
 
 
@@ -149,12 +149,12 @@ ms.locfileid: "104192175"
 <tbody>
 <tr class="odd">
 <td>主機所公告的傳輸位址錯誤。</td>
-<td><a href="using-a-generic-host-and-client-for-http-metadata-exchange.md">使用泛型主機和用戶端進行 HTTP 中繼資料交換</a></td>
+<td><a href="using-a-generic-host-and-client-for-http-metadata-exchange.md">使用泛型主機和用戶端來取得 HTTP 中繼資料 Exchange</a></td>
 <td>在 WSD Debug 用戶端輸出中檢查 XAddrs，會顯示傳輸位址錯誤或格式不正確。</td>
 </tr>
 <tr class="even">
 <td>無法建立中繼資料交換的 TCP 連接。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>封包分析器的輸出不會顯示下列封包交換：
 <ul>
 <li>從用戶端傳送的 TCP SYN 封包</li>
@@ -164,52 +164,52 @@ ms.locfileid: "104192175"
 </tr>
 <tr class="odd">
 <td>用戶端未傳送有效的 HTTP GET 要求。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>封包分析器輸出中沒有 HTTP GET 要求，或要求的格式不正確。</td>
 </tr>
 <tr class="even">
 <td>用戶端未傳送有效的 WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">取得</a> 訊息。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>封包分析器輸出中沒有 WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">取得</a> 訊息，或訊息的格式不正確。</td>
 </tr>
 <tr class="odd">
 <td>主機未接聽 HTTP GET 要求中指定的 URL 路徑。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>封包分析器輸出中沒有 HTTP 回應。</td>
 </tr>
 <tr class="even">
 <td>WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">Get</a> 訊息未包含 <strong>to</strong> 元素，或 <strong>to</strong> 專案是空的。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>訊息的檢查會顯示 <strong>To</strong> 元素不存在或空白。</td>
 </tr>
 <tr class="odd">
 <td>WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">Get</a>訊息的<strong>To</strong>元素值不符合其中一個主機端點位址。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>訊息的檢查會顯示 <strong>To</strong> 專案的值不符合主機 <a href="probematches-message.md">ProbeMatches</a> 或 <a href="resolvematches-message.md">ResolveMatches</a> 訊息中通告的其中一個端點位址。</td>
 </tr>
 <tr class="even">
 <td>主機未傳送有效的 HTTP 回應標頭。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>封包分析器輸出中沒有 HTTP 回應，或要求的格式不正確。</td>
 </tr>
 <tr class="odd">
 <td>主機傳送的 HTTP 回應標頭表示無法完成要求。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>回應標頭具有 HTTP/1.1 200 以外的狀態碼。</td>
 </tr>
 <tr class="even">
 <td>主機未傳送有效的 <a href="getresponse--metadata-exchange--message.md">GetResponse</a> 訊息。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>封包分析器輸出中沒有 <a href="getresponse--metadata-exchange--message.md">GetResponse</a> 訊息，或訊息的格式不正確。</td>
 </tr>
 <tr class="odd">
 <td><a href="getresponse--metadata-exchange--message.md">GetResponse</a>訊息未包含<strong>relatesto</strong>元素，或<strong>relatesto</strong>元素是空的。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>訊息的檢查會顯示 <strong>RelatesTo</strong> 元素不存在或空白。</td>
 </tr>
 <tr class="even">
 <td><a href="getresponse--metadata-exchange--message.md">GetResponse</a>訊息中的<strong>RelatesTo</strong>元素值與對應的<a href="get--metadata-exchange--http-request-and-message.md">Get</a>訊息中的<strong>MessageId</strong>元素值不相符。</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料交換的網路追蹤</a></td>
+<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">檢查 HTTP 中繼資料 Exchange 的網路追蹤</a></td>
 <td>訊息的檢查會顯示 <strong>RelatesTo</strong> 元素包含格式錯誤或不正確的值。</td>
 </tr>
 </tbody>

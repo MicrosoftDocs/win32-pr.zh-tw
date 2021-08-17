@@ -4,12 +4,12 @@ ms.assetid: aa59f322-09b1-4b0a-be6f-d865c20f76e5
 title: MSTape 驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 951084f8827f925bba43028c0792736883d5ff0f
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 23eaf6dd7f0d6713b0db5ba5ed21ba4f7640c1373f23cb0066b0b31f366809cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952207"
 ---
 # <a name="mstape-driver"></a>MSTape 驅動程式
 
@@ -84,7 +84,7 @@ MSTape 驅動程式支援 D-VHS 和 MPEG 攝像機裝置。 它會以 [WDM 影�
 | DeviceOPcr0Payload  | oPCR (輸出外掛程式控制項) 承載。 範例： 146 quadlets。                                                                                                                          | **long**            |
 | DeviceOPcr0DataRate | oPCR 資料速率。 範例： 0 (S100) 、1 (S200) 或 2 (S400) 。                                                                                                                          | **long**            |
 | DeviceClassGUID     | 識別設備磁碟機的 GUID。 若為 MSTape，此值為 `{8C0F6AF2-0EDB-44C1-8AEB-59040BD830ED}` 。 此 GUID 在標頭檔 Xprtdefs 中定義為 MSTapeDeviceGUID。 | **BSTR**            |
-| Description         | 從 INF 檔案取得之裝置的描述。 此字串通常包含裝置的品牌名稱。                                                                    | **BSTR**            |
+| 描述         | 從 INF 檔案取得之裝置的描述。 此字串通常包含裝置的品牌名稱。                                                                    | **BSTR**            |
 
 
 
@@ -98,7 +98,7 @@ MSTape 驅動程式支援 D-VHS 和 MPEG 攝像機裝置。 它會以 [WDM 影�
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [控制 DV 攝像機](controlling-a-dv-camcorder.md)

@@ -4,12 +4,12 @@ description: 瞭解如何呈現 Direct3D 11 的效果。 您可以使用效果�
 ms.assetid: 7af239de-812d-4295-b599-b9deb371b01b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7def8f7bbfb9f2c7a5102eb8e02fc848155e4bde
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: a3ba8ebbc1ac8989ac10568a00f26b26370c4bb8e7710098733dad74618e53af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112261830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117913598"
 ---
 # <a name="rendering-an-effect-direct3d-11"></a>轉譯 (Direct3D 11) 的效果
 

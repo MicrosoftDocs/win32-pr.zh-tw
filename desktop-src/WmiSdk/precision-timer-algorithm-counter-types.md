@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 精確度計時器演算法計數器類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3a8864587fedc915678dfa4a9e578ca051e1262
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 137d136db0b4dd579dfec4673b09ce216bef4042d9356b3938b79e7817e3d83a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131030"
 ---
 # <a name="precision-timer-algorithm-counter-types"></a>精確度計時器演算法計數器類型
 
@@ -18,7 +18,7 @@ ms.locfileid: "103695155"
 
 
 
-| CounterType 常數                                                                                         | Description                                                                                                                  |
+| CounterType 常數                                                                                         | 描述                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | [效能 \_PRECISION \_ SYSTEM \_ 計時器](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10))Decimal 541525248<br/> | 類似于性能 \_ 計數器 \_ 計時器，不同之處在于它會使用計數器定義的時間基底，而不是系統時間戳記。             |
 | [效能 \_有效位數 \_ 100ns \_ 計時器](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10))十進位542573824<br/>  | 類似于效能 \_ 100NSEC \_ 計時器，不同之處在于它會使用100ns 個計數器定義的時間基底，而不是系統100ns 時間戳記。 |

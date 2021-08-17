@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103133
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9cf3ee75d3193b1ca3db2705fd06c69be25591e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06cfa73b6467b02bd03a0104a79f84e6e93f3e152c521152ef2da4725da44da0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112840"
 ---
 # <a name="esenttransreadonlyexception-properties"></a>EsentTransReadOnlyException 屬性
 

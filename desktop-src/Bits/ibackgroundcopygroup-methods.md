@@ -4,12 +4,12 @@ description: IBackgroundCopyGroup 介面會公開下列方法。
 ms.assetid: F107750A-7A37-4654-AF0E-77D9D2DFD8C7
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c11a7e459d2944f97bd4ac7890d1505af5d24b0f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6fb8104dcc7314c0eac31dc7ecfb3fad88e7683bb62031162c9cc0424a4a5485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959337"
 ---
 # <a name="ibackgroundcopygroup-methods"></a>IBackgroundCopyGroup 方法
 
@@ -31,9 +31,9 @@ ms.locfileid: "106966782"
 -   [**SuspendGroup 方法**](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopygroup-suspendgroup)
 -   [**SwitchToForeground 方法**](/windows/desktop/api/Qmgr/nf-qmgr-ibackgroundcopygroup-switchtoforeground)
 
- 
+ 
 
- 
+ 
 
 
 

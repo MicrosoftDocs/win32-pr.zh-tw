@@ -4,12 +4,12 @@ ms.assetid: aaec6fee-df6b-4033-8ece-73ecd1799653
 title: 'AcceptSecurityCoNtext (Negotiate) function (Sspi) '
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: d4a9d38618760a97e9475e8d5914d6e54c5eea81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ac466530be0a19a6b8c88355f238a1cd491f9c2ff6d7d8dbe67b16ba20f43b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141630"
 ---
 # <a name="acceptsecuritycontext-negotiate-function"></a>AcceptSecurityCoNtext (Negotiate) 函數
 
@@ -136,7 +136,7 @@ SECURITY_STATUS SEC_Entry AcceptSecurityContext(
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>傳回碼/值</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><dl> <dt><strong>SEC_E_INSUFFICIENT_MEMORY</strong></dt> <dt>0x80090300L</dt> </dl></td><td>函數失敗。 沒有足夠的記憶體可完成要求的動作。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INTERNAL_ERROR</strong></dt> <dt>0x80090304L</dt> </dl></td><td>函數失敗。 發生未對應到 SSPI 錯誤碼的錯誤。<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_INVALID_HANDLE</strong></dt> <dt>0x80100003L</dt> </dl></td><td>函數失敗。 傳遞給函數的控制碼無效。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INVALID_TOKEN</strong></dt> <dt>0x80090308L</dt> </dl></td><td>函數失敗。 傳遞給函數的 token 無效。<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_LOGON_DENIED</strong></dt> <dt>0x8009030CL</dt> </dl></td><td>登入失敗。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_NO_AUTHENTICATING_AUTHORITY</strong></dt> <dt>0x80090311L</dt> </dl></td><td>函數失敗。 無法連絡任何授權單位進行驗證。 這可能是因為下列狀況：<br/><ul><li>驗證方的功能變數名稱不正確。</li><li>網域無法使用。</li><li>信任關係失敗。</li></ul></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_OK</strong></dt> <dt>0x00000000L</dt> </dl></td><td>此函數已成功。 接受從用戶端接收的 [*安全性內容*](../secgloss/s-gly.md) 。 如果輸出 token 是由函式所產生，則必須將它傳送至用戶端進程。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_COMPLETE_AND_CONTINUE</strong></dt> <dt>0x00090314L</dt> </dl></td><td>此函數已成功。 伺服器必須呼叫 [<strong>CompleteAuthToken</strong>] (/windows/win32/api/sspi/nf-sspi-completeauthtoken) ，並將輸出 token 傳遞給用戶端。 然後伺服器會等候來自用戶端的傳回權杖，然後對 [<strong>AcceptSecurityCoNtext (Negotiate) </strong>] (acceptsecuritycoNtext--negotiate.md) 進行另一個呼叫。<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_I_COMPLETE_NEEDED</strong></dt> <dt>0x00090313L</dt> </dl></td><td>此函數已成功。 伺服器必須完成從用戶端建立訊息，然後呼叫 [<strong>CompleteAuthToken</strong>] (/windows/win32/api/sspi/nf-sspi-completeauthtoken) 函數。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_CONTINUE_NEEDED</strong></dt> <dt>0x00090312L</dt> </dl></td><td>此函數已成功。 伺服器必須將輸出 token 傳送給用戶端，並等候傳回的權杖。 傳回的權杖應該在 <em>pInput</em> 中傳遞給 [<strong>AcceptSecurityCoNtext (Negotiate) </strong>] (acceptsecuritycoNtext--negotiate.md) 的另一個呼叫。<br/></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>傳回碼/值</th><th>描述</th></tr></thead><tbody><tr class="odd"><td><dl> <dt><strong>SEC_E_INSUFFICIENT_MEMORY</strong></dt> <dt>0x80090300L</dt> </dl></td><td>函數失敗。 沒有足夠的記憶體可完成要求的動作。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INTERNAL_ERROR</strong></dt> <dt>0x80090304L</dt> </dl></td><td>函數失敗。 發生未對應到 SSPI 錯誤碼的錯誤。<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_INVALID_HANDLE</strong></dt> <dt>0x80100003L</dt> </dl></td><td>函數失敗。 傳遞給函數的控制碼無效。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INVALID_TOKEN</strong></dt> <dt>0x80090308L</dt> </dl></td><td>函數失敗。 傳遞給函數的 token 無效。<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_LOGON_DENIED</strong></dt> <dt>0x8009030CL</dt> </dl></td><td>登入失敗。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_NO_AUTHENTICATING_AUTHORITY</strong></dt> <dt>0x80090311L</dt> </dl></td><td>函數失敗。 無法連絡任何授權單位進行驗證。 這可能是因為下列狀況：<br/><ul><li>驗證方的功能變數名稱不正確。</li><li>網域無法使用。</li><li>信任關係失敗。</li></ul></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_OK</strong></dt> <dt>0x00000000L</dt> </dl></td><td>此函數已成功。 接受從用戶端接收的 [*安全性內容*](../secgloss/s-gly.md) 。 如果輸出 token 是由函式所產生，則必須將它傳送至用戶端進程。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_COMPLETE_AND_CONTINUE</strong></dt> <dt>0x00090314L</dt> </dl></td><td>此函數已成功。 伺服器必須呼叫 [<strong>CompleteAuthToken</strong>] (/windows/win32/api/sspi/nf-sspi-completeauthtoken) ，並將輸出 token 傳遞給用戶端。 然後伺服器會等候來自用戶端的傳回權杖，然後對 [<strong>AcceptSecurityCoNtext (Negotiate) </strong>] (acceptsecuritycoNtext--negotiate.md) 進行另一個呼叫。<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_I_COMPLETE_NEEDED</strong></dt> <dt>0x00090313L</dt> </dl></td><td>此函數已成功。 伺服器必須完成從用戶端建立訊息，然後呼叫 [<strong>CompleteAuthToken</strong>] (/windows/win32/api/sspi/nf-sspi-completeauthtoken) 函數。<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_CONTINUE_NEEDED</strong></dt> <dt>0x00090312L</dt> </dl></td><td>此函數已成功。 伺服器必須將輸出 token 傳送給用戶端，並等候傳回的權杖。 傳回的權杖應該在 <em>pInput</em> 中傳遞給 [<strong>AcceptSecurityCoNtext (Negotiate) </strong>] (acceptsecuritycoNtext--negotiate.md) 的另一個呼叫。<br/></td></tr></tbody></table>
 
 
 
@@ -171,8 +171,8 @@ SECURITY_STATUS SEC_Entry AcceptSecurityContext(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                   |
 | 標頭<br/>                   | <dl> <dt>Sspi (包含 Security .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Secur32 .lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

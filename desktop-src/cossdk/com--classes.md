@@ -4,12 +4,12 @@ ms.assetid: 236725f6-16a3-4209-a9e3-a127c1d7243a
 title: COM + 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 626c3dfdae542b602cf27a8d8be5cb69dde5910f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ae2cdabc1f4535df6734cf525f288bf6cbd8a93543a9163848815441c9bc384c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129220"
 ---
 # <a name="com-classes"></a>COM + 類別
 

@@ -18,12 +18,12 @@ keywords:
 - GM (一般 MIDI) 規格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e36ccc25e73d6a28afc9001f2862870f1fa1a9ef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07e2a229a8e9208645fa7ffae296c004b833156b240f063066be2a8732175054
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144604"
 ---
 # <a name="creating-midi-files"></a>建立 MIDI 檔案
 
@@ -41,15 +41,15 @@ MIDI 詳細規格說明了 MIDI 硬體和軟體通訊協定。 這對開發多�
 
 一般 MIDI (GM) 規格會定義「一般 MIDI 系統」的最小 MIDI 設定。 這個系統是由一種特定的 MIDI 播放裝置類別所組成，而且對撰寫 MIDI 檔案的多媒體開發人員而言也很感興趣。 現今製造的大部分電腦音效卡和 MIDI 合成者都與 GM 規格相容。 針對 GM 規格所撰寫的 MIDI 檔案，通常應該會因為其預定音效而音效，無論是在哪一個 GM 相容裝置上播放。
 
-為了讓 MIDI 檔案成為在多媒體運算中代表音樂的可行格式，Windows 會遵循一般的 MIDI 系統層級1規格。 下列主題提供其他的 MIDI 撰寫指導方針：
+若要讓 MIDI 檔案成為表示多媒體運算中音樂的可行格式，請 Windows 遵循一般的 MIDI 系統層級1規格。 下列主題提供其他的 MIDI 撰寫指導方針：
 
 -   [適用于 MIDI 檔案的撰寫指導方針](authoring-guidelines-for-midi-files.md)
 -   [標準 MIDI 修補程式指派](standard-midi-patch-assignments.md)
 -   [標準 MIDI 金鑰指派](standard-midi-key-assignments.md)
 
- 
+ 
 
- 
+ 
 
 
 

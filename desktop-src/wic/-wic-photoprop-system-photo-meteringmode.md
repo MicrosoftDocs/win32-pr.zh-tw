@@ -4,12 +4,12 @@ ms.assetid: cb0bf0d5-eccf-4345-a242-76769c34e02d
 title: MeteringMode 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12a4443521c84113e4e2a6f4c2b9b2b3f822ae90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 424b14fa6216d5c88c350512d1583b311f92ef2f487e604760b1836b296d3bf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964777"
 ---
 # <a name="systemphotometeringmode-photo-metadata-policy"></a>MeteringMode 相片中繼資料原則
 

@@ -4,12 +4,12 @@ ms.assetid: 50CCA8F5-7118-48E8-ADBF-337798FAF549
 title: 雲端篩選結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eebe6623ad3d9d348d624f8ab8da3427416d4742
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a6da8cf5e512c6e65e88d17c5904fca264c28829dd0a0e842227da4b069aa82d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130220"
 ---
 # <a name="cloud-filter-structures"></a>雲端篩選結構
 
@@ -33,7 +33,7 @@ ms.locfileid: "106966652"
 | [**CF \_ 預留位置 \_ 基本 \_ 資訊**](/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_basic_info)<br/>       | 基本預留位置資訊。<br/>                                                                                                 |
 | [**CF \_ 預留位置 \_ 建立 \_ 資訊**](/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_create_info)<br/>     | 包含用來建立新預留位置檔案或目錄的預留位置資訊。 <br/>                                           |
 | [**CF \_ 預留位置 \_ 標準 \_ 資訊**](/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_standard_info)<br/> | 標準預留位置資訊。<br/>                                                                                              |
-| [**CF \_ 平臺 \_ 資訊**](/windows/desktop/api/cfapi/ns-cfapi-cf_platform_info)<br/>                          | 傳回雲端檔案平臺的資訊。 這適用于在多個 Windows 版本上執行的同步處理提供者。<br/> |
+| [**CF \_ 平臺 \_ 資訊**](/windows/desktop/api/cfapi/ns-cfapi-cf_platform_info)<br/>                          | 傳回雲端檔案平臺的資訊。 這適用于在 Windows 的多個版本上執行的同步處理提供者。<br/> |
 | [**CF \_ 人口 \_ 原則**](/windows/desktop/api/cfapi/ns-cfapi-cf_population_policy)<br/>                  | 指定主要人口原則和其修飾詞。<br/>                                                                      |
 | [**CF \_ 流程 \_ 資訊**](/windows/desktop/api/cfapi/ns-cfapi-cf_process_info)<br/>                            | 包含使用者進程的相關資訊。<br/>                                                                                     |
 | [**CF \_ 同步 \_ 原則**](/windows/desktop/api/cfapi/ns-cfapi-cf_sync_policies)<br/>                          | 定義同步根所使用的同步處理原則。<br/>                                                                                 |

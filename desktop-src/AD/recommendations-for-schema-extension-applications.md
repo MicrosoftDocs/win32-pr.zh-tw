@@ -4,15 +4,15 @@ description: 本主題包含架構延伸應用程式的建議。
 ms.assetid: 615e927e-a113-4557-b354-55a208a649eb
 ms.tgt_platform: multiple
 keywords:
-- 架構延伸應用程式 AD 的建議
+- 架構延伸應用程式的建議 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2393211eb910ce4bc490667398da7f38d212ddcf
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3c0a01e68fbe9751b778caa2404d02afb1ddd7704457c9cf0aedcc914387ab5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025266"
 ---
 # <a name="recommendations-for-schema-extension-applications"></a>架構延伸應用程式的建議
 
@@ -36,6 +36,6 @@ ms.locfileid: "104092626"
 
     如需有關如何更新架構快取的詳細資訊，請參閱更新架構快取的 [範例程式碼](example-code-for-updating-the-schema-cache.md)。
 
- 
+ 
 
- 
+ 

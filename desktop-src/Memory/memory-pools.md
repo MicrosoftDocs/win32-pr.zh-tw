@@ -4,12 +4,12 @@ ms.assetid: 68ee9c72-f3a3-4f1f-a827-ed4210a665e4
 title: 記憶體集區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60987b43347e55d8ee2d01672dbb8173ffc8dd5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08a49597cf90324395c50a4e44aac03815426f0c1de8ea2c7ca7aa85b5cdac95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808995"
 ---
 # <a name="memory-pools"></a>記憶體集區
 

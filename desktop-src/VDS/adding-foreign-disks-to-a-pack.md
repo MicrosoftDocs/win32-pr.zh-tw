@@ -4,16 +4,16 @@ ms.assetid: 4018c742-1d23-47b9-a787-69bf8847b54a
 title: 將外部磁片新增至套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fbfa2ff3d00857fd4e1b92e78f1760c25ce516b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26b83dd76cdc3f1637c07d8d9d818fdaf61fb093151f23aea06f0e9c7f81d6a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117755453"
 ---
 # <a name="adding-foreign-disks-to-a-pack"></a>將外部磁片新增至套件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 最常見的情況是，外部磁片是配置在一部電腦上，並實際移至另一部電腦上的動態磁碟。 不過，屬於線上套件以外套件的任何磁片都會被視為屬於外部磁片套件的外部磁片。
 

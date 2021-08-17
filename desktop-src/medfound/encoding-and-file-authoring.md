@@ -4,12 +4,12 @@ ms.assetid: f5621b10-8724-4707-ad68-b81f3c065803
 title: 編碼與檔案編寫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70b76ea6c0dd8d42aef4c21030ec77fa14af9592
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1468c787ff22d9a98aee46c79c7a1845b97025f442eb917ecf27d8b6f69e172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117879412"
 ---
 # <a name="encoding-and-file-authoring"></a>編碼與檔案編寫
 

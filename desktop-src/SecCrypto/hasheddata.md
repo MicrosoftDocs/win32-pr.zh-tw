@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b6e54d7d2ca52ceafe500615af4063dfc7310b0d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c61d52e7621acffb76df5bcb05693efb48c695c15e79d1f0a45523a0f0087c6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006446"
 ---
 # <a name="hasheddata-object"></a>HashedData 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改用 [**system.string 命名空間中的**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) [**HashAlgorithm 類別**](/previous-versions/windows/)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改用 [**system.string 命名空間中的**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) [**HashAlgorithm 類別**](/previous-versions/windows/)。\]
 
 **HashedData** 物件提供雜湊字串的功能。
 
@@ -60,7 +60,7 @@ ms.locfileid: "106989500"
 
 
 
-| 屬性                                             | 存取類型           | Description                                                                                                                                                                          |
+| 屬性                                             | 存取類型           | 描述                                                                                                                                                                          |
 |:-----------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**演算法**](hasheddata-algorithm.md)<br/> | 讀取/寫入<br/> | 設定或抓取所使用的雜湊演算法類型。<br/>                                                                                                                     |
 | [**值**](hasheddata-value.md)<br/>         | 唯讀<br/>  | 在成功呼叫 [**Hash**](hasheddata-hash.md) 方法之後，取得雜湊的資料。 雜湊會以十六進位格式傳回。 這是預設屬性。<br/> |

@@ -43,10 +43,10 @@ ms.locfileid: "117758468"
 
 
 
-| 元素                                                              | 類型                                                        | Description                                                                                 |
+| 元素                                                              | 類型                                                        | 描述                                                                                 |
 |----------------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [**Id**](taskschedulerschema-id-networksettingstype-element.md)     | [**guidType**](taskschedulerschema-guidtype-simpletype.md) | 指定可識別網路設定檔的 GUID 值。 <br/>                       |
-| [**Name**](taskschedulerschema-name-networksettingstype-element.md) | nonEmptyString                                              | 指定網路設定檔的名稱。 此名稱會用於顯示用途。 <br/> |
+| [**名稱**](taskschedulerschema-name-networksettingstype-element.md) | nonEmptyString                                              | 指定網路設定檔的名稱。 此名稱會用於顯示用途。 <br/> |
 
 
 

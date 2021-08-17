@@ -4,16 +4,16 @@ ms.assetid: e88d65ad-9b56-4620-a0f5-573c5e245b3e
 title: 目標物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e1e81ea94a2f608378eba069defc83a721e0fb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b528d66fb789e4d237dacae151c3dda596e834f84f529c3677905672de3b7588
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057946"
 ---
 # <a name="target-object"></a>目標物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 目標物件會建立包含在 iSCSI 子系統內的 iSCSI 目標模型。
 

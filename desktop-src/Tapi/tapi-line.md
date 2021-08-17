@@ -4,12 +4,12 @@ ms.assetid: 2215b10b-e410-462c-8cf9-42f3e688e82e
 title: tapi/行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 928cfa6144e9a701d6462519d2aa9d590a54a511
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c56478f43d1055d7bf2a382bc84611360675da97e506812a1806df4beca0aeff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760730"
 ---
 # <a name="tapiline"></a>tapi/行
 

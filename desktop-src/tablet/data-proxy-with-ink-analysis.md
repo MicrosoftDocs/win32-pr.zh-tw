@@ -4,12 +4,12 @@ ms.assetid: 33ba9292-3bc7-41ba-a602-e2fc94cd3a57
 title: 具有筆跡分析的資料 Proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52717b955625e67f50c20703dd0e84449aa1037f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad79a37a3220351adad56c0a131392e96964714114ba1e0a982833b07bc85077
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092777"
 ---
 # <a name="data-proxy-with-ink-analysis"></a>具有筆跡分析的資料 Proxy
 
@@ -31,7 +31,7 @@ ms.locfileid: "103852183"
 
 同步更新方法需要在 [**InkAnalyzer**](inkanalyzer.md) 物件的 [**CoNtextNode**](icontextnode.md) 物件集合中，修改 (建立和刪除節點的) ，因為它們會在應用程式檔中發生。 例如，每次將文字單字加入至應用程式時，就會在 **InkAnalyzer** 中建立對應的 **TextWord** 樣式 **CoNtextNode** 。 如果頁面上文字文字的位置變更，則會同時更新對應 **CoNtextNode** 的位置。 這種方法比隨選方法更有效率，因為每個檔變更都牽涉到 **InkAnalyzer** 的更新，即使變更不會影響正在分析的筆跡。
 
-下列範例旨在示範同步更新的運作方式。 想像一下具有現有檔模型的應用程式。 當使用者對檔進行變更（例如新增文字）時，變更會以下列方式處理：
+下列範例旨在示範同步更新的運作方式。 Imagine 具有現有檔模型的應用程式。 當使用者對檔進行變更（例如新增文字）時，變更會以下列方式處理：
 
 1.  終端使用者會建立新的資料。
 2.  應用程式會決定如何處理資料、儲存資料，以及呈現資料。

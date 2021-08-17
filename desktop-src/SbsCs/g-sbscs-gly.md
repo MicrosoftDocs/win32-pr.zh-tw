@@ -5,12 +5,12 @@ ms.assetid: 904FE2AB-9E94-47E4-88BA-DB215775797B
 title: 'G (隔離的應用程式和並存元件) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a4488c03da1c4c1f568db039a8b0e0a05d60ed5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68bf680560a6ded86af62e80ff2375e83c9163ca7e209ac6caa8e26ab95654ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142221"
 ---
 # <a name="g-isolated-applications-and-side-by-side-assemblies"></a>G (隔離的應用程式和並存元件) 
 

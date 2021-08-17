@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b689dd95aa1e078572d33de64f245e4844698d5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0944b843c8deb38012242111b6c5057ccf7cb8557c69caefe9a87283d2ae418
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328738"
 ---
 # <a name="rt_lostevent-class"></a>RT \_ LostEvent 類別
 
@@ -52,7 +52,7 @@ RTLostFile 表示自動記錄器用來捕捉事件的支援檔案已遺失。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                      |
 
 

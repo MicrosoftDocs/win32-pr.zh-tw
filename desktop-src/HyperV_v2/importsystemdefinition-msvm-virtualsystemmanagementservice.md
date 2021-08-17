@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: bb38ab343a3d92fabd1dc44ed100d2d2f7f7bf01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8dd5bb7d17684216b747717c0adf32011dafa543f05c91a0c1264da89caf2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118149734"
 ---
 # <a name="importsystemdefinition-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 ImportSystemDefinition 方法 \_
 
@@ -46,7 +46,7 @@ uint32 ImportSystemDefinition(
 *SystemDefinitionFile* \[在\]
 </dt> <dd>
 
-系統定義檔的完整路徑 ( .xml 或 exp) 代表要匯入的虛擬機器。 主機系統或虛擬化平臺不能使用定義檔。
+系統定義檔的完整路徑 (.xml 或 .exp) 代表要匯入的虛擬機器。 主機系統或虛擬化平臺不能使用定義檔。
 
 </dd> <dt>
 
@@ -132,8 +132,8 @@ uint32 ImportSystemDefinition(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

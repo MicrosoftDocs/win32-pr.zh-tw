@@ -24,12 +24,12 @@ keywords:
 - 解壓縮程式驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b861d381dfc28307c090dbb71b93db8e58e90a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bacb3d94feee3da290bf9c1cc90cab92f2aade083effd8a01cb17906c22e0f4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140994"
 ---
 # <a name="how-the-audio-compression-manager-works"></a>音訊壓縮管理員的運作方式
 
@@ -47,9 +47,9 @@ ms.locfileid: "104301179"
 
 若為波形音訊輸入，則會將空的陰影緩衝區傳遞給驅動程式。 它會使用背景工作在驅動程式填滿陰影緩衝區之後收到通知。 然後，將緩衝區傳遞至驅動程式進行壓縮。 壓縮完成之後，驅動程式會將資料傳遞至應用程式。
 
- 
+ 
 
- 
+ 
 
 
 

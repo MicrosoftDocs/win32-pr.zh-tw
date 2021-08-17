@@ -4,12 +4,12 @@ ms.assetid: e61bd444-7e48-4146-93a4-8b99e34226af
 title: Tablet PC 開發的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 848c211baae029661f3a53e69cd6cf8562367c9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4cc2328cc3aa3578eb8d7afbfb22dbfc33983e29ae75286e79dbca874873569c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091326"
 ---
 # <a name="whats-new-in-tablet-pc-development"></a>Tablet PC 開發的新功能
 
@@ -17,15 +17,15 @@ ms.locfileid: "103690896"
 
 ## <a name="tablet-pc-development-kit-now-in-windows-sdk"></a>Tablet PC 開發工具組現在位於 Windows SDK
 
-從2006的春季開始，Windows SDK 是最新的 Tablet PC 技術的唯一散發機制。 不再有獨立的 Tablet PC SDK。 Windows SDK 中提供平臺二進位檔、標頭、程式庫、檔及範例程式碼。 此散發套件包含1.7 平板電腦平臺二進位檔以及這些二進位檔的可轉散發合併模組，以及1.7 版二進位檔和新的 Windows Vista Tablet PC 技術平臺的檔， (第6版) 二進位檔。
+從2006的春季開始，Windows SDK 是最新的 Tablet PC 技術的唯一散發機制。 不再有獨立的 Tablet PC SDK。 Windows SDK 中提供平臺二進位檔、標頭、程式庫、檔及範例程式碼。 此散發套件包含1.7 平板電腦平臺二進位檔以及這些二進位檔的可轉散發合併模組，以及1.7 版二進位檔和新的 Windows Vista Tablet PC 技術平臺的檔 (第6版) 二進位檔。
 
 請參閱 [開發環境](the-development-environment.md) ，以取得如何設定電腦以進行 Tablet PC 開發的詳細資訊。
 
-## <a name="windows-server-2008-r2-now-supports-handwriting-recognition-and-custom-dictionaries"></a>Windows Server 2008 R2 現在支援手寫辨識和自訂字典
+## <a name="windows-server-2008-r2-now-supports-handwriting-recognition-and-custom-dictionaries"></a>WindowsServer 2008 R2 現在支援手寫辨識和自訂字典
 
-Windows Server 2008 R2 現在可以執行筆墨辨識和自訂字典功能，以支援新的辨識案例。
+WindowsServer 2008 R2 現在可以執行筆墨辨識和自訂字典功能，以支援新的辨識案例。
 
-如需詳細資訊，請參閱 [Windows Server 2008 R2 中的手寫辨識](handwriting-recognition-in-windows-server-2008-r2.md) ，以及 [建立手寫辨識的自訂字典](creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2.md) 。
+如需詳細資訊，請參閱[Windows Server 2008 R2 中的手寫辨識](handwriting-recognition-in-windows-server-2008-r2.md)，以及[建立手寫辨識的自訂字典](creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2.md)。
 
 ## <a name="math-input"></a>數學輸入
 

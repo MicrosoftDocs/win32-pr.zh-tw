@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1780826cb9b4578a4acfd14c53a38589eca42d84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8db95ff21192ae3d5d11465a14731e2f6f074b8a8da44e62b68fcb70e157c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112677"
 ---
 # <a name="esentversionstoreoutofmemoryexception-class"></a>EsentVersionStoreOutOfMemoryException 類別
 

@@ -4,12 +4,12 @@ ms.assetid: 72493b40-04e0-4fe0-9ec7-542c63036235
 title: Automation 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 981ada6dd7302c061497a9f1176068f935c015ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2817a3cc6740a9aebef3e9696fe00ea37a18dd1bdf45f8f1f4f3b329672c9d5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145781"
 ---
 # <a name="automation-interface"></a>Automation 介面
 
@@ -21,7 +21,7 @@ ms.locfileid: "104192453"
 
 如需安裝程式物件的參考資料，請參閱 [Automation 介面參考](automation-interface-reference.md)。
 
-如需 WMI 的詳細資訊，請參閱搭配 [使用 Windows Installer 與 wmi](using-windows-installer-with-wmi.md)。
+如需 wmi 的詳細資訊，請參閱搭配[使用 Windows Installer 與 wmi](using-windows-installer-with-wmi.md)。
 
  
 

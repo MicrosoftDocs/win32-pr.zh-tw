@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103038
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a349e31061dda7b5fc813ab7422b7ce03cd30bd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e8ad4900e7014151507e3d2ee588b201f6e8aa7c30d5d4b06b1b92ec343fc36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119113713"
 ---
 # <a name="esenttempfileopenerrorexception-members"></a>EsentTempFileOpenErrorException 成員
 

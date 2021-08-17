@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: c9b55fbf718382e9dca7e3999cce0cabe895a261
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b8c188e1b50905abd61184c7e1fe67d4253e920aa26d5d1782c1633d843bd282
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733350"
 ---
 # <a name="d3dcolorvalue-structure-d3d9typesh"></a>D3DCOLORVALUE 結構 (D3D9Types .h) 
 

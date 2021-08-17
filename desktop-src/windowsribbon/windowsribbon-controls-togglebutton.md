@@ -4,12 +4,12 @@ description: 按一下時，切換按鈕會提供應用程式的輸入。 控制
 ms.assetid: 290052b7-0528-41c5-b6f4-958cc42d502b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d72c06f8382e7210f1041960b92de5f6054548d1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: dd4f9cd407ff8d2a08ca8bc8313f25374a429c1038544f0d31f270621af0267f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104561843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964339"
 ---
 # <a name="toggle-button"></a>切換按鈕
 
@@ -114,7 +114,7 @@ ms.locfileid: "104561843"
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**切換按鈕標記元素**](windowsribbon-element-togglebutton.md)

@@ -4,12 +4,12 @@ description: Snego （其驗證服務識別碼為 RPC \_ C \_ 驗證 \_ GSS \_ N
 ms.assetid: 2087a84c-d302-4511-9f02-2d20ee9e0d8e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 676b6428d6b7e79893214c2d234dcfc43992e190
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: a82f8da58cc77ebfd4debd0763ad4af6e1c96d3e88d9ede69ff82a28e3d8a5ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129810"
 ---
 # <a name="snego"></a>Snego
 
@@ -22,7 +22,7 @@ Snego （其驗證服務識別碼為 RPC \_ C \_ 驗證 \_ GSS \_ NEGOTIATE）�
 > [!Note]  
 > 安全通道不能在使用 Snego 的驗證服務清單上。
 
- 
+ 
 
 用戶端也可以在呼叫 [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity)時指定 Snego。 [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket)的 *dwAuthnSvc* 和 *pAuthInfo* 參數會成為 [**唯一 \_ 驗證 \_ 資訊**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_info)結構的成員，此結構會透過其 *pAuthList* 參數傳遞至 **CoInitializeSecurity** 。 這些成員值的詳細資料與上一段所述的值相同。
 
@@ -35,6 +35,6 @@ Snego （其驗證服務識別碼為 RPC \_ C \_ 驗證 \_ GSS \_ NEGOTIATE）�
 [COM 和安全性封裝](com-and-security-packages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

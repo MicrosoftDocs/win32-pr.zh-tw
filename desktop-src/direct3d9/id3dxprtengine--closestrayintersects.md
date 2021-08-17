@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4fd802f636077c9ec2a9f0f1060ffd43493aabf1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a2620140337807891efa739da4540e3895394f63bcc494396c13e7c15d0c1b29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729784"
 ---
 # <a name="id3dxprtengineclosestrayintersects-method"></a>ID3DXPRTEngine：： ClosestRayIntersects 方法
 
