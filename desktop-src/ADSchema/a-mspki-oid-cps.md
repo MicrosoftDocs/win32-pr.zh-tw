@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 218fc0eabe7311f46dba769f84b972a495138d3a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 25c9b9dddfe9b3af1f31537d83e7f4cad062df722269d002d7b2b80a5358b1c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960362"
 ---
 # <a name="ms-pki-oid-cps-attribute"></a>ms-PKI-OID-CPS 屬性
 
@@ -65,7 +65,7 @@ CPS (「企業簽發者原則」 OID 的憑證原則聲明) 。
 | Range-Upper            | \-                                                                 |
 | Search-Flags           | 0x00000000                                                         |
 | System-Flags           | 0x00000010                                                         |
-| 中使用的類別        | [**ms-PKI-企業-Oid**](c-mspki-enterprise-oid.md)<br/> |
+| 中使用的類別        | [**ms-chap-Enterprise-Oid**](c-mspki-enterprise-oid.md)<br/> |
 
 
 
@@ -86,7 +86,7 @@ CPS (「企業簽發者原則」 OID 的憑證原則聲明) 。
 | Range-Upper            | \-                                                                 |
 | Search-Flags           | 0x00000000                                                         |
 | System-Flags           | 0x00000010                                                         |
-| 中使用的類別        | [**ms-PKI-企業-Oid**](c-mspki-enterprise-oid.md)<br/> |
+| 中使用的類別        | [**ms-chap-Enterprise-Oid**](c-mspki-enterprise-oid.md)<br/> |
 
 
 
@@ -107,7 +107,7 @@ CPS (「企業簽發者原則」 OID 的憑證原則聲明) 。
 | Range-Upper            | \-                                                                 |
 | Search-Flags           | 0x00000000                                                         |
 | System-Flags           | 0x00000010                                                         |
-| 中使用的類別        | [**ms-PKI-企業-Oid**](c-mspki-enterprise-oid.md)<br/> |
+| 中使用的類別        | [**ms-chap-Enterprise-Oid**](c-mspki-enterprise-oid.md)<br/> |
 
 
 
@@ -128,7 +128,7 @@ CPS (「企業簽發者原則」 OID 的憑證原則聲明) 。
 | Range-Upper            | \-                                                                 |
 | Search-Flags           | 0x00000000                                                         |
 | System-Flags           | 0x00000010                                                         |
-| 中使用的類別        | [**ms-PKI-企業-Oid**](c-mspki-enterprise-oid.md)<br/> |
+| 中使用的類別        | [**ms-chap-Enterprise-Oid**](c-mspki-enterprise-oid.md)<br/> |
 
 
 
@@ -149,7 +149,7 @@ CPS (「企業簽發者原則」 OID 的憑證原則聲明) 。
 | Range-Upper            | \-                                                                 |
 | Search-Flags           | 0x00000000                                                         |
 | System-Flags           | 0x00000010                                                         |
-| 中使用的類別        | [**ms-PKI-企業-Oid**](c-mspki-enterprise-oid.md)<br/> |
+| 中使用的類別        | [**ms-chap-Enterprise-Oid**](c-mspki-enterprise-oid.md)<br/> |
 
 
 

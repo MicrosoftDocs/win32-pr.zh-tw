@@ -4,12 +4,12 @@ ms.assetid: b86c87c0-7d6b-4e9d-b276-a98ac9a33772
 title: 'GraphicsPath. AddRectangle 方法 (Gdipluspath .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: fd2eb31e0debdf933427bdc44c95253a61f3857f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 94407a1d50ddd840d16b9f68850420642c7cbd527a78aff7d1a13738da37400f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105697"
 ---
 # <a name="graphicspathaddrectangle-methods"></a>GraphicsPath. AddRectangle 方法
 

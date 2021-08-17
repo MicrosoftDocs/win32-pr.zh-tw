@@ -65,7 +65,7 @@ ms.locfileid: "118745102"
 <thead>
 <tr class="header">
 <th>子元素</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -89,7 +89,7 @@ ms.locfileid: "118745102"
 <thead>
 <tr class="header">
 <th>Parent 項目</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

@@ -4,12 +4,12 @@ ms.assetid: ca56c109-d6a3-456e-956c-126ce4aee8ba
 title: 移動目錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56167f0831894350a044104bce1f41ef3c5770ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da891e22c2840ad9460f5fb43c8cc1b130905b86de80a988be2eeeb9a4010ac5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951137"
 ---
 # <a name="moving-directories"></a>移動目錄
 

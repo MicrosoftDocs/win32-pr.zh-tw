@@ -4,12 +4,12 @@ description: 當應用程式與其他 RPC 伺服器位於同一個進程時，�
 ms.assetid: edb20108-e0c3-4b9b-b57d-45a96d9472ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00828ddf95fd024069a8a535c95673eb014d84b9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5e2044b83de96a352546d90c45cd54879fc87923786b7852133ffeb28dbf9cbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932349"
 ---
 # <a name="be-wary-of-other-rpc-endpoints-running-in-the-same-process"></a>請小心在相同進程中執行其他 RPC 端點
 
@@ -19,9 +19,9 @@ ms.locfileid: "103673915"
 
 若要確保只會在特定的通訊協定順序呼叫進程，請註冊安全性回呼函式，並在該函式中檢查發出呼叫的通訊協定順序。
 
- 
+ 
 
- 
+ 
 
 
 

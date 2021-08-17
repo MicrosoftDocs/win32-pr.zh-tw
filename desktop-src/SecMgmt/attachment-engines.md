@@ -4,12 +4,12 @@ ms.assetid: bbca486a-9eec-4510-b5fd-435972182a69
 title: 附件引擎
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9af0711caa5ceada7c16ae11b6470568a76d16ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62e09996bfb58e0447ec8e25bb627af6a4c93751a86f9f73f3499cf7f8b0fdb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895051"
 ---
 # <a name="attachment-engines"></a>附件引擎
 

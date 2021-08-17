@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101238
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8483c81509bbe3e5e221d3f92bda6b1730552c5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 259a1100b7e787bb667d0a9211f0f70bdea980589c62fc4dcb990655309cc1c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118783735"
 ---
 # <a name="esentcannotbetaggedexception-members"></a>EsentCannotBeTaggedException 成員
 

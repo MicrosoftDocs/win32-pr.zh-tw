@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de565d9e6f8055f1b2ebc90c4deec83da463e7d5
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a9ac073ee9e71a47a36a34bf774698b7d00bec2cc675d9c1c1214725eb389dc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937307"
 ---
 # <a name="miscellaneous-state-variables"></a>其他狀態變數
 

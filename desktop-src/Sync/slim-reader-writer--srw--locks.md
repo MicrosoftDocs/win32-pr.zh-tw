@@ -4,12 +4,12 @@ ms.assetid: 2d439b21-291f-4ff0-910a-c1c27e800019
 title: 超薄的讀取器/寫入器 (SRW) 鎖定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe7d76d956e1425531eae43b0daa6817002a92bc
-ms.sourcegitcommit: 663239b4560bfd5314e86901c65805c9bbcab07d
+ms.openlocfilehash: 3bc478d5f9bbfec1268f65b3e4a7f562b9bdca3d2df21f4570a52782eec9f028
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "106988083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959978"
 ---
 # <a name="slim-readerwriter-srw-locks"></a>超薄的讀取器/寫入器 (SRW) 鎖定
 
@@ -37,7 +37,7 @@ SRW 鎖定是指標的大小。 優點是更新鎖定狀態的速度很快。 �
 
 以下是 SRW 鎖定函數。
 
-| SRW lock 函數                                                | Description                                                                                                                                       |
+| SRW lock 函數                                                | 描述                                                                                                                                       |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AcquireSRWLockExclusive**](/windows/win32/api/synchapi/nf-synchapi-acquiresrwlockexclusive)       | 取得獨佔模式的 SRW 鎖定。                                                                                                           |
 | [**AcquireSRWLockShared**](/windows/win32/api/synchapi/nf-synchapi-acquiresrwlockshared)             | 取得共用模式中的 SRW 鎖定。                                                                                                              |

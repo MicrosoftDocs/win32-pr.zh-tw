@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a3070883b167d26cf31f7d7f388f6bd3736a4bde
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0646a057fdc2fb96e5f72e7451b9b273191ced22f5092a14fab11a9042c5de25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788107"
 ---
 # <a name="tex---ps"></a>tex-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "103933394"
 
 
 
- 
+ 
 
 其中
 
@@ -45,7 +45,7 @@ ms.locfileid: "103933394"
 
 
 
- 
+ 
 
 目的地暫存器編號會指定紋理階段號碼。
 
@@ -62,6 +62,6 @@ ms.locfileid: "103933394"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

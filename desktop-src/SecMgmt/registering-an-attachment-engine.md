@@ -4,12 +4,12 @@ ms.assetid: f7376a79-97cd-4607-9e1b-5b8c7cd76a32
 title: 註冊附件引擎
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f50827fe27e86328e7e914bfc98740fa5e15060
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04d3d13bab6c26254295734344011a9f56457b8fac28c913178c7515cc147fb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118893697"
 ---
 # <a name="registering-an-attachment-engine"></a>註冊附件引擎
 

@@ -4,12 +4,12 @@ ms.assetid: d76ed6df-944b-4996-bf07-e42ceb7a1b69
 title: AppId 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07fa202907c094d8c12f73d838f5ad1d6b942125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e8452635cd7c167d6a8618629eaec2f6f6c1aa2e72e0b3628a7d4542a9e7160
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066268"
 ---
 # <a name="appid-table"></a>AppId 資料表
 

@@ -31,7 +31,7 @@ ms.locfileid: "118719142"
 
 
 
-| Product                                | 最小產品版本 |
+| 產品                                | 最小產品版本 |
 |----------------------------------------|-------------------------|
 | Windows                                | Windows Vista           |
 | Windows Software Development Kit (SDK) | 6.1                     |

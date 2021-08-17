@@ -23,12 +23,12 @@ keywords:
 - 功能表、字型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d216b5fe5e6c25a98b5bdf3abe9d55b4bb0b34f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 61f3a71a580a323fa2058613f8c9a14d9c2782bd3ba139e5d182750e5047fe74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971927"
 ---
 # <a name="using-menus"></a>使用功能表
 
@@ -995,7 +995,7 @@ VOID WINAPI AddBitmapMenu(
 
 
 
- 
+ 
 
 ### <a name="setting-fonts-for-menu-item-text-strings"></a>設定 Menu-Item 文字字串的字型
 
@@ -1553,7 +1553,7 @@ VOID WINAPI OnDrawItem(HWND hwnd, LPDRAWITEMSTRUCT lpdis)
     > [!Note]  
     > 您也可以使用 [**CreateBitmap**](/windows/desktop/api/wingdi/nf-wingdi-createbitmap) 函式來建立單色點陣圖。
 
-     
+     
 
 3.  使用 [**SelectObject**](/windows/desktop/api/wingdi/nf-wingdi-selectobject) 函式，在相容的裝置內容中選取點陣圖。
 4.  使用 GDI 繪圖函式（例如 [**橢圓形**](/windows/desktop/api/wingdi/nf-wingdi-ellipse) 和 [**LineTo**](/windows/desktop/api/wingdi/nf-wingdi-lineto)）將影像繪製到點陣圖中，或使用 [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) 和 [**StretchBlt**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt) 等函數將影像複製到點陣圖。
@@ -2206,6 +2206,6 @@ VOID WINAPI OnDestroy(HWND hwnd)
 
 
 
- 
+ 
 
- 
+ 

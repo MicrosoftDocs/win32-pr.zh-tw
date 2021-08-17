@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 383b8641cb9f0ee37da0ae3ddabd8311ab38495f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e9abae88f2649bb1e49a324e336e4305568b11780e0456052ba82fe96f6993f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107679"
 ---
 # <a name="jet_ossnapidequals-method-jet_ossnapid"></a>JET_OSSNAPID。Equals 方法 (JET_OSSNAPID) 
 

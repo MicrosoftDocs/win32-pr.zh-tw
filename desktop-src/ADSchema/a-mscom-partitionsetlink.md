@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52e2d6fa4046ac95d0fcbde6dea999e1ef2968ec
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ddc17fb3e1f6ff80b5834d1d96f2758bd56bf3a6941890cd3f184d7229ece1c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106986213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961107"
 ---
 # <a name="ms-com-partitionsetlink-attribute"></a>PartitionSetLink 屬性
 
@@ -56,7 +56,7 @@ ms.locfileid: "106986213"
 |------------------------|---------------------------------|
 | 連結識別碼                | 1041                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -77,7 +77,7 @@ ms.locfileid: "106986213"
 |------------------------|---------------------------------|
 | 連結識別碼                | 1041                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -98,7 +98,7 @@ ms.locfileid: "106986213"
 |------------------------|---------------------------------|
 | 連結識別碼                | 1041                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -119,7 +119,7 @@ ms.locfileid: "106986213"
 |------------------------|---------------------------------|
 | 連結識別碼                | 1041                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -140,7 +140,7 @@ ms.locfileid: "106986213"
 |------------------------|---------------------------------|
 | 連結識別碼                | 1041                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |

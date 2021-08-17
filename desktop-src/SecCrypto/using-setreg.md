@@ -4,12 +4,12 @@ ms.assetid: c34c00fe-da99-4c2e-9e9a-0ef6406ae5ae
 title: 使用 SetReg
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 706463f86d38a03bc3416713be7427df55424d09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e0de37d236b978217d8c2a713e9595fbaad70afb69beb32cd0f5200738d2d8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896735"
 ---
 # <a name="using-setreg"></a>使用 SetReg
 

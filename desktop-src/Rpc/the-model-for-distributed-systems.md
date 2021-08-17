@@ -4,12 +4,12 @@ description: 傳統上，在多部電腦上執行整合型系統，表示將系�
 ms.assetid: 6055bcef-e34c-4f2d-92b9-9aec75cf3cec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82cd1ea3301d68e77562a63c542bc075692e5192
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 859b2a0a83e7f12bd7caf372e60acf2736a114a0cdf46893830032a47a548019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924168"
 ---
 # <a name="the-model-for-distributed-systems"></a>分散式系統的模型
 
@@ -27,9 +27,9 @@ ms.locfileid: "103932042"
 
 分散式系統可能沒有專用的用戶端和伺服器可用於每個特定的封包交換，但請務必記住，有呼叫端、 (或啟動器，其中之一通常稱為用戶端) 。 另外還有呼叫的收件者 (通常稱為伺服器) 。 不需要以分散式系統的要求-回復格式進行雙向封包交換;訊息通常只會傳送一種方式。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b17c5f44e02fbac0056a2d6819450a813f77d62
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 96e194007f924edb4086b222f123a9f86f2f3d83d99629d846af865d1cc34479
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960537"
 ---
 # <a name="ms-ds-value-type-reference-attribute"></a>ms DS-數值型別參考屬性
 
@@ -52,8 +52,8 @@ ms.locfileid: "104107765"
 |------------------------|-----------------------------------------------------------------------|
 | 連結識別碼                | 2188                                                                  |
 | MAPI-Id                | \-                                                                    |
-| System-Only            | 對                                                                  |
-| 是-單一值       | 對                                                                  |
+| System-Only            | 是                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e2d52b07284d10d82122e52e41b185799e12d458
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f511df84b93372fda1e557b4ebd12011fa8ef41beca9eb3d190c049564021031
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074475"
 ---
 # <a name="cbasicaudio-class"></a>CBasicAudio 類別
 

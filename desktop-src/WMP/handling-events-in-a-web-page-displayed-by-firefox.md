@@ -3,39 +3,39 @@ title: 在 Firefox 所顯示的網頁中處理事件
 description: 在 Firefox 所顯示的網頁中處理事件
 ms.assetid: 361c46ff-36e2-4497-a511-86b0439e9437
 keywords:
-- Windows Media Player 嵌入 ActiveX 控制項
-- Windows Media Player 物件模型，嵌入 ActiveX 控制項
+- Windows Media Player，內嵌 ActiveX 控制項
+- Windows Media Player 物件模型，內嵌 ActiveX 控制項
 - 物件模型，嵌入 ActiveX 控制項
-- Windows Media Player 行動裝置，內嵌 ActiveX 控制項
-- Windows Media Player ActiveX 控制項，內嵌
-- Windows Media Player 的行動 ActiveX 控制項，內嵌
-- ActiveX 控制項，嵌入
+- Windows Media PlayerMobile、內嵌 ActiveX 控制項
+- Windows Media Player ActiveX 控制項、內嵌
+- Windows Media PlayerMobile ActiveX 控制項，內嵌
+- ActiveX 控制項，內嵌
 - Windows Media Player ActiveX 控制項、網頁
-- Windows Media Player 的行動 ActiveX 控制項、網頁
+- Windows Media PlayerMobile ActiveX 控制項、網頁
 - ActiveX 控制項，網頁
-- Windows Media Player 的 ActiveX 控制項，事件處理
-- Windows Media Player 的行動 ActiveX 控制項、事件處理
+- Windows Media Player ActiveX 控制項、事件處理
+- Windows Media PlayerMobile ActiveX 控制項，事件處理
 - ActiveX 控制項，事件處理
 - 內嵌、網頁
 - 網頁嵌入、事件處理
 - Windows Media Player，Firefox
 - Windows Media Player 物件模型，Firefox
 - 物件模型，Firefox
-- Windows Media Player Mobile、Firefox
-- Windows Media Player ActiveX 控制項，Firefox
-- Windows Media Player Mobile ActiveX 控制項，Firefox
-- ActiveX 控制項、Firefox
+- Windows Media PlayerMobile、Firefox
+- Windows Media Player ActiveX control、Firefox
+- Windows Media PlayerMobile ActiveX control、Firefox
+- ActiveX control、Firefox
 - Firefox，事件處理
 - 網頁內嵌、Firefox
 - 事件，Firefox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b9659d1920ffc4d5e39f4cd44e15e24b08f6ddc
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: e971caef18114b670678fc76d0515858bee77a94a5e3f8b5c24ca5322177b8e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "104311685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748413"
 ---
 # <a name="handling-events-in-a-web-page-displayed-by-firefox"></a>在 Firefox 所顯示的網頁中處理事件
 
@@ -109,7 +109,7 @@ ms.locfileid: "104311685"
 > [!Note]  
 > 如果 mime 類型不是 application/x-ms-chap， **DoubleClick** 事件就會傳送為 OnDSDblClickEvt (not OnDSDoubleClickEvt) ，以與 Player 控制項6.4 版相容。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -118,9 +118,9 @@ ms.locfileid: "104311685"
 [**搭配 Firefox 使用 Windows Media Player 控制項**](using-the-windows-media-player-control-with-firefox.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 232214aa2c33485d909525d54965f59fdc891a29
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4f409887f70989c65475c8b854b4b610c9ffa6c122edc25e87b5ebdc8dbc9180
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069638"
 ---
 # <a name="systemconfig-class"></a>SystemConfig 類別
 
@@ -42,7 +42,7 @@ class SystemConfig : MSNT_SystemTrace
 
 這些事件會提供電腦的硬體設定。 不同于其他 NT 核心記錄器事件，核心會話會自動產生硬體設定事件;當您啟動 NT Kernel 記錄器會話時，不會啟用這些事件。
 
-如需 Windows XP 上的硬體設定事件，請參閱 [HWConfig](hwconfig.md) 類別。
+如需 Windows XP 上的硬體設定事件，請參閱[HWConfig](hwconfig.md)類別。
 
 事件追蹤取用者可以藉由呼叫 [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) 函式並將 [**EventTraceConfigGuid**](nt-kernel-logger-constants.md) 指定為 *pGuid* 參數，來執行硬體設定事件的特殊處理。 使用下列事件種類來識別使用事件時的實際硬體設定事件。
 
@@ -72,8 +72,8 @@ class SystemConfig : MSNT_SystemTrace
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

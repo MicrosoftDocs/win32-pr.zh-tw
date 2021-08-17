@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41236c541fc251902a7a0a5ad6030a28dd36e3a4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8087f45ad94fe3e45f78a1be9d86b30f6f7e3f2c9161b9c4498865b12582436e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124933"
 ---
 # <a name="d3dx11_state_block_mask-structure"></a>D3DX11 \_ 狀態 \_ 區塊 \_ 遮罩結構
 
@@ -193,7 +193,7 @@ typedef struct _D3DX11_STATE_BLOCK_MASK {
 
 </dd> <dt>
 
-**Ds**
+**DS**
 </dt> <dd>
 
 類型： **[**位元組**](/windows/desktop/WinProg/windows-data-types)**
@@ -303,7 +303,7 @@ Geometry-著色器介面的陣列。 陣列是多位元組的位元遮罩，其�
 
 </dd> <dt>
 
-**Ps**
+**PS**
 </dt> <dd>
 
 類型： **[**位元組**](/windows/desktop/WinProg/windows-data-types)**

@@ -11,12 +11,12 @@ keywords:
 - 程式設計指南，使用者介面外掛程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f36c6446ca0eb6b1cc9dfb5f45044493c2a8fd6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 56f99f3e232d11075bde9905169099649a3b6e754454ac10af60b8a83493fcd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748153"
 ---
 # <a name="implementing-csearch"></a>執行 CSearch
 
@@ -49,9 +49,9 @@ friend class CPluginWindow;
 [**消費者介面外掛程式程式設計指南**](user-interface-plug-ins-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

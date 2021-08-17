@@ -5,12 +5,12 @@ ms.assetid: 714c122f-3d68-4466-900c-1d129e544d45
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7417f2592ef30df7d3a44c28f30307ccf6173ef
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: b75c195dcc9989cf01b00f49edeedbfd38a7c8b11fed82a2dc67099b7b2f4a69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "106985998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932068"
 ---
 # <a name="color-space-constants"></a>色彩空間常數
 
@@ -27,9 +27,9 @@ ms.locfileid: "106985998"
 | Yxy               | 空間 \_ Yxy        |
 | RGB               | 空格 \_ RGB        |
 | 灰度        | 空格 \_ 灰色       |
-| Hsv               | 空間 \_ HSV        |
+| HSV               | 空間 \_ HSV        |
 | HLS               | 空間 \_ HLS        |
-| Cmyk              | 空格 \_ CMYK       |
+| CMYK              | 空格 \_ CMYK       |
 | CMY               | 空間 \_ CMY        |
 | 一般2通道 | 空間 \_ 2 \_ 頻道 |
 | 一般3通道 | 空間 \_ 3 \_ 通道 |

@@ -4,12 +4,12 @@ ms.assetid: 9a68905d-c235-4c72-bc71-1cccdf5cdadc
 title: 關於 Mailslots
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bd83fc0d952577efdb149d4c7f25fffbab9784f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d009b2e667e5feebedeb4b842fc3f6e1630b39069e717ce08f5d0441ebe25aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756516"
 ---
 # <a name="about-mailslots"></a>關於 Mailslots
 
@@ -21,7 +21,7 @@ ms.locfileid: "106997272"
 
 Mailslots 可以廣播網域內的訊息。 如果網域中的數個進程每個都使用相同的名稱來建立一個信箱，則參與的進程就會收到每個定址至該信箱並傳送至網域的訊息。 因為一個進程可以同時控制伺服器信箱控制碼和用戶端控制碼，當打開封入器開啟進行寫入作業時，應用程式可以輕鬆地在網域內執行簡單的訊息傳遞功能。
 
-若要在電腦之間傳送大於424位元組的訊息，請改用 [具名管道](named-pipes.md) 或 [Windows 通訊端](/windows/desktop/WinSock/windows-sockets-start-page-2) 。
+若要在電腦之間傳送大於424位元組的訊息，請改用[具名管道](named-pipes.md)或[Windows 通訊端](/windows/desktop/WinSock/windows-sockets-start-page-2)。
 
 ## <a name="related-topics"></a>相關主題
 

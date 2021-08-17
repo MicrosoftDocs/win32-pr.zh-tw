@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5d5802fc1db5f76f0c2eb7f5fd3d6512bb669ead
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
-ms.translationtype: HT
+ms.openlocfilehash: 69e3ca1623a716a59477d05aaae749787abf2a7e69b232356777ed024222579d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104990859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792228"
 ---
 # <a name="define-directive-hlsl-reference"></a>\#定義指示詞 (HLSL 參考) 
 

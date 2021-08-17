@@ -4,12 +4,12 @@ description: ACF 標頭包含適用于整個介面的平臺特定屬性。 套�
 ms.assetid: c09ec0f2-2302-450a-b74b-c9008beca325
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e958044f043db8828f0fdda192918c632c321b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 11bdfeced843337143fd441d816e3b575be2e7ebc7d93000094f8dcd3737a00d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924608"
 ---
 # <a name="the-acf-header"></a>ACF 標頭
 
@@ -21,6 +21,6 @@ ACF 標頭可以包含下列其中一個屬性： **\[** [**auto \_ 控制碼**]
 
 如需詳細資訊，請參閱 [ACF 屬性](/windows/desktop/Midl/acf-attributes)。
 
- 
+ 
 
- 
+ 

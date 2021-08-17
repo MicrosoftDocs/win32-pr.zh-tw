@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Fveapi.dll
-ms.openlocfilehash: 5b4a367c3566c1475f856783d800ec43e21071e2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 050983663b782d40c330092919b8fc29060cbba057a16d147b80c6ea477cbf54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956087"
 ---
 # <a name="fveenablerawaccessw-function"></a>FveEnableRawAccessW 函式
 
@@ -60,7 +60,7 @@ HRESULT FveEnableRawAccessW(
 
 
 
-| 傳回碼/值                                                                                                                                                           | Description                                                                        |
+| 傳回碼/值                                                                                                                                                           | 描述                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl>                           | 函數成功。<br/>                                            |
 | <dl> <dt>**S \_FALSE**</dt> <dt>1 (0x1)</dt> </dl>                        | Enabled 為 **FALSE** ，且磁片區尚未處於原始存取模式。<br/> |
@@ -76,8 +76,8 @@ HRESULT FveEnableRawAccessW(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Fveapi.dll</dt> </dl> |
 
 

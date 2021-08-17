@@ -10,12 +10,12 @@ keywords:
 - WAVEHDR 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a81a5a29ec9718e7c11306b6bafc1aa20369e5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 08a4a0c7236c52854911b51677cf792fa504371fb18900ac947e8fdf1391bd69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941752"
 ---
 # <a name="audio-data-blocks"></a>音訊資料區塊
 
@@ -34,7 +34,7 @@ ms.locfileid: "103933125"
 
 
 
- 
+ 
 
 將音訊資料區塊傳遞到設備磁碟機之前，您必須先將資料區塊傳遞給 [**waveInPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveinprepareheader) 或 [**waveOutPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutprepareheader)，以準備資料區塊。 當設備磁碟機完成資料區塊並傳回它時，您必須先將資料區塊傳遞至 [**waveInUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveinunprepareheader) 或 [**waveOutUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutunprepareheader) ，然後再釋放任何配置的記憶體，以清除此準備工作。
 
@@ -58,6 +58,6 @@ ms.locfileid: "103933125"
 -   [使用視窗或執行緒驅動程式訊息](using-a-window-or-thread-to-process-driver-messages.md)
 -   [藉由輪詢管理資料區塊](managing-data-blocks-by-polling.md)
 
- 
+ 
 
- 
+ 

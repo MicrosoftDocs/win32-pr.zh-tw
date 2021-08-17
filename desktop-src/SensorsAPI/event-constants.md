@@ -4,12 +4,12 @@ ms.assetid: ca61c912-bce5-4e41-ab48-40615d5b93ba
 title: " (感應器的事件常數。 h) "
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc9fb3ced92c1fe263538f2ce27c3fc65fdd7676
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1b16be770777c8e679e74123ce1c40c385893afee11ff3792dd58df007ae4c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890226"
 ---
 # <a name="event-constants-sensorsh"></a> (感應器的事件常數。 h) 
 
@@ -63,7 +63,7 @@ Windows 感應器和位置平台會定義驅動程式事件的常數。 感應�
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                            |
 | 標頭<br/>                   | <dl> <dt>感應器。h</dt> </dl> |
 

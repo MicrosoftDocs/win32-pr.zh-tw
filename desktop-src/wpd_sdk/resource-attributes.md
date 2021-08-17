@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置支援下列資源屬性。
+description: Windows可攜式裝置支援下列資源屬性。
 ms.assetid: 0cbf8777-5cea-4839-a4c3-366bb9e18488
 title: '資源屬性 (PortableDevice .h) '
 ms.topic: reference
@@ -13,22 +13,22 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 300add64d332dbc509bef6ec5bb2ad124f7a6b3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 303f43f1061dd9d8b05855b3c2af94a1ace3c071c12b308303b1524b255a6133
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963509"
 ---
 # <a name="resource-attributes"></a>資源屬性
 
-Windows 可攜式裝置支援下列資源屬性。 下列方法會傳回這些屬性：
+Windows可攜式裝置支援下列資源屬性。 下列方法會傳回這些屬性：
 
 -   [**IPortableDeviceResources::GetResourceAttributes**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfixedpropertyattributes)
 
 
 
-| 屬性                                                  | VarType      | Description                                                                                                                                 |
+| 屬性                                                  | VarType      | 描述                                                                                                                                 |
 |------------------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ 資源 \_ 屬性 \_ 可以 \_ 刪除**                  | **VT \_ BOOL** | 布林值，指定用戶端是否有權刪除資源。 如果不存在，則會假設為 false。                |
 | **WPD \_ 資源 \_ 屬性 \_ 可以 \_ 讀取**                    | **VT \_ BOOL** | 布林值，指定用戶端是否有許可權開啟資源以進行讀取存取。 如果不存在，則會假設為 False。  |

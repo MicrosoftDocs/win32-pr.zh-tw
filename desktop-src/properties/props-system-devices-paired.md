@@ -4,12 +4,12 @@ ms.assetid: 8c9a8921-cc8d-4763-b4a7-c4d65960419a
 title: System.Devices.Paired
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df620e7385e730b4a5e094d053a0b375f9e51d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a030d423e10d382d3d63fe2c06f079ed8acf79cfb23168282f022fe1b24cbd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728285"
 ---
 # <a name="systemdevicespaired"></a>System.Devices.Paired
 

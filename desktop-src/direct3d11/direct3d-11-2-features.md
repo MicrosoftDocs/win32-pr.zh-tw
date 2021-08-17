@@ -1,19 +1,19 @@
 ---
 title: Direct3D 11.2 功能
-description: 下列是在 Direct3D 11.2 中新增的功能，包括在 Windows 8.1、Windows RT 8.1 和 Windows Server 2012 R2 中。
+description: 下列是在 Direct3D 11.2 中新增的功能，其中包含 Windows 8.1、Windows RT 8.1 和 Windows Server 2012 R2 中。
 ms.assetid: 2A2D9BBB-F53A-4187-A25B-F4E58C896EE2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 299b720bfb91297043c8e7d76beb50067eb64e17
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b1cd253cf618b3915c4f303691cab86a11cc9268061d536892c0ff5ccf4fffe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124543"
 ---
 # <a name="direct3d-112-features"></a>Direct3D 11.2 功能
 
-下列是在 Direct3D 11.2 中新增的功能，包括在 Windows 8.1、Windows RT 8.1 和 Windows Server 2012 R2 中。
+下列是在 Direct3D 11.2 中新增的功能，其中包含 Windows 8.1、Windows RT 8.1 和 Windows Server 2012 R2 中。
 
 -   [磚資源](#tiled-resources)
     -   [檢查磚資源支援](#check-tiled-resources-support)
@@ -102,11 +102,11 @@ Windows 8.1 新增個別的 HLSL 著色器編譯和連結，可讓圖形程式�
 
 ### <a name="function-linking-graph-flg"></a>函數連結圖形 (FLG) 
 
-Windows 8.1 也會新增函數連結圖形 (FLG) 。 您可以使用 FLG 來建立著色器，其中包含一連串預先編譯的函式調用，可將值傳遞給彼此。 使用 FLG 時，不需要撰寫 HLSL 並叫用 HLSL 編譯器。 相反地，會使用 c + + API 呼叫以程式設計方式指定著色器結構。 FLG 節點代表輸入和輸出的簽章，以及先行編譯程式庫函數的調用。 註冊函式呼叫節點的順序會定義調用的順序。 必須先指定輸入簽章節點，而且必須最後指定輸出簽章節點。 FLG 邊緣定義值如何從一個節點傳遞至另一個節點。 傳遞值的資料類型必須相同;沒有隱含類型轉換。 Shape 和 swizzling 規則會遵循 HLSL 行為，而且值只能在這個順序中向前傳遞。 如需 FLG API 的詳細資訊，請參閱 [**ID3D11FunctionLinkingGraph**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph)。
+Windows 8.1 也會新增 Graph (FLG) 的函式連結。 您可以使用 FLG 來建立著色器，其中包含一連串預先編譯的函式調用，可將值傳遞給彼此。 使用 FLG 時，不需要撰寫 HLSL 並叫用 HLSL 編譯器。 相反地，會使用 c + + API 呼叫以程式設計方式指定著色器結構。 FLG 節點代表輸入和輸出的簽章，以及先行編譯程式庫函數的調用。 註冊函式呼叫節點的順序會定義調用的順序。 必須先指定輸入簽章節點，而且必須最後指定輸出簽章節點。 FLG 邊緣定義值如何從一個節點傳遞至另一個節點。 傳遞值的資料類型必須相同;沒有隱含類型轉換。 Shape 和 swizzling 規則會遵循 HLSL 行為，而且值只能在這個順序中向前傳遞。 如需 FLG API 的詳細資訊，請參閱 [**ID3D11FunctionLinkingGraph**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph)。
 
 ## <a name="inbox-hlsl-compiler"></a>收件匣 HLSL 編譯器
 
-HLSL 編譯器現在是 Windows 8.1 和更新版本上的收件匣。 現在，適用于著色器程式設計的大部分 Api 都可以在針對 Windows 8.1 和更新版本建立的 Windows Store 應用程式中使用。 適用于著色器程式設計的許多 Api 無法在針對 Windows 8 所建立的 Windows Store 應用程式中使用;這些 Api 的參考頁面會以附注標示。 但某些著色器 Api (例如， [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile)) 仍然只能用來開發 windows store 應用程式，而不能用於您提交至 windows 市集中的應用程式;這些 Api 的參考頁面仍會以附注標示。
+HLSL 編譯器現在是 Windows 8.1 和更新版本上的收件匣。 現在，適用于著色器程式設計的大部分 api 都可以用於 Windows 儲存為 Windows 8.1 和更新版本所建立的應用程式。 適用于著色器程式設計的許多 api 無法在 Windows 儲存為 Windows 8 所建立的應用程式中使用;這些 Api 的參考頁面會以附注標示。 但某些著色器 api (例如， [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile)) 仍然只能用來開發 Windows Store 應用程式，而不是在您提交至 Windows 存放區的應用程式中;這些 Api 的參考頁面仍會以附注標示。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -115,6 +115,6 @@ HLSL 編譯器現在是 Windows 8.1 和更新版本上的收件匣。 現在，�
 [Direct3D 11 的新功能](dx-graphics-overviews-introduction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

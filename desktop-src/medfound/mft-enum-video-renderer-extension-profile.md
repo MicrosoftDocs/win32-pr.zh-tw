@@ -4,12 +4,12 @@ ms.assetid: 2EFFA81C-5609-43FA-8151-D06C28A0FCC4
 title: 'MFT_ENUM_VIDEO_RENDERER_EXTENSION_PROFILE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7d7c758dac39c7dd93054eb28d5ef7dcc5325db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb1d9ece298f2ec8b906bfc28a5a76bfa755660b4ba162040884744bdaa7764b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102148"
 ---
 # <a name="mft_enum_video_renderer_extension_profile-attribute"></a>MFT \_ 列舉 \_ 影片轉譯器延伸模組 \_ \_ \_ 配置檔案屬性
 
@@ -24,7 +24,7 @@ ms.locfileid: "104114396"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

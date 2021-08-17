@@ -6,20 +6,20 @@ keywords:
 - Windows Media Player，同步處理裝置
 - Windows Media Player 物件模型，同步處理裝置
 - 物件模型，同步處理裝置
-- Windows Media Player ActiveX 控制項，同步處理裝置
-- ActiveX 控制項，同步處理裝置
-- Windows Media Player 的行動 ActiveX 控制項，同步處理裝置
-- Windows Media Player 行動裝置，同步處理裝置
+- Windows Media Player ActiveX 控制，同步處理裝置
+- ActiveX 控制，同步處理裝置
+- Windows Media Player行動 ActiveX 控制，同步處理裝置
+- Windows Media Player行動裝置，同步處理裝置
 - 正在同步處理裝置，關於
 - 裝置同步處理，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e89a074e4edb5bdbc7d90391398d5e0e4133505a
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 66383082bae772b48f913f6bd4615724de8f7b7735e387ba93407a9848f17074
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106966019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956918"
 ---
 # <a name="about-devices"></a>關於裝置
 
@@ -34,7 +34,7 @@ ms.locfileid: "106966019"
 **IWMPSyncDevice** 介面提供了其他方法，可讓您取得或設定裝置的相關資訊。 例如：
 
 -   **取得 \_ friendlyname** 和 **put \_ friendlyname** 方法可讓您取得並指定使用者定義的裝置名稱。
--   **Get \_ deviceName** 方法可讓您取得使用者在 Windows XP shell 中看到的裝置名稱。
+-   **get \_ deviceName** 方法可讓您取得使用者在 Windows XP shell 中看到的裝置名稱。
 -   **GetItemInfo** 方法可讓您從裝置取得中繼資料。
 
 ## <a name="related-topics"></a>相關主題
@@ -53,9 +53,9 @@ ms.locfileid: "106966019"
 [**使用可攜式裝置**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

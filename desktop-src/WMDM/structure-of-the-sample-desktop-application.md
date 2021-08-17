@@ -3,20 +3,20 @@ title: 範例桌面應用程式的結構
 description: 範例桌面應用程式的結構
 ms.assetid: e042470d-dc78-488c-bcad-2e8d34714d5d
 keywords:
-- Windows Media 裝置管理員，範例
+- Windows媒體裝置管理員、範例
 - 裝置管理員，範例
 - 桌面應用程式、範例
-- Windows Media 裝置管理員，桌面應用程式範例
+- WindowsMedia 裝置管理員，桌面應用程式範例
 - 裝置管理員，桌面應用程式範例
 - 範例，桌面應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34fb377c1bb6ebf943721b55ec6175e65f70ddde
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7dde8250a5efc8bc0f0b9582739bd8770d95ee586ea571a43bcbb9be69e8774
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957158"
 ---
 # <a name="structure-of-the-sample-desktop-application"></a>範例桌面應用程式的結構
 
@@ -35,16 +35,16 @@ ms.locfileid: "103673612"
 | CDevices             | 裝置 .cpp             | 此類別會處理主要應用程式視窗的左窗格，其中會列出可用的裝置。 此類別會管理訊息迴圈，這會處理使用者輸入，例如選取裝置，並在裝置選取專案變更時通知 CDevFiles 窗格載入適當的檔案。                                                                              |
 | CDevFiles            | Devfiles .cpp            | 此類別會處理主要應用程式視窗的右窗格，其中列出所選裝置上的檔案。 此類別會管理訊息迴圈，並處理使用者輸入，例如將檔案拖曳到裝置上，以及從裝置中刪除檔案。                                                                                                                          |
 | CStatus              | 狀態 .cpp              | 在主視窗中處理底部狀態列的類別，其中會列出裝置和檔案的數目，以及所選裝置上的可用和已使用記憶體數量。                                                                                                                                                                                                         |
-| CWMDM                | Wmdevmgr .cpp            | Windows Media 裝置管理員的最上層介面。 這個類別會處理驗證、抓取最上層的 **IWMDeviceManager** 介面，以及使用 **IWMDMNotification** 介面註冊通知。                                                                                                                                                                  |
+| CWMDM                | Wmdevmgr .cpp            | Windows 媒體裝置管理員的最上層介面。 這個類別會處理驗證、抓取最上層的 **IWMDeviceManager** 介面，以及使用 **IWMDMNotification** 介面註冊通知。                                                                                                                                                                  |
 | CProgress            | 進度 .cpp            | 主要應用程式專案中的類別，這個類別會建立和管理顯示事件進度的對話方塊。                                                                                                                                                                                                                                                                             |
 | CItemData            | ItemData .cpp            | 如果代表裝置上的檔案或資料夾，則為包裝函式 (類別（如果表示裝置上的檔案或資料夾）) 或裝置 (（如果代表裝置) ），以及物件的各種相關資訊（包括大小和屬性）。                                                                                                                                                                  |
 | CNotificationHandler | Notificationhandler .cpp | 藉由警示 CDevices 視窗來處理裝置抵達和移除通知。                                                                                                                                                                                                                                                                                                               |
-| CProgressHelper      | ProgressHelper .cpp      | 由 CDevFiles 在區域函式中建立，藉由執行 **IWMDMProgress** 來接收來自 Windows Media 裝置管理員的通知。 CProgress 類別會使用它來判斷進度列中的橫條數量，以及何時完成動作。 此類別定義為 COM 物件，此物件會公開 SDK 介面 **IWMDMProgress** 和自訂介面 IWMDMProgressHelper。 |
+| CProgressHelper      | ProgressHelper .cpp      | 由 CDevFiles 在區域函式中建立，以藉由執行 **IWMDMProgress** 來接收來自 Windows 媒體裝置管理員的通知。 CProgress 類別會使用它來判斷進度列中的橫條數量，以及何時完成動作。 此類別定義為 COM 物件，此物件會公開 SDK 介面 **IWMDMProgress** 和自訂介面 IWMDMProgressHelper。 |
 | COperationHelper     | Operationhelper .cpp     | 這個類別會實 **IWMDMOperation** 來處理手動傳輸檔案。 它是多執行緒的，可讓它以非同步方式發生，並定義為公開自訂介面 IWMDMOperationHelper 的 COM 物件，以具現化並初始化類別。 只有當使用者選取 [ **選項** ] 功能表中的 [使用作業介面] 時，才會使用這個類別。                            |
 
 
 
- 
+ 
 
 下列清單概述各種使用者動作所發生的基本步驟：
 
@@ -88,9 +88,9 @@ ms.locfileid: "103673612"
 [**桌面應用程式範例**](sample-desktop-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

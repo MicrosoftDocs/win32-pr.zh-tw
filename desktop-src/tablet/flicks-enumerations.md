@@ -4,12 +4,12 @@ ms.assetid: b3118d47-36c9-435f-9268-06de1a75375e
 title: 筆觸列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d46ef56c8be9ff0f4681409dfb51d431f5bbfdc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9440159cb871aae5360a12251dc18e9eb7d706fa741aef3c4ff1708af6a06b6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967540"
 ---
 # <a name="flicks-enumerations"></a>筆觸列舉
 

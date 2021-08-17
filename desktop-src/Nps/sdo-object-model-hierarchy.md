@@ -5,12 +5,12 @@ ms.assetid: 22159f61-2b35-4a0d-9b8b-8cb0a8192afb
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2484b4d7402f8a5b43a590651f36d4d1707bca2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3f63b5692571bab49580251d6ef879adde8ae9a57af4c541404aabc48538e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063334"
 ---
 # <a name="object-model-hierarchy"></a>物件模型階層
 
@@ -25,9 +25,9 @@ ms.locfileid: "104375876"
 物件提供其他物件之存取權的第二種方式，是將物件集合表示為包含該物件的物件屬性。 若要取出物件集合，請在代表集合之物件的屬性上呼叫 [**ISdo：： GetProperty**](/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty) 。 例如，若要取出原則集合，請在 NPS 物件所公開的 [**ISdo**](/windows/desktop/api/sdoias/nn-sdoias-isdo)介面上呼叫 **ISdo：： GetProperty** 。
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。
 
- 
+ 
 
 ![正在抓取原則集合](images/sdo02.png)
 
@@ -103,6 +103,6 @@ RADIUS 伺服器群組集合中的每個 [**radius 伺服器群組**](/windows/d
 [SDO 支援的屬性](/windows/desktop/Nps/sdo-sdo-supported-attributes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

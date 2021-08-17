@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d9a086aa4ba07125b437114fcf3b52ca705f1851
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec4c7d29b19e1c3e58561836e2ce9d5dfcf547e3b9a9082e2021ab5ce3cb2fa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118781239"
 ---
 # <a name="esentdatabasefilereadonlyexception-class"></a>EsentDatabaseFileReadOnlyException 類別
 

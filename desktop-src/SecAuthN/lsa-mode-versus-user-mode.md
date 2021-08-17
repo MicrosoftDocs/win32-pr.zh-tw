@@ -4,12 +4,12 @@ ms.assetid: ff4e61be-dbaa-4cfa-8c72-43e99fe1c3cb
 title: LSA 模式與使用者模式的比較
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd8fadde30fe60c38a2b8ccb1f158d94ec7d5603
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4aa965cd66f43548243c1e62329e6d9d337a2a0123344a8cb9f10915846a765f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118922077"
 ---
 # <a name="lsa-mode-vs-user-mode"></a>LSA 模式與使用者模式的比較
 

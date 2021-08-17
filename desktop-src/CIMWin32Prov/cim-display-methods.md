@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_Display 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad365a4664f2493776a186d190387c53a188229c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3ee33c9bf1e8620b7e95a84d8b79b68bb1aaab14fa35221683ec3cc651ebd8fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924128"
 ---
 # <a name="cim_display-methods"></a>CIM \_ 顯示方法
 

@@ -4,12 +4,12 @@ ms.assetid: c1aefd92-b47f-4af1-8299-9ba401ad5fe8
 title: 撰寫和分層
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7dce1e1df87b5ffc5c65e9090c6fb7266b972d3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8b173ed0727869d3630a2241d7237cf74fb5143a907a95fcc53901a7b85f285c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106967005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954227"
 ---
 # <a name="composition-and-layering"></a>撰寫和分層
 

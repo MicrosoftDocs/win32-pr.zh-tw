@@ -4,12 +4,12 @@ ms.assetid: 035a7072-d292-4883-bc3e-d1e9ed64d9ec
 title: 'IMR_CONFIRMRECONVERTSTRING 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c500a155be14f447bb07ad506e12d5bece66e225
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a0fd1c38c7552d09489c51b9acc897f679aa3a218e86bbba222225fcff57e90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948795"
 ---
 # <a name="imr_confirmreconvertstring-notification-code"></a>IMR \_ CONFIRMRECONVERTSTRING 通知碼
 
@@ -58,7 +58,7 @@ LRESULT IMR_CONFIRMRECONVERTSTRING
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: db7ee56e727bc4f4cf0407271add28bb34cdb28e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bde8efa30a0d6d093228168c3b14020882197e00dd35d237e64f93a2c7544da4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119106656"
 ---
 # <a name="windows7grbitsbackward-field"></a>Windows7Grbits 後欄位
 

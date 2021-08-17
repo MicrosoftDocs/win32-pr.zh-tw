@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eff05c2279f026e3a94b707b522509b4801ff27
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1354cb59920460d83ad63b0e30498332dcce03b24a3a17db842cf87edf18119d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961697"
 ---
 # <a name="display-name-printable-attribute"></a>顯示名稱-可列印屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "103845571"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x39FF                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -79,7 +79,7 @@ ms.locfileid: "103845571"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x39FF                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -100,7 +100,7 @@ ms.locfileid: "103845571"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x39FF                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -121,7 +121,7 @@ ms.locfileid: "103845571"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x39FF                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -142,7 +142,7 @@ ms.locfileid: "103845571"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x39FF                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
@@ -163,7 +163,7 @@ ms.locfileid: "103845571"
 | 連結識別碼                | \-                              |
 | MAPI-Id                | 0x39FF                          |
 | System-Only            | 否                           |
-| 是-單一值       | 對                            |
+| 是-單一值       | 是                            |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |

@@ -4,12 +4,12 @@ ms.assetid: c1816d68-48b2-4d3d-a8c8-4a243a4b3f3b
 title: 原生 Wifi 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce48b8f61f6558668c742e566eb53e3d32c8baa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b846a53626b2da6f492e20bee44a5b5909878c0c49becb530fa9701db18f19ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065038"
 ---
 # <a name="native-wifi-functions"></a>原生 Wifi 函數
 

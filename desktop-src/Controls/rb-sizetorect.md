@@ -3,7 +3,7 @@ title: 'RB_SIZETORECT 訊息 (Commctrl .h) '
 description: 嘗試找出指定矩形之區段的最佳版面配置。
 ms.assetid: c6242b54-bd65-489b-b417-9680cc39b64a
 keywords:
-- RB_SIZETORECT message Windows 控制項
+- RB_SIZETORECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3db5727ee8c94d2473b503c9a81b7669bb829a0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba63630fc64f56dff914b4fb576ecc6cef43d12d192606a5088924fd6a5832e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078545"
 ---
 # <a name="rb_sizetorect-message"></a>RB \_ SIZETORECT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104106253"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

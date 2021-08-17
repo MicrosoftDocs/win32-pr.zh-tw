@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1d61d69fb9f22a31f07ee2eb0b4116a13761d961
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 026432a6d5b2363df09640141ec9f190d6637258692ce8233b32c004a1dbde86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118765964"
 ---
 # <a name="jet_enumcolumnidrgtagsequence-property"></a>JET_ENUMCOLUMNID rgtagSequence 屬性
 

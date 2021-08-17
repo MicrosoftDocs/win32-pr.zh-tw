@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - Ntshrui.dll
-ms.openlocfilehash: e6270f72d1574a21b98ac9ee3151af1f34f08a72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9683d7faee4bd44bd8f21e14250503f351e1a134119f978f872d7a0fe3ad6c4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968257"
 ---
 # <a name="showsharefolderui-function"></a>ShowShareFolderUI 函式
 
@@ -75,8 +75,8 @@ HRESULT ShowShareFolderUI(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Ntshrui.dll</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **ShowShareFolderUIW** (Unicode) <br/>                                            |
 

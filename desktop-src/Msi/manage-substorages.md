@@ -4,12 +4,12 @@ ms.assetid: a0248dfb-e406-4ce6-ab11-1e428aa67af4
 title: 管理 Substorages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01876efdb85bdc89df1b4d64332d44674e5e860e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34f6d3a0716854755e595133771ede65b11212cdd0fd19b4502bab0c631a9d26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945593"
 ---
 # <a name="manage-substorages"></a>管理 Substorages
 
@@ -29,7 +29,7 @@ ms.locfileid: "104320567"
 -   [**至 convertfrom-stringdata 屬性**](record-stringdata.md)
 -   [](record-setstream.md) [ **Record 物件** 的 SetStream 方法](record-object.md)
 
-您將需要 CScript.exe 或 WScript.exe 版本的 Windows Script Host 才能使用此範例。 若要使用 CScript.exe 執行此範例，請使用下列語法在命令提示字元中輸入命令列。 如果第一個引數是/？，則會顯示說明 或者，如果指定的引數太少。 若要將輸出重新導向至檔案，請以 VBS > 路徑結束命令列 \[  \] 。 此範例會傳回值0表示成功，如果叫用說明，則傳回 1; 如果腳本失敗，則傳回2。
+您將需要 Windows 腳本主機的 CScript.exe 或 WScript.exe 版本，才能使用此範例。 若要使用 CScript.exe 執行此範例，請使用下列語法在命令提示字元中輸入命令列。 如果第一個引數是/？，則會顯示說明 或者，如果指定的引數太少。 若要將輸出重新導向至檔案，請以 VBS > 路徑結束命令列 \[  \] 。 此範例會傳回值0表示成功，如果叫用說明，則傳回 1; 如果腳本失敗，則傳回2。
 
 **cscript WiSubStg.vbs \[ 路徑指向檔案 \] \[ 選項的資料庫路徑 \] \[ \] \[ substorage 名稱\]**
 
@@ -39,7 +39,7 @@ ms.locfileid: "104320567"
 
 
 
-| 選項              | Description                                                                                         |
+| 選項              | 描述                                                                                         |
 |---------------------|-----------------------------------------------------------------------------------------------------|
 | 未指定任何選項 | 將 substorage 新增至 Windows Installer 資料庫。                                                 |
 | /d                  | 移除 substorage。 此選項旗標後面必須接著要移除的 substorage 名稱。 |
@@ -48,7 +48,7 @@ ms.locfileid: "104320567"
 
  
 
-如需其他腳本範例，請參閱 [Windows Installer 腳本範例](windows-installer-scripting-examples.md)。 如需不需要 Windows Script Host 的範例公用程式，請參閱 [Windows Installer 開發工具](windows-installer-development-tools.md)。
+如需其他腳本範例，請參閱[Windows Installer 腳本範例](windows-installer-scripting-examples.md)。 如需不需要 Windows 腳本主機的範例公用程式，請參閱[Windows Installer 開發工具](windows-installer-development-tools.md)。
 
 請注意， [當地語系化範例](a-localization-example.md) 示範如何將 [自訂轉換內嵌為 Substorage](embedding-customization-transforms-as-substorage.md)。
 

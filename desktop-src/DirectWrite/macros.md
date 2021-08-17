@@ -1,21 +1,21 @@
 ---
 title: DirectWrite 宏
-description: DirectWrite 會定義下列宏。
+description: DirectWrite 定義下列宏。
 ms.assetid: 4c95c345-c097-456a-860a-b49f510863aa
 keywords:
 - DirectWrite，宏
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4f1293939cff208f9687896502929ef8055272f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4bfe1b6e7d3301f5ad91e01c809e9d628f3c7aad6d868e246e5b831505bcef68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104372885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070628"
 ---
 # <a name="directwrite-macros"></a>DirectWrite 宏
 
-DirectWrite 會定義下列宏。
+DirectWrite 定義下列宏。
 
 ## <a name="in-this-section"></a>本節內容
 
