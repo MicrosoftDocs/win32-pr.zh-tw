@@ -8,12 +8,12 @@ keywords:
 - Active Directory 網域服務備份錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e9b38ba9f28e47fd95e69a923e953d59fdd4d37
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5038b1d3a7a1f24c2e3b8dbf137aa2722073650b878e1d6a1dfdec8cac399a94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104461972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118024135"
 ---
 # <a name="backup-errors-in-active-directory-domain-services"></a>Active Directory Domain Services 中的備份錯誤
 

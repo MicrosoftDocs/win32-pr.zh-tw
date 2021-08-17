@@ -4,12 +4,12 @@ ms.assetid: 28e0c84e-febd-454b-bd9c-b6446d2b001a
 title: 輸入方法管理員參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 812f3e3de7b08f0f0b40a30055be8005d8ec3536
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f10cf643a6a637be4640abac56b43ca8934563b84b7076305f0117556a0e6be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147561"
 ---
 # <a name="input-method-manager-reference"></a>輸入方法管理員參考
 

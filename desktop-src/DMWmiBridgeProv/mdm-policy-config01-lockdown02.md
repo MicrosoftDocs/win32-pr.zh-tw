@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cf9914573c1a3f693d88da8b35b2d577e1f21f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4794b085d5e2374756759055b6426ca3ca56c5562518e5a43715acd372d6c75c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527568"
 ---
 # <a name="mdm_policy_config01_lockdown02-class"></a>MDM \_ 原則 \_ Config01 \_ LockDown02 類別
 
@@ -105,7 +105,7 @@ class MDM_Policy_Config01_LockDown02
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                            |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl>       |

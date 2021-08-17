@@ -4,12 +4,12 @@ description: 判斷作業系統 (OS) 是否支援指定的通知類型。
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 78730167e7ec139733ee1e4011d2e5e59c32782b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0c5097f89583f0f6b04e0e8fb033446aae45743a8fb5a7fe9134f34bcc5e05fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118702"
 ---
 # <a name="idxcoreadapterfactoryisnotificationtypesupported-method"></a>IDXCoreAdapterFactory：： IsNotificationTypeSupported 方法
 
@@ -34,11 +34,11 @@ virtual bool STDMETHODCALLTYPE IsNotificationTypeSupported(
 
 類型： **bool**
 
- `true`   如果系統支援通知型別，則會傳回。 否則，會傳回  `false` 。
+`true`如果系統支援通知型別，則會傳回。 否則傳回 `false`。
 
 ## <a name="remarks"></a>備註
 
-您可以呼叫 **IsNotificationTypeSupported** ，判斷這個作業系統版本是否知道指定的通知類型。 例如，在特定版本的 Windows 中引進的通知類型，對於舊版 Windows 而言是未知的。
+您可以呼叫 **IsNotificationTypeSupported** ，判斷這個作業系統版本是否知道指定的通知類型。 例如，在特定版本的 Windows 中引進的通知類型，對於舊版的 Windows 而言是未知的。
 
 ## <a name="see-also"></a>另請參閱
 

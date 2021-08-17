@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 362a174e3da4dad864fd504e1678b4a3a1477e1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff1675637493ffb4aca910fa2030c9e205a953112e294e98231f99ad746f6ce9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117588"
 ---
 # <a name="apijetgotobookmark-method"></a>JetGotoBookmark 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 923055e5-a09a-402e-983b-6fa3cebb1b3a
 title: 'METransformDrainComplete 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed291f9edacb11ba6edf7f5bd50a0715ae61a281
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5ab03ac5027d1dc7549e7b7f0b8494cd8066b07afb64c5df17415a4986866e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974027"
 ---
 # <a name="metransformdraincomplete-event"></a>METransformDrainComplete 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "104320475"
 
 
 
-| VARTYPE              | Description               |
+| VARTYPE              | 描述               |
 |----------------------|---------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> |
 
@@ -51,8 +51,8 @@ ms.locfileid: "104320475"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                  |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                  |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

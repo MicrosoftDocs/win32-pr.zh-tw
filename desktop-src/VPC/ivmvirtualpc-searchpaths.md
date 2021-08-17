@@ -81,7 +81,7 @@ HRESULT get_SearchPaths(
 | 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
-| Product<br/>                  | Windows Virtual PC<br/>                                                                 |
+| 產品<br/>                  | Windows Virtual PC<br/>                                                                 |
 | 標頭<br/>                   | <dl> <dt>VPCCOMInterfaces。h</dt> </dl> |
 | IID<br/>                      | IID \_ IVMVirtualPC 定義為 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
 

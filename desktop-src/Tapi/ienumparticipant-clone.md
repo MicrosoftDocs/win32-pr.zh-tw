@@ -4,16 +4,16 @@ ms.assetid: 551e0ddc-7ebf-4fc2-a155-0c9ee2f406d4
 title: 'IEnumParticipant：： Clone 方法 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5b094f47738fd23f2762b7012a4e23c8b89da57
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eccd4bd29442daa01e632ae83510a87eebb06cb72beafc206b04d47c3dd761db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140491"
 ---
 # <a name="ienumparticipantclone-method"></a>IEnumParticipant：： Clone 方法
 
-\[在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用 **複製**。 RTC 用戶端 API 提供類似的功能。\]
+\[無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用 **Clone** 。 RTC 用戶端 API 提供類似的功能。\]
 
 **Clone** 方法會建立另一個列舉值，其中包含與目前相同的列舉狀態。 這種方法在 Visual Basic 和指令碼語言中是隱藏的。
 
@@ -45,7 +45,7 @@ HRESULT Clone(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PpEnum* 參數不是有效的指標。<br/>       |

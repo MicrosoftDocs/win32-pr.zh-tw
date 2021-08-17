@@ -4,12 +4,12 @@ ms.assetid: 3de6a35d-41e9-4fce-ab92-e970c7c07e55
 title: " (WinHTTP. h) 的 HTTP 狀態碼"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcf4103cdc382bd5ab0d582fe99212083e2780ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86f145a2a7b5f7e807d1b393d9c4fd9b4f71c81052f0f023a04f72e139842637
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744569"
 ---
 # <a name="http-status-codes-winhttph"></a> (WinHTTP. h) 的 HTTP 狀態碼
 
@@ -543,8 +543,8 @@ ms.locfileid: "104193454"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>      |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>   |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>      |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>   |
 | 標頭<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 

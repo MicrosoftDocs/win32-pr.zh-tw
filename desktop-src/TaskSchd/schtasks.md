@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9ba2c13053a8c550128f5d66623b5eed3a9dec
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 0da33bf63d999ddad42f58dfa15a1c36571a664855ac20e48ef43bfd7aecd55b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139381"
 ---
 # <a name="schtasksexe"></a>Schtasks.exe
 
@@ -150,7 +150,7 @@ schtasks /Create
 
 指定重複間隔（以分鐘為單位）的值。 這不適用於下列排程類型： MINUTE、每小時、ONSTART、整理、ONIDLE 和 ONEVENT。 有效範圍是 1-599940 分鐘。 如果指定了/ET 或/DU 參數，預設值為10分鐘。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -159,7 +159,7 @@ schtasks /Create
 
 值，指定執行工作的結束時間。 時間格式為 HH： mm (24 小時的時間) 。 例如，14:50 會指定2：50PM。 這不適用於下列排程類型： ONSTART、整理、ONIDLE 和 ONEVENT。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ schtasks /Create
 
 值，指定執行工作的持續時間。 時間格式為 HH： mm (24 小時的時間) 。 例如，14:50 會指定2：50PM。 這不適用於/ET 和下列排程類型： ONSTART、整理、ONIDLE 和 ONEVENT。 針對 (工作排程器1.0 工作的/V1 工作) ，如果指定/RI，則持續時間預設值為一小時。
 
-**WINDOWS XP：** 此選項無法使用。
+**Windows XP：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -177,7 +177,7 @@ schtasks /Create
 
 值，這個值會在結束時間或持續時間結束工作。 這不適用於下列排程類型： ONSTART、整理、ONIDLE 和 ONEVENT。 必須指定/ET 或/DU。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -200,7 +200,7 @@ schtasks /Create
 
 值，指定 ONEVENT 觸發程式的事件通道。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ schtasks /Create
 
 值，只有在工作執行時，如果/RU 使用者目前登入，才讓工作以互動方式執行。 只有在使用者登入時才會執行此工作。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -218,7 +218,7 @@ schtasks /Create
 
 指出未儲存任何密碼的值。 此工作不會以互動方式執行為指定的使用者。 只有本機資源可以使用。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -227,7 +227,7 @@ schtasks /Create
 
 值，這個值會標記要在其最終執行之後刪除的工作。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -236,16 +236,16 @@ schtasks /Create
 
 從 XML 檔案建立工作的值。 此參數可以與/RU 和/RP 參數結合，或在工作 XML 已包含主體時，單獨使用/RP 參數。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
 <span id="_V1_"></span><span id="_v1_"></span>**/V1** 
 </dt> <dd>
 
-此值會建立 Windows 2000、Windows Server 2003 和 Windows XP 平臺可以看見的工作。
+此值會建立 Windows 2000、Windows Server 2003 和 Windows XP 平臺上可見的工作。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -254,7 +254,7 @@ schtasks /Create
 
 強制建立工作的值，如果指定的工作已存在，則會隱藏警告。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -263,7 +263,7 @@ schtasks /Create
 
 值，這個值會設定工作的執行層級。 有效的值為受限和最高。 預設值為 [有限]。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -272,7 +272,7 @@ schtasks /Create
 
 值，指定在引發觸發程式之後，延遲工作的等候時間。 時間格式為 mmmm： ss。 此選項只適用于排程類型 ONSTART、整理和 ONEVENT。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -514,7 +514,7 @@ schtasks /Query
 
 值，指定要取得其資訊的工作名稱。 如果未指定工作名稱，則會顯示所有工作的資訊。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -523,7 +523,7 @@ schtasks /Query
 
 值，用來顯示 XML 格式的工作定義。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -604,7 +604,7 @@ schtasks /Change
 
 值，指定執行工作的開始時間。 時間格式為 HH： mm (24 小時的時間) 。 例如，14:30 會指定2：30PM。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -613,7 +613,7 @@ schtasks /Change
 
 值，指定重複間隔（以分鐘為單位）。 有效範圍是 1-599940 分鐘。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -622,7 +622,7 @@ schtasks /Change
 
 值，指定工作的結束時間。 時間格式為 HH： mm (24 小時的時間) 。 例如，14:50 會指定2：50PM。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -631,7 +631,7 @@ schtasks /Change
 
 值，指定執行工作的持續時間。 時間格式為 HH： mm (24 小時的時間) 。 例如，14:50 會指定2：50PM。 這不適用於/ET 參數。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -640,7 +640,7 @@ schtasks /Change
 
 值，這個值會在結束時間或持續時間結束工作。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -649,7 +649,7 @@ schtasks /Change
 
 值，指定要在其上執行工作的第一個日期。 格式為 mm/dd/yyyy。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -658,7 +658,7 @@ schtasks /Change
 
 值，指定工作將執行的最後日期。 格式為 mm/dd/yyyy。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -667,7 +667,7 @@ schtasks /Change
 
 值，只有在工作執行時，如果/RU 使用者目前登入，才讓工作以互動方式執行。 只有在使用者登入時才會執行此工作。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -676,7 +676,7 @@ schtasks /Change
 
 值，這個值會設定工作的執行層級。 有效的值為受限和最高。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -685,7 +685,7 @@ schtasks /Change
 
 啟用排程工作的值。 啟用的工作可以執行，而且無法執行已停用的工作。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -699,7 +699,7 @@ schtasks /Change
 
  
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -708,7 +708,7 @@ schtasks /Change
 
 值，這個值會標記要在其最終執行之後刪除的工作。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -717,7 +717,7 @@ schtasks /Change
 
 值，指定引發觸發程式之後，順延強制工作的等候時間。 時間格式為 mmmm： ss。 此選項僅適用于排程類型為 ONSTART、整理和 ONEVENT 的工作。
 
-**WINDOWS XP 和 Windows Server 2003：** 此選項無法使用。
+**Windows XP 和 Windows Server 2003：** 此選項無法使用。
 
 </dd> <dt>
 
@@ -734,8 +734,8 @@ schtasks /Change
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

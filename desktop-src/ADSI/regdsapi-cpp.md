@@ -1,5 +1,5 @@
 ---
-title: REGDSAPI.Cpp
+title: REGDSAPI.CPP
 description: 在範例提供者元件中，代表直接存取原生作業系統之 API 的函式位於 Regdsapi .cpp 中。
 ms.assetid: dc5ab286-5c70-43a3-90a1-f3f8a1c61c43
 ms.tgt_platform: multiple
@@ -12,7 +12,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/11/2021
 ms.locfileid: "119307658"
 ---
-# <a name="regdsapicpp"></a>REGDSAPI.Cpp
+# <a name="regdsapicpp"></a>REGDSAPI.CPP
 
 在範例提供者元件中，代表直接存取原生作業系統之 API 的函式位於 Regdsapi .cpp 中。 範例提供者元件會在登錄中執行其目錄服務。 若要撰寫可存取您自己目錄服務的提供者，請建立您自己的此 API 的實作為。 下表列出支援的功能。
 

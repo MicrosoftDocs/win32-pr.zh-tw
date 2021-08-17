@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ffb7be05301ae807505242153be902ab30eecf14
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1b2bcb98f5fd64da221f73bf2cee4222d8925797acd4c7e01914e8e068d6e381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123046"
 ---
 # <a name="d3dxloadsurfacefrommemory-function"></a>D3DXLoadSurfaceFromMemory 函式
 
@@ -130,7 +130,7 @@ Type： **Const [**RECT**](/previous-versions//dd162897(v=vs.85)) \***
 
 </dd> <dt>
 
-*>colorkey* \[在\]
+*>Colorkey* \[在\]
 </dt> <dd>
 
 類型： **[ **D3DCOLOR**](d3dcolor.md)**

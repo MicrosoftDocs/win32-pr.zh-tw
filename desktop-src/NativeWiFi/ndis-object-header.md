@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - ntddndis.h
-ms.openlocfilehash: fe28a87eeb1457bace0b72a386bcb07667b24a64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9f4a4ef2a833081cde0c3c7ca4d395e59743944291a95d7680c241191988b35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065048"
 ---
 # <a name="ndis_object_header-structure"></a>NDIS \_ 物件 \_ 標頭結構
 
@@ -41,7 +41,7 @@ typedef struct _NDIS_OBJECT_HEADER {
 
 <dl> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 指定結構所描述之 NDIS 物件的型別。
@@ -68,8 +68,8 @@ typedef struct _NDIS_OBJECT_HEADER {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                       |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                                                        |
 | 標頭<br/>                   | <dl> <dt>Ntddndis (包含 Windot11) </dt> </dl> |
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 96c159a2ed63684b4bad2cbc6fa789c2dbd76edf
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 54414d7af326c1a069585f9d5deaa3e728d421a65490c5b9f5322b98e06f531e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104462585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120132"
 ---
 # <a name="getrendertargetsamplecount"></a>GetRenderTargetSampleCount
 
@@ -62,9 +62,9 @@ ms.locfileid: "104462585"
 | 著色器模型                                                        | 支援 |
 |---------------------------------------------------------------------|-----------|
 | [著色器模型 4](dx-graphics-hlsl-sm4.md) 和更高的著色器模型 | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)           | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md)           | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)           | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)           | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md)           | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)           | 否        |
 
 
 

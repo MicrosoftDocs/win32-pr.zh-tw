@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b203ff580c5ff8871d023c7f349626acdd693f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a47ca9eadbdbaaba49311b212e83528ee391387e7aca1512a1ab0001a2bbae8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058336"
 ---
 # <a name="islsregisteredtoscp-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 IsLSRegisteredToSCP 方法 \_
 

@@ -4,12 +4,12 @@ description: 下列介面可以用來擴充識別為可延伸的 Microsoft Helpe
 ms.assetid: 55e58eb8-d04e-4398-a892-8c343a88adc1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fac7b53329f8d157382f1c68df34d1b0e663327
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b16ff5dde9246798392903f47370e663e26dd6be7f21252f8791bfee267018b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801948"
 ---
 # <a name="ndf-interfaces"></a>NDF 介面
 
@@ -18,7 +18,7 @@ ms.locfileid: "104020721"
 > [!Note]  
 > 這些介面及其相關聯的方法適用于執行自己的協力廠商協助程式類別的程式開發人員，以擴充 NDF 功能。
 
- 
+ 
 
 
 
@@ -31,11 +31,11 @@ ms.locfileid: "104020721"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

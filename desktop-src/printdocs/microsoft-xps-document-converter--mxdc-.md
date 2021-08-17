@@ -1,19 +1,19 @@
 ---
-description: 本節說明 Windows 應用程式如何與 Microsoft XPS 檔轉換器互動 (MXDC) ，此元件可讓應用程式搭配具有 XPSDrv 列印驅動程式的印表機使用 GDI 列印 API。
+description: 本節說明 Windows 應用程式如何與 Microsoft XPS 檔轉換器 (MXDC) 互動，此元件可讓應用程式搭配使用 GDI 列印 API 與具有 XPSDrv 列印驅動程式的印表機。
 ms.assetid: e947e4c4-eda1-407c-9ba8-048beef1974b
 title: 'Microsoft XPS 檔轉換器 (MXDC) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a66a19d251c47736f43f3e2080150e9ef7d95580
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8fb076aecb367bd0e12856b0c313aa0dc96b94743ab98919a38e1d5d8fef706
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971227"
 ---
 # <a name="microsoft-xps-document-converter-mxdc"></a>Microsoft XPS 檔轉換器 (MXDC) 
 
-本節說明 Windows 應用程式如何與 Microsoft XPS 檔轉換器互動 (MXDC) ，此元件可讓應用程式搭配具有 XPSDrv 列印驅動程式的印表機使用 GDI 列印 API。
+本節說明 Windows 應用程式如何與 Microsoft XPS 檔轉換器 (MXDC) 互動，此元件可讓應用程式搭配使用 GDI 列印 API 與具有 XPSDrv 列印驅動程式的印表機。
 
 本節提供下列主題的相關資訊。
 

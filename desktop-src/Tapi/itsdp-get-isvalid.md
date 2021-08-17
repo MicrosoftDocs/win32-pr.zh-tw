@@ -4,16 +4,16 @@ ms.assetid: a3f849ac-bda9-4937-bf3b-bce8df20cbf0
 title: 'ITSdp：： get_IsValid 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88ca3cfdc1061e0a2830010ec39b2e6667c9341c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1674b51c605354a021948a63a0e993578a3d0114e625acec2cb9e24238423c56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140291"
 ---
 # <a name="itsdpget_isvalid-method"></a>ITSdp：： get \_ IsValid 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **取得 \_ IsValid** 方法會驗證會話描述項通訊協定 (SDP; 請參閱 RFC 2327) blob 中的結構和域值。
 
@@ -45,7 +45,7 @@ HRESULT get_IsValid(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *PfIsValid* 參數無效。<br/>              |

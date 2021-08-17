@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 12e0d9764d0c0ae1a99c106e285e08e35634e8db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b973747cafa588801a57f682b3f405da7dbf9720814dce1e9a1d4bfbf2fef12e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116558"
 ---
 # <a name="esentcommittedlogfilesmissingexception-constructor"></a>EsentCommittedLogFilesMissingException 函式
 

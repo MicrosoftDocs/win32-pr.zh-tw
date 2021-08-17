@@ -4,12 +4,12 @@ ms.assetid: b3b00f10-8f94-4c30-8267-db0c449e4d15
 title: PROV_DSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac10f57c4352d82bb264938ab3f4a27a9fed16e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ab3bf5d5751433fd9fc45dbcc6a40697398a9cd5e97afbc855ef1f210c2df6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117976392"
 ---
 # <a name="prov_dss"></a>>PROV \_ DSS
 
@@ -24,7 +24,7 @@ ms.locfileid: "106971505"
 | 目的      | 支援的演算法                                                                                                              |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | 金鑰交換 | 無                                                                                                                              |
-| 簽名    | [*Dss*](../secgloss/d-gly.md)                                                                       |
+| 簽名    | [*DSS*](../secgloss/d-gly.md)                                                                       |
 | 加密   | 無                                                                                                                              |
 | 雜湊      | [*MD5*](../secgloss/m-gly.md)[*SHA*](../secgloss/s-gly.md)<br/> |
 

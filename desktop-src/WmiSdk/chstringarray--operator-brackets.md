@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'CHStringArray：： operator [] (ChStrArr .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e92b30768b9d013bfca672548a7c58b0eeffb455
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 859cfe52535aea0fb43d6195648215431f80cff86f0525b9ef7c5247b6a831a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131770"
 ---
 # <a name="chstringarrayoperator--"></a>CHStringArray：： operator \[\]
 

@@ -4,12 +4,12 @@ ms.assetid: a5d8eaaa-4585-44a3-ab92-2a323d9af80c
 title: 從 INF 檔案指定安全描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a065a41db49385c7c95e683fd4aca4cfe7eb9cd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52267f443bf20fe8a9b71a64e2422ac43688d7a54bca2692f1b61ad891fda8cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117964834"
 ---
 # <a name="specifying-a-security-descriptor-from-an-inf-file"></a>從 INF 檔案指定安全描述項
 

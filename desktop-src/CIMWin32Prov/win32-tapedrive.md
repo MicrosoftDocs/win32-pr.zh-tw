@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ DISABLE-TAPEDRIVE WMI 類別代表電腦系統上執行 Windows 的磁帶機。 磁帶磁片磁碟機主要是以可依序存取的方式來區分。
+description: Win32 \_ DISABLE-TAPEDRIVE WMI 類別代表執行 Windows 之電腦系統上的磁帶機。 磁帶磁片磁碟機主要是以可依序存取的方式來區分。
 ms.assetid: ceefec7b-a904-4b2f-a6b6-b84917a33023
 ms.tgt_platform: multiple
 title: Win32_TapeDrive 類別
@@ -56,16 +56,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6c7e7d3b754a0399acb152dba043da269f67a06f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 515651c4e9d82bc88053187ae8ed3517662fb53a81080e54cd54097b7243a225
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020096"
 ---
 # <a name="win32_tapedrive-class"></a>Win32 \_ disable-tapedrive 類別
 
-**Win32 \_ disable-tapedrive** [WMI 類別](../wmisdk/retrieving-a-class.md)代表電腦系統上執行 Windows 的磁帶機。 磁帶磁片磁碟機主要是以可依序存取的方式來區分。
+**Win32 \_ disable-tapedrive** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 之電腦系統上的磁帶機。 磁帶磁片磁碟機主要是以可依序存取的方式來區分。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 
@@ -358,7 +358,7 @@ class Win32_TapeDrive : CIM_TapeDrive
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**ArrayType**](../wmisdk/standard-qualifiers.md) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](../wmisdk/standard-qualifiers.md) (」 MIF。DMTF \| 儲存裝置 \| 001.9 "，" MIF。DMTF \| 儲存裝置 \| 001.11 "，" MIF。DMTF \| 儲存裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](../wmisdk/standard-qualifiers.md) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
+限定詞： [**ArrayType**](../wmisdk/standard-qualifiers.md) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](../wmisdk/standard-qualifiers.md) (」 MIF。DMTF \| 儲存體裝置 \| 001.9 "，" MIF。DMTF \| 儲存體裝置 \| 001.11 "，" MIF。DMTF \| 儲存體裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](../wmisdk/standard-qualifiers.md) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
 </dt> </dl>
 
 媒體存取裝置的功能陣列。 例如，裝置可能支援隨機存取、卸載式媒體和自動清除。 在此情況下，會將3、7和9值寫入陣列中。
@@ -1185,7 +1185,7 @@ Windows 仍在設定裝置。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| File 函數" ) 
 </dt> </dl>
 
-製造商的識別碼： Windows CD 光碟機的名稱。
+製造商的身分識別 Windows CD 光碟機的名稱。
 
 範例： "PLEXTOR CD-ROM PX-12CS 1.01"
 
@@ -1236,7 +1236,7 @@ Windows 仍在設定裝置。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry" ) 
 </dt> </dl>
 
-Windows CD-ROM 光碟機的製造商。
+Windows cd-rom 光碟機的製造商。
 
 範例： "PLEXTOR"
 
@@ -1411,7 +1411,7 @@ Windows CD-ROM 光碟機的製造商。
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 

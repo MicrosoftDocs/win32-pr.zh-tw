@@ -4,12 +4,12 @@ ms.assetid: c9aff246-fe11-4d82-b944-b10c3d9ae170
 title: 存取控制清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3a788f02f8a04711be7db8268833375b2519d0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7021767830dead84f2ea965c46ca205257a2f18443f352ec85becc0139e30e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785658"
 ---
 # <a name="access-control-lists"></a>存取控制清單
 

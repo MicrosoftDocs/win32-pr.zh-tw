@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b043a9050d03ca562159aa5be0c113084ac152fb
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 2f79c4f4bb80855cf84d576c126e30dc5301c45ca6f1a7c34c5d54e57844abfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104373455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135021"
 ---
 # <a name="metadatatext-object"></a>MetadataText 物件
 
@@ -35,7 +35,7 @@ ms.locfileid: "104373455"
 
 
 
- 
+ 
 
 **MetadataText** 物件是透過下列方法來存取。
 
@@ -47,7 +47,7 @@ ms.locfileid: "104373455"
 
 
 
- 
+ 
 
 例如， *播放* 程式的用途。*currentMedia*。**getItemInfoByType** (*name*、 *language*、 *index*) 用於參考語法區段中。
 
@@ -58,9 +58,9 @@ ms.locfileid: "104373455"
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

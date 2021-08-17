@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28d82e2f0667d542c8fa4c9255fde765e4cea81d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dd30aeb1e71d88b649478d0ecd1c3052dbbe32372909882f73ae77db6e4dbc1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066608"
 ---
 # <a name="ddccigetcapabilitiesstringlength-function"></a>DDCCIGetCapabilitiesStringLength 函式
 
@@ -76,8 +76,8 @@ NTSTATUS WINAPI DDCCIGetCapabilitiesStringLength(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Gdi32.dll</dt> </dl> |
 
 

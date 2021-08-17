@@ -4,12 +4,12 @@ ms.assetid: 777e0106-0314-4ec8-b064-88ceb694614b
 title: PGM 寄件者和接收者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e300a0c9de199e1f836e71407caf6487812cf7b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 559ac30ace4374b48c86efeb579e1426cc455b00adb803e97244a37d8df7fda5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741065"
 ---
 # <a name="pgm-senders-and-receivers"></a>PGM 寄件者和接收者
 
@@ -144,7 +144,7 @@ PGM 會話有兩種資料模式選項：訊息模式和資料流程模式。
 
 訊息模式適用于需要傳送離散訊息的應用程式，而且是由 SOCK RDM 的通訊端類型所指定 \_ 。 資料流程模式適用于需要將串流資料傳送給接收者的應用程式，例如影片或語音應用程式，且是由 SOCK 資料流程的通訊端類型所指定 \_ 。 此模式的選擇會影響 Winsock 處理資料的方式。
 
-請考慮下列範例：訊息模式的 PGM 傳送者會對 [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend) 函式進行三次呼叫，每個呼叫都有100位元組的緩衝區。 這項作業會以三個離散的 PGM 封包的形式出現在網路上。 在接收者端， [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv) 函式的每個呼叫只會傳回100個位元組，即使有提供較大的接收緩衝區也是如此。 相反地，使用串流模式的 PGM 傳送者，這些 3 100 位元組傳輸可能會結合到網路上的三個實體封包中 (或合併至接收器端) 上的一個資料 blob。 如此一來，當接收者呼叫其中一個 Windows 通訊端接收函式時，由 PGM 傳輸接收的任何數量的資料都可能會傳回給應用程式，而不需考慮實際傳輸或接收資料的方式。
+請考慮下列範例：訊息模式的 PGM 傳送者會對 [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend) 函式進行三次呼叫，每個呼叫都有100位元組的緩衝區。 這項作業會以三個離散的 PGM 封包的形式出現在網路上。 在接收者端， [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv) 函式的每個呼叫只會傳回100個位元組，即使有提供較大的接收緩衝區也是如此。 相反地，使用串流模式的 PGM 傳送者，這些 3 100 位元組傳輸可能會結合到網路上的三個實體封包中 (或合併至接收器端) 上的一個資料 blob。 因此，當接收者呼叫其中一個 Windows 通訊端接收函式時，由 PGM 傳輸接收的任何資料量可能會傳回給應用程式，而不需考慮實際傳輸或接收資料的方式。
 
  
 

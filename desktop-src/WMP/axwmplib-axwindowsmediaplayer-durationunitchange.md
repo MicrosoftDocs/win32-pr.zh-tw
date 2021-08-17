@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f90aa052c61893d83683d10f482cd05841a49fab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1efa872389ad88a236808de64ed299dd3afc123cee59f39f1215f7a16bcb589f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136041"
 ---
 # <a name="durationunitchange-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 DurationUnitChange 事件
 

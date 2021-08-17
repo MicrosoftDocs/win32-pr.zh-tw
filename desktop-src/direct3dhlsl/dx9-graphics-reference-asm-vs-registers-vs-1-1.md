@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e6776fef206f9ced0608e86cbf596585399d4a12
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4bcfadae2b1dca70298ffed188de2e6075892563b27bf6f624f2139e441600cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117908002"
 ---
 # <a name="registers---vs_1_1"></a>註冊-vs \_ 1 \_ 1
 
@@ -24,16 +24,16 @@ ms.locfileid: "103840463"
 
 
 
-| 註冊 | 名稱                                                                                  | Count      | R/W | \# 讀取埠 | \# 讀取/inst | 維度  | RelAddr | Defaults     | 需要 DCL |
+| 註冊 | 名稱                                                                                  | 計數      | R/W | \# 讀取埠 | \# 讀取/inst | 尺寸  | RelAddr | Defaults     | 需要 DCL |
 |----------|---------------------------------------------------------------------------------------|------------|-----|---------------|-----------------|------------|---------|--------------|--------------|
-| a0       | [位址註冊](dx9-graphics-reference-asm-vs-registers-address.md)               | 1          | R/W | 1             | 無限制       | 請參閱附注3 | 否      | None         | No           |
+| a0       | [位址註冊](dx9-graphics-reference-asm-vs-registers-address.md)               | 1          | R/W | 1             | 無限制       | 請參閱附注3 | 否      | 無         | No           |
 | c\#      | [常數 Float Register](dx9-graphics-reference-asm-vs-registers-constant-float.md) | 請參閱附註 2 | R   | 1             | 無限制       | 4          | a0. x    |  (0、0、0、0)  | No           |
 | V\#      | [輸入暫存器](dx9-graphics-reference-asm-vs-registers-input.md)                   | 16         | R   | 1             | 無限制       | 4          | 否      | 請參閱附注1   | Yes          |
-| R\#      | [暫時註冊](dx9-graphics-reference-asm-vs-registers-temporary.md)           | 12         | R/W | 3             | 無限制       | 4          | 否      | None         | No           |
+| R\#      | [暫時註冊](dx9-graphics-reference-asm-vs-registers-temporary.md)           | 12         | R/W | 3             | 無限制       | 4          | 否      | 無         | No           |
 
 
 
- 
+ 
 
 注意：
 
@@ -45,17 +45,17 @@ ms.locfileid: "103840463"
 
 
 
-| 註冊 | 名稱                        | Count | R/W | 維度 | RelAddr | Defaults | 需要 DCL |
+| 註冊 | 名稱                        | 計數 | R/W | 尺寸 | RelAddr | Defaults | 需要 DCL |
 |----------|-----------------------------|-------|-----|-----------|---------|----------|--------------|
-| oPos     | 位置註冊           | 1     | W   | 4         | 否      | None     | No           |
-| oFog     | 霧化暫存器                | 1     | W   | 1         | 否      | None     | No           |
-| 選擇     | 點大小暫存器         | 1     | W   | 1         | 否      | None     | No           |
-| Od\#     | 色彩註冊;請參閱附注1  | 2     | W   | 4         | 否      | None     | No           |
-| oT\#     | 材質座標註冊 | 8     | W   | 4         | 否      | None     | No           |
+| oPos     | 位置註冊           | 1     | W   | 4         | 否      | 無     | No           |
+| oFog     | 霧化暫存器                | 1     | W   | 1         | 否      | 無     | No           |
+| 選擇     | 點大小暫存器         | 1     | W   | 1         | 否      | 無     | No           |
+| Od\#     | 色彩註冊;請參閱附注1  | 2     | W   | 4         | 否      | 無     | No           |
+| oT\#     | 材質座標註冊 | 8     | W   | 4         | 否      | 無     | No           |
 
 
 
- 
+ 
 
 注意：
 
@@ -68,9 +68,9 @@ ms.locfileid: "103840463"
 [頂點著色器暫存器](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

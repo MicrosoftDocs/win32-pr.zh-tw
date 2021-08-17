@@ -3,7 +3,7 @@ title: 'XTYP_WILDCONNECT 交易 (Ddeml .h) '
 description: 讓用戶端能夠在每個伺服器的服務名稱和主題名稱組上，建立符合指定服務名稱和主題名稱的交談。
 ms.assetid: 4651e14f-ca13-412e-853d-326a13db78e4
 keywords:
-- XTYP_WILDCONNECT 交易資料交換
+- XTYP_WILDCONNECT 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc63d6c367aebc440418beaabb0a06f05b0df967
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5b2b170a8d2362dec6311f935a5bc0bb92fa16a9b04270afc59d8fe5ad5c19f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914728"
 ---
 # <a name="xtyp_wildconnect-transaction"></a>XTYP \_ WILDCONNECT 交易
 
@@ -114,7 +114,7 @@ ms.locfileid: "106966310"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

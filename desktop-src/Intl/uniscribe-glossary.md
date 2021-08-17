@@ -4,12 +4,12 @@ ms.assetid: 48c766e5-a69d-47d2-a885-f24b80e910d8
 title: Uniscribe 詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e154e65c103ce6e4287ac8aa2e76e0be4206f9fd
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 808ff2e9620810fe2ec344a037437e6ce8d62bff9460a53cf7b777cedc9d46b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104316723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146965"
 ---
 # <a name="uniscribe-glossary"></a>Uniscribe 詞彙
 
@@ -53,7 +53,7 @@ ABC 寬度是由 GDI [**ABC**](/windows/win32/api/wingdi/ns-wingdi-abc) 結構�
 
 ## <a name="cluster"></a>叢集
 
-群集是可塑造的最小語言單位。 在阿拉伯文和許多印度文等語言中，用來代表每個字元的字元 (Unicode 程式碼點) 會依賴于構成叢集的周圍程式碼點。 在這些語言中，應用程式只能藉由查看叢集，將程式碼點轉譯為適當的字元。 在某些腳本中，例如梵文，在叢集中的字元順序可能會與相對應的 Unicode 程式碼點順序不同。 如需詳細資訊，請參閱 Microsoft 印刷樣式網站上的 [Windows 影像處理](/typography/develop/processing-part1) 。
+群集是可塑造的最小語言單位。 在阿拉伯文和許多印度文等語言中，用來代表每個字元的字元 (Unicode 程式碼點) 會依賴于構成叢集的周圍程式碼點。 在這些語言中，應用程式只能藉由查看叢集，將程式碼點轉譯為適當的字元。 在某些腳本中，例如梵文，在叢集中的字元順序可能會與相對應的 Unicode 程式碼點順序不同。 如需詳細資訊，請參閱 Microsoft 印刷樣式網站上的[Windows 影像處理](/typography/develop/processing-part1)。
 
 ## <a name="complex-script"></a>複雜字集
 
@@ -64,14 +64,14 @@ ABC 寬度是由 GDI [**ABC**](/windows/win32/api/wingdi/ns-wingdi-abc) 結構�
 -   有組合字元。
 -   具有特製化的斷詞和理由規則。
 -   篩選出不合法的字元組合。
--   不支援核心 Windows 字型，因此可能需要 [字型](#font-fallback)回復。
+-   不支援核心 Windows 字型，因此可能需要[字型](#font-fallback)回復。
 
 在某些複雜的腳本中，圖像的順序可能與它們所代表之基礎 Unicode 字元的順序相當不同。 如需詳細資訊，請參閱 [關於複雜字集](about-complex-scripts.md) 。
 
 > [!Note]  
 > 在印刷環境中，有時需要處理用來撰寫英文做為複雜字集的拉丁腳本。 範例包括 [**OPENTYPE \_ 功能 \_ 記錄**](/windows/desktop/api/Usp10/ns-usp10-opentype_feature_record)檔中所述的樣式替代功能，或連字號（例如 "fi"），其中單一字元代表兩個或多個連續字元。
 
- 
+ 
 
 ## <a name="embedding-level"></a>內嵌層級
 
@@ -146,6 +146,6 @@ Underhang 是字元左邊或右邊的泛空白字元寬度（空白部分）。 
 [關於 Uniscribe](about-uniscribe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: 在 DLL 中建立 File-Handler 實例
 ms.assetid: 0cf7ef72-c675-4a67-97b3-18cccfb7ddc1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c95a462d9c2f56abb5985904c4acc1fb12d10877
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0023de28f660473a1747ff05528ec5360674754b5c0bcd34f5ae3a28cc39412f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144751"
 ---
 # <a name="creating-a-file-handler-instance-in-a-dll"></a>在 DLL 中建立 File-Handler 實例
 
@@ -50,6 +50,6 @@ HRESULT CAVIFileCF::Create(const CLSID FAR&   rclsid,
 
 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: dd3ab119-328b-4782-811a-f06909c17dec
 title: Alpha Setter 效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 372ec018a9cfb8fe15307ae44f5a905bf1eb3440
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e599b314dced175188d77dad1ae93259a23b8eb892471d047afab218add9a664
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586758"
 ---
 # <a name="alpha-setter-effect"></a>Alpha Setter 效果
 

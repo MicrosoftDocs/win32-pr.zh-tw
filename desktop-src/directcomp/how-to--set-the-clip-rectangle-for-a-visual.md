@@ -4,17 +4,17 @@ description: 本主題將示範如何使用矩形剪輯物件來裁剪視覺效�
 ms.assetid: 377EF49A-F9F2-4A72-9D22-DEC33803AD0D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d26019f37949b0111ee9b5958fa3fba2c9507cb
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 10386f3e99dead7fff04a57463c2ee753bd1d712e9a59e6b928136c32f25ae75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104024306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119094"
 ---
 # <a name="how-to-clip-with-a-rectangle-clip-object"></a>如何使用矩形剪輯物件裁剪
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題將示範如何使用矩形剪輯物件來裁剪視覺效果或視覺化樹狀結構。
 
@@ -150,6 +150,6 @@ ms.locfileid: "104024306"
 [裁剪](clipping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

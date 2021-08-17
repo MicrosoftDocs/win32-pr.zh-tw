@@ -4,12 +4,12 @@ ms.assetid: 8b2de5f5-ea95-441f-9345-b64de53ea05f
 title: 呼叫元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03e4742b19ea47e03fac5f7d0318248ea167182e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae6f785c9d68aa0dbf4bec24927d9f2a1443aed1fb7fe65ec9244616fce8feec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142421"
 ---
 # <a name="calling-into-assemblies"></a>呼叫元件
 

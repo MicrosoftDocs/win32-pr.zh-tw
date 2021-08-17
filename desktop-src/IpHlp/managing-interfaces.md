@@ -4,12 +4,12 @@ ms.assetid: 598bbe67-30df-4c02-8f30-2ccf15b5c494
 title: 管理介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 024d79d46ec1ba7606cbc7e79b4312432984239a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bb46ecba6f1c5780960f6d8e363db9ec04d0cc3611da1caf023ec95bf5a99a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146691"
 ---
 # <a name="managing-interfaces"></a>管理介面
 

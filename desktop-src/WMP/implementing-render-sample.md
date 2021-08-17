@@ -13,12 +13,12 @@ keywords:
 - 轉譯函數，發光範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dabc816283113a82c1d5d677dfc0ca8e8887d344
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8c00b57f15655468e5bd0000ccc3b5120e19c2af58d5a1ad6b5493b535c7253f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135571"
 ---
 # <a name="implementing-render-sample"></a>執行轉譯範例
 

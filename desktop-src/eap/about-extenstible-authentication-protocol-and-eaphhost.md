@@ -4,12 +4,12 @@ description: 深入瞭解可延伸的驗證通訊協定 (EAP) 和 EAPHost。 查
 ms.assetid: 2669c858-c4cc-4319-a29c-93fe2fe67f41
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29f6e087a96adff43e5c8300ae68e7c0980d4fa4
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 9323109f850d4782a5aed644f5a3fdfece42ac2ea122de4399ca584dd15299c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117818"
 ---
 # <a name="about-eap-and-eaphost"></a>關於 EAP 和 EAPHost
 
@@ -19,11 +19,11 @@ ms.locfileid: "104024078"
 
 ## <a name="about-extensible-authentication-protocol"></a>關於可延伸的驗證通訊協定
 
-EAP 是一種 Microsoft Windows 網路元件，可提供 (EAP) 基礎結構的可延伸驗證通訊協定。 如需詳細資訊，請參閱 [關於 EAP](about-extensible-authentication-protocol.md)。
+eap 是一種 Microsoft Windows 網路元件，可提供 (EAP) 基礎結構的可延伸驗證通訊協定。 如需詳細資訊，請參閱 [關於 EAP](about-extensible-authentication-protocol.md)。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: c8656469-a273-4838-aa1a-86140b0cd0a2
 title: 執行緒集區 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e9c267123b24c08d5931e5743a18e94d70d5a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38e2c9446c6a0432d0fc71e4d888448e73aca3e3282ed03e332f2347390cc72f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792966"
 ---
 # <a name="thread-pool-api"></a>執行緒集區 API
 

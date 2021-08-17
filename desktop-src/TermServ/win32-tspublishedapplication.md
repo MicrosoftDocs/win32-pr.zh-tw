@@ -1,6 +1,6 @@
 ---
 title: Win32_TSPublishedApplication 類別
-description: 定義可用來透過 Windows Server 2008 R2 RemoteApp 進行遠端使用的應用程式。
+description: 定義可透過 Windows Server 2008 R2 RemoteApp 供遠端使用的應用程式。
 ms.assetid: 5b9cb36b-3d8d-4105-acea-c79440d977fe
 ms.tgt_platform: multiple
 keywords:
@@ -33,16 +33,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3825087d05b622818c74f011f30b325ed8ff7f60
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9f3330a2fb20238c34f6eecb0d78cd7d126a8895a5260abb338ab445713f988e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137661"
 ---
 # <a name="win32_tspublishedapplication-class"></a>Win32 \_ TSPublishedApplication 類別
 
-定義可用來透過 Windows Server 2008 R2 RemoteApp 進行遠端使用的應用程式。
+定義可透過 Windows Server 2008 R2 RemoteApp 供遠端使用的應用程式。
 
 ## <a name="syntax"></a>語法
 
@@ -409,7 +409,7 @@ class Win32_TSPublishedApplication : CIM_LogicalElement
 
 您必須是 Administrators 群組的成員，才能使用這個類別來設定屬性。
 
-若要連接到 \\ 根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級，可以使用 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) COM 函式來設定。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic Scripting Edition (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
+若要連接到 \\ 根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級，可以使用 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) COM 函式來設定。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic 腳本撰寫版 (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
 
 
 ```VB

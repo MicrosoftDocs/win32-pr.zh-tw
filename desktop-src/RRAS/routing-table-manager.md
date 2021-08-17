@@ -4,12 +4,12 @@ description: 路由表管理員是路由資訊的中央存放庫，適用于在 
 ms.assetid: 7b01704e-c1fb-40e3-89cf-1206fdf9fd75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98094eb34c8575e0c24854813fc7458c98749568
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 850726cd2203eca85be33aea3bd33f1ed903ba2d197d102ff7de294c5e852626
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787466"
 ---
 # <a name="routing-table-manager"></a>路由表管理員
 
@@ -21,9 +21,9 @@ ms.locfileid: "106966177"
 
 每個用戶端都會使用路由表管理員進行註冊，而傳回的會接收用戶端用來新增或刪除路由的控制碼。 用戶端可以取出儲存在路由表中的資訊。 此外，用戶端可以向路由表管理員註冊，以接收目的地最佳路由變更的通知。
 
- 
+ 
 
- 
+ 
 
 
 

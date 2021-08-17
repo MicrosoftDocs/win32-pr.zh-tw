@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ead33c21bb78035dd9fda443a53de575ffa64d9e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55bfa06f7f0ebda1d572a4e637076de25c7a21ef4d273cdc2527ab6481393404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952096"
 ---
 # <a name="miscellaneous-text-store-constants"></a>其他文字存放區常數
 
@@ -30,7 +30,7 @@ ms.locfileid: "104105401"
 
 
 
-| 常數/值                                                                                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 常數/值                                                                                                                                                                                                                                           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="TS_DEFAULT_SELECTION"></span><span id="ts_default_selection"></span><dl> <dt>**TS \_預設 \_ 選項**</dt> <dt> ( ( ULONG ) -1 )</dt> </dl> | 如果 [ITfCoNtext：： GetSelection](/windows/desktop/api/Msctf/nf-msctf-itfcontext-getselection)的 *ulIndex* 參數設定為此值，則會取得預設的選取專案。<br/>                                                                                                                                                                                                                                                                      |
 | <span id="TS_GEA_HIDDEN"></span><span id="ts_gea_hidden"></span><dl> <dt>**TS \_GEA \_ HIDDEN**</dt> <dt> ( 0x1 )</dt> </dl>                              | 如果 [ITextStoreAnchor：： GetEmbedded](/windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getembedded)的 *dwFlags* 參數設定為此值，則内嵌物件可以位於隱藏文字內。<br/>                                                                                                                                                                                                                                             |
@@ -51,7 +51,7 @@ ms.locfileid: "104105401"
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                    |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                         |
 | 標頭<br/>                   | <dl> <dt>Textstor。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Textstor .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Textstor .idl</dt> </dl> |
 
 
 

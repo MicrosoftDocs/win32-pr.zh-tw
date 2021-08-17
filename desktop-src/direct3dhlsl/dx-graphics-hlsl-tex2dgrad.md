@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74b20f1cf1f6f5d3b2873f4546dd57ef73b23dbb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 358690291cbb8cffbf6d60ef034b42d075902b923a3899824845e42bad999a21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104973932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119912"
 ---
 # <a name="tex2dgrad"></a>tex2Dgrad
 
@@ -56,7 +56,7 @@ ms.locfileid: "104973932"
 
 
 
-| Name | 輸入/輸出 | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小 |
+| 名稱 | 輸入/輸出 | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小 |
 |------|--------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
 | s    | in     | [**物件**](dx-graphics-hlsl-intrinsic-functions.md) | [sampler2D](dx-graphics-hlsl-sampler.md)                      | 1    |
 | t    | in     | [**向量**](dx-graphics-hlsl-intrinsic-functions.md) | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | 2    |
@@ -79,7 +79,7 @@ ms.locfileid: "104973932"
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是 (只) 圖元著色器  |
 | [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 是 (只) 圖元著色器 |
 | [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 是 (只) 圖元著色器 |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以                       |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否                       |
 
 
 

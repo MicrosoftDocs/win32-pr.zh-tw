@@ -7,16 +7,16 @@ keywords:
 - 函數 SNMP，SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9f4cc98ce84fbb66f8beb59a6bf995dc4315159
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 42028e4045d4d0dfeb183dc29a3dc85e7220ed3d5bccf39a3cc9871215188153
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143011"
 ---
 # <a name="snmp-functions"></a>SNMP 函數
 
-\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 MICROSOFT 對 ws-atomictransaction 的實。\]
+\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用[Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 Microsoft 對 ws-atomictransaction 的實。\]
 
 本主題說明三組 SNMP 功能，並列出每個群組中包含的函式：
 
@@ -28,7 +28,7 @@ ms.locfileid: "104463573"
 
 SNMP 擴充代理程式功能會定義 SNMP 服務與協力廠商 SNMP 延伸模組代理程式 Dll 之間的介面。 下表列出的函式可讓應用程式用來解析傳入 SNMP 通訊協定資料單位所指定的變數系結， (Pdu) 。
 
-| SNMP 擴充功能代理程式 API 函式                    | Description                                                                                                              |
+| SNMP 擴充功能代理程式 API 函式                    | 描述                                                                                                              |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | [**SnmpExtensionClose**](/windows/desktop/api/Snmp/nf-snmp-snmpextensionclose)     | 要求 SNMP 擴充代理程式解除配置資源和終止作業。                                    |
 | [**SnmpExtensionInit**](/windows/desktop/api/Snmp/nf-snmp-snmpextensioninit)       | 初始化 SNMP 延伸模組代理程式 DLL。                                                                                |
@@ -40,13 +40,13 @@ SNMP 擴充代理程式功能會定義 SNMP 服務與協力廠商 SNMP 延伸模
 
 
 
- 
+ 
 
 ## <a name="snmp-management-api-functions"></a>SNMP 管理 API 函式
 
 SNMP 管理功能會定義協力廠商 SNMP 管理員應用程式與管理函式動態連結程式庫之間的介面 (DLL) Mgmtapi.dll。 此 DLL 可搭配 SNMP 陷阱服務 (Snmptrap.exe) ，並可與一或多個協力廠商 SNMP 管理員應用程式互動。 下表列出協力廠商管理員應用程式用來執行 SNMP 管理員操作的管理功能。
 
-| SNMP 管理 API 函式                   | Description                                                                                                                                                                                            |
+| SNMP 管理 API 函式                   | 描述                                                                                                                                                                                            |
 |------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**SnmpMgrClose**](/windows/desktop/api/Mgmtapi/nf-mgmtapi-snmpmgrclose)           | 關閉與指定會話相關聯的通訊通訊端和資料結構。                                                                                                  |
 | [**SnmpMgrCtl**](/windows/desktop/api/Mgmtapi/nf-mgmtapi-snmpmgrctl)               | 設定與 SNMP 會話相關聯的指令引數。                                                                                                                                   |
@@ -60,13 +60,13 @@ SNMP 管理功能會定義協力廠商 SNMP 管理員應用程式與管理函式
 
 
 
- 
+ 
 
 ## <a name="snmp-utility-api-functions"></a>SNMP 公用程式 API 函式
 
 SNMP 公用程式函式提供在開發 SNMP 應用程式時很有用的功能，包括簡化 SNMP 資料結構的操作。 下表列出 SNMP 公用程式函式。
 
-| SNMP 公用程式 API 函式                                  | Description                                                                                                                                                        |
+| SNMP 公用程式 API 函式                                  | 描述                                                                                                                                                        |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**SnmpSvcGetUptime**](/windows/desktop/api/Snmp/nf-snmp-snmpsvcgetuptime)               | 取得 SNMP 服務執行所在的 centiseconds 時間。                                                                                  |
 | [**SnmpSvcSetLogLevel**](/windows/desktop/api/Snmp/nf-snmp-snmpsvcsetloglevel)           | 調整來自 SNMP 服務和 SNMP 擴充代理程式之偵錯工具輸出的詳細層級。                                                              |
@@ -97,8 +97,8 @@ SNMP 公用程式函式提供在開發 SNMP 應用程式時很有用的功能，
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

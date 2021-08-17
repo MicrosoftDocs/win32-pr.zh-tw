@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: b8bd49805b5fdc5545a81e4f0b816fe35a6c37b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39fd1e77eeea7429a2ef225226b964e44f1384295dc798c1b93611f282674fb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682328"
 ---
 # <a name="grantinteractivesessionaccess-method-of-the-msvm_terminalservice-class"></a>Msvm TerminalService 類別的 GrantInteractiveSessionAccess 方法 \_
 
@@ -51,7 +51,7 @@ uint32 GrantInteractiveSessionAccess(
 信任者 \[在\]
 </dt> <dd>
 
-字串的陣列，每個都識別將被授與虛擬機器互動式會話存取權的信任者。 受信任的識別碼應以 Windows SAM 相容格式或 Windows SID 字串格式指定。
+字串的陣列，每個都識別將被授與虛擬機器互動式會話存取權的信任者。 受信任的識別碼應以 Windows SAM 相容格式或 Windows SID 字串格式來指定。
 
 </dd> <dt>
 
@@ -107,8 +107,8 @@ uint32 GrantInteractiveSessionAccess(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

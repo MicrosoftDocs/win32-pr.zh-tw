@@ -22,12 +22,12 @@ keywords:
 - 檔鎖定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1234f71fa799cf911ff7ede89915068f69417a00
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 89af01edd439dbac23e4dee4b5289101a9bd92ca8180b66b460096b797d32b15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950918"
 ---
 # <a name="text-stores"></a>文字存放區
 
@@ -130,6 +130,6 @@ ACP          0   1   2   3   4   5   6   7   8   9   10
 [Microsoft Active Accessibility](../winauto/microsoft-active-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: 列出進程狀態 API (PSAPI.DLL) 取得的資訊類型。
 ms.assetid: 27a92f9d-6a3b-472a-8acd-930772af5f76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 769fdca5166d4e51f34697859562eb365ef1a1ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a350efbefb5af96cf631974101e27459c9589ca5cb44a191142d8c8a077e3fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033006"
 ---
 # <a name="about-psapi"></a>關於 PSAPI.DLL
 
@@ -22,9 +22,9 @@ ms.locfileid: "103839603"
 -   [工作集資訊](working-set-information.md)
 -   [記憶體對應檔案資訊](memory-mapped-file-information.md)
 
- 
+ 
 
- 
+ 
 
 
 

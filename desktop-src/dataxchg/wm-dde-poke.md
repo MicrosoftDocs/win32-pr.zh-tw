@@ -1,9 +1,9 @@
 ---
 title: 'WM_DDE_POKE 訊息 (的) '
-description: 動態資料交換 (的 DDE) 用戶端應用程式會將 WM \_ DDE \_ 郵件訊息張貼至 DDE 伺服器應用程式。
+description: 動態資料交換 (的 dde) 用戶端應用程式會將 WM \_ DDE \_ 郵件訊息張貼至 DDE 伺服器應用程式。
 ms.assetid: 848142b7-a7ef-4206-9bb3-b511388cfaaa
 keywords:
-- WM_DDE_POKE 訊息資料交換
+- WM_DDE_POKE 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 001697cbd5328b9c8d9eb72ebddff5f86ef6381c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df1329c6667698a0b633deb2726c47469b515e8fcd78d735a3949e7c8e19a4dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736285"
 ---
 # <a name="wm_dde_poke-message"></a>WM \_ DDE \_ 訊息
 
-動態資料交換 (的 DDE) 用戶端應用程式會將 **WM \_ DDE \_** 郵件訊息張貼至 DDE 伺服器應用程式。 用戶端會使用此訊息要求伺服器接受未請求的資料項目。 伺服器預期會以 [**WM \_ DDE \_**](wm-dde-ack.md) 通知訊息來回複，指出它是否接受該資料項目。
+動態資料交換 (的 dde) 用戶端應用程式會將 **WM \_ DDE \_** 郵件訊息張貼至 DDE 伺服器應用程式。 用戶端會使用此訊息要求伺服器接受未請求的資料項目。 伺服器預期會以 [**WM \_ DDE \_**](wm-dde-ack.md) 通知訊息來回複，指出它是否接受該資料項目。
 
 若要張貼此訊息，請使用下列參數呼叫 [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) 函數。
 
@@ -85,7 +85,7 @@ ms.locfileid: "103686524"
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt> (包含 Windows. h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Dde. h (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: C70A2F8C-27CB-4298-AA31-8F5099616625
 title: 執行 AppContainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a6fc4c8d807d6a45f27f4f7a79d69ceb97edeb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df4d50c0a5aa9f80755084886554a533fe1c82a6791840a9ff4ea4fdcf1476fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670798"
 ---
 # <a name="implementing-an-appcontainer"></a>執行 AppContainer
 

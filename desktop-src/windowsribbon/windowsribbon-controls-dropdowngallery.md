@@ -4,12 +4,12 @@ description: Drop-Down 圖庫包含一個按鈕，當按下時，就會顯示一
 ms.assetid: 10644e10-f903-49f6-aecd-1a63d97fe447
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f07553dcc767b50786e271544ea44bd17670a2a9
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 7746b4d290a7b47bd1b55677676206474e3ee460afe043af2b55902e9a3d4349
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103683584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964369"
 ---
 # <a name="drop-down-gallery"></a>Drop-Down 資源庫
 
@@ -122,7 +122,7 @@ Drop-Down 圖庫包含一個按鈕，當按下時，就會顯示一個下拉式�
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**DropDownGallery 標記元素**](windowsribbon-element-dropdowngallery.md)

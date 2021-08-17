@@ -1,19 +1,19 @@
 ---
-description: 在 Windows 7 和更新版本中不支援。 指定要在查詢產生器中使用的控制項。
+description: Windows 7 和更新版本不支援。 指定要在查詢產生器中使用的控制項。
 ms.assetid: 7d79c2fe-c63d-4ac5-8dd6-1a6103e53245
 title: queryControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 448b47038f82afb9f860209bfe89eb9e6eecb890
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34f05800fc026c61a4ea50098fb1d8f4deb98d971c9eecfed478d71bd3c01033
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823558"
 ---
 # <a name="querycontrol"></a>queryControl
 
-在 Windows 7 和更新版本中不支援。 指定要在查詢產生器中使用的控制項。 每個[displayInfo](./propdesc-schema-displayinfo.md)專案都只能有一個[queryControl]()元素。
+Windows 7 和更新版本不支援。 指定要在查詢產生器中使用的控制項。 每個[displayInfo](./propdesc-schema-displayinfo.md)專案都只能有一個[queryControl]()元素。
 
 如果有多個元素，則會使用最後一個元素。 如果未提供任何 [queryControl]() 元素，則會將預設屬性設定套用至屬性描述。
 

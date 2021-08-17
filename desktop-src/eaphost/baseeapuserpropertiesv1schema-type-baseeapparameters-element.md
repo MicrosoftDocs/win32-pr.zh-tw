@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c5e8ae944d8268df7524c3519523ff4f8cb35856
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: dbb8d2d95b1c4d09d08567688ef90e61d93362658647b07240ecb3b3d344d5b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104323468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117618"
 ---
 # <a name="type-baseeapparameters-element-for-user-properties"></a>輸入使用者屬性 (BaseEapParameters) 元素
 
@@ -39,8 +39,8 @@ ms.locfileid: "104323468"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

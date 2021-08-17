@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 11f52f62815228e459bed06d369fa6479d2b0e22
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: aca41bc6adddde469954f1e0fa3cdcfd03d333682b4ce1cefd5453859628881a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119401"
 ---
 # <a name="span-idvspixenginepipelinestagesspanpipelinestages-enumeration"></a><span id="vspixengine.pipelinestages"></span>PIPELINESTAGES 列舉
 

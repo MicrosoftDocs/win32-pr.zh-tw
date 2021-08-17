@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f10043d2c897bf6ab24c442b8e134f31221c498e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a8a4706fcbd421072e2b82cd9e228fe24c35651c17ce4ab0f48e05b946946fb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123214"
 ---
 # <a name="d3dxframecalculateboundingsphere-function"></a>D3DXFrameCalculateBoundingSphere 函式
 

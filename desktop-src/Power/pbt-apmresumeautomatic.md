@@ -4,12 +4,12 @@ ms.assetid: cd331f79-b64d-479e-aea8-5118ccc87224
 title: 'PBT_APMRESUMEAUTOMATIC (WinUser 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7a481dee356c85b3831fcace0c1ff127b0b276
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43e66fcd2201e9fb3c4feeb135843e92a350303b89a5c5045836428b9a326a30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143341"
 ---
 # <a name="pbt_apmresumeautomatic-event"></a>PBT \_ APMRESUMEAUTOMATIC 事件
 
@@ -86,9 +86,9 @@ WindowProc( HWND hwnd,      // handle to window
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>WinUser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>WinUser (包含 Windows .h) </dt> </dl> |
 
 
 

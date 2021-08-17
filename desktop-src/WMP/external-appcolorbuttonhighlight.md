@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67efc01db88cb13c85eebaedd2cdca0ec40d2a18
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0dea96976a167bf8dccbbe097ec0aaabc6c020fc09bde67d4ede98744875dbdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649983"
 ---
 # <a name="externalappcolorbuttonhighlight"></a>AppColorButtonHighlight
 
@@ -28,7 +28,7 @@ ms.locfileid: "106996194"
 
  
 
-**AppColorButtonHighlight** 屬性會抓取 Windows Media Player 使用者介面目前的按鈕反白顯示色彩。
+**appColorButtonHighlight** 屬性會抓取 Windows Media Player 使用者介面目前的按鈕反白顯示色彩。
 
 ``` syntax
 window.external.appColorButtonHighlight

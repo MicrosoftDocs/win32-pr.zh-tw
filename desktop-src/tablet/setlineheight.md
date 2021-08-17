@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: be4045e01ac890471536d95768668b633d8f2249
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c6a176b5878b7aaee4a0e51a5a366302b13a1a643453ad2c6d57e103362c4fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966817"
 ---
 # <a name="setlineheight-function"></a>SetLineHeight 函式
 
@@ -63,7 +63,7 @@ HRESULT WINAPI SetLineHeight(
 
 
 
-| 傳回碼                                                                                  | Description                                     |
+| 傳回碼                                                                                  | 描述                                     |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 此函數已成功。<br/>              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | *PDivider* 參數無效。<br/> |
@@ -78,7 +78,7 @@ HRESULT WINAPI SetLineHeight(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 程式庫<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

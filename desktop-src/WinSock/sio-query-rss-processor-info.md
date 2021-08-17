@@ -17,7 +17,7 @@ ms.locfileid: "117740380"
 ---
 # <a name="sio_query_rss_processor_info-control-code"></a>SIO_QUERY_RSS_PROCESSOR_INFO 控制程式代碼
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 **SIO \_ QUERY \_ RSS \_ 處理器 \_ 資訊** 控制項程式碼會查詢通訊端與 RSS 處理器核心和 NUMA 節點之間的關聯。
 

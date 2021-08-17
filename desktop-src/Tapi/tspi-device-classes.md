@@ -23,7 +23,7 @@ ms.locfileid: "119975434"
 
 
 
-| 裝置類別名稱                                       | Description                                      |
+| 裝置類別名稱                                       | 描述                                      |
 |---------------------------------------------------------|--------------------------------------------------|
 | [通訊](/previous-versions/windows/desktop/legacy/ms725177(v=vs.85))                                       | 通訊埠                              |
 | [通訊/datamodem](/previous-versions/windows/desktop/legacy/ms725178(v=vs.85))                   | 透過通訊埠的數據機              |

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6eec52139710d0ffafe06f22504a735e59312818
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4470754e710faf9f7abe5a94cfb2e08e6e79c1b0415110b96dbac35807556911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061065"
 ---
 # <a name="provider-complex-type"></a>提供者複雜類型
 
@@ -157,7 +157,7 @@ ms.locfileid: "103849280"
 
 
 
-| 元素        | 類型                                                                   | Description                                                                                 |
+| 元素        | 類型                                                                   | 描述                                                                                 |
 |----------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | **counterSet** | [**男人： counterSet**](performance-counters-counterset-complex-type.md) | 識別包含一或多個邏輯相關計數器的計數器集合。<br/> |
 
@@ -177,19 +177,19 @@ ms.locfileid: "103849280"
 <tr class="header">
 <th>名稱</th>
 <th>類型</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>applicationIdentity</td>
 <td><strong>xs:string</strong></td>
-<td>包含當地語系化資源字串（.exe 或 .dll 檔案）的二進位檔案名稱 (不包含二進位) 的路徑。<br/> Lodctr.exe 公用程式會使用選擇性 [<em>path</em>] 參數的路徑來搜尋二進位檔案。 例如， <strong>lodctr</strong> [<strong>/m：</strong><em>manifest</em> [<em>path</em>]]。 如果您未包含 [<em>path</em>] 參數，Lodctr.exe 會搜尋包含資訊清單的資料夾。<br/></td>
+<td>包含當地語系化資源字串的二進位檔案名稱，.exe 或 .dll 檔案 (不包含二進位) 的路徑。<br/> Lodctr.exe 公用程式會使用選擇性 [<em>path</em>] 參數的路徑來搜尋二進位檔案。 例如， <strong>lodctr</strong> [<strong>/m：</strong><em>manifest</em> [<em>path</em>]]。 如果您未包含 [<em>path</em>] 參數，Lodctr.exe 會搜尋包含資訊清單的資料夾。<br/></td>
 </tr>
 <tr class="even">
 <td>回撥</td>
 
-<td>這個屬性指出當取用者執行某些動作時，您想要收到通知。 <br/> 如果您包含這個屬性，CTRPP 工具會使用替代的 <a href="counterinitialize.md"><strong>CounterInitialize</strong></a> 函式簽章，您可以使用此簽章來傳遞函式的名稱，以執行 <a href="/windows/desktop/api/Perflib/nc-perflib-perflibrequest"><strong>ControlCallback</strong></a> 回呼函式。<br/> 除了指定此屬性之外，您還可以使用 <strong>-NotificationCallback</strong><a href="ctrpp.md">CTRPP</a> 引數。<br/> <strong>Windows Vista：</strong> 這個屬性唯一有效的值為 &quot; custom &quot; 。 <a href="ctrpp.md">CTRPP</a>公用程式會產生<a href="/windows/desktop/api/Perflib/nc-perflib-perflibrequest"><strong>ControlCallback</strong></a>回呼函數的範本。 範本會包含在 CTRPP 產生的 .c 檔案中。 <br/> <br/></td>
+<td>這個屬性指出當取用者執行某些動作時，您想要收到通知。 <br/> 如果您包含這個屬性，CTRPP 工具會使用替代的 <a href="counterinitialize.md"><strong>CounterInitialize</strong></a> 函式簽章，您可以使用此簽章來傳遞函式的名稱，以執行 <a href="/windows/desktop/api/Perflib/nc-perflib-perflibrequest"><strong>ControlCallback</strong></a> 回呼函式。<br/> 除了指定此屬性之外，您還可以使用 <strong>-NotificationCallback</strong><a href="ctrpp.md">CTRPP</a> 引數。<br/> <strong>Windows Vista：</strong>這個屬性唯一有效的值為 &quot; custom &quot; 。 <a href="ctrpp.md">CTRPP</a>公用程式會產生<a href="/windows/desktop/api/Perflib/nc-perflib-perflibrequest"><strong>ControlCallback</strong></a>回呼函數的範本。 範本會包含在 CTRPP 產生的 .c 檔案中。 <br/> <br/></td>
 </tr>
 <tr class="odd">
 <td>providerGuid</td>
@@ -215,11 +215,11 @@ ms.locfileid: "103849280"
 <tbody>
 <tr class="odd">
 <td><span id="userMode"></span><span id="usermode"></span><span id="USERMODE"></span>userMode<br/></td>
-<td>為使用者模式元件指定此模式，例如應用程式、DLL 或使用者模式驅動程式。 使用者模式元件的一般擴充功能為 .exe 或 .dll。 此為預設值。<br/></td>
+<td>為使用者模式元件指定此模式，例如應用程式、DLL 或使用者模式驅動程式。 使用者模式元件的一般擴充功能是 .exe 或 .dll。 此為預設值。<br/></td>
 </tr>
 <tr class="even">
 <td><span id="kernel"></span><span id="KERNEL"></span>內核<br/></td>
-<td>為核心模式元件指定此模式，例如 WDM 或 WDF 驅動程式。 核心模式元件的一般延伸模組是 sys。<br/> <strong>Windows Vista 和 Windows Server 2008：</strong> 在 Windows 7 和 Windows Server 2008 R2 之前，不支援這個值。<br/></td>
+<td>為核心模式元件指定此模式，例如 WDM 或 WDF 驅動程式。 核心模式元件的一般擴充功能是 .sys。<br/> <strong>Windows Vista 和 Windows Server 2008：</strong>在 Windows 7 和 Windows Server 2008 R2 之前，不支援這個值。<br/></td>
 </tr>
 </tbody>
 </table>
@@ -248,8 +248,8 @@ ms.locfileid: "103849280"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

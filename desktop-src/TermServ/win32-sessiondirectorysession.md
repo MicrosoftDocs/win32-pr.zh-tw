@@ -29,12 +29,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fba8fdbdffc764c3bdcc1a8f5bc53aa479f318d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d0a7d883d3b356713f2f9c3d2b1f9de76676e845020b211ee8a600604a674c54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118848192"
 ---
 # <a name="win32_sessiondirectorysession-class"></a>Win32 \_ SessionDirectorySession 類別
 

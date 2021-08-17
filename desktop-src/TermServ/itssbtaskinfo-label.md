@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1f85aaea366cf002d4ec1bacce8f29a6aa67fdb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e2414dd83d44add4084a4176f575817875e933f9770039e49b02364bd8103cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138301"
 ---
 # <a name="itssbtaskinfolabel-property"></a>ITsSbTaskInfo：： Label 屬性
 
@@ -54,7 +54,7 @@ HRESULT get_Label(
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                            |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                       |
-| Idl<br/>                      | <dl> <dt>Sbtsv .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Sbtsv .idl</dt> </dl> |
 
 
 

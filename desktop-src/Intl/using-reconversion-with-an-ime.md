@@ -4,12 +4,12 @@ ms.assetid: 32b20872-7e5c-487e-99bb-9447ac3aebd4
 title: 搭配 IME 使用漢字重組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e28383a27fd7fd7827cbbf3c7ff97c895fb4a72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd5a0453b6ac94da805e00639d2a7a56fd79deca4027d23d47e33aab93e4009b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146841"
 ---
 # <a name="using-reconversion-with-an-ime"></a>搭配 IME 使用漢字重組
 

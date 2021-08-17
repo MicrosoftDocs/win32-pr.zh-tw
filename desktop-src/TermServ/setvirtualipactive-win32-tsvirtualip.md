@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06534c967c5d86a7a19c060254b3b988ff98b17e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ab43a007a2a8b04e91d5225e648d5667a87c468cbd52c005d85f4ba6496c919
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118850917"
 ---
 # <a name="setvirtualipactive-method-of-the-win32_tsvirtualip-class"></a>Win32 TSVirtualIP 類別的 SetVirtualIPActive 方法 \_
 

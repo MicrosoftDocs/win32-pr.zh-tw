@@ -4,16 +4,16 @@ ms.assetid: 26e51c0d-c1cb-410f-ab19-eb884afa8431
 title: 'ITFormatControl：： GetNumberOfCapabilities 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e29153f5ee9ce8c5e12b93a1d219905c40f80418
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 57bd79b61f8c41893ec8d99ffc9bfadcc3887631c885d5caa430a6fb723396a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117945273"
 ---
 # <a name="itformatcontrolgetnumberofcapabilities-method"></a>ITFormatControl：： GetNumberOfCapabilities 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續的作業系統版本中，無法使用這個方法。 RTC 用戶端 API 提供類似的功能。\]
+\[此方法無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **GetNumberOfCapabilities** 方法會抓取與目前格式相關聯的功能數目。
 
@@ -45,7 +45,7 @@ HRESULT GetNumberOfCapabilities(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足，無法執行操作。<br/> |

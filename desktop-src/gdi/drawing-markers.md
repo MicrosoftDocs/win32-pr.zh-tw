@@ -4,12 +4,12 @@ ms.assetid: 69114875-f3e0-45e9-8e87-1f4e9de08db1
 title: 繪圖示記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 497b725e3a266e296950394a9bb9b2b76a17cb25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b5e05c651bf95aa48a8ef11fd0819523ee5da7652e27ecebaeff8ee9de4f1e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117887116"
 ---
 # <a name="drawing-markers"></a>繪圖示記
 

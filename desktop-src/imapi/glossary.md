@@ -5,18 +5,18 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3e780705-09f9-4368-9bae-ad20c45e4fe1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ec592153e823fe6ffaabf0afa1e7b8be24379a8
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 8b10405473a92a9bd93471c94ef497dbb50f04fc260724f00c6dabf2f07c7341
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104023096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977108"
 ---
 # <a name="glossary-imapi"></a>詞彙 (IMAPI.EXE) 
 
 <dl> <dt>
 
-<span id="imapi.imapi2_glossary_ANSI"></span><span id="imapi.imapi2_glossary_ansi"></span><span id="IMAPI.IMAPI2_GLOSSARY_ANSI"></span>**Ansi**
+<span id="imapi.imapi2_glossary_ANSI"></span><span id="imapi.imapi2_glossary_ansi"></span><span id="IMAPI.IMAPI2_GLOSSARY_ANSI"></span>**ANSI**
 </dt> <dd>
 
 美國國家標準局。
@@ -114,7 +114,7 @@ COM 介面指定，其中指定的介面支援 VTable 和 **IDispatch** 呼叫�
 
 </dd> <dt>
 
-<span id="imapi.imapi2_glossary_DVD"></span><span id="imapi.imapi2_glossary_dvd"></span><span id="IMAPI.IMAPI2_GLOSSARY_DVD"></span>**Dvd**
+<span id="imapi.imapi2_glossary_DVD"></span><span id="imapi.imapi2_glossary_dvd"></span><span id="IMAPI.IMAPI2_GLOSSARY_DVD"></span>**DVD**
 </dt> <dd>
 
 數位多功能光碟。此縮寫原本表示「數位視訊光碟」。
@@ -229,14 +229,14 @@ DVD-R 光碟和 DVD CD-RW 光碟。
 <span id="imapi.imapi2_glossary_IMAPIv1"></span><span id="imapi.imapi2_glossary_imapiv1"></span><span id="IMAPI.IMAPI2_GLOSSARY_IMAPIV1"></span>**IMAPIv1** 
 </dt> <dd>
 
-在 Windows XP 中第一次公開的 IMAPI.EXE 版本。 IMAPI.EXE 1.0 支援 CD-R 和 cd-rw 媒體。
+imapi.exe 的版本會先公開在 Windows XP 中。 IMAPI.EXE 1.0 支援 CD-R 和 cd-rw 媒體。
 
 </dd> <dt>
 
 <span id="imapi.imapi2_glossary_IMAPIv2"></span><span id="imapi.imapi2_glossary_imapiv2"></span><span id="IMAPI.IMAPI2_GLOSSARY_IMAPIV2"></span>**IMAPIv2** 
 </dt> <dd>
 
-IMAPI.EXE 的第二個版本，與 Windows Vista 一起發行。
+imapi.exe 的第二個版本，與 Windows Vista 一起發行。
 
 </dd> <dt>
 
@@ -268,7 +268,7 @@ IMAPI.EXE 的第二個版本，與 Windows Vista 一起發行。
 
 </dd> <dt>
 
-<span id="imapi.imapi2_glossary_MMC"></span><span id="imapi.imapi2_glossary_mmc"></span><span id="IMAPI.IMAPI2_GLOSSARY_MMC"></span>**Mmc**
+<span id="imapi.imapi2_glossary_MMC"></span><span id="imapi.imapi2_glossary_mmc"></span><span id="IMAPI.IMAPI2_GLOSSARY_MMC"></span>**MMC**
 </dt> <dd>
 
 INCITS 的 T10 工作群組所定義的多媒體命令集。 MMC 會定義 CD 和 DVD 裝置的封包命令。 您可以在 T10 網站上找到 MMC 目前的工作草稿。
@@ -282,7 +282,7 @@ INCITS 的 T10 工作群組所定義的多媒體命令集。 MMC 會定義 CD �
 
 </dd> <dt>
 
-<span id="imapi.imapi2_glossary_SCSI"></span><span id="imapi.imapi2_glossary_scsi"></span><span id="IMAPI.IMAPI2_GLOSSARY_SCSI"></span>**Scsi**
+<span id="imapi.imapi2_glossary_SCSI"></span><span id="imapi.imapi2_glossary_scsi"></span><span id="IMAPI.IMAPI2_GLOSSARY_SCSI"></span>**SCSI**
 </dt> <dd>
 
 小型電腦系統介面。
@@ -324,9 +324,9 @@ INCITS 的 T10 工作群組所定義的多媒體命令集。 MMC 會定義 CD �
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

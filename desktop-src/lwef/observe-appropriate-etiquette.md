@@ -4,16 +4,16 @@ description: 觀察適當的禮儀
 ms.assetid: 7dcc4907-f38c-4706-982e-7792eef27c7a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3c32fb2e06139c9cace81e6d62c789205eb625c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9051139ea41170e6dbb43db48fb5e0d492e5ee34f56a5f3ec4fd31571290b61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975898"
 ---
 # <a name="observe-appropriate-etiquette"></a>觀察適當的禮儀
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 所有人都瞭解社交禮儀的規則。 此外，我們會根據這些規則符合這些規則的程度來判斷其他人。 您介面中的字元存在，可讓禮儀規則直接適用于您的設計。
 
@@ -29,9 +29,9 @@ ms.locfileid: "106969853"
 
 也請考慮文化對社交禮儀的影響。 這可能適用于字元的服裝、手勢或單字選擇。 雖然有禮貌的行為可能因文化特性而異，但禮貌程度的概念是跨文化。
 
- 
+ 
 
- 
+ 
 
 
 

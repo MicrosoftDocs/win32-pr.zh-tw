@@ -4,12 +4,12 @@ ms.assetid: 7aec54cb-40ac-495c-99d9-9c397b740b21
 title: 編解碼器安裝和註冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d83616071bebdbab14bfdc7dd0f879df3d49789d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdc13a2d937e82eae3517b9b20440f4acbb10b16af3fa0b872eb0ddd6c2a8d6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965177"
 ---
 # <a name="codec-installation-and-registration"></a>編解碼器安裝和註冊
 
@@ -53,9 +53,9 @@ SHChangeNotify(SHCNE_ASSOCCHANGED, SHCNF_IDLIST, NULL, NULL)
 
 如果您是一家攝影機製造商，可以將您的原始編解碼器連同攝影機一起寄送。 您也可以在網站的下載頁面上張貼編解碼器。 不過，如果使用者從其他來源（例如朋友、商務夥伴或其他網站）取得格式的影像檔案，他們可能不知道要使用哪個編解碼器來將它解碼。
 
-基於這個問題，Windows 提供更簡單的方式讓影像格式的使用者找到您的編解碼器，並將其下載到電腦上，從 Windows Vista 開始。 如果 Windows 影像中心將副檔名辨識為影像格式，且未安裝該格式的編解碼器，對話方塊會告知使用者無法顯示相片，並詢問使用者是否要下載顯示該相片所需的軟體。 當使用者接受時，會出現 Microsoft 裝載的網站，其中包含編解碼器製造商下載網站的連結。  (選擇性地，您可以要求使用者直接前往您的下載網站。 ) 
+基於這個問題，Windows 為您的影像格式使用者提供更簡單的方法來尋找您的編解碼器，並將其下載到電腦上，從 Windows Vista 開始。 如果 Windows 影像中心將副檔名辨識為影像格式，且未安裝該格式的編解碼器，對話方塊會告知使用者無法顯示照片，並詢問使用者是否要下載顯示該相片所需的軟體。 當使用者接受時，會出現 Microsoft 裝載的網站，其中包含編解碼器製造商下載網站的連結。  (選擇性地，您可以要求使用者直接前往您的下載網站。 ) 
 
-如果您想要讓 Windows 影像中心辨識影像格式的副檔名，讓使用者可以導向至您的下載網站，您必須執行下列動作：
+如果您想要 Windows 影像中心辨識影像格式的副檔名，讓使用者可以導向至您的下載網站，您必須執行下列動作：
 
 1.  提供編解碼器的下載網站。  (您所提供的每個編解碼器都可以有個別的頁面，或針對所有編解碼器提供下載的單一頁面。 ) 
 
@@ -63,7 +63,7 @@ SHChangeNotify(SHCNE_ASSOCCHANGED, SHCNF_IDLIST, NULL, NULL)
 
 2.  為 Microsoft 提供您影像格式的延伸模組清單，以及下載網站的 Url。
 
-您必須通知 Microsoft 這些延伸模組適用于您未來開發的任何新編解碼器，以及下載網站 Url 的任何變更，以便將新的資訊新增至 Windows 影像中心。
+您必須通知 Microsoft 這些延伸模組適用于您未來開發的任何新編解碼器，以及下載網站 url 的任何變更，以便將新的資訊新增至 Windows 影像中心。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -81,7 +81,7 @@ SHChangeNotify(SHCNE_ASSOCCHANGED, SHCNF_IDLIST, NULL, NULL)
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: cf870c89-4be0-4b95-92aa-ec7bcdc6d9dd
 title: " (Direct3D 9) 的照明數學"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 683e320788d720883702ebfa56941b1a3a5cf090
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9d1c6ffa8a1142c1be40993dcd8130b4708f2b509c8a5a1f05e234d0231c3bdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728333"
 ---
 # <a name="mathematics-of-lighting-direct3d-9"></a> (Direct3D 9) 的照明數學
 

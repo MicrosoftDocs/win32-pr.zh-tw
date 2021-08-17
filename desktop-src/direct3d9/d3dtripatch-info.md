@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: b910d38025c44d6157a76aa3e3425ba46d628787
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c20a846d13cd45bb8a1629fca0e958d3042aacf148c24b0633dd19fb5462bd66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850110"
 ---
 # <a name="d3dtripatch_info-structure"></a>D3DTRIPATCH \_ 資訊結構
 

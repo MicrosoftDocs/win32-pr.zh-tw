@@ -4,12 +4,12 @@ ms.assetid: 6fbad59b-27b7-4ac1-bad5-8a608c7b270f
 title: 產品代碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edca03d54dcd14068e89b2314b729e672b0c631c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b2afe0c96e78d14bc989d4acdc7195d374b82466c4b345a999df7085468587e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145371"
 ---
 # <a name="product-codes"></a>產品代碼
 
@@ -21,7 +21,7 @@ ms.locfileid: "104194212"
 
 請注意，產品程式碼 Guid 中的字母必須為大寫。 GUIDGEN 之類的公用程式會產生包含小寫字母的 Guid。 這些 Guid 中的小寫字母必須變更為大寫，才能當做產品代碼或封裝程式碼使用。 如需詳細資訊，請參閱 [變更產品代碼](changing-the-product-code.md)。
 
-封裝程式碼是識別特定 Windows Installer [*套件*](p-gly.md)的 GUID。 封裝程式碼會將 .msi 檔案與應用程式或產品產生關聯，也可以用於驗證來源。 產品和套件代碼不可互換。 沒有兩個 nonidentical .msi 檔案應該要有相同的套件程式碼。 雖然傳送具有相同封裝程式碼和產品程式碼的應用程式很常見，但在更新應用程式時，這兩個值可能會分離出來。 如需詳細資訊，請參閱 [封裝程式碼](package-codes.md)。
+封裝程式碼是識別特定 Windows Installer [*套件*](p-gly.md)的 GUID。 封裝程式碼會將 .msi 檔案與應用程式或產品產生關聯，也可以用於驗證來源。 產品和套件代碼不可互換。 沒有兩個 nonidentical .msi 檔應該要有相同的套件程式碼。 雖然傳送具有相同封裝程式碼和產品程式碼的應用程式很常見，但在更新應用程式時，這兩個值可能會分離出來。 如需詳細資訊，請參閱 [封裝程式碼](package-codes.md)。
 
  
 

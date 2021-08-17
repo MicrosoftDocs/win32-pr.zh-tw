@@ -4,12 +4,12 @@ ms.assetid: 2bf353e2-38d5-462c-9e6c-65886b617215
 title: 變更 IPv6 Winsock Html5 應用程式的資料結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2c91e19ed733d111bd4e12d824da6ee1a988e9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2999c0d0c5a335c1367165c227fc1aad805579db5a790a19d316a1624e922947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741548"
 ---
 # <a name="changing-data-structures-for-ipv6-winsock-appications"></a>變更 IPv6 Winsock Html5 應用程式的資料結構
 
@@ -76,7 +76,7 @@ int main(int argc, char **argv)
 
 
 > [!Note]  
-> [**SOCKADDR \_ 儲存體**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85))結構是 Windows XP 的新功能。
+> [**SOCKADDR \_ 儲存體**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85))結構是 Windows XP 的新結構。
 
  
 
@@ -104,7 +104,7 @@ int main(int argc, char **argv)
 
 <dl> <dt>
 
-[適用于 Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
+[Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [IPv6 Winsock 應用程式的雙重堆疊通訊端](dual-stack-sockets.md)

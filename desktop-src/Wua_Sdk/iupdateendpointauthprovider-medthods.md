@@ -4,12 +4,12 @@ ms.assetid: 7F9F8FDF-4924-4085-BE77-C6EA79D6CF4E
 title: IUpdateEndpointAuthProvider 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cbd0556780dedb8220b8e9e2cd134f6df3da3fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be84b7db38bb7c26b7654a08c443f393a9d5264a77bb892abced995153e3b88f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738237"
 ---
 # <a name="iupdateendpointauthprovider-methods"></a>IUpdateEndpointAuthProvider 方法
 

@@ -7,12 +7,12 @@ keywords:
 - 變更通知旗標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3e6d3015be29c84b6b93b47b373d05f96f4388b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f5311e3313bf23c92972395143d288483181e7a69212115082a2f150d7d1bb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791832"
 ---
 # <a name="change-notification-flags"></a>變更通知旗標
 
@@ -28,11 +28,11 @@ ms.locfileid: "104301024"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

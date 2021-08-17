@@ -6,12 +6,12 @@ keywords:
 - capFileSetInfoChunk 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bacb99fb29e4b1882b4f257c428315f42ee3a360
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 420181fd0da326ebf3ccc6f921e55161c2005d17c3f8713cd104481147b40f1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145131"
 ---
 # <a name="adding-an-information-chunk"></a>新增資訊區塊
 
@@ -41,9 +41,9 @@ capFileSetInfoChunk (hwndC, &cic);
 [使用影片捕獲](using-video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

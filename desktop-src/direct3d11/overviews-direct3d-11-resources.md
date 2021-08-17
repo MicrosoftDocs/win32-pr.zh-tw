@@ -4,12 +4,12 @@ description: 本節說明 Direct3D 11 資源的各個層面。
 ms.assetid: 5b8b1198-73ed-4058-9fc6-a1c43902d732
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f9ed73d81d2521fe97b36e6bfc8d71e387f8c9c
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: bd87812e5b057117349afede6e3f466de1dd3fe517eab5e4f49f2c34e6643d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104024352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124126"
 ---
 # <a name="resources"></a>資源
 

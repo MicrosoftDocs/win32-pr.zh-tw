@@ -4,12 +4,12 @@ description: 本節說明 Microsoft 消費者介面自動化用戶端用來尋�
 ms.assetid: dd7cdcf1-3511-424f-b729-b71a7e11cdd8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a08859784d18905adbed463ac776bb2e717211f
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: 356bd61a3f4a4626c8cc382c924b62967c01ddb201b8411eaa5451c822ede38a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "103935601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133411"
 ---
 # <a name="ui-automation-element-interfaces-for-clients"></a>用戶端的消費者介面自動化元素介面
 

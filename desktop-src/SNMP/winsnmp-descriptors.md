@@ -4,12 +4,12 @@ description: 在 WinSNMP 程式設計環境中，描述項是下列兩個結構�
 ms.assetid: a329963b-cdb9-40d2-9a82-6f0d9f4ac73a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cd7f844ab1365d6020afce0ca7bfeb3afa244a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 875112d8519f93f4b5ae6729401f2689294a84c55dc729f0ffa24d05076e300b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142911"
 ---
 # <a name="winsnmp-descriptors"></a>WinSNMP 描述項
 
@@ -26,9 +26,9 @@ Microsoft WinSNMP 執行會為所有輸出 **smiOCTETS** 和 **smiOID** 結構�
 
 描述項中的字串成員不需要 **Null** 終止位元組。 如需管理配置給描述項之記憶體的詳細資訊，請參閱配置 [WinSNMP 記憶體物件](allocating-winsnmp-memory-objects.md)。
 
- 
+ 
 
- 
+ 
 
 
 

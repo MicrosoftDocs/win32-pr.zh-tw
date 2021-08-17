@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 7c5a67a72f6ff5a63730167d2fe2d12213a9ab72
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e1497ad06919833e0ba716877dc81b8df51a99361a49e43fa9a0f756e296040c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728910"
 ---
 # <a name="idirectxfilesaveobjectcreatedataobject-method"></a>IDirectXFileSaveObject：： CreateDataObject 方法
 

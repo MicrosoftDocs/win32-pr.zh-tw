@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa041859c0bffca2771695b7055105b8ae846221
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f1d94f4f764fb25e5e2a5a43d1cdbe76f5288901846c2291daa4497947a486f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104313029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991812"
 ---
 # <a name="code-attribute"></a>code 屬性
 
@@ -151,9 +151,9 @@ interface interface-name
 [**表示 \_ 為**](represent-as.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

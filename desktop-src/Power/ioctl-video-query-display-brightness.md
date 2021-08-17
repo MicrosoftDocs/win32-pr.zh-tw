@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvdeo.h
-ms.openlocfilehash: 547501a28492aecfe06f63f95b0e007fc80d3d02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 673930fbde301c031049316255c9bcee40fd4e6a4f3c362977caf6e0569c5f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143411"
 ---
 # <a name="ioctl_video_query_display_brightness-control-code"></a>IOCTL \_ 影片 \_ 查詢 \_ 顯示 \_ 亮度控制項程式碼
 
-\[此控制項程式碼可在 [需求] 區段中指定的作業系統中使用。 已在 Windows Server 2008 和 Windows Vista 中移除對此控制項程式碼的支援。 請改用 [**WmiMonitorBrightness**](/windows/desktop/WmiCoreProv/wmimonitorbrightness) 類別。\]
+\[此控制項程式碼可在 [需求] 區段中指定的作業系統中使用。 Windows Server 2008 和 Windows Vista 中已移除對此控制項程式碼的支援。 請改用 [**WmiMonitorBrightness**](/windows/desktop/WmiCoreProv/wmimonitorbrightness) 類別。\]
 
 抓取目前的 AC 和 DC 背光等級和目前的電源狀態。
 
@@ -139,8 +139,8 @@ BOOL DeviceIoControl(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 用戶端支援結束<br/>    | Windows XP 含 SP2<br/>                                                        |
 | 伺服器支援結束<br/>    | Windows Server 2003 R2<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Ntddvdeo。h</dt> </dl> |

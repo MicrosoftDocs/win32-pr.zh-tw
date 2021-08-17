@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Poclass.h
 - BatClass.h
-ms.openlocfilehash: ee4010e055686c0df2987c34b48b133975b434ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a48514b81ddf5d8f7c0d84d4404eb01752413e73ade43db089fbb6dade673bc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143526"
 ---
 # <a name="ioctl_battery_query_information-control-code"></a>IOCTL \_ 電池 \_ 查詢 \_ 資訊控制項程式碼
 
@@ -159,9 +159,9 @@ BOOL DeviceIoControl(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                                                                                                                                                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                                                                                                                                                                                |
-| 標頭<br/>                   | <dl> <dt>Poclass .h;</dt><dt>Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP 上的 BatClass .h</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                                                                                                                                                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                                                                                                                                                                                |
+| 標頭<br/>                   | <dl> <dt>Poclass .h;</dt><dt>Windows server 2008 R2、Windows 7、Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP 上的 BatClass .h</dt> </dl> |
 
 
 

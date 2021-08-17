@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e3b305d195ca09a1ef95c99624b47a50058021ca
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b9648b1b662cb98bc762a479782e4d3742d4d32056fc9f15f43f58f8f4a89659
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726938"
 ---
 # <a name="dcl_outputtopology-sm4---asm"></a>dcl \_ outputTopology (sm4-asm) 
 
@@ -95,9 +95,9 @@ dcl_outputTopology trianglestrip
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

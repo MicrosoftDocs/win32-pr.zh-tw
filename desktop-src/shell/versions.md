@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 49fb1767b7074da6480a47c52eb1384fb935317b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d74371478b30037e75b1c168dc235735ba6bd219fa461245262ff55a508ae5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967833"
 ---
 # <a name="shell-and-shlwapi-dll-versions"></a>命令介面和 Shlwapi DLL 版本
 
@@ -23,24 +23,24 @@ ms.locfileid: "104192674"
 -   [DLL 版本號碼](#dll-version-numbers)
 -   [使用 DllGetVersion 來判斷版本號碼](#using-dllgetversion-to-determine-the-version-number)
     -   [使用 DllGetVersion](#using-dllgetversion)
--   [專案版本](#project-versions)
+-   [Project版本](#project-versions)
 
 ## <a name="dll-version-numbers"></a>DLL 版本號碼
 
 Shell 檔中所討論的所有程式設計項目，都包含在兩個 Dll 中： Shell32.dll 和 Shlwapi.dll。 由於持續的增強功能，這些 Dll 的不同版本會執行不同的功能。 在整個 Shell 參考檔中，每個程式設計項目都會指定支援的最低 DLL 版本號碼。 此版本號碼表示程式設計專案會在該版本和後續 DLL 版本中執行，除非另有指定。 如果未指定版本號碼，則會在所有現有版本的 DLL 中執行程式設計專案。
 
-在 Windows XP 之前，新的 Shell32.dll 和 Shlwapi.dll 版本有時會隨著新版本的 Windows Internet Explorer 而提供。 從 Windows XP 版以來，這些 Dll 不再提供為新版 Windows 本身以外的可轉散發檔案。 下表概述不同的 DLL 版本，以及它們如何散發回可追溯至 Microsoft Internet Explorer 3.0、Windows 95 和 Microsoft Windows NT 4.0。
+在 Windows XP 之前，新的 Shell32.dll 和 Shlwapi.dll 版本有時會隨著新版本的 Windows Internet Explorer 提供。 從 Windows XP 版以來，這些 dll 不再提供為新版 Windows 本身以外的可轉散發檔案。 下表概述不同的 DLL 版本，以及它們如何散發可追溯回 microsoft Internet Explorer 3.0、Windows 95 和 microsoft Windows NT 4.0。
 
-您可以在 Windows 95 和 Microsoft Windows NT 4.0 的原始版本中找到 Shell32.dll 4.0 版。 Shell 未隨 Internet Explorer 3.0 版本更新，因此 Shell32.dll 沒有4.70 版。 Shell32.dll 版本4.71 和4.72 隨附于對應的 Internet Explorer 版本，但不一定會安裝 (請參閱附注 1) 。 若為 Microsoft Internet Explorer 4.01 和 Windows 98 的發行版本，Shell32.dll 和 Shlwapi.dll 分離的版本號碼。 一般而言，您應該假設 Dll 具有不同的版本號碼，並個別測試每一個。
+Windows 95 和 Microsoft Windows NT 4.0 的原始版本中找到 Shell32.dll 4.0 版。 Shell 未隨 Internet Explorer 3.0 版本更新，因此 Shell32.dll 沒有4.70 版。 Shell32.dll 版本4.71 和4.72 隨附于對應的 Internet Explorer 版本，但不一定會安裝 (請參閱附注 1) 。 若為 Microsoft Internet Explorer 4.01 和 Windows 98 的後續版本，Shell32.dll 和 Shlwapi.dll 分離的版本號碼。 一般而言，您應該假設 Dll 具有不同的版本號碼，並個別測試每一個。
 
 #### <a name="shell32dll"></a>Shell32.dll
 
 | 版本 | 散發平臺                                                       |
 |---------|-----------------------------------------------------------------------------|
-| 4.0     | Windows 95 和 Microsoft Windows NT 4。0                                     |
+| 4.0     | Windows 95 與 Microsoft Windows NT 4。0                                     |
 | 4.71    | Microsoft Internet Explorer 4.0。 請參閱注意 1。                                |
 | 4.72    | Internet Explorer 4.01 和 Windows 98。 請參閱注意 1。                          |
-| 5.0     | Windows 2000 和 Windows Millennium Edition (Windows Me) 。 請參閱附注2。       |
+| 5.0     | Windows 2000 和 Windows Millennium Edition (Windows 我) 。 請參閱附注2。       |
 | 6.0     | Windows XP                                                                  |
 | 6.0.1   | Windows Vista                                                               |
 | 6.1     | Windows 7                                                                   |
@@ -49,19 +49,19 @@ Shell 檔中所討論的所有程式設計項目，都包含在兩個 Dll 中：
 
 | 版本 | 散發平臺                                                       |
 |---------|-----------------------------------------------------------------------------|
-| 4.0     | Windows 95 和 Microsoft Windows NT 4。0                                     |
+| 4.0     | Windows 95 與 Microsoft Windows NT 4。0                                     |
 | 4.71    | Internet Explorer 4.0。 請參閱注意 1。                                          |
 | 4.72    | Internet Explorer 4.01 和 Windows 98。 請參閱注意 1。                          |
 | 4.7     | Internet Explorer 3。x                                                       |
-| 5.0     | Microsoft Internet Explorer 5 與 Windows 98 SE。 請參閱附注2。                |
-| 5.5     | Microsoft Internet Explorer 5.5 和 Windows Millennium Edition (Windows Me)  |
-| 6.0     | Windows XP 和 Windows Vista                                                |
+| 5.0     | Microsoft Internet Explorer 5 和 Windows 98 SE。 請參閱附注2。                |
+| 5.5     | Microsoft Internet Explorer 5.5 和 Windows Millennium Edition (Windows 我)  |
+| 6.0     | WindowsXP 和 Windows Vista                                                |
 
 
 
-**附注1：** 所有具有 Internet Explorer 4.0 或4.01 的系統都會分別) Shlwapi.dll (4.71 或4.72 的相關版本。 不過，對於 Windows 98 之前的系統，Internet Explorer 4.0 和4.01 可以安裝，或不使用所謂的 *整合式 Shell*。 如果 Internet Explorer 是與整合式 Shell 一起安裝，則也會安裝 Shell32.dll (4.71 或 4.72) 相關聯的版本。 如果 Internet Explorer 是在沒有整合式 Shell 的情況下安裝，Shell32.dll 會保持為4.0 版。 換句話說，系統上的 Shlwapi.dll 版本4.71 或4.72 不保證 Shell32.dll 具有相同的版本號碼。 所有 Windows 98 系統都有4.72 版的 Shell32.dll。
+**附注1：** 所有具有 Internet Explorer 4.0 或4.01 的系統都會分別) Shlwapi.dll (4.71 或4.72 的相關版本。 不過，針對 Windows 98 之前的系統，Internet Explorer 4.0 和4.01 可以安裝，或不使用所謂的 *整合式 Shell*。 如果 Internet Explorer 是與整合式 Shell 一起安裝，則也會安裝 Shell32.dll (4.71 或 4.72) 相關聯的版本。 如果 Internet Explorer 是在沒有整合式 Shell 的情況下安裝，Shell32.dll 會保持為4.0 版。 換句話說，系統上的 Shlwapi.dll 版本4.71 或4.72 不保證 Shell32.dll 具有相同的版本號碼。 所有 Windows 98 系統都有4.72 版的 Shell32.dll。
 
-**附注2：** Shlwapi.dll 的5.0 版是以 Internet Explorer 5 散發，並在安裝 Internet Explorer 5 的所有系統上找到，但 Windows 2000 除外。 5.0 版的 Shell32.dll 是以 Windows 2000 和 Windows Millennium Edition 原生散發， (Windows Me) ，以及 Shlwapi.dll 版本5.0。
+**附注2：** Shlwapi.dll 的5.0 版是以 Internet Explorer 5 散發，並在安裝 Internet Explorer 5 的所有系統上找到，但 Windows 2000 除外。 5.0 版的 Shell32.dll 是以原生方式與 Windows 2000 和 Windows Millennium Edition (Windows Me) 一起散發，並與5.0 版 Shlwapi.dll。
 
 ## <a name="using-dllgetversion-to-determine-the-version-number"></a>使用 DllGetVersion 來判斷版本號碼
 
@@ -70,14 +70,14 @@ Shell 檔中所討論的所有程式設計項目，都包含在兩個 Dll 中：
 > [!Note]  
 > Dll 不一定會匯出 [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc)。 請一律先測試它，再嘗試使用它。
 
-針對 windows 2000 之前的 Windows 版本， [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc) 會傳回 [**DLLVERSIONINFO**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo) 結構，其中包含主要和次要版本號碼、組建編號和平臺識別碼。 如果是 Windows 2000 和更新版本的系統， **DllGetVersion** 可能會傳回 [**DLLVERSIONINFO2**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2) 結構。 除了透過 **DLLVERSIONINFO** 提供的資訊之外， **DLLVERSIONINFO2** 也會提供可識別最新安裝 service pack 的修正程式編號，以提供更健全的方式來比較版本號碼。 由於 **DLLVERSIONINFO2** 的第一個成員是 **DLLVERSIONINFO** 結構，因此之後的結構會回溯相容。
+針對早于 Windows 2000 的 Windows 版本， [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc)會傳回 [**DLLVERSIONINFO**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo)結構，其中包含主要和次要版本號碼、組建編號和平臺識別碼。 針對 Windows 2000 和更新版本的系統， **DllGetVersion** 可能會傳回 [**DLLVERSIONINFO2**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2)結構。 除了透過 **DLLVERSIONINFO** 提供的資訊之外， **DLLVERSIONINFO2** 也會提供可識別最新安裝 service pack 的修正程式編號，以提供更健全的方式來比較版本號碼。 由於 **DLLVERSIONINFO2** 的第一個成員是 **DLLVERSIONINFO** 結構，因此之後的結構會回溯相容。
 
 ### <a name="using-dllgetversion"></a>使用 DllGetVersion
 
-下列範例函數 `GetVersion` 會載入指定的 DLL，並嘗試呼叫其 [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc) 函式。 如果成功，它會使用宏將 [**DLLVERSIONINFO**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo) 結構中的主要和次要版本號碼，封裝至傳回給呼叫應用程式的 **DWORD** 。 如果 DLL 未匯出 **DllGetVersion**，函數會傳回零。 在 Windows 2000 和更新版本的系統中，您可以修改函式來處理 **DllGetVersion** 傳回 [**DLLVERSIONINFO2**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2) 結構的可能性。 如果是的話，請使用該 **DLLVERSIONINFO2** 結構的 **ullVersion** 成員中的資訊來比較版本、組建編號和 service pack 版本。 [**MAKEDLLVERULL**](/windows/desktop/api/Shlwapi/nf-shlwapi-makedllverull)宏可簡化將這些值與 **ullVersion** 中的值進行比較的工作。
+下列範例函數 `GetVersion` 會載入指定的 DLL，並嘗試呼叫其 [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc) 函式。 如果成功，它會使用宏將 [**DLLVERSIONINFO**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo) 結構中的主要和次要版本號碼，封裝至傳回給呼叫應用程式的 **DWORD** 。 如果 DLL 未匯出 **DllGetVersion**，函數會傳回零。 使用 Windows 2000 和更新版本的系統，您可以修改函式來處理 **DllGetVersion** 傳回 [**DLLVERSIONINFO2**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2)結構的可能性。 如果是的話，請使用該 **DLLVERSIONINFO2** 結構的 **ullVersion** 成員中的資訊來比較版本、組建編號和 service pack 版本。 [**MAKEDLLVERULL**](/windows/desktop/api/Shlwapi/nf-shlwapi-makedllverull)宏可簡化將這些值與 **ullVersion** 中的值進行比較的工作。
 
 > [!Note]  
-> 不當使用 [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會造成安全性風險。 請參閱 **LoadLibrary** 檔，以取得如何使用不同版本的 Windows 正確載入 dll 的相關資訊。
+> 不當使用 [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會造成安全性風險。 如需如何正確載入具有不同 Windows 版本之 Dll 的相關資訊，請參閱 **LoadLibrary** 檔。
 
 
 ```C++
@@ -150,9 +150,9 @@ else
 ```
 
 
-## <a name="project-versions"></a>專案版本
+## <a name="project-versions"></a>Project版本
 
-為了確保您的應用程式與 .dll 檔案的不同目標版本相容，版本宏會出現在標頭檔中。 這些宏可用來定義、排除或重新定義不同版本 DLL 的特定定義。 如需這些宏的深入說明，請參閱 [使用 Windows 標頭](../winprog/using-the-windows-headers.md) 。
+為了確保您的應用程式相容于 .dll 檔案的不同目標版本，標頭檔中會有版本宏。 這些宏可用來定義、排除或重新定義不同版本 DLL 的特定定義。 如需這些宏的深入說明，請參閱[使用 Windows 標頭](../winprog/using-the-windows-headers.md)。
 
 例如，宏名稱 **\_ WIN32 \_ IE** 通常會在較舊的標頭中找到。 您必須負責將巨集定義為十六進位數位。 此版本號碼會定義使用 DLL 的應用程式目標版本。 下表顯示可用的版本號碼，以及每一個應用程式的效果。
 

@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ca19081b1ea963851e82d18912153434c3e38d1
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: cfc2321511be2ef912a6dce6710b233cb59dcc7712e9e8f63db890d8707822c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733771"
 ---
 # <a name="direct3d-12-raytracing-hlsl-shaders"></a>Direct3D 12 Raytracing HLSL 著色器
 

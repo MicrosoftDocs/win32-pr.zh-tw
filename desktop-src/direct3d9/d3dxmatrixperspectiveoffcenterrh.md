@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3d051894a6706cf8d58b81a85003666513f2a956
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d86aa735f8bafba6da5d697dc89b5e97469a6181de30862515ba8b94190d9cab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122838"
 ---
 # <a name="d3dxmatrixperspectiveoffcenterrh-function-d3dx9mathh"></a>D3DXMatrixPerspectiveOffCenterRH 函式 (D3dx9math) 
 

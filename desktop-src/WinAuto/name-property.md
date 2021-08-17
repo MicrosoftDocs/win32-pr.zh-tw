@@ -4,12 +4,12 @@ description: Name 屬性是用戶端用來為使用者識別、尋找或宣告�
 ms.assetid: 7533955a-9538-4ead-a6ca-f61dd1b4d5c5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e93d8b90190f81179d681600f4b1bfacf4665e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce046ef693e9e52323cdb7484bbdc291127b958d88857de6a8be4522b88e33de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133771"
 ---
 # <a name="name-property"></a>Name 屬性
 
@@ -29,9 +29,9 @@ ms.locfileid: "106996556"
 
 如果物件沒有其 **Name** 屬性的存取權，它就會將要求委派給其父系，並依其子識別碼進行識別。 例如，如果用戶端呼叫編輯控制項的 [ **名稱** ] 屬性，則編輯控制項會將查詢委派給其父系，以傳回標記編輯控制項的靜態文字控制項值。
 
- 
+ 
 
- 
+ 
 
 
 

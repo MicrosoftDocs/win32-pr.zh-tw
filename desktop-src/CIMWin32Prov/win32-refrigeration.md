@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 23db1490d184cbfe38d6c5b65fa7190273ad2a87
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 99b2a73ea9175947dc1ad8ca0082958e68b0316c87b070aebafd71918e36a48d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958897"
 ---
 # <a name="win32_refrigeration-class"></a>Win32 \_ 冷藏庫取出類別
 
@@ -867,7 +867,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 

@@ -32,12 +32,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 782f196fdbd3a09126a7b4d14be6789bb633f043
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ccb0a1a9bc4a10ec7f8a366f012446e0374dab299f8ee779f16cfeb38fb005b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147971"
 ---
 # <a name="msvm_virtualsystemmanagementservicesettingdata-class"></a>Msvm \_ VirtualSystemManagementServiceSettingData 類別
 
@@ -97,7 +97,7 @@ class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 限定詞： [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (32) 
 </dt> </dl>
 
-Oem 用來允許 BIOS 鎖定的 Windows 作業系統在虛擬機器中執行。 這個字串的長度必須剛好是32個字元。
+oem 用來允許 BIOS 鎖定的 Windows 作業系統在虛擬機器中執行。 這個字串的長度必須剛好是32個字元。
 
 這是唯讀屬性，但是可以使用 [**Msvm \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)類別的 [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmanagementservice.md)方法來變更。
 
@@ -143,7 +143,7 @@ Oem 用來允許 BIOS 鎖定的 Windows 作業系統在虛擬機器中執行。 
 限定詞： [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ( "[**Msvm \_ VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md)。**ConfigurationDataRoot**") 
 </dt> </dl>
 
-預設的外部資料根目錄。 根據預設，「*root* \\ ProgramData \\ Microsoft \\ Windows \\ 虛擬化」。
+預設的外部資料根目錄。 根據預設，「*root* \\ ProgramData \\ Microsoft \\ Windows \\ Virtualization」。
 
 這是唯讀屬性，但是可以使用 [**Msvm \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)類別的 [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmanagementservice.md)方法來變更。
 
@@ -161,7 +161,7 @@ Oem 用來允許 BIOS 鎖定的 Windows 作業系統在虛擬機器中執行。 
 指出預設是否應將記憶體中的檔案快取用於磁片。 您可以在 [**Msvm \_ StorageAllocationSettingData**](msvm-storageallocationsettingdata.md)類別的 **CachingMode** 欄位中，以每個磁片為基礎覆寫此值。
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -370,7 +370,7 @@ Oem 用來允許 BIOS 鎖定的 Windows 作業系統在虛擬機器中執行。 
 
 | 值                                                                                | 意義                                                                                     |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| <dl> <dt>**對**</dt> </dl>  | 您可以從本機和遠端 NUMA 節點配置記憶體。<br/>                   |
+| <dl> <dt>**是**</dt> </dl>  | 您可以從本機和遠端 NUMA 節點配置記憶體。<br/>                   |
 | <dl> <dt>**否**</dt> </dl> | 記憶體只能從指派給虛擬機器的 NUMA 節點進行配置。<br/> |
 
 
@@ -427,8 +427,8 @@ Oem 用來允許 BIOS 鎖定的 Windows 作業系統在虛擬機器中執行。 
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

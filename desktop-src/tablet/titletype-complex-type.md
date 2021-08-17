@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: ee57b54f10af432a8e30c1d304b5acba16b232f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdfa8e0ad25955c92adac195f6c5d6c7b53d56bb90e0df1f10b0b94d5f1ff7e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966697"
 ---
 # <a name="titletype-complex-type"></a>TitleType 複雜類型
 
@@ -33,7 +33,7 @@ ms.locfileid: "103852559"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                     |
 
 

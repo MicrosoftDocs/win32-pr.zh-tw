@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd942f8f3bd94323ec37c531047715dd50133474
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1240c99cb70b27b7112ac7eaa6c1db7175d1aef38f3f510a047a429ffc394268
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675598"
 ---
 # <a name="glcolor4s-function"></a>glColor4s 函式
 

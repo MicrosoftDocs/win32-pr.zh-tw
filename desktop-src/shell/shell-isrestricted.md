@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3e428c914cf95d282fd721071009efc70fcb3a4d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 40e6c23f14b3c09a6cfe4885cc7b7bf877e3e4bfbf538645cf96b99ea451776f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968547"
 ---
 # <a name="shellisrestricted-method"></a>IsRestricted 方法
 
@@ -102,9 +102,9 @@ Microsoft Visual Basic 目前無法使用這個方法。
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何使用 **IsRestricted** 從 **系統** 子機碼取出 **undockwithoutlogon** 限制的資料值。 JScript 和 VBScript 會顯示使用方式。
+下列範例示範如何使用 **IsRestricted** 從 **系統** 子機碼取出 **undockwithoutlogon** 限制的資料值。 JScript 和 VBScript 都會顯示使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -149,10 +149,10 @@ VBScript
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |
 
 

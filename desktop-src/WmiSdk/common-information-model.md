@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 通用訊息模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e53e4e2dc06e03a1f19b5b47ba0b94d7a866a5e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d095dfb7f05b7637ac027e6ea02eeba2e10e12845670aebd635e50e8c3265fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131640"
 ---
 # <a name="common-information-model"></a>通用訊息模型
 
@@ -18,7 +18,7 @@ ms.locfileid: "104027173"
 
 CIM 是與語言無關的程式設計模型，使用物件導向技術來描述企業。 使用三個層級的父系/子系繼承時，CIM 可以同時描述企業的一般和特定層面。 CIM 也會使用稱為「關聯」的技術，將企業模型的不同部分連結在一起，並使用架構來區別不同的管理環境。
 
-CIM 的設計目的是要在管理環境中提供一致的邏輯和實體物件的觀點。 CIM 使用稱為「類別」的物件導向結構來代表 managed 物件。 就像 c + + 或 COM 類別一樣，CIM 類別可以包含屬性來描述行為的資料和方法。 就像一組 COM 類別一樣，CIM 未系結至任何平臺。 不過，WMI 包含了可說明 Microsoft Windows 作業系統平臺之 CIM 的延伸模組。
+CIM 的設計目的是要在管理環境中提供一致的邏輯和實體物件的觀點。 CIM 使用稱為「類別」的物件導向結構來代表 managed 物件。 就像 c + + 或 COM 類別一樣，CIM 類別可以包含屬性來描述行為的資料和方法。 就像一組 COM 類別一樣，CIM 未系結至任何平臺。 不過，WMI 包含 CIM 的延伸模組，可描述 Microsoft Windows 作業系統平臺。
 
 CIM 會定義三種層級的類別：
 
@@ -32,7 +32,7 @@ CIM 會定義三種層級的類別：
 
 -   Extended
 
-    擴充類別代表屬於通用類別的技術特有新增的 managed 物件。 擴充類別通常適用于特定平臺，例如 UNIX 或 Microsoft Win32 環境。 Win32 無系統程式類別是擴充類別的範例。 [**\_**](/windows/desktop/CIMWin32Prov/win32-computersystem)
+    擴充類別代表屬於通用類別的技術特有新增的 managed 物件。 擴充類別通常會套用至特定的平臺，例如 UNIX 或 Microsoft Win32 環境。 Win32 無系統程式類別是擴充類別的範例。 [**\_**](/windows/desktop/CIMWin32Prov/win32-computersystem)
 
 開發人員可以從另一個類別衍生一個類別。 衍生類別代表父類別的特殊案例，並繼承父系的所有屬性和方法。 例如， [**Win32 \_**](/windows/desktop/CIMWin32Prov/win32-computersystem) UnitaryComputerSystem 會繼承自 [**CIM \_**](/windows/desktop/CIMWin32Prov/cim-unitarycomputersystem)。 繼承關聯性可以使用系統屬性 **\_ \_ 衍生**、 **\_ \_ 時代** 和 **\_ \_ 超類別** 來決定。 **\_ \_ 衍生** 系統屬性是一個字串陣列，其中列出整個繼承鏈（最多至和包含根類別，也包含在 **\_ \_ 時代** 中）。 **\_ \_ 超級類別** 系統屬性會顯示目前類別的直屬父代。
 

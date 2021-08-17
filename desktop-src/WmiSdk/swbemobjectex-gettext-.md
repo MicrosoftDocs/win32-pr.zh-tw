@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 6f174397b1ace85acd90ffe3def6b8122bf8d7f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8feace72eeb51ed0904ad748892ca3c1b3adea9c8ca6c97ac7a76ea11890dd08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922426"
 ---
 # <a name="swbemobjectexgettext_-method"></a>SWbemObjectEx. GetText \_ 方法
 
@@ -118,7 +118,7 @@ strObj = .GetText_( _
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
+<th>名稱</th>
 <th>值</th>
 </tr>
 </thead>
@@ -185,8 +185,8 @@ wscript.echo Text
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemObjectEx<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemObjectEx<br/>                                                          |

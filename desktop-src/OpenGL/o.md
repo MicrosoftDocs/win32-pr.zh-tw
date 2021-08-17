@@ -9,12 +9,12 @@ keywords:
 - 正交
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f52c65f05f0d8ee87b8b56d295556039b5686c74
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 67ac321052535e531a8ec465f497500433996a4138e061e6b4baef2aae84cd59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144151"
 ---
 # <a name="o-opengl"></a>O (OpenGL) 
 

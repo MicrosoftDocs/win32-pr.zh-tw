@@ -4,12 +4,12 @@ ms.assetid: 0d57983c-c8f3-4095-9495-a3ec5d280bda
 title: 'Decaling (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5606bdbc798d8b1e834aff53b04984f659af650
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e16b07eefcbf43bf2a3c71deb1a1073a656bb8d637696af71484a7a3e478ff8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117910214"
 ---
 # <a name="decaling-direct3d-9"></a>Decaling (Direct3D 9) 
 

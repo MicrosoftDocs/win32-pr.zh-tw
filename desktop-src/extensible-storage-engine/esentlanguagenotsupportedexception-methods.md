@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102138
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: cdcf059a113431c1784c22ffafc45f063492bea6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96ac59b90a7953f43b236976706858376f151d2784192f7b3de50847b196f4ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971962"
 ---
 # <a name="esentlanguagenotsupportedexception-methods"></a>EsentLanguageNotSupportedException 方法
 

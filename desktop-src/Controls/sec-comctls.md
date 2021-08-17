@@ -1,21 +1,21 @@
 ---
-title: Microsoft Windows 控制項安全性考慮
+title: Microsoft Windows 控制項的安全性考慮
 description: 本主題提供與 Windows 控制項相關之安全性考慮的資訊。
 ms.assetid: d5396fa1-452e-40e1-beaf-ae04690048f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e29ba986ddd1db980134f428c8abf152321617ef
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 45faa0f3d2f521038c056055329d70541625bac88c16e62c1581b55ae2a6c5bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104093459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696508"
 ---
 # <a name="security-considerations-microsoft-windows-controls"></a>安全性考慮： Microsoft Windows 控制項
 
 本主題提供與 Windows 控制項相關之安全性考慮的資訊。 本主題中的資訊並不提供您需要瞭解的安全性問題，請使用它作為此技術領域的起點和參考。
 
-電腦之間的互連能力很常見;開發人員的主要考慮必須是應用程式安全性。 下列各節將討論在撰寫 Windows 控制項的程式設計時應考慮的一些潛在安全性問題。
+電腦之間的互連能力很常見;開發人員的主要考慮必須是應用程式安全性。 下列各節將討論在設計 Windows 控制項時應考慮的一些潛在安全性問題。
 
 -   [以 Null 終止的控制訊息](#null-terminated-control-messages)
 -   [字串使用](#string-use)
@@ -30,7 +30,7 @@ ms.locfileid: "104093459"
 
 ## <a name="string-use"></a>字串使用
 
-當您編寫 Windows 控制項的程式時，必須操作字串。 幾乎每個控制項都需要插入文字。 例如，若要填入清單方塊，您必須將字串載入控制項。 因為使用字串不正確通常會造成緩衝區溢位，請採取預防措施以避免此安全性風險。
+當您設計 Windows 控制項的程式時，必須操作字串。 幾乎每個控制項都需要插入文字。 例如，若要填入清單方塊，您必須將字串載入控制項。 因為使用字串不正確通常會造成緩衝區溢位，請採取預防措施以避免此安全性風險。
 
 For more information about buffer overruns, see *Writing Secure Code* by Michael Howard and David LeBlanc, Microsoft Press, 2002 and [Best Practices for the Security APIs](/windows/desktop/SecBP/best-practices-for-the-security-apis).
 
@@ -74,7 +74,7 @@ For more information about buffer overruns, see *Writing Secure Code* by Michael
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -95,6 +95,6 @@ For more information about buffer overruns, see *Writing Secure Code* by Michael
 [安全性 Api 的最佳作法](/windows/desktop/SecBP/best-practices-for-the-security-apis)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

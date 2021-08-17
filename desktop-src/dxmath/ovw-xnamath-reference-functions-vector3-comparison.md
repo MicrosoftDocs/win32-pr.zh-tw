@@ -4,12 +4,12 @@ ms.assetid: 8c5f71fd-2ef8-86db-42de-da3da3c17e41
 title: DirectXMath 程式庫3D 向量比較函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21217bb0f2cc92d0a62966c0559311a7091836c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c183ab2fc0985eb9fb58f7fd4a714aa663610f65cb13ab4b55bd9dda1e1523ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118198"
 ---
 # <a name="directxmath-library-3d-vector-comparison-functions"></a>DirectXMath 程式庫3D 向量比較函數
 

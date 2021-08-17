@@ -13,7 +13,7 @@ ms.locfileid: "119982588"
 ---
 # <a name="playcap-sample"></a>PlayCap 範例
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 簡易 capture 應用程式。
 

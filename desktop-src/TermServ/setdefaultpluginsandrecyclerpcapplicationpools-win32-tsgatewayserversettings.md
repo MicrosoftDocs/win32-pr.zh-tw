@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b9ead29e987b68ec3f041010be5dde64d8a2b54
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61272f6abe62b719667668d60ecdb7ae97c5da717893acd3b89413012c7612d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137991"
 ---
 # <a name="setdefaultpluginsandrecyclerpcapplicationpools-method-of-the-win32_tsgatewayserversettings-class"></a>Win32 TSGatewayServerSettings 類別的 SetDefaultPluginsAndRecycleRpcApplicationPools 方法 \_
 

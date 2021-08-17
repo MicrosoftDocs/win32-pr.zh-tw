@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2996ffc46e2f6b37cdfec12cd4ee2fc62efa188a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b83f48f024ba79eaa55ad4ae333e8f093cd307e5508e0bb8338ce9bbc4a1bef7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615058"
 ---
 # <a name="jetopenfile-function"></a>JetOpenFile 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetopenfile-function"></a>JetOpenFile 函式
 
@@ -65,7 +65,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -75,7 +75,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -97,7 +97,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>JET_errFileNotFound</p></td>
-<td><p>作業失敗，因為它無法開啟要求的檔案，因為在指定的路徑中找不到該檔案。 此錯誤只會由 Windows 2000 傳回。</p></td>
+<td><p>作業失敗，因為它無法開啟要求的檔案，因為在指定的路徑中找不到該檔案。 只有 Windows 2000 才會傳回此錯誤。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInstanceUnavailable</p></td>
@@ -111,8 +111,8 @@ _**適用于：** Windows |Windows Server_
 <td><p>JET_errInvalidParameter</p></td>
 <td><p>提供的其中一個參數包含未預期的值，或包含的值在與另一個參數的值結合時並沒有意義。 在下列情況下， <strong>JetOpenFile</strong> 可能會發生：</p>
 <ul>
-<li><p>指定的實例控制碼 (Windows XP 和更新版本) 無效。</p></li>
-<li><p>指定的 filename 參數為 Null 或 (Windows XP 和更新版本) 的長度為零的字串。</p></li>
+<li><p>指定的實例控制碼無效 (Windows XP 和更新版本) 。</p></li>
+<li><p>指定的 filename 參數為 Null 或長度為零的字串 (Windows XP 和更新版本) 。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -137,7 +137,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>作業失敗，因為嘗試使用舊版模式中的引擎 (Windows 2000 相容性模式) 在事實中，如果有多個實例存在，則只支援一個實例。</p></td>
+<td><p>作業失敗，因為嘗試使用舊版模式中的引擎 (Windows 2000 相容性模式) 只有當有多個實例存在時，才支援一個實例。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>
@@ -161,7 +161,7 @@ _**適用于：** Windows |Windows Server_
 
 **JetOpenFile** 不會在開啟要求的檔案之前判斷提示備份許可權。
 
-此函式所報告之檔案的大小，可能不符合磁片上的檔案大小。 在 Windows XP 和更新版本中，額外的資訊可能會附加到資料庫檔案，資料庫引擎會在還原作業期間使用該檔案。 因此，應用程式應該只依賴 **JetOpenFile** 傳回的檔案大小，或 [JetReadFile](./jetreadfile-function.md)所傳回之資料的實際位元組數目。
+此函式所報告之檔案的大小，可能不符合磁片上的檔案大小。 在 Windows XP 和更新版本中，額外的資訊可能會附加到資料庫檔案，在還原作業期間，資料庫引擎會使用此檔案。 因此，應用程式應該只依賴 **JetOpenFile** 傳回的檔案大小，或 [JetReadFile](./jetreadfile-function.md)所傳回之資料的實際位元組數目。
 
 #### <a name="requirements"></a>規格需求
 
@@ -177,7 +177,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

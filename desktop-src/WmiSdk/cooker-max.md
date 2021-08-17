@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: COOKER_MAX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 327d4d4a1c9e0a6d00da8f2fd9da0c686a15e2a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21e0eb1c914e390f0d3a92e1cbaddafa5583d4a0b39d90ff9fa516068b40e181
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131560"
 ---
 # <a name="cooker_max"></a>COOKER \_ MAX
 
