@@ -4,12 +4,12 @@ description: 裝置的行為是由它所公開的服務所定義。
 ms.assetid: 5b352870-6de1-42f2-a178-ed7036b7afc9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb702adf3ccb0f21bc71f08e98427cca15495f3b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: fce2857c11a02ef5eeebe7b2cd5e75ee76138929e5bd95a2e3bdfa7ffd2c71dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106974779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137261"
 ---
 # <a name="implementing-device-behavior"></a>執行裝置行為
 
@@ -175,7 +175,7 @@ interface IUPnPService_scpd : IUnknown
 
 提供服務功能的物件稱為「 [*服務物件」（service object*](s-gly.md)）。 除了提供服務功能之外，服務物件還會使用 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 介面來處理錯誤。 如需詳細資訊，請參閱 [使用裝置主機 API 搭配 UPnP 技術](using-the-device-host-api-with-upnp-technology.md)。
 
-為了確保與不支援 out 參數的 Visual Basic 的相容性 \[ \] ，服務描述中的 **方向** 輸出 **/DIRECTION** 參數會轉換成 IDL 中的 \[ in、out \] 參數。 伺服器必須釋放這些 \[ in、out \] 參數。
+為了確保與不支援 out 參數的 Visual Basic 的相容性 \[ \] ，服務描述中的 **方向** 輸出 **/direction** 參數會轉換成 IDL 中的 \[ in、out \] 參數。 伺服器必須釋放這些 \[ in、out \] 參數。
 
 ## <a name="implementing-a-device-control-object"></a>執行裝置控制物件
 

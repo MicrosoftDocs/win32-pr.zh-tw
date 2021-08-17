@@ -4,12 +4,12 @@ ms.assetid: 535d644d-4045-4ff1-9c12-a3d5f665453d
 title: 'INTERNET_PORT (WinHTTP. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fb0f5e18e8dba25db231185e34b53c033682367
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48ca41ee7291f7dc9c1f3d42805145ca3c049a925ffd365aef2864856aec33d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133141"
 ---
 # <a name="internet_port"></a>網際網路 \_ 埠
 
@@ -62,8 +62,8 @@ ms.locfileid: "106978329"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>      |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>   |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>      |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>   |
 | 標頭<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 

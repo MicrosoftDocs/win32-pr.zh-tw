@@ -11,12 +11,12 @@ api_name:
 - Provider
 api_type:
 - Schema
-ms.openlocfilehash: b5b36c973bf44175b90e25fd2a141fed3624d8b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5ce12ddf15ad57071f2717e5801fbd05f8e2925ea474345f7c376bc2445cd02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119347158"
 ---
 # <a name="provider-dataroamingpartners-element"></a>提供者 (DataRoamingPartners) 元素
 

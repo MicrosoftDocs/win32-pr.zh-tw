@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: df3ffb51bbe8fe8150d19a390e62640e64ded5c9
-ms.sourcegitcommit: 12e9b14501d51641b690ee0cf764e2b91eb9a140
+ms.openlocfilehash: 7dbf13629b9c3b9b38cc3bd72a8a992ab40bd09c0333c155a7c109f71466f23b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "104374231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119242"
 ---
 # <a name="interlockedcomparestore-function-hlsl-reference"></a>InterlockedCompareStore 函式 (HLSL 參考) 
 
@@ -28,9 +28,9 @@ ms.locfileid: "104374231"
 
 ``` syntax
 void InterlockedCompareStore(
-  in R dest,
-  in T compare_value,
-  in T value
+  in R dest,
+  in T compare_value,
+  in T value
 );
 ```
 
@@ -85,19 +85,19 @@ void InterlockedCompareStore(
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |  x     | x    |  x     |  x       | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -109,9 +109,9 @@ void InterlockedCompareStore(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

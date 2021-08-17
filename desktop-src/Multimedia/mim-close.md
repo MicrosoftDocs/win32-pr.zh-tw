@@ -3,7 +3,7 @@ title: 'MIM_CLOSE 訊息 (Mmsystem .h) '
 description: '\_當 midi 輸入裝置關閉時，會將 MIM 關閉訊息傳送至 midi 輸入回撥函式。'
 ms.assetid: c19ecd3a-c3a5-4f17-9d44-d0d71eefcb15
 keywords:
-- MIM_CLOSE message Windows 多媒體
+- MIM_CLOSE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5549d9bef1e802b0b34ab6437b1386519a25d349
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b3b1509573d5c69fd2e95cabeb8ba2c4059d5d37c9cfe3c957ec8b8f75f5abfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428168"
 ---
-# <a name="mim_close-message"></a>MIM \_ 關閉訊息
+# <a name="mim_close-message"></a>MIM \_關閉訊息
 
-當 MIDI 輸入裝置關閉時，會將 **MIM \_ 關閉** 訊息傳送至 midi 輸入回撥函式。
+當 midi 輸入裝置關閉時，會將 **MIM \_ 關閉** 訊息傳送至 midi 輸入回撥函式。
 
 
 ```C++
@@ -68,7 +68,7 @@ dwParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

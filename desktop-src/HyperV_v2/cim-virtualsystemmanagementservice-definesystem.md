@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2e38111d52044ed385fdd8cd19dd9094834e794c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a18145a2b59e1ba93967ad7f1d529466dfc1e6ac094b74d139a36fbe6f77a57a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068638"
 ---
 # <a name="definesystem-method-of-the-cim_virtualsystemmanagementservice-class"></a>CIM VirtualSystemManagementService 類別的 DefineSystem 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: 9233d15d-fa99-41a2-a253-22f5ae5bf788
 title: " (Direct3D 9) 的組合"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01bca61559d2773bd1e4f7dc345e9ad4c1fb6fcb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9dd6d11f98a5913c32d8f71385ce9b15ab5e7047c4db8394d5b0decee87f7f7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123385"
 ---
 # <a name="compositing-direct3d-9"></a> (Direct3D 9) 的組合
 

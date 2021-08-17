@@ -5,12 +5,12 @@ ms.assetid: 3b378071-ebd6-47b0-8a9c-3e671505011a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539eafca38c19855fdb057ceeb6e79cb4613773a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f538259134d539104e55706578778931a1180a1901a9891eec7f62f1f40144b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119423738"
 ---
 # <a name="using-remote-desktop-services-virtual-channels"></a>使用遠端桌面服務的虛擬通道
 
@@ -57,11 +57,11 @@ ms.locfileid: "103672035"
 
 </dd> </dl>
 
-如果您已在遠端桌面服務部署中啟用虛擬通道的應用程式，您也可以透過遠端桌面 ActiveX 控制項，讓應用程式可供存取 RD 工作階段主機伺服器的用戶端電腦使用。 如需詳細資訊，請參閱 [使用具有虛擬通道的遠端桌面 ActiveX 控制項](using-the-remote-desktop-activex-control-with-virtual-channels.md)。
+如果您已在遠端桌面服務部署中啟用虛擬通道的應用程式，您也可以透過遠端桌面 ActiveX 控制項，將應用程式提供給存取 RD 工作階段主機伺服器的用戶端電腦使用。 如需詳細資訊，請參閱[使用遠端桌面 ActiveX 控制項搭配虛擬通道](using-the-remote-desktop-activex-control-with-virtual-channels.md)。
 
- 
+ 
 
- 
+ 
 
 
 

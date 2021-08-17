@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 621e97fd20b6b96d275044dc7cbe701faee29712
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 08f7039505846d7a35bbd0e077456905c0d29ad13be398fe673ca5c1f8da25e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066678"
 ---
 # <a name="source-attribute"></a>source 屬性
 
@@ -136,6 +136,6 @@ IMPLTYPEFLAG \_ FSOURCE、VARFLAG \_ 來源、FUNCFLAG \_ 來源
 [TYPEFLAGS](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

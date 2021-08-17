@@ -4,16 +4,16 @@ ms.assetid: bfe0d23d-18fa-4438-96af-da5d44a76b34
 title: System.Doc>ument。CharacterCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53312b9c008ea3c6b7b125e3b5d3a8ad8cb9bfd4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b8ee4bb5713d1646362b0407026d7edccde0ef7c1684508795efaac957c2e7d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108101136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119352958"
 ---
 # <a name="systemdocumentcharactercount"></a>System.Doc>ument。CharacterCount
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

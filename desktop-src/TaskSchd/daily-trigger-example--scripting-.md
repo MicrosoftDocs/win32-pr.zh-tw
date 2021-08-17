@@ -1,6 +1,6 @@
 ---
 title: " (腳本) 的每日觸發程式範例"
-description: 此腳本範例會示範如何建立在每天上午 8 00 執行「記事本」的工作。
+description: 這個腳本範例會示範如何建立在每天上午 8 00 執行記事本的工作。
 ms.assetid: a13bd54d-b45a-46e5-8281-d080f50f6bef
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,29 +9,29 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3399934786e1cd0f95ca020c92027ccafafa5272
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 530d687264af9d2e7dbd4e9d05cf7dde39a449d3249c3576a35edc8a9e9f088d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139531"
 ---
 # <a name="daily-trigger-example-scripting"></a> (腳本) 的每日觸發程式範例
 
-此腳本範例會示範如何建立在每天上午8:00 執行「記事本」的工作。 此工作包含每日觸發程式，指定啟動觸發程式的起始界限，以及指定工作執行的當日時間、指定工作每天執行的觸發程式間隔，以及用來停用觸發程式的結束界限。 此範例也會顯示如何設定觸發程式的重複模式，以重複執行工作。 此工作也包含執行「記事本」的可執行動作。
+這個腳本範例會示範如何建立在每天上午8:00 執行記事本的工作。 此工作包含每日觸發程式，指定啟動觸發程式的起始界限，以及指定工作執行的當日時間、指定工作每天執行的觸發程式間隔，以及用來停用觸發程式的結束界限。 此範例也會顯示如何設定觸發程式的重複模式，以重複執行工作。 此工作也包含執行記事本的可執行動作。
 
 下列程式描述如何排程工作，以在每天上午8:00 啟動可執行檔。  (這些步驟對應至範例程式碼中所含的程式碼批註。 ) 
 
-**將 [記事本] 排定在每天上午8:00 開始**
+**排定在每天上午8:00 開始記事本**
 
 1.  建立 [**TaskService**](taskservice.md) 物件。 此物件可讓您在指定的資料夾中建立工作。
 2.  取得工作資料夾並建立工作。 使用 [**TaskService. GetFolder**](taskservice-getfolder.md) 方法取得儲存工作的資料夾，以及使用 [**TaskService. NewTask**](taskservice-newtask.md) 方法來建立代表工作的 [**TaskDefinition**](taskdefinition.md) 物件。
-3.  使用 [**TaskDefinition**](taskdefinition.md) 物件定義工作的相關資訊。 您可以使用 [ [**TaskDefinition**](taskdefinition-settings.md) ] 屬性來定義決定工作排程器服務如何執行工作的設定，以及使用 [**TaskDefinition RegistrationInfo**](taskdefinition-registrationinfo.md) 屬性來定義描述工作的資訊。
+3.  使用 [**TaskDefinition**](taskdefinition.md) 物件定義工作的相關資訊。 您可以使用 [**設定 TaskDefinition**](taskdefinition-settings.md)屬性來定義決定工作排程器服務如何執行工作的設定，以及使用 [**TaskDefinition RegistrationInfo**](taskdefinition-registrationinfo.md)屬性來定義描述工作的資訊。
 4.  使用 [**TaskDefinition**](taskdefinition-triggers.md) 屬性建立每日觸發程式。 這個屬性會提供用來建立觸發程式之 [**TriggerCollection**](triggercollection.md) 物件的存取權。 使用 [**TriggerCollection**](triggercollection-create.md) 方法 (指定您要建立的觸發程式類型) 建立每日觸發程式。 當您建立觸發程式時，請設定啟動界限來啟動觸發程式，並指定工作執行的時間、天數之間的間隔，以及結束界限以停用觸發程式。 下列範例顯示如何設定觸發程式的重複模式，以重複執行工作。
 5.  使用 [ [**TaskDefinition**](taskdefinition-actions.md) ] 屬性，建立要執行之工作的動作。 這個屬性會提供用來建立動作之 [**actioncollection 動作**](actioncollection.md) 物件的存取權。 使用 [**actioncollection 動作**](actioncollection-create.md) 方法來指定您要建立的動作類型。 這個範例會使用 [**ExecAction**](execaction.md) 物件，代表執行命令列操作的動作。
-6.  使用 [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) 方法註冊工作。 在此範例中，工作會在每天上午8:00 啟動「記事本」。
+6.  使用 [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) 方法註冊工作。 在此範例中，工作會在每天上午8:00 開始記事本。
 
-下列 VBScript 範例示範如何排程工作每天上午8:00 執行 [記事本]。
+下列 VBScript 範例示範如何排程工作，以便每天上午8:00 執行記事本。
 
 
 ```VB
@@ -141,9 +141,9 @@ WScript.Echo "Task submitted."
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

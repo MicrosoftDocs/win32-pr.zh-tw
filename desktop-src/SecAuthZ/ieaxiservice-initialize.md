@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2b2e388f955c968220223519150fc4dc5b7af4a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 911d955f84d81b225a1b4062e47b2b9b6ab6d058aa6df2e6a72a8d40242345a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414888"
 ---
 # <a name="ieaxiserviceinitialize-method"></a>IeAxiService：： Initialize 方法
 
-**Initialize** 方法會檢查及下載 ActiveX 物件。 如果物件符合原則需求，這個方法會初始化安裝 ActiveX 物件的系統物件。
+**Initialize** 方法會檢查並下載 ActiveX 物件。 如果物件符合原則需求，這個方法會初始化安裝 ActiveX 物件的系統物件。
 
 ## <a name="syntax"></a>語法
 
@@ -47,7 +47,7 @@ SECURITY_STATUS Initialize(
 *hwndParent* \[在\]
 </dt> <dd>
 
-嘗試安裝 ActiveX 控制項之視窗的父視窗控制碼。
+嘗試安裝 ActiveX 控制項之視窗的父視窗的控制碼。
 
 </dd> <dt>
 
@@ -82,14 +82,14 @@ SECURITY_STATUS Initialize(
 *pbstrNonce* \[擴展\]
 </dt> <dd>
 
-可以用來在呼叫其他方法時，用來共用狀態資訊的內容，用來驗證及下載 ActiveX 物件。
+可以用來在呼叫其他方法時，用來共用狀態資訊的內容，用來驗證和下載 ActiveX 物件。
 
 </dd> <dt>
 
 *ppISyncBrokerInterface* \[擴展\]
 </dt> <dd>
 
-[**IeAxiSystemInstaller**](ieaxisysteminstaller.md)介面的實例的指標，該介面會安裝 ActiveX 控制項。
+[**IeAxiSystemInstaller**](ieaxisysteminstaller.md)介面實例的指標，該實例會安裝 ActiveX 控制項。
 
 </dd> </dl>
 
@@ -115,7 +115,7 @@ SECURITY_STATUS Initialize(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Business、Windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windowsvista Business、Windows vista Enterprise、Windows vista 旗艦版傳統型 \[ 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                 |
 | IID<br/>                      | IID \_ IeAxiService 定義為 E9E92380-9ECD-4982-A0EB-6815A56CCF27<br/>                           |
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0678d7f7218d9cb4b625548237fd91fe104ddc76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47a8e12cccd6bef00d7dff56201f7f237ecbde6bc7e4748841249a8e1e1452a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975408"
 ---
 # <a name="esentcolumncannotbecompressedexception-constructor"></a>EsentColumnCannotBeCompressedException 函式
 

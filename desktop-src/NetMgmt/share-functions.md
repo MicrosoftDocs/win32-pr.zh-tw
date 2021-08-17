@@ -4,12 +4,12 @@ description: 網路管理共用功能會控制共用資源。 共用資源是伺
 ms.assetid: 3764c667-2290-48e6-ba3a-c74eee2c27f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5034d46e233ebb7ed4de691bd79942a3ecdf5263
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e97dc4570c3ef1300322bdf9bd4c9616176e31661319ac77378c61a71667523f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064288"
 ---
 # <a name="share-functions"></a>共用函式
 
@@ -30,7 +30,7 @@ ms.locfileid: "104382573"
 
 
 
- 
+ 
 
 這些共用函式僅適用于伺服器訊息區上的共用， (LAN Manager) Server。 這些共用功能不支援 (DFS) 共用分散式檔案系統。 例如， [**NetShareGetInfo**](/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo) 函式只能取得 SMB 伺服器上指定之共用資源的資訊。 若要使用不同的網路提供者取出共用的資訊 (WebDAV 或 DFS 共用（例如) ），請使用 [**WNetGetConnection**](/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona) 函式。
 
@@ -63,6 +63,6 @@ ms.locfileid: "104382573"
 
 如果您正在針對 Active Directory 進行程式設計，您可以呼叫特定 Active Directory 服務介面 (ADSI) 方法，以取得您可以藉由呼叫網路管理共用功能來達成的相同功能。 如需詳細資訊，請參閱 [**IADsFileShare**](/windows/desktop/api/iads/nn-iads-iadsfileshare)。
 
- 
+ 
 
- 
+ 

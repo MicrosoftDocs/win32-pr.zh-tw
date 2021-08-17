@@ -4,12 +4,12 @@ ms.assetid: 6e7899e3-9b64-48bd-8683-aba627458f2a
 title: DocumentID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b267fead0322351cde396bf2eb6d0efa8c523f0
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 31d309045db166901b9f521dd5a98cc47969190f54f8872818b33a8967a499b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447588"
 ---
 # <a name="documentid"></a>DocumentID
 
@@ -25,7 +25,7 @@ ms.locfileid: "112409281"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|---------------------|
 | 項目類型 <br/>   | 屬性<br/> |
 | 範圍前置詞 <br/> | 文件<br/> |
@@ -51,7 +51,7 @@ ms.locfileid: "112409281"
 
 
 
-| Name                           | 資料類型         | 單位 | 支援的值 | 總結 |
+| 名稱                           | 資料類型         | 單位 | 支援的值 | 摘要 |
 |--------------------------------|-------------------|------|------------------|---------|
 | \_DocumentIDValue\_<br/> | string<br/> |      |                  |         |
 

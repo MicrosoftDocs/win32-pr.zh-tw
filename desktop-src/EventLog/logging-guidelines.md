@@ -4,12 +4,12 @@ ms.assetid: 58a6569a-2775-4687-bf99-579fa4153191
 title: 記錄指導方針
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1210757a7961d82d13d4887e40fbd3837b86138
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b5bac0c2827478953a64c30e21d546e57932cf07599285f60d6ff6601eefa9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383758"
 ---
 # <a name="logging-guidelines"></a>記錄指導方針
 

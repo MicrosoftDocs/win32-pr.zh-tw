@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c86b04b56c61d394df856b9eb5a96a5946b2e3be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6627cea6876cbec7c5ec4a3f37453d5d7e2025672cd1c738cdf3730505d24a40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118595"
 ---
 # <a name="boundingboxcreatefrompoints-methods"></a>BoundingBox. CreateFromPoints 方法
 

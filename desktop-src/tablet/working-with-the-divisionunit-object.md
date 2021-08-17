@@ -4,12 +4,12 @@ ms.assetid: 13f6121c-2b83-4788-9d06-460dc03094bf
 title: 使用 DivisionUnit 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ade8b617ae8e64c2641ef53a628a44e72e4fc35f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77c2ce09bf2b67f5724bba523219d0555063c3f7215810d3b11c48596f979fdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966507"
 ---
 # <a name="working-with-the-divisionunit-object"></a>使用 DivisionUnit 物件
 

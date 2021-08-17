@@ -1,19 +1,19 @@
 ---
-description: 應用程式桌面工具列 (也稱為 appbar) 是類似于 Windows 工作列的視窗。
+description: 應用程式桌面工具列 (也稱為 appbar) 是與 Windows 工作列類似的視窗。
 ms.assetid: d9f63cb1-e2cc-4a3b-a3b8-de028e0f0123
 title: 使用應用程式桌面工具列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 140ef94c1daeb571cd0d766dfbd4dc28b7991efd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3c8604136040f5f3a1b4c1e9fcecb3b0c26b087724f477e592857ca4046d3a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351448"
 ---
 # <a name="using-application-desktop-toolbars"></a>使用應用程式桌面工具列
 
-*應用程式桌面工具列* (也稱為 appbar) 是類似于 Windows 工作列的視窗。 它會錨定到畫面邊緣，通常會包含可讓使用者快速存取其他應用程式和視窗的按鈕。 系統會防止其他應用程式使用 appbar 所使用的桌面區域。 在任何指定時間，桌面上都可以有任意數目的透過像 appbars。
+*應用程式桌面工具列* (也稱為 appbar) 是與 Windows 工作列類似的視窗。 它會錨定到畫面邊緣，通常會包含可讓使用者快速存取其他應用程式和視窗的按鈕。 系統會防止其他應用程式使用 appbar 所使用的桌面區域。 在任何指定時間，桌面上都可以有任意數目的透過像 appbars。
 
 本主題包含下列各節。
 
@@ -29,7 +29,7 @@ ms.locfileid: "104112353"
 
 ## <a name="about-application-desktop-toolbars"></a>關於應用程式桌面工具列
 
-Windows 提供的 API 可讓您利用系統提供的 appbar 服務。 這些服務可協助確保應用程式定義的透過像 appbars 能以另一個和工作列順暢地運作。 系統會維護每個 appbar 的相關資訊，並傳送透過像 appbars 訊息，通知他們可能會影響其大小、位置和外觀的事件。
+Windows 提供可讓您利用系統所提供之 appbar 服務的 API。 這些服務可協助確保應用程式定義的透過像 appbars 能以另一個和工作列順暢地運作。 系統會維護每個 appbar 的相關資訊，並傳送透過像 appbars 訊息，通知他們可能會影響其大小、位置和外觀的事件。
 
 ### <a name="sending-messages"></a>傳送訊息
 

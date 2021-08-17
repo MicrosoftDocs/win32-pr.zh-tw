@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af61999f0527b599cf358c38288a8c67473445a9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e9fb7479667fb9757924dcba765c34138cf01c1ad6645ce7bfdc525be393e77f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066869"
 ---
 # <a name="notify_flag-attribute"></a>通知 \_ 旗標屬性
 
@@ -81,9 +81,9 @@ void MyProcedure_notify_flag(boolean __MIDL_NotifyFlag);
 [**通知**](notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,19 +3,19 @@ title: 一般的三映射來源
 description: 一般的三映射來源
 ms.assetid: ce0b009a-b008-4e8b-875b-b2ff3c1c0b81
 keywords:
-- Windows Media Player 行動外觀、按鈕影像來源
+- Windows Media Player行動外觀，按鈕影像來源
 - 外觀，按鈕影像來源
 - 外觀、按鈕的參考
 - 外觀、影像來源中的按鈕
 - 外觀、按鈕的影像來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 109509914c498e950f148caf7c260ef814c1074f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3ea191d7fec8d174c56287d30007f86d159bb27ae349314f0d4959a797d10d93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119389628"
 ---
 # <a name="normal-tertiary-image-source"></a>一般的三映射來源
 
@@ -42,9 +42,9 @@ Pushed @ 286,0
 [**按鈕**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

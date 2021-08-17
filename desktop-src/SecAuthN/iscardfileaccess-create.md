@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2cfc7e1492505191a7912f23e5471f5fa72fdcd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc6609e2b39c8e0e6b2c034d9220d78b3e28194ca1d92a383236411e77802164
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119481308"
 ---
 # <a name="iscardfileaccesscreate-method"></a>ISCardFileAccess：： Create 方法
 
-\[**Create** 方法可在 [需求] 區段中指定的作業系統中使用。 它無法在 Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
+\[**Create** 方法可在 [需求] 區段中指定的作業系統中使用。 它無法用於 Windows Server 2003 Service Pack 1 (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
 
 **Create** 方法會在 [*智慧卡*](../secgloss/s-gly.md)檔案系統內的指定位置建立檔案。
 
@@ -126,8 +126,8 @@ HRESULT Create(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                       |
 

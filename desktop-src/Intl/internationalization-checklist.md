@@ -4,12 +4,12 @@ ms.assetid: cf2ac58e-7fc3-4635-8b82-586a0732b2a3
 title: 國際化檢查清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22b18ef8cf88efa8d496d19c0b66208cd44abaf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd4650f7bd1111f35c911d6efe12bfbec4b537f2cdabdc50160965b5e602708b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147511"
 ---
 # <a name="internationalization-checklist"></a>國際化檢查清單
 
@@ -19,7 +19,7 @@ ms.locfileid: "103847688"
     -   將圖示和點陣圖設計成有意義且不具冒犯性的目標市場，且不包含文字。
     -   設計功能表和對話方塊，以留出空間供文字展開之用。 例如，英文字串在轉譯成德文或荷蘭文時，通常會擴展40%。
     -   請勿在 UI 元素或訊息中使用俚語或特定文化特性的參考。
-    -   建立可在國際鍵盤上存取的快捷方式按鍵組合。 例如，請避免使用標點符號字元索引鍵做為快速鍵，因為它們不一定會出現在國際鍵盤上或由使用者輕鬆產生。 如需鍵盤配置的範例，請參閱 [Windows 鍵盤佈局](https://msdn.microsoft.com/goglobal/bb964651.aspx)。
+    -   建立可在國際鍵盤上存取的快捷方式按鍵組合。 例如，請避免使用標點符號字元索引鍵做為快速鍵，因為它們不一定會出現在國際鍵盤上或由使用者輕鬆產生。 如需鍵盤配置的範例，請參閱[Windows 鍵盤佈局](https://msdn.microsoft.com/goglobal/bb964651.aspx)。
     -   考慮影響功能設計的當地法律，例如政府機構購買軟體以支援多種官方語言的需求。
     -   開發可支援貴組織國際 UI 標準和設計決策的協力廠商協定。
     -   在必須翻譯的使用者介面字串中使用一致的術語。

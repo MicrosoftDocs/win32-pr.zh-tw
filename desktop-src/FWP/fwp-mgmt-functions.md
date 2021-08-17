@@ -3,15 +3,15 @@ title: 管理功能
 description: 篩選引擎的 Windows 篩選平台 (WFP) 管理函數如下所示。
 ms.assetid: 983eb1bb-af6b-42cf-8148-ed3a0e3102a9
 keywords:
-- Windows 篩選平台 API 管理功能
+- Windows篩選 Platform API 管理函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ab42fc22d6e51e85a1e03f4835ee510917ff534
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0163119df45f278d4c5e0c4a2f2563cdc16db4e4994e17a2aba5ea7cc621f383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069208"
 ---
 # <a name="management-functions"></a>管理功能
 
@@ -186,6 +186,6 @@ vSwitch 管理
 -   [**FwpmvSwitchEventSubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0)
 -   [**FwpmvSwitchEventUnsubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventunsubscribe0)
 
- 
+ 
 
- 
+ 

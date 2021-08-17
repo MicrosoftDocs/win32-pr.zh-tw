@@ -4,18 +4,18 @@ ms.assetid: e5334993-c621-4e26-a317-e2639b7e490e
 title: ProviderStyle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa6b53fe8c3e7bef6cab2925e19ba550525daddb
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f519d7e111674aa8137224b84f4eb1bd80444bd4f0d33b9235e5e74513b10bad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970337"
 ---
 # <a name="systemmediaproviderstyle"></a>ProviderStyle
 
 由中繼資料提供者提供的音樂或影片的樣式。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

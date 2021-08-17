@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e71a33056f596afaf577968a5c725b3f64f79b6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7098f8f79212ed52d52ed408795284725735a1a7092988f35e416636675538fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422048"
 ---
 # <a name="usercontrolservice-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 UserControlService 方法 (遠端桌面服務) 
 

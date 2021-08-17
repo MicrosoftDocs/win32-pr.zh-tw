@@ -4,12 +4,12 @@ ms.assetid: edf095e2-7b1c-4284-9a3b-4231ed83a5c9
 title: 遠端 TSP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 554a33a6ca6aae57436492bc9fe53ba0132c9814
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e27f783d32627152874b8a71f79c8a7f5e79b302c13df265c497280bd8707af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060396"
 ---
 # <a name="remote-tsp"></a>遠端 TSP
 
@@ -17,7 +17,7 @@ ms.locfileid: "106981900"
 
 Tcmsetup 是一種命令列公用程式，可啟用遠端 TSP 的設定。 如需此公用程式的詳細資訊，請參閱 Windows 說明或 Windows 資源套件。
 
-遠端 TSP 是隨著 Windows Server 2003 作業系統、Windows XP、Windows 2000、Windows NT、Windows Me、Windows 98 和 Windows 95 作業系統一起安裝。
+遠端 TSP 隨 Windows Server 2003 作業系統、Windows XP、Windows 2000、Windows NT、Windows 我、Windows 98 和 Windows 95 作業系統一起安裝。
 
  
 

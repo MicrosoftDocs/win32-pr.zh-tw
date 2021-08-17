@@ -4,16 +4,16 @@ description: DragStart 事件
 ms.assetid: fef0ae05-1958-45c6-8260-107c47b5fa92
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e382e77c87848226568755c06d2541ebb4db14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 835ffc22e23643d306b361977a4bbe8b04e6481f8a577c3c2cef959b4be46ea7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963088"
 ---
 # <a name="dragstart-event"></a>DragStart 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -40,7 +40,7 @@ ms.locfileid: "104021425"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -53,9 +53,9 @@ ms.locfileid: "104021425"
 [**DragComplete 事件**](dragcomplete-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

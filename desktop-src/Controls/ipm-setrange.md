@@ -3,7 +3,7 @@ title: 'IPM_SETRANGE 訊息 (Commctrl .h) '
 description: 在 IP 位址控制項中，設定指定之欄位的有效範圍。
 ms.assetid: 03068c5d-822f-459d-8f79-e7f0430a27bf
 keywords:
-- IPM_SETRANGE message Windows 控制項
+- IPM_SETRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e70df7b2b8f76f514d9a0cc6101aba2ee7cf4ec6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d599619fa9a065a27a9721b890f6d52c496bf646504009e1950b7ca1279f8a2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434468"
 ---
 # <a name="ipm_setrange-message"></a>IPM \_ SETRANGE 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104025344"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

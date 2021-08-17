@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e2466334c50f07ed075f907cf83503300dbe85
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 88e7d5cb514c196fc109f285c4ac6b4a8703e7d25a7e211f9fda6a40155cb6e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135811"
 ---
 # <a name="buytickets-attribute"></a>BuyTickets 屬性
 

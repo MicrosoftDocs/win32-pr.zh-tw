@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6a4dc01eaeb8276527d5d78b07a250d2a6fb1ab9
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5eb93d32e7730b6840700bba9dc5a629bf3180f83673581f8589a254d467cff8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120102"
 ---
 # <a name="noise"></a>雜訊
 
@@ -61,7 +61,7 @@ Perlin 雜訊值會從某個點順暢地變更為另一個點，以建立自然�
 | 名稱  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小 |
 |-------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
 | *x*   | [**向量**](dx-graphics-hlsl-intrinsic-functions.md) | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | 任意  |
-| *Ret* | [**純量 (scalar)**](dx-graphics-hlsl-intrinsic-functions.md) | [**FLOAT**](/windows/desktop/WinProg/windows-data-types)                        | 1    |
+| *Ret* | [**標量**](dx-graphics-hlsl-intrinsic-functions.md) | [**FLOAT**](/windows/desktop/WinProg/windows-data-types)                        | 1    |
 
 
 
@@ -75,7 +75,7 @@ Perlin 雜訊值會從某個點順暢地變更為另一個點，以建立自然�
 
 | 著色器模型                                                                       | 支援           |
 |------------------------------------------------------------------------------------|---------------------|
-| [著色器模型 2 (DIRECTX HLSL) ](dx-graphics-hlsl-sm2.md) 和更高的著色器模型 | 不可以                  |
+| [著色器模型 2 (DIRECTX HLSL) ](dx-graphics-hlsl-sm2.md) 和更高的著色器模型 | 否                  |
 | [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)                          | 是 (tx \_ 1 \_ 0 僅)  |
 
 

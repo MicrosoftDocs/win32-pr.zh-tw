@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3c8d9f1a487e4003bd032180d1f815e4a48fe0f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 050ed69e9a4f498cb28062dcf493f88f4132e7578b436e3c0f54420d57264fd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119376478"
 ---
 # <a name="id3dx11effectvariableasshader-method"></a>ID3DX11EffectVariable：： AsShader 方法
 

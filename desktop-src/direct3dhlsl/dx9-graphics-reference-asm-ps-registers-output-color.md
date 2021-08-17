@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 316160e39ce172d56e4ecac17dfbd1d53077005b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 038446bb7d588222e04028727a447b6a47c941ab6a18a3ba4216f46e93440961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119702"
 ---
 # <a name="output-color-register"></a>輸出色彩暫存器
 
@@ -29,13 +29,13 @@ Syntax
 
 
 
- 
+ 
 
 其中：
 
 
 
-| Name | 描述       |
+| 名稱 | 描述       |
 |------|-------------------|
 | oC0  | 轉譯目標 \# 0 |
 | oC1  | 轉譯目標 \# 1 |
@@ -44,7 +44,7 @@ Syntax
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -78,6 +78,6 @@ Syntax
 [ (Direct3D 9) 的多個呈現目標 ](/windows/desktop/direct3d9/multiple-render-targets)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

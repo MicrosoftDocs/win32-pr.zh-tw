@@ -4,12 +4,12 @@ ms.assetid: c63d339e-ac62-4da1-b5ce-22d45a6a3413
 title: 命令介面資料物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69a6c411310b6c9e9f28df4de048d3b6909c44b9
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 8de7c05810e3f641b5216d0923fef9798773678683f7f8c8af5cb90389f794da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119444038"
 ---
 # <a name="shell-data-object"></a>命令介面資料物件
 

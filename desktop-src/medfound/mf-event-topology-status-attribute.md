@@ -4,12 +4,12 @@ ms.assetid: f7c93bad-1a64-45b0-ab5c-6edea4a1c0d1
 title: 'MF_EVENT_TOPOLOGY_STATUS 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee3c6e00722239103058ca584ee1da28778511c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fecee6003b0275301a29b32ac34d03db32a22017ab1e828536c0631327f79ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973747"
 ---
 # <a name="mf_event_topology_status-attribute"></a>MF \_ 事件 \_ 拓撲 \_ 狀態屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106998913"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

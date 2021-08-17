@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 271c5b97838135d06613ed795deeee729a52c691
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0bf6f5ba22571378a0b88bcb78842cfc81c39705673e2e14e5d1fda496040dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259018"
 ---
 # <a name="id2d1propertiessetvaluebyname-methods"></a>ID2D1Properties：： SetValueByName 方法
 

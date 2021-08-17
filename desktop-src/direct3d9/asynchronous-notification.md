@@ -4,12 +4,12 @@ ms.assetid: 81e1c5c5-03bc-4598-814e-14e56513e221
 title: " (Direct3D 9) 的非同步通知"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8aee8acb791e2e1e2de7eb305cc19df4e7711e2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dbd23a64e613bbbae56154dc35c05bcf08b75c4c91f306360153e775e12c40ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123415"
 ---
 # <a name="asynchronous-notification-direct3d-9"></a> (Direct3D 9) 的非同步通知
 
@@ -72,7 +72,7 @@ ms.locfileid: "106972772"
 
 <dl> <dt>
 
-[程式設計秘訣](programming-tips.md)
+[程式設計提示](programming-tips.md)
 </dt> </dl>
 
  

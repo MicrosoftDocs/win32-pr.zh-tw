@@ -4,16 +4,16 @@ ms.assetid: 48259444-bf7b-4f0e-9068-2bdf89dde694
 title: 'TAPIControlFlags 列舉 (Ipmsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07cc3e931c69a408d996fa28e6002b6c53c9df87
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 278cc2328335409d4ffcc95ea136826d121acd57776f98aaad947c8fb9ee5d93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139801"
 ---
 # <a name="tapicontrolflags-enumeration"></a>TAPIControlFlags 列舉
 
-\[ 此列舉無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[此列舉無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 多個方法會使用 **TAPIControlFlags** 列舉來指出指定的屬性是以自動或手動方式控制。
 

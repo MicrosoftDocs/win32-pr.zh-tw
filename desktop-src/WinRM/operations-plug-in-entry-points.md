@@ -5,12 +5,12 @@ ms.assetid: 9a3ddc2b-9fde-4915-b0e8-0a5e79e73c00
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0834363c7447bc50269da09d361e630d9bc0615a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a5941746e8e6b952f2f1cd6f21c697398cb4cbb60b024daa557e65151a0a1cfd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412768"
 ---
 # <a name="operations-plug-in-entry-points"></a>作業外掛程式進入點
 

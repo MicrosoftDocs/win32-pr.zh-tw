@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 491f9248db607836b34f1fc0fcacc504b3c1d3f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4e2c118b7b42dce82ec0a95c53853ec501a7152c08ad088bbddde251edadf3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472688"
 ---
 # <a name="jet_tuplelimits-structure"></a>JET_TUPLELIMITS 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_tuplelimits-structure"></a>JET_TUPLELIMITS 結構
 
@@ -61,13 +61,13 @@ _**適用于：** Windows |Windows Server_
 
 這可讓您根據每個索引來設定 stride。
 
-**Windows Vista：****CchIncrement** 成員是在 Windows Vista 中引進的。 在 Windows Vista 之前，將視窗移 (「stride」 ) 的數量一律為1，如「備註」一節中的範例所示。
+**Windows Vista：****cchIncrement** 成員是在 Windows Vista 中引進。 在 Windows Vista 之前，將視窗移 (「stride」 ) 的數量一律為1，如「備註」一節中的範例所示。
 
 **ichStart**
 
 從值開始抓取元組的值位移。
 
-**Windows Vista：****IchStart** 成員是在 Windows Vista 中引進的。
+**Windows Vista：****ichStart** 成員是在 Windows Vista 中引進。
 
 ### <a name="remarks"></a>備註
 
@@ -93,7 +93,7 @@ AIN
 
 請注意，"IN" 發生兩次，而且最後一個專案 ( "N \! " ) 小於 3 (**chLengthMax**) 。 另請注意，分割演算法不會察覺空格或單字，並將所有字元視為相同。
 
-**WINDOWS XP：** Windows XP 支援元組索引，但沒有 **JET_TUPLELIMITS**。 資料庫引擎會使用預設值 (**chLengthMin**= 3、 **chLengthMax**= 10、 **chToIndexMax**= 32767) 。 您仍然可以變更這些值，但會使用 [JetSetSystemParameter](./jetsetsystemparameter-function.md) 搭配 [JET_paramIndexTuplesLengthMin](./index-parameters.md)、 [JET_paramIndexTuplesLengthMax](./index-parameters.md)和 [JET_paramIndexTuplesToIndexMax](./index-parameters.md)，以每個實例為基礎設定這些值。
+**Windows xp：** Windows xp 支援元組索引，但沒有 **JET_TUPLELIMITS**。 資料庫引擎會使用預設值 (**chLengthMin**= 3、 **chLengthMax**= 10、 **chToIndexMax**= 32767) 。 您仍然可以變更這些值，但會使用 [JetSetSystemParameter](./jetsetsystemparameter-function.md) 搭配 [JET_paramIndexTuplesLengthMin](./index-parameters.md)、 [JET_paramIndexTuplesLengthMax](./index-parameters.md)和 [JET_paramIndexTuplesToIndexMax](./index-parameters.md)，以每個實例為基礎設定這些值。
 
 ### <a name="requirements"></a>規格需求
 
@@ -109,7 +109,7 @@ AIN
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008，Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

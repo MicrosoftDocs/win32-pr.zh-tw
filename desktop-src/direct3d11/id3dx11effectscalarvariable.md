@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d07f0d14ce37f9c84c20564189e1b8475e69887
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: e5a33445045d463591659902a4d599deddb3b33f092ef646df736d72db501fde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408148"
 ---
 # <a name="id3dx11effectscalarvariable-interface"></a>ID3DX11EffectScalarVariable 介面
 

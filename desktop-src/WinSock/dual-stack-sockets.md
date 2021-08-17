@@ -1,25 +1,25 @@
 ---
-description: 為了在 Windows XP Service Pack 1 上支援 IPv4 和 IPv6 (SP1) 和 Windows Server 2003 上的應用程式，應用程式必須建立兩個通訊端，一個通訊端用於 IPv4，另一個通訊端用於 IPv6。
+description: 為了在 Windows XP Service Pack 1 (SP1) 和 Windows Server 2003 上同時支援 IPv4 和 IPv6，應用程式必須建立兩個通訊端，一個通訊端用於 IPv4，另一個通訊端用於 IPv6。
 ms.assetid: 7ae49081-ffb5-4eee-b488-2541398e7acc
 title: IPv6 Winsock 應用程式 Dual-Stack 通訊端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 943d8150586bcf14a905ab32dcacaea63b7d6982
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 424580569fb3bed5e81c6232cb99dc2d53a30af1ab2c23c9b4afa6945c0a6eb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132661"
 ---
 # <a name="dual-stack-sockets-for-ipv6-winsock-applications"></a>IPv6 Winsock 應用程式 Dual-Stack 通訊端
 
-為了在 Windows XP Service Pack 1 上支援 IPv4 和 IPv6 (SP1) 和 Windows Server 2003 上的應用程式，應用程式必須建立兩個通訊端，一個通訊端用於 IPv4，另一個通訊端用於 IPv6。 這兩個通訊端必須由應用程式分開處理。
+為了在 Windows XP Service Pack 1 (SP1) 和 Windows Server 2003 上同時支援 IPv4 和 IPv6，應用程式必須建立兩個通訊端，一個通訊端用於 IPv4，另一個通訊端用於 IPv6。 這兩個通訊端必須由應用程式分開處理。
 
-Windows Vista 和更新版本可讓您建立單一 IPv6 通訊端，以同時處理 IPv6 和 IPv4 流量。 例如，會建立 IPv6 的 TCP 接聽通訊端，並進入雙堆疊模式，並系結至埠5001。 此雙重堆疊通訊端可以接受從連線到埠5001的 IPv6 TCP 用戶端，以及從連線到埠5001的 IPv4 TCP 用戶端的連線。 這項功能可大幅簡化應用程式設計，並減少在兩個不同的通訊端上張貼作業所需的資源負擔。
+WindowsVista 和更新版本可讓您建立單一 IPv6 通訊端，以同時處理 IPv6 和 IPv4 流量。 例如，會建立 IPv6 的 TCP 接聽通訊端，並進入雙堆疊模式，並系結至埠5001。 此雙重堆疊通訊端可以接受從連線到埠5001的 IPv6 TCP 用戶端，以及從連線到埠5001的 IPv4 TCP 用戶端的連線。 這項功能可大幅簡化應用程式設計，並減少在兩個不同的通訊端上張貼作業所需的資源負擔。
 
 ## <a name="creating-a-dual-stack-socket"></a>建立 Dual-Stack 通訊端
 
-在 Windows Vista 和更新版本上建立的 IPv6 通訊端預設只會透過 IPv6 通訊協定運作。 若要讓 IPv6 通訊端成為雙重堆疊通訊端，必須使用 **IPv6 \_ V6ONLY** 通訊端選項呼叫 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt)函式，將此值設定為零，再將通訊端系結至 IP 位址。 當 **ipv6 \_ V6ONLY** 通訊端選項設定為零時，為 **AF \_ INET6** 位址系列建立的通訊端可以用來在 IPV6 位址或 IPv4 對應位址之間傳送和接收封包。
+根據預設，在 Windows Vista 和更新版本上建立的 ipv6 通訊端只會透過 IPv6 通訊協定運作。 若要讓 IPv6 通訊端成為雙重堆疊通訊端，必須使用 **IPv6 \_ V6ONLY** 通訊端選項呼叫 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt)函式，將此值設定為零，再將通訊端系結至 IP 位址。 當 **ipv6 \_ V6ONLY** 通訊端選項設定為零時，為 **AF \_ INET6** 位址系列建立的通訊端可以用來在 IPV6 位址或 IPv4 對應位址之間傳送和接收封包。
 
 ## <a name="ip-addresses-with-a-dual-stack-socket"></a>具有 Dual-Stack 通訊端的 IP 位址
 
@@ -41,7 +41,7 @@ Windows Vista 和更新版本可讓您建立單一 IPv6 通訊端，以同時處
 
 <dl> <dt>
 
-[適用于 Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
+[Windows 通訊端應用程式的 IPv6 指南](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [變更 IPv6 Winsock Html5 應用程式的資料結構](changing-data-structures-2.md)

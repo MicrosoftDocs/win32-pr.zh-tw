@@ -6,28 +6,28 @@ keywords:
 - 'Windows Media Player，可同步的可存取媒體交換 (薩米文) '
 - 'Windows Media Player 物件模型、已同步處理的可存取媒體交換 (薩米文) '
 - '物件模型、同步的可存取媒體交換 (薩米) '
-- 'Windows Media Player 行動裝置、已同步處理的可存取媒體交換 (薩米文) '
-- 'Windows Media Player ActiveX 控制項、同步存取媒體交換 (薩米文) '
-- 'Windows Media Player 的行動 ActiveX 控制項、已同步處理的可存取媒體交換 (薩米文) '
-- 'ActiveX 控制項、同步的可存取媒體交換 (薩米) '
+- 'Windows Media Player行動裝置、已同步處理的可存取媒體交換 (薩米) '
+- 'Windows Media Player ActiveX 控制項、同步可存取媒體交換 (薩米文) '
+- 'Windows Media PlayerMobile ActiveX control、可同步存取的媒體交換 (薩米文) '
+- 'ActiveX control、可同步存取的媒體交換 (薩米文) '
 - 已同步處理的可存取媒體交換 (薩米) ，檔案
 - 薩米文 (同步處理的可存取媒體交換) 、檔案
 - 已同步處理的可存取媒體交換 (薩米) ，範例程式碼
 - " (同步處理的可存取媒體交換) ，範例程式碼"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b651c3af117942d56ffc5334323913d26cdf6f99
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d277f2849e6036d85bc8c03940a7dbd59df8b81083ca88240ebd68be768fde9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134341"
 ---
 # <a name="using-sami-with-the-windows-media-player-control-in-a-browser"></a>在瀏覽器中搭配 Windows Media Player 控制項使用薩米文
 
 您可以使用基本腳本和 Windows Media Player 控制項物件模型，在一個檔案中宣告不同的樣式類別，而不是建立每個字型樣式或語言的薩米文檔案。 您可以建立自訂控制項，讓使用者可以在不同的樣式和語言選項之間進行選擇。 此外，您可以完全掌控播放程式介面的設計和每個函式的自訂。
 
-如需在網頁中內嵌 Windows Media Player 控制項的詳細資訊，請參閱 [在網頁中編寫腳本的簡單範例](simple-example-of-scripting-in-a-web-page.md)。
+如需在網頁中內嵌 Windows Media Player 控制項的詳細資訊，請參閱[在網頁中編寫腳本的簡單範例](simple-example-of-scripting-in-a-web-page.md)。
 
 下列範例程式碼示範如何使用隱藏式輔助字幕搭配網頁中內嵌的 Windows Media Player 控制項。 它包含的控制項可讓使用者選取字型樣式和語言。
 
@@ -119,9 +119,9 @@ ms.locfileid: "103932551"
 [**將隱藏式輔助字幕新增至數位媒體**](adding-closed-captions-to-digital-media.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

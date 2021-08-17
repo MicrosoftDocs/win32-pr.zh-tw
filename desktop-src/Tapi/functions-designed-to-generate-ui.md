@@ -4,12 +4,12 @@ ms.assetid: a388d192-a327-4e67-968b-344d80c19fb1
 title: 設計用來產生 UI 的函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa360effd2a1504d2325be2131c430664f1e7a5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63e7aeda54d4c04a144b2786b56f32d13c51ab39c5274204485151caecc2db1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140611"
 ---
 # <a name="functions-designed-to-generate-ui"></a>設計用來產生 UI 的函式
 

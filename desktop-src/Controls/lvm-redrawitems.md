@@ -3,7 +3,7 @@ title: 'LVM_REDRAWITEMS 訊息 (Commctrl .h) '
 description: 強制清單視圖控制項重新繪製某個範圍的專案。 您可以明確地傳送此訊息，或使用 ListView \_ RedrawItems 宏來傳送。
 ms.assetid: a717b17f-6e0a-4804-96f9-da93392a19ec
 keywords:
-- LVM_REDRAWITEMS message Windows 控制項
+- LVM_REDRAWITEMS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42568a9ab78361a28a99eee372674287a24d03cf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 53fbee43ff8cfcbb14ab357b6e76ab709df3e4a797143d5c4fa2c9b1179153af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119261728"
 ---
 # <a name="lvm_redrawitems-message"></a>LVM \_ REDRAWITEMS 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104025077"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

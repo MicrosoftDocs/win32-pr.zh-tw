@@ -21,12 +21,12 @@ keywords:
 - Windows Media Player，色彩比對
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eedf3e5df7c02f498c0dc21aeeed16c99452003c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e3dbb7ed8b73973d35bc8ad884109c569d1c4738d038cf48f657068c5bde51bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135181"
 ---
 # <a name="matching-the-windows-media-player-colors"></a>符合 Windows Media Player 色彩
 
@@ -68,9 +68,9 @@ function OnAppColor()
 [**Type 1 和 Type 2 線上商店的一般資訊**](information-common-to-type-1-and-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

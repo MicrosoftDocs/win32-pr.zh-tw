@@ -5,12 +5,12 @@ ms.assetid: 2908cd44-9334-48c7-a3ba-82629f24ba35
 title: '我 (電話語音 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22758023f96edf10b9509fc87203c60a6baf0f7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb1f9f84058f66ab0b6972ef8de0714166ebeab7b4352b2fb147078fd3f12704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140511"
 ---
 # <a name="i-telephony-api"></a>我 (電話語音 API) 
 
@@ -46,7 +46,7 @@ IP 多播是一種將相同資料同時傳送至數部機器的配置。 啟用�
 
 </dd> <dt>
 
-<span id="tapi2.isdn_tapgloss"></span><span id="TAPI2.ISDN_TAPGLOSS"></span>**Isdn**
+<span id="tapi2.isdn_tapgloss"></span><span id="TAPI2.ISDN_TAPGLOSS"></span>**ISDN**
 </dt> <dd>
 
 請參閱 *整合式服務數位網路 (ISDN)*。

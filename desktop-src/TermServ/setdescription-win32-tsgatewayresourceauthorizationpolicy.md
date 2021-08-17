@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5dfdbcf67096dacc694061b5ff7e704c788bd2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3380f1d38f28aac2821cc969f96ef60974c1336e77c108e31498c4c33198a705
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137981"
 ---
 # <a name="setdescription-method-of-the-win32_tsgatewayresourceauthorizationpolicy-class"></a>Win32 TSGatewayResourceAuthorizationPolicy 類別的 SetDescription 方法 \_
 

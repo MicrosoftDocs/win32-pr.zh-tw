@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9e14e935b49e1fa0c982551696e8d38a076a5bf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 45fe4486b6fb2d314e1b58d1282511255c1bd97fb42bb3437b85e4e765bbd319
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119371147"
 ---
 # <a name="d3dx_r16g16_sint_to_int2-function"></a>D3DX \_ R16G16 \_ 聖 \_ 至 \_ INT2 函式
 

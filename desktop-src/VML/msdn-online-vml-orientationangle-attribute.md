@@ -4,21 +4,21 @@ description: VML OrientationAngle 屬性
 ms.assetid: 9fb355e0-d73c-4e16-8f24-772c8ce1533b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffc190fa44b014b4bd00d4e84546736a788c5bdd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a40afed5f07f1c3ff639fa761a0376a4d6dbc363882bf1e9037bb57ec014e552
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136971"
 ---
 # <a name="vml-orientationangle-attribute"></a>VML OrientationAngle 屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義拉伸圍繞方向旋轉的角度。 讀取/寫入 **VgAngle**。
 
@@ -40,8 +40,8 @@ ms.locfileid: "104382817"
 
 [方向](msdn-online-vml-orientation-attribute.md) 是一種圍繞著拉伸形狀旋轉的向量。 預設值為0度。
 
-*Microsoft Office Extensions 屬性*
+*Microsoft OfficeExtensions 屬性*
 
- 
+ 
 
- 
+ 

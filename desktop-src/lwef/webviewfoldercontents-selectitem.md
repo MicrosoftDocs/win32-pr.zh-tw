@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66e2d05c010199f05826df7ed4591e8c7c1723e2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d144801e62962f4071b6c8e60147326908a9b4f7787e0d4ac549be9c51fa3c97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960618"
 ---
 # <a name="webviewfoldercontentsselectitem-method"></a>WebViewFolderContents. SelectItem 方法
 
@@ -133,7 +133,7 @@ WebViewFolderContents.SelectItem(
 
 ## <a name="examples"></a>範例
 
-下列範例會針對內嵌于 HTML 中的 JScript，顯示此方法的適當用法。
+下列範例示範如何適當地使用此方法，以供 HTML 中內嵌 JScript。
 
 
 ```HTML
@@ -173,10 +173,10 @@ WebViewFolderContents.SelectItem(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

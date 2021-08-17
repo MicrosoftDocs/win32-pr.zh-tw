@@ -1,19 +1,19 @@
 ---
-description: Windows 會載入並執行標準的 Microsoft GINA DLL (MSGina.dll) 。 若要載入不同的 GINA，您必須變更登錄機碼值。
+description: Windows 載入並執行標準的 Microsoft GINA DLL (MSGina.dll) 。 若要載入不同的 GINA，您必須變更登錄機碼值。
 ms.assetid: 408511af-4430-4dd7-a2a1-c32b375821c4
 title: 載入和執行 GINA DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6242ac0124d85d280d951cbc0bfbdbe748fde0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10a4e8d68a1e1846a28e1db9402d730834768a132a7c502021fd101f20926f54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140951"
 ---
 # <a name="loading-and-running-a-gina-dll"></a>載入和執行 GINA DLL
 
-Windows 會載入並執行標準的 Microsoft GINA DLL (MSGina.dll) 。 若要載入不同的 [*GINA*](../secgloss/g-gly.md)，您必須變更下列登錄機碼值：
+Windows 載入並執行標準的 Microsoft GINA DLL (MSGina.dll) 。 若要載入不同的 [*GINA*](../secgloss/g-gly.md)，您必須變更下列登錄機碼值：
 
 ```
 HKEY_LOCAL_MACHINE

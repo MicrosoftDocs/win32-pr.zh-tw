@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b776d3e451d84c63be5bb61b98ed22081e1a29
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 911ecec0c0ad2cc248bcfdfa2b4e475538d6eff35e8d7bd568df29302b610ee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137881"
 ---
 # <a name="create-method-of-the-win32_service-class-remote-desktop-services"></a>建立 Win32_Service 類別的方法 (遠端桌面服務) 
 
@@ -177,7 +177,7 @@ uint32 Create(
 *StartMode* \[在\]
 </dt> <dd>
 
-Windows 基底服務的啟動模式。
+Windows 基礎服務的啟動模式。
 
 <dt>
 
@@ -209,7 +209,7 @@ Boot
 
 </dd> <dt>
 
-停用
+已停用
 </dt> <dd>
 
 無法再啟動的服務。

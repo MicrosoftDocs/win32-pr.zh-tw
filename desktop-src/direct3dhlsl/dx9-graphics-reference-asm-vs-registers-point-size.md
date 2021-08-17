@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 36dbc6dc20d61baf4e0820dd0b6e10d3e6e918ae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6de5c2fba55ce9cdfcee535ec001a89cbebcdddc5e3685224f9eb0c560870534
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119662"
 ---
 # <a name="point-size-register"></a>點大小暫存器
 
@@ -28,7 +28,7 @@ ms.locfileid: "104372100"
 
 
 
- 
+ 
 
 暫存器包含的屬性會決定每個註冊的行為。
 
@@ -36,13 +36,13 @@ ms.locfileid: "104372100"
 
 | 屬性        | 描述                                                                                     |
 |-----------------|-------------------------------------------------------------------------------------------------|
-| Name            | 選擇                                                                                            |
-| Count           | 1個向量，只能使用1個元件，而且必須由元件遮罩指定。 |
+| 名稱            | 選擇                                                                                            |
+| 計數           | 1個向量，只能使用1個元件，而且必須由元件遮罩指定。 |
 | I/o 許可權 | 唯寫。                                                                                     |
 
 
 
- 
+ 
 
 只會使用點大小的純量 x 部分。
 
@@ -53,9 +53,9 @@ ms.locfileid: "104372100"
 [頂點著色器暫存器](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

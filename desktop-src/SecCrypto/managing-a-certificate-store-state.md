@@ -4,12 +4,12 @@ ms.assetid: bae3d693-31b3-4c1d-9a8f-0dafa8bb6897
 title: 管理憑證存放區狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d66e40817f0f92f48e8841455998eff4dbffd6
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 75cbbb41691b66abfa2d49d669b13ec7fd438bd4ae503bf944d9e4923f647f29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103945736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425668"
 ---
 # <a name="managing-a-certificate-store-state"></a>管理憑證存放區狀態
 

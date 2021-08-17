@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 42654e84f64b25a051a78963339ca95d4ebf760f
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 621c865f9727cf484430d00609dcfcfac2431a514cf2bade714fdd4d81b0408c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104187366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119400998"
 ---
 # <a name="imsrdpcameraredirconfiginstanceid-property"></a>IMsRdpCameraRedirConfig：： InstanceId 屬性
 

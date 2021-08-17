@@ -4,18 +4,18 @@ ms.assetid: 3ca38760-e979-48ba-b87f-5dc742e046af
 title: System. Comment
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 199597265dc9ddf8f8322b0854c8d6a53452c798
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b377cef5a837ee8dcf4e3547a822504e3643f696bfe2433bcac11c721aa52fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119353508"
 ---
 # <a name="systemcomment"></a>System. Comment
 
 附加至檔案的批註，通常是由使用者新增。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

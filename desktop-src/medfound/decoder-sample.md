@@ -4,12 +4,12 @@ ms.assetid: 941e5400-e679-41f4-9830-3548dc6037aa
 title: 解碼範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dd7586534876cfa7f530e675b0342a92bf46b8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 290f8b2db32b12d535feaeef65f37b77e1a29115cd8844a8d8aad29fb7ce699a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449381"
 ---
 # <a name="decoder-sample"></a>解碼範例
 
@@ -20,7 +20,7 @@ ms.locfileid: "103936557"
 ![來自解碼器之影片畫面格的螢幕擷取畫面](images/decodersample.png)
 
 > [!Note]  
-> 在 Windows 7 的 Windows SDK 之前，此範例包含在 [MPEG1Source 範例](mpeg1source-sample.md)中。
+> 在 Windows 7 的 Windows SDK 之前，此範例包含在[MPEG1Source 範例](mpeg1source-sample.md)中。
 
  
 
@@ -44,7 +44,7 @@ ms.locfileid: "103936557"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-此範例可在 [Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Decoder)中取得。
+此範例可在[Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Decoder)中取得。
 
 ## <a name="related-topics"></a>相關主題
 

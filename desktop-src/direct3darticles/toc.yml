@@ -1,13 +1,13 @@
 - name: DirectX 圖形文章
   href: directx-graphics-articles-portal.md
   items:
-    - name: 適用于 Windows 7 的平臺更新
+    - name: Windows 7 的平臺更新
       href: platform-update-for-windows-7.md
     - name: Direct3D 9Ex 改進
       href: direct3d-9ex-improvements.md
     - name: Windows 圖形 API 之間共用的介面
       href: surface-sharing-between-windows-graphics-apis.md
-    - name: Windows Advanced 點陣化平臺 (變形) 指南
+    - name: Windows先進的點陣化平臺 (變形) 指南
       href: directx-warp.md
     - name: Windows 中的圖形 Api
       href: graphics-apis-in-windows-vista.md

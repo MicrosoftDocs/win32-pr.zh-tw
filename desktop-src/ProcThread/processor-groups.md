@@ -4,12 +4,12 @@ ms.assetid: c627ac0f-96e8-48b5-9103-4316f487e173
 title: 處理器群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cebc5b9ab1b386847b6561a9f6322c2fca0e2ae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc5916faf3cf90bce7f8549834fe130f299f782d6b2534969c89d74df454ae9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119418668"
 ---
 # <a name="processor-groups"></a>處理器群組
 
@@ -19,7 +19,7 @@ ms.locfileid: "104026746"
 
 支援具有超過64個邏輯處理器的系統，是以 *處理器群組* 的概念為基礎，這是一組最多64個邏輯處理器的靜態集合，可視為單一排程實體。 處理器群組的編號是從0開始。 具有少於64個邏輯處理器的系統一律會有單一群組（群組0）。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援處理器群組。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 不支援處理器群組。
 
 當系統啟動時，作業系統會建立處理器群組，並將邏輯處理器指派給群組。 如果系統能夠熱新增處理器，作業系統會允許系統在執行時可能抵達的處理器群組中的空間。 作業系統會將系統中的群組數目降至最低。 例如，具有128邏輯處理器的系統會在每個群組中有兩個具有64處理器的處理器群組，而不是每個群組中有32個邏輯處理器的四個群組。
 

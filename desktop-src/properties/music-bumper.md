@@ -4,12 +4,12 @@ ms.assetid: affb4d7a-b8ef-432c-bcf4-18d90424f9b8
 title: 音樂
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf318d63ca2c741d5e5e75edf72b7d022e06cdfc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 81963fd07cf46af2e7dc26a36ad45a70fb76ade2818b6faf87137d23183a74f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119397758"
 ---
 # <a name="music"></a>音樂
 
@@ -27,8 +27,8 @@ ms.locfileid: "108105006"
 | [系統音樂](./props-system-music-artist.md)<br/>                                   |                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [ArtistSortOverride](props-system-music-artistsortoverride.md)<br/>                  | 這個選擇性的字串值允許覆寫 becorrectly 的標準排序次序。這對於正確排序日文的音樂檔案而言非常重要，因為在沒有此欄位的情況下，將無法排序的發音 (使用者預期的順序) 。它也可以用來自訂非東亞案例中的排序，例如允許使用者移除用於排序的文章。<br/>      |
 | [BeatsPerMinute](./props-system-music-beatsperminute.md)<br/>                   |                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| [系統音樂編輯器](./props-system-music-composer.md)<br/>                               |                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| [ComposerSortOverride](props-system-music-composersortoverride.md)<br/>              | 這個選擇性的字串值允許覆寫 becorrectly 的標準排序次序。這對於正確排序日文的音樂檔案很重要，因為在沒有此欄位的情況下，將無法排序的發音 (使用者預期的順序) 。它也可以用來自訂非東亞案例中的排序，例如允許使用者移除用於排序的文章。<br/>    |
+| [系統音樂。Composer](./props-system-music-composer.md)<br/>                               |                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [ComposerSortOverride](props-system-music-composersortoverride.md)<br/>              | 這個選擇性字串值允許覆寫系統的標準排序次序。Composer。這對於正確排序日文中的音樂檔案而言非常重要，因為如果沒有此欄位，就不能 becorrectly 排序的發音 (使用者預期的順序) 。它也可以用來自訂非東亞案例中的排序，例如允許使用者移除用於排序的文章。<br/>    |
 | [System.servicemodel](./props-system-music-conductor.md)<br/>                             |                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [ContentGroupDescription](./props-system-music-contentgroupdescription.md)<br/> |                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [DiscNumber](props-system-music-discnumber.md)<br/>                                  |                                                                                                                                                                                                                                                                                                                                                                                                                              |

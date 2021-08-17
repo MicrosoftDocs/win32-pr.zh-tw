@@ -1,17 +1,17 @@
 ---
-title: Windows 網際網路) 的一般功能 (
+title: " (Windows 網際網路) 的一般函式"
 description: 不同的網際網路通訊協定 (例如 ftp 和 HTTP) 會使用數個相同的 WinINet 函數來處理網際網路上的資訊。
 ms.assetid: c80768cf-c8c0-4bdf-9ea2-f82c92ade05a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1893b085da1b3e77228e4a9abf75acc166d84726
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ed7b6a68c2633175eca793f48b2180b7212905762ca0f58290436aa17ae9a728
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106965266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132891"
 ---
-# <a name="common-functions-windows-internet"></a>Windows 網際網路) 的一般功能 (
+# <a name="common-functions-windows-internet"></a> (Windows 網際網路) 的一般函式
 
 不同的網際網路通訊協定 (例如 ftp 和 HTTP) 會使用數個相同的 WinINet 函數來處理網際網路上的資訊。 這些常見的函式會以一致的方式處理其工作，不論所套用的特定通訊協定為何。 應用程式可以使用這些函式來建立一般用途的函式，以跨不同的通訊協定處理工作 (例如，讀取 ftp 和 HTTP) 的檔案。
 
@@ -520,7 +520,7 @@ InternetCloseHandle(hRootHandle);
 如果 [網際網路 \_ 旗標 \_ 沒有 \_ \_](api-flags.md) 快取寫入或 [網際網路旗標尚未 \_ \_ \_](api-flags.md) 設定快取旗標，除非控制碼已連線到 HTTPs 資源，否則 [**InternetLockRequestFile**](/windows/desktop/api/Wininet/nf-wininet-internetlockrequestfile) 會建立具有副檔名 TMP 的暫存檔案。 如果函式存取 HTTPs 資源和網際網路旗標沒有快取 \_ \_ \_ \_ 寫入 (或網際網路旗標尚未設定快取 \_ \_ \_) ， [**InternetLockRequestFile**](/windows/desktop/api/Wininet/nf-wininet-internetlockrequestfile) 就會失敗。
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

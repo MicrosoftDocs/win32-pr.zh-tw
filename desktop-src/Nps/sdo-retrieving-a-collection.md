@@ -5,19 +5,19 @@ ms.assetid: b9090ad5-564c-4f48-b7bd-24617d582d2e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 517acfa320069f9c94ee291e9215459d27ba25ad
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 343f00ee28475d1e6180646a0e548c18d51701afed587c99582dad7dc60d094c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063308"
 ---
 # <a name="retrieving-a-collection"></a>正在抓取集合
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
 
- 
+ 
 
 下列程式碼會抓取網路原則伺服器的用戶端集合。
 
@@ -147,6 +147,6 @@ VtClientsCollection 變數的類型為[ \_ variant \_ t](/previous-versions/visu
 [**變異**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

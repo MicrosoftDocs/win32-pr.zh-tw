@@ -4,12 +4,12 @@ description: 保證的加密 IPsec 原則案例需要所有相符流量的 IPsec
 ms.assetid: 68758f0c-f134-4b7a-820a-313e2a82f280
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbffa3d78a9e178850f3afaa4d6b7fa9831be875
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 381d029b3bebc6fc6e0a438c5123bb6703bc45dd457195fa7ff8fc7268bba16f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069148"
 ---
 # <a name="guaranteed-encryption"></a>保證加密
 

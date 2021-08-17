@@ -4,18 +4,18 @@ ms.assetid: 8a126f68-40f9-433a-9697-ff5089b2da9e
 title: System.object
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80089cae0381fad858042efef0bf2c7f22bea3bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ed4241b5c8b4ffef97165bc6999e23a80f9386a6c8a8caa1be93d5d24f4f5af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119459628"
 ---
 # <a name="systemcomputername"></a>System.object
 
 專案或檔案所在的電腦名稱稱。 這個屬性會由 Windows 自動填入，不應該用於其預期用途以外的任何其他內容。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

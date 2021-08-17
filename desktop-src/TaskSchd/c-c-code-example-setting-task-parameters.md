@@ -6,12 +6,12 @@ keywords:
 - 設定工作屬性工作排程器、參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 509776aa87d414cb1cb4c590c2be2c0ea3912269
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a1932126f09969ce733c9f411de0db8baedfdf821079700d71c337561354cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060186"
 ---
 # <a name="cc-code-example-setting-task-parameters"></a>C/c + + 程式碼範例：設定工作參數
 
@@ -139,9 +139,9 @@ int main(int argc, char **argv)
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

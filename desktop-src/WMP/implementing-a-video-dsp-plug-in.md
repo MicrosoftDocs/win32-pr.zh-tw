@@ -15,12 +15,12 @@ keywords:
 - 影片 DSP 外掛程式，修改範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43f1b819f328fc586d21208c00b6f0d03dca4fe9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d4afdbabd36167c11ef7c1c57aeccb475605f9365c550c572422af3440d760ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135701"
 ---
 # <a name="implementing-a-video-dsp-plug-in"></a>執行 Video DSP 外掛程式
 
@@ -52,9 +52,9 @@ ms.locfileid: "104301096"
 [**執行您的 DSP 程式碼**](implementing-your-dsp-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

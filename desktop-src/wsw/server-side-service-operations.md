@@ -3,17 +3,17 @@ title: 伺服器端服務作業
 description: 本節說明服務端服務作業。
 ms.assetid: d209cf2f-47f5-4025-8af4-1626c867a66a
 keywords:
-- 適用于 Windows 的伺服器端服務作業 Web 服務
+- Windows 的伺服器端服務作業 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c7ad5a327c1cb79278aa562bfaa1753f008a542
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 1f1656e56df08d00a0551946c4e52898beccd4d1a37a5bd96c63eb2066928fe1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119344628"
 ---
 # <a name="server-side-service-operations"></a>伺服器端服務作業
 

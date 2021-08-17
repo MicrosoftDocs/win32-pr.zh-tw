@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6c8dd4cfd32de85dd4d5fab89cd0efe618941dfa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e16c0890cf0dc3ce60536982f1e94c2e1695d95ce4dee80b3eeb1ed72c18cbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119389698"
 ---
 # <a name="cdynamicoutputpinm_pgraphconfig-member"></a>CDynamicOutputPin：： m \_ pGraphConfig 成員
 

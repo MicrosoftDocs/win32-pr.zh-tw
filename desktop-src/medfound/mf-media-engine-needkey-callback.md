@@ -4,12 +4,12 @@ ms.assetid: B9625B3C-00AC-4F46-BD76-5C77822F5829
 title: MF_MEDIA_ENGINE_NEEDKEY_CALLBACK 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3de502bbe1d7f83dfd8ee7478e20786244f654e
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3bec8dd3b802d9fc378d43648ad1d29dd30b6573881a044cc9f0d3aba2015cee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106993787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956308"
 ---
 # <a name="mf_media_engine_needkey_callback-attribute"></a>MF \_ 媒體 \_ 引擎 \_ NEEDKEY \_ 回呼屬性
 
@@ -35,9 +35,9 @@ ms.locfileid: "106993787"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                      |
-| Idl<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                      |
+| IDL<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
 
 
 

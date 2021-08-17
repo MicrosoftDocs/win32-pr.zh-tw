@@ -4,12 +4,12 @@ ms.assetid: fc74a043-da13-485f-9f54-a43064add927
 title: 功能功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83cde32ba0d3116ce83e7ca6621666f5e9a86650
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab47d2c8323131b396640d9154e33749c1716db0d369d3a374f69131468613d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141271"
 ---
 # <a name="capabilities-functions"></a>功能功能
 

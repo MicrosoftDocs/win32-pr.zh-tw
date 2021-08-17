@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fccc08cfb43bf4175bb51f2324e22c247d01f042
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5dac5f2cdaf204a82c30451df5df50c230748c3afd747fe40542fd7c26cfe423
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442998"
 ---
 # <a name="authority-revocation-list-attribute"></a>授權單位-撤銷清單屬性
 

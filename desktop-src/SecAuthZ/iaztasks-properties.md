@@ -4,12 +4,12 @@ ms.assetid: 5F12A6A3-A828-4281-974A-FD04AEDABC76
 title: IAzTasks 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b87856b74dc2b92664144971b96b99f5d5c15319
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8191c80312b66808152a734a95f557500f2cd1fa61560845a8ceec92bc21594e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414898"
 ---
 # <a name="iaztasks-properties"></a>IAzTasks 屬性
 

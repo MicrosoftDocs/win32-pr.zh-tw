@@ -4,16 +4,16 @@ ms.assetid: 02401edc-362b-4f6c-b10b-c46b30b3ebe7
 title: 影片和影像函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c55e439a17dd570b6e939d1cb84d836f9100eaf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ab4b57f804c1da1e4a6da0ca4625e3503ed9987077a80f1f98dde91cf2e27f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119432118"
 ---
 # <a name="video-and-image-functions"></a>影片和影像函式
 
-這些函式和宏會操作 DirectShow 影片格式結構。
+這些函式和宏會操作 DirectShow 的影片格式結構。
 
 
 
@@ -62,7 +62,7 @@ DirectShow 基類庫也提供下列全域常數，以定義 true 色彩點陣圖
 
 
 
-| 全域資料 | Description                                                   |
+| 全域資料 | 描述                                                   |
 |-------------|---------------------------------------------------------------|
 | **bits555** | 5-5-5 格式之16位 RGB 點陣圖的色彩遮罩陣列。 |
 | **bits565** | 5-6-5 格式之16位 RGB 點陣圖的色彩遮罩陣列。 |

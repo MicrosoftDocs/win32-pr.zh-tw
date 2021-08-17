@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4cb3b0ad33e54e79464949f441842173fb48a180
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bc0e389678240396d22e616a39ed0050b1f73b0b974dbe2800fcda2c6d4076a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121810"
 ---
 # <a name="id3dxbasemeshclonemeshfvf-method"></a>ID3DXBaseMesh：： CloneMeshFVF 方法
 

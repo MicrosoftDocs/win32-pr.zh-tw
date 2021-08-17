@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 735adc5396551a18b5e2e2dfba781b358289475e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 72c2193e46fe9abc81786a4d2cb150a8153f4b0a82ad973d3499ce315c16ef82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119405428"
 ---
 # <a name="span-idvspixenginepixelhistoryintersectionspanpixelhistoryintersection-structure"></a><span id="vspixengine.pixelhistoryintersection"></span>PixelHistoryIntersection 結構
 

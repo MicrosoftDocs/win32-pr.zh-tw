@@ -3,18 +3,18 @@ title: 複製資料流程而不解壓縮資料
 description: 複製資料流程而不解壓縮資料
 ms.assetid: c268ce44-a09d-4304-bc39-8b6657da2bdb
 keywords:
-- Windows Media Format SDK，複製資料流程
+- Windows媒體格式 SDK，複製資料流程
 - Advanced Systems Format (ASF) ，複製資料流程
 - ASF (Advanced Systems Format) ，複製資料流程
 - 串流，不需要解壓縮資料即可複製
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 831b85ad431a6c4d3f4255c281d22ca17004674f
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 2387861c25ad565298fb2731300f6da8ccc00c26c5f7c82c36fede1bb7f62f9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104374772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931558"
 ---
 # <a name="copying-streams-without-decompressing-the-data"></a>複製資料流程而不解壓縮資料
 
@@ -47,7 +47,7 @@ ms.locfileid: "104374772"
 > [!Note]  
 > 使用資料流程範例時，無法從某個檔案將影像資料流程複製到另一個檔案。 若要複製影像資料流程資料，請取出未壓縮的範例，然後以平常的方式透過寫入器進行處理。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -59,9 +59,9 @@ ms.locfileid: "104374772"
 [**使用解壓縮的範例複製資料流程**](copying-streams-using-decompressed-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

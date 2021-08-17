@@ -3,7 +3,7 @@ title: 'PBM_GETPOS 訊息 (Commctrl .h) '
 description: 抓取進度列的目前位置。
 ms.assetid: 76f49ec6-f2e1-4486-be8a-7dfd49f8b82c
 keywords:
-- PBM_GETPOS message Windows 控制項
+- PBM_GETPOS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e23078a75cfaf3a9002a9a5da79752965cbd620
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4b32ce5c18554ed8eb59c970e48a8ffd8f7991cf7dd85c59458460968a766dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119433528"
 ---
 # <a name="pbm_getpos-message"></a>PBM \_ GETPOS 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104104796"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 36a17ae8-31db-4db9-a401-097d47aa26ad
 title: TAPI 版本協商
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f41f4ca6f12862d6fc19f982c48b90bdafe2aaa2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7cd6d816c07cb1c6c93d9cc219509f257d9a2695671b5197002171f0f819f17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404063"
 ---
 # <a name="tapi-version-negotiation"></a>TAPI 版本協商
 
@@ -31,7 +31,7 @@ ms.locfileid: "106978053"
 
 
 
-| 函式                                                     | 意義                                                                               |
+| 函數                                                     | 意義                                                                               |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [**lineGetAddressCaps**](/windows/desktop/api/Tapi/nf-tapi-linegetaddresscaps)             | 使用 [**lineNegotiateAPIVersion**](/windows/desktop/api/Tapi/nf-tapi-linenegotiateapiversion)所傳回的版本。   |
 | [**lineGetCountry**](/windows/desktop/api/Tapi/nf-tapi-linegetcountry)                     | 使用應用程式所支援的最高版本。                                     |

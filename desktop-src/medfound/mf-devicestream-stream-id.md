@@ -4,12 +4,12 @@ ms.assetid: 03C48CBA-FAD0-4127-89E5-3F1874BF32DB
 title: 'MF_DEVICESTREAM_STREAM_ID 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7f7143487af1125da9334fc39c152aee9363b97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcbb5b4004ae2e280806411e51f7adfe83f9a4f28d71103a3d3c6e9a247f2011
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973847"
 ---
 # <a name="mf_devicestream_stream_id-attribute"></a>MF \_ DEVICESTREAM \_ 串流 \_ 識別碼屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "104026449"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

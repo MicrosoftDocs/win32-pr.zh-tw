@@ -3,7 +3,7 @@ title: 'EM_GETWORDBREAKPROC 訊息 (Winuser .h) '
 description: 取得目前 Wordwrap 函式的位址。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: 564b4b1b-913f-4040-bb28-eea50c0c3738
 keywords:
-- EM_GETWORDBREAKPROC message Windows 控制項
+- EM_GETWORDBREAKPROC 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: feb9499492668abac24774b66304ae8a87a2d739
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f615721328ce0062d6bba9c282466744e7b47c78ad335b905343893f9c1b6343
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438058"
 ---
 # <a name="em_getwordbreakproc-message"></a>EM \_ GETWORDBREAKPROC 訊息
 
@@ -59,9 +59,9 @@ Wordwrap 函式會掃描包含要傳送給顯示之文字的文字緩衝區，�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

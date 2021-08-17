@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ UserAccount&\# 32;WMI 類別包含執行 Windows 的電腦系統上使用者帳戶的相關資訊。
+description: Win32 \_ UserAccount&\# 32;WMI 類別包含執行 Windows 之電腦系統上的使用者帳戶的相關資訊。
 ms.assetid: 747b2ce2-ae38-47de-bf3a-97058df56a7a
 ms.tgt_platform: multiple
 title: Win32_UserAccount 類別
@@ -30,16 +30,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b5af83f7a52e9f3db9dbaa4a959bfe01ae740746
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: df907b1686677db8ea895d8788055567e24dc7be7ffe758bcfa82801591a0dfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922748"
 ---
 # <a name="win32_useraccount-class"></a>Win32 \_ UserAccount 類別
 
-**Win32 \_ UserAccount** [WMI 類別](../wmisdk/retrieving-a-class.md)包含執行 Windows 的電腦系統上使用者帳戶的相關資訊。
+**Win32 \_ UserAccount** [WMI 類別](../wmisdk/retrieving-a-class.md)包含執行 Windows 之電腦系統上的使用者帳戶的相關資訊。
 
 > [!Note]  
 > 由於 **名稱** 和 **網域** 都是索引鍵屬性，因此在大型網路上列舉 **Win32 \_ UserAccount** 可能會對效能造成負面影響。 呼叫 **GetObject** 或查詢特定實例的影響較小。
@@ -164,7 +164,7 @@ class Win32_UserAccount : Win32_Account
 
 **UF \_ 工作站 \_ 信任 \_ 帳戶**
 
-電腦系統的電腦帳戶，執行屬於此網域成員的 Windows。
+電腦系統的電腦帳戶，執行的 Windows 是此網域的成員。
 
 </dd> <dt>
 
@@ -219,7 +219,7 @@ class Win32_UserAccount : Win32_Account
 
 </dd> <dt>
 
-**Disabled**
+**停用**
 </dt> <dd> <dl> <dt>
 
 資料類型： **布林值**
@@ -247,7 +247,7 @@ Windows 使用者帳戶已停用。
 限定詞：覆 [**寫**](../wmisdk/standard-qualifiers.md) ( "Domain" ) ， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Network Management 函數 \| domainname" ) 
 </dt> </dl>
 
-使用者帳戶所屬的 Windows 網功能變數名稱稱，例如： "NA-SALES"。
+使用者帳戶所屬 Windows 網域的名稱，例如： "NA-SALES"。
 
 </dd> <dt>
 
@@ -315,7 +315,7 @@ Windows 使用者帳戶已停用。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( 「Win32API \| 網路管理結構 \| [**使用者 \_ 資訊 \_ 2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2)的 \| **UF \_ 鎖定**」 ) 
 </dt> </dl>
 
-若 **為 true**，則表示使用者帳戶已被鎖定而無法使用 Windows 作業系統。
+若 **為 true**，則會將使用者帳戶鎖定 Windows 作業系統。
 
 </dd> <dt>
 
@@ -331,7 +331,7 @@ Windows 使用者帳戶已停用。
 限定詞：覆 [**寫**](../wmisdk/standard-qualifiers.md) ( "Name" ) ， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Network Management 結構 \| 名稱" ) 
 </dt> </dl>
 
-此類別的 **網域** 屬性指定之網域上的 Windows 使用者帳戶名稱。
+此類別的 **網域** 屬性指定之網域上 Windows 使用者帳戶的名稱。
 
 範例： "danwilson"。
 
@@ -383,7 +383,7 @@ Windows 使用者帳戶已停用。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( 「Win32API \| 網路管理結構 \| [**使用者 \_ 資訊 \_ 2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2)個 \| **UF \_ 密碼 \_ NOTREQD**」 ) 
 </dt> </dl>
 
-若 **為 true**，則表示 Windows 使用者帳戶需要有密碼。 如果 **為 false**，則此帳戶不需要密碼。
+若 **為 true**，則 Windows 使用者帳戶上需要有密碼。 如果 **為 false**，則此帳戶不需要密碼。
 
 </dd> <dt>
 
@@ -399,7 +399,7 @@ Windows 使用者帳戶已停用。
 限定詞： [**Fixed**](../wmisdk/standard-wmi-qualifiers.md)， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Security 識別碼 (sid) " ) 
 </dt> </dl>
 
-此帳戶 (SID) 的安全識別碼。 SID 是變數長度的字串值，可用來識別信任者。 每個帳戶都有一個可供授權單位（例如 Windows 網域）發出的唯一 SID。 SID 會儲存在安全性資料庫中。 當使用者登入時，系統會從資料庫抓取使用者 SID，將 SID 放在使用者存取權杖中，然後使用使用者存取權杖中的 SID，在所有後續與 Windows 安全性的互動中識別使用者。 每個 SID 都是使用者或群組的唯一識別碼，而且不同的使用者或群組不能有相同的 SID。
+此帳戶 (SID) 的安全識別碼。 SID 是變數長度的字串值，可用來識別信任者。 每個帳戶都有一個唯一的 SID，例如 Windows 網域的問題。 SID 會儲存在安全性資料庫中。 當使用者登入時，系統會從資料庫抓取使用者 sid、將 sid 放在使用者存取權杖中，然後使用使用者存取權杖中的 sid 來識別與 Windows 安全性的所有後續互動中的使用者。 每個 SID 都是使用者或群組的唯一識別碼，而且不同的使用者或群組不能有相同的 SID。
 
 這個屬性是從 [**Win32 \_ 帳戶**](win32-account.md)繼承而來的。
 

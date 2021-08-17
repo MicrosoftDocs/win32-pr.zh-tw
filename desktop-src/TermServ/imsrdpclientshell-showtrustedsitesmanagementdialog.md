@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 999ba3a834fa1c4b8c498fb002ddf4d4b1ad5615
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5201d4cd1e62bbb1cadf52d4ff9087bd5d9e4e40afde4bd61cb25ea55cb75514
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119400068"
 ---
 # <a name="imsrdpclientshellshowtrustedsitesmanagementdialog-method"></a>IMsRdpClientShell：： ShowTrustedSitesManagementDialog 方法
 

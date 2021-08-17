@@ -4,12 +4,12 @@ ms.assetid: 40061AD1-BCD9-4170-A442-34B4C792BB55
 title: Direct3D 11 影片列舉
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddddebea149bdfbc2031fb097487bf8c09a6badc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ffbb3b8ccb870b1edf764b7f664c8ab18d8fafd4892301c196676a206904031
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119269448"
 ---
 # <a name="direct3d-11-video-enumerations"></a>Direct3D 11 影片列舉
 

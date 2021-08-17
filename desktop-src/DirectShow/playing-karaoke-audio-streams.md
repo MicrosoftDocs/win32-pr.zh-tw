@@ -4,12 +4,12 @@ ms.assetid: 1a8d0f42-35b8-4743-9ae7-619b99936f76
 title: 播放卡拉卡拉的音訊串流
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 907bfa3e359915cf537de75cdc739630fe607d97
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b10912761034feb9ed82c85625324cd3091514b2c492c66b4e49af711d7d2152
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119213298"
 ---
 # <a name="playing-karaoke-audio-streams"></a>播放卡拉卡拉的音訊串流
 

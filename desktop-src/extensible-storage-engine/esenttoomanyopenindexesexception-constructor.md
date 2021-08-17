@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6b102ef803ee42923fa5bdd4bc78b11b0ca74d61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8b87a8f76938a226813925f905d2abaf502a986693dc8601c98d9a7f268dbff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119363058"
 ---
 # <a name="esenttoomanyopenindexesexception-constructor"></a>EsentTooManyOpenIndexesException 函式
 
