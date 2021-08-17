@@ -4,12 +4,12 @@ ms.assetid: f1642c1c-d2cd-4fa4-8a26-cebf3d6dcf23
 title: 憑證階層
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d05c4ed9a69ff96ec0904e658444d6a32b65ed82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abc3420e3f0f09f88b4b9e7157ec8abacc9516520de4472a48189520e3e0e567
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904971"
 ---
 # <a name="certificate-hierarchy"></a>憑證階層
 

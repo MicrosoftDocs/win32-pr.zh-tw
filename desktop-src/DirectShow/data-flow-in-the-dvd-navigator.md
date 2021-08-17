@@ -1,17 +1,17 @@
 ---
-description: DVD 導覽器中的資料流程
+description: DVD 導覽器中的資料 Flow
 ms.assetid: 14f9cfa3-5ef6-419c-9196-2e4060549c03
-title: DVD 導覽器中的資料流程
+title: DVD 導覽器中的資料 Flow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29a981d2d7b528163abb53478e9e8f2ab88d46c0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 56e649edfacf0a1fad56cfbe8e73a5e1e9aaf099b9c17463858bf776ab06605c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953357"
 ---
-# <a name="data-flow-in-the-dvd-navigator"></a>DVD 導覽器中的資料流程
+# <a name="data-flow-in-the-dvd-navigator"></a>DVD 導覽器中的資料 Flow
 
 DVD 導覽器有停止和暫停播放的方法。 這些方法與 [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol)中的 **Stop** 和 **Pause** 方法類似（但不完全相同）。 兩者之間的差異如下：
 

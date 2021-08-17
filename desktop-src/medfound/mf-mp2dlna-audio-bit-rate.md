@@ -4,12 +4,12 @@ ms.assetid: d0ae573a-7ce3-49e8-9609-f72d067f1ce1
 title: 'MF_MP2DLNA_AUDIO_BIT_RATE 屬性 (Mfmp2dlna) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c61554f592aefbb863057339d807e23fc96567
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aed622a2f826e061dc4b909eec09490974fe83a7ac850cd0fcdfcede0abd578b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104764"
 ---
 # <a name="mf_mp2dlna_audio_bit_rate-attribute"></a>MF \_ MP2DLNA \_ 音訊 \_ 位 \_ 速率屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "103943786"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Mfmp2dlna。h</dt> </dl> |
 
 

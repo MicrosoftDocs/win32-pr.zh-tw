@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 80f00a0d7e2e3478114d94480e01e31add63ef90
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0bb07a283befc071435df8d4199409cb00d3c3c1d4efa3e58c2f53403d8e3527
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985958"
 ---
 # <a name="span-idvspixengineipixengine5callbacksspanipixengine5callbacks-interface"></a><span id="vspixengine.ipixengine5callbacks"></span>IPixEngine5Callbacks 介面
 

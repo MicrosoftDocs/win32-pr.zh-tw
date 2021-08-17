@@ -6,12 +6,12 @@ keywords:
 - HTTP 伺服器 API，設定錯誤記錄檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 698f6b5ae81b1933ea745789e0fae33dfc7ebce6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a10479a1b2bd1ebf559213b6cd4b738f6c0b9ea63c142edcce3c10f64f877dda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950887"
 ---
 # <a name="configuring-http-server-api-error-logging"></a>設定 HTTP 伺服器 API 錯誤記錄
 
@@ -27,7 +27,7 @@ HKEY_LOCAL_MACHINE
 ```
 
 > [!Note]  
-> 在未來的 Windows 作業系統版本中，設定值的位置和格式可能會變更。
+> 設定值的位置和格式可能會在 Windows 作業系統的未來版本中變更。
 
  
 
@@ -61,7 +61,7 @@ HKEY_LOCAL_MACHINE
 <thead>
 <tr class="header">
 <th>登錄值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

@@ -4,12 +4,12 @@ description: 本主題包含 Direct3D 11 支援的資源清單 (特別是功能�
 ms.assetid: 80ae49f2-4a6d-4cfc-95d6-510685ab9736
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 607d2128dcb448d97ab198e43ed47895e273d89b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 27e54771dafb44164196d44c760c3a60ec96ae2fee138abe7809234b8c4e073c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124136"
 ---
 # <a name="resource-limits-direct3d-11"></a> (Direct3D 11) 的資源限制
 

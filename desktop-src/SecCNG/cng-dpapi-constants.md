@@ -4,12 +4,12 @@ ms.assetid: 4E43FAA9-7D6F-43DB-A998-189411E0AB4C
 title: 'CNG DPAPI 常數 (NCryptprotect .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ece376a0b7282f26ef933b249a1356b2d012d438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1afc589afa113250728b46639b7cd47442034f7b3bc82264099f334919a94c76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908796"
 ---
 # <a name="cng-dpapi-constants"></a>CNG DPAPI 常數
 
@@ -189,8 +189,8 @@ WEBCREDENTIALS
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>NCryptprotect。h</dt> </dl> |
 
 

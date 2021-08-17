@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9ea2020e2d9baaffbc026692faafc702db14781
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 179fe0146f49d0e5172410ca119953a7b3f245af20c0e4c2d83ff78fa23b93e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106980285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035956"
 ---
 # <a name="webviewfoldercontents-object"></a>WebViewFolderContents 物件
 
@@ -72,13 +72,13 @@ ms.locfileid: "106980285"
 
 
 
-| 屬性                                                            | 存取類型          | Description                                                                                                                              |
+| 屬性                                                            | 存取類型          | 描述                                                                                                                              |
 |:--------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
 | [**Application**](webviewfoldercontents-application.md)<br/> | 唯讀<br/> | 未實作。<br/>                                                                                                              |
 | [**FocusedItem**](webviewfoldercontents-focuseditem.md)<br/> | 唯讀<br/> | 取得代表具有輸入焦點之專案的 [**FolderItem**](../shell/folderitem.md) 物件。<br/>                           |
 | [**資料夾**](webviewfoldercontents-folder.md)<br/>           | 唯讀<br/> | 取得代表視圖的 [**資料夾**](../shell/folder.md) 物件。<br/>                                                            |
 | [**父代**](webviewfoldercontents-parent.md)<br/>           | 唯讀<br/> | 未實作。<br/>                                                                                                              |
-| [**腳本**](webviewfoldercontents-script.md)<br/>           | 唯讀<br/> | 取得視圖的腳本物件。<br/>                                                                                       |
+| [**指令碼**](webviewfoldercontents-script.md)<br/>           | 唯讀<br/> | 取得視圖的腳本物件。<br/>                                                                                       |
 | [**ViewOptions**](webviewfoldercontents-viewoptions.md)<br/> | 唯讀<br/> | 取得一組 [**ShellFolderViewOptions**](/windows/desktop/api/shldisp/ne-shldisp-shellfolderviewoptions) 旗標，指出視圖的目前選項。<br/> |
 
 
@@ -91,10 +91,10 @@ ms.locfileid: "106980285"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

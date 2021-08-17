@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: bc2a72f6d638c7a4daa8db1849a790bdd76556b9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 215f5a73d18599484b80b9d29d7dffcbb8be20ef3743ddb6fc0cdf7f70e974b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044608"
 ---
 # <a name="d3dxvec3catmullrom-function-d3dx9mathh"></a>D3DXVec3CatmullRom 函式 (D3dx9math) 
 

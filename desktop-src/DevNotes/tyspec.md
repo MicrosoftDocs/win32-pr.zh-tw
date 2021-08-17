@@ -13,12 +13,12 @@ api_type:
 - IDLDef
 api_location:
 - Wtypes.idl
-ms.openlocfilehash: b4c8cf38a8f99458e76cabc726aa39ad01a71ebc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15e7ecdc06495c0fa68b2949ae159bbc76b8cababd2b8703d3ebbdebb874399b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106974931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075752"
 ---
 # <a name="tyspec-enumeration"></a>TYSPEC 列舉
 
@@ -129,7 +129,7 @@ typedef union switch(DWORD tyspec) {
 
 | 需求 | 值 |
 |----------------|---------------------------------------------------------------------------------------|
-| Idl<br/> | <dl> <dt>Wtypes.h .idl</dt> </dl> |
+| IDL<br/> | <dl> <dt>Wtypes.h .idl</dt> </dl> |
 
 
 

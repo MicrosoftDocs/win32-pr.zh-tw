@@ -4,12 +4,12 @@ ms.assetid: 788d3bc2-1010-436c-a95f-6fe55daac88e
 title: 繪製圓形圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d14928c3f90c3222c2a01d6a063d46f109ad7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 0a9bfc5d60ca425deb7d099558366f627d1f94dfbf4889090b5d494f1a5770d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038076"
 ---
 # <a name="drawing-a-pie-chart"></a>繪製圓形圖
 

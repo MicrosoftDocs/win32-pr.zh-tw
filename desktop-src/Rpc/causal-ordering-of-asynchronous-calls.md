@@ -4,12 +4,12 @@ description: 在非同步 RPC 應用程式中，用戶端執行緒可能會先�
 ms.assetid: 69beb3a4-39ae-4e3f-bb7d-31519278334d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 754ae4733e5a3936bdd28fef72b9560fb9c9dfcd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dbafc5f9166d28a80d514abd4ebea20ab01ea32f542561e2108feae4a5769458
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932292"
 ---
 # <a name="causal-ordering-of-asynchronous-calls"></a>非同步呼叫的因果順序
 
@@ -20,9 +20,9 @@ ms.locfileid: "104021369"
 -   如果用戶端應用程式的非同步呼叫後面接著一或多個同步呼叫，則非同步呼叫可以在執行同步呼叫時執行。 無論非同步呼叫的狀態為何，同步呼叫都會依伺服器接收的順序來執行。
 -   如果用戶端應用程式選取特定系結控制碼的 noncausal 順序，則會停用該控制碼的序列化。 應用程式會藉由呼叫 [**RpcBindingSetOption**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetoption) 並將 *Option* 參數設定為 [RPC \_ C OPT 系結 noncausal] \_ \_ \_ ，並將 [ *OptionValue* ] 參數設為 **TRUE**，藉以啟用 noncausal 排序 如需詳細資訊，請參閱系結 [選項常數](binding-option-constants.md)。
 
- 
+ 
 
- 
+ 
 
 
 

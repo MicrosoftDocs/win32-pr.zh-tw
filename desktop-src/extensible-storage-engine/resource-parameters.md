@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 953488a273092413df78d4fe396899d284c7a01c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87c8c93e70950aca360e4aa9bad62b8280611c6713156dec80e4d11414f346d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978598"
 ---
 # <a name="resource-parameters"></a>資源參數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="resource-parameters"></a>資源參數
 
@@ -86,7 +86,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows Vista 和更新版本</p></td>
+<td><p>WindowsVista 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +95,7 @@ _**適用于：** Windows |Windows Server_
 *JET_paramDisablePerfmon*  
 107  
 
-此參數可用來防止資料庫引擎將其效能的相關資料發佈至 Windows。 這樣做可以減少資料庫引擎的服務執行緒活動。
+您可以使用這個參數來防止資料庫引擎將其效能的相關資料發佈至 Windows。 這樣做可以減少資料庫引擎的服務執行緒活動。
 
 <table>
 <colgroup>
@@ -145,7 +145,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows Vista 和更新版本</p></td>
+<td><p>WindowsVista 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -156,9 +156,9 @@ _**適用于：** Windows |Windows Server_
 
 此參數可讓在多重實例模式中運作的應用程式預先配置記憶體給全域集區中的版本頁面，以模擬較舊的行為。 如果應用程式想要保證特定大小的交易稍後可能會成功，即使記憶體變得很少，這項功能就很有用。
 
-**Windows 2000：**  在 [JetInit](./jetinit-function.md) 時，一律會保留足夠的記憶體來備份所有版本頁面。
+**Windows 2000：** 在 [JetInit](./jetinit-function.md)時，一律會保留足夠的記憶體來備份所有版本頁面。
 
-**WINDOWS XP：**  在 Windows XP 中，這在單一實例模式中仍為 true。 不過，在多重實例模式中時，會以動態方式配置版本頁面記憶體。
+**Windows XP：** 從 Windows XP，在單一實例模式中，這仍然是 true。 不過，在多重實例模式中時，會以動態方式配置版本頁面記憶體。
 
 <table>
 <colgroup>
@@ -208,7 +208,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows XP 和更新版本</p></td>
+<td><p>WindowsXP 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -219,7 +219,7 @@ _**適用于：** Windows |Windows Server_
 
 此參數會保留所要求的資料指標資源數目，供實例使用。 資料指標資源直接對應至 [JET_TABLEID](./jet-tableid.md) 資料類型。 此設定會影響可同時使用的資料指標數目。 不同的會話無法共用資料指標資源，因此這個參數必須設定為夠大的值，讓每個會話可以使用所需的資料指標數目。
 
-**Windows 2000、WINDOWS XP 及 Windows Server 2003：**  此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
+**Windows 2000、Windows XP 和 Windows Server 2003：** 此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
 
 <table>
 <colgroup>
@@ -328,7 +328,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows XP 和更新版本</p></td>
+<td><p>WindowsXP 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -341,7 +341,7 @@ _**適用于：** Windows |Windows Server_
 
 一般情況下，每個資料表的每個次要索引都需要兩個資源，再加上一個資源，同時應用程式同時使用。
 
-**Windows 2000、WINDOWS XP 及 Windows Server 2003：**  此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
+**Windows 2000、Windows XP 和 Windows Server 2003：** 此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
 
 <table>
 <colgroup>
@@ -402,7 +402,7 @@ _**適用于：** Windows |Windows Server_
 
 此參數會保留實例所用的要求會話資源數目。 會話資源直接對應至 [JET_SESID](./jet-sesid.md) 資料類型。 此設定會影響可同時使用的會話數目。
 
-**Windows 2000、WINDOWS XP 及 Windows Server 2003：**  此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
+**Windows 2000、Windows XP 和 Windows Server 2003：** 此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
 
 <table>
 <colgroup>
@@ -463,9 +463,9 @@ _**適用于：** Windows |Windows Server_
 
 此參數會保留所要求的臨時表資源數目，供實例使用。 此設定會影響可同時使用的臨時表數目。
 
-**Windows 2000、WINDOWS XP 及 Windows Server 2003：**  此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
+**Windows 2000、Windows XP 和 Windows Server 2003：** 此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
 
-**WINDOWS XP 和更新版本：**  如果這個系統參數設定為零，則不會建立暫存資料庫，而且任何需要使用暫存資料庫的活動都將會失敗。 這項設定有助於避免建立暫存資料庫所需的 i/o （如果已知不會使用）。
+**Windows XP 和更新版本：** 如果這個系統參數設定為零，則不會建立暫存資料庫，而且任何需要使用暫存資料庫的活動都將會失敗。 這項設定有助於避免建立暫存資料庫所需的 i/o （如果已知不會使用）。
 
 **注意**  使用臨時表也需要資料指標資源。
 
@@ -530,9 +530,9 @@ _**適用于：** Windows |Windows Server_
 
 此參數所設定的每個版本存放區頁面，在32位電腦上的大小為16KB，而在64位電腦上則為32KB。
 
-**Windows Vista 和更新版本：**  版本存放區頁面大小可透過 JET_paramVerPageSize 讀取及變更。
+**Windows Vista 和更新版本：** 版本存放區頁面大小可透過 JET_paramVerPageSize 讀取及變更。
 
-**Windows 2000、WINDOWS XP 及 Windows Server 2003：**  此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
+**Windows 2000、Windows XP 和 Windows Server 2003：** 此參數的大數值會耗用位址空間，而且可能會增加記憶體使用量。
 
 **注意**  這是最常用於資料庫引擎的資源。 請注意，必須將系統參數的設定以及應用程式的交易式負載的設定付費，以避免在正常操作下耗盡此資源。 當此資源耗盡時，資料庫的更新將會遭到拒絕，並 JET_errVersionStoreOutOfMemory。 若要釋放其中一些資源，最舊的未完成交易必須中止。
 
@@ -643,7 +643,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows XP 和更新版本</p></td>
+<td><p>WindowsXP 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -656,7 +656,7 @@ _**適用于：** Windows |Windows Server_
 
 如果此參數設定為零，則會預設為100% 的 **JET_paramMaxOpenTables**。
 
-**Windows Vista 和更新版本：**  此參數已過時，且不會影響資料庫引擎的操作。 應用程式應該改用 JET_paramMaxCachedClosedTables。
+**Windows Vista 和更新版本：** 此參數已過時，且不會影響資料庫引擎的操作。 應用程式應該改用 JET_paramMaxCachedClosedTables。
 
 <table>
 <colgroup>
@@ -717,13 +717,13 @@ _**適用于：** Windows |Windows Server_
 
 此參數代表一個相對於 **JET_paramMaxVerPages** 的臨界值，可控制 database engine 任意使用版本頁面。 如果版本存放區的大小超過此臨界值，則只會針對選擇性的背景工作（例如回收資料庫中已刪除的空間）使用任何資訊，而不會犧牲保存交易資訊的空間。
 
-**Windows 2000、WINDOWS XP 及 Windows Server 2003：**  將此參數設定為零會將臨界值設定為90% 的 **JET_paramMaxVerPages**。
+**Windows 2000、Windows XP 和 Windows Server 2003：** 將此參數設定為零會將臨界值設定為90% 的 **JET_paramMaxVerPages**。
 
-**Windows Vista 和更新版本：**  已不再支援此參數，且此參數的預設值已變更，以闡明其行為。
+**Windows Vista 和更新版本：** 已不再支援此參數，且此參數的預設值已變更，以闡明其行為。
 
 此參數所設定的每個版本存放區頁面，在32位電腦上的大小為16KB，而在64位電腦上則為32KB。
 
-**Windows Vista 和更新版本：**  版本存放區頁面大小可透過 JET_paramVerPageSize 讀取及變更。
+**Windows Vista 和更新版本：** 版本存放區頁面大小可透過 JET_paramVerPageSize 讀取及變更。
 
 **注意**  如果資料庫引擎太過頻繁地操作此閾值，則資料庫可能會降低效能。 發生這種情況的原因是，清除資料庫的背景進程無法正常運作，而不需要在此案例中擲回的選擇性資訊。 線上或離線磁碟重組將會阻礙此效果。
 
@@ -735,8 +735,8 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong>  0 (90% 的 JET_paramMaxVerPages) </p>
-<p><strong>Windows Vista：</strong>  58</p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 0 (90% 的 JET_paramMaxVerPages) </p>
+<p><strong>Windows Vista：</strong> 58</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -837,7 +837,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows Vista 和更新版本</p></td>
+<td><p>WindowsVista 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -864,8 +864,8 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>WINDOWS XP 和 Windows Server 2003：  </strong>  1 –63</p>
-<p><strong>Windows Vista：</strong>  1-127</p></td>
+<td><p><strong>Windows XP 和 Windows Server 2003：</strong> 1 –63</p>
+<p><strong>Windows Vista：</strong> 1-127</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -877,8 +877,8 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p><strong>WINDOWS XP 和 Windows Server 2003：  </strong>  不</p>
-<p><strong>Windows Vista：</strong>  是的</p></td>
+<td><p><strong>Windows XP 和 Windows Server 2003：</strong> 不</p>
+<p><strong>Windows Vista：</strong> 是的</p></td>
 </tr>
 <tr class="odd">
 <td><p>會影響實體版面配置：</p></td>
@@ -898,7 +898,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows XP 和更新版本</p></td>
+<td><p>WindowsXP 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -918,7 +918,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

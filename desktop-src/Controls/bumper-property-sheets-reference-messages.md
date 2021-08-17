@@ -4,12 +4,12 @@ description: 屬性工作表訊息
 ms.assetid: 816dfb75-fcb1-40f9-9977-3f17022f212c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22c4363b0f95793b2797276f976efadfa7647f66
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f67d3ac30f48811b1fa60f8955c00e1ebf6047ddd090bc9e7204516de1ca2894
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106985846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958757"
 ---
 # <a name="property-sheet-messages"></a>屬性工作表訊息
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f04e4c8c90796aafb64870a9d59d38b0a33e7435
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 344783d8e8aac755d157f125b02827c9f362ca96271dccb84134f451b31d1bc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954817"
 ---
 # <a name="cbaserenderersendendofstream-method"></a>CBaseRenderer. SendEndOfStream 方法
 
@@ -46,7 +46,7 @@ virtual HRESULT SendEndOfStream();
 
 
 
-| 傳回碼                                                                             | Description                                                               |
+| 傳回碼                                                                             | 描述                                                               |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 篩選圖形管理員不接受事件通知。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                                                       |

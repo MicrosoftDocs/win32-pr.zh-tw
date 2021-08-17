@@ -4,18 +4,18 @@ ms.assetid: 1dd8aba7-2035-4d78-8745-d355e01b9eb5
 title: 關於 INF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24c181b2a7b7dc1fe390f75b31978de333832781
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41fc9e92fc9899656658597e1de4a6640d9cd82be9e247f838cdfad585988c42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887951"
 ---
 # <a name="about-inf-files"></a>關於 INF 檔案
 
 INF 檔案是分割成不同類型之格式化區段的文字檔。 每一節都是針對特定用途而設計;例如，複製檔案或將專案新增至登錄。 INF 檔案中的區段數目和類型取決於特定的安裝程式。 每個區段都包含有助於該區段用途的行。
 
-INF 檔案會以 Microsoft Windows 2000 驅動程式開發工具組的 INF 檔案和 *inf 檔案章節和* 指示詞章節的 *一般指導方針* 所述的格式來儲存資訊。 如果您打算撰寫 INF 檔案，請參閱 Microsoft Windows 驅動程式開發工具組 (DDK) 的這些資源。 安裝函式會使用此格式來從 INF 檔案取出資訊
+inf 檔案會以 Microsoft Windows 2000 驅動程式開發工具組的 inf 檔案和 *inf 檔案章節和* 指示詞章節的 *一般指導方針* 所述的格式來儲存資訊。 如果您打算撰寫 INF 檔案，請參閱 Microsoft Windows 驅動程式開發工具組 (DDK) 的這些資源。 安裝函式會使用此格式來從 INF 檔案取出資訊
 
 您可以搭配使用下列 INF 區段與安裝函式來建立安裝應用程式。 當您建立 INF 檔案時，不需要包含每一種類型的區段。 使用的區段取決於安裝程式。
 
@@ -23,7 +23,7 @@ INF 檔案會以 Microsoft Windows 2000 驅動程式開發工具組的 INF 檔�
 
 | 區段                          | 描述                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \[**版本**\]                  | 包含 INF 檔案的相關資訊。 這是唯一必要的區段。 安裝函式會使用此區段來辨識 INF 檔案的目標 Windows 版本。                                                                                                                                                                                                                                    |
+| \[**版本**\]                  | 包含 INF 檔案的相關資訊。 這是唯一必要的區段。 安裝函式會使用此區段來辨識適用于 INF 檔案的 Windows 版本。                                                                                                                                                                                                                                    |
 | \[**安裝**\]                  | 提供安裝程式的總覽，並且包含安裝程式在安裝期間所處理之 INF 區段的清單。 請參閱 [INF 安裝章節範例](inf-install-section-example.md)。                                                                                                                                                                                                           |
 |     \[**新增登錄**\]         | 包含用來將子機碼或值名稱新增至登錄的資訊。                                                                                                                                                                                                                                                                                                                                                         |
 |     \[**複製檔案**\]           | 包含來原始檔案名，而且可以指定其他複製行為。                                                                                                                                                                                                                                                                                                                                                           |
@@ -36,8 +36,8 @@ INF 檔案會以 Microsoft Windows 2000 驅動程式開發工具組的 INF 檔�
 |     \[**更新 INI 檔案**\]      | 包含用來取代、新增或刪除 INI 專案的資訊。                                                                                                                                                                                                                                                                                                                                                               |
 | \[**服務**\]                 | 列出要新增或安裝的服務。                                                                                                                                                                                                                                                                                                                                                                                            |
 |     \[**服務安裝**\]      | 包含用來安裝服務區段的 AddService 索引鍵中所列之 **服務的資訊** 。                                                                                                                                                                                                                                                                                                                       |
-| \[**DestinationDirs**\]          | **將 [複製** 檔案] 區段對應至目的地目錄。 定義 [ **複製** 檔案]、[ **重新命名** 檔案] 或 [ **刪除** 檔案] 區段中所列檔案的目的地目錄。                                                                                                                                                                                                                                                   |
-| \[**SourceDisksFiles**\]         | 將來源檔案對應至在 **SourceDisksNames** 區段中指派的序數值。 請參閱 [INF SourceDisksNames 和 SourceDisksFiles 章節範例](inf-sourcedisksnames-and-sourcedisksfiles-sections-example.md)。                                                                                                                                                                                                      |
+| \[**DestinationDirs**\]          | 地圖 **將** 檔案區段複製到目的地目錄。 定義 [ **複製** 檔案]、[ **重新命名** 檔案] 或 [ **刪除** 檔案] 區段中所列檔案的目的地目錄。                                                                                                                                                                                                                                                   |
+| \[**SourceDisksFiles**\]         | 將來源檔案地圖 **SourceDisksNames** 區段中指派的序數值。 請參閱 [INF SourceDisksNames 和 SourceDisksFiles 章節範例](inf-sourcedisksnames-and-sourcedisksfiles-sections-example.md)。                                                                                                                                                                                                      |
 | \[**SourceDisksNames**\]         | 將序數值指派給每個來源磁片，並可儲存來源磁片的其他相關資訊。 請參閱 [INF SourceDisksNames 和 SourceDisksFiles 章節範例](inf-sourcedisksnames-and-sourcedisksfiles-sections-example.md)。                                                                                                                                                                                     |
 | \[**EventLog 安裝**\]         | 包含用來將事件訊息新增至登錄的資訊。                                                                                                                                                                                                                                                                                                                                                               |
 | \[**字串**\]                  | INF 檔案中的值可使用%*strkey*% 形式以可取代的字串表示。 INF 檔案中的每個 *strkey* 都必須指定由可列印字元組成的唯一名稱。 若要在字串中包含% 字元，請使用%%。 Strkey 必須定義在 INF 檔案的 **字串** 區段中。 您可以使用字串索引鍵做為 INF 檔案中的預留位置，以取得經常變更或需要當地語系化的資訊。 |

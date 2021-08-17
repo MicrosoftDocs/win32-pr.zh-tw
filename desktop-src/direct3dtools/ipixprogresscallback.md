@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: afb3e962569b1871282577f3d46618374b59425f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e0f60234ef62ac915502b54063d8579bad64c74125b27683c79e3f61e0b00b66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106985383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985808"
 ---
 # <a name="span-idvspixengineipixprogresscallbackspanipixprogresscallback-interface"></a><span id="vspixengine.ipixprogresscallback"></span>IPixProgressCallback 介面
 

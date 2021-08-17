@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d97877c67970f43a995fcfbe21d9aead2d792e09
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c549e93829c3165d4921342d4e74a8dc15bc1518f7c88aa205f8afc889fae95e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788062"
 ---
 # <a name="texbeml---ps"></a>texbeml-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "103933564"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "103933564"
 
 
 
- 
+ 
 
 Src 暫存器中的紅色和綠色色彩資料會解讀為更動資料 (du、dv) 。 Src 暫存器中的藍色資料會被視為亮度資料。
 
@@ -147,6 +147,6 @@ mov r0, t1          ; Output result
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

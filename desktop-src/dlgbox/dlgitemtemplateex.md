@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7261fa832e5acfb4ef7d9723bc93b862947ef380
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad2bf1795f5059ec1fdda00ddb6a93cfe396dae5b4119d392eff42382fa978b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785864"
 ---
 # <a name="dlgitemtemplateex-structure"></a>DLGITEMTEMPLATEEX 結構
 
@@ -152,9 +152,9 @@ typedef struct {
 
 | 值                                                                             | 意義               |
 |-----------------------------------------------------------------------------------|-----------------------|
-| <dl> <dt>0x0080</dt> </dl> | 按鈕<br/>     |
+| <dl> <dt>0x0080</dt> </dl> | Button<br/>     |
 | <dl> <dt>0x0081</dt> </dl> | 編輯<br/>       |
-| <dl> <dt>0x0082</dt> </dl> | Static<br/>     |
+| <dl> <dt>0x0082</dt> </dl> | 靜態<br/>     |
 | <dl> <dt>0x0083</dt> </dl> | 清單方塊<br/>   |
 | <dl> <dt>0x0084</dt> </dl> | 捲軸<br/> |
 | <dl> <dt>0x0085</dt> </dl> | 下拉式方塊<br/>  |

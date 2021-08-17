@@ -4,12 +4,12 @@ ms.assetid: 6a95bdf6-8767-4ad3-bcec-b32858d25571
 title: DeclData
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89a26d667f853db3044db3155c55eb4a6d941c6e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5686e3344e4642483490c9bd2892cbc92ade290567107b702cc9c56ff351c71a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118803233"
 ---
 # <a name="decldata"></a>DeclData
 

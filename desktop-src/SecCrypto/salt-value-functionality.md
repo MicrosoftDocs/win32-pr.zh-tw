@@ -4,12 +4,12 @@ ms.assetid: f1af0af7-c64e-435a-aef0-7c4ed7bd1199
 title: Salt 值功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd8e3049c431cf909c1008acac26925cd1fa9e6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f911815152861921f1ffe12090c88ad4795ba042346aee875138acf591d14671
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900368"
 ---
 # <a name="salt-value-functionality"></a>Salt 值功能
 

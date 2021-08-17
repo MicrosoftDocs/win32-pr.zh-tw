@@ -4,12 +4,12 @@ ms.assetid: 99fd7ef0-02cf-4390-9026-00ef2bbc1e37
 title: 'InkEdit： Click event (筆跡) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55df62807ee78e0f083a301c83a756b4cffb729d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f126035319c5d225da3fe57e075044c50f91f928277de89fce8e516e4723c701
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118718136"
 ---
 # <a name="inkeditclick-event"></a>InkEdit。按一下事件
 
@@ -51,7 +51,7 @@ void Click();
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>筆跡 (也需要筆跡 \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

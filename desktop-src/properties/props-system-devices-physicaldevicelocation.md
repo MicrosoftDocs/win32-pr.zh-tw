@@ -4,12 +4,12 @@ ms.assetid: 418b47b7-91fd-4da3-9162-8677f5fe2a49
 title: PhysicalDeviceLocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eccc6f3ece199934207d4a501406c9773df5f49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47e729af44480b5d1188eeb3fce63744c8e808aa7114552ed36a10d17caf9dcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728078"
 ---
 # <a name="systemdevicesphysicaldevicelocation"></a>PhysicalDeviceLocation
 

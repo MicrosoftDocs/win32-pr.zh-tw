@@ -4,12 +4,12 @@ ms.assetid: bcf5c2f0-b99f-4de5-83f4-44f17dc31cd4
 title: 憑證回應功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15eec71d0493fa4961988b86db0397d0fd516508
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43f82922ce2b0cdfad370bbfbf4d1fd3a135c19d5ba613110364f7283ec12a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902398"
 ---
 # <a name="certificate-response-functions"></a>憑證回應功能
 

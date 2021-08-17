@@ -4,12 +4,12 @@ ms.assetid: a05ae7e6-d882-4287-9990-23e4cd340b05
 title: 'CNG 演算法識別碼 (Bcrypt .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba244f2a815933322793fdd572ed7a4e69256a0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1f2f9539f9fc446d0c313d32117890bc3b1eff4ed8261a815e41acdda13cbe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908914"
 ---
 # <a name="cng-algorithm-identifiers"></a>CNG 演算法識別碼
 
@@ -43,11 +43,11 @@ ms.locfileid: "107000239"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_AES_CMAC_ALGORITHM"></span><span id="bcrypt_aes_cmac_algorithm"></span><dl> <dt><strong>BCRYPT_AES_CMAC_ALGORITHM</strong></dt> <dt> &quot; AES-CMAC &quot; </dt> </dl></td>
-<td style="text-align: left;">Advanced encryption standard (AES) 以密碼為基礎的訊息驗證碼 (CMAC) 對稱式加密演算法。<br/> 標準： SP 800-38B<br/> <strong>Windows 8：</strong> 此演算法的支援開始。<br/> <br/></td>
+<td style="text-align: left;">Advanced encryption standard (AES) 以密碼為基礎的訊息驗證碼 (CMAC) 對稱式加密演算法。<br/> 標準： SP 800-38B<br/> <strong>Windows 8：</strong>此演算法的支援開始。<br/> <br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_AES_GMAC_ALGORITHM"></span><span id="bcrypt_aes_gmac_algorithm"></span><dl> <dt><strong>BCRYPT_AES_GMAC_ALGORITHM</strong></dt> <dt> &quot; AES-GMAC &quot; </dt> </dl></td>
-<td style="text-align: left;">Advanced encryption standard (AES) Galois 訊息驗證碼 (GMAC) 對稱式加密演算法。<br/> 標準： SP800-38D<br/> <strong>Windows Vista：</strong> 從 Windows Vista SP1 開始支援此演算法。<br/></td>
+<td style="text-align: left;">Advanced encryption standard (AES) Galois 訊息驗證碼 (GMAC) 對稱式加密演算法。<br/> 標準： SP800-38D<br/> <strong>Windows Vista：</strong>從 Windows Vista SP1 開始支援此演算法。<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_CAPI_KDF_ALGORITHM"></span><span id="bcrypt_capi_kdf_algorithm"></span><dl> <dt><strong>BCRYPT_CAPI_KDF_ALGORITHM</strong></dt> <dt>L &quot; CAPI_KDF &quot; </dt> </dl></td>
@@ -67,7 +67,7 @@ ms.locfileid: "107000239"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_DSA_ALGORITHM"></span><span id="bcrypt_dsa_algorithm"></span><dl> <dt><strong>BCRYPT_DSA_ALGORITHM</strong></dt> <dt> &quot; DSA &quot; </dt> </dl></td>
-<td style="text-align: left;">數位簽章演算法。<br/> 標準： FIPS 186-2<br/> <strong>Windows 8：</strong> 從 Windows 8 開始，此演算法支援 FIPS 186-3。 小於或等於1024位的金鑰會遵循 FIPS 186-2，以及大於1024的金鑰，以達 FIPS 186-3。<br/></td>
+<td style="text-align: left;">數位簽章演算法。<br/> 標準： FIPS 186-2<br/> <strong>Windows 8：</strong>從 Windows 8 開始，此演算法支援 FIPS 186-3。 小於或等於1024位的金鑰會遵循 FIPS 186-2，以及大於1024的金鑰，以達 FIPS 186-3。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_ECDH_P256_ALGORITHM"></span><span id="bcrypt_ecdh_p256_algorithm"></span><dl> <dt><strong>BCRYPT_ECDH_P256_ALGORITHM</strong></dt> <dt> &quot; ECDH_P256 &quot; </dt> </dl></td>
@@ -120,15 +120,15 @@ ms.locfileid: "107000239"
 [!Note]<br />
 從 Windows Vista SP1 和 Windows Server 2008 開始，亂數產生器是以 NIST SP 800-90 標準中指定的 AES 計數器模式為基礎。
 </blockquote>
-<br/> <strong>Windows Vista：</strong> 亂數產生器是根據 FIPS 186-2 標準中指定的雜湊型亂數產生器。<br/> <strong>Windows 8：</strong> 從 Windows 8 開始，RNG 演算法支援 FIPS 186-3。 小於或等於1024位的金鑰會遵循 FIPS 186-2，以及大於1024的金鑰，以達 FIPS 186-3。<br/></td>
+<br/> <strong>Windows Vista：</strong>亂數產生器是根據 FIPS 186-2 標準中指定的雜湊型亂數產生器。<br/> <strong>Windows 8：</strong>從 Windows 8 開始，RNG 演算法支援 FIPS 186-3。 小於或等於1024位的金鑰會遵循 FIPS 186-2，以及大於1024的金鑰，以達 FIPS 186-3。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_RNG_DUAL_EC_ALGORITHM"></span><span id="bcrypt_rng_dual_ec_algorithm"></span><dl> <dt><strong>BCRYPT_RNG_DUAL_EC_ALGORITHM</strong></dt> <dt> &quot; DUALECRNG &quot; </dt> </dl></td>
-<td style="text-align: left;">雙重橢圓曲線亂數字產生器演算法。 <br/> 標準： SP800-90。<br/> <strong>Windows 8：</strong> 從 Windows 8 開始，EC RNG 演算法支援 FIPS 186-3。 小於或等於1024位的金鑰會遵循 FIPS 186-2，以及大於1024的金鑰，以達 FIPS 186-3。<br/> <strong>Windows 10：</strong> 從 Windows 10 開始，已移除雙重橢圓曲線亂數字產生器演算法。 此演算法的現有用法將繼續運作;不過，亂數產生器是以 NIST SP 800-90 標準中指定的 AES 計數器模式為基礎。 新的程式碼應該使用 <strong>BCRYPT_RNG_ALGORITHM</strong>，建議您將現有的程式碼變更為使用 <strong>BCRYPT_RNG_ALGORITHM</strong>。 <br/></td>
+<td style="text-align: left;">雙重橢圓曲線亂數字產生器演算法。 <br/> 標準： SP800-90。<br/> <strong>Windows 8：</strong>從 Windows 8 開始，EC RNG 演算法支援 FIPS 186-3。 小於或等於1024位的金鑰會遵循 FIPS 186-2，以及大於1024的金鑰，以達 FIPS 186-3。<br/> <strong>Windows 10：</strong>從 Windows 10 開始，已移除雙重橢圓曲線亂數字產生器演算法。 此演算法的現有用法將繼續運作;不過，亂數產生器是以 NIST SP 800-90 標準中指定的 AES 計數器模式為基礎。 新的程式碼應該使用 <strong>BCRYPT_RNG_ALGORITHM</strong>，建議您將現有的程式碼變更為使用 <strong>BCRYPT_RNG_ALGORITHM</strong>。 <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_RNG_FIPS186_DSA_ALGORITHM"></span><span id="bcrypt_rng_fips186_dsa_algorithm"></span><dl> <dt><strong>BCRYPT_RNG_FIPS186_DSA_ALGORITHM</strong></dt> <dt> &quot; FIPS186DSARNG &quot; </dt> </dl></td>
-<td style="text-align: left;">適用于 DSA (數位簽章演算法) 的亂數字產生器演算法。 <br/> 標準： FIPS 186-2。<br/> <strong>Windows 8：</strong> FIPS 186-3 的支援開始。<br/></td>
+<td style="text-align: left;">適用于 DSA (數位簽章演算法) 的亂數字產生器演算法。 <br/> 標準： FIPS 186-2。<br/> <strong>Windows 8：</strong>FIPS 186-3 的支援開始。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_RSA_ALGORITHM"></span><span id="bcrypt_rsa_algorithm"></span><dl> <dt><strong>BCRYPT_RSA_ALGORITHM</strong></dt> <dt> &quot; RSA &quot; </dt> </dl></td>
@@ -176,7 +176,7 @@ ms.locfileid: "107000239"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_XTS_AES_ALGORITHM"></span><span id="bcrypt_xts_aes_algorithm"></span><dl> <dt><strong>BCRYPT_XTS_AES_ALGORITHM</strong></dt> <dt> &quot; XTS-AES &quot; </dt> </dl></td>
-<td style="text-align: left;">XTS 模式中的先進加密標準對稱式加密演算法。 <br/> 標準： SP-800-38E、IEEE Std 1619-2007。<br/> <strong>Windows 10：</strong> 此演算法的支援開始。<br/></td>
+<td style="text-align: left;">XTS 模式中的先進加密標準對稱式加密演算法。 <br/> 標準： SP-800-38E、IEEE Std 1619-2007。<br/> <strong>Windows 10：</strong>此演算法的支援開始。<br/></td>
 </tr>
 </tbody>
 </table>
@@ -187,7 +187,7 @@ ms.locfileid: "107000239"
 
 若要 **使用 BCRYPT \_ ecdsa \_ ALGORITM** 或 **BCRYPT \_ ecdh \_ 演算法**，請使用 **BCRYPT \_ ECDSA \_ 演算法** 或 **BCRYPT \_ ECDH \_ 演算法** 來呼叫 [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider)做為 *pszAlgId*。 然後使用 [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) 將 [ **BCRYPT \_ ECC \_ 曲線 \_ 名稱** ] 屬性設定為 [CNG 命名曲線] 中所列的名為演算法。
 
-若要直接提供使用者定義的橢圓曲線參數，請使用 [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) 來設定 **BCRYPT \_ ECC \_ 參數** 屬性。 下載 [Windows 10 密碼編譯提供者開發人員套件 (CPDK) ](https://www.microsoft.com/download/details.aspx?id=30688) 以取得詳細資訊。
+若要直接提供使用者定義的橢圓曲線參數，請使用 [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) 來設定 **BCRYPT \_ ECC \_ 參數** 屬性。 下載[Windows 10 密碼編譯提供者開發人員套件 (CPDK) ](https://www.microsoft.com/download/details.aspx?id=30688)以取得詳細資訊。
 
 ## <a name="requirements"></a>規格需求
 
@@ -195,8 +195,8 @@ ms.locfileid: "107000239"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Bcrypt。h</dt> </dl> |
 
 

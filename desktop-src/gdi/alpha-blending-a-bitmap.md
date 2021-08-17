@@ -4,12 +4,12 @@ ms.assetid: 01ed3e2e-cfb3-42c9-9030-b64f9db088f1
 title: Alpha 混合點陣圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8410111477d312eab5eb94a170188400d3f4f263
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54870ccf13ec27b982669dc43382c357a932ea9052e5855200f27825ab96eb35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038296"
 ---
 # <a name="alpha-blending-a-bitmap"></a>Alpha 混合點陣圖
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: ce58acc01ef87e6d53d829a5c84e7c9c0ff6afb9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4dfc4e6ecee3c78b0b0419c6b2525558f7d0122487630695aaace48873da91df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786816"
 ---
 # <a name="texturecubegather-methods"></a>TextureCube：：收集方法
 

@@ -4,12 +4,12 @@ ms.assetid: 8aa25afd-efa8-4fe0-92d4-8432f9d633c9
 title: 'MFSampleExtension_PacketCrossOffsets 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d416f41fef9caab3d73c2bdd015d345452ccbd69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b39abdcaf0dfb5888c1705a0a76a19c3a55be522b82405f5a77345efe0d8f13e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102304"
 ---
 # <a name="mfsampleextension_packetcrossoffsets-attribute"></a>MFSampleExtension \_ PacketCrossOffsets 屬性
 
@@ -31,7 +31,7 @@ ms.locfileid: "106982301"
 
 ## <a name="remarks"></a>備註
 
-此屬性適用于受 Windows Media 數位 Rights Management (DRM) 保護的媒體範例。 屬性的值是 **DWORD** s 的陣列。 陣列中的每個專案都是裝載界限的位移（相對於框架的開頭）。 應用程式在解密和重建框架時可以使用這些值。
+此屬性適用于受 Windows 媒體數位 Rights Management (DRM) 保護的媒體範例。 屬性的值是 **DWORD** s 的陣列。 陣列中的每個專案都是裝載界限的位移（相對於框架的開頭）。 應用程式在解密和重建框架時可以使用這些值。
 
 這個屬性的 GUID 常數是從 mfuuid 匯出。
 
@@ -41,8 +41,8 @@ ms.locfileid: "106982301"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                    |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

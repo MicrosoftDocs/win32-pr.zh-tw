@@ -14,16 +14,16 @@ keywords:
 - 從鳶尾花 GL、greset 函式移植的 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 078482f47dcaf7fd5f84605e2e0fa32d0cf14729
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bf5a48c09e7078f3eccd316de9cb86872d61343aabfa0faf60fbe5af2bef218c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936146"
 ---
 # <a name="porting-greset"></a>移植 greset
 
-OpenGL 將鳶尾花 GL 函數 **greset** 取代為函數 [**glPushAttrib**](glpushattrib.md) 和 [**glPopAttrib**](glpopattrib.md)。 使用這些函式來儲存及還原狀態變數的群組。 例如，
+OpenGL 將鳶尾花 GL 函數 **greset** 取代為函數 [**glPushAttrib**](glpushattrib.md) 和 [**glPopAttrib**](glpopattrib.md)。 使用這些函式來儲存及還原狀態變數的群組。 例如
 
 ``` syntax
 void glPushAttrib( GLbitfield mask );
@@ -59,13 +59,13 @@ void glPushAttrib( GLbitfield mask );
 
 
 
- 
+ 
 
 若要將狀態變數的值還原為與最後一個 [**glPushAttrib**](glpushattrib.md)儲存的值，只需呼叫 [**glPopAttrib**](glpopattrib.md)。 您未儲存的變數將保持不變。 屬性堆疊的有限深度至少為16。
 
- 
+ 
 
- 
+ 
 
 
 

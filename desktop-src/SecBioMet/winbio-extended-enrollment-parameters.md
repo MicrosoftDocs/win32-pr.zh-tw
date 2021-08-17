@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4f041d131bcee540a75a131b4179947fbe8e394
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55173b5badfb8764cfc9c681f4ed92e2f0d1c50e5db09075185af9e5db2e6433
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118910487"
 ---
 # <a name="winbio_extended_enrollment_parameters-structure"></a>WINBIO \_ 延伸 \_ 註冊 \_ 參數結構
 
@@ -58,7 +58,7 @@ typedef struct _WINBIO_EXTENDED_ENROLLMENT_PARAMETERS {
 
 ## <a name="remarks"></a>備註
 
-Windows 生物特徵辨識架構在註冊作業期間，將此結構傳遞給 [**EngineAdapterSetEnrollmentParameters**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_parameters_fn) 方法。
+Windows 生物特徵辨識架構在註冊作業期間，將此結構傳遞給 [**EngineAdapterSetEnrollmentParameters**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_parameters_fn)方法。
 
 ## <a name="requirements"></a>規格需求
 
@@ -66,8 +66,8 @@ Windows 生物特徵辨識架構在註冊作業期間，將此結構傳遞給 [*
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                                                     |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                                                     |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ adapter .h (包括 Winbio \_ adapter .h) </dt> </dl> |
 
 

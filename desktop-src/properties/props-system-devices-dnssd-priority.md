@@ -4,12 +4,12 @@ ms.assetid: 5e231cfe-acd4-46b1-b288-391e1173ce58
 title: Dnssd. Priority
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29787d1fb32c9011cc571bde86932d20d1d93f10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c1e3e3d0e13188a5f711951b5f23001749705a8eefb42717cad279c9f79c7c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728325"
 ---
 # <a name="systemdevicesdnssdpriority"></a>Dnssd. Priority
 

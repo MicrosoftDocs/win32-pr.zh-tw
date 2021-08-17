@@ -4,16 +4,16 @@ description: IAgentCommands GetVoice
 ms.assetid: ef8983bc-c70c-48c7-9c5f-1dae61028d90
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b1915512c89611267df3788e5dcaa84fb0874a4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 99b348904020a53eb11d2bb7884a05f8d98e223a359f796e7d891dafb3dcc402
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105333"
 ---
 # <a name="iagentcommandsgetvoice"></a>IAgentCommands::GetVoice
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetVoice(
@@ -39,6 +39,6 @@ HRESULT GetVoice(
 [**IAgentCommands：： SetVoice**](iagentcommands--setvoice.md)、 [**IAgentCommands：： GetCaption**](iagentcommands--getcaption.md)、 [**IAgentCommands：： GetVisible**](iagentcommands--getvisible.md)
 
 
- 
+ 
 
- 
+ 

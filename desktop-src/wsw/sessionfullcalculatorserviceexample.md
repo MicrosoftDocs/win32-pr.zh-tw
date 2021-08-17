@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a03c8c8daa8af0266b14e5d99eee003244123e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5e954b3e93cd2315a990935996429ffb2175534ca5ed3e709e6344ef4353e8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026156"
 ---
 # <a name="sessionfullcalculatorserviceexample"></a>SessionfullCalculatorServiceExample
 
@@ -579,9 +579,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

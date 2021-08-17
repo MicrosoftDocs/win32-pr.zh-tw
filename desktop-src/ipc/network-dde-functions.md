@@ -4,16 +4,16 @@ ms.assetid: 5fd61759-1792-4db0-9ad4-adf112294b9c
 title: 網路 DDE 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16e5ae6a38ec6324cf33b4f9c4ffc1af44473699
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4b37e83dd6b335e1acd2e77010fa61d0da5e3e26af5b46eef54d5ee20cf2eb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756307"
 ---
 # <a name="network-dde-functions"></a>網路 DDE 函數
 
-\[不再支援網路 DDE。 Windows Vista 上有 Nddeapi.dll，但是所有的函式呼叫都會傳回 NDDE \_ 未 \_ 執行。\]
+\[不再支援網路 DDE。 Nddeapi.dll 存在於 Windows Vista 中，但所有的函式呼叫會傳回 NDDE \_ 未 \_ 執行。\]
 
 下列函式用於網路 DDE。
 

@@ -1,5 +1,5 @@
 ---
-title: max
+title: 最大值
 description: 選取 x 和 y 的較大。
 ms.assetid: 08e17a0c-6d44-49ea-b613-bd262534522c
 keywords:
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9a40ccb32bb2c2fcd7ca7342b9d7d4d143688102
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e81eca4f5cabea57f36aa66b722fedb3e1176c3c189db9cdcfd610e4e26047c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118791469"
 ---
-# <a name="max"></a>max
+# <a name="max"></a>最大值
 
 選取 x 和 y 的較大。
 

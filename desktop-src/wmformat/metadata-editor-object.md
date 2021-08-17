@@ -3,7 +3,7 @@ title: 中繼資料編輯器物件
 description: 中繼資料編輯器物件
 ms.assetid: 224eea1c-1d0d-47ac-9d99-c13674284f6d
 keywords:
-- Windows Media Format SDK，中繼資料編輯器物件
+- Windows媒體格式 SDK，中繼資料編輯器物件
 - Advanced Systems Format (ASF) 的中繼資料編輯器物件
 - ASF (Advanced 系統格式) ，中繼資料編輯器物件
 - 物件，中繼資料編輯器物件
@@ -11,12 +11,12 @@ keywords:
 - 中繼資料、編輯器物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e27a30f5bd22bef9533352927901ad2b8a9e44fe
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 5e8e78aaf6ada96a9cefa1a9ec6f4aa5708c7382539bc3b75493734c18d600b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103681557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027446"
 ---
 # <a name="metadata-editor-object"></a>中繼資料編輯器物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "103681557"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -60,9 +60,9 @@ ms.locfileid: "103681557"
 [**使用中繼資料**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

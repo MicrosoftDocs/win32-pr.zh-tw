@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cb58c682ab30f54461e6b3c1870f5db703a3876d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 16086aca86e0df8c2c75e6a055be9fa95f7cc97259f37401aa932af962409811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118800576"
 ---
 # <a name="id3dxspriteonresetdevice-method"></a>ID3DXSprite：： OnResetDevice 方法
 

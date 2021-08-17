@@ -29,12 +29,12 @@ keywords:
 - 啟用 TSF 的應用程式，LoadLibrary 呼叫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d71966106cde0f59d39442f7e2bf9b2a216cd94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 432418fbcb6221082083d6595aa374939bc2f4d5cf5aad145cac87444e75bdc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118873573"
 ---
 # <a name="security-considerations-text-services-framework"></a>安全性考慮：文字服務架構
 
@@ -64,6 +64,6 @@ ms.locfileid: "106969105"
 [GetProcAddress](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

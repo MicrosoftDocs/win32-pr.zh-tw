@@ -4,12 +4,12 @@ ms.assetid: 4934934c-f330-4492-ac6a-2ac2217db930
 title: LeftScroll 對話方塊樣式位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62a0e09ba4234f1c2d90227c25d84415655e57e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d6ed4606066ce4e07a6fbbb8730ca3f428a0ee3eb45217e0afca4ca0207d52c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946015"
 ---
 # <a name="leftscroll-dialog-style-bit"></a>LeftScroll 對話方塊樣式位
 

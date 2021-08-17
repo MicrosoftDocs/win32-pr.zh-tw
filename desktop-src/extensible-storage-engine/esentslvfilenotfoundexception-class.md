@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 10e9c6ee9bf416220f141bf8e5ac1741ec8a6a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a10e6cf6c94b2854dbb2274ad7f07db81d0ae2f5b4805131c7ea2300216d8f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118773112"
 ---
 # <a name="esentslvfilenotfoundexception-class"></a>EsentSLVFileNotFoundException 類別
 

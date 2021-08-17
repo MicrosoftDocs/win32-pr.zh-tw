@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24a90459f53c538f526a523ec908ab2585b07e49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1fa69d7243305f51e29b5e3c76d34ab4ef9413b880ad490731886717cb6c14b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107018"
 ---
 # <a name="systemparameterslocalenamemaxlength-field"></a>SystemParameters. LocaleNameMaxLength 欄位
 

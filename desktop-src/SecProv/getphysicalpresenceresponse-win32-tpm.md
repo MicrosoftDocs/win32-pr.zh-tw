@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 47dfad1491b398b035e40867d10d2d3e46327dd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f32379c9e0f538c2f9be4466b55158d0abcdd51a4d2612634b2b03ff869ed41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891858"
 ---
 # <a name="getphysicalpresenceresponse-method-of-the-win32_tpm-class"></a>Win32 Tpm 類別的 GetPhysicalPresenceResponse 方法 \_
 
@@ -83,11 +83,11 @@ uint32 GetPhysicalPresenceResponse(
 <td>啟用 TPM。<br/> 作業4會反轉這項作業。<br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <dt>4</dt> </dl></td>
+<td><dl> <dt>億</dt> </dl></td>
 <td>停用 TPM。<br/> 作業3會反轉這項作業。<br/></td>
 </tr>
 <tr class="even">
-<td><dl> <dt>5</dt> </dl></td>
+<td><dl> <dt>.5</dt> </dl></td>
 <td>清除 TPM。<br/> 這種作業無法反轉。 <br/> 如需詳細資訊，請參閱此相關的方法，此方法不牽涉到實體存在： <a href="clear-win32-tpm.md"><strong>Clear</strong></a>。<br/></td>
 </tr>
 <tr class="odd">
@@ -95,11 +95,11 @@ uint32 GetPhysicalPresenceResponse(
 <td>啟用並啟用 TPM。<br/> 作業7會反轉這項作業。<br/></td>
 </tr>
 <tr class="even">
-<td><dl> <dt>7</dt> </dl></td>
+<td><dl> <dt>型</dt> </dl></td>
 <td>停用並停用 TPM。<br/> 作業6會反轉這項作業。 <br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <dt>8</dt> </dl></td>
+<td><dl> <dt>八角</dt> </dl></td>
 <td>允許安裝 TPM 擁有者。<br/> 作業9會反轉這項操作。<br/></td>
 </tr>
 <tr class="even">
@@ -116,7 +116,7 @@ uint32 GetPhysicalPresenceResponse(
 </tr>
 <tr class="odd">
 <td><span></span><dl> <dt><strong></strong></dt><dt>12</dt> </dl></td>
-<td>延遲的實體 PresenceunownedFieldUpgrade<br/> 實體狀態設定已更新。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：</strong> 不支援這個值。<br/></td>
+<td>延遲的實體 PresenceunownedFieldUpgrade<br/> 實體狀態設定已更新。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：</strong>不支援這個值。<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>日</dt> </dl></td>
@@ -124,35 +124,35 @@ uint32 GetPhysicalPresenceResponse(
 </tr>
 <tr class="odd">
 <td><dl> <dt>長</dt> </dl></td>
-<td>SetNoPPIProvision_False<br/> 設定您必須實際存在才能設定 TPM 的布建。<br/> 作業16會反轉這項作業。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：</strong> 不支援這個值。<br/></td>
+<td>SetNoPPIProvision_False<br/> 設定您必須實際存在才能設定 TPM 的布建。<br/> 作業16會反轉這項作業。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：</strong>不支援這個值。<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>16</dt> </dl></td>
-<td>SetNoPPIProvision_True<br/> 設定您不需要實際存在才能設定 TPM 的布建。<br/> 作業15會反轉這項作業。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：</strong> 不支援這個值。<br/></td>
+<td>SetNoPPIProvision_True<br/> 設定您不需要實際存在才能設定 TPM 的布建。<br/> 作業15會反轉這項作業。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：</strong>不支援這個值。<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt>至</dt> </dl></td>
-<td>SetNoPPIClear_False<br/> 設定您必須實際存在以清除 TPM 的布建。<br/> 作業18會反轉這項操作。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：</strong> 不支援這個值。<br/></td>
+<td>SetNoPPIClear_False<br/> 設定您必須實際存在以清除 TPM 的布建。<br/> 作業18會反轉這項操作。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：</strong>不支援這個值。<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>達</dt> </dl></td>
-<td>SetNoPPIClear_True<br/> 設定您不需要實際存在的布建，以清除 TPM。<br/> 作業17會反轉這項作業。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：</strong> 不支援這個值。<br/></td>
+<td>SetNoPPIClear_True<br/> 設定您不需要實際存在的布建，以清除 TPM。<br/> 作業17會反轉這項作業。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：</strong>不支援這個值。<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt>診斷</dt> </dl></td>
-<td>SetNoPPIMaintenance_False<br/> 設定您必須實際存在以維護 TPM 的布建。<br/> 作業20會反轉這項作業。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：</strong> 不支援這個值。<br/></td>
+<td>SetNoPPIMaintenance_False<br/> 設定您必須實際存在以維護 TPM 的布建。<br/> 作業20會反轉這項作業。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：</strong>不支援這個值。<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>名</dt> </dl></td>
-<td>SetNoPPIMaintenance_True<br/> 設定您必須實際存在以維護 TPM 的布建。<br/> 作業19會反轉這項操作。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：</strong> 不支援這個值。<br/></td>
+<td>SetNoPPIMaintenance_True<br/> 設定您必須實際存在以維護 TPM 的布建。<br/> 作業19會反轉這項操作。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：</strong>不支援這個值。<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt>21</dt> </dl></td>
-<td>啟用 + 啟用 + 清除<br/> 啟用、啟用和清除 TPM。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：</strong> 不支援這個值。<br/></td>
+<td>啟用 + 啟用 + 清除<br/> 啟用、啟用和清除 TPM。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：</strong>不支援這個值。<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>日</dt> </dl></td>
-<td>啟用 + 啟用 + 清除 + 啟用 + 啟動<br/> 啟用、啟用和清除 TPM，然後啟用並重新啟動 TPM。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：</strong> 不支援這個值。<br/></td>
+<td>啟用 + 啟用 + 清除 + 啟用 + 啟動<br/> 啟用、啟用和清除 TPM，然後啟用並重新啟動 TPM。<br/> <strong>Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：</strong>不支援這個值。<br/></td>
 </tr>
 </tbody>
 </table>
@@ -217,8 +217,8 @@ uint32 GetPhysicalPresenceResponse(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                      |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |
@@ -232,7 +232,7 @@ uint32 GetPhysicalPresenceResponse(
 [**Win32 \_ Tpm**](win32-tpm.md)
 </dt> <dt>
 
-[**清楚**](clear-win32-tpm.md)
+[**清除**](clear-win32-tpm.md)
 </dt> <dt>
 
 [**停用**](disable-win32-tpm.md)

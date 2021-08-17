@@ -4,16 +4,16 @@ ms.assetid: 61575839-4604-4c8b-ae4d-fe796c3c5314
 title: 'TAPI_AUDIO_STREAM_CONFIG_CAPS 結構 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: daec587a8e760bedd3ab9c6b3469ef8f70b72383
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51fc4777e6d174f7d4aaeac9bbd3f6d467123275b4030c9fa21363223584e8b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118861217"
 ---
 # <a name="tapi_audio_stream_config_caps-structure"></a>TAPI \_ 音訊 \_ 串流 \_ 設定 \_ CAPS 結構
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用此結構。 RTC 用戶端 API 提供類似的功能。\]
+\[此結構無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 當 **CapsType** 成員設定為 [**StreamConfigCapsType**](streamconfigcapstype.md)聯集的 **AudioCap** 成員時，tapi **\_ 音訊 \_ 串流設定 \_ \_ caps** 結構會包含在 [**tapi \_ 串流 \_ \_**](tapi-stream-config-caps.md)設定的 cap 結構中。
 

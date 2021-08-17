@@ -4,12 +4,12 @@ ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: MPEG-2 信號信號媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b9b5276b975771ba62118976c8e63b4d5faa53d
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 99b46b52580f96ec931f3a7eaf7d5bbf1462d4faa1862a330e501476fc92867a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952297"
 ---
 # <a name="mpeg-2-demultiplexer-media-types"></a>MPEG-2 信號信號媒體類型
 

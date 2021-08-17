@@ -4,23 +4,23 @@ description: CD 軌屬性
 ms.assetid: bc1ed934-87dd-4e19-8606-a8b18c44619f
 keywords:
 - Windows Media Player、CD 軌屬性
-- Windows Media Player 行動裝置、CD 軌屬性
+- Windows Media Player行動、CD 軌屬性
 - Windows Media Player 物件模型、CD 軌屬性
 - 物件模型、CD 軌屬性
-- ActiveX 控制項、CD 軌屬性
+- ActiveX 控制項，CD 軌屬性
 - Windows Media Player ActiveX 控制項、CD 軌屬性
-- Windows Media Player 的行動 ActiveX 控制項、CD 軌屬性
+- Windows Media PlayerMobile ActiveX 控制項、CD 軌屬性
 - 物件模型、CD 軌屬性的參考
 - 屬性，CD 曲目
 - CD 軌屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8f86f9b03f5c9f14e1cd386dc6e655e23a1b38d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 20015ae3651f86b408f978758110c187e45361d8a9d58965c3ed325586599031
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119840"
 ---
 # <a name="cd-track-attributes"></a>CD 軌屬性
 
@@ -34,7 +34,7 @@ ms.locfileid: "104301612"
 -   [BuyNow 屬性](buynow-attribute.md)
 -   [標題別名](title-attribute.md)
 -   [CDTrackEnabled 屬性](cdtrackenabled-attribute.md)
--   [編輯器別名](wm-composer-attribute.md)
+-   [Composer 別名](wm-composer-attribute.md)
 -   [著作權屬性](copyright-attribute.md)
 -   [內容類型別名](wm-genre-attribute.md)
 -   [標籤別名](wm-publisher-attribute.md)
@@ -63,7 +63,7 @@ ms.locfileid: "104301612"
 -   [UniqueFileIdentifier 別名](wm-uniquefileidentifier-attribute.md)
 -   [WM/AlbumArtist 屬性](wm-albumartist-attribute.md)
 -   [WM/AlbumTitle 屬性](wm-albumtitle-attribute.md)
--   [WM/編輯器屬性](wm-composer-attribute.md)
+-   [WM/Composer 屬性](wm-composer-attribute.md)
 -   [WM/內容類型屬性](wm-genre-attribute.md)
 -   [WM/歌詞屬性](wm-lyrics-attribute.md)
 -   [WM/MCDI 屬性](wm-mcdi-attribute.md)
@@ -71,7 +71,7 @@ ms.locfileid: "104301612"
 -   [WM/提供者屬性](wm-provider-attribute.md)
 -   [WM/ProviderRating 屬性](wm-providerrating-attribute.md)
 -   [WM/ProviderStyle 屬性](wm-providerstyle-attribute.md)
--   [WM/發行者屬性](wm-publisher-attribute.md)
+-   [WM/Publisher 屬性](wm-publisher-attribute.md)
 -   [WM/TrackNumber 屬性](wm-tracknumber-attribute.md)
 -   [WM/UniqueFileIdentifier 屬性](wm-uniquefileidentifier-attribute.md)
 -   [WM/WMContentID 屬性](wm-wmcontentid-attribute.md)
@@ -92,9 +92,9 @@ ms.locfileid: "104301612"
 [**播放清單。專案**](playlist-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

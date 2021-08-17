@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e77f925a0950d3731af58c2c6835867640760371
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5ca02966843d74aa17c3f5292ee3edf868140ae5722c26f47ec0270722cbbae2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118790273"
 ---
 # <a name="interlockedmax-function"></a>InterlockedMax 函式
 
@@ -28,9 +28,9 @@ ms.locfileid: "104990955"
 
 ``` syntax
 void InterlockedMax(
-  in  UINT dest,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -83,7 +83,7 @@ void InterlockedMax(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -95,6 +95,6 @@ void InterlockedMax(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_CALLBACK_VIDEOSTREAM 訊息 (Vfw .h) '
 description: WM \_ CAP \_ SET \_ 回呼 \_ m 訊息會在應用程式中設定回呼函數。
 ms.assetid: 590089b8-7a8d-476b-9b81-f96bf73b0369
 keywords:
-- WM_CAP_SET_CALLBACK_VIDEOSTREAM message Windows 多媒體
+- WM_CAP_SET_CALLBACK_VIDEOSTREAM 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cde1d2b44ba3786f2d17934e6e92e0894d8d3bba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2cdb4d7d18997fe437609b43a266242f04bd0bc2bb25429191d944240706244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940716"
 ---
 # <a name="wm_cap_set_callback_videostream-message"></a>WM \_ CAP \_ 設定 \_ 回呼 \_ m 訊息
 

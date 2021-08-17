@@ -4,12 +4,12 @@ ms.assetid: dfc7ad46-c13b-46d1-8854-0d93ecaac55a
 title: 'SENSOR_CATEGORY_BIOMETRIC (的感應器 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71660c7bc94037c21502c91e017a8eba369766a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1551a82e359d2277c8b46f227d7a72660b1419b3ba3ddfcf58bdd4ac1de5425b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889574"
 ---
 # <a name="sensor_category_biometric"></a>感應器 \_ 類別 \_ 生物特徵辨識
 
@@ -53,7 +53,7 @@ ms.locfileid: "104112629"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                            |
 | 標頭<br/>                   | <dl> <dt>感應器。h</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: a124e9fb-f9fa-4ed3-8f32-4f1fab392530
 title: InstallExecute 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76417a4f188849f9a5af5a90b08e1f4bb5977afc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 249a83f283b3abee97fbddf99d755b158678726fbb36c066791e3f87ae718f46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946126"
 ---
 # <a name="installexecute-action"></a>InstallExecute 動作
 

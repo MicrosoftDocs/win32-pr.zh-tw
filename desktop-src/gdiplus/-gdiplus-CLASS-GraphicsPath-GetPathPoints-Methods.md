@@ -4,12 +4,12 @@ ms.assetid: 65a9d308-e1b7-40c4-a079-2ec9d9a5cae3
 title: 'GraphicsPath. GetPathPoints 方法 (Gdipluspath .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: ed2a8ec5a56eedad1e88279175f4e5d6619534de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2b7cd82628663491ada645ad1f692d37a46fc87dcfa93658490902c9a4be5da0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105677"
 ---
 # <a name="graphicspathgetpathpoints-methods"></a>GraphicsPath. GetPathPoints 方法
 

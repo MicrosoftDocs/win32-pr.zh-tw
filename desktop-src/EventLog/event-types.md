@@ -4,12 +4,12 @@ ms.assetid: 4ab4a284-a4cd-4cf7-a9d2-e4a75fce01b9
 title: 事件類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3832f90ccdb8dafc676c139f92665efde732533c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e94ae69445f660e54c630734b93297acad593c127f32b9d3abfa94f9cd2fc06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069558"
 ---
 # <a name="event-types"></a>事件類型
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: c78caa3b8e08ade9c674a11d113a8b91b8f5fad1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff79ca2dd5c34cad77583878e89a4e2cd7108877b051a9864befccd52310319c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118893479"
 ---
 # <a name="scesvcattachmentconfig-callback-function"></a>SceSvcAttachmentConfig 回呼函式
 
@@ -66,8 +66,8 @@ SCESTATUS WINAPI SceSvcAttachmentConfig(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

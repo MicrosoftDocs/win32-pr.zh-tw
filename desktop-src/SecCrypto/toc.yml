@@ -29,7 +29,7 @@
                   href: public-private-key-pairs.md
                 - name: 工作階段金鑰
                   href: session-keys.md
-                - name: 密碼編譯金鑰儲存和交換
+                - name: 密碼編譯金鑰儲存體和 Exchange
                   href: cryptographic-key-storage-and-exchange.md
             - name: 編碼和解碼的資料
               href: encoded-and-decoded-data.md
@@ -3277,7 +3277,7 @@
                       href: extendedproperty-propid.md
                     - name: 值屬性
                       href: extendedproperty-value.md
-            - name: 分機
+            - name: 延伸模組
               href: extension.md
               items:
                 - name: 擴充屬性
@@ -3500,7 +3500,7 @@
             - name: 設定
               href: settings.md
               items:
-                - name: 設定屬性
+                - name: 設定性能
                   href: settings-properties.md
                   items:
                     - name: ActiveDirectorySearchLocation 屬性
@@ -3583,7 +3583,7 @@
                       href: signers-item.md
                     - name: _NewEnum 屬性
                       href: signers-newenum.md
-            - name: 市集
+            - name: 儲存
               href: store.md
               items:
                 - name: Store 方法

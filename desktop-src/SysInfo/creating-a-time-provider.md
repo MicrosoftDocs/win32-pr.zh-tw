@@ -4,12 +4,12 @@ ms.assetid: 04f523d7-7e99-4bf5-941f-ae67f4b9df0a
 title: 建立時間提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ac5a12e19651d88c3328ac72280c486a54c4d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf58766bf0ed7339bf8c9bfd7abc7434ddc43165b7cbdd77bcfd5420947e743d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885761"
 ---
 # <a name="creating-a-time-provider"></a>建立時間提供者
 

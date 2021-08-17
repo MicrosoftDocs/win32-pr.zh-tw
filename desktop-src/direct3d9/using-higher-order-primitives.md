@@ -4,12 +4,12 @@ ms.assetid: 7aa4f3ab-cfce-4f8f-a538-384f038fd324
 title: '使用 Higher-Order 基本 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e8d1447635c38e5e5df3d16ebca5ee3ee142020
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6a7d7a7b7f619c033665f8cb9894db5d60d5d6ecf9116de4ada230accc476c07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104553216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797287"
 ---
 # <a name="using-higher-order-primitives-direct3d-9"></a>使用 Higher-Order 基本 (Direct3D 9) 
 
@@ -25,7 +25,7 @@ ms.locfileid: "104553216"
 
 
 
-| 裝置功能             | Description                                                                                                                                                  |
+| 裝置功能             | 描述                                                                                                                                                  |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DDEVCAPS \_ NPATCHES          | 裝置支援 N 個修補程式，並根據 [曲線的 PN 三角形](https://alex.vlachos.com/graphics/CurvedPNTriangles.pdf) (一種特殊的三次貝塞爾三角形) 。 |
 | D3DDEVCAPS \_ QUINTICRTPATCHES  | 裝置支援 quintic 貝茲曲線和 B 曲線。                                                                                                         |

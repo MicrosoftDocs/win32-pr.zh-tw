@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2f262c8538763dc4d0de3784bdf6523d905a2eac
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 04789a47b403b287d4654a6717662b51982405efcbe38eef641b5f5c33fcc416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955417"
 ---
 # <a name="camschedulecamschedule-destructor"></a>CAMSchedule. ~ CAMSchedule 的函式
 

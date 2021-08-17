@@ -1,5 +1,5 @@
 ---
-description: 指定用來簽署檔的憑證。 憑證可以儲存在軟體發行者憑證 (SPC) 檔或憑證存放區中。
+description: 指定用來簽署檔的憑證。 憑證可以儲存在軟體 Publisher 憑證 (SPC) 檔或憑證存放區中。
 ms.assetid: 9a99ce98-237d-4223-ab3d-0576041038e3
 title: SIGNER_CERT 結構
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a14f955749e98ca34cda0be2c57a3d5c546afc41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d31670575db045430e78b6c6b3182f4561b0d4784c1e1c0da95ff8629154d2c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898871"
 ---
 # <a name="signer_cert-structure"></a>簽署者 \_ CERT 結構
 
-**簽署者 \_ CERT** 結構會指定 [*用來*](../secgloss/c-gly.md)簽署檔的憑證。 憑證可以儲存在 [*軟體發行者憑證*](../secgloss/s-gly.md) (SPC) 檔或 [*憑證存放區*](../secgloss/c-gly.md)中。
+**簽署者 \_ CERT** 結構會指定 [*用來*](../secgloss/c-gly.md)簽署檔的憑證。 憑證可以儲存在 [*軟體 Publisher 憑證*](../secgloss/s-gly.md) (SPC) 檔或 [*憑證存放區*](../secgloss/c-gly.md)中。
 
 > [!Note]  
 > 此結構未定義于任何標頭檔中。 若要使用這個結構，您必須自行定義，如本主題所示。
@@ -110,8 +110,8 @@ typedef struct _SIGNER_CERT {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

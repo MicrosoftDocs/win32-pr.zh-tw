@@ -3,11 +3,11 @@ title: 名稱服務
 description: 本主題討論動態資料交換管理程式庫如何讓伺服器應用程式註冊其支援的服務名稱。
 ms.assetid: 4b7e7f43-18aa-4c2e-aa2b-5ce7bb18048f
 keywords:
-- 'Windows 消費者介面，動態資料交換 (DDE) '
+- 'Windows消費者介面，動態資料交換 (DDE) '
 - 動態資料交換 (的 DDE) ，名稱服務
 - DDE (動態資料交換) ，名稱服務
 - '資料交換、動態資料交換 (DDE) '
-- 'Windows 消費者介面、動態資料交換管理程式庫 (DDEML) '
+- 'Windows消費者介面，動態資料交換管理程式庫 (DDEML) '
 - 動態資料交換管理程式庫 (DDEML) ，名稱服務
 - DDEML (動態資料交換管理程式庫) ，名稱服務
 - '資料交換、動態資料交換管理程式庫 (DDEML) '
@@ -21,16 +21,16 @@ keywords:
 - DDEML (動態資料交換管理程式庫) ，服務名稱篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10f958ab73164e70177cb5deeb5f400f44695015
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7346bd98979e9bd5a4aa0e43493e975d802875cf8fd0fc79d7bd002bcd0c5494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118811645"
 ---
 # <a name="name-service"></a>名稱服務
 
-動態資料交換管理程式庫 (DDEML) 讓伺服器應用程式能夠註冊它所支援的服務名稱，以及防止 DDEML 將不支援之服務名稱的 [**XTYP \_ CONNECT**](xtyp-connect.md) 交易傳送到伺服器動態資料交換 (的) 回呼函數。
+動態資料交換管理程式庫 (DDEML) 讓伺服器應用程式能夠註冊它所支援的服務名稱，以及防止 DDEML 將不支援之服務名稱的 [**XTYP \_ CONNECT**](xtyp-connect.md)交易傳送到伺服器動態資料交換 (的) 回呼函數。
 
 下列主題描述名稱服務。
 
@@ -51,9 +51,9 @@ ms.locfileid: "104311499"
 
 根據預設，當應用程式呼叫 [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea)時，服務名稱篩選為開啟。 此預設值可防止 DDEML 在伺服器建立字串處理所需的字串之前，將 [**XTYP \_ CONNECT**](xtyp-connect.md) 交易傳送到伺服器。 伺服器可以在呼叫 DdeNameService 時指定 DNS FILTEROFF 旗標，以關閉其服務名稱篩選 \_ 。 [](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice) DNS \_ 篩選旗標會開啟篩選。
 
- 
+ 
 
- 
+ 
 
 
 

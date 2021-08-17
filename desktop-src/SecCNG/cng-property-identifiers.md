@@ -4,12 +4,12 @@ ms.assetid: ebcc8202-94b4-47ad-9918-e5bc843a258f
 title: '加密基本屬性識別碼 (Bcrypt) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f4996a216fbc4fbf63216f99b5f630c4769e97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5452c6a55388998a08577cb19ef2fba6905faddbdf28f5f8051b7bc8d9d1c375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908219"
 ---
 # <a name="cryptography-primitive-property-identifiers"></a>加密基本屬性識別碼
 
@@ -120,7 +120,7 @@ L "DSAParameters"
 
 指定要與 DSA 金鑰搭配使用的參數。 這個屬性是 [**BCRYPT \_ dsa \_ 參數 \_ 標頭**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header) 或 [**BCRYPT \_ dsa \_ 參數 \_ 標頭 \_ V2**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2) 結構。 這個屬性只能設定，而且必須在金鑰完成之前針對索引鍵設定。
 
-**Windows 8：** 從 Windows 8 開始，此屬性可以是 [**BCRYPT \_ DSA \_ 參數 \_ 標頭 \_ V2**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2) 結構。 如果金鑰大小超過1024個位且小於或等於3072位，請使用此結構。 如果金鑰大小大於或等於512但小於或等於1024位，請使用 [**BCRYPT \_ DSA \_ 參數 \_ 標頭**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header) 結構。
+**Windows 8：** 從 Windows 8 開始，此屬性可以是 [**BCRYPT \_ DSA \_ 參數 \_ 標頭 \_ V2**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2)結構。 如果金鑰大小超過1024個位且小於或等於3072位，請使用此結構。 如果金鑰大小大於或等於512但小於或等於1024位，請使用 [**BCRYPT \_ DSA \_ 參數 \_ 標頭**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header) 結構。
 
 
 </dt> </dl> </dd> <dt>
@@ -340,8 +340,8 @@ L "SignatureLength"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Bcrypt。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: e54df9d6-87ff-4901-a662-5198132ceb18
 description: 深入瞭解： Windows Web 服務列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 770aa5ecab0a680ca1e013236ee053382ccab299
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1836ab77377a3080bd9a7211644acbc7d06300f7afd708aaa4e250137a7d5b35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026136"
 ---
 # <a name="windows-web-services-enumerations"></a>Windows Web 服務列舉
 
