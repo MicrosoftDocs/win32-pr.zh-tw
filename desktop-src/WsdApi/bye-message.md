@@ -4,12 +4,12 @@ ms.assetid: 7b9abfcc-28ab-4f29-af69-6dc68e3f51b6
 title: 再見訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26880e8b1d4eae7f366f797017b033f9f444fe1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8276c05314b31782442bfdf6de998dd41241391de9dc94947409041c8f4aa420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738650"
 ---
 # <a name="bye-message"></a>再見訊息
 
@@ -70,7 +70,7 @@ ms.locfileid: "104513901"
 <tr class="header">
 <th>對焦點</th>
 <th>XML</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -107,7 +107,7 @@ ms.locfileid: "104513901"
 
 <dl> <dt>
 
-[探索和中繼資料交換訊息](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Hello 訊息](hello-message.md)

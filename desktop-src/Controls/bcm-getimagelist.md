@@ -3,7 +3,7 @@ title: 'BCM_GETIMAGELIST 訊息 (Commctrl .h) '
 description: 取得按鈕 \_ IMAGELIST 結構，描述指派給按鈕控制項的影像清單。 您可以明確地傳送此訊息，或使用按鈕 \_ GetImageList 宏。
 ms.assetid: 79383758-53d4-4955-b472-befd338cbec6
 keywords:
-- BCM_GETIMAGELIST message Windows 控制項
+- BCM_GETIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b0c28e997e23d6df63150fe2283d04be1a8c0d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba74f358e80871ffad4822fd8088ca6aeb58521d8878254ed920356db5a6daf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833909"
 ---
 # <a name="bcm_getimagelist-message"></a>BCM \_ GETIMAGELIST 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "104465493"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

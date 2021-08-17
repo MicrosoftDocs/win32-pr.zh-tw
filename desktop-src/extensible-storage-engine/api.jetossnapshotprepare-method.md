@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0ac304cf522e7c99a2495925da8571b2139c0a69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6e863c13ee46267e18133afc825e9362acfe44d58b64b22bc5105ab8c164bfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117902958"
 ---
 # <a name="apijetossnapshotprepare-method"></a>JetOSSnapshotPrepare 方法
 

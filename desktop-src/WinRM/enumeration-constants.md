@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e422f688fea992ee2d9b1d0d25af00a1d24ad798
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f9c8182352d2ebf3763a38f74dd6f100dc836e88cfa10212ffaa971048ebd1aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113260"
 ---
 # <a name="enumeration-constants"></a>列舉常數
 
@@ -65,11 +65,11 @@ ms.locfileid: "104384266"
 
 `<25 && > 1`
 
-如果篩選是 XML 片段，則不需要此旗標，因為片段會以 < （WinRM 正確地解讀為 XML）開頭。 例如，
+如果篩選是 XML 片段，則不需要此旗標，因為片段會以 < （WinRM 正確地解讀為 XML）開頭。 例如
 
 `<filter>select * from aDataStructure</filter>`
 
-如果篩選是不是以 < 開頭的純文字，則不需要此旗標。 例如，
+如果篩選是不是以 < 開頭的純文字，則不需要此旗標。 例如
 
 `select * from aDataStructure`
 
@@ -162,7 +162,7 @@ ms.locfileid: "104384266"
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 
 
 

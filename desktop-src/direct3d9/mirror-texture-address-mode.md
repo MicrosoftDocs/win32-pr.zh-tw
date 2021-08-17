@@ -4,12 +4,12 @@ ms.assetid: 816efd4d-94b3-4b6c-9fc9-218cc2207b97
 title: " (Direct3D 9) 的鏡像材質位址模式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 471ad8b715d9375947162c66474687b9d6376bec
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 10ef8731c060e95c470bbf8d34222b9ee66e7f9da2c7a6f03a09c2989986ca3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728362"
 ---
 # <a name="mirror-texture-address-mode-direct3d-9"></a> (Direct3D 9) 的鏡像材質位址模式
 

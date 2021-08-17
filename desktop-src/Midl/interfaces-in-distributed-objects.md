@@ -6,12 +6,12 @@ keywords:
 - 在分散式物件中的 MIDL 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64cbee13dcbab9ccaa6ef6ad3ad3880daa9b14ce
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8661e7e07f08d35151afe8fb256539ed574b0a0162178e3a9e63dc8c43c59ce8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807135"
 ---
 # <a name="interfaces-in-distributed-objects"></a>分散式物件中的介面
 
@@ -26,6 +26,6 @@ Microsoft 介面定義語言 (MIDL) 適用于執行分散式應用程式中所�
 
 MIDL 在許多方面類似 C 和 c + +。 如需撰寫 MIDL 介面的總覽，請參閱 [開發介面](/windows/desktop/Rpc/developing-the-interface)。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: b9896934-1e4f-4ae1-922a-ef30e0edf94f
 title: ClearType 消除鋸齒功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffbe7ae1a6c99fcee826c576b7671aea6e9ce6c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: bcc8444c1e1b594559f9c5b7f96529a0db00b20c6a10e560bc1dcb4574e079d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117888092"
 ---
 # <a name="cleartype-antialiasing"></a>ClearType 消除鋸齒功能
 

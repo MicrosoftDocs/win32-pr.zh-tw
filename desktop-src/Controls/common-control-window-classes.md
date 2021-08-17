@@ -40,12 +40,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b73c8d45b4d1935a32d1d19a3c1e52384fe3c90f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 52e3662b997f92f0c5ba3b71ed9aad853d040d9e75a3b269e9587da365fb0a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831824"
 ---
 # <a name="window-classes-commctrlh"></a>視窗類別 (CommCtrl .h) 
 

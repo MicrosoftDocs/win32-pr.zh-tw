@@ -6,12 +6,12 @@ keywords:
 - 重複模式工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 451b2c2cf7e48c40496ddba95728f435ab494ab7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7039b57bdc6cc7f53125e74b8a6fda7d017106cd44c66d2535f7fdf27505a960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759351"
 ---
 # <a name="repeating-a-task"></a>重複工作
 
@@ -31,7 +31,7 @@ ms.locfileid: "104301492"
 4.  下一項工作會從第三分鐘的結尾開始。
 5.  下一項工作會在第四分鐘結束時啟動。
 
-**Windows Server 2003、WINDOWS XP 和 windows 2000：** 如果您註冊的工作包含重複間隔等於1分鐘的觸發程式，且重複持續時間等於四分鐘，則工作會啟動四次。
+**Windows Server 2003、Windows XP 和 Windows 2000：** 如果您註冊的工作包含重複間隔等於1分鐘的觸發程式，且重複持續時間等於四分鐘，則工作會啟動四次。
 
 ## <a name="objects-interfaces-and-xml-elements"></a>物件、介面和 XML 元素
 
@@ -48,9 +48,9 @@ ms.locfileid: "104301492"
 [工作觸發程式](task-triggers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

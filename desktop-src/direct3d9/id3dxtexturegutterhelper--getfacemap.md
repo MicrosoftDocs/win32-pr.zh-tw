@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8164ec35c3b3596914577287ecc6b9285142fca8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f5fce4400b1f778581f830fff60ef4e1519ad73752da02f5194abe64f433d43c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729187"
 ---
 # <a name="id3dxtexturegutterhelpergetfacemap-method"></a>ID3DXTextureGutterHelper：： GetFaceMap 方法
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 記錄檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a51dfe4efbec32e60812980511676f723fd5aee9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fff9064dd82484568282f649b3380f544d9ba58a569e36583664806d47b5e9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739425"
 ---
 # <a name="wmi-log-files"></a>WMI 記錄檔
 
@@ -22,7 +22,7 @@ WMI 使用 [事件追蹤](/windows/desktop/ETW/event-tracing-portal) (ETW) ，�
 
 ## <a name="event-tracing-instead-of-text-logs"></a>事件追蹤，而不是文字記錄
 
-WMI 服務活動會記錄在 WMITracing 檔案中。 如需啟用 WMI 事件追蹤和存取 WMITracing 的詳細資訊，請參閱 [追蹤 WMI 活動](tracing-wmi-activity.md)。 Windows Driver Model (WDM) 提供者會繼續登入 Wbemprov .log 檔案。
+WMI 服務活動會記錄在 WMITracing 檔案中。 如需啟用 WMI 事件追蹤和存取 WMITracing 的詳細資訊，請參閱 [追蹤 WMI 活動](tracing-wmi-activity.md)。 Windows (WDM) 提供者的驅動程式模型會繼續登入 Wbemprov .log 檔案。
 
 ## <a name="wmi-log-files"></a>WMI 記錄檔
 

@@ -10,12 +10,12 @@ keywords:
 - 顯示清單，從鳶尾花 GL 進行移植
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461000e6d785f0d03bbbc8f738eba60768bc5d74
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 858f1f3be180b3ef09c81bb8d61b18705fc9485742d7384562eecff142f4bfb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980800"
 ---
 # <a name="porting-display-lists"></a>移植顯示清單
 
@@ -45,7 +45,7 @@ ms.locfileid: "104300288"
 
 
 
- 
+ 
 
 本主題包含下列各項的相關資訊。
 
@@ -53,9 +53,9 @@ ms.locfileid: "104300288"
 -   [移植已編輯的顯示清單](porting-edited-display-lists.md)
 -   [顯示清單的範例埠](a-sample-port-of-a-display-list.md)
 
- 
+ 
 
- 
+ 
 
 
 

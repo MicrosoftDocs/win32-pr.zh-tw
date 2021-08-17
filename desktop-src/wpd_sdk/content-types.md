@@ -4,20 +4,20 @@ ms.assetid: f1bbd10f-bfe8-4860-aa10-17d198dc50a3
 title: 內容類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2a44021d9f91fc6a3f43853763e5573e0c64b3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae7bf7c70d3f76fc4b201dd6866e6bcce8403f12401051a5b03658f7ce39b599
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653086"
 ---
 # <a name="content-types"></a>內容類型
 
-Windows 可攜式裝置會依內容類型分類所有物件。 下列各節列出支援的類型。
+Windows可攜式裝置會依內容類型分類所有物件。 下列各節列出支援的類型。
 
 
 
-| 內容類型                                                                              | Description                                                                                 |
+| 內容類型                                                                              | 描述                                                                                 |
 |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [**WPD \_ 內容 \_ 類型 \_ 影像 \_ 專輯**](wpd-content-type-image-album.md)                  | 代表靜止影像的集合。                                                    |
 | [**WPD \_ 內容 \_ 類型 \_ 備忘錄**](wpd-content-type-memo.md)                                 | 表示備忘錄。                                                                          |

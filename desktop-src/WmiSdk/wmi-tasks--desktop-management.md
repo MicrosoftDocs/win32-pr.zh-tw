@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 33f027c808a30463f2747d11020f45d1b8d40edf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1bb50e58b4db01b01b2122fd55c14bf73be0eb8601d732fa658752b33c35fcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738972"
 ---
 # <a name="wmi-tasks-desktop-management"></a>WMI 工作：桌面管理
 
@@ -28,7 +28,7 @@ ms.locfileid: "103848736"
 
 **執行指令碼**
 
-1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會將 .txt 副檔名新增至檔案。
+1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會在檔案中加入 .txt 延伸模組。
 2.  開啟 [命令提示字元] 視窗，並流覽至您儲存檔案的目錄。
 3.  在命令提示字元中，輸入 **cscript filename.vbs** 。
 4.  如果您無法存取事件記錄檔，請檢查是否從提高許可權的命令提示字元執行。 某些事件記錄檔，例如安全性事件記錄檔，可能會受到使用者存取控制 (UAC) 的保護。
@@ -55,7 +55,7 @@ ms.locfileid: "103848736"
 </thead>
 <tbody>
 <tr class="odd">
-<td>...判斷遠端電腦是否已在具有網路狀態的安全模式中啟動？</td>
+<td>...判斷遠端電腦是否已在具有網路狀態的保管庫模式下開機？</td>
 <td>使用 <a href="/windows/desktop/CIMWin32Prov/win32-computersystem"><strong>Win32_ComputerSystem</strong></a> 類別，並檢查 <strong>PrimaryOwnerName</strong> 屬性的值。<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
@@ -324,7 +324,7 @@ foreach ($objOperatingSystem in $colOperatingSystem)
 </div></td>
 </tr>
 <tr class="even">
-<td>...判斷每次啟動 Windows 時，會自動執行哪些應用程式？</td>
+<td>...判斷每次開始 Windows 時，會自動執行哪些應用程式？</td>
 <td><p>使用 <a href="/windows/desktop/CIMWin32Prov/win32-startupcommand"><strong>Win32_StartupCommand</strong></a> 類別。</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>

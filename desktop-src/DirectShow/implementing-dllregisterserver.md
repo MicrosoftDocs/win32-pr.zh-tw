@@ -4,12 +4,12 @@ ms.assetid: aaa4069e-0b6a-4a76-b950-1a85a9ed969d
 title: 執行 DllRegisterServer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b994e80a181b69efffbe6123382957e7a38f8278
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e39d55b73dd70a21c10df26a100f964917a57dd9f036ebd5c2708359bca1dd50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117998089"
 ---
 # <a name="implementing-dllregisterserver"></a>執行 DllRegisterServer
 
@@ -36,7 +36,7 @@ g_Templates
 
 
 
-陣列。 不過，此函數有一些限制。 首先，它會將每個篩選指派給「DirectShow 篩選」類別 (CLSID \_ LegacyAmFilterCategory) ，但並非每個篩選都屬於此類別。 例如，「捕獲篩選準則」和「壓縮」篩選器都有自己的類別。 其次，如果您的篩選器支援硬體裝置，您可能需要註冊兩項額外的資訊， **AMovieDLLRegisterServer2** 不會處理這些資訊： *媒體* 和 *pin 類別*。 媒體定義了硬體裝置（例如匯流排）的通訊方法。 Pin 類別會定義 pin 的功能。 如需有關媒體的資訊，請參閱 \_ Microsoft Windows 驅動程式開發工具組中的 "KSPIN MEDIUM" (DDK) 。 如需 pin 類別的清單，請參閱 [釘選屬性集](pin-property-set.md)。
+陣列。 不過，此函數有一些限制。 首先，它會將每個篩選指派給「DirectShow 篩選」類別 (CLSID \_ LegacyAmFilterCategory) ，但並非每個篩選都屬於此類別。 例如，「捕獲篩選準則」和「壓縮」篩選器都有自己的類別。 其次，如果您的篩選器支援硬體裝置，您可能需要註冊兩項額外的資訊， **AMovieDLLRegisterServer2** 不會處理這些資訊： *媒體* 和 *pin 類別*。 媒體定義了硬體裝置（例如匯流排）的通訊方法。 Pin 類別會定義 pin 的功能。 如需媒體的相關資訊，請參閱 \_ Microsoft Windows 驅動程式開發工具組中的 "KSPIN MEDIUM" (DDK) 。 如需 pin 類別的清單，請參閱 [釘選屬性集](pin-property-set.md)。
 
 如果您想要指定篩選類別、媒體或釘選類別，請從 **DllRegisterServer** 內呼叫 [**IFilterMapper2：： RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter)方法。 這個方法會採用 [**REGFILTER2**](/windows/desktop/api/strmif/ns-strmif-regfilter2) 結構的指標，此結構會指定篩選的相關資訊。
 

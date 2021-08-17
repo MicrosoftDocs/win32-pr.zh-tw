@@ -4,12 +4,12 @@ ms.assetid: 9f943926-9ca7-4d4c-ad1e-b68c248e0e01
 title: 取得硬體資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d89ab5083e9d88e60d962ebcdd7b701a90e279cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a9302e386d3054923f9914fc105c1bc90f380b9b21b869b0d854d6a78af1d81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764453"
 ---
 # <a name="getting-hardware-information"></a>取得硬體資訊
 

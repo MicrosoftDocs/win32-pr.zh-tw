@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5eb6a3b5a4b840549b75e152f0420bfa055138c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85435c5674ad6a2ac4e05edaa5d450dc61de9eac6dae05d3b19662aec91a61f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117856983"
 ---
 # <a name="wm_tcard-message"></a>WM \_ TCARD 訊息
 
@@ -75,7 +75,7 @@ ms.locfileid: "104192672"
 
 </dt> <dd>
 
-使用者按一下 [authorable **] 視窗的** [說明] 按鈕。
+使用者按一下 **authorable Windows [** 說明] 按鈕。
 
 </dd> <dt>
 
@@ -173,7 +173,7 @@ ms.locfileid: "104192672"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                          |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                          |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Winuser。h</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: 1539cbfa-d84f-4989-8380-6cfc7c496310
 title: 非互動式驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 658cba212403da2f970e056d7bacc1bc1bcaa559
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e259a2b14d48f4d7109966fa01f6fbd6a505a1343e90ea312c557ebfb9c84ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117786609"
 ---
 # <a name="noninteractive-authentication"></a>非互動式驗證
 

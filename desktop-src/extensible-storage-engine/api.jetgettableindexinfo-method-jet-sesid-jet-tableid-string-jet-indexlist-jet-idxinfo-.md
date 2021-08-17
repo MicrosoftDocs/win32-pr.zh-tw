@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 42a938b2114cb379752f9a4f749782dd2b5b1757
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21b29b898bd77d19f31cd69bde42d23fec46edf74ee98983182ba792ef3d54dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117718780"
 ---
 # <a name="apijetgettableindexinfo-method-jet_sesid-jet_tableid-string-jet_indexlist-jet_idxinfo"></a>JetGetTableIndexInfo 方法 (JET_SESID、JET_TABLEID、字串、JET_INDEXLIST JET_IdxInfo) 
 

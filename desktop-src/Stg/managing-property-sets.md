@@ -6,12 +6,12 @@ keywords:
 - 管理屬性集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af3f9862d3074a5221bf1d5d975754486a562f87
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d8b6b81c466232d4fd325d53a3cfe67ebb1cbc60c757a6dfe135a021ab7892a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960882"
 ---
 # <a name="managing-property-sets"></a>管理屬性集
 
@@ -23,9 +23,9 @@ COM 會定義 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-
 
 當您建立或開啟 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage)實例時，它類似于開啟支援 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 或 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream)的物件，因為您需要指定開啟介面的儲存模式。 若為 **IStorage**，這些包括交易模式、讀取/寫入模式以及共用模式。
 
-當您使用 [**IPropertySetStorage：： create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create)的呼叫來建立屬性集時，請指定屬性集是否為 simple 或簡單。 簡單的屬性集包含的型別，可以完全寫在屬性集資料流程中，它的大小會限制，而且在 Windows NT 4.0 和更早版本中可能不會超過 256 KB，在 Windows 2000、Windows XP 及 Windows Server 2003 中則為 1 MB。 但是，當您需要在屬性集中儲存較大量的資訊時，可以指定要簡單的屬性集。 這可讓您使用一或多個類型，只指定儲存或資料流程物件的指標。 這些類型為 VT \_ 串流、vt 資料流程 \_ 物件、vt \_ 儲存和 vt \_ 儲存的 \_ 物件。
+當您使用 [**IPropertySetStorage：： create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create)的呼叫來建立屬性集時，請指定屬性集是否為 simple 或簡單。 簡單的屬性集包含的型別，可以完全寫在屬性集資料流程中，它的大小會限制，而且在 Windows NT 4.0 和更早版本中，可能不會超過 256 KB，Windows 2000、Windows XP 和 Windows Server 2003 中則為 1 MB。 但是，當您需要在屬性集中儲存較大量的資訊時，可以指定要簡單的屬性集。 這可讓您使用一或多個類型，只指定儲存或資料流程物件的指標。 這些類型為 VT \_ 串流、vt 資料流程 \_ 物件、vt \_ 儲存和 vt \_ 儲存的 \_ 物件。
 
-儲存在這些屬性中的資料不會計入 Windows NT 4.0 或更早版本中的 256 KB 屬性集大小限制，或 Windows 2000、Windows XP 和 Windows Server 2003 中的 1 MB 限制。 但是，屬性的相關資料（例如其名稱）則適用。 此外，如果您需要交易更新，則必須簡單屬性集。 當然，開啟這些類型的效能會受到影響，因為它需要開啟您擁有指標的資料流程或儲存物件。
+儲存在這些屬性中的資料不會計入 Windows NT 4.0 或更早版本的 256 KB 屬性集大小限制，或是 Windows 2000、Windows XP 和 Windows Server 2003 的 1 MB 限制。 但是，屬性的相關資料（例如其名稱）則適用。 此外，如果您需要交易更新，則必須簡單屬性集。 當然，開啟這些類型的效能會受到影響，因為它需要開啟您擁有指標的資料流程或儲存物件。
 
 如果您的應用程式使用複合檔案，您可以使用這些介面的 COM 提供執行，這些介面是在 COM 複合檔案儲存物件上所執行。
 
@@ -40,6 +40,6 @@ COM 會定義 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-
 -   [效能特色](performance-characteristics.md)
 -   [執行摘要資訊屬性集](implementing-the-summary-information-property-set.md)
 
- 
+ 
 
- 
+ 

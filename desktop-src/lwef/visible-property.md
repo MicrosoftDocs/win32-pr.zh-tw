@@ -4,16 +4,16 @@ description: 深入瞭解 PropertySheet 物件的 Visible 屬性，此屬性會�
 ms.assetid: 8a58cd45-0391-4897-b3a2-d4f5d7297ea8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 525c78a3fdfc7e852838ff288194cfc762334409
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 64ca87a3fb7270a4842328e04ad48e36604ebffc5628aeafe8b734f36329c12d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882199"
 ---
 # <a name="visible-property-propertysheet-object"></a>Visible 屬性 (PropertySheet 物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

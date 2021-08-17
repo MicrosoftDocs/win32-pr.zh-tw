@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IWbemObjectAccess 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ae0c1a5308f3f862d8faf5322ff8a048407cf04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0dcbb1d049d43710dbe3c78ffe55e9e6508983677f7e4e3c92ca74a1f262c380
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117923786"
 ---
 # <a name="iwbemobjectaccess-methods"></a>IWbemObjectAccess 方法
 

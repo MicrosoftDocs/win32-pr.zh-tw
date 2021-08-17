@@ -4,12 +4,12 @@ ms.assetid: 5476933b-70f2-4dcf-a6e9-f9f4a537c29f
 title: SPI 中 Multipoint 通訊端和一般通訊端之間的語義差異
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd9e4e94583ee653a8ec0bf19c743dddd3e16253
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e585c335d7503d884d58e25b6fc0ad6dd0c0c3356064ebb1504898770d4b7b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740606"
 ---
 # <a name="semantic-differences-between-multipoint-sockets-and-regular-sockets-in-the-spi"></a>SPI 中 Multipoint 通訊端和一般通訊端之間的語義差異
 

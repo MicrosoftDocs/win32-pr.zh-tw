@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 15ba6b289ad106a8fad4a932b9c5d01e0a52dc18
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e0d905a3d73bb357e7988f4cc5a749740b796c1793ca912a2f3af471893d65f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729011"
 ---
 # <a name="id3dxtextureshadersetmatrix-method"></a>ID3DXTextureShader：： SetMatrix 方法
 

@@ -18,12 +18,12 @@ api_location:
 - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
 - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 - MinKernelBase.dll
-ms.openlocfilehash: 30f5ad5f88bec9eb7eebff5a73d8f84f633cb249
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4181aa43cb0c2844f99b7ad81b448271366eb2925740c25d400f891389efb129
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765519"
 ---
 # <a name="unregisterwaitex-function"></a>UnregisterWaitEx 函式
 
@@ -83,9 +83,9 @@ BOOL WINAPI UnregisterWaitEx(
 
 如果 *CompletionEvent* 是呼叫端所提供事件的控制碼，則函式可能會成功，因為 **錯誤 \_ IO \_ 暫** 止而失敗，或因不同的錯誤碼而失敗。 如果函式成功，或如果函式因為 **錯誤 \_ IO \_ 暫** 止而失敗，則呼叫端應該一律等候，直到發出事件的信號關閉為止。 如果函式失敗，並出現不同的錯誤碼，就不需要等到事件被告知關閉事件。
 
-**WINDOWS XP：** 如果 *CompletionEvent* 是呼叫端所提供事件的控制碼，且此函式因為 **錯誤 \_ IO \_ 暫** 止而失敗，則呼叫端應等候事件收到信號，以關閉事件。 從 Windows Vista 開始，此行為已變更。
+**Windows XP：** 如果 *CompletionEvent* 是呼叫端所提供事件的控制碼，且此函式因為 **錯誤 \_ IO \_ 暫** 止而失敗，則呼叫端應等候事件收到信號，以關閉事件。 從 Windows Vista 開始，此行為已變更。
 
-若要編譯使用此函數的應用程式，請將 **\_ WIN32 \_ WINNT** 定義為0x0500 或更新版本。 如需詳細資訊，請參閱 [使用 Windows 標頭](../winprog/using-the-windows-headers.md)。
+若要編譯使用此函數的應用程式，請將 **\_ WIN32 \_ WINNT** 定義為0x0500 或更新版本。 如需詳細資訊，請參閱[使用 Windows 標頭](../winprog/using-the-windows-headers.md)。
 
 ## <a name="requirements"></a>規格需求
 
@@ -93,9 +93,9 @@ BOOL WINAPI UnregisterWaitEx(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                                                                                                                                                                                                                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                                                                                                                                                                                                                                                                           |
-| 標頭<br/>                   | <dl> <dt>Windows 8 和 Windows Server 2012 上的 Threadpoollegacyapiset .h (包含 Windows .h) ;</dt><dt>在 windows 7、Windows server 2008 R2、Windows Vista、Windows server 2008、WINDOWS XP 及 Windows server 2003 上的 WinBase .h (包括 windows .h) </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                                                                                                                                                                                                                                                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                                                                                                                                                                                                                                                                           |
+| 標頭<br/>                   | <dl> <dt>Windows 8 與 Windows Server 2012 上的 Threadpoollegacyapiset .h (包含 Windows .h) ;</dt><dt>WinBase Windows 7、Windows Server 2008 R2、Windows Vista、Windows Server 2008、Windows XP 和 Windows server 2003 (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                                                                                                        |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                                                                                                        |
 

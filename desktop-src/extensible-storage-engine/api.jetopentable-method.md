@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5764138d4ea387b68c94805c6966f7ce0e817c37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4969b21ed195f67f03dbdd3477f51a5abdf15e29fbf5928575f1b1a196b9e4c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117718706"
 ---
 # <a name="apijetopentable-method"></a>JetOpenTable 方法
 

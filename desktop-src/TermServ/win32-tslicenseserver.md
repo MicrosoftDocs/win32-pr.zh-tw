@@ -31,12 +31,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31951b943723e620414b2f714327db8c786f9ab9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f7c73c1d1a48bbc76b4988afca8a07fd9ce505d0633c74f67306901259d9f89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126508"
 ---
 # <a name="win32_tslicenseserver-class"></a>Win32 \_ TSLicenseServer 類別
 

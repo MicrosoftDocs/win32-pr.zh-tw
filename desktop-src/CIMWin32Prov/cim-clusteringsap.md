@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bc2d0296201e06382563cc3a0c34fec4d668cd58
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0ef9ac5114fb88b6c734712830e5e85cee043c6f9cea5a04c365290cbd496515
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834739"
 ---
 # <a name="cim_clusteringsap-class"></a>CIM \_ ClusteringSAP 類別
 
@@ -305,7 +305,7 @@ class CIM_ClusteringSAP : CIM_ServiceAccessPoint
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**

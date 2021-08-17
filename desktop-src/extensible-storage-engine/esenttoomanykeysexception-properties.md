@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103069
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 03d252b26acd191644d6c143d7dd40c692a90b06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c38b410ed85a185477039b64f4a29539365ca64db86916c5993787c29ff518a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104557319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117707142"
 ---
 # <a name="esenttoomanykeysexception-properties"></a>EsentTooManyKeysException 屬性
 

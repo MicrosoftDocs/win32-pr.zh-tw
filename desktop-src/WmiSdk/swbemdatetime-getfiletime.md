@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3f8a8c85cb4c78be578187b1f55afce078fe7bd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c35daf5b6e986b2519f127969edc5bbcf05a260bd23e8aa1168b1a7c20a5372
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739435"
 ---
 # <a name="swbemdatetimegetfiletime-method"></a>SWbemDateTime. GetFileTime 方法
 
 [**SWbemDateTime**](swbemdatetime.md)物件的 **GetFileTime** 方法會將 CIM [DATETIME](datetime.md)格式的日期和時間值轉換成 FILETIME 格式。
 
-如果參數設定為 **TRUE**，則傳回值代表用戶端的本機時間。 否則，傳回值為國際標準時間 (UTC) 時間。 **FILETIME** [DATETIME](datetime.md)結構是64位的值，代表自1月 1 1601 日開始起算的 100-毫微秒單位數。 Windows Management Instrumentation (WMI) 會將 **FILETIME** 值視為不帶正負號64位數位的字串表示。
+如果參數設定為 **TRUE**，則傳回值代表用戶端的本機時間。 否則，傳回值為國際標準時間 (UTC) 時間。 **FILETIME** [DATETIME](datetime.md)結構是64位的值，代表自1月 1 1601 日開始起算的 100-毫微秒單位數。 WindowsManagement Instrumentation (WMI) 會將 **FILETIME** 值視為不帶正負號64位數位的字串表示。
 
 如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。
 
@@ -99,8 +99,8 @@ vDate = .GetFileTime( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemDateTime<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemDateTime<br/>                                                          |
@@ -117,7 +117,7 @@ vDate = .GetFileTime( _
 [**SWbemDateTime**](swbemdatetime.md)
 </dt> <dt>
 
-[**Datetime**](datetime.md)
+[**DATETIME**](datetime.md)
 </dt> </dl>
 
  

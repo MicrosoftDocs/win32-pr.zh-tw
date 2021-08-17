@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 01b6c3cff082c40c4df5d9bee1d997599a41965b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 51eb3121501cee7c56385a9083fc689cd8a06759443250f64bae16901779a3d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729710"
 ---
 # <a name="id3dxprtenginecomputedirectlightingsh-method"></a>ID3DXPRTEngine：： ComputeDirectLightingSH 方法
 

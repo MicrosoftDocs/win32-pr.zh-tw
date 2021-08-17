@@ -10,12 +10,12 @@ keywords:
 - 適用于 Direct2D 的應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44d023e348e30b4e421ffe177f30c0c55a344fba
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 907ec9a026005fec03b034978873f012cd956a8a7533d97b85b9122664ef1163
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104564482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825334"
 ---
 # <a name="creating-a-simple-direct2d-application"></a>建立簡單的 Direct2D 應用程式
 
@@ -24,9 +24,9 @@ ms.locfileid: "104564482"
 若要遵循本教學課程，您可以使用 Microsoft Visual Studio 2008 建立 Win32 專案，然後以本教學課程中所述的程式碼取代主要應用程式標頭和 .cpp 檔案中的程式碼。
 
 > [!Note]  
-> 如果您想要建立使用 Direct2D 的 Windows Store 應用程式，請參閱 [適用于 Windows 8 主題的 Direct2D 快速入門](direct2d-quickstart-with-device-context.md) 。
+> 如果您想要建立使用 Direct2D 的 Windows Store 應用程式，請參閱[Windows 8 主題的 Direct2D 快速入門](direct2d-quickstart-with-device-context.md)。
 
- 
+ 
 
 如需您可以用來建立 Direct2D 內容之介面的總覽，請參閱 [DIRECT2D API 總覽](the-direct2d-api.md)。
 
@@ -666,11 +666,11 @@ DemoApp::~DemoApp()
 您已完成教學課程。
 
 > [!Note]  
-> 若要使用 Direct2D，請確定您的應用程式包含 d2d1 .h 標頭檔案，並針對 d2d1 .lib 程式庫進行編譯。 您可以在 [適用于 Windows 7 的 Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx)中找到 d2d1 .h 和 d2d1。
+> 若要使用 Direct2D，請確定您的應用程式包含 d2d1 .h 標頭檔案，並針對 d2d1 .lib 程式庫進行編譯。 您可以在[Windows 7 的 Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx)中找到 d2d1 .h 和 d2d1。
 
- 
+ 
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 在本教學課程中，您已瞭解如何建立 Direct2D 資源和繪製基本圖形。 您也已瞭解如何建立應用程式的結構，藉由將資源建立降至最低來提高效能。
 
@@ -684,6 +684,6 @@ DemoApp::~DemoApp()
 [改善 Direct2D 的效能](improving-direct2d-performance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

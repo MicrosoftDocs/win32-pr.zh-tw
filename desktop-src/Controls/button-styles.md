@@ -43,12 +43,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 2b0054920f3cb2ae323a9655b1b028da473e119f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 60419d947036516e093d481f3fc0d8caa097671c13bd4fe3fc8e95d21cc3cb83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832478"
 ---
 # <a name="button-styles"></a>按鈕樣式
 
@@ -76,7 +76,7 @@ HRESULT Button::CreateText(HWND hParent, const TCHAR *szCaption, int nID,
     return Control::Create(create);
 }
 ```
-從 GitHub 上的 [Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/multimedia/directshow/common/button.cpp) 取得的範例。
+GitHub 上[Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/multimedia/directshow/common/button.cpp)的範例。
 
 
 ## <a name="constants"></a>常數
@@ -111,7 +111,7 @@ HRESULT Button::CreateText(HWND hParent, const TCHAR *szCaption, int nID,
 | <span id="BS_TEXT"></span><span id="bs_text"></span><dl> <dt>**BS \_ 文字**</dt> </dl>                                  | 指定按鈕會顯示文字。<br/>                                                                                                                                                                                                                                                                                                                                                        |
 | <span id="BS_TOP"></span><span id="bs_top"></span><dl> <dt>**BS \_ TOP**</dt> </dl>                                     | 將文字放在按鈕矩形的上方。<br/>                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="BS_TYPEMASK"></span><span id="bs_typemask"></span><dl> <dt>**BS \_ TYPEMASK**</dt> </dl>                      | 請勿使用這個樣式。 在 BS 樣式位上使用 OR 運算子所產生的複合樣式位 \_ \* 。 可以用來將 \_ \* 指定的位元遮罩中的有效 BS 位遮罩出來。 請注意，這已過期，且未正確包含所有有效的樣式。 因此，您不應該使用這個樣式。<br/>                                                                                               |
-| <span id="BS_USERBUTTON"></span><span id="bs_userbutton"></span><dl> <dt>**BS \_ USERBUTTON**</dt> </dl>                | 已淘汰，但為了與 Windows 16 位版本的相容性而提供。 應用程式應該改為使用 BS \_ OWNERDRAW。<br/>                                                                                                                                                                                                                                                                        |
+| <span id="BS_USERBUTTON"></span><span id="bs_userbutton"></span><dl> <dt>**BS \_ USERBUTTON**</dt> </dl>                | 已淘汰，但為了與16位版本的 Windows 的相容性而提供。 應用程式應該改為使用 BS \_ OWNERDRAW。<br/>                                                                                                                                                                                                                                                                        |
 | <span id="BS_VCENTER"></span><span id="bs_vcenter"></span><dl> <dt>**BS \_ VCENTER**</dt> </dl>                         | 將文字放在按鈕矩形的中間 (垂直) 。<br/>                                                                                                                                                                                                                                                                                                                                 |
 
 

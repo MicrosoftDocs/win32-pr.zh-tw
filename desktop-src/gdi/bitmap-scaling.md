@@ -4,12 +4,12 @@ ms.assetid: 34390ff9-8d5f-497e-87aa-a1019d01bba6
 title: 點陣圖縮放比例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4011b06e6a7269be29e1834e90928c4f531b1023
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 14975f884906fb95bf07fbf3ab5277b89c5cbfd2612864202eb64eedc5df646b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117699895"
 ---
 # <a name="bitmap-scaling"></a>點陣圖縮放比例
 

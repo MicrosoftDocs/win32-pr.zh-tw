@@ -4,12 +4,12 @@ ms.assetid: f7f42b03-1f89-4801-abf0-396ff8b61cae
 title: 選擇
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e50339f298c18c75ad6451590f191fc1bd8afba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c075d2b8b18de79c25852eb0949cc727a8f3474e39392cf6e0a50fc60390d0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740920"
 ---
 # <a name="selects"></a>選擇
 

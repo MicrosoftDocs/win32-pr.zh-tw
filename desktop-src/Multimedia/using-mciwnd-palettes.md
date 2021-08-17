@@ -8,12 +8,12 @@ keywords:
 - MCIWndRealize 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d970e0e33c9dd03c7f1133576f371b713f7174df
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 074dece2c1dac95e24a465413cae686acea5a8e9055913bfb832341efdb12c1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801117"
 ---
 # <a name="using-mciwnd-palettes"></a>使用 MCIWnd 調色板
 
@@ -26,7 +26,7 @@ ms.locfileid: "103933207"
 > [!Note]  
 > 當有8位色彩深度的影片剪輯載入至 MCIWnd 視窗時，該剪輯隨附的調色板會取代與 [MCIWnd] 視窗相關聯的調色板。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -35,6 +35,6 @@ ms.locfileid: "103933207"
 [播放增強功能](playback-enhancements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,16 +4,16 @@ ms.assetid: 6309e9f2-8a73-4d42-ae0a-2165352d6244
 title: 'ITTimeCollection 介面 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19ca297a26b0eac34396726e6145a24fba5a2ed6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d086dcf0df7fb4d55552c734798244209fc3e9f52a2f2462693f6aaad7110347
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762292"
 ---
 # <a name="ittimecollection-interface"></a>ITTimeCollection 介面
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **ITTimeCollection** 介面是會話描述項通訊協定 (SDP) 會議 blob 物件的提供者特定介面。 此介面可讓您依索引存取 [**ITTime**](ittime.md) 介面，也可讓您建立和刪除時間元件。 [**ITSdp：： get \_ TimeCollection**](itsdp-get-timecollection.md)方法會建立 **ITTimeCollection** 介面。
 
@@ -31,7 +31,7 @@ ms.locfileid: "106992570"
 
 | 方法                                                           | 描述                                                                                                           |
 |:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------|
-| [**創建**](ittimecollection-create.md)                        | 建立 [**ITTime**](ittime.md) 元件。<br/>                                                             |
+| [**建立**](ittimecollection-create.md)                        | 建立 [**ITTime**](ittime.md) 元件。<br/>                                                             |
 | [**刪除**](ittimecollection-delete.md)                        | 刪除 [**ITTime**](ittime.md) 元件。<br/>                                                             |
 | [**取得 \_ \_ NewEnum**](ittimecollection-get--newenum.md)          | 傳回集合的列舉程式。<br/>                                                                  |
 | [**取得 \_ 計數**](ittimecollection-get-count.md)                 | 取得集合中的專案數。<br/>                                                                        |

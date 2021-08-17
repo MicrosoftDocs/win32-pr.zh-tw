@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 701aa4c89ee6a9d657721d872565c9b2056bb435
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5064e788d89de6e5143ad826a4f61a4afd802931c6964193c8fa46626edf955d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729592"
 ---
 # <a name="id3dxprtengineshadowrayintersects-method"></a>ID3DXPRTEngine：： ShadowRayIntersects 方法
 

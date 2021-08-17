@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: cd47cb14ab129bf27a4b59ba07e0be12d144fb8e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8d968770eb58d9d3dd59f178b05e8e6536079e8de601ddef602a41da4b52ee51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117911166"
 ---
 # <a name="d3dcomposerectsop-enumeration"></a>D3DCOMPOSERECTSOP 列舉
 

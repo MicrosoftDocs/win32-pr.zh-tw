@@ -4,12 +4,12 @@ ms.assetid: 76bd027a-0f00-46e3-b502-0c97827308a8
 title: 'SPFILENOTIFY_ENDSUBQUEUE 訊息 (Setupapi.log .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7eadc7546487b308313b7cb31088a22420e27af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72645aafbe94e3f90d11f8ccf65ed8c6006301db811bccd80936cadbf0478dcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117964547"
 ---
 # <a name="spfilenotify_endsubqueue-message"></a>SPFILENOTIFY \_ ENDSUBQUEUE 訊息
 
@@ -53,8 +53,8 @@ SPFILENOTIFY_ENDSUBQUEUE
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Setupapi.log。h</dt> </dl> |
 
 

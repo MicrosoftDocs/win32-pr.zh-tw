@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable7 介面
-description: 提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 IMsRdpClientNonScriptable6 介面。
+description: 在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 IMsRdpClientNonScriptable6 介面。
 ms.tgt_platform: multiple
 keywords:
 - IMsRdpClientNonScriptable7 介面遠端桌面服務
@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 8becf3bbf66ea18b2df87069ba38bab44c56db70
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 01065ef73d1a23f0ac9416a39c4af74042c883e3b4d7f596cb95f6c01043f662
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "106998421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117941105"
 ---
 # <a name="imsrdpclientnonscriptable7-interface"></a>IMsRdpClientNonScriptable7 介面
 
-提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 [**IMsRdpClientNonScriptable6**](imsrdpclientnonscriptable6.md) 介面。 這個介面的方法只能透過 vtable 存取;它們無法用於可編寫腳本的用戶端。
+在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 [**IMsRdpClientNonScriptable6**](imsrdpclientnonscriptable6.md) 介面。 這個介面的方法只能透過 vtable 存取;它們無法用於可編寫腳本的用戶端。
 
 藉由呼叫 [**IMsTscAx**](imstscax-interface.md)物件上的 [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q))來取得這個介面的實例，並傳遞 **IID \_ IMsRdpClientNonScriptable7**。
 
@@ -48,7 +48,7 @@ ms.locfileid: "106998421"
 
 **IMsRdpClientNonScriptable7** 介面具有這些屬性。
 
-| 屬性         | 存取類型           | Description            |
+| 屬性         | 存取類型           | 描述            |
 |:-----------------|:----------------------|:-----------------------|
 | [**CameraRedirConfigCollection**](imsrdpclientnonscriptable7-cameraredirconfigcollection.md)      | 唯讀 |  取得 (的攝影機集合，以及可用於重新導向的相關聯設定) 。   |
 | [**剪貼簿**](imsrdpclientnonscriptable7-clipboard.md)                       | 唯讀 |    如果啟用手動剪貼簿同步，則取得用來同步處理本機和遠端寫字板的剪貼簿控制器。    |

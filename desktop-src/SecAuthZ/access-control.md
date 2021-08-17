@@ -4,12 +4,12 @@ ms.assetid: d9ce4ec5-5c09-4b33-93a1-39638a925986
 title: " (授權) 的存取控制"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31c0198f0ce0de77750e0587d9b54c1e20cee756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b34be93577446066fcaf7e01e634c60632c68c430198a375eadc2efbcec3e701
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785638"
 ---
 # <a name="access-control-authorization"></a> (授權) 的存取控制
 

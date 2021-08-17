@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 607b583b89358d2d28030a4187b1608174d849c0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 410ec268da89ad4033c88a90c2b37bfa8e78a7b9c229cab72c8ad07e666fce42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117730034"
 ---
 # <a name="id3dxprtcompbufferextracttomesh-method"></a>ID3DXPRTCompBuffer：： ExtractToMesh 方法
 

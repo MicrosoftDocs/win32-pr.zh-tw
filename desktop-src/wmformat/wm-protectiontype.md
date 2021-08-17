@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bfe77c35f740b364aa1c3d2e3840982a32a6933
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 02f7288010c391552b077afe6405f802697f6b7ee604bf5d39c33ff6df44fafc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106967459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844293"
 ---
 # <a name="wmprotectiontype"></a>WM/Set-protectiontype
 
@@ -38,9 +38,9 @@ g \_ wszWMProtectionType
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

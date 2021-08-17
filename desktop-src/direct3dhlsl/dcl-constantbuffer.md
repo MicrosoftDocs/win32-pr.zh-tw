@@ -53,7 +53,7 @@ ms.locfileid: "117727262"
 <table>
 <thead>
 <tr class="header">
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 5f8b6e5b93d844b264695692e49e7b6ace43587b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d9f21e93a7763601395487f55ec3baaf6c6dc0e283c992fc07676f411f52c3fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117722348"
 ---
 # <a name="texturecubearraysamplebias-methods"></a>TextureCubeArray：： SampleBias 方法
 

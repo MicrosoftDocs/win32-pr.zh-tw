@@ -4,19 +4,19 @@ description: 描述常見的程式設計程式和模式，用來撰寫應用程�
 ms.assetid: d02ecc8f-9e7d-431f-a833-8a51111ed1c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01111613ba57c77985231cc87ba98e171c53f0c8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6586b6d22246f29d977199306a6363ddc337284cdb90d012a39ccba9c295a35a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117798988"
 ---
 # <a name="using-nap"></a>使用 NAP
 
 > [!Note]  
 > 從 Windows 10 開始，無法使用網路存取保護平臺
 
- 
+ 
 
 本節說明用來撰寫應用程式以呼叫或執行系統健康情況代理程式的常見程式設計程式和模式 (Sha) 、系統健康狀態驗證 (Shv) ，以及健康狀態聲明 (SoH) 通知。
 
@@ -30,11 +30,11 @@ ms.locfileid: "104021226"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

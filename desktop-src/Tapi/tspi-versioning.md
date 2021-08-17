@@ -4,12 +4,12 @@ ms.assetid: 994fad0e-5958-4d93-8952-9db2bbe01f44
 title: TSPI 版本控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e0a0663a1fcc685df8643c634ec627f669aafe8
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 5ee1e1d77a33861c7943c8bda063432cd5f212971adae88ef8bdd1eb2c4f88a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117944305"
 ---
 # <a name="tspi-versioning"></a>TSPI 版本控制
 

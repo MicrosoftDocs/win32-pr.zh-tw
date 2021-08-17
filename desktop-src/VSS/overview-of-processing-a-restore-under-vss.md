@@ -4,12 +4,12 @@ ms.assetid: 1cefb6ac-f2bb-464b-a62f-05be91ae56f7
 title: 在 VSS 下處理還原的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c0279888b28af82eb1b4b51093b421b9db5e15d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75b01094a02b823f372271f14c04801820407573b9351bfe7e2fc2ad9dc74077
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117937956"
 ---
 # <a name="overview-of-processing-a-restore-under-vss"></a>在 VSS 下處理還原的總覽
 

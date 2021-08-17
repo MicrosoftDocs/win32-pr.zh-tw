@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101915
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0aa503282d0e43056ea7f8c2b06918e8932aeaec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68dd20353db3b4bc3e4c021b48c32006a48cddb1ceff004b16f7f3b5dddc9917
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117709529"
 ---
 # <a name="esentinvaliddatabaseexception-methods"></a>EsentInvalidDatabaseException 方法
 

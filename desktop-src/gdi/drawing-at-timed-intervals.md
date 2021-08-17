@@ -4,12 +4,12 @@ ms.assetid: 82f9aa5e-8e42-49cf-bcd0-785bc78fe159
 title: 以計時間隔繪製
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1757aca4e6be8f169aea378c52038420519ee879
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d82d385dce232c84be0dfeb8fd0f825891563ec64daa6c6cd41b82db81c6f67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117887106"
 ---
 # <a name="drawing-at-timed-intervals"></a>以計時間隔繪製
 

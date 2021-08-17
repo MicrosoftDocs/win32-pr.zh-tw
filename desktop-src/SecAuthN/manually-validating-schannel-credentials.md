@@ -4,12 +4,12 @@ ms.assetid: 0229486a-5812-4a7e-98ad-446292997ee3
 title: 手動驗證 Schannel 認證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20ec87b662cf9d3711c1ae729d2dd3b14ac5f79e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d71ddff50ab674825d8effd1a08477116ee0c654d031e7f353a30c95e4f1249f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787000"
 ---
 # <a name="manually-validating-schannel-credentials"></a>手動驗證 Schannel 認證
 

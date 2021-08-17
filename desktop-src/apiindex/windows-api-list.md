@@ -4,22 +4,22 @@ ms.assetid: 9CA123F9-92F1-4761-9468-266DA422F70E
 title: Windows API 索引
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f6cace235af1c729e450bdf99b276eca1bfc000
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 07e61a3f738905e98ad9cd1db85dbaa1746d7c613b1cc5b628805bcc3ddbea74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106993462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737635"
 ---
 # <a name="windows-api-index"></a>Windows API 索引
 
-以下是適用于桌面和伺服器應用程式之 Windows 應用程式設計介面 (API) 的參考內容清單。
+以下是適用于桌面和伺服器應用程式的 Windows 應用程式設計介面 (API) 的參考內容清單。
 
-您可以使用 Windows API 來開發可在所有 Windows 版本上順利執行的應用程式，同時充分利用每個版本特有的特性和功能。  (請注意，這先前稱為 WIN32 API。 名稱 Windows API 更準確地反映其在16位 Windows 的根目錄，以及其在64位 Windows 上的支援。 ) 
+使用 Windows API，您可以開發可在所有版本的 Windows 上順利執行的應用程式，同時充分利用每個版本特有的特性和功能。  (請注意，這先前稱為 WIN32 API。 Windows API 的名稱會更精確地反映其在16位 Windows 的根目錄，以及其在64位 Windows 上的支援。 ) 
 
 ## <a name="user-interface"></a>使用者介面
 
-Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用者輸入，以及執行其他支援與使用者互動的工作。 大部分的應用程式會建立至少一個視窗。
+Windows UI API 會建立和使用 Windows 來顯示輸出、提示輸入使用者輸入，以及執行其他支援與使用者互動的工作。 大部分的應用程式會建立至少一個視窗。
 
 -   [協助工具](../winauto/windows-accessibility-features-reference.md)
 -   [桌面視窗管理員 (DWM) ](../dwm/reference.md)
@@ -54,13 +54,13 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
     -   [Trackbars](../controls/bumper-trackbar-trackbar-control-reference.md)
     -   [樹狀檢視控制項](../controls/bumper-tree-view-tree-view-control-reference.md)
 
--   [Windows 動畫管理員](../uianimation/windows-animation-reference.md)
--   [Windows 功能區架構](../windowsribbon/windowsribbon-reference-entry.md)
+-   [Windows動畫管理員](../uianimation/windows-animation-reference.md)
+-   [Windows功能區架構](../windowsribbon/windowsribbon-reference-entry.md)
 
 ## <a name="windows-environment-shell"></a>Windows 環境 (Shell) 
 
--   [Windows 屬性系統](../properties/property-system-reference.md)
--   [Windows Shell](/previous-versions/windows/desktop/legacy/ff521731(v=vs.85))
+-   [Windows屬性系統](../properties/property-system-reference.md)
+-   [Windows殼](/previous-versions/windows/desktop/legacy/ff521731(v=vs.85))
 -   [Windows 搜尋](../search/-search-reference-entry-page.md)
 -   [主控台](/windows/console/console-reference)
 
@@ -90,7 +90,7 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
     -   [視窗程式](../winmsg/window-procedure-reference.md)
     -   [計時器](../winmsg/timer-reference.md)
     -   [視窗屬性](../winmsg/window-property-reference.md)
-    -   [鉤](../winmsg/hook-reference.md)
+    -   [勾點](../winmsg/hook-reference.md)
 
 ## <a name="data-access-and-storage"></a>資料存取與存放
 
@@ -100,7 +100,7 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
     -   [重複資料刪除](/previous-versions/windows/desktop/dedup/data-deduplication-api-reference)
     -   [磁碟區陰影複製](../vss/volume-shadow-copy-reference.md)
     -   [Windows Server Backup](/previous-versions/windows/desktop/wsb/windows-server-backup-api-interfaces)
--   [資料交換](../dataxchg/data-exchange.md)：
+-   [資料 Exchange](../dataxchg/data-exchange.md)：
 
     -   [剪貼簿](../dataxchg/clipboard-reference.md)
     -   [動態資料交換 (DDE) ](../dataxchg/dynamic-data-exchange-reference.md)
@@ -110,7 +110,7 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
 -   [磁碟管理](../fileio/disk-management-reference.md)
 -   [分散式檔案系統 (DFS)](/previous-versions/windows/desktop/dfs/distributed-file-system-reference)
 -   [分散式檔案系統複寫](/previous-versions/windows/desktop/dfsr/dfsr-wmi-classes)
--   [可擴充儲存引擎](../extensible-storage-engine/extensible-storage-engine-reference.md)
+-   [可擴充的儲存體引擎](../extensible-storage-engine/extensible-storage-engine-reference.md)
 -   [檔案和 i/o (本機檔案系統) ](../fileio/file-management-reference.md)
 -   [iSCSI 探索程式庫 API](/previous-versions/windows/desktop/iscsidisc/iscsi-discovery-library-reference)
 -   [離線檔案](/previous-versions/windows/desktop/offlinefiles/offline-files-reference)
@@ -146,7 +146,7 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
 -   [等候鏈遍歷](../debug/wait-chain-traversal.md)
 -   [Windows 錯誤報告 (WER)](../wer/wer-reference.md)
 -   [Windows 事件記錄檔](../wes/windows-event-log-reference.md)
--   [Windows 疑難排解平臺](/previous-versions/windows/desktop/wintt/windows-troubleshooting-reference)
+-   [Windows疑難排解平臺](/previous-versions/windows/desktop/wintt/windows-troubleshooting-reference)
 
 ## <a name="graphics-and-multimedia"></a>圖形與多媒體
 
@@ -167,16 +167,16 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
 -   [監視設定](../monitor/monitor-configuration-reference.md)
 -   [多顯示器監視](../gdi/multiple-display-monitors-reference.md)
 -   [取得圖片](/previous-versions/windows/desktop/acquisition/programming-reference)
--   [Windows 色彩系統](../wcs/reference.md)
+-   [Windows色彩系統](../wcs/reference.md)
 -   [Windows 影像處理元件 (WIC)](../wic/-wic-codec-reference.md)
--   [Windows Media 音訊和影片編解碼器和 DSP](/previous-versions//dd443208(v=vs.85))
+-   [Windows媒體音訊和影片編解碼器和 DSP](/previous-versions//dd443208(v=vs.85))
 -   [Windows Media Center](/previous-versions/windows/desktop/acquisition/programming-reference)
--   [Windows Media 格式](../wmformat/programming-reference.md)
--   [Windows Media Library 共用服務](/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal)
+-   [Windows媒體格式](../wmformat/programming-reference.md)
+-   [WindowsMedia Library 共用服務](/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal)
 -   [Windows Media Player](../wmp/windows-media-player-object-model-reference.md)
 -   [Windows Media Services](/previous-versions/windows/desktop/dd893580(v=vs.85))
 -   [Windows Movie Maker](/previous-versions/windows/desktop/wmmdvdm/windows-movie-maker-apis)
--   [Windows 多媒體](../multimedia/multimedia-reference.md)
+-   [Windows多媒體](../multimedia/multimedia-reference.md)
 
 ## <a name="devices"></a>裝置
 
@@ -201,7 +201,7 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
 -   [UPnP](../upnp/universal-plug-and-play-start-page.md)
 -   [裝置上的 Web 服務](../wsdapi/web-services-for-devices-reference.md)
 -   [Windows Image Acquisition (WIA)](../wia/-wia-reference.md)
--   [Windows Media 裝置管理員](../wmdm/programming-reference.md)
+-   [Windows媒體裝置管理員](../wmdm/programming-reference.md)
 -   [Windows 可攜式裝置](../wpd_sdk/programming-reference.md)
 
 ## <a name="system-services"></a>系統服務
@@ -209,7 +209,7 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
 [系統服務](/previous-versions//aa969179(v=vs.85))api 可讓應用程式存取電腦的資源和基礎作業系統的功能，例如記憶體、檔案系統、裝置、進程和執行緒。
 
 -   [COM](../com/reference.md)
--   [Com+](../cossdk/com--reference.md)
+-   [COM+](../cossdk/com--reference.md)
 -   [壓縮 API](../cmpapi/-compression-portal.md)
 -   [分散式交易協調器 (DTC)](/previous-versions/windows/desktop/ms686108(v=vs.85))
 -   [動態連結程式庫 (Dll) ](../dlls/dynamic-link-library-functions.md)
@@ -226,7 +226,7 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
 -   [服務](../services/service-reference.md)
 -   [同步處理](../sync/synchronization-reference.md)
 -   [執行緒](../procthread/process-and-thread-reference.md)
--   [Windows 桌面共用](/previous-versions/windows/desktop/rdp/windows-desktop-sharing-reference)
+-   [Windows桌面共用](/previous-versions/windows/desktop/rdp/windows-desktop-sharing-reference)
 -   [Windows 系統資訊](../sysinfo/windows-system-information.md)
     -   [控制碼和物件](../sysinfo/handle-and-object-functions.md)
     -   [登錄](../sysinfo/registry-reference.md)
@@ -287,15 +287,15 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
 -   [Windows Virtual PC](../vpc/virtual-pc-reference.md)
 -   [Microsoft Virtual Server](/previous-versions/windows/desktop/msvs/microsoft-virtual-server-reference)
 -   [網路負載平衡提供者](/previous-versions/windows/desktop/wlbsprov/network-load-balancing-provider-reference)
--   [Windows Defender WMI v2](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
+-   [Windows DefenderWMI v2](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 -   [Windows Deployment Services](../wds/windows-deployment-services-portal.md)
 -   [Windows Genuine Advantage](/previous-versions/windows/desktop/wingen/windows-genuine-advantage-api-functions)
--   [Windows 管理基礎結構](/previous-versions/windows/desktop/wmi_v2/wmi-reference)
+-   [Windows管理基礎結構](/previous-versions/windows/desktop/wmi_v2/wmi-reference)
 -   [Windows Management Instrumentation (WMI)](../wmisdk/wmi-reference.md)
 -   [Windows 遠端管理](../winrm/portal.md)
--   [Windows 資源保護](../wfp/windows-resource-protection-portal.md)
+-   [Windows資源保護](../wfp/windows-resource-protection-portal.md)
 -   [Windows Server Update Services](/previous-versions/windows/desktop/ms744624(v=vs.85))
--   [Windows 系統評定工具](../winsat/winsat-reference.md)
+-   [Windows系統評定工具](../winsat/winsat-reference.md)
 -   [Windows Update 代理程式](../wua_sdk/portal-client.md)
 
 ## <a name="networking-and-internet"></a>網路和網際網路
@@ -313,7 +313,7 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
 -   [管理資訊基礎](/previous-versions/windows/desktop/mib/management-information-base-reference)
 -   [訊息佇列 (MSMQ)](/previous-versions/windows/desktop/legacy/ms700112(v=vs.85))
 -   [多播位址動態用戶端配置通訊協定 (MADCAP) ](/previous-versions/windows/desktop/madcap/madcap-reference)
--   [網路位址轉譯 (NAT)](/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference)
+-   [ (NAT) 的網路位址轉譯 ](/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference)
 -   [網路清單管理員 (NLM) ](../nla/network-list-manager-api-reference.md)
 -   [網路管理](../netmgmt/network-management-reference.md)
 -   [網路共用管理](../netshare/network-share-management-reference.md)
@@ -335,28 +335,28 @@ Windows UI API 會建立和使用 windows 來顯示輸出、提示輸入使用�
     -   [Windows 連線管理員](../wcm/windows-connection-manager-reference.md)
 -   [Windows 篩選平台](../fwp/fwp-reference.md)
 -   [具有進階安全性的 Windows 防火牆](/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference)
--   [Windows HTTP 服務 (WinHTTP) ](../winhttp/winhttp-reference.md)
--   [Windows 網際網路 (WinINet) ](../wininet/wininet-reference.md)
--   [Windows 網路 (WNet) ](../wnet/windows-networking-reference.md)
--   [Windows 網路虛擬化](/previous-versions/windows/desktop/wnv/windows-network-virtualization-portal)
--   [Windows RSS 平臺](/previous-versions/windows/desktop/ms684702(v=vs.85))
--   [Windows 通訊端 (Winsock) ](../winsock/winsock-reference.md)
--   [Windows Web 服務](../wsw/windows-web-services-reference.md)
+-   [Windows (WinHTTP) 的 HTTP 服務](../winhttp/winhttp-reference.md)
+-   [Windows網際網路 (WinINet) ](../wininet/wininet-reference.md)
+-   [Windows網路 (WNet) ](../wnet/windows-networking-reference.md)
+-   [Windows網路虛擬化](/previous-versions/windows/desktop/wnv/windows-network-virtualization-portal)
+-   [WindowsRSS 平臺](/previous-versions/windows/desktop/ms684702(v=vs.85))
+-   [Windows (Winsock) 的通訊端](../winsock/winsock-reference.md)
+-   [WindowsWeb 服務](../wsw/windows-web-services-reference.md)
 -   [XML HTTP 擴充要求](/previous-versions/windows/desktop/ixhr2/ixmlhttprequest2-portal)
 
 ## <a name="deprecated-or-legacy-apis"></a>已淘汰或舊版 Api
 
-以下是從 Windows 用戶端和伺服器作業系統淘汰或取代或淘汰的技術和 Api。
+以下是 Windows 用戶端和伺服器作業系統已過期或已取代或淘汰的技術和 api。
 
 -   [DirectMusic](/previous-versions/ms807133(v=msdn.10))
 -   [DirectSound](/previous-versions/windows/desktop/ee416975(v=vs.85))
 -   Microsoft [UDDI SDK](/previous-versions/windows/desktop/aa966237(v=bts.10))現在隨附于[microsoft BizTalk Server](/previous-versions/bb905520(v=msdn.10))。
 -   [網路動態資料交換 (DDE) ](../ipc/network-dde-reference.md)
--   [遠端安裝服務](/previous-versions/windows/it-pro/windows-server-2003/cc786442(v=ws.10))：改用 [Windows 部署服務](../wds/windows-deployment-services-portal.md) 。
--   [虛擬磁碟服務 (VDS) ](../vds/vds-reference.md)：請改用 [Windows 存放裝置管理](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal) 。
+-   [遠端安裝服務](/previous-versions/windows/it-pro/windows-server-2003/cc786442(v=ws.10))：改用[Windows 部署服務](../wds/windows-deployment-services-portal.md)。
+-   [虛擬磁碟服務 (VDS) ](../vds/vds-reference.md)：請改用[Windows 儲存體管理](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)。
 -   終端機服務：使用 [遠端桌面服務](../termserv/terminal-services-reference.md)。
--   [Windows Media Rights Manager](/previous-versions//bb614742(v=vs.85))
--   [Windows 訊息中心 (MAPI) ](/previous-versions/windows/desktop/windowsmapi/mapi-stub-library-and-simple-mapi)：請改用 [Office MAPI](/previous-versions/office/developer/office-2007/cc765775(v=office.12)) 。
+-   [Windows媒體版權管理員](/previous-versions//bb614742(v=vs.85))
+-   [Windows 訊息中心 (mapi) ](/previous-versions/windows/desktop/windowsmapi/mapi-stub-library-and-simple-mapi)：請改用[Office MAPI](/previous-versions/office/developer/office-2007/cc765775(v=office.12)) 。
 -   [Windows 小工具平台](/previous-versions/windows/desktop/gadgetplatform/windows-gadget-platform-portal)：改為建立 UWP 應用程式。
 -   [Windows 提要](/previous-versions/windows/desktop/sidebar/-sidebar-ref-entry)欄位：改為建立 UWP 應用程式。
 -   [Windows SideShow](/previous-versions//ms744179(v=vs.85))：沒有取代。

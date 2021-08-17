@@ -16,12 +16,12 @@ keywords:
 - I/o (輸入和輸出) ，範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 477e7b07394b33326030b0eeebae8eb1a6415c1f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 758829e114ebc5c756f61b749adbd2472572dda94e346ac140714d83051c34ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136173"
 ---
 # <a name="using-multimedia-file-io"></a>使用多媒體檔案 i/o
 
@@ -41,9 +41,9 @@ ms.locfileid: "104301468"
 -   [安裝自訂 I/o 程式](installing-custom-i-o-procedures.md)。
 -   [與其他應用程式共用 I/o 程式](sharing-an-i-o-procedure-with-other-applications.md)。
 
- 
+ 
 
- 
+ 
 
 
 

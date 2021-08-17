@@ -4,16 +4,16 @@ ms.assetid: 0ed9b75e-3c79-4e41-9883-63b85ebfae06
 title: 'AudioDeviceProperty 列舉 (Ipmsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab807759bfb316858be41ea9bb4b78d795ee1a1a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5a634caa627f5d518e8783ce056e89a69931aa981466754a9d320f36787186f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948790"
 ---
 # <a name="audiodeviceproperty-enumeration"></a>AudioDeviceProperty 列舉
 
-\[ 此列舉無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[此列舉無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 [**ITAudioDeviceControl：： GetRange**](itaudiodevicecontrol-getrange.md)、 [**ITAudioDeviceControl：： Get**](itaudiodevicecontrol-get.md)和 [**ITAudioDeviceControl：： Set**](itaudiodevicecontrol-set.md)方法會使用 **AudioDeviceProperty** 列舉來指出要處理的屬性。
 

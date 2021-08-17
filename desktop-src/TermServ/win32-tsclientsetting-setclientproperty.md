@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a89bfdfd7c7f2c4b23f76b50ab671d74541f9dbe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 017a771022e0f5edc7d4abe22501fc8dfadc006e01ed2642f95f9c39f101eef8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118127014"
 ---
 # <a name="setclientproperty-method-of-the-win32_tsclientsetting-class"></a>Win32 TSClientSetting 類別的 SetClientProperty 方法 \_
 

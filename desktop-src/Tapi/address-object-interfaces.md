@@ -4,12 +4,12 @@ ms.assetid: 6e347e4c-aec3-4bbd-95f3-a68e6e136e11
 title: 位址物件介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef19db02123e10e839906a00931ef246d19d2c0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2254ba47e81ebd40f5ce95a1c870c363d09243c69cec0c4ec358cf3ee5604de7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117949174"
 ---
 # <a name="address-object-interfaces"></a>位址物件介面
 

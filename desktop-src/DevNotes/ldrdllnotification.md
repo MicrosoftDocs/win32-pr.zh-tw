@@ -13,16 +13,16 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: e29cd7b17c634250f56cbafcf86379449ac88199
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e1e9bea21cd4e21ca7549ce34343b42c50b293471e69576d7c1164f92a371c62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004103"
 ---
 # <a name="ldrdllnotification-callback-function"></a>LdrDllNotification 回呼函式
 
-\[您可以在不另行通知的情況下，從 Windows 變更或移除此功能。\]
+\[您可以從 Windows 中變更或移除此函式，而不需另行通知。\]
 
 使用 [**LdrRegisterDllNotification**](ldrregisterdllnotification.md) 函式指定的通知回呼函數。 第一次載入 DLL 時，載入器會呼叫這個函數。
 
@@ -122,8 +122,8 @@ typedef struct _LDR_DLL_UNLOADED_NOTIFICATION_DATA {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab52e52c952c2dc1f891098e10c3ecb688052295
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3c784ec520180f3524f49fa95644b03fa5f982651bd4c2322542dc46cc3f85a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133517"
 ---
 # <a name="inapsystemhealthagentrequestgetsohrequest-method"></a>INapSystemHealthAgentRequest：： GetSoHRequest 方法
 
@@ -60,7 +60,7 @@ HRESULT GetSoHRequest(
 
 
 
-| 傳回碼                                                                                            | Description                                                            |
+| 傳回碼                                                                                            | 描述                                                            |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> </dl>                  | 作業成功。<br/>                                        |
 | <dl> <dt>**NAP \_ E 沒有快取的 \_ \_ \_ SOH**</dt> </dl> | 找不到 SoH;NapAgent 沒有快取的複本。<br/> |
@@ -77,10 +77,10 @@ HRESULT GetSoHRequest(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapSystemHealthAgent。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagentrt.dll</dt> </dl>             |
 
 
