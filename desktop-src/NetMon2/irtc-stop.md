@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 10bf0886032c93288435ade05fec46077d53753c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 285d26e4eb141904e8a1951e6e42d0df0ef5d9738e5849057bbfe1e0a978e0b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742998"
 ---
 # <a name="irtcstop-method"></a>IRTC：： Stop 方法
 
@@ -46,11 +46,11 @@ HRESULT STDMETHODCALLTYPE Stop();
 
 
 
-| 傳回碼                                                                                          | Description                                                                                                                   |
+| 傳回碼                                                                                          | 描述                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫 [IRTC：： connect](irtc-connect.md) 以將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫[IRTC：：連線](irtc-connect.md)將 NPP 連接到網路。<br/> |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl> | NPP 不會捕捉資料。 呼叫 [IRTC：： start](irtc-start.md) 以開始捕獲。<br/>                            |
-| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>  | NPP 已連接到網路，但不是使用 [IRTC：： Connect](irtc-connect.md) 方法。<br/>                     |
+| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>  | NPP 是連接到網路，但不是使用[IRTC：：連線](irtc-connect.md)方法。<br/>                     |
 
 
 
@@ -80,7 +80,7 @@ HRESULT STDMETHODCALLTYPE Stop();
 [IRTC](irtc.md)
 </dt> <dt>
 
-[IRTC：： Connect](irtc-connect.md)
+[IRTC：：連線](irtc-connect.md)
 </dt> <dt>
 
 [IRTC：： Configure](irtc-configure.md)

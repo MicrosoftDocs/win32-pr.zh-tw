@@ -4,12 +4,12 @@ ms.assetid: 35849290-a5be-406f-82f5-4a7e2af48586
 title: 'IMR_CANDIDATEWINDOW 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edb905acace27cc9bb04ce2b14dc6a685b7c4f8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9376ff08e0406ff5505107ea1a04cf4e62898660065a8c7fdd54a1b8606850c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810111"
 ---
 # <a name="imr_candidatewindow-notification-code"></a>IMR \_ CANDIDATEWINDOW 通知碼
 
@@ -56,7 +56,7 @@ LRESULT IMR_CANDIDATEWINDOW
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

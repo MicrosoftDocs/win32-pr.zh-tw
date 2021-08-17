@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff71c6b64cbc4bf4ccc4f346e62a5eae066e78ce
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5f670c2acd2f2190a5ee2bfd76994c219c6f967dbbd933520a8d4627236a0d36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106968469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930628"
 ---
 # <a name="optimalbitrate"></a>OptimalBitrate
 
@@ -37,7 +37,7 @@ g \_ wszWMOptimalBitrate
 
 針對包含變數位元速率 (VBR) 資料流程的檔案，這個值是檔案中資料流程的尖峰位元速率。 針對沒有 VBR 的檔案，此值與 [**位元速率**](bit-rate.md)相同。
 
-這個屬性不能在檔案層級複製。 如果此屬性用於個別的資料流程，它會被視為自訂中繼資料，而且不會將其一般意義傳遞給 Windows Media 格式 SDK 的物件。
+這個屬性不能在檔案層級複製。 如果此屬性用於個別的資料流程，它會被視為自訂中繼資料，而且不會將其正常意義傳遞給 Windows 媒體格式 SDK 的物件。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -46,9 +46,9 @@ g \_ wszWMOptimalBitrate
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

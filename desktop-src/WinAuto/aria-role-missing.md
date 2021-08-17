@@ -6,12 +6,12 @@ keywords:
 - AriaContainerRoleErrorMessage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eede416392e8b4cb644938242a9975238118ff07
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 0cebaa2e6f4526d0a1e820e60adc1d28439d3f361c7ffb58a0c4d855861ea46d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133991"
 ---
 # <a name="aria-role-error-for-elements-with-event-handlers"></a>具有事件處理常式之元素的 ARIA 角色錯誤
 
@@ -43,9 +43,9 @@ ms.locfileid: "104383142"
 
 
 
- 
+ 
 
- 
+ 
 
 
 

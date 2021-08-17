@@ -4,12 +4,12 @@ ms.assetid: 5B058197-67B3-40DD-80D8-7BD8EE084CC9
 title: Web 網頁驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e7c7bd37334f345ae16074c050b6b06c5fd644f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e46a063cdd63631f84aa21980f89a143b3d1e9b42af020799d0f9f1bb7502b63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141433"
 ---
 # <a name="authentication-for-web-pages"></a>Web 網頁驗證
 
@@ -34,7 +34,7 @@ ms.locfileid: "103944886"
 
 ### <a name="2-getting-familiar"></a>2. 熟悉
 
-若要瞭解範例頁面在 Web 驗證訊息代理程式中的外觀，請在桌面上的 "Fabrikam 社交" 資料夾中開啟 Fabrikam 社交 Visual Studio 11 方案檔。
+若要瞭解範例頁面在 Web 驗證訊息代理程式中的外觀，請在桌面上的 "fabrikam 社交" 資料夾中開啟 fabrikam 社交 Visual Studio 11 方案檔。
 
 1.  執行應用程式並按 [啟動]，以顯示 Web 驗證訊息代理程式中的範例頁面。
 2.  您可以藉由將某些資料共用至應用程式，將應用程式調整為一側或啟用。

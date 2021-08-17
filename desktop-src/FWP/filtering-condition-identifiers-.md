@@ -166,7 +166,7 @@ Windows 篩選平台 (WFP) 篩選準則識別碼都是由 **GUID** 表示。 每
 <thead>
 <tr class="header">
 <th style="text-align: left;">Windows 8 和 Windows Server 2012 的可用條件</th>
-<th style="text-align: left;">Description</th>
+<th style="text-align: left;">描述</th>
 </tr>
 </thead>
 <tbody>
@@ -346,7 +346,7 @@ Windows 篩選平台 (WFP) 篩選準則識別碼都是由 **GUID** 表示。 每
 
 
 
-| Windows 7、Windows Server 2008 R2 和更新版本的可用條件                                                                                                                                                                                                    | Description                                                                                                                                                                                                                                                                               |
+| Windows 7、Windows Server 2008 R2 和更新版本的可用條件                                                                                                                                                                                                    | 描述                                                                                                                                                                                                                                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWPM_CONDITION_IP_NEXTHOP_ADDRESS"></span><span id="fwpm_condition_ip_nexthop_address"></span><dl> <dt>**FWPM \_ 條件 \_ IP \_ NEXTHOP \_ 位址**</dt> </dl>                                             | 下個躍點介面的 IP 位址。<br/> **資料類型：** .FWP \_ V4 \_ 位址 \_ 遮罩<br/>                                                                                                                                                                                        |
 | <span id="FWPM_CONDITION_IP_NEXTHOP_INTERFACE"></span><span id="fwpm_condition_ip_nexthop_interface"></span><dl> <dt>**FWPM \_ 條件 \_ IP \_ NEXTHOP \_ 介面**</dt> </dl>                                       | 封包將從其脫離的下一個躍點介面。 <br/> **資料類型：** .FWP \_ UINT64<br/>                                                                                                                                                                         |
@@ -371,7 +371,7 @@ Windows 篩選平台 (WFP) 篩選準則識別碼都是由 **GUID** 表示。 每
 
 
 
-| 適用于 Windows Vista SP1、Windows Server 2008 及更新版本的常數                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 適用于 Windows Vista SP1、Windows Server 2008 及更新版本的常數                                                                                                                                                                           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWPM_CONDITION_IP_ARRIVAL_INTERFACE"></span><span id="fwpm_condition_ip_arrival_interface"></span><dl> <dt>**FWPM \_ 條件 \_ IP \_ 抵達 \_ 介面**</dt> </dl>                       | 與抵達 IP 位址相關聯之網路介面的 LUID。 <br/> **資料類型：** .FWP \_ UINT64<br/>                                                                                                                                                                                                                                                                                                                                                                          |
 | <span id="FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE"></span><span id="fwpm_condition_arrival_interface_type"></span><dl> <dt>**FWPM \_ 條件 \_ 抵達 \_ 介面 \_ 類型**</dt> </dl>                 | 由網際網路指派的名稱授權單位所定義的抵達網路介面類別型 (IANA) 。 如需詳細資訊，請參閱 [https://www.iana.org/assignments/ianaiftype-mib](https://www.iana.org/assignments/ianaiftype-mib)。 <br/> **可能的值：** Ipifcons .h 標頭檔中所列的介面類別型值。<br/> **資料類型：** .FWP \_ UINT32<br/>                                                                                                                   |
@@ -394,7 +394,7 @@ Windows 篩選平台 (WFP) 篩選準則識別碼都是由 **GUID** 表示。 每
 <thead>
 <tr class="header">
 <th style="text-align: left;">適用于 Windows Vista 和更新版本的常數</th>
-<th style="text-align: left;">Description</th>
+<th style="text-align: left;">描述</th>
 </tr>
 </thead>
 <tbody>
@@ -632,7 +632,7 @@ Windows 篩選平台 (WFP) 篩選準則識別碼都是由 **GUID** 表示。 每
 
 
 
-| 適用于 Windows 8 和 Windows Server 2012 的使用者模式條件                                                                                                                       | Description                                                                                                                                                               |
+| 適用于 Windows 8 和 Windows Server 2012 的使用者模式條件                                                                                                                       | 描述                                                                                                                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWPM_CONDITION_QM_MODE"></span><span id="fwpm_condition_qm_mode"></span><dl> <dt>**FWPM \_ 條件 \_ QM \_ 模式**</dt> </dl> | 快速模式 (QM) 篩選的模式。 如需可能的值，請參閱 [**IPSEC \_ 流量 \_ 類型**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_traffic_type) 。<br/> **資料類型：** .FWP \_ UINT32<br/> |
 
@@ -648,7 +648,7 @@ Windows 篩選平台 (WFP) 篩選準則識別碼都是由 **GUID** 表示。 每
 <thead>
 <tr class="header">
 <th style="text-align: left;">適用于 Windows 7、Windows Server 2008 R2 和更新版本的使用者模式條件</th>
-<th style="text-align: left;">Description</th>
+<th style="text-align: left;">描述</th>
 </tr>
 </thead>
 <tbody>
@@ -704,7 +704,7 @@ Windows 篩選平台 (WFP) 篩選準則識別碼都是由 **GUID** 表示。 每
 <thead>
 <tr class="header">
 <th style="text-align: left;">適用于 Windows Vista 和更新版本的常數</th>
-<th style="text-align: left;">Description</th>
+<th style="text-align: left;">描述</th>
 </tr>
 </thead>
 <tbody>

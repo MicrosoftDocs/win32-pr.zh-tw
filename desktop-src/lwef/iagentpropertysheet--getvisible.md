@@ -4,16 +4,16 @@ description: IAgentPropertySheet GetVisible
 ms.assetid: 5e95c4da-28a3-4686-8699-ff7b16b3808f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcda8be2a3ae3e4084087225e0d7ed79d33621a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3ac95d1da3d1c0b4e5bf65c2f5f43c67153cc1d6af934e1814735abb12ed8d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692300"
 ---
 # <a name="iagentpropertysheetgetvisible"></a>IAgentPropertySheet：： GetVisible
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetVisible(
@@ -39,9 +39,9 @@ HRESULT GetVisible(
 [**IAgentPropertySheet::SetVisible**](iagentpropertysheet--setvisible.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

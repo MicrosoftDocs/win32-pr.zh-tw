@@ -4,12 +4,12 @@ ms.assetid: d320cb8a-48b6-4a53-a051-d50f239c1aa3
 title: " (Direct3D 9) 的索引頂點混合"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4cfe7b45831317fdf9e92525ed74bbd27323e99
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ec3d45e3ff72a33cd21265d1e4aa25e237e2a73e473914898d5c1057316d4ca0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728693"
 ---
 # <a name="indexed-vertex-blending-direct3d-9"></a> (Direct3D 9) 的索引頂點混合
 

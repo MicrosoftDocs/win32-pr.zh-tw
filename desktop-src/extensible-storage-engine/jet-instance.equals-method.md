@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: c8401fbc9bfcfe238fac3d6219eba84dd5d256e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75d66bb036092dab531721ac920711b0a600f46b9a7f97844536a7d344c718ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118074599"
 ---
 # <a name="jet_instanceequals-method"></a>JET_INSTANCE。Equals 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104553904"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

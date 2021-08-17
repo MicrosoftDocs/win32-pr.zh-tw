@@ -4,27 +4,27 @@ description: 形容詞屬性
 ms.assetid: f0f31e6c-9dde-4082-88a2-da2d0012b9ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff83371cbca29ee687875343976b312466d6a78c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 85869500cc3e9f86e0f48e67f63cfd9e6ed2cff5580caa04994169a9e4b50df8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137141"
 ---
 # <a name="adj-attribute"></a>形容詞屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 指定用來定義公式值的調整值。 讀取/寫入 **字串**。
 
 **適用於**
 
-[形狀](shape-element--vml.md)
+[圖形](shape-element--vml.md)
 
 **標記語法**
 
@@ -77,6 +77,6 @@ ms.locfileid: "106966252"
 
  (需要 Microsoft Internet Explorer 5 或更高版本的[形容詞屬性範例](/previous-versions/bb229662(v=vs.85))。 ) 
 
- 
+ 
 
- 
+ 

@@ -6,12 +6,12 @@ keywords:
 - MCI_OPEN 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd975b0dd5004fb4b1209003568b7fd5901cfc4e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 34408cef4e85ed7200b91c610e60ca546ff488ce5ad45edee12159a664f319fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802315"
 ---
 # <a name="opening-a-device"></a>開啟裝置
 
@@ -25,7 +25,7 @@ ms.locfileid: "104023325"
 
 當您開啟裝置時，您可以使用「別名」旗標來指定裝置的裝置識別碼。 此旗標可讓您為具有冗長檔名的複合裝置指派簡短的裝置識別碼，並可讓您開啟相同檔案或裝置的多個實例。
 
-例如，下列命令會將裝置識別碼 "birdcall" 指派給冗長的檔案名 C： \\ NABIRDS 音效 \\ \\ MOCKMTNG。Wav：
+例如，下列命令會將裝置識別碼 "birdcall" 指派給冗長的檔案名 C： \\ NABIRDS 音效 \\ \\ MOCKMTNG。WAV：
 
 
 ```C++
@@ -83,7 +83,7 @@ MCI 會將設備磁碟機分類為 *複合* 或 *簡單*。 複合裝置的驅�
 -   僅指定檔案名。 裝置名稱是由登錄中的關聯所決定。
 -   指定檔案名和裝置名稱。 MCI 會忽略登錄中的專案，並開啟指定的裝置名稱。
 
-若要建立資料檔案與特定裝置的關聯，您可以指定檔案名和裝置名稱。 例如，下列命令會開啟具有檔案名 MYVOICE 的 **waveaudio** 裝置。Snd：
+若要建立資料檔案與特定裝置的關聯，您可以指定檔案名和裝置名稱。 例如，下列命令會開啟具有檔案名 MYVOICE 的 **waveaudio** 裝置。SND：
 
 
 ```C++
@@ -159,6 +159,6 @@ mciSendString("close capture", lpszReturnString,
 
 如果您開啟檔案的多個實例，則必須為每個實例指派唯一的裝置識別碼。 您可以使用別名（如下一節所述），為每個檔案指派唯一的名稱。
 
- 
+ 
 
- 
+ 

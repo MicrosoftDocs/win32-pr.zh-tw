@@ -29,12 +29,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31c575acefbfef54dc4c858f465f0cdde2ce8bc7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9cfe0551cf02f94f3494fde5ebf49ffb60c2bd4a966db1efb5f0dfeb3bd9e4bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106998016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138811"
 ---
 # <a name="imsrdpclientadvancedsettings6relativemousemode-property"></a>IMsRdpClientAdvancedSettings6：： RelativeMouseMode 屬性
 
@@ -63,7 +63,7 @@ HRESULT get_RelativeMouseMode(
 
 ## <a name="remarks"></a>備註
 
-滑鼠模式指出 ActiveX 控制項如何計算傳送給遠端桌面工作階段主機 (RD 工作階段主機) server 的滑鼠座標。 當滑鼠處於相對模式時，ActiveX 控制項會計算相對於滑鼠最後一個位置的滑鼠座標。 當滑鼠處於絕對模式時，ActiveX 控制項會計算相對於 RD 工作階段主機伺服器桌面的滑鼠座標。
+滑鼠模式指出 ActiveX 控制項如何計算傳送給遠端桌面工作階段主機 (RD 工作階段主機) server 的滑鼠座標。 當滑鼠處於相對模式時，ActiveX 控制項會計算滑鼠座標（相對於滑鼠的最後一個位置）。 當滑鼠處於絕對模式時，ActiveX 控制項會計算相對於 RD 工作階段主機伺服器桌面的滑鼠座標。
 
 ## <a name="requirements"></a>規格需求
 

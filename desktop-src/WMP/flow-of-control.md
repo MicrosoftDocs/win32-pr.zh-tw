@@ -1,6 +1,6 @@
 ---
-title: 控制流程
-description: 控制流程
+title: 控制項 Flow
+description: 控制項 Flow
 ms.assetid: b91c0191-1908-4d62-96ce-927d09c70f9a
 keywords:
 - 視覺效果，程式流程
@@ -17,14 +17,14 @@ keywords:
 - RenderWindow 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bca09760d958da045c4bbf60ae122a9d0ae4c71c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 332d9c907e7c25f81d01bc8adf48c6d4d91a7b17763a1b0daf0007a8534ac4dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117934737"
 ---
-# <a name="flow-of-control"></a>控制流程
+# <a name="flow-of-control"></a>控制項 Flow
 
 音訊資料會透過檔案或資料流程持續進入 Windows Media Player。 這項資料會傳遞至您的視覺效果。 您可以在定義的介面上繪製，並將該介面傳回 Windows Media Player。 此交換會在一秒內發生數次，而且對使用者而言，結果會是可即時移至音樂的滿意動畫。
 
@@ -43,9 +43,9 @@ ms.locfileid: "103931974"
 [**開發人員總覽**](developer-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

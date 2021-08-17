@@ -1,6 +1,6 @@
 ---
 title: " (XML) 的每日觸發程式範例"
-description: 此範例中的 XML 會定義一項工作，該工作會在每天上午 8 00 啟動「記事本」。
+description: 此範例中的 XML 會定義在每天上午 8 00 開始記事本的工作。
 ms.assetid: b7818071-12b6-41df-85b9-282c08cf6e31
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: fe673a764e6e7e4e3ae5089022da2232821d9184
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: cd98ada9a69f694d59262682317b7e5be91509b4862f8b896e22b7b0deac2167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "103679524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139501"
 ---
 # <a name="daily-trigger-example-xml"></a> (XML) 的每日觸發程式範例
 
-此範例中的 XML 會定義一項工作，該工作會在每天上午8:00 啟動「記事本」。 此範例也會顯示如何設定觸發程式的重複模式，以重複執行工作。
+此範例中的 XML 會定義在每天上午8:00 開始記事本的工作。 此範例也會顯示如何設定觸發程式的重複模式，以重複執行工作。
 
 若要註冊 XML 中定義的工作，您可以使用 [**ITaskFolder：： RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) 函數 ([**TaskFolder. RegisterTask**](taskfolder-registertask.md) 來撰寫腳本) 或 Schtasks.exe 命令列工具。 如果您使用位於 C： \\ Windows System32 目錄) 的 Schtasks.exe 工具 (\\ ，則可以使用下列命令來註冊工作： **schtasks.exe/create/xml** *<path to the XML file containing the task definition>* **/tn** *<task name>* 。
 
-## <a name="to-define-a-task-to-start-notepad-every-day-at-800-am"></a>定義在每天上午8:00 啟動「記事本」的工作
+## <a name="to-define-a-task-to-start-notepad-every-day-at-800-am"></a>定義在每天上午8:00 開始記事本的工作
 
-下列 XML 範例示範如何使用單一執行動作來定義工作 (啟動 [記事本]) 、單一行事曆觸發程式 (在每天上午8:00 點啟動工作) ，以及其他數個會影響工作如何由工作排程器處理的工作設定。
+下列 XML 範例示範如何使用單一執行動作來定義工作 (開始記事本) 、單一行事曆觸發程式 (在每天上午8:00 點啟動工作，以及其他幾項工作設定，這些設定會影響) 處理工作的方式。
 
 
 ```XML
@@ -100,7 +100,7 @@ This sample schedules a task to start on a daily basis.
 
 -   [**動作**](taskschedulerschema-actions-tasktype-element.md)
 
-    定義工作執行的動作 (在此案例中，執行 [記事本]) 。
+    定義工作執行的動作 (在此案例中，執行記事本) 。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -109,9 +109,9 @@ This sample schedules a task to start on a daily basis.
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

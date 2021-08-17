@@ -5,12 +5,12 @@ ms.assetid: 229a1058-acba-4d4b-ba52-824dda4f91a5
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 711f850b8bac5d084419b1f15c2e0efe619da5b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2cad01bb7b61c471ba81f382d1fc4031b8c44dcef63a78c5a0cc17641b5e457e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059436"
 ---
 # <a name="graphic-effects"></a>圖形效果
 
@@ -26,9 +26,9 @@ ms.locfileid: "103932257"
 
 盡可能使用 Microsoft Foundation Class library 或 MFC。 MFC 有一長串的已嘗試和真正的類別，可執行各種不同的工作。 這些類別大多適用于遠端桌面服務環境，通常比重新設計的解決方案更好。 一個很好的例子就是提供內容相關解說文字的類別—當滑鼠指標停留在按鈕或功能表項目上時，就會出現在畫面上的解說文字。 如果應用程式使用 MFC 執行來提供此功能，它在桌面系統上的運作效果相當好。 但是，如果應用程式使用對話方塊或替代方法來執行這項功能，最終結果可能也無法在遠端桌面服務環境中運作。
 
- 
+ 
 
- 
+ 
 
 
 

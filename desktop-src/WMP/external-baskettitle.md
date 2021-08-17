@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 610ce5ecf054d6ab1edba4e0aab5f2eff3a969fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f20b01fd9b0185dcd1d20a2d063f464699d51e51d54560dfc43f87da21dc9c44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649528"
 ---
 # <a name="externalbaskettitle"></a>BasketTitle
 

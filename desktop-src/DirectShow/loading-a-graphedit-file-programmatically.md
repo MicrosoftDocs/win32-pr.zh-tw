@@ -4,12 +4,12 @@ ms.assetid: 0e1cff4e-43f8-4d0a-b7a7-b6d0278e9e4a
 title: 以程式設計方式載入 GraphEdit 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9a4780ead7b65d883bdd48917c6372425612435
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: faf2bdff86a47e740e6cb177a70a7b1e12ffc7c865d8ad231f6ada9122f286d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153176"
 ---
 # <a name="loading-a-graphedit-file-programmatically"></a>以程式設計方式載入 GraphEdit 檔案
 
@@ -65,7 +65,7 @@ GraphEdit 檔案僅供測試和偵測之用。 它們並非供使用者應用程
 
 <dl> <dt>
 
-[使用 GraphEdit 模擬圖表建立](simulating-graph-building-with-graphedit.md)
+[使用 GraphEdit 模擬 Graph 建立](simulating-graph-building-with-graphedit.md)
 </dt> <dt>
 
 [**StgIsStorageFile**](/windows/win32/api/coml2api/nf-coml2api-stgisstoragefile)

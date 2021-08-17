@@ -1,28 +1,28 @@
 ---
-description: Microsoft Windows HTTP Services (WinHTTP) 憑證設定工具 &\# 0034; WinHttpCertCfg.exe&\# 0034;，可讓系統管理員在任何憑證存放區中安裝和設定用戶端憑證，該憑證存放區可由網際網路伺服器 Web 應用程式管理員 (IWAM) 帳戶存取。 此工具也可讓您不需要對帳戶（例如 IWAM 帳戶）採取任何特殊動作，就能在使用 Active Server Pages (ASP) 時取得憑證的存取權。
+description: Microsoft Windows HTTP 服務 (WinHTTP) 憑證設定工具 &\# 0034; WinHttpCertCfg.exe&\# 0034;，可讓系統管理員在任何憑證存放區中安裝和設定用戶端憑證，該憑證存放區可由網際網路伺服器 Web 應用程式管理員 (IWAM) 帳戶存取。 此工具也可讓您不需要對帳戶（例如 IWAM 帳戶）採取任何特殊動作，就能在使用 Active Server Pages (ASP) 時取得憑證的存取權。
 ms.assetid: e4c2afc2-0fd3-4bdd-812e-f112958e1576
 title: WinHttpCertCfg.exe，憑證設定工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4250cd717b9f611f4f23f17c93069760c283c97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51ce9978f6e2ffcafa1357a45dbeff80c12bf0e6ea2f7f3fb9656376b33dfb23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743796"
 ---
 # <a name="winhttpcertcfgexe-a-certificate-configuration-tool"></a>WinHttpCertCfg.exe，憑證設定工具
 
-[Microsoft WINDOWS HTTP Services (WinHTTP)](about-winhttp.md)憑證設定工具 "WinHttpCertCfg.exe"，可讓系統管理員在任何憑證存放區中安裝和設定用戶端憑證，該 [*憑證存放區*](glossary.md)可由網際網路伺服器 Web 應用程式管理員 (IWAM) 帳戶存取。 此工具也可讓您不需要對帳戶（例如 IWAM 帳戶）採取任何特殊動作，就能在使用 Active Server Pages (ASP) 時取得憑證的存取權。
+[Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md)憑證設定工具「WinHttpCertCfg.exe」，可讓系統管理員在任何憑證存放區中安裝和設定用戶端憑證，該 [*憑證存放區*](glossary.md)可由網際網路伺服器 Web 應用程式管理員 (IWAM) 帳戶存取。 此工具也可讓您不需要對帳戶（例如 IWAM 帳戶）採取任何特殊動作，就能在使用 Active Server Pages (ASP) 時取得憑證的存取權。
 
-Microsoft Management Console (MMC) 可讓系統管理員將用戶端憑證匯入本機電腦。 不過，匯入憑證並不會自動授與其他帳戶私密金鑰的存取權。 此私密金鑰是用戶端憑證驗證的必要項。 Microsoft Windows HTTP Services (WinHTTP) 憑證設定工具可在必要時，將存取權授與其他帳戶，例如 IWAM 帳戶。
+Microsoft Management Console (MMC) 可讓系統管理員將用戶端憑證匯入本機電腦。 不過，匯入憑證並不會自動授與其他帳戶私密金鑰的存取權。 此私密金鑰是用戶端憑證驗證的必要項。 Microsoft Windows HTTP 服務 (WinHTTP) 憑證設定工具，可在必要時，將存取權授與其他帳戶，例如 IWAM 帳戶。
 
 -   [使用憑證設定工具](#using-the-certificate-configuration-tool)
 -   [範例](#examples)
 
 ## <a name="using-the-certificate-configuration-tool"></a>使用憑證設定工具
 
-您可以從 [Windows Server 2003 資源套件工具](https://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd) 網站下載 WinHTTP 憑證設定工具（WinHttpCertCfg.exe）。 下列範例程式碼顯示要搭配此工具使用的有效命令列參數。
+WinHttpCertCfg.exe 的 WinHTTP 憑證設定工具，可從[Windows Server 2003 資源套件工具](https://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd)網站下載。 下列範例程式碼顯示要搭配此工具使用的有效命令列參數。
 
 ``` syntax
 winhttpcertcfg [-?]
@@ -44,7 +44,7 @@ winhttpcertcfg [-i PFXFile | -g | -r | -l]
 <thead>
 <tr class="header">
 <th>參數</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -54,7 +54,7 @@ winhttpcertcfg [-i PFXFile | -g | -r | -l]
 </tr>
 <tr class="even">
 <td>-i</td>
-<td>指定要從個人資訊交換匯入憑證 (PFX) 檔。 此參數後面必須接著檔案的名稱。 當指定這個參數時， &quot; &quot; &quot; 也必須指定-a 和-c &quot; 。</td>
+<td>指定要從個人資訊匯入憑證 Exchange (PFX) 檔。 此參數後面必須接著檔案的名稱。 當指定這個參數時， &quot; &quot; &quot; 也必須指定-a 和-c &quot; 。</td>
 </tr>
 <tr class="odd">
 <td>-g</td>

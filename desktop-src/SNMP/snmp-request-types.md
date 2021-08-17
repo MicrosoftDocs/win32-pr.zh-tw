@@ -18,22 +18,22 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c37b0064b66fd31f3dbd07dfb593b3fa5900e1e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74c4dfdfc6d65e63b8cd00956627eef9e831c46c6979e44634067b1e29defc4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142991"
 ---
 # <a name="snmp-request-types"></a>SNMP 要求類型
 
-\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 MICROSOFT 對 ws-atomictransaction 的實。\]
+\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用[Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 Microsoft 對 ws-atomictransaction 的實。\]
 
 SNMP 要求類型是用來描述 SNMP 服務要求擴充代理程式執行的操作。
 
 
 
-| 常數/值                                                                                                                                                                                                                                                          | Description                                                                                                                                                                                                                                                 |
+| 常數/值                                                                                                                                                                                                                                                          | 描述                                                                                                                                                                                                                                                 |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SNMP_EXTENSION_GET"></span><span id="snmp_extension_get"></span><dl> <dt>**SNMP \_擴充功能 \_ 取得**</dt> <dt>SNMP \_ PDU \_ GET</dt> </dl>                       | 取出指定變數值的值。<br/>                                                                                                                                                                                         |
 | <span id="SNMP_EXTENSION_GET_NEXT"></span><span id="snmp_extension_get_next"></span><dl> <dt>**SNMP \_擴充功能 \_ 取得 \_ 下一個**</dt> <dt>SNMP \_ PDU \_ GETNEXT</dt> </dl>   | 取得所指定變數的詞典編纂後置值。<br/>                                                                                                                                                          |

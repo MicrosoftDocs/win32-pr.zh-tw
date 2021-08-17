@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvdeo.h
-ms.openlocfilehash: a5618ec29fd47ba690106b5f826e6fb145eac208
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c41b6773b0ed64160e2ad8850b6092dd5ec987c3e6726ba1cd668909c266311
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143391"
 ---
 # <a name="ioctl_video_query_supported_brightness-control-code"></a>IOCTL \_ 影片 \_ 查詢 \_ 支援的 \_ 亮度控制項程式碼
 
@@ -139,8 +139,8 @@ BOOL DeviceIoControl(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | WindowsVista、僅限 Windows XP 和 SP1 \[ desktop 應用程式\]<br/>                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Ntddvdeo。h</dt> </dl> |
 
 

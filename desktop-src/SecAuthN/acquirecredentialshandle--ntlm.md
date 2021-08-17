@@ -4,12 +4,12 @@ ms.assetid: 8a51ca50-0e05-4f1e-9dfc-c5d0118f65ed
 title: 'AcquireCredentialsHandle (NTLM) 函數 (Sspi. h) '
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 233bfd57c6e3a7471d7c26204157cd1451d7884f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59e1e0142a53e0baaadd8cdf9d35b3b8fa4a3eae3abf843064c77732ad35afbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141531"
 ---
 # <a name="acquirecredentialshandle-ntlm-function"></a>AcquireCredentialsHandle (NTLM) 函數
 
@@ -133,7 +133,7 @@ SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
 
 
 
-| 傳回碼                                                                                                 | Description                                                                                                                                        |
+| 傳回碼                                                                                                 | 描述                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**每 \_ 秒 \_ 沒有足夠的 \_ 記憶體**</dt> </dl> | 沒有足夠的記憶體可完成要求的動作。<br/>                                                                  |
 | <dl> <dt>**SEC \_ E \_ 內部 \_ 錯誤**</dt> </dl>      | 發生未對應到 SSPI 錯誤碼的錯誤。<br/>                                                                               |
@@ -167,8 +167,8 @@ SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                   |
 | 標頭<br/>                   | <dl> <dt>Sspi (包含 Security .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Secur32 .lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

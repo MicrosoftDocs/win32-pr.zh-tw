@@ -1,9 +1,9 @@
 ---
-title: " (Windows 功能區架構) 的 Image 元素"
+title: 'Windows 功能區架構 (的影像元素) '
 description: 表示影像。
 ms.assetid: 2c71bb16-93ac-484f-b81b-1b95842472b3
 keywords:
-- 影像元素視窗功能區
+- 影像元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fe0b9afb51697d50de9cb80886cf829b90c81262
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: aad95d62be63434653908d54a290c3213fd22bf644150b70fa995e86bf5e39af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931448"
 ---
 # <a name="image-element"></a>Image 項目
 
@@ -59,26 +59,26 @@ ms.locfileid: "111442889"
 <tr class="odd">
 <td><strong>識別碼</strong><br/></td>
 <td>xs： positiveInteger union xs： string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>唯一的資源識別碼。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 和 xs： string 的聯集) <br/> </dt> <dd> 介於2和59999（含）之間的整數值，或以十六進位（含）表示的0xea5f。 <br/> 最大長度為10個字元，包括選擇性前置零。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MinDPI</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 最小值為96的任何數位序列。 <br/> 如果省略 MinDPI，預設值為96。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>來源</strong><br/></td>
 <td>xs:anyURI<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： anyURI) <br/> </dt> <dd> 表示 URI 的任何字元序列。 URI 值是功能區標記檔案的絕對或相對 (，) 類型為 BMP 之影像資源的路徑。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>符號</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>影像的資源符號。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 由字母或底線組成的字串，後面接著字母、數位或底線的任意序列，最多100個字元。 <br/> </dd> </dl></td>
 </tr>

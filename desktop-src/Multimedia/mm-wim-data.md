@@ -3,7 +3,7 @@ title: 'MM_WIM_DATA 訊息 (Mmsystem .h) '
 description: '\_ \_ 當輸入緩衝區中有波形音訊資料，而且緩衝區傳回給應用程式時，會將 MM WIM 資料訊息傳送至視窗。 當緩衝區已滿或呼叫 waveInReset 函數之後，就可以傳送此訊息。'
 ms.assetid: 14298153-ea2f-40b7-bca7-196f4e6c1155
 keywords:
-- MM_WIM_DATA message Windows 多媒體
+- MM_WIM_DATA 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c663d669635116500bc8aa7e7fdc994cdccd6dfe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b8b209e59032c0da4c875a316008c889cf064ae7d8bc48f5c621125a06582673
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106984969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065468"
 ---
 # <a name="mm_wim_data-message"></a>MM \_ WIM \_ 資料訊息
 
@@ -68,7 +68,7 @@ lParam = (LONG) lpwvhdr
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

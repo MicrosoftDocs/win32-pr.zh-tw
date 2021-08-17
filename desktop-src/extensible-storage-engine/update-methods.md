@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.upda
 ms:contentKeyID: 55104190
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 059b5ce06685beeb9a977b05d3726fd4e704f0a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50820c9a7e356da243aa12d84f627d58e3d8b5c13623a00f3c80c5a1946ccecd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104566249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978198"
 ---
 # <a name="update-methods"></a>更新方法
 

@@ -73,12 +73,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2787abbacfe4220b135544eecd3aeb7e86596c81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb57c7b96a6e2cd1839f4d830074bb69d742aef688325a37d61b67589d026436
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147891"
 ---
 # <a name="msvm_virtualsystemsettingdata-class"></a>Msvm \_ VirtualSystemSettingData 類別
 
@@ -263,7 +263,7 @@ class Msvm_VirtualSystemSettingData : CIM_VirtualSystemSettingData
 識別當發生重大錯誤（例如儲存體中斷連線）時，要在 VM 上採取的動作。
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -308,7 +308,7 @@ class Msvm_VirtualSystemSettingData : CIM_VirtualSystemSettingData
 識別將執行 **AutomaticCriticalErrorAction** 以解決重大錯誤的最長持續時間。 只有當 **AutomaticCriticalErrorAction** 屬性的值不是 0 (無) 時，才適用這種情況。 當超時時間過期時，VM 將會關閉電源。 此值會無條件進位到最接近的分鐘數。 值為0表示 VM 應該在遇到重大錯誤狀況時立即關閉電源。
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -675,7 +675,7 @@ class Msvm_VirtualSystemSettingData : CIM_VirtualSystemSettingData
 識別 VM 的主控台模式。
 
 > [!Note]  
-> 這個屬性是在 Windows 10 和 Windows Server 2016 中新增的。
+> 此屬性已加入 Windows 10 和 Windows Server 2016 中。
 
  
 
@@ -873,7 +873,7 @@ class Msvm_VirtualSystemSettingData : CIM_VirtualSystemSettingData
 指出來賓是否可以控制快取類型。
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -1005,7 +1005,7 @@ class Msvm_VirtualSystemSettingData : CIM_VirtualSystemSettingData
 中斷與 vmconnect 的連線時，請鎖定主控台。
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -1178,7 +1178,7 @@ UEFI 安全開機相關變數的初始值之範本的全域唯一識別碼。
 這是唯讀屬性，但是可以使用 [**Msvm \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)類別的 [**ModifyVirtualSystem**](https://www.bing.com/search?q=**ModifyVirtualSystem**)方法來變更。
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -1235,7 +1235,7 @@ UEFI 安全開機相關變數的初始值之範本的全域唯一識別碼。
 表示使用者定義的快照集類型。
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -1404,8 +1404,8 @@ UEFI 安全開機相關變數的初始值之範本的全域唯一識別碼。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -4,18 +4,18 @@ ms.assetid: 68c6eb84-b7f8-42cb-9f1c-78c817cb9510
 title: System. FlagStatusText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e3dccb68e27597c11be4b1e6cd573d00cce5748
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9d48e61372b0276a410230674a623487c47b258b55f6fd7a8abc513630010cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845048"
 ---
 # <a name="systemflagstatustext"></a>System. FlagStatusText
 
 [FlagStatus](./props-system-flagstatus.md)的使用者易記形式。 此值不能以程式設計方式剖析。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

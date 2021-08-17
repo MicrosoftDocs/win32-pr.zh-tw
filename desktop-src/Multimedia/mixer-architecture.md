@@ -1,6 +1,6 @@
 ---
-title: 混音器架構
-description: 混音器架構
+title: Mixer建築
+description: Mixer建築
 ms.assetid: 11d650bf-c258-4818-88b7-9fdc71a8d859
 keywords:
 - 多媒體音訊，混音器架構
@@ -16,14 +16,14 @@ keywords:
 - mixers，控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 447b0cdc44a33237aa7e0c726a5eb533b3bc7d0e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3f435396dd2a8d5983f596628711dfd01afe7111e75af1dc2060f5c6c4ef0a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065608"
 ---
-# <a name="mixer-architecture"></a>混音器架構
+# <a name="mixer-architecture"></a>Mixer建築
 
 混音器架構的基本元素是一 *條音訊*。 音訊行是由一或多個源自單一來源或系統資源的資料通道所組成。 例如，身歷聲音訊線有兩個資料通道，但因為它來自單一來源，所以會被視為單一音訊行。
 
@@ -31,9 +31,9 @@ ms.locfileid: "104300771"
 
 每個音訊線條可以有相關聯的混音器控制項。 混音器控制項可以執行任意數目的函式 (例如控制音量) ，視相關聯音訊行的特性而定。
 
- 
+ 
 
- 
+ 
 
 
 

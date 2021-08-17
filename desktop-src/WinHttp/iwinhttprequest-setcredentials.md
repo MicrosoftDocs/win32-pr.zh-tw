@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 46b0dfb321763a3b3bfe622e116f2e76c5e59423
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9246352e78472461bfbfe37569d9bd631905fda03c87571ed7ed3dad04edb797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744464"
 ---
 # <a name="iwinhttprequestsetcredentials-method"></a>IWinHttpRequest：： SetCredentials 方法
 
@@ -56,7 +56,7 @@ HRESULT SetCredentials(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 指定 [**IWinHttpRequest**](iwinhttprequest-interface.md) 使用認證的時間。 可以是下列其中一個值。
@@ -83,7 +83,7 @@ HRESULT SetCredentials(
 如果 [**開啟**](iwinhttprequest-open.md) 的呼叫尚未順利完成，此方法會傳回錯誤值。 假設有一些與 proxy 伺服器或源伺服器互動的量值必須在使用者可以設定會話的認證之前進行。 此外，在使用者知道 (s) 支援的驗證配置之前，他們無法格式化認證。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -285,10 +285,10 @@ WScript.Echo(WinHttpReq.GetAllResponseHeaders());
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WinHTTP .lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
 

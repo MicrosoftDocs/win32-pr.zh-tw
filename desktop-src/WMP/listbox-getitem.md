@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2c6bd930fabfe29e50bf8eb8265beb6d1abea7f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 05c4043462aa1013df46039bb2d4524ba3b17b4d937a9b8145d46cf181ff246f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996458"
 ---
 # <a name="listboxgetitem"></a>LISTBOX. getItem
 
@@ -49,7 +49,7 @@ ms.locfileid: "106994276"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

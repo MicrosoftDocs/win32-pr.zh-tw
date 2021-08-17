@@ -20,12 +20,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64d2b609a7a49a9b319c15745600aa54193350e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9ca781f960f51c8f7804d56f3b2f5531517c3f16505f40dd48d442857fa58bf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967987"
 ---
 # <a name="systemrestore-class"></a>SystemRestore 類別
 
@@ -199,7 +199,7 @@ next
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                         |
 | 命名空間<br/>                | 根 \\ 預設值<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Sr-iov</dt> </dl> |

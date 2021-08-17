@@ -1,6 +1,6 @@
 ---
 title: 'g_wszWMVCPassesRecommended (Wmcodecdsp) '
-description: '如需 Windows Media 編解碼器和數位訊號處理器的最新檔，請參閱 Windows Media 音訊和影片編解碼器和 DSP Api。 |g_wszWMVCPassesRecommended (Wmcodecdsp) '
+description: '如需 Windows 媒體編解碼器和數位訊號處理器的最新檔，請參閱 Windows Media 音訊和影片編解碼器和 DSP api。 |g_wszWMVCPassesRecommended (Wmcodecdsp) '
 ms.assetid: 87fe3663-d2d1-444b-a74f-428bf1ad9608
 keywords:
 - g_wszWMVCPassesRecommended windows Media 格式
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca44eef88e9caaab15f746e0d94c5c42ff7861b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: af98666a6ae33f6c39760742c9120ab793119e5a470778f0d338c65281d3e8fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930908"
 ---
 # <a name="g_wszwmvcpassesrecommended"></a>g \_ wszWMVCPassesRecommended
 
-如需 Windows Media 編解碼器和數位訊號處理器的最新檔，請參閱 [Windows Media 音訊和影片編解碼器和 DSP api。](/previous-versions//dd464626(v=vs.85))
+如需 Windows 媒體編解碼器和數位訊號處理器的最新檔，請參閱[Windows Media 音訊和影片編解碼器和 DSP api。](/previous-versions//dd464626(v=vs.85))
 
 ## <a name="requirements"></a>規格需求
 

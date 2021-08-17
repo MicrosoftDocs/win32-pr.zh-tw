@@ -6,12 +6,12 @@ keywords:
 - MIDL 編譯器 MIDL，C-編譯器，proxy/stub 的定義
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af1504c600c3f86a934ab3daa132b041c7310af3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f12b9fd1e2688545137dba870816c1765102ce3593d09ea3cb062bd8250c7c28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807831"
 ---
 # <a name="c-compiler-definitions-for-proxystubs"></a>C-Proxy/Stub 的編譯器定義
 
@@ -19,7 +19,7 @@ ms.locfileid: "104021844"
 
 
 
-| MACRO                                                                                                                                                                                           | Description                                                                                                                                                                                                          |
+| MACRO                                                                                                                                                                                           | 描述                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 註冊 \_ PROXY \_ DLL                                                                                                                                                                            | 產生 **DllMain**、 **DllRegisterServer** 和 **DllUnregisterServer** 函數，以自動註冊 proxy DLL。                                                                                       |
 | PROXY \_ CLSID =<clsid>                                                                                                                                                                      | 指定伺服器的類別識別碼。 如果未定義這個宏，預設 CLSID 就是 MIDL 編譯器在 Proxy/Stub 伺服器的 IDL 規格中遇到的第一個介面識別碼。 |
@@ -27,7 +27,7 @@ ms.locfileid: "104021844"
 
 
 
- 
+ 
 
 藉由在編譯 Dlldata.c 時定義 **REGISTER \_ proxy \_ dll** 宏，您的 PROXY/存根封送處理 dll 將會自動包含 **DllMain**、 **DllRegisterServer** 和 **DllUnregisterServer** 函數的預設定義。 您可以使用這些功能，在系統登錄中自行註冊 proxy DLL。
 
@@ -61,9 +61,9 @@ proxy.dll : $(PROXYSTUBOBJX) example.def
 
 如需有關 [**/d**](-d.md) 預處理器選項的詳細資訊，請參閱 C 編譯器檔。
 
- 
+ 
 
- 
+ 
 
 
 

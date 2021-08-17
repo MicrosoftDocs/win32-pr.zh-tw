@@ -17,7 +17,7 @@ ms.locfileid: "117740407"
 ---
 # <a name="sio_loopback_fast_path-control-code"></a>SIO_LOOPBACK_FAST_PATH 控制程式代碼
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 **SIO \_ 回送 \_ FAST \_ 路徑** 控制程式代碼會設定 TCP 通訊端，以在回送介面上進行較低的延遲和更快速的作業。
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a32206232c726f19febf77c3f3270882894a6747
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bb5f4716509905d4ce800abbe4cb11b85d116d7a5afd5a56301b1ecb5ce0724b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726448"
 ---
 # <a name="if-elif-else-and-endif-directives"></a>\#if、 \# elif、 \# else 和 \# endif 指示詞
 
