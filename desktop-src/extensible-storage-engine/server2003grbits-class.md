@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: be4722a95546a52b3cf845b7e32a312b66c62fe0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09ea51356b684f28109a164670ba7271dcacfc554306167ed30b2c1413592189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471678"
 ---
 # <a name="server2003grbits-class"></a>Server2003Grbits 類別
 

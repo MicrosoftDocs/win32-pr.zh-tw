@@ -1,5 +1,5 @@
 ---
-description: 建立裝置和字型的字型物件。請注意，我們建議您不要使用這個函式，而是使用 DirectWrite 和 DirectXTK library SpriteFont 類別。
+description: 建立裝置和字型的字型物件。請注意，我們建議您不要使用這個函式，而是使用 DirectWrite 和 DirectXTK 程式庫 SpriteFont 類別。
 ms.assetid: a0dd02f1-c512-46d3-9e83-a785ac3ad7ee
 title: 'D3DX10CreateFont 函式 (D3DX10Core) '
 ms.topic: reference
@@ -14,19 +14,19 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d6e5966e50c9c997085d35854868a2a7dd0455c7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 396d0124d3edb79d6855c49f7d29f863fda6701a12678ab7712637b424bfbbc0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106975685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119370758"
 ---
 # <a name="d3dx10createfont-function"></a>D3DX10CreateFont 函式
 
 建立裝置和字型的字型物件。
 
 > [!Note]  
-> 我們建議您不要使用這個函式，而是使用 [DirectWrite](../directwrite/direct-write-portal.md) 和 [DirectXTK](https://github.com/Microsoft/DirectXTK) 程式庫 **SpriteFont** 類別。
+> 我們建議您改用 [DirectWrite](../directwrite/direct-write-portal.md)和 [DirectXTK](https://github.com/Microsoft/DirectXTK)程式庫 **SpriteFont** 類別，而不是使用此函式。
 
  
 
@@ -124,7 +124,7 @@ Mipmap 層級的數目。
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**
 
-指定 Windows 應該如何嘗試符合所需的字型大小和特性與實際字型。 \_ \_ 例如，只使用 OUT TT \_ PRECIS，以確保一律取得 TrueType 字型。
+指定 Windows 應如何嘗試將所需的字型大小和特性與實際字型相符。 \_ \_ 例如，只使用 OUT TT \_ PRECIS，以確保一律取得 TrueType 字型。
 
 </dd> <dt>
 
@@ -133,7 +133,7 @@ Mipmap 層級的數目。
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**
 
-指定 Windows 如何以真實字型符合所需的字型。 它只適用于點陣字型，不應該影響 TrueType 字型。
+指定 Windows 應如何與實際字型相符所需的字型。 它只適用于點陣字型，不應該影響 TrueType 字型。
 
 </dd> <dt>
 

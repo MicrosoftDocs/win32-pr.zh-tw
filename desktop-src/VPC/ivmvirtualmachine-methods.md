@@ -4,16 +4,16 @@ description: IVMVirtualMachine 介面會公開下列方法。
 ms.assetid: 7C80371E-22CC-41BC-A1E5-B550DAD5B8D9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bc83c4403e070d2d4c144a1028451e39ed12016
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 77a8bc47de58da59813dbf20cc8af5732614ece0483fbd00f466d9c0b159ab95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471538"
 ---
 # <a name="ivmvirtualmachine-methods"></a>IVMVirtualMachine 方法
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 [**IVMVirtualMachine**](ivmvirtualmachine.md)介面會公開下列方法。
 
@@ -45,6 +45,6 @@ ms.locfileid: "103682697"
 -   [**Startup2 方法**](ivmvirtualmachine-startup2.md)
 -   [**TurnOff 方法**](ivmvirtualmachine-turnoff.md)
 
- 
+ 
 
- 
+ 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101279
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e3ac229091226ae99f8b537d20aeba0fdb673c4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1153b75110b72937c1bea78eeacc5ccab0f9474f34200d78587706346e9c00c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104560835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116998"
 ---
 # <a name="esentcannotseparateintrinsiclvexception-properties"></a>EsentCannotSeparateIntrinsicLVException 屬性
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a447c4c5b65e3085d84e26ef202283cf0c31c6b5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 705cf6953f8db461486263999837c2a250ba622826bb1779b53171d5b6d2f851
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408118"
 ---
 # <a name="d3dxloadsurfacefromfileinmemory-function"></a>D3DXLoadSurfaceFromFileInMemory 函式
 
@@ -84,7 +84,7 @@ Type： **Const [**RECT**](/previous-versions//dd162897(v=vs.85)) \***
 
 </dd> <dt>
 
-*>srcdata* \[在\]
+*>Srcdata* \[在\]
 </dt> <dd>
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**
@@ -111,7 +111,7 @@ Type： **Const [**RECT**](/previous-versions//dd162897(v=vs.85)) \***
 
 </dd> <dt>
 
-*>colorkey* \[在\]
+*>Colorkey* \[在\]
 </dt> <dd>
 
 類型： **[ **D3DCOLOR**](d3dcolor.md)**
@@ -137,7 +137,7 @@ Type： **Const [**RECT**](/previous-versions//dd162897(v=vs.85)) \***
 
 ## <a name="remarks"></a>備註
 
-此函式會處理壓縮紋理格式的轉換，並支援下列檔案格式： .bmp、.jpg、.dib、hdr、.jpg、. pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函式會處理壓縮紋理格式的轉換，並支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 寫入至非層級零的介面並不會更新中途的矩形。 如果呼叫 **D3DXLoadSurfaceFromFileInMemory** ，但介面尚未變更 (這在正常使用方式下不太可能) ，應用程式必須在介面上明確呼叫 [**AddDirtyRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect) 。
 

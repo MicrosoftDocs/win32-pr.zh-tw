@@ -1,17 +1,17 @@
 ---
 description: 下列函式可用於點陣圖。
 ms.assetid: ef3abc8a-5d95-41d0-8eb6-47719d472414
-title: " (Windows GDI) 的點陣圖函數"
+title: '點陣圖函式 (Windows GDI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05e61ef02f5065d746f0d82a7b3352c3445ebf61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 454cc4d23cceaeddd8abe9aaf9a5a7cc522345bedfe12a10e8e114c5dde46d8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119400458"
 ---
-# <a name="bitmap-functions-windows-gdi"></a> (Windows GDI) 的點陣圖函數
+# <a name="bitmap-functions-windows-gdi"></a>點陣圖函式 (Windows GDI) 
 
 下列函式可用於點陣圖。
 
@@ -53,7 +53,7 @@ ms.locfileid: "104991290"
 
 ## <a name="obsolete-functions"></a>過時的函式
 
-下列函式僅提供給與16位版本的 Microsoft Windows 相容：
+下列函式僅提供給 Microsoft Windows 的16位版本的相容性：
 
 -   [**CreateDiscardableBitmap**](/windows/desktop/api/Wingdi/nf-wingdi-creatediscardablebitmap)
 -   [**FloodFill**](/windows/desktop/api/Wingdi/nf-wingdi-floodfill)

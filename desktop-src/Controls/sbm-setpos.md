@@ -3,7 +3,7 @@ title: 'SBM_SETPOS 訊息 (Winuser .h) '
 description: 傳送 SBM \_ SETPOS 訊息來設定捲動方塊 (thumb 的位置) 並在要求時，重繪捲軸以反映捲動方塊的新位置。
 ms.assetid: 6b3c16ba-1cdf-41ff-8546-ba98477af334
 keywords:
-- SBM_SETPOS message Windows 控制項
+- SBM_SETPOS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7a7dc99da5f4b3dbb301f15ddd722f1d664932f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd753d8ef20d912cd5b50ba0932d54ed231ae19e032d21eb1de6492e5792e1d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119332221"
 ---
 # <a name="sbm_setpos-message"></a>SBM \_ SETPOS 訊息
 
@@ -61,9 +61,9 @@ ms.locfileid: "104466933"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

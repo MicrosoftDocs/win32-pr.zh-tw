@@ -4,12 +4,12 @@ description: 資訊清單可以識別一或多個提供者。 若要識別提供
 ms.assetid: 3bd40405-2b7a-4709-aef7-8615de8c5b6a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45941a540f8804beccc408435fc202593ddad601
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: fbce9b07aa8a2322311397ae9a48b3d72d60b784e5c55b028afc9772b53f63d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104507840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470918"
 ---
 # <a name="identifying-the-provider"></a>識別提供者
 
@@ -23,8 +23,8 @@ ms.locfileid: "104507840"
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>

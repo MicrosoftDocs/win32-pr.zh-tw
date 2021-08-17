@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4bf6147c215475314f65bb8fa426442884bc82e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6265290fa3604c426609f51d0518f1f6762ea02718757d86ff9ed69b10bd018
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106991305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119421668"
 ---
 # <a name="modifypermissions-method-of-the-win32_tsaccount-class"></a>Win32 TSAccount 類別的 ModifyPermissions 方法 \_
 

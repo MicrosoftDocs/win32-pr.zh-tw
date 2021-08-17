@@ -17,12 +17,12 @@ keywords:
 - MIDI 參考，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c21542867faf1e09d68dc4fc81a50d25f56b5c5e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8da65f193bbdc6b67d317fac7546d4f5d7826d89307d1800c565febf0c7a8b6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428348"
 ---
 # <a name="midi-reference"></a>MIDI 參考
 
@@ -58,8 +58,8 @@ ms.locfileid: "104375208"
 
 -   [**midiInGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-midiingeterrortext)
 -   [**midiOutGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgeterrortext)
--   [**MIM \_ 錯誤**](mim-error.md)
--   [**MIM \_ LONGERROR**](mim-longerror.md)
+-   [**MIM \_錯誤**](mim-error.md)
+-   [**MIM \_LONGERROR**](mim-longerror.md)
 -   [**MM \_ MIM \_ 錯誤**](mm-mim-error.md)
 -   [**MM \_ MIM \_ LONGERROR**](mm-mim-longerror.md)
 
@@ -80,8 +80,8 @@ ms.locfileid: "104375208"
 -   [**midiInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen)
 -   [**midiOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-midioutclose)
 -   [**midiOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midioutopen)
--   [**MIM \_ 關閉**](mim-close.md)
--   [**MIM \_ 開啟**](mim-open.md)
+-   [**MIM \_關閉**](mim-close.md)
+-   [**MIM \_打開**](mim-open.md)
 -   [**MM \_ MIM \_ 關閉**](mm-mim-close.md)
 -   [**MM \_ MIM \_ 開啟**](mm-mim-open.md)
 -   [**MM \_ MOM \_ 關閉**](mm-mom-close.md)
@@ -124,9 +124,9 @@ ms.locfileid: "104375208"
 -   [**midiInStop**](/windows/win32/api/mmeapi/nf-mmeapi-midiinstop)
 -   [**MIDIPROPTEMPO**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptempo)
 -   [**MIDIPROPTIMEDIV**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptimediv)
--   [**MIM \_ 資料**](mim-data.md)
--   [**MIM \_ LONGDATA**](mim-longdata.md)
--   [**MIM \_ MOREDATA**](mim-moredata.md)
+-   [**MIM \_資料**](mim-data.md)
+-   [**MIM \_LONGDATA**](mim-longdata.md)
+-   [**MIM \_MOREDATA**](mim-moredata.md)
 -   [**MM \_ MIM \_ 資料**](mm-mim-data.md)
 -   [**MM \_ MIM \_ MOREDATA**](mm-mim-moredata.md)
 -   [**MM \_ MIM \_ LONGDATA**](mm-mim-longdata.md)
@@ -143,6 +143,6 @@ ms.locfileid: "104375208"
 [樂器數位介面 (MIDI)](musical-instrument-digital-interface--midi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

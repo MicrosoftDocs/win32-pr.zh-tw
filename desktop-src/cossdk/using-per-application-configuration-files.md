@@ -4,12 +4,12 @@ ms.assetid: a600e5a4-b2bb-45a6-8b86-5ea3caf7aa78
 title: 使用 Per-Application 設定檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd4d59d05f6a7b9b894a2577eb55cceffa49d267
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2bbc38a2433d2da6d2a39985523a5ebffd0d971102bc883e44ae24d9fcc165ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119372338"
 ---
 # <a name="using-per-application-configuration-files"></a>使用 Per-Application 設定檔
 
@@ -54,7 +54,7 @@ ms.locfileid: "106970104"
 6.  在 [ **屬性** ] 對話方塊中，選取 [ **啟用** ] 索引標籤。
 7.  請確定 **啟用類型** 已設為 [ **伺服器應用程式**]。
 8.  在 [ **應用程式根目錄** ] 文字方塊中，輸入路徑或流覽至您要儲存此應用程式之應用程式佈建檔的目錄。
-9.  按一下 [確定]  。
+9.  按一下 [確定]。
 
     請注意，您也可以透過 [**COMAdminCatalogObject**](comadmincatalogobject.md) 類別的 ApplicationDirectory 屬性來指定 com + 應用程式根目錄。 如需詳細資訊，請參閱 [**應用程式**](applications.md)。
 
@@ -65,7 +65,7 @@ ms.locfileid: "106970104"
     <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" />
     ```
 
-11. 在相同的目錄中， *建立名為* app.config 的檔案。使用文字編輯器，將下列文字新增至此檔案：
+11. 在相同的目錄中，建立名為 *application*.config 的檔案。使用文字編輯器，將下列文字新增至此檔案：
 
     ``` syntax
     <?xml version="1.0"?>

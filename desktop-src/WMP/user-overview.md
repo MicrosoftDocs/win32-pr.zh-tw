@@ -16,12 +16,12 @@ keywords:
 - 視覺效果中的預設值，使用者總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f0b8b389f07dc1a39c852f881a9c7d287176b73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1d78cb01fe5ee87857ea546fc8c225f9ca16217c642ebbee06025cb037d94fec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134483"
 ---
 # <a name="user-overview"></a>使用者總覽
 
@@ -50,7 +50,7 @@ Windows Media Player 包含數個視覺效果，如下所示：
 
 ## <a name="skin-attributes"></a>外觀屬性
 
-如果您建立 Windows Media Player 的外觀，您可以使用 **效果** 元素在您的面板中顯示標準視覺效果。 如需在 [外觀] 中使用視覺效果的詳細資訊，請參閱 [Windows Media Player 的外觀](windows-media-player-skins.md)。
+如果您建立 Windows Media Player 的外觀，您可以使用 **效果** 元素在您的面板中顯示標準視覺效果。 如需在 [外觀] 中使用視覺效果的詳細資訊，請參閱[Windows Media Player 的外觀](windows-media-player-skins.md)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -59,9 +59,9 @@ Windows Media Player 包含數個視覺效果，如下所示：
 [**關於自訂視覺效果**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
