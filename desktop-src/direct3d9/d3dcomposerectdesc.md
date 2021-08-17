@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: cf9ad5f1c075f4dc52d68b894b37c7d0f0a7b310
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8c23868e8759b98898013ea70d8d62768f1e648eb6e5019eb52dd21ba55905b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733201"
 ---
 # <a name="d3dcomposerectdesc-structure"></a>D3DCOMPOSERECTDESC 結構
 

@@ -1,19 +1,19 @@
 ---
-description: 藉由使用通知 Api 元件，可通知索引子已變更、移動或刪除專案，並可將搜尋範圍新增至需要編制索引之 Url 的 Windows Search 索引子佇列。
+description: 藉由使用通知 api 元件，可通知索引子已變更、移動或刪除專案，並可將搜尋範圍新增至需要編制索引之 url 的 Windows Search 索引子佇列。
 ms.assetid: 817550e2-a256-48d5-9fa6-1ea04f8b8589
 title: '通知索引變更 (Windows Search) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a89112da20c4010e1fc23fab16778309195d20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4cb386763be5192851368b1f46b69f94576fbe261a57d215d649d38ac5a19ecf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052225"
 ---
 # <a name="notifying-the-index-of-changes-windows-search"></a>通知索引變更 (Windows Search) 
 
-藉由使用通知 Api 元件，可通知索引子已變更、移動或刪除專案，並可將搜尋範圍新增至需要編制索引之 Url 的 Windows Search 索引子佇列。
+藉由使用通知 api 元件，可通知索引子已變更、移動或刪除專案，並可將搜尋範圍新增至需要編制索引之 url 的 Windows Search 索引子佇列。
 
 元件可以通知 Windows Search 索引子，其存放區中的資料已變更。 一般而言，您可以依賴索引子的排程編目。 不過，若要將通知提供給索引子，可以藉由確保索引子不會對增量索引的整個存放區進行編目，來改善效能。 例如，如果您預期您的資料存放區相當大且/或非常忙碌，例如電子郵件資料存放區，則建議您這樣做。
 
@@ -80,11 +80,11 @@ ms.locfileid: "104112485"
 
 您不只會收到每個專案狀態的更新，如先前所述，您也會取得有關目錄本身狀態的重要資訊。 終端使用者、協力廠商應用程式或其他失敗可能會中斷或重新開機 Windows Search 服務。 發生這種情況時，您需要一種方式來判斷要 repush 至索引子的通知。
 
-Windows Search 服務所呼叫的 [**ISearchNotifyInlineSite：： OnCatalogStatusChange**](/windows/desktop/api/Searchapi/nf-searchapi-isearchnotifyinlinesite-oncatalogstatuschange) 方法會使用下表所述的參數，通知用戶端有關目錄的狀態。
+Windows Search 服務所呼叫的 [**ISearchNotifyInlineSite：： OnCatalogStatusChange**](/windows/desktop/api/Searchapi/nf-searchapi-isearchnotifyinlinesite-oncatalogstatuschange)方法會使用下表所述的參數，通知用戶端有關目錄的狀態。
 
 
 
-| 參數                 | Description                                                                                                                                           |
+| 參數                 | 描述                                                                                                                                           |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | guidCatalogResetSignature | 代表目錄重設的 GUID。 如果此 GUID 有所變更，則必須重新傳送所有的通知。                                                        |
 | guidCheckPointSignature   | GUID，表示最後還原的檢查點。 如果此 GUID 有所變更，則必須重新傳送上次儲存的檢查點之後累積的所有通知。 |

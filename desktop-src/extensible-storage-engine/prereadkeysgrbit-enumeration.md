@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dadd7622206fe29197aa56d5629b5a9e2931e162
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35b88c1b6fab760782d7233b736f469565b9f7420bffdf097bed4d30554a447c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117703073"
 ---
 # <a name="prereadkeysgrbit-enumeration"></a>PrereadKeysGrbit 列舉
 

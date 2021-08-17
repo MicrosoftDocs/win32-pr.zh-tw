@@ -4,12 +4,12 @@ ms.assetid: cff99200-8bdc-416c-b1a5-3ae515a17a17
 title: D3D10_EFFECT 常數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c12b7a458bb7c97bb53436565513673006a2884
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7e3738a95a843020f7c0f8af30e8c5d035f0a86ac7098d36cae422eb01ed4dc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736047"
 ---
 # <a name="d3d10_effect-constants"></a>D3D10 \_ 效果常數
 

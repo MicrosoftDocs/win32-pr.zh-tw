@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 966fd1f43db7114d3a4c0cf4cddaa4428fcb41c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 330f8ea6456001c7e3b81dfbfeb07a125d30a5069596ef7d4f3e6ad561994ecb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742601"
 ---
 # <a name="wsmancreatesession-method"></a>WSMan. CreateSession 方法
 
@@ -74,7 +74,7 @@ WSMan.CreateSession( _
 
 ## <a name="remarks"></a>備註
 
-**CreateSession** 方法會藉由收集參數，例如旗標、認證和 *連接* 參數的連接字串，初始化 [**會話**](session.md)物件。 **CreateSession** 並不會實際連接到本機或遠端電腦。 如果無法建立連接，則在呼叫 **CreateSession** 之後，第一個 **會話作業**（例如 [**Get**](session-get.md)或 [**列舉**](session-enumerate.md)）會發生失敗。 此行為不同于與遠端電腦上的 [*命名空間*](windows-remote-management-glossary.md)的 [*WMI*](windows-remote-management-glossary.md)連接。 如需詳細資訊，請參閱 [Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)。
+**CreateSession** 方法會藉由收集參數，例如旗標、認證和 *連接* 參數的連接字串，初始化 [**會話**](session.md)物件。 **CreateSession** 並不會實際連接到本機或遠端電腦。 如果無法建立連接，則在呼叫 **CreateSession** 之後，第一個 **會話作業**（例如 [**Get**](session-get.md)或 [**列舉**](session-enumerate.md)）會發生失敗。 此行為不同于與遠端電腦上的 [*命名空間*](windows-remote-management-glossary.md)的 [*WMI*](windows-remote-management-glossary.md)連接。 如需詳細資訊，請參閱[Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)。
 
 下列 VBScript 程式碼範例會用來呼叫這個方法。
 
@@ -118,7 +118,7 @@ Set session = _
 
 下列 VBScript 程式碼範例會在以 IP 位址識別的遠端電腦上建立會話。 腳本會提供帳戶的使用者名稱和密碼。 **WSManFlagCredUserNamePassword** 和 **WSManFlagUseBasic** 旗標會合並，以指出帳戶是遠端電腦上的本機帳戶。 如果建立會話失敗，腳本會終止。 腳本會使用傳回常數的方法，例如 [**WSMan. SessionFlagUseBasic**](wsman-sessionflagusebasic.md)。
 
-若要執行此腳本，請注意，您必須設定用戶端和伺服器的預設設定，以允許未加密的流量和基本驗證 (**AllowUnencrypted** 設為 **true** ，基本身份設定為 **true**) 。 如需詳細資訊，請參閱 [Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
+若要執行此腳本，請注意，您必須設定用戶端和伺服器的預設設定，以允許未加密的流量和基本驗證 (**AllowUnencrypted** 設為 **true** ，基本身份設定為 **true**) 。 如需詳細資訊，請參閱[Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
 
 
 ```VB
@@ -155,7 +155,7 @@ Set NewSession = WSMan.CreateSession("127.0.51.1", iFlags, _
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
@@ -171,7 +171,7 @@ Set NewSession = WSMan.CreateSession("127.0.51.1", iFlags, _
 [**ConnectionOptions**](connectionoptions.md)
 </dt> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> <dt>
 
 [遠端連線的驗證](authentication-for-remote-connections.md)

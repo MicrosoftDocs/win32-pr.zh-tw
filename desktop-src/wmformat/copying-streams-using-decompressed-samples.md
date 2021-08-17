@@ -3,18 +3,18 @@ title: 使用解壓縮的範例複製資料流程
 description: 使用解壓縮的範例複製資料流程
 ms.assetid: 03ad8415-1dff-4362-94b4-7ec69c3e7888
 keywords:
-- Windows Media Format SDK，複製資料流程
+- Windows媒體格式 SDK，複製資料流程
 - Advanced Systems Format (ASF) ，複製資料流程
 - ASF (Advanced Systems Format) ，複製資料流程
 - 資料流程，使用解壓縮的資料進行複製
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88c5c0f98b02090d98814983ad518ee3cd7e5d8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e9e044d2a1d456c14c2e2d069e0a117ab6f6de218c062771da9c24bf887ddfdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106964988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848804"
 ---
 # <a name="copying-streams-using-decompressed-samples"></a>使用解壓縮的範例複製資料流程
 
@@ -32,9 +32,9 @@ ms.locfileid: "106964988"
 [**複製資料流程而不解壓縮資料**](copying-streams-without-decompressing-the-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ keywords:
 - MPC 層級1，光學儲存體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98189cd6ab9ffde07b5f2682ef0723828b947f55
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3a36b14ab23c636a3cdbdae7eb5b6da749947c3c0353873a5e35bc5b81c6f4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139866"
 ---
 # <a name="level-1-optical-storage"></a>層級1光學儲存體
 
@@ -24,9 +24,9 @@ ms.locfileid: "104462172"
 -   維持每秒 150 kb 的持續性資料傳輸速率時，CPU 頻寬使用量為40% 或更低
 -   平均搜尋時間為1秒或更少
 
- 
+ 
 
- 
+ 
 
 
 

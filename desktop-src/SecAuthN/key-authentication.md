@@ -4,12 +4,12 @@ ms.assetid: e17e4eb7-133e-46a0-8247-00a58b88bf61
 title: 金鑰驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deaadfdb61340955209ded22b5302e5436271ccc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9273bc3fc57bca5157431ce78495f2b5c4b97595ed8513ba76fa068ef76fe0b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787260"
 ---
 # <a name="key-authentication"></a>金鑰驗證
 

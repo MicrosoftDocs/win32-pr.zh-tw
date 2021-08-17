@@ -20,12 +20,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b43ef805161afce6cb73bfaa26060308bc0aa5d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9954c416d9ad28f0ba0b2ddd6853b125039bf4db24adb3b3ff41f8722b2ba494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950793"
 ---
 # <a name="tf_lbi_style_-constants"></a>TF \_ LBI \_ 樣式 \_ \* 常數
 
@@ -35,7 +35,7 @@ Tf **\_ LBI \_ STYLE \_ \* *_ 常數用於*** [tf \_ LANGBARITEMINFO](/windows/d
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 常數/值                                                                                                                                                                                                                                                                           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="TF_LBI_STYLE_HIDDENSTATUSCONTROL"></span><span id="tf_lbi_style_hiddenstatuscontrol"></span><dl> <dt>**TF \_LBI \_ STYLE \_ HIDDENSTATUSCONTROL**</dt> <dt>0x00000001</dt> </dl> | 您可以使用 \_ \_ \_ [ITfLangBarItem：： GETSTATUS](/windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritem-getstatus) 方法中的 TF LBI STATUS hidden 值，以動態方式隱藏或顯示專案。 如果此值不存在，就無法以這種方式隱藏專案。<br/>                                                                                                                                                                                                                                                                         |
 | <span id="TF_LBI_STYLE_SHOWNINTRAY"></span><span id="tf_lbi_style_shownintray"></span><dl> <dt>**TF \_LBI \_ 樣式 \_ SHOWNINTRAY**</dt> <dt>0x00000002</dt> </dl>                         | 除了語言列之外，此專案也會顯示在通知圖示紙匣中。 目前不支援此旗標。<br/>                                                                                                                                                                                                                                                                                                                                                                              |
@@ -59,7 +59,7 @@ Tf **\_ LBI \_ STYLE \_ \* *_ 常數用於*** [tf \_ LANGBARITEMINFO](/windows/d
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>Ctfutb。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Ctfutb .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Ctfutb .idl</dt> </dl> |
 
 
 

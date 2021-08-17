@@ -4,12 +4,12 @@ ms.assetid: 8d06b415-aafc-4276-9a88-4b7262df62f1
 title: 'MF_SAMPLEGRABBERSINK_SAMPLE_TIME_OFFSET 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d99f65c5023bbe8705e21269dfb07d6f24db4190
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ad8086d7820a9f7c642fb049af8696521f675be3f7606ff19166a4570ee8000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875988"
 ---
 # <a name="mf_samplegrabbersink_sample_time_offset-attribute"></a>MF \_ SAMPLEGRABBERSINK \_ SAMPLE \_ TIME \_ OFFSET 屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106979743"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

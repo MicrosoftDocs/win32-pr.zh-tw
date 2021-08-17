@@ -4,12 +4,12 @@ description: 此區段會指定可用於並排顯示資源的虛擬位址空間�
 ms.assetid: A3D08564-3C7A-4578-BC38-EE202045580A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c774c697cf5d3bf575d01ce5751dc413c1d14b0
-ms.sourcegitcommit: 4dcafeb002cbee4f6028b32a956ec22cb95cbc44
+ms.openlocfilehash: e5753fdb9d700689c6ebfffdae4368399c0e4bb36d328c9ff1a8cfc284005214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "103679084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734280"
 ---
 # <a name="address-space-available-for-tiled-resources"></a>磚資源可用的位址空間
 
@@ -30,9 +30,9 @@ ms.locfileid: "103679084"
 [磚資源建立參數](tiled-resource-creation-parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

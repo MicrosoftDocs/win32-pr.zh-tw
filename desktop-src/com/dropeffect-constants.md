@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2b1888aa028d4e047a9a8ec1f54e2497fa28ce4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05c9a4fa961b0da2e654d4672392104b95e718bbb176167c7bb715c39f25cfc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736950"
 ---
 # <a name="dropeffect-constants"></a>DROPEFFECT 常數
 
@@ -29,7 +29,7 @@ ms.locfileid: "106969626"
 
 
 
-| 常數/值                                                                                                                                                                                                                            | Description                                                                                                                         |
+| 常數/值                                                                                                                                                                                                                            | 描述                                                                                                                         |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DROPEFFECT_NONE"></span><span id="dropeffect_none"></span><dl> <dt>**DROPEFFECT \_無**</dt> <dt>0</dt> </dl>                | 捨棄目標無法接受資料。<br/>                                                                                      |
 | <span id="DROPEFFECT_COPY"></span><span id="dropeffect_copy"></span><dl> <dt>**DROPEFFECT \_複製**</dt> <dt>1</dt> </dl>                | 將結果放置在複本中。 拖曳來源不會改變原始資料。<br/>                                               |

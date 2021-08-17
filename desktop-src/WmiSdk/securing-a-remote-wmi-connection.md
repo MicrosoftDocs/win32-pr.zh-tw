@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 保護遠端 WMI 連接
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df2a044e49fed5eaa27fbc246dca3306a6c29650
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8650ee47c549121a51e5d131055a84c176da944c6146f0532ffc86f1d2f9e4c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739512"
 ---
 # <a name="securing-a-remote-wmi-connection"></a>保護遠端 WMI 連接
 
@@ -32,7 +32,7 @@ WMI 具有預設 DCOM 模擬、驗證和驗證服務 (遠端系統所需的 NTLM
 
 您可以在 c + + 中對 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) 或 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) 的呼叫提供參數中的設定。 在腳本中，您可以在呼叫 [**wbemscripting.swbemlocator. ConnectServer**](swbemlocator-connectserver.md)、 [**SWbemSecurity**](swbemsecurity.md) 物件或腳本的 [標記](constructing-a-moniker-string.md) 字串中建立安全性設定。
 
-如需所有 c + + 模擬常數的清單，請參閱 [使用 c + + 設定預設進程安全性層級](setting-the-default-process-security-level-using-c-.md)。 如需使用「標記」連接的 Visual Basic 常數和腳本字串，請參閱 [使用 VBScript 設定預設進程安全性層級](setting-the-default-process-security-level-using-vbscript.md)。
+如需所有 c + + 模擬常數的清單，請參閱 [使用 c + + 設定預設進程安全性層級](setting-the-default-process-security-level-using-c-.md)。 如需使用「標記」連接的 Visual Basic 常數和腳本字串，請參閱[使用 VBScript 設定預設進程安全性層級](setting-the-default-process-security-level-using-vbscript.md)。
 
 下表列出遠端連線 (電腦 B) 的目的電腦所需的預設 DCOM 模擬、驗證和驗證服務設定。 如需詳細資訊，請參閱保護遠端 WMI 連接。
 
@@ -46,7 +46,7 @@ WMI 具有預設 DCOM 模擬、驗證和驗證服務 (遠端系統所需的 NTLM
 
  
 
-WMI 遠端連線受 (UAC) 和[Windows 防火牆](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx)的[使用者帳戶控制](/previous-versions/aa905108(v=msdn.10))影響。 如需詳細資訊，請參閱 [從 Vista 遠端連線至 WMI](connecting-to-wmi-remotely-starting-with-vista.md) ，並 [透過 Windows 防火牆進行連接](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)。
+WMI 遠端連線會受到[使用者帳戶控制 (UAC) ](/previous-versions/aa905108(v=msdn.10))和[Windows 防火牆](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx)的影響。 如需詳細資訊，請參閱[從 Vista 遠端連線至 WMI](connecting-to-wmi-remotely-starting-with-vista.md) ，並[透過 Windows 防火牆進行連接](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)。
 
 請注意，連接到本機電腦上的 WMI 具有預設的驗證層級 **PktPrivacy**。
 
@@ -89,7 +89,7 @@ WMI 中的安全性與連接至 WMI 命名空間有關。 WMI 使用 DCOM 來處
 
 **設定遠端啟用許可權**
 
-1.  使用 WMI 控制連接到遠端電腦。
+1.  使用 WMI 控制連線到遠端電腦。
 
     如需 WMI 控制項的詳細資訊，請參閱 [使用 Wmi 控制項設定命名空間安全性](setting-namespace-security-with-the-wmi-control.md)。
 

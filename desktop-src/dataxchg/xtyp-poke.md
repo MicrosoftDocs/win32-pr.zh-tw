@@ -3,7 +3,7 @@ title: 'XTYP_POKE 交易 (Ddeml .h) '
 description: 用戶端會使用 XTYP \_ 請求交易，將未經要求的資料傳送到伺服器。 當用戶端在 DdeClientTransaction 函式中指定 XTYP 時，動態資料交換 (DDE) server 回呼函式 DdeCallback 會接收此交易 \_ 。
 ms.assetid: 63c6115e-24f8-4f35-8397-8be63110b21f
 keywords:
-- XTYP_POKE 交易資料交換
+- XTYP_POKE 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e538f72b7a736ed9be5cf3e1d83e8729f42ef83d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a179f4130ae06c4548b52586d6086201c2d832a158cef877d9aaf524160f4b16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914748"
 ---
 # <a name="xtyp_poke-transaction"></a>XTYP \_ 記錄
 
@@ -109,7 +109,7 @@ ms.locfileid: "103934287"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

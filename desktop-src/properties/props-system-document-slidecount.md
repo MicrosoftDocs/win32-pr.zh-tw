@@ -4,16 +4,16 @@ ms.assetid: 77ad2da3-7927-40d5-8a62-213f88cb724e
 title: System.Doc>ument。SlideCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84e00e574a3c0d9a061dae70e8dbfa8de7f853d9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4828c900de9b6e6a0fac24704e784a92eea2f72fc482d112017515fcc42a9869
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118053450"
 ---
 # <a name="systemdocumentslidecount"></a>System.Doc>ument。SlideCount
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

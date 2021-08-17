@@ -4,12 +4,12 @@ ms.assetid: 71c567f7-fffa-4b75-897a-63ed30c4c9b0
 title: 回送記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 374da7497096118905f5e4c79bbacda832a42a7b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7aa5ffe48bf11ad57b02085ab00dfd1ca09be0f72a56935cbd8d1bb40543033f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118005271"
 ---
 # <a name="loopback-recording"></a>回送記錄
 
@@ -27,7 +27,7 @@ WASAPI 會提供回送模式，主要是為了支援 (AEC) 的聲場回應取消
 -   在 [**IMMDeviceEnumerator：： GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) 方法的呼叫中，將 (*資料流程*) 的第一個參數從 eCapture 變更為 eRender。
 -   在 [**IAudioClient：： Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) 方法的呼叫中，將第二個參數的值 (*StreamFlags*) 從0變更為 AUDCLNT \_ StreamFlags \_ 回送。
 
-在 Windows 10 1703 之前的 Windows 版本中，提取模式捕捉用戶端不會在使用事件驅動緩衝來初始化資料流程時接收任何事件，而且會啟用回送功能。 若要解決這個問題，請在事件驅動模式中初始化轉譯資料流程。 每次用戶端收到轉譯資料流程的事件時，必須通知 capture 用戶端執行捕獲執行緒，以從 capture 端點緩衝區讀取下一組範例。 在 Windows 10 1703 和更新版本中，支援事件驅動的回送用戶端，而且不再需要涉及轉譯資料流程的因應措施。  
+在 Windows 10 1703 之前的 Windows 版本中，提取模式捕獲用戶端不會在使用事件驅動緩衝來初始化資料流程時接收任何事件，而且會啟用回送功能。 若要解決這個問題，請在事件驅動模式中初始化轉譯資料流程。 每次用戶端收到轉譯資料流程的事件時，必須通知 capture 用戶端執行捕獲執行緒，以從 capture 端點緩衝區讀取下一組範例。 在 Windows 10 1703 和更新版本中，支援事件驅動的回送用戶端，而且不再需要涉及轉譯資料流程的因應措施。  
 
 用戶端只能針對共用模式串流啟用回送模式， (AUDCLNT \_ SHAREMODE \_ 共用) 。 獨佔模式資料流程無法在回送模式下運作。
 
@@ -53,7 +53,7 @@ WASAPI 回送的執行取決於硬體的功能。 如果硬體支援轉譯端點
 
 例如，如果您選取要做為預設捕獲裝置的硬體回送裝置，則可以使用 RecordAudioStream 函式 (而不需要修改) 在 [捕捉串流](capturing-a-stream.md) 以從裝置捕獲串流的程式碼範例中。  (您也可以使用舊版音訊 API （例如 Windows 多媒體 **waveInXxx** 函式），從裝置捕獲串流。 ) 
 
-如果您的音訊介面卡包含硬體回送裝置，您可以使用 [Windows 多媒體] 控制台 Mmsys.cpl，將裝置指定為預設的擷取裝置。 步驟如下：
+如果您的音訊介面卡包含硬體回送裝置，您可以使用 Windows 多媒體控制台 Mmsys.cpl，將裝置指定為預設的擷取裝置。 步驟如下：
 
 1.  若要執行 Mmsys.cpl，請開啟命令提示字元視窗，然後輸入下列命令：
 
@@ -71,7 +71,7 @@ WASAPI 回送的執行取決於硬體的功能。 如果硬體支援轉譯端點
 
 無論音訊硬體是否包含回送裝置，或使用者是否已啟用裝置，WASAPI 都支援回送記錄。
 
-Windows Vista 提供 (DRM) 的數位版權管理。 內容提供者依賴 DRM 保護其專屬音樂或其他內容，防止未經授權的複製和其他非法用途。 同樣地，受信任音訊驅動程式不允許回送裝置捕獲包含受保護內容的數位串流。 Windows Vista 只允許信任的驅動程式播放受保護的內容。 如需有關信任的驅動程式和 DRM 的詳細資訊，請參閱 Windows DDK 檔。
+WindowsVista 提供 (DRM) 的數位版權管理。 內容提供者依賴 DRM 保護其專屬音樂或其他內容，防止未經授權的複製和其他非法用途。 同樣地，受信任音訊驅動程式不允許回送裝置捕獲包含受保護內容的數位串流。 WindowsVista 只允許信任的驅動程式播放受保護的內容。 如需有關信任的驅動程式和 DRM 的詳細資訊，請參閱 Windows DDK 檔。
 
 無論音訊源自何種終端機服務會話，WASAPI 回送都包含所有播放中音訊的混合。 例如，您可以在會話0執行的服務中執行回送用戶端，並從所有使用者會話捕獲音訊，以及從會話0播放音訊。
 

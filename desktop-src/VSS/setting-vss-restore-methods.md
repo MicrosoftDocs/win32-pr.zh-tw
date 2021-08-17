@@ -4,12 +4,12 @@ ms.assetid: b1f948cd-d3b0-4637-b76d-b54a74bb5948
 title: 設定 VSS 還原方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 412cb699fb791a973e280f63fec03bd2854ccd1d
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 27f7b0d138555b1e10dba55483c694c08a649e97e59cb66ed65c1a276187d3c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104195655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751719"
 ---
 # <a name="setting-vss-restore-methods"></a>設定 VSS 還原方法
 

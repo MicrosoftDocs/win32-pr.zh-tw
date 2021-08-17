@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 4e8a14fcecf0ded2e4e1a56e2b98e4ac4838b776
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1de500d10d6bd5493492b62a2abb618be3cdb19d48a89beaf7ab83d55a86ac28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117972295"
 ---
 # <a name="store-object"></a>存放區物件
 
@@ -44,7 +44,7 @@ Store 物件提供屬性和方法，您可以使用這些屬性和方法來選�
 | [**添加**](store-add.md)       | 將 [**憑證**](certificate.md) 物件新增至開啟的憑證存放區。<br/>                                                                                                                       |
 | [**關閉**](store-close.md)   | 關閉開啟的憑證存放區。<br/> **CAPICOM 2.0.0.3 和更早版本：** 不支援 [**Close**](store-close.md) 方法。<br/>                                                               |
 | [**刪除**](store-delete.md) | 刪除目前 [**存放區**](certificate.md) 物件所代表的憑證存放區。<br/> **CAPICOM 2.0.0.3 和更早版本：** 不支援 [**Delete**](store-delete.md) 方法。<br/> |
-| [**出口**](store-export.md) | 匯出編碼 [*BLOB*](../secgloss/b-gly.md)的存放區。<br/>                                                                                                       |
+| [**匯出**](store-export.md) | 匯出編碼 [*BLOB*](../secgloss/b-gly.md)的存放區。<br/>                                                                                                       |
 | [**匯入**](store-import.md) | 匯入先前匯出的存放區。<br/>                                                                                                                                                                  |
 | [**載入**](store-load.md)     | 從檔案將 [**憑證**](certificate.md) 物件匯入存放區。<br/>                                                                                                                        |
 | [**打開**](store-open.md)     | 開啟憑證存放區。<br/>                                                                                                                                                                            |
@@ -60,11 +60,11 @@ Store 物件提供屬性和方法，您可以使用這些屬性和方法來選�
 
 
 
-| 屬性                                              | 存取類型          | Description                                                                                                                                                                                           |
+| 屬性                                              | 存取類型          | 描述                                                                                                                                                                                           |
 |:------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**憑證**](store-certificates.md)<br/> | 唯讀<br/> | 抓取存放區的 [**憑證**](certificates.md) 集合。 這是預設屬性。<br/>                                                                                  |
-| [**Location**](store-location.md)<br/>         | 唯讀<br/> | 抓取此物件所代表之憑證存放區的位置。<br/> **CAPICOM 2.0.0.3 和更早版本：** 不支援 [**Location**](store-location.md) 屬性。<br/> |
-| [**Name**](store-name.md)<br/>                 | 唯讀<br/> | 抓取此物件所代表的憑證存放區名稱。<br/> **CAPICOM 2.0.0.3 和更早版本：** 不支援 [**Name**](store-name.md) 屬性。<br/>             |
+| [**位置**](store-location.md)<br/>         | 唯讀<br/> | 抓取此物件所代表之憑證存放區的位置。<br/> **CAPICOM 2.0.0.3 和更早版本：** 不支援 [**Location**](store-location.md) 屬性。<br/> |
+| [**名稱**](store-name.md)<br/>                 | 唯讀<br/> | 抓取此物件所代表的憑證存放區名稱。<br/> **CAPICOM 2.0.0.3 和更早版本：** 不支援 [**Name**](store-name.md) 屬性。<br/>             |
 
 
 

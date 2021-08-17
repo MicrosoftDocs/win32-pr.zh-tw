@@ -4,12 +4,12 @@ ms.assetid: b5026566-89b5-458e-b36d-a55e5f8c10c1
 title: 'DXGI_USAGE (DXGI. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e55e99d86201c76fbe2ec229b13b5831d767ff34
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1d7bc0773794c6c2243d8a3171cbd6ffdafbe1cdd558e1198c2c8cc0b1a3440d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909929"
 ---
 # <a name="dxgi_usage"></a>DXGI \_ 使用量
 
@@ -17,7 +17,7 @@ ms.locfileid: "106976700"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                                     |
+| 常數/值                                                                                                                                                                                                                                                                                  | 描述                                                                                                                                                                                                                                                                                                                     |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DXGI_USAGE_BACK_BUFFER"></span><span id="dxgi_usage_back_buffer"></span><dl> <dt>**DXGI \_使用量 \_ 回 \_ 緩衝區**</dt> <dt>1L <<  (2 + 4)</dt> </dl>                             | 介面或資源會用來做為背景緩衝區。 當您建立交換鏈時，不需要將 **DXGI 的 \_ 使用方式傳遞 \_ 回 \_ 緩衝區** 。 但是，您可以在呼叫 [**IDXGIResource：： GetUsage**](/windows/desktop/api/DXGI/nf-dxgi-idxgiresource-getusage) 並取得 **DXGI \_ 使用方式 \_ \_ 緩衝區** 時，判斷資源是否屬於交換鏈。<br/> |
 | <span id="DXGI_USAGE_DISCARD_ON_PRESENT"></span><span id="dxgi_usage_discard_on_present"></span><dl> <dt>**DXGI \_\_ \_ 在 \_ 目前的1L 上使用捨棄**</dt> <dt> <<  (5 + 4)</dt> </dl>       | 此旗標僅供內部使用。<br/>                                                                                                                                                                                                                                                                                  |

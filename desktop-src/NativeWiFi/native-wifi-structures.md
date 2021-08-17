@@ -4,12 +4,12 @@ ms.assetid: b94ff899-2350-4f8b-b096-9d1c73e2b492
 title: 原生 Wifi 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ee8e5bd8b85ea252a85e7e673b4d0e7b3ae32b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b6d8ad63147915eb0d4eec1b8ae379938c92f4f47a799c95ccecc965f7ed647
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117798360"
 ---
 # <a name="native-wifi-structures"></a>原生 Wifi 結構
 

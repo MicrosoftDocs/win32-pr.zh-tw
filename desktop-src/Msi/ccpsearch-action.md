@@ -4,12 +4,12 @@ ms.assetid: 0aa7bf8b-de76-464d-8e7b-3aa4f609fe19
 title: CCPSearch 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8b1f01462ac0ba9dcf8838b9a043d95aef8cefe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 201af22dd557541825dcf2c47f06e7cf67cd8785fa85e0b78a28c25a570ffc89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145691"
 ---
 # <a name="ccpsearch-action"></a>CCPSearch 動作
 

@@ -9,12 +9,12 @@ keywords:
 - 路由表管理員第2版 RRAS，說明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5014dc894c4a517bfdfac8478e520658a4987d4a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c87228222f31daf7f951064d05c92d950a3fff0d570fcac3536887b50193b16b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792105"
 ---
 # <a name="about-routing-table-manager-version-2"></a>關於路由表管理員第2版
 
@@ -22,7 +22,7 @@ ms.locfileid: "104021570"
 
 路由表管理員是路由資訊的中央存放庫，適用于在 [路由及遠端存取服務] (RRAS) 下運作的所有路由通訊協定。
 
-Windows NT 4.0 版無法使用 RTMv2。 此外，RTMv2 不能用於在 Windows NT 4.0 或 Windows 2000 上執行的 IPX 路由通訊協定。 如果您使用的是 IPX 或正在撰寫 Windows NT 4.0 的路由通訊協定，請參閱 [關於路由表管理員第1版](about-routing-table-manager-version-1.md)。
+Windows NT 4.0 版無法使用 RTMv2。 此外，RTMv2 不能用於 Windows NT 4.0 或 Windows 2000 上執行的 IPX 路由通訊協定。 如果您使用的是 IPX 或正在撰寫 Windows NT 4.0 的路由通訊協定，請參閱[關於路由表管理員第1版](about-routing-table-manager-version-1.md)。
 
 本總覽將說明下列主題：
 
@@ -42,9 +42,9 @@ Windows NT 4.0 版無法使用 RTMv2。 此外，RTMv2 不能用於在 Windows N
 -   [維護 Client-Specific 清單](maintaining-client-specific-lists.md)
 -   [管理控制碼](managing-handles.md)
 
- 
+ 
 
- 
+ 
 
 
 

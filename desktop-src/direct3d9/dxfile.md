@@ -4,12 +4,12 @@ ms.assetid: 6e421a0a-7e82-4640-a96c-7ec648df970d
 title: DXFILE 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42b20ca9934b9a4203e05f477ea8c40853a0a836
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 04da06807b6347a1805920feb148408da0e5a76121ca48c648ad40cfb093bfc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117730179"
 ---
 # <a name="dxfile-constants"></a>DXFILE 常數
 

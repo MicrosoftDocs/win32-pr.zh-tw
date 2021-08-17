@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 3ee30112baf7813c983230fb90cd15ea7f52e2bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17ccb07a97112cab4390dc1eece2bf6fce51acf1c80244ed03253b5a2f6112b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132917"
 ---
 # <a name="irtcstart-method"></a>IRTC：： Start 方法
 
@@ -46,12 +46,12 @@ HRESULT STDMETHODCALLTYPE Start();
 
 
 
-| 傳回碼                                                                                           | Description                                                                                                                                           |
+| 傳回碼                                                                                           | 描述                                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ CAPTURE 已 \_ 暫停**</dt> </dl> | 捕捉處於暫停狀態，必須先停止，才能重新開機。 呼叫 [IRTC：： stop](idelaydc-stop.md) 以停止捕捉。<br/> |
 | <dl> <dt>**NMERR \_ 捕獲**</dt> </dl>       | 已啟動 capture。<br/>                                                                                                            |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫 [IRTC：： connect](irtc-connect.md) 以將 NPP 連接到網路。<br/>                         |
-| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>   | NPP 已連接到網路，但不是使用 [IRTC：： Connect](irtc-connect.md) 方法。<br/>                                             |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫[IRTC：：連線](irtc-connect.md)將 NPP 連接到網路。<br/>                         |
+| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>   | NPP 是連接到網路，但不是使用[IRTC：：連線](irtc-connect.md)方法。<br/>                                             |
 
 
 
@@ -89,7 +89,7 @@ HRESULT STDMETHODCALLTYPE Start();
 [IRTC：： Configure](irtc-configure.md)
 </dt> <dt>
 
-[IRTC：： Connect](irtc-connect.md)
+[IRTC：：連線](irtc-connect.md)
 </dt> <dt>
 
 [IRTC：:P ause](irtc-pause.md)

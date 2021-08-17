@@ -4,12 +4,12 @@ ms.assetid: ea4e698c-4a4c-4266-96e0-870dc5709a72
 title: IUpdateHistoryEntry 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da3acdc9ed32c35028a253944d434c23231c5b6d
-ms.sourcegitcommit: aab10824ee4883c70e1afba428b679a17915a5aa
+ms.openlocfilehash: 0e5c6951857f72f4a9ee4f86cd29d42e024e05b87d58d589043f5a40e951d4c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "106986719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738267"
 ---
 # <a name="iupdatehistoryentry-properties"></a>IUpdateHistoryEntry 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106986719"
 | [**操作**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_operation)                     | 取得 [**character**](/windows/win32/api/wuapi/ne-wuapi-updateoperation) 值，這個值會指定更新的作業。                      |
 | [**ResultCode**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_resultcode)                   | 取得 [**OperationResultCode**](/windows/win32/api/wuapi/ne-wuapi-operationresultcode) 值，這個值會指定更新的作業結果。 |
 | [**Serverselection.sqlpolicy**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_serverselection)         | 取得 [**serverselection.sqlpolicy**](/openspecs/windows_protocols/ms-uamg/07e2bfa4-6795-4189-b007-cc50b476181a) 值，指出提供更新的伺服器。                |
-| [**ServiceID**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_serviceid)                     | 取得不是 Windows update 之更新服務的服務識別碼。                                           |
+| [**ServiceID**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_serviceid)                     | 取得不是 Windows 更新之更新服務的服務識別碼。                                           |
 | [**SupportUrl**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_supporturl)                   | 取得更新的語言特定支援資訊的超連結。                                             |
 | [**標題**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_title)                             | 取得更新的標題。                                                                                             |
 | [**UninstallationNotes**](/windows/win32/api/wuapi/nf-wuapi-iupdatehistoryentry-get_uninstallationnotes) | 取得更新的卸載附注。                                                                              |

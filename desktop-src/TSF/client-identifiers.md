@@ -10,12 +10,12 @@ keywords:
 - 用戶端識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9de15b208d2fbc6c6ea5c2a1114eb5cb23ff12ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f37b230eed1f47ad3e31a5831bddaf8634837c1173806deb084c1e3a4d08790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117953906"
 ---
 # <a name="client-identifiers"></a>用戶端識別碼
 
@@ -37,9 +37,9 @@ ms.locfileid: "103932031"
 [ITfTextInputProcessor：： Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

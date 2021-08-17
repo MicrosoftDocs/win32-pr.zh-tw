@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d758c1768425ecb736096d59a49133ff4c8918c4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 10578bbf22aa2cb0e3415715999018db4a3aefd39933cd802e1abbc196d5b706
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106986479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795602"
 ---
 # <a name="glnormal3bv-function"></a>glNormal3bv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glNormal3bv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 三個元素的陣列指標：新的目前一般標準的 x、y 和 z 座標。

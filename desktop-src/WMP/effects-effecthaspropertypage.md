@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c60cef0e79238a07d5ba46c5ea097f6fd9d683c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47b0c900257af5c9cda7b0a0bb21040b47b49792293033d89c82284e479fb182
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749220"
 ---
 # <a name="effectseffecthaspropertypage"></a>效果。 effectHasPropertyPage
 

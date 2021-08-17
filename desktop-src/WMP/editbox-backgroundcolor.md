@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebfd247cec4669da8748fb5986087eff25696de0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afafb7158dcc35d0449886b1ebd2f2cac5eaa06a94c01910ee43c5f66b6bccb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749449"
 ---
 # <a name="editboxbackgroundcolor"></a>編輯方塊. backgroundColor
 
@@ -29,7 +29,7 @@ ms.locfileid: "106993420"
 
 ## <a name="possible-values"></a>可能的值
 
-這個屬性是包含任何 Microsoft Internet Explorer 色彩值或值為 "none" 的讀取/寫入 **字串** 。 其預設值等於 Windows 中的背景色彩。
+這個屬性是包含任何 Microsoft Internet Explorer 色彩值或值為 "none" 的讀取/寫入 **字串** 。 它的預設值等於 Windows 中的背景色彩。
 
 ## <a name="requirements"></a>規格需求
 
@@ -37,7 +37,7 @@ ms.locfileid: "106993420"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

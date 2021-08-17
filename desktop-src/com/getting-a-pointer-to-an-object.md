@@ -4,12 +4,12 @@ description: 取得物件的指標
 ms.assetid: 4af9d356-402b-4e69-9f6e-8589057d3ac4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0476d36390e7077e7fdd75eef8d95e8173683891
-ms.sourcegitcommit: 307b14e9847ced354a52a1ac12d7f659722d99bb
+ms.openlocfilehash: fc588518d5c3da884755d7db122738ca2fca257d76a1f8219867da357ef8444f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "106991099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736697"
 ---
 # <a name="getting-a-pointer-to-an-object"></a>取得物件的指標
 
@@ -48,9 +48,9 @@ ms.locfileid: "106991099"
 [COM 伺服器責任](com-server-responsibilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

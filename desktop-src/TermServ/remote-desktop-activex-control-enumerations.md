@@ -5,12 +5,12 @@ ms.assetid: C4EBA996-B3C7-492B-A6B7-96A3EC1847B2
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb2313cdc429fd39366a38f9596298a94e24e65b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f5880ff690e93d3a18337347b964aae421bff5acc95c5ec4859e597bc307822e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117756179"
 ---
 # <a name="remote-desktop-activex-control-enumerations"></a>遠端桌面 ActiveX 控制項列舉
 
@@ -90,6 +90,6 @@ ms.locfileid: "104463329"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

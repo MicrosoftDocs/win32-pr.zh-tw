@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e9aad9828a92d67f2e7411aa534103696d913934
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec5c83bb78528a61bbe7af9bafa59567100ee9da669915b96230bfb97b8bf390
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117891114"
 ---
 # <a name="jetreadfileinstance-function"></a>JetReadFileInstance 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetreadfileinstance-function"></a>JetReadFileInstance 函式
 
 **JetReadFileInstance** 函式會抓取以 [JetOpenFileInstance](./jetopenfileinstance-function.md)函式開啟之檔案的內容。
 
-**Windows** xp：   **JetReadFileInstance** 是在 windows xp 中引進的。
+**Windows xp**： **JetReadFileInstance** 是在 Windows xp 引進。
 
 ```cpp
     JET_ERR JET_API JetReadFileInstance(
@@ -52,9 +52,9 @@ _**適用于：** Windows |Windows Server_
 
 要用於特定 API 呼叫的實例。
 
-請注意，對於 Windows 2000，無法使用接受此參數的 API 變體，因為只支援一個實例。 在此情況下，這種全域實例的使用是隱含的。
+請注意，在 Windows 2000 中，無法使用接受此參數的 API 變體，因為只支援一個實例。 在此情況下，這種全域實例的使用是隱含的。
 
-若為 Windows XP 和更新版本，您可以呼叫 API 變數，此變數不會在引擎處於舊版模式時，才接受此參數 (Windows 2000 相容性模式) 在只支援一個實例的情況下。 否則，作業將會失敗，並傳回 JET_errRunningInMultiInstanceMode 錯誤。
+針對 Windows XP 和更新版本，您可以呼叫不接受此參數的 API 變異（只有當引擎處於舊版模式時） (Windows 2000 相容性模式) 的情況下，只有一個實例支援。 否則，作業將會失敗，並傳回 JET_errRunningInMultiInstanceMode 錯誤。
 
 *hfFile*
 
@@ -74,7 +74,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函式可協助您傳回可延伸儲存引擎中所定義之任何 [JET_ERR](./jet-err.md) 資料類型， (ESE) API。 如需有關 JET 錯誤的詳細資訊，請參閱 [可擴充儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函式可協助您傳回可延伸儲存體引擎中所定義之任何[JET_ERR](./jet-err.md)資料類型 (ESE) API。 如需有關 JET 錯誤的詳細資訊，請參閱[可擴展儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -94,7 +94,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errBackupAbortByServer</p></td>
-<td><p>作業失敗，因為目前的外部備份已被 <a href="gg269240(v=exchg.10).md">JetStopService</a> 函數的呼叫中止。 只有 Windows XP 和更新版本的 Windows 會傳回這個錯誤。</p></td>
+<td><p>作業失敗，因為目前的外部備份已被 <a href="gg269240(v=exchg.10).md">JetStopService</a> 函數的呼叫中止。 只有 Windows XP 及更新版本的 Windows 版本才會傳回此錯誤。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errClientRequestToStopJetService</p></td>
@@ -102,20 +102,20 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errInstanceUnavailable</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，要求撤銷所有資料的存取權，以保護該資料的完整性。 只有 Windows XP 和更新版本的 Windows 會傳回這個錯誤。</p></td>
+<td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，要求撤銷所有資料的存取權，以保護該資料的完整性。 只有 Windows XP 及更新版本的 Windows 版本才會傳回此錯誤。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidParameter</p></td>
 <td><p>其中一個指定的參數包含未預期的值，或與另一個參數的值結合時沒有意義的值。 當發生下列任何情況時， <strong>JetReadFileInstance</strong> 函式可能會發生這種情況：</p>
 <ul>
-<li><p>指定的實例控制碼無效。 Windows XP 及更新版本的 Windows 版本。</p></li>
-<li><p>輸出緩衝區大小不是資料庫頁面大小的倍數 (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>) 。 Windows XP 及更新版本的 Windows 版本。</p></li>
-<li><p>輸出緩衝區大小小於三個資料庫頁面 (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>) ，而這是指定之控制碼的第一次呼叫 <strong>JetReadFileInstance</strong> 函數。 Windows XP 及更新版本的 Windows 版本。</p></li>
+<li><p>指定的實例控制碼無效。 WindowsXP 和更新版本的 Windows 版本。</p></li>
+<li><p>輸出緩衝區大小不是資料庫頁面大小的倍數 (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>) 。 WindowsXP 和更新版本的 Windows 版本。</p></li>
+<li><p>輸出緩衝區大小小於三個資料庫頁面 (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>) ，而這是指定之控制碼的第一次呼叫 <strong>JetReadFileInstance</strong> 函數。 WindowsXP 和更新版本的 Windows 版本。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>JET_errLogReadVerifyFailure</p></td>
-<td><p>作業失敗，因為讀取交易記錄檔時偵測到無法復原的資料損毀。 只有 Windows XP 和更新版本的 Windows 會傳回這個錯誤。</p></td>
+<td><p>作業失敗，因為讀取交易記錄檔時偵測到無法復原的資料損毀。 只有 Windows XP 及更新版本的 Windows 版本才會傳回此錯誤。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errNoBackup</p></td>
@@ -135,7 +135,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>作業失敗，因為嘗試在舊版模式中使用引擎 (Windows 2000 相容性模式) 在只支援一個實例，但已有多個實例存在的情況下。</p></td>
+<td><p>作業失敗，因為嘗試在舊版模式中使用引擎 (Windows 2000 相容性模式) 如果只支援一個實例，但已有多個實例存在。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -147,7 +147,7 @@ _**適用于：** Windows |Windows Server_
 
 成功時，會將檔案中的下一個資料區塊讀入輸出緩衝區。 也會傳回實際抓取的位元組數目。 進行下一次讀取的檔案位移將會依此數量前進。
 
-失敗時，輸出緩衝區的狀態是未定義的。 失敗會導致取消目前實例的整個備份進程。 在 Windows XP 和更新版本的 Windows 版本中，如果在讀取資料庫檔案時發生錯誤，則不會取消備份。 不過，仍會取消該資料庫檔案的備份，而且對應的控制碼將會自動關閉。
+失敗時，輸出緩衝區的狀態是未定義的。 失敗會導致取消目前實例的整個備份進程。 在 Windows XP 及更新版本的 Windows 版本中，如果在讀取資料庫檔案時發生錯誤，則不會取消備份。 不過，仍會取消該資料庫檔案的備份，而且對應的控制碼將會自動關閉。
 
 #### <a name="remarks"></a>備註
 
@@ -179,7 +179,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>伺服器</p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p>標頭</p></td>

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f5b6eeaf8d728cf63304141614caaf9598bcc6c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b7ea09ae36160fc83fbee4dc3b7f94222f55125b992039aa15035c1d958c696
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117718716"
 ---
 # <a name="apijetmove-method-jet_sesid-jet_tableid-jet_move-movegrbit"></a>JetMove 方法 (JET_SESID、JET_TABLEID、JET_Move、MoveGrbit) 
 

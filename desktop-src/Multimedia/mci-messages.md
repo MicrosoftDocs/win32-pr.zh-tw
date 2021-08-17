@@ -7,12 +7,12 @@ keywords:
 - MCI 參考，訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 189a5fd6197df8deee736752cc474968fe28b6ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2561411afba88f58de49ddd76375ae71c4f20dbd5c40509b0934fa23f30e5536
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803540"
 ---
 # <a name="mci-messages"></a>MCI 訊息
 
@@ -28,9 +28,9 @@ ms.locfileid: "106968455"
 [MCI 參考](mci-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

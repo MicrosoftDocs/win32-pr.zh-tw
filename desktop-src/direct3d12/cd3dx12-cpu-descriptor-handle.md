@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d1045202c531aa200745fc89ed067628a175486
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c7e6fd6ba75caccf19f3782e0c39581d1e652de0c4187c3c5a203bb5f3b7ceec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117913075"
 ---
 # <a name="cd3dx12_cpu_descriptor_handle-structure"></a>CD3DX12 \_ CPU \_ 描述項 \_ 控制碼結構
 

@@ -4,12 +4,12 @@ description: 連結化物件（例如内嵌物件）會依賴物件處理常式�
 ms.assetid: f72557b9-cd24-4d96-8144-94a5344ec2ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7c14f4cc74ee84fbf745e730d77203ebb4f43b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4fb8107a5c98ae407cc8e6198d782f75b092110232ae23f41a42dcaefae31758
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736491"
 ---
 # <a name="linked-objects-and-monikers"></a>連結的物件和名字
 
@@ -38,9 +38,9 @@ ms.locfileid: "104184011"
 [物件處理常式](object-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

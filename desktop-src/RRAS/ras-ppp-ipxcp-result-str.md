@@ -1,6 +1,6 @@
 ---
 title: 'RAS_PPP_IPXCP_RESULT 結構 (Rassapi .h) '
-description: RAS \_ ppp \_ IPXCP \_ 結果結構是用來報告通訊埠的 PPP 網際網路封包交換 (IPX) 投影作業的結果。
+description: RAS \_ ppp \_ IPXCP \_ 結果結構是用來報告通訊埠的 Exchange (IPX) 投射作業的 PPP 網際網路封包的結果。
 ms.assetid: e1236e1b-f0ef-46cf-a12f-35529215752c
 keywords:
 - RAS_PPP_IPXCP_RESULT 結構 RAS
@@ -14,18 +14,18 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bb7ca4d006bd1a1df5a645799998b463c0b14f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8bc79b7700fc47176928688b517377f5e02903da04841b50949937448065086d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789602"
 ---
 # <a name="ras_ppp_ipxcp_result-structure"></a>RAS \_ PPP \_ IPXCP \_ 結果結構
 
 \[Windows Vista 不支援 **RAS \_ PPP \_ IPXCP \_ 結果** 結構。\]
 
-**RAS \_ ppp \_ IPXCP \_ 結果** 結構是用來報告通訊埠的 PPP 網際網路封包交換 (IPX) 投影作業的結果。
+**RAS \_ ppp \_ IPXCP \_ 結果** 結構是用來報告通訊埠的 Exchange (IPX) 投射作業的 PPP 網際網路封包的結果。
 
 ## <a name="syntax"></a>語法
 

@@ -1,19 +1,19 @@
 ---
-description: Windows 所提供的函式會執行下列工作：
+description: Windows 提供可執行下列工作的函式：
 ms.assetid: 437419c7-d6c5-4cae-b5d0-d552c75d4448
 title: 物件介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9adc85eafdcfe4bb573d3e156b20f9b74dbf0652
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3db15a60d88b8258f5959d2bf4cf447496cbe97ae906bdf087fe316f449b276
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763987"
 ---
 # <a name="object-interface"></a>物件介面
 
-Windows 所提供的函式會執行下列工作：
+Windows 提供可執行下列工作的函式：
 
 -   建立物件
 -   取得物件控制碼

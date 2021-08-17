@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 59e90e899e8084f7fbc6b0b6f11067061eaa807b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe76f0b0b92286d5a4b7db5126706fd55bdb6f580c11fda1dcaa55a47be4678c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129167"
 ---
 # <a name="irdvtaskplugin-interface"></a>IRDVTaskPlugin 介面
 
@@ -55,7 +55,7 @@ ms.locfileid: "103935061"
 
 
 
-| 屬性                                                   | 存取類型          | Description                                             |
+| 屬性                                                   | 存取類型          | 描述                                             |
 |:-----------------------------------------------------------|:---------------------|:--------------------------------------------------------|
 | [**PluginName**](irdvtaskplugin-pluginname.md)<br/> | 唯讀<br/> | 包含工作代理程式的顯示名稱。<br/> |
 
@@ -75,9 +75,9 @@ ms.locfileid: "103935061"
 
 
 
-| 名稱                     | 類型                      | Description                                                                   |
+| 名稱                     | 類型                      | 描述                                                                   |
 |--------------------------|---------------------------|-------------------------------------------------------------------------------|
-| **Clsid**<br/>     | **REG \_ SZ**<br/>    | 表示工作代理程式 **CLSID** 的字串。<br/>          |
+| **CLSID**<br/>     | **REG \_ SZ**<br/>    | 表示工作代理程式 **CLSID** 的字串。<br/>          |
 | **IsEnabled**<br/> | **REG \_ DWORD**<br/> | 如果工作代理程式已停用，則為 0; 如果工作代理程式已啟用，則為1。<br/> |
 
 

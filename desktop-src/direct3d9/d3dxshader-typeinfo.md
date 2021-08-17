@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: 71b9cc893cdcfdc9802aca173627cd9da4f9ca4b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2bd62cfc3531442f815a16148e23c281735f29e7097e5aa2b55fb03b0c0341c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731266"
 ---
 # <a name="d3dxshader_typeinfo-structure"></a>D3DXSHADER \_ TYPEINFO 結構
 
@@ -56,7 +56,7 @@ typedef struct D3DXSHADER_TYPEINFO {
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 類型： **[ **WORD**](../winprog/windows-data-types.md)**

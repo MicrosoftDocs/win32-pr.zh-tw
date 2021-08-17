@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b08ed785c24ba9580be0fc7f620a471ea96184a8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a62d96181b4242073b9e6a2176d841add86cbfeab4238bfb4cbb538bfd88e1e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117730726"
 ---
 # <a name="d3dxvec4hermite-function-d3dx9mathh"></a>D3DXVec4Hermite 函式 (D3dx9math) 
 

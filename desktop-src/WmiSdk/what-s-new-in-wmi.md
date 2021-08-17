@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: WMI 有哪些新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e60c096cf72fe3ee48559c95b6ba643fa46b1f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bec41c28985090368e9f16e0f75c663ca2b811db44ece6e930e04bb1dd2c8c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117921238"
 ---
 # <a name="whats-new-in-wmi"></a>WMI 的新功能
 
-## <a name="new-security-feature-in-windows-7"></a>Windows 7 的新安全性功能
+## <a name="new-security-feature-in-windows-7"></a>Windows 7 中的新安全性功能
 
-以下列出 Windows 7 提供的新 Windows Management Instrumentation (WMI) 安全性功能。
+以下列出 Windows 7 提供的 (WMI) 安全性功能的新 Windows Management Instrumentation。
 
 <dl> <dt>
 
@@ -29,9 +29,9 @@ ms.locfileid: "106975515"
 
 ## <a name="new-or-updated-features-in-windows-8"></a>Windows 8 中新增或更新的功能
 
-Windows Management Instrumentation 的主要更新是下一代 WMI 版本的完整版本，稱為 Windows 管理基礎結構 (MI) 。 MI 與舊版 WMI 完全相容，並提供一系列的功能和優點，讓設計和開發提供者和用戶端比以往更容易。 如需 MI 的詳細資訊，請參閱 [mi 的新功能？](/previous-versions/windows/desktop/wmi_v2/what-s-new-in-mi)
+Windows Management Instrumentation 的主要更新是下一代的 WMI 版本（稱為 Windows 管理基礎結構 (MI) ）的完整版本。 MI 與舊版 WMI 完全相容，並提供一系列的功能和優點，讓設計和開發提供者和用戶端比以往更容易。 如需 MI 的詳細資訊，請參閱 [mi 的新功能？](/previous-versions/windows/desktop/wmi_v2/what-s-new-in-mi)
 
-如需舊版作業系統版本中 WMI 新功能的詳細資訊，請參閱 [windows 7 的新](what-s-new-in-windows-7.md)功能，以及 [Windows Vista 的新](what-s-new-in-windows-vista.md)功能。
+如需舊版作業系統版本中 WMI 新功能的詳細資訊，請參閱[Windows 7 的新](what-s-new-in-windows-7.md)功能，以及[Windows Vista 的新](what-s-new-in-windows-vista.md)功能。
 
 ## <a name="related-topics"></a>相關主題
 

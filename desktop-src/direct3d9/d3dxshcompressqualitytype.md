@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: d61c70317505442ca4911a13dac8566f9bd7c6fb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 482483bb38c708c9b09004d48bd4f1e1e0ec0e4b9463a6d20f210b4fe8b1d44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731276"
 ---
 # <a name="d3dxshcompressqualitytype-enumeration"></a>D3DXSHCOMPRESSQUALITYTYPE 列舉
 

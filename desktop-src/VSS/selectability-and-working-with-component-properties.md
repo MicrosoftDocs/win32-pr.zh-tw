@@ -4,12 +4,12 @@ ms.assetid: ede51931-be50-4286-818b-0e6122247bdd
 title: Selectability 和使用元件屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83d06683bafb02802d84f152f1ceb662eb7491f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a735481d4bd0d7fdaa4102026b74ca78be947afbab24858d88d9210dd7bd4e6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751650"
 ---
 # <a name="selectability-and-working-with-component-properties"></a>Selectability 和使用元件屬性
 

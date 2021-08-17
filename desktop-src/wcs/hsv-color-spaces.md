@@ -3,8 +3,8 @@ title: HSV 色彩空間
 description: 演出者通常會使用色調、飽和度和值 (HSV) 色彩空間。
 ms.assetid: a2ee9f29-0b81-4edc-8af8-f4df765e9952
 keywords:
-- Windows Color System (WCS) ，HSV 色彩空間
-- WCS (Windows 色彩系統) ，HSV 色彩空間
+- Windows色彩系統 (WCS) 、HSV 色彩空間
+- WCS (Windows 色彩系統) 、HSV 色彩空間
 - 影像色彩管理、HSV 色彩空間
 - 色彩管理，HSV 色彩空間
 - 色彩，HSV 色彩空間
@@ -12,7 +12,7 @@ keywords:
 - HSV 色彩空間
 - 色調
 - 飽和
-- value
+- 值
 - 亮度
 - 零飽和度
 - '色調飽和度值 (HSV) '
@@ -20,12 +20,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4135e9c30dd69b8c5add5d9d8e6d784127ebaec9
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 30596e1f2d49e2ff3f15e2c5368f2c488640b6c26e00b38741aeb13f055d4ebe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "104571443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851926"
 ---
 # <a name="hsv-color-spaces"></a>HSV 色彩空間
 

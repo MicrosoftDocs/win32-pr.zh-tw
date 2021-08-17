@@ -4,12 +4,12 @@ ms.assetid: c8c36abf-6905-4874-a6d2-90dd0725421b
 title: 'MF_MT_MPEG4_CURRENT_SAMPLE_ENTRY 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c1f2a43eef1a520a49f5cfbb889f13149fa249
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 660f74c1f9335556b514607cc2100f7ef59a00fba84f6cfe90412b91e1ff500a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877032"
 ---
 # <a name="mf_mt_mpeg4_current_sample_entry-attribute"></a>MF \_ MT \_ MPEG4 \_ 目前的 \_ 範例 \_ 專案屬性
 
@@ -46,7 +46,7 @@ MPEG-2 檔案來源一律會將值設定為0。 3GP 檔接收會忽略這個屬�
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 
