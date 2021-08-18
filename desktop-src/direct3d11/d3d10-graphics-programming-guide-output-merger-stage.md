@@ -6,12 +6,12 @@ keywords:
 - " (Direct3D 10) 的輸出合併階段"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8de2851fdea3a22cc42033d2c13454be72ba8ab
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: c56566e6c193af2ea41c2553d4dffe9a6a9b673f53e21dba9b75b3dfb3f0cd2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752418"
 ---
 # <a name="output-merger-stage"></a>輸出合併階段
 

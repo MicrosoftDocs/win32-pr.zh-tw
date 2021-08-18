@@ -4,12 +4,12 @@ ms.assetid: e0ca356e-f8c1-4845-ae1e-ce2ae8987515
 title: '處理國際化功能變數名稱 (IDNs) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95e853f0ea3f62fc3e5ee848431417cc031eaa5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6310cf74e39758dc6974a1247fe9a5b506276f5c3da55d546d6bc6c2b5a8c992
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898580"
 ---
 # <a name="handling-internationalized-domain-names-idns"></a>處理國際化功能變數名稱 (IDNs) 
 
@@ -33,13 +33,13 @@ NLS 包含下列轉換函式，可讓您的應用程式用來將 IDN 轉換成�
 -   [**IdnToNameprepUnicode**](/windows/desktop/api/Winnls/nf-winnls-idntonameprepunicode)。 執行將 IDN 轉換成 ASCII 名稱的 NamePrep 部分。 此函數會建立字串的標準 Unicode 標記法。
 -   [**IdnToUnicode**](/windows/desktop/api/Winnls/nf-winnls-idntounicode)。 將 Punycode 字串轉換為一般 UTF-16 字串。
 
-NLS 也會定義數個 API 函式，可用來減輕一些 IDN 技術所呈現的安全性風險。 在 Windows Vista 和更新版本上，下列函式是用來驗證指定的 IDN 中的字元是否完全取自與特定地區設定或地區設定相關聯的腳本。 如需使用這些函數的範例，請參閱 [NLS：國際化功能變數名稱 (IDN) 緩和範例](nls--internationalized-domain-name--idn--mitigation-sample.md)。
+NLS 也會定義數個 API 函式，可用來減輕一些 IDN 技術所呈現的安全性風險。 在 Windows Vista 和更新版本上，下列函式會用來驗證指定的 IDN 中的字元是否完全取自與特定地區設定或地區設定相關聯的腳本。 如需使用這些函數的範例，請參閱 [NLS：國際化功能變數名稱 (IDN) 緩和範例](nls--internationalized-domain-name--idn--mitigation-sample.md)。
 
 -   [**GetStringScripts**](/windows/desktop/api/Winnls/nf-winnls-getstringscripts)。 提供特定字串中所使用的腳本清單。
 -   [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa)、 [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex)。 取出地區設定資訊。 使用 *LCType* 設定為 [LOCALE \_ SSCRIPTS](locale-sscripts.md) 的函式，可提供一般用於特定地區設定的腳本清單。
 -   [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts)。 比較腳本清單。 若要針對多個地區設定進行驗證，應用程式可以對 [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) 或 [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) 和 [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts)進行多個呼叫。
 
-針對在 Windows XP 與 Windows Server 2003 上執行的應用程式， [**DownlevelGetLocaleScripts**](downlevelgetlocalescripts.md)、 [**DownlevelGetStringScripts**](downlevelgetstringscripts.md)和 [**DownlevelVerifyScripts**](downlevelverifyscripts.md) 等函式對上述的函式扮演類似的角色，以降低安全性風險。 [MSDN 下載中心](https://www.microsoft.com/?ref=go)提供「 [Microsoft 國際化功能變數名稱 (IDN) 緩和 api](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) 」下載。
+針對在 Windows XP 和 Windows Server 2003 上執行的應用程式， [**DownlevelGetLocaleScripts**](downlevelgetlocalescripts.md)、 [**DownlevelGetStringScripts**](downlevelgetstringscripts.md)和 [**DownlevelVerifyScripts**](downlevelverifyscripts.md)等函式對上述的函式扮演類似的角色，以降低安全性風險。 [MSDN 下載中心](https://www.microsoft.com/?ref=go)提供「 [Microsoft 國際化功能變數名稱 (IDN) 緩和 api](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) 」下載。
 
 ## <a name="handle-unicode-strings"></a>處理 Unicode 字串
 

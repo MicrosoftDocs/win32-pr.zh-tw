@@ -4,12 +4,12 @@ ms.assetid: 39fd56da-c744-432d-9623-92fc7d9bf5f5
 title: 使用 PANOSE 號碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dfa6a185e2afb05aec5fdf0e200300c7cf686a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a974a0d1e708cac931e06e386e2df0802cbea79e5c9d499ca460d6deb5b0bab9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037456"
 ---
 # <a name="using-panose-numbers"></a>使用 PANOSE 號碼
 

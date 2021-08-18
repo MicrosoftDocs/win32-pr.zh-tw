@@ -102,7 +102,7 @@
               href: appendix-1--internet-explorer-6-to-internet-explorer-8-browser-changes.md
             - name: 附錄2：測試腳本案例
               href: appendix-2--test-script-scenarios.md
-        - name: Windows Server 2008 R2 相容性
+        - name: WindowsServer 2008 R2 相容性
           href: windows-server-2008-r2-compatibility.md
           items:
             - name: Windows Server 2008 R2 中的檔案複寫服務 (FRS) 已淘汰
@@ -142,7 +142,7 @@
           href: compatibility---application-manifest.md
         - name: 伺服器 Hyper-v
           href: server-hyper-v.md
-        - name: 啟用 Intel AVX 的 Windows 7 支援
+        - name: 針對 Intel AVX 啟用 Windows 7 支援
           href: enable-windows-7-support-for-intel-avx.md
         - name: Microsoft Message Queuing (MSMQ) 改善的佇列處理
           href: microsoft-message-queuing--msmq----improved-queue-handling.md
@@ -163,11 +163,11 @@
           href: best-practices-for-on-off-performance.md
         - name: 防止 Windows 應用程式中的記憶體流失
           href: preventing-memory-leaks-in-windows-applications.md
-        - name: 防止 Windows 應用程式停止回應
+        - name: 防止 Windows 的應用程式停止回應
           href: preventing-hangs-in-windows-applications.md
         - name: 部署映像服務與管理 (DISM)
           href: dism-replaces-pkgmgr-peimg-and-intlconfg-tools.md
-        - name: Windows 疑難排解
+        - name: Windows故障 排除
           href: compatibility---windows-troubleshooting.md
         - name: Windows 錯誤報告問題步驟收錄程式
           href: windows-error-reporting-problem-steps-recorder.md
@@ -177,5 +177,5 @@
           href: performance-improvement---minimizing-unresponsive-services.md
         - name: Windows 7 用戶端軟體標誌計畫
           href: certification-for-windows-7-and-windows-server-2008-r2-applications.md
-        - name: 適用于軟體的 Windows Server 2008 R2 標誌方案
+        - name: Windows適用于軟體的 Server 2008 R2 標誌方案
           href: windows-server-2008-r2-logo-program-for-software.md

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 64cc14ee66123ea3e25941579b9838977a753174
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e39f2682aac7741af304269b0584f3552158b2f83596c7fd55f1c83948d09f0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788198"
 ---
 # <a name="texdp3---ps"></a>texdp3-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104313617"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104313617"
 
 
 
- 
+ 
 
 材質暫存器必須使用下列順序。
 
@@ -76,9 +76,9 @@ t (m) <sub>RGBA</sub> = TextureCoordinates (階段 m) <sub>UVW</sub> \* t (x) <s
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

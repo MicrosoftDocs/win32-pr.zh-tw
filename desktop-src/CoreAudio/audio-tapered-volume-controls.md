@@ -4,22 +4,22 @@ ms.assetid: 3b1adef5-40e9-4527-aa79-5a71f201fdfc
 title: Audio-Tapered 的音量控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cca0879d27d0eba3d49ca22b019442f882bf917
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9fb4856b4f25ad33ae61e9cb250a6b84f0e8799bb9d11d33c1770593bcf3714a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750783"
 ---
 # <a name="audio-tapered-volume-controls"></a>Audio-Tapered 的音量控制項
 
-[**IAudioEndpointVolume**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume)介面會管理音訊錐形的音量控制項。 這些控制項很適合顯示音量滑杆的 Windows 應用程式。 針對系結至音訊錐形音量控制項的音量滑杆，滑杆位置中的每個變更都會產生觀察音量的變更，與滑杆移動的距離成正比。 針對特定的旅遊距離，不論滑杆的移動是否出現在滑杆的移動範圍的下半部或中間部分，觀察音量增加或減少的數量大約相同。 觀察到的音量會隨著音訊信號電力的對數以線性方式大幅變化。
+[**IAudioEndpointVolume**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume)介面會管理音訊錐形的音量控制項。 這些控制項很適合用來 Windows 顯示音量滑杆的應用程式。 針對系結至音訊錐形音量控制項的音量滑杆，滑杆位置中的每個變更都會產生觀察音量的變更，與滑杆移動的距離成正比。 針對特定的旅遊距離，不論滑杆的移動是否出現在滑杆的移動範圍的下半部或中間部分，觀察音量增加或減少的數量大約相同。 觀察到的音量會隨著音訊信號電力的對數以線性方式大幅變化。
 
 「 *音訊* 」一詞最初指的是 potentiometer 中電阻式元素的錐形圖形，用來做為音訊電器裝置中的音量控制項。 音訊錐形電阻式元素最寬于零磁片區的位置，最少則是最大的音量位置。 Potentiometer 會控制裝置透過其喇叭播放之音訊信號的電壓層級。 Tapering 的設計目的是要產生 potentiometer 雨刷啟動位置與喇叭上認知音量之間的大約線性關聯性。 雨刷啟動位置與喇叭的電壓之間的關聯性是非線性的。
 
 相反地，具有線性錐度的電阻式元素在 potentiometer 雨刷啟動的移動範圍上具有統一的寬度。 如此一來，喇叭的電壓就會隨著雨刷啟動位置呈線性變化。 雨刷啟動位置與音量之間的關聯性是非線性的。
 
-同樣地，顯示音量滑杆的 Windows 應用程式會定義喇叭位置與喇叭之間的輸出信號層級之間的關聯性。 關聯性實際上可以是線性錐形或音訊錐形。
+同樣地，顯示音量滑杆的 Windows 應用程式，會定義喇叭位置與喇叭之間的輸出信號層級之間的關聯性。 關聯性實際上可以是線性錐形或音訊錐形。
 
 下圖顯示滑杆位置與輸出電壓的對應，以及線性錐形音量控制項的認知音量。
 
@@ -65,7 +65,7 @@ ms.locfileid: "103688896"
 -   [**IChannelAudioVolume**](/windows/desktop/api/Audioclient/nn-audioclient-ichannelaudiovolume)
 -   [**IAudioStreamVolume**](/windows/desktop/api/Audioclient/nn-audioclient-iaudiostreamvolume)
 
-如需這些介面的詳細資訊，請參閱 [會話磁片區控制項](session-volume-controls.md)。 如需磁片區範圍和各種 Windows 版本中預設磁片區層級的相關資訊，請參閱 [預設音訊磁片區設定](/windows-hardware/drivers/audio/default-audio-volume-settings)。
+如需這些介面的詳細資訊，請參閱 [會話磁片區控制項](session-volume-controls.md)。 如需磁片區範圍的詳細資訊，以及各種 Windows 版本中的預設磁片區層級，請參閱[預設音訊磁片區設定](/windows-hardware/drivers/audio/default-audio-volume-settings)。
 
 ## <a name="related-topics"></a>相關主題
 

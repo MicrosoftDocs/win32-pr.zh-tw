@@ -4,12 +4,12 @@ ms.assetid: e00d8742-b717-419c-902c-9a286d75d8aa
 title: 建立檔案對應物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c54e32f62be48f2957e2f3d6f12a3da91b49793e
-ms.sourcegitcommit: 5f0167ce703bc477a11c3b58db04df99c8fd5000
+ms.openlocfilehash: 8e22fc60de9797f8b84fcc12639d39b9f07e7b0d61d905aaeccc1b7f6aa19220
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "111563214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067888"
 ---
 # <a name="creating-a-file-mapping-object"></a>建立檔案對應物件
 

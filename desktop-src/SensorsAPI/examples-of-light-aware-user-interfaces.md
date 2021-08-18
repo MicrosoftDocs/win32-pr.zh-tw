@@ -4,12 +4,12 @@ ms.assetid: 13bcc087-bbe7-4352-b242-5a849cfe423d
 title: Light-Aware 使用者介面的範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faac7a83abd5f505cecf44fee17e34bf360a7b62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68f6b5865c79681eea63e78f9ce690ac90678e78a0dfdeac82b55b5193da9bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003796"
 ---
 # <a name="examples-of-light-aware-user-interfaces"></a>Light-Aware 使用者介面的範例
 

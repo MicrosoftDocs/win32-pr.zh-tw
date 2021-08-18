@@ -4,12 +4,12 @@ ms.assetid: eaef6067-97a6-40c4-84ec-c0d86af6bb4a
 title: 通訊資源控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f709fc041f6125d93a1c52f3e17b77c96f35825c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 585d7ab257c36bc288a494c2e55d9f192749e9742b0eb88ead6d0b0ffad919cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768758"
 ---
 # <a name="communications-resource-handles"></a>通訊資源控制碼
 

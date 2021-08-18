@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2936401d59bb8c2c2bcfdcffce27ba9ed978d506
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: eb887997642b0d0ff81314d6cf81dc148e57547727a09b1fe646f04d0391f967
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014116"
 ---
 # <a name="osf-switch"></a>/osf 參數
 
@@ -66,7 +66,7 @@ midl /osf
 -   外部宣告。
 -   參數清單中有省略號的程式。
 -   輸入 [**int**](int.md)。
--   輸入 **void \*** (，但 [**內容 \_ 控制碼**](context-handle.md)屬性) 除外。
+-   輸入 **void \** _ (，但 [_ *內容 \_ 控制碼* *](context-handle.md)屬性) 除外。
 -   類型限定詞，包括具有 ANSI 一致前置詞的表單，其中包含兩個底線字元： **\_ \_ cdecl**、 **cdecl**、 [**const**](const.md)、 **const**、 **\_ \_ export**、 **export**、 **\_ \_ far**、 **far**、 **\_ \_ loadds**、 **loadds**、 **\_ \_ near**、 **near**、 **\_ \_ pascal**、 **pascal**、 **\_ \_ stdcall**、 **stdcall**、 **\_ \_ volatile** 和 **volatile**。
 -   任何 \# [**pragma**](pragma.md)警告或 **\# pragma** 批註。
 -   類型序列化。
@@ -95,6 +95,6 @@ midl /osf
 [Rpcss 記憶體管理套件](/windows/desktop/Rpc/rpcss-memory-management-package)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

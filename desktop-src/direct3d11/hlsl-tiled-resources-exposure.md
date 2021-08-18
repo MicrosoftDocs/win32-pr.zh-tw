@@ -4,12 +4,12 @@ description: 需要新的 Microsoft 高階著色器語言 (HLSL) 語法，以支
 ms.assetid: B6CE51E6-1BA9-4D15-9654-86FE9BAAF585
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2b266b98045b38645e1e8d24ed0014a5f448a38
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c66ded502bebefc1061028115a12026f67c26cad89ddc57f98a5ae6fee923591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633328"
 ---
 # <a name="hlsl-tiled-resources-exposure"></a>HLSL 磚的資源曝光
 

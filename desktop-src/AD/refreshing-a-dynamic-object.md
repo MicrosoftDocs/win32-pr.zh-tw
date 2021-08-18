@@ -5,12 +5,12 @@ ms.assetid: 5f51013c-b278-4ef7-a235-b238eed79a35
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7866c423fcb715289793a7beefa564150954257
-ms.sourcegitcommit: 4d6ff888fd5825e78bc8fd5cdb21d4b542205039
+ms.openlocfilehash: c6c351b559da8d08ccca3346f7126a9bbe47fcd3774486ea64a8dff29ac7e799
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "106965264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025173"
 ---
 # <a name="refreshing-a-dynamic-object"></a>重新整理動態物件
 

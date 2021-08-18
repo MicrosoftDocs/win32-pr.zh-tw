@@ -4,12 +4,12 @@ ms.assetid: 5e4f4407-b43e-4b31-8676-1e12b6b70034
 title: previewmode 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d3b589b279a11b8ec329641ea2522a6a46dfa0e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6baed13417539432a3a2958b96b214c3c63ae12f2802586ca220669b1497d91f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748268"
 ---
 # <a name="previewmode-attribute"></a>previewmode 屬性
 

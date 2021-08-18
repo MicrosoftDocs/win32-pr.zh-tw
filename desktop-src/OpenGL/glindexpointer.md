@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cca6858d7d1e3f13e4155bd40307a53b22e80a56
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e27502420121f7373af5425e8aadffe3641ddec539a4521fe6c6bf55e6d807d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012146"
 ---
 # <a name="glindexpointer-function"></a>glIndexPointer 函式
 
@@ -73,7 +73,7 @@ void WINAPI glIndexPointer(
 
 
 
-| Name                                                                                              | 意義                                      |
+| 名稱                                                                                              | 意義                                      |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>  | *類型* 不是可接受的值。<br/> |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl> | *stride* 或 *計數* 為負數。<br/> |

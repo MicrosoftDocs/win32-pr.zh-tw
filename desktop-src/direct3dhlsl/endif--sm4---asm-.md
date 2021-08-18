@@ -4,12 +4,12 @@ description: 結束 if 語句。
 ms.assetid: 9F4CF9E0-4D9D-4300-B432-432C560F34BB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d3fa6cf0efd395843212f6bacac478285e496c2
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: df7c88bf9fafeeb39b3f3d741eb829270d746923e6447a8854be0fe828fd1138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744257"
 ---
 # <a name="endif-sm4---asm"></a>endif (sm4-asm) 
 
@@ -22,7 +22,7 @@ ms.locfileid: "104022790"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -48,7 +48,7 @@ Token 格式包含著色器中對應 **if** 指令的位移，以方便使用。
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -61,13 +61,13 @@ Token 格式包含著色器中對應 **if** 指令的位移，以方便使用。
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -76,9 +76,9 @@ Token 格式包含著色器中對應 **if** 指令的位移，以方便使用。
 [著色器模型4元件 (DirectX HLSL) ](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

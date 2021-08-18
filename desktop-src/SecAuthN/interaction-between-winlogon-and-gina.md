@@ -4,19 +4,19 @@ ms.assetid: ea45cd5f-9cb0-41bb-99bf-f84781ae9604
 title: Winlogon 和 GINA 之間的互動
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 759d9171bca02e0a00fd35b77a4514d7438d43f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 824c658e4f19b14de339b569a8c9d17992c1b60bb5d4d526de949ce76cd1554d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482358"
 ---
 # <a name="interaction-between-winlogon-and-gina"></a>Winlogon 和 GINA 之間的互動
 
 [*Winlogon*](../secgloss/w-gly.md) 和 [*GINA*](../secgloss/g-gly.md) 必須傳達初始化資訊、處理 [*安全的注意順序*](../secgloss/s-gly.md) (SAS) 監視和通知，以及允許登出和關機活動。 Winlogon 的狀態會決定呼叫哪個 GINA 函式來處理任何指定的 SAS 事件。 通訊的發生順序如下所示。
 
 > [!Note]  
-> 在 Windows Vista 中會忽略 GINA Dll。
+> Windows Vista 會忽略 GINA dll。
 
  
 

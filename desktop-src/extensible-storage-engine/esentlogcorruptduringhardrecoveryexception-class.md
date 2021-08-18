@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: da137553a791b92a929d60dc9cc9cd764695c784
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3e372cd5869a518ded61f68cd07ae8e70565bc0634ccc8dcda16a02fbe23914
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620728"
 ---
 # <a name="esentlogcorruptduringhardrecoveryexception-class"></a>EsentLogCorruptDuringHardRecoveryException 類別
 

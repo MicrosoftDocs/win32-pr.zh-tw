@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5a818abb424fa55bc01eca7ce9f64bc5629a7d50
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7954c112c9d8f660bb328a05b259f188d144801adeacd41e29e1a179acdc8414
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628938"
 ---
 # <a name="id3dxrendertoenvmapbeginparabolic-method"></a>ID3DXRenderToEnvMap：： BeginParabolic 方法
 

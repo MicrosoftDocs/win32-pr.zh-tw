@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 848e1f8aadd302b9194168e92b2b0abe732a2c2f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6c11a3b356fb0f09cc3372db3ccebd824b4dc8290ff586eed9de3b9fa2ea13ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987958"
 ---
 # <a name="id3dxanimationcontrolleradvancetime-method"></a>ID3DXAnimationController：： AdvanceTime 方法
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 89a072a26afe0087ce9adfed5b29eb1cc4280dac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ffe4cc09efa53ac4d3ab8089a1061d860206f9734c214d250b5c3cdc907eaf84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916918"
 ---
 # <a name="cbasepincanreconnectwhenactive-method"></a>CBasePin. CanReconnectWhenActive 方法
 
@@ -46,7 +46,7 @@ bool CanReconnectWhenActive();
 
 ## <a name="remarks"></a>備註
 
-根據預設，您必須先停止篩選，才能重新連接其任何 pin。 但是，如果 pin 支援動態重新連接，則在篩選作用中時，它可以重新連接。 如需詳細資訊，請參閱 [動態圖形建築物](dynamic-graph-building.md)。
+根據預設，您必須先停止篩選，才能重新連接其任何 pin。 但是，如果 pin 支援動態重新連接，則在篩選作用中時，它可以重新連接。 如需詳細資訊，請參閱[動態 Graph 建立](dynamic-graph-building.md)。
 
 ## <a name="requirements"></a>規格需求
 

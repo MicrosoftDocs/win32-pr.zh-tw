@@ -5,12 +5,12 @@ ms.assetid: 58677023-692C-4BA4-90B7-D568F3DD3F73
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e472a0749634d5cbaa9cbf1cde5e11202d4c4f9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 218d21d462dd393360e9ebfcb07ab5b35524b9d8d8c01c8ab1ef28ef90166eb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857988"
 ---
 # <a name="creating-descriptor-heaps"></a>建立描述元堆積
 
@@ -88,7 +88,7 @@ m_srvUavDescriptorSize = m_device->GetDescriptorHandleIncrementSize(D3D12_DESCRI
 >
 > 在 \_ 標頭 d3dx12 中定義的協助程式結構 CD3DX12 GPU \_ 描述元 \_ 控制碼，它會繼承 [**D3D12 \_ GPU 描述項 \_ \_ 控制碼**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle) 結構，並提供初始化和其他有用的作業。 同樣地，CD3DX12 \_ cpu \_ 描述項 \_ 會針對 [**D3D12 \_ cpu 描述項 \_ \_ 控制碼**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle) 結構定義協助程式結構。
 
- 
+ 
 
 填入命令清單時，會使用這兩個 helper 結構。
 
@@ -291,6 +291,6 @@ public:
 [描述元堆積](descriptor-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

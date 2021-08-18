@@ -4,16 +4,16 @@ ms.assetid: 0dd18add-6c7e-40a8-8b39-10c65bdfb2e0
 title: 'ITMedia：:p ut_MediaName 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66dcbd4e29f59694d610fb4e6af9fd49aa53323d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d77ffde28406b7fb527ed8679d1f65d6aba537e611b69d1ad31e8679f59fd0e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003336"
 ---
 # <a name="itmediaput_medianame-method"></a>ITMedia：:p 的 \_ MediaName 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Put \_ MediaName** 方法會設定媒體名稱。 定義的媒體包括音訊、影片、白板、文字和資料。
 
@@ -45,7 +45,7 @@ HRESULT put_MediaName(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PMediaName* 參數不是有效的指標。<br/>   |

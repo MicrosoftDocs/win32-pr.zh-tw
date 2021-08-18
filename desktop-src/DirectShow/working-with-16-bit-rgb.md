@@ -4,12 +4,12 @@ ms.assetid: 0a245187-4120-4003-9a8f-6b1e8fa40d38
 title: 使用16位 RGB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f6bf4b3217af4d0261d4ab26ca011881762a2a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 660d5b0223bab6c19a89e4316f7dffce56ec0545f83c72f7316b9278dfa3e4c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071792"
 ---
 # <a name="working-with-16-bit-rgb"></a>使用16位 RGB
 

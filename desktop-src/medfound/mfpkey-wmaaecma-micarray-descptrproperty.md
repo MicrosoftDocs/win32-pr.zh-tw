@@ -4,12 +4,12 @@ ms.assetid: 1d91bdc8-5a09-487d-b45e-80d57a44cd0e
 title: 'MFPKEY_WMAAECMA_MICARRAY_DESCPTR 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e433f50d9d7640575f1314c5acc13d7751fde0cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b2bf0b495e7b57ba60cf5cc993b85a143836c8666e06d6b849ece3693b2a334
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722942"
 ---
 # <a name="mfpkey_wmaaecma_micarray_descptr-property"></a>MFPKEY \_ WMAAECMA \_ MICARRAY \_ DESCPTR 屬性
 
@@ -29,7 +29,7 @@ VT \_ BLOB
 
 ## <a name="remarks"></a>備註
 
-這個屬性的值是 [**KSAUDIO \_ MIC \_ 陣列 \_ 幾何**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_mic_array_geometry) 結構。 此結構是在標頭檔 KsMedia 中定義。 若要取得麥克風陣列幾何，請 \_ \_ \_ \_ 在裝置上呼叫 **IKsControl：： KSPROPERTY** 方法，以查詢音訊裝置以取得 KSPROPERTY 音訊 MIC 陣列幾何屬性。 如需麥克風陣列的詳細資訊，請下載技術白皮書， [以瞭解如何建立和使用適用于 Windows Vista 的麥克風陣列](/windows-hardware/drivers/audio/microphone-array-geometry-descriptor-format)。
+這個屬性的值是 [**KSAUDIO \_ MIC \_ 陣列 \_ 幾何**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_mic_array_geometry) 結構。 此結構是在標頭檔 KsMedia 中定義。 若要取得麥克風陣列幾何，請 \_ \_ \_ \_ 在裝置上呼叫 **IKsControl：： KSPROPERTY** 方法，以查詢音訊裝置以取得 KSPROPERTY 音訊 MIC 陣列幾何屬性。 如需麥克風陣列的詳細資訊，請下載技術白皮書，[以瞭解如何建立和使用 Windows Vista 的麥克風陣列](/windows-hardware/drivers/audio/microphone-array-geometry-descriptor-format)。
 
 如果您在篩選模式中使用 DSP，且已啟用麥克風陣列處理，請設定此屬性。 如果您在來源模式中使用 DSP，DSP 會自動查詢裝置的幾何資訊。
 
@@ -39,8 +39,8 @@ VT \_ BLOB
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

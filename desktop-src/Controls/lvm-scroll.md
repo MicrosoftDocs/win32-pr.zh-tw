@@ -3,7 +3,7 @@ title: 'LVM_SCROLL 訊息 (Commctrl .h) '
 description: 滾動清單視圖控制項的內容。 您可以明確地傳送此訊息，或使用 ListView \_ 滾動宏來傳送。
 ms.assetid: 4bf6b74e-8fea-48ca-a151-8fd649fc50f8
 keywords:
-- LVM_SCROLL message Windows 控制項
+- LVM_SCROLL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c05c3ed991cfc933a4436baf332b49c67a907b11
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 604ef35b6d7e62e626aa7cbee32c1563224794781275c470a1b3cd1727b926bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019226"
 ---
 # <a name="lvm_scroll-message"></a>LVM \_ 捲軸訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104465869"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

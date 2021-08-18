@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 291d72797b1ee765507a3d23921cd518cf605354
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3851d32b43bc7ebd170a1179ecda1e25f86e43ddaf819453a4af6998e2f7efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014346"
 ---
 # <a name="requeststatechange-method-of-the-msvm_computersystem-class"></a>Msvm it 類別的 RequestStateChange 方法 \_
 
@@ -325,7 +325,7 @@ uint32 RequestStateChange(
 
 
 
-| 傳回碼/值                                                                                                                                                                       | Description                                                                        |
+| 傳回碼/值                                                                                                                                                                       | 描述                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | <dl> <dt>**已完成，沒有錯誤**</dt> <dt>0</dt> </dl>                           | 成功。<br/>                                                                |
 | <dl> <dt>**方法參數檢查-轉換已啟動**</dt> <dt>4096</dt> </dl> | 轉換是非同步。<br/>                                         |
@@ -449,7 +449,7 @@ namespace HyperVSamples
 
 
 
-下列 Visual Basic Scripting Edition (VBScript) 範例會啟動或停用虛擬機器。
+下列 Visual Basic 腳本撰寫版 (VBScript) 範例會啟動或停用虛擬機器。
 
 > [!IMPORTANT]
 > 若要正常運作，必須在虛擬機器主機伺服器上執行下列程式碼，且必須以系統管理員許可權執行。
@@ -630,8 +630,8 @@ End Function
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

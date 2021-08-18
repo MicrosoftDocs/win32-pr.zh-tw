@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7b5a55cb13eb7197986349c602ec35855a3f6364
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e5e3d5cbeb4d60f7beffd70c30ba0775863a9782cfb365a4d40bdf5552a186f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855348"
 ---
 # <a name="def---vs"></a>def-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104186090"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104186090"
 
 
 
- 
+ 
 
 Def 指令會定義著色器常數，其值會在著色器設定為裝置時載入。 這些都稱為立即常數。 立即的常數優先于 API 方法 SetVertexShaderConstantF 所設定的常數。
 
@@ -72,6 +72,6 @@ Def 指令會定義著色器常數，其值會在著色器設定為裝置時載�
 [defb-vs](defb---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

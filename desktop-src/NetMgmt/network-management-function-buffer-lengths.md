@@ -4,12 +4,12 @@ description: 本主題討論與網路管理 Api 搭配使用時的函式緩衝�
 ms.assetid: 08599966-68a1-420b-bbc7-6daac833d08f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5003f739d235a099adb9f4f403c15c67bd9169e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 858b01de7b0b4cecb9eaea9f93bb541cb95fe9b394e74616427910abe3b33403
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911738"
 ---
 # <a name="network-management-function-buffer-lengths"></a>網路管理函數緩衝區長度
 
@@ -23,9 +23,9 @@ ms.locfileid: "103840116"
 
 如需詳細資訊，請參閱 [網路管理函數緩衝區](network-management-function-buffers.md)。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: c696f09e-98d3-4cea-8ea1-cd8f40b74f12
 title: 媒介
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 040e79abb03bd0363d37fdad79f7311412b0ffe2
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: bc9f9dbd48d5af575658c04760740ad0b1f64f373d76bb20ba80253b874c67de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106976625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005286"
 ---
 # <a name="intermediaries"></a>媒介
 
 媒介會與用戶端應用程式通訊，以允許它們提交 [*憑證要求*](../secgloss/c-gly.md)，並 (假設要求產生已發行的憑證) 將發行的憑證下載至用戶端。 每個傳輸層通訊協定都需要自己的媒介。
 
-Microsoft 憑證服務隨附的中繼 () for HTTP 的網頁註冊頁面。 媒介的另一個範例是 Microsoft Windows 憑證 MMC 嵌入式管理單元， (可讓您) 叫用憑證要求 Wizard。 如果有其他傳輸層通訊協定與憑證服務搭配使用，開發人員可以為每個所需的傳輸層通訊協定建立媒介。
+Microsoft 憑證服務隨附的中繼 () for HTTP 的網頁註冊頁面。 另一個媒介範例是 Microsoft Windows 憑證 MMC 嵌入式管理單元， (可讓您) 叫用憑證要求。 如果有其他傳輸層通訊協定與憑證服務搭配使用，開發人員可以為每個所需的傳輸層通訊協定建立媒介。
 
 媒介會使用伺服器引擎所提供的 [**ICertRequest**](/windows/desktop/api/Certcli/nn-certcli-icertrequest) 和 [**ICertConfig**](/windows/desktop/api/Certcli/nn-certcli-icertconfig) 介面，與憑證服務進行通訊。 [**ICertRequest：： submit**](/windows/desktop/api/Certcli/nf-certcli-icertrequest-submit)方法可用來提交 [*憑證要求*](../secgloss/c-gly.md)，而 [**ICertRequest：： GetCertificate**](/windows/desktop/api/Certcli/nf-certcli-icertrequest-getcertificate)用來取得所產生的已發行憑證。 同樣地， [**ICertConfig：： GetConfig**](/windows/desktop/api/Certcli/nf-certcli-icertconfig-getconfig) 可用來判斷可用來發行憑證的憑證授權單位單位。
 

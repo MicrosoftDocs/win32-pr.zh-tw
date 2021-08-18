@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 51a1789fe050ddd62990f6561ddeb01363d69f6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb6e0583c0efa2dbfc52af14f6d1ba0c4200d4f3a3421d1953084daca467358e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728528"
 ---
 # <a name="jetcreatetablecolumnindex2-function"></a>JetCreateTableColumnIndex2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetcreatetablecolumnindex2-function"></a>JetCreateTableColumnIndex2 函式
 
 **JetCreateTableColumnIndex2** 函式會在 ESE 資料庫中建立一個資料表，其中包含一組初始的索引，以及一組 [JET_TABLECREATE2](./jet-tablecreate2-structure.md)結構陣列的初始資料行。 [JET_TABLECREATE2](./jet-tablecreate2-structure.md)結構允許指定回呼函數。
 
-**Windows xp： JetCreateTableColumnIndex2** 是在 windows xp 中引進的。
+**Windows xp： JetCreateTableColumnIndex2** 是在 Windows xp 引進。
 
 ```cpp
     JET_ERR JET_API JetCreateTableColumnIndex2(
@@ -62,7 +62,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -125,7 +125,7 @@ _**適用于：** Windows |Windows Server_
 <td><p>指定了不正確索引定義。 收到此錯誤的部分可能原因包括：</p>
 <ul>
 <li><p>主要索引是條件式 (也就是， <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>grbit</strong>成員已 JET_bitIndexPrimary 設定，而<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>cConditionalColumn</strong>成員大於零) 。</p></li>
-<li><p>Windows Server 2003 和更新版本。 嘗試建立具有元組限制的元組索引，但未在<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構中傳遞<strong>ptuplelimits</strong>成員 (也就是說， <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>grbit</strong>成員已 JET_bitIndexTupleLimits 設定，但<strong>ptuplelimits</strong>指標為 Null) 。</p></li>
+<li><p>Windows伺服器2003和更新版本。 嘗試建立具有元組限制的元組索引，但未在<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構中傳遞<strong>ptuplelimits</strong>成員 (也就是說， <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>grbit</strong>成員已 JET_bitIndexTupleLimits 設定，但<strong>ptuplelimits</strong>指標為 Null) 。</p></li>
 <li><p>在<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>szKey</strong>成員中傳入不正確索引鍵定義。 如需有效定義的討論，請參閱 <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> 。</p></li>
 <li><p>將<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>中的<strong>cbVarSegMac</strong>成員設定為大於主要索引的 JET_cbPrimaryKeyMost () 或大於次要索引 JET_cbSecondaryKeyMost 的 () 。</p></li>
 <li><p>傳遞不正確使用者定義 Unicode 索引組合， (在<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>) 的<strong>grbit</strong>成員中設定 JET_bitIndexUnicode 位。 某些常見的原因包括<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>PIDXUNICODE</strong>成員為 Null，或<strong>PIDXUNICODE</strong>結構中指定的 LCID 無效。</p></li>
@@ -135,27 +135,27 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>JET_errIndexTuplesInvalidLimits</p></td>
-<td><p>Windows XP （含）以後版本。 已指定 <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> 結構，但不支援其限制。 請參閱 <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> 結構的「備註」一節。</p></td>
+<td><p>WindowsXP 和更新版本。 已指定 <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> 結構，但不支援其限制。 請參閱 <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> 結構的「備註」一節。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errIndexTuplesNonUniqueOnly</p></td>
-<td><p>Windows XP （含）以後版本。 元組索引不可以是唯一的 (也就是說， <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<em>grbit</em>成員不能同時有 JET_bitIndexPrimary 和 JET_bitIndexUnique 設定) 。</p></td>
+<td><p>WindowsXP 和更新版本。 元組索引不可以是唯一的 (也就是說， <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<em>grbit</em>成員不能同時有 JET_bitIndexPrimary 和 JET_bitIndexUnique 設定) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errIndexTuplesOneColumnOnly</p></td>
-<td><p>Windows XP （含）以後版本。 元組索引只能在單一資料行上 (也就是，如果<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>grbit</strong>成員已設定 JET_bitIndexTuples，且<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>szKey</strong>成員指定了一個以上的資料行) 。</p></td>
+<td><p>WindowsXP 和更新版本。 元組索引只能在單一資料行上 (也就是，如果<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>grbit</strong>成員已設定 JET_bitIndexTuples，且<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>szKey</strong>成員指定了一個以上的資料行) 。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errIndexTuplesSecondaryIndexOnly</p></td>
-<td><p>Windows XP （含）以後版本。 元組索引不可以是主要索引 (也就是說， <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>grbit</strong>成員不能同時有 JET_bitIndexPrimary 和 JET_bitIndexTuples 設定) 。</p></td>
+<td><p>WindowsXP 和更新版本。 元組索引不可以是主要索引 (也就是說， <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>grbit</strong>成員不能同時有 JET_bitIndexPrimary 和 JET_bitIndexTuples 設定) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errIndexTuplesTextColumnsOnly</p></td>
-<td><p>Windows XP （含）以後版本。 元組索引只能位於 text 或 Unicode 資料行上。 嘗試將其他資料行的索引 (例如二進位資料行) 會導致 JET_errIndexTuplesTextColumnsOnly。</p></td>
+<td><p>WindowsXP 和更新版本。 元組索引只能位於 text 或 Unicode 資料行上。 嘗試將其他資料行的索引 (例如二進位資料行) 會導致 JET_errIndexTuplesTextColumnsOnly。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errIndexTuplesVarSegMacNotAllowed</p></td>
-<td><p>Windows XP （含）以後版本。 元組索引不允許設定<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>cbVarSegMac</strong>成員。</p></td>
+<td><p>WindowsXP 和更新版本。 元組索引不允許設定<a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a>結構的<strong>cbVarSegMac</strong>成員。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInTransaction</p></td>
@@ -242,7 +242,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

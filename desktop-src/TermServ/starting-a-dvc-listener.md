@@ -5,12 +5,12 @@ ms.assetid: c9130375-eb60-4996-84f5-a1081144e130
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b625d5547facd0487af170af9d59eddd6bfed87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5d440069cb64597c16a14323a67926376bf1c425f5a29c77e451c52866a5399
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000448"
 ---
 # <a name="starting-a-dvc-listener"></a>啟動 DVC 接聽程式
 
@@ -20,9 +20,9 @@ ms.locfileid: "104311319"
 
 外掛程式可以具現化所需的多個接聽程式。 任何連入連線都將由 [**IWTSListenerCallback**](/windows/desktop/api/TsVirtualChannels/nn-tsvirtualchannels-iwtslistenercallback)處理，這是在 [**IWTSVirtualChannelManager**](/windows/desktop/api/TsVirtualChannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager)的 [**CreateListener**](/windows/desktop/api/TsVirtualChannels/nf-tsvirtualchannels-iwtsvirtualchannelmanager-createlistener)方法中提供。 如需範例，請參閱 [DVC 用戶端外掛程式範例](dvc-client-plug-in-example.md)程式碼中的 **CDVCSamplePlugin：： Initialize** 的實作為範例。
 
- 
+ 
 
- 
+ 
 
 
 

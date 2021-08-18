@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1c5ea7386c896f6b989a47c2574dfa4d61eacb5a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4438c6670b0535711c453e64496ffd4b21263acab728e090024f9e1e01427969
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749448"
 ---
 # <a name="cdynamicoutputpinstartusingoutputpin-method"></a>CDynamicOutputPin. StartUsingOutputPin 方法
 
@@ -46,7 +46,7 @@ virtual HRESULT StartUsingOutputPin();
 
 
 
-| 傳回碼                                                                                           | Description                                                       |
+| 傳回碼                                                                                           | 描述                                                       |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>                                               |
 | <dl> <dt>**E 未 \_ 預期**</dt> </dl>          | 非預期的錯誤。<br/>                                      |

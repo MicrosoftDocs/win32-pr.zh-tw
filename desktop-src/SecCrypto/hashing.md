@@ -4,12 +4,12 @@ ms.assetid: 684b6cc7-6ed6-4894-95a0-3872a4983bce
 title: 雜湊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6decdc9f768a2a180fc8c44a55bcad7391f1c353
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79a845bc1a5c0558cbdc49404823c33c27cb36e975c7b32df12a5c23a053e493
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006496"
 ---
 # <a name="hashing"></a>雜湊
 

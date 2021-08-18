@@ -4,12 +4,12 @@ ms.assetid: ed230fee-03d4-4430-bba8-454d5da050dd
 title: 信賴平臺模組提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c09afe272a1017d04e2bd868323b6773ec1b9fe5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b32d847d4144d22fb50ad5674110a33f4cc9f68e18d102ce9e820fa032b907ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004236"
 ---
 # <a name="trusted-platform-module-provider"></a>信賴平臺模組提供者
 

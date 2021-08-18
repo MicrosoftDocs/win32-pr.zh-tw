@@ -4,12 +4,12 @@ ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: 使用 DirectXMath 程式庫進行程式碼優化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15369ab36e199eb1a204cc4b761dc637f114f2a1
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 263434b5e7295f630f284517299cec036b33b064d35dc5085a83d67c8244366a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984718"
 ---
 # <a name="code-optimization-with-the-directxmath-library"></a>使用 DirectXMath 程式庫進行程式碼優化
 
@@ -35,7 +35,7 @@ ms.locfileid: "111827252"
 
 ## <a name="use-correct-compilation-settings"></a>使用正確的編譯設定
 
-若為 Windows x86 目標，請啟用/arch： SSE2。 針對所有 Windows 目標，啟用/fp： fast。
+針對 Windows x86 目標，請啟用/arch： SSE2。 針對所有 Windows 目標，啟用/fp： fast。
 
 根據預設，針對 Window x86 目標的 DirectXMath 程式庫進行編譯時，是使用 \_ \_ 已定義的 SSE SSE \_ 內建函式來完成 \_ 。 這表示所有 DirectXMath 功能都會使用 SSE2 指令。 不過，其他程式碼則不是如此。
 
@@ -61,9 +61,9 @@ DirectXMath 程式庫透過 variant 向量類型、結構和函式提供存取�
 
 DirectXMath 程式庫基礎的 [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) 內建函式的對齊版本，會比未對齊的程式更快。
 
-基於這個理由，使用 [**XMVECTOR**](xmvector-data-type.md) 和 [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) 物件的 DirectXMath 作業會假設這些物件已對齊16位元組。 這是自動進行堆疊型配置，如果程式碼是使用建議的 Windows (針對 DirectXMath 程式庫進行編譯，請參閱 [使用正確的編譯設定](#use-correct-compilation-settings)) 編譯器設定。 不過，請務必確保包含 **XMVECTOR** 和 **XMMATRIX** 物件的堆積配置，或轉換成這些類型，以符合這些對齊需求。
+基於這個理由，使用 [**XMVECTOR**](xmvector-data-type.md) 和 [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) 物件的 DirectXMath 作業會假設這些物件已對齊16位元組。 這是自動進行堆疊型配置，如果程式碼是使用建議的 Windows 針對 DirectXMath 程式庫進行編譯 (請參閱[使用正確的編譯設定](#use-correct-compilation-settings)) 編譯器設定。 不過，請務必確保包含 **XMVECTOR** 和 **XMMATRIX** 物件的堆積配置，或轉換成這些類型，以符合這些對齊需求。
 
-雖然64位的 Windows 記憶體配置已對齊16位元組，但根據預設，在配置的 Windows 記憶體32位版本中，只會對齊8個位元組。 如需控制記憶體對齊的詳細資訊，請參閱[ \_ 對齊的 \_ malloc](https://docs.microsoft.com/cpp/c-runtime-library/reference/aligned-malloc)。
+雖然64位 Windows 記憶體配置已對齊16位元組，但根據預設，在配置的 Windows 記憶體的32位版本中，只會對齊8個位元組。 如需控制記憶體對齊的詳細資訊，請參閱[ \_ 對齊的 \_ malloc](https://docs.microsoft.com/cpp/c-runtime-library/reference/aligned-malloc)。
 
 使用對齊的 DirectXMath 類型搭配標準範本庫 (STL) 時，您必須提供自訂配置器，以確保16位元組的對齊。 如需撰寫自訂配置器的範例，請參閱 Visual C++ Team [blog](https://devblogs.microsoft.com/cppblog/the-mallocator/) (而不是使用 malloc/free，您會想要 \_ \_ \_ \_ 在您的實施) 中使用對齊的 malloc 並保持可用。
 
@@ -92,7 +92,7 @@ DirectXMath 程式庫基礎的 [SSE](/previous-versions/visualstudio/visual-stud
 
 
 > [!Note]  
-> 在64位版本的 Windows 上， [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) 指令是用於所有計算，而不只是向量作業。 變更 denormal 處理會影響程式中的所有浮點運算，而不只是 DirectXMath 所使用的向量作業。
+> 在64位版本的 Windows 上，會將[SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100))指令用於所有計算，而不只是向量作業。 變更 denormal 處理會影響程式中的所有浮點運算，而不只是 DirectXMath 所使用的向量作業。
 
  
 

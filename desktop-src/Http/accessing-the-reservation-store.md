@@ -7,12 +7,12 @@ keywords:
 - 保留存放區 HTTP，存取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a138a0a2385e6338877e5e8623527a64a6eca796
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 14f9244fd4513517793bf85d205308fc49ac2d8ca0a246c17a68c730d1c76168
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015016"
 ---
 # <a name="accessing-the-reservation-store"></a>存取保留存放區
 
@@ -22,9 +22,9 @@ HTTP 伺服器 API 會維護電腦上所有使用者的命名空間保留清單�
 
 HTTP 伺服器 API 也會提供函數來查詢及刪除 URL 命名空間的服務設定。 呼叫 [**HttpQueryServiceConfiguration**](/windows/desktop/api/Http/nf-http-httpqueryserviceconfiguration) 函式時，會將設定識別碼參數設定為 **HttpServiceConfigUrlAclInfo** 值查詢，並在 URL 命名空間存放區上刪除 [**HttpDeleteServiceConfiguration**](/windows/desktop/api/Http/nf-http-httpdeleteserviceconfiguration) 函數。
 
- 
+ 
 
- 
+ 
 
 
 

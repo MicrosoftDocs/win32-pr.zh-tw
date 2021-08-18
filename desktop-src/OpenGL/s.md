@@ -10,12 +10,12 @@ keywords:
 - stipple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f257d8787776978484179cf0d9bd861570bd0f93
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c84da27d1f5579186dc6db941a4dd8f02432b2eab86875b0293d8a03065253ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011936"
 ---
 # <a name="s-opengl"></a>S (OpenGL) 
 

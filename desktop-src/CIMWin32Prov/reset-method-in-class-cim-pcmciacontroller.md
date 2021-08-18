@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8576bc5c1ce291c355d2907761e5b342ea6f3bc9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a956930e9f87f96cfb61e246433fc3e53bf8b3dd7bb5246146e1b4d0616ce4a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701498"
 ---
 # <a name="reset-method-of-the-cim_pcmciacontroller-class"></a>CIM PCMCIAController 類別的 Reset 方法 \_
 

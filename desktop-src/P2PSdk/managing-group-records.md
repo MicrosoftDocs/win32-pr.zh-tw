@@ -4,12 +4,12 @@ ms.assetid: 073ee4e9-0e97-451a-a808-8265575d073c
 title: 管理群組記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b6d9e3257cc597b715dc9c65eb5945c00c15286
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d2d0ba77a315043e638ddaa28615cf84654852a13e73347ee36ee4c7d66a6e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061396"
 ---
 # <a name="managing-group-records"></a>管理群組記錄
 

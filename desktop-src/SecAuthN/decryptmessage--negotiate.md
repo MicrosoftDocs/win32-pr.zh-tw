@@ -4,12 +4,12 @@ ms.assetid: 188341ff-4e67-481e-af30-7f9913b1d24e
 title: DecryptMessage (Negotiate) 函數
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: b4c8af2c79145950f9f42b52a662aba8ac13064f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7da05842fc5aba4dc9c19cd530b38e0d46b640aac10b4614981c30c8863d7e7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008516"
 ---
 # <a name="decryptmessage-negotiate-function"></a>DecryptMessage (Negotiate) 函數
 
@@ -58,7 +58,7 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 如果函數無法解密訊息，則會傳回下列其中一個錯誤碼。
 
-| 傳回碼                     | Description                                                                                                                                                                        |
+| 傳回碼                     | 描述                                                                                                                                                                        |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SEC \_ E \_ 未完成 \_ 訊息** | 輸入緩衝區中的資料不完整。 應用程式需要從伺服器讀取更多資料，並再次呼叫 [**DecryptMessage (協商)**](decryptmessage--negotiate.md) 。 |
 | **SEC \_ E \_ \_ \_ 順序**   | 未以正確的順序接收訊息。                                                                                                                              |
@@ -67,14 +67,14 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 有時候，應用程式會從遠端方讀取資料、嘗試使用 **DecryptMessage (Negotiate)** 將其解密，併發現 **DecryptMessage (Negotiate)** 成功，但輸出緩衝區是空的。 這是正常行為，而且應用程式必須能夠處理它。
 
-**WINDOWS XP：** 此函數也稱為 **UnsealMessage**。 應用程式現在應該只使用 **DecryptMessage (Negotiate)** 。
+**Windows XP：** 此函數也稱為 **UnsealMessage**。 應用程式現在應該只使用 **DecryptMessage (Negotiate)** 。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------|
-| 最低支援的用戶端 | \[僅限 WINDOWS XP desktop 應用程式\]          |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\] |
+| 最低支援的用戶端 | Windows\[僅限 XP desktop 應用程式\]          |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\] |
 | 標頭                   | Sspi (包含 Security .h)                |
 | 程式庫                  | Secur32 .lib                               |
 | DLL                      | Secur32.dll                               |

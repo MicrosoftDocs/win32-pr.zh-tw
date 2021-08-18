@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102301
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 355b43f345bab20160de8dfc138258761ec21706
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 333bca3ae0eae13cbee1441394f5550ff7c6f799a36ec8bdeac4f3c6d708f465
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040686"
 ---
 # <a name="esentmissinglogfileexception-members"></a>EsentMissingLogFileException 成員
 

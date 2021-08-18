@@ -6,19 +6,19 @@ keywords:
 - Windows Media Player，PlayerApplication 物件
 - Windows Media Player 物件模型，PlayerApplication 物件
 - 物件模型，PlayerApplication 物件
-- Windows Media Player ActiveX 控制項，PlayerApplication 物件
-- ActiveX 控制項，PlayerApplication 物件
-- Windows Media Player 行動 ActiveX 控制項，PlayerApplication 物件
-- Windows Media Player Mobile，PlayerApplication 物件
+- Windows Media Player ActiveX control、PlayerApplication 物件
+- ActiveX control、PlayerApplication 物件
+- Windows Media PlayerMobile ActiveX control、PlayerApplication 物件
+- Windows Media PlayerMobile、PlayerApplication 物件
 - PlayerApplication 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d197614ba75a51bdc8ec5398ca757e410f918a9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1d49d4817e9184a9386dac9cf37e944b60104d44d19e068ea5b610795d8e0998
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956748"
 ---
 # <a name="about-the-playerapplication-object"></a>關於 PlayerApplication 物件
 
@@ -36,9 +36,9 @@ ms.locfileid: "103840480"
 [**PlayerApplication 物件**](playerapplication-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: 'EM_GETCARETINDEX 訊息 (CommCtrl .h) '
 description: 取得編輯控制項中插入號的位置之以零為基底的索引。
 ms.assetid: cf12aaea-cfa7-4804-ae34-fd0992332288
 keywords:
-- EM_GETCARETINDEX message Windows 控制項
+- EM_GETCARETINDEX 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6653e2ae0e2126941e3d8977a593300b86051800
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4080acdc7ee338b76f80b97c81a952188fc74774254476771f9ff47e87f3fdff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019836"
 ---
 # <a name="em_getcaretindex-message"></a>EM \_ GETCARETINDEX 訊息
 
@@ -46,7 +46,7 @@ ms.locfileid: "103934490"
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限 1809 desktop 應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2019 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2019 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>CommCtrl。h</dt> </dl> |
 
 

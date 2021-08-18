@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70d7f9ad9b93c0f3cd1d62fdbbaddf4faa55ad9c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b97584aa3b37adc148672777e95fe0b2c8b101e09989bfa1ab5debbffe489640
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001406"
 ---
 # <a name="imsrdpclientadvancedsettings2-interface"></a>IMsRdpClientAdvancedSettings2 介面
 
-管理 advanced client 設定。 衍生自 [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md) 介面。 此介面包含方法，可取得和設定遠端桌面 ActiveX 控制項的 advanced (選擇性) 屬性。
+管理 advanced client 設定。 衍生自 [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md) 介面。 此介面包含方法，可為遠端桌面 ActiveX 控制項取出並設定 advanced (選用) 屬性。
 
 若要取得這個介面的實例，請使用 [**IMsTscAx：： AdvancedSettings**](imstscax-advancedsettings.md) 屬性來取得 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) 介面指標。 然後呼叫 **IMsTscAdvancedSettings** 指標上的 [**queryinterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) ，然後將 **IID \_ IMsRdpClientAdvancedSettings2** 傳遞給 **QueryInterface**。
 
@@ -41,7 +41,7 @@ ms.locfileid: "104317327"
 
 
 
-| 屬性                                                                                      | 存取類型           | Description                                                                                                                                           |
+| 屬性                                                                                      | 存取類型           | 描述                                                                                                                                           |
 |:----------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CanAutoReconnect**](imsrdpclientadvancedsettings2-canautoreconnect.md)<br/>         | 唯讀<br/>  | 指定當網路連線中斷時，用戶端控制項是否能夠自動重新連接到目前的會話。<br/>    |
 | [**EnableAutoReconnect**](imsrdpclientadvancedsettings2-enableautoreconnect.md)<br/>   | 讀取/寫入<br/> | 指定當網路連線中斷時，是否要讓用戶端控制項自動重新連線到會話。<br/>            |

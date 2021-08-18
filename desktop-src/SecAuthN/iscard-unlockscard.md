@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 68907e157e60518d1df3855fbca69709f2c21437
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e61811d84520db2d152fdbfdccfaeefafbee3c0a221e19cf56050096e1f5f5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482088"
 ---
 # <a name="iscardunlockscard-method"></a>ISCard：： UnlockSCard 方法
 
-\[**UnlockScard** 方法可用於 [需求] 區段中指定的作業系統。 它無法在 Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
+\[**UnlockScard** 方法可用於 [需求] 區段中指定的作業系統。 它無法用於 Windows Server 2003 Service Pack 1 (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
 
 **UnlockScard** 方法會釋放 [*智慧卡*](../secgloss/s-gly.md)的獨佔存取權。
 
@@ -67,7 +67,7 @@ HRESULT UnlockSCard(
 
 
 
-| 傳回碼                                                                                  | Description                                         |
+| 傳回碼                                                                                  | 描述                                         |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 作業順利完成。<br/>        |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | *處置* 參數無效<br/> |
@@ -105,8 +105,8 @@ if (FAILED(hr))
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Scardmgr。h</dt> </dl>   |

@@ -4,23 +4,23 @@ ms.assetid: 70b47e29-c755-4c59-a493-d7fcbbc94b83
 title: 自訂 Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b64da4baae9b52dd53e288c631f35d33ea5a3085
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a10b2ae1e029bb741a2402a25d8e51f331fdd1cac1e9918dfef3b35b36c8e6d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008656"
 ---
 # <a name="customizing-winlogon"></a>自訂 Winlogon
 
 藉由執行認證提供者來自訂 [*Winlogon*](/windows/desktop/SecGloss/w-gly) 行為。 如需認證提供者的詳細資訊，請參閱 [**ICredentialProvider 介面**](/windows/win32/api/credentialprovider/nn-credentialprovider-icredentialprovider)。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援認證提供者。
+**Windows Server 2003 和 Windows XP：** 不支援認證提供者。
 
-下列各節說明在 windows Vista 之前的 Windows 版本中自訂 Winlogon 的方式。
+下列各節說明在 Windows Vista 之前的 Windows 版本中自訂 Winlogon 的方式。
 
 > [!Note]  
-> Windows Vista 中會忽略 GINA Dll 和 Winlogon 通知套件。
+> Windows Vista 會忽略 GINA dll 和 Winlogon 通知套件。
 
  
 

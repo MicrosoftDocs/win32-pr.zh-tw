@@ -1,25 +1,25 @@
 ---
 description: 下列工具僅適用于 Windows Installer 開發人員的 Windows SDK 元件。
 ms.assetid: b1305eaf-cd25-4684-a593-d8b1aac83592
-title: Windows Installer 開發工具
+title: Windows安裝程式開發工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9f4d3cfdac2bae4c131b47e1c5e0cf7a63fc5a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 674d32f8932e4ac35d18ae0a39671feb948e8395381e843f6f267f090289c9be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012656"
 ---
-# <a name="windows-installer-development-tools"></a>Windows Installer 開發工具
+# <a name="windows-installer-development-tools"></a>Windows安裝程式開發工具
 
-下列工具僅適用于 [Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+下列工具僅適用于[Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 
 
 | 公用程式                          | 描述                                                                                                                                                                                                                                      |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Instmsi.exe](instmsi-exe.md)   | 在 windows Me 之前的 Windows 作業系統上安裝 Windows Installer 的可轉散發套件。                                                                                                                               |
+| [Instmsi.exe](instmsi-exe.md)   | 可轉散發套件，可在早于 Windows Me 的 Windows 作業系統上安裝 Windows Installer。                                                                                                                               |
 | [Msicert.exe](msicert-exe.md)   | 使用屬於媒體資料表中外部封包檔的數位簽章資訊，填入 MsiDigitalSignature 資料表和 MsiDigitalCertificate 資料表。                                                                           |
 | [Msidb.exe](msidb-exe.md)       | 匯入和匯出資料庫資料表和資料流程、合併資料庫，並套用轉換。                                                                                                                                                       |
 | [Msifiler.exe](msifiler-exe.md) | 使用以來原始目錄為基礎的檔案版本、語言和大小來擴展檔案資料表。 它也可以使用檔案雜湊來更新 MsiFileHash 資料表。                                                                                      |
@@ -32,7 +32,7 @@ ms.locfileid: "104319499"
 | [Msival2.exe](msival2-exe.md)   | 執行一或一組 [內部一致性評估工具-ices-003](internal-consistency-evaluators-ices.md)。                                                                                                                                       |
 | [Msizap.exe](msizap-exe.md)     | 移除電腦上所安裝之產品或所有產品的 Windows Installer 資訊。                                                                                                                                                      |
 | [Orca.exe](orca-exe.md)         | 資料庫編輯器。 建立和編輯 .msi 檔案和合併模組。                                                                                                                                                                                 |
-| [PATCHWIZ.DLL](patchwiz-dll.md) | 從 pcp 檔案) 的 patch 建立 ( 屬性檔產生 Windows Installer [修補套件](patch-packages.md) 。 產生修補程式套件的建議方法是使用修補程式建立工具，例如 Msimsp.exe 與 PATCHWIZ.DLL。 |
+| [PATCHWIZ.DLL](patchwiz-dll.md) | 從 pcp 檔案) 的 patch 建立 ( 屬性檔產生 Windows Installer[修補套件](patch-packages.md)。 產生修補程式套件的建議方法是使用修補程式建立工具，例如 Msimsp.exe 與 PATCHWIZ.DLL。 |
 | [Wilogutl.exe](wilogutl-exe.md) | 協助分析 Windows Installer 安裝中的記錄檔，並顯示錯誤的建議解決方案。                                                                                                                              |
 
 
