@@ -1,5 +1,5 @@
 ---
-title: 'IWMPSettings (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPSettings (VB 和 C ) 介面 (Wmp. h) '
 description: 提供屬性和方法，以取得或設定 Windows Media Player 設定的值。IWMPSettings 介面會公開下列屬性。
 ms.assetid: fb37b455-221e-4cee-a219-cacf2938a92a
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db911cc6d18ba40777e77a803480c7fcab4ff8ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a537efcd9b39f993705244020e579b9d667164180fd5cd70ab05fc692bed8fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996468"
 ---
 # <a name="iwmpsettings-vb-and-c-interface"></a>IWMPSettings (VB 和 c # ) 介面
 
@@ -56,7 +56,7 @@ ms.locfileid: "106999336"
 
 
 
-| 屬性                                                                                              | 存取類型           | Description                                                                                                                                  |
+| 屬性                                                                                              | 存取類型           | 描述                                                                                                                                  |
 |:------------------------------------------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
 | [**啟動**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)<br/>                   | 讀取/寫入<br/> | 取得或設定值，這個值表示目前的媒體專案是否會自動開始播放。 <br/>                                     |
 | [**平衡**](wmplibiwmpsettings-iwmpsettings-balance--vb-and-c.md)<br/>                       | 讀取/寫入<br/> | 取得或設定目前的立體餘額。<br/>                                                                                          |
@@ -100,7 +100,7 @@ ms.locfileid: "106999336"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings2 介面 (VB 和 c # )**](iwmpsettings2--vb-and-c.md)

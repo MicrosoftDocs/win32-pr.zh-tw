@@ -4,12 +4,12 @@ ms.assetid: d0c0d62d-9133-4d4b-8606-c2ae1d4c9f0a
 title: 'METransformMarker 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab79c47e2ddb26f2366aff075548f7905807df1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7029119b30314e56531c0afb29accadb67e1efb343a906c2558af2157c0b1f82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827038"
 ---
 # <a name="metransformmarker-event"></a>METransformMarker 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106974588"
 
 
 
-| VARTYPE              | Description               |
+| VARTYPE              | 描述               |
 |----------------------|---------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> |
 
@@ -53,8 +53,8 @@ ms.locfileid: "106974588"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                  |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                  |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

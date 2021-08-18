@@ -4,12 +4,12 @@ ms.assetid: fdd31eac-1dd6-45f0-90fb-d5a74c85db2e
 title: 針對 ASF 資料流程使用相互排除
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 411b5aa0638ab1c56298b93d01e8de99920abc6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40c7fd104659064952803c16f572ee1e55dee0508144474e89ee7c0f362315c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034560"
 ---
 # <a name="using-mutual-exclusion-for-asf-streams"></a>針對 ASF 資料流程使用相互排除
 

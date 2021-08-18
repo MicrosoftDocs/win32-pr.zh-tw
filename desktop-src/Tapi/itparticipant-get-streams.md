@@ -4,12 +4,12 @@ ms.assetid: 9ab05b14-8ef8-4e7f-b598-05795011e35d
 title: 'ITParticipant：： get_Streams 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a920929c71e01632edcd8c4c78029b479d8b250
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b66447cd320110db45e1624d677c9b76e518f926da341805bd7de992d0e0eec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003286"
 ---
 # <a name="itparticipantget_streams-method"></a>ITParticipant：： get \_ 串流方法
 

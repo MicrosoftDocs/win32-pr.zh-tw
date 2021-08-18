@@ -1,19 +1,19 @@
 ---
-title: 上傳作業的 BITS 伺服器設定
+title: Upload 作業的 BITS 伺服器設定
 description: 此章節包含下列主題。
 ms.assetid: 31be788a-de59-43df-b5cb-e97dfbfd5c05
 keywords:
-- 上傳作業位的 BITS 伺服器設定
+- Upload 作業位的 bits 伺服器設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a62e2a36743d3f2dac7c70f1b1097187ba44071e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: da8a947c89d0c807064f65a856ed889cde9b672af3ec6518e684fc0efe951413
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021227"
 ---
-# <a name="bits-server-settings-for-upload-jobs"></a>上傳作業的 BITS 伺服器設定
+# <a name="bits-server-settings-for-upload-jobs"></a>Upload 作業的 BITS 伺服器設定
 
 此章節包含下列主題。
 
@@ -27,13 +27,13 @@ ms.locfileid: "104020960"
 
 
 
- 
+ 
 
 如需有關為上傳設定 IIS 的詳細資訊，請參閱 [設定伺服器以進行上傳](setting-up-the-server-for-uploads.md)。
 
- 
+ 
 
- 
+ 
 
 
 

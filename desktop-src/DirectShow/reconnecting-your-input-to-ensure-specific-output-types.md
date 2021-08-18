@@ -4,12 +4,12 @@ ms.assetid: c83d002e-59bf-4d03-9917-e39ceab9a4ce
 title: 重新連接您的輸入，以確保特定的輸出類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d74d6914989231542ddfea9f97e93ce860d34eb4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 299d8aa400619043cc0d79242e35065ac4fc8490aad4972a33be6aea8fc4e7b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747308"
 ---
 # <a name="reconnecting-your-input-to-ensure-specific-output-types"></a>重新連接您的輸入，以確保特定的輸出類型
 

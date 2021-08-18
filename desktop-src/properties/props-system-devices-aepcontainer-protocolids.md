@@ -4,12 +4,12 @@ ms.assetid: 23009ff1-1749-48b2-8a45-dfddaea22f9d
 title: System.Devices.AepContainer.ProtocolIds
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bd1c16ff517791c8d06d59dff6161ef88b8b7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2c70fcae634c34b1b0e004a598d7046f3bdf5cd3234e951df8adedcace5e5fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106969423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775898"
 ---
 # <a name="systemdevicesaepcontainerprotocolids"></a>System.Devices.AepContainer.ProtocolIds
 

@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: f7b9adaf5caf7b4b2d35035fd5c2a916298b0c8c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 00219ed1c38105562591b63e6bef64b949b2ab4443aed68e0e6b9d64cb156cc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849688"
 ---
 # <a name="d3dxshmultiply2-function-d3dx9mathh"></a>D3DXSHMultiply2 函式 (D3dx9math) 
 

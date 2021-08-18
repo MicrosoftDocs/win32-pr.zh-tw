@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1b0e78443ca0cd2e60cf851f74e9125d920bf9ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dafec7ae3e325965df113e4aa5f901107ffb16d230baf23ada5fa939b94261cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787848"
 ---
 # <a name="idcompositionhuerotationeffectsetangle-methods"></a>idcompositionhuerotationeffect：： SetAngle 方法
 

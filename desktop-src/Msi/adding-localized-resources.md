@@ -4,12 +4,12 @@ ms.assetid: f5af0ecd-cb57-4858-88b4-4608893004f6
 title: 新增當地語系化的資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7646499e4bb48e3df9fc1527bff1273e6b6784bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de37bfd3c216018f6c4a6f6866206020576153e55383a9d6b36e67533bbb3b6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829238"
 ---
 # <a name="adding-localized-resources"></a>新增當地語系化的資源
 
@@ -19,7 +19,7 @@ ms.locfileid: "106974650"
 
 法文套件會將 Help.txt 安裝到 RedPark 資料夾的新子目錄中，也就是法文。 因為新增 Fre.txt 會將資源新增至原始說明元件，所以法文和英文套件中的說明元件的元件程式碼必須不同。 請參閱 [變更元件程式碼](changing-the-component-code.md)中元件程式碼的規則。
 
-法文套件會將 Readme.txt 安裝到目錄法文中，如此一來，此檔案名就不會與英文版發生衝突。 檔案 Readme.txt 是與 [記事本] 元件一起安裝，但是元件規則不需要變更元件程式碼。 在此範例中，[記事本] 的元件程式碼不應該變更，因為 RedPark.exe （登錄 [表](registry-table.md)中指定的登錄值）都是由這兩種語言版本所共用。 請參閱 [新增登錄資訊](adding-registry-information.md)。
+法文套件會將 Readme.txt 安裝到目錄法文中，如此一來，此檔案名就不會與英文版發生衝突。 Readme.txt 的檔案會隨記事本元件一起安裝，但是元件規則不需要變更元件程式碼。 在此範例中，記事本的元件程式碼不應該變更，因為 RedPark.exe （登錄[表](registry-table.md)中指定的登錄值）都是由這兩種語言版本所共用。 請參閱 [新增登錄資訊](adding-registry-information.md)。
 
 從原始程式檔移除英文版的 Help.txt 和 Readme.txt，並新增 Help.txt、Readme.txt 和 Fre.txt 的法文版。 當地語系化的封裝應該將檔案的安裝從來源對應到目標，如下所示。
 
@@ -27,10 +27,10 @@ ms.locfileid: "106974650"
 
 | 檔案        | 描述                  | 來源的路徑                   | 目標路徑                                         |
 |-------------|------------------------------|----------------------------------|--------------------------------------------------------|
-| Redpark.exe | 文字編輯器可執行檔。 | C： \\ 範例 \\ Notepad \\Redpark.exe | \[ProgramFilesFolder \] \\ Red \_ 公園 \\ 法文 \\Redpark.exe |
-| Readme.txt  | 資訊檔。       | C： \\ 範例 \\ Notepad \\Readme.txt  | \[ProgramFilesFolder \] \\ Red \_ 公園 \\ 法文 \\Readme.txt  |
-| Help.txt    | 協助手動                  | C： \\ 範例 \\ Notepad \\Help.txt    | \[ProgramFilesFolder \] \\ Red \_ 公園 \\ 法文 \\Help.txt    |
-| Fre.txt     | 電話清單                   | C： \\ 範例 \\ Notepad \\Fre.txt     | \[ProgramFilesFolder \] \\ Red \_ 公園 \\ 法文 \\Fre.txt     |
+| Redpark.exe | 文字編輯器可執行檔。 | C： \\ 範例 \\ 記事本 \\Redpark.exe | \[ProgramFilesFolder \] \\ Red \_ 公園 \\ 法文 \\Redpark.exe |
+| Readme.txt  | 資訊檔。       | C： \\ 範例 \\ 記事本 \\Readme.txt  | \[ProgramFilesFolder \] \\ Red \_ 公園 \\ 法文 \\Readme.txt  |
+| Help.txt    | 協助手動                  | C： \\ 範例 \\ 記事本 \\Help.txt    | \[ProgramFilesFolder \] \\ Red \_ 公園 \\ 法文 \\Help.txt    |
+| Fre.txt     | 電話清單                   | C： \\ 範例 \\ 記事本 \\Fre.txt     | \[ProgramFilesFolder \] \\ Red \_ 公園 \\ 法文 \\Fre.txt     |
 
 
 
@@ -50,7 +50,7 @@ ms.locfileid: "106974650"
 | HOLDIR                                           | MONDIR                                           | .：假日        |
 | MENUDIR                                          | NOTEPADDIR                                       | 功能表              |
 | MONDIR                                           | NOTEPADDIR                                       | 門              |
-| NOTEPADDIR                                       | [**ProgramFilesFolder**](programfilesfolder.md) | 紅色 \_ 公園：記事本 |
+| NOTEPADDIR                                       | [**ProgramFilesFolder**](programfilesfolder.md) | Red \_ 公園：記事本 |
 | SPORTDIR                                         | NOTEPADDIR                                       | 運動：活動     |
 | FRENCHDIR                                        | NOTEPADDIR                                       | 法語：。          |
 
@@ -70,7 +70,7 @@ ms.locfileid: "106974650"
 | 演唱會   | {76FA7A80-33F6-11D3-91D8-00C04FD70856} | ARTSDIR     | 2          |           | Concert.txt  |
 | 舞蹈     | {CCF834A1-33F8-11D3-91D8-00C04FD70856} | ARTSDIR     | 2          |           | Dance.txt    |
 | 足球  | {CCF834A0-33F8-11D3-91D8-00C04FD70856} | SPORTDIR    | 2          |           | Football.txt |
-| Help      | {9ED21229-FE3C-4FE9-B01D-57E00224FD0B} | NOTEPADDIR  | 2          |           | Help.txt     |
+| 說明      | {9ED21229-FE3C-4FE9-B01D-57E00224FD0B} | NOTEPADDIR  | 2          |           | Help.txt     |
 | 一月   | {CF0BC690-33C9-11D3-91D6-00C04FD70856} | MONDIR      | 2          |           | January.txt  |
 | NewYears  | {A42D9140-33D8-11D3-91D6-00C04FD70856} | HOLDIR      | 2          |           | NewYears.txt |
 | [記事本]   | {19BED232-30AB-11D3-91D3-00C04FD70856} | FRENCHDIR   | 2          |           | Redpark.exe  |
@@ -91,12 +91,12 @@ ms.locfileid: "106974650"
 | Concert.txt  | 演唱會     | Concert.txt  | 1000     |         |          | 0          | 1        |
 | Dance.txt    | 舞蹈       | Dance.txt    | 1000     |         |          | 0          | 1        |
 | Football.txt | 足球    | Football.txt | 1000     |         |          | 0          | 1        |
-| Help.txt     | Help        | Help.txt     | 1000     |         | 1036     | 0          | 1        |
+| Help.txt     | 說明        | Help.txt     | 1000     |         | 1036     | 0          | 1        |
 | January.txt  | 一月     | January.txt  | 1000     |         |          | 0          | 1        |
 | NewYears.txt | NewYears    | NewYears.txt | 1000     |         |          | 0          | 1        |
 | Redpark.exe  | [記事本]     | Redpark.exe  | 45328    |         |          | 0          | 1        |
 | Readme.txt   | [記事本]     | Readme.txt   | 1000     |         | 1036     | 0          | 1        |
-| Fre.txt      | Help        | Fre.txt      | 1000     |         | 1036     | 0          | 1        |
+| Fre.txt      | 說明        | Fre.txt      | 1000     |         | 1036     | 0          | 1        |
 
 
 

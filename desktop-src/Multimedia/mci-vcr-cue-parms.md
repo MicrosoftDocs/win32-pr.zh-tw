@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eeae20495281640718f95066476f0f3ac89dc6f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ff14bf6db2fee24b2cee426114b460dc5e4682bd00e14f7b68a91695bab1f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038238"
 ---
 # <a name="mci_vcr_cue_parms-structure"></a>MCI \_ VCR \_ 提示 \_ PARMS 結構
 
@@ -83,7 +83,7 @@ typedef struct tagMCI_VCR_CUE_PARMS {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

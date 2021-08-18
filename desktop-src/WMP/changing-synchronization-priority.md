@@ -6,23 +6,23 @@ keywords:
 - Windows Media Player，同步播放清單
 - Windows Media Player 物件模型，同步播放清單
 - 物件模型，同步處理播放清單
-- Windows Media Player 行動裝置、同步播放清單
-- Windows Media Player ActiveX 控制項，同步播放清單
-- Windows Media Player 的行動 ActiveX 控制項、同步播放清單
+- Windows Media Player行動裝置，同步播放清單
+- Windows Media Player ActiveX 控制項、同步播放清單
+- Windows Media Player行動 ActiveX 控制項、同步播放清單
 - ActiveX 控制項，同步播放清單
 - 播放清單，同步處理
 - 中繼檔播放清單，同步處理
-- Windows Media 中繼檔播放清單，同步處理
+- Windows媒體中繼檔播放清單，同步處理
 - 可攜式裝置，變更同步播放清單優先順序
 - 同步播放清單，優先順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 327f211282e2e3b35c21dce721a17f99dcb6583d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 1513679bcde31893cd7c4f456bc0e99404bb5dc66de37976f2053ae1559a4cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997658"
 ---
 # <a name="changing-synchronization-priority"></a>變更同步處理優先權
 
@@ -94,9 +94,9 @@ void CSyncSettings::SetPriorities()
 [**管理同步播放清單**](managing-synchronization-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

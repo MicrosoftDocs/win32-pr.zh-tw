@@ -4,16 +4,16 @@ ms.assetid: fc52f7bc-e9c7-4cd4-91e8-5c8f3450ca95
 title: 推送來源篩選範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ce22c7c6d73f54152ce469b4b3bb40c20db6c29
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c0e72a9be7e5fa81d4fe2dc006c6d12e42f4f94d91561823b7f26a8400bbddda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747788"
 ---
 # <a name="push-source-filters-sample"></a>推送來源篩選範例
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 此範例包含一組三個來源篩選器，可提供下列來源資料作為影片串流：
 
@@ -32,7 +32,7 @@ ms.locfileid: "104509994"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
 此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ 篩選 \\ PushSource。
 
@@ -40,7 +40,7 @@ ms.locfileid: "104509994"
 
 <dl> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> </dl>
 
  

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 53eb6948090d29fcb116bb7c9a614027bc7737fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4b680de8abdbf1c45e8f06700de518f97b35ca50da1b2a2ed19b5679c10d4bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730388"
 ---
 # <a name="jet_opentemporarytable-constructor"></a>JET_OPENTEMPORARYTABLE 的函式
 

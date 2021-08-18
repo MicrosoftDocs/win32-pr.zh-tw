@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 34ba471c50ceb9475121139c3ecb997cf1d26f2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a3ac2f2234c986c9a86073e25e1277fa1af4f10f2809e013bc65849120b90c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005436"
 ---
 # <a name="ichaincontext-interface"></a>IChainCoNtext 介面
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。\]
 
 **IChainCoNtext** 介面可讓您存取 CAPICOM [**鏈**](chain.md)物件的內容。 此內容允許將 CAPICOM 憑證信任鏈用於其他的 CryptoAPI 衍生。
 
@@ -57,7 +57,7 @@ ms.locfileid: "107001489"
 
 
 
-| 屬性                                                      | 存取類型           | Description                                                               |
+| 屬性                                                      | 存取類型           | 描述                                                               |
 |:--------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------|
 | [**ChainCoNtext**](ichaincontext-chaincontext.md)<br/> | 讀取/寫入<br/> | 設定或抓取憑證的 PCCERT \_ 鏈 \_ 內容。<br/> |
 

@@ -4,12 +4,12 @@ ms.assetid: 1BD64741-C316-4E74-B0AB-4E595C77FD91
 title: 虛擬系統類別
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b45f464fb5eca5c2ae87baa4b9142554525790b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b67464c8a8e0a7c738685207e58396d4777cee9eb875c1d5f6879c665d5aa44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765538"
 ---
 # <a name="virtual-system-classes"></a>虛擬系統類別
 

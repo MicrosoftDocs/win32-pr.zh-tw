@@ -4,12 +4,12 @@ ms.assetid: 924858b7-8956-4636-b7c7-c902aa822ee1
 title: 延伸模組資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ef52f7248f44dcb63255244bbd8abd4ac8181d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d664df812b723d7ab6c9b966b09fac8c57a35b655e123f720fdb87bdf431146
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821738"
 ---
 # <a name="extension-table"></a>延伸模組資料表
 
@@ -21,11 +21,11 @@ ms.locfileid: "106974178"
 
 | Column      | 類型                         | 答案 | Nullable |
 |-------------|------------------------------|-----|----------|
-| 分機   | [Text](text.md)             | Y   | N        |
+| 延伸模組   | [Text](text.md)             | Y   | N        |
 | 元件\_ | [識別碼](identifier.md) | Y   | N        |
 | ProgId\_    | [Text](text.md)             | N   | Y        |
 | MIME\_      | [Text](text.md)             | N   | Y        |
-| 功能\_   | [識別碼](identifier.md) | N   | N        |
+| 特徵\_   | [識別碼](identifier.md) | N   | N        |
 
 
 
@@ -56,7 +56,7 @@ ms.locfileid: "106974178"
 
 </dd> <dt>
 
-<span id="MIME_"></span><span id="mime_"></span>Mime\_
+<span id="MIME_"></span><span id="mime_"></span>MIME\_
 </dt> <dd>
 
 要為延伸模組資料行撰寫的內容類型。

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 947f0b7893cf583cee3a4c6696341bacac8af0de
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a21aa98ff3e1f6d7c35f629ce72f9ff261b4586f8d2e1e622ba1d170d0556309
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844588"
 ---
 # <a name="span-idvspixenginethreaddata3dspanthreaddata3d-structure"></a><span id="vspixengine.threaddata3d"></span>ThreadData3D 結構
 

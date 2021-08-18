@@ -4,12 +4,12 @@ ms.assetid: C1F27F39-FADA-4644-ACD6-B02EAD9CFFE7
 title: 'MF_SA_MINIMUM_OUTPUT_SAMPLE_COUNT_PROGRESSIVE 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b452f9fa4016705ed90a7f5b07abcaa6ff11983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48df5262e225b8768d3251f9768cf2156ee2acacb19ca70752ae5bf989b682ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955428"
 ---
 # <a name="mf_sa_minimum_output_sample_count_progressive-attribute"></a>MF \_ SA \_ 最小 \_ 輸出 \_ 範例 \_ 計數 \_ 漸進屬性
 
@@ -34,8 +34,8 @@ ms.locfileid: "104193621"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

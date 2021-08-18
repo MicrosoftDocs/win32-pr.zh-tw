@@ -1,21 +1,21 @@
 ---
-description: 連絡人的辦公室位置。
+description: 連絡人的 Office 位置。
 ms.assetid: 2141d58a-30e8-4364-9d48-f9b2c11d5ed7
 title: OfficeLocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 236e3e9dfd5f8e41066342abecf61400ed4075b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90f4ebe7cc97938e17e5f78a961be17e036607520f002cd951b249b8b5b4826e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011158"
 ---
 # <a name="systemcontactofficelocation"></a>OfficeLocation
 
-連絡人的辦公室位置。
+連絡人的 Office 位置。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

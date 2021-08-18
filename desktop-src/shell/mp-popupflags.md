@@ -26,12 +26,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5d49f848df7749a732e9f0b849d44a9be56a5c3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1f6211769eca021f76fcbef34625f705cd3bf3fed02ca548d2965f17de80af7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710008"
 ---
 # <a name="mp_popupflags-constants"></a>MP \_ POPUPFLAGS 常數
 
@@ -39,7 +39,7 @@ ms.locfileid: "104113968"
 
 
 
-| 常數/值                                                                                                                                                                                                                               | Description                                                                                                                                                                                                                                                              |
+| 常數/值                                                                                                                                                                                                                               | 描述                                                                                                                                                                                                                                                              |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="MPPF_SETFOCUS"></span><span id="mppf_setfocus"></span><dl> <dt>**MPPF \_SETFOCUS**</dt> <dt>0x00000001</dt> </dl>                | 提供快顯功能表焦點。<br/>                                                                                                                                                                                                                               |
 | <span id="MPPF_INITIALSELECT"></span><span id="mppf_initialselect"></span><dl> <dt>**MPPF \_INITIALSELECT**</dt> <dt>0x00000002</dt> </dl> | 選取快顯功能表中的第一個專案。<br/>                                                                                                                                                                                                                     |
@@ -60,7 +60,7 @@ ms.locfileid: "104113968"
 
 ## <a name="remarks"></a>備註
 
-這些常數定義于從 Windows XP Service Pack 1 (SP1) 和 Windows Server 2003 開始的 Shobjidl.h .h 檔案
+這些常數定義于從 Windows XP Service Pack 1 (SP1) 和 Windows Server 2003 開始的 shobjidl.h .h 檔案中。
 
 ## <a name="requirements"></a>規格需求
 
@@ -68,10 +68,10 @@ ms.locfileid: "104113968"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Shobjidl.h。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
 
 
 

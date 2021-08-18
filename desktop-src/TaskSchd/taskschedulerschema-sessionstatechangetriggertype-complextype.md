@@ -55,7 +55,7 @@ ms.locfileid: "119990938"
 
 
 
-| 元素                                                                                      | 類型                                                                                    | Description                                                                                                                                           |
+| 元素                                                                                      | 類型                                                                                    | 描述                                                                                                                                           |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**延遲**](taskschedulerschema-delay-sessionstatechangetriggertype-element.md)             | duration                                                                                | 指定值，這個值表示在偵測到終端機伺服器會話狀態變更時，工作開始之前的延遲時間長度。<br/> |
 | [**StateChange**](taskschedulerschema-statechange-sessionstatechangetriggertype-element.md) | [**sessionStateChangeType**](taskschedulerschema-sessionstatechangetype-simpletype.md) | 指定會觸發工作啟動的終端機伺服器會話變更類型。<br/>                                                     |

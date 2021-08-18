@@ -4,12 +4,12 @@ description: 您已建立您的視窗。 現在您想要在其中顯示某個東
 ms.assetid: db97a4c9-7592-42d1-a5de-9c468169eefc
 ms.topic: article
 ms.date: 08/16/2019
-ms.openlocfilehash: f0f9d5c2759ea1735e370eb258743364980daee8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 93d0cb0234975b61ee7ffc05a680b5e1e6b1e01b9d4de7235fc4239ec5573f29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104566225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896998"
 ---
 # <a name="painting-the-window"></a>繪製視窗
 
@@ -57,7 +57,7 @@ switch (uMsg)
 
 在您的繪圖程式碼中，您有兩個基本選項：
 
-- 無論更新區域的大小為何，都要繪製整個工作區。 任何落在更新區域以外的地方都會裁剪。 也就是說，作業系統會忽略它。
+- 無論更新區域的大小為何，小畫家整個工作區。 任何落在更新區域以外的地方都會裁剪。 也就是說，作業系統會忽略它。
 - 藉由只繪製更新區域內視窗的部分來優化。
 
 如果您一律繪製整個工作區，則程式碼會比較簡單。 但是，如果您有複雜的繪製邏輯，則略過更新區域以外的區域可能更有效率。
@@ -70,9 +70,9 @@ FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
 
 在此範例中， [**FillRect**](/windows/desktop/api/winuser/nf-winuser-fillrect) 的詳細資料並不重要，但第二個參數會提供矩形的座標來填滿。 在此情況下，我們會將整個更新區域傳入 ([**PAINTSTRUCT**](/windows/win32/api/winuser/ns-winuser-paintstruct)) 的 **rcPaint** 成員。 在第一個 [**WM \_ 油漆**](/windows/desktop/gdi/wm-paint) 訊息上，必須繪製整個工作區，因此 **rcPaint** 將包含整個工作區。 在後續的 **WM \_ 油漆** 訊息上， **rcPaint** 可能會包含較小的矩形。
 
-[**FillRect**](/windows/desktop/api/winuser/nf-winuser-fillrect)函式是圖形裝置介面的 (GDI) 的一部分，而這項功能的 Windows 圖形有很長的時間。 在 Windows 7 中，Microsoft 引進了一個名為 Direct2D 的新圖形引擎，它可支援高效能圖形作業，例如硬體加速。 Windows Vista 的 Direct2D 也適用于 windows Vista，以及透過 windows Server 2008 的平臺更新的 windows Server 2008 [平臺更新](../win7ip/platform-update-for-windows-vista-overview.md) 。 仍完全支援 (GDI。 ) 
+[**FillRect**](/windows/desktop/api/winuser/nf-winuser-fillrect)函式是圖形裝置介面 (GDI) 的一部分，而這種的驅動 Windows 圖形很長一段時間。 在 Windows 7 中，Microsoft 引進了新的圖形引擎（名為 Direct2D），可支援高效能圖形作業，例如硬體加速。 Direct2D 也可透過適用于[Windows Vista 的平臺更新](../win7ip/platform-update-for-windows-vista-overview.md)，以及透過 Windows Server 2008 的平臺更新 Windows Server 2008 來 Windows Vista。 仍完全支援 (GDI。 ) 
 
-完成繪製之後，請呼叫 [**EndPaint**](/windows/desktop/api/winuser/nf-winuser-endpaint) 函數。 此函式會清除更新區域，這會向 Windows 發出信號，表示視窗已完成繪圖本身。
+完成繪製之後，請呼叫 [**EndPaint**](/windows/desktop/api/winuser/nf-winuser-endpaint) 函數。 此函式會清除更新區域，以通知 Windows 視窗已完成繪圖本身。
 
 ## <a name="next"></a>下一個
 

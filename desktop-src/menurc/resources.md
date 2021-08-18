@@ -6,12 +6,12 @@ keywords:
 - 資源，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b701d2d6aeb039b146ddca78ee3ba27d185574f9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 72e18de6725c25cebf57da9a34364562b9c1ea88f16e9ea89f5eabdae2582d7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776848"
 ---
 # <a name="menus-and-other-resources"></a>功能表與其他資源
 
@@ -21,7 +21,7 @@ ms.locfileid: "104375056"
 
 
 
-| Name                                                                    | 描述                                                                                                                                                 |
+| 名稱                                                                    | 描述                                                                                                                                                 |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [資源簡介](introduction-to-resources.md)              | 提供資源的總覽。<br/>                                                                                                               |
 | [游標](carets.md)                                                    | 討論游標，這是視窗工作區中的閃爍線、區塊或點陣圖。<br/>                                                   |

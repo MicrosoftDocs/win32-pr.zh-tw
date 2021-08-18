@@ -4,12 +4,12 @@ ms.assetid: 8667305e-ca76-49cb-878e-07814431e6db
 title: 不同系統上的多個監視器應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec5d470861136ac9362d986b8647c86abee7021b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: a4c597261063f49b6e6856576e3528698291348afb2b8478d854a824b92d2cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037716"
 ---
 # <a name="multiple-monitor-applications-on-different-systems"></a>不同系統上的多個監視器應用程式
 

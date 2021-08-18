@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d8788b8e910e0a5b7debd9990c18dfb4edef140e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1607d6b6db173b79db19584444b6928fc0e87b9ecf11e39b9e67e34acdb29496
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003658"
 ---
 # <a name="invoke-method-of-the-cim_memorycheck-class"></a>CIM MemoryCheck 類別的 Invoke 方法 \_
 

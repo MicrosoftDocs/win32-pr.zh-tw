@@ -12,16 +12,16 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 935ddac5660c814b898be17218d879678f2135ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df6670e852ccd12fd2bed1d0c188aa0252c9b3afbcb899cf9480b7011d08625d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008226"
 ---
 # <a name="event-handler-function-prototype-callback-function"></a>事件處理常式函式原型回呼函數
 
-\[從 Windows Server 2008 和 Windows Vista 起，無法再使用事件處理常式原型函式。 \]
+\[從 Windows Server 2008 和 Windows Vista 中，不再提供事件處理常式原型函式使用。 \]
 
 事件處理常式原型函式用於所有處理 [*Winlogon*](/windows/desktop/SecGloss/w-gly) 通知事件的函式。 函式名稱（以預留位置 *事件 \_ 處理常式函式 \_ \_ 名稱* 表示）通常會反映函式處理的事件名稱。 例如，處理登入事件的函式可能會命名為： **WLEventLogon**。
 
@@ -113,8 +113,8 @@ void WLEventLogoff (PWLX_NOTIFICATION_INFO pInfo)
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                       |
 

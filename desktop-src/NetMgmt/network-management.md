@@ -6,12 +6,12 @@ keywords:
 - 網路管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e18433f3f9cb76c1e5bcaaef6eaa7623e882201f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 82c2c71c802a22d50bc003529576c16f23d4db2e5e6d128ae164421b9554fc44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779608"
 ---
 # <a name="network-management"></a>網路管理
 
@@ -34,9 +34,9 @@ ms.locfileid: "104507349"
 -   [使用網路管理](using-network-management.md)
 -   [網路管理參考](network-management-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

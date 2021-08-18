@@ -4,12 +4,12 @@ ms.assetid: 6806c320-6071-4075-9003-2469089a9cc4
 title: WRP 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 966e25d0c9c78e384c38098b43826f1e6342c9b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de4a2639d6796bd083c8f4df6a4952941cfa9e0426af6494229c7a3eddd5c7be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999198"
 ---
 # <a name="wrp-functions"></a>WRP 函式
 

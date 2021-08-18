@@ -4,12 +4,12 @@ description: 本章節包含有關自訂繪製功能的一般資訊，並提供�
 ms.assetid: dd104661-1e0c-4569-9753-817bcded1894
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 121a4df5aa6fab222a5c4387ebdcfba51a7977b2
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 7f4961d80c04f8fa570286666511c04b1208c940369cd13b836095b8899505de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104463864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922488"
 ---
 # <a name="about-custom-draw"></a>關於自訂繪圖
 
@@ -26,7 +26,7 @@ ms.locfileid: "104463864"
 <!-- -->
 
 -   [關於自訂繪製通知訊息](#about-custom-draw-notification-messages)
--   [繪製迴圈、繪製階段和通知訊息](#paint-cycles-drawing-stages-and-notification-messages)
+-   [小畫家迴圈、繪製階段和通知訊息](#paint-cycles-drawing-stages-and-notification-messages)
 -   [利用自訂繪圖服務](#taking-advantage-of-custom-draw-services)
     -   [回應 prepaint 通知](#responding-to-the-prepaint-notification)
     -   [要求專案特定通知](#requesting-item-specific-notifications)
@@ -54,17 +54,17 @@ ms.locfileid: "104463864"
 
 
 
- 
+ 
 
-## <a name="paint-cycles-drawing-stages-and-notification-messages"></a>繪製迴圈、繪製階段和通知訊息
+## <a name="paint-cycles-drawing-stages-and-notification-messages"></a>小畫家迴圈、繪製階段和通知訊息
 
-如同所有 Windows 應用程式，通用控制項會根據從系統或其他應用程式接收到的訊息，定期進行繪製和清除。 控制項繪製或清除的進程稱為「 *繪製迴圈*」。 支援自訂繪製的控制項會透過每個油漆週期定期傳送 [NM \_ CUSTOMDRAW](nm-customdraw.md) 通知碼。 此通知碼伴隨著 [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) 結構或另一個結構，其中包含 **NMCUSTOMDRAW** 結構作為其第一個成員。
+如同所有 Windows 的應用程式，通用控制項會根據從系統或其他應用程式接收到的訊息，定期進行繪製和清除。 控制項繪製或清除的進程稱為「 *繪製迴圈*」。 支援自訂繪製的控制項會透過每個油漆週期定期傳送 [NM \_ CUSTOMDRAW](nm-customdraw.md) 通知碼。 此通知碼伴隨著 [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) 結構或另一個結構，其中包含 **NMCUSTOMDRAW** 結構作為其第一個成員。
 
 [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw)結構所包含的其中一項資訊是繪製週期的目前階段。 這稱為「 *繪製階段* 」，並以結構 **dwDrawStage** 成員中的值表示。 控制項會通知其父系大約四個基本繪圖階段。 這些基本或全域繪圖階段會以下列旗標值在結構中表示， (在 Commctrl 中定義) 。
 
 
 
-| 全域繪製階段值 | Description                        |
+| 全域繪製階段值 | 描述                        |
 |--------------------------|------------------------------------|
 | CDDS \_ PREPAINT           | 開始繪製迴圈之前。     |
 | CDDS \_ POSTPAINT          | 繪製迴圈完成之後。 |
@@ -73,13 +73,13 @@ ms.locfileid: "104463864"
 
 
 
- 
+ 
 
 上述每個值都可以與 CDDS \_ 專案旗標結合，以指定專案特定的繪製階段。 為了方便起見，Commctrl 包含下列專案特定的值。
 
 
 
-| 專案特定的繪製階段值 | Description                                                                                                                                                                                                                                                                         |
+| 專案特定的繪製階段值 | 描述                                                                                                                                                                                                                                                                         |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CDDS \_ ITEMPREPAINT              | 繪製專案之前。                                                                                                                                                                                                                                                            |
 | CDDS \_ ITEMPOSTPAINT             | 繪製專案之後。                                                                                                                                                                                                                                                       |
@@ -89,7 +89,7 @@ ms.locfileid: "104463864"
 
 
 
- 
+ 
 
 您的應用程式必須處理 [NM \_ CUSTOMDRAW](nm-customdraw.md) 通知碼，然後傳回特定值，通知控制項它必須做什麼。 如需這些傳回值的詳細資訊，請參閱下列各節。
 
@@ -126,7 +126,7 @@ ms.locfileid: "104463864"
 
 
 
- 
+ 
 
 ### <a name="requesting-item-specific-notifications"></a>要求專案特定通知
 
@@ -145,7 +145,7 @@ ms.locfileid: "104463864"
 > [!Note]  
 > 在 [6.0 版](common-control-versions.md) 的通用控制項之前，工具列會忽略 [**CDRF \_ NEWFONT**](cdrf-constants.md) 旗標。 版本6.0 支援 **CDRF \_ NEWFONT** 旗標，您可以使用它來為工具列選取不同的字型。 不過，視覺效果樣式為作用中時，您無法變更工具列的色彩。 若要變更6.0 版中的工具列色彩，您必須先藉由呼叫 [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme) 並不指定視覺化樣式來停用視覺化樣式：
 
- 
+ 
 
 
 ```
@@ -196,6 +196,6 @@ SetWindowTheme (hwnd, "", "");
 [範例： CustDTv 說明 TreeView 中的自訂繪製 (Q248496) ]( https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

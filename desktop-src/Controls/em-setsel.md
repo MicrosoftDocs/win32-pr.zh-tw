@@ -3,7 +3,7 @@ title: 'EM_SETSEL 訊息 (Winuser .h) '
 description: 選取編輯控制項中的字元範圍。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: 5cb7ff1e-18e8-49c8-8072-872cf32b18b0
 keywords:
-- EM_SETSEL message Windows 控制項
+- EM_SETSEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4981fa179ae4bdd454ab0b0a6d7485185ed31d2c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 190d8a62b874d3449e0a9bf5d334a515000fb0436ba73753a8657936363071b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062888"
 ---
 # <a name="em_setsel-message"></a>EM \_ SETSEL 訊息
 
@@ -67,9 +67,9 @@ ms.locfileid: "104464896"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

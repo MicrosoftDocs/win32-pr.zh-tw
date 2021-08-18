@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wldp.h
-ms.openlocfilehash: 8914f93ff5936451b71b855473a09cb1d06584b4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fa52bc6259c75d5bb0929cb25610beb2b143515e2874b09bf04c454397a909e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758378"
 ---
 # <a name="wldp_host_id-enumeration"></a>WLDP \_ 主機 \_ 識別碼列舉
 
@@ -70,7 +70,7 @@ typedef enum _WLDP_HOST_ID {
 <span id="_WLDP_HOST_ID_WSH"></span><span id="_wldp_host_id_wsh"></span>**WLDP \_主機 \_ 識別碼 \_ WSH**
 </dt> <dd>
 
-主機類型為 Windows Script Host。
+主機類型是 Windows 腳本主機。
 
 </dd> <dt>
 
@@ -108,8 +108,8 @@ typedef enum _WLDP_HOST_ID {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Wldp。h</dt> </dl> |
 
 

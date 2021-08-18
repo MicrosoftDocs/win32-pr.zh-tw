@@ -3,19 +3,19 @@ title: Backup Restorer 物件
 description: Backup Restorer 物件
 ms.assetid: 83ce28c0-fd17-46ff-94c0-d28124a0e56a
 keywords:
-- Windows Media 格式 SDK，備份 restorer 物件
+- Windows媒體格式 SDK，備份 restorer 物件
 - Advanced Systems Format (ASF) 、backup restorer 物件
 - ASF (Advanced Systems Format) ，backup restorer 物件
 - 物件、備份 restorer 物件
 - 備份 restorer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d08e8bec9bb7bbc2a45fbf632e69d230a2536633
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8a7bf14f8afda284d8d0ae3d4f36d37fff0baa63f4f42802a98830038ec2d850
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106967244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028126"
 ---
 # <a name="backup-restorer-object"></a>Backup Restorer 物件
 
@@ -35,7 +35,7 @@ Backup restorer 物件支援下列介面。
 
 
 
- 
+ 
 
 下列回呼介面必須由應用程式執行，才能使用 backup restorer 物件。
 
@@ -47,7 +47,7 @@ Backup restorer 物件支援下列介面。
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -59,9 +59,9 @@ Backup restorer 物件支援下列介面。
 [**物件**](objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

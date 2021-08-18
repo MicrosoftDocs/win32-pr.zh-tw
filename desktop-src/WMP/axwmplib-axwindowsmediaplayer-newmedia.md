@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 093a4e2b8181aac9148686108ad2c5c318a4d0cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cdde19a6cb5da5113cb580c1916052c7ae0d38756bbc120368ffdfd464105591
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618738"
 ---
 # <a name="axwindowsmediaplayernewmedia-method"></a>AxWindowsMediaPlayer. newMedia 方法
 

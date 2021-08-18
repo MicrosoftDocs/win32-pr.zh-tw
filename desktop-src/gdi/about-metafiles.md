@@ -4,12 +4,12 @@ ms.assetid: 222f9b8b-d759-49f9-a3ea-ac59f85263b8
 title: 關於中繼檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdba8b3c0a13c6c5799563b05e189829a0734427
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc573d54f1f89e2dfe06edb8e225516fe8f0946485592d7d6aaea1faa651de85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779458"
 ---
 # <a name="about-metafiles"></a>關於中繼檔
 
@@ -27,7 +27,7 @@ ms.locfileid: "103691475"
 中繼檔有兩種類型：
 
 -   [增強格式的中繼檔](enhanced-format-metafiles.md)
--   [Windows-格式中繼檔](windows-format-metafiles.md)
+-   [Windows 格式中繼檔](windows-format-metafiles.md)
 
  
 

@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77d83ea8998da7c00fd294f81b94099d23d524e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac7e8859eabfa35d37464340958b52e85315a9237655107d6736af3555915757
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786345"
 ---
 # <a name="database-cache-parameters"></a>資料庫快取參數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="database-cache-parameters"></a>資料庫快取參數
 
@@ -36,7 +36,7 @@ _**適用于：** Windows |Windows Server_
 
 此參數會控制資料庫頁面快取的輔助部分大小，該部分在其他情況下無法使用時，用來模擬散佈收集 i/o。 大小是在資料庫頁面中。
 
-**WINDOWS XP 和更新版本：**  此參數已過時，且不會影響資料庫引擎的操作。
+**Windows XP 和更新版本：** 此參數已過時，且不會影響資料庫引擎的操作。
 
 <table>
 <colgroup>
@@ -117,8 +117,8 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong>  1 –1048575</p>
-<p><strong>WINDOWS XP：</strong>  1-4294967295</p></td>
+<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
+<p><strong>Windows XP：</strong> 1-4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -163,9 +163,9 @@ _**適用于：** Windows |Windows Server_
 
 根據預設，資料庫快取會在 **JET_paramCacheSizeMin** 和 **JET_paramCacheSizeMax** 所設定的限制之間自動調整其大小。
 
-**Windows 2000：**  在 Windows 2000 上，此參數的值應該設定為大約等於四倍的執行緒數目，這些執行緒會同時位於 ESE API 內。 這是為了避免資料庫頁面快取緩衝區數目不足所造成的鎖死，以執行像 B + 樹狀結構分割的複雜作業。
+**Windows 2000：** 在 Windows 2000 上，此參數的值應該設定為大約等於在 ESE API 內部的執行緒數目的四倍。 這是為了避免資料庫頁面快取緩衝區數目不足所造成的鎖死，以執行像 B + 樹狀結構分割的複雜作業。
 
-**WINDOWS XP 和更新版本：**  快取管理員會自動設定自己的最小快取大小，以避免鎖死。
+**Windows XP 和更新版本：** 快取管理員會自動設定自己的最小快取大小，以避免鎖死。
 
 <table>
 <colgroup>
@@ -175,8 +175,8 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000：</strong>  64</p>
-<p><strong>WINDOWS XP：</strong>  1</p></td>
+<td><p><strong>Windows 2000：</strong> 64</p>
+<p><strong>Windows XP：</strong> 1</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -184,8 +184,8 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong>  1 –1048575</p>
-<p><strong>WINDOWS XP：</strong>  1-4294967295</p></td>
+<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
+<p><strong>Windows XP：</strong> 1-4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -193,13 +193,13 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p><strong>Windows 2000：</strong>  不</p>
-<p><strong>WINDOWS XP：</strong>  是的</p></td>
+<td><p><strong>Windows 2000：</strong> 不</p>
+<p><strong>Windows XP：</strong> 是的</p></td>
 </tr>
 <tr class="even">
 <td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p><strong>Windows 2000：</strong>  不</p>
-<p><strong>WINDOWS XP：</strong>  是的</p></td>
+<td><p><strong>Windows 2000：</strong> 不</p>
+<p><strong>Windows XP：</strong> 是的</p></td>
 </tr>
 <tr class="odd">
 <td><p>會影響實體版面配置：</p></td>
@@ -234,7 +234,7 @@ _**適用于：** Windows |Windows Server_
 
 **注意**   如果此參數保留為其預設值，則在呼叫 [JetInit](./jetinit-function.md) 時，會將快取的大小上限設定為實體記憶體的大小。
 
-**Windows Vista：**  在 Windows Vista 中，此參數的預設值已變更，以闡明此行為。
+**Windows Vista：** 從 Windows Vista，此參數的預設值已變更，以闡明此行為。
 
 <table>
 <colgroup>
@@ -244,8 +244,8 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong>  512</p>
-<p><strong>Windows Vista：</strong>  2000000000</p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 512</p>
+<p><strong>Windows Vista：</strong> 2000000000</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -253,8 +253,8 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong>  1 –1048575</p>
-<p><strong>WINDOWS XP：</strong>  1-4294967295</p></td>
+<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
+<p><strong>Windows XP：</strong> 1-4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -262,13 +262,13 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
-<td><p><strong>Windows 2000：</strong>  不</p>
-<p><strong>WINDOWS XP：</strong>  是的</p></td>
+<td><p><strong>Windows 2000：</strong> 不</p>
+<p><strong>Windows XP：</strong> 是的</p></td>
 </tr>
 <tr class="even">
 <td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
-<td><p><strong>WINDOWS XP 和 windows 2000：</strong>  不</p>
-<p><strong>Windows Vista 和 Windows Server 2003：</strong>  是的</p></td>
+<td><p><strong>Windows XP 和 Windows 2000：</strong> 不</p>
+<p><strong>Windows Vista 和 Windows Server 2003：</strong> 是的</p></td>
 </tr>
 <tr class="odd">
 <td><p>會影響實體版面配置：</p></td>
@@ -319,13 +319,13 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong>  0 –2147483647</p>
-<p><strong>Windows Vista：</strong>  所有值</p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 0 –2147483647</p>
+<p><strong>Windows Vista：</strong> 所有值</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong> 此參數為 global。</p>
-<p><strong>Windows Vista：</strong>  此參數為每個實例。</p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong>此參數為 global。</p>
+<p><strong>Windows Vista：</strong> 此參數為每個實例。</p></td>
 </tr>
 <tr class="odd">
 <td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
@@ -412,7 +412,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows Vista 和更新版本</p></td>
+<td><p>WindowsVista 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -421,11 +421,11 @@ _**適用于：** Windows |Windows Server_
 *JET_paramEnableViewCache*  
 127  
 
-當此參數為 **True** 時，資料庫引擎將直接從 Windows 檔案快取使用資料庫資料，而不是將快取的資料複製到它自己的私用記憶體中。 任何修改過的資料庫資料仍會快取在私用記憶體中。
+當此參數為 **True** 時，資料庫引擎將直接使用 Windows 檔案快取中的資料庫資料，而不是將快取的資料複製到它自己的私用記憶體中。 任何修改過的資料庫資料仍會快取在私用記憶體中。
 
 這種模式的目的是要進一步減少 database engine 用來快取資料庫資料的私用記憶體量。
 
-只有在使用 Windows 檔案快取時，您可以將 JET_paramEnableFileCache 設定為 **True**，才能使用 view cache。
+只有將 JET_paramEnableFileCache 設定為 **True**，才能使用 Windows 檔案快取時，才可以使用 view cache。
 
 <table>
 <colgroup>
@@ -475,7 +475,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows Vista 和更新版本</p></td>
+<td><p>WindowsVista 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -502,8 +502,8 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003： </strong>    0 –2147483647</p>
-<p><strong>Windows Vista：</strong>  所有值</p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 0 –2147483647</p>
+<p><strong>Windows Vista：</strong> 所有值</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -546,7 +546,7 @@ _**適用于：** Windows |Windows Server_
 
 此參數會設定將保留資料庫頁面存取時間的非快取資料庫頁面數目上限。 這些記錄可讓快取的頁面取代演算法 (LRU-K) ，更精確地偵測錯誤地從資料庫頁面快取中收回的熱門頁面。
 
-**WINDOWS XP 和 Windows Server 2003：**  Windows XP 和 Windows Server 2003 會忽略此參數，且不會影響資料庫引擎的操作。
+**Windows XP 和 Windows Server 2003：** Windows XP 和 Windows Server 2003 會忽略此參數，且不會影響資料庫引擎的操作。
 
 <table>
 <colgroup>
@@ -556,8 +556,8 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000：</strong>  1024</p>
-<p><strong>Windows Vista：</strong>  100000</p></td>
+<td><p><strong>Windows 2000：</strong> 1024</p>
+<p><strong>Windows Vista：</strong> 100000</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -565,8 +565,8 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong>  0 –4194303</p>
-<p><strong>Windows Vista：</strong>  所有值</p></td>
+<td><p><strong>Windows 2000：</strong> 0 –4194303</p>
+<p><strong>Windows Vista：</strong> 所有值</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -684,8 +684,8 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong>  1 –2147483647</p>
-<p><strong>Windows Vista：</strong>   1-4294967295</p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 1 –2147483647</p>
+<p><strong>Windows Vista：</strong> 1-4294967295</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -733,7 +733,7 @@ _**適用于：** Windows |Windows Server_
 
 此參數會控制當資料庫頁面快取開始從快取收回頁面，以騰出空間給未快取的頁面時。 當快取中的頁面緩衝區數目降到低於此閾值時，就會啟動背景進程來補充該可用緩衝區集區。 此臨界值一律相對於 **JET_paramCacheSizeMax** 所設定的最大快取大小。 此臨界值也必須小於 **JET_paramStopFlushThreshold** 所設定的停止閾值。
 
-開始閾值的距離高度將決定資料庫頁面快取在應用程式需要之前產生可用緩衝區所必須擁有的回應時間。 高啟動臨界值可讓背景進程更有時間回應。 不過，高啟動閾值表示較高的停止閾值，而且會減少修改過的頁面的資料庫頁面快取大小 (Windows 2000) 或 (Windows XP 及更新版本) 的所有頁面。
+開始閾值的距離高度將決定資料庫頁面快取在應用程式需要之前產生可用緩衝區所必須擁有的回應時間。 高啟動臨界值可讓背景進程更有時間回應。 不過，高啟動閾值表示較高的停止閾值，而且會減少修改頁面的資料庫頁面快取的有效大小 (Windows 2000) 或 (Windows XP 和更新版本) 的所有頁面。
 
 <table>
 <colgroup>
@@ -743,8 +743,8 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong>  5 (1% ) </p>
-<p><strong>Windows Vista：</strong>  20000000 (1% ) </p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 5 (1% ) </p>
+<p><strong>Windows Vista：</strong> 20000000 (1% ) </p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -752,9 +752,9 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong>  1 –1048575</p>
-<p><strong>WINDOWS XP：</strong>  1-4294967295</p>
-<p><strong>Windows Vista：</strong>  所有值</p></td>
+<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
+<p><strong>Windows XP：</strong> 1-4294967295</p>
+<p><strong>Windows Vista：</strong> 所有值</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -797,7 +797,7 @@ _**適用于：** Windows |Windows Server_
 
 此參數會控制資料庫頁面快取何時結束從快取收回頁面，以騰出空間給未快取的頁面。 當快取中的頁面緩衝區數目超過此臨界值時，就會停止已開始補充該可用緩衝區集區的背景進程。 此臨界值一律相對於 **JET_paramCacheSizeMax** 所設定的最大快取大小。 此臨界值也必須大於 **JET_paramStartFlushThreshold** 所設定的 [開始] 閾值。
 
-開始閾值和停止臨界值之間的距離，會影響背景進程清除資料庫頁面的效率。 較大的間距將可讓您更有可能合併對相鄰頁面的寫入。 不過，高停止閾值會減少修改過的頁面的資料庫頁面快取大小 (Windows 2000) 或 (Windows XP 及更新版本) 的所有頁面。
+開始閾值和停止臨界值之間的距離，會影響背景進程清除資料庫頁面的效率。 較大的間距將可讓您更有可能合併對相鄰頁面的寫入。 不過，高停止閾值會減少修改頁面的資料庫頁面快取的有效大小 (Windows 2000) 或 (Windows XP 和更新版本) 的所有頁面。
 
 <table>
 <colgroup>
@@ -807,8 +807,8 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong>  10 (2% ) </p>
-<p><strong>Windows Vista：</strong>  40000000 (2% ) </p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 10 (2% ) </p>
+<p><strong>Windows Vista：</strong> 40000000 (2% ) </p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -816,9 +816,9 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong>  1 –1048575</p>
-<p><strong>WINDOWS XP：</strong>  1-4294967295</p>
-<p><strong>Windows Vista：</strong>  所有值</p></td>
+<td><p><strong>Windows 2000：</strong> 1 –1048575</p>
+<p><strong>Windows XP：</strong> 1-4294967295</p>
+<p><strong>Windows Vista：</strong> 所有值</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -870,7 +870,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 047067d26f9b85ef981a007059d9f2e87ae28ce3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3e1fcb16cace82118d153412ba5471876d4ebcc58c342466ff86db016189a28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744668"
 ---
 # <a name="ps_2_x-instructions"></a>ps \_ 2 \_ x 指示
 
@@ -26,14 +26,14 @@ ms.locfileid: "104971752"
 -   設定-圖元著色器必須有版本指令，而且必須是第一個指令。
 -   算術-這些指示可提供著色器中的數學運算。
 -   材質-這些指示可用來載入和取樣材質資料，以及修改材質座標。
--   流程式控制制-這些指示可提供靜態和動態流量控制給執行指示。
+-   Flow 控制項-這些指示會提供靜態和動態流量控制給執行指示。
 -   新的-這些指示是此版本的新指示。
 
 ## <a name="instruction-set"></a>指令集
 
 
 
-| Name                                                             | 描述                                                                                      | 指令插槽 | 設定 | 算術 | 紋理 | 流量控制 | 新增 |
+| 名稱                                                             | 描述                                                                                      | 指令插槽 | 設定 | 算術 | 紋理 | 流量控制 | 新增 |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------|-------|------------|---------|--------------|-----|
 | [abs-ps](abs---ps.md)                                         | 絕對值                                                                                   | 1                 |       | x          |         |              |     |
 | [新增-ps](add---ps.md)                                         | 新增兩個向量                                                                                  | 1                 |       | x          |         |              |     |
@@ -95,7 +95,7 @@ ms.locfileid: "104971752"
 
 
 
- 
+ 
 
 注意：
 
@@ -113,6 +113,6 @@ ms.locfileid: "104971752"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

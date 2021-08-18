@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b4f56ad3f8e314f7ceb5f4efb07562257efab5fa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6d526e4737774f04e46f5c8aae9cda11a4d4693dee3eb1506ef42d1268625a5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027778"
 ---
 # <a name="d3dxcreatecubetexturefromfileex-function"></a>D3DXCreateCubeTextureFromFileEx 函式
 
@@ -133,7 +133,7 @@ HRESULT D3DXCreateCubeTextureFromFileEx(
 
 </dd> <dt>
 
-*>colorkey* \[在\]
+*>Colorkey* \[在\]
 </dt> <dd>
 
 類型： **[ **D3DCOLOR**](d3dcolor.md)**
@@ -179,7 +179,7 @@ HRESULT D3DXCreateCubeTextureFromFileEx(
 
 編譯器設定也會決定函式版本。 如果已定義 Unicode，函式呼叫會解析為 **D3DXCreateCubeTextureFromFileExW**。 否則，函式呼叫會解析為 **D3DXCreateCubeTextureFromFileExA** ，因為正在使用 ANSI 字串。
 
-此函式支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函數支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 Cube 紋理不同于其他表面，因為它們是表面的集合。 若要使用 cube 材質來呼叫 [**SetRenderTarget**](/windows/desktop/api) ，您必須使用 [**GetCubeMapSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-getcubemapsurface) 選取個別臉部，並將產生的介面傳遞至 **SetRenderTarget**。
 

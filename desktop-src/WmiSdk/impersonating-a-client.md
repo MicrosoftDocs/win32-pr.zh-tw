@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 模擬用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 162857d90c8bddb70d90eb2e10efbc08537299d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04b6d1fe931a9e0620643d8b3f8a77c63d031a41f1dac9d17301e11c03d21bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757938"
 ---
 # <a name="impersonating-a-client"></a>模擬用戶端
 
@@ -29,7 +29,7 @@ ms.locfileid: "103850772"
 
 WMI 通常會以高安全性層級的系統管理服務來執行，並使用 LocalServer 安全性內容。 使用系統管理服務會提供 WMI 存取特殊許可權資訊的方法。 當呼叫提供者取得資訊時，WMI 會將其安全識別碼 (SID) 傳送給提供者，讓提供者能夠存取相同高安全性層級的資訊。
 
-在 WMI 應用程式啟動過程中，Windows 作業系統會為 WMI 應用程式提供開始處理常式之使用者的安全性內容。 使用者的安全性內容通常是比 LocalServer 更低的安全性層級，因此使用者可能沒有許可權可以存取 WMI 可用的所有資訊。 當使用者應用程式要求動態資訊時，WMI 會將使用者的 SID 傳遞給對應的提供者。 如果有適當的寫入，則提供者會嘗試使用使用者 SID （而不是提供者 SID）來存取訊號。
+在 wmi 應用程式啟動過程中，Windows 作業系統會為 wmi 應用程式提供開始處理常式之使用者的安全性內容。 使用者的安全性內容通常是比 LocalServer 更低的安全性層級，因此使用者可能沒有許可權可以存取 WMI 可用的所有資訊。 當使用者應用程式要求動態資訊時，WMI 會將使用者的 SID 傳遞給對應的提供者。 如果有適當的寫入，則提供者會嘗試使用使用者 SID （而不是提供者 SID）來存取訊號。
 
 若要讓提供者成功模擬用戶端應用程式，用戶端應用程式和提供者必須符合下列準則：
 
@@ -75,7 +75,7 @@ instance of __Win32Provider
 
 [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient)函式可讓伺服器模擬發出呼叫的用戶端。 藉由將 **CoImpersonateClient** 呼叫放入 [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices)的執行，您可以讓您的提供者設定提供者的執行緒 token，使其符合用戶端的執行緒 token，進而模擬用戶端。 如果您未呼叫 **CoImpersonateClient**，則您的提供者會以系統管理員層級的安全性執行程式碼，進而造成潛在的安全性弱點。 如果您的提供者暫時需要以系統管理員身分執行，或要手動執行存取檢查，請呼叫 [**CoRevertToSelf**](/windows/win32/api/combaseapi/nf-combaseapi-coreverttoself)。
 
-相較于 [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient)， [**CoRevertToSelf**](/windows/win32/api/combaseapi/nf-combaseapi-coreverttoself) 是處理執行緒模擬層級的 COM 函數。 在此情況下， **CoRevertToSelf** 會將模擬等級變更回原始的模擬設定。 一般情況下，提供者一開始是系統管理員，而且會根據其是否正在進行代表呼叫端或本身呼叫的呼叫，在 **CoImpersonateClient** 和 **CoRevertToSelf** 之間進行替代。 提供者必須負責正確地放置這些呼叫，如此才不會向終端使用者公開安全性漏洞。 例如，提供者應該只在模擬的程式碼序列內呼叫原生 Windows 函數。
+相較于 [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient)， [**CoRevertToSelf**](/windows/win32/api/combaseapi/nf-combaseapi-coreverttoself) 是處理執行緒模擬層級的 COM 函數。 在此情況下， **CoRevertToSelf** 會將模擬等級變更回原始的模擬設定。 一般情況下，提供者一開始是系統管理員，而且會根據其是否正在進行代表呼叫端或本身呼叫的呼叫，在 **CoImpersonateClient** 和 **CoRevertToSelf** 之間進行替代。 提供者必須負責正確地放置這些呼叫，如此才不會向終端使用者公開安全性漏洞。 例如，提供者應該只在模擬的程式碼序列內呼叫原生 Windows 函式。
 
 > [!Note]  
 > [**CoImpersonateClient**](/windows/win32/api/combaseapi/nf-combaseapi-coimpersonateclient)和 [**CoRevertToSelf**](/windows/win32/api/combaseapi/nf-combaseapi-coreverttoself)的目的是設定提供者的安全性。 如果您判斷您的模擬失敗，您應該透過 [**IWbemObjectSink：： SetStatus**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus)將適當的完成程式碼傳回至 WMI。 如需詳細資訊，請參閱 [處理提供者中的拒絕存取訊息](#handling-access-denied-messages-in-a-provider)。
@@ -126,7 +126,7 @@ WMI 不需要單一回應對實例具有部分存取權的用戶端。 相反地
 
 -   針對提供者可存取的所有實例，傳回 **WBEM \_ S \_ \_** 。
 
-    如果您使用此選項，使用者就不會察覺到某些實例無法使用。 許多提供者（例如使用結構化查詢語言 (SQL)  (SQL) 具有資料列層級安全性）的提供者，會使用呼叫端的安全性層級來定義結果集，以傳回成功的部分結果。
+    如果您使用此選項，使用者就不會察覺到某些實例無法使用。 許多提供者（例如使用結構化查詢語言 (SQL)  (SQL 具有資料列層級安全性的) ）都會使用呼叫端的安全性層級來定義結果集，以傳回成功的部分結果。
 
 -   使用 **WBEM \_ E \_ \_ 拒絕存取** 來使整個作業失敗，並不會傳回任何實例。
 

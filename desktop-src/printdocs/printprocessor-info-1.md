@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 5ac35f85e904e9a80d9f244a1421b54fd0994a43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0aa94a2df1c44b53ec9fb8211f7eaed8c955f9f2c1cd824cd4634c754f8c337e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824737"
 ---
 # <a name="printprocessor_info_1-structure"></a>PRINTPROCESSOR \_ INFO \_ 1 結構
 
@@ -56,7 +56,7 @@ typedef struct _PRINTPROCESSOR_INFO_1 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ PRINTPROCESSOR \_ Info \_ 1W** (Unicode) 和 **\_ PRINTPROCESSOR \_ info \_ 1a** (ANSI) <br/>             |
 
 

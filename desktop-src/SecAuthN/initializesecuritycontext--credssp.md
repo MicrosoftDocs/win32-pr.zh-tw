@@ -4,12 +4,12 @@ ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
 title: InitializeSecurityContext (CredSSP) 函式 (Sspi.h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: aa359fc0cedf96f43d93cfb7d962035453328759
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ba38dd10552f90ecfcc5045b96edc5e62aff1f8a2beec0f2a728fc1f0be8c52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015988"
 ---
 # <a name="initializesecuritycontext-credssp-function"></a>InitializeSecurityCoNtext (CredSSP) 函數
 
@@ -180,7 +180,7 @@ SECURITY_STATUS SEC_ENTRY InitializeSecurityContext(
 
 
 
-| 傳回碼                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 傳回碼                                                                                                    | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC \_ E \_ 未完成 \_ 訊息**</dt> </dl>     | 無法從網路讀取整個訊息的資料。<br/> 當傳回這個值時， *pInput* 緩衝區就會包含 [**之 secbuffer**](/windows/win32/api/sspi/ns-sspi-secbuffer) 結構，其中 **遺漏 BufferType** 成員 **之 secbuffer \_**。 **之 secbuffer** 的 **cbBuffer** 成員會指定函式在此函數成功之前，必須從用戶端讀取的額外位元組數目。 雖然此數目不一定是精確的，但使用它有助於藉由避免多次呼叫此函式來改善效能。<br/> |
 | <dl> <dt>**秒 \_ E \_ 確定**</dt> </dl>                      | 已成功初始化安全性內容。 不需要另一個 [**InitializeSecurityCoNtext (CredSSP)**](initializesecuritycontext--credssp.md) 呼叫。 如果函式傳回輸出 token，也就是，如果 *pOutput* 中的 **之 secbuffer \_ token** 為非零長度，則該 token 必須傳送至伺服器。<br/>                                                                                                   |
@@ -197,7 +197,7 @@ SECURITY_STATUS SEC_ENTRY InitializeSecurityContext(
 
 
 
-| 傳回碼                                                                                                          | Description                                                                                                                                                                                                                                                                           |
+| 傳回碼                                                                                                          | 描述                                                                                                                                                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**每 \_ 秒 \_ 沒有足夠的 \_ 記憶體**</dt> </dl>          | 沒有足夠的記憶體可完成要求的動作。<br/>                                                                                                                                                                                                     |
 | <dl> <dt>**SEC \_ E \_ 內部 \_ 錯誤**</dt> </dl>               | 發生未對應到 SSPI 錯誤碼的錯誤。<br/>                                                                                                                                                                                                                  |
@@ -266,8 +266,8 @@ SECURITY_STATUS SEC_ENTRY InitializeSecurityContext(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                   |
 | 標頭<br/>                   | <dl> <dt>Sspi (包含 Security .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Secur32 .lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

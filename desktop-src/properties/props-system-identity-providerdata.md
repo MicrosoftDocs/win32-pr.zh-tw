@@ -4,12 +4,12 @@ ms.assetid: 0372B9BC-A1FF-4856-860B-206E781DAC55
 title: ProviderData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6fb3be1abbf2a882f7cf2f0535487666729c482
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1565d29acd9d9a3f4dc19d4c6af696fd58b15398ee9ae5735149da5493cd7ce5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716848"
 ---
 # <a name="systemidentityproviderdata"></a>ProviderData
 

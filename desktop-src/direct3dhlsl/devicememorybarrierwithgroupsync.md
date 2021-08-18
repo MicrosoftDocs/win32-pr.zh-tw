@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6a7a4a27b3256fb78c7b60b960fc5383cfd5b5d4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2567a209b86481cd0f25922e8e3b1cf947196a2c799344089591cf70fa3624fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625818"
 ---
 # <a name="devicememorybarrierwithgroupsync-function"></a>DeviceMemoryBarrierWithGroupSync 函式
 
@@ -52,19 +52,19 @@ void DeviceMemoryBarrierWithGroupSync(void);
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -76,9 +76,9 @@ void DeviceMemoryBarrierWithGroupSync(void);
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -58,12 +58,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bd7b829cd4c5ba550fd88242ffb8c34572648d9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bc4140444d1b5c3ae99c90c2447e165a4143b042dcc7567104e4b5f0063b645b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984238"
 ---
 # <a name="eap-related-error-and-information-constants"></a>EAP 相關的錯誤和資訊常數
 
@@ -261,7 +261,7 @@ EAPHost 設定架構驗證失敗。
 
 
 
-Windows 7 或更新版本： EAP 方法不支援針對提供的設定 (SSO) 的單一登入。
+Windows 7 或更新版本： EAP 方法不支援提供的設定 (SSO) 的單一登入。
 
 
 </dt> </dl> </dd> <dt>
@@ -695,8 +695,8 @@ EAPHost 在伺服器憑證驗證的受信任根憑證存放區中找不到根憑
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                      |
 | 標頭<br/>                   | <dl> <dt>Eaphosterror。h</dt> </dl> |
 
 

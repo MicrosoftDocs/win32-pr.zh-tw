@@ -1,17 +1,17 @@
 ---
-title: " (Windows 協助工具功能的屬性識別碼) "
+title: '屬性識別碼 (Windows 協助工具功能) '
 description: 本章節包含 Microsoft 消費者介面自動化屬性識別碼的相關資訊。
 ms.assetid: c05163ea-ba06-4005-9b80-661015b9d2ef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e5ae21ca5ad01217e9a7769b7d5505f9090c81f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6a822ba9ec21295f3124dc841bb91fe217c3802af7c291a0ad8e64f3a80fcdae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795438"
 ---
-# <a name="property-identifiers-windows-accessibility-features"></a> (Windows 協助工具功能的屬性識別碼) 
+# <a name="property-identifiers-windows-accessibility-features"></a>屬性識別碼 (Windows 協助工具功能) 
 
 本章節包含 Microsoft 消費者介面自動化屬性識別碼的相關資訊。
 

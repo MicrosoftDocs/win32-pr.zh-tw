@@ -75,7 +75,7 @@ HRESULT get_TargetLoad(
 <td>Windows Server 2016<br/></td>
 </tr>
 <tr class="odd">
-<td>Idl<br/></td>
+<td>IDL<br/></td>
 <td><dl> <dt>Sbtsv .idl</dt> </dl></td>
 </tr>
 <tr class="even">

@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: bb1e9ab032b76b8ef02de786d1fc39af0b0d54b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d6f1b0b44cd0fdc71f8f3d37fa9bd8290c5d606eea1f97f5bf6644f9ce8e2a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005656"
 ---
 # <a name="icertstoreclosehandle-method"></a>ICertStore：： CloseHandle 方法
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。\]
 
 **CloseHandle** 方法會關閉透過 [**StoreHandle**](icertstore-storehandle.md)屬性取得的 HCERTSTORE 控制碼。
 

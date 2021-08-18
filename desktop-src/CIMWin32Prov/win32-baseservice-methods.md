@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_BaseService 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80dc74f1e67fa1944547abe047597302a32fc7ab
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9cd100d8499a26d5ad15d6118214e77ccd91cfb100e5e38b47b6ddd24b672b35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917998"
 ---
 # <a name="win32_baseservice-methods"></a>Win32 \_ BaseService 方法
 

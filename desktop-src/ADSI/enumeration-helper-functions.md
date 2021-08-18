@@ -10,12 +10,12 @@ keywords:
 - ADSI ADSI，範例程式碼 C/c + +，使用 ADsBuildEnumerator ADsEnumerateNext 和 ADsFreeEnumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af9597787202adf183435262eab9341957e19457
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c110fbc4fddd420bf8205d6c2d894c7d4f4daf8287312c2d0d86002f5520310b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082652"
 ---
 # <a name="enumeration-helper-functions"></a>列舉 Helper 函數
 
@@ -145,6 +145,6 @@ exitpoint:
 
 
 
- 
+ 
 
- 
+ 

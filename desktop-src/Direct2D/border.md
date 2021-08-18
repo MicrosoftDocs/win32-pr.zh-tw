@@ -6,12 +6,12 @@ keywords:
 - 框線效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49fb43ae8b3e9c4eb449a8231f8b4ffcacf7658b
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 5ce125a96730ee59f63b18cfd1a08abd2432af6f3fdc6b5f06cfc2e9272a7a3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104514269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928986"
 ---
 # <a name="border-effect"></a>框線效果
 
@@ -85,7 +85,7 @@ m_d2dContext->EndDraw();
 
 
 
-| 顯示名稱和索引列舉                                  | Description                                                                                                                                                                                                                                                            |
+| 顯示名稱和索引列舉                                  | 描述                                                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 邊緣模式 X<br/> D2D1 \_ 框線 \_ 樣式 \_ 邊緣 \_ 模式 \_ X<br/> | 效果 X 方向的邊緣模式。 您可以將此設定為 [夾具]、[換行] 或 [鏡像]。 如需詳細資訊，請參閱 [邊緣模式](#edge-modes) 。<br/> 此類型為 D2D1 \_ BORDER \_ EDGE \_ 模式。<br/> 預設值為 D2D1 \_ BORDER \_ EDGE \_ 模式 \_ 夾具。<br/> |
 | 邊緣模式 Y<br/> D2D1 \_ 框線 \_ 的 \_ 側邊 \_ 模式 \_ Y<br/> | 效果 Y 方向的邊緣模式。 您可以將此設定為 [夾具]、[換行] 或 [鏡像]。 如需詳細資訊，請參閱 [邊緣模式](#edge-modes) 。<br/> 此類型為 D2D1 \_ BORDER \_ EDGE \_ 模式。<br/> 預設值為 D2D1 \_ BORDER \_ EDGE \_ 模式 \_ 夾具。<br/> |
@@ -98,7 +98,7 @@ m_d2dContext->EndDraw();
 
 
 
-| 顯示名稱和索引列舉                            | Description                                          |
+| 顯示名稱和索引列舉                            | 描述                                          |
 |---------------------------------------------------------------|------------------------------------------------------|
 | Clamp<br/> D2D1 \_ BORDER \_ EDGE \_ 模式 \_ 夾具<br/>   | 重複影像邊緣的圖元。      |
 | 包裝<br/> D2D1 \_ 框線 \_ 邊緣 \_ 模式 \_ 換行<br/>     | 使用影像之相對端邊緣的圖元。 |
@@ -118,8 +118,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

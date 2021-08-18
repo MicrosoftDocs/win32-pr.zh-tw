@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 91331ede15feb756f3ddd08d0d368621b35eda00
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b2811e307b370323c331d3f894116ad0ff01af25ad76e1ea775dae5489dfb15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074562"
 ---
 # <a name="cbasewindowpreparewindow-method"></a>CBaseWindow. PrepareWindow 方法
 
@@ -46,7 +46,7 @@ virtual HRESULT PrepareWindow();
 
 
 
-| 傳回碼                                                                            | Description         |
+| 傳回碼                                                                            | 描述         |
 |----------------------------------------------------------------------------------------|---------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 成功。<br/> |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 失敗。<br/> |

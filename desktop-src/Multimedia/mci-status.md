@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86553ac759a362c1ea4abb53a47d0e9376cbc526
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: 9905000c718ff70435ec91bf86bf7a77d14379ed7ca557eaa85fb0df594196c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "104321252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784278"
 ---
 # <a name="mci_status-command"></a>MCI \_ 狀態命令
 
@@ -1192,7 +1192,7 @@ MCI \_ VD \_ \_ 其他媒體
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -1200,7 +1200,7 @@ MCI \_ VD \_ \_ 其他媒體
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令](mci-commands.md)

@@ -4,12 +4,12 @@ ms.assetid: d0105363-1895-4e10-8a33-648a6fc4c20a
 title: 多個監視系統計量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 149f4da5c687df28817105e1ec3876ffd1ab5649
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3143562116561bb220bc6f0b5ecfa4ad8f5103c3e4532cab639c4c2b37f59467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037706"
 ---
 # <a name="multiple-monitor-system-metrics"></a>多個監視系統計量
 

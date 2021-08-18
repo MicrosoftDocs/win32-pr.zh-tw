@@ -4,12 +4,12 @@ description: 標題控制項宏
 ms.assetid: 5ef52add-f796-48e5-83a8-e7d2c07e202d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ddf0f735950fd014edc9a68493e131ff6ed1e0a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: dadc1f64c2863d40d3144d001cb1b87a55cfeb80e1a34fa3f71f4689a8f0cf8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106982844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916808"
 ---
 # <a name="header-control-macros"></a>標題控制項宏
 

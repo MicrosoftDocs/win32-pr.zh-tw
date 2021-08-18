@@ -1,20 +1,20 @@
 ---
 title: ADSI 和使用者帳戶控制
-description: Windows 和 Windows Server 具有「使用者帳戶控制」，這對於使用 Active Directory 服務介面 (ADSI) 的應用程式有一些影響。
+description: Windows 和 Windows Server 具有「使用者帳戶控制」，這對使用 Active Directory 服務介面 (ADSI) 的應用程式有一些影響。
 ms.assetid: 0b286252-8c24-4a18-9dc6-063ca158a8ff
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f36fc88169a8710228a3bf70283aaccd4b4ac42e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ae1d0163348356f83b64522c9b05607d0d094ceb8f0ad530a798e546021433ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023966"
 ---
 # <a name="adsi-and-user-account-control"></a>ADSI 和使用者帳戶控制
 
-Windows 和 Windows Server 具有「 [使用者帳戶控制](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc709691(v=ws.10))」，這對於使用 [Active Directory 服務介面](active-directory-service-interfaces-adsi.md) (ADSI) 的應用程式有一些影響。 具體來說，這些介面是設計成由具有本機電腦之系統管理員許可權的使用者帳戶執行。
+Windows 和 Windows Server 具有「[使用者帳戶控制](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc709691(v=ws.10))」，這對使用[Active Directory 服務介面](active-directory-service-interfaces-adsi.md) (ADSI) 的應用程式有一些影響。 具體來說，這些介面是設計成由具有本機電腦之系統管理員許可權的使用者帳戶執行。
 
 **問題**
 
@@ -54,6 +54,6 @@ Windows 和 Windows Server 具有「 [使用者帳戶控制](/previous-versions/
 
 在這種情況下，系統管理員帳戶應該執行應用程式，這會導致在全域位置快取架構檔案，供較少許可權的使用者日後使用。
 
- 
+ 
 
- 
+ 

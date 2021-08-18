@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 902f04641165c5444d1a763ff9381dc9d339e924
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ba2e66687550d3bcc40c5eb6f7fc6a52f2590ab154deae604f3c55ee9587e682
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104514405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000888"
 ---
 # <a name="imsrdpclienttransportsettings4-interface"></a>IMsRdpClientTransportSettings4 介面
 
@@ -39,7 +39,7 @@ ms.locfileid: "104514405"
 
 
 
-| 屬性                                                                                       | 存取類型           | Description                                          |
+| 屬性                                                                                       | 存取類型           | 描述                                          |
 |:-----------------------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------|
 | [**GatewayBrokeringType**](imsrdpclienttransportsettings4-gatewaybrokeringtype.md)<br/> | 唯寫<br/> | 取得和設定閘道代理類型。<br/> |
 

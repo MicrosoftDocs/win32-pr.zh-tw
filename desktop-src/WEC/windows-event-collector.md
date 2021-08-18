@@ -5,16 +5,16 @@ ms.assetid: 7725e06d-4df1-4b3e-9f2f-2b8bdd805cb6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c4ef9e0cb647236daa55771222f25b7e0e370ef
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1efa767ecb80960fc3461380435ea1d44992656d7c67df990574f7155ee976fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106999588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997878"
 ---
 # <a name="windows-event-collector"></a>Windows 事件收集器
 
-您可以在本機電腦上訂閱接收和儲存事件 (事件收集器) 從遠端電腦轉送 (事件來源) 。 [Windows 事件收集器函數](windows-event-collector-functions.md)支援使用 WS-Management 通訊協定來訂閱事件。 如需 WS-MANAGEMENT 的詳細資訊，請參閱 [關於 Windows 遠端管理](/windows/desktop/WinRM/about-windows-remote-management)。
+您可以在本機電腦上訂閱接收和儲存事件 (事件收集器) 從遠端電腦轉送 (事件來源) 。 [Windows 的事件收集器函數](windows-event-collector-functions.md)支援使用 WS-Management 通訊協定來訂閱事件。 如需 ws-management 的詳細資訊，請參閱[關於 Windows 遠端管理](/windows/desktop/WinRM/about-windows-remote-management)。
 
 ## <a name="event-forwarding-and-event-collection-architecture"></a>事件轉送和事件集合架構
 
@@ -27,12 +27,12 @@ ms.locfileid: "106999588"
 -   來源起始的訂用帳戶：可讓您在事件收集器電腦上定義事件訂閱，而不需要定義事件來源電腦。 然後，您可以使用群組原則設定) 將事件轉寄至事件收集器電腦，來設定多個遠端事件來源電腦 (。 如需詳細資訊，請參閱 [設定來源起始的訂用](setting-up-a-source-initiated-subscription.md)帳戶。 當您不知道或不想要指定將轉寄事件的所有事件來源電腦時，此訂閱類型會很有用。
 -   收集器起始的訂閱：如果您知道將轉寄事件的所有事件來源電腦，可讓您建立事件訂閱。 您可以在建立訂閱時指定所有事件來源。 如需詳細資訊，請參閱 [建立收集器起始的訂用](creating-an-event-collector-subscription.md)帳戶。
 
-## <a name="windows-event-collector-functions"></a>Windows 事件收集器函式
+## <a name="windows-event-collector-functions"></a>Windows事件收集器函式
 
-如需使用事件收集器函式的詳細資訊和程式碼範例，請參閱 [使用 Windows 事件收集器](using-windows-event-collector.md)。
+如需使用事件收集器函數的詳細資訊和程式碼範例，請參閱[使用 Windows 事件收集器](using-windows-event-collector.md)。
 
-如需用來收集和轉送事件之函式的詳細資訊，請參閱 [Windows 事件收集器](windows-event-collector-functions.md)函式。
+如需用來收集和轉送事件之函式的詳細資訊，請參閱[Windows 事件收集器](windows-event-collector-functions.md)函式。
 
- 
+ 
 
- 
+ 

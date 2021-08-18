@@ -4,12 +4,12 @@ ms.assetid: C856B2B0-4A06-436D-B589-B01DA86DB53D
 title: 'MF_MT_H264_MAX_CODEC_CONFIG_DELAY 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a835d5b5a37be0c722f313aaf4fe8ed8aa55f00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efc3610f9fce8201e3381b9684e3ea5b76578d8a22f751821dd16b0d9742ffff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035196"
 ---
 # <a name="mf_mt_h264_max_codec_config_delay-attribute"></a>MF \_ MT \_ H264 \_ 最大 \_ 編解碼器設定 \_ \_ 延遲屬性
 
@@ -41,8 +41,8 @@ H.264 編碼器回應命令所需的最大框架數目。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

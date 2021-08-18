@@ -4,12 +4,12 @@ ms.assetid: c8850bc8-b3a8-4b63-b0a4-d8af61a4f761
 title: 安全性 WMI 提供者參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38704843b438c7d485fa4e52d728e2190dba8769
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14977d13816258723f0b5117a4c8e20bddd5d6ad924934b4af11ce02ef88f09e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004276"
 ---
 # <a name="security-wmi-providers-reference"></a>安全性 WMI 提供者參考
 

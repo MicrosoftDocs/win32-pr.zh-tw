@@ -4,12 +4,12 @@ ms.assetid: dd4cdd3c-6bb5-4427-827d-f3e909e752e5
 title: 'OPM_GET_SUPPORTED_PROTECTION_TYPES (Opmapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1dc79b33673e34d00914b84165d915baa0d8f56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eddc6f4006f9692ec6152875cda412191b87d247e907d33b615aa6d4fb89748e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012538"
 ---
 # <a name="opm_get_supported_protection_types"></a>OPM \_ 取得 \_ 支援的 \_ 保護 \_ 類型
 
@@ -39,8 +39,8 @@ ms.locfileid: "103943729"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1a36ec83-5d8a-4fc5-be3d-a8c2f0983057
 title: propertyDescription
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 233f6d9b1242a9f02b2edbb2bb29cefaef625c7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1797880fbc9ce5bf56999c6fbd869b259f893f1391fbde6fca580da29dac3a61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011468"
 ---
 # <a name="propertydescription"></a>propertyDescription
 
@@ -87,7 +87,7 @@ ms.locfileid: "103943853"
 
 | 屬性 | 描述                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| NAME      | 必要。 標準屬性名稱，對系統而言是唯一的;例如， `System.Rating` 。 這個字串的型別是標準型別，而且限制為64個字元。 名稱區分大小寫，而且應該使用下列語法： PropertyName。 [**IPropertyDescription：： GetCanonicalName**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-getcanonicalname) 會傳回這個值。 |
+| NAME      | 必要。 標準屬性名稱，對系統而言是唯一的;例如， `System.Rating` 。 這個字串的型別是標準型別，而且限制為64個字元。 名稱區分大小寫，且應使用下列語法： Publisher。應用程式名稱。 [**IPropertyDescription：： GetCanonicalName**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-getcanonicalname) 會傳回這個值。 |
 | formatID  | 必要。 屬性的格式識別碼 (FMTID) 。 值必須包含括住的括弧;例如， `{64440492-4C8B-11D1-8B70-080036B11A03}` 。 [**IPropertyDescription：： GetPropertyKey**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-getpropertykey) 會傳回這個值。                                                                                                                       |
 | propID    | 必要。 屬性識別碼 (PID) ;例如， `9` 。 [**IPropertyDescription：： GetPropertyKey**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-getpropertykey) 會傳回這個值。 此值必須大於或等於2。 值0和1是由系統所保留。                                                                                                                  |
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f193e9a0ff029ca607748fe4bbb6d61f781c1248
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18af761c7580707bfd0926874e25069ca15b564bf6ef205cd6dc7aaaecb6a772
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018626"
 ---
 # <a name="tvn_itemexpanded-notification-code"></a>IZDEBSKI \_ ITEMEXPANDED 通知碼
 
@@ -57,8 +57,8 @@ TVN_ITEMEXPANDED
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **Izdebski \_ITEMEXPANDEDW** (Unicode) 和 **izdebski \_ ITEMEXPANDEDA** (ANSI) <br/>         |
 

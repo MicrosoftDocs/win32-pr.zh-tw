@@ -4,12 +4,12 @@ ms.assetid: 8b96a83a-2bfa-47b7-bde0-896bdcc97d29
 title: 'UpgradedFiles_OptionalData 資料表 (Patchwiz.dll) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2a648623e2a0cde11af34a3b948b4f2ac6fba59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08eb766f8db9d295546670c80627284991da1ff8dccb5a0c2900be74bd785dab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012836"
 ---
 # <a name="upgradedfiles_optionaldata-table-patchwizdll"></a>UpgradedFiles \_ OptionalData 資料表 (Patchwiz.dll) 
 
@@ -45,7 +45,7 @@ UpgradedImages 資料表的升級資料行的外鍵 [ (Patchwiz.dll) ](upgradedi
 <span id="FTK"></span><span id="ftk"></span>FTK
 </dt> <dd>
 
-檔案資料表索引鍵。 已升級映射之 .msi 檔案的檔案 [資料表](file-table.md) 中的外鍵。 如果系列內的兩個或多個升級的映射具有相同的 FTK 值，則值必須參考相同的檔案。 多個升級映射所共用的檔案應該具有相同的 FTK，以將封包檔大小降到最低。
+檔案資料表索引鍵。 已升級影像之 .msi 檔案的檔案 [資料表](file-table.md) 中的外鍵。 如果系列內的兩個或多個升級的映射具有相同的 FTK 值，則值必須參考相同的檔案。 多個升級映射所共用的檔案應該具有相同的 FTK，以將封包檔大小降到最低。
 
 </dd> <dt>
 
@@ -59,7 +59,7 @@ UpgradedImages 資料表的升級資料行的外鍵 [ (Patchwiz.dll) ](upgradedi
 <span id="AllowIgnoreOnPatchError"></span><span id="allowignoreonpatcherror"></span><span id="ALLOWIGNOREONPATCHERROR"></span>AllowIgnoreOnPatchError
 </dt> <dd>
 
-設定為1，表示修補程式為不重要。 設定為0表示修補程式很重要。 如果 Windows Installer 在將此修補程式套用至 [FTK] 資料行中指定的檔案時發生問題，則此欄位中的值會決定錯誤訊息框是否包含 [ **略** 過] 按鈕，讓使用者能夠繼續進行修補程式。
+設定為1，表示修補程式為不重要。 設定為0表示修補程式很重要。 如果 Windows Installer 在將此修補程式套用至 [FTK] 資料行中指定的檔案時發生問題，則此欄位中的值會決定錯誤訊息框是否包含 [**略** 過] 按鈕，讓使用者能夠繼續進行修補程式。
 
 </dd> <dt>
 

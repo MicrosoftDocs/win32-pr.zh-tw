@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: dae1352d9e7c45f9ce301dd30d4e7f73d508498c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 101767516e8bd726ebf1a64ad83cfd924b3696a56d810895b4d9a9ed9a1e0ef8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829338"
 ---
 # <a name="nddegetsharesecurity-function"></a>NDdeGetShareSecurity 函式
 
-\[不再支援網路 DDE。 Windows Vista 上有 Nddeapi.dll，但是所有的函式呼叫都會傳回 NDDE \_ 未 \_ 執行。\]
+\[不再支援網路 DDE。 Nddeapi.dll 存在於 Windows Vista 中，但所有的函式呼叫會傳回 NDDE \_ 未 \_ 執行。\]
 
 抓取與 DDE 共用相關聯的安全描述項。 這通常是用來進行編輯。
 

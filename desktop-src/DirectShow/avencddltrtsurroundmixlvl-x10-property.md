@@ -4,12 +4,12 @@ ms.assetid: 95fd8b3e-de30-4d0d-be3c-8d7e0c925bae
 title: 'AVEncDDLtRtSurroundMixLvl_x10 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c645cad4bf491d285039d409184cf54f51b5e1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7f2cabeb27dadcc22001193700bd94fc297db830632fb5a26a9e2399da0f4f51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873308"
 ---
 # <a name="avencddltrtsurroundmixlvl_x10-property"></a>AVEncDDLtRtSurroundMixLvl \_ x10 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104385793"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

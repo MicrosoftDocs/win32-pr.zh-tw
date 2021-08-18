@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49505f9e9df8778cc2c17ba062da6700b9b8aec4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c8e3fc681ea5471457bd9a80ac3e26dabc08b2112387dd8c5f785bf5f055dfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000108"
 ---
 # <a name="iwmpmedia3getattributecountbytype-method"></a>IWMPMedia3：： getAttributeCountByType 方法
 

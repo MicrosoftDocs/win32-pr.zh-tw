@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: 1ece2caa0f2263c038121cd1ffd031cbe42d336a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 71567070618796ad564b7f7fb5e8d854f580d482e91d9f4fd7381a582e32495c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755668"
 ---
 # <a name="validatestringptrw-macro"></a>ValidateStringPtrW 宏
 
@@ -44,7 +44,7 @@ void ValidateStringPtrW(
 
 <dl> <dt>
 
-*P* 
+*p* 
 </dt> <dd>
 
 以 Null 結尾的寬字元字串指標。
@@ -57,7 +57,7 @@ void ValidateStringPtrW(
 
 ## <a name="remarks"></a>備註
 
-除非包含了 DirectShow 基類標頭檔，否則會忽略這個宏，除非已定義 DEBUG、 \_ debug 或 VFWROBUST。 此宏可能會有顯著的效能成本。
+除非包含了 DirectShow 的基類標頭檔，否則會忽略這個宏，除非已定義 debug、 \_ debug 或 VFWROBUST。 此宏可能會有顯著的效能成本。
 
 ## <a name="requirements"></a>規格需求
 

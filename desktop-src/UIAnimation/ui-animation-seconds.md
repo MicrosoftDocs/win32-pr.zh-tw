@@ -6,12 +6,12 @@ keywords:
 - UI_ANIMATION_SECONDS
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea7cdf5b487138f68dac90f1d4f4bd9afcd1e73b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c21b6fbdb053fa46423bf1e29b92d59b9cf6d4007bc46fa739614b21c12d09ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999658"
 ---
 # <a name="ui_animation_seconds"></a>UI \_ 動畫的 \_ 秒數
 
@@ -30,10 +30,10 @@ typedef DOUBLE UI_ANIMATION_SECONDS;
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7、Windows Vista 和 Windows Vista \[ 桌面應用程式的平臺更新 \| UWP 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 適用于 Windows vista \[ desktop apps \| UWP 應用程式的 Windows 7、Windows Vista 和平臺更新\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                              |
 | 標頭<br/>                   | <dl> <dt>UIAnimation。h</dt> </dl>               |
-| Idl<br/>                      | <dl> <dt>UIAnimation .idl</dt> </dl>             |
+| IDL<br/>                      | <dl> <dt>UIAnimation .idl</dt> </dl>             |
 
 
 

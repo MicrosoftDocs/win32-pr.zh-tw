@@ -4,18 +4,18 @@ ms.assetid: 0ccf20c1-4c95-4caf-a8f3-82a9e0a9907b
 title: 'PNRP 和 WSAQUERYSET (P2P. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d09d135d57af0922feb5a143c41696d85dac083
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bbc635b0c1ca19cfaeeeb7f8b013aefad1e49e2141dd9715a36c0238e7be6f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061355"
 ---
 # <a name="pnrp-and-wsaqueryset"></a>PNRP 和 WSAQUERYSET
 
 PNRP 會使用 [**WSAQUERYSET**](winsock-nsp-reference-links.md) 結構搭配各種函式，以加速解析名稱和列舉名稱和雲端。
 
-如需 [**WSAQUERYSET**](winsock-nsp-reference-links.md) 或 Windows 通訊端函式的完整定義，請參閱其在 Platform SDK 的 Windows 通訊端 2 API 檔中各自的定義。
+如需 [**WSAQUERYSET**](winsock-nsp-reference-links.md)或 Windows 通訊端函式的完整定義，請參閱其在 Platform SDK 的 Windows 通訊端 2 API 檔中各自的定義。
 
 ## <a name="wsaqueryset-and-wsasetservice"></a>WSAQUERYSET 和 WSASetService
 
@@ -35,9 +35,9 @@ PNRP 會使用 [**WSAQUERYSET**](winsock-nsp-reference-links.md) 結構搭配各
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/>                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                             |
-| 版本<br/>                  | Windows XP （含 SP1）與 Windows XP 的 Advanced 網路套件<br/>  |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/>                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                             |
+| 版本<br/>                  | Windowsxp （含 SP1）與適用于 Windows XP 的 Advanced 網路套件<br/>  |
 | 標頭<br/>                   | <dl> <dt>P2P。h</dt> </dl> |
 
 

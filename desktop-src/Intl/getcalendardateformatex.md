@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-calendar-l1-1-0.dll
 - kernel32legacy.dll
-ms.openlocfilehash: b0130bf62c742d0565b1c98c138ac8c71ddf7a67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db6bf4fc20c24e91a0af29dc8ee81f7a77ef5cb1c0f0e0f6c5a0a792e52eb903
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068218"
 ---
 # <a name="getcalendardateformatex-function"></a>GetCalendarDateFormatEx 函式
 
@@ -136,8 +136,8 @@ BOOL GetCalendarDateFormatEx(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl> |
 
 

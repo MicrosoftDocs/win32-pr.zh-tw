@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e095d420afc433c1f01a63dff51868e57efc50f4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e8be59ef1b212d0f6953063ce7ac3239d8940a5ea54a623990fc3d7af9f36ad3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106979666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764308"
 ---
 # <a name="range-attribute"></a>range 屬性
 
@@ -112,6 +112,6 @@ void InPipe(
 [**切換 \_ 為**](switch-is.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

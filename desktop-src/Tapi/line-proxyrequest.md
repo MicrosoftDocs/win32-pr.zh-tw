@@ -4,12 +4,12 @@ ms.assetid: 7f33de55-2482-4558-bd86-ee2ac1e31269
 title: 'LINE_PROXYREQUEST 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d536e85a9c773626bb5aacc4745d9d82817fe3c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31986420cd21178cca8e6f0a1006e743c3250e726b4a1bf79513f6d57e380a01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003156"
 ---
 # <a name="line_proxyrequest-message"></a>行 \_ PROXYREQUEST 訊息
 

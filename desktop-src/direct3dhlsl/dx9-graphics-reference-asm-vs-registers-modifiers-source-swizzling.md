@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c075d8ff47b1f76adf378b6a583cd4d675651a87
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 03dd2d9051c185d1be1ccb6fce18549bf5aa3414975c9a600bb8f8c47f78d4c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104373959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854548"
 ---
 # <a name="source-register-swizzling-hlsl-vs-reference"></a>來源登錄 Swizzling (HLSL 與參考) 
 
@@ -26,13 +26,13 @@ ms.locfileid: "104373959"
 
 
 
-| 元件修飾詞                 | Description    |
+| 元件修飾詞                 | 描述    |
 |------------------------------------|----------------|
 | r。 \[xyzw \] \[ xyzw \] \[ xyzw \] \[ xyzw\] | 來源 swizzle |
 
 
 
- 
+ 
 
 -   所有四個元件一律都會複製。 如果指定了四個以上的元件，則會重複 (xy 表示 xyyy) 的最後一個元件。 如果未指定任何元件，則 x 會重複 ( xxxx) 。
 -   元件可以依任何順序顯示。 v0 ywx 會產生 v0. ywxx。
@@ -48,9 +48,9 @@ Swizzling 不能用於 [m3x2-vs](m3x2---vs.md)、 [m3x3-vs](m3x3---vs.md)、 [m4
 [頂點著色器暫存器修飾詞](dx9-graphics-reference-asm-vs-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

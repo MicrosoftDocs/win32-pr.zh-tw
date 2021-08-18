@@ -23,7 +23,7 @@ ms.locfileid: "119748578"
 |                | PE 輸出 | 承載輸出
 |------------------|------------------------------------------|--------------------------------|
 | **主要類型**       | **媒體媒體的 \_ MPEG2 \_ pe**                | **媒體 \_ 媒體**           |
-| **亞**          | **MEDIASUBTYPE \_ MPEG2 \_ 影片**           | **MEDIASUBTYPE \_ MPEG2 \_ 影片** |
+| **Subtype**          | **MEDIASUBTYPE \_ MPEG2 \_ 影片**           | **MEDIASUBTYPE \_ MPEG2 \_ 影片** |
 | **格式類型**      | **格式 \_ MPEG2Video**                   | **格式 \_ MPEG2Video**         |
 | **格式結構** | [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) | **MPEG2VIDEOINFO**             |
 
@@ -38,7 +38,7 @@ ms.locfileid: "119748578"
 | | PE 輸出 | 承載輸出 |
 |------------------|--------------------------------------|------------------------------|
 | **主要類型**       | **媒體媒體的 \_ MPEG2 \_ pe**                | **媒體 \_ 媒體**         |
-| **亞**          | **MEDIASUBTYPE \_ 杜 \_ AC3**             | **MEDIASUBTYPE \_ 杜 \_ AC3** |
+| **Subtype**          | **MEDIASUBTYPE \_ 杜 \_ AC3**             | **MEDIASUBTYPE \_ 杜 \_ AC3** |
 | **格式類型**      | 格式 \_ WaveFormatEx                 | **格式 \_ WaveFormatEx**     |
 | **格式結構** | [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) | **WAVEFORMATEX**             |
 
@@ -57,7 +57,7 @@ ms.locfileid: "119748578"
 |  | PE 輸出 | 承載輸出 |
 |------------------|-------------------------------|--------------------------------|
 | **主要類型**       | **媒體媒體的 \_ MPEG2 \_ pe**     | **媒體 \_ 媒體**           |
-| **亞**          | **MEDIASUBTYE \_ MPEG2 \_ 音訊** | **MEDIASUBTYPE \_ MPEG2 \_ 音訊** |
+| **Subtype**          | **MEDIASUBTYE \_ MPEG2 \_ 音訊** | **MEDIASUBTYPE \_ MPEG2 \_ 音訊** |
 | **格式類型**      | **格式 \_ WaveFormatEx**      | **格式 \_ WaveFormatEx**       |
 | **格式結構** | **WAVEFORMATEX**              | **WAVEFORMATEX**               |
 
@@ -78,7 +78,7 @@ MPEG-2 分割器會假設串流 D0 至 DF 是用於多重通道擴充資料流�
 |  | PE 輸出 | 承載輸出 |
 |------------------|------------------------------------|------------------------------------|
 | **主要類型**       | **媒體媒體的 \_ MPEG2 \_ pe**          | **媒體 \_ 媒體**               |
-| **亞**          | **MEDIASUBTYPE \_ DVD \_ LPCM \_ 音訊** | **MEDIASUBTYPE \_ DVD \_ LPCM \_ 音訊** |
+| **Subtype**          | **MEDIASUBTYPE \_ DVD \_ LPCM \_ 音訊** | **MEDIASUBTYPE \_ DVD \_ LPCM \_ 音訊** |
 | **格式類型**      | **格式 \_ WaveFormatEx**           | **格式 \_ WaveFormatEx**           |
 | **格式結構** | **WAVEFORMATEX**                   | **WAVEFORMATEX**                   |
 

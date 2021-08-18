@@ -16,12 +16,12 @@ keywords:
 - 監視設定、列舉函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86925cd25912c17b8fb1bdd339888e5429de135b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b8b4eca3e18b5a5254ef9adc8cd55e123c26a773149d323caf517c5429d972f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106980270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013436"
 ---
 # <a name="monitor-configuration-functions"></a>監視設定函數
 
@@ -56,7 +56,7 @@ ms.locfileid: "106980270"
 
 
 
- 
+ 
 
 ## <a name="low-level-functions"></a>Low-Level 函式
 
@@ -73,7 +73,7 @@ ms.locfileid: "106980270"
 
 
 
- 
+ 
 
 ## <a name="enumeration-functions"></a>列舉函數
 
@@ -90,7 +90,7 @@ ms.locfileid: "106980270"
 
 
 
- 
+ 
 
 ## <a name="internal-functions"></a>內部函數
 
@@ -114,9 +114,9 @@ ms.locfileid: "106980270"
 [監視設定參考](monitor-configuration-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

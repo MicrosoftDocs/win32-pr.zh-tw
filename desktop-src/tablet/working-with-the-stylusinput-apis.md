@@ -4,12 +4,12 @@ ms.assetid: 4009aeac-d290-4ea5-a6f5-199010acc84d
 title: 使用 StylusInput Api
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 676752f242aa428b583390d7c3d38c952b4c0edb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 143cb885cda16542a65aa096cdf95eb8a187b4f760a916a895887737ec63d7e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842838"
 ---
 # <a name="working-with-the-stylusinput-apis"></a>使用 StylusInput Api
 

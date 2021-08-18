@@ -4,12 +4,12 @@ ms.assetid: 0d9fd005-9326-4a18-8496-35b5d1927f47
 title: MsiServiceConfig 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 357b6787e56d52a893dd1a118a3e2fcbc13379e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3b72e21fdfecd59780b862d3bfe7d68ef829b59b847dbceb0e9c13befae9d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828588"
 ---
 # <a name="msiserviceconfig-table"></a>MsiServiceConfig 資料表
 
@@ -24,7 +24,7 @@ MsiServiceConfig 資料表具有下列資料行。
 | Column           | 類型                         | 答案 | Nullable |
 |------------------|------------------------------|-----|----------|
 | MsiServiceConfig | [識別碼](identifier.md) | Y   | N        |
-| Name             | [格式 化](formatted.md)   | N   | N        |
+| 名稱             | [格式 化](formatted.md)   | N   | N        |
 | 事件            | [整數](integer.md)       | N   | N        |
 | ConfigType       | [整數](integer.md)       | N   | N        |
 | 引數         | [格式 化](formatted.md)   | N   | Y        |
@@ -78,7 +78,7 @@ MsiServiceConfig 資料表具有下列資料行。
 
 
 
-| Config                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Config                                                      | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **服務 \_設定 \_ 延遲 \_ 自動 \_ 啟動** 3<br/>       | 設定 [自動啟動服務](../services/automatically-starting-services.md)的時間延遲。 <br/> 在 [引數] 欄位中輸入1，以在其他自動啟動服務加上時間延遲之後啟動服務。 <br/> 在 [引數] 欄位中輸入0，以關閉自動啟動服務延遲。<br/> 僅適用于已安裝的自動啟動服務，或此封裝所安裝的服務，以及 [ServiceInstall 資料表](serviceinstall-table.md)的 StartType 欄位中的 **服務 \_ 自動 \_ 啟動**。<br/>                                                                         |
 | **服務 \_CONFIG \_ REQUIRED \_ 許可權 \_ 資訊** 6<br/> | 變更服務所需的許可權清單。<br/> 在 [引數] 欄位中輸入要求的許可權清單。 [引數] 欄位中的 [格式化](formatted.md) 字串值會列出所要求之許可權的 [**許可權常數**](../secauthz/privilege-constants.md) 。 您可以使用 \[ ~ \] [格式化](formatted.md)字串的語法來插入 null 字元。 分隔清單中的許可權常數 \[ ~ \] 。<br/>                                                                                                                              |

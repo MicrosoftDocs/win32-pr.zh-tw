@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 505e23c74d4c1c8c74a50906809d0acc9ce06c42
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 2980a55e76d238578822cfc8db54a9b6c324e21d4a8f0481ab9bc91e050fb008
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106968934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984088"
 ---
 # <a name="differentusername-eaptype-element"></a>DifferentUsername (EapType) 元素
 
@@ -45,8 +45,8 @@ ms.locfileid: "106968934"
 
 | 角色 | 最低支援作業系統版本 |
 |------|------------------------------|
-| 用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

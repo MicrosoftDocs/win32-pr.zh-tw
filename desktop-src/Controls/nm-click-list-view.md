@@ -3,7 +3,7 @@ title: 'NM_CLICK (清單視圖) 通知碼 (Commctrl) '
 description: 當使用者按下滑鼠左鍵時，由清單視圖控制項所傳送。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
 ms.assetid: 7921bc27-54ca-4bb2-ac88-8267776661ab
 keywords:
-- NM_CLICK (清單視圖) 通知碼 Windows 控制項
+- NM_CLICK (清單視圖) 通知程式碼 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d766767bfb742e5d7ea7c22a1266540a40d65b9b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e9189861db0ec956b549145584202e3b88978478a9dd8de4386785d46e0d160
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061758"
 ---
 # <a name="nm_click-list-view-notification-code"></a>NM \_ 按一下 (清單視圖) 通知碼
 
@@ -59,8 +59,8 @@ NM_CLICK
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: c2e52fdf-e07a-4897-8af5-0a101d6c237a
 title: tapi/電話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c704a6999982fb0c23a8b02439a3d0e61b3af8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96b3238fb2e83d4f6e5e565f40b3ab3b124236ae2c89f879cb284d4a5997f662
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002716"
 ---
 # <a name="tapiphone"></a>tapi/電話
 

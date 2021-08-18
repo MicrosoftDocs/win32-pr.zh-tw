@@ -4,12 +4,12 @@ ms.assetid: 7b4a8d01-af7a-4dad-98c2-f81d8a16fb42
 title: XMDEC4 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9ff1fccaaf1a14a507e18a38f09146c42df8847
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b33bef0ff4c2bf44b9d022085468ab032cdbe53d9c3eea48635cfe0ce1f71ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740668"
 ---
 # <a name="xmdec4-extensions"></a>XMDEC4 延伸模組
 

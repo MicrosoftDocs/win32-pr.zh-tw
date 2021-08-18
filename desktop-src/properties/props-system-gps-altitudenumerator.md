@@ -4,18 +4,18 @@ ms.assetid: c7816d1b-d1c1-4b09-805c-1d33a8421d17
 title: AltitudeNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f3df2f3813a01d49a6de7eb9ad5227d3e89779e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39b61d5060817b23845748432b68f45877187656df1016084be55d590548d16a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844998"
 ---
 # <a name="systemgpsaltitudenumerator"></a>AltitudeNumerator
 
 PKEY \_ GPS 高度的分子 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

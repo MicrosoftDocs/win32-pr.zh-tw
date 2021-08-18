@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: de60ca08b262dbf97aa118bd115bd6dc58576a1d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a56425d1f07346f8e546940ff5880416e4e63efc692974c78f0e344b9ec01c5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051588"
 ---
 # <a name="int64x32div32-function"></a>Int64x32Div32 函式
 
@@ -79,7 +79,7 @@ LONGLONG WINAPI Int64x32Div32(
 
 
 
-| 傳回碼                                                                                       | Description                                                              |
+| 傳回碼                                                                                       | 描述                                                              |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | <dl> <dt>**0x7FFFFFFFFFFFFFFF**</dt> </dl> | 發生溢位，因為結果太大 (正) 。<br/> |
 | <dl> <dt>**0x8000000000000000**</dt> </dl> | 發生溢位，因為結果太大 (負) 。<br/> |

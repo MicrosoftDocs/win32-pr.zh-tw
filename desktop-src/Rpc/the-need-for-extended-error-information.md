@@ -4,12 +4,12 @@ description: 針對 RPC 問題進行疑難排解的主要難題是將 RPC 錯誤
 ms.assetid: aef3bcd6-ecaa-4639-b765-da90db6ddf82
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d82fbbcaf0fac427b2bf64fbacbf1e85aeb4d06
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bce13e2cb30c7cd9f2db4d7f518eb0a747cd15b2ba1ff7962cf5f41fbc9cf552
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016798"
 ---
 # <a name="the-need-for-extended-error-information"></a>擴充錯誤資訊的需求
 
@@ -19,9 +19,9 @@ ms.locfileid: "104021186"
 -   造成問題的原始錯誤碼。 為了符合憑證標準，MS RPC 會將錯誤碼對應至 RPC \_ S \_ \* 代碼。 \_ \_ \* 不過，RPC S 的代碼太過一般，而且提供了一些實用的疑難排解資訊。
 -   與發生問題相關的任何內容資訊。 在非 RPC 錯誤中，偵錯工具可以停止進程並檢查發生錯誤的內容。 RPC 錯誤通常是由遠端進程或電腦所產生，會在傳回錯誤之後繼續處理，並覆寫與錯誤有關的任何內容。
 
- 
+ 
 
- 
+ 
 
 
 

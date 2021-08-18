@@ -6,12 +6,12 @@ keywords:
 - 重新開機管理員重新開機管理員、參考、回呼函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44c850dd805aeff664e3e09292825e342a6c5603
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 995554b612a0f0c176f3317b43db29c7c11a030a1a253a8e1a6b7d7268f10bcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010286"
 ---
 # <a name="restart-manager-callback-functions"></a>重新開機管理員回呼函數
 
@@ -19,14 +19,14 @@ ms.locfileid: "103682925"
 
 
 
-| 回呼函式                                               | Description                                                                                                                                                            |
+| 回呼函式                                               | 描述                                                                                                                                                            |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**RM \_ 寫入 \_ 狀態 \_ 回呼**](/windows/win32/api/restartmanager/nc-restartmanager-rm_write_status_callback) | 啟動重新開機管理員會話的應用程式可以將此函式的指標傳遞給重新開機管理員函式，以獲得完整性的百分比。 |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

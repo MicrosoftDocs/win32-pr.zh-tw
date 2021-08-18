@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf39e1db2f5d6f823667865054a8c72b18dc916f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74a23ff538e5381e9853fca48df4703dc09dd110940128af2caed98b0fcec2af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017916"
 ---
 # <a name="mdm_policy_config01_localpoliciessecurityoptions02-class"></a>MDM \_ 原則 \_ Config01 \_ LocalPoliciesSecurityOptions02 類別
 
@@ -497,7 +497,7 @@ Accounts_EnableGuestAccountStatus
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

@@ -4,12 +4,12 @@ description: 根據 DCE 規格，每個 IDL 檔案都必須定義其指標的屬
 ms.assetid: ab8821ce-d52a-42bf-aa5e-582bb24adf93
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 182b7d46774484a9520424fd82bcff2d7103aa3c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bcf0b365cecf2880fa2746536c3f1d80505f5d7534b95017f8abb18ceecd9d09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019258"
 ---
 # <a name="pointer-attribute-type-inheritance"></a>Pointer-Attribute 類型繼承
 
@@ -30,8 +30,8 @@ MIDL 編譯器會使用下列優先順序規則，將指標屬性指派給指標
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

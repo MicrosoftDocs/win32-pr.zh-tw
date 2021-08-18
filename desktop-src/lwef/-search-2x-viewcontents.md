@@ -14,17 +14,17 @@ api_type:
 - IDLDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f465b16ef81dd71695f8de0b04b6d7567480f4c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2070b68ec62a8dd6ca86758b98a6399ee41180eaad24613d17d0825a927b1871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829108"
 ---
 # <a name="viewcontents-enumeration"></a>ViewContents 列舉
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在更新版本中，請改用 [WINDOWS SEARCH API](../search/-search-reference-entry-page.md) 。 
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在更新版本中，請改用[Windows Search API](../search/-search-reference-entry-page.md) 。 
 
 由 [**IResultsViewer：：內容**](-search-2x-iresultsviewer-contents.md) 用來指出或設定目前查詢傳回集的顯示方式。
 
@@ -72,7 +72,7 @@ typedef enum ViewContentsEnum {
 
 | 需求 | 值 |
 |----------------|----------------------------------------------------------------------------------------|
-| Idl<br/> | <dl> <dt>WdsView .idl</dt> </dl> |
+| IDL<br/> | <dl> <dt>WdsView .idl</dt> </dl> |
 
 
 

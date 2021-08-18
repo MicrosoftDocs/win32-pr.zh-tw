@@ -50,19 +50,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d8f996e70873d5584bb80bbf4f40f71a7deae8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4700c549fa82f932ed12e3f4eeb02f2d557db3f940b394e0f2f875ac6dd7dffb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000688"
 ---
 # <a name="imstscadvancedsettingsiconfile-property"></a>IMsTscAdvancedSettings：： IconFile 屬性
 
 指定檔案的名稱，這個檔案包含在全螢幕模式中顯示用戶端時，將會存取的圖示資料。
 
 > [!Note]  
-> ActiveX 控制項 (MsRdp) 不支援這個屬性。 標準用戶端 (MsTsc.exe) 中包含的 MsTscAx.dll 程式庫都支援此功能。
+> ActiveX 控制項 (MsRdp) 中不支援這個屬性。 標準用戶端 (MsTsc.exe) 中包含的 MsTscAx.dll 程式庫都支援此功能。
 
  
 

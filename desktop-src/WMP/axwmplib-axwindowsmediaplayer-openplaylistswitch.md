@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 338d360944b46555be53d5e212561cf906dd33c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c57341488c385b159ce294626a79b7e22287bff83864f7273b0f4432c1db95ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764698"
 ---
 # <a name="openplaylistswitch-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 OpenPlaylistSwitch 事件
 

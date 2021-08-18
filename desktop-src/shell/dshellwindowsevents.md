@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shdocvw.dll
-ms.openlocfilehash: 7df1571556b5f2942f181b4c88b22ff3bc83f273
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 13335268b892e4ac95520221fcd2e413c9c255225ccd8fc36c3c73cbf8c327a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009538"
 ---
 # <a name="dshellwindowsevents-object"></a>DShellWindowsEvents 物件
 

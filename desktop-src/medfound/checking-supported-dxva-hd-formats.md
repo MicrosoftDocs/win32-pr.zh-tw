@@ -4,12 +4,12 @@ ms.assetid: 43ae9f70-34a1-48ca-be61-e974e2daebd7
 title: 檢查支援的 DXVA-HD 格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d07d47043ed200d256e2bef8fa2c9ab6717f3b82
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c92b28586148bb96a918c8a230a25ff1477af73e0604d3b62e11e644e8276b7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035406"
 ---
 # <a name="checking-supported-dxva-hd-formats"></a>檢查支援的 DXVA-HD 格式
 

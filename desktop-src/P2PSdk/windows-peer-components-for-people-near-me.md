@@ -1,27 +1,27 @@
 ---
-description: 近端分享的 Windows 對等元件
+description: Windows近端分享的對等元件
 ms.assetid: aa9e7d4d-4131-4578-8bd1-298f04b826f9
-title: 近端分享的 Windows 對等元件
+title: Windows近端分享的對等元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc6c780ccad1abd5ce04c1672f66561285831e5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 762ea58aa9738bfe01e23844dd146e4de8a6a5f76433ef969b60b30fb5886db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011496"
 ---
-# <a name="windows-peer-components-for-people-near-me"></a>近端分享的 Windows 對等元件
+# <a name="windows-peer-components-for-people-near-me"></a>Windows近端分享的對等元件
 
-在主要的 Windows 對等網路可執行檔 (P2phost.exe) 中， [近端分享架構](people-near-me-architecture.md) 會使用下列元件：
+在主要 Windows 對等網路可執行檔 (P2phost.exe) 中，[近端分享架構](people-near-me-architecture.md)會使用下列元件：
 
 ### <a name="people-near-me"></a>近端分享
 
 近端分享 (PNM) 元件會針對支援 PNM 之電腦的使用者名稱，使用本機子網上的 Web 服務探索來起始探索。
 
-### <a name="people-near-me-publisher"></a>近端分享發行者
+### <a name="people-near-me-publisher"></a>近端分享 Publisher
 
-近端分享發行者元件會發佈已登入使用者的昵稱，以指出在本機子網上使用 PNM 的其他電腦可用性。 登入的使用者必須選擇在公告昵稱之前發佈其昵稱。 昵稱是使用 Web 服務探索在子網上發佈的。 此外，也可以發行物件和應用程式。 但是，使用者必須為「**近端分享**」或「**全部**」範圍指定物件和應用程式發行。
+近端分享 Publisher 元件會發佈已登入使用者的昵稱，以指出在本機子網上使用 PNM 的其他電腦可用性。 登入的使用者必須選擇在公告昵稱之前發佈其昵稱。 昵稱是使用 Web 服務探索在子網上發佈的。 此外，也可以發行物件和應用程式。 但是，使用者必須為「**近端分享**」或「**全部**」範圍指定物件和應用程式發行。
 
 ### <a name="people-near-me-enumerator"></a>近端分享列舉值
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: cdd1397def1cd25405d0a80a6d5cfde2ee6ef77e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c19a712c4838905296026a2a0bea4c9e1abc1c49465a854692dd603734e0bd89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763618"
 ---
 # <a name="installerproductstate-property-method"></a>ProductState 屬性方法
 
@@ -56,7 +56,7 @@ Installer.ProductState Property(
 
 
 
-| 安裝狀態        | Description                                      |
+| 安裝狀態        | 描述                                      |
 |---------------------------|--------------------------------------------------|
 | msiInstallStateAbsent     | 已針對不同的使用者安裝產品。   |
 | msiInstallStateDefault    | 已為目前使用者安裝產品。   |
@@ -75,7 +75,7 @@ Installer.ProductState Property(
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IInstaller 定義為000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102807
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3c10b12d90699c85256c2557930d61c19e6de230
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6adc187080bef5688b6fa170f7b97218a5dd214af94088eb9cd683b10285e60c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850768"
 ---
 # <a name="esentslvpagesnotreservedexception-methods"></a>EsentSLVPagesNotReservedException 方法
 

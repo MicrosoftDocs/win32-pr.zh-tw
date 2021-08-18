@@ -4,19 +4,19 @@ ms.assetid: 287E25AD-A560-40DA-A4E6-C46A3123914E
 title: 搭配使用 .NET Framework 4 與舊版的應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b30eb8f4be1c50904b8d5760f456f3fe20bdd3da
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: c400f38efe93d2fc77d5de1f700b550f455f3e29db8ba96ef778771d82158c76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994568"
 ---
 # <a name="using-net-framework-4-with-applications-built-on-earlier-versions"></a>搭配使用 .NET Framework 4 與舊版的應用程式
 
 ## <a name="platform"></a>平台
 
- **客戶** 端-windows XP、windows Vista、windows 7  
-**伺服器** -windows server 2003、windows server 2008、windows Server 2008 R2  
+ **客戶** 端-Windows XP、Windows Vista、Windows 7  
+**伺服器**-Windows server 2003、Windows server 2008、Windows Server 2008 R2  
 
 
 ## <a name="feature-impact"></a>功能影響
@@ -41,7 +41,7 @@ ms.locfileid: "107314941"
 
 但是，如果 .NET Framework 4 是安裝在電腦上的唯一執行階段版本，則應用程式會擲回例外狀況，並要求使用者安裝您為應用程式建立的執行階段版本。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 若要執行使用 .NET Framework 4 .NET Framework 版本所建立的應用程式，您必須將應用程式編譯為以 .NET Framework 4 版本為目標，方法是在 Microsoft Visual Studio 的專案屬性中指定該應用程式，或者您可以在應用程式佈建檔的 [**<supportedRuntime> 元素**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))中指定 .NET Framework 4。
 
@@ -49,9 +49,9 @@ ms.locfileid: "107314941"
 
 ## <a name="compatibility-tests"></a>相容性測試
 
-進行變更之後，請測試您的應用程式，以確定它會正確執行。 您可以如 [.NET Framework 4 應用程式相容性](/previous-versions/dd889541(v=msdn.10)) 主題所述，測試相容性。
+進行變更之後，請測試您的應用程式，以確定它會正確執行。 您可以如[.NET Framework 4 應用程式相容性](/previous-versions/dd889541(v=msdn.10))主題所述，測試相容性。
 
-如果您的應用程式或元件在安裝 .NET Framework 4 之後無法運作，請透過 [Microsoft Connect](https://connect.microsoft.com/visualstudio) 網站提交 bug。
+如果您的應用程式或元件在安裝 .NET Framework 4 之後無法運作，請透過[Microsoft 連線](https://connect.microsoft.com/visualstudio)網站提交 bug。
 
 ## <a name="links-to-other-resources"></a>其他資源的連結
 

@@ -4,12 +4,12 @@ ms.assetid: f9bd8a50-e43e-4668-86a0-c9d5f517f4cf
 title: 'MFT_PREFERRED_ENCODER_PROFILE 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfdc85ead0fe813215b3edaea14833400df5445d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85acf742e518d91c6512b2b887cca910c3b19d21180500bd1180e6972255e54f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722503"
 ---
 # <a name="mft_preferred_encoder_profile-attribute"></a>MFT \_ 慣用 \_ 編碼器 \_ 配置檔案屬性
 
@@ -17,11 +17,11 @@ ms.locfileid: "103943734"
 
 ## <a name="data-type"></a>資料類型
 
-**[](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) IMFAttributes \** _ 儲存為 _*IUnknown \**_
+**[**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) \**_ 儲存為 _* IUnknown\***
 
 ## <a name="getset"></a>取得/設定
 
-若要取得這個屬性，請呼叫 [_ *IMFAttributes：： GetUnknown* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。
+若要取得這個屬性，請呼叫 [**IMFAttributes：： GetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。
 
 若要設定這個屬性，請呼叫 [**IMFAttributes：： SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown)。
 
@@ -42,7 +42,7 @@ ms.locfileid: "103943734"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

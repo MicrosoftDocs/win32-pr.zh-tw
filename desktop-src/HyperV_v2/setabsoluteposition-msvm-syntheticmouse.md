@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4b8ffb3a4d415f76dedf30acba5869b4cc585eb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f7f04975d85be1cb176839c80c19710534237b3be15ca06e606dad58a099519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014306"
 ---
 # <a name="setabsoluteposition-method-of-the-msvm_syntheticmouse-class"></a>Msvm SyntheticMouse 類別的 SetAbsolutePosition 方法 \_
 
@@ -115,8 +115,8 @@ uint32 SetAbsolutePosition(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | 標頭<br/>                   | <dl> <dt>Dbdao。h</dt> </dl>                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |

@@ -4,12 +4,12 @@ ms.assetid: ba7d1a9e-6906-4923-a8eb-db58050ba699
 title: 通訊功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64853bf2b0c42d4e7ca607fbbe624995cfe1a249
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dc1f49efccf2ff93ea18710ea4d6647e45f1135cf8a5fed542a65192f0abda6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768958"
 ---
 # <a name="communications-functions"></a>通訊功能
 

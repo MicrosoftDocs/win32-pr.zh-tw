@@ -4,12 +4,12 @@ ms.assetid: a5cf3512-ee42-4f64-8fe3-73a14589f78c
 title: 'LINEPROXYSTATUS_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e21eaf2708b92448c877230a3be82a6003c9ad9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b49c3e787451024254a25959cdf2e0a8240cba4453c8b888665d14a2aa220e93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003026"
 ---
 # <a name="lineproxystatus_-constants"></a>LINEPROXYSTATUS \_ 常數
 

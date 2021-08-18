@@ -5,12 +5,12 @@ ms.assetid: 3988b298-b21d-4476-bfa5-ac606bcbd6c8
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: ef0e3b96ce564ed7ff8e2ce0886e33ca474a1cf8
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: 8ad479c2e24d8c38e87a2100658be2afcf37d70d321e99433e3b05a3af35fa60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "104383174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911478"
 ---
 # <a name="op_policy_part-structure"></a>OP_POLICY_PART 結構
 
@@ -38,7 +38,7 @@ typedef struct _OP_POLICY_PART
 
 包含 OP_POLICY_ELEMENT_LIST 結構的陣列。
 
-### <a name="extension"></a>分機
+### <a name="extension"></a>延伸模組
 
 保留供日後使用，且必須包含所有的零。
 

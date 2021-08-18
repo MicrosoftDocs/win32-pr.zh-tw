@@ -5,12 +5,12 @@ ms.assetid: 1DCDE305-D910-452D-BD52-F9C8112461EF
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eb9d2d7060a0c719eec557c5124498e6ef9eeb9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 704c8cb423b6940bbca6a5c7edd1a67769a1a82667339c41ada128d78e3e9969
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106983300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857871"
 ---
 # <a name="interface-hierarchy"></a>介面階層架構
 
@@ -32,6 +32,6 @@ ms.locfileid: "106983300"
 [Direct3D 12 參考](direct3d-12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

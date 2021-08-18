@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af595443d78a311510df6a7e06b2e716da22ecae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 30cca5d7ebe91859162bd729cc32cc03f36f9e3c59ba4474d41311befcce1d21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765248"
 ---
 # <a name="buffering-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的緩衝事件
 

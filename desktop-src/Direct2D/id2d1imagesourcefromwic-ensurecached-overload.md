@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 348931ab760379efd6fbe3a31bfd07b1bf19179a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6379c290f3d4ee3de6e60d0d1f5edf0eb7d6c1439395e920eed807af1b9ecfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917618"
 ---
 # <a name="id2d1imagesourcefromwicensurecached-methods"></a>ID2D1ImageSourceFromWic：： EnsureCached 方法
 

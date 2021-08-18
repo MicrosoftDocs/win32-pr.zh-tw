@@ -1,5 +1,5 @@
 ---
-description: 描述 Windows 裝置) 的安全模式 (S 模式。
+description: 說明 Windows 裝置) 的安全模式 (S 模式。
 ms.assetid: CE50AC56-0295-477C-93CB-ABAB92482A59
 title: 'WLDP_WINDOWS_LOCKDOWN_MODE 列舉 (Wldp .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - wldp.h
-ms.openlocfilehash: 438a44bec0745ea67b2b40c3f8aa9c0dd6bd0072
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93a3ae8ef00c306d93995a3a97236fc9086185147144c4314726c507d8b52e57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911338"
 ---
 # <a name="wldp_windows_lockdown_mode-enumeration"></a>WLDP \_ WINDOWS \_ 鎖定 \_ 模式列舉
 
-描述 Windows 裝置) 的安全模式 (S 模式。 主要用於 [**WldpQueryWindowsLockdownMode**](wldpquerywindowslockdownmode.md)。
+說明 Windows 裝置) 的安全模式 (S 模式。 主要用於 [**WldpQueryWindowsLockdownMode**](wldpquerywindowslockdownmode.md)。
 
 ## <a name="syntax"></a>Syntax
 
@@ -59,7 +59,7 @@ typedef enum _WLDP_WINDOWS_LOCKDOWN_MODE {
 <span id="WLDP_WINDOWS_LOCKDOWN_MODE_LOCKED"></span><span id="wldp_windows_lockdown_mode_locked"></span>**WLDP \_ WINDOWS \_ 鎖定 \_ 模式已 \_ 鎖定**
 </dt> <dd>
 
-鎖。 主要用於具有 S 模式的 Windows 10 裝置。 鎖定的裝置將會強制執行以 S 模式隨附 Windows 10 OS 映射的已簽署 Device Guard 原則。
+鎖。 主要用於具有 S 模式的 Windows 10 裝置。 鎖定的裝置將會強制執行以 S 模式隨附 Windows 10 OS 映射的已簽署 device Guard 原則。
 
 </dd> <dt>
 

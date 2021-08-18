@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5e96ba9837252158510c306a622df86c09bbfd96
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1bcc7830de0fe750684181dd8565075841befff9b7413e95e0878c49440045ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003778"
 ---
 # <a name="delete-method-of-the-cim_devicefile-class"></a>CIM DeviceFile 類別的 Delete 方法 \_
 
@@ -96,7 +96,7 @@ uint32 Delete();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

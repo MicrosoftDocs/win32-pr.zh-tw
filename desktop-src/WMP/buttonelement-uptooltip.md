@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec3b8d74b05a6d1e4ad6abd301a859f724e5c8d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08fc4435ec51ea3460d03d4fc889307a026f8762671291b648f09c282fb812fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997733"
 ---
 # <a name="buttonelementuptooltip"></a>BUTTONELEMENT.upToolTip
 

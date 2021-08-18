@@ -4,12 +4,12 @@ description: IBackgroundCopyFile4 介面會公開下列方法。
 ms.assetid: 11A9AACD-223F-43FB-AB1E-ED781D2FA60F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93c9d42c61d89bc05cf95e5c0622114033e330a7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: edded753d99f02ccae56d498eeee6dd81177e3c27d6b4c64b69980211a16029e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005097"
 ---
 # <a name="ibackgroundcopyfile4-methods"></a>IBackgroundCopyFile4 方法
 
@@ -19,9 +19,9 @@ ms.locfileid: "104183051"
 
 -   [**GetPeerDownloadStats 方法**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibackgroundcopyfile4-getpeerdownloadstats)
 
- 
+ 
 
- 
+ 
 
 
 

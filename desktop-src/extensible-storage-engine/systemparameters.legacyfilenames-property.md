@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 57dd9987ff419d889f80795d07e16c28ef46dc39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73739bda83f83eddbbfa090925b873d78aaeaa1dcdbcce9c527e5467f0f0acf6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015951"
 ---
 # <a name="systemparameterslegacyfilenames-property"></a>SystemParameters. LegacyFileNames 屬性
 

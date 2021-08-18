@@ -12,12 +12,12 @@ api_name:
 - RAY_FLAG
 api_type:
 - NA
-ms.openlocfilehash: fe8e2ec9cdbb8ef7567b9327ae5af1128597a601
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 30f7ce32e66a19984ce43737d9fc9cae83652c851174d7db350ca34628a33033
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850821"
 ---
 # <a name="miss-shader"></a>遺漏著色器
 

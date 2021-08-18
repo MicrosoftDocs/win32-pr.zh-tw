@@ -4,12 +4,12 @@ ms.assetid: 81f43f7e-a383-44f7-a3bd-2969d541b616
 title: 'GraphicsPath. AddCurve 方法 (Gdipluspath .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 76ef04d0bd1efce00f767e675a64f8ba2ceb8908
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 730bdeb05882d628a5fdb26a16085bb20bdb238bf02cb9f9a8c932d935a37338
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848738"
 ---
 # <a name="graphicspathaddcurve-methods"></a>GraphicsPath. AddCurve 方法
 

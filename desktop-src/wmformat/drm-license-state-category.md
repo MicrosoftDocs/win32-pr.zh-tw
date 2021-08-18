@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40763ec7f610073784e3bd1516d4c955abcd65b3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2bbfd6c566d6c58314416c787110ea77da25416ed73d80ec87fd2d66602d820b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930998"
 ---
 # <a name="drm_license_state_category-enumeration-drmexternalsh"></a>DRM_LICENSE_STATE_CATEGORY 列舉 (Drmexternals .h) 
 
@@ -132,7 +132,7 @@ typedef enum DRM_LICENSE_STATE_CATEGORY {
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                      |
-| 版本<br/>                  | Windows Media Format 7 SDK 或更新版本的 SDK<br/>                       |
+| 版本<br/>                  | WindowsMedia Format 7 SDK 或更新版本的 SDK<br/>                       |
 | 標頭<br/>                   | <dl> <dt>Drmexternals。h</dt> </dl> |
 
 

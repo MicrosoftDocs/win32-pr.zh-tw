@@ -4,12 +4,12 @@ description: 滑鼠輸入功能
 ms.assetid: a666b25b-a75c-4500-8077-fabe07589a1d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a952a9ce90284f284b176c608228c0b852f5f4c8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8c9b6abb4283ce4101b2e22c36653500db8109a0b8efbc01f9f3affe20c367a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717378"
 ---
 # <a name="mouse-input-functions"></a>滑鼠輸入功能
 

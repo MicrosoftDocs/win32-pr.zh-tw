@@ -4,12 +4,12 @@ ms.assetid: 052e04a4-5290-4dca-af7a-cd590ebfbe15
 title: 連接關閉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbde0cfe4c3a97435c2412d28970107f830308fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: babbd26716c255c83a8ecc17305d9e59676645739a6f90d18ac72b5bcda49241
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898418"
 ---
 # <a name="connection-shutdown"></a>連接關閉
 

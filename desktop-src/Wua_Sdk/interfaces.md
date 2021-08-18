@@ -4,12 +4,12 @@ ms.assetid: 1ba2b296-cb27-45fd-8c87-430d30322f1f
 title: 'Windows Update 代理程式 (介面) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9312b214fca45af4d93346e33ea02af090aedb50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be801a16ba171894124280f1831708ea594e0ce8beec75e3702ddb1e52344446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756618"
 ---
 # <a name="interfaces-windows-update-agent"></a>Windows Update 代理程式 (介面) 
 
@@ -95,7 +95,7 @@ ms.locfileid: "104113525"
 | [**IWindowsDriverUpdate4**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate4)                                       | 包含只能從 Windows 驅動程式更新使用的屬性和方法。                                                                                                             |
 | [**IWindowsDriverUpdate5**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdate5)                                       | 包含只能從 Windows 驅動程式更新使用的屬性和方法。                                                                                                             |
 | [**IWindowsDriverUpdateEntry**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentry)                               | 包含只能從 Windows 驅動程式更新使用的屬性。                                                                                                                         |
-| [**IWindowsDriverUpdateEntryCollection**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentrycollection)           | 包含只能從 Windows 驅動程式更新集合使用的屬性。                                                                                                          |
+| [**IWindowsDriverUpdateEntryCollection**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentrycollection)           | 包含只能從 Windows 驅動程式更新集合中使用的屬性。                                                                                                          |
 | [**IWindowsUpdateAgentInfo**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsupdateagentinfo)                                   | 抓取 WUA 版本的相關資訊。                                                                                                                                                       |
 
 

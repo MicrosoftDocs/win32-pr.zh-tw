@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: eccd5c367e593559b6a719777dfd1535ae2d423a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 091cda0570f288139a1aa57eb53755897ed9089d17a598da7b13d2873c5bd70f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104973916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845758"
 ---
 # <a name="bufferloadint-uint-function"></a>Buffer：： Load (int，uint) 函數
 
@@ -67,7 +67,7 @@ ms.locfileid: "104973916"
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

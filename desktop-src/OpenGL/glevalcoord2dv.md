@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a685606fb1445c6841efdf506a1f2d4747da838
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: b72a81fc0892a9d72d3991884dd472b89458beed2e64d8dd986cbebb3cfee865
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104561094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625638"
 ---
 # <a name="glevalcoord2dv-function"></a>glEvalCoord2dv 函式
 

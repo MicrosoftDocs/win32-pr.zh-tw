@@ -4,12 +4,12 @@ description: 本章節包含與屬性工作表搭配使用之程式設計項目�
 ms.assetid: f4fa9815-eab8-4b0b-ae5f-0bce4374223a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c42b7b4c1be7d0dc11613da36f78abbad847d6e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d50661ece6985c16f299b514fa59068bf06f115b49c0f0bbea783cf637c2c921
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826028"
 ---
 # <a name="property-sheet"></a> 內容工作表頁
 
@@ -73,7 +73,7 @@ ms.locfileid: "103933635"
 | [**PSM \_ REBOOTSYSTEM**](psm-rebootsystem.md)                       | 指出需要重新開機系統，變更才會生效。 您可以明確地傳送 [**PSM \_ REBOOTSYSTEM**](psm-rebootsystem.md) 訊息或使用 [**PropSheet \_ REBOOTSYSTEM**](/windows/desktop/api/Prsht/nf-prsht-propsheet_rebootsystem) 宏。<br/>                        |
 | [**PSM \_ RECALCPAGESIZES**](psm-recalcpagesizes.md)                 | 新增或移除頁面之後，重新計算標準或 wizard 屬性工作表的頁面大小。 您可以明確地傳送此訊息，或使用 [**PropSheet \_ RecalcPageSizes**](/windows/desktop/api/Prsht/nf-prsht-propsheet_recalcpagesizes) 宏。<br/>                                     |
 | [**PSM \_ REMOVEPAGE**](psm-removepage.md)                           | 從屬性工作表移除頁面。 您可以使用 [**PropSheet \_ RemovePage**](/windows/desktop/api/Prsht/nf-prsht-propsheet_removepage) 宏明確地傳送此訊息。<br/>                                                                                                              |
-| [**PSM \_ RESTARTWINDOWS**](psm-restartwindows.md)                   | 指出必須重新開機 Windows，變更才會生效。<br/>                                                                                                                                                                                         |
+| [**PSM \_ RESTARTWINDOWS**](psm-restartwindows.md)                   | 指出 Windows 需要重新開機，變更才會生效。<br/>                                                                                                                                                                                         |
 | [**PSM \_ SETBUTTONTEXT**](psm-setbuttontext.md)                     | 設定 Aero wizard 中按鈕的文字。 您可以使用 [**PropSheet \_ SetButtonText**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setbuttontext) 宏明確地傳送此訊息。<br/>                                                                                                 |
 | [**PSM \_ SETCURSEL**](psm-setcursel.md)                             | 啟用屬性工作表中的指定頁面。 您可以使用 [**PropSheet \_ SetCurSel**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setcursel) 宏明確地傳送此訊息。<br/>                                                                                                    |
 | [**PSM \_ SETCURSELID**](psm-setcurselid.md)                         | 根據頁面的資源識別碼，啟用屬性工作表中的指定頁面。 您可以使用 [**PropSheet \_ SetCurSelByID**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setcurselbyid) 宏明確地傳送此訊息。<br/>                                                   |

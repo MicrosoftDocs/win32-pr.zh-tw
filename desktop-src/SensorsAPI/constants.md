@@ -4,12 +4,12 @@ ms.assetid: 1396ffd6-a660-4e0b-96a8-b0ea8b7e208d
 title: '常數 (感應器 API 程式設計參考) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d6a5cf5653d9fc19c0560e7e0b0db1ad9007364
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96a72a68baa4d5bdcad120c9448341a76e5856facf9b091c2dad914ea8f441c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003866"
 ---
 # <a name="constants-sensor-api-programming-reference"></a>常數 (感應器 API 程式設計參考) 
 

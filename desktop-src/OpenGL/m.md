@@ -11,12 +11,12 @@ keywords:
 - 動作模糊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 876a57d36ef484ceb66997c1a6ade49845676227
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1da688c16f57eefdb155b45b0ceb30cf4018e8fa30ec430c7391b96e52dfae94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106966075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777328"
 ---
 # <a name="m-opengl"></a>M (OpenGL) 
 

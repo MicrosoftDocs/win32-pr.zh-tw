@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eff5c12e53eb060777f75ad537bed265401a7a26
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a124421684fc2e1b5826e149b90f9d249a6236c792f3830fa2a10e29793d0935
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625728"
 ---
 # <a name="gldisable-function"></a>glDisable 函式
 
@@ -59,7 +59,7 @@ void WINAPI glDisable(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *上限* 不是先前 [備註] 區段中所列的其中一個值。<br/>                                                   |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |

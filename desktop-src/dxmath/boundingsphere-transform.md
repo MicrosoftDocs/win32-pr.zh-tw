@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 55de1d0ef562b0ea917d0cd85eea2fde55220783
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae03d52726b383c86b53afa85ae0475279aa3500860e461ffae145e7223050c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985048"
 ---
 # <a name="boundingspheretransform-methods"></a>BoundingSphere 轉換方法
 

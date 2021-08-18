@@ -10,12 +10,12 @@ keywords:
 - 副檔名登錄設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c526e38ae1b2b76b942e0646df6f8aaa3b8e3417
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d4acea080c59b4f78d4b4053f6ae67e5d1eb2c820d68b4e4702485130d8f33a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996628"
 ---
 # <a name="file-name-extension-registry-settings"></a>副檔名登錄設定
 
@@ -68,12 +68,12 @@ ms.locfileid: "103674835"
 [**登錄設定**](registry-settings.md)
 </dt> <dt>
 
-[**Windows Media Player 轉換外掛程式**](windows-media-player-conversion-plug-ins.md)
+[**Windows Media Player轉換外掛程式**](windows-media-player-conversion-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

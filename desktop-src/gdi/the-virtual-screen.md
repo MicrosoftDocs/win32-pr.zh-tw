@@ -4,12 +4,12 @@ ms.assetid: 3f84027d-f316-4454-92ad-2d36d10b2ec8
 title: 虛擬畫面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4550ab0f849b90523842e6cc4e093c238ff11cbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5516ef0cb5d99124200ab7810e484ea79027cf832a0e8da74833bf709ce5cc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037516"
 ---
 # <a name="the-virtual-screen"></a>虛擬畫面
 
