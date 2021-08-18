@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 94a423e700c4a42e2ae7f7e522d83a5a4bd9bf3a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 32907d972a9f53eafeea4183d7c7152a922f589ec75bd9a1d378a2ed433f02f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044836"
 ---
 # <a name="d3dxmatrixlookatlh-function-d3dx9mathh"></a>D3DXMatrixLookAtLH 函式 (D3dx9math) 
 

@@ -4,12 +4,12 @@ ms.assetid: 14f0f9e7-90ba-47d7-a8d5-06f9d2f1a7a1
 title: LSA 登入會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f32a4912218b68c25c5c23334f7b34ef875fa318
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eb4bc6adc81b22b0e48a83b8aec4f9130b1fcb906bea5078afc6517563c98b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118922323"
 ---
 # <a name="lsa-logon-sessions"></a>LSA 登入會話
 

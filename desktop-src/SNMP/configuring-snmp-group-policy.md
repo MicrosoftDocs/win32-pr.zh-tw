@@ -4,12 +4,12 @@ description: 如果您使用 Microsoft Management Console (MMC) 嵌入式管理�
 ms.assetid: de21d2f5-3337-47ba-afcf-347e289873d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 817797dbc0e67f6006e12751beca533cbbec3656
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1e17bc3b1bac886a19791f57903920a11062072a81577a0a78ab01d461709ee3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009656"
 ---
 # <a name="configuring-snmp-group-policy"></a>設定 SNMP 群組原則
 
@@ -29,6 +29,6 @@ ms.locfileid: "104093072"
 
 如需以登錄為基礎之原則設定的詳細資訊，請參閱 [關於群組原則](/previous-versions/windows/desktop/Policy/about-group-policy)。
 
- 
+ 
 
- 
+ 

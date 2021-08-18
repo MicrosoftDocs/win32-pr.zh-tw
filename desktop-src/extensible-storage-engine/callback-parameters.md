@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4e06ed65bbeae195060e4de10424a76a4228f20f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9c14940ee98d4f664914794cd4ff6185b78dd04f438b982179a7ab3c5eb6504
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982808"
 ---
 # <a name="callback-parameters"></a>回呼參數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="callback-parameters"></a>回呼參數
 
@@ -84,7 +84,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows XP 和更新版本</p></td>
+<td><p>WindowsXP 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -143,7 +143,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows Vista 和更新版本</p></td>
+<td><p>WindowsVista 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -202,7 +202,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows XP 和更新版本</p></td>
+<td><p>WindowsXP 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -222,7 +222,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

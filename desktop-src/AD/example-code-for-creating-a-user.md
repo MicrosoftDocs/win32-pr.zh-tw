@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，建立使用者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec7f6c5358e72bda444c84ddc407728e4062b3f0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2dca0390bc53b8e72eb2efc185a0ebfb9dc553f233c425e72581d5d67676e690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962337"
 ---
 # <a name="example-code-for-creating-a-user"></a>建立使用者的範例程式碼
 
@@ -373,9 +373,9 @@ HRESULT CreateUserFromDirObject(LPCWSTR pwszContainerDN,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

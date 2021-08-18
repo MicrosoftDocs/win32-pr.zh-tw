@@ -4,12 +4,12 @@ description: 大部分的開發人員都是在快速可靠的 LAN 上撰寫和�
 ms.assetid: 9458162c-1046-4554-bafa-b455f2957d58
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a83210db66133329d6c6b38b67ec7ecb29c0595
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 70ff9da31ecd80b9e0a699d9ec0eb450e885a423b9380b85e2015e9ef7c1af7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930618"
 ---
 # <a name="development-vs-deployment-in-the-network"></a>開發與網路中的部署
 
@@ -17,9 +17,9 @@ ms.locfileid: "104021324"
 
 本文說明如何在本質上不可靠的網路和可能無法使用的伺服器所引進的不確定性情況下，建立穩固的用戶端/伺服器架構。
 
- 
+ 
 
- 
+ 
 
 
 

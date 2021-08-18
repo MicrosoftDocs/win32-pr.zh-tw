@@ -4,12 +4,12 @@ description: 在 C 程式中，有一個以上的指標可以包含資料的位�
 ms.assetid: da4f466d-2c59-4e48-b6c5-1a49b933621a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fc8cf9a45965c82416ec838f8598c2796ba621a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3adb39d2505daa623f23f47c936fb73d0ecff6e0ad7749c951f9926fd66f33d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010988"
 ---
 # <a name="unique-pointers"></a>唯一指標
 
@@ -78,6 +78,6 @@ interface RefPtrInterface
 
 在此範例中，參數 *ach* 是傳送至伺服器以使用 RemoteFn 常式處理的字元資料的唯一指標。
 
- 
+ 
 
- 
+ 

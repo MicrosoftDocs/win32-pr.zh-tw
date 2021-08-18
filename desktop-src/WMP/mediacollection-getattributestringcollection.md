@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d50d25488a05e6076c99802ce738edf02298ade
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c27b7c6dbef585763ecfda1abdc7beadfa3d883476033424ff868a3d56c4bb96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996298"
 ---
 # <a name="mediacollectiongetattributestringcollection-method"></a>MediaCollection. getAttributeStringCollection 方法
 
@@ -65,7 +65,7 @@ retVal = MediaCollection.getAttributeStringCollection(
 
 若要使用此方法，需要有程式庫的讀取權限。 如需詳細資訊，請參閱連結 [庫存取](library-access.md)。
 
-如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 [屬性參考](attribute-reference.md) 一節。
+如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱[屬性參考](attribute-reference.md)一節。
 
 ## <a name="examples"></a>範例
 

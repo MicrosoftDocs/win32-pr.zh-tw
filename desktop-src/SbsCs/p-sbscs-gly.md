@@ -5,12 +5,12 @@ ms.assetid: 9BC3D6A3-D8F5-42C6-9A68-68F1741207D7
 title: 'P (隔離的應用程式和並存元件) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c70c0775af4a6245e74de474413c3741625456
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc8e3d2591cfa1544ce11045f95df42e4a27d39b4a2b40d09bc3f2c907c2abec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142011"
 ---
 # <a name="p-isolated-applications-and-side-by-side-assemblies"></a>P (隔離的應用程式和並存元件) 
 

@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b633838affb9a9ff1453a0c49de9588428b038fe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 848196448c2bd6f021d85f7c13972e81664dd60a0e4a0bbbd2e05ef3455aade7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056906"
 ---
 # <a name="guestosversioninfoex-structure"></a>GUESTOSVERSIONINFOEX 結構
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 包含客體作業系統的作業系統版本資訊。
 
@@ -118,18 +118,18 @@ typedef struct _GUESTOSVERSIONINFOEX {
 | 值                                                                                                                                                                                                                                                                                          | 意義                                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="VER_SUITE_BACKOFFICE"></span><span id="ver_suite_backoffice"></span><dl> <dt>**VER \_SUITE \_ BACKOFFICE**</dt> <dt>0x00000004</dt> </dl>                                            | 已安裝 Microsoft BackOffice 元件。<br/>                                                                                                                                                         |
-| <span id="VER_SUITE_BLADE"></span><span id="ver_suite_blade"></span><dl> <dt>**VER \_SUITE \_ BLADE**</dt> <dt>0x00000400</dt> </dl>                                                           | 已安裝 Windows Server 2003 （Web Edition）。<br/>                                                                                                                                                         |
-| <span id="VER_SUITE_COMPUTE_SERVER"></span><span id="ver_suite_compute_server"></span><dl> <dt>**VER \_SUITE \_ COMPUTE \_ SERVER**</dt> <dt>0x00004000</dt> </dl>                               | 已安裝 Windows Server 2003、Compute Cluster Edition。<br/>                                                                                                                                             |
-| <span id="VER_SUITE_DATACENTER"></span><span id="ver_suite_datacenter"></span><dl> <dt>**VER \_SUITE \_ DATACENTER**</dt> <dt>0x00000080</dt> </dl>                                            | 已安裝 windows Server 2008 Datacenter、Windows Server 2003、Datacenter Edition 或 Windows 2000 Datacenter Server。<br/>                                                                               |
-| <span id="VER_SUITE_ENTERPRISE"></span><span id="ver_suite_enterprise"></span><dl> <dt>**VER \_SUITE \_ 企業**</dt> <dt>0x00000002</dt> </dl>                                            | 已安裝 windows Server 2008 Enterprise、Windows Server 2003、Enterprise Edition 或 Windows 2000 Advanced Server。 如需此位旗標的詳細資訊，請參閱「備註」一節。<br/>          |
-| <span id="VER_SUITE_EMBEDDEDNT"></span><span id="ver_suite_embeddednt"></span><dl> <dt>**VER \_SUITE \_ EMBEDDEDNT**</dt> <dt>0x00000040</dt> </dl>                                            | 已安裝 Windows XP Embedded。<br/>                                                                                                                                                                      |
-| <span id="VER_SUITE_PERSONAL"></span><span id="ver_suite_personal"></span><dl> <dt>**VER \_SUITE \_ 個人**</dt> <dt>0x00000200</dt> </dl>                                                  | 已安裝 windows Vista Home Premium、Windows Vista Home Basic 或 Windows XP Home Edition。<br/>                                                                                                         |
+| <span id="VER_SUITE_BLADE"></span><span id="ver_suite_blade"></span><dl> <dt>**VER \_SUITE \_ BLADE**</dt> <dt>0x00000400</dt> </dl>                                                           | Windows伺服器2003，Web Edition 已安裝。<br/>                                                                                                                                                         |
+| <span id="VER_SUITE_COMPUTE_SERVER"></span><span id="ver_suite_compute_server"></span><dl> <dt>**VER \_SUITE \_ COMPUTE \_ SERVER**</dt> <dt>0x00004000</dt> </dl>                               | Windows已安裝 Server 2003、Compute Cluster Edition。<br/>                                                                                                                                             |
+| <span id="VER_SUITE_DATACENTER"></span><span id="ver_suite_datacenter"></span><dl> <dt>**VER \_SUITE \_ DATACENTER**</dt> <dt>0x00000080</dt> </dl>                                            | Windows已安裝 server 2008 datacenter、Windows server 2003、datacenter Edition 或 Windows 2000 datacenter Server。<br/>                                                                               |
+| <span id="VER_SUITE_ENTERPRISE"></span><span id="ver_suite_enterprise"></span><dl> <dt>**VER \_SUITE \_ 企業**</dt> <dt>0x00000002</dt> </dl>                                            | Windows已安裝 Server 2008 Enterprise、Windows server 2003、Enterprise Edition 或 Windows 2000 Advanced Server。 如需此位旗標的詳細資訊，請參閱「備註」一節。<br/>          |
+| <span id="VER_SUITE_EMBEDDEDNT"></span><span id="ver_suite_embeddednt"></span><dl> <dt>**VER \_SUITE \_ EMBEDDEDNT**</dt> <dt>0x00000040</dt> </dl>                                            | Windows已安裝 XP Embedded。<br/>                                                                                                                                                                      |
+| <span id="VER_SUITE_PERSONAL"></span><span id="ver_suite_personal"></span><dl> <dt>**VER \_SUITE \_ 個人**</dt> <dt>0x00000200</dt> </dl>                                                  | Windowsvista home 進階版、Windows vista home Basic 或 Windows XP home Edition 皆已安裝。<br/>                                                                                                         |
 | <span id="VER_SUITE_SINGLEUSERTS"></span><span id="ver_suite_singleuserts"></span><dl> <dt>**VER \_SUITE \_ SINGLEUSERTS**</dt> <dt>0x00000100</dt> </dl>                                      | 支援遠端桌面，但只支援一個互動式會話。 除非系統是在應用程式伺服器模式中執行，否則會設定此值。<br/>                                                 |
 | <span id="VER_SUITE_SMALLBUSINESS"></span><span id="ver_suite_smallbusiness"></span><dl> <dt>**VER \_SUITE \_ SMALLBUSINESS**</dt> <dt>0x00000001</dt> </dl>                                   | Microsoft Small Business Server 已安裝在系統上，但可能已升級至另一個版本的 Windows。 如需此位旗標的詳細資訊，請參閱「備註」一節。<br/>     |
 | <span id="VER_SUITE_SMALLBUSINESS_RESTRICTED"></span><span id="ver_suite_smallbusiness_restricted"></span><dl> <dt>**VER \_SUITE \_ SMALLBUSINESS \_ 受限**</dt>的 <dt>0x00000020</dt> </dl> | Microsoft Small Business Server 會以強制的嚴格用戶端授權安裝。 如需此位旗標的詳細資訊，請參閱「備註」一節。<br/>                                      |
-| <span id="VER_SUITE_STORAGE_SERVER"></span><span id="ver_suite_storage_server"></span><dl> <dt>**VER \_SUITE \_ STORAGE \_ SERVER**</dt> <dt>0x00002000</dt> </dl>                               | 已安裝 windows Storage Server 2003 R2 或 Windows Storage Server 2003is。<br/>                                                                                                                             |
+| <span id="VER_SUITE_STORAGE_SERVER"></span><span id="ver_suite_storage_server"></span><dl> <dt>**VER \_SUITE \_ STORAGE \_ SERVER**</dt> <dt>0x00002000</dt> </dl>                               | Windows 已安裝儲存體 server 2003 R2 或 Windows 儲存體 server 2003is。<br/>                                                                                                                             |
 | <span id="VER_SUITE_TERMINAL"></span><span id="ver_suite_terminal"></span><dl> <dt>**VER \_SUITE \_ 終端**</dt> <dt>0x00000010</dt> </dl>                                                  | 已安裝終端機服務。 一律會設定這個值。<br/> 如果設定了 **ver \_ suite \_ 終端** 機，但未設定 **ver \_ suite \_ SINGLEUSERTS** ，系統就會在應用程式伺服器模式中執行。<br/> |
-| <span id="VER_SUITE_WH_SERVER"></span><span id="ver_suite_wh_server"></span><dl> <dt>**VER \_SUITE \_ WH \_ 伺服器**</dt> <dt>0x00008000</dt> </dl>                                              | 已安裝 Windows Home Server。<br/>                                                                                                                                                                      |
+| <span id="VER_SUITE_WH_SERVER"></span><span id="ver_suite_wh_server"></span><dl> <dt>**VER \_SUITE \_ WH \_ 伺服器**</dt> <dt>0x00008000</dt> </dl>                                              | Windows已安裝 Home Server。<br/>                                                                                                                                                                      |
 
 
 
@@ -146,8 +146,8 @@ typedef struct _GUESTOSVERSIONINFOEX {
 
 | 值                                                                                                                                                                                                                                                           | 意義                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="VER_NT_DOMAIN_CONTROLLER"></span><span id="ver_nt_domain_controller"></span><dl> <dt>**VER \_NT \_ 域 \_ 控制器**</dt> <dt>0x0000002</dt> </dl> | 系統是網域控制站，而作業系統是 Windows Server 2008 R2、Windows Server 2008、Windows Server 2003 R2、Windows Server 2003 或 Windows 2000 Server。<br/>                                                                                                   |
-| <span id="VER_NT_SERVER"></span><span id="ver_nt_server"></span><dl> <dt>**VER \_NT \_ 伺服器**</dt> <dt>0x0000003</dt> </dl>                                   | 作業系統是 Windows Server 2008 R2、Windows Server 2008、Windows Server 2003 R2、Windows Server 2003 或 Windows 2000 Server。<br/> 請注意，同時也是網域控制站的伺服器會回報為 **ver \_ nt \_ 域 \_ 控制器**，而不是 **\_ nt \_ server**。<br/> |
+| <span id="VER_NT_DOMAIN_CONTROLLER"></span><span id="ver_nt_domain_controller"></span><dl> <dt>**VER \_NT \_ 域 \_ 控制器**</dt> <dt>0x0000002</dt> </dl> | 系統是網域控制站，而作業系統是 Windows Server 2008 r2、Windows Server 2008、Windows Server 2003 R2、Windows Server 2003 或 Windows 2000 Server。<br/>                                                                                                   |
+| <span id="VER_NT_SERVER"></span><span id="ver_nt_server"></span><dl> <dt>**VER \_NT \_ 伺服器**</dt> <dt>0x0000003</dt> </dl>                                   | 作業系統是 Windows Server 2008 r2、Windows Server 2008、Windows Server 2003 R2、Windows Server 2003 或 Windows 2000 Server。<br/> 請注意，同時也是網域控制站的伺服器會回報為 **ver \_ nt \_ 域 \_ 控制器**，而不是 **\_ nt \_ server**。<br/> |
 | <span id="VER_NT_WORKSTATION"></span><span id="ver_nt_workstation"></span><dl> <dt>**VER \_NT \_ 工作站**</dt> <dt>0x0000001</dt> </dl>                    | 作業系統是 Windows 7、Windows Vista、Windows XP 或 Windows 2000 Professional。<br/>                                                                                                                                                                                       |
 
 
@@ -169,7 +169,7 @@ typedef struct _GUESTOSVERSIONINFOEX {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

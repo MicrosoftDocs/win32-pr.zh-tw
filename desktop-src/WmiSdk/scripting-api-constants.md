@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8576d4c7ab5b6103efca4491bc00b2fcf4649ef1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84e52c329fc311e7f99a6564ac51f90574308e31fa1eaa90bfb6d0bcdddc69b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130870"
 ---
 # <a name="scripting-api-constants"></a>腳本 API 常數
 
 WMI 會在 [wmi 的腳本 API](scripting-api-for-wmi.md)中，于方法呼叫的 *iflags* 參數中使用數種類型的常數。
 
-Visual Basic 應用程式可包含腳本 API 的類型程式庫 >wbemdisp.tlb .tlb。 腳本無法存取類型程式庫中的常數，除非它們使用 <REFERENCE> <OBJECT> Windows Script Host 中的或標記 (WSH) XML 檔案格式，如 [使用 WMI 腳本類型程式庫](using-the-wmi-scripting-type-library.md)中所述。 否則，腳本必須使用常數的值。
+Visual Basic 應用程式可包含腳本 API 的類型程式庫 >wbemdisp.tlb .tlb。 腳本無法存取類型程式庫中的常數，除非它們使用 <REFERENCE> <OBJECT> Windows 腳本主機 (WSH) XML 檔案格式的或標記，如[使用 WMI 腳本類型程式庫](using-the-wmi-scripting-type-library.md)中所述。 否則，腳本必須使用常數的值。
 
 ## <a name="constants"></a>常數
 

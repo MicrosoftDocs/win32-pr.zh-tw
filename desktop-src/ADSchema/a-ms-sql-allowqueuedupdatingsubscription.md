@@ -1,11 +1,11 @@
 ---
-title: AllowQueuedUpdatingSubscription 屬性
+title: AllowQueuedUpdatingSubscription 屬性的 MS SQL
 description: True 表示在更新訂閱時允許佇列的交易。
 ms.assetid: 132c107f-8586-48db-b70c-027c619aadf7
 ms.tgt_platform: multiple
 keywords:
-- AllowQueuedUpdatingSubscription 屬性 AD 架構
-- AllowQueuedUpdatingSubscription 屬性 AD 架構
+- AllowQueuedUpdatingSubscription 屬性 AD 架構的 MS SQL
+- AllowQueuedUpdatingSubscription 屬性 AD 架構的 mS SQL
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2056a04b6e0f155c156cde06975e96eb13f61eb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a473537954beac60d9fa87d72c23d69193d12bb862ccab1d5414d65a4f25fa01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961147"
 ---
-# <a name="ms-sql-allowqueuedupdatingsubscription-attribute"></a>AllowQueuedUpdatingSubscription 屬性
+# <a name="ms-sql-allowqueuedupdatingsubscription-attribute"></a>AllowQueuedUpdatingSubscription 屬性的 MS SQL
 
 True 表示在更新訂閱時允許佇列的交易。
 
@@ -29,8 +29,8 @@ True 表示在更新訂閱時允許佇列的交易。
 
 | 進入 | 值 |
 |-------------------|----------------------------------------|
-| CN                | AllowQueuedUpdatingSubscription |
-| Ldap-顯示名稱 | AllowQueuedUpdatingSubscription |
+| CN                | 毫秒-SQL-AllowQueuedUpdatingSubscription |
+| Ldap-顯示名稱 | 毫秒-SQL-AllowQueuedUpdatingSubscription |
 | 大小              | 4 個位元組                                |
 | 更新許可權  | 此值是由系統所設定。       |
 | 更新頻率  | 當複寫設定時。             |
@@ -58,7 +58,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -66,7 +66,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -87,7 +87,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -108,7 +108,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -129,7 +129,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -150,7 +150,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -171,7 +171,7 @@ True 表示在更新訂閱時允許佇列的交易。
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 

@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1b8c3eac113daeae43ec4a8e62b7fcda9ddbf9f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c1c70ab6510d2e63cc1b59e94ae058565937e854968b7ba05e2710ba22aa6af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979048"
 ---
 # <a name="jetaddcolumn-function"></a>JetAddColumn 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetaddcolumn-function"></a>JetAddColumn 函式
 
@@ -90,7 +90,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -180,9 +180,9 @@ _**適用于：** Windows |Windows Server_
 <li><p>JET_bitColumnFinalize 用在非「正在進行」更新資料行的資料行上， (JET_bitColumnEscrowUpdate 未設定) 。</p></li>
 <li><p>JET_bitColumnDeleteOnZero 用在非「正在進行」更新資料行的資料行上， (JET_bitColumnEscrowUpdate 未設定) 。</p></li>
 <li><p>JET_bitColumnAutoincrement 用於未 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>的資料行。</p>
-<p><strong>Windows 2000：  </strong>錯誤碼的這個原因只在 Windows 2000 中使用。</p>
+<p><strong>Windows 2000：</strong>錯誤碼的這個原因只用于 Windows 2000。</p>
 <p>JET_bitColumnAutoincrement 用於不是 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a> 或 <a href="gg269213(v=exchg.10).md">JET_coltypCurrency</a>的資料行。</p>
-<p><strong>WINDOWS XP：  </strong>此錯誤碼的原因是在 Windows XP 和更新版本的作業系統中使用。</p></li>
+<p><strong>Windows XP：</strong>此錯誤碼的原因是用於 Windows XP 和更新版本的作業系統。</p></li>
 <li><p>JET_bitColumnVersion 用於未 <a href="gg269213(v=exchg.10).md">JET_coltypLong</a>的資料行。</p></li>
 <li><p>自動遞增資料行使用了 JET_bitColumnVersion。</p></li>
 <li><p>JET_bitColumnUserDefinedDefault 與 JET_bitColumnFixed 一起使用。</p></li>
@@ -236,7 +236,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

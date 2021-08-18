@@ -1,16 +1,16 @@
 ---
 title: 封裝、部署和查詢詞彙
-description: 提供 Windows 應用程式封裝、部署和查詢相關詞彙的定義。
+description: 提供與封裝、部署及查詢 Windows apps 相關之詞彙的定義。
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 15E35DCF-C6C1-446A-B09B-6428F9C8A677
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a2112b593e2d2a5aaf4f06525160e2d799bad1
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 678a273b82806a724e50c7f29c512d19e1723283582abb3aa8b97f49f6293182
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104374952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130270"
 ---
 # <a name="packaging-deployment-and-query-glossary"></a>封裝、部署和查詢詞彙
 
@@ -47,7 +47,7 @@ ms.locfileid: "104374952"
 <span id="appxpkg_packaging_glossary_footpint_files"></span><span id="APPXPKG_PACKAGING_GLOSSARY_FOOTPINT_FILES"></span>**使用量檔案**
 </dt> <dd>
 
-應用程式套件內的檔案不是要部署之應用程式的一部分。 這些檔案提供與封裝相關的中繼資料。 標準使用量檔案包含資訊清單、區塊對應、串流對應和數位簽章。 在封裝組建程式中會建立使用量檔案。 此外，根據 OPC 規格， \[ 內容 \_ 類型 \] .xml 和名稱符合 " \* \\ \_ .rels \\ \* . .rels" 模式的檔案都是磁片使用量檔案。
+應用程式套件內的檔案不是要部署之應用程式的一部分。 這些檔案提供與封裝相關的中繼資料。 標準使用量檔案包含資訊清單、區塊對應、串流對應和數位簽章。 在封裝組建程式中會建立使用量檔案。 除了 OPC 規格之外，.xml 的 \[ 內容 \_ 類型 \] 和名稱符合 " \* \\ \_ .rels \\ \* . .rels" 模式的檔案都是磁片使用量檔案。
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ ms.locfileid: "104374952"
 
 </dd> <dt>
 
-<span id="appxpkg_packaging_glossary_opc"></span><span id="APPXPKG_PACKAGING_GLOSSARY_OPC"></span>**Opc**
+<span id="appxpkg_packaging_glossary_opc"></span><span id="APPXPKG_PACKAGING_GLOSSARY_OPC"></span>**OPC**
 </dt> <dd>
 
 開放式封裝慣例 (OPC) 描述以 ISO/IEC 29500 和 ECMA 376 標準記載的容器檔案技術。 應用程式套件符合 OPC 規範。
@@ -68,7 +68,7 @@ ms.locfileid: "104374952"
 <span id="appxpkg.appx_packaging_glossary_package"></span><span id="APPXPKG.APPX_PACKAGING_GLOSSARY_PACKAGE"></span>**包**
 </dt> <dd>
 
-與應用程式封裝模型相關聯的部署、管理和服務軟體的單位。 套件包含構成應用程式的檔案，以及描述軟體至 Windows 的資訊清單檔案。
+與應用程式封裝模型相關聯的部署、管理和服務軟體的單位。 套件包含構成應用程式的檔案，以及描述要 Windows 之軟體的資訊清單檔。
 
 </dd> <dt>
 
@@ -121,6 +121,6 @@ ZIP 檔案中的位元組序列，會儲存 ZIP 封存的相關中繼資料及�
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

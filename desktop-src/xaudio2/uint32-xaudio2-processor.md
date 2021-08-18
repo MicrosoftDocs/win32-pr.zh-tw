@@ -4,12 +4,12 @@ ms.assetid: 29E67C0A-36EB-47B2-8708-36EC733D0D37
 title: 'XAUDIO2_PROCESSOR (Xaudio2) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c3e9d73da37f6d330832234b63674e363d3b6d2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ceb8fd7f904e60728f60ae2a2880422e7a12ed2ee49c314e4932471caecf7871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962567"
 ---
 # <a name="xaudio2_processor"></a>XAUDIO2 \_ 處理器
 
@@ -17,7 +17,7 @@ ms.locfileid: "106993290"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                     | Description                                                    |
+| 常數/值                                                                                                                                                                                                                                                     | 描述                                                    |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
 | <span id="Processor1"></span><span id="processor1"></span><span id="PROCESSOR1"></span><dl> <dt>**Processor1**</dt> <dt>0x00000001</dt> </dl>                   | 處理器1<br/>                                         |
 | <span id="Processor2"></span><span id="processor2"></span><span id="PROCESSOR2"></span><dl> <dt>**Processor2**</dt> <dt>0x00000002</dt> </dl>                   | 處理器2<br/>                                         |
@@ -73,7 +73,7 @@ typedef UINT32 XAUDIO2_PROCESSOR;
 
 ### <a name="platform-requirements"></a>平台需求
 
-Windows 10 (XAudio 2.9) ;Windows 8、Windows Phone 8 (XAudio 2.8) ;DirectX SDK (XAudio 2.7) 
+Windows 10 (xaudio 2.9) ;Windows 8、Windows Phone 8 (XAudio 2.8) ;DirectX SDK (XAudio 2.7) 
 
 ## <a name="requirements"></a>規格需求
 

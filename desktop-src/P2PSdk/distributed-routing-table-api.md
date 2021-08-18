@@ -4,12 +4,12 @@ ms.assetid: 17422d71-4c6d-458b-87b6-b31fc2b5bda5
 title: 分散式路由資料表 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f8c2b435e1c0c813fb279c40b9bbfa9afb6b23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9adabac4e2e885a7ac635daf5de2dfbacc94dafd4972a6b35f1f4649c3428e92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011606"
 ---
 # <a name="distributed-routing-table-api"></a>分散式路由資料表 API
 

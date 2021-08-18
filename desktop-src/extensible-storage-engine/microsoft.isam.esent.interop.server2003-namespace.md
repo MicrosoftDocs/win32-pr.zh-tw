@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 46b1db7c8da8ab4399357a978ece2b7af7516fc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c32704b0d91f2943bf65a9601255f6c4dbc78966cddca84f6871351ffb050930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978710"
 ---
 # <a name="microsoftisamesentinteropserver2003-namespace"></a>Server2003 命名空間。
 
@@ -37,7 +37,7 @@ ms.locfileid: "104319316"
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="公用類別" alt="Public class" /></td>
 <td><a href="dn351277(v=exchg.10).md">Server2003Api</a></td>
-<td>已新增至 Windows Server 2003 版 ESENT 的 Api。</td>
+<td>已新增至 Windows Server 2003 版 ESENT 的 api。</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="公用類別" alt="Public class" /></td>

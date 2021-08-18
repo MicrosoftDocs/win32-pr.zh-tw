@@ -4,12 +4,12 @@ ms.assetid: 4524908f-f9c2-4807-b045-eb9e43a6668b
 title: 繪製不透明和半透明線條
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f751e5808440c1051b3cd996f7ebcb2df0ccbcd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14cdf31a80be9ac2a0cf61a2a8eb82f530dc3558c876cba9190a79f42ac35baa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036756"
 ---
 # <a name="drawing-opaque-and-semitransparent-lines"></a>繪製不透明和半透明線條
 

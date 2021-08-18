@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc0f6ca663d3bd5b934208061b0d7cd7b19a267d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa099c6164478a30ae87fc5415327a2c8643935ef70cd8a1d236b9a2217082b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996428"
 ---
 # <a name="listboxsorted"></a>LISTBOX。已排序
 
@@ -48,7 +48,7 @@ ms.locfileid: "106989800"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

@@ -9,12 +9,12 @@ keywords:
 - OpenGL 移植，pixmaps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed0dbd7f94736f25346a9136d60feb4fa1bb6c68
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7e50448c254b8d3e01097f1faec2b4df8aeed56be8ae3abb4f5ce13432582559
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012056"
 ---
 # <a name="porting-glx-pixmap-code"></a>移植 GLX Pixmap 程式碼
 
@@ -22,9 +22,9 @@ X 視窗系統使用 *pixmaps*，這是以三維位陣列形式呈現的非螢�
 
 針對 OpenGL 程式，您可以使用 GLX 函式（ **glXCreateGLXPixmap** 和 **glXDestroyGLXPixmap**）來建立和終結用於關閉螢幕轉譯的 GLX pixmaps。
 
-Windows 使用與裝置無關的點陣圖，其提供與 X 視窗系統 pixmaps 相同的功能。 使用標準的 Windows 點陣圖函式來建立和終結點陣圖。
+Windows 使用與裝置無關的點陣圖，其提供與 X Window System pixmaps 相同的功能。 使用標準 Windows 點陣圖函數來建立和終結點陣圖。
 
-下表列出 GLX pixmap 函數及其對等的 Windows 點陣圖函數。
+下表列出 GLX pixmap 函式及其對等的 Windows 點陣圖函數。
 
 
 

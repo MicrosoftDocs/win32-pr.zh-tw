@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104324
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e37fdc2d350037a1671b804fde1bc22847f77264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc8ead23795ccc775a94f7b9197289891930d3ae4901da425902a33464206bec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119110135"
 ---
 # <a name="jet_index_range-methods"></a>JET_INDEX_RANGE 方法
 

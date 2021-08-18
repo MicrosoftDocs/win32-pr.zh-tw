@@ -4,12 +4,12 @@ ms.assetid: 61db2804-1b67-473f-8dd7-6be6c6a7184e
 title: 關於離線登錄庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e08b401a4a77f55a54c48ad147bf38c8796472
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e5c2aecf71e8e42ad96c018bb613d7aac9a4a867bb301671e9553f1768a4ce44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956177"
 ---
 # <a name="about-the-offline-registry-library"></a>關於離線登錄庫
 
@@ -28,7 +28,7 @@ ms.locfileid: "104468013"
 
 應用程式不應該使用離線登錄功能來略過系統登錄的安全性需求。 若要載入 hive，在沒有 [RegLoadKey](/windows/win32/api/winreg/nf-winreg-regloadkeya) 函式所需特殊許可權的情況下執行的應用程式可以使用 [RegLoadAppKey](/windows/win32/api/winreg/nf-winreg-regloadappkeya) 函數。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援 [RegLoadAppKey](/windows/win32/api/winreg/nf-winreg-regloadappkeya) 函數。
+**Windows Server 2003 和 Windows XP：** 不支援 [RegLoadAppKey](/windows/win32/api/winreg/nf-winreg-regloadappkeya)函數。
 
 *離線登錄 hive* 是已使用離線登錄功能載入至記憶體的登錄 hive。 若要建立空白的離線登錄 hive，請使用 [**ORCreateHive**](orcreatehive.md) 函數。 若要修改現有的登錄區，請使用 [RegSaveKey](/windows/win32/api/winreg/nf-winreg-regsavekeya) 或 [RegSaveKeyEx](/windows/win32/api/winreg/nf-winreg-regsavekeyexa) 函式，將 hive 從 active system 登錄儲存至檔案，然後使用 [**OROpenHive**](oropenhive.md) 函數來開啟檔案。
 

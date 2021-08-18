@@ -4,12 +4,12 @@ description: 服務應遵守這些指導方針，以確保重新開機管理員�
 ms.assetid: 69a98f82-71bb-4780-8a3f-294cc5629900
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51374c0a4c6fc561b8259aadf15e3d5487e12483
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a6198da0d4f6f7887aaf37c858d98f3eb48e72c0d7722a1b5785a1cb280c96fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010136"
 ---
 # <a name="guidelines-for-services"></a>服務的指導方針
 
@@ -29,6 +29,6 @@ ms.locfileid: "104023817"
     <dl> 復原動作： Restart/120000/Restart/300000/None/0 & Reset = 900  
     </dl>
 
- 
+ 
 
- 
+ 

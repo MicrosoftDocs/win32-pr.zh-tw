@@ -8,18 +8,18 @@ keywords:
 - 物件模型，CD 燒錄
 - Windows Media Player ActiveX 控制項、CD 燒錄
 - ActiveX 控制項，CD 燒錄
-- Windows Media Player 的行動 ActiveX 控制項、CD 燒錄
-- Windows Media Player Mobile、CD 燒錄
+- Windows Media PlayerMobile ActiveX control、CD 燒錄
+- Windows Media Player行動電話、CD 燒錄
 - CD 燒錄，開始進行燒錄流程
 - 燒錄 Cd，開始進行燒錄流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4a35f473eebe35bffd48ac802dcfe79082689de
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 50f5620ba8fa6ab911cf0fd594fd27f139b5061d1383575f861dadfec45dabbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995078"
 ---
 # <a name="starting-the-burn-process"></a>啟動燒錄流程
 
@@ -88,9 +88,9 @@ hr = m_spCdromBurn->stopBurn();
 [**正在取出燒錄狀態**](retrieving-the-burn-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

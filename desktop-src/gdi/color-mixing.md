@@ -4,12 +4,12 @@ ms.assetid: 4a5dff8c-f75f-41d2-8367-33d97d4fd010
 title: 色彩混合
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffa85f6ea449fa13f7b7120160915ea72a0e3dd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed1adde68360d7050e0cebb6e7d5ac073b36a3c18c3687990c1f2aea6a5719f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105727"
 ---
 # <a name="color-mixing"></a>色彩混合
 

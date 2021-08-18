@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e92373015b64593936ee8d447b619932d168157c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc26dc58eb4377b24af36f830b96bc3f146237c1b0f419901d7eb106de84a3ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112257"
 ---
 # <a name="jet_dbid-structure"></a>JET_DBID 結構
 

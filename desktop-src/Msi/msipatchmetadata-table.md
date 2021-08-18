@@ -4,12 +4,12 @@ ms.assetid: b1c30e16-6c91-451a-8b75-7ddbcefcc092
 title: MsiPatchMetadata 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2642661a8f9dc067086926f8e993fc32c95a4a85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7094e644ff02caa1cbf4b3e53e5761740ff9a5492c92ca746404b1d243e09285
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012896"
 ---
 # <a name="msipatchmetadata-table"></a>MsiPatchMetadata 資料表
 
@@ -96,7 +96,7 @@ MsiPatchMetadata 資料表具有下列資料行。
 </tr>
 <tr class="odd">
 <td>MoreInfoURL</td>
-<td>提供此修補程式特定資訊的 URL。 這個屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP Service Pack 2 開始 (SP2) ，此值可以是 [ <strong>新增/移除程式</strong>] 中顯示之修補程式的支援連結。<br/></td>
+<td>提供此修補程式特定資訊的 URL。 這個屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP Service Pack 2 (SP2) 開始，此值可以是 [<strong>新增/移除程式</strong>] 中顯示之修補程式的支援連結。<br/></td>
 </tr>
 <tr class="even">
 <td>CreationTimeUTC</td>
@@ -104,10 +104,10 @@ MsiPatchMetadata 資料表具有下列資料行。
 </tr>
 <tr class="odd">
 <td>DisplayName</td>
-<td>適用于公開顯示的修補程式標題。 這個屬性會註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP SP2 開始，此值是在 [ <strong>新增/移除程式</strong>] 中顯示之修補程式的名稱。<br/></td>
+<td>適用于公開顯示的修補程式標題。 這個屬性會註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP SP2 開始，此值是在 [<strong>新增/移除程式</strong>] 中顯示之修補程式的名稱。<br/></td>
 </tr>
 <tr class="even">
-<td>Description</td>
+<td>描述</td>
 <td>修補程式的簡短描述。</td>
 </tr>
 <tr class="odd">

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 從設備磁碟機存取資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72a59b59116ca0f71178fb2faed290d6bc76c9d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82bec478f83ddbc6d58419710fb868ddd233f820a06004210c1dac495de86b16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131911"
 ---
 # <a name="accessing-data-from-device-drivers"></a>從設備磁碟機存取資料
 

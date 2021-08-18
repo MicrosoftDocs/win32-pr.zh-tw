@@ -185,7 +185,7 @@ typedef [ struct | union ]
 [**大小 \_ 為**](size-is.md)
 </dt> <dt>
 
-[**string**](string.md)
+[**字串**](string.md)
 </dt> <dt>
 
 [**結構**](struct.md)

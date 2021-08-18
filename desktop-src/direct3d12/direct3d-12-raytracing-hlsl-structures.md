@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c48ad6bac76e200587ec76d42dfa9c86b23cd23
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 61c4227c2a0a1c99929a1025d0410ba6c769c932a740d6ed0a6c4b5f721f3fff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "106968266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045546"
 ---
 # <a name="raytracing-hlsl-structures-direct3d-12"></a>Raytracing HLSL 結構 (Direct3D 12) 
 

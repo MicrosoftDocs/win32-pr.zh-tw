@@ -11,12 +11,12 @@ keywords:
 - 點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 322413cd6a11a589884bce2628e229984c7936ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18ef24ad81942681b3d70a303a22e89e9573aa609d3f08f52a92583ae88e0e9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012066"
 ---
 # <a name="porting-points"></a>移植點
 
@@ -33,15 +33,15 @@ OpenGL 沒有可繪製單一點的命令。 否則，移植點函數很簡單。
 
 
 
- 
+ 
 
 如需相關 get 函數的詳細資訊，請參閱 [**glPointSize**](glpointsize.md)。
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

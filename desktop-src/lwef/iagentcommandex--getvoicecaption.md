@@ -4,16 +4,16 @@ description: IAgentCommandEx GetVoiceCaption
 ms.assetid: a81accfd-c137-4347-8ead-4ed5e7148751
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6f367a7956d1029eae47064a0778264e3b77f5a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3d093a971331c6c5cddf467e770dae69960ae0d616ddc9b37863a46d25becb7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105416"
 ---
 # <a name="iagentcommandexgetvoicecaption"></a>IAgentCommandEx::GetVoiceCaption
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetVoiceCaption(
@@ -41,6 +41,6 @@ HRESULT GetVoiceCaption(
 [**IAgentCommandEx：： SetVoiceCaption**](iagentcommandex--setvoicecaption.md)、 [**IAgentCommand：： SetEnabled**](iagentcommand--setenabled.md)、 [**IAgentCommand：： SetVisible**](iagentcommand--setvisible.md)、 [**IAgentCommand：： SetVoice**](iagentcommand--setvoice.md)、 [**IAgentCommandsEx：： AddEx**](iagentcommandsex--addex.md)、 [**IAgentCommandsEx：： InsertEx**](iagentcommandsex--insertex.md)、 [**IAgentCommands：： Add**](iagentcommands--add.md)、 [**IAgentCommands：： Insert**](iagentcommands--insert.md)
 
 
- 
+ 
 
- 
+ 

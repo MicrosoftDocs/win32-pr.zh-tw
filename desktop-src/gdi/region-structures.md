@@ -4,12 +4,12 @@ ms.assetid: e66d46fd-af6f-43ce-a9f7-21389d14cb89
 title: 區域結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60a52921dcd0b7ae408a4aceafd38d6e78a029f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22912de97dc31ef5842e1db45da13210b26bb1ca18c9be3fb3e986ce73be09f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037666"
 ---
 # <a name="region-structures"></a>區域結構
 

@@ -4,12 +4,12 @@ ms.assetid: b598b4d1-40e1-4282-b312-5aa6ca3a6733
 title: 'MF_EVENT_SOURCE_ACTUAL_START 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0132fd8fc50f4e71a3b5bb334bc528d86c04e50c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46ce39e8a9f90ad0cd7f0cbd590b32719ab10dbd8e498c396e86772ce333e94c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104834"
 ---
 # <a name="mf_event_source_actual_start-attribute"></a>MF \_ 事件 \_ 來源 \_ 實際 \_ 開始屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "104386173"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

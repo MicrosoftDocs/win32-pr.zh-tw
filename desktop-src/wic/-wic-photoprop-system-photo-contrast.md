@@ -4,12 +4,12 @@ ms.assetid: c5e2589d-507c-4b92-9ada-7d64e7c45dd8
 title: 系統相片對比相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d6ed34854b525e9eaac2ff5ac7339a75ad10e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4a9309ecab96a2244e08ebf05ff8896c792f7366c9db21d41072d2d94aacf47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087094"
 ---
 # <a name="systemphotocontrast-photo-metadata-policy"></a>系統相片對比相片中繼資料原則
 

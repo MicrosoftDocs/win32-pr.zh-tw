@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 36c41bb9e510a107689790162e03e3bb86c8de1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f0e44c388b576bb514ed86f2a537cefaf1a4f0984e3e5beb1b466e88c5b82c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076052"
 ---
 # <a name="orgetvirtualflags-function"></a>ORGetVirtualFlags 函式
 
@@ -76,7 +76,7 @@ DWORD ORGetVirtualFlags(
 
 登錄虛擬化是一項過渡的應用程式相容性技術，可讓具有全域影響的登錄寫入作業重新導向至每個使用者的位置。 對於讀取或寫入登錄的應用程式而言，此重新導向是透明的。
 
-從 Windows Vista 開始支援登錄虛擬化。 不過，Microsoft 打算將它從未來版本的 Windows 作業系統中移除，因為更多應用程式都與 Windows Vista 相容。 因此，應用程式不應該依賴系統中的登錄虛擬化行為。
+從 Windows Vista 開始支援登錄虛擬化。 不過，Microsoft 打算將它從未來的 Windows 作業系統版本中移除，因為更多應用程式都與 Windows Vista 相容。 因此，應用程式不應該依賴系統中的登錄虛擬化行為。
 
 登錄虛擬化只會針對下列各項啟用：
 
@@ -92,7 +92,7 @@ DWORD ORGetVirtualFlags(
 
 | 需求 | 值 |
 |----------------------------|---------------------------------------------------------------------------------------|
-| 可轉散發套件<br/> | Windows Offline Registry library 1.0 版或更新版本<br/>                      |
+| 可轉散發套件<br/> | Windows離線登錄庫1.0 版或更新版本<br/>                      |
 | 標頭<br/>          | <dl> <dt>Offreg。h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

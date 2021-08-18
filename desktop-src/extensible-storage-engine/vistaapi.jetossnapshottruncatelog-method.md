@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0af8054bc414ea5dbd6c7225fa9e2cd7117c74c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d216a79934485ed2ea447bd31e93de575e068aa2f548315c2665759aec7a7708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119106806"
 ---
 # <a name="vistaapijetossnapshottruncatelog-method"></a>VistaApi. JetOSSnapshotTruncateLog 方法
 

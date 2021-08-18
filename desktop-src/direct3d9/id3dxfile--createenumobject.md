@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: a58a3341bacf9b323cc5753f8e9e51c4b703b966
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 528ab441da6cd4370de4ecad5d8490e6e74b5977672d0c7d4126cea1b7bab8fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106975692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044396"
 ---
 # <a name="id3dxfilecreateenumobject-method"></a>ID3DXFile：： CreateEnumObject 方法
 

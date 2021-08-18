@@ -25,7 +25,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-是
+Yes
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 

@@ -4,12 +4,12 @@ description: 伺服器應用程式必須選取一或多個通訊協定順序，�
 ms.assetid: bde26a86-dc4f-4d18-ba51-c6536c62bb75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a700299e3d2bd98fa5fb0aaebea25e907d85afb0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 61f43b8dc7b21fc2a6bebe98010b80dbf369ac96bb185cc75afa3b0a4f1acbba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925148"
 ---
 # <a name="specifying-protocol-sequences"></a>指定通訊協定順序
 
@@ -34,6 +34,6 @@ Microsoft RPC 也提供 [**RpcServerUseProtseqEx**](/windows/desktop/api/Rpcdce/
 -   資料包 RPC 支援 [廣播](/windows/desktop/Midl/broadcast) IDL 屬性。 廣播可讓用戶端同時對多部伺服器發出訊息。 這可讓用戶端找到網路上數個可用伺服器的其中一個，或同時控制多部伺服器。 請注意，資料包廣播只在本機連結內有效，且通常不會跨路由器。 廣播呼叫是隱含等冪的。 如果呼叫包含 \[ **out** \] 參數，則只會傳回第一個伺服器回應。 一旦伺服器回應，所有未來對該系結控制碼的 Rpc 都只會傳送到該伺服器，包括具有廣播屬性的呼叫。 若要傳送另一個廣播，請建立新的系結控制碼，或在現有的控制碼上呼叫 [**RpcBindingReset**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingreset) 。
 -   資料包 RPC 支援 [可能](/windows/desktop/Midl/maybe) 的 IDL 屬性。 這可讓用戶端傳送呼叫給伺服器，而不需等待回應或確認。 呼叫不能包含 \[ **out** \] 參數。 使用的呼叫 **\[ 可能 \]** 會隱含等冪。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 42E7DB19-9FB9-4226-B0B5-97AD6B9C0E12
 title: 'CODECAPI_AVEncSliceControlSize 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4c3e58fa34922941ea564d42e449cefd798ad2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d068d8b2c5fc15fdb82c3ffe068e6926d28228a19367114067e02ebc44b03726
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035346"
 ---
 # <a name="codecapi_avencslicecontrolsize-property"></a>CODECAPI \_ AVEncSliceControlSize 屬性
 
@@ -55,8 +55,8 @@ CODECAPI AVEncSliceControlSize 值的意義 \_ 是由 [CODECAPI \_ AVEncSliceCon
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: 等位需要特殊的 MIDL 關鍵字，以支援其與遠端程序�
 ms.assetid: e7c8296c-893d-4df7-913a-f969733e1917
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c562815d78ab931bd4d6590b5465647e72f4bf6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5fde18cca09f4db81af8eada2ae102a1bea373ed7859b3a7fc2bb9637f28d584
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011006"
 ---
 # <a name="union-keyword-rpc"></a>union 關鍵字 (RPC) 
 
@@ -61,6 +61,6 @@ short UnionStructProc(
 
 Microsoft RPC MIDL 編譯器允許在 [**typedef**](/windows/desktop/Midl/typedef) 結構之外進行聯集宣告。 這項功能是 DCE IDL 的延伸模組。 如需詳細資訊，請參閱聯 [**集**](/windows/desktop/Midl/union)。
 
- 
+ 
 
- 
+ 

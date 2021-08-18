@@ -4,12 +4,12 @@ ms.assetid: 509b2cc8-6017-41a9-ae80-9af21dce9367
 title: 關於速率控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3757e4d1d8a374061ff0c0e7fe02ba3c62243c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61ae8ad5bcfaaf415c888418a7a6bd5d77f72434150e30fcac071d078b8ee6d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035656"
 ---
 # <a name="about-rate-control"></a>關於速率控制
 

@@ -4,19 +4,19 @@ ms.assetid: 24617b5f-14f1-4f1b-a288-7d20a8166da0
 title: NLS 排序變更
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e57cfaf2a9891c2d952637429786729670fc103c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a08f0cde98d115c129fdb7932ff3bb05063cb5c6fb8d903d55bff2a69753d774
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994878"
 ---
 # <a name="nls-sorting-changes"></a>NLS 排序變更
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
- **客戶** 端-windows XP、windows Vista、windows 7  
-**伺服器** -windows server 2003、windows server 2008、windows Server 2008 R2  
+ **客戶** 端-Windows XP、Windows Vista、Windows 7  
+**伺服器**-Windows server 2003、Windows server 2008、Windows Server 2008 R2  
 
 
 
@@ -33,7 +33,7 @@ ms.locfileid: "108088056"
 **頻率** -低 (少數應用程式受到影響，但如果受到影響，一律會中斷)   
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
  (NLS) 函式的國家語言支援可協助應用程式支援世界各地使用者的不同語言和地區設定特定需求。 新的 Windows 版本幾乎都包含 NLS 變更。 此變更會影響定序和排序，因此具有持續性索引的應用程式。
 
@@ -69,9 +69,9 @@ ms.locfileid: "108088056"
 
 在使用者介面的案例中，會列出 (例如，字母、數位、英數位元、符號等等) 可能會不正確地排序。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
-在 Windows Vista) 之前，您的應用程式可以呼叫 **GetNLSVersionEx** (windows vista 或更新版本) 或 **GetNLSVersion** (，以取得定序資料表的已定義版本和 NLS 版本。
+您的應用程式可以呼叫 **GetNLSVersionEx** (Windows vista 或更新版本，) 或 **GetNLSVersion** (Windows vista) ，以取得定序資料表的已定義版本和 NLS 版本。
 
 -   GetNLSVersionEx:
 
@@ -82,12 +82,12 @@ ms.locfileid: "108088056"
 **注意：** Windows Vista 之前的 Windows 版本不支援 **GetNLSVersionEx**。  
 
 
--   GetNLSVersion (用於 Windows Vista) 之前的 Windows 版本上執行的應用程式：
+-   GetNLSVersion (用於在 Windows Vista) 之前的 Windows 版本上執行的應用程式：
 
 *針對識別碼指定的地區設定，取得所指定 NLS 功能目前版本的相關資訊*  
 此函數可讓 Active Directory 之類的應用程式判斷 NLS 變更是否會影響用於特定索引資料表的地區設定識別碼。 如果沒有，就不需要重新建立資料表的索引。 如需詳細資訊，請參閱處理地區設定和語言資訊。  
-**注意：** 此函式只會捕獲識別碼所指定之地區設定的相關資訊。 **GetNLSVersionEx** 函數支援其他地區設定、功能和 RFC 4646 名稱。 不過，Windows Vista 之前的 Windows 版本不支援 **GetNLSVersionEx**。  
-只在 Windows Vista 和更新版本上執行的應用程式應該在此函式的喜好設定中使用 **GetNLSVersionEx** 。 **GetNLSVersionEx** 可為補充地區設定提供良好的支援。  
+**注意：** 此函式只會捕獲識別碼所指定之地區設定的相關資訊。 **GetNLSVersionEx** 函數支援其他地區設定、功能和 RFC 4646 名稱。 不過，Windows Vista 之前的 Windows 版本並不支援 **GetNLSVersionEx**。  
+要在 Windows Vista 和更新版本上執行的應用程式，應該在此函式的喜好設定中使用 **GetNLSVersionEx** 。 **GetNLSVersionEx** 可為補充地區設定提供良好的支援。  
 
 
 ## <a name="compatibility-test"></a>相容性測試

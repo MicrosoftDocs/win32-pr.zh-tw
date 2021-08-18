@@ -4,12 +4,12 @@ ms.assetid: 7a641d26-af87-4a96-b718-5b7598c87da7
 title: 關於對等網路
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e5b4ac1540fe4740e7864893cc77ca17d454fc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83cc41f11187d67e8e338a37fce41810c2b0c0484004b6cadd4537ddd91788c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011796"
 ---
 # <a name="about-peer-networking"></a>關於對等網路
 

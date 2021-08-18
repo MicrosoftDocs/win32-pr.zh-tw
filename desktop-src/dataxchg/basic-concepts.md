@@ -3,8 +3,8 @@ title: 基本概念
 description: 本主題討論有關動態資料交換的重要概念。
 ms.assetid: 37826d83-4dcd-484f-b1aa-87bf309c5c09
 keywords:
-- 'Windows 消費者介面，動態資料交換 (DDE) '
-- 'Windows 消費者介面、動態資料交換管理程式庫 (DDEML) '
+- 'Windows消費者介面，動態資料交換 (DDE) '
+- 'Windows消費者介面，動態資料交換管理程式庫 (DDEML) '
 - 動態資料交換 (DDE) 、用戶端伺服器互動
 - DDE (動態資料交換) 、用戶端伺服器互動
 - '資料交換、動態資料交換 (DDE) '
@@ -33,12 +33,12 @@ keywords:
 - DDEML (動態資料交換管理程式庫) ，字串管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c564bffbcbb06ddc3a0e0fa4e0a9ed398d3ca55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fae271c359afd571cf6c51fb3387a15f1496416e5eb54b055ef518fd213f30fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128620"
 ---
 # <a name="basic-concepts-dde"></a> (DDE) 的基本概念
 

@@ -1,6 +1,6 @@
 ---
 title: 群組-成員資格-SAM 屬性
-description: Windows NT 安全性。 Windows NT 支援的下層。
+description: Windows NT安全。 Windows NT 支援的下層。
 ms.assetid: 14e2f7c1-4d2b-4c0d-bf13-9abb576cd931
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44fe8a9ff92077d22a628c9a85b942382cbb2034
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 73c552e863c0a20ebada09fcd5c28cfe7c597510c0eaa057f02c17b4caf3fb5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961327"
 ---
 # <a name="group-membership-sam-attribute"></a>群組-成員資格-SAM 屬性
 
-Windows NT 安全性。 Windows NT 支援的下層。
+Windows NT安全。 Windows NT 支援的下層。
 
 
 
@@ -58,7 +58,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
@@ -66,7 +66,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**Group**](c-group.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**Group**](c-group.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
@@ -87,7 +87,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**Group**](c-group.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**Group**](c-group.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
@@ -108,7 +108,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**Group**](c-group.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**Group**](c-group.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
@@ -129,7 +129,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**Group**](c-group.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**Group**](c-group.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
@@ -150,7 +150,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| 中使用的類別        | [**Group**](c-group.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**Group**](c-group.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ Windows NT 安全性。 Windows NT 支援的下層。
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |

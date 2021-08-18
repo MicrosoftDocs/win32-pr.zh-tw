@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71548002ebc67dae8dc1a49e8144da3de608afb2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70d51ad6ccd1924c78817f76f385d65e1963b68c1b1329c3d6ba924f25a827a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106980292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059086"
 ---
 # <a name="imsrdpclientgetvirtualchanneloptions-method"></a>IMsRdpClient：： GetVirtualChannelOptions 方法
 

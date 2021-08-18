@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102747
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d552e81d49795a5ce6b5d0a0f7bb26167a4c0feb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3ff6804d437d36f3e74acd84f693e0e1417bb25b17e13b9d1ed70776e8b1bf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118981453"
 ---
 # <a name="esentslvealisttoobigexception-methods"></a>EsentSLVEAListTooBigException 方法
 

@@ -4,18 +4,18 @@ ms.assetid: 2634899c-3263-45ce-9fac-407e11e42cd4
 title: 協同作業 API 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d4fe42a28eb8ace13087fff43d29aa00e5551ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa003702b9d42202bf344f6e512a1ca42d90a2ced701dc327fdc91eefb8fdcb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011756"
 ---
 # <a name="collaboration-api-structures"></a>協同作業 API 結構
 
 下列結構支援對等共同作業功能。
 
-| 結構                                                                                      | Description                                                                                                                                                                                        |
+| 結構                                                                                      | 描述                                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**對等 \_ 應用程式**](/windows/desktop/api/P2P/ns-p2p-peer_application)                                                  | 包含描述本機安裝軟體應用程式或元件的資料，該應用程式或元件可在對等共同作業網路內與受信任的連絡人註冊並共用。                        |
 | [**對等 \_ 應用程式 \_ 註冊 \_ 資訊**](/windows/desktop/api/P2P/ns-p2p-peer_application_registration_info)            | 包含在本機電腦上註冊的對等應用程式資訊。                                                                                                                    |

@@ -1,23 +1,23 @@
 ---
-description: 本主題概要說明如何使用 Windows 影像處理元件 (WIC) Api 來讀取和寫入內嵌于影像檔案的中繼資料。
+description: 本主題概要說明如何使用 Windows 影像處理元件 (WIC) api 來讀取和寫入內嵌于影像檔案的中繼資料。
 ms.assetid: b1e0b936-a13a-42dd-8470-957ba1d90423
 title: 讀取和寫入影像中繼資料的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 484d562b71184c20adf054f1de2a4203878da9b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 191ffbe919e09acb153505fd3b43b50453b67708259206bffe66a0322d485a1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088134"
 ---
 # <a name="overview-of-reading-and-writing-image-metadata"></a>讀取和寫入影像中繼資料的總覽
 
-本主題概要說明如何使用 Windows 影像處理元件 (WIC) Api 來讀取和寫入內嵌于影像檔案的中繼資料。
+本主題概要說明如何使用 Windows 影像處理元件 (WIC) api 來讀取和寫入內嵌于影像檔案的中繼資料。
 
 本主題包含下列各節。
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [簡介](#introduction)
 -   [使用查詢讀取器讀取 Metadadata](#reading-metadadata-using-a-query-reader)
     -   [取得查詢讀取器](#obtaining-a-query-reader)
@@ -519,7 +519,7 @@ if (SUCCEEDED(hr))
 | 元資料格式 | JPEG 中繼資料查詢                  | TIFF，JPEG XR 中繼資料查詢    |
 |-----------------|--------------------------------------|---------------------------------|
 | IFD             | /app1/ifd/PaddingSchema：填補      | /ifd/PaddingSchema：填補      |
-| Exif            | /app1/ifd/exif/PaddingSchema：填補 | /ifd/exif/PaddingSchema：填補 |
+| EXIF            | /app1/ifd/exif/PaddingSchema：填補 | /ifd/exif/PaddingSchema：填補 |
 | XMP             | /xmp/PaddingSchema：填補           | /ifd/xmp/PaddingSchema：填補  |
 | GPS             | /app1/ifd/gps/PaddingSchema：填補  | /ifd/gps/PaddingSchema：填補  |
 
@@ -593,7 +593,7 @@ if (SUCCEEDED(hr))
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [WIC 中繼資料總覽](-wic-about-metadata.md)

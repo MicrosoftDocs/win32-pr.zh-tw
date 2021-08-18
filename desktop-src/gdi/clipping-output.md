@@ -4,12 +4,12 @@ ms.assetid: 5ae60181-c72e-4a28-99eb-e23d35c46685
 title: 裁剪輸出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdc0181340b03421815ebe0f5cd8328d4793a406
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7a683fd276165b8c4556881f6aab47931978048b4699496a0f996abd888dbab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038136"
 ---
 # <a name="clipping-output"></a>裁剪輸出
 

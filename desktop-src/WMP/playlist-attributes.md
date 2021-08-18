@@ -6,22 +6,22 @@ keywords:
 - Windows Media Player，播放清單
 - Windows Media Player 物件模型，播放清單
 - 物件模型，播放清單
-- Windows Media Player 行動裝置、播放清單
-- Windows Media Player ActiveX 控制項，播放清單
-- Windows Media Player 的行動 ActiveX 控制項、播放清單
+- Windows Media Player行動裝置、播放清單
+- Windows Media Player ActiveX 控制項、播放清單
+- Windows Media Player行動 ActiveX 控制項、播放清單
 - ActiveX 控制項，播放清單
 - 播放清單、屬性
 - 中繼檔播放清單，屬性
-- Windows Media 中繼檔播放清單，屬性
+- Windows媒體中繼檔播放清單，屬性
 - 屬性、播放清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 669d3203fdb703099a7089e2165f31fd5bb326bb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d00416f641fac89c707405c03dc70af0497b34d4cf646aa44fad5124f97f09a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995708"
 ---
 # <a name="playlist-attributes"></a>播放清單屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "103932084"
 
 播放清單是在以 XML 格式組織的檔案中定義，而檔案中的特定元素則是定義播放清單屬性。 某些屬性元素是已知的;中繼檔的作者也可以定義任意屬性。 如需有關播放清單檔案中 attribute 元素的詳細資訊，請參閱抓取 [中繼資料](retrieving-metadata.md)。
 
-程式庫可能會提供額外的播放清單屬性，例如 **SourceURL** 或 **UserLastPlayedTime**。 如需程式庫播放清單屬性的詳細資訊，請參閱 Windows Media Player [屬性參考](attribute-reference.md)。
+程式庫可能會提供額外的播放清單屬性，例如 **SourceURL** 或 **UserLastPlayedTime**。 如需程式庫播放清單屬性的詳細資訊，請參閱 Windows Media Player[屬性參考](attribute-reference.md)。
 
 *播放清單*。**attributeCount** 屬性會捕獲與播放清單相關聯的屬性數目。 *播放清單*。**attributeName** 屬性會根據屬性的索引和 *播放清單* 來抓取屬性的名稱。**getItemInfo** 方法會根據屬性的名稱來抓取屬性的值。
 
@@ -127,9 +127,9 @@ private void lstPlaylist_SelectedIndexChanged(object sender, System.EventArgs e)
 [**播放清單物件**](playlist-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294073(v=EXCHG.10)
 ms:contentKeyID: 32765688
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 86f7d2bbb3925434ddbfff52e987b6e408af9ed8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cc7e3921c1904cdae3a09432d6a17eae3953251d3bd39c288cb6d6ffe184ffc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982698"
 ---
 # <a name="columns"></a>資料行
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="columns"></a>資料行
 

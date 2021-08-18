@@ -4,12 +4,12 @@ description: IDL 檔案包含一或多個介面定義，其中每個都有標頭
 ms.assetid: 64a30a12-a53e-4c53-b8cf-7af85ffd0a94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 862adfad2a43f10dac3598279554fd6e1f00a302
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 88f46a92fe5967dca1faeca1d658cf398fb0baf6ebd9160c3a736747de324e9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924412"
 ---
 # <a name="the-idl-file"></a>IDL 檔案
 
@@ -34,6 +34,6 @@ interface hello
 }
 ```
 
- 
+ 
 
- 
+ 

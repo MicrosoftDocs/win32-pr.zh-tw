@@ -13,12 +13,12 @@ keywords:
 - 音訊壓縮，結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cdbdb992778881ac26e606649bee1eab0bb457c
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 8ac8d53d84ccf36cd99ad9c3a307c0fc3bb34ed0c3110014ad512a71bebf5f25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "103932977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941796"
 ---
 # <a name="audio-compression-structures"></a>音訊壓縮結構
 
@@ -40,9 +40,9 @@ ms.locfileid: "103932977"
 [音訊壓縮管理員參考](audio-compression-manager-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

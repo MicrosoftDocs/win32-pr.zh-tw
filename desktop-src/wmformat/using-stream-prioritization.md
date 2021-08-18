@@ -3,17 +3,17 @@ title: 使用資料流程優先順序
 description: 使用資料流程優先順序
 ms.assetid: 5fff212e-b47b-49a6-817f-f0e09c895b3a
 keywords:
-- Windows Media Format SDK，資料流程優先順序
+- Windows媒體格式 SDK，資料流程優先順序
 - 設定檔，資料流程優先順序
 - 資料流程，優先順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99a6b0bd3d49db9523ef9ea5585803b4c703c279
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3db00466eb27685a33851f7bffa5133e1d94a203985b1a0a56b110a09ad88ab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963947"
 ---
 # <a name="using-stream-prioritization"></a>使用資料流程優先順序
 
@@ -131,9 +131,9 @@ pProfileMgr = NULL;
 [**使用設定檔**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

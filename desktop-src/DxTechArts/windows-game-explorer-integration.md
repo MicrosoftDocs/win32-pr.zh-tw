@@ -1,33 +1,33 @@
 ---
-title: 適用于遊戲開發人員的 Windows 遊戲瀏覽器
-description: 本文概述使用新的 GDF 架構，在 Windows Vista 和 Windows 7 上向遊戲瀏覽器和家長監護註冊遊戲的流程。
+title: Windows適用于遊戲開發人員的遊戲瀏覽器
+description: 本文概述如何使用新的 GDF 架構，在 Windows Vista 和 Windows 7 上向遊戲瀏覽器和家長監護註冊遊戲的流程。
 ms.assetid: 628f14bf-2714-0d68-8267-4f7f48c2774a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7f59b90a23f407be3990a6a4e24b92d39e66852
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6420b4783cfad7afd82483d45448ccb219342b4a7b88aa54e36c2de15ca0f778
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070418"
 ---
-# <a name="windows-games-explorer-for-game-developers"></a>適用于遊戲開發人員的 Windows 遊戲瀏覽器
+# <a name="windows-games-explorer-for-game-developers"></a>Windows適用于遊戲開發人員的遊戲瀏覽器
 
-Windows Vista 包含 [遊戲瀏覽器]，藉以改善 Windows 遊戲的使用者體驗。 Windows Vista [開始] 功能表中的 [遊戲瀏覽器] 會在 [遊戲] 資料夾中公開，並提供存取遊戲的集中位置。
+WindowsVista 透過包含遊戲瀏覽器，改善了 Windows 遊戲的使用者體驗。 [遊戲瀏覽器] 會在 Windows Vista [開始] 功能表中公開為 [遊戲] 資料夾，並提供用來存取遊戲的集中位置。
 
-從 DirectX SDK 2009 年3月版本開始，新的遊戲定義檔 (GDF) 架構可用來支援 Windows 7、遊戲提供者和 RSS 摘要以及 IGameExplorer2 中的功能。 IGameExplorer2 是 Windows 7 的新介面，可簡化將遊戲與遊戲瀏覽器整合的流程。
+從 DirectX SDK 2009 年3月版本開始，新的遊戲定義檔 (GDF) 架構可用來支援 Windows 7、遊戲提供者和 RSS 摘要以及 IGameExplorer2 中的功能。 IGameExplorer2 是 Windows 7 的新介面，可簡化將遊戲與遊戲 Explorer 整合的流程。
 
-本文概述使用新的 GDF 架構，在 Windows Vista 和 Windows 7 上向遊戲瀏覽器和家長監護註冊遊戲的流程。
+本文概述如何使用新的 GDF 架構，在 Windows Vista 和 Windows 7 上向遊戲瀏覽器和家長監護註冊遊戲的流程。
 
 內容: 
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [與安裝程式整合](#integrating-with-an-installer)
 -   [整合流程](#integration-process)
 -   [遊戲瀏覽器工作](#games-explorer-tasks)
 -   [整合至 InstallScript](#integrating-into-installscript)
 -   [整合至 MSI 套件](#integrating-into-an-msi-package)
--   [調試秘訣](#debugging-tips)
+-   [提示的調試](#debugging-tips)
     -   [使用範例程式碼進行測試](#test-with-sample-code)
     -   [確定您的遊戲已正確移除](#make-sure-that-your-game-was-removed-properly)
     -   [務必使用 Authenticode 簽署](#be-sure-to-sign-using-authenticode)
@@ -42,7 +42,7 @@ Windows Vista 包含 [遊戲瀏覽器]，藉以改善 Windows 遊戲的使用者
 
 Microsoft 提供的工具可讓您在 DirectX SDK 的遊戲定義檔編輯器中撰寫 GDFs，讓此建立程式更容易。 這項工具也可協助您建立當地語系化版本的 GDF。
 
-撰寫和當地語系化 GDF 之後，它必須封裝在二進位檔案的資源區段內， (可執行檔或 DLL) ，以及遊戲的縮圖和圖示。 GDF 包含與遊戲相關聯的所有中繼資料，包括遊戲的評等。 Windows 家長監護會使用遊戲的評等來允許家長監護遊戲的存取。 包含 GDF 的二進位檔案必須使用有效的 Authenticode 憑證以數位方式簽署;否則，[遊戲瀏覽器] 和 [家長監護] 系統會忽略遊戲的評等，因為無法信任評等資訊而不需要認證。 如需使用 Authenticode 簽署程式碼的詳細資訊，請參閱 [遊戲開發人員的 Authenticode 簽署](/windows/desktop/DxTechArts/authenticode-signing-for-game-developers)。
+撰寫和當地語系化 GDF 之後，它必須封裝在二進位檔案的資源區段內， (可執行檔或 DLL) ，以及遊戲的縮圖和圖示。 GDF 包含與遊戲相關聯的所有中繼資料，包括遊戲的評等。 Windows家長監護會使用遊戲的評等來允許家長監護遊戲的存取。 包含 GDF 的二進位檔案必須使用有效的 Authenticode 憑證以數位方式簽署;否則，[遊戲瀏覽器] 和 [家長監護] 系統會忽略遊戲的評等，因為無法信任評等資訊而不需要認證。 如需使用 Authenticode 簽署程式碼的詳細資訊，請參閱 [遊戲開發人員的 Authenticode 簽署](/windows/desktop/DxTechArts/authenticode-signing-for-game-developers)。
 
 ## <a name="integrating-with-an-installer"></a>與安裝程式整合
 
@@ -115,7 +115,7 @@ Microsoft 提供的工具可讓您在 DirectX SDK 的遊戲定義檔編輯器中
 
 在 Windows Vista 中，工作只是位於特定資料夾中的快捷方式。 播放工作和支援工作會儲存在具有對應名稱 PlayTasks 和 SupportTasks 的資料夾中。 GameUXInstallHelper 可以從 GDF 的二進位檔讀取遊戲的工作資訊，並自動建立所有的快捷方式。
 
-在 Windows 7 中，不需要工作的快捷方式，因為遊戲瀏覽器會直接從 GDF 二進位檔案取得所有工作資訊。
+在 Windows 7 中不需要工作的快捷方式，因為遊戲瀏覽器會直接從 GDF 二進位檔案取得所有工作資訊。
 
 ## <a name="integrating-into-installscript"></a>整合至 InstallScript
 
@@ -219,18 +219,18 @@ Microsoft 提供的工具可讓您在 DirectX SDK 的遊戲定義檔編輯器中
 1.  以 Orca 開啟 MSI 套件。
 2.  將下表中顯示的資料列加入至 MSI 封裝中的 **二進位** 資料表。 
 
-    | Name   | 資料                                          |
+    | 名稱   | 資料                                          |
     |--------|-----------------------------------------------|
     | GAMEUX | DLL 的檔案路徑 \\GameUXInstallHelper.dll |
 
     
 
-     
+     
 
     > [!Note]  
     > 此檔案將內嵌在 MSI 套件中，因此您必須在每次重新編譯 GameUXInstallHelper.dll 時執行此步驟。
 
-     
+     
 
 3.  將下表中顯示的資料列加入至 MSI 封裝中的 **CustomAction** 資料表。
 
@@ -248,7 +248,7 @@ Microsoft 提供的工具可讓您在 DirectX SDK 的遊戲定義檔編輯器中
 
     
 
-     
+     
 
 4.  將下表中的 [動作]、[條件] 和 [順序] 所顯示的值，加入至 MSI 封裝中的 **InstallExecuteSequence** 資料表。
 
@@ -266,7 +266,7 @@ Microsoft 提供的工具可讓您在 DirectX SDK 的遊戲定義檔編輯器中
 
     
 
-     
+     
 
 5.  將下表中顯示的資料列加入至 MSI 封裝中的屬性資料表。
 
@@ -276,18 +276,18 @@ Microsoft 提供的工具可讓您在 DirectX SDK 的遊戲定義檔編輯器中
 
     
 
-     
+     
 
     > [!Note]  
     > 路徑所指定的位置是相對於安裝路徑所指定的位置。 例如，bin \\GDF.dll。
 
-     
+     
 
 6.  儲存 MSI 套件。
 
-如需有關 MSI 封裝和 Windows Installer 的詳細資訊，請參閱 [Windows Installer](/windows/desktop/Msi/windows-installer-portal)。
+如需有關 MSI 封裝和 Windows Installer 的詳細資訊，請參閱[Windows Installer](/windows/desktop/Msi/windows-installer-portal)。
 
-## <a name="debugging-tips"></a>調試秘訣
+## <a name="debugging-tips"></a>提示的調試
 
 以下是一些秘訣，可協助您在呼叫遊戲瀏覽器 Api 時，偵測問題：
 
@@ -301,7 +301,7 @@ Microsoft 提供的工具可讓您在 DirectX SDK 的遊戲定義檔編輯器中
 
 如果遊戲已安裝在遊戲瀏覽器中，後續對 **IGameExplorer：： AddGame** 的呼叫將會傳回 E \_ 失敗，因此請確定您的遊戲未在測試之前安裝。 如果您只為目前的使用者安裝 GDF，然後嘗試為所有使用者安裝 GDF，這也適用。 您必須先移除目前使用者的遊戲， **IGameExplorer：： AddGame** 才會成功。
 
-如果您執行 **GDFInstall.exe enum**，範例應用程式將會進入不同的模式，以列舉所有已安裝的遊戲管理器遊戲並提示您移除它們。 您也可以在 [HKEY \_ LOCAL MACHINE Software Microsoft Windows CurrentVersion GameUX] 中流覽和搜尋登錄， \_ \\ \\ \\ \\ \\ 確定未針對系統上的其他使用者安裝您的遊戲。 不過，請勿改變這些登錄設定的任何其他用途，因為它們在作業系統的未來版本中不保證會保持相容。
+如果您執行 **GDFInstall.exe enum**，範例應用程式將會進入不同的模式，以列舉所有已安裝的遊戲管理器遊戲並提示您移除它們。 您也可以在 HKEY \_ LOCAL \_ MACHINE Software Microsoft Windows CurrentVersion GameUX 中流覽和搜尋登錄， \\ \\ \\ \\ \\ 確定未針對系統上的其他使用者安裝您的遊戲。 不過，請勿改變這些登錄設定的任何其他用途，因為它們在作業系統的未來版本中不保證會保持相容。
 
 ### <a name="be-sure-to-sign-using-authenticode"></a>務必使用 Authenticode 簽署
 
@@ -309,7 +309,7 @@ Microsoft 提供的工具可讓您在 DirectX SDK 的遊戲定義檔編輯器中
 
 ### <a name="be-sure-that-parental-controls-are-available"></a>確定可以使用家長監護
 
-確定您要在提供家長監護的 Windows Vista 版本上測試家長監護： Home Basic、Home Premium 或旗艦版。 Windows Vista Business 和 Windows Vista Enterprise 不提供家長監護，不過如果您是在 Windows Vista 旗艦版上進行測試，而且測試電腦已加入網域，您必須變更群組原則設定，讓家長監護成為可見的。 若要這樣做，請參閱 [使用遊戲瀏覽器開始使用](/previous-versions/windows/desktop/legacy/ee417682(v=vs.85))。
+確定您是在提供家長監護的 Windows Vista 版本上測試家長監護： home Basic、home 進階版或旗艦版。 Windowsvista Business 和 Windows vista Enterprise 不提供家長監護，不過如果您要測試 Windows Vista 旗艦版，而且測試電腦已加入網域，您必須變更群組原則設定，讓家長監護成為可見。 若要這樣做，請參閱 [使用遊戲瀏覽器開始使用](/previous-versions/windows/desktop/legacy/ee417682(v=vs.85))。
 
 ### <a name="verify-that-tasks-are-of-the-correct-type"></a>確認工作的類型正確
 
@@ -319,10 +319,10 @@ Microsoft 提供的工具可讓您在 DirectX SDK 的遊戲定義檔編輯器中
 
 GDFTrace.exe 是在 DirectX SDK 中找到的工具。 您可以在 GDF 二進位檔上執行 GDFTrace.exe，它會針對每個支援的語言輸出包含在二進位檔中的所有 GDF 中繼資料，以進行快速驗證。 它也會顯示遺漏或過時資訊的任何警告。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
-Windows Vista 中的遊戲瀏覽器提供簡單且可自訂的方式，讓您的遊戲對 Windows Vista 的使用者呈現，但也需要您在安裝過程中向系統註冊遊戲。 GameUXInstallHelper 範例大幅簡化了開發人員的流程。
+Windows Vista 中的遊戲瀏覽器提供簡單、可自訂的方式，讓您的遊戲可提供給 Windows Vista 的使用者，但也需要您在安裝過程中向系統註冊遊戲。 GameUXInstallHelper 範例大幅簡化了開發人員的流程。
 
- 
+ 
 
- 
+ 

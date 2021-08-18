@@ -4,12 +4,12 @@ ms.assetid: f97bdaf6-40a8-414e-a561-d3cb953d0bab
 title: 取得 Microsoft Digest 的 SSP 認證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c61895ecc8e49713665af4542689729bc491d9e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ea17889331453f009d0d19b7b834e9a4b1301636ec41ef73e6557f79419b461
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921277"
 ---
 # <a name="obtaining-microsoft-digest-ssp-credentials"></a>取得 Microsoft Digest 的 SSP 認證
 

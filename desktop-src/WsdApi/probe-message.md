@@ -4,12 +4,12 @@ ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: 探查訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 913c163be8d82297a642b1a97a7d28e0c403ca08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abaf4b397abec699dd0a116fe5cddd97578543f917a7994287f5000e17079def
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130630"
 ---
 # <a name="probe-message"></a>探查訊息
 
@@ -70,7 +70,7 @@ DPWS 用戶端會傳送探查訊息。 下列清單會顯示 WSDAPI 傳送探查
 <tr class="header">
 <th>對焦點</th>
 <th>XML</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -104,7 +104,7 @@ DPWS 用戶端會傳送探查訊息。 下列清單會顯示 WSDAPI 傳送探查
 
 <dl> <dt>
 
-[探索和中繼資料交換訊息](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [ProbeMatches 訊息](probematches-message.md)

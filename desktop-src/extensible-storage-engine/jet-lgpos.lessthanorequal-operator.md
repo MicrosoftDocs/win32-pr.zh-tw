@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 57eb2f9383b218409ebee927cc4d6ad1283f3e8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87b84a7608272292edd77652fe0f97e7a5f1798a7cda18c23b45950378f5c970
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979988"
 ---
 # <a name="jet_lgposlessthanorequal-operator"></a>JET_LGPOS。LessThanOrEqual 運算子
 

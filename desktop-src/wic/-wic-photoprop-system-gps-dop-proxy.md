@@ -4,18 +4,18 @@ ms.assetid: d57aa21c-68c3-40a2-a0b0-a266d9f12056
 title: System.servicemodel Proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ccb57427104a7e8312b9c8b89bf89793d32b4cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e6ad1fc598d9eba135515ebc0826037cf0d4e97e5597a89ec46a7c1d17fec33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964847"
 ---
 # <a name="systemgpsdop-proxy"></a>System.servicemodel Proxy
 
 System.servicemodel 相片中繼資料原則的屬性 proxy。
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 屬性 proxy 會透過 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal 成員傳回有理數 a。
 

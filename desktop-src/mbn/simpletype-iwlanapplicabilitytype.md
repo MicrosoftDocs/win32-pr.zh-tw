@@ -7,12 +7,12 @@ MSHAttr:
 title: iwlanApplicabilityType 簡單類型
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80013fa21574221de24a7fc8309e4459a80ad670
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2ede1e4c360bfd88fa8ca0eb3494a9400f4dfc2a1eb70f7857156caabf7b469
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035746"
 ---
 # <a name="span-idwwan_profile_v4simpletype_iwlanapplicabilitytypespaniwlanapplicabilitytype-simple-type"></a><span id="WWAN_profile_v4.simpleType_iwlanApplicabilityType"></span>iwlanApplicabilityType 簡單類型
 

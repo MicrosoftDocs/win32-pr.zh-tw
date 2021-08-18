@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f49c1df6d145c32b8fcbdf70462b30f14f51b3d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cfa57faea9423af31e494c37d97af2b61d690095fb669a6a9b47109f6e97e70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094213"
 ---
 # <a name="best-practices-for-file-associations"></a>檔案關聯的最佳作法
 
@@ -75,7 +75,7 @@ Myprogram.exe 預期 %1 是檔案名的完整路徑，而 %2 是表示某些動�
 
 ## <a name="do-not-confuse-the-internet-explorer-mime-database-with-file-associations"></a>請勿混淆 Internet Explorer MIME 資料庫與檔案關聯
 
-檔案關聯類似于 Windows Internet Explorer MIME 資料庫，在該檔案類型中可以 (，而且) 包含 MIME 類型定義。 不過，Internet Explorer MIME 資料庫是分開的，與檔案關聯不同。
+檔案關聯類似于 Windows 的 Internet Explorer MIME 資料庫，在該檔案類型中可以 (，而且應該) 包含 MIME 類型定義。 不過，Internet Explorer MIME 資料庫是分開的，與檔案關聯不同。
 
 ## <a name="use-properly-formed-and-versioned-progids"></a>使用正確格式和建立版本的 Progid
 
@@ -96,7 +96,7 @@ Myprogram.exe 預期 %1 是檔案名的完整路徑，而 %2 是表示某些動�
 
 ## <a name="sign-up-with-the-windows-web-service-for-file-associations"></a>使用 Windows Web 服務註冊檔案關聯
 
-應用程式開發人員可以註冊 Windows Web 服務，讓使用者用來尋找可在特定檔案類型上操作的應用程式。 使用 web 服務進行註冊的程式，在 [Windows 檔案關聯系統的內建程式](https://support.microsoft.com/kb/929149)中有詳細的說明。
+應用程式開發人員可以註冊 Windows Web 服務，讓使用者用來尋找可在特定檔案類型上操作的應用程式。 使用 web 服務註冊的程式會在[Windows 檔案關聯系統的內建程式](https://support.microsoft.com/kb/929149)中詳細說明。
 
 ## <a name="related-topics"></a>相關主題
 

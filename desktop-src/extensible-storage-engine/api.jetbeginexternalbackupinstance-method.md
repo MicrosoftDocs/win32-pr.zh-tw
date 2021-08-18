@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1c42f5d1f62de0af7582247fb47d407f82981a42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b590ed0fb13c4540a4fad15eea1de5c4ad24e40611285d976ebf04b6269c6b6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983638"
 ---
 # <a name="apijetbeginexternalbackupinstance-method"></a>JetBeginExternalBackupInstance 方法
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d7c5f7a9cbde54647c299646bb6350c3be6aa2a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c417b3a225ba7d9f39329fe274d99ee09c3a98353a9822d1047ea426610411c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093083"
 ---
 # <a name="folderitemisbrowsable-property"></a>FolderItem. IsBrowsable 屬性
 
@@ -41,9 +41,9 @@ bIsBrowsable = FolderItem.IsBrowsable
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 **IsBrowsable** 來判斷 Windows 資料夾的可流覽狀態。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例會使用 **IsBrowsable** 來判斷 Windows 資料夾的可流覽狀態。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -148,10 +148,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 
