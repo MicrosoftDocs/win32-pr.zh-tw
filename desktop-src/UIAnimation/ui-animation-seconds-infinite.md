@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c122eb1336136c00bf7b5e950e25c26c6384ab6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 361ec9ba41e93f9aaad19a493ec10b8657baa85db706b6d034302189ef457a7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119418588"
 ---
 # <a name="ui_animation_seconds_infinite"></a>UI \_ 動畫 \_ 不 \_ 限時數
 
@@ -25,7 +25,7 @@ ms.locfileid: "106969821"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                            | Description                       |
+| 常數/值                                                                                                                                                                                                                                                            | 描述                       |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------|
 | <span id="UI_ANIMATION_SECONDS_INFINITE"></span><span id="ui_animation_seconds_infinite"></span><dl> <dt>**UI \_動畫 \_ 秒 \_ 無限**</dt> <dt>-1.0</dt> </dl> | UI \_ 動畫的 \_ 秒數<br/> |
 
@@ -41,7 +41,7 @@ ms.locfileid: "106969821"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅適用于 Windows 7 \[ 桌面應用程式的 Windows 8、windows 7 和平臺更新\]<br/>    |
+| 最低支援的用戶端<br/> | Windows 8，僅適用于 Windows 7 \[ 桌面應用程式的 Windows 7 和平臺更新\]<br/>    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                  |
 | 標頭<br/>                   | <dl> <dt>UIAnimation。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>UIAnimation .idl</dt> </dl> |

@@ -8,12 +8,12 @@ keywords:
 - LDAP 提供者 ADSI，使用者管理範例，帳戶到期日
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c03ea33d8d5abb219c2b562aa05058b5dec45919
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 645ce5e2e1ae72ace0a8a642642eb5c15e7eabd63d51dba3f03596869bfb9efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106976341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024066"
 ---
 # <a name="account-expiration-ldap-provider"></a>帳戶到期 (LDAP 提供者) 
 
@@ -86,8 +86,8 @@ HRESULT SetUserAccountExpirationDate(IADsUser *pUser, DATE date)
 > [!Note]  
 > [**AccountExpires**](/windows/desktop/ADSchema/a-accountexpires)屬性包含帳戶到期日。 Active Directory 消費者和電腦 MMC 嵌入式管理單元會顯示帳戶結束時的到期日期。 也就是說，Active Directory 消費者和電腦 MMC 嵌入式管理單元會將帳戶到期日顯示為早于 **accountExpires** 屬性所包含日期的一天。
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -1,5 +1,5 @@
 ---
-description: 代表 Microsoft Windows Hyper-v 平臺的虛擬裝置服務。
+description: 代表 Microsoft Windows hyper-v 平臺的虛擬裝置服務。
 ms.assetid: 865D83E1-0FC6-4F96-94BB-AA5116890127
 title: Msvm_VirtualSystemResourceComponent 類別
 ms.topic: reference
@@ -21,16 +21,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 81c2d31a6497325ac77003ded266333518de890a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0758858e9e45066cdfaddf36616c7861bbae914b12e3698665f8650c6c57d67c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119340168"
 ---
 # <a name="msvm_virtualsystemresourcecomponent-class"></a>Msvm \_ VirtualSystemResourceComponent 類別
 
-代表 Microsoft Windows Hyper-v 平臺的虛擬裝置服務。
+代表 Microsoft Windows hyper-v 平臺的虛擬裝置服務。
 
 下列語法已簡化受控物件格式 (MOF) 程式碼，並且包含所有繼承的屬性。
 
@@ -75,7 +75,7 @@ class Msvm_VirtualSystemResourceComponent : Msvm_VirtualizationComponent
 
 </dd> <dt>
 
-**Clsid**
+**CLSID**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -156,7 +156,7 @@ GUID，表示服務 COM 物件的類別識別碼。 這個屬性繼承自 [**Msv
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint16**
@@ -192,8 +192,8 @@ GUID，表示服務 COM 物件的類別識別碼。 這個屬性繼承自 [**Msv
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 用戶端支援結束<br/>    | Windows 8.1<br/>                                                                                  |
 | 伺服器支援結束<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |

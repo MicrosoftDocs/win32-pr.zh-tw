@@ -4,12 +4,12 @@ ms.assetid: 88bab0ab-df9f-4813-9a9f-9a137813f0b4
 title: StylusInput Api 的架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeda6a6a0269e8306aed6a6b6de4c1bbe33bc46f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 961d6e3e94d47054afb28948685fce5fe1cafe9cbb0fa2f36e5a2d8508f28b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093154"
 ---
 # <a name="architecture-of-the-stylusinput-apis"></a>StylusInput Api 的架構
 

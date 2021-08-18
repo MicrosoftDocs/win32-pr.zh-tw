@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 509f520ff7624b0b29302d7bf5cd825cd45b4254
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c3a2666268e2c12e74c6498446ff49bde69dd30cf9819a7899e88a8b8ee4466
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136011"
 ---
 # <a name="keyup-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 KeyUp 事件
 

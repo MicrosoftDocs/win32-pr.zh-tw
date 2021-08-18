@@ -4,18 +4,18 @@ ms.assetid: dd992d16-bd12-49e6-843b-f4a30aab33b6
 title: System.servicemodel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e9f5adacf0f3ee7e86720a52614b8d4a58a1753
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 360626b17dc8f326fdb27e76b89a2a9c174988149b93f600ae40419a01af3da3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119352278"
 ---
 # <a name="systemvideodirector"></a>System.servicemodel
 
 表示導向影片的人員。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

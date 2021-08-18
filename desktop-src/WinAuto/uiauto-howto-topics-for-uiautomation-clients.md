@@ -4,12 +4,12 @@ description: 本節包含的程式碼範例會示範撰寫 Microsoft 消費者�
 ms.assetid: 36651fe8-c0f0-4f2b-93d0-8168ccfb1af7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40513b4f47d2df2110a7a9aa2a6a00d0dcf0be69
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 265bb6cec937f1f4f7b040bfb1f726545fbf78f2787717415a3b073aa581920e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133281"
 ---
 # <a name="how-to-topics-for-ui-automation-clients"></a>消費者介面自動化用戶端的 How-To 主題
 
@@ -31,9 +31,9 @@ ms.locfileid: "106965392"
 [消費者介面自動化用戶端程式設計人員指南](uiauto-clientportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

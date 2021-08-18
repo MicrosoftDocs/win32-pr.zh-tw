@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea75f7148848fb5a9cecee4297679d28976d588
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: acfa52a3d2a227ad5bd5696ecbdf02a09f6b4b2840adaa29942c63ec6e038c5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021646"
 ---
 # <a name="msmq-open-connector-extended-right"></a>msmq-開啟連接器擴充許可權
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: df2254c111303129327d255f94727a5e42ac1c0c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0164b1d82a9d371e735177f381e2a1a97aa062aaca8c65a00d4959a32279ed11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119922"
 ---
 # <a name="registers---vs_4_1"></a>暫存器-vs \_ 4 \_ 1
 
@@ -24,11 +24,11 @@ ms.locfileid: "104183690"
 
 
 
-| 註冊      | Name | Count              | R/W | 維度 | R 可編制索引\# | Defaults | 需要 DCL |
+| 註冊      | 名稱 | 計數              | R/W | 尺寸 | R 可編制索引\# | Defaults | 需要 DCL |
 |---------------|------|--------------------|-----|-----------|------------------|----------|--------------|
 | R\#           |      | 4096 (r \# + x \# \[ n \])  | R/W | 4         | 否               | None     | Yes          |
 | x \# \[ n\]      |      | 4096 (r \# + x \# \[ n \])  | R/W | 4         | 是              | 無     | Yes          |
-| V\#           |      | 32                 | R   | 4         | 是              | 無     | Yes          |
+| v\#           |      | 32                 | R   | 4         | 是              | 無     | Yes          |
 | 10gbase-t\#           |      | 128                | R   | 1         | 否               | None     | Yes          |
 | s\#           |      | 16                 | R   | 1         | 否               | None     | Yes          |
 | cb \# \[ 索引\] |      | 15                 | R   | 4         | 是 (內容)     | 無     | Yes          |
@@ -36,20 +36,20 @@ ms.locfileid: "104183690"
 
 
 
- 
+ 
 
 ## <a name="output-registers"></a>輸出暫存器
 
 
 
-| 註冊 | Name            | Count | R/W | 維度 | R 可編制索引\# | Defaults | 需要 DCL |
+| 註冊 | 名稱            | 計數 | R/W | 尺寸 | R 可編制索引\# | Defaults | 需要 DCL |
 |----------|-----------------|-------|-----|-----------|------------------|----------|--------------|
 | NULL     | 捨棄結果  | N/A   | W   | N/A       | N/A              | N/A      | 否           |
 | 輸出\#      | 輸出暫存器 | 32    | W   | N/A       | N/A              | 4        | 是          |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -58,9 +58,9 @@ ms.locfileid: "104183690"
 [著色器模型4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

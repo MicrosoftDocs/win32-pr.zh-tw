@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfa0ea4c37d83e8788b13b0469b808ab4de6b473
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 642eef115d2dbf0e752969128d5847797fb40278eb81999430b39cf6152c3e55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119424028"
 ---
 # <a name="unregistervmmplugin-method-of-the-win32_sessiondirectoryvmmplugin-class"></a>Win32 SessionDirectoryVMMPlugin 類別的 UnregisterVMMPlugin 方法 \_
 

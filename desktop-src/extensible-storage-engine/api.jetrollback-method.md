@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9144bade272ddaea7501be5622c7263268c0f1fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 099afa55f6b47d014bccf3ab354ed3c3e5e05d0229aa034a13f467062fa808aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983208"
 ---
 # <a name="apijetrollback-method"></a>JetRollback 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 8f76784f-7d03-4874-ae7f-e8bdc42638c3
 title: 計算檔案系統識別總和檢查碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74cac3975d4e1845dd1ff4aa218526e942fda152
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce146fda589668d39f1f7ff4158384986fb719f2bbbee6ce0584ad9f1e540b08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329178"
 ---
 # <a name="computing-a-file-system-recognition-checksum"></a>計算檔案系統識別總和檢查碼
 

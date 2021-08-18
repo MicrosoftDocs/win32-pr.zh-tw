@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b23b040d004cfe499e47c2b8d4ab2045b0f7ed45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24875b3852713110a8ddd8cbd4973d170b65e8a6853631c6440d6df9d02c7182
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119110145"
 ---
 # <a name="jet_errinfobasic-constructor"></a>JET_ERRINFOBASIC 的函式
 

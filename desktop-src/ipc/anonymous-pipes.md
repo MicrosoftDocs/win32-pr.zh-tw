@@ -4,12 +4,12 @@ ms.assetid: 43c2a76e-7873-4d93-90a6-c956f06e2f3e
 title: 匿名管道
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01dac73b1cb83693a432c32bd53a1f2c7ff19122
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c18e56d65b8bd9078e513620061a3325b5340100564aa4cf2c9fb532ab4e9152
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119350468"
 ---
 # <a name="anonymous-pipes"></a>匿名管道
 

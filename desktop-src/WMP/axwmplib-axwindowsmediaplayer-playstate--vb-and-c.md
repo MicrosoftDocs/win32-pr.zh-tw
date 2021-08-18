@@ -1,6 +1,6 @@
 ---
 title: AxWindowsMediaPlayer. playState 屬性
-description: PlayState 屬性會取得列舉值，指出 Windows Media Player 作業的狀態。
+description: playState 屬性會取得列舉值，指出 Windows Media Player 作業的狀態。
 ms.assetid: ab9f1547-5c28-4289-beaf-9262f7f59b07
 keywords:
 - playState 屬性 Windows Media Player
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d397c65c1cfd7f4adb040cc94e208a66c6c42d1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbd6d5ecbd4914864d812125143b1c5b6c0ae0d470b2c3951c060aacd3627ff2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119378178"
 ---
 # <a name="axwindowsmediaplayerplaystate-property"></a>AxWindowsMediaPlayer. playState 屬性
 
-PlayState 屬性會取得列舉值，指出 Windows Media Player 作業的狀態。
+playState 屬性會取得列舉值，指出 Windows Media Player 作業的狀態。
 
 這個屬性是唯讀的。
 
@@ -109,7 +109,7 @@ End If
 [**AxWindowsMediaPlayer 物件 (VB 和 c # )**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
-[**AxWindowsMediaPlayer PlayStateChange 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-playstatechange.md)
+[**AxWindowsMediaPlayer. PlayStateChange 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-playstatechange.md)
 </dt> <dt>
 
 [**WMPPlayState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaystate)

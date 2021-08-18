@@ -4,12 +4,12 @@ ms.assetid: 74a45220-449a-4d89-a979-a206e5e3d3ad
 title: COM + 物件共用概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fb2aa6481b2493371801d0d274420d356b0a32e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 836dd6f29c2f0bd120843a1a93763d46cb51224966f255251f7e3bfb4c7fa66a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129140"
 ---
 # <a name="com-object-pooling-concepts"></a>COM + 物件共用概念
 

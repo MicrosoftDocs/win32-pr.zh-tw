@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef72b6b0f0ede0954a6fc74030a9f0f1d4976935
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7303f06967d26276c7b43e06109cd9b37d664b960946afdffbb4f6a5a7c18821
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137781"
 ---
 # <a name="explicitlogon-method-of-the-win32_tslogonsetting-class"></a>Win32 TSLogonSetting 類別的 ExplicitLogon 方法 \_
 

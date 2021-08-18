@@ -4,12 +4,12 @@ ms.assetid: 2219d037-8480-4c36-b04e-0c23406a2e7e
 title: 複製到 (Direct3D 9) 的表面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 163907aada5b2396a2a103d94af49d7ddd01d5ef
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6e28a8518f0792948af7aabda269fffe9679de2c6fc704ee93e2cf05381176b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989288"
 ---
 # <a name="copying-to-surfaces-direct3d-9"></a>複製到 (Direct3D 9) 的表面
 

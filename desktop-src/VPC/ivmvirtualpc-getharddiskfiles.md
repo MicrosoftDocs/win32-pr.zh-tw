@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4162ae2667d389b445f44973c89a60fafd4c772
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 902cd124db27ae65b8f589ded8b2b3188a7e0df67b0ff20071abd04daf5ab894
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136571"
 ---
 # <a name="ivmvirtualpcgetharddiskfiles-method"></a>IVMVirtualPC：： GetHardDiskFiles 方法
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 捕獲已知虛擬硬碟檔案的陣列。
 
@@ -65,7 +65,7 @@ HRESULT GetHardDiskFiles(
 
 
 
-| 傳回碼/值                                                                                                                                                                        | Description                                                                                     |
+| 傳回碼/值                                                                                                                                                                        | 描述                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0</dt> </dl>                                              | 作業成功。<br/>                                                        |
 | <dl> <dt>**E \_指標**</dt><dt>且顯示 0x80004003</dt> </dl>                                | *OutHardDiskFileList* 參數為 **Null**。<br/>                                     |
@@ -87,7 +87,7 @@ HRESULT GetHardDiskFiles(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

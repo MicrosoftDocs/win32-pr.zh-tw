@@ -7,12 +7,12 @@ keywords:
 - 工作專案工作排程器，建立工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b4e0f05e76ea54b57a101e31515fe089c5f445c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fc6d0e0d216c5aaccee6a51cbac939b2b3bfa421338e12d66ffdd3b8cf055862
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139581"
 ---
 # <a name="creating-a-task-using-newworkitem-example"></a>使用 NewWorkItem 範例建立工作
 
@@ -21,12 +21,12 @@ ms.locfileid: "104315820"
 > [!Note]  
 > 您也可以藉由呼叫 [**ITaskScheduler：： azuretasks**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-addworkitem)來建立工作。 當您採用此路由時，您必須負責建立 **(的工作物件實例** ，以支援 [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) 介面) 然後使用您提供的名稱來新增工作。
 
- 
+ 
 
 > [!Note]  
-> 依預設，只有 Administrators、Backup Operators 或 Server Operators 群組的成員可以在 Windows Server 2003 上建立工作。 Administrators 群組的成員可以變更 Windows 工作資料夾的安全描述項， \\ 讓其他人可以建立工作。
+> 依預設，只有 Administrators、Backup Operators 或 Server Operators 群組的成員可以在 Windows Server 2003 上建立工作。 Administrators 群組的成員可以變更 Windows 工作資料夾的安全描述項 \\ ，讓其他人可以建立工作。
 
- 
+ 
 
 您為工作提供的名稱在 [排程工作] 資料夾中必須是唯一的。 如果已經存在具有相同名稱的工作， [**ITaskScheduler：： NewWorkItem**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-newworkitem) 會傳回錯誤 \_ 檔案 \_ 。 如果您收到此傳回值，您應該指定不同的名稱，然後再次嘗試建立工作。
 
@@ -47,7 +47,7 @@ ms.locfileid: "104315820"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,6 +56,6 @@ ms.locfileid: "104315820"
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

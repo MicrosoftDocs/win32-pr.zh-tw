@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 888a2f5cf0b389f4c33a5ea68a65b2dccb131c4e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: df5080032d771b32cd4044de18b4bf74f680f9cc73c2b475211bed9de04714cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119219778"
 ---
 # <a name="wmmediaisfinale"></a>WM/MediaIsFinale
 
@@ -42,9 +42,9 @@ g \_ wszWMMediaIsFinale
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

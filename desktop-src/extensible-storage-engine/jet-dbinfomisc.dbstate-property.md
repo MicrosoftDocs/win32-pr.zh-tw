@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 90d1cbb9ed4418d88a2a76f9a9922305d83d3ac2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fece25cfd46154168216d197c114fa2f688855d10556aeeb925d9ba970ad9c9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980418"
 ---
 # <a name="jet_dbinfomiscdbstate-property"></a>JET_DBINFOMISC dbstate 屬性
 

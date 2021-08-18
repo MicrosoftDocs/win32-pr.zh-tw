@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 7993253e5e11c45cae3e062467db080201bc1228
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d568cc33ab2ab19ae9bbe516386b8bb5f5cf909563883ebcc90ef4593cc2f14a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119385708"
 ---
 # <a name="rgbfromimecolorstyle-function"></a>RGBFromIMEColorStyle 函式
 

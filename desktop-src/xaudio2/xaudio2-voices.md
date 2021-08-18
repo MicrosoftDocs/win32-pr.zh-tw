@@ -4,12 +4,12 @@ ms.assetid: 3a4acc03-e47a-ff33-dee8-a374051f85f6
 title: XAudio2 聲音
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b11300cea770f59485e8a78b0d30110b5469befe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b756033be5b64dbf03e3b3756902014774a53c9aebc8f41a1df1f982685cca16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025936"
 ---
 # <a name="xaudio2-voices"></a>XAudio2 聲音
 
@@ -26,7 +26,7 @@ ms.locfileid: "106980026"
 
 ## <a name="source-voices"></a>來源語音
 
-使用來源語音將音訊資料提交至 XAudio2 處理管線。 它們是 [XAudio2 音訊圖形](xaudio2-audio-graph.md)的進入點。 您必須直接或透過中繼 submix 語音，將語音資料傳送給要聽到的主控聲音。
+使用來源語音將音訊資料提交至 XAudio2 處理管線。 它們是[XAudio2 音訊 Graph](xaudio2-audio-graph.md)的進入點。 您必須直接或透過中繼 submix 語音，將語音資料傳送給要聽到的主控聲音。
 
 除了所有語音執行的動作之外，來源語音也會執行下列動作。
 

@@ -18,12 +18,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 9f384c9c9d6f0d956264b45ec8b52043ad20e897
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d2904c853510efeb379c9d590852c8f082a4644315560c4dfa5a7f51daca6ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460348"
 ---
 # <a name="setprinterdataex-function"></a>SetPrinterDataEx 函式
 
@@ -144,11 +144,11 @@ DWORD SetPrinterDataEx(
 
 | 值                                                               | 註解                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SPLREG_ALLOW_USER_MANAGEFORMS**                                | Windows XP Service Pack 2 (SP2) 和更新版本<br/> Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本<br/>                                                                                                    |
+| **SPLREG_ALLOW_USER_MANAGEFORMS**                                | WindowsXP Service Pack 2 (SP2) 和更新版本<br/> WindowsServer 2003 Service Pack 1 (SP1) 和更新版本<br/>                                                                                                    |
 | **SPLREG_BEEP_ENABLED**                                           |                                                                                                                                                                                                                                 |
 | **SPLREG_DEFAULT_SPOOL_DIRECTORY**                               |                                                                                                                                                                                                                                 |
 | **SPLREG_EVENT_LOG**                                              |                                                                                                                                                                                                                                 |
-| **SPLREG_NET_POPUP**                                              | Windows Server 2003 和更新版本不支援<br/>                                                                                                                                                                       |
+| **SPLREG_NET_POPUP**                                              | Windows Server 2003 和更新版本中不支援<br/>                                                                                                                                                                       |
 | **SPLREG_PORT_THREAD_PRIORITY_DEFAULT**                         |                                                                                                                                                                                                                                 |
 | **SPLREG_PORT_THREAD_PRIORITY**                                  |                                                                                                                                                                                                                                 |
 | **SPLREG_PRINT_DRIVER_ISOLATION_GROUPS**                        | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
@@ -157,10 +157,10 @@ DWORD SetPrinterDataEx(
 | **SPLREG_PRINT_DRIVER_ISOLATION_IDLE_TIMEOUT**                 | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
 | **SPLREG_PRINT_DRIVER_ISOLATION_EXECUTION_POLICY**             | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
 | **SPLREG_PRINT_DRIVER_ISOLATION_OVERRIDE_POLICY**              | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
-| **SPLREG_RETRY_POPUP**                                            | 在成功傳回時，如果伺服器設定為所有作業的 [重試] 快顯視窗， *.pdata* 會包含 1; 如果伺服器不會針對所有作業重試快顯視窗，則為0。<br/> Windows Server 2003 和更新版本不支援<br/> |
+| **SPLREG_RETRY_POPUP**                                            | 在成功傳回時，如果伺服器設定為所有作業的 [重試] 快顯視窗， *.pdata* 會包含 1; 如果伺服器不會針對所有作業重試快顯視窗，則為0。<br/> Windows Server 2003 和更新版本中不支援<br/> |
 | **SPLREG_SCHEDULER_THREAD_PRIORITY**                             |                                                                                                                                                                                                                                 |
 | **SPLREG_SCHEDULER_THREAD_PRIORITY_DEFAULT**                    |                                                                                                                                                                                                                                 |
-| **SPLREG_WEBSHAREMGMT**                                            | Windows Server 2003 和更新版本<br/>                                                                                                                                                                                        |
+| **SPLREG_WEBSHAREMGMT**                                            | Windows伺服器2003和更新版本<br/>                                                                                                                                                                                        |
 
 
 
@@ -198,7 +198,7 @@ DWORD SetPrinterDataEx(
 
 為了確保多工緩衝處理程式會將工作重新導向至集區中的下一個可用印表機 (當列印工作未在設定的時間) 內列印時，埠監視器必須支援 SNMP，且集區中的網路埠必須設定為「已啟用 SNMP 狀態」。 支援 SNMP 的埠監視器是標準 TCP/IP 埠監視器。
 
-在 Windows 7 和更新版本的 Windows 中，預設會在用戶端上轉譯傳送至列印伺服器的列印工作。 您可以將 *pKeyName* 設定為 "PrinterDriverData"，並 *pValueName* 至下表中的設定值，來設定列印工作的用戶端轉譯。
+在 Windows 7 和更新版本的 Windows 中，傳送至列印伺服器的列印工作預設會在用戶端上呈現。 您可以將 *pKeyName* 設定為 "PrinterDriverData"，並 *pValueName* 至下表中的設定值，來設定列印工作的用戶端轉譯。
 
 
 
@@ -219,7 +219,7 @@ DWORD SetPrinterDataEx(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **SetPrinterDataExW** (Unicode) 和 **SetPrinterDataExA** (ANSI) <br/>                               |

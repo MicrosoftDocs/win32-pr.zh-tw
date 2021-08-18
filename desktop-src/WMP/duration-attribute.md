@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb50e57a58eb1a2343230fd91757de1aa09901ff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a4136f6abc72be2bda03873bf8d9ecfa74076c3fdb0b46c5c218e937283da26a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996938"
 ---
 # <a name="duration-attribute"></a>Duration 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106982703"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案](commonly-used-windows-media-file-attributes.md)
 -   [其他專案](other-item-attributes.md)
 -   [影片專案](video-item-attributes.md)
 
@@ -34,7 +34,7 @@ ms.locfileid: "106982703"
 
 這個屬性會儲存在文件庫和數位媒體檔案中。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMDuration。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMDuration。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

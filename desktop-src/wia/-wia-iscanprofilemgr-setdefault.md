@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofilemgr.h
-ms.openlocfilehash: 3a7c32f246bcafc8ff7ce55e8c6f34ea45553a95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd7b46241e967e02083c344aa7f3f77a773c72b02ff74b225910788d498fe252
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965787"
 ---
 # <a name="iscanprofilemgrsetdefault-method"></a>IScanProfileMgr：： SetDefault 方法
 
@@ -42,7 +42,7 @@ HRESULT SetDefault(
 *pScanProfile* \[在\]
 </dt> <dd>
 
-類型： **[**IScanProfile**](-wia-iscanprofile.md) \** _
+類型： **[ **IScanProfile**](-wia-iscanprofile.md)\***
 
 設定檔的指標。
 
@@ -50,7 +50,7 @@ HRESULT SetDefault(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -66,10 +66,10 @@ HRESULT SetDefault(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Scanprofilemgr。h</dt> </dl> |
-| Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 
 
 

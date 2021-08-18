@@ -4,12 +4,12 @@ ms.assetid: 65585bd6-da54-43d5-a5cf-7b7f0a9ea0f5
 title: 時間與日期
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b6afcd6c7788a974c0e632b2dd82b852643d336
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fb76eec66fa741b5f65f09cb5a35fd2bec36dc303732844f1155c07c3540be4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383318"
 ---
 # <a name="time-and-date"></a>時間與日期
 

@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4d873b17f0bf0ea123d988d281c0cab728dd50f2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4864e3787b00ca72f90d0c6d15c35049abd58acd04c3d221aa29436d8885a652
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080252"
 ---
 # <a name="cim_videobioselement-class"></a>CIM \_ VideoBIOSElement 類別
 
@@ -631,7 +631,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3。x
+Windows3.x
 
 </dd> <dt>
 

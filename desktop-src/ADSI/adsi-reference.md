@@ -7,12 +7,12 @@ keywords:
 - ADSI ADSI，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 297ad58d3cf5cd297a206220b5f5cf75ab5716ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78489f2d7771b625d996328039711853df6495c08de5d321429acdbf976bf553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106964952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023736"
 ---
 # <a name="active-directory-service-interfaces-reference"></a>Active Directory 服務介面參考
 
@@ -27,9 +27,9 @@ ms.locfileid: "106964952"
 -   [錯誤碼](adsi-error-codes.md)
 -   [擴充的錯誤訊息](adsi-extended-error-messages.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 928b1863-7a54-4bf0-b447-85b8c2868bcd
 title: 手動工作階段金鑰交換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0114f8173084126a72519d291158f15f3e1c171
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38c9f7338b40ed1675b2186e478c8c124719b376889ce691d305e246016e0d9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425590"
 ---
 # <a name="manual-session-key-exchanges"></a>手動工作階段金鑰交換
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: bd43217bca6da65f62c9c49adf4c363c44ed5406
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: c5a4d352d423aeff23c0ad69703865fe1f224d07d349b9385ab1475c31e6eeda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "107001256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107767"
 ---
 # <a name="jet_lstostring-method-overload-list"></a>JET_LS。ToString 方法多載清單
 

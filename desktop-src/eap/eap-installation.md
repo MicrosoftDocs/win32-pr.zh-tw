@@ -4,12 +4,12 @@ description: 廠商會在動態連結程式庫中執行 EAPs，也稱為驗證�
 ms.assetid: af10b1e9-45c9-4640-ba79-fc9c23cc3c47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 619505a55108ebde0e14d7ff20c78394c6c90fad
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: f9a790f4282ef2658bacdd7f25be647234c3cf32d62ca80e8ce2745da3f4f738
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104373987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984448"
 ---
 # <a name="eap-installation"></a>EAP 安裝
 
@@ -25,9 +25,9 @@ ms.locfileid: "104373987"
 
 如需此機碼支援值的詳細資訊和描述，請參閱 [驗證通訊協定登錄值](authentication-protocol-registry-values.md)。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ keywords:
 - 取得連結識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6893baab780d7fb481de0af77a607e988c3f87a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 1800448e8cc665e0a28a88800a592e33d7b6ee5a766743d8a681a121c5ad02c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025556"
 ---
 # <a name="obtaining-a-link-id"></a>取得連結識別碼
 
@@ -23,7 +23,7 @@ ms.locfileid: "104092631"
 > [!Note]  
 > 此範例中的 Oid 是假設。 如需取得新屬性之 Oid 的指示，請參閱 [從 Microsoft 取得物件識別碼](obtaining-an-object-identifier-from-microsoft.md) 。
 
- 
+ 
 
 1.  在要作為轉寄連結的屬性上，設定這些屬性：
     ```C++
@@ -51,9 +51,9 @@ ms.locfileid: "104092631"
 [連結屬性](linked-attributes.md)
 </dt> <dt>
 
-[如何延伸架構](how-to-extend-the-schema.md)
+[如何延伸架構](how-to-extend-the-schema.md) (機器翻譯)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

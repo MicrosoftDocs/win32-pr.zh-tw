@@ -3,7 +3,7 @@ title: 'LB_GETITEMDATA 訊息 (Winuser .h) '
 description: 取得與指定清單方塊專案相關聯的應用程式定義值。
 ms.assetid: 3a3f7fa5-ce04-4e95-86e1-5c7de796d1b6
 keywords:
-- LB_GETITEMDATA message Windows 控制項
+- LB_GETITEMDATA 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80da838828cad7354aaa244f2218e8f9a8346755
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1bbfdb091fb98c0cf448af1cf5f554f7d0db2b03f53826154f7d62f2f6b27b62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019336"
 ---
 # <a name="lb_getitemdata-message"></a>LB \_ GETITEMDATA 訊息
 
@@ -55,9 +55,9 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *wParam* 參�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

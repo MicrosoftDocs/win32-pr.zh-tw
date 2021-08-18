@@ -4,12 +4,12 @@ ms.assetid: 9b1e3f3f-bfc0-4099-b699-af56019055e6
 title: API 中的 gethostbyaddr 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c04141d65161831a60ec663f0dee4a9647792ff6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cac84d30ba919a4fc61456d5ca4772c12df786d89241e8249b57068b9aac3f7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132321"
 ---
 # <a name="gethostbyaddr-function-in-the-api"></a>API 中的 gethostbyaddr 函式
 
@@ -28,7 +28,7 @@ ms.locfileid: "106999856"
 
 <dl> <dt>
 
-[Windows 通訊端 1.1 API 中 TCP/IP 的相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
+[Windows 通訊端 1.1 API 中的 tcp/ip 相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
 </dt> <dt>
 
 [通訊協定獨立名稱解析](protocol-independent-name-resolution-2.md)

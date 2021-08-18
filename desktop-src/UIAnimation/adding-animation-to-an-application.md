@@ -1,23 +1,23 @@
 ---
 title: 建立主要動畫物件
-description: 若要在您的應用程式中使用 Windows 動畫，第一個步驟就是建立一組小型的主要動畫物件。
+description: 若要在您的應用程式中使用 Windows 動畫，第一個步驟是建立一組小型的主要動畫物件。
 ms.assetid: 4005819e-482c-4052-89f8-b8e457c0c3dc
 keywords:
-- 動畫管理員物件視窗動畫，建立
-- 動畫計時器物件視窗動畫，建立
-- 轉換程式庫物件視窗動畫，建立
+- 動畫管理員物件 Windows 動畫，建立
+- 動畫計時器物件 Windows 動畫，建立
+- 轉換程式庫物件 Windows 動畫，建立
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ccd1cab32e72bf1382469ada52abeecee47b6a1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b3023e5934581850bb6aa21e7d41d92642bb01fadfcf7531fcacabca74b411f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137401"
 ---
 # <a name="create-the-main-animation-objects"></a>建立主要動畫物件
 
-若要在您的應用程式中使用 Windows 動畫，第一個步驟就是建立一組小型的主要動畫物件。
+若要在您的應用程式中使用 Windows 動畫，第一個步驟是建立一組小型的主要動畫物件。
 
 ## <a name="overview"></a>概觀
 
@@ -27,7 +27,7 @@ ms.locfileid: "104376256"
 
 ## <a name="example-code"></a>範例程式碼
 
-下列範例程式碼取自 Windows 動畫範例中的 MainWindow：請參閱 CMainWindow：： InitializeAnimation 方法。
+下列範例程式碼取自 Windows 動畫範例中的 MainWindow。請參閱 CMainWindow：： InitializeAnimation 方法。
 
 
 ```C++
@@ -117,9 +117,9 @@ private:
 [**IUIAnimationTransitionLibrary**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionlibrary)
 </dt> <dt>
 
-[Windows 動畫總覽](scenic-animation-api-overview.md)
+[Windows動畫總覽](scenic-animation-api-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

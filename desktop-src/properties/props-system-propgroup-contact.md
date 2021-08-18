@@ -4,18 +4,18 @@ ms.assetid: fbeef429-e5e0-4fa4-9402-72e421ef4cbc
 title: PropGroup。連絡人
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdfca8ad6a0c9409367fb8b9f74252dd15855c34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ffe5fe6d5d334007a7aa37dabe4200cb4238e5ef5210cf4c4ca86fda82ec0ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095810"
 ---
 # <a name="systempropgroupcontact"></a>PropGroup。連絡人
 
 屬性清單中所使用的屬性群組分隔符號，用來分隔其他類型的連絡人。 請勿使用這個屬性來取得或設定值。 這個屬性僅供標記之用。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

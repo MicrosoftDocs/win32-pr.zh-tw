@@ -4,12 +4,12 @@ description: 標記提供者
 ms.assetid: 4d4820d2-bf5f-4543-b318-59481dcc51de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde584e12daddacbc940b23b21a0386aa37de2c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b8fab6c5a84d7020b8bcb02979471cb2fbd76df7e66fc9909eec2121926827df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130100"
 ---
 # <a name="moniker-providers"></a>標記提供者
 
@@ -30,9 +30,9 @@ ms.locfileid: "103673100"
 [OLE 標記執行](ole-moniker-implementations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

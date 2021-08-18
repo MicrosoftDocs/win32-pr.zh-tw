@@ -4,12 +4,12 @@ ms.assetid: 4ca9a845-f433-4d4a-939e-4b9ab2983927
 title: " (Direct3D 9 中翻轉表面) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dafd263de0f907b33ff6f20ffcbb2cce69943da
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 30c14aa7df63c3956d4974282033b44a7129853940d475b23115f9bca344ca4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988031"
 ---
 # <a name="flipping-surfaces-direct3d-9"></a> (Direct3D 9 中翻轉表面) 
 

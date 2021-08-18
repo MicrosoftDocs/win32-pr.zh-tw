@@ -4,12 +4,12 @@ ms.assetid: 79c4d2c9-953e-4e68-98b7-6a0dd9a04e0b
 title: 電話語音應用程式設計介面版本3。1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31d302f6ffe67094d436caf94cc8cf109e1e3c9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b529c8d566d2c99dc851f99886eb6a132d434a2c56027ba7abcd2e07b5f144b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139881"
 ---
 # <a name="telephony-application-programming-interface-version-31"></a>電話語音應用程式設計介面版本3。1
 
@@ -31,11 +31,11 @@ Microsoft 電話語音應用程式開發介面 (TAPI) 3.1 版是一種元件物�
 
 ## <a name="developer-audience"></a>開發人員對象
 
-您可以用多種語言撰寫啟用 TAPI 的應用程式，包括 JAVA、Visual Basic 和 C/c + +。 需要熟悉 COM。 電信或其他電話語音應用程式的開發經驗很有説明，但並非必要。
+您可以用多種語言撰寫啟用 TAPI 的應用程式，包括 JAVA、Visual Basic 和 c/c + +。 需要熟悉 COM。 電信或其他電話語音應用程式的開發經驗很有説明，但並非必要。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-TAPI 3.1 版可讓您開發適用于 Windows Server 2003 作業系統、Windows XP 及 Windows 2000 的通訊應用程式。
+TAPI 3.1 版可讓您開發 Windows Server 2003 作業系統、Windows XP 和 Windows 2000 的通訊應用程式。
 
 ## <a name="in-this-section"></a>本節內容
 

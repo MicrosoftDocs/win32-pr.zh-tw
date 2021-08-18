@@ -4,21 +4,21 @@ description: 關於自訂檔案和串流處理常式
 ms.assetid: 6a00c8db-3ac6-4826-a373-52b6b7d1652f
 keywords:
 - Windows (VFW) 自訂檔案處理常式的影片
-- Windows (VFW) 、自訂串流處理常式的影片
+- Windows (VFW) 自訂串流處理常式的影片
 - Windows (VFW) 的影片，檔處理常式
-- 適用于 Windows (VFW) 、串流處理常式的影片
+- Windows (VFW) 、串流處理常式的影片
 - 適用于 Windows) 、自訂檔案處理常式的 VFW (影片
 - 適用于 Windows) 、自訂串流處理常式的 VFW (影片
-- 適用于 Windows) 的 VFW (影片，檔處理常式
+- 適用于 Windows) 、檔案處理常式的 VFW (影片
 - 適用于 Windows) 、串流處理常式的 VFW (影片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94e1872aa8a2f5c55df0db43860e318c792801e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 719c5312c5ba1e783e0cd4cdb81565f66241e4662772ca441283571f0335fb31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145153"
 ---
 # <a name="about-custom-file-and-stream-handlers"></a>關於自訂檔案和串流處理常式
 
@@ -29,11 +29,11 @@ ms.locfileid: "103840800"
 > [!Note]  
 > 您必須將自訂資料流程和檔案處理常式放在一或多個 Dll 中，並與主要應用程式檔分開。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: IAccessible 屬性可讓伺服器開發人員描述各種不同的�
 ms.assetid: c51fd8a1-dc23-4d64-8921-e0a795c3ffb8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47c88a808889403f88d414f7ad950b3e431c00e1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 76a3c9ef5d56c6d963a05ac84b5e2cacafde488c377ebcc73fa1e2c4be1adab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133961"
 ---
 # <a name="choosing-which-properties-to-support"></a>選擇要支援的屬性
 
@@ -17,7 +17,7 @@ ms.locfileid: "104301339"
 
 伺服器必須針對每個物件支援下列屬性和方法：
 
--   [**Name**](name-property.md)
+-   [**名稱**](name-property.md)
 -   [**角色**](role-property.md)
 -   [**狀態**](state-property.md)
 -   [**Location**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation)和 [ **IAccessible：： accHitTest**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest)
@@ -37,12 +37,12 @@ ms.locfileid: "104301339"
 
 -   [**描述**](description-property.md)
 -   [**DefaultAction**](defaultaction-property.md)和 [ **IAccessible：： accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction)
--   [**Help**](help-property.md)
+-   [**説明**](help-property.md)
 -   [**HelpTopic**](helptopic-property.md)
 
- 
+ 
 
- 
+ 
 
 
 

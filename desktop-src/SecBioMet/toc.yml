@@ -46,7 +46,7 @@
           href: private-pool-helper-functions.md
         - name: 建立用戶端應用程式
           href: creating-client-applications.md
-    - name: Windows 生物特徵辨識架構 API 參考
+    - name: Windows生物特徵辨識架構 API 參考
       href: biometric-service-api-reference.md
       items:
         - name: 用戶端應用程式參考

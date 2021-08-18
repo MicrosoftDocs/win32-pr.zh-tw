@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c9e3b251ef81a6fab43d4973a8148c78f312ca1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 315aec73a718d1fce1e0e037bf9236e3243d7d5c644d78caf8470a2b7854c9c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119421708"
 ---
 # <a name="win32_terminalterminalsetting-class"></a>Win32 \_ TerminalTerminalSetting 類別
 

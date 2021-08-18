@@ -4,12 +4,12 @@ ms.assetid: ab226567-f68d-4fa4-9ead-e9bfabde927e
 title: 組合字元串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e5cb63163ca9a8076edc4d01053e4baeffc619c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05a547b4383c95b99025b779de2950c8325af56a3397603db10199474dfe20ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430988"
 ---
 # <a name="composition-string"></a>組合字元串
 

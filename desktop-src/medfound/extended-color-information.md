@@ -4,12 +4,12 @@ ms.assetid: 05ca73c6-d105-47bc-96bc-b784f669febe
 title: 擴充的色彩資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29ba43180a0f1e5253540088c1638f59d52380c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07ffce83acccd2004156d55c0711836271d9ad5cfe7a6ac395e0d9fcbb418142
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119466368"
 ---
 # <a name="extended-color-information"></a>擴充的色彩資訊
 
@@ -17,7 +17,7 @@ ms.locfileid: "103689299"
 
 答案可能會令人驚訝：沒有一些額外的資訊，這三種情況不會定義任何特定的色彩！ 任何 RGB 值的意義取決於 *色彩空間*。 如果我們不知道色彩空間，請嚴格說，我們不知道色彩。
 
-色彩空間會定義指定色彩值的數值標記法如何以實體光線的形式重現。 當影片編碼于一個色彩空間中，但顯示于另一個色彩空間時，除非影片經過色彩校正，否則會產生失真的色彩。 因此，若要達到精確的色彩精確度，請務必知道來源影片的色彩空間。 在過去，Windows 中的影片管線並未包含預期色彩空間的相關資訊。 從 Windows Vista 開始，DirectShow 和媒體基礎都支援媒體類型中的擴充色彩資訊。 這項資訊也適用于 DirectX Video 加速 (DXVA) 。
+色彩空間會定義指定色彩值的數值標記法如何以實體光線的形式重現。 當影片編碼于一個色彩空間中，但顯示于另一個色彩空間時，除非影片經過色彩校正，否則會產生失真的色彩。 因此，若要達到精確的色彩精確度，請務必知道來源影片的色彩空間。 之前，Windows 中的影片管線並未包含預期色彩空間的相關資訊。 從 Windows Vista 開始，DirectShow 和媒體基礎都支援媒體類型中的擴充色彩資訊。 這項資訊也適用于 DirectX Video 加速 (DXVA) 。
 
 以數學方式描述色彩空間的標準方式是使用 CIE 的 XYZ 色彩空間，其定義依據照明的國際委員會 (CIE) 。 在影片中直接使用 CIE XYZ 值並不實用，但 CIE XYZ 色彩空間可做為在色彩空間之間轉換時的中繼標記法。
 
@@ -32,11 +32,11 @@ ms.locfileid: "103689299"
 
 ## <a name="color-space-in-media-types"></a>媒體類型中的色彩空間
 
-DirectShow、媒體基礎和 DirectX Video 加速 (DXVA) 都有不同的方式來表示影片格式。 幸運的是，由於相關列舉相同，因此很容易就能將色彩空間資訊從一個轉換成另一個。
+DirectShow、媒體基礎和 DirectX Video 加速 (DXVA) 全部都有不同的方式來表示影片格式。 幸運的是，由於相關列舉相同，因此很容易就能將色彩空間資訊從一個轉換成另一個。
 
 -   DXVA 1.0： [**DXVA \_ ExtendedFormat**](/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) 結構中提供了色彩空間資訊。
 -   DXVA 2.0： [**DXVA2 \_ ExtendedFormat**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat) 結構結構中提供了色彩空間資訊。 此結構與 DXVA 1.0 結構相同，而且欄位的意義相同。
--   DirectShow： [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) 結構中提供色彩空間資訊。 這項資訊會儲存在 **dwControlFlags** 欄位的最高24位。 如果有色彩空間資訊，請在 **dwControlFlags** 中設定 **AMCONTROL \_ COLORINFO \_ 目前** 旗標。 當設定這個旗標時， **dwControlFlags** 欄位應該被解釋為 [**DXVA \_ ExtendedFormat**](/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) 結構，但結構的較低8個位會保留給 **AMCONTROL \_ xxx** 旗標。
+-   DirectShow： [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2)結構中提供色彩空間資訊。 這項資訊會儲存在 **dwControlFlags** 欄位的最高24位。 如果有色彩空間資訊，請在 **dwControlFlags** 中設定 **AMCONTROL \_ COLORINFO \_ 目前** 旗標。 當設定這個旗標時， **dwControlFlags** 欄位應該被解釋為 [**DXVA \_ ExtendedFormat**](/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) 結構，但結構的較低8個位會保留給 **AMCONTROL \_ xxx** 旗標。
 -   影片捕獲驅動程式：在 [**KS \_ VIDEOINFOHEADER2**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2) 結構中提供色彩空間資訊。 此結構與 [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) 結構相同，而且欄位的意義相同。
 -   媒體基礎：色彩空間資訊會以屬性的形式儲存在媒體類型中：
 

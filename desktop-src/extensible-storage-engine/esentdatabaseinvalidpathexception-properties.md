@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101516
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 082d2a1dcfc4a3d470700b810286d690f02bbc26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8b72163300ee8ffedb6d9fce70e9a4ec57b3ced35b08f96b64f804797c2afbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116208"
 ---
 # <a name="esentdatabaseinvalidpathexception-properties"></a>EsentDatabaseInvalidPathException 屬性
 

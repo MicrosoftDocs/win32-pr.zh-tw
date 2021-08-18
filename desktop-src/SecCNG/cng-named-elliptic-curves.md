@@ -1,19 +1,19 @@
 ---
-description: 從 Windows 10 開始，CNG 提供下列命名橢圓曲線的支援 (ANSI X x9.62、X 9.63、FIPS 186-2) 。
+description: 從 Windows 10 開始，CNG 提供下列命名橢圓曲線的支援 (ANSI x x9.62、x 9.63、FIPS 186-2) 。
 ms.assetid: 0607E8C3-6372-47E1-B16F-EF156D5EBA7D
 title: CNG 命名橢圓曲線 (Bcrypt.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35092d463e6f83917d231a87659e690ffeb59fe3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 691f1211b56abc41d622d20857653723be37681014a9bf72b91c1384c8f4b8cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908249"
 ---
 # <a name="cng-named-elliptic-curves"></a>CNG 命名橢圓曲線
 
-從 Windows 10 開始，CNG 提供下列命名橢圓曲線的支援 (ANSI X x9.62、X 9.63、FIPS 186-2) 。
+從 Windows 10 開始，CNG 提供下列命名橢圓曲線的支援 (ANSI x x9.62、x 9.63、FIPS 186-2) 。
 
 <dl> <dt><span id="BCRYPT_ECC_CURVE_25519"></span><span id="bcrypt_ecc_curve_25519"></span>**BCRYPT \_ ECC \_ 曲線 \_ 25519**</dt> <dd> <dl> <dt> 
 
@@ -658,8 +658,8 @@ ms.locfileid: "103847718"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Bcrypt。h</dt> </dl> |
 
 

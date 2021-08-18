@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ab399ce08374a954b3bbc015cfee7b4d20167b70
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e2c2b2329884b22eecdc00a629abb8d05bc87435ce06d35e51907cb4095c8fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020086"
 ---
 # <a name="win32_privilegesstatus-class-cimwin32-wmi-providers"></a>Win32_PrivilegesStatus 類別 (CIMWin32 WMI 提供者) 
 
@@ -86,7 +86,7 @@ class Win32_PrivilegesStatus : __ExtendedStatus
 存取類型：唯讀
 </dt> </dl>
 
-發生失敗或異常時所發生的作業。 一般來說，Windows Management Instrumentation (WMI) 會將這個屬性設定為 WMI 方法的 COM API 名稱，如下所示： [**IWbemServices：： CreateInstanceEnum**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenum)。
+發生失敗或異常時所發生的作業。 一般來說，Windows Management Instrumentation (wmi) 會將這個屬性設定為 wmi 方法的 COM API 名稱，如下所示： [**IWbemServices：： CreateInstanceEnum**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenum)。
 
 這個屬性繼承自 [**\_ \_ ExtendedStatus**](../wmisdk/--extendedstatus.md)。
 

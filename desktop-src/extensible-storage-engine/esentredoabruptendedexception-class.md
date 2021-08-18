@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 436a03d5775c4d4bec405566c98280a3250e9196
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78e29f61bae90e35439d78c607f3b87355156d5e14d743660951e8f794dbaa26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982018"
 ---
 # <a name="esentredoabruptendedexception-class"></a>EsentRedoAbruptEndedException 類別
 

@@ -3,8 +3,8 @@ title: DRM 的個人化範例
 description: DRM 的個人化範例
 ms.assetid: 665a5005-d435-4783-b48e-2d8400aa7638
 keywords:
-- Windows Media Format SDK，DRM 的個人化
-- Windows Media Format SDK，個人化
+- Windows媒體格式 SDK，DRM 的個人化
+- Windows媒體格式 SDK，個人化
 - 數位版權管理 (DRM) 、個人化
 - DRM (數位版權管理) 、個人化
 - 數位版權管理 (DRM) ，DRM 的個人化
@@ -13,12 +13,12 @@ keywords:
 - 用戶端擴充 Api，個人化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1252fe951e306f837f2df95245b3cfc81dac03c2
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 4eeb13f44eaa5fe3a3d67560d6fa7bb1e39250842ba0707ef62969b91fb50d47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104374685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085997"
 ---
 # <a name="drm-individualization-example"></a>DRM 的個人化範例
 
@@ -181,9 +181,9 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
 [**使用媒體基礎事件模型**](using-the-media-foundation-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

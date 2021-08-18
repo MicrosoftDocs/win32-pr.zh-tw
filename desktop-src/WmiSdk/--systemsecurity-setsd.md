@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: 21f09a412a662cec8629fa9237d8dbb5902426c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04da59b6370e2e9a381f2e3889b75ac37cb926e54c46cc0e616ec5353ed6f665
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132031"
 ---
 # <a name="setsd-method-of-the-__systemsecurity-class"></a>\_ \_ SystemSecurity 類別的 SetSD 方法
 
@@ -58,7 +58,7 @@ HRESULT SetSD(
 
 ## <a name="return-value"></a>傳回值
 
-傳回 **HRESULT** ，指出方法呼叫的狀態。 針對編寫腳本和 Visual Basic 應用程式，可以從 OutParameters 取得結果 [ReturnValue](parsing-outparameters-objects.md)。 如需詳細資訊，請參閱 [建立 InParameters 物件和剖析 OutParameters 物件](constructing-inparameters-objects-and-parsing-outparameters-objects.md)。
+傳回 **HRESULT** ，指出方法呼叫的狀態。 針對編寫腳本和 Visual Basic 應用程式，可以從 OutParameters 取得結果[ReturnValue](parsing-outparameters-objects.md)。 如需詳細資訊，請參閱 [建立 InParameters 物件和剖析 OutParameters 物件](constructing-inparameters-objects-and-parsing-outparameters-objects.md)。
 
 下列清單列出對 **SetSD** 很重要的傳回值。
 

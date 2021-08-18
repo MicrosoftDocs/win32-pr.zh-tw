@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: effe4819c674a7909cc445b9e9f7b5322fae7676
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
-ms.translationtype: HT
+ms.openlocfilehash: a23c45ea5f21667bde6817469bce43e8f7e9a0a41d8b62b016e739abb744b53c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104195702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985778"
 ---
 # <a name="texture2dmsarray"></a>Texture2DMSArray
 
@@ -55,7 +55,7 @@ Texture2DMSArray 類型 (存在於著色器模型 4) 加上資源變數中。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

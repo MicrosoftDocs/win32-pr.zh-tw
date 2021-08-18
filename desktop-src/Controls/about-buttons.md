@@ -4,12 +4,12 @@ description: 按鈕是控制項，可讓使用者按一下以提供應用程式�
 ms.assetid: 849FFD6B-8CB6-44FA-92EB-35BFA537FB75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bf86b14893c9cf7c90138bcbd4219751d679b01
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6a81e17b87c625fade08b9f872c4592ab05e48675b7a5fcf2c19ce95534cda2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079444"
 ---
 # <a name="about-buttons"></a>關於按鈕
 

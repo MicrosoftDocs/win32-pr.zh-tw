@@ -4,17 +4,17 @@ description: 本主題討論 Microsoft DirectComposition 動畫的基本概念�
 ms.assetid: 65DA3971-97C0-4B59-BC67-287AAEAAE340
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f7462a10fd83b45c1b90450fdde806ef306a2f6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 75b1f021d5a11fac70f47d5fe87f9389d2ad3e3108d224835fb295a8c3216354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106965461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119127"
 ---
 # <a name="animation-directcomposition"></a>動畫 (DirectComposition) 
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題討論 Microsoft DirectComposition 動畫的基本概念。 它包含下列主題：
 
@@ -35,7 +35,7 @@ ms.locfileid: "106965461"
 
 下表說明一些使用動畫的典型方式。
 
-| 動畫                 | Description                                                                                                                                                                                                                                          |
+| 動畫                 | 描述                                                                                                                                                                                                                                          |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 捲動                 | 使用動畫將功能（例如物理模擬動力）新增至滾動清單控制項。                                                                                                                                                           |
 | 場景轉換         | 使用動畫來建立導覽場景轉換，以提供工作流程中工作之間的持續性。 導覽場景轉換會提供內容，顯示使用者的位置、位置，以及接下來需要前往的位置。 |
@@ -115,9 +115,9 @@ DirectComposition 會根據您定義的動畫函式，將物件屬性動畫。 *
 
 ## <a name="compatibility-with-windows-animation-manager"></a>與 Windows 動畫管理員的相容性
 
-Windows 動畫管理員 (Windows 動畫) 以與 DirectComposition API 相容的格式輸出動畫基本專案。 這表示 DirectComposition 可以根據 Windows 動畫建立的動畫基本專案來建立動畫。
+Windows動畫管理員 (Windows 動畫) 以與 DirectComposition API 相容的格式輸出動畫基本專案。 這表示 DirectComposition 可以根據 Windows 動畫所建立的動畫基本專案來建立動畫。
 
-如需詳細資訊，請參閱 [Windows 動畫管理員](/windows/desktop/UIAnimation/-main-portal)、 [**IUIAnimationVariable2：： GetCurve**](/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve) 方法，以及 [使用 Windows 動畫管理員 v2 管理 DirectComposition 動畫](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager)。
+如需詳細資訊，請參閱 [Windows 動畫管理員](/windows/desktop/UIAnimation/-main-portal)、 [**IUIAnimationVariable2：： GetCurve**](/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve)方法，以及 [使用 Windows 動畫管理員 v2 來管理 DirectComposition 動畫](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager)。
 
 ## <a name="related-topics"></a>相關主題
 

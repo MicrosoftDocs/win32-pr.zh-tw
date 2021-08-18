@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e36030f3dd31f1bdada238e89c1048e4971cd45c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 78d0b452a387ed1d4bf750062963996d0248fa249954a99be581118560866123
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120342"
 ---
 # <a name="buffer-type"></a>緩衝區類型
 
@@ -31,7 +31,7 @@ ms.locfileid: "104023676"
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>參數
 
@@ -87,6 +87,6 @@ float4 bufferData = g_Buffer.Load( 1 );
 [ (DirectX HLSL) 的資料類型 ](dx-graphics-hlsl-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

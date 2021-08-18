@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 448c0626c0e4cf91b266a6894a021789d52955b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eacd4b6468490e1d93f0d34fa5a941faa16d2d01607b85c3fc55cd668e21a2dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982638"
 ---
 # <a name="columnvaluegetvaluefrombytes-method"></a>ColumnValue. GetValueFromBytes 方法
 
@@ -69,7 +69,7 @@ protected abstract void GetValueFromBytes(
 
 #### <a name="parameters"></a>參數
 
-  - value  
+  - 值  
     類型： \[\]  
     
     位元組陣列。

@@ -3,7 +3,7 @@ title: 'LVM_SETTILEVIEWINFO 訊息 (Commctrl .h) '
 description: 設定清單視圖控制項在並排顯示中使用的資訊。
 ms.assetid: 1c4f2aff-1ce1-484a-9360-3efbe870b39b
 keywords:
-- LVM_SETTILEVIEWINFO message Windows 控制項
+- LVM_SETTILEVIEWINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25d6c728d92bb931837eca440af679b5bcb98d1e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bf22f94ec3db661823bfb1582dd97975e41bc11d2803e4380d8f0f45afae02f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119217378"
 ---
 # <a name="lvm_settileviewinfo-message"></a>LVM \_ SETTILEVIEWINFO 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104094300"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,17 +4,17 @@ ms.assetid: 8e7d85fb-95c0-472d-ab17-a82da303b68f
 title: 'DVDNotify (區段 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b31a2974bec428cb8ffe290edc9a384445e42070
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 988deaf53fb2b50555b4cf19a38684610aa0822a270dfba079defab92ce8aec0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148701"
 ---
 # <a name="dvdnotify"></a>DVDNotify
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

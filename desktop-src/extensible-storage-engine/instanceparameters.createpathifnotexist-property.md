@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d777c7bae3c375118488105e275edba59e57cd05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cf48149548a21cc225816d307f65ac7c24bdaba4bfd090def9951e773f251c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112417"
 ---
 # <a name="instanceparameterscreatepathifnotexist-property"></a>InstanceParameters. CreatePathIfNotExist 屬性
 

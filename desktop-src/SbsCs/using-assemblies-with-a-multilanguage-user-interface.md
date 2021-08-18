@@ -4,12 +4,12 @@ ms.assetid: fcadd7e8-cab8-43cb-9c67-af8ebe0e3a5b
 title: 使用具有多語系消費者介面的元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77f501f40715dc2335f02c044aa48ada9741411d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4cd857cca0188b10f02ba44b5631895a9345ce7926cae78376edd554035ccfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141771"
 ---
 # <a name="using-assemblies-with-a-multilanguage-user-interface"></a>使用具有多語系消費者介面的元件
 

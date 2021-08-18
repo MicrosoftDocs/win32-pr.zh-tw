@@ -4,12 +4,12 @@ ms.assetid: ea0e4d7e-2598-4a42-993c-58815f2fa138
 title: 設定交易
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b57f27d47836193dc5d23c44e3344cb2a81d5984
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: a9d613eb49a5f053b869e3efc90e04b9455644ea52acbaf651f33b00909e6e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104569469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128883"
 ---
 # <a name="configuring-transactions"></a>設定交易
 
@@ -74,7 +74,7 @@ COM + 提供下列交易屬性值：
 
 | 屬性值          | 新增交易   | 用戶端的交易                 | 交易根目錄                        | JIT 啟用      | 同步處理     |
 |--------------------------|-------------------|--------------------------------------|-----------------------------------------|---------------------|---------------------|
-| Disabled<br/>      | 永不<br/>  | 可能<br/>                     | 永不<br/>                        | 選用<br/> | 選用<br/> |
+| 已停用<br/>      | 永不<br/>  | 可能<br/>                     | 永不<br/>                        | 選用<br/> | 選用<br/> |
 | 不支援<br/> | 永不<br/>  | 永不<br/>                     | 永不<br/>                        | 選用<br/> | 選用<br/> |
 | 支援<br/>     | 永不<br/>  | 如果用戶端有交易<br/> | 永不<br/>                        | 必要<br/> | 必要<br/> |
 | 必要<br/>      | 可能<br/>  | 如果用戶端有交易<br/> | 如果用戶端沒有交易<br/> | 必要<br/> | 必要<br/> |

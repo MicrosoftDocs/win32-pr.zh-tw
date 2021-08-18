@@ -4,12 +4,12 @@ ms.assetid: f40c4b62-a3f0-4e66-875e-2ef904d052e5
 title: 私用物件的安全描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97c40dc5c4e9f0a3d0e641874153d2862d038a19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bae6615f309e572dc2e22f76310ccdf84bbbf5fff504aef0331d7d8e6b60ce4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413728"
 ---
 # <a name="security-descriptors-for-private-objects"></a>私用物件的安全描述項
 

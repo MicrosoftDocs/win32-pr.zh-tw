@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b01732d1e2c653ced9eeb38ad74f33b61171ae1c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c8dd20ec3e22531a9425a2bbdde88ead1c4cf9ffe2501b7807adb019bcd6f6f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119214338"
 ---
 # <a name="cbaseinputpincbaseinputpin-destructor"></a>CBaseInputPin. ~ CBaseInputPin 的函式
 

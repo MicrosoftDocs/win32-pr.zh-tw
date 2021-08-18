@@ -6,22 +6,22 @@ keywords:
 - WinSNMP 結構 SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b263f6078171c096eb7208ae4c7ef29847aead9c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b409b6d12063ebd3feb9c663f2d607bc5ceead0462b2945334f1e7e691c9be63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142751"
 ---
 # <a name="winsnmp-structures"></a>WinSNMP 結構
 
-\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 MICROSOFT 對 ws-atomictransaction 的實。\]
+\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用[Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 Microsoft 對 ws-atomictransaction 的實。\]
 
 WinSNMP API 函數會使用下列結構。
 
 
 
-| 結構                                  | Description                                                                                                            |
+| 結構                                  | 描述                                                                                                            |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | [**smiCNTR64**](/windows/desktop/api/Winsnmp/ns-winsnmp-smicntr64)         | 包含代表計數器的64位不帶正負號的整數值。                                                    |
 | [**smiOCTETS**](/windows/desktop/api/Winsnmp/ns-winsnmp-smioctets)         | 包含變數長度的 SNMP 八位字串指標。                                                         |
@@ -31,8 +31,8 @@ WinSNMP API 函數會使用下列結構。
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

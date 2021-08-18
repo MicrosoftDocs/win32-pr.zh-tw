@@ -1,6 +1,6 @@
 ---
 title: DTCPIPHost 屬性
-description: DTCPIPHost 屬性是電腦或裝置的名稱或 IP 位址，必須透過網際網路通訊協定連線到數位傳輸內容保護， (DTCP-IP) 針對媒體專案進行驗證的金鑰交換 (確定) 。
+description: DTCPIPHost 屬性是電腦或裝置的名稱或 IP 位址，必須透過網際網路通訊協定連線到數位傳輸內容保護， (DTCP-IP) 已驗證的金鑰 Exchange (媒體專案的) 確定。
 ms.assetid: 61b7d6fb-c216-49ae-811a-8ce42fdb71e4
 keywords:
 - DTCPIPHost 屬性 Windows Media Player
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9983cac920f2d11b9040e03af30e10b9c0c3fbcb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 88eaa85b756a46b1333db2e5eabda9cbaf86a702f5ae9c8225d6f6d8928e2d2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996948"
 ---
 # <a name="dtcpiphost-attribute"></a>DTCPIPHost 屬性
 
-**DTCPIPHost** 屬性是電腦或裝置的名稱或 IP 位址，必須透過網際網路通訊協定連線到數位傳輸內容保護， (DTCP-ip) 針對媒體專案進行驗證的金鑰交換 (確定) 。
+**DTCPIPHost** 屬性是電腦或裝置的名稱或 IP 位址，必須透過網際網路通訊協定連線到數位傳輸內容保護， (DTCP-IP) 已驗證的金鑰 Exchange (媒體專案的) 確定。
 
 ## <a name="applies-to"></a>套用至
 

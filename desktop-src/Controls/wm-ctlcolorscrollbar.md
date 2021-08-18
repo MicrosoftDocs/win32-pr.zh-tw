@@ -3,7 +3,7 @@ title: 'WM_CTLCOLORSCROLLBAR 訊息 (Winuser .h) '
 description: '\_當控制項即將繪製時，會將 WM CTLCOLORSCROLLBAR 訊息傳送到捲軸控制項的父視窗。'
 ms.assetid: 35832a23-96f1-42cb-a986-06726bf2a124
 keywords:
-- WM_CTLCOLORSCROLLBAR message Windows 控制項
+- WM_CTLCOLORSCROLLBAR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3f8282e8e15bf1d1a668e1f57e17048f0babac2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 35dba3394c3d8fd99fef88d6fa1869ea1129d95ae8a82cc33f2935e5688871a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018556"
 ---
 # <a name="wm_ctlcolorscrollbar-message"></a>WM \_ CTLCOLORSCROLLBAR 訊息
 
@@ -77,9 +77,9 @@ WM_CTLCOLORSCROLLBAR
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

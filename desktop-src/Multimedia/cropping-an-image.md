@@ -7,12 +7,12 @@ keywords:
 - MCIWndPutSource 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2d73eb37792c124ad907f660d4b906ca80e715d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d0150962dc85e1e179e52a06c7af6c29193b40b50e9acc7a9feecd0570ab4214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144603"
 ---
 # <a name="cropping-an-image"></a>裁剪影像
 
@@ -51,9 +51,9 @@ case WM_COMMAND:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

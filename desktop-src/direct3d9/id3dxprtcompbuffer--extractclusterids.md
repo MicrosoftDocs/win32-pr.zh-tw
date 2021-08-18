@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ef68a972109e89e318adb83ab388c653c6a3deed
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 94cbf51aaedd8cc0d5505ca91663eb014e2a3d417a631e93d71b8a0ebc600ceb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106989230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987178"
 ---
 # <a name="id3dxprtcompbufferextractclusterids-method"></a>ID3DXPRTCompBuffer：： ExtractClusterIDs 方法
 

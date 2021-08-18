@@ -4,12 +4,12 @@ description: 若要建立閒置觸發程式，您必須在建立觸發程式時�
 ms.assetid: d36a621c-4011-4c3d-b6f4-b56d1f50983c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6a7f8333c79d05dfade609f028f93a816e61adf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4ac38eb3eb7520fde552f009a718fe188d247e3f9fef943f0f0f79ba6ea85970
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139541"
 ---
 # <a name="creating-an-idle-trigger-example"></a>建立閒置觸發程式範例
 
@@ -36,7 +36,7 @@ ms.locfileid: "104315925"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,6 +45,6 @@ ms.locfileid: "104315925"
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

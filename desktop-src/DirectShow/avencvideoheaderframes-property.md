@@ -4,12 +4,12 @@ ms.assetid: 77b04001-f524-49c0-b2cf-be32ad16564b
 title: 'AVEncVideoHeaderFrames 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c49d31a4b399f9f3af7ecb85cba65aa8fe536ba
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d20f90c50baed4278bf7c91a5838235e764ccf196dfb2575eac202d33fd88955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275690"
 ---
 # <a name="avencvideoheaderframes-property"></a>AVEncVideoHeaderFrames 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104108508"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

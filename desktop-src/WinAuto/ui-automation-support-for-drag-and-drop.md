@@ -14,12 +14,12 @@ keywords:
 - 控制項模式，DropTarget
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4194613d15aadac4a925303ef2322d4cf53c341c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1eab48f4319c51a5ccbbaadae22f1ae337740df5b6d0fdf325a01ba1323f8630
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133561"
 ---
 # <a name="ui-automation-support-for-drag-and-drop"></a>消費者介面自動化的拖放支援
 
@@ -126,6 +126,6 @@ Microsoft 消費者介面自動化定義兩種控制項模式，可支援拖放�
 
 消費者介面自動化用戶端應用程式會使用 [**IUIAutomationDragPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationdragpattern) 和 [**IUIAutomationDropTargetPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationdroptargetpattern) 介面來存取 UI 元素的拖放資訊。
 
- 
+ 
 
- 
+ 

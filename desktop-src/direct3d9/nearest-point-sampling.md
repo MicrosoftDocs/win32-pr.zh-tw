@@ -4,12 +4,12 @@ ms.assetid: bba0e485-ac5a-4e43-9eb7-25cd0c90d316
 title: Nearest-Point (Direct3D 9) 的取樣
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b11cf98ee917b124b35f3c30ff263365ec3c46e1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ee8146ce8cfc2d5852cf3847233b431352d69b8bc1f0a52f41da5ac3c9a7c89d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119458752"
 ---
 # <a name="nearest-point-sampling-direct3d-9"></a>Nearest-Point (Direct3D 9) 的取樣
 

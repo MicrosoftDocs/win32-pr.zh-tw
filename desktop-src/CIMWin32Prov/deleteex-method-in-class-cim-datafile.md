@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9af120c76e4ab8c53c945bd13aa62a2295385ac2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1e52a1d974afdc123e79f85252a68c52aa99e7e78a2b997b6eca1f1bced60997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020506"
 ---
 # <a name="deleteex-method-of-the-cim_datafile-class"></a>CIM \_ 資料檔案類別的 DeleteEx 方法
 
@@ -127,7 +127,7 @@ uint32 DeleteEx(
 
 12
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

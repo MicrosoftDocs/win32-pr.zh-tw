@@ -4,12 +4,12 @@ ms.assetid: ffb07b50-a245-45a3-a79a-27426b508600
 title: PropList. ContentViewModeForSearch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfac243409f162e08798b08304bd5850968be5cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0df32ad3e8b72baa2f9b5a5aba6597feac70954a04274dc3044e9c5ad8b6e5dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095860"
 ---
 # <a name="systemproplistcontentviewmodeforsearch"></a>PropList. ContentViewModeForSearch
 

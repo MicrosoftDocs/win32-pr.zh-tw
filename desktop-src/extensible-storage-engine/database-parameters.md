@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8849096412fa77db107e3e866a20662bb2634665
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13de02c7d322933f64361cfdabcb8f95ead837ad915ad69c3961a8b8874d5b9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117558"
 ---
 # <a name="database-parameters"></a>資料庫參數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="database-parameters"></a>資料庫參數
 
@@ -64,7 +64,7 @@ _**適用于：** Windows |Windows Server_
 </table>
 
 
-**Windows Vista：**  若為 Windows Vista 和更新版本，此參數已過時，而且不會影響資料庫引擎的操作。
+**Windows Vista：** 針對 Windows Vista 和更新版本，此參數已過時，且不會影響資料庫引擎的操作。
 
 <table>
 <colgroup>
@@ -74,7 +74,7 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p>對</p></td>
+<td><p>是</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -215,7 +215,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
 <td><p>No</p>
-<p><strong>Windows Vista：</strong>  Windows Vista 和更新版本：是</p></td>
+<p><strong>Windows Vista：</strong> 若為 Windows Vista 和更新版本：是</p></td>
 </tr>
 <tr class="odd">
 <td><p>會影響實體版面配置：</p></td>
@@ -275,7 +275,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>範圍：</p></td>
 <td><p>全球</p>
-<p><strong>Windows Vista：</strong>  Windows Vista 和更新版本：實例</p></td>
+<p><strong>Windows Vista：</strong> 針對 Windows Vista 和更新版本：實例</p></td>
 </tr>
 <tr class="odd">
 <td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
@@ -312,7 +312,7 @@ _**適用于：** Windows |Windows Server_
 *JET_paramEnableIndexCleanup*  
 54  
 
-當這個參數設定為 true 時，資料庫引擎會視需要在 [JetInit](./jetinit-function.md) 時自動清除 Unicode 索引鍵資料行上的索引，以避免變更 WINDOWS 中 NLS 程式庫所造成的資料庫格式變更。 NLS 程式庫會定期進行這類變更，以新增對新語言的支援、將遺漏的字元新增至語言、將定序順序加入至語言，或是以語言的定序順序修正 bug。 這些變更會影響由資料庫引擎以索引鍵的元件的形式保存的 [LCMapStringW](/windows/win32/api/winnls/nf-winnls-lcmapstringa) 所產生的排序關鍵字。
+當這個參數設定為 true 時，資料庫引擎會視需要在[JetInit](./jetinit-function.md)時自動清除 Unicode 索引鍵資料行上的索引，以避免因 WINDOWS 中 NLS 程式庫變更所造成的資料庫格式變更。 NLS 程式庫會定期進行這類變更，以新增對新語言的支援、將遺漏的字元新增至語言、將定序順序加入至語言，或是以語言的定序順序修正 bug。 這些變更會影響由資料庫引擎以索引鍵的元件的形式保存的 [LCMapStringW](/windows/win32/api/winnls/nf-winnls-lcmapstringa) 所產生的排序關鍵字。
 
 很重要的一點是，索引的變更可能很有可能無法進行累加式清除。 在此情況下，會依 **JET_paramEnableIndexChecking** 的規定來處理索引。
 
@@ -326,7 +326,7 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p>對</p></td>
+<td><p>是</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -347,7 +347,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
 <td><p>No</p>
-<p><strong>Windows Vista：</strong>  Windows Vista 和更新版本：是</p></td>
+<p><strong>Windows Vista：</strong> 若為 Windows Vista 和更新版本：是</p></td>
 </tr>
 <tr class="odd">
 <td><p>會影響實體版面配置：</p></td>
@@ -367,7 +367,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows Server 2003 和更新版本</p></td>
+<td><p>Windows伺服器2003和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -378,9 +378,9 @@ _**適用于：** Windows |Windows Server_
 
 當此參數為 true 時，指定會話一次只允許一個資料庫使用 [JetOpenDatabase](./jetopendatabase-function.md) 來開啟。 這項限制會排除暫存資料庫。
 
-**WINDOWS XP 和 Windows Server 2003：**  此參數只會在 Windows XP 和 Windows Server 2003 上寫入。
+**Windows XP 和 Windows Server 2003：** 此參數只會在 Windows XP 和 Windows Server 2003 上寫入。
 
-**Windows Vista：**  此參數的行為通常是 Windows Vista。
+**Windows Vista：** 此參數的行為通常是 Windows Vista。
 
 **注意**  此參數只是寫入。
 
@@ -409,7 +409,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="odd">
 <td><p>在 <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>之後設定：</p></td>
 <td><p>No</p>
-<p><strong>Windows Vista：</strong>  Windows Vista 和更新版本：是</p></td>
+<p><strong>Windows Vista：</strong> 若為 Windows Vista 和更新版本：是</p></td>
 </tr>
 <tr class="even">
 <td><p>在 <a href="gg294068(v=exchg.10).md">JetInit</a>之後設定：</p></td>
@@ -433,7 +433,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows XP 和更新版本</p></td>
+<td><p>WindowsXP 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -444,9 +444,9 @@ _**適用于：** Windows |Windows Server_
 
 此參數會控制使用 [JetDefragment](./jetdefragment-function.md)起始時的線上磁碟重組行為。 如需詳細資訊，請參閱 [JetDefragment](./jetdefragment-function.md) 。
 
-Windows 2000：在 Windows 2000 上，此參數是簡單的布林值，會在 [JetDefragment](./jetdefragment-function.md)啟動時閘道進行線上磁碟重組。 當設為 **TRUE** 時，會對資料庫中每個資料表的記錄執行線上磁碟重組。
+Windows 2000：在 Windows 2000 上，此參數是簡單的布林值，會在透過[JetDefragment](./jetdefragment-function.md)起始時閘道進行線上磁碟重組。 當設為 **TRUE** 時，會對資料庫中每個資料表的記錄執行線上磁碟重組。
 
-**WINDOWS XP：**  在 Windows XP 和更新版本中，這個參數可以設定為下列其中一個或多個選項：
+**Windows XP：** 在 Windows XP 和更新版本上，此參數可以設定為下列其中一個或多個選項：
 
 <table>
 <colgroup>
@@ -456,17 +456,17 @@ Windows 2000：在 Windows 2000 上，此參數是簡單的布林值，會在 [J
 <thead>
 <tr class="header">
 <th><p>選項</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>JET_OnlineDefragDisable</p></td>
-<td><p>請勿執行線上磁碟重組。 這是與此參數的 Windows 2000 設定為 False 相等的二進位檔。</p></td>
+<td><p>請勿執行線上磁碟重組。 這等同于此參數的 Windows 2000 設定為 False 的二進位檔。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_OnlineDefragAllOBSOLETE</p></td>
-<td><p>執行完整的線上磁碟重組。 這是對此參數而言，與 Windows 2000 設定為 True 的二進位檔。</p></td>
+<td><p>執行完整的線上磁碟重組。 這是與此參數的 Windows 2000 設定相同的二進位檔，其為 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_OnlineDefragDatabases</p></td>
@@ -478,11 +478,11 @@ Windows 2000：在 Windows 2000 上，此參數是簡單的布林值，會在 [J
 </tr>
 <tr class="odd">
 <td><p>JET_OnlineDefragStreamingFiles</p></td>
-<td><p>這個參數是用來支援 Microsoft Exchange 基礎結構，而且不適合在您的應用程式中使用。</p></td>
+<td><p>這個參數是用來支援 Microsoft Exchange 基礎結構，而且不適合在應用程式中使用。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_OnlineDefragAll</p></td>
-<td><p>執行完整的線上磁碟重組。 這個參數的概念相當於 Windows 2000 設定 True。</p></td>
+<td><p>執行完整的線上磁碟重組。 這是與此參數的 [True] Windows 2000 設定相同的概念。</p></td>
 </tr>
 </tbody>
 </table>
@@ -496,18 +496,18 @@ Windows 2000：在 Windows 2000 上，此參數是簡單的布林值，會在 [J
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000：</strong>  真</p>
-<p><strong>WINDOWS xp：適用于 WINDOWS xp 和更新版本：</strong> JET_OnlineDefragAll</p></td>
+<td><p><strong>Windows 2000：</strong> 真</p>
+<p><strong>Windows xp：適用于 Windows xp 和更新版本：</strong>JET_OnlineDefragAll</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
-<td><p><strong>Windows 2000：</strong>  布林</p>
-<p><strong>WINDOWS XP 和更新版本：</strong>  JET_GRBIT (整數) </p></td>
+<td><p><strong>Windows 2000：</strong> 布林</p>
+<p><strong>Windows XP 和更新版本：</strong> JET_GRBIT (整數) </p></td>
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000：</strong>  False、True</p>
-<p><strong>WINDOWS XP 及更新版本：</strong>  0 – JET_OnlineDefragAll</p></td>
+<td><p><strong>Windows 2000：</strong> False、True</p>
+<p><strong>Windows XP 及更新版本：</strong> 0 – JET_OnlineDefragAll</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -607,7 +607,7 @@ Windows 2000：在 Windows 2000 上，此參數是簡單的布林值，會在 [J
 *JET_paramRecordUpgradeDirtyLevel*  
 78
 
-此參數會控制資料庫頁面快取管理員撰寫資料庫頁面，而該頁面已經歷就地格式轉換的程度。 這些格式轉換會在頁面從使用 Windows 2000 資料庫引擎建立的資料庫載入，但是由 Windows XP 或更新版本的 database engine 所使用，而立即進行。
+此參數會控制資料庫頁面快取管理員撰寫資料庫頁面，而該頁面已經歷就地格式轉換的程度。 這些格式轉換會即時發生，因為頁面是從使用 Windows 2000 資料庫引擎建立的資料庫載入，但 Windows XP 或更新版本的 database engine 使用。
 
 <table>
 <colgroup>
@@ -657,7 +657,7 @@ Windows 2000：在 Windows 2000 上，此參數是簡單的布林值，會在 [J
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows XP 和更新版本</p></td>
+<td><p>WindowsXP 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -913,7 +913,7 @@ I/o 節流機制提供工作執行的最長時間（以毫秒為單位），以�
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

@@ -16,12 +16,12 @@ keywords:
 - 擁有者顯示剪貼簿格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebe22a16886c62824775b5f2d8174e2a8e244b9e
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 86a3ddc96cbc1d440fda5e6484f1bc72a53b4b36b709c7ad80c77e203dadcef1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128630"
 ---
 # <a name="about-the-clipboard"></a>關於剪貼簿
 
@@ -38,7 +38,7 @@ ms.locfileid: "110549583"
 -   [剪貼簿命令](#clipboard-commands)
 -   [剪貼簿序號](#clipboard-sequence-number)
 -   [剪貼簿檢視器](#clipboard-viewers)
-    -   [剪貼簿檢視器視窗](#clipboard-viewer-windows)
+    -   [剪貼簿檢視器 Windows](#clipboard-viewer-windows)
     -   [顯示格式](#display-formats)
     -   [擁有者顯示格式](#owner-display-format)
 -   [相關主題](#related-topics)
@@ -74,11 +74,11 @@ ms.locfileid: "110549583"
 
 本節將討論下列主題。
 
--   [剪貼簿檢視器視窗](#clipboard-viewer-windows)
+-   [剪貼簿檢視器 Windows](#clipboard-viewer-windows)
 -   [顯示格式](#display-formats)
 -   [擁有者顯示格式](#owner-display-format)
 
-### <a name="clipboard-viewer-windows"></a>剪貼簿檢視器視窗
+### <a name="clipboard-viewer-windows"></a>剪貼簿檢視器 Windows
 
 視窗會藉由呼叫 [**SetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) 函式，將本身新增至剪貼簿檢視器鏈。 傳回值是鏈中下一個視窗的控制碼。 若要取得鏈中第一個視窗的控制碼，請呼叫 [**GetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-getclipboardviewer) 函數。
 

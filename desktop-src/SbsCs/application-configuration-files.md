@@ -4,12 +4,12 @@ ms.assetid: b7453f2b-52a4-4af9-8410-ebbb430ada67
 title: 應用程式組態檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b1a2e0f6b493c217aded9e11507f660d517b400
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cf4b22d3710c0dd38e83f827a175ad591309f22ab8ac2d81e93438f27d07dc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142521"
 ---
 # <a name="application-configuration-files"></a>應用程式組態檔
 
@@ -29,7 +29,7 @@ ms.locfileid: "104112717"
 | **windows**           |                           | Yes      |
 | **>publisherpolicy**   |                           | Yes      |
 |                       | **應用**                 | Yes      |
-| **執行階段**           |                           | No       |
+| **運行**           |                           | No       |
 | **assemblyBinding**   |                           | Yes      |
 | **探討**           |                           | No       |
 |                       | **privatePath**           | Yes      |
@@ -81,7 +81,7 @@ ms.locfileid: "104112717"
 包含應用程式佈建檔的元件，該元件會套用至 Win32 元件的重新導向。
 
 > [!Note]  
-> 應用程式的作者不應包含具有 **windows** 子項目的設定檔，做為其應用程式的一部分。 如果設定檔的唯一目的是要啟用 **探查** 元素的 **privatePath** 功能，則可能會允許這種情況。 Windows Server 2008 R2 和 Windows 7 之前的系統無法使用 **探查** 元素。
+> 應用程式的作者不應包含具有 **windows** 子項目的設定檔，做為其應用程式的一部分。 如果設定檔的唯一目的是要啟用 **探查** 元素的 **privatePath** 功能，則可能會允許這種情況。 在 Windows Server 2008 R2 和 Windows 7 之前的系統上無法使用 **探查** 元素。
 
 <span id="publisherPolicy"></span><span id="publisherpolicy"></span><span id="PUBLISHERPOLICY"></span>
 
@@ -109,7 +109,7 @@ ms.locfileid: "104112717"
 
 包含應用程式的重新導向資訊，以及受此應用程式佈建檔影響的元件。 **AssemblyBinding** 的第一個子項目必須是可識別應用程式的 **assemblyIdentity** 。
 
-從 Windows Server 2008 R2 和 Windows 7 開始， **assemblyBinding** 元素可以包含 **探查** 子項目。
+從 Windows Server 2008 R2 和 Windows 7 開始， **assemblyBinding** 專案可以包含 **探查** 子項目。
 
 <span id="probing"></span><span id="PROBING"></span>
 
@@ -118,7 +118,7 @@ ms.locfileid: "104112717"
 **AssemblyBinding** 專案的選擇性元素，可將元件的搜尋延伸至其他目錄。 其他目錄不需要是元件目錄的子目錄。
 
 > [!Note]  
-> 此元素無法在 Windows Server 2008 R2 和 Windows 7 之前的系統上使用，而且只能在 **windows** 專案內使用。
+> 在 Windows Server 2008 R2 和 Windows 7 之前的系統上無法使用此元素，而且只能在 **Windows** 專案內使用。
 
 此元素具有下表所示的屬性。
 
@@ -153,7 +153,7 @@ ms.locfileid: "104112717"
 <assemblyIdentity processorArchitecture="X86" name="Microsoft.Windows.mysampleApp" type="win32" version="1.0.0.0"/>
 ```
 
-**AssemblyIdentity** 會以 **y** 專案的第一個子項目，描述應用程式所相依的並存元件。 應用程式佈建檔會重新設定此必要元件的身分識別。 例如，下列 **assemblyIdentity** 和 **BindingRedirect** 會將 SampleAssembly 的相依性從2.0.0.0 版重新配置到 version 2.1.0.0。
+**AssemblyIdentity** 會以 **y** 專案的第一個子項目，描述應用程式所相依的並存元件。 應用程式佈建檔會重新設定此必要元件的身分識別。 例如，下列 **assemblyIdentity** 和 **bindingRedirect** 會重新配置 Microsoft 的相依性。Windows。從2.0.0.0 版 SampleAssembly 至版本2.1.0.0。
 
 ``` XML
 <dependency>
@@ -174,7 +174,7 @@ ms.locfileid: "104112717"
 | 屬性                 | 描述                                                                                                                                                                                                                                                                                                          |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | 值必須是 win32 (小寫) 。 必要。                                                                                                                                                                                                                                                                      |
-| **name**                  | Name 屬性會識別受應用程式佈建檔或正在重新導向的元件所影響的應用程式。 針對名稱，請使用下列格式： Organization.Division.Name。 必要。 例如： >mysampleapp 或 MysampleAsm 的內容。<br/>            |
+| **name**                  | Name 屬性會識別受應用程式佈建檔或正在重新導向的元件所影響的應用程式。 針對名稱，請使用下列格式： Organization.Division.Name。 必要。 例如： Microsoft。Windows。>mysampleapp 或 Microsoft。Windows。MysampleAsm.<br/>            |
 | **language**              | 識別語言。 選擇性。 對於參考元件的 **assemblyIdentity** ，如果元件是語言特定的，請指定 DHTML 語言代碼。 如果元件適用于全球使用 (中性語言) 將值設定為 " \* "。<br/>                                                            |
 | **processorArchitecture** | 指定執行應用程式的處理器。                                                                                                                                                                                                                                                                     |
 | **version**               | 指定應用程式或元件的版本。 使用四部分的版本語法： mmmm. oooo. pppp。 必要。                                                                                                                                                                                                   |

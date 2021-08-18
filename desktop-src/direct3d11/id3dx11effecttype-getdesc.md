@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c1ee52e4c6628c00b0155e5bd3081b6c4fd8c46
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 381f885a15dede6a500e82b08a1f24e4f0542ffa46211e5b68ef7f73f40d0f0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460778"
 ---
 # <a name="id3dx11effecttypegetdesc-method"></a>ID3DX11EffectType：： GetDesc 方法
 

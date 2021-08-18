@@ -5,12 +5,12 @@ ms.assetid: 3A4C5579-7543-4E0B-921D-BED42C2583D9
 title: 'D (隔離的應用程式和並存元件) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20c8912f24478f79be8aa00c963dc27cb46ec756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bf0ba858ab8bef37a5b3edc27c64fb19364d582c6b961e3e5f9cc2ac32ef7f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142311"
 ---
 # <a name="d-isolated-applications-and-side-by-side-assemblies"></a>D (隔離的應用程式和並存元件) 
 

@@ -3,7 +3,7 @@ title: 'EM_GETHYPHENATEINFO 訊息 (Richedit .h) '
 description: 抓取 Microsoft Rich Edit 控制項的斷字資訊。
 ms.assetid: 70ccb698-e440-493b-8f38-2bf7f32e4b26
 keywords:
-- EM_GETHYPHENATEINFO message Windows 控制項
+- EM_GETHYPHENATEINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d083b4bbc4b6854f767395d51dd9899c2a185d0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bd9bbb6eb156bd2a5af1b69ecaad800f721aebb68b3d8ccfcb7bf8cb9ba465e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019616"
 ---
 # <a name="em_gethyphenateinfo-message"></a>EM \_ GETHYPHENATEINFO 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104025294"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

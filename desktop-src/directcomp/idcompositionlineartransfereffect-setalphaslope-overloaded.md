@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: f72b1c1afb7946f60c13d8ac9426dfa081d9e1d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ac81b48aa46c9e4222c6c71d5b40ed52447212c0bc44db1b457fc959117e323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118992"
 ---
 # <a name="idcompositionlineartransfereffectsetalphaslope-methods"></a>idcompositionlineartransfereffect：： SetAlphaSlope 方法
 

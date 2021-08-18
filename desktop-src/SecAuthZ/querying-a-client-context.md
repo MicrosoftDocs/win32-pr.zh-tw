@@ -4,12 +4,12 @@ ms.assetid: 32655e54-499e-439e-8d4f-f2b4eaa0b184
 title: 查詢用戶端內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 101c35466e675d9ecba942089bbe7b5e82cffd90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e944939baae45236c914da7d11b6cedd6623ea132363ec86e1bf6f340644ee4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118912077"
 ---
 # <a name="querying-a-client-context"></a>查詢用戶端內容
 

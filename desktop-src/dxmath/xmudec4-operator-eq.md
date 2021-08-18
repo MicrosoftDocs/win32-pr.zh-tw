@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: af7ba0e28fe69535b647423c16964a7c35375a37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de0ca71d8792f343fa374b1ac429811f6e036e10d986563dce682836b8539839
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117928"
 ---
 # <a name="xmudec4-operator--operators"></a>XMUDEC4 運算子 = 運算子
 

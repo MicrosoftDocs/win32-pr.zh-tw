@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c594f9508137823fbe2d3f8969258dd132c3ea13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30eb9bbfa3c90ebd19ce14e20b2d21e8ea844c8d1c561e97126cb5a31555d39c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119109994"
 ---
 # <a name="jet_indexlist-constructor"></a>JET_INDEXLIST 的函式
 

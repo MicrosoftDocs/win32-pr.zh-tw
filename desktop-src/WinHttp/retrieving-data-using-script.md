@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 734516cf75f92cc43ab4cb15f22bd97aa803ec33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e018aa680808feddc021c7c03937d085b0d0f787c3213720cbb5e94a46a85c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133061"
 ---
 # <a name="retrieving-data-using-script"></a>使用腳本來抓取資料
 
@@ -27,10 +27,10 @@ ms.locfileid: "103936577"
 
 ## <a name="prerequisites-and-requirements"></a>必要條件和需求
 
-除了使用 Microsoft JScript 的知識之外，此範例還需要下列各項：
+除了 Microsoft JScript 的工作知識之外，此範例還需要下列各項：
 
 -   Microsoft Windows 軟體開發套件 (SDK 的最新版本) 。
--   如果您的網際網路連線是透過 proxy 伺服器，則 proxy 設定工具可建立 Microsoft Windows HTTP Services (WinHTTP) 的 proxy 設定。 如需詳細資訊，請參閱 [ProxyCfg.exe Proxy 設定工具](proxycfg-exe--a-proxy-configuration-tool.md)。
+-   如果您的網際網路連線是透過 proxy 伺服器，則可使用 proxy 設定工具來建立 Microsoft Windows HTTP 服務 (WinHTTP) 的 proxy 設定。 如需詳細資訊，請參閱 [ProxyCfg.exe Proxy 設定工具](proxycfg-exe--a-proxy-configuration-tool.md)。
 -   熟悉 [網路術語](network-terminology.md) 和概念。
 
 ## <a name="retrieving-data-synchronously"></a>同步取出資料
@@ -92,7 +92,7 @@ ms.locfileid: "103936577"
 
 
 
-當 JScript 引擎遇到這一行時，它會建立這個物件的實例。 如果您收到錯誤訊息：「ActiveX 元件無法建立物件」，在這一行中，很可能是 WinHttp.dll 未正確註冊或不存在於系統上。
+當 JScript 引擎遇到這一行時，它會建立這個物件的實例。 如果您收到錯誤訊息：「ActiveX 元件無法建立物件」，這一行很可能是因為 WinHttp.dll 未正確註冊或不存在於系統上。
 
 腳本的下一行會呼叫 [**Open**](iwinhttprequest-open.md) 方法。
 

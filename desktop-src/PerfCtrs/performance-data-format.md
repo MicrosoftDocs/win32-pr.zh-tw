@@ -4,12 +4,12 @@ ms.assetid: a68fa617-834c-4ad9-b922-fac3a648ad75
 title: 效能資料格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88029634594843a50fd6010993eb6517dce831f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ea20d0cc0be6174fdd945c4bf956d7df60a067cd9f20b3d08d9762d75b8b97a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104570643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143908"
 ---
 # <a name="performance-data-format"></a>效能資料格式
 
