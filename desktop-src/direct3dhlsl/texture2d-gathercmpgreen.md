@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 930aecdf6a361f10a2b0c49bbf9bfff7139e3928
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: d066b808a14af34feffec7d137c0cd23299f6182ab54e49bb90e34e3d9d64939
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "103678879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117722793"
 ---
 # <a name="texture2dgathercmpgreen-methods"></a>Texture2D：： GatherCmpGreen 方法
 

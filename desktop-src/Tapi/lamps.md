@@ -4,12 +4,12 @@ ms.assetid: d8e8ef57-9faa-4122-b99a-3956362cd9d8
 title: 燈
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e01005c282b7a86b4b8c8ee27348ba4cf8d43db9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 150e499dbd66ca772d35855c4cdb086bbb1ecc12617f55bcd33dccf8435e8771
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762282"
 ---
 # <a name="lamps"></a>燈
 

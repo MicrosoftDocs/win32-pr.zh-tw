@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d58c162ebc6d340b9bd913407bc00aac87e208e4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 102c9af7a8e38ccbbb4a7e67b2734588857ddca93da862be211fd1223133f80d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788860"
 ---
 # <a name="rasadminreleaseipaddress-callback-function"></a>RasAdminReleaseIpAddress 回呼函式
 
@@ -31,9 +31,9 @@ ms.locfileid: "103682986"
 
 ```C++
 void CALLBACK RasAdminReleaseIpAddress(
-  _In_ WCHAR  *lpszUserName,
-  _In_ WCHAR  *lpszPortName,
-  _In_ IPADDR *pipAddress
+  _In_ WCHAR  *lpszUserName,
+  _In_ WCHAR  *lpszPortName,
+  _In_ IPADDR *pipAddress
 );
 ```
 
@@ -76,10 +76,10 @@ void CALLBACK RasAdminReleaseIpAddress(
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         RAS
-            AdminDll
+   SOFTWARE
+      Microsoft
+         RAS
+            AdminDll
 ```
 
 若要註冊 DLL，請在此機碼下設定下列值。
@@ -93,22 +93,22 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
 例如，名為 ProElectron，Inc. 之虛構公司的 RAS 管理 DLL 的登錄專案可能是：
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         RAS
-            AdminDll
+   SOFTWARE
+      Microsoft
+         RAS
+            AdminDll
 ```
 
 *DisplayName*： **reg \_ Sz** ： ProElectron RAS 管理 DLL *DLLPath*： **reg \_ sz** ： C： \\ nt \\ system32 \\ntwkadm.dll
 
 RAS 系統管理 DLL 的安裝程式也應該提供移除/卸載功能。 如果使用者移除 DLL，安裝程式應該刪除 DLL 的登錄專案。
 
- 
+ 
 
- 
+ 

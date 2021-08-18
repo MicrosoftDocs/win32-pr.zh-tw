@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 173f023e941655c609d94f8f75d48d4546a3c2ad
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6538eaf3f702f07fc5b8c569b44be38a28c2892b4f0b8104b999e1aaaea0a484
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835755"
 ---
 # <a name="user-change-password-extended-right"></a>使用者-變更-密碼擴充許可權
 
@@ -50,7 +50,7 @@ ms.locfileid: "103935216"
 
 | 進入 | 值 |
 |-------------------------|-----------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> |
 | 當地語系化-顯示識別碼 | 2                                                                           |
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "103935216"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 2                                                                                                                               |
 
 
@@ -83,7 +83,7 @@ ms.locfileid: "103935216"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 2                                                                                                                               |
 
 
@@ -94,7 +94,7 @@ ms.locfileid: "103935216"
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 2                                                                                                                               |
 
 
@@ -105,7 +105,7 @@ ms.locfileid: "103935216"
 
 | 進入 | 值 |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 2                                                                                                                                                                                                                |
 
 
@@ -116,7 +116,7 @@ ms.locfileid: "103935216"
 
 | 進入 | 值 |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 2                                                                                                                                                                                                                |
 
 

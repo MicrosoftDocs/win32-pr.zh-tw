@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 05d9f928ff9bbc7098035d4eef2c9337fac7b205
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 00566de0f3315b621ffae93562ec88e90bb65a6a6bc2e1c78696614a5cef5ef4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117722956"
 ---
 # <a name="texture1darraysamplecmplevelzero-methods"></a>Texture1DArray：： SampleCmpLevelZero 方法
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eedcd7c7390e01849371eee2cbb24ffa2593900d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa0425289b7ffd686f0d908f9789a2c24606978f37e05dfada5b937b8ce05b21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789612"
 ---
 # <a name="ras_ppp_ipcp_result-structure"></a>RAS \_ PPP \_ IPCP \_ 結果結構
 

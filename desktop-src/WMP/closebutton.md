@@ -14,12 +14,12 @@ keywords:
 - 外觀的參考、關閉按鈕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7b3d6df8984d966e84a68cadaf38d1cc8ab369
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f8123305c92bfe7f5fccc69b9fd8a92429a67fb933189bd3b0285834cccd2a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119786"
 ---
 # <a name="closebutton"></a>CLOSEBUTTON
 
@@ -45,9 +45,9 @@ upToolTip="Close"
 [**BUTTON 元素**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

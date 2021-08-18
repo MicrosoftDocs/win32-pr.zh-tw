@@ -4,12 +4,12 @@ ms.assetid: c3b7b648-5727-47d6-9ddc-9d9f6511949d
 title: 清除
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc294183f964d00ae9ebb1d74b90b346c2ce8fc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5aefac8f58b7d6eed0380b7aa0e7759ff07e5af2a2762cde7d8e9bab445ca1fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741430"
 ---
 # <a name="cleanup"></a>清除
 

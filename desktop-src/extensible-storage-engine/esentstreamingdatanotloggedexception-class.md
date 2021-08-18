@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e46d57bdadd07cafe37dfb59460504cc58b34975
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8eac5b41ea844e838b7f805d6b468e16249a04967123f9ebaa01db96a3519f88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118490252"
 ---
 # <a name="esentstreamingdatanotloggedexception-class"></a>EsentStreamingDataNotLoggedException 類別
 

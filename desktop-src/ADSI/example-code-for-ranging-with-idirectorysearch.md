@@ -8,12 +8,12 @@ keywords:
 - 範圍抓取 ADSI，範例程式碼，使用 >idirectorysearch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94a5744c4952db3a8026db6c27cc0ecd2c4543de
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c1c2f5cda530268fdc046c807a69ed8cec7ac2807fc4eb3225701209d4f261d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839998"
 ---
 # <a name="example-code-for-ranging-with-idirectorysearch"></a>使用 >idirectorysearch 進行範圍的範例程式碼
 
@@ -214,9 +214,9 @@ HRESULT EnumGroupWithIDirectorySearch(LPCWSTR pwszGroupDN,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

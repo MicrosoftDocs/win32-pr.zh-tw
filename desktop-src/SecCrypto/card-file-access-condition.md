@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Cardmod.h
-ms.openlocfilehash: d3ef9fc81c9ab3bff5f3992c3aedeb3f923648ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9a38e7d67e413352de693f52b07ba11bf34858854fa708b41a735152ad3ed2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771984"
 ---
 # <a name="card_file_access_condition-enumeration"></a>卡片 \_ 檔案 \_ 存取 \_ 條件列舉
 
@@ -84,8 +84,8 @@ typedef enum  {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows XP、Windows XP \[ desktop 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | 僅限 windows Server 2003、Windows Server 2003 \[ desktop 應用程式\]<br/>            |
+| 最低支援的用戶端<br/> | Windowsxp、Windows xp \[ desktop 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | Windowsserver 2003、Windows server 2003 \[ desktop 應用程式\]<br/>            |
 | 標頭<br/>                   | <dl> <dt>Cardmod.h。h</dt> </dl> |
 
 

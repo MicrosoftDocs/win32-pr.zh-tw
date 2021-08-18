@@ -1,19 +1,19 @@
 ---
-title: 使用 Windows 協助工具功能
-description: 本節說明如何使用 Windows 協助工具功能。
+title: 使用 Windows 的協助工具功能
+description: 本節說明如何使用 Windows 的協助工具功能。
 ms.assetid: 1283d988-b45d-4942-924a-2afecfdfd770
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b8f6c0112fdb0c74cb3bb0bc3f6f2587ff1b967
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c49e23c3490562c908dfbe7bee774fdfea46b32d9b9130f600067442312383e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114603"
 ---
-# <a name="using-windows-accessibility-features"></a>使用 Windows 協助工具功能
+# <a name="using-windows-accessibility-features"></a>使用 Windows 的協助工具功能
 
-本節說明如何使用 Windows 協助工具功能。
+本節說明如何使用 Windows 的協助工具功能。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -24,9 +24,9 @@ ms.locfileid: "104463341"
 
 <dl> <dt>
 
-[Windows 協助工具功能](../accessibility/accessibility.md)
+[Windows協助工具功能](../accessibility/accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

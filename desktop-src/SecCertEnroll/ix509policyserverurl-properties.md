@@ -4,12 +4,12 @@ ms.assetid: 28E07887-FF97-4862-B682-018863687916
 title: IX509PolicyServerUrl 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c5918a61d58bd6c8aaa8a0705977df3dd7fd028
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bde67470a97eb4d92d8b4cf6ff581f9c493a3701b31ed4a5d1125437c7cd089c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117775079"
 ---
 # <a name="ix509policyserverurl-properties"></a>IX509PolicyServerUrl 屬性
 

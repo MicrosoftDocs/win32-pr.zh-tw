@@ -4,12 +4,12 @@ ms.assetid: 5abe6898-bb2c-4c4a-9a88-d84f71cb33e0
 title: XPS 檔列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27e4ae57a6accc258ceca22fdadc5e166a4db547
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c1e5bb6c9548d8f65ed85035aa463109e6a953feaa14b9b9afdcb3c99df98c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056643"
 ---
 # <a name="xps-document-enumerations"></a>XPS 檔列舉
 

@@ -11,12 +11,12 @@ keywords:
 - 縮圖關聯性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e3e0f1e6875e447a18ff5e63d703460ff909b25
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: b333d84496828c451ff6e0eb7dbf3a86f91d629623d9939f66e874cfa82ee47d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104571291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118279764"
 ---
 # <a name="dwm-thumbnail-overview"></a>DWM 縮圖總覽
 
@@ -31,7 +31,7 @@ ms.locfileid: "104571291"
 ![啟用 dwm 的 alt 鍵的螢幕擷取畫面](images/dwm-flip.png)
 
 > [!Note]  
-> DWM 縮圖不能讓開發人員建立像是 Windows Vista Flip3D (WINKEY]) 功能的應用程式。 縮圖會直接轉譯至2D 中的目的地視窗。
+> DWM 縮圖不會讓開發人員建立應用程式，例如 Windows Vista Flip3D (WINKEY]) 功能。 縮圖會直接轉譯至2D 中的目的地視窗。
 
  
 
@@ -43,7 +43,7 @@ ms.locfileid: "104571291"
 
 若要結束縮圖的關聯性，請呼叫 [**DwmUnregisterThumbnail**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmunregisterthumbnail) 函數。
 
-下列範例示範如何使用 Windows 桌面建立 releationship，並將它顯示在應用程式中。
+下列範例示範如何使用 Windows desktop 建立 releationship，並將它顯示在應用程式中。
 
 
 ```

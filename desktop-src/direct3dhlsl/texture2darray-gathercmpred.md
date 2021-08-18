@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: b1f7ba31a1325617490d86b13b8bd471f346d513
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: f2ff6c3999420f79a6a34f60e17b1ffcc372555daad36bd73ed9c11cf95b8f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104507661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117722449"
 ---
 # <a name="texture2darraygathercmpred-methods"></a>Texture2DArray：： GatherCmpRed 方法
 

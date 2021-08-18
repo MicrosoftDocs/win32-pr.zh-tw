@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d52090588905e2fd79b218abe939f78c1e38fc79
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b3fc1d8be09596d89dd87748811846d6dee1e8af8f28bebec56fa852c42ed6bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118999"
 ---
 # <a name="iwmpplaylist-vb-and-c-interface"></a>IWMPPlaylist (VB 和 c # ) 介面
 
@@ -61,7 +61,7 @@ ms.locfileid: "106989684"
 
 
 
-| 屬性                                                                                      | 存取類型           | Description                                                                                                                                         |
+| 屬性                                                                                      | 存取類型           | 描述                                                                                                                                         |
 |:----------------------------------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attributeCount**](wmplibiwmpplaylist-iwmpplaylist-attributecount--vb-and-c.md)<br/> | 唯讀<br/>  | 取得與播放清單相關聯的屬性數目。<br/>                                                                                |
 | [**attributeName**](iwmpplaylist-attributename--vb-and-c.md)<br/>                      | 唯讀<br/>  | 取得索引所指定之播放清單屬性的名稱。 在 c # 中，這是 get \_ attributeName 方法。<br/>                               |
@@ -104,7 +104,7 @@ ms.locfileid: "106989684"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

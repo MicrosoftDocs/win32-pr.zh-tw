@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: f2fe0c2f8714d3fa28f61624924eba169f9f1c5d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5b2bab46a7509ce858af9db3c7c4785de5161b64e86c0f3c280fdad00ebe5f64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843001"
 ---
 # <a name="iportabledevicevaluesgetsignedintegervalue-method"></a>IPortableDeviceValues：： GetSignedIntegerValue 方法
 
@@ -61,7 +61,7 @@ HRESULT GetSignedIntegerValue(
 
 
 
-| 傳回碼                                                                                                            | Description                                                          |
+| 傳回碼                                                                                                            | 描述                                                          |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                   | 此方法已成功。<br/>                                     |
 | <dl> <dt>**將 \_ 電子 \_ TYPEMISMATCH**</dt> </dl>                   | 索引 *鍵* 指定的屬性不是 **LONG** 類型。<br/>   |

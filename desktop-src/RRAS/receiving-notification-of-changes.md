@@ -4,12 +4,12 @@ description: 許多用戶端可以同時更新路由表，而且用戶端必須�
 ms.assetid: d42e16e2-32b2-4178-967b-e937730b3cca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bacd8d1d0329cf29be82a890be30b602b9330249
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a6eddc92404acb921b31bab22736561cbbc83e4c1c641da80a8ff95352e52f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788708"
 ---
 # <a name="receiving-notification-of-changes"></a>接收變更的通知
 
@@ -44,9 +44,9 @@ ms.locfileid: "104372076"
 
 通知不會指定實際變更的內容，只會指出已發生的變更。 用戶端必須使用從先前呼叫 [**RtmRegisterForChangeNotification**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmregisterforchangenotification)取得的通知控制碼來呼叫 [**RtmGetChangedDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetchangeddests) ，以取出變更。
 
- 
+ 
 
- 
+ 
 
 
 

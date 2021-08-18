@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97962646cee682d7a6f3fe7bc0949b2795e49cc1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18d6aee2b7cb31e7a37daff0a7696c638a1d21550fbd98cff7c552a348dc5509
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192418"
 ---
 # <a name="streamingtcpclientexample"></a>StreamingTcpClientExample
 
@@ -447,9 +447,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

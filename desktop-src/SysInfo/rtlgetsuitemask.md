@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: ed8d8906273d18125131251636bc6199d166547b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6a71a2cb697021edcf8cea3da8759bbe40aa8ed9be2a93f8adcbeba4197ef88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763467"
 ---
 # <a name="rtlgetsuitemask-function"></a>RtlGetSuiteMask 函式
 
@@ -53,14 +53,14 @@ ULONG NTAPI RtlGetSuiteMask(void);
 | <dl> <dt>0x00000008</dt> </dl> | 已安裝通訊伺服器2003、communication Server 2005、communication Server 2007 或 communication Server 2007 R2。<br/>                                                                                                           |
 | <dl> <dt>0x00000010</dt> </dl> | 已安裝終端機服務。 一律會設定這個值。<br/> 如果已設定 **TerminalServer** ，但未設定 **SingleUserTS** ，則系統會在應用程式伺服器模式中執行。<br/>                                                         |
 | <dl> <dt>0x00000020</dt> </dl> | Microsoft Small Business Server 會以強制的嚴格用戶端授權安裝。 如需此位旗標的詳細資訊，請參閱「備註」一節。<br/>                                                                            |
-| <dl> <dt>0x00000040</dt> </dl> | 已安裝 Windows XP Embedded。<br/>                                                                                                                                                                                                            |
-| <dl> <dt>0x00000080</dt> </dl> | 已安裝 windows Server 2008 Datacenter、Windows Server 2003、Datacenter Edition 或 Windows 2000 Datacenter Server。<br/>                                                                                                                     |
+| <dl> <dt>0x00000040</dt> </dl> | Windows已安裝 XP Embedded。<br/>                                                                                                                                                                                                            |
+| <dl> <dt>0x00000080</dt> </dl> | Windows已安裝 server 2008 datacenter、Windows server 2003、datacenter Edition 或 Windows 2000 datacenter Server。<br/>                                                                                                                     |
 | <dl> <dt>0x00000100</dt> </dl> | 支援遠端桌面，但只支援一個互動式會話。 除非系統是在應用程式伺服器模式中執行，否則會設定此值。<br/>                                                                                       |
-| <dl> <dt>0x00000200</dt> </dl> | 已安裝 windows Vista Home Premium、Windows Vista Home Basic 或 Windows XP Home Edition。<br/>                                                                                                                                               |
-| <dl> <dt>0x00000400</dt> </dl> | 已安裝 Windows Server 2003 （Web Edition）。<br/>                                                                                                                                                                                               |
-| <dl> <dt>0x00002000</dt> </dl> | 已安裝 windows Storage Server 2003 R2 或 Windows Storage Server 2003。<br/>                                                                                                                                                                  |
-| <dl> <dt>0x00004000</dt> </dl> | 已安裝 Windows Server 2003、Compute Cluster Edition。<br/>                                                                                                                                                                                   |
-| <dl> <dt>0x00008000</dt> </dl> | 已安裝 Windows Home Server。<br/>                                                                                                                                                                                                            |
+| <dl> <dt>0x00000200</dt> </dl> | Windowsvista home 進階版、Windows vista home Basic 或 Windows XP home Edition 皆已安裝。<br/>                                                                                                                                               |
+| <dl> <dt>0x00000400</dt> </dl> | Windows伺服器2003，Web Edition 已安裝。<br/>                                                                                                                                                                                               |
+| <dl> <dt>0x00002000</dt> </dl> | 已安裝 Windows 儲存體 server 2003 R2 或 Windows 儲存體 server 2003。<br/>                                                                                                                                                                  |
+| <dl> <dt>0x00004000</dt> </dl> | Windows已安裝 Server 2003、Compute Cluster Edition。<br/>                                                                                                                                                                                   |
+| <dl> <dt>0x00008000</dt> </dl> | Windows已安裝 Home Server。<br/>                                                                                                                                                                                                            |
 
 
 
@@ -68,7 +68,7 @@ ULONG NTAPI RtlGetSuiteMask(void);
 
 ## <a name="remarks"></a>備註
 
-您不應該只依賴0x00000001 旗標來判斷系統上是否已安裝 Small Business Server，因為此旗標和0x00000020 旗標都是在安裝此產品套件時所設定。 如果您將此安裝升級至 Windows Server Standard Edition，則會清除0x00000020 旗標，但會保持設定0x00000001 旗標。 在此情況下，這表示此系統上已安裝 Small Business Server。 如果此安裝進一步升級為 Windows Server Enterprise Edition，則會維持設定0x00000001 旗標。
+您不應該只依賴0x00000001 旗標來判斷系統上是否已安裝 Small Business Server，因為此旗標和0x00000020 旗標都是在安裝此產品套件時所設定。 如果您將此安裝升級為 Windows Server，Standard Edition 將會清除0x00000020 旗標，但0x00000001 旗標仍會保持設定。 在此情況下，這表示此系統上已安裝 Small Business Server。 如果此安裝進一步升級為 Windows Server，Enterprise Edition，0x00000001 旗標將保持設定。
 
 ## <a name="requirements"></a>規格需求
 
@@ -76,8 +76,8 @@ ULONG NTAPI RtlGetSuiteMask(void);
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Ntddk。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Ntdll.dll .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |

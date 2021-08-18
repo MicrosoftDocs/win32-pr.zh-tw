@@ -17,12 +17,12 @@ keywords:
 - ServiceInfo 檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0e8ce8d049df78f186d336079f76eb00eb8bb10
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a00fcd1af52f7400b7f20a1eb3115bfc38d8b997bfbc85c5d6e36f08fcf59f39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118528"
 ---
 # <a name="test-and-production-keys-for-a-type-1-online-store"></a>類型1線上商店的測試和生產金鑰
 
@@ -42,7 +42,7 @@ ms.locfileid: "104372524"
 > [!Note]  
 > 使用者可能會猜測線上商店的測試或生產金鑰，並在開發期間查看您的商店。 在公開發行之前，您應該特別小心公開您想要保留秘密的功能。
 
- 
+ 
 
 如需有關如何將生產和測試金鑰放在使用者登錄中的詳細資訊，請參閱 [類型1線上商店的登錄機碼和專案](registry-keys-and-entries-for-a-type-1-online-store.md)。
 
@@ -53,9 +53,9 @@ ms.locfileid: "104372524"
 [**關於類型1線上商店**](about-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

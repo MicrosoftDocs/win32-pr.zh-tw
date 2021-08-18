@@ -9,12 +9,12 @@ keywords:
 - 服務連接點廣告，發佈方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a458822f6c5e4d764b2e330c7ba084021b586548
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 058c0a0e1f488ecdb50c14eb04788470b6bc25a0a3442457f1c57ced4b13efd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184942"
 ---
 # <a name="publishing-with-service-connection-points"></a>使用服務連接點發佈
 
@@ -56,9 +56,9 @@ Active Directory 架構會定義 **serviceConnectionPoint** (SCP) 物件類別�
 
 如需有關服務安裝程式和服務如何一起運作以維護 SCP 中目前資料的詳細資訊，請參閱 [建立和維護服務連接點](creating-and-maintaining-a-service-connection-point.md)。
 
- 
+ 
 
- 
+ 
 
 
 

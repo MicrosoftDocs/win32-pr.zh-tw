@@ -4,12 +4,12 @@ ms.assetid: eb837fe6-12c9-479c-a0be-63b24093e6fd
 title: 'MF_TOPONODE_ERROR_MAJORTYPE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd68ace0cd3bec4f32536e7d0d8d29bcea60d997
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e32752f74708272c367e3f15b208ed66fb0d476baab75b8032ed028e1b9e4162
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875144"
 ---
 # <a name="mf_toponode_error_majortype-attribute"></a>MF \_ TOPONODE \_ ERROR \_ MAJORTYPE 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "106973889"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

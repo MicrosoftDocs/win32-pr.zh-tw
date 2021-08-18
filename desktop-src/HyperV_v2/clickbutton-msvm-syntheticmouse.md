@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2f5ea8e1f5984bd7e4b77222d6cbd8a05d1ed40b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2812bd898d674b9d17aba51db6d93e43c53a049800214c1373e41a45dfc1d02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106993189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150125"
 ---
 # <a name="clickbutton-method-of-the-msvm_syntheticmouse-class"></a>Msvm SyntheticMouse 類別的 ClickButton 方法 \_
 
@@ -260,7 +260,7 @@ namespace HyperVSamples
 
 
 
-下列 Visual Basic Scripting Edition (VBScript) 範例會模擬按鈕的點擊。
+下列 Visual Basic 腳本撰寫版 (VBScript) 範例會模擬按鈕的點擊。
 
 
 ```VB
@@ -448,8 +448,8 @@ End Function
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

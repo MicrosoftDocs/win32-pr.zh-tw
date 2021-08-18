@@ -4,12 +4,12 @@ description: 如果應用程式以靜態方式連結至 RASAPI32 DLL，則如果
 ms.assetid: a2399406-f73c-40aa-877c-80f2f99ed10a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dd8b29eab4bf2cd7689836e9310a3c0f6370dfb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 38b98757320cf9a166e741eb10ace8607d0287740a5494ca20fcc431b16b4367
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790648"
 ---
 # <a name="linking-to-the-remote-access-dll"></a>連結到遠端存取 DLL
 
@@ -21,13 +21,13 @@ RAS 函數位于 RASAPI32.DLL 中。 這些函數的匯入程式庫是 RASAPI32�
 
 | 檔案       | 描述                                                                 |
 |------------|-----------------------------------------------------------------------------|
-| Ras。H      | 包含 RAS 函數原型、常數和結構定義。 |
+| RAS。H      | 包含 RAS 函數原型、常數和結構定義。 |
 | RASERROR.H | 包含 RAS 錯誤碼。                                               |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

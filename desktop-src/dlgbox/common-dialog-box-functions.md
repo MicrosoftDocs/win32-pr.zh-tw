@@ -4,12 +4,12 @@ description: . |通用對話方塊函數
 ms.assetid: 4a94330b-e0d5-48d7-80f3-86ba6ca1f0f9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 109f0ca24f319bb27955ba117a8035df3042fb44
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ffb1514a82af8de42dcc16777de9b105ce16e39f04b4519b6d033c7c5a3f9f09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106993848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503756"
 ---
 # <a name="common-dialog-box-functions"></a>通用對話方塊函數
 

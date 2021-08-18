@@ -4,18 +4,18 @@ ms.assetid: c8a863cd-d36c-4ec8-ac49-0b714a5e4cc2
 title: " (WinHTTP. h) 的錯誤訊息"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eccdc8be4b1e7c3cc7f9a03403c2f8778ddd19b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d83fa1859f071b0fc0e651235deea51626f55b8a45cdb2a3ea8736a57317741
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744714"
 ---
 # <a name="error-messages-winhttph"></a> (WinHTTP. h) 的錯誤訊息
 
-當其中一個 Microsoft Windows HTTP 服務 (WinHTTP) 函式失敗時， [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 會傳回下列錯誤值，且在 [**HRESULT**](../com/structure-of-com-error-codes.md) 錯誤的較低16位中也會傳回 [**WinHttpRequest**](winhttprequest.md) 物件。
+當其中一個 Microsoft Windows HTTP 服務 (WinHTTP) 函式失敗時， [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)會傳回下列錯誤值，且在 [**HRESULT**](../com/structure-of-com-error-codes.md)錯誤的較低16位中也會傳回 [**WinHttpRequest**](winhttprequest.md)物件。
 
-名稱開頭為 "ERROR \_ WINHTTP \_ " 的錯誤值是 WINHTTP 函式特有的。 在適當的情況下，WinHTTP 函數也會傳回 Windows 錯誤訊息。
+名稱開頭為 "ERROR \_ WINHTTP \_ " 的錯誤值是 WINHTTP 函式特有的。 WinHTTP 函數也會在適當的情況下傳回 Windows 錯誤訊息。
 
 <dl> <dt>
 
@@ -132,7 +132,7 @@ ms.locfileid: "103850116"
 
 如果伺服器要求用戶端憑證，但不需要它，應用程式可以使用 **WINHTTP \_ 選項 \_ 用戶端憑證 \_ \_ 內容** 選項來呼叫 [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) 。 在此情況下，應用程式會 \_ \_ \_ \_ 在 **WinHttpSetOption** 的 *lpBuffer* 參數中指定 WINHTTP NO CLIENT CERT CONTEXT 宏。 如需詳細資訊，請參閱 **WINHTTP \_ option \_ CLIENT \_ CERT \_ CONTEXT** 選項。
 
-**Windows Server 2003 SP1 和 WINDOWS XP 含 SP2：** 不支援此錯誤。
+**Windows Server 2003 （含 SP1）和 Windows XP SP2：** 不支援此錯誤。
 
 
 </dt> </dl> </dd> <dt>
@@ -144,7 +144,7 @@ ms.locfileid: "103850116"
 
 應用程式沒有存取與用戶端憑證相關聯之私密金鑰的必要許可權。
 
-**Windows Server 2003 SP1 和 WINDOWS XP 含 SP2：** 不支援此錯誤。
+**Windows Server 2003 （含 SP1）和 Windows XP SP2：** 不支援此錯誤。
 
 
 </dt> </dl> </dd> <dt>
@@ -156,7 +156,7 @@ ms.locfileid: "103850116"
 
 SSL 用戶端憑證的內容沒有相關聯的私密金鑰。 用戶端憑證可能已匯入沒有私密金鑰的電腦。
 
-**Windows Server 2003 SP1 和 WINDOWS XP 含 SP2：** 不支援此錯誤。
+**Windows Server 2003 （含 SP1）和 Windows XP SP2：** 不支援此錯誤。
 
 
 </dt> </dl> </dd> <dt>
@@ -184,7 +184,7 @@ SSL 用戶端憑證的內容沒有相關聯的私密金鑰。 用戶端憑證可
 
 當伺服器要求用戶端驗證時， [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) 會傳回。
 
-**Windows Server 2003 SP1 和 WINDOWS XP 含 SP2：** 不支援此錯誤。
+**Windows Server 2003 （含 SP1）和 Windows XP SP2：** 不支援此錯誤。
 
 
 </dt> </dl> </dd> <dt>
@@ -615,7 +615,7 @@ WinHTTP 函數失敗。 您可以在相同的要求控制碼上重試所需的�
 
 要求已逾時。
 
-無論在 Windows HTTP 服務中設定的超時值為何，都可能會因為 TCP/IP 超時行為而傳回此錯誤。
+無論在 Windows HTTP 服務中設定的超時值為何，都可能會因為 tcp/ip 超時行為而傳回此錯誤。
 
 
 </dt> </dl> </dd> <dt>
@@ -733,7 +733,7 @@ URL 指定了 "HTTP：" 或 "HTTPs：" 以外的配置。
 
 ## <a name="remarks"></a>備註
 
-針對 Windows XP 和 Windows 2000，請參閱 WinHttp 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+如 Windows XP 和 Windows 2000，請參閱 WinHttp 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
 ## <a name="requirements"></a>規格需求
 
@@ -741,8 +741,8 @@ URL 指定了 "HTTP：" 或 "HTTPs：" 以外的配置。
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
 | 標頭<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl>       |
 

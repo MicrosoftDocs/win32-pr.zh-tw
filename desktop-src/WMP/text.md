@@ -3,18 +3,18 @@ title: " (Windows Media Player SDK) 的文字"
 description: Text
 ms.assetid: 8c10cefb-d0d0-4214-8712-d171a76de95d
 keywords:
-- Windows Media Player 行動外觀、文字
+- Windows Media Player行動外觀、文字
 - 外觀，文字
 - 外觀的參考、文字
 - 外觀中的文字，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c801d93698bc7a17eea34df71514dd88b485f0d9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 55027415222516e72df61afab01a14cceb503528467bf329264014c94bf31ed7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118096"
 ---
 # <a name="text-windows-media-player-sdk"></a> (Windows Media Player SDK) 的文字
 

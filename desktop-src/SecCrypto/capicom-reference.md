@@ -4,16 +4,16 @@ ms.assetid: 9a2add82-53f9-49ed-b20c-019f95e7d260
 title: CAPICOM 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41b828f3b5b35e3e0ef799529f866c23416c8df8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c94bd7f8c2052f53b4dc1e244251ba76c1b10e349e0f43434a926db6dbeb9190
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772109"
 ---
 # <a name="capicom-reference"></a>CAPICOM 參考
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 CAPICOM COM 用戶端提供的服務可讓應用程式開發人員根據 [*密碼*](../secgloss/c-gly.md) 編譯將安全性新增至應用程式。 CryptoAPI 包含使用 [*數位簽章*](../secgloss/d-gly.md)進行驗證、封套訊息以及加密和解密資料的功能。
 
@@ -52,7 +52,7 @@ CAPICOM COM 用戶端提供的服務可讓應用程式開發人員根據 [*密�
 | [**延伸模組**](extensions.md)                   | 表示 [**擴充**](extension.md) 物件的集合。                                                      |
 | [**PrivateKey**](privatekey.md)                   | 代表私密金鑰。                                                                                               |
 | [**PublicKey**](publickey.md)                     | 代表 [**憑證**](certificate.md) 物件中的公開金鑰。                                                 |
-| [**市集**](store.md)                             | 提供屬性和方法，以選擇、管理及使用憑證存放區和這些存放區中的憑證。 |
+| [**儲存**](store.md)                             | 提供屬性和方法，以選擇、管理及使用憑證存放區和這些存放區中的憑證。 |
 | [**範本**](template.md)                       | 代表憑證的憑證延伸範本。                                                       |
 
 

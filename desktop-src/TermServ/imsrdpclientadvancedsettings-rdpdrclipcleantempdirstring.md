@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef6f4587551d2eb001dae03431f062a6e227cbda
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d98d00c750f02681ce73a7fd8775b10872ddd7a5917f89d995ea57cd64b865a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106998576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117757664"
 ---
 # <a name="imsrdpclientadvancedsettingsrdpdrclipcleantempdirstring-property"></a>IMsRdpClientAdvancedSettings：： RdpdrClipCleanTempDirString 屬性
 

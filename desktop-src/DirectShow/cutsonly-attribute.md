@@ -4,12 +4,12 @@ ms.assetid: 810921fb-952b-42df-abda-7ef9a273a02d
 title: cutsonly 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52fd1a30349d914e0a6e8df9a1c6518ec97e987a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9b51d24b7944523b0fa8684c3b1a19448bd2986cb49e3b01923ea26ec14c0269
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821923"
 ---
 # <a name="cutsonly-attribute"></a>cutsonly 屬性
 

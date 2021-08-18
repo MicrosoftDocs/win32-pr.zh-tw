@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0792d4cce994f4698c71252fcaaba4ebab4a62ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae561002c6be13d33805d5e459357e26e0f64721cb5cec2b32def4c143feaf46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749260"
 ---
 # <a name="effectseffectcangofullscreen"></a>效果。 effectCanGoFullScreen
 
@@ -48,7 +48,7 @@ ms.locfileid: "106989515"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

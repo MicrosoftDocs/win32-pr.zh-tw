@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ab27e95edfc74fa7a9f57d2010bf86299c55dd4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2352162d810ca75aeeee6db1c3d59c297b85414be46a365909c4ed56af179f8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119337"
 ---
 # <a name="controlsgetaudiolanguageid-method"></a>GetAudioLanguageID 方法
 
@@ -57,7 +57,7 @@ retVal = Controls.getAudioLanguageID(
 
 LCID 可唯一識別特定語言方言，稱為地區設定。
 
-針對 Windows Media 內容，與語言選取相關的屬性和方法只支援單一輸出。
+針對 Windows 媒體型內容，與語言選取相關的屬性和方法只支援單一輸出。
 
 **Windows Media Player 10** 行動裝置版：此屬性一律會傳回語言中立的 LCID (0) 。
 

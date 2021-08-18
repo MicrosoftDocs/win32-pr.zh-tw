@@ -9,20 +9,20 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e4dc9fd0573f3f98f0ec1110079f95f56a8c42e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15ccbee300cbfe1b08bc0509472ac3afcaa9ea3db54f6f1e38131cc08d2e8381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858173"
 ---
 # <a name="guidance-for-implementing-in-process-extensions"></a>執行擴充功能的指引 In-Process
 
 內含式擴充功能會載入至任何觸發它們的進程。 例如，Shell 命名空間延伸模組可以載入至任何進程，以直接或間接方式存取 Shell 命名空間。 Shell 的命名空間是由許多 Shell 作業所使用，例如顯示一般檔案對話方塊、透過其相關聯的應用程式開機檔案，或取得用來表示檔案的圖示。 因為同進程擴充功能可以載入至任意進程，所以必須小心，因為它們不會對主應用程式或其他內含式擴充造成負面影響。
 
-其中一個特定的執行時間是 *common language runtime (CLR)*，也稱為 *managed 程式碼* 或 *.NET Framework*。 **Microsoft 建議您不要將 managed 內含式擴充功能寫入 Windows 檔案總管或 Windows Internet Explorer，也不會將它們視為支援的案例。**
+其中一個特定的執行時間是 *common language runtime (CLR)*，也稱為 *managed 程式碼* 或 *.NET Framework*。 **Microsoft 建議您不要撰寫 managed 內含式擴充功能來 Windows 檔案總管或 Windows Internet Explorer，也不會將它們視為支援的案例。**
 
-本主題討論當您判斷 CLR 以外的任何執行時間是否適合用於同進程延伸模組時，所要考慮的因素。 其他執行時間的範例包括 JAVA、Visual Basic、JavaScript/ECMAScript、Delphi 和 C/c + + 執行時間程式庫。 本主題也提供一些原因，也就是 managed 程式碼在同進程延伸中不受支援。
+本主題討論當您判斷 CLR 以外的任何執行時間是否適合用於同進程延伸模組時，所要考慮的因素。 其他執行時間的範例包括 JAVA、Visual Basic、JavaScript/ECMAScript、Delphi 和 c/c + + 執行時間程式庫。 本主題也提供一些原因，也就是 managed 程式碼在同進程延伸中不受支援。
 
 ## <a name="version-conflicts"></a>版本衝突
 

@@ -4,12 +4,12 @@ ms.assetid: 51b447ad-b6da-424b-91df-e5be9ce225a5
 title: 傳送和接收 PGM 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab73999c33c97c6ba528552af6d746d54fb605df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 130b38ea52e5d0679b988e55f8292b9752a4bf15d0514a8277a2e0b3b2327001
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740569"
 ---
 # <a name="sending-and-receiving-pgm-data"></a>傳送和接收 PGM 資料
 
@@ -17,7 +17,7 @@ ms.locfileid: "104115052"
 
 ## <a name="sending-pgm-data"></a>傳送 PGM 資料
 
-建立了 PGM 傳送者會話之後，會使用各種 Windows 通訊端傳送函數傳送資料： [**send**](/windows/desktop/api/Winsock2/nf-winsock2-send)、 [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto)、 [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)和 [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto)。 由於 Windows 通訊端控制碼是檔案系統控制碼，因此 [**WriteFile**](/windows/win32/api/fileapi/nf-fileapi-writefile) 和 CRT 函數之類的其他函式也可以傳輸資料。 下列程式碼片段說明 PGM 傳送者作業：
+建立了 PGM 傳送者會話之後，會使用各種 Windows 通訊端傳送函式來傳送資料： [**send**](/windows/desktop/api/Winsock2/nf-winsock2-send)、 [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto)、 [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)和 [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto)。 由於 Windows 通訊端控制碼是檔案系統控制碼，因此 [**WriteFile**](/windows/win32/api/fileapi/nf-fileapi-writefile)和 CRT 函數之類的其他函式也可以傳輸資料。 下列程式碼片段說明 PGM 傳送者作業：
 
 
 ```C++
@@ -39,7 +39,7 @@ if (error == SOCKET_ERROR)
 
 ## <a name="receiving-pgm-data"></a>接收 PGM 資料
 
-建立了 PGM 接收器會話 [**之後，會**](/windows/desktop/api/winsock/nf-winsock-recv)使用各種 Windows 通訊端接收函式來接收資料： receive、 [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom)、 [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)和 [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom)。 由於 Windows 通訊端控制碼也是檔案控制代碼，因此 [**ReadFile**](/windows/win32/api/fileapi/nf-fileapi-readfile) 和 CRT 函數也可以用來接收 PGM 會話資料。 只要資料是依序，傳輸就會將資料轉送至接收者。 傳輸可保證傳回的資料是連續的，而且沒有重複的資料。 下列程式碼片段說明 PGM 接收作業：
+建立了 PGM 接收器會話 [**之後，會**](/windows/desktop/api/winsock/nf-winsock-recv)使用各種 Windows 通訊端接收函式來接收資料： receive、 [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom)、 [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)和 [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom)。 由於 Windows 通訊端控制碼也是檔案控制代碼，因此 [**ReadFile**](/windows/win32/api/fileapi/nf-fileapi-readfile)和 CRT 函數也可以用來接收 PGM 會話資料。 只要資料是依序，傳輸就會將資料轉送至接收者。 傳輸可保證傳回的資料是連續的，而且沒有重複的資料。 下列程式碼片段說明 PGM 接收作業：
 
 
 ```C++
@@ -68,7 +68,7 @@ else if (BytesRead == SOCKET_ERROR)
 -   傳送者上發生無法復原的錯誤。
 -   在本機電腦上發生過度的資源使用率，例如超過允許的內部緩衝區儲存空間上限，或遇到資源不足的狀況。
 -   發生資料一致性檢查錯誤。
--   元件的 PGM 失敗取決於 TCP/IP 或 Windows 通訊端。
+-   元件的 PGM 失敗取決於 tcp/ip 或 Windows 通訊端。
 
 上述清單中的第一個和第二個專案，可能會導致接收者在資源耗盡之前或最後移至傳送者的視窗之外，執行過多的緩衝處理。
 

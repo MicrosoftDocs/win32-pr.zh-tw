@@ -3,17 +3,17 @@ title: 選擇函數
 description: 選擇函數
 ms.assetid: ded3c578-5087-4e4f-bf21-2149cf72719d
 keywords:
-- Windows Media Player 行動外觀、音訊函式
+- Windows Media Player行動外觀、音訊函式
 - 適用于音訊的外觀、功能
 - 建立面板、音訊功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a139dc21a7d10847a7920955988ec2b02fced0f3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 222a7a6b26b225b0c40e461833f731c477c84338c458f88074fd747c33a1e70e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119830"
 ---
 # <a name="choosing-the-functions"></a>選擇函數
 
@@ -31,7 +31,7 @@ ms.locfileid: "104372543"
 
 
 
- 
+ 
 
 \*適用于 Windows Media Player 10 行動裝置版或更新版本。
 
@@ -42,9 +42,9 @@ ms.locfileid: "104372543"
 [**外觀指南**](skin-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

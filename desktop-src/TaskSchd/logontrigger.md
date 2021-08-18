@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b9c4b2031b39a6dfd483b039023ad9114271b21
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1aed10ba9c0c792a5e4f882988ca07770c4ac568cb893b8ffac16a3a24efd8f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760095"
 ---
 # <a name="logontrigger-object"></a>LogonTrigger 物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "103934674"
 
 
 
-| 屬性                                                            | 存取類型           | Description                                                                                                                                                                                               |
+| 屬性                                                            | 存取類型           | 描述                                                                                                                                                                                               |
 |:--------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**延遲**](logontrigger-delay.md)<br/>                      | 讀取/寫入<br/> | 取得或設定值，這個值表示使用者登入和工作啟動時間之間的時間量。<br/>                                                                              |
 | [**啟用**](trigger-enabled.md)<br/>                       | 讀取/寫入<br/> | 繼承自 [**觸發**](trigger.md) 程式物件。 取得或設定布林值，這個值會指出是否已啟用觸發程式。<br/>                                                              |
@@ -71,8 +71,8 @@ ms.locfileid: "103934674"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -82,7 +82,7 @@ ms.locfileid: "103934674"
 
 <dl> <dt>
 
-[**觸發**](trigger.md)
+[**觸發程序**](trigger.md)
 </dt> </dl>
 
  

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cdcf21ce7443d7730d4a75518fb4749af0b9e52
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 038f348093a512095ee930c4147024bc789ead5edd3498243eb83a01608bfac9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749709"
 ---
 # <a name="downloaditemtype"></a>DownloadItem。類型
 
@@ -49,7 +49,7 @@ DownloadManager.getDownloadCollection(
 
 | 值      | 描述                                                                                                                                                                            |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 背景資訊 | 僅 (Windows XP。 ) 下載會在處理器時間變成可用時，作為背景程式進行。 即使在 Windows Media Player 或 Windows XP 關閉時，下載狀態仍會保存。 |
+| 背景資訊 |  (Windows XP。 ) 下載會在處理器時間變成可用時，做為背景進程。 即使在 Windows Media Player 或 Windows XP 關閉時，下載狀態仍然存在。 |
 | 即時  |  (所有支援的作業系統。 ) 下載會一次完成。 會話之間不會保存任何下載狀態。                                                                       |
 
 
@@ -58,7 +58,7 @@ DownloadManager.getDownloadCollection(
 
 ## <a name="remarks"></a>備註
 
-每種類型的下載都有其優點和缺點。 背景下載可讓使用者繼續進行其他工作，甚至重新開機 Windows 而不需要取消下載，但要花更多時間才能完成下載，而且只支援 Windows XP。 即時下載需要較少的時間才能完成，但會要求使用者在關閉 Windows Media Player 之前完成下載。
+每種類型的下載都有其優點和缺點。 背景下載可讓使用者繼續進行其他工作，甚至重新開機 Windows 而不需要取消下載，但需要更多時間才能完成下載，且僅支援 Windows XP。 即時下載需要較少的時間才能完成，但會要求使用者在關閉 Windows Media Player 之前完成下載。
 
 ## <a name="requirements"></a>規格需求
 

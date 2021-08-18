@@ -1,19 +1,19 @@
 ---
-title: Windows Web 服務功能
-description: Windows Web 服務函式支援 Windows Web 服務 API 的以方法為基礎的程式設計模型。
+title: WindowsWeb 服務函數
+description: Windows web 服務函式支援 Windows web 服務 API 的以方法為基礎的程式設計模型。
 ms.assetid: 7eb62c55-d01e-43aa-aeb7-2940bf505b66
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38a49f6cca4ea6a4ac1bcfdc8ad4a5de4cbb10aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee4daf5f1442f0badba0a9d6e222c9c986063e4f9cac0a26485f02e08ada1006
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192408"
 ---
-# <a name="windows-web-services-functions"></a>Windows Web 服務功能
+# <a name="windows-web-services-functions"></a>WindowsWeb 服務函數
 
-Windows Web 服務函式支援 Windows Web 服務 API 的以方法為基礎的程式設計模型。 [服務模型](service-model-layer-overview.md)API 層的[服務主機](service-host.md)執行時間環境提供伺服器端程式設計模型。 伺服器端應用程式會視需要開啟、關閉和釋出服務主機資源，以處理用戶端要求。 服務 Proxy 提供用戶端 API 程式設計模型。 用戶端應用程式可以透過服務 proxy 透過通道傳送和接收訊息，做為方法呼叫。
+Windows web 服務函式支援 Windows web 服務 API 的以方法為基礎的程式設計模型。 [服務模型](service-model-layer-overview.md)API 層的[服務主機](service-host.md)執行時間環境提供伺服器端程式設計模型。 伺服器端應用程式會視需要開啟、關閉和釋出服務主機資源，以處理用戶端要求。 服務 Proxy 提供用戶端 API 程式設計模型。 用戶端應用程式可以透過服務 proxy 透過通道傳送和接收訊息，做為方法呼叫。
 
 Windows Web 服務 API 包含下列功能：
 
@@ -213,9 +213,9 @@ Windows Web 服務 API 包含下列功能：
 -   [**WsWriteXmlnsAttribute**](/windows/desktop/api/WebServices/nf-webservices-wswritexmlnsattribute)
 -   [**WsXmlStringEquals**](/windows/desktop/api/WebServices/nf-webservices-wsxmlstringequals)
 
- 
+ 
 
- 
+ 
 
 
 

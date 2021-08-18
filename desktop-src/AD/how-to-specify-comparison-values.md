@@ -7,12 +7,12 @@ keywords:
 - 如何指定比較值 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edba238961cdc18b088b6b5bd5b06ff4be383add
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: b5babc7d9781895c9671594214e4e036a85ef951cdb4b97ba34d708d160dd8fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188119"
 ---
 # <a name="how-to-specify-comparison-values"></a>如何指定比較值
 
@@ -117,7 +117,7 @@ LDAP 比對規則運算子也可以用來執行位比較。 如需相符規則�
 
 </dd> <dt>
 
-<span id="DN"></span><span id="dn"></span>Dn
+<span id="DN"></span><span id="dn"></span>DN
 </dt> <dd>
 
 必須提供要比對的整個分辨名稱。

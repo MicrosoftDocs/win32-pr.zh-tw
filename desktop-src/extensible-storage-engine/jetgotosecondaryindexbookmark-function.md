@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 893833fd1770fe3d972033a4d10f9047b0f61dfc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e720286c3e7308078d5d5ec91aa27edc95b725830824473e7b5858f2de5bc90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118072476"
 ---
 # <a name="jetgotosecondaryindexbookmark-function"></a>JetGotoSecondaryIndexBookmark 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetgotosecondaryindexbookmark-function"></a>JetGotoSecondaryIndexBookmark 函式
 
 **JetGotoSecondaryIndexBookmark** 函式會將游標放在與指定次要索引書簽相關聯的索引項目目。 次要索引書簽必須與原始抓取的相同資料表上的相同索引一起使用。 您可以使用 **JetGotoSecondaryIndexBookmark** 來取出索引項目的次要索引書簽。
 
-**Windows xp：**  **JetGotoSecondaryIndexBookmark** 是在 windows xp 中引進的。
+**Windows xp：****JetGotoSecondaryIndexBookmark** 是在 Windows xp 引進。  
 
 ```cpp
     JET_ERR JET_API JetGotoSecondaryIndexBookmark(
@@ -100,7 +100,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -110,7 +110,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -125,7 +125,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>作業無法完成，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p><strong>WINDOWS XP：</strong>  這個傳回值是在 Windows XP 中引進的。</p></td>
+<p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidBookmark</p></td>
@@ -154,7 +154,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p><strong>WINDOWS XP：</strong>  這個傳回值是在 Windows XP 中引進的。</p></td>
+<p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -184,7 +184,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>
