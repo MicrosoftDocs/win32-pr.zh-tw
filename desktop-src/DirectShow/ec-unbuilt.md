@@ -4,12 +4,12 @@ ms.assetid: fb38ad3e-c2a8-4329-87a4-9e2437a7c4ca
 title: 'EC_UNBUILT (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e2a0e3fe47100c52da607afcfcdc2cdd520232
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2bba711e2709c93aad7cbef773b972c1b7ceb963b0721681bebab0bd1568e78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015866"
 ---
 # <a name="ec_unbuilt"></a>EC \_ UNBUILT
 

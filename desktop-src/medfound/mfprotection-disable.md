@@ -4,12 +4,12 @@ ms.assetid: 1ED6587A-8880-4DC7-90DA-D6AC9EDFEEB5
 title: 'MFPROTECTION_DISABLE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1b2c8b5fa90218ef58300ccfdcd77f465f0685d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 698bf0da67b825d3a6eaf319ac0a6bb4d6d5eaa0413d53861c7f847a6922abdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973197"
 ---
 # <a name="mfprotection_disable-attribute"></a>MFPROTECTION \_ DISABLE 屬性
 
@@ -25,8 +25,8 @@ ms.locfileid: "106983423"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

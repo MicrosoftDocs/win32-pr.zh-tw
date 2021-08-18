@@ -4,12 +4,12 @@ ms.assetid: 5510b393-1f2e-44ba-97f5-663674d55b20
 title: DisableRollback 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 740e838a6dca2d97db616703faf24c590ab69bc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cbe500e3b810e5b06802e3a0face1da9b76441099a407882da08d5911a37d60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745368"
 ---
 # <a name="disablerollback-action"></a>DisableRollback 動作
 

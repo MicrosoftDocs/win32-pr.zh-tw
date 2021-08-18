@@ -3,7 +3,7 @@ title: 'SB_SETMINHEIGHT 訊息 (Commctrl .h) '
 description: 設定狀態視窗之繪圖區域的最小高度。
 ms.assetid: 346fe654-f808-4191-9c3d-f9a4def08df1
 keywords:
-- SB_SETMINHEIGHT message Windows 控制項
+- SB_SETMINHEIGHT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bcad3bf0cb4d11567e82aae4ef46a95fefe3890
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b644067e48312b265d132f7d06d53343c4612b879c3a09b638ebd0a98a7c88a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119293728"
 ---
 # <a name="sb_setminheight-message"></a>SB \_ SETMINHEIGHT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103934793"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: ce8336cd-d9aa-4b93-ab47-30edd7518dab
 title: 函式 (Windows 屬性系統)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da2d89b03b52f09be39c22bc953d3f08fd251ae2
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 9239967f4c8c4bc13babf7281a5f72b80d843d25b03272d1a48d0568f484bad5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970997"
 ---
 # <a name="functions-windows-property-system"></a>函式 (Windows 屬性系統)
 
@@ -19,8 +19,8 @@ ms.locfileid: "110549693"
 
 | 主題                                                                                                | 目錄                                                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [PROPVARIANT 和 VARIANT 函式](./functions-propvarutil.md)                                     | 本節說明一組搭配 [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) 和 [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) 類型使用的 Windows 屬性系統轉換和 helper 函數。                                                                                                                                                                                                          |
-| [屬性包函數](property-bag-functions.md)                                                 | 本節說明一組與 [**IPropertyBag**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) 物件搭配使用的 Windows helper 函數。                                                                                                                                                                                                                                                                             |
+| [PROPVARIANT 和 VARIANT 函式](./functions-propvarutil.md)                                     | 本節說明一組搭配 [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)和 [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant)類型使用的 Windows 屬性系統轉換和 helper 函數。                                                                                                                                                                                                          |
+| [屬性包函數](property-bag-functions.md)                                                 | 本節說明一組與 [**IPropertyBag**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag)物件搭配使用的 Windows helper 函數。                                                                                                                                                                                                                                                                             |
 | [**PifMgr \_ CloseProperties**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_closeproperties)                                            | 關閉使用 [**PifMgr \_ OpenProperties**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_openproperties)開啟的應用程式屬性。<br/>                                                                                                                                                                                                                                                                                      |
 | [**PifMgr \_ GetProperties**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_getproperties)                                                | 從 pif 檔案傳回指定的資料區塊。<br/>                                                                                                                                                                                                                                                                                                                                               |
 | [**PifMgr \_ OpenProperties**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_openproperties)                                              | 開啟與 Microsoft MS-DOS 應用程式相關聯的 pif 檔案，並將控制碼傳回給應用程式的屬性。<br/>                                                                                                                                                                                                                                                                         |

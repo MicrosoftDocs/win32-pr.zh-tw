@@ -4,22 +4,22 @@ ms.assetid: 464bd562-e49f-4099-b66e-48b7caf230bb
 title: TopoEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57b2edeefc151ca16a8a528411e98df5a0999e36
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 11aab79d94f9b0f7a99ff8d2200271c4ff80f8805322cda951d71e82323251fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112898"
 ---
 # <a name="topoedit"></a>TopoEdit
 
 TopoEdit 是用來建立和測試拓撲的視覺化檢視。 透過 TopoEdit，您可以執行下列工作：
 
 -   藉由新增各種拓撲節點（例如來源、轉換和輸出節點）來建立拓撲。
--   連接並解決拓撲結構。
+-   連線並解決拓撲結構。
 -   透過播放來測試拓撲的功能。
 
-TopoEdit 可在 Windows SDK 中取得，從 Windows Server 2008 的 Windows SDK 開始。
+從 Windows Server 2008 的 Windows SDK 開始，Windows SDK 可以使用 TopoEdit。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -46,7 +46,7 @@ TopoEdit 可在 Windows SDK 中取得，從 Windows Server 2008 的 Windows SDK 
 
 | 需求 | 值 |
 |--------------------------|--------------------------------------|
-| 最低 SDK 版本      | 適用于 Windows Server 2008 的 Windows SDK。 |
+| 最低 SDK 版本      | Windows適用于 Windows Server 2008 的 SDK。 |
 | 最低作業系統 | Windows Vista                        |
 
 

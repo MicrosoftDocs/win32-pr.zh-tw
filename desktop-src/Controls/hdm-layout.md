@@ -3,7 +3,7 @@ title: 'HDM_LAYOUT 訊息 (Commctrl .h) '
 description: 抓取用來在父視窗的目標矩形內設定標題控制項大小和位置的資訊。 您可以明確地傳送此訊息，或使用標頭 \_ 版面配置宏。
 ms.assetid: 0763e483-f01d-4739-8c61-1c52d1aad0b4
 keywords:
-- HDM_LAYOUT message Windows 控制項
+- HDM_LAYOUT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a70fc46dee52f52862136dbe583db9f6d7a0e13e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff4194ad5aa1847aa977bac1269a7ab88d36a571824387e07264713726135f25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435928"
 ---
 # <a name="hdm_layout-message"></a>HDM \_ 版面配置訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104025126"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

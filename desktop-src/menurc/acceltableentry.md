@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9ff12fe39f2ea54c90530133263bceb157d79dcf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5ef163c8473c049d3bbe6fbfa8b36876765bf07df0b26cd1d68d3f92c5d315f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972127"
 ---
 # <a name="acceltableentry-structure"></a>ACCELTABLEENTRY 結構
 
@@ -56,7 +56,7 @@ typedef struct {
 | 值                                                                                                                                                                                                      | 意義                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FVIRTKEY"></span><span id="fvirtkey"></span><dl> <dt>**FVIRTKEY**</dt> <dt>TRUE</dt> </dl>    | 快速鍵是一種 [虛擬金鑰程式碼](/windows/desktop/inputdev/virtual-key-codes)。 如果未指定此旗標，則會假設快速鍵指定 ASCII 字元碼。 <br/>                          |
-| <span id="FNOINVERT"></span><span id="fnoinvert"></span><dl> <dt>**FNOINVERT**</dt> <dt>0x02</dt> </dl> | 使用快速鍵時，不會反白顯示功能表列上的功能表項目。 這個屬性已過時，而且只是為了與針對16位 Windows 設計的資源檔回溯相容。<br/> |
+| <span id="FNOINVERT"></span><span id="fnoinvert"></span><dl> <dt>**FNOINVERT**</dt> <dt>0x02</dt> </dl> | 使用快速鍵時，不會反白顯示功能表列上的功能表項目。 這個屬性已過時，而且只是為了與針對16位 Windows 所設計資源檔的回溯相容性而保留。<br/> |
 | <span id="FSHIFT"></span><span id="fshift"></span><dl> <dt>**FSHIFT**</dt> <dt>0x04</dt> </dl>          | 只有當使用者按下 SHIFT 鍵時，才會啟用此加速器。 此旗標只適用于虛擬機器碼。 <br/>                                                                                        |
 | <span id="FCONTROL"></span><span id="fcontrol"></span><dl> <dt>**FCONTROL**</dt> <dt>0x08</dt> </dl>    | 只有當使用者按下 CTRL 鍵時，才會啟用此加速器。 此旗標只適用于虛擬機器碼。 <br/>                                                                                         |
 | <span id="FALT"></span><span id="falt"></span><dl> <dt>**FALT**</dt> <dt>0x10</dt> </dl>                | 只有當使用者按下 ALT 鍵時，才會啟用此加速器。 此旗標只適用于虛擬機器碼。 <br/>                                                                                          |

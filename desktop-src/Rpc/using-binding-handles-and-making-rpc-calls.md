@@ -4,12 +4,12 @@ description: RPC 程式設計師間常見的錯誤是處理所有例外狀況。
 ms.assetid: 5b452129-4060-49f9-9400-8585fb5714a4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b285fc3030b92e2616c850bf79c73e37f0341c9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f1350e29344d09f42417a30fa3d32729d7ddd02247b17f80bccd0ae537c6c8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010806"
 ---
 # <a name="using-binding-handles-and-making-rpc-calls"></a>使用系結控制碼並進行 RPC 呼叫
 
@@ -71,6 +71,6 @@ RPC 程式設計師間常見的錯誤是處理所有例外狀況。 許多程式
 [輸入 \_ strict \_ 內容 \_ 控制碼](/windows/desktop/Midl/type-strict-context-handle)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: effe4080-63c1-4f35-a5e3-e7e60754b28f
 title: 範例 C 程式：編碼和解碼雜湊訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5904a684d02a81acba1502162c779b9f124d3dbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1119ff8c54e0a181e5b99cdb70b6a3a62825a7d2b05879a85547bee4bcb7c310
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007716"
 ---
 # <a name="example-c-program-encoding-and-decoding-a-hashed-message"></a>範例 C 程式：編碼和解碼雜湊訊息
 

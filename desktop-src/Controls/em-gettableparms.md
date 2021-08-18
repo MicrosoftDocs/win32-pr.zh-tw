@@ -3,7 +3,7 @@ title: 'EM_GETTABLEPARMS 訊息 (Richedit .h) '
 description: 抓取資料表資料列的資料表參數，以及指定之資料格數目的資料格參數。
 ms.assetid: 36ADA41B-735B-4D6E-92B1-33260C71DF73
 keywords:
-- EM_GETTABLEPARMS message Windows 控制項
+- EM_GETTABLEPARMS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7eb244b64258b1cf83559e21affea51b1d0c5d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2ddca96ce29a0f7b7076580b48cfeceecf1f638830b7c77bc9406a39e97de57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545028"
 ---
 # <a name="em_gettableparms-message"></a>EM \_ GETTABLEPARMS 訊息
 
@@ -56,7 +56,7 @@ ms.locfileid: "103843483"
 
 
 
-| 傳回碼                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 傳回碼                                                                                    | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**E \_失敗**</dt> </dl>        | 無法進行變更。 如果控制項是純文字或單行控制項，或插入點位於數學物件內，就會發生這種情況。 如果 [**EM \_ SETEDITSTYLEEX**](em-seteditstyleex.md) 訊息設定了「SES」（ **\_ \_ 值得注意** 的值），則也會在停用資料表時進行。 <br/>                                                                                                                                                                     |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>   | *WParam* 或 *lParam* 為 Null 或指向不正確結構。 [**TABLEROWPARMS**](/windows/desktop/api/Richedit/ns-richedit-tablerowparms)結構的 **cbRow** 成員必須等於 `sizeof(TABLEROWPARMS)` 或 sizeof (TABLEROWPARMS) 2 \* sizeof (long) 。 第二個值是 RichEdit 4.1 **TABLEROWPARMS** 結構的大小。 **TABLEROWPARMS** 結構的 **cbCell** 成員必須相等 `sizeof(TABLECELLPARMS)` 。 查詢字元位置必須是資料表資料列分隔符號。 |
@@ -78,8 +78,8 @@ ms.locfileid: "103843483"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

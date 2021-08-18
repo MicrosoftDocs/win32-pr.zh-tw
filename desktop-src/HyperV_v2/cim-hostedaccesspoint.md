@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0684c2855e7966a0c01d1d9f9bfa0cbd71c2397a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2079d34af64b7819f7c7dc4991a00a9a01b350ee45c54b910a35f1008d45e510
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014626"
 ---
 # <a name="cim_hostedaccesspoint-class-hyper-v-management"></a>CIM_HostedAccessPoint 類別 (Hyper-v 管理) 
 

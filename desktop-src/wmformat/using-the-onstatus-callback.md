@@ -3,26 +3,26 @@ title: 使用 OnStatus 回呼
 description: 使用 OnStatus 回呼
 ms.assetid: 598e2d13-709b-42a3-ae06-b8c7d208ca9e
 keywords:
-- Windows Media Format SDK，OnStatus 回呼方法
-- Windows Media Format SDK，IWMStatusCallback 介面
+- Windows媒體格式 SDK，OnStatus 回呼方法
+- Windows媒體格式 SDK，IWMStatusCallback 介面
 - OnStatus 回呼方法，關於
 - IWMStatusCallback
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56e96b8d7fd75fd8a1d97a56c8b09304c51d0238
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8eb1f2ae8ef64204435d7837b75258b77ec12f516103caeb936e82f979049ab4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027116"
 ---
 # <a name="using-the-onstatus-callback"></a>使用 OnStatus 回呼
 
-Windows Media 格式 SDK 中的數個物件會呼叫 [**IWMStatusCallback：： OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) 回呼方法。 **OnStatus** 會接收表示 SDK 作業狀態變更的訊息。
+Windows 媒體格式 SDK 中的數個物件會呼叫 [**IWMStatusCallback：： OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus)回呼方法。 **OnStatus** 會接收表示 SDK 作業狀態變更的訊息。
 
 若要使用 **OnStatus** 回呼方法，您必須在應用程式中執行繼承自 [**IWMStatusCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) 介面的類別。 在類別中包含 **OnStatus** 版本的程式碼。 您可以在此 SDK 隨附的範例中找到數個 **OnStatus** 的範例。 如需範例的詳細資訊，請參閱 [範例應用程式](sample-applications.md)。
 
-您必須將狀態回呼的執行與 Windows Media Format SDK 的各種物件產生關聯。 每個物件都有不同的方式來建立此關聯。 如需關聯特定物件的方法清單，請參閱 **IWMStatusCallback** 參考頁面。
+您必須將狀態回呼的執行與 Windows 媒體格式 SDK 的各種物件建立關聯。 每個物件都有不同的方式來建立此關聯。 如需關聯特定物件的方法清單，請參閱 **IWMStatusCallback** 參考頁面。
 
 **OnStatus** 可接收的狀態訊息是在 [**WMT \_ 狀態**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status)列舉類型中定義。
 
@@ -35,9 +35,9 @@ Windows Media 格式 SDK 中的數個物件會呼叫 [**IWMStatusCallback：： 
 [**使用回呼方法**](using-the-callback-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

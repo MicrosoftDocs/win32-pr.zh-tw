@@ -3,19 +3,19 @@ title: 點擊 RGB 色彩
 description: 點擊 RGB 色彩
 ms.assetid: b71a0a66-11aa-4a21-b78a-3bd90f80a428
 keywords:
-- Windows Media Player 行動外觀、按鈕色彩
+- Windows Media Player行動外觀、按鈕色彩
 - 外觀，按鈕色彩
 - 外觀、按鈕的參考
 - 外觀、色彩中的按鈕
 - 外觀的色彩參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7c69863c4197702383f729c8d7e8d30d3cb52bc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3c33e4b7eb2af9c1305a6644559e162c581c27b6b11e5b709376663082042d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390868"
 ---
 # <a name="hit-rgb-color"></a>點擊 RGB 色彩
 
@@ -24,7 +24,7 @@ ms.locfileid: "106965184"
 > [!Note]  
 > 在 Windows Media Player 10 行動裝置版或更新版本的面板中，按鈕類型已被取代。
 
- 
+ 
 
 您可以針對這些值使用任何色彩，但請確定您定義的每個區域按鈕在區域影像檔中都有唯一的色彩，而您在這裡定義的色彩值，會符合區域影像中使用的實際色彩。
 
@@ -42,7 +42,7 @@ ms.locfileid: "106965184"
 
 
 
- 
+ 
 
 如果您未使用區域按鈕，則必須輸入下列內容：
 
@@ -61,9 +61,9 @@ ms.locfileid: "106965184"
 [**按鈕**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

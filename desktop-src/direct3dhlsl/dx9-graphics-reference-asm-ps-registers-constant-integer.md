@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9b03a27a95f84ae30a70147caaf5662e1949cf18
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ce2d9ba19f97439da098563639bc8940cdae2f202a6f24cdd1940e25cfc14e9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489379"
 ---
 # <a name="constant-integer-register-hlsl-ps-reference"></a>常數整數 register (HLSL PS 參考) 
 
@@ -36,7 +36,7 @@ ms.locfileid: "104971749"
 
 
 
- 
+ 
 
 在 Direct3D 8 和 Direct3D 9 之間變更著色器常數的行為。
 
@@ -50,6 +50,6 @@ ms.locfileid: "104971749"
 [寄存 器](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

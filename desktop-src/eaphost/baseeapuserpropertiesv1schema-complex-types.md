@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b16b0942ff8d64b30221d13eade7d44183a79a2a
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: c9485ab187df87fca5145b98362354f3095d93b90ee68108e8fae97dac528aa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "107001058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119483408"
 ---
 # <a name="baseeapuserpropertiesv1-schema-complex-types"></a>baseeapuserpropertiesv1 架構複雜類型
 

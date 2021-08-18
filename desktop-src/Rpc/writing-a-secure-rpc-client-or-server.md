@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、最佳作法、撰寫安全的用戶端或伺服器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac006f82a0db8abcd7184b2453a970521004145b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b752d8dab216691105e428833c83bce28b974f121ddcc77861fbb6671d72dd22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010386"
 ---
 # <a name="writing-a-secure-rpc-client-or-server"></a>撰寫安全的 RPC 用戶端或伺服器
 
@@ -34,10 +34,10 @@ ms.locfileid: "104023839"
 -   [不要信任您的對等](do-not-trust-your-peer.md)
 -   [請勿使用端點安全性](do-not-use-endpoint-security.md)
 -   [請小心在相同進程中執行其他 RPC 端點](be-wary-of-other-rpc-endpoints-running-in-the-same-process.md)
--   [確認伺服器是否為其宣稱的身分](verify-the-server-is-who-it-claims-to-be.md)
+-   [確認伺服器神秘宣告為](verify-the-server-is-who-it-claims-to-be.md)
 -   [使用主流通訊協定序列](use-mainstream-protocol-sequences.md)
 -   [我的 RPC 伺服器現在有多安全？](how-secure-is-my-rpc-server-now.md)
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: d141bcec-e9a8-48b8-86cf-9476a2cc6f9f
 title: 將筆墨顯示為筆墨
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aca1d6a1a4700d996d65a9cfd7d62e6b27e1c71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de038df5c1b7e43f90ea02edc166039d606fe56761c96a47508714fd94ed6530
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709468"
 ---
 # <a name="displaying-ink-as-ink"></a>將筆墨顯示為筆墨
 

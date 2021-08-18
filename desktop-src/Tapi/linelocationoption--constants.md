@@ -4,12 +4,12 @@ ms.assetid: 3b185c16-2535-4a90-855b-29e52828ea4c
 title: 'LINELOCATIONOPTION_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f60398953d2f809e29a78323e3b1dedfcac7a1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c45de77a6d887b6fb0c5fa0e45e7005a621aa10ca44cc3218078eea74d00a2fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003046"
 ---
 # <a name="linelocationoption_-constants"></a>LINELOCATIONOPTION \_ 常數
 

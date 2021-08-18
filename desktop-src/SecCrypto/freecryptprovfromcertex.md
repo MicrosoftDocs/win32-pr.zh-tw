@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: 1be6270ebf9320a9c7527736b9fc4894cd50de9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b887fd7cd37e8963430378590552273b0856dc2cf73e9d0da15ab41a5a622447
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006736"
 ---
 # <a name="freecryptprovfromcertex-function"></a>FreeCryptProvFromCertEx 函式
 
@@ -74,7 +74,7 @@ CAPICOM CSP 的控制碼或 CNG 金鑰的控制碼。
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | <span id="AT_KEYEXCHANGE"></span><span id="at_keyexchange"></span><dl> <dt>**在 \_ KEYEXCHANGE**</dt> </dl>                     | 金鑰組是一組金鑰交換。<br/>                                                                  |
 | <span id="AT_SIGNATURE"></span><span id="at_signature"></span><dl> <dt>**AT \_ SIGNATURE**</dt> </dl>                           | 金鑰組是一組簽章組。<br/>                                                                     |
-| <span id="CERT_NCRYPT_KEY_SPEC"></span><span id="cert_ncrypt_key_spec"></span><dl> <dt>**CERT \_ NCRYPT \_ 金鑰 \_ 規格**</dt> </dl> | 金鑰是 CNG 金鑰。<br/> **Windows Server 2003 和 WINDOWS XP：** 不支援這個值。<br/> |
+| <span id="CERT_NCRYPT_KEY_SPEC"></span><span id="cert_ncrypt_key_spec"></span><dl> <dt>**CERT \_ NCRYPT \_ 金鑰 \_ 規格**</dt> </dl> | 金鑰是 CNG 金鑰。<br/> **Windows Server 2003 和 Windows XP：** 不支援這個值。<br/> |
 
 
 
@@ -113,8 +113,8 @@ CAPICOM CSP 的控制碼或 CNG 金鑰的控制碼。
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

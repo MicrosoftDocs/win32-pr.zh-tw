@@ -4,12 +4,12 @@ ms.assetid: A7BA0AE0-D251-4813-B301-B5588615B6F5
 title: IEnumCERTVIEWCOLUMN 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd71addbf4067ef8d44a0e67baec0437f0b2bab1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8db48700f3a553d6ba9d98f38850d74a34ef945d9d0213d800367981c7485c4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005416"
 ---
 # <a name="ienumcertviewcolumn-methods"></a>IEnumCERTVIEWCOLUMN 方法
 

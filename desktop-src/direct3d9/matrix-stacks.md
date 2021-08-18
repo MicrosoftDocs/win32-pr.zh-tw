@@ -4,12 +4,12 @@ ms.assetid: e3cfb29e-4ef6-4b48-ad6b-f0371f526507
 title: " (Direct3D 9) 的矩陣堆疊"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d535307fb99d8743b910f2f3f8c6d55e197748e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a480236bc42142b725e232a9fb92807be73fb03097104a0cc4fc08643f4361af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044322"
 ---
 # <a name="matrix-stacks-direct3d-9"></a> (Direct3D 9) 的矩陣堆疊
 

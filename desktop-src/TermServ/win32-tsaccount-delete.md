@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c6ab76ad1200fc872a3a105e74533460104d806
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a320307838eb519e1f579e4c58be74a9231fcb3f88fe674dd89fc9e3bb5768ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058356"
 ---
 # <a name="delete-method-of-the-win32_tsaccount-class"></a>Win32 TSAccount 類別的 Delete 方法 \_
 

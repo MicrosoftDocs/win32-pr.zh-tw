@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bda6fe36d1168045ea9f8d331ff334920ed1dd19
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 07245e97e091f607d142de57c00109d3671bd81b5f34b9062681229090ff6b50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439398"
 ---
 # <a name="setshareinfo-method-of-the-win32_clustershare-class"></a>Win32 ClusterShare 類別的 SetShareInfo 方法 \_
 

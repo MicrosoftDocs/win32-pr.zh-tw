@@ -4,12 +4,12 @@ description: WinSNMP 應用程式會藉由傳送 SNMP 訊息來起始傳輸要�
 ms.assetid: a7439cd2-af13-4e2b-a0a6-5cc271a011e1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 613ac7079f7dc206280b8d8077d2d5ea8db7151c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a4461c5d554444b2a7a5384a0ca79825b27ebe3c3bc489b6152c81ae71d172f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009066"
 ---
 # <a name="sending-snmp-messages"></a>傳送 SNMP 訊息
 
@@ -21,9 +21,9 @@ WinSNMP 應用程式必須呼叫 [**SnmpRecvMsg**](/windows/desktop/api/Winsnmp/
 
 當應用程式呼叫 [**SnmpSendMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsendmsg)時，此實作為驗證 PDU 和其他訊息元素的有效性。
 
- 
+ 
 
- 
+ 
 
 
 

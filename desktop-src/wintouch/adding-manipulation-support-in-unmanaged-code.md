@@ -3,9 +3,9 @@ title: 在非受控碼中新增操作支援
 description: 本節說明如何藉由執行 IManipulationEvents 介面的事件接收，來將操作支援新增至非受控程式碼 \_ 。
 ms.assetid: 7d8c6230-eaca-43c7-ad2f-651851b69d7f
 keywords:
-- Windows Touch，操作
-- Windows Touch，_IManipulationEvents 介面
-- Windows Touch，IManipulationProcessor 介面
+- Windows觸控、操作
+- Windows觸控、_IManipulationEvents 介面
+- WindowsTouch、IManipulationProcessor 介面
 - 操作，在非受控碼中新增支援
 - 操作，非受控碼支援
 - 操作，支援非受控碼
@@ -15,12 +15,12 @@ keywords:
 - IManipulationProcessor 介面，在非受控碼中操作支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2e000b6d3518c4e90eb5ae03b581e81037edf9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7ff526c128b6da83fae3a74b88cd3bb21bc3a81c507c0a76a7c70dbddc5f76d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709998"
 ---
 # <a name="adding-manipulation-support-in-unmanaged-code"></a>在非受控碼中新增操作支援
 
@@ -358,7 +358,7 @@ CManipulationEventSink* g_pManipulationEventSink;
 既然您已設定操作處理器和事件接收器，您必須將觸控資料摘要到操作處理器，以觸發操作事件。
 
 > [!Note]  
-> 這是 [與 Windows Touch 訊息開始使用](getting-started-with-multi-touch-messages.md)中所討論的相同程式。
+> 這是[與 Windows Touch 訊息開始使用](getting-started-with-multi-touch-messages.md)中所討論的相同程式。
 
 首先，您將建立一些程式碼來解碼 [**WM \_ 觸控**](wm-touchdown.md) 訊息，並將它們傳送至 [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) 介面以引發事件。 下列程式碼顯示從 **WndProc** 方法呼叫的範例執行，並傳回訊息的 **LRESULT** 。
 
@@ -462,4 +462,4 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 </dt> </dl>
 
 
- 
+ 

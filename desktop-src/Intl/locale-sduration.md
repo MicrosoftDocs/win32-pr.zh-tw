@@ -4,12 +4,12 @@ ms.assetid: 45ffd7ed-f964-4948-8679-cf960b5c1e0e
 title: LOCALE_SDURATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d00740d2f041794b36e8f0e0d8ad2d25723bc12e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acb7031c5e9ddc3173fe7f10117eaad8c72820b1d3b81a82da33f6541901a933
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147361"
 ---
 # <a name="locale_sduration"></a>地區設定 \_ SDURATION
 

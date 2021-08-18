@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3805ae2d5fca687ce024efca74e0254db7c8ae3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d9a5f8fab7da8f61ce6ee5451ebcef4dc33517aae2396f0817fac19222713db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055376"
 ---
 # <a name="albuminfo-element"></a>AlbumInfo 元素
 
@@ -65,11 +65,11 @@ Windows Media Player 顯示之網頁的 URL。
 
 
 
-| Name         | 值                                                                                                                                                               |
+| 名稱         | 值                                                                                                                                                               |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *專輯*      | 媒體專案之 **WM/AlbumTitle** 屬性的值。                                                                                                        |
 | *演出者*     | **WM/AlbumArtist** 屬性的值（如果有的話），否則為媒體專案的 **Author** 屬性值。                                         |
-| *大地 水準面*      | Windows 地理位置識別碼。 在主控台的 [地區及語言選項] 設定的 [ **位置** ] 區域中，使用者會指定位置識別碼。 |
+| *大地 水準面*      | Windows 的地理位置識別碼。 在主控台的 [地區及語言選項] 設定的 [ **位置** ] 區域中，使用者會指定位置識別碼。 |
 | *locale*     | Windows Media Player 地區設定識別碼。                                                                                                                                     |
 | *標題*      | 媒體專案的 **標題** 屬性值。                                                                                                                |
 | *UFID*       | 媒體專案之 **WM/UniqueFileIdentifier** 屬性的值。                                                                                              |

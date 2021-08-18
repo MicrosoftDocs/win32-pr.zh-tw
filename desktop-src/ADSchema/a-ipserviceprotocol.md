@@ -1,6 +1,6 @@
 ---
 title: ipServiceProtocol 屬性
-description: 包含服務對應的區段，此區段會儲存 UNIX 服務的通訊協定號碼。
+description: 包含服務對應的區段，可儲存 UNIX 服務的通訊協定號碼。
 ms.assetid: 44ab7637-c9c0-4d7c-898c-a9de45f75ccb
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 874b08d687ac621e15ae9b2268dcabef21e4c2aa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4951a8927671edd569f91b51449e4f0d4ff6f326da35a138681626f96852abf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322378"
 ---
 # <a name="ipserviceprotocol-attribute"></a>ipServiceProtocol 屬性
 
-包含服務對應的區段，此區段會儲存 UNIX 服務的通訊協定號碼。
+包含服務對應的區段，可儲存 UNIX 服務的通訊協定號碼。
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "106970659"
 | 連結識別碼                | \-                                          |
 | MAPI-Id                | \-                                          |
 | System-Only            | 否                                       |
-| 是-單一值       | 對                                        |
+| 是-單一值       | 是                                        |
 | 已編制索引             | 否                                       |
 | 在通用類別目錄中      | 否                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                |

@@ -4,12 +4,12 @@ ms.assetid: b8f290fb-ae0b-44de-87cc-d25f7e0e3ae6
 title: 通用結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3fb4afd791d42565202ef55779d1b4ee9260efa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41458411378350737d6bd9b6d59690f5e261f48948739d25e6127a39e2191bc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011666"
 ---
 # <a name="common-structures"></a>通用結構
 
@@ -17,7 +17,7 @@ ms.locfileid: "106971803"
 
 
 
-| 結構                                                                          | Description                                                                                                                         |
+| 結構                                                                          | 描述                                                                                                                         |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | [**對等 \_ 位址**](/windows/desktop/api/P2P/ns-p2p-peer_address)                                              | 指定 IP 位址的相關資訊。                                                                                     |
 | [**對等 \_ 連接 \_ 資訊**](/windows/desktop/api/P2P/ns-p2p-peer_connection_info)                             | 包含連接的相關資訊。 當您列舉對等繪圖或群組連接時，會傳回這個結構。 |

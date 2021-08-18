@@ -3,7 +3,7 @@ title: 'EM_SELECTIONTYPE 訊息 (Richedit .h) '
 description: 判斷 rich edit 控制項的選取專案類型。
 ms.assetid: a4200e32-1056-47bd-be47-5fabaf99c058
 keywords:
-- EM_SELECTIONTYPE message Windows 控制項
+- EM_SELECTIONTYPE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0deb62ac3bf774c72bb076f6fce9aa8c77b423f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b79cb36759c857cea280b1c4beb5a476fa27a794f1f9985e1d259c345a9dc4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437838"
 ---
 # <a name="em_selectiontype-message"></a>EM \_ SELECTIONTYPE 訊息
 
@@ -51,7 +51,7 @@ ms.locfileid: "104509179"
 
 
 
-| 傳回碼                                                                                     | Description                                 |
+| 傳回碼                                                                                     | 描述                                 |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------|
 | <dl> <dt>**選取 \_ 文字**</dt> </dl>        | Text。<br/>                            |
 | <dl> <dt>**SEL \_ 物件**</dt> </dl>      | 至少一個 COM 物件。<br/>         |
@@ -72,8 +72,8 @@ ms.locfileid: "104509179"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9db9045d-b289-4c6c-9b17-ddbc2c1d3089
 title: 要求文字辨識
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db2442cfa1e26185c4c8d882fe71bb178911f4d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8efd4fe8b2f37c134480aa1b057705af8826bbf7490b1dc4d40fb5a2755b043
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147050"
 ---
 # <a name="requesting-text-recognition"></a>要求文字辨識
 

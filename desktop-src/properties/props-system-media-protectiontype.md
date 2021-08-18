@@ -4,18 +4,18 @@ ms.assetid: 160ca781-843f-4e80-916f-60a3fa6d7eba
 title: Set-protectiontype
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbd6771557476151c54332418503e935e795e5e0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fd2534be0b2c2e6069539d1358f5ca93c7cc0077340564a1fefc92d964420ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106991393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970357"
 ---
 # <a name="systemmediaprotectiontype"></a>Set-protectiontype
 
 描述媒體保護的類型。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

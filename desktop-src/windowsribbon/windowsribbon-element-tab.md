@@ -3,7 +3,7 @@ title: Tab 項目
 description: 代表核心或內容索引標籤。
 ms.assetid: 2e73a89c-4d31-4075-93c8-e43213a20791
 keywords:
-- Tab 元素視窗功能區
+- Tab 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 410326961df84f6ae62d3c43bee3e651c9533066
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 64f5bffb6a81a1efd112c3f52f5d1276f893e9cfb059a5f240a6c8c73b990c3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441638"
 ---
 # <a name="tab-element"></a>Tab 項目
 
 代表[核心](windowsribbon-controls-tab.md)[或內容](windowsribbon-controls-tabgroup.md)索引標籤。
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 ``` syntax
 <Tab

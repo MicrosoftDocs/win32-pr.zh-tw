@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_LogicalDevice 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dee970428510a3bf1e00b0c854607eb68c061fff
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3717a6fb90d71360927dee2ba5c68c11cc0b385d7eebac310961f011a8e7a988
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438418"
 ---
 # <a name="cim_logicaldevice-methods"></a>CIM \_ LogicalDevice 方法
 

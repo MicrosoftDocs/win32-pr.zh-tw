@@ -4,12 +4,12 @@ ms.assetid: a3279492-a154-418d-ab25-45ec458ad483
 title: GetSignerCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beff3e220fc8f0c95992c4a14a3dc8b5f5d19fab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7288ed92ace5cf6982402a9b449c1bb91170d617604fab061f1836756ef1ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006632"
 ---
 # <a name="getsignercert"></a>GetSignerCert
 

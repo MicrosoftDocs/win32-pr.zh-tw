@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: d8930241be0306c637bcab36207fec1de2e489c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 44bbeebc344edf1c6a9c5a5d287bea7cdfe87e96d9af09a65417411d6cd43820
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015766"
 ---
 # <a name="file-name-validation-flags"></a>檔案名驗證旗標
 
@@ -34,7 +34,7 @@ ms.locfileid: "106985564"
 
 
 
-| 常數/值                                                                                                                                                                                                                                               | Description                                                                                                                                                                                                                    |
+| 常數/值                                                                                                                                                                                                                                               | 描述                                                                                                                                                                                                                    |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SFN_VALIDATEF_CHECK"></span><span id="sfn_validatef_check"></span><dl> <dt>**SFN \_VALIDATEF \_ 檢查**</dt> <dt>0x01</dt> </dl>                   | 檢查檔案名的有效性。 您必須設定這個旗標以驗證檔案名。 如果不是，則其他旗標沒有任何作用。<br/>                                                                                            |
 | <span id="SFN_VALIDATEF_POPUP"></span><span id="sfn_validatef_popup"></span><dl> <dt>**SFN \_VALIDATEF \_ POPUP**</dt> <dt>0x02</dt> </dl>                   | 如果找不到檔案，則會顯示使用者的 [開啟檔案] 對話方塊。<br/>                                                                                                                                         |

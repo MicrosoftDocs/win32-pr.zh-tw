@@ -4,12 +4,12 @@ ms.assetid: b795a385-b48d-4a16-9d91-e48bca120572
 title: WS-Discovery 規格合規性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcae062448b1913f0cc62dff3b6c86b98280a902
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07794140f05a065fb770ae2d5782f24180fb7e7ef66757278d5c5c93a3fd7e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991408"
 ---
 # <a name="ws-discovery-specification-compliance"></a>WS-Discovery 規格合規性
 
@@ -39,7 +39,7 @@ WSDAPI 會實 DPWS 附錄 I 修改過的附錄 I 中所定義的重新傳輸演�
 
 WS-Discovery 描述 `uuid:` 2.6 節中的 URI 格式建議，但 WSDAPI 會覆寫這項建議。 相反地，WSDAPI 會使用 `urn:uuid:` DPWS 中所述的 URI 格式。
 
-WS-Discovery 的第3節描述用戶端如何與探索 proxy 互動。 WSDAPI 無法辨識此互動，並且會忽略來自探索 proxy 的宣告。 在 Windows 7 中，WSDAPI 會對 WS-Discovery 通訊協定（WS-Discovery 遠端擴充功能）執行私用延伸，以允許探索用戶端藉由將要求傳送至集中式 proxy 來搜尋分散于許多不同網路的服務。如需詳細資訊，請參閱 [其他 WS-Discovery 功能](additional-ws-discovery-functionality.md)。
+WS-Discovery 的第3節描述用戶端如何與探索 proxy 互動。 WSDAPI 無法辨識此互動，並且會忽略來自探索 proxy 的宣告。 在 Windows 7 中，WSDAPI 會對 WS-Discovery 通訊協定（WS-Discovery 遠端擴充功能）執行私用擴充功能，以允許探索用戶端藉由將要求傳送至集中式 proxy 來搜尋分散于許多不同網路的服務。如需詳細資訊，請參閱[其他 WS-Discovery 功能](additional-ws-discovery-functionality.md)。
 
 4.1 第3節的 WS-Discovery 要求在傳送 [Hello](hello-message.md) 訊息之前必須先經過一段計時器。 裝載 API 不會在傳送 Hello 訊息之前等候。 如果案例需要延遲才能傳送 Hello 訊息，則應用程式開發人員必須執行等候。
 

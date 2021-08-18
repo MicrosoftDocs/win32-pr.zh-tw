@@ -4,12 +4,12 @@ ms.assetid: 326170a5-d21f-49d6-9f60-10b9bc8d97b4
 title: 繪製填滿材質的線條
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf6a061399791009fd7c1b645bb09dbba25362f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a13cc8f93adee4792836c4166d5787e20d9c54040448d3a7efde36ff6a580d8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467030"
 ---
 # <a name="drawing-a-line-filled-with-a-texture"></a>繪製填滿材質的線條
 

@@ -4,12 +4,12 @@ ms.assetid: 64cd6e82-7a0d-4b5e-b491-450f37eea43a
 title: 使用筆刷
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b65ad4b14ba445642f224b0002eb1e7517c1008b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c42e09dc5731ceba7961dfd66b296df531897f2915cff53ccdacf1b5b5740160
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037496"
 ---
 # <a name="using-brushes"></a>使用筆刷
 

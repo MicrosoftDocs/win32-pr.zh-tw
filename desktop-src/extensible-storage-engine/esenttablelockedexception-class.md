@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 427aae831534f25ab8df974eb60dbdf5f6e692e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29d0d6468008e3f3b6e7bf18c431c28c143c68b23ec1c570db5d6c8e35a6bb5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118981058"
 ---
 # <a name="esenttablelockedexception-class"></a>EsentTableLockedException 類別
 

@@ -4,12 +4,12 @@ description: 複合檔案介面
 ms.assetid: 3192ee58-55fd-43cb-b7d5-7270e91b8131
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eecb44945ec666a38ebf59544caf2e09eb5930d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9e146bf26ef8d0c5c2fc189255389982a7e737a0556343cb095217c55ff8d712
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119410508"
 ---
 # <a name="compound-document-interfaces"></a>複合檔案介面
 

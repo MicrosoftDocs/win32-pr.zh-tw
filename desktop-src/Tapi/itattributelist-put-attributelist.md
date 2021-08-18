@@ -4,16 +4,16 @@ ms.assetid: f7d57c0c-9114-42a4-b2bc-c812334d8136
 title: 'ITAttributeList：:p ut_AttributeList 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3876b2cd8ecdef46a933ff3f3c91be96dd028892
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c68ccbf8349b9f78f2893263345f7f76af2dec3e197daa73789a471887d685c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003476"
 ---
 # <a name="itattributelistput_attributelist-method"></a>ITAttributeList：:p 的 \_ AttributeList 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Put \_ AttributeList** 方法會設定屬性清單。
 
@@ -45,7 +45,7 @@ HRESULT put_AttributeList(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *NewVal* 參數無效。<br/>                 |

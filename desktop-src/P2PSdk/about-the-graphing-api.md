@@ -4,12 +4,12 @@ ms.assetid: c3530134-bde3-4a9a-b433-4f198430a607
 title: 關於圖形 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1b08e320f1c8d176d0bd34cc7a9a9422c6cfadc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 735bf7993744aa8d1e76b8c5d98e8d6856bb4e1757224cd0c98f2e7b1b6f710b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011786"
 ---
 # <a name="about-the-graphing-api"></a>關於圖形 API
 

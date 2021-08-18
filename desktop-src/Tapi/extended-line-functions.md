@@ -4,12 +4,12 @@ ms.assetid: 0f01509e-caa5-4f79-be78-36bd5f23c5d7
 title: 擴充行函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3531a63357276e6b2ea37365b5d5078d5c1de324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 394ad011a5752a45f82de4934a3f87c9f1590870b245fdc113f57badb4298290
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003656"
 ---
 # <a name="extended-line-functions"></a>擴充行函式
 

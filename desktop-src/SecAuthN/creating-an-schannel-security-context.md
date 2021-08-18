@@ -4,12 +4,12 @@ ms.assetid: eb1eadb2-14b2-4265-994a-dcea4208e650
 title: 建立 Schannel 安全性內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23e364e6319fbaddb50bffaf59541af9e8f43bfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7373d2ed4f8cc385a2245e6971f8233aad052930d4995225abfda8eab0191aaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008856"
 ---
 # <a name="creating-an-schannel-security-context"></a>建立 Schannel 安全性內容
 

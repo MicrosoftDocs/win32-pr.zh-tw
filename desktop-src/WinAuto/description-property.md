@@ -4,12 +4,12 @@ description: 物件的 Description 屬性提供有關物件視覺外觀的文字
 ms.assetid: 1fe3221f-e1dd-44b2-b749-d00bee1b6b89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34320b2959899d049d959037c0f24299780b54b0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c695ae4ed8968620776aa0786358c98372940749be4a1c4335cb89f84b373ba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994228"
 ---
 # <a name="description-property-windows-accessibility-features"></a>描述屬性 (Windows 協助工具功能) 
 

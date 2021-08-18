@@ -4,12 +4,12 @@ description: 路由資料庫包含保留清單。
 ms.assetid: c36e731c-6a0b-42a8-bc92-106a8e017b0d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 358181cbe57a046f5af54f7adf17bdadb24c3ddc
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: ac683c48748fa0e644f2f7569590b3783c521f1d10a1a5852a638a29731daf38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104508191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014946"
 ---
 # <a name="adding-a-reservation"></a>新增保留
 
@@ -27,14 +27,14 @@ ms.locfileid: "104508191"
     > [!Note]  
     > 若要更新現有的專案，請執行下列兩個步驟：刪除專案，並新增一個新專案。
 
-     
+     
 
 如果上述步驟成功，則會在保留資料庫中輸入新的保留專案。
 
 > [!Note]  
 > 新的專案會以指定的 ACL 建立，且不會從 *父* 專案繼承 acl。
 
- 
+ 
 
 下列範例說明保留流程。
 
@@ -55,9 +55,9 @@ ms.locfileid: "104508191"
 -   註冊： `https://adatum.com:80/vroot/subdir/` 依應用程式2為使用者 B。
 -   的要求 `https://adatum.com:80/vroot/subdir/file.htm` 會傳遞至應用程式2。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 775d5cd8-75c5-46d6-919d-01d2cd6565e6
 title: DisableLoggingFromPackage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7848f3bf330d93c4e41a00c238d2bb56857a7cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac9e1469132ac7d4dd9a93e1a6e3b855f16764d0014dd9126333147ed300fb1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745408"
 ---
 # <a name="disableloggingfrompackage"></a>DisableLoggingFromPackage
 
@@ -19,7 +19,7 @@ ms.locfileid: "103848254"
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

@@ -4,12 +4,12 @@ ms.assetid: 484ba140-788f-4b71-9cc7-9baa919d9936
 title: 一般呼叫順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 832ea396c1d73748c4636d2cad5e17529b8d54df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94506d320d2ac0dca31fcc44714d0fd9ed089a2dda479020d860b0fbe5bfae5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708218"
 ---
 # <a name="typical-calling-sequence"></a>一般呼叫順序
 

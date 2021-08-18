@@ -3,17 +3,17 @@ title: 自訂功能區色彩
 description: Windows 功能區架構會公開一組色彩屬性，讓應用程式在執行時間自訂各種功能區 UI 元素的外觀。
 ms.assetid: e070aaca-d350-4336-8e5d-d5d9c8167287
 keywords:
-- Windows 功能區，自訂色彩
+- Windows功能區、自訂色彩
 - 功能區、自訂色彩
 - 自訂 Windows 功能區色彩
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55ff6527dc67ee18df4723fc33e4b764e20127e8
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: e7ef83c40d49656c82aabfbf41c4ec5375f7f3f54f063ccf30d917e740f87408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103681489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710888"
 ---
 # <a name="customizing-ribbon-colors"></a>自訂功能區色彩
 
@@ -31,8 +31,8 @@ Windows 功能區架構會公開一組色彩屬性，讓應用程式在執行時
 | 功能區色彩                     | Framework 屬性索引鍵                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 背景色彩                 | [UI \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)                                                                                                                                                                                                                                                                                                                                                                 |
-| 僅將色彩醒目提示 (Windows 7)  | [UI \_Windows 8 \_ ](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)* *： * * [ui \_ PKEY \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) 中引進的 PKEY GlobalHighlightColor * * * 無法獨立于 [ui \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)之外進行設定。<br/> <br/>                                                              |
-| 文字色彩                       | [UI \_PKEY \_ GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md)* * * * 在 Windows 8 引進 **：** Windows 8 中 [ui \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md) 的預設值變更，可能需要在針對 Windows 7 設計的功能區應用程式中調整 [ui \_ PKEY \_ GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md) 。<br/> <br/> |
+| 醒目提示色彩 (僅 Windows 7)  | [UI \_Windows 8 \_ ](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)* *： * * [ui \_ PKEY \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)中引進的 PKEY GlobalHighlightColor * * * 無法獨立于[ui \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)之外進行設定。<br/> <br/>                                                              |
+| 文字色彩                       | [UI \_PKEY \_ GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md)* * * * 在 Windows 8 引進 **：** Windows 8 中 [ui \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)的預設值變更，可能需要在針對 Windows 7 設計的功能區應用程式中調整 [ui \_ PKEY \_ GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md) 。<br/> <br/> |
 
 
 
@@ -44,7 +44,7 @@ Windows 功能區架構會公開一組色彩屬性，讓應用程式在執行時
 
 若要在功能區架構中指定 UI 元素的色彩，應用程式會將 HSB 值指派給每個全域色彩屬性。 然後，這些值會在功能區應用程式所需的所有功能區專案中通用套用 (架構不支援將 HSB 值指派給個別元素和控制項) 。
 
-在 Windows 8 * *： * *[ui \_ PKEY \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) 中引進，指派的值與 [ui \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)相同。
+在 Windows 8 * *： * *[ui \_ PKEY \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)中引進，指派的值與[ui \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)相同。
 
 下表描述功能區架構 HSB 參數。
 
@@ -85,7 +85,7 @@ HSB 值不會識別特定的色彩。 相反地，HSB 屬性值的組合會影�
 將自訂 HSB 值指派給 [UI \_ PKEY \_ GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md) 和 [ui \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)時，建議將這些值設為夠高的對比，以確保可讀性。 具體而言，文字色彩應該比功能區 UI 的最亮陰影更深色。 在必要時，架構會自動調整 UI \_ PKEY \_ GlobalTextColor HSB 值，以提供與任何衍生自 UI PKEY GlobalBackgroundColor 之背景陰影或漸層的足夠對比 \_ \_ 。
 
 > [!Note]  
-> 在 Windows 7 中， [ui \_ PKEY \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) 可以獨立于 [ui \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)之外進行設定。
+> 在 Windows 7 中，ui [ \_ PKEY \_ GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)可以獨立于[ui \_ PKEY \_ GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)之外進行設定。
 
  
 

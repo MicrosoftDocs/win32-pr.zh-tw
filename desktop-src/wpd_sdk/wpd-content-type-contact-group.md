@@ -4,12 +4,12 @@ ms.assetid: ddebb789-7e60-4728-a0a4-94c06d8a98f9
 title: WPD_CONTENT_TYPE_CONTACT_GROUP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b9db8d82807f854ee6cf04e4654228631eb1f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ebe05b015ad7a2ced6b9c16d257d183424bc85c2279d10c239babbe6412d806
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119445148"
 ---
 # <a name="wpd_content_type_contact_group"></a>WPD \_ 內容 \_ 類型 \_ 連絡人 \_ 群組
 

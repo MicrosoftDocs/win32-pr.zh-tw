@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812fe11f1318eadcc37fde242187695ef5101387
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 362689f9a6946674c5102fa4c73042c08d610197d6e771c3159fbe5fc959e846
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708968"
 ---
 # <a name="drm_licensestate_playlistburn"></a>DRM \_ LicenseState \_ PlaylistBurn
 
@@ -42,6 +42,6 @@ g \_ wszWMDRM \_ LicenseState \_ PlaylistBurn
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

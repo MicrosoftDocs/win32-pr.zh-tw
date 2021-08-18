@@ -3,17 +3,17 @@ title: 非同步函式範例
 description: 此範例說明如何執行和呼叫非同步函式。
 ms.assetid: e71bd231-c69c-409f-874c-a0798b844ee6
 keywords:
-- 適用于 Windows 的 AsyncModelExample Web 服務
+- Windows 的 AsyncModelExample Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbfc0963ef1f62a5458f9353245e96959be2f32d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c2c5470596bf34a2d0d0e96311445de262f68c13f2684a26bac7f773cd2959f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119444758"
 ---
 # <a name="asynchronous-function-example"></a>非同步函式範例
 
@@ -383,9 +383,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: WinSNMP 應用程式可以透過各種方式進行 SNMP 作業要�
 ms.assetid: 71150a66-74a3-4957-bc70-3dd25c3b9c71
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a26ba632cec096300927911c2277cbcf5911e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ade0b2d58f371de87be5da855f26686a18518454c787c6a09e9701afbb731757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009956"
 ---
 # <a name="about-retransmission"></a>關於重新傳輸
 
@@ -23,9 +23,9 @@ WinSNMP 應用程式可以透過各種方式進行 SNMP 作業要求。 應用�
 
 應用程式必須建立自己的輪詢頻率，且必須管理計時器變數。 如需詳細資訊，請參閱 [管理重新傳輸原則](managing-the-retransmission-policy.md)。
 
- 
+ 
 
- 
+ 
 
 
 

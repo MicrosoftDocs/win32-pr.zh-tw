@@ -3,7 +3,7 @@ title: ColumnBreak 元素
 description: 表示自訂 SizeDefinition 版面配置範本中 (可見或隱藏) 的垂直分隔符號。
 ms.assetid: 5979d3e6-366b-4c47-810f-90fb8039af8d
 keywords:
-- ColumnBreak 元素視窗功能區
+- ColumnBreak 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b5bff1682cdf55b44092a176abd6dc7e935220a7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: beaf97a34a062b3461cf2101cb436fb1ba131d00e8656186fd434045bdef30bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393078"
 ---
 # <a name="columnbreak-element"></a>ColumnBreak 元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "111444839"
 <tr class="odd">
 <td><strong>ShowSeparator</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>

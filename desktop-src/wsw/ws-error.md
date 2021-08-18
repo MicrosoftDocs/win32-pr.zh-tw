@@ -6,12 +6,12 @@ keywords:
 - WS_ERROR
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20bc7bad78ed9efea47c07c3a395c7d7f2e2eabe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f8a6ecdd53ade39f0986c531d479a8a3ef778708a95d8b32ae26447c0684bb5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119391948"
 ---
 # <a name="ws_error"></a>WS \_ 錯誤
 
@@ -35,7 +35,7 @@ typedef struct _WS_ERROR WS_ERROR;
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>WebServices。h</dt> </dl> |
 
 

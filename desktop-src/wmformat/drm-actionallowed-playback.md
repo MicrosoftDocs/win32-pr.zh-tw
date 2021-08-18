@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42035f8f8124279afd0e6bc7548d6a69641a230c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 66ca0ce9ffa84000b9ddab1e1e372a6e90ab37e270390ca0bc378ae28714293b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705628"
 ---
 # <a name="drm_actionallowed_playback"></a>DRM \_ ActionAllowed \_ 播放
 
@@ -42,9 +42,9 @@ g \_ wszWMDRM \_ ActionAllowed \_ 播放
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f2f4887c6a4f55f3b9c97c389e9afd702d2ffab
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 479fdceee0a1fc168725ef9b5acccb471e1b32b8c13a0e0ff6b12096f14ff0ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106975620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000948"
 ---
 # <a name="imsrdpclienttransportsettings2-interface"></a>IMsRdpClientTransportSettings2 介面
 
@@ -39,7 +39,7 @@ ms.locfileid: "106975620"
 
 
 
-| 屬性                                                                                                    | 存取類型           | Description                                                                                       |
+| 屬性                                                                                                    | 存取類型           | 描述                                                                                       |
 |:------------------------------------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------|
 | [**GatewayCredSharing**](imsrdpclienttransportsettings2-gatewaycredsharing.md)<br/>                  | 讀取/寫入<br/> | 指出是否已啟用 RD 閘道的單一登入功能。<br/>                |
 | [**GatewayDomain**](imsrdpclienttransportsettings2-gatewaydomain.md)<br/>                            | 讀取/寫入<br/> | 使用者為了連接到 RD 閘道伺服器所提供的功能變數名稱。<br/>              |

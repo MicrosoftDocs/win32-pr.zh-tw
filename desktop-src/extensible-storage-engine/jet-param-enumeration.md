@@ -102,12 +102,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c84524aad68d3d7a95201e61a2753e86ead91bd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ee244bd68171abb296baf1941c79199122b121793d5107ee8866eac87be0776
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473918"
 ---
 # <a name="jet_param-enumeration"></a>JET_param 列舉
 
@@ -239,12 +239,12 @@ public enum JET_param
 <tr class="odd">
 <td></td>
 <td>StartFlushThreshold</td>
-<td>此參數會控制當資料庫頁面快取開始從快取收回頁面，以騰出空間給未快取的頁面時。 當快取中的頁面緩衝區數目降到低於此閾值時，就會啟動背景進程來補充該可用緩衝區集區。 此臨界值一律相對於 JET_paramCacheSizeMax 所設定的最大快取大小。 此臨界值也必須小於 JET_paramStopFlushThreshold 所設定的停止閾值。 開始閾值的距離高度將決定資料庫頁面快取在應用程式需要之前產生可用緩衝區所必須擁有的回應時間。 高啟動臨界值可讓背景進程更有時間回應。 不過，高啟動閾值表示較高的停止閾值，而且會減少修改過的頁面的資料庫頁面快取大小 (Windows 2000) 或 (Windows XP 及更新版本) 的所有頁面。</td>
+<td>此參數會控制當資料庫頁面快取開始從快取收回頁面，以騰出空間給未快取的頁面時。 當快取中的頁面緩衝區數目降到低於此閾值時，就會啟動背景進程來補充該可用緩衝區集區。 此臨界值一律相對於 JET_paramCacheSizeMax 所設定的最大快取大小。 此臨界值也必須小於 JET_paramStopFlushThreshold 所設定的停止閾值。 開始閾值的距離高度將決定資料庫頁面快取在應用程式需要之前產生可用緩衝區所必須擁有的回應時間。 高啟動臨界值可讓背景進程更有時間回應。 不過，高啟動閾值表示較高的停止閾值，而且會減少修改頁面的資料庫頁面快取的有效大小 (Windows 2000) 或 (Windows XP 和更新版本) 的所有頁面。</td>
 </tr>
 <tr class="even">
 <td></td>
 <td>StopFlushThreshold</td>
-<td>此參數會控制資料庫頁面快取何時結束從快取收回頁面，以騰出空間給未快取的頁面。 當快取中的頁面緩衝區數目超過此臨界值時，就會停止已開始補充該可用緩衝區集區的背景進程。 此臨界值一律相對於 JET_paramCacheSizeMax 所設定的最大快取大小。 此臨界值也必須大於 JET_paramStartFlushThreshold 所設定的 [開始] 閾值。 開始閾值和停止臨界值之間的距離，會影響背景進程清除資料庫頁面的效率。 較大的間距將可讓您更有可能合併對相鄰頁面的寫入。 不過，高停止閾值會減少修改過的頁面的資料庫頁面快取大小 (Windows 2000) 或 (Windows XP 及更新版本) 的所有頁面。</td>
+<td>此參數會控制資料庫頁面快取何時結束從快取收回頁面，以騰出空間給未快取的頁面。 當快取中的頁面緩衝區數目超過此臨界值時，就會停止已開始補充該可用緩衝區集區的背景進程。 此臨界值一律相對於 JET_paramCacheSizeMax 所設定的最大快取大小。 此臨界值也必須大於 JET_paramStartFlushThreshold 所設定的 [開始] 閾值。 開始閾值和停止臨界值之間的距離，會影響背景進程清除資料庫頁面的效率。 較大的間距將可讓您更有可能合併對相鄰頁面的寫入。 不過，高停止閾值會減少修改頁面的資料庫頁面快取的有效大小 (Windows 2000) 或 (Windows XP 和更新版本) 的所有頁面。</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -320,7 +320,7 @@ public enum JET_param
 <tr class="odd">
 <td></td>
 <td>ExceptionAction</td>
-<td>此參數會控制資料庫引擎擲回例外狀況時所發生的狀況，或資料庫引擎所呼叫的程式碼。 當設定為 JET_ExceptionMsgBox 時，將會擲回任何例外狀況至 Windows 未處理的例外狀況篩選準則。 這會導致應用程式失敗時處理例外狀況。 其目的是要避免應用程式程式碼錯誤地嘗試攔截並忽略 database engine 所產生的例外狀況。 因為可能發生資料庫損毀，所以無法允許這種情況。 如果應用程式希望適當地處理這些例外狀況，則可以將此參數設定為 JET_ExceptionNone 來停用保護。</td>
+<td>此參數會控制資料庫引擎擲回例外狀況時所發生的狀況，或資料庫引擎所呼叫的程式碼。 當設定為 JET_ExceptionMsgBox 時，會擲回任何例外狀況至 Windows 未處理的例外狀況篩選準則。 這會導致應用程式失敗時處理例外狀況。 其目的是要避免應用程式程式碼錯誤地嘗試攔截並忽略 database engine 所產生的例外狀況。 因為可能發生資料庫損毀，所以無法允許這種情況。 如果應用程式希望適當地處理這些例外狀況，則可以將此參數設定為 JET_ExceptionNone 來停用保護。</td>
 </tr>
 <tr class="even">
 <td></td>

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 321b27239114fc86861c0360d507db6c8c520a9c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ca513a31eded5202639da13b8e9f2e817c9df336b227ba93d903e44068b98898
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440188"
 ---
 # <a name="change-method-of-the-win32_service-class-mbnapih"></a>Win32_Service 類別的 Change 方法 (Mbnapi) 
 
@@ -180,7 +180,7 @@ uint32 Change(
 *StartMode* \[在\]
 </dt> <dd>
 
-Windows 基底服務的啟動模式。 如需詳細資訊，請參閱＜備註＞一節。
+Windows 基礎服務的啟動模式。 如需詳細資訊，請參閱＜備註＞一節。
 
 <dt>
 
@@ -212,7 +212,7 @@ Boot
 
 </dd> <dt>
 
-Disabled
+已停用
 </dt> <dd>
 
 無法再啟動的服務。

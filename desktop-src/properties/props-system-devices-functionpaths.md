@@ -4,12 +4,12 @@ ms.assetid: a944e89c-595e-4e7d-8590-4bc6763eee85
 title: FunctionPaths
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90514f03d868e6dec6f382d775511e8f16a10be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d5169eb115a110b5af0a1b5d8ef0c6582f76caa1f991441be9618f89ed39b66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711198"
 ---
 # <a name="systemdevicesfunctionpaths"></a>FunctionPaths
 

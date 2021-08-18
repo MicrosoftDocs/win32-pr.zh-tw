@@ -43,18 +43,18 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 319445e5a5961023062e09a04481f0376ff3493c
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: a7b582d0477600acb69447c0d82c93092f486618e93b27b3f166c1324938d4ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "103945536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119387710"
 ---
 # <a name="toolbar-standard-button-image-index-values"></a>工具列標準按鈕影像索引值
 
 此區段會指定標準點陣圖內影像的索引值。
 
-\_>hist \_ 大型色彩和 .idb >hist 的 [.idb] 索引值 \_ \_ \_ 小 \_ 色彩：
+\_>Hist \_ 大型色彩和 .idb >hist 的 [.idb] 索引值 \_ \_ \_ 小 \_ 色彩：
 
 
 
@@ -103,7 +103,7 @@ ms.locfileid: "103945536"
 | <span id="VIEW_DETAILS"></span><span id="view_details"></span><dl> <dt>**查看 \_ 詳細資料**</dt> </dl>                   | 詳細資料檢視。<br/>                  |
 | <span id="VIEW_LARGEICONS"></span><span id="view_largeicons"></span><dl> <dt>**VIEW \_ LARGEICONS**</dt> </dl>          | 大型圖示視圖。<br/>              |
 | <span id="VIEW_LIST"></span><span id="view_list"></span><dl> <dt>**視圖 \_ 清單**</dt> </dl>                            | 清單檢視。<br/>                     |
-| <span id="VIEW_NETCONNECT"></span><span id="view_netconnect"></span><dl> <dt>**VIEW \_ NETCONNECT**</dt> </dl>          | 連接到網路磁碟機機。<br/>      |
+| <span id="VIEW_NETCONNECT"></span><span id="view_netconnect"></span><dl> <dt>**VIEW \_ NETCONNECT**</dt> </dl>          | 連線到網路磁碟機機。<br/>      |
 | <span id="VIEW_NETDISCONNECT"></span><span id="view_netdisconnect"></span><dl> <dt>**VIEW \_ NETDISCONNECT**</dt> </dl> | 中斷與網路磁碟機機的連線。<br/> |
 | <span id="VIEW_NEWFOLDER"></span><span id="view_newfolder"></span><dl> <dt>**VIEW \_ NEWFOLDER**</dt> </dl>             | 新資料夾。<br/>                    |
 | <span id="VIEW_PARENTFOLDER"></span><span id="view_parentfolder"></span><dl> <dt>**VIEW \_ PARENTFOLDER**</dt> </dl>    | 移至父資料夾。<br/>           |

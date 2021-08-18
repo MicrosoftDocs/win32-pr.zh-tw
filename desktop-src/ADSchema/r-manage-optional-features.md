@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 348f961ec635dcb7d3a185ec8670ae4de56949d1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b5b7b1982a9028b731c3e87549a33a3b6072f630acdfa48069131770f7ded641
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106966996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531798"
 ---
 # <a name="manage-optional-features-extended-right"></a>管理-選用-功能擴充許可權
 

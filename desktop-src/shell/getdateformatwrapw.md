@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: c9c369584fd15a27d5e684452b2277104b5b1da4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a45222c316d321ee151c19464d453827437514dd93ffe3da5b1a9849e8a7196
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119395878"
 ---
 # <a name="getdateformatwrapw-function"></a>GetDateFormatWrapW 函式
 
-\[**GetDateFormatWrapW** 可用於 Windows XP。 在後續版本中將無法使用。 您應該在其位置使用 [**GetDateFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformata) 。\]
+\[**GetDateFormatWrapW** 可在 Windows XP 中使用。 在後續版本中將無法使用。 您應該在其位置使用 [**GetDateFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformata) 。\]
 
 將日期格式化為指定地區設定的日期字串。 函數會將指定的日期或本機系統日期格式化。
 
@@ -184,9 +184,9 @@ int GetDateFormatWrapW(
 *lpDate* \[在\]
 </dt> <dd>
 
-類型： **Const [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) \** _
+Type： **Const [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) \***
 
-[_ *SYSTEMTIME* *](/windows/win32/api/minwinbase/ns-minwinbase-systemtime)結構的指標，其中包含要格式化的日期資訊。 如果此指標為 **Null**，則函式會使用目前的本機系統日期。
+[**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime)結構的指標，其中包含要格式化的日期資訊。 如果此指標為 **Null**，則函式會使用目前的本機系統日期。
 
 </dd> <dt>
 
@@ -238,7 +238,7 @@ int GetDateFormatWrapW(
 
 ## <a name="remarks"></a>備註
 
-**GetDateFormatWrapW** 能讓您在 Windows XP 之前的作業系統中使用 Unicode 字串。 慣用的方法是使用 [**GetDateFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformata) 搭配適用于 UNICODE (MSLU) 的 Microsoft 層。
+**GetDateFormatWrapW** 能讓您在早于 Windows XP 的作業系統中使用 Unicode 字串。 慣用的方法是使用 [**GetDateFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformata) 搭配適用于 UNICODE (MSLU) 的 Microsoft 層。
 
 您必須使用序數311，直接從 Shlwapi.dll 呼叫 **GetDateFormatWrapW** 。
 
@@ -248,8 +248,8 @@ int GetDateFormatWrapW(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (5.0 版或更新版本) </dt> </dl> |
 
 

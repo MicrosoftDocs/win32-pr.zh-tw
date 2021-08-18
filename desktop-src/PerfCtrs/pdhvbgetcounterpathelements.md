@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: 003374141b0454d730ba4b844715bd6f00b544da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fecd9ecac573ecc1a5afabcfc4a14bf6fd1ca5cee7b44387ea910b0cf1a5820d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011326"
 ---
 # <a name="pdhvbgetcounterpathelements-function"></a>PdhVbGetCounterPathElements 函式
 
@@ -90,7 +90,7 @@ ms.locfileid: "106976898"
 
 
 
-| 傳回碼                                                                                                     | Description                                                                                    |
+| 傳回碼                                                                                                     | 描述                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | <dl> <dt>**PDH \_ 不正確 \_ 引數**</dt> </dl>           | 一或多個字串緩衝區的大小不正確。<br/>                          |
 | <dl> <dt>**PDH \_ 更多 \_ 資料**</dt> </dl>                  | 一或多個計數器路徑元素對傳回緩衝區長度而言太大。<br/> |
@@ -106,8 +106,8 @@ ms.locfileid: "106976898"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 程式庫<br/>                  | <dl> <dt>Pdh. .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 

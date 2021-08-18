@@ -4,12 +4,12 @@ description: 功能區架構資源的屬性索引鍵參考檔。
 ms.assetid: 52f41fd9-977f-4d6e-bdef-f6c2d3a6ff66
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d08e4244ed64c019fca8672a486e8d8c941be9d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 99bb7c364a7f6592ee5564ec47c44be47a43abc3f2ebe7d67f5145b4c96d2af1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449498"
 ---
 # <a name="resource-properties"></a>資料屬性
 

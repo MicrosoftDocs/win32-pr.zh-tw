@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed801856d0c966df14c6ceb04f7b6cc9a511ca91
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a9060998ba6d01fcd3cf3cc1e7ffa50acdbc9a8aba33c8ba324fed1de6d9d5fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583638"
 ---
 # <a name="class-display-name-attribute"></a>類別-顯示名稱屬性
 

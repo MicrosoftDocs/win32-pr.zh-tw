@@ -4,12 +4,12 @@ ms.assetid: cedef138-5047-4a72-8b89-5a95062a351c
 title: 以純色填滿形狀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c4a6221d84c4a891d377d974f168468917799e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2ad3ecb5efb3bde32f696db8b97319d89834886eb63a70cd45289e49db03863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036716"
 ---
 # <a name="filling-a-shape-with-a-solid-color"></a>以純色填滿形狀
 

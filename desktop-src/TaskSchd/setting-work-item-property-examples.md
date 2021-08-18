@@ -6,12 +6,12 @@ keywords:
 - 設定工作專案屬性工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e026ea3d2b3f6677a3d229e9289ab9b201e02b94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e6a29ff08c4f9129b8dc9ab749cd6db5807fd0c52449e48b64d5f3b36631fef6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119402538"
 ---
 # <a name="setting-work-item-property-examples"></a>設定工作專案屬性範例
 
@@ -22,7 +22,7 @@ ms.locfileid: "103933454"
 > [!Note]  
 > 在下列程式碼範例中，不再需要所有介面之後，就會釋放它們。
 
- 
+ 
 
 在下列範例中，修改過的物件一律會藉由呼叫 [**IPersistFile：： Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save)儲存至磁片。  ([**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) 介面是 task 物件所繼承的標準 COM 介面。 ) 
 
@@ -44,7 +44,7 @@ ms.locfileid: "103933454"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -53,6 +53,6 @@ ms.locfileid: "103933454"
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

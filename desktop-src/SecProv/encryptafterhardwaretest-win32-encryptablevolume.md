@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: f356b9adda5e1b25fdd3d9fc39ace5cf8028da32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5365bd9aca023d42d9f2ab1d9de5d242497b8b21842004b2bb508f362752bd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004496"
 ---
 # <a name="encryptafterhardwaretest-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 EncryptAfterHardwareTest 方法 \_
 
@@ -77,7 +77,7 @@ uint32 EncryptAfterHardwareTest(
 
 描述加密行為的旗標。
 
-**Windows 7、Windows Server 2008 R2、Windows Vista Enterprise 和 Windows Server 2008：** 此參數無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista Enterprise 和 Windows Server 2008：** 此參數無法使用。
 
 目前定義了下列位之32位的組合。
 
@@ -113,7 +113,7 @@ uint32 EncryptAfterHardwareTest(
 <thead>
 <tr class="header">
 <th>傳回碼/值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -184,7 +184,7 @@ uint32 EncryptAfterHardwareTest(
 
 ## <a name="remarks"></a>備註
 
-當您使用這個方法時，如果沒有第二個選擇性參數 (根據 Windows 7 和 Windows Vista Enterprise 定義) ，方法一律會起始完整模式轉換，以保持回溯相容的行為。 如此一來，在 Windows 8 和 Windows Server 2012 中新增第二個選擇性參數，就不會中斷現有應用程式和腳本的安全性期望。
+當您使用這個方法時，如果沒有第二個選擇性參數 (根據 Windows 7 和 Windows Vista Enterprise 定義) ，此方法一律會起始完整模式轉換，以維持回溯相容的行為。 如此一來，現有應用程式和腳本的安全性期望將不會在 Windows 8 和 Windows Server 2012 中新增第二個選擇性參數的情況下中斷。
 
 與 [**Encrypt**](encrypt-win32-encryptablevolume.md) 方法不同的是，此方法會執行下列動作：
 
@@ -219,8 +219,8 @@ uint32 EncryptAfterHardwareTest(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise，僅 Windows vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

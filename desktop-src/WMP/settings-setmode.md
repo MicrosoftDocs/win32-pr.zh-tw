@@ -1,11 +1,11 @@
 ---
-title: SetMode 方法
+title: 設定 setMode 方法
 description: SetMode 方法會將各種模式設定為作用中或非作用中。
 ms.assetid: 9ab88aeb-53f6-4798-9299-14961e373ca6
 keywords:
 - setMode 方法 Windows Media Player
-- setMode 方法 Windows Media Player，Settings 類別
-- Settings 類別 Windows Media Player，setMode 方法
+- setMode 方法 Windows Media Player，設定類別
+- 設定類別 Windows Media Player，setMode 方法
 topic_type:
 - apiref
 api_name:
@@ -16,14 +16,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5740bf5638ce34e161414ac96eaa0fc80fcdb7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f504fe429dddf1b3db191545e2f34a3605a8fc390346c8f00afe8c3d005f0277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995318"
 ---
-# <a name="settingssetmode-method"></a>SetMode 方法
+# <a name="settingssetmode-method"></a>設定 setMode 方法
 
 **SetMode** 方法會將各種模式設定為作用中或非作用中。
 
@@ -50,7 +50,7 @@ Settings.setMode(
 
 
 
-| String     | Description                                                                                                                                                       |
+| String     | 描述                                                                                                                                                       |
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | autoRewind | 模式，指出播放到結尾之後，是否要將曲目倒轉到開頭。 預設狀態為 true。                                                  |
 | loop       | 指出曲目順序是否會自行重複的模式。 預設狀態為 false。                                                                            |
@@ -93,7 +93,7 @@ Settings.setMode(
 
 <dl> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> <dt>
 
 [**設定. getMode**](settings-getmode.md)
