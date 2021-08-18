@@ -4,12 +4,12 @@ description: '使用指定之取樣器所識別的指定位址和篩選模式，
 ms.assetid: 9055D3EE-FD4A-418C-A743-D12E8BDF69FF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 397aba4a165f13721e73f87da82cff3e8918e33b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 09b6fabb75c819bb2a95fcf500799fd1e8153d6dabfe66d33ba04c518c949fa1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671878"
 ---
 # <a name="sample-sm4---asm"></a>範例 (sm4-asm) 
 
@@ -123,9 +123,9 @@ Texture1D/2D 陣列的陣列軸並不會套用位址位移。
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

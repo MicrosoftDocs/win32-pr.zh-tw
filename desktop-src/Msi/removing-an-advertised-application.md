@@ -4,12 +4,12 @@ ms.assetid: 979928fc-d95b-4c4e-88bd-aa16fbced736
 title: 移除已公告的應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6e8aba31dfd1538afc5585ada41b193c642950a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 880ce7d7de7ce7a8f9c9a20511f3f9d1b48ccdf34ffd2da51a71d226d0770b54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041578"
 ---
 # <a name="removing-an-advertised-application"></a>移除已公告的應用程式
 

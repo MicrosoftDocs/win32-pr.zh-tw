@@ -4,12 +4,12 @@ ms.assetid: d699b85c-441f-4ea6-8d03-d1fa9a8a357f
 title: 為方法啟用自動完成
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0130e5f8b2fde6c6755ef4174892aa35be8a24cd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 58eec7a7b87284145ea880338bfe61db2aa1afca06f1f83ee811e4375a1e473c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637688"
 ---
 # <a name="enabling-auto-done-for-a-method"></a>為方法啟用自動完成
 
@@ -30,7 +30,7 @@ ms.locfileid: "106986266"
 
 3.  若要啟用自動完成，請選取 [ **當此方法傳回時自動停用此物件** ] 核取方塊。 如果核取方塊無法使用，您必須先啟用元件的 JIT 啟用。 如需詳細指示，請參閱[啟用元件的 JIT 啟用](enabling-jit-activation-for-a-component.md) (。 ) 
 
-4.  按一下 [確定]  。
+4.  按一下 [確定]。
 
 ## <a name="related-topics"></a>相關主題
 

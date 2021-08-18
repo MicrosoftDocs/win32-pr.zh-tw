@@ -4,12 +4,12 @@ ms.assetid: 272d2f31-6e57-4ce5-ac86-b4d47f661fea
 title: MPEG-2 影片解碼篩選器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec7f48e441226dee33ef949219e8008e15c9d711
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6e72e575baf6761a34078ee4413b6dd095871a646d9539d08c9357ffd8af5efd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051018"
 ---
 # <a name="mpeg-1-video-decoder-filter"></a>MPEG-2 影片解碼篩選器
 
@@ -92,7 +92,7 @@ ms.locfileid: "106973128"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4ca5f296dd4a7437ea136dbaee0d04c68a93efc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da45459379c468839b0bf48ae134db1885ea25acce5ac3befa289ae15ee6fe8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119974258"
 ---
 # <a name="ivmhostinfo-interface"></a>IVMHostInfo 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 抓取主機電腦的相關資訊。 **IVMHostInfo** 物件會從 [**IVMVirtualPC：： HostInfo**](ivmvirtualpc-hostinfo.md)屬性傳回。
 
@@ -40,7 +40,7 @@ ms.locfileid: "104094543"
 
 
 
-| 屬性                                                                                  | 存取類型          | Description                                                                                        |
+| 屬性                                                                                  | 存取類型          | 描述                                                                                        |
 |:------------------------------------------------------------------------------------------|:---------------------|:---------------------------------------------------------------------------------------------------|
 | [**DVDDrives**](ivmhostinfo-dvddrives.md)<br/>                                     | 唯讀<br/> | 與主機 CD 和 DVD 裝置相關聯的磁碟機號。<br/>                              |
 | [**FloppyDrives**](ivmhostinfo-floppydrives.md)<br/>                               | 唯讀<br/> | 與主機軟碟磁碟機相關聯的磁碟機號。<br/>                                   |
@@ -49,7 +49,7 @@ ms.locfileid: "104094543"
 | [**MemoryAvail**](ivmhostinfo-memoryavail.md)<br/>                                 | 唯讀<br/> | 主機電腦可用的實體記憶體數量（以 mb 為單位）。<br/>              |
 | [**MemoryAvailString**](ivmhostinfo-memoryavailstring.md)<br/>                     | 唯讀<br/> | 主機電腦中可用的實體記憶體數量（以 mb 為單位），表示為字串。<br/> |
 | [**MemoryTotalString**](ivmhostinfo-memorytotalstring.md)<br/>                     | 唯讀<br/> | 主機電腦中的實體記憶體總數量（以 mb 為單位），表示為字串。<br/>     |
-| [**Mmx**](ivmhostinfo-mmx.md)<br/>                                                 | 唯讀<br/> | 指出處理器是否支援 MMX 指令集。<br/>                       |
+| [**MMX**](ivmhostinfo-mmx.md)<br/>                                                 | 唯讀<br/> | 指出處理器是否支援 MMX 指令集。<br/>                       |
 | [**NetworkAdapters**](ivmhostinfo-networkadapters.md)<br/>                         | 唯讀<br/> | 主機電腦中的可列舉 Nic 集合。<br/>                                   |
 | [**NetworkAddresses**](ivmhostinfo-networkaddresses.md)<br/>                       | 唯讀<br/> | 主機電腦中 TCP/IP 位址的可列舉集合。<br/>                       |
 | [**OperatingSystem**](ivmhostinfo-operatingsystem.md)<br/>                         | 唯讀<br/> | 在主機電腦上執行的作業系統。<br/>                                       |
@@ -65,7 +65,7 @@ ms.locfileid: "104094543"
 | [**ProcessorSpeedString**](ivmhostinfo-processorspeedstring.md)<br/>               | 唯讀<br/> | 主機處理器的速度，以兆赫或 ghz 為字串。<br/>                |
 | [**ProcessorVersionString**](ivmhostinfo-processorversionstring.md)<br/>           | 唯讀<br/> | 主機處理器的版本。<br/>                                                      |
 | [**SerialPorts**](ivmhostinfo-serialports.md)<br/>                                 | 唯讀<br/> | 與主機序列埠相關聯的序列埠名稱。<br/>                                |
-| [**Sse**](ivmhostinfo-sse.md)<br/>                                                 | 唯讀<br/> | 指出處理器是否支援 SSE 指令集。<br/>                       |
+| [**SSE**](ivmhostinfo-sse.md)<br/>                                                 | 唯讀<br/> | 指出處理器是否支援 SSE 指令集。<br/>                       |
 | [**SSE2**](ivmhostinfo-sse2.md)<br/>                                               | 唯讀<br/> | 指出處理器是否支援 SSE2 指令集。<br/>                      |
 | [**ThreeDNow**](ivmhostinfo-threednow.md)<br/>                                     | 唯讀<br/> | 指出處理器是否支援3DNow 指令集。<br/>                     |
 | [**UTCTime**](ivmhostinfo-utctime.md)<br/>                                         | 唯讀<br/> | 主機電腦上的 UTC 時間。<br/>                                                       |
@@ -80,7 +80,7 @@ ms.locfileid: "104094543"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

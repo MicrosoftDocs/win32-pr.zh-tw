@@ -1,19 +1,19 @@
 ---
-description: 瞭解 AepService 的裝置屬性如何設定要查詢的藍牙裝置位址。
+description: 深入瞭解 AepService。藍牙。RfcommService： Device 屬性會設定要查詢的藍牙裝置位址。
 ms.assetid: 6a2381b6-1bf6-4b6b-adcc-4fb6a641a015
-title: AepService. RfcommService. 裝置
+title: AepService。藍牙。RfcommService 裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d0f402e1af1bc0e652b88b1b959db49b5c9774c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: be604e962420efd42d46afdcef256b0f0a13b059523cbb801ca04f72c9567299
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010696"
 ---
-# <a name="systemdevicesaepservicebluetoothrfcommservicedevice"></a>AepService. RfcommService. 裝置
+# <a name="systemdevicesaepservicebluetoothrfcommservicedevice"></a>AepService。藍牙。RfcommService 裝置
 
-將 Bluetooth 裝置位址設定為 [查詢]。
+設定要查詢的藍牙裝置位址。
 
 ## <a name="windows-10-version-1511"></a>Windows 10 (版本 1511)
 

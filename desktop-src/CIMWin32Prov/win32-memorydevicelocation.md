@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5cf1ba93a2574810892443aefa43e1c7c501636c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ba19807d888c27246a17d8af73cfd81bfd8ba52136e466ab78433316ea533339
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973008"
 ---
 # <a name="win32_memorydevicelocation-class"></a>Win32 \_ MemoryDeviceLocation 類別
 

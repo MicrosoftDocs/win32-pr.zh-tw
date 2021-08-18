@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: eba987b42206121b91b3c096f298eac32cf52b38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d7a143dfb0024cced8a67595e17b12fba9d037b335b425272e1ad2a7999e0b11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010918"
 ---
 # <a name="allowhardterminate-settingstype-element"></a>AllowHardTerminate (settingsType) 元素
 
@@ -39,7 +39,7 @@ ms.locfileid: "106965071"
 
 
 
-| 元素                                                           | 衍生自                                                 | Description                                                                        |
+| 元素                                                           | 衍生自                                                 | 描述                                                                        |
 |-------------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [**設定**](taskschedulerschema-settings-tasktype-element.md) | [**taskType**](taskschedulerschema-tasktype-complextype.md) | 包含工作排程器用來執行工作的設定。<br/> |
 
@@ -61,8 +61,8 @@ ms.locfileid: "106965071"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

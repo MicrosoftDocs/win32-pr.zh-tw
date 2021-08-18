@@ -4,12 +4,12 @@ ms.assetid: cd1aaeff-241c-4e54-9d05-da5cf61b58df
 title: 'DVD_REGISTER (Strmif) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa7aba97cc0a1ddf9bf69a22e5d1adf3bf020997
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e849156b0e23cefa858b361e5ed10a1aecfbcd7f26a86c5194a5166b5213169
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043518"
 ---
 # <a name="dvd_register"></a>DVD \_ 註冊
 
@@ -36,7 +36,7 @@ typedef WORD DVD_REGISTER;
 
 <dl> <dt>
 
-[DirectShow 資料類型](directshow-data-types.md)
+[DirectShow資料類型](directshow-data-types.md)
 </dt> <dt>
 
 [**GPRMARRAY**](gprmarray.md)

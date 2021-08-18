@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fdcbb42291ab88e91eca6c16c0a6c95c3e89fd7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 72f08d45e51f334398c8754057c450f4d57e79d3e0eb79b518caa5a09b0b14b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939658"
 ---
 # <a name="mrmresourceindexermessageseverity-enumeration"></a>MrmResourceIndexerMessageSeverity 列舉
 
@@ -80,7 +80,7 @@ typedef enum _MrmResourceIndexerMessageSeverity {
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 
 

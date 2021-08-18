@@ -1,29 +1,29 @@
 ---
 title: 編譯功能區標記
-description: 若要讓 Windows 功能區架構使用功能區標記檔案，必須將標記檔案編譯成二進位格式的資源檔。
+description: 若要讓 Windows 功能區架構使用功能區標記檔案，標記檔案必須編譯成二進位格式資源檔。
 ms.assetid: ef9fea92-8c67-461d-9d74-2e259e407fb0
 keywords:
-- Windows 功能區，編譯標記
+- Windows功能區，編譯標記
 - 功能區，編譯標記
-- Windows 功能區，編譯器工作流程
+- Windows功能區、編譯器工作流程
 - 功能區、編譯器工作流程
-- 'Windows 功能區、UI 命令編譯器 (UICC.exe) '
+- 'Windows功能區、UI 命令編譯器 (UICC.exe) '
 - '功能區、UI 命令編譯器 (UICC.exe) '
 - 'UI 命令編譯器 (UICC.exe) '
 - 'UICC.exe (UI 命令編譯器) '
 - 編譯 Windows 功能區標記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f671e03d7d3a941f1c97891d87c170e65e326d70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 85534a05b3bde59cc2ec0eec482d8c3b47e898d39ad988c595fbac33eb5e9f36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932560"
 ---
 # <a name="compiling-ribbon-markup"></a>編譯功能區標記
 
-若要讓 Windows 功能區架構使用 [功能區標記](windowsribbon-schema.md) 檔案，必須將標記檔案編譯成二進位格式的資源檔。 Windows 軟體開發套件 (SDK)  (7.0 （含）以後版本的 (UICC) 的專用標記編譯器會隨附于此用途。 除了編譯標記的二進位版本之外，UICC 會產生 ID 定義標頭 ( .h) 檔案，該檔案會將所有標記專案公開至功能區主應用程式，以及在組建階段用來將影像和字串資源連結至主應用程式的資源 ( .rc) 檔。
+若要讓 Windows 功能區架構使用[功能區標記](windowsribbon-schema.md)檔案，標記檔案必須編譯成二進位格式資源檔。 Windows 軟體開發套件 (SDK)  (7.0 （含）以後版本的 (UICC) 的專用標記編譯器會隨附于此用途。 除了編譯標記的二進位版本之外，UICC 會產生 ID 定義標頭 ( .h) 檔案，該檔案會將所有標記專案公開至功能區主應用程式，以及在組建階段用來將影像和字串資源連結至主應用程式的資源 ( .rc) 檔。
 
 -   [編譯器工作流程](#compiler-workflow)
 -   [命令列語法](#command-line-syntax)
@@ -67,7 +67,7 @@ UICC <ribbonFile> <binaryFile> [options]
 <thead>
 <tr class="header">
 <th>選項</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

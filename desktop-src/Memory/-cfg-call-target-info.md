@@ -1,5 +1,5 @@
 ---
-description: 代表控制流程防護 (CFG) 的呼叫目標相關資訊。
+description: 表示控制 Flow 防護 (CFG) 的呼叫目標相關資訊。
 ms.assetid: 8DEF907F-3F23-4122-95CE-F413FC7FD96B
 title: 'CFG_CALL_TARGET_INFO 結構 (Ntmmapi .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - ntmmapi.h
-ms.openlocfilehash: 66177f6b478264a10c1ce0e50297d943a16407c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3bd7d351e890a968f2fa01ddffa6c8e3be16164d78393894055f55660c516bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040278"
 ---
 # <a name="cfg_call_target_info-structure"></a>CFG \_ 呼叫 \_ 目標 \_ 資訊結構
 
-代表控制流程防護 (CFG) 的呼叫目標相關資訊。
+表示控制 Flow 防護 (CFG) 的呼叫目標相關資訊。
 
 ## <a name="syntax"></a>語法
 
@@ -60,8 +60,8 @@ typedef struct _CFG_CALL_TARGET_INFO {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Ntmmapi。h</dt> </dl> |
 
 

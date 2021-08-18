@@ -4,12 +4,12 @@ ms.assetid: cb31bf2f-e889-4da3-b408-e5612e2af95b
 title: 'InkPicture. MouseEnter 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87c88e2c941f64dba5f557b509971e0a329dada3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f3e716758539dea80e0f62ce44610b28296d9de11de6e2616248c137f583c7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939018"
 ---
 # <a name="inkpicturemouseenter-event"></a>InkPicture. MouseEnter 事件
 
@@ -42,7 +42,7 @@ void MouseEnter();
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

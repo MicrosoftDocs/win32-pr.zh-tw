@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62e7436a5b79480b39c093545a0b579da3d13082
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 468d6096343e3c0fe67369abe3927870f2e1eaf89a2d12b9c73e3560d436859e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997199"
 ---
 # <a name="wsmansessionflagusekerberos-method"></a>WSMan. SessionFlagUseKerberos 方法
 
@@ -65,7 +65,7 @@ WSMan.SessionFlagUseKerberos( _
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
@@ -78,7 +78,7 @@ WSMan.SessionFlagUseKerberos( _
 [**WSMan**](wsman.md)
 </dt> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> </dl>
 
  

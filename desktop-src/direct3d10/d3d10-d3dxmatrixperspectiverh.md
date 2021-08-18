@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 03ffd99d016023612daa3de96ae29275d71074a0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 396b54eb38c293f49bf0573fa39656083454e40548ca97e85d1b0721618956b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991178"
 ---
 # <a name="d3dxmatrixperspectiverh-function-d3dx10mathh"></a>D3DXMatrixPerspectiveRH 函式 (D3DX10Math) 
 

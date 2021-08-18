@@ -3,7 +3,7 @@ title: 'TB_GETINSERTMARK 訊息 (Commctrl .h) '
 description: 抓取工具列目前的插入標記。
 ms.assetid: b22770a4-e859-451d-a726-279bbc49b984
 keywords:
-- TB_GETINSERTMARK message Windows 控制項
+- TB_GETINSERTMARK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b45a4cafbd49c709e9ca5b8e9afeda51323de491
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 34ee4a51d3110a99013ed26ccb1f2c102e7821873e63dd419b33e92636a1b655
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918748"
 ---
 # <a name="tb_getinsertmark-message"></a>TB \_ GETINSERTMARK 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104024720"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

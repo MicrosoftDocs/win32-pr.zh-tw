@@ -4,12 +4,12 @@ ms.assetid: 57df081f-df41-4187-910b-939e3d82d7a0
 title: Track-Controlled 記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 366b996e590c313cec3ca2e67e12008403e4a4cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 499c4cb79015effa80add4fc5369ec53f134e83f3f1b7e4cda06b09869c01386
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872668"
 ---
 # <a name="track-controlled-record"></a>Track-Controlled 記錄
 

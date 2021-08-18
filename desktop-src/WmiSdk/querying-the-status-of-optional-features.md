@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 查詢選用功能的狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c190b2a2143dae1e22c30b3e5e803908bcb4116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec27457336adcc5c358aad0a5e139c1c7c07f6bcb72335ec549f9ca98cc1e5a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996028"
 ---
 # <a name="querying-the-status-of-optional-features"></a>查詢選用功能的狀態
 
-在 Windows 7 中，WMI 已實作為 [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) 類別。 此類別會抓取存在於電腦上之選用功能的狀態。
+在 Windows 7 中，WMI 已實作為 [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature)類別。 此類別會抓取存在於電腦上之選用功能的狀態。
 
 您可以使用 Windows PowerShell Cmdlet 來查詢選用功能的狀態。 本主題中的所有範例都使用 Get-WmiObject Cmdlet。 如需詳細資訊，請參閱 [>get-wmiobject](/previous-versions//dd315295(v=technet.10))。
 

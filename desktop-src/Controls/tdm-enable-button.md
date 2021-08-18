@@ -3,7 +3,7 @@ title: 'TDM_ENABLE_BUTTON 訊息 (Commctrl .h) '
 description: 啟用或停用工作對話方塊中的 [推送] 按鈕。
 ms.assetid: 133fe4ac-4e2d-4826-8510-c0d9f88b5b37
 keywords:
-- TDM_ENABLE_BUTTON message Windows 控制項
+- TDM_ENABLE_BUTTON 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db10d616b4d07adcdc8c97495f7d12c89e603a7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a76603f61f3e27dce8cf7c8f5504457ce5a29a787b3b1f6357c1c519c735854
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106997046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104648"
 ---
 # <a name="tdm_enable_button-message"></a>TDM \_ 啟用 \_ 按鈕訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "106997046"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: b963bd2a-47cb-4f8d-8272-a586e6d6a047
 title: 解析訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3390d97aad972f001b98587c6b5e7cd7ac708b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54887db566ee428e6bfe9ec2de9016a637884b092611a85e607c55aaa4176abc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991608"
 ---
 # <a name="resolve-message"></a>解析訊息
 
@@ -74,7 +74,7 @@ urn:schemas-xmlsoap-org:ws:2005:04:discovery
 <tr class="header">
 <th>對焦點</th>
 <th>XML</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -110,7 +110,7 @@ urn:schemas-xmlsoap-org:ws:2005:04:discovery
 
 <dl> <dt>
 
-[探索和中繼資料交換訊息](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [ResolveMatches 訊息](resolvematches-message.md)

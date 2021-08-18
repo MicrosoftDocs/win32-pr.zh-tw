@@ -4,12 +4,12 @@ ms.assetid: b17b470b-6971-4124-8ec3-73914fdea95f
 title: CreateFolder 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc286b32b48e0db9e5b991ab10af663c51538bf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c4cb926f6df388241a9c779328346a6e1bfb9fba4b365afce778c6e0b7a2548
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045088"
 ---
 # <a name="createfolder-table"></a>CreateFolder 資料表
 

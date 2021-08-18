@@ -4,12 +4,12 @@ ms.assetid: 4b2b1898-64f1-4908-98b7-ea87a6fcb71d
 title: 搜尋、下載及安裝更新
 ms.topic: article
 ms.date: 01/16/2020
-ms.openlocfilehash: 289e0535bc39ca3fb39ddb33bbc67d009898b556
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: bfb112533dd30ed203ab44104a0ef241ccf93504376637c07f1527ff3cca79f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106976530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994238"
 ---
 # <a name="searching-downloading-and-installing-updates"></a>搜尋、下載及安裝更新
 
@@ -23,14 +23,14 @@ ms.locfileid: "106976530"
 
 -   電腦上必須安裝 WUA。 如需如何判斷已安裝之 WUA 版本的詳細資訊，請參閱 [判斷 wua 的目前版本](determining-the-current-version-of-wua.md)。
 -   此範例只能使用 WUA 來下載更新。 它無法從軟體更新服務 (SUS) 1.0 伺服器下載更新。
--   執行此範例需要 Windows Script Host (WSH) 。 如需有關 WSH 的詳細資訊，請參閱平臺軟體發展工具組 (SDK) 的 WSH 區段。 如果將範例複製到名為 WUASearchDownloadInstall.vbs 的檔案 \_ ，您可以藉由開啟命令提示字元視窗，然後在命令提示字元中輸入下列命令，來執行此範例。
+-   執行此範例需要 Windows 腳本主機 (WSH) 。 如需有關 WSH 的詳細資訊，請參閱平臺軟體發展工具組 (SDK) 的 WSH 區段。 如果將範例複製到名為 WUASearchDownloadInstall.vbs 的檔案 \_ ，您可以藉由開啟命令提示字元視窗，然後在命令提示字元中輸入下列命令，來執行此範例。
 
     **cscript WUA \_SearchDownloadInstall.vbs**
 
 ## <a name="example"></a>範例
 
 > [!IMPORTANT]
-> 此腳本旨在示範如何使用 Windows Update 代理程式 Api，並提供開發人員如何使用這些 Api 來解決問題的範例。 此腳本並不是用來作為生產程式碼，而且 Microsoft (不支援腳本本身，不過) 支援基礎 Windows Update 代理程式 Api。
+> 此腳本旨在示範如何使用 Windows Update 代理程式 api，並提供開發人員如何使用這些 api 來解決問題的範例。 此腳本並不是用來作為生產程式碼，而且 Microsoft (不支援腳本本身，不過) 支援基礎 Windows Update 代理程式 api。
 
  
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 21949d772c44f02e364013dd98c905b8f59ccdc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 67a4051f904b27b75273d553e1d0604b068b3910fbfb322b5a2df716c996a1ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872581"
 ---
 # <a name="cbaseoutputpin-class"></a>CBaseOutputPin 類別
 
@@ -44,11 +44,11 @@ ms.locfileid: "106993446"
 
 
 
-| 受保護的成員變數                                      | Description                                                                |
+| 受保護的成員變數                                      | 描述                                                                |
 |-----------------------------------------------------------------|----------------------------------------------------------------------------|
 | [**m \_ pAllocator**](cbaseoutputpin-m-pallocator.md)            | 記憶體配置器的指標。                                           |
 | [**m \_ pInputPin**](cbaseoutputpin-m-pinputpin.md)              | 連接到此 pin 之輸入連接的指標。                            |
-| 公用方法                                                  | Description                                                                |
+| 公用方法                                                  | 描述                                                                |
 | [**CBaseOutputPin**](cbaseoutputpin-cbaseoutputpin.md)         | 函式方法。                                                        |
 | [**CompleteConnect**](cbaseoutputpin-completeconnect.md)       | 完成輸入 pin 的連接。 虛擬。                           |
 | [**DecideAllocator**](cbaseoutputpin-decideallocator.md)       | 選取記憶體配置器。 虛擬。                                       |
@@ -63,9 +63,9 @@ ms.locfileid: "106993446"
 | [**DeliverBeginFlush**](cbaseoutputpin-deliverbeginflush.md)   | 要求連接的輸入 pin 以開始清除作業。 虛擬。      |
 | [**DeliverEndFlush**](cbaseoutputpin-deliverendflush.md)       | 要求連接的輸入 pin 以結束排清操作。 虛擬。        |
 | [**DeliverNewSegment**](cbaseoutputpin-delivernewsegment.md)   | 將新區段通知傳遞至連線的輸入 pin。 虛擬。   |
-| 純虛擬方法                                            | Description                                                                |
+| 純虛擬方法                                            | 描述                                                                |
 | [**DecideBufferSize**](cbaseoutputpin-decidebuffersize.md)     | 設定緩衝區需求。                                              |
-| IPin 方法                                                    | Description                                                                |
+| IPin 方法                                                    | 描述                                                                |
 | [**BeginFlush**](cbaseoutputpin-beginflush.md)                 | 開始清除作業。                                                  |
 | [**EndFlush**](cbaseoutputpin-endflush.md)                     | 結束清除操作。                                                    |
 | [**EndOfStream**](cbaseoutputpin-endofstream.md)               | 通知 pin，不需要額外的資料。                      |

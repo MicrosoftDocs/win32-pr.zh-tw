@@ -4,16 +4,16 @@ ms.assetid: 0c2d739d-736d-4773-9747-1107546a973c
 title: 'ITTimeCollection：： get__NewEnum 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acfc9d616efb58c6173f2c9c6e5913d27776958c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4ba76f1d10e2cb9ee937ec688af3e87e0bb9310df9fc39afaef64e60ea55b1dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991898"
 ---
 # <a name="ittimecollectionget__newenum-method"></a>ITTimeCollection：： get \_ \_ NewEnum 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ \_ NewEnum** 方法會傳回集合的列舉值。
 
@@ -49,7 +49,7 @@ HRESULT get__NewEnum(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | *PVal* 參數不是有效的指標。<br/>         |

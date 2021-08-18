@@ -4,12 +4,12 @@ description: 這些文章包含與 Microsoft Active Accessibility 搭配使用�
 ms.assetid: a6325361-ea7b-472d-85d7-bc1544b57352
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b63371b29fa5b7a697f96abd6d2d9077124a0ff
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 02c99f43e0971eaecad150568f58c6d2f9832468352aa25884d182f8956ed3ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994248"
 ---
 # <a name="constants-active-accessibility-user-interface-services"></a> (Active Accessibility 消費者介面服務的常數) 
 

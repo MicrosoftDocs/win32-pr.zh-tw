@@ -4,12 +4,12 @@ ms.assetid: e2f8d9a2-c96c-457c-8a88-7c86d4405928
 title: 'EC_STREAM_CONTROL_STARTED (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 984562fde9001de14067e5865d5583636b264852
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73af8d39c3dae0447600a23dcb00483f4e0da6b81bc7ba6ab4a7e8b5f7afa42d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997888"
 ---
 # <a name="ec_stream_control_started"></a>\_已開始使用 EC 資料流程 \_ 控制項 \_
 

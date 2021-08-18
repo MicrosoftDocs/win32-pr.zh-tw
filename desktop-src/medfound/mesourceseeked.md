@@ -4,12 +4,12 @@ ms.assetid: 51ce770e-ddc7-41c1-8e31-59481cafe2b0
 title: 'MESourceSeeked 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 589e6619b4b4147da65a327681ad4ed2eace89c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b913089ca40895a782f3c013b752db25fe754443ae6d79b410da98e759b4b8ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941408"
 ---
 # <a name="mesourceseeked-event"></a>MESourceSeeked 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106983325"
 
 
 
-| VARTYPE           | Description                                                                |
+| VARTYPE           | 描述                                                                |
 |-------------------|----------------------------------------------------------------------------|
 | VT \_ I8<br/> | 新的開始位置，以 100-毫微秒單位表示。<br/> <br/> |
 
@@ -33,8 +33,8 @@ ms.locfileid: "106983325"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 23569104-a302-40de-a31a-a4ee22d5f7f2
 title: 範例 C 程式：匯入純文字金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92341f4118770b963a9ea3dd47a153da0fe406b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58632d7dd3f7411788e26538906c41d1b33ce30888696516e29642f8dbaf00c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874018"
 ---
 # <a name="example-c-program-importing-a-plaintext-key"></a>範例 C 程式：匯入純文字金鑰
 

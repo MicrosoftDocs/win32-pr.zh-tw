@@ -4,12 +4,12 @@ description: 本節將列出每個10Level9 功能等級和 D3D \_ 功能 \_ 等�
 ms.assetid: 84478b56-0306-491a-9545-0849b06d8342
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb3dc46aeeb5d629c4bf50492083d09b34de1b08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d5cb055e6a290a9500f65ad2d64cdd69b0eaa224e6a81359595688ba1aca657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990068"
 ---
 # <a name="10level9-id3d11devicecontext-methods"></a>10Level9 >id3d11devicecoNtext 方法
 

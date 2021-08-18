@@ -4,12 +4,12 @@ ms.assetid: 213c48e8-bb21-43ed-9c00-2a5cf8ac25f0
 title: I/o 完成埠
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 882363ef99821a0b0b40810f45d609c5b5f7760c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2133bb14c661580eaf8004bd92c6f947b3b8777a4b1a5f6b330fe631b2be6c81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050828"
 ---
 # <a name="io-completion-ports"></a>I/o 完成埠
 

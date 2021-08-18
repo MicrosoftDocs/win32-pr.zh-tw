@@ -4,12 +4,12 @@ ms.assetid: 5a7d6aa7-0eb8-4652-af0b-74fbdb5a2c2f
 title: 使用檔案終端機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7637e83e56fddb2589bbd0858b5e994ca02855
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbd72a02306efb5503d184b3f4e678df1ab2517928c8c8406d98b1d7d0efb41d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975125"
 ---
 # <a name="using-file-terminals"></a>使用檔案終端機
 

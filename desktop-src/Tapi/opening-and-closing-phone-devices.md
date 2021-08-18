@@ -1,17 +1,17 @@
 ---
 description: 在決定電話裝置的功能之後，應用程式必須先開啟裝置，才能存取該手機上的功能。
 ms.assetid: 0215db43-b4d7-4a1e-8d4f-d17013c14e61
-title: 開啟和關閉手機裝置
+title: 開啟和關閉電話裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4692901d09c680276bda1a5dba77bc57ce599e77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6dacda3e98e96ed4a11334443a7b99b949e6d1b3823e42e1790c5a346b52dac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012517"
 ---
-# <a name="opening-and-closing-phone-devices"></a>開啟和關閉手機裝置
+# <a name="opening-and-closing-phone-devices"></a>開啟和關閉電話裝置
 
 在決定電話裝置的功能之後，應用程式必須先開啟裝置，才能存取該手機上的功能。 成功開啟手機裝置之後，應用程式會傳回代表開啟電話的控制碼。 您可以使用不同的模式開啟手機裝置，藉此提供共用電話裝置的結構化方式。
 

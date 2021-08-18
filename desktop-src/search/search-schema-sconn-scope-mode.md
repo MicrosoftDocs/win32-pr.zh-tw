@@ -4,12 +4,12 @@ ms.assetid: 7654c04a-31c4-4260-a51c-0600804e62a9
 title: " (搜尋連接器架構) 的模式元素"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec8c09b4c6de138e6e390d2c31a82fe5d1f56566
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32a210abf5c9c2bbc4cd5d53978866a729d834928cf39e54bfb6e6fcc9c42c7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944318"
 ---
 # <a name="mode-element-search-connector-schema"></a> (搜尋連接器架構) 的模式元素
 

@@ -15,12 +15,12 @@ keywords:
 - 介面，IValueProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40633a21fdd6b59a2aa35c34258037582a647f05
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 28b30d8c84bc5f998d55ee17d7699bb37f33b7e19c52a2694578c3d11ef1d888
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997801"
 ---
 # <a name="value-control-pattern"></a>值控制項模式
 
@@ -45,7 +45,7 @@ ms.locfileid: "104375993"
 - 單一和多行編輯控制項必須執行 [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) 來公開其唯讀內容。
 - 如果可以變更多行編輯控制項的內容，則必須執行 [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) 。
 - [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) 不支援抓取格式化資訊或子字串值。 在這些案例中執行 [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) 。
-- [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider) 必須由 Microsoft Word 中的色彩選擇器選取控制項等控制項來執行， (請參閱下圖) ，其支援色彩值之間的字串對應 (例如，"黃色" ) 和相等的內部 [RGB](/windows/win32/api/wingdi/nf-wingdi-rgb) 值。
+- [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)必須由 Microsoft Word (的色彩選擇器選取控制項等控制項來執行，請參閱下圖) ，它支援色彩 (值之間的字串對應，例如，"黃色" ) 和相等的內部 [RGB](/windows/win32/api/wingdi/nf-wingdi-rgb)值。
 
     ![顯示色樣字串對應的圖例](images/uia-valuepattern-colorpicker.jpg)
 
@@ -65,7 +65,7 @@ ms.locfileid: "104375993"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -85,6 +85,6 @@ ms.locfileid: "104375993"
 [Text 和 TextRange 控制項模式](uiauto-implementingtextandtextrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

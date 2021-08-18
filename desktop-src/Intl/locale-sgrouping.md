@@ -4,12 +4,12 @@ ms.assetid: 3f07ecae-38f4-477b-8b23-a9cd87613c24
 title: LOCALE_SGROUPING
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db7242f7d515ce17872376b9a067a7b41831a331
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 476fa80a22e55791ca7b5636237540c457480ff0bd9c808b99ef3c6e46a17dce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106208"
 ---
 # <a name="locale_sgrouping"></a>地區設定 \_ SGROUPING
 

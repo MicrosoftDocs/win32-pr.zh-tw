@@ -8,12 +8,12 @@ keywords:
 - 擴充功能 ADSI，解決函式和屬性名稱在自動化中的衝突
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9a7ac99b99ecdf0ee1b940f066d9e8166a15542
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 53701c95672fe209cb57a15e3292e1269dc37e66e36f041110dd502f8a8a1486
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637538"
 ---
 # <a name="resolution-of-functionproperty-name-conflicts-in-automation-in-extensions"></a>函數/屬性名稱在延伸模組中的自動化衝突
 
@@ -49,10 +49,10 @@ ADSI 用戶端具有類別 CA 物件的 [**IDispatch**](/windows/win32/api/oaidl
 
 如果發生名稱衝突，即使介面是雙重介面，ADSI 用戶端仍可直接進行 vtable 存取，以避免此問題。 如果無法進行直接 vtable 存取，ADSI 用戶端應該使用多個名稱來呼叫 [**IDispatch：： GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames) ，並指定函式名稱，以及先前所述的陣列 *rgszNames* 中的參數。
 
-Visual Basic 5 不會使用多個名稱來呼叫 [**IDispatch：： GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames) 函數。 也就是說，它只會將函式名稱傳遞給 **GetIDsOfNames**，而不會傳遞引數。 不過，Visual Basic 5 可讓使用者藉由直接 vtable 存取來叫用函式，而不是叫用 **IDispatch：： GetIDsOfNames** 函數（如果介面是雙重介面）。 開發人員應該盡可能使用直接 vtable 存取。
+Visual Basic 5 不會使用多個名稱來呼叫 [**IDispatch：： GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames)函數。 也就是說，它只會將函式名稱傳遞給 **GetIDsOfNames**，而不會傳遞引數。 不過，Visual Basic 5 可讓使用者藉由直接 vtable 存取來叫用函式，而不是叫用 **IDispatch：： GetIDsOfNames** 函數（如果介面是雙重介面）。 開發人員應該盡可能使用直接 vtable 存取。
 
 如需名稱衝突解決方式的詳細資訊，請參閱 [解析函數名稱衝突的範例](example-for-resolving-function-name-conflicts.md)。
 
- 
+ 
 
- 
+ 

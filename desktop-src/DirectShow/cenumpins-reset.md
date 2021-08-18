@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 154899176d342b4630f8c93ab4b4cb86a54e13ea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0bbef967736261ca6e177bd0cb31e399f7d68bad1ab1a8ef9601e717213c82be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999488"
 ---
 # <a name="cenumpinsreset-method"></a>CEnumPins 重設方法
 

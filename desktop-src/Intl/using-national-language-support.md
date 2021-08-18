@@ -4,12 +4,12 @@ ms.assetid: 48d96954-90ca-4a4b-b62d-3dd2348fc61c
 title: 使用國家語言支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88a01664bb8af1f5ad3b740ee815ae99b0b9ee74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34bfe31221c08bb66a10d4756909743a2eb4b16da004c0fd647e550f8ac0d5a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764568"
 ---
 # <a name="using-national-language-support"></a>使用國家語言支援
 

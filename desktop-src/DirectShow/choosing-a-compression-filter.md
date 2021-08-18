@@ -4,12 +4,12 @@ ms.assetid: 9a2c3c48-771e-44db-a042-3db0fd9a6c76
 title: 選擇壓縮篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a64ebebf41c35ed6aed9ab47d853c03ba720a31
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cf964aa3647086efe569263e5fb36b4e0db60ebfad73c9d2fe9dcb14f3bcf125
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999218"
 ---
 # <a name="choosing-a-compression-filter"></a>選擇壓縮篩選
 
@@ -20,9 +20,9 @@ ms.locfileid: "104109841"
 -   音訊壓縮管理員 (的) 編解碼器
 -   DirectX 媒體物件 (DMOs) 
 
-在 DirectShow 中，BC-VCM-LVM-HYPERV 編解碼器是由 [AVI 壓縮程式篩選器](avi-compressor-filter.md)包裝，而使用的編解碼器會由「通過」包裝函式 [篩選器](acm-wrapper-filter.md)包裝。 DMOs 是以 [Sql-dmo 包裝函式篩選器](dmo-wrapper-filter.md)包裝。 系統裝置列舉值可提供一致的方式來列舉和建立任何這些壓縮程式類型，而不需擔心基礎模型。
+在 DirectShow 中，bc-vcm-lvm-hyperv 編解碼器是由[AVI 壓縮程式篩選器](avi-compressor-filter.md)包裝，而使用的編解碼器會由「通過」包裝函式[篩選器](acm-wrapper-filter.md)包裝。 DMOs 是以[DMO 包裝函式篩選器](dmo-wrapper-filter.md)包裝。 系統裝置列舉值可提供一致的方式來列舉和建立任何這些壓縮程式類型，而不需擔心基礎模型。
 
-如需系統裝置列舉值的詳細資訊，請參閱 [使用系統裝置枚舉器](using-the-system-device-enumerator.md)。 簡單地說，所有的 DirectShow 篩選準則都會依類別分類，而且每個類別都是由 GUID 來識別。 針對影片壓縮機，類別目錄 GUID 是 CLSID \_ VideoCompressorCategory。 針對音訊壓縮機，它是 CLSID \_ AudioCompressorCategory。 為了列舉特定的類別，系統裝置列舉值會建立支援 [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker)介面的 *列舉* 值物件。 應用程式會使用此介面來抓取裝置的名字標記，其中每個裝置的標記都代表一個 DirectShow 篩選器的實例。 您可以使用「標記」來建立篩選，或在不建立篩選的情況下取得裝置的易記名稱。
+如需系統裝置列舉值的詳細資訊，請參閱 [使用系統裝置枚舉器](using-the-system-device-enumerator.md)。 簡單地說，所有 DirectShow 篩選準則都會依類別分類，而且每個類別都是由 GUID 所識別。 針對影片壓縮機，類別目錄 GUID 是 CLSID \_ VideoCompressorCategory。 針對音訊壓縮機，它是 CLSID \_ AudioCompressorCategory。 為了列舉特定的類別，系統裝置列舉值會建立支援 [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker)介面的 *列舉* 值物件。 應用程式會使用此介面來抓取裝置的名字標記，其中每個裝置的標記都代表 DirectShow 篩選準則的實例。 您可以使用「標記」來建立篩選，或在不建立篩選的情況下取得裝置的易記名稱。
 
 若要列舉使用者系統上的可用影片或音訊壓縮機，請執行下列動作：
 

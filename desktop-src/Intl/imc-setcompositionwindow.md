@@ -4,12 +4,12 @@ ms.assetid: 19b99228-a1fc-4cd5-8f37-5462bf767f85
 title: 'IMC_SETCOMPOSITIONWINDOW 命令 (Imm. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b06c53b1ff2ec343d6382dd48d0d4108cf403c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bb1fe35ecd530e8173b7ea57f7c6ff414105d09507a11bf4eed29ab0595e604
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107258"
 ---
 # <a name="imc_setcompositionwindow-command"></a>IMC \_ SETCOMPOSITIONWINDOW 命令
 
@@ -58,7 +58,7 @@ LRESULT IMC_SETCOMPOSITIONWINDOW
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0f4e8af391fed5717f47bb4b80398129cb98ce
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc045b40105a698c9d051de791991c49d2b6d0dd4672d50f344e8781999dd5c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103854064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989958"
 ---
 # <a name="d3dx11_effect_type_desc-structure"></a>D3DX11 \_ 效果 \_ 類型 \_ DESC 結構
 
@@ -71,7 +71,7 @@ Type： **[ **D3D10 \_ 著色器 \_ 變數 \_ 類別**](/windows/desktop/api/d3d
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 類型： **[ **D3D10 \_ 著色器 \_ 變數 \_ 類型**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type)**

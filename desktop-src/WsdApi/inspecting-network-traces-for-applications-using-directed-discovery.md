@@ -4,12 +4,12 @@ ms.assetid: 9b124117-06e7-4637-9863-0f9650861526
 title: 使用導向探索檢查應用程式的網路追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d94ea3bc102c57c415be518883296e049490ca
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: c9f8e96778b2d75f511c625073ef1d0bbc30dd4c815a327f42432abd0d221756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991728"
 ---
 # <a name="inspecting-network-traces-for-applications-using-directed-discovery"></a>使用導向探索檢查應用程式的網路追蹤
 
@@ -31,7 +31,7 @@ ms.locfileid: "112262120"
 
 ## <a name="verifying-that-messages-meet-traffic-requirements"></a>確認訊息符合流量需求
 
-WSDAPI 用戶端和主機必須傳送符合下列準則的訊息。 如需訊息模式的一般資訊，請參閱 [探索和中繼資料交換訊息模式](discovery-and-metadata-exchange-message-patterns.md)。
+WSDAPI 用戶端和主機必須傳送符合下列準則的訊息。 如需訊息模式的一般資訊，請參閱[探索和中繼資料 Exchange 訊息模式](discovery-and-metadata-exchange-message-patterns.md)。
 
 -   [探查](probe-message.md) 訊息必須透過 HTTP 或 HTTPS 傳送，通常是埠5357或5358。
 -   [探查](probe-message.md)訊息的 **Types** 元素必須存在，而且不可以是空的。 它必須包含主機將回應的類型。
@@ -41,7 +41,7 @@ WSDAPI 用戶端和主機必須傳送符合下列準則的訊息。 如需訊息
 -   [ProbeMatches](probematches-message.md)訊息必須在對應[探查](probe-message.md)訊息的4秒內傳送。 Windows 防火牆可能會捨棄在探查訊息之後傳送超過4秒的 ProbeMatches 訊息。
 -   如果 [ProbeMatches](probematches-message.md)訊息中未包含 **XAddrs** 元素，且用戶端或主機會傳送 Http 訊息 (例如 [Get](get--metadata-exchange--http-request-and-message.md) metadata exchange 要求或) 的服務訊息，則用戶端或主機必須透過 HTTP 或 HTTPS 傳送 [解析](resolve-message.md)訊息。 此訊息通常會傳送到埠5357或5358。
 -   如果傳送了 [解析](resolve-message.md) 訊息，則必須將 [ResolveMatches](resolvematches-message.md) 訊息傳送給從中傳送解析訊息的 HTTP 或 HTTPS 埠。
--   [ResolveMatches](resolvematches-message.md)訊息必須在對應的[解析](resolve-message.md)訊息的4秒內傳送。 在解析訊息之後，Windows 防火牆可能會捨棄超過4秒的 ResolveMatchesmessage 傳送。
+-   [ResolveMatches](resolvematches-message.md)訊息必須在對應的[解析](resolve-message.md)訊息的4秒內傳送。 Windows 防火牆可能會捨棄在解析訊息之後超過4秒傳送的 ResolveMatchesmessage。
 
 如果程式所傳送的訊息不符合這些訊息需求，則會成功識別出問題的原因，而不需要進行進一步的疑難排解步驟。 重寫程式，使其產生符合標準的訊息，並重新測試程式。
 

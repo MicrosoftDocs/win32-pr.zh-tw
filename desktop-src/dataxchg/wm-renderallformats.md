@@ -3,7 +3,7 @@ title: 'WM_RENDERALLFORMATS 訊息 (Winuser .h) '
 description: 如果剪貼簿擁有者有延遲轉譯一或多個剪貼簿格式，則會在終結之前傳送給剪貼簿擁有者。
 ms.assetid: dff9100f-2dba-467d-be74-a9a9c2b2122b
 keywords:
-- WM_RENDERALLFORMATS 訊息資料交換
+- WM_RENDERALLFORMATS 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cdd3ce1fabdea4cdcae93b5243b89c53def0afa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77dae9b44cb379ed62c99c601d308fdec500440a9ebad0ffeaffad16ec780dfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636058"
 ---
 # <a name="wm_renderallformats-message"></a>WM \_ RENDERALLFORMATS 訊息
 
@@ -74,7 +74,7 @@ ms.locfileid: "104509092"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

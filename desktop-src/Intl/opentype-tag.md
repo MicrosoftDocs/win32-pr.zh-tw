@@ -4,12 +4,12 @@ ms.assetid: 188ad9a1-e0eb-411f-b6df-8c394d122d6f
 title: 'OPENTYPE_TAG (Usp10) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf973c03f26bdb8f8b3799e1780fed5075d315cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7c784fa7f6243e7e5444dcbc64c690ce7184d6ace469759c19be9de87854732
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040778"
 ---
 # <a name="opentype_tag"></a>OPENTYPE \_ 標記
 

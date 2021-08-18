@@ -1,19 +1,19 @@
 ---
-description: DirectShow 會在名為 CUnknown 的基類中實行 IUnknown。
+description: DirectShow 在名為 CUnknown 的基類中實施 IUnknown。
 ms.assetid: 1fc74db6-c23a-464f-b9fa-b19d7e8672b7
 title: 使用 CUnknown
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c1758065e8d618bf6ca74b37d98b0a8b5425919
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e211ebf8c581502665c5f07b3720759efc7afab75a05a49a68f9945029dd6cce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051378"
 ---
 # <a name="using-cunknown"></a>使用 CUnknown
 
-DirectShow 會在名為 [**CUnknown**](cunknown.md)的基類中實行 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 。 您可以使用 **CUnknown** 來衍生其他類別，只覆寫在各元件之間變更的方法。 DirectShow 中大部分的其他基類都衍生自 **CUnknown**，因此您的元件可以直接從 **CUnknown** 或從其他基類繼承。
+DirectShow 在名為 [**CUnknown**](cunknown.md)的基類中實施 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 。 您可以使用 **CUnknown** 來衍生其他類別，只覆寫在各元件之間變更的方法。 DirectShow 中大部分的其他基類衍生自 **CUnknown**，因此您的元件可以直接從 **CUnknown** 或從其他基類繼承。
 
 ## <a name="inondelegatingunknown"></a>INonDelegatingUnknown
 
@@ -79,7 +79,7 @@ CMyComponent(TCHAR *tszName, LPUNKNOWN pUnk, HRESULT *phr)
 -   *pUnk* 是匯總 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)的指標。
 -   *pHr* 是 HRESULT 值的指標，表示方法成功或失敗。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 下列範例顯示支援 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 的衍生類別，以及名為 ISomeInterface 的假設介面：
 
@@ -120,7 +120,7 @@ public:
 -   為了支援 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)以外的介面，衍生類別必須覆寫 [**NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) 方法，並測試新介面的 IID。
 -   類別的函式會叫用 [**CUnknown**](cunknown.md)的函式方法。
 
-撰寫篩選的下一個步驟是讓應用程式建立元件的新實例。 這需要瞭解 Dll 及其與 class factory 和類別的函式方法的關聯。 如需詳細資訊，請參閱 [如何建立 DirectShow 篩選 DLL](how-to-create-a-dll.md)。
+撰寫篩選的下一個步驟是讓應用程式建立元件的新實例。 這需要瞭解 Dll 及其與 class factory 和類別的函式方法的關聯。 如需詳細資訊，請參閱[如何建立 DirectShow 篩選 DLL](how-to-create-a-dll.md)。
 
 ## <a name="related-topics"></a>相關主題
 

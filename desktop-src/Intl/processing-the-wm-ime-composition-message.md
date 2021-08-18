@@ -4,12 +4,12 @@ ms.assetid: 6d9cb9e2-f30e-4299-9af5-a705cd40b185
 title: 處理 WM_IME_COMPOSITION 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 059ff6f38531cfdea781d5633226d32d054f13b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cb7237c986270f2684552fb19b1ad31a1dd369a723b0c8ef47189de95021022
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040658"
 ---
 # <a name="processing-the-wm_ime_composition-message"></a>處理 WM \_ IME \_ 組合訊息
 

@@ -4,12 +4,12 @@ ms.assetid: 1ef161b6-f127-45ad-a312-d2adcb5124ef
 title: SelectionSize ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c11829661f0120fa5906a04f081e6c979b37180
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24c8733c0155adc085343c0a5db1a42e3aa219719babb5b342781c5bb9923ed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040358"
 ---
 # <a name="selectionsize-controlevent"></a>SelectionSize ControlEvent
 

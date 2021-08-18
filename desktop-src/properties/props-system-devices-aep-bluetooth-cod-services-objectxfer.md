@@ -1,19 +1,19 @@
 ---
-description: 裝置服務物件傳送的藍牙類別。
+description: 裝置服務物件傳輸的藍牙類別。
 ms.assetid: 2dbaccc5-7fe0-4041-b317-bbfb4a603e1b
-title: Aep.... ObjectXfer
+title: Aep。藍牙。ObjectXfer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adf3730bdfddb037bd06ac482136d855c5242116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e44528ab4740b8e365c56578e1318f3c7feaa692f136108593f1cabbdb0c2889
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010878"
 ---
-# <a name="systemdevicesaepbluetoothcodservicesobjectxfer"></a>Aep.... ObjectXfer
+# <a name="systemdevicesaepbluetoothcodservicesobjectxfer"></a>Aep。藍牙。ObjectXfer
 
-裝置服務物件傳送的藍牙類別。
+裝置服務物件傳輸的藍牙類別。
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版
 

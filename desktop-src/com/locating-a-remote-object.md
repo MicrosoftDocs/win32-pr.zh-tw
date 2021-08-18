@@ -4,12 +4,12 @@ description: 尋找遠端物件
 ms.assetid: b329de53-646b-42a2-afa3-06473c3483d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d0ce1b2280faaed7be3b5afb25a48438ff1a2b7
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 96577ddd018ab6b00c5af59a9824984c1ffe255dc91849b4391b256b493b765a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992448"
 ---
 # <a name="locating-a-remote-object"></a>尋找遠端物件
 
@@ -22,7 +22,7 @@ COM 已新增登錄機碼，以允許伺服器登錄所在的電腦名稱稱，�
 > [!Note]  
 > 實例建立呼叫會在指定伺服器位置時，覆寫登錄設定。 COM 用來執行這項操作的演算法，在 [**CLSCTX**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx) 列舉的參考中有所說明。
 
- 
+ 
 
 遠端啟用取決於用戶端與伺服器之間的安全性關聯性。 如需詳細資訊，請參閱 [COM 中的安全性](security-in-com.md)。
 
@@ -36,6 +36,6 @@ COM 已新增登錄機碼，以允許伺服器登錄所在的電腦名稱稱，�
 [透過類別物件建立物件](creating-an-object-through-a-class-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

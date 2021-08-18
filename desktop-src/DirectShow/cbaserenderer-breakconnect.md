@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 98c1e01c15740616541706ca4d9da3ab5e66538c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cefaa91578f397a5ce967dc9cb6200acbe45f016e81f4552b9d185ad9ffa2609
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044058"
 ---
 # <a name="cbaserendererbreakconnect-method"></a>CBaseRenderer. BreakConnect 方法
 
@@ -46,7 +46,7 @@ virtual HRESULT BreakConnect();
 
 
 
-| 傳回碼                                                                                         | Description                            |
+| 傳回碼                                                                                         | 描述                            |
 |-----------------------------------------------------------------------------------------------------|----------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>             | Pin 未連接。<br/>  |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                | 成功。<br/>                    |

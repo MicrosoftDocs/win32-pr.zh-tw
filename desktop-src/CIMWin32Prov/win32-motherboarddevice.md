@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ MOTHERBOARDDEVICE WMI 類別代表包含 Windows 電腦系統中央元件的裝置。
+description: Win32 \_ MotherboardDevice WMI 類別代表包含 Windows 電腦系統中央元件的裝置。
 ms.assetid: 2aed5fff-e994-4ce1-8a2e-aadb01adf28d
 ms.tgt_platform: multiple
 title: Win32_MotherboardDevice 類別
@@ -38,12 +38,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6df116d1e4bc4e87d7201deb33f57bc8e91320e3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2a8792cba72631c43cc259276e35cce0b08ad11d627a181d53a9cb3967e3a155
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973068"
 ---
 # <a name="win32_motherboarddevice-class"></a>Win32 \_ MotherboardDevice 類別
 
@@ -856,7 +856,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 

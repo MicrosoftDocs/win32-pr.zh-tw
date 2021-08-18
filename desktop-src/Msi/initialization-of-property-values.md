@@ -4,12 +4,12 @@ ms.assetid: 2c054e04-197d-47e1-8951-b8a62040a145
 title: 屬性值的初始化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6693fdad4cc04624ac724a130fb8fce7276b78f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35b4ea1e80045ad8dab4fd5644009c2eaff59c7d46ac728785aa74d7732b74b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043628"
 ---
 # <a name="initialization-of-property-values"></a>屬性值的初始化
 

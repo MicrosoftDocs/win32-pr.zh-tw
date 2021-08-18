@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 6e517f509a18efe9c6d413eb1a7fe7dab47b8820
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e8ce5a4da0bbf4c6698e15c6a830982c41822c000789ba9ffe97f2a2df2069f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009228"
 ---
 # <a name="analysisregion-class"></a>AnalysisRegion 類別
 
@@ -26,7 +26,7 @@ ms.locfileid: "103936545"
 
 ## <a name="remarks"></a>備註
 
-這個類別會實 [**IAnalysisRegion**](ianalysisregion.md) COM 介面，且相當於 .NET Framework 中的 AnalysisCore. AnalysisRegionBase。
+這個類別會實 [**IAnalysisRegion**](ianalysisregion.md) COM 介面，且相當於 System。Windows。.NET Framework 中的 AnalysisCore. AnalysisRegionBase。
 
 ## <a name="requirements"></a>規格需求
 
@@ -34,7 +34,7 @@ ms.locfileid: "103936545"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

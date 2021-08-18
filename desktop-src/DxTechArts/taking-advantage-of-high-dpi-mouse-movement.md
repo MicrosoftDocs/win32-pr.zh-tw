@@ -4,12 +4,12 @@ description: 本文著重于將遊戲中的高定義滑鼠輸入效能優化的�
 ms.assetid: 0138a248-e8e0-a392-564e-7a9229b94b56
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ebe2abd9487d95b8fe12aa3c6938e21d72d8e2f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7d7a6efe6916ad8605e3cdc056ffd716ac5113b66c022b0a95fd8a78b1a62e30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042388"
 ---
 # <a name="taking-advantage-of-high-definition-mouse-movement"></a>利用 High-Definition 滑鼠移動
 
@@ -43,7 +43,7 @@ case WM_MOUSEMOVE:
 
 從 WM MOUSEMOVE 資料的主要缺點 \_ 是限制為螢幕解析度。 這表示，如果您稍微移動滑鼠，而不是太大而導致指標移至下一個圖元，則不 \_ 會產生任何 WM MOUSEMOVE 訊息。 因此，使用這個方法來讀取滑鼠移動會使高定義輸入的優點更不一樣。
 
-不過，有了 WM MOUSEMOVE 的優點， \_ 就是 Windows 會將指標加速 (也稱為 ballistics) 至原始滑鼠資料，讓滑鼠指標的行為如同客戶預期般運作。 如此可讓 \_ 多部 wm 的 (透過 wm \_ 輸入或 DirectInput) 的指標控制選項，因為它會導致使用者更自然的行為。 雖然 WM \_ MOUSEMOVE 很適合用來移動滑鼠指標，但不太適合用來移動第一張相機，因為高度定義的精確度將會遺失。
+不過，有了 WM MOUSEMOVE 的優點， \_ 就是 Windows 將指標加速 (（也稱為 ballistics) ）套用至原始滑鼠資料，讓滑鼠指標的行為如同客戶預期般運作。 如此可讓 \_ 多部 wm 的 (透過 wm \_ 輸入或 DirectInput) 的指標控制選項，因為它會導致使用者更自然的行為。 雖然 WM \_ MOUSEMOVE 很適合用來移動滑鼠指標，但不太適合用來移動第一張相機，因為高度定義的精確度將會遺失。
 
 如需有關 WM mousemove 的詳細資訊 \_ ，請參閱 [**wm \_ mousemove**](/windows/desktop/inputdev/wm-mousemove)。
 
@@ -93,13 +93,13 @@ case WM_INPUT:
 
 使用 WM 輸入的好處 \_ 是，您的遊戲可能會以最低層級從滑鼠接收原始資料。
 
-缺點是，WM \_ 輸入沒有套用至其資料的 ballistics，因此如果您想要利用這項資料來驅動資料指標，將需要額外的投入時間，讓資料指標的行為就像在 Windows 中一樣。 如需套用指標 ballistics 的詳細資訊，請參閱 [WINDOWS XP 的指標 ballistics](https://www.microsoft.com/whdc/archive/pointer-bal.mspx)。
+缺點是，WM \_ 輸入沒有套用至其資料的 ballistics，因此如果您想要利用這項資料來驅動資料指標，將需要額外的投入時間，使資料指標的行為就像在 Windows 中一樣。 如需套用指標 ballistics 的詳細資訊，請參閱[Windows XP 的指標 ballistics](https://www.microsoft.com/whdc/archive/pointer-bal.mspx)。
 
 如需有關 WM 輸入的詳細資訊 \_ ，請參閱 [關於 Raw 輸入](/windows/desktop/inputdev/about-raw-input)。
 
 ### <a name="directinput"></a>DirectInput
 
-[DirectInput](/windows-hardware/drivers/hid/directinput) 是一組 API 呼叫，可將系統上的輸入裝置抽象化。 就內部而言，DirectInput 會建立第二個執行緒來讀取 WM \_ 輸入資料，而使用 DirectInput api 會增加額外負荷，而不只是直接讀取 wm \_ 輸入。 DirectInput 僅適用于從 DirectInput 操縱杆讀取資料;但是，如果您只需要支援適用于 Windows 的 Xbox 360 控制器，請改用 [XInput](/windows/desktop/xinput/xinput-game-controller-apis-portal) 。 整體來說，使用 DirectInput 從滑鼠或鍵盤裝置讀取資料時，不會提供任何優點，而且不建議在這些案例中使用 DirectInput。
+[DirectInput](/windows-hardware/drivers/hid/directinput) 是一組 API 呼叫，可將系統上的輸入裝置抽象化。 就內部而言，DirectInput 會建立第二個執行緒來讀取 WM \_ 輸入資料，而使用 DirectInput api 會增加額外負荷，而不只是直接讀取 wm \_ 輸入。 DirectInput 僅適用于從 DirectInput 操縱杆讀取資料;但是，如果您只需要支援 Windows 的 Xbox 360 控制器，請改用[XInput](/windows/desktop/xinput/xinput-game-controller-apis-portal) 。 整體來說，使用 DirectInput 從滑鼠或鍵盤裝置讀取資料時，不會提供任何優點，而且不建議在這些案例中使用 DirectInput。
 
 將使用 [DirectInput](/windows-hardware/drivers/hid/directinput)（如下列程式碼所示）的複雜性與先前所述的方法進行比較。 建立 DirectInput 滑鼠需要下列一組呼叫：
 
@@ -159,6 +159,6 @@ int xPosRelative = dims2.lX;
 int yPosRelative = dims2.lY;
 ```
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 整體來說，接收高定義滑鼠移動資料的最佳方法是輸入 WM \_ 。 如果您的使用者只是移動滑鼠指標，則請考慮使用 WM \_ MOUSEMOVE，以避免需要執行指標 ballistics。 這兩個視窗訊息都可以正常運作，即使滑鼠不是高定義的滑鼠也一樣。 藉由支援高定義，Windows 遊戲可為使用者提供更精確的控制。

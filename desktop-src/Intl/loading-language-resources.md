@@ -4,12 +4,12 @@ ms.assetid: 2655b2a3-2926-43f6-aef4-8b756c02a162
 title: 正在載入語言資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af6917f03e773a470288fb4c9577812e0b38868b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2eebf027476658872fe392fe60699da1a586f9297f39a191898b1e132439962c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106928"
 ---
 # <a name="loading-language-resources"></a>正在載入語言資源
 

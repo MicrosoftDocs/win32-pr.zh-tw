@@ -10,12 +10,12 @@ keywords:
 - 可安裝驅動程式的參考，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e90475063f9d9211e841902fe73d2f09dc6130d8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d6dd2488f0b07805edbcdc90187309db2a04c9c0ced4f4b5b0af4e50bd983ca4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038638"
 ---
 # <a name="installable-driver-reference"></a>可安裝的驅動程式參考
 
@@ -60,6 +60,6 @@ ms.locfileid: "103842144"
 [可安裝的驅動程式](installable-drivers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

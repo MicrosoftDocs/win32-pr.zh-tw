@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg269319(v=EXCHG.10)
 ms:contentKeyID: 32765609
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 54f4bd7734cb8c1bf5a87eb444c3205d89f4a6ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45c8c192becdb616b94360b491bd66f9e6fa492542da320a5536527c2bd45605
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016018"
 ---
 # <a name="sequencing-in-multi-valued-columns"></a>多重值資料行中的排序
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="sequencing-in-multi-valued-columns"></a>多重值資料行中的排序
 

@@ -4,12 +4,12 @@ ms.assetid: f44e234e-b45a-40be-993d-956b8966c321
 title: 語義類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69c2a0798a9ae7be3c2c0b56483707e3a09f67d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01845bd7790f618794816182bb4b11fc0d13baf9216d17bbd15c63a390a52a90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040298"
 ---
 # <a name="semantic-types"></a>語義類型
 
@@ -19,13 +19,13 @@ ms.locfileid: "106982085"
 
 
 
-| 格式 | 類型       | CoNtextData                                                 | Description                                                                                                |
+| 格式 | 類型       | CoNtextData                                                 | 描述                                                                                                |
 |--------|------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Text   |            |                                                             | 任意文字。 請參閱 [任意文字類型](arbitrary-text-type.md)。                                        |
 | Text   | 列舉       | <A>=<a>;<B>=<b>;<C>=<c> | 從集合中選取的值。 請參閱 [列舉類型](enum-type.md)。                                                 |
 | Text   | 已格式化  |                                                             | 值符合安裝程式中格式化文字的定義。 請參閱 [格式化型](formatted-type.md)別。 |
 | Text   | RTF        |                                                             | RTF 文字字串。 請參閱 [RTF 類型](rtf-type.md)。                                                          |
-| Text   | 識別碼 |                                                             | 符合 Windows Installer [識別碼](identifier.md)的文字字串。                              |
+| Text   | 識別碼 |                                                             | 符合 Windows Installer[識別碼](identifier.md)的文字字串。                              |
 
 
 
@@ -35,7 +35,7 @@ ms.locfileid: "106982085"
 
 
 
-| 格式  | 類型 | CoNtextData | Description                                                                  |
+| 格式  | 類型 | CoNtextData | 描述                                                                  |
 |---------|------|-------------|------------------------------------------------------------------------------|
 | 整數 |      |             | 任何整數值。 請參閱 [任意整數類型](arbitrary-integer-type.md)。 |
 
@@ -61,7 +61,7 @@ ms.locfileid: "106982085"
 | 答案    | 目錄 | ShortcutLocation | 要在其中安裝快捷方式的目錄資料表資料列的外鍵。 請參閱 [目錄類型](directory-type.md)。   |
 | Key    | 屬性  |                  | 屬性資料列的外鍵。 請參閱 [屬性類型](property-type.md)。                                                 |
 | Key    | 屬性  | 公開           | 屬性資料列的外鍵。 請參閱 [屬性類型](property-type.md)。                                                 |
-| Key    | 屬性  | 私人          | 屬性資料列的外鍵。 請參閱 [屬性類型](property-type.md)。                                                 |
+| Key    | 屬性  | Private          | 屬性資料列的外鍵。 請參閱 [屬性類型](property-type.md)。                                                 |
 
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "106982085"
 
 
 
-| 格式   | 類型 | CoNtextData                                  | Description                                                                                       |
+| 格式   | 類型 | CoNtextData                                  | 描述                                                                                       |
 |----------|------|----------------------------------------------|---------------------------------------------------------------------------------------------------|
 | 字元 |      | <mask>;<A>=<a>;<B>= b | 變更資料行中的位子集。 查看 [任意](arbitrary-bitfield-type.md)位欄位類型。 |
 

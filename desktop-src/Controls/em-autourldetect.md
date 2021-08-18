@@ -3,7 +3,7 @@ title: 'EM_AUTOURLDETECT 訊息 (Richedit .h) '
 description: 啟用或停用 rich edit 控制項的超連結自動偵測。
 ms.assetid: 6970ff36-ff3f-4413-a471-9389a76c8f38
 keywords:
-- EM_AUTOURLDETECT message Windows 控制項
+- EM_AUTOURLDETECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cc8f76b89e5e8aa529084b5c8c0898200e28ed2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e7c53df29b1d106c537543983f1734aef7facaaca5d0965c3a2588f285a7391
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049428"
 ---
 # <a name="em_autourldetect-message"></a>EM \_ AUTOURLDETECT 訊息
 
@@ -55,7 +55,7 @@ ms.locfileid: "103934638"
 *lParam* 
 </dt> <dd>
 
-此參數會決定 **AURL \_ ENABLEURL** 是否為使用中時，可辨識的 URL 架構。 如果 *lParam* 為 Null，則會使用預設的配置名稱清單 (請參閱備註) 。 或者， *lParam* 可指向以 null 終止的字串，其中包含最多50個以冒號結束的架構名稱，以取代預設的配置名稱清單。 例如，字串可以是 "news： HTTP： ftp： telnet："。 配置名稱語法定義于 [統一資源識別項 (URI) ：]( https://www.ietf.org/rfc/rfc2396.txt) 網際網路工程任務推動 (小組) 網站上的一般語法檔。 具體來說，配置名稱最多可以包含13個字元 (包括冒號) 、必須以 ASCII 字母開頭，且後面可以加上 ASCII Alphabetics、數位和三個標點符號字元： "."、"+" 和 "-"。 字串類型可以是 **char \** _ 或 _*WCHAR \**_; rich edit 控制項會自動偵測型別。
+此參數會決定 **AURL \_ ENABLEURL** 是否為使用中時，可辨識的 URL 架構。 如果 *lParam* 為 Null，則會使用預設的配置名稱清單 (請參閱備註) 。 或者， *lParam* 可指向以 null 終止的字串，其中包含最多50個以冒號結束的架構名稱，以取代預設的配置名稱清單。 例如，字串可以是 "news： HTTP： ftp： telnet："。 配置名稱語法定義于 [統一資源識別項 (URI) ：]( https://www.ietf.org/rfc/rfc2396.txt) 網際網路工程任務推動 (小組) 網站上的一般語法檔。 具體來說，配置名稱最多可以包含13個字元 (包括冒號) 、必須以 ASCII 字母開頭，且後面可以加上 ASCII Alphabetics、數位和三個標點符號字元： "."、"+" 和 "-"。 字串類型可以是 **char \* *_ 或 _* WCHAR \***; rich edit 控制項會自動偵測型別。
 
 </dd> </dl>
 
@@ -65,11 +65,11 @@ ms.locfileid: "103934638"
 
 如果訊息失敗，則傳回值為非零值。 例如，訊息可能會因為記憶體不足、不正確偵測選項或不正確配置名稱字串而失敗。
 
-如果 _lParam * 包含50個以上的配置名稱，訊息會失敗，並傳回值為 **E \_ INVALIDARG**。
+如果 *lParam* 包含50以上的配置名稱，訊息會失敗，並傳回值為 **E \_ INVALIDARG**。
 
 ## <a name="remarks"></a>備註
 
-如果啟用了自動 URL 偵測 (也就是， *wParam* 包括 **AURL \_ ENABLEURL**) ，rich edit 控制項會掃描任何修改過的文字，以判斷文字是否符合 URL 的格式 (或更常用於 WINDOWS 8 或更新版本的 IRI 國際資源識別碼) 。 如果 *lParam* 為 Null，則控制項會偵測開頭為下列配置名稱的 url：
+如果啟用了自動 URL 偵測 (也就是， *wParam* 包括 **AURL \_ ENABLEURL**) ，rich edit 控制項會掃描任何修改過的文字，以判斷文字是否符合 URL 的格式 (或更常用於 Windows 8 或更新版本的 IRI 國際資源識別碼) 。 如果 *lParam* 為 Null，則控制項會偵測開頭為下列配置名稱的 url：
 
 -   callto
 -   file
@@ -99,8 +99,8 @@ ms.locfileid: "103934638"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

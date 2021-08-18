@@ -19,16 +19,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 329e425631b674e050f246c4105115bd4326be3d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6d489678006e842a6da82f5d2f9489f84a9a20fd70bfe8f18018aaa6d412c5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119974648"
 ---
 # <a name="imsrdpclienttransportsettings2gatewaycredsharing-property"></a>IMsRdpClientTransportSettings2：： GatewayCredSharing 屬性
 
-指定或抓取遠端桌面閘道 (RD 閘道) 認證共用功能是否已啟用的設定。 啟用此功能時，遠端桌面 ActiveX 控制項會嘗試使用相同的認證來驗證遠端桌面工作階段主機 (RD 工作階段主機) 伺服器和 RD 閘道伺服器。
+指定或抓取遠端桌面閘道 (RD 閘道) 認證共用功能是否已啟用的設定。 啟用此功能時，[遠端桌面] ActiveX 控制項會嘗試使用相同的認證來驗證遠端桌面工作階段主機 (RD 工作階段主機) 伺服器和 RD 閘道伺服器。
 
 這是可讀寫的屬性。
 
@@ -57,7 +57,7 @@ HRESULT get_GatewayCredSharing(
 
 ## <a name="remarks"></a>備註
 
-ActiveX 控制項會使用這個屬性來執行 RD 工作階段主機伺服器與 RD 閘道伺服器之間共用認證的單一提示。 認證共用不支援使用 [**GatewayPassword**](imsrdpclienttransportsettings2-gatewaypassword.md) 或 [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md)的 web 密碼共用。
+ActiveX 控制項會使用這個屬性來執行在 RD 工作階段主機伺服器與 RD 閘道伺服器之間共用認證的單一提示。 認證共用不支援使用 [**GatewayPassword**](imsrdpclienttransportsettings2-gatewaypassword.md) 或 [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md)的 web 密碼共用。
 
 ## <a name="requirements"></a>規格需求
 

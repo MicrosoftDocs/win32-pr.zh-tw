@@ -4,12 +4,12 @@ ms.assetid: f27b9beb-f35f-400e-a337-50d9de21e91e
 title: 接收寫入器屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e23dbca06c3ff1a4ac80b8e68413fdd0816d71a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18bf64dd4279ef2e35ed86f50c4444412b3cc70205f6aad52adac8a41895af11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012366"
 ---
 # <a name="sink-writer-attributes"></a>接收寫入器屬性
 

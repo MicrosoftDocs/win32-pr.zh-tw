@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19db0df0ca9b0bf41fe692ba07fe605dc1e8d5c8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 86ba3e231da50c9103361b2cf22cbd44d7311a26a4ea36f9a32185ed0c32d408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872068"
 ---
 # <a name="activateserver-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 ActivateServer 方法 \_
 

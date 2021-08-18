@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 讓執行個體提供者成為 High-Performance 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10744b110463a3207f76bb55d48a8045ec22783d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2b6326c0af270088c37bb2a1798951ba0a9de7afe65ec593f5f7ab6768b83b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996488"
 ---
 # <a name="making-an-instance-provider-into-a-high-performance-provider"></a>讓執行個體提供者成為 High-Performance 提供者
 
-不建議寫入 WMI 高效能提供者來建立效能計數器。 從 Windows Vista 開始，自動探索/AutoPurge (ADAP) 反向介面卡，不再將 WMI [效能計數器類別](/windows/desktop/CIMWin32Prov/performance-counter-classes) 遷移至 Windows 效能程式庫中。 若要建立效能計數器提供者，請使用 [效能計數器2.0 版](/windows/desktop/PerfCtrs/performance-counters-portal)。 建立效能程式庫物件之後， [WMIPerfClass 提供者](wmiperfclass-provider.md) 會剖析物件，並為每個效能物件建立或重新整理衍生自 [**WIN32 \_ performance 的**](/windows/desktop/CIMWin32Prov/win32-perf) WMI 類別。 然後， [WMIPerfInst 提供者](wmiperfinst-provider.md) 會動態地將原始和格式化的效能計數器資料提供給 WMI 效能類別。
+不建議寫入 WMI 高效能提供者來建立效能計數器。 從 Windows Vista 開始，自動探索/AutoPurge (ADAP) 反向介面卡，不再將 WMI[效能計數器類別](/windows/desktop/CIMWin32Prov/performance-counter-classes)遷移至 Windows 效能程式庫中。 若要建立效能計數器提供者，請使用 [效能計數器2.0 版](/windows/desktop/PerfCtrs/performance-counters-portal)。 建立效能程式庫物件之後， [WMIPerfClass 提供者](wmiperfclass-provider.md) 會剖析物件，並為每個效能物件建立或重新整理衍生自 [**WIN32 \_ performance 的**](/windows/desktop/CIMWin32Prov/win32-perf) WMI 類別。 然後， [WMIPerfInst 提供者](wmiperfinst-provider.md) 會動態地將原始和格式化的效能計數器資料提供給 WMI 效能類別。
 
 下列高階程式提供建立高效能提供者所需的步驟。
 

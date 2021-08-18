@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b39d3659d4577517726260f948563cd31ecc07bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f326b13d86f073074ef2c1119d449e297e65e7d3accb22d9858e5c1579493c01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037558"
 ---
 # <a name="record-command"></a>記錄命令
 
@@ -127,7 +127,7 @@ record mysound
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

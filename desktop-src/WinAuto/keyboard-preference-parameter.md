@@ -4,12 +4,12 @@ description: 鍵盤喜好設定參數表示使用者依賴鍵盤而非滑鼠，�
 ms.assetid: dc3c02d2-a350-4a86-a0b0-9dbb83880029
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 802d4ff76efae985cc07b6fe42f9d6b53cdf0b53
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c074078cdd548b6b3614213d6086edb3f5a6a412d84e418417dc0b4fcd2800e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998478"
 ---
 # <a name="keyboard-preference-parameter"></a>鍵盤喜好設定參數
 
@@ -23,6 +23,6 @@ ms.locfileid: "104375808"
 
 請注意 **， \_ spi GETMENUUNDERLINES** 與 **spi \_ GETKEYBOARDCUES** 相同，且 **spi \_ SETMENUUNDERLINES** 與 **spi \_ SETKEYBOARDCUES** 相同。
 
- 
+ 
 
- 
+ 

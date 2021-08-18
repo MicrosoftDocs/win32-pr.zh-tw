@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 4b726d26efd0550df364200a27d536d60d38274a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fde7d4d1e1a92c4f403c4d6ae38517bd715cf6d474f22f8a2e262d69fc57139a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052328"
 ---
 # <a name="iamtimelinetrackgetsrcattime-method"></a>IAMTimelineTrack：： GetSrcAtTime 方法
 
@@ -74,7 +74,7 @@ HRESULT GetSrcAtTime(
 
 
 
-| 傳回碼                                                                                  | Description                                |
+| 傳回碼                                                                                  | 描述                                |
 |----------------------------------------------------------------------------------------------|--------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>      | 找不到來源物件。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 找到來源物件。<br/>        |
@@ -95,7 +95,7 @@ HRESULT GetSrcAtTime(
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

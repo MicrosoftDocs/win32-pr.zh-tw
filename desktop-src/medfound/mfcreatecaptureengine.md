@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - MFCaptureEngine.dll
-ms.openlocfilehash: a2ff0dbf46ca464c11570c8fe78e0b3dbebe3248
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18d264b30b8f3ed4d06e80f236908dd7bc81dbe96c4eb9c3231fa330331e34f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940248"
 ---
 # <a name="mfcreatecaptureengine-function"></a>MFCreateCaptureEngine 函式
 
@@ -62,8 +62,8 @@ HRESULT MFCreateCaptureEngine(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                     |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                        |
 | DLL<br/>                      | <dl> <dt>MFCaptureEngine.dll</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 14087598-8041-4e02-a168-f5538a437be0
 title: IME 組合字元串值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c5b3935329e56f015cdb08a764e1660142a067a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52b7caa775edd6bcc41300258d8d6181077a40c743f873014e28dcf2da517ec5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107238"
 ---
 # <a name="ime-composition-string-values"></a>IME 組合字元串值
 

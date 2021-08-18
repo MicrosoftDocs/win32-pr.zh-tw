@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3bd7735726d7e7d21bc16e8a811947b954ffaac4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: be20231cf62148e3487aef405735f764bf5c02b7cbaadba3c140728b66bd5391
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053858"
 ---
 # <a name="ctransformfilterbeginflush-method"></a>CTransformFilter. BeginFlush 方法
 
@@ -48,7 +48,7 @@ virtual HRESULT BeginFlush();
 
 在排清作業開始時，輸入釘選的 [**CTransformInputPin：： BeginFlush**](ctransforminputpin-beginflush.md) 方法會呼叫這個方法。 這個方法會將 `BeginFlush` 呼叫傳遞給下游。
 
-如果衍生類別使用背景工作執行緒來傳遞範例，則在排清作業期間，應該捨棄任何已排入佇列的資料。 可以在 `BeginFlush` 方法中或在 [**EndFlush**](ctransformfilter-endflush.md) 方法中完成。 不過請注意，的呼叫 `BeginFlush` 不會與資料流程處理執行緒同步處理。 如果 `BeginFlush` 方法捨棄佇列資料，則篩選準則必須小心，不要在 `BeginFlush` 和 **EndFlush** 呼叫之間處理任何其他資料。 如需詳細資訊，請參閱 [篩選開發人員的](data-flow-for-filter-developers.md)資料流程。
+如果衍生類別使用背景工作執行緒來傳遞範例，則在排清作業期間，應該捨棄任何已排入佇列的資料。 可以在 `BeginFlush` 方法中或在 [**EndFlush**](ctransformfilter-endflush.md) 方法中完成。 不過請注意，的呼叫 `BeginFlush` 不會與資料流程處理執行緒同步處理。 如果 `BeginFlush` 方法捨棄佇列資料，則篩選準則必須小心，不要在 `BeginFlush` 和 **EndFlush** 呼叫之間處理任何其他資料。 如需詳細資訊，請參閱[篩選開發人員的資料 Flow](data-flow-for-filter-developers.md)。
 
 ## <a name="requirements"></a>規格需求
 
