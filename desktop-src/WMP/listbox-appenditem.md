@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ca7f1fde59f248899e2443fbeb5f8cf201e7679
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d94ae581a1bdd83e02e3840ee79c21d9edd965f3963c421073fba85c1fd9d67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119034"
 ---
 # <a name="listboxappenditem"></a>LISTBOX. appendItem
 
@@ -49,7 +49,7 @@ ms.locfileid: "107001820"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

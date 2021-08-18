@@ -4,12 +4,12 @@ ms.assetid: 7b86a1b4-c8a9-400d-a9f1-a3b821c0269d
 title: Windows Search 中篩選處理常式的最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a864cb2651d6236a212f3bf356eed3380869284
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 8320cf0f85bf86f7d61df09437271af67d0e4096fc3a917d037914854c9bad3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463697"
 ---
 # <a name="best-practices-for-creating-filter-handlers-in-windows-search"></a>在 Windows Search 中建立篩選處理常式的最佳作法
 
@@ -24,7 +24,7 @@ Microsoft Windows Search 會使用篩選器來解壓縮專案的內容，以包�
 
 ## <a name="native-code"></a>機器碼
 
-在 Windows 7 和更新版本中，會明確封鎖以 managed 程式碼撰寫的篩選。 篩選準則必須以機器碼撰寫，因為有多個增益集在中執行的進程可能發生 CLR 版本控制問題。
+在 Windows 7 和更新版本中，會明確封鎖以 managed 程式碼撰寫的篩選準則。 篩選準則必須以機器碼撰寫，因為有多個增益集在中執行的進程可能發生 CLR 版本控制問題。
 
 ## <a name="secure-code-practices-for-windows-search"></a>Windows Search 的安全程式碼做法
 
@@ -37,10 +37,10 @@ Microsoft Windows Search 會使用篩選器來解壓縮專案的內容，以包�
 **針對 Ifilter 和語言資源：**
 
 -   如果將檔案類型的新篩選處理常式安裝為現有篩選註冊的取代，則安裝程式應儲存目前的註冊，並在新的篩選器處理常式卸載時還原。 沒有任何機制可連結篩選。 因此，新的篩選處理常式會負責複寫舊篩選器的任何必要功能。
--   Windows Search 在本機安全性內容中執行的 Ifilter、斷詞工具和字幹分析器。 它們應該寫入來管理緩衝區，並正確地堆疊。 所有字串複本都必須有明確的檢查，以防止緩衝區溢位。 您應該一律確認已配置的緩衝區大小，並根據緩衝區大小測試資料的大小。 緩衝區溢位是利用不會強制執行緩衝區大小限制之程式碼的常見技術。
+-   Windows Search 在本機安全性內容中執行的 ifilter、斷詞工具和字幹分析器。 它們應該寫入來管理緩衝區，並正確地堆疊。 所有字串複本都必須有明確的檢查，以防止緩衝區溢位。 您應該一律確認已配置的緩衝區大小，並根據緩衝區大小測試資料的大小。 緩衝區溢位是利用不會強制執行緩衝區大小限制之程式碼的常見技術。
 -   [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)、斷詞工具和字幹分析器元件絕對不應該呼叫 [ExitProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) 函式函式或會終止進程及其所有線程的類似 API。
 -   請勿在 DllMain 進入點中配置或釋放資源。 這可能會導致低資源壓力測試期間發生失敗。
--   將所有物件編寫為安全線程。 Windows Search 一次在一個執行緒中呼叫斷詞工具或分析器的任一個實例，但它可能會在多個執行緒上同時呼叫多個實例。
+-   將所有物件編寫為安全線程。 Windows搜尋會一次在一個執行緒中呼叫斷詞工具或分析器的任一個實例，但它可能會在多個執行緒上同時呼叫多個實例。
 -   避免建立暫存檔案或寫入登錄。
 -   如果您使用 Microsoft Visual C++ 編譯器，請務必使用 **/gs** 選項來編譯應用程式。 **/Gs** 選項可用來偵測緩衝區溢位。 /GS 選項會將安全性檢查放入已編譯的程式碼中。 如需詳細資訊， [](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx)請參閱  / Platform SDK Visual C++ 編譯器選項一節中的 DllGetClassObject 函式 **GS** (緩衝區安全性檢查) 。
 

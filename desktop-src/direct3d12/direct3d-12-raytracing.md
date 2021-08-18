@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d7896153f37a776faeddd00d78fbe0c1f3a120
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2b36f4473c5bbac08246b4b61fc853c50d3699b64e92dbe74428f312c843d8ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529758"
 ---
 # <a name="direct3d-12-raytracing"></a>Direct3D 12 Raytracing
 

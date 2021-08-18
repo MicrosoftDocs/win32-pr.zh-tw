@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ccc155c04c6c25f38050bd37827eb0c2e2e0e73e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ad63096e34283ae6ea763690045072b5d2e5579ce1f459bcc7c7bc92d671e0db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420156"
 ---
 # <a name="compressex-method-of-the-cim_datafile-class"></a>CIM \_ 資料檔案類別的 CompressEx 方法
 
@@ -123,7 +123,7 @@ uint32 CompressEx(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

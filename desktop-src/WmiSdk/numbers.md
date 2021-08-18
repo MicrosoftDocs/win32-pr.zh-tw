@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: " (WMI) 的數位"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad348820e0294e76ba059a06b6daa6f1c916d8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f3441988bb91d4bb2f3742016f01cb69996e3dcb55081a6723d851ed74cc1cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555132"
 ---
 # <a name="numbers-wmi"></a> (WMI) 的數位
 
@@ -18,7 +18,7 @@ ms.locfileid: "106992398"
 
 
 
-| 資料類型  | Automation 類型 | Description                                                                                                                                                             |
+| 資料類型  | Automation 類型 | 描述                                                                                                                                                             |
 |------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **sint8**  | **VT \_ I2**      | 帶正負號的8位整數。<br/>                                                                                                                                        |
 | **sint16** | **VT \_ I2**      | 帶正負號的16位整數。<br/>                                                                                                                                       |

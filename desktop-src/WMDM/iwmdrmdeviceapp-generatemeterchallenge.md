@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06a71f04a5837f09575a2f4bccf4b17e34e30d63
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e91ac5049740d360ae0c5f53959b3d952188bfa2a569c58a9e7cf86ae0c22577
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584547"
 ---
 # <a name="iwmdrmdeviceappgeneratemeterchallenge-method"></a>IWMDRMDeviceApp：： GenerateMeterChallenge 方法
 
@@ -63,14 +63,14 @@ HRESULT GenerateMeterChallenge(
 *pbstrMeterURL* \[擴展\]
 </dt> <dd>
 
-應將計量資料傳送至其中的 URL。 這是由 Windows Media 裝置管理員所配置，且必須由呼叫端使用 **SysFreeString** 來釋放。
+應將計量資料傳送至其中的 URL。 這是由 Windows 媒體裝置管理員所配置，且必須由呼叫者使用 **SysFreeString** 來釋放。
 
 </dd> <dt>
 
 *pbstrMeterData* \[擴展\]
 </dt> <dd>
 
-要傳送至計量服務的計量資料。 這是由 Windows Media 裝置管理員所配置，且必須由呼叫端使用 **SysFreeString** 來釋放。
+要傳送至計量服務的計量資料。 這是由 Windows 媒體裝置管理員所配置，且必須由呼叫者使用 **SysFreeString** 來釋放。
 
 </dd> </dl>
 
@@ -80,7 +80,7 @@ HRESULT GenerateMeterChallenge(
 
 
 
-| 傳回碼                                                                                                      | Description                                                                   |
+| 傳回碼                                                                                                      | 描述                                                                   |
 |------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                             | 此方法已成功。<br/>                                              |
 | <dl> <dt>**DRM \_ E \_ INVALIDARG**</dt> </dl>                | 一或多個引數無效。<br/>                               |
@@ -90,7 +90,7 @@ HRESULT GenerateMeterChallenge(
 | <dl> <dt>**DRM \_ E \_ XMLNOTFOUND**</dt> </dl>               | 找不到必要的 XML 標記。<br/>                                 |
 | <dl> <dt>**裝置的錯誤**</dt> </dl>            | 有許多裝置錯誤。<br/>                                  |
 | <dl> <dt>**DRM 用戶端的錯誤**</dt> </dl>        | 許多內部 DRM 用戶端錯誤。<br/>                     |
-| <dl> <dt>**NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置**</dt> </dl> | 指定的裝置不是 Windows Media DRM 相容裝置。<br/> |
+| <dl> <dt>**NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置**</dt> </dl> | 指定的裝置不是 Windows 媒體 DRM 相容裝置。<br/> |
 
 
 
@@ -98,7 +98,7 @@ HRESULT GenerateMeterChallenge(
 
 ## <a name="remarks"></a>備註
 
-在呼叫這個方法之前，應用程式應該呼叫 [**IWMDRMDeviceApp：： QueryDeviceStatus**](iwmdrmdeviceapp-querydevicestatus.md) 或 [**IWMDRMDeviceApp2：： QueryDeviceStatus2**](iwmdrmdeviceapp2-querydevicestatus2.md) 來確認裝置的所有 DRM 元件都是最新的。 此方法只能在支援可攜式裝置之 Windows Media DRM 10 的裝置上呼叫。
+在呼叫這個方法之前，應用程式應該呼叫 [**IWMDRMDeviceApp：： QueryDeviceStatus**](iwmdrmdeviceapp-querydevicestatus.md) 或 [**IWMDRMDeviceApp2：： QueryDeviceStatus2**](iwmdrmdeviceapp2-querydevicestatus2.md) 來確認裝置的所有 DRM 元件都是最新的。 此方法只能在支援可攜式裝置 Windows 媒體 DRM 10 的裝置上呼叫。
 
 已抓取的資料 *pbstrMeterData* 應該傳送至 *pbstrMeterURL* 所指定的 URL。 請務必對抓取的資料進行 URL 編碼，讓它不會在傳輸期間進行修改。
 
@@ -106,7 +106,7 @@ HRESULT GenerateMeterChallenge(
 
 ## <a name="examples"></a>範例
 
-下列 c + + 程式碼範例會建立 **WMDRMDeviceApp** 物件、確認裝置是 WINDOWS Media DRM 10 裝置、其時鐘是否正確，然後要求計量資料。
+下列 c + + 程式碼範例會建立 **WMDRMDeviceApp** 物件、確認裝置是 Windows 媒體 DRM 10 裝置、其時鐘是否正確，然後要求計量資料。
 
 
 ```C++

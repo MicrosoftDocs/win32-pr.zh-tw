@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 699a46e48545d58058fb1f2db2955b4a4f403a53
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 664cded793fff7b37c7d1218d8d87d50cc0bc57ac290a4bba07bff0cdf169050
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736024"
 ---
 # <a name="id3dx10spritegetviewtransform-method"></a>ID3DX10Sprite：： GetViewTransform 方法
 

@@ -3,12 +3,12 @@ title: Winsock 通訊端狀態通知
 description: 通訊端狀態通知 Api 可為您提供可調整且有效率的方式，以取得有關通訊端狀態變更的通知。 這包括有關非封鎖讀取、非封鎖寫入、錯誤狀況和其他資訊等專案的通知。
 ms.topic: article
 ms.date: 11/18/2020
-ms.openlocfilehash: 9ad7f7afcb3dda223b4d54af293bc9a4dd019758
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: ed0bd6e37117377f91dc01cb56225b8c268cd87a0148d9ad05c2fd1a8f005f68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110559941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558711"
 ---
 # <a name="winsock-socket-state-notifications"></a>Winsock 通訊端狀態通知
 

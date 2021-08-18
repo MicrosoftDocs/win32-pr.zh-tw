@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: da2cedf42533fa1d170269e97a366f7e4a1a41f5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 634d455a0611faabd9005d674af920d1fccd67534eedd2dedba68d08678f9b0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118525319"
 ---
 # <a name="d3dxloadvolumefromvolume-function"></a>D3DXLoadVolumeFromVolume 函式
 
@@ -110,7 +110,7 @@ Type： **Const [**D3DBOX**](d3dbox.md) \***
 
 </dd> <dt>
 
-*>colorkey* \[在\]
+*>Colorkey* \[在\]
 </dt> <dd>
 
 類型： **[ **D3DCOLOR**](d3dcolor.md)**

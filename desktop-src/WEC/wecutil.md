@@ -1,6 +1,6 @@
 ---
 title: Wecutil.exe
-description: Wecutil.exe 是 Windows 事件收集器公用程式，可讓系統管理員建立和管理從支援 WS-Management 通訊協定的遠端事件來源轉送的事件訂閱。
+description: Wecutil.exe 是一個 Windows 事件收集器公用程式，可讓系統管理員建立和管理從支援 WS-Management 通訊協定的遠端事件來源轉送的事件訂閱。
 ms.assetid: 93ce25df-f829-43b9-96f2-7f2f291d100e
 ms.tgt_platform: multiple
 keywords:
@@ -13,18 +13,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaf6f74007b56cff85c28c4106fd4345c5627d4e
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 6e93e09bc4eed51448b686f0d18f00ecacaacd31d063c4905757d0185128ee64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104322568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750968"
 ---
 # <a name="wecutilexe"></a>Wecutil.exe
 
-Wecutil.exe 是 Windows 事件收集器公用程式，可讓系統管理員建立和管理從支援 WS-Management 通訊協定的遠端事件來源轉送的事件訂閱。 此公用程式的命令、選項和選項值不區分大小寫。
+Wecutil.exe 是一個 Windows 事件收集器公用程式，可讓系統管理員建立和管理從支援 WS-Management 通訊協定的遠端事件來源轉送的事件訂閱。 此公用程式的命令、選項和選項值不區分大小寫。
 
-如果您在嘗試執行 >wecutil 時收到指出「RPC 伺服器無法使用」或「介面不明」的訊息，則需要啟動 Windows 事件收集器服務 (wecsvc) 。 若要開始 wecsvc，請在提升許可權的命令提示字元下輸入 **net start wecsvc**。
+如果您收到一則訊息，指出「RPC 伺服器無法使用」或「介面未知」，當您嘗試執行 >wecutil 時，您必須啟動 Windows 的事件收集器服務 (wecsvc) 。 若要開始 wecsvc，請在提升許可權的命令提示字元下輸入 **net start wecsvc**。
 
 ## <a name="list-existing-subscriptions"></a>列出現有的訂閱
 
@@ -607,13 +607,13 @@ wecutil { rs | retry-subscription } SUBSCRIPTION_ID
 
 ## <a name="configure-the-windows-event-collector-service"></a>設定 Windows 事件收集器服務
 
-下列語法是用來設定 Windows 事件收集器服務，以確保可以在電腦重新開機時建立和持續事件訂閱。 這包括下列程式：
+下列語法用來設定 Windows 事件收集器服務，以確保可以在電腦重新開機時建立事件訂閱並持續。 這包括下列程式：
 
 **設定 Windows 事件收集器服務**
 
 1.  如果已停用，請啟用 ForwardedEvents 通道。
 2.  延遲 Windows 事件收集器服務的啟動。
-3.  如果 Windows 事件收集器服務未執行，請加以啟動。
+3.  如果未執行，請啟動 Windows 的事件收集器服務。
 
 ``` syntax
 wecutil { qc | quick-config } /q:VALUE

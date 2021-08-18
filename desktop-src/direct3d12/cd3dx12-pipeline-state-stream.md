@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d52b9090fa1d3870027bbe360164627472c039e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95e45c46c39a21aaeb53a2980fa3c082947e92cd5bb4ab3eccbbb225001a6504
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117733980"
 ---
 # <a name="cd3dx12_pipeline_state_stream-structure"></a>CD3DX12 \_ 管線 \_ 狀態 \_ 資料流程結構
 
@@ -173,14 +173,14 @@ struct CD3DX12_PIPELINE_STATE_STREAM {
 
 </dd> <dt>
 
-**Ds**
+**DS**
 </dt> <dd>
 
 描述網域著色器。
 
 </dd> <dt>
 
-**Ps**
+**PS**
 </dt> <dd>
 
 描述圖元著色器。

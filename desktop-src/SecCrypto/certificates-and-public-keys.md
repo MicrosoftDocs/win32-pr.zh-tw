@@ -4,12 +4,12 @@ ms.assetid: c18f46ca-e805-4b33-8014-79dc34c18531
 title: 憑證和公開金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07e01993673fe16c8401368ffaa7e8815c450dd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8d5f1996549184b8c56388bdb3ae8395eee077bca31b03e074f4dda8568805b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770618"
 ---
 # <a name="certificates-and-public-keys"></a>憑證和公開金鑰
 

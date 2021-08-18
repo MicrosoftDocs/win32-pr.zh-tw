@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2acf2d7a1f8849f9bd0e83ead3880ca90d2d6149
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e10f88a3b8e4847588ff8f7f924333c6649e59c362b3296b54ef8b83368b7af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118832425"
 ---
 # <a name="stringcollectiongetattributecountbytype-method"></a>StringCollection. getAttributeCountByType 方法
 

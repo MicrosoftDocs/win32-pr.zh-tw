@@ -3,19 +3,19 @@ title: 座標
 description: 座標
 ms.assetid: 248af2ea-534e-4d33-82fe-2d46732efed5
 keywords:
-- Windows Media Player 行動外觀、點陣圖
+- Windows Media Player行動外觀、點陣圖
 - 外觀，點陣圖
 - 外觀、點陣圖的參考
 - 外觀中的點陣圖、座標
 - 外觀點陣圖中的座標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ec50f0a3d02e42ad3995bb0919fb97dac319a5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f3bdcde6edb7646b649317c09880b09a26a3ec3748c3f111a28491932caf3683
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750590"
 ---
 # <a name="coordinates"></a>座標
 
@@ -30,7 +30,7 @@ ms.locfileid: "104301163"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -39,9 +39,9 @@ ms.locfileid: "104301163"
 [**點陣圖**](bitmaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

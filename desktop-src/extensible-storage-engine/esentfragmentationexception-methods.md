@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101731
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e291b163fdb53cab22d0fb3566e598ff585b5c69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb0c470a43c78f2025bb1538f28b105fca99f2e3ceecfa674f8a04a989f10963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118081534"
 ---
 # <a name="esentfragmentationexception-methods"></a>EsentFragmentationException 方法
 

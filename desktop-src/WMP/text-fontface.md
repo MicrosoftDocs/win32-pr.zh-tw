@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 183b25547e456cb90cac4d2137354679e13d8a96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3b1044d01ac3ca6a8cc4f1212232bfcc630eb73831f90eb7fd5f423f5dc38d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118353"
 ---
 # <a name="textfontface"></a>FontFace
 
@@ -33,7 +33,7 @@ ms.locfileid: "106994349"
 
 ## <a name="remarks"></a>備註
 
-這個屬性可以是 Windows 上任何可用的有效字型的名稱。 Windows Media Player 將不支援安裝字型，因此請選擇您知道將會在預期系統上的字型。
+這個屬性可以是 Windows 上可用之任何有效字型的名稱。 Windows Media Player 將不支援安裝字型，因此請選擇您知道將會在預期系統上的字型。
 
 如果使用者的系統無法使用指定的 **fontFace** ，文字控制項會預設為 Windows 系統字型。
 

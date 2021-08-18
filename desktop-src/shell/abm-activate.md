@@ -4,12 +4,12 @@ ms.assetid: 16011302-7c2d-4c34-9953-51cceb96e4b3
 title: 'ABM_ACTI加值稅E 訊息 (Shellapi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94a44bcc33efcd3d1a9af5e7e2abca33893e9fe9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 224f04a88a1e69a1a67fc08c6018d33af2bcdbc6f34ff9fbd00d1dd76f82ce5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118461131"
 ---
 # <a name="abm_activate-message"></a>ABM \_ 啟動訊息
 
@@ -50,7 +50,7 @@ SHAppBarMessage(ABM_ACTIVATE, pabd);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Shellapi。h</dt> </dl> |
 

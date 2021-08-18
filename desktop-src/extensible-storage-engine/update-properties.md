@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.upda
 ms:contentKeyID: 55104203
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: cb5550674a6e35dffa9d2f201beb180b2f3fca97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2eaf9146eeab77b6e749ffb5d9e73637281f46b3700dcf1392187bc1c319952
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890150"
 ---
 # <a name="update-properties"></a>更新屬性
 

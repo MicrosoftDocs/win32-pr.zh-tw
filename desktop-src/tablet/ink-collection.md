@@ -4,12 +4,12 @@ ms.assetid: 95e49f5b-d6f0-4a5a-868b-aa0caf87c39c
 title: 筆墨集合
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fcd5bf0d73f48e63366843c85c9d6dd7cd388f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e45988ea93aac5016391e22c352b9d0123a5e122f4a79c55e41e06834ed040e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452064"
 ---
 # <a name="ink-collection"></a>筆墨集合
 
@@ -79,7 +79,7 @@ ms.locfileid: "104511031"
 
 ### <a name="cursor-and-button-objects"></a>Cursor 和 Button 物件
 
-游標對應于 Tablet PC 上使用的畫筆提示。 比方說，鉛筆有兩個端點。 通常會使用一端進行寫入，而另一端用於清除。 這兩個端點會對應至兩個數據指標。 資料 [**指標**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) 類別不會與 [**system.object**](/dotnet/api/system.windows.forms.cursor?view=netcore-3.1)混淆。
+游標對應于 Tablet PC 上使用的畫筆提示。 比方說，鉛筆有兩個端點。 通常會使用一端進行寫入，而另一端用於清除。 這兩個端點會對應至兩個數據指標。 [**Cursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor)類別不會與 [**System. Windows 混淆。表單. Cursor**](/dotnet/api/system.windows.forms.cursor?view=netcore-3.1)。
 
 在 Tablet PC 上，通常會定義使用資料指標來寫入或清除。 如果應用程式啟用此功能，資料指標可能會變更角色。 某些 Tablet PC 裝置允許多個畫筆。 每個資料指標都有一個相關聯的資料指標識別碼，在系統上是唯一的。 資料指標可以有零或多個相關聯的按鈕。 這些按鈕會以 CursorButton 物件的形式提供給應用程式。 應用程式可以為任何給定的資料指標提供特定的 [**DrawingAttributes**](inkdrawingattributes-class.md) 物件。
 

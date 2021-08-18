@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80a5e9f68cbeb1cffaa9eb16b7d4cb2b44f154c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03d951530c94b14162b5ca3d91d9bb9d615a5a9ca23cc6468ace3c74da0f1687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385244"
 ---
 # <a name="winmd-switch"></a>/winmd 參數
 

@@ -4,12 +4,12 @@ ms.assetid: c4aab4cf-9575-4817-b51f-aed4e3c27d2f
 title: 關於橢圓形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77c6b2774da9886e25d3e1dcca7c701b034e7b45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e0892bfd2a8aa6fad43d18ead65eb92d260150ab31ca9057177c33af2cb8d4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104565674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117888549"
 ---
 # <a name="about-ellipses"></a>關於橢圓形
 

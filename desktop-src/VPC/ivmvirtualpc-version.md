@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0dc84fd714c50c0a0adb3084603aeea2419d3ce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1fad1f72c5a87e047001f013c70e5b730bcd06b342d8e56cc390b62b2f284ae4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591691"
 ---
 # <a name="ivmvirtualpcversion-property"></a>IVMVirtualPC：： Version 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 抓取此 Windows Virtual PC 實例的版本。
 
@@ -62,7 +62,7 @@ HRESULT get_Version(
 
 ## <a name="remarks"></a>備註
 
-Windows Virtual PC 版本資訊會以下列格式傳回字串值： "*v*。*s*。*bbb*。「 *t*」，其中 *v* 是主要版本號碼， *s* 是次要版本號碼， *bbb* 是組建編號， *t* 是組建類型 (0 = 發行組建) ，而 *ee* 是 server edition (SE = Standard edition，ee = Enterprise edition) 。
+Windows 的 Virtual PC 版本資訊會以下列格式傳回字串值： "*v*。*s*。*bbb*。「 *t*」，其中 *v* 是主要版本號碼， *s* 是次要版本號碼， *bbb* 是組建編號， *t* 是組建類型 (0 = 發行組建) ，而 *ee* 是伺服器版本 (SE = Standard Edition，EE = Enterprise Edition) 。
 
 ## <a name="requirements"></a>規格需求
 
@@ -70,7 +70,7 @@ Windows Virtual PC 版本資訊會以下列格式傳回字串值： "*v*。*s*�
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

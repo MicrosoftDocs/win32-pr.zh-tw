@@ -4,18 +4,18 @@ ms.assetid: a1dfa254-cade-44c5-8fdd-74bb40849063
 title: InkEdit 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf6d5441506ee791eefddba05b9b1f3ddb8a8ec4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fa64c4452ba5d7f66cdc03a1148c02a12f3945f876d68ac240ff4473e8d50bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118451319"
 ---
 # <a name="inkedit-control"></a>InkEdit 控制項
 
 [InkEdit](inkedit-control-reference.md)控制項提供簡單的方式來捕捉、辨識和顯示筆墨。
 
-這種 [InkEdit](inkedit-control-reference.md) 控制項的執行是以 [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) 控制項為基礎。 Managed ( .NET Framework) 的 [InkEdit](/previous-versions/ms835842(v=msdn.10)) 執行是以 [**RichTextBox**](/previous-versions/windows/) 控制項為基礎。
+這種 [InkEdit](inkedit-control-reference.md) 控制項的執行是以 [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) 控制項為基礎。 managed (.NET Framework) 的 [InkEdit](/previous-versions/ms835842(v=msdn.10))執行是以 [**RichTextBox**](/previous-versions/windows/)控制項為基礎。
 
 [InkEdit](inkedit-control-reference.md)控制項的主要目的是要收集筆跡、加以辨識，並以文字形式顯示。 此外，它支援將筆墨顯示為具有文字格式設定功能的内嵌物件，例如粗體和底線。
 

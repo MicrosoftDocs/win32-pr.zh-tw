@@ -3,19 +3,19 @@ title: 範例點陣圖區段
 description: 範例點陣圖區段
 ms.assetid: 51b84b34-3cbb-4863-b7dc-e33e80d6ba23
 keywords:
-- Windows Media Player 行動外觀、點陣圖
+- Windows Media Player行動外觀、點陣圖
 - 外觀，點陣圖
 - 外觀、點陣圖的參考
 - 外觀、點陣圖區段中的點陣圖
 - 外觀定義檔，點陣圖區段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00b05183be7ba56ed5b00a6bfd26ee6162e008cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: de401906896abcdda4728ff0984871ef4a399d3e223b36afd9d585eb0e4fce76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118833392"
 ---
 # <a name="sample-bitmap-section"></a>範例點陣圖區段
 
@@ -43,7 +43,7 @@ ms.locfileid: "103840452"
 > [!Note]  
 > 區域和超級點陣圖在 Windows Media Player 10 行動版或更新版本的面板中會被取代。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -52,9 +52,9 @@ ms.locfileid: "103840452"
 [**點陣圖**](bitmaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

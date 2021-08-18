@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c99fbaa2f60c769599bd6173b8e38f4d99e9f42d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b342251bb1885b40d8cd225612ad68b1b54c6ca74cc29a9a934b1fa603837e9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745713"
 ---
 # <a name="iwmpplaylistcollectionremove-method"></a>IWMPPlaylistCollection：： remove 方法
 

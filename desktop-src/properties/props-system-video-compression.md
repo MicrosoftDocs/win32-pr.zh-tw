@@ -4,18 +4,18 @@ ms.assetid: fdd3fce9-f507-4581-bd68-74a854581200
 title: 系統 Video. 壓縮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2bff7eb807d98f00115edd7956f9cdcfb43fb98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7494bc8d08a8c53081d18e28b2cb2b399ef15bf0cb81d97eded8a491476c478a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464456"
 ---
 # <a name="systemvideocompression"></a>系統 Video. 壓縮
 
 指定影片壓縮格式。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

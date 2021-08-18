@@ -4,12 +4,12 @@ ms.assetid: 2c1270a6-38c7-40d5-a194-0a6795557b9f
 title: 使用 VSS 診斷
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f3d1733c2780670507b39c1db91cb3b2f7035a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7742bf706da0bb8fdd377960a597a61b6592b772df98982cec500434f66c7579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590801"
 ---
 # <a name="using-vss-diagnostics"></a>使用 VSS 診斷
 
@@ -20,7 +20,7 @@ Vsdiagview 和 Vssagent 是您可用來對 VSS 應用程式進行疑難排解的
 
  
 
-在 Windows SDK 安裝中，您可以在 `%Program Files(x86)%\Windows Kits\8.1\bin\x64` 64 位 windows) 的 (和 `%Program Files(x86)%\Windows Kits\8.1\bin\x86` 32 位 windows) 的 (中找到這些工具。
+在 Windows SDK 安裝中，您可以在 `%Program Files(x86)%\Windows Kits\8.1\bin\x64` 64 位 Windows) 和 32 (Windows)  (中找到這些工具 `%Program Files(x86)%\Windows Kits\8.1\bin\x86` 。
 
 ## <a name="gathering-data"></a>正在收集資料
 

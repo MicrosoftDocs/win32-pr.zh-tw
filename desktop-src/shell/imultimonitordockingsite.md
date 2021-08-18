@@ -1,5 +1,5 @@
 ---
-description: 由瀏覽器所執行。 公開管理哪些監視在多個監視器系統上包含 Windows 工作列的方法。
+description: 由瀏覽器所執行。 公開方法，以管理哪些監視包含多個監視器系統上 Windows 的工作列。
 title: IMultiMonitorDockingSite 介面
 ms.topic: reference
 ms.date: 05/31/2018
@@ -12,16 +12,16 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: af9a7a9e-bd7c-4b17-9cb6-008df5c820d8
-ms.openlocfilehash: 5ea3461d00c16f7384d7396e2f03946d517c460f
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a5a17e8206af8f0821833f4b2ea250606de29b6fbe74b7a29ced6c5b5dc13ed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118458218"
 ---
 # <a name="imultimonitordockingsite-interface"></a>IMultiMonitorDockingSite 介面
 
-由瀏覽器所執行。 公開管理哪些監視在多個監視器系統上包含 Windows 工作列的方法。
+由瀏覽器所執行。 公開方法，以管理哪些監視包含多個監視器系統上 Windows 的工作列。
 
 ## <a name="members"></a>成員
 
@@ -55,8 +55,8 @@ ms.locfileid: "109841889"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                   |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                   |
 
 
 

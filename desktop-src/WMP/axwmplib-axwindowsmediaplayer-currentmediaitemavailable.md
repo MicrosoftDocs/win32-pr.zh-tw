@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 547622424194e63733cec6166d813d42ebf577ee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6b5bbac6f27dfa7c9de1115eb3c2f5eea85096e0868ac17e0f8b11d81385f344
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582347"
 ---
 # <a name="currentmediaitemavailable-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 CurrentMediaItemAvailable 事件
 

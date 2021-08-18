@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ POINTINGDEVICE WMI 類別代表輸入裝置，可用來指向執行 Windows 的電腦系統，並在顯示器上選取區域。
+description: Win32 \_ POINTINGDEVICE WMI 類別代表輸入裝置，可用來指向執行 Windows 之電腦系統的顯示並選取區域。
 ms.assetid: ed81abe3-3d8f-48aa-ab64-9e6c87e44f64
 ms.tgt_platform: multiple
 title: Win32_PointingDevice 類別
@@ -49,16 +49,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3e4f2359e19476dfae111fc361f48e6f73d8cfac
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: acf2c33c3561d6024afd196c86eee4aa61af492ec43a4f8a827dfea6fb1d5d4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417054"
 ---
 # <a name="win32_pointingdevice-class"></a>Win32 \_ PointingDevice 類別
 
-**Win32 \_ PointingDevice** [WMI 類別](../wmisdk/retrieving-a-class.md)代表輸入裝置，可用來指向執行 Windows 的電腦系統，並在顯示器上選取區域。 任何用來操作指標的裝置，或指向執行 Windows 的電腦系統上的顯示，都是此類別的成員。
+**Win32 \_ PointingDevice** [WMI 類別](../wmisdk/retrieving-a-class.md)代表輸入裝置，可用來指向執行 Windows 之電腦系統的顯示並選取區域。 任何用來操作指標的裝置，或指向執行 Windows 之電腦系統上的顯示，都是此類別的成員。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 
@@ -889,7 +889,7 @@ Windows 仍在設定裝置。
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| 系統資訊函數 \| SystemParametersInfo" ) ， [**單位**](../wmisdk/standard-qualifiers.md) ( "mickeys" ) 
+限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| 系統資訊函數 \| SystemParametersInfo" ) ，[**單位**](../wmisdk/standard-qualifiers.md) ( "mickeys" ) 
 </dt> </dl>
 
 兩個加速值的其中一個。 指標裝置的敏感度會加倍 (從第一個值切換至第二個值，) 當指標裝置移動距離超過此臨界值時。
@@ -1009,7 +1009,7 @@ Left-Handed 操作
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| HKEY \_ LOCAL \_ MACHINE \\ \\ SYSTEM \\ \\ CurrentControlSet \\ \\ Control \\ \\ Class \| InfPath" ) 
 </dt> </dl>
 
-Windows 指標裝置的 .inf 檔案名。
+Windows 指向裝置之 .inf 檔案的名稱。
 
 範例： "ab"
 
@@ -1027,7 +1027,7 @@ Windows 指標裝置的 .inf 檔案名。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| HKEY \_ LOCAL \_ MACHINE \\ \\ SYSTEM \\ \\ CurrentControlSet \\ \\ Control \\ \\ Class \| InfSection" ) 
 </dt> </dl>
 
-.Inf 檔案的區段，保存 Windows 指標裝置的設定資訊。
+.inf 檔案區段，保存 Windows 指標裝置的設定資訊。
 
 </dd> <dt>
 
@@ -1144,7 +1144,7 @@ Windows 指標裝置的 .inf 檔案名。
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1358,7 +1358,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| 系統資訊函數 \| SystemParametersInfo" ) ， [**單位**](../wmisdk/standard-qualifiers.md) ( "mickeys" ) 
+限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| 系統資訊函數 \| SystemParametersInfo" ) ，[**單位**](../wmisdk/standard-qualifiers.md) ( "mickeys" ) 
 </dt> </dl>
 
 兩個加速臨界值的其中一個。 當指標裝置移動大於此值的距離時，系統會將指標移動的速度加倍。 由於這個速度增加會在達到 **DoubleSpeedThreshold** 值之後發生，因此指標會在其原始速度的四倍有效移動。

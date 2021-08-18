@@ -4,12 +4,12 @@ ms.assetid: b8518f3f-dfaa-4a7d-9b1b-978a62cba4b5
 title: COM + 物件的函數位符串工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42b4df839aae5e0cdeaafde6ea3f439ca7d22cd7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 077479a78f78f07af554696188ebaeeab95d5e6ad9e719bea06bf5fb5ade87eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548784"
 ---
 # <a name="com-object-constructor-strings-tasks"></a>COM + 物件的函數位符串工作
 

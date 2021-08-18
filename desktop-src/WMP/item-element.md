@@ -10,12 +10,12 @@ keywords:
 - 元素、專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e9e692685dc41d17284611181d49de50bf4e32
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e9f03d7ae7946e65c7535e504bb27d6de6fe46f9a96220f3285768e76360055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119317"
 ---
 # <a name="item-element"></a>ITEM 元素
 
@@ -31,12 +31,12 @@ ms.locfileid: "103932077"
 
 
 
- 
+ 
 
 > [!Note]  
 > 此元素需要 Windows XP 或更新版本的 Windows Media Player。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,9 +45,9 @@ ms.locfileid: "103932077"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

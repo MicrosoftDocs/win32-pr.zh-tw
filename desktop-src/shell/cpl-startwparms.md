@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 790779c1c45acbc211fe36e28b2e55d5ae2e60da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f836f868b81daa49e87eb4efc804442bed25690ce126852891327d0eb042aaec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460607"
 ---
 # <a name="cpl_startwparms-message"></a>CPL \_ STARTWPARMS 訊息
 
@@ -56,8 +56,8 @@ ms.locfileid: "103943267"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Cpl。h</dt> </dl> |
 
 

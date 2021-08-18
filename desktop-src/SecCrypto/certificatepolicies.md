@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 8ec217276b5d038f85f33887b771b0afa0c6e40a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8da0ad9681f3dd87227a7fe0b5a5419ceac4c7ee354fb1548427c100561e816b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117770837"
 ---
 # <a name="certificatepolicies-object"></a>CertificatePolicies 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請在 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中使用 [**X509Extension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1)，方法是呼叫採用 OID 作為參數的函式，然後使用憑證原則的 oid 來取得憑證原則。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請在 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中使用 [**X509Extension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1)，方法是呼叫採用 OID 作為參數的函式，然後使用憑證原則的 oid 來取得憑證原則。\]
 
 **CertificatePolicies** 物件代表 [**PolicyInformation**](policyinformation.md)物件的集合。 每個 [**PolicyInformation**](policyinformation.md) 物件都代表一個憑證原則。
 
@@ -46,9 +46,9 @@ ms.locfileid: "106995299"
 
 
 
-| 屬性                                                    | 存取類型          | Description                                                                                                                                                                                                                     |
+| 屬性                                                    | 存取類型          | 描述                                                                                                                                                                                                                     |
 |:------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](certificatepolicies-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic Scripting Edition (VBScript) 中隱藏。<br/> |
+| [**\_NewEnum**](certificatepolicies-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic 腳本版本 (VBScript) 中隱藏。<br/> |
 | [**計數**](certificatepolicies-count.md)<br/>       | 唯讀<br/> | 抓取集合中的 [**PolicyInformation**](policyinformation.md) 物件數目。<br/>                                                                                                                    |
 | [**項目**](certificatepolicies-item.md)<br/>         | 唯讀<br/> | 抓取 [**PolicyInformation**](policyinformation.md) 物件，該物件代表集合的索引憑證原則。 這是預設屬性。<br/>                                                    |
 

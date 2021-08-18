@@ -4,12 +4,12 @@ ms.assetid: 576B4527-A753-4A73-899B-896DCB8B8945
 title: 列印檔案套件 API 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adc495be5c58598d00250568ff852cf4f897e0b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc37fa31cbda1be6927cbb24bf4b5707d10d9f2d74ed152ef630a2ad6ed588c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470120"
 ---
 # <a name="print-document-package-api-interfaces"></a>列印檔案套件 API 介面
 

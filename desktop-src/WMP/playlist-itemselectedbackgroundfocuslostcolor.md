@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49c130119d1aad503c0c236ac9c28a61746645ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f3a812958b4d2923190390e565a44a05bc18f22731e687bef527605cafbc25b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118834362"
 ---
 # <a name="playlistitemselectedbackgroundfocuslostcolor"></a>播放清單。 itemSelectedBackgroundFocusLostColor
 
@@ -29,7 +29,7 @@ ms.locfileid: "106987943"
 
 ## <a name="possible-values"></a>可能的值
 
-這個屬性是代表色彩的讀取/寫入 **字串** 。 預設值是 Windows 按鈕的字型色彩。
+這個屬性是代表色彩的讀取/寫入 **字串** 。 預設值是 Windows 按鈕臉部色彩。
 
 ## <a name="requirements"></a>規格需求
 

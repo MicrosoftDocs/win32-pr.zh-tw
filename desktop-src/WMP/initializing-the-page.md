@@ -10,17 +10,17 @@ keywords:
 - 線上商店，初始化頁面
 - 輸入2個線上商店，初始化頁面
 - Windows Media Player，下載管理員
-- Windows Media Player 下載管理員
+- Windows Media Player下載管理員
 - 下載管理員
 - 初始化頁面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1570d1b77abdc99ba2aee613ed8ddb88fc8097c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e929038c45e5f85a640b5c4ce5c86be56957fdb9067624feddf381ab5093623
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748163"
 ---
 # <a name="initializing-the-page"></a>初始化頁面
 
@@ -34,7 +34,7 @@ g_oManager = external.DownloadManager;
 
 
 
-接著，函式會將 **OnColorChange** 事件連接到名為 **OnAppColor** 的函式，然後直接呼叫函式以初始化背景色彩。 請參閱 [符合 Windows Media Player 色彩](matching-the-windows-media-player-colors.md)。
+接著，函式會將 **OnColorChange** 事件連接到名為 **OnAppColor** 的函式，然後直接呼叫函式以初始化背景色彩。 請參閱[符合 Windows Media Player 色彩](matching-the-windows-media-player-colors.md)。
 
 最後，函式會以一秒的間隔啟動計時器，並初始化顯示暫止下載集合和下載專案的清單方塊。 這點很重要，因為最後一次關閉線上商店時，可能已經有會話正在進行中，而且這項資訊必須再次顯示。
 
@@ -45,9 +45,9 @@ g_oManager = external.DownloadManager;
 [**使用下載管理員**](using-the-download-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

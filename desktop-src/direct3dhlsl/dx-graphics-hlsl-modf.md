@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5079549e70414f8237fd33a5e263dd8f17dcb9e3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c7c09af44cb95f35854d4366c05d238423fcecaff7c9a10c3c55fadf6b51dd7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513809"
 ---
 # <a name="modf"></a>modf
 
@@ -38,7 +38,7 @@ ms.locfileid: "103946141"
 
 
 
-| 項目                                                      | 描述                                    |
+| Item                                                      | 描述                                    |
 |-----------------------------------------------------------|------------------------------------------------|
 | <span id="x"></span><span id="X"></span>*X*<br/>    | \[在 \] [x 輸入值] 中。<br/>           |
 | <span id="ip"></span><span id="IP"></span>*Ip*<br/> | \[\] *x* 的整數部分。<br/> |
@@ -55,7 +55,7 @@ X 的帶正負號小數部分。
 
 
 
-| Name | 輸入/輸出 | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md)                 | 大小                         |
+| 名稱 | 輸入/輸出 | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md)                 | 大小                         |
 |------|--------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------|
 | x    | in     | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**float**](/windows/desktop/WinProg/windows-data-types)、 [ **int**](/windows/desktop/WinProg/windows-data-types) | 任意                          |
 | ip   | out    | 與輸入 x 相同                                                                                                | [**float**](/windows/desktop/WinProg/windows-data-types)、 [ **int**](/windows/desktop/WinProg/windows-data-types) | ) 為輸入 x 的相同維度 (s |

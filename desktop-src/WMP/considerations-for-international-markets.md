@@ -15,12 +15,12 @@ keywords:
 - ServiceInfo 檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1822e4f647c9967d50d40fa19331cd58565cf2eb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d82e2db056f748e1257649716c57a2f1774ee0b1b149966dce3851a75d08c8a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580508"
 ---
 # <a name="considerations-for-international-markets"></a>國際市場的考慮
 
@@ -46,9 +46,9 @@ Windows Media Player 會將查詢字串附加至 ServiceInfo URL 要求，以提
 [**ServiceInfo 元素**](serviceinfo-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

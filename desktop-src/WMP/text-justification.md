@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4c5d3a62aba4b95d7f6e36d4fafd3e044edf74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7cc79cc3b4a49154284d497b913a843946551faeea7008f7c2b963fbafcf920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118258"
 ---
 # <a name="textjustification"></a>文字。對齊方式
 

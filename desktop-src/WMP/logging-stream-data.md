@@ -3,10 +3,10 @@ title: 記錄資料流程資料
 description: 記錄資料流程資料
 ms.assetid: c902a755-afdd-4dea-bc3e-036555fdff10
 keywords:
-- Windows Media 中繼檔播放清單，記錄資料流程資料
+- Windows媒體中繼檔播放清單，記錄資料流程資料
 - 播放清單、記錄資料流程資料
 - 中繼檔播放清單，記錄資料流程資料
-- Windows Media 中繼檔播放清單，資料流程資料記錄
+- Windows媒體中繼檔播放清單，資料流程資料記錄
 - 播放清單、串流資料記錄
 - 中繼檔播放清單，資料流程資料記錄
 - 記錄資料流程資料
@@ -20,12 +20,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f234851cabf071ed2308fb5c96df2b53b60b9d45
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c0a2ae6fe4b647e8a5c19fc6f30562973b3280f37cd3af3a1b9d9093771959de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118862"
 ---
 # <a name="logging-stream-data"></a>記錄資料流程資料
 
@@ -33,7 +33,7 @@ ms.locfileid: "104092319"
 
 記錄資訊會自動傳送至從中產生播放清單的伺服器。 您也可以將記錄資訊傳送到其他伺服器，包括您專門用於記錄的網頁伺服器。 若要這樣做，請使用 **LOGURL** 元素，並指定 **HREF** 屬性的有效 URL。 您可以將 **LOGURL** 元素包含為 **ASX** 元素的子系，以及做為個別 **專案** 元素的子系。 當播放清單第一次開啟時，會將記錄資訊傳送至源伺服器，並傳送至該 **ASX** 元素的 **LOGURL** 子系中指定的每個 URL。 然後，當達到每個專案時，就會將該專案特定的記錄資訊傳送至 **Entry 專案** 的 **LOGURL** 子系中指定的每個 URL。
 
-Windows Media Format SDK 透過 **IWMSReaderNetworkConfig** 介面和下列方法支援 **LOGURL** 元素：
+Windows 媒體格式 SDK 透過 **IWMSReaderNetworkConfig** 介面和下列方法支援 **LOGURL** 元素：
 
 
 ```XML
@@ -82,12 +82,12 @@ HRESULT ResetLoggingUrlList();
 [**中繼檔播放清單**](metafile-playlists.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

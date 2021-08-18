@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44804ad73ab49ce4f62274c870d8487501c44361
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f9dd841e022da85d609c203f57288af62a6c99ecc9f56079982308a095285f39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515689"
 ---
 # <a name="d3dx_srgb_to_float_inexact-function"></a>D3DX \_ SRGB \_ 至 \_ FLOAT 不 \_ 精確函式
 

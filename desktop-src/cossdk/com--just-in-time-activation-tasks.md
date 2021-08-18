@@ -4,12 +4,12 @@ ms.assetid: 8b211ad2-92b6-487c-b323-1fe19f774cc3
 title: COM + 即時啟用工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19683a397915f20ae9ba88a317d7ea8658a68be4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3e3441d17db0bf8053caab3f342e04bc3d06164bb2750a7d9039ff27d2ceeb86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549383"
 ---
 # <a name="com-just-in-time-activation-tasks"></a>COM + 即時啟用工作
 

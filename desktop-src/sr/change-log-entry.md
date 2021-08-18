@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4a129b7c8368e6af1d259d6c19a9dde963d9deef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee4eca1bad0859159821d7717ba6c23c352e03b33a1fcab81721e08dba465c83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452929"
 ---
 # <a name="change_log_entry-structure"></a>變更 \_ 記錄 \_ 專案結構
 
@@ -184,7 +184,7 @@ CHANGE \_ LOG \_ ENTRYTYPES \_ VOLUMEERROR * * (0x1000) * *
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                            |
 | 用戶端支援結束<br/>    | Windows XP 含 SP2<br/>                       |
 

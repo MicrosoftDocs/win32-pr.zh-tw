@@ -3,15 +3,15 @@ title: 線上音樂商店的啟動資訊表單
 description: 線上音樂商店的啟動資訊表單
 ms.assetid: 6ee30446-7505-40ae-b664-3727a5be9976
 keywords:
-- Windows Media Player 線上商店
+- Windows Media Player線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3ded923538d6be6c8a22fa0ba96ddcd0814348d
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 83acbe30b3d5232abb6c79cb845f29d46cd741b2ea6b3a84f03ecd082cb13e99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118538"
 ---
 # <a name="startup-information-form-for-an-online-music-store"></a>線上音樂商店的啟動資訊表單
 
@@ -23,7 +23,7 @@ ms.locfileid: "110424068"
 |---------------------------|-------------|
 | 商店名稱                |             |
 | Locale                    |             |
-| Date                      |             |
+| 日期                      |             |
 | 目標內部視窗 |             |
 
 

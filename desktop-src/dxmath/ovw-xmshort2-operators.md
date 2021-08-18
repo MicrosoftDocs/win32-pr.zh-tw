@@ -4,12 +4,12 @@ ms.assetid: 7e9cad7b-03c2-45ec-8fe9-110f4197cae1
 title: XMSHORT2 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2e4ef29db08a7a31478ab7b5d2bc9a3f61be07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17193ed6ffefa4d7d3bd25dc9d7ba0b5360fcd791fcde4a9acb9c56dab406e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500979"
 ---
 # <a name="xmshort2-operators"></a>XMSHORT2 運算子
 

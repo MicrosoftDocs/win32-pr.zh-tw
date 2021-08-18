@@ -4,18 +4,18 @@ description: 本主題說明如何在 XPS OM 中使用 XPS 檔 API 的畫布相�
 ms.assetid: 368b8c47-9803-42ee-a3a8-681bf55315ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93a3acc8fbc85298e21d039898d4ae7d38fbb272
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 97f7214a06779d997331f57a22ae29217e5cabdd635d0c3feac85bd8a3070065
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469267"
 ---
 # <a name="working-with-xps-om-canvas-and-visual-interfaces"></a>使用 XPS OM 畫布和視覺化介面
 
 本主題說明如何在 XPS OM 中使用 XPS 檔 API 的畫布相關介面。
 
-| 介面名稱                                  | 邏輯子介面                                                                                                                    | 描述                                                                                                                                                                                                             |
+| 介面名稱                                  | 邏輯子介面                                                                                                                    | Description                                                                                                                                                                                                             |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IXpsOMVisual**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual)<br/> | [**IXpsOMCanvas**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas)<br/> [**IXpsOMGlyphs**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs)<br/> [**IXpsOMPath**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath)<br/> | 定義視覺物件之介面的基類，例如文字和圖形。<br/> 您可以在 [**IXpsOMVisualCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualcollection) 介面中收集視覺物件。<br/> |
 | [**IXpsOMCanvas**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas)<br/> | [**IXpsOMCanvas**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas)<br/> [**IXpsOMGlyphs**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs)<br/> [**IXpsOMPath**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath)<br/> | 可視為單一視覺物件的視覺物件集合。<br/>                                                                                                                                |

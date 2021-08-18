@@ -4,12 +4,12 @@ ms.assetid: 5e267287-0ff5-4943-882f-5fe6687cca10
 title: WSAIoctl 的 SIO_MULTIPOINT_LOOPBACK 命令程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc61e58a9f1db6f246e9e76ec527e57353bb35cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02842566c3fc863f7a32a15cd8e4efe5691bbcc172ef0db94e422b77e84ceec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559705"
 ---
 # <a name="sio_multipoint_loopback-command-code-for-wsaioctl"></a>\_ \_ 適用于 WSAIOCTL 的 SIO MULTIPOINT 回送命令程式碼
 

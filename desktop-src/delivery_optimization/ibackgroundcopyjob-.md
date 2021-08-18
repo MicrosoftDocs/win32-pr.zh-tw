@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 04572f11afd51c3354c5adabd9950e2a3942287a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 27febd08519a06f7ad452882cf0725fed209e0306182ba336343049936795acf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543024"
 ---
 # <a name="ibackgroundcopyjob-interface"></a>IBackgroundCopyJob 介面
 
@@ -62,7 +62,7 @@ ms.locfileid: "104025006"
 | [**SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md)             | 指定要接收的事件通知類型。<br/>                                                                                                                                                                   |
 | [**SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md)     | 指定 [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) 介面的實 (回呼) 的指標。 介面會根據您設定的事件通知旗標來接收通知。<br/> |
 | [**SetPriority**](ibackgroundcopyjob-setpriority.md)                   | 指定相對於傳送佇列中其他作業的作業優先順序。<br/>                                                                                                                                        |
-| [**暫停**](ibackgroundcopyjob-suspend.md)                           | 暫停作業。<br/>                                                                                                                                                                                                        |
+| [**暫止**](ibackgroundcopyjob-suspend.md)                           | 暫停作業。<br/>                                                                                                                                                                                                        |
 
 
 
@@ -75,9 +75,9 @@ ms.locfileid: "104025006"
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
+| IDL<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
 | IID<br/>                      | IID_IBackgroundCopyJob 定義為37668D37-507E-4160-9316-26306D150B12<br/>               |

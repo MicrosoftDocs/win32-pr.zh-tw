@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 26298f8a63ccfde2171578c27e9208011c16dd28
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc3d8d8bce22a8a77f8744bf2540fba7ede58fc4122c8fa2a8fea8147a8f6332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117732039"
 ---
 # <a name="d3dxcreatetexturefromresourceex-function"></a>D3DXCreateTextureFromResourceEx 函式
 
@@ -153,7 +153,7 @@ HRESULT D3DXCreateTextureFromResourceEx(
 
 </dd> <dt>
 
-*>colorkey* \[在\]
+*>Colorkey* \[在\]
 </dt> <dd>
 
 類型： **[ **D3DCOLOR**](d3dcolor.md)**
@@ -201,7 +201,7 @@ HRESULT D3DXCreateTextureFromResourceEx(
 
 要載入的資源必須是 RT \_ 點陣圖或 rt RCDATA 類型 \_ 。 資源類型 RT \_ RCDATA 可用來載入點陣圖以外的格式 (例如 tga、.jpg 和 dds) 。
 
-此函式支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函數支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 ## <a name="requirements"></a>規格需求
 
