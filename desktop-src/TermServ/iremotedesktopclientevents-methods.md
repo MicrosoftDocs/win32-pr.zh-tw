@@ -5,12 +5,12 @@ ms.assetid: D8035924-736D-495D-BF78-950DAEB69774
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe59ebb3eb2fb077b53074024100c4f0861cf197
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 85a3c5df2f8a083e8fe41da53035f4de43b58e5ef1e7948dee8e93f617e17bdf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124998"
 ---
 # <a name="iremotedesktopclientevents-methods"></a>IRemoteDesktopClientEvents 方法
 
@@ -118,6 +118,6 @@ ms.locfileid: "104315499"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

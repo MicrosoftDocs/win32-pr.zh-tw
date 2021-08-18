@@ -4,16 +4,16 @@ ms.assetid: e98bf6ca-0572-419b-8bc0-bc0239f8a6ff
 title: '[系統] 副標題'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01af95d8b190d43fe791383a78f37f38c36d05be
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2139c3ef66e4b0a3e3afddfc00fb4e32c8edb0e14c8da731175cb60d1cc3a2d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970347"
 ---
 # <a name="systemmediasubtitle"></a>[系統] 副標題
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

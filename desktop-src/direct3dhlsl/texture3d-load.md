@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 9ba2046e9ae4bd76c4ff2e0c9dc13b7de4f2cf11
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 17c1434a912adeaef434cf83b92b638aa46919e4dc2c1a1b854f960b24822810
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022848"
 ---
 # <a name="texture3dload-methods"></a>Texture3D：： Load 方法
 

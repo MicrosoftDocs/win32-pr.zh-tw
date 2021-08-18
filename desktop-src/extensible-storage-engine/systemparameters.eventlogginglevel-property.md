@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6e70ef2c0adff6982a34c8e11cc2140f51229299
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7aca580a9baddd4414f1b7e8a330512935a4f1556527bf35520e563937c35c7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115538"
 ---
 # <a name="systemparameterseventlogginglevel-property"></a>SystemParameters. EventLoggingLevel 屬性
 

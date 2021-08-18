@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: c02e533f57481004b0a7de9f779399b20bddc0af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7bf8af71d3a0f5cd20a84ef0f1532806e3d3e8d268bd2d322d617534b533cc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033608"
 ---
 # <a name="pdhvbupdatelog-function"></a>PdhVbUpdateLog 函式
 
@@ -55,7 +55,7 @@ Function PdhVbUpdateLog ( \_ Byval HLog 作為 PDH \_ hLog， \_ BYVAL szUserStr
 
 
 
-| 傳回碼                                                                                                | Description                                                                                            |
+| 傳回碼                                                                                                | 描述                                                                                            |
 |------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**PDH \_ \_ 緩衝區不足**</dt> </dl>   | 要求的資料大於提供的緩衝區。 無法傳回要求的資料。<br/> |
 | <dl> <dt>**PDH \_ 不正確 \_ 引數**</dt> </dl>      | 一或多個字串緩衝區的大小不正確。<br/>                                  |
@@ -77,8 +77,8 @@ Function PdhVbUpdateLog ( \_ Byval HLog 作為 PDH \_ hLog， \_ BYVAL szUserStr
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 程式庫<br/>                  | <dl> <dt>Pdh. .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 

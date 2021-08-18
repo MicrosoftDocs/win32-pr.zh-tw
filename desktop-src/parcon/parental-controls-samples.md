@@ -4,16 +4,16 @@ ms.assetid: 19dac95c-2279-4bf9-a58c-dd30177c0c9d
 title: 家長監護範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26962f4edd16e1e860883607316d5a7cbf3d9122
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c23111e42b670c30630b7ebd250c94ba2f148fcf4a81874fcc3c360db9b4bbd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971607"
 ---
 # <a name="parental-controls-samples"></a>家長監護範例
 
-家長監護的範例程式碼可在 [路徑 <installation directory> \\ Windows \\ <version number> \\ 範例 \\ 安全性 \\ ParentalControls] 底下取得。 範例如下所示：
+家長監護的範例程式碼可在路徑 <installation directory> \\ Windows \\ <version number> \\ 範例 \\ 安全性 \\ ParentalControls 中取得。 範例如下所示：
 
 ## <a name="utilities"></a>公用程式
 

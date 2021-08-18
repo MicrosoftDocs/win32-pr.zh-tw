@@ -1,17 +1,17 @@
 ---
 description: 電話裝置是一種支援電話裝置類別的裝置，包括 hookswitches、話機、speakerphones 和耳機。
 ms.assetid: c2660d77-0265-49d4-bd04-1cddd674b760
-title: 手機裝置元素
+title: 電話裝置元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5744967dc738a65d7632dc1a1f6126bfbc9887
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71c882e7f9ebe279d0ee6622708f8b735b68f4c37a2f93dffe2a870271d556cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774168"
 ---
-# <a name="phone-device-elements"></a>手機裝置元素
+# <a name="phone-device-elements"></a>電話裝置元素
 
 電話裝置是一種支援 phone 裝置類別的裝置，其中包含部分或全部的下列元素：
 

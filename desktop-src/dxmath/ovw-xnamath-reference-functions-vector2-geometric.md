@@ -4,12 +4,12 @@ ms.assetid: a17cdad7-4fbe-bf83-472f-1b99603b7fec
 title: DirectXMath 程式庫2D 向量幾何函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fc5149f152c288c6c592f627dea23ef2c47add5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9496e65f41a90bfc52d94fa04f16034275fec544baed90753ecc193b64cb83d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740208"
 ---
 # <a name="directxmath-library-2d-vector-geometric-functions"></a>DirectXMath 程式庫2D 向量幾何函數
 

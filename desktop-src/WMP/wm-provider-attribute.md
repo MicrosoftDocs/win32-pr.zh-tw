@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d7c2c1c796edf28a567f72708c60c7976f718bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bc7fa8312d095151145cfe33a139def23e20082aec2cd1d5f1c3344b9b565dfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735368"
 ---
 # <a name="wmprovider-attribute"></a>WM/提供者屬性
 
@@ -28,7 +28,7 @@ ms.locfileid: "106977484"
 -   [音訊專案](audio-item-attributes.md)
 -   [CD 播放清單](cd-playlist-attributes.md)
 -   [CD 曲目](cd-track-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 -   [單選項目](radio-item-attributes.md)
 -   [影片專案](video-item-attributes.md)
 
@@ -38,7 +38,7 @@ ms.locfileid: "106977484"
 
 **MetadataSource** 是此屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMProvider。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMProvider。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

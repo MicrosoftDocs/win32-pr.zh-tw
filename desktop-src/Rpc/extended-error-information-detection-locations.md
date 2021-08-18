@@ -1,15 +1,15 @@
 ---
 title: 擴充錯誤資訊偵測位置
-description: 遠端程序呼叫 (RPC) Windows XP 的延伸錯誤資訊偵測位置。
+description: 遠端程序呼叫 (RPC) 擴充 Windows XP 的錯誤資訊偵測位置。
 ms.assetid: 73c4d044-363f-4bf5-a8ea-37d8a227183a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05effd769a6da711b881c4b475b4ade8d7c1812f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cd5f4ac679428c0ce3e933f7d537867fd96c490caf2880b6b6e2d69cc08f74a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021330"
 ---
 # <a name="extended-error-information-detection-locations"></a>擴充錯誤資訊偵測位置
 
@@ -17,7 +17,7 @@ ms.locfileid: "104023893"
 
 
 
-| 程式碼 | Name                                                 | 描述和參數                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 程式碼 | 名稱                                                 | 描述和參數                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 10   | DealWithLRPCRequest10                                | 伺服器未接聽。 第一個參數是 ULONG，指出是否已呼叫 [**RpcServerListen**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverlisten) ，而第二個參數是已註冊的自動接聽介面數目。                                                                                                                                                                                                                                                                                                 |
 | 11   | DealWithLRPCRequest20                                | 伺服器端呼叫物件的配置/初始化失敗。                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -205,8 +205,8 @@ ms.locfileid: "104023893"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

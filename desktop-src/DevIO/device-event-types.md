@@ -4,12 +4,12 @@ ms.assetid: 17078548-879d-4a11-a268-27d1f30180ab
 title: 裝置事件種類
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35ece6b810ba4d1310638bbfbdcdcaa7f67f79d8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2f4d807cd7524d1906e86113c546306e08051ea80770900d42c1233364430e22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636638"
 ---
 # <a name="device-event-types"></a>裝置事件種類
 

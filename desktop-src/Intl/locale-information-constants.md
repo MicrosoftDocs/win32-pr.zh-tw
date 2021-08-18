@@ -4,12 +4,12 @@ ms.assetid: 45798dd1-34bb-4e99-8f84-94f28e76711f
 title: 地區設定資訊常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7802002ff572ec148351a0abea02922205409b08
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: 0cfd5f3436eed055af6956e538276402f617eb0d6a0e8c3f6d914c82e1457aaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "106996132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106588"
 ---
 # <a name="locale-information-constants"></a>地區設定資訊常數
 
@@ -163,7 +163,7 @@ ms.locfileid: "106996132"
 
 ## <a name="constants-used-in-the-lctype-parameter-of-getlocaleinfo-getlocaleinfoex-and-setlocaleinfo"></a>在 GetLocaleInfo、GetLocaleInfoEx 和 SetLocaleInfo 的 LCType 參數中使用的常數
 
-本節列出應用程式可用於 [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa)之 *LCType* 參數的地區設定資訊常數 (Windows Me/98、Windows NT 4.0) 、 [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) (Windows Vista) 和 [**SetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-setlocaleinfoa)。 地區設定資訊會以字串形式傳遞 (預設) 或整數。 使用 binary 或運算子來指定整數值，以結合特定常數與合併常數。 請參閱 [結合常數](#combining-constants)。
+本節列出應用程式可用於 [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) (之 *LCType* 參數的地區設定資訊常數 Windows Me/98、Windows NT 4.0) 、 [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) (Windows Vista) 和 [**SetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-setlocaleinfoa)。 地區設定資訊會以字串形式傳遞 (預設) 或整數。 使用 binary 或運算子來指定整數值，以結合特定常數與合併常數。 請參閱 [結合常數](#combining-constants)。
 
  
 

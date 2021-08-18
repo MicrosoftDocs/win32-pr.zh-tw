@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1e93890b8c3db1150bc7224b0fd8b6ee7475ced
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e8e867098438a9df0be03646d85ff33fe857b285d0fda2763a3cecd46075f8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039208"
 ---
 # <a name="mci_index-command"></a>MCI \_ 索引命令
 
@@ -98,7 +98,7 @@ MCI \_ 通知、mci \_ 等候或 mci \_ 測試。 如需這些旗標的詳細資
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -106,7 +106,7 @@ MCI \_ 通知、mci \_ 等候或 mci \_ 測試。 如需這些旗標的詳細資
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令](mci-commands.md)

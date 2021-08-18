@@ -1,6 +1,6 @@
 ---
 title: 'IVMVirtualMachine ShutdownActionOnQuit 屬性 (VPCCOMInterfaces .h) '
-description: 當 Windows Virtual PC 結束時，要在此虛擬機器上執行的動作。
+description: 當 Windows virtual PC 結束時，要在此虛擬機器上執行的動作。
 ms.assetid: 3f6b256e-c48a-4a7c-acee-83d996e13ec7
 keywords:
 - ShutdownActionOnQuit 屬性 Virtual PC
@@ -18,18 +18,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01469e48e767777c6ea3daa4d0f3a923dce67726
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c859a0f1715685e07ba13d6fb06fc99dc08f712fd20fa56a4672a2cc857b1591
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124698"
 ---
 # <a name="ivmvirtualmachineshutdownactiononquit-property"></a>IVMVirtualMachine：： ShutdownActionOnQuit 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
-抓取並設定要在此虛擬機器上執行的動作 (VM) 如果是在 Windows Virtual PC 結束時執行。
+抓取並設定要在此虛擬機器上執行的動作 (VM) 如果在 Windows virtual PC 結束時正在執行）。
 
 這是可讀寫的屬性。
 
@@ -50,7 +50,7 @@ HRESULT get_ShutdownActionOnQuit(
 
 ## <a name="property-value"></a>屬性值
 
-指定當 Windows Virtual PC 結束時，如果 VM 正在執行，如何關閉此 VM。 如需值的清單，請參閱 [**VMShutdownAction**](vmshutdownaction.md)。
+指定當 Windows Virtual PC 結束時，如何關閉此 VM （如果它正在執行）。 如需值的清單，請參閱 [**VMShutdownAction**](vmshutdownaction.md)。
 
 ## <a name="error-codes"></a>錯誤碼
 
@@ -68,7 +68,7 @@ HRESULT get_ShutdownActionOnQuit(
 
 ## <a name="remarks"></a>備註
 
-根據預設，當 Windows Virtual PC 結束時，會儲存執行中的 Vm。 關機動作 **vmShutdownAction \_ 儲存** (0) 將會儲存 VM 的狀態。 **VmShutdownAction \_ TurnOff** (1) 動作將會關閉 VM。 如果有整合元件可用， **vmShutdownAction \_ 關機** (2) 動作將會關閉客體作業系統，否則會儲存 VM。
+當 Windows Virtual PC 結束時，預設會儲存執行中的 vm。 關機動作 **vmShutdownAction \_ 儲存** (0) 將會儲存 VM 的狀態。 **VmShutdownAction \_ TurnOff** (1) 動作將會關閉 VM。 如果有整合元件可用， **vmShutdownAction \_ 關機** (2) 動作將會關閉客體作業系統，否則會儲存 VM。
 
 ## <a name="requirements"></a>規格需求
 
@@ -76,7 +76,7 @@ HRESULT get_ShutdownActionOnQuit(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

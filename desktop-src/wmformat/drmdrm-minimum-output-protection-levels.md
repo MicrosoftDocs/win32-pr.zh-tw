@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 060fdda4cd1c3cc665e396a72d46ac05e721abe4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5559527507f0399a09661dfe380f51d11e10750eddf7d996b38d110e4f38e37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708918"
 ---
 # <a name="drm_minimum_output_protection_levels-structure"></a>DRM \_ 最小 \_ 輸出 \_ 保護 \_ 層級結構
 

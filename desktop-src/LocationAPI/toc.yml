@@ -75,7 +75,7 @@
             - name: ILocationPower
               href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationpower
               items:
-                - name: Connect 方法
+                - name: 連線方法
                   href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-connect
                 - name: Disconnect 方法
                   href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-disconnect

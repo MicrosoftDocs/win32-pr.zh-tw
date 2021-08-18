@@ -8,12 +8,12 @@ keywords:
 - binding AD，晚期繫結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5299b715325e4eda88a0eeaca2b22b4bdaa15a96
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c479472a2974f31e8ecdd4308b01cf7c7251eada3f907d5d90ecf152028399b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637888"
 ---
 # <a name="late-binding-whats-happening-under-the-hood"></a>晚期繫結：幕後有什麼進展？
 
@@ -27,6 +27,6 @@ ms.locfileid: "104463700"
 -   現在，用戶端寫入器會使用目前延伸模組的 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)介面叫用 **YourNewMethod** 方法。 延伸模組的 **idispatch** 執行會委派回 **idispatch** for ADSI。
 -   [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)會再次搜尋適當的副檔名或本身，然後使用該延伸模組的 [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension)介面呼叫適當的延伸模組。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: Direct2D 的執行時間延伸模組，可提供描述性的錯誤�
 ms.assetid: 23b522d4-0733-4892-b93d-28f899fa0f17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f71b1364e645859059fb090634cbdae6f8c084e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29cb01c2f8f4f4b14694da94262847ae0def0817a13ffffc48f5c414a8eacda7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044358"
 ---
 # <a name="direct2d-debug-layer"></a>Direct2D Debug 圖層
 

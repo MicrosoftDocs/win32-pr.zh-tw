@@ -11,12 +11,12 @@ keywords:
 - 應用程式特定的剪輯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d161832eb6d81738038e10564233f26920f0d60
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: bb69307f869031bb9fd176ec85dd20eac5d543ef3e7f63086c6ea0801d1b8b8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128368"
 ---
 # <a name="a-opengl"></a> (OpenGL) 
 

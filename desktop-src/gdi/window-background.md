@@ -4,12 +4,12 @@ ms.assetid: d0613f9b-e65b-4de2-887d-2b642d36b22d
 title: 視窗背景
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32d567b0bdc38866cd9332ff8ed399bfb23f53c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 819f3bf333728909bdd0e374d41b7665f0517bcc17666b88c58f610e0127d942
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848938"
 ---
 # <a name="window-background"></a>視窗背景
 

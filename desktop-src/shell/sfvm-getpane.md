@@ -4,12 +4,12 @@ ms.assetid: 9621b921-e97f-4219-953a-7c961a81c379
 title: 'SFVM_GETPANE 訊息 (Shlobj.h .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2800be1b7b427e13014686e587b51fc4bf7d7617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58ef936d4218c29c8d0574e97b8de73c1a0d54f4d62df7dba4f43f371bfeaf95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968667"
 ---
 # <a name="sfvm_getpane-message"></a>SFVM \_ GETPANE 訊息
 
@@ -139,8 +139,8 @@ SSL 窗格。
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 用戶端支援結束<br/>    | Windows XP 含 SP2<br/>                                                      |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                      |
 | 標頭<br/>                   | <dl> <dt>Shlobj.h。h</dt> </dl> |

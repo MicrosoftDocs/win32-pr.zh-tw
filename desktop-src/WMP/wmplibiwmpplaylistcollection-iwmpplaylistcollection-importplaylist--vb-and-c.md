@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad3ca727155d6ae859123d427812d93ebaa0b05c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ee4c231a045b39454908753dc197c95e26d85c711968f07ab27dbd859c29c6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122528"
 ---
 # <a name="iwmpplaylistcollectionimportplaylist-method"></a>IWMPPlaylistCollection：： importPlaylist 方法
 

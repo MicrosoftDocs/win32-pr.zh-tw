@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，狀態列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65ace64d34429a6d381dfdef2d99d82a3693fca2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f52f3f04db86a8c8ff0e9cad9a3938a17e996e8210960912c3abc5039468e178
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614248"
 ---
 # <a name="statusbar-control-type"></a>狀態列控制項類型
 
@@ -88,7 +88,7 @@ ms.locfileid: "104301431"
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>相關屬性
 
@@ -113,7 +113,7 @@ ms.locfileid: "104301431"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -127,7 +127,7 @@ ms.locfileid: "104301431"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -145,7 +145,7 @@ ms.locfileid: "104301431"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -164,9 +164,9 @@ ms.locfileid: "104301431"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

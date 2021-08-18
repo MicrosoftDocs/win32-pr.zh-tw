@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a0db92ad019950cf8be0a72260da75acc06779
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0217d1708764ec33dd76ea35ff330f0d411697b5e9be3a6bd148377002a1f127
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047208"
 ---
 # <a name="gettextextentpoint32wrap-function"></a>GetTextExtentPoint32Wrap 函式
 
@@ -101,8 +101,8 @@ BOOL GetTextExtentPoint32Wrap(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                            |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                            |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (5.81 版或更新版本) </dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: d8d479fd-c45a-4dfa-b496-76abc7c09a42
 title: 管理執行緒參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b629cd97c99e3b30e66810b5f54720d0dbb1c87d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: e6380957f5f8ef9be62e291820fe12d715f31a5f5bb5ba81b80aa1c8606478e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968917"
 ---
 # <a name="managing-thread-references"></a>管理執行緒參考
 

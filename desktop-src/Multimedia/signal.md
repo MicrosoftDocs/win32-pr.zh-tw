@@ -3,7 +3,7 @@ title: 信號命令
 description: 信號命令會將 MCISIGNAL 訊息傳送給應用程式，以識別工作區中的指定位置 \_ 。 數位影片裝置辨識此命令。 MCIAVI 一次只支援一個作用中的信號。
 ms.assetid: 3d10eac0-fd1a-41ee-98fa-2518642c7339
 keywords:
-- 發出命令 Windows 多媒體
+- Windows 多媒體的信號命令
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd96b8970ebbb6502306c6d2d5fd8c49f172cad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0db007a03738f13bb9acc0733b67bcd38de4b97f2b194bb16cdfcd85f798cfdc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106979682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037178"
 ---
 # <a name="signal-command"></a>信號命令
 
@@ -97,7 +97,7 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

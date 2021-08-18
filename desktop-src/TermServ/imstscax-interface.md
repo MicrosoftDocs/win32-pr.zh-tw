@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9970523811b49270906fc7abd686d48387ce51f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4cefdaa28d4331b1cc74c84de6b67d9d4d43336c90315c20bde8642ca9b9219c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125388"
 ---
 # <a name="imstscax-interface"></a>IMsTscAx 介面
 
@@ -42,7 +42,7 @@ ms.locfileid: "106968569"
 
 | 方法                                                          | 描述                                                                                                                                                                                           |
 |:----------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**連接**](imstscax-connect.md)                             | 使用目前在控制項上設定的屬性起始連接。<br/>                                                                                                                  |
+| [**連線**](imstscax-connect.md)                             | 使用目前在控制項上設定的屬性起始連接。<br/>                                                                                                                  |
 | [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) | 針對每個指定的虛擬通道名稱建立用戶端虛擬通道物件。<br/>                                                                                                      |
 | [**中斷連線**](imstscax-disconnect.md)                       | 中斷使用中連接。<br/>                                                                                                                                                         |
 | [**SendOnVirtualChannel**](imstscax-sendonvirtualchannel.md)   | 透過先前使用 [**IMsTscAx：： CreateVirtualChannels**](imstscax-createvirtualchannels.md) 方法建立的虛擬通道，將資料傳送至 RD 工作階段主機伺服器。<br/> |
@@ -57,7 +57,7 @@ ms.locfileid: "106968569"
 
 
 
-| 屬性                                                                             | 存取類型           | Description                                                                                                               |
+| 屬性                                                                             | 存取類型           | 描述                                                                                                               |
 |:-------------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings**](imstscax-advancedsettings.md)<br/>                     | 唯讀<br/>  | [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md)介面指標。<br/>                       |
 | [**CipherStrength**](imstscax-cipherstrength.md)<br/>                         | 唯讀<br/>  | 目前控制項的最大加密強度。<br/>                                                        |

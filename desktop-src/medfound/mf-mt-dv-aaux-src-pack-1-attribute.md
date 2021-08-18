@@ -4,12 +4,12 @@ ms.assetid: c9d350bd-bf49-4c2c-a12f-3b5b475ac103
 title: 'MF_MT_DV_AAUX_SRC_PACK_1 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b99c78bff3e571144224ea0e6f65ca14505def3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70a4fa119c2a34d01a4c01415fd85c9e9c496e4b1bb06a0e62099a9947a079e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714678"
 ---
 # <a name="mf_mt_dv_aaux_src_pack_1-attribute"></a>MF \_ MT \_ DV \_ AAUX \_ SRC \_ PACK \_ 1 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106988361"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

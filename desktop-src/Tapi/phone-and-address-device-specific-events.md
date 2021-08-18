@@ -1,17 +1,17 @@
 ---
 description: 下列程式碼範例說明 address 和 phone 裝置事件的事件處理常式。 每個事件的程式碼會顯示如何建立事件介面，以及如何取得事件資料。
 ms.assetid: 236d4e7f-865f-4b26-8da6-c86476588c47
-title: 電話和位址裝置特定事件
+title: 電話和解決裝置特定事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40cf4c45eb7c7b933a36814f8eba8cd5cc39d8cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c69a8dd5bd941946d6d4b904e8bc367b9949d6782f350a1e065eb672b2db57ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034538"
 ---
-# <a name="phone-and-address-device-specific-events"></a>電話和位址裝置特定事件
+# <a name="phone-and-address-device-specific-events"></a>電話和解決裝置特定事件
 
 下列程式碼範例說明 address 和 phone 裝置事件的事件處理常式。 每個事件的程式碼會顯示如何建立事件介面，以及如何取得事件資料。
 

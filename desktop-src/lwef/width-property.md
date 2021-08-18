@@ -4,16 +4,16 @@ description: 深入瞭解 CommandsWindow 物件的 Width 屬性，此屬性會�
 ms.assetid: vs|msagent|~\pacontrol_7ca2.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c7652205593de29a315b17215068a384f0acf0c
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: d69666135a50fbcd9475e370e45f6a3fd80f2f86e1cad1b35302596f49c6c808
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114488"
 ---
 # <a name="width-property-commandswindow-object"></a>CommandsWindow 物件) 的 Width 屬性 (
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

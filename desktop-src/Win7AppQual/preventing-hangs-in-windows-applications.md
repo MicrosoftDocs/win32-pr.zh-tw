@@ -26,7 +26,7 @@ ms.locfileid: "118994814"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 **停止回應-使用者的觀點**
 

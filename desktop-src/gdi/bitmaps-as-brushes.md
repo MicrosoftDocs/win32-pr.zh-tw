@@ -4,12 +4,12 @@ ms.assetid: 98fb2fd5-9cf4-4016-9e30-ec724e77cebc
 title: 點陣圖作為筆刷
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c693e3c144dec2d26eccca1f1b628252dea187c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8e218180ab646de1c9c8ff622be1bcc268df73f6f4bb0b6df82482c9a2c851
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944248"
 ---
 # <a name="bitmaps-as-brushes"></a>點陣圖作為筆刷
 

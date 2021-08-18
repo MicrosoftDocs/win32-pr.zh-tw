@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebaf543b688d0b403962da43029ac9aa85422bc6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b5528e26b7dc24a744affad84c8fd1fe74607ed1af56e20651fd43723cdbbff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059288"
 ---
 # <a name="wtnca-values"></a>WTNCA 值
 
@@ -29,7 +29,7 @@ ms.locfileid: "104105941"
 
 
 
-| 常數/值                                                                                                                                                                                                                                  | Description                                                                             |
+| 常數/值                                                                                                                                                                                                                                  | 描述                                                                             |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
 | <span id="WTNCA_NODRAWCAPTION"></span><span id="wtnca_nodrawcaption"></span><dl> <dt>**WTNCA \_NODRAWCAPTION**</dt> <dt>0x00000001</dt> </dl> | 防止繪製視窗標題。<br/>                                |
 | <span id="WTNCA_NODRAWICON"></span><span id="wtnca_nodrawicon"></span><dl> <dt>**WTNCA \_NODRAWICON**</dt> <dt>0x00000002</dt> </dl>          | 防止繪製系統圖示。<br/>                                   |
@@ -45,8 +45,8 @@ ms.locfileid: "104105941"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Uxtheme。h</dt> </dl> |
 
 

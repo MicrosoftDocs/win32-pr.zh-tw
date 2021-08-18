@@ -4,12 +4,12 @@ ms.assetid: 479abaea-f310-4139-9967-f24b03c34558
 title: 如何設定影片捕捉格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c27cb9c20cbf989ab5db3564733dc96860c7bcb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0968560772345bea91f5acfb79e7157a6376f388a5c0065634a273196b7552cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974397"
 ---
 # <a name="how-to-set-the-video-capture-format"></a>如何設定影片捕捉格式
 
@@ -152,7 +152,7 @@ done:
 畫面播放速率的處理方式與其他格式屬性稍有不同。 如需詳細資訊，請參閱 [如何設定影片捕獲畫面播放速率](how-to-set-the-video-capture-frame-rate.md)。
 
 > [!Note]  
-> 在某些裝置中，格式清單會包含每個格式的重複專案。 例如，如果裝置支援15種不同的捕捉格式，此清單將包含30個專案。 在每個配對中，其中一種媒體類型會有一個與 **format \_ VideoInfo** 相同的 VideoInfo2 [**\_ \_ \_ \_ 類別**](mf-mt-am-format-type-attribute.md)，而另一個則是具有等於 format **\_** 格式的 **mf \_ mt \_ am \_ 格式 \_** 類型。  (這兩個值會定義在標頭檔的 uuid. h. ) 第二種類型也可能包含額外的色彩資訊 ([擴充色彩資訊](extended-color-information.md)) 或顯示不同的值，以交錯 ([**MF \_ MT \_ 交錯 \_ 模式**](mf-mt-interlace-mode-attribute.md)) 。 這些重複的類型存在，可支援較舊的 DirectShow 應用程式。 在媒體基礎應用程式中，每當列出重複的 **格式 \_ VideoInfo2** 類型時，應該忽略 **format \_ VideoInfo** type。
+> 在某些裝置中，格式清單會包含每個格式的重複專案。 例如，如果裝置支援15種不同的捕捉格式，此清單將包含30個專案。 在每個配對中，其中一種媒體類型會有一個與 **format \_ VideoInfo** 相同的 VideoInfo2 [**\_ \_ \_ \_ 類別**](mf-mt-am-format-type-attribute.md)，而另一個則是具有等於 format **\_** 格式的 **mf \_ mt \_ am \_ 格式 \_** 類型。  (這兩個值會定義在標頭檔的 uuid. h. ) 第二種類型也可能包含額外的色彩資訊 ([擴充色彩資訊](extended-color-information.md)) 或顯示不同的值，以交錯 ([**MF \_ MT \_ 交錯 \_ 模式**](mf-mt-interlace-mode-attribute.md)) 。 這些重複的類型存在，可支援舊版 DirectShow 應用程式。 在媒體基礎應用程式中，每當列出重複的 **格式 \_ VideoInfo2** 類型時，應該忽略 **format \_ VideoInfo** type。
 
  
 

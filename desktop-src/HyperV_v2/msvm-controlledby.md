@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7986ffb842f7a1a104a0a8d846c1b6ee47a21523
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b08cf97c54363009e839ea78fe139c6c8a1bdd81cac07182d019d3d00857dee4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130598"
 ---
 # <a name="msvm_controlledby-class"></a>Msvm \_ ControlledBy 類別
 
@@ -222,8 +222,8 @@ class Msvm_ControlledBy : CIM_ControlledBy
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -240,7 +240,7 @@ class Msvm_ControlledBy : CIM_ControlledBy
 [**CIM \_ ControlledBy**](/windows/desktop/CIMWin32Prov/cim-controlledby)
 </dt> <dt>
 
-[儲存類別](storage-classes.md)
+[儲存體類](storage-classes.md)
 </dt> </dl>
 
  

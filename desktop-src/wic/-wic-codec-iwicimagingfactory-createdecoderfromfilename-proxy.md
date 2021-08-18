@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 3497d71475198d035a496909e65c47df6c5f8b8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dabc24d17fdac881537d45e47a8cc6808a1cf805ac14025d7fdfcfa50eea8500
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056628"
 ---
 # <a name="iwicimagingfactory_createdecoderfromfilename_proxy-function"></a>IWICImagingFactory \_ CreateDecoderFromFilename \_ Proxy 函式
 
@@ -48,11 +48,11 @@ HRESULT IWICImagingFactory_CreateDecoderFromFilename_Proxy(
 *pFactory* \[在\]
 </dt> <dd>
 
-類型： **IWICImagingFactory \** _
+類型： **IWICImagingFactory \***
 
 </dd> <dt>
 
-_wzFilename * \[ in\]
+*wzFilename* \[在\]
 </dt> <dd>
 
 類型： **LPCWSTR**
@@ -64,13 +64,13 @@ _wzFilename * \[ in\]
 *pguidVendor* \[在\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
 適用于此解碼器的廠商 GUID。
 
 </dd> <dt>
 
-_dwDesiredAccess * \[ in\]
+*dwDesiredAccess* \[在\]
 </dt> <dd>
 
 類型： **DWORD**
@@ -113,8 +113,8 @@ _dwDesiredAccess * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

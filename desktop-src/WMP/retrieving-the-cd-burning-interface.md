@@ -8,19 +8,19 @@ keywords:
 - 物件模型，CD 燒錄
 - Windows Media Player ActiveX 控制項、CD 燒錄
 - ActiveX 控制項，CD 燒錄
-- Windows Media Player 的行動 ActiveX 控制項、CD 燒錄
-- Windows Media Player Mobile、CD 燒錄
+- Windows Media PlayerMobile ActiveX control、CD 燒錄
+- Windows Media Player行動電話、CD 燒錄
 - CD 燒錄，正在抓取 IWMPCdromCollection 介面
 - 燒錄 Cd，正在抓取 IWMPCdromCollection 介面
 - IWMPCdromCollection 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b63763f9dd99bbaf88ae099edb53ba072cd1a25e
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 84013d5df4244fc30c9cb52e3447d15f60e559befe1223f0964934dd8ca1e1cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104023157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123198"
 ---
 # <a name="retrieving-the-cd-burning-interface"></a>擷取 CD 燒錄介面
 
@@ -91,9 +91,9 @@ HRESULT CMainDlg::GetCdromBurnInterface (long lIndex)
 [**IWMPCdromCollection 介面**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

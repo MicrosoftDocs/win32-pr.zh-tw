@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2056859bdce13dfdc28d4cbbf8716925d5bc1cfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85537c0264768c8e524fb25436e0c345d0485143426f0d22555e06e45af7e93a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944798"
 ---
 # <a name="jetgetloginfoinstance-function"></a>JetGetLogInfoInstance 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetgetloginfoinstance-function"></a>JetGetLogInfoInstance 函式
 
 **JetGetLogInfoInstance** 函式會在 [JetBeginExternalBackup](./jetbeginexternalbackup-function.md)所起始的備份期間使用，以查詢資料庫修補檔的名稱和交易記錄檔的名稱，這些檔案應該會成為備份檔案集的一部分。 之後可能會使用 [JetOpenFile](./jetopenfile-function.md) 來開啟這些檔案，並使用 [JetReadFile](./jetreadfile-function.md)進行讀取。
 
-**Windows xp： JetGetLogInfoInstance** 是在 windows xp 中引進的。
+**Windows xp： JetGetLogInfoInstance** 是在 Windows xp 引進。
 
 ```cpp
     JET_ERR JET_API JetGetLogInfoInstance(
@@ -55,7 +55,7 @@ _**適用于：** Windows |Windows Server_
 
 針對 Windows 2000，無法使用接受此參數的 API 變體，因為只支援一個實例。 在此情況下，這種全域實例的使用是隱含的。
 
-若為 Windows XP 和更新版本，則只有在引擎處於舊版模式時，才會呼叫不接受這個參數的 API 變體 (Windows 2000 相容性模式) 只支援一個實例。 否則，作業將會失敗，並 JET_errRunningInMultiInstanceMode。
+針對 Windows XP 和更新版本，只有在引擎處於舊版模式時，才會呼叫不接受這個參數的 API 變體 (Windows 2000 相容性模式) 只支援一個實例。 否則，作業將會失敗，並 JET_errRunningInMultiInstanceMode。
 
 *szz*
 
@@ -73,7 +73,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -83,7 +83,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -109,7 +109,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidParameter</p></td>
-<td><p>提供的其中一個參數包含未預期的值，或包含的值在與另一個參數的值結合時並沒有意義。 當指定的實例控制碼無效 (Windows XP 和更新版本) 時， <a href="gg294055(v=exchg.10).md">JetGetLogInfo</a> 就會發生這種情況。</p></td>
+<td><p>提供的其中一個參數包含未預期的值，或包含的值在與另一個參數的值結合時並沒有意義。 當指定的實例控制碼無效 (Windows XP 和更新版本) 時， <a href="gg294055(v=exchg.10).md">JetGetLogInfo</a>就會發生這種情況。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errNoBackup</p></td>
@@ -125,7 +125,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>作業失敗，因為嘗試使用舊版模式中的引擎 (Windows 2000 相容性模式) 在事實中，如果有多個實例存在，則只支援一個實例。</p></td>
+<td><p>作業失敗，因為嘗試使用舊版模式中的引擎 (Windows 2000 相容性模式) 只有當有多個實例存在時，才支援一個實例。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>
@@ -157,7 +157,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

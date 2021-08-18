@@ -4,12 +4,12 @@ ms.assetid: c8aa84a8-5525-4a12-898f-63dc30113b13
 title: 搜尋檔案的所有固定磁片磁碟機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83b79c7f2999d4ee7937790dc68470210f1d4b2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d460cd55fe54a98c6a02e23e49af9ea9838c7651262fa03f868bdb76acc2d506
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041248"
 ---
 # <a name="searching-all-fixed-drives-for-a-file"></a>搜尋檔案的所有固定磁片磁碟機
 

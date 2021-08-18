@@ -4,12 +4,12 @@ ms.assetid: eb671f34-7366-4182-b72e-0dd7830751e0
 title: DestDistanceRef 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bba6e04bee00aaed868fcc02059403fe479f8cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0d7973a3be36f9a7624ed8679f364c898d69b622de067bdd2595f3b919a964f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964977"
 ---
 # <a name="systemgpsdestdistanceref-photo-metadata-policy"></a>DestDistanceRef 相片中繼資料原則
 

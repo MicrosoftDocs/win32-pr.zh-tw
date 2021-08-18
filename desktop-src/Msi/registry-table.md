@@ -4,12 +4,12 @@ ms.assetid: 809ffd02-cf97-42d8-aed9-c13a14dcd8b4
 title: 登錄資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b16cb2084716ea8cb9830056808e9c6be7da667f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6b76fbc52357cdba68dfdcdda37e6edb3032086bf101788db0cdc69c0281264
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128988"
 ---
 # <a name="registry-table"></a>登錄資料表
 
@@ -24,7 +24,7 @@ ms.locfileid: "103944152"
 | 登錄    | [識別碼](identifier.md) | Y   | N        |
 | Root        | [整數](integer.md)       | N   | N        |
 | 答案         | [RegPath](regpath.md)       | N   | N        |
-| Name        | [格式 化](formatted.md)   | N   | Y        |
+| 名稱        | [格式 化](formatted.md)   | N   | Y        |
 | 值       | [格式 化](formatted.md)   | N   | Y        |
 | 元件\_ | [識別碼](identifier.md) | N   | N        |
 

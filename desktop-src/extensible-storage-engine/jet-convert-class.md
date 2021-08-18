@@ -24,18 +24,18 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 427361962ee2161e4f4c7448eb9ef21b7369e36c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee601d51acb75e4a6338952837e980d0e09da7d0cb06431a4bd197f04d495693
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017598"
 ---
 # <a name="jet_convert-class"></a>JET_CONVERT 類別
 
 **注意：此 API 現已淘汰。**
 
-JetCompact (的轉換選項 [JET_SESID、字串、字串、JET_PFNSTATUS、JET_CONVERT、CompactGrbit) ](./api.jetcompact-method.md)。 這項功能已在 Windows Server 2003 中停用。
+JetCompact (的轉換選項 [JET_SESID、字串、字串、JET_PFNSTATUS、JET_CONVERT、CompactGrbit) ](./api.jetcompact-method.md)。 Windows Server 2003 已停止這項功能。
 
 ## <a name="inheritance-hierarchy"></a>繼承階層
 

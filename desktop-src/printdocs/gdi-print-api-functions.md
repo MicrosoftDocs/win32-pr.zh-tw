@@ -4,12 +4,12 @@ ms.assetid: cf3f4a61-8858-4c91-a778-d2a65998ef70
 title: GDI 列印 API 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 125e5feef16a64433dadd11e830a09241877a453
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcdb6119a56524d3e94c1c1e35f3f1a95bfb86d6e9a23343b07d4250bfc178eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971507"
 ---
 # <a name="gdi-print-api-functions"></a>GDI 列印 API 函式
 

@@ -4,16 +4,16 @@ ms.assetid: a7e7a07d-239e-432e-9984-7763f11c59ce
 title: 'ITMediaCollection 介面 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21305e1d1729437b53c380b7712feee3827b3ba8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2425ae89f376d5cb2d7cc23e70abd33f87750d3d1b5343a17c8ecb05d7de760d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034608"
 ---
 # <a name="itmediacollection-interface"></a>ITMediaCollection 介面
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **ITMediaCollection** 介面可讓您存取 SDP (RFC 2327) 會議描述中的一組媒體資訊。 [**ITMedia**](itmedia.md)介面會描述 SDP 中的每個媒體描述。 **ITMediaCollection** 可讓您操作一組 SDP 的 **ITMedia** 資訊，包括：
 
@@ -36,7 +36,7 @@ ms.locfileid: "106997441"
 
 | 方法                                                            | 描述                                                            |
 |:------------------------------------------------------------------|:-----------------------------------------------------------------------|
-| [**創建**](itmediacollection-create.md)                        | 使用預設屬性建立新的媒體，並將其傳回。<br/> |
+| [**建立**](itmediacollection-create.md)                        | 使用預設屬性建立新的媒體，並將其傳回。<br/> |
 | [**刪除**](itmediacollection-delete.md)                        | 刪除對應至指定之索引的媒體。<br/>     |
 | [**取得 \_ \_ NewEnum**](itmediacollection-get--newenum.md)          | 傳回集合的列舉程式。<br/>                   |
 | [**取得 \_ 計數**](itmediacollection-get-count.md)                 | 取得會話中的媒體數目。<br/>                    |

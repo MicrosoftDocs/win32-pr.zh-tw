@@ -14,12 +14,12 @@ api_type:
 api_location:
 - FrameDynOS.dll
 - FrameDyn.dll
-ms.openlocfilehash: e60f24023a9fc704f331d1d071e673720bfdc43e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eab73e20659997647d8beb11421d79ecb2944038b2ac37ea1a24588651324aef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120918"
 ---
 # <a name="cinstancesetcharsplat-methods"></a>CInstance：： SetCharSplat 方法
 

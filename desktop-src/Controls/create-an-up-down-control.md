@@ -1,21 +1,21 @@
 ---
 title: 如何建立 Up-Down 控制項
-description: 您可以藉由呼叫 CreateWindowEx 函式，並傳遞 \_ Windows 類別參數 lpClassName 的值上下按鈕類別，來建立新的控制項。
+description: 您可以藉由呼叫 CreateWindowEx 函式，並傳遞 \_ Windows 類別參數 lpClassName 的值上下按鈕類別，來建立最新的控制項。
 ms.assetid: 9B7A5F8B-4EE5-413B-A60C-800758DD1120
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 427361d7748270ad9c689867aa8100e95afbd6b0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0089941cd147f0c94dc86f2283fe2c8fa10ba5e141d4a8ef99d689a991668ce7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062958"
 ---
 # <a name="how-to-create-up-down-controls"></a>如何建立 Up-Down 控制項
 
-您可以藉由呼叫 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa)函式，並傳遞 Windows 類別參數 *LpClassName* 的值 [**上下按鈕 \_ 類別**](common-control-window-classes.md)，來建立新的控制項。
+您可以藉由呼叫 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa)函式，並傳遞 Windows 類別參數 *lpClassName* 的值 [**上下按鈕 \_ 類別**](common-control-window-classes.md)，來建立最新的控制項。
 
-**注意**   [**CreateUpDownControl**](/windows/desktop/api/Commctrl/nf-commctrl-createupdowncontrol)函式已被取代。 您應該改為使用 `CreateWindowEx` 函數。
+**注意**  [**CreateUpDownControl**](/windows/desktop/api/Commctrl/nf-commctrl-createupdowncontrol) 函式已被取代。 您應該改為使用 `CreateWindowEx` 函數。
 
 本主題中所述的程式碼範例會使用上下按鈕控制項來驅動進度列。
 
@@ -23,12 +23,12 @@ ms.locfileid: "104093415"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -105,7 +105,7 @@ icex.dwSize = sizeof(INITCOMMONCONTROLSEX);
 > [!Note]  
 > 您只需要初始化 **dwSize** 成員一次，但您必須在每次建立通用控制項時呼叫 **InitCommonControlsEx** 函數。
 
- 
+ 
 
 ### <a name="step-4-create-a-parent-dialog-box-to-host-the-up-down-control"></a>步驟4：建立父對話方塊來裝載 Up-Down 控制項
 
@@ -593,6 +593,6 @@ HWND CreateProgBar(HWND hwndParent)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -20,12 +20,12 @@ keywords:
 - DWM (桌面視窗管理員) 、點擊測試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66a27a9b71dd2dd91cb000a352ef039de2a71cd9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0b440f475dfacc610354ce151ab0be42dbbe3069390b1efa211195252f7a3914
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741451"
 ---
 # <a name="custom-window-frame-using-dwm"></a>使用 DWM 的自訂視窗框架
 
@@ -43,13 +43,13 @@ ms.locfileid: "104024061"
 
 ## <a name="introduction"></a>簡介
 
-在 Windows Vista （含）以後版本中，應用程式視窗的非工作區的外觀 (標題列、圖示、視窗框線和標題按鈕) 由 DWM 控制。 使用 DWM Api，您可以變更 DWM 呈現視窗框架的方式。
+在 Windows Vista 和更新版本中，應用程式視窗的非工作區外觀 (標題列、圖示、視窗框線和標題按鈕) 由 DWM 控制。 使用 DWM Api，您可以變更 DWM 呈現視窗框架的方式。
 
-DWM Api 的其中一項功能，就是將應用程式框架擴充到工作區的能力。 這可讓您將用戶端 UI 元素（例如工具列）整合到框架中，讓 UI 控制項在應用程式 UI 中有更顯著的位置。 例如，windows Vista 上的 Windows Internet Explorer 7 藉由擴充框架頂端來將導覽列整合到視窗框架，如下列螢幕擷取畫面所示。
+DWM Api 的其中一項功能，就是將應用程式框架擴充到工作區的能力。 這可讓您將用戶端 UI 元素（例如工具列）整合到框架中，讓 UI 控制項在應用程式 UI 中有更顯著的位置。 例如，Windows Vista 上的 Windows Internet Explorer 7 會擴充框架的頂端，如下列螢幕擷取畫面所示，將導覽列整合到視窗框架中。
 
 ![整合至視窗框架的導覽列。](images/ie7-extendedborder-boxed.png)
 
-延伸視窗框架的功能也可讓您建立自訂框架，同時維持視窗的外觀和操作。 例如，在提供標準的最小化、最大化和關閉標題按鈕時，Microsoft Office Word 2007 會在自訂框架內繪製 Office 按鈕和快速存取工具列，如下列螢幕擷取畫面所示。
+延伸視窗框架的功能也可讓您建立自訂框架，同時維持視窗的外觀和操作。 例如，在提供標準最小化、最大化和關閉的標題按鈕時，Microsoft Office Word 2007 會在自訂框架內繪製 Office 按鈕和快速存取工具列，如下列螢幕擷取畫面所示。
 
 ![word 2007 中的 office 按鈕和快速存取工具列](images/word2007-customborder-boxed.png)
 
@@ -147,7 +147,7 @@ if (message == WM_CREATE)
 > [!Note]  
 > 在自訂框架中繪圖時，請小心放置 UI 控制項。 由於整個視窗是您的用戶端區域，因此，如果您不想要讓 UI 控制項在擴充框架中出現，您必須調整每個畫面格寬度的 UI 控制項位置。
 
- 
+ 
 
 ## <a name="enabling-hit-testing-for-the-custom-frame"></a>啟用自訂框架的點擊測試
 
@@ -503,6 +503,6 @@ LRESULT HitTestNCA(HWND hWnd, WPARAM wParam, LPARAM lParam)
 [桌面視窗管理員概觀](dwm-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

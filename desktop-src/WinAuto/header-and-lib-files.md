@@ -4,12 +4,12 @@ description: 下列標頭檔和程式庫檔案支援 Microsoft Active Accessibil
 ms.assetid: 825c551c-9a69-456e-b9a2-2c602814dc5b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c2e5a863c07c18aaa3fab5cd79ef902b72f4a27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab079b8a14372d5edee3ce49bc7b44135f65413e0b8c59b81736eaf1918d9ea1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122208"
 ---
 # <a name="header-and-lib-files"></a>標頭檔和 Lib 檔案
 
@@ -28,11 +28,11 @@ ms.locfileid: "104300599"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

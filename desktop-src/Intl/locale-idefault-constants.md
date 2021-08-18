@@ -4,12 +4,12 @@ ms.assetid: 4fa8b5f3-8c01-44fb-b6fd-8dbf38e3d361
 title: LOCALE_IDEFAULT * 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf9c440c27a2fe551eae7d03d66cc43b500e8f68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0524ea64d9924439e14ae6cb3cf16fed8a5f97ffb1e95d5f7fea98d5b6c61329
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106778"
 ---
 # <a name="locale_idefault-constants"></a>地區設定 \_ IDEFAULT \* 常數
 

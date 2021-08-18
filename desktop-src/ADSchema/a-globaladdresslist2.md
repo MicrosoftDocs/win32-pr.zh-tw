@@ -1,6 +1,6 @@
 ---
 title: Global-Address-List2 屬性
-description: '這個屬性是在 Microsoft Exchange 容器上用來將新建立的全域通訊清單的分辨名稱儲存 (GAL) '
+description: '這個屬性是在 Microsoft Exchange 容器上用來儲存新建立的全域通訊清單 (GAL 的分辨名稱) '
 ms.assetid: edccbdb5-83c4-4832-86ca-056c78f388f6
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4064498ff6f182fe74c355fa345994d8330ef31e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f913e81a10cc392fcf330139023c3a210cc762709e2570189ca26d8a74641e21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106966987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705978"
 ---
 # <a name="global-address-list2-attribute"></a>Global-Address-List2 屬性
 
-這個屬性是在 Microsoft Exchange 容器上用來將新建立的全域通訊清單的分辨名稱儲存 (GAL) 
+這個屬性是在 Microsoft Exchange 容器上用來儲存新建立的全域通訊清單 (GAL 的分辨名稱) 
 
 
 

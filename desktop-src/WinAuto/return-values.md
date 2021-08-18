@@ -1,17 +1,17 @@
 ---
-title: " (Windows 協助工具功能傳回值) "
+title: '傳回值 (Windows 協助工具功能) '
 description: 本主題說明最常見的傳回值，以及您可能較不常看到的其他傳回值。
 ms.assetid: e6deca92-42da-41ab-bfdb-75cbce3022bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd0f073c401682eb78d9fdf9270709a84ed77ae2
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 71595f7a21d932ee961f9fa5f2a9443cf4d63e38de42f3d5b8c89fa8e9f84e83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122058"
 ---
-# <a name="return-values-windows-accessibility-features"></a> (Windows 協助工具功能傳回值) 
+# <a name="return-values-windows-accessibility-features"></a>傳回值 (Windows 協助工具功能) 
 
 本主題說明最常見的傳回值，以及您可能較不常看到的其他傳回值。
 

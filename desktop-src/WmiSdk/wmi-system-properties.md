@@ -1,20 +1,20 @@
 ---
-description: Windows Management Instrumentation (WMI) 會定義一組與類別的所有類別和實例相關聯的系統屬性。
+description: WindowsManagement Instrumentation (WMI) 會定義一組與類別的所有類別和實例相關聯的系統屬性。
 ms.assetid: e812c0cb-3e08-4cac-8d05-2cd7abc922d1
 ms.tgt_platform: multiple
 title: WMI 系統屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3ee541d9de0d37c9aa1eae4ded07d3cb70ff1bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3471665e2e818037bb831c8d8ab39bbe0d56e01912afb1a3399b4055d3670a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120658"
 ---
 # <a name="wmi-system-properties"></a>WMI 系統屬性
 
-Windows Management Instrumentation (WMI) 會定義一組與類別的所有類別和實例相關聯的系統屬性。 和系統類別一樣，系統屬性名稱會以雙底線開頭，與應用程式或提供者所建立的屬性區別，其不能以單一或雙底線開頭。 識別系統屬性的另一種方式是使用 [**IWbemClassObject：： Get**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-get) 方法。
+WindowsManagement Instrumentation (WMI) 會定義一組與類別的所有類別和實例相關聯的系統屬性。 和系統類別一樣，系統屬性名稱會以雙底線開頭，與應用程式或提供者所建立的屬性區別，其不能以單一或雙底線開頭。 識別系統屬性的另一種方式是使用 [**IWbemClassObject：： Get**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-get) 方法。
 
 系統屬性可以隨時使用，但值可能是 **Null**。 **Null** 表示屬性不會套用至特定物件。 不過，所有類別或實例的所有時間都可能無法使用系統屬性。
 

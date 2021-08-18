@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 44aeb41ab7dcd271f8c84bff4eb8b5525ac66e70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ac46fd69d4d91870dcd288190baac275b37a5f093b87646c17d19e479bd710e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968007"
 ---
 # <a name="smc_setsfobject-message"></a>SMC \_ SETSFOBJECT 訊息
 
@@ -71,7 +71,7 @@ SMC_GETOBJECT
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                              |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Shobjidl.h。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
 
 
 

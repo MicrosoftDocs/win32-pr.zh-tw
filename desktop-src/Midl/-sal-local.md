@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03263b94b809407d1c3e55c2f3dacc5e10684bc1
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 666401cca482846fc2e6a9d5851a4da9d2d362279c9bc1496ab672a94ac9b9bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106969493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014086"
 ---
 # <a name="sal_local-switch"></a>/sal \_ 本機參數
 
@@ -48,9 +48,9 @@ midl /sal /sal_local
 [**\[注釋\]**](annotate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

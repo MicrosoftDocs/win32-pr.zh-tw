@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e225afcbe8b373b22584eaa3d9fcb09e1eff29c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 496fa0fcae3cba51228b37b5f06eb9b06c416322aad22f77be542274088eae32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712948"
 ---
 # <a name="devicedeparture-event"></a>DeviceDeparture 事件
 
@@ -44,6 +44,6 @@ void DeviceDeparture();
 
 若要處理此事件的通知，請使用 [**add \_ DeviceDeparture**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicecontroller-add_devicedeparture)方法來註冊 [**DeviceControllerFinderHandler**](/previous-versions/windows/desktop/legacy/hh828843(v=vs.85))事件處理常式函式。 若要取消註冊事件處理常式，請使用 [**remove \_ DeviceDeparture**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicecontroller-remove_devicedeparture) 方法。
 
- 
+ 
 
- 
+ 

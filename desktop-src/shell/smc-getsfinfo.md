@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f3a02b61565eb08f623978900d6ce47e30eea85e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff74e59d0ef445a74d1141950b2b10e79ebce5502a02ec38c446bddc7317a885
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968077"
 ---
 # <a name="smc_getsfinfo-message"></a>SMC \_ GETSFINFO 訊息
 
@@ -61,7 +61,7 @@ SMC_GETINFO
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                              |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Shobjidl.h。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
 
 
 

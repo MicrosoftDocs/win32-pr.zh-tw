@@ -4,12 +4,12 @@ ms.assetid: b9b6ca95-b986-4de7-bd28-994a5125ad05
 title: EncryptMessage (Kerberos) 函數
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 9413bc61739d67d7462e7e1257727e0401967ff2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52ca8fd4d0806db717ae29bdd959e472d72f74ca812e93bcaf3929a488dd4fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008336"
 ---
 # <a name="encryptmessage-kerberos-function"></a>EncryptMessage (Kerberos) 函數
 
@@ -78,7 +78,7 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 如果函式失敗，則會傳回下列其中一個錯誤碼。
 
-| 傳回碼                                                                                                    | Description                                                                                                                                                                                                                                   |
+| 傳回碼                                                                                                    | 描述                                                                                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC \_ E \_ 緩衝區 \_ 太 \_ 小**</dt> </dl>      | 輸出緩衝區太小。 如需詳細資訊，請參閱＜備註＞。                                                                                                                                                                 |
 | <dl> <dt>**SEC \_ E \_ 內容已 \_ 過期**</dt> </dl>        | 應用程式參考的內容已關閉。 正確撰寫的應用程式應該不會收到此錯誤。                                                                                               |
@@ -97,7 +97,7 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 > [!Note]  
 > 您必須依照顯示的順序提供這些緩衝區。
 
-| 緩衝區類型                           | Description                                                                                                                    |
+| 緩衝區類型                           | 描述                                                                                                                    |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | 之 SECBUFFER \_ 資料流程 \_ 標頭<  | 內部使用。 不需要初始化。                                                                       |
 | 之 SECBUFFER \_ 資料            | 包含要加密的 [*純文字*](../secgloss/s-gly.md) 訊息。 |
@@ -106,14 +106,14 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 為了達到最佳效能，應該從連續的記憶體配置 *pMessage* 結構。
 
-**WINDOWS XP：** 此函數也稱為 **SealMessage**。 應用程式現在應該只使用 **EncryptMessage (Kerberos)** 。
+**Windows XP：** 此函數也稱為 **SealMessage**。 應用程式現在應該只使用 **EncryptMessage (Kerberos)** 。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |--------------------------|-------------------------------------------|
-| 最低支援的用戶端 | \[僅限 WINDOWS XP desktop 應用程式\]          |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\] |
+| 最低支援的用戶端 | Windows\[僅限 XP desktop 應用程式\]          |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\] |
 | 標頭                   | Sspi (包含 Security .h)                |
 | 程式庫                  | Secur32 .lib                               |
 | DLL                      | Secur32.dll                               |

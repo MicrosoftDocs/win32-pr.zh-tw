@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1cf033ad4341d7e93f2068f41ed1bde482d13ad4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07c5ee1b124ac348d5b2fbf4b49061220a64dce50e1e587c5ccc2bee09e143a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719098"
 ---
 # <a name="jetindexcolumngrbit-enumeration"></a>JetIndexColumnGrbit 列舉
 

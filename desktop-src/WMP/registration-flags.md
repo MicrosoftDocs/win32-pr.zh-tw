@@ -11,12 +11,12 @@ keywords:
 - 登錄，UI 外掛程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac609b45866cd5f18edf61dffc2d3b7ac3c397ac
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: afbd34ed98236f8a02c936d52b092b82be60b986fb7b16edce1f3b1cbb91d6a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002808"
 ---
 # <a name="registration-flags"></a>註冊旗標
 
@@ -35,10 +35,10 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\UIPlugins\{ClassId}
 
 
 
-| 名稱                     | 類型       | Description                                                                                                                                                                               |
+| 名稱                     | 類型       | 描述                                                                                                                                                                               |
 |--------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 功能             | REG \_ DWORD | DWORD 值，其中至少包含一個外掛程式類型旗標，該旗標可以使用二進位或作業結合一或多個外掛程式功能旗標。                             |
-| Description              | REG \_ SZ    | 字串，其中包含外掛程式的描述。 外掛程式 wizard 會建立字串資源，並使用此值的 res 通訊協定) 來提供資源 (的 URL。         |
+| 描述              | REG \_ SZ    | 字串，其中包含外掛程式的描述。 外掛程式 wizard 會建立字串資源，並使用此值的 res 通訊協定) 來提供資源 (的 URL。         |
 | FriendlyName             | REG \_ SZ    | 字串，包含外掛程式的使用者可讀取名稱。 外掛程式 wizard 會建立字串資源，並使用此值的 res 通訊協定) 來提供資源 (的 URL。 |
 | UninstallPath (選用)  | REG \_ SZ    | 字串，包含卸載外掛程式之可執行檔的路徑。                                                                                                        |
 
@@ -86,7 +86,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\UIPlugins\{ClassId}
 
 
 
-| Name                                    | 描述                               |
+| 名稱                                    | 描述                               |
 |-----------------------------------------|-------------------------------------------|
 | **外掛程式 \_ INSTALLREGKEY**               | 外掛程式登錄機碼的位置。 |
 | **外掛程式 \_ INSTALLREGKEY \_ FRIENDLYNAME** | 易記名稱值的名稱。      |

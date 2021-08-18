@@ -4,12 +4,12 @@ ms.assetid: 04DEFC2A-6870-4C22-B55D-5514C87C1908
 title: 'MFNETSOURCE_PEERMANAGER 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f91f4b244d82a990fb1afd46ffe5eb3799b3c6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9933059fa151ced5aa11bb91185c74ca5eb6507f264c622a65e2f112e0b52369
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940228"
 ---
 # <a name="mfnetsource_peermanager-property"></a>MFNETSOURCE \_ PEERMANAGER 屬性
 
@@ -37,8 +37,8 @@ VT \_ LPWSTR
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

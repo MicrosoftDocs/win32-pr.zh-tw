@@ -8,12 +8,12 @@ keywords:
 - ICCompress 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b8f59a163a9b5a74d2d2fe984417069985fa86a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bf638467e3685b24a65cd47492faed6660e77e5c49864a339a3874eb81e9b5af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038678"
 ---
 # <a name="image-data-compression"></a>Image-Data 壓縮
 
@@ -31,19 +31,19 @@ ms.locfileid: "104375080"
 > [!Note]  
 > 若要將播放期間的影像和音訊降低效能降至最低，請避免壓縮 AVI 檔案一次以上。 在編輯系統中結合未壓縮的部分影片，然後壓縮最終產品。
 
- 
+ 
 
 ## <a name="compressor-and-compression-format-selection"></a>壓縮和壓縮格式選取專案
 
-如果您想要壓縮資料，而您的應用程式需要特定的輸出格式，請將 [**ICM \_ 壓縮 \_ 查詢**](icm-compress-query.md) 訊息 (，或使用 [**ICCompressQuery**](/windows/desktop/api/Vfw/nf-vfw-iccompressquery) 宏) 來查詢壓縮程式，以判斷它是否支援輸入和輸出格式。
+如果您想要壓縮資料，而您的應用程式需要特定的輸出格式，請傳送 [**ICM \_ 壓縮 \_ 查詢**](icm-compress-query.md)訊息 (或使用 [**ICCompressQuery**](/windows/desktop/api/Vfw/nf-vfw-iccompressquery)宏) 來查詢壓縮程式，以判斷它是否支援輸入和輸出格式。
 
-如果輸出格式對您的應用程式而言並不重要，您只需要尋找可以處理輸入格式的壓縮程式。 若要判斷壓縮程式是否可以處理輸入格式，您可以傳送 **ICM \_ 壓縮 \_ 查詢**，為 *lParam* 參數指定 **Null** 。 此訊息不會將輸出格式傳回給您的應用程式。 您的應用程式可以藉由傳送 [**ICM \_ 壓縮 \_ 取得 \_ 格式**](icm-compress-get-format.md) 訊息 (或使用 [**ICCompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformatsize) 宏) ，判斷指定壓縮格式的資料所需的緩衝區大小。 您也可以藉由傳送 ICM \_ 壓縮 \_ 取得 \_ 格式 (或 [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) 宏) 來取得格式資料。
+如果輸出格式對您的應用程式而言並不重要，您只需要尋找可以處理輸入格式的壓縮程式。 若要判斷壓縮程式是否可以處理輸入格式，您可以傳送 **ICM \_ 壓縮 \_ 查詢**，為 *lParam* 參數指定 **Null** 。 此訊息不會將輸出格式傳回給您的應用程式。 您的應用程式可以藉由傳送 [**ICM \_ 壓縮 \_ 取得 \_ 格式**](icm-compress-get-format.md)訊息 (或使用 [**ICCompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformatsize)宏) ，判斷資料指定壓縮格式所需的緩衝區大小。 您也可以傳送 ICM \_ 壓縮 \_ 取得 \_ 格式 (或 [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat)宏) 來取得格式資料。
 
-如果您想要判斷壓縮程式可能需要壓縮的最大緩衝區，請傳送 [**ICM \_ 壓縮 \_ 取得 \_ 大小**](icm-compress-get-size.md) 訊息 (或使用 [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize) 宏) 。 您可以使用 [**ICSendMessage**](/windows/desktop/api/Vfw/nf-vfw-icsendmessage) 函式所傳回的位元組數目，為後續的影像壓縮配置緩衝區。
+如果您想要判斷壓縮程式可能需要壓縮的最大緩衝區，請傳送 [**ICM \_ 壓縮 \_ 取得 \_ 大小**](icm-compress-get-size.md)的訊息 (或使用 [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize)宏) 。 您可以使用 [**ICSendMessage**](/windows/desktop/api/Vfw/nf-vfw-icsendmessage) 函式所傳回的位元組數目，為後續的影像壓縮配置緩衝區。
 
 ## <a name="compressor-initialization"></a>壓縮的初始化
 
-當您的應用程式選取可以處理其所需之輸入和輸出格式的壓縮程式之後，您可以使用 [**ICM \_ 壓縮 \_ 開始**](icm-compress-begin.md) 訊息 (，或使用 [**ICCompressBegin**](/windows/desktop/api/Vfw/nf-vfw-iccompressbegin) 宏) 來初始化壓縮程式。 此訊息需要壓縮的控制碼以及輸入和輸出格式。
+當您的應用程式選取可以處理其所需之輸入和輸出格式的壓縮程式之後，您可以使用 [**ICM \_ 壓縮 \_ 開始**](icm-compress-begin.md)訊息 (或使用 [**ICCompressBegin**](/windows/desktop/api/Vfw/nf-vfw-iccompressbegin)宏) 來初始化壓縮程式。 此訊息需要壓縮的控制碼以及輸入和輸出格式。
 
 ## <a name="data-compression"></a>資料壓縮
 
@@ -56,12 +56,12 @@ ms.locfileid: "104375080"
 > [!Note]  
 > 您的應用程式必須配置儲存未壓縮和壓縮資料的結構和緩衝區。 如果壓縮程式支援時態壓縮，則您的應用程式也必須配置結構和緩衝區，以保存先前資訊框架的格式和資料。
 
- 
+ 
 
 ## <a name="ending-compression"></a>結束壓縮
 
-當您的應用程式壓縮資料之後，它就可以使用 [**ICCompressEnd**](/windows/desktop/api/Vfw/nf-vfw-iccompressend) 宏通知壓縮程式已完成。 如果您想要在使用此函式之後重新開機壓縮，您的應用程式必須透過傳送 [**ICM \_ 壓縮 \_ 開始**](icm-compress-begin.md) 訊息 (或使用 [**ICCompressBegin**](/windows/desktop/api/Vfw/nf-vfw-iccompressbegin) 宏) 來重新初始化壓縮程式。
+當您的應用程式壓縮資料之後，它就可以使用 [**ICCompressEnd**](/windows/desktop/api/Vfw/nf-vfw-iccompressend) 宏通知壓縮程式已完成。 如果您想要在使用這個函式之後重新開機壓縮，您的應用程式必須藉由傳送 [**ICM \_ 壓縮 \_ 開始**](icm-compress-begin.md)訊息 (或使用 [**ICCompressBegin**](/windows/desktop/api/Vfw/nf-vfw-iccompressbegin)宏) 來重新初始化壓縮程式。
 
- 
+ 
 
- 
+ 

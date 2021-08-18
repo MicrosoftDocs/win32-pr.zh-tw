@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 94f8d50aea58f556634e7f20b3880aecad72cc39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8444764af729f9536471a6a9df221cc118edb7d043112eb0b5351f45982d87f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057318"
 ---
 # <a name="cbasecontrolvideochecktargetrect-method"></a>CBaseControlVideo. CheckTargetRect 方法
 

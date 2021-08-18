@@ -4,16 +4,16 @@ description: 網路管理訊息功能會傳送訊息並維護訊息別名。 訊
 ms.assetid: 9face737-3472-4a53-97b6-e861a60ee96a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3629a281637fe4ecd0c937ce0c7504beac8e11d2
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b0b30f88b3cbe0742b3bd06f2200475aaeb0d96d0c37bff9189efd1127ddc7d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912038"
 ---
 # <a name="message-functions-network-management"></a> (網路管理) 的訊息函數
 
-\[由於不支援「警報器」和「messenger」服務，因此 Windows Vista 不支援訊息功能。\]
+\[因為不支援「警報器」和「messenger」服務，所以不支援 Windows Vista 的訊息功能。\]
 
 網路管理訊息功能會傳送訊息並維護訊息別名。 訊息函數如下所示。
 

@@ -4,12 +4,12 @@ ms.assetid: b543e949-223c-ddd3-7527-a41f3709a0c1
 title: 資源交換檔案格式 (RIFF)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d61eb45eff8db119eb73209b53b595f1cf6d243
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76c223c5a1047ffc9828a42ccc09ce4a94f5e766a1bc4851996b911f15f90995
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054328"
 ---
 # <a name="resource-interchange-file-format-riff"></a>資源交換檔案格式 (RIFF)
 
@@ -36,7 +36,7 @@ RIFF 檔案是由多個分隔資料區段（稱為 *區塊*）所組成。
 
 FOURCC 識別碼 "RIFF"、"bcp.fmt" 和 "data" 通用於所有支援的格式。 下表描述在所有支援的格式中找到的 FOURCC 識別碼。 
 
-| FOURCC 識別碼 | Description                                                                                                                                                                                                                        |
+| FOURCC 識別碼 | 描述                                                                                                                                                                                                                        |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "RIFF"            | 標準 RIFF 區塊，其中包含的檔案類型值為 "WAVE" 或 "XWMA" （在其資料區段的前四個位元組中）和檔案中的其他區塊（資料區段的其餘部分）。                                   |
 | "fmt"             | 包含音訊檔案的格式標頭。 此區塊中的資料會對應到下列其中一個結構： **WAVEFORMATEX**、 **WAVEFORMATEXTENSIBLE ADPCMWAVEFORMAT**。                                                  |

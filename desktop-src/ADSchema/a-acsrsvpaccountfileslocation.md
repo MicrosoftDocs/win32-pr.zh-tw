@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40876018ffeeacc49fe666ab1a9d69363edb73c4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2c7a2485bb49ee9ce79a500ea0f1dc4296466a3fbd6b69e73199ae768353e382
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054258"
 ---
 # <a name="acs-rsvp-account-files-location-attribute"></a>ACS-RSVP-帳戶-檔案-位置屬性
 
@@ -58,7 +58,7 @@ RSVP 帳戶檔案的目錄位置。 預設為位於預設系統目錄中的 "sys
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -79,7 +79,7 @@ RSVP 帳戶檔案的目錄位置。 預設為位於預設系統目錄中的 "sys
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -100,7 +100,7 @@ RSVP 帳戶檔案的目錄位置。 預設為位於預設系統目錄中的 "sys
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -121,7 +121,7 @@ RSVP 帳戶檔案的目錄位置。 預設為位於預設系統目錄中的 "sys
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -142,7 +142,7 @@ RSVP 帳戶檔案的目錄位置。 預設為位於預設系統目錄中的 "sys
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -163,7 +163,7 @@ RSVP 帳戶檔案的目錄位置。 預設為位於預設系統目錄中的 "sys
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |

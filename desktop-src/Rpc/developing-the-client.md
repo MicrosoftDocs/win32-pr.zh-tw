@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、開發用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10ceddedc4ccfd1d068e3452b64ed8c6b54a621d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fccc719d724ecdcc5631c5f72c5190870f864e06affd45bcce3e7f2da79fb709
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021891"
 ---
 # <a name="developing-the-client"></a>開發用戶端
 
@@ -29,8 +29,8 @@ ms.locfileid: "103933519"
 
 MyClnt \_ 檔案會進行編譯並連結至 RPC 執行時間程式庫，以及用戶端程式所需的任何其他程式庫。 結果會是名為 MyClnt.exe 的可執行用戶端程式。
 
-如果您沒有在憑證相容性模式中編譯 IDL 檔案 ([**/osf**](/windows/desktop/Midl/-osf)) ，您的用戶端程式必須提供用來配置記憶體的函式，以及用來解除配置的功能。 若為 Windows 2000 和更新版本，建議模式為 [**/Oicf**](/windows/desktop/Midl/-oi)。 如需詳細資訊，請參閱 [如何配置和解除配置記憶體](how-memory-is-allocated-and-deallocated.md)，以及 [指標和記憶體配置](pointers-and-memory-allocation.md)。
+如果您沒有在憑證相容性模式中編譯 IDL 檔案 ([**/osf**](/windows/desktop/Midl/-osf)) ，您的用戶端程式必須提供用來配置記憶體的函式，以及用來解除配置的功能。 針對 Windows 2000 和更新版本，建議模式為 [**/Oicf**](/windows/desktop/Midl/-oi)。 如需詳細資訊，請參閱 [如何配置和解除配置記憶體](how-memory-is-allocated-and-deallocated.md)，以及 [指標和記憶體配置](pointers-and-memory-allocation.md)。
 
- 
+ 
 
- 
+ 

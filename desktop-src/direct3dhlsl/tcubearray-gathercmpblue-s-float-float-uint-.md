@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9de8d578706cd0799bd2132f05b8a31b7daa8afe
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 675c58a9c952bd6901058b776cbc74cb81039c8e7601268dd8181f18068046d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117938"
 ---
 # <a name="texturecubearraygathercmpbluesfloatfloatuint-function"></a>TextureCubeArray：： GatherCmpBlue (S，float，float，uint) 函數
 
@@ -92,7 +92,7 @@ TemplateType GatherCmpBlue(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

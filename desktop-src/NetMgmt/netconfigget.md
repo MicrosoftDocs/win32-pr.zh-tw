@@ -14,17 +14,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 220cb69bd53a27a9f8572ab1e49fff0b01cd38dc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f92107e4ad7cf9f42ad80566cc8902cef987d52d85e13e4d36cddc05a24878ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911938"
 ---
 # <a name="netconfigget"></a>NetConfigGet
 
 **NetConfigGet** 函式已過時。 它隨附于與16位版本的 Windows 的相容性。 其他應用程式應該使用[登錄。](/windows/desktop/SysInfo/registry)
 
- 
+ 
 
- 
+ 

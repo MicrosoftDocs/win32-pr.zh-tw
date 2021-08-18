@@ -3,7 +3,7 @@ title: 'TBM_SETPOSNOTIFY 訊息 (Commctrl .h) '
 description: TBM_SETPOSNOTIFY 訊息：設定捲軸中滑杆的目前邏輯位置。
 ms.assetid: 02f8899a-55b0-46ae-8642-9e534ab4abf5
 keywords:
-- TBM_SETPOSNOTIFY message Windows 控制項
+- TBM_SETPOSNOTIFY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7201f3056ed05e6321ab9d9bd726edc3b4470f0b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 677ab818524614f89d16ae851376d8776a4ccca3ef7798d4ac90aa6d36962ca2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046078"
 ---
 # <a name="tbm_setposnotify-message"></a>TBM \_ SETPOSNOTIFY 訊息
 
@@ -57,8 +57,8 @@ wParam 未使用。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

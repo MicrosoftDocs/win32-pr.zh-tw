@@ -1,17 +1,17 @@
 ---
 description: 查詢的藍牙快取模式。
 ms.assetid: fb23c8ff-a878-4c79-bce0-9e82b8947d1f
-title: AepService 藍牙. CacheMode
+title: AepService。藍牙。CacheMode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dc0d9681afabfdc07870a63593ffae191987de4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39cb52b890392f98fbaf77b67bf785c8d62fbdbf39e7f3cefd5998c77e0a5a7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946088"
 ---
-# <a name="systemdevicesaepservicebluetoothcachemode"></a>AepService 藍牙. CacheMode
+# <a name="systemdevicesaepservicebluetoothcachemode"></a>AepService。藍牙。CacheMode
 
 查詢的藍牙快取模式。
 

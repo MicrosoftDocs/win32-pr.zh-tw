@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: d6b582267afceb01fd7ced7d6d46144664bb9d2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c41ea46f9226990fc28b5c629f3b36785d4bf4b0ee6ecd6e39477251f765b3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971317"
 ---
 # <a name="job_info_2-structure"></a>作業 \_ 資訊 \_ 2 結構
 
@@ -280,7 +280,7 @@ typedef struct _JOB_INFO_2 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ 作業 \_ 資訊 \_ 2w** (Unicode) 和 **\_ 工作 \_ 資訊 \_ 2a** (ANSI) <br/>                                   |
 
 

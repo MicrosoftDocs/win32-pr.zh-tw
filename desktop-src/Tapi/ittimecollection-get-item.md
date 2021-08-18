@@ -4,16 +4,16 @@ ms.assetid: 7401ae21-190d-479c-aebc-51bf8a953b94
 title: 'ITTimeCollection：： get_Item 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68b9dec40070ff3abddce0e425300f6d805c1cc9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 422e558c01172d80e97113f84745f86e8d304fba5bf5761ff9135fc9ee59c41b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012658"
 ---
 # <a name="ittimecollectionget_item-method"></a>ITTimeCollection：： get \_ Item 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ Item** 方法會使用索引，從集合中取得專案。
 

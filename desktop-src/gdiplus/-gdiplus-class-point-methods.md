@@ -4,12 +4,12 @@ ms.assetid: 10b043e8-65f6-4219-ad03-c61c719aa67a
 title: Point 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d479f39e95ec3d77a2d908c026ef05310bd3908
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 700aef4266418398ab6f572281be2dd5325f3432e2e28772694e86522a6bc8f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943878"
 ---
 # <a name="point-methods"></a>Point 方法
 

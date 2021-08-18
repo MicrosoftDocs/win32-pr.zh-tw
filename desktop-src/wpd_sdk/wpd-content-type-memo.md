@@ -4,12 +4,12 @@ ms.assetid: 6d89681c-1183-44d3-a39e-5fb343f1abbe
 title: WPD_CONTENT_TYPE_MEMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07bc36b11d88135aadeab6d58192c97a06dfbd87
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 563148d28a03558843060bedfb76a6f91ca6805c0498e8a8d66e3dd53a68ed82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006038"
 ---
 # <a name="wpd_content_type_memo"></a>WPD \_ 內容 \_ 類型 \_ 備忘錄
 

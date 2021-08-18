@@ -5,12 +5,12 @@ ms.assetid: 5cfbcce9-5f9c-4b90-ba88-c0a1dcd11dac
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d5feba3e269ce4c299056acb8561ef329f537a0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2d5e2facde803686c7a569e488604db175c67abe0728d0128b542c5bce373743
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000268"
 ---
 # <a name="remote-desktop-services-api-data-types"></a>遠端桌面服務 API 資料類型
 
@@ -34,9 +34,9 @@ ms.locfileid: "106967829"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,20 +1,20 @@
 ---
 title: WinRM 中的多重躍點支援
-description: Windows 遠端管理 (WinRM) 支援跨多部遠端電腦委派使用者認證。
+description: Windows遠端系統管理 (WinRM) 支援跨多部遠端電腦委派使用者認證。
 ms.assetid: 0e6c8966-bb05-4dfb-b154-300fa76e8d9c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f22c3d66e8605e932fe15b812f92d51350da2d69
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 76be3054fc9c0d624c206cf5a26d7788e763dfc81f1b2069f6abff8736be2388
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104467989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121758"
 ---
 # <a name="multi-hop-support-in-winrm"></a>WinRM 中的多重躍點支援
 
-Windows 遠端管理 (WinRM) 支援跨多部遠端電腦委派使用者認證。 多重躍點支援功能現在可使用 (CredSSP) 的認證安全性服務提供者進行驗證。 CredSSP 可讓應用程式將使用者的認證從用戶端電腦委派至目標伺服器。
+Windows遠端系統管理 (WinRM) 支援跨多部遠端電腦委派使用者認證。 多重躍點支援功能現在可使用 (CredSSP) 的認證安全性服務提供者進行驗證。 CredSSP 可讓應用程式將使用者的認證從用戶端電腦委派至目標伺服器。
 
 CredSSP 驗證適用于無法使用 Kerberos 委派的環境。 已新增 CredSSP 的支援，可讓使用者連線到遠端伺服器，而且能夠存取第二躍點的電腦，例如檔案共用。
 
@@ -27,19 +27,19 @@ CredSSP 驗證適用于無法使用 Kerberos 委派的環境。 已新增 CredSS
 
 ## <a name="multi-hop-support-configuration-setup-and-details"></a>多重躍點支援設定和詳細資料
 
-有多個機制可設定 WinRM 設定。 在下列程式中，會使用 [ **winrm** 公用程式] 和 [群組原則編輯器] (**gpedit.msc**) 。 您也可以使用 Windows PowerShell，針對 WinRM 啟用 CredSSP。 如需詳細的設定資訊和使用範例，請參閱 [WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Enable-WSManCredSSP?view=powershell-5.1&preserve-view=true)、 [WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Get-WSManCredSSP?view=powershell-5.1&preserve-view=true)和 [Disable WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Disable-WSManCredSSP?view=powershell-5.1&preserve-view=true) Windows PowerShell Cmdlet。
+有多個機制可設定 WinRM 設定。 在下列程式中，會使用 [ **winrm** 公用程式] 和 [群組原則編輯器] (**gpedit.msc**) 。 您也可以使用 Windows PowerShell，針對 WinRM 啟用 CredSSP。 如需詳細的設定資訊和使用範例，請參閱[WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Enable-WSManCredSSP?view=powershell-5.1&preserve-view=true)、 [WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Get-WSManCredSSP?view=powershell-5.1&preserve-view=true)和[Disable WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Disable-WSManCredSSP?view=powershell-5.1&preserve-view=true) Windows PowerShell Cmdlet。
 
 您必須在用戶端設定和遠端電腦上的服務設定中啟用 CredSSP 委派。 此外，使用 CredSSP 需要在伺服器上設定 HTTP [*或 HTTPS 接聽*](windows-remote-management-glossary.md) 程式。
 
 **若要使用適用于 WinRM 的 CredSSP 驗證設定多重躍點支援**
 
-1.  您必須在用戶端設定中啟用 CredSSP。 您可以手動或透過群組原則設定來啟用此旗標。 預設值是 **False**。 **允許 CredSSP 驗證** 原則位於下列路徑：電腦設定系統 \\ 管理範本 \\ Windows 元件 \\ Windows 遠端管理 (winrm) \\ winrm 用戶端。
+1.  您必須在用戶端設定中啟用 CredSSP。 您可以手動或透過群組原則設定來啟用此旗標。 預設值是 **False**。 [**允許 CredSSP 驗證** 原則] 位於下列路徑： [電腦設定系統 \\ 管理範本] \\ Windows 元件 \\ Windows 遠端管理 (winrm) \\ winrm 用戶端。
 
     下列命令示範如何使用 winrm 公用程式在 WinRM 用戶端上啟用 CredSSP：
 
     **winrm set winrm/config/client/auth @ {CredSSP = "true"}**
 
-2.  您必須在 WinRM 服務設定中啟用 CredSSP。 您可以手動或透過群組原則設定來啟用此旗標。 預設值是 **False**。 **允許 CredSSP 驗證** 原則位於下列路徑：電腦設定系統 \\ 管理範本 \\ Windows 元件 \\ Windows 遠端管理 (winrm) \\ winrm 服務。
+2.  您必須在 WinRM 服務設定中啟用 CredSSP。 您可以手動或透過群組原則設定來啟用此旗標。 預設值是 **False**。 [**允許 CredSSP 驗證**] 原則位於下列路徑： [電腦設定系統 \\ 管理範本] \\ Windows 元件 \\ Windows 遠端管理 (winrm) \\ winrm 服務。
 
     下列命令示範如何使用 winrm 公用程式在 WinRM 服務上啟用 CredSSP：
 
@@ -49,7 +49,7 @@ CredSSP 驗證適用于無法使用 Kerberos 委派的環境。 已新增 CredSS
 
     
 
-    | SPN                                       | Description                                                                         |
+    | SPN                                       | 描述                                                                         |
     |-------------------------------------------|-------------------------------------------------------------------------------------|
     | WSMAN/myComputer<br/>  | 在 myComputer.myDomain.com 上執行的 WinRM 伺服器。<br/>                         |
     | WSMAN/ \* . myDomain.com<br/>          | 所有在 myDomain.com 中執行的 WinRM 伺服器。<br/>                               |
@@ -59,7 +59,7 @@ CredSSP 驗證適用于無法使用 Kerberos 委派的環境。 已新增 CredSS
 
      
 
-    如需設定群組原則的詳細資訊，請參閱 [Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
+    如需設定群組原則的詳細資訊，請參閱[Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。
 
     如需 **AllowFreshCredentials** 原則的詳細資訊，請參閱群組原則編輯器提供的原則描述和 [KB 951608](https://support.microsoft.com/kb/951608)。 **AllowFreshCredentials** 原則位於下列路徑： \\ 系統管理範本 \\ 系統認證委派的電腦配置 \\ 。
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 62f1feaed786b397801bbd17d2d2d41c0ccb813d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b33e3584bb0460b798101d8062c3647b983841c77653adcffd18580eade25c6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057268"
 ---
 # <a name="cbasecontrolvideoget_bitrate-method"></a>CBaseControlVideo。取得 \_ 位元速率方法
 

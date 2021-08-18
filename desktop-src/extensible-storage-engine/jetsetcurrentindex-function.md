@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7698a12f470fadd5c43dc2afe23f95f8e51bdf66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33a4ca153081383508db8b132effeef15ba68756d66c286189abead54958dba6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115648"
 ---
 # <a name="jetsetcurrentindex-function"></a>JetSetCurrentIndex 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetsetcurrentindex-function"></a>JetSetCurrentIndex 函式
 
@@ -64,7 +64,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -74,7 +74,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -94,7 +94,7 @@ _**適用于：** Windows |Windows Server_
 <td><p>JET_errInvalidIndexId</p></td>
 <td><p>索引識別碼的內容無效或已過期，需要重新整理。 在下列情況下， <strong>JetSetCurrentIndex</strong> 可能會發生：</p>
 <ul>
-<li><p>pindexid- &gt; cbStruct 不是 (Windows Server 2003 和更新版本) 的預期大小。</p></li>
+<li><p>pindexid- &gt; cbStruct 不是預期的大小 (Windows Server 2003 和更新版本) 。</p></li>
 <li><p>引擎已在提取索引識別碼之後關閉。</p></li>
 <li><p>所有參考資料表的資料指標（包含對應至索引識別碼的索引）已關閉，且引擎已從架構快取中收回該索引的定義。</p></li>
 <li><p>索引識別碼正在搭配在錯誤資料表上開啟的資料指標使用。</p></li>
@@ -121,7 +121,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidParameter</p></td>
-<td><p>提供的其中一個參數包含未預期的值，或包含的值在與另一個參數的值結合時並沒有意義。 當<em>pindexid</em>不是 Null，且 pindexid cbStruct 的大小不是 (Windows XP 和舊版) 的預期大小<strong>時，就</strong>可能會發生這種情況 &gt; 。</p></td>
+<td><p>提供的其中一個參數包含未預期的值，或包含的值在與另一個參數的值結合時並沒有意義。 當<em>pindexid</em>不是 Null，且 pindexid cbStruct 不是預期的大小 (Windows XP 和舊版) <strong>時，就</strong>會發生這種情況 &gt; 。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errNoCurrentRecord</p></td>
@@ -174,7 +174,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

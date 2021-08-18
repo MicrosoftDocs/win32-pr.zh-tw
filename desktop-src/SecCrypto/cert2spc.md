@@ -4,12 +4,12 @@ ms.assetid: d05df388-c19d-47a5-9ede-11cf06c29fc8
 title: Cert2spc.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 419f0e6dc6f1183252f138029dadc7817ac3b5ed
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 66405ffb881e9ab384037bf9e388d3e055c4186a322efe0ab4171da4ece605e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127228"
 ---
 # <a name="cert2spc"></a>Cert2spc.exe
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ffa8d4a6469a7355aa5066d2e42a935c10192453
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c511424cd0a19536646df8bfacb883d75589bda45de4b7a705b99db14b741912
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063248"
 ---
 # <a name="jet_logtimeequals-method-object"></a>JET_LOGTIME。物件)  (Equals 方法
 

@@ -3,7 +3,7 @@ title: 'LVM_GETNEXTITEM 訊息 (Commctrl .h) '
 description: 搜尋具有指定屬性的清單視圖專案，並將指定的關聯性帶到指定的專案。 您可以明確地傳送此訊息，或使用 ListView \_ GetNextItem 宏來傳送。
 ms.assetid: 2d458f12-b9d3-4b9e-bcb4-927c14c16537
 keywords:
-- LVM_GETNEXTITEM message Windows 控制項
+- LVM_GETNEXTITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7c4282ebf3572587dd5c8b8b3df1906a51a920e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 40e8e6fdf068f06176d6965a2fb885b349a74ea5cde73c5952d16d7c76512ae8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002558"
 ---
 # <a name="lvm_getnextitem-message"></a>LVM \_ GETNEXTITEM 訊息
 
@@ -86,8 +86,8 @@ ms.locfileid: "103934896"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 
