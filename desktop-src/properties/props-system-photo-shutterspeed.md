@@ -4,12 +4,12 @@ ms.assetid: 7f51b3b9-d701-4e7a-80bd-87c1a60e56f7
 title: ShutterSpeed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 172ce97bf87e79dd86f83e68c91940748bbc283f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b14e5a919019e7e1f48bc8a65105c649f51745f1d33cda8518a0bfa501155ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970047"
 ---
 # <a name="systemphotoshutterspeed"></a>ShutterSpeed
 

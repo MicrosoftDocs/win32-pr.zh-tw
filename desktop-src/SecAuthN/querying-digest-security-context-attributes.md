@@ -4,12 +4,12 @@ ms.assetid: 36863f1d-ed4e-40ec-8831-1f8b9918f2d8
 title: 查詢摘要資訊安全內容屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 526c9e496a986f61762e663422a9d1eb939b1376
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24499d5119814edec12f29cf5a39ea027f95c100626be1af1d132c952682599c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919957"
 ---
 # <a name="querying-digest-security-context-attributes"></a>查詢摘要資訊安全內容屬性
 

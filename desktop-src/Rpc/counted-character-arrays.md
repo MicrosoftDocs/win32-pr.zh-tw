@@ -4,12 +4,12 @@ description: '\ Size \_ 為 \ 屬性工作表示陣列的上限，而 \ 的長�
 ms.assetid: bed10259-3034-4be8-91f5-5201c2e19c6b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 360652436a73b445aa2dbb013e0e05145154e20e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ea8abb7a391c617cadae5af396c4b4216dc9d14abf0f6d31ead3a6e075c7357b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931127"
 ---
 # <a name="counted-character-arrays"></a>計算的字元陣列
 
@@ -20,6 +20,6 @@ ms.locfileid: "104463409"
 -   [\[in、out、size \_ 為 \] 原型](-in-out-size-is-prototype.md)
 -   [\[在中，大小 \_ 為和輸出，大小 \_ 為 \] 原型](-in-size-is-and-out-size-is-prototype.md)
 
- 
+ 
 
- 
+ 

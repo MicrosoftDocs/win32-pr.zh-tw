@@ -4,12 +4,12 @@ ms.assetid: 24dbf617-fa16-44f1-ba59-d4d99b8f1375
 title: 使用應用程式字典搭配 InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4bc919fc071f249611d42b8decb6ce4fb0b0f88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35b090b0822afba691012ef19d51068a18c3cf8d6c9afb9070f43f63cd86ef34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966637"
 ---
 # <a name="using-an-application-dictionary-with-inkedit"></a>使用應用程式字典搭配 InkEdit
 

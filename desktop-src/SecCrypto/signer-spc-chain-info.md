@@ -1,5 +1,5 @@
 ---
-description: 指定軟體發行者憑證 (SPC) ，以及用來簽署檔的憑證鏈。
+description: 指定軟體 Publisher 憑證 (SPC) 以及用來簽署檔的憑證鏈。
 ms.assetid: b65b4129-df92-410c-b372-b0c004f8bb03
 title: SIGNER_SPC_CHAIN_INFO 結構
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 60279a60e6cdfbf43a1e2d9c45735b885d97a055
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff646da815604082024f7a811f21e786abaece7b8e34944d9bd229c4624ed511
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898631"
 ---
 # <a name="signer_spc_chain_info-structure"></a>簽署者 \_ SPC \_ 連鎖 \_ 資訊結構
 
-**簽署者的 \_ spc \_ 鏈 \_ 資訊** 結構會指定 [*軟體發行者憑證*](../secgloss/s-gly.md) (SPC) ，以及用來簽署檔的憑證鏈。
+**簽署者的 \_ spc \_ 連鎖 \_ 資訊** 結構會指定 [*軟體 Publisher 憑證*](../secgloss/s-gly.md) (SPC) 以及用來簽署檔的憑證鏈。
 
 > [!Note]  
 > 此結構未定義于任何標頭檔中。 若要使用這個結構，您必須自行定義，如本主題所示。
@@ -92,8 +92,8 @@ typedef struct _SIGNER_SPC_CHAIN_INFO {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

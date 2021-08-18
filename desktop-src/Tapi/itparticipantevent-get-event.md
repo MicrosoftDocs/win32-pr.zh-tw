@@ -4,12 +4,12 @@ ms.assetid: 6b5e6358-2ba6-48b5-8d55-bc896fbb9962
 title: 'ITParticipantEvent：： get_Event 方法 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b6cbfcf709b1f9f3f49047504bf5d9e8c02b159
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d45e8f6aab556eb1b6f5c6dc1b4b0cbadf9653e06fd77f4fb806b7ef89d7813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118864699"
 ---
 # <a name="itparticipanteventget_event-method"></a>ITParticipantEvent：： get \_ 事件方法
 

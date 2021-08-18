@@ -4,12 +4,12 @@ description: ACF 主體包含設定屬性，適用于在 IDL 檔案的介面主�
 ms.assetid: 7d6344d3-1117-40b9-be95-a400b81339d7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b19422762c61dee63c4f502448197aefb432c80c
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 1446b4f0e14849832766bc512a95d0ae0aeb249cebd814314b617ffa1e1125e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104024241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924618"
 ---
 # <a name="the-acf-body"></a>ACF 主體
 
@@ -70,6 +70,6 @@ ACF 參數屬性可讓您指定套用至函數之個別參數的屬性。 如需
 [**著**](/windows/desktop/Midl/typedef)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

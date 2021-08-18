@@ -4,12 +4,12 @@ ms.assetid: 0d1755fc-66cb-4372-b9d0-fb320c55d6a7
 title: MaterialWrap
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6797719919a4f52421751a5cad008aa8a581089a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 656c5f7d4eaad52a75cffca0189a1e6fa36e3e89714d8ee0225a3aeec21c8e10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118798919"
 ---
 # <a name="materialwrap"></a>MaterialWrap
 

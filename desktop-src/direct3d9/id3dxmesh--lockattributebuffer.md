@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 901cb98a9d75d08b6412d6fdca841d403064354b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8ca767c6bc223c40d6013b93162de057aac9f4fb1b71303990f9128e4eca1ee6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106998998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118802151"
 ---
 # <a name="id3dxmeshlockattributebuffer-method"></a>ID3DXMesh：： LockAttributeBuffer 方法
 
@@ -41,7 +41,7 @@ HRESULT LockAttributeBuffer(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **DWORD**](../winprog/windows-data-types.md)**

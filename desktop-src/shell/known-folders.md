@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 3b5fbdaf0086f88fc4eed42ce47749a99ab07b40
-ms.sourcegitcommit: 8bfe4f468ee5de7bbe096e5db81e427db53d977c
+ms.openlocfilehash: cd44bfe1090f25cb93d8a6fa8162901eb730a53cfb9dfec7ae3f1986fa65e1db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "114680311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720407"
 ---
 # <a name="known-folders"></a>已知的資料夾
 
@@ -41,7 +41,7 @@ WindowsVista 引進了新的儲存案例和新的使用者設定檔命名空間�
 
 
 
-| New 函式                                             | 取代                                           | COM 對等專案                                            |
+| 新增函式                                             | 取代                                           | COM 對等專案                                            |
 |----------------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------|
 | [**SHGetKnownFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath)     | [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha)         | [**IKnownFolder：： GetPath**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath)     |
 | [**SHGetKnownFolderIDList**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderidlist) | [**SHGetFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation) | [**IKnownFolder::GetIDList**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getidlist) |

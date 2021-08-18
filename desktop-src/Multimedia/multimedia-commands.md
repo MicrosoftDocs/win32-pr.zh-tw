@@ -10,12 +10,12 @@ keywords:
 - 多媒體命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58847bebc879a62c8482c7c79003b06d4497d105
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bbbac63cf52ad84b73c8922518ba83557687dc35bff58bc06d24be76315d57f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065248"
 ---
 # <a name="multimedia-commands"></a>多媒體命令
 
@@ -75,9 +75,9 @@ ms.locfileid: "103839731"
 [多媒體參考](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

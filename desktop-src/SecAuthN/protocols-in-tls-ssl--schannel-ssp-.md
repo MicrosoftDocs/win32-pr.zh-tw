@@ -5,12 +5,12 @@ title: TLS/SSL (Schannel SSP) 的通訊協定
 ms.topic: article
 ms.date: 01/20/2021
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 0aa3c3900a422a1460a2163043fb736e590ca2fe
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: a03264a40ab6d632165fe4cf75aa0dfd7ee85ac0474ef391c36a2b1980010422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118920656"
 ---
 # <a name="protocols-in-tlsssl-schannel-ssp"></a>TLS/SSL (Schannel SSP) 的通訊協定
 

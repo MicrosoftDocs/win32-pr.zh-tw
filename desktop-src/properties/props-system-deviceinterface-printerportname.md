@@ -4,12 +4,12 @@ ms.assetid: 3FC1E36D-A03F-44ef-AD49-EE2F51703DBB
 title: DeviceInterface. PrinterPortName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f94e7f39bf1ab16899b7c16553a8e6249169914
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a312d80a41e5de3f7771706a3e056c2b684a9eddaa2642e5f4524852841ba0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098009"
 ---
 # <a name="systemdeviceinterfaceprinterportname"></a>DeviceInterface. PrinterPortName
 

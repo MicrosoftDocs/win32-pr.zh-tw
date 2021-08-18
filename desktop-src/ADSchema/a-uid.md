@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 001fa68e879e15f344fada57417bf38c65706f06
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 36be371b64c5186e9e53b9b42b5814ad0723ebeaa4ebb93d8c71fc932b29facb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021996"
 ---
 # <a name="uid-attribute"></a>uid 屬性
 
@@ -64,7 +64,7 @@ ms.locfileid: "103844895"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000008                                                                                                                    |
 | System-Flags           | 0x00000000                                                                                                                    |
-| 中使用的類別        | [**account**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**帳戶**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "103844895"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                                    |
 | Search-Flags           | 0x00000008                                                                                                                                                                                                                                                                                                            |
 | System-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                            |
-| 中使用的類別        | [**account**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/> [**ipHost**](c-iphost.md)<br/> [**ipNetwork**](c-ipnetwork.md)<br/> |
+| 中使用的類別        | [**帳戶**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/> [**ipHost**](c-iphost.md)<br/> [**ipNetwork**](c-ipnetwork.md)<br/> |
 
 
 
@@ -106,7 +106,7 @@ ms.locfileid: "103844895"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                                    |
 | Search-Flags           | 0x00000008                                                                                                                                                                                                                                                                                                            |
 | System-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                            |
-| 中使用的類別        | [**account**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/> [**ipHost**](c-iphost.md)<br/> [**ipNetwork**](c-ipnetwork.md)<br/> |
+| 中使用的類別        | [**帳戶**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/> [**ipHost**](c-iphost.md)<br/> [**ipNetwork**](c-ipnetwork.md)<br/> |
 
 
 
@@ -127,7 +127,7 @@ ms.locfileid: "103844895"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                                    |
 | Search-Flags           | 0x00000008                                                                                                                                                                                                                                                                                                            |
 | System-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                            |
-| 中使用的類別        | [**account**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/> [**ipHost**](c-iphost.md)<br/> [**ipNetwork**](c-ipnetwork.md)<br/> |
+| 中使用的類別        | [**帳戶**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/> [**ipHost**](c-iphost.md)<br/> [**ipNetwork**](c-ipnetwork.md)<br/> |
 
 
 
@@ -148,7 +148,7 @@ ms.locfileid: "103844895"
 | Range-Upper            | \-                                                                                                                                                                                                                                                                                                                    |
 | Search-Flags           | 0x00000008                                                                                                                                                                                                                                                                                                            |
 | System-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                            |
-| 中使用的類別        | [**account**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/> [**ipHost**](c-iphost.md)<br/> [**ipNetwork**](c-ipnetwork.md)<br/> |
+| 中使用的類別        | [**帳戶**](c-account.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/> [**ipHost**](c-iphost.md)<br/> [**ipNetwork**](c-ipnetwork.md)<br/> |
 
 
 

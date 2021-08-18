@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50984f9c42db04f11fd2177229c0cdef27ac1aac
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f55b08d3c575c1eee246a2a364d7096c0981f15e63c8575962be82d4c7ebfe48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106971919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689623"
 ---
 # <a name="acs-enable-rsvp-accounting-attribute"></a>ACS-啟用-RSVP-Accounting 屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "106971919"
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -79,7 +79,7 @@ ms.locfileid: "106971919"
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -100,7 +100,7 @@ ms.locfileid: "106971919"
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -121,7 +121,7 @@ ms.locfileid: "106971919"
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -142,7 +142,7 @@ ms.locfileid: "106971919"
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |
@@ -163,7 +163,7 @@ ms.locfileid: "106971919"
 | 連結識別碼                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | 否                                        |
-| 是-單一值       | 對                                         |
+| 是-單一值       | 是                                         |
 | 已編制索引             | 否                                        |
 | 在通用類別目錄中      | 否                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                 |

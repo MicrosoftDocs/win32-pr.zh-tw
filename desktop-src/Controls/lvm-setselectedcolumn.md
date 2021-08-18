@@ -3,7 +3,7 @@ title: 'LVM_SETSELECTEDCOLUMN 訊息 (Commctrl .h) '
 description: 設定所選取資料行的索引。
 ms.assetid: 11b0838e-24a7-4c1c-b67d-0912b5a6442a
 keywords:
-- LVM_SETSELECTEDCOLUMN message Windows 控制項
+- LVM_SETSELECTEDCOLUMN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 827c41fabaea722bb2372c6bd3f7c3a54bee92f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f6564e1fda50d11b3d4c520f85184439b0465f1cf5767e7926e6e1c9476f786
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019167"
 ---
 # <a name="lvm_setselectedcolumn-message"></a>LVM \_ SETSELECTEDCOLUMN 訊息
 
@@ -54,8 +54,8 @@ ms.locfileid: "103844487"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4434e456-670e-46a9-ba78-affdc195fe1c
 title: D3DPTFILTERCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46adc4759290691e93ef68a8a4e212eacf5b6451
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: e86645ca1d0f8c1904307b80c27c2b8ce8d635229d3bb15b0f8178d6a9d70dcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118804666"
 ---
 # <a name="d3dptfiltercaps"></a>D3DPTFILTERCAPS
 

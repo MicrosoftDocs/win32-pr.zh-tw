@@ -4,12 +4,12 @@ description: MIDL 支援三種類型的指標以容納各種應用程式。
 ms.assetid: 6684c252-6fbe-49ca-9967-6d4baf5dc298
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efdcc9548568c8fca24d8abb40bf0eaa8b6e7da3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9627c71b07c86ab2deb7e28bddcf6d30b1747cf7d44874620f4053383a5a948a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923457"
 ---
 # <a name="three-pointer-types"></a>三種指標類型
 
@@ -35,6 +35,6 @@ MIDL 支援三種類型的指標以容納各種應用程式。 三個不同的�
 
 **\[** 當宣告未套用明確的指標屬性時，[**指標 \_ 預設**](/windows/desktop/Midl/pointer-default) **\]** 介面屬性會指定要套用至類型、參數或傳回類型宣告中指標宣告子的預設指標屬性。 **\[ 指標 \_ 預設 \]** 介面屬性不會套用到參數的未歸屬最上層指標，而是假設為 **\[ ref \]**。
 
- 
+ 
 
- 
+ 

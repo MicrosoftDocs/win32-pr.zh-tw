@@ -4,16 +4,16 @@ description: IAgentCharacterEx SetAutoPopupMenu
 ms.assetid: f2402b1f-a39b-4fd5-a046-c0a3245d2af9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcfd1bd7ea0b02f226ed6f0365b466577807a193
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a616bd95836d8f8131aaccabe0bb6db4f35a5caf22c480c17908935d80f2b12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477956"
 ---
 # <a name="iagentcharacterexsetautopopupmenu"></a>IAgentCharacterEx::SetAutoPopupMenu
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetAutoPopupMenu(
@@ -43,9 +43,9 @@ HRESULT SetAutoPopupMenu(
 [**IAgentCharacterEx：： GetAutoPopupMenu**](iagentcharacterex--getautopopupmenu.md)、 [ **IAgentCharacterEx：： ShowPopupMenu**](iagentcharacterex--showpopupmenu.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: edc21875-fc7b-43b6-bdc0-961c125f01a1
 title: Status2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c36300771bff03eff8998d5bda41540bf304b84c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ad40529404ba1c6dfb1d8887c0d476f9b5669a5c307a8acffd066dc82ea6cc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097047"
 ---
 # <a name="systemdevicesstatus2"></a>Status2
 

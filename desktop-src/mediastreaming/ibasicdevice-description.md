@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f094246d1424c458e624d4a49358b63a84b9b7d2
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: cfaf3ba8ca9c74d094aa8cdc15f4c190d6e5141fb11ff255b6e7682b667846d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972347"
 ---
 # <a name="ibasicdevicedescription-method"></a>IBasicDevice：:D 描述 e) 方法
 
@@ -54,7 +54,7 @@ HRESULT Description(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

@@ -3,12 +3,12 @@ description: 指定 MFT 的範例配置器 (SA) 是否應使用 D3D11_RESOURCE_M
 title: 'MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Mftransform) '
 ms.topic: reference
 ms.date: 03/31/2018
-ms.openlocfilehash: fedcfbe98344dd9b424c1a8ce90e847e98f1af51
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: b039eff2c46281dcad4754d73f05ecd982f7fe3e75ed1aa9c8b576fe573f921c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102598"
 ---
 # <a name="mf_sa_d3d_allocate_displayable_resources-attribute"></a>MF \_ SA \_ D3D 配置可顯示的 \_ \_ \_ 資源屬性
 

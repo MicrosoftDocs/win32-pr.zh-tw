@@ -1,22 +1,22 @@
 ---
 title: ADSI 中的事件追蹤
-description: Windows Server 2008 和 Windows Vista 引進 Active Directory 服務介面 (ADSI) 的事件追蹤。
+description: WindowsServer 2008 和 Windows Vista 在 (ADSI) 的 Active Directory 服務介面中引進事件追蹤。
 ms.assetid: 743aeeba-5b48-47c7-aaf5-0e9b48e206db
 ms.tgt_platform: multiple
 keywords:
 - 事件追蹤 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b26aee00404f5cf97d228698f64fec804c28e62
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: a59b2db3775c8c578ad361667a2d89c36240caf4b3bbb4bcd5cdd2798011514b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023976"
 ---
 # <a name="event-tracing-in-adsi"></a>ADSI 中的事件追蹤
 
-Windows Server 2008 和 Windows Vista 引進[Active Directory 服務介面](active-directory-service-interfaces-adsi.md) (ADSI) 的[事件追蹤](/windows/desktop/ETW/event-tracing-portal)。 ADSI LDAP 提供者的某些區域具有複雜的基礎執行，或牽涉到的一連串步驟，讓您難以診斷問題。 為了協助應用程式開發人員進行疑難排解，事件追蹤已新增至下欄區域：
+WindowsServer 2008 和 Windows Vista 在 (ADSI) 的[Active Directory 服務介面](active-directory-service-interfaces-adsi.md)中引進[事件追蹤](/windows/desktop/ETW/event-tracing-portal)。 ADSI LDAP 提供者的某些區域具有複雜的基礎執行，或牽涉到的一連串步驟，讓您難以診斷問題。 為了協助應用程式開發人員進行疑難排解，事件追蹤已新增至下欄區域：
 
 ## <a name="schema-parsing-and-downloading"></a>架構剖析和下載
 

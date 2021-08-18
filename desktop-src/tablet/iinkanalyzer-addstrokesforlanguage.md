@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 7f1c8bde9f1fe9d9c7123fa3c40540d0fd2660ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52e2dc742dc91b37bce29d477cf91f7178f2ae2a62ce3a329d2b9bf79c46b33a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719606"
 ---
 # <a name="iinkanalyzeraddstrokesforlanguage-method"></a>IInkAnalyzer：： AddStrokesForLanguage 方法
 
@@ -136,7 +136,7 @@ HRESULT AddStrokesForLanguage(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

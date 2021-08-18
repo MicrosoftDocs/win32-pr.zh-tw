@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102888
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 47dfd629ddeff0b5b647ba8b58868243e039e9e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 118dfebea18618f4719ab5264b82397da8d397eeb7cfed61d8e8daff332a3a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104562976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118772315"
 ---
 # <a name="esentslvpagesnotcommittedexception-properties"></a>EsentSLVPagesNotCommittedException 屬性
 

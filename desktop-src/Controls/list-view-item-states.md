@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8432760dd4cc7efde30700f837864ddcf04aac31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9040272afc16f500806a3d7a90a0b062018d2f4dec8510e4abe57b24cbc75e88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958387"
 ---
 # <a name="list-view-item-states"></a>List-View 專案狀態
 

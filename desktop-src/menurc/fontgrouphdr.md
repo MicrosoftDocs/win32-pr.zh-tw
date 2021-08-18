@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1d67d9ecfa451970422f21d05817f26170a9c8eb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 51b307b7f5798a57e344096fe46227edf97babbf3547c4c851d71fd8ecdc28da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104187303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118734476"
 ---
 # <a name="fontgrouphdr-structure"></a>FONTGROUPHDR 結構
 
@@ -51,7 +51,7 @@ typedef struct {
 
 </dd> <dt>
 
-**德**
+**DE**
 </dt> <dd>
 
 類型： **[ **DIRENTRY**](direntry.md)**

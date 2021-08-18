@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: dc54813ea9947d263febcbe843702124c68ba747
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2ce0ab65eb3100d7be70741738767359265213ffc53a45490523bc8cf9c7a272
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118804602"
 ---
 # <a name="d3dxcreatebuffer-function"></a>D3DXCreateBuffer 函式
 

@@ -20,12 +20,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af047d6fe52fdd7d808b1d7e5dbfb35303d3ff59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 384aa8a8f04afe8abbaa9627a0080b7a4ce219d4b58482d3eddc20bb33825c7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023456"
 ---
 # <a name="iadsmembers-property-methods"></a>IADsMembers 屬性方法
 

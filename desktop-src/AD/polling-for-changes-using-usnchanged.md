@@ -8,12 +8,12 @@ keywords:
 - USNChanged AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e062c84fae575f837f45d78be7c92e5e284c1e
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 1c665d536eb3dcb0e3265a2e3abb87808ddf630510e5d0600f6185007c72bc28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025526"
 ---
 # <a name="polling-for-changes-using-usnchanged"></a>使用 USNChanged 輪詢變更
 
@@ -52,6 +52,6 @@ DirSync 控制項的功能強大且有效率，但有兩大限制：
 
 如需詳細資訊，以及顯示 USNChanged 同步處理應用程式基本概念的程式碼範例，請參閱 [使用 USNChanged 抓取變更的範例程式碼](example-code-to-retrieve-changes-using-usnchanged.md)。
 
- 
+ 
 
- 
+ 

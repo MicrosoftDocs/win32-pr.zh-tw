@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9f94bf4474e208d0b1d29df7a5e2939d7826ca77
-ms.sourcegitcommit: 1f917afc149b5cc449a4a25a87de311e4842734b
+ms.openlocfilehash: fd2c5900cba4a66b4f7cf94f1df362ddc0f29f3d258b972b77ad63f3fd45a5ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113689201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481979"
 ---
 # <a name="wm_pointerdown-message"></a>WM_POINTERDOWN 訊息
 

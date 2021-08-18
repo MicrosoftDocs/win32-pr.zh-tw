@@ -4,18 +4,18 @@ ms.assetid: d63d0129-7c47-417c-bec1-965f58fcf090
 title: GPS. 追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71767c3606e98aba14d9be64d43b88b46c2d21e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c84d6d2c8fb551e4437703b8c251c76573eeba686f5902363230896f1323052
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727159"
 ---
 # <a name="systemgpstrack"></a>GPS. 追蹤
 
 指出 GPS 接收器移動的方向。 從 PKEY \_ gps \_ TRACKNUMERATOR 和 PKEY \_ gps TrackDenominator 計算 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

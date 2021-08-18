@@ -4,12 +4,12 @@ ms.assetid: fd3b718a-5eff-4894-9fc6-d157ddb67330
 title: 存取控制模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 253f03e5703020512cbbee6fbaae168d8adb97f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b24be0b2ea358d5afc15c42384c9e068d2ff606e6fbadae36483109989cedf22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914554"
 ---
 # <a name="access-control-model"></a>存取控制模型
 

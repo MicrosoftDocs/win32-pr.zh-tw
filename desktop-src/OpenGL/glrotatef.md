@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 953b8ffc5f89e5a4cf9901e4cb5fb5afb4c8dfdc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 98f466ca73a826d9a12f97093c90c41cd1c753b01f25853096dd3f3219628654
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937928"
 ---
 # <a name="glrotatef-function"></a>glRotatef 函式
 
@@ -64,7 +64,7 @@ void WINAPI glRotatef(
 
 </dd> <dt>
 
-*Z* 
+*z* 
 </dt> <dd>
 
 向量的 *z* 座標。
@@ -81,7 +81,7 @@ void WINAPI glRotatef(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |
 

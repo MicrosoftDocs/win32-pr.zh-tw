@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6ca83f5f7935e8d1dfd376f569bd61f68d7e93bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2fc22e01329728935e2953b5be7a3a1042cee00da3a3b9756915de2aeafe9b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995408"
 ---
 # <a name="servicetask1-element"></a>ServiceTask1 元素
 
@@ -65,7 +65,7 @@ ms.locfileid: "106993348"
 **ServiceTask1** 被視為參與商務工作的主要工作窗格。 它是使用者選擇購買音樂時所顯示的工作窗格。
 
 > [!Note]  
-> Windows Media Player 10 有三個工作窗格，可讓線上商店顯示其網頁。 線上商店可以選擇使用一個、兩個或三個工作窗格。 Windows Media Player 11 只有一個工作窗格（以 **ServiceTask1** 表示），使用者可以按一下 [ **線上商店** ] 索引標籤來加以查看。
+> Windows Media Player 10 有三個工作窗格，可讓線上商店顯示其網頁。 線上商店可以選擇使用一個、兩個或三個工作窗格。 Windows Media Player 11 只有一個工作窗格（以 **ServiceTask1** 表示），使用者可以按一下 [**線上商店**] 索引標籤來加以查看。
 
  
 
@@ -77,9 +77,9 @@ ms.locfileid: "106993348"
 
 
 
-| Name         | 值                                                                                                                                                               |
+| 名稱         | 值                                                                                                                                                               |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *大地 水準面*      | Windows 地理位置識別碼。 在主控台的 [地區及語言選項] 設定的 [ **位置** ] 區域中，使用者會指定位置識別碼。 |
+| *大地 水準面*      | Windows 的地理位置識別碼。 在主控台的 [地區及語言選項] 設定的 [ **位置** ] 區域中，使用者會指定位置識別碼。 |
 | *locale*     | Windows Media Player 地區設定識別碼。                                                                                                                                     |
 | *userlocale* | Windows 地區設定識別碼。 地區設定是由使用者在主控台的 [地區及語言選項] 設定的 [ **標準] 和 [格式** ] 區域中所指定。        |
 | *version*    | 使用下列格式的 Windows Media Player 版本號碼： 10.0. x. x. x. x. x. x. x. x. x。                                                                         |

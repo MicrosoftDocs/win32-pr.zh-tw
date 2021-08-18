@@ -8,12 +8,12 @@ keywords:
 - 物件 Active Directory、讀取和寫入 Active Directory 物件的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8da4e0c2b6da52458178fc50f4ce4e96d887b17d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9487f04d405012ac3fe89a621e0595e49dbeec689b174d5ca1be403e3a7ea289
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025336"
 ---
 # <a name="reading-and-writing-attributes-of-objects-in-active-directory-domain-services"></a>在 Active Directory Domain Services 中讀取和寫入物件的屬性
 
@@ -29,10 +29,10 @@ Active Directory Domain Services 中的物件具有包含特定物件相關資�
 
 
 
- 
+ 
 
 如需屬性的詳細資訊，請參閱 [判斷屬性類型](determining-an-attribute-type.md)。
 
- 
+ 
 
- 
+ 

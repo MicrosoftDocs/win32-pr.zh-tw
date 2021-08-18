@@ -4,18 +4,18 @@ ms.assetid: 0c5ab3d0-ed04-43ac-992f-ecfee24889d2
 title: System. FindData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ec5c4ede4b4bd508a399632862995072b57545f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a91114617512f978c783e1b624ec9b38e245792b44d439fed0ab68f1a3c5dcf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096887"
 ---
 # <a name="systemfinddata"></a>System. FindData
 
 包含 [**WIN32 \_ 尋找 \_ 資料**](/windows/win32/api/minwinbase/ns-minwinbase-win32_find_dataa) 結構作為位元組緩衝區。 請勿將此屬性用於任何其他用途。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

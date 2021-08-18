@@ -4,12 +4,12 @@ ms.assetid: 66fdc878-d9c4-421c-b79f-9df08984611c
 title: 開啟原則物件控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c187720692db4937b6e1299dd2bb63fac647852
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16baf2cf7e722faca1f0441505ec325b8e64c8aad95522e697b4905f566985af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894049"
 ---
 # <a name="opening-a-policy-object-handle"></a>開啟原則物件控制碼
 

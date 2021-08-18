@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75b6a8301ea5dab7d860e5bd7fb32c69277bad63
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e3baab16ee7c3f825f317d7aa2c585cb4d8ae7d6d030b6f59a1555b95343015
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118910541"
 ---
 # <a name="winbio_event-structure"></a>WINBIO \_ 事件結構
 
@@ -56,7 +56,7 @@ typedef struct _WINBIO_EVENT {
 
 <dl> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 值，指定所引發之服務提供者事件通知的類型。 目前唯一支援的提供者是指紋感應器。 此感應器支援下列旗標。
@@ -95,7 +95,7 @@ typedef struct _WINBIO_EVENT {
 -   WINBIO \_ FP \_ 太 \_ 低
 -   WINBIO \_ FP \_ 太 \_ 左邊
 -   WINBIO \_ FP \_ 太 \_ 右邊
--   WINBIO \_ FP \_ 太 \_ 快
+-   WINBIO \_ FP \_ 太 \_ FAST
 -   WINBIO \_ FP \_ 太 \_ 慢
 -   WINBIO \_ FP \_ 品質不佳 \_
 -   WINBIO \_ FP \_ 太 \_ 扭曲
@@ -147,7 +147,7 @@ typedef struct _WINBIO_EVENT {
 
 > [!IMPORTANT]
 >
-> 請勿嘗試驗證針對 *SubFactor* 值提供的值。 Windows 生物識別服務會先驗證提供的值，再將其傳遞至您的實作為。 如果值為 **WINBIO \_ 子類型 \_ NO \_ INFORMATION** 或 **WINBIO \_ 子類型 \_ ANY**，則在適當的位置驗證。
+> 請勿嘗試驗證針對 *SubFactor* 值提供的值。 Windows 生物特徵辨識服務會先驗證提供的值，再將其傳遞至您的實作為。 如果值為 **WINBIO \_ 子類型 \_ NO \_ INFORMATION** 或 **WINBIO \_ 子類型 \_ ANY**，則在適當的位置驗證。
 
  
 
@@ -162,7 +162,7 @@ typedef struct _WINBIO_EVENT {
 -   WINBIO \_ FP \_ 太 \_ 低
 -   WINBIO \_ FP \_ 太 \_ 左邊
 -   WINBIO \_ FP \_ 太 \_ 右邊
--   WINBIO \_ FP \_ 太 \_ 快
+-   WINBIO \_ FP \_ 太 \_ FAST
 -   WINBIO \_ FP \_ 太 \_ 慢
 -   WINBIO \_ FP \_ 品質不佳 \_
 -   WINBIO \_ FP \_ 太 \_ 扭曲
@@ -187,7 +187,7 @@ typedef struct _WINBIO_EVENT {
 
 ## <a name="remarks"></a>備註
 
-呼叫 [**WinBioRegisterEventMonitor**](/windows/desktop/api/Winbio/nf-winbio-winbioregistereventmonitor) 函式以註冊回呼常式，以從 Windows 生物特徵辨識架構接收事件通知。 回呼是您必須為應用程式定義的自訂函數。
+呼叫 [**WinBioRegisterEventMonitor**](/windows/desktop/api/Winbio/nf-winbio-winbioregistereventmonitor)函式以註冊回呼常式，以從 Windows 生物特徵辨識架構接收事件通知。 回呼是您必須為應用程式定義的自訂函數。
 
 ## <a name="requirements"></a>規格需求
 
@@ -195,8 +195,8 @@ typedef struct _WINBIO_EVENT {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

@@ -16,18 +16,18 @@ keywords:
 - 持續監視設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff494388aac91d8aacd92ed4fe345722ea18659f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 827d19ef0006dc89208061c18ef34c28c8f993c3e0d6ebd0d1c1005daf2cd640
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066598"
 ---
 # <a name="using-the-high-level-monitor-configuration-functions"></a>使用 High-Level 監視設定函數
 
 ## <a name="enumerating-physical-monitors"></a>列舉實體監視器
 
-有幾個函式會列舉顯示裝置，包括 [**EnumDisplayMonitors**](/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors) 和 [**MonitorFromWindow**](/windows/desktop/api/winuser/nf-winuser-monitorfromwindow)。 這些函式記載于 Windows GDI 檔的 [ [多個顯示監視器](/windows/desktop/gdi/multiple-display-monitors)] 主題下。 這些函數會傳回 **HMONITOR** 控制碼。 不過，儘管名稱， **HMONITOR** 控制碼也可以與一個以上的實體監視器相關聯。 若要設定監視的設定，應用程式必須藉由呼叫 [**GetPhysicalMonitorsFromHMONITOR**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor)來取得實體監視器的唯一控制碼。
+有幾個函式會列舉顯示裝置，包括 [**EnumDisplayMonitors**](/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors) 和 [**MonitorFromWindow**](/windows/desktop/api/winuser/nf-winuser-monitorfromwindow)。 這些函式記載于 [[多重顯示器](/windows/desktop/gdi/multiple-display-monitors)] 主題底下的 Windows GDI 檔中。 這些函數會傳回 **HMONITOR** 控制碼。 不過，儘管名稱， **HMONITOR** 控制碼也可以與一個以上的實體監視器相關聯。 若要設定監視的設定，應用程式必須藉由呼叫 [**GetPhysicalMonitorsFromHMONITOR**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor)來取得實體監視器的唯一控制碼。
 
 如果您的應用程式使用 Direct3D，您可以藉由呼叫 [**GetPhysicalMonitorsFromIDirect3DDevice9**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9)從 direct3d 裝置取得監視器控制碼。
 
@@ -52,7 +52,7 @@ ms.locfileid: "106969101"
 
 所有這些事件都可以變更監視設定。 它們也可以變更設定的最小值和最大值。
 
-## <a name="dependencies-among-monitor-settings"></a>監視設定之間的相依性
+## <a name="dependencies-among-monitor-settings"></a>監視器設定之間的相依性
 
 變更色溫可能會變更目前的磁片磁碟機並進行設定，相反地，反向也是如此。 這些是高階監視設定功能之間唯一的相依性。 其他設定可能只能透過低層級的監視功能來存取。 這些設定與高階設定之間可能會有相依性。 這些相依性是廠商特定的。 應用程式可以透過數種方式來處理這個問題：
 
@@ -60,7 +60,7 @@ ms.locfileid: "106969101"
 -   呼叫低層級函數之後，取得每個監視設定的目前值。 可惜的是，這種方法可能會很慢，因為取得每項設定大約需要40毫秒。
 -   使用低層級的函式，只搭配您瞭解其行為的特定監視模型。
 
-## <a name="disabled-monitor-settings"></a>停用的監視設定
+## <a name="disabled-monitor-settings"></a>停用的監視器設定
 
 應用程式無法藉由呼叫高階監視功能來停用任何監視設定。 但是，如果應用程式使用低層級的函式來變更高階函式不支援的監視設定，則應用程式可能會不小心停用設定。 此外，使用者可能會使用前端板控制項來停用設定。 這些行為是廠商特定的行為。
 
@@ -76,6 +76,6 @@ ms.locfileid: "106969101"
 [使用監視設定](using-monitor-configuration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

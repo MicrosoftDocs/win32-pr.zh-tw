@@ -7,12 +7,12 @@ keywords:
 - Advanced 主題廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8fe858f14f56599aa8f397294e208334f142577
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: a9f935c93650bc0a87ab42e2dc95eb0ef58b4d0c65a95ef7c72995a86d8ab34c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "104507765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692725"
 ---
 # <a name="advanced-topics-adsi"></a>ADSI) 的 Advanced 主題 (
 
@@ -23,9 +23,9 @@ ms.locfileid: "104507765"
 -   [擴充 ADSI](extending-adsi.md)
 -   [將 ADSI Visual Basic 程式碼對應至 c + + 程式碼](mapping-adsi-visual-basic-code-to-c-code.md)
 
- 
+ 
 
- 
+ 
 
 
 

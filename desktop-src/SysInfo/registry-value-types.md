@@ -4,12 +4,12 @@ ms.assetid: 5fd828d6-4d62-4823-a2f1-15782b5cd28c
 title: 登錄數值型別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adc653e69c514bc77323704485e88f0a57eebaae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed2bc73e03d9aab8d39bdda31ab308af1749f22315a262ceb4ae28ec743c8c69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885009"
 ---
 # <a name="registry-value-types"></a>登錄數值型別
 
@@ -23,14 +23,14 @@ ms.locfileid: "103849584"
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | REG \_ 二進位檔<br/>                | 任何形式的二進位資料，<br/>                                                                                                                                                                                                                                                                                                                                                                                                     |
 | REG \_ DWORD<br/>                 | 32位數位。<br/>                                                                                                                                                                                                                                                                                                                                                                                                             |
-| REG DWORD 位元組由大到 \_ \_ 小 \_<br/> | 以位元組由大到小的格式的32位數位。<br/> Windows 的設計是在以位元組由小到大的電腦架構上執行。 因此，此值會 \_ 在 Windows 標頭檔中定義為 REG DWORD。<br/>                                                                                                                                                                                                                          |
+| REG DWORD 位元組由大到 \_ \_ 小 \_<br/> | 以位元組由大到小的格式的32位數位。<br/> Windows 是設計用來在以位元組由小到大的電腦架構上執行。 因此，在 Windows 標頭檔中，此值會定義為 REG \_ DWORD。<br/>                                                                                                                                                                                                                          |
 | REG \_ DWORD \_ BIG \_ ENDIAN<br/>    | 以位元組由大到小的格式的32位數位。<br/> 某些 UNIX 系統支援位元組由大到小的架構。<br/>                                                                                                                                                                                                                                                                                                                         |
 | REG \_ EXPAND \_ SZ<br/>            | 以 null 終止的字串，其中包含環境變數的未展開參考 (例如 "% PATH%" ) 。 它將會是 Unicode 或 ANSI 字串，取決於您使用的是 Unicode 或 ANSI 函數。 若要展開環境變數參考，請使用 [**ExpandEnvironmentStrings**](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) 函數。<br/>                                                                                 |
 | REG \_ 連結<br/>                  | 以 null 終止的 Unicode 字串，其中包含以 REG [](/windows/desktop/api/Winreg/nf-winreg-regcreatekeyexa) \_ OPTION \_ CREATE link 呼叫 RegCreateKeyEx 函式所建立之符號連結的目標路徑 \_ 。<br/>                                                                                                                                                                                                                          |
 | REG \_ 多重 \_ SZ<br/>             | 以 null 結束的字串序列，以空字串 (\\ 0) 結束。<br/> 以下是一個範例：<br/> *String1* \\0 *String2* \\ 0 *String3* \\ 0 *LastString* \\ 0 \\ 0<br/> 第一個 \\ 0 會終止第一個字串，最後一個0到最後一個字串的第二個會結束 \\ 最後一個字串，最後0則會 \\ 結束序列。 請注意，最後的結束字元必須考慮到字串的長度。<br/> |
 | REG \_ 無<br/>                  | 沒有定義的實值型別。<br/>                                                                                                                                                                                                                                                                                                                                                                                                       |
 | REG \_ QWORD<br/>                 | 64位數位。<br/>                                                                                                                                                                                                                                                                                                                                                                                                             |
-| REG \_ QWORD 位元組由大到 \_ 小 \_<br/> | 以位元組由大到小的格式的64位數位。<br/> Windows 的設計是在以位元組由小到大的電腦架構上執行。 因此，這個值 \_ 在 Windows 標頭檔中定義為 REG QWORD。<br/>                                                                                                                                                                                                                          |
+| REG \_ QWORD 位元組由大到 \_ 小 \_<br/> | 以位元組由大到小的格式的64位數位。<br/> Windows 是設計用來在以位元組由小到大的電腦架構上執行。 因此，在 Windows 標頭檔中，此值會定義為 REG \_ QWORD。<br/>                                                                                                                                                                                                                          |
 | REG \_ SZ<br/>                    | null 終止的字串。 這會是 Unicode 或 ANSI 字串，取決於您使用的是 Unicode 或 ANSI 函數。<br/>                                                                                                                                                                                                                                                                                       |
 
 

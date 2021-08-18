@@ -1,11 +1,11 @@
 ---
-title: Vines 屬性
+title: Vines 屬性的 MS SQL
 description: Vines 連接點。
 ms.assetid: edb3ac70-6275-40e1-a91e-acf791c5cf23
 ms.tgt_platform: multiple
 keywords:
-- Vines 屬性 AD 架構
-- Vines 屬性 AD 架構
+- Vines 屬性 AD 架構的 MS SQL
+- Vines 屬性 AD 架構的 mS SQL
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 313b47714dbd8431a7552abc5ed7962e0c0a708a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 818c5e007111f3d7c44b4e8bd530b41e81a6fa98d617dda6ab7352369bfa7b52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686242"
 ---
-# <a name="ms-sql-vines-attribute"></a>Vines 屬性
+# <a name="ms-sql-vines-attribute"></a>Vines 屬性的 MS SQL
 
 Vines 連接點。
 
@@ -29,8 +29,8 @@ Vines 連接點。
 
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
-| CN                | Vines                                |
-| Ldap-顯示名稱 | Vines                                |
+| CN                | 毫秒-SQL-Vines                                |
+| Ldap-顯示名稱 | 毫秒-SQL-Vines                                |
 | 大小              | \-                                          |
 | 更新許可權  | 此值是由系統所設定。            |
 | 更新頻率  | 在系統啟動時。                          |
@@ -58,7 +58,7 @@ Vines 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -66,7 +66,7 @@ Vines 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ Vines 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -87,7 +87,7 @@ Vines 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ Vines 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -108,7 +108,7 @@ Vines 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ Vines 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -129,7 +129,7 @@ Vines 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ Vines 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -150,7 +150,7 @@ Vines 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ Vines 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -171,7 +171,7 @@ Vines 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 

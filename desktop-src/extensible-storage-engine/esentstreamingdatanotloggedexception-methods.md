@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103000
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 852970640fc510918f183478f8323699c23210f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bc56451acb99435ddbd50092c4da114bcae3abb7cde770ea4360efe2a186019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118769523"
 ---
 # <a name="esentstreamingdatanotloggedexception-methods"></a>EsentStreamingDataNotLoggedException 方法
 

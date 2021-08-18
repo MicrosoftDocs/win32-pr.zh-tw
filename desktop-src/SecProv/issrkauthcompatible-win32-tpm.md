@@ -1,5 +1,5 @@
 ---
-description: Win32 Tpm 類別的 IsSrkAuthCompatible 方法 \_ 會指出儲存根金鑰 (SRK) 授權是否與 Windows Vista 所預期的值相容。
+description: Win32 Tpm 類別的 IsSrkAuthCompatible 方法 \_ 會指出儲存體根金鑰 (SRK) 授權是否與 Windows Vista 預期的值相容。
 ms.assetid: ce6d05b8-673a-40ab-a1d7-3fedfd099306
 title: Win32_Tpm 類別的 IsSrkAuthCompatible 方法
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: f5250f8d3f9ad38f9d4c46350e06e0fe32f756dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 435829389749d7f7e81552aa88dd00aa211fd74ae079c93c97b5baff3c7a3c4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891849"
 ---
 # <a name="issrkauthcompatible-method-of-the-win32_tpm-class"></a>Win32 Tpm 類別的 IsSrkAuthCompatible 方法 \_
 
-[**Win32 \_ Tpm**](win32-tpm.md)類別的 **IsSrkAuthCompatible** 方法會指出儲存根金鑰 (SRK) 授權是否與 Windows Vista 所預期的值相容。
+[**Win32 \_ Tpm**](win32-tpm.md)類別的 **IsSrkAuthCompatible** 方法會指出儲存體根金鑰 (SRK) 授權是否與 Windows Vista 預期的值相容。
 
 ## <a name="syntax"></a>語法
 
@@ -76,8 +76,8 @@ uint32 IsSrkAuthCompatible(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                      |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

@@ -9,12 +9,12 @@ keywords:
 - UI 外掛程式，顯示對話方塊和訊息方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d96387ca46864064c7b6ff7b9cd3dba8187eed0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: addacfe2a309808f949c59a8ec11498417cb05a17cd6ab160ca1c08d2017a0bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997238"
 ---
 # <a name="displaying-modal-user-interfaces"></a>顯示模式使用者介面
 
@@ -33,9 +33,9 @@ UI 外掛程式不應顯示模式對話方塊或訊息方塊，以回應來自 W
 [**UI 外掛程式總覽**](ui-plug-in-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

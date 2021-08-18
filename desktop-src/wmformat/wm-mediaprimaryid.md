@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f84d987d57b1d825fac54e6a7de41b0154952e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d650c15a861cdf55af07fba6d47fb416d61a56d399b855efc461cddd2f628edf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027056"
 ---
 # <a name="wmmediaclassprimaryid"></a>WM/MediaClassPrimaryID
 
@@ -37,7 +37,7 @@ g \_ wszWMMediaClassPrimaryID
 
 
 
-| 主要類別 GUID                     | Description                                                  |
+| 主要類別 GUID                     | 描述                                                  |
 |----------------------------------------|--------------------------------------------------------------|
 | "D1607DBC-E323-4BE2-86A1-48A42A28441E" | 用於音樂檔案。 請勿用於非音樂的音訊。 |
 | "DB9830BD-3AB3-4FAB-8A37-1A995F7FF74B" | 使用於影片檔案。                                         |
@@ -46,7 +46,7 @@ g \_ wszWMMediaClassPrimaryID
 
 
 
- 
+ 
 
 當您指定主要類別識別碼時，您也應該設定次要類別識別碼，以明確說明檔案中的內容類型。
 
@@ -60,9 +60,9 @@ g \_ wszWMMediaClassPrimaryID
 [**WM/MediaClassSecondaryID**](wm-mediasecondaryid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

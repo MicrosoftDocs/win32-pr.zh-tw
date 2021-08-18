@@ -4,12 +4,12 @@ ms.assetid: ee85a6c3-3a1d-4f94-9112-cb8247b2a189
 title: 計時器佇列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ad2f94612c234b3ec0d1d75fa723c4e86e6fc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d16e0ae30e02ad9fbc8889c0d7b1094895ebec27c3db8b67acf509ee02e9da85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885876"
 ---
 # <a name="timer-queues"></a>計時器佇列
 

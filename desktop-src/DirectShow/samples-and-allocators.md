@@ -4,12 +4,12 @@ ms.assetid: 1fbea741-f29a-4815-9885-94ca9cf4bb95
 title: 範例和配置器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9132ff2c70b5ade63f8853b5c03bacb7a25371
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8d196adeb9b5d5bd1220c9d71d74e2c0b23769c20bcad8daf80385aaee3920e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104557401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952000"
 ---
 # <a name="samples-and-allocators"></a>範例和配置器
 
@@ -17,7 +17,7 @@ ms.locfileid: "104557401"
 
 範例一律會從輸出釘選到輸入 pin，以下游傳送。 在推送模型中，輸出 pin 會在輸入 pin 上呼叫 [**IMemInputPin：： Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) 來傳遞範例。 輸入 pin 將會同步處理資料 (也就是完全在 **Receive** 方法) 內，或是在工作者執行緒上以非同步方式處理。 如果需要等候資源，就可以在 **Receive** 方法內封鎖輸入 pin。
 
-另一個 COM 物件稱為配置 *器，負責* 建立和管理媒體範例。 配置器會公開 [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) 介面。 每當篩選準則需要具有空緩衝區的媒體範例時，它會呼叫 [**IMemAllocator：： GetBuffer**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-getbuffer) 方法，以傳回範例的指標。 每個 pin 連接都會共用一個配置器。 當兩個 pin 連線時，它們會決定要提供配置器的篩選器。 釘選也會在配置器上設定屬性，例如緩衝區數目和每個緩衝區的大小。  (需詳細資訊，請參閱 [篩選連接](how-filters-connect.md) 和 [協商配置器](negotiating-allocators.md)。 ) 
+另一個 COM 物件稱為配置 *器，負責* 建立和管理媒體範例。 配置器會公開 [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) 介面。 每當篩選準則需要具有空緩衝區的媒體範例時，它會呼叫 [**IMemAllocator：： GetBuffer**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-getbuffer) 方法，以傳回範例的指標。 每個 pin 連接都會共用一個配置器。 當兩個 pin 連線時，它們會決定要提供配置器的篩選器。 釘選也會在配置器上設定屬性，例如緩衝區數目和每個緩衝區的大小。  (需詳細資訊，請參閱[篩選連線](how-filters-connect.md)和[協商配置器](negotiating-allocators.md)。 ) 
 
 下圖顯示配置器、媒體範例和篩選器之間的關聯性。
 
@@ -45,7 +45,7 @@ ms.locfileid: "104557401"
 
 <dl> <dt>
 
-[篩選圖形中的資料流程](data-flow-in-the-filter-graph.md)
+[篩選 Graph 中的資料 Flow](data-flow-in-the-filter-graph.md)
 </dt> </dl>
 
  

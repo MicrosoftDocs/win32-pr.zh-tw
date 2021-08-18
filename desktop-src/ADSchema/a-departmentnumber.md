@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9f99108e4ea00e44ffc11a8e56acc386b7ed5af
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ee7793cd8fc64d1e3f5626184e6d264af41fc94dbb78ce5af6166843aeefb989
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961717"
 ---
 # <a name="departmentnumber-attribute"></a>departmentNumber 屬性
 
@@ -64,7 +64,7 @@ ms.locfileid: "104107135"
 | Range-Upper            | \-                                                                                    |
 | Search-Flags           | 0x00000000                                                                            |
 | System-Flags           | 0x00000000                                                                            |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "104107135"
 | Range-Upper            | \-                                                                                    |
 | Search-Flags           | 0x00000000                                                                            |
 | System-Flags           | 0x00000000                                                                            |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -106,7 +106,7 @@ ms.locfileid: "104107135"
 | Range-Upper            | \-                                                                                    |
 | Search-Flags           | 0x00000000                                                                            |
 | System-Flags           | 0x00000000                                                                            |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -127,7 +127,7 @@ ms.locfileid: "104107135"
 | Range-Upper            | \-                                                                                    |
 | Search-Flags           | 0x00000000                                                                            |
 | System-Flags           | 0x00000000                                                                            |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 

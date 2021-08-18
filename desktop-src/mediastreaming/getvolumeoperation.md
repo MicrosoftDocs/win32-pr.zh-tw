@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ac06bfb85e8ebbf10306da43cb44c7e3b3e862a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: edecfc68e243066ca8e0cda4df43d6ca9a654e04b538c9352c2d90624d5682ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972367"
 ---
 # <a name="getvolumeoperation-class"></a>GetVolumeOperation 類別
 
@@ -50,7 +50,7 @@ ms.locfileid: "106966454"
 
 
 
-| 屬性                                                     | 存取類型           | Description                                                                                                                                                                |
+| 屬性                                                     | 存取類型           | 描述                                                                                                                                                                |
 |:-------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Completed**](getvolumeoperation-completed.md)<br/> | 讀取/寫入<br/> | 取得或設定當 [**GetVolumeAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getvolumeasync) 啟動的非同步作業完成時叫用的事件處理常式。 <br/> |
 

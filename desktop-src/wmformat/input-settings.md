@@ -3,26 +3,26 @@ title: 輸入設定
 description: 輸入設定
 ms.assetid: 23adbb64-5733-4198-8f2b-d02052ddb848
 keywords:
-- Windows Media Format SDK，全域常數
+- Windows媒體格式 SDK，全域常數
 - Advanced Systems Format (ASF) 、global 常數
 - ASF (Advanced Systems Format) ，global 常數
 - 全域常數，清單
-- Windows Media Format SDK，常數
+- Windows媒體格式 SDK，常數
 - Advanced Systems Format (ASF) ，常數
 - ASF (Advanced Systems Format) ，常數
 - 常數，清單
-- Windows Media Format SDK，輸入設定
+- Windows媒體格式 SDK，輸入設定
 - Advanced Systems Format (ASF) ，輸入設定
 - ASF (Advanced Systems Format) ，輸入設定
 - 輸入設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f70ef0db6a3d9371bd1c8e9a20157f5f0ac73b3
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9ad72a8a5cc70dc28dcaa7be1e24b721e0b3f644e7694ea5c00d87ba2418846a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118701803"
 ---
 # <a name="input-settings"></a>輸入設定
 
@@ -38,16 +38,16 @@ ms.locfileid: "104023009"
 | g \_ wszInterlacedCoding                 | **WMT \_ 類型 \_ BOOL**                                                                                                                       | 設定為 True 時，會指定編解碼器應該將資料流程編碼為交錯式內容。 如需詳細資訊，請參閱 [使用交錯式影片](to-use-interlaced-video.md)。                                                                                       |
 | g \_ wszJPEGCompressionQuality           | **WMT \_ 類型 \_ DWORD**                                                                                                                      | 指定要用於輸入的 JPEG 品質層級 (從1到 100) 。                                                                                                                                                                                               |
 | g \_ wszWatermarkCLSID                   | **WMT \_ 類型 \_ GUID**                                                                                                                       | 值設定為浮水印 GUID。                                                                                                                                                                                                                                 |
-| g \_ wszWatermarkConfig                  | **WMT \_ 類型 \_ 字串**                                                                                                                     | 值設定為水位線設定。 此值會視浮水印的值而異。 如需詳細資訊，請參閱浮水印系統的檔。                                                                                   |
+| g \_ wszWatermarkConfig                  | **WMT \_ 類型 \_ 字串**                                                                                                                     | 值設定為水位線設定。 此值會隨著浮水印 DMO 而有所不同。 如需詳細資訊，請參閱浮水印系統的檔。                                                                                   |
 
 
 
- 
+ 
 
 > [!Note]  
 > 針對資料流程設定的輸入設定不會保存在寫入的檔案中。 如果您想要讓自訂讀取器擁有這些編碼參數的存取權，您必須建立自訂屬性，以將它們儲存在檔案標頭中。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -59,9 +59,9 @@ ms.locfileid: "104023009"
 [**IWMWriterAdvanced2::SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

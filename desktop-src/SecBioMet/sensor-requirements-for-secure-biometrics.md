@@ -4,12 +4,12 @@ description: 安全生物特徵辨識的感應器需求
 ms.assetid: 6D5709E9-7B6B-4D6C-BF85-C6FB5DF5A7EE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82f4e41f8300a124115c2b6cd380f904f216f491
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ba76ee3b114f79d3c60adfa252f59cd2b8f98aa135e50faf93cf5ecf7314ad99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911790"
 ---
 # <a name="sensor-requirements-for-secure-biometrics"></a>安全生物特徵辨識的感應器需求
 
@@ -279,6 +279,6 @@ typedef struct _WINBIO_ENGINE_INTERFACE {
 
 Windows 10
 
- 
+ 
 
- 
+ 

@@ -1,6 +1,6 @@
 ---
 title: StretchToFit
-description: StretchToFit 屬性會指定或抓取值，指出當影片視窗大於影片影像的尺寸時，Windows Media Player 控制項所顯示的影片是否會自動調整大小以符合影片視窗。
+description: stretchToFit 屬性會指定或抓取值，指出當影片視窗大於影片影像的尺寸時，Windows Media Player 控制項所顯示的影片是否會自動調整大小以符合影片視窗。
 ms.assetid: 9ea02959-602e-4bac-a8aa-dce502d1bb54
 keywords:
 - StretchToFit Windows Media Player
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb7b68042cf2a5bd0e7f718d1e19641edecdf548
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 570d0b9bf7e266af769944b675a85c0ac1518c321d11038ff94cab035dfb316c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995838"
 ---
 # <a name="playerstretchtofit"></a>StretchToFit
 
-**StretchToFit** 屬性會指定或抓取值，指出當影片視窗大於影片影像的尺寸時，Windows Media Player 控制項所顯示的影片是否會自動調整大小以符合影片視窗。
+**stretchToFit** 屬性會指定或抓取值，指出當影片視窗大於影片影像的尺寸時，Windows Media Player 控制項所顯示的影片是否會自動調整大小以符合影片視窗。
 
 ## <a name="syntax"></a>Syntax
 

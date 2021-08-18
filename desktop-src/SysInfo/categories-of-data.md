@@ -4,12 +4,12 @@ ms.assetid: 470d00c1-5975-4a58-9a78-fbed7326a60c
 title: 資料類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 009a3c89d23f713bb2ed08a7f7c53790e08055db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad4bf4abb7af2abf723aa42f3426c58230083d8e575dda176b8eeda0daecb36d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885849"
 ---
 # <a name="categories-of-data"></a>資料類別
 

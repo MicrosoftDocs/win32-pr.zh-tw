@@ -4,12 +4,12 @@ ms.assetid: 3ad4cbd9-ce7c-4882-9c53-c935068c0ba7
 title: TLS 記錄通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a53d41ad73dc9e1338f0cbff1bec5d6cd6a55e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce441de892367b49e1fd4aa285b5398dd5e7c1667d0ea785f6925995c89e1dfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915738"
 ---
 # <a name="tls-record-protocol"></a>TLS 記錄通訊協定
 

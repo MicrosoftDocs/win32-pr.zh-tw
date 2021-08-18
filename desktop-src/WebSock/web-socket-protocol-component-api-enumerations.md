@@ -4,12 +4,12 @@ description: WebSocket 通訊協定元件 API 會定義這些列舉。
 ms.assetid: E655C906-FF38-468F-B9DC-F0CF8323FF88
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db2a6a0886d22470d2c9c246110730c12900a47d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 36e301dd0d609a4beb1ebc021dd189421bafea213ed0f7e8860b94820bd4275b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995028"
 ---
 # <a name="websocket-protocol-component-api-enumerations"></a>WebSocket 通訊協定元件 API 列舉
 

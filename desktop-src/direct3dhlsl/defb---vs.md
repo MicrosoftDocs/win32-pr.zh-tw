@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9bd5ef8ea4218890c025fdebc87154ca1224d33c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e5ace74e275ae63a62306d47d50924e9c4e9a9771027e75659ef72345f69906d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792669"
 ---
 # <a name="defb---vs"></a>defb-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "103933264"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "103933264"
 
 
 
- 
+ 
 
 Defb-vs 指令會定義布林著色器常數，其值會在著色器設定為裝置時載入。 這些都稱為立即常數。 立即的常數優先于 API 方法 SetVertexShaderConstantB 所設定的常數。
 
@@ -69,6 +69,6 @@ Defb-vs 指令會定義布林著色器常數，其值會在著色器設定為裝
 [defi-vs](defi---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

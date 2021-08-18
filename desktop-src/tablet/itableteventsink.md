@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: fc42bfe8a6e69504c35d7926c4c5a8b688404897
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1a773f7b4e08a718c419de2d51c0ff3bd9bba551267188b12889b9ec99d4ded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716457"
 ---
 # <a name="itableteventsink-interface"></a>ITabletEventSink 介面
 
@@ -138,7 +138,7 @@ interface ITabletEventSink: IUnknown
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                              |
 | 程式庫<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

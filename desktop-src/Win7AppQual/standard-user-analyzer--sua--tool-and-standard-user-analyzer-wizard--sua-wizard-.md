@@ -4,23 +4,23 @@ ms.assetid: 229ee531-32b9-4e11-b64c-3ce5b5ab6530
 title: 標準使用者分析器 (SUA) 工具和標準使用者分析器精靈 (SUA 精靈)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99a897c603f185db775c059e4b3dd4a040cba9ad
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 2fa9329f2f42dd8fc3b948388ef44948deca052a919ca50704cbccedc83fca84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994670"
 ---
 # <a name="standard-user-analyzer-sua-tool-and-standard-user-analyzer-wizard-sua-wizard"></a>標準使用者分析器 (SUA) 工具和標準使用者分析器精靈 (SUA 精靈)
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
 **用戶端：** Windows XP、Windows Vista、Windows 7  
-**伺服器：** Windows Server 2003、Windows Server 2008、Windows Server 2008 R2  
+**伺服器：** Windows server 2003、Windows server 2008、Windows Server 2008 R2  
 
 ## <a name="description"></a>描述
 
-應用程式相容性工具組包含標準使用者分析器 (SUA) 工具和標準使用者分析器 Wizard (SUA Wizard) 。 這些工具可讓您測試應用程式，並監視 API 呼叫，以便偵測由於 Windows 7 作業系統中的使用者帳戶控制 (UAC) 功能所造成的潛在相容性問題。
+應用程式相容性工具組包含標準使用者分析器 (SUA) 工具和標準使用者分析器 Wizard (SUA Wizard) 。 這些工具可讓您測試應用程式，並監視 API 呼叫，以偵測由於 Windows 7 作業系統中的「使用者帳戶控制」 (UAC) 功能所造成的潛在相容性問題。
 
 UAC （先前稱為受限的使用者帳戶 (LUA) ）要求 (包括系統管理員群組成員的所有使用者) 以標準使用者身分執行，直到蓄意提高應用程式的許可權。 不過，需要存取權的應用程式以及標準使用者無法使用之位置的許可權，無法正常執行標準使用者角色。
 

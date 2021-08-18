@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7617c7361c5f2ae76331c5f1b59eb845f6806395
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e20b9a1644b2272ee06ff8a792198f79ffebca8b8a971b690c1be1160830aae8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719884"
 ---
 # <a name="specifying-a-namespace-extensions-location"></a>指定命名空間延伸模組的位置
 
@@ -110,7 +110,7 @@ CLSID={Extension CLSID}
 
 
 
-*Objectname* 參數是要查看之物件的名稱。 Windows 檔案總管將名稱轉換為其對應的 PIDL，並將 PIDL 傳遞至新的資料夾物件的 [**IPersistFolder：： Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize) 方法。
+*Objectname* 參數是要查看之物件的名稱。 WindowsExplorer 會將名稱轉換為其對應的 PIDL，並將 PIDL 傳遞至新的資料夾物件的 [**IPersistFolder：： Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize)方法。
 
 > [!Note]  
 > CLSID 字串的前面必須加上一對冒號 (：： ) 或命令將會失敗。 上述兩個範例命令列中使用的斜線-e (/e) 旗標會指示 Windows 檔案總管顯示樹狀檢視。 旗標必須以逗號分隔，並以兩個冒號分隔。 如果您不想要樹狀檢視，請省略/e 旗標和逗號。

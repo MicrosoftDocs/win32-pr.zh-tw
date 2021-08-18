@@ -4,12 +4,12 @@ ms.assetid: 65bb8822-5eb0-46a3-ab9e-c55ae466e982
 title: ASF 媒體接收
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d6bcd3e6b91403185342607e8c4374eb32069c7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 50af8530b1c2b8d9131243cafa67e841289cbbe0691cfcb499b57df68b60b141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106989121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744209"
 ---
 # <a name="asf-media-sinks"></a>ASF 媒體接收
 
@@ -20,7 +20,7 @@ ASF 媒體接收器是編碼管線中的最後一個元件，可讓應用程式�
 -   *Asf 檔案接收* 可用來將 asf 媒體資料封存至檔案。
 -   *Asf 串流接收器* 用來在可透過網路串流處理的位元組資料流程中寫入 asf 內容。
 
-ASF 媒體接收器包含一或多個資料流程接收，其代表要針對輸出 ASF 檔案中的每個資料流程寫入的資料。 針對在 Windows Vista 上執行的應用程式進行編碼，您必須建立及設定 ASF 媒體接收器，然後將它新增至拓撲，以手動方式設定編碼拓撲。 在 Windows 7 中，如果您使用快速轉碼物件來建立拓撲，則不會直接建立媒體接收器，而且應用程式不會呼叫媒體接收或任何資料流程接收上的任何方法。 Fast 轉碼物件可具現化所需的媒體接收，並將其新增至拓撲，然後再傳回呼叫端應用程式的參考。 不過，對於快速轉碼物件，有一些限制會根據編碼類型而套用。
+ASF 媒體接收器包含一或多個資料流程接收，其代表要針對輸出 ASF 檔案中的每個資料流程寫入的資料。 針對 Windows Vista 上執行的應用程式進行編碼，您必須建立及設定 ASF 媒體接收器，然後將它新增至拓撲，以手動方式設定編碼拓撲。 在 Windows 7 中，如果您使用快速轉碼物件來建立拓撲，則不會直接建立媒體接收器，而且應用程式不會呼叫媒體接收或任何資料流程接收上的任何方法。 Fast 轉碼物件可具現化所需的媒體接收，並將其新增至拓撲，然後再傳回呼叫端應用程式的參考。 不過，對於快速轉碼物件，有一些限制會根據編碼類型而套用。
 
 -   [ASF 媒體接收物件模型](#asf-media-sink-object-model)
 -   [ASF 檔接收器](#asf-file-sink)

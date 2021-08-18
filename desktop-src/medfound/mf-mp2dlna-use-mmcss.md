@@ -4,12 +4,12 @@ ms.assetid: 4c27e2ec-624a-4b1f-bea9-3aaad1534c9b
 title: 'MF_MP2DLNA_USE_MMCSS 屬性 (Mfmp2dlna) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccfdaf36ce51f1158e110dcb3682a5b072c060dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79e824451be89bf4aca485edd2c61ce381f0cf4e0a9d5eefff82bf6c99cef2eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104754"
 ---
 # <a name="mf_mp2dlna_use_mmcss-attribute"></a>MF \_ MP2DLNA \_ 使用 \_ MMCSS 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "104026828"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Mfmp2dlna。h</dt> </dl> |
 
 

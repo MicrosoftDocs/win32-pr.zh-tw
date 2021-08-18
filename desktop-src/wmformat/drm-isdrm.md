@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf26b1e6d1d347b0b6754b69d2fa770770c39a0
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 7c7fbf33fdd313126fbee5ffdf3546a08031686f9efb4c888d2ab780e75792cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106969692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118704670"
 ---
 # <a name="drm_isdrm"></a>DRM \_ IsDRM
 
@@ -40,9 +40,9 @@ g \_ wszWMDRM \_ IsDRM
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

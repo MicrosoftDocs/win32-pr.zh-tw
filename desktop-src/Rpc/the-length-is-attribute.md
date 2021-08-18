@@ -6,12 +6,12 @@ keywords:
 - length_is
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f49ad63b2546d39dcc00d251f39143b7eec354c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 436559961d815adb417d83de5ffa8c06d8497fa0899644411d252c84d6e34ea0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924257"
 ---
 # <a name="the-length_is-attribute"></a>\[長度 \_ 為 \] 屬性
 
@@ -34,6 +34,6 @@ interface arraytest
 
 大小描述配置，且長度描述傳輸。 傳送的元素數目必須一律小於或等於配置的元素數目。 與 length 相關聯的值一律小於或等於 **size \_**。 **\_**
 
- 
+ 
 
- 
+ 

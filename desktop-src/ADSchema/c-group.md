@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 618adb97220f4cc1b1e4af7f42fd043c7bb1e6c5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: eae33b53eff8305fee4698c5aed2bb072f3fa5b90a5922d0099e40e90f9b3fe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021906"
 ---
 # <a name="group-class"></a>Group 類別
 
@@ -30,7 +30,7 @@ ms.locfileid: "104106896"
 | 進入 | 值 |
 |-------------------|------------------------------------------------|
 | CN                | Group                                          |
-| Ldap-顯示名稱 | 群組                                          |
+| Ldap-顯示名稱 | group                                          |
 | 更新許可權  | 此值是由網域系統管理員所設定。 |
 | 更新頻率  | \-                                             |
 | 架構識別碼-Guid    | bf967a9c-0de6-11d0-a285-00aa003049e2           |
@@ -93,7 +93,7 @@ ms.locfileid: "104106896"
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**標準名稱**](a-canonicalname.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**註解**](a-info.md)                                                    | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                         |
-| [**一般名稱**](a-cn.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>         |
+| [**一般名稱**](a-cn.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>         |
 | [**控制存取權**](a-controlaccessrights.md)                       | 否     | **群組**                                                                                    |
 | [**建立時間戳記**](a-createtimestamp.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**描述**](a-description.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
@@ -112,8 +112,8 @@ ms.locfileid: "104106896"
 | [**垃圾 Coll 期間**](a-garbagecollperiod.md)                           | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                         |
 | [**群組-屬性**](a-groupattributes.md)                                | 否     | **群組**                                                                                    |
 | [**群組-成員資格-SAM**](a-groupmembershipsam.md)                         | 否     | **群組**                                                                                    |
-| [**群組類型**](a-grouptype.md)                                            | 對      | **群組**                                                                                    |
-| [**實例類型**](a-instancetype.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**群組類型**](a-grouptype.md)                                            | 是      | **群組**                                                                                    |
+| [**實例類型**](a-instancetype.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**已刪除**](a-isdeleted.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**是-DL 的成員**](a-memberof.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
@@ -131,12 +131,12 @@ ms.locfileid: "104106896"
 | [**非安全性成員**](a-nonsecuritymember.md)                           | 否     | **群組**                                                                                    |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**NT 群組-成員**](a-ntgroupmembers.md)                                 | 否     | **群組**                                                                                    |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                     | 對      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                     | 是      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件-類別**](a-objectcategory.md)                                  | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件類別**](a-objectclass.md)                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**物件-類別**](a-objectcategory.md)                                  | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**物件類別**](a-objectclass.md)                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**物件-Guid**](a-objectguid.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件 Sid**](a-objectsid.md)                                            | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
+| [**物件 Sid**](a-objectsid.md)                                            | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**運算子-計數**](a-operatorcount.md)                                    | 否     | **群組**                                                                                    |
 | [**其他知名物件**](a-otherwellknownobjects.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
@@ -155,7 +155,7 @@ ms.locfileid: "104106896"
 | [**代表**](a-repsto.md)                                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**修訂**](a-revision.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**擺脫**](a-rid.md)                                                         | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
-| [**SAM-帳戶-名稱**](a-samaccountname.md)                                 | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
+| [**SAM-帳戶-名稱**](a-samaccountname.md)                                 | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
 | [**SAM-帳戶-類型**](a-samaccounttype.md)                                 | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**安全性-識別碼**](a-securityidentifier.md)                          | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
@@ -205,7 +205,7 @@ ms.locfileid: "104106896"
 
 ## <a name="windows-2000-server-validated-writes"></a>Windows 2000 伺服器驗證的寫入
 
-此類別包含下列適用于 Windows 2000 Server 的已驗證寫入：
+此類別包含下列 Windows 2000 伺服器的已驗證寫入：
 
 
 
@@ -217,7 +217,7 @@ ms.locfileid: "104106896"
 
 ## <a name="windows-2000-server-property-sets"></a>Windows 2000 伺服器屬性集
 
-這個類別包含下列 Windows 2000 伺服器的屬性集：
+這個類別包含 Windows 2000 伺服器的下列屬性集：
 
 
 
@@ -253,7 +253,7 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -273,7 +273,7 @@ ms.locfileid: "104106896"
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**標準名稱**](a-canonicalname.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**註解**](a-info.md)                                                    | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                         |
-| [**一般名稱**](a-cn.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>         |
+| [**一般名稱**](a-cn.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>         |
 | [**控制存取權**](a-controlaccessrights.md)                       | 否     | **群組**                                                                                    |
 | [**建立時間戳記**](a-createtimestamp.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**描述**](a-description.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
@@ -292,8 +292,8 @@ ms.locfileid: "104106896"
 | [**垃圾 Coll 期間**](a-garbagecollperiod.md)                           | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                         |
 | [**群組-屬性**](a-groupattributes.md)                                | 否     | **群組**                                                                                    |
 | [**群組-成員資格-SAM**](a-groupmembershipsam.md)                         | 否     | **群組**                                                                                    |
-| [**群組類型**](a-grouptype.md)                                            | 對      | **群組**                                                                                    |
-| [**實例類型**](a-instancetype.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**群組類型**](a-grouptype.md)                                            | 是      | **群組**                                                                                    |
+| [**實例類型**](a-instancetype.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**已刪除**](a-isdeleted.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**是-DL 的成員**](a-memberof.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
@@ -334,12 +334,12 @@ ms.locfileid: "104106896"
 | [**非安全性成員**](a-nonsecuritymember.md)                           | 否     | **群組**                                                                                    |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**NT 群組-成員**](a-ntgroupmembers.md)                                 | 否     | **群組**                                                                                    |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                     | 對      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                     | 是      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件-類別**](a-objectcategory.md)                                  | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件類別**](a-objectclass.md)                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**物件-類別**](a-objectcategory.md)                                  | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**物件類別**](a-objectclass.md)                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**物件-Guid**](a-objectguid.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件 Sid**](a-objectsid.md)                                            | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
+| [**物件 Sid**](a-objectsid.md)                                            | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**運算子-計數**](a-operatorcount.md)                                    | 否     | **群組**                                                                                    |
 | [**其他知名物件**](a-otherwellknownobjects.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
@@ -358,7 +358,7 @@ ms.locfileid: "104106896"
 | [**代表**](a-repsto.md)                                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**修訂**](a-revision.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**擺脫**](a-rid.md)                                                         | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
-| [**SAM-帳戶-名稱**](a-samaccountname.md)                                 | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
+| [**SAM-帳戶-名稱**](a-samaccountname.md)                                 | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
 | [**SAM-帳戶-類型**](a-samaccounttype.md)                                 | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**secretary**](a-secretary.md)                                             | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                         |
@@ -396,7 +396,7 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2003-extended-rights"></a>Windows Server 2003 擴充許可權
+## <a name="windows-server-2003-extended-rights"></a>Windows伺服器2003擴充許可權
 
 此類別包含 Windows Server 2003 的下列擴充許可權：
 
@@ -408,9 +408,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2003-validated-writes"></a>Windows Server 2003 驗證的寫入
+## <a name="windows-server-2003-validated-writes"></a>Windows伺服器2003驗證的寫入
 
-此類別包含下列 Windows Server 2003 已驗證的寫入：
+此類別包含下列 Windows Server 2003 的已驗證寫入：
 
 
 
@@ -420,9 +420,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2003-property-sets"></a>Windows Server 2003 屬性集
+## <a name="windows-server-2003-property-sets"></a>WindowsServer 2003 屬性集
 
-這個類別包含下列 Windows Server 2003 的屬性集：
+這個類別包含 Windows Server 2003 的下列屬性集：
 
 
 
@@ -482,8 +482,8 @@ ms.locfileid: "104106896"
 | [**DS-核心-傳播-資料**](a-dscorepropagationdata.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**從-進入**](a-fromentry.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**群組類型**](a-grouptype.md)                                           | 對      | **群組**                                                                                    |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**群組類型**](a-grouptype.md)                                           | 是      | **群組**                                                                                    |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
@@ -504,12 +504,12 @@ ms.locfileid: "104106896"
 | [**ms-DS-複寫-屬性中繼資料**](a-msds-replattributemetadata.md)      | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**ms-DS-複製-值中繼資料**](a-msds-replvaluemetadata.md)              | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**ms-DS-服務-帳戶-BL**](a-msds-serviceaccountbl.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件 Sid**](a-objectsid.md)                                           | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
+| [**物件 Sid**](a-objectsid.md)                                           | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)   | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
@@ -600,7 +600,7 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -620,7 +620,7 @@ ms.locfileid: "104106896"
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**標準名稱**](a-canonicalname.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**註解**](a-info.md)                                                    | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                               |
-| [**一般名稱**](a-cn.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> |
 | [**控制存取權**](a-controlaccessrights.md)                       | 否     | **群組**                                                                                                                          |
 | [**建立時間戳記**](a-createtimestamp.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**描述**](a-description.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/>                                                      |
@@ -640,8 +640,8 @@ ms.locfileid: "104106896"
 | [**gidNumber**](a-gidnumber.md)                                             | 否     | [**posixGroup**](c-posixgroup.md)<br/>                                                                                      |
 | [**群組-屬性**](a-groupattributes.md)                                | 否     | **群組**                                                                                                                          |
 | [**群組-成員資格-SAM**](a-groupmembershipsam.md)                         | 否     | **群組**                                                                                                                          |
-| [**群組類型**](a-grouptype.md)                                            | 對      | **群組**                                                                                                                          |
-| [**實例類型**](a-instancetype.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**群組類型**](a-grouptype.md)                                            | 是      | **群組**                                                                                                                          |
+| [**實例類型**](a-instancetype.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**已刪除**](a-isdeleted.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**是-DL 的成員**](a-memberof.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
@@ -689,12 +689,12 @@ ms.locfileid: "104106896"
 | [**非安全性成員**](a-nonsecuritymember.md)                           | 否     | **群組**                                                                                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**NT 群組-成員**](a-ntgroupmembers.md)                                 | 否     | **群組**                                                                                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                     | 對      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                     | 是      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件-類別**](a-objectcategory.md)                                  | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件類別**](a-objectclass.md)                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**物件-類別**](a-objectcategory.md)                                  | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**物件類別**](a-objectclass.md)                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**物件-Guid**](a-objectguid.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件 Sid**](a-objectsid.md)                                            | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
+| [**物件 Sid**](a-objectsid.md)                                            | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**物件版本**](a-objectversion.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**運算子-計數**](a-operatorcount.md)                                    | 否     | **群組**                                                                                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
@@ -713,7 +713,7 @@ ms.locfileid: "104106896"
 | [**代表**](a-repsto.md)                                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**修訂**](a-revision.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**擺脫**](a-rid.md)                                                         | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
-| [**SAM-帳戶-名稱**](a-samaccountname.md)                                 | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
+| [**SAM-帳戶-名稱**](a-samaccountname.md)                                 | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**SAM-帳戶-類型**](a-samaccounttype.md)                                 | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**secretary**](a-secretary.md)                                             | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                               |
@@ -753,7 +753,7 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2003-r2-extended-rights"></a>Windows Server 2003 R2 擴充許可權
+## <a name="windows-server-2003-r2-extended-rights"></a>WindowsServer 2003 R2 擴充許可權
 
 此類別包含 Windows Server 2003 R2 的下列擴充許可權：
 
@@ -765,9 +765,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2003-r2-validated-writes"></a>Windows Server 2003 R2 驗證的寫入
+## <a name="windows-server-2003-r2-validated-writes"></a>WindowsServer 2003 R2 驗證的寫入
 
-此類別包含下列 Windows Server 2003 R2 已驗證的寫入：
+此類別包含下列 Windows Server 2003 R2 的已驗證寫入：
 
 
 
@@ -777,9 +777,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2003-r2-property-sets"></a>Windows Server 2003 R2 屬性集
+## <a name="windows-server-2003-r2-property-sets"></a>WindowsServer 2003 R2 屬性集
 
-此類別包含下列 Windows Server 2003 R2 的屬性集：
+此類別包含 Windows Server 2003 R2 的下列屬性集：
 
 
 
@@ -815,7 +815,7 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -835,7 +835,7 @@ ms.locfileid: "104106896"
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**標準名稱**](a-canonicalname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**註解**](a-info.md)                                                        | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                               |
-| [**一般名稱**](a-cn.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> |
 | [**控制存取權**](a-controlaccessrights.md)                           | 否     | **群組**                                                                                                                          |
 | [**建立時間戳記**](a-createtimestamp.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**描述**](a-description.md)                                             | 否     | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/>                                                      |
@@ -855,8 +855,8 @@ ms.locfileid: "104106896"
 | [**gidNumber**](a-gidnumber.md)                                                 | 否     | [**posixGroup**](c-posixgroup.md)<br/>                                                                                      |
 | [**群組-屬性**](a-groupattributes.md)                                    | 否     | **群組**                                                                                                                          |
 | [**群組-成員資格-SAM**](a-groupmembershipsam.md)                             | 否     | **群組**                                                                                                                          |
-| [**群組類型**](a-grouptype.md)                                                | 對      | **群組**                                                                                                                          |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**群組類型**](a-grouptype.md)                                                | 是      | **群組**                                                                                                                          |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**是-DL 的成員**](a-memberof.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
@@ -922,12 +922,12 @@ ms.locfileid: "104106896"
 | [**非安全性成員**](a-nonsecuritymember.md)                               | 否     | **群組**                                                                                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**NT 群組-成員**](a-ntgroupmembers.md)                                     | 否     | **群組**                                                                                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件 Sid**](a-objectsid.md)                                                | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
+| [**物件 Sid**](a-objectsid.md)                                                | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**運算子-計數**](a-operatorcount.md)                                        | 否     | **群組**                                                                                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
@@ -946,7 +946,7 @@ ms.locfileid: "104106896"
 | [**代表**](a-repsto.md)                                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**修訂**](a-revision.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**擺脫**](a-rid.md)                                                             | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
-| [**SAM-帳戶-名稱**](a-samaccountname.md)                                     | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
+| [**SAM-帳戶-名稱**](a-samaccountname.md)                                     | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**SAM-帳戶-類型**](a-samaccounttype.md)                                     | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**secretary**](a-secretary.md)                                                 | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                               |
@@ -986,7 +986,7 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2008-extended-rights"></a>Windows Server 2008 擴充許可權
+## <a name="windows-server-2008-extended-rights"></a>Windows伺服器2008擴充許可權
 
 此類別包含 Windows Server 2008 的下列擴充許可權：
 
@@ -998,9 +998,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2008-validated-writes"></a>Windows Server 2008 驗證的寫入
+## <a name="windows-server-2008-validated-writes"></a>Windows伺服器2008驗證的寫入
 
-此類別包含下列 Windows Server 2008 已驗證的寫入：
+此類別包含下列 Windows Server 2008 的已驗證寫入：
 
 
 
@@ -1010,9 +1010,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2008-property-sets"></a>Windows Server 2008 屬性集
+## <a name="windows-server-2008-property-sets"></a>WindowsServer 2008 屬性集
 
-這個類別包含下列 Windows Server 2008 的屬性集：
+這個類別包含 Windows Server 2008 的下列屬性集：
 
 
 
@@ -1048,7 +1048,7 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -1068,7 +1068,7 @@ ms.locfileid: "104106896"
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**標準名稱**](a-canonicalname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**註解**](a-info.md)                                                        | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                               |
-| [**一般名稱**](a-cn.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> |
 | [**控制存取權**](a-controlaccessrights.md)                           | 否     | **群組**                                                                                                                          |
 | [**建立時間戳記**](a-createtimestamp.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**描述**](a-description.md)                                             | 否     | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/>                                                      |
@@ -1088,8 +1088,8 @@ ms.locfileid: "104106896"
 | [**gidNumber**](a-gidnumber.md)                                                 | 否     | [**posixGroup**](c-posixgroup.md)<br/>                                                                                      |
 | [**群組-屬性**](a-groupattributes.md)                                    | 否     | **群組**                                                                                                                          |
 | [**群組-成員資格-SAM**](a-groupmembershipsam.md)                             | 否     | **群組**                                                                                                                          |
-| [**群組類型**](a-grouptype.md)                                                | 對      | **群組**                                                                                                                          |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**群組類型**](a-grouptype.md)                                                | 是      | **群組**                                                                                                                          |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**是-DL 的成員**](a-memberof.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
@@ -1162,12 +1162,12 @@ ms.locfileid: "104106896"
 | [**非安全性成員**](a-nonsecuritymember.md)                               | 否     | **群組**                                                                                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**NT 群組-成員**](a-ntgroupmembers.md)                                     | 否     | **群組**                                                                                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件 Sid**](a-objectsid.md)                                                | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
+| [**物件 Sid**](a-objectsid.md)                                                | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**運算子-計數**](a-operatorcount.md)                                        | 否     | **群組**                                                                                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
@@ -1186,7 +1186,7 @@ ms.locfileid: "104106896"
 | [**代表**](a-repsto.md)                                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**修訂**](a-revision.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**擺脫**](a-rid.md)                                                             | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
-| [**SAM-帳戶-名稱**](a-samaccountname.md)                                     | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
+| [**SAM-帳戶-名稱**](a-samaccountname.md)                                     | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**SAM-帳戶-類型**](a-samaccounttype.md)                                     | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**secretary**](a-secretary.md)                                                 | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                               |
@@ -1226,7 +1226,7 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2008-r2-extended-rights"></a>Windows Server 2008 R2 擴充許可權
+## <a name="windows-server-2008-r2-extended-rights"></a>WindowsServer 2008 R2 擴充許可權
 
 此類別包含 Windows Server 2008 R2 的下列擴充許可權：
 
@@ -1238,9 +1238,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2008-r2-validated-writes"></a>Windows Server 2008 R2 驗證的寫入
+## <a name="windows-server-2008-r2-validated-writes"></a>WindowsServer 2008 R2 驗證的寫入
 
-此類別包含下列 Windows Server 2008 R2 已驗證的寫入：
+此類別包含下列 Windows Server 2008 R2 的已驗證寫入：
 
 
 
@@ -1250,9 +1250,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2008-r2-property-sets"></a>Windows Server 2008 R2 屬性集
+## <a name="windows-server-2008-r2-property-sets"></a>WindowsServer 2008 R2 屬性集
 
-此類別包含下列 Windows Server 2008 R2 的屬性集：
+此類別包含 Windows Server 2008 R2 的下列屬性集：
 
 
 
@@ -1288,9 +1288,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -1308,7 +1308,7 @@ ms.locfileid: "104106896"
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**標準名稱**](a-canonicalname.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**註解**](a-info.md)                                                                    | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                               |
-| [**一般名稱**](a-cn.md)                                                                  | 對      | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                                  | 是      | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> |
 | [**控制存取權**](a-controlaccessrights.md)                                       | 否     | **群組**                                                                                                                          |
 | [**建立時間戳記**](a-createtimestamp.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**描述**](a-description.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/> [**posixGroup**](c-posixgroup.md)<br/>                                                      |
@@ -1328,8 +1328,8 @@ ms.locfileid: "104106896"
 | [**gidNumber**](a-gidnumber.md)                                                             | 否     | [**posixGroup**](c-posixgroup.md)<br/>                                                                                      |
 | [**群組-屬性**](a-groupattributes.md)                                                | 否     | **群組**                                                                                                                          |
 | [**群組-成員資格-SAM**](a-groupmembershipsam.md)                                         | 否     | **群組**                                                                                                                          |
-| [**群組類型**](a-grouptype.md)                                                            | 對      | **群組**                                                                                                                          |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**群組類型**](a-grouptype.md)                                                            | 是      | **群組**                                                                                                                          |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**是-DL 的成員**](a-memberof.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
@@ -1398,7 +1398,7 @@ ms.locfileid: "104106896"
 | [**ms-DS-Revealed-List-BL**](a-msds-revealedlistbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**Ms-exch-assistant-name-助理-名稱**](a-msexchassistantname.md)                                      | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                               |
@@ -1412,12 +1412,12 @@ ms.locfileid: "104106896"
 | [**非安全性成員**](a-nonsecuritymember.md)                                           | 否     | **群組**                                                                                                                          |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**NT 群組-成員**](a-ntgroupmembers.md)                                                 | 否     | **群組**                                                                                                                          |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/>                                       |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> [**安全性-主體**](c-securityprincipal.md)<br/>                                       |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
-| [**物件 Sid**](a-objectsid.md)                                                            | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
+| [**物件 Sid**](a-objectsid.md)                                                            | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**運算子-計數**](a-operatorcount.md)                                                    | 否     | **群組**                                                                                                                          |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
@@ -1436,7 +1436,7 @@ ms.locfileid: "104106896"
 | [**代表**](a-repsto.md)                                                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**修訂**](a-revision.md)                                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**擺脫**](a-rid.md)                                                                         | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
-| [**SAM-帳戶-名稱**](a-samaccountname.md)                                                 | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
+| [**SAM-帳戶-名稱**](a-samaccountname.md)                                                 | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**SAM-帳戶-類型**](a-samaccounttype.md)                                                 | 否     | [**安全性-主體**](c-securityprincipal.md)<br/>                                                                       |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                    |
 | [**secretary**](a-secretary.md)                                                             | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                               |
@@ -1476,9 +1476,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012 擴充許可權
+## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012擴充許可權
 
-此類別包含 Windows Server 2012 的下列擴充許可權：
+這個類別包含 Windows Server 2012 的下列擴充許可權：
 
 
 
@@ -1488,9 +1488,9 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2012-validated-writes"></a>Windows Server 2012 驗證的寫入
+## <a name="windows-server-2012-validated-writes"></a>Windows Server 2012驗證的寫入
 
-此類別包含下列 Windows Server 2012 已驗證的寫入：
+這個類別包含下列 Windows Server 2012 的已驗證寫入：
 
 
 
@@ -1500,7 +1500,7 @@ ms.locfileid: "104106896"
 
 
 
-## <a name="windows-server-2012-property-sets"></a>Windows Server 2012 屬性集
+## <a name="windows-server-2012-property-sets"></a>Windows Server 2012屬性集
 
 這個類別包含下列 Windows Server 2012 的屬性集：
 

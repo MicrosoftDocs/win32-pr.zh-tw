@@ -4,12 +4,12 @@ ms.assetid: 484dfea9-301d-4b2b-b5d1-d785ebaa8c8f
 title: 'OPM 保護類型旗標 (Opmapi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cc8b30a18f5c7bf68fb01775751aa56e1e619f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ee61b17ee1708f8c2fc7e2f91b33d966b17f8fd2e198e2772c30ccccf837d04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101887"
 ---
 # <a name="opm-protection-type-flags"></a>OPM 保護類型旗標
 
@@ -17,7 +17,7 @@ ms.locfileid: "106977803"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                     | Description                                                                                                                                                                                                                 |
+| 常數/值                                                                                                                                                                                                                                                                                                     | 描述                                                                                                                                                                                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="OPM_PROTECTION_TYPE_OTHER"></span><span id="opm_protection_type_other"></span><dl> <dt>**OPM \_保護 \_ 類型 \_ 其他**</dt> <dt>0x80000000</dt> </dl>                                                | 未知的保護機制。<br/>                                                                                                                                                                                    |
 | <span id="OPM_PROTECTION_TYPE_NONE"></span><span id="opm_protection_type_none"></span><dl> <dt>**OPM \_保護 \_ 類型 \_ NONE**</dt> <dt>0x00000000</dt> </dl>                                                   | 沒有防護機制。<br/>                                                                                                                                                                                        |
@@ -70,8 +70,8 @@ OPM 語義也支援下列各項：
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

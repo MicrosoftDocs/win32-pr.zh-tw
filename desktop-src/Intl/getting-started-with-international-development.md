@@ -4,12 +4,12 @@ ms.assetid: 80c10bc2-b7e3-4f24-8bac-826149a376c7
 title: 使用國際 Windows 開發開始使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36cc77a86b652f1b713b29517b513cddc26ed801
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c346f03717b5f50c27911891daaea8aa4ed55ce199e7ca807690d2f3185d8114
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949427"
 ---
 # <a name="getting-started-with-international-windows-development"></a>使用國際 Windows 開發開始使用
 
@@ -23,7 +23,7 @@ ms.locfileid: "106992484"
 
 ## <a name="prerequisites"></a>必要條件
 
-您應該熟悉開發 Windows 的國際軟體所產生的問題。 請從這些總覽著手。
+您應該熟悉針對 Windows 開發國際軟體所產生的問題。 請從這些總覽著手。
 
 -   [瞭解國際化](understanding-internationalization.md) 可解釋開發全球化應用程式的額外困難，並定義重要詞彙。
 -   「 [取得全球可用](https://msdn.microsoft.com/goglobal/bb895995.aspx) 」主題將引導您瞭解您可以流覽的指導方針和最佳作法，或視需要深入探討。
@@ -34,14 +34,14 @@ ms.locfileid: "106992484"
 
 ## <a name="learning-paths"></a>學習路徑
 
-您接下來在學習中建立國際軟體時所遵循的路徑，取決於您所面對的案例。 下列案例是以主要區段主題（ [適用于 Windows 應用程式的國際化](international-support.md)）中引進的案例為基礎。
+您接下來在學習中建立國際軟體時所遵循的路徑，取決於您所面對的案例。 下列案例是根據主要區段主題（國際化）在[Windows 應用程式](international-support.md)中所引進。
 
 -   **建立可部署至多個語言之多個區域的應用程式。**
 
     挑戰在於開發不需要針對每種語言或文化特性重寫的應用程式。
 
-    -   請參閱 [瞭解多語系消費者介面 (MUI) ](./about-multilingual-user-interface.md)的文章。
-    -   探索 [多語系消費者介面](multilingual-user-interface.md)的檔。
+    -   請參閱[瞭解多語系消費者介面 (MUI) ](./about-multilingual-user-interface.md)的文章。
+    -   探索[多語系消費者介面](multilingual-user-interface.md)的檔。
     -   開始使用 [HELLO MUI](#the-hello-mui-application) 應用程式。
 
 -   **支援不同語言、字元集和字型的輸入和顯示。**
@@ -70,7 +70,7 @@ ms.locfileid: "106992484"
 
     如果您的應用程式可以決定撰寫文字和使用者輸入的語言，它可以在可理解的語言中顯示提示或協助等內容。
 
-    -   閱讀在 [windows 中撰寫全球可用應用程式的文章： windows 中的擴充語言服務](./using-extended-linguistic-services.md)。
+    -   閱讀[Windows： Windows 的擴充語言服務中撰寫可供世界各地的應用程式](./using-extended-linguistic-services.md)文章。
     -   探索 [ (ELS) 擴充語言服務 ](extended-linguistic-services.md)的檔。
 
 ## <a name="internationalization-technologies-in-the-sdk"></a>SDK 中的國際化技術
@@ -79,7 +79,7 @@ SDK 的國際開發支援區段提供可讓應用程式列舉語言、地區設�
 
 [擴充的語言服務](extended-linguistic-services.md)會提供 Microsoft 專利技術，以文字識別語言和腳本。 您的應用程式可以根據類別以及輸入和輸出語言、腳本和內容類型，判斷可用的服務。
 
-[國際字型和文字顯示](international-fonts-and-text-display.md) 提供有關國際字型、複雜字集和圖像的資訊，以及在 Windows 平臺上轉譯印刷樣式的資訊。
+[國際字型和文字顯示](international-fonts-and-text-display.md)提供有關國際字型、複雜字集和圖像的資訊，以及在 Windows 平臺上進行印刷印刷的詳細資訊。
 
 [輸入方法管理員 (的輸出) ](input-method-manager.md) 是一種技術，可協助應用程式從輸入法編輯器中接收輸入 (輸入法) 軟體，進而允許使用標準鍵盤來輸入字元和符號，例如日文漢字的字元和符號。
 
@@ -87,11 +87,11 @@ SDK 的國際開發支援區段提供可讓應用程式列舉語言、地區設�
 
 國際開發中的一項常見工作，是從單一語言應用程式開始，您必須將該應用程式做好準備。 您需要新增其他語言的支援，但不需要為每個新的語言或文化特性重寫程式碼。
 
-這項工作可讓您有機會提供教學課程，讓您逐步建立 Hello MUI 應用程式，並利用 [多語系消費者介面 (mui) ](multilingual-user-interface.md) 資源模型以及 Windows 中提供的相關支援。
+這項工作可讓您有機會提供教學課程，讓您逐步建立 Hello MUI 應用程式，並使用[多語系消費者介面 (的 mui) ](multilingual-user-interface.md)資源模型以及 Windows 中提供的相關支援。
 
 本教學課程採用熟悉的 Hello World 應用程式的概念，示範如何使用 MUI 來建立基本的多語系應用程式。
 
-您可以在 [將多語系消費者介面支援新增至應用程式](creating-a-multilingual-user-interface-application.md)時，開始 Hello MUI 教學課程。
+您可以在[將多語系消費者介面支援新增至應用程式](creating-a-multilingual-user-interface-application.md)時，開始 Hello MUI 教學課程。
 
  
 

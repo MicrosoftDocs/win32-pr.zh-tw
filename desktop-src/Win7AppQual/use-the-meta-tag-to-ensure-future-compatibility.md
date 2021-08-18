@@ -4,16 +4,16 @@ ms.assetid: 254A1C0D-B24B-4014-8D15-662FC7F2AB81
 title: 使用中繼標記以確保未來的相容性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a69180470c60dffc772f20fe6c515ba3803cbf2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9c0cff3dab146d67303d57c97b2298614c5ae0142b18a3bd2d141fbf90e86ce8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994588"
 ---
 # <a name="use-the-meta-tag-to-ensure-future-compatibility"></a>使用中繼標記以確保未來的相容性
 
-Windows Internet Explorer 8 可讓您控制檔相容性模式，因此您可以指示瀏覽器以與舊版瀏覽器版本相同的方式轉譯網頁。 您也可以選擇何時更新網頁，但仍可繼續使用且正常運作。
+WindowsInternet Explorer 8 可讓您控制檔相容性模式，因此您可以指示瀏覽器以與舊版瀏覽器版本相同的方式來呈現網頁。 您也可以選擇何時更新網頁，但仍可繼續使用且正常運作。
 
 ## <a name="setting-the-meta-element"></a>設定中繼元素
 

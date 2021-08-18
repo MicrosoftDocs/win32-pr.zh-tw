@@ -4,12 +4,12 @@ ms.assetid: 777edb4d-1fb4-4269-8382-8fe73c0c3b23
 title: 密碼篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f76aad9bb2bb722fe7f84b13dc6b5a6bdb7eb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5771fce0e8cbb2826bcf79344e2813587db6dcedc831d7e879b42ab74698b9a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118893997"
 ---
 # <a name="password-filters"></a>密碼篩選
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101435
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d9c6ad2394b4a0d24af133a9ae28785fbb472142
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a958a06d1ada066c6ab748769f9211e21e7c3ff9375406ffef5052342337da8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118780807"
 ---
 # <a name="esentdatabasepatchfilemismatchexception-members"></a>EsentDatabasePatchFileMismatchException 成員
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 7b3ea9f5556f1f919336e4abb4085f9e0c32d81d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e97c5a146c23ce1ecdb2ba77cde5d37cd9091fc9d77e288042f02fc118816e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965587"
 ---
 # <a name="iwiaerrorhandler-interface"></a>IWiaErrorHandler 介面
 
@@ -58,10 +58,10 @@ ms.locfileid: "104113896"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |
 
 

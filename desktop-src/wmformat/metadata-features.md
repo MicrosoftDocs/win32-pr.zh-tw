@@ -3,8 +3,8 @@ title: 中繼資料功能
 description: 中繼資料會在 ASF 檔案中用來描述檔案內容和屬性。
 ms.assetid: 01ba09d7-11be-46b1-a0f2-4e35ca5502a8
 keywords:
-- Windows Media Format SDK，中繼資料功能
-- Windows Media Format SDK，功能
+- Windows媒體格式 SDK，中繼資料功能
+- Windows媒體格式 SDK，功能
 - Advanced Systems Format (ASF) ，中繼資料功能
 - ASF (Advanced Systems Format) ，中繼資料功能
 - Advanced Systems Format (ASF) ，功能
@@ -12,18 +12,18 @@ keywords:
 - 中繼資料，功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ea31885a1c1635ee4778683858876572e32262
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 6865e54f2eeabcb96dd88df27aba578a9169ed84857d17af5602848041f24118
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104374801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118700450"
 ---
 # <a name="metadata-features"></a>中繼資料功能
 
-中繼資料會在 ASF 檔案中用來描述檔案內容和屬性。 您建立的所有 ASF 檔案都應該包含適當的中繼資料。  (如需總覽，請參閱 [中繼資料](metadata.md)。 ) Windows MEDIA 格式 SDK 支援透過寫入器物件、中繼資料編輯器物件，以及讀取器和同步讀取器物件來編輯中繼資料。 包含各種中繼資料屬性的原生支援。 如需預先定義的屬性清單，請參閱 [屬性](attributes.md) 。
+中繼資料會在 ASF 檔案中用來描述檔案內容和屬性。 您建立的所有 ASF 檔案都應該包含適當的中繼資料。  (如需總覽，請參閱[中繼資料](metadata.md)。 ) Windows 媒體格式 SDK 包含透過寫入器物件、中繼資料編輯器物件，以及讀取器和同步讀取器物件的中繼資料編輯支援。 包含各種中繼資料屬性的原生支援。 如需預先定義的屬性清單，請參閱 [屬性](attributes.md) 。
 
-Windows Media Format SDK 的各種物件所提供的中繼資料支援有彈性且功能強大。 下列清單摘要說明主要的中繼資料功能：
+Windows 媒體格式 SDK 的各種物件所提供的中繼資料支援有彈性且功能強大。 下列清單摘要說明主要的中繼資料功能：
 
 -   彈性的屬性大小。 中繼資料屬性的大小不限。
 -   資料流程層級屬性。 ASF 檔案中的中繼資料可以指派給整個檔案，或指派給特定的資料流程。
@@ -37,12 +37,12 @@ Windows Media Format SDK 的各種物件所提供的中繼資料支援有彈性�
 
 | 主題                                  | 描述                                                                             |
 |----------------------------------------|-----------------------------------------------------------------------------------------|
-| [ID3 支援](id3.md)                 | 討論如何使用 Windows Media Format SDK 的物件來支援 ID3 框架。 |
+| [ID3 支援](id3.md)                 | 討論使用 Windows 媒體格式 SDK 的物件來支援 ID3 框架。 |
 | [自訂中繼資料](custom-metadata.md) | 討論使用自訂中繼資料的含意。                                    |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -63,9 +63,9 @@ Windows Media Format SDK 的各種物件所提供的中繼資料支援有彈性�
 [**中繼資料**](metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
