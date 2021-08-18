@@ -1,9 +1,9 @@
 ---
 title: 'WM_DDE_ACK 訊息 (的) '
-description: WM \_ dde \_ 通知訊息會通知動態資料交換 (DDE) 應用程式的接收和處理下列訊息： wm dde 傳送 \_ \_ 、WM \_ dde \_ 執行、wm \_ DDE \_ 資料、WM \_ dde \_ 建議、wm \_ dde \_ UNADVISE、wm dde \_ \_ 初始，或 wm \_ dde \_ 要求 (在某些情況下) 。 若要張貼此訊息，請使用下列參數呼叫 PostMessage 函數。
+description: wm \_ dde \_ 通知訊息會通知動態資料交換 (DDE) 應用程式的接收和處理下列訊息： wm dde 傳送 \_ \_ 、wm \_ dde \_ 執行、wm \_ dde \_ 資料、wm \_ dde \_ 建議、wm \_ dde \_ UNADVISE、wm dde \_ \_ 初始，或 wm \_ dde \_ 要求 (在某些情況下) 。 若要張貼此訊息，請使用下列參數呼叫 PostMessage 函數。
 ms.assetid: aca47dbf-e1f2-4725-8364-0aa7fcd98bd9
 keywords:
-- WM_DDE_ACK 訊息資料交換
+- WM_DDE_ACK 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a407fc6cad7077586539f119dd65be59a507cacd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf1aad39115e1bdb68208a9ccbb0d83eea934ef2ff8c6521a0602e081c7ed811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636238"
 ---
 # <a name="wm_dde_ack-message"></a>WM \_ DDE \_ ACK 訊息
 
-**Wm \_ dde \_** 通知訊息會通知動態資料交換 (DDE) 應用程式接收和處理下列訊息： [**wm \_ dde \_**](wm-dde-poke.md)傳送、 [**wm \_ dde \_ 執行**](wm-dde-execute.md)、 [**wm \_ dde \_ 資料**](wm-dde-data.md)、 [**wm \_ dde \_ 建議**](wm-dde-advise.md)、 [**wm \_ dde \_ UNADVISE**](wm-dde-unadvise.md)、 [**wm dde \_ \_ 起始**](wm-dde-initiate.md)或 [**wm \_ dde \_ 要求**](wm-dde-request.md) (在某些情況下) 。
+**wm \_ dde \_** 通知訊息會通知動態資料交換 (DDE) 應用程式接收和處理下列訊息： [**wm \_ dde \_**](wm-dde-poke.md)傳送、 [**wm \_ dde \_ 執行**](wm-dde-execute.md)、 [**wm \_ dde \_ 資料**](wm-dde-data.md)、 [**wm \_ dde \_ 建議**](wm-dde-advise.md)、 [**wm \_ dde \_ UNADVISE**](wm-dde-unadvise.md)、 [**wm dde \_ \_ 起始**](wm-dde-initiate.md)或 [**wm \_ dde \_ 要求**](wm-dde-request.md) (在某些情況下) 。
 
 若要張貼此訊息，請使用下列參數呼叫 [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) 函數。
 
@@ -90,7 +90,7 @@ ms.locfileid: "104025016"
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt> (包含 Windows. h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Dde. h (包含 Windows .h) </dt> </dl> |
 
 
 

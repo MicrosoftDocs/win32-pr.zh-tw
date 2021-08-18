@@ -1,6 +1,6 @@
 ---
 title: " (WinNT 提供者，密碼永遠不會過期) "
-description: 若要使用 WinNT ADSI 提供者來啟用此選項，請 \_ \_ \_ \_ 在 USERFLAGS 屬性上設定 ADS (0x10000) 旗標的 [不會讓 PASSWD 過期]。請注意，在 Windows 2000 和更新版本中，請使用 LDAP ADSI 提供者進行使用者管理作業，如下所示。
+description: 若要使用 WinNT ADSI 提供者來啟用此選項，請 \_ \_ \_ \_ 在 USERFLAGS 屬性上設定 ADS (0x10000) 旗標的 [不會讓 PASSWD 過期]。請注意，Windows 2000 和更新版本中，請使用 LDAP ADSI 提供者進行使用者管理作業，如下所示。
 ms.assetid: 9e38b31c-399b-447f-bceb-36c599b2714e
 ms.tgt_platform: multiple
 keywords:
@@ -9,19 +9,19 @@ keywords:
 - WinNT 提供者 ADSI、使用者管理範例、密碼永遠不會到期
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 343871e7ba8748b3e406f7c84a5a34c01a2793a7
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: b47cdd7dc181c2875e8de06b66233d727c5b132963921b163b02fc09cbdc051d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106999964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082162"
 ---
 # <a name="password-never-expires-winnt-provider"></a> (WinNT 提供者，密碼永遠不會過期) 
 
 若要使用 WinNT ADSI 提供者來啟用此選項，請在 **UserFlags** 屬性上設定 ADS (0x10000) 旗標的 [不會讓 **\_ \_ \_ \_ PASSWD 過期**]。
 
 > [!Note]  
-> 若為 Windows 2000 和更新版本，請使用 LDAP ADSI 提供者進行使用者管理作業，如下所示。 如需詳細資訊，請參閱 [ (LDAP 提供者) 的密碼永不過期 ](password-never-expires.md)。
+> 針對 Windows 2000 和更新版本，請使用 LDAP ADSI 提供者進行使用者管理作業，如下所示。 如需詳細資訊，請參閱 [ (LDAP 提供者) 的密碼永不過期 ](password-never-expires.md)。
 
  
 

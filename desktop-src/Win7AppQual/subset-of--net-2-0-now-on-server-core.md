@@ -28,7 +28,7 @@ ms.locfileid: "118994628"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Windows server 2008 R2 的 server Core 安裝選項現在包含 .NET Framework 2.0 的子集。 子集是 .NET 2.0 中與 Server Core 中的功能相符的功能;未將任何二進位檔新增至 Server Core 基底，以允許 .NET 2.0 的任何部分正常運作。
 

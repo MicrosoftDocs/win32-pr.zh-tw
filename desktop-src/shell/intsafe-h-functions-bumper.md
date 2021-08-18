@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d744f59f910b9eebd4fc2d0c23d592e89e9cb5ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b8ed950110eb2dcca8ebb9d75d6fcd9c78bcdc876ba80d27cc02b9c4e90f921
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969127"
 ---
 # <a name="intsafeh-functions"></a>Intsafe .h 函數
 

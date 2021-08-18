@@ -2270,7 +2270,7 @@
               href: /windows/desktop/api/Vfw/nf-vfw-icqueryconfigure
             - name: ICSetState
               href: /windows/desktop/api/Vfw/nf-vfw-icsetstate
-            - name: 最大值
+            - name: max
               href: max.md
             - name: MCI_HMS_HOUR
               href: mci-hms-hour.md

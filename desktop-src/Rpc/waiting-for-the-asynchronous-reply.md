@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、等候非同步回復
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0890b3024a05bb704f7b5a803c4b1e517c65ee21
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ff50357402d96c32444f077d07558c01ed93d0367514e947643a28bf3041f204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010476"
 ---
 # <a name="waiting-for-the-asynchronous-reply"></a>等候非同步回復
 
@@ -26,11 +26,11 @@ ms.locfileid: "104315886"
 > [!Note]  
 > 如果在非同步呼叫期間引發 RPC 例外狀況，則不會從非同步 RPC 常式傳回完成的通知。
 
- 
+ 
 
 如果您的用戶端程式使用 i/o 完成埠來接收完成通知，則必須呼叫 [**GetQueuedCompletionStatus**](/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) 函數。 當它執行時，它可以無限期地等候回應，或繼續執行其他處理。 如果它在等候回復時進行其他處理，它必須使用 **GetQueuedCompletionStatus** 函式來輪詢完成埠。 在此情況下，通常需要將 *dwMilliseconds* 設定為零。 這會導致 **GetQueuedCompletionStatus** 立即傳回，即使非同步呼叫尚未完成。
 
-用戶端程式也可以透過其視窗訊息佇列接收完成通知。 在此情況下，他們只會處理完成訊息，就像處理任何 Windows 訊息一樣。
+用戶端程式也可以透過其視窗訊息佇列接收完成通知。 在這種情況下，他們只會處理完成訊息，就像 Windows 訊息一樣。
 
 在多執行緒應用程式中，只有在發出呼叫的執行緒已成功從呼叫傳回之後，用戶端才可以取消非同步呼叫。 這可確保呼叫不會在失敗同步呼叫之後，由另一個執行緒以非同步方式取消。 如同標準做法，同步失敗的非同步呼叫不應該以非同步方式取消。 如果可以在不同的執行緒上發出和取消呼叫，用戶端應用程式必須觀察到此行為。 此外，在取消呼叫之後，用戶端程式代碼必須等待完成通知並完成呼叫。 [**RpcAsyncCancelCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccancelcall)函式只會尖峰完成通知;它不是完成通話的替代方案。
 
@@ -85,6 +85,6 @@ if (!GetQueuedCompletionStatus(
 
 撰寫多執行緒應用程式時，會發生一種可能的缺陷。 如果執行緒叫用遠端程序呼叫，然後在收到傳送完成的通知之前終止，則遠端程序呼叫可能會失敗，而且用戶端 stub 可能會關閉與伺服器的連接。 因此，呼叫遠端程式的執行緒不應在呼叫完成之前終止，或在不需要行為時取消。
 
- 
+ 
 
- 
+ 

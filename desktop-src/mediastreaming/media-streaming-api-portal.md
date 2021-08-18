@@ -1,17 +1,17 @@
 ---
-title: Windows Media 串流 API
-description: Windows Media 串流 API
+title: Windows媒體串流 API
+description: Windows媒體串流 API
 ms.assetid: 24b2824b-59ea-4479-80c3-f4515285edfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 703720c596f3c53adbcc40ae078673934644dc8e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 899be7e80801cfb85b539a719736c2bd8ffe92dd3e6d09dbef05fd5cb804cf87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972167"
 ---
-# <a name="windows-media-streaming-api"></a>Windows Media 串流 API
+# <a name="windows-media-streaming-api"></a>Windows媒體串流 API
 
 ## <a name="purpose"></a>目的
 

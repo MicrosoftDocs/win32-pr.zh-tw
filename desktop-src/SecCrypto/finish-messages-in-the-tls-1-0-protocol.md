@@ -4,12 +4,12 @@ ms.assetid: 1ae92223-3729-48be-af42-146c9cbae6a5
 title: 在 TLS 1.0 通訊協定中完成訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5a0f0f3e85916e66d434cb3e69b083348e40143
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7e9af7502f0865661e2ed0f6a80059cb822395002ccaf035373dc3db322adac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006976"
 ---
 # <a name="finish-messages-in-the-tls-10-protocol"></a>在 TLS 1.0 通訊協定中完成訊息
 

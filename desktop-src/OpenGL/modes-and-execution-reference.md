@@ -7,12 +7,12 @@ keywords:
 - OpenGL、執行參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5bb496fd7c081908133f26897520934a81ae0b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d58b288c2098d81225dc15de8f8634676aba6a4b8f225e8db50c6d230a30554e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144171"
 ---
 # <a name="modes-and-execution-reference"></a>模式和執行參考
 
@@ -23,9 +23,9 @@ ms.locfileid: "106965974"
 -   [**glHint**](glhint.md)
 -   [**glIsEnabled**](glisenabled.md)
 
- 
+ 
 
- 
+ 
 
 
 

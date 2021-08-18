@@ -4,12 +4,12 @@ ms.assetid: 65db8ba5-193c-439b-8e8c-6cb4a9bd4efd
 title: 'NOTIFICATION_MASK (KtmTypes) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3650c10f619cf45db34d9172476261838897a5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c17391d2b406b3f7a3ee9a3a868bc1b6734050c787fdbb432785e5be0b917468
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146541"
 ---
 # <a name="notification_mask"></a>通知 \_ 遮罩
 
@@ -272,7 +272,7 @@ TM 已上線並接受要求。
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                                  |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                                            |
-| 標頭<br/>                   | <dl> <dt>KtmTypes (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>KtmTypes (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f9455cb7f34344e49363573432c00c6a86138a2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57f4c34deefe6850605a4bbe30837f266346b87f8347d8eb9f1f2effb71df697
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968757"
 ---
 # <a name="using-image-factory-sample"></a>使用影像 Factory 範例
 
@@ -44,7 +44,7 @@ ms.locfileid: "104026909"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [UsingImageFactory 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/UsingImageFactory) |
 

@@ -4,12 +4,12 @@ ms.assetid: 163291ce-78bd-43ee-98ca-564ce91c520c
 title: 多工處理的優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 119e327ba07a226a8422c61a100d6ff000b48ed9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 811bab71242022babc2a555225a9d02b248f42a03db28cfe1f636f4feb8fb962
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143141"
 ---
 # <a name="advantages-of-multitasking"></a>多工處理的優點
 

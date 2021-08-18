@@ -9,12 +9,12 @@ keywords:
 - 屬性快取 ADSI，使用 IADsProperty 介面存取屬性快取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b48cd8675f4c439e3d3597e2d4fa59dac57e0896
-ms.sourcegitcommit: 460af18ea55f4b12d47d5b8d4b883896e21adf00
+ms.openlocfilehash: 9a68cd77a10d6631b52e48ed19650dd5cd18dff0ee59ba2332db73b7fce1a8bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "103932843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024116"
 ---
 # <a name="accessing-property-cache-with-iadsproperty-interfaces"></a>存取具有 IADsProperty 介面的屬性快取
 
@@ -29,9 +29,9 @@ ms.locfileid: "103932843"
 
 如需可用來執行這些介面的詳細資訊和程式碼範例，請參閱 [使用 IADsProperty 介面存取屬性快取的範例程式碼](example-code-for-using-iadsproperty-interfaces-to-access-the-property-cache.md)。
 
- 
+ 
 
- 
+ 
 
 
 

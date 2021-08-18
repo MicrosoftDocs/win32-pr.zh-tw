@@ -4,16 +4,16 @@ ms.assetid: 31390138-b1d0-4f0b-9304-6e7c69e6a736
 title: 指定目錄結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80a87880921799158559e28fed2c6dde97c9a331
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbc71e448c03a7fdbdf9de249122246aaf0038769a1dd409551330a503be7e2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627888"
 ---
 # <a name="specifying-directory-structure"></a>指定目錄結構
 
-安裝程式會將安裝目錄結構的相關資訊保留在 [目錄資料表](directory-table.md)中。 請參閱 [核心資料表群組](core-tables-group.md)。 在本節中，您會將「記事本」範例的目錄結構資訊新增至您在匯 [入空白資料庫](importing-a-blank-database.md)時所建立的空資料庫。 使用 SDK 或其他編輯器提供的資料庫編輯器 Orca，在 MNP2000.msi 中開啟目錄資料表。 使用編輯器，將下列資料輸入到空白目錄資料表中。
+安裝程式會將安裝目錄結構的相關資訊保留在 [目錄資料表](directory-table.md)中。 請參閱 [核心資料表群組](core-tables-group.md)。 在本節中，您會將記事本範例的目錄結構資訊新增至您在匯[入空白資料庫](importing-a-blank-database.md)中建立的空資料庫。 使用 SDK 或其他編輯器提供的資料庫編輯器 Orca，在 MNP2000.msi 中開啟目錄資料表。 使用編輯器，將下列資料輸入到空白目錄資料表中。
 
 [目錄資料表](directory-table.md)
 
@@ -27,7 +27,7 @@ ms.locfileid: "103848186"
 | HOLDIR                                           | MONDIR                                           | .：假日        |
 | MENUDIR                                          | NOTEPADDIR                                       | 功能表              |
 | MONDIR                                           | NOTEPADDIR                                       | 門              |
-| NOTEPADDIR                                       | [**ProgramFilesFolder**](programfilesfolder.md) | 紅色 \_ 公園：記事本 |
+| NOTEPADDIR                                       | [**ProgramFilesFolder**](programfilesfolder.md) | Red \_ 公園：記事本 |
 | SPORTDIR                                         | NOTEPADDIR                                       | 運動：活動     |
 
 

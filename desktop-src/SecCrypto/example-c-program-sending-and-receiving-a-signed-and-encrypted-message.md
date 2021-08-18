@@ -4,12 +4,12 @@ ms.assetid: f2863e4a-d22a-4ff0-91d8-052eeaade14e
 title: 範例 C 程式：傳送和接收已簽署和已加密的訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7c2ce7c5ba04d6fb57afbb0c15e32c115dcbd5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac7bdfdfd664d278fe72d81743e7116eb64a11099ef37b43200d55378472c383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007536"
 ---
 # <a name="example-c-program-sending-and-receiving-a-signed-and-encrypted-message"></a>範例 C 程式：傳送和接收已簽署和已加密的訊息
 

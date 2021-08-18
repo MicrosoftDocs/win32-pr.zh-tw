@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: 38236a48cdd5197f7f19ef9be3f6fc0f1faca72c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9300eb74027d25562dabb9a596face10105110d1750b359bcaae9ab6b2b83084
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634698"
 ---
 # <a name="d3dx10createdevice-function"></a>D3DX10CreateDevice 函式
 
@@ -70,7 +70,7 @@ HRESULT D3DX10CreateDevice(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**
@@ -104,7 +104,7 @@ HRESULT D3DX10CreateDevice(
 -   您只能使用 [**D3D10CreateDevice1**](/windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdevice1) 函式來建立 Direct3D 10.1 裝置。
 -   您可以使用 [**D3DX10GetFeatureLevel1**](d3dx10getfeaturelevel1.md)函數，從 [**ID3D10Device**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device)介面指標取得 [**ID3D10Device1**](/windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10device1)介面指標。
 
-只能在執行 Windows Vista Service Pack 1 或更新版本的電腦上，以及安裝 Direct3D 10.1 相容硬體的電腦上建立 Direct3D 10.1 裝置。 不過，在執行任何已安裝 D3DX10 DLL 的 Windows 版本的電腦上呼叫此函式是合法的。
+只有在執行 Windows Vista Service Pack 1 或更新版本的電腦上，以及安裝 direct3d 10.1 相容的硬體時，才能建立 Direct3D 10.1 裝置。 不過，在執行任何已安裝 D3DX10 DLL 的 Windows 版本的電腦上呼叫此函式是合法的。
 
 ## <a name="requirements"></a>規格需求
 

@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - WinSpool.Drv
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 490221b15ed1e3c7dad3a4cb523c15e9ec484b13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b8b413854f8634477f7fec9010f4306587a093bd5c791b1b7d0117b6c3ef91f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971157"
 ---
 # <a name="writeprinter-function"></a>WritePrinter 函式
 
@@ -100,9 +100,9 @@ BOOL WritePrinter(
 5.  視需要針對任意數量的頁面重複2、3和4。
 6.  若要結束列印工作，請呼叫 [**EndDocPrinter**](enddocprinter.md)。
 
-當高階檔 (（例如 Adobe PDF 或 Microsoft Word 檔案）) 或其他印表機資料 (這類 PCL、PS 或 HPGL) 直接傳送到印表機時，檔中定義的列印設定會優先于 Windows 列印設定。 當在 [**StartDocPrinter**](startdocprinter.md)呼叫的 *pDocInfo* 參數中傳遞的 [**DOC \_ INFO \_ 1**](doc-info-1.md)結構之 *pDatatype* 成員的值為「未經處理」時，檔會輸出，必須完整地以硬體理解的語言描述 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)樣式的列印工作設定。
+當高階檔 (（例如 Adobe PDF 或 Microsoft Word 檔案) 或其他印表機資料 (這類 PCL、PS 或 HPGL) 直接傳送到印表機時，檔中定義的列印設定會優先于 Windows 列印設定。 當在 [**StartDocPrinter**](startdocprinter.md)呼叫的 *pDocInfo* 參數中傳遞的 [**DOC \_ INFO \_ 1**](doc-info-1.md)結構之 *pDatatype* 成員的值為「未經處理」時，檔會輸出，必須完整地以硬體理解的語言描述 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)樣式的列印工作設定。
 
-在 Windows XP 之前的 Windows 版本中，當多工緩衝處理檔案中的頁面超過大約 350 MB 時，可能會無法列印，且不會傳送錯誤訊息。 例如，列印大型 EMF 檔案時可能會發生這種情況。 Windows XP 之前的 Windows 版本中的頁面大小限制取決於許多因素，包括可用的虛擬記憶體數量、呼叫進程所配置的記憶體數量，以及進程堆積中的片段量。 在 Windows XP 和更新版本的 Windows 中，EMF 檔案的大小必須小於或等於2GB。 如果使用 **WritePrinter** 來寫入非 EMF 資料（例如印表機就緒的 PDL），檔案的大小只受限於可用磁碟空間。
+在 Windows XP 之前的 Windows 版本中，當多工緩衝處理檔案中的頁面超過大約 350 MB 時，可能會無法列印，且不會傳送錯誤訊息。 例如，列印大型 EMF 檔案時可能會發生這種情況。 Windows XP 之前的 Windows 版本中的頁面大小限制取決於許多因素，包括可用的虛擬記憶體數量、呼叫進程所配置的記憶體數量，以及進程堆積中的片段量。 在 Windows XP 和更新版本的 Windows 中，EMF 檔案的大小必須小於或等於2gb。 如果使用 **WritePrinter** 來寫入非 EMF 資料（例如印表機就緒的 PDL），檔案的大小只受限於可用磁碟空間。
 
 ## <a name="examples"></a>範例
 
@@ -116,7 +116,7 @@ BOOL WritePrinter(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Spoolss.dll</dt> </dl>                    |
 

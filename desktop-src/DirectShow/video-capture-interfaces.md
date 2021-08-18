@@ -4,16 +4,16 @@ ms.assetid: a7ec6607-d6fe-4cf4-b3f2-8636c4d15982
 title: 影片捕獲介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7c88ab86833a3570789dee311b36d49f382c9cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bfee9807a94f381fef3a294dcd405de6fe8b67fafef3ace562309fe5e10d2ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633058"
 ---
 # <a name="video-capture-interfaces"></a>影片捕獲介面
 
-這些介面支援影片捕捉、使用 Microsoft® Windows®驅動程式模型 (WDM) 裝置或適用于 Windows®® VFW (裝置的舊版 Microsoft) 影片。
+這些介面支援影片捕捉、使用 Microsoft® Windows®驅動程式模型 (WDM) 裝置或舊版 Microsoft®影片，Windows® (VFW) 裝置。
 
 
 

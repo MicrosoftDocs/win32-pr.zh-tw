@@ -11,12 +11,12 @@ keywords:
 - 設定可安裝的驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7804e4d92d30d666d4d28c253a1a44572a707daa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8d1f5079878ba3da60484efb8afccc2effbbd8ec7212dfd339ab0cba5f43653a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112403921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144961"
 ---
 # <a name="configuration-windows-multimedia"></a>Configuration (Windows 多媒體) 
 

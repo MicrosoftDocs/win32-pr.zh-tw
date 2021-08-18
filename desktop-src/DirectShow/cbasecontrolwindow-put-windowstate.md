@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1944e9bd39816cd1f022296b69fdac60d0779f1a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4769aff01c251017734fd7152fa703cd51064db11fb91851fd0b8fed76fc3d96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635698"
 ---
 # <a name="cbasecontrolwindowput_windowstate-method"></a>CBaseControlWindow. put \_ system.windows.window.windowstate 方法
 

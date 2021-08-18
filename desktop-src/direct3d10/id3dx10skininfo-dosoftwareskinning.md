@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 54dfe909e36be0273e0679a824ff0674b0e3b38c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 20f68f51d6886d53d74cd31691e52c362c60d2bf9be2beb0656564cb20fcb80a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119729808"
 ---
 # <a name="id3dx10skininfodosoftwareskinning-method"></a>ID3DX10SkinInfo：:D oSoftwareSkinning 方法
 

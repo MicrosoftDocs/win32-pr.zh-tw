@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d872a5f9ebf716142fb5bc506edb77bb0b66850a
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 5b5fcef771d6d06a1691d5c5e953b76b1c445c7c8df7b2da37b8b4220bef2b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485428"
 ---
 # <a name="texm3x3spec---ps"></a>texm3x3spec-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104373763"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104373763"
 
 
 
- 
+ 
 
 此指令會執行3x3 矩陣相乘的最後一個資料列，使用產生的向量做為一般向量以反映眼睛的向量，然後使用反映的向量來執行材質查閱。 著色器會從常數暫存器讀取眼睛光線向量。 3x3 矩陣相乘通常適用于將一般向量定位至所呈現介面的正確正切空間。
 
@@ -132,9 +132,9 @@ mov r0, t3                // Output the result
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

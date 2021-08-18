@@ -4,12 +4,12 @@ ms.assetid: 1567d9d3-7839-42f0-9507-7bbf61d8eaf2
 title: 交易式訊息佇列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4730b20f4014cdf7c76462d3f2cae272695d907
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b3282a95d4f9a3ba451e78fe4d9f17acf007b0007abea4fdb4951de9c1540383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636728"
 ---
 # <a name="transactional-message-queuing"></a>交易式訊息佇列
 

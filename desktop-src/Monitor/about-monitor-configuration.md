@@ -22,12 +22,12 @@ keywords:
 - 監視設定、廠商功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60d8e2f3d463bc84acaf8b48f493f5a0118976ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f5f3d8c56521c07d704fe586f486298d0e679d1bfc33e25a29d943aa92dd66e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146181"
 ---
 # <a name="about-monitor-configuration"></a>關於監視設定
 
@@ -51,9 +51,9 @@ ms.locfileid: "104507177"
 [監視設定](monitor-configuration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

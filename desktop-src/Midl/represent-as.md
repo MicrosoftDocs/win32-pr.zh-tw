@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a17d0b8915e75bb3065b394ef76900bd8efb5e0c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c76576a7d6710c54573ff78186b3cf6d347afc8c4c242fd6e4c1d49865fb521f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146361"
 ---
 # <a name="represent_as-attribute"></a>表示 \_ 為屬性
 
@@ -68,7 +68,7 @@ void __RPC_USER named-type_to_local (
 
 
 
-| 常式名稱                   | Description                                                                                                                                                                                                |
+| 常式名稱                   | 描述                                                                                                                                                                                                |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *\_ \_ 來自本機的命名類型 * * * \_** | 將資料從本機類型轉換為網路類型。 常式會配置網路資料類型的記憶體，包括網路資料類型中指標所參考之任何資料的記憶體。              |
 | *命名 \_ 類型 * * * \_ 至 \_ 本機**   | 將資料從網路類型轉換成區欄位型別。 常式負責為本機類型中的指標所參考的資料配置記憶體。 RPC 會為本機類型本身配置記憶體。 |
@@ -77,7 +77,7 @@ void __RPC_USER named-type_to_local (
 
 
 
- 
+ 
 
 用戶端 stub 會 *\_ 從 \_ 本機 * 呼叫名為 type * ***，以配置已傳送類型的空間，以及將資料從本機類型轉譯為網路類型。 伺服器 stub 會配置原始資料類型的空間，並呼叫 *名稱為 * * * 的 \_ \_ 本機**，將資料從網路類型轉譯為本機類型。
 
@@ -134,9 +134,9 @@ interface iface
 [**void**](void.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

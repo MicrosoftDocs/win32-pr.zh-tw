@@ -4,12 +4,12 @@ ms.assetid: 01ce4d21-1a0c-44a8-91ef-5e300e7c6c9a
 title: 關於電源管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14605d07521ac963194bbac4d4baecd961973ee3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f390e40ee495e5448fdceebb336d58c2a92f3dd92da2d7a90f4842eb8858edb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103693027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143731"
 ---
 # <a name="about-power-management"></a>關於電源管理
 
@@ -17,7 +17,7 @@ Windows 作業系統提供一組完整且全系統的電源管理功能。 這�
 
 電源管理功能和訊息會取出系統電源狀態、通知應用程式電源管理事件，以及通知系統每個應用程式的電源需求。 本總覽包含下列主題：
 
--   [Windows 電源管理](windows-power-management.md)
+-   [Windows電源管理](windows-power-management.md)
 -   [系統電源狀態](system-power-status.md)
 -   [系統電源狀態](system-power-states.md)
 -   [系統電源管理事件](system-power-management-events.md)

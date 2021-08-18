@@ -1,19 +1,19 @@
 ---
-description: Microsoft XPS Document Writer (MXDW) 可讓使用者從任何 Windows 應用程式進行列印，以建立 XPS 檔檔。
+description: Microsoft XPS document Writer (MXDW) 可讓使用者從任何 Windows 應用程式進行列印，以建立 XPS 檔檔。
 ms.assetid: 1fa50337-2df7-48d3-a179-0ca5ae3dfda3
-title: MXDW 設定
+title: MXDW Configuration 設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4026a99baa33ec50bc3ad129ef6610a428f83ab
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 7a75d45ea3ad9c8c74280d1e70e418ee0bf4823d1f0332e3d5c772d29976cf2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106986453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971187"
 ---
-# <a name="mxdw-configuration-settings"></a>MXDW 設定
+# <a name="mxdw-configuration-settings"></a>MXDW Configuration 設定
 
-Microsoft XPS Document Writer (MXDW) 可讓使用者從任何 Windows 應用程式進行列印，以建立 XPS 檔檔。 應用程式開發人員可以使用 [列印架構](./printschema.md)的 PrintTicket 和 PrintCapabilities 部分，來控制 MXDW 的下列輸出設定。
+Microsoft XPS document Writer (MXDW) 可讓使用者從任何 Windows 應用程式進行列印，以建立 XPS 檔檔。 應用程式開發人員可以使用 [列印架構](./printschema.md)的 PrintTicket 和 PrintCapabilities 部分，來控制 MXDW 的下列輸出設定。
 
 ## <a name="jobinterleaving"></a>JobInterleaving
 

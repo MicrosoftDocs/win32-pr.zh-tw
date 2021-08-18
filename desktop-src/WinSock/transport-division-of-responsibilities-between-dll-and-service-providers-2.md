@@ -4,12 +4,12 @@ ms.assetid: e1ea1e99-a2bc-4e76-91f6-e388c39dfbbb
 title: DLL 與服務提供者之間的傳輸責任劃分
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 142ac98c95e95c310c2eefb7bfdaf1f70a03bf28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33c256cb03bcc9e3f8746db5196c21fc2de0a8b157304a205587b275acc0bbb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733218"
 ---
 # <a name="transport-division-of-responsibilities-between-dll-and-service-providers"></a>DLL 與服務提供者之間的傳輸責任劃分
 
@@ -36,7 +36,7 @@ Ws2 \_32.dll 依賴 API 通訊端建立函式的參數 ( [**通訊端**](/window
 
 服務提供者會執行實際的傳輸通訊協定，其中包含設定連接、傳輸資料、執行流量控制和錯誤控制等功能。Ws2 \_32.dll 並不知道如何實現服務提供者的要求，這取決於服務提供者的執行。 這類函式的執行可能會與另一個提供者有很大的差異。 服務提供者會隱藏網路作業如何完成的特定執行方式詳細資料。
 
-傳輸服務提供者大致上可以分為兩類：其通訊端描述項為實際檔案系統控制碼 (，且在此稱為可安裝的檔案系統 (IFS) 提供者;其餘部分稱為非 IFS 提供者。 Ws2 \_32.dll 一律會將傳輸服務提供者的通訊端描述項上傳至 Windows 通訊端應用程式，讓應用程式可以自由使用通訊端描述項（如果有的話）來利用檔案系統控制碼。
+傳輸服務提供者大致上可以分為兩類：其通訊端描述項為實際檔案系統控制碼 (，且在此稱為可安裝的檔案系統 (IFS) 提供者;其餘部分稱為非 IFS 提供者。 Ws2 \_32.dll 一律會將傳輸服務提供者的通訊端描述項上傳至 Windows 通訊端應用程式，因此應用程式可以自由使用通訊端描述項（如果有的話）來利用檔案系統控制碼。
 
 摘要說明：服務提供者會執行低層級的網路特定通訊協定。 Ws2 \_32.dll 提供可將這些傳輸通訊協定與應用程式互連的中等層級流量管理。 接著，應用程式會提供如何使用這些流量串流和網路特定作業來完成使用者所需功能的原則。
 

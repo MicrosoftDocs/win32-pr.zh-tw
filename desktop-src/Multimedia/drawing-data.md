@@ -12,12 +12,12 @@ keywords:
 - ICDrawEnd 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62f598ef47bbbf6b8f53c7fb2639c9ddff1390ab
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6dcbb9f0c9c39da17c4f60af3dfb9c3a7e0179ebf4c8ed6e5bcac4cdc6f24828
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496708"
 ---
 # <a name="drawing-data"></a>繪製資料
 
@@ -55,9 +55,9 @@ ICDrawEnd(hIC);    // ends decompression
 
 
 
- 
+ 
 
- 
+ 
 
 
 

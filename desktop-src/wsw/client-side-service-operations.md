@@ -3,17 +3,17 @@ title: 用戶端服務作業
 ms.assetid: 9d6e2441-91de-4108-b1c4-282fbca5fe7c
 description: 深入瞭解：用戶端服務作業
 keywords:
-- 適用于 Windows 的用戶端服務作業 Web 服務
+- Windows 的用戶端服務作業 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4cd00bfbd832db12a722363bf5b1af8f7298345
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e73ccbb0c742d0be09570b0959c9c1a663d7f4d0f054cc88070d842ac6d954ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657298"
 ---
 # <a name="client-side-service-operations"></a>用戶端服務作業
 
@@ -125,7 +125,7 @@ hr = WsAbandonCall(serviceProxy, 5, error);
 -   **WS \_E 作業已 \_ \_ 放棄**：已放棄呼叫。 錯誤物件包含放棄的原因。
 -   **WS \_E \_ 無效 \_** 的作業：服務 proxy 不是處於適當的狀態，無法進行呼叫，請檢查服務 proxy 狀態以找出服務 proxy 的狀態。
 
-如需傳回值的完整清單，請參閱 [Windows Web 服務傳回值](windows-web-services-return-values.md)。
+如需傳回值的完整清單，請參閱[Windows Web 服務傳回值](windows-web-services-return-values.md)。
 
 ### <a name="code-examples"></a>程式碼範例
 

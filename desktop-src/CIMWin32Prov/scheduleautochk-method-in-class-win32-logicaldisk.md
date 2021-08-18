@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2707810d919c119aff35f2313e9aa5218f7948f0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7e4920bdded79a7f63cbe7beaf28a70837ad7a47c2b28a1e37d83208b4f4e6f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588188"
 ---
 # <a name="scheduleautochk-method-of-the-win32_logicaldisk-class"></a>Win32 LogicalDisk 類別的 ScheduleAutoChk 方法 \_
 

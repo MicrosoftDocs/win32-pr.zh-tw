@@ -8,12 +8,12 @@ keywords:
 - 列舉 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 459aa59bc0f7907f59a4cd5a7e5fcb4f1b2630d8
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: c10d5aed5688e7128a64a32dee2f83efa22ab5bf292231517026299ccb592886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104023125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023906"
 ---
 # <a name="adsi-enumerations"></a>ADSI 列舉
 
@@ -56,11 +56,11 @@ Active Directory 服務介面 (ADSI) 定義和使用下表所列的列舉。
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
-由於 Visual Basic Scripting Edition 的應用程式無法從型別程式庫讀取資料，因此 VBScript 應用程式無法辨識這些列舉中所定義的符號常數。 請改用數值常數來設定 VBScript 應用程式中適當的旗標。 若要使用符號常數作為良好的程式設計實務，請在 VBScript 應用程式中撰寫這類常數的明確宣告（如這裡所述）。
+由於 Visual Basic 腳本撰寫版應用程式無法從類型程式庫讀取資料，因此 VBScript 應用程式無法辨識這些列舉中所定義的符號常數。 請改用數值常數來設定 VBScript 應用程式中適當的旗標。 若要使用符號常數作為良好的程式設計實務，請在 VBScript 應用程式中撰寫這類常數的明確宣告（如這裡所述）。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -72,9 +72,9 @@ Active Directory 服務介面 (ADSI) 定義和使用下表所列的列舉。
 [**IADsPathname：： Set**](/windows/desktop/api/Iads/nf-iads-iadspathname-set)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

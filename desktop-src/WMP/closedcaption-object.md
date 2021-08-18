@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 85e53468e8d5cc2694555b9a05d8b207d1660618
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 10ae51af31e724bd066dbbb9e826569da40159460eb1e7bf570aea331dff86be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104022693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119591"
 ---
 # <a name="closedcaption-object"></a>ClosedCaption 物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "104022693"
 
 
 
- 
+ 
 
 **ClosedCaption** 物件支援下列方法。
 
@@ -53,7 +53,7 @@ ms.locfileid: "104022693"
 
 
 
- 
+ 
 
 **ClosedCaption** 物件是透過下列屬性來存取。
 
@@ -65,7 +65,7 @@ ms.locfileid: "104022693"
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -77,9 +77,9 @@ ms.locfileid: "104022693"
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

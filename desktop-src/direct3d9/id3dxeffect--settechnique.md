@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: e93fbff9eb74e8885675b7ccf4ea69cc53d5da53
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7b10190df7c4527535a35c2c352933ec652452d51804e23b8aad338e6ca40522
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987540"
 ---
 # <a name="id3dxeffectsettechnique-method"></a>ID3DXEffect：： SetTechnique 方法
 

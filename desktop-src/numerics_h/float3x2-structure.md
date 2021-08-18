@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9351fae9636ca2512825c7df5383eddf1558583e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 24d403446fa3544bdb001c065e9874f812a829680e19a5e6b526ed12276fd6e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971757"
 ---
 # <a name="float3x2-structure"></a>float3x2 結構
 
@@ -39,7 +39,7 @@ ms.locfileid: "106991009"
 
 ## <a name="functions"></a>函式
 
-| Name | 描述 |
+| 名稱 | 描述 |
 |-|-|
 | `float3x2 make_float3x2_translation(float2 const& position)` | 建立轉移矩陣。 |
 | `float3x2 make_float3x2_translation(float xPosition, float yPosition)` | 建立轉移矩陣。 |
@@ -67,7 +67,7 @@ ms.locfileid: "106991009"
 
 ## <a name="operators"></a>運算子
 
-| Name | 描述 |
+| 名稱 | 描述 |
 |-|-|
 | `float3x2 operator+ (float3x2 const& value1, float3x2 const& value2)` | 將矩陣的每個元件加入至另一個矩陣。 |
 | `float3x2 operator- (float3x2 const& value1, float3x2 const& value2)` | 從另一個矩陣減去矩陣的每個元件。 |

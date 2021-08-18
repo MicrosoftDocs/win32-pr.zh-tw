@@ -35,7 +35,7 @@ ms.locfileid: "118994738"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Microsoft 已將 Windows Vista USB 驅動程式堆疊 (WPDUSB.SYS) 的核心模式元件取代為使用一般 (驅動程式) WPD WINUSB.SYS 的 Windows 可攜式裝置。 與原始 WPDUSB.SYS 驅動程式進行通訊的方式，是透過私用 i/o 控制項 (IOCTL) 程式碼;這些服務的支援也已被移除。
 

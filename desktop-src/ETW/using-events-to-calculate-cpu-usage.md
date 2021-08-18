@@ -4,12 +4,12 @@ ms.assetid: 7bc15ed3-d299-40dd-9838-520f896921e3
 title: 使用事件計算 CPU 使用量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3884cfcd8ef4b0a8ba3db836013dfa7aa6d1b9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1b66be283a0b42ef185e5d2e44619e719625ac136f730c9821ddfcd0c6442ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069278"
 ---
 # <a name="using-events-to-calculate-cpu-usage"></a>使用事件計算 CPU 使用量
 

@@ -4,12 +4,12 @@ ms.assetid: 672ad753-210b-41c3-b8c7-e041ce7b1671
 title: 裝置通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7caeee8ba50a62a3bc393172347be09d1ac58085
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 12186ab6349057258d723f7e690e889b7e79af4abe47f714055599cb6f648333
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636618"
 ---
 # <a name="device-notifications"></a>裝置通知
 

@@ -4,12 +4,12 @@ ms.assetid: 6faeb1e3-ea6e-4cb1-a1e6-2a9a81b4c0c7
 title: 將材質直接對應至 (Direct3D 9) 的圖元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f86e9d05acff402128ddb83fc97898ff6a21d7c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7294b88fb8b672aea980dbb23cb4e7c5bbd2bfdbf4d33a5078a09dbfa3084d0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988258"
 ---
 # <a name="directly-mapping-texels-to-pixels-direct3d-9"></a>將材質直接對應至 (Direct3D 9) 的圖元
 
@@ -95,7 +95,7 @@ float4 TextureLookupPS( float2 vTexCoord : TEXCOORD0 ) : COLOR
 
 上圖說明從 (-0.5，-0.5) 到 (3.5，3.5) ) 所顯示的四 (完全符合柵格化區域。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 總而言之，圖元和材質實際上是點，而非穩固的區塊。 螢幕空間源自左上角圖元，但材質座標源自材質方格的左上角。 最重要的是，當您在轉換的螢幕空間中工作時，請記得從頂點位置的 x 和 y 元件減去0.5 單位，以便正確地對齊材質與圖元。
 

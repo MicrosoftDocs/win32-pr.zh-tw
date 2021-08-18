@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9db9e85e158f546a3a8780f1211ecd7a7dfc3c42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 903b751b405c103313c0f83c38687e08ee7bb36a33ae803bd175b6ad91c559cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068618"
 ---
 # <a name="cim_virtualsystemmanagementservice-class"></a>CIM \_ VirtualSystemManagementService 類別
 

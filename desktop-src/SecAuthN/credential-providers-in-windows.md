@@ -4,18 +4,18 @@ ms.assetid: BCF69196-D4E4-41D0-B372-5000FD50164B
 title: Windows 10 中的認證提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12a7947000e5d5a989f71dcdddd808a8e1d5ab3f
-ms.sourcegitcommit: cd9672511263d04c0e4bc41758dd1d9e89ea92b4
+ms.openlocfilehash: 38543127709007407c013a2a8ff047f7c91f4440351653061e894f4e7c2d90d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "104321307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008796"
 ---
 # <a name="credential-providers-in-windows-10"></a>Windows 10 中的認證提供者
 
 認證提供者是使用者驗證的主要機制，它們目前是唯一的方法，可讓使用者證明登入和其他系統驗證案例所需的身分識別。 使用 Windows 10 和引入 Microsoft Passport，認證提供者比以往更重要;這些應用程式會用來驗證應用程式、網站等等。
 
-Microsoft 提供各種不同的認證提供者作為 Windows 的一部分，例如密碼、PIN、智慧卡和 Windows Hello (指紋、臉部和鳶尾花辨識) 。 在本文中，這些稱為「系統認證提供者」。 Oem、企業和其他實體可以撰寫自己的認證提供者，並輕鬆地將其整合到 Windows 中。 在本文中，這些稱為「協力廠商認證提供者」。 請注意，Windows 10 中支援 V1 和 V2 認證提供者。 協力廠商認證提供者的建立者和管理員必須瞭解這些建議。
+Microsoft 提供各種不同的認證提供者作為 Windows 的一部分，例如密碼、PIN、智慧卡和 Windows Hello (指紋、臉部和鳶尾花辨識) 。 在本文中，這些稱為「系統認證提供者」。 Oem、企業和其他實體可以撰寫自己的認證提供者，並輕鬆地將其整合至 Windows。 在本文中，這些稱為「協力廠商認證提供者」。 請注意，Windows 10 中支援 V1 和 V2 認證提供者。 協力廠商認證提供者的建立者和管理員必須瞭解這些建議。
 
 ## <a name="system-credential-providers"></a>系統認證提供者
 
@@ -39,13 +39,13 @@ MSA/AD/AAD 帳戶使用者已設定協力廠商認證提供者，並會定期使
 
 ## <a name="custom-credential-providers"></a>自訂認證提供者
 
-Windows 認證提供者架構可讓開發人員建立自訂認證提供者。 當 [Winlogon](winlogon.md) 想要收集認證時，登入 UI 會查詢每個認證提供者，以瞭解其想要列舉的認證數目。 當所有提供者都列舉其磚之後，登入 UI 就會向使用者顯示。 然後，使用者會與磚互動以提供必要的認證。 登入 UI 會提交這些認證以進行驗證。 認證提供者也可以在需要認證時由認證 UI 使用。 請參閱 [**認證 \_ 提供者 \_ 使用 \_ 案例**](/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario) ，以取得可支援認證提供者的案例清單。
+Windows 的認證提供者架構可讓開發人員建立自訂認證提供者。 當 [Winlogon](winlogon.md) 想要收集認證時，登入 UI 會查詢每個認證提供者，以瞭解其想要列舉的認證數目。 當所有提供者都列舉其磚之後，登入 UI 就會向使用者顯示。 然後，使用者會與磚互動以提供必要的認證。 登入 UI 會提交這些認證以進行驗證。 認證提供者也可以在需要認證時由認證 UI 使用。 請參閱 [**認證 \_ 提供者 \_ 使用 \_ 案例**](/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario) ，以取得可支援認證提供者的案例清單。
 
 感謝這個系統，建立比以往更容易的認證提供者。 大部分的工作都是由 [Winlogon](winlogon.md)、登入 UI 和認證 ui 的組合來處理。 若要這樣做，您必須建立自己的 [**ICredentialProvider**](/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider) 和 [**ICredentialProviderCredential**](/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential)執行。 如果您正在執行 V2 認證提供者，建議您也需要執行 [**ICredentialProviderCredential2**](/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential2)。
 
 請務必注意，認證提供者不是強制性機制。 它們只是用來收集和序列化認證，並提交認證以供授權之用。 本機授權單位和驗證套件將會處理，以及任何必要的安全性強制。
 
-結合認證提供者與支援的硬體，您可以擴充 Windows 以支援使用生物識別資訊、密碼、Pin、智慧卡憑證或您選擇建立的任何自訂驗證套件來進行登入。 您也可以透過各種方式自訂使用者的登入體驗。 例如，當登入 UI 查詢認證提供者的認證提供者時，您可以指定預設磚來為使用者提供自訂的體驗。 認證提供者甚至可以設計成支援單一登入 (SSO) 、驗證使用者對安全存取點以及電腦登入。
+結合認證提供者與支援的硬體，您可以擴充 Windows，以支援使用生物識別資訊、密碼、pin、智慧卡憑證或您選擇建立的任何自訂驗證套件來進行登入。 您也可以透過各種方式自訂使用者的登入體驗。 例如，當登入 UI 查詢認證提供者的認證提供者時，您可以指定預設磚來為使用者提供自訂的體驗。 認證提供者甚至可以設計成支援單一登入 (SSO) 、驗證使用者對安全存取點以及電腦登入。
 
 認證提供者會在 Windows 電腦上註冊，並負責下列各項。
 
@@ -67,7 +67,7 @@ Windows 認證提供者架構可讓開發人員建立自訂認證提供者。 �
 
 <dl> <dt>
 
-[認證提供者驅動的 Windows 登入體驗](https://go.microsoft.com/fwlink/?LinkId=717287)
+[認證提供者導向的 Windows 登入體驗](https://go.microsoft.com/fwlink/?LinkId=717287)
 </dt> <dt>
 
 [ICredentialProvider](/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider)

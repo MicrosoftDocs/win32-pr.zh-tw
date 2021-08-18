@@ -4,12 +4,12 @@ ms.assetid: 00f69593-f03b-4f30-aeec-db3fda0ac356
 title: 取得進程堆積
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: caffc8dcc69b02ab671b379dbb5e133e65f8d448
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52b055bd558d12506d5a900c369365cb497e3817dbfa1fd53dd6506f6a919eab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067838"
 ---
 # <a name="getting-process-heaps"></a>取得進程堆積
 

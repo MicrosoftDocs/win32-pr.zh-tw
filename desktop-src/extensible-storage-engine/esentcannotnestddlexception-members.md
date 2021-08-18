@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101182
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 608334041c1d8913b90a33a89776e63acf273dee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7e1477951485f7a05b7eb878f34518b6c9f1f3c0e455d0d1066be6ac7b2cc89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622388"
 ---
 # <a name="esentcannotnestddlexception-members"></a>EsentCannotNestDDLException 成員
 

@@ -1,19 +1,19 @@
 ---
 title: ALE 重新授權
-description: 在應用層強制執行應用層的網路流量 (的 Windows 篩選平台的 ALE) 層 (WFP) 是由 ALE 流程篩選。
+description: 在應用層強制執行的網路流量 (Windows 篩選平台的 ale) 層 (以 ale 流程篩選 WFP) 。
 ms.assetid: 3cc7f78e-3f9d-4a91-8ea0-9b64c299068a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed05c4c0767d449ec128250f852c365455bd0dc7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 850cd7f789c1fb1222a0d6820e84a42cf41763dac4e57b96667e7feda364374c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582688"
 ---
 # <a name="ale-reauthorization"></a>ALE 重新授權
 
-在應用層強制執行應用層的網路流量 (的 Windows 篩選平台的 ALE) 層 (WFP) 是由 [ALE 流程](ale-stateful-filtering.md)篩選。 一旦允許 ALE 流程，就會允許屬於 ALE 流程的所有流量。 重新授權是驗證 ALE 流程許可權的要求，通常是因為網路原則有變更。
+在應用層強制執行的網路流量 (Windows 篩選平台的 ale) 層 (以[ale 流程](ale-stateful-filtering.md)篩選 WFP) 。 一旦允許 ALE 流程，就會允許屬於 ALE 流程的所有流量。 重新授權是驗證 ALE 流程許可權的要求，通常是因為網路原則有變更。
 
 ALE 流程會根據觸發流程建立和授權的第一個封包方向，指派一個方向（輸入或輸出）。 輸入 ALE 流程是在 [**FWPM \_ 層的 \_ ale \_ 驗證 \_ 接收 \_ 接受 \_ V {4 \| 6}**](management-filtering-layer-identifiers-.md) 層建立和授權的。 **FWPM \_ LAYER \_ ale \_ AUTH \_ CONNECT \_ V {4 \| 6}** 層會建立和授權輸出 ALE 流程。 ALE 流程的方向不會限制屬於流程的封包方向。 ALE 流程包含輸入和輸出封包，而不考慮 ALE 流程本身的方向。
 
@@ -55,7 +55,7 @@ ALE 流程會根據觸發流程建立和授權的第一個封包方向，指派�
 
 只有初始授權可以延後。 如果已設定 [ [**\_ 已設定 \_ \_ \_ 重新授權**](filtering-condition-flags-.md) 旗標] 旗標，呼叫 FwpsPendOperation0 將會失敗。
 
-如需詳細資訊，請參閱 [Windows 驅動程式套件](/windows-hardware/drivers/ddi/_netvista/) 檔。
+如需詳細資訊，請參閱[Windows 驅動程式套件](/windows-hardware/drivers/ddi/_netvista/)檔。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -73,9 +73,9 @@ ALE 流程會根據觸發流程建立和授權的第一個封包方向，指派�
 [ALE 多播/廣播流量](ale-multicast-broadcast-traffic.md)
 </dt> <dt>
 
-[ALE 流程自訂](ale-flow-customization.md)
+[ALE Flow 自訂](ale-flow-customization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

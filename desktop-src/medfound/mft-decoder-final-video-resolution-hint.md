@@ -4,12 +4,12 @@ ms.assetid: 067867D8-155C-4406-BE07-720016B2AEBC
 title: 'MFT_DECODER_FINAL_VIDEO_RESOLUTION_HINT 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7bbc0f01ef2a1d7062c6ab58c528b015383fc68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 847a2925f2249c741e9a45a1dcc4826a1cbe3d6bb12cda4d8017ee0fb5de0069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973137"
 ---
 # <a name="mft_decoder_final_video_resolution_hint-attribute"></a>MFT \_ 解碼器 \_ 最終 \_ 影片 \_ 解析 \_ 提示屬性
 
@@ -36,7 +36,7 @@ ms.locfileid: "104191780"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 

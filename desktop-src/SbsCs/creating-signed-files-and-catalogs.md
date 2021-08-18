@@ -4,12 +4,12 @@ ms.assetid: 61337ea6-2d6b-4080-9128-5b8527512ce6
 title: 建立已簽署的檔案和目錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df1327ed2d64c6f7be9f14acc2c846cf8a887119
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf9abcccc2451cfa9461bc8129705c1094291b33fea609679c89ef46d7cf7348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142321"
 ---
 # <a name="creating-signed-files-and-catalogs"></a>建立已簽署的檔案和目錄
 

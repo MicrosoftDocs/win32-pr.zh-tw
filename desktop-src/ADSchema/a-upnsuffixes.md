@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4aa5fb9398478e4b91fb8f36b8cf96a244935fd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8ff893bdd3fa5ec5b9a42c02dfe6d3bd994e7d8fc9e680d3162c49f07c1c5ec8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021976"
 ---
 # <a name="upn-suffixes-attribute"></a>UPN-Suffixes 屬性
 

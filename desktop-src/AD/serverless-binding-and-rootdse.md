@@ -10,12 +10,12 @@ keywords:
 - Active Directory、Using、Binding、無伺服器系結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 492a1ed115c4b0d9160305eb54b08c24db86abb8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2d3c88386ae95efdebd031199e135ff4c5d610e402b9cba522256df5eef097e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024926"
 ---
 # <a name="serverless-binding-and-rootdse"></a>無伺服器系結和 RootDSE
 
@@ -49,6 +49,6 @@ RootDSE 是每個目錄伺服器上已知且可靠的位置，可取得網域、
 
 如需詳細資訊和示範如何使用無伺服器系結和 rootDSE 的程式碼範例，請參閱 [取得網域辨別名稱的範例程式碼](example-code-for-getting-the-distinguished-name-of-the-domain.md)。
 
- 
+ 
 
- 
+ 

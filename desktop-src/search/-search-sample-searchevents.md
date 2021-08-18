@@ -4,12 +4,12 @@ ms.assetid: a352c3e2-5860-4b9c-a3c7-a806f69b4f7d
 title: SearchEvents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21472d113694a41a3c7855c0fdaf8f2fa2b3b2e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98f6687de8a9e4816968a3134abf76f8b10e02f42d90a2578626be035843621c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969707"
 ---
 # <a name="searchevents"></a>SearchEvents
 
@@ -34,12 +34,12 @@ SearchEvents 程式碼範例會示範如何設定索引事件的優先順序。
 
 下列位置提供此範例。
 
-| Location      | 路徑 URL                                                                  |
+| 位置      | 路徑 URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
 | GitHub        | [SearchEvents 範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/SearchEvents)    |
 
 > [!NOTE]  
-> 針對所有 Windows 版本（包括 Windows 7），建議您直接從 GitHub 下載最新版本的範例。
+> 針對所有版本的 Windows （包括 Windows 7），建議您直接從 GitHub 下載這些範例，以取得最新版本。
 
 ## <a name="building-the-sample"></a>建立範例
 
@@ -47,7 +47,7 @@ SearchEvents 程式碼範例會示範如何設定索引事件的優先順序。
 2. 按兩下事件 .sln 檔案的圖示，在 Visual Studio 中開啟專案。
   
     > [!NOTE]  
-    > .Sln 檔案是在舊版 Visual Studio 下建立的，因此，如果您執行 Visual Studio 2012 或更新版本，則需要進行升級。 這不會影響範例的行為。
+    > .sln 檔案是在舊版 Visual Studio 下建立的，因此，如果您執行 Visual Studio 2012 或更新版本，則需要進行升級。 這不會影響範例的行為。
 
 3. 從 [ **組建** ] 功能表選取 [ **建立方案**]。
 

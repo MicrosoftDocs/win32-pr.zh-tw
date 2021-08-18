@@ -4,12 +4,12 @@ description: WinSNMP 應用程式可以要求 Microsoft WinSNMP 實行執行應�
 ms.assetid: 1f1a9589-3566-4d90-ac4d-7acf69f34676
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f2e47d983f8da62ccb8ffbe9c20b35c71bfbb70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 63737f8cb4a0fcdb8c6e3824d07cbc7c592c1f7e9813e8751197fcd1d64ad786
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009426"
 ---
 # <a name="managing-the-retransmission-policy"></a>管理重新傳輸原則
 
@@ -26,7 +26,7 @@ WinSNMP 應用程式可以要求 Microsoft WinSNMP 實行執行應用程式的�
 
 
 
- 
+ 
 
 藉由呼叫 [**SnmpGetRetransmitMode**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetretransmitmode) 函式，可讓您隨時取得目前的重新傳輸模式，以取得目前的重新傳輸模式。 WinSNMP API 提供其他 [資料庫功能](winsnmp-functions.md) ，可簡化重新傳輸原則的管理。
 
@@ -38,9 +38,9 @@ WinSNMP 應用程式可以要求 Microsoft WinSNMP 實行執行應用程式的�
 
 應用程式可以執行它自己的重新傳輸原則。 在此情況下，執行可能會或可能不會以資料庫中的值為基礎。
 
- 
+ 
 
- 
+ 
 
 
 

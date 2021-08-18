@@ -4,12 +4,12 @@ ms.assetid: beaf3d67-de2b-4b30-812f-1659386a1bfc
 title: 範例 C 程式：簽署訊息和驗證訊息簽章
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9022b165f586fb293b4de12ec7a8e9f00680b691
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 363b5accb301bc4a3bf46d5f9e6d1fa00fe4f2e52b2e130a543f38ce271b254e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007456"
 ---
 # <a name="example-c-program-signing-a-message-and-verifying-a-message-signature"></a>範例 C 程式：簽署訊息和驗證訊息簽章
 

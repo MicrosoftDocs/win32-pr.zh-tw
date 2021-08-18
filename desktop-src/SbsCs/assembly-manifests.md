@@ -4,12 +4,12 @@ ms.assetid: f7973019-0a80-498e-adf1-c66267c813f4
 title: 組件資訊清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 254702d5044331fa5d47def815556dbd8edef2f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5d7c6739bc83e56a42a926ca6aecb739fc41bbf39225cc531afc7afc6706ccc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142511"
 ---
 # <a name="assembly-manifests"></a>組件資訊清單
 
@@ -96,7 +96,7 @@ ms.locfileid: "104193293"
 </dl>
 
 > [!Note]  
-> 由於並存搜尋私用元件的方式，因此封裝 DLL 做為私用元件時，將會套用下列命名限制。 執行這項操作的建議方式是將組件資訊清單放在 DLL 中做為資源。 在此情況下，資源識別碼必須等於1，而且私用元件的名稱可能與 DLL 的名稱相同。 例如，如果 DLL 的名稱是 Microsoft.Windows.mysample.dll，資訊清單之 **assemblyIdentity** 專案中所使用的 name 屬性（attribute）值也可以是 mysample。 另一種方式是將組件資訊清單放在不同的檔案中。 在此情況下，元件的名稱及其資訊清單必須與 DLL 的名稱不同。 例如，mysampleAsm、mysampleAsm，以及 Microsoft.Windows.Mysample.dll 的範例中。 如需如何並存搜尋私用元件的詳細資訊，請參閱 [元件搜尋序列](assembly-searching-sequence.md)。
+> 由於並存搜尋私用元件的方式，因此封裝 DLL 做為私用元件時，將會套用下列命名限制。 執行這項操作的建議方式是將組件資訊清單放在 DLL 中做為資源。 在此情況下，資源識別碼必須等於1，而且私用元件的名稱可能與 DLL 的名稱相同。 例如，如果 DLL 的名稱是 Microsoft.Windows.mysample.dll，則資訊清單的 **assemblyIdentity** 專案中所使用之 name 屬性的值也可能是 Microsoft。Windows. mysample。 另一種方式是將組件資訊清單放在不同的檔案中。 在此情況下，元件的名稱及其資訊清單必須與 DLL 的名稱不同。 例如，Microsoft。Windows mysampleAsm，Microsoft。Windows mysampleAsm 資訊清單，並 Microsoft.Windows.Mysample.dll。 如需如何並存搜尋私用元件的詳細資訊，請參閱 [元件搜尋序列](assembly-searching-sequence.md)。
 
  
 
@@ -150,9 +150,9 @@ Assembly 元素必須在命名空間 "urn：架構-microsoft-com： asm" 中。 
 | 屬性                 | 描述                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | 指定元件類型。 此值必須是 win32 且以小寫形式。 必要。                                                                                                                                                                                                                                                                                                                                                         |
-| **name**                  | 將元件命名為唯一名稱。 針對元件名稱，請使用下列格式： Organization.Division.Name。 例如，mysampleAsm。 必要。 請注意，如果 DLL 以個別的資訊清單檔封裝為私用元件，則元件的名稱必須與 DLL 和資訊清單的名稱不同。<br/>                                                                              |
+| **name**                  | 將元件命名為唯一名稱。 針對元件名稱，請使用下列格式： Organization.Division.Name。 例如，Microsoft。Windows. mysampleAsm。 必要。 請注意，如果 DLL 以個別的資訊清單檔封裝為私用元件，則元件的名稱必須與 DLL 和資訊清單的名稱不同。<br/>                                                                              |
 | **language**              | 識別元件的語言。 選擇性。 如果元件是語言特定的，請指定 DHTML 語言代碼。 在適用于全球用途 (語言的組件資訊清單的 DEF 內容 **assemblyIdentity** 中) 省略 language 屬性。<br/> 在適用于全球用途 (語言的組件資訊清單之 REF 內容 **assemblyIdentity** 中) 將 language 的值設定為 " \* "。<br/> |
-| **processorArchitecture** | 指定處理器。 有效的值為適用于32位 Windows 的 x86 和64位 Windows 的 ia64。 選擇性。                                                                                                                                                                                                                                                                                                                               |
+| **processorArchitecture** | 指定處理器。 有效的值為 x86 （適用于32位 Windows）和 ia64 （適用于64位 Windows）。 選擇性。                                                                                                                                                                                                                                                                                                                               |
 | **version**               | 指定組件版本。 使用四部分版本格式：好吃. ooooo. ppppp。 以句號分隔的每個部分都可以是0-65535 （含）。 如需詳細資訊，請參閱 [元件版本](assembly-versions.md)。 必要。                                                                                                                                                                                               |
 | **publicKeyToken**        | 16字元的十六進位字串，代表用來簽署元件之公開金鑰的 SHA-1 雜湊最後8個位元組。 用來簽署目錄的公開金鑰必須是2048位或更高的版本。 共用並存元件的必要項。                                                                                                                                                                                |
 
@@ -322,7 +322,7 @@ Assembly 元素必須在命名空間 "urn：架構-microsoft-com： asm" 中。 
 | **numMethods**    | 介面所執行的方法數目。 此屬性是選擇性的。 值的格式應為： "n"。                                                                       |
 | **name**          | 出現在程式碼中的介面名稱。 例如，"IViewObject"。 這不能是描述性字串。 此屬性是選擇性的。 值的格式應為： "name"。 |
 | **tlbid**         | 類型程式庫，其中包含 **iid** 屬性所指定之介面的描述。 此屬性是選擇性的。 值的格式應為： "{tlbid}"。                |
-| proxyStubClsid32  | 將 IID 對應至32位 proxy Dll 中的 CLSID。                                                                                                                                                |
+| proxyStubClsid32  | 將 IID 地圖32位 proxy Dll 中的 CLSID。                                                                                                                                                |
 
 
 
@@ -358,7 +358,7 @@ Assembly 元素必須在命名空間 "urn：架構-microsoft-com： asm" 中。 
 | **tlbid**            | 類型程式庫，其中包含 **iid** 屬性所指定之介面的描述。 此屬性是選擇性的。 值的格式應為： "{tlbid}"。                                                                                                                                 |
 | **Typeinterface**    | 由 **iid** 屬性所描述的介面所衍生之介面的 IID。 此屬性是選擇性的。 值的格式應為： "{iid}"。                                                                                                                                            |
 | **numMethods**       | 介面所執行的方法數目。 此屬性是選擇性的。 值的格式應為： "n"。                                                                                                                                                                                       |
-| **proxyStubClsid32** | 將 IID 對應至32位 proxy Dll 中的 CLSID。                                                                                                                                                                                                                                                                |
+| **proxyStubClsid32** | 將 IID 地圖32位 proxy Dll 中的 CLSID。                                                                                                                                                                                                                                                                |
 | **>threadingmodel**   | 同進程 COM 類別所使用的執行緒模型。 如果此屬性為 null，則不會使用任何執行緒模型。 元件是在用戶端的主執行緒上建立，而來自其他執行緒的呼叫會封送處理至此執行緒。 選擇性。 有效的值為：「公寓」、「免費」、「兩者」和「中性」。 |
 
 

@@ -4,12 +4,12 @@ ms.assetid: f6e5fc6a-a186-4648-af63-0555307f53d8
 title: 安裝新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7147a1a70ffe57f4948d7db94aab0184d29e5dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3c71167f8226ad78f449b3f529e2e22bdb060bc0c5d984671cf4c5a30cc6f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005296"
 ---
 # <a name="installing-the-new-functionality"></a>安裝新功能
 

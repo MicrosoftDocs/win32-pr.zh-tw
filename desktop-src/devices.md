@@ -4,12 +4,12 @@ ms.assetid: dee73082-8dd0-430b-8fa2-7c29fa7cff9a
 title: 裝置
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bed39a366d9db2b69bbc39a470416b689d5935b2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e15d0c497d788f261755075860934834a69a1b4256b74178711a79d550c4a730
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635178"
 ---
 # <a name="devices"></a>裝置
 
@@ -17,7 +17,7 @@ ms.locfileid: "103689092"
 
 | 主題 | 描述 |
 |---|---|
-| [裝置存取](deviceaccess/device-access-broker-api-portal.md)<br/> | 裝置存取 Api 可讓開發人員撰寫自訂裝置的 Windows Store 應用程式。 API 會套用原則來授與 Windows Store 應用程式適當的裝置存取層級，而且如果授與存取權，則會提供方法來傳送控制程式代碼來操作裝置。<br/> |
+| [裝置存取](deviceaccess/device-access-broker-api-portal.md)<br/> | 裝置存取 api 可讓開發人員撰寫適用于自訂裝置的 Windows 存放區應用程式。 API 會套用原則來授與 Windows 存放區應用程式適當的裝置存取層級，而且如果授與存取權，則會提供方法來傳送控制程式代碼來操作裝置。<br/> |
 | [AllJoyn API](/previous-versions/windows/desktop/alljoyn/alljoyn-api-portal)<br/> | AllJoyn 是類似 DCOM 的架構和通訊協定，可進行可遠端處理的方法呼叫，以及/或在分散式匯流排上的應用程式之間傳送單向信號。 它主要是用於物聯網類型的案例。 <br/> |
 | [服務點 API](/uwp/api/Windows.Devices.PointOfService)<br/> | 服務點 API 可讓應用程式開發人員存取 (POS) 週邊裝置的服務點。 命名空間會提供廠商中立的介面，以從 UWP 應用程式存取 POS 裝置。<br/> |
 | [通訊資源](/windows/desktop/DevIO/communications-resources)<br/>           | 通訊資源是一種實體或邏輯裝置，可提供單一雙向的非同步資料流程。 序列埠、平行埠、傳真電腦和數據機是通訊資源的範例。 每個通訊資源都有一個服務提供者（由程式庫或驅動程式組成），可讓應用程式存取資源。 <br/> |
@@ -29,9 +29,9 @@ ms.locfileid: "103689092"
 | [感應器 API](/windows/desktop/SensorsAPI/portal)<br/>                                     | 感應器 API 可讓應用程式以標準化的方式從感應器取得及使用資料。<br/>                                                                                                                                                                                                                                                                                     |
 | [UPnP API](/windows/desktop/UPnP/universal-plug-and-play-start-page)<br/>                | UPnP 架構可啟用智慧型設備、無線裝置及電腦的動態網路功能。 <br/>                                                                                                                                                                                                                                                                            |
 | [裝置上的 Web 服務](/windows/desktop/WsdApi/wsd-portal)<br/>                           | Microsoft Web Services on Devices API (WSDAPI) 支援執行用戶端控制的裝置和服務，以及符合 Web 服務 (DPWS) 之裝置設定檔的裝置主機。 <br/>                                                                                                                                                                          |
-| [Windows Media 裝置管理員 11 SDK](./wmdm/windows-media-device-manager-11-sdk.md)<br/> | Windows Media 裝置管理員上建的應用程式或元件具有一致的 API，可與各種不同的裝置進行通訊，包括媒體傳輸通訊協定 (MTP) 、大型儲存類別 (SERVICES.MSC) 、RAPI，以及其他以最新版本和舊版 Windows Media 技術為基礎的其他裝置。<br/>                                                                    |
-| [Windows Mixed Reality](https://msdn.microsoft.com/library/Mt844799(v=WIN.10).aspx)<br/>          | Windows Mixed Reality 可為 Microsoft HoloLens 和其他沉浸式耳機打造混合現實體驗。 如需詳細資訊，請參閱 [混合現實開發人員中心](https://developer.microsoft.com/windows/mixed-reality)。<br/>                                                                                                                                    |
-| [Windows 可攜式裝置](./windows-portable-devices.md)<br/>            | Windows 可攜式裝置 (WPD) 可讓電腦與連接的媒體和存放裝置進行通訊。 WPD 提供彈性且健全的方式，讓電腦與音樂播放機、存放裝置、行動電話、攝影機，以及許多其他類型的連線裝置進行通訊。<br/>                                                                                               |
+| [WindowsMedia 裝置管理員 11 SDK](./wmdm/windows-media-device-manager-11-sdk.md)<br/> | Windows 媒體裝置管理員上建的應用程式或元件具有一致的 API，可與各種不同的裝置進行通訊，包括媒體傳輸通訊協定 (MTP) 、大型儲存體類別 (services.msc) 、RAPI，以及其他以最新版本和舊版 Windows 媒體技術為基礎的其他裝置。<br/>                                                                    |
+| [Windows Mixed Reality](https://msdn.microsoft.com/library/Mt844799(v=WIN.10).aspx)<br/>          | Windows Mixed Reality 可為 Microsoft HoloLens 和其他沉浸式耳機打造混合現實體驗。 如需詳細資訊，請參閱[Mixed Reality 開發人員中心](https://developer.microsoft.com/windows/mixed-reality)。<br/>                                                                                                                                    |
+| [Windows 可攜式裝置](./windows-portable-devices.md)<br/>            | Windows可攜式裝置 (WPD) 可讓電腦與連接的媒體和存放裝置進行通訊。 WPD 提供彈性且健全的方式，讓電腦與音樂播放機、存放裝置、行動電話、攝影機，以及許多其他類型的連線裝置進行通訊。<br/>                                                                                               |
 
 
 

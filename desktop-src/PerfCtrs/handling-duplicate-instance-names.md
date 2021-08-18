@@ -4,12 +4,12 @@ ms.assetid: 3c8fcb8d-2ea4-4b24-b649-7bd375c1133d
 title: 處理重複的實例名稱
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 220e5d7d0181a79c1d1415486cc946d484e11952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f58f6ed11951c7b66951f5154009127c5029de3760a9419a7c9716781be8234f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144001"
 ---
 # <a name="handling-duplicate-instance-names"></a>處理重複的實例名稱
 
@@ -19,7 +19,7 @@ ms.locfileid: "106998500"
 
 ## <a name="process-counterset"></a>進程 counterset
 
-這個問題對 counterset 特別有問題， `Process` 因為它只會使用進程的 exe 名稱做為實例名稱，即使 EXE 名稱不是唯一的也是一樣。 `Process`因為相容性問題，所以無法變更 Windows 上的 counterset 預設行為。
+這個問題對 counterset 特別有問題， `Process` 因為它只會使用進程的 exe 名稱做為實例名稱，即使 EXE 名稱不是唯一的也是一樣。 `Process`因為相容性問題，所以無法變更 Windows 的 counterset 預設行為。
 
 您可以藉由設定登錄機碼底下的或登錄值，來改變和 countersets 的行為， `Process` `Thread` 以使用唯一的實例名稱 `ProcessNameFormat` `ThreadNameFormat` `HKLM\System\CurrentControlSet\Services\Perfproc\Performance` 。
 

@@ -8,12 +8,12 @@ keywords:
 - localsystem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bec3826984e28e29d3156b784da229f8e53e34e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a4ac31cb7b3e0ad335f9a2781187aadcb03a1529055eb0771856aa01543add0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024576"
 ---
 # <a name="using-the-localsystem-account-as-a-service-logon-account"></a>使用 LocalSystem 帳戶做為服務登入帳戶
 
@@ -28,11 +28,11 @@ ms.locfileid: "103931873"
 
 電腦帳戶通常有少數許可權，而且不屬於群組。 Active Directory Domain Services 中的預設 ACL 保護允許對電腦帳戶進行最基本的存取。 因此，在 Dc 以外的電腦上，以 LocalSystem 身分執行的服務只有 Active Directory Domain Services 的存取權。
 
-如果您的服務是在 LocalSystem 下執行，您必須在成員伺服器上測試您的服務，以確保您的服務具有足夠的許可權可讀取/寫入 Active Directory 網網域控制站。 網域控制站不應該是您用來測試服務的唯一 Windows 電腦。 請注意，在 Windows 網域控制站上以 LocalSystem 身分執行的服務具有 Active Directory Domain Services 的完整存取權，而成員伺服器則是在擁有較少許可權的電腦帳戶內容中執行。
+如果您的服務是在 LocalSystem 下執行，您必須在成員伺服器上測試您的服務，以確保您的服務具有足夠的許可權可讀取/寫入 Active Directory 網網域控制站。 網域控制站不應該是您用來測試服務的唯一 Windows 電腦。 請注意，在 Windows 網域控制站上的 LocalSystem 下執行的服務具有 Active Directory Domain Services 的完整存取權，而且成員伺服器在具有大幅較少許可權的電腦帳戶內容中執行。
 
- 
+ 
 
- 
+ 
 
 
 

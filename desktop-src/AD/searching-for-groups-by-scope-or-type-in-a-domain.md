@@ -1,24 +1,24 @@
 ---
 title: 依範圍或輸入網域來搜尋群組
-description: 在 Windows 2000 網域中，有一個名為 [群組] 的類別，用於所有群組範圍 (網域本機、全域、通用) 和類型 (安全性、散發) 。
+description: 在 Windows 2000 網域中，有一個名為 [群組] 的 ([網域本機]、[全域]、[通用) ] 和 [類型] ([安全性]、[散發) ]。
 ms.assetid: e32629d9-aa62-4953-aa49-43af726b7deb
 ms.tgt_platform: multiple
 keywords:
 - 依網域 AD 中的範圍或類型搜尋群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ee9aae5e2c7be7b9cba590f9bc80f0517bca918
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 84d424ce21912aa1e7fa7104099fc8359a5a1c80beeae1fc143aa0bd4aea71d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024946"
 ---
 # <a name="searching-for-groups-by-scope-or-type-in-a-domain"></a>依範圍或輸入網域來搜尋群組
 
-在 Windows 2000 網域中，有一個名為 [ [**群組**](/windows/desktop/ADSchema/c-group) ] 的類別，用於所有群組範圍 (網域本機、全域、通用) 和類型 (安全性、散發) 。 Group 物件的 [**groupType**](/windows/desktop/ADSchema/a-grouptype) 屬性會指定群組類型和範圍。
+在 Windows 2000 網域中，有一個名為 [[**群組**](/windows/desktop/ADSchema/c-group)] 的 ([網域本機]、[全域]、[通用) ] 和 [類型] ([安全性]、[散發) ]。 Group 物件的 [**groupType**](/windows/desktop/ADSchema/a-grouptype) 屬性會指定群組類型和範圍。
 
-若要使用類型或範圍來搜尋 Windows 2000 網域上的群組，請使用包含 [**groupType**](/windows/desktop/ADSchema/a-grouptype) 屬性之相符規則的篩選準則。 如需相符規則的詳細資訊，請參閱 [搜尋篩選語法](/windows/desktop/ADSI/search-filter-syntax)。
+若要使用類型或範圍來搜尋 Windows 2000 網域上的群組，請使用包含 [**groupType**](/windows/desktop/ADSchema/a-grouptype)屬性之相符規則的篩選準則。 如需相符規則的詳細資訊，請參閱 [搜尋篩選語法](/windows/desktop/ADSI/search-filter-syntax)。
 
 如需詳細資訊和示範如何在定義域中搜尋群組的程式碼範例，請參閱 [在網域中搜尋群組的範例程式碼](example-code-for-performing-a-query-in-a-domain.md)。
 
@@ -44,6 +44,6 @@ ms.locfileid: "103681639"
 
 
 
- 
+ 
 
- 
+ 

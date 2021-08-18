@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1468fed3c0cf999e7635ba0f5ae53cee72fe70c6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 85b68240a52ddf442d834a9acec919ea9c607f2dcbc43d2046a3d070aa9ddf84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634498"
 ---
 # <a name="id3dx10skininfofindboneinfluenceindex-method"></a>ID3DX10SkinInfo：： FindBoneInfluenceIndex 方法
 

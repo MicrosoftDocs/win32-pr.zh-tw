@@ -4,12 +4,12 @@ ms.assetid: 15ed9a62-2eee-4f29-92c5-ccf2754cdf13
 title: CredSSP 群組原則設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a159b7a162df3eda692462a3d3972159e61797e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8efaaab1b49efba89c9fa5788f60df372991f388c474d531eff8f59205af441
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008696"
 ---
 # <a name="credssp-group-policy-settings"></a>CredSSP 群組原則設定
 
@@ -24,7 +24,7 @@ ms.locfileid: "106987634"
 
 
 
-| 認證類型                                                                                                                                 | Description                                                                                   |
+| 認證類型                                                                                                                                 | 描述                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | <span id="Default_credentials"></span><span id="default_credentials"></span><span id="DEFAULT_CREDENTIALS"></span>預設認證<br/> | 使用者第一次登入 Windows 時所取得的認證。<br/>                   |
 | <span id="Fresh_credentials"></span><span id="fresh_credentials"></span><span id="FRESH_CREDENTIALS"></span>新認證<br/>         | 當使用者執行應用程式時，系統會提示使用者輸入認證。<br/>       |

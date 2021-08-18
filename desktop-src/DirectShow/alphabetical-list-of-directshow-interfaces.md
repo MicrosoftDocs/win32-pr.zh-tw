@@ -1,19 +1,19 @@
 ---
-description: DirectShow 介面的字母順序清單
+description: 依字母順序排列的 DirectShow 介面清單
 ms.assetid: 9c7f56f4-92af-40c6-8124-f2715ac3f6d7
-title: DirectShow 介面的字母順序清單
+title: 依字母順序排列的 DirectShow 介面清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de76bd17dfb8be99f8cb3554015d6860785fb148
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bd37ad1d6b510f61964eb9f210ab9481560b2d3e2f522b8fc38da10b7582a991
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074822"
 ---
-# <a name="alphabetical-list-of-directshow-interfaces"></a>DirectShow 介面的字母順序清單
+# <a name="alphabetical-list-of-directshow-interfaces"></a>依字母順序排列的 DirectShow 介面清單
 
-以下是一份以字母順序排列的 DirectShow 介面清單。
+以下是 DirectShow 介面的字母順序清單。
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamchannelinfo"><strong>IAMChannelInfo</strong></a></td>
-<td>取得和設定 Windows Media 廣播站 ( 的通道資訊。 .nsc) 檔。</td>
+<td>取得和設定 Windows 媒體站 ( .nsc) 檔案的通道資訊。</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamclockadjust"><strong>IAMClockAdjust</strong></a></td>
@@ -79,7 +79,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamdeviceremoval"><strong>IAMDeviceRemoval</strong></a></td>
-<td>提供一種方法讓篩選圖形管理員註冊捕獲裝置的裝置移除事件。</td>
+<td>提供一種方式，讓篩選器 Graph 管理員註冊捕獲裝置的裝置移除事件。</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>IAMDirectSound</strong></a></td>
@@ -99,7 +99,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking"><strong>IAMExtendedSeeking</strong></a></td>
-<td>搜尋 Windows Media 資料流程中的標記，或變更 Windows Media 檔案的播放速率。</td>
+<td>搜尋 Windows 媒體資料流程中的標記，或變更 Windows 媒體檔案的播放速率。</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltergraphcallback"><strong>IAMFilterGraphCallback</strong></a></td>
@@ -167,7 +167,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Control/nn-control-iamstats"><strong>IAMStats</strong></a></td>
-<td>從篩選圖形管理員抓取效能資料。</td>
+<td>從篩選 Graph 管理員抓取效能資料。</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig"><strong>IAMStreamConfig</strong></a></td>
@@ -199,7 +199,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvfwcapturedialogs"><strong>IAMVfwCaptureDialogs</strong></a></td>
-<td>顯示 Windows (VFW) capture 驅動程式影片所提供的對話方塊。</td>
+<td>顯示 Windows (VFW) capture 驅動程式的影片所提供的對話方塊。</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvfwcompressdialogs"><strong>IAMVfwCompressDialogs</strong></a></td>
@@ -223,7 +223,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties"><strong>IAMVideoDecimationProperties</strong></a></td>
-<td>控制重迭混音器如何執行影片減去。</td>
+<td>控制重迭 Mixer 如何執行影片減去。</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvideoprocamp"><strong>IAMVideoProcAmp</strong></a></td>
@@ -315,7 +315,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample"><strong>IDirectDrawMediaSample</strong></a></td>
-<td>提供對覆迭 <a href="overlay-mixer-filter.md">混音</a> 器所配置之 DirectDraw 表面的存取。</td>
+<td>提供覆迭<a href="overlay-mixer-filter.md">Mixer</a>篩選所配置之 DirectDraw 表面的存取權。</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasampleallocator"><strong>IDirectDrawMediaSampleAllocator</strong></a></td>
@@ -327,11 +327,11 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/dmodshow/nn-dmodshow-idmowrapperfilter"><strong>IDMOWrapperFilter</strong></a></td>
-<td>讓應用程式在篩選圖形內部使用 DirectX 媒體物件 (的) 。</td>
+<td>讓應用程式能夠使用 DirectX 媒體物件 (DMO 在篩選圖形內) 。</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-idshowplugin"><strong>IDShowPlugin</strong></a></td>
-<td>可讓 Windows Media 來源篩選與 Netscape Navigator 的 Windows Media Player 6.4 外掛程式進行通訊。</td>
+<td>啟用 Windows 媒體來源篩選器，以 Netscape Navigator 的 Windows Media Player 6.4 外掛程式進行通訊。</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-idvdcmd"><strong>IDvdCmd</strong></a></td>
@@ -431,7 +431,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-igraphbuilder"><strong>IGraphBuilder</strong></a></td>
-<td>擴充 <a href="/windows/desktop/api/Strmif/nn-strmif-ifiltergraph"><strong>IFilterGraph</strong></a> 介面。 這是篩選圖形管理員的主要介面。</td>
+<td>擴充 <a href="/windows/desktop/api/Strmif/nn-strmif-ifiltergraph"><strong>IFilterGraph</strong></a> 介面。 這是篩選 Graph 管理員的主要介面。</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-igraphconfig"><strong>IGraphConfig</strong></a></td>
@@ -479,7 +479,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>IMediaEventSink</strong></a></td>
-<td>通知篩選圖形中發生的事件篩選圖形管理員。</td>
+<td>通知篩選圖形中發生的事件 Graph 管理員。</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-imediafilter"><strong>IMediaFilter</strong></a></td>
@@ -537,7 +537,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a></td>
-<td>由重迭混音器篩選器所公開。</td>
+<td>覆迭 Mixer 篩選器所公開。</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify"><strong>IMixerOCXNotify</strong></a></td>
@@ -545,7 +545,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig"><strong>IMixerPinConfig</strong></a></td>
-<td>在重迭混音器篩選器上操作影片串流。</td>
+<td>在重迭 Mixer 篩選器上操作影片串流。</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig2"><strong>IMixerPinConfig2</strong></a></td>
@@ -617,7 +617,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iregisterserviceprovider"><strong>IRegisterServiceProvider</strong></a></td>
-<td>使用篩選圖形管理員，將物件註冊為服務。</td>
+<td>使用篩選 Graph 管理員，將物件註冊為服務。</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iresourceconsumer"><strong>IResourceConsumer</strong></a></td>
@@ -781,7 +781,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig"><strong>IVPConfig</strong></a></td>
-<td>可讓影片埠與重迭混音器篩選器進行通訊。</td>
+<td>可讓影片埠與重迭 Mixer 篩選進行通訊。</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ivpmanager"><strong>IVPManager</strong></a></td>
@@ -789,7 +789,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a></td>
-<td>啟用覆迭混音器，以控制使用影片埠之硬體裝置的屬性。</td>
+<td>啟用覆迭 Mixer，以控制使用影片埠之硬體裝置的屬性。</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a></td>
@@ -797,7 +797,7 @@ ms.locfileid: "104109505"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder"><strong>IXMLGraphBuilder</strong></a></td>
-<td>使用 XML 檔案格式來保存 DirectShow 篩選圖形。
+<td>使用 XML 檔案格式來保存 DirectShow 的篩選圖形。
 <blockquote>
 [!Note]<br />
 已取代。

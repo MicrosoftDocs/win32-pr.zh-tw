@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a048cd5f29825c2d96a9d924473159e93d3e0be1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e311c6dc69f40d32163c70cabf6a38780a989764bd77f4023c61ede5c1ba713c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006956"
 ---
 # <a name="extension-object"></a>Extension 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Extension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Extension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1)。\]
 
 **擴充** 物件代表單一憑證延伸。
 
@@ -46,7 +46,7 @@ ms.locfileid: "106990579"
 
 
 
-| 屬性                                                | 存取類型          | Description                                                                                   |
+| 屬性                                                | 存取類型          | 描述                                                                                   |
 |:--------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------------------|
 | [**EncodedData**](extension-encodeddata.md)<br/> | 唯讀<br/> | 抓取延伸模組的編碼資料。<br/>                                      |
 | [**IsCritical**](extension-iscritical.md)<br/>   | 唯讀<br/> | 抓取布林值，指出是否將延伸標記為重大。<br/> |

@@ -4,12 +4,12 @@ ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
 title: 'EncryptMessage (Digest) 函數 (Sspi. h) '
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 13bcaa5b91f165321d03e229416741b90a978dc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af16238ca58449c286edd9eabb88d7bc9a3f7fa781fac360863fdd52f7296833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008426"
 ---
 # <a name="encryptmessage-digest-function"></a>EncryptMessage (Digest) 函數
 
@@ -88,7 +88,7 @@ SECURITY_STATUS SEC_ENTRY EncryptMessage(
 
 
 
-| 傳回碼                                                                                                    | Description                                                                                                                                                                                                                                   |
+| 傳回碼                                                                                                    | 描述                                                                                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC \_ E \_ 緩衝區 \_ 太 \_ 小**</dt> </dl>      | 輸出緩衝區太小。 如需詳細資訊，請參閱＜備註＞。<br/>                                                                                                                                                                 |
 | <dl> <dt>**SEC \_ E \_ 內容已 \_ 過期**</dt> </dl>        | 應用程式參考的內容已關閉。 正確撰寫的應用程式應該不會收到此錯誤。<br/>                                                                                               |
@@ -117,7 +117,7 @@ SECURITY_STATUS SEC_ENTRY EncryptMessage(
 
 
 
-| 緩衝區類型                           | Description                                                                                                                    |
+| 緩衝區類型                           | 描述                                                                                                                    |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | 之 SECBUFFER \_ 資料流程 \_ 標頭<br/>  | 內部使用。 不需要初始化。<br/>                                                                        |
 | 之 SECBUFFER \_ 資料<br/>            | 包含要加密的 [*純文字*](../secgloss/s-gly.md) 訊息。<br/> |
@@ -130,7 +130,7 @@ SECURITY_STATUS SEC_ENTRY EncryptMessage(
 
 為了達到最佳效能，應該從連續的記憶體配置 *pMessage* 結構。
 
-**WINDOWS XP：** 此函數也稱為 **SealMessage**。 應用程式現在應該只使用 **EncryptMessage (Digest)** 。
+**Windows XP：** 此函數也稱為 **SealMessage**。 應用程式現在應該只使用 **EncryptMessage (Digest)** 。
 
 ## <a name="requirements"></a>規格需求
 
@@ -138,8 +138,8 @@ SECURITY_STATUS SEC_ENTRY EncryptMessage(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                   |
 | 標頭<br/>                   | <dl> <dt>Sspi (包含 Security .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Secur32 .lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

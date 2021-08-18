@@ -289,7 +289,7 @@ http://schemas.microsoft.com/opensearchext/2009/
 | RSS XML 路徑                  | WindowsShell 屬性 (標準名稱)  |
 |-------------------------------|-----------------------------------------|
 | 連結                          | System. ItemUrl                          |
-| Title                         | System.servicemodel                         |
+| 標題                         | System.servicemodel                         |
 | 作者                        | System.Author                           |
 | pubDate                       | System. DateModified                     |
 | 描述                   | System. AutoSummary                      |

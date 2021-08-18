@@ -4,12 +4,12 @@ ms.assetid: 98E643E3-8ECB-42DD-BA4B-51A2D0FCB313
 title: ICertEncodeAltName 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3e1d9ae91184c1e2fed65b57af79782d74e60df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 591d5aca851bc52077aeffdba6472c2d1a2437bff829611694439bef76157124
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006046"
 ---
 # <a name="icertencodealtname-methods"></a>ICertEncodeAltName 方法
 
