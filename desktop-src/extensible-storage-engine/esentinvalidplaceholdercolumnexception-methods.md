@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102016
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0901d26654de2c44a522bb8a37cab4a514f66b78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c753f0f2fd4304bb7cb53325a73279f0b6aea790a37804b9ca3cf7c77dab6003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115978"
 ---
 # <a name="esentinvalidplaceholdercolumnexception-methods"></a>EsentInvalidPlaceholderColumnException 方法
 

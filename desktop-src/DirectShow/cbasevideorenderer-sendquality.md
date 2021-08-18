@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8a6ae7228be0f3012c49d652d11bf2c1c3bfc181
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: acda4bd9b00434e33c24ac44625b3c1d45350d45b4ec0b242d2638333ad11ed9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074762"
 ---
 # <a name="cbasevideorenderersendquality-method"></a>CBaseVideoRenderer. SendQuality 方法
 

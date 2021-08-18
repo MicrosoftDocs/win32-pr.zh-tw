@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8025e35746d921fda3b601d289a9b361aefefb83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8d21fe76220fe07780bec26b8377833640086556184bf56085b8977f520f087
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983438"
 ---
 # <a name="apijetcreatetable-method"></a>JetCreateTable 方法
 
@@ -87,7 +87,7 @@ public static void JetCreateTable(
 
 <!-- end list -->
 
-  - 資料表  
+  - table  
     類型： [system.string](/dotnet/api/system.string)  
     
     要建立之資料表的名稱。

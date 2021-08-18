@@ -6,12 +6,12 @@ keywords:
 - 重新開機管理員重新開機管理員，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec1cfd300d554e311ab43cc0a9413514b6b60081
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 98003ff4193ce26eb4ed2a3bdab60db8d58adf86698c6b9369a80b8043458579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010296"
 ---
 # <a name="about-restart-manager"></a>關於重新開機管理員
 
@@ -26,7 +26,7 @@ ms.locfileid: "103682926"
 
 只有當呼叫者有權進行此作業時，重新開機管理員才會關閉應用程式或服務。 請注意，不支援跨會話的關機。
 
-使用 [Windows Installer](/windows/desktop/Msi/windows-installer-portal) 4.0 版進行安裝和服務的應用程式會自動使用重新開機管理員來減少系統重新開機。 自訂安裝程式也可以設計來呼叫重新開機管理員 API，以關閉並重新啟動應用程式和服務。 在無法避免系統重新開機的情況下，安裝程式可以使用重新開機管理員 API 來排程重新開機，以將使用者工作流程的停機時間降到最低。
+使用[Windows Installer](/windows/desktop/Msi/windows-installer-portal) 4.0 版進行安裝和服務的應用程式會自動使用重新開機管理員來減少系統重新開機。 自訂安裝程式也可以設計來呼叫重新開機管理員 API，以關閉並重新啟動應用程式和服務。 在無法避免系統重新開機的情況下，安裝程式可以使用重新開機管理員 API 來排程重新開機，以將使用者工作流程的停機時間降到最低。
 
 如需在安裝和更新期間使用重新開機管理員 API 的詳細資訊，請參閱 [使用重新開機管理員](using-restart-manager.md)。
 
@@ -36,6 +36,6 @@ ms.locfileid: "103682926"
 
 如需重新開機管理員 API 的列舉、結構和函式的參考資訊，請參閱 [重新開機管理員參考](restart-manager-reference.md) 一節。
 
- 
+ 
 
- 
+ 

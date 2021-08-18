@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 4425448b25f8f7ad0186e98ed2a7e181ae831fd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fce90e1d0a2ac27011250c9b7ebc80980555c82246801464f3bbbd98ad55d14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104566547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112637"
 ---
 # <a name="indexsegmentequals-method"></a>IndexSegment. Equals 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104566547"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

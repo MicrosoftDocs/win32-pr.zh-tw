@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ac23a4013053d252aec49b8b7be4aae62c41c8e1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0725011b39628f5376293bc82273723a89dfb0eafe1535d2f58393919f18c71a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080062"
 ---
 # <a name="deleteex-method-of-the-win32_directory-class"></a>Win32 目錄類別的 DeleteEx 方法 \_
 
@@ -108,7 +108,7 @@ uint32 DeleteEx(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

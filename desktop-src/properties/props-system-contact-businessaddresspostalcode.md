@@ -4,18 +4,18 @@ ms.assetid: cd16aefc-e7ae-412c-8b53-6bea20e7096e
 title: BusinessAddressPostalCode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c40350312ec6937306c358e48ebba73fb3e2099
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2375d29bd0e42b8cafbf46b21f670cedd9344df3c6a13cec34d606479a7313f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970717"
 ---
 # <a name="systemcontactbusinessaddresspostalcode"></a>BusinessAddressPostalCode
 
 商務位址郵遞區號的連絡人。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

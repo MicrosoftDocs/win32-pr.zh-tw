@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8c96b7453eb6009121fd6782030f7988663f5e8f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e3c0297ccf670de12380c5f02af2c67d6050bac29dd1fa7e7e89a6e6c7c20592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074683"
 ---
 # <a name="cbasevideorenderershoulddrawsamplenow-method"></a>CBaseVideoRenderer. ShouldDrawSampleNow 方法
 

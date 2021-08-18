@@ -4,12 +4,12 @@ ms.assetid: 16b68ce2-46b2-4e35-bf92-f132dcb354e3
 title: 建立 BYOT 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6544c5085061be5d1100706930a3e1617ec24890
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d9c2f0f999cb758a46dc779d29dac9fdfc71d2dbc245a84d1ca86060108e5663
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128761"
 ---
 # <a name="creating-byot-objects"></a>建立 BYOT 物件
 

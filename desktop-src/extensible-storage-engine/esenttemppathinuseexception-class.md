@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0d18cea8af69eb3067e01bfa5c22a65f736698ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e237aa98b24d9b5bb97c2902205d01a260a19e428f903562a8668bc097d12a43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980988"
 ---
 # <a name="esenttemppathinuseexception-class"></a>EsentTempPathInUseException 類別
 

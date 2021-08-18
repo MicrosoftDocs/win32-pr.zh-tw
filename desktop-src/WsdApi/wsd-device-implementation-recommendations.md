@@ -1,19 +1,19 @@
 ---
-description: 下列主題是裝置製造商和其他裝置實作者的相關主題，可建立與以 Windows 為基礎的 WSDAPI 用戶端和主機交互操作的裝置，而不需使用 WSDAPI。
+description: 下列主題是裝置製造商和其他裝置實施者的相關主題，這些裝置可建立與 Windows 型 wsdapi 用戶端和主機交互操作的裝置，而不需使用 WSDAPI。
 ms.assetid: 72e3ce48-fd7d-4a47-9055-ebcc034a84bf
-title: WSD 裝置實行建議
+title: WSD 裝置執行建議
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f8ddeaa572413b1bda2d36715c1a32d9e7f418e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f9e3070a020e60223c6129f93bb97927d7f96da5e82160ca85f7015271e32c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130590"
 ---
-# <a name="wsd-device-implementation-recommendations"></a>WSD 裝置實行建議
+# <a name="wsd-device-implementation-recommendations"></a>WSD 裝置執行建議
 
-下列主題是裝置製造商和其他裝置實作者的相關主題，可建立與以 Windows 為基礎的 WSDAPI 用戶端和主機交互操作的裝置，而不需使用 WSDAPI。 這些主題包含的建議可協助降低裝置程式碼的複雜度，並提高與 WSDAPI 之間的互通性。
+下列主題是裝置製造商和其他裝置實施者的相關主題，這些裝置可建立與 Windows 型 wsdapi 用戶端和主機交互操作的裝置，而不需使用 WSDAPI。 這些主題包含的建議可協助降低裝置程式碼的複雜度，並提高與 WSDAPI 之間的互通性。
 
 -   [執行多宿主 WSD 裝置](implementing-a-multi-homed-wsd-device.md)
 -   [分派 SOAP 訊息](dispatching-soap-messages.md)

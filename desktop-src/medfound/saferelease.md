@@ -4,12 +4,12 @@ ms.assetid: 2e9af7bc-f478-4a9c-b28f-b0a72fa9ec75
 title: SafeRelease
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd0661b8515c1d8a79c81eef19f49cf8996fcbf3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d46359821dd1f7741f6038ddb2f33cec591aacdf1bf9fc7fd3e6004e9d7601e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034866"
 ---
 # <a name="saferelease"></a>SafeRelease
 

@@ -4,12 +4,12 @@ ms.assetid: 17b7f76c-404c-4aa9-9746-1488fee027f2
 title: 'MF_MT_MPEG_SEQUENCE_HEADER 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4003137ec4d2942bc95f56b2ce54644eb7b678d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1e988a5b64b7b1c99d3c84de7441f492cebe07f0b473ee3f5256c732fbb7697
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035146"
 ---
 # <a name="mf_mt_mpeg_sequence_header-attribute"></a>MF \_ MT \_ MPEG \_ SEQUENCE \_ 標頭屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106997550"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Microsoft RPC 支援寬字元類型 wchar \_ t。
 ms.assetid: 1a601461-df34-456d-93e8-4cf0b655cf2c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 821d69999a0ec7e175409120f223721defd6cd10
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4eff57cf22e4836032acb59e1585da15285f55718b6c5b91733b1955ea85072a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010396"
 ---
 # <a name="wide-character-types"></a>Wide-Character 類型
 
@@ -20,6 +20,6 @@ wchar_t wcInitial = L'a';
 wchar_t * pwszString = L"Hello, world";
 ```
 
- 
+ 
 
- 
+ 

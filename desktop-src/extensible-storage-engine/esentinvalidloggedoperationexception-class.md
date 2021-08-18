@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d75ef32f471fcdae7e520844c4df8ef55260f682
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1cfbbfe0fe9faac59d9bca98e3874294258e647cd2854917e5018bbfba5e2ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982210"
 ---
 # <a name="esentinvalidloggedoperationexception-class"></a>EsentInvalidLoggedOperationException 類別
 

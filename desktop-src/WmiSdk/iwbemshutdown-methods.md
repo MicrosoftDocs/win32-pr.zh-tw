@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IWbemShutdown 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9da7bd1b0e4749a24b881851a79a7695eb1f3787
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 809d69ed880bb8ba2f98224ee9f3e0e8bd9b18ed0232551dacebe95b0a268ff3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131240"
 ---
 # <a name="iwbemshutdown-methods"></a>IWbemShutdown 方法
 

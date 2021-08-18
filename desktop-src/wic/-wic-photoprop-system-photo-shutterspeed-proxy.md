@@ -4,18 +4,18 @@ ms.assetid: ff558bd3-d884-4178-ad2d-a444798556a2
 title: ShutterSpeed Proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c511f46cb91d509f69a7bdd9052985f00d11a0be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf4d156532313e169a47b3e17a5f36cacf13c4db05c56a181864c6dec0f31a82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087021"
 ---
 # <a name="systemphotoshutterspeed-proxy"></a>ShutterSpeed Proxy
 
 ShutterSpeed 相片中繼資料原則的屬性 proxy。
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 屬性 proxy 會透過 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal 成員傳回有理數 a。
 

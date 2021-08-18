@@ -4,12 +4,12 @@ ms.assetid: 138a0ae5-160d-46f2-91ae-596d8892351a
 title: JobID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bfd17d068f34b56d45e4851c06b7ed1d9bd6fcc
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: f36f60bbf5091f0e2f6f2da95482c3bca7004fc6e7e70817814d1c47a191aa9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971287"
 ---
 # <a name="jobid"></a>JobID
 
@@ -25,7 +25,7 @@ ms.locfileid: "112408881"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|---------------------|
 | 項目類型 <br/>   | 屬性<br/> |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>      |
@@ -51,9 +51,9 @@ ms.locfileid: "112408881"
 
 
 
-| Name                      | 資料類型         | 單位 | 支援的值 | 總結 |
+| 名稱                      | 資料類型         | 單位 | 支援的值 | 摘要 |
 |---------------------------|-------------------|------|------------------|---------|
-| \_JobIDValue\_<br/> | string<br/> |      |                  |         |
+| \_JobIDValue\_<br/> | 字串<br/> |      |                  |         |
 
 
 

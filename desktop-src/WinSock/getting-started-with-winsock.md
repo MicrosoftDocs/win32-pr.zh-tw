@@ -4,12 +4,12 @@ ms.assetid: 905cd5bc-44af-4d3f-841a-9e9a2700a785
 title: 使用 Winsock 開始使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43751663a637fafb2eec453a48c329ff8e4499f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcce956d7dcb142e4a51ac3a461868dfa055acc9a2d1624b6a6dff5132f86ea7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132151"
 ---
 # <a name="getting-started-with-winsock"></a>使用 Winsock 開始使用
 
@@ -47,11 +47,11 @@ ms.locfileid: "106972414"
 
 ## <a name="advanced-winsock-samples"></a>Advanced Winsock 範例
 
-Windows SDK 包含數個更先進的 Winsock 用戶端和伺服器範例。 根據預設，Windows 7 的 Windows SDK 會在下列目錄中安裝 Winsock 範例原始程式碼：
+Windows SDK 包含數個更先進的 Winsock 用戶端和伺服器範例。 根據預設，Winsock 範例原始程式碼會由 Windows 7 的 Windows SDK 安裝在下列目錄中：
 
 *C： \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ NetDs \\ winsock*
 
-在舊版的 Windows SDK 上，上述路徑中的版本號碼會變更。 例如，Windows Vista 的 Windows SDK 會在下列預設目錄中安裝 Winsock 範例原始程式碼。
+在舊版的 Windows SDK 上，上述路徑中的版本號碼會變更。 例如，Windows Vista 的 Windows SDK 會在下列預設目錄中安裝 Winsock 範例原始程式碼：
 
 *C： \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ 範例 \\ NetDs \\ winsock*
 

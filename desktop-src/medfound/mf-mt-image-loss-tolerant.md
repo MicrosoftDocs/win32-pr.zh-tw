@@ -4,12 +4,12 @@ ms.assetid: e29d0893-8561-4a8c-99e2-168186becd82
 title: 'MF_MT_IMAGE_LOSS_TOLERANT 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eea33f9f5f49725d164bd26ba21b9602bffef2b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fdf5b2633586cf4b73279a636119ac4770a5321d6bc22b5b961fa85881019b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035166"
 ---
 # <a name="mf_mt_image_loss_tolerant-attribute"></a>MF \_ MT \_ 影像 \_ 遺失 \_ 容錯屬性
 
@@ -55,7 +55,7 @@ ms.locfileid: "103848105"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

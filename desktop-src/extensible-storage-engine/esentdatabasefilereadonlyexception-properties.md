@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101362
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: fa4d75ff971eba8d489d0f744b083c7f4ab882c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e2e8782c874681f5b90b403046b2f5e06dcc7c49596f20a5664a241978bb369
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116238"
 ---
 # <a name="esentdatabasefilereadonlyexception-properties"></a>EsentDatabaseFileReadOnlyException 屬性
 

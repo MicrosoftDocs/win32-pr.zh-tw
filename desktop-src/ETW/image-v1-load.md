@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2e8a8c31cee7e45311887c16a1d10545e6a38e41
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 35144317b67a8d24ec07d72633897366e83628d6cc66d9c4661980fc44c373b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070158"
 ---
 # <a name="image_v1_load-class"></a>映射 \_ V1 \_ 載入類別
 
@@ -126,8 +126,8 @@ ProcessId
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

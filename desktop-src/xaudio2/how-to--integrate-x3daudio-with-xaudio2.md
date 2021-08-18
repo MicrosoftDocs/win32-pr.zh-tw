@@ -4,16 +4,16 @@ ms.assetid: a8f41f0d-b284-aefa-923b-471b13b4a3ec
 title: 使用方法：整合 X3DAudio 與 XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dc54fa5f673e319712808ca6d2b587b8ad2d0fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c940acbe78e8d4ca4247f77500adeeca7c9619057a3008dea50fc8b55a9f364e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962687"
 ---
 # <a name="how-to-integrate-x3daudio-with-xaudio2"></a>使用方法：整合 X3DAudio 與 XAudio2
 
-本主題說明如何整合 X3DAudio 與 XAudio2。 您可以使用 X3DAudio 來提供 XAudio2 聲音的音量和音調值，以及 XAudio2 內建的回音效果參數。 本主題假設您已依照 [如何：建立基本音訊處理圖形](how-to--build-a-basic-audio-processing-graph.md)中所述的方式建立音訊圖表。 如果您尚未建立音訊圖形， [**X3DAudioInitialize**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize) 將會失敗。
+本主題說明如何整合 X3DAudio 與 XAudio2。 您可以使用 X3DAudio 來提供 XAudio2 聲音的音量和音調值，以及 XAudio2 內建的回音效果參數。 本主題假設您已依照[如何：建立基本音訊處理 Graph](how-to--build-a-basic-audio-processing-graph.md)中所述，建立音訊圖表。 如果您尚未建立音訊圖形， [**X3DAudioInitialize**](/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize) 將會失敗。
 
 **若要初始化 X3DAudio**
 

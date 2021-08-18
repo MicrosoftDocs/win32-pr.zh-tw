@@ -6,12 +6,12 @@ keywords:
 - 使用序列化服務的遠端程序呼叫 RPC、工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 317156a2da954e001b687cca12eb0c6df23ef4ee
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: be20d513bdb74eca316b022dd8536e8988e32e93099981cc77830035048e55e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010626"
 ---
 # <a name="using-serialization-services"></a>使用序列化服務
 
@@ -65,6 +65,6 @@ void __RPC_USER  MIDL_user_free(void __RPC_FAR *f)
 
 
 
- 
+ 
 
- 
+ 

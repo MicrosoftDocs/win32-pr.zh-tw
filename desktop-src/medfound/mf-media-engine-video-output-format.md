@@ -4,12 +4,12 @@ ms.assetid: 70FFDD44-9FDE-4D86-AD65-60019AC4A2BC
 title: 'MF_MEDIA_ENGINE_VIDEO_OUTPUT_FORMAT 屬性 (Mfmediaengine) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 004025da1ad5258e5b04a3afba4a359f50f7444c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: eaa0dab3c3ea1c9ce23d767458df0b68a9b3c787f80ca1af786061536343a356
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973727"
 ---
 # <a name="mf_media_engine_video_output_format-attribute"></a>MF \_ 媒體 \_ 引擎 \_ 影片 \_ 輸出 \_ 格式屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "103696213"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Mfmediaengine。h</dt> </dl> |
 
 

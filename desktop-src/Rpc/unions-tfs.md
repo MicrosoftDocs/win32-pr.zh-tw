@@ -4,12 +4,12 @@ description: 封裝和 nonencapsulated 等位及其格式搭配遠端程序呼�
 ms.assetid: de13151a-f4a4-4440-b287-454df4a1e3e1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9f35f0ff23132705330bf1f8566443ac8aa81d3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e5948a0557ea968a385324244d569d3578ec5d6c0dec4af5261866ed3ba2dc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011016"
 ---
 # <a name="rpc-unions"></a>RPC 等位
 
@@ -77,6 +77,6 @@ memory_size<2>
 union_arm_selector<>
 ```
 
- 
+ 
 
- 
+ 

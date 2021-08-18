@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d28e82648a1047252402694f4948d2a2734f344
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 29aa5f7b5c0ad72ff13b571505283b243bd62d79ebc4339717ed8283cccb2a5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997498"
 ---
 # <a name="controlsgetaudiolanguagedescription-method"></a>GetAudioLanguageDescription 方法
 
@@ -55,7 +55,7 @@ strRetVal = Controls.getAudioLanguageDescription(
 
 ## <a name="remarks"></a>備註
 
-針對 Windows Media 內容，與語言選取相關的屬性和方法只支援單一輸出。
+針對 Windows 媒體型內容，與語言選取相關的屬性和方法只支援單一輸出。
 
 使用 **audioLanguageCount** 屬性來取得支援的音訊語言數目，然後使用以一為基礎的索引個別存取音訊語言。
 

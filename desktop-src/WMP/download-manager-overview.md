@@ -13,18 +13,18 @@ keywords:
 - 線上商店，背景下載
 - 輸入2個線上商店，背景下載
 - Windows Media Player，下載管理員
-- Windows Media Player 下載管理員
+- Windows Media Player下載管理員
 - 下載管理員
 - 即時下載
 - 背景下載
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b709df13e239b0fbd7f5c5403998b8c996c228d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 790466db4c09f7c2310729bd6f866bc5066348641a73756eb9199aa685a7fafe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997078"
 ---
 # <a name="download-manager-overview"></a>下載管理員總覽
 
@@ -36,10 +36,10 @@ Windows Media Player 下載管理員提供的物件模型，可讓您用來處�
 -   指定檔案的 URL，並使用 HTTP 來開始下載。
 -   查詢下載狀態和進度。
 -   暫停、繼續或取消下載。
--   指定下載是否會在背景或即時進行。  (背景下載僅適用于 Microsoft Windows XP 作業系統。 ) 查看 [有關背景和即時下載的資訊](#about-background-and-real-time-downloading)。
+-   指定下載是否會在背景或即時進行。  (背景下載僅適用于 Microsoft Windows XP 作業系統。 ) 查看[有關背景和即時下載的資訊](#about-background-and-real-time-downloading)。
 -   指定內容在文件庫中的顯示方式。 請參閱 [關於程式庫整合](#about-library-integration)。
 
-下載管理員是從裝載的網頁中的腳本下載內容的解決方案。 若要使用 c + + 程式碼下載內容，請使用 Windows XP 背景智慧型傳送服務 (位) 。 如需詳細資訊，請參閱 [BITS](bits.md)。
+下載管理員是從裝載的網頁中的腳本下載內容的解決方案。 若要使用 c + + 程式碼下載內容，請使用 Windows XP 背景智慧型傳送服務 (個位) 。 如需詳細資訊，請參閱 [BITS](bits.md)。
 
 ## <a name="about-background-and-real-time-downloading"></a>關於背景和即時下載
 
@@ -47,7 +47,7 @@ Windows Media Player 下載管理員提供的物件模型，可讓您用來處�
 
 即時下載會一次完成。 當使用者開始下載檔案時，會以單一的連續串流將整個檔案傳送至使用者的電腦。 使用者無法暫停或以其他方式中斷下載。 如果使用者選擇在下載完成之前關閉 Windows Media Player，他或她會遺失任何未完成的檔案，而且必須從一開始就下載以取得內容。
 
-即時下載的主要優點是，它可讓使用者更快取得內容，而不是背景下載。 Windows XP 的使用者可以使用即時下載，但這是在 Windows XP 之前的 Windows 作業系統版本上唯一可用的下載類型。
+即時下載的主要優點是，它可讓使用者更快取得內容，而不是背景下載。 Windows XP 的使用者可以下載即時下載，但這是在 Windows XP 之前的 Windows 作業系統版本上唯一可用的下載類型。
 
 背景下載會以分次方式進行。 當使用者啟動背景下載時，系統會在有可用的處理器時間時，將部分的檔案傳送至使用者的電腦。 您可以暫停並繼續背景下載。 如果使用者選擇在背景下載完成之前關閉 Windows Media Player，則會儲存任何未完成檔案的條件，而且即使在重新開機電腦之後，下載也可以繼續在背景中繼續進行。
 
@@ -71,9 +71,9 @@ Windows Media Player 可以自動組織文件庫中的線上存放區內容。 �
 [**DownloadCollection.startDownload**](downloadcollection-startdownload.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

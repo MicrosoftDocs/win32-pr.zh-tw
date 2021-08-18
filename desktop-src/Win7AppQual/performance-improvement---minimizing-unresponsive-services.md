@@ -4,20 +4,20 @@ ms.assetid: 51df3fb9-416d-46b8-b3a7-0281401fb390
 title: 將沒有回應的服務降至最低的最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90416e8256383e16fd78c436dfaa8d6a2186c540
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 61cf3f37620fc00834b3c25a92292c889785818c2810cac7c12e788de8bf1fb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994848"
 ---
 # <a name="best-practices-for-minimizing-unresponsive-services"></a>將沒有回應的服務降至最低的最佳作法
 
 ## <a name="affected-platform"></a>受影響的平臺
 
- **用戶端** -windows Vista \| windows 7  
+ **用戶端**– Windows Vista \| Windows 7  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 沒有回應的服務可能會導致超時、終止會話，甚至遺失資料。 採用最佳作法可大幅減少沒有回應的服務發生。
 

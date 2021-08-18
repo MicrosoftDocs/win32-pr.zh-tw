@@ -4,12 +4,12 @@ ms.assetid: e6addd55-06ca-4d4b-b2b0-fde281fab244
 title: 影片色彩來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56e9c751d74a78b027d50f033acb3709d18fe8f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 331640a9240ef0ea16ff565180503066f22ce5ae2550fa1e1ec524dcf05c8fa5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071932"
 ---
 # <a name="video-color-source"></a>影片色彩來源
 
@@ -30,7 +30,7 @@ CLSID 變數名稱： **clsid \_ ColorSource**
 
 | 屬性 | 類型      | 預設 | 描述                                   |
 |----------|-----------|---------|-----------------------------------------------|
-| 色彩  | **Dword** | 0       | 指定要產生的色彩。 請參閱＜備註＞。 |
+| 色彩  | **DWORD** | 0       | 指定要產生的色彩。 請參閱＜備註＞。 |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e344c580-c81b-446a-93bb-6acf8f5a9f17
 title: API 中的 getprotobyname 和 getprotobynumber 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb4b507b79ba349b989ca4b2ef6aa67d77316f05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1bb54e0c9a6dc5da8d6dd24c839d61ee592ca8f15eb0bfd1efd2f57d42f9104
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132231"
 ---
 # <a name="getprotobyname-and-getprotobynumber-functions-in-the-api"></a>API 中的 getprotobyname 和 getprotobynumber 函式
 
@@ -19,7 +19,7 @@ ms.locfileid: "106973060"
 
 <dl> <dt>
 
-[Windows 通訊端 1.1 API 中 TCP/IP 的相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
+[Windows 通訊端 1.1 API 中的 tcp/ip 相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
 </dt> <dt>
 
 [通訊協定獨立名稱解析](protocol-independent-name-resolution-2.md)

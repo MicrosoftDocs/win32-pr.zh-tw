@@ -6,12 +6,12 @@ keywords:
 - 重新開機管理員重新開機管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1244cff7bc22fd2e7b6d2540051bd0984596086
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d67910428fb781a5ddf8e2c719d30f2f0488e11d6b07daad1770788e8ad5f5ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010096"
 ---
 # <a name="restart-manager"></a>重新開機管理員
 
@@ -27,7 +27,7 @@ ms.locfileid: "104023813"
 
 ## <a name="developer-audience"></a>開發人員對象
 
-本檔適用于想要充分利用 Windows Vista 或 Windows Server 2008 安裝程式功能的安裝應用程式開發人員。 使用 [Windows Installer](/windows/desktop/Msi/windows-installer-portal) 4.0 版進行安裝和服務的應用程式會自動使用重新開機管理員來減少系統重新開機。 自訂安裝程式也可以設計來呼叫重新開機管理員 API，以關閉並重新啟動應用程式和服務。 在無法避免系統重新開機的情況下，安裝程式可以使用重新開機管理員 API 來排程重新開機，以將使用者工作流程的停機時間降到最低。
+本檔適用于想要利用 Windows Vista 或 Windows Server 2008 安裝程式功能的安裝應用程式開發人員。 使用[Windows Installer](/windows/desktop/Msi/windows-installer-portal) 4.0 版進行安裝和服務的應用程式會自動使用重新開機管理員來減少系統重新開機。 自訂安裝程式也可以設計來呼叫重新開機管理員 API，以關閉並重新啟動應用程式和服務。 在無法避免系統重新開機的情況下，安裝程式可以使用重新開機管理員 API 來排程重新開機，以將使用者工作流程的停機時間降到最低。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 

@@ -4,12 +4,12 @@ ms.assetid: 4db2e7fc-0a87-0344-a07c-3abf2b21af32
 title: 使用方法：初始化 XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4a613c1ae2b7c3a7f0c55ab5349a0a605aaeb2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4eb55425c92e6d28a2689fb388869bbf42339d14bec3550e3f9e17798c1af68f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962727"
 ---
 # <a name="how-to-initialize-xaudio2"></a>使用方法：初始化 XAudio2
 
@@ -17,7 +17,7 @@ ms.locfileid: "103848207"
 
 **若要初始化 XAudio2**
 
-1.  請確定您已初始化 COM。 在 Windows Store 應用程式中，這是在初始化 Windows 執行階段的過程中完成的。 否則，請使用 [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)。
+1.  請確定您已初始化 COM。 針對 Windows 存放區應用程式，這會在初始化 Windows 執行階段的過程中完成。 否則，請使用 [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)。
 
     ```
     HRESULT hr;
@@ -52,7 +52,7 @@ ms.locfileid: "103848207"
 
 ## <a name="notes-for-windows-store-apps"></a>Windows Store 應用程式的注意事項
 
-建議您利用 [智慧型指標](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) ，以例外狀況安全的方式來管理 XAUDIO2 物件的存留期。 針對 Windows Store 應用程式，您可以使用 Windows 執行階段 C++ 範本庫 (WRL) 的 [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) 智慧型指標範本。
+建議您利用 [智慧型指標](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) ，以例外狀況安全的方式來管理 XAUDIO2 物件的存留期。 針對 Windows Store 應用程式，您可以使用 Windows 執行階段 C++ 範本庫 (WRL) 中的 [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110))智慧型指標範本。
 
 
 ```C++

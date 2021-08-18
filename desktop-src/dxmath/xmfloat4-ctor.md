@@ -4,12 +4,12 @@ ms.assetid: 889c715b-6342-4766-9c69-62e87c440d42
 title: 'XMFLOAT4 函式 (Directxmath) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 6ac3dc09a46bfed95a034a4489f6453ffc93b6fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bd38b584404cc0ae6397e38ac0a25f30e0939849cb617748d37996cd2f45592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984638"
 ---
 # <a name="xmfloat4-constructors"></a>XMFLOAT4 函式
 

@@ -4,12 +4,12 @@ ms.assetid: efd16cca-ac63-4bfa-bc6c-d7465cc374ee
 title: 列舉雲端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f958a2cc958c10bd85e674b43a3b41354fc344c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c651fcfd003e4cafdf9b0f04c7cfc993a1e677b03630a61556523eed8c3aaece
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011556"
 ---
 # <a name="enumerating-clouds"></a>列舉雲端
 

@@ -4,12 +4,12 @@ ms.assetid: ca9cef70-b897-4fd5-9a13-8bf1c2b84b00
 title: 關於 MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09adce4bc93c110cf98e4fd8ed427ffcd009c3c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f04bfc09cbd17e5f0810f46eb6e42b230010348e89040b3cd407e98ee069c8f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035702"
 ---
 # <a name="about-mfts"></a>關於 MFTs
 

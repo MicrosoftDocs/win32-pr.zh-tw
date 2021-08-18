@@ -4,12 +4,12 @@ ms.assetid: 930cffb9-3d12-4d66-9fae-d82f1372adcc
 title: 關於填滿的圖形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7427e8f35c7c94ead425f1ba055c6a34b5cdd1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3434961116e83346462319a58fadf19510d556252ad8be3079c26a8b6ea2ba6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105840"
 ---
 # <a name="about-filled-shapes"></a>關於填滿的圖形
 
@@ -17,7 +17,7 @@ ms.locfileid: "104114241"
 
 -   [橢圓形](about-ellipses.md)
 -   [Chord](about-chords.md) (和弦圖)
--   [圓形圖](about-pies.md)
+-   [Pie](about-pies.md)
 -   [Polygon](about-polygons.md)
 -   [矩形](about-rectangles.md)
 

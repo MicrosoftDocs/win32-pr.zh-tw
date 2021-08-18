@@ -4,18 +4,18 @@ ms.assetid: 6244f006-db9f-42b2-81cd-26eba583613e
 title: 使用 USB DV Video 裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75647aa7b53bac45c155b4e0a9283418c9af58b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd1f83fb490f4bd1e71714dcb0658d01a41d6e45af6f3e89436f6e32c1cdc985
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071737"
 ---
 # <a name="working-with-usb-dv-video-devices"></a>使用 USB DV Video 裝置
 
 本主題說明如何針對可捕獲 DV 影片的通用序列匯流排 (USB) 影片裝置，撰寫應用程式。
 
-標準 DV 格式的資料速率大約是每秒 25 mb (Mbps) 。 第一次引進 USB 時，沒有足夠的頻寬可支援 DV 影片。 不過，USB 2.0 最多可支援 480 Mbps，而這對 DV 影片而言就已足夠。 USB Video 裝置類別 (UVC) 規格（在2003中發行）會定義 USB DV 影片裝置的裝載格式。 在 Windows XP Service Pack 2 中引進了 Windows Driver Model 的 UVC 裝置 (WDM) 類別驅動程式。
+標準 DV 格式的資料速率大約是每秒 25 mb (Mbps) 。 第一次引進 USB 時，沒有足夠的頻寬可支援 DV 影片。 不過，USB 2.0 最多可支援 480 Mbps，而這對 DV 影片而言就已足夠。 USB Video 裝置類別 (UVC) 規格（在2003中發行）會定義 USB DV 影片裝置的裝載格式。 Windows XP Service Pack 2 中引進了 Windows Driver Model 的 UVC 裝置 (WDM) 類別驅動程式。
 
 在大部分的情況下，UVC 驅動程式支援的程式設計模型與適用于 IEEE 1394 裝置的 MSDV 驅動程式相同。 針對 MSDV 撰寫的應用程式應該只需要稍微修改才能支援 UVC 裝置。
 

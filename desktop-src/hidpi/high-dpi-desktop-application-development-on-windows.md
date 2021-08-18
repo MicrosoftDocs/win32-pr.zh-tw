@@ -9,20 +9,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7af4a7a1d65077838dfa65f7cf89dee475a0b4dc
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: c6389553ce2265752e3552fdaaf848e3ac70eede8df3b4fd9e560861bf15f33d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104093444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036248"
 ---
 # <a name="high-dpi-desktop-application-development-on-windows"></a>Windows 上的高 DPI 桌面應用程式開發
 
 此內容的目標物件是想要更新傳統型應用程式的開發人員，以處理顯示比例因素 (每英寸的點或 DPI) 變更，讓其應用程式在轉譯的任何顯示器上都有清晰的外觀。
 
-首先，如果您要從頭開始建立新的 Windows 應用程式，強烈建議您建立 [通用 Windows 平臺 (UWP) ](/windows/uwp/get-started/whats-a-uwp) 應用程式。 UWP 應用程式會自動 &mdash; 動態 &mdash; 調整其執行所在的每個顯示器。
+首先，如果您要從頭開始建立新的 Windows 應用程式，強烈建議您建立[通用 Windows 平臺 (UWP) ](/windows/uwp/get-started/whats-a-uwp)應用程式。 UWP 應用程式會自動 &mdash; 動態 &mdash; 調整其執行所在的每個顯示器。
 
-使用舊版 Windows 程式設計技術的桌面應用程式 (原始 Win32 程式設計、Windows Forms、Windows Presentation Framework (WPF) 等），) 無法自動處理不需要其他開發人員工作的 DPI 縮放比例。 如果沒有這樣的工作，應用程式會在許多常見的使用案例中呈現模糊或大小不正確。 本檔提供有關更新桌面應用程式以正確轉譯的相關內容和資訊。
+使用舊版 Windows 程式設計技術的桌面應用程式 (原始 Win32 程式設計、Windows Forms、Windows Presentation Framework (WPF) 等）。 ) 無法自動處理 DPI 調整，而不需要額外的開發人員工作。 如果沒有這樣的工作，應用程式會在許多常見的使用案例中呈現模糊或大小不正確。 本檔提供有關更新桌面應用程式以正確轉譯的相關內容和資訊。
 
 ## <a name="display-scale-factor--dpi"></a>顯示縮放比例 & DPI
 
@@ -39,7 +39,7 @@ ms.locfileid: "104093444"
 
 ## <a name="dpi-awareness-mode"></a>DPI 感知模式
 
-如果桌面應用程式支援 DPI 調整，則必須告訴 Windows。 根據預設，系統會將桌面應用程式的 DPI 感知和點陣圖延伸到其視窗。 藉由設定下列其中一種可用的 DPI 感知模式，應用程式可以明確地告訴 Windows 他們要如何處理 DPI 調整：
+桌面應用程式必須告訴 Windows 是否支援 DPI 縮放比例。 根據預設，系統會將桌面應用程式的 DPI 感知和點陣圖延伸到其視窗。 藉由設定下列其中一種可用的 DPI 感知模式，應用程式可以明確地分辨 Windows 其要如何處理 DPI 調整：
 
 ### <a name="dpi-unaware"></a>不知道 DPI
 
@@ -47,19 +47,19 @@ DPI 感知應用程式會以固定的 DPI 值 96 (100% ) 轉譯。 當這些應�
 
 ### <a name="system-dpi-awareness"></a>系統 DPI 感知
 
-以系統 DPI 感知的桌面應用程式，通常會在使用者登入的時間內，收到主要連線監視器的 DPI。 在初始化期間，它們會適當地配置 UI， (調整大小控制項、選擇字型大小、載入資產等 ) 使用該系統的 DPI 值。 如此一來，系統 DPI 感知的應用程式不會縮放 (點陣圖，) 由 Windows 在以該單一 DPI 呈現的顯示器呈現。 當應用程式移至具有不同縮放比例的顯示器時，或如果顯示比例因數變更時，Windows 會以點陣圖調整應用程式的視窗，使其顯示為模糊。 實際上，系統 DPI 感知的桌面應用程式只會在單一顯示器縮放比例轉譯 crisply，每次 DPI 變更時變得模糊。
+以系統 DPI 感知的桌面應用程式，通常會在使用者登入的時間內，收到主要連線監視器的 DPI。 在初始化期間，它們會適當地配置 UI， (調整大小控制項、選擇字型大小、載入資產等 ) 使用該系統的 DPI 值。 如此一來，系統 DPI 感知的應用程式不會縮放 (點陣圖，Windows 在以該單一 DPI 呈現的顯示器轉譯) 。 當應用程式移至具有不同縮放比例的顯示器時，或如果顯示比例因數變更時，Windows 會以點陣圖調整應用程式的視窗，使其看起來模糊不清。 實際上，系統 DPI 感知的桌面應用程式只會在單一顯示器縮放比例轉譯 crisply，每次 DPI 變更時變得模糊。
 
 ### <a name="per-monitor-and-per-monitor-v2-dpi-awareness"></a>Per-Monitor 和 Per-Monitor (V2) DPI 感知
 
-建議您更新傳統型應用程式，以使用個別監視器 DPI 感知模式，讓它們可以在每次 DPI 變更時立即正確轉譯。 當應用程式向 Windows 報告它想要在此模式中執行時，Windows 不會在 DPI 變更時以點陣圖延展應用程式，而是將 [WM \_ DPICHANGED](wm-dpichanged.md) 傳送至應用程式視窗。 然後，應用程式必須負責處理新 DPI 的大小調整。 大部分的桌面應用程式使用的 UI 架構 (Windows 通用控制項 (comctl32.dll) 、Windows Forms、Windows Presentation Framework 等等。 ) 不支援自動 DPI 縮放，因此開發人員需要調整其視窗內容的大小並重新調整其大小。
+建議您更新傳統型應用程式，以使用個別監視器 DPI 感知模式，讓它們可以在每次 DPI 變更時立即正確轉譯。 當應用程式向 Windows 報告想要在此模式中執行時，Windows 不會在 DPI 變更時以點陣圖延展應用程式，而是將[WM \_ DPICHANGED](wm-dpichanged.md)傳送至應用程式視窗。 然後，應用程式必須負責處理新 DPI 的大小調整。 大部分的桌面應用程式所使用的 UI 架構 (Windows 的通用控制項 (comctl32.dll) 、Windows Forms、Windows Presentation Framework 等等。 ) 不支援自動 DPI 縮放，因此需要開發人員調整大小並重新調整其視窗的內容。
 
 有兩個版本的 Per-Monitor 認知，應用程式可以將自己註冊為：第1版和第2版 (PMv2) 。 註冊在 PMv2 感知模式中執行的進程會導致：
 
 1.  當 DPI 變更 (最上層和子系 Hwnd 時，所要通知的應用程式) 
 2.  應用程式查看每個顯示的原始圖元
-3.  應用程式永遠不會由 Windows 縮放點陣圖
-4.  自動的非工作區 (視窗標題、捲軸等 ) DPI 縮放比例（依 Windows）
-5.  從 [CreateDialog](/windows/desktop/api/winuser/nf-winuser-createdialogw)) 的 Win32 對話方塊 (，由 Windows 自動調整 DPI
+3.  應用程式永遠不會依 Windows 縮放點陣圖
+4.  自動的非工作區 (視窗標題、捲軸等 ) DPI 縮放比例 Windows
+5.  Win32 對話方塊 (從[CreateDialog](/windows/desktop/api/winuser/nf-winuser-createdialogw)) 自動以 Windows 調整的 DPI
 6.  主題-在通用控制項中繪製點陣圖資產 (核取方塊、按鈕背景等 ) 會自動以適當的 DPI 縮放比例呈現
 
 在 Per-Monitor v2 感知模式中執行時，會在應用程式的 DPI 變更時通知應用程式。 如果應用程式不會為新的 DPI 調整本身的大小，則應用程式 UI 會出現太小或太大的 (，視先前和新的 DPI 值) 的差異而定。
@@ -79,7 +79,7 @@ DPI 感知應用程式會以固定的 DPI 值 96 (100% ) 轉譯。 當這些應�
 <thead>
 <tr class="header">
 <th>DPI 感知模式</th>
-<th>引進的 Windows 版本</th>
+<th>Windows引進的版本</th>
 <th>應用程式的 DPI 視圖</th>
 <th>DPI 變更的行為</th>
 </tr>
@@ -132,10 +132,10 @@ Per-Monitor V1 DPI 感知模式 (PMv1) 是 Windows 8.1 引進的。 此 DPI 感�
 針對個別監視器感知的初始支援僅提供下列應用程式：
 
 1.  最上層的 Hwnd 會收到 DPI 變更的通知，並提供新的建議大小
-2.  Windows 不會將應用程式 UI 延伸為點陣圖
+2.  Windows 不會以點陣圖延展應用程式 UI
 3.  應用程式會看到所有顯示的實體圖元 (請參閱虛擬化) 
 
-在 Windows 10 1607 或更新版本中，PMv1 應用程式也可能會在 WM NCCREATE 期間呼叫 [EnableNonClientDpiScaling](/windows/desktop/api/winuser/nf-winuser-enablenonclientdpiscaling) ， \_ 要求 Windows 正確地調整視窗的非工作區。
+在 Windows 10 1607 或更新版本中，PMv1 應用程式也可能會在 WM NCCREATE 期間呼叫[EnableNonClientDpiScaling](/windows/desktop/api/winuser/nf-winuser-enablenonclientdpiscaling) ， \_ 要求 Windows 正確地調整視窗的非工作區。
 
 ## <a name="per-monitor-dpi-scaling-support-by-ui-framework--technology"></a>UI 架構/技術的每個監視器 DPI 調整支援
 
@@ -175,7 +175,7 @@ Per-Monitor V1 DPI 感知模式 (PMv1) 是 Windows 8.1 引進的。 此 DPI 感�
 </ul></td>
 <td>1703</td>
 <td>應用程式</td>
-<td><a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub 範例</a></td>
+<td><a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub樣品</a></td>
 </tr>
 <tr class="odd">
 <td>Windows Forms</td>
@@ -189,7 +189,7 @@ Per-Monitor V1 DPI 感知模式 (PMv1) 是 Windows 8.1 引進的。 此 DPI 感�
 <td>原生 WPF 應用程式將會以 DPI 比例調整裝載于其他架構中的 WPF，而 WPF 中裝載的其他架構則不會自動調整</td>
 <td>1607</td>
 <td>UI 架構</td>
-<td><a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub 範例</a></td>
+<td><a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub樣品</a></td>
 </tr>
 <tr class="odd">
 <td>GDI</td>
@@ -223,7 +223,7 @@ Per-Monitor V1 DPI 感知模式 (PMv1) 是 Windows 8.1 引進的。 此 DPI 感�
 
 若要更新現有的桌面應用程式，以適當地處理 DPI 調整，必須更新其 UI 的重要部分，以回應 DPI 變更。
 
-大部分的桌面應用程式都是以系統 DPI 感知模式來執行。 系統 DPI 感知的應用程式通常會調整為主顯示器的 DPI， (系統匣在 Windows 會話啟動) 時的顯示器。 當 DPI 變更時，Windows 會將這些應用程式的 UI 延展出來，這通常會導致這些應用程式變得模糊。 當更新系統 DPI 感知應用程式，使其變成個別監視器 DPI 感知時，處理 UI 配置的程式碼需要更新，如此一來，它不僅會在應用程式初始化期間執行，還會在收到 Win32) 的情況下 ([WM \_ DPICHANGED](wm-dpichanged.md) 的 DPI 變更通知時執行。 這通常需要重新驗證程式代碼中的任何假設，UI 只需要調整一次。
+大部分的桌面應用程式都是以系統 DPI 感知模式來執行。 系統 DPI 感知的應用程式通常會調整為主顯示器的 DPI， (系統匣在 Windows 會話啟動) 時的顯示器。 當 DPI 變更時，Windows 會以點陣圖延展這些應用程式的 UI，這通常會導致它們模糊。 當更新系統 DPI 感知應用程式，使其變成個別監視器 DPI 感知時，處理 UI 配置的程式碼需要更新，如此一來，它不僅會在應用程式初始化期間執行，還會在收到 Win32) 的情況下 ([WM \_ DPICHANGED](wm-dpichanged.md) 的 DPI 變更通知時執行。 這通常需要重新驗證程式代碼中的任何假設，UI 只需要調整一次。
 
 此外，在 Win32 程式設計的情況下，許多 Win32 Api 都沒有任何 DPI 或顯示內容，因此它們只會傳回相對於系統 DPI 的值。 在您的程式碼中尋找某些 Api，並以 DPI 感知的變異數取代這些 Api，可能會很有用。 有些具有 DPI 感知變異的常見 Api 如下：
 
@@ -333,13 +333,13 @@ break;
 
 ## <a name="mixed-mode-dpi-scaling-sub-process-dpi-scaling"></a>Mixed-Mode DPI 調整 (子進程的 DPI 縮放比例) 
 
-更新應用程式以支援個別監視器 DPI 感知時，有時可能會使應用程式中的每個視窗不穩定或無法更新一次。 這可能只是因為更新和測試所有 UI 所需的時間和精力，或是因為您的應用程式可能會載入協力廠商 UI) ，而不是您需要執行的所有 UI 程式碼 (。 在這些情況下，Windows 提供一種方式，讓您能夠輕鬆進入每個監視器的認知，方法是讓您執行一些應用程式視窗 (最上層的) ，同時將您的時間和精力集中在更新 UI 的重要部分。
+更新應用程式以支援個別監視器 DPI 感知時，有時可能會使應用程式中的每個視窗不穩定或無法更新一次。 這可能只是因為更新和測試所有 UI 所需的時間和精力，或是因為您的應用程式可能會載入協力廠商 UI) ，而不是您需要執行的所有 UI 程式碼 (。 在這些情況下，Windows 提供一種方式，讓您能夠輕鬆進入每個監視器的認知，方法是讓您只在其原始的 DPI 感知模式中執行一些應用程式視窗 (最上層) ，同時將您的時間和精力集中在更新 UI 的重要部分。
 
 以下是這種情況的圖例：您可以將主要的應用程式 UI 更新為圖例中的「主視窗」 () ，以使用個別監視器 DPI 感知來執行，同時在現有的模式中執行其他視窗 ( 「次要視窗」 ) 。
 
 ![認知模式之間的 DPI 縮放比例差異](images/hub-page-illustrations.png)
 
-在 Windows 10 年度更新版 (1607) 之前，進程的 DPI 感知模式是整個進程的屬性。 從 Windows 10 年度更新版開始，現在可以針對每個 **最上層** 視窗設定這個屬性。  (**子** 視窗必須繼續符合其父系的縮放大小。 ) 最上層視窗會定義為沒有父系的視窗。 這通常是具有最小化、最大化和關閉按鈕的「一般」視窗。 子進程 DPI 感知的適用案例是讓 Windows (點陣圖擴充的次要 UI，) ，同時將您的時間和資源集中在更新主要 UI 上。
+在 Windows 10 周年更新 (1607) 之前，進程的 DPI 感知模式是整個進程的屬性。 從 Windows 10 周年更新開始，您現在可以針對每個 **最上層** 視窗設定這個屬性。  (**子** 視窗必須繼續符合其父系的縮放大小。 ) 最上層視窗會定義為沒有父系的視窗。 這通常是具有最小化、最大化和關閉按鈕的「一般」視窗。 子進程 DPI 感知的目的是要讓次要 ui 隨 Windows (點陣圖調整) ，同時將您的時間和資源集中在更新主要 UI 上。
 
 若要啟用子進程 DPI 感知，請在任何視窗建立呼叫之前和之後呼叫 [**SetThreadDpiAwarenessCoNtext**](/windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext) 。 所建立的視窗會與您透過 SetThreadDpiAwarenessCoNtext 設定的 DPI 感知相關聯。 使用第二個呼叫來還原目前線程的 DPI 感知。
 
@@ -358,26 +358,26 @@ break;
 
 **不使用在 WM DPICHANGED 中提供的建議矩形 \_**
 
-當 Windows 傳送您的應用程式視窗至 [**WM \_ DPICHANGED**](wm-dpichanged.md) 訊息時，此訊息會包含建議的矩形，您應該使用該矩形來調整視窗的大小。 您的應用程式必須使用這個矩形來調整本身的大小，因為這樣會：
+當 Windows 傳送您的應用程式視窗至 [**WM \_ DPICHANGED**](wm-dpichanged.md)訊息時，此訊息會包含建議的矩形，您應該使用該矩形來調整視窗的大小。 您的應用程式必須使用這個矩形來調整本身的大小，因為這樣會：
 
 1.  確定在顯示器之間拖曳時，滑鼠游標會在視窗上保持相同的相對位置
 2.  防止應用程式視窗進入遞迴的 DPI 變更迴圈，其中一個 DPI 變更會觸發後續的 DPI 變更，而這會觸發另一個 DPI 變更。
 
-如果您有應用程式特定的需求，而導致無法使用 Windows 在 WM DPICHANGED 訊息中提供的建議矩形 \_ ，請參閱 [**wm \_ GETDPISCALEDSIZE**](wm-getdpiscaledsize.md)。 此訊息可以用來提供 Windows 所需的大小，以在發生 DPI 變更時使用，同時仍能避免上述問題。
+如果您有應用程式特定的需求，而無法使用 Windows 在 WM DPICHANGED 訊息中提供的建議矩形 \_ ，請參閱 [**wm \_ GETDPISCALEDSIZE**](wm-getdpiscaledsize.md)。 這則訊息可用來提供 Windows 在發生 DPI 變更時所要使用的所需大小，同時仍能避免上述問題。
 
 **缺乏虛擬化的相關檔**
 
-當 HWND 或進程以非 DPI 感知或系統 DPI 感知的形式執行時，它可以是由 Windows 延伸的點陣圖。 當發生這種情況時，Windows 會將某些 Api 的 DPI 機密資訊調整並轉換成呼叫執行緒的座標空間。 例如，如果不知道 DPI 的執行緒在高 DPI 顯示器上執行時查詢螢幕大小，則 Windows 會將指定給應用程式的答案虛擬化，就像螢幕是 96 DPI 單位一樣。 或者，當目前使用者的會話開始時，當系統 DPI 感知執行緒與使用中的顯示器互動時，Windows 會將某些 API 呼叫調整成以其原始的 DPI 縮放比例執行時所使用的座標空間。
+當 HWND 或進程以 DPI 感知或系統 DPI 感知的形式執行時，可以 Windows 來延展點陣圖。 發生這種情況時，Windows 會將某些 api 的 DPI 機密資訊調整並轉換成呼叫執行緒的座標空間。 例如，如果不知道 DPI 的執行緒在高 DPI 顯示器上執行時查詢螢幕大小，Windows 將會虛擬化指定給應用程式的答案，就像螢幕是 96 DPI 單位一樣。 或者，當目前使用者的會話開始時，當系統 DPI 感知執行緒與不同 DPI 上的顯示器互動時，Windows 會將某些 API 呼叫調整成以其原始的 DPI 縮放比例執行時，將會使用此 HWND 所使用的座標空間。
 
 當您將傳統型應用程式更新為正確調整時，可能很難知道哪些 API 呼叫可以根據執行緒內容傳回虛擬化值;這項資訊目前不是由 Microsoft 所充分記載。 請注意，如果您從不感知 DPI 或系統 DPI 感知的執行緒內容呼叫任何系統 API，則傳回值可能會虛擬化。 因此，請確定您的執行緒是在與螢幕或個別視窗互動時所預期的 DPI 內容中執行。 使用 [SetThreadDpiAwarenessCoNtext](/windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext)暫時變更執行緒的 DPI 內容時，請務必在您完成時還原舊的內容，以避免在應用程式中的其他位置造成不正確的行為。
 
-**許多 Windows Api 都沒有 DPI 內容**
+**許多 Windows api 都沒有 DPI 內容**
 
-許多舊版 Windows Api 都不會在其介面中包含 DPI 或 HWND 內容。 因此，開發人員通常必須執行額外的工作來處理任何 DPI 機密資訊的調整，例如大小、點或圖示。 例如，使用 [LoadIcon](/windows/desktop/api/winuser/nf-winuser-loadiconw) 的開發人員必須使用點陣圖延展已載入的圖示，或使用替代的 api 來載入適當 DPI 大小的正確圖示，例如 [LoadImage](/windows/desktop/api/winuser/nf-winuser-loadimagew)。
+許多舊版 Windows api 都不會在其介面中包含 DPI 或 HWND 內容。 因此，開發人員通常必須執行額外的工作來處理任何 DPI 機密資訊的調整，例如大小、點或圖示。 例如，使用 [LoadIcon](/windows/desktop/api/winuser/nf-winuser-loadiconw) 的開發人員必須使用點陣圖延展已載入的圖示，或使用替代的 api 來載入適當 DPI 大小的正確圖示，例如 [LoadImage](/windows/desktop/api/winuser/nf-winuser-loadimagew)。
 
 **強制重設整個進程的 DPI 感知**
 
-一般而言，進程初始化之後，就無法變更您進程的 DPI 感知模式。 但是，如果您嘗試中斷視窗樹狀結構中的所有 Hwnd 都有相同的 DPI 感知模式，則 Windows 可以強制變更您進程的 DPI 感知模式。 在所有版本的 Windows 上，從 Windows 10 1703 版到，在不同的 DPI 感知模式下執行的 HWND 樹狀結構中不能有不同的 Hwnd。 如果您嘗試建立中斷此規則的父子式關聯性，可以重設整個進程的 DPI 感知。 這可以透過下列方式觸發：
+一般而言，進程初始化之後，就無法變更您進程的 DPI 感知模式。 但是，如果您嘗試中斷視窗樹狀結構中的所有 hwnd 都有相同的 DPI 感知模式，Windows 可以強制變更您進程的 DPI 感知模式。 在所有版本的 Windows （從 Windows 10 1703），在不同的 DPI 感知模式中，hwnd 樹狀結構中不能有不同的 hwnd。 如果您嘗試建立中斷此規則的父子式關聯性，可以重設整個進程的 DPI 感知。 這可以透過下列方式觸發：
 
 1.  一個 CreateWindow 呼叫，其中傳入的父視窗是與呼叫執行緒不同的 DPI 感知模式。
 2.  這兩個視窗與不同 DPI 感知模式相關聯的 SetParent 呼叫。

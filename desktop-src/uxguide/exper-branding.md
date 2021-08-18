@@ -4,17 +4,17 @@ description: 商標是產品的情緒定位，如同客戶的認知。 成功的
 ms.assetid: 49c10879-2f3a-4dff-b628-8d70e389fae6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: ea9954c7ce0c082cf6b1b692cdccf5a7d6a3a132
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 91d1446d3d3f499f0b56f857b4e2806e266e32df1bb4120d93416eb1cb225581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104552788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119090533"
 ---
 # <a name="software-branding"></a>軟體商標
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 商標是產品的情緒定位，如同客戶的認知。 成功的商標需要 skillful 製作產品影像，而不只是透過產品標誌和色彩配置來達成。
 
@@ -69,7 +69,7 @@ ms.locfileid: "104552788"
 
 ![windows 標誌的螢幕擷取畫面 ](images/exper-branding-image1.png)![windows 主題的螢幕擷取畫面 ](images/exper-branding-image2.png)
 
-Windows Vista 的一些主要商標元素。
+Windows Vista 的一些主要品牌要素。
 
 主要商標元素通常會有很多的注意，因此應該與擋板一起使用。 **將主要商標元素的使用限制為一些策略性體驗。** 不建議對大部分的程式使用特定產品的音效。
 
@@ -116,9 +116,9 @@ Windows Vista 的一些次要商標元素。
 
 ### <a name="where-not-to-brand"></a>非品牌
 
-雖然您可能會在程式中使用任何元素作為商標的機會，但請不要使用 Windows 桌面 (包括 [工作區域](glossary.md)、 [快速啟動](glossary.md)列或 [通知區域](winenv-notification.md)) 以進行商標。
+雖然您可能會在程式中使用任何元素作為商標的機會，但請不要使用 Windows desktop (包括[工作區域](glossary.md)、[快速啟動](glossary.md)列或[通知區域](winenv-notification.md)) 的商標。
 
-**桌面是使用者進入 Windows 的進入點。讓使用者保持控制。** 適當地使用這些進入點，絕對不會將其視為提升程式或其品牌的認知方式。 如需詳細資訊，請參閱 [Desktop](winenv-desktop.md)。
+**桌面是 Windows 的使用者進入點。讓使用者保持控制。** 適當地使用這些進入點，絕對不會將其視為提升程式或其品牌的認知方式。 如需詳細資訊，請參閱 [Desktop](winenv-desktop.md)。
 
 ### <a name="use-branding-professionals"></a>使用品牌專業人員
 
@@ -153,10 +153,10 @@ Windows Vista 的一些次要商標元素。
 
     ![沒有標誌的控制台的螢幕擷取畫面](images/exper-branding-image7.png)
 
-    在更好的範例中，會使用次要圖形元素，而不是 Windows [控制台] 專案的產品標誌。
+    在更好的範例中，會使用次要圖形元素，而不是 Windows 控制台專案的產品標誌。
 
 -   **請勿使用會造成困擾或損害可用性或效能的商標。**
--   **請勿將 Windows 桌面用於商標。** 如需詳細資訊，請參閱 [Desktop](winenv-desktop.md)。
+-   **請勿使用 Windows 桌面進行商標。** 如需詳細資訊，請參閱 [Desktop](winenv-desktop.md)。
 
 ### <a name="names-and-logos"></a>名稱和標誌
 

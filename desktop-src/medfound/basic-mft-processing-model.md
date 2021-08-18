@@ -4,12 +4,12 @@ ms.assetid: be977d75-999e-4e57-9672-00a89246a2c1
 title: 基本 MFT 處理模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ca54df6d9765aaf54456c3d9dc4461a82a93d41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19a1edb0c5144c6e3a3e1825e637cd5d19049699ad60bbf764629c9ade7cd3aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035448"
 ---
 # <a name="basic-mft-processing-model"></a>基本 MFT 處理模型
 
@@ -120,7 +120,7 @@ MFT 是設計成可靠的狀態機器。 但不會對用戶端進行任何回呼
 -   延遲讀取串流。 如果 [**IMFTransform：： GetOutputStreamInfo**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo) 方法傳回輸出資料流程的 **MFT \_ 輸出 \_ 資料流程 \_ 延遲 \_ 讀取** 旗標，則用戶端不需要從該輸出資料流程收集資料。 MFT 會繼續接受輸入，而在某個時間點，MFT 會捨棄該資料流程的輸出資料。 如果所有輸出資料流程都有此旗標，則 MFT 永遠不會無法接受輸入。 其中一個範例可能是視覺效果轉換，只有當用戶端有備用 CPU 週期來繪製視覺效果時，才會取得輸出。
 -   Discardable 資料流程。 如果 [**GetOutputStreamInfo**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo) 方法傳回輸出資料流程的 **mft \_ 輸出 \_ 資料流程 \_ DISCARDABLE** 旗標，則用戶端可以要求 mft 捨棄輸出，但除非要求，否則 mft 不會捨棄任何輸出。 當 MFT 到達輸入緩衝區的最大值時，用戶端必須收集一些輸出資料，或要求 MFT 捨棄輸出。
 -   選用的資料流程。 如果 [**GetOutputStreamInfo**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo) 方法傳回輸出資料流程的 **mft \_ 輸出 \_ 資料流程 \_ 選擇性** 旗標，或 [**IMFTransform：： GetInputStreamInfo**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputstreaminfo) 方法傳回輸入資料流程的 **mft \_ 輸入 \_ 資料流程 \_ 選擇性** 旗標，則該資料流程是選擇性的。 用戶端不需要在資料流程上設定媒體類型。 如果用戶端沒有設定型別，則會取消選取資料流程。 取消選取的輸出資料流程不會產生範例，且用戶端在呼叫 [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput)時，不會提供資料流程的緩衝區。 取消選取的輸入資料流程不接受輸入資料。 MFT 可以將其所有輸入和輸出資料流程標示為選用。 但是，必須至少選取一個輸入和一個輸出，才能讓 MFT 正常運作。
--   非同步處理。 非同步處理模型是在 Windows 7 中引進的。 It is described in the topic [Asynchronous MFTs](asynchronous-mfts.md).
+-   非同步處理。 非同步處理模型是在 Windows 7 中引進。 It is described in the topic [Asynchronous MFTs](asynchronous-mfts.md).
 
 ## <a name="imf2dbuffer"></a>IMF2DBuffer
 

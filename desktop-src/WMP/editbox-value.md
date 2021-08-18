@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 358dcafe73dd08ffa14e27c67742b6c630c19f59
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2de47d276e882f58ddc2b99d39e89ad43c3265c263e7841701ba32d8d502def
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996841"
 ---
 # <a name="editboxvalue"></a>編輯方塊。值
 
@@ -37,7 +37,7 @@ ms.locfileid: "106999145"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

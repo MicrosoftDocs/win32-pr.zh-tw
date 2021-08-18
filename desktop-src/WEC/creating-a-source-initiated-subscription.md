@@ -5,12 +5,12 @@ ms.assetid: 489d3613-177f-4045-a055-2c1577ef2191
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e0e6d4aa7c94afcdbe6458c2c23c214d935db2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ef0f3a40b3404441df40434c7ddb2f1bb6ac578caaf182c14d2825c6f99e7f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997968"
 ---
 # <a name="creating-a-source-initiated-subscription"></a>建立來源起始的訂用帳戶
 
@@ -441,9 +441,9 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 [設定來源起始的訂用帳戶](setting-up-a-source-initiated-subscription.md)
 </dt> <dt>
 
-[Windows 事件收集器參考](windows-event-collector-reference.md)
+[Windows事件收集器參考](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 6900faa3-79bb-4ed8-b83e-148eb10425a0
 title: 一般資料傳輸函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f63de41b90148210ea8a99d5271b62c5d8bc0c08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10d13b067713fe6a2600d6667ebe7eac058c5fcae87fc5bfd14311b3a263b862
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132351"
 ---
 # <a name="generic-data-transport-functions"></a>一般資料傳輸函數
 
@@ -23,7 +23,7 @@ ms.locfileid: "104511444"
 | [**WSPAsyncSelect**](/previous-versions/windows/desktop/legacy/ms742267(v=vs.85))                 | 執行 [**WSPSelect**](/previous-versions/windows/desktop/legacy/ms742289(v=vs.85))的非同步版本。                                                                                                                                      |
 | [**WSPBind**](/previous-versions/windows/hardware/network/ff566268(v=vs.85))                               | 將本機名稱指派給未命名的通訊端。                                                                                                                                                              |
 | [**WSPCancelBlockingCall**](/previous-versions/windows/desktop/legacy/ms742269(v=vs.85))   | 取消未完成的封鎖 Windows 通訊端呼叫。                                                                                                                                                   |
-| [**WSPCleanup**](/previous-versions/windows/hardware/network/ff566270(v=vs.85))                         | 登出基礎 Windows 通訊端服務提供者。                                                                                                                                         |
+| [**WSPCleanup**](/previous-versions/windows/hardware/network/ff566270(v=vs.85))                         | 簽出基礎 Windows 通訊端服務提供者。                                                                                                                                         |
 | [**WSPCloseSocket**](/previous-versions/windows/hardware/network/ff566273(v=vs.85))                 | 從每個處理常式的物件參考資料表中移除通訊端。 只有在 \_ 封鎖通訊端上設定了非零超時時，才會封鎖。                                                            |
 | [**WSPConnect**](/previous-versions/windows/hardware/network/ff566275(v=vs.85))                         | 初始化指定之通訊端上的連接。 此函式也允許 exchange connect 資料和 QoS 規格。                                                                           |
 | [**WSPDuplicateSocket**](/previous-versions/windows/hardware/network/ff566282(v=vs.85))         | 傳回 [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) 結構，可用來為共用通訊端建立新的通訊端描述項。                                                             |

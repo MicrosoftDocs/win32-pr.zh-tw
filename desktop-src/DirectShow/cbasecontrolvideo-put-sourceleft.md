@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7ae678b060cd228fe7bf073690d87e3b831e78f7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6e04002947339dc521a10b2ed516c12347f0f4c3681ef288ab20c89261e25eb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074812"
 ---
 # <a name="cbasecontrolvideoput_sourceleft-method"></a>CBaseControlVideo. put \_ SourceLeft 方法
 
@@ -55,7 +55,7 @@ HRESULT put_SourceLeft(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>          | 無效引數。<br/>                                                     |

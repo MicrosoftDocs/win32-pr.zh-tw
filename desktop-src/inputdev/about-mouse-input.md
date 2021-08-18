@@ -20,12 +20,12 @@ keywords:
 - WM_MOUSEWHEEL 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2294027cb4ca2c97371a7a06c90a7e46188e3b7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b0c4978babd6322102908699dbf88b68e2d3b92f57fa9bfa79b9b8c3eae88931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105787"
 ---
 # <a name="about-mouse-input"></a>關於滑鼠輸入
 
@@ -80,7 +80,7 @@ ms.locfileid: "103682278"
 
 雖然滑鼠對應用程式而言是重要的輸入裝置，但並非每位使用者都必須有滑鼠。 應用程式可以藉由將 **SM \_ MOUSEPRESENT** 值傳遞至 [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) 函式，來判斷系統是否包含滑鼠。
 
-Windows 支援的滑鼠最多有三個按鈕。 在三個按鈕的滑鼠上，按鈕會指定為左方、中間和右按鈕。 與滑鼠按鍵相關的訊息和命名常數會使用字母 L、M 和 R 來識別按鈕。 選項按鈕上的按鈕會被視為左按鈕。 雖然 Windows 支援具有多個按鈕的滑鼠，但大部分的應用程式通常會使用左側按鈕，而其他應用程式則是最少的。
+Windows 支援最多三個按鈕的滑鼠。 在三個按鈕的滑鼠上，按鈕會指定為左方、中間和右按鈕。 與滑鼠按鍵相關的訊息和命名常數會使用字母 L、M 和 R 來識別按鈕。 選項按鈕上的按鈕會被視為左按鈕。 雖然 Windows 支援具有多個按鈕的滑鼠，但大部分的應用程式通常會使用左側按鈕，而其他應用程式則使用最少（如果有的話）。
 
 應用程式也可以支援滑鼠滾輪。 您可以按下或旋轉滑鼠滾輪。 按下滑鼠滾輪時，會作為中間的 (第三) 按鈕，將一般中間按鈕訊息傳送至您的應用程式。 當它旋轉時，滾輪訊息會傳送至您的應用程式。 如需詳細資訊，請參閱 [滑鼠滾輪](#the-mouse-wheel) 一節。
 
@@ -92,7 +92,7 @@ Windows 支援的滑鼠最多有三個按鈕。 在三個按鈕的滑鼠上，�
 
 Windows 支援具有五個按鈕的滑鼠。 除了左邊、中間和右方按鈕之外，還提供 XBUTTON1 和 XBUTTON2，可在使用瀏覽器時提供反向和向前流覽。
 
-視窗管理員支援透過 **wm \_ XBUTTON \*** 和 **wm \_ NCXBUTTON \*** 訊息的 XBUTTON1 和 XBUTTON2。 這些訊息中的 **WPARAM** HIWORD 包含旗標，指出所按的 X 按鈕。 因為這些滑鼠訊息也可以放在常數 **WM \_ MOUSEFIRST** 和 **WM \_ MOUSELAST** 之間，所以應用程式可以使用 [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) 或 [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea)來篩選所有滑鼠訊息。
+視窗管理員透過 **WM \_ XBUTTON \* *_ 和 _* WM \_ NCXBUTTON \* *_ 訊息支援 XBUTTON1 和 XBUTTON2。*** 這些訊息中 _ WPARAM 的 HIWORD 包含旗標，指出所按的 X 按鈕。 因為這些滑鼠訊息也可以放在常數 **WM \_ MOUSEFIRST** 和 **WM \_ MOUSELAST** 之間，所以應用程式可以使用 [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) 或 [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea)來篩選所有滑鼠訊息。
 
 下列支援 XBUTTON1 和 XBUTTON2：
 
@@ -152,7 +152,7 @@ Windows 支援具有五個按鈕的滑鼠。 除了左邊、中間和右方按�
 
 
 
- 
+ 
 
 此外，應用程式可以呼叫 [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) 函式，讓系統傳送其他兩個訊息。 當游標停留在某段時間內的工作區時，它會張貼 [**WM \_ MOUSEHOVER**](wm-mousehover.md) 訊息。 當資料指標離開工作區時，它會張貼 [**WM \_ MOUSELEAVE**](wm-mouseleave.md) 訊息。
 
@@ -176,7 +176,7 @@ Windows 支援具有五個按鈕的滑鼠。 除了左邊、中間和右方按�
 
 
 
- 
+ 
 
 ### <a name="double-click-messages"></a>Double-Click 訊息
 
@@ -193,7 +193,7 @@ Windows 支援具有五個按鈕的滑鼠。 除了左邊、中間和右方按�
 3.  [**WM \_ LBUTTONDBLCLK**](wm-lbuttondblclk.md)
 4.  [**WM \_ LBUTTONUP**](wm-lbuttonup.md)
 
-由於視窗一律會在收到按兩下訊息之前收到按鈕下的訊息，因此，應用程式通常會使用按兩下訊息來擴充在按鈕的訊息期間開始的工作。 例如，當使用者按一下 Microsoft 小畫家的色彩選擇區中的色彩時，油漆會在選擇區旁顯示選取的色彩。 當使用者按兩下色彩時，油漆會顯示色彩並開啟 [ **編輯色彩** ] 對話方塊。
+由於視窗一律會在收到按兩下訊息之前收到按鈕下的訊息，因此，應用程式通常會使用按兩下訊息來擴充在按鈕的訊息期間開始的工作。 例如，當使用者按一下 Microsoft 小畫家的色彩選擇區中的色彩時，小畫家會顯示選取區旁的選取色彩。 當使用者按兩下色彩時，小畫家會顯示色彩，並開啟 [**編輯色彩**] 對話方塊。
 
 ### <a name="nonclient-area-mouse-messages"></a>非工作區滑鼠訊息
 
@@ -246,7 +246,7 @@ Windows 支援具有五個按鈕的滑鼠。 除了左邊、中間和右方按�
 
 
 
- 
+ 
 
 如果游標位於視窗的工作區中， [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 會將 **HTCLIENT** 點擊測試值傳回至視窗程式。 當視窗程式將此程式碼傳回給系統時，系統會將游標作用點的螢幕座標轉換成用戶端座標，然後張貼適當的用戶端區域滑鼠訊息。
 
@@ -316,12 +316,12 @@ SystemParametersInfo(SPI_GETWHEELSCROLLLINES, 0, pulScrollLines, 0)
 | [清單檢視]               | 垂直和水準。                                                                                                                                                |
 | 向上/向下滾動         | 一次一個專案。                                                                                                                                                     |
 | 捲軸捲軸        | 一次一個專案。                                                                                                                                                     |
-| Microsoft Rich Edit 1。0 | 垂直。 請注意，Exchange 用戶端有自己的清單視圖版本，以及沒有滾輪支援的樹狀檢視控制項。                                        |
+| Microsoft Rich Edit 1。0 | 垂直。 請注意，Exchange 用戶端有自己的清單視圖版本和沒有滾輪支援的樹狀檢視控制項。                                        |
 | Microsoft Rich Edit 2。0 | 垂直。                                                                                                                                                               |
 
 
 
- 
+ 
 
 ### <a name="detecting-a-mouse-with-a-wheel"></a>使用滾輪偵測滑鼠
 

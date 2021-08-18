@@ -8,12 +8,12 @@ keywords:
 - LDAP 服務提供者 ADSI、Active Directory 與 LDAP 之間的資料類型對應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45157fb7cefe1a993e6e16dffe28f101bc73759b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e1aed0ff0071c55e381e1eb66f1f84e5a98aa8acf2c361816444533c6d0ad886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961967"
 ---
 # <a name="data-type-mapping-between-active-directory-and-ldap"></a>Active Directory 與 LDAP 之間的資料類型對應
 
@@ -69,11 +69,11 @@ ms.locfileid: "106965155"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

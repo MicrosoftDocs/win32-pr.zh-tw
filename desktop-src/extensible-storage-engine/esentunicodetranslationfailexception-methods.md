@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103155
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: da9126b43ede620be74ff71f2265bd77e1de9eb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 872b7319f2241463b00e110944e0d192cd6ab222dd8734363184283e668388dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104553961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980888"
 ---
 # <a name="esentunicodetranslationfailexception-methods"></a>EsentUnicodeTranslationFailException 方法
 

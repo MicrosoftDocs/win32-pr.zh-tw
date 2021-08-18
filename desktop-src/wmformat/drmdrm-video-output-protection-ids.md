@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51af3ccebec52ab6f6863aeb376ed27f8c8e2467
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9439328ed817da40630c3a600cf7e6db553738a12799babbe9e71c48f28923b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085870"
 ---
 # <a name="drm_video_output_protection_ids-structure"></a>DRM \_ 影片 \_ 輸出 \_ 保護 \_ 識別碼結構
 

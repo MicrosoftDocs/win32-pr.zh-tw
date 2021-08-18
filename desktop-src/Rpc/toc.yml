@@ -79,7 +79,7 @@
               href: do-not-use-endpoint-security.md
             - name: 請小心在相同進程中執行其他 RPC 端點
               href: be-wary-of-other-rpc-endpoints-running-in-the-same-process.md
-            - name: 確認伺服器是否為其宣稱的身分
+            - name: 確認伺服器神秘宣告為
               href: verify-the-server-is-who-it-claims-to-be.md
             - name: 使用主流通訊協定序列
               href: use-mainstream-protocol-sequences.md
@@ -94,7 +94,7 @@
               href: network-latency-and-throughput.md
             - name: 延展性
               href: scalability.md
-            - name: 其他 RPC 效能秘訣
+            - name: 其他 RPC 效能提示
               href: miscellaneous-rpc-performance-tips.md
         - name: 取得延伸的 RPC 錯誤資訊
           href: obtaining-extended-rpc-error-information.md
@@ -515,7 +515,7 @@
                   href: application-allocated-buffer.md
                 - name: 伺服器上的持續性儲存體
                   href: persistent-storage-on-the-server.md
-            - name: 誰負責管理記憶體？
+            - name: 神秘管理記憶體？
               href: who-manages-memory-.md
               items:
                 - name: Top-Level 和內嵌指標

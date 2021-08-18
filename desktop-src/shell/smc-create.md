@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 59219f376288431fa20e198d8c427ff40c7fba62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 537c535d5470a691cf110b2217bb31cbfd0ad78b328f4fbb32a1445e0c5e6597
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968217"
 ---
 # <a name="smc_create-message"></a>SMC \_ 建立訊息
 
@@ -61,7 +61,7 @@ SMC_CREATE
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                              |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Shobjidl.h。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b51f12025bbddb8a9e795a97f2ed443344327a17
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 034fd83ac9337f6b2529b4035e6daa1b9bd06c3022ed30dbce0af74e5f6ef6cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939659"
 ---
 # <a name="inapenforcementclientconnectioninitialize-method"></a>INapEnforcementClientConnection：： Initialize 方法
 
@@ -60,7 +60,7 @@ HRESULT Initialize(
 
 
 
-| 傳回碼                                                                                     | Description                                                        |
+| 傳回碼                                                                                     | 描述                                                        |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> </dl>           | 作業成功。<br/>                                    |
 | <dl> <dt>**E \_ACCESSDENIED**</dt> </dl> | 許可權錯誤，拒絕存取。<br/>                       |
@@ -76,10 +76,10 @@ HRESULT Initialize(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapEnforcementClient。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapEnforcementClient .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapEnforcementClient .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
 
 

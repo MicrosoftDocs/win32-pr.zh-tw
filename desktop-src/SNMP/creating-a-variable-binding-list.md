@@ -4,12 +4,12 @@ description: SnmpCreateVbl 函式會建立新的變數系結清單。
 ms.assetid: 18e8a04d-612f-4d85-9cff-8c541a4cdf71
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34e9ef7aa208e2e2f887d14c0e124f3bb659ff8f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2530b59524375ad6413ff9aa1416db8e25ee3641136284cb4a0f70795e388a8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009576"
 ---
 # <a name="creating-a-variable-binding-list"></a>建立變數系結清單
 
@@ -19,9 +19,9 @@ ms.locfileid: "104183629"
 
 [**SnmpCreateVbl**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatevbl)函式和 [**SnmpDuplicateVbl**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatevbl)函式會為新的變數系結清單配置任何必要的記憶體。 WinSNMP 應用程式必須釋放與這些清單相關聯的資源。 建議應用程式藉由比對 [**SnmpCreateVbl**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatevbl) 和 [**SnmpDuplicateVbl**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatevbl) 的每個呼叫，並在適當的情況下使用 [**SnmpFreeVbl**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreevbl) 函式來釋放已配置的記憶體，以進行這項作業。
 
- 
+ 
 
- 
+ 
 
 
 

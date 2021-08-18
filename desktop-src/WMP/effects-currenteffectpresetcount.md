@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cca60843fa8a2f27fd1cfb9cba7f038acbcc44f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e16ef4f7544bdeda3d8bf29f7170ada048c8574d53ac8d6f098eadbcaef6c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996828"
 ---
 # <a name="effectscurrenteffectpresetcount"></a>效果。 currentEffectPresetCount
 

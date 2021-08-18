@@ -4,19 +4,19 @@ ms.assetid: 19109f92-b9da-4df7-8628-374e37a3f624
 title: VShadow 工具和範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad7a9a697ecdf39f91d43fa0c66faebd37cfbfed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 306d759d10875b03cb0d2e4e2064a85614400ff5240800da3fc4c1ce94add8c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998068"
 ---
 # <a name="vshadow-tool-and-sample"></a>VShadow 工具和範例
 
 VShadow 是一種命令列工具，可讓您用來建立和管理磁片區陰影複製。
 
 > [!Note]  
-> VShadow 隨附于適用于 Windows Vista 和更新版本的 Microsoft Windows 軟體開發套件 (SDK) 。 VSS 7.2 SDK 包含的 VShadow 版本只會在 Windows Server 2003 上執行。 如需下載 Windows SDK 和 VSS 7.2 SDK 的詳細資訊，請參閱 [磁碟區陰影複製服務](volume-shadow-copy-service-portal.md)。
+> VShadow 隨附于適用于 Windows Vista 和更新版本的 Microsoft Windows 軟體開發套件 (SDK) 。 VSS 7.2 SDK 包含只能在 Windows Server 2003 上執行的 VShadow 版本。 如需下載 Windows SDK 和 VSS 7.2 SDK 的詳細資訊，請參閱[磁碟區陰影複製服務](volume-shadow-copy-service-portal.md)。
 
  
 
@@ -57,7 +57,7 @@ VShadow 命令會執行下列作業：
 <thead>
 <tr class="header">
 <th>選擇性旗標值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -66,7 +66,7 @@ VShadow 命令會執行下列作業：
 <td>此選擇性旗標指定差異硬體陰影複製。 此旗標和 <strong>-ap</strong> 旗標互斥。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
 <br/></td>
 </tr>
@@ -75,16 +75,16 @@ VShadow 命令會執行下列作業：
 <td>此選擇性旗標指定了 plex 硬體陰影複製。 此旗標和 <strong>-ad</strong> 旗標彼此互斥。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td><span id="_-bc_File.xml"></span><span id="_-bc_file.xml"></span><span id="_-BC_FILE.XML"></span><strong></strong> <strong>-bc =</strong><em>File</em><strong>.xml</strong><br/></td>
+<td><span id="_-bc_File.xml"></span><span id="_-bc_file.xml"></span><span id="_-BC_FILE.XML"></span><strong></strong> <strong>-bc =</strong><em>File</em> <strong>.xml</strong><br/></td>
 <td>這個選擇性旗標會指定不可傳送的陰影複製，並將備份元件檔儲存到指定的檔案中。 此檔案可用於後續的還原作業。 此旗標和 <strong>-t</strong> 旗標互斥。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
 <br/></td>
 </tr>
@@ -102,18 +102,18 @@ VShadow 命令會執行下列作業：
 <td>這個選擇性旗標會指定只有在可以還原所有磁片簽章時，才會完成陰影複製作業。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
-<br/> <strong>Windows Server 2003：</strong> 不支援。<br/></td>
+<br/> <strong>Windows Server 2003：</strong>不支援。<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-mask"></span><span id="-MASK"></span><strong>-mask</strong><br/></td>
 <td>此選擇性旗標指定當陰影複製集中斷時，應該從電腦遮罩陰影複製 Lun。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
-<br/> <strong>Windows Server 2003：</strong> 不支援。<br/></td>
+<br/> <strong>Windows Server 2003：</strong>不支援。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="-nar"></span><span id="-NAR"></span><strong>-nar</strong><br/></td>
@@ -124,9 +124,9 @@ VShadow 命令會執行下列作業：
 <td>這個選擇性旗標指定不應復原磁碟簽章。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
-<br/> <strong>Windows Server 2003：</strong> 不支援。<br/></td>
+<br/> <strong>Windows Server 2003：</strong>不支援。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="-nw"></span><span id="-NW"></span><strong>-nw</strong><br/></td>
@@ -137,7 +137,7 @@ VShadow 命令會執行下列作業：
 <td>這個選擇性旗標會指定 <a href="vssgloss-p.md"><em>持續性陰影複製</em></a>。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
 <br/></td>
 </tr>
@@ -146,16 +146,16 @@ VShadow 命令會執行下列作業：
 <td>此選擇性旗標指定當陰影複製集中斷時，應該將陰影複製 Lun 設為讀取/寫入。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
-<br/> <strong>Windows Server 2003：</strong> 不支援。<br/></td>
+<br/> <strong>Windows Server 2003：</strong>不支援。<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-scsf"></span><span id="-SCSF"></span><strong>-scsf</strong><br/></td>
 <td>這個選擇性旗標會指定 <a href="vssgloss-c.md"><em>用戶端可存取的陰影複製</em></a>。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
 <br/></td>
 </tr>
@@ -164,15 +164,15 @@ VShadow 命令會執行下列作業：
 <td>這個選擇性旗標會產生 CMD 檔案，其中包含與建立的陰影複製相關的環境變數，例如陰影複製識別碼和陰影複製集識別碼。<br/></td>
 </tr>
 <tr class="even">
-<td><span id="-t_File.xml"></span><span id="-t_file.xml"></span><span id="-T_FILE.XML"></span><strong>-t =</strong><em>File</em><strong>.xml</strong><br/></td>
-<td>這個選擇性旗標會指定可轉移的陰影複製，並將備份元件檔儲存到 <em>File.xml</em> 參數所指定的檔案中。 此檔案可用於後續的匯入和/或還原作業。 此旗標和 <strong>-bc</strong> 旗標彼此互斥。<br/> <strong>Windows server 2003、Standard edition 和 Windows server 2003、Web edition：</strong> 不支援可轉移的陰影複製。 所有版本的 Windows Server 2003 Service Pack 1 (SP1) 支援可轉移的陰影複製。<br/></td>
+<td><span id="-t_File.xml"></span><span id="-t_file.xml"></span><span id="-T_FILE.XML"></span><strong>-t =</strong><em>File</em> <strong>.xml</strong><br/></td>
+<td>這個選擇性旗標會指定可轉移的陰影複製，並將備份元件檔儲存到 <em>File.xml</em> 參數所指定的檔案中。 此檔案可用於後續的匯入和/或還原作業。 此旗標和 <strong>-bc</strong> 旗標彼此互斥。<br/> <strong>Windows server 2003、Standard Edition 和 Windows server 2003 Web Edition：</strong>不支援可轉移的陰影複製。 所有版本的 Windows Server 2003 （含 Service Pack 1） (SP1) 都支援可轉移的陰影複製。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="-tr"></span><span id="-TR"></span><strong>-tr</strong><br/></td>
 <td>這個選擇性旗標會指定在建立陰影複製時應該強制執行 TxF 復原。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援此旗標。
+只有 Windows server 作業系統上才支援此旗標。
 </blockquote>
 <br/></td>
 </tr>
@@ -201,12 +201,12 @@ VShadow 命令會執行下列作業：
 
 ## <a name="importing-a-shadow-copy-set"></a>匯入陰影複製集
 
-**vshadow** \[OptionalFlags \] **-i =**_File_*_.xml_*
+**vshadow** \[OptionalFlags \] **-i =**_File_ *_.xml_*
 
 **-I** 命令列選項會匯入可轉移的陰影複製集。
 
 > [!Note]  
-> 只有在 Windows server 作業系統上才支援此命令列選項。
+> 只有 Windows server 作業系統支援這個命令列選項。
 
  
 
@@ -220,7 +220,7 @@ VShadow 命令會執行下列作業：
 
 
 
-| 選擇性旗標值                                                                                                            | Description                                                                                                                                                                                                                                                                  |
+| 選擇性旗標值                                                                                                            | 描述                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="-exec_Command"></span><span id="-exec_command"></span><span id="-EXEC_COMMAND"></span>**-exec =**_命令_<br/> | 這個選擇性旗標會在匯入陰影複製之後，但在 VShadow 工具結束之前，執行命令或腳本。 *命令* 可以指定可執行檔 shell 命令或 CMD 檔。 如果指定了 shell 命令，就不能指定任何命令參數。<br/> |
 | <span id="-tracing"></span><span id="-TRACING"></span>**-追蹤**<br/>                                                  | 這個選擇性旗標會產生可用於疑難排解的詳細資訊輸出。<br/>                                                                                                                                                                                 |
@@ -286,7 +286,7 @@ VShadow 命令會執行下列作業：
 **-Bw =**_ShadowCopySetId_ 命令列選項會將陰影複製集中的每個陰影複製轉換成獨立的可寫入磁片區。
 
 > [!Note]  
-> 只有在 Windows server 作業系統上才支援 **-b** 和 **-bw** 命令列選項。
+> 只有 Windows server 作業系統支援 **-b** 和 **-bw** 命令列選項。
 
  
 
@@ -307,7 +307,7 @@ VShadow 命令會執行下列作業：
 如需有關中斷陰影複製集的詳細資訊，請參閱 [中斷陰影](breaking-shadow-copies.md)複製。
 
 > [!Note]  
-> 只有在 Windows server 作業系統上才支援 **-bex** 命令列選項。
+> 只有 Windows server 作業系統上才支援 **-bex** 命令列選項。
 
  
 
@@ -406,9 +406,9 @@ VShadow 命令會執行下列作業：
 
 ## <a name="performing-restore-operations"></a>執行還原作業
 
-**vshadow** \[OptionalFlags \] **-r =**_File_*_.xml_*
+**vshadow** \[OptionalFlags \] **-r =**_File_ *_.xml_*
 
-**vshadow** \[OptionalFlags \] **-rs =**_File_*_.xml_*
+**vshadow** \[OptionalFlags \] **-rs =**_File_ *_.xml_*
 
 **-R** 命令列選項會執行還原作業。
 
@@ -422,7 +422,7 @@ VShadow 命令會執行下列作業：
 
 
 
-| 選擇性旗標值                                                                                                            | Description                                                                                                                                                                                                                                                                        |
+| 選擇性旗標值                                                                                                            | 描述                                                                                                                                                                                                                                                                        |
 |--------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="-wi_Writer"></span><span id="-wi_writer"></span><span id="-WI_WRITER"></span>**-wi-fi =**_寫入器_<br/>             | 這個選擇性旗標會驗證指定的寫入器或元件是否包含在還原中。 *寫入器* 可以指定元件路徑、寫入器名稱、寫入器識別碼或寫入器實例識別碼。<br/>                                                                                    |
 | <span id="-wx_Writer"></span><span id="-wx_writer"></span><span id="-WX_WRITER"></span>**-wx =**_Writer_<br/>             | 這個選擇性旗標會驗證指定的寫入器或元件是否排除在還原之外。 *寫入器* 可以指定元件路徑、寫入器名稱、寫入器識別碼或寫入器實例識別碼。<br/>                                                                                  |
@@ -438,7 +438,7 @@ VShadow 命令會執行下列作業：
 **vshadow** **-revert =**_ShadowCopyId_
 
 > [!Note]  
-> 只有在 Windows server 作業系統上才支援此命令列選項。
+> 只有 Windows server 作業系統支援這個命令列選項。
 
  
 
@@ -459,7 +459,7 @@ VShadow 命令會執行下列作業：
 **-Resync** 命令列選項會起始 LUN 重新同步作業。 作業完成之後，每個目標 LUN 的簽章應與目標磁片區 LUN 的簽章相同。 *BCDFileName* 參數會指定包含備份元件檔的 XML 檔案名。
 
 > [!Note]  
-> 只有在 Windows server 作業系統上才支援 **-addresync** 和 **-resync** 命令列選項。
+> 只有 Windows server 作業系統上才支援 **-addresync** 和 **-resync** 命令列選項。
 
  
 
@@ -477,7 +477,7 @@ VShadow 命令會執行下列作業：
 <thead>
 <tr class="header">
 <th>選擇性旗標值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -486,18 +486,18 @@ VShadow 命令會執行下列作業：
 <td>此選擇性旗標指定在作業完成之後，每個目標 LUN 的簽章應與用來建立陰影複製的原始 LUN 相同，而不是目標磁片區 LUN。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援 <strong>-revertsig</strong> 旗標。
+只有 Windows server 作業系統支援<strong>-revertsig</strong>旗標。
 </blockquote>
-<br/> <strong>Windows server 2008 和 Windows server 2003：</strong> 不支援。<br/></td>
+<br/> <strong>Windows server 2008 和 Windows server 2003：</strong>不支援。<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-novolcheck"></span><span id="-NOVOLCHECK"></span><strong>-novolcheck</strong><br/></td>
 <td>此選擇性旗標指定 VSS 服務不應該檢查 LUN 重新同步作業將覆寫的未選取磁片區。<br/>
 <blockquote>
 [!Note]<br />
-只有在 Windows server 作業系統上才支援 <strong>-novolcheck</strong> 旗標。
+只有 Windows server 作業系統支援<strong>-novolcheck</strong>旗標。
 </blockquote>
-<br/> <strong>Windows server 2008 和 Windows server 2003：</strong> 不支援。<br/></td>
+<br/> <strong>Windows server 2008 和 Windows server 2003：</strong>不支援。<br/></td>
 </tr>
 </tbody>
 </table>

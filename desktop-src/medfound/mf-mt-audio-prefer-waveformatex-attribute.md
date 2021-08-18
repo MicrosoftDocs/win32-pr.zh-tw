@@ -4,12 +4,12 @@ ms.assetid: 9bb045a2-be5b-468b-b30b-aedcb7849945
 title: 'MF_MT_AUDIO_PREFER_WAVEFORMATEX 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7be5f5ac0aadfb2a4d8d2b8394a06f270e1b4d0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b23e2aeb00e2967b3f031a2aafe3a01f3846d7db077ba344a59680508bd385fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035296"
 ---
 # <a name="mf_mt_audio_prefer_waveformatex-attribute"></a>MF \_ MT \_ 音訊 \_ 偏好 \_ WAVEFORMATEX 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104512824"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

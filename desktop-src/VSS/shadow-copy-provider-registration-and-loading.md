@@ -4,12 +4,12 @@ ms.assetid: f9bb72ce-9a2b-43cd-9697-1f6598a46e3e
 title: 陰影複製提供者註冊和載入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 725613ff37450075c964b3c66fce3ffba1a70529
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbb239303884314375ec865e3862d6a65af7de27bd7351a74e92604d06876bb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998108"
 ---
 # <a name="shadow-copy-provider-registration-and-loading"></a>陰影複製提供者註冊和載入
 

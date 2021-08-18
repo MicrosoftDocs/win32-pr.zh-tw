@@ -4,12 +4,12 @@ ms.assetid: 4c514197-0df0-49c6-b39e-8a2a7cefa93d
 title: System.management.automation.aliasinfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 052409864617bdaba7acbf9ae561752c83d18395
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 087323df682a2f74164c530f18a9c4da8405930304186288a3d84635bb06ab55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970967"
 ---
 # <a name="aliasinfo"></a>System.management.automation.aliasinfo
 

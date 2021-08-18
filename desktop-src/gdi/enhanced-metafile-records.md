@@ -4,12 +4,12 @@ ms.assetid: af3261c7-2113-4777-97c0-504f23022550
 title: 增強的中繼檔記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2097fd59497838c2a77a0209f6ae715dff2e1cf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 506ca77dda1bd90fc04b692dbbd98bc06f4da44c5fc6f8edb0fd17cbd3e94c96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038016"
 ---
 # <a name="enhanced-metafile-records"></a>增強的中繼檔記錄
 

@@ -4,12 +4,12 @@ ms.assetid: ff85da6f-a506-4225-8ac9-4a8a7be8d599
 title: AppUserModel. ExcludeFromShowInNewInstall
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 206cbbc6b07b0d3fec5833c046d4cb44c1e5e4e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba75b28b789fd9972eb484797957601dbcb5e93694b469eeb8b81bf9ba198d13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970897"
 ---
 # <a name="systemappusermodelexcludefromshowinnewinstall"></a>AppUserModel. ExcludeFromShowInNewInstall
 

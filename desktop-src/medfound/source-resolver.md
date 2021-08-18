@@ -4,12 +4,12 @@ ms.assetid: 93eecf10-308b-4bb4-92f9-fd32d6ecdb04
 title: 來源解析程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6a844893b0348546d4fd174b0b24405812efcef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d90ac92cc9d30c5dfb46be60812fbe3156e0f26e396ed1bb9006752ae9db47bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034736"
 ---
 # <a name="source-resolver"></a>來源解析程式
 

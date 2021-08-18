@@ -4,12 +4,12 @@ description: 描述元、資源控制碼和 C 樣式字串是在 WinSNMP 程式�
 ms.assetid: 7f51f02b-7c9f-4aa0-b0cf-83551a312e83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d70ed4d9d52452b5067a6d1e51392b84f95ccce8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1188af74e150313cb24b01886d06df9e3ad065039cad9fa4a3e0b3b5ee6a9f4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009786"
 ---
 # <a name="allocating-winsnmp-memory-objects"></a>配置的 WinSNMP 記憶體物件
 
@@ -30,13 +30,13 @@ ms.locfileid: "104020774"
 
 
 
- 
+ 
 
 如需詳細資訊，請參閱 [釋放 WinSNMP 描述](freeing-winsnmp-descriptors.md)項。
 
- 
+ 
 
- 
+ 
 
 
 

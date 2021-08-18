@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9dbf35aebeace7c4384dc254211f5ed061029449
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e5c90ccda8585f208917447ec3b1f331b1743bdbd0be3f24800c08d50233818
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112898"
 ---
 # <a name="esenttoomanytestinjectionsexception-class"></a>EsentTooManyTestInjectionsException 類別
 

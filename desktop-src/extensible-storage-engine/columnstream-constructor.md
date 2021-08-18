@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 498fed2daf2cad5903d9597689a80eadca7bd569
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff3395637609ab72046c0bcd53a4264721d022224c0a1ff33a1bbf9f6a71aeda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982678"
 ---
 # <a name="columnstream-constructor"></a>ColumnStream 函式
 

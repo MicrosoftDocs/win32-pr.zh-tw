@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ee55b347db98e14360200257c2dedd314f61ce4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae9a19c532fcee6c57d6bc318631447eefcdc421b4f57dd2284e0f05b4b86b32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996038"
 ---
 # <a name="pauseelement"></a>PAUSEELEMENT
 

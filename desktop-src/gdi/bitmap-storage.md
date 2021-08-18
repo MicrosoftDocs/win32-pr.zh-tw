@@ -4,12 +4,12 @@ ms.assetid: 44f19d14-4e0e-4512-8c86-6bd34ca4e87b
 title: 點陣圖儲存體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28046f6d78f5137d0dfc5b1396bbf76be318daa5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83688f240899ded49227264b716d8c5d1fb609aa747fc358184a78ad18c8d17f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038206"
 ---
 # <a name="bitmap-storage"></a>點陣圖儲存體
 

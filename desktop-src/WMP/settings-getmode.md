@@ -1,11 +1,11 @@
 ---
-title: GetMode 方法
+title: 設定 getMode 方法
 description: GetMode 方法會判斷迴圈模式或隨機播放模式是否為使用中狀態。
 ms.assetid: 41c3725f-ae8f-4b45-856a-b7245c9ad2b3
 keywords:
 - getMode 方法 Windows Media Player
-- getMode 方法 Windows Media Player，Settings 類別
-- Settings 類別 Windows Media Player，getMode 方法
+- getMode 方法 Windows Media Player，設定類別
+- 設定類別 Windows Media Player，getMode 方法
 topic_type:
 - apiref
 api_name:
@@ -16,14 +16,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fc3e82091200d05bb173c71f2c0e5a7d213b80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 779c775319cbe0d6dc443b4eb99febd494db3d30fb35228b7310f8f1ae7d691d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995328"
 ---
-# <a name="settingsgetmode-method"></a>GetMode 方法
+# <a name="settingsgetmode-method"></a>設定 getMode 方法
 
 **GetMode** 方法會判斷迴圈模式或隨機播放模式是否為使用中狀態。
 
@@ -49,7 +49,7 @@ bRetVal = Settings.getMode(
 
 
 
-| String     | Description                                                                                                              |
+| String     | 描述                                                                                                              |
 |------------|--------------------------------------------------------------------------------------------------------------------------|
 | autoRewind | 播放至結尾之後，會在一開始重新開機追蹤。                                                          |
 | loop       | 追蹤順序會自行重複。                                                                                   |
@@ -81,7 +81,7 @@ bRetVal = Settings.getMode(
 
 <dl> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> <dt>
 
 [**設定. setMode**](settings-setmode.md)

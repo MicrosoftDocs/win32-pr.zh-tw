@@ -4,12 +4,12 @@ ms.assetid: dc82feef-7d03-45dd-a949-42589511b177
 title: 'DrawLines 方法 (Gdiplusgraphics .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: c08692837d977b15af6240e5ee5d54860d6ffff9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f738cc82c20fb08bb5f9962935fd38a3b8fe37a65aa5be473763d9fa0ff9bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037416"
 ---
 # <a name="graphicsdrawlines-methods"></a>DrawLines 方法
 

@@ -10,12 +10,12 @@ keywords:
 - 資料流程、數位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f1a398256da99092da45e83ebc91de713f9ab71
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 89e8b58e97ce2add4b6ff139aebacbc6d510af4424b2d3ae2bff3ea4577c429b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104374849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964177"
 ---
 # <a name="configuration-common-to-all-streams"></a>所有資料流程通用的設定
 
@@ -37,9 +37,9 @@ ms.locfileid: "104374849"
 [**輸入、串流和輸出**](inputs-streams-and-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

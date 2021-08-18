@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 097712353336a9a412dd4255781a42c74eac1782
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64339a51d0c2afe917ff1fbd41cab996ac0765bf24e2b4b6ae97e98d366f3a64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039956"
 ---
 # <a name="esentsessioncontextnotsetbythisthreadexception-class"></a>EsentSessionCoNtextNotSetByThisThreadException 類別
 

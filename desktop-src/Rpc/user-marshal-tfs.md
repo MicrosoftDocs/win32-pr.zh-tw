@@ -4,12 +4,12 @@ description: 遠端程序呼叫中的使用者封送處理 (RPC) 。
 ms.assetid: 5119e959-d8b8-4fca-8910-568bb9063a9d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c901fd8c75137b4657322a89692ff8a3afb5408
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6dcc9574b49a46b6e867fc4bca314944589ccf68b9d6e3fb8695a099eb255c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010845"
 ---
 # <a name="user-marshal"></a>使用者封送處理
 
@@ -57,9 +57,9 @@ high value<4>
 
 旗標旨在作為擴充車輛;編譯器已將半值設定為零。
 
- 
+ 
 
- 
+ 
 
 
 

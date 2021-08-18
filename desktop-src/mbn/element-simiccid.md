@@ -7,12 +7,12 @@ MSHAttr:
 title: SimIccID
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7369604267c692166e5ebc3201f732789ecd450d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f5685b2ec317291aa0561714d67fd9d4a992f9dace7972f6de81e49372fdcec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035886"
 ---
 # <a name="span-idwwan_profile_v4element_simiccidspanmbnprofileextsimiccid-v4"></a><span id="WWAN_profile_v4.element_SimIccID"></span>MBNProfileExt \/ SimIccID (v4) 
 
@@ -56,7 +56,7 @@ ms.locfileid: "103690652"
 <thead>
 <tr class="header">
 <th>Parent 項目</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

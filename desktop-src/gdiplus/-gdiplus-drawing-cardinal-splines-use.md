@@ -4,12 +4,12 @@ ms.assetid: 0bb84f55-18d0-4a4c-bc5b-7803aa807954
 title: 繪製基本曲線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c780cb4486f579acb57170a8eda4fd187a421ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f9124e27254fc77135d265d9bab98d2332c02d345e60add1fcd96fc68c814df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104566068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036816"
 ---
 # <a name="drawing-cardinal-splines"></a>繪製基本曲線
 

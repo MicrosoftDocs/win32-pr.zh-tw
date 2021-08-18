@@ -4,18 +4,18 @@ ms.assetid: cf68067a-742b-4acd-b8b1-c6758c35845f
 title: CameraManufacturer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a69bdbf5d2a4b747ca733a0562973b8f709133f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef35e30b7078342955da475fc446789504d3ce7ec358245ea6a43d49c0f687a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970147"
 ---
 # <a name="systemphotocameramanufacturer"></a>CameraManufacturer
 
 拍攝相片的相機製造商名稱（採用字串格式）。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

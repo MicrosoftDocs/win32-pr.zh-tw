@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103049
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a543dc11ece3ae68474aa51ba755a418559e58c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 058fd0a1f85459b7d7ae2ceeff3c17fc725b1970a92485aa6b560549e22df631
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980938"
 ---
 # <a name="esenttestinjectionnotsupportedexception-properties"></a>EsentTestInjectionNotSupportedException 屬性
 

@@ -8,12 +8,12 @@ keywords:
 - 系統設定檔，變更版本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 824e2b1cf4a43cef0e87daa461c6510a6672472d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c963a142c879242b5e2ae734dedb4073a120a57a9121c3f3f95e5838c15110a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084267"
 ---
 # <a name="to-change-system-profile-versions"></a>變更系統設定檔版本
 
@@ -137,9 +137,9 @@ int main(void)
 [**使用系統設定檔**](using-system-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

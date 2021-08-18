@@ -40,12 +40,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wbemdisp.h
-ms.openlocfilehash: 73fb9167af63f40f3a6e1c00470d871f749d228a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38d104c99885d4328ce8b12413e91607655ab1e260a61b511e3ea4a600b80b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131020"
 ---
 # <a name="privilege-constants"></a>許可權常數
 
@@ -74,7 +74,7 @@ Set Service = GetObject("winmgmts:{impersonationLevel=impersonate, (RemoteShutdo
 
 
 
-C + + 常數： **SE \_ CREATE \_ TOKEN \_ NAME** string： **SeCreateTokenPrivilege**
+c + + 常數： **SE \_ 建立 \_ 權杖 \_ 名稱** 字串： **SeCreateTokenPrivilege**
 
 腳本簡短名稱： **CreateToken**
 
@@ -108,7 +108,7 @@ C + + 常數： **SeAssignPrimaryTokenPrivilege** 字串： **SeAssignPrimaryTok
 
 
 
-C + + 常數： **SE \_ 鎖定 \_ 記憶體 \_ 名稱** 字串： **SeLockMemoryPrivilege**
+c + + 常數： **SE \_ 鎖定 \_ 記憶體 \_ 名稱** 字串： **SeLockMemoryPrivilege**
 
 腳本簡短名稱： **LockMemory**
 
@@ -125,7 +125,7 @@ C + + 常數： **SE \_ 鎖定 \_ 記憶體 \_ 名稱** 字串： **SeLockMemory
 
 
 
-C + + 常數： **SE \_ 增加 \_ 配額 \_ 名稱** 字串： **SeIncreaseQuotaPrivilege**
+c + + 常數： **SE \_ 增加 \_ 配額 \_ 名稱** 字串： **SeIncreaseQuotaPrivilege**
 
 腳本簡短名稱： **IncreaseQuotaPrivilege**
 
@@ -142,7 +142,7 @@ C + + 常數： **SE \_ 增加 \_ 配額 \_ 名稱** 字串： **SeIncreaseQuota
 
 
 
-C + + 常數： **SE \_ MACINE \_ ACCOUNT \_ NAME** string： **SeMachineAccountPrivilege**
+c + + 常數： **SE \_ MACINE \_ 帳戶 \_ 名稱** 字串： **SeMachineAccountPrivilege**
 
 腳本簡短名稱： **MachineAccount**
 
@@ -159,7 +159,7 @@ C + + 常數： **SE \_ MACINE \_ ACCOUNT \_ NAME** string： **SeMachineAccount
 
 
 
-C + + 常數： **SE \_ TCB \_ 名稱** 字串： **SeTcbPrivilege**
+c + + 常數： **SE \_ TCB \_ 名稱** 字串： **SeTcbPrivilege**
 
 腳本簡短名稱： **Tcb**
 
@@ -176,7 +176,7 @@ C + + 常數： **SE \_ TCB \_ 名稱** 字串： **SeTcbPrivilege**
 
 
 
-C + + 常數： **SE \_ 安全性 \_ 名稱** 字串： **SeSecurityPrivilege**
+c + + 常數： **SE \_ 安全性 \_ 名稱** 字串： **SeSecurityPrivilege**
 
 腳本簡短名稱： **安全性**
 
@@ -193,7 +193,7 @@ C + + 常數： **SE \_ 安全性 \_ 名稱** 字串： **SeSecurityPrivilege**
 
 
 
-C + + 常數： **SE \_ 取得 \_ 擁有權 \_ 名稱** 字串： **SeTakeOwnershipPrivilege**
+c + + 常數： **SE \_ 取得 \_ 擁有權 \_ 名稱** 字串： **SeTakeOwnershipPrivilege**
 
 腳本簡短名稱： **TakeOwnership**
 
@@ -210,7 +210,7 @@ C + + 常數： **SE \_ 取得 \_ 擁有權 \_ 名稱** 字串： **SeTakeOwners
 
 
 
-C + + 常數： **SE \_ 載入 \_ 驅動程式** 字串： **SeLoadDriverPrivilege**
+c + + 常數： **SE \_ 載入 \_ 驅動程式** 字串： **SeLoadDriverPrivilege**
 
 腳本簡短名稱： **LoadDriver**
 
@@ -227,7 +227,7 @@ C + + 常數： **SE \_ 載入 \_ 驅動程式** 字串： **SeLoadDriverPrivile
 
 
 
-C + + 常數： **SE \_ 系統 \_ 設定檔 \_ 名稱** 字串： **SeSystemProfilePrivilege**
+c + + 常數： **SE \_ 系統 \_ 設定檔 \_ 名稱** 字串： **SeSystemProfilePrivilege**
 
 腳本簡短名稱： **SystemProfile**
 
@@ -244,7 +244,7 @@ C + + 常數： **SE \_ 系統 \_ 設定檔 \_ 名稱** 字串： **SeSystemProf
 
 
 
-C + + 常數： **SE \_ SYSTEMTIME** \_ 名稱字串： **SeSystemtimePrivilege**
+c + + 常數： **SE \_ SYSTEMTIME** \_ 名稱字串： **SeSystemtimePrivilege**
 
 腳本簡短名稱： **Systemtime**
 
@@ -261,7 +261,7 @@ C + + 常數： **SE \_ SYSTEMTIME** \_ 名稱字串： **SeSystemtimePrivilege*
 
 
 
-C + + 常數： **SE \_ 獲 \_ 單一 \_ 進程 \_ 名稱** 字串： **SeProfileSingleProcessPrivilege**
+c + + 常數： **SE \_ 獲 \_ 單一 \_ 進程 \_ 名稱** 字串： **SeProfileSingleProcessPrivilege**
 
 腳本簡短名稱： **ProfileSingleProcess**
 
@@ -278,7 +278,7 @@ C + + 常數： **SE \_ 獲 \_ 單一 \_ 進程 \_ 名稱** 字串： **SeProfil
 
 
 
-C + + 常數： **SE \_ Inc. \_ 基底 \_ 優先順序 \_ 名稱** 字串： **SeIncreaseBasePriorityPrivilege**
+c + + 常數： **SE \_ inc. \_ 基底 \_ 優先順序 \_ 名稱** 字串： **SeIncreaseBasePriorityPrivilege**
 
 腳本簡短名稱： **IncreaseBasePriority**
 
@@ -295,7 +295,7 @@ C + + 常數： **SE \_ Inc. \_ 基底 \_ 優先順序 \_ 名稱** 字串： **S
 
 
 
-C + + 常數： **SE \_ 建立 \_ 分頁檔 \_ 名稱** 字串： **SeCreatePagefilePrivilege**
+c + + 常數： **SE \_ 建立 \_ 分頁檔 \_ 名稱** 字串： **SeCreatePagefilePrivilege**
 
 腳本簡短名稱： **CreatePagefile**
 
@@ -312,7 +312,7 @@ C + + 常數： **SE \_ 建立 \_ 分頁檔 \_ 名稱** 字串： **SeCreatePage
 
 
 
-C + + 常數： **SE \_ 建立 \_ 永久 \_ 名稱** 字串： **SeCreatePermanentPrivilege**
+c + + 常數： **SE \_ 建立 \_ 永久 \_ 名稱** 字串： **SeCreatePermanentPrivilege**
 
 腳本簡短名稱： **CreatePermanent**
 
@@ -329,7 +329,7 @@ C + + 常數： **SE \_ 建立 \_ 永久 \_ 名稱** 字串： **SeCreatePermane
 
 
 
-C + + 常數： **SE \_ 備份 \_ 名稱** 字串： **SeBackupPrivilege**
+c + + 常數： **SE \_ 備份 \_ 名稱** 字串： **SeBackupPrivilege**
 
 腳本簡短名稱： **備份**
 
@@ -346,7 +346,7 @@ C + + 常數： **SE \_ 備份 \_ 名稱** 字串： **SeBackupPrivilege**
 
 
 
-C + + 常數： **SE \_ 還原 \_ 名稱** 字串： **SeRestorePrivilege**
+c + + 常數： **SE \_ 還原 \_ 名稱** 字串： **SeRestorePrivilege**
 
 腳本簡短名稱： **還原**
 
@@ -363,7 +363,7 @@ C + + 常數： **SE \_ 還原 \_ 名稱** 字串： **SeRestorePrivilege**
 
 
 
-C + + 常數： **SE \_ 關閉 \_ 名稱** 字串： **SeShutdownPrivilege**
+c + + 常數： **SE \_ 關閉 \_ 名稱** 字串： **SeShutdownPrivilege**
 
 腳本簡短名稱： **關機**
 
@@ -380,7 +380,7 @@ C + + 常數： **SE \_ 關閉 \_ 名稱** 字串： **SeShutdownPrivilege**
 
 
 
-C + + 常數： **SE \_ DEBUG \_ NAME** string： **SeDebugPrivilege**
+c + + 常數： **SE \_ DEBUG \_ NAME** string： **SeDebugPrivilege**
 
 腳本簡短名稱： **Debug**
 
@@ -397,7 +397,7 @@ C + + 常數： **SE \_ DEBUG \_ NAME** string： **SeDebugPrivilege**
 
 
 
-C + + 常數： **SE \_ AUDIT \_ NAME** string： **SeAuditPrivilege**
+c + + 常數： **SE \_ AUDIT \_ NAME** string： **SeAuditPrivilege**
 
 腳本簡短名稱： **Audit**
 
@@ -414,7 +414,7 @@ C + + 常數： **SE \_ AUDIT \_ NAME** string： **SeAuditPrivilege**
 
 
 
-C + + 常數： **SE \_ 系統 \_ 環境 \_ 名稱** 字串： **SeSystemEnvironmentPrivilege**
+c + + 常數： **SE \_ 系統 \_ 環境 \_ 名稱** 字串： **SeSystemEnvironmentPrivilege**
 
 腳本簡短名稱： **SystemEnvironment**
 
@@ -431,7 +431,7 @@ C + + 常數： **SE \_ 系統 \_ 環境 \_ 名稱** 字串： **SeSystemEnviron
 
 
 
-C + + 常數： **SE \_ 變更 \_ 通知 \_ 名稱** 字串： **SeChangeNotifyPrivilege**
+c + + 常數： **SE \_ 變更 \_ 通知 \_ 名稱** 字串： **SeChangeNotifyPrivilege**
 
 腳本簡短名稱： **ChangeNotify**
 
@@ -448,7 +448,7 @@ C + + 常數： **SE \_ 變更 \_ 通知 \_ 名稱** 字串： **SeChangeNotifyP
 
 
 
-C + + 常數： **SE \_ 遠端 \_ 關閉 \_ 名稱** 字串： **SeRemoteShutdownPrivilege**
+c + + 常數： **SE \_ 遠端 \_ 關機 \_ 名稱** 字串： **SeRemoteShutdownPrivilege**
 
 腳本簡短名稱： **RemoteShutdown**
 
@@ -465,7 +465,7 @@ C + + 常數： **SE \_ 遠端 \_ 關閉 \_ 名稱** 字串： **SeRemoteShutdow
 
 
 
-C + + 常數： **SE \_ 移除 \_ 名稱** 字串： **SeUndockPrivilege**
+c + + 常數： **SE \_ 移除的 \_ 名稱** 字串： **SeUndockPrivilege**
 
 腳本簡短 **名稱：卸載**
 
@@ -482,7 +482,7 @@ C + + 常數： **SE \_ 移除 \_ 名稱** 字串： **SeUndockPrivilege**
 
 
 
-C + + 常數： **SE \_ 同步 \_ 代理程式 \_ 名稱** 字串： **SeSyncAgentPrivilege**
+c + + 常數： **SE \_ 同步 \_ 代理程式 \_ 名稱** 字串： **SeSyncAgentPrivilege**
 
 腳本簡短名稱： **SyncAgent**
 
@@ -499,7 +499,7 @@ C + + 常數： **SE \_ 同步 \_ 代理程式 \_ 名稱** 字串： **SeSyncAge
 
 
 
-C + + 常數： **SE \_ 啟用 \_ 委派 \_ 名稱** 字串： **SeEnableDelegationPrivilege**
+c + + 常數： **SE \_ 啟用 \_ 委派 \_ 名稱** 字串： **SeEnableDelegationPrivilege**
 
 腳本簡短名稱： **EnableDelegation**
 
@@ -516,7 +516,7 @@ C + + 常數： **SE \_ 啟用 \_ 委派 \_ 名稱** 字串： **SeEnableDelegat
 
 
 
-C + + 常數： **SE \_ 管理 \_ 磁片區 \_ 名稱** 字串： **SeManageVolumePrivilege**
+c + + 常數： **SE \_ 管理 \_ 磁片區 \_ 名稱** 字串： **SeManageVolumePrivilege**
 
 腳本簡短名稱： **ManageVolume**
 
@@ -533,8 +533,8 @@ C + + 常數： **SE \_ 管理 \_ 磁片區 \_ 名稱** 字串： **SeManageVolu
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>wbemdisp.tlb .idl</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| IDL<br/>                      | <dl> <dt>>Wbemdisp.tlb .idl</dt> </dl> |
 
 
 
