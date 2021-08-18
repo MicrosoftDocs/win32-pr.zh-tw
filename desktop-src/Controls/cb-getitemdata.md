@@ -3,7 +3,7 @@ title: 'CB_GETITEMDATA 訊息 (Winuser .h) '
 description: 應用程式會將 CB \_ GETITEMDATA 訊息傳送至下拉式方塊，以抓取與下拉式方塊中指定之專案相關聯的應用程式提供值。
 ms.assetid: 433b7f75-2831-4919-b931-c17ba651d145
 keywords:
-- CB_GETITEMDATA message Windows 控制項
+- CB_GETITEMDATA 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 643954cf266c52ccbeae082ffacf317c91bc7b33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8427e666668303456d16c00ae460a608a51bc31cd59e0ee6fa6851031057695b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019926"
 ---
 # <a name="cb_getitemdata-message"></a>CB \_ GETITEMDATA 訊息
 
@@ -55,9 +55,9 @@ ms.locfileid: "103685896"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

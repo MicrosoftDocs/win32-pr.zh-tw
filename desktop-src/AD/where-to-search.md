@@ -8,12 +8,12 @@ keywords:
 - Active Directory AD、搜尋、決定要搜尋的位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f24baccd55e263c4d5b677996589ba57c1301e8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6984a79bb761c1926b6735a91209c9f387ac45619ffc752daef253a74f5e587a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104314596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024316"
 ---
 # <a name="deciding-where-to-search"></a>決定要搜尋的位置
 
@@ -44,6 +44,6 @@ Configuration 容器包含整個樹系的設定資訊，例如網站、服務和
 
 通用類別目錄會在 Active Directory Domain Services 中保存每個物件的複本，但其屬性只有少數幾個。 通用類別目錄中的屬性是搜尋作業中最常使用的屬性，例如使用者的名字和姓氏、登入名稱等等。 如需有關搜尋通用類別目錄的詳細資訊，請參閱 [搜尋通用類別目錄](searching-global-catalog-contents.md)。
 
- 
+ 
 
- 
+ 

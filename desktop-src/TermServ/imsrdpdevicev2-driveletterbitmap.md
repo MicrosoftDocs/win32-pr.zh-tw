@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d13189415630539ac47d7a0e0a094b7b3212e8e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: af03d0e9e77a2a6a9d83e40fc2943bd5365d1312a1ca744aedf3b9331b719f9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138591"
 ---
 # <a name="imsrdpdevicev2driveletterbitmap-property"></a>IMsRdpDeviceV2：:D riveLetterBitmap 屬性
 

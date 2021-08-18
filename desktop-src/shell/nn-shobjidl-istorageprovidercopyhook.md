@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - shobjidl.h
-ms.openlocfilehash: 52f2a7fb7c8d7b37fc27fd1e91c93d716bc92086
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aa26a329bd80295a6a46a1bb11d1dc651baf1ea71975576ed704b29a7fee8b57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968867"
 ---
 # <a name="istorageprovidercopyhook-interface"></a>IStorageProviderCopyHook 介面
 
@@ -44,5 +44,5 @@ ms.locfileid: "104384402"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 Insider Preview 組建19624                                                |
+| 最低支援的用戶端 | Windows 10Insider Preview 組建19624                                                |
 | 標頭<br/>                   | shobjidl.h。h   |

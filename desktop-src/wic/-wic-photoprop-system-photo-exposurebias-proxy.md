@@ -4,18 +4,18 @@ ms.assetid: b4f3542d-a0af-4742-851b-fd501c40a698
 title: ExposureBias Proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12364931430731c825c63bf29bea379924787fea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef60b9baca2a7121d3a145e5b5834a21214aa0a939329b70a3e3ceb9e98c2dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964817"
 ---
 # <a name="systemphotoexposurebias-proxy"></a>ExposureBias Proxy
 
 ExposureBias 相片中繼資料原則的屬性 proxy。
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 屬性 proxy 會透過 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal 成員傳回有理數 a。
 

@@ -13,12 +13,12 @@ keywords:
 - 登錄，視覺效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f1dc8f33d7b5f5b938bee6c89d946955509ab34
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9e36a13dae64857143a4d7a2edc4ece719164c3dc30dc8f21f907e2080a5afae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135521"
 ---
 # <a name="installing-visualizations"></a>安裝視覺效果
 
@@ -39,9 +39,9 @@ ms.locfileid: "106965376"
 [**關於自訂視覺效果**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: 8ec59d52-f79f-40d1-9b02-671b866ccd8d
 title: SubjectDistanceDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d834d5f9a53ffe991136f80ce86eed23a564776e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24240efb432d977159dff600eab61260b411f4bb2e341c7f268ec43700191bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969997"
 ---
 # <a name="systemphotosubjectdistancedenominator"></a>SubjectDistanceDenominator
 
 PKEY \_ 相片 SubjectDistance 的分母 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

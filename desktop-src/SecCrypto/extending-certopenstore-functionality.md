@@ -4,12 +4,12 @@ ms.assetid: e5c7c882-cbfc-4343-952c-b13c67326756
 title: 擴充 CertOpenStore 功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cce198578cc482ba0488bd97ae0f1d7f923511b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c770ae56ff597f51248486db2c9eb2d74bea8d63d2e8daad83d5938594b2f1a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104551643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007081"
 ---
 # <a name="extending-certopenstore-functionality"></a>擴充 CertOpenStore 功能
 
@@ -26,7 +26,7 @@ ms.locfileid: "104551643"
 
 每個使用者 TrustedPeople 存放區僅限於預先定義的實體存放區。 您無法擴充每個使用者 TrustedPeople 存放區。 不過，您可以擴充本機電腦 TrustedPeople 存放區。
 
-**WINDOWS XP 和 Windows Server 2003：** 每個使用者 TrustedPeople 存放區不限於預先定義的實體存放區。
+**Windows XP 和 Windows Server 2003：** 每個使用者 TrustedPeople 存放區不限於預先定義的實體存放區。
 
 [**CERT \_ STORE \_ >prov \_ 資訊**](/windows/win32/api/Wincrypt/ns-wincrypt-cert_store_prov_info)結構的其中一個資料成員是 *rgpvStoreProvFunc* 陣列。 如果存放區提供者函式需要支援一或多個回呼函式，它必須提供此陣列的指標。 這些指標必須指向要用於其他憑證存放區活動的回呼函式 (例如關閉存放區) 。 下圖顯示此程式的流程。
 

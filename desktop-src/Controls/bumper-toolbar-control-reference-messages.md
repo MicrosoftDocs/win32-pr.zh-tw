@@ -4,12 +4,12 @@ description: Toolbar 控制項訊息
 ms.assetid: 0af20ecd-b473-4c3b-8b66-2d177105bf89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ecdf5bb353f070fe85f3da4ada97b8f0c9c8bbd
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: bcd3bf2a1d280b4bbc8798874c609d39b8c7083b75f6ce7153cfaaeb2241f74a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079152"
 ---
 # <a name="toolbar-control-messages"></a>Toolbar 控制項訊息
 

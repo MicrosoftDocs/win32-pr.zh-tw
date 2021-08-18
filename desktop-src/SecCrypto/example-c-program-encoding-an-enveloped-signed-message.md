@@ -4,12 +4,12 @@ ms.assetid: 1d9d8a7a-0088-41a7-98fe-4f0e9cb21f31
 title: 範例 C 程式：編碼封包、簽署的訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c5ae8008794dc7f8fa32f39543cf2ddc61827bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da56213c11d0cd6d7241ff60c1f77252f1e21682feff9f5913e0a43fdaf3034b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007736"
 ---
 # <a name="example-c-program-encoding-an-enveloped-signed-message"></a>範例 C 程式：編碼封包、簽署的訊息
 

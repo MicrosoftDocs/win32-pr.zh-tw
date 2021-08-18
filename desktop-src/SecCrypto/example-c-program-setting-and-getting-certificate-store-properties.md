@@ -4,12 +4,12 @@ ms.assetid: 9fb368c9-a0d7-4c5f-9a38-7ef8f7283354
 title: 範例 C 程式：設定和取得憑證存放區屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7337027c265376f9145ef7b68f359250223d20f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59d65eeb0ee667b1dbce5a1df6c9c73d1849ef2524ecc3d0674d6fa7a5225fdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007526"
 ---
 # <a name="example-c-program-setting-and-getting-certificate-store-properties"></a>範例 C 程式：設定和取得憑證存放區屬性
 

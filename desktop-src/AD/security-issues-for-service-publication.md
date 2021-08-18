@@ -8,12 +8,12 @@ keywords:
 - Active Directory，使用，安全性，服務發行集安全性問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fee5be89c490fa938cdc9c7cf3d7d72434a3dffa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 86e4cec29d08a029bca52a99b573eb339964dd42274d3ca2e54795bb80b60897
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024906"
 ---
 # <a name="security-issues-for-service-publication"></a>服務發行的安全性問題
 
@@ -29,9 +29,9 @@ ms.locfileid: "103671235"
 
 建立連接點物件或任何物件的應用程式，必須具有要在建立物件的容器中建立之物件類別的 create 子許可權。 若要移除物件，執行作業的處理常式必須具有 [刪除子系] 許可權，才能在持有物件的容器上刪除物件類別，或擁有物件本身的 [刪除] 許可權。 若要更新連接點，執行作業的進程必須具有要在物件上更新之屬性的寫入權限。
 
- 
+ 
 
- 
+ 
 
 
 

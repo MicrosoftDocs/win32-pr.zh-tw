@@ -4,12 +4,12 @@ ms.assetid: 9fa299fe-3713-4fa8-95c6-be15f144103a
 title: 使用分隔物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fd158f85d368d764bce17e8b481ebe625a4d6d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a31c7ab0c99c0ac4007abe164a887694c8e41fb8c8892dfe2637efaf25b10f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966567"
 ---
 # <a name="working-with-the-divider-object"></a>使用分隔物件
 

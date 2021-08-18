@@ -1,6 +1,6 @@
 ---
 title: 文字格式設定和版面配置
-description: DirectWrite 提供兩個介面來格式化 text IDWriteTextFormat 和 IDWriteTextLayout。
+description: DirectWrite 提供兩個介面來格式化文字 IDWriteTextFormat 和 IDWriteTextLayout。
 ms.assetid: a68963a6-e486-4881-8ad6-873173396fca
 keywords:
 - DirectWrite，文字格式設定
@@ -11,16 +11,16 @@ keywords:
 - IDWriteTextLayout 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e5790742a3d3caf7f962a6b5e2b3111c626f28
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: e67b4c59a7e8ba47a2811021b54ebe1e5b8867b30d07e143163c3d03ac3cdf22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329348"
 ---
 # <a name="text-formatting-and-layout"></a>文字格式設定和版面配置
 
-[DirectWrite](direct-write-portal.md) 提供兩種用於格式化文字的介面： [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) 和 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)。 **IDWriteTextFormat** 只會解說文字的格式，而且在整個字串是相同的字型大小、樣式、粗細等情況下使用。 另一方面， **IDWriteTextLayout** 會同時封裝文字字串和指定範圍的字串格式。 本檔將說明每個介面及其用途。 如需這些介面的建立和方法的詳細資訊，請參閱 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) 和 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 參考頁面。
+[DirectWrite](direct-write-portal.md)提供兩個用於格式化文字的介面： [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat)和 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)。 **IDWriteTextFormat** 只會解說文字的格式，而且在整個字串是相同的字型大小、樣式、粗細等情況下使用。 另一方面， **IDWriteTextLayout** 會同時封裝文字字串和指定範圍的字串格式。 本檔將說明每個介面及其用途。 如需這些介面的建立和方法的詳細資訊，請參閱 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) 和 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 參考頁面。
 
 本檔包含下列部分：
 

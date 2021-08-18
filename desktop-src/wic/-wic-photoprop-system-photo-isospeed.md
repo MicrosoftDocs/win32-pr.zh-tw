@@ -4,12 +4,12 @@ ms.assetid: 22b5552c-41b1-4090-a827-b920dcbba5e9
 title: ISOSpeed 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2988f774f70721ab1817ffaf605098ab1164316a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c01cb8c3e8e4c80c63985b49e8eda49ebe16d47982dde4cd051f555b8c93d68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964798"
 ---
 # <a name="systemphotoisospeed-photo-metadata-policy"></a>ISOSpeed 相片中繼資料原則
 

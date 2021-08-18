@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 573f2ef618c4cd29092fb38fb4c805bdeeecc219
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: b2bdad90d13fe960c0d7a5cabfbb508d8abba890e8114c6d4ae1e47d1977e7d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104462624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119692"
 ---
 # <a name="instruction-modifiers-hlsl-vs-reference"></a>HLSL 與參考) 的指令修飾詞 (
 
@@ -49,7 +49,7 @@ dst = \_ 介於 \_ 0 \_ 和1之間的夾具 \_ (src0 + src1)
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -58,9 +58,9 @@ dst = \_ 介於 \_ 0 \_ 和1之間的夾具 \_ (src0 + src1)
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

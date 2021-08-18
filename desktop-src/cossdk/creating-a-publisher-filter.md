@@ -1,17 +1,17 @@
 ---
-description: 建立發行者篩選
+description: 建立 Publisher 篩選
 ms.assetid: d91efecc-f02a-41c6-acf7-37b74723e7e8
-title: 建立發行者篩選
+title: 建立 Publisher 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 997fe37cf0021bcb2aa153c2dc4b73597e0c43cc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d2cf3391cd331f7d81c3bb7ff467c140a78b0c8e30fb609ea655596dfe745a74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128790"
 ---
-# <a name="creating-a-publisher-filter"></a>建立發行者篩選
+# <a name="creating-a-publisher-filter"></a>建立 Publisher 篩選
 
 有兩種方法可以建立發行者篩選器：使用事件類別的 MultiPublisherFilterCLSID 屬性，或使用 [**IEventControl：： SetPublisherFilter**](/windows/desktop/api/Eventsys/nf-eventsys-ieventcontrol-setpublisherfilter)。
 

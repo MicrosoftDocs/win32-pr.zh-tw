@@ -26,12 +26,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce45d1474cf6c925149c05ae348231333c3356e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 885e3b782c4af67304f1a92eca324c0f266e71665a7a876683cbb1dbff472ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132811"
 ---
 # <a name="authentication-constants"></a>驗證常數
 
@@ -49,7 +49,7 @@ ms.locfileid: "104509239"
 
 
 
-使用使用者名稱和密碼做為認證。 當您建立 [**ConnectionOptions**](connectionoptions.md) 物件並提供使用者 [**名稱**](connectionoptions-username.md) 和 [**密碼**](connectionoptions-password.md)時，請設定此旗標。 認證可以是網域帳戶或本機電腦上的帳戶。 根據預設，此帳戶必須是本機或遠端電腦上本機系統管理員群組的成員。 不過，您可以將 WinRM 服務設定為允許其他使用者。 如需詳細資訊，請參閱 [Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。 當您指定 Negotiate 驗證的認證 (也稱為「 [*Windows 整合式驗證*](windows-remote-management-glossary.md)) 或 [*基本驗證*](windows-remote-management-glossary.md)時，您可以設定此旗標。
+使用使用者名稱和密碼做為認證。 當您建立 [**ConnectionOptions**](connectionoptions.md) 物件並提供使用者 [**名稱**](connectionoptions-username.md) 和 [**密碼**](connectionoptions-password.md)時，請設定此旗標。 認證可以是網域帳戶或本機電腦上的帳戶。 根據預設，此帳戶必須是本機或遠端電腦上本機系統管理員群組的成員。 不過，您可以將 WinRM 服務設定為允許其他使用者。 如需詳細資訊，請參閱[Windows 遠端管理的安裝和](installation-and-configuration-for-windows-remote-management.md)設定。 當您指定 Negotiate 驗證的認證時，您可以設定此旗標 (也稱為 [*Windows 整合式驗證*](windows-remote-management-glossary.md)) 或 [*基本驗證*](windows-remote-management-glossary.md)。
 
 相關聯的腳本方法是 [**WSMan. SessionFlagCredUsernamePassword**](wsman-sessionflagcredusernamepassword.md)，而 c + + 方法是 [**IWSManEx. SessionFlagCredUsernamePassword**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagcredusernamepassword)。
 
@@ -254,7 +254,7 @@ ms.locfileid: "104509239"
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 
 
 

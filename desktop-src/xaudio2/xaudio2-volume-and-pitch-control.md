@@ -4,12 +4,12 @@ ms.assetid: dedc2d01-af83-d7d2-5b64-743dcebc83f7
 title: XAudio2 音量和音調控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2526cfa50c0260e90e1aae9e2bce21d507dc2e06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6376ad599b496a640b49d7eb539e1da774e31c71a3bf2a8e0c863fc140e19b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962487"
 ---
 # <a name="xaudio2-volume-and-pitch-control"></a>XAudio2 音量和音調控制
 

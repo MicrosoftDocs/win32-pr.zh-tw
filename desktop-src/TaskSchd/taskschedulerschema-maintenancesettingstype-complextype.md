@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7f261e84fe2af1239cce1bbd377e991ede6e8506
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0733d16ec929b4e67774fc436c1530b67d70392b2655525b2aaaa642c2ea346
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139201"
 ---
 # <a name="maintenancesettingstype-complex-type"></a>maintenanceSettingsType 複雜類型
 
@@ -68,7 +68,7 @@ ms.locfileid: "103686223"
 
 
 
-| 元素                                                                        | 類型    | Description                                                                                                                                                                                    |
+| 元素                                                                        | 類型    | 描述                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**期限**](taskschedulerschema-daysinterval-dailyscheduletype-element.md) |         | 指定當工作排程器在正常維護期間無法完成時，在緊急自動維護期間，工作排程器將嘗試啟動工作的時間量。<br/> |
 | **排除**                                                                  | boolean | 如果設定為 true，則工作將會在其他維護工作中以獨佔方式啟動。<br/>                                                                                                 |
@@ -82,8 +82,8 @@ ms.locfileid: "103686223"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>           |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/> |
 
 
 

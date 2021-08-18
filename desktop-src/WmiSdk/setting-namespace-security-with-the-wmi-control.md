@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用 WMI 控制項設定命名空間安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f8e8b6ed7c45b6b0d107f7f4e4b92f31f504900
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f97971e09897f8fa744f72d5ad0da59dc2292ebe7ceb88f6500e3c30e124db0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992348"
 ---
 # <a name="setting-namespace-security-with-the-wmi-control"></a>使用 WMI 控制項設定命名空間安全性
 

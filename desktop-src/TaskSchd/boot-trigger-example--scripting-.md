@@ -1,6 +1,6 @@
 ---
 title: " (腳本) 的開機觸發程式範例"
-description: 這個腳本範例示範如何建立在系統開機時排程執行「記事本」的工作。
+description: 這個腳本範例會示範如何建立在系統啟動時，排程執行記事本的工作。
 ms.assetid: 73ae9cc4-ef89-4390-ac05-8a773f45fa46
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,29 +9,29 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 72b7735c607dfc39b848532a70e4d24b1a14d346
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ff02bef70b4003c4e7b6e9aff03e2d615f24d7e15707cddcae3a4637ff2b11f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002516"
 ---
 # <a name="boot-trigger-example-scripting"></a> (腳本) 的開機觸發程式範例
 
-這個腳本範例示範如何建立在系統開機時排程執行「記事本」的工作。 此工作包含開機觸發程式，可指定啟動系統之後工作啟動的開始界限和延遲時間。 此工作也包含指定工作以執行 [記事本] 的動作。 此工作是使用本地服務帳戶註冊，以做為執行工作的安全性內容。
+這個腳本範例會示範如何建立在系統啟動時，排程執行記事本的工作。 此工作包含開機觸發程式，可指定啟動系統之後工作啟動的開始界限和延遲時間。 此工作也包含指定要執行記事本工作的動作。 此工作是使用本地服務帳戶註冊，以做為執行工作的安全性內容。
 
-下列程式說明如何排程可執行檔（例如 [記事本]），以便在系統開機時啟動。
+下列程式描述如何排程可執行檔，例如在系統開機時啟動記事本。
 
-**排定在系統開機時啟動「記事本」**
+**排定在系統開機時啟動記事本**
 
 1.  建立 [**TaskService**](taskservice.md) 物件。 此物件可讓您在指定的資料夾中建立工作。
 2.  取得工作資料夾並建立工作。 使用 [**TaskService. GetFolder**](taskservice-getfolder.md) 方法取得儲存工作的資料夾，以及使用 [**TaskService. NewTask**](taskservice-newtask.md) 方法來建立代表工作的 [**TaskDefinition**](taskdefinition.md) 物件。
-3.  使用 [**TaskDefinition**](taskdefinition.md) 物件定義工作的相關資訊。 您可以使用 [ [**TaskDefinition**](taskdefinition-settings.md) ] 屬性來定義決定工作排程器服務如何執行工作的設定，以及使用 [**TaskDefinition RegistrationInfo**](taskdefinition-registrationinfo.md) 屬性來定義描述工作的資訊。
+3.  使用 [**TaskDefinition**](taskdefinition.md) 物件定義工作的相關資訊。 您可以使用 [**設定 TaskDefinition**](taskdefinition-settings.md)屬性來定義決定工作排程器服務如何執行工作的設定，以及使用 [**TaskDefinition RegistrationInfo**](taskdefinition-registrationinfo.md)屬性來定義描述工作的資訊。
 4.  使用 [**TaskDefinition**](taskdefinition-triggers.md) 屬性建立登入觸發程式。 這個屬性會提供 [**TriggerCollection**](triggercollection.md) 物件的存取權。 使用 [**TriggerCollection**](triggercollection-create.md) 方法 (指定您要建立的觸發程式類型) 建立開機觸發程式。 當您建立觸發程式時，請設定觸發程式的 [**StartBoundary**](trigger-startboundary.md) 和 [**EndBoundary**](trigger-endboundary.md) 屬性，以啟動並停用觸發程式。 您也可以針對開機觸發程式的 [**Delay**](boottrigger-delay.md) 屬性指定值。
 5.  使用 [ [**TaskDefinition**](taskdefinition-actions.md) ] 屬性，建立要執行之工作的動作。 這個屬性會提供 [**actioncollection 動作**](actioncollection.md) 物件的存取權。 使用 [**actioncollection 動作**](actioncollection-create.md) 方法來指定您要建立的動作類型。 這個範例會使用 [**ExecAction**](execaction.md) 物件，此物件代表啟動可執行檔的動作。
 6.  使用 [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) 方法註冊工作。 此工作是使用本地服務帳戶註冊，以做為執行工作的安全性內容。
 
-下列 VBScript 範例示範如何排程工作在系統開機後30秒內執行「記事本」。
+下列 VBScript 範例示範如何將工作排程在系統開機之後記事本30秒內執行。
 
 
 ```VB
@@ -128,9 +128,9 @@ WScript.Echo "Task submitted."
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

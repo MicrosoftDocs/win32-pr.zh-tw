@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4864364a4752d72bd5305c5c2591b7d27391517f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4502c22e31ca131dabd6d776337c3693a4d4bf4d7753734cf0e6291cf234fbe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002286"
 ---
 # <a name="privilegetype-simple-type"></a>privilegeType 簡單類型
 
@@ -174,8 +174,8 @@ ms.locfileid: "106968542"
 | SeSyncAgentPrivilege            | 網域控制站在使用 LDAP 目錄同步處理服務時所需。 此許可權可讓持有者讀取目錄中的所有物件和屬性，不論物件和屬性的保護為何。 依預設，它會指派給網域控制站上的系統管理員和 LocalSystem 帳戶。 使用者權限：同步目錄服務資料。 <br/>                                                                                                                                                                                                                                                                                |
 | SeEnableDelegationPrivilege     | 將使用者和電腦帳戶標示為受信任以進行委派時，需要此參數。 使用者權限：啟用受信任的電腦和使用者帳戶以進行委派。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | SeManageVolumePrivilege         | 啟用磁片區管理許可權的必要元件。 使用者權限：管理磁片區上的檔案。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| SeImpersonatePrivilege          | 需要模擬。 使用者權限：在驗證之後模擬用戶端。 Windows XP/2000：不支援此許可權。 <br/> 請注意，從 Windows Server 2003、Windows XP SP2 和 Windows 2000 加裝 SP4 開始支援此值。<br/>                                                                                                                                                                                                                                                                                                                                                                                                     |
-| SeCreateGlobalPrivilege         | 在終端機服務會話期間，必須在全域命名空間中建立指名的檔案對應物件。 系統管理員、服務和本機系統帳戶預設會啟用此許可權。 使用者權限：建立全域物件。 Windows XP/2000：不支援此許可權。 <br/> 請注意，從 Windows Server 2003、Windows XP SP2 和 Windows 2000 加裝 SP4 開始支援此值。<br/>                                                                                                                                                                                                                                        |
+| SeImpersonatePrivilege          | 需要模擬。 使用者權限：在驗證之後模擬用戶端。 WindowsXP/2000：不支援此許可權。 <br/> 請注意，從 Windows Server 2003、Windows XP SP2 和 Windows 2000 加裝 SP4 開始支援此值。<br/>                                                                                                                                                                                                                                                                                                                                                                                                     |
+| SeCreateGlobalPrivilege         | 在終端機服務會話期間，必須在全域命名空間中建立指名的檔案對應物件。 系統管理員、服務和本機系統帳戶預設會啟用此許可權。 使用者權限：建立全域物件。 WindowsXP/2000：不支援此許可權。 <br/> 請注意，從 Windows Server 2003、Windows XP SP2 和 Windows 2000 加裝 SP4 開始支援此值。<br/>                                                                                                                                                                                                                                        |
 | SeTrustedCredManAccessPrivilege | 以信任的呼叫端存取認證管理員所需。 使用者權限：存取認證管理員作為受信任的呼叫者。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | SeRelabelPrivilege              | 修改物件的強制完整性層級所需。 使用者權限：修改物件標籤。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | SeIncreaseWorkingSetPrivilege   | 配置更多記憶體給在使用者的環境中執行的應用程式所需。 使用者權限：提高進程的工作集。 <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -190,8 +190,8 @@ ms.locfileid: "106968542"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

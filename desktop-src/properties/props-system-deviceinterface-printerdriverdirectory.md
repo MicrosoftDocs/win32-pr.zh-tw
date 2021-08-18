@@ -4,12 +4,12 @@ ms.assetid: 65CB248E-611D-4c95-AB7C-417F7A197876
 title: DeviceInterface. PrinterDriverDirectory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52537e8b9dffe93146dce34a17df7aa287c77698
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d57ef55a245f7ebf7f71eee5aa3447a32ecd5786eec6fdfc7610811e853569c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098029"
 ---
 # <a name="systemdeviceinterfaceprinterdriverdirectory"></a>DeviceInterface. PrinterDriverDirectory
 

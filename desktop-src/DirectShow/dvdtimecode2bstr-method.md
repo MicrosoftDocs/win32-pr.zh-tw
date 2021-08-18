@@ -4,17 +4,17 @@ ms.assetid: 0a477274-ac56-4f46-8461-53411362b33e
 title: DVDTimeCode2bstr 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 042c6889fd2d5ee76aa42fc4e92f1c2754a5c95d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 90bda68bafa462af5d425c62368b51f8b4b08ce2dfc310276e8f26b7c4601fa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106986228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148601"
 ---
 # <a name="dvdtimecode2bstr-method"></a>DVDTimeCode2bstr 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

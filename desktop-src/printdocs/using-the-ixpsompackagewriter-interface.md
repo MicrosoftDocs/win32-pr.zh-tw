@@ -4,12 +4,12 @@ ms.assetid: eff1ab1e-2205-4f5c-9e32-199e073f5dbf
 title: 使用 IXpsOMPackageWriter 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1e8a34a0538ff09cc050ac287d5314be93f0da8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65a4437f939821b826fa0d5c30407777b7d44c5d03c236f4ef850d52145b4f8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098700"
 ---
 # <a name="using-the-ixpsompackagewriter-interface"></a>使用 IXpsOMPackageWriter 介面
 

@@ -4,12 +4,12 @@ ms.assetid: 2181723A-C6E8-42BD-979C-5C26FE3986C4
 title: 'MFPKEY_SBESourceMode 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b82835a4cfc363e3ae2d054cce68f95c655447dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86c6b4fc0b248000f0540fd47fd7bbf8bba907994d1351144521bf162d330340
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973367"
 ---
 # <a name="mfpkey_sbesourcemode-property"></a>MFPKEY \_ SBESourceMode 屬性
 
@@ -35,7 +35,7 @@ VT \_ INT
 
 使用此屬性可設定 WTV 媒體來源。 若要設定屬性，請將 [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) 指標傳遞至來源解析程式。 如需詳細資訊，請參閱設定 [媒體來源](configuring-a-media-source.md)。
 
-WTV 媒體來源會讀取 Windows 錄製的電視節目， ( WTV 和 winspool.drv) 檔。
+WTV 媒體來源會讀取 Windows 錄製的電視節目 (. WTV 和 winspool.drv) 檔。
 
 這個屬性必須具有下列其中一個值。
 
@@ -48,8 +48,8 @@ WTV 媒體來源會讀取 Windows 錄製的電視節目， ( WTV 和 winspool.dr
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

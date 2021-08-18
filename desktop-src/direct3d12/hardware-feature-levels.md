@@ -10,12 +10,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d464f6cc52539e31fee5e234af2c045dfff7e413
-ms.sourcegitcommit: 218b1ff779402c3ebe1786679e1aa80a5c0d6c95
+ms.openlocfilehash: bf069baca3d9ff56c0d3d98e79bb553df7e8acf1fadf7b5888c5b5d211f7a874
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104548349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124146"
 ---
 # <a name="hardware-feature-levels"></a>硬體功能等級
 
@@ -100,7 +100,7 @@ ms.locfileid: "104548349"
 
 
 
- 
+ 
 
 -   ⁰需要 Direct3D 11.3 或 Direct3D 12 執行時間。
 -   ¹需要 Direct3D 11.1 執行時間。
@@ -132,6 +132,6 @@ ms.locfileid: "104548349"
 [瞭解 Direct3D 12](directx-12-getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

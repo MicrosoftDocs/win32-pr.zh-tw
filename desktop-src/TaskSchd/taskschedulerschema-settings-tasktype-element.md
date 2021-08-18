@@ -1,9 +1,9 @@
 ---
-title: " (taskType) 元素設定"
+title: 設定 (taskType) 元素
 description: 指定工作排程器用來執行工作的設定。
 ms.assetid: 72d2929a-0dd2-44cd-be7b-72eca23a5e14
 keywords:
-- Settings 元素工作排程器
+- 設定元素工作排程器
 topic_type:
 - apiref
 api_name:
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9133d536aef692a5f9928e10963dff8c454f25fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea754aa883f9c80c4a436357cc159c588bde375aaa66a229b358723b74b9e070
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002236"
 ---
-# <a name="settings-tasktype-element"></a> (taskType) 元素設定
+# <a name="settings-tasktype-element"></a>設定 (taskType) 元素
 
 指定工作排程器用來執行工作的設定。
 
@@ -31,15 +31,15 @@ ms.locfileid: "104384357"
  />
 ```
 
-**Settings** 元素是由 [**taskType**](taskschedulerschema-tasktype-complextype.md)複雜型別定義。
+**設定** 專案是由 [**taskType**](taskschedulerschema-tasktype-complextype.md)複雜型別定義。
 
 ## <a name="parent-element"></a>父元素
 
 
 
-| 元素                                          | 衍生自                                                 | Description                                                                    |
+| 元素                                          | 衍生自                                                 | 描述                                                                    |
 |--------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [**Task**](taskschedulerschema-task-element.md) | [**taskType**](taskschedulerschema-tasktype-complextype.md) | 指定工作排程器服務所執行的工作。<br/> |
+| [**工作**](taskschedulerschema-task-element.md) | [**taskType**](taskschedulerschema-tasktype-complextype.md) | 指定工作排程器服務所執行的工作。<br/> |
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "104384357"
 
 
 
-| 元素                                                                                                          | 類型                                                                                              | Description                                                                                                          |
+| 元素                                                                                                          | 類型                                                                                              | 描述                                                                                                          |
 |------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [**AllowHardTerminate**](taskschedulerschema-allowhardterminate-settingstype-element.md)                        | boolean                                                                                           | 指定可以使用 TerminateProcess 終止工作。<br/>                                         |
 | [**AllowStartOnDemand**](taskschedulerschema-allowstartondemand-settingstype-element.md)                        | boolean                                                                                           | 指定可使用 [執行] 命令或內容功能表來啟動工作。<br/>                  |
@@ -65,7 +65,7 @@ ms.locfileid: "104384357"
 | [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md)          | boolean                                                                                           | 指定只有在有可用的網路時，工作排程器才會執行工作。<br/>                     |
 | [**StartWhenAvailable**](taskschedulerschema-startwhenavailable-settingstype-element.md)                        | boolean                                                                                           | 指定工作排程器可以在經過排程的時間之後隨時啟動工作。<br/>     |
 | [**StopIfGoingOnBatteries (settingsType)**](taskschedulerschema-stopifgoingonbatteries-settingstype-element.md) | boolean                                                                                           | 指定當電腦進入電池時，工作將會停止。<br/>                          |
-| [**揮發 性**](taskschedulerschema-volatile-element.md)                                                         | boolean                                                                                           | 指定在 Windows 啟動時工作排程器是否自動停用工作。<br/>                     |
+| [**揮發 性**](taskschedulerschema-volatile-element.md)                                                         | boolean                                                                                           | 指定是否在 Windows 啟動時，工作排程器自動停用工作。<br/>                     |
 | [**WakeToRun (settingsType)**](taskschedulerschema-waketorun-settingstype-element.md)                           | boolean                                                                                           | 指定工作排程器會在執行工作時喚醒電腦。<br/>                     |
 
 
@@ -74,9 +74,9 @@ ms.locfileid: "104384357"
 
 您可以選取上述的一或多個子項目。
 
-針對 c + + 開發，會使用 [**ITaskDefinition 的 Settings 屬性**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings)來指定工作的註冊資訊。
+針對 c + + 開發，會使用 [**ITaskDefinition 的設定屬性**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings)來指定工作的註冊資訊。
 
-針對開發腳本，會使用 [ [**TaskDefinition**](taskdefinition-settings.md) ] 屬性來指定工作的註冊資訊。
+針對開發腳本，會使用 [**設定 TaskDefinition**](taskdefinition-settings.md)屬性來指定工作的註冊資訊。
 
 ## <a name="examples"></a>範例
 
@@ -102,8 +102,8 @@ ms.locfileid: "104384357"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

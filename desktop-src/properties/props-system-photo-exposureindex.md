@@ -4,18 +4,18 @@ ms.assetid: 83ade9b2-78ea-4b26-b034-4ea5ad38a331
 title: ExposureIndex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0134f294e3a31228c6935ba22b907f53a6a31d26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80a153304d32cf127e03ed2cd71b0333f114f92f14d399543c9816da08bd761e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970127"
 ---
 # <a name="systemphotoexposureindex"></a>ExposureIndex
 
 指出拍攝相片時，在相機或輸入裝置上選取的曝光索引。 從 PKEY \_ photo \_ EXPOSUREINDEXNUMERATOR 和 PKEY \_ photo ExposureIndexDenominator 計算 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

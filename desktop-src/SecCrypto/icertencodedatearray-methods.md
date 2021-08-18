@@ -4,12 +4,12 @@ ms.assetid: 33105EAD-0F06-464F-A670-EE7628BC7148
 title: ICertEncodeDateArray 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55dac1b4a421f9da1dacb6ce382edaf97c9cabf8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd045ebef6bf709fc47516471dfc4c5072e94222090ce4d5b77e8fa83149bfca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005966"
 ---
 # <a name="icertencodedatearray-methods"></a>ICertEncodeDateArray 方法
 

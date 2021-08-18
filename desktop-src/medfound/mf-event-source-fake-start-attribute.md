@@ -4,12 +4,12 @@ ms.assetid: efd497dc-affc-4453-975c-09c5dca06374
 title: 'MF_EVENT_SOURCE_FAKE_START 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae47bbfdedb7535ff46763ad5bc36f552ffe4780
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b026811330443a3fb5e7c9671a7f6a3de8580985b6be4c6ba149a2d4dc196325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973767"
 ---
 # <a name="mf_event_source_fake_start-attribute"></a>MF \_ 事件 \_ 來源 \_ 假 \_ 開始屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103853003"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

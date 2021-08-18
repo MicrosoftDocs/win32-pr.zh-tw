@@ -4,12 +4,12 @@ ms.assetid: 97CCEBB6-9634-4BA6-966A-621F9023B59F
 title: 'MF_CAPTURE_ENGINE_ENABLE_CAMERA_STREAMSTATE_NOTIFICATION 屬性 (Mfcaptureengine) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca293e172a8f8e1a28b5f3934e61d3b90cfb20ee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fce100a79f3e8c146dde082a29242920d01c83fbffead5acb2c9adf803319de9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973987"
 ---
 # <a name="mf_capture_engine_enable_camera_streamstate_notification-attribute"></a>MF \_ 捕獲 \_ 引擎 \_ 啟用 \_ 攝影機 \_ STREAMSTATE \_ 通知屬性
 

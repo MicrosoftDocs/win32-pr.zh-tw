@@ -4,12 +4,12 @@ ms.assetid: 41e8a777-a57a-4d6c-850f-e21b58081b0d
 title: 'LINEDEVSTATE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49717c1adb0f62a48a041f5920c0b82c7b817277
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb11959614999ff50e421e0b77c63d1215a831040774e3123b43aa3534a3f853
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140061"
 ---
 # <a name="linedevstate_-constants"></a>LINEDEVSTATE \_ 常數
 

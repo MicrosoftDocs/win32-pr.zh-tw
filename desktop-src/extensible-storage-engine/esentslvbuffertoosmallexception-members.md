@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102723
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2830c0b9c8c0c0cb3364ecb6fbd9c403e1dedcab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53b2566d55dc745bd7cd8818759beef3f58e396bca4c00c163fe677ffb71e150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115228"
 ---
 # <a name="esentslvbuffertoosmallexception-members"></a>EsentSLVBufferTooSmallException 成員
 

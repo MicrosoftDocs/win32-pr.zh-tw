@@ -4,12 +4,12 @@ ms.assetid: ddbfb65c-7630-4e9f-8013-c5d65c62c628
 title: 'DVD 子圖片屬性集 (Dvdmedia .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a45b83595e8657ee0c60f39cd67f2d0e4c71511
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 7293e38665fc59cf47b44e6466302655afd2ccf2a909034afd803201f6ea5a78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148691"
 ---
 # <a name="dvd-subpicture-property-set"></a>DVD 子圖片屬性集
 
@@ -31,7 +31,7 @@ DVD 子圖片屬性控制子圖片顯示的色彩、對比和輸出。
 
 | 屬性識別碼                           | 描述                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AM \_ 屬性 \_ DVDSUBPIC \_ 複合 \_ ON | 啟用或停用子圖片顯示的設定屬性。 DirectShow 定義此屬性的布林值資料類型 **上的 AM \_ 屬性 \_ 複合 \_** ，以及 \_ \_ \_ 作為此資料類型之指標的 PAM 屬性複合。 **TRUE** 表示顯示子圖片， **FALSE** 表示停用它。 如需詳細資訊，請參閱 Windows DDK 的 WDM 部分。 |
+| AM \_ 屬性 \_ DVDSUBPIC \_ 複合 \_ ON | 啟用或停用子圖片顯示的設定屬性。 DirectShow 定義這個屬性的布林值資料類型 **上的 AM \_ 屬性 \_ 複合 \_** ，以及 \_ \_ \_ 作為此資料類型之指標的 PAM 屬性複合。 **TRUE** 表示顯示子圖片， **FALSE** 表示停用它。 如需詳細資訊，請參閱 Windows DDK 的 WDM 部分。 |
 | AM \_ 屬性 \_ DVDSUBPIC \_          | 僅限設定的屬性，指定將變更其色彩或對比度的子圖片或螢幕矩形。 資料類型為 [**AM \_ 屬性 \_ SPHLI**](/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_property_sphli)。 請參閱＜備註＞。                                                                                                                                                                                |
 | AM \_ 屬性 \_ DVDSUBPIC \_ 調色板      | 設定子圖片的調色板。 資料類型為 [**AM \_ 屬性 \_ SPPAL**](/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_property_sppal)。                                                                                                                                                                                                                                                                        |
 

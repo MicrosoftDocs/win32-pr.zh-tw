@@ -4,12 +4,12 @@ description: 伺服器開發人員會根據應用程式的 UI 來設計可存取
 ms.assetid: d9453fb0-9b4a-4103-81e3-1255091255a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b32a086b977a1737a17206261aaaa94faa754d93
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 183a7024f546aa3e982b632430dad88c89ae79082ac3d91da97e56c821fde62c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133871"
 ---
 # <a name="custom-user-interface-elements"></a>自訂消費者介面元素
 
@@ -26,9 +26,9 @@ ms.locfileid: "103839532"
 
 如果應用程式只使用系統提供的使用者介面元素，則不需要執行 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)，除了其用戶端視窗以外。 例如，包含文字編輯器（不是使用編輯控制項來執行）的應用程式，會將文字行公開為可存取的物件。 請注意，Microsoft Active Accessibility 會自動將 [編輯] 和 [rich edit] 控制項中的文字公開為控制項之 [ [**值**](value-property.md) ] 屬性中的單一文字字串。
 
- 
+ 
 
- 
+ 
 
 
 

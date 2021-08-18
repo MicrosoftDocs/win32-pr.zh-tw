@@ -10,12 +10,12 @@ keywords:
 - 音訊 DSP 外掛程式，DoProcessOutput
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f68562444a3a8f0bfacad26fc5246181d33cefa2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc2f5aa1a952f16de196bed72ed7ac93dfac95d8333496824e3f0740f506a6fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135581"
 ---
 # <a name="implementing-doprocessoutput"></a>執行 DoProcessOutput
 
@@ -101,9 +101,9 @@ ms.locfileid: "104372299"
 [**執行音訊 DSP 外掛程式**](implementing-an-audio-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d88d8a1da7ae544c5647fc844cda4966cfee7b10
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ae385d636429d25b420f1bc75dd531b55d8d2419a7eedc328865753d7b7b536b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103854035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120732"
 ---
 # <a name="id3dxpatchmeshlockvertexbuffer-method"></a>ID3DXPatchMesh：： LockVertexBuffer 方法
 

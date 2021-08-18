@@ -1,19 +1,19 @@
 ---
-description: Windows SDK 中包含的 WSDAPI 開發工具 (WSD CodeGen、WSD Debug 主控制項和 WSD Debug 用戶端) 讓開發人員建立及偵測 WSDAPI 用戶端與裝置。
+description: Windows SDK 中包含的 WSDAPI 開發工具 (wsd CodeGen、wsd debug 主控制項和 WSD debug 用戶端) 讓開發人員建立及偵測 WSDAPI 用戶端與裝置。
 ms.assetid: 8bf6424e-1eed-4b0a-9d56-7aaf03a47992
 title: WSDAPI 開發工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd245e347cab6205a8883126dcae281646a3488f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bdad2d87ffafc337c98743f67ae022eb4d1d11616ac42940157a5785066645b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130580"
 ---
 # <a name="wsdapi-development-tools"></a>WSDAPI 開發工具
 
-Windows SDK 中包含的 WSDAPI 開發工具 (WSD CodeGen、WSD Debug 主控制項和 WSD Debug 用戶端) 讓開發人員建立及偵測 WSDAPI 用戶端與裝置。 無法使用這些工具的原始程式碼。 SDK 工具位於下列目錄： <Windows SDK Install Folder> \\ Bin。
+Windows SDK 中包含的 WSDAPI 開發工具 (wsd CodeGen、wsd debug 主控制項和 WSD debug 用戶端) 讓開發人員建立及偵測 WSDAPI 用戶端與裝置。 無法使用這些工具的原始程式碼。 SDK 工具位於下列目錄： <Windows SDK Install Folder> \\ Bin。
 
 WSD CodeGen (wsdcodegen.exe) 會將 WSDL 合約轉換成產生的 c + + 程式碼，讓開發人員可以直接呼叫。 它會處理資料序列化和線路標記法，讓開發人員可以專注于設計應用程式。 如需 WSD CodeGen 的詳細資訊，請參閱 [裝置上的 Web 服務程式碼](web-services-for-devices-code-generator.md)產生器。 這項工具適用于 Microsoft Windows 軟體開發套件 (SDK) 以及 Windows 驅動程式套件 (WDK) 。
 

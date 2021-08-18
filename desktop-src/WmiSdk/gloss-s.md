@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: " (WMI) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48473c58a1c9aae3f3c9e67f7723167b46df0285
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7089d3b4e7714b84dc02f6491da1c0a8d21d1b83c1729ac9fe04824c83a6789e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993188"
 ---
 # <a name="s-wmi"></a> (WMI) 
 

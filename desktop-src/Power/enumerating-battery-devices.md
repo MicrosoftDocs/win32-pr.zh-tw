@@ -4,12 +4,12 @@ ms.assetid: 17e3c779-91ba-4901-9435-b73dedbf0b89
 title: 列舉電池裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d610feda8fd312bbefe2742da50d82a664a8ce2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28ed27979ca8b6abdb8015da58a9b6205f9ee3123cd4a82ccf7bd9c121e10441
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143551"
 ---
 # <a name="enumerating-battery-devices"></a>列舉電池裝置
 

@@ -4,12 +4,12 @@ ms.assetid: b80b3d64-9c0a-4602-9378-1e208f6593fc
 title: EncryptMessage (Negotiate) 函數
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 037866088f58fa1d70939b84062161a6e4f610b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4aac05a4ad030e72953cc997671b7d348cb2a598a0f56f80963f69847cdf357
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008306"
 ---
 # <a name="encryptmessage-negotiate-function"></a>EncryptMessage (Negotiate) 函數
 
@@ -60,7 +60,7 @@ SECURITY_STATUS SEC_Entry EncryptMessage(
 
 如果函式失敗，則會傳回下列其中一個錯誤碼。
 
-| 傳回碼                         | Description                                                                                                                          |
+| 傳回碼                         | 描述                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | **SEC \_ E \_ 緩衝區 \_ 太 \_ 小**      | 輸出緩衝區太小。 如需詳細資訊，請參閱＜備註＞。                                                                   |
 | **SEC \_ E \_ 內容已 \_ 過期**        | 應用程式參考的內容已關閉。 正確撰寫的應用程式應該不會收到此錯誤。 |
@@ -79,7 +79,7 @@ SECURITY_STATUS SEC_Entry EncryptMessage(
 > [!Note]  
 > 您必須依照顯示的順序提供這些緩衝區。
 
-| 緩衝區類型                | Description                                                                                 |
+| 緩衝區類型                | 描述                                                                                 |
 |----------------------------|---------------------------------------------------------------------------------------------|
 | 之 SECBUFFER \_ 資料流程 \_ 標頭  | 內部使用。 不需要初始化。                                                |
 | 之 SECBUFFER \_ 資料            | 包含要加密的 [*純文字*](../secgloss/s-gly.md) 訊息。 |
@@ -88,14 +88,14 @@ SECURITY_STATUS SEC_Entry EncryptMessage(
 
 為了達到最佳效能，應該從連續的記憶體配置 *pMessage* 結構。
 
-**WINDOWS XP：** 此函數也稱為 **SealMessage**。 應用程式現在應該只使用 **EncryptMessage (Negotiate)** 。
+**Windows XP：** 此函數也稱為 **SealMessage**。 應用程式現在應該只使用 **EncryptMessage (Negotiate)** 。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |--------------------------|-------------------------------------------------|
-| 最低支援的用戶端 | \[僅限 WINDOWS XP desktop 應用程式\]                |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\]       |
+| 最低支援的用戶端 | Windows\[僅限 XP desktop 應用程式\]                |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\]       |
 | 標頭                   | Sspi (包含 Security .h)                      |
 | 程式庫                  | Secur32 .lib                                     |
 | DLL                      | Secur32.dll                                     |

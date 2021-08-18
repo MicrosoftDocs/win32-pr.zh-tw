@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101969
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ec07ef88a0861ba303277ae731af8e6b682ac898
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92de8ca2a9345218821b39b2daedab3558ce9cd3dc7629597b5db0887f8df42e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115991"
 ---
 # <a name="esentinvalidlanguageidexception-members"></a>EsentInvalidLanguageIdException 成員
 

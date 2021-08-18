@@ -4,12 +4,12 @@ ms.assetid: 65f1191a-b841-4041-8643-945d26a605f0
 title: System.Devices.Aep.Manufacturer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de2c941d19e8fad8412314299e4e4789261f0d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6db05c5275f12162105ae9b66ac266543b8f059c5199dc7697c7b815a8ef694d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097949"
 ---
 # <a name="systemdevicesaepmanufacturer"></a>System.Devices.Aep.Manufacturer
 

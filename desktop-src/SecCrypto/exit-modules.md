@@ -4,12 +4,12 @@ ms.assetid: 5e7ee1f4-7e07-4a08-8e72-89b449804bc2
 title: 結束模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fc0668717c4a7a690cce8a03ff8c140333347b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38ba8d821900ece1a4ce3eb3fcb2cc805d87274b451a3d5c8948d1e86ebf3547
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140751"
 ---
 # <a name="exit-modules"></a>結束模組
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: b41a28bcd1494fd2fd43f2af530e3eb7353ff1ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87917743dbb13076dd8303f0fffdda6abc4a6177fd0a98223c58649907c79771
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983848"
 ---
 # <a name="apigettablecolumns-method"></a>GetTableColumns 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104111949"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

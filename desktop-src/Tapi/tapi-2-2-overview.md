@@ -4,12 +4,12 @@ ms.assetid: bc67ffbf-c29c-4545-911e-b70ecd43cdfc
 title: TAPI 2.2 總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a8f6dfce45b3445dd78767984fadb5c7326da2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b88b4d135dbbab1de8c9ad46878f7b8ebd4adc700540c3b8dfcf19f9ef16d3f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139921"
 ---
 # <a name="tapi-22-overview"></a>TAPI 2.2 總覽
 
@@ -20,7 +20,7 @@ Microsoft 電話語音應用程式開發介面 (TAPI) 2.2 版是以 C 為基礎�
 -   [裝置存取](device-access.md) 涵蓋 tapi 2.2 (Tapi/C) 的特定功能。 請參閱裝置 [控制](./device-control.md) 的一般總覽，以取得裝置資訊和作業的主要參考。
 -   [媒體存取](media-access.md) 涵蓋可用於 TAPI 2.2 應用程式之媒體資訊和控制項的內容。 媒體服務提供者可讓您存取更詳細的控制項，但只有 TAPI 3 (TAPI/COM) 應用程式才能使用其功能。 如需其他資訊，請參閱 [媒體服務提供者](./about-the-media-service-provider-msp-.md) 。
 -   [話務中心控制](call-center-control.md) 涵蓋使用 TAPI 2.2 ACD) 應用程式時，建立自動呼叫散發 (的材質。 針對 TAPI 3.x，請參閱 [撥置中心控制項](./about-call-center-controls.md)。
--   [電話裝置](phone-devices.md) 涵蓋 tapi 2.2 (Tapi/C) 所提供的補充電話裝置控制項。
+-   [電話裝置](phone-devices.md)涵蓋 tapi 2.2 (tapi/C) 所提供的補充電話裝置控制項。
 
  
 

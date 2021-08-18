@@ -4,12 +4,12 @@ ms.assetid: 1ad77adb-5960-4965-bddb-5967b982b034
 title: 'HCRYPTPROV_OR_NCRYPT_KEY_HANDLE (Wincrypt) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bbd442b93cdb9ba7479878aa9fcad095b7903af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 982ab2a37c1a2d6035f76cac5c55dcdae44c4cf38f86138c52590c73724b53e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006336"
 ---
 # <a name="hcryptprov_or_ncrypt_key_handle"></a>HCRYPTPROV \_ 或 \_ NCRYPT \_ 金鑰 \_ 控制碼
 
@@ -28,8 +28,8 @@ typedef ULONG_PTR HCRYPTPROV_OR_NCRYPT_KEY_HANDLE;
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Wincrypt。h</dt> </dl> |
 
 

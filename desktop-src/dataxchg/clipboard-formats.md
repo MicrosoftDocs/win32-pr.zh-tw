@@ -15,12 +15,12 @@ keywords:
 - 剪貼簿歷程記錄格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 193ee4cc10c17846d974e50b17a464207026280b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac6bd2dc9dda8c8ccecd164123af68865005d9d28d328ce5489abf23926113ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991338"
 ---
 # <a name="clipboard-formats"></a>剪貼簿格式
 
@@ -55,7 +55,7 @@ ms.locfileid: "106968303"
 
 如需有關 [**WM \_ DESTROYCLIPBOARD**](wm-destroyclipboard.md) 訊息的詳細資訊，請參閱 [剪貼簿擁有權](clipboard-operations.md)。
 
-應用程式可以藉由在 **cf \_ GDIOBJFIRST** 到 **cf \_ GDIOBJLAST** 的範圍中定義私用格式，將資料控點放置在剪貼簿上。 使用這個範圍中的值時，資料處理程式不是 Windows 圖形裝置介面的控制碼 (GDI) 物件，但是是 [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc) 函式所配置的控制碼，並具有 GMEM \_ 可移動旗標。 當剪貼簿清空時，系統會使用 [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) 函式自動刪除物件。
+應用程式可以藉由在 **cf \_ GDIOBJFIRST** 到 **cf \_ GDIOBJLAST** 的範圍中定義私用格式，將資料控點放置在剪貼簿上。 使用這個範圍中的值時，資料處理程式不是 Windows 圖形裝置介面 (GDI) 物件的控制碼，而是 [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc)函式所配置的控制碼與 GMEM \_ 可移動旗標。 當剪貼簿清空時，系統會使用 [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) 函式自動刪除物件。
 
 ## <a name="multiple-clipboard-formats"></a>多個剪貼簿格式
 
@@ -94,7 +94,7 @@ ms.locfileid: "106968303"
 
 
 
- 
+ 
 
 如果系統針對特定的剪貼簿格式提供自動類型轉換，則將轉換格式 (s) 在剪貼簿上沒有任何優點。
 
@@ -106,12 +106,12 @@ ms.locfileid: "106968303"
 
 如果剪貼簿包含 **CF \_ 調色板** 格式的資料，應用程式應該使用 [**SelectPalette**](/windows/desktop/api/wingdi/nf-wingdi-selectpalette) 和 [**RealizePalette**](/windows/desktop/api/wingdi/nf-wingdi-realizepalette) 函式，以針對該邏輯元件來實現剪貼簿中的任何其他資料。
 
-中繼檔有兩種剪貼簿格式： **cf \_ ENHMETAFILE** 和 **cf \_ METAFILEPICT**。 為 Windows 中繼檔指定適用于增強型中繼檔和 **cf \_ METAFILEPICT** 的 **CF \_ ENHMETAFILE** 。
+中繼檔有兩種剪貼簿格式： **cf \_ ENHMETAFILE** 和 **cf \_ METAFILEPICT**。 為 Windows 的中繼檔指定 **cf \_ ENHMETAFILE** for 增強的中繼檔和 **cf \_ METAFILEPICT** 。
 
 ## <a name="cloud-clipboard-and-clipboard-history-formats"></a>雲端剪貼簿和剪貼簿歷程記錄格式
 
-某些版本的 Windows 包含 [雲端剪貼](/windows/whats-new/whats-new-windows-10-version-1809#cloud-clipboard)簿，可保留最近剪貼簿資料項目的歷程記錄，並可在使用者的裝置之間進行同步處理。
-如果您不想要將應用程式放在剪貼簿上的資料放在剪貼簿歷程記錄中，或與其他裝置同步處理，則您的應用程式可以藉由將資料放在 Windows 系統已知的特定 [已註冊剪貼簿格式](#registered-clipboard-formats) 中，來控制這項行為：
+某些版本的 Windows 包括[雲端剪貼](/windows/whats-new/whats-new-windows-10-version-1809#cloud-clipboard)簿，可保留最近剪貼簿資料項目的歷程記錄，並可在使用者的裝置之間進行同步處理。
+如果您不想要將應用程式放在剪貼簿上的資料放在剪貼簿歷程記錄中，或與其他裝置同步處理，則您的應用程式可以藉由將資料放在 Windows 系統已知名稱的特定[已註冊剪貼簿格式](#registered-clipboard-formats)中，來控制這項行為：
 
 - **ExcludeClipboardContentFromMonitorProcessing** ：將任何資料放在剪貼簿上的格式，以防止所有剪貼簿格式包含在剪貼簿歷程記錄中，或同步處理到使用者的其他裝置。
 - **CanIncludeInClipboardHistory** ：使用此格式將序列化的 **[DWORD](../WinProg/windows-data-types.md)** 值設為零，以防止所有剪貼簿格式包含在剪貼簿歷程記錄中，或將值設為1，以明確要求剪貼簿專案包含在剪貼簿歷程記錄中。 這不會影響與使用者其他裝置的同步處理。

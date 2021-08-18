@@ -4,19 +4,19 @@ ms.assetid: 25d07e42-b5eb-4f72-b4b1-0ebb881644ba
 title: 登錄機碼上的額外 Windows 資源保護
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1beeea49f06da182b5ebba38d09227134a6d92c0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d3ea823b2075905b8f22cbc02539f058c9ad8f2ed33ed51d712cd8cb43f59d18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995018"
 ---
 # <a name="additional-windows-resource-protection-on-registry-keys"></a>登錄機碼上的額外 Windows 資源保護
 
 ## <a name="platform"></a>平台
 
 **客戶** 端-Windows 7  
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
 
 
@@ -32,15 +32,15 @@ ms.locfileid: "108088776"
 **頻率** -低  
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 額外的系統資源已在 Windows 7 中新增 Windows 資源保護 (WRP) 設定，使其成為唯讀設定。 大部分接收新增保護的資源都是系統 COM 伺服器金鑰，雖然有些功能已新增目標資源保護。 Microsoft 變更了這些資源，以保護系統和其他應用程式免于彼此中斷，並提供一致且穩定的平臺，讓應用程式可在其上可靠地執行。 在過去，應用程式可以提供自訂檔案，並使用未受保護的 COM 註冊來變更系統。 在舊版的應用程式中，這可能會降級系統執行時間，或變更其他應用程式需要正常運作的介面。 在最糟的情況下，這類安裝可能會導致系統失敗或一段時間的降級。 為了提供更好的體驗和更穩定的應用程式平臺，我們鎖定了這些註冊，因此只有 Microsoft update 可以變更系統元件。
 
-因為大部分的資源變更都是系統所使用的 COM 金鑰，所以這項變更不會影響大部分的應用程式。 雖然我們預期大部分的應用程式在 Windows 7 上都有更佳的體驗，因為這些變更的結果，應用程式的一小部分可能會受到負面影響。 系統的應用程式相容性層級會自動通知應用程式變更設定，即使因為它是受保護的資源而失敗，也會自動解決安裝問題。 這可防止應用程式設定中斷，但如果需要變更設定才能讓應用程式正常運作，則可能會造成問題。
+因為大部分的資源變更都是系統所使用的 COM 金鑰，所以這項變更不會影響大部分的應用程式。 雖然在這些變更之後，大部分的應用程式都能獲得 Windows 7 的更佳體驗，但應用程式的一小部分可能會受到負面影響。 系統的應用程式相容性層級會自動通知應用程式變更設定，即使因為它是受保護的資源而失敗，也會自動解決安裝問題。 這可防止應用程式設定中斷，但如果需要變更設定才能讓應用程式正常運作，則可能會造成問題。
 
 ## <a name="manifestation"></a>表現
 
-在 Windows 7 之前，應用程式可能已修改這些設定。 在 Windows 7 上安裝時，應用程式可能會發現某些功能不再適用，因為這些設定未反映出應用程式的預期。
+在 Windows 7 之前，應用程式可能已修改過這些設定。 在 Windows 7 上安裝時，應用程式可能會發現某些功能不再適用，因為這些設定未反映出應用程式的預期。
 
 在兩種情況下，應用程式可能會遇到與此新增保護相關的問題：
 
@@ -53,7 +53,7 @@ ms.locfileid: "108088776"
 
 這一層會藉由攔截登錄作業來解決此問題。 如果應用程式嘗試修改唯讀 (WRP) 設定，即使設定未真正變更，該層仍一律會傳回成功。 針對大部分的應用程式，這不會造成任何問題。 不過，應用程式可能需要變更該設定才能正常運作，也就是上述的第一種案例。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 在上述兩個案例中：
 
@@ -64,14 +64,14 @@ ms.locfileid: "108088776"
 
 如何偵測應用程式是否已套用 WRP 緩和：
 
--   Windows Installer 知道 WRP;它會自動且無訊息地忽略寫入或修改受保護資源的嘗試。 如果應用程式是隨 Windows Installer 安裝，且已啟用記錄功能，則會記錄每個登錄機碼寫入作業的警告，因為它是受 WRP 保護的資源，所以會被忽略。
+-   Windows安裝程式知道 WRP;它會自動且無訊息地忽略寫入或修改受保護資源的嘗試。 如果應用程式是隨 Windows Installer 安裝，且已啟用記錄功能，則會記錄每個登錄機碼寫入作業的警告，因為它是受 WRP 保護的資源，所以會被忽略。
 -   WRP API 會併入 SfCIsKeyProtected，可查詢登錄機碼是否在目前的系統上受到 WRP 保護。 如需使用此 API 的詳細資訊，請參閱下列連結中的 WRP 專案。
 
 ## <a name="links-to-other-resources"></a>其他資源的連結
 
 <dl>
 
-[Windows 資源保護](/windows/desktop/Wfp/windows-resource-protection-portal)  
+[Windows資源保護](/windows/desktop/Wfp/windows-resource-protection-portal)  
 </dl>
 
  

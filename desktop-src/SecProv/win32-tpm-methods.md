@@ -4,12 +4,12 @@ ms.assetid: 6027D9A7-524F-478D-8227-97B9DE6AC8ED
 title: Win32_Tpm 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e6e3c5a49bc60d9d18fa27f3e0edfbd275973be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2460af7c750b40b5af2080b5893d4e7788715cf579aeec6dd10260f79f960dfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004056"
 ---
 # <a name="win32_tpm-methods"></a>Win32 \_ Tpm 方法
 

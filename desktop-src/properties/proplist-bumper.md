@@ -4,12 +4,12 @@ ms.assetid: b6696577-b67f-4cfb-a140-34ac3fb68eb7
 title: PropList
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e339b8f1920f03428d41a12048c955ac57f95f9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 80fc43ea64d4444495b91026c2df5dc243de2112a18f8dbdd18329e50f2c63ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970927"
 ---
 # <a name="proplist"></a>PropList
 

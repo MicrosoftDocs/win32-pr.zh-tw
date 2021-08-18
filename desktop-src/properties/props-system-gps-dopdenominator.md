@@ -4,18 +4,18 @@ ms.assetid: 005512c6-934a-4f50-9253-e60030aa1a95
 title: DOPDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fbaa4ce6bbc45fd547145e7593eaf70ca9be547
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67095c3df8233b360f38fee59040188ea3682268a21a0a129509f7a77f97d456
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096847"
 ---
 # <a name="systemgpsdopdenominator"></a>DOPDenominator
 
 PKEY \_ GPS DOP 的分母 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

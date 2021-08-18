@@ -4,12 +4,12 @@ ms.assetid: 39498c2f-6047-484d-a8ea-253461e5b0f5
 title: API 中的 gethostname 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8629083c49e3915dd0ec4f1cfeb9363caabf8b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ec72c7eab46ccb9988dc166d8121304850ea49e2488901496e5c0377a395a48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132271"
 ---
 # <a name="gethostname-function-in-the-api"></a>API 中的 gethostname 函式
 
@@ -19,7 +19,7 @@ ms.locfileid: "106970424"
 
 <dl> <dt>
 
-[Windows 通訊端 1.1 API 中 TCP/IP 的相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
+[Windows 通訊端 1.1 API 中的 tcp/ip 相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
 </dt> <dt>
 
 [通訊協定獨立名稱解析](protocol-independent-name-resolution-2.md)

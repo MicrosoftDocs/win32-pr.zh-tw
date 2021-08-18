@@ -1,9 +1,9 @@
 ---
 title: 'MM_MIM_LONGDATA 訊息 (Mmsystem .h) '
-description: '\_ \_ 當收到完整的 MIDI 系統專屬訊息或緩衝區已填滿系統專屬的資料時，會將 MM MIM LONGDATA 訊息傳送至視窗。'
+description: '\_ \_ 當收到完整的 MIDI 系統專屬訊息，或是已填入系統專屬資料的緩衝區時，MM MIM LONGDATA 訊息會傳送至視窗。'
 ms.assetid: 72b9eade-4224-436f-bfef-32204eaf51ae
 keywords:
-- MM_MIM_LONGDATA message Windows 多媒體
+- MM_MIM_LONGDATA 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25bf1900ef2e9394b9d8772747eba873f8d607f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9e4748381500f42a5dc4f2bceae8ad862a64f237c9d5024e4b0b7cc96a694e5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065518"
 ---
 # <a name="mm_mim_longdata-message"></a>MM \_ MIM \_ LONGDATA 訊息
 
-當收到完整的 MIDI 系統專屬訊息或緩衝區已填滿系統專屬的資料時，會將 **MM \_ MIM \_ LONGDATA** 訊息傳送至視窗。
+當收到完整的 MIDI 系統專屬訊息，或是已填入系統專屬資料的緩衝區時， **MM \_ MIM \_ LONGDATA** 訊息會傳送至視窗。
 
 
 ```C++
@@ -70,7 +70,7 @@ lParam = (LPARAM) lpMidiHdr
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

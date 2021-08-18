@@ -4,16 +4,16 @@ ms.assetid: ECE4A9C6-8553-4718-AAFA-AC4D9924A786
 title: 用於調試 Web 應用程式和 Add-Ons 的工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a8fffe64836f6bce2b6e8b203360d0bba5b3872
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 96e54dabb3cb3908dc69158bd47c3c5acbf292a30f09b5ea8bc6d508a33ed38c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994598"
 ---
 # <a name="tools-for-debugging-web-applications-and-add-ons"></a>用於調試 Web 應用程式和 Add-Ons 的工具
 
-您可以將您的程式碼撰寫至最新的 web 標準，而不是 [修正 web 應用程式和附加元件中的相容性問題](remediating-web-applications-and-add-ons.md)，而是讓 web 應用程式或網站以原生方式在 Windows Internet Explorer 8 標準模式下運作。
+您可以藉由將程式碼寫入至最新的 web 標準，讓 web 應用程式或網站以原生方式在 Windows Internet Explorer 8 標準模式下運作，而不是[修正 web 應用程式和附加元件的相容性問題](remediating-web-applications-and-add-ons.md)。
 
 若要完整評估您的應用程式或網站中的任何問題，您應該研究問題的根本原因。 例如，Internet Explorer 團隊使用開發人員工具判斷根本原因，並以邏輯方式減少可能的問題。 下列各節將說明數個可協助簡化偵錯工具的工具。
 

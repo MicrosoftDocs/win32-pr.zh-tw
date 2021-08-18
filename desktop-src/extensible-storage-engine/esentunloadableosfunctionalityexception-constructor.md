@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d00544cf398784db30f2c37c5eea14c0f631fe79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 661cc01002ee8b63ceb17dbc2aef52bb35a935c7efe55c273ae55bb90fb8bc3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112807"
 ---
 # <a name="esentunloadableosfunctionalityexception-constructor"></a>EsentUnloadableOSFunctionalityException 函式
 

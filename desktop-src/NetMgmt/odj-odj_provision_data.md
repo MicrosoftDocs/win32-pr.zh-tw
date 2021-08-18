@@ -5,12 +5,12 @@ ms.assetid: ff623d04-ad3f-4846-b9de-aaa280713018
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: f07d8c200103fa21afc080c60157645fe6730766
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: 02762a80be9bd60b7f9c8648c9bfb848f3d76184f249567c9e9522189692e0e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "106991114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064348"
 ---
 # <a name="odj_provision_data-structure"></a>ODJ_PROVISION_DATA 結構
 

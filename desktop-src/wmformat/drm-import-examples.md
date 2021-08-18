@@ -3,20 +3,20 @@ title: DRM 匯入範例
 description: DRM 匯入範例
 ms.assetid: 074e71b6-076b-4608-982b-f91fc226a8b3
 keywords:
-- Windows Media Format SDK，DRM 匯入
-- Windows Media Format SDK，匯入
+- Windows媒體格式 SDK，DRM 匯入
+- Windows媒體格式 SDK，匯入
 - 數位版權管理 (DRM) ，匯入
 - DRM (數位版權管理) ，匯入
 - DRM 用戶端擴充 Api，匯入
 - 用戶端擴充 Api，匯入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88b966ce1ab3c1b355ebe93897d7f59bc97762b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0bbe059204a99ee465d1fe6272a897a6cfa7583f91895dd1744e8684b4212b82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085969"
 ---
 # <a name="drm-import-examples"></a>DRM 匯入範例
 
@@ -36,7 +36,7 @@ ms.locfileid: "103840139"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,9 +45,9 @@ ms.locfileid: "103840139"
 [**DRM 匯入**](drm-import.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

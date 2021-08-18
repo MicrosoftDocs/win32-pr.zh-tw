@@ -14,12 +14,12 @@ api_type:
 - IDLDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9caf60fa5736f9db442da5787746a49f71c61c89
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 969eb389a1216ec0e30f27a938ca4f5382397ac5489f87add87731b69824b87f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100652"
 ---
 # <a name="devicetypes-enumeration"></a>DeviceTypes 列舉
 
@@ -77,7 +77,7 @@ DLNA 數位媒體播放機
 
 | 需求 | 值 |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Idl<br/> | <dl> <dt> (參考) 的 windows...。 </dt> </dl> |
+| IDL<br/> | <dl> <dt>Windows。 (參考 Windows 的參考。) 的串流 .idl</dt> </dl> |
 
 
 

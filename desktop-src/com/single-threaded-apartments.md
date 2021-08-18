@@ -4,12 +4,12 @@ description: Single-Threaded 單元
 ms.assetid: 2f345ae2-8314-4067-a6d6-5a0275941ed4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f0a8cb1422b6866d9e0d043fdd46c895e6d335b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 41f9b969a48fd83ac82307c42bf4e801168bcf97f83536045fc078b19e3eb77d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129820"
 ---
 # <a name="single-threaded-apartments"></a>Single-Threaded 單元
 
@@ -46,7 +46,7 @@ ms.locfileid: "104382937"
 
 若要處理相同進程中其他進程和單元的呼叫，每個單一執行緒的單元都必須有訊息迴圈。 這表示執行緒的工作函式必須有 GetMessage/DispatchMessage 迴圈。 如果有其他同步處理原始物件是用來線上程之間進行通訊， [**MsgWaitForMultipleObjects**](/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects) 函數可以用來等候訊息和執行緒同步處理事件。 此函式的檔有這類組合迴圈的範例。
 
-COM 會在每個單一執行緒的單元中使用 Windows 類別 "OleMainThreadWndClass" 建立隱藏視窗。 對物件的呼叫會以視窗訊息的形式接收到此隱藏視窗。 當物件的單元抓取並分派訊息時，隱藏的視窗就會收到訊息。 視窗程式接著會呼叫物件的對應介面方法。
+COM 會使用每個單一執行緒單元中的 Windows 類別 "OleMainThreadWndClass" 來建立隱藏視窗。 對物件的呼叫會以視窗訊息的形式接收到此隱藏視窗。 當物件的單元抓取並分派訊息時，隱藏的視窗就會收到訊息。 視窗程式接著會呼叫物件的對應介面方法。
 
 當有多個用戶端呼叫物件時，呼叫會排入訊息佇列中，而物件會在每次其單元抓取和分派訊息時接收呼叫。 由於呼叫是由 COM 進行同步處理，而且呼叫一律由屬於物件之單元的執行緒傳遞，所以物件的介面執行不需要提供同步處理。 單一執行緒單元可以執行 [**imessagefilter.prefiltermessage**](/windows/desktop/api/ObjIdl/nn-objidl-imessagefilter) ，以允許它們在必要時取消呼叫或接收視窗訊息。
 
@@ -74,6 +74,6 @@ COM 會在每個單一執行緒的單元中使用 Windows 類別 "OleMainThreadW
 [單一執行緒和多執行緒通訊](single-threaded-and-multithreaded-communication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

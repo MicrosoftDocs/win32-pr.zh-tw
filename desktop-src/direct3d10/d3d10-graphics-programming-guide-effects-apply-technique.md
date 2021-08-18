@@ -4,12 +4,12 @@ ms.assetid: b6c88fa1-53d4-40dc-803d-5d1cdfe4777b
 title: '將技術套用 (Direct3D 10) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfb7cc48c9115dfb81c1688a3a499e24d46cc563
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0b4c920cbc7323ba42f3b099688a962674e3f5c2305746df7a56d1e158330919
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128410"
 ---
 # <a name="apply-a-technique-direct3d-10"></a>將技術套用 (Direct3D 10) 
 

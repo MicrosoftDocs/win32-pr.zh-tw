@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 39a52d62ae5271353350df15c4c00833266094cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a15fed60734125552a85d6a64dd5e207e445cc8d0fe1ab32bb650a3dce62763d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983718"
 ---
 # <a name="apigettablenames-method"></a>GetTableNames 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 65a39383-f326-4735-b2af-6df7a77ffba6
 title: IUpdateSearcher 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c777c2489afe10f73c41badfb346053aefad7022
-ms.sourcegitcommit: aab10824ee4883c70e1afba428b679a17915a5aa
+ms.openlocfilehash: a5dc3af2635fff4260a44261333b23cbfcf1661793ad613f08bb288db452b93d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "104322583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130430"
 ---
 # <a name="iupdatesearcher-properties"></a>IUpdateSearcher 屬性
 
@@ -19,7 +19,7 @@ ms.locfileid: "104322583"
 
 | 屬性                                                                                           | 描述                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CanAutomaticallyUpgradeService**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_canautomaticallyupgradeservice)            | 取得和設定布林值，這個值會指出未來對 [**BeginSearch**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-beginsearch) 和 [**搜尋**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-search) 方法的呼叫是否會導致自動升級為 WINDOWS UPDATE 代理程式 (WUA) 。 |
+| [**CanAutomaticallyUpgradeService**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_canautomaticallyupgradeservice)            | 取得和設定布林值，這個值會指出未來對 [**BeginSearch**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-beginsearch)和 [**搜尋**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-search)方法的呼叫是否會導致自動升級為 Windows Update 代理程式 (WUA) 。 |
 | [**ClientApplicationID**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_clientapplicationid)                                  | 識別目前的用戶端應用程式。                                                                                                                                                                                                   |
 | [**IncludePotentiallySupersededUpdates**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates) | 取得和設定布林值，這個值會指出搜尋結果是否包含在搜尋結果中由其他更新所取代的更新。                                                                                          |
 | [**線上**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatesearcher-get_online)                                                            | 取得和設定布林值，指出 [**UpdateSearcher**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatesearcher) 是否上線以搜尋更新。                                                                                                        |

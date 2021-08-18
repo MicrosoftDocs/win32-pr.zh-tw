@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5ad87b79175b0cecdec17ad081340fa0be2b90b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14630fa4e0e9461e59d377b4defc3edacee8dca9560d1f7eb42acb317ffd1f57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143961"
 ---
 # <a name="counters-complex-type"></a>計數器複雜類型
 
@@ -50,7 +50,7 @@ ms.locfileid: "103944251"
 
 
 
-| 元素      | 類型                                                               | Description                                              |
+| 元素      | 類型                                                               | 描述                                              |
 |--------------|--------------------------------------------------------------------|----------------------------------------------------------|
 | **供應商** | [**男人：提供者**](performance-counters-provider-complex-type.md) | 識別提供計數器的提供者。<br/> |
 
@@ -60,7 +60,7 @@ ms.locfileid: "103944251"
 
 
 
-| 名稱          | 類型 | Description                                                      |
+| 名稱          | 類型 | 描述                                                      |
 |---------------|------|------------------------------------------------------------------|
 | schemaVersion |      | 用來寫入資訊清單的架構版本。<br/> |
 
@@ -72,8 +72,8 @@ ms.locfileid: "103944251"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

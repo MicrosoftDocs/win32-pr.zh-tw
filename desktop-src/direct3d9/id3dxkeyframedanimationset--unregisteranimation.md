@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f5ee7718fb73e441daacf9fdaff38499239915e2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a4cd15ef74e5863e88647301d15b9695425423203e4a7a3b97cb2fdb40889cbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121108"
 ---
 # <a name="id3dxkeyframedanimationsetunregisteranimation-method"></a>ID3DXKeyframedAnimationSet：： UnregisterAnimation 方法
 

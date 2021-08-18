@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI、about、schema
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23eec9264ae2692952106802cc06cbad937a42a9
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: dfd8c06d10e05c11b2cc7c578814bb4ded2d897d3b7913b9b3d341a8a6c49086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023746"
 ---
 # <a name="adsi-schema-model"></a>ADSI 架構模型
 
@@ -26,7 +26,7 @@ ms.locfileid: "103933607"
 > [!Note]  
 > 類別是多載的詞彙。 有 c + + 類別、JAVA 類別、COM 類別和 ADSI 類別。 在本檔中，除非另有限定，否則 word 類別會參考架構物件的類別或類型。
 
- 
+ 
 
 ADSI 會摘要每個目錄服務的架構，並將它放在 **命名空間** 物件中的每個最上層根節點。 若要識別目錄服務在給定根節點上支援哪些類別，您可以列舉架構物件，並取得類別物件、屬性物件和語法物件的清單。 如需詳細資訊，請參閱 [使用 ADSI 架構](using-the-adsi-schema.md)。
 
@@ -47,6 +47,6 @@ ADSI 接著會嘗試處理架構資料並讀取 [**modifyTimeStamp**](/windows/d
 -   ADSI 無法處理架構。
 -   ADSI 無法將檔案寫入檔案系統。
 
- 
+ 
 
- 
+ 

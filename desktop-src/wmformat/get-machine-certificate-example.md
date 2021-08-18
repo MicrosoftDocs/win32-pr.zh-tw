@@ -3,10 +3,10 @@ title: 取得電腦憑證範例
 description: 取得電腦憑證範例
 ms.assetid: 4112e29e-7c86-4825-9798-dd1a81b82083
 keywords:
-- Windows Media Format SDK，電腦憑證
-- Windows Media Format SDK，憑證
-- Windows Media Format SDK，範例程式碼
-- Windows Media Format SDK，程式碼範例
+- Windows媒體格式 SDK，電腦憑證
+- Windows媒體格式 SDK，憑證
+- Windows媒體格式 SDK，範例程式碼
+- Windows媒體格式 SDK，程式碼範例
 - 數位版權管理 (DRM) ，電腦憑證
 - DRM (數位版權管理) ，電腦憑證
 - 數位版權管理 (DRM) ，憑證
@@ -26,12 +26,12 @@ keywords:
 - 憑證，程式碼範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e68a8ecbaf3e3c0ba8001a7a2094ab2b4a7e09a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 855479e90095f204a3ba7abafadcb4a31bbcaeaf7c592221ab0d5906cb1d8b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964007"
 ---
 # <a name="get-machine-certificate-example"></a>取得電腦憑證範例
 
@@ -78,9 +78,9 @@ EXIT:
 [**DRM 匯入範例**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

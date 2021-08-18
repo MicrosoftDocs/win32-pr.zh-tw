@@ -4,16 +4,16 @@ ms.assetid: D721167E-B04B-4B06-A9EE-56711A7A1942
 title: Internet Explorer 8 開發人員工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1a4314d5d0392b9bc4933b945f7da32040e1570
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5ba91fbd3277fc1aa26ed21617464bad52ae2e40d5a7119a0bf2079008f0fe8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994988"
 ---
 # <a name="internet-explorer-8-developer-tools"></a>Internet Explorer 8 開發人員工具
 
-Windows Internet Explorer 8 包含「開發人員工具」功能。 這項功能可讓您快速地進行 Microsoft JScript 的偵測、調查 Windows Internet Explorer 特定的行為，或迅速反覆運算以建立原型或測試新的設計解決方案。
+WindowsInternet Explorer 8 包含「開發人員工具」功能。 這項功能可讓您快速地將 Microsoft JScript、調查 Windows Internet Explorer 特定的行為，或迅速反覆運算以建立原型或測試新的設計解決方案。
 
 下列各節說明 Internet Explorer 8 的開發人員工具的重要特性。
 

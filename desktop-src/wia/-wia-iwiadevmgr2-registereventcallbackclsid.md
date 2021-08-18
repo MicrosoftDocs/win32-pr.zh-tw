@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 63e69d12d47f90ba40f5cc785d8b864c40158774
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9137fdd33f59eb841a54e84a6d12bb0b08968ac29c8737afbf56f66c57176c20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965646"
 ---
 # <a name="iwiadevmgr2registereventcallbackclsid-method"></a>IWiaDevMgr2：： RegisterEventCallbackCLSID 方法
 
@@ -78,18 +78,18 @@ HRESULT RegisterEventCallbackCLSID(
 *pEventGUID* \[在\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
 指定應用程式註冊的事件。 如需標準事件的清單，請參閱 [WIA 事件識別碼](-wia-wia-event-identifiers.md)。
 
 </dd> <dt>
 
-_pClsID * \[ in\]
+*pClsID* \[在\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
-應用程式類別識別碼的指標 (_ * CLSID * * ) 。 當事件發生時，WIA 2.0 執行時間系統會使用應用程式 **CLSID** 來啟動應用程式。
+應用程式類別識別碼的指標 (**CLSID**) 。 當事件發生時，WIA 2.0 執行時間系統會使用應用程式 **CLSID** 來啟動應用程式。
 
 </dd> <dt>
 
@@ -147,8 +147,8 @@ WIA 2.0 應用程式會使用這個方法來註冊，以接收硬體裝置事件
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl> |
 
 
