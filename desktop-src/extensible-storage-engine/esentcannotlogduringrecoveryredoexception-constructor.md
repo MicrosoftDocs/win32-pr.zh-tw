@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5086b66126411ce76e210b3dcb7f781249852fe8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 908e48ed7860c396ba760062cb4f5740e4229ceb5e255a528636dab36fce60dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118783078"
 ---
 # <a name="esentcannotlogduringrecoveryredoexception-constructor"></a>EsentCannotLogDuringRecoveryRedoException 函式
 

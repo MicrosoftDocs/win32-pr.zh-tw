@@ -4,18 +4,18 @@ description: 當您壓縮 JPEG 影像時，影像中的部分資訊會遺失。
 ms.assetid: d7342195-9634-4968-87c1-a94bc6a7e112
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25ea7011f25a97a228c44bdb87ba09ca8b284ddd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67152084f95220db3fe7afecfa4be07b366a92b31eb713ec192a2805ecb42ea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977288"
 ---
 # <a name="lossless-transform-of-a-jpeg-image"></a>JPEG 影像的不失真轉換
 
 當您壓縮 JPEG 影像時，影像中的部分資訊會遺失。 如果您開啟 JPEG 檔案、修改影像，並將它儲存到另一個 JPEG 檔案，品質將會降低。 如果您多次重複該程式，您會看到影像品質大幅降低。
 
-由於 JPEG 是 Web 上最受歡迎的影像格式之一，而且因為人們經常喜歡修改 JPEG 影像，所以 GDI + 提供下列轉換，可在 JPEG 影像上執行，而不會遺失資訊：
+由於 JPEG 是 Web 上最受歡迎的影像格式之一，而且因為人們經常喜歡修改 jpeg 影像，GDI+ 提供下列轉換，可在 JPEG 影像上執行，而不會遺失資訊：
 
 -   旋轉90度度
 -   旋轉180度度
@@ -28,7 +28,7 @@ ms.locfileid: "104972144"
 -   用來建立 [**影像**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) 物件的檔案是 JPEG 檔案。
 -   影像的寬度和高度為16的倍數。
 
-如果影像的寬度和高度不是16的倍數，則當您套用上述清單中所示的其中一個旋轉或翻轉轉換時，GDI + 會盡可能地保留影像品質。
+如果影像的寬度和高度不是16的倍數，當您套用上述清單中所示的其中一個旋轉或翻轉轉換時，GDI+ 將會盡可能地保留影像品質。
 
 若要轉換 JPEG 影像，請初始化 [**system.drawing.imaging.encoderparameters>**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-encoderparameters)物件，並將該物件的位址傳遞至 [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image)類別的 [Save](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-save(inistream_inconstclsid_inconstencoderparameters))方法。 將 **system.drawing.imaging.encoderparameters>** 物件初始化，使其具有由一個 [**EncoderParameter**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-encoderparameter) 物件組成的陣列。 將該 **EncoderParameter** 物件初始化，使其 **值** 成員指向包含下列其中一個 [**EncoderValue**](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-encodervalue)列舉元素的 **ULONG** 變數：
 

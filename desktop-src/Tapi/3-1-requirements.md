@@ -4,12 +4,12 @@ ms.assetid: cea73eed-9118-4330-83fe-44a5d357f0fe
 title: TAPI 3.1 需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f15bc849f67b6c3787fb0c22ec80fd15794e30e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da2cd3a22805990c49f2aefd3b7950dcb11083d53ef75409937d6794d9c6f5ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118872911"
 ---
 # <a name="tapi-31-requirements"></a>TAPI 3.1 需求
 

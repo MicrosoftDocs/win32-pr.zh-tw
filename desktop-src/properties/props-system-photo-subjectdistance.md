@@ -4,18 +4,18 @@ ms.assetid: 41d48485-9317-4eb2-ab3f-e0c5d3c690bc
 title: SubjectDistance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4286352fb357b5e97d4cb7ec0da078cda967646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a03c306fe1917126786ee8a4bc24a4794f13a49eda2299386b27d3428b223aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465841"
 ---
 # <a name="systemphotosubjectdistance"></a>SubjectDistance
 
 以量為單位的物件距離。 從 PKEY \_ photo \_ SUBJECTDISTANCENUMERATOR 和 PKEY \_ photo SubjectDistanceDenominator 計算 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

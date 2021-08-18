@@ -8,12 +8,12 @@ keywords:
 - 外觀、特製化屬性的參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cafb901aceab1ada6af93ce03dafda6dac04fbfa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 53a2dfd7f6a54b10b3997288b0b207713a4231caf96a0e7a9aaa7a6ab02f0959
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996188"
 ---
 # <a name="miscellaneous"></a>其他
 
@@ -31,7 +31,7 @@ ms.locfileid: "104021559"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -40,9 +40,9 @@ ms.locfileid: "104021559"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

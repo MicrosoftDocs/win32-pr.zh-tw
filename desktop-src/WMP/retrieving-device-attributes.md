@@ -6,20 +6,20 @@ keywords:
 - Windows Media Player，可攜式裝置
 - Windows Media Player 物件模型，可攜式裝置
 - 物件模型，可攜式裝置
-- Windows Media Player 的 ActiveX 控制項、可攜式裝置
-- ActiveX 控制項、可攜式裝置
-- Windows Media Player Mobile ActiveX 控制項、可攜式裝置
-- Windows Media Player Mobile、可攜式裝置
+- Windows Media Player ActiveX 控制、可攜式裝置
+- ActiveX 控制，可攜式裝置
+- Windows Media PlayerMobile ActiveX control、可攜式裝置
+- Windows Media Player行動裝置、可攜式裝置
 - 可攜式裝置，正在抓取屬性
 - 屬性，可攜式裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f486b94fe6a9a5c78f238d78a7f79dec9df3376
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d5e6ac2794782c728de16f23f88e26d1f458258959e1c3e9e7e490cdf7bf6971
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995528"
 ---
 # <a name="retrieving-device-attributes"></a>正在抓取裝置屬性
 
@@ -169,9 +169,9 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
 [**使用可攜式裝置**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

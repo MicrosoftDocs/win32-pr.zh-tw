@@ -4,17 +4,17 @@ ms.assetid: fa6239ea-0478-41f1-9515-d67a7fad11db
 title: SelectAndActivateButton 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 717af00becd5f00f55b166353246f92ea7dfd1bd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d141616356db5daf2ebcb19579b924f6d4cab956e03d876d0254666d55b5702b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951907"
 ---
 # <a name="selectandactivatebutton-method"></a>SelectAndActivateButton 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

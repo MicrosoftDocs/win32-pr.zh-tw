@@ -4,12 +4,12 @@ ms.assetid: c6558789-84eb-4998-a2c1-725d8a64d255
 title: 服務安全性附件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f47cdd0ca3799615125900a3ae6b0b78c26f4abc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f63641eb2057b805b9a442a580ca5cfc859a49c915f862c9ac378af57f78feb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118893512"
 ---
 # <a name="service-security-attachments"></a>服務安全性附件
 

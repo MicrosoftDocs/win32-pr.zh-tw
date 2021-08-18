@@ -1,19 +1,19 @@
 ---
-description: Windows 8 和 Windows Server 2012 包含下列服務的新功能。
+description: Windows 8 和 Windows Server 2012 包括下列服務的新功能。
 ms.assetid: 42BC7325-4FAC-493E-95AC-AEF660F499C0
 title: Windows 8 服務的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0087739c503a05875ba1a7eac5f77d33d8d1abac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc5b3b97bda816a2c8676d55d670deecea3222482776a01e8dccf314326a608a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888130"
 ---
 # <a name="whats-new-in-services-for-windows-8"></a>Windows 8 服務的新功能
 
-Windows 8 和 Windows Server 2012 包含下列服務的新功能。
+Windows 8 和 Windows Server 2012 包括下列服務的新功能。
 
 ## <a name="new-service-functions"></a>新的服務功能
 

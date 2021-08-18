@@ -4,12 +4,12 @@ ms.assetid: a490b748-42e8-462b-9a7f-a8b21438ea79
 title: 登錄函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc2cfadd3753b7a269667fee22955f8465495458
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a81f5aff4dad00691f606911c1cf092933aa121eaf7a2d25aacbcc8a83948b89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885211"
 ---
 # <a name="registry-functions"></a>登錄函數
 
@@ -47,7 +47,7 @@ ms.locfileid: "104193078"
 | [**RegOpenKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regopenkeyexa)                               | 開啟指定的登錄機碼。                                                                                                              |
 | [**RegOpenKeyTransacted**](/windows/desktop/api/Winreg/nf-winreg-regopenkeytransacteda)               | 開啟指定的登錄機碼，並將它與交易產生關聯。                                                                         |
 | [**RegOpenUserClassesRoot**](/windows/desktop/api/Winreg/nf-winreg-regopenuserclassesroot)           | 針對指定的使用者，抓取 **HKEY \_ 類別 \_ 根金鑰** 的控制碼。                                                                  |
-| [**RegOverridePredefKey**](/windows/desktop/api/Winreg/nf-winreg-regoverridepredefkey)               | 將預先定義的登錄機碼對應到指定的登錄機碼。                                                                                    |
+| [**RegOverridePredefKey**](/windows/desktop/api/Winreg/nf-winreg-regoverridepredefkey)               | 地圖預先定義的登錄機碼至指定的登錄機碼。                                                                                    |
 | [**RegQueryInfoKey**](/windows/desktop/api/Winreg/nf-winreg-regqueryinfokeya)                         | 抓取所指定登錄機碼的相關資訊。                                                                                        |
 | [**RegQueryMultipleValues**](/windows/desktop/api/Winreg/nf-winreg-regquerymultiplevaluesa)           | 抓取與開啟登錄機碼相關聯之值名稱清單的類型和資料。                                                    |
 | [**RegQueryReflectionKey**](/windows/desktop/api/WinReg/nf-winreg-regqueryreflectionkey)             | 判斷指定的索引鍵是否已停用或啟用反映。                                                              |
@@ -99,7 +99,7 @@ ms.locfileid: "104193078"
 -   [**SHRegWriteUSValue**](/windows/desktop/api/shlwapi/nf-shlwapi-shregwriteusvaluea)
 -   [**SHSetValue**](/windows/desktop/api/shlwapi/nf-shlwapi-shsetvaluea)
 
-以下是初始化檔功能。 他們會從取得資訊，並將資訊複製到系統或應用程式定義的初始化檔案。 這些函式僅提供給 Windows 的16位版本的相容性。 新的應用程式應該使用登錄。
+以下是初始化檔功能。 他們會從取得資訊，並將資訊複製到系統或應用程式定義的初始化檔案。 這些函式僅提供給 Windows 的16位版本相容。 新的應用程式應該使用登錄。
 
 
 
@@ -125,7 +125,7 @@ ms.locfileid: "104193078"
 
 ## <a name="obsolete-functions"></a>過時的函式
 
-這些函式只是為了與16位版本的 Windows 相容：
+這些函式僅提供給 Windows 16 位版本的相容性：
 
 -   [**RegCreateKey**](/windows/desktop/api/Winreg/nf-winreg-regcreatekeya)
 -   [**RegEnumKey**](/windows/desktop/api/Winreg/nf-winreg-regenumkeya)

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: d1b2348a90b6b3cd01685c740fdfa67ad5a2d81d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 777c68bab142fc0f27d9200d2aea1ff0c45c47181d951600dcc96bb0e623b6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892355"
 ---
 # <a name="getkeypackage-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 GetKeyPackage 方法 \_
 
@@ -31,7 +31,7 @@ ms.locfileid: "106979970"
 
  
 
-當磁片磁碟機失敗時，BitLocker 修復工具有助回收可用的資料。 如需此工具如何使用金鑰封裝的詳細資訊，請參閱 [如何使用 BitLocker 修復工具協助從 Windows Vista 中的加密磁片區復原資料](https://support.microsoft.com/kb/928201)。
+當磁片磁碟機失敗時，BitLocker 修復工具有助回收可用的資料。 如需這項工具如何使用金鑰套件的詳細資訊，請參閱[如何使用 BitLocker 修復工具協助從 Windows Vista 中的加密磁片區復原資料](https://support.microsoft.com/kb/928201)。
 
 ## <a name="syntax"></a>語法
 
@@ -97,8 +97,8 @@ uint32 GetKeyPackage(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise，僅 Windows vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

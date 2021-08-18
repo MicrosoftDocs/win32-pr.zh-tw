@@ -4,12 +4,12 @@ ms.assetid: d0d46041-5608-4abf-b833-7aae1744ef60
 title: Sample.mc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b34c87fad27b08671de57d7e329073df5a48579
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9244ce043f8c3696efd46866dd7f29246d13553a5bc9a4ec05281fd56dbc60d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889196"
 ---
 # <a name="samplemc"></a>Sample.mc
 

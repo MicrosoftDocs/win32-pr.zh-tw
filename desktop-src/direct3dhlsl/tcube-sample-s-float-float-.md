@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2ce841eb68e426fc76032d45353f2b439f0f3e4b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 08613bb9b9465f1908828025316018d1747b1b0f7805478ce535457e45a2be18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788170"
 ---
 # <a name="texturecubesamplesfloatfloat-function"></a>TextureCube：： Sample (S，float，float) 函數
 

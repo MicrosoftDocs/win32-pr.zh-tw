@@ -4,12 +4,12 @@ ms.assetid: 5401b381-3599-465a-b41b-e63b7372fc0e
 title: '儲存至 X 檔案 (舊版)  (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 467f824c8e3ab9cd360a93d3f69fd1a2352548ae
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 03070b25c8839ddd17ab698a4f017822004d027d978b5c4ce589491f2e8fb8f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797780"
 ---
 # <a name="saving-to-an-x-file-legacy-direct3d-9"></a>儲存至 X 檔案 (舊版)  (Direct3D 9) 
 

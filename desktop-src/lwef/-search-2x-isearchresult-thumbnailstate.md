@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 73d9220753081a6016f60eaad35ea6e116aed958
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6164445de7cd88f37877154e0f0c03845dfe3904e5af117ecd521c82907cbf4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104196006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481082"
 ---
 # <a name="isearchresultthumbnailstate-method"></a>ISearchResult：： ThumbnailState 方法
 

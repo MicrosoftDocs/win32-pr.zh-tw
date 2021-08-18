@@ -187,7 +187,7 @@ NAP 系統會使用這些屬性類型：
 | 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>NapProtocol。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapProtocol .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapProtocol .idl</dt> </dl> |
 
 
 

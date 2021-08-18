@@ -4,12 +4,12 @@ ms.assetid: 584ec98a-b60f-426d-befe-fafcea983f42
 title: SafeRemovalRequired
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce6e357edc5f4230be4290019e78853d115f4001
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96f1a81ea9986d4dbced74a9a3c9323f5b39eef3152b823d1e1d218b31b64a39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097187"
 ---
 # <a name="systemdevicessaferemovalrequired"></a>SafeRemovalRequired
 

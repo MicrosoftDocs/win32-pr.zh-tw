@@ -1,6 +1,6 @@
 ---
 title: Install 元素
-description: 請注意，本節將說明針對線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。 Install 元素會指定 Windows Media Player 用來安裝線上商店的值。
+description: 請注意，本節將說明針對線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。 install 元素會指定 Windows Media Player 用來安裝線上商店的值。
 ms.assetid: 9a5e15ee-ec36-48d3-a1c2-bf20b6d2da48
 keywords:
 - Install 元素 Windows Media Player
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bba56240651f789b45c18b006b16e5e07b10676e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 05a946cbab6a6334faa7483c0f3201a98ff0abe32dca32fe1f4f7eed5d0a2408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996518"
 ---
 # <a name="install-element"></a>Install 元素
 
@@ -27,7 +27,7 @@ ms.locfileid: "106981102"
 
  
 
-**Install** 元素會指定 Windows Media Player 用來安裝線上商店的值。
+**install** 元素會指定 Windows Media Player 用來安裝線上商店的值。
 
 ``` syntax
 <Install
@@ -47,14 +47,14 @@ ms.locfileid: "106981102"
 <span id="EULAURL__required_"></span><span id="eulaurl__required_"></span><span id="EULAURL__REQUIRED_"></span>**EULAURL** (必要) 
 </dt> <dd>
 
-副檔名為 .txt 之檔案的完整 URL，Windows Media Player 用來顯示使用者授權合約 (EULA) 。 這個檔案必須以 ANSI 格式編碼。
+具有 .txt 副檔名之檔案的完整 URL，Windows Media Player 用來顯示 (EULA) 的使用者授權合約。 這個檔案必須以 ANSI 格式編碼。
 
 </dd> <dt>
 
 <span id="CodeURL__required_"></span><span id="codeurl__required_"></span><span id="CODEURL__REQUIRED_"></span>**CodeURL** (必要) 
 </dt> <dd>
 
-封裝的完整 URL （副檔名為 .cab），可用來安裝線上存放區。 封裝和封裝中的所有程式碼模組都必須經過簽署。 如需程式碼簽署的詳細資訊，請參閱 MSDN Library 中的程式 [代碼簽署簡介](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)) 。
+封裝（副檔名為 .cab）的完整 URL，可用來安裝線上商店。 封裝和封裝中的所有程式碼模組都必須經過簽署。 如需程式碼簽署的詳細資訊，請參閱 MSDN Library 中的程式 [代碼簽署簡介](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)) 。
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ ms.locfileid: "106981102"
 
 ## <a name="remarks"></a>備註
 
-如果任何必要的屬性遺失或無法使用，Windows Media Player 安裝程式將不會嘗試下載並安裝線上商店提供者程式碼。 安裝程式將會設定 **ServiceInfo** 檔中所指定的離線預設值。 **ServiceInfo** 可在未連線至網際網路的情況下使用，方法是將預設提供者名稱和 **ServiceInfo** 資訊當做命令列參數傳遞。 如需命令列選項的詳細資訊，請參閱轉散發 [Windows Media Player 軟體](redistributing-windows-media-player-software.md) 。
+如果任何必要的屬性遺失或無法使用，Windows Media Player 安裝程式將不會嘗試下載並安裝線上商店提供者程式碼。 安裝程式將會設定 **ServiceInfo** 檔中所指定的離線預設值。 **ServiceInfo** 可在未連線至網際網路的情況下使用，方法是將預設提供者名稱和 **ServiceInfo** 資訊當做命令列參數傳遞。 如需命令列選項的詳細資訊，請參閱轉散發[Windows Media Player 軟體](redistributing-windows-media-player-software.md)。
 
 > [!Note]  
 > 使用此專案時，您需要簽署與 Microsoft 的轉散發合約。 如需詳細資料，請洽詢您的業務代表。

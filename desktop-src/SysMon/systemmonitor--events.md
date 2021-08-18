@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 94247cf81fcaf57f373c731cd4eaf06a3ca897ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3584eed86abcaef019f0fc8f8bd794a80abca1143286317189889231bbc2cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882944"
 ---
 # <a name="systemmonitor-events"></a>SystemMonitor 事件
 
@@ -29,11 +29,11 @@ ms.locfileid: "106968206"
 > [!Note]  
 > [**更新間隔**](systemmonitor-updateinterval.md)到期之前，您必須從事件處理常式傳回：否則，SYSMON 會顯示訊息方塊，指出使用者無法針對先前的更新間隔進行計數器值的取樣。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

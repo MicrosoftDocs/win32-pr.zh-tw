@@ -4,12 +4,12 @@ ms.assetid: 3918ba49-1549-4f0c-b9fd-303ef46b810e
 title: 裝置管理函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 587778b489b16355046b0b5af5cbba31c1a39639
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a648fb5141d9efa977e573e3b0abb32fe6c504f11647a2dc392e9838da63ca6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956897"
 ---
 # <a name="device-management-functions"></a>裝置管理函式
 

@@ -76,7 +76,7 @@ HRESULT CompareSoHRequests(
 
 
 
-| 傳回碼                                                                               | Description                                           |
+| 傳回碼                                                                               | 描述                                           |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | 表示成功。<br/>                         |
 | <dl> <dt>**E \_ >NOTIMPL**</dt> </dl> | 方法不是由 SHA 所執行。<br/> |
@@ -104,7 +104,7 @@ SHA 應比較 Soh，如果 Soh 是語義相等，則傳回 **TRUE** 。 NapAgent
 | 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
 | 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapSystemHealthAgent。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
 
 
 

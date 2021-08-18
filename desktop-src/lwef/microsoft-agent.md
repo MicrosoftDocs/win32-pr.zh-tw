@@ -7,16 +7,16 @@ keywords:
 - Microsoft 代理程式，起始頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d573a6ffee437e5d9dfe6e3efceab812e351eb98
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: db19f5f4bd9d9dfc45c0455ce5a04f8feb1b0c9a2ac1dd2e8bdc86fd945382aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747824"
 ---
 # <a name="microsoft-agent"></a>Microsoft 代理程式
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。 如需詳細資訊，請參閱 [windows 7 和 Windows Server 2008 R2 應用程式品質操作手冊](../win7appqual/windows-7-application-quality-cookbook.md)。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。 如需詳細資訊，請參閱[Windows 7 和 Windows Server 2008 R2 應用程式品質操作手冊](../win7appqual/windows-7-application-quality-cookbook.md)。\]
 
 ## <a name="purpose"></a>目的
 
@@ -37,15 +37,15 @@ Microsoft Agent 是一種技術，可為人們與電腦通訊的方式提供更�
 
 ## <a name="developer-audience"></a>開發人員對象
 
-Microsoft Agent 的設計主要是針對使用支援 COM 或 Microsoft ActiveX 控制項介面的語言或環境的開發人員。 這些包括：
+Microsoft Agent 主要是針對使用支援 COM 或 Microsoft ActiveX 控制介面的語言或環境的開發人員所設計。 其中包含：
 
 -   Microsoft Visual Studio (Visual C++，Visual Basic) 
 
 -   Microsoft Office (Visual Basic for Applications) 
 
--   Microsoft Internet Explorer (Visual Basic Scripting Edition 或 Microsoft JScript) 
+-   microsoft Internet Explorer (Visual Basic 腳本版本或 microsoft JScript) 
 
--   Microsoft Windows Script Host (ActiveX 指令碼語言) 
+-   Microsoft Windows 腳本主機 (ActiveX 指令碼語言) 
 
 -   支援 COM 或 ActiveX 控制項介面的其他應用程式和環境。
 

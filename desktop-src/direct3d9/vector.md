@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\vector.htm
 title: 'Vector (Frquery .h) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 845a2cc786f8eab6c9511088ebd77fe441b5f639
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 43a5e08fb3b4c36a426031e206ece84f81c0f174d42658d0c1718d207b1b890e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797031"
 ---
 # <a name="vector"></a>向量
 

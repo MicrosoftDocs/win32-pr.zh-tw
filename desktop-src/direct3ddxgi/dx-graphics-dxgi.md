@@ -4,12 +4,12 @@ ms.assetid: 9565e874-5a8d-4b4b-a2a4-391e46922cc1
 title: DXGI
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1e100d068d12f651c2602b29af75181607a038
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: fe67f0938ee68445174b6f75ddfc2bb86e7c1bdb618c5d8daa2158bae2946bf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796612"
 ---
 # <a name="dxgi"></a>DXGI
 
@@ -25,7 +25,7 @@ Direct3D 10、Direct3D 11 和 Direct3D 12 都會使用 DXGI。
 
 | 需求                                  | 值                                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------------------|
-| 支援的執行時間環境    | <dl> <dt>Windows/c + +</dt> </dl>         |
+| 支援的執行時間環境    | <dl> <dt>Windows/C + +</dt> </dl>         |
 | 建議的程式設計語言 | C/C++                                                                                          |
 | 最低支援用戶端          | <dl> <dt>Windows Vista</dt> </dl>       |
 | 最低支援伺服器          | <dl> <dt>Windows Server 2008</dt> </dl> |

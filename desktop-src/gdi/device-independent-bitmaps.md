@@ -4,12 +4,12 @@ ms.assetid: 56b39a3d-48a4-4620-9652-ec41ea4d6423
 title: Device-Independent 點陣圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aa35201a9a27c2d16a5a18b0125d25a3938890c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a6672857aadda714e7016616ca78654d7da102b48c1229c5b322953fc716f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761387"
 ---
 # <a name="device-independent-bitmaps"></a>Device-Independent 點陣圖
 
@@ -42,7 +42,7 @@ Dib 有兩種：
 
 此調色板是以 [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) 結構的陣列來表示，以針對顯示裝置的色彩選擇區中的每個色彩指定紅色、綠色和藍色強度的元件。 選擇區陣列中的每個色彩索引都會對應到與點陣圖相關聯之矩形區域中的特定圖元。 這個陣列的大小（以位為單位）相當於矩形的寬度（以圖元為單位），乘以矩形的高度（以圖元為單位）乘以裝置的色彩位元數目。 應用程式可以藉由呼叫 [**GetDeviceCaps**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) 函式，並將 NUMCOLORS 指定為第二個引數，來取得裝置的調色板大小。
 
-Windows 支援壓縮適用于 8 bpp 和 4 bpp 底部 Dib 的調色板陣列。 您可以使用執行長度編碼 (RLE) 配置來壓縮這些陣列。 RLE 配置使用2個位元組的值，第一個位元組指定使用色彩索引的連續圖元數，以及指定索引的第二個位元組。 如需點陣圖壓縮的詳細資訊，請參閱 [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85))、 [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader)、 [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)和 [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) 結構的描述。
+Windows 支援壓縮適用于 8 bpp 和 4 bpp 底部 dib 的調色板陣列。 您可以使用執行長度編碼 (RLE) 配置來壓縮這些陣列。 RLE 配置使用2個位元組的值，第一個位元組指定使用色彩索引的連續圖元數，以及指定索引的第二個位元組。 如需點陣圖壓縮的詳細資訊，請參閱 [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85))、 [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader)、 [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)和 [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) 結構的描述。
 
 應用程式可以藉由初始化所需的結構和呼叫 [**GetDIBits**](/windows/desktop/api/Wingdi/nf-wingdi-getdibits) 函式，從 DDB 建立 DIB。 若要判斷裝置是否支援此函式，請呼叫 [**GetDeviceCaps**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) 函式， \_ \_ 並將 RC DI 點陣圖指定為 RASTERCAPS 旗標。
 

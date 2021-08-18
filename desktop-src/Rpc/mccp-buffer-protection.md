@@ -1,19 +1,19 @@
 ---
 title: MCCP 緩衝區保護
-description: 從 Windows Vista 開始，RPC 封送處理引擎會採取進一步的步驟來嘗試防止用戶端緩衝區溢位，因為傳回的資料。 這項功能稱為「迷你計算一致性保護」 (MCCP) 。
+description: 從 Windows Vista 開始，RPC 封送處理引擎會採取進一步的步驟來嘗試防止用戶端緩衝區溢位（因為傳回的資料）。 這項功能稱為「迷你計算一致性保護」 (MCCP) 。
 ms.assetid: 37fe743b-c64e-469d-b8f4-abab9f05c813
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a70d04de57974bd9665d659129590d72513eb83e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c6b95234eed76c3d8f0fdc34b0b53e9cf02bcae2fd6db62694e1a3aadd602076
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928404"
 ---
 # <a name="mccp-buffer-protection"></a>MCCP 緩衝區保護
 
-從 Windows Vista 開始，RPC 封送處理引擎會採取進一步的步驟來嘗試防止用戶端緩衝區溢位，因為傳回的資料。 這項功能稱為「迷你計算一致性保護」 (MCCP) 。
+從 Windows Vista 開始，RPC 封送處理引擎會採取進一步的步驟來嘗試防止用戶端緩衝區溢位（因為傳回的資料）。 這項功能稱為「迷你計算一致性保護」 (MCCP) 。
 
 當用戶端將現有緩衝區的指標傳遞至 \[ [**out**](/windows/desktop/Midl/out-idl) \] 或 \[ [**in**](/windows/desktop/Midl/in)、**out** \] 參數時，會將該參數傳回的資料複製到現有的緩衝區。 如果傳回的資料大於傳遞的緩衝區，當 RPC 將傳回的資料複製到太小的緩衝區時，就會發生緩衝區溢位。 請參閱 [最上層和內嵌指標](top-level-and-embedded-pointers.md)。
 
@@ -29,6 +29,6 @@ HRESULT PassString( [in] DWORD Length, [in, unique, string, size_is( Length )]LP
 
 如果 *MyString* 為 **Null**，RPC 將會拒絕呼叫，除非 *Length* 設定為0。 請注意，當 *MyString* 為非 **Null** 時，rpc 將允許 *長度* 為0，而 rpc 會將 *MyString* 視為0長度的緩衝區配置。
 
- 
+ 
 
- 
+ 

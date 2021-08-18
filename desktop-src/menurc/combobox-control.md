@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 311cb45282b949a166add8d3aececc0698803fe5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bd2ffaa64266d9b370cca5215725eb45d0f620054c66562e3f60492441e38890
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972117"
 ---
 # <a name="combobox-control"></a>COMBOBOX 控制項
 
@@ -57,6 +57,6 @@ COMBOBOX 777, 10, 10, 50, 54, CBS_SIMPLE | WS_VSCROLL | WS_TABSTOP
 [下拉式方塊](../controls/about-combo-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

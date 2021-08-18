@@ -3,7 +3,7 @@ title: 'LM_HITTEST 訊息 (Commctrl .h) '
 description: 判斷使用者是否按一下指定的連結。
 ms.assetid: a84c0388-26e7-4eda-9c6c-c5f64142d67a
 keywords:
-- LM_HITTEST message Windows 控制項
+- LM_HITTEST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c497800369203ac8ea7484371e1038ba15d6cc68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 559ea1500c7270ece1785391777133bdaaeb1e95e5b01fa5ca7d4bb76e40f1d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958370"
 ---
 # <a name="lm_hittest-message"></a>LM \_ system.windows.media.visualtreehelper.hittest 訊息
 
@@ -54,8 +54,8 @@ ms.locfileid: "103843100"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

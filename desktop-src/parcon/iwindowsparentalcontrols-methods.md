@@ -4,12 +4,12 @@ ms.assetid: 6AFACEAF-FEAF-49CB-BAD9-5DFDD81E0FFE
 title: IWindowsParentalControls 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f3d4985fc7e15179b560fb6d8529fbe0566b2af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c20bcc7f5dc7386b88d3ad319b8b371eaa6a1ec1b4b4ea914b459774e9b05bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971747"
 ---
 # <a name="iwindowsparentalcontrols-methods"></a>IWindowsParentalControls 方法
 

@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\material.htm
 title: Material
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54c13d201152350a8a61950bb609f73cbdb2a3aa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 53d4dcb1cef7597ff7c02d16f1db311287511166c9259c89a0ea60a0c49fb7bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118798965"
 ---
 # <a name="material"></a>Material
 

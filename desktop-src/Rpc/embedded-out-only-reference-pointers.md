@@ -4,12 +4,12 @@ description: 內嵌的 Out-Only 參考指標
 ms.assetid: b0fcba9e-b285-4d29-9ffc-c8d6d7818824
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4072e9aa3cc3f0f673e4bb737016bc035a3ac496
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d36fc6229c0b155e3fa9a7f66e6cd1fbd742d7ec876264a8706ce81c4150d6ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930516"
 ---
 # <a name="embedded-out-only-reference-pointers"></a>內嵌的 Out-Only 參考指標
 
@@ -43,6 +43,6 @@ Proc2([out, ref] STRUCT_TOP_TYPE * psTop);
 
 在上述範例中，伺服器 stub 會配置指標 *psTop* 和結構結構的 **\_ 最上層 \_ 類型**。 **結構 \_ TOP \_ 類型** 中的參考指標 *ps1* 設定為 null。 伺服器 stub 不會配置資料結構的每個層級，也不會配置 **STRUCT1 \_ 類型** 或其內嵌指標 *psValue*。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 9e80783e-9641-4cbd-9c28-a8efe6b9efaa
 title: 管道函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2413157ca76af56b5344327e1d3a9e93f86253f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af0ef895fe8b987f19f025b6a21ef4c3a5dc3cb24db5458595c25708066e8a78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481602"
 ---
 # <a name="pipe-functions"></a>管道函數
 

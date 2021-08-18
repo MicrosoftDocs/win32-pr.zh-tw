@@ -1,19 +1,19 @@
 ---
-description: 適用于 Windows 7 及更早版本的使用者互動功能。
+description: Windows 7 及更早版本的使用者互動功能。
 ms.assetid: B1CA76FB-7BB6-4886-8BD6-EECCC2D06529
 title: 舊版使用者互動功能
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98de2b23fc647ebfd6b385db496617a5aef76473
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0adeb52668ac332bf51f37eb0983cb7e5e401675c6d3f884cd20f4d2eeef6276
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118755653"
 ---
 # <a name="legacy-user-interaction-features"></a>舊版使用者互動功能
 
-適用于 Windows 7 及更早版本的使用者互動功能。
+Windows 7 及更早版本的使用者互動功能。
 
 ## <a name="in-this-section"></a>本節內容
 

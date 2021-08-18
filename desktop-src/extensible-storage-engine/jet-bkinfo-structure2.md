@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8c3b0d3178abaa90fe507c06a2a997472492643c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e7e309704bce5ba0d4cba82494205cb92a0d904ef258a335d4858e337bcd884
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118767355"
 ---
 # <a name="jet_bkinfo-structure"></a>JET_BKINFO 結構
 

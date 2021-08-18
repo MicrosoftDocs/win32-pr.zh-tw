@@ -6,12 +6,12 @@ keywords:
 - 設定應用程式特定超時 HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aca1cbcdb0b0796820282673c41507f6bfcc0ebd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 722d44c1377a3bee22a88fe92f0f5aed272c08f0b0a6645361c4e03816f408fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950877"
 ---
 # <a name="configuring-the-application-specific-timeouts"></a>設定應用程式特定的超時
 

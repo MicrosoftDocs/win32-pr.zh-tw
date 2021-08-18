@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101242
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3a5306a667b35a97f782a4a4ce7490a3addd7eaf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71e47eb40f9256f2671a3362ad8bc6fe0991e66ad0cbd234b5e1828b609b13ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118783834"
 ---
 # <a name="esentcannotaddfixedvarcolumntoderivedtableexception-properties"></a>EsentCannotAddFixedVarColumnToDerivedTableException 屬性
 

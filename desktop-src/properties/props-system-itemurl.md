@@ -4,18 +4,18 @@ ms.assetid: d592f12b-f8c2-406f-a031-eeb8212e64f7
 title: System. ItemUrl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d02beb9629661a052d2ec1fae7c7a34e999e777e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79fe179849c7991a65db5412543815d78ac8dc21682511e27d6251253b3b1366
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970367"
 ---
 # <a name="systemitemurl"></a>System. ItemUrl
 
 表示指向專案的格式正確 URL。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

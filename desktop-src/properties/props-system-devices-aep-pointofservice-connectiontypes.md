@@ -4,12 +4,12 @@ ms.assetid: 3cc019b8-3dbe-4a06-8c21-f04a7ee33370
 title: Aep. PointOfService. ConnectionTypes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f6fdc53f0a9bf09ba7ac7111d2f2fc6c5e16a2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45401be36efa9f766b7f8ffd8871511490bac8a1581805c0ed611e6e1712498f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097929"
 ---
 # <a name="systemdevicesaeppointofserviceconnectiontypes"></a>Aep. PointOfService. ConnectionTypes
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101293
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b55c538b08c9e0f9736947b9c99d36c85687e9fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bfbb740e4096eafb5556adc4bed5679919364defc4b04324f8d0ece1c55ef78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118782455"
 ---
 # <a name="esentcolumnnotfoundexception-properties"></a>EsentColumnNotFoundException 屬性
 

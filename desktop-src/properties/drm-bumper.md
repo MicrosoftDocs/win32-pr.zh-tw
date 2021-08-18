@@ -4,12 +4,12 @@ ms.assetid: c131cf72-8b01-4430-94d2-13b7f2a32aff
 title: DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d88b8755ee1d77cce75b3e33a20f56b75505fbd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c699043eba9790abf1313205ceec2db164739995c68395325875bc23f7657d3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971037"
 ---
 # <a name="drm"></a>DRM
 

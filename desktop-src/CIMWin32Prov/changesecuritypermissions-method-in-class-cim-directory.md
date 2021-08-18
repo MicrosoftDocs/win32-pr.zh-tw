@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 389ed5b7b0a43981c5eeb3d66a73bd19cbd99d88
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 469af646e4e2700737afc8f81d4b41bb548499bef5985892aebf8564317c563f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959117"
 ---
 # <a name="changesecuritypermissions-method-of-the-cim_directory-class"></a>CIM 目錄類別的 ChangeSecurityPermissions 方法 \_
 
@@ -182,7 +182,7 @@ uint32 ChangeSecurityPermissions(
 
 12
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

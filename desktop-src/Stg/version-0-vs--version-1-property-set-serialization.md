@@ -4,12 +4,12 @@ description: 屬性集序列化格式有兩個版本。
 ms.assetid: 10544118-5e80-47e2-b75b-c1a43be15b2e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52d8dfc1c51a6d33d6eb6f9c22b513a9a5397c87
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: 9412fd2a83ab7c71b97888d4ae7911a96fdc4cfe5a9ebbceb5d985b3a5e2b418
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886473"
 ---
 # <a name="property-set-serialization"></a>屬性集序列化
 

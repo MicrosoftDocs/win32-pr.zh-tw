@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6240511fd95e91a7f22477f631178dfab528f1e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6944c8ee1d4ce7fd382c0c63be1af459ec79ed7bbc0832dd8ed2ce1351cc3b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118873628"
 ---
 # <a name="ts_lf_-constants"></a>TS \_ LF \_ \* 常數
 
@@ -45,7 +45,7 @@ TS \_ LF \_ \* 常數會指定檔鎖定的類型。
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                    |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                         |
 | 標頭<br/>                   | <dl> <dt>Textstor。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Textstor .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Textstor .idl</dt> </dl> |
 
 
 

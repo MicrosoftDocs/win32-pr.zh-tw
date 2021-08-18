@@ -4,12 +4,12 @@ ms.assetid: c1570669-6e9c-4614-af4d-2a148f12e36f
 title: ASF 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ccf09542c8b96cc262cbe029111d3cb74e5b53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: babbb8697126ae6882c11526ed9e6cb31e2233b81685c820d200fbd21bab08c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975027"
 ---
 # <a name="asf-attributes"></a>ASF 屬性
 
@@ -36,8 +36,8 @@ ms.locfileid: "106973597"
 
 | 屬性                                                                              | 描述                                                                   |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [**MF \_ ASFSTREAMCONFIG \_ LEAKYBUCKET1**](mf-asfstreamconfig-leakybucket1-attribute.md) | 設定用來編碼 Windows Media 檔案的平均 "有漏洞 bucket" 參數。 |
-| [**MF \_ ASFSTREAMCONFIG \_ LEAKYBUCKET2**](mf-asfstreamconfig-leakybucket2-attribute.md) | 設定用來編碼 Windows Media 檔案的尖峰 "有漏洞 bucket" 參數。    |
+| [**MF \_ ASFSTREAMCONFIG \_ LEAKYBUCKET1**](mf-asfstreamconfig-leakybucket1-attribute.md) | 設定用來編碼 Windows 媒體檔案的平均 "有漏洞 bucket" 參數。 |
+| [**MF \_ ASFSTREAMCONFIG \_ LEAKYBUCKET2**](mf-asfstreamconfig-leakybucket2-attribute.md) | 設定用來編碼 Windows 媒體檔案的尖峰 "有漏洞 bucket" 參數。    |
 
 
 
