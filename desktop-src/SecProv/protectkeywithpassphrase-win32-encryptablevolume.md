@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 2a7772b1b65890fedbdbb8dcced1ad851f3845b3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c0d87eb21ea505b13ce3aacfe8be6ff1fa9d266ba2a781d6b8e6fc4d77dac10b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004356"
 ---
 # <a name="protectkeywithpassphrase-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 ProtectKeyWithPassphrase 方法 \_
 
@@ -78,10 +78,10 @@ uint32 ProtectKeyWithPassphrase(
 
 
 
-| 傳回碼/值                                                                                                                                                                                        | Description                                                                                                              |
+| 傳回碼/值                                                                                                                                                                                        | 描述                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl>                                                        | 此方法成功。<br/>                                                                                    |
-| <dl> <dt>**FVE \_E \_ 不 \_ 允許 \_ 在 \_ 安全 \_ 模式2150694976中**</dt> <dt> (0x80310040)</dt> </dl>         | 在安全模式中使用 BitLocker 磁碟機加密只能用於復原用途。<br/>                     |
+| <dl> <dt>**FVE \_E \_ 不 \_ 允許 \_ 在 \_ 安全 \_ 模式2150694976中**</dt> <dt> (0x80310040)</dt> </dl>         | BitLocker 磁碟機加密在保管庫模式下使用時，只能用於復原用途。<br/>                     |
 | <dl> <dt>**FVE \_E \_ 原則複雜 \_ 密碼 \_ 不 \_ 允許**</dt> <dt>2150695018 (0x8031006A)</dt> </dl>     | 群組原則不允許建立複雜密碼。<br/>                                                    |
 | <dl> <dt>**FVE \_E \_ FIPS \_ 可防止複雜 \_ 密碼**</dt> <dt>2150695020 (0x8031006C)</dt> </dl>           | 需要 FIPS 合規性的群組原則設定導致無法產生或使用複雜密碼。<br/> |
 | <dl> <dt>**FVE \_E \_ 原則 \_ 不正確複雜 \_ 密碼 \_ 長度**</dt> <dt>2150695040 (0x80310080)</dt> </dl>  | 提供的複雜密碼不符合最小或最大長度需求。<br/>                             |
@@ -102,8 +102,8 @@ uint32 ProtectKeyWithPassphrase(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7 企業版，僅限 Windows 7 旗艦版傳統型 \[ 應用程式\]<br/>                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 7 企業版， \[ 僅 Windows 7 旗艦版桌面應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

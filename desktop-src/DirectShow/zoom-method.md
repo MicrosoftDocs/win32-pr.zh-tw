@@ -4,17 +4,17 @@ ms.assetid: 050f1264-8fbe-4322-970c-184275d5b219
 title: Zoom 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2625e6c4facf006a0d904e49068853720e20c29e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb0c260e5a5404b65f4e0d0595a87ee78103c5acccedd32abf50fc5706c6b42f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632697"
 ---
 # <a name="zoom-method"></a>Zoom 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

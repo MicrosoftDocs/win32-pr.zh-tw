@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c58da1663abc5295e8ce17c500bd46d6c365a2d2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 864362d016190abc4168bdfa66714be371b7811d29b281612e6ba7dc3e0f4889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749818"
 ---
 # <a name="d3dxsavetexturetofileinmemory-function"></a>D3DXSaveTextureToFileInMemory 函式
 

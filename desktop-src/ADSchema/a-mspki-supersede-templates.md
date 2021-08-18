@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd11ac2b96846912b0c6b1e8d01c6fd558f5f6db
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 12fbda25794dfe75e7f75fce4c2796cabca00e26697f7321f9edec46276e874a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803058"
 ---
 # <a name="ms-pki-supersede-templates-attribute"></a>ms-PKI-取代範本屬性
 

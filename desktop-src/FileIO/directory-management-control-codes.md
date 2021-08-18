@@ -4,12 +4,12 @@ ms.assetid: e2e671c7-ef65-4401-8016-649e86f84fec
 title: 目錄管理控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef0463860e3c899178ec5b8f9d44bd05cf4278e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1354d1a4ce72f2867ece1f15218d9c7cb3f364a12ea3eb0d3b16f66b0954e89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755188"
 ---
 # <a name="directory-management-control-codes"></a>目錄管理控制碼
 
@@ -32,7 +32,7 @@ ms.locfileid: "103851579"
 
 
 
-| 控制程式代碼                                                                   | Description                                                                                                           |
+| 控制程式代碼                                                                   | 描述                                                                                                           |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [**FSCTL \_ 刪除重新 \_ 分析 \_ 點**](/windows/win32/api/winioctl/ni-winioctl-fsctl_delete_reparse_point)<br/> | 從指定的檔案或目錄中刪除重新分析點。<br/>                                              |
 | [**FSCTL \_ 取得重新 \_ 剖析 \_ 點**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_reparse_point)<br/>       | 抓取與指定之控制碼所識別之檔案或目錄相關聯的重新分析點資料。<br/> |

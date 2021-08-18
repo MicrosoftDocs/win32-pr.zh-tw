@@ -1,20 +1,20 @@
 ---
-title: Windows 動畫詞彙
+title: Windows動畫詞彙
 description: 本詞彙包含使用 Windows 動畫管理員之開發人員感興趣的詞彙和縮寫。
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 66e9cfb4-b9ae-4c21-9b1f-532c7d750903
 keywords:
-- Windows 動畫 Windows 動畫，詞彙
+- Windows動畫 Windows 動畫、詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36b7f276b0f20efc35057a9ee7c006c3cf170ac3
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: 9bb477edcaa49aa8baff1bc628ca5d94c13dacc0e552137275ff1e92d8e4cfae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104507761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137391"
 ---
-# <a name="windows-animation-glossary"></a>Windows 動畫詞彙
+# <a name="windows-animation-glossary"></a>Windows動畫詞彙
 
 本詞彙包含使用 Windows 動畫管理員之開發人員感興趣的詞彙和縮寫。
 
@@ -30,7 +30,7 @@ ms.locfileid: "104507761"
 <span id="uianimation.term.animation_manager"></span><span id="UIANIMATION.TERM.ANIMATION_MANAGER"></span>**動畫管理員** 
 </dt> <dd>
 
-Windows 動畫的核心元件和中央程式設計介面，可用於管理 (建立、排程及控制) 的動畫。
+Windows 動畫的核心元件和集中式程式設計介面，可用於管理 (建立、排程和控制) 動畫。
 
 </dd> <dt>
 
@@ -160,9 +160,9 @@ Windows 動畫的核心元件和中央程式設計介面，可用於管理 (建�
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

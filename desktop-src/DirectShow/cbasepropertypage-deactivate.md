@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 63a843502fc735cc41ff3656e83ef3d6cb839a19
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5acb906a28087464f349aff3fdcdf367d7e3bceaa5a29cfa1cad4143b80e10c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526768"
 ---
 # <a name="cbasepropertypagedeactivate-method"></a>CBasePropertyPage. Deactivate 方法
 
@@ -46,7 +46,7 @@ HRESULT Deactivate();
 
 
 
-| 傳回碼                                                                                  | Description                    |
+| 傳回碼                                                                                  | 描述                    |
 |----------------------------------------------------------------------------------------------|--------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 成功。<br/>            |
 | <dl> <dt>**E 未 \_ 預期**</dt> </dl> | 發生非預期的失敗。<br/> |

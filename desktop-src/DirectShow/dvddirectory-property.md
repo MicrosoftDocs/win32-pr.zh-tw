@@ -4,17 +4,17 @@ ms.assetid: 0dbfdf28-cda5-41b2-82ce-114d9b940d91
 title: DVDDirectory 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36515c931fb8669db814886dfff12a4bf85bde28
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2431d9255aa743698baeb9c4b8427ffa9bf5220a60182ac08c246e11f20bcec8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749098"
 ---
 # <a name="dvddirectory-property"></a>DVDDirectory 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 
@@ -39,7 +39,7 @@ MSWebDVD.DVDDirectory = "e:\\video_ts"
 
 
 
-某些 DVD 磁片區的影片可能會在名為「影片 ts」以外的目錄中 \_ 。 一般的概念是，有一個額外的「DVD 磁片區」 (的組合。Ifo。 VOB、和。通常儲存在 VIDEO TS 目錄) 的 BUP 檔案 \_ 可以放在光碟片上的子目錄中。藉由將根變更為指向此目錄，MSWebDVD 會在此不同的 DVD 磁片區上運作。 您可以使用一組新的功能表、標題等等，與影片 TS 根目錄中的標題無關， \_ 這將無法再存取。 這類目錄稱為「隱藏目錄」。 下列範例示範如何將隱藏的目錄設定為根目錄，其中「隱藏」是光碟作者提供給目錄之任何名稱的預留位置。
+某些 DVD 磁片區的影片可能會在名為「影片 ts」以外的目錄中 \_ 。 一般的概念是，有一個額外的「DVD 磁片區」 (的組合。IFO。 VOB、和。通常儲存在 VIDEO TS 目錄) 的 BUP 檔案 \_ 可以放在光碟片上的子目錄中。藉由將根變更為指向此目錄，MSWebDVD 會在此不同的 DVD 磁片區上運作。 您可以使用一組新的功能表、標題等等，與影片 TS 根目錄中的標題無關， \_ 這將無法再存取。 這類目錄稱為「隱藏目錄」。 下列範例示範如何將隱藏的目錄設定為根目錄，其中「隱藏」是光碟作者提供給目錄之任何名稱的預留位置。
 
 
 ```VB

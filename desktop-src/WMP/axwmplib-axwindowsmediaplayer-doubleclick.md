@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac809e8ea61b3abbbc964f6dc9ee2976442fc31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb01a5d0d5b9dd750c1232badb913000218a088d1ba6b41bc22e4e5dd49a6230
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136101"
 ---
 # <a name="doubleclick-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 DoubleClick 事件
 

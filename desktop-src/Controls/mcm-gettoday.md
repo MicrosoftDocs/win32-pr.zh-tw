@@ -3,7 +3,7 @@ title: 'MCM_GETTODAY 訊息 (Commctrl .h) '
 description: 抓取指定為 \ 0034; today \ 0034; 的日期資訊。月曆控制項的。 您可以使用 MonthCal GetToday 宏明確地傳送此訊息 \_ 。
 ms.assetid: a79feb57-6aa3-4c96-95f3-7018b6b8327f
 keywords:
-- MCM_GETTODAY message Windows 控制項
+- MCM_GETTODAY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21538af3c573b3d972b7f16bfe024e0d36211644
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6925ff24a2d3e042a4f2c752d87642f74345116fc5cc7f94e00e811d453be4fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019026"
 ---
 # <a name="mcm_gettoday-message"></a>MCM \_ GETTODAY 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103934447"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

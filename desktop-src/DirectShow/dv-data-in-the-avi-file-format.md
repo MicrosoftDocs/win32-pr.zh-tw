@@ -4,16 +4,16 @@ ms.assetid: ae1ec184-afc3-4ec1-9b92-f53656293446
 title: AVI 檔案格式的 DV 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65f1393bfe4bbee4d080d90755f33cfa7f4a7fa4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0c048cb42fa3ba49457c115944075c064b9cfd4c31263519e9d5af3e5f0a268a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749108"
 ---
 # <a name="dv-data-in-the-avi-file-format"></a>AVI 檔案格式的 DV 資料
 
-Microsoft 已指定在 AVI 檔案中儲存數位視訊 (DV) 資料的格式。 符合此規格可確保以這種格式撰寫的 AVI 檔案，將與 Windowsplatform 的未來版本的 DirectShow 數位影片架構相容。
+Microsoft 已指定在 AVI 檔案中儲存數位視訊 (DV) 資料的格式。 符合此規格可確保以這種格式撰寫的 AVI 檔案，將與 Windowsplatform 的 DirectShow 數位影片架構的未來版本相容。
 
 本文描述包含 DV 資料的 AVI 檔案格式。 特定 FOURCCs (四個字元的程式碼) ，用於交錯式 DV 資料流程和 DV 壓縮/解壓縮程式串流處理常式。 已定義 DV 資料的資料流程格式結構。 指定以 AVI 檔案格式儲存 DV 資料的兩種方法規格。
 
@@ -23,7 +23,7 @@ Microsoft 已指定在 AVI 檔案中儲存數位視訊 (DV) 資料的格式。 �
 
 **包含一個 DV 資料流程的 AVI 檔案 (類型 1)**
 
-交錯的 DV 資料可以用原生格式儲存為 AVI RIFF 檔中的單一資料流程。 這有一個優點，就是使用 DV 的資料儲存體的最小數量。 主要的缺點是此檔案格式與 Windows 的影片不具回溯相容性，因為它不包含影片 ' vids ' 或音訊 ' auds ' 資料流程。 支援是透過透過 DirectShow 提供的 [Dv Muxer](dv-muxer-filter.md) 和 [dv 分隔](dv-splitter-filter.md) 器篩選器提供給交錯的 dv 串流。
+交錯的 DV 資料可以用原生格式儲存為 AVI RIFF 檔中的單一資料流程。 這有一個優點，就是使用 DV 的資料儲存體的最小數量。 主要的缺點是，這種檔案格式與影片的 Windows 不相容，因為它不包含影片 ' vids ' 或音訊 ' auds ' 資料流程。 支援是透過 DirectShow 所提供的[Dv Muxer](dv-muxer-filter.md)和[dv 分隔](dv-splitter-filter.md)器篩選器，提供給交錯的 dv 串流使用。
 
 您可以藉由指定 ' iavs ' (交錯音訊和影片資料流程，將 DV 資料儲存在單一資料流程中，) FOURCC (**fccType** 成員中的四字元程式碼) ，以及 ' dvsd ' 資料流程標頭區塊之 **dvhd** 成員中的 ' dvsl '、' FOURCCs ' 或 ' fccHandler ' strh。 影片串流的每秒畫面格必須指定在 **dwRate** 和 **dwScale** 成員中，以及 **dwLength** 成員中 ' movi ' 區塊內的影片區塊總數。
 
@@ -92,7 +92,7 @@ Microsoft 已指定在 AVI 檔案中儲存數位視訊 (DV) 資料的格式。 �
 
 **包含 DV 影片和 DV 音訊串流的 AVI 檔案 (類型 2)**
 
-交錯的 DV 資料可以分割成影片串流，以及 AVI RIFF 檔案內的一到四個音訊串流。 這項功能的優點是可回溯相容于 Windows 的影片，因為它包含標準的影片 ' vids ' 資料流程，以及至少一個標準音頻 ' auds ' 資料流程的主要缺點是，此檔案格式需要將音訊資料重複儲存為音訊串流。 「影片」資料流程實際上是原生交錯的 DV 資料流程。 但是，如果是處理類型為 ' dvsd ' 的標準 ' vids ' 資料流程，則會使用 [DV 影片解碼](dv-video-decoder-filter.md) 。 此格式也需要使用 [DV 分隔](dv-splitter-filter.md) 器篩選器來分割「已捕捉」檔案，然後再將它們寫入為 AVI 檔案。
+交錯的 DV 資料可以分割成影片串流，以及 AVI RIFF 檔案內的一到四個音訊串流。 這項功能的優點是與影片進行回溯相容，以進行 Windows，因為它包含標準的影片 ' vids ' 資料流程和至少一個標準音頻 ' auds ' 資料流程，主要的缺點是此檔案格式需要將音訊資料重複儲存為音訊串流。 「影片」資料流程實際上是原生交錯的 DV 資料流程。 但是，如果是處理類型為 ' dvsd ' 的標準 ' vids ' 資料流程，則會使用 [DV 影片解碼](dv-video-decoder-filter.md) 。 此格式也需要使用 [DV 分隔](dv-splitter-filter.md) 器篩選器來分割「已捕捉」檔案，然後再將它們寫入為 AVI 檔案。
 
 DV 資料可以儲存為具有 AVI RIFF 檔中不同音訊串流數目的影片串流。 影片資料流程是使用標準的影片資料流程標頭所指定 (**fccType** 成員值為 ' vids ' ) 。 **FccHandler** 成員指定為 ' dvsd '、' dvhd ' 或 ' dvsl '。 影片串流的每秒畫面格必須指定在 **dwRate** 和 **dwScale** 成員中，以及 **dwLength** 成員中 ' movi ' 區塊內的影片區塊總數。
 

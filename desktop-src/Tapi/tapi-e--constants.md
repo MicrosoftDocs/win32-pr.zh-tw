@@ -4,12 +4,12 @@ ms.assetid: d242e0e8-99ae-4f5b-9f2d-e7e25953f7c8
 title: 'TAPI_E_ 常數 (Tapi3err) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2311cc7e9a66e4f987ff62d716285a2f8be63f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d874aaef60daa7a7b3881e3f1ddb89e2cba3c9be5a25a8f577dd387afe07682
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872998"
 ---
 # <a name="tapi_e_-constants"></a>TAPI \_ E \_ 常數
 
@@ -17,7 +17,7 @@ TAPI 方法和功能可能會傳回 TAPI \_ E \_ 常數。 這些常數指出 AP
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                   | Description                                                                                                                                                                                                            |
+| 常數/值                                                                                                                                                                                                                                                                                                   | 描述                                                                                                                                                                                                            |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="TAPI_E_NOTENOUGHMEMORY"></span><span id="tapi_e_notenoughmemory"></span><dl> <dt>**TAPI \_E \_ NOTENOUGHMEMORY**</dt> <dt> ( (HRESULT) 0x80040001L)</dt> </dl>                                            | 傳入此方法的緩衝區不夠大。 <br/>                                                                                                                                                    |
 | <span id="TAPI_E_NOITEMS"></span><span id="tapi_e_noitems"></span><dl> <dt>**TAPI \_E \_ NOITEMS**</dt> <dt> ( (HRESULT) 0x80040002L)</dt> </dl>                                                                    | 沒有符合要求的專案存在。 <br/>                                                                                                                                                                     |

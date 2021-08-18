@@ -4,12 +4,12 @@ ms.assetid: d1739b37-d89b-400e-a4ac-b417e0fb9918
 title: SetODBCFolders 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7477b229d127e976ddb37096c5f3a21605ba8d05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceaefc2e9722b82ab0753c46b9e1e85a0ab3628a83b9f3abe66cf183c543fbe5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628638"
 ---
 # <a name="setodbcfolders-action"></a>SetODBCFolders 動作
 

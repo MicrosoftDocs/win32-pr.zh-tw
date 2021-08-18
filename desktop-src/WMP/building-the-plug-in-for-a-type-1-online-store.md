@@ -26,12 +26,12 @@ keywords:
 - 建立外掛程式，請輸入1個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36272e3497eebc7b5362d793a0ee265d2c3166fc
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d1fdc5b01a0a8ec526af22e6be90c562524536cdb30b37bd03eb40132af0be49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106968887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997848"
 ---
 # <a name="building-the-plug-in-for-a-type-1-online-store"></a>建立類型1線上商店的外掛程式
 
@@ -55,9 +55,9 @@ ms.locfileid: "106968887"
 [**類型1線上商店的程式設計指南**](programming-guide-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

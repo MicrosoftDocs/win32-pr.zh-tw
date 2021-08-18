@@ -4,18 +4,18 @@ ms.assetid: 872f1ccc-435a-4881-b283-ba4c8ddd3ac2
 title: System.servicemodel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3850983d306dcafc9e66583785f647151d3b7b34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b96c6100c2634d51aa7f8e60e37713e27031ab9a4aa86a24090ace46d475908
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717908"
 ---
 # <a name="systemapplicationname"></a>System.servicemodel
 
 建立此檔案或專案的應用程式名稱。 請勿使用版本號碼來識別應用程式的特定版本。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

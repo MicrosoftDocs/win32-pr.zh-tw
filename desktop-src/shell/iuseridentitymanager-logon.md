@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: eee6e0555d45d3f52173fce085d19c14f2ccfe8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5be9402dbbbf7c46528ceeab944317fa35857f9521db41b621ab246c8da86be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821128"
 ---
 # <a name="iuseridentitymanagerlogon-method"></a>IUserIdentityManager：： Logon 方法
 
@@ -78,7 +78,7 @@ HRESULT Logon(
 
 
 
-| 傳回碼                                                                                            | Description                                                                                 |
+| 傳回碼                                                                                            | 描述                                                                                 |
 |--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 使用者已 \_ 取消**</dt> </dl>      | 使用者已從 UI 取消登入操作。<br/>                               |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl>          | 無法建立使用者身分識別。<br/>                                          |
@@ -102,7 +102,7 @@ HRESULT Logon(
 | 用戶端支援結束<br/>    | Windows 2000 Professional<br/>                                                   |
 | 伺服器支援結束<br/>    | Windows 2000 Server<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

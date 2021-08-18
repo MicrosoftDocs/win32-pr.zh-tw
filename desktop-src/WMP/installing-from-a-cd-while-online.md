@@ -20,16 +20,16 @@ keywords:
 - 線上商店的線上安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd57015e64dece444b1a91afebe3144bee117caa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13589d7ba6dea0693acaacb5e0d1f551b4a4f178c4ccb50a1bd8ebb513dda3de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996508"
 ---
 # <a name="installing-from-a-cd-while-online"></a>在線上從 CD 安裝
 
-使用者可以在連線到網際網路時，從 CD 安裝 Windows Media Player。 發生這種情況時，Windows Media Player 安裝程式會尋找 *ServiceInfo* 命令列參數所指定的 ServiceInfo 檔。 如果索引 **鍵** 屬性符合 *DefaultService* 命令列參數，安裝程式會檢查 Install 元素以自訂安裝程式。 安裝程式會使用屬性值， (EULA) 和您的隱私權聲明中顯示您的使用者授權合約，也會將您的 .cab 檔案取出並安裝到使用者的電腦上。 例如，您可以使用這項功能來安裝您的線上商店所需的最新 COM 物件版本。
+使用者可以在連線到網際網路時，從 CD 安裝 Windows Media Player。 發生這種情況時，Windows Media Player 安裝程式會尋找 *ServiceInfo* 命令列參數所指定的 ServiceInfo 檔。 如果索引 **鍵** 屬性符合 *DefaultService* 命令列參數，安裝程式會檢查 Install 元素以自訂安裝程式。 使用屬性值時，安裝程式會顯示您的使用者授權合約 (EULA) 和您的隱私權聲明，並同時抓取 .cab 檔案並安裝到使用者的電腦上。 例如，您可以使用這項功能來安裝您的線上商店所需的最新 COM 物件版本。
 
 安裝之後，Windows Media Player 會使用您為 *DefaultService* 命令列參數指定的金鑰名稱來設定初始線上存放區。
 
@@ -52,9 +52,9 @@ ms.locfileid: "106968431"
 [**安裝線上商店的命令列參數**](setup-command-line-parameters-for-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

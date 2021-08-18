@@ -3,17 +3,17 @@ title: 架構支援層級
 description: 本節涵蓋有關架構支援層級的詳細資料。
 ms.assetid: ca18306e-6d67-406d-9c42-4be159a0b81f
 keywords:
-- 適用于 Windows 的架構支援層級 Web 服務
+- Windows 的架構支援層級 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa50eef8835f643abb668b439160ea733bf5160
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 4d6cae112e074d50b90425c1d8952f3b6c06463378d73767346742193b406d2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104553393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026278"
 ---
 # <a name="schema-support-level"></a>架構支援層級
 
@@ -96,7 +96,7 @@ wsutil 會針對目前未完全支援的架構元件產生警告。 應用程式
 
 這是結構的型別定義。 不支援 complexContent 限制。
 
--   complexContent 支援複雜內容延伸模組。 對應至結構繼承。
+-   complexContent 支援複雜內容延伸模組。 地圖結構繼承。
 -   群組目前已與 WS \_ XML 緩衝區欄位回溯至結構 \_ 。 可以根據下一個物件來支援。
 -   選擇支援做為聯集。 資料合約中不支援這項功能。
 -   支援的序列-對應至結構的欄位

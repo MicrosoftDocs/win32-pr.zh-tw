@@ -4,16 +4,16 @@ ms.assetid: e5136e15-3ae1-4e0a-ae97-fcf16203b21d
 title: 管理非同步作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d220c5633f9ee044dbf9cdb6a63b563747620afd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 537a52a41e73bae7035789176bb65b125c105f691bf654ed3c0ded4e6a73f70d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999447"
 ---
 # <a name="managing-asynchronous-operations"></a>管理非同步作業
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) 會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)。\]
 
 接下來的程式碼範例會示範呼叫端如何與 async 物件搭配運作。 在這裡， **SynchronousCreateLun** 函式會使用指定的參數來呼叫非同步 [**IVdsSubSystem：： CreateLun**](/windows/desktop/api/Vds/nf-vds-ivdssubsystem-createlun) 方法。 函數會等候非同步 **CreateLun** 方法呼叫完成的非同步物件。 當 [**IVdsAsync：： Wait**](/windows/desktop/api/Vds/nf-vds-ivdsasync-wait) 方法傳回時， **SynchronousCreateLun** 會取得新建立之 LUN 的 [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) 介面，並將其傳回做為 out 引數。
 

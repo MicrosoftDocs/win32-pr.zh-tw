@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8195cf17040c35b9e42f8977b36c5ddc6f2ea33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87769500de02dedc7247b15e94064a43b7c6d528234c27ad700d4a336f42a092
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622628"
 ---
 # <a name="winbio_bir_data_flags-constants"></a>WINBIO \_ BIR \_ 資料 \_ 旗標常數
 
@@ -31,7 +31,7 @@ ms.locfileid: "104385262"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                   | Description                                                                                                                                                                                                       |
+| 常數/值                                                                                                                                                                                                                                                                                   | 描述                                                                                                                                                                                                       |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="WINBIO_DATA_FLAG_PRIVACY"></span><span id="winbio_data_flag_privacy"></span><dl> <dt>**WINBIO \_資料 \_ 旗標 \_ 隱私權**</dt> <dt>0x02</dt> </dl>                                       | 資料已加密。<br/>                                                                                                                                                                                 |
 | <span id="WINBIO_DATA_FLAG_INTEGRITY"></span><span id="winbio_data_flag_integrity"></span><dl> <dt>**WINBIO \_資料 \_ 旗標 \_ 完整性**</dt> <dt>0x01</dt> </dl>                                 | 資料會經過數位簽署，或由 (MAC) 的訊息驗證代碼保護。<br/>                                                                                                                   |
@@ -49,8 +49,8 @@ ms.locfileid: "104385262"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

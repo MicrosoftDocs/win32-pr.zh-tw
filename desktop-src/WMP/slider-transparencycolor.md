@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cda638e03b62ff81e6c9470239c71c441c755c2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43e853a788c92fbbf3f5b9135918b3be53e21ad76f7b50270e46ba2f92ff6191
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118646"
 ---
 # <a name="slidertransparencycolor"></a>滑杆. transparencyColor
 

@@ -4,18 +4,18 @@ ms.assetid: f7f904a6-99b8-4680-ac16-8ecbccf3239f
 title: HeaderItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eae7973d50d1bf6cee6c7f25c097813490fc52af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16af0bea85f3e1f24442da8ab4e1a5162e724131c497daf40cb1e3850492ec26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823218"
 ---
 # <a name="systemcommunicationheaderitem"></a>HeaderItem
 
 如果專案是標頭專案，則此屬性為 true，表示尚未完整下載專案。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

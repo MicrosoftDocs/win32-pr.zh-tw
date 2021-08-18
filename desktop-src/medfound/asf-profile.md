@@ -4,12 +4,12 @@ ms.assetid: 03a0981b-29c3-450d-aa58-bc56a76e6cb6
 title: ASF 設定檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 616670e7de68fd73c168c474544fc6236f1586e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d38d5d2c869bd8af61289fa15361d216f686abac4eaa366b3c036f40338d355
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035518"
 ---
 # <a name="asf-profile"></a>ASF 設定檔
 
@@ -50,7 +50,7 @@ ASF 設定檔也用來設定 [Asf 媒體接收器](asf-media-sinks.md)。 針對
 [媒體類型](media-types.md)
 </dt> <dt>
 
-[教學課程： 1-傳遞 Windows Media 編碼](tutorial--1-pass-windows-media-encoding.md)
+[教學課程： 1-傳遞 Windows 媒體編碼](tutorial--1-pass-windows-media-encoding.md)
 </dt> <dt>
 
 [教學課程：使用 CBR 編碼方式撰寫 WMA 檔案](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)

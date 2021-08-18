@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f3e9a6d34a7b1afb355712a325b1c0f8100c78e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 422547e59ad820b9ffef176d1cd09721eab8a14b768906a8540813f56e663b5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118118734"
 ---
 # <a name="playlistname"></a>Playlist.name
 

@@ -4,12 +4,12 @@ ms.assetid: C78E73E9-961D-45D5-A580-B8FDD001505D
 title: Win32_EncryptableVolume 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ad46bf4e221ba49f4bb9666608a4c45882da03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09067b1321e5ce03cabbba8d40294246a6f38d582579a3b571d81dcbc646a831
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004146"
 ---
 # <a name="win32_encryptablevolume-methods"></a>Win32 \_ EncryptableVolume 方法
 

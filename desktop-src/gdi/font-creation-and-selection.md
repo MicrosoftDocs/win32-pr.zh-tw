@@ -4,12 +4,12 @@ ms.assetid: 7183be25-a8e4-47a0-a34a-63eadf6ca10d
 title: 字型建立和選取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b4a70a1a49fc318ca69998d97e15fca838668d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 555293e78d5ddc60284f8cb36aa3da9cfcc84062e1954059af4ead1ad9e19c5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037936"
 ---
 # <a name="font-creation-and-selection"></a>字型建立和選取
 
@@ -33,7 +33,7 @@ ms.locfileid: "104991247"
 
 一旦應用程式列舉可用的字型，並找到適當的相符項，就應該使用字型列舉函數所傳回的值，初始化 [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) 結構的成員。 然後，它可以呼叫 [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta) 函式，並將指標傳遞至初始化的 [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) 結構。 如果 [**CreateFontIndirect**](/windows/win32/api/wingdi/nf-wingdi-createfontindirecta) 函式成功，則應用程式可以藉由呼叫 [**SelectObject**](/windows/desktop/api/Wingdi/nf-wingdi-selectobject) 函數來選取邏輯字型。 當初始化 **LOGFONT** 結構的成員時，請務必在 **lfCharSet** 成員中指定特定字元集。 這個成員在字型對應程式中很重要，如果這個成員未正確初始化，結果會不一致。 如果您在 **LOGFONT** 結構的 **lfFaceName** 成員中指定了字樣名稱，請確定 **lfCharSet** 值符合 **lfFaceName** 中指定的字樣字元集。 例如，如果您想要選取 MS Mincho 等字型， **lfCharSet** 必須設定為預先定義的 SHIFTJIS \_ 字元集值。
 
-許多東亞語言的字型都有兩個字型名稱：英文名稱和當地語系化名稱。 [**CreateFont**](/windows/desktop/api/Wingdi/nf-wingdi-createfonta)、 [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta)和 [**CreateFontIndirectEx**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirectexa) 會針對符合語言的系統地區設定採用當地語系化的字樣名稱，但會針對所有其他的系統地區設定採用英文的字樣名稱。 最佳方法是嘗試一個名稱，並在失敗時嘗試另一個名稱。 請注意，如果系統地區設定與字型的語言不符， [**EnumFonts**](/windows/win32/api/wingdi/nf-wingdi-enumfontsa)、 [**>enumfontfamilies**](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesa)和 [**EnumFontFamiliesEx**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa) 會傳回英文字型名稱。 從 Windows 2000 開始，這不再是問題，因為 [**CreateFont**](/windows/win32/api/wingdi/nf-wingdi-createfonta)、 [**CreateFontIndirect**](/windows/win32/api/wingdi/nf-wingdi-createfontindirecta)和 [**CreateFontIndirectEx**](/windows/win32/api/wingdi/nf-wingdi-createfontindirectexa) 的字型對應程式都會辨識字型名稱，不論地區設定為何。
+許多東亞語言的字型都有兩個字型名稱：英文名稱和當地語系化名稱。 [**CreateFont**](/windows/desktop/api/Wingdi/nf-wingdi-createfonta)、 [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta)和 [**CreateFontIndirectEx**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirectexa) 會針對符合語言的系統地區設定採用當地語系化的字樣名稱，但會針對所有其他的系統地區設定採用英文的字樣名稱。 最佳方法是嘗試一個名稱，並在失敗時嘗試另一個名稱。 請注意，如果系統地區設定與字型的語言不符， [**EnumFonts**](/windows/win32/api/wingdi/nf-wingdi-enumfontsa)、 [**>enumfontfamilies**](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesa)和 [**EnumFontFamiliesEx**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa) 會傳回英文字型名稱。 從 Windows 2000 開始，這不再是問題，因為 [**CreateFont**](/windows/win32/api/wingdi/nf-wingdi-createfonta)、 [**CreateFontIndirect**](/windows/win32/api/wingdi/nf-wingdi-createfontindirecta)和 [**CreateFontIndirectEx**](/windows/win32/api/wingdi/nf-wingdi-createfontindirectexa)的字型對應程式都會辨識字型名稱，不論地區設定為何。
 
  
 

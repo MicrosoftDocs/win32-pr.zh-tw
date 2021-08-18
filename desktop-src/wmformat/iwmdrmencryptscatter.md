@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d04cb781c850bfec1496dbb28ca5e06f8eabab6a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1d78491e134d8ccaa03e18d0032f4aa4f0adc20f12593424c1baf9763104015d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027726"
 ---
 # <a name="iwmdrmencryptscatter-interface"></a>IWMDRMEncryptScatter 介面
 

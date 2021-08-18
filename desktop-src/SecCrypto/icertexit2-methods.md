@@ -4,12 +4,12 @@ ms.assetid: A9D13AAD-9EB2-43B7-A618-0DDC01D2C473
 title: ICertExit2 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47cb77f4554e6d665575db0527065b91e38d54a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8957b3c6010a0b55b0cbb976598569e61f3be5a8fd164853511cadcea4509d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005856"
 ---
 # <a name="icertexit2-methods"></a>ICertExit2 方法
 

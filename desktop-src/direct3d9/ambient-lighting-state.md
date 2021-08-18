@@ -4,12 +4,12 @@ ms.assetid: c5aa493e-09b8-433c-a21c-e39af795b3c9
 title: '環境光源狀態 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57bd604941961f5b4abdb301d5c23efba9980791
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dc32a6ec654bd30627c853bc00c90e94b6008e769fb3aa708e963a9430e0dc85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952688"
 ---
 # <a name="ambient-lighting-state-direct3d-9"></a>環境光源狀態 (Direct3D 9) 
 

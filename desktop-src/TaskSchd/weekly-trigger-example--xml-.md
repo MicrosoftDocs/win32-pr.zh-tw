@@ -1,6 +1,6 @@
 ---
 title: " (XML) 的每週觸發程式範例"
-description: 此範例中的 XML 會定義以每週為基礎啟動 [記事本] 的工作。
+description: 此範例中的 XML 會定義以每週為基礎啟動記事本的工作。
 ms.assetid: 1911e8b1-2583-440c-a6ed-d71080b60987
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bf8c2683311aecc427e9570a0452c746375eca01
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: 7c038c21db137ce9180d76cecf4c2885274f7cdd72720b12b919f9a39e98e575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104374166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001805"
 ---
 # <a name="weekly-trigger-example-xml"></a> (XML) 的每週觸發程式範例
 
-此範例中的 XML 會定義以每週為基礎啟動 [記事本] 的工作。
+此範例中的 XML 會定義以每週為基礎啟動記事本的工作。
 
 若要註冊 XML 中定義的工作，您可以使用 [**ITaskFolder：： RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) 函數 ([**TaskFolder. RegisterTask**](taskfolder-registertask.md) 來撰寫腳本) 或 Schtasks.exe 命令列工具。 如果您使用位於 C： \\ Windows System32 目錄) 的 Schtasks.exe 工具 (\\ ，則可以使用下列命令來註冊工作： **schtasks.exe/create/xml** *<path to the XML file containing the task definition>* **/tn** *<task name>* 。
 
-## <a name="to-define-a-task-to-start-notepad-every-other-week-on-monday-at-800-am"></a>將工作定義為在星期一上午8:00 點開始每隔一周啟動記事本
+## <a name="to-define-a-task-to-start-notepad-every-other-week-on-monday-at-800-am"></a>若要定義工作在星期一上午8:00 點開始記事本每隔一周
 
-下列 XML 範例示範如何使用單一執行動作來定義工作 (啟動 [記事本]) 、單一行事曆觸發程式 (在星期一的上午8:00 點開始每隔一周進行工作) ，以及其他會影響工作排程器處理工作方式的其他工作設定。
+下列 XML 範例示範如何使用單一執行動作來定義工作 (開始記事本) 、單一行事曆觸發程式 (在星期一的上午8:00 點啟動工作，以及數個其他會影響) 工作處理方式的工作設定。
 
 
 ```XML
@@ -102,7 +102,7 @@ This sample schedules a task to start on a bi-weekly basis.
 
 -   [**動作**](taskschedulerschema-actions-tasktype-element.md)
 
-    定義工作執行的動作 (在此案例中，執行 [記事本]) 。
+    定義工作執行的動作 (在此案例中，執行記事本) 。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -111,9 +111,9 @@ This sample schedules a task to start on a bi-weekly basis.
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

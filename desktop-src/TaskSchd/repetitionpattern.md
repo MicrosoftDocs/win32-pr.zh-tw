@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84b88588238c9a7e4158fe21bca8904bf6f39b51
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06583aaef7f41a2752ace9c67599c1d299b72f87cb9984674994ede10d89525b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872391"
 ---
 # <a name="repetitionpattern-object"></a>RepetitionPattern 物件
 
@@ -40,7 +40,7 @@ ms.locfileid: "104464813"
 
 
 
-| 屬性                                                                    | 存取類型           | Description                                                                                                                                        |
+| 屬性                                                                    | 存取類型           | 描述                                                                                                                                        |
 |:----------------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**持續時間**](repetitionpattern-duration.md)<br/>                   | 讀取/寫入<br/> | 取得或設定重複模式的時間長度。<br/>                                                                                          |
 | [**間隔**](repetitionpattern-interval.md)<br/>                   | 讀取/寫入<br/> | 取得或設定每次重新開機工作之間的時間量。<br/>                                                                       |
@@ -62,7 +62,7 @@ ms.locfileid: "104464813"
 4.  下一項工作會從第三分鐘的結尾開始。
 5.  下一項工作會在第四分鐘結束時啟動。
 
-**Windows Server 2003、WINDOWS XP 和 windows 2000：** 如果您註冊的工作包含重複間隔等於1分鐘的觸發程式，且重複持續時間等於四分鐘，則工作會啟動四次。
+**Windows Server 2003、Windows XP 和 Windows 2000：** 如果您註冊的工作包含重複間隔等於1分鐘的觸發程式，且重複持續時間等於四分鐘，則工作會啟動四次。
 
 讀取或寫入工作的 XML 時，會使用工作排程器架構的 [**重複**](taskschedulerschema-repetition-triggerbasetype-element.md) 專案來指定重複模式。
 
@@ -76,8 +76,8 @@ ms.locfileid: "104464813"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

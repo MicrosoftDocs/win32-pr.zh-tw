@@ -7,16 +7,16 @@ keywords:
 - OpenGL 移植，圖元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d793c139c6d7a0a0fc85b2e2c36f30176ce9ab6e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b292fb3f27eb2ed888a4db94198944f41a8571114b38c5c90b994cdd1cb6367f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144081"
 ---
 # <a name="porting-device-contexts-and-pixel-formats"></a>移植裝置內容和像素格式
 
-Microsoft 適用于 Windows 之 OpenGL 的每個視窗都有自己目前的像素格式。 像素格式是由 [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) 資料結構所定義。 因為每個視窗都有自己的像素格式，所以您會取得裝置內容、設定裝置內容的像素格式，然後建立裝置內容的 OpenGL 轉譯內容。 轉譯內容會自動使用其裝置內容的像素格式。
+Microsoft 針對 Windows 之 OpenGL 的每個視窗都有自己目前的像素格式。 像素格式是由 [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) 資料結構所定義。 因為每個視窗都有自己的像素格式，所以您會取得裝置內容、設定裝置內容的像素格式，然後建立裝置內容的 OpenGL 轉譯內容。 轉譯內容會自動使用其裝置內容的像素格式。
 
 X 視窗系統也會使用資料結構 **XVisualInfo**，在視窗中指定圖元的屬性。 **XVisualInfo** 結構包含 **視覺化** 資料結構，描述如何在特定螢幕中使用色彩資源。
 
@@ -35,18 +35,18 @@ X 視窗系統也會使用資料結構 **XVisualInfo**，在視窗中指定圖�
 
 
 
- 
+ 
 
-下列各節提供 X 視窗系統程式的像素格式程式碼片段範例，以及將程式碼移植到 Windows 之後的相同程式碼。
+下列各節提供 X 視窗系統程式的像素格式程式碼片段範例，以及將它移植到 Windows 之後的相同程式碼。
 
 -   [GLX 像素格式的程式碼範例](glx-pixel-format-code-sample.md)
--   [Windows 像素格式的程式碼範例](win32-pixel-format-code-sample.md)
+-   [Windows像素格式的程式碼範例](win32-pixel-format-code-sample.md)
 
 如需像素格式的詳細資訊，請參閱 [像素格式](pixel-formats.md)。
 
- 
+ 
 
- 
+ 
 
 
 

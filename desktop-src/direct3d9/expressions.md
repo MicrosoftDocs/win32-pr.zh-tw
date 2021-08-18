@@ -4,12 +4,12 @@ ms.assetid: 642aa188-5dd7-49fc-b6cc-845f8fc22530
 title: " (Direct3D 9) 的運算式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aa574069094853eb506f7a1b38cdb6cd4379d3b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: daeffeb09a2c2f496f73d492581cb2b51ac2e518e176bbbc848889bef5716b25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985698"
 ---
 # <a name="expressions-direct3d-9"></a> (Direct3D 9) 的運算式
 

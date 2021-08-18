@@ -13,19 +13,19 @@ keywords:
 - 程式庫，位置常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38cbb297831acce9724988309880390cdcbe1894
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 45a677f405ff36030647618a83bd0b8b952dae254a756cebc48e4c3210e5fcde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104374796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135360"
 ---
 # <a name="library-location-constants"></a>程式庫位置常數
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 程式庫位置常數是在 contentpartner 中定義的全域字串變數。 [IWMPContentPartner](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner)和[IWMPContentPartnerCallback](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback)介面的某些方法和[外部](external-object-for-type-1-online-stores.md)物件的特定方法會使用這些方法。 這些常數用來表示下列類型。
 
@@ -38,7 +38,7 @@ ms.locfileid: "104374796"
 
 
 
-| Name                              | 值                        | 位置或類型                                                                                                                                                   |
+| 名稱                              | 值                        | 位置或類型                                                                                                                                                   |
 |-----------------------------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | g \_ szUnknownLocation              | Unknownlocation.xsd              | 不是專輯也不是播放清單的一組曲目。 在罕見的情況下，Windows Media Player 也會使用這個常數，因為它無法判斷有效的位置。 |
 | g \_ szRootLocation                 | RootLocation                 | 程式庫樹狀檢視控制項中的最上層節點                                                                                                                      |
@@ -69,7 +69,7 @@ ms.locfileid: "104374796"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -111,9 +111,9 @@ ms.locfileid: "104374796"
 [**IWMPContentPartnerCallback::ChangeView**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-changeview)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

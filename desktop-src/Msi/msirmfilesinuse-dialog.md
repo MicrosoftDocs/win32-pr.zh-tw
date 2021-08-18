@@ -4,12 +4,12 @@ ms.assetid: e8d93310-388e-4a08-9bce-04c31c33a665
 title: MsiRMFilesInUse 對話方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72bba73cab51f4b3d8321b15001dbb72c638176b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04aa3167609693135e2d3196fef0495d5244fe44f1a6e7d95d11f999efe51a46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012886"
 ---
 # <a name="msirmfilesinuse-dialog"></a>MsiRMFilesInUse 對話方塊
 
@@ -21,7 +21,7 @@ ms.locfileid: "103945257"
 -   使用完整的 UI [使用者介面層級](user-interface-levels.md) 。
 -   [**MSIRESTARTMANAGERCONTROL**](msirestartmanagercontrol.md)屬性或 [DisableAutomaticApplicationShutdown](disableautomaticapplicationshutdown.md)原則尚未停用與 [重新開機管理員](../rstmgr/restart-manager-portal.md)的互動。
 -   [ **MsiRMFilesInUse** ] 對話方塊存在於安裝套件中。
--   從 Windows Installer 到 [重新開機管理員](../rstmgr/restart-manager-portal.md) 的所有呼叫都會成功。
+-   從 Windows Installer 到[重新開機管理員](../rstmgr/restart-manager-portal.md)的所有呼叫都會成功。
 
 此對話方塊將會依 [InstallValidate 動作](installvalidate-action.md)的要求建立。
 

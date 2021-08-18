@@ -10,16 +10,16 @@ keywords:
 - 使用搜尋目錄來 >idirectorysearch ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2738e163f672fb0000275e2fb9d885442ae6693
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c46700c48f82955bd01967808cd30f2fa078e3b6c998fb3beaac4bf7c7fe8707
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023216"
 ---
 # <a name="searching-with-the-idirectorysearch-interface"></a>使用 >idirectorysearch 介面搜尋
 
-[**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)介面提供高階且低額外負荷的介面來查詢目錄或通用類別目錄的資料。 **>idirectorysearch** COM 介面只能與 vtable 搭配使用，因此不能用於以 Automation 為基礎的開發環境。
+[**>Idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)介面提供高階且低額外負荷的介面來查詢目錄或通用類別目錄的資料。 **>Idirectorysearch** COM 介面只能與 vtable 搭配使用，因此不能用於以 Automation 為基礎的開發環境。
 
 **執行搜尋**
 
@@ -29,9 +29,9 @@ ms.locfileid: "103842743"
 
 如需搜尋篩選語法的詳細資訊，請參閱 [搜尋篩選語法](search-filter-syntax.md)。
 
-查詢執行是提供者特定的。 有些提供者在呼叫 [**>idirectorysearch：： GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow) 或 [**>idirectorysearch：： GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow) 之前，不會執行實際的查詢。 [**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)介面可直接搭配搜尋篩選使用。 SQL 方言或 LDAP 方言都不需要。
+查詢執行是提供者特定的。 有些提供者在呼叫 [**>idirectorysearch：： GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow) 或 [**>idirectorysearch：： GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow) 之前，不會執行實際的查詢。 [**>Idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)介面可直接搭配搜尋篩選使用。 SQL 方言和 LDAP 方言都不需要。
 
-[**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)介面會提供方法來列舉結果集（依資料列）。 [**>idirectorysearch：： GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow)方法會抓取第一個資料列，而 [**>idirectorysearch：： GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow)會將您移至目前資料列中的下一個資料列。 當您到達最後一個資料列時，呼叫這些方法會傳回 \_ \_ NOMORE 資料 \_ 列錯誤碼的廣告。 相反地， [**>idirectorysearch：： GetPreviousRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getpreviousrow) 會一次將您移回一個資料列。 S \_ ADS \_ NOMORE ROWS 傳回 \_ 值指出您已達到結果集的第一個資料列。 這些方法會在用戶端上的結果集（常駐于記憶體中）上運作。 因此，當您執行分頁和非同步搜尋並關閉快取 \_ \_ 結果選項時，回溯滾動可能會產生非預期的結果。
+[**>Idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)介面會提供方法來列舉結果集（依資料列）。 [**>Idirectorysearch：： GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow)方法會抓取第一個資料列，而 [**>idirectorysearch：： GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow)會將您移至目前資料列中的下一個資料列。 當您到達最後一個資料列時，呼叫這些方法會傳回 \_ \_ NOMORE 資料 \_ 列錯誤碼的廣告。 相反地， [**>idirectorysearch：： GetPreviousRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getpreviousrow) 會一次將您移回一個資料列。 S \_ ADS \_ NOMORE ROWS 傳回 \_ 值指出您已達到結果集的第一個資料列。 這些方法會在用戶端上的結果集（常駐于記憶體中）上運作。 因此，當您執行分頁和非同步搜尋並關閉快取 \_ \_ 結果選項時，回溯滾動可能會產生非預期的結果。
 
 當您找到適當的資料列時，請呼叫 [**>idirectorysearch：： GetColumn**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getcolumn) 來取得資料項目、依資料行的資料行。 每次呼叫時，您都會傳遞感興趣之資料行的名稱。 傳回的資料項目是 [**廣告 \_ 搜尋資料 \_ 行**](/windows/desktop/api/Iads/ns-iads-ads_search_column) 結構的指標。 **GetColumn** 會為您配置此結構，但您必須使用 [**FreeColumn**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-freecolumn)來釋放它。 呼叫 [**CloseSearchHandle**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-closesearchhandle) 以完成搜尋作業。
 
@@ -138,7 +138,7 @@ LPWSTR pszColumn;
 > [!Note]  
 > 若要將此查詢從目錄搜尋變更為通用類別目錄搜尋， [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) 呼叫會變更。
 
- 
+ 
 
 
 ```C++
@@ -153,6 +153,6 @@ IID_IDirectorySearch,
 
 
 
- 
+ 
 
- 
+ 

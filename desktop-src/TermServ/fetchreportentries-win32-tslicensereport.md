@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc64c9591444307ba0519da02cf9c6f13d20252e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e35c2af0578b0b130b5ef92bae5d374cc4ba2ba82c172689d00782e68b65c143
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871728"
 ---
 # <a name="fetchreportentries-method-of-the-win32_tslicensereport-class"></a>Win32 TSLicenseReport 類別的 FetchReportEntries 方法 \_
 

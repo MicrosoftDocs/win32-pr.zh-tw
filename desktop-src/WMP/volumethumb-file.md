@@ -3,22 +3,22 @@ title: VolumeThumb 檔案
 description: VolumeThumb 檔案
 ms.assetid: de6abfed-a811-44c4-8db2-f3b55ea38756
 keywords:
-- Windows Media Player 行動外觀、美工檔案
+- Windows Media Player行動外觀、美工檔案
 - 外觀、美工檔案
 - 適用于外觀、藝術的檔案
 - 適用于外觀、VolumeThumb 檔案的美工檔案
-- Windows Media Player 行動外觀 VolumeThumb 檔案
+- Windows Media Player行動外觀、VolumeThumb 檔
 - 外觀，VolumeThumb 檔
 - 面板中的 VolumeThumb 檔案
 - thumb、VolumeThumb 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9b7ba87723025c91b3bdfb5af5fd233197dedb8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e9d06f10c5c35b0381faf28df3e8f311dfb3496845482c522f124db6bd69c0e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615181"
 ---
 # <a name="volumethumb-file"></a>VolumeThumb 檔案
 
@@ -39,9 +39,9 @@ VolumeThumb 檔案會定義映射，以指出磁片區播放程式的播放音�
 [**美工檔案**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

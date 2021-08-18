@@ -50,7 +50,7 @@ ms.locfileid: "119216548"
 
 
 
-| Location    | 路徑/URL                                                                                                    |
+| 位置    | 路徑/URL                                                                                                    |
 |-------------|-------------------------------------------------------------------------------------------------------------|
 | Windows SDK | \\Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ 多媒體 \\ 音訊 \\ RenderExclusiveEventDriven \\ .。。 |
 

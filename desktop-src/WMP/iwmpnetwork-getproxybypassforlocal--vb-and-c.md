@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b87b1f00432ec91dd4379a9fa5e31664437afe0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 50d23307ab8872fb49b2b4797d54b78a71a04adba350287fa23cb8e5ab90541c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996478"
 ---
 # <a name="iwmpnetworkgetproxybypassforlocal-method"></a>IWMPNetwork：： getProxyBypassForLocal 方法
 

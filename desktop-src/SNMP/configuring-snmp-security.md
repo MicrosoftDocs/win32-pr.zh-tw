@@ -4,12 +4,12 @@ description: SNMP 的安全性功能可讓您指定電腦接受要求的來源�
 ms.assetid: 5e9729d4-1003-4c2c-96a3-8b2a63918207
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 127cb6584d4f63bc05cb1beb08e5f59200bfe74b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91cae7e0bdd9507152868281b2bfcfe55dc9406df412e439a78504d195d1abba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009646"
 ---
 # <a name="configuring-snmp-security"></a>設定 SNMP 安全性
 
@@ -19,9 +19,9 @@ SNMP 的安全性功能可讓您指定電腦接受要求的來源和主機，以
 
 **Windows Server 2003：** 依預設，不會設定群體名稱，而且 SNMP 服務會設定為只接受來自主機名稱 "localhost" 的 SNMP 要求。
 
- 
+ 
 
- 
+ 
 
 
 

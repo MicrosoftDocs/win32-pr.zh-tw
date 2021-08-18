@@ -15,12 +15,12 @@ keywords:
 - 資訊中心視圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9564a6210181e0500bd1e447f621568f634817c4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8caea279f933c3cbb411da72aab9ddf971df5f38c69d7291ae4ac67f7b96ed91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135461"
 ---
 # <a name="integrating-the-info-center-view-feature"></a>整合資訊中心視圖功能
 
@@ -61,9 +61,9 @@ var title = Player.currentMedia.getItemInfoByType("Title", "", 0);
 [**在 Web 網頁中使用 Windows Media Player 控制項**](using-the-windows-media-player-control-in-a-web-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

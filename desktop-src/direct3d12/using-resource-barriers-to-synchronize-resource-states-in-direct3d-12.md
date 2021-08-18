@@ -5,12 +5,12 @@ ms.assetid: 3AB3BF34-433C-400B-921A-55B23CCDA44F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df27e7997b4f3f56ae8e87688e5cc136dc7eb87d
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 04f79d5463c2f27560049f785b5cc32fe42ae33927cba7d039b90638f3946531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989428"
 ---
 # <a name="using-resource-barriers-to-synchronize-resource-states-in-direct3d-12"></a>在 Direct3D 12 中使用資源阻礙來同步處理資源狀態
 
@@ -70,7 +70,7 @@ ms.locfileid: "110343473"
 
 您可以使用任何使用者指定的初始狀態來建立資源 (適用于資源描述) ，但有下列例外狀況：
 
--   上傳堆積必須在狀態 D3D12 \_ 資源 \_ 狀態一般讀取中開始， \_ \_ 它是的位 or 組合：
+-   Upload 堆積必須在「狀態 D3D12 \_ 資源狀態一般讀取」中開始， \_ \_ \_ 這是的位 or 組合：
     -   D3D12 \_ 資源 \_ 狀態 \_ 頂點 \_ 和 \_ 常數 \_ 緩衝區
     -   D3D12 \_ 資源 \_ 狀態 \_ 索引 \_ 緩衝區
     -   D3D12 \_ 資源 \_ 狀態 \_ 複製 \_ 來源

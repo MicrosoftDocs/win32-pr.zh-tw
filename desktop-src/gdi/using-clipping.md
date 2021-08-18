@@ -4,12 +4,12 @@ ms.assetid: c71727aa-f4a3-409e-b50f-709eb4dbdaab
 title: 使用裁剪
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87a81181c09197fd98b5c84fd6f641ba84445000
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f54e4dee790d2891ebf36fb90ff9996b624d3c4d8d053fecae8397a38e043bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037486"
 ---
 # <a name="using-clipping"></a>使用裁剪
 

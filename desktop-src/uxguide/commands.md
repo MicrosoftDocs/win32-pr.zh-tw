@@ -4,17 +4,17 @@ description: 命令是使用者在使用您的應用程式時可以採取的動�
 ms.assetid: 64DF83BC-CC6D-4F0F-A1B2-AB3CF6DA33B3
 ms.topic: reference
 ms.date: 10/20/2020
-ms.openlocfilehash: ece3f8f4fe395bb6ccf20a2b8b3db6bb36b00aee
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: fbbe0180011a2930d52230bff2653145f3cea6159f68c4cc3661eca1065b07f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103696051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119818523"
 ---
 # <a name="commands-design-basics"></a> (設計基本概念的命令) 
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 命令是使用者在使用您的應用程式時可以採取的動作。 瞭解將命令新增至您的應用程式功能表、功能區和工具列的指導方針。
 

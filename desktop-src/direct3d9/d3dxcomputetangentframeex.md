@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 58c7e8a1f1f7247d6a3ecc92d5771d68c9c3e5a9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7d091b7ca243e4833cd6aa36a409fca32069e52a267ec3f588b338777ed34338
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988668"
 ---
 # <a name="d3dxcomputetangentframeex-function"></a>D3DXComputeTangentFrameEx 函式
 
@@ -145,7 +145,7 @@ HRESULT D3DXComputeTangentFrameEx(
 
 
 
-| Description                                                                                              | [**D3DXTANGENT**](./d3dxtangent.md) 旗標值                               |
+| 描述                                                                                              | [**D3DXTANGENT**](./d3dxtangent.md) 旗標值                               |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | 以弧度為單位，以弧度為單位來加權標準向量長度，以弧度為單位，subtended 由兩個邊緣離開頂點。 | &！ ( D3DXTANGENT \_ 權數（ \_ 依 \_ 區域 \| D3DXTANGENT \_ 權數 \_ 等於 ) ）                |
 | 從材質座標計算正笛笛卡兒座標 (u，v) 。 請參閱＜備註＞。                   | &！ ( 從 \_ \_ \_ \| \_ \_ \_ V ) D3DXTANGENT 的 U D3DXTANGENT ORTHOGONALIZE |

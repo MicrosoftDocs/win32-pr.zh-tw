@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14184c5838d9f671f75536714d73c3f6ebf00a0a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8695a17c60f9785d7782d77db839499306a9577755e8a6838540f5a0fc2cea48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146231"
 ---
 # <a name="switch_type-attribute"></a>切換 \_ 類型屬性
 
@@ -71,7 +71,7 @@ typedef struct _WINNER_TYPE
 [**Boolean**](boolean.md)
 </dt> <dt>
 
-[**字元**](char-idl.md)
+[**char**](char-idl.md)
 </dt> <dt>
 
 [封裝聯集](encapsulated-unions.md)
@@ -95,9 +95,9 @@ typedef struct _WINNER_TYPE
 [**聯盟**](union.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

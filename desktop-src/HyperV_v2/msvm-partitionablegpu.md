@@ -35,12 +35,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7f82904608a8e2ee4dfa13942066d57d35d511f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15ce369a0186ae6309f90a5b37a77a35cce90ae6997e3c8cbc7e968a0a0d0de0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148291"
 ---
 # <a name="msvm_partitionablegpu-class"></a>Msvm \_ PartitionableGpu 類別
 

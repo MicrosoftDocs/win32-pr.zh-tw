@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e1f4c216f6e417726e60d5f2e2bd67387a51d352
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 06809d8950d62f1136b8efc25c8e5b4499e020dce956d65f9e0d4a0e349567de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006186"
 ---
 # <a name="icertcontextfreecontext-method"></a>ICertCoNtext：： FreeCoNtext 方法
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。\]
 
 **FreeCoNtext** 方法會釋放 \_ 透過 [**CERTCONTEXT**](icertcontext-certcontext.md)屬性取得的 PCCERT 內容。
 

@@ -5,12 +5,12 @@ ms.assetid: b5ef61e2-07fa-4963-9b9b-977cc04dab10
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9523a7528fddff4e2dbcf6dde16c29084d4811d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d5b6dcb4ee772969e374eeda5c12edca09cebddef3c9a6c8378b144b7ba2819
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000258"
 ---
 # <a name="remote-desktop-services-api-enumeration-types"></a>遠端桌面服務 API 列舉類型
 
@@ -20,42 +20,42 @@ ms.locfileid: "104301183"
 
 <dl> <dt>
 
-[**WTS \_ CONFIG \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_class)
+[**WTS \_CONFIG \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_class)
 </dt> <dd>
 
 包含值，這些值表示在呼叫 [**WTSQueryUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) 和 [**WTSSetUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtssetuserconfiga) 函數時要設定或抓取的使用者設定資訊類型。
 
 </dd> <dt>
 
-[**WTS \_ CONFIG \_ 來源**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_source)
+[**WTS \_CONFIG \_ 來源**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_config_source)
 </dt> <dd>
 
 指定 [**WTSQueryUserConfig**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga) 函數所傳回的設定資訊來源。
 
 </dd> <dt>
 
-[**WTS \_ CONNECTSTATE \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_connectstate_class)
+[**WTS \_CONNECTSTATE \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_connectstate_class)
 </dt> <dd>
 
 指定遠端桌面服務會話的連接狀態。
 
 </dd> <dt>
 
-[**WTS \_ 資訊 \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_info_class)
+[**WTS \_INFO \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_info_class)
 </dt> <dd>
 
 包含值，這些值表示在呼叫 [**WTSQuerySessionInformation**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsquerysessioninformationa) 函式時要取出的會話資訊類型。
 
 </dd> <dt>
 
-[**WTS \_ 型別 \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_type_class)
+[**WTS \_型別 \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_type_class)
 </dt> <dd>
 
 指定遠端桌面服務函數已在緩衝區中傳回的結構類型。
 
 </dd> <dt>
 
-[**WTS \_ 虛擬 \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_virtual_class)
+[**WTS \_虛擬 \_ 類別**](/windows/desktop/api/Wtsapi32/ne-wtsapi32-wts_virtual_class)
 </dt> <dd>
 
 包含值，這些值表示要取出的虛擬通道資訊類型。
@@ -104,9 +104,9 @@ ms.locfileid: "104301183"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

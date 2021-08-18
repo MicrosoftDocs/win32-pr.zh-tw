@@ -7,12 +7,12 @@ keywords:
 - 延伸模組 ADSI、IADsExtension
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a844d320b28548e9e9998881fd2a09815d1882e9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fbab6813a87701fe2d7e130a03540476412c9e13b9d5d3ca96bdd0e63b2dad54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104182988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023486"
 ---
 # <a name="iadsextension-usage"></a>IADsExtension 使用方式
 
@@ -67,9 +67,9 @@ STDMETHOD(PrivateInvoke)(DISPID dispidMember, REFIID riid, LCID lcid, WORD wFlag
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: 在 Windows Vista 和 Windows Server 2008 上執行的應用程式�
 ms.assetid: 97b1df63-65a9-47b4-891b-e4a754882b89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ebace21e09956c68d34c90775c5ea646a8b2dd0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9624f578a04267b94bde41bbdf8e3312e7b8ae0f4fb84280212ea51c2db7e2f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010126"
 ---
 # <a name="guidelines-for-applications"></a>應用程式的指導方針
 
@@ -23,15 +23,15 @@ ms.locfileid: "103682939"
     > [!Note]  
     > 如果重新開機的應用程式必須在其執行所在的相同目錄中執行，則應用程式必須儲存目錄資訊，然後在重新開機後變更為目錄。
 
-     
+     
 
     > [!Note]  
     > [**RmRestart**](/windows/desktop/api/RestartManager/nf-restartmanager-rmrestart)函式不會重新開機未以目前登入的使用者身分執行的應用程式。 例如， **RmRestart** 函式不會重新開機使用 **run as** 命令啟動的應用程式，該命令不會以目前登入的使用者身分執行。 這些應用程式必須以手動方式重新開機。
 
-     
+     
 
 -   當重新開機管理員判斷需要重新開機系統以安裝更新時，它不會關閉任何應用程式和服務。 相反地，它會將此程式保留給安裝程式，以決定何時要排程系統重新開機並安裝更新。 安裝程式可以使用 [**ExitWindowsEx**](/windows/desktop/api/winuser/nf-winuser-exitwindowsex) 函式搭配 **EWX \_ RESTARTAPPS** 旗標或 [**InitiateShutdown**](/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) 函式搭配 **SHUTDOWN \_ RESTARTAPPS** 旗標，減少需要重新開機系統的使用者所造成的中斷。 使用這些旗標可確保在系統重新開機後重新開機已註冊重新開機的應用程式，以將對使用者的影響降到最低。
 
- 
+ 
 
- 
+ 

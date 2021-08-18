@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility 和 Microsoft 消費者介面自動�
 ms.assetid: 4b8e551f-aba7-4a89-8874-ba690175f525
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 695fad8f050606f0a95a1780551d35499e39d166
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 732ebd21cc6d198040e5502554ce2a8cf1abb718c055bc9af9f88e0c5d123b4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994188"
 ---
 # <a name="handling-the-wm_getobject-message"></a>處理 WM \_ GETOBJECT 訊息
 
@@ -24,8 +24,8 @@ Microsoft Active Accessibility 或消費者介面自動化指定所需資訊的�
 
 Microsoft Active Accessibility 和消費者介面自動化可以在 [**WM \_ GETOBJECT**](wm-getobject.md) 訊息中傳遞自訂物件識別碼，以從伺服器或提供者取出應用程式定義的值或物件。 [**OBJID \_ NATIVEOM**](object-identifiers.md)或 [**OBJID \_ QUERYCLASSNAMEIDX**](object-identifiers.md)物件識別碼可以用來取出原生物件模型介面，或要求 Oleacc.dll 所支援的特定 proxy 物件。
 
-藉由同時處理 [**OBJID \_ 用戶端**](object-identifiers.md) 和 **UiaRootObjectId** 物件識別碼，Microsoft Active Accessibility 伺服器的執行可與消費者介面自動化提供者的執行並存。 因為大部分標準的 Windows 控制項和通用控制項程式庫所執行的通用控制項都 (ComCtl32.dll) 不會執行 Microsoft Active Accessibility 或消費者介面自動化，所以這些控制項通常不會處理 [**WM \_ GETOBJECT**](wm-getobject.md) 訊息。 相反地，Microsoft Active Accessibility 或消費者介面自動化架構會檢查 proxy 物件是否適用于特定的 UI 元素。 否則，它會提供主機視窗物件的預設 proxy 物件。
+藉由同時處理 [**OBJID \_ 用戶端**](object-identifiers.md) 和 **UiaRootObjectId** 物件識別碼，Microsoft Active Accessibility 伺服器的執行可與消費者介面自動化提供者的執行並存。 因為大部分的標準 Windows 控制項和通用控制項程式庫所執行的通用控制項 (ComCtl32.dll) 不會執行 Microsoft Active Accessibility 或消費者介面自動化，所以這些控制項通常不會處理 [**WM \_ GETOBJECT**](wm-getobject.md)訊息。 相反地，Microsoft Active Accessibility 或消費者介面自動化架構會檢查 proxy 物件是否適用于特定的 UI 元素。 否則，它會提供主機視窗物件的預設 proxy 物件。
 
- 
+ 
 
- 
+ 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9cdcb33c5536cfa67ab136daa5aa56d93f1d706
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52f88cd4c60dcfcceed60ca644f7c59f65bee16e344cc17664e8b4be1ee18fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024286"
 ---
 # <a name="wm_adsprop_notify_error-message"></a>WM \_ ADSPROP \_ 通知 \_ 錯誤訊息
 

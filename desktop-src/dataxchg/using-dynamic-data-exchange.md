@@ -16,12 +16,12 @@ keywords:
 - DDE (動態資料交換) 、items
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fe20c4dedc38303fe9bcb9c4b0fae42d03ee536
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ad3a279e02b65d5540e5494512a44eefdfecdb18607cb12731cf7daa0d8569de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953661"
 ---
 # <a name="using-dynamic-data-exchange"></a>使用動態資料交換
 
@@ -41,7 +41,7 @@ ms.locfileid: "104315463"
 
 ## <a name="initiating-a-conversation"></a>起始對話
 
-若要起始動態資料交換 (DDE) 交談，用戶端會傳送 [**WM \_ DDE \_ 初始**](wm-dde-initiate.md) 訊息。 通常，用戶端會呼叫 [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)來廣播此訊息，並以-1 做為第一個參數。 如果應用程式已經有伺服器應用程式的視窗控制碼，它可以將訊息直接傳送到該視窗。 用戶端會藉由呼叫 [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma)來準備應用程式名稱和主題名稱的原子。 用戶端可以針對應用程式和主題提供 **Null** (萬用字元) 原子，要求與任何潛在的伺服器應用程式進行交談。
+若要起始動態資料交換 (DDE) 交談，用戶端會傳送 [**WM \_ DDE \_ 初始**](wm-dde-initiate.md)訊息。 通常，用戶端會呼叫 [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)來廣播此訊息，並以-1 做為第一個參數。 如果應用程式已經有伺服器應用程式的視窗控制碼，它可以將訊息直接傳送到該視窗。 用戶端會藉由呼叫 [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma)來準備應用程式名稱和主題名稱的原子。 用戶端可以針對應用程式和主題提供 **Null** (萬用字元) 原子，要求與任何潛在的伺服器應用程式進行交談。
 
 下列範例說明用戶端如何起始交談，同時指定了應用程式和主題。
 
@@ -73,7 +73,7 @@ ms.locfileid: "104315463"
 > [!Note]  
 > 如果您的應用程式使用 **Null** 原子，則不需要使用 [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma) 和 [**GlobalDeleteAtom**](/windows/desktop/api/Winbase/nf-winbase-globaldeleteatom) 函數。 在此範例中，用戶端應用程式會建立兩個全域原子，分別包含伺服器的名稱和主題的名稱。
 
- 
+ 
 
 用戶端應用程式會在訊息的 *lParam* 參數中，使用這兩個原子來傳送 [**WM \_ DDE \_ 起始**](wm-dde-initiate.md)訊息。 在 [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) 函式的呼叫中，特殊的視窗控制碼（1）會指示系統將此訊息傳送給所有其他作用中的應用程式。 **SendMessage** 不會傳回用戶端應用程式，直到接收訊息的所有應用程式都將控制權傳回給系統為止。 這表示伺服器應用程式在回復中傳送的所有 [**WM \_ DDE \_**](wm-dde-ack.md) 通知訊息，在 **SendMessage** 呼叫傳回時，保證已由用戶端處理。
 
@@ -353,7 +353,7 @@ if (atomItem == 0)
 > [!Note]  
 > 使用 [**wm \_ dde \_**](wm-dde-poke.md) 訊息傳送資料時，基本上與使用 [**wm \_ dde \_ 資料**](wm-dde-data.md)傳送資料相同，不同之處在于從用戶端將 **wm \_ dde \_** 傳送至伺服器。
 
- 
+ 
 
 如果伺服器能夠接受用戶端所轉譯格式的資料項目目值，伺服器會適當地處理專案值，並傳送正面的 [**WM \_ DDE \_**](wm-dde-ack.md) 通知訊息給用戶端。 如果它無法處理專案值（因為其格式或基於其他原因），伺服器會傳送負的 **WM \_ DDE \_** 通知訊息給用戶端。
 
@@ -463,7 +463,7 @@ if (atomItem == 0)
 
 當使用者從 [**編輯**] 功能表中選擇 [**複製**] 命令時，伺服器應用程式會將包含應用程式、主題和專案名稱的字串放在剪貼簿中，以支援連結剪貼簿格式。 以下是標準連結格式：
 
-*應用程式 ***\\ 0*** 主題 ***\\ 0*** 專案 * * \\ * \\ 0 0**
+*應用程式 ***\\ 0**_主題_* _\\ 0_*_專案_* 0 _\\ \\ 0_*
 
 單一 null 字元會分隔名稱，而兩個 null 字元會結束整個字串。
 
@@ -833,6 +833,6 @@ VOID SendTerminate(HWND hwndServerDDE, HWND hwndClientDDE)
 
 
 
- 
+ 
 
- 
+ 

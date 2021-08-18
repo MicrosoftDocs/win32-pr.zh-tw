@@ -4,12 +4,12 @@ description: 當 WinSNMP 應用程式註冊用於陷阱或通知的 WinSNMP 會�
 ms.assetid: 76a4095f-ab5c-4f7a-9b60-a383a632fd65
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81aebf94d60ca26f39bcd53b26cb1f794f43af0d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e2149e4ac1e9880601ae64718cd78991718d54a6228488a03e593376d9a7937
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009325"
 ---
 # <a name="multiple-trap-registrations"></a>多重陷阱註冊
 
@@ -25,9 +25,9 @@ ms.locfileid: "104301556"
 
 若要變更篩選準則，應用程式可能需要先取消註冊並停用特定陷阱或通知的傳遞。 然後，應用程式可以藉由呼叫 [**SnmpRegister**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpregister)並傳遞適當的值來建立新的篩選準則。
 
- 
+ 
 
- 
+ 
 
 
 

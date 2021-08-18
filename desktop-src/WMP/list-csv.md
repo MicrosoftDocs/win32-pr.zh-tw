@@ -9,12 +9,12 @@ keywords:
 - list.csv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f41ed237c5f4a185f01feace8f09b4615e4922b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3e754f7985fbf59c23cccae5fd9780ff4b4579205ceaf3ef3cc8f74c768d4e71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104092530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135341"
 ---
 # <a name="listcsv"></a>list.csv
 
@@ -137,7 +137,7 @@ ms.locfileid: "104092530"
 <li>- = 自動</li>
 <li>P = 執行者</li>
 <li>A = 專輯</li>
-<li>C = 編輯器</li>
+<li>C = Composer</li>
 <li>R = 評等</li>
 <li>D = 日期</li>
 </ul></td>

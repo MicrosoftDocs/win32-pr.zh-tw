@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f17fc833c1d87cc21594a389f24c1a80d73ffc2
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4bde6abd327a7c3226e92cc5f743ef2f28333a4273a9d0528deb39ec6be8a0d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104372946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026976"
 ---
 # <a name="wmoriginalreleasetime"></a>WM/OriginalReleaseTime
 
@@ -42,9 +42,9 @@ g \_ wszWMOriginalReleaseTime
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

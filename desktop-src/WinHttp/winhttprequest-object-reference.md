@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e0f54cb2e71edd30cf97389a0221bca0e2ef8051
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c47d85d3dfa2b15b31971a6b6d123259fa1db10c441cc7e7d1b4ab8f3eb1ed3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132951"
 ---
 # <a name="winhttprequest-object-reference"></a>WinHttpRequest 物件參考
 

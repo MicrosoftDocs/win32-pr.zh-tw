@@ -22,19 +22,19 @@ keywords:
 - VML 元素，繪製圖形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00701e8ac77bd5bda7156c04ca25427d131646bf
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0b4a8b7985371d9cffc6e7359cef1a17c69c403c7802de458b68d9df8c36e3ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136921"
 ---
 # <a name="drawing-basic-shapes"></a>繪製基本圖形
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
  
 
@@ -110,7 +110,7 @@ VML 使用 [階層式樣式表、層級 2 (CSS2) ](https://www.w3.org/TR/PR-CSS2
 
 [![回到 ](images/top.gif) 頂端回到頁首](#top)
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 您可以使用 VML 在網頁上繪製圖形，然後藉由直接變更其屬性屬性來自訂這些圖形。 此外，在多個瀏覽器中呈現的大部分圖形都會以較快的速度轉譯，並縮短下載時間和磁碟空間。
 

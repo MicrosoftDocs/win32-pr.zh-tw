@@ -10,12 +10,12 @@ keywords:
 - 音訊 DSP 外掛程式，屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aec87318b77fec4e9218398c1cb43dd5954a49e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac64dbd1e984d649a4405341d907ddd0c93eabce855bed90e83f698b778a3a2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119617308"
 ---
 # <a name="implementing-the-property-page-for-a-dsp-plug-in"></a>執行 DSP 外掛程式的屬性頁
 
@@ -31,17 +31,17 @@ Windows Media Player 外掛程式 Wizard 範例程式碼提供屬性頁的預設
 
 ## <a name="about-the-property-page-dialog-resource"></a>關於屬性頁對話方塊資源
 
-屬性頁的使用者介面會儲存為對話方塊資源。 您可以藉由在 [專案工作區] 視窗中選取 [ **ResourceView** ] 索引標籤，然後開啟 **對話方塊** 資料夾，再按兩下屬性頁資源名稱，輕鬆地在 Visual Studio 中查看及編輯 [屬性頁] 對話方塊。 Visual Studio 中的對話方塊資源編輯器提供您所需的工具，以將控制項加入至 [屬性頁] 對話方塊，並建立對應至適當 Windows 訊息的事件處理常式。 如需有關如何在 Visual Studio 中使用資源編輯器的詳細資訊，請參閱 Visual Studio 說明。
+屬性頁的使用者介面會儲存為對話方塊資源。 您可以在 [Project 工作區] 視窗中選取 [ **ResourceView** ] 索引標籤，然後開啟 **對話方塊** 資料夾，再按兩下屬性頁資源名稱，輕鬆地在 Visual Studio 中查看及編輯 [屬性頁] 對話方塊。 Visual Studio 中的對話方塊資源編輯器提供您所需的工具，以將控制項加入至 [屬性頁] 對話方塊，並建立對應至適當 Windows 訊息的事件處理常式。 如需有關如何在 Visual Studio 中使用資源編輯器的詳細資訊，請參閱 Visual Studio 說明。
 
 ## <a name="about-ispecifypropertypages"></a>關於 ISpecifyPropertyPages
 
-如果 DSP 外掛程式提供屬性頁，外掛程式必須執行 **ISpecifyPropertyPages** 介面。 這個介面只包含一個方法： **ISpecifyPropertyPages：： GetPages**。 這是將屬性頁面與 DSP 外掛程式產生關聯的方法。 Windows Media Player 會在使用者叫用屬性頁時呼叫這個方法，傳遞 CAUUID 類型的參數，也就是 Guid 的計數陣列。 **GetPages** 的範例外掛程式會以單一 GUID （即外掛程式屬性頁物件的類別識別碼）填滿此結構。 Windows Media Player 接著會使用類別識別碼來建立屬性頁物件。
+如果 DSP 外掛程式提供屬性頁，外掛程式必須執行 **ISpecifyPropertyPages** 介面。 這個介面只包含一個方法： **ISpecifyPropertyPages：： GetPages**。 這是將屬性頁面與 DSP 外掛程式產生關聯的方法。 Windows Media Player 會在使用者叫用屬性頁時呼叫這個方法，傳遞 CAUUID 類型的參數，也就是 guid 的計數陣列。 **GetPages** 的範例外掛程式會以單一 GUID （即外掛程式屬性頁物件的類別識別碼）填滿此結構。 Windows Media Player 接著會使用類別識別碼來建立屬性頁物件。
 
 您可能會注意到， **GetPages** 的範例會使用 **COTASKMEMALLOC** 來配置 GUID 結構的記憶體。 呼叫者（在此案例中 Windows Media Player）的責任是使用 **CoTaskMemFree** 來釋放記憶體。 如需 CAUUID 結構的詳細資訊，請參閱 Platform SDK 檔。
 
 ## <a name="about-the-proxystub-dll"></a>關於 Proxy/Stub DLL
 
-若要讓 DSP 外掛程式在 Windows Vista 上執行的 Windows Media Player 11 中運作，您必須為自訂介面提供 proxy/stub DLL，以用於將設定中的變更從 [屬性頁] 對話方塊傳達給外掛程式類別。 透過這類介面所進行的方法呼叫，必須在跨進程或單元界限進行呼叫時封送處理。 最新版的外掛程式 wizard 會建立範例 proxy/存根 DLL 專案。
+若要讓 DSP 外掛程式在 Windows Vista 上執行的 Windows Media Player 11 中運作，您必須為自訂介面提供 proxy/存根 DLL，以便用來將設定中的變更從 [屬性頁] 對話方塊傳達給外掛程式類別。 透過這類介面所進行的方法呼叫，必須在跨進程或單元界限進行呼叫時封送處理。 最新版的外掛程式 wizard 會建立範例 proxy/存根 DLL 專案。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -50,9 +50,9 @@ Windows Media Player 外掛程式 Wizard 範例程式碼提供屬性頁的預設
 [**執行音訊 DSP 外掛程式**](implementing-an-audio-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
