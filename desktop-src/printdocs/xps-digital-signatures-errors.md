@@ -4,12 +4,12 @@ ms.assetid: d20707b0-55ea-438a-8ce3-972c61678928
 title: 'XPS 數位簽章 API 錯誤 (Xpsdigitalsignature .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c82c6f5efe7e67d27f7d94b5d1db2732139fa59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93e40cea4b7d0e9997157c8b18c7f364ac7ac58b2b9edc6faec62cbe98685fcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711358"
 ---
 # <a name="xps-digital-signature-api-errors"></a>XPS 數位簽章 API 錯誤
 
@@ -17,7 +17,7 @@ ms.locfileid: "104320260"
 
 
 
-| 傳回碼/值                                                                                                                                                                                                                                                                                  | Description                                                                                                                                                                       |
+| 傳回碼/值                                                                                                                                                                                                                                                                                  | 描述                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="S_OK"></span><span id="s_ok"></span><dl> <dt>**S \_ 確定**</dt> </dl>                                                                                                                                                                 | 此方法已成功。<br/>                                                                                                                                                  |
 | <span id="XPS_E_INVALID_SIGNATUREBLOCK_MARKUP"></span><span id="xps_e_invalid_signatureblock_markup"></span><dl> <dt>**XPS \_E \_ \_ SIGNATUREBLOCK \_ 標記**</dt> <dt>0x8052038b</dt>無效 </dl> | 讀取簽章標記時，簽章區塊的 XML 標記發生錯誤。<br/>                                                               |
@@ -42,10 +42,10 @@ ms.locfileid: "104320260"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                            |
 | 標頭<br/>                   | <dl> <dt>Xpsdigitalsignature。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>XpsDigitalSignature .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>XpsDigitalSignature .idl</dt> </dl> |
 
 
 

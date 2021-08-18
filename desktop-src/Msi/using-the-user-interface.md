@@ -4,12 +4,12 @@ ms.assetid: c04e32ba-08a9-49fe-9a4a-db258767f0b3
 title: 使用使用者介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 714d41ab6b91bb0f3ce519887f7004f919c5c6b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a2303ddcdf589b69abb819ab1cdee9060f4918c1bd238e161677da7987300bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995988"
 ---
 # <a name="using-the-user-interface"></a>使用使用者介面
 
@@ -23,7 +23,7 @@ ms.locfileid: "104192774"
 
 控制項和文字必須加入至對話方塊，而且必須系結至 [控制項，才能](controlevent-overview.md)讓使用者與安裝程式互動。 如需如何將控制項加入對話方塊的詳細資訊，請參閱 [加入控制項和文字](adding-controls-and-text.md) 。
 
-Windows Installer 內部 UI 處理常式可以選擇性地顯示或隱藏對話方塊，以控制安裝期間使用者互動的層級。 這些使用者互動層級稱為「完整」、「精簡」、「基本」和「無」。 請參閱 [消費者介面層級](user-interface-levels.md)。 如需這些 UIlevels 的完整說明。
+Windows安裝程式內部 UI 處理常式可以選擇性地顯示或隱藏對話方塊，以控制安裝期間使用者互動的層級。 這些使用者互動層級稱為「完整」、「精簡」、「基本」和「無」。 請參閱 [消費者介面層級](user-interface-levels.md)。 如需這些 UIlevels 的完整說明。
 
 有兩種方法可以設定 UI 層級。 UI 層級可透過呼叫 [**MsiSetInternalUI**](/windows/desktop/api/Msi/nf-msi-msisetinternalui)，以程式設計方式設定，而 **MsiSetInternalUI** 的第一個參數會指定 ui 層級。 套件開發人員也可以使用 [命令列選項](command-line-options.md) "/q" 來設定 UI 層級。
 
@@ -34,9 +34,9 @@ Windows Installer 內部 UI 處理常式可以選擇性地顯示或隱藏對話�
 -   基本 UI 通常只會顯示使用者的進度訊息。
 -   [無] 的 UI 層級表示無訊息安裝。
 
-Windows Installer 在 [ProgressBar 控制項](progressbar-control.md) 中提供唯一的進度列指示器，可向使用者顯示在安裝完成之前剩下的總時間。 如需進度列的詳細資訊，請參閱 [撰寫 ProgressBar 控制項](authoring-a-progressbar-control.md)。
+Windows安裝程式會在[ProgressBar 控制項](progressbar-control.md)中提供唯一的進度列指示器，讓使用者在安裝完成之前，對使用者顯示總剩餘時間的估計值。 如需進度列的詳細資訊，請參閱 [撰寫 ProgressBar 控制項](authoring-a-progressbar-control.md)。
 
-UI 作者應該為所有使用者提供其應用程式或產品的協助工具。 若要深入瞭解 Active Accessibility 和 Windows Installer，請參閱 [協助工具](accessibility.md)。
+UI 作者應該為所有使用者提供其應用程式或產品的協助工具。 若要深入瞭解 Active Accessibility 和 Windows Installer，請參閱[協助工具](accessibility.md)。
 
 如需撰寫使用者介面的詳細資訊，請參閱 [新增控制項和文字](adding-controls-and-text.md)、 [撰寫 ProgressBar 控制項](authoring-a-progressbar-control.md)、撰寫 [磁片提示訊息](authoring-disk-prompt-messages.md)、 [撰寫條件式「請稍候 ...」訊息方塊](authoring-a-conditional-please-wait-------message-box.md)，並 [預覽消費者介面](previewing-the-user-interface.md)。 如需作者公告欄的詳細資訊，請參閱 [在非強制回應對話方塊上顯示公告欄](displaying-billboards-on-a-modeless-dialog.md)
 

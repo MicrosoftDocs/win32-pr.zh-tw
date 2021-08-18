@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b529ed1819864e5fc6106472b33ddd00312560c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5f8593a890097bbfaf6d9c9876bb56d92794ce204f38f349c72beb73b8d28403
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621028"
 ---
 # <a name="imsrdpclientshell-interface"></a>IMsRdpClientShell 介面
 
@@ -56,7 +56,7 @@ ms.locfileid: "104466001"
 
 
 
-| 屬性                                                                                              | 存取類型           | Description                                                                                               |
+| 屬性                                                                                              | 存取類型           | 描述                                                                                               |
 |:------------------------------------------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------|
 | [**IsRemoteProgramClientInstalled**](imsrdpclientshell-isremoteprogramclientinstalled.md)<br/> | 唯讀<br/>  | 抓取遠端桌面連線 (RDC) 用戶端是否支援 RemoteApp 功能。<br/> |
 | [**PublicMode**](imsrdpclientshell-publicmode.md)<br/>                                         | 讀取/寫入<br/> | 抓取是否啟用公用模式。<br/>                                                      |

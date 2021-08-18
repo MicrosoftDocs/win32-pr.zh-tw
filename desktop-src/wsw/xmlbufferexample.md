@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfc290509ad44264ce6986e07792170b3e230b51
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9f02f68864ba46e3c70523423e0c0c552f66228e7ef00ed9d9acdf8f4e94f1d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707168"
 ---
 # <a name="xmlbufferexample"></a>XmlBufferExample
 
@@ -335,9 +335,9 @@ Exit:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

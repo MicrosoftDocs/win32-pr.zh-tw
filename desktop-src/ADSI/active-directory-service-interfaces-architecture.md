@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI，關於，架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce59d8d6281aa99bd96efa38166ef658972a5f54
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 41afbc212edbea6491de4cae89f2c8b7c873019b6d5678c5bf1d5b531f519260
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024079"
 ---
 # <a name="active-directory-service-interfaces-architecture"></a>Active Directory 服務介面架構
 
@@ -36,9 +36,9 @@ ADSI 提供一組預先定義的物件和介面，讓用戶端應用程式可以
 -   [Active Directory 服務介面提供者](active-directory-service-interfaces-provider.md)
 -   [ADSI 架構模型](adsi-schema-model.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: 'ACM_OPEN 訊息 (Commctrl .h) '
 description: 開啟 AVI 剪輯，並在動畫控制項中顯示其第一個畫面格。 您可以明確地傳送此訊息，或使用動畫 \_ 開啟或 \_ OpenEx 宏的動畫。 我們建議使用此訊息的 Unicode 版本 \_ OPENW。
 ms.assetid: 87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4
 keywords:
-- ACM_OPEN message Windows 控制項
+- ACM_OPEN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0588c0e321efe5cace63baf4016dbaa97f735252
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c5af2bd996af159217c92d78102a97e5c530d34cf445d5ad34186cecb93ab85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922168"
 ---
 # <a name="acm_open-message"></a>\_未結的開啟訊息
 
@@ -65,8 +65,8 @@ ms.locfileid: "104384130"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | 進行中 **\_OPENW** (Unicode) 和 **\_ OPENA** (ANSI) <br/>                         |
 

@@ -1,5 +1,5 @@
 ---
-description: IDxtCompositor 介面會設定組合器轉換的屬性。此介面是由 DirectShow 編輯服務在內部使用， (DES) 轉譯合成器轉換時使用。
+description: IDxtCompositor 介面會設定組合器轉換的屬性。此介面是在內部由 DirectShow 編輯服務 (DES) 轉譯合成器轉換時使用。
 ms.assetid: 519f1e00-4b67-4014-906b-043f2478baa7
 title: 'IDxtCompositor 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: c2e19f555fe01cbec3763bc1dc76d11aeb5f5ecb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dd59f62a4382ae6023a18792ce3547f67b49c9e8ae49e9de7c9c8409bccd788d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997690"
 ---
 # <a name="idxtcompositor-interface"></a>IDxtCompositor 介面
 
@@ -30,7 +30,7 @@ ms.locfileid: "106984810"
 
 `IDxtCompositor`介面會設定[組合](compositor-transition.md)器轉換的屬性。
 
-此介面是由 DirectShow 編輯服務在內部使用， (DES) 轉譯合成器轉換時使用。 DES 應用程式不需要使用此介面。 若要在 DES 的轉換上設定屬性，請使用 [**IPropertySetter**](ipropertysetter.md) 介面。
+此介面是在內部由 DirectShow 編輯服務 (DES) 轉譯合成器轉換時使用。 DES 應用程式不需要使用此介面。 若要在 DES 的轉換上設定屬性，請使用 [**IPropertySetter**](ipropertysetter.md) 介面。
 
 組合器轉換會將前景影像合成至背景影像。 *來源矩形* 會定義以複合的前景影像區段。 *目的地矩形* 會定義接收前景影像的背景影像區段。 下圖說明這些矩形。
 
@@ -79,7 +79,7 @@ ms.locfileid: "106984810"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

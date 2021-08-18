@@ -4,18 +4,18 @@ description: Windows PowerShell 提供簡單的機制，以連接到遠端電腦
 ms.assetid: fe174d2f-4ca0-431e-b1b8-1893ec54147a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c3c942672c147ec5daa0caa2a370e487be80809
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e82401e80b5e49b7d2b964ec910d15d70aea7ce9c782a0173bef97aa8b3a5c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021076"
 ---
 # <a name="using-wmi-windows-powershell-cmdlets-to-manage-the-bits-compact-server"></a>使用 WMI Windows PowerShell Cmdlet 來管理 BITS Compact Server
 
 Windows PowerShell 提供簡單的機制，以連接到遠端電腦上的 Windows Management Instrumentation (WMI) ，以及管理背景智慧型傳送服務 Compact Server (BITS。 BITS Compact Server 是選擇性的伺服器元件，必須另外安裝。 如需安裝 Compact Server 的詳細資訊，請參閱 [BITS Compact server](bits-compact-server.md) 檔集。
 
-1.  連接至位提供者。
+1.  連線位提供者。
 
     ```PowerShell
     $cred = Get-Credential
@@ -27,12 +27,12 @@ Windows PowerShell 提供簡單的機制，以連接到遠端電腦上的 Window
 
     [Credential 指令程式](/previous-versions//dd315327(v=technet.10))會要求使用者的認證連接到遠端電腦，並將認證指派給 $cred 物件。
 
-    [>get-wmiobject](/previous-versions//dd315295(v=technet.10)) Cmdlet 所傳回的物件會指派給 $bcs 變數。 在上述範例中， [>get-wmiobject 指令程式](/previous-versions//dd315295(v=technet.10))會在 Server1 的[](/previous-versions/windows/desktop/bitsprov/bitslightweightserverurlgroup)根 \\ Microsoft BITS 命名空間中，取得 BITSCompactServerUrlGroup 類別 \\ 。 [BITSCompactServerUrlGroup](/previous-versions/windows/desktop/bitsprov/bitslightweightserverurlgroup)類別所公開的靜態方法可在 $bcs 物件上呼叫。 如需 BITS 遠端系統管理的詳細資訊，請參閱 [bits 提供者](/previous-versions/windows/desktop/bitsprov/bits-provider) 和 [bits 提供者類別]( /previous-versions//dd904507(v=vs.85))。
+    [>Get-wmiobject](/previous-versions//dd315295(v=technet.10)) Cmdlet 所傳回的物件會指派給 $bcs 變數。 在上述範例中， [>get-wmiobject 指令程式](/previous-versions//dd315295(v=technet.10))會在 Server1 的[](/previous-versions/windows/desktop/bitsprov/bitslightweightserverurlgroup)根 \\ Microsoft BITS 命名空間中，取得 BITSCompactServerUrlGroup 類別 \\ 。 [BITSCompactServerUrlGroup](/previous-versions/windows/desktop/bitsprov/bitslightweightserverurlgroup)類別所公開的靜態方法可在 $bcs 物件上呼叫。 如需 BITS 遠端系統管理的詳細資訊，請參閱 [bits 提供者](/previous-versions/windows/desktop/bitsprov/bits-provider) 和 [bits 提供者類別]( /previous-versions//dd904507(v=vs.85))。
 
     > [!Note]  
     > 使用「音符號」（ (\`) ）來表示分行符號。
 
-     
+     
 
 2.  在伺服器上建立 URL 群組。
 
@@ -56,7 +56,7 @@ Windows PowerShell 提供簡單的機制，以連接到遠端電腦上的 Window
 
     
 
-    [>get-wmiobject](/previous-versions//dd315295(v=technet.10)) Cmdlet 所傳回的 BITSCompactServerUrlGroup 實例會指派給 $bcsObj 變數。 [CreateUrl](/previous-versions/windows/desktop/bitsprov/createurl-bitslightweightserverurlgroup)方法是針對具有 "url.txt" URL 尾碼的 $bcsObj、檔案的 "c： \\ \\ temp \\ \\1.txt" 來源路徑，以及空的安全描述項字串做為參數來呼叫。 "url.txt" 尾碼會新增至 URL 群組前置詞。 用戶端可以從下列位址下載檔案： https://Server1:80/testurlgroup/url.txt 。
+    [>Get-wmiobject](/previous-versions//dd315295(v=technet.10)) Cmdlet 所傳回的 BITSCompactServerUrlGroup 實例會指派給 $bcsObj 變數。 [CreateUrl](/previous-versions/windows/desktop/bitsprov/createurl-bitslightweightserverurlgroup)方法是針對具有 "url.txt" URL 尾碼的 $bcsObj、檔案的 "c： \\ \\ temp \\ \\1.txt" 來源路徑，以及空的安全描述項字串做為參數來呼叫。 "url.txt" 尾碼會新增至 URL 群組前置詞。 用戶端可以從下列位址下載檔案： https://Server1:80/testurlgroup/url.txt 。
 
 4.  清除 URL 和 URL 群組。
 
@@ -87,6 +87,6 @@ Windows PowerShell 提供簡單的機制，以連接到遠端電腦上的 Window
 [Get-WmiObject](/previous-versions//dd315295(v=technet.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

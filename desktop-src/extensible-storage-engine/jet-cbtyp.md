@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b01bafad091ed17e018793ea701596aef6d0d72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa797fac58b0a2663c918e7fef739c6c5ab536dcfa9dc91be13b8196aed5ef43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945908"
 ---
 # <a name="jet_cbtyp"></a>JET_CBTYP
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_cbtyp"></a>JET_CBTYP
 
 **JET_CBTYP** 的常數群組會描述作業中的所有可能點，資料庫引擎會呼叫 [JET_CALLBACK](./jet-callback-callback-function.md)回呼函數來通知應用程式。 資料庫引擎會在回呼函數的 *cbtyp* 參數中傳遞這些常數的其中一個。 資料庫引擎在此呼叫中傳遞的其他參數的意義取決於傳遞的特定 **JET_CBTYP** 。
 
-**WINDOWS XP：**  在 Windows XP 中引進了 **JET_CBTYP** 的常數群組。
+**Windows XP：** Windows XP 引進了 **JET_CBTYP** 的常數群組。
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>常數/值</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -191,7 +191,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="odd">
 <td><p>JET_cbtypFreeCursorLS<br />
 0x00000200</p></td>
-<td><p>當應用程式需要清除與資料庫引擎所釋放之資料指標相關聯之本機儲存體的內容控制碼時，就會發生此回呼。 如需詳細資訊，請參閱 <a href="gg269243(v=exchg.10).md">JetSetLS</a>。</p>
+<td><p>當應用程式需要清除與資料庫引擎所釋放之資料指標相關聯的本機儲存體的內容控制碼時，就會發生此回呼。 如需詳細資訊，請參閱 <a href="gg269243(v=exchg.10).md">JetSetLS</a>。</p>
 <p>此回呼原因的函式指標是透過<a href="gg269310(v=exchg.10).md">JET_paramRuntimeCallback</a>的<a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a>來設定。</p>
 <p>回呼參數會有下列值：</p>
 <ul>
@@ -208,7 +208,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>JET_cbtypFreeTableLS<br />
 0x00000400</p></td>
-<td><p>這項回呼的原因是，應用程式必須清除與資料庫引擎所釋放之資料表相關聯之本機儲存體的內容控制碼。 如需詳細資訊，請參閱 <a href="gg269243(v=exchg.10).md">JetSetLS</a>。</p>
+<td><p>這是因為應用程式必須清除與資料庫引擎所釋放之資料表相關聯之本機儲存體的內容控制碼，因此會發生此回呼。 如需詳細資訊，請參閱 <a href="gg269243(v=exchg.10).md">JetSetLS</a>。</p>
 <p>此回呼原因的函式指標是透過<a href="gg269310(v=exchg.10).md">JET_paramRuntimeCallback</a>的<a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a>來設定。</p>
 <p>回呼參數會有下列值：</p>
 <ul>
@@ -240,7 +240,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

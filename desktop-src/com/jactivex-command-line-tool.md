@@ -4,12 +4,12 @@ description: JActiveX 命令列應用程式是 Visual j + + 6.0 的元件。
 ms.assetid: b356eb85-5dd4-475b-8d53-8c13a84aa976
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9975e060a3967f927440111719045378aa812f16
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae611e56c44b78398817cd0c78804d343fa97754f80fb3b036ea2705c801070f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992648"
 ---
 # <a name="jactivex-command-line-tool"></a>JActiveX Command-Line 工具
 
@@ -28,7 +28,7 @@ JActiveX 命令列應用程式是 Visual j + + 6.0 的元件。 它會讀取 Mic
 > [!WARNING]
 > 請勿使用1.02.3920 版之前的 Visual c + + 編譯器來編譯 JActiveX.exe 所產生的檔案。 這是因為產生的原始程式檔必須使用編譯器進行編譯 @com-aware 。 只有版本1.02.3920 之後的 Visual j + + 編譯器才是 @com-aware 。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -37,9 +37,9 @@ JActiveX 命令列應用程式是 Visual j + + 6.0 的元件。 它會讀取 Mic
 [轉換成 JAVA](translating-to-java.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

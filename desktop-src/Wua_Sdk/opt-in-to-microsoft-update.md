@@ -4,12 +4,12 @@ ms.assetid: d6f3d8ca-3b7e-409c-87b6-db247b7b68e4
 title: Opt-In 至 Microsoft Update
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b149eb28024d77f66a08371827187adf05d4b78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82d034f0b224d8170a52ce359589693c601cb9598d716e9663493e8ac99edf2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994274"
 ---
 # <a name="opt-in-to-microsoft-update"></a>Opt-In 至 Microsoft Update
 
@@ -24,7 +24,7 @@ ms.locfileid: "104112156"
 下列腳本範例說明如何使用 Windows Update Agent (WUA) 向自動更新註冊 Microsoft Update 服務。 此範例允許延遲或離線處理（如有需要）。
 
 > [!IMPORTANT]
-> 此腳本旨在示範如何使用 Windows Update 代理程式 Api，並提供開發人員如何使用這些 Api 來解決問題的範例。 此腳本並不是用來作為生產程式碼，而且 Microsoft (不支援腳本本身，不過) 支援基礎 Windows Update 代理程式 Api。
+> 此腳本旨在示範如何使用 Windows Update 代理程式 api，並提供開發人員如何使用這些 api 來解決問題的範例。 此腳本並不是用來作為生產程式碼，而且 Microsoft (不支援腳本本身，不過) 支援基礎 Windows Update 代理程式 api。
 
  
 
@@ -54,7 +54,7 @@ Set NewUpdateService = ServiceManager.AddService2("7971f918-a847-4430-9279-4a52d
 >
 > 只有當 WUA 從7.0.6000 版之前的版本更新為版本7.0.6000 或更新版本時，才會遵守登錄機碼一次。 覆寫現有的登錄值時，我們建議您自行決定，因為覆寫這些值可能會變更先前服務註冊要求的結果。
 >
-> 建立此登錄機碼需要系統管理認證。 若為 Windows Vista，呼叫端必須在提高許可權的進程中建立登錄機碼。
+> 建立此登錄機碼需要系統管理認證。 針對 Windows Vista，呼叫端必須在提高許可權的進程中建立登錄機碼。
 
  
 

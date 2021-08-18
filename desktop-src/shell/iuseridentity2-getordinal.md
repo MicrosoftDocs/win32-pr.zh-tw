@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: f5a7e875e92342363722858b3ac714171cb547b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: d5453a083a1db23e042d24c3da4cd2948ff70f813fcc9026a00324eade467918
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968967"
 ---
 # <a name="iuseridentity2getordinal-method"></a>IUserIdentity2：： GetOrdinal 方法
 
@@ -44,9 +44,9 @@ HRESULT GetOrdinal(
 *dwOrdinal* \[擴展\]
 </dt> <dd>
 
-類型： **DWORD \** _
+類型： **DWORD \***
 
-_ *DWORD** 值的指標，此值會接收此身分識別的序數。
+**DWORD** 值的指標，此值會接收此身分識別的序數。
 
 </dd> </dl>
 
@@ -71,7 +71,7 @@ _ *DWORD** 值的指標，此值會接收此身分識別的序數。
 | 用戶端支援結束<br/>    | Windows 2000 Professional<br/>                                                   |
 | 伺服器支援結束<br/>    | Windows 2000 Server<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

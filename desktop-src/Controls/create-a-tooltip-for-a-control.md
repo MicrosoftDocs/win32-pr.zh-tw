@@ -4,12 +4,12 @@ description: 下列範例函數會建立工具提示，並將其與資源識別�
 ms.assetid: FDA3B2A0-1256-4DAC-86CF-8F123894E760
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f341c1be1e749c4e0d6f18caf97a3f897cf429e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9883dc90e8a150c7cc863b59e8388df676ed0f1663aaea7b356cb45292a6c8c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826568"
 ---
 # <a name="how-to-create-a-tooltip-for-a-control"></a>如何建立控制項的工具提示
 
@@ -19,12 +19,12 @@ ms.locfileid: "104021025"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -87,9 +87,9 @@ HWND CreateToolTip(int toolID, HWND hDlg, PTSTR pszText)
 [使用工具提示控制項](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,16 +12,16 @@ keywords:
 - Echo DSP 外掛程式範例，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 498f2dfe6a59257b8a16dc31a5b4cb751d649cd6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 103054e82157d83085713937759de8aa9ed250a5491146ebe0c71559ab1ca338
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762788"
 ---
 # <a name="the-echo-sample"></a>Echo 範例
 
-Windows Media Player 外掛程式 Wizard 可以建立 Microsoft Visual C++ 的 DSP 外掛程式專案。 由 wizard 產生的預設程式碼可讓使用者提供介於0和1之間的縮放比例，以供程式用來作為音訊範例的乘數。 這是非常簡單的執行，可讓您研究以瞭解 Windows Media Player 與 DSP 外掛程式的互動方式。《 [關於 DSP 外掛程式](about-dsp-plug-ins.md) 」一節中的資訊可協助您瞭解預設的執行方式。
+Windows Media Player 外掛程式 Wizard 可以建立 Microsoft Visual C++ 的 DSP 外掛程式專案。 由 wizard 產生的預設程式碼可讓使用者提供介於0和1之間的縮放比例，以供程式用來作為音訊範例的乘數。 這是非常簡單的執行，可讓您研究以瞭解 Windows Media Player 與 DSP 外掛程式的互動方式。《[關於 DSP 外掛程式](about-dsp-plug-ins.md)」一節中的資訊可協助您瞭解預設的執行方式。
 
 本節所述的範例比較複雜一點。 此範例可讓使用者指定延遲時間（以毫秒為單位）和效果層級。 在播放包含脈衝程式碼 (PCM) 音訊的檔案時，此程式碼會使用這些值來產生 echo 效果。 Windows Media Player 轉譯的許多檔案類型都會使用 PCM 音訊。
 
@@ -40,7 +40,7 @@ Windows Media Player 外掛程式 Wizard 可以建立 Microsoft Visual C++ 的 D
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -49,9 +49,9 @@ Windows Media Player 外掛程式 Wizard 可以建立 Microsoft Visual C++ 的 D
 [**DSP 外掛程式程式設計指南**](dsp-plug-ins-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

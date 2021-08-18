@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 6c920ff6213c1e4a706426ac0a1a1bf12f7e25fa
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 43a3c98cac4b01edddab26491cfd53edd4221cf82453db526a601cf9e3726405
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106982710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945748"
 ---
 # <a name="jet_ossnapidtostring-method-overload-list"></a>JET_OSSNAPID。ToString 方法多載清單
 
@@ -32,7 +32,7 @@ ms.locfileid: "106982710"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

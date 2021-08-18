@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: 在子句內
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73d863e2e71d52fe60aeed7697feeb1231164c05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ee35350a52ef6af1aa22aacf775d22b3c7629fb479967a74aed1408aa5e1f39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757598"
 ---
 # <a name="within-clause"></a>在子句內
 
 事件取用者會在事件查詢中使用 in 子句來指定 *輪詢間隔* 或 *群組間隔*。
 
-輪詢間隔是 Windows Management Instrumentation (WMI) 用來輪詢 [內部事件](determining-the-type-of-event-to-receive.md)之類別的資料提供者的間隔，而查詢的事件則是成員。 這個間隔是事件告知必須傳遞之前所能夠等待的最長時間。 當取用者需要對類別進行變更的通知，且事件提供者無法使用時，取用者會在內建子句中使用輪詢間隔。 取用者會註冊內部事件並包含輪詢間隔。
+輪詢間隔是 Windows Management Instrumentation (WMI) 用來輪詢[內部事件](determining-the-type-of-event-to-receive.md)之類別的資料提供者的間隔，而查詢的事件則是成員。 這個間隔是事件告知必須傳遞之前所能夠等待的最長時間。 當取用者需要對類別進行變更的通知，且事件提供者無法使用時，取用者會在內建子句中使用輪詢間隔。 取用者會註冊內部事件並包含輪詢間隔。
 
 若要指定輪詢間隔，請在 WHERE 子句之前放置內的子句，如下所示：
 

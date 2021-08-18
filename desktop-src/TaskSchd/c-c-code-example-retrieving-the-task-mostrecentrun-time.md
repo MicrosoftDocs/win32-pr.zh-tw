@@ -7,12 +7,12 @@ keywords:
 - 工作排程器、工作最新的執行時間，正在抓取工作專案屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8cae40de306d79628fa10230091c571e776c5e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 70e8a49372a082567f5f454cfd01a84239ff622f7ab6121fa07a1f557976c4de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738568"
 ---
 # <a name="cc-code-example-retrieving-the-task-mostrecentrun-time"></a>C/c + + 程式碼範例：取出工作 MostRecentRun 時間
 
@@ -123,9 +123,9 @@ int main(int argc, char **argv)
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 88d18422-77d0-4929-9341-d078843cb2a9
 title: ActionText 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8071a8542571a3364e151522a7fc4c0b11362045
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f21923588676db4ad38482768a493428ce76caf32b32334e429fbe41335c2bf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927258"
 ---
 # <a name="actiontext-table"></a>ActionText 資料表
 
@@ -22,7 +22,7 @@ ActionText 資料表具有下列資料行。
 | Column      | 類型                         | 答案 | Nullable |
 |-------------|------------------------------|-----|----------|
 | 動作      | [識別碼](identifier.md) | Y   | N        |
-| Description | [Text](text.md)             | N   | Y        |
+| 描述 | [Text](text.md)             | N   | Y        |
 | 範本    | [範本](template.md)     | N   | Y        |
 
 

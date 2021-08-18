@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: faa89e7a4497500076bea8a31d7b803dff9a379e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4f23cea94bfbc6e57807df26512423b530c826411aadd2cd8466b54230d9c23b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996128"
 ---
 # <a name="mutebutton"></a>MUTEBUTTON
 

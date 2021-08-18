@@ -4,12 +4,12 @@ ms.assetid: 9ece1167-4fe1-4982-ad20-fbba90abe200
 title: System.Devices.AepService.ParentAepIsPaired
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ba5a7feac5af1686d9ca375d3e1a846e2bc1ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72c1f6fa2a9a413b9f9c97eefa97a3d3d3a8bc21d980175b37ae57bc0d886e83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945868"
 ---
 # <a name="systemdevicesaepserviceparentaepispaired"></a>System.Devices.AepService.ParentAepIsPaired
 

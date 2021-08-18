@@ -4,12 +4,12 @@ ms.assetid: 8b4771da-0996-40fb-98ce-73efe8e3534f
 title: 範例 C 程式：將名稱從憑證轉換為 asn.1 和背面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a14114d4ba956acabf26ff28368403c699497b45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e1093f47500592c32142f4680c046b60facc690f7c794c7b850b18e810242e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993058"
 ---
 # <a name="example-c-program-converting-names-from-certificates-to-asn1-and-back"></a>範例 C 程式：將名稱從憑證轉換為 asn.1 和背面
 

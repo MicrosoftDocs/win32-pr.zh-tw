@@ -3,7 +3,7 @@ title: 在播放時取得設定檔資訊
 description: 在播放時取得設定檔資訊
 ms.assetid: 4ea6c063-fd53-4b5e-ac01-9e2790322ace
 keywords:
-- Windows Media Format SDK，設定檔
+- Windows媒體格式 SDK，設定檔
 - Advanced Systems Format (ASF) ，設定檔
 - ASF (Advanced Systems Format) ，設定檔
 - Advanced Systems Format (ASF) ，相互排除
@@ -16,12 +16,12 @@ keywords:
 - 頻寬共用，在播放時取得設定檔資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4a5c7083f7bf9e986e8a23ba2c78dfe4404942a
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 4c0f9386301b426adb3c4c425ac9329309c7e45146e312cc41df0bd1c453d485
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104092550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839918"
 ---
 # <a name="getting-profile-information-at-playback"></a>在播放時取得設定檔資訊
 
@@ -50,7 +50,7 @@ ms.locfileid: "104092550"
 > [!Note]  
 > 並非所有用來建立檔案的設定檔資訊都出現在檔案標頭中。 一般來說，只有在編碼時使用的資料不會保存在檔案中。 這包括使用 [**IWMWriterAdvanced2：： SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) 方法設定的輸入設定，以及使用 [**IWMPropertyVault：： SetProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) 方法設定的屬性。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -62,9 +62,9 @@ ms.locfileid: "104092550"
 [**讀取 ASF 檔案**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

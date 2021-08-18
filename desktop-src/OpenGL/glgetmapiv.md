@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fc8bf74a80916434f806e2e1f46b633b7243e61
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: bb4b8d8b3f8e1d6bacf8dc9cbfc266d664211d8a741ef4d74211432392de46fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106998975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741608"
 ---
 # <a name="glgetmapiv-function"></a>glGetMapiv 函式
 
@@ -68,7 +68,7 @@ void WINAPI glGetMapiv(
 
 </dd> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 傳回要求的資料。
@@ -85,7 +85,7 @@ void WINAPI glGetMapiv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標* 或 *查詢* 不是可接受的值。<br/>                                                                             |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |

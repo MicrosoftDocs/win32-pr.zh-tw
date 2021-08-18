@@ -11,12 +11,12 @@ keywords:
 - 匯入 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 645781f033566ba43dc6e355935ed112d0e8f5f6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aca1f80bca0a5d03ea0e935b05f973a6370c4180c9ce5c0fe7dea5d8f5c9c7de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106999776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829218"
 ---
 # <a name="type-definitions-construct-declarations-and-imports"></a>型別定義、結構宣告和匯入
 
@@ -41,7 +41,7 @@ IDL 檔案中宣告式結構的語法類似于 C 的語法。 MIDL 支援所有�
 
 ## <a name="constant-declaration"></a>常數宣告
 
-常數宣告會指定 [**布林值**](boolean.md)、整數、字元、寬字元、字串和 **void \*** 常數。 如需詳細資訊，請參閱 [**const**](const.md)。
+常數宣告會指定 [**布林值**](boolean.md)、整數、字元、寬字元、字串和 **void \** _ 常數。 如需詳細資訊，請參閱 [_ *const* *](const.md)。
 
 ## <a name="general-declaration"></a>一般宣告
 
@@ -72,9 +72,9 @@ interface IdlGrammarExample
 }
 ```
 
- 
+ 
 
- 
+ 
 
 
 

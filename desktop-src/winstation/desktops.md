@@ -6,12 +6,12 @@ keywords:
 - 桌面物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44ca0b390ec4d34cc943c9d18d958cdea6466634
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5b763c05c3d45c701da0bdd606fa906dec3f8af07ce72d256b402e7df5d9319b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587348"
 ---
 # <a name="desktops"></a>桌上型電腦
 
@@ -29,7 +29,7 @@ ms.locfileid: "106966256"
 
 當使用者登入時，Winlogon 桌面會處於作用中狀態。 當 shell 指出它已準備好顯示某個東西，或30秒後（以先發生者為准）時，系統會切換至預設桌面。 在使用者會話期間，當使用者按下 CTRL + ALT + DEL 鍵序列，或開啟 [使用者帳戶控制] (UAC) ] 對話方塊時，系統會切換至 Winlogon 桌面。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 不支援 UAC 對話方塊。
+**Windows Server 2003 和 Windows XP/2000：** 不支援 UAC 對話方塊。
 
 Winlogon 桌面的安全描述項允許存取一組非常受限制的帳戶，包括 [LocalSystem 帳戶](/windows/desktop/Services/localsystem-account)。 應用程式通常不會在其權杖中攜帶任何這些帳戶的 Sid，因此無法存取 Winlogon 桌面或在 Winlogon 桌面作用中時切換至不同的桌面。
 
@@ -39,6 +39,6 @@ Winlogon 桌面的安全描述項允許存取一組非常受限制的帳戶，�
 -   [與桌面的執行緒連接](thread-connection-to-a-desktop.md)
 -   [桌面安全性與存取權限](desktop-security-and-access-rights.md)
 
- 
+ 
 
- 
+ 

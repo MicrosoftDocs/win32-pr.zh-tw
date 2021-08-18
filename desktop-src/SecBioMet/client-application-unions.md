@@ -4,12 +4,12 @@ description: Windows 生物特徵辨識架構 API 所支援的等位。
 ms.assetid: 41B7ABBB-41AC-48AB-B714-8F49EFAEC0E3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fe1bf112eceb7ffd7cc3ac7f9ac25fd8ac52c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 219a61f8ec63cc2209fd456fc2f81431695f92d5c655067fbb1c0ec95297471f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993878"
 ---
 # <a name="client-application-unions"></a>用戶端應用程式聯集
 

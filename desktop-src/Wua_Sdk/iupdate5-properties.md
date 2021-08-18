@@ -4,12 +4,12 @@ ms.assetid: 97671dac-66f3-4b37-9b33-c4e7682e8889
 title: IUpdate5 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a56b1fdbdd52ae2fa50312dee76cc89fdeaf1819
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae70b02dff4984a299dc43323775a3c12e5510220a2cfd4751ff22bb58738d24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994678"
 ---
 # <a name="iupdate5-properties"></a>IUpdate5 屬性
 

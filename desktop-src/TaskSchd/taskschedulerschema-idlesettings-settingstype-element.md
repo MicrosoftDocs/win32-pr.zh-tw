@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5ae8b7953f31d7e9c6f01387d3136f01d8ab697a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc0a4c3fc978c93d13be8faa62012d3928d47da5b5a214ce50f5506992f1fc8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991217"
 ---
 # <a name="idlesettings-settingstype-element"></a>IdleSettings (settingsType) 元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "104105221"
 
 ## <a name="parent-element"></a>父元素
 
-| 元素                                                           | 衍生自                                                         | Description                                                                        |
+| 元素                                                           | 衍生自                                                         | 描述                                                                        |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [**設定**](taskschedulerschema-settings-tasktype-element.md) | [**settingsType**](taskschedulerschema-settingstype-complextype.md) | 包含工作排程器用來執行工作的設定。<br/> |
 
@@ -44,7 +44,7 @@ ms.locfileid: "104105221"
 > [!NOTE]
 > *持續時間* 和 *WaitTimeout* 設定已淘汰。 它們仍然存在於工作排程器的使用者介面中，而且其介面方法可能仍會傳回有效值，但不再使用這些值。
 
-| 元素                                                                                  | 類型     | Description                                                                                                              |
+| 元素                                                                                  | 類型     | 描述                                                                                                              |
 |------------------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------|
 | [**RestartOnIdle**](taskschedulerschema-restartonidle-idlesettingstype-element.md)      | boolean  | 指定當電腦迴圈進入閒置條件超過一次時，是否重新開機工作。<br/>       |
 | [**StopOnIdleEnd**](taskschedulerschema-terminateonidleend-idlesettingstype-element.md) | boolean  | 指定如果閒置條件在工作完成之前結束，工作排程器將停止工作。<br/> |
@@ -77,8 +77,8 @@ ms.locfileid: "104105221"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 ## <a name="see-also"></a>另請參閱
 

@@ -4,12 +4,12 @@ ms.assetid: 222EBA58-AEF6-4E59-BB5F-64A21A2C0E3C
 title: 'MF_MT_MIN_MASTERING_LUMINANCE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b631cac19328c1e4298a8e37cb9e2fcdbec0923b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7017a55416b24684ed2b1a260510051e7217d7ae88ece496d3ee78cde2b69071
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714448"
 ---
 # <a name="mf_mt_min_mastering_luminance-attribute"></a>MF \_ MT \_ 最小掌控的 \_ \_ 亮度屬性
 

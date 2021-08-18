@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f11dea6bd5bc3f766e5f93a04022dab5ba6e51a5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cbeead09843aa8bf66471caeaabbdb42ee8d97d01cdaa9a54809f35c437b52d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916898"
 ---
 # <a name="cbasepincbasepin-constructor"></a>CBasePin. CBasePin 函數
 
@@ -91,7 +91,7 @@ CBasePin(
 
 ## <a name="remarks"></a>備註
 
-*PLock* 所指定的重要區段會將釘選的狀態序列化，包括其線上狀態、配置器的選擇、媒體類型，以及排清作業的狀態。 請勿使用這個重要區段來序列化串流作業。 如需詳細資訊，請參閱 [篩選圖形中的](data-flow-in-the-filter-graph.md)資料流程。
+*PLock* 所指定的重要區段會將釘選的狀態序列化，包括其線上狀態、配置器的選擇、媒體類型，以及排清作業的狀態。 請勿使用這個重要區段來序列化串流作業。 如需詳細資訊，請參閱[篩選 Graph 中的資料 Flow](data-flow-in-the-filter-graph.md)。
 
 篩選可能會在其函式方法中建立釘選，因此在此時， *pFilter* 指標可能不會參考有效的物件。 儲存指標，但不要在釘選的函式內進行取值。
 

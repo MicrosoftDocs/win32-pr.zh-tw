@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ca6c90a4b6b3ef3e690c13612f69480ec5f008be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 107dc3721ee32ca7f51efd563cdd6af14af483a69a5990e0b107a153b79b9351
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014696"
 ---
 # <a name="cim_basemetricvalue-class"></a>CIM \_ BaseMetricValue 類別
 

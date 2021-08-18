@@ -4,12 +4,12 @@ description: IPsec 結構
 ms.assetid: FF1FE626-B9F9-4091-8B82-BEB9D229B93D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd268fda1ee98ec80d20d8c75625d4f68526c741
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: beaf3b1f01a445538f06abe49fac71813e395e437d26b4f9792ce01b610b3125
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "106967247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068988"
 ---
 # <a name="ipsec-structures"></a>IPsec 結構
 
@@ -76,9 +76,9 @@ ms.locfileid: "106967247"
 -   [**IPSEC \_ V4 \_ UDP \_ ENCAPSULATION0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0)
 -   [**IPSEC \_ 虛擬（ \_ 如果通道 \_ \_ INFO0）**](/windows/win32/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0)
 
- 
+ 
 
- 
+ 
 
 
 

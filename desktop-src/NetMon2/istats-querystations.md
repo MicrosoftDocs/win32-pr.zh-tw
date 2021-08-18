@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 99c3be3926191c27ad038034373e411b5c22d9fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2d4ead22b3e7308aee3c44b3ff6dff407591cbe675b09a3300f3e7a8720726c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742638"
 ---
 # <a name="istatsquerystations-method"></a>IStats：： QueryStations 方法
 
@@ -57,7 +57,7 @@ HRESULT STDMETHODCALLTYPE QueryStations(
 
 
 
-| 傳回碼                                                                                           | Description                                                           |
+| 傳回碼                                                                                           | 描述                                                           |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ \_ 記憶體不足 \_**</dt> </dl> | 無法使用處理此查詢所需的記憶體。<br/> |
 

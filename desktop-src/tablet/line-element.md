@@ -1,7 +1,7 @@
 ---
 description: 在段落內包含一行。
 ms.assetid: a88a2bf7-034f-4141-9f1c-f1123bab4a67
-title: " (的線條元素。 .h) "
+title: '折線圖元素 (Windows.. h) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.shapes.h
-ms.openlocfilehash: 91663ba7462db6b8d3ec5a4ed1c91bfe2b66e5a2
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: 05fa12161199a83b831ac7058d7b1541914dc4e89ac1cafbc13180349884fe13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708359"
 ---
 # <a name="line-element"></a>Line 元素
 
@@ -62,7 +62,7 @@ ms.locfileid: "111432400"
 
 | 需求 | 值 |
 |-------------------|-----------------------------------------------------------------------------------------------------|
-| 標頭<br/> | <dl> <dt>App.xaml..。h</dt> </dl> |
+| 標頭<br/> | <dl> <dt>Windows .xaml.。h</dt> </dl> |
 
 
 

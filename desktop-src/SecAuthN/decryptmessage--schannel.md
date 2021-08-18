@@ -4,12 +4,12 @@ ms.assetid: 5d7c8598-2d6b-4839-ae98-dff964bc962c
 title: DecryptMessage (Schannel) 函數
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 6bfbb354be9f3553e5369b8ce1f8b4260eab8ee9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: feec97f9e989270d812458cd61ff34132d118d192108c3f2372b192f2e383464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008476"
 ---
 # <a name="decryptmessage-schannel-function"></a>DecryptMessage (Schannel) 函數
 
@@ -69,7 +69,7 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 如果函數無法解密訊息，則會傳回下列其中一個錯誤碼。
 
-| 傳回碼                     | Description                                                                                                    |
+| 傳回碼                     | 描述                                                                                                    |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------|
 | **SEC \_ E \_ 不正確 \_ 控制碼**     | 在 *phCoNtext* 參數中指定了不正確內容控制碼。 搭配 Schannel SSP 使用。     |
 | **SEC \_ E \_ 不正確 \_ 權杖**      | 緩衝區的類型錯誤，或找不到之 SECBUFFER 資料類型的緩衝區 \_ 。 搭配 Schannel SSP 使用。  |
@@ -95,8 +95,8 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 | 需求 | 值 |
 |--------------------------|-------------------------------------------|
-| 最低支援的用戶端 | \[僅限 WINDOWS XP desktop 應用程式\]          |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\] |
+| 最低支援的用戶端 | Windows\[僅限 XP desktop 應用程式\]          |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\] |
 | 標頭                   | Sspi (包含 Security .h)                |
 | 程式庫                  | Secur32 .lib                               |
 | DLL                      | Secur32.dll                               |

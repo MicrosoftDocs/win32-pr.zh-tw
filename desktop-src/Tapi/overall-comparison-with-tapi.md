@@ -4,12 +4,12 @@ ms.assetid: 2c51f7e3-c741-4736-9611-2327d65b427e
 title: 與 TAPI 的整體比較
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fce81d569d042cdd3eeb87088b1b7027858ca806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecedd5a53fd30e2a49b6d44e90d30f86ff8469f002166ca3328f3146a2748b78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002806"
 ---
 # <a name="overall-comparison-with-tapi"></a>與 TAPI 的整體比較
 

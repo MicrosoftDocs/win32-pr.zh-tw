@@ -4,18 +4,18 @@ description: 您可以使用 Windows 系統評定工具 (WinSAT) API 來起始�
 ms.assetid: b0860c4a-cec3-440c-b31a-7e7ad1b393d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0a23ab35d989a736fa61833e678c0a4c79954e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 23cf26d31ccbd3eb6e51fb1717c055fb6538c57612d374b0a3b7a2a5b2382681
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733778"
 ---
 # <a name="using-winsat"></a>使用 WinSAT
 
 \[在 Windows 8.1 之後，可能會變更或無法使用 WinSAT。\]
 
-您可以使用 Windows 系統評定工具 (WinSAT) API 來起始電腦硬體設定的 [正式和](#initiating-an-assessment) 臨機操作評量、 [取得電腦的基本分數](#retrieving-the-scores-of-the-assessment) 和評量的每個子元件的分數，以及 [取得評量的詳細資料](#retrieving-details-of-the-assessment)，例如評定的處理器詳細資料。
+您可以使用 Windows 系統評定工具 (WinSAT) API 來起始電腦硬體設定的[正式和](#initiating-an-assessment)臨機操作評量、[取得電腦的基本分數](#retrieving-the-scores-of-the-assessment)和評量的每個子元件的分數，以及[取得評量的詳細資料](#retrieving-details-of-the-assessment)，例如評定的處理器詳細資料。
 
 ## <a name="initiating-an-assessment"></a>起始評量
 
@@ -56,9 +56,9 @@ WinSAT API 會提供每個子元件的整體基本分數和分數。 若要取�
 
 如需 XML 架構的詳細資訊，以及您可以取得的詳細資料，請參閱 [WinSAT 架構](winsat-schema.md)。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: bafaa59f-fd1b-e252-cbbd-903df796fde0
 title: 'XMVECTORF32 資料類型 (DirectXMath .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e56e79ea678ede0afcac3523c09da725ede00d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1a39de246e3e0e4ab9a96197dbe4a286cb6ecabe327d60e5c506795af79dd11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739778"
 ---
 # <a name="xmvectorf32-data-type"></a>XMVECTORF32 資料類型
 
@@ -45,7 +45,7 @@ data = floatingVector;
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

@@ -4,12 +4,12 @@ ms.assetid: F4242C05-181B-44FC-BE6C-8ABB76079981
 title: EdgeGesture. DisableTouchWhenFullscreen
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 208962f11b96420a8e0ef771ada846a3f802e815
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13132ba30fd3f1e594ec54966dfe2268ce66d570b66ca6d34b1c63b03bfc0c75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845118"
 ---
 # <a name="systemedgegesturedisabletouchwhenfullscreen"></a>EdgeGesture. DisableTouchWhenFullscreen
 
@@ -43,7 +43,7 @@ propertyDescription
 
 若要停用 edge UI，請將此屬性設定為 VARIANT \_ TRUE。 預設值為 VARIANT \_ FALSE。
 
-這個屬性不會影響 Windows Store 應用程式。
+這個屬性不會影響 Windows 存放區應用程式。
 
 下列範例顯示如何設定 edge UI 行為。
 

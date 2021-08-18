@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6090d3044be134035edb5f1f42a9790859d0301d
-ms.sourcegitcommit: 243954e695c6ab5372b2935b095c3cd0b1202e16
+ms.openlocfilehash: 2133a3f590c46c9e27b518d7621c158b86895961acb07670f6603e03513d1cc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "103932983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014976"
 ---
 # <a name="add-iplisten"></a>add iplisten
 
@@ -53,9 +53,9 @@ add iplisten [ ipaddress=] IPAddress
 
 **add iplisten ipaddress=::**
 
- 
+ 
 
- 
+ 
 
 
 

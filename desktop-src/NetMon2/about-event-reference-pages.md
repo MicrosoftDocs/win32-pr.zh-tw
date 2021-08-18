@@ -4,12 +4,12 @@ ms.assetid: 097bae90-5dab-4f79-a829-648033b38016
 title: 關於事件參考頁面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81e989e3e1d4ab0c41dc78c567c662e8a3090906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f277e2fc31050c5702c1f3cbb3a9b188515386f0b30522fd511771c0b9f3a69e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744868"
 ---
 # <a name="about-event-reference-pages"></a>關於事件參考頁面
 

@@ -4,12 +4,12 @@ ms.assetid: 7c91e560-ac69-47e1-a921-c312b77ecadc
 title: Recompressing AVI 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98d3650aec7bdc64d2d0077eec00601381acdd78
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5cff7e2017f5d5d8bb3aa720727f643c6e71012e4a83bb4d943842948e92ed09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747328"
 ---
 # <a name="recompressing-an-avi-file"></a>Recompressing AVI 檔案
 
@@ -19,7 +19,7 @@ ms.locfileid: "103935870"
 
 -   [選擇壓縮篩選](choosing-a-compression-filter.md)
 -   [設定影片壓縮屬性](setting-video-compression-properties.md)
--   [建立 Recompression 圖形](building-the-recompression-graph.md)
+-   [建立 Recompression Graph](building-the-recompression-graph.md)
 -   [寫入檔案](writing-the-file.md)
 
  

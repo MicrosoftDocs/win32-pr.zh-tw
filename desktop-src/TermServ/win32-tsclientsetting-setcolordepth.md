@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f2b05c6b8ff02b78f48ff45751bdc8e57ef46a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da2c7f31ef04fdfb9dcbfee5e1ca3dcec1386a7dbd0c20824b00bdfe41ac6d48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999858"
 ---
 # <a name="setcolordepth-method-of-the-win32_tsclientsetting-class"></a>Win32 TSClientSetting 類別的 SetColorDepth 方法 \_
 

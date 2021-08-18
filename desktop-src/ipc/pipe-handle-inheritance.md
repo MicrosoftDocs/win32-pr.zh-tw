@@ -4,12 +4,12 @@ ms.assetid: 72302f8b-f3a2-4efc-aab1-e596b8323984
 title: 管道控制碼繼承
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21cf91d4393b43011a2df632806f96da1e713b96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c5c2a5abc19164e0bf71f325f1d6e76b46de75e22513061f7f9634ef7212f26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829308"
 ---
 # <a name="pipe-handle-inheritance"></a>管道控制碼繼承
 

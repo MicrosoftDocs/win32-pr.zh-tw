@@ -27,7 +27,7 @@ ms.locfileid: "118984228"
 
 
 
-| 結構描述                                                                        | Description                                        |
+| 結構描述                                                                        | 描述                                        |
 |-------------------------------------------------------------------------------|----------------------------------------------------|
 | [baseeapmethodconfig](baseeapmethodconfigschema-schema.md)                   | 包含一般設定架構元素。     |
 | [baseeapmethodusercredentials](baseeapmethodusercredentialsschema-schema.md) | 包含一般的認證架構元素。        |
@@ -43,7 +43,7 @@ ms.locfileid: "118984228"
 
 
 
-| 結構描述                                                                            | Description                                                                                  |
+| 結構描述                                                                            | 描述                                                                                  |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [baseeapconnectionpropertiesv1](baseeapconnectionpropertiesv1schema-schema.md)   | 包含一般設定架構元素。                                               |
 | [baseeapuserpropertiesv1](baseeapuserpropertiesv1schema-schema.md)               | 包含一般的認證架構元素。                                                  |

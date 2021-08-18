@@ -4,12 +4,12 @@ ms.assetid: c2e39cdd-0ff8-4030-9bec-9e003b4d9520
 title: 中止 VSS 作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35e4b82ba4227dfeb02e3da91c9bc1e77f10f492
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 120ef8fb16c23d77a24526aad0fd62e56c1888a76dc2de884140094c6591cd78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998268"
 ---
 # <a name="aborting-vss-operations"></a>中止 VSS 作業
 
@@ -23,7 +23,7 @@ ms.locfileid: "107000133"
 
 ## <a name="requester-handling-and-creation-of-abort-events"></a>要求者處理和建立中止事件
 
-[**>ivssbackupcomponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents)介面的實例只能用於一個備份，因此，如果在處理備份時發生錯誤，通常最好是釋放目前的實例，然後重新開始。
+[**>Ivssbackupcomponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents)介面的實例只能用於一個備份，因此，如果在處理備份時發生錯誤，通常最好是釋放目前的實例，然後重新開始。
 
 要求者應該明確地表示它正在中止備份作業 (使用 [**>ivssbackupcomponents：： AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup)) 只有在進行備份的實際準備、涉及寫入器或建立陰影複製時才會發生。
 

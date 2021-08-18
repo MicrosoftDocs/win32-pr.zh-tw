@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2bbba694878ba84ac3c2fa9c4e8058bb0d91830e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 82fe97a6b78a2257208f3072d5932523d5cd04ba1d044b8a57fad5f3c212b94d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744338"
 ---
 # <a name="relative-addressing-hlsl-vs-reference"></a>相對定址 (HLSL 與參考) 
 

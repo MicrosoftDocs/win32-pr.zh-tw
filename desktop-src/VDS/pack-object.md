@@ -4,16 +4,16 @@ ms.assetid: e84a05a0-ea12-4bc1-83e1-1eb0dd291dc9
 title: Pack 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02b01978747df5ccc273a31ae2f516b35c01df96
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: eaa8c565c45b802258b9d8b9955a2d28adc13c73c989805ce6b2663bc3006d7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104566114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058019"
 ---
 # <a name="pack-object"></a>Pack 物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 套件物件會建立磁片群組的模型，這是由基本或動態軟體提供者所管理的磁片和磁片區集合。 提供者可以包含多個套件物件。
 
@@ -26,7 +26,7 @@ ms.locfileid: "104566114"
 
 磁片物件為未配置、由 VDS 管理，或只是一個套件的成員。 基本軟體提供者可以有零或多個套件，每個都包含單一基本磁碟。 提供者對基本磁碟上的磁片區數目沒有任何限制。 動態提供者可以有零或多個套件，且每個套件中都有多個動態磁碟。 此提供者會根據邏輯磁片管理員 (LDM) 資料庫的一 mb 大小，限制磁片上的磁片區數目。 由於磁片區至少有一個 plex 和一個磁片區，因此套件的磁片區數目上限大約是1000。 當磁片數目增加時，最大值會下降。
 
-除了磁片物件之外，套件還可包含一或多個硬體提供者所執行的一或多個 LUN 物件。 在 Windows 核心中，LUN 只是另一個磁片。  (LUN 物件必須在執行提供者程式的電腦上取消遮罩。 ) 當磁片為 LUN 時，LUN 物件會同時公開 [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) 和 [**IVdsDisk**](/windows/desktop/api/Vds/nn-vds-ivdsdisk) 介面。 套件物件會使用 **IVdsDisk**（而不是 **IVdsLun**）來列舉套件中的 lun。 如需 LUN 的詳細描述，請參閱 [Lun 物件](lun-object.md)。
+除了磁片物件之外，套件還可包含一或多個硬體提供者所執行的一或多個 LUN 物件。 對 Windows 核心而言，LUN 只是另一個磁片。  (LUN 物件必須在執行提供者程式的電腦上取消遮罩。 ) 當磁片為 LUN 時，LUN 物件會同時公開 [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun) 和 [**IVdsDisk**](/windows/desktop/api/Vds/nn-vds-ivdsdisk) 介面。 套件物件會使用 **IVdsDisk**（而不是 **IVdsLun**）來列舉套件中的 lun。 如需 LUN 的詳細描述，請參閱 [Lun 物件](lun-object.md)。
 
 下圖顯示具有兩個成員的套件：磁片和 LUN。 應用程式可以將這些物件新增至線上元件，並從磁片區和磁片區所代表的磁片區建立磁片區。
 
@@ -54,7 +54,7 @@ VDS 會強制執行套件內的線上磁碟仲裁。 仲裁會判斷套件是否
 
  
 
-**\* Windows Server 2003：** 在 windows Vista 之前，不支援此介面。
+**\* Windows Server 2003：** Windows Vista 之前，不支援此介面。
 
 ## <a name="related-topics"></a>相關主題
 

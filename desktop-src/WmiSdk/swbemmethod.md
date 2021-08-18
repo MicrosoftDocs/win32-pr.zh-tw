@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 055957bf2774fc1e5c2e1f0149b00ece7b0a1bea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c750e81a3e41450e8cd32f37ccab6fee2f08439c6bc8fc8ae18bf0e4f106b551
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732658"
 ---
 # <a name="swbemmethod-object"></a>SWbemMethod 物件
 
@@ -45,10 +45,10 @@ ms.locfileid: "104512985"
 
 
 
-| 屬性                                                      | 存取類型          | Description                                                                                                                        |
+| 屬性                                                      | 存取類型          | 描述                                                                                                                        |
 |:--------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**InParameters**](swbemmethod-inparameters.md)<br/>   | 唯讀<br/> | [**SWbemObject**](swbemobject.md)物件，其屬性會定義此方法的輸入參數。<br/>              |
-| [**Name**](swbemmethod-name.md)<br/>                   | 唯讀<br/> | 方法的名稱。<br/>                                                                                                     |
+| [**名稱**](swbemmethod-name.md)<br/>                   | 唯讀<br/> | 方法的名稱。<br/>                                                                                                     |
 | [**起源**](swbemmethod-origin.md)<br/>               | 唯讀<br/> | 方法的原始類別。<br/>                                                                                        |
 | [**OutParameters**](swbemmethod-outparameters.md)<br/> | 唯讀<br/> | [**SWbemObject**](swbemobject.md)物件，其屬性會定義此方法的 out 參數和傳回型別。<br/> |
 | [**限定詞\_**](swbemmethod-qualifiers-.md)<br/>    | 唯讀<br/> | [**SWbemQualifierSet**](swbemqualifierset.md)物件，其中包含這個方法的限定詞。<br/>                  |
@@ -65,8 +65,8 @@ ms.locfileid: "104512985"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemMethod<br/>                                                           |
 | IID<br/>                      | IID \_ ISWbemMethod<br/>                                                            |

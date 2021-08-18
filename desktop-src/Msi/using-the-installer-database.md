@@ -4,12 +4,12 @@ ms.assetid: 058cefcd-83dd-4a13-bd55-11d52f9d41f5
 title: 使用安裝程式資料庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb22b9c66547c849b4c9cbd012e78b22d9301756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dec91d8982a8ddac47c96303f03a33e4c85cafa70c3ef480c660df42e72f8a84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996058"
 ---
 # <a name="using-the-installer-database"></a>使用安裝程式資料庫
 

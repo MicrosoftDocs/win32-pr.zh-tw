@@ -4,12 +4,12 @@ ms.assetid: 4f0710ee-500d-49ff-bc70-923dd7afb1f7
 title: TAPI 快速入門
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0343063e83097ab43b196713db36ece9d5cbfa2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ddb08dfef88bc8f2a5d1d8f93db81a24aa3ffa89b7e9c78a83bdcdc2689b0de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002686"
 ---
 # <a name="tapi-quick-start"></a>TAPI 快速入門
 
@@ -44,7 +44,7 @@ Windows SDK 的 [範例] 區段包含 C、c + + 和 Visual Basic 的完整編譯
 
 
 
-| 區域     | 連結                                                                                                                                                                                                  |
+| 區域圖     | 連結                                                                                                                                                                                                  |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TAPI 2。x | [TAPI 快速函數參考](./tapi-quick-function-reference.md)                                                                                                                           |
 | TAPI 3。x | [通話和媒體控制項快速參考](call-and-media-controls-quick-reference.md)會合[IP 電話語音會議參考](rendezvous-ip-telephony-conferencing-reference.md)<br/> |
@@ -71,7 +71,7 @@ Microsoft 裝載多個新聞群組，包括一個專門用於 TAPI 的新聞群�
 
 [https://msdn.microsoft.com/newsgroups](https://www.microsoft.com/communities/newsgroups/)
 
-在左窗格中，流覽至 [Windows 開發]，然後 Windows SDK 並選擇 [win32]。
+在左窗格中，流覽至 Windows 開發]，然後 Windows SDK 並選擇 [win32]。
 
  
 

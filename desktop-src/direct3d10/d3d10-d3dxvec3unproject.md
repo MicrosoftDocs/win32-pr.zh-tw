@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 08d38691d0e780e49293149bdb7a08b1ea0ef1fb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 14f8bb3d75d1a949919d401babb47987fbb88a7cac82f017947f069df4b99e6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497860"
 ---
 # <a name="d3dxvec3unproject-function-d3dx10mathh"></a>D3DXVec3Unproject 函式 (D3DX10Math) 
 

@@ -4,12 +4,12 @@ ms.assetid: 86f3396c-b32a-4d70-9f21-e38a745f78bf
 title: 表示 IEC 61937 傳輸的格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a607770a388a11978d0e4666b5046506b6698c
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: f0de8fb8910ee3534d8878cdab2c35a01f17115de477ba30ea821e89ae11b8b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018286"
 ---
 # <a name="representing-formats-for-iec-61937-transmissions"></a>表示 IEC 61937 傳輸的格式
 
@@ -21,7 +21,7 @@ ms.locfileid: "110549293"
 
 -   目標裝置上已解碼音訊串流的特性。
 
-在 Windows Vista 和舊版 Windows 作業系統中，應用程式可以從頻道數目、取樣大小，以及使用此格式之音訊串流的資料速率，推斷音訊格式的品質等級。 針對 PCM 格式，可從指定格式的 **WAVEFORMATEX** 結構的 **nChannels**、 **nSamplesPerSec** 和 **nAvgBytesPerSec** 成員取得這項資訊。 針對非 PCM 格式，已 commandeered 這三個成員，以將壓縮資料的相關資訊儲存在音訊資料流程中。 因此， **WAVEFORMATEX** 結構在解壓縮並播放串流之後，缺乏非 PCM 音訊串流的有效通道、取樣大小和資料速率的相關資訊。 根據此結構中的資訊，使用者或應用程式可能難以推斷非 PCM 串流的品質等級。
+在 Windows Vista 和 Windows 舊版的作業系統中，應用程式可以從通道數目、取樣大小，以及使用此格式之音訊串流的資料速率，推斷音訊格式的品質等級。 針對 PCM 格式，可從指定格式的 **WAVEFORMATEX** 結構的 **nChannels**、 **nSamplesPerSec** 和 **nAvgBytesPerSec** 成員取得這項資訊。 針對非 PCM 格式，已 commandeered 這三個成員，以將壓縮資料的相關資訊儲存在音訊資料流程中。 因此， **WAVEFORMATEX** 結構在解壓縮並播放串流之後，缺乏非 PCM 音訊串流的有效通道、取樣大小和資料速率的相關資訊。 根據此結構中的資訊，使用者或應用程式可能難以推斷非 PCM 串流的品質等級。
 
 **WAVEFORMATEX** 已延伸至 **WAVEFORMATEXTENSIBLE** 結構，以提供額外的資料流程特性。 不過，此結構也不適合用來描述 IEC 61937 傳輸的資料流程，因為它的目的是要代表一組特性，並且用於未壓縮的多重通道 PCM 資料。
 
@@ -39,13 +39,13 @@ ms.locfileid: "110549293"
 
 ## <a name="subformat-guids"></a>SubFormat Guid
 
-在 Windows 7 中，KsMedia 標頭包含 CEA-861-D 所定義之壓縮音訊格式的 SubFormat Guid 定義。 Guid 是在 **WAVEFORMATEXTENSIBLE** 的 SubFormat 成員中指定，在 **WAVEFORMATEXTENSIBLE \_ IEC61937** 結構的 **FormatExt** 成員中指定 (`WAVEFORMATEXTENSIBLE_IEC61937.FormatExt.Subformat`) 。
+在 Windows 7 中，KsMedia 標頭包含 CEA-861-D 所定義之壓縮音訊格式的 SubFormat guid 定義。 Guid 是在 **WAVEFORMATEXTENSIBLE** 的 SubFormat 成員中指定，在 **WAVEFORMATEXTENSIBLE \_ IEC61937** 結構的 **FormatExt** 成員中指定 (`WAVEFORMATEXTENSIBLE_IEC61937.FormatExt.Subformat`) 。
 
-下表列出以標準 IEC 61937 編碼音訊格式提供之壓縮音訊格式的 Guid。 這些格式類似于現有的現用程式碼 3 (AC-3) 和數位劇院音效 (DTS) 格式的標記法在 Windows 中。
+下表列出以標準 IEC 61937 編碼音訊格式提供之壓縮音訊格式的 Guid。 這些格式類似于現有的使用中程式碼 3 (AC-3) 和數位劇院音效 (DTS) 格式標記法 Windows。
 
 
 
-| CEA 861 類型 | SubFormat GUID                                                                                                          | Description                                  |
+| CEA 861 類型 | SubFormat GUID                                                                                                          | 描述                                  |
 |--------------|-------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
 | 0x00         |                                                                                                                         | 請參閱資料流程。                         |
 | 0x01         | 00000000-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ WAVEFORMATEX<br/>                          | IEC 60958 PCM                                |
@@ -70,23 +70,23 @@ ms.locfileid: "110549293"
 
 
 
-| CEA 861 類型 | SubFormat GUID                                                                                           | Description                                                                                                                     |
+| CEA 861 類型 | SubFormat GUID                                                                                           | 描述                                                                                                                     |
 |--------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | 0x0b         | 0000000b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ DTS \_ HD<br/>      | DTS-HD (24 位、96Khz)                                                                                                           |
 | 0x0c         | 0000000c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ 杜比 \_ MLP<br/>   | 杜比1.0：<br/> 杜比 TrueHD (MLP –經線無失真封裝) –24位 192KHz/高達 18 Mbps、8個通道)  <br/> |
 | 0x0c         | 0000010c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ 杜比 \_ MAT20<br/> | 杜比2.0： <br/> 杜比 TrueHD –24位 192KHz/最高可達 18 Mbps、8個通道或 LPCM，最高可達 24 Mbps。 <br/>           |
 | 0x0c         | 0000030c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ 杜比 \_ MAT21<br/> | 杜比2.1： <br/> 杜比 TrueHD –24位 192KHz/最高可達 18 Mbps、8個通道或 LPCM，最高可達 24 Mbps。 <br/>           |
-| 0x0e         | 00000164-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ WMA \_ PRO<br/>     | Windows Media 音訊 (WMA) Pro                                                                                                   |
+| 0x0e         | 00000164-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ WMA \_ PRO<br/>     | WindowsMedia Audio (WMA) Pro                                                                                                   |
 
 
 
  
 
-Microsoft 提供的 HD 音訊類別驅動程式支援 PCM、AC3、DTS、AAC、杜比數位 Plus、WMA Pro、 (MLP) 格式。 HD 音訊類別驅動程式不支援且可由協力廠商解決方案執行的壓縮音訊格式 Guid，如下表所示。
+Microsoft 提供的 HD 音訊類別驅動程式支援 PCM、AC3、DTS、AAC、杜數位 Plus、WMA Pro、 (MLP) 格式。 HD 音訊類別驅動程式不支援且可由協力廠商解決方案執行的壓縮音訊格式 Guid，如下表所示。
 
 
 
-| CEA 861 類型 | SubFormat GUID                                                                                              | Description                                                                    |
+| CEA 861 類型 | SubFormat GUID                                                                                              | 描述                                                                    |
 |--------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | 0x08         | 00000008-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ ATRAC<br/>           | 適應性轉換聲場編碼 (ATRAC)                                      |
 | 0x09         | 00000009-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ 一個 \_ 位 \_ 音訊<br/> | One-Bit 音訊                                                                  |
@@ -205,11 +205,11 @@ wfext.dwAverageBytesPerSec = 0;                             // Ignored for this 
 
 ## <a name="wma-pro"></a>WMA Pro
 
-您可以在下表所列的四個設定檔中的其中一個來編碼 WMA Pro 音訊內容。
+WMA Pro 音訊內容可在下表所列的四個設定檔中的其中一個進行編碼。
 
 
 
-| 設定檔 | 屬性-值                                                                                                                                                                                                                                                      | Description                                                                                                                         |
+| 設定檔 | 屬性-值                                                                                                                                                                                                                                                      | 描述                                                                                                                         |
 |---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | M0      | 最大位元速率– 192000 bps <br/> 最大取樣率– 48 KHz <br/> 最大頻道計數-2 <br/> 緩衝區大小上限– 600 \* 1024 位 <br/> 每一框架的樣本數上限-2048 <br/> 每一框架的最大位數-655536<br/>   | 建議使用無線音樂和串流。<br/> 音訊框架中的最大位元速率為 1536000 bps。<br/>          |
 | M1      | 最大位元速率– 385000 bps <br/> 最大取樣率– 48 KHz <br/> 最大頻道計數–6 <br/> 緩衝區大小上限– 600 \* 1024 位 <br/> 每一框架的樣本數上限-4096 <br/> 每一框架的最大位數-131072<br/>   | 建議用於環繞音效標準定義影片。<br/> 音訊框架中的最大位元速率為 1536000 bps。<br/> |

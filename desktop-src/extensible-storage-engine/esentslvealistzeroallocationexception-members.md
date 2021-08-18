@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102797
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c8f02701ecc91ca1f854ed87ef1b5575fea6e49c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c02dc22dffa5cce8eaea2be3f9823a90d2a95146993be634a597fa4ba0ff327
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722488"
 ---
 # <a name="esentslvealistzeroallocationexception-members"></a>EsentSLVEAListZeroAllocationException 成員
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 8b4f8a0e9ff5e63c08ff3911312a5e62f16bd0b4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 39fe281d367a3718d72b66324b608591fe4cf7359f833dec877d5725afdbc040
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768688"
 ---
 # <a name="id2d1devicecontext2drawgdimetafile-methods"></a>ID2D1DeviceCoNtext2：:D rawGdiMetafile 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 從 Windows Vista 開始，當用來開啟或儲存檔案時，[一般專案] 對話方塊會取代舊的 [一般檔案] 對話方塊。
+description: 從 Windows Vista 開始，[一般專案] 對話方塊會在用來開啟或儲存檔案時取代舊版的 [一般檔案] 對話方塊。
 title: 一般專案對話方塊
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 896514779b2ba3d11d3db0551f82e21f1d4120b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 2956bf7329ff9c92b777199d040d1275aa827cfa9ea9c8bfbec175d234b204f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943518"
 ---
 # <a name="common-item-dialog"></a>一般專案對話方塊
 
-從 Windows Vista 開始，當用來開啟或儲存檔案時，[一般專案] 對話方塊會取代舊的 [一般檔案] 對話方塊。 [一般專案] 對話方塊用於兩種變化： [ **開啟** ] 對話方塊和 [ **儲存** ] 對話方塊。 這兩個對話方塊共用大部分的功能，但每個都有自己的唯一方法。
+從 Windows Vista 開始，[一般專案] 對話方塊會在用來開啟或儲存檔案時取代舊版的 [一般檔案] 對話方塊。 [一般專案] 對話方塊用於兩種變化： [ **開啟** ] 對話方塊和 [ **儲存** ] 對話方塊。 這兩個對話方塊共用大部分的功能，但每個都有自己的唯一方法。
 
 雖然這個較新的版本命名為 [一般專案] 對話方塊，但在大部分的檔中，它仍會繼續稱為 [一般檔案] 對話方塊。 除非您處理的是舊版 Windows，否則您應該假設任何提及的 [一般檔案] 對話方塊都會參考這個 [一般專案] 對話方塊。
 
@@ -37,7 +37,7 @@ ms.locfileid: "104318115"
 
 ## <a name="ifiledialog-ifileopendialog-and-ifilesavedialog"></a>IFileDialog、IFileOpenDialog 和 IFileSaveDialog
 
-Windows Vista 提供 [ **開啟** ] 和 [ **儲存** ] 對話方塊的實作為： clsid \_ FileOpenDialog 和 clsid \_ FileSaveDialog。 這些對話方塊如下所示。
+WindowsVista 提供 [**開啟**] 和 [**儲存**] 對話方塊的實作為： clsid \_ FileOpenDialog 和 clsid \_ FileSaveDialog。 這些對話方塊如下所示。
 
 ![[開啟] 對話方塊的螢幕擷取畫面](images/cid/openfiledialog.png)
 
@@ -45,14 +45,14 @@ Windows Vista 提供 [ **開啟** ] 和 [ **儲存** ] 對話方塊的實作為�
 
 [**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog) 和 [**IFileSaveDialog**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog) 繼承自 [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog) ，並共用許多功能。 此外，[ **開啟** ] 對話方塊支援 **IFileOpenDialog**，而 [ **儲存** ] 對話方塊支援 **IFileSaveDialog**。
 
-在 Windows Vista 中找到的通用專案對話方塊可提供比舊版中提供的數個優點：
+在 Windows Vista 中找到的常見專案對話方塊可提供數個優點，而不是舊版提供的實作為：
 
 -   支援透過 [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) 直接使用 Shell 命名空間，而不是使用檔案系統路徑。
 -   啟用對話方塊的簡單自訂，例如在 [ **確定]** 按鈕上設定標籤，而不需要進行勾點程式。
 -   藉由新增一組在不使用 Win32 對話方塊範本運作的資料驅動控制項，支援更廣泛的對話自訂。 這個自訂配置會釋出 UI 配置的呼叫進程。 由於對話方塊設計的任何變更會繼續使用此資料模型，因此對話的執行不會系結至特定的目前版本對話方塊。
 -   支援對話方塊內事件的呼叫端通知，例如選取範圍變更或檔案類型變更。 也可讓呼叫進程攔截對話方塊中的特定事件，例如剖析。
 -   引進新的對話方塊功能，例如將呼叫者指定的位置新增至 **位置** 列。
--   在 [ **儲存** ] 對話方塊中，開發人員可以利用 Windows Vista Shell 的新中繼資料功能。
+-   在 [**儲存**] 對話方塊中，開發人員可以利用 Windows Vista Shell 的新中繼資料功能。
 
 此外，開發人員也可以選擇執行下列介面：
 
@@ -78,11 +78,11 @@ Windows Vista 提供 [ **開啟** ] 和 [ **儲存** ] 對話方塊的實作為�
 -   [狀態持續性](#state-persistence)
 -   [多重複選功能](#multiselect-capabilities)
 
-大部分的範例程式碼都可以在 Windows SDK 一般檔案 [對話方塊範例](samples-commonfiledialog.md)中找到。
+大部分的範例程式碼都可以在 Windows SDK 一般檔案[對話方塊範例](samples-commonfiledialog.md)中找到。
 
 ### <a name="basic-usage"></a>基本使用方式
 
-下列範例說明如何啟動 **開啟** 的對話方塊。 在此範例中，它會限制為 Microsoft Word 檔。
+下列範例說明如何啟動 **開啟** 的對話方塊。 在此範例中，它受限於 Microsoft Word 檔。
 
 > [!Note]  
 > 本主題中的數個範例會使用 `CDialogEventHandler_CreateInstance` helper 函式來建立 [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents) 執行的實例。 若要在您自己的程式碼中使用此函式，請 `CDialogEventHandler_CreateInstance` 從 [ [一般檔案] 對話方塊範例](samples-commonfiledialog.md)複製函式的原始程式碼，此範例取自本主題中的所有範例。
@@ -304,7 +304,7 @@ HRESULT AddItemsToCommonPlaces()
 
 ### <a name="state-persistence"></a>狀態持續性
 
-在 Windows Vista 之前，狀態（例如 [上次流覽的] 資料夾）是以每個進程為基礎進行儲存。 不過，無論特定動作為何，都會使用該資訊。 例如，影片編輯應用程式會在 [轉譯 **為** ] 對話方塊中顯示相同的資料夾，就像在 [匯 **入媒體** ] 對話方塊中一樣。 在 Windows Vista 中，您可以透過使用 Guid 來更加明確。 若要將 **GUID** 指派給對話，請呼叫 [**IFileDialog：： SetClientGuid**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid)。
+在 Windows Vista 之前，會以每個進程為基礎來儲存狀態，例如最後流覽的資料夾。 不過，無論特定動作為何，都會使用該資訊。 例如，影片編輯應用程式會在 [轉譯 **為** ] 對話方塊中顯示相同的資料夾，就像在 [匯 **入媒體** ] 對話方塊中一樣。 在 Windows Vista 中，您可以透過使用 guid 來更加明確。 若要將 **GUID** 指派給對話，請呼叫 [**IFileDialog：： SetClientGuid**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid)。
 
 ### <a name="multiselect-capabilities"></a>多重複選功能
 

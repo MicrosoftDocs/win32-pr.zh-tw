@@ -4,12 +4,12 @@ ms.assetid: CF900CB4-8967-40F3-B60C-867192A641E9
 title: 'MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ff5e9a47c07c8d7a2cec4e7dbf7b34669301122
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a885786674c524b382912100171502dba78a010b2169738233b5aaad88ed701a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973917"
 ---
 # <a name="mf_capture_metadata_photo_frame_flash-attribute"></a>MF \_ CAPTURE \_ METADATA \_ PHOTO \_ FRAME \_ FLASH 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "106974182"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

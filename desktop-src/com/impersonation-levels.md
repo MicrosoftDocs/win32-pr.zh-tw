@@ -4,12 +4,12 @@ description: 如果模擬成功，就表示用戶端已同意讓伺服器成為�
 ms.assetid: 7539bbee-063f-4788-aece-7b70684826c8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85286e5fa880ea7620d6f6ccb6107bf139ec2005
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: fca691c89e7ff4a12e279ae0ecd0fd04cb31a951c8ac3f2671201fe99dd5900a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756388"
 ---
 # <a name="impersonation-levels"></a>模擬層級
 
@@ -74,6 +74,6 @@ ms.locfileid: "103842751"
 [委派和模擬](delegation-and-impersonation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

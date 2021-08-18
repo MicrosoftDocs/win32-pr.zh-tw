@@ -4,12 +4,12 @@ description: 若要使用 COM 介面，您的程式首先會建立物件的實�
 ms.assetid: 75f2115d-d49d-4e4e-8f99-67a231559ba6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96f96e4d9c2afbac028bfcefffcec6a070c78c8b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a7e15874e1d4dcb6bc29fad90f40f90b478c805ccc7b0d0085f560a8b56e2247
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913761"
 ---
 # <a name="creating-an-object-in-com"></a>在 COM 中建立物件
 
@@ -116,7 +116,7 @@ else
 
 
 
- 
+ 
 
 特定元件的檔可能會告訴您該物件所支援的執行內容。 如果不是，請使用 [ **\_ 全部 CLSCTX**]。 如果您要求物件不支援的執行內容， [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) 函數會傳回錯誤碼 **REGDB \_ E \_ CLASSNOTREG**。 這個錯誤碼也可以指出 CLSID 沒有對應到使用者電腦上註冊的任何元件。
 
@@ -132,6 +132,6 @@ else
 
 [範例：開啟對話方塊](example--the-open-dialog-box.md)
 
- 
+ 
 
- 
+ 

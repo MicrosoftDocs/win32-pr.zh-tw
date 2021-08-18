@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac3f7a883f50b06c8d142cb83bedf0bfa2920191
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec8a446164bb7ae51d36d1a89219f6c3b84eff74b9af3a40c2121b3bd205a581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741738"
 ---
 # <a name="helpmsgstring-message"></a>HELPMSGSTRING 訊息
 
@@ -70,7 +70,7 @@ ms.locfileid: "104106013"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Commdlg (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Commdlg (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **HELPMSGSTRINGW** (Unicode) 和 **HELPMSGSTRINGA** (ANSI) <br/>                                    |
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "104106013"
 **參考**
 </dt> <dt>
 
-[**CDN \_ 說明**](cdn-help.md)
+[**CDN \_説明**](cdn-help.md)
 </dt> <dt>
 
 [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1)

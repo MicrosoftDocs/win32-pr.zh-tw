@@ -4,12 +4,12 @@ ms.assetid: 05b3d7b6-7628-4a5f-87b7-9d51ead51c79
 title: 使用 XPS 檔 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8870c64bfa8fe478fb71174703c82a96e3723c53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aef3c7ddf004d11c67f6a5a3a464efe27c24cab5fb7a305cbbf6abfecb0fbbeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718578"
 ---
 # <a name="using-xps-document-api"></a>使用 XPS 檔 API
 

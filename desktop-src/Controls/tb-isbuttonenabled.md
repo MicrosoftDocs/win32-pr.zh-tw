@@ -3,7 +3,7 @@ title: 'TB_ISBUTTONENABLED 訊息 (Commctrl .h) '
 description: 判斷是否已啟用工具列中指定的按鈕。
 ms.assetid: 055ed89a-2f3a-4174-b249-c6e68afbad31
 keywords:
-- TB_ISBUTTONENABLED message Windows 控制項
+- TB_ISBUTTONENABLED 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1647d158f0e19ce9dc110a475990cfcc9deff770
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07ceb230edb693e065a7ef0455c1374b410a2dcd86995dc1a0ec8c2b354ae028
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918458"
 ---
 # <a name="tb_isbuttonenabled-message"></a>TB \_ ISBUTTONENABLED 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103843348"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

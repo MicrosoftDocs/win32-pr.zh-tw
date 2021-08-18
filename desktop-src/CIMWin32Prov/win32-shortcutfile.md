@@ -48,12 +48,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b714b4c8119f92931235734664726123744064d8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8f1951d4c52087330ac28e23e59e9403c67aff44bf7f9e94c63d3bfa7fc1bded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917498"
 ---
 # <a name="win32_shortcutfile-class"></a>Win32 \_ ShortcutFile 類別
 
@@ -505,7 +505,7 @@ class Win32_ShortcutFile : CIM_DataFile
 
 </dd> <dt>
 
-**分機**
+**延伸模組**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -743,7 +743,7 @@ class Win32_ShortcutFile : CIM_DataFile
 
 Name 屬性是一個字串，代表繼承的名稱，做為檔案系統內的邏輯檔案實例的索引鍵。 應提供完整路徑名稱。
 
-範例： C： \\ Windows \\ system \\win.ini
+範例： C： \\ Windows \\ 系統 \\win.ini
 
 這個屬性繼承自 [**CIM \_ LogicalFile**](cim-logicalfile.md)。
 

@@ -4,12 +4,12 @@ ms.assetid: 9a2131b2-ec4a-492a-a277-bd26ec8d67e5
 title: DuckingCaptureSample
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 636fe39e8fa27beee14ab17548f5929d1d937b20
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 76515f9d20e31bf4583b715e09da38c29bfdac34f6c975087f64bf2617696542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018456"
 ---
 # <a name="duckingcapturesample"></a>DuckingCaptureSample
 
@@ -24,7 +24,7 @@ ms.locfileid: "103847577"
 -   [執行範例](#running-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 這個範例會示範下列功能。
 
@@ -51,7 +51,7 @@ ms.locfileid: "103847577"
 
 
 
-| Location    | 路徑/URL                                                                                              |
+| 位置    | 路徑/URL                                                                                              |
 |-------------|-------------------------------------------------------------------------------------------------------|
 | Windows SDK | \\Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ 多媒體 \\ 音訊 \\ DuckingCaptureSample \\ .。。 |
 
@@ -64,7 +64,7 @@ ms.locfileid: "103847577"
 若要建立 DuckingCaptureSample 範例，請使用下列步驟：
 
 1.  在 Visual Studio 2008 中開啟 DuckingCaptureSample .sln。
-2.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 SDK 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 SDK 組建環境。 在此情況下，除非您明確設定在專案檔 DuckingCaptureSample 中使用的環境變數 MSSdk，否則此範例不會建立。
+2.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 sdk 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 sdk 組建環境。 在此情況下，除非您明確設定在專案檔 DuckingCaptureSample 中使用的環境變數 MSSdk，否則此範例不會建立。
 
 ## <a name="running-the-sample"></a>執行範例
 
