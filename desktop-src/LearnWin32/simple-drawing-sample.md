@@ -4,12 +4,12 @@ description: 這個範例應用程式是非常簡單的繪圖程式，示範如�
 ms.assetid: 4E4CCBF3-4FDD-4487-B1F5-A5D0C383226F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d12b60fcde56ada3f58d5cd584fe7e865f4b99a
-ms.sourcegitcommit: 8eac40ea4d87a85e036ed5bbffec7b7a3dab39ec
+ms.openlocfilehash: 5fea34ae27fb1be599400e869f7f1f92086bb0c67cd6d5d5cfe75d04109d798c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "104565446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896918"
 ---
 # <a name="simple-drawing-sample"></a>簡單繪圖範例
 
@@ -23,6 +23,6 @@ ms.locfileid: "104565446"
 
 ## <a name="related-topics"></a>相關主題
 
-* [學習如何撰寫 Windows 程式：範例程式碼](learn-to-program-for-windows--sample-code.md)
+* [瞭解如何 Windows 程式碼：程式碼範例](learn-to-program-for-windows--sample-code.md)
 * [模組4：使用者輸入](module-4--user-input.md)
 * [使用者輸入：擴充的範例](user-input--extended-example.md)

@@ -4,12 +4,12 @@ description: 函數傳回值類似于僅限 \t 參數，因為它們的資料不
 ms.assetid: 98d8d228-7222-49bf-9f29-7749a7a76d5a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ada3808d024f201ef01a5f4977149a0ab9c75e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 525c63422b058da5267003711efa612814907eb91ced353bd78ee78a820a7377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020998"
 ---
 # <a name="function-return-values"></a>函數傳回值
 
@@ -19,6 +19,6 @@ ms.locfileid: "106967918"
 
 指標類型的函式傳回值是由用戶端存根配置，並且會呼叫 [midl \_ 使用者 \_ 配置](/windows/desktop/Midl/midl-user-allocate-1)。 因此，只有 unique 或 full 指標屬性可以套用至指標函式的傳回型別。
 
- 
+ 
 
- 
+ 

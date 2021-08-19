@@ -4,12 +4,12 @@ ms.assetid: 14631336-adfc-4edf-81ef-63e426d41c87
 title: '屬性 (檔和列印) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e43b52c054972ee0ee2b8a535021581c05e7d96
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: dedeb635ec0f16fe4caee48d8e5db7fbcc8bfe6651e3bdc4de2166dbbc053286
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886318"
 ---
 # <a name="property-documents-and-printing"></a>屬性 (檔和列印) 
 

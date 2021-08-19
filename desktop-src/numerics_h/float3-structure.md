@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ae524205c900c63438a50094dcd551a4903632b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 521c63f99c35e68f18d9a6c0a81118f647ff131effb0f6528e2ef3882c43e234
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939509"
 ---
 # <a name="float3-structure"></a>float3 結構
 
@@ -39,7 +39,7 @@ ms.locfileid: "106981662"
 
 ## <a name="functions"></a>函式
 
-| Name | 描述 |
+| 名稱 | 描述 |
 |-|-|
 | `float length(float3 const& value)` | 計算向量的長度（或 Euclidean 距離）。 |
 | `float length_squared(float3 const& value)` | 計算向量平方的長度（或 Euclidean 距離）。 |
@@ -69,7 +69,7 @@ ms.locfileid: "106981662"
 
 ## <a name="operators"></a>運算子
 
-| Name | 描述 |
+| 名稱 | 描述 |
 |-|-|
 | `float3 operator+ (float3 const& value1, float3 const& value2)` | 新增兩個向量。 |
 | `float3 operator- (float3 const& value1, float3 const& value2)` | 從向量減去向量。 |

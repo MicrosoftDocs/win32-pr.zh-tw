@@ -1,5 +1,5 @@
 ---
-description: 連接至遠端電腦上的 WMI 命名空間，可能需要您變更 Windows 防火牆、使用者帳戶控制 (UAC) 、DCOM 或通用訊息模型物件管理員的設定， (CIMOM) 。
+description: 連接至遠端電腦上的 WMI 命名空間，可能需要您變更 Windows 防火牆、使用者帳戶控制 (UAC) 、DCOM 或通用訊息模型物件管理員的設定 (CIMOM) 。
 ms.assetid: 028b3101-0945-4288-bf32-ef4ad12a55f9
 ms.tgt_platform: multiple
 title: 設定遠端 WMI 連接
@@ -10,20 +10,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6ee254e12ecd806cd286d4a55746e203a3136b6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b88aa453646e60bf17e31f1197d76506bb4f75453eb800dc0fa272946a3bf8df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925700"
 ---
 # <a name="setting-up-a-remote-wmi-connection"></a>設定遠端 WMI 連接
 
-連接至遠端電腦上的 WMI 命名空間，可能需要您變更 [Windows 防火牆](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11))、 [使用者帳戶控制 (UAC) ](/previous-versions/aa905108(v=msdn.10))、DCOM 或通用訊息模型物件管理員的設定， (CIMOM) 。
+連接至遠端電腦上的 WMI 命名空間，可能需要您變更[Windows 防火牆](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11))、[使用者帳戶控制 (UAC) ](/previous-versions/aa905108(v=msdn.10))、DCOM 或通用訊息模型物件管理員的設定 (CIMOM) 。
 
 本主題將討論下列各節：
 
--   [Windows 防火牆設定](#windows-firewall-settings)
+-   [Windows防火牆設定](#windows-firewall-settings)
 -   [使用者帳戶控制設定](#user-account-control-settings)
 -   [DCOM 設定](#dcom-settings)
 -   [CIMOM 設定](#cimom-settings)
@@ -31,7 +31,7 @@ ms.locfileid: "104513072"
 
 ## <a name="windows-firewall-settings"></a>Windows 防火牆設定
 
-Windows 防火牆設定的 WMI 設定只會啟用 WMI 連接，而不是其他 DCOM 應用程式。
+Windows 防火牆設定的 wmi 設定只會啟用 wmi 連接，而不是其他 DCOM 應用程式。
 
 您必須在遠端目的電腦上的適用于 WMI 的防火牆中設定例外狀況。 WMI 的例外狀況可讓 WMI 接收遠端連線，以及 Unsecapp.exe 的非同步回呼。 如需詳細資訊，請參閱 [在非同步呼叫上設定安全性](setting-security-on-an-asynchronous-call.md)。
 
@@ -39,12 +39,12 @@ Windows 防火牆設定的 WMI 設定只會啟用 WMI 連接，而不是其他 D
 
 WMI 的例外狀況也適用于 WMI 以固定通訊埠啟動時，使用 **winmgmt/standalonehost** 命令。 如需詳細資訊，請參閱 [設定 WMI 的固定通訊埠](setting-up-a-fixed-port-for-wmi.md)。
 
-您可以透過 Windows 防火牆 UI 啟用或停用 WMI 流量。
+您可以透過 Windows 防火牆 UI 來啟用或停用 WMI 流量。
 
 **使用防火牆 UI 啟用或停用 WMI 流量**
 
-1.  在 [ **主控台** 中，按一下 [ **安全性** ]，然後按一下 [ **Windows 防火牆**]。
-2.  按一下 [ **變更設定** ]，然後按一下 [ **例外** ] 索引標籤。
+1.  在 [**主控台** 中，按一下 [**安全性**]，然後按一下 [ **Windows 防火牆**]。
+2.  按一下 [**變更] 設定** 然後按一下 [**例外**] 索引標籤。
 3.  在 [例外狀況] 視窗中，選取 [ **wmi) 的 Windows Management Instrumentation (** ] 核取方塊，以啟用通過防火牆的 wmi 流量。 若要停用 WMI 流量，請清除此核取方塊。
 
 您可以在命令提示字元中，透過防火牆啟用或停用 WMI 流量。

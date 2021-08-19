@@ -4,12 +4,12 @@ ms.assetid: bc3de1bd-b833-459d-81a3-c6b08314e26f
 title: 多重值 (陣列) 比較
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77710ecdddcf289c9a5c64d0c5f57ca449311097
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 043ed6744717ac3156d9dd64f2f6806f2ffc509107f5bcdc8a66980e5cdd0012
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863367"
 ---
 # <a name="multi-valued-array-comparisons"></a>多重值 (陣列) 比較
 

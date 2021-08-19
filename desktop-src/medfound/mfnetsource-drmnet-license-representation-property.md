@@ -4,12 +4,12 @@ ms.assetid: 866a9706-0b0a-4675-af61-5f55a5a69014
 title: 'MFNETSOURCE_DRMNET_LICENSE_REPRESENTATION 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92af9a17779381aaed2d2226e17023ca40bc9c1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2718ba8a13d8d0c00114449f1141be77db0d3f83930d3b3de2171719c3bdf2d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113548"
 ---
 # <a name="mfnetsource_drmnet_license_representation-property"></a>MFNETSOURCE \_ DRMNET \_ 授權 \_ 表示屬性
 
@@ -43,8 +43,8 @@ VT \_ BLOB
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SWbemRefresher 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65375555650af7b473b98cd9c8339225f1881a45
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 17f16782addfb5a6a83358fbd55cd82ec0e168e4900e9e3289265c1a77b327b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106992231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639698"
 ---
 # <a name="swbemrefresher-methods"></a>SWbemRefresher 方法
 

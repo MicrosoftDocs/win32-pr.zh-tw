@@ -15,7 +15,7 @@ ms.locfileid: "119882938"
 
 EnrollNestedCMC 範例會從檔案讀取現有的 CMC 憑證要求、將其包裝在另一個 CMC 要求中、簽署此外部要求、將它提交給憑證授權單位單位 (CA) ，然後將憑證回應儲存至檔案。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
 當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ X509 憑證註冊 \\ VC \\ enrollNestedCMC 資料夾中安裝範例。
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c73ba5f7a14a5efc6711a65f211cd036e1c2a14d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 01579f460ceb9a3099adefef48e9fc203e042956713478273ce654fce3a34022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047276"
 ---
 # <a name="rolesformethod-collection"></a>RolesForMethod 集合
 
@@ -47,7 +47,7 @@ ms.locfileid: "107001651"
 
 -   [名稱](#name)
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 
 

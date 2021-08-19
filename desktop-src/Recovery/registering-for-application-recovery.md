@@ -4,12 +4,12 @@ ms.assetid: 2940b1b2-a0ca-4f81-a576-ae6d53ffd4a8
 description: 深入瞭解：註冊應用程式復原
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 056232bc2a8a10857ff07900ce261d95ed719b81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ce2a67a36b26895fdc16652dd271b3b244d0860c14c268144c1357fa3cf51c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024581"
 ---
 # <a name="registering-for-application-recovery"></a>註冊應用程式復原
 
@@ -25,7 +25,7 @@ ms.locfileid: "106983490"
 
 ## <a name="recovering-when-an-application-experiences-an-unhandled-exception-or-stops-responding"></a>當應用程式遇到未處理的例外狀況或停止回應時復原
 
-若要註冊修復回呼，請呼叫 [**RegisterApplicationRecoveryCallback**](/windows/win32/api/winbase/nf-winbase-registerapplicationrecoverycallback) 函式。 [Windows 錯誤報告 (WER) ](/windows/desktop/wer/windows-error-reporting) 會在應用程式因為未處理的例外狀況或應用程式未回應而結束之前，呼叫您的復原回呼。
+若要註冊修復回呼，請呼叫 [**RegisterApplicationRecoveryCallback**](/windows/win32/api/winbase/nf-winbase-registerapplicationrecoverycallback) 函式。 [Windows 錯誤報告 (WER) ](/windows/desktop/wer/windows-error-reporting)會在應用程式因為未處理的例外狀況或應用程式未回應而結束之前，呼叫您的復原回呼。
 
 您可以使用復原回呼，嘗試在應用程式終止之前儲存資料和狀態資訊。 然後，您可以在應用程式重新開機時，使用儲存的資料和狀態資訊。
 
@@ -35,7 +35,7 @@ ms.locfileid: "106983490"
 
 ## <a name="saving-data-and-application-state-when-application-is-being-closed-due-to-a-software-update"></a>當應用程式因為軟體更新而關閉時，儲存資料和應用程式狀態
 
-如果可以更新 Windows 應用程式，應用程式也應該處理 [**wm \_ QUERYENDSESSION**](/windows/desktop/Shutdown/wm-queryendsession) 和 [**wm \_ ENDSESSION**](/windows/desktop/Shutdown/wm-endsession) 訊息。 當安裝程式需要關閉應用程式才能完成安裝或需要重新開機才能完成安裝時，安裝程式會傳送這些訊息。 請注意，在此情況下，應用程式執行復原的時間較短。 例如，應用程式必須在五秒內回應每個訊息。
+如果可以更新 Windows 的應用程式，應用程式也應該處理 [**wm \_ QUERYENDSESSION**](/windows/desktop/Shutdown/wm-queryendsession)和 [**wm \_ ENDSESSION**](/windows/desktop/Shutdown/wm-endsession)訊息。 當安裝程式需要關閉應用程式才能完成安裝或需要重新開機才能完成安裝時，安裝程式會傳送這些訊息。 請注意，在此情況下，應用程式執行復原的時間較短。 例如，應用程式必須在五秒內回應每個訊息。
 
 針對可更新的主控台應用程式，您應該考慮處理 CTRL \_ C \_ 事件通知。 如需範例，請參閱 [註冊應用程式重新開機](registering-for-application-restart.md)。 當應用程式需要關閉應用程式才能完成更新時，安裝程式會傳送此通知。 應用程式有30秒的時間可處理通知。
 

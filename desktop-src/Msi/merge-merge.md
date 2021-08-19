@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: f33a0ba8218ae38d8fb31cefb6910f5b2c16484d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43644f8ef19b81331f9f2d88d4dac03d654379d51174a50e994d3642cb86eabc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117804728"
 ---
 # <a name="mergemerge-method"></a>Merge 方法
 
@@ -65,7 +65,7 @@ Merge.Merge(
 
 完成合併之後，模組中的元件會附加至 *功能* 所識別的功能。 這項功能不會建立，且必須是現有的功能。 請注意， **Merge** 方法會取得模組中的所有功能參考，並針對模組資料庫中所有出現的 null GUID 取代功能參考。 如需詳細資訊，請參閱 [合併模組中的參考功能](referencing-features-in-merge-modules.md)。
 
-您可以使用 [**Connect**](merge-connect.md) 方法將模組附加至其他功能。 請注意，呼叫 **Connect** 方法只會建立功能元件關聯。 它不會修改已合併至資料庫的資料列。
+您可以使用 [**連線**](merge-connect.md)方法，將模組附加至其他功能。 請注意，呼叫 **連線** 方法只會建立功能元件關聯。 它不會修改已合併至資料庫的資料列。
 
 只有在呼叫 [**CloseDatabase**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closedatabase) 方法並將 *BCommit* 設為 **TRUE** 時，才會儲存對資料庫所做的變更。
 

@@ -12,12 +12,12 @@ keywords:
 - mixers，音訊行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec581f2ddb54b06de8fa1a1b1356d9b80422ad5c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0c417b55273ba3f7f96cd857979c73003ed0f88c2161e1c2ac14d934fddcff1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692108"
 ---
 # <a name="audio-line-and-control-queries"></a>音訊行和控制項查詢
 
@@ -35,6 +35,6 @@ ms.locfileid: "103681804"
 
 [**MixerSetControlDetails**](/windows/win32/api/mmeapi/nf-mmeapi-mixersetcontroldetails)函式會使用 **MIXERCONTROLDETAILS** 結構的內容來設定指定之控制項的屬性。 在呼叫 **mixerSetControlDetails** 之前，您必須確定已填入此結構的所有成員。
 
- 
+ 
 
- 
+ 

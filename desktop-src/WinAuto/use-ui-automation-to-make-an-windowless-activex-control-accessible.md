@@ -1,27 +1,27 @@
 ---
-title: 如何使用消費者介面自動化使無視窗的 ActiveX 控制項可供存取
-description: 說明如何使用 Microsoft 消費者介面自動化 \ 32;API，以確保在) 用戶端應用程式上，輔助技術 (可以存取無視窗的 Microsoft ActiveX 控制項。
+title: 如何使用消費者介面自動化使無視窗 ActiveX 控制項可供存取
+description: 說明如何使用 Microsoft 消費者介面自動化 \ 32;API，以確保可在) 用戶端應用程式 (的輔助技術可存取無視窗的 Microsoft ActiveX 控制項。
 ms.assetid: D584E90D-6537-4F48-8553-0DCA061FAF2A
 keywords:
 - 無視窗的 ActiveX 控制項，協助工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba0ada1d26463b0654c1808f6e4fd43f571687d9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68ef56d5f3a06bbfa21502c791163f2251506a10fda7da9d07ee04941ad39de1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570358"
 ---
-# <a name="how-to-use-ui-automation-to-make-a-windowless-activex-control-accessible"></a>如何使用消費者介面自動化使無視窗的 ActiveX 控制項可供存取
+# <a name="how-to-use-ui-automation-to-make-a-windowless-activex-control-accessible"></a>如何使用消費者介面自動化使無視窗 ActiveX 控制項可供存取
 
-說明如何使用 Microsoft 消費者介面自動化 API，以確保可在) 用戶端應用程式 (輔助技術時，可存取無視窗的 Microsoft ActiveX 控制項。
+說明如何使用 microsoft 消費者介面自動化 API，以確保您的無視窗 Microsoft ActiveX 控制項可供) 用戶端應用程式 (的輔助技術使用。
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
 ### <a name="technologies"></a>技術
 
--   [ActiveX 控制項](/windows/desktop/com/activex-controls)
+-   [ActiveX控制](/windows/desktop/com/activex-controls)
 -   [使用者介面自動化](entry-uiauto-win32.md)
 
 ### <a name="prerequisites"></a>必要條件
@@ -35,7 +35,7 @@ ms.locfileid: "103682637"
 
 ### <a name="step-1-implement-the-ui-automation-provider-interfaces"></a>步驟1：執行消費者介面自動化提供者介面。
 
-若要讓您的應用程式可供存取，您必須為無視窗的 ActiveX 控制項（包括 [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple)、 [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment)、 [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot)和 [**IRawElementProviderAdviseEvents**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovideradviseevents)）執行消費者介面自動化提供者介面。 您應該執行這些介面，就像是針對以視窗為基礎的控制項一樣，除了下列步驟中所述。 如需有關執行 UIA 提供者介面的詳細資訊，請參閱 [消費者介面自動化提供者程式設計人員手冊](uiauto-providerportal.md)。
+若要讓您的應用程式可供存取，您必須為無視窗 ActiveX 控制項（包括 [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple)、 [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment)、 [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot)和 [**IRawElementProviderAdviseEvents**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovideradviseevents)）執行消費者介面自動化提供者介面。 您應該執行這些介面，就像是針對以視窗為基礎的控制項一樣，除了下列步驟中所述。 如需有關執行 UIA 提供者介面的詳細資訊，請參閱 [消費者介面自動化提供者程式設計人員手冊](uiauto-providerportal.md)。
 
 ### <a name="step-2-implement-the-iserviceprovider-interface"></a>步驟2：執行 IServiceProvider 介面。
 
@@ -182,9 +182,9 @@ STDMETHODIMP CMyAccessibleUIAControl::GetRuntimeId(SAFEARRAY **ppRetVal)
 [使用 MSAA 讓無視窗的 ActiveX 控制項可供存取](use-msaa-to-make-an-windowless-activex-control-accessible.md)
 </dt> <dt>
 
-[無視窗的 ActiveX 控制項協助工具](windowless-activex-control-accessibility.md)
+[無視窗 ActiveX 控制項協助工具](windowless-activex-control-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 8a63b08cf978a65e1fa9999c79b8033436b41fa2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 804ece9ca82fbdd8dc5778b888fecc4ca8fbc04b8fc45976b857b417343f4b32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069970"
 ---
 # <a name="id3dx10meshgetvertexbuffer-method"></a>ID3DX10Mesh：： GetVertexBuffer 方法
 

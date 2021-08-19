@@ -4,12 +4,12 @@ ms.assetid: 142bc8a2-240d-418f-9374-62d34a76ec38
 title: 如何建立 DirectShow 篩選 DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee964115e040d11ae10562b05899b2895f03d2fe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 443f8aff88cf73198ed7c417da77f6febf33e18806efba5431e18117ddd2c32e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079008"
 ---
 # <a name="how-to-create-a-directshow-filter-dll"></a>如何建立 DirectShow 篩選 DLL
 
@@ -21,7 +21,7 @@ ms.locfileid: "106970677"
 -   [Factory 範本陣列](factory-template-array.md)
 -   [DLL 函數](dll-functions.md)
 
-註冊 DirectShow 篩選 (而不是泛型 COM 物件) 需要一些額外的步驟，這些步驟未涵蓋在本文中。 如需註冊篩選準則的詳細資訊，請參閱 [如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
+註冊 DirectShow 篩選 (，而不是泛型 COM 物件) 需要本文未涵蓋的一些額外步驟。 如需註冊篩選準則的詳細資訊，請參閱[如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL、屬性、函式呼叫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4d53407abf464d7b201c49d9cb2b1d3f3625b9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a3800b62bb6b94aac330ecf0b06761d62227a4ed6100f2fabdde5b61cd952d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895308"
 ---
 # <a name="function-call-attributes"></a>函式呼叫屬性
 
@@ -26,18 +26,18 @@ ms.locfileid: "103675588"
 | [**廣播**](broadcast.md)   | 遠端程序呼叫會傳送至網路上的所有伺服器。 用戶端接受第一次傳回，則會捨棄其他伺服器的後續回復。                                                                                    |
 | [**idempotent**](idempotent.md) | 呼叫不會變更狀態，而且每次使用相同的輸入參數呼叫時，都會傳回相同的資訊。                                                                                                                                     |
 | [**回撥**](callback.md)     | 指定位於用戶端應用程式中的函式，伺服器可呼叫該函式來取得用戶端的資訊。                                                                                                                             |
-| [**呼叫 \_ as**](call-as.md)      | 將不可遠端處理函數對應至遠端程序呼叫。                                                                                                                                                                                                   |
+| [**呼叫 \_ as**](call-as.md)      | 地圖不可遠端處理函數加入遠端程序呼叫。                                                                                                                                                                                                   |
 | [**當地**](local.md)           | 指定 MIDL 不會產生 stub 程式碼的本機程式。                                                                                                                                                                                   |
 
 
 
- 
+ 
 
 在非 [**物件**](object.md) 介面上，您也可以將 [**內容 \_ 控制碼**](context-handle.md) 屬性套用至函數，以指定傳回值的特性。
 
- 
+ 
 
- 
+ 
 
 
 

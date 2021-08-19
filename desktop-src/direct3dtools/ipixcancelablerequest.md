@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 34e80d7dc0e543c041241299dc32f917bc72f3f3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d2264107889b5cb9cd46478075cca3ed5943890cbc85dcbea0a934ebeefb5bc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106967022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892488"
 ---
 # <a name="span-idvspixengineipixcancelablerequestspanipixcancelablerequest-interface"></a><span id="vspixengine.ipixcancelablerequest"></span>IPixCancelableRequest 介面
 

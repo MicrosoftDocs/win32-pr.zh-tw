@@ -4,19 +4,19 @@ description: 描述 Direct2D 如何與其他系統交互操作。
 ms.assetid: 538e0ff7-50a8-40e2-ab34-d3eb6b7d0c6a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 872a090980618548fd73e43c6f82644962b8bd90
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e867324c0b31bc78f83457e02039b23a587c413d38ad6fcb6f25e5aed7d12ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076698"
 ---
 # <a name="interoperability"></a>互通性
 
 本節中的主題描述 Direct2D 如何與其他系統（例如 GDI、Direct3D 和 WIC）交互操作。
 
 > [!Note]  
-> 從 Windows 8 開始，Direct2D 會提供 [**ID2D1DeviceCoNtext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) 介面，以提供簡單的交互操作方式。 如需詳細資訊，請參閱「 [裝置」和「裝置](devices-and-device-contexts.md) 內容」主題。
+> 從 Windows 8 開始，Direct2D 會提供 [**ID2D1DeviceCoNtext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)介面，以提供簡單的交互操作方式。 如需詳細資訊，請參閱「 [裝置」和「裝置](devices-and-device-contexts.md) 內容」主題。
 
  
 

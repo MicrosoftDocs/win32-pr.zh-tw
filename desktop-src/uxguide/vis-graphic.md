@@ -4,17 +4,17 @@ description: 圖形元素會以視覺化方式顯示關聯性、階層和強調�
 ms.assetid: f9e741e9-a72e-4bdb-bd95-8916c7cf344f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 03db1f7a90554848f71cd43cdfa769597b71cd2f
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: cc4b5ce620660e655eeee81cab869909c14b4f8290b5852da7f480da85951a5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936119"
 ---
 # <a name="graphic-elements"></a>圖形元素
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 *圖形元素* 會以視覺化方式顯示關聯性、階層和強調。 它們包括背景、橫幅、玻璃、匯總工具、分隔符號、陰影和控點。
 
@@ -30,7 +30,7 @@ ms.locfileid: "111444629"
 
 圖形元素是表示關聯性的強大視覺方式，過度使用它們會新增視覺效果，並減少表面上的可用空間。 應謹慎使用。
 
-Microsoft Windows 中的設計趨勢是消除不必要的圖形和線條，以簡化更清楚的外觀。
+Microsoft Windows 的設計趨勢是消除不必要的圖形和線條，以簡化更清楚的外觀。
 
 若要決定是否需要圖形元素，請考慮下列問題：
 
@@ -78,7 +78,7 @@ Microsoft Windows 中的設計趨勢是消除不必要的圖形和線條，以�
 
     ![使用複雜圖形的警告螢幕擷取畫面 ](images/vis-graphic-image14.png)
 
-    在此範例中，來自 Windows XP 不正確複雜圖形會嘗試說明複雜的信任決策。
+    在此範例中，Windows XP 不正確複雜圖形會嘗試說明複雜的信任決策。
 
 -   **請勿使用箭號、燕號、按鈕框架，或與互動式控制項相關聯的其他 affordances。** 這麼做會邀請使用者與您的圖形互動。
 -   **避免在您的設計中大量純紅色、黃色和綠色。** 為了避免混淆，請保留這些色彩以傳達狀態。 如果您必須針對狀態以外的內容使用這些色彩，請使用靜音，而不是單純的色彩。

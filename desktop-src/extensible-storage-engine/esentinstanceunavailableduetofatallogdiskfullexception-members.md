@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101876
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: dae626bf4670eb5d002aaf2d66d421ab43964d87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81fce89aacbbbdd1b505560ed3689edcc7b8796f8c60a5b514b7647d9ff17011
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783818"
 ---
 # <a name="esentinstanceunavailableduetofatallogdiskfullexception-members"></a>EsentInstanceUnavailableDueToFatalLogDiskFullException 成員
 

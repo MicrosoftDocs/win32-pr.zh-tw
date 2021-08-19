@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b08f3457fec55a0eb519419feddf4594a2cbfac0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 91ec48743bf52d990c64ce1aecf30897a7ee2f51664e88695a181f9d4f758140
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031738"
 ---
 # <a name="iwmdrmdeviceappsynchronizelicenses-method"></a>IWMDRMDeviceApp：： SynchronizeLicenses 方法
 
@@ -80,7 +80,7 @@ HRESULT SynchronizeLicenses(
 
 
 
-| 傳回碼                                                                                                         | Description                                                                                                                                                 |
+| 傳回碼                                                                                                         | 描述                                                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                | 此方法已成功。<br/>                                                                                                                            |
 | <dl> <dt>**DRM \_ E \_ INVALIDARG**</dt> </dl>                   | 一或多個引數無效。<br/>                                                                                                             |
@@ -90,8 +90,8 @@ HRESULT SynchronizeLicenses(
 | <dl> <dt>**DRM \_ E \_ NOXMLOPENTAG**</dt> </dl>                 | 授權 XML 的格式不正確。<br/>                                                                                                           |
 | <dl> <dt>**DRM \_ E \_ OUTOFMEMORY**</dt> </dl>                  | 記憶體不足。<br/>                                                                                                                                   |
 | <dl> <dt>**DRM \_ E \_ XMLNOTFOUND**</dt> </dl>                  | 在授權中找不到必要的 XML 標記。<br/>                                                                                                |
-| <dl> <dt>**NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置**</dt> </dl>    | 指定的裝置不是 Windows Media DRM 相容裝置。<br/>                                                                               |
-| <dl> <dt>**NS \_ E \_ DRM \_ 需要有 \_ 個人化**</dt> </dl> | DRM 需要個別的黑色方塊來執行此功能。 換句話說，Windows Media Format SDK 需要安全性升級。<br/> |
+| <dl> <dt>**NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置**</dt> </dl>    | 指定的裝置不是 Windows 媒體 DRM 相容裝置。<br/>                                                                               |
+| <dl> <dt>**NS \_ E \_ DRM \_ 需要有 \_ 個人化**</dt> </dl> | DRM 需要個別的黑色方塊來執行此功能。 換句話說，Windows 媒體格式 SDK 需要安全性升級。<br/> |
 
 
 
@@ -99,7 +99,7 @@ HRESULT SynchronizeLicenses(
 
 ## <a name="remarks"></a>備註
 
-此呼叫只能在支援可攜式裝置之 Windows Media DRM 10 的裝置上進行。 您必須指定至少一個閾值參數。
+此呼叫只能在支援可攜式裝置 Windows 媒體 DRM 10 的裝置上進行。 您必須指定至少一個閾值參數。
 
 ## <a name="requirements"></a>規格需求
 

@@ -4,12 +4,12 @@ ms.assetid: c1a303fd-3625-4051-b6b8-4f83cceec945
 title: 'AVEncMPACodingMode 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d5015edceb22dadbe8b6a426122b10fbd6a3903
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 80e210d634a8e9cbc7e6fc557f77828dd67501f5fbd70bcc40a4ba79b54b9fca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586608"
 ---
 # <a name="avencmpacodingmode-property"></a>AVEncMPACodingMode 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104109632"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

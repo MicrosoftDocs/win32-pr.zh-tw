@@ -9,12 +9,12 @@ keywords:
 - 屬性 ADSI，屬性快取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df3062ed5862f11e9db5dadd83b80ac624218c81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4d5940d431fc476fdecd8397875bf06a04ed82ea30ab4ed2e98b94ccef98f0e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930041"
 ---
 # <a name="the-adsi-attribute-cache"></a>ADSI 屬性快取
 
@@ -27,15 +27,15 @@ ADSI 物件模型提供每個 ADSI 物件的用戶端屬性快取。 屬性快�
 > [!IMPORTANT]
 > 必須謹慎使用 [**IADs：： GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) 方法，因為這個方法一律會從基礎目錄服務覆寫快取中的屬性值，即使快取的值已變更也一樣。 也就是說，它會覆寫快取中已變更的屬性值，但在呼叫 [**IADs：： SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) 方法時，不會認可到基礎目錄服務。
 
- 
+ 
 
 下圖顯示用來在快取上操作的不同方法。
 
 ![adsi 屬性快取](images/ds2propc.png)
 
- 
+ 
 
- 
+ 
 
 
 

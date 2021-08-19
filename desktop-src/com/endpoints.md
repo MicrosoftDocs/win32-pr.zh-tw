@@ -6,12 +6,12 @@ keywords:
 - 端點登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0addcd6c09b409629bb4a7157241d57476cafe3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48ee2444be55aaf32c028792100e3e6f0ed6989509b7c0af02c5d83bd739fa27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048316"
 ---
 # <a name="endpoints"></a>端點
 
@@ -21,8 +21,8 @@ ms.locfileid: "104372033"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      Endpoints = ncacn_ip_tcp,0,port
+   {AppID_GUID}
+      Endpoints = ncacn_ip_tcp,0,port
 ```
 
 ## <a name="remarks"></a>備註
@@ -31,9 +31,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 *埠* 值為介於1024到65535之間的數位，指定 COM 應用程式將用於 DCOM 通訊的 TCP 埠號碼。 如果您未指定此登錄機碼，則會動態指派 DCOM 通訊的埠號碼。 在大部分的情況下，您可能會想要讓此登錄機碼保持未定義狀態，並允許 DCOM 動態指派埠號碼。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65922b580975ec05877ae33d213ff3a3675ec72f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3a5d501cd8b34a8d1c391a75d9caa8243db8e3a94088a898b0c2b7672b2d0aab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106965337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656628"
 ---
 # <a name="ds-heuristics-attribute"></a>DS-Heuristics 屬性
 
@@ -61,7 +61,7 @@ Microsoft 說明及支援網站上的 adminSDholder 排除位有相關資訊，�
 | 連結識別碼                | \-                                               |
 | MAPI-Id                | \-                                               |
 | System-Only            | 否                                            |
-| 是-單一值       | 對                                             |
+| 是-單一值       | 是                                             |
 | 已編制索引             | 否                                            |
 | 在通用類別目錄中      | 否                                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                                     |
@@ -82,7 +82,7 @@ Microsoft 說明及支援網站上的 adminSDholder 排除位有相關資訊，�
 | 連結識別碼                | \-                                               |
 | MAPI-Id                | \-                                               |
 | System-Only            | 否                                            |
-| 是-單一值       | 對                                             |
+| 是-單一值       | 是                                             |
 | 已編制索引             | 否                                            |
 | 在通用類別目錄中      | 否                                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                                     |
@@ -103,7 +103,7 @@ Microsoft 說明及支援網站上的 adminSDholder 排除位有相關資訊，�
 | 連結識別碼                | \-                                               |
 | MAPI-Id                | \-                                               |
 | System-Only            | 否                                            |
-| 是-單一值       | 對                                             |
+| 是-單一值       | 是                                             |
 | 已編制索引             | 否                                            |
 | 在通用類別目錄中      | 否                                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                                     |
@@ -124,7 +124,7 @@ Microsoft 說明及支援網站上的 adminSDholder 排除位有相關資訊，�
 | 連結識別碼                | \-                                               |
 | MAPI-Id                | \-                                               |
 | System-Only            | 否                                            |
-| 是-單一值       | 對                                             |
+| 是-單一值       | 是                                             |
 | 已編制索引             | 否                                            |
 | 在通用類別目錄中      | 否                                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                                     |
@@ -145,7 +145,7 @@ Microsoft 說明及支援網站上的 adminSDholder 排除位有相關資訊，�
 | 連結識別碼                | \-                                               |
 | MAPI-Id                | \-                                               |
 | System-Only            | 否                                            |
-| 是-單一值       | 對                                             |
+| 是-單一值       | 是                                             |
 | 已編制索引             | 否                                            |
 | 在通用類別目錄中      | 否                                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                                     |
@@ -166,7 +166,7 @@ Microsoft 說明及支援網站上的 adminSDholder 排除位有相關資訊，�
 | 連結識別碼                | \-                                               |
 | MAPI-Id                | \-                                               |
 | System-Only            | 否                                            |
-| 是-單一值       | 對                                             |
+| 是-單一值       | 是                                             |
 | 已編制索引             | 否                                            |
 | 在通用類別目錄中      | 否                                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                                     |
@@ -187,7 +187,7 @@ Microsoft 說明及支援網站上的 adminSDholder 排除位有相關資訊，�
 | 連結識別碼                | \-                                               |
 | MAPI-Id                | \-                                               |
 | System-Only            | 否                                            |
-| 是-單一值       | 對                                             |
+| 是-單一值       | 是                                             |
 | 已編制索引             | 否                                            |
 | 在通用類別目錄中      | 否                                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                                     |
@@ -201,7 +201,7 @@ Microsoft 說明及支援網站上的 adminSDholder 排除位有相關資訊，�
 
 ## <a name="remarks"></a>備註
 
-每個 Active Directory 樹系都包含 DS-Heuristics 屬性，其中包含整個樹系的設定。 DS-Heuristics 屬性是 "CN = Directory Service，CN = Windows NT，CN = Services，CN = Configuration， <Domain> " 物件的屬性。
+每個 Active Directory 樹系都包含 DS-Heuristics 屬性，其中包含整個樹系的設定。 DS-Heuristics 屬性是 "CN = Directory Service，cn = Windows NT，cn = Services，cn = Configuration， <Domain> " 物件的屬性。
 
 DS-Heuristics 是 Unicode 字串，其中每個字元都包含單一定義域範圍設定的值。 DS-Heuristics 字串採用下列格式。
 

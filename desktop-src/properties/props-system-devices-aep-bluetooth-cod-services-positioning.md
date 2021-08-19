@@ -1,17 +1,17 @@
 ---
 description: 裝置服務定位的藍牙類別。
 ms.assetid: 4183501e-d5a8-4b78-a419-98b7fa8e4fd6
-title: Aep.....。
+title: Aep。藍牙。. 服務。定位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eea1a06322077b814ed1376943a0cb56496140e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 662a814e62ec2038a02e10a073303be79433fc8e383b3811cb0403dbd474f3f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885908"
 ---
-# <a name="systemdevicesaepbluetoothcodservicespositioning"></a>Aep.....。
+# <a name="systemdevicesaepbluetoothcodservicespositioning"></a>Aep。藍牙。. 服務。定位
 
 裝置服務定位的藍牙類別。
 

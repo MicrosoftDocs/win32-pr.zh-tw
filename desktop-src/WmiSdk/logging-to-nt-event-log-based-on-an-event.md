@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 69bf24c0d64c95a012b8681b88bde34dc28fa179
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8c070b1a52fe41f32b8610ff0931d33be7feb33f9f5cd6f6067652e963f6824
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050706"
 ---
 # <a name="logging-to-nt-event-log-based-on-an-event"></a>根據事件記錄至 NT 事件記錄檔
 

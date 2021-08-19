@@ -1,9 +1,9 @@
 ---
 title: 'ICM_GETSTATE 訊息 (Vfw .h) '
-description: ICM \_ >getstate 訊息會查詢視訊壓縮驅動程式，以在記憶體區塊中傳回其目前的設定，或判斷取出設定資訊所需的記憶體數量。
+description: ICM 的 \_ >getstate 訊息會查詢視訊壓縮驅動程式，以將其目前的設定傳回記憶體區塊，或判斷取得設定資訊所需的記憶體數量。
 ms.assetid: 4b77e294-f3aa-45f9-a4f4-f103b83eae8d
 keywords:
-- ICM_GETSTATE message Windows 多媒體
+- ICM_GETSTATE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b6a45dcde627a02c1a4a402ea9a2a725f0429a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c9bf21d808752b8a3ac3ba71a8593cd6dc577b3af4f34f421682d126c73b3578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784948"
 ---
-# <a name="icm_getstate-message"></a>ICM \_ >getstate 訊息
+# <a name="icm_getstate-message"></a>ICM \_>GETSTATE 訊息
 
-**ICM \_ >getstate** 訊息會查詢視訊壓縮驅動程式，以在記憶體區塊中傳回其目前的設定，或判斷取出設定資訊所需的記憶體數量。 您可以使用 [**ICGetState**](/windows/desktop/api/Vfw/nf-vfw-icgetstate) 宏明確地傳送此訊息。
+**ICM 的 \_ >getstate** 訊息會查詢視訊壓縮驅動程式，以將其目前的設定傳回記憶體區塊，或判斷取得設定資訊所需的記憶體數量。 您可以使用 [**ICGetState**](/windows/desktop/api/Vfw/nf-vfw-icgetstate) 宏明確地傳送此訊息。
 
 
 ```C++

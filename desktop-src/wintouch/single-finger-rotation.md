@@ -3,10 +3,10 @@ title: Single-Finger 旋轉
 description: 本節說明如何使用 pivot 點來旋轉物件。
 ms.assetid: b9c19009-8ac0-4168-bf26-393280fc589f
 keywords:
-- Windows Touch，旋轉
-- Windows Touch，操作
-- Windows Touch，單指旋轉
-- Windows Touch，資料透視點旋轉
+- Windows觸控、旋轉
+- Windows觸控、操作
+- Windows觸控、單指旋轉
+- Windows觸控、資料透視點旋轉
 - 操作，旋轉
 - 旋轉，pivot 點
 - 旋轉，單指
@@ -14,12 +14,12 @@ keywords:
 - 單一手指旋轉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93d74263f502749e2aaf942c4bbec5aa0a284e76
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 36fe7e92f6d68515e1d13b39c32ee4af5b6b03e675479242210fe302b84e6395
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110644"
 ---
 # <a name="single-finger-rotation"></a>Single-Finger 旋轉
 
@@ -65,7 +65,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
 > [!Note]  
 > [**PivotRadius**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius)值絕不能介於0.0 到1.0 之間。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -83,9 +83,9 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
 [**PivotPointY**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

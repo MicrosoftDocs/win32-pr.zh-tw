@@ -1,21 +1,21 @@
 ---
-description: 雖然 DbgHelp.dll 隨附于所有版本的 Windows，但呼叫端應該考慮使用這個 DLL 的其中一個較新版本，如 Windows 封裝的偵錯工具中所找到。 如需 DbgHelp 散發的詳細資訊，請參閱 DbgHelp 版本。
+description: 雖然 DbgHelp.dll 隨附 Windows 的所有版本，但是呼叫端應該考慮使用此 DLL 的其中一個較新版本，如 Windows 封裝的偵錯工具中所找到。 如需 DbgHelp 散發的詳細資訊，請參閱 DbgHelp 版本。
 ms.assetid: 4e615e75-5ab8-4155-a3d3-b96313b37e9b
 title: 呼叫 DbgHelp 程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70cc06f6a0e28f163d80490647ee8f33754c249b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c4d6a111da8b0874a0c66fa08840e1ea4edeabf539afab2e9decf0eb19372db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104467961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957157"
 ---
 # <a name="calling-the-dbghelp-library"></a>呼叫 DbgHelp 程式庫
 
-雖然 DbgHelp.dll 隨附于所有版本的 Windows，但呼叫端應該考慮使用這個 DLL 的其中一個較新版本，如 Windows 封裝的 [偵錯工具](https://www.microsoft.com/?ref=go) 中所找到。 如需 DbgHelp 散發的詳細資訊，請參閱 [DbgHelp 版本](dbghelp-versions.md)。
+雖然 DbgHelp.dll 隨附 Windows 的所有版本，但是呼叫端應該考慮使用此 DLL 的其中一個較新版本，如 Windows 封裝的[偵錯工具](https://www.microsoft.com/?ref=go)中所找到。 如需 DbgHelp 散發的詳細資訊，請參閱 [DbgHelp 版本](dbghelp-versions.md)。
 
-使用 DbgHelp 時，最佳策略是從應用程式目錄中的 Windows 封裝的 [調試](https://www.microsoft.com/?ref=go) 程式，在邏輯上與呼叫它的軟體相關的應用程式目錄中安裝程式庫複本。 如果也需要符號伺服器和來源伺服器，則 SymSrv.dll 和 SrcSrv.dll 都必須安裝在與 DbgHelp.dll 相同的目錄中，因為 DbgHelp 只會在與它們共用相同目錄時，才會呼叫這些 Dll。  (請注意，DbgHelp 不會從標準搜尋路徑呼叫這兩個 Dll。 ) 這有助於防止使用不相符的 Dll;同樣地，它也能提高整體安全性。
+使用 DbgHelp 時，最佳策略是從應用程式目錄中的 Windows 套件的[調試](https://www.microsoft.com/?ref=go)程式，在邏輯上與呼叫它的軟體相關的應用程式目錄中安裝程式庫複本。 如果也需要符號伺服器和來源伺服器，則 SymSrv.dll 和 SrcSrv.dll 都必須安裝在與 DbgHelp.dll 相同的目錄中，因為 DbgHelp 只會在與它們共用相同目錄時，才會呼叫這些 Dll。  (請注意，DbgHelp 不會從標準搜尋路徑呼叫這兩個 Dll。 ) 這有助於防止使用不相符的 Dll;同樣地，它也能提高整體安全性。
 
 下列程式碼會從 DbgHelp 來源解壓縮。 它會顯示 DbgHelp 如何只從 DbgHelp.dll 所在的相同目錄載入 SymSrv.dll 和 SrcSrv.dll 的版本。
 

@@ -3,7 +3,7 @@ title: 'WM_CAP_SEQUENCE 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 序列訊息會起始串流影片和音訊捕獲至檔案。 您可以使用 capCaptureSequence 宏明確地傳送此訊息。
 ms.assetid: 33d53abc-e37e-48c6-bfc8-9cd02fde5cb6
 keywords:
-- WM_CAP_SEQUENCE message Windows 多媒體
+- WM_CAP_SEQUENCE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ef945510d0d71f1aa0e0cb5827288a613f5991
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 023fd22d79fdfcd1df1f44b2862814ed809fd93c43ab9cd7122414ee1e27db39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800263"
 ---
 # <a name="wm_cap_sequence-message"></a>WM \_ CAP \_ 序列訊息
 

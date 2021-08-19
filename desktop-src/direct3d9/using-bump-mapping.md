@@ -4,12 +4,12 @@ ms.assetid: ded07764-1a11-42df-9a16-e4c3a328fb23
 title: 使用 (Direct3D 9) 的凹凸對應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4bc96f78ffb19dda04ff6b2bc3d0e46800b04b8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 195a99ffaa29d416aea93c5599f1fb461cd78a9961bd9c69f3f02ae3e8fe4719
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025828"
 ---
 # <a name="using-bump-mapping-direct3d-9"></a>使用 (Direct3D 9) 的凹凸對應
 
@@ -136,7 +136,7 @@ d3dDevice->SetTextureStageState( 1, D3DTSS_BUMPENVLOFFSET, F2DW(0.0f) );
 
 當您的應用程式設定了凹凸對應參數之後，就可以正常轉譯，而轉譯的多邊形會收到平滑對應效果。
 
-請注意，上述範例會顯示為反射環境對應設定的參數。 執行擴散燈光對應時，應用程式會將最後一個階段的材質混色作業設定為 D3DTOP \_ lambert。 如需詳細資訊，請參閱 [ (Direct3D 9 的擴散燈光圖) ](diffuse-light-maps.md)。
+請注意，上述範例會顯示為反射環境對應設定的參數。 執行擴散燈光對應時，應用程式會將最後一個階段的材質混色作業設定為 D3DTOP \_ lambert。 如需詳細資訊，請參閱[ (Direct3D 9) 的擴散 Light 地圖](diffuse-light-maps.md)。
 
 ## <a name="related-topics"></a>相關主題
 

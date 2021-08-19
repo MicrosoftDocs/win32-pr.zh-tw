@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102633
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ddcd013176d9c64b4923dfe1bf760fb6d3f8efbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 272e460ffd4ffd482ab15939b3405529754805ed3e8dc52f2101606c0953bc80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781908"
 ---
 # <a name="esentrestoreinprogressexception-methods"></a>EsentRestoreInProgressException 方法
 

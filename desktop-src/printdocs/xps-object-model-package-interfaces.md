@@ -4,12 +4,12 @@ ms.assetid: 9e269b18-e5b1-4801-b8e7-473750443c6d
 title: XPS OM 封裝介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1465f5d6782e29f9c37f899b59790302e21ebf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6732531e3874046bbd174c363db24e304da95b9596b810014abb52a795e720c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886138"
 ---
 # <a name="xps-om-package-interfaces"></a>XPS OM 封裝介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "103848690"
 
 
 
-| 介面名稱                                                  | 邏輯子介面                                                                                                            | Description                                                                                    |
+| 介面名稱                                                  | 邏輯子介面                                                                                                            | 描述                                                                                    |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [**IXpsOMPackage**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage)<br/>               | [**IXpsOMDocumentSequence**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence)<br/> [**IXpsOMCoreProperties**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties)<br/> | 與包含 XPS 檔的封裝對應的完整 XPS OM。<br/> |
 | [**IXpsOMPackageWriter**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter)<br/>   | 無<br/>                                                                                                                     | 啟用檔頁面至封裝的累加式序列化。<br/>                   |

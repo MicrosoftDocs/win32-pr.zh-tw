@@ -19,7 +19,7 @@ ms.locfileid: "119882688"
 
 **伺服器-** Windows Server 2012 R2
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 我們對 getversion (的) api 在 Windows 8.1 中的運作方式有所重大變更，是因為在過去的 getversion (範例) api 的使用方式所造成的不良客戶行為。
 

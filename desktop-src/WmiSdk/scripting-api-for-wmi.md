@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: 適用于 WMI 的腳本 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6c43587fd8f40c2524bcabd79fe80e3d00d74b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35045aa8528c5a3c27475fff753478bd2202d9137cec6b019039aac52775f70a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640538"
 ---
 # <a name="scripting-api-for-wmi"></a>適用于 WMI 的腳本 API
 
-WMI 腳本參考包含 WMI 腳本 API 的定義。 如果使用 Microsoft Visual Basic、Visual Basic for Applications Visual Basic Scripting Edition (VBScript) ，或任何其他支援動態指令碼技術的指令碼語言來撰寫應用程式，請使用此 API。
+WMI 腳本參考包含 WMI 腳本 API 的定義。 如果您使用 Microsoft Visual Basic、Visual Basic for Applications Visual Basic 腳本版本 (VBScript) ，或任何其他支援動態指令碼技術的指令碼語言來撰寫應用程式，請使用此 API。
 
 > [!Note]  
-> PowerShell 也可用於使用 WMI 編寫腳本。 Get-WMI Cmdlet 和三種類型加速器 (\[ wmi \] 、 \[ wmiclass \] 和 \[ wmisearcher \]) 啟用 wmi 的基本系統管理存取權。 如需詳細資訊，請參閱 [使用 Windows PowerShell 編寫腳本](https://TechNet.Microsoft.Com/library/bb978526.aspx)。
+> PowerShell 也可用於使用 WMI 編寫腳本。 Get-WMI Cmdlet 和三種類型加速器 (\[ wmi \] 、 \[ wmiclass \] 和 \[ wmisearcher \]) 啟用 wmi 的基本系統管理存取權。 如需詳細資訊，請參閱[使用 Windows PowerShell 編寫腳本](https://TechNet.Microsoft.Com/library/bb978526.aspx)。
 
  
 

@@ -7,12 +7,12 @@ keywords:
 - BC-VCM-LVM-HYPERV (video 壓縮管理員) ，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56a678f7c2c1ae3c0e29a94ddefef5f878016413
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ecb5b52767a86b76b0182cac0583ec919df31275f5905b067074b3054482de3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136096"
 ---
 # <a name="using-the-video-compression-manager"></a>使用影片壓縮管理員
 
@@ -31,9 +31,9 @@ ms.locfileid: "104462112"
 -   [繪製資料](drawing-data.md)
 -   [監視壓縮和解壓縮進程進度](monitoring-compressor-and-decompressor-progress.md)
 
- 
+ 
 
- 
+ 
 
 
 

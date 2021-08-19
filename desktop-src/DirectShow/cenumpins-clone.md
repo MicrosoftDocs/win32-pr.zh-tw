@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2aa3e4604b260779a5d203e75e8e0790a7378b11
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9a0d14f0caf30f6037d53639ff54d2e21d6d0fb0eee5cfa493aba248e84d48e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688608"
 ---
 # <a name="cenumpinsclone-method"></a>CEnumPins 複製方法
 
@@ -55,7 +55,7 @@ HRESULT Clone(
 
 
 
-| 傳回碼                                                                                                | Description                                                                            |
+| 傳回碼                                                                                                | 描述                                                                            |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 成功。<br/>                                                                    |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl>              | 記憶體不足。<br/>                                                        |

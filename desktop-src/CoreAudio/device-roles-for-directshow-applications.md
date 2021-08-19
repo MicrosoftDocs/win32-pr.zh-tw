@@ -4,27 +4,27 @@ ms.assetid: 54f42bda-b4a0-465c-9ce6-9102d2908776
 title: DirectShow 應用程式的裝置角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df8b43ddd56870b65fc9ec1e3bb600e8e6b79528
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 56e22a86e5537f11b6b4153753841a2682b5ac77a043a3fa74538714a2540377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104467965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957357"
 ---
 # <a name="device-roles-for-directshow-applications"></a>DirectShow 應用程式的裝置角色
 
 > [!Note]  
-> [MMDEVICE API](mmdevice-api.md)支援裝置角色。 不過，Windows Vista 中的使用者介面並不支援這項功能。 裝置角色的使用者介面支援可能會在未來的 Windows 版本中執行。 如需詳細資訊，請參閱 [Windows Vista 中的裝置角色](device-roles-in-windows-vista.md)。
+> [MMDEVICE API](mmdevice-api.md)支援裝置角色。 不過，Windows Vista 中的使用者介面並不支援這項功能。 裝置角色的使用者介面支援可能會在未來的 Windows 版本中執行。 如需詳細資訊，請參閱[Windows Vista 中的裝置角色](device-roles-in-windows-vista.md)。
 
  
 
-DirectShow API 未提供方法讓應用程式選取指派給特定[裝置角色](device-roles.md)的[音訊端點裝置](audio-endpoint-devices.md)。 不過，在 Windows Vista 中，核心音訊 Api 可以與 DirectShow 應用程式搭配使用，以根據裝置角色啟用裝置選取。 透過核心音訊 Api 的協助，應用程式可以：
+DirectShow API 未提供方法讓應用程式選取指派給特定[裝置角色](device-roles.md)的[音訊端點裝置](audio-endpoint-devices.md)。 不過，在 Windows Vista 中，核心音訊 api 可與 DirectShow 應用程式搭配使用，以根據裝置角色啟用裝置選取。 透過核心音訊 Api 的協助，應用程式可以：
 
 -   識別使用者已指派給特定裝置角色的音訊端點裝置。
--   使用封裝音訊端點裝置的 [**IBaseFilter**](/windows/desktop/api/strmif/nn-strmif-ibasefilter) 介面建立 DirectShow 音訊轉譯篩選器。
--   建立包含篩選準則的 DirectShow 圖形。
+-   使用封裝音訊端點裝置的 [**IBaseFilter**](/windows/desktop/api/strmif/nn-strmif-ibasefilter)介面，建立 DirectShow 音訊轉譯篩選器。
+-   建立合併篩選的 DirectShow 圖形。
 
-如需有關 DirectShow 和 [**IBaseFilter**](/windows/desktop/api/strmif/nn-strmif-ibasefilter)的詳細資訊，請參閱 Windows SDK 檔。
+如需 DirectShow 和 [**IBaseFilter**](/windows/desktop/api/strmif/nn-strmif-ibasefilter)的詳細資訊，請參閱 Windows SDK 檔。
 
 下列程式碼範例示範如何建立 DirectShow 音訊轉譯篩選器，以封裝指派給特定裝置角色的轉譯端點裝置：
 

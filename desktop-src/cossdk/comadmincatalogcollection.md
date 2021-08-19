@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ComAdmin.Idl
-ms.openlocfilehash: 985a6b947708542ec3ce1dc6ecc835c94259b315
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3656e65b89ae02b0cfe8ea3b1dbe9784d679c5eb40e11edbfe2951e08893e1aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029478"
 ---
 # <a name="comadmincatalogcollection-class"></a>COMAdminCatalogCollection 類別
 
@@ -65,7 +65,7 @@ ms.locfileid: "103689008"
 
 
 
-若要從 Microsoft Visual Basic 使用這個類別，請將參考新增至 COM + 系統管理員類型程式庫。 您可以藉由呼叫 [**COMAdminCatalog**](comadmincatalog.md)物件上的 [**>getcollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection)來建立 COMAdminCatalogCollection 物件。 這會顯示在下列範例中，其中 "TopCollection" 必須取代為其中一個最上層 COM + 系統管理集合的名稱。
+若要從 Microsoft Visual Basic 使用這個類別，請將參考新增至 com + 系統管理員類型程式庫。 您可以藉由呼叫 [**COMAdminCatalog**](comadmincatalog.md)物件上的 [**>getcollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection)來建立 COMAdminCatalogCollection 物件。 這會顯示在下列範例中，其中 "TopCollection" 必須取代為其中一個最上層 COM + 系統管理集合的名稱。
 
 
 ```VB
@@ -87,7 +87,7 @@ Set objTopCollection = objCatalog.GetCollection("TopCollection")
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                              |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>ComAdmin。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>ComAdmin .Idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>ComAdmin .Idl</dt> </dl> |
 
 
 

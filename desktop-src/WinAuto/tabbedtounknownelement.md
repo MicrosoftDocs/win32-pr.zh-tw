@@ -4,12 +4,12 @@ description: TabbedToUnknownElement
 ms.assetid: B0447B19-E281-4D30-8ED8-FC0EE13571C8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 612476d81779c882eeca807a9c3b82c41594f218
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a5acee341066ee5a456d412554ead3342c8513ae89e50a056a2372a291b0a88b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052396"
 ---
 # <a name="tabbedtounknownelement"></a>TabbedToUnknownElement
 
@@ -32,9 +32,9 @@ AccChecker 會在執行任何驗證工作之前，將元素樹狀結構向上移
 -   驗證目標不需要有定位的執行，就能提供完整的功能。
 -   驗證期間的使用者互動，例如將焦點移至非目標 HWND，並干擾驗證程式。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - 基本 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7f68662515604e555629f7463b239baaf0ef444
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 24b9d20ea7c8de3fc4557fed217e9976c2a98a4dd4129a25f923c90d479c07a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106976348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888048"
 ---
 # <a name="primitives-opengl"></a> (OpenGL) 的基本專案
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7acd13e2d2d09e6e491a2f338aef2fe7564b82b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bdf4c36bcf66d46a5c5ee7df16ac04a4461bd3a88de91e175b81e89ce496e1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076238"
 ---
 # <a name="cimageallocatoralloc-method"></a>CImageAllocator 方法
 
@@ -46,7 +46,7 @@ HRESULT Alloc();
 
 
 
-| 傳回碼                                                                                   | Description                    |
+| 傳回碼                                                                                   | 描述                    |
 |-----------------------------------------------------------------------------------------------|--------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | Success<br/>             |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足<br/> |

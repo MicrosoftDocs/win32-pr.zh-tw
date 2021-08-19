@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73b8afdee3c1e96f171651c454fd0b29bfbefbd5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7b71c43cc954c34dbc5500d4f39bef15c0dbd12f64ca33998cdb1eb7f955a379
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582288"
 ---
 # <a name="msmq-site-gates-mig-attribute"></a>MSMQ-網站-閘道-Svrmig.mig 屬性
 

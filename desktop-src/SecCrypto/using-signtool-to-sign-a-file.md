@@ -4,16 +4,16 @@ ms.assetid: fa8ee4d3-8927-4f7d-a09e-dbcf75a164d3
 title: 使用 SignTool 來簽署檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 089026cde629278e5c6ac033164c2a9d26528917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a71d8e85e8e22f65ccbe8b5f15453b0a0cac34fc27697bad648b1c815f255b10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971468"
 ---
 # <a name="using-signtool-to-sign-a-file"></a>使用 SignTool 來簽署檔案
 
-下列命令會使用儲存在個人資訊交換 (PFX) 檔中的 [*憑證*](../secgloss/c-gly.md) ，來簽署名為 MyControl.exe 的檔案：
+下列命令會使用儲存在個人資訊 Exchange (PFX) 檔中的 [*憑證*](../secgloss/c-gly.md)，來簽署名為 MyControl.exe 的檔案：
 
 <pre>SignTool sign /f <b>MyCert</b>.pfx MyControl.exe</pre>
 
@@ -35,11 +35,11 @@ ms.locfileid: "104114120"
 
  
 
-下列命令會使用位於「我的存放區」中的憑證來簽署檔案，其主體名稱為「我的公司發行者」：
+下列命令會使用位於「我的存放區」中的憑證來簽署檔案，其主體名稱為「我的公司」 Publisher：
 
 <pre>SignTool sign /n "<b>My Company Publisher</b>" MyControl.exe</pre>
 
-下列命令會簽署 ActiveX 控制項，並提供當系統提示使用者安裝控制項時，Internet Explorer 所顯示的資訊：
+下列命令會簽署 ActiveX 控制項，並提供當系統提示使用者安裝控制項時，Internet Explorer 顯示的資訊：
 
 <pre>SignTool sign /f <b>MyCert</b>.pfx /d "<b>My Product Name</b>" /du <b>"https://www.example.com/myproductinfo.html"</b> MyControl.exe</pre>
 

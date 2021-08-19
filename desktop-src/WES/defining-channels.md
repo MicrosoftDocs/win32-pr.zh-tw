@@ -4,16 +4,16 @@ description: 事件可以寫入事件記錄檔通道、事件追蹤記錄檔或�
 ms.assetid: 3c2f39ee-fbc0-40ae-8279-566905250f47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab3c73697aa11e7b63ace0ece33be23ca7a1b883
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 89c2f932616a131e478c100996fd0b76034b3cccdebf4e3714fd5b9b38ba9678
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104092592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032478"
 ---
 # <a name="defining-channels"></a>定義通道
 
-事件可以寫入事件記錄檔通道、事件追蹤記錄檔或兩者。 通道基本上是收集事件的接收。 如果您事件的目標物件使用事件取用者（例如 Windows 事件檢視器），則您必須定義新通道來收集您的事件，或匯入其他提供者所定義的現有通道。
+事件可以寫入事件記錄檔通道、事件追蹤記錄檔或兩者。 通道基本上是收集事件的接收。 如果您事件的目標物件使用事件取用者（例如 Windows 事件檢視器），您必須定義新通道來收集您的事件，或匯入其他提供者所定義的現有通道。
 
 若要定義您自己的通道，請使用 **通道** 元素。 若要定義匯入的通道，請使用 **importChannel** 元素。 您可以在您定義的匯入通道或通道的任意組合中指定最多8個通道。
 

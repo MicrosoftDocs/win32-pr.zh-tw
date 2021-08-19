@@ -4,12 +4,12 @@ description: 本章節包含的主題會示範如何建立和使用 rich edit �
 ms.assetid: 2c4717c9-3257-42d5-9c36-89b7e524e788
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0489660bb6849d0de76ae7fc2f4e21ca931662a8
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: c31f1d6a5fc743221cef282737e4c93d10fb9bd015e75f898f72726b74c5019d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104463845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077772"
 ---
 # <a name="using-rich-edit-controls"></a>使用 Rich Edit 控制項
 

@@ -4,12 +4,12 @@ ms.assetid: 93401195-3619-41a0-ad24-3fddf3932ba5
 title: 裝置管理常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c293e1064e7d67df4eeef7b999d7b1e009cb18
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 620bd7a2fc3b924d3e3248c68dfe4aa2c9efc37f078604d3bc6ef6452fe2f6f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956917"
 ---
 # <a name="device-management-constants"></a>裝置管理常數
 

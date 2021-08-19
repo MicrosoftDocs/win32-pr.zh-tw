@@ -23,7 +23,7 @@ ms.locfileid: "120114218"
 
 
 
-| VARTYPE                | Description                                                                               |
+| VARTYPE                | 描述                                                                               |
 |------------------------|-------------------------------------------------------------------------------------------|
 | VT \_ 空白<br/>   | 沒有事件資料。<br/> <br/>                                                     |
 | VT \_ 不明<br/> | [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy)介面的指標。<br/> <br/> |

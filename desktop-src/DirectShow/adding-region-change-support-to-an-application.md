@@ -4,12 +4,12 @@ ms.assetid: 4a5c049d-b59f-4130-9252-bc28662a7931
 title: 將 Region-Change 支援新增至應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6d0bd97bc6249928455ccf9154a91ce2045d8c7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1a13c17a934f176a017a6980920b75ec8563d211330bff203fce6bf9006f4b4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690518"
 ---
 # <a name="adding-region-change-support-to-an-application"></a>將 Region-Change 支援新增至應用程式
 

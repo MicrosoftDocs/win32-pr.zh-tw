@@ -23,7 +23,7 @@ ms.locfileid: "119049456"
 | [**Children**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_children)       | 取得介面集合，其中包含這個類別目錄的子類別。                 |
 | [**描述**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_description) | 取得類別目錄的描述。                                                             |
 | [**映像**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_image)             | 取得介面，其中包含與類別目錄相關聯之影像的相關資訊。 |
-| [**Name**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_name)               | 取得分類的當地語系化名稱。                                                          |
+| [**名稱**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_name)               | 取得分類的當地語系化名稱。                                                          |
 | [**單**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_order)             | 取得此分類在其同級類別之間的建議顯示順序。                 |
 | [**父代**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_parent)           | 取得介面，這個介面會描述這個類別目錄的父類別。                            |
 | [**類型**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_type)               | 取得分類的型別。                                                                    |

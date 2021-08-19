@@ -4,12 +4,12 @@ description: RTMv2 API 可讓用戶端使用與路由和目的地相關聯的下
 ms.assetid: ef474091-48fe-48e5-b476-73d77dbcbec5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d20a812fd272afafd2cd8eb1d6fb93d97530a2a7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5f629bb5f43298c2cada3759ea3ab9c7bb71f0ca47a3c4158028d923646662c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024708"
 ---
 # <a name="working-with-next-hops"></a>使用下一個躍點
 
@@ -20,11 +20,11 @@ RTMv2 API 可讓用戶端使用與路由和目的地相關聯的下一個躍點�
 > [!Note]  
 > 下一個躍點中的下一個躍點位址和介面索引欄位可唯一識別下一個躍點，不應該修改。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 871f2d159c9b0e284de5d716206fc5d79bb3e15a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 099a7c40dcdf96b938c99724c7fab28c80768fd24224c65db04074f60b210899
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076608"
 ---
 # <a name="cbaseinputpinm_sampleprops-member"></a>CBaseInputPin：： m \_ SampleProps 成員
 

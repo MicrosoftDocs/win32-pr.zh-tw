@@ -4,22 +4,22 @@ description: 桌面視窗管理員
 ms.assetid: 79250d49-dad5-46c6-892d-b92dac14b417
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fca8550134ba0c1cdafe0bd5c349061ef900a9e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b99585a75bf2b25b086f09a17a0d8d93391b1f94f5018c5d4f83f90937fde620
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896874"
 ---
 # <a name="the-desktop-window-manager"></a>桌面視窗管理員
 
-在 Windows Vista 之前，Windows 程式會直接在螢幕上繪製。 換句話說，程式會直接寫入視訊卡所顯示的記憶體緩衝區。 如果視窗沒有正確地重新繪製，則這種方法可能會造成視覺構件。 比方說，如果使用者將一個視窗拖曳到另一個視窗，而且下一個視窗無法迅速重新繪製，最上層的視窗就會留下一個線索：
+Windows Vista 之前，Windows 程式會直接在畫面上繪製。 換句話說，程式會直接寫入視訊卡所顯示的記憶體緩衝區。 如果視窗沒有正確地重新繪製，則這種方法可能會造成視覺構件。 比方說，如果使用者將一個視窗拖曳到另一個視窗，而且下一個視窗無法迅速重新繪製，最上層的視窗就會留下一個線索：
 
 ![顯示重新繪製構件的螢幕擷取畫面。](images/graphics04.png)
 
 原因是這兩個 windows 繪製至相同的記憶體區域。 拖曳最上方的視窗時，必須重新繪製其下的視窗。 如果重新繪製的速度太慢，則會導致上圖所示的構件。
 
-Windows Vista 藉由引進桌面視窗管理員 (DWM) 來徹底改變 windows 的繪製方式。 當 DWM 啟用時，視窗不會再直接繪製到顯示緩衝區。 相反地，每個視窗會繪製到螢幕上的記憶體緩衝區，也稱為 *螢幕外介面*。 DWM 接著會將這些介面合成至螢幕。
+WindowsVista 透過桌面視窗管理員 (DWM) 引進，來徹底改變 windows 的繪製方式。 當 DWM 啟用時，視窗不會再直接繪製到顯示緩衝區。 相反地，每個視窗會繪製到螢幕上的記憶體緩衝區，也稱為 *螢幕外介面*。 DWM 接著會將這些介面合成至螢幕。
 
 ![顯示 dwm 如何將桌面合成的圖表。](images/graphics05.png)
 

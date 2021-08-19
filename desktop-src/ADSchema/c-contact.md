@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab728fbd87007f01076405730dcfee9f6d935a23
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f4b54d5929e11382c1680090adf376f670d8610fd767a193e349a31f54c1f2cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021886"
 ---
 # <a name="contact-class"></a>Contact 類別
 
@@ -57,7 +57,7 @@ ms.locfileid: "104467225"
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | 否                                                                                        |
 | Object-Category             | 1                                                                                            |
-| 預設-物件-類別     | [**個人**](c-person.md)<br/>                                                        |
+| 預設-物件-類別     | [**人**](c-person.md)<br/>                                                        |
 | Governs-Id                  | 1.2.840.113556.1.5.15                                                                        |
 | 預設值-隱藏-值        | 0                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
@@ -91,7 +91,7 @@ ms.locfileid: "104467225"
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**標準名稱**](a-canonicalname.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**註解**](a-info.md)                                                 | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**一般名稱**](a-cn.md)                                               | 對      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                               | 是      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**公司**](a-company.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-代碼**](a-countrycode.md)                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-名稱**](a-c.md)                                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -117,7 +117,7 @@ ms.locfileid: "104467225"
 | [**世代-辨識符號**](a-generationqualifier.md)                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**指定-名稱**](a-givenname.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**縮寫**](a-initials.md)                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實例類型**](a-instancetype.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**實例類型**](a-instancetype.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**已刪除**](a-isdeleted.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -128,7 +128,7 @@ ms.locfileid: "104467225"
 | [**位置名稱**](a-l.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**標誌**](a-thumbnaillogo.md)                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Managed 物件**](a-managedobjects.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**經理**](a-manager.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**Manager**](a-manager.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**主要**](a-masteredby.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**MHS 或-Address**](a-mhsoraddress.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**修改時間戳記**](a-modifytimestamp.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -136,10 +136,10 @@ ms.locfileid: "104467225"
 | [**MS-DS-Consistency-Guid**](a-ms-ds-consistencyguid.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件-類別**](a-objectcategory.md)                               | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件類別**](a-objectclass.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件-類別**](a-objectcategory.md)                               | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件類別**](a-objectclass.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件-Guid**](a-objectguid.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件版本**](a-objectversion.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**組織單位-名稱**](a-ou.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -150,23 +150,23 @@ ms.locfileid: "104467225"
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md) | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**部分屬性集**](a-partialattributeset.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**個人標題**](a-personaltitle.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-傳真-其他**](a-otherfacsimiletelephonenumber.md)                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-首頁-其他**](a-otherhomephone.md)                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Fax-其他**](a-otherfacsimiletelephonenumber.md)                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話首頁-其他**](a-otherhomephone.md)                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-首頁-主要**](a-homephone.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-其他**](a-otheripphone.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-主要**](a-ipphone.md)                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-ISDN-主要**](a-primaryinternationalisdnnumber.md)            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-其他**](a-othermobile.md)                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-主要**](a-mobile.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**Phone-辦公室-其他**](a-othertelephone.md)                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-傳呼-其他**](a-otherpager.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-呼機-主要**](a-pager.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Mobile-其他**](a-othermobile.md)                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-行動-主要**](a-mobile.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Office-其他**](a-othertelephone.md)                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-其他**](a-otherpager.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-主要**](a-pager.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Picture**](a-thumbnailphoto.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**可能-Inferiors**](a-possibleinferiors.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**郵件標籤**](a-postaladdress.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**郵遞區號**](a-postalcode.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**郵局-Box**](a-postofficebox.md)                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**後續 Office-Box**](a-postofficebox.md)                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Proxy 位址**](a-proxyaddresses.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -180,7 +180,7 @@ ms.locfileid: "104467225"
 | [**代表**](a-repsto.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**修訂**](a-revision.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**請參閱-也**](a-seealso.md)                                             | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**請參閱-也**](a-seealso.md)                                             | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**顯示位址-書籍**](a-showinaddressbook.md)                       | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -189,9 +189,9 @@ ms.locfileid: "104467225"
 | [**街道位址**](a-street.md)                                        | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**子 Refs**](a-subrefs.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**Surname**](a-sn.md)                                                   | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**姓**](a-sn.md)                                                   | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**系統旗標**](a-systemflags.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**電話號碼**](a-telephonenumber.md)                             | 否     | [**個人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
+| [**電話號碼**](a-telephonenumber.md)                             | 否     | [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)        | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳號碼**](a-telexnumber.md)                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳-主要**](a-primarytelexnumber.md)                             | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -200,7 +200,7 @@ ms.locfileid: "104467225"
 | [**標題**](a-title.md)                                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**使用者憑證**](a-usercert.md)                                           | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**使用者-批註**](a-comment.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**使用者-密碼**](a-userpassword.md)                                   | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**使用者-密碼**](a-userpassword.md)                                   | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**使用者 SMIME-憑證**](a-usersmimecertificate.md)                  | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**USN-已變更**](a-usnchanged.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**USN-已建立**](a-usncreated.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -221,7 +221,7 @@ ms.locfileid: "104467225"
 
 ## <a name="windows-2000-server-property-sets"></a>Windows 2000 伺服器屬性集
 
-這個類別包含下列 Windows 2000 伺服器的屬性集：
+這個類別包含 Windows 2000 伺服器的下列屬性集：
 
 
 
@@ -243,7 +243,7 @@ ms.locfileid: "104467225"
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | 否                                                                                        |
 | Object-Category             | 1                                                                                            |
-| 預設-物件-類別     | [**個人**](c-person.md)<br/>                                                        |
+| 預設-物件-類別     | [**人**](c-person.md)<br/>                                                        |
 | Governs-Id                  | 1.2.840.113556.1.5.15                                                                        |
 | 預設值-隱藏-值        | 0                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
@@ -256,7 +256,7 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -274,11 +274,11 @@ ms.locfileid: "104467225"
 | [**允許-子類別**](a-allowedchildclasses.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**助理**](a-assistant.md)                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)    | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)    | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**標準名稱**](a-canonicalname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**註解**](a-info.md)                                                   | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**一般名稱**](a-cn.md)                                                 | 對      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                 | 是      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**公司**](a-company.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-代碼**](a-countrycode.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-名稱**](a-c.md)                                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -305,7 +305,7 @@ ms.locfileid: "104467225"
 | [**指定-名稱**](a-givenname.md)                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**houseIdentifier**](a-houseidentifier.md)                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**縮寫**](a-initials.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -317,7 +317,7 @@ ms.locfileid: "104467225"
 | [**位置名稱**](a-l.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**標誌**](a-thumbnaillogo.md)                                             | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Managed 物件**](a-managedobjects.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**經理**](a-manager.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**Manager**](a-manager.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**主要**](a-masteredby.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**MHS 或-Address**](a-mhsoraddress.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**修改時間戳記**](a-modifytimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -346,10 +346,10 @@ ms.locfileid: "104467225"
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**組織單位-名稱**](a-ou.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -360,23 +360,23 @@ ms.locfileid: "104467225"
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**部分屬性集**](a-partialattributeset.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**個人標題**](a-personaltitle.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-傳真-其他**](a-otherfacsimiletelephonenumber.md)                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-首頁-其他**](a-otherhomephone.md)                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Fax-其他**](a-otherfacsimiletelephonenumber.md)                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話首頁-其他**](a-otherhomephone.md)                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-首頁-主要**](a-homephone.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-其他**](a-otheripphone.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-主要**](a-ipphone.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-ISDN-主要**](a-primaryinternationalisdnnumber.md)              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-其他**](a-othermobile.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-主要**](a-mobile.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**Phone-辦公室-其他**](a-othertelephone.md)                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-傳呼-其他**](a-otherpager.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-呼機-主要**](a-pager.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Mobile-其他**](a-othermobile.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-行動-主要**](a-mobile.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Office-其他**](a-othertelephone.md)                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-其他**](a-otherpager.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-主要**](a-pager.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Picture**](a-thumbnailphoto.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**可能-Inferiors**](a-possibleinferiors.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**郵件標籤**](a-postaladdress.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**郵遞區號**](a-postalcode.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**郵局-Box**](a-postofficebox.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**後續 Office-Box**](a-postofficebox.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Proxy 位址**](a-proxyaddresses.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -391,8 +391,8 @@ ms.locfileid: "104467225"
 | [**修訂**](a-revision.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**secretary**](a-secretary.md)                                            | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**請參閱-也**](a-seealso.md)                                               | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
-| [**序號**](a-serialnumber.md)                                     | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**請參閱-也**](a-seealso.md)                                               | 否     | [**人**](c-person.md)<br/>                                                                                                  |
+| [**序號**](a-serialnumber.md)                                     | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**顯示位址-書籍**](a-showinaddressbook.md)                         | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -402,9 +402,9 @@ ms.locfileid: "104467225"
 | [**結構物件類別**](a-structuralobjectclass.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**子 Refs**](a-subrefs.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**Surname**](a-sn.md)                                                     | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**姓**](a-sn.md)                                                     | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**系統旗標**](a-systemflags.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**電話號碼**](a-telephonenumber.md)                               | 否     | [**個人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
+| [**電話號碼**](a-telephonenumber.md)                               | 否     | [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)          | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳號碼**](a-telexnumber.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳-主要**](a-primarytelexnumber.md)                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -413,7 +413,7 @@ ms.locfileid: "104467225"
 | [**標題**](a-title.md)                                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**使用者憑證**](a-usercert.md)                                             | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**使用者-批註**](a-comment.md)                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**使用者-密碼**](a-userpassword.md)                                     | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**使用者-密碼**](a-userpassword.md)                                     | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**使用者 SMIME-憑證**](a-usersmimecertificate.md)                    | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**USN-已變更**](a-usnchanged.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**USN-已建立**](a-usncreated.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -432,9 +432,9 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2003-property-sets"></a>Windows Server 2003 屬性集
+## <a name="windows-server-2003-property-sets"></a>WindowsServer 2003 屬性集
 
-這個類別包含下列 Windows Server 2003 的屬性集：
+這個類別包含 Windows Server 2003 的下列屬性集：
 
 
 
@@ -456,7 +456,7 @@ ms.locfileid: "104467225"
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | 否                                                                                        |
 | Object-Category             | 1                                                                                            |
-| 預設-物件-類別     | [**個人**](c-person.md)<br/>                                                        |
+| 預設-物件-類別     | [**人**](c-person.md)<br/>                                                        |
 | Governs-Id                  | 1.2.840.113556.1.5.15                                                                        |
 | 預設值-隱藏-值        | 0                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
@@ -469,7 +469,7 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -487,11 +487,11 @@ ms.locfileid: "104467225"
 | [**允許-子類別**](a-allowedchildclasses.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**助理**](a-assistant.md)                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)    | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)    | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**標準名稱**](a-canonicalname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**註解**](a-info.md)                                                   | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**一般名稱**](a-cn.md)                                                 | 對      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                 | 是      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**公司**](a-company.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-代碼**](a-countrycode.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-名稱**](a-c.md)                                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -518,7 +518,7 @@ ms.locfileid: "104467225"
 | [**指定-名稱**](a-givenname.md)                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**houseIdentifier**](a-houseidentifier.md)                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**縮寫**](a-initials.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -530,7 +530,7 @@ ms.locfileid: "104467225"
 | [**位置名稱**](a-l.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**標誌**](a-thumbnaillogo.md)                                             | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Managed 物件**](a-managedobjects.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**經理**](a-manager.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**Manager**](a-manager.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**主要**](a-masteredby.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**MHS 或-Address**](a-mhsoraddress.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**修改時間戳記**](a-modifytimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -563,10 +563,10 @@ ms.locfileid: "104467225"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**組織單位-名稱**](a-ou.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -577,23 +577,23 @@ ms.locfileid: "104467225"
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**部分屬性集**](a-partialattributeset.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**個人標題**](a-personaltitle.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-傳真-其他**](a-otherfacsimiletelephonenumber.md)                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-首頁-其他**](a-otherhomephone.md)                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Fax-其他**](a-otherfacsimiletelephonenumber.md)                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話首頁-其他**](a-otherhomephone.md)                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-首頁-主要**](a-homephone.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-其他**](a-otheripphone.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-主要**](a-ipphone.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-ISDN-主要**](a-primaryinternationalisdnnumber.md)              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-其他**](a-othermobile.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-主要**](a-mobile.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**Phone-辦公室-其他**](a-othertelephone.md)                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-傳呼-其他**](a-otherpager.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-呼機-主要**](a-pager.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Mobile-其他**](a-othermobile.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-行動-主要**](a-mobile.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Office-其他**](a-othertelephone.md)                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-其他**](a-otherpager.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-主要**](a-pager.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Picture**](a-thumbnailphoto.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**可能-Inferiors**](a-possibleinferiors.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**郵件標籤**](a-postaladdress.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**郵遞區號**](a-postalcode.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**郵局-Box**](a-postofficebox.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**後續 Office-Box**](a-postofficebox.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Proxy 位址**](a-proxyaddresses.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -608,8 +608,8 @@ ms.locfileid: "104467225"
 | [**修訂**](a-revision.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**secretary**](a-secretary.md)                                            | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**請參閱-也**](a-seealso.md)                                               | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
-| [**序號**](a-serialnumber.md)                                     | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**請參閱-也**](a-seealso.md)                                               | 否     | [**人**](c-person.md)<br/>                                                                                                  |
+| [**序號**](a-serialnumber.md)                                     | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**顯示位址-書籍**](a-showinaddressbook.md)                         | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -619,9 +619,9 @@ ms.locfileid: "104467225"
 | [**結構物件類別**](a-structuralobjectclass.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**子 Refs**](a-subrefs.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**Surname**](a-sn.md)                                                     | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**姓**](a-sn.md)                                                     | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**系統旗標**](a-systemflags.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**電話號碼**](a-telephonenumber.md)                               | 否     | [**個人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
+| [**電話號碼**](a-telephonenumber.md)                               | 否     | [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)          | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳號碼**](a-telexnumber.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳-主要**](a-primarytelexnumber.md)                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -630,7 +630,7 @@ ms.locfileid: "104467225"
 | [**標題**](a-title.md)                                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**使用者憑證**](a-usercert.md)                                             | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**使用者-批註**](a-comment.md)                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**使用者-密碼**](a-userpassword.md)                                     | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**使用者-密碼**](a-userpassword.md)                                     | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**使用者 SMIME-憑證**](a-usersmimecertificate.md)                    | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**USN-已變更**](a-usnchanged.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**USN-已建立**](a-usncreated.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -649,9 +649,9 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2003-r2-property-sets"></a>Windows Server 2003 R2 屬性集
+## <a name="windows-server-2003-r2-property-sets"></a>WindowsServer 2003 R2 屬性集
 
-此類別包含下列 Windows Server 2003 R2 的屬性集：
+此類別包含 Windows Server 2003 R2 的下列屬性集：
 
 
 
@@ -673,7 +673,7 @@ ms.locfileid: "104467225"
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | 否                                                                                        |
 | Object-Category             | 1                                                                                            |
-| 預設-物件-類別     | [**個人**](c-person.md)<br/>                                                        |
+| 預設-物件-類別     | [**人**](c-person.md)<br/>                                                        |
 | Governs-Id                  | 1.2.840.113556.1.5.15                                                                        |
 | 預設值-隱藏-值        | 0                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
@@ -686,7 +686,7 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -704,11 +704,11 @@ ms.locfileid: "104467225"
 | [**允許-子類別**](a-allowedchildclasses.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**助理**](a-assistant.md)                                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)       | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)       | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**標準名稱**](a-canonicalname.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**註解**](a-info.md)                                                      | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**一般名稱**](a-cn.md)                                                    | 對      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                    | 是      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**公司**](a-company.md)                                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-代碼**](a-countrycode.md)                                          | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-名稱**](a-c.md)                                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -735,7 +735,7 @@ ms.locfileid: "104467225"
 | [**指定-名稱**](a-givenname.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**houseIdentifier**](a-houseidentifier.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**縮寫**](a-initials.md)                                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實例類型**](a-instancetype.md)                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**實例類型**](a-instancetype.md)                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**已刪除**](a-isdeleted.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -747,7 +747,7 @@ ms.locfileid: "104467225"
 | [**位置名稱**](a-l.md)                                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**標誌**](a-thumbnaillogo.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Managed 物件**](a-managedobjects.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**經理**](a-manager.md)                                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**Manager**](a-manager.md)                                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**主要**](a-masteredby.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**MHS 或-Address**](a-mhsoraddress.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**修改時間戳記**](a-modifytimestamp.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -797,10 +797,10 @@ ms.locfileid: "104467225"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件-類別**](a-objectcategory.md)                                    | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件類別**](a-objectclass.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件-類別**](a-objectcategory.md)                                    | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件類別**](a-objectclass.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件-Guid**](a-objectguid.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件版本**](a-objectversion.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**組織單位-名稱**](a-ou.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -811,23 +811,23 @@ ms.locfileid: "104467225"
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**部分屬性集**](a-partialattributeset.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**個人標題**](a-personaltitle.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-傳真-其他**](a-otherfacsimiletelephonenumber.md)                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-首頁-其他**](a-otherhomephone.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Fax-其他**](a-otherfacsimiletelephonenumber.md)                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話首頁-其他**](a-otherhomephone.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-首頁-主要**](a-homephone.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-其他**](a-otheripphone.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-主要**](a-ipphone.md)                                          | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-ISDN-主要**](a-primaryinternationalisdnnumber.md)                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-其他**](a-othermobile.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-主要**](a-mobile.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**Phone-辦公室-其他**](a-othertelephone.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-傳呼-其他**](a-otherpager.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-呼機-主要**](a-pager.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)          | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Mobile-其他**](a-othermobile.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-行動-主要**](a-mobile.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Office-其他**](a-othertelephone.md)                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-其他**](a-otherpager.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-主要**](a-pager.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)          | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Picture**](a-thumbnailphoto.md)                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**可能-Inferiors**](a-possibleinferiors.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**郵件標籤**](a-postaladdress.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**郵遞區號**](a-postalcode.md)                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**郵局-Box**](a-postofficebox.md)                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**後續 Office-Box**](a-postofficebox.md)                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Proxy 位址**](a-proxyaddresses.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -842,8 +842,8 @@ ms.locfileid: "104467225"
 | [**修訂**](a-revision.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**secretary**](a-secretary.md)                                               | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**請參閱-也**](a-seealso.md)                                                  | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
-| [**序號**](a-serialnumber.md)                                        | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**請參閱-也**](a-seealso.md)                                                  | 否     | [**人**](c-person.md)<br/>                                                                                                  |
+| [**序號**](a-serialnumber.md)                                        | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**顯示位址-書籍**](a-showinaddressbook.md)                            | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -853,9 +853,9 @@ ms.locfileid: "104467225"
 | [**結構物件類別**](a-structuralobjectclass.md)                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**子 Refs**](a-subrefs.md)                                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**Surname**](a-sn.md)                                                        | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**姓**](a-sn.md)                                                        | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**系統旗標**](a-systemflags.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**電話號碼**](a-telephonenumber.md)                                  | 否     | [**個人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
+| [**電話號碼**](a-telephonenumber.md)                                  | 否     | [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)             | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳號碼**](a-telexnumber.md)                                          | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳-主要**](a-primarytelexnumber.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -864,7 +864,7 @@ ms.locfileid: "104467225"
 | [**標題**](a-title.md)                                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**使用者憑證**](a-usercert.md)                                                | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**使用者-批註**](a-comment.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**使用者-密碼**](a-userpassword.md)                                        | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**使用者-密碼**](a-userpassword.md)                                        | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**使用者 SMIME-憑證**](a-usersmimecertificate.md)                       | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**USN-已變更**](a-usnchanged.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**USN-已建立**](a-usncreated.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -883,9 +883,9 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2008-property-sets"></a>Windows Server 2008 屬性集
+## <a name="windows-server-2008-property-sets"></a>WindowsServer 2008 屬性集
 
-這個類別包含下列 Windows Server 2008 的屬性集：
+這個類別包含 Windows Server 2008 的下列屬性集：
 
 
 
@@ -907,7 +907,7 @@ ms.locfileid: "104467225"
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | 否                                                                                        |
 | Object-Category             | 1                                                                                            |
-| 預設-物件-類別     | [**個人**](c-person.md)<br/>                                                        |
+| 預設-物件-類別     | [**人**](c-person.md)<br/>                                                        |
 | Governs-Id                  | 1.2.840.113556.1.5.15                                                                        |
 | 預設值-隱藏-值        | 0                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
@@ -920,7 +920,7 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -938,11 +938,11 @@ ms.locfileid: "104467225"
 | [**允許-子類別**](a-allowedchildclasses.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**助理**](a-assistant.md)                                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)         | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)         | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**標準名稱**](a-canonicalname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**註解**](a-info.md)                                                        | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**一般名稱**](a-cn.md)                                                      | 對      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                      | 是      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**公司**](a-company.md)                                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-代碼**](a-countrycode.md)                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-名稱**](a-c.md)                                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -969,7 +969,7 @@ ms.locfileid: "104467225"
 | [**指定-名稱**](a-givenname.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**houseIdentifier**](a-houseidentifier.md)                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**縮寫**](a-initials.md)                                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -982,7 +982,7 @@ ms.locfileid: "104467225"
 | [**位置名稱**](a-l.md)                                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**標誌**](a-thumbnaillogo.md)                                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Managed 物件**](a-managedobjects.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**經理**](a-manager.md)                                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**Manager**](a-manager.md)                                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**主要**](a-masteredby.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**MHS 或-Address**](a-mhsoraddress.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**修改時間戳記**](a-modifytimestamp.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -1038,10 +1038,10 @@ ms.locfileid: "104467225"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**組織單位-名稱**](a-ou.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -1052,23 +1052,23 @@ ms.locfileid: "104467225"
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)        | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**部分屬性集**](a-partialattributeset.md)                           | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**個人標題**](a-personaltitle.md)                                        | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-傳真-其他**](a-otherfacsimiletelephonenumber.md)                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-首頁-其他**](a-otherhomephone.md)                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Fax-其他**](a-otherfacsimiletelephonenumber.md)                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話首頁-其他**](a-otherhomephone.md)                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-首頁-主要**](a-homephone.md)                                        | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-其他**](a-otheripphone.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-主要**](a-ipphone.md)                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-ISDN-主要**](a-primaryinternationalisdnnumber.md)                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-其他**](a-othermobile.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-主要**](a-mobile.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**Phone-辦公室-其他**](a-othertelephone.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-傳呼-其他**](a-otherpager.md)                                        | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-呼機-主要**](a-pager.md)                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Mobile-其他**](a-othermobile.md)                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-行動-主要**](a-mobile.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Office-其他**](a-othertelephone.md)                                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-其他**](a-otherpager.md)                                        | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-主要**](a-pager.md)                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Picture**](a-thumbnailphoto.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**可能-Inferiors**](a-possibleinferiors.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**郵件標籤**](a-postaladdress.md)                                        | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**郵遞區號**](a-postalcode.md)                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**郵局-Box**](a-postofficebox.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**後續 Office-Box**](a-postofficebox.md)                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)                   | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Proxy 位址**](a-proxyaddresses.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -1083,8 +1083,8 @@ ms.locfileid: "104467225"
 | [**修訂**](a-revision.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**secretary**](a-secretary.md)                                                 | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**請參閱-也**](a-seealso.md)                                                    | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
-| [**序號**](a-serialnumber.md)                                          | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**請參閱-也**](a-seealso.md)                                                    | 否     | [**人**](c-person.md)<br/>                                                                                                  |
+| [**序號**](a-serialnumber.md)                                          | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**顯示位址-書籍**](a-showinaddressbook.md)                              | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -1094,9 +1094,9 @@ ms.locfileid: "104467225"
 | [**結構物件類別**](a-structuralobjectclass.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**子 Refs**](a-subrefs.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**Surname**](a-sn.md)                                                          | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**姓**](a-sn.md)                                                          | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**系統旗標**](a-systemflags.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**電話號碼**](a-telephonenumber.md)                                    | 否     | [**個人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
+| [**電話號碼**](a-telephonenumber.md)                                    | 否     | [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳號碼**](a-telexnumber.md)                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳-主要**](a-primarytelexnumber.md)                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -1105,7 +1105,7 @@ ms.locfileid: "104467225"
 | [**標題**](a-title.md)                                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**使用者憑證**](a-usercert.md)                                                  | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**使用者-批註**](a-comment.md)                                                | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**使用者-密碼**](a-userpassword.md)                                          | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**使用者-密碼**](a-userpassword.md)                                          | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**使用者 SMIME-憑證**](a-usersmimecertificate.md)                         | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**USN-已變更**](a-usnchanged.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**USN-已建立**](a-usncreated.md)                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -1124,9 +1124,9 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2008-r2-property-sets"></a>Windows Server 2008 R2 屬性集
+## <a name="windows-server-2008-r2-property-sets"></a>WindowsServer 2008 R2 屬性集
 
-此類別包含下列 Windows Server 2008 R2 的屬性集：
+此類別包含 Windows Server 2008 R2 的下列屬性集：
 
 
 
@@ -1148,7 +1148,7 @@ ms.locfileid: "104467225"
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | 否                                                                                        |
 | Object-Category             | 1                                                                                            |
-| 預設-物件-類別     | [**個人**](c-person.md)<br/>                                                        |
+| 預設-物件-類別     | [**人**](c-person.md)<br/>                                                        |
 | Governs-Id                  | 1.2.840.113556.1.5.15                                                                        |
 | 預設值-隱藏-值        | 0                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
@@ -1161,9 +1161,9 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -1179,11 +1179,11 @@ ms.locfileid: "104467225"
 | [**允許-子類別**](a-allowedchildclasses.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**助理**](a-assistant.md)                                                                       | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)                               | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**attributeCertificateAttribute**](a-attributecertificateattribute.md)                               | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**標準名稱**](a-canonicalname.md)                                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**註解**](a-info.md)                                                                              | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**一般名稱**](a-cn.md)                                                                            | 對      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                                            | 是      | **聯絡** [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**公司**](a-company.md)                                                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-代碼**](a-countrycode.md)                                                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**國家/地區-名稱**](a-c.md)                                                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -1210,7 +1210,7 @@ ms.locfileid: "104467225"
 | [**指定-名稱**](a-givenname.md)                                                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**houseIdentifier**](a-houseidentifier.md)                                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**縮寫**](a-initials.md)                                                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實例類型**](a-instancetype.md)                                                                | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**實例類型**](a-instancetype.md)                                                                | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**國際 ISDN 號碼**](a-internationalisdnnumber.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**已刪除**](a-isdeleted.md)                                                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -1223,7 +1223,7 @@ ms.locfileid: "104467225"
 | [**位置名稱**](a-l.md)                                                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**標誌**](a-thumbnaillogo.md)                                                                        | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Managed 物件**](a-managedobjects.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**經理**](a-manager.md)                                                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**Manager**](a-manager.md)                                                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**主要**](a-masteredby.md)                                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**MHS 或-Address**](a-mhsoraddress.md)                                                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**修改時間戳記**](a-modifytimestamp.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -1279,7 +1279,7 @@ ms.locfileid: "104467225"
 | [**ms-DS-來源-物件-DN**](a-msds-sourceobjectdn.md)                                                | 否     | **Contact**                                                                                                                            |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Ms-exch-assistant-name-助理-名稱**](a-msexchassistantname.md)                                                | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
@@ -1289,10 +1289,10 @@ ms.locfileid: "104467225"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                                | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                               | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                               | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件-類別**](a-objectcategory.md)                                                            | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**物件類別**](a-objectclass.md)                                                                  | 對      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件-類別**](a-objectcategory.md)                                                            | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
+| [**物件類別**](a-objectclass.md)                                                                  | 是      | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件-Guid**](a-objectguid.md)                                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**物件版本**](a-objectversion.md)                                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**組織單位-名稱**](a-ou.md)                                                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -1303,23 +1303,23 @@ ms.locfileid: "104467225"
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**部分屬性集**](a-partialattributeset.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**個人標題**](a-personaltitle.md)                                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-傳真-其他**](a-otherfacsimiletelephonenumber.md)                                             | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**電話-首頁-其他**](a-otherhomephone.md)                                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Fax-其他**](a-otherfacsimiletelephonenumber.md)                                             | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話首頁-其他**](a-otherhomephone.md)                                                           | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-首頁-主要**](a-homephone.md)                                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-其他**](a-otheripphone.md)                                                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-Ip-主要**](a-ipphone.md)                                                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電話-ISDN-主要**](a-primaryinternationalisdnnumber.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-其他**](a-othermobile.md)                                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**行動電話-主要**](a-mobile.md)                                                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**Phone-辦公室-其他**](a-othertelephone.md)                                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-傳呼-其他**](a-otherpager.md)                                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**手機-呼機-主要**](a-pager.md)                                                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**實體傳遞-辦公室-名稱**](a-physicaldeliveryofficename.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Mobile-其他**](a-othermobile.md)                                                            | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-行動-主要**](a-mobile.md)                                                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-Office-其他**](a-othertelephone.md)                                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-其他**](a-otherpager.md)                                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**電話-呼機-主要**](a-pager.md)                                                                 | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**實體傳遞-Office-名稱**](a-physicaldeliveryofficename.md)                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Picture**](a-thumbnailphoto.md)                                                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**可能-Inferiors**](a-possibleinferiors.md)                                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**郵件標籤**](a-postaladdress.md)                                                              | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**郵遞區號**](a-postalcode.md)                                                                    | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**郵局-Box**](a-postofficebox.md)                                                             | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
+| [**後續 Office-Box**](a-postofficebox.md)                                                             | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**慣用傳遞方法**](a-preferreddeliverymethod.md)                                         | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**Proxy-物件名稱**](a-proxiedobjectname.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**Proxy 位址**](a-proxyaddresses.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -1334,8 +1334,8 @@ ms.locfileid: "104467225"
 | [**修訂**](a-revision.md)                                                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SD-Rights-有效**](a-sdrightseffective.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**secretary**](a-secretary.md)                                                                       | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
-| [**請參閱-也**](a-seealso.md)                                                                          | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
-| [**序號**](a-serialnumber.md)                                                                | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**請參閱-也**](a-seealso.md)                                                                          | 否     | [**人**](c-person.md)<br/>                                                                                                  |
+| [**序號**](a-serialnumber.md)                                                                | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**伺服器參考-BL**](a-serverreferencebl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**顯示位址-書籍**](a-showinaddressbook.md)                                                    | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**顯示-內建-僅限視圖**](a-showinadvancedviewonly.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -1345,9 +1345,9 @@ ms.locfileid: "104467225"
 | [**結構物件類別**](a-structuralobjectclass.md)                                             | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**子 Refs**](a-subrefs.md)                                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**SubSchemaSubEntry**](a-subschemasubentry.md)                                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**Surname**](a-sn.md)                                                                                | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**姓**](a-sn.md)                                                                                | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**系統旗標**](a-systemflags.md)                                                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
-| [**電話號碼**](a-telephonenumber.md)                                                          | 否     | [**個人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
+| [**電話號碼**](a-telephonenumber.md)                                                          | 否     | [**人**](c-person.md)<br/> [**郵件收件者**](c-mailrecipient.md)<br/>                                             |
 | [**Teletex-終端機-識別碼**](a-teletexterminalidentifier.md)                                     | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳號碼**](a-telexnumber.md)                                                                  | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**電傳-主要**](a-primarytelexnumber.md)                                                          | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
@@ -1356,7 +1356,7 @@ ms.locfileid: "104467225"
 | [**標題**](a-title.md)                                                                               | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
 | [**使用者憑證**](a-usercert.md)                                                                        | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**使用者-批註**](a-comment.md)                                                                      | 否     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                     |
-| [**使用者-密碼**](a-userpassword.md)                                                                | 否     | [**個人**](c-person.md)<br/>                                                                                                  |
+| [**使用者-密碼**](a-userpassword.md)                                                                | 否     | [**人**](c-person.md)<br/>                                                                                                  |
 | [**使用者 SMIME-憑證**](a-usersmimecertificate.md)                                               | 否     | [**郵件收件者**](c-mailrecipient.md)<br/>                                                                                   |
 | [**USN-已變更**](a-usnchanged.md)                                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
 | [**USN-已建立**](a-usncreated.md)                                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                                                                        |
@@ -1375,7 +1375,7 @@ ms.locfileid: "104467225"
 
 
 
-## <a name="windows-server-2012-property-sets"></a>Windows Server 2012 屬性集
+## <a name="windows-server-2012-property-sets"></a>Windows Server 2012屬性集
 
 這個類別包含下列 Windows Server 2012 的屬性集：
 
