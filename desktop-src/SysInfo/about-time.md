@@ -17,7 +17,7 @@ ms.locfileid: "117765029"
 
 
 
-| 格式          | 類型                                                                     | Description                                                                                                                         |
+| 格式          | 類型                                                                     | 描述                                                                                                                         |
 |-----------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | 系統          | [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime)                                     | 取自內部硬體時鐘的年、月、日、小時、秒和毫秒。                                            |
 | 本機           | [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime)或 [ **FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) | 轉換成系統本地時區的系統時間或檔案時間。                                                               |

@@ -4,16 +4,16 @@ ms.assetid: 34cb3f3e-be4a-49e0-bf7d-6915906e2368
 title: 'ITAudioDeviceControl：： Get 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4311dc18291fcfbbe533dbe17042e6ba19c1122
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2877b48eab2ecab6259a034c9d74f4c32b9fae9233f5ceb0a0a409f43add014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118865782"
 ---
 # <a name="itaudiodevicecontrolget-method"></a>ITAudioDeviceControl：： Get 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續的作業系統版本中，無法使用這個方法。 RTC 用戶端 API 提供類似的功能。\]
+\[此方法無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get** 方法會抓取指定 [**音訊裝置屬性**](audiodeviceproperty.md)的值。
 
@@ -59,7 +59,7 @@ HRESULT get_Call(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足，無法執行操作。<br/> |

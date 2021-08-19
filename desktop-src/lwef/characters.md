@@ -4,16 +4,16 @@ description: 字元
 ms.assetid: d3eac94b-7899-4695-b0e5-0276c1f5e9cb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9377a89866d5ce2feafc04c2db1e50be7fe95ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f39254ecf653cf1a81baf1e933fad2ffa9ee967cfa3036e1fb17f9bb3a61b3f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118752279"
 ---
 # <a name="characters"></a>字元
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 人們的溝通本質上是社交的。 Microsoft 代理程式可讓您利用動畫字元來運用這方面的互動。 當使用者與其他人互動時，即使他們瞭解該字元是綜合的，使用者仍預期會有一個字元符合相同的社交，但不一定是實體的規則。 如果您建立的字元符合預期的範圍，使用者會發現您的字元更可信和 likable。 因此，您設計字元的方式可能會對其成功造成顯著的影響。
 
@@ -27,9 +27,9 @@ ms.locfileid: "103932208"
 
 您也可以決定使用 [輸出] 的 [文字] 氣球，以及球的字型和色彩的預設設定。 不過請注意，使用者可以變更字型和色彩屬性。 此外，您不能假設文字球的狀態保持不變，因為使用者可以關閉斷詞提示。
 
- 
+ 
 
- 
+ 
 
 
 

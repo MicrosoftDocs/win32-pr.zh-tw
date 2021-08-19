@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d82d34a60ea736d10c8ec5ee8a001370c6b64c6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ffd42e27be4768fc0817aa76bb366429e236b3a82c45d081a05485b8520a23a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807821"
 ---
 # <a name="byte_count-attribute"></a>byte \_ count 屬性
 
@@ -68,7 +68,7 @@ ACF 屬性 **\[ 位元組 \_ 計數 \]** 表示 MICROSOFT 的延伸至 DCE IDL �
 > [!Note]  
 > 因為估計所有 [**\[ out \]**](out-idl.md)參數所需的大小，所以 NDR64 語法不再支援 **\[ byte count \]** 屬性。
 
- 
+ 
 
 指標參數所參考的記憶體是連續的，而且不會由用戶端存根配置或釋放。 [ **\[ 位元組 \_ 計數 \]** ] 屬性的這項功能可讓您在用戶端記憶體中建立持續性緩衝區區域，以便在多個遠端程序呼叫期間重複使用。
 
@@ -107,15 +107,15 @@ proc1([byte_count(length)] pMyStruct);
 [**/osf**](-osf.md)
 </dt> <dt>
 
-[**擴展**](out-idl.md)
+[**out**](out-idl.md)
 </dt> <dt>
 
 [**大小 \_ 為**](size-is.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

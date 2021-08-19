@@ -39,7 +39,7 @@ ms.locfileid: "118328932"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Microsoft 正在淘汰 Windows Mail 公用程式，並停用 API CoStartOutlookExpress。 其他郵件 api 已標示為已淘汰，並預定在稍後的 Windows 版本中移除。 不過，未標示為已淘汰或已淘汰的公開記錄 api 將會在 Windows 7 中繼續運作。 二進位檔會保留在使用者的系統上，而且會繼續透過 Api 存取，尤其是在上述情況下。 此外，使用者的電子郵件 ( .eml) 和新聞 ( nws) 檔會保留在系統上。
 

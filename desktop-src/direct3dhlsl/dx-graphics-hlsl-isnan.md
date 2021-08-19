@@ -38,7 +38,7 @@ ms.locfileid: "118791937"
 
 
 
-| Item                                                   | 描述                            |
+| 項目                                                   | 描述                            |
 |--------------------------------------------------------|----------------------------------------|
 | <span id="x"></span><span id="X"></span>*X*<br/> | \[在 \] 指定的值中。<br/> |
 
@@ -54,7 +54,7 @@ ms.locfileid: "118791937"
 
 
 
-| 名稱  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小     |
+| Name  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小     |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------|
 | *x*   | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | 任意      |
 | *Ret* | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**bool**](/windows/desktop/WinProg/windows-data-types)                         | 作為輸入 |

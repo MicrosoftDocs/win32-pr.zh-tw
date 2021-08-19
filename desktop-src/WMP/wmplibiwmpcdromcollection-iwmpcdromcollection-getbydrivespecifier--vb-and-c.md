@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe771fc893d4bf43b82dc825a2d33724926e8151
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9937694234fe7e46fe9b98d83357da19abf18f8d14e83794587f6f2050b0019b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116216"
 ---
 # <a name="iwmpcdromcollectiongetbydrivespecifier-method"></a>IWMPCdromCollection：： getByDriveSpecifier 方法
 

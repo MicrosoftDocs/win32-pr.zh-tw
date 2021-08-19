@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2add14816f51d79c66189723ed8f9c62c7e725f3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad60acc19b1ad85e788f8da4503df7bacc067114ef4394615f38d92fda25912a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118835901"
 ---
 # <a name="playererror"></a>播放。錯誤
 

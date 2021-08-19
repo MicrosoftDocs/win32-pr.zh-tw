@@ -4,12 +4,12 @@ description: 下表摘要說明有關記憶體配置的重要規則。
 ms.assetid: 0c1f8398-75e6-45ec-a9f9-9dcdbe21c24d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9403bb5057b2004d966c0634bc101a3282fe92
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ec50632693ad0df7ff44aa1d2a9a2760b07a2ed1b72a13ac5dc33294569c3484
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924699"
 ---
 # <a name="summary-of-memory-allocation-rules"></a>記憶體配置規則的摘要
 
@@ -17,7 +17,7 @@ ms.locfileid: "104092967"
 
 
 
-| MIDL 元素                                                                                                                                           | Description                                                                                                                                                           |
+| MIDL 元素                                                                                                                                           | 描述                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最上層 \[ [ref](/windows/desktop/Midl/ref) \] 指標                                                                                                                | 必須為非 null 指標。                                                                                                                                            |
 | 函數傳回值                                                                                                                                  | 一律會為指標傳回值配置新的記憶體。                                                                                                             |
@@ -30,7 +30,7 @@ ms.locfileid: "104092967"
 
 
 
- 
+ 
 
 下表摘要說明在記憶體管理上的金鑰識別碼L 和 ACF 屬性的影響。
 
@@ -51,8 +51,8 @@ ms.locfileid: "104092967"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

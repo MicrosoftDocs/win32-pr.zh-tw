@@ -4,18 +4,18 @@ ms.assetid: 9c9631b2-4c0e-44ee-9df7-5eefcc2c6b95
 title: OrientationText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ecdcb8e9ab8a2c4577fec8392a22081fc439f17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcda4cfd43e69c0abfca81ca31de14a24cc0b36edc57d225a451d092cea6770a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117682484"
 ---
 # <a name="systemphotoorientationtext"></a>OrientationText
 
 使用者易記的 [系統相片](./props-system-photo-orientation.md)形式。 不打算以程式設計方式剖析。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -6,12 +6,12 @@ keywords:
 - ACF MIDL，屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5df2f9c6f95f17980f6710af47f2675b74955f07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19527906c6656e676447eed1eb19d302068e2ae5e12618d5e9cecd178ee299bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808435"
 ---
 # <a name="acf-attributes"></a>ACF 屬性
 
@@ -24,9 +24,9 @@ ms.locfileid: "104022030"
 -   [錯誤和例外狀況處理 ACF 屬性](error-and-exception-handling-acf-attributes.md)
 -   [在 IDL 檔案中使用 ACF 屬性](using-acf-attributes-in-an-idl-file.md)
 
- 
+ 
 
- 
+ 
 
 
 

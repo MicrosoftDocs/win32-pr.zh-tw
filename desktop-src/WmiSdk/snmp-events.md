@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SNMP 事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94b133d2fc81c76949439b3e1f26d1fc448f0b13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 925ce6bb5eca0a3c067470255296ba6c9f66c0183b2b74aa6cfa4a25824446d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118816644"
 ---
 # <a name="snmp-events"></a>SNMP 事件
 

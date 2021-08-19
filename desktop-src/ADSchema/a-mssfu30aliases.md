@@ -34,7 +34,7 @@ ms.locfileid: "118424978"
 | 大小              | \-                                   |
 | 更新許可權  | \-                                   |
 | 更新頻率  | \-                                   |
-| Attribute-Id      | 1.2.840.113556.1.6.18.1.323          |
+| Attribute-Id      | 1. 2. 113556. 1. 6. 1. 1. 1. 1. 1. 1. 1. 323          |
 | 系統識別碼-Guid    | 20ebf171-c69a-4c31-b29d-dcb837d8912d |
 | Syntax            | [**String(IA5)**](s-string-ia5.md)  |
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: d4fa9d99cf323e19ccd298786896f789bbb08be6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b516b5fbe98c8bf481eaeed5b01c11f2dde6697a5832afc9d505d49254db2a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118816376"
 ---
 # <a name="swbemdatetimemicrosecondsspecified-property"></a>SWbemDateTime. MicrosecondsSpecified 屬性
 
@@ -55,8 +55,8 @@ SWbemDateTime.MicrosecondsSpecified As Boolean
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemDateTime<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemDateTime<br/>                                                          |
@@ -73,7 +73,7 @@ SWbemDateTime.MicrosecondsSpecified As Boolean
 [**SWbemDateTime**](swbemdatetime.md)
 </dt> <dt>
 
-[Datetime](datetime.md)
+[DATETIME](datetime.md)
 </dt> </dl>
 
  

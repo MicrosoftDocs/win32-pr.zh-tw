@@ -4,12 +4,12 @@ ms.assetid: e9e54f26-223d-493a-b4d5-ca7c2bd22756
 title: PKCS \# 7 EOBO 要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2bd6e380ac3d2fb06c0447cb8ef4c5d859d71e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bbb2012012af800a484b91a745abbd6fbc9c74b93e8a1089b9d86bad3ca5f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774573"
 ---
 # <a name="pkcs-7-eobo-request"></a>PKCS \# 7 EOBO 要求
 

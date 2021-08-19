@@ -5,12 +5,12 @@ ms.assetid: c55e4881-ca98-4393-a72e-f3ced687b7ca
 title: Tablet PC API 詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec2c047061f8c842f4725875d045e4895927bc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 394b935bb36fbd4c8e4dfa429b4da341c72f5467d9023e772ef898df4a59bb47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967576"
 ---
 # <a name="tablet-pc-api-glossary"></a>Tablet PC API 詞彙
 
@@ -222,7 +222,7 @@ Tablet 內容座標所對應的虛擬座標空間。
 <span id="tablet.tablet_glossary_lattice"></span><span id="TABLET.TABLET_GLOSSARY_LATTICE"></span>**格**
 </dt> <dd>
 
-一組用來將辨識結果傳遞到 Tablet PC 程式庫的結構。 >lattice 結構的彈性可讓您管理大量辨識結果的邏輯，這些結果可以合併成複雜的關聯性。
+一組用來將辨識結果傳遞到 Tablet PC 程式庫的結構。 >Lattice 結構的彈性可讓您管理大量辨識結果的邏輯，這些結果可以合併成複雜的關聯性。
 
 </dd> <dt>
 

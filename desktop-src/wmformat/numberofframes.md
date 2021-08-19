@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a0a73e1892c2d6de63bb92e54435d4328b95c19
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3874f492c60b4362a79a5452ef83ecccbccc9873b86432a6d22873839efe51d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117654475"
 ---
 # <a name="numberofframes"></a>NumberOfFrames
 
@@ -42,9 +42,9 @@ g \_ wszWMNumberOfFrames
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

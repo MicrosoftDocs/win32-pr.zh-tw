@@ -4,12 +4,12 @@ ms.assetid: e8c54168-22b3-435e-b19a-9b34adcdb018
 title: 語言名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb17d87835c0ca81a33e1de279f99a4051045737
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b90ebc080cf359d722d3f94f411d37d8a30980802ae46c4b026d56f87799c8da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117809977"
 ---
 # <a name="language-names"></a>語言名稱
 

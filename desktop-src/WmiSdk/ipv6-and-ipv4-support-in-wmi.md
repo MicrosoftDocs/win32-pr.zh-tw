@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 中的 IPv6 和 IPv4 支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 107872b2a65ffe02f34245a39e0a803d2ac53a2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cea400d6c896220dcde5c15d40481444a77ffb309eac8bfdc50cb06ab634c384
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118819296"
 ---
 # <a name="ipv6-and-ipv4-support-in-wmi"></a>WMI 中的 IPv6 和 IPv4 支援
 

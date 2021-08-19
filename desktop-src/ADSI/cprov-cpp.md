@@ -1,5 +1,5 @@
 ---
-title: CPROV.Cpp
+title: CPROV.CPP
 description: 在範例提供者元件中，您可以在 cprov 中找到用來執行 ADs 提供者物件的程式碼範例。 下表列出支援的方法。
 ms.assetid: 606d3539-0d87-4706-a4d1-e71fa25156c1
 ms.tgt_platform: multiple
@@ -12,7 +12,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/11/2021
 ms.locfileid: "118428729"
 ---
-# <a name="cprovcpp"></a>CPROV.Cpp
+# <a name="cprovcpp"></a>CPROV.CPP
 
 在範例提供者元件中，您可以在 cprov 中找到用來執行 ADs 提供者物件的程式碼範例。 下表列出支援的方法。
 

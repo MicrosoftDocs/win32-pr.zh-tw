@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntdddisk.h
-ms.openlocfilehash: f18e8f47cd5b1b527c9d6d2d19a09775528602d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be4db89e888778c3d92090a32243f0203b527337b3734328a183b551a6181f7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117813790"
 ---
 # <a name="disk_cluster_info-structure"></a>磁片 \_ 群集 \_ 資訊結構
 
@@ -90,7 +90,7 @@ typedef struct _DISK_CLUSTER_INFO {
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Ntdddisk。h</dt> </dl> |
 
 

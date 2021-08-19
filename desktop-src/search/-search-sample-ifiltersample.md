@@ -34,7 +34,7 @@ IFilterSample 程式碼範例會示範如何建立用來執行 [**ifilter**](/wi
 
 下列位置提供此範例。
 
-| Location      | 路徑 URL                                                                  |
+| 位置      | 路徑 URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
 | GitHub        | [IFilterSample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample)          |
 

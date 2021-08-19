@@ -4,12 +4,12 @@ description: 顯示如何扭曲物件。
 ms.assetid: bdc12ca3-eb0d-49ab-8ef7-f42f24fef7ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 691062e64d4255b1e2f7711b5ff700d72fd90063
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 849c292221a8b4503cdfd122e08b6f1b2521043b44732c33d851a86693853f2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003479"
 ---
 # <a name="how-to-skew-an-object"></a>如何扭曲物件
 
@@ -79,6 +79,6 @@ ms.locfileid: "103842599"
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,16 +4,16 @@ description: Request 物件
 ms.assetid: d8b37164-6855-48c0-bcf8-a86c0f8b3a59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a50d554a5799af9a434b456113d7c826d2a0aa2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1d2bc9ecf65403ca6dbb471c81a65b105bcc5b69701760a73f8fbc8a5684a9b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882391"
 ---
 # <a name="the-request-object"></a>Request 物件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 伺服器會以非同步方式處理一些方法。 這可讓您的應用程式程式碼在方法完成時繼續執行。 當用戶端應用程式呼叫其中一個方法時，控制項會建立並傳回要求的 [**要求**](/windows/desktop/lwef/the-request-object) 物件。 您可以藉由將物件變數指派給方法，使用 **Request** 物件來追蹤方法的狀態。 在 Visual Basic 中，先宣告物件變數：
 
@@ -77,7 +77,7 @@ ms.locfileid: "106966030"
 
 
 
- 
+ 
 
 [**Request**](/windows/desktop/lwef/the-request-object)物件也會在 [**Number**](https://www.bing.com/search?q=**Number**)屬性中包含一個長整數值，此值會傳回錯誤或 [**狀態**](status-property.md)代碼的原因。 如果沒有，則這個值為零 (0) 。 [**Description**](description-property.md)屬性包含對應至錯誤號碼的字串值。 如果字串不存在， **描述** 會包含「應用程式定義或物件定義的錯誤」。
 
@@ -87,6 +87,6 @@ ms.locfileid: "106966030"
 
 下列方法可以用來傳回 [**Request**](/windows/desktop/lwef/the-request-object)物件： [**GestureAt**](gestureat-method.md)、 [**Get**](get-method.md)、 [**Hide**](hide-method.md)、插斷、 [****](interrupt-method.md)[**載入**](load-method.md)、 [**MoveTo**](moveto-method.md)、[**播放**](play-method.md)、[**顯示**](show-method.md)、[**說話**](speak-method.md)和 [**等候**](https://www.bing.com/search?q=**Wait**)。
 
- 
+ 
 
- 
+ 

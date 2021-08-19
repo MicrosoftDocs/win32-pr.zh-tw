@@ -8,16 +8,16 @@ keywords:
 - 記憶體配置 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63c441439499d1a9b22e36c697ab6615f3292744
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5d355214c7f3222d67fd7673de4f9d32d19b4c885e8f97143c80df7b98bc0e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807891"
 ---
 # <a name="c-compiler-packing-issues"></a>C-編譯器封裝問題
 
-封裝層級會以相同方式影響 MIDL 和 Microsoft C/c + + 編譯器之類型的記憶體配置。 在 Microsoft 組建環境中（例如 VC + + 所定義的組建環境或平臺軟體發展工具組 (SDK) ），MIDL 和 C/c + + 編譯器的預設封裝層級是相同的;32位和64位 Windows 組建環境的預設封裝層級為8。
+封裝層級會以相同方式影響 MIDL 和 Microsoft C/c + + 編譯器之類型的記憶體配置。 在 Microsoft 組建環境中（例如 VC++ 所定義的組建環境或平臺軟體發展工具組 (SDK) ），MIDL 和 c/c + + 編譯器的預設封裝層級是相同的;32位和64位 Windows 組建環境的預設封裝層級為8。
 
 ## <a name="natural-alignment"></a>自然對齊
 
@@ -35,7 +35,7 @@ ms.locfileid: "103842224"
 > [!Note]  
 > 在記憶體中，當放置在 *n* 的倍數的位址時，具有自然對齊 *n* 的類型物件一定會適當地對齊。
 
- 
+ 
 
 ## <a name="packing-versus-alignment"></a>封裝與對齊
 
@@ -79,6 +79,6 @@ struct mystructtype
 [/pack](./-pack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b6ffc0e4b69667800b1880cae1a992a207cc95a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06a627668fd8a7b9550f92c65918a85448ec1f23ba1d92630379ec205660f58d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812174"
 ---
 # <a name="cim_elementview-class"></a>CIM \_ ElementView 類別
 
@@ -87,7 +87,7 @@ class CIM_ElementView : CIM_Dependency
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                             |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                          |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |

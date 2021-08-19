@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc93ec89e4207037269733677a083bc2e965668f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 250485411ab3a963ff2403e264e1cff4ed331b57f8aff4966581e171a9b9bfd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118011740"
 ---
 # <a name="print-rate-unit-attribute"></a>列印速率-單位屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "103935356"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
 | 在通用類別目錄中      | 否                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
@@ -79,9 +79,9 @@ ms.locfileid: "103935356"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
-| 在通用類別目錄中      | 對                                           |
+| 在通用類別目錄中      | 是                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -100,9 +100,9 @@ ms.locfileid: "103935356"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
-| 在通用類別目錄中      | 對                                           |
+| 在通用類別目錄中      | 是                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -121,9 +121,9 @@ ms.locfileid: "103935356"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
-| 在通用類別目錄中      | 對                                           |
+| 在通用類別目錄中      | 是                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -142,9 +142,9 @@ ms.locfileid: "103935356"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
-| 在通用類別目錄中      | 對                                           |
+| 在通用類別目錄中      | 是                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -163,9 +163,9 @@ ms.locfileid: "103935356"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
-| 在通用類別目錄中      | 對                                           |
+| 在通用類別目錄中      | 是                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |

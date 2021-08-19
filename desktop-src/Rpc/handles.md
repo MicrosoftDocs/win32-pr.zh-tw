@@ -86,7 +86,7 @@ Offset<2> 欄位提供從指標堆疊開頭到指定大小資料的位移。
 
  
 
-內容
+Context
 
 ``` syntax
 FC_BIND_CONTEXT flags<1> offset<2> context_rundown_routine_index<1> param_num<1>

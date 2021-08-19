@@ -4,12 +4,12 @@ ms.assetid: 25092F1D-0B54-4E5E-AC9E-F8F3A0181482
 title: 輸入方法管理員介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64bd04c02425aef19ed329867a5b228bd4838af8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3e7267f5f38bb160a7f71b4f0379a2b03a3263b85a64dc8e666226dd3150911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117809997"
 ---
 # <a name="input-method-manager-interfaces"></a>輸入方法管理員介面
 

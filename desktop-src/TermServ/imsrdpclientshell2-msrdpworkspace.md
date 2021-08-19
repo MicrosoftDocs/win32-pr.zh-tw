@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91eadd3f1b422e3da96d5bcd3a5178a2a0b0eb52
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6470f51ccae2efb6dc3d44a7b0a2a0310ad4230861d7d86262f34fd312fcfc5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118854432"
 ---
 # <a name="imsrdpclientshell2msrdpworkspace-property"></a>IMsRdpClientShell2：： MsRdpWorkspace 屬性
 

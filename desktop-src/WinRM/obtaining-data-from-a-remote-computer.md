@@ -10,20 +10,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8cfc95a73dab4c9a0f19481b7ba41f3c40a3862d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf3531e19c0848691ededa0c3b6b2fad642de33c2a5f2d465ac899716970a512
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823405"
 ---
 # <a name="obtaining-data-from-a-remote-computer"></a>從遠端電腦取得資料
 
-您可以取得資料或管理遠端電腦和本機電腦上的資源。 連接到 Windows 遠端管理腳本中的遠端電腦，與進行本機連接的方式非常類似。 WMI 實例資料可供使用，而且如果遠端電腦具有可使用 WS-Management 通訊協定進行通訊的 BMC 硬體，則也可以使用 [智慧型平臺管理介面 (的 IPMI) ](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) 資料。 如需詳細資訊，請參閱 [Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md) 和 [遠端硬體管理](remote-hardware-management.md)。
+您可以取得資料或管理遠端電腦和本機電腦上的資源。 連接到 Windows 遠端管理腳本中的遠端電腦，與進行本機連接的方式非常類似。 WMI 實例資料可供使用，而且如果遠端電腦具有可使用 WS-Management 通訊協定進行通訊的 BMC 硬體，則也可以使用 [智慧型平臺管理介面 (的 IPMI) ](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) 資料。 如需詳細資訊，請參閱[Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)和[遠端硬體管理](remote-hardware-management.md)。
 
 您可能需要建立 [**ConnectionOptions**](connectionoptions.md) 物件，以指定登入所要求之驗證類型的相關資訊。
 
-如果遠端電腦上的帳戶具有相同的登入使用者名稱和密碼，則您需要的額外資訊是傳輸、功能變數名稱和電腦名稱稱。 由於 [使用者帳戶控制 (UAC) ](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista)，因此遠端帳戶必須是網域帳戶和遠端電腦系統管理員群組的成員。 如果帳戶是 Administrators 群組的本機電腦成員，則 UAC 不允許存取 WinRM 服務。 若要存取工作組中的遠端 WinRM 服務，必須藉由建立下列 DWORD 登錄專案，並將其值設定為1： **\[ HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Windows \\ CurrentVersion \\ 原則 \\ 系統 \] LocalAccountTokenFilterPolicy**，來停用本機帳戶的 UAC 篩選。
+如果遠端電腦上的帳戶具有相同的登入使用者名稱和密碼，則您需要的額外資訊是傳輸、功能變數名稱和電腦名稱稱。 由於 [使用者帳戶控制 (UAC) ](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista)，因此遠端帳戶必須是網域帳戶和遠端電腦系統管理員群組的成員。 如果帳戶是 Administrators 群組的本機電腦成員，則 UAC 不允許存取 WinRM 服務。 若要存取工作組中的遠端 WinRM 服務，必須藉由建立下列 DWORD 登錄專案，並將其值設定為1： **\[ HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Windows \\ CurrentVersion \\ 原則 \\ 系統 \] LocalAccountTokenFilterPolicy** 來停用本機帳戶的 UAC 篩選。
 
 **使用登入使用者名稱和密碼連接到遠端電腦**
 
@@ -174,9 +174,9 @@ End Sub
 [使用 Windows 遠端管理](using-windows-remote-management.md)
 </dt> <dt>
 
-[Windows 遠端管理參考](windows-remote-management-reference.md)
+[Windows遠端系統管理參考](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
