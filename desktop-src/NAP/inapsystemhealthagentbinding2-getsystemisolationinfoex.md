@@ -100,7 +100,7 @@ SHA 必須在呼叫這個方法或 [**INapSystemHealthAgentBinding2**](inapsyste
 | 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
 | 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapSystemHealthAgent。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
 
 

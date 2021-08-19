@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294096(v=EXCHG.10)
 ms:contentKeyID: 32765711
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 636c3fa96692b8c48f9a175b5fa7d34c53314e1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e994b423b56b092e8865ad2440829aecfe3832b5a36d015869e0b700c2579a86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118070438"
 ---
 # <a name="using-extensible-storage-engine"></a>使用可擴充儲存引擎
 

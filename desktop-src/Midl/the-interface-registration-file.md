@@ -6,12 +6,12 @@ keywords:
 - 介面註冊檔 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1fd6f54f5e027a0ea25dc463772ec24ee5f7386
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d9a5541a5e60b1903364236f86dcf1845a5e1ac153fc91b47bacf9f553a9a109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806176"
 ---
 # <a name="the-interface-registration-file"></a>介面註冊檔案
 
@@ -28,6 +28,6 @@ ms.locfileid: "106966239"
 [建立和註冊 Proxy DLL](../com/building-and-registering-a-proxy-dll.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

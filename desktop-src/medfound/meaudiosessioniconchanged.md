@@ -4,12 +4,12 @@ ms.assetid: 72aae901-e5fe-481d-babb-459038abd629
 title: 'MEAudioSessionIconChanged 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba7a12a4e82585c270206d595d32ba82c4e9e594
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ce466cf88b93c9cf806a2a6b70f76b084e8aa0b2c8fb2910a7391337a13b2f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118062457"
 ---
 # <a name="meaudiosessioniconchanged-event"></a>MEAudioSessionIconChanged 事件
 
@@ -23,7 +23,7 @@ ms.locfileid: "106971044"
 
 
 
-| VARTYPE                | Description                                                                               |
+| VARTYPE                | 描述                                                                               |
 |------------------------|-------------------------------------------------------------------------------------------|
 | VT \_ 空白<br/>   | 沒有事件資料。<br/> <br/>                                                     |
 | VT \_ 不明<br/> | [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy)介面的指標。<br/> <br/> |
@@ -42,8 +42,8 @@ ms.locfileid: "106971044"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

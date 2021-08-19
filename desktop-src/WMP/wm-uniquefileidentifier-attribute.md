@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d0a4297f299f6e7df64088066b3137d844a0c78
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf29b5f4a0c2bf6e2642ce13f190a4734a2fb4ff395481b1ba93bc5feeb6db89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930814"
 ---
 # <a name="wmuniquefileidentifier-attribute"></a>WM/UniqueFileIdentifier 屬性
 
@@ -28,7 +28,7 @@ ms.locfileid: "106977784"
 -   [音訊專案](audio-item-attributes.md)
 -   [CD 播放清單](cd-playlist-attributes.md)
 -   [CD 曲目](cd-track-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -36,7 +36,7 @@ ms.locfileid: "106977784"
 
 **UniqueFileIdentifier** 是此屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMUniqueFileIdentifier。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMUniqueFileIdentifier。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

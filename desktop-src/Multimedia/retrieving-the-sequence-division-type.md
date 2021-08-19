@@ -10,12 +10,12 @@ keywords:
 - sequence 除法類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6586a33fe4a5225fdcdca21e413104388d5831d3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 81b28bb7e32097b888cdd3dec739eaccfc2a37dfe14060168fb11f0a7ca3d00e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801802"
 ---
 # <a name="retrieving-the-sequence-division-type"></a>正在抓取序列除法類型
 
@@ -35,13 +35,13 @@ MIDI 順序的 *部門型* 別決定了序列中的 MIDI 事件之間的時間�
 
 
 
- 
+ 
 
 您必須知道順序的除法類型才能變更或查詢其節奏。 您無法使用 MCI sequencer 來變更序列的除法類型。
 
- 
+ 
 
- 
+ 
 
 
 

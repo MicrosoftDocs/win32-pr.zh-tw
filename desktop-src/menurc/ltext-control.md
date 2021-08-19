@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f253c55238a36f7f6dd43f578c5ea5862a516869
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cdaafe752d547466267e8494743e8f0c99ccef0d0fb05b77db5dab2fa358f158
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870272"
 ---
 # <a name="ltext-control"></a>LTEXT 控制項
 
@@ -66,6 +66,6 @@ LTEXT "Filename", 101, 10, 10, 100, 100
 [**RTEXT**](rtext-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

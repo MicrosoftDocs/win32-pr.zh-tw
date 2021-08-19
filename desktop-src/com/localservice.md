@@ -6,12 +6,12 @@ keywords:
 - LocalService 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31f630c7c0a6f5e3bbf4b9c26ad82e5a104be238
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5e454566ac505907f66fad585062bc67f41c865df45b30405b83e5faadef7f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736464"
 ---
 # <a name="localservice"></a>LocalService
 
@@ -21,8 +21,8 @@ ms.locfileid: "103842795"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      LocalService = name
+   {AppID_GUID}
+      LocalService = name
 ```
 
 ## <a name="remarks"></a>備註
@@ -56,6 +56,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [服務](/windows/desktop/Services/services)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9851a2f74502a79b5cc85c494e468c4a346798f0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 84aed91fd3bb2b735de08a002f924bab1bcc8f5f279a4a6047de2b7b73cd7844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734250"
 ---
 # <a name="id3dx11effectvariablegetmemberbyname-method"></a>ID3DX11EffectVariable：： GetMemberByName 方法
 

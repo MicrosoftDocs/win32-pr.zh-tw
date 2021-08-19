@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90691aede68f8e43ae95a4bd6c6f7fb4e2ecad29
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3a1078a3eec25d6b6fdf44268ae915c20e7a2a9cf0c07a29730461bd544a7a0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808853"
 ---
 # <a name="no_robust-switch"></a>/no \_ 穩固的交換器
 
@@ -49,9 +49,9 @@ midl /no_robust
 [**/robust**](-robust.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

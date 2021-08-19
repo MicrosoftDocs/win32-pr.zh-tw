@@ -6,12 +6,12 @@ keywords:
 - TS_ATTRID
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ea3823a95c123fe9942f69a2a133fd94a8567a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2e1c40d56f1f8ff3deb59d0dd7664a197a672ade7b2d53beebd8e35ba5de7c0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950334"
 ---
 # <a name="ts_attrid"></a>TS \_ ATTRID
 
@@ -36,11 +36,11 @@ Guid TSATTRID \_ 文字 \_ VERTICALWRITING 和 TSATTRID \_ 文字方向適用于
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                             |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                         |
 | 標頭<br/>                   | <dl> <dt>Textstor。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Textstor .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Textstor .idl</dt> </dl> |
 
 
 

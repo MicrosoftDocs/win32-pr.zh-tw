@@ -1,19 +1,19 @@
 ---
-description: Windows 映像取得 (WIA) 函式和方法可能會傳回下列清單中的錯誤碼：錯誤 CodeMeaningCodeWIA \_ 錯誤 \_ BUSYThe 裝置忙碌中。
+description: Windows影像取得 (WIA) 函式和方法可能會傳回下列清單中的錯誤碼：錯誤 CodeMeaningCodeWIA \_ 錯誤 \_ BUSYThe 裝置忙碌中。
 ms.assetid: 3abbe92b-32b7-4820-b208-45c847243078
 title: '錯誤代碼 (WIA) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd6025616d46a5973692bb3cafbcf88e18836ad0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5c782ae449a52ae0ff2b64f124609a3142f1dd457d74bdb82333502ef1868ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117670271"
 ---
 # <a name="error-codes-wia"></a>錯誤代碼 (WIA) 
 
-Windows 映像取得 (WIA) 函式和方法可能會傳回下列清單中的錯誤碼： 
+Windows影像取得 (WIA) 函式和方法可能會傳回下列清單中的錯誤碼： 
 
 | 錯誤碼                                      | 意義                                                                                                                                                                                                                             | 程式碼       |
 |-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|

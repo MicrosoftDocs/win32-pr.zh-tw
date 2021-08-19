@@ -4,12 +4,12 @@ description: 若要讓應用程式接收 Teredo 流量，必須允許應用程�
 ms.assetid: 2fc74d86-9696-4ba9-adbe-e5558ae7d7c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbc2fcf0f7c8b1f5fe51afc056dc8c8ff7c7916a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a67d7de38ed91de7d8d8afeada6fe9705ff55f2af1b726ed5c5d49b271464dc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118354441"
 ---
 # <a name="required-firewall-exceptions-for-teredo"></a>Teredo 的必要防火牆例外
 
@@ -24,7 +24,7 @@ ms.locfileid: "106967276"
     > [!Note]  
     > 如果不符合這種情況，就會導入與特定 NAT 類型之間通訊相關之相容性問題的情況。尤其是在對稱式 Nat 和受限式 Nat 之間。 雖然對稱式 Nat 很受熱點限制，而受限式 Nat 在家庭中很普遍，但兩者之間的通訊在受限式 NAT 的端可能會發生錯誤。
 
-     
+     
 
 -   必須啟用連入和連出的 ICMPv6 「回顯要求」和「回應回復」例外狀況。 這些例外狀況是確保 Teredo 用戶端可以作為 Teredo 主機特定轉送的必要項。 Teredo 主機特定轉送可由其他原生 IPv6 位址或 Teredo 位址提供的6to4 位址來識別。
 
@@ -44,11 +44,11 @@ ms.locfileid: "106967276"
 
 
 
- 
+ 
 
 如果無法明確允許這些訊息，則應該在防火牆上啟用所有 ICMPv6 訊息的豁免。 此外，主機防火牆可能會注意到，由代碼135/136 或133/134 分類的封包源自于使用者模式服務 **iphlpsvc** ，而不是從堆疊。 主機防火牆不能卸載這些封包。 Teredo 服務主要是在「使用者模式」 IP Helper 服務內執行。
 
-使用 [**INetFwPolicy2**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2) WINDOWS 防火牆 API 來列舉已設定 Edge 遍歷旗標的所有規則，所有想要接聽未要求流量的應用程式都會列舉防火牆例外狀況。 有關使用 Edge 遍歷選項的特定資訊，詳細說明如何透過 [Teredo 接收未經](receiving-unsolicited-traffic-over-teredo.md)要求的流量。
+使用 [**INetFwPolicy2**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2) Windows 防火牆 API 來列舉已設定 Edge 遍歷旗標的所有規則，所有想要接聽未要求流量的應用程式都會列舉防火牆例外狀況。 有關使用 Edge 遍歷選項的特定資訊，詳細說明如何透過 [Teredo 接收未經](receiving-unsolicited-traffic-over-teredo.md)要求的流量。
 
 回呼未與下列範例列舉程式碼相關聯;強烈建議協力廠商防火牆定期執行列舉，或每次防火牆偵測到嘗試通過防火牆的新應用程式。
 
@@ -250,6 +250,6 @@ int __cdecl main()
 
 
 
- 
+ 
 
- 
+ 

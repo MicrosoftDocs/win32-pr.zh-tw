@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b1e92a109f9809168651c457242205d501fddec8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7992890b71a8b17219b7f4ce2b2bcf5d1618491a1c3c5001e384642cb5a40876
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144645"
 ---
 # <a name="componentinfostate-property"></a>ComponentInfo。 State 屬性
 
@@ -36,7 +36,7 @@ ms.locfileid: "106977714"
 
 | 需求 | 值 |
 |--------------------|------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Installer 5.0 或更新版本。<br/>                                         |
+| 版本<br/> | Windows安裝程式5.0 或更新版本。<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |
 | IID<br/>     | IID \_ IComponentInfo 定義為000C1099-0000-0000-C000-000000000046<br/>  |
 

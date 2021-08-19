@@ -6,12 +6,12 @@ keywords:
 - MCI_TEST 旗標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a36cddaa186a9be260cf87b7a323a6e05ed9fc4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 837b7812a904ed39fa0350d703b1525bbffa6f981b4736d25927840395932f32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801472"
 ---
 # <a name="the-test-flag"></a>測試旗標
 
@@ -19,9 +19,9 @@ ms.locfileid: "104311426"
 
 所有命令都支援此旗標，但 [**open**](open.md) ([**MCI \_ 開啟**](mci-open.md)) 並 [**關閉**](close.md) ([**MCI \_ 關閉**](mci-close.md)) 。
 
- 
+ 
 
- 
+ 
 
 
 

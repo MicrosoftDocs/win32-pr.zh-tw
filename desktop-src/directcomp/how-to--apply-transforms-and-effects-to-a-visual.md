@@ -10,17 +10,17 @@ keywords:
 - DirectComposition 不透明度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 728496309f62aaa0027ca3751a6681384fb83c95
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: f85a3a06fa0650e43f8f1a1be299021cafd233cc59937359dc78bc7b6d25bbb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104383202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088812"
 ---
 # <a name="how-to-apply-effects"></a>如何套用效果
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題將示範如何使用 Microsoft DirectComposition 將效果和3D 轉換套用至視覺效果。 本主題中的範例會變更視覺效果的不透明度，並繞著位於視覺效果中央的垂直軸旋轉。 若要深入瞭解 DirectComposition 支援的其他效果，請參閱 [效果](effects.md)。
 
@@ -1028,6 +1028,6 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 [影響](effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

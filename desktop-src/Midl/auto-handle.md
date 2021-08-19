@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01e9a4c91fac8553867536f4f5a8c3094e0f0ff9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1e1f42a2fb643a2ce643437aad73b13c6e55d3462e92f9ce52ba208c6dc5cb68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104462541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807881"
 ---
 # <a name="auto_handle-attribute"></a>自動 \_ 處理屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "104462541"
 > [!Note]  
 > 這個屬性已淘汰，不再支援。 建議使用 [**/robust**](-robust.md) 參數。
 
- 
+ 
 
 ``` syntax
 [ 
@@ -76,7 +76,7 @@ interface interface-name
 > [!Note]  
 > 您無法使用自動系結 (搭配 **\[ auto \_ handle \]** 屬性，或根據預設) （如果您是透過管道處理資料）。
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -123,9 +123,9 @@ interface MyInterface
 [**了 nocode**](nocode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

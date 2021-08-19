@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 91baca47479fe19988f3bfb23d573b8d92583d79
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc301c43bbc8ba834949ae2a5056fb4359b5c8db3125da3d1729b18ac7aa1b73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118120356"
 ---
 # <a name="correlation-systempropertiestype-element"></a>相互關聯 (SystemPropertiesType) 元素
 
@@ -45,7 +45,7 @@ ms.locfileid: "103934825"
 
 
 
-| 名稱              | 類型                                                | Description                                                                                                                                                                                  |
+| 名稱              | 類型                                                | 描述                                                                                                                                                                                  |
 |-------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ActivityID        | [**GUIDType**](eventschema-guidtype-simpletype.md) | 識別目前活動的全域唯一識別碼。 以此識別碼發佈的事件是相同活動的一部分。<br/>                              |
 | RelatedActivityID | [**GUIDType**](eventschema-guidtype-simpletype.md) | 全域唯一識別碼，用來識別要將控制項傳送至其中的活動。 相關事件接著會有此識別碼作為其 ActivityID 識別碼。<br/> |
@@ -58,8 +58,8 @@ ms.locfileid: "103934825"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

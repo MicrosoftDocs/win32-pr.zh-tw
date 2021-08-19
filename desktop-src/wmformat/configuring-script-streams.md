@@ -8,12 +8,12 @@ keywords:
 - 編寫資料流程的腳本，設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e063865b301c8c7c2a4171aa530a89464306c0ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f95c4c43fcb29ec2f77dacbf5a66b1c8c36c666d80fd5f5c09779a4ecaf22f05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117655986"
 ---
 # <a name="configuring-script-streams"></a>設定腳本資料流程
 
@@ -36,9 +36,9 @@ ms.locfileid: "104021321"
 [**指令碼命令**](script-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

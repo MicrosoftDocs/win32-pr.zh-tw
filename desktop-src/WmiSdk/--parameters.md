@@ -14,12 +14,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: df858445797a45e21a0d54e9aedc2387851ae54f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2f39cb7b88977c8f61e562badaa6cbda7a5004fc2d0edf70eb59c6276070efd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110563"
 ---
 # <a name="__parameters-class"></a>\_\_PARAMETERS 類別
 

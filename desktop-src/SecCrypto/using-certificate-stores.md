@@ -4,16 +4,16 @@ ms.assetid: 018fc41a-19fd-4e4c-bfed-e0215afb5150
 title: 使用憑證存放區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 682068ba8f2f88d0fedabeef7ccee676f092e52e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f687286d40e64e590079d872a0134742d552b66a9926a1febeb5c42ae2ad7566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971610"
 ---
 # <a name="using-certificate-stores"></a>使用憑證存放區
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 CAPICOM 使用 [*數位憑證*](../secgloss/d-gly.md) 來建立簽章、建立封包訊息時加密會話加密金鑰，以及在收到包訊息時將加密的工作階段金鑰解密。 根據預設，CAPICOM 會使用我存放區中的憑證，其具有相關聯的私密金鑰來建立 [*數位簽章*](../secgloss/d-gly.md) 和工作階段金鑰解密。 在大多數情況下，應用程式永遠不需要開啟或直接處理憑證存放區。
 

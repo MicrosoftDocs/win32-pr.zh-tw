@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fa22b231c63583c6d16e6a50f3e9987c5b61128
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e87d1b6105d7e6ae561d7409cbf256b67f965c61e235ffc5782594cb5623497c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806794"
 ---
 # <a name="lcid-attribute"></a>lcid 屬性
 
@@ -51,7 +51,7 @@ function-name([parameter-attribute-list, lcid] long  parameter-name,. . .);
 *localeID* 
 </dt> <dd>
 
-指定 Windows 國家語言支援中使用的32位地區設定識別碼。 一般而言，地區設定識別碼會以十六進位提供。
+指定用於 Windows 國語言支援的32位地區設定識別碼。 一般而言，地區設定識別碼會以十六進位提供。
 
 </dd> <dt>
 
@@ -164,6 +164,6 @@ interface IMyFace : IDispatch
 [**retval**](retval.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

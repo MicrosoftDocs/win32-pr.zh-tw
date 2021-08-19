@@ -161,12 +161,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ee2b9c009291bbc39f187d4b723b75e4cd8b97
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 184d687d637bf258036e4c905b7c57af371057d57ab0e70ec7808b0081230cb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737122"
 ---
 # <a name="com-error-codes-volmgr-bcd-vhd-sdiag"></a>COM 錯誤碼 (VOLMGR、BCD、VHD、SDIAG) 
 
@@ -176,7 +176,7 @@ ms.locfileid: "106996294"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                                                                                 | Description                                                                                                                                                                                                                                     |
+| 常數/值                                                                                                                                                                                                                                                                                                                                                                 | 描述                                                                                                                                                                                                                                     |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="ERROR_VOLMGR_INCOMPLETE_REGENERATION"></span><span id="error_volmgr_incomplete_regeneration"></span><dl> <dt>**錯誤 \_VOLMGR \_ 未 \_ 完成**</dt>的重新產生 <dt>0x80380001</dt> </dl>                                                                           | 因為磁區錯誤，所以重新產生作業無法從作用中的 plex 複製所有資料。<br/>                                                                                                                                  |
 | <span id="ERROR_VOLMGR_INCOMPLETE_DISK_MIGRATION"></span><span id="error_volmgr_incomplete_disk_migration"></span><dl> <dt>**錯誤 \_VOLMGR \_ 未完成的 \_ 磁片 \_ 遷移**</dt> <dt>0x80380002</dt> </dl>                                                                    | 一或多個磁片未完全遷移至目標套件。 在修正硬體問題之後，可能或可能不需要重新匯入。<br/>                                                                                               |

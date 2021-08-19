@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: f8f21891ae0cc5fa8e64fafd4acb9e61334a7279
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba4c7aff5139f1230179299d80065f1b933a6cf2d01d4ca03c045ccbe142c3cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441424"
 ---
 # <a name="iscanprofilesetproperty-method"></a>IScanProfile：： SetProperty 方法
 
@@ -53,16 +53,16 @@ HRESULT SetProperty(
 *pid* \[在\]
 </dt> <dd>
 
-類型： **PROPID \** _
+類型： **PROPID \***
 
 要設定之屬性識別碼陣列的指標。 陣列中的每個值都是 [WIA 屬性常數](-wia-wia-property-constants.md)。
 
 </dd> <dt>
 
-_pvar * \[ in\]
+*pvar* \[在\]
 </dt> <dd>
 
-類型： **[PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) \** _
+類型： **[PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)\***
 
 要指派給屬性之值陣列的指標。
 
@@ -70,7 +70,7 @@ _pvar * \[ in\]
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -88,10 +88,10 @@ _pvar * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Scanprofile。h</dt> </dl>    |
-| Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 
 
 

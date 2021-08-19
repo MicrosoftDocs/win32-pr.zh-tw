@@ -3,7 +3,7 @@ title: 'WM_CHANGECBCHAIN 訊息 (Winuser .h) '
 description: 從鏈中移除視窗時，傳送至剪貼簿檢視器鏈中的第一個視窗。 視窗會透過其 WindowProc 函數接收此訊息。
 ms.assetid: 7be87342-87fa-4cd2-b066-0b36b7ef52f5
 keywords:
-- WM_CHANGECBCHAIN 訊息資料交換
+- WM_CHANGECBCHAIN 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ab91640320e3659d0e9fb130f5c773ccbb7c4e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 25dac74784a214f77f8b2912e2fd643624ae767027121e2262d81989d54d3831
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736312"
 ---
 # <a name="wm_changecbchain-message"></a>WM \_ CHANGECBCHAIN 訊息
 
@@ -70,7 +70,7 @@ ms.locfileid: "104104088"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

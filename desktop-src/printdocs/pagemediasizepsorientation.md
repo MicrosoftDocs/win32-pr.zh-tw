@@ -24,7 +24,7 @@ ms.locfileid: "117868183"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|-------------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                     |
 | 範圍前置詞 <br/> | 頁面<br/>                                             |
@@ -77,9 +77,9 @@ ms.locfileid: "117868183"
 | DefaultValue<br/> | 整數<br/> | 0<br/>                 |
 | MaxValue<br/>     | 整數<br/> | 3<br/>                 |
 | MinValue<br/>     | 整數<br/> | 0<br/>                 |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/>   |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/>   |
 | 多個<br/>     | 整數<br/> | 1<br/>                 |
-| Unittype.pixel 表示<br/>     | string<br/>  | PageMediaSizeEnum<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | PageMediaSizeEnum<br/> |
 
 
 

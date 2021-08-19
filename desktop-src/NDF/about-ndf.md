@@ -4,16 +4,16 @@ description: 網路診斷架構 (NDF) 會在網路系統管理員和電腦使用
 ms.assetid: ac4ef38e-2818-4df4-b9f9-28326b974698
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b638298fe321d314815c74fced49d3dfb623022
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d15a2ce4890645e83c27e9c1cf594d7fbf4d81ce3d662a2b470ce652c71e7d7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117798900"
 ---
 # <a name="about-ndf"></a>關於 NDF
 
-網路診斷架構 (NDF) 會在網路系統管理員和電腦使用者發生時處理常見的網路問題，藉此減少其介入。 使用 NDF 的診斷和修復功能，使用者和系統管理員就不需要額外的工具，就能處理一些相當常見的問題。 NDF 隨附于 Windows Vista、Windows Server 2008 和更新版本中。 當系統開機 (但無法在安全模式中執行時，就可以使用此功能) 。
+網路診斷架構 (NDF) 會在網路系統管理員和電腦使用者發生時處理常見的網路問題，藉此減少其介入。 使用 NDF 的診斷和修復功能，使用者和系統管理員就不需要額外的工具，就能處理一些相當常見的問題。 NDF 隨附于 Windows Vista、Windows Server 2008 和更新版本中。 當系統開機 (但無法在保管庫模式) 中執行時，就可以使用它。
 
 ## <a name="ndf-helper-classes"></a>NDF Helper 類別
 
@@ -44,9 +44,9 @@ NDF 提供數個獨特的優點，以鼓勵網路元件開發人員使用。 清
 -   免除撰寫和支援一次性工具以診斷問題的需求。 Helper 類別可以是元件診斷功能和資訊收集技術的中央存放庫。
 -   讓應用程式可以使用元件專屬的診斷功能，而不需要他們直接瞭解元件。
 
- 
+ 
 
- 
+ 
 
 
 

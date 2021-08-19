@@ -10,12 +10,12 @@ keywords:
 - MPC 層級2，最小設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a543514aa89f6f9a6e1756de800ed8e387114538
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65a39f4c72bb79669187645e82fe11effd420ad70f86cc32abb2e6065dc47ffd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139694"
 ---
 # <a name="level-2-system-resources"></a>層級2系統資源
 
@@ -33,9 +33,9 @@ ms.locfileid: "104462165"
 
 此外，視訊卡的建議效能目標 (VGA +) 是使用40% 或更少 CPU 頻寬的每秒1200000圖元。 與裝置無關的點陣圖 (Dib) 用來測量此效能目標的色彩深度為1、4和8位，而且可以使用執行時間長度的編碼或未編碼。 測量影片效能的第二種方法是以每秒15個畫面格，將256色、320 x 240 圖元數位影片影像傳遞。
 
- 
+ 
 
- 
+ 
 
 
 

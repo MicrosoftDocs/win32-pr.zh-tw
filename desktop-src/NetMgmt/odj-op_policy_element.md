@@ -5,12 +5,12 @@ ms.assetid: 69f6e0e7-3f47-4fee-8a4c-df94093dcffa
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: df6fc6852a5efd0a6a2e01a805878ed51bc7c263
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 74e81f09f4d45d42f5e9df585b88051ac1e96e8cd33e4c15807701e61825b43b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104316906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117983382"
 ---
 # <a name="op_policy_element-structure"></a>OP_POLICY_ELEMENT 結構
 

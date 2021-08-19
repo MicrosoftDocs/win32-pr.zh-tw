@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 11be9da24be7fc9a03bab8e761e55a601715bd75
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 47d46f2472bf9c055814ed575584a087dc5922dc104fcbb3a49b2a2b2a93a958
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731887"
 ---
 # <a name="d3dxcreatevolumetexturefromfileex-function"></a>D3DXCreateVolumeTextureFromFileEx 函式
 
@@ -199,7 +199,7 @@ HRESULT D3DXCreateVolumeTextureFromFileEx(
 
 編譯器設定也會決定函式版本。 如果已定義 Unicode，函式呼叫會解析為 D3DXCreateVolumeTextureFromFileExW。 否則，函式呼叫會解析為 D3DXCreateVolumeTextureFromFileExA，因為正在使用 ANSI 字串。
 
-此函式支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函數支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 Mipmapped 紋理會自動以載入的音量材質填滿每個層級。 將影像載入 mipmapped 材質時，某些裝置無法進入1x1 影像，而且此函式將會失敗。 如果發生這種情況，則必須以手動方式載入映射。
 

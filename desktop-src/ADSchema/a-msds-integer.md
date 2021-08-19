@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad7fc7bb443302932b5d08e57be6a36bec19f729
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e23ddffb2405f882a5aa9c7d2ef18056ee4c75697b49a42c4c1036cc42fc444b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118014469"
 ---
 # <a name="ms-ds-integer-attribute"></a>ms DS-整數屬性
 

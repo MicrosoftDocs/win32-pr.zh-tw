@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2269464efb09e8c513ab2bdebb24744a6b32a671
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aba73244c3dc5217bcfe7350462200cd3226f0607c6d68ce5c6bcb8f5574b7df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117943235"
 ---
 # <a name="comhandler-actiongroup-element"></a>ComHandler (actionGroup) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "103934831"
 
 
 
-| 元素                                                         | 衍生自                                                       | Description                                            |
+| 元素                                                         | 衍生自                                                       | 描述                                            |
 |-----------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------|
 | [**行動**](taskschedulerschema-actions-tasktype-element.md) | [**actionsType**](taskschedulerschema-actionstype-complextype.md) | 包含工作所執行的動作。<br/> |
 
@@ -46,7 +46,7 @@ ms.locfileid: "103934831"
 
 
 
-| 元素                                                               | 類型                                                         | Description                                                       |
+| 元素                                                               | 類型                                                         | 描述                                                       |
 |-----------------------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------------|
 | [**ClassId**](taskschedulerschema-classid-comhandlertype-element.md) | [**guidType**](taskschedulerschema-guidtype-simpletype.md)  | 指定處理常式類別的識別碼。<br/>         |
 | [**資料**](taskschedulerschema-data-comhandlertype-element.md)       | [**dataType**](taskschedulerschema-datatype-complextype.md) | 指定與處理常式相關聯的其他資料。<br/> |
@@ -85,8 +85,8 @@ ms.locfileid: "103934831"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

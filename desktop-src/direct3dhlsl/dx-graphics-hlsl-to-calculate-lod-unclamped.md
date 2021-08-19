@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 57c2336491a3314953297daac817e8b67dd6f172
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: c61fbcd8ef340604b4104dcbfd25e1ceec6beb176aa3b7920c4305c6293ca69c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118090455"
 ---
 # <a name="calculatelevelofdetailunclamped-directx-hlsl-texture-object"></a>CalculateLevelOfDetailUnclamped (DirectX HLSL 材質物件) 
 
@@ -27,7 +27,7 @@ ms.locfileid: "104022794"
 
 
 
- 
+ 
 
 此函式的運作方式與 [CalculateLevelOfDetail (DIRECTX HLSL 材質物件) ](dx-graphics-hlsl-to-calculate-lod.md)相同，不同之處在于計算」 lod 上沒有固定。
 
@@ -38,9 +38,9 @@ ms.locfileid: "104022794"
 [材質物件](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

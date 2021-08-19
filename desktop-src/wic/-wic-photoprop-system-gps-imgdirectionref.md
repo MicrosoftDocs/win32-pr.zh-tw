@@ -4,12 +4,12 @@ ms.assetid: 74ae0989-6d53-4d72-abe9-84f40c0c884a
 title: ImgDirectionRef 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80276ca8d1981935004dbec49fef588fcde330ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e735f91133d4ec473537f063e30d2d48f801a99f8f6bc80fa228b98a9bd95437
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117667895"
 ---
 # <a name="systemgpsimgdirectionref-photo-metadata-policy"></a>ImgDirectionRef 相片中繼資料原則
 

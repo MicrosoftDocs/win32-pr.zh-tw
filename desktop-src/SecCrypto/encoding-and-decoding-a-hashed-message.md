@@ -4,12 +4,12 @@ ms.assetid: c1a65452-c634-4cc6-9afe-d6bf11d999d1
 title: 編碼和解碼雜湊訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d91d165634c1ae00a59f2c77b1fc5a36b53dbd96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bed6ffae240d9139de471f16dcaaf2ed3e29d5bc92c8d7507b981c2af67541c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766737"
 ---
 # <a name="encoding-and-decoding-a-hashed-message"></a>編碼和解碼雜湊訊息
 

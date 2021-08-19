@@ -17,12 +17,12 @@ keywords:
 - 'MUX (多工器) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d475816d7090ee241a1508cc054b12742c4ab27
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 76f15e1c89e564ddd3b6c263b91242a3e4dc0382fd36f86554ec6bd0556191ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139393"
 ---
 # <a name="lists"></a>清單
 
@@ -35,12 +35,12 @@ ms.locfileid: "104314779"
 | 單一選取     | 一次將控制項選取範圍限制為一個專案。 與多工器控制項不同的是，此控制項可以用來控制音訊來源行以上的行。 例如，您可以使用此控制項，從混音器裝置所支援的篩選器清單中選取低傳遞篩選。 |
 | 多工器 (MUX)  | 將一次行選取範圍限制為一個原始程式列。                                                                                                                                                                                                                       |
 | 多重選取   | 可讓使用者同時選取清單中的多個專案。 不同于混音器控制項，多重選取控制項可以用來控制音訊來源行以上。                                                                                                  |
-| 攪拌機             | 允許使用者同時從清單中選取來源行。                                                                                                                                                                                                               |
+| Mixer             | 允許使用者同時從清單中選取來源行。                                                                                                                                                                                                               |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

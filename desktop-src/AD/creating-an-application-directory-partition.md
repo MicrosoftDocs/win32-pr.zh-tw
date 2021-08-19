@@ -8,12 +8,12 @@ keywords:
 - 應用程式目錄分割廣告，建立
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a17471696825179b6e49230b5168abbaf88b8e2
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c340bac215be62867dcddcda97326c33fc70c458ee242965258cc1ee24cf25f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118020537"
 ---
 # <a name="creating-an-application-directory-partition"></a>建立應用程式目錄分割
 
@@ -21,7 +21,7 @@ ms.locfileid: "104462897"
 
 您可以嵌套應用程式目錄分割，也就是應用程式目錄分割可以有子應用程式目錄分割。 使用根目錄在應用程式目錄分割前端之子樹範圍的搜尋，將會產生子應用程式目錄分割的接續參考。
 
-只有當 Windows Server 2003 和更新版本的網域控制站持有 Domain-Naming FSMO 角色時，才能在 Windows Server 2003 和更新版本上執行的網域控制站上建立應用程式目錄分割複本。 在同時具有 Windows Server 2003 網域控制站和下層網域控制站 (Windows 2000 網域控制站或 Windows NT 4.0 網域主控站) 的混合樹系中，嘗試在下層網域控制站上建立應用程式目錄分割複本將會失敗。
+應用程式目錄分割複本只能建立于 Windows Server 2003 和更新版本上執行的網域控制站，而且只有在 Windows Server 2003 和更新版本的網域控制站持有 Domain-Naming FSMO 角色時才會建立。 在同時具有 Windows Server 2003 網域控制站和下層網域控制站的混合樹系 (Windows 2000 網域控制站或 Windows NT 4.0 網域主控站) 中，嘗試在下層網域控制站上建立應用程式目錄分割複本將會失敗。
 
 應用程式目錄分割在設定分割區的分割區容器中也有對應的 [**交叉引用**](/windows/desktop/ADSchema/c-crossref) 物件。 您可以在建立 [**domainDNS**](/windows/desktop/ADSchema/c-domaindns)物件之前，手動預先建立 **交叉引用**。 預先建立的 **交叉引用** 物件必須具有下表所示的屬性值，否則資料分割建立將會失敗。 如果 **交叉引用** 物件不存在，則在建立應用程式目錄分割時，Active Directory 伺服器會建立一個。
 
@@ -33,7 +33,7 @@ ms.locfileid: "104462897"
 
 
 
- 
+ 
 
 **若要使用其第一個複本建立新的應用程式目錄分割，請執行下列步驟**
 
@@ -59,7 +59,7 @@ ms.locfileid: "104462897"
 
     
 
-     
+     
 
 2.  起始設定分割區的同步處理，並等候完成。 這可讓用戶端應用程式在系結至用來建立應用程式目錄分割的相同網域控制站時，修改新建立的應用程式目錄分割的設定參數。
 3.  使用 DS INSTANCETYPE 建立 [**domainDNS**](/windows/desktop/ADSchema/c-domaindns) 物件 **\_ \_ 是 \_ NC \_ HEAD** ， **ds \_ INSTANCETYPE \_ NC 是 \_ \_** [**INSTANCETYPE**](/windows/desktop/ADSchema/a-instancetype) 屬性上設定的可寫入旗標。 **InstanceType** 屬性也可以包含其他私用旗標。
@@ -87,6 +87,6 @@ ms.locfileid: "104462897"
 
 如需詳細資訊和示範此方法來尋找分割區容器的程式碼範例，請參閱尋找分割區 [容器的範例程式碼](example-code-for-locating-the-partitions-container.md)中的 **GetPartitionsDNManual** 函數。
 
- 
+ 
 
- 
+ 

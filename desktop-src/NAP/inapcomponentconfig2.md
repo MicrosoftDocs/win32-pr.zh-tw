@@ -71,7 +71,7 @@ ms.locfileid: "118368370"
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>NapCommon。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
 
 
 

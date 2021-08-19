@@ -4,12 +4,12 @@ description: 可以針對支援將類型長度值物件傳輸 (TLVs) 的 EAPHost
 ms.assetid: 298c89d9-7a6a-4280-9af9-77c7c00cab92
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9eae9fc17e99b27f620fbab1ed42cbd4b73800
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 477ad8f2ee033b3f98f9cac0e7ee34d18dc62f00dd5bd7c0e09509ad32bcfa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103684186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904274"
 ---
 # <a name="implementing-in-band-nap-support-for-eap-methods"></a>為 EAP 方法執行 In-Band NAP 支援
 
@@ -44,7 +44,7 @@ EAP 對等方法執行會將包含 SoH 回應 TLV 的 TLV 傳遞給 EAPHost，�
 > [!Note]  
 > [**EAP \_ 屬性**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute)結構的 **eapType** 成員一律會設定為 **eatEAPTLV** ，而 **pValue** 成員將指向包含 SoH 回應 tlv 的 TLV 的第一個位元組。
 
- 
+ 
 
 ### <a name="implementing-nap-support-on-eap-server-methods"></a>在 EAP 伺服器方法上執行 NAP 支援
 
@@ -65,7 +65,7 @@ EAP 伺服器方法執行會從 EAPHost 接收包含 SoH 回應 TLV 的 TLV，�
 > [!Note]  
 > [**EAP \_ 屬性**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute)結構的 **eapType** 成員一律會設定為 **eatEAPTLV** ，而 **pValue** 成員將指向包含 SoH 回應 tlv 的 TLV 的第一個位元組。
 
- 
+ 
 
 ### <a name="messages"></a>訊息
 
@@ -92,6 +92,6 @@ EAP SoH TLV 用來封裝 SoH 通訊協定，以便透過 EAP 方法進行傳輸�
 [EAPHost 要求者](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
