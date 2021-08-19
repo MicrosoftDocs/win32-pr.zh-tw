@@ -3,7 +3,7 @@ title: 'TVM_SETSCROLLTIME 訊息 (Commctrl .h) '
 description: 設定樹狀檢視控制項的最大滾動時間。 您可以使用 TreeView SetScrollTime 宏明確地傳送此訊息 \_ 。
 ms.assetid: b0ad81ba-0621-42b7-8fe1-f3bd5bc16d6a
 keywords:
-- TVM_SETSCROLLTIME message Windows 控制項
+- TVM_SETSCROLLTIME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b49fab2f662b5ec641d9ffc6cc276f2196d2613e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c9ca3392de81a712aa6be7dc2addb87eedf65af4aa77958e5b7f5fbb2eafc87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106984525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408485"
 ---
 # <a name="tvm_setscrolltime-message"></a>TVM \_ SETSCROLLTIME 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "106984525"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

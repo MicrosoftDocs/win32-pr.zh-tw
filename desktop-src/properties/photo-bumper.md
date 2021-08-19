@@ -4,12 +4,12 @@ ms.assetid: aad47c36-fd1d-478d-ad7d-a40c3984a1d9
 title: Photo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a63a76d0c6578c3a361abba8b289cc95ab6861f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f68a64017c0dac8d109a1b458f6ec92a0fe4e49c0b1a4b1b56738e1f16f63099
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867491"
 ---
 # <a name="photo"></a>Photo
 

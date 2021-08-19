@@ -4,12 +4,12 @@ ms.assetid: 9ef4b21e-4eaf-4918-8044-3c26938a5ba5
 title: 呼叫和媒體控制項列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e06fac9a90c1be61ab385cba90d6be6d9fa00a7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: cd4bdf3f81e89d5aa3cf62d7b901be7f40a6506305409166ab19de90a77cd898
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103853331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948469"
 ---
 # <a name="call-and-media-controls-enumerations"></a>呼叫和媒體控制項列舉
 

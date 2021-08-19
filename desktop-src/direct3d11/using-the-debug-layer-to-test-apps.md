@@ -4,12 +4,12 @@ description: 在此，我們將討論如何啟用 debug 層，以及您可以使
 ms.assetid: 3C2B0A12-FB57-4400-BE39-05ED23F552C7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa3f4748da6893470e3bb6631c4228ec1ae3d48
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c6ac5492b96c40b4395b2c501b764c646a8edbb06d3a6386a15cbb2534778d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912732"
 ---
 # <a name="using-the-debug-layer-to-debug-apps"></a>使用 debug 層來對應用程式進行偵錯工具
 
@@ -100,9 +100,9 @@ ms.locfileid: "103671651"
 [軟體層](overviews-direct3d-11-devices-layers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

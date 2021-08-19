@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 297f0e3e67134f911932aa7784396c244dc79f42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 88b9489c2e966abdf3c329d952a76bd30de487cca99a3e00c8ff46431a163ec9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117954503"
 ---
 # <a name="systemmonitor-object"></a>SystemMonitor 物件
 
@@ -65,7 +65,7 @@ ms.locfileid: "106965495"
 | [**ClearData**](systemmonitor-cleardata.md)                 | 清除控制項中的所有資料欄位。<br/>                                                                                                                        |
 | [**CollectSample**](systemmonitor-collectsample.md)         | 為 **計數器** 集合物件中的每個計數器取樣一個值。<br/>                                                                                       |
 | [**複製**](systemmonitor-copy.md)                           | 將控制項的屬性設定、計數器清單和計數器資料複製到剪貼簿，以做為 HTML 物件。<br/>                                                |
-| [**DisplayProperties**](systemmonitor-displayproperties.md) | 顯示 [ **圖形屬性** ] 對話方塊。<br/>                                                                                                                 |
+| [**DisplayProperties**](systemmonitor-displayproperties.md) | 顯示 [ **Graph 屬性**] 對話方塊。<br/>                                                                                                                 |
 | [**GetLogViewRange**](systemmonitor-getlogviewrange.md)     | 抓取用來從記錄檔中取出計數器值的開始日期。<br/>                                                                               |
 | [**LoadSettings**](systemmonitor-loadsettings.md)           | 將 HTML 範本檔案中的計數器加入至系統監視器。<br/>                                                                                            |
 | [**貼上**](systemmonitor-paste.md)                         | 將複製到剪貼簿的計數器清單附加至目前的計數器集合。 <br/>                                                        |
@@ -99,7 +99,7 @@ ms.locfileid: "106965495"
 | [**DisplayType**](systemmonitor-displaytype.md)<br/>                             | 抓取或設定用來繪製效能計數器資料圖形的圖表類型。<br/>                                                                                                                                              |
 | [**EnableDigitGrouping**](systemmonitor-enabledigitgrouping.md)<br/>             | 抓取或設定值，這個值會決定 SYSMON 是否在顯示數值時使用數位群組。<br/>                                                                                                                      |
 | [**EnableToolTips**](systemmonitor-enabletooltips.md)<br/>                       | 抓取或設定值，這個值會決定當滑鼠停留在其中一個圖形瀏覽器的計數器上方時，是否要顯示工具提示。<br/>                                                                                             |
-| [**字型**](systemmonitor-font.md)<br/>                                           | 抓取或設定控制項中所使用的字型。<br/>                                                                                                                                                                              |
+| [**Font**](systemmonitor-font.md)<br/>                                           | 抓取或設定控制項中所使用的字型。<br/>                                                                                                                                                                              |
 | [**ForeColor**](systemmonitor-forecolor.md)<br/>                                 | 抓取或設定顯示在控制項中的文字色彩。<br/>                                                                                                                                                         |
 | [**GraphTitle**](systemmonitor-graphtitle.md)<br/>                               | 抓取或設定圖形的標題。<br/>                                                                                                                                                                                    |
 | [**GridColor**](systemmonitor-gridcolor.md)<br/>                                 | 抓取或設定圖形中所使用之格線的色彩。<br/>                                                                                                                                                             |

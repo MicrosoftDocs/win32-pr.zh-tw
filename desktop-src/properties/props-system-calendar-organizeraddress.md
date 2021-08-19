@@ -4,18 +4,18 @@ ms.assetid: be00b019-6922-44e5-a837-7068956cd155
 title: OrganizerAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdc6f5fd497ccf8d751b0b6f87d2248848c670f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 956e0a38c357fa2c11413554591bf017aa23e6bada4aa60ee42ca8006db180ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867373"
 ---
 # <a name="systemcalendarorganizeraddress"></a>OrganizerAddress
 
 事件召集人的位址。 這是郵寄或街道位址。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

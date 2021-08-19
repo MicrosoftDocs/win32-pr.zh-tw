@@ -4,12 +4,12 @@ ms.assetid: 96f95d00-6f96-4b8a-b84b-010203433d74
 title: 建立縮圖影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30ac737a49bad85ecc25eeeef1266a02cdeb408f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5d44fec3220bef7a6691d3852d16f90e9cf43635c99f69bba16f3b569ebabc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117696309"
 ---
 # <a name="creating-thumbnail-images"></a>建立縮圖影像
 

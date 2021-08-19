@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 674f95355453ea15cf0a64fa6dc6c1423208f3e8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2641b7a3f673e5546d7b9f258db8fee6e163bec642ce24fe62e4681a883a56ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424948"
 ---
 # <a name="ms-tpm-owner-information-temp-attribute"></a>ms-TPM-擁有者-資訊-Temp 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "106972895"
 | 連結識別碼                | \-                                                                        |
 | MAPI-Id                | \-                                                                        |
 | System-Only            | 否                                                                     |
-| 是-單一值       | 對                                                                      |
+| 是-單一值       | 是                                                                      |
 | 已編制索引             | 否                                                                     |
 | 在通用類別目錄中      | 否                                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                              |

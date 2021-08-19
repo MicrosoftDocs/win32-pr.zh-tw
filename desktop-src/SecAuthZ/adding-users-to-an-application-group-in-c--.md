@@ -4,12 +4,12 @@ ms.assetid: b01883d6-eae6-4f3a-b269-90c22827f116
 title: 在 c + + 中將使用者新增至應用程式群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7fa08ddd93ba1743a20e3eb14a5f62344741c90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f8031ceea265240cb9fbefc7236ad301b64f86f2306f7fd9a819b6d8e257a85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784893"
 ---
 # <a name="adding-users-to-an-application-group-in-c"></a>在 c + + 中將使用者新增至應用程式群組
 

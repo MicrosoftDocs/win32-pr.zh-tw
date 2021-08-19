@@ -4,12 +4,12 @@ ms.assetid: 9dd3ff5b-4c7c-41a8-b1b9-7ea380175193
 title: '使用 VBR 編碼 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdd1f317308d79c696e26a8671cc9d84ca8effa4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50a9e1a61baf0539c0597e68f24dfad1496918012e52f778a1b7a64de27e5faa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871227"
 ---
 # <a name="using-vbr-encoding-microsoft-media-foundation"></a>使用 VBR 編碼 (Microsoft 媒體基礎) 
 
@@ -19,7 +19,7 @@ ms.locfileid: "104191746"
 
 使用以品質為基礎的 VBR 方法進行編碼並不需要任何預先定義的緩衝區參數。 相反地，您可以指定品質層級 (從0到 100) ，編碼器會使用此層級來動態判斷適當的緩衝區參數。 此編碼模式只會使用一次編碼。
 
-您可以列舉音訊編解碼器的支援品質型 VBR 輸出類型。 設定輸出型別時，您必須使用 SQL-DMO 所傳回的其中一個類型。 如需詳細資訊，請參閱 [列舉特定編碼模式的音訊類型](enumeratingaudiotypesforspecificencodingmodes.md)。
+您可以列舉音訊編解碼器的支援品質型 VBR 輸出類型。 設定輸出類型時，您必須使用 DMO 所傳回的其中一個類型。 如需詳細資訊，請參閱 [列舉特定編碼模式的音訊類型](enumeratingaudiotypesforspecificencodingmodes.md)。
 
 若要設定品質型的 VBR 影片資料流程，您必須設定下表所列的屬性。
 
@@ -38,7 +38,7 @@ ms.locfileid: "104191746"
 
 未受限制的 VBR 編碼可讓編碼器在沒有任何明確緩衝區限制的情況下，變更個別樣本的大小。 不過，產生的內容期間的平均位元速率必須小於或等於指定的值。 未受限制的 VBR 需要兩次編碼階段。
 
-您可以列舉音訊編解碼器支援的雙通路 VBR 輸出類型。 設定輸出型別時，您必須使用 SQL-DMO 所傳回的其中一個類型。 如需詳細資訊，請參閱 [列舉特定編碼模式的音訊類型](enumeratingaudiotypesforspecificencodingmodes.md)。
+您可以列舉音訊編解碼器支援的雙通路 VBR 輸出類型。 設定輸出類型時，您必須使用 DMO 所傳回的其中一個類型。 如需詳細資訊，請參閱 [列舉特定編碼模式的音訊類型](enumeratingaudiotypesforspecificencodingmodes.md)。
 
 若要設定未受限制的 VBR 影片資料流程，您必須設定下表所列的屬性。
 
@@ -58,7 +58,7 @@ ms.locfileid: "104191746"
 
 尖峰限制的 VBR 就像是不受限制的 VBR，因為它會限制為數據流持續時間的平均位元速率。 此外，尖峰限制的 VBR 會符合尖峰緩衝區。 這個緩衝區是使用尖峰位元速率和尖峰緩衝區視窗來描述，就像是平均位元速率和緩衝區視窗描述的 CBR 緩衝區一樣。 這種模式可讓編碼器在編碼個別樣本的方式上有彈性，同時遵守尖峰限制。 當解碼是由裝置中的晶片（例如 DVD 播放機）執行時，這項功能特別有用，其中有必須考慮的硬體限制。
 
-支援的尖峰型、VBR 音訊編碼器輸出類型與針對未受限制的 VBR 列舉的類型相同。 設定此的尖峰值，並使用傳遞的類型。 如需詳細資訊，請參閱 [列舉特定編碼模式的音訊類型](enumeratingaudiotypesforspecificencodingmodes.md)。
+支援的尖峰型、VBR 音訊編碼器輸出類型與針對未受限制的 VBR 列舉的類型相同。 設定 DMO 的尖峰值，並使用傳遞的型別。 如需詳細資訊，請參閱 [列舉特定編碼模式的音訊類型](enumeratingaudiotypesforspecificencodingmodes.md)。
 
 若要設定尖峰限制的 VBR 影片資料流程，您必須使用 **IPropertyBag：： Write** 方法來設定下表中所列的屬性。
 

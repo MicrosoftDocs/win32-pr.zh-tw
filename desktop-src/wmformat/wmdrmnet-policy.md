@@ -1,6 +1,6 @@
 ---
 title: 'WMDRMNET_POLICY 結構 (Wmdrmsdk .h) '
-description: WMDRMNET \_ 原則結構包含用於網路裝置作業之 Windows MEDIA DRM 的原則。
+description: WMDRMNET \_ 原則結構包含用於網路裝置作業 Windows 媒體 DRM 的原則。
 ms.assetid: 11eaaeb2-3470-4f58-ae1c-53ee0f60bdce
 keywords:
 - WMDRMNET_POLICY 結構 windows 媒體格式
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 574e37a8c5ee7f68291012b86cda3a89e25949ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf648ef5e300fa9fef1cf12fd4698f4ec196f62130bf75a02f263cd96931f0bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653421"
 ---
 # <a name="wmdrmnet_policy-structure"></a>WMDRMNET \_ 原則結構
 
-**WMDRMNET \_ 原則** 結構包含用於網路裝置作業之 Windows Media DRM 的原則。
+**WMDRMNET \_ 原則** 結構包含用於網路裝置作業 Windows 媒體 DRM 的原則。
 
 ## <a name="syntax"></a>語法
 

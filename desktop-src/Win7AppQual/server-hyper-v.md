@@ -27,7 +27,7 @@ ms.locfileid: "118328708"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 伺服器虛擬化可讓您在單一實體電腦上執行多個作業系統，作為虛擬機器 (Vm) ，可讓您將使用量過低之伺服器機器的工作負載合併到較少的充分利用電腦上。 Windows 7 包含 Windows Server 2008 版本的數項增強功能：
 

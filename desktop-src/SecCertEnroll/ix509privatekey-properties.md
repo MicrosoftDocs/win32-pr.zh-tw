@@ -4,12 +4,12 @@ ms.assetid: 680BE7FF-3251-46DA-8A3F-36AB4450D3BA
 title: IX509PrivateKey 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1cf5b38f105f6fbc3280b2e37b5c6999a1a018
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5ee56841cf3ab633ab05fb4c65da544effa61e2a99c4f4468950b361cc6b0ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774988"
 ---
 # <a name="ix509privatekey-properties"></a>IX509PrivateKey 屬性
 

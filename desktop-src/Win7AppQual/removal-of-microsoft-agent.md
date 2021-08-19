@@ -32,7 +32,7 @@ ms.locfileid: "118329461"
 **頻率** -低  
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Microsoft 決定停止開發 Microsoft 代理程式技術。 從 Windows 7 開始，未來的 microsoft Windows 作業系統版本將不會包含或支援 microsoft 代理程式。 我們鼓勵 Microsoft 代理程式開發人員和 redistributors 評估他們在這項決策中的活動。
 

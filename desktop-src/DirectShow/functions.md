@@ -1,5 +1,5 @@
 ---
-description: DirectShow 函式
+description: DirectShow 函數
 ms.assetid: 5bf62e2a-7d5f-4feb-872a-54d102759824
 title: '函數 (DirectShow) '
 ms.topic: article
@@ -11,7 +11,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/11/2021
 ms.locfileid: "118401246"
 ---
-# <a name="directshow-functions"></a>DirectShow 函式
+# <a name="directshow-functions"></a>DirectShow 函數
 
 DirectShow 提供下列功能。
 
@@ -29,7 +29,7 @@ DirectShow 提供下列功能。
 
 <dl> <dt>
 
-[DirectShow參考](directshow-reference.md)
+[DirectShow 參考](directshow-reference.md)
 </dt> </dl>
 
  

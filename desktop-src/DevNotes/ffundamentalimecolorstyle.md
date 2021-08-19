@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: c7de1bf4ef84d159d673e1039ad6ea328153b216
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8923da89872b5abbd7849b530bca2e13022247f3633444d0c000cffce017ecd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827479"
 ---
 # <a name="ffundamentalimecolorstyle-function"></a>FFundamentalIMEColorStyle 函式
 

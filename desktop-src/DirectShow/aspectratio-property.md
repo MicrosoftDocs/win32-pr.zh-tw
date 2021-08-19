@@ -4,17 +4,17 @@ ms.assetid: c341538e-0b33-4173-a5ca-56b3f7305022
 title: AspectRatio 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 874a0656f73ddbb987e8e7f1cc4631f85987a8ce
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ce010e686d596426a8b96de5dc3a37d2469568e67a7ce7979c53b620708c476f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824417"
 ---
 # <a name="aspectratio-property"></a>AspectRatio 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

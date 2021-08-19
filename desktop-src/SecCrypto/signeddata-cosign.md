@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 1ab2a24a20fd65fad9622b775bedc59cfa28301a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ed4feb55420ebf9d3bc43496fe3004a4d1b55e1ae8add4e3d5b40ec2ac4ba4ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117973888"
 ---
 # <a name="signeddatacosign-method"></a>SignedData. CoSign 方法
 
@@ -87,8 +87,8 @@ SignedData.CoSign( _
 
 -   如果 *簽署者* 參數不是 **Null**，這個方法會使用相關聯憑證所指向的私密金鑰來加密 cosignature。 如果憑證所指向的私密金鑰無法使用，方法將會失敗。
 -   如果 *簽署者* 參數為 **Null** ，而且目前的使用者儲存區中只有一個可存取私密金鑰的憑證，則會 \_ 使用該憑證來建立 cosignature。
--   如果 *簽署者* 參數為 **Null**， [**EnablePromptForCertificateUI**](settings-enablepromptforcertificateui.md) 屬性值為 true，而且目前使用者的存放區中有一個以上的憑證 \_ 具有可用的私密金鑰，則會出現一個對話方塊，讓使用者選取要使用的憑證。
--   如果 *簽署者* 參數為 **Null** ，而且 [**EnablePromptForCertificateUI**](settings-enablepromptforcertificateui.md) 屬性為 false，則方法會失敗。
+-   如果 *簽署者* 參數為 **Null**，就 [**設定。EnablePromptForCertificateUI**](settings-enablepromptforcertificateui.md)屬性值為 true，而且目前使用者的存放區中有一個以上的憑證 \_ 具有可用的私密金鑰，會出現一個對話方塊，讓使用者選取要使用的憑證。
+-   如果 *簽署者* 參數為 **Null** ，則為 [**設定。EnablePromptForCertificateUI**](settings-enablepromptforcertificateui.md)屬性為 false，方法失敗。
 -   如果 *簽署者* 參數為 **Null** ，而且目前 \_ 使用者的存放區中沒有具有可用私密金鑰的憑證，則該方法會失敗。
 
 ## <a name="requirements"></a>規格需求

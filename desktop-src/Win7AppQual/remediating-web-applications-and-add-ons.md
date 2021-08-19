@@ -26,7 +26,7 @@ ms.locfileid: "118329613"
 | [使用者代理程式字串](user-agent-string.md)                                                                                              | 描述 Internet Explorer 的使用者代理程式字串。                                                                         |
 | [DEP/NX 保護](dep-nx-protection.md)                                                                                              | 描述 (DEP) 或不執行 (NX) 的資料執行防止。                                                                   |
 | [相容性](remediating-compatibility.md)                                                                                          | 描述 Windows Internet Explorer 7 中的 DPE/NX。                                                                               |
-| [Ajax](ajax.md)                                                                                                                        | 提供非同步 JavaScript 和 XML (AJAX) 的相容性考慮。                                              |
+| [AJAX](ajax.md)                                                                                                                        | 提供非同步 JavaScript 和 XML (AJAX) 的相容性考慮。                                              |
 | [受保護模式](protected-mode.md)                                                                                                    | 描述受保護模式的相容性考慮。                                                                    |
 | [JavaScript 物件標記法 (JSON)](javascript-object-notation--json-.md)                                                              | 描述 JSON 的相容性考慮。                                                                              |
 

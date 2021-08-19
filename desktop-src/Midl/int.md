@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f916c4f03023c756b71a2e3cbb38acd9f41f1e8
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 640eae8bfbadcba07f67d244edd78726269ede9eee2f14e9af06e851bb5cac92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807196"
 ---
 # <a name="int-attribute"></a>int 屬性
 
@@ -80,7 +80,7 @@ HRESULT MyFunc([in] long int lCount);
 [**枚舉**](enum.md)
 </dt> <dt>
 
-[**超**](hyper.md)
+[**Hyper**](hyper.md)
 </dt> <dt>
 
 [ (IDL) 檔案的介面定義](interface-definition-idl-file.md)
@@ -95,7 +95,7 @@ HRESULT MyFunc([in] long int lCount);
 [**short**](short.md)
 </dt> <dt>
 
-[**signed**](signed.md)
+[**簽署**](signed.md)
 </dt> <dt>
 
 [**小**](small.md)
@@ -110,9 +110,9 @@ HRESULT MyFunc([in] long int lCount);
 [**聯盟**](union.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

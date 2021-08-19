@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 25bb24fd2b4c6b8d3d7f8cc08c23a42257399a14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a954dbefec9728d2d6f595144ba3991ab4f7b3a1ded77fdf7e3ca5407be70d23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117669710"
 ---
 # <a name="itemgetitemsfromui-method"></a>GetItemsFromUI 方法
 
@@ -40,7 +40,7 @@ retVal = Item.GetItemsFromUI(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **WiaFlag**](-wia-wiaflag.md)**
@@ -84,7 +84,7 @@ retVal = Item.GetItemsFromUI(
 
 ## <a name="remarks"></a>備註
 
-若為 Microsoft Visual Basic 的應用程式，請新增「Windows 映像取得1.01 類型程式庫」的參考。
+針對 Microsoft Visual Basic 的應用程式，請新增「Windows 影像取得1.01 型別程式庫」的參考。
 
 此方法僅適用于)  (根專案的裝置。 方法會傳回代表使用者選取之影像或音訊剪輯的 [**專案**](-wia-item.md) 物件集合。
 
@@ -123,8 +123,8 @@ Next
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (4.90 版或更新版本) </dt> </dl> |
 
 

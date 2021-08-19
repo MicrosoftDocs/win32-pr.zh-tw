@@ -4,12 +4,12 @@ ms.assetid: a9e5ad4d-61c6-43ed-a162-460683bcdb16
 title: ACE 繼承
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d6462ed9523c94090924981db252b938f2056cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bd239801ea15dddb142c42d86e1aa44d0d644e5d217c50fc7c9cf9388747e45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785379"
 ---
 # <a name="ace-inheritance"></a>ACE 繼承
 
@@ -22,7 +22,7 @@ ACE 的 [**ace \_ 標頭**](/windows/desktop/api/Winnt/ns-winnt-ace_header) 結�
 -   支援可 [繼承 ace 的自動傳播](automatic-propagation-of-inheritable-aces.md)。
 -   區分直接套用至物件之繼承 Ace 和 Ace 的旗標。
 -   物件特定的 Ace，可讓您指定可繼承 ACE 的子物件類型。
--   藉由在 \_ \_ \_ \_ [*安全描述項的*](/windows/desktop/SecGloss/s-gly) 控制位（系統 \_ 資源 \_ 屬性 \_ ACE 和系統 \_ 範圍 \_ 原則 \_ 識別碼 \_ ACE 除外）中設定 se DACL protected 或 se 受保護的位，來防止 DACL 或 SACL 繼承 ace。
+-   藉由設定 SE dacl 保護的功能， \_ \_ 或在 \_ \_ [*安全描述項的*](/windows/desktop/SecGloss/s-gly)控制位中 SE sacl 保護的位（除了系統 \_ 資源 \_ 屬性 \_ ACE 和系統 \_ 範圍 \_ 原則 \_ 識別碼 \_ ACE 以外），防止 dacl 或 sacl 繼承 ace。
 
  
 

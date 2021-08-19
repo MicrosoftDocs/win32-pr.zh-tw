@@ -4,16 +4,16 @@ ms.assetid: e4d9c95d-1b68-4af6-beb2-2014074e5089
 title: 'IEnumTime：： Skip 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 190a98c14cb8f551276a173e2d73872d876f2ceb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c36f92ead711c25b385c2a7109dbb113b8c5ca082fda9c3012204384350a3c13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762947"
 ---
 # <a name="ienumtimeskip-method"></a>IEnumTime：： Skip 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Skip** 方法會略過列舉順序中的下一個指定元素數目。
 
@@ -45,7 +45,7 @@ HRESULT Skip(
 
 
 
-| 傳回碼                                                                             | Description                                           |
+| 傳回碼                                                                             | 描述                                           |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 略過的元素數目 *celt*。<br/>     |
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 未 *celt* 略過的元素數目。<br/> |

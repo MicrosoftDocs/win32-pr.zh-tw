@@ -4,12 +4,12 @@ ms.assetid: 6C0139F3-DA3E-4D7C-80D5-BC8C2D76C6A9
 title: 'IWICJpegFrameDecode 常數 (Wincodec) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2473e055434b2e3d469bd76ec34413a1af8a2ba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 318ea1f8a348d0bb2096e969ce1bb2a0de9ee3f4188ccb86f08e0491426e98ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117667068"
 ---
 # <a name="iwicjpegframedecode-constants"></a>IWICJpegFrameDecode 常數
 

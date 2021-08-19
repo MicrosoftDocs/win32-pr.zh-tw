@@ -6,12 +6,12 @@ keywords:
 - 資源編譯器，預處理器運算子
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f51aa806c625dcb7686ccd5032895c860688e2e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 643e8b56c302878b39defa4da9adb71dd0062d5a148531eb06978c6c0ecd651e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870110"
 ---
 # <a name="preprocessor-operators"></a>前置處理器運算子
 
@@ -27,11 +27,11 @@ RC 支援在巨集定義中使用標準 C 前置處理運算子。 下表將說�
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

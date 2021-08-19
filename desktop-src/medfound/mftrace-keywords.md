@@ -4,12 +4,12 @@ ms.assetid: e7c382cb-94ac-4f90-a3dd-32f94c538396
 title: MFTrace 關鍵字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6d18a91aede8692209b9d5b7a2759c460e44043
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b2ab3d52d73e6881a4dac7c32dfb1c181fecaef6e9a833b25f744ace6c84f65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871854"
 ---
 # <a name="mftrace-keywords"></a>MFTrace 關鍵字
 

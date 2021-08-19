@@ -4,12 +4,12 @@ ms.assetid: 3c7006e7-48fd-4df8-b446-8ee2b024278b
 title: 'AM_RATE_QueryLastRateSegPTS 屬性 (Dvdmedia) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72c6e3e00985ba6e714bf48d349fd5af5c9593b9
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 34e7b54e618829d9768b4d08a0a76defcf2c91758be6b916b6e570b368191e89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824832"
 ---
 # <a name="am_rate_querylastratesegpts-property"></a>AM \_ RATE \_ QueryLastRateSegPTS 屬性
 

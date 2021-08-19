@@ -4,12 +4,12 @@ ms.assetid: 71a21976-ed92-4cd6-946c-fa6268895531
 title: 'MFPKEY_PASSESUSED 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6cb09949049db1910a419becec3423b0bb7c365
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94ab020c4b683dc87ced3ffda8665b6b0e62b65cf81001c23c00b39f64ba146b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873044"
 ---
 # <a name="mfpkey_passesused-property"></a>MFPKEY \_ PASSESUSED 屬性
 
@@ -37,8 +37,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

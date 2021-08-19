@@ -3,7 +3,7 @@ title: 'MM_JOY1MOVE 訊息 (Mmsystem .h) '
 description: MM \_ JOY1MOVE 訊息會通知視窗，該視窗已捕捉到搖桿的位置已變更。
 ms.assetid: 317ac0b2-f873-413d-b071-47d840229643
 keywords:
-- MM_JOY1MOVE message Windows 多媒體
+- MM_JOY1MOVE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a78753bd55f6682b3ac3f1514356d93cb455d162
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8c8a71bc91b541bc17017fc2673bb6c0ed7e84a2de44ff312954b8f9915dc57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802443"
 ---
 # <a name="mm_joy1move-message"></a>MM \_ JOY1MOVE 訊息
 
@@ -81,7 +81,7 @@ yPos = HIWORD(lParam);
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

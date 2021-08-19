@@ -4,12 +4,12 @@ ms.assetid: 1c55794d-1ecc-43bf-956f-96afc5f36964
 title: InstallValidate 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e650ce136ac3b1b62e41ce34f79f5d28540d1292
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dd8a5e2f69df5e588c2366f7cf9fff0fb3621889e9b725605a38acc14f39457
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805636"
 ---
 # <a name="installvalidate-action"></a>InstallValidate 動作
 

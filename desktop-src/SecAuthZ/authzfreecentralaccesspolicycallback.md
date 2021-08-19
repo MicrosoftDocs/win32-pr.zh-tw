@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: d2139c9fa106b6070a3c043d417bdbf23379084b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f51903708bd3993e2837d65107798b1ff546c5857eff3bbed028ed4d6dda47f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783752"
 ---
 # <a name="authzfreecentralaccesspolicycallback-callback-function"></a>AuthzFreeCentralAccessPolicyCallback 回呼函式
 

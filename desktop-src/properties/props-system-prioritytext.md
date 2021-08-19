@@ -4,18 +4,18 @@ ms.assetid: 781c4b28-de40-459d-993c-8177ed64b8e5
 title: System. PriorityText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 468e2333c8baf4493077e692566778ce946f48ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd07270ae08c9d4e7a41be293731f6e123707a0ac6c4f0e966aed2b8beddecfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465689"
 ---
 # <a name="systemprioritytext"></a>System. PriorityText
 
 使用者易記的 [系統優先順序](./props-system-priority.md)形式。 此值不能以程式設計方式剖析。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

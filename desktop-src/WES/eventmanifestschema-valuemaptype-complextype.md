@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 28fde51466ba506802c8dbc5379f1628fd943fa8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c05452197fb71ca436fea4854346efa90f53ce6b3396e66af7e9b7ccb6615200
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118120386"
 ---
 # <a name="valuemaptype-complex-type"></a>ValueMapType 複雜類型
 
@@ -47,7 +47,7 @@ ms.locfileid: "103685461"
 
 
 
-| 元素                                                     | 類型                                                                           | Description                                                                 |
+| 元素                                                     | 類型                                                                           | 描述                                                                 |
 |-------------------------------------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | [**地圖**](eventmanifestschema-map-valuemaptype-element.md) | [**ValueMapValueType**](eventmanifestschema-valuemapvaluetype-complextype.md) | 定義整數值與字串值之間的對應。<br/> |
 
@@ -70,8 +70,8 @@ ms.locfileid: "103685461"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

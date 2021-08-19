@@ -4,12 +4,12 @@ ms.assetid: 70d11a55-041e-4eb5-96a9-238e7ecdd906
 title: MFTrace 設定檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6598bcfdde16291fb744783b2f12be414ae997b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60969d52405b5aeeb768710d35751d9ea2cab40ca60a7d85a4da1bc1b0c65468
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871935"
 ---
 # <a name="mftrace-configuration-file"></a>MFTrace 設定檔
 

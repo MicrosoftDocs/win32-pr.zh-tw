@@ -4,12 +4,12 @@ ms.assetid: dad0a102-08ed-4cd2-bef5-87bc48fc7fc2
 title: 使用 Authz API 檢查存取權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e129b690a7c1f701b5f669a8f0705c5a5e9a2eec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 876c3b5305e33969f63932fdc9e1e4f6767c95a64b11272283420a377b39f795
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783094"
 ---
 # <a name="checking-access-with-authz-api"></a>使用 Authz API 檢查存取權
 

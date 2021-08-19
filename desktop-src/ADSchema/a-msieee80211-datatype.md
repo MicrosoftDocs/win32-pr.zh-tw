@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f15324d25aba938e9a3f3879097b112285a94dd6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 29d7120fa51a9d11fb6abb404d840704f7763b12cd189ca615d947d3e1c0f222
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425042"
 ---
 # <a name="ms-ieee-80211-data-type-attribute"></a>ms-chap-ieee-80211-資料類型屬性
 
@@ -57,7 +57,7 @@ Msieee80211 資料 BLOB 的內部使用資料類型。
 | 連結識別碼                | \-                                                              |
 | MAPI-Id                | \-                                                              |
 | System-Only            | 否                                                           |
-| 是-單一值       | 對                                                            |
+| 是-單一值       | 是                                                            |
 | 已編制索引             | 否                                                           |
 | 在通用類別目錄中      | 否                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                    |
@@ -78,7 +78,7 @@ Msieee80211 資料 BLOB 的內部使用資料類型。
 | 連結識別碼                | \-                                                              |
 | MAPI-Id                | \-                                                              |
 | System-Only            | 否                                                           |
-| 是-單一值       | 對                                                            |
+| 是-單一值       | 是                                                            |
 | 已編制索引             | 否                                                           |
 | 在通用類別目錄中      | 否                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                    |
@@ -99,7 +99,7 @@ Msieee80211 資料 BLOB 的內部使用資料類型。
 | 連結識別碼                | \-                                                              |
 | MAPI-Id                | \-                                                              |
 | System-Only            | 否                                                           |
-| 是-單一值       | 對                                                            |
+| 是-單一值       | 是                                                            |
 | 已編制索引             | 否                                                           |
 | 在通用類別目錄中      | 否                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                    |
@@ -120,7 +120,7 @@ Msieee80211 資料 BLOB 的內部使用資料類型。
 | 連結識別碼                | \-                                                              |
 | MAPI-Id                | \-                                                              |
 | System-Only            | 否                                                           |
-| 是-單一值       | 對                                                            |
+| 是-單一值       | 是                                                            |
 | 已編制索引             | 否                                                           |
 | 在通用類別目錄中      | 否                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                    |
@@ -141,7 +141,7 @@ Msieee80211 資料 BLOB 的內部使用資料類型。
 | 連結識別碼                | \-                                                              |
 | MAPI-Id                | \-                                                              |
 | System-Only            | 否                                                           |
-| 是-單一值       | 對                                                            |
+| 是-單一值       | 是                                                            |
 | 已編制索引             | 否                                                           |
 | 在通用類別目錄中      | 否                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                    |
