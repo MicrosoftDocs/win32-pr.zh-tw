@@ -3,17 +3,17 @@ title: 服務 Proxy
 description: 服務 proxy 是服務的用戶端 proxy。
 ms.assetid: e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc
 keywords:
-- 適用于 Windows 的服務 Proxy Web 服務
+- Windows 的服務 Proxy Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ac82509fa155084cbb4ca3e6b9437728c6f853a
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 6ff23349545c47dde2a54ea0b0911d3f792f21778f5053628929d3a98c69b0f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "106988092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026179"
 ---
 # <a name="service-proxy"></a>服務 Proxy
 
@@ -118,7 +118,7 @@ hr = WsResetServiceProxy(
 
 下列 API 元素與服務 proxy 相關。
 
-| 回呼                                                          | Description                                                                                                                     |
+| 回呼                                                          | 描述                                                                                                                     |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | [**WS \_ PROXY \_ 訊息 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_proxy_message_callback) | 當輸入訊息的標頭即將透過傳送，或只接收輸出訊息標頭時叫用。 |
 
@@ -158,7 +158,7 @@ hr = WsResetServiceProxy(
 
 
 
-| Handle                                     | Description                                       |
+| Handle                                     | 描述                                       |
 |--------------------------------------------|---------------------------------------------------|
 | [WS \_ 服務 \_ PROXY](ws-service-proxy.md) | 用來參考服務 proxy 的不透明類型。 |
 
@@ -168,7 +168,7 @@ hr = WsResetServiceProxy(
 
 
 
-| 結構                                         | Description                 |
+| 結構                                         | 描述                 |
 |---------------------------------------------------|-----------------------------|
 | [**WS \_ CALL \_ 屬性**](/windows/desktop/api/WebServices/ns-webservices-ws_call_property)    | 指定呼叫屬性。  |
 | [**WS \_PROXY \_ 屬性**](/windows/desktop/api/WebServices/ns-webservices-ws_proxy_property)。 | 指定 proxy 屬性。 |

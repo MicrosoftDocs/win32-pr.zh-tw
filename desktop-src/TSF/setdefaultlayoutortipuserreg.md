@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48333b42b673cb6284e4b97001fa5ee88e0b3867
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 340e21d8d7416d72361a0e505029500b9a7dde3e53d3388c9311ae3351345c3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118875282"
 ---
 # <a name="setdefaultlayoutortipuserreg-function"></a>SetDefaultLayoutOrTipUserReg 函式
 
@@ -99,7 +99,7 @@ BOOL CALLBACK SetDefaultLayoutOrTipUserReg(
 
 
 
-| 傳回碼                                                                          | Description                               |
+| 傳回碼                                                                          | 描述                               |
 |--------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>**真**</dt> </dl>  | 函數成功。<br/>   |
 | <dl> <dt>**假**</dt> </dl> | 發生未指定的錯誤。<br/> |
@@ -134,7 +134,7 @@ BOOL CALLBACK SetDefaultLayoutOrTipUserReg(
 沒有可定義此函式的匯入程式庫，因此必須使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 和 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)取得此函式的指標。 下列範例示範如何取得此函式的指標。
 
 > [!Note]  
-> 不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。 請參閱 [動態連結程式庫搜尋順序](/windows/desktop/Dlls/dynamic-link-library-search-order) ，以取得如何使用不同版本的 Microsoft Windows 正確載入 dll 的相關資訊。
+> 不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。 請參閱[動態連結程式庫搜尋順序](/windows/desktop/Dlls/dynamic-link-library-search-order)，以取得如何使用不同版本的 Microsoft Windows 正確載入 dll 的相關資訊。
 
  
 
@@ -176,8 +176,8 @@ else
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Input.dll</dt> </dl> |
 
 

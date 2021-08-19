@@ -4,12 +4,12 @@ ms.assetid: 5dbcc8d0-ffd1-4418-adf6-a9805280ee6d
 title: 使用 MakeCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 068b10d5ce50141ff657379f9c5106cf2733d969
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 321eccfc26e3fc5bf13a541e1aab6a41b3f5d0930beed03f6033211bf63ac689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971548"
 ---
 # <a name="using-makecert"></a>使用 MakeCert
 

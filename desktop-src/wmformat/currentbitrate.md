@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdcd8db7d60c65bcb7ceedcac4498ac650f90d9a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 028207ee152acac289da6608c682f5fc14a4fde69603a2aae05b841d0cfb46ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106968878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027946"
 ---
 # <a name="currentbitrate"></a>CurrentBitrate
 
@@ -39,7 +39,7 @@ g \_ wszWMCurrentBitrate
 
 檔案的實際位元速率等於所有使用中資料流程的位元速率，加上一些額外負荷。 例如，以 Windows Media Player 播放檔案時，就會顯示這個值。
 
-這個屬性不能在檔案層級複製。 如果此屬性用於個別的資料流程，它會被視為自訂中繼資料，而且不會將其一般意義傳遞給 Windows Media 格式 SDK 的物件。
+這個屬性不能在檔案層級複製。 如果此屬性用於個別的資料流程，它會被視為自訂中繼資料，而且不會將其正常意義傳遞給 Windows 媒體格式 SDK 的物件。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -48,9 +48,9 @@ g \_ wszWMCurrentBitrate
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

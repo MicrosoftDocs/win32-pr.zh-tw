@@ -24,7 +24,7 @@ MsiServiceConfigFailureActions 資料表具有下列資料行。
 | Column                         | 類型                         | 答案 | Nullable |
 |--------------------------------|------------------------------|-----|----------|
 | MsiServiceConfigFailureActions | [識別碼](identifier.md) | Y   | N        |
-| Name                           | [格式 化](formatted.md)   | N   | N        |
+| 名稱                           | [格式 化](formatted.md)   | N   | N        |
 | 事件                          | [整數](integer.md)       | N   | N        |
 | ResetPeriod                    | [整數](integer.md)       | N   | Y        |
 | RebootMessage                  | [格式 化](formatted.md)   | N   | Y        |

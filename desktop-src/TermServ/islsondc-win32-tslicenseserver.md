@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03ddbf01615903150ffa8f97fca88cfcf7fda937
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e7f0cfcb97cf479de6effa6781a3d96cd7e39666f4cb0fb3fb54399a974bc0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000668"
 ---
 # <a name="islsondc-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 IsLSonDC 方法 \_
 

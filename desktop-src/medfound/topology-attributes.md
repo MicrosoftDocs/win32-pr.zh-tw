@@ -4,12 +4,12 @@ ms.assetid: 50102096-a29f-4c00-a685-179ba5d71089
 title: 拓撲屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 286b6dbfe922461083b49d77ad2351e98d562d3b
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 1db599a9d55e960bbb38043aa8932cd66ae0cbb6d9b376f403c1886faf3155c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106998992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972847"
 ---
 # <a name="topology-attributes"></a>拓撲屬性
 

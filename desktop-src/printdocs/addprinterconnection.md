@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: dae1f823f89b69526218ab4c027642fb54e3cea5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83c4d348266e0d596deccb03b39e98ec41f8f23837727520d55b9baff82fec4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869030"
 ---
 # <a name="addprinterconnection-function"></a>AddPrinterConnection 函式
 
@@ -61,7 +61,7 @@ BOOL AddPrinterConnection(
 
  
 
-當 Windows 建立印表機的連線時，可能需要將印表機驅動程式檔案複製到印表機所連接的伺服器。 如果使用者沒有許可權可將檔案複製到適當的位置， **AddPrinterConnection** 函式會失敗，而 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 會傳回 \_ 拒絕存取錯誤 \_ 。
+當 Windows 連接至印表機時，可能需要將印表機驅動程式檔案複製到印表機所連接的伺服器。 如果使用者沒有許可權可將檔案複製到適當的位置， **AddPrinterConnection** 函式會失敗，而 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 會傳回 \_ 拒絕存取錯誤 \_ 。
 
 呼叫 **AddPrinterConnection** 所建立的印表機連線將會在呼叫 [**>enumprinters**](enumprinters.md) 時列舉，並將 *dwType* 設定為印表機 \_ 列舉 \_ 連接。
 
@@ -73,7 +73,7 @@ BOOL AddPrinterConnection(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **AddPrinterConnectionW** (Unicode) 和 **AddPrinterConnectionA** (ANSI) <br/>                       |

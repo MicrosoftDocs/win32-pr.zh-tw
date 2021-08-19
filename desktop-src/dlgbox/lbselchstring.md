@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62d61f88bd7cb6a84a94a3d8a246e6045f88a305
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: ea804e1bd5ad35b5ad5d5ee98cf77f97d54e4e93f438e6e32ad7478e10d7b9ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985398"
 ---
 # <a name="lbselchstring-message"></a>LBSELCHSTRING 訊息
 
@@ -83,7 +83,7 @@ ms.locfileid: "110550043"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Commdlg (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Commdlg (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **LBSELCHSTRINGW** (Unicode) 和 **LBSELCHSTRINGA** (ANSI) <br/>                                    |
 
 
@@ -95,10 +95,10 @@ ms.locfileid: "110550043"
 **參考**
 </dt> <dt>
 
-[**CDN \_ SELCHANGE**](cdn-selchange.md)
+[**CDN \_SELCHANGE**](cdn-selchange.md)
 </dt> <dt>
 
-[**CDN \_ TYPECHANGE**](cdn-typechange.md)
+[**CDN \_TYPECHANGE**](cdn-typechange.md)
 </dt> <dt>
 
 [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)

@@ -6,12 +6,12 @@ keywords:
 - 正在工作排程器中抓取工作屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e2b42bc8044171834b6d99e97c41e3f5c7048ff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f0e46554c32d9d30941fd837b91e80e8e20d915b0f1c68a665fd72c8f1624c8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002386"
 ---
 # <a name="retrieving-task-property-examples"></a>正在抓取工作屬性範例
 
@@ -22,7 +22,7 @@ ms.locfileid: "104316048"
 > [!Note]  
 > 在下列程式碼範例中，不再需要所有介面之後，就會釋放它們。
 
- 
+ 
 
 請注意，如果您要抓取 (的字串屬性，例如應用程式名稱、參數或工作目錄) ，您必須呼叫 [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) 來釋放為傳回字串所配置的記憶體。
 
@@ -48,7 +48,7 @@ ms.locfileid: "104316048"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -57,6 +57,6 @@ ms.locfileid: "104316048"
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: 在建立預先定義和通用的控制項時，伺服器開發人�
 ms.assetid: 2b4ec5ae-bda1-41e6-9387-6ee3cb6c3163
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11d7a4c30c6bc228785a886d9a41717f8cdb8dda
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a6c93205430f3063b993c49a7145658d7748aac0e697257789c31ac0653d6189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052546"
 ---
 # <a name="providing-the-name-property"></a>提供 Name 屬性
 
@@ -24,6 +24,6 @@ ms.locfileid: "103933335"
 
 如需 Microsoft Active Accessibility 用來公開 [Name 屬性](name-property.md)之技巧的詳細資訊，請參閱 [消費者介面元素參考](user-interface-element-reference.md)。
 
- 
+ 
 
- 
+ 

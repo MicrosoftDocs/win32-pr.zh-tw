@@ -4,12 +4,12 @@ description: 當您啟用 STRICT 類型檢查時，會成功編譯的部分原�
 ms.assetid: 88368fec-b375-4ad0-aa13-ffadf0338a44
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d04c3a849dc62647758e3515728e3dd3f65dcb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 29baee071bd8d7c236ec5f2f99d1dff11aeac37deb44b0d8a6254325c9a75df0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117928143"
 ---
 # <a name="strict-compliance"></a>嚴格合規性
 
@@ -41,7 +41,7 @@ ms.locfileid: "104375841"
 -   [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 -   [**SendDlgItemMessage**](/windows/win32/api/winuser/nf-winuser-senddlgitemmessagea)
 
-當您呼叫 [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage)、 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)或 [**SendDlgItemMessage**](/windows/win32/api/winuser/nf-winuser-senddlgitemmessagea)時，應該先將結果轉換成 **UINT \_ 指標** 類型。 針對傳回 **LRESULT** 或 **LONG \_ PTR** 值的任何函式，您必須採取類似的步驟，其中結果包含控制碼。 這是撰寫可移植程式碼的必要項，因為控制碼的大小會隨著 Windows 版本而有所不同。  (**UINT \_ PTR**) 轉換可確保正確的轉換。 下列程式碼顯示 **SendMessage** 將控制碼傳回給筆刷的範例：
+當您呼叫 [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage)、 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)或 [**SendDlgItemMessage**](/windows/win32/api/winuser/nf-winuser-senddlgitemmessagea)時，應該先將結果轉換成 **UINT \_ 指標** 類型。 針對傳回 **LRESULT** 或 **LONG \_ PTR** 值的任何函式，您必須採取類似的步驟，其中結果包含控制碼。 這是撰寫可移植程式碼的必要項，因為控制碼的大小會隨著 Windows 的版本而有所不同。  (**UINT \_ PTR**) 轉換可確保正確的轉換。 下列程式碼顯示 **SendMessage** 將控制碼傳回給筆刷的範例：
 
 
 ```C++
@@ -71,7 +71,7 @@ hwnd = CreateWindow(
 
 ## <a name="additional-considerations"></a>其他考量
 
-若要充分利用 **嚴格** 的型別檢查，您應該遵循其他指導方針。 如果您進行下列變更，您的程式碼將會在未來的 Windows 版本中更容易移植。
+若要充分利用 **嚴格** 的型別檢查，您應該遵循其他指導方針。 如果您進行下列變更，您的程式碼將會在未來版本的 Windows 中更容易移植。
 
 **WPARAM**、 **LPARAM**、 **LRESULT** 和 **LPVOID** 類型都是多型 *資料類型*。 它們會在不同的時間保存不同類型的資料，即使已啟用 **STRICT** 型別檢查也是一樣。 若要取得類型檢查的優點，您應該儘快轉換這些類型的值。  (請注意，message crackers 會以可移植的方式自動為您重新轉換 *wParam* 和 *lParam* ) 。
 
@@ -87,6 +87,6 @@ hwnd = CreateWindow(
 [啟用 STRICT](enabling-strict.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

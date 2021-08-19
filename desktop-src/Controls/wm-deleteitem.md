@@ -3,7 +3,7 @@ title: 'WM_DELETEITEM 訊息 (Winuser .h) '
 description: 當清單方塊或下拉式方塊終結時，或是當 LB \_ DELETESTRING、lb \_ RESETCONTENT、CB \_ DELETESTRING 或 CB \_ RESETCONTENT 訊息移除專案時，傳送給清單方塊或下拉式方塊的擁有者。
 ms.assetid: c3adf8fb-45f2-44f1-8821-6ffa7d76dc78
 keywords:
-- WM_DELETEITEM message Windows 控制項
+- WM_DELETEITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf37f8a367d23353903bd3cda85b573f6884ff2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1f461b63d751822d9a4c602993314bf0677cff754881269ab44458ab17f3a439
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018536"
 ---
 # <a name="wm_deleteitem-message"></a>WM \_ DELETEITEM 訊息
 
@@ -59,7 +59,7 @@ WM_DELETEITEM
 
 ## <a name="remarks"></a>備註
 
-Microsoft Windows NT 和更新版本： Windows 僅針對從主控描繪清單方塊中刪除的專案傳送 **WM \_ DELETEITEM** 訊息 (具有 [**磅 \_ OWNERDRAWFIXED**](list-box-styles.md) 或 [**磅 \_ OWNERDRAWVARIABLE**](list-box-styles.md) 樣式) 或擁有者繪製的下拉式列示方塊， (使用 [**cbs \_ OWNERDRAWFIXED**](combo-box-styles.md) 或 [**cbs \_ OWNERDRAWVARIABLE**](combo-box-styles.md) 樣式) 。
+Microsoft Windows NT 和更新版本： Windows 只會針對從主控描繪清單方塊中刪除的專案傳送 **WM \_ DELETEITEM** 訊息 (具有 [**磅 \_ OWNERDRAWFIXED**](list-box-styles.md)或 [**磅 \_ OWNERDRAWVARIABLE**](list-box-styles.md)樣式) 或擁有者繪製的下拉式列示方塊 (使用 [**cbs \_ OWNERDRAWFIXED**](combo-box-styles.md)或 [**cbs \_ OWNERDRAWVARIABLE**](combo-box-styles.md)樣式) 。
 
 Windows 95： Windows 傳送包含非零專案資料之任何已刪除清單方塊或下拉式方塊專案的 **WM \_ DELETEITEM** 訊息。
 
@@ -69,9 +69,9 @@ Windows 95： Windows 傳送包含非零專案資料之任何已刪除清單方�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

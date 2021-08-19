@@ -4,12 +4,12 @@ ms.assetid: a6b5ce92-1cd9-4d51-af16-8c0c403c1964
 title: Direct3D 10 程式設計手冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f08994542d79eb38710caeb4c70e7f9198676c5c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f97268ae995c2625b1c4100dc82ce800aaf16e88247b3787baded6c216d5bca0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118100882"
 ---
 # <a name="programming-guide-for-direct3d-10"></a>Direct3D 10 程式設計手冊
 

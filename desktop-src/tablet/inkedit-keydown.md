@@ -4,12 +4,12 @@ ms.assetid: 14b05b72-ae5d-416a-8ea5-9d9716c0967f
 title: InkEdit) 的 KeyDown 事件 (筆跡
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07cee260d4c902534b9b234e0e30d0b60645c579
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55ab1c1b54f9f60d4bd0868f6e093505e21255991502653712a540728394664c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967136"
 ---
 # <a name="inkeditkeydown-event"></a>InkEdit。 KeyDown 事件
 
@@ -71,7 +71,7 @@ HRESULT KeyDown(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>筆跡 (也需要筆跡 \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

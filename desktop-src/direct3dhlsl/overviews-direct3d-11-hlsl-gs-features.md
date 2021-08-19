@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7fff209092e54ad2efa135a86b2a892c5011e983
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ccecb8d527f91da632921ed3b108856e2990559292bb1d70d93562e9e3630845
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117906625"
 ---
 # <a name="geometry-shader-features"></a>幾何著色器功能
 

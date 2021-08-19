@@ -4,12 +4,12 @@ ms.assetid: 23715497-a74d-4dab-aade-c7779fe80aa6
 title: 'PKEY_Device_DeviceDesc (Functiondiscoverykeys \_ devpkey .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eb68f874979e660fec0cd563db9bcaceb7d5b74
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71c5772029f6c99a86c330f05e3cae3b343e3ee25f39eae4c8d5900e7bf947c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077462"
 ---
 # <a name="pkey_device_devicedesc"></a>PKEY \_ 裝置 \_ DeviceDesc
 
@@ -25,8 +25,8 @@ ms.locfileid: "103846960"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                        |
 | 標頭<br/>                   | <dl> <dt>Functiondiscoverykeys \_ devpkey。h</dt> </dl> |
 
 

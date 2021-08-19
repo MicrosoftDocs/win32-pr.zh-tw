@@ -4,12 +4,12 @@ ms.assetid: 1fe1cd57-a0a4-4e08-ab52-3b6e66d14e79
 title: EndpointVolume API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 081b827045250336aa499e386a8dafedb6ae068b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 22965e882a2f7d413ae58690fc9bc5f8134aba0e7b26838ca38c74d7f0093c98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018446"
 ---
 # <a name="endpointvolume-api"></a>EndpointVolume API
 
@@ -19,10 +19,10 @@ EndpointVolume API 可讓特製化用戶端控制及監視 [音訊端點裝置](
 
 使用 [MMDEVICE API](mmdevice-api.md) 和 [WASAPI](wasapi.md) 的音訊應用程式通常會使用 [**ISimpleAudioVolume**](/windows/desktop/api/Audioclient/nn-audioclient-isimpleaudiovolume) 介面來控制每個會話的音量層級。 只有兩種類型的音訊應用程式需要使用 EndpointVolume API。 這些應用程式類型包括：
 
--   管理音訊端點裝置之主要磁片區層級的應用程式，類似于 Windows 大量控制程式，Sndvol.exe。
--   專業音訊 ( 「pro 音訊」 ) 需要以獨佔模式存取音訊端點裝置的應用程式。
+-   管理音訊端點裝置之主要音量層級的應用程式，類似于 Windows 的音量控制程式 Sndvol.exe。
+-   Professional 音訊 ( 「pro 音訊」 ) 需要獨佔模式存取音訊端點裝置的應用程式。
 
-不當使用 EndpointVolume API 可能會干擾 Windows 音訊原則，並中斷使用者的系統磁片區設定。
+不當使用 EndpointVolume API 可能會干擾 Windows 的音訊原則，並中斷使用者的系統磁片區設定。
 
 如果音訊端點裝置實行硬體磁片區和靜音控制，EndpointVolume API 會使用這些控制項來管理裝置磁片區。 否則，EndpointVolume API 會以透明的方式在用戶端上執行軟體中的控制項。
 
@@ -41,7 +41,7 @@ EndpointVolume API 可讓特製化用戶端控制及監視 [音訊端點裝置](
 -   [端點磁片區控制項](endpoint-volume-controls.md)
 -   [尖峰計量](peak-meters.md)
 
-若要查看使用 EndpointVolume API 的範例，請參閱 Windows SDK 中的 [EndpointVolume](endpointvolume.md) 。
+若要查看使用 EndpointVolume API 的範例，請參閱 Windows SDK 中的[EndpointVolume](endpointvolume.md) 。
 
 EndpointVolume API 會執行下列介面。
 

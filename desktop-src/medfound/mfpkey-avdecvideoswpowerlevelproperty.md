@@ -4,12 +4,12 @@ ms.assetid: c4ede790-e7ef-4ed0-bdbe-a635350d92f3
 title: 'MFPKEY_AVDecVideoSWPowerLevel 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2180e26d3e14263c14f2f3603c8c92cf8c11daec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce376a370ea6488c87c0266319de7e9bde0a94edab7137a81f015f416ea9fc08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874062"
 ---
 # <a name="mfpkey_avdecvideoswpowerlevel-property"></a>MFPKEY \_ AVDecVideoSWPowerLevel 屬性
 
@@ -49,8 +49,8 @@ ms.locfileid: "106974525"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

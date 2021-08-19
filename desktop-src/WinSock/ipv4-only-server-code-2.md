@@ -1,19 +1,19 @@
 ---
-description: 下列程式碼是 Simples .c 檔案，它是僅限 IPv4 的 Windows 通訊端伺服器 (Simples 的 IPv6 啟用版本可在附錄 B) 中找到。
+description: 下列程式碼是 Simples .c 檔案，其為僅限 IPv4 Windows 通訊端伺服器 (已啟用 IPv6 的 Simples 版本，可在附錄 B) 中找到。
 ms.assetid: 02e599e9-8652-4ca1-9355-b989dadedcdf
 title: 僅限 IPv4 的伺服器程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 822ad0775c512e5a00ec0695b2967d8c09fd9253
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7748b6513747f30f2b7cc93a120f47648269196dd1f19efdfcdd1112c777ee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051456"
 ---
 # <a name="ipv4-only-server-code"></a>僅限 IPv4 的伺服器程式碼
 
-下列程式碼是 Simples .c 檔案，它是僅限 IPv4 的 Windows 通訊端伺服器 (Simples 的 IPv6 啟用版本可在附錄 B) 中找到。 這段程式碼僅供比較之用，請使用附錄 B 來瞭解如何撰寫啟用 IPv6 的伺服器。
+下列程式碼是 Simples .c 檔案，其為僅限 IPv4 Windows 通訊端伺服器 (已啟用 IPv6 的 Simples 版本，可在附錄 B) 中找到。 這段程式碼僅供比較之用，請使用附錄 B 來瞭解如何撰寫啟用 IPv6 的伺服器。
 
 
 ```C++

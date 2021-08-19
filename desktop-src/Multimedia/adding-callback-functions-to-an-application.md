@@ -4,12 +4,12 @@ description: 將回呼函式加入至應用程式
 ms.assetid: b7bde1be-b229-4e00-8906-22d7dcf9ea04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d4f5f3dc43227f92305032decaf917bf521d95b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6dcd72b1a95a416398f482b90d7cd15cd80e1698a66a4b1c482bc92fc523ab2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941826"
 ---
 # <a name="adding-callback-functions-to-an-application"></a>將回呼函式加入至應用程式
 
@@ -80,9 +80,9 @@ case WM_CLOSE:
 [使用影片捕獲](using-video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5493779b623108f713f8da252e8696140883395b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9f99ebab9551348dc2c1121b33d2f7e7dc04e7d3e8c014f8fc537f674914d20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017416"
 ---
 # <a name="cbasecontrolvideosetsourceposition-method"></a>CBaseControlVideo. SetSourcePosition 方法
 
@@ -79,7 +79,7 @@ HRESULT SetSourcePosition(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>          | 無效引數。<br/>                                                     |

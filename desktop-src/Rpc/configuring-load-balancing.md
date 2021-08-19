@@ -4,12 +4,12 @@ description: 設定負載平衡
 ms.assetid: c78ffde1-1811-4065-941f-c24692eb144c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b82dbfc23e491d53a6687b50aa77b23878ce52ec
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3560359bd5ad064dc270e0840845674b97b093af66796dc92f31f7a15170f467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931691"
 ---
 # <a name="configuring-load-balancing"></a>設定負載平衡
 
@@ -37,7 +37,7 @@ ms.locfileid: "104316240"
 
 **HKLM \\ SOFTWARE \\ Microsoft \\ Rpc \\ RpcProxy \\ LBSConfiguration \\ xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx 的 \\ ConfigurationType**
 
-DWORD。 **ConfigurationType** DWORD 會儲存在 **資源 UUID** 索引鍵下。 唯一允許的值為1。 如果這個值是1以外的任何值，事件 **RPCPROXY \_ EVENTLOG \_ LB \_ \_ \_ (0XC0000007)** 將會記錄到 Windows 事件記錄檔中。
+DWORD。 **ConfigurationType** DWORD 會儲存在 **資源 UUID** 索引鍵下。 唯一允許的值為1。 如果這個值是1以外的任何值，事件 **RPCPROXY \_ EVENTLOG \_ LB \_ \_ \_ (0xC0000007)** 將會記錄到 Windows 事件記錄檔中。
 
 \-
 
@@ -47,7 +47,7 @@ REG \_ SZ。 **ServerFarm** 登錄值包含伺服器識別碼的分號 delimitat
 
 "ServerID1，ServerPort1，LBSPort1， \[ LBSPort2，.。。LBSPortN \] ; "
 
-**ServerFarm** 登錄機碼中應該會列出多個伺服器識別碼。 它們必須以分號分隔。 下表說明屬於伺服器識別碼的欄位。 如果無法正確剖析此欄位，事件 **RPCPROXY \_ EVENTLOG \_ LB LB \_ \_ \_ (0XC0000008)** 將會記錄到 Windows 事件記錄檔中。
+**ServerFarm** 登錄機碼中應該會列出多個伺服器識別碼。 它們必須以分號分隔。 下表說明屬於伺服器識別碼的欄位。 如果無法正確剖析此欄位，事件 **RPCPROXY \_ EVENTLOG \_ LB \_ \_ \_ (0xC0000008)** 將會記錄到 Windows 事件記錄檔中。
 
 
 
@@ -59,7 +59,7 @@ REG \_ SZ。 **ServerFarm** 登錄值包含伺服器識別碼的分號 delimitat
 
 
 
- 
+ 
 
 ## <a name="optional-registry-keys"></a>選用的登錄機碼
 
@@ -83,6 +83,6 @@ DWORD。 當 **AssumeResourceUUID** DWORD 不存在時，就不會發生任何�
 
 DWORD。 當 **NoSecurity** DWORD 未呈現或設為0時，對磅服務發出的所有撥出電話都會有安全性。 如果存在且未設定為0，則對磅服務發出的所有撥出電話都不會有安全性。 請確定此設定符合 **HKLM \\ SOFTWARE \\ Microsoft \\ Rpc \\ RpcProxy \\ LBSConfiguration \\ NoSecurity** 設定。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 8554a1ab-3288-4bdd-866b-dd2c25842b1f
 title: InkEdit 控制項事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1547df05b438e6ade49663f5095dfd6674dbe4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bfb6c572214e6fca560a6f52f87f20695df5849ae008d3690b1241f061212b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967157"
 ---
 # <a name="inkedit-control-events"></a>InkEdit 控制項事件
 
@@ -19,7 +19,7 @@ ms.locfileid: "103945000"
 
 | 事件                                                                          | 執行緒                                                          |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------|
-| [**變更**](inkedit-change.md)                                               | 在應用程式的使用者介面上引發 (UI) 執行緒<br/> |
+| [**改變**](inkedit-change.md)                                               | 在應用程式的使用者介面上引發 (UI) 執行緒<br/> |
 | [**按一下**](inkedit-click.md)                                                 | 在應用程式的 UI 執行緒上引發<br/>                  |
 | [**DblClick**](inkedit-dblclick.md)                                           | 在應用程式的 UI 執行緒上引發<br/>                  |
 | [**手勢**](inkedit-gesture.md)                                             | 在應用程式的 UI 執行緒上引發<br/>                  |

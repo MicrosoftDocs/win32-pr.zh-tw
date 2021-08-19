@@ -24,12 +24,12 @@ api_type:
 api_location:
 - WmiProv.dll
 ms.custom: project-verbatim
-ms.openlocfilehash: 485b42a86ca67d15ec00be13992c17b31ed51608
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 552e66a4e3a0c6f120bcc95123e3a2674fc579457de16c9ef8cd1e80161f175e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106984282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051146"
 ---
 # <a name="wmimonitorid-class"></a>WmiMonitorID 類別
 

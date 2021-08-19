@@ -29,7 +29,7 @@ ms.locfileid: "118951547"
 
 
 
-| GUID                                                                                                                                                                   | Description                                                                                                                                                  |
+| GUID                                                                                                                                                                   | 描述                                                                                                                                                  |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="GUID_AUDIOBREAK"></span><span id="guid_audiobreak"></span><dl> <dt>**GUID \_ AUDIOBREAK**</dt> </dl>    | 音訊中斷事件。 此類型的事件會針對事件資料使用 [**PERFINFO \_ DSHOW \_ AUDIOBREAK**](perfinfo-dshow-audiobreak.md) 結構。<br/>         |
 | <span id="GUID_DSHOW_CTL"></span><span id="guid_dshow_ctl"></span><dl> <dt>**GUID \_ DSHOW \_ CTL**</dt> </dl>      | DirectShow 事件提供者。<br/>                                                                                                                        |

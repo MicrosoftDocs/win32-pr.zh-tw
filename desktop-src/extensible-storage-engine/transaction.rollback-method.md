@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2a7020a43fe67548eddabdcb3f521b19dd111c14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0447ce5a29dcbf27000375ac7f2b9199f95b1d1b62874b45fa6e8eeac3fa3da1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978338"
 ---
 # <a name="transactionrollback-method"></a>Transaction. Rollback 方法
 

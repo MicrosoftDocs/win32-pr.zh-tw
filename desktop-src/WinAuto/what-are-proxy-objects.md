@@ -4,12 +4,12 @@ description: Proxy 物件可做為用戶端與可存取物件之間的媒介。 
 ms.assetid: fdd5d44a-1797-47e6-8044-37dde926c18a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60d54fb20d677f1a417d633242ddf40c704087f3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: caf3625bf048241e4ef28163ed3b8ca7916ccc35cccc12e7eac05b2b9b9c96d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052186"
 ---
 # <a name="what-are-proxy-objects"></a>什麼是 Proxy 物件？
 
@@ -19,6 +19,6 @@ ms.locfileid: "104316228"
 
 Proxy 物件對用戶端而言是透明的。 當用戶端呼叫 [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent)、 [**AccessibleObjectFromPoint**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint)或 [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow)時，會收到 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 介面的指標。 但是，當用戶端使用這個指標來呼叫任何 **IAccessible** 屬性或方法時，所執行的程式碼就會在 proxy 物件內。
 
- 
+ 
 
- 
+ 

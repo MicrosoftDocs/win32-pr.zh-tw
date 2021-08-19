@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6510c05b4c974051d9902ed2d30d9cdf99956af
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0dda6de46a2ce96d1fec1abaaae56edcbc5b0d6a73e8ee13f038dba6b5577c23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027686"
 ---
 # <a name="iwmdrmlicenseresetenumeration-method"></a>IWMDRMLicense：： ResetEnumeration 方法
 
@@ -47,7 +47,7 @@ HRESULT ResetEnumeration();
 
 
 
-| 傳回碼                                                                                                | Description                                              |
+| 傳回碼                                                                                                | 描述                                              |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**NS \_ E \_ DRM \_ RIV \_ 太 \_ 小**</dt> </dl> | 需要更新的內容撤銷清單。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 此方法已成功。<br/>                         |

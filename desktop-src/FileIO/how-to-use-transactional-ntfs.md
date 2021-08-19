@@ -4,12 +4,12 @@ ms.assetid: 29879a3f-14b4-462c-a001-46c3c3eb74d1
 title: 如何使用交易式 NTFS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43681f0d5b27f0db03d8b6c44564b792fce4b467
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8daafd2bc2ee0e695ee3bdede4ac2f62be1000c111d0c544dec877c357f42629
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015276"
 ---
 # <a name="how-to-use-transactional-ntfs"></a>如何使用交易式 NTFS
 
@@ -40,7 +40,7 @@ ms.locfileid: "106975282"
 開發交易應用程式時，可能會發生下列常見錯誤：
 
 -   在交易完成之後使用檔案控制代碼。
--   在認可交易之前，無法關閉已刪除之檔案和目錄的控制碼，這會導致無法進行刪除作業。 執行認可之前，必須先發生這個事件，才能將刪除作業視為交易的一部分。 這是因為系統不會實際刪除檔案，直到其最後一個控制碼關閉為止，即使作業不是交易式，也是 Windows 檔案 i/o 子系統的一部分。
+-   在認可交易之前，無法關閉已刪除之檔案和目錄的控制碼，這會導致無法進行刪除作業。 執行認可之前，必須先發生這個事件，才能將刪除作業視為交易的一部分。 這是因為系統不會實際刪除檔案，直到它的最後一個控制碼關閉為止，即使作業不是交易式，也是 Windows 檔案 i/o 子系統的一部分。
 -   無法考慮系統起始的交易復原，可能會在任何時間發生;例如，如果系統資源已用盡，則會回復交易。
 
  

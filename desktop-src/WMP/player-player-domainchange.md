@@ -49,7 +49,7 @@ Player.DomainChange(
 
 
 
-| String            | Description                                                          |
+| String            | 描述                                                          |
 |-------------------|----------------------------------------------------------------------|
 | firstplay         | 執行 DVD 光碟的預設初始化。                     |
 | videoManagerMenu  | 顯示整個光碟的功能表。也稱為根功能表或 topMenu。 |

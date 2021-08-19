@@ -4,12 +4,12 @@ description: 使用 IUPnPRegistrar UnregisterDevice 方法將裝置取消註冊�
 ms.assetid: 4f7624e3-4d60-406d-8521-1dfc9aee4408
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4c480433e3d8dbf4ff823728281018801ec35c1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 85ff8eeb99ec0ba697c301e8cc15100bd06c0323b95f4099329c46729ceba9c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999488"
 ---
 # <a name="unregistering-a-device"></a>取消註冊裝置
 
@@ -20,7 +20,7 @@ ms.locfileid: "104462420"
 > [!Note]  
 > 您可以釋放 [**IUPnPRegistrar**](/windows/desktop/api/Upnphost/nn-upnphost-iupnpregistrar) 物件。 只有識別碼必須快取。
 
- 
+ 
 
 如果 *fPermanent* 為 **FALSE**，則會暫時移除裝置。 使用 [**IUPnPReregistrar**](/windows/desktop/api/Upnphost/nn-upnphost-iupnpreregistrar) 介面重新註冊裝置。 [**IUPnPReregistrar：： ReregisterDevice**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpreregistrar-reregisterdevice)和 [**IUPnPReregistrar：： ReregisterRunningDevice**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpreregistrar-reregisterrunningdevice)方法會使用相同的 UDN 或 UDNs，如果是嵌套裝置，則是由裝置主機先前為未註冊的裝置所產生。
 
@@ -29,11 +29,11 @@ ms.locfileid: "104462420"
 > [!Note]  
 > 當裝置在同一部電腦上註冊多次時，裝置主機會為裝置的每個實例產生不同的 UDNs。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

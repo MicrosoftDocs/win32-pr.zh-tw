@@ -4,12 +4,12 @@ ms.assetid: 1a00fff1-c3ab-4965-a663-3c15bb48ea98
 title: 'MEStreamTick 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27123569e991043a534883964ba94e4955d60a40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42b72a61964e296ac5f7aa69eb2be6773b622f7b44df8300affa0150af2f8a77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974057"
 ---
 # <a name="mestreamtick-event"></a>MEStreamTick 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106967165"
 
 
 
-| VARTYPE           | Description                                                                   |
+| VARTYPE           | 描述                                                                   |
 |-------------------|-------------------------------------------------------------------------------|
 | VT \_ I8<br/> | 間隔發生的時間，以 100-毫微秒單位表示。<br/> <br/> |
 
@@ -57,8 +57,8 @@ MEStreamTick 事件未完成 [**IMFMediaStream：： RequestSample**](/windows/d
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

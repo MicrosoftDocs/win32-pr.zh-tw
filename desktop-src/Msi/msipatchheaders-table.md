@@ -4,12 +4,12 @@ ms.assetid: aefdd365-1681-43e4-8470-04a5d6efd993
 title: MsiPatchHeaders 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a3fa4e037a31f3e913f13ff9c96735ed6760dc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1888a91da13923c4a9904c770df77cb24a5b8381c869a60895bb5ff49d23e6b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944488"
 ---
 # <a name="msipatchheaders-table"></a>MsiPatchHeaders 資料表
 

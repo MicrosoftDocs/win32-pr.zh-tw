@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 14b902f70919c79ed3e313671ede709f284a1490
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 07bcaf2ac9d5523949809b22b37f6a31bee1e7ef4243cfef52b1b034ee2e0cd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986008"
 ---
 # <a name="interlockedor-function"></a>InterlockedOr 函式
 
@@ -28,9 +28,9 @@ ms.locfileid: "103933261"
 
 ``` syntax
 void InterlockedOr(
-  in  UINT dest,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -83,7 +83,7 @@ Nothing
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -95,6 +95,6 @@ Nothing
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

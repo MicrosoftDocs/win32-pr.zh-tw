@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 使用 c + + 執行特殊許可權作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fbc0468fef7531586020f55032bff94c977c4ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e83667cd4a4cd81439392f1f58d77fb56109f79c2dd6d826c9390d62008553b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050886"
 ---
 # <a name="executing-privileged-operations-using-c"></a>使用 c + + 執行特殊許可權作業
 
-特殊用戶端應用程式可能會叫用具有特殊許可權的作業。 例如，應用程式可能會允許管理員將沒有回應的 office 電腦重新開機。 藉由使用 Windows Management Instrumentation (WMI) ，您可以呼叫 WMI 提供者來執行特殊許可權作業，藉此執行特殊許可權的操作。
+特殊用戶端應用程式可能會叫用具有特殊許可權的作業。 例如，應用程式可能會允許管理員將沒有回應的 office 電腦重新開機。 藉由使用 Windows Management Instrumentation (wmi) ，您可以呼叫 wmi 提供者來執行特殊許可權作業，藉此執行特殊許可權的操作。
 
 下列程式描述如何呼叫提供者進行有許可權的作業。
 

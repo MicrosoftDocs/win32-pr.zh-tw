@@ -1,5 +1,5 @@
 ---
-description: 註冊 Windows 映像取得 (WIA) 2.0 事件通知的執行中應用程式。
+description: 針對 Windows 映像取得註冊執行中的應用程式 (WIA) 2.0 事件通知。
 ms.assetid: 978dcd41-d63b-421d-b7e1-8e9368b36180
 title: 'IWiaDevMgr2：： RegisterEventCallbackInterface 方法 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 7cd3a7e00cff56bc5d91bfc843ab79fe71aa1123
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2658654254257c707d12f4e676aee3371f0ad491dfedeb0637508ca3f33a057
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965637"
 ---
 # <a name="iwiadevmgr2registereventcallbackinterface-method"></a>IWiaDevMgr2：： RegisterEventCallbackInterface 方法
 
-註冊 Windows 映像取得 (WIA) 2.0 事件通知的執行中應用程式。
+針對 Windows 映像取得註冊執行中的應用程式 (WIA) 2.0 事件通知。
 
 ## <a name="syntax"></a>語法
 
@@ -64,18 +64,18 @@ HRESULT RegisterEventCallbackInterface(
 *pEventGUID* \[在\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
 指定應用程式所註冊之事件識別碼的指標。 請參閱標準事件識別碼的 [WIA 事件識別碼](-wia-wia-event-identifiers.md) 。
 
 </dd> <dt>
 
-_pIWiaEventCallback * \[ in\]
+*pIWiaEventCallback* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaEventCallback**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback) \** _
+類型： **[ **IWiaEventCallback**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback)\***
 
-指定 WIA 2.0 用來傳送事件通知之 [_ *IWiaEventCallback* *](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback)介面的指標。
+指定 WIA 2.0 用來傳送事件通知之 [**IWiaEventCallback**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback) 介面的指標。
 
 </dd> <dt>
 
@@ -96,7 +96,7 @@ _pIWiaEventCallback * \[ in\]
 
 
 
-| 傳回碼                                                                               | Description                                                            |
+| 傳回碼                                                                               | 描述                                                            |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | <dl> <dt>**E \_ >NOTIMPL**</dt> </dl> | 無法傳回 [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面。 <br/> |
 
@@ -126,10 +126,10 @@ _pIWiaEventCallback * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

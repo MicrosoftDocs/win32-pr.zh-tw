@@ -4,12 +4,12 @@ ms.assetid: d6cdc876-8b74-460e-ad43-6455ddf428dd
 title: 服務控制要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cb5edf56137e2c98ea7db440a4db5e55df5e8f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4320aad28f8a176fbf4aaa6b51539256a376a01b8edea034341cae7831ca4c40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117967567"
 ---
 # <a name="service-control-requests"></a>服務控制要求
 

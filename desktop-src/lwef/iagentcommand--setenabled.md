@@ -4,16 +4,16 @@ description: IAgentCommand SetEnabled
 ms.assetid: e0a724b4-3613-400f-a801-efc8bf66e355
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8377307d66257f7a9b74ac82512edc6e4ec64034
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: da164b6603d93496e3381ccc6938a3b6d8f520bcea887cfd11f031cec7d845a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976308"
 ---
 # <a name="iagentcommandsetenabled"></a>IAgentCommand::SetEnabled
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetEnabled(
@@ -41,6 +41,6 @@ HRESULT SetEnabled(
 [**IAgentCommand：： GetCaption**](iagentcommand--getcaption.md)、 [**IAgentCommand：： SetVoice**](iagentcommand--setvoice.md)、 [**IAgentCommands：： Add**](iagentcommands--add.md)、 [**IAgentCommands：： Insert**](iagentcommands--insert.md)
 
 
- 
+ 
 
- 
+ 

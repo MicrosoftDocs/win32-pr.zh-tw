@@ -4,12 +4,12 @@ ms.assetid: dc11134e-6c20-426e-834e-508bf855e5da
 title: 線路裝置訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10f49bd411ee0fb15d33219dce4fbf6833e308ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27dadfe2fba4d01778ede5419d2faac98e81bebd760d6fd50edd7d565fe5f4b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003186"
 ---
 # <a name="line-device-messages"></a>線路裝置訊息
 

@@ -5,12 +5,12 @@ ms.assetid: e99a86ee-af0e-46db-8dad-69703ca84fa0
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e94a2168f5ad4501b9725b72923c98ea97cc707c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5434f009d15bccc1db8279e576b71f079c8d73119a2d82bb8fd313dcc1837c47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000248"
 ---
 # <a name="remote-desktop-services-api-functions"></a>遠端桌面服務 API 函數
 
@@ -226,7 +226,7 @@ ms.locfileid: "103682527"
 [**WTSFreeMemoryEx**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsfreememoryexa)
 </dt> <dd>
 
-釋放包含 [**WTS \_ 處理 \_ 資訊 \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa) 的記憶體，例如 [**或 \_ WTS 會話 \_ 資訊 \_ 1**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_info_1a) 結構（由遠端桌面服務函式所配置）。
+釋出包含 [**WTS \_ 進程 \_ 資訊 \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa)的記憶體，例如 WTS 遠端桌面服務函數所配置的 [**\_ 會話 \_ 資訊 \_ 1**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_info_1a)結構。
 
 </dd> <dt>
 
@@ -447,6 +447,6 @@ ms.locfileid: "103682527"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
