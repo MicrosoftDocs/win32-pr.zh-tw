@@ -3,21 +3,21 @@ title: 推送的檔案
 description: 推送的檔案
 ms.assetid: bea803d2-1237-4983-9673-afdcddc32748
 keywords:
-- Windows Media Player 行動外觀、美工檔案
+- Windows Media Player行動外觀、美工檔案
 - 外觀、美工檔案
 - 適用于外觀、藝術的檔案
 - 面板的美工檔案，推送的檔案
-- Windows Media Player 行動面板，推送的檔案
+- Windows Media Player行動面板，推送的檔案
 - 外觀，推送的檔案
 - 面板中推送的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 071a6a4fd00eee7040d2fadb8fb80db343dc0ac6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0526cad560abfbee3a7ec6cbaa0c355a51d93c2080d7c1ef933f7caaf867ba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570671"
 ---
 # <a name="pushed-file"></a>推送的檔案
 
@@ -38,9 +38,9 @@ ms.locfileid: "104372273"
 [**美工檔案**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

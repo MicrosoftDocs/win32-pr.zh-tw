@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f58c66199abeb5b3586f52e91828b8b194bdbbd1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81ec2826339e27d956750360b280fcafd7b55e6264a6bcab83ebc1cb41a1ddee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812842"
 ---
 # <a name="cim_deviceconnection-class-hyper-v-management"></a>CIM_DeviceConnection 類別 (Hyper-v 管理) 
 

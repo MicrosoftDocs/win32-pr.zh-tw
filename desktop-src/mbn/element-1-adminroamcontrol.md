@@ -56,7 +56,7 @@ ms.locfileid: "117882010"
 <thead>
 <tr class="header">
 <th>Parent 項目</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

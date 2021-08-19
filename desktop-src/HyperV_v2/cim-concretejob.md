@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 949d7c85643919f784a82e7722c9d49a9d9d2e97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62ab2392ce2c069aa88ebb465f7028368f30bd5432cf96559c7eebe6edb8bdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117813159"
 ---
 # <a name="cim_concretejob-class"></a>CIM \_ ConcreteJob 類別
 

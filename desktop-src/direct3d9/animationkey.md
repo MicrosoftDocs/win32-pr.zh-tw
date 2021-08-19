@@ -4,12 +4,12 @@ ms.assetid: bf007541-7fea-423e-910b-fa5f45271608
 title: AnimationKey
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05728f124ae01962a1291547f8fe8b7fcebd175a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bad23a6cc519b0b0525cd0dac1b488184b3bf91e99359e252f44dca435ace529
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118806403"
 ---
 # <a name="animationkey"></a>AnimationKey
 

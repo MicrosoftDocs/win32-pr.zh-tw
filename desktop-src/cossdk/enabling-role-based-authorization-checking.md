@@ -4,12 +4,12 @@ ms.assetid: d391a0d4-fe5d-4587-b0b1-b3aa294b7ad7
 title: 啟用 Role-Based 授權檢查
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c4268c35812af04ed8a0056900e821029274756
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3dd46a0b09b981a3dd7731f5839458550379dad5619f22d1caaaddb24e87deaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118813856"
 ---
 # <a name="enabling-role-based-authorization-checking"></a>啟用 Role-Based 授權檢查
 
@@ -23,7 +23,7 @@ ms.locfileid: "104025958"
 
 3.  在 [ **授權**] 底下，選取 [ **強制執行此應用程式的存取檢查** ] 核取方塊。清除此核取方塊表示應用程式不會使用以角色為基礎的安全性。
 
-4.  按一下 [確定]  。
+4.  按一下 [確定]。
 
 選取的授權設定會在應用程式下次啟動時生效。
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c53a5279523405b760addabb03e381507775e6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8c747233cdb04bdacd78f7c799196262ecc9d2e5f3088d84db2837f21df8c06b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118856555"
 ---
 # <a name="addlstospecifiedlicenseserverlist-method-of-the-win32_terminalservicesetting-class"></a>Win32 TerminalServiceSetting 類別的 AddLSToSpecifiedLicenseServerList 方法 \_
 

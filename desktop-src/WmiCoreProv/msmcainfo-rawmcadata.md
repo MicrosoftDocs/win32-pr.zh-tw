@@ -1,5 +1,5 @@
 ---
-description: 指定 (MCA) 記錄的原始機器檢查架構。 此類別僅適用于64位的 Windows 系統。
+description: 指定 (MCA) 記錄的原始機器檢查架構。 此類別僅適用于64位 Windows 系統。
 ms.assetid: d465ba8d-14b2-4911-ae19-19ebeb32126e
 title: MSMCAInfo_RawMCAData 類別
 ms.topic: reference
@@ -17,16 +17,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 6cafc16ddbc91181cc2114def07a193941988228
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b7ac9f8c474a1aee55d0dd70a5a838102aec66bc8b3ba3d867070430c38a3ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821862"
 ---
 # <a name="msmcainfo_rawmcadata-class"></a>MSMCAInfo \_ RawMCAData 類別
 
-**MSMCAInfo \_ RawMCAData** 會將原始機器檢查架構指定 (MCA) 記錄。 此類別僅適用于64位的 Windows 系統。
+**MSMCAInfo \_ RawMCAData** 會將原始機器檢查架構指定 (MCA) 記錄。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 

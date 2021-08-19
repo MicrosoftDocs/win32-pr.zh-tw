@@ -4,12 +4,12 @@ ms.assetid: 2a85e4af-a1fe-4c28-8ce2-14d15deaa820
 title: 在端對端案例中撰寫相關事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67d27b3455ffe71c6d657e935e6f93dc2dc39392
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7f1ddde6fa80c0ecd5f95373b6ba4d9b7fcf25e8b3e7be878b14830a404b1f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117813706"
 ---
 # <a name="writing-related-events-in-an-end-to-end-scenario"></a>在端對端案例中撰寫相關事件
 

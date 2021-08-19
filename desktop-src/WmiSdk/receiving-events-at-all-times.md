@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 隨時接收事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5559068e1e108c6f4185c31f8858a9e4169c50c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e049b7816e53439ede5edbc67c3bcdbaf6ed6e71accb8b3f994544cdd0efbd31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817444"
 ---
 # <a name="receiving-events-at-all-times"></a>隨時接收事件
 

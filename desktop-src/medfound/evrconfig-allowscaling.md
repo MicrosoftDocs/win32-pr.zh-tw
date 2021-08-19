@@ -4,12 +4,12 @@ ms.assetid: 7e3b8fe1-959b-4391-a715-5d5a7a7dda39
 title: 'EVRConfig_AllowScaling 屬性 (Uuid. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef1d0662c7145d9f5c5484df81c2483305402850
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c83323c42ac81d4cce0bb42733bd4246959cf0fc9a58b5705579a86aee9b2bd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117879422"
 ---
 # <a name="evrconfig_allowscaling-attribute"></a>EVRConfig \_ AllowScaling 屬性
 
@@ -39,8 +39,8 @@ Alllows 增強型影片轉譯器 (EVR) 將影片混在小於輸出矩形的矩�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Uuid。h</dt> </dl> |
 
 

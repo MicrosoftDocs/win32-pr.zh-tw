@@ -4,12 +4,12 @@ ms.assetid: 8272ded7-9d27-4652-877b-40fc76426ffc
 title: 'MF_TOPOLOGY_DYNAMIC_CHANGE_NOT_ALLOWED 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ade7308c4fadef315fae0828a5c2cb29575b03a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb2e984b45abc55246c9b1ae291c535c7fbb00f01f9405d827b7fe833b57a368
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875725"
 ---
 # <a name="mf_topology_dynamic_change_not_allowed-attribute"></a>MF \_ 拓撲 \_ 動態 \_ 變更 \_ 不 \_ 允許屬性
 
@@ -45,8 +45,8 @@ ms.locfileid: "104468988"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

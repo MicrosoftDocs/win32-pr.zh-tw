@@ -4,12 +4,12 @@ ms.assetid: 2b62b807-4ffd-4a8f-afe4-34e109d01856
 title: 事件記錄檔格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af4ba5c8bc0114e319107272e706801544e3effa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63ed6df35ac1fcd641a9a895b2c32eb34d6a4c1cb472ab03f16417f55900c767
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814288"
 ---
 # <a name="event-log-file-format"></a>事件記錄檔格式
 

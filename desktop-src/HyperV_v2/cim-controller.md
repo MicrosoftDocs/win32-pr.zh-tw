@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 139d9c9b8a9ac1b28253551f7d37510f4a1bd53b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0637642de48b6605a9f56e6d7111482af59f5e0361816953f10b1f91e94ad90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117813105"
 ---
 # <a name="cim_controller-class-hyper-v-management"></a>CIM_Controller 類別 (Hyper-v 管理) 
 
@@ -187,7 +187,7 @@ class CIM_Controller : CIM_LogicalDevice
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

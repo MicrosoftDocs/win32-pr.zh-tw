@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: aa9ed87f2d484286d91d14c4183d2ce3b6f41cfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b43d433bf9d2a3967efcc4a2e927d3bf687ebfa5ac67d7c7e34c48c34832c26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117813264"
 ---
 # <a name="geterror-method-of-the-cim_concretejob-class"></a>CIM ConcreteJob 類別的 GetError 方法 \_
 

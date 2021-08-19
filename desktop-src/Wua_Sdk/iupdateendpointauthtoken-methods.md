@@ -4,12 +4,12 @@ ms.assetid: 955ED696-50C0-4E32-A5B7-C9E4E75836E3
 title: IUpdateEndpointAuthToken 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df9579bda43cc803835f38837a03a3b1c8bf4aea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec9cc4c75a18bf3d6c6ed41445de59f50005c876467c8d304590c84aa3dd5399
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118815361"
 ---
 # <a name="iupdateendpointauthtoken-methods"></a>IUpdateEndpointAuthToken 方法
 

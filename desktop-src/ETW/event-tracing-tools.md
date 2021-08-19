@@ -4,12 +4,12 @@ ms.assetid: 7a1c9d8c-5bf4-4f0c-b815-5b70e53c5e2d
 title: 事件追蹤工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1cb68e3d04be53f5a99c9e319540fd49f02000
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03050abe119dff7017cb4025fd3336b2b1b898095c366a3e61aaca9390aa6c79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814768"
 ---
 # <a name="event-tracing-tools"></a>事件追蹤工具
 

@@ -4,18 +4,18 @@ ms.assetid: 0d355ad1-d674-432e-809a-9fb27ac5f610
 title: Microsoft 媒體基礎
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4341a0aea1d51c7260e0fa532eb48b80699e053a
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: ee6b229e3d2d0e4585925d40c3a53d04f407981f923ca160084b7c19547acd89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118473588"
 ---
 # <a name="microsoft-media-foundation"></a>Microsoft 媒體基礎
 
-Microsoft 媒體基礎可在 Windows Vista 和更新版本上開發使用數位媒體的應用程式和元件。
+Microsoft 媒體基礎可讓您開發應用程式和元件，以使用 Windows Vista 和更新版本上的數位媒體。
 
-媒體基礎是 Windows 的新一代多媒體平臺，可讓開發人員、取用者及內容提供者利用增強的強大功能、無與倫比的品質，以及無縫的互通性，來採用新的新 wave 內容 wave。
+媒體基礎是適用于 Windows 的新一代多媒體平臺，可讓開發人員、取用者和內容提供者利用增強的強大功能、無與倫比的品質，以及無縫的互通性，來採用新的新 wave 內容 wave。
 
 本檔包含下列各節：
 
@@ -37,7 +37,7 @@ Microsoft 媒體基礎可在 Windows Vista 和更新版本上開發使用數位�
 
 <dl> <dt>
 
-[適用于 Windows 的媒體技術](/previous-versions/bg125389(v=msdn.10))
+[Windows 的媒體技術](/previous-versions/bg125389(v=msdn.10))
 </dt> </dl>
 
  

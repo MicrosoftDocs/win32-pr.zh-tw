@@ -45,7 +45,7 @@ ms.locfileid: "117858581"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [CommonFileDialog 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/commonfiledialog) |
 

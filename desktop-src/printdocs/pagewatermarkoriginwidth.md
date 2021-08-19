@@ -24,7 +24,7 @@ ms.locfileid: "118731908"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                    |
 | 範圍前置詞 <br/> | 頁面<br/>                            |
@@ -78,8 +78,8 @@ ms.locfileid: "118731908"
 | MaxValue<br/>     | 整數<br/> | 小於或等於 PageImageableSize-System.windows.controls.primitives.iscrollinfo.extentwidth 值<br/> |
 | MinValue<br/>     | 整數<br/> | 0<br/>                                                           |
 | 多個<br/>     | 整數<br/> | 1<br/>                                                           |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/>                                             |
-| Unittype.pixel 表示<br/>     | string<br/>  | 微米<br/>                                                     |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/>                                             |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 微米<br/>                                                     |
 
 
 
