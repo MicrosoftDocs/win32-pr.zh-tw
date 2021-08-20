@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 86eaad961eaf2c2a1aa69672701deaf9125ae149
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6088079cc1d7e3dd3d3f6f1d770efd71a13fe30215fc7e91fd432aa0ca8ec303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890527"
 ---
 # <a name="systemparameterslvchunksizemost-property"></a>SystemParameters. LVChunkSizeMost 屬性
 

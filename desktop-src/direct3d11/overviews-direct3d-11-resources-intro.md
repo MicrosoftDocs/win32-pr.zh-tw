@@ -4,12 +4,12 @@ description: 本主題介紹 Direct3D 資源，例如緩衝區和紋理。
 ms.assetid: 9e991ab0-9648-484a-9a2c-5391ee5abf20
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb466883991795a66eec0ba1b99f5c989fa33c1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a1cc6f9ba62bdfedc59ff2a152588ccad3d81423d55f8c230ff3836c52e5251d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098243"
 ---
 # <a name="introduction-to-a-resource-in-direct3d-11"></a>Direct3D 11 中的資源簡介
 
@@ -55,7 +55,7 @@ View 可以搭配無別別資源使用。 也就是說，您可以在編譯時�
 
 
 
-| 資源介面                                             | Description                                                                                   |
+| 資源介面                                             | 描述                                                                                   |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [**ID3D11DepthStencilView**](/windows/desktop/api/D3D11/nn-d3d11-id3d11depthstencilview)       | 在深度樣板測試期間存取材質資源。                                       |
 | [**ID3D11RenderTargetView**](/windows/desktop/api/D3D11/nn-d3d11-id3d11rendertargetview)       | 存取用作轉譯目標的材質資源。                                    |
@@ -64,7 +64,7 @@ View 可以搭配無別別資源使用。 也就是說，您可以在編譯時�
 
 
 
- 
+ 
 
 ## <a name="raw-views-of-buffers"></a>緩衝區的原始視圖
 
@@ -89,6 +89,6 @@ View 可以搭配無別別資源使用。 也就是說，您可以在編譯時�
 [新的資源類型](direct3d-11-advanced-stages-cs-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 7eb51dc6-5450-45b7-9663-5ddddd30ed72
 title: 'MFPKEY_FRAMECOUNT 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 479ed3092daba774d8edc464f606f92efd84b3a2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: adc0f333db6ea89d5e0329d163aaaac8ac890b755888415f187b39b293cb27bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117690143"
 ---
 # <a name="mfpkey_framecount-property"></a>MFPKEY \_ FRAMECOUNT 屬性
 

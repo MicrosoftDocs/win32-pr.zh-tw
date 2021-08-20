@@ -4,17 +4,17 @@ description: 群組方塊是圍繞一組相關控制項的標記矩形框架。 
 ms.assetid: 5b5ffb36-3ed1-44cd-af87-5cddf46c56a6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 67f930383f2d4412d30027971c6cab2bd3edcccd
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 335382225e2d9dbb5a216e5aa64dbb5d6047d34845e2bfd72a4866ebafa0fca3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104564819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118039895"
 ---
 # <a name="group-boxes"></a>群組方塊
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 群組方塊是圍繞一組相關控制項的標記矩形框架。 群組方塊是以視覺化方式顯示關聯性的方式;除了可能提供一組控制項的存取金鑰外，它還不提供任何功能。
 

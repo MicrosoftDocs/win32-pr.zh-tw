@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 673b46b64229f6435feb464c7ab07487445768a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 190ef661e97744e423f76aaa3a3370852ab43b777a98d07308578b5fe879d974
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098300"
 ---
 # <a name="d3d12_gpu_virtual_address"></a>D3D12 \_ GPU \_ 虛擬 \_ 位址
 
@@ -24,9 +24,9 @@ typedef UINT64 D3D12_GPU_VIRTUAL_ADDRESS;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5464c60c-f416-4088-b983-3a535aa1d059
 title: 擴充電話語音電話功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7d2b1f1ec1af90a412dcb16e7437fc64d45f68a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62eff906005f8ae8006daba7446a6e5dad7f1eb4536f9c76d1f07155bb9176ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117945466"
 ---
 # <a name="extended-telephony-phone-functions"></a>擴充電話語音電話功能
 

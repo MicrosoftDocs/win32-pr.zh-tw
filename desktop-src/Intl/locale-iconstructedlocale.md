@@ -4,18 +4,18 @@ ms.assetid: 5557ee1e-09bf-0d0b-8e73-df32d9a406dd
 title: LOCALE_ICONSTRUCTEDLOCALE
 ms.topic: article
 ms.date: 09/01/2020
-ms.openlocfilehash: 120c206a14030a182378977c9e68fb7dcd77200d
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: 26d54ce55393f54d56f521231e257a8b0692758f8e6c830a890d81c8f82e8422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "107001248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117809636"
 ---
 # <a name="locale_iconstructedlocale"></a>地區設定 \_ ICONSTRUCTEDLOCALE
 
 如果地區設定是「已建立」地區設定，則為要求的識別碼。 不建議使用此 LCTYPE。
 
-這會識別 Windows 上有許多沒有完整資訊的地區設定，而且必須在執行時間「建立」資訊。 一般來說，LOCALE_ICONSTRUCTEDLOCALE 提供的資訊有限，因為 Windows 會提供每個地區設定所能使用的資料量。 因此，不建議使用此 LCTYPE。
+這會識別 Windows 許多沒有完整資訊，而且必須在執行時間「建立」資訊的地區設定。 一般來說，LOCALE_ICONSTRUCTEDLOCALE 提供的資訊有限，因為 Windows 會提供每個地區設定所能使用的資料量。 因此，不建議使用此 LCTYPE。
 
 
 | 值 | 意義                 |

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d870e2769121b4aec542235081011406e439d579
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1479841c5e82c47e98b255d718bf1c74f50feafdec8b2bb951c43fa46cab71b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869570"
 ---
 # <a name="plane-structure"></a>平面結構
 
@@ -39,7 +39,7 @@ ms.locfileid: "106998679"
 
 ## <a name="functions"></a>函式
 
-| Name | 描述 |
+| 名稱 | 描述 |
 |-|-|
 | `plane make_plane_from_vertices(float3 const& point1, float3 const& point2, float3 const& point3)` | 從三個頂點位置的集合建立平面，這些位置必須全都不同，而不是直線。 |
 | `plane normalize(plane const& value)` | 變更平面標準向量的係數，使其成為單位長度。 |
@@ -51,7 +51,7 @@ ms.locfileid: "106998679"
 
 ## <a name="operators"></a>運算子
 
-| Name | 描述 |
+| 名稱 | 描述 |
 |-|-|
 | `bool operator== (plane const& value1, plane const& value2)` | 判斷平面的兩個實例是否相等。 |
 | `bool operator!= (plane const& value1, plane const& value2)` | 判斷平面的兩個實例是否不相等。 |

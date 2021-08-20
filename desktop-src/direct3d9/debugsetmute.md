@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - d3d9.dll
-ms.openlocfilehash: e6de6d85e8c041d606e4ab53f6ff099e0e7167af
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e1f18aa307643b103bed02b4a97ade875564c0a4e55d456be86793b99d789312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095120"
 ---
 # <a name="debugsetmute-function"></a>DebugSetMute 函式
 

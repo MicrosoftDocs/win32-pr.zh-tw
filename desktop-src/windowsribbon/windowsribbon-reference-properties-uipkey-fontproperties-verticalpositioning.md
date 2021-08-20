@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ FontProperties \_ VerticalPositioning 屬性�
 ms.assetid: a92f845e-b0fc-4e23-9d06-ca16d2becf0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 954b01ff3271b9f74fac2c130c697a70e910fc93
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2461aff2aab819304ffd3db0240f18786422f575f7a2d45bb737c0863ad378a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118031576"
 ---
 # <a name="ui_pkey_fontproperties_verticalpositioning"></a>UI \_ PKEY \_ FontProperties \_ VerticalPositioning
 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5fc6d58f5ebf82013f38b39027e0cd02e0e3595a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa1eb526054c665366211ec4fe3a5abdb1a001bddc098fba2c867479f23b18a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812555"
 ---
 # <a name="cim_elementallocatedfrompool-class"></a>CIM \_ ElementAllocatedFromPool 類別
 

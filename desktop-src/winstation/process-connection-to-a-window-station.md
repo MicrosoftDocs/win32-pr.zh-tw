@@ -4,12 +4,12 @@ description: 程式會在第一次呼叫 USER32 或 GDI32 函式時，自動建�
 ms.assetid: 280f69e7-5c99-41a7-94e3-da13deaac9f5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a87e97b19ac1210b04447652268c5f53b7e2a6d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58c507546f57e16c4ac473baeaa1a82bfb8d8e6ed6a551ee2b70d8314b68112d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118030692"
 ---
 # <a name="process-connection-to-a-window-station"></a>處理與視窗工作站的連接
 
@@ -35,6 +35,6 @@ ms.locfileid: "104376156"
 [與桌面的執行緒連接](thread-connection-to-a-desktop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

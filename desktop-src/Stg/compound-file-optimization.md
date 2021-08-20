@@ -6,12 +6,12 @@ keywords:
 - 複合檔案優化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfb55d4d9ba7b264c1a0aac4252d879a7ba98b6d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dc98265cc25908459a256f96dd992ba9177364451164e6ec41519363a171943c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117962418"
 ---
 # <a name="compound-file-optimization"></a>複合檔案優化
 
@@ -19,9 +19,9 @@ ms.locfileid: "103671667"
 
 [**IStorage：： CopyTo**](/windows/desktop/api/Objidl/nf-objidl-istorage-copyto) 可以用來配置 e，藉此改善大部分案例的效能。
 
- 
+ 
 
- 
+ 
 
 
 

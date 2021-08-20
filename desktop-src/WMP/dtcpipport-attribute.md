@@ -1,6 +1,6 @@
 ---
 title: DTCPIPPort 屬性
-description: DTCPIPPort 屬性是一種傳輸控制通訊協定， (TCP) 電腦或裝置的埠號碼，必須透過網際網路通訊協定連線內容保護電腦或裝置， (DTCP-IP) 針對媒體專案進行驗證的金鑰交換 (確定) 。
+description: DTCPIPPort 屬性是一種傳輸控制通訊協定， (TCP) 電腦或裝置的埠號碼，必須透過網際網路通訊協定連線內容保護電腦或裝置， (DTCP-IP) 已驗證的金鑰 Exchange (確定) 作為媒體專案。
 ms.assetid: 63767ec1-dd01-40c2-bf9a-6e9b8a7db7f8
 keywords:
 - DTCPIPPort 屬性 Windows Media Player
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16c1c6117425211c0015d218412c8a9ac0971d7b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb888d5b52284c7c3000888cf342b4f2f50d16eef8fe4ecad81444ea44b47009
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117935702"
 ---
 # <a name="dtcpipport-attribute"></a>DTCPIPPort 屬性
 
-**DTCPIPPort** 屬性是一種傳輸控制通訊協定， (TCP) 電腦或裝置的埠號碼，必須透過網際網路通訊協定連線內容保護電腦或裝置， (DTCP-IP) 針對媒體專案進行驗證的金鑰交換 (確定) 。
+**DTCPIPPort** 屬性是一種傳輸控制通訊協定， (TCP) 電腦或裝置的埠號碼，必須透過網際網路通訊協定連線內容保護電腦或裝置， (DTCP-IP) 已驗證的金鑰 Exchange (確定) 作為媒體專案。
 
 ## <a name="applies-to"></a>套用至
 

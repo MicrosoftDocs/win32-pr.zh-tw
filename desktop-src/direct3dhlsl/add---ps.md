@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 54092caf19a486b68b92ef63d992f11289a51c93
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 2e20090b920c75e2fcfef94e9971d447ceb86c50c1d1b6a0d513d3fa2704c3cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113130087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909261"
 ---
 # <a name="add---ps"></a>新增-ps
 

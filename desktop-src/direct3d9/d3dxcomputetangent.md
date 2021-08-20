@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5cdb6a9dae3bdbad0f239fa61ba066d7b1bffb14
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 733a881d7a090aff72ae145260222136f6eeb0d2f003df101c69697acb7529de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117910947"
 ---
 # <a name="d3dxcomputetangent-function"></a>D3DXComputeTangent 函式
 

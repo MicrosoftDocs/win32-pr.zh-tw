@@ -4,12 +4,12 @@ ms.assetid: a5452ed6-ab0f-4d38-bc16-1de6cbf57486
 title: 在啟用期間尋找磁碟分割
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58e8912c8277d79c1a20300a1a880644801d0bcb
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 7aa517c6fd9399d61ff3af3a2752f4cdf051f6078bed22e8068efdcb89a5f103
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104555711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117916355"
 ---
 # <a name="locating-partitions-during-activation"></a>在啟用期間尋找磁碟分割
 

@@ -17,7 +17,7 @@ ms.locfileid: "117821062"
 
 
 
-| 結構                                                   | Description                                                 |
+| 結構                                                   | 描述                                                 |
 |-------------------------------------------------------------|-------------------------------------------------------------|
 | [**DMO \_媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)                  | 描述 DMO 中資料流程所使用的資料格式。 |
 | [**DMO \_輸出 \_ 資料 \_ 緩衝區**](/previous-versions/windows/desktop/api/Mediaobj/ns-mediaobj-dmo_output_data_buffer) | 描述 DMO 所使用的輸出緩衝區。                   |

@@ -4,18 +4,18 @@ ms.assetid: 35463ace-33ab-4eb9-9901-2504a92456e2
 title: 連鎖單向連結清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9af39847fa2fd1b1873c661d6ec904783e0139b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c938abc7059ad73bac5d3f3a7df4b1d2cb97bacf86346ffdaa752ecc9cf11bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117959255"
 ---
 # <a name="interlocked-singly-linked-lists"></a>連鎖單向連結清單
 
 *連鎖的單向連結清單* (SList) 可簡化從連結清單插入和刪除的工作。 SLists 是使用非封鎖演算法來執行，以提供不可部分完成的同步處理、提高系統效能，並避免發生優先順序反轉和鎖定群組等問題。
 
-SLists 可直接在32位程式碼中執行和使用。 不過，在64位程式碼中執行它們是很困難的，因為原生連鎖交換基本專案所交換的資料量不是位址大小的兩倍，因為它是在32位程式碼中。 因此，SLists 可以將高階可調整演算法移植到 Windows。
+SLists 可直接在32位程式碼中執行和使用。 不過，在64位程式碼中執行它們是很困難的，因為原生連鎖交換基本專案所交換的資料量不是位址大小的兩倍，因為它是在32位程式碼中。 因此，SLists 可以將高階可調整演算法移植至 Windows。
 
 **Windows 8：** 從 Windows 8 開始，適當的原生連鎖交換基本專案適用于64位程式碼，例如 [**InterlockedCompare64Exchange128**](/previous-versions/windows/desktop/legacy/ms683553(v=vs.85))。
 

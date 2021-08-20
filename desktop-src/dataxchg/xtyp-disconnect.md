@@ -3,7 +3,7 @@ title: 'XTYP_DISCONNECT 交易 (Ddeml .h) '
 description: '\_當交談中的應用程式夥伴使用 DdeDisconnect 函式來終止交談時，應用程式的動態資料交換 (DDE) 回呼函式 DdeCallback 會接收 XTYP 中斷連接交易。'
 ms.assetid: 22a9ec63-8a74-4829-ad02-d07dd0e8fa9b
 keywords:
-- XTYP_DISCONNECT 交易資料交換
+- XTYP_DISCONNECT 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e73bc0446989ac572a27f394e594924573711d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8763ba9eda7782bff21a9abdedc3c99672ad927bdd7944181391802f9378497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914775"
 ---
 # <a name="xtyp_disconnect-transaction"></a>XTYP \_ 中斷連接交易
 
@@ -110,7 +110,7 @@ ms.locfileid: "103685615"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

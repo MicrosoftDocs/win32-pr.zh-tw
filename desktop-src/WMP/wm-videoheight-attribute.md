@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d409671ef8328b84f8edf743e3dc71ead722cab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c45a54827d9049f05a8ddd39b11f19bb4282817516f048a2fcc3f4301f2e7557
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930804"
 ---
 # <a name="wmvideoheight-attribute"></a>WM/VideoHeight 屬性
 
@@ -32,7 +32,7 @@ ms.locfileid: "106983096"
 
 這是唯讀屬性。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMVideoHeight。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMVideoHeight。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

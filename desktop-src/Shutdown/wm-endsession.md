@@ -4,12 +4,12 @@ ms.assetid: 9bf04f24-da1e-4680-a47b-28e9c500635e
 title: 'WM_ENDSESSION 訊息 (WinUser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa62f356d881182dd6e6fd9e0558332bcc1b3fc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 788cd7c77ffe6e82e7ca95232b64ecd6bdc5e2c97e9f6a0262adb5f9249da156
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117963461"
 ---
 # <a name="wm_endsession-message"></a>WM \_ ENDSESSION 訊息
 
@@ -91,9 +91,9 @@ LRESULT CALLBACK WindowProc(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                       |
-| 最低支援的伺服器<br/> | Windows Server 2003 \[ desktop app \| UWP 應用程式\]<br/>                                              |
-| 標頭<br/>                   | <dl> <dt>WinUser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | WindowsXP \[ desktop apps \| UWP 應用程式\]<br/>                                                       |
+| 最低支援的伺服器<br/> | WindowsServer 2003 \[ desktop app \| UWP 應用程式\]<br/>                                              |
+| 標頭<br/>                   | <dl> <dt>WinUser (包含 Windows .h) </dt> </dl> |
 
 
 

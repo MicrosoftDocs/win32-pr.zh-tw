@@ -7,12 +7,12 @@ keywords:
 - IPropertySetStorage Strctd Stg.，獨立部署
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f9fd0afe31775b06b3a5f61f4c79939be976e98
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58b4aec27afd0e02ffcb9886f13de2a17761c66eab106665fe4143ab42c86a35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961277"
 ---
 # <a name="ipropertysetstorage-stand-alone-implementation"></a>IPropertySetStorage-獨立執行
 
@@ -69,7 +69,7 @@ ms.locfileid: "104023583"
 > [!Note]  
 > DocumentSummaryInformation 和使用者設定的屬性集是唯一的，因為它在單一基礎資料流程中可能有兩個屬性集區段。 如需詳細資訊，請參閱 [DocumentSummaryInformation 和使用者設定的屬性集](the-documentsummaryinformation-and-userdefined-property-sets.md) 。
 
- 
+ 
 
 </dd> </dl>
 
@@ -107,6 +107,6 @@ ms.locfileid: "104023583"
 [**STGM 常數**](stgm-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

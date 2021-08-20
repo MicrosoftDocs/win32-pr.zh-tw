@@ -4,12 +4,12 @@ ms.assetid: a2d2b382-d666-4a37-a6a9-0b839fbfbec3
 title: ASF 媒體來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75dc682d48339ce4ff707e7859a6962b9f5cfd92
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6b3222f32649aa5cb3f4d1d4688a9f7fb7402167e7831377fd8b04d6c879e23b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106982811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117881149"
 ---
 # <a name="asf-media-source"></a>ASF 媒體來源
 
@@ -20,7 +20,7 @@ ms.locfileid: "106982811"
 ASF 媒體來源會實 [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) 介面，這是媒體基礎中媒體來源的泛型介面。 如同任何其他媒體來源，ASF 媒體來源提供的簡報描述項主要描述 ASF 標頭物件。 此外，ASF 媒體來源會提供代表媒體內容中每個資料流程的資料流程描述項。 如需詳細資訊，請參閱 [ASF 檔案結構](asf-file-structure.md)。
 
 -   [建立 ASF 媒體來源](#creating-the-asf-media-source)
--   [ASF 媒體來源的設定](#configuration-settings-for-the-asf-media-source)
+-   [ASF 媒體來源的設定設定](#configuration-settings-for-the-asf-media-source)
 -   [ASF 媒體來源物件模型](#asf-media-source-object-model)
 -   [ASF 媒體來源服務](#asf-media-source-services)
     -   [時間碼轉譯](#timecode-translation)
@@ -36,7 +36,7 @@ ASF 媒體來源會實 [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-
 
 如需有關如何建立媒體來源的程式碼範例，請參閱 [使用來源解析程式](using-the-source-resolver.md)。
 
-## <a name="configuration-settings-for-the-asf-media-source"></a>ASF 媒體來源的設定
+## <a name="configuration-settings-for-the-asf-media-source"></a>ASF 媒體來源的設定設定
 
 來源解析程式會查詢基礎位元組資料流程的功能，並決定新建立之媒體來源上允許的作業。 其中一項功能是搜尋。 如果允許搜尋作業，應用程式可以指定媒體來源在搜尋簡報中的特定點時，所使用的搜尋模式。
 
@@ -80,7 +80,7 @@ ASF 媒體來源提供適用于 ASF 檔案範圍的各種服務。 若要取得�
 
 
 
-| 服務識別碼               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 服務識別碼               | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MF \_ 速率 \_ 控制 \_ 服務       | 藉由使用此識別碼，應用程式可以取得 [**IMFRateSupport**](/windows/desktop/api/mfidl/nn-mfidl-imfratesupport) 或 [**IMFRateControl**](/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol) 介面的指標。 藉由使用媒體來源所實行的速率支持對象，應用程式可以檢查基礎 ASF 媒體檔案是否支援特定的速率，同時也能取得最快且最慢的速率。 藉由使用速率控制物件，應用程式可以取得並設定播放速率。 如果應用程式指定播放的特定速率，ASF 媒體來源會先檢查要求的速率是否在速率限制內 (由 fasted 和最慢的速率決定) 然後設定速率。 這不會檢查變數條件，因為位元速率可能會因為網路頻寬而變更。 如需詳細資訊，請按 [速率控制](rate-control.md)。 |
 | MF \_ 中繼資料 \_ 提供者 \_ 服務  | 藉由使用此識別碼，應用程式可以取得 ASF 媒體來源之 [**IMFMetadataProvider**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider) 介面的指標。 此介面可讓您存取 ASF 檔案的相關資訊，尤其是 ASF 標頭物件和媒體內容中包含的串流。 標頭資訊是透過呈現描述元屬性公開，而資料流程資訊則是透過資料流程描述元屬性提供。 如需這些屬性的詳細資訊，請參閱 [媒體基礎 ASF 標頭物件的屬性](media-foundation-attributes-for-asf-header-objects.md)。 除了透過屬性公開的資訊之外，還存在描述中繼資料（設定為屬性）。                                                                                                 |

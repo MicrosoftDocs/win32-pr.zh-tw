@@ -4,12 +4,12 @@ ms.assetid: 5548f421-6475-4419-b677-5d9eb625a373
 title: System.object。持續時間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d14b461363346dd6214bc4e5a458995cda22bc3
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fea742e36b3e82e1a71c482b98e66c928bb5f5f94d28214824eafe4a8de27956
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106993781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865672"
 ---
 # <a name="systemmediaduration"></a>System.object。持續時間
 

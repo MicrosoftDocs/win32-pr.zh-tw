@@ -9,12 +9,12 @@ keywords:
 - 觸控
 ms.topic: article
 ms.date: 02/07/2020
-ms.openlocfilehash: 8cf6d28badb47a176a6feccf166344003faf1de8
-ms.sourcegitcommit: 9e389b8e39616dcef8f7ff4bc53d945179401478
+ms.openlocfilehash: 0fe92769a3b7a9325f5cdea47e52d4b849d77db75cbf0eda4b1df8a4280f6f8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "103841855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884315"
 ---
 # <a name="touch-hit-testing"></a>觸控點擊測試
 

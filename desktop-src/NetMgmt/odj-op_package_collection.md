@@ -5,12 +5,12 @@ ms.assetid: a7abf011-0335-4869-b4d9-144b2f392241
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: f8eb61397045a382fe5933025a4eeda2f563e838
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: 26a664bc05cc076ac6e4fb945c5381fd5d7075ec6653c807230cc97a7db135f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "104024281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117983419"
 ---
 # <a name="op_package_part_collection-structure"></a>OP_PACKAGE_PART_COLLECTION 結構
 
@@ -37,7 +37,7 @@ typedef struct _OP_PACKAGE_PART_COLLECTION
 
 包含 OP_PACKAGE_PART 結構的陣列。
 
-### <a name="extension"></a>分機
+### <a name="extension"></a>延伸模組
 
 保留供日後使用，且必須設定為全部為零。
 

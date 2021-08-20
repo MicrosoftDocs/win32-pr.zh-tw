@@ -4,12 +4,12 @@ ms.assetid: 3fef353d-323a-4cc1-a8c9-2bf154754835
 title: 資料繫結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b67305d4acc8a4ed9e0827203e4602db26a99da
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 66b3d51dcd0666925b4fd108f413ffb52966f7451291cdf628a05fdefe4d44b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095157"
 ---
 # <a name="data-binding"></a>資料繫結
 
@@ -52,7 +52,7 @@ SasHostParameterValue 是使用效果檔案 () 語法來定義。 語法與效�
 
  
 
-### <a name="time"></a>Time
+### <a name="time"></a>時間
 
 主機應用程式的虛擬時鐘或時間值。 成員包括：
 
