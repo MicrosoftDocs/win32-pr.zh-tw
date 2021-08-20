@@ -3,7 +3,7 @@ title: 'TB_GETHOTIMAGELIST 訊息 (Commctrl .h) '
 description: 抓取工具列控制項用來顯示熱按鈕的影像清單。
 ms.assetid: 63054449-2768-459c-933c-781d31bdcc15
 keywords:
-- TB_GETHOTIMAGELIST message Windows 控制項
+- TB_GETHOTIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e19c1f3989b0d749a9c663d00b5fb7b54d67fc0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f69d1c77377553ae19a008f80e692e3c87487bc9874593d5f3d1e692658c4ad7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168511"
 ---
 # <a name="tb_gethotimagelist-message"></a>TB \_ GETHOTIMAGELIST 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104104028"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: c9c5e7653790e193c03b1cf4e0c489ea39c3eec3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8dc5b0af5746328ead68be3896148b7a4ddf79d6844a6d4ae976b2f29592d6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118045062"
 ---
 # <a name="ianalysisregion-interface"></a>IAnalysisRegion 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "103690607"
 
 | 方法                                                           | 描述                                                                                                                                    |
 |:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**克隆**](ianalysisregion-clone.md)                           | 建立 **IAnalysisRegion** 的複本。<br/>                                                                                          |
+| [**複製**](ianalysisregion-clone.md)                           | 建立 **IAnalysisRegion** 的複本。<br/>                                                                                          |
 | [**ExcludeRectangle**](ianalysisregion-excluderectangle.md)     | 將 **IAnalysisRegion** 的區域限制為其區域中未與指定的矩形相交的部分。<br/>           |
 | [**ExcludeRegion**](ianalysisregion-excluderegion.md)           | 將 **IAnalysisRegion** 的區域限制為其區域中未與指定 **IAnalysisRegion** 相交的部分。<br/> |
 | [**GetBounds**](ianalysisregion-getbounds.md)                   | 抓取 **IAnalysisRegion** 的周框。<br/>                                                                        |
@@ -74,7 +74,7 @@ ms.locfileid: "103690607"
 -   [**IAnalysisRegion：： UnionRectangle 方法**](ianalysisregion-unionrectangle.md)
 -   [**IAnalysisRegion：： UnionRegion 方法**](ianalysisregion-unionregion.md)
 
-這個介面相當於 .NET Framework 中的 AnalysisCore. AnalysisRegionBase 類別。
+這個介面相當於系統。Windows。.NET Framework 中的 AnalysisCore. AnalysisRegionBase 類別。
 
 ## <a name="requirements"></a>規格需求
 
@@ -82,7 +82,7 @@ ms.locfileid: "103690607"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

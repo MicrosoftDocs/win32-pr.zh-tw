@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: db16e8faa25fc929e884358fcd885943adc17e32
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7e24cd47c26c2ec365fc8c52be7319b325199fdfca8af2a0f9967a9713a9c81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975842"
 ---
 # <a name="qualifiercpspointer-property"></a>CPSPointer 屬性
 

@@ -4,21 +4,21 @@ description: 藍牙使用 WSALookupServiceBegin 函式來查詢裝置及探索�
 ms.assetid: 50bec36f-477e-4f67-ac47-842d311e54c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54f39298047ad14d12ffe45c48ed531b9873bebf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3dcbaeff4435ffed5d98f8ff267768059e3793bf6a5a7b3c23162f0288fe0c2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010417"
 ---
 # <a name="bluetooth-and-wsalookupservicebegin"></a>藍牙和 WSALookupServiceBegin
 
-藍牙使用 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) 函式來查詢裝置及探索服務。
+藍牙使用 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)函式來查詢裝置及探索服務。
 
 下列主題將說明在每個作業中使用 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) 函數的方式：
 
--   [適用于裝置查詢的藍牙和 WSALookupServiceBegin](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md)
--   [適用于服務探索的藍牙和 WSALookupServiceBegin](bluetooth-and-wsalookupservicebegin-for-service-discovery.md)
+-   [裝置查詢的藍牙和 WSALookupServiceBegin](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md)
+-   [服務探索藍牙和 WSALookupServiceBegin](bluetooth-and-wsalookupservicebegin-for-service-discovery.md)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -33,6 +33,6 @@ ms.locfileid: "104023555"
 [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

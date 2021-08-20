@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb37243960360120fbfe508a39db31e37728ac39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72a8820618b39418aa7be82faeef15a372e0e0f90c0db025e99c55be49d8c13e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115690"
 ---
 # <a name="iwmpmediagetiteminfobyatom-method"></a>IWMPMedia：： getItemInfoByAtom 方法
 

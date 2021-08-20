@@ -11,12 +11,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89e183a58989ef0055ec362fe00878762d59c170
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b41f3b9b017b93730f773f3c1aca3dad8d4114951081cf0c955b517464ac35d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118023615"
 ---
 # <a name="cfstr_ds_parenthwnd"></a>CFSTR \_ DS \_ PARENTHWND
 

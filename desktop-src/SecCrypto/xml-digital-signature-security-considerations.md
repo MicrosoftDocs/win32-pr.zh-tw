@@ -4,12 +4,12 @@ ms.assetid: aa972946-9860-49c1-ae94-3f315684c291
 title: XML 數位簽章安全性考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e54b4c5f3f863e0bc84172a7507bfe8609e2df7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f4c66304d454d97a5583aab8458d98fd2a38208ff7b302a9139747787d10eda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117970442"
 ---
 # <a name="xml-digital-signature-security-considerations"></a>XML 數位簽章安全性考慮
 

@@ -16,12 +16,12 @@ keywords:
 - 雙矩陣模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b8c62f93fa8e027dd1c91ca0bd40bc8e6ffaf9f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 83716cead9134ba7823f4206fb6479d323bd35bddee480e9353a7ceb9aad38ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132387"
 ---
 # <a name="porting-msingle-mode-code"></a>移植 MSINGLE 模式程式碼
 
@@ -49,9 +49,9 @@ glLoadMatrix( identity matrix );
 
 
 
- 
+ 
 
- 
+ 
 
 
 

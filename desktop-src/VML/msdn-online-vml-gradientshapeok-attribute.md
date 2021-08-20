@@ -4,21 +4,21 @@ description: VML GradientShapeOK 屬性
 ms.assetid: c26ac4cb-f7f0-4666-b32f-d9fcaf9044a2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d1b7c215fbe0b98c11f7e4d33301e81798bd37f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 53c25620f8ebc05905b83f3abab7b52f7a206b6bafb522b0104f06fd8f46d6bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118124771"
 ---
 # <a name="vml-gradientshapeok-attribute"></a>VML GradientShapeOK 屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 判斷漸層路徑是否會由重複的同心圓路徑組成。 讀取/寫入 **VgTriState**。
 
@@ -59,6 +59,6 @@ ms.locfileid: "104382673"
 
 
 
- 
+ 
 
- 
+ 

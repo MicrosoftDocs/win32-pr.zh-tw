@@ -4,12 +4,12 @@ ms.assetid: b6623bd8-bc83-4d84-bc82-eb4051e10260
 title: 'F (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 374e70a6fa89369f9677eaabec8b98bf48e1c851
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: aaab81a284aa8de395ebe2a1886a9b1cb8f91dc4401d25cce5472714d984df65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142917"
 ---
 # <a name="f-windows-installer"></a>F (Windows Installer) 
 

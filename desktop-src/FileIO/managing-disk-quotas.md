@@ -4,12 +4,12 @@ ms.assetid: 42efbd5b-6455-4319-a76e-cdb666fc36b8
 title: 管理磁片配額
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5231d7683f0af40e7006193be8d5ff9390e21b65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b00682d431d445dc4a9ae778612ac1ae935e670f1f8a662b314b55da0e93d17c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117996945"
 ---
 # <a name="managing-disk-quotas"></a>管理磁片配額
 

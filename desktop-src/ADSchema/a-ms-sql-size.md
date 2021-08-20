@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-Size 屬性
+title: ms-chap-SQL 大小屬性
 description: 資料庫的大小（以 kb 為單位）。
 ms.assetid: 012984cb-5c4c-478e-b4dd-004aa305532a
 ms.tgt_platform: multiple
 keywords:
-- MS-SQL-Size 屬性 AD 架構
-- mS-SQL-Size 屬性 AD 架構
+- MS SQL 大小的屬性 AD 架構
+- mS SQL 大小的屬性 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df47e68ee21f57983c4f2aa774abf3d0a1545483
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1ce90f95a93092b0dcc46de20c0d28f63c201cfe881bcf7fa6de3c6ae75efeca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118016062"
 ---
-# <a name="ms-sql-size-attribute"></a>MS-SQL-Size 屬性
+# <a name="ms-sql-size-attribute"></a>ms-chap-SQL 大小屬性
 
 資料庫的大小（以 kb 為單位）。
 
@@ -29,8 +29,8 @@ ms.locfileid: "104509722"
 
 | 進入 | 值 |
 |-------------------|--------------------------------------|
-| CN                | MS-SQL-大小                          |
-| Ldap-顯示名稱 | mS-SQL-大小                          |
+| CN                | 毫秒-SQL 大小                          |
+| Ldap-顯示名稱 | 毫秒-SQL 大小                          |
 | 大小              | 8 個位元組                              |
 | 更新許可權  | 此值是由系統所設定。     |
 | 更新頻率  | 當資料庫的大小變更時。      |
@@ -58,7 +58,7 @@ ms.locfileid: "104509722"
 | 連結識別碼                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
 | System-Only            | 否                                                                                                                                                                                 |
-| 是-單一值       | 對                                                                                                                                                                                  |
+| 是-單一值       | 是                                                                                                                                                                                  |
 | 已編制索引             | 否                                                                                                                                                                                 |
 | 在通用類別目錄中      | 否                                                                                                                                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                          |
@@ -66,7 +66,7 @@ ms.locfileid: "104509722"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "104509722"
 | 連結識別碼                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
 | System-Only            | 否                                                                                                                                                                                 |
-| 是-單一值       | 對                                                                                                                                                                                  |
+| 是-單一值       | 是                                                                                                                                                                                  |
 | 已編制索引             | 否                                                                                                                                                                                 |
 | 在通用類別目錄中      | 否                                                                                                                                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                          |
@@ -87,7 +87,7 @@ ms.locfileid: "104509722"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "104509722"
 | 連結識別碼                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
 | System-Only            | 否                                                                                                                                                                                 |
-| 是-單一值       | 對                                                                                                                                                                                  |
+| 是-單一值       | 是                                                                                                                                                                                  |
 | 已編制索引             | 否                                                                                                                                                                                 |
 | 在通用類別目錄中      | 否                                                                                                                                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                          |
@@ -108,7 +108,7 @@ ms.locfileid: "104509722"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "104509722"
 | 連結識別碼                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
 | System-Only            | 否                                                                                                                                                                                 |
-| 是-單一值       | 對                                                                                                                                                                                  |
+| 是-單一值       | 是                                                                                                                                                                                  |
 | 已編制索引             | 否                                                                                                                                                                                 |
 | 在通用類別目錄中      | 否                                                                                                                                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                          |
@@ -129,7 +129,7 @@ ms.locfileid: "104509722"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "104509722"
 | 連結識別碼                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
 | System-Only            | 否                                                                                                                                                                                 |
-| 是-單一值       | 對                                                                                                                                                                                  |
+| 是-單一值       | 是                                                                                                                                                                                  |
 | 已編制索引             | 否                                                                                                                                                                                 |
 | 在通用類別目錄中      | 否                                                                                                                                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                          |
@@ -150,7 +150,7 @@ ms.locfileid: "104509722"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "104509722"
 | 連結識別碼                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
 | System-Only            | 否                                                                                                                                                                                 |
-| 是-單一值       | 對                                                                                                                                                                                  |
+| 是-單一值       | 是                                                                                                                                                                                  |
 | 已編制索引             | 否                                                                                                                                                                                 |
 | 在通用類別目錄中      | 否                                                                                                                                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                          |
@@ -171,7 +171,7 @@ ms.locfileid: "104509722"
 | Range-Upper            | \-                                                                                                                                                                                    |
 | Search-Flags           | 0x00000000                                                                                                                                                                            |
 | System-Flags           | 0x00000010                                                                                                                                                                            |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**OLAPCube**](c-ms-sql-olapcube.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> [**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)<br/> |
 
 
 

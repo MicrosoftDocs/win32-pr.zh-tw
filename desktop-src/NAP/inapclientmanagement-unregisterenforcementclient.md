@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea318cf632ac00d54451b11428907c88159809df
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0298b55a5552f2a3ce7a40e048874076729f7e506475c8626de9e9e343da3b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118134550"
 ---
 # <a name="inapclientmanagementunregisterenforcementclient-method"></a>INapClientManagement：： UnregisterEnforcementClient 方法
 
@@ -60,7 +60,7 @@ HRESULT UnregisterEnforcementClient(
 
 
 
-| 傳回碼                                                                                         | Description                                                                    |
+| 傳回碼                                                                                         | 描述                                                                    |
 |-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                | 作業成功。<br/>                                               |
 | <dl> <dt>**E \_ ACCESSDENIED**</dt> </dl>      | 許可權錯誤，拒絕存取。<br/>                                   |
@@ -77,10 +77,10 @@ HRESULT UnregisterEnforcementClient(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                         |
 | 標頭<br/>                   | <dl> <dt>NapManagement。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapManagement .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapManagement .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
 
 

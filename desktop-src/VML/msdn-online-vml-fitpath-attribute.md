@@ -4,21 +4,21 @@ description: VML FitPath 屬性
 ms.assetid: f15775ed-f7b7-45d9-83ed-e307daf7451b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1805e59a50c63248ed936f6a849869057a34a6e5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8863fb4d8a382ac9ccddaf7cc55fe5e8ceeff221dc1f816e340fa0a78cf9d7b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118124781"
 ---
 # <a name="vml-fitpath-attribute"></a>VML FitPath 屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義文字是否符合圖形的路徑。 讀取/寫入 **VgTriState**。
 
@@ -58,6 +58,6 @@ ms.locfileid: "104186097"
 
 
 
- 
+ 
 
- 
+ 

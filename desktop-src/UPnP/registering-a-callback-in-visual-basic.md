@@ -4,12 +4,12 @@ description: 在 Visual Basic 中加入回呼，與 VBScript 中使用的方法�
 ms.assetid: 6aebb855-cf5b-4134-b7f6-3a8b404b7ae8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa754235458820a3c16eea73eec247aed90a103f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e7145a6c6ef80ede3ea2fdb1fd62a2661142fb6f0a85454389fe1c09c117e5b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126221"
 ---
 # <a name="registering-a-callback-in-visual-basic"></a>在 Visual Basic 中註冊回呼
 
@@ -99,6 +99,6 @@ ms.locfileid: "104093008"
 -   TLBTypes. .olb
 -   FunctionDelegator bas
 
- 
+ 
 
- 
+ 

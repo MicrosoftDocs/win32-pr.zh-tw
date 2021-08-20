@@ -9,20 +9,20 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: a9223a2a30cab85f8e1b0dac0d0df2dc4fe8f80c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47578ffe2ef6c26776a62a752c1034f17b5bfedaa17acdefba345d4927c94a95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118048724"
 ---
 # <a name="using-the-search-protocol"></a>使用搜尋通訊協定
 
-**搜尋：** [應用程式通訊協定](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767916(v=vs.85))是一種可延伸的慣例，可在 Windows Vista SERVICE Pack 1 (SP1) 和更新版本上呼叫桌面搜尋應用程式。 此通訊協定是在 Windows Vista SP1 (中建立的，如需詳細資訊，請參閱知識庫檔中 windows vista [desktop search 的 windows Vista Service Pack 1 變更（Windows Vista Service Pack 1 中的 Windows vista desktop Search 變更](https://support.microsoft.com/kb/941946) ）) ，讓 Windows 能夠判斷和呼叫預設桌面搜尋應用程式。
+**搜尋：** [應用程式通訊協定](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767916(v=vs.85))是一種可延伸的慣例，可在 Windows Vista Service Pack 1 (SP1) 和更新版本上呼叫桌面搜尋應用程式。 此通訊協定是在 Windows vista SP1 中建立的 (如需詳細資訊，請參閱知識庫檔： [Windows vista Service Pack 1 中的 Windows Vista 桌面搜尋變更](https://support.microsoft.com/kb/941946)) ，以提供 Windows 判斷和呼叫預設桌面搜尋應用程式的方式。
 
-通訊協定語法提供許多參數，可用於執行常見的桌面搜尋，例如使用者輸入的搜尋字詞或搜尋開始的位置。 當使用者從兩個可用的搜尋專案點之一搜尋 ([ **開始** ] 功能表或 Windows 檔案總管) 時，作業系統會使用搜尋通訊協定來啟動預設的桌面搜尋應用程式。 其執行方式是將使用者輸入的搜尋詞彙新增至標準搜尋通訊協定語法，並將該資訊傳遞給註冊為預設搜尋應用程式的應用程式。
+通訊協定語法提供許多參數，可用於執行常見的桌面搜尋，例如使用者輸入的搜尋字詞或搜尋開始的位置。 當使用者從兩個可用的搜尋專案點之一搜尋 ([**開始**] 功能表或 Windows 檔案總管) 時，作業系統會使用搜尋通訊協定來啟動預設的桌面搜尋應用程式。 其執行方式是將使用者輸入的搜尋詞彙新增至標準搜尋通訊協定語法，並將該資訊傳遞給註冊為預設搜尋應用程式的應用程式。
 
-如果未安裝其他桌面搜尋應用程式，則在這些進入點中輸入的搜尋會啟動 Windows Search Explorer。 但是，協力廠商開發人員可以建立、安裝及註冊其應用程式，以處理搜尋通訊協定，並作為預設搜尋應用程式。 這類應用程式必須支援搜尋通訊協定語法，並使用 [ [預設程式](default-programs.md) ] 功能註冊，以確保 Windows 的順暢體驗。
+如果未安裝其他桌面搜尋應用程式，則在這些進入點中輸入的搜尋會啟動 Windows Search Explorer。 但是，協力廠商開發人員可以建立、安裝及註冊其應用程式，以處理搜尋通訊協定，並作為預設搜尋應用程式。 這類應用程式必須支援搜尋通訊協定語法，並使用 [[預設程式](default-programs.md)] 功能註冊，以確保 Windows 的順暢體驗。
 
 如果您開發的應用程式要在特定的桌面搜尋應用程式上使用或建立，您不應該依賴 **search：** protocol。 因為許多應用程式可能擁有 **搜尋：** 通訊協定，所以不保證您的目標桌面搜尋應用程式在任何指定的時間都有該應用程式。 相反地，您應該使用該目標桌面搜尋應用程式所定義的私人搜尋通訊協定。 這表示，要作為協力廠商應用程式平臺的桌面搜尋應用程式應該同時支援 **search：** protocol 和其專屬的搜尋通訊協定。
 
@@ -34,7 +34,7 @@ ms.locfileid: "104991738"
 本主題包含下列項目：
 
 -   [語法](#syntax)
--   [Windows Vista SP1 使用搜尋：通訊協定](#windows-vista-with-sp1-use-of-the-search-protocol)
+-   [WindowsVista SP1 使用搜尋：通訊協定](#windows-vista-with-sp1-use-of-the-search-protocol)
 -   [範例](#examples)
 -   [註冊處理通訊協定的應用程式](#registering-the-application-that-handles-the-protocol)
     -   [登錄專案](#registry-entries)
@@ -60,7 +60,7 @@ search:parameter=value[&parameter=value]&
 | 查詢                                                  | URL 編碼的文字                                              | 使用者輸入的查詢文字。                                                                                                                                                                                                                                                            |
 | [inputlocale](search-protocol-localeidentifiers.md)   | 任何有效的語言代碼識別碼 (LCID)                      | 識別查詢之輸入語言的 LCID。                                                                                                                                                                                                                                     |
 | [keywordlocale](search-protocol-localeidentifiers.md) | 任何有效的 LCID                                                | 識別索引子之國際版本語言的 LCID。 預設值為 1033 (en-us) 。                                                                                                                                                                                |
-| [粉](search-protocol-crumb.md)                     | AQS 語句                                                 | 此引數會限制要搜尋的範圍。 在 Windows Vista 中，搜尋通訊協定支援完整 AQS 以及引數的特殊實作為 `location` 。 在 Windows XP 中，除了與的特殊執行之外，搜尋通訊協定也支援完整 `kind` AQS `store` 。 |
+| [粉](search-protocol-crumb.md)                     | AQS 語句                                                 | 此引數會限制要搜尋的範圍。 在 Windows Vista 中，搜尋通訊協定支援完整 AQS 以及引數的特殊實作為 `location` 。 在 Windows XP 中，搜尋通訊協定也支援完整 AQS，除了和的特殊執行 `kind` 之外 `store` 。 |
 | [語法](search-protocol-syntaxargument.md)           | NQS，AQS (不區分大小寫)                                  | 用來搜尋索引的查詢語法：自然查詢語法或 Advanced Query 語法 (AQS) 。 AQS 是預設值，而且一律會假設為已剖析且受支援。                                                                                                                        |
 | [stackedby](search-protocol-stackedby.md)             | 屬性系統中的任何有效屬性                   | 屬性，指定要用來堆疊結果的資料行。                                                                                                                                                                                                                                      |
 | [subquery](search-protocol-subquery.md)               | 已儲存的搜尋檔案 (的完整指定路徑 \* 。搜尋-ms)  | 子查詢的結果會當做查詢的來源使用。 也就是說，會針對子查詢的結果搜尋查詢詞彙。                                                                                                                                               |
@@ -70,13 +70,13 @@ search:parameter=value[&parameter=value]&
 
  
 
-## <a name="windows-vista-with-sp1-use-of-the-search-protocol"></a>Windows Vista SP1 使用搜尋：通訊協定
+## <a name="windows-vista-with-sp1-use-of-the-search-protocol"></a>WindowsVista SP1 使用搜尋：通訊協定
 
-Windows Vista （含 SP1）有數個進入點，可從中呼叫 **search：** protocol。 這些進入點概述如下，以及與每個專案相關聯的一般語法。
+WindowsVista SP1 有數個進入點，可從中呼叫 **search：** protocol。 這些進入點概述如下，以及與每個專案相關聯的一般語法。
 
 
 
-| 搜尋通訊協定進入點 | Location         | 查詢呼叫                                                         |
+| 搜尋通訊協定進入點 | 位置         | 查詢呼叫                                                         |
 |-----------------------------|------------------|----------------------------------------------------------------------|
 | **隨處搜尋**       | **開始** 功能表   | 搜尋： query =<*搜尋字詞*>                                   |
 | **隨處搜尋**       | Windows 檔案總管 | 搜尋：查詢 =<*搜尋詞彙*>&連結 = 位置： <*位置*> |
@@ -89,11 +89,11 @@ Windows Vista （含 SP1）有數個進入點，可從中呼叫 **search：** pr
 
  
 
-Windows Vista SP1 搜尋通訊協定進入點不會利用搜尋通訊協定中的所有可能參數。 只有處理來自 Windows Vista SP1 呼叫的應用程式，才能使用下表作為其所需的最小值指南。
+Windows Vista SP1 搜尋通訊協定進入點不會利用搜尋通訊協定中的所有可能參數。 只在意從 Windows Vista SP1 呼叫的應用程式，可以使用下表作為其所需的最小值指南。
 
 
 
-| 參數                                              | 由 Windows 使用？ | Windows Vista SP1 在呼叫搜尋時如何使用它：                                                                                                                                                                                                                     |
+| 參數                                              | Windows 使用嗎？ | Windows Vista SP1 在呼叫搜尋時如何使用它：                                                                                                                                                                                                                     |
 |--------------------------------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 查詢                                                  | Yes              | 使用者輸入的查詢文字。                                                                                                                                                                                                                                         |
 | [粉](search-protocol-crumb.md)                     | Yes              | [連結](search-protocol-crumb.md) 會使用 `location` 引數來指定查詢的來源。                                                                                                                                                                       |
@@ -119,7 +119,7 @@ search:query=microsoft&
 
 
 
-如果使用者在 C： MyFolder 內的 Windows 檔案總管中輸入「西雅圖」， \\ 然後按一下 [ **隨處搜尋**]，則會使用 '： ' 和 ' ' 的 escape 字元進行下列呼叫 \\ ：
+如果使用者在 C： MyFolder 內的 Windows 檔案總管中輸入「西雅圖」， \\ 然後按一下 [**隨處搜尋**]，則會使用 '： ' 和 ' ' 的 escape 字元進行下列呼叫 \\ ：
 
 
 ```C++
@@ -130,7 +130,7 @@ search:query=seattle&crumb=location:C%3A%5CMyFolder
 
 ## <a name="registering-the-application-that-handles-the-protocol"></a>註冊處理通訊協定的應用程式
 
-由於有多個應用程式可以爭用搜尋通訊協定，因此您應該在安裝期間使用 [ [預設程式](default-programs.md) ] 功能來註冊您的應用程式，讓使用者能夠更輕鬆地設定預設值。 除了通常會在 Windows XP 下進行的安裝程式之外，Windows Vista 應用程式必須向 [預設程式] 功能註冊，讓應用程式和使用者可以順暢地設定預設值。
+由於有多個應用程式可以爭用搜尋通訊協定，因此您應該在安裝期間使用 [ [預設程式](default-programs.md) ] 功能來註冊您的應用程式，讓使用者能夠更輕鬆地設定預設值。 除了通常會在 Windows XP 下練習的安裝程式之外，Windows Vista 架構的應用程式必須向 [預設程式] 功能註冊，讓應用程式和使用者可以順暢地設定預設值。
 
 在使用者的電腦上安裝必要的二進位檔案之後，您的安裝常式應完成這些一般工作：
 

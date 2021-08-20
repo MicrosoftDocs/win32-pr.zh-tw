@@ -8,12 +8,12 @@ keywords:
 - 遠端桌面通訊協定 (RDP) 遠端桌面服務，提供者參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 557647b05dc48d3878144f8ab225ddcd77727323
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4b90f4ae544fc502550e85336c1b3851e9aedbe7a90ebb9f1e2b2d331252d302
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131128"
 ---
 # <a name="remote-desktop-protocol-provider-reference"></a>遠端桌面通訊協定提供者參考
 
@@ -36,9 +36,9 @@ ms.locfileid: "103839779"
 [自訂遠端桌面通訊協定](custom-remote-desktop-protocols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

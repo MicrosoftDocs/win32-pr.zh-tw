@@ -4,12 +4,12 @@ ms.assetid: 54e48f64-25fe-44a5-b712-55233e85c7d9
 title: COM + 共用屬性管理員範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df5b4866acc403664eafc68e8a3ad74e43337452
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ecfd57e500468066c4a72f80b99162304d18f6875706fdc47b173d7426a1cd86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118102659"
 ---
 # <a name="com-shared-property-manager-sample"></a>COM + 共用屬性管理員範例
 

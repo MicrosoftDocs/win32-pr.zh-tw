@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 334b0cd4e71cb1dde48bd7868a3dbe23fc2a4a97
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f332985777d6b83e04724e6bf0af65b06b3cac50d73ba437647dc93944f76e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130280"
 ---
 # <a name="imsrdpclient10remoteprogram3-property"></a>IMsRdpClient10：： RemoteProgram3 屬性
 
@@ -52,7 +52,7 @@ HRESULT get_RemoteProgram3(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                            |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                            |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                         |
 | 類型程式庫<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |

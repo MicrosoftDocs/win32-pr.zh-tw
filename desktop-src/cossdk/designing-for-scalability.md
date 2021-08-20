@@ -4,12 +4,12 @@ ms.assetid: 8249f1af-9c96-4545-ad6a-3736c6e63c6d
 title: 擴充性設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54ab0aa9d67afaac14c6d8f59df34183bde36113
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 344e4ce9afcc5f55430550d3ec71c5b56f0f5a4e15b29ef5ea86cea407aeb750
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118102281"
 ---
 # <a name="designing-for-scalability"></a>擴充性設計
 
@@ -26,7 +26,7 @@ ms.locfileid: "106970910"
 
      
 
--   物件存留期。 COM + 應用程式必須密切注意物件的存留期，才能進行擴充。 當物件存在時，就會耗用資源。 請務必確定保存到昂貴資源之物件的存留期是謹慎管理的。 針對不耗用昂貴資源的高需求物件， [Com + 物件](com--object-pooling.md) 共用可以增加擴充性，因為您可以系統管理員調整共用值，以利用您可能擁有的任何硬體。 這是控制連接的自然方式：例如，如果您有20個 SQL 連接的授權，您可以使用 [最大集區] 設定來指定。
+-   物件存留期。 COM + 應用程式必須密切注意物件的存留期，才能進行擴充。 當物件存在時，就會耗用資源。 請務必確定保存到昂貴資源之物件的存留期是謹慎管理的。 針對不耗用昂貴資源的高需求物件， [Com + 物件](com--object-pooling.md) 共用可以增加擴充性，因為您可以系統管理員調整共用值，以利用您可能擁有的任何硬體。 這是控制連接的自然方式：例如，如果您有 20 SQL 連接的授權，您可以使用 [最大集區] 設定來指定。
 -   應用程式元件群組。 為了增強 COM + 應用程式的擴充性，中介層元件應該分成時間相依和與時間無關的服務。 這可讓您專注于可能使用 Microsoft Windows 服務來執行必要的元件動作。 例如，您可以選擇使用 [訊息佇列](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)) 或 [com + 佇列元件](com--queued-components.md) 等服務來處理與時間無關的非同步工作。
 
 ## <a name="related-topics"></a>相關主題

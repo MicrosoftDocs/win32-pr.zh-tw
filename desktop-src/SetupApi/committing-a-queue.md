@@ -4,12 +4,12 @@ ms.assetid: 536f47f5-785e-4a83-a500-c769442e3e68
 title: 認可佇列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d995f6811dbd19bba9e13f29bc119cdf2f471f74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9ccaaeca20cc88e0a39dd1b8ec3278990e519f2d869914eb07ee01bbf4a8ff9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966123"
 ---
 # <a name="committing-a-queue"></a>認可佇列
 

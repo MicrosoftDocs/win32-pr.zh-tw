@@ -4,12 +4,12 @@ description: 若要產生 HTTP 伺服器 API 元件的 ETW 追蹤報告，請執
 ms.assetid: 2ccd2927-8a64-40a8-a29b-4b680a942f7f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 866c566973b660e4e665226fbf9b4a266b086b6b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 62ec0448801334dddb1f964473a925ff18183af992157a55c0d90d7b259f1159
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117996196"
 ---
 # <a name="scenario-2-parser-example-using-etw-tracing"></a>案例2：使用 ETW 追蹤的剖析器範例
 
@@ -17,7 +17,7 @@ ms.locfileid: "104023488"
 
 ## <a name="viewing-the-trace-and-diagnosing"></a>查看追蹤和診斷
 
-您可以在 Excel 或支援 CSV 格式的任何工具中，查看所產生的追蹤 CSV 檔案。 下表2顯示範例追蹤檔 (httptrace.csv) 的摘錄。 在追蹤報表中，[層級] 資料行會顯示值為 "2" 的專案，代表錯誤。 如先前所述，HTTP 伺服器 API 元件會遵循 [LevelType 複雜型別複雜型](../wes/eventmanifestschema-leveltype-complextype.md)別一文中定義的 ETW 層級。
+您可以在 Excel 或支援 csv 格式的任何工具中，查看所產生的追蹤 csv 檔案。 下表2顯示範例追蹤檔 (httptrace.csv) 的摘錄。 在追蹤報表中，[層級] 資料行會顯示值為 "2" 的專案，代表錯誤。 如先前所述，HTTP 伺服器 API 元件會遵循 [LevelType 複雜型別複雜型](../wes/eventmanifestschema-leveltype-complextype.md)別一文中定義的 ETW 層級。
 
 ETW 層級包括：1關鍵;2錯誤;3警告;4資訊;5詳細資訊。
 
@@ -25,7 +25,7 @@ ETW 層級包括：1關鍵;2錯誤;3警告;4資訊;5詳細資訊。
 
 若要修正此剖析問題，應該更正 web 用戶端，以符合 HTTP RFC 的規範。 
 
-| 事件名稱                    | 類型               | 事件識別碼 | 版本 | 通路 | 層級 |
+| 事件名稱                    | 類型               | 事件識別碼 | 版本 | 管道 | 層級 |
 |-------------------------------|--------------------|----------|---------|---------|-------|
 | EventTrace                    | 標頭             | 0        | 2       | 0       | 0     |
 | Microsoft-Windows-HttpService | AddUrl             | 31       | 0       | 16      | 4     |
@@ -37,10 +37,10 @@ ETW 層級包括：1關鍵;2錯誤;3警告;4資訊;5詳細資訊。
 
 
 
- 
+ 
 
 表2：剖析問題的範例追蹤報表摘錄
 
- 
+ 
 
- 
+ 

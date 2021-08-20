@@ -5,12 +5,12 @@ ms.assetid: a92783c2-ffb8-473e-8484-1c05ca5453ff
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00660658874bad4e34a8f6917e08289007cec4d7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5d2886cef75b3d78ee1ec9000eb53e0a2c38d2024732d48cb718a330e6f8cf32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118020007"
 ---
 # <a name="domain-controller-and-replication-management-functions"></a>網域控制站和複寫管理功能
 
@@ -75,6 +75,6 @@ ms.locfileid: "104023263"
 
 實際的複寫是由 [**DsReplicaSync**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicasynca) 和 [**DsReplicaSyncAll**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicasyncalla) 函數所執行。 **DsReplicaSync** 函式會將特定目的地伺服器與單一來源伺服器同步。 使用 **DsReplicaSyncAll** 函式，將目的地伺服器與網站中的所有其他伺服器同步。
 
- 
+ 
 
- 
+ 

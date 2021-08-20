@@ -4,12 +4,12 @@ ms.assetid: 2cbd0cdb-eefa-4434-893d-20e8b34f4cfe
 title: 傳輸獨立性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed8d68b8f6312495c242f6b2bd2ea75301f802c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e7e54ce663bbf4b79b87de45f4882ac3044554bdc0860429166fc111c2bd8a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971883"
 ---
 # <a name="transport-independence"></a>傳輸獨立性
 

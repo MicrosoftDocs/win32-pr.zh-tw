@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e56f33a819da976187fba823ac30fada9ff38730
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 04e355051fd1ef9ceca2925ab3e499824dabe605670ee9e732a08809e474f5ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131327"
 ---
 # <a name="cancelpatch-method-of-the-win32_rdmsvirtualdesktopcollection-class"></a>Win32 RDMSVirtualDesktopCollection 類別的 CancelPatch 方法 \_
 

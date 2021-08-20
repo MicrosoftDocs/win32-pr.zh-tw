@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed6930ea13994fc860f614766663983d46167eb0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf88ce6cdb19aa2c3c1dd1868ffb2981ea57ff8eaaa4a30b57066fb0f4a4d510
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117880"
 ---
 # <a name="themeauthor"></a>主題. 作者
 

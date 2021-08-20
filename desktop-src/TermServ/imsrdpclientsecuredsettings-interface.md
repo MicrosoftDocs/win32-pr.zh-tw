@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientSecuredSettings 介面
-description: 包含方法，可取得並設定僅限特定 Internet Explorer URL 安全性區域的遠端桌面 ActiveX 控制項屬性。 |IMsRdpClientSecuredSettings 介面
+description: 包含方法，可抓取並設定僅限特定 Internet Explorer URL 安全性區域的遠端桌面 ActiveX 控制項的屬性。 |IMsRdpClientSecuredSettings 介面
 ms.assetid: 56d3193d-a0fb-468a-9fb3-c080db5500b7
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 396e6b58b2be0122076b5529b910423377417fa6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 79a1b834d42c957998ad2a8eda5cd3790dd16f40dfd82a8e463bc34e510cd742
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106991422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129788"
 ---
 # <a name="imsrdpclientsecuredsettings-interface"></a>IMsRdpClientSecuredSettings 介面
 
-包含方法，可取得並設定僅限特定 Internet Explorer URL 安全性區域的遠端桌面 ActiveX 控制項屬性。
+包含方法，可抓取並設定僅限特定 Internet Explorer URL 安全性區域的遠端桌面 ActiveX 控制項的屬性。
 
 ## <a name="members"></a>成員
 
@@ -39,7 +39,7 @@ ms.locfileid: "106991422"
 
 
 
-| 屬性                                                                                   | 存取類型           | Description                                   |
+| 屬性                                                                                   | 存取類型           | 描述                                   |
 |:-------------------------------------------------------------------------------------------|:----------------------|:----------------------------------------------|
 | [**AudioRedirectionMode**](imsrdpclientsecuredsettings-autoredirectionmode.md)<br/> | 讀取/寫入<br/> | 音訊重新導向設定。<br/>    |
 | [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md)<br/>        | 讀取/寫入<br/> | 鍵盤重新導向設定。<br/> |

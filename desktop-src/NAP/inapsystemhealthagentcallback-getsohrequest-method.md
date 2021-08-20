@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0fd95ce79587b5e7e259323286cfce138dd2df2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6c9203a782be34be66e84fa8238a678647a4359df8cde3408aa8de99e73fcce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133767"
 ---
 # <a name="inapsystemhealthagentcallbackgetsohrequest-method"></a>INapSystemHealthAgentCallback：： GetSoHRequest 方法
 
@@ -58,7 +58,7 @@ HRESULT GetSoHRequest(
 
 
 
-| 傳回碼                                                                                                                      | Description                                                                                                                                        |
+| 傳回碼                                                                                                                      | 描述                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                             | 表示成功。<br/>                                                                                                                      |
 | <dl> <dt>**\_ \_ 無法使用 WIN32 (RPC \_ S \_ 伺服器的 HRESULT \_)**</dt> </dl> | 如果您的執行傳回此程式碼，則 NapAgent 會接著從系結-SHA 清單中移除 SHA，並清除其快取專案。<br/> |
@@ -105,10 +105,10 @@ NapAgent 會呼叫這個方法來查詢系統健康情況代理程式的 SoHRequ
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapSystemHealthAgent。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: a9ee8cc8-fa62-4fc9-aa69-35ee98afe417
 title: 顯示磁片區路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 766f4a9fcb032099b3cb2456d4bf2193b55f4580
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea93e8d305c246005e631c947c3ca66667e585c34043a3d3a91f160d7639748c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117997792"
 ---
 # <a name="displaying-volume-paths"></a>顯示磁片區路徑
 

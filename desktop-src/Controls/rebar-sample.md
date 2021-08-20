@@ -21,7 +21,7 @@ ms.locfileid: "118169098"
 -   [建立範例](#building-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Rebar 範例顯示如何在應用程式中執行簡單的 Rebar 通用控制項。 這個範例會建立一個具有兩個帶的 Rebar 控制項。 其中一個包含下拉式方塊，另一個則包含推播按鈕。
 
@@ -44,7 +44,7 @@ Rebar 範例會安裝為[Windows 軟體開發套件 (SDK) ](https://msdn.microso
 
 
 
-| Location    | 路徑/URL                                                                                              |
+| 位置    | 路徑/URL                                                                                              |
 |-------------|-------------------------------------------------------------------------------------------------------|
 | Windows SDK | % Program Files% \\ Microsoft sdk \\ Windows \\ \[ 版本號碼 \] \\ 範例 \\ winui \\ 控制 \\ 通用 \\ Rebar |
 

@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 433da7d159f1fe5bf44114a0b76ed9b4d807046f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7342e47658e77d9fb29ef03ab1995e5263c78a8e31d2f020852e5fa10864a031
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129670"
 ---
 # <a name="imstscaxconnectingtext-property"></a>IMsTscAx：： ConnectingText 屬性
 

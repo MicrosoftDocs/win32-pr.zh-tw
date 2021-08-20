@@ -4,12 +4,12 @@ ms.assetid: f6590a46-2e09-472c-8231-bb24c9b0b5f6
 title: 列舉磁片區 GUID 路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e363369d3ea26abb054c8b9321c0147ace7bf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69831b2b6fa515335a8d9ec25836f91824035ce186023e97bce13b7c8f4a3ee4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117997505"
 ---
 # <a name="enumerating-volume-guid-paths"></a>列舉磁片區 GUID 路徑
 

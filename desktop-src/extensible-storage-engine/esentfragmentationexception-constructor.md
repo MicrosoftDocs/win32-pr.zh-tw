@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 7bf233560a3e0b86324f732d93e5a97e9e8a3dff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d6456a5ea687b90d08fbac62b3c618d3531d025f76d700a8e647efcf6a35523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118081543"
 ---
 # <a name="esentfragmentationexception-constructor"></a>EsentFragmentationException 函式
 
@@ -32,7 +32,7 @@ ms.locfileid: "103945386"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

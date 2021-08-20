@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 28a1987b82c4233302bbd3c2e8ffc928f4b55ec4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9178f0aca962e72575c6a66ad26f5c73a601b47615ecd74cc6d5653fcd2412c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118081589"
 ---
 # <a name="esentforcedetachnotallowedexception-class"></a>EsentForceDetachNotAllowedException 類別
 

@@ -4,12 +4,12 @@ description: 應用程式開發人員不需要執行 IAccessible 來公開主控
 ms.assetid: d54ce297-ce8a-46c0-a86d-4acffa1eda27
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fbb72285f55796a285cd6e1a8838a629218659b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4fed68477680376373da6c16f59b3fb556b6a435f15f04daae8f3f1262829dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115271"
 ---
 # <a name="exposing-owner-drawn-list-box-items"></a>公開 Owner-Drawn 清單方塊專案
 
@@ -27,6 +27,6 @@ ms.locfileid: "104376237"
 -   使用以樣式 **磅 \_ OWNERDRAWVARIABLE** 建立的主控描繪變數清單方塊時，請使用全域變數或其他機制來追蹤 [MEASUREITEMSTRUCT](/windows/win32/api/winuser/ns-winuser-measureitemstruct)的 **itemData 成員** 何時有效。 全域變數是必要的，因為系統會在加入字串之後，但在附加專案資料之前立即傳送 [WM \_ MEASUREITEM](../controls/wm-measureitem.md) 訊息，此時 **itemData** 成員將無效。
 -   若要在清單方塊中以 **磅 \_ HASSTRINGS** 樣式變更專案的字串，請刪除具有 [lb \_ DELETESTRING](../controls/lb-deletestring.md) 訊息的專案，然後新增具有 lb \_ ADDSTRING 訊息的字串。
 
- 
+ 
 
- 
+ 

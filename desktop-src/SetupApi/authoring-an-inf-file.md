@@ -1,19 +1,19 @@
 ---
-description: 為安裝應用程式撰寫 INF 檔案時，您也應該參考 INF 檔案格式，該檔案格式記載于 INF 檔案和 INF 檔案區段的一般指導方針，以及 Microsoft Windows 2000 驅動程式開發工具組的指示詞。
+description: 為安裝應用程式撰寫 INF 檔案時，您也應該參閱《 Microsoft Windows 2000 驅動程式開發工具組》的一般指導方針中記載的 inf 檔案格式，以及 inf 檔案和 inf 檔案區段和指示詞。
 ms.assetid: f9df95bb-345d-4a70-a27e-0b1bc2a27ada
 title: 撰寫 INF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73807f919a016f414a248f47e53f27d5b079bb33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3745dc16a14f603de780b15d708fbb4542ea4503052aeb2b7edb3486c5b5fc51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966366"
 ---
 # <a name="authoring-an-inf-file"></a>撰寫 INF 檔案
 
-為安裝應用程式撰寫 INF 檔案時，您也應該參考 INF 檔案格式，該檔案格式記載于 INF 檔案和 *inf 檔案區段* 的 *一般指導方針*，以及 Microsoft Windows 2000 驅動程式開發工具組的指示詞。
+為安裝應用程式撰寫 INF 檔案時，您也應該參閱《 Microsoft Windows 2000 驅動程式開發工具組》的 *一般指導方針* 中記載的 inf 檔案格式，以及 inf 檔案和 *inf 檔案區段和* 指示詞。
 
 針對安裝應用程式撰寫 INF 檔案時，請遵守下列規則。
 

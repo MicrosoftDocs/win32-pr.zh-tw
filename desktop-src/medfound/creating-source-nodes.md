@@ -4,12 +4,12 @@ ms.assetid: 44c26bcd-04a9-48c3-b536-25c2b18c34c1
 title: 建立來源節點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9b1e882dd6f8e9345244b56eace332c2fad4bc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2358ca9ee0e5f3e114df8775108f8cdfeb8eeae2e3aeb35bccb66118118e4deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064587"
 ---
 # <a name="creating-source-nodes"></a>建立來源節點
 

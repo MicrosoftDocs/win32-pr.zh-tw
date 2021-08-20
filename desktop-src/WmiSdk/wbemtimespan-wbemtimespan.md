@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'WBEMTimeSpan：： WbemTimeSpan (WbemTime .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: af5724a91ab50b5286e23b3c8095163e415d95e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cedd30f887b7cb789f44f06ab2c6d6b93e3d7c4723c7e0189764164bdbb43d6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118107269"
 ---
 # <a name="wbemtimespanwbemtimespan-constructors"></a>WBEMTimeSpan：： WbemTimeSpan 的函式
 
@@ -38,7 +38,7 @@ ms.locfileid: "104195221"
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                                                                                      |
-| 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                                                                                                |
+| 最低支援的伺服器<br/> | Windows伺服器2008<br/>                                                                                                                                |
 | 標頭<br/>                   | <dl> <dt>WbemTime。h</dt> </dl>                                                                         |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll;</dt><dt>FrameDyn.dll</dt> </dl> |
 

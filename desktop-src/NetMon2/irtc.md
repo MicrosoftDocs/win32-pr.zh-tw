@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: c937d7d9233b1df063a7cf4a12e57e909145b8c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f330892da5844305d4d1f3ffa3aee0bf6e9ef50fb2a1cd951c332e2b17eb3b12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132927"
 ---
 # <a name="irtc-interface"></a>IRTC 介面
 
@@ -40,7 +40,7 @@ ms.locfileid: "103943880"
 | 方法                                                              | 描述                                                                                                                                             |
 |:--------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**設定**](irtc-configure.md)                                 | 設定捕捉的觸發程式、模式比對和緩衝區大小。<br/>                                                                             |
-| [**連接**](irtc-connect.md)                                     | 將 NPP 連接到網路。<br/>                                                                                                             |
+| [**連線**](irtc-connect.md)                                     | 將 NPP 連接到網路。<br/>                                                                                                             |
 | [**中斷連線**](irtc-disconnect.md)                               | 中斷 NPP 與網路的連線。<br/>                                                                                                        |
 | [**GetControlState**](irtc-getcontrolstate.md)                     | [*抓取 capture*](c.md)的狀態，指出 capture 正在執行或已暫停。<br/>                      |
 | [**GetConversationStatistics**](irtc-getconversationstatistics.md) | 抓取目前 capture 的 [*會話*](s.md) 和 [*站資訊*](s.md) 。<br/> |
