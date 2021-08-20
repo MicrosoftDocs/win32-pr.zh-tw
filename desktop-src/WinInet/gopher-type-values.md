@@ -35,12 +35,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67402dd88211ae46c081c0b9e85e7a12b5379bb8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 36dd8a6b673ccdde6ff283d5b0ae58eb38540aeed12cc3ff095a2df2fe8a0b52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113881"
 ---
 # <a name="gopher-type-values"></a>Gopher 類型值
 
@@ -336,7 +336,7 @@ TN3270 伺服器。
 
 </dt> </dl> </dd> <dt>
 
-<span id="GOPHER_TYPE_UNIX_UUENCODED"></span><span id="gopher_type_unix_uuencoded"></span>**GOPHER \_ 類型 \_ UNIX \_ UUENCODE 編碼**
+<span id="GOPHER_TYPE_UNIX_UUENCODED"></span><span id="gopher_type_unix_uuencoded"></span>**\_ \_ UNIX \_ uuencode 編碼的 GOPHER 類型**
 </dt> <dd> <dl> <dt>
 
 0x00000040
@@ -365,7 +365,7 @@ UUENCODE 編碼檔案。
 ## <a name="remarks"></a>備註
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

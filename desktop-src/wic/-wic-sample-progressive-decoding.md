@@ -5,12 +5,12 @@ title: WIC 漸進解碼範例
 ms.topic: article
 ms.date: 03/19/2021
 ms.custom: project-verbatim
-ms.openlocfilehash: 2e4b1fc560af0ee8c817208fec628ddb068676bb
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 26e26670aad4e3aeed8fca167d77ba6ad36b931d738fccf9717c6e119bf943a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106997436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118032025"
 ---
 # <a name="wic-progressive-decoding-sample"></a>WIC 漸進解碼範例
 
@@ -23,7 +23,7 @@ ms.locfileid: "106997436"
 | 需求 | 值 |
 |-|
 | 最低支援的用戶端 | Windows 7 |
-| 最小 Windows SDK | 適用于 Windows 7 的[Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
+| 最小 Windows SDK | Windows 7 的[Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
 
 ## <a name="downloading-the-sample"></a>下載範例
 
@@ -53,7 +53,7 @@ ms.locfileid: "106997436"
 
 ## <a name="see-also"></a>另請參閱
 
-[Microsoft Windows Imaging 編解碼器](-wic-lh.md)
+[Microsoft Windows 映像編解碼器](-wic-lh.md)
 
 [程式設計手冊](-wic-programming-guide.md)
 

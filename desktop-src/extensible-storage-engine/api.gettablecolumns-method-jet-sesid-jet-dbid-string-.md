@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 68a05ee3d0887f4396df0b2ba3159737791c413d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c2e04518ab4565e4b53ffa247f65b9f7ea26b944c129d9d20b6fa7f202de752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085487"
 ---
 # <a name="apigettablecolumns-method-jet_sesid-jet_dbid-string"></a>GetTableColumns 方法 (JET_SESID、JET_DBID、字串) 
 

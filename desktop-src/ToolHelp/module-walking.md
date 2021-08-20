@@ -9,12 +9,12 @@ keywords:
 - 列舉，Dll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb6a844b536d12a15202f47ad9712f3f7ef55df0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a61e72fcdbcae52a78e62465b12845077572b6b4669e1b0744c26d50ddfd2a26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126488"
 ---
 # <a name="module-walking"></a>課程模組
 
@@ -23,9 +23,9 @@ ms.locfileid: "104092788"
 您可以使用 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)函式來取得 [**Module32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-module32first)和 [**Module32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-module32next)的擴充錯誤狀態碼。
 
 > [!Note]  
-> 在 [**MODULEENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-moduleentry32)的 **th32ModuleID** 成員中指定的模組識別碼，只有在16位的視窗中才有意義。
+> 在 [**MODULEENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-moduleentry32)的 **th32ModuleID** 成員中指定的模組識別碼，只有在16位 Windows 中才有意義。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -34,6 +34,6 @@ ms.locfileid: "104092788"
 [遍歷模組清單](traversing-the-module-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

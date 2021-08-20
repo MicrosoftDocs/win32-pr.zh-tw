@@ -1,7 +1,7 @@
 ---
-description: IRTC：： Connect 方法-Connect 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
+description: IRTC：：連線方法-連線方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
 ms.assetid: d017c2a3-a832-4084-b21b-0cca428c5360
-title: 'IRTC：： Connect 方法 (Netmon. h) '
+title: 'IRTC：：連線方法 (Netmon. h) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: ba62f3341b18ddfdbf09af4eec701322d901ab79
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: da7ff72414a1702a1849f76f658f0fbf85116b9b831e800148d5a6165da7ac17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132897"
 ---
-# <a name="irtcconnect-method"></a>IRTC：： Connect 方法
+# <a name="irtcconnect-method"></a>IRTC：：連線方法
 
-**Connect** 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
+**連線** 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
 
 ## <a name="syntax"></a>語法
 
@@ -87,11 +87,11 @@ BLOB 的控制碼，指定您要連接的 NIC 以及該連接的設定資訊。
 
 
 
-| 傳回碼                                                                                                         | Description                                                                                                                                                                                                                                                                                  |
+| 傳回碼                                                                                                         | 描述                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ 已 \_ 連線**</dt> </dl>            | NPP COM 物件的這個實例已連線到網路。<br/>                                                                                                                                                                                                          |
 | <dl> <dt>**NMERR \_ BLOB \_ 轉換 \_ 錯誤**</dt> </dl>       | 設定 BLOB 已損毀。 此錯誤是由 **IRTC：： Configure** 呼叫所產生。<br/>                                                                                                                                                                                       |
-| <dl> <dt>**NMERR \_ BLOB \_ 專案 \_ 不 \_ \_ 存在**</dt> </dl> | *HInputBlob* 參數所指定的輸入 BLOB 缺少執行這項作業所需的專案。 此錯誤可能是由 **IRTC：： Connect** 或 **IRTC：： Configure** 呼叫所產生。 查看 *hErrorBlob* 傳回的錯誤 BLOB，以判斷找不到哪個專案。<br/> |
+| <dl> <dt>**NMERR \_ BLOB \_ 專案 \_ 不 \_ \_ 存在**</dt> </dl> | *HInputBlob* 參數所指定的輸入 BLOB 缺少執行這項作業所需的專案。 此錯誤可能是由 **IRTC：：連線** 或 **IRTC：： Configure** 呼叫所產生。 查看 *hErrorBlob* 傳回的錯誤 BLOB，以判斷找不到哪個專案。<br/> |
 | <dl> <dt>**NMERR \_ BLOB \_ 未 \_ 初始化**</dt> </dl>        | 尚未呼叫 **CreateBlob** 函數。 此錯誤是由 **IRTC：： Configure** 呼叫所產生。<br/>                                                                                                                                                                         |
 | <dl> <dt>**NMERR \_ BLOB \_ 字串 \_ 無效**</dt> </dl>         | 字串不是以 null 結束。 此錯誤是由 **IRTC：： Configure** 呼叫所產生。<br/>                                                                                                                                                                                       |
 | <dl> <dt>**NMERR 不 \_ 合法的 \_ 觸發程式**</dt> </dl>              | 輸入 BLOB 的觸發程式部分已損毀。 此錯誤是由 **IRTC：： Configure** 呼叫所產生。<br/>                                                                                                                                                                        |
@@ -106,7 +106,7 @@ BLOB 的控制碼，指定您要連接的 NIC 以及該連接的設定資訊。
 
 ## <a name="remarks"></a>備註
 
-呼叫 **Connect** 方法時，NPP 會使用 *hInputBlob* 所提供的 BLOB，自動呼叫 **IRTC：： Configure** 方法。 請注意， **IRTC：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IRTC：： Connect** 呼叫傳回。
+呼叫 **連線** 方法時，NPP 會使用 *hInputBlob* 所提供的 BLOB，自動呼叫 **IRTC：： Configure** 方法。 請注意， **IRTC：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IRTC：：連線** 呼叫傳回。
 
 您必須先呼叫這個方法，才能開始捕獲框架。 請注意，當您使用這個方法連接到網路時，您必須繼續使用 **IRTC** 介面來捕捉畫面格。
 

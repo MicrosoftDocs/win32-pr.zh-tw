@@ -10,12 +10,12 @@ keywords:
 - 元素，VIDEOSETTINGS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61dd56c0103b5a4f6f95e913e967526ef1d46b78
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43096cbe0ee196581a3ad3ed0632342f3fadf2faddf4e203641244687cd660fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116854"
 ---
 # <a name="videosettings-element"></a>VIDEOSETTINGS 元素
 
@@ -34,7 +34,7 @@ ms.locfileid: "103674188"
 
 
 
- 
+ 
 
 **VIDEOSETTINGS** 元素支援下列方法。
 
@@ -46,14 +46,14 @@ ms.locfileid: "103674188"
 
 
 
- 
+ 
 
 **VIDEOSETTINGS** 元素可以執行 [屬性 \_ onchange](attribute-onchange.md)事件處理常式。
 
 > [!Note]  
 > 此元素需要 Windows XP 或更新版本的 Windows Media Player。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -62,9 +62,9 @@ ms.locfileid: "103674188"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

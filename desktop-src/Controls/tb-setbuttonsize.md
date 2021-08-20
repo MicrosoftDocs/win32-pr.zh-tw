@@ -3,7 +3,7 @@ title: 'TB_SETBUTTONSIZE 訊息 (Commctrl .h) '
 description: 設定工具列上的按鈕大小。
 ms.assetid: ef6beed7-a3d6-4379-b9c1-c64a5e33ce78
 keywords:
-- TB_SETBUTTONSIZE message Windows 控制項
+- TB_SETBUTTONSIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5db17b943c8a7cc8e71735d08718ece02a8c2582
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 58b0b957ad6328515da7aee2f978870662801aa6aba81133e9e4bc22ee7d9c92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167731"
 ---
 # <a name="tb_setbuttonsize-message"></a>TB \_ SETBUTTONSIZE 訊息
 
@@ -71,8 +71,8 @@ SendMessage(hWndToolbar, TB_SETBUTTONSIZE, 0, MAKELPARAM(80, 30);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

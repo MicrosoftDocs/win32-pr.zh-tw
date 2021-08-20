@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04ae476134cf526602a059b4714cded6fd6c990e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6b314148bf630dace88c08b532cf80d2bed68d9e41f5566a198a79eef6e52a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126852"
 ---
 # <a name="setclientwallpaper-method-of-the-win32_tsenvironmentsetting-class"></a>Win32 TSEnvironmentSetting 類別的 SetClientWallPaper 方法 \_
 

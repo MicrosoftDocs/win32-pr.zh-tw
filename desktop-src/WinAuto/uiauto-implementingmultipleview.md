@@ -15,18 +15,18 @@ keywords:
 - 介面，IMultipleViewProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4bc5d1991e99f1338853aac528111d8ec3ca3c2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a5848a521da45470854bd860d3ee9c582e18fc84783ca8072ad552fd91a8d1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115001"
 ---
 # <a name="multipleview-control-pattern"></a>MultipleView 控制項模式
 
 描述執行 [**IMultipleViewProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-imultipleviewprovider)的方針和慣例，包括屬性和方法的相關資訊。 其他參考的連結列於主題的結尾。 **MultipleView** 控制項模式用來支援控制項，這些控制項可讓您在相同資訊或同一組子控制項的多個標記法之間切換。
 
-可顯示多個視圖的控制項範例包括清單視圖 (可以將其內容顯示為縮圖。磚、圖示或詳細資料) 、Microsoft Excel 圖表 (圓形圖、線條、橫條圖、具有公式) 的儲存格值、Microsoft Word 檔 (一般、web 版面配置、列印配置、閱讀版面配置、大綱) 、Microsoft Outlook 行事曆 (年、月、周、日) 和 Microsoft Windows Media Player 的外觀。 支援哪些檢視會由控制項的開發人員決定，而且是每個控制項所特有。
+可顯示多個視圖的控制項範例包括清單視圖 (可以將其內容顯示為縮圖。磚、圖示或詳細資料) 、Microsoft Excel 圖表 (圓形圖、線條、橫條圖、具有公式) 的儲存格值、Microsoft Word 檔 (一般、web 配置、列印配置、閱讀配置、大綱) 、microsoft Outlook 行事曆 (年、月、周、日) 和 Microsoft Windows Media Player 的外觀。 支援哪些檢視會由控制項的開發人員決定，而且是每個控制項所特有。
 
 本主題包含下列各節。
 
@@ -58,7 +58,7 @@ ms.locfileid: "104372333"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -78,9 +78,9 @@ ms.locfileid: "104372333"
 [ExpandCollapse 控制項模式](uiauto-implementingexpandcollapse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

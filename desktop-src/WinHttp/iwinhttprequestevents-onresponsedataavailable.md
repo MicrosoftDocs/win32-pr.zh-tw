@@ -4,12 +4,12 @@ ms.assetid: 62d02e3b-466a-4d3d-994b-0a1ae12049e1
 title: IWinHttpRequestEvents：： OnResponseDataAvailable 事件
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41cb2fbc680b1f6739a66bb68565188c8a5d78b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12b55f87584164a47b47920caf961f02f0bd9cc6596c4c90f76f381027af545e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114242"
 ---
 # <a name="iwinhttprequesteventsonresponsedataavailable-event"></a>IWinHttpRequestEvents：： OnResponseDataAvailable 事件
 
@@ -33,7 +33,7 @@ void OnResponseDataAvailable(
 *資料* \[在\]
 </dt> <dd>
 
-以零為基底的位元組陣列，這個陣列會接收 Microsoft Windows HTTP 服務所收到的回應資料 (WinHTTP) 直到發生此事件為止。 這是 VT  \_ 陣列 \| Vt UI1 類型的變異 \_ 。
+以零為基底的位元組陣列，可接收 Microsoft Windows HTTP 服務 (WinHTTP) 的回應資料，直到發生這個事件為止。 這是 VT  \_ 陣列 \| Vt UI1 類型的變異 \_ 。
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ void OnResponseDataAvailable(
 因為資料是以位元組為單位，所以在放置於寬字元 (Unicode) 字串時，必須將其轉換成寬字元。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -56,10 +56,10 @@ void OnResponseDataAvailable(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 
 
 

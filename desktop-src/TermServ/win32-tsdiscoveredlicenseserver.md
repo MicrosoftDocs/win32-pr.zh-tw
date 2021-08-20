@@ -21,12 +21,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d633031df533068f2cf5da65f2f6820a93c78513
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8ea5698083f0a639b0cd955126418f5024906d4f140dc22c54aacf1460f24c0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126992"
 ---
 # <a name="win32_tsdiscoveredlicenseserver-class"></a>Win32 \_ TSDiscoveredLicenseServer 類別
 
@@ -142,7 +142,7 @@ class Win32_TSDiscoveredLicenseServer
 存取類型：唯讀
 </dt> </dl>
 
-指出用來執行腳本的帳戶或使用 **Win32 \_ TSDiscoveredLicenseServer** 類別的 .exe 檔案，是否具有授權伺服器的系統管理員存取權。
+指出用來執行腳本或 .exe 檔案（使用 **Win32 \_ TSDiscoveredLicenseServer** 類別）的帳戶是否具有授權伺服器的系統管理員存取權。
 
 <dt>
 
@@ -284,7 +284,7 @@ class Win32_TSDiscoveredLicenseServer
 
 ## <a name="remarks"></a>備註
 
-若要連接到 \\ 根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic Scripting Edition (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
+若要連接到 \\ 根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic 腳本撰寫版 (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
 
 
 ```VB

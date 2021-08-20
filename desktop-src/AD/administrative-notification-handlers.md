@@ -7,12 +7,12 @@ keywords:
 - 系統管理通知處理常式廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baa6f48f8b56ab8e4a1d64d0fe15543bfee6c09e
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 0ebe2e92edd9a2630963d7dda6d84e6c323743ef5d37687927502c62b32ec592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118024658"
 ---
 # <a name="administrative-notification-handlers"></a>系統管理通知處理常式
 
@@ -51,7 +51,7 @@ HKEY_CLASSES_ROOT - CLSID - <CLSID>
 
 在 Active Directory Domain Services 中，通知處理常式註冊是一種地區設定特有的。 如果通知處理常式套用至所有地區設定，則必須在 DisplaySpecifiers 容器中所有地區設定子容器的 **displaySpecifier** 物件中註冊該處理常式。 如果通知處理常式已針對特定地區設定進行當地語系化，則會在該地區設定的 subcontainer 中，將它註冊在 **displaySpecifier** 物件中。 如需 DisplaySpecifiers 容器和地區設定的詳細資訊，請參閱 [顯示](display-specifiers.md) 規範和 [DisplaySpecifiers 容器](displayspecifiers-container.md)。
 
-通知處理常式會在 **DS-UI 預設設定** 容器的 **dsUIAdminNotification** 屬性下註冊。 此為多重值的 Unicode 字串值，其中每個值都需要下列格式：
+通知處理常式會在 dsUIAdminNotification 屬性的屬性下註冊至 **DS-UI-預設設定** 容器中。 此為多重值的 Unicode 字串值，其中每個值都需要下列格式：
 
 
 ```C++
@@ -64,6 +64,6 @@ HKEY_CLASSES_ROOT - CLSID - <CLSID>
 
 " &lt; Clsid &gt; " 是 [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) 函式所產生之 CLSID 的字串表示。
 
- 
+ 
 
- 
+ 

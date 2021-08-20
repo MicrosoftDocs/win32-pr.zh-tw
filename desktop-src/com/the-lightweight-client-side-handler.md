@@ -4,12 +4,12 @@ description: 輕量用戶端處理常式可讓您建立任何大小的一般用�
 ms.assetid: b712237c-55d7-4f52-9cf6-19c6e5fb3182
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f1e8df5be24e8773a660a4d0208b27a2f585e32
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: a868b6152a13b79bc4475dca14810821065ddfe5c3590ed4e20687bc6d3614b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118103665"
 ---
 # <a name="the-lightweight-client-side-handler"></a>輕量 Client-Side 處理常式
 
@@ -38,6 +38,6 @@ Proxy 管理員是系統建立的物件，它會執行 [**IMarshal**](/windows/w
 [OLE 處理常式](the-ole-handler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

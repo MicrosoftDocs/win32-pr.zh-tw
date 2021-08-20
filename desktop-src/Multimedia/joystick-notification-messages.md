@@ -11,12 +11,12 @@ keywords:
 - MM_JOY2 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 698f999dab49ea6684e9184f6ed5c46286518b97
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 27113adeb6f9fd4444f8fc30431df0eab686db667fa2674e81d7f5d4e568be64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140338"
 ---
 # <a name="joystick-notification-messages"></a>搖桿通知訊息
 
@@ -39,13 +39,13 @@ ms.locfileid: "106967408"
 
 
 
- 
+ 
 
 所有訊息都會將不存在的按鈕報告為已發行。
 
- 
+ 
 
- 
+ 
 
 
 

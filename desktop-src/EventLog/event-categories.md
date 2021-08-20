@@ -4,12 +4,12 @@ ms.assetid: ddba8066-b6b9-42a6-b49f-cbae8f97ef6d
 title: 事件類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efd84a095754bd51499edf5a21ebea0ade042d75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d68895c1043e12ab8e53e3d6db8cd385d17ccc0175c5610a487682fc1c92c8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151639"
 ---
 # <a name="event-categories"></a>事件類別
 

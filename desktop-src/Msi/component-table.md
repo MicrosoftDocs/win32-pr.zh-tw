@@ -4,12 +4,12 @@ ms.assetid: 069d64e9-106a-42b7-8dea-a44fc0c6e0cd
 title: 元件資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b721996767fa98209f0e13530f8f1bb1ba8cca07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04e7abe895981f04adc345f7fd54924c93e9c06e2d5e0051c33345c9d3baadce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144736"
 ---
 # <a name="component-table"></a>元件資料表
 
@@ -71,7 +71,7 @@ ms.locfileid: "104191700"
 此資料行包含一個位旗標，可指定遠端執行的選項。 將指定的位新增至資料行中的總計值，以包含選項。
 
 > [!Note]  
-> 如果是從 web 位置下載的 .msi 檔案，則不應將屬性旗標設定為允許從來源執行元件。 這是 Windows Installer 的限制，而且可能會傳回 INSTALLSTATE BADCONFIG 的功能狀態 \_ 。
+> 如果是從 web 位置下載 .msi 檔案，則不應將屬性旗標設定為允許從來源執行元件。 這是 Windows Installer 的限制，而且可能會傳回 INSTALLSTATE BADCONFIG 的功能狀態 \_ 。
 
  
 
@@ -118,18 +118,18 @@ ms.locfileid: "104191700"
 <td><dl> <dt><strong>msidbComponentAttributes64bit</strong></dt> <dt>256</dt> <dt>0x0100</dt> </dl> 設定此位以將此標示為64位元件。 這個屬性可協助安裝包含32位和64位元件的封裝。 如果未設定此位，則會將元件註冊為32位元件。<br/> 如果這是取代32位元件的64位元件，請在 [元件] 資料行中設定此位並指派新的 GUID。<br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt> <dt>512</dt> <dt>0x0200</dt> </dl> 設定此位可針對受此元件影響的所有現有和新登錄機碼停用登錄 <a href="/windows/desktop/WinProg64/registry-reflection">反映</a> 。 如果設定此位，Windows Installer 會在元件所存取的每個索引鍵上呼叫 <a href="/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey"><strong>RegDisableReflectionKey</strong></a> 。 這位 Windows Installer 版本4.0 提供。 32位系統會忽略此位。 64位版本的 Windows XP 會忽略此位。<br/>
+<td><dl> <dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt> <dt>512</dt> <dt>0x0200</dt> </dl> 設定此位可針對受此元件影響的所有現有和新登錄機碼停用登錄 <a href="/windows/desktop/WinProg64/registry-reflection">反映</a> 。 如果設定此位，Windows Installer 會在元件所存取的每個索引鍵上呼叫<a href="/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey"><strong>RegDisableReflectionKey</strong></a> 。 這位 Windows Installer 版本4.0 提供。 32位系統會忽略此位。 在 Windows XP 的64位版本上，會忽略這個位。<br/>
 <blockquote>
 [!Note]<br />
-在64位 Windows 模擬器上執行的32位 Windows 應用程式 (WOW64) 參考的登錄與64位應用程式不同。 登錄反映會複製這兩個登錄視圖之間的一些登錄值。
+32位 Windows 在64位 Windows 模擬器上執行的應用程式 (WOW64) 參考不同于64位應用程式的登錄。 登錄反映會複製這兩個登錄視圖之間的一些登錄值。
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesUninstallOnSupersedence</strong></dt> <dt>1024</dt> <dt>0x0400</dt> </dl> 為修補程式套件中的元件設定此位，以避免在電腦上留下孤立的元件。 如果已安裝後續修補程式，並在其<a href="msipatchsequence-table.md">MsiPatchSequence</a>資料表中標示<strong>msidbPatchSequenceSupersedeEarlier</strong>值來取代第一個修補程式，Windows Installer 4.5 和更新版本可以取消註冊並卸載以<strong>msidbComponentAttributesUninstallOnSupersedence</strong>值標示的元件。 如果元件未標示此位，則取代修補程式的安裝可能會離開電腦上未使用的元件。<br/> 設定 <strong>MSIUNINSTALLSUPERSEDEDCOMPONENTS</strong> 屬性的效果與設定所有元件的這個位相同。<br/> <strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4.0 及更早版本</a>：</strong> 不支援 <strong>msidbComponentAttributesUninstallOnSupersedence</strong> 值，且會忽略。<br/> <br/></td>
+<td><dl> <dt><strong>msidbComponentAttributesUninstallOnSupersedence</strong></dt> <dt>1024</dt> <dt>0x0400</dt> </dl> 為修補程式套件中的元件設定此位，以避免在電腦上留下孤立的元件。 如果已安裝後續修補程式，並在其<a href="msipatchsequence-table.md">MsiPatchSequence</a>資料表中標示<strong>msidbPatchSequenceSupersedeEarlier</strong>值來取代第一個修補程式，Windows Installer 4.5 和更新版本可以取消註冊並卸載以<strong>msidbComponentAttributesUninstallOnSupersedence</strong>值標示的元件。 如果元件未標示此位，則取代修補程式的安裝可能會離開電腦上未使用的元件。<br/> 設定 <strong>MSIUNINSTALLSUPERSEDEDCOMPONENTS</strong> 屬性的效果與設定所有元件的這個位相同。<br/> <strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4.0 及更早版本</a>：</strong>不支援<strong>msidbComponentAttributesUninstallOnSupersedence</strong>值，且會忽略。<br/> <br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesShared</strong></dt> <dt>2048</dt> <dt>0x0800</dt> </dl> 如果元件在至少一個安裝于系統上的封裝中以此屬性值標示，則安裝程式會將元件視為所有封裝中標示的元件。 如果已卸載共用標示元件的套件，Windows Installer 4.5 可繼續在系統上共用元件的最高版本，即使是由正在卸載的封裝所安裝的最高版本。 <br/> 如果 DisableSharedComponent 原則設定為1，則沒有任何套件會取得此位啟用的共用元件功能。<br/> <strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4.0 及更早版本</a>：</strong> 不支援 <strong>msidbComponentAttributesShared</strong> 值，且會忽略。<br/> <br/></td>
+<td><dl> <dt><strong>msidbComponentAttributesShared</strong></dt> <dt>2048</dt> <dt>0x0800</dt> </dl> 如果元件在至少一個安裝于系統上的封裝中以此屬性值標示，則安裝程式會將元件視為所有封裝中標示的元件。 如果已卸載共用標示元件的套件，Windows Installer 4.5 可繼續在系統上共用元件的最高版本，即使是由正在卸載的封裝所安裝的最高版本。 <br/> 如果 DisableSharedComponent 原則設定為1，則沒有任何套件會取得此位啟用的共用元件功能。<br/> <strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4.0 及更早版本</a>：</strong>不支援<strong>msidbComponentAttributesShared</strong>值，且會忽略。<br/> <br/></td>
 </tr>
 </tbody>
 </table>
@@ -162,7 +162,7 @@ ms.locfileid: "104191700"
 
 因為安裝程式所建立的資料夾是空的，所以您必須在 [CreateFolder 資料表](createfolder-table.md) 中撰寫一個專案，才能安裝包含空資料夾的元件。
 
-請注意，如果 Windows Installer 元件包含受 [Windows 資源保護](/windows/desktop/Wfp/windows-resource-protection-portal) (WRP) 的檔案或登錄機碼，或受 Windows 檔案保護 (WFP) 保護的檔案，則必須使用此資源做為元件的 KeyPath。 在此情況下，Windows Installer 不會安裝、更新或移除元件。 您不應該在安裝套件中包含任何受保護的資源。 相反地，您應該針對 Windows 資源保護使用 [支援的資源取代機制](/windows/desktop/Wfp/supported-file-replacement-mechanisms) 。 如需詳細資訊，請參閱 [使用 Windows Installer 和 Windows 資源保護](windows-resource-protection-on-windows-vista.md)。
+請注意，如果 Windows Installer 元件包含受[Windows 資源保護](/windows/desktop/Wfp/windows-resource-protection-portal) (WRP) 的檔案或登錄機碼，或受 Windows 檔案保護 (WFP) 保護的檔案，則必須使用此資源做為元件的 KeyPath。 在此情況下，Windows Installer 不會安裝、更新或移除元件。 您不應該在安裝套件中包含任何受保護的資源。 相反地，您應該針對 Windows 資源保護使用[支援的資源取代機制](/windows/desktop/Wfp/supported-file-replacement-mechanisms)。 如需詳細資訊，請參閱[使用 Windows Installer 和 Windows 資源保護](windows-resource-protection-on-windows-vista.md)。
 
 </dd> </dl>
 

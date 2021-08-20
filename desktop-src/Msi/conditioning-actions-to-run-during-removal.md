@@ -4,12 +4,12 @@ ms.assetid: 67b205bb-11d8-454f-b5d5-93330219f6cc
 title: 要在移除期間執行的調節動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad0e84f21b42f569744af9b8a7a46bb1e3df7a85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18fa9596dd6868b105f87c795ad70b6edc5ebac96381ffcc2b8b951947c87568
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144321"
 ---
 # <a name="conditioning-actions-to-run-during-removal"></a>要在移除期間執行的調節動作
 

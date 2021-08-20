@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c357dbd5d05e4630f69c010e6f37ce9a4648dc01
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dd6bc59ec96568f0bdd3fc0f4f18f0f242d984f734d12ef3d0f494c0c2442e11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116712"
 ---
 # <a name="viewminwidth"></a>MinWidth
 

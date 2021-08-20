@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 89383fa076e3509a50ac3a7cc319709bbfdd0a9e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86642bf86e724ee337d97baae56d8740fcf421158a6547786cbc9bf6b919a4bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143697"
 ---
 # <a name="configurableitemtype-property"></a>ConfigurableItem。 Type 屬性
 

@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 64a45c33e7aa17b381875ac8e8e8d054af2bf086
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44b3ef1115539219f7cbf6b700014117ad180d15fe8cdd6d2afe4a0f783a06df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118042346"
 ---
 # <a name="inkdrawingattributes-class"></a>InkDrawingAttributes 類別
 
@@ -54,7 +54,7 @@ ms.locfileid: "104320139"
 
 | 方法                         | 描述                                                                                                                                                      |
 |:-------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**克隆**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone) | 建立重複的 [**InkDisp**](inkdisp-class.md)、 **InkDrawingAttributes** 或 [**InkRecognizerCoNtext**](inkrecognizercontext-class.md) 物件。<br/> |
+| [**複製**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone) | 建立重複的 [**InkDisp**](inkdisp-class.md)、 **InkDrawingAttributes** 或 [**InkRecognizerCoNtext**](inkrecognizercontext-class.md) 物件。<br/> |
 
 
 
@@ -66,10 +66,10 @@ ms.locfileid: "104320139"
 
 
 
-| 屬性                                                                           | 存取類型           | Description                                                                                                                                                                      |
+| 屬性                                                                           | 存取類型           | 描述                                                                                                                                                                      |
 |:-----------------------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**效果**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_antialiased)<br/>                 | 讀取/寫入<br/> | 取得或設定值，這個值會指定沿著筆墨邊緣的前景和背景色彩是否經過混合，以增加筆墨筆劃的平滑。<br/> |
-| [**色彩**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_color)<br/>                             | 讀取/寫入<br/> | 取得或設定使用這個 **InkDrawingAttributes** 物件繪製的筆墨色彩。<br/>                                                                                    |
+| [**Color**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_color)<br/>                             | 讀取/寫入<br/> | 取得或設定使用這個 **InkDrawingAttributes** 物件繪製的筆墨色彩。<br/>                                                                                    |
 | [**ExtendedProperties**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_extendedproperties)<br/> | 唯讀<br/>  | 取得儲存在 **InkDrawingAttributes** 物件中之應用程式定義資料的集合。<br/>                                                                |
 | [**FitToCurve**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_fittocurve)<br/>                   | 讀取/寫入<br/> | 取得或設定值，這個值會指定是否將筆墨轉譯為一連串的曲線，而不是畫筆取樣點之間的線條。<br/>                                    |
 | [**高度**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height)<br/>                           | 讀取/寫入<br/> | 取得或設定使用這個 **InkDrawingAttributes** 物件繪製筆墨時，畫筆的高度。<br/>                                                                        |
@@ -99,7 +99,7 @@ ms.locfileid: "104320139"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

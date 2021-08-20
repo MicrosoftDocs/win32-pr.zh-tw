@@ -9,12 +9,12 @@ keywords:
 - MPC Level 2，光學儲存體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cb0c6cafe77b7a09af89b49d12d74ce718bbc39
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f7501dc69f1239f9768717317c4bad74c0c15c76a815170939b21b72d55e558e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139714"
 ---
 # <a name="level-2-optical-storage"></a>層級2光學儲存體
 
@@ -30,9 +30,9 @@ ms.locfileid: "103839760"
 
 建議的 CPU 頻寬應使用至少為16K 的讀取區塊大小，以及將一個資料讀取區塊載入 CD-ROM 緩衝區所需的時間以外的前置時間。
 
- 
+ 
 
- 
+ 
 
 
 

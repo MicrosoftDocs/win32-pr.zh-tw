@@ -4,12 +4,12 @@ ms.assetid: 3c1e3507-8ed9-4ce8-8d38-6c8248a9e883
 title: 隨附檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c927c377c7111e89c6f97b385610da9e09f8bdd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7d35aa89e216df4e17c84fb15c9c1f19908a74e9c1d14113da4df2128cdfb87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145097"
 ---
 # <a name="companion-files"></a>隨附檔案
 

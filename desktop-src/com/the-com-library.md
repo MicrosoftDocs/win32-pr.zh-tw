@@ -4,16 +4,16 @@ description: COM 程式庫
 ms.assetid: 51d4db4a-ad88-4627-8140-2f7906945752
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a285a89ca659907c37f92b7d00f3e3e04d0acf51
-ms.sourcegitcommit: 307b14e9847ced354a52a1ac12d7f659722d99bb
+ms.openlocfilehash: 50de440e931d2de381290f0167d146768d89fe66b7cfa0d2abbc43624521d21b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "103932991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118103800"
 ---
 # <a name="the-com-library"></a>COM 程式庫
 
-任何使用 COM 的進程都必須初始化和解除初始化 COM 程式庫。 除了做為規格之外，COM 也會在此程式庫中實行一些重要的服務。 以一組 Dll 和 Exe 的形式提供 (主要是在 Microsoft Windows 中 Ole32.dll 和 Rpcss.exe) ，COM 程式庫包含下列各項：
+任何使用 COM 的進程都必須初始化和解除初始化 COM 程式庫。 除了做為規格之外，COM 也會在此程式庫中實行一些重要的服務。 以一組 dll 和 exe 的形式提供 (主要是在 Microsoft Windows 中 Ole32.dll 和 Rpcss.exe) ，COM 程式庫包含下列各項：
 
 -   許多基本功能，可協助建立 COM 應用程式（用戶端和伺服器）。 針對用戶端，COM 會提供基本功能來建立物件。 針對伺服器，COM 會提供公開其物件的方法。
 
@@ -40,9 +40,9 @@ OLE 複合檔案應用程式會呼叫 [**OleInitialize**](/windows/desktop/api/O
 [元件物件模型](the-component-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: UPnP 架構定義智慧型設備、裝置和控制點的對等網�
 ms.assetid: 09aba033-6229-4a55-9421-a7b967508bf4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10ce11009bfecfe03fa176c1e6c75be173fbde86
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5866d3e701f53e95225538655ca45d159fb7c5f67d00e3c46c97357c7a9ee6a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126451"
 ---
 # <a name="overview-of-upnp-architecture"></a>UPnP 架構總覽
 
@@ -38,6 +38,6 @@ Microsoft 提供兩種 Api 來處理以 UPnP 為基礎的裝置：
 -   [控制點 API](control-point-api.md) ：提供一組 COM 介面，可讓應用程式尋找及控制以 UPnP 為基礎的裝置。
 -   [裝置主機 API](device-host-api.md) ：提供一組 COM 介面，可讓開發人員撰寫核心裝置功能，並向裝置主機註冊裝置。 裝置主機會處理以 UPnP 為基礎之裝置功能的探索、描述、控制和事件部分。
 
- 
+ 
 
- 
+ 

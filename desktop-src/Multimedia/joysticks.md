@@ -3,7 +3,7 @@ title: 操縱 杆
 description: 操縱 杆
 ms.assetid: 29fe25c8-51ea-4dc1-9f98-1c10d23b7b2a
 keywords:
-- Windows 多媒體，操縱杆
+- Windows 多媒體、操縱杆
 - 多媒體、操縱杆
 - 多媒體輸入，操縱杆
 - 操縱杆，關於
@@ -14,12 +14,12 @@ keywords:
 - 航班 yokes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 559a28263721718088ffcf67ec6efa10b9d10722
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 719a0d4c94af0a967bddacb700cd9915bda6f6d26f80a492c679bf6a3dde78c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140237"
 ---
 # <a name="joysticks"></a>操縱 杆
 
@@ -31,9 +31,9 @@ ms.locfileid: "103672447"
 
 多媒體操縱杆 API 已由 DirectInput 所取代，此 API 對於現今的輸入和強制回饋裝置有更多功能。 如需詳細資訊，請參閱 DirectX 檔。
 
- 
+ 
 
- 
+ 
 
 
 

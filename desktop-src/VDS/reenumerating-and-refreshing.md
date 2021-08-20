@@ -4,16 +4,16 @@ ms.assetid: 67d34946-47df-43e2-8ca7-628d0671b869
 title: Reenumerating 和重新整理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4a6302c817390ea2eb6bda3d5da0302c4bfefbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42f19d28d44234b773988f3038666212caf447fb45dee39435b0d99169f92212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125918"
 ---
 # <a name="reenumerating-and-refreshing"></a>Reenumerating 和重新整理
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 Reenumeration 作業會探索新連線和最近中斷連線的裝置。 重新整理作業會更新現有裝置的設定資訊。
 

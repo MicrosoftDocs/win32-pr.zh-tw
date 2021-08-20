@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101748
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f97749b48ebd8570266df2019e5e64c406518e46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0b34bda16f045aaed8e9cf6e9bdd5f47991ec0b6814d23de789e41f51dd209e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118081079"
 ---
 # <a name="esentindexcantbuildexception-methods"></a>EsentIndexCantBuildException 方法
 

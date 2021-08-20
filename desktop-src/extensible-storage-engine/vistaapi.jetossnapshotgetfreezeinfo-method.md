@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 84b8f33f1fcac280e8fee65c1092c8fccdec3b0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e29b4415de0657fadf4832f39ff5b25f39ea52c09f7a8c4f9741b18559db4a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118070394"
 ---
 # <a name="vistaapijetossnapshotgetfreezeinfo-method"></a>VistaApi. JetOSSnapshotGetFreezeInfo 方法
 

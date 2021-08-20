@@ -4,12 +4,12 @@ description: '迴圈播放 (MCIWnd) '
 ms.assetid: 59e27271-332a-4c62-bfcd-5377cdbf0848
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba2d6a22e917cf764b37444bcaf4afb0393e1c1b
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: ef9144cd17886ff9d6f59bc38311481335a9ae581e5464d7feda0e7fd1a4ec2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106991275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139289"
 ---
 # <a name="looping-playback-for-mciwnd"></a>迴圈播放 MCIWnd
 

@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef1e500f0492ad010e88719a467fda38f85e184c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2daec97e66c160cc9da1369e44970f5d9e9ee7c5dcbbcea14cee1e4847a9df0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132363"
 ---
 # <a name="showmessageaction-object"></a>ShowMessageAction 物件
 
-\[不再支援此物件。 您可以使用 IExecAction 搭配 Windows 腳本 [**MsgBox 函數**](/previous-versions/sfw6660x(v=vs.80)) ，在使用者會話中顯示訊息。\]
+\[不再支援此物件。 您可以使用 IExecAction 搭配 Windows 腳本 [**MsgBox 函數**](/previous-versions/sfw6660x(v=vs.80))，在使用者會話中顯示訊息。\]
 
 針對腳本，表示在工作啟動時顯示訊息方塊的動作。
 
@@ -40,7 +40,7 @@ ms.locfileid: "104384230"
 
 
 
-| 屬性                                                        | 存取類型           | Description                                                                                               |
+| 屬性                                                        | 存取類型           | 描述                                                                                               |
 |:----------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------|
 | [**Id**](action-id.md)<br/>                              | 讀取/寫入<br/> | 繼承自 [**動作**](action.md) 物件。 取得或設定動作的識別碼。<br/> |
 | [**MessageBody**](showmessageaction-messagebody.md)<br/> | 讀取/寫入<br/> | 取得或設定訊息方塊中顯示的郵件內文。<br/>                |
@@ -67,8 +67,8 @@ ms.locfileid: "104384230"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                    |
 | 伺服器支援結束<br/>    | Windows Server 2008 R2<br/>                                                       |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |

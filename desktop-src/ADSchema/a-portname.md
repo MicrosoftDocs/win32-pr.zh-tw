@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cb873e2c16b31b3d72961873dcd438d84d9db9c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 235d4deaf816e0e2a243cc34b68568976591cfecf58cdcfa89bf0d2d0065deb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118012334"
 ---
 # <a name="port-name-attribute"></a>Port-Name 屬性
 

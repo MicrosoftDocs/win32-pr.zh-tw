@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b564b6f91244a6839bc256dcdb2f79c630a4b065
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d0f21b22320029bf1d10a209eae6a3b2192512a541c1e681b71e112d488c87ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086402"
 ---
 # <a name="user-element"></a>User 元素
 
@@ -42,7 +42,7 @@ ms.locfileid: "103683123"
 
 
 
-| 元素                                                  | 類型 | Description                                                                     |
+| 元素                                                  | 類型 | 描述                                                                     |
 |----------------------------------------------------------|------|---------------------------------------------------------------------------------|
 | [**Eap**](baseeapuserpropertiesv1schema-eap-element.md) |      | 捕捉方法類型和方法特定的認證資訊。<br/> |
 
@@ -54,8 +54,8 @@ ms.locfileid: "103683123"
 
 | 角色 | 最低支援作業系統版本 |
 |------|------------------------------|
-| 用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

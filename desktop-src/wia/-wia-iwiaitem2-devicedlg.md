@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 3337e74a621b6431b5bbfa429692717def447c82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9eaab17f0a76bfc5c6ac919a9abef92ca7288539c9705ca30c02b1dd0a8d1ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118035219"
 ---
 # <a name="iwiaitem2devicedlg-method"></a>IWiaItem2：:D eviceDlg 方法
 
@@ -84,9 +84,9 @@ HRESULT DeviceDlg(
 *plNumFiles* \[在\]
 </dt> <dd>
 
-類型： **LONG \** _
+類型： **LONG \***
 
-_PpbstrFilePaths * 陣列中專案數目的指標。
+*PpbstrFilePaths* 陣列中專案數目的指標。
 
 </dd> <dt>
 
@@ -128,10 +128,10 @@ _PpbstrFilePaths * 陣列中專案數目的指標。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

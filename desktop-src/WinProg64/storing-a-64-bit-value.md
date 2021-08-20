@@ -3,15 +3,15 @@ title: 儲存64位值
 description: 若要儲存64位指標值，請使用 ULONG \_ PTR。 當使用 \_ 32 位編譯器編譯時，ULONG PTR 值為32位，而當以64位編譯器編譯時，則為64位。
 ms.assetid: 0712e084-cf5e-470a-8f5d-0db2ef638f42
 keywords:
-- 儲存64位值64位 Windows 程式設計
+- Windows 程式設計儲存64位值64位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6cee4826caf93dbd464957fb5fb76f024bd9f41
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 61b23de4fc4c15205e142a7a468d5a1bc5247ee9be23f0ca1bea1a0c28284d28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113493"
 ---
 # <a name="storing-a-64-bit-value"></a>儲存64位值
 
@@ -48,7 +48,7 @@ Return( (ULONG_PTR) somePointer );</code></pre></td>
 
 
 
- 
+ 
 
 ## <a name="example-2-calculating-an-address"></a>範例2：計算位址
 
@@ -79,11 +79,11 @@ somePointer = (int *)( (ULONG_PTR)someOtherPointer + 0x20 );</code></pre></td>
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

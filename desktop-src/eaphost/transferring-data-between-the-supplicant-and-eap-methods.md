@@ -4,12 +4,12 @@ description: 瞭解如何在要求者和 EAP 方法之間傳輸資料。 您可�
 ms.assetid: f1bcff61-286a-4f18-8a5d-93d5d1fd2b5b
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 187858347e8630bfbaba0683700eaa39f116f6ce
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ca7675cac2c7e147804bc4c5ec86304e75063964bdc54cd44519fe535e28783f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085649"
 ---
 # <a name="transferring-data-between-the-supplicant-and-eap-methods"></a>在要求者和 EAP 方法之間傳送資料
 
@@ -23,7 +23,7 @@ ms.locfileid: "104382882"
 
 -   [EAP 對等要求者動作碼](/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction)。
 -   [EAP 對等要求者原因代碼](/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeermethodresultreason)。
--   [EAP 驗證器方法動作代碼](/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action)。
+-   [EAP Authenticator 方法動作代碼](/windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action)。
 
 要求者必須忽略無法辨識或無法採取行動的屬性。 使用 [**EapHostPeerSetResponseAttributes**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeersetresponseattributes) 這些忽略的屬性會傳送回 EAPHOST 和 EAP 方法。
 
@@ -55,9 +55,9 @@ ms.locfileid: "104382882"
 [EAPHost 要求者](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

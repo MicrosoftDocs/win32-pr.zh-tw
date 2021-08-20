@@ -6,12 +6,12 @@ keywords:
 - IP 版本6支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ed0857d9a0968bcd3e6c18e54623fb0c7d86cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 67a024c792995780769a078c84b0493b7abba8647189fa2cee835d93dcb83770
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113628"
 ---
 # <a name="ip-version-6-support"></a>IP 版本6支援
 
@@ -41,10 +41,10 @@ Host: [fec0::2]
 ```
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

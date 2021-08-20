@@ -1,6 +1,6 @@
 ---
 title: 使用 SID 系結至物件
-description: 在 Windows Server 2003 中，可以使用物件安全識別碼 (SID) 和 GUID 來系結至物件。 物件 SID 會儲存在 objectSID 屬性中。 系結至 SID 無法在 Windows 2000 上運作。
+description: 在 Windows Server 2003 中，可以使用物件安全識別碼 (SID) 以及 GUID 來系結至物件。 物件 SID 會儲存在 objectSID 屬性中。 系結至 SID 無法在 Windows 2000 上運作。
 ms.assetid: 18b4613c-eb93-4204-96f2-0f91d7900587
 ms.tgt_platform: multiple
 keywords:
@@ -8,16 +8,16 @@ keywords:
 - Active Directory、使用、系結、使用 SID 系結至物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9ad4ecf2d6faa385ab8085730e4f1cb0689e403
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 11508d82ddc415e304503a7fee67296b8d2fc966262cf054437fe8a4bd5523a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118023760"
 ---
 # <a name="binding-to-an-object-using-a-sid"></a>使用 SID 系結至物件
 
-在 Windows Server 2003 中，可以使用物件安全識別碼 (SID) 和 GUID 來系結至物件。 物件 SID 會儲存在 **objectSID** 屬性中。 系結至 SID 無法在 Windows 2000 上運作。
+在 Windows Server 2003 中，可以使用物件安全識別碼 (SID) 以及 GUID 來系結至物件。 物件 SID 會儲存在 **objectSID** 屬性中。 系結至 SID 無法在 Windows 2000 上運作。
 
 Active Directory Domain Services 的 LDAP 提供者會提供方法，以使用物件 SID 系結至物件。 系結字串格式為：
 
@@ -44,7 +44,7 @@ SID 字串也可以採用 " &lt; SID = S-x-x-xx-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXX-
 使用物件 SID 進行系結時，不支援某些 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 和 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) 方法和屬性。 使用物件 SID 系結所取得的物件不支援下列 **IADs** 屬性：
 
 -   [**ADsPath**](/windows/desktop/ADSI/iads-property-methods)
--   [**Name**](/windows/desktop/ADSI/iads-property-methods)
+-   [**名稱**](/windows/desktop/ADSI/iads-property-methods)
 -   [**父代**](/windows/desktop/ADSI/iads-property-methods)
 
 使用物件 SID 系結所取得的物件不支援下列 **IADsContainer** 方法：
@@ -174,6 +174,6 @@ HRESULT VariantArrayToBytes(VARIANT Variant,
 
 
 
- 
+ 
 
- 
+ 

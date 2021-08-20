@@ -15,12 +15,12 @@ keywords:
 - 自訂視覺效果，timeStamp 變數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f2d9a23818d57305b3b205ea2e17b6dda2884e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1e6ce4d675fa37a519952f1b31d3c52cd93005a82eef977b7bd7d77623f1e508
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116935"
 ---
 # <a name="using-timed-levels"></a>使用計時層級
 
@@ -92,9 +92,9 @@ Snapshot 的值適用于左邊通道，並且包含電源值的量化快照的�
 [**執行轉譯**](implementing-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

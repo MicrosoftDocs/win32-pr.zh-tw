@@ -1,17 +1,17 @@
 ---
-description: 控制篩選圖形的介面
+description: 用來控制篩選 Graph 的介面
 ms.assetid: f7de0165-e356-45d5-baed-d127caeebaf6
-title: 控制篩選圖形的介面
+title: 用來控制篩選 Graph 的介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61e88dc4ba2143bbbf33a58763a5ff9005254236
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ec8170b8d2da80272a5620abe163f938e53105cc5b471593a3799d4c36069fe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154089"
 ---
-# <a name="interfaces-for-controlling-a-filter-graph"></a>控制篩選圖形的介面
+# <a name="interfaces-for-controlling-a-filter-graph"></a>用來控制篩選 Graph 的介面
 
 這些介面提供控制篩選圖形的方法。
 

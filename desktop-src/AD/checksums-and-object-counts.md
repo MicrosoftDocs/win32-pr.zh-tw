@@ -5,12 +5,12 @@ ms.assetid: 14829a74-c186-4250-beac-036c5ecc5913
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc643ec7cd896a7c73df0be5738887a330392140
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1690b30f4027f5fe2e35b85129bbcdfb6cac3356a1d053e77dcb518ff75f8fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104461964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022795"
 ---
 # <a name="checksums-and-object-counts"></a>總和檢查碼和物件計數
 
@@ -25,9 +25,9 @@ ms.locfileid: "104461964"
 -   若要讓總和檢查碼方法能夠運作，必須更新用來計算總和檢查碼的一或多個屬性。 用來計算總和檢查碼的演算法必須可靠地反映輸入中的差異。 如果許多不同的輸入產品都有相同的總和檢查碼，演算法將無法可靠地偵測部分更新。 「進行 salt 處理」輸入值（例如來源電腦的 **objectGUID** ）和更新的日期和時間也很有用。
 -   當物件計數與新的物件集搭配使用，或與一致性 Guid 搭配使用時，物件計數的效果最佳 (參閱下一節，以取得) 的詳細資訊。 執行更新的應用程式必須事先知道當更新完成時，容器中的物件數目，或在更新進行時使用其他將容器標示為不正確方式 (例如，將計數設定為零) 。 完成更新之後，來源應用程式會將容器標示為包含的物件計數。
 
- 
+ 
 
- 
+ 
 
 
 

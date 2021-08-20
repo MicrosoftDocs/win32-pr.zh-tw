@@ -119,7 +119,7 @@ Microsoft RDP 用戶端控制 (可轉散發套件) -第6版
 <tr class="header">
 <th style="text-align: left;">屬性</th>
 <th style="text-align: left;">存取類型</th>
-<th style="text-align: left;">Description</th>
+<th style="text-align: left;">描述</th>
 </tr>
 </thead>
 <tbody>

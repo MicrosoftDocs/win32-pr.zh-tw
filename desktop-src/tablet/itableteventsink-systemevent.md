@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 71b5882fd9e19df43581e00cce55c2af5faa432b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d2e636b5e0b70d13ae33850518e744fbc9425bd65c20002a89b6d38e56dbc50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118041740"
 ---
 # <a name="itableteventsinksystemevent-method"></a>ITabletEventSink：： SystemEvent 方法
 
@@ -77,7 +77,7 @@ Tablet 的識別碼。
 
 
 
-| 傳回碼                                                                            | Description                               |
+| 傳回碼                                                                            | 描述                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 成功。<br/>                       |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 發生未指定的錯誤。<br/> |
@@ -90,20 +90,20 @@ Tablet 的識別碼。
 
 下列清單包含事件參數的有效值。
 
--   SE \_ 點一下
--   SE \_ 按兩下 \_
--   以 \_ 滑鼠右鍵 \_ 按一下
--   SE \_ 拖曳
--   SE \_ 向右 \_ 拖曳
--   SE \_ 按住 \_ ENTER
--   SE \_ 保留 \_
--   SE \_ 停留 \_ 輸入
--   SE \_ 停留 \_ 離開
--   SE \_ 中間 \_ 點按一下
--   SE \_ 金鑰
--   SE \_ 輔助 \_ 按鍵
--   SE \_ 手勢 \_ 模式
--   SE 資料 \_ 指標
+-   SE \_水龍頭
+-   SE \_按兩下 \_
+-   SE \_以滑鼠右鍵 \_ 按一下
+-   SE \_拖動
+-   SE \_向右 \_ 拖曳
+-   SE \_按住 \_ ENTER
+-   SE \_保留 \_ 離開
+-   SE \_停留 \_ 輸入
+-   SE \_停留 \_ 離開
+-   SE \_中間 \_ 按一下
+-   SE \_關鍵
+-   SE \_輔助 \_ 按鍵
+-   SE \_手勢 \_ 模式
+-   SE \_游標
 
 ## <a name="requirements"></a>規格需求
 
@@ -111,7 +111,7 @@ Tablet 的識別碼。
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                              |
 | 程式庫<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7ddbc0ae22c6baf3fd288cbe2ead19dac506afee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 78c4fb3a8ca85cea5b765fc1fc4521f968efd76e9169613dc4a1565a43ee1b36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131827"
 ---
 # <a name="headerfieldtype-complex-type"></a>headerFieldType 複雜類型
 
@@ -41,9 +41,9 @@ ms.locfileid: "106969572"
 
 
 
-| 元素                                                            | 類型                                                                    | Description                                                            |
+| 元素                                                            | 類型                                                                    | 描述                                                            |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**Name**](taskschedulerschema-name-headerfieldtype-element.md)   | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md) | 在電子郵件訊息中指定標頭欄位的名稱。<br/> |
+| [**名稱**](taskschedulerschema-name-headerfieldtype-element.md)   | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md) | 在電子郵件訊息中指定標頭欄位的名稱。<br/> |
 | [**值**](taskschedulerschema-value-headerfieldtype-element.md) | **string**                                                              | 指定電子郵件訊息中標頭欄位的值。<br/>  |
 
 
@@ -54,8 +54,8 @@ ms.locfileid: "106969572"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

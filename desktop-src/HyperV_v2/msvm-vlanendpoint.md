@@ -49,12 +49,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5606e18fd1327f17feaac07570e5bf8c0c8eb59d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: beeecdebe03a443c1da95a75598bc83b9c7e2f0952cd85ceaad1866e2200ef7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146231"
 ---
 # <a name="msvm_vlanendpoint-class"></a>Msvm \_ VLANEndpoint 類別
 
@@ -254,7 +254,7 @@ class Msvm_VLANEndpoint : CIM_VLANEndpoint
 | <span id="Dynamic_Auto"></span><span id="dynamic_auto"></span><span id="DYNAMIC_AUTO"></span><dl> <dt>**動態 Auto**</dt> <dt>3</dt> </dl>                           | 讓端點能夠將連結轉換為主幹連結。 如果相鄰介面設定為主幹或理想模式，則端點會變成主幹介面。<br/>                                                                                                   |
 | <span id="Dynamic_Desirable"></span><span id="dynamic_desirable"></span><span id="DYNAMIC_DESIRABLE"></span><dl> <dt>**動態預期**</dt> <dt>4</dt> </dl>       | 讓端點主動嘗試將連結轉換成主幹連結。 如果相鄰介面設定為主幹、理想或自動模式，則端點會變成主幹介面。 所有乙太網路介面的預設交換器埠模式都是動態的。<br/> |
 | <span id="Trunk"></span><span id="trunk"></span><span id="TRUNK"></span><dl> <dt>**主幹**</dt> <dt>5</dt> </dl>                                                       | 將端點置於永久的中繼模式，並協調以將連結轉換成主幹連結。 即使相鄰介面不是主幹介面，端點仍會變成主幹介面。<br/>                                                               |
-| <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Dot1Q**</dt>通道 <dt>6</dt> </dl>                           | 將介面設定為通道， (nontrunking) 端點/埠連接到具有 802.1 Q 主幹埠的非對稱連結。 802.1 q 通道是用來維護服務提供者網路間客戶的 VLAN 完整性。<br/>                                     |
+| <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Dot1Q Tunnel**</dt> <dt>6</dt> </dl>                           | 將介面設定為通道， (nontrunking) 端點/埠連接到具有 802.1 Q 主幹埠的非對稱連結。 802.1 q 通道是用來維護服務提供者網路間客戶的 VLAN 完整性。<br/>                                     |
 | <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF 保留**</dt>的 <dt>7 32767</dt> </dl>                 |                                                                                                                                                                                                                                                                                  |
 | <span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span><dl> <dt>**廠商保留**</dt>的 <dt>32768 65535</dt> </dl> |                                                                                                                                                                                                                                                                                  |
 
@@ -484,7 +484,7 @@ VLAN 端點的設定模式。 這個屬性繼承自 [**CIM \_ VLANEndpoint**](/p
 | <span id="Dynamic_Auto"></span><span id="dynamic_auto"></span><span id="DYNAMIC_AUTO"></span><dl> <dt>**動態 Auto**</dt> <dt>3</dt> </dl>                           | 讓端點能夠將連結轉換為主幹連結。 如果相鄰介面設定為主幹或理想模式，則端點會變成主幹介面。<br/>                                                                                      |
 | <span id="Dynamic_Desirable"></span><span id="dynamic_desirable"></span><span id="DYNAMIC_DESIRABLE"></span><dl> <dt>**動態預期**</dt> <dt>4</dt> </dl>       | 讓端點主動嘗試將連結轉換成主幹連結。 如果相鄰介面設定為主幹、理想或自動模式，則端點會變成主幹介面。 這是所有乙太網路介面的預設交換器埠模式。<br/> |
 | <span id="Trunk"></span><span id="trunk"></span><span id="TRUNK"></span><dl> <dt>**主幹**</dt> <dt>5</dt> </dl>                                                       | 將端點置於永久的中繼模式，並協調以將連結轉換成主幹連結。 即使相鄰介面不是主幹介面，端點仍會變成主幹介面。<br/>                                                  |
-| <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Dot1Q**</dt>通道 <dt>6</dt> </dl>                           | 將介面設定為通道， (nontrunking) 端點/埠連接到具有 802.1 Q 主幹埠的非對稱連結。 802.1 q 通道是用來維護服務提供者網路間客戶的 VLAN 完整性。<br/>                        |
+| <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Dot1Q Tunnel**</dt> <dt>6</dt> </dl>                           | 將介面設定為通道， (nontrunking) 端點/埠連接到具有 802.1 Q 主幹埠的非對稱連結。 802.1 q 通道是用來維護服務提供者網路間客戶的 VLAN 完整性。<br/>                        |
 | <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF 保留**</dt>的 <dt>7 32767</dt> </dl>                 |                                                                                                                                                                                                                                                                     |
 | <span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span><dl> <dt>**廠商保留**</dt>的 <dt>32768 65535</dt> </dl> |                                                                                                                                                                                                                                                                     |
 
@@ -792,8 +792,8 @@ VLAN 端點的設定模式。 這個屬性繼承自 [**CIM \_ VLANEndpoint**](/p
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

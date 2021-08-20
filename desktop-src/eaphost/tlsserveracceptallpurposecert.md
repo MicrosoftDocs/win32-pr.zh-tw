@@ -4,12 +4,12 @@ description: TlsServerAcceptAllPurposeCert 登錄機碼會判斷是否接受 EAP
 ms.assetid: F0881397-5D8C-4C8F-8EB5-6D59454C55B7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c6561418d8d9cb06fb9618e6b93189cbd28e408
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 804185773a948299aed3d8b8e2f581d8d8355d112720b66e860bd1f00b7fc3d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106966228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085750"
 ---
 # <a name="tlsserveracceptallpurposecert"></a>TlsServerAcceptAllPurposeCert
 
@@ -19,7 +19,7 @@ TlsServerAcceptAllPurposeCert 登錄機碼會判斷是否接受 EAP-TLS 驗證�
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\13
-   TlsServerAcceptAllPurposeCert = value
+   TlsServerAcceptAllPurposeCert = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -35,7 +35,7 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\13
 
 
 
- 
+ 
 
 如果此登錄值不存在，伺服器和用戶端會接受由另一方針對 EAP-TLS 驗證傳送的所有用途憑證。
 
@@ -43,12 +43,12 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\13
 
 <dl> <dt>
 
-[EAPHost 登錄設定](eaphost-registry-settings.md)
+[EAPHost Registry 設定](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

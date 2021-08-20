@@ -4,16 +4,16 @@ ms.assetid: fbcf1fdc-5aef-4431-93fe-3ed02748b5ff
 title: InstallODBC 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5ac9becd2a528646805f4201cfb415a6bc61bd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a371aed67ec412c46946d7df7fd4775f0a0d4e20d91cbb60d69f894371f203ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142222"
 ---
 # <a name="installodbc-action"></a>InstallODBC 動作
 
-InstallODBC 動作會在 [ODBCDriver 資料表](odbcdriver-table.md)、 [ODBCTranslator 資料表](odbctranslator-table.md)和 [ODBCDataSource 資料表](odbcdatasource-table.md)中安裝驅動程式、轉譯程式和資料來源。 如果驅動程式或轉譯器已存在，則 InstallODBC 動作會進行安裝所需的 SQL 呼叫。
+InstallODBC 動作會在 [ODBCDriver 資料表](odbcdriver-table.md)、 [ODBCTranslator 資料表](odbctranslator-table.md)和 [ODBCDataSource 資料表](odbcdatasource-table.md)中安裝驅動程式、轉譯程式和資料來源。 如果驅動程式或轉譯器已存在，InstallODBC 動作會讓安裝所需的 SQL 呼叫。
 
 ## <a name="sequence-restrictions"></a>順序限制
 
@@ -80,7 +80,7 @@ ODBC 驅動程式管理員必須在 Microsoft Installer 封裝中撰寫，且必
 
 <dl> <dt>
 
-[Windows Installer 範例](windows-installer-examples.md)
+[Windows安裝程式範例](windows-installer-examples.md)
 </dt> </dl>
 
  

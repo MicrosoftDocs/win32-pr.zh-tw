@@ -4,12 +4,12 @@ ms.assetid: ae48c5ce-b7f5-4189-8b04-880836be3fe0
 title: " (Direct3D 9) 的多個呈現目標"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb7aafeedb621e43abb288eb9bbceb17ddb0cc0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d617eb5912557620d9c11bc7fc1a6347fa79b5572abad7fdea0d729445205697
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092898"
 ---
 # <a name="multiple-render-targets-direct3d-9"></a> (Direct3D 9) 的多個呈現目標
 

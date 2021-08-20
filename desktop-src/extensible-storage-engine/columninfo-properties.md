@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.colu
 ms:contentKeyID: 55100928
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c868aed7b5ad5dfe23fd6d67437f7b088c4cf99d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2598cc4e316a1b8a6e64d66c79b09722a914dc92f642dd6bb60d842ec7fc5ef4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118084039"
 ---
 # <a name="columninfo-properties"></a>ColumnInfo 屬性
 

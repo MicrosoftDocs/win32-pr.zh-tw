@@ -4,16 +4,16 @@ ms.assetid: 99bfc55d-6519-4e85-98ce-cad27bd71ffb
 title: MPEG-2 信號信號
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea71727dc273bd0dc5d65ac49b28385b4898067
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d4648a456e8f7fa43274486111973fa2255ab29e4e674bc249e1c2a3c64a7b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "107001646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118152977"
 ---
 # <a name="mpeg-2-demultiplexer"></a>MPEG-2 信號信號
 
-此篩選器會 demultiplexes 以推送模式傳遞的 MPEG-2 傳輸和程式串流。 從 Windows XP 開始，此篩選器也支援提取模式的程式資料流程， (檔案播放) 。 在舊版平臺上，請在提取模式中使用程式資料流程的 [Mpeg-2 分隔](mpeg-2-splitter.md) 器篩選器。 此篩選器可以在任何類型的篩選圖形中使用，包括 BDA 數位電視濾波器圖形。
+此篩選器會 demultiplexes 以推送模式傳遞的 MPEG-2 傳輸和程式串流。 從 Windows XP 開始，此篩選器也支援在提取模式下的程式資料流程 (檔案播放) 。 在舊版平臺上，請在提取模式中使用程式資料流程的 [Mpeg-2 分隔](mpeg-2-splitter.md) 器篩選器。 此篩選器可以在任何類型的篩選圖形中使用，包括 BDA 數位電視濾波器圖形。
 
 > [!Note]  
 > MPEG-2 信號信號不支援框架正確的搜尋。
@@ -112,7 +112,7 @@ ms.locfileid: "107001646"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [使用 MPEG-2 信號信號](using-the-mpeg-2-demultiplexer.md)

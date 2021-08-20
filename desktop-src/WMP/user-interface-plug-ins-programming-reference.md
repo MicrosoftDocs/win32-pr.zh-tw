@@ -12,12 +12,12 @@ keywords:
 - 外掛程式的參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cddd0a74a15895d2399f47ec187dff948a29d66d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: abf008d5fdbe5d8360eda3b1496b9eceef133281f60cfdf52e02e035f7f64235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117283"
 ---
 # <a name="user-interface-plug-ins-programming-reference"></a>消費者介面外掛程式程式設計參考
 
@@ -33,18 +33,18 @@ Microsoft Windows Media Player 軟體發展工具組 (SDK) 支援一個適用于
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 消費者介面外掛程式**](windows-media-player-user-interface-plug-ins.md)
+[**Windows Media Player消費者介面外掛程式**](windows-media-player-user-interface-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

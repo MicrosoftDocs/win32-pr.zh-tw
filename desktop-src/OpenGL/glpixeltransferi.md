@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67415a8e105dc95f3e21e6968042496b9db52038
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 93a2aa93fdcf0fd86975c433fca88310171986aea9edb6a00d9db8f569db02e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106992258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132907"
 ---
 # <a name="glpixeltransferi-function"></a>glPixelTransferi 函式
 
