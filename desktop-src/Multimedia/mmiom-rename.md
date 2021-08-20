@@ -3,7 +3,7 @@ title: 'MMIOM_RENAME 訊息 (Mmsystem .h) '
 description: MmioRename 函 \_ 式會將 MMIOM 重新命名訊息傳送至 i/o 程式，以要求重新命名指定的檔案。
 ms.assetid: 38a746c8-3a6f-4cb2-a5b4-c11bd1e73c8a
 keywords:
-- MMIOM_RENAME message Windows 多媒體
+- MMIOM_RENAME 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b71770dec6a92693a50e8e0210da3f9b8028587c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bcfd90b53f1cc42030bd00e6553d52de0f036ff274b3d4ff942c48667e4347b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065308"
 ---
 # <a name="mmiom_rename-message"></a>MMIOM \_ 重新命名訊息
 
@@ -64,7 +64,7 @@ lParam2 = (LPARAM) lpszNewFilename
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

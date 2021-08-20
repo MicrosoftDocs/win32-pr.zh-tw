@@ -6,12 +6,12 @@ keywords:
 - Microsoft 介面定義語言 MIDL、工作、產生類型程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85f6e8f7ea6f65bc503c08872c9199ff3d5fd828
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f8d9084631dc30eb1cff7f61f6f3f090f95bb92cff357b3902cb0959f2c4142f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106967893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013846"
 ---
 # <a name="generating-a-type-library-with-midl"></a>使用 MIDL 產生類型程式庫
 
@@ -20,7 +20,7 @@ ODL 語法的最上層元素是程式庫語句 (程式庫區塊) 。 除了套�
 > [!Note]  
 > Mktyplib.exe 工具已淘汰。 請改用 MIDL 編譯器。
 
- 
+ 
 
 您可以將 ODL 屬性套用至在程式庫區塊內部或外部定義的元素。 除非從程式庫區塊內參考所套用的元素，否則這些屬性不會在程式庫區塊之外生效。 程式庫區塊內的語句可以參考外部專案，方法是使用它作為基底類型、繼承自它，或在行上參考它，如下所示：
 
@@ -39,6 +39,6 @@ library a
 
 如需 ODL 檔之一般語法的詳細資訊，請參閱 [ODL 檔語法](/previous-versions/windows/desktop/automat/odl-file-syntax)。
 
- 
+ 
 
- 
+ 

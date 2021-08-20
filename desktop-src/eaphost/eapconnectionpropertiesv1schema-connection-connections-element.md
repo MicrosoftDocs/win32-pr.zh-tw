@@ -47,10 +47,10 @@ ms.locfileid: "118498368"
 
 
 
-| 元素                                                                 | 類型   | Description                                                                                                             |
+| 元素                                                                 | 類型   | 描述                                                                                                             |
 |-------------------------------------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------|
 | [**Eap**](baseeapconnectionpropertiesv1schema-eap-element.md)          |        | 識別 EAP 設定元素。<br/>                                                                    |
-| [**名稱**](eapconnectionpropertiesv1schema-name-connection-element.md) | string | 會捕獲所定義之連接的名稱，以協助識別多個連接。 <br/> |
+| [**名稱**](eapconnectionpropertiesv1schema-name-connection-element.md) | 字串 | 會捕獲所定義之連接的名稱，以協助識別多個連接。 <br/> |
 
 
 

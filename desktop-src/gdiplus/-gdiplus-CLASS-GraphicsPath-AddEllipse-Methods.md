@@ -4,12 +4,12 @@ ms.assetid: 39074cd8-267d-485a-8175-d0a25dcf9097
 title: 'GraphicsPath. Shapes.addellipse 方法 (Gdipluspath .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 0cdff03225f623a64b5ec780fad61b3dd95b4737
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bc36b30d0c8b1c215d03cdc3e45722726e8c98e9424c9ef75e0877194c3571ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977858"
 ---
 # <a name="graphicspathaddellipse-methods"></a>GraphicsPath. Shapes.addellipse 方法
 

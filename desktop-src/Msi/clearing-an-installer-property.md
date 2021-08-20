@@ -4,12 +4,12 @@ ms.assetid: 25c4fd46-0729-4b16-956a-f370de1b3c29
 title: 清除安裝程式屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f72f0996268a702968dae424ddb03a0dba23339
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: edd4fd6fc167df0f61f9613b68b0150e8328118efdf6d194a8b41bb24eff48ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066008"
 ---
 # <a name="clearing-an-installer-property"></a>清除安裝程式屬性
 

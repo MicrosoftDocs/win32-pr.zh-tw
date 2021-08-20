@@ -4,12 +4,12 @@ ms.assetid: 3d0791b1-8706-4a80-9938-07481594e408
 title: 在安裝或移除元件之後新增或移除登錄機碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6b26860fad31d530ae588170388d8b7f829187e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da215cf80f5f71f5b488f06186d5a8e2835b05fed75faac72ef53358c38c2a77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066468"
 ---
 # <a name="adding-or-removing-registry-keys-on-the-installation-or-removal-of-components"></a>在安裝或移除元件時新增或移除登錄機碼
 

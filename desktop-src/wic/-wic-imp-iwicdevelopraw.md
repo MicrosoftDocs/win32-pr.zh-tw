@@ -4,12 +4,12 @@ ms.assetid: 08371790-b23b-4d2e-9aea-b2c95c854401
 title: 執行 IWICDevelopRaw
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 683dc2baf0496694943b7640d3f3ed521dc477a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e68a78705fcfb53651d1099d01d17d9ddff554df9632a5cc322db229bc04d38d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965007"
 ---
 # <a name="implementing-iwicdevelopraw"></a>執行 IWICDevelopRaw
 
@@ -19,7 +19,7 @@ ms.locfileid: "104195315"
 
 此外，針對原始編解碼器，強烈建議您針對其他編解碼器選用一些方法和介面。 這些包括容器層級的解碼器類別上的 [**GetPreview**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getpreview) 和 [**GetThumbnail**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getthumbnail) 方法，以及框架層級解碼類別上的 [**IWICBitmapSourceTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsourcetransform) 介面。
 
-使用 [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw) 方法設定的設定應該以與其他中繼資料保存方式一致的方式保存，而您永遠不應該覆寫原始的「以快照」設定。 藉由保存中繼資料並執行 [**LoadParameterSet**](/windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-loadparameterset) 和 [**GetCurrentParameterSet**](/windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getcurrentparameterset)，您可以啟用原始處理應用程式，以抓取並套用跨會話的處理設定。
+使用 [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw)方法所設定的設定應以與其他中繼資料保存方式一致的方式保存編解碼器，但您絕對不應覆寫原始的「以快照」設定。 藉由保存中繼資料並執行 [**LoadParameterSet**](/windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-loadparameterset) 和 [**GetCurrentParameterSet**](/windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getcurrentparameterset)，您可以啟用原始處理應用程式，以抓取並套用跨會話的處理設定。
 
 [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw)介面的主要目的是讓應用程式開發人員建立使用者介面，以調整可在不同編解碼器之間盡可能一致運作的原始參數。 假設終端使用者將使用滑杆控制項來調整參數，其最小值和最大值會對應至參數的最小和最大範圍。 為了支援這種情況，您應該盡全力將所有參數範圍視為線性。 為了確保滑杆控制項不會過於敏感，您也應該針對每個參數支援盡可能廣泛的範圍，並至少涵蓋最大可能範圍的50%。 例如，如果最大可能的對比範圍是從純灰色到純黑色和白色，且預設值是對應至0.0，則編解碼器所支援的最小範圍是從預設值到低 ( – 1.0) 的預設值與純黑色之間的中間，至少是在高階 (+ 1.0) 的預設值與純黑色和白色之間的中間。
 
@@ -307,7 +307,7 @@ WICRawChangeNotification_RenderMode
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

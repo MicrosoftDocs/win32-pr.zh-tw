@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56e8b6c7ca76dd595363fa0cd80753fce0b66b2e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7ec8e4a23e6f282ecb1f1af80a83317276912001ddd5ea463ca7a1cae8af8963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046436"
 ---
 # <a name="id3dx11effectclassinstancevariable-interface"></a>ID3DX11EffectClassInstanceVariable 介面
 

@@ -4,20 +4,20 @@ ms.assetid: 03e7eea6-1a37-4c86-a9da-109fbaf20728
 title: " (PATCHWIZ.DLL) 產生修補程式順序資訊"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff82166f33266a58cd3ef299b2546b04a94ebb14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03094d9df26f4565db5b3a31c9a27c58a0bb45dac8aac93b2fefce34104d58c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947019"
 ---
 # <a name="generating-patch-sequence-information-patchwizdll"></a> (PATCHWIZ.DLL) 產生修補程式順序資訊
 
-使用 Windows Installer 3.0 發行的 [PATCHWIZ.DLL](patchwiz-dll.md) 版本可以自動產生修補程式順序資訊，並將新的修補程式新增至 [MsiPatchSequence 資料表](msipatchsequence-table.md) 。
+使用 Windows Installer 3.0 發行的[PATCHWIZ.DLL](patchwiz-dll.md)版本可以自動產生修補程式順序資訊，並將新的修補程式新增至[MsiPatchSequence 資料表](msipatchsequence-table.md)。
 
 在 pcp 檔案 \_ 的 [屬性] 資料表中，將 [將資料 \_ 產生 \_ 停用順序] 屬性設定為 1 (一個) ，以防止自動產生修補程式排序資訊。 [](properties-table-patchwiz-dll-.md) 如果這個屬性不存在，則會自動產生和新增資訊。
 
-使用 Windows Installer 3.0 發行的 [PATCHWIZ.DLL](patchwiz-dll.md) 用來自動產生修補程式排序資訊時，會發生下列情況：
+使用 Windows Installer 3.0 發行的[PATCHWIZ.DLL](patchwiz-dll.md)用來自動產生修補程式排序資訊時，會發生下列情況：
 
 -   針對[TargetImages 資料表](targetimages-table-patchwiz-dll-.md)中所列之目標影像的每個產品代碼，會將新的資料列新增至[MsiPatchSequence 資料表](msipatchsequence-table.md)。
 -   在新資料列中加入至 PatchFamily 資料行的值，會對應到 [TargetImages 資料表](targetimages-table-patchwiz-dll-.md)中所列之目標影像的目標產品代碼。

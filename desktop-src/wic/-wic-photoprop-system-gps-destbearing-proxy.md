@@ -4,18 +4,18 @@ ms.assetid: 7303cdf4-a4a2-4b7d-b52e-48cadbadd98d
 title: DestBearing Proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a13d4bbcc79e11a297b44ddf0b948eb513de8bdb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63d2fc78282bc67f9486510a6842d7d43194cf369ffc17a24b4f21d05373c866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964987"
 ---
 # <a name="systemgpsdestbearing-proxy"></a>DestBearing Proxy
 
 DestBearing 相片中繼資料原則的屬性 proxy。
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 屬性 proxy 會透過 [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal 成員傳回有理數 a。
 

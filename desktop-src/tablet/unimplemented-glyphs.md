@@ -4,12 +4,12 @@ ms.assetid: 4d504140-ff48-4a07-9bf7-a36913e44426
 title: 未實現的字元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90d479c6f3b486706b9e8d063ae2bc46daf5a0a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8f3966ef2e4bec268bc4b45b65b6778abd434f4169ec1e2aa971703032f07ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966707"
 ---
 # <a name="unimplemented-glyphs"></a>未實現的字元
 
@@ -99,7 +99,7 @@ ms.locfileid: "104191298"
 | 數位-7<br/>                | 應用程式特定<br/>                | 應用程式特定<br/> | 起點<br/>                                           |
 | 數位-8<br/>                | 應用程式特定<br/>                | 應用程式特定<br/> | 起點<br/>                                           |
 | 數位-9<br/>                | 應用程式特定<br/>                | 應用程式特定<br/> | 起點<br/>                                           |
-| 問號<br/>          | Help<br/>                                | 固定式<br/>                | 沿著曲線的高度置中<br/>                     |
+| 問號<br/>          | 說明<br/>                                | 固定式<br/>                | 沿著曲線的高度置中<br/>                     |
 | 尖銳<br/>                  | 應用程式特定<br/>                | 應用程式特定<br/> | 起點<br/>                                           |
 | 美元<br/>                 | 應用程式特定<br/>                | 應用程式特定<br/> | 起點<br/>                                           |
 | Asterisk<br/>               | 應用程式特定<br/>                | 應用程式特定<br/> | Center<br/>                                                   |

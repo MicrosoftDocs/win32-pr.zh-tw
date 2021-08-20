@@ -4,21 +4,21 @@ ms.assetid: a1dabf7c-6521-492e-bdc0-27cfb07cfc20
 title: 日本曆的紀元處理方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eba757745bf0d90d119c821772c7fc23f3f8694b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6ba9c8957bc37a3e200aad546d04629b049dfb3a7962f73d463358d879fb718
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949417"
 ---
 # <a name="era-handling-for-the-japanese-calendar"></a>日本曆的紀元處理方式
 
-許多行事曆都有紀元，例如 AD/BC 或 CE/BCE。 在日文日曆中，年份會以 nengō（年份數目和紀元名稱的組合）來描述。 例如，2009是 Heisei 21。 在過去，日文紀元名稱經常變更，但現在日文的紀元只會在每個英制上變更。 在過去，Windows 和 Microsoft .NET 在此原則下支援四個新式的紀元： Meiji、Taishō、Shōwa 和 Heisei。
+許多行事曆都有紀元，例如 AD/BC 或 CE/BCE。 在日文日曆中，年份會以 nengō（年份數目和紀元名稱的組合）來描述。 例如，2009是 Heisei 21。 在過去，日文紀元名稱經常變更，但現在日文的紀元只會在每個英制上變更。 Meiji、Taishō、Shōwa 和 Heisei 這項原則在過去，Windows 和 Microsoft .net 都支援這四個新式紀元：、、和。
 
-有了 Windows 7、Windows Server 2008 R2 和 .NET Framework 4，Microsoft 就能辨識未來可能會加入額外的紀元。 在這些版本的 Windows 上，紀中繼資料會儲存在登錄中的機碼底下：<dl> HKEY \_ LOCAL \_ MACHINE \\ SYSTEM \\ CurrentControlSet \\ Control \\ Nls 行事 \\ 曆 \\ 日文 \\ 紀元  
+使用 Windows 7、Windows Server 2008 R2 和 .NET Framework 4，Microsoft 會辨識未來可能會加入額外的紀元。 在這些版本的 Windows 中，紀中繼資料會儲存在登錄中的機碼底下：<dl> HKEY \_ LOCAL \_ MACHINE \\ SYSTEM \\ CurrentControlSet \\ Control \\ Nls 行事 \\ 曆 \\ 日文 \\ 紀元  
 </dl>
 
-如有必要，您可以透過一般的 Windows Update 程式，將額外的紀元新增至該索引鍵。 您可以使用登錄編輯程式 (Regedit.exe) 來查看此機碼。 Windows 7 隨附的金鑰和值的範例如下：
+如有必要，您可以透過一般的 Windows Update 程式，將額外的紀元新增至該索引鍵。 您可以使用登錄編輯程式 (Regedit.exe) 來查看此機碼。 Windows 7 中隨附的金鑰和值的範例如下：
 
 ``` syntax
 Windows Registry Editor Version 5.00

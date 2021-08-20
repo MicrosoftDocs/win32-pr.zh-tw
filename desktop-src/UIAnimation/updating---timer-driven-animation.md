@@ -3,18 +3,18 @@ title: 建立分鏡腳本並新增轉換
 description: 若要建立動畫，應用程式必須建立分鏡腳本。
 ms.assetid: e2641c93-e520-4749-a98e-5a58c175fdb9
 keywords:
-- 分鏡腳本視窗動畫，建立
-- 分鏡腳本視窗動畫，新增轉換
-- 轉換視窗動畫，建立
-- 轉換視窗動畫，加入至分鏡腳本
+- 分鏡腳本 Windows 動畫，建立
+- 分鏡腳本 Windows 動畫、新增轉換
+- Windows 動畫的轉換，建立
+- Windows 動畫的轉換，加入至分鏡腳本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ee85aac4db11371c9a1e4a2aa254421d217cfd5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f992ae7720fea692d5e0b813e6cb9c35fab61d4bf2c781c928d9c8fcd08adb33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999638"
 ---
 # <a name="create-a-storyboard-and-add-transitions"></a>建立分鏡腳本並新增轉換
 
@@ -34,7 +34,7 @@ ms.locfileid: "104301703"
 
 ## <a name="example-code"></a>範例程式碼
 
-下列範例程式碼取自 Windows 動畫範例 [計時器驅動動畫](timer-driven-animation-sample.md)中的 MainWindow。請參閱 CMainWindow：： ChangeColor 方法。 此範例會使用 [**IUIAnimationManager：： CreateStoryboard**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-createstoryboard) 方法建立分鏡腳本 (步驟 1) 、使用 [**IUIAnimationTransitionLibrary：： CreateAccelerateDecelerateTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createacceleratedeceleratetransition) 方法建立轉換 (步驟 2) ，然後使用 [**IUIAnimationStoryboard：： AddTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition) 方法將轉換新增至分鏡腳本 (步驟 3) 。
+下列範例程式碼取自 Windows 動畫範例[計時器驅動動畫](timer-driven-animation-sample.md)中的 MainWindow。請參閱 CMainWindow：： ChangeColor 方法。 此範例會使用 [**IUIAnimationManager：： CreateStoryboard**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-createstoryboard) 方法建立分鏡腳本 (步驟 1) 、使用 [**IUIAnimationTransitionLibrary：： CreateAccelerateDecelerateTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createacceleratedeceleratetransition) 方法建立轉換 (步驟 2) ，然後使用 [**IUIAnimationStoryboard：： AddTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition) 方法將轉換新增至分鏡腳本 (步驟 3) 。
 
 
 ```C++
@@ -135,9 +135,9 @@ if (SUCCEEDED(hr))
 [分鏡腳本總覽](storyboard-construction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: IniFile 資料表包含應用程式需要在 .ini 檔中設定的 .ini 資訊。
+description: IniFile 資料表包含應用程式在 .ini 檔中所需設定的 .ini 資訊。
 ms.assetid: fdb1a627-da6b-4da1-87a7-7f1c94d3836e
 title: IniFile 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d63ae37f7c8ed5c50b9b425b0462b445f7acb5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4cd12c02fa0123ac9e1a763b4e725681e6c6b1d51a331a1efea9916b5ac4cbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946565"
 ---
 # <a name="inifile-table"></a>IniFile 資料表
 
-IniFile 資料表包含應用程式需要在 .ini 檔中設定的 .ini 資訊。
+IniFile 資料表包含應用程式在 .ini 檔中所需設定的 .ini 資訊。
 
 IniFile 資料表具有下列資料行。
 
@@ -48,14 +48,14 @@ IniFile 資料表具有下列資料行。
 <span id="FileName"></span><span id="filename"></span><span id="FILENAME"></span>檔案名
 </dt> <dd>
 
-要在其中寫入資訊之 .ini 檔案的可當地語系化名稱。
+要在其中寫入資訊的 .ini 檔案名的可當地語系化名稱。
 
 </dd> <dt>
 
 <span id="DirProperty"></span><span id="dirproperty"></span><span id="DIRPROPERTY"></span>DirProperty
 </dt> <dd>
 
-具有值的屬性名稱，這個屬性的值會解析為包含 .ini 檔案之資料夾的完整路徑。 屬性可以是 [目錄資料表](directory-table.md)中目錄的名稱、 [AppSearch 資料表](appsearch-table.md)所設定的屬性，或是表示完整路徑的任何其他屬性。 如果此欄位保留空白，則會在具有 [**WindowsFolder**](windowsfolder.md) 屬性指定完整路徑的資料夾中建立 .ini 檔案。
+屬性的名稱，這個屬性的值會解析為包含 .ini 檔案之資料夾的完整路徑。 屬性可以是 [目錄資料表](directory-table.md)中目錄的名稱、 [AppSearch 資料表](appsearch-table.md)所設定的屬性，或是表示完整路徑的任何其他屬性。 如果此欄位保留空白，則會在具有 [**WindowsFolder**](windowsfolder.md) 屬性所指定完整路徑的資料夾中建立 .ini 檔案。
 
 </dd> <dt>
 
@@ -102,13 +102,13 @@ IniFile 資料表具有下列資料行。
 <span id="Component_"></span><span id="component_"></span><span id="COMPONENT_"></span>元件\_
 </dt> <dd>
 
-在 [元件資料表](component-table.md) 的第一個資料行中，外部索引鍵會參考用來控制 .ini 值安裝的元件。
+在 [元件資料表](component-table.md) 的第一個資料行中，外部索引鍵參考控制 .ini 值安裝的元件。
 
 </dd> </dl>
 
 ## <a name="remarks"></a>備註
 
-當對應的元件已選取要安裝為本機或從來源執行時，就會寫出 .ini 檔資訊。
+當對應的元件已選取要安裝為本機或從來源執行時，就會寫出 .ini 的檔案資訊。
 
 當執行 [WriteIniValues 動作](writeinivalues-action.md) 或 [RemoveIniValues 動作](removeinivalues-action.md) 時，就會參考此資料表。
 

@@ -8,12 +8,12 @@ keywords:
 - 建立類別，範例程式碼 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cef1ca029bd9e53a6fee401168a83294eb2b2915
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5a53b1cebfb443e1fa258c80a2e74bb0634496c13a5f3cca3f6c1667aeada141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962447"
 ---
 # <a name="example-code-for-creating-a-class"></a>建立類別的範例程式碼
 
@@ -390,6 +390,6 @@ HRESULT BytesToVariantArray(
 
 
 
- 
+ 
 
- 
+ 

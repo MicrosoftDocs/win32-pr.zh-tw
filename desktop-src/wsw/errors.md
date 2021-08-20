@@ -1,6 +1,6 @@
 ---
 title: Errors
-description: 本節將概述在執行命令失敗時，Windows Web 服務功能可能會發生的錯誤。
+description: 本節將概述在執行命令失敗時，Windows Web 服務函式可能會造成問題的錯誤。
 ms.assetid: 2e5b853f-589c-4f89-9d7e-cd02263a2247
 keywords:
 - Windows 的錯誤 Web 服務
@@ -8,16 +8,16 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e70f10d673bf8f37664d792d8cf969f0329dc363
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a08a6371dcc5265239c6a25ce0c01075cff3ae12533862ed8a1cbbbe7aba705
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026526"
 ---
 # <a name="errors"></a>Errors
 
-本節將概述在執行命令失敗時，Windows Web 服務功能可能會發生的錯誤。
+本節將概述在執行命令失敗時，Windows Web 服務函式可能會造成問題的錯誤。
 
 -   [Out 參數](#out-parameters)
 -   [錯誤碼](#error-codes)
@@ -36,7 +36,7 @@ ms.locfileid: "103839583"
 
 ## <a name="error-codes"></a>錯誤碼
 
-所有錯誤傳回碼都是 Hresult。 此 API 會在設備 WEBSERVICES 範圍中定義一組 Hresult \_ ，但也會傳回 WINDOWS API 中其他位置所定義的錯誤。
+所有錯誤傳回碼都是 Hresult。 此 API 會在設備 WEBSERVICES 範圍中定義一組 hresult \_ ，但也會傳回 Windows API 中其他位置所定義的錯誤。
 
 請參閱特定 API 的檔，以瞭解傳回的錯誤碼。 此清單並非針對每個 API 提供詳盡的清單，而是一份錯誤碼清單，其中包含明確處理的常見案例。 呼叫端應該一律假設任何 API 都有其他錯誤碼。
 
@@ -65,7 +65,7 @@ ms.locfileid: "103839583"
 
 ## <a name="canonical-error-codes"></a>標準錯誤碼
 
-此 API 提供一組標準的錯誤碼 (WS \_ E \_ \*) ，可讓您使用不同的通訊技術，而不需要依賴特定基礎執行的特定錯誤碼。 如需這些錯誤碼的完整清單，請參閱 [Windows Web 服務傳回值](windows-web-services-return-values.md)。
+此 API 提供一組標準的錯誤碼 (WS \_ E \_ \*) ，可讓您使用不同的通訊技術，而不需要依賴特定基礎執行的特定錯誤碼。 如需這些錯誤碼的完整清單，請參閱[Windows Web 服務傳回值](windows-web-services-return-values.md)。
 
 例如，這可讓程式檢查是否有使用 TCP、UDP 或 HTTP 的錯誤代碼 **WS \_ E \_ 端點 \_ \_** ，並採取一些動作 (例如嘗試使用不同的端點) 。
 
@@ -152,9 +152,9 @@ ms.locfileid: "103839583"
 -   錯誤物件的使用者應該在檢查有關錯誤的資訊之後，呼叫 [**WsResetError**](/windows/desktop/api/WebServices/nf-webservices-wsreseterror) 。 如果無法這麼做，可能會導致記憶體累積。
 -   使用 \_ ws 錯誤洩漏列舉的 ws 完整錯誤洩漏值時，錯誤物件的使用者應該非常小心 \_ \_ ，因為產生的錯誤可能包含在錯誤記錄過程中累積的私用資訊。 [**\_ \_**](/windows/desktop/api/WebServices/ne-webservices-ws_fault_disclosure)
 
- 
+ 
 
- 
+ 
 
 
 

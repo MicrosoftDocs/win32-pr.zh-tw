@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: db061d048ce45a4d6fa076a5b0367e794cdf16e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 315eb41b5c445d7ce8856f79054e9a227b2a62fc0986419172e519fc65a9ac31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950107"
 ---
 # <a name="msvm_storagesettingdata-class"></a>Msvm \_ StorageSettingData 類別
 

@@ -4,12 +4,12 @@ description: 服務模型 API 和 WsUtil.exe 工具的 WWSAPI，可大幅簡化�
 ms.assetid: 09f489e8-958d-4bc5-a232-aa59bd75333a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 606a68f574a9ad79d15f3ddd48247f93a5414250
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 50ca04ef5fbbeef76cd32a0b6523391deb19957479cd5f332715972f3b5bfbc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026556"
 ---
 # <a name="creating-a-client"></a>建立用戶端
 
@@ -74,9 +74,9 @@ HRESULT BasicHttpBinding_ICalculator_Multiply(
 
 您可以複製原型，並使用它們做為範本，在您的用戶端中撰寫函式呼叫的程式碼，每個案例都會將控制碼傳遞給服務 proxy。 當您完成服務 proxy 時，請呼叫 [**WsCloseServiceProxy**](/windows/desktop/api/WebServices/nf-webservices-wscloseserviceproxy)。
 
- 
+ 
 
- 
+ 
 
 
 

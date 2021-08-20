@@ -1,5 +1,5 @@
 ---
-description: 顯示 [尋找：所有檔案] 對話方塊。 這與按一下 [開始] 功能表，然後在 Windows XP 之前的系統中選取 [搜尋] (或其對等專案相同。
+description: 顯示 [尋找：所有檔案] 對話方塊。 這與按一下 [開始] 功能表然後選取 [搜尋] (或其對等專案低於 Windows XP 之前的相同。
 ms.assetid: cccdd3ea-b52a-4fbe-b4c5-1efc1dd6d770
 title: 'Findfiles.ps1 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f3e6551dc41fd8d6a040ada8000f0b46e81a5dd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c7295857509c19b06bed342508e0f0c5ee5aae42136edbe6035c6e256cdfb2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968577"
 ---
 # <a name="shellfindfiles-method"></a>Findfiles.ps1 方法
 
-顯示 [ **尋找：所有** 檔案] 對話方塊。 這等同于按一下 [ **開始** ] 功能表，然後選取 [ **搜尋** (] 或其對等專案（在 Windows XP 之前的系統下）。
+顯示 [ **尋找：所有** 檔案] 對話方塊。 這等同于按一下 [**開始**] 功能表，然後選取 [**搜尋** (] 或其對等專案（在 Windows XP 之前的系統）。
 
 ## <a name="syntax"></a>語法
 
@@ -57,9 +57,9 @@ Shell.FindFiles()
 
 ## <a name="examples"></a>範例
 
-下列範例顯示使用中的 **findfiles.ps1** 。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例顯示使用中的 **findfiles.ps1** 。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -115,10 +115,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

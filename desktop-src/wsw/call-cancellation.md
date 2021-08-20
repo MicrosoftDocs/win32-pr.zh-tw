@@ -3,17 +3,17 @@ title: 呼叫取消
 description: 呼叫取消通知會取消伺服器端服務作業和服務模型回呼的操作。
 ms.assetid: dc371921-869f-4775-98d3-80a1006358ba
 keywords:
-- 呼叫 Windows 的取消 Web 服務
+- 針對 Windows 呼叫取消 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5107f9ece421a3130f99c78b3b33788ee6c7e9f0
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: dda4ec4227403bed5239b68cfa05d2064976517a7473fa7926c8de5f56227645
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106969741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026696"
 ---
 # <a name="call-cancellation"></a>呼叫取消
 
@@ -37,7 +37,7 @@ ms.locfileid: "106969741"
 
 下列 API 元素與呼叫取消有關。
 
-| 回呼                                                                         | Description                                                                                                                                |
+| 回呼                                                                         | 描述                                                                                                                                |
 |----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WS \_ 操作 \_ 取消 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_operation_cancel_callback)          | 由服務模型叫用，以通知因服務主機中止關機而取消非同步服務作業。 |
 | [**WS \_ 作業 \_ 可用 \_ 狀態 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_operation_free_state_callback) | 由服務模型叫用，以允許應用程式清除以取消回呼註冊的狀態資料。                |

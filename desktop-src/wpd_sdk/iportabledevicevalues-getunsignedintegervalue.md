@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 5c7deb0b6ebfdb8feb90248f9d8e1cdf68411d9d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eeb418d3d0aa42675f3d5766f2a8d08e1ad2377bbaa4a2a07f4ba96524d3dec9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026836"
 ---
 # <a name="iportabledevicevaluesgetunsignedintegervalue-method"></a>IPortableDeviceValues：： GetUnsignedIntegerValue 方法
 
@@ -61,7 +61,7 @@ HRESULT GetUnsignedIntegerValue(
 
 
 
-| 傳回碼                                                                                                            | Description                                                          |
+| 傳回碼                                                                                                            | 描述                                                          |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                   | 此方法已成功。<br/>                                     |
 | <dl> <dt>**將 \_ 電子 \_ TYPEMISMATCH**</dt> </dl>                   | 索引 *鍵* 所指定的屬性不是 **ULONG** 類型。<br/>  |

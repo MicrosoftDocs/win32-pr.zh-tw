@@ -7,17 +7,17 @@ keywords:
 - 線上商店、下載管理員
 - 輸入2個線上商店、下載管理員
 - Windows Media Player，下載管理員
-- Windows Media Player 下載管理員
+- Windows Media Player下載管理員
 - 下載管理員
 - 下載管理員的架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a0567c32430e0cc15ea589bed43e2e81ffb3a08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9fae04be86d935f87202abe4b0bf73e833a9da07cf89526b9dcb60de31eb881a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997098"
 ---
 # <a name="download-manager-architecture"></a>下載管理員架構
 
@@ -35,7 +35,7 @@ Windows Media Player 下載管理員使用 COM 技術。 這項功能是以一�
 
 
 
- 
+ 
 
 ## <a name="about-the-downloadmanager-object"></a>關於 DownloadManager 物件
 
@@ -76,9 +76,9 @@ var firstItem = DownloadManager.getDownloadCollection(253675).item(0);
 [**下載管理員**](download-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

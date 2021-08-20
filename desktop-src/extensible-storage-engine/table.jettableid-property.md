@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2ce73433d22613a8ebaba5b491d34b8fe9b398d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f694b8c7d1a1e574b0ef993cd20c600051ba45993fc20501fac3d3da5253d06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978448"
 ---
 # <a name="tablejettableid-property"></a>JetTableid 屬性
 

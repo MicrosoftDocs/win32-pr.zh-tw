@@ -1,19 +1,19 @@
 ---
 title: WFP 操作
-description: Windows 篩選平台 (WFP) 透過整合下列基底實體層、篩選器、填充碼和標注來執行其工作。
+description: Windows篩選 Platform (WFP) 透過整合下列基底實體層、篩選器、填充碼和標注來執行其工作。
 ms.assetid: bf88ace7-1160-434b-9be0-3f9db6aa2e87
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44e7a7d38bd0de5b1f549e2187c414644bf68442
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8254ed468b856392477a643ce13f2b609245031f7363865b8c93ccfda64ba9fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015386"
 ---
 # <a name="wfp-operation"></a>WFP 操作
 
-Windows 篩選平台 (WFP) 透過整合下列基底實體來執行其工作： *圖層*、 *篩選*、 *填充* 碼和 *標注*。
+Windows篩選 Platform (WFP) 透過整合下列基底實體來執行其工作：*圖層*、*篩選*、*填充* 碼和 *標注*。
 
 ## <a name="layers"></a>圖層
 
@@ -25,7 +25,7 @@ WFP 包含一組 [內建的子層](management-filtering-sublayer-identifiers.md)
 
 篩選引擎圖層的清單是在 [**篩選層識別碼**](management-filtering-layer-identifiers-.md)的參考區段主題中提供。
 
-## <a name="filters"></a>篩選器
+## <a name="filters"></a>篩選
 
 *篩選準則* 是與傳入或傳出封包相符的規則。 此規則會告知篩選引擎要如何處理封包，包括呼叫用來進行深層封包或資料流程檢查的標注模組。 例如，篩選可能會指定「封鎖 TCP 埠大於1024的流量」或「針對未受保護的所有流量呼叫識別碼」。
 
@@ -35,7 +35,7 @@ WFP 包含一組 [內建的子層](management-filtering-sublayer-identifiers.md)
 
 ## <a name="shims"></a>墊片
 
-*填充碼* 是一種核心模式元件，可根據篩選引擎層分類來進行篩選決定。 每個填充碼會針對一或多個圖層進行分類。 例如，傳輸層模組填充碼會針對流量的第一個封包，分類為輸入傳輸層、輸出傳輸層，以及 ALE 連接和 Receive-Accept 層。
+*填充碼* 是一種核心模式元件，可根據篩選引擎層分類來進行篩選決定。 每個填充碼會針對一或多個圖層進行分類。 例如，傳輸層模組填充碼會根據輸入傳輸層、輸出傳輸層和 ALE 連線以及流程第一個封包的 Receive-Accept 層進行分類。
 
 當封包、資料流程和事件跨越網路堆疊時，填充碼會將它們剖析以解壓縮資料條件和值，然後呼叫篩選引擎以針對指定層中的篩選進行評估。 篩選引擎可能會叫用一或多個標注做為分類的一部分。 填充碼會根據篩選引擎所執行的分類結果，執行實際的封包、資料流程和事件的卸載。
 
@@ -110,6 +110,6 @@ BFE 啟動之後，防火牆代理程式或自訂防火牆解決方案可以新�
 [物件管理](object-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 527569e8a5d6c2bb0a54294637ae19c13f5e3af2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20ec6e4522f4a9060ced517b5f9944177a98dfa5455c35e15285921467ed4620
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950487"
 ---
 # <a name="initiatereboot-method-of-the-msvm_shutdowncomponent-class"></a>Msvm ShutdownComponent 類別的 InitiateReboot 方法 \_
 
@@ -42,7 +42,7 @@ uint32 InitiateReboot(
 
 <dl> <dt>
 
-*Force* \[in\]
+*Force* \[在\]
 </dt> <dd>
 
 若為 TRUE，則會強制關閉應用程式，儘管有尚未儲存的資料。
@@ -119,7 +119,7 @@ uint32 InitiateReboot(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                             |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                          |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |

@@ -4,18 +4,18 @@ ms.assetid: 1aaebda9-0013-4282-9ae1-7c829e171942
 title: 重新分析點和檔案作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be1132197cd689157cd9f219afa5bfc1474b587c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31d18b42c2bc51617e185c2d8f13fde15952ad83d2c2c635d312d589677ee8e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015176"
 ---
 # <a name="reparse-points-and-file-operations"></a>重新分析點和檔案作業
 
-重新 *分析點* 會啟用離開自大部分 Windows 開發人員可能習慣的行為的檔案系統行為，因此，在撰寫操作檔案的應用程式時，若要存取支援重新分析點的檔案系統，就必須注意這些行為。 這些考慮的範圍取決於特定的重新分析點（可供使用者定義）的特定執行和相關檔案系統篩選器行為。 如需詳細資訊，請參閱重新 [分析點](reparse-points.md)。
+重新 *分析點* 可讓您從大部分 Windows 開發人員可能習慣的行為離開檔案系統行為，因此，在撰寫操作檔案的應用程式時，若要存取支援重新分析點的檔案系統，就必須知道這些行為是非常重要的。 這些考慮的範圍取決於特定的重新分析點（可供使用者定義）的特定執行和相關檔案系統篩選器行為。 如需詳細資訊，請參閱重新 [分析點](reparse-points.md)。
 
-請考慮下列有關 NTFS 重新分析點執行的範例，其中包括掛接的資料夾、連結的檔案和 Microsoft 遠端存放伺服器：
+請考慮下列有關 NTFS 重新分析點執行的範例，其中包括掛接的資料夾、連結的檔案，以及 Microsoft 遠端儲存體伺服器：
 
 -   使用檔案 [資料流程](file-streams.md)的備份應用程式應該在使用重新分析點來備份檔案時，指定 [**WIN32 \_ 資料流程 \_ 識別碼**](/windows/desktop/api/winbase/ns-winbase-win32_stream_id)結構中的 **備份重新 \_ 分析 \_ 資料**。
 -   使用 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) 函式的應用程式應該在開啟檔案時，指定檔案 **旗標開啟重新 \_ \_ \_ 分析 \_ 點** 旗標（如果它是重新分析點）。 如需詳細資訊，請參閱 [建立及開啟](creating-and-opening-files.md)檔案。

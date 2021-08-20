@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e4910af88ce7f96fda1b5f9b7ecd7a33479fc130
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b8168dcc0523c629202ac4d5c4a0ea51ecc8bd68d5ac4498fb38059b940fd83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820092"
 ---
 # <a name="class-qualifiers-for-performance-counter-classes"></a>效能計數器類別的類別限定詞
 

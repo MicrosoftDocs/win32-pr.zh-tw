@@ -4,12 +4,12 @@ ms.assetid: de3242f4-bce3-4139-9cb4-85eb33f375b1
 title: 'HRECOALT 控制碼 (Recapis .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4416b96730d97f0bf17d6e0bd10f3fd56cce4860
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d9ab2f3dfd4df34254ef74e238592223fb4defe1af013fcc829dd8d18705e9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967566"
 ---
 # <a name="hrecoalt-handle"></a>HRECOALT 控制碼
 
@@ -41,7 +41,7 @@ typedef HANDLE HRECOALT;
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                            |
 | 標頭<br/>                   | <dl> <dt>Recapis。h</dt> </dl> |
 

@@ -4,20 +4,20 @@ ms.assetid: 13adfd79-f26a-4385-9b59-129d06fa72eb
 title: 使用 VSS 自動化系統復原進行嚴重損壞修復
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e31ef8ba223f40928e2422fa92240656f94592d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6813f0f746600fa665ed20bb208f3241cb1a88a12de721d53a8afa77be4a4c35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998058"
 ---
 # <a name="using-vss-automated-system-recovery-for-disaster-recovery"></a>使用 VSS 自動化系統復原進行嚴重損壞修復
 
 執行嚴重損壞修復的 VSS 備份和復原應用程式 (也稱為裸機復原) 可以搭配使用自動系統復原 (ASR) 寫入器和 Windows 預先安裝環境 (Windows PE) ，來備份及還原重要磁片區和可開機系統狀態的其他元件。 備份應用程式會實作為 VSS 要求者。
 
-**注意**  使用 ASR 的應用程式必須 Windows PE 授權。
+**注意** 使用 ASR 的應用程式必須 Windows PE 授權。
 
-**Windows Server 2003 和 WINDOWS XP：** ASR 不會實作為 VSS 寫入器。
+**Windows Server 2003 和 Windows XP：** ASR 不會實作為 VSS 寫入器。
 
 如需可搭配 ASR 使用之追蹤工具的相關資訊，請參閱搭配 [使用追蹤工具與 VSS Asr 應用程式](using-tracing-tools-with-vss-asr-applications.md)。
 
@@ -56,7 +56,7 @@ ms.locfileid: "106972041"
 17. 呼叫 [**>ivssbackupcomponents：： BackupComplete**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete) ，表示備份作業已完成。
 18. 呼叫 [**>ivssbackupcomponents：： GatherWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus) 和 [**>ivssbackupcomponents：： GetWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus)。 寫入器會話狀態記憶體是有限的資源，而寫入器最後必須重複使用會話狀態。 此步驟會將寫入器的備份會話狀態標示為已完成，並通知 VSS 此備份會話位置可以由後續的備份作業重複使用。
     > [!Note]  
-    > 只有在 Windows Server 2008 Service Pack 2 (SP2) 及更早版本才需要此功能。
+    > 只有 Windows Server 2008 （含 Service Pack 2） (SP2) 及更早版本才需要此功能。
 
      
 
@@ -66,13 +66,13 @@ ms.locfileid: "106972041"
 
 在備份初始化階段中，ASR 寫入器會在其寫入器元資料檔案中報告下列類型的元件：
 
--   重要磁片區，例如開機、系統和 Windows 修復環境 (Windows RE) 磁片區，以及與目前正在執行的 Windows Vista 或 Windows Server 2008 實例相關聯的 Windows RE 磁碟分割。 如果磁片區包含系統狀態資訊，磁片區就是 *重要磁片* 區。 開機和系統磁碟區會自動包含在內。 要求者必須包含包含寫入器所報告之系統關鍵元件的所有磁片區，例如包含 Active Directory 的磁片區。 系統關鍵元件會標示為「無法針對備份進行選取」。 在 VSS 中，「不可選取」表示「非選擇性」。 因此，要求者必須將它們備份為系統狀態的一部分。 如需詳細資訊，請參閱 [備份和還原系統狀態](locating-additional-system-files.md)。 未 \_ 設定 VSS CF \_ 非 \_ 系統 \_ 狀態旗標的元件不是系統關鍵的。
+-   重要磁片區（例如開機、系統和 Windows 復原環境） (Windows RE) 磁片區，以及與目前正在執行之 Windows RE Vista 或 Windows Server 2008 實例相關聯的 Windows 磁碟分割。 如果磁片區包含系統狀態資訊，磁片區就是 *重要磁片* 區。 開機和系統磁碟區會自動包含在內。 要求者必須包含包含寫入器所報告之系統關鍵元件的所有磁片區，例如包含 Active Directory 的磁片區。 系統關鍵元件會標示為「無法針對備份進行選取」。 在 VSS 中，「不可選取」表示「非選擇性」。 因此，要求者必須將它們備份為系統狀態的一部分。 如需詳細資訊，請參閱 [備份和還原系統狀態](locating-additional-system-files.md)。 未 \_ 設定 VSS CF \_ 非 \_ 系統 \_ 狀態旗標的元件不是系統關鍵的。
     > [!Note]  
     > ASR 元件是 ASR 寫入器所報告的系統關鍵元件。
 
      
 
--   磁片。 電腦上的每個固定磁片都會公開為 ASR 中的元件。 如果在備份期間未排除磁片，則會在還原期間指派磁片，並且可以重新建立和重新格式化。 請注意，在還原期間，要求者仍然可以藉由呼叫 [**>ivssbackupcomponents：： SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) 方法，重新建立在備份期間排除的磁片。 如果選取了動態磁碟套件中的一個磁片，則也必須選取該套件中的所有其他磁片。 如果選取磁片區是因為磁片區是重要磁片區 (也就是包含系統狀態資訊的磁片區) ，也必須選取包含該磁片區範圍的每個磁片。 若要尋找磁片區的範圍，請使用 [**[ \_ IOCTL \_ \_ \_ 磁片區磁片 \_ 區磁片區**](/windows/win32/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents) 控制程式代碼]。
+-   磁碟。 電腦上的每個固定磁片都會公開為 ASR 中的元件。 如果在備份期間未排除磁片，則會在還原期間指派磁片，並且可以重新建立和重新格式化。 請注意，在還原期間，要求者仍然可以藉由呼叫 [**>ivssbackupcomponents：： SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) 方法，重新建立在備份期間排除的磁片。 如果選取了動態磁碟套件中的一個磁片，則也必須選取該套件中的所有其他磁片。 如果選取磁片區是因為磁片區是重要磁片區 (也就是包含系統狀態資訊的磁片區) ，也必須選取包含該磁片區範圍的每個磁片。 若要尋找磁片區的範圍，請使用 [**[ \_ IOCTL \_ \_ \_ 磁片區磁片 \_ 區磁片區**](/windows/win32/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents) 控制程式代碼]。
 
     > [!Note]  
     > 在備份期間，要求者應包含所有固定磁片。 如果包含要求者備份組的磁片是本機磁片，則應包含此磁片。 在還原期間，要求者必須排除包含要求者之備份組的磁片，以防止其遭到覆寫。
@@ -144,7 +144,7 @@ ms.locfileid: "106972041"
          
 -   如果動態磁碟套件的磁片區結構不完整，而且只對其進行了附加的變更，則不會重新建立套件中的磁片。
 
-    **Windows Vista：** 系統一律會重新建立動態磁碟。 請注意，在 Windows Server 2008 和 Windows Vista Service Pack 1 (SP1) 中，這種行為已有所變更。
+    **Windows Vista：** 系統一律會重新建立動態磁碟。 請注意，此行為已隨著 Windows Server 2008 和 Windows Vista Service Pack 1 (SP1) 而有所變更。
 
 在還原階段開始之前的任何時間，要求者可以藉由設定 **HKEY \_ 本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **ASR** \\ **RestoreSession** 登錄機碼，來指定磁片應快速格式化。 在此機碼下，有一個名為 **QuickFormat** 的值，其資料類型為 REG \_ DWORD。 如果此值不存在，您應該建立它。 將 **QuickFormat** 值的資料設定為1以進行快速格式化，或設定為0表示慢速格式。
 
@@ -166,7 +166,7 @@ ms.locfileid: "106972041"
 
     下列範例示範如何使用 [**SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) 來防止重新建立磁片0和磁片1，並將協力廠商驅動程式插入還原的開機磁碟區中。
 
-    **Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援插入協力廠商驅動程式。
+    **Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 不支援插入協力廠商驅動程式。
 
     此範例假設 [**>ivssbackupcomponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) 指標 m \_ pBackupComponents 有效。
 
@@ -201,7 +201,7 @@ ms.locfileid: "106972041"
 
 還原時，如果在備份期間未將磁片選為元件，或在還原期間以 ">excludedisk.ps1" 選項呼叫 [**>ivssbackupcomponents：： SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) 來明確排除磁片，則會排除該磁片。
 
-請務必注意，在 WinPE 嚴重損壞修復期間，ASR 寫入器功能存在，但沒有其他寫入器可供使用，且 VSS 服務未執行。 在 WinPE 嚴重損壞修復完成之後，電腦就會重新開機，而 Windows 作業系統會正常執行，VSS 服務可以啟動，而且要求者可以執行任何額外的還原作業，而這些作業需要使用 ASR 寫入器以外的寫入器。
+請務必注意，在 WinPE 嚴重損壞修復期間，ASR 寫入器功能存在，但沒有其他寫入器可供使用，且 VSS 服務未執行。 在 WinPE 嚴重損壞修復完成之後，電腦就會重新開機，且 Windows 作業系統會正常執行，可啟動 VSS 服務，而要求者可以執行任何額外的還原作業，而這些作業需要使用 ASR 寫入器以外的寫入器。
 
 如果在還原會話期間，備份應用程式會偵測到磁片區唯一識別碼未變更，因此，從備份時間開始的所有磁片區在 WinPE 中都是不變的，因此備份應用程式可以繼續只復原磁碟區的內容，而不涉及 ASR。 在此情況下，備份應用程式應該會在還原的作業系統中設定下列登錄機碼來指出電腦已還原： **HKEY \_ 本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **ASR** \\ **RestoreSession**
 

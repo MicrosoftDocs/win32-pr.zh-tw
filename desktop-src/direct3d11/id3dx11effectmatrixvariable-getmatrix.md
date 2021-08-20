@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a14c2f196c4072d7f81a75045fe4703bf51ea338
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 47abd4032dc4f28c92b41ae18fc9e3870a406e15144018035a7cda0956699fe8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535175"
 ---
 # <a name="id3dx11effectmatrixvariablegetmatrix-method"></a>ID3DX11EffectMatrixVariable：： GetMatrix 方法
 

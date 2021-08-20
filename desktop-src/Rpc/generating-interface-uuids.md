@@ -4,12 +4,12 @@ description: " (Uuid) 和使用 Uuidgen.exe 產生介面通用唯一識別碼。
 ms.assetid: a973b7f9-71c5-46a0-aa0c-51f150560dbc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68c5f727ed3e37139d4da50f84c3929bff333156
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 70c21ead6161a79d000d2741a49c4fb61ff23b3a8a3340db2eb26a7805424df5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929545"
 ---
 # <a name="generating-interface-uuids"></a>產生介面 Uuid
 
@@ -31,7 +31,7 @@ ba209999-0c6c-11d2-97cf-00c04f8eea45
 > [!Note]  
 > **Null** 值是特定的值零。 它通常用於 C 和 c + + 程式設計中搭配指標。 Nil 是比 **Null** 更常見的詞彙。 未初始化的物件介面 Uuid 應一律稱為「nil Uuid」（而非 **Null** uuid）。
 
- 
+ 
 
 ## <a name="using-uuidgen"></a>使用 Uuidgen.exe
 
@@ -41,7 +41,7 @@ Microsoft 提供一個稱為 Uuidgen.exe 的公用程式來產生您的 Uuid。 
 
 
 
-| Uuidgen.exe 參數           | Description                                                                |
+| Uuidgen.exe 參數           | 描述                                                                |
 |--------------------------|----------------------------------------------------------------------------|
 | **/I**                   | 將 UUID 輸出至 IDL 介面範本。                                 |
 | **/s**                   | 將 UUID 輸出為初始化的 C 結構。                                |
@@ -52,7 +52,7 @@ Microsoft 提供一個稱為 Uuidgen.exe 的公用程式來產生您的 Uuid。 
 
 
 
- 
+ 
 
 一般而言，您會使用 Uuidgen.exe 公用程式，如下列範例所示。
 
@@ -73,9 +73,9 @@ interface INTERFACENAME
 
 下一步是使用您介面的實際名稱來取代預留位置名稱介面名稱。
 
- 
+ 
 
- 
+ 
 
 
 

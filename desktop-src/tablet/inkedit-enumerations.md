@@ -4,12 +4,12 @@ ms.assetid: 13d057df-53a9-4252-9501-646072fdf006
 title: InkEdit 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99fc7218f4c406bad794b436acfe40d04f5ea22a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72c3af91bdbffe5a9ddc778e6c7e06f3e432d1d06cdd9fd39689af5a87eadc31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967167"
 ---
 # <a name="inkedit-enumerations"></a>InkEdit 列舉
 

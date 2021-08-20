@@ -4,12 +4,12 @@ ms.assetid: 3359A33F-528B-4955-8B37-30523B8AD33A
 title: 'Hyper-v WMI 提供者 (V2) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 555fd3cd1e8420c59bb5f1b8ef16480b3ddfcf4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b82156754f085196eaece86bb4996c1b4a0bb8348e1566894ee78d4921676f96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014246"
 ---
 # <a name="hyper-v-wmi-provider-v2"></a>Hyper-v WMI 提供者 (V2) 
 
@@ -40,7 +40,7 @@ Hyper-v 提供可調整、可靠且高度可用的虛擬化伺服器運算環境
 | [閾值類別](threshold-classes.md)<br/>                                                 | 包含 Windows 10 中引進的類別。<br/>                                                                                                                                                                                |
 | [RS2 類別](redstone-classes.md)<br/>                                                        | 包含 Windows 10 1703 版的新類別。<br/>                                                                                                                                                                        |
 | [RS3 類別](rs3-classes.md)<br/>                                                             | 包含 Windows 10 1709 版的新類別。<br/>                                                                                                                                                                        |
-| [Hyper-v 詞彙](virtualization-glossary.md)<br/>                                            | Windows 虛擬化 SDK 檔中使用的詞彙。<br/>                                                                                                                                                       |
+| [Hyper-v 詞彙](virtualization-glossary.md)<br/>                                            | Windows Virtualization SDK 檔中使用的詞彙。<br/>                                                                                                                                                       |
 
 
 
@@ -54,7 +54,7 @@ Hyper-v 服務需要支援執行 Hyper-v 硬體輔助虛擬化的 x64 型系統�
 
 <dl> <dt>
 
-[Hyper-v (Windows Server 2008 R2 技術文件庫) ](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10))
+[hyper-v (Windows Server 2008 R2 技術文件庫) ](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10))
 </dt> <dt>
 
 [Windows Management Instrumentation](/windows/desktop/WmiSdk/wmi-start-page)

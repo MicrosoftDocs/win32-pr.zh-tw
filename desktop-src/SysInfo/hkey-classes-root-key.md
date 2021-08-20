@@ -1,23 +1,23 @@
 ---
-description: HKEY \_ 類別 \_ ROOT (HKCR) 機碼包含副檔名關聯和 COM 類別註冊資訊，例如 Progid、Clsid 和 iid。 它主要是為了與16位 Windows 中的登錄相容。
+description: HKEY \_ 類別 \_ ROOT (HKCR) 機碼包含副檔名關聯和 COM 類別註冊資訊，例如 Progid、Clsid 和 iid。 其主要目的是要在16位 Windows 中與登錄相容。
 ms.assetid: b404875f-11e1-48f2-98d2-0378a0646ed3
 title: HKEY_CLASSES_ROOT 金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e7aebe0e59424eb5ff7584fe61c2c5089eb887b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca75fc0b736c156e2e0dbe8ad07ff84cbbaa0a9ee1484de74e4f670703b2d875
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885680"
 ---
 # <a name="hkey_classes_root-key"></a>HKEY \_ 類別 \_ 根金鑰
 
-**HKEY \_ 類別 \_ ROOT** (**HKCR**) 機碼包含副檔名關聯和 COM 類別註冊資訊，例如 [progid](../com/-progid--key.md)、 [clsid](../com/clsid-key-hklm.md)和 [iid](../com/interface-key.md)。 它主要是為了與16位 Windows 中的登錄相容。
+**HKEY \_ 類別 \_ ROOT** (**HKCR**) 機碼包含副檔名關聯和 COM 類別註冊資訊，例如 [progid](../com/-progid--key.md)、 [clsid](../com/clsid-key-hklm.md)和 [iid](../com/interface-key.md)。 其主要目的是要在16位 Windows 中與登錄相容。
 
-類別註冊和副檔名資訊都會儲存在 **HKEY \_ 本機 \_ 電腦** 和 **HKEY \_ 目前的 \_ 使用者** 金鑰之下。 **HKEY \_ 本機電腦 \_ \\ 軟體 \\ 類別** 機碼包含可套用至本機電腦上所有使用者的預設設定。 **HKEY \_ CURRENT \_ user \\ Software \\** class 機碼包含僅適用于互動式使用者的設定。 **HKEY \_ 類別 \_ 根金鑰** 會提供登錄的視圖，以合併這兩個來源的資訊。 **HKEY \_類別 \_ 根目錄** 也會針對針對舊版 Windows 設計的應用程式，提供此合併的觀點。
+類別註冊和副檔名資訊都會儲存在 **HKEY \_ 本機 \_ 電腦** 和 **HKEY \_ 目前的 \_ 使用者** 金鑰之下。 **HKEY \_ 本機電腦 \_ \\ 軟體 \\ 類別** 機碼包含可套用至本機電腦上所有使用者的預設設定。 **HKEY \_ CURRENT \_ user \\ Software \\** class 機碼包含僅適用于互動式使用者的設定。 **HKEY \_ 類別 \_ 根金鑰** 會提供登錄的視圖，以合併這兩個來源的資訊。 **HKEY \_類別 \_ 根目錄** 也會針對針對舊版 Windows 所設計的應用程式，提供此合併的觀點。
 
-使用者特定設定的優先順序高於預設設定。 例如，預設設定可能會指定特定的應用程式來處理 .doc 檔。 但是，使用者可以藉由在登錄中指定不同的應用程式來覆寫此設定。
+使用者特定設定的優先順序高於預設設定。 例如，預設設定可能會指定特定的應用程式來處理 .doc 的檔案。 但是，使用者可以藉由在登錄中指定不同的應用程式來覆寫此設定。
 
 諸如 [**RegOpenKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regopenkeyexa) 或 [**RegQueryValueEx**](/windows/desktop/api/Winreg/nf-winreg-regqueryvalueexa) 等登錄功能，可讓您指定 **HKEY \_ 類別 \_ 根金鑰** 。 當您從在互動式使用者帳戶中執行的進程呼叫這些函式時，系統會將 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別** 中的預設設定與 **HKEY \_ 目前 \_ 使用者 \\ 軟體 \\ 類別** 的互動式使用者設定合併。 如需有關如何合併這些設定的詳細資訊，請參閱 [HKEY \_ 類別 \_ 根目錄的合併觀點](merged-view-of-hkey-classes-root.md)。
 
@@ -29,7 +29,7 @@ ms.locfileid: "103852048"
 
 如果應用程式是以系統管理員許可權執行，而且已停用 [使用者帳戶控制]，則 COM 執行時間會忽略每一使用者的 COM 設定，並只存取個別電腦的 COM 設定。 需要系統管理員許可權的應用程式應該在安裝期間，將相依的 COM 物件註冊到個別電腦的 COM 設定存放區 (**HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別**) 。 如需詳細資訊，請參閱 [AC： UAC： COM Per-User](/previous-versions/bb756926(v=msdn.10))設定。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 應用程式可以將相依的 COM 物件註冊到個別電腦或個別使用者的 COM 設定存放區 (**HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別** 或 **HKEY 目前的 \_ \_ 使用者 \\ 軟體 \\ 類別**) 。
+**Windows Server 2003 和 Windows XP/2000：** 應用程式可以將相依的 COM 物件註冊到個別電腦或個別使用者的 COM 設定存放區 (**HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別** 或 **HKEY 目前的 \_ \_ 使用者 \\ 軟體 \\ 類別**) 。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -4,12 +4,12 @@ ms.assetid: a7aafa2f-18b1-4337-8bb2-c68d793c8c3c
 title: 可見的對話方塊樣式位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4064a0d2832aecbff79e57d9ba589fff66667ab0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbc99895df1509fbe3b16533b405cc000320d4cfabbbff45b729b83895452eba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065838"
 ---
 # <a name="visible-dialog-style-bit"></a>可見的對話方塊樣式位
 

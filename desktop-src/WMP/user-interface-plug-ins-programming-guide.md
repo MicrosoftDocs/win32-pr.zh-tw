@@ -12,12 +12,12 @@ keywords:
 - 程式設計指南，使用者介面外掛程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d417d246e92a642711e8cb02f77ff3795d47c995
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fcba6c3c7218e504a2e8752a4d1680e4887ec5aa7bfa69744fab00b27cbee797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118831478"
 ---
 # <a name="user-interface-plug-ins-programming-guide"></a>消費者介面外掛程式程式設計指南
 
@@ -41,11 +41,11 @@ ms.locfileid: "103840368"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

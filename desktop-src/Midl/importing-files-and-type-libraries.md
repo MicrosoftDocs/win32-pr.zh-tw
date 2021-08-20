@@ -8,12 +8,12 @@ keywords:
 - 類型程式庫 MIDL，匯入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d84b740f29726c1ce4d401fc69b2ea07e811eac0
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 099ada5122ad024e342148bf3c453df0bd50872e6d59a2bbabd7d2892af5f93a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104322572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013736"
 ---
 # <a name="importing-files-and-type-libraries"></a>匯入檔案和型別程式庫
 

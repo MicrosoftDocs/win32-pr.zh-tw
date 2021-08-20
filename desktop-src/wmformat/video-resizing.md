@@ -3,8 +3,8 @@ title: 影片調整大小
 description: 影片調整大小
 ms.assetid: 38ecb729-68eb-4452-8389-cabe987fb8b6
 keywords:
-- Windows Media Format SDK，調整大小的影片
-- Windows Media Format SDK，調整大小影片
+- Windows媒體格式 SDK，影片調整大小
+- Windows媒體格式 SDK，調整大小影片
 - Advanced Systems Format (ASF) 、影片大小調整
 - ASF (Advanced Systems Format) 、影片大小調整
 - Advanced Systems Format (ASF) ，調整大小影片
@@ -12,12 +12,12 @@ keywords:
 - 影片調整大小
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b200496b1dead3abacfbfad7674519e0cf7ce4f7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7a3261b5b78b386a0589e2e5554b52793d478f052765cb9caa63cf7e399d90e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027186"
 ---
 # <a name="video-resizing"></a>影片調整大小
 
@@ -50,9 +50,9 @@ Windows Media 視訊9螢幕編解碼器不支援調整大小。
 [**使用輸出**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

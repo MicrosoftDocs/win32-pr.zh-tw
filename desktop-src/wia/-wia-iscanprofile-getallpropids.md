@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: 34cd00f626bea3b8f1350950f0d2012ce019068e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fd54e3e1cd45c3631df9b069ddf3c2e897037efb2870d00946f0a002e12f145
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965777"
 ---
 # <a name="iscanprofilegetallpropids-method"></a>IScanProfile：： GetAllPropIDs 方法
 
@@ -43,16 +43,16 @@ HRESULT GetAllPropIDs(
 *num* \[in、out\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
 要求或傳回的屬性識別碼數目。
 
 </dd> <dt>
 
-_ppid * \[ out\]
+*ppid* \[擴展\]
 </dt> <dd>
 
-類型： **PROPID \** _
+類型： **PROPID \***
 
 屬性識別碼陣列的指標。
 
@@ -60,7 +60,7 @@ _ppid * \[ out\]
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -70,10 +70,10 @@ _ppid * \[ out\]
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Scanprofile。h</dt> </dl>    |
-| Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 
 
 
