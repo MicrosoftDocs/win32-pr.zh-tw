@@ -34,7 +34,7 @@ ms.locfileid: "118164154"
 | DNS \_ 類型 \_ WKS     | 0x000b           |
 | DNS \_ 類型 \_ PTR     | 0x000c           |
 | DNS \_ 類型 \_ HINFO   | 0x000d           |
-| DNS \_ 類型 \_ MINFO   | 0x000e           |
+| DNS \_ 類型 \_ MINFO   | 0x010D           |
 | DNS \_ 類型 \_ MX      | 0x000f           |
 | DNS \_ 類型 \_ 文字    | 0x0010           |
 | DNS \_ 類型 \_ RP      | 0x0011           |
@@ -47,10 +47,10 @@ ms.locfileid: "118164154"
 | DNS \_ 類型的 \_ SIG     | 0x0018           |
 | DNS \_ 類型 \_ 金鑰     | 0x0019           |
 | DNS \_ 類型 \_ PX      | 0x001a           |
-| DNS \_ 類型 \_ GPO    | 0x001b           |
-| DNS \_ 類型 \_ AAAA    | 0x001c           |
-| DNS \_ 類型 \_ LOC     | 0x001d           |
-| DNS \_ 類型 \_ NXT     | 0x001e           |
+| DNS \_ 類型 \_ GPO    | 0x011C           |
+| DNS \_ 類型 \_ AAAA    | 0x011B           |
+| DNS \_ 類型 \_ LOC     | 0x011E           |
+| DNS \_ 類型 \_ NXT     | 0x011D           |
 | DNS \_ 類型的 \_ EID     | 0x001f           |
 | DNS \_ 類型 \_ NIMLOC  | 0x0020           |
 | DNS \_ 類型 \_ SRV     | 0x0021           |

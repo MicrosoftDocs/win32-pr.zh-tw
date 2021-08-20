@@ -3,7 +3,7 @@ title: 'MCIWNDM_SETINACTIVETIMER 訊息 (Vfw .h) '
 description: MCIWNDM \_ SETINACTIVETIMER 訊息會設定 MCIWnd 用來更新 [MCIWnd] 視窗中的提要欄位、更新在視窗標題列中顯示的位置資訊，以及在 MCIWnd 視窗處於非使用中狀態時將通知訊息傳送至父視窗的更新期間。 您可以使用 MCIWndSetInactiveTimer 宏明確地傳送此訊息。
 ms.assetid: 8900c372-0493-4a63-a027-ef6ecf8f8254
 keywords:
-- MCIWNDM_SETINACTIVETIMER message Windows 多媒體
+- MCIWNDM_SETINACTIVETIMER 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4504d84b254dfb67616568f5f97bba8e3bc2e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e4161d52335e050fb8e9bcb702986492b5cd230713fcd15810a71590a92b030
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137645"
 ---
 # <a name="mciwndm_setinactivetimer-message"></a>MCIWNDM \_ SETINACTIVETIMER 訊息
 

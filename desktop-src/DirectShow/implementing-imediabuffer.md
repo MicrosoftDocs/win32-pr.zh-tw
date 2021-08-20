@@ -4,16 +4,16 @@ ms.assetid: bde7cef8-f43e-4a11-8b77-fed5585d390a
 title: 執行 IMediaBuffer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3425b3f612667a0b6577de385d59362bd8dafd0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5033fcf18812f2a31e175c05b0d4d8eeee18484d0cc20e640ae30f9390a68f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106985514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154116"
 ---
 # <a name="implementing-imediabuffer"></a>執行 IMediaBuffer
 
-在預設的 SQL-DMO 串流模型中，會透過 [**IMediaBuffer**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer) 介面來管理緩衝區。 SQL-DMO 的用戶端負責執行公開這個介面的物件。 **IMediaBuffer** 介面有三個方法：
+在預設的 DMO 串流模型中，會透過 [**IMediaBuffer**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer)介面來管理緩衝區。 DMO 的用戶端負責執行公開此介面的物件。 **IMediaBuffer** 介面有三個方法：
 
 -   **GetBufferAndLength** 會傳回緩衝區的位址 (也就是保存資料) 的實際記憶體區塊，以及緩衝區中任何有效資料的大小。
 -   **GetMaxLength** 會傳回緩衝區的大小。
@@ -173,7 +173,7 @@ public:
 
 <dl> <dt>
 
-[直接裝載](directly-hosting-a-dmo.md)
+[直接裝載 DMO](directly-hosting-a-dmo.md)
 </dt> </dl>
 
  

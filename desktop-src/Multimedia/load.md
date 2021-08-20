@@ -3,7 +3,7 @@ title: 載入命令
 description: Load 命令會以裝置特定的格式載入檔案。 數位影片和影片重迭裝置會辨識此命令。
 ms.assetid: ae7bfe92-7957-4756-a408-e3ab60dd9aa4
 keywords:
-- 載入命令 Windows 多媒體
+- Windows 多媒體載入命令
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b199a6d3aea8a2697217eb75176c24b2b0bc2e2a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c66822de727ea45e93839c710dae19739cba8adaac8b571846c1fa23ef0083c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139353"
 ---
 # <a name="load-command"></a>載入命令
 
@@ -91,7 +91,7 @@ load vidboard c:\vid\fish.vid notify
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

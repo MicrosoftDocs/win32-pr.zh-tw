@@ -14,12 +14,12 @@ keywords:
 - 選取篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87225c1aebf2a06c738a1b48b03b94ed81bf6c2d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 70015f7e546337983725ae85c683acf5e9b75423e0de0734de4e1293480933ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136602"
 ---
 # <a name="producing-a-dialog-box-for-selecting-a-filter"></a>產生對話方塊來選取篩選
 
@@ -74,9 +74,9 @@ return (mmr);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

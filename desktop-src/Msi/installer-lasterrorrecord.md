@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b368f30b04734b2d253a7d5f2aa64f0d61c930e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb9dad1962cace623a4a52991d3650451a0a6d5f660aad88e46c4fe393ce4e4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142107"
 ---
 # <a name="installerlasterrorrecord-method"></a>LastErrorRecord 方法
 
@@ -48,15 +48,15 @@ Installer.LastErrorRecord()
 只有下列指定的函式會產生錯誤記錄：
 
 -   [**(安裝程式物件) 的 OpenDatabase 方法**](installer-opendatabase.md)
--   [**Commit**](database-commit.md)
+-   [**認可**](database-commit.md)
 -   [**OpenView**](database-openview.md)
 -   [**匯入**](database-import.md)
--   [**出口**](database-export.md)
+-   [**匯出**](database-export.md)
 -   [**合併**](database-merge.md)
 -   [**基表**](database-generatetransform.md)
 -   [**ApplyTransform**](database-applytransform.md)
 -   [**執行**](view-execute.md)
--   [**修改**](view-modify.md)
+-   [**Modify**](view-modify.md)
 -   [**SetStream**](record-setstream.md)
 -   [**SummaryInformation**](database-summaryinformation.md)
 -   [**SourcePath**](session-sourcepath.md)
@@ -109,7 +109,7 @@ End If
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IInstaller 定義為000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 

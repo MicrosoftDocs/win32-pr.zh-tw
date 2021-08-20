@@ -4,12 +4,12 @@ ms.assetid: 275a6d43-ecf8-4146-82eb-3b42b25b9a80
 title: DisableMedia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2ee50abf36225aa96e52332a53f0b2ab36f058c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: d2337a1698865b0b977e179021f6490e2fa651a8c4baa3a56e808d037926ad39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143244"
 ---
 # <a name="disablemedia"></a>DisableMedia
 
@@ -17,7 +17,7 @@ ms.locfileid: "103945588"
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_\_** \\  \\  \\ **Microsoft** \\ **Windows** \\ **安裝程式** 的目前使用者軟體原則
 
 ## <a name="data-type"></a>資料類型
 

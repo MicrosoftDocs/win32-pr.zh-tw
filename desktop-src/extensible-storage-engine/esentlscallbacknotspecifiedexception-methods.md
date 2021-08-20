@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102183
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1d353f95fad3ae325a43955d9562ae440c8ea95d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11d860e532f7f244b17712da6503a03e1e342584d9aae49032bd6a29f0ea8188
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104570925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118080151"
 ---
 # <a name="esentlscallbacknotspecifiedexception-methods"></a>EsentLSCallbackNotSpecifiedException 方法
 

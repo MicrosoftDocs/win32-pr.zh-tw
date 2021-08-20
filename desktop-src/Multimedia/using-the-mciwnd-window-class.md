@@ -10,12 +10,12 @@ keywords:
 - 視窗類別、MCIWnd 視窗
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb89c386c3cf3d3d3885501981a1066430e31fb7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8bb94841975e721b76bde7287709197c5457966ccb8def9f72dda426307b3732
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136126"
 ---
 # <a name="using-the-mciwnd-window-class"></a>使用 MCIWnd 視窗類別
 
@@ -31,9 +31,9 @@ ms.locfileid: "104021062"
 -   [延展影像](stretching-an-image.md)
 -   [延展影像和視窗](stretching-an-image-and-window.md)
 
- 
+ 
 
- 
+ 
 
 
 

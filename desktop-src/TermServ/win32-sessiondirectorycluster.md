@@ -19,12 +19,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3979dbe5403ca8f18e941b01e95774dabefe3211
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f1dba262ddb332f03c7f398c4f205e73a9c9e94054d4164fb94c8c01dc8b505
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118127078"
 ---
 # <a name="win32_sessiondirectorycluster-class"></a>Win32 \_ SessionDirectoryCluster 類別
 

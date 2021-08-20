@@ -10,12 +10,12 @@ keywords:
 - waveInAddBuffer 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539f722a705d489064d38eccdf6d89e80ccb1518
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d798cb1b6a8a22f4c695bced89dd669346ad2bb6452179df1d3278af8681aa49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138931"
 ---
 # <a name="managing-waveform-audio-recording"></a>管理 Waveform-Audio 記錄
 
@@ -34,7 +34,7 @@ Windows 提供下列功能來管理波形音訊錄製。
 
 
 
- 
+ 
 
 使用 [**waveInAddBuffer**](/windows/win32/api/mmeapi/nf-mmeapi-waveinaddbuffer) 函式將緩衝區傳送到設備磁碟機。 當緩衝區填滿錄製的波形音訊資料時，會根據開啟裝置時所指定的旗標，以視窗訊息、回呼訊息、執行緒訊息或事件來通知應用程式。
 
@@ -49,6 +49,6 @@ Windows 提供下列功能來管理波形音訊錄製。
 [錄製波形音訊](recording-waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

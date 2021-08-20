@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b20a61a8a542a6ce56e58d2bde75d6982703c0f8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: de77df7f808d9ddd45f217573f843f1260c258e9f17d10c65de8f472496c9a3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426740"
 ---
 # <a name="ms-ds-generation-id-attribute"></a>ms DS 產生識別碼屬性
 
@@ -52,8 +52,8 @@ ms.locfileid: "104509628"
 |------------------------|-------------------------------------------|
 | 連結識別碼                | \-                                        |
 | MAPI-Id                | \-                                        |
-| System-Only            | 對                                      |
-| 是-單一值       | 對                                      |
+| System-Only            | 是                                      |
+| 是-單一值       | 是                                      |
 | 已編制索引             | 否                                     |
 | 在通用類別目錄中      | 否                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                              |

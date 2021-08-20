@@ -16,12 +16,12 @@ keywords:
 - 波形音訊、地圖裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9cdd269e21eb992244dd0e5979c7e0d193ba92b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7b4204a79eebd5fed3c8f96712aa3cd83c50056b1c194bafe2ce485a5b4b68f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138769"
 ---
 # <a name="mapping-waveform-audio-devices"></a>Waveform-Audio 裝置的對應
 
@@ -33,9 +33,9 @@ System.servicemodel 是基本多媒體系統的延伸模組，並安裝為對應
 
 除了格式轉換之外，「上建」也會提供服務，以支援壓縮、解壓縮、篩選、格式選取和篩選選取專案。 它會藉由呼叫本身的驅動程式來提供其支援的標準 API。
 
- 
+ 
 
- 
+ 
 
 
 

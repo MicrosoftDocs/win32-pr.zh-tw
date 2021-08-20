@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d16634cacb9c17e5027ac9e6b6dd7abb26b78007
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc0b04bfaf08ecee87d02a2b410fd1df2fbbe584d5649a5e9fe2ea2e5efacebd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131857"
 ---
 # <a name="boottriggertype-complex-type"></a>bootTriggerType 複雜類型
 
@@ -46,7 +46,7 @@ ms.locfileid: "104466292"
 
 
 
-| 元素                                                            | 類型     | Description                                                                                 |
+| 元素                                                            | 類型     | 描述                                                                                 |
 |--------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------|
 | [**延遲**](taskschedulerschema-delay-boottriggertype-element.md) | duration | 系統開機和引發觸發程式之間的時間長度。 <br/> |
 
@@ -62,8 +62,8 @@ ms.locfileid: "104466292"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

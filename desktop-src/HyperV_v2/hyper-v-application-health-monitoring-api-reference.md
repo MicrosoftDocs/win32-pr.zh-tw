@@ -4,12 +4,12 @@ ms.assetid: FE5C6D63-F571-4DF2-AF15-D417BA61482A
 title: Hyper-v 應用程式健康情況監視 API 參考
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb62164043cbb7e242fd570546545a3c0d743b28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f09568428a463ec663db9ddd89b33c843e5f3a24b22b9d963f481fbbf49b6b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118149781"
 ---
 # <a name="hyper-v-application-health-monitoring-api-reference"></a>Hyper-v 應用程式健康情況監視 API 參考
 

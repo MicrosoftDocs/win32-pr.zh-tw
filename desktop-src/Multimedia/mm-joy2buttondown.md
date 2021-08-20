@@ -3,7 +3,7 @@ title: 'MM_JOY2BUTTONDOWN 訊息 (Mmsystem .h) '
 description: MM \_ JOY2BUTTONDOWN 訊息會通知已捕捉到搖桿的視窗 JOYSTICKID2 已按下按鈕。
 ms.assetid: b4cd48ea-91ad-48e9-b0ae-58d8ee124171
 keywords:
-- MM_JOY2BUTTONDOWN message Windows 多媒體
+- MM_JOY2BUTTONDOWN 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f155fcdc21247e01fd5d730f3f7d4daaba705e65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 02e9ad78e914fb74e51f8ebe7a47a65677ac06d27d53eb8f64739ba641f235b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106984951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137199"
 ---
 # <a name="mm_joy2buttondown-message"></a>MM \_ JOY2BUTTONDOWN 訊息
 
@@ -96,7 +96,7 @@ yPos = HIWORD(lParam);
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

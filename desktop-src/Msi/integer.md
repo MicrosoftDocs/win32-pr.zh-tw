@@ -4,12 +4,12 @@ ms.assetid: 628e385b-8077-4af9-889e-92fa0c172d05
 title: Windows Installer 資料庫參考) 的整數 (
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d3b8b1eab997f7b754c56f02b6a9251cebc1898
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 497c62ef3d76f6c9f9eb8b99b2f3f74291b82c8dd32edd8456707fde3961bdcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142043"
 ---
 # <a name="integer"></a>整數
 

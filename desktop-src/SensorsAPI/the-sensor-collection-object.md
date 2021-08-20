@@ -4,12 +4,12 @@ ms.assetid: 8893860c-c8c0-4460-b59b-0b988e6d31b8
 title: 感應器集合物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31b2ca9567641952687a1c665db215b301c0f419
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec74f0726fa7255bb9bbb0a41b85da657bf26712c469718e0bcb3242743909a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117968590"
 ---
 # <a name="the-sensor-collection-object"></a>感應器集合物件
 

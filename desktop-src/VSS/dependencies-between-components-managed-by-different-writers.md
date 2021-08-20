@@ -4,12 +4,12 @@ ms.assetid: 0413c289-74b7-4e83-a227-00bfb264e56e
 title: 不同寫入器所管理元件之間的相依性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ba3be6a2c2f0a722c4c5f06ca95351e004e1cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82d50e88e13899951802b2ec3aa0bd9e651c16928b9f57409329035a28cfa1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122150"
 ---
 # <a name="dependencies-between-components-managed-by-different-writers"></a>不同寫入器所管理元件之間的相依性
 
@@ -52,7 +52,7 @@ VSS 會透過明確的寫入器元件相依性和 [**IVssWMDependency**](/window
 
 寫入器可以宣告遠端相依性，方法是呼叫 [**AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency)方法，並在前面加上 " \\ \\ *RemoteComputerName* \\ "，其中 *RemoteComputerName* 是遠端元件所在的電腦名稱稱，而是 *wszOnLogicalPath* 參數中的邏輯路徑。 *RemoteComputerName* 的值可以是 IP 位址或 [**GetComputerNameEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa)函數所傳回的電腦名稱稱。
 
-**Windows Server 2003：** 在 Windows Server 2003 Service Pack 1 (SP1) 之前，寫入器無法宣告遠端相依性。
+**Windows Server 2003：** 寫入器無法宣告遠端相依性，直到 Windows Server 2003 Service Pack 1 (SP1) 。
 
 為了識別相依性，要求者會呼叫 [**IVssWMDependency**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswmdependency)介面的 [**GetWriterId**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getwriterid)、 [**GetLogicalPath**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getlogicalpath)和 [**GetComponentName**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getcomponentname)方法。 要求者必須檢查 **GetComponentName** 在 *pbstrComponentName* 參數中傳回的元件名稱。 如果元件名稱的開頭是 " \\ \\ "，則要求者必須假設它指定遠端相依性，而 "" 後面的第一個元件 \\ \\ 是在寫入器呼叫 [**AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency)時所指定的 *RemoteComputerName* 。 如果元件名稱的開頭不 \\ \\ 是 ""，則要求者應假設它指定本機相依性。
 

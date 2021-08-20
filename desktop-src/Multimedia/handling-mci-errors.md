@@ -6,12 +6,12 @@ keywords:
 - mciSendCommand 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab8412c74153d5ddfb03a3aff895f9f2e0e73798
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f8e2f3a9cc3e711db0d26f28c9ac7e3fd0a8c94eec96117a732f8024372bf9de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106967883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141020"
 ---
 # <a name="handling-mci-errors"></a>處理 MCI 錯誤
 
@@ -47,8 +47,8 @@ void showError(DWORD dwError)
 > [!Note]  
 > 若要自行解讀 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 錯誤的值，請將高序位字遮罩 (低序位單字包含錯誤碼) 。 但是，如果您將錯誤傳回值傳遞給 [**mciGetErrorString**](/previous-versions//dd757158(v=vs.85))，則必須傳遞整個雙全雙全數值。
 
- 
+ 
 
- 
+ 
 
- 
+ 

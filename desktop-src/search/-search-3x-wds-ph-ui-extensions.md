@@ -4,12 +4,12 @@ ms.assetid: 38cebb3c-51bf-439c-8d4e-445344f6cb66
 title: 新增圖示、預覽和快捷方式功能表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 501006227f6192b7d81a2a88ba915c368a9cc398
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 433fd066d63480147621d46c7c8ffb24cea348225ec5e564b5f6c799714c9bc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052215"
 ---
 # <a name="adding-icons-previews-and-shortcut-menus"></a>新增圖示、預覽和快捷方式功能表
 
@@ -44,7 +44,7 @@ ms.locfileid: "104511106"
 -   任一個 [IPersistFile 介面](/windows/win32/api/objidl/nn-objidl-ipersistfile)
 -   或 [IShellExtInit 介面](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit)
 
-在 Windows Vista 中， [IPersistFile 介面](/windows/win32/api/objidl/nn-objidl-ipersistfile) 和 [IShellExtInit 介面](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) 已取代為 Shell 用來初始化處理常式的下列三個介面：
+在 Windows Vista 中， [IPersistFile 介面](/windows/win32/api/objidl/nn-objidl-ipersistfile)和[IShellExtInit 介面](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit)已取代為 Shell 用來初始化處理常式的下列三個介面：
 
 -   [IInitializeWithStream 介面](/windows/win32/api/propsys/nn-propsys-iinitializewithstream)
 -   [IInitializeWithItem 介面](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem)
@@ -130,7 +130,7 @@ ms.locfileid: "104511106"
 
 ### <a name="ipreviewhandler"></a>IPreviewHandler
 
-[IPreviewHandler](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler)會呈現 Windows 檔案總管中所選取專案的豐富預覽。 預覽適用于 Windows Search 4.0，或在 Windows Vista 中，使用 Windows Desktop Search 3.x。
+[IPreviewHandler](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler)會呈現 Windows 檔案總管中所選取專案的豐富預覽。 預覽可在 Windows Search 4.0 或 Windows Vista 中提供 Windows Desktop Search 3.x。
 
 若要建立自訂預覽處理常式：
 

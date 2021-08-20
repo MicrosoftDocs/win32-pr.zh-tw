@@ -4,16 +4,16 @@ ms.assetid: 6fae7925-b1be-4270-9318-7fa517563dad
 title: 'SFVM_GETZONE 訊息 (Shlobj.h .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5586188aeab6a054e22e4b242039beaae1ce390d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 946823f1081a8cc3e01c917e424e3bdd41861f85b0abe0cad654ea09c296f8fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118048427"
 ---
 # <a name="sfvm_getzone-message"></a>SFVM \_ GETZONE 訊息
 
-\[這項通知是透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 支援。 後續版本的 Windows 可能不支援此功能。\]
+\[這項通知是透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 支援。 Windows 的後續版本中可能不支援此功能。\]
 
 允許回呼物件提供網際網路區域資訊。 由 [**IShellFolderViewCB：： MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb)使用。
 

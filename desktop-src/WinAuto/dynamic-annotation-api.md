@@ -4,12 +4,12 @@ description: 動態批註 API 是 Microsoft Active Accessibility 的延伸模組
 ms.assetid: 2daf0e76-b300-47e7-994b-d1d00d0dca4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7f73c1da79784fdd86652128b572fd81904023c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ca8b95d1175d4a6bd894e79c55f6798a73165fab2d6e6da40e3b952e68824d50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115318"
 ---
 # <a name="dynamic-annotation-api"></a>動態注釋 API
 
@@ -17,7 +17,7 @@ ms.locfileid: "103932588"
 
 動態注釋通常用來更正或修改現有 Oleacc.dll proxy 所公開的 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 物件不正確的實例。 例如，您可以使用它來覆寫預設 proxy 所提供的 [**名稱**](name-property.md)和 [**角色**](role-property.md)屬性 [**，並提供**](help-property.md)描述和 [**說明**](description-property.md)屬性 (預設 proxy) 可能無法提供。
 
-在 Windows 7 中，開發人員可以使用動態批註 API 來標注 Microsoft 消費者介面自動化屬性，以及 Oleacc.dll 為標準 Windows 控制項建立的 proxy 物件 Microsoft Active Accessibility 屬性。 Oleacc.dll 的 proxy 物件可同時為 Microsoft Active Accessibility 和消費者介面自動化用戶端提供服務。
+使用 Windows 7，開發人員可以使用動態注釋 API 來標注 Microsoft 消費者介面自動化屬性，以及 Oleacc.dll 為標準 Windows 控制項建立的 proxy 物件 Microsoft Active Accessibility 屬性。 Oleacc.dll 的 proxy 物件可同時為 Microsoft Active Accessibility 和消費者介面自動化用戶端提供服務。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -29,9 +29,9 @@ ms.locfileid: "103932588"
 -   [伺服器注釋](server-annotation.md)
 -   [問題與限制](issues-and-limitations.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e921e175-a2cf-45e6-bb81-dc82e384d3b1
 title: 'InkPicture. CursorInRange 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d05d703022e8d97df0d8d74a73e20af3d91b8531
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5d4a44b41e9eaffa4cb7a6939e1e6b8caf55cb7fbb8782d75cda490e4dc3d34a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118042099"
 ---
 # <a name="inkpicturecursorinrange-event"></a>InkPicture. CursorInRange 事件
 
@@ -71,7 +71,7 @@ void CursorInRange(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

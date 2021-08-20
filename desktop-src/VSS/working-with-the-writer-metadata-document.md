@@ -4,12 +4,12 @@ ms.assetid: e23a6d79-1014-4023-a59f-dce01cf2889e
 title: 使用寫入器元資料檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c4e17bd880ab2176c085fea9ef81c54161f36a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79b651527e4f0b79bfa525eff30fffbd4853987e9efc57aa57ac2472dcba5389
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121494"
 ---
 # <a name="working-with-the-writer-metadata-document"></a>使用寫入器元資料檔案
 

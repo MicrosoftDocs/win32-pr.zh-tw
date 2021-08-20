@@ -4,12 +4,12 @@ ms.assetid: a36e257d-ef3c-45db-a50e-94d7fd4e09e2
 title: FormattedSDDLText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ddfeac55f05ebea5f1603def6adcbac32aa9d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bdfc4446c4362646e8c275ec427f759b8aec6a257d5221926431434688b91c7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142887"
 ---
 # <a name="formattedsddltext"></a>FormattedSDDLText
 
@@ -19,7 +19,7 @@ ms.locfileid: "106992431"
 
 **FormattedSDDLText** 資料類型可以保存以有效 [安全描述項字串格式](../secauthz/security-descriptor-string-format.md)撰寫的 SDDL 字串。 如需有關 SDDL 的詳細資訊，請參閱[Microsoft Windows 軟體開發套件 (SDK) ](https://developer.microsoft.com/windows/downloads/windows-10-sdk/)的[存取控制](../secauthz/access-control.md)一節。 此外， **FormattedSDDLText** 的文字字串可以使用角括弧 (<>) 包含要決定其帳戶 SID 之使用者的網域和使用者名稱。
 
-如果使用者名稱為 *SampleUser* 的使用者屬於名為 *SampleDomain* 的網域，則 **FormattedSDDLText** 值可以使用 SID 字串、使用者名稱和功能變數名稱，或 Windows 環境變數來識別擁有者。 例如，可能會有下列字串。
+如果使用者名稱為 *SampleUser* 的使用者屬於名為 *SampleDomain* 的網域，則 **FormattedSDDLText** 值可以使用 SID 字串、使用者名稱和功能變數名稱或 Windows 環境變數來識別擁有者。 例如，可能會有下列字串。
 
 <dl> O：*owner \_ sid \_ string* G:BAD： (D; OICI; GA;;;BG)  (A; OICI; GRGWGX;;;*擁有者 \_ sid \_ 字串*)  (A; OICI; GA;;;BA) S:ARAI (AU;SAFA; FA;;;WD)   
 O： <*SampleDomain \\ SAMPLEUSER*>G:BAD： (D; OICI; GA;;;BG)  (A; OICI; GRGWGX;;;<*SampleDomain \\ SampleUser*>)  (A; OICI; GA;;;BA) S:ARAI (AU;SAFA; FA;;;WD)   

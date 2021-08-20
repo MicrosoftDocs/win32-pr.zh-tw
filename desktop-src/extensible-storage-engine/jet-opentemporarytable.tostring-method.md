@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8a68dcdf52909b5603158f79ae48803bb743ec84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3ada942e7c035cfe1262835715d152992813fed2694f5e61d07e7a124a5598f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118074042"
 ---
 # <a name="jet_opentemporarytabletostring-method"></a>JET_OPENTEMPORARYTABLE。ToString 方法
 

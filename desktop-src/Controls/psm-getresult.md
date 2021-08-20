@@ -3,7 +3,7 @@ title: 'PSM_GETRESULT 訊息 (Prsht.idl .h) '
 description: 由非強制回應屬性工作表用來取出 PropertySheet 傳回的強制回應屬性工作表資訊。 您可以明確地傳送此訊息，或使用 PropSheet \_ GetResult 宏。
 ms.assetid: e0f609ea-5d7e-4c17-ade1-3c1051c5a5bf
 keywords:
-- PSM_GETRESULT message Windows 控制項
+- PSM_GETRESULT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d41609f625cbd3938fa78e9a2f91ab70168ecc29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4acc8fed8cdaa1f4282c3ed066ad44f68221330fa9e79b0719db8bba1bca37f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169804"
 ---
 # <a name="psm_getresult-message"></a>PSM \_ GETRESULT 訊息
 
@@ -49,7 +49,7 @@ ms.locfileid: "104509076"
 
 
 
-| 傳回碼                                                                                         | Description                                                                                                                                                                 |
+| 傳回碼                                                                                         | 描述                                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**識別碼 \_ PSREBOOTSYSTEM**</dt> </dl>   | 頁面傳送了 [**PSM \_ REBOOTSYSTEM**](psm-rebootsystem.md) 訊息給屬性工作表。 電腦必須重新開機，使用者的變更才會生效。<br/> |
 | <dl> <dt>**識別碼 \_ PSRESTARTWINDOWS**</dt> </dl> | 頁面傳送了 [**PSM \_ RESTARTWINDOWS**](psm-restartwindows.md) 訊息給屬性工作表。 必須重新開機 Windows，使用者的變更才會生效。<br/>  |
@@ -79,8 +79,8 @@ ms.locfileid: "104509076"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

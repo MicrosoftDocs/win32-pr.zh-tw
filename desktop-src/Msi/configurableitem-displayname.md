@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 079138c978ee670b681186c5ee265a8002881b79
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a9dba853ad875e5167b8ff642c2cf106ba600dcb4c951def5c249e8230d0365
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143974"
 ---
 # <a name="configurableitemdisplayname-property"></a>ConfigurableItem DisplayName 屬性
 

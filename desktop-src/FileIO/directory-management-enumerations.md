@@ -4,12 +4,12 @@ ms.assetid: D65461E2-C18C-4EB9-83B8-D91D31880550
 title: 目錄管理列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b36972723fe1980cc3c6ffa1d5b80967d6dabf2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c6c3ab15c731d9a925babd33ebb14984faafcdc9a67c355320fce5c4434a319
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150446"
 ---
 # <a name="directory-management-enumerations"></a>目錄管理列舉
 

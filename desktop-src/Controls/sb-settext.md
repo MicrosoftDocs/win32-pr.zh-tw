@@ -3,7 +3,7 @@ title: 'SB_SETTEXT 訊息 (Commctrl .h) '
 description: 在狀態視窗的指定部分中設定文字。
 ms.assetid: 6039a61c-6ec6-42cd-94d5-5f1cf2998586
 keywords:
-- SB_SETTEXT message Windows 控制項
+- SB_SETTEXT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a466187b4ccd00a974b992eacec11938f45001da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0fcf0a7928e87cbc614a59dc64b433223afa97bbdac3f45f1635cb8cfe7b34a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408881"
 ---
 # <a name="sb_settext-message"></a>SB \_ SETTEXT 訊息
 
@@ -107,7 +107,7 @@ ms.locfileid: "104105066"
 
 此訊息會使已變更視窗的部分失效，使其在視窗下一次收到 [**WM \_ 油漆**](/windows/desktop/gdi/wm-paint) 訊息時顯示新的文字。
 
-一般視窗會將文字從左至右顯示 (LTR) 。 Windows 可以進行 *鏡像* ，以顯示如希伯來文或阿拉伯文等語言，由右至左 (RTL) 。 如果 \_ 設定了 SBT RTLREADING，則會從父視窗中的文字，以相反的方向讀取 *lParam* 字串。
+一般視窗會將文字從左至右顯示 (LTR) 。 Windows 可以進行 *鏡像*，以顯示如希伯來文或阿拉伯文等語言，由右至左 (RTL) 。 如果 \_ 設定了 SBT RTLREADING，則會從父視窗中的文字，以相反的方向讀取 *lParam* 字串。
 
 ## <a name="requirements"></a>規格需求
 
@@ -115,8 +115,8 @@ ms.locfileid: "104105066"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **SB \_SETTEXTW** (Unicode) 和 **SB \_ SETTEXTA** (ANSI) <br/>                     |
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e44ec040284117589b02d359ba7e2d47020aaca
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b4ab187b14a073304b967aec8c3ea54be9819b9f580a36285ef2bc18b129d9a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118014358"
 ---
 # <a name="ms-ds-usn-last-sync-success-attribute"></a>ms DS-USN-上次同步處理-Success 屬性
 
@@ -54,7 +54,7 @@ ms.locfileid: "104385446"
 | 連結識別碼                | \-                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                               |
 | System-Only            | 否                                                                                                                            |
-| 是-單一值       | 對                                                                                                                             |
+| 是-單一值       | 是                                                                                                                             |
 | 已編制索引             | 否                                                                                                                            |
 | 在通用類別目錄中      | 否                                                                                                                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                     |
@@ -62,7 +62,7 @@ ms.locfileid: "104385446"
 | Range-Upper            | \-                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                       |
 | System-Flags           | 0x00000019                                                                                                                       |
-| 中使用的類別        | [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> [**網域 DNS**](c-domaindns.md)<br/> |
+| 中使用的類別        | [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> [**網域 DNS**](c-domaindns.md)<br/> |
 
 
 
@@ -75,7 +75,7 @@ ms.locfileid: "104385446"
 | 連結識別碼                | \-                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                               |
 | System-Only            | 否                                                                                                                            |
-| 是-單一值       | 對                                                                                                                             |
+| 是-單一值       | 是                                                                                                                             |
 | 已編制索引             | 否                                                                                                                            |
 | 在通用類別目錄中      | 否                                                                                                                            |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                     |
@@ -83,7 +83,7 @@ ms.locfileid: "104385446"
 | Range-Upper            | \-                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                       |
 | System-Flags           | 0x00000019                                                                                                                       |
-| 中使用的類別        | [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> [**網域 DNS**](c-domaindns.md)<br/> |
+| 中使用的類別        | [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> [**網域 DNS**](c-domaindns.md)<br/> |
 
 
 

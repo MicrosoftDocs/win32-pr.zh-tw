@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 178f0a7c054169d972acb6b60a9cc80578fd13e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0ccfcb1a59f0db6d29881d139d16bd08308a40df2c1233beab66b0b4814caa84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129265"
 ---
 # <a name="irdvtaskpluginterminate-method"></a>IRDVTaskPlugin：： Terminate 方法
 

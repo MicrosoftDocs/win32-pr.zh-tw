@@ -4,12 +4,12 @@ ms.assetid: 18081652-962f-4605-84b7-1fa60f61ad05
 title: 發出原始的 AV/C 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1cf1b25d45a0eb35ede7151941d0cd49d30db0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 729cad0be3a55a3f95592e54e8f91b9074892a8d111da9ad996b4e00a136cbe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153785"
 ---
 # <a name="issuing-raw-avc-commands"></a>發出原始的 AV/C 命令
 
@@ -22,7 +22,7 @@ ms.locfileid: "104385651"
 -   一次只能指定一個命令。 處理此命令時，裝置將會拒絕任何其他命令。
 -   UVC 驅動程式不支援原始的 AV/C 命令。
 
-若要傳送 AV/C 命令，請將命令格式化為位元組陣列。 然後呼叫 [**IAMExtTransport：： GetTransportBasicParameters**](/windows/desktop/api/Strmif/nf-strmif-iamexttransport-gettransportbasicparameters)。 傳入 ED \_ RAW \_ EXT \_ DEV \_ CMD 旗標、陣列大小，以及陣列。 因為此參數的原始用途是要傳回字串值，所以您必須將陣列位址轉換成 **LPOLESTR \** _ 類型。
+若要傳送 AV/C 命令，請將命令格式化為位元組陣列。 然後呼叫 [**IAMExtTransport：： GetTransportBasicParameters**](/windows/desktop/api/Strmif/nf-strmif-iamexttransport-gettransportbasicparameters)。 傳入 ED \_ RAW \_ EXT \_ DEV \_ CMD 旗標、陣列大小，以及陣列。 您必須將陣列位址轉換成 **LPOLESTR \*** 型別，因為這個參數的原始用途是傳回字串值。
 
 
 ```C++
@@ -31,7 +31,7 @@ long cbCmd = sizeof(AvcCmd);
 hr = pTransport->GetTransportBasicParameters(
     ED_RAW_EXT_DEV_CMD, 
     &cbCmd,
-    (LPOLESTR_) AvcCmd);
+    (LPOLESTR*) AvcCmd);
 ```
 
 

@@ -4,12 +4,12 @@ ms.assetid: 579ae4ee-47a0-440e-81ca-ea8bf60c5349
 title: 並行安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d89f2ef4af062c8151935fefab471603f79d7633
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09264df8c47c08f7d1512b46d65572d3572d5190f960254c8ed13182dd668657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144405"
 ---
 # <a name="concurrent-installations"></a>並行安裝
 
@@ -21,7 +21,7 @@ ms.locfileid: "103850252"
 
 
 
-| 自訂動作類型                                 | Description                                                                     |
+| 自訂動作類型                                 | 描述                                                                     |
 |----------------------------------------------------|---------------------------------------------------------------------------------|
 | [自訂動作類型7](custom-action-type-7.md)   | 產品的並行安裝，位於安裝套件中。      |
 | [自訂動作類型23](custom-action-type-23.md) | 在目前的來源樹狀結構中同時安裝安裝程式套件。 |

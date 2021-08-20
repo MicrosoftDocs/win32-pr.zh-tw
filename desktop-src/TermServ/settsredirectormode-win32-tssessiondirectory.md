@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95e3195a83a32dca0c8e4a96de211a72a66a8f3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6350d4b9a4858991616d45eb2b1092fe406c59b55b11c494a7f19be53dbb60ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118127274"
 ---
 # <a name="settsredirectormode-method-of-the-win32_tssessiondirectory-class"></a>Win32 TSSessionDirectory 類別的 SetTSRedirectorMode 方法 \_
 

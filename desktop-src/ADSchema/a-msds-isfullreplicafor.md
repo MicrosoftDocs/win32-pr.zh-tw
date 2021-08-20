@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f2b8846c8f615a1251960c9ae3e7b06def08b9a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 14b21b46c93221dccf16ca7745fe339cfceec200bbcc7586f0eb9db3107c4f7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426136"
 ---
 # <a name="ms-ds-is-full-replica-for-attribute"></a>ms-chap-已滿-複本-代表屬性
 
@@ -54,7 +54,7 @@ ms.locfileid: "106988543"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2105                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -75,7 +75,7 @@ ms.locfileid: "106988543"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2105                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -96,7 +96,7 @@ ms.locfileid: "106988543"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2105                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |

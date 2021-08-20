@@ -12,12 +12,12 @@ keywords:
 - '非統一的有理 B 曲線 (NURBS) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e0e56c06eea4e4a9a48f9062205277f8b999499
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af6990d2292399cb1ccaf00ba6ec42d680c5ace887b2495daf8640db2da30ac5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132407"
 ---
 # <a name="porting-nurbs-objects"></a>移植 NURBS 物件
 
@@ -33,7 +33,7 @@ OpenGL 會將 NURBS 視為物件，類似于其處理 quadrics 的方式：您�
 
 
 
- 
+ 
 
 將鳶尾花 GL NURBS 程式碼移植至 OpenGL 時，請記住下列幾點：
 
@@ -43,9 +43,9 @@ OpenGL 會將 NURBS 視為物件，類似于其處理 quadrics 的方式：您�
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

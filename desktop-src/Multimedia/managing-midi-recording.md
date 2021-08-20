@@ -9,12 +9,12 @@ keywords:
 - MIDI 記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0edfb81976e1f5333798c9705640e7676281968a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 29bf4ac85ad0cc9735a08bab3ee07d744eecb0d75308ee323ec93c1c69b1a9e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139059"
 ---
 # <a name="managing-midi-recording"></a>管理 MIDI 錄製
 
@@ -31,7 +31,7 @@ ms.locfileid: "104462973"
 
 
 
- 
+ 
 
 若要將緩衝區傳送到設備磁碟機以記錄系統專屬的訊息，請使用 [**midiInAddBuffer**](/windows/win32/api/mmeapi/nf-mmeapi-midiinaddbuffer)。 當緩衝區填入系統專屬記錄資料時，就會通知應用程式。 如需有關通知技術的詳細資訊，請參閱 [管理 MIDI 資料區塊](managing-midi-data-blocks.md)。
 
@@ -48,6 +48,6 @@ ms.locfileid: "104462973"
 [錄製 MIDI 音訊](recording-midi-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

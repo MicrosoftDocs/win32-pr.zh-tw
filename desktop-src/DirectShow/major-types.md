@@ -4,12 +4,12 @@ ms.assetid: 718a07f6-e2e4-4670-b9cf-982b53abffd2
 title: '主要類型 (Dshow .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5722cbad713f2fb9ae876e58941bde44c2e110
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3764bffabb85b3b054fc7589d4eae9677adbc8835d0e4aa3029d31834eb887c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153240"
 ---
 # <a name="major-types"></a>主要類型
 
@@ -17,7 +17,7 @@ ms.locfileid: "107000781"
 
 
 
-| GUID                                                                                                                                                                                                                                  | Description                                                                                               |
+| GUID                                                                                                                                                                                                                                  | 描述                                                                                               |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
 | <span id="MEDIATYPE_AnalogAudio"></span><span id="mediatype_analogaudio"></span><span id="MEDIATYPE_ANALOGAUDIO"></span><dl> <dt>**媒體 \_ AnalogAudio**</dt> </dl>         | 類比音訊。<br/>                                                                                  |
 | <span id="MEDIATYPE_AnalogVideo"></span><span id="mediatype_analogvideo"></span><span id="MEDIATYPE_ANALOGVIDEO"></span><dl> <dt>**媒體 \_ AnalogVideo**</dt> </dl>         | 類比影片。<br/>                                                                                  |

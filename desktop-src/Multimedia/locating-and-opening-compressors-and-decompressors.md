@@ -8,12 +8,12 @@ keywords:
 - ICLocate 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d45b07c619095b4d50bdbdde5c3d2b1ca9209471
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c861c9fb5c317b6b0fc3a48552db200389739ebd8a53dbf15fbdbd0564ba8f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139299"
 ---
 # <a name="locating-and-opening-compressors-and-decompressors"></a>尋找和開啟壓縮機和 Decompressors
 
@@ -107,9 +107,9 @@ hIC = ICLocate (ICTYPE_VIDEO, 0L,
 [使用影片壓縮管理員](using-the-video-compression-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
