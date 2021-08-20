@@ -4,12 +4,12 @@ ms.assetid: 370b0118-b893-45c2-b9df-333afb12ee81
 title: 加密檔案和使用者金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 840523b25244bbd06ef05fe24083a187968a5a66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a813c796217b536a86ba8c4b9a6e8e3567c45c004a71309bec78719a43282d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117997559"
 ---
 # <a name="encrypted-files-and-user-keys"></a>加密檔案和使用者金鑰
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fa8512169d0e5b3d6892dd1bf615a220143e6d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7090a2a9b652d7c989aadd70d8843ece04bf467bbbe353c22c3f76fee8a9712b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137949"
 ---
 # <a name="mci_tmsf_track-macro"></a>MCI \_ TMSF \_ TRACK 宏
 
@@ -80,7 +80,7 @@ TMSF 格式的時間是以 **DWORD** 值來表示，其中包含最不重要的�
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 宏](mci-macros.md)

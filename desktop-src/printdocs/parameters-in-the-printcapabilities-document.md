@@ -4,12 +4,12 @@ ms.assetid: d317d052-c207-412a-896e-09cb57b0dd5f
 title: PrintCapabilities 檔中的參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc6b2ba61f1985fdcd02f40e8e08100725968a8e
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 67a2d88e75372cfc2f1301c630116c12510b37c91aadbf94a04ac07a3f4906cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867990"
 ---
 # <a name="parameters-in-the-printcapabilities-document"></a>PrintCapabilities 檔中的參數
 

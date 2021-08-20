@@ -4,16 +4,16 @@ ms.assetid: b48c2f3f-24ef-48a8-849f-7abed69c0fc9
 title: ICE71
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c6e136362caa13da2b6305e3d8c3ca9c3a5c7bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb1090eb8b1a36ed361ef763bfda3875a8fde052ed8643dceeb660c88ae954a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142512"
 ---
 # <a name="ice71"></a>ICE71
 
-ICE71 會確認 [媒體資料表](media-table.md) 是否包含 DiskId 等於1的專案。  (Windows Installer 會假設 .msi 封裝位於磁片1上。 ) 
+ICE71 會確認 [媒體資料表](media-table.md) 是否包含 DiskId 等於1的專案。  (Windows Installer 會假設 .msi 的封裝位於磁片1上。 ) 
 
 ## <a name="result"></a>結果
 

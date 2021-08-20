@@ -4,12 +4,12 @@ ms.assetid: E6E81E04-9CC1-4df5-9A87-DE0CBD177356
 title: 註冊和散發屬性處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce53f0805c4db5efe38e77ba4e7d1ab5b331c83f
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 2a6a21ba1ae45848fd319d68bfee0624cf5686d3324cc4a3dff039dc94691cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867400"
 ---
 # <a name="registering-and-distributing-property-handlers"></a>註冊和散發屬性處理常式
 

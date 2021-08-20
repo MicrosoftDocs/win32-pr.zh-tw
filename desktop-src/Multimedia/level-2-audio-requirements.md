@@ -9,12 +9,12 @@ keywords:
 - MPC 層級2，音訊需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e20458f8dcb26149c9fa697587faf93cf10c0f27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f5a2bc9398a25ac916352f41ad2ddc2325820354d1c7beb511b03b27004fadd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139829"
 ---
 # <a name="level-2-audio-requirements"></a>層級2音訊需求
 
@@ -44,9 +44,9 @@ ms.locfileid: "103672443"
     -   混合來源為 CD Red Book 音訊、合成器和 DAC
     -   每個混合來源都有具有對數錐度的3位音量控制項
 
- 
+ 
 
- 
+ 
 
 
 

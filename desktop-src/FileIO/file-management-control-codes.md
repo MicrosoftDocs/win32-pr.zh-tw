@@ -4,12 +4,12 @@ ms.assetid: e27ded4b-d104-4244-b38e-5fed10d32e1e
 title: 檔案管理控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64cb3baf78c4066a640242afe8465592bc9a6f8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d02cc18cb775aa56ade9a417ee22388353b34821d5747abdfd9bc18db958034e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117997289"
 ---
 # <a name="file-management-control-codes"></a>檔案管理控制碼
 
@@ -19,7 +19,7 @@ ms.locfileid: "103852127"
 
 
 
-| 控制程式代碼                                                                                    | Description                                                                                                                                                                                         |
+| 控制程式代碼                                                                                    | 描述                                                                                                                                                                                         |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**FSCTL \_ 允許 \_ 擴充的 \_ DASD \_ IO**](/windows/win32/api/winioctl/ni-winioctl-fsctl_allow_extended_dasd_io)<br/>             | 通知檔案系統驅動程式不要針對分割區讀取或寫入呼叫執行任何 i/o 界限檢查。<br/>                                                                                  |
 | [**FSCTL \_ 建立 \_ 或 \_ 取得 \_ 物件 \_ 識別碼**](/windows/win32/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id)<br/>          | 抓取指定檔案或目錄的物件識別碼。 如果沒有物件識別碼，使用 **FSCTL \_ CREATE \_ 或 \_ GET \_ 物件 \_ ID 就** 會建立一個。<br/>                           |
@@ -43,7 +43,7 @@ ms.locfileid: "103852127"
 | [**FSCTL \_ 查詢配置的 \_ \_ 範圍**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges)<br/>              | 掃描檔案或替代資料流程，以尋找可能包含非零資料的範圍。<br/>                                                                                                       |
 | [**\_磁片區 \_ \_ \_ \_ 資訊上的 FSCTL 查詢**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_on_disk_volume_info)<br/>      | 要求 UDF 特定的磁片區資訊。<br/>                                                                                                                                                |
 | [**FSCTL \_ 查詢的 \_ 備用 \_ 資訊**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_sparing_info)<br/>                      | 抓取磁片區的瑕疵管理屬性。 用於 UDF 檔案系統。<br/>                                                                                                     |
-| [**FSCTL \_ 召回 \_ 檔案**](/windows/win32/api/winioctl/ni-winioctl-fsctl_recall_file)<br/>                                     | 從遠端存放裝置管理的存放裝置媒體（即階層式存放裝置管理軟體）重新叫用檔案。<br/>                                                                    |
+| [**FSCTL \_ 召回 \_ 檔案**](/windows/win32/api/winioctl/ni-winioctl-fsctl_recall_file)<br/>                                     | 從遠端儲存體管理的存放裝置媒體重新叫用檔案，也就是階層式存放裝置管理軟體。<br/>                                                                    |
 | [**FSCTL \_ 要求 \_ 批次 \_ OPLOCK**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_batch_oplock)<br/>                  | 要求批次檔的批次隨機鎖定。<br/>                                                                                                                                           |
 | [**FSCTL \_ 要求 \_ 篩選 \_ OPLOCK**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_filter_oplock)<br/>                | 要求檔案的篩選隨機鎖定。<br/>                                                                                                                                          |
 | [**FSCTL \_ 要求 \_ OPLOCK**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_oplock)<br/>                               | 要求) 檔案上的隨機鎖定 (oplock，並確認已發生 oplock 中斷。<br/>                                                                                    |

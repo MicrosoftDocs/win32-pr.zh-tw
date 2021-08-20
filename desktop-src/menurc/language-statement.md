@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9563ba2ec00362a3b9caa3911a701919a81cae1e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b40971044f12897cd9c797fc2a2c44b0f34f81f4e1323e9689ea70905cac76da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117687463"
 ---
 # <a name="language-statement"></a>LANGUAGE 語句
 
@@ -69,6 +69,6 @@ LANGUAGE language, sublanguage
 [**版本**](version-statement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 5b747b3c-3b77-4913-932f-182114d1f674
 title: 'WM_TABLET_QUERYSYSTEMGESTURESTATUS 訊息 (Tpcshrd .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 395196f963cae9b8d18697276e546f1eba05b245
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cbde7fb6147771cadcac8dba4d6fc104432d6c6793a9e72238d99b4b64b5065
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118041700"
 ---
 # <a name="wm_tablet_querysystemgesturestatus-message"></a>WM \_ 平板電腦 \_ QUERYSYSTEMGESTURESTATUS 訊息
 
@@ -127,8 +127,8 @@ void SetTabletpenserviceProperties(HWND hWnd){
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Tpcshrd。h</dt> </dl> |
 
 

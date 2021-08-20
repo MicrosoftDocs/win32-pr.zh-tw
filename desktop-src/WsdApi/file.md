@@ -4,12 +4,12 @@ ms.assetid: d2ee6886-995f-453d-8121-f849b2d910ec
 title: file 項目
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41970da9cc6e389f4e45c5e55901ce8eb2e7797f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: afd3fbd3f52bb2fba10f77f0589016267703811808d5eb51b90cf2a59f1425bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920762"
 ---
 # <a name="file-element"></a>file 項目
 
@@ -40,7 +40,7 @@ ms.locfileid: "107995865"
 
 | 元素                                                                                                 | 描述                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Cdata**<br/>                                                                                    | 在不修改的情況下，會將 Text 和 CDATA 區段複製到檔案。 您可以使用 text 和 CDATA 區段，將不是合約輸入資料功能的原始程式碼新增至輸出檔案。<br/> <br/> |
+| **CDATA**<br/>                                                                                    | 在不修改的情況下，會將 Text 和 CDATA 區段複製到檔案。 您可以使用 text 和 CDATA 區段，將不是合約輸入資料功能的原始程式碼新增至輸出檔案。<br/> <br/> |
 | [**enumerationValueDeclarations**](enumerationvaluedeclarations.md)<br/>                         | 針對所有列舉類型的值產生 C 宣告。<br/> <br/>                                                                                                                                   |
 | [**eventSourceBuilderDeclarations**](eventsourcebuilderdeclarations.md)<br/>                     | 針對建立事件來源類別的函式產生宣告。<br/> <br/>                                                                                                                         |
 | [**eventSourceBuilderImplementations**](eventsourcebuilderimplementations.md)<br/>               | 產生建立事件來源類別的函式。<br/> <br/>                                                                                                                                          |

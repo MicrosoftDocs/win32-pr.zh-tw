@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f79bfdb946d286c31ce284efa09e75ad93c34438
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 18241f7172cc20c1517e67b7671c8c0c4dd78f939018ac54f4a98a23ae10c088
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "106967872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117996007"
 ---
 # <a name="show-servicestate"></a>show servicestate
 
@@ -52,9 +52,9 @@ show servicestate [[view=]{session|requestq}] [[verbose=]{yes|no}]
 
 **顯示 servicestate view = requestq verbose = yes**
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: 72a3fb10-4554-4a4d-bb73-ee515341b9c1
 title: DestLongitude
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a64f4fe5229195bcbc976d78f9a0b09b053a94ca
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: ae1e7b3482a5e632f774f500bcfe254667c120a3b5ea653c3725a354cbf95025
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111988883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866401"
 ---
 # <a name="systemgpsdestlongitude"></a>DestLongitude
 
 表示目的地點的緯度。 這是三個值的陣列，如下所示：索引0是度數，索引1是分鐘，索引2是秒。 每個都是從 PKEY \_ gps \_ DESTLONGITUDENUMERATOR 和 PKEY \_ gps DestLongitudeDenominator 中的值計算而來 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

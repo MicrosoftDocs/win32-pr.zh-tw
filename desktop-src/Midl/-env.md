@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59da7185900d4b75781916bd6b4a9d70bf39dc85
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 86114a14d3e8fd9a5f8ca01da6bea259fd635f4758101c0bfab54d03d2986fa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117992355"
 ---
 # <a name="env-switch"></a>/env 參數
 
@@ -116,6 +116,6 @@ midl /env { win32 | ia64 | amd64 | win64 }
 [**/Zp**](-zp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

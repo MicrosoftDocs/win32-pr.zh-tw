@@ -4,12 +4,12 @@ ms.assetid: 8de687c8-c7da-497e-8a90-2404096ad100
 title: 匯入當地語系化的錯誤和 ActionText 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d48a68ca1053a1a1c66899a17802ac337c3ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bda0916f634d986874cd17f9871fa602277b180e1ba436e9d9786fb061f3ac4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142233"
 ---
 # <a name="importing-localized-error-and-actiontext-tables"></a>匯入當地語系化的錯誤和 ActionText 資料表
 
@@ -17,7 +17,7 @@ ms.locfileid: "106981012"
 
 您可以使用資料表編輯器 Orca 或 SDK 隨附的公用程式 Msidb.exe，將這些資料表的法文版本匯入資料庫中。
 
-使用 [**MsiDatabaseImport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta)的範例和 [**資料庫物件**](database-object.md)的匯 [**入方法**](database-import.md)，會以公用程式 WiImport.vbs 的形式在 Windows Installer SDK 中提供。 下列程式碼片段 Imp.vbs 也說明了匯入方法的使用方式，並可用於 Windows Script Host。
+使用 [**MsiDatabaseImport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta)的範例和 [**資料庫物件**](database-object.md)的匯 [**入方法**](database-import.md)，會以公用程式 WiImport.vbs 的形式在 Windows Installer SDK 中提供。 下列程式碼片段 Imp.vbs 也說明了匯入方法的使用方式，以及搭配 Windows 腳本主機使用。
 
 
 ```VB

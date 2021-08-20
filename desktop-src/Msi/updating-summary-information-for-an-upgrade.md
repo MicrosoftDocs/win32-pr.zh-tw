@@ -4,12 +4,12 @@ ms.assetid: 786e864a-93e0-4ea6-adab-e87afbdd6ac2
 title: 更新升級的摘要資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9bee3457b9ebbe0264d569f37d8ed5a3e372df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6849a315f5251538acc749d3c3a2ed5605d82ec4159fadf584b5a087a9beaeee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141594"
 ---
 # <a name="updating-summary-information-for-an-upgrade"></a>更新升級的摘要資訊
 
@@ -27,7 +27,7 @@ ms.locfileid: "104027445"
 | [**主體**](subject-summary.md)                                             | MNP2001                                                                          | 檔案瀏覽器可以將此資料庫顯示為與此資料庫一起安裝的產品。                                                                                                                                                                                                                                                                                                                    |
 | [**關鍵字**](keywords-summary.md)                                           | 安裝程式、MSI、資料庫                                                         | 能夠搜尋關鍵字的檔案瀏覽器可以搜尋這些字。                                                                                                                                                                                                                                                                                                                      |
 | [**作者**](author-summary.md)                                               | Microsoft Corporation                                                            | 產品製造商的名稱。                                                                                                                                                                                                                                                                                                                                                                  |
-| [**註解**](comments-summary.md)                                           | 此安裝程式資料庫包含安裝 [記事本] 所需的邏輯和資料。 | 通知使用者此資料庫的用途。                                                                                                                                                                                                                                                                                                                                                    |
+| [**註解**](comments-summary.md)                                           | 此安裝程式資料庫包含安裝記事本所需的邏輯和資料。 | 通知使用者此資料庫的用途。                                                                                                                                                                                                                                                                                                                                                    |
 | [**正在建立應用程式**](creating-application-summary.md)                   | 逆 戟 鯨                                                                             | 用來建立安裝資料庫的應用程式。 此範例會將 Orca 資料庫編輯器指定為範例。                                                                                                                                                                                                                                                                                   |
 | [**安全性**](security-summary.md)                                           | 0                                                                                | 範例資料庫是不受限制的讀寫。                                                                                                                                                                                                                                                                                                                                                      |
 

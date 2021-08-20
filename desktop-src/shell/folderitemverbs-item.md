@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 013215af3f5005e68b396312d0ef13fa974d8a32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 86cb3ee7c9d62d943a369dd18cb4471e0682c1c1d0f5e6193a6f34b8c0451203
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859850"
 ---
 # <a name="folderitemverbsitem-method"></a>FolderItemVerbs 專案方法
 
@@ -56,9 +56,9 @@ retVal = FolderItemVerbs.Item(
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 **專案** 來抓取集合中可供主控台資料夾使用的第一個動詞命令，並顯示其名稱。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例會使用 **專案** 來抓取集合中可供主控台資料夾使用的第一個動詞命令，並顯示其名稱。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -176,10 +176,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

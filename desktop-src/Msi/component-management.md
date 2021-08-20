@@ -4,12 +4,12 @@ ms.assetid: fbb139e3-c81b-44fc-9e92-bada0be02862
 title: 元件管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeff6c25556879429330170ec8190b1296576517
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a818e6ceab0ed793ded2bdd0034d9fe8355d16fbbea1d5c78d521f4682b7c373
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144810"
 ---
 # <a name="component-management"></a>元件管理
 
