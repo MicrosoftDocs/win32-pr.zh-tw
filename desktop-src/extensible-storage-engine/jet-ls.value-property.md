@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1e4da8acd166522b51c3b30ebc5e374782ffbb15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6cc7941c3815f43f1ccf46ddd5817965214d28a4e33a0c27befb05fcdf90dcc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118074319"
 ---
 # <a name="jet_lsvalue-property"></a>JET_LS。Value 屬性
 

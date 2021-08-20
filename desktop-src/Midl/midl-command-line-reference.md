@@ -7,12 +7,12 @@ keywords:
 - 命令列參考 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1569e29daf8a2976379576a5f1671f5117e7990c
-ms.sourcegitcommit: 9cf1ed65dfbea1ba118b63d0656f30c3685d8520
+ms.openlocfilehash: d1b7b3182d6a121fb417e5621fe1fb590dba896ebd4d3960b14a99cec3b35af2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106969828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991201"
 ---
 # <a name="midl-command-line-reference"></a>MIDL Command-Line 參考
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: e7e1dc50f115fbd2ace84a3b631d37a42e1c4ba7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87dca9643174b9497e0643d1c0fdcfcd8c57c18e638f7cf8441ea08b8e958a7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118026345"
 ---
 # <a name="wpd_focus_modes-enumeration"></a>WPD \_ 焦點 \_ 模式列舉
 

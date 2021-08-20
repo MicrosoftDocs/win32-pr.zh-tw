@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 156cb15fa1e4746fc7489203addd6395b8297be6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e0bdc03bfcdb4266f98c93e0b82e42d427267431e6f9606d520569b6ae7be333
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118028033"
 ---
 # <a name="wmmediaispremiere"></a>WM/MediaIsPremiere
 
@@ -42,9 +42,9 @@ g \_ wszWMMediaIsPremiere
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74d570993b7f6f94d03ea1aa5b5bfcab9377e3c2
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c0d1c2b1d788bae3d6e19cebb2f1bd9b51adc6c928d224b4895642daab393645
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118027881"
 ---
 # <a name="wmpromotionurl"></a>WM/PromotionURL
 
@@ -38,9 +38,9 @@ g \_ wszWMPromotionURL
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

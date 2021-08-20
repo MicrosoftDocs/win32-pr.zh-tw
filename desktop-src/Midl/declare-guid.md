@@ -11,12 +11,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 02/05/2021
-ms.openlocfilehash: 495acd64e79544d067ff124a88289219919a7fb6
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: a6854836ef0c45d1892bda9edb250a8c8cfa7d69862ac3424e2a2e96a43991d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "106992226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991505"
 ---
 # <a name="declare_guid-keyword"></a>declare \_ guid 關鍵字
 

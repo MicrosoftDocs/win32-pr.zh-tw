@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 717d5234bd419fec7107a6d983ece026b4558935
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 390f255526d6a1394905bed5ddf41b16e96e3710ed467bfbec49408afbee6be6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117992450"
 ---
 # <a name="app_config-switch"></a>/app \_ config 參數
 
@@ -54,9 +54,9 @@ Microsoft RPC 的未來版本可能會支援在 IDL 檔案中使用其他 ACF �
 [一般 MIDL 命令列語法](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 58201596-cb8c-480a-abef-896c1f9ef098
 title: 概觀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a32b99c6079fdb61fd6bfd0033ffccb9ebb7b922
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1b6ae457023dff36bfdaf97275c8309bfcfc5c0a12b209dac1921d1a7479940
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117965104"
 ---
 # <a name="overview"></a>概觀
 
@@ -34,7 +34,7 @@ Unicode 和 ANSI 版本適用于大部分的設定函數。 Unicode 文字檔應
 
 雖然安裝程式 API 支援提示輸入新的媒體和基本的錯誤處理對話方塊，但安裝函式不會提供 wizard 功能或一般使用者介面。
 
-開發人員應考慮是否可以使用 [Windows Installer](/windows/desktop/Msi/windows-installer-portal) 安裝其應用程式，而不是安裝程式 API。 Windows Installer 藉由讓客戶有效率地安裝及設定您的產品和應用程式，以降低其擁有權 (TCO) 的擁有權總成本。 安裝程式也可以為您的產品提供新功能，以在不安裝的情況下通告功能、隨選安裝產品，以及新增使用者自訂。
+開發人員應考慮是否可以使用[Windows Installer](/windows/desktop/Msi/windows-installer-portal)安裝其應用程式，而不是安裝程式 API。 Windows安裝程式可讓客戶有效率地安裝及設定您的產品和應用程式，以降低客戶的擁有權總成本 (TCO) 。 安裝程式也可以為您的產品提供新功能，以在不安裝的情況下通告功能、隨選安裝產品，以及新增使用者自訂。
 
  
 

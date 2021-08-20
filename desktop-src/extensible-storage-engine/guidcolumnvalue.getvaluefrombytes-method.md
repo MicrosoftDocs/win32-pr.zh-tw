@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 06f10cef46603d6cf023ed3786b3c6bbe1b1a3a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5521289344ba114d7b1d3abcec50702762a082d0332a31c0ed35a3ce1f3571c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118077417"
 ---
 # <a name="guidcolumnvaluegetvaluefrombytes-method"></a>GuidColumnValue. GetValueFromBytes 方法
 
@@ -69,7 +69,7 @@ protected override void GetValueFromBytes(
 
 #### <a name="parameters"></a>參數
 
-  - value  
+  - 值  
     類型： \[\]  
     
     位元組陣列。

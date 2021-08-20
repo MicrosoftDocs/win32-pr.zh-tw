@@ -4,20 +4,20 @@ ms.assetid: 6b654cd6-7e9f-4e12-a687-4110e600ba7b
 title: 資源的需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5702555704137f4280e527f0fc26f176435238ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca302fcd11abf4bbadc1adfafb1a1be67141055ea7f9a5366991f231cca44fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118027145"
 ---
 # <a name="requirements-for-resources"></a>資源的需求
 
-Windows 可攜式裝置會將下列資源類別定義為 **PROPERTYKEY** 值。 這些值是用來描述物件中的個別資源。 屬性索引鍵的 *pid* 成員可以不同，以描述相同類型之相同類型的不同資源，但 **WPD \_ 資源 \_ 預設** 除外，但只能描述一項資源。 每個資源類型的連結描述頁面會列出該資源所支援的屬性。
+Windows可攜式裝置會將下列資源類別定義為 **PROPERTYKEY** 值。 這些值是用來描述物件中的個別資源。 屬性索引鍵的 *pid* 成員可以不同，以描述相同類型之相同類型的不同資源，但 **WPD \_ 資源 \_ 預設** 除外，但只能描述一項資源。 每個資源類型的連結描述頁面會列出該資源所支援的屬性。
 
 
 
-| 資源 PROPERTYKEY                                                | Description                                                                                                    |
+| 資源 PROPERTYKEY                                                | 描述                                                                                                    |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [**WPD \_ 資源 \_ 預設**](wpd-resource-default.md)              | 指定物件後方的整個檔案。 這是具有資源之任何物件的唯一必要資源。 |
 | [**WPD \_ 資源 \_ 專輯 \_ 封面**](wpd-resource-album-art.md)         | 指定代表物件之專輯作品的影像。                                           |

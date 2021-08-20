@@ -3,7 +3,7 @@ title: escape 命令
 description: Escape 命令會將裝置特定資訊傳送至裝置。 Videodisc 裝置會辨識此命令。
 ms.assetid: 16e0e2b6-6d98-440a-86c1-eca8201ad61a
 keywords:
-- escape 命令 Windows 多媒體
+- Windows 多媒體的 escape 命令
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b04f7a2ef6c2e91adc9b24a044d0a7e941843f9e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ff2f65ee79d248266381782de9900677ea78af9c5ea64867574eeaf8917e358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117988458"
 ---
 # <a name="escape-command"></a>escape 命令
 
@@ -87,7 +87,7 @@ escape videodisc SA
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

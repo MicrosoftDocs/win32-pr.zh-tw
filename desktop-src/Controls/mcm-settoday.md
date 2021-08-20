@@ -3,7 +3,7 @@ title: 'MCM_SETTODAY 訊息 (Commctrl .h) '
 description: 設定 \ 0034; today \ 0034;月曆控制項的選取專案。 您可以使用 MonthCal SetToday 宏明確地傳送此訊息 \_ 。
 ms.assetid: fcd4d33d-e661-4e02-8d19-666d80e1a070
 keywords:
-- MCM_SETTODAY message Windows 控制項
+- MCM_SETTODAY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2b725e5f61e3c08170a323b063616434acb857e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea32e9ffc4d987ebf7d94e4508fbf7a057dbb5fe1115fea54ff82095f9d95938
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118005301"
 ---
 # <a name="mcm_settoday-message"></a>MCM \_ SETTODAY 訊息
 
@@ -56,8 +56,8 @@ ms.locfileid: "103686584"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

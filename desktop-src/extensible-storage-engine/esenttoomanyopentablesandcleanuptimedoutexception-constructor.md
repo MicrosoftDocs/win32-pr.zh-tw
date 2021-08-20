@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 06392f70d7dd9f6a0561e306198003e311ca13b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27e7564f08870beb7374d8557abf0f15b6707ff9c453fb7bc7b7ce380c74bcc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118078227"
 ---
 # <a name="esenttoomanyopentablesandcleanuptimedoutexception-constructor"></a>EsentTooManyOpenTablesAndCleanupTimedOutException 函式
 

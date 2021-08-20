@@ -4,12 +4,12 @@ ms.assetid: 6305cff9-c0ce-4ef5-a129-bc329b9c563f
 title: 將 Properties-Only 物件傳輸至裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e20f9bcfecd46ea3047310ea5b946a366b35b9c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfefd2b910dd4ca585c82a4e50e894e5d9376cdf6334e27cee1fed10e3893a9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118026855"
 ---
 # <a name="transferring-a-properties-only-object-to-the-device"></a>將 Properties-Only 物件傳輸至裝置
 

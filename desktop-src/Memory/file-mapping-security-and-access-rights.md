@@ -1,19 +1,19 @@
 ---
-description: Windows 安全性模型可讓您控制對檔案對應物件的存取。 如需詳細資訊，請參閱 Access-Control 模型。
+description: Windows 的安全性模型可讓您控制對檔案對應物件的存取。 如需詳細資訊，請參閱 Access-Control 模型。
 ms.assetid: 8bbf7c98-ff83-4ed9-8b82-f08dcd31295c
 title: 檔案對應安全性和存取權限
 ms.topic: article
 ms.date: 10/06/2018
-ms.openlocfilehash: 65d520e12d1b555e7c633f0d1e0ba5142c330ce8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b34c383536e193023d08cc9b73363ffcc5f876e59fbfb520c78c74478090c501
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117992821"
 ---
 # <a name="file-mapping-security-and-access-rights"></a>檔案對應安全性和存取權限
 
-Windows 安全性模型可讓您控制對檔案對應物件的存取。 如需詳細資訊，請參閱 [存取控制模型](../secauthz/access-control-model.md)。
+Windows 的安全性模型可讓您控制對檔案對應物件的存取。 如需詳細資訊，請參閱 [存取控制模型](../secauthz/access-control-model.md)。
 
 當您呼叫 [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga)函數時，可以指定檔案對應物件的 [安全描述項](../secauthz/security-descriptors.md)。 如果您指定 **Null**，則物件會取得預設安全描述項。 檔案對應物件之預設安全描述項中的 Acl 來自于建立者的主要或模擬權杖。
 

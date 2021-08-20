@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b3c8aaeaa43564d7e4839ed14e99d830ba75ec3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: fda60567b3d523f46fbc287d03d5695396919f8f32aebfdf26a86c07d6f476b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118028127"
 ---
 # <a name="wmdrm"></a>WM/DRM
 
@@ -38,9 +38,9 @@ g \_ wszWMDRM
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

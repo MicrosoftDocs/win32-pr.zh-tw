@@ -3,7 +3,7 @@ title: 'CB_GETLOCALE 訊息 (Winuser .h) '
 description: 取得下拉式方塊的目前地區設定。 地區設定是用來判斷下拉式方塊中顯示的文字， \_ 以及使用 CB ADDSTRING 訊息加入之 CBS 排序樣式和文字的正確排序次序 \_ 。
 ms.assetid: 57c77ce2-bad0-43f3-8325-f2a7227994ec
 keywords:
-- CB_GETLOCALE message Windows 控制項
+- CB_GETLOCALE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 847d9f73e8bf0b1d533d0b79ba86d939bee0e9b4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 34e2a5ff4de25739f9c5d5eac75868cf2d506c4d8a280744d1b1056f8de49e92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006772"
 ---
 # <a name="cb_getlocale-message"></a>CB \_ GETLOCALE 訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "104025087"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: 'HDM_EDITFILTER 訊息 (Commctrl .h) '
 description: 當篩選按鈕具有焦點時，將輸入焦點移至編輯方塊。
 ms.assetid: 580f7872-4056-4d7d-8e69-274b4b4b5545
 keywords:
-- HDM_EDITFILTER message Windows 控制項
+- HDM_EDITFILTER 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 733c79bf747d3b55aa8dd38eb8fad8fdc83601e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8636c17bfa9043891e5037df79be9c72c1ddc8f3aa2b4d13520f4289205b5099
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006158"
 ---
 # <a name="hdm_editfilter-message"></a>HDM \_ EDITFILTER 訊息
 
@@ -64,8 +64,8 @@ ms.locfileid: "103686103"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

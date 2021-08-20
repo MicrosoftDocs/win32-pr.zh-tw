@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8ea92bd08a2b65466d11e41bb459200610a89677
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5f7614a30b2c386602b09fd73776dd95cf288966d6b7d1e6b045ee56317f161
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117994829"
 ---
 # <a name="geterror-method-of-the-msvm_collectionreferencepointexportjob-class"></a>Msvm CollectionReferencePointExportJob 類別的 GetError 方法 \_
 

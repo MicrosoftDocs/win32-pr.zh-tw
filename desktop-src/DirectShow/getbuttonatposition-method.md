@@ -4,17 +4,17 @@ ms.assetid: ac933d0d-db2e-488f-b661-2fdc9f5acb39
 title: GetButtonAtPosition 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9347929946a6f26cac4652a5357bd6454c80446c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f7ad30e3cc9bb9b3f93d731c19f4418d8e567a0cb80e63832dfe27b8c4553921
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118000270"
 ---
 # <a name="getbuttonatposition-method"></a>GetButtonAtPosition 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

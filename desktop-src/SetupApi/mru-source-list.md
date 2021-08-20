@@ -4,12 +4,12 @@ ms.assetid: f07ef572-19d8-4d9b-85e7-efd44750a0d6
 title: MRU 來源清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cdde0d02d9261befd33da8284c13f72c58ad7ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fadf11fcf3e5a44f705f3f69f623028521d7e51aec42714fc966c8de2b01b05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117965161"
 ---
 # <a name="mru-source-list"></a>MRU 來源清單
 

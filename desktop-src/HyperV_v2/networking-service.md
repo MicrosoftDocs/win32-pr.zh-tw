@@ -4,12 +4,12 @@ ms.assetid: A5C4866B-0F65-47B5-8FC4-B92943842B86
 title: 網路服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc85b7a5121a3e7e42f333f829816184b57bd8eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5482948a2fc4990b865ac99838e75ccb502d0684e5d81dcb5b44ee7ca5145f00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117993597"
 ---
 # <a name="networking-service"></a>網路服務
 

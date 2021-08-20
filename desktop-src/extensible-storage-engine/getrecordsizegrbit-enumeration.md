@@ -32,12 +32,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ee95d29ed1913993aa37062137807bf8d635eecc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c0e9d6996db09b9b3cc2b6266a299c696b616ec5189c29eab0aa5197eca80fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118077576"
 ---
 # <a name="getrecordsizegrbit-enumeration"></a>GetRecordSizeGrbit 列舉
 

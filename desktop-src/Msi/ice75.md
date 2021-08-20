@@ -4,16 +4,16 @@ ms.assetid: 831de042-bea6-42da-90a0-3847bb447414
 title: ICE75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23d708552b3ed2d397e29d37abdf0ceed01093fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec625f3dd9d71daf8202423b6636d23db663aa15b9ab14c5362b63faf1df9e94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991052"
 ---
 # <a name="ice75"></a>ICE75
 
-ICE75 會確認所有 [自訂動作類型 17](custom-action-type-17.md) (DLL) 、 [自訂動作類型 18](custom-action-type-18.md) (EXE) 、 [自訂動作類型 21](custom-action-type-21.md) (JScript) 和 [自訂動作類型 22](custom-action-type-22.md) (VBScript) 自訂動作會在 [CostFinalize 動作](costfinalize-action.md)之後排序。 這些類型的自訂動作會使用已安裝的檔案作為其來源。 ICE75 會檢查 [InstallUISequence 資料表](installuisequence-table.md)、 [InstallExecuteSequence 資料表](installexecutesequence-table.md)、 [AdminUISequence 資料表](adminuisequence-table.md)和 [AdminExecuteSequence 資料表](adminexecutesequence-table.md)。 請注意，這些順序資料表中必須要有 CostFinalize 動作。
+ICE75 會確認所有[自訂動作類型 17](custom-action-type-17.md) (DLL) 、[自訂動作類型 18](custom-action-type-18.md) (EXE) 、[自訂動作類型 21](custom-action-type-21.md) (JScript) 和[自訂動作類型 22](custom-action-type-22.md) (VBScript) 自訂動作會在[CostFinalize 動作](costfinalize-action.md)之後排序。 這些類型的自訂動作會使用已安裝的檔案作為其來源。 ICE75 會檢查 [InstallUISequence 資料表](installuisequence-table.md)、 [InstallExecuteSequence 資料表](installexecutesequence-table.md)、 [AdminUISequence 資料表](adminuisequence-table.md)和 [AdminExecuteSequence 資料表](adminexecutesequence-table.md)。 請注意，這些順序資料表中必須要有 CostFinalize 動作。
 
 ## <a name="result"></a>結果
 

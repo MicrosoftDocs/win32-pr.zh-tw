@@ -4,12 +4,12 @@ ms.assetid: d62d068c-9b1d-4dbf-8b21-31a636a41456
 title: 關閉檔案對應物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ab35152bd90d401ca7f30a7497d1f0b06263539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49734a8cf0b2d4fce2025196fc867926840e89c48b352c3dc1f096da9363ac0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117992956"
 ---
 # <a name="closing-a-file-mapping-object"></a>關閉檔案對應物件
 

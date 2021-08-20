@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 6d618a62eab4ba799a2d0e152763fcef6567fd42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f447d1a4f1c80d67f55d5b122d5126d92363ed13b78902033d9ef74495d59e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110482"
 ---
 # <a name="__propertyproviderregistration-class"></a>\_\_PropertyProviderRegistration 類別
 
@@ -79,7 +79,7 @@ class __PropertyProviderRegistration : __ProviderRegistration
 
 <dt>
 
-對
+是
 </dt> <dd>
 
 提供者可透過執行 [**IWbemServices：： GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync)來支援資料抓取。
@@ -108,7 +108,7 @@ class __PropertyProviderRegistration : __ProviderRegistration
 
 <dt>
 
-對
+是
 </dt> <dd>
 
 提供者可透過執行下列其中一種方法來支援類別或實例修改：

@@ -1,6 +1,6 @@
 ---
 title: IConfigAsfWriter ConfigureFilterUsingProfileId 方法
-description: ConfigureFilterUsingProfileId 方法會設定篩選器，以從系統組態檔案清單中，使用設定檔識別碼 (識別碼) 索引來寫入 ASF 檔案。 僅適用于 Windows Media Format 4.0 設定檔的 (。 ) 。
+description: ConfigureFilterUsingProfileId 方法會設定篩選器，以從系統組態檔案清單中，使用設定檔識別碼 (識別碼) 索引來寫入 ASF 檔案。 僅適用于 Windows 媒體格式4.0 設定檔的 (。 ) 。
 ms.assetid: b0375785-83db-4540-aca9-7ba0bb81c1ef
 keywords:
 - ConfigureFilterUsingProfileId 方法 windows Media 格式
@@ -15,16 +15,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0226195d7657667e3947b55546b321edafa7befc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6321d259a213426df7e4490c3fc8a793e583a6fcdf58ec795a9f88e43645377f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118028482"
 ---
 # <a name="iconfigasfwriterconfigurefilterusingprofileid-method"></a>IConfigAsfWriter：： ConfigureFilterUsingProfileId 方法
 
-**ConfigureFilterUsingProfileId** 方法會設定篩選器，以從系統組態檔案清單中，使用設定檔識別碼 (識別碼) 索引來寫入 ASF 檔案。 僅適用于 Windows Media Format 4.0 設定檔的 (。 ) 
+**ConfigureFilterUsingProfileId** 方法會設定篩選器，以從系統組態檔案清單中，使用設定檔識別碼 (識別碼) 索引來寫入 ASF 檔案。 僅適用于 Windows 媒體格式4.0 設定檔的 (。 ) 
 
 ## <a name="syntax"></a>語法
 
@@ -44,7 +44,7 @@ HRESULT ConfigureFilterUsingProfileId(
 *dwProfileId* \[在\]
 </dt> <dd>
 
-Windows Media 格式 SDK 4.0 版中所定義的設定檔識別碼。
+設定檔識別碼，如 Windows 媒體格式 SDK 4.0 版中所定義。
 
 </dd> </dl>
 
@@ -54,7 +54,7 @@ Windows Media 格式 SDK 4.0 版中所定義的設定檔識別碼。
 
 
 
-| 傳回碼                                                                                         | Description                             |
+| 傳回碼                                                                                         | 描述                             |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                | 此方法已成功。<br/>        |
 | <dl> <dt>**E \_ 失敗**</dt> </dl>              | 設定檔無效。<br/>    |
@@ -66,7 +66,7 @@ Windows Media 格式 SDK 4.0 版中所定義的設定檔識別碼。
 
 ## <a name="remarks"></a>備註
 
-此方法現在已過時，因為它採用4.0 版 Windows Media Format SDK 設定檔。 若要設定7.0 和更新版本設定檔的篩選，請使用 [**IConfigAsfWriter：： ConfigureFilterUsingProfile**](iconfigasfwriter-configurefilterusingprofile.md) 或 [**IConfigAsfWriter：： ConfigureFilterUsingProfileGuid**](iconfigasfwriter-configurefilterusingprofileguid.md)。
+此方法現在已過時，因為它採用4.0 版 Windows 媒體格式 SDK 設定檔。 若要設定7.0 和更新版本設定檔的篩選，請使用 [**IConfigAsfWriter：： ConfigureFilterUsingProfile**](iconfigasfwriter-configurefilterusingprofile.md) 或 [**IConfigAsfWriter：： ConfigureFilterUsingProfileGuid**](iconfigasfwriter-configurefilterusingprofileguid.md)。
 
 ## <a name="see-also"></a>另請參閱
 

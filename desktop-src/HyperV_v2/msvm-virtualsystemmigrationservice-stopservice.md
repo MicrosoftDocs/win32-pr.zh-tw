@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f945f20e86c25b89bf935e46140c1f994e8735b8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 14e94f8351c44319de7ce15053e0f29ab70a6f12dd5bba5894c7b9ab1a3eac39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117994161"
 ---
 # <a name="stopservice-method-of-the-msvm_virtualsystemmigrationservice-class"></a>Msvm VirtualSystemMigrationService 類別的 StopService 方法 \_
 

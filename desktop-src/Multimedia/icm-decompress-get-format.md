@@ -3,7 +3,7 @@ title: 'ICM_DECOMPRESS_GET_FORMAT 訊息 (Vfw .h) '
 description: ICM \_ 解壓縮 \_ 取得格式訊息會向 \_ 影片解壓縮驅動程式要求解壓縮資料的輸出格式。 您可以使用 ICDecompressGetFormat 宏明確地傳送此訊息。
 ms.assetid: 51753f47-758b-4d3e-9a53-9db284da2473
 keywords:
-- ICM_DECOMPRESS_GET_FORMAT message Windows 多媒體
+- ICM_DECOMPRESS_GET_FORMAT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc7eefa655646deae8e67fa16a87bfdb81a8b936
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e5d6c6ca03cc442db4a84c6cd9595b50888e6953efc8badac83f3917f16c152b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117988107"
 ---
-# <a name="icm_decompress_get_format-message"></a>ICM \_ 解壓縮 \_ 取得 \_ 格式訊息
+# <a name="icm_decompress_get_format-message"></a>ICM \_解壓縮 \_ 取得 \_ 格式訊息
 
 **ICM \_ 解壓縮 \_ 取得 \_ 格式** 訊息會向影片解壓縮驅動程式要求解壓縮資料的輸出格式。 您可以使用 [**ICDecompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-icdecompressgetformat) 宏明確地傳送此訊息。
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 435dcfcf620bd33043d8c8c7d948bccd74eb4e77
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 251a2574908891d29baf9d4748943d0550f3f015eddccbdd123e31598b39b08c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991326"
 ---
 # <a name="handle_t-attribute"></a>處理 \_ t 屬性
 
@@ -64,6 +64,6 @@ typedef RPC_BINDING_HANDLE handle_t;
 [**獨特**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

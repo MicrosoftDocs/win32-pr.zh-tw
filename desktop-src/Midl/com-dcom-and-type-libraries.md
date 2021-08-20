@@ -8,12 +8,12 @@ keywords:
 - 介面 MIDL、類型程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4f0b21aad9f88f02d8029d478eead50f5501ecc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0997d2a61fef3e2bc46f4539dca2ecd67d8de385d402e5e9c862b267b697b3cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991758"
 ---
 # <a name="com-dcom-and-type-libraries"></a>COM、DCOM 和型別程式庫
 
@@ -44,6 +44,6 @@ C 語言 proxy/stub 檔案、介面識別碼檔案、DLL 資料檔案，以及�
 
 C/c + +-語言用戶端和伺服器 stub 檔案，以及 RPC 介面的相關標頭檔。 當 IDL 檔案中沒有 [**物件**](object.md) 屬性的介面時，就會產生這些檔案。 如需存根和標頭檔的總覽，請參閱 [一般組建](/windows/desktop/Rpc/general-build-procedure)程式。 如需詳細資訊，請參閱 [針對 RPC 介面產生的](files-generated-for-an-rpc-interface.md)檔案。
 
- 
+ 
 
- 
+ 
