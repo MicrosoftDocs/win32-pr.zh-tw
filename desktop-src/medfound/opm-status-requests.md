@@ -4,12 +4,12 @@ ms.assetid: 428d08c6-e9f0-49fb-9ef9-d0f95416669d
 title: OPM 狀態要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdbf7338fe1309feb49fd191e3f4a1a22f3639b4
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 0c78f3725132110e8a97356f2e7e3377f10cddc4c2c1346e9256c55663d818f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058658"
 ---
 # <a name="opm-status-requests"></a>OPM 狀態要求
 

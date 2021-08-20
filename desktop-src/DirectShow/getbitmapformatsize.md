@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39a64f6d975e403de6c177906b23ef7e09f29ddf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a1325073180634c21c29ff8ad09d255368c7d13e5e7d0a42f6fe5db4d6beba1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118000290"
 ---
 # <a name="getbitmapformatsize-function"></a>GetBitmapFormatSize 函式
 

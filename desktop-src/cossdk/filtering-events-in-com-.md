@@ -4,26 +4,26 @@ ms.assetid: dfc82a57-5587-462d-a43d-516b7d70e25e
 title: 在 COM + 中篩選事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d3a7d152813e4806a9cfb6a342255e0981ecf37
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cbfd0323de62d95b012062c1af685c546d0b39c89bcab7d57b3ceb034e32ea99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117916381"
 ---
 # <a name="filtering-events-in-com"></a>在 COM + 中篩選事件
 
 COM + 事件提供兩種方式來控制哪些事件可抵達哪些訂閱者： *發行者篩選* 和 *參數篩選*。
 
-## <a name="publisher-filtering"></a>發行者篩選
+## <a name="publisher-filtering"></a>Publisher濾波
 
-發行者篩選會依據 [事件類別](the-com--event-class-object.md) 物件，控制事件方法的順序和引發。 發行者篩選可讓發行者判斷哪些訂閱者會收到特定的事件。
+Publisher 篩選會控制事件[類別](the-com--event-class-object.md)物件的事件方法順序和引發。 Publisher 篩選可讓發行者判斷哪些訂閱者會收到特定的事件。
 
-發行者篩選的有效使用範例是股票交換。 大部分的訂閱者都想要知道何時新增股票。 但是，其中許多相同的訂閱者可能不想要在每次股價變更時都知道。 「發行者篩選」提供將事件有效傳遞給只需要此資訊的「訂閱者」所需的資料細微性。
+發行者篩選的有效使用範例是股票交換。 大部分的訂閱者都想要知道何時新增股票。 但是，其中許多相同的訂閱者可能不想要在每次股價變更時都知道。 Publisher 篩選會提供將事件有效傳遞給只需要此資訊之訂閱者所需的資料細微性。
 
 在具現化事件類別物件上叫用方法時，它會收集該方法上的任何發行者篩選準則。 篩選準則會強制事件物件將事件方法引發至特定的訂閱者。 篩選準則會決定要引發哪些訂用帳戶，以及要引發這些訂閱的順序。 例如，篩選器可以讀取訂用帳戶清單，並根據某些應用程式準則建立訂單，然後依該順序呼叫「訂閱者」。
 
-如需建立發行者篩選準則的詳細指示，請參閱 [建立發行者篩選](creating-a-publisher-filter.md)。
+如需建立發行者篩選準則的詳細指示，請參閱[建立 Publisher 篩選](creating-a-publisher-filter.md)。
 
 ## <a name="parameter-filtering"></a>參數篩選
 

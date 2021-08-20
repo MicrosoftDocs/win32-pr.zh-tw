@@ -4,12 +4,12 @@ description: 本主題說明在舊版硬體上使用 Direct3D 11 時的例外狀
 ms.assetid: b3f85036-8572-40ee-b522-3b677443b840
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97920ae42347cf618b22df82abc3b6e06bd5200d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3cc525aa170d5479b0a35f94f7adf682db8ddf40cb52d63c3cdb2575a0fd4790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117913439"
 ---
 # <a name="exceptions"></a>例外狀況
 
@@ -59,6 +59,6 @@ MSAA 的執行在 GPU 的執行上並不常見。 功能層級10.1 已新增一�
 [舊版硬體上的 Direct3D 11](overviews-direct3d-11-devices-downlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

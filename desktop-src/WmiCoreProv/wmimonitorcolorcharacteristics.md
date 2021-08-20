@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 9fbb7d56e56519576d257b077311a144e923d6bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f0aa544b9c48e437259e313d80f443da85241b9d73e8ea820cdce099e38ddda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110850"
 ---
 # <a name="wmimonitorcolorcharacteristics-class"></a>WmiMonitorColorCharacteristics 類別
 

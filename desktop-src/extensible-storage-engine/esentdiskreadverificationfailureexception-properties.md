@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101624
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b30d2c1d3ee9f17d52ddd1b33aeaf0aebcf4e95e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bebed68caca4527aba89426a4b612f5ba502df1ea3d676745224a3f5af3cb7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117711378"
 ---
 # <a name="esentdiskreadverificationfailureexception-properties"></a>EsentDiskReadVerificationFailureException 屬性
 

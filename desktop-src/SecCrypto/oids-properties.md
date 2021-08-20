@@ -4,12 +4,12 @@ ms.assetid: F7AD72CD-31D3-4CB1-B7AF-906CF8F0D63C
 title: Oid 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71d2dc0674a58bf337f6774c14367df855bb7f77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97f0a4dbf43d0e5fbb7d760306e12ec3db25b4e6e515f0f0d9cb93edb273a10c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117979325"
 ---
 # <a name="oids-properties"></a>Oid 屬性
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 971affd319ecae817b9c1159ab0f307d0c2a5c91
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10c223534410b7e5a0543683c354728e0d5093f38ad0a2582a047a2a5362faae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117986210"
 ---
 # <a name="mci_set_parms-structure"></a>MCI \_ 設定 \_ PARMS 結構
 
@@ -83,7 +83,7 @@ typedef struct {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

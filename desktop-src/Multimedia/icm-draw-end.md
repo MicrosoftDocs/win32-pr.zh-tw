@@ -3,7 +3,7 @@ title: 'ICM_DRAW_END 訊息 (Vfw .h) '
 description: ICM \_ 繪製 \_ 結束訊息會通知轉譯驅動程式將目前的影像解壓縮至螢幕，以及釋放配置給解壓縮和繪製的資源。 您可以使用 ICDrawEnd 宏明確地傳送此訊息。
 ms.assetid: 03910752-6122-4a5a-84ff-2cecf66cf439
 keywords:
-- ICM_DRAW_END message Windows 多媒體
+- ICM_DRAW_END 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e420ac37791bc6c5aa7f660d71005be65fc87fff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: daac4fed37908596bab68b37bf5ae20c9c4652a6550288d52b892e640be612cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987442"
 ---
-# <a name="icm_draw_end-message"></a>ICM \_ 繪製 \_ 結束訊息
+# <a name="icm_draw_end-message"></a>ICM \_繪製 \_ 結束訊息
 
 **ICM \_ 繪製 \_ 結束** 訊息會通知轉譯驅動程式將目前的影像解壓縮至螢幕，以及釋放配置給解壓縮和繪製的資源。 您可以使用 [**ICDrawEnd**](/windows/desktop/api/Vfw/nf-vfw-icdrawend) 宏明確地傳送此訊息。
 
@@ -40,7 +40,7 @@ lParam = 0;
 
 ## <a name="remarks"></a>備註
 
-[**Icm \_ draw \_ BEGIN**](icm-draw-begin.md)和 **icm \_ draw \_ END** 訊息不會被嵌套。 如果您的驅動程式會在使用 **icm \_ draw \_ END** 停止解壓縮之前 **\_ \_ 開始進行 icm 繪製**，則應該以新的參數重新開機解壓縮。
+[**ICM \_ draw \_ BEGIN**](icm-draw-begin.md)和 **ICM \_ draw \_ END** 訊息不會被嵌套。 如果您的驅動程式收到 **ICM \_ draw \_ 開始**，然後再以 **ICM \_ DRAW \_ END** 停止解壓縮，則應該以新的參數重新開機解壓縮。
 
 ## <a name="requirements"></a>規格需求
 

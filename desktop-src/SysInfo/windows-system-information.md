@@ -4,12 +4,12 @@ ms.assetid: cb7b50fc-6591-48a9-b3a7-327de9a6dc06
 title: Windows 系統資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f7144d5be7f6ba33dc1743e57935f9bf3bbdadd
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: c5e4613ce87917dfcca61deb52bb70e577cea02e2ac2eafebf75fe1b0f0048a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117957470"
 ---
 # <a name="windows-system-information"></a>Windows 系統資訊
 
@@ -34,7 +34,7 @@ ms.locfileid: "114436233"
 
 
 
-| Item                                                                                                                              | 描述                                                                                                       |
+| 項目                                                                                                                              | 描述                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [一般 Windows 開發問題論壇](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsgeneraldevelopmentissues) | 討論 Windows 開發應用程式的 Windows 系統資訊和其他一般問題。<br/> |
 

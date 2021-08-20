@@ -4,12 +4,12 @@ ms.assetid: 7127ee28-eca9-4e0e-a27a-9051eb105b27
 title: 使用 XPS OM 頁面介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8350409f2f436cc4ec2293e735c3f020b49bea68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 286855b656b56d000706e2a53f32ec709fe8b2aa08a5f15d8479624fdbe0bab4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117685583"
 ---
 # <a name="working-with-xps-om-page-interfaces"></a>使用 XPS OM 頁面介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "106975758"
 
 
 
-| 介面名稱                                                                                                                                                                              | 邏輯子介面                                                                                                                                                                                            | Description                                                                                                                                        |
+| 介面名稱                                                                                                                                                                              | 邏輯子介面                                                                                                                                                                                            | 描述                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IXpsOMPage**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage)<br/>                                                                                                                                                 | [**IXpsOMCanvas**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas)<br/> [**IXpsOMGlyphs**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs)<br/> [**IXpsOMPath**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath)<br/>                                                                         | 頁面內容的根物件。<br/> 此物件代表檔元件。<br/>                                                |
 | [**IXpsOMShareable**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable)<br/>                                                                                                                                       | [**IXpsOMVisual**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual)<br/> [**IXpsOMMatrixTransform**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform)<br/> [**IXpsOMGeometry**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry)<br/> [**IXpsOMBrush**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush)<br/> | 衍生自 [**IXpsOMShareable**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable) 介面的介面可以儲存在資源字典中並共用。<br/> |

@@ -6,12 +6,12 @@ keywords:
 - InprocHandler32 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be73a8b2577a554b0bb8b5ba5a851e630edbf90a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: fd686657f9ce8f91938ccbf190a295a86e3d3b6480815c521c69f96c859fd621
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117919115"
 ---
 # <a name="inprochandler32"></a>InprocHandler32
 

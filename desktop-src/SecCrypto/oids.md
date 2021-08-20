@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 894689c214d8b7d352a2453d2d62c847866b9bc5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 32b6e2847a3e9848a67f0b96724e8883e2857d63abbaecc0a071f1a03eb03d2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117979180"
 ---
 # <a name="oids-object"></a>Oid 物件
 
@@ -52,7 +52,7 @@ ms.locfileid: "106990105"
 | 方法                        | 描述                                                                  |
 |:------------------------------|:-----------------------------------------------------------------------------|
 | [**添加**](oids-add.md)       | 將 [**OID**](oid.md) 物件加入至集合。<br/>              |
-| [**清楚**](oids-clear.md)   | 從集合中清除所有 [**OID**](oid.md) 物件。<br/>        |
+| [**清除**](oids-clear.md)   | 從集合中清除所有 [**OID**](oid.md) 物件。<br/>        |
 | [**移除**](oids-remove.md) | 從集合中移除已編制索引的 [**OID**](oid.md) 物件。<br/> |
 
 
@@ -65,9 +65,9 @@ ms.locfileid: "106990105"
 
 
 
-| 屬性                                     | 存取類型          | Description                                                                                                                                                                                                                     |
+| 屬性                                     | 存取類型          | 描述                                                                                                                                                                                                                     |
 |:---------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](oids-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic Scripting Edition (VBScript) 中隱藏。<br/> |
+| [**\_NewEnum**](oids-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic 腳本版本 (VBScript) 中隱藏。<br/> |
 | [**計數**](oids-count.md)<br/>       | 唯讀<br/> | 抓取集合中的 [**OID**](oid.md) 物件數目。<br/>                                                                                                                                                |
 | [**項目**](oids-item.md)<br/>         | 唯讀<br/> | 從集合中抓取索引的 [**OID**](oid.md) 物件。 這是預設屬性。<br/>                                                                                                                    |
 

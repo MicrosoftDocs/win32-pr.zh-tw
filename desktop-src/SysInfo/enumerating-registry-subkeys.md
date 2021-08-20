@@ -4,12 +4,12 @@ ms.assetid: 3730180a-52bc-4382-83ca-39f162273ba5
 title: 列舉登錄子機碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81aa61dbcbfe487298725de0ac17e1367639da93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 629e86b0ee763571af8b19f07a259bd8478a44e0311d0f82199fa9baf7e39050
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117958621"
 ---
 # <a name="enumerating-registry-subkeys"></a>列舉登錄子機碼
 

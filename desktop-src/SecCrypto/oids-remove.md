@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 000310e0034d413dea16a45f79647c3e0f7cf52d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83f82bd5f514529a8f68e4e75248dbf295c86d4a2fb5e621b522d5b5b3254eae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117979244"
 ---
 # <a name="oidsremove-method"></a>Oid. Remove 方法
 

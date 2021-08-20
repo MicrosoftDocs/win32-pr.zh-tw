@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a1d066780ade3da95f4d4d5500143700f7a7d5bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 208cd27ea6e3779923e1d5d99fffff44cd4c374117a0fb40471e13068e2c2541
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117716620"
 ---
 # <a name="conversionsconvertdoubletodatetime-method"></a>ConvertDoubleToDateTime 方法
 

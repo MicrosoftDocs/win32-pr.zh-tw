@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 物件路徑需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2b46195eae3e8351c9c611a34c28cc9d5dd58d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d278ece21840c019ae9747926dcd513f0fd1a2fcd59c408ecd8614fc19efeed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117921116"
 ---
 # <a name="wmi-object-path-requirements"></a>WMI 物件路徑需求
 

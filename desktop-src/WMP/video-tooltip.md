@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b73fcb6bee42b36d38bb651ef7e46dd3081ae7a5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c7e2b2a6b05956fbe276ba6c35939af6efc229e236ddc66e10722b874d7aa0bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117931691"
 ---
 # <a name="videotooltip"></a>VIDEO。工具提示
 

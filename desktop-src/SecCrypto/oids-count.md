@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 602ef914dbeb5fe0664f517b85fbb6935a0b4e1d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 88d6e436305f50ad2288ec2a3cd2546be23371415a744e7107b88216d5ebfef1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117979612"
 ---
 # <a name="oidscount-property"></a>Oid 屬性
 

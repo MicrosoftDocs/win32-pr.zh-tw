@@ -4,12 +4,12 @@ description: 提供者可以定義客戶用來將整數值對應至字串的成�
 ms.assetid: d16b2410-a0de-42da-8f2a-98341c90ed87
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62020adeb46bac96cada70cf5830e17213d69868
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 19ddf3ebb45ba509356a38797682be2be5d5bf1867b81767ce4fe262d678517a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104374869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117937210"
 ---
 # <a name="defining-namevalue-mappings"></a>定義名稱/值對應
 

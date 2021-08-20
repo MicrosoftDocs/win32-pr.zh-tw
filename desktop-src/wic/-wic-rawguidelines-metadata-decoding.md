@@ -4,12 +4,12 @@ ms.assetid: ff7e5e66-e1ea-49fc-909f-de361214afc3
 title: 解碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6700865d55ba7349447f5e41285d60446f0e4630
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff3bfef7fe219ae7ff05227bfba48b69188844dc2373bd1c3099737224758fbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117667325"
 ---
 # <a name="decoding"></a>解碼
 
@@ -31,7 +31,7 @@ ms.locfileid: "103851203"
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [相機原始影像格式的 WIC 指導方針](-wic-rawguidelines.md)

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inde
 ms:contentKeyID: 55103282
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d8d85b9544a6bfe65f72cec859c622b9a328a244
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0804e105ae04e87326b379482e5501221a54269109ad6a6cdf594f253bf241e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118077272"
 ---
 # <a name="indexsegment-members"></a>IndexSegment 成員
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: abd251d20ca82ad0374a613d9ee73f0eaee21d31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8231ce81ef6cc2d593e26c99ba9f285fc2f7b9215349b6ec0eb73661cc8a969
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118000810"
 ---
 # <a name="cbasepropertypageondisconnect-method"></a>CBasePropertyPage. OnDisconnect 方法
 

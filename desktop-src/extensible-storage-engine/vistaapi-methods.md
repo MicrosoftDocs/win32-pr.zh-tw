@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 55104186
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4de9098426f0457485377f2274c17f34ea775f11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5b101f1e800afea37619adfd654bb0abe44de41a0637c69f321a15d429e9f8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117701693"
 ---
 # <a name="vistaapi-methods"></a>VistaApi 方法
 

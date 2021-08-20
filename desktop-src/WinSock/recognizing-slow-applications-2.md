@@ -1,19 +1,19 @@
 ---
-description: 本指南將應用程式的效能降低為 Microsoft Windows 應用程式，且效能受損。
+description: 本指南以 Microsoft Windows 的應用程式，找出效能受損的應用程式。
 ms.assetid: cacf55d8-ab64-47a4-a55b-59a3c4e3877b
 title: 辨識緩慢的應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07be9484a3b08951b8b64989757459531ff72906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 775239b76cfd287a446596f9a4a0eda6298caab35c31f70fade378ec0d44d586
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118111812"
 ---
 # <a name="recognizing-slow-applications"></a>辨識緩慢的應用程式
 
-本指南將應用程式的效能 *降低* 為 Microsoft Windows 應用程式，且效能受損。 緩慢的應用程式會展示下列一或多個徵兆：
+本指南以 Microsoft Windows 的應用程式，*找出效能受損的應用程式*。 緩慢的應用程式會展示下列一或多個徵兆：
 
 -   CPU 和網路使用率偏低。
 
@@ -40,7 +40,7 @@ ms.locfileid: "106988379"
 [應用程式行為](application-behavior-2.md)
 </dt> <dt>
 
-[高效能的 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
+[高效能 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Nagle 演算法](https://msdn.microsoft.com/library/ms817942.aspx)

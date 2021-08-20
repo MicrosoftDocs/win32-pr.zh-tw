@@ -4,12 +4,12 @@ ms.assetid: 5b9bfc5a-6a78-4b0e-aed8-f25aba089af1
 title: 復原自訂動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c4ad91f8f94145399d51ed2ef53999ab0a91d65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30f2b0522c8cf22f36398b3e4cb76e3576ea28e74fee9fbf140bccce2d2eaedd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990239"
 ---
 # <a name="rollback-custom-actions"></a>復原自訂動作
 
@@ -29,7 +29,7 @@ ms.locfileid: "103848502"
 
 您可以藉由將選項旗標加入至 [CustomAction 資料表](customaction-table.md)的 [類型] 欄位，來指定復原自訂動作。 請參閱指定復原自訂動作之選項旗標的 [自訂動作 In-Script 執行選項](custom-action-in-script-execution-options.md) 。
 
-停用回復時，不會執行 rollback 和 commit 自訂動作。 如果封裝作者要求這些自訂動作類型進行適當的安裝，則在停用回復時，就應該在防止安裝繼續的情況下使用 [**RollbackDisabled**](rollbackdisabled.md) 屬性。 如需有關如何停用回復的詳細資訊，請參閱 [復原安裝 (Windows Installer) ](rollback-installation.md)。
+停用回復時，不會執行 rollback 和 commit 自訂動作。 如果封裝作者要求這些自訂動作類型進行適當的安裝，則在停用回復時，就應該在防止安裝繼續的情況下使用 [**RollbackDisabled**](rollbackdisabled.md) 屬性。 如需有關如何停用回復的詳細資訊，請參閱[復原安裝 (Windows Installer) ](rollback-installation.md)。
 
  
 

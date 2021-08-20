@@ -4,12 +4,12 @@ description: '函數 (視覺化樣式參考) '
 ms.assetid: deaeb9a2-0bee-400d-9090-9529a1f3bdc2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 017f2888fa6358b73117a9fe86a6b2a3d088ae57
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b7137baefa82d58975c98f0c025d01d5c45e31c8618d67227c1a684bf93fdf94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106999963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118007130"
 ---
 # <a name="functions-visual-styles-reference"></a>函數 (視覺化樣式參考) 
 

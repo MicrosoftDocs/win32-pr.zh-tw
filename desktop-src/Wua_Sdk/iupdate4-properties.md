@@ -4,12 +4,12 @@ ms.assetid: ff55915e-4d0b-41c3-a885-34df0f419bf5
 title: IUpdate4 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68af001d4b84c1d9fac18f5caf9e830c09021afa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4193e1dc9eb21bf73804dd48a9122311b428dc8d13599e20f1687edb0eb0e1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117919773"
 ---
 # <a name="iupdate4-properties"></a>IUpdate4 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 024a734a-2e40-45b6-9dec-73def89a417f
 title: RemoveEnvironmentStrings 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c958f2095d2b8562bbd7518ef691634186a9128
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df726dfcc6a3a5d1b2d0f2de1ab69e36f568fe4ca0c14ba6daf61d692a83beae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990769"
 ---
 # <a name="removeenvironmentstrings-action"></a>RemoveEnvironmentStrings 動作
 

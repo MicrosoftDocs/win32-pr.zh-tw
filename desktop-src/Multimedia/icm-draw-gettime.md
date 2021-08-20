@@ -3,7 +3,7 @@ title: 'ICM_DRAW_GETTIME 訊息 (Vfw .h) '
 description: ICM \_ DRAW \_ GETTIME 訊息會要求轉譯驅動程式，以控制繪製畫面格的時間，以傳回其內部時鐘的目前值。 您可以使用 ICDrawGetTime 宏明確地傳送此訊息。
 ms.assetid: 77f0a322-c0bc-4cfe-a3d0-7633cf8d682a
 keywords:
-- ICM_DRAW_GETTIME message Windows 多媒體
+- ICM_DRAW_GETTIME 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f756a76408d01cb72ee1762f14bb8a5eab19e475
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ecf151b0c22b4de96421b4c11239ce147a21b6d60808b1d84506f3bad699954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987368"
 ---
-# <a name="icm_draw_gettime-message"></a>ICM \_ 繪圖 \_ GETTIME 訊息
+# <a name="icm_draw_gettime-message"></a>ICM \_繪製 \_ GETTIME 訊息
 
 **ICM \_ DRAW \_ GETTIME** 訊息會要求轉譯驅動程式，以控制繪製畫面格的時間，以傳回其內部時鐘的目前值。 您可以使用 [**ICDrawGetTime**](/windows/desktop/api/Vfw/nf-vfw-icdrawgettime) 宏明確地傳送此訊息。
 

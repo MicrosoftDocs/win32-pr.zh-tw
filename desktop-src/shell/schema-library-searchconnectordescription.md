@@ -4,12 +4,12 @@ ms.assetid: 383CAA20-56CA-4bdc-AC79-E57A1D59785C
 title: 'searchConnectorDescription 元素 (程式庫架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faa6c213d43a648ebea51b58b4c3103a0ee42f13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91be0345ae2770e28437f13cdc754a1855f050210b85a03a4eb5c6c3726af98b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858247"
 ---
 # <a name="searchconnectordescription-element-library-schema"></a>searchConnectorDescription 元素 (程式庫架構) 
 
@@ -140,7 +140,7 @@ ms.locfileid: "104973608"
 
 ## <a name="remarks"></a>備註
 
-連結 <searchConnectorDescription> 庫的元素使用與 Windows 同盟搜尋相同的架構定義 <searchConnectorDescription> 。 雖然它們使用相同的架構，但 Windows 同盟搜尋的搜尋連接器不能包含在程式庫中。
+連結 <searchConnectorDescription> 庫的元素使用與 Windows 同盟搜尋的相同架構定義 <searchConnectorDescription> 。 雖然它們使用相同的架構，但 Windows 同盟搜尋的搜尋連接器不能包含在程式庫中。
 
 ## <a name="related-topics"></a>相關主題
 

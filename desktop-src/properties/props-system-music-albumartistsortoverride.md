@@ -4,12 +4,12 @@ ms.assetid: 67dda36c-8098-4758-a473-4f10730a158e
 title: AlbumArtistSortOverride
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f80d9ef55a8ef797af2dec8136c4bb8764a076f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22128f48c986d120cf8e0dab4d58f0b2c6b229424edd046dcdf83c8dfc87df42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117682994"
 ---
 # <a name="systemmusicalbumartistsortoverride"></a>AlbumArtistSortOverride
 

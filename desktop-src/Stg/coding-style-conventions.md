@@ -4,12 +4,12 @@ description: 此範例系列使用編碼樣式慣例來協助清楚且一致。
 ms.assetid: d5e81a52-79f6-4561-891c-05fee125a1b0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e28e65e19d69f060a5f85d86976c4bd3694f7611
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: fd6f45fcff7e8f5f8e6f152ec1449bdf12170028537fd4b579d25479572dc5ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103684273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117962438"
 ---
 # <a name="coding-style-conventions"></a>編碼樣式慣例
 
@@ -29,7 +29,7 @@ ms.locfileid: "103684273"
 | 殘雪     | X (短) 的計數                  |
 | dw     | DWORD (不帶正負號的 long)                |
 | f      | 旗標 (通常會有多個位值)  |
-| fn     | 函式                            |
+| fn     | 函數                            |
 | G\_    | 全球                              |
 | h      | Handle                              |
 | i      | 整數                             |
@@ -54,7 +54,7 @@ ms.locfileid: "103684273"
 
 
 
-| 前置片語合 | Description                                             |
+| 前置片語合 | 描述                                             |
 |--------------------|---------------------------------------------------------|
 | pszMyString        | 字串的指標。                                  |
 | m \_ pszMyString     | 字串的指標，該字串為類別的資料成員。 |
@@ -67,7 +67,7 @@ ms.locfileid: "103684273"
 
 
 
-| 慣例       | Description                                              |
+| 慣例       | 描述                                              |
 |------------------|----------------------------------------------------------|
 | CMyClass         | C + + 類別名稱的前置詞 ' C '。                          |
 | COMyObjectClass  | COM 物件類別名稱的前置詞 ' CO '。                  |

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ed670ed4af3882e38faf2699429c3d1c076f3056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e246a1ada6cdf9935ae2ce9f8ca2a0ae25ced8ea08db8e98fef59a8fbc66ef40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117679472"
 ---
 # <a name="folderitemsitem-method"></a>FolderItems 專案方法
 
@@ -54,9 +54,9 @@ FolderItems.Item(
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 **專案** 來取出 [**FolderItem**](folderitem.md) 物件，代表在 Windows 資料夾中找到的 Notepad.exe 檔案。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例會使用 **專案** 來抓取 [**FolderItem**](folderitem.md)物件，代表 Windows 資料夾中找到的 Notepad.exe 檔案。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -166,10 +166,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

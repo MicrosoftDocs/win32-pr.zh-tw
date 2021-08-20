@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: ca2d3dd3fdc91c54c49b12119a56180396df5ec5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91f533e92d94329705cb92d876e9ac51a32eb0128000227341b11f6038263ac5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795771"
 ---
 # <a name="getcapturecomment-function"></a>GetCaptureComment 函式
 

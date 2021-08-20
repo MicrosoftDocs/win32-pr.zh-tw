@@ -4,12 +4,12 @@ ms.assetid: 732B3BDD-F394-430F-B895-AF18ED61114D
 title: 'MEStreamSinkFormatInvalidated 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c39c4453c0d5720ffb57f1277946f9cf891ed443
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04442aa9c00b5ab0099306007efaea967d2baced35c186af78e7b5d79854fce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061313"
 ---
 # <a name="mestreamsinkformatinvalidated-event"></a>MEStreamSinkFormatInvalidated 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106970638"
 
 
 
-| VARTYPE              | Description                           |
+| VARTYPE              | 描述                           |
 |----------------------|---------------------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> <br/> |
 
@@ -37,8 +37,8 @@ ms.locfileid: "106970638"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                                           |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

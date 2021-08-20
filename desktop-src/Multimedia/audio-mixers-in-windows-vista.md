@@ -7,19 +7,19 @@ keywords:
 - 音訊、Windows Vista 音訊 mixers
 - 音訊 mixers，Windows Vista
 - mixers，Windows Vista
-- Windows Vista 音訊 mixers
+- WindowsVista 音訊 mixers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0610e9f16e13c19a253fbd9f6fac5ef452fa68ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eb4299a7c4d1dcbc3fa5d92e4bb18042793976dafac4e836f80ac5c70ac53f09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104571208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117989591"
 ---
 # <a name="audio-mixers-in-windows-vista"></a>Windows Vista 中的音訊 Mixers
 
-從 Windows Vista 開始，某些混音器控制項是在軟體中執行，而不是在硬體中。 例如，磁片區控制項會使用 Windows 音訊會話 API 來執行 (WASAPI) 。 這些控制項不會直接影響硬體設定。 此外，它們與進程特定的音訊會話相關聯，因此變更會影響呼叫應用程式，但不會影響其他應用程式。
+從 Windows Vista 開始，某些混音器控制項是在軟體中執行，而不是在硬體中。 例如，磁片區控制項是使用 Windows 音訊會話 API 來執行 (WASAPI) 。 這些控制項不會直接影響硬體設定。 此外，它們與進程特定的音訊會話相關聯，因此變更會影響呼叫應用程式，但不會影響其他應用程式。
 
 每個音訊端點裝置都有一個標準混音器版面配置，並在軟體中執行。
 
@@ -41,9 +41,9 @@ ms.locfileid: "104571208"
 
 此標準版面配置是為了與使用音訊混音器功能的現有應用程式相容。 新的應用程式應該避免使用這些功能。
 
- 
+ 
 
- 
+ 
 
 
 

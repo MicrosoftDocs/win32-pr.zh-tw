@@ -4,12 +4,12 @@ ms.assetid: 9a0c8e48-bc57-461d-9ade-54b75f7aa56d
 title: Ipsec6.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b373e8ab0dc54c3c8ee2fae8bc05722a9ac6aa64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 184df9757547523b8f9b88addeffed790fc6a28de36c8e319f2265c80ed28b94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117927475"
 ---
 # <a name="ipsec6exe"></a>Ipsec6.exe
 

@@ -4,16 +4,16 @@ ms.assetid: 8a9d96f8-1096-4b66-a2ec-8a95d754ea72
 title: 媒體基礎中的音訊/影片捕獲
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 506c14ee4ab94a27cfafbe18a97ffa8f05676f1f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 03cf225c8e11823779a401288135017d119fe67e4cd32fa39b54f3cd39b7bb45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880903"
 ---
 # <a name="audiovideo-capture-in-media-foundation"></a>媒體基礎中的音訊/影片捕獲
 
-Microsoft 媒體基礎支援音訊和影片捕捉。 您可以透過 UVC 類別驅動程式支援影片捕獲裝置，而且必須與 UVC 1.1 相容。 您可以透過 Windows 音訊會話 API (WASAPI) 來支援音訊捕獲裝置。
+Microsoft 媒體基礎支援音訊和影片捕捉。 您可以透過 UVC 類別驅動程式支援影片捕獲裝置，而且必須與 UVC 1.1 相容。 音訊捕獲裝置可透過 Windows 音訊會話 API (WASAPI) 來支援。
 
 捕獲裝置會以媒體來源物件媒體基礎表示，它會公開 [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) 介面。 在大部分情況下，應用程式不會直接使用此介面，但會使用較高層級的 API （例如 [來源讀取器](source-reader.md) ）來控制捕獲裝置。
 

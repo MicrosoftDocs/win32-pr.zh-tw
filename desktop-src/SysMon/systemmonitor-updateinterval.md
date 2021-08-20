@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5872f870e831896ff37157a4a0f47584e77d93c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6c6f9d20a6a9b88d3764e013468747968a71690cf5e4a31603a88acd9e7e33e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117954523"
 ---
 # <a name="systemmonitorupdateinterval-property"></a>SystemMonitor. UpdateInterval 屬性
 

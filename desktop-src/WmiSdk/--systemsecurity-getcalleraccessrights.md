@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: c86ea3044411e33026ed6328fcfc227e615648b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 770a4a51a6a0ea9e38e8c5bd6fed944b473a41373933cee497e98fd8f9952422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110023"
 ---
 # <a name="getcalleraccessrights-method-of-the-__systemsecurity-class"></a>\_ \_ SystemSecurity 類別的 GetCallerAccessRights 方法
 
@@ -149,14 +149,14 @@ HRESULT GetCallerAccessRights(
 
 ## <a name="return-value"></a>傳回值
 
-這個方法會傳回 **HRESULT** ，指出方法呼叫的狀態。 下列清單列出對 [**Set9XUserList**](--systemsecurity-set9xuserlist.md)而言很重要的傳回值。 針對編寫腳本和 Visual Basic 應用程式，可以從 OutParameters 取得結果 [ReturnValue](parsing-outparameters-objects.md)。 如需詳細資訊，請參閱 [建立 InParameters 物件和剖析 OutParameters 物件](constructing-inparameters-objects-and-parsing-outparameters-objects.md)。
+這個方法會傳回 **HRESULT** ，指出方法呼叫的狀態。 下列清單列出對 [**Set9XUserList**](--systemsecurity-set9xuserlist.md)而言很重要的傳回值。 針對編寫腳本和 Visual Basic 應用程式，可以從 OutParameters 取得結果[ReturnValue](parsing-outparameters-objects.md)。 如需詳細資訊，請參閱 [建立 InParameters 物件和剖析 OutParameters 物件](constructing-inparameters-objects-and-parsing-outparameters-objects.md)。
 
 <dl> <dt>
 
 **\_ \_ \_ 已停用 WBEM E 方法**
 </dt> <dd>
 
-支援的 Windows 版本不支援這個方法。
+Windows 支援的版本不支援這個方法。
 
 </dd> </dl>
 

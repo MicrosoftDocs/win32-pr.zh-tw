@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e1824e35793a083eb88ea42de0eb8858a4b76f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3c66ebb39c94135a28f90e4538116b663c2714d80413653ba945766e395d6af3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117935270"
 ---
 # <a name="effectsfullscreen"></a>效果。全螢幕
 

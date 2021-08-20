@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1ef246a0ee372c5755aeb30980095e7f2f6ca1dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8d11cad71bb1b71bcf72dc8513f8d2ca5d5ecbf5d1993d66f1c6a4b7e4b4f07a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118007322"
 ---
 # <a name="win32_systemaccount-class"></a>Win32 \_ SystemAccount 類別
 
-**Win32 \_ SystemAccount** [WMI 類別](../wmisdk/retrieving-a-class.md)代表系統帳戶。 系統帳戶是由作業系統和服務所使用。 Windows 中有許多服務和進程需要在內部登入，例如在 Windows 安裝期間。 系統帳戶是針對該目的所設計。
+**Win32 \_ SystemAccount** [WMI 類別](../wmisdk/retrieving-a-class.md)代表系統帳戶。 系統帳戶是由作業系統和服務所使用。 Windows 中有許多服務和程式需要在內部登入，例如在 Windows 安裝期間。 系統帳戶是針對該目的所設計。
 
 系統帳戶是未顯示在使用者管理員中的內部帳戶，無法新增至任何群組，也無法將使用者權限指派給該帳戶。 不過，系統帳戶會顯示在 [檔案管理員] 中的 NTFS 檔案系統磁片區，該磁片區位於 [安全性] 功能表的 [許可權] 區段中。 根據預設，系統帳戶會被授與 NTFS 檔案系統磁片區上所有檔案的完整控制權，這表示系統帳戶具有與系統管理員帳戶相同的功能許可權。
 
@@ -116,7 +116,7 @@ class Win32_SystemAccount : Win32_Account
 限定詞：覆 [**寫**](../wmisdk/standard-qualifiers.md) ( "Domain" ) ， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Network Management 函數 \| domainname" ) 
 </dt> </dl>
 
-系統帳戶所屬之 Windows 網域的名稱。
+系統帳戶所屬 Windows 網域的名稱。
 
 範例： "NA-SALES"
 
@@ -170,7 +170,7 @@ class Win32_SystemAccount : Win32_Account
 限定詞：覆 [**寫**](../wmisdk/standard-qualifiers.md) ( "Name" ) ， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Network Management 結構 \| 名稱" ) 
 </dt> </dl>
 
-此類別的 **domain** 屬性所指定之網域上的 Windows 系統帳戶名稱。
+此類別的 **domain** 屬性所指定之網域上 Windows 系統帳戶的名稱。
 
 </dd> <dt>
 
@@ -186,7 +186,7 @@ class Win32_SystemAccount : Win32_Account
 限定詞： [**Fixed**](../wmisdk/standard-wmi-qualifiers.md)， [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Security 識別碼 (sid) " ) 
 </dt> </dl>
 
-此帳戶 (SID) 的安全識別碼。 SID 是變數長度的字串值，用來識別信任者。 每個帳戶都有一個由授權單位所發行的唯一 SID (例如儲存在安全性資料庫中的 Windows 網域) 。 當使用者登入時，系統會從資料庫抓取使用者的 SID，並將其放在使用者的存取權杖中。 系統會在使用者的存取權杖中使用 SID，以在所有後續與 Windows 安全性的互動中識別使用者。 使用 SID 做為使用者或群組的唯一識別碼時，無法再次使用它來識別另一個使用者或群組。
+此帳戶 (SID) 的安全識別碼。 SID 是變數長度的字串值，用來識別信任者。 每個帳戶都有一個由授權單位所發行的唯一 SID (例如儲存在安全性資料庫中的 Windows 網域) 。 當使用者登入時，系統會從資料庫抓取使用者的 SID，並將其放在使用者的存取權杖中。 系統會在使用者的存取權杖中使用 SID，以在後續與 Windows 安全性的互動中識別使用者。 使用 SID 做為使用者或群組的唯一識別碼時，無法再次使用它來識別另一個使用者或群組。
 
 這個屬性是從 [**Win32 \_ 帳戶**](win32-account.md)繼承而來的。
 

@@ -1,17 +1,17 @@
 ---
-description: Proxy 定位器設定
+description: Proxy 定位器設定設定
 ms.assetid: d74a85cf-293e-4322-9aff-55b06d6fda5e
-title: Proxy 定位器設定
+title: Proxy 定位器設定設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3503a90bcccc990865769b6bf02a65fc383511f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa5b2f7bc8e8567fcb1d84ab48bdd2a9652045ecb0332de63b82db2652dfe86a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058631"
 ---
-# <a name="proxy-locator-configuration-settings"></a>Proxy 定位器設定
+# <a name="proxy-locator-configuration-settings"></a>Proxy 定位器設定設定
 
 本主題說明預設 proxy 定位器的設定。 如需有關使用自訂設定來建立 proxy 定位器的詳細資訊，請參閱 [如何設定 Proxy 定位器](how-to-configure-the-proxy-locator.md)。
 

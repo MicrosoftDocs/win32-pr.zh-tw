@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bf57f833a12687d51521dda416b8ff1c04ebbc49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b8b5664c55963c5c702c25f0250a472ec4df3d71105f23bd13d173e7252a4b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117895647"
 ---
 # <a name="instanceparameterscachepriority-property"></a>InstanceParameters. CachePriority 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 3f95b0ac-d70f-4bc2-8524-c7de1df34afa
 title: ASF 索引子
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c729b547339149ee578a90283c570ec8460b0c57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: adde38583d70bdbc23382e6d57316cc92b5fbd3963560a10960acbe29ea97624
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117881139"
 ---
 # <a name="asf-indexer"></a>ASF 索引子
 

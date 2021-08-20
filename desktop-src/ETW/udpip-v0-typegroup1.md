@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 78243a49e4504fd9e132407feebe98d9b48f7bdd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8061009fcf419bd7b5ab04eda0b056a8ccee1ad3f3b990a0846058599f34fbde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117813760"
 ---
 # <a name="udpip_v0_typegroup1-class"></a>UdpIp \_ V0 \_ TypeGroup1 類別
 
@@ -178,7 +178,7 @@ saddr
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                   |
 
 

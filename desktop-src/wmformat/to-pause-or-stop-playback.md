@@ -16,12 +16,12 @@ keywords:
 - 非同步讀取器，播放暫停或停止
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 728ce4c58f9198f605764d0f19d0d5f55c7f6c6b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d7ae7f3c1dd2c045a35b8d3ee8950ace849a032136371f9da7ff1bcc2b12de27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104507788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845363"
 ---
 # <a name="to-pause-or-stop-playback"></a>暫停或停止播放
 
@@ -45,9 +45,9 @@ ms.locfileid: "104507788"
 [**使用非同步讀取器讀取檔案**](reading-files-with-the-asynchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

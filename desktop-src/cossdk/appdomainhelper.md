@@ -11,12 +11,12 @@ api_name:
 - AppDomainHelper
 api_type:
 - COM
-ms.openlocfilehash: 6b4fbedbca631ec49dc2e416d939abdeb239e5b8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bab1ade7d97d3e911dbe0dc56cff69c5308d7d5e44baadb4641829c5f5a9d806
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117917552"
 ---
 # <a name="appdomainhelper-class"></a>AppDomainHelper 類別
 
@@ -46,7 +46,7 @@ ms.locfileid: "104510522"
 
 若要建立這個物件，請呼叫 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)。
 
-若要從 Microsoft Visual Basic 使用這個類別，請新增 COM + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. AppDomainHelper" 將 AppDomainHelper 物件宣告為類別名稱。
+若要從 Microsoft Visual Basic 使用這個類別，請新增 com + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. AppDomainHelper" 將 AppDomainHelper 物件宣告為類別名稱。
 
 ## <a name="requirements"></a>規格需求
 
@@ -54,8 +54,8 @@ ms.locfileid: "104510522"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>ComSvcs。h</dt> </dl> |
 
 

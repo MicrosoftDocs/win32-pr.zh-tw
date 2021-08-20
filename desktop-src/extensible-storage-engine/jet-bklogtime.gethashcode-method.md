@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fb5cb82003b874f0b84cfab89921c4670c128ce5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e3b99bbc20fe7a3375f30b16af504133fffa792e3bee72c188afeb20b760809
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118076155"
 ---
 # <a name="jet_bklogtimegethashcode-method"></a>JET_BKLOGTIME。GetHashCode 方法
 

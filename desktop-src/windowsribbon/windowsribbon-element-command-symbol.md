@@ -3,7 +3,7 @@ title: Command. Symbol 屬性
 description: 代表可在外部參考的命令名稱。
 ms.assetid: affa5f3f-f641-4bec-9165-6102509cf355
 keywords:
-- Command. Symbol 屬性 Windows 功能區
+- 命令符號屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b88dccb71a90feca7348ca9731ca5966b012c9c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb0a391b56c5d44809735d32b9d3e3dfa47dc2b9f1ce686176fa077e99bf987c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117656483"
 ---
 # <a name="commandsymbol-property"></a>Command. Symbol 屬性
 
@@ -93,8 +93,8 @@ ms.locfileid: "106969810"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - MIDI 事件種類
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 823ce5ce7af898ca3178e0379fb814c54fbf06b7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0917b0ba32a77f5db3df50d76fc1b7e3c69c3b816f47ad3bda141a9f0fe51571
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802818"
 ---
 # <a name="midi-event-types"></a>MIDI 事件種類
 
@@ -25,6 +25,6 @@ ms.locfileid: "104023455"
 
 如需預先定義之事件種類的描述，請參閱 **MIDIEVENT** 結構的參考資料。
 
- 
+ 
 
- 
+ 

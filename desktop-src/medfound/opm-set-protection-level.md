@@ -4,12 +4,12 @@ ms.assetid: f4e63bf5-0749-4054-9f86-7fd88f2881ad
 title: 'OPM_SET_PROTECTION_LEVEL (Opmapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17a80fb674c9347dafc3bcf1a62dc4bc909f0471
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83203f68d0a55af3be2d407aab9831576544910e37f938b6539cb16d40d9b26b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058706"
 ---
 # <a name="opm_set_protection_level"></a>OPM \_ SET \_ 保護 \_ 等級
 
@@ -36,8 +36,8 @@ ms.locfileid: "106974165"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

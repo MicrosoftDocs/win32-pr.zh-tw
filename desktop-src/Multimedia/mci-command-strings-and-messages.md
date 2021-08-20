@@ -7,12 +7,12 @@ keywords:
 - MCI 命令訊息，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 107a317442280b8fb4c7afe7832205b1c7128513
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b34dc9c152265abb51572131751b5cb370782dba83cc3ed6d09bff11f2ca9290
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117986848"
 ---
 # <a name="mci-command-strings-and-messages"></a>MCI 命令字串和訊息
 
@@ -25,6 +25,6 @@ MCI 支援 [命令字串](command-strings.md) 和 [命令訊息](command-message
 
 當您討論到命令時，此總覽會使用命令的字串形式，後面接著訊息格式（以括弧括住）。
 
- 
+ 
 
- 
+ 

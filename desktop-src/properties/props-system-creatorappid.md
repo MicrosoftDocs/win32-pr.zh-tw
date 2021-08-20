@@ -4,12 +4,12 @@ ms.assetid: 8486576b-e879-4313-b3ab-4be0c4768f8b
 title: System. CreatorAppId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e493fb1def8abfe6afb8a99f30e426564c4d55d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8db62bb6bfc79593066ee300e3738df8d6f93f7a0dec8b1ecc885abcf98f2bea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055185"
 ---
 # <a name="systemcreatorappid"></a>System. CreatorAppId
 

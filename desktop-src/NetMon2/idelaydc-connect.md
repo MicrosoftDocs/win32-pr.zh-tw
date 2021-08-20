@@ -1,7 +1,7 @@
 ---
-description: Connect 方法會使用指定的網路介面卡，將 NPP 連接到網路，並提供連線的設定資訊。
+description: 連線方法會使用指定的網路介面卡，將 NPP 連接到網路，並提供連線的設定資訊。
 ms.assetid: aae9ff9c-d077-4db2-a900-9916e4f7bb8b
-title: 'IDelaydC：： Connect 方法 (Netmon. h) '
+title: 'IDelaydC：：連線方法 (Netmon. h) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b2cd1fb5ad694493c4a225aa3bf109d7775b9dd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a08a3c942bee6b51ffa34bec2fdce3be87612c35105a611d10d719afd11adee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117981320"
 ---
-# <a name="idelaydcconnect-method"></a>IDelaydC：： Connect 方法
+# <a name="idelaydcconnect-method"></a>IDelaydC：：連線方法
 
-**Connect** 方法會使用指定的網路介面卡，將 NPP 連接到網路，並提供連線的設定資訊。
+**連線** 方法會使用指定的網路介面卡，將 NPP 連接到網路，並提供連線的設定資訊。
 
 ## <a name="syntax"></a>語法
 
@@ -87,7 +87,7 @@ BLOB 的控制碼，指定您要連接的 NIC 以及該連接的設定資訊。
 <thead>
 <tr class="header">
 <th>傳回碼</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -101,7 +101,7 @@ BLOB 的控制碼，指定您要連接的 NIC 以及該連接的設定資訊。
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </dl></td>
-<td><em>HInputBlob</em>所指定的輸入 BLOB 缺少執行這項作業所需的專案。 此錯誤可能是由 <strong>IDelaydC：： Connect</strong> 或 <strong>IDelaydC：： Configure</strong> 呼叫所產生。 查看 <em>hErrorBlob</em> 傳回的錯誤 BLOB，以判斷找不到哪個專案。<br/></td>
+<td><em>HInputBlob</em>所指定的輸入 BLOB 缺少執行這項作業所需的專案。 此錯誤可能是由<strong>IDelaydC：：連線</strong>或<strong>IDelaydC：： Configure</strong>呼叫所產生。 查看 <em>hErrorBlob</em> 傳回的錯誤 BLOB，以判斷找不到哪個專案。<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </dl></td>
@@ -145,7 +145,7 @@ BLOB 的控制碼，指定您要連接的 NIC 以及該連接的設定資訊。
 
 ## <a name="remarks"></a>備註
 
-呼叫 **Connect** 方法時，NPP 會使用 *hInputBlob* 所提供的 BLOB，自動呼叫 **IDelaydC：： Configure** 。 請注意， **IDelaydC：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IDelaydC：： Connect** 呼叫傳回。
+呼叫 **連線** 方法時，NPP 會使用 *hInputBlob* 所提供的 BLOB，自動呼叫 **IDelaydC：： Configure** 。 請注意， **IDelaydC：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IDelaydC：：連線** 呼叫傳回。
 
 您必須先呼叫這個方法，才能開始捕獲框架。 請注意，當您使用此方法連接到網路時，您必須繼續使用 **IDelaydC** 介面方法來捕捉畫面格。
 

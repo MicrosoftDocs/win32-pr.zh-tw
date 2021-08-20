@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3deeefd7fed8e17099dc74b2cc6422a126ef6b1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df93bddc14d9788164fa8f278536939bd108e1a99ab320d06b68b8059ec8bd38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890585"
 ---
 # <a name="systemparameterscachesizemin-property"></a>SystemParameters. CacheSizeMin 屬性
 

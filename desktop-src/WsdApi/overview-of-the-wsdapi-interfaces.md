@@ -1,19 +1,19 @@
 ---
-description: 裝置上的 Web 服務 API (WSDAPI) 用來開發用戶端應用程式，以尋找和存取裝置，以及開發在 Windows Vista 和 Windows Server 2008 上執行的裝置主機和相關聯的服務。
+description: 裝置上的 Web 服務 API (WSDAPI) 可用來開發用戶端應用程式，以尋找和存取裝置，以及開發在 Windows Vista 和 Windows Server 2008 上執行的裝置主機和相關聯的服務。
 ms.assetid: 2b23d7d3-3b06-48c8-993e-49c72b139624
 title: WSDAPI 介面的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f3e728971741f97707c1dc72effdaf0ca17dbb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13fb46d1cddcc4f86b4179616ccd54518396c88c3139fa1e2897a6fc8ee8bdf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920485"
 ---
 # <a name="overview-of-the-wsdapi-interfaces"></a>WSDAPI 介面的總覽
 
-裝置上的 Web 服務 API (WSDAPI) 用來開發用戶端應用程式，以尋找和存取裝置，以及開發在 Windows Vista 和 Windows Server 2008 上執行的裝置主機和相關聯的服務。 [函數探索](/previous-versions/windows/desktop/fundisc/fd-portal)API 和[WsdCodeGen](web-services-for-devices-code-generator.md)工具是可用於用戶端、裝置主機和服務開發的補充工具。 WSDAPI 介面可以直接用來公開 advanced 功能。
+裝置上的 Web 服務 API (WSDAPI) 可用來開發用戶端應用程式，以尋找和存取裝置，以及開發在 Windows Vista 和 Windows Server 2008 上執行的裝置主機和相關聯的服務。 [函數探索](/previous-versions/windows/desktop/fundisc/fd-portal)API 和[WsdCodeGen](web-services-for-devices-code-generator.md)工具是可用於用戶端、裝置主機和服務開發的補充工具。 WSDAPI 介面可以直接用來公開 advanced 功能。
 
 ## <a name="major-wsdapi-interfaces"></a>主要 WSDAPI 介面
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df999e327591309f015d8720f61643625eced4d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a52c9faa6d5ce6acd99921908b178d5a128c18bbdfb69665e929977293ec8fca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117956795"
 ---
 # <a name="counteritem-object"></a>CounterItem 物件
 
@@ -59,7 +59,7 @@ ms.locfileid: "103686011"
 
 | 屬性                                                  | 描述                                                                     |
 |:----------------------------------------------------------|:--------------------------------------------------------------------------------|
-| [**色彩**](counteritem-color.md)<br/>             | 抓取或設定用來繪製計數器值的色彩。<br/>         |
+| [**Color**](counteritem-color.md)<br/>             | 抓取或設定用來繪製計數器值的色彩。<br/>         |
 | [**線條樣式**](counteritem-linestyle.md)<br/>     | 抓取或設定用來繪製計數器值的線條樣式。<br/>    |
 | [**路徑**](counteritem-path.md)<br/>               | 抓取計數器的路徑。<br/>                                   |
 | [**ScaleFactor**](counteritem-scalefactor.md)<br/> | 抓取或設定用來繪製計數器值的比例因數。<br/>  |

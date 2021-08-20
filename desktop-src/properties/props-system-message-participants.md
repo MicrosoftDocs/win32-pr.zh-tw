@@ -4,12 +4,12 @@ ms.assetid: 43196979-d1f0-4a30-9358-07de376d1233
 title: 系統。參與者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dfae953c207ca68ea3936d19f4a16459d027509
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca2ee82db18b5001cf690221c0fc66f9048346d93889c711304122cea9ece882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683240"
 ---
 # <a name="systemmessageparticipants"></a>系統。參與者
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用邏輯取用者來系結事件篩選器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e99f44c4b64b98877231b73543d8753c765c3219
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b901ad634dfce3fba6b0641f1a234113cf0448ed323ef5c58127293bd56fceb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118109500"
 ---
 # <a name="binding-an-event-filter-with-a-logical-consumer"></a>使用邏輯取用者來系結事件篩選器
 
@@ -57,7 +57,7 @@ instance of __FilterToConsumerBinding
 
 **:** 當系統管理員建立訂用帳戶時，它的 SID 不會用在 **CreatorSID** 屬性中，而是改用本機 Administrators 群組的 sid。 因此，實例可以由不同的系統管理員建立，且訂用帳戶仍可運作。 如需詳細資訊，請參閱 [安全地接收事件](receiving-events-securely.md)。
 
-當篩選準則系結至邏輯取用者時，Windows (ETW) 的 [事件追蹤](/windows/desktop/ETW/event-tracing-portal) 會記錄事件。 如需詳細資訊，請參閱 [追蹤 WMI 活動](tracing-wmi-activity.md)。
+當篩選準則系結至邏輯取用者時，事件是由 Windows (ETW) 的[事件追蹤](/windows/desktop/ETW/event-tracing-portal)所記錄。 如需詳細資訊，請參閱 [追蹤 WMI 活動](tracing-wmi-activity.md)。
 
 ## <a name="related-topics"></a>相關主題
 

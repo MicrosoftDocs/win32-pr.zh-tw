@@ -4,12 +4,12 @@ ms.assetid: 26aaad09-c1e1-46e8-9cd3-7d795a10d900
 title: 控制碼和物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b5a35d55571a01f2f186f4e756401582474949f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aae4bba94c4f991ee56391f7efe8f83a6714f87c8aa10e43ece69347f4b764c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117958428"
 ---
 # <a name="handles-and-objects"></a>控制碼和物件
 

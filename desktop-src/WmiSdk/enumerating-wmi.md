@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 列舉 WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d94f4a1fcff06423bad9d2bf5570ec1b9705fdef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 417e5ea2ae1a1216c567a1ddf257c34796b4344a807d323ad4ad7165f1707098
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117924694"
 ---
 # <a name="enumerating-wmi"></a>列舉 WMI
 
@@ -36,7 +36,7 @@ ms.locfileid: "106969309"
 
 1.  使用 [>get-wmiobject](https://technet.microsoft.com/library/dd315379.aspx) Cmdlet 的呼叫來列舉實例。
 
-    [>get-wmiobject](https://technet.microsoft.com/library/dd315379.aspx) 會傳回一或多個 WMI 物件的集合，您可以透過這些物件來列舉。 如需詳細資訊，請參閱 [存取集合](accessing-a-collection.md)。
+    [>Get-wmiobject](https://technet.microsoft.com/library/dd315379.aspx) 會傳回一或多個 WMI 物件的集合，您可以透過這些物件來列舉。 如需詳細資訊，請參閱 [存取集合](accessing-a-collection.md)。
 
     如果您想要在另一個命名空間或不同的電腦上取出 WMI 類別實例，請分別在 *-computer* 和 *-namespace* 參數中指定電腦和命名空間。 如需詳細資訊，請參閱 [建立 WMI 腳本](creating-a-wmi-script.md)。 只有當您有適當的存取權限時，才適用此功能。 如需詳細資訊，請參閱 [維護 WMI 安全性](maintaining-wmi-security.md) 和執行具特殊 [許可權的作業](executing-privileged-operations.md)。
 
@@ -64,7 +64,7 @@ foreach ($Drive in $objCol)
 
 ## <a name="enumerating-wmi-using-c-microsoftmanagementinfrastructure"></a>使用 c # (Microsoft 管理) 列舉 WMI
 
-1.  新增參考至 **Microsoft. 管理基礎結構** 參考元件。  (此元件隨附于 [Windows 8 Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/library/windows/desktop/hh852363.aspx)的一部分。 ) 
+1.  新增參考至 **Microsoft. 管理基礎結構** 參考元件。  (此元件隨附于[Windows 8 Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/library/windows/desktop/hh852363.aspx)的一部分。 ) 
 2.  針對 **Microsoft. 基礎結構** 命名空間加入 **using** 語句。
 
 ```CSharp
@@ -81,7 +81,7 @@ foreach ($Drive in $objCol)
 
     
 
-4.  呼叫 [**CimSession QueryInstances**](https://www.bing.com/search?q=**CimSession.QueryInstances**) 方法，傳遞所需的 CIM 命名空間和 WQL 來使用。 下列程式碼片段會傳回兩個實例，代表兩個標準 Windows 進程，其中 handle 屬性 (代表處理序識別碼，或 PID) 的值為0或4。
+4.  呼叫 [**CimSession QueryInstances**](https://www.bing.com/search?q=**CimSession.QueryInstances**) 方法，傳遞所需的 CIM 命名空間和 WQL 來使用。 下列程式碼片段會傳回兩個實例，代表兩個標準 Windows 進程，其中的控制碼屬性 (代表處理序識別碼，或 PID) 的值為0或4。
 
 ```CSharp
     IEnumerable<CimInstance> queryInstances =     

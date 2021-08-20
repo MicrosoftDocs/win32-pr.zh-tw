@@ -4,12 +4,12 @@ description: 應用程式可以將訊息傳送至 rich edit 控制項，以便�
 ms.assetid: 19A4F0D1-88C5-407D-A70F-CB486DAD352E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 246c6309dec94538f47ed9ca7e464f1d6d17f240
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: d86358aa5bccb545f37e6a8373d95fad5df8e26505d392584d75608860d89446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103681604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006195"
 ---
 # <a name="how-to-format-text-in-rich-edit-controls"></a>如何格式化 Rich Edit 控制項中的文字
 
@@ -19,12 +19,12 @@ ms.locfileid: "103681604"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -52,9 +52,9 @@ ms.locfileid: "103681604"
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

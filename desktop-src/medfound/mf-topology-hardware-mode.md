@@ -4,12 +4,12 @@ ms.assetid: f7ac3c9b-c163-412f-84c0-27bf551091d8
 title: 'MF_TOPOLOGY_HARDWARE_MODE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec7933e9a380bbf5e66f4030a214f3f4aa93abc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52da08dc1da36072f02627ec632bb8caf189c1748545c1ded5c3e4ebdedc1234
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875665"
 ---
 # <a name="mf_topology_hardware_mode-attribute"></a>MF \_ 拓撲 \_ 硬體 \_ 模式屬性
 
@@ -56,8 +56,8 @@ ms.locfileid: "106971151"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

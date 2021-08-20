@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: ee5b04a000cf1e758780c15c257af331538da7a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5ef8e0c6c4c80e3e9391bc7453be18976f1d4263887382e4ee7d74953e8f530
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088617"
 ---
 # <a name="idcompositiontabletransfereffectsetbluetablevalue-methods"></a>IDCompositionTableTransferEffect：： SetBlueTableValue 方法
 

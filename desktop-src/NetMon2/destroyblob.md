@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: e90630981c16f38d601d4e06d04f9326174ef721
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cb29e1a49708bef8d197260b6850ae18f54b42ca1f3ea7aaa9e699f7ce31cd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117982862"
 ---
 # <a name="destroyblob-function"></a>DestroyBlob 函式
 

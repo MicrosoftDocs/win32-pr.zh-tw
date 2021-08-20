@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 錯誤1041到1050
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 327ef466d1b1226b14d895fef81be24baee45354
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f09540249abfed0c8bbf5113ca16f6c1ccbb5d4a913673f628d47ca269f63134
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117924549"
 ---
 # <a name="errors-1041-through-1050"></a>錯誤1041到1050
 

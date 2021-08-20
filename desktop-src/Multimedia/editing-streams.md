@@ -11,12 +11,12 @@ keywords:
 - EditStreamSetInfo 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29eb687eb36ff9dfe0b1d3477bff095bdd78a135
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8616b3560409dfd15991cbdb9c5c1ecd7492a11c3690ee3728b0e52ec8d0951a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117988819"
 ---
 # <a name="editing-streams"></a>編輯資料流程
 
@@ -39,11 +39,11 @@ ms.locfileid: "104462317"
 > [!Note]  
 > 可編輯資料流程中的編輯資料表會維護資料流程的所有變更。 來來源資料流永遠不會變更。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

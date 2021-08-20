@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 57eff10af1bf53b2a659cde6b7e036b5391c3ea6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a83bcf4673376e7a5678f94da2defe0ff1674fa836326e6912964a7233837a9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104973949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088654"
 ---
 # <a name="processquadtessfactorsmin-function"></a>ProcessQuadTessFactorsMin 函式
 
@@ -111,7 +111,7 @@ void ProcessQuadTessFactorsMin(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 

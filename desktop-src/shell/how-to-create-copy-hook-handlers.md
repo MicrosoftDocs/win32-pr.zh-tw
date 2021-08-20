@@ -4,12 +4,12 @@ ms.assetid: 05808281-84fb-402d-9fa1-3a747b29d030
 title: 如何建立複製勾點處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1468839eacc10272f8f97a120b98ada6d580bacf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19a20831103d26233f76f64f32d07bf50977a746669fff7e5562da159e14027d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117679087"
 ---
 # <a name="how-to-create-copy-hook-handlers"></a>如何建立複製勾點處理常式
 

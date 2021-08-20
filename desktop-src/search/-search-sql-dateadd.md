@@ -4,12 +4,12 @@ ms.assetid: 83ef098d-85ef-4883-a1e1-9229e050247f
 title: DATEADD 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c0b193e75ec644eb3312a61c723edeac43ee264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 875855ac69809c6312a4911b82dd3dd627965331946e206863cfc29a8a090c38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680732"
 ---
 # <a name="dateadd-function"></a>DATEADD 函數
 

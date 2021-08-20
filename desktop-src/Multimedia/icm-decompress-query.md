@@ -1,9 +1,9 @@
 ---
 title: 'ICM_DECOMPRESS_QUERY 訊息 (Vfw .h) '
-description: ICM \_ 解壓縮 \_ 查詢訊息會查詢影片解壓縮驅動程式，以判斷它是否支援特定輸入格式，或是否可以將特定的輸入格式解壓縮至特定的輸出格式。
+description: ICM \_ 解壓縮 \_ 查詢訊息會查詢影片解壓縮驅動程式，以判斷它是否支援特定輸入格式，或是否可將特定輸入格式解壓縮至特定的輸出格式。
 ms.assetid: 622dd1de-3f7a-4841-913c-282c2ad766f4
 keywords:
-- ICM_DECOMPRESS_QUERY message Windows 多媒體
+- ICM_DECOMPRESS_QUERY 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 838c946a38f9c2fda0c9178a36107af73f539a03
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05edaa76f0d361741cb3ab5b274c63c2c2cc38ce5e388854f7056c3ea59d109f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987938"
 ---
-# <a name="icm_decompress_query-message"></a>ICM \_ 解壓縮 \_ 查詢訊息
+# <a name="icm_decompress_query-message"></a>ICM \_解壓縮 \_ 查詢訊息
 
-**ICM \_ 解壓縮 \_ 查詢** 訊息會查詢影片解壓縮驅動程式，以判斷它是否支援特定輸入格式，或是否可以將特定的輸入格式解壓縮至特定的輸出格式。 您可以使用 [**ICDecompressQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressquery) 宏明確地傳送此訊息。
+**ICM \_ 解壓縮 \_ 查詢** 訊息會查詢影片解壓縮驅動程式，以判斷它是否支援特定輸入格式，或是否可將特定輸入格式解壓縮至特定的輸出格式。 您可以使用 [**ICDecompressQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressquery) 宏明確地傳送此訊息。
 
 
 ```C++

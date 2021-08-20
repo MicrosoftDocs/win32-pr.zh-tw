@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ec36290b7cad66b2b5f27633d30ae76c3331eba9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c47b861a47498cc29d80061c6c2da1ffc44e40b7446588cf7c3376e5ed18e837
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118001981"
 ---
 # <a name="amoviedllregisterserver2-function"></a>AMovieDllRegisterServer2 函式
 
@@ -55,7 +55,7 @@ HRESULT AMovieDllRegisterServer2(
 
 ## <a name="remarks"></a>備註
 
-您可以使用此函式來設定篩選。 如需詳細資訊，請參閱 [如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
+您可以使用此函式來設定篩選。 如需詳細資訊，請參閱[如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
 
 ## <a name="requirements"></a>規格需求
 

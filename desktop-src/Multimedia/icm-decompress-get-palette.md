@@ -1,9 +1,9 @@
 ---
 title: 'ICM_DECOMPRESS_GET_PALETTE 訊息 (Vfw .h) '
-description: ICM \_ 解壓縮 \_ 取得 \_ 調色板訊息要求影片解壓縮驅動程式提供輸出 BITMAPINFOHEADER 結構的色彩表。 您可以使用 ICDecompressGetPalette 宏明確地傳送此訊息。
+description: ICM \_ 解壓縮取得選擇區 \_ \_ 訊息要求：影片解壓縮驅動程式提供輸出 BITMAPINFOHEADER 結構的色彩表。 您可以使用 ICDecompressGetPalette 宏明確地傳送此訊息。
 ms.assetid: f9fae9ab-9f69-44b6-bedb-f56f43845229
 keywords:
-- ICM_DECOMPRESS_GET_PALETTE message Windows 多媒體
+- ICM_DECOMPRESS_GET_PALETTE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6255ea99b9177819dee6d227c45d2229deab57f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7705b385b07aadde142c17382fde6708cd0fa52eb4d47e24c9565a18911d014f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106998024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987999"
 ---
-# <a name="icm_decompress_get_palette-message"></a>ICM \_ 解壓縮 \_ 取得 \_ 選用區訊息
+# <a name="icm_decompress_get_palette-message"></a>ICM \_解壓縮 \_ 取得 \_ 調色板訊息
 
-**ICM \_ 解壓縮 \_ 取得 \_ 調色板** 訊息要求影片解壓縮驅動程式提供輸出 [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85))結構的色彩表。 您可以使用 [**ICDecompressGetPalette**](/windows/desktop/api/Vfw/nf-vfw-icdecompressgetpalette) 宏明確地傳送此訊息。
+**ICM \_ 解壓縮 \_ 取得 \_** 選擇區訊息要求：影片解壓縮驅動程式提供輸出 [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85))結構的色彩表。 您可以使用 [**ICDecompressGetPalette**](/windows/desktop/api/Vfw/nf-vfw-icdecompressgetpalette) 宏明確地傳送此訊息。
 
 
 ```C++

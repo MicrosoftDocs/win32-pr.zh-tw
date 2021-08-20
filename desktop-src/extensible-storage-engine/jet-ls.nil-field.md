@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77891d1b50bd7fcd8bcc3b1bddc47ed91f86a539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b9f0267252b620f1e92696beebfef558320565d31d950ee325241dde4331ba1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118074330"
 ---
 # <a name="jet_lsnil-field"></a>JET_LS。Nil 欄位
 

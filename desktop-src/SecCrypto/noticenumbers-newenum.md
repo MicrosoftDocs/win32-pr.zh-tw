@@ -1,5 +1,5 @@
 ---
-description: '\_NoticeNumbers 的 NewEnum 屬性會抓取可以用來列舉集合之物件上的 IEnumVARIANT 介面。 這個屬性會在 Visual Basic Scripting Edition (VBScript) 中隱藏。'
+description: '\_NoticeNumbers 的 NewEnum 屬性會抓取可以用來列舉集合之物件上的 IEnumVARIANT 介面。 這個屬性會在 Visual Basic 腳本版本 (VBScript) 中隱藏。'
 ms.assetid: 21c19edd-b060-46cd-ad44-efd3a77b327c
 title: NoticeNumbers._NewEnum 屬性
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a9a09031e5b06d89bfdd9e03b09574f567f8ef93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b7a645d75e7cf0f5058366c1ec04abecda634624a878a1641331b1d2124a0cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980189"
 ---
 # <a name="noticenumbers_newenum-property"></a>NoticeNumbers。 \_NewEnum 屬性
 
 \[**\_ NewEnum** 屬性可用於 [需求] 區段中指定的作業系統。 如需詳細資訊，請參閱 [**限定詞**](qualifier.md)。\]
 
-**\_ NewEnum** 屬性會抓取可用於列舉集合之物件上的 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant)介面。 這個屬性會在 Visual Basic Scripting Edition (VBScript) 中隱藏。
+**\_ NewEnum** 屬性會抓取可用於列舉集合之物件上的 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant)介面。 這個屬性會在 Visual Basic 腳本版本 (VBScript) 中隱藏。
 
 ## <a name="syntax"></a>Syntax
 

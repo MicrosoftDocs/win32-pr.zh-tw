@@ -4,12 +4,12 @@ ms.assetid: b6f2dd19-2425-44fe-b976-c531736793bf
 title: System.Devices.Aep.ModelId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e337375b4e8ccd20f5f1151b6a8fa40509f84278
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de78a6e8102b5cc001743924f2908584cf729c9870550e4daf54ab536f2f96d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054540"
 ---
 # <a name="systemdevicesaepmodelid"></a>System.Devices.Aep.ModelId
 

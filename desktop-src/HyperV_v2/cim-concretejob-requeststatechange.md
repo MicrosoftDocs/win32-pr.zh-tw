@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6e3efcea0f7ed7d6ecbfef7b543a0e82d90a15b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fac9e4f824572010f15ec979b6858b2b7885191123f1b20d05985c064e235e02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117813220"
 ---
 # <a name="requeststatechange-method-of-the-cim_concretejob-class"></a>CIM ConcreteJob 類別的 RequestStateChange 方法 \_
 

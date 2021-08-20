@@ -4,12 +4,12 @@ ms.assetid: 407619c6-2d4b-4f7f-a861-42ee0f462ecd
 title: Microsoft DVD 導覽器如何選取 DVD 區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f8a2898725ad187946b50e567f7daa7e72a9886
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 822a546276c57296bb4514e3ab2c8917abfe7218fe3afeadd528ac6bd80066d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "107000036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117999767"
 ---
 # <a name="how-microsoft-dvd-navigator-selects-the-dvd-region"></a>Microsoft DVD 導覽器如何選取 DVD 區域
 

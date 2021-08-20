@@ -4,12 +4,12 @@ description: JAVATLB Command-Line 工具
 ms.assetid: b46d7bcc-ccd9-4242-9b19-f398d2cb8f91
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a0214648f7ad86613d6b35e3084021e2be24aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0ade0a20a1c41310422c08310f2d0534914993d79909f51990c48aa04df0a5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117918622"
 ---
 # <a name="javatlb-command-line-tool"></a>JAVATLB Command-Line 工具
 
@@ -25,14 +25,14 @@ JAVATLB 是 Visual j + + 5.0 的元件。 JAVATLB 是一種命令列應用程式
 
 若要產生多個 COM 物件的 JAVA 類別檔案，請從命令提示字元執行：
 
-**javatlb @ * * * TextFile*
+**javatlb @**_TextFile_
 
 其中 *TextFile* 是文字檔的名稱，其中包含包含 COM 物件類型程式庫的檔案清單。
 
 > [!Note]  
 > 在 Visual c + + 6.0 中，JAVATLB 命令列工具是由 [JActiveX 工具](jactivex-command-line-tool.md)所取代。 如需詳細資訊，請參閱 Visual c + + 6.0 檔。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -41,9 +41,9 @@ JAVATLB 是 Visual j + + 5.0 的元件。 JAVATLB 是一種命令列應用程式
 [轉換成 JAVA](translating-to-java.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wzcsapi.dll
-ms.openlocfilehash: bc89fd2defb75662fa90b5ed00c7969d483da590
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa401e1b045b56b41f7406851c927c316b19d5486adc903af667383465bfd19f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117983925"
 ---
 # <a name="wzceapolgetinterfaceparams-function"></a>WZCEapolGetInterfaceParams 函式
 
@@ -84,7 +84,7 @@ DWORD WZCEapolGetInterfaceParams(
 
 ## <a name="return-value"></a>傳回值
 
-如果作業 \_ 順利完成，則傳回錯誤成功; 否則會傳回其中一個 Windows 系統錯誤碼。
+如果作業 \_ 順利完成，則傳回錯誤成功; 否則會傳回 Windows 系統錯誤碼中的其中一個。
 
 ## <a name="remarks"></a>備註
 
@@ -101,9 +101,9 @@ DWORD WZCEapolGetInterfaceParams(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
-| 用戶端支援結束<br/>    | Windows XP （含 SP3）<br/>                                                         |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
+| 用戶端支援結束<br/>    | WindowsXP SP3<br/>                                                         |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Wzcsapi。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Wzcsapi .lib</dt> </dl> |
