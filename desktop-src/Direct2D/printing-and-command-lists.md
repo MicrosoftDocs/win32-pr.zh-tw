@@ -4,12 +4,12 @@ description: Direct2D \ 32; 列印控制項是 Windows 8 之 Direct2D 模組中�
 ms.assetid: C51ACCDE-B205-4F79-A2FD-D112BAAD1616
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b6beb16a24c972016686e2dffe915a947128a63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: de0026071ce8e78fc2ea946e0fffff2993e32ab48a2a20d4de6cdb12ca9b1eaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075044"
 ---
 # <a name="printing-and-command-lists"></a>列印和命令清單
 
@@ -27,7 +27,7 @@ ms.locfileid: "104375561"
 下圖說明應用程式、裝置內容、點陣圖目標、命令清單目標和列印控制項之間的互動。
 
 > [!Note]  
-> Windows 列印 Sub-System 和印表機元件都是灰色，因為它們完全隱藏在 [Direct2D](./direct2d-portal.md) apps 中。
+> Windows 列印 Sub-System 和印表機元件都是灰色，因為它們完全隱藏在[Direct2D](./direct2d-portal.md) apps 中。
 
 ![顯示 commandlist 和列印如何與應用程式和 direct2d 互動的圖表。](images/d2dprintcontroldiagram.png)
 

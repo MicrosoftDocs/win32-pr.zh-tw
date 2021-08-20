@@ -4,24 +4,24 @@ ms.assetid: c028918e-aba2-49b2-a6ce-c620ab38b558
 title: DVD 事件通知碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e15172e8eba3da048e7c7704a90d7992fa21714a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 717c260c84a1038860ee04f46db6224025b7709c3ad039e7625a48ae6359cc05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106967010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686448"
 ---
 # <a name="dvd-event-notification-codes"></a>DVD 事件通知碼
 
 本節列出 DirectShow 中 DVD 播放和流覽的事件通知碼。
 
-如需有關在 DirectShow 中接收事件的詳細資訊，請參閱 [directshow 中的事件通知](event-notification-in-directshow.md)。
+如需有關在 DirectShow 中接收事件的詳細資訊，請參閱[DirectShow 中的事件通知](event-notification-in-directshow.md)。
 
 如需其他非 DVD 事件的程式碼，請參閱 [事件通知碼](event-notification-codes.md)。
 
 
 
-| 事件通知碼                                                        | Description                                                                                                                                                               |
+| 事件通知碼                                                        | 描述                                                                                                                                                               |
 |--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**EC \_ DVD \_ 角度 \_ 變更**](ec-dvd-angle-change.md)                          | 表示可用的角度數目變更或目前的角度數位已變更。                                                                      |
 | [**EC \_ DVD \_ 角度 \_ 可用**](ec-dvd-angles-available.md)                  | 指出是否現正播放角度區塊，以及是否可以執行角度變更。                                                                                      |

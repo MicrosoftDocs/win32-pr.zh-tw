@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 72268112c2a9c7d530b786a867208971ec6f4311
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ffb460f287d959b5e1baed1dda78c2ce6b2b0053c453572e42a67012affc60dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016946"
 ---
 # <a name="cbaselistgetcounti-method"></a>CBaseList. GetCountI 方法
 

@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56e1b46a7b4a0c3439f78f38a5fb6cd5b865275c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 36942badfe975a28d5212e502ab28984fa745f4a7563c39ed1cebb7d1b5dbcef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077021"
 ---
 # <a name="mdm_remotefind_location01-class"></a>MDM \_ RemoteFind \_ Location01 類別
 
@@ -61,7 +61,7 @@ class MDM_RemoteFind_Location01
 
 <dl> <dt>
 
-[精確度](/windows/client-management/mdm/remotefind-csp#accuracy)
+[精度](/windows/client-management/mdm/remotefind-csp#accuracy)
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**
@@ -165,7 +165,7 @@ class MDM_RemoteFind_Location01
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                     |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                       |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1 mof</dt> </dl> |

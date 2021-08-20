@@ -1,19 +1,19 @@
 ---
-description: Graphics 類別是 Windows GDI + 的核心。 若要繪製任何內容，您可以建立繪圖物件、設定其屬性，以及呼叫其方法 ( DrawLine、DrawImage、DrawString 和 like) 。
+description: Graphics 類別是 Windows GDI+ 的核心。 若要繪製任何內容，您可以建立繪圖物件、設定其屬性，以及呼叫其方法 ( DrawLine、DrawImage、DrawString 和 like) 。
 ms.assetid: 7d70f9fe-c0b2-4d65-815d-483d06df96ad
 title: 圖形物件的狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 661733f944b08633b5df84eed3ac488e612d9e4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f68a2ba754aadc1f7d2572dcbc2ac40d08d7fe95d382ce60511cd72d441bb80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977328"
 ---
 # <a name="the-state-of-a-graphics-object"></a>圖形物件的狀態
 
-[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)類別是 WINDOWS gdi + 的核心。 若要繪製任何內容，您可以建立 **圖形** 物件、設定其屬性，以及呼叫其方法 ( [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint))、 [DrawImage](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint))、 [DrawString](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush))和 like) 。
+[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)類別是 Windows GDI+ 的核心。 若要繪製任何內容，您可以建立 **圖形** 物件、設定其屬性，以及呼叫其方法 ( [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint))、 [DrawImage](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint))、 [DrawString](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush))和 like) 。
 
 下列範例會建立 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)物件和 [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen)物件，然後呼叫 **graphics 物件** 的 [**graphics：:D rawrectangle**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint))方法：
 
@@ -33,7 +33,7 @@ EndPaint(hWnd, &ps);
 
 
 
-在上述程式碼中， [BeginPaint](/windows/win32/api/winuser/nf-winuser-beginpaint) 方法會將控制碼傳回至裝置內容，並將該控制碼傳遞給 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 的函式。 裝置內容是由 Windows) 所維護的結構 (，其中保存所使用之特定顯示裝置的相關資訊。
+在上述程式碼中， [BeginPaint](/windows/win32/api/winuser/nf-winuser-beginpaint) 方法會將控制碼傳回至裝置內容，並將該控制碼傳遞給 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 的函式。 裝置內容是由 Windows) 所維護的結構 (，其中包含所使用之特定顯示裝置的相關資訊。
 
 ## <a name="graphics-state"></a>圖形狀態
 
@@ -46,7 +46,7 @@ EndPaint(hWnd, &ps);
 
 ### <a name="device-context"></a>裝置內容
 
-作為應用程式的程式設計人員，您不需要考慮 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件與其裝置內容之間的互動。 這項互動是由 GDI + 在幕後處理。
+作為應用程式的程式設計人員，您不需要考慮 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件與其裝置內容之間的互動。 這項互動是由幕後的 GDI+ 處理。
 
 ### <a name="quality-settings"></a>品質設定
 

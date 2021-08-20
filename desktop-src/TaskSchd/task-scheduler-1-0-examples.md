@@ -6,21 +6,21 @@ keywords:
 - 工作排程器範例工作排程器，工作排程器1.0 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 746c8c44648359f269d61fd27fc57b1fd90932da
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0ea41bbe0679935cd964f61efd52e9fa5b57cc34aab73f3bb1dd09ea64a0f9c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059876"
 ---
 # <a name="task-scheduler-10-examples"></a>工作排程器1.0 範例
 
 本節中的範例會使用工作排程器1.0 中引進的 API。
 
 > [!Note]  
-> 若為 Windows Server 2003、Windows XP 或 Windows 2000 電腦，可在 Windows Vista 電腦上建立、監視或控制工作，則必須在 Windows Vista 電腦上完成某些作業。 如需詳細資訊，請參閱[工作](tasks.md)。
+> 若為 Windows Server 2003、Windows XP 或 Windows 2000 電腦，以在 Windows vista 電腦上建立、監視或控制工作，則必須在 Windows vista 電腦上完成某些作業。 如需詳細資訊，請參閱[工作](tasks.md)。
 
- 
+ 
 
 下列主題提供的範例會示範如何使用工作排程器1.0 中引進的函式。
 
@@ -43,7 +43,7 @@ ms.locfileid: "103671051"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -52,9 +52,9 @@ ms.locfileid: "103671051"
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

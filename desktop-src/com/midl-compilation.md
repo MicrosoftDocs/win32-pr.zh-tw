@@ -4,12 +4,12 @@ description: MIDL 編譯
 ms.assetid: 2797ee3b-82fd-4cb5-9e95-23b2f2a8f011
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e281fa66ec1b8f997dd58fc55a67c19a801d2d36
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 6d6a94f94122aeeb1f2900c3adec7e567c794f31ee22259f657dfe5e95f3f688
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047946"
 ---
 # <a name="midl-compilation"></a>MIDL 編譯
 

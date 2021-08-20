@@ -4,16 +4,16 @@ ms.assetid: 91d81fb2-3a41-477a-85c2-e68bfe482b9c
 title: 封存檔案格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaf39383b961c305bf621793784332342f369a30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e72c7fe21b547bb5469af00dc9202d90dba3873a7ed86a6db6261a4228097a50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145831"
 ---
 # <a name="archive-file-format"></a>封存檔案格式
 
-Windows Installer 資料庫的 [文字](text-archive-files.md) 封存檔案會 idt 副檔名。 將整個資料庫匯出至保存檔案時，資料庫中的每個資料表都有個別的 idt 檔案。 如果資料表包含資料流程資料行，資料表中的每個資料流程都會以副檔名為 ibd 的檔案來表示。 Ibd 檔案會儲存在與資料表同名的資料夾中。
+Windows Installer 資料庫的[文字](text-archive-files.md)封存檔案會 idt 副檔名。 將整個資料庫匯出至保存檔案時，資料庫中的每個資料表都有個別的 idt 檔案。 如果資料表包含資料流程資料行，資料表中的每個資料流程都會以副檔名為 ibd 的檔案來表示。 Ibd 檔案會儲存在與資料表同名的資料夾中。
 
 ## <a name="idt-file-format"></a>idt 檔案格式
 

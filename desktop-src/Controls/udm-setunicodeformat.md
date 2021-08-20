@@ -3,7 +3,7 @@ title: 'UDM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: UDM_SETUNICODEFORMAT 訊息：設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
 ms.assetid: abe882db-bf32-40b0-a1c0-3e89cdc93fe7
 keywords:
-- UDM_SETUNICODEFORMAT message Windows 控制項
+- UDM_SETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09eeb63d5c06a5e64c354c950cd84fc451568d36
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7dd6d390c62475b63dccf20fdb80da1f1e8dafe19cdacab2f0b1ac2fe7bf1687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957717"
 ---
 # <a name="udm_setunicodeformat-message"></a>UDM \_ SETUNICODEFORMAT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "108116536"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101085
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: afd317e5c7a1150a381ac29b958fae07842f0ac0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27ae688e97d53a0b14a7068355ad203cb210de8178c74715b11967cf31fd7cb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042018"
 ---
 # <a name="esentbadpagelinkexception-methods"></a>EsentBadPageLinkException 方法
 

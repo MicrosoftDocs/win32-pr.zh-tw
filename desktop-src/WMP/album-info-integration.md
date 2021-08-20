@@ -15,12 +15,12 @@ keywords:
 - 整合專輯資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b03586217ec0a0eebd9abd0a9acae62790f838f3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fcdd8c0c200d0d1779ecc9d4f90da3f3755f276431792f7a6b6450dd43e51cd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055426"
 ---
 # <a name="album-info-integration"></a>專輯資訊整合
 
@@ -47,9 +47,9 @@ Windows Media Player 會將查詢字串附加至 URL，以提供有關使用者�
 [**AlbumInfo 元素**](albuminfo-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

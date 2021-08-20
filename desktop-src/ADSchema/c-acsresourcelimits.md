@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79f638ec1b430ae8bf7f5565efbd889cfc6b517b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d7f726f52c11b114362ec5580b2943e3bc58b49d7e0c72dcf94fc4527bc9a657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021876"
 ---
 # <a name="acs-resource-limits-class"></a>ACS-資源限制類別
 
@@ -79,8 +79,8 @@ ms.locfileid: "104106938"
 |---------------------------------------------------------------------------|-----------|---------------------------------|
 | [**ACS-Allocable-RSVP-頻寬**](a-acsallocablersvpbandwidth.md)       | 否     | **ACS-資源-限制**         |
 | [**ACS-最大尖峰頻寬**](a-acsmaxpeakbandwidth.md)                   | 否     | **ACS-資源-限制**         |
-| [**ACS-每個流量的最大尖峰頻寬**](a-acsmaxpeakbandwidthperflow.md)   | 否     | **ACS-資源-限制**         |
-| [**ACS-最大權杖-每個流程的速率**](a-acsmaxtokenrateperflow.md)           | 否     | **ACS-資源-限制**         |
+| [**ACS-最大尖峰頻寬-每 Flow**](a-acsmaxpeakbandwidthperflow.md)   | 否     | **ACS-資源-限制**         |
+| [**ACS-最大權杖-每 Flow**](a-acsmaxtokenrateperflow.md)           | 否     | **ACS-資源-限制**         |
 | [**ACS-服務類型**](a-acsservicetype.md)                              | 否     | **ACS-資源-限制**         |
 | [**系統管理員-描述**](a-admindescription.md)                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**系統管理員-顯示名稱**](a-admindisplayname.md)                          | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -103,7 +103,7 @@ ms.locfileid: "104106938"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)             | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                 | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                   | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                   | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)             | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -116,10 +116,10 @@ ms.locfileid: "104106938"
 | [**MS-DS-Consistency-Guid**](a-ms-ds-consistencyguid.md)                 | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                              | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                               | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                               | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                 | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -181,7 +181,7 @@ ms.locfileid: "104106938"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -191,8 +191,8 @@ ms.locfileid: "104106938"
 |-----------------------------------------------------------------------------|-----------|---------------------------------|
 | [**ACS-Allocable-RSVP-頻寬**](a-acsallocablersvpbandwidth.md)         | 否     | **ACS-資源-限制**         |
 | [**ACS-最大尖峰頻寬**](a-acsmaxpeakbandwidth.md)                     | 否     | **ACS-資源-限制**         |
-| [**ACS-每個流量的最大尖峰頻寬**](a-acsmaxpeakbandwidthperflow.md)     | 否     | **ACS-資源-限制**         |
-| [**ACS-最大權杖-每個流程的速率**](a-acsmaxtokenrateperflow.md)             | 否     | **ACS-資源-限制**         |
+| [**ACS-最大尖峰頻寬-每 Flow**](a-acsmaxpeakbandwidthperflow.md)     | 否     | **ACS-資源-限制**         |
+| [**ACS-最大權杖-每 Flow**](a-acsmaxtokenrateperflow.md)             | 否     | **ACS-資源-限制**         |
 | [**ACS-服務類型**](a-acsservicetype.md)                                | 否     | **ACS-資源-限制**         |
 | [**系統管理員-描述**](a-admindescription.md)                             | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**系統管理員-顯示名稱**](a-admindisplayname.md)                            | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -215,7 +215,7 @@ ms.locfileid: "104106938"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -245,10 +245,10 @@ ms.locfileid: "104106938"
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -311,7 +311,7 @@ ms.locfileid: "104106938"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -321,8 +321,8 @@ ms.locfileid: "104106938"
 |-----------------------------------------------------------------------------|-----------|---------------------------------|
 | [**ACS-Allocable-RSVP-頻寬**](a-acsallocablersvpbandwidth.md)         | 否     | **ACS-資源-限制**         |
 | [**ACS-最大尖峰頻寬**](a-acsmaxpeakbandwidth.md)                     | 否     | **ACS-資源-限制**         |
-| [**ACS-每個流量的最大尖峰頻寬**](a-acsmaxpeakbandwidthperflow.md)     | 否     | **ACS-資源-限制**         |
-| [**ACS-最大權杖-每個流程的速率**](a-acsmaxtokenrateperflow.md)             | 否     | **ACS-資源-限制**         |
+| [**ACS-最大尖峰頻寬-每 Flow**](a-acsmaxpeakbandwidthperflow.md)     | 否     | **ACS-資源-限制**         |
+| [**ACS-最大權杖-每 Flow**](a-acsmaxtokenrateperflow.md)             | 否     | **ACS-資源-限制**         |
 | [**ACS-服務類型**](a-acsservicetype.md)                                | 否     | **ACS-資源-限制**         |
 | [**系統管理員-描述**](a-admindescription.md)                             | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**系統管理員-顯示名稱**](a-admindisplayname.md)                            | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -345,7 +345,7 @@ ms.locfileid: "104106938"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -378,10 +378,10 @@ ms.locfileid: "104106938"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -444,7 +444,7 @@ ms.locfileid: "104106938"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -454,8 +454,8 @@ ms.locfileid: "104106938"
 |--------------------------------------------------------------------------------|-----------|---------------------------------|
 | [**ACS-Allocable-RSVP-頻寬**](a-acsallocablersvpbandwidth.md)            | 否     | **ACS-資源-限制**         |
 | [**ACS-最大尖峰頻寬**](a-acsmaxpeakbandwidth.md)                        | 否     | **ACS-資源-限制**         |
-| [**ACS-每個流量的最大尖峰頻寬**](a-acsmaxpeakbandwidthperflow.md)        | 否     | **ACS-資源-限制**         |
-| [**ACS-最大權杖-每個流程的速率**](a-acsmaxtokenrateperflow.md)                | 否     | **ACS-資源-限制**         |
+| [**ACS-最大尖峰頻寬-每 Flow**](a-acsmaxpeakbandwidthperflow.md)        | 否     | **ACS-資源-限制**         |
+| [**ACS-最大權杖-每 Flow**](a-acsmaxtokenrateperflow.md)                | 否     | **ACS-資源-限制**         |
 | [**ACS-服務類型**](a-acsservicetype.md)                                   | 否     | **ACS-資源-限制**         |
 | [**系統管理員-描述**](a-admindescription.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**系統管理員-顯示名稱**](a-admindisplayname.md)                               | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -478,7 +478,7 @@ ms.locfileid: "104106938"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                        | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                        | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -522,10 +522,10 @@ ms.locfileid: "104106938"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                        | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                    | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                          | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                    | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                          | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -588,7 +588,7 @@ ms.locfileid: "104106938"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -598,8 +598,8 @@ ms.locfileid: "104106938"
 |----------------------------------------------------------------------------------|-----------|---------------------------------|
 | [**ACS-Allocable-RSVP-頻寬**](a-acsallocablersvpbandwidth.md)              | 否     | **ACS-資源-限制**         |
 | [**ACS-最大尖峰頻寬**](a-acsmaxpeakbandwidth.md)                          | 否     | **ACS-資源-限制**         |
-| [**ACS-每個流量的最大尖峰頻寬**](a-acsmaxpeakbandwidthperflow.md)          | 否     | **ACS-資源-限制**         |
-| [**ACS-最大權杖-每個流程的速率**](a-acsmaxtokenrateperflow.md)                  | 否     | **ACS-資源-限制**         |
+| [**ACS-最大尖峰頻寬-每 Flow**](a-acsmaxpeakbandwidthperflow.md)          | 否     | **ACS-資源-限制**         |
+| [**ACS-最大權杖-每 Flow**](a-acsmaxtokenrateperflow.md)                  | 否     | **ACS-資源-限制**         |
 | [**ACS-服務類型**](a-acsservicetype.md)                                     | 否     | **ACS-資源-限制**         |
 | [**系統管理員-描述**](a-admindescription.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**系統管理員-顯示名稱**](a-admindisplayname.md)                                 | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -622,7 +622,7 @@ ms.locfileid: "104106938"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -673,10 +673,10 @@ ms.locfileid: "104106938"
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                      | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -739,9 +739,9 @@ ms.locfileid: "104106938"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -749,8 +749,8 @@ ms.locfileid: "104106938"
 |----------------------------------------------------------------------------------------------|-----------|---------------------------------|
 | [**ACS-Allocable-RSVP-頻寬**](a-acsallocablersvpbandwidth.md)                          | 否     | **ACS-資源-限制**         |
 | [**ACS-最大尖峰頻寬**](a-acsmaxpeakbandwidth.md)                                      | 否     | **ACS-資源-限制**         |
-| [**ACS-每個流量的最大尖峰頻寬**](a-acsmaxpeakbandwidthperflow.md)                      | 否     | **ACS-資源-限制**         |
-| [**ACS-最大權杖-每個流程的速率**](a-acsmaxtokenrateperflow.md)                              | 否     | **ACS-資源-限制**         |
+| [**ACS-最大尖峰頻寬-每 Flow**](a-acsmaxpeakbandwidthperflow.md)                      | 否     | **ACS-資源-限制**         |
+| [**ACS-最大權杖-每 Flow**](a-acsmaxtokenrateperflow.md)                              | 否     | **ACS-資源-限制**         |
 | [**ACS-服務類型**](a-acsservicetype.md)                                                 | 否     | **ACS-資源-限制**         |
 | [**系統管理員-描述**](a-admindescription.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**系統管理員-顯示名稱**](a-admindisplayname.md)                                             | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -773,7 +773,7 @@ ms.locfileid: "104106938"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -823,17 +823,17 @@ ms.locfileid: "104106938"
 | [**ms-DS-Revealed-List-BL**](a-msds-revealedlistbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |

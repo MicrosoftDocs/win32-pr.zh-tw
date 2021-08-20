@@ -4,12 +4,12 @@ ms.assetid: 12f0b78e-ca85-443a-94ea-6bec5aa40c06
 title: 尋找非 Win32 PE 資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 079288cd6200eb64289f474636cbc8dc046c1e47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcf706712b2e1be2dd8fb1598c1404a829251bb24db83db7c7d6deaa87a13d24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147171"
 ---
 # <a name="locating-non-win32-pe-resources"></a>尋找非 Win32 PE 資源
 

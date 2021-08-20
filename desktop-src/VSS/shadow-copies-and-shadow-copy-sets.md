@@ -4,12 +4,12 @@ ms.assetid: 8ef2478a-c8bc-4517-9a14-e1d9226ec4cd
 title: 陰影複製和陰影複製集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18709842b1fb0fbf6d6cce2557b51042dfb024ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 764478c371cf4a622612865ef7a529955780d82847125874253533d331c195f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998150"
 ---
 # <a name="shadow-copies-and-shadow-copy-sets"></a>陰影複製和陰影複製集
 
@@ -26,7 +26,7 @@ ms.locfileid: "106993081"
 
 針對每個檔案、目錄或磁片區，不需要以相同的方式來執行陰影複製。 不同的陰影複製機制執行 ([*提供者*](vssgloss-p.md)) 可能會使用不同的方法來建立陰影複製。 不過，對於使用 VSS API 的所有應用程式，所有陰影複製都應該相同。
 
-如需預設 Windows 提供者執行的詳細資訊，請參閱 [系統提供者](providers.md)。
+如需預設 Windows 提供者執行的詳細資訊，請參閱[系統提供者](providers.md)。
 
 ## <a name="default-shadow-copy-state"></a>預設陰影複製狀態
 

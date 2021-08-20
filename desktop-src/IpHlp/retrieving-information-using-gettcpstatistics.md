@@ -4,12 +4,12 @@ ms.assetid: cb405d46-cf3e-4f3c-870a-935a0cc8118f
 title: 使用 GetTcpStatistics 抓取資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3f4d4d42c2716d258ff72e3dd91ab750baaed20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fb51b1a71c9dc0ff98a40c31894aa3fcf8c0c0ace7b6b05812940cb9808cced
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146591"
 ---
 # <a name="retrieving-information-using-gettcpstatistics"></a>使用 GetTcpStatistics 抓取資訊
 

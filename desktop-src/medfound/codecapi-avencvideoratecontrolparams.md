@@ -4,12 +4,12 @@ ms.assetid: 8AF841A8-E121-4C41-BD3F-26760232E857
 title: 'CODECAPI_AVEncVideoRateControlParams 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e292ee5b1b8a9dc8a63d0e445ffbf60b9c91b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df0af9d4eb903725b1a4ae326d71ce07072428e0667a7032a86448f1e270f734
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974877"
 ---
 # <a name="codecapi_avencvideoratecontrolparams-property"></a>CODECAPI \_ AVEncVideoRateControlParams 屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "103847646"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

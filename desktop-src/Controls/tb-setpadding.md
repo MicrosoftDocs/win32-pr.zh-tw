@@ -3,7 +3,7 @@ title: 'TB_SETPADDING 訊息 (Commctrl .h) '
 description: 設定工具列控制項的邊框距離。
 ms.assetid: a18c4efb-1140-4149-8dce-dfc1f03bb61a
 keywords:
-- TB_SETPADDING message Windows 控制項
+- TB_SETPADDING 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65fae53f7e7702528915af7631bd675f11188b71
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da488c7aab3a6856fd1bd8db6911336eb52881da396e287937678600158d9655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078162"
 ---
 # <a name="tb_setpadding-message"></a>TB \_ SETPADDING 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104105750"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

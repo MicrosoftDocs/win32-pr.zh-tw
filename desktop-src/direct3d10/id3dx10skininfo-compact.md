@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 379343688a1fd2ffe5ebd968dc984fa09faada7d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3aab3534ea55d2f6675ef1e65b03d19f4c516562b242e284ee2865f98bc03f18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046906"
 ---
 # <a name="id3dx10skininfocompact-method"></a>ID3DX10SkinInfo：： Compact 方法
 

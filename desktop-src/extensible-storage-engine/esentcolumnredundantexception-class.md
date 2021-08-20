@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 18b2fdd850e26c5a435841110a4e1ac5c0c7c640
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0e44ff02604fc040c3f1ab64ca042a825aa776585adf8b72faff31e93297f5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116598"
 ---
 # <a name="esentcolumnredundantexception-class"></a>EsentColumnRedundantException 類別
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 7fa4012f5f589c7bc0d1f789599da142194f6e08
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0a3295d64efc3f3ff05b39e0866a15fb7eed9ba2d8c580fe2c7b219d36708e02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046896"
 ---
 # <a name="id3dx10spritedrawspritesimmediate-method"></a>ID3DX10Sprite：:D rawSpritesImmediate 方法
 

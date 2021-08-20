@@ -4,12 +4,12 @@ ms.assetid: 936d8d69-e86c-418b-b5b0-c4fbbfa1dd49
 title: 串流管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07180d8b46f4d079c08f4b619cf4a7773a6104d3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 669e3be8af4532f9045c08f07400d47c423d507d4e11da4ada0b1a279c52772d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077432"
 ---
 # <a name="stream-management"></a>串流管理
 

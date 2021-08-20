@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48244c49c942c917c58bfc2790b423981f17fe98
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b5ba5c9b6d26bc2281f812674276a6f7208d31b33d33750a7a9b226aabfe4b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "107001102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000938"
 ---
 # <a name="imsrdpclienttransportsettings2gatewayusername-property"></a>IMsRdpClientTransportSettings2：： GatewayUserName 屬性
 

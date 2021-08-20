@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c58bbe61b10e2f223cf9f662f10d95ca72819b02
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7abb433d7112bc4c3257345d086ccf308cc1892b61a99991b485ce4962b5851e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013866"
 ---
 # <a name="helpstring-attribute"></a>helpstring 屬性
 
@@ -146,6 +146,6 @@ library Lines
 [使用 MIDL 產生類型程式庫](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

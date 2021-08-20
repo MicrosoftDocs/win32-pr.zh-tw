@@ -4,12 +4,12 @@ ms.assetid: c9d0d43b-3053-4e3e-b442-57942f3448df
 title: 通話識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef571b55f653cb9c7bc1d61cdc8a3f71e91ba8f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb32a8cd00e3c8f77bcabb14de79170a259fba0e40ddb354afeab022528369c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118870147"
 ---
 # <a name="call-id"></a>通話識別碼
 

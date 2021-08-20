@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5b4bf2a43e762b85b8b8cfd0c15468b3dc438221
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6c5a0813243f3d04a729f000c9e42a1eb1ade6406273a1217ca067d8e2f1c3a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043216"
 ---
 # <a name="idcompositionmatrixtransformsetmatrixelementint-int-idcompositionanimation-method"></a>IDCompositionMatrixTransform：： SetMatrixElement (int，int，IDCompositionAnimation \*) 方法
 
@@ -31,9 +31,9 @@ ms.locfileid: "104376181"
 
 ```C++
 HRESULT SetMatrixElement(
-  [in] int                    row,
-  [in] int                    column,
-  [in] IDCompositionAnimation *animation
+  [in] int                    row,
+  [in] int                    column,
+  [in] IDCompositionAnimation *animation
 );
 ```
 
@@ -81,6 +81,6 @@ HRESULT SetMatrixElement(
 [**IDCompositionMatrixTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionmatrixtransform)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

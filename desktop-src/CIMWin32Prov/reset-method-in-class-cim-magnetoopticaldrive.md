@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 81d9830ddf684699d7339bbd436f87a3b6dd91b5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5f19523f51b13707c961e4d9fe6b41f1d6f8c4643bd2158ab97e3fc841092c8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119217808"
 ---
 # <a name="reset-method-of-the-cim_magnetoopticaldrive-class"></a>CIM MagnetoOpticalDrive 類別的 Reset 方法 \_
 

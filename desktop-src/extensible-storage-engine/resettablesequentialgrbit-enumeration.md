@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2325f5d314fd91b74edc38ccb092f24868cff099
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d0f3d9d10b056ed7b602a1c4105bb198fd4dc8e4111de4cd42624e5725ad2fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978668"
 ---
 # <a name="resettablesequentialgrbit-enumeration"></a>ResetTableSequentialGrbit 列舉
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5af8b628247dcc89f8df99c6ffebb04d500e76a1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 46155fc961836b187e0a12ab3571a4edcb67740c7e4dd26fb92350009b95edef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045816"
 ---
 # <a name="id3dx11effectvariablegetmemberbysemantic-method"></a>ID3DX11EffectVariable：： GetMemberBySemantic 方法
 

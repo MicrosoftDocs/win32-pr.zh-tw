@@ -3,16 +3,16 @@ title: Win32 文字 API 比較
 description: 針對正在遷移其 Win32 應用程式程式碼的開發人員，下表列出 DirectWrite 中的 Win32 文字 Api 和近似的相等專案。
 ms.assetid: c679e31a-3825-4f59-9c5e-9cf770e1f237
 keywords:
-- DirectWrite，Win32 文字 Api
+- DirectWrite，Win32 文字 api
 - Win32 文字 Api
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1da7f95e0de6edef50f93c4a36a9b069d3b2abae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 08d4ef525e1221c9866228f722ad78188429e1eb9023b8fc8b4a058acb71da35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119256098"
 ---
 # <a name="win32-text-api-comparison"></a>Win32 文字 API 比較
 
@@ -20,7 +20,7 @@ ms.locfileid: "104375936"
 
 
 
-| GDI 文字呼叫                                             | Description                                                                                                           | DirectWrite 對等專案                                                                                                                                                                                                                                                                                                                                              |
+| GDI 文字呼叫                                             | Description                                                                                                           | DirectWrite等效                                                                                                                                                                                                                                                                                                                                              |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddFontMemResourceEx**](/windows/win32/api/wingdi/nf-wingdi-addfontmemresourceex)       | 將內嵌字型加入至系統字型表格。                                                                       | [**CreateCustomFontFileReference**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontfilereference)  + [ **CreateCustomFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection)                                                                                                                                                                                             |
 | [**AddFontResource**](/windows/win32/api/wingdi/nf-wingdi-addfontresourcea)                 | 將字型資源新增至系統字型表格。                                                                        | 沒有對等專案。 [**AddFontResource**](/windows/win32/api/wingdi/nf-wingdi-addfontresourcea) 會將新增至系統字型集合，做為 GDI 字型安裝步驟的一部分。 DirectWrite 會預先填入系統字型集合，並自動監視其更新，因此不需要安裝。                                                                              |
@@ -46,9 +46,9 @@ ms.locfileid: "104375936"
 | [**GetFontUnicodeRanges**](/windows/win32/api/wingdi/nf-wingdi-getfontunicoderanges)       | 告知字型支援哪些 Unicode 字元。                                                               | [ **IDWriteFont：： HasCharacter** 的迴圈](/windows/win32/api/dwrite/nf-dwrite-idwritefont-hascharacter)                                                                                                                                                                                                                                                                                               |
 | [**GetGlyphIndices**](/windows/win32/api/wingdi/nf-wingdi-getglyphindicesa)                 | 將字串轉譯成圖像索引的陣列。                                                                   | [**IDWriteFontFace::GetGlyphIndices**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphindices)                                                                                                                                                                                                                                                                                         |
 | [**GetGlyphOutline**](/windows/win32/api/wingdi/nf-wingdi-getglyphoutlinea)                 | 取得 TrueType 字型中字元的大綱或點陣圖。                                                      | 字元度量-- [**IDWriteFontFace：： GetDesignGlyphMetrics**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getdesignglyphmetrics)，實際大綱資訊--[**IDWriteFontFace：： GetGlyphRunOutline**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline)，如果您想要字元點陣圖， [**IDWriteRenderBitmapRenderTarget：:D rawglyphrun**](/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun)                |
-| [**GetKerningPairs**](/windows/win32/api/wingdi/nf-wingdi-getkerningpairsa)                 | 取得字型的字元間距配對。                                                                          | 透過配置 (DirectWrite 的印刷樣式屬性允許的字偶間距調整本身會自動調整，因此沒有方法可將這項資訊) 。                                                                                                                                                                                                                       |
+| [**GetKerningPairs**](/windows/win32/api/wingdi/nf-wingdi-getkerningpairsa)                 | 取得字型的字元間距配對。                                                                          | 透過配置 (DirectWrite 的印刷樣式屬性允許的字偶間距調整本身，因此沒有方法可將這項資訊傳回) 。                                                                                                                                                                                                                       |
 | [**GetOutlineTextMetrics**](/windows/win32/api/wingdi/nf-wingdi-getoutlinetextmetricsa)     | 取得 TrueType 字型的文字度量。                                                                                 | [**IDWriteFontFace::GetMetrics**](/windows/win32/api/dwrite/nf-dwrite-idwritefont-getmetrics)                                                                                                                                                                                                                                                                                                       |
-| [**GetRasterizerCaps**](/windows/win32/api/wingdi/nf-wingdi-getrasterizercaps)             | 指出是否已安裝 TrueType 字型。                                                                           | 預設會在 Windows Vista 和 Windows 7 上安裝 (TrueType 字型。 )                                                                                                                                                                                                                                                                                            |
+| [**GetRasterizerCaps**](/windows/win32/api/wingdi/nf-wingdi-getrasterizercaps)             | 指出是否已安裝 TrueType 字型。                                                                           |  (TrueType 字型預設安裝在 Windows Vista 和 Windows 7 上。 )                                                                                                                                                                                                                                                                                            |
 | [**GetTabbedTextExtent**](/windows/win32/api/winuser/nf-winuser-gettabbedtextextenta)         | 計算字元字串的寬度和高度，包括索引標籤。                                                  | [**IDWriteTextLayout::GetMetrics**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-getmetrics)                                                                                                                                                                                                                                                                                               |
 | [**GetTextAlign**](/windows/win32/api/wingdi/nf-wingdi-gettextalign)                       | 取得裝置內容的文字對齊設定。                                                                 | [**IDWriteTextFormat::GetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-gettextalignment)                                                                                                                                                                                                                                                                                   |
 | [**GetTextCharacterExtra**](/windows/win32/api/wingdi/nf-wingdi-gettextcharacterextra)     | 取得裝置內容的目前字元間距。                                                        | N/A                                                                                                                                                                                                                                                                                                                                                                 |
@@ -73,8 +73,8 @@ ms.locfileid: "104375936"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

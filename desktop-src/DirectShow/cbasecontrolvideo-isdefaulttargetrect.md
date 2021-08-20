@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e267cc65345d18800beccbc80ac7952c89d781d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c11d5b99610ff88a9e5f4088aa47efdcd8f3d9d676f0b17fad4d8e316324e807
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955237"
 ---
 # <a name="cbasecontrolvideoisdefaulttargetrect-method"></a>CBaseControlVideo. IsDefaultTargetRect 方法
 

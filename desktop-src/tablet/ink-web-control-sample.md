@@ -4,12 +4,12 @@ ms.assetid: 7a9e304c-57ef-41a3-83be-2b2d31435da8
 title: 筆墨 Web 控制項範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 101537c4cc7b42181cf8d9ff177a5854c5b84054
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8a2f305f1dcbb412325970510c6eaa5f09732bf10d870c961820ab8d8749eda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032196"
 ---
 # <a name="ink-web-control-sample"></a>筆墨 Web 控制項範例
 
@@ -17,7 +17,7 @@ ms.locfileid: "106970983"
 
 如需在 Web 上使用筆墨的詳細資訊，請參閱 [網路上的筆跡](ink-on-the-web.md)。
 
-## <a name="modifications-to-the-original-sample-project"></a>原始範例專案的修改
+## <a name="modifications-to-the-original-sample-project"></a>原始範例的修改 Project
 
 此範例包含包含兩個專案和一個 HTML 檔案的方案。 第一個專案 AutoClaims 是 Microsoft Visual C \# 控制項程式庫專案， (使用者控制項) 。 此控制項的原始程式碼與 AutoClaims 範例的原始程式碼幾乎完全相同，但有兩項差異：
 
@@ -63,9 +63,9 @@ ms.locfileid: "106970983"
 
 實際的使用者控制項可能包含用來保存或傳送在應用程式中收集之資料的其他方法。
 
-## <a name="the-autoclaims_webcontrol-project"></a>AutoClaims \_ WebControl 專案
+## <a name="the-autoclaims_webcontrol-project"></a>AutoClaims \_ WebControl Project
 
-AutoClaims \_ WebControl 專案是部署專案，它會建立一個安裝程式，在安裝時將虛擬根目錄（AutoClaims \_ WebControl）新增至 Web 服務器。 控制項和 HTML 檔案都會放在這個虛擬根目錄中。
+AutoClaims \_ WebControl 專案是部署 Project，會建立安裝程式，以便在安裝時將虛擬根目錄（AutoClaims \_ WebControl）新增至 Web 服務器。 控制項和 HTML 檔案都會放在這個虛擬根目錄中。
 
 > [!Note]  
 > SDK 的預設安裝選項不會安裝已編譯的 web 範例。 您必須完成自訂安裝，然後選取 [預先編譯的 Web 範例] 子選項來進行安裝。

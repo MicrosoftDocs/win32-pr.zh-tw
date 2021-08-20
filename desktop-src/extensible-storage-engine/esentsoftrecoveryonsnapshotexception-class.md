@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8c5dd9e7749c5cdcfccced0b0900ed1f717add34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 711595f8fcd3025376e2fbf5ab88aca1cd3eed22a461a20e449e9d8ad5caf755
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039666"
 ---
 # <a name="esentsoftrecoveryonsnapshotexception-class"></a>EsentSoftRecoveryOnSnapshotException 類別
 

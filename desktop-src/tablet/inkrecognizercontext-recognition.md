@@ -4,12 +4,12 @@ ms.assetid: 0cc319af-cd0b-4089-928b-cae6c86f6f61
 title: 'InkRecognizerCoNtext 識別事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86da1a7470169f9f978e92a87f3e32f7e63acb42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4f6c4799f3366003d14451a19a7bea19ea35aadcce9226f25f1fe80a14ab19e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966937"
 ---
 # <a name="inkrecognizercontextrecognition-event"></a>InkRecognizerCoNtext 辨識事件
 
@@ -73,7 +73,7 @@ void Recognition(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

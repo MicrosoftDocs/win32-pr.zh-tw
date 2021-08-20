@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101319
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 63893ebeccc4475bab069e09708b8515fe651837
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73ea355807b5009a9b9315e85babf0bde788150dd14d52514bbdc0415812d9e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041810"
 ---
 # <a name="esentcolumninuseexception-methods"></a>EsentColumnInUseException 方法
 

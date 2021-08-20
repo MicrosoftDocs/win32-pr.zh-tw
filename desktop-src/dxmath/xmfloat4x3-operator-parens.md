@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3a03c40e3c3e094f883bb2fc112f9996263d763c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08194ccbf49275fab0d2bd075e432979742d4d7cc284167537a88b1869ef7908
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118018"
 ---
 # <a name="xmfloat4x3-operator--operators"></a>XMFLOAT4X3 運算子 () 運算子
 

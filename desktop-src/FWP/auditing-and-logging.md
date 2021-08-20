@@ -1,15 +1,15 @@
 ---
 title: 稽核
-description: Windows 篩選平台 (WFP) 提供防火牆和 IPsec 相關事件的審核。
+description: Windows篩選 Platform (WFP) 提供防火牆和 IPsec 相關事件的審核。
 ms.assetid: 30ff9cf7-bf93-4979-bacd-d76e5dadbef6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cef1d4fee81afc366a987575935c1de8880092c
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 854841685bab015fc0b9a4bc985762df46a7f0c89eae3d38b4b63e081107b70b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "103933781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015406"
 ---
 # <a name="auditing"></a>稽核
 

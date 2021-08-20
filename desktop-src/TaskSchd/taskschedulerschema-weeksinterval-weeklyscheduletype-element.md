@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 747ca4b73ff18bdb3e29d8b909d72b8d2367d89b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c59e4f4b163e5e96418c84bf2925e45cf3a54da1bbb50e17ad9282409438ff3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059756"
 ---
 # <a name="weeksinterval-weeklyscheduletype-element"></a>WeeksInterval (weeklyScheduleType) 元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "104385101"
 
 
 
-| 元素                                                                                  | 衍生自                                                                     | Description                             |
+| 元素                                                                                  | 衍生自                                                                     | 描述                             |
 |------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|-----------------------------------------|
 | [**ScheduleByWeek**](taskschedulerschema-schedulebyweek-calendartriggertype-element.md) | [**weeklyScheduleType**](taskschedulerschema-weeklyscheduletype-complextype.md) | 指定每週排程。<br/> |
 
@@ -91,8 +91,8 @@ ms.locfileid: "104385101"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

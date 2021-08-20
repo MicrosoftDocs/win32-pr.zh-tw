@@ -9,12 +9,12 @@ keywords:
 - 使用者和電腦嵌入式管理單元 AD，新增資料行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd0765988a9ceed3e98966091ad94b868b96fd88
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dcf6ef4743009086ae19148c42a8addc5974e4ac833cdad8eee675fdce76a5f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025866"
 ---
 # <a name="modifying-existing-user-interfaces"></a>修改現有的使用者介面
 
@@ -22,7 +22,7 @@ Active Directory 消費者和電腦 MMC 嵌入式管理單元的 [結果] 窗格
 
 若要變更顯示，使用者會使用 **View** 下拉式功能表，並選取 [ **新增/移除欄位**]。 在 [ **新增/移除資料行** ] 對話方塊中，有一份資料行清單可供使用者選擇，以顯示在 [結果] 窗格中。
 
-Windows Server 2003、Standard Edition、Windows Server 2003、Enterprise Edition 和 Windows Server 2003 Datacenter Edition 隨附的 Active Directory 消費者和電腦 MMC 嵌入式管理單元，可讓您修改可在容器的嵌入式管理單元結果窗格中顯示的資料行清單。 只有當嵌入式管理單元是以 Windows Server 2003 架構的樹系為目標時，才會有此功能。
+隨附于 Windows Server 2003、Standard Edition、Windows server 2003、Enterprise Edition 和 Windows server 2003 Datacenter Edition 的 Active Directory 消費者和電腦 MMC 嵌入式管理單元，可讓您修改可在容器的嵌入式管理單元結果窗格中顯示的資料行清單。 如果嵌入式管理單元是以 Windows Server 2003 架構的樹系為目標，則這項功能才存在。
 
 若要將資料行加入至清單，請在與屬性相關聯的物件類型中，將值加入至顯示規範的 **extraColumns** 屬性中。 **ExtraColumns** 屬性是多重值字串屬性，其中每個字串都採用下列格式。
 
@@ -49,7 +49,7 @@ Windows Server 2003、Standard Edition、Windows Server 2003、Enterprise Editio
 
 
 
- 
+ 
 
 例如，若要加入將在組織單位中顯示物件之正式名稱的資料行， **canonicalName** 屬性的值會加入至顯示規範容器中 **organizationalUnit-Display** 物件的 **extraColumns** 屬性。 加入至 **OrganizationalUnit 顯示** 物件之 **extraColumns** 屬性的字串看起來會像下面這樣。
 
@@ -66,9 +66,9 @@ canonicalName,Canonical Name,0,150,0
 
 若要針對未註冊任何自訂資料行的所有容器類型顯示自訂資料行，請將資料行的值加入 **預設顯示** 物件的 **extraColumns** 屬性中。
 
- 
+ 
 
- 
+ 
 
 
 

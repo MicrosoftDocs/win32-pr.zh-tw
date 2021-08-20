@@ -4,12 +4,12 @@ ms.assetid: eab3b39b-dfa7-43ea-adba-cd0b495c373f
 title: 陰影複製建立詳細資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b9281b899593ca0751f1d549aed60305041b18c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b8d8f506ef8d5c7acff86cb6a2fa890b3773423fddf339ea4911a0299963224
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998128"
 ---
 # <a name="shadow-copy-creation-details"></a>陰影複製建立詳細資料
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cace1bc684be4e3e8cf20db84ec8923c9b35a8fa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c5f7008b0b524150cd106b9bbe97d21a8de890773d8b0b461a6ae3045e847a79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000738"
 ---
 # <a name="imsrdpdevicecollection-interface"></a>IMsRdpDeviceCollection 介面
 
@@ -54,7 +54,7 @@ ms.locfileid: "104383882"
 
 
 
-| 屬性                                                                 | 存取類型          | Description                                                    |
+| 屬性                                                                 | 存取類型          | 描述                                                    |
 |:-------------------------------------------------------------------------|:---------------------|:---------------------------------------------------------------|
 | [**DeviceById**](imsrdpdevicecollection-devicebyid.md)<br/>       | 唯讀<br/> | 使用指定的識別碼抓取裝置。<br/> |
 | [**DeviceByIndex**](imsrdpdevicecollection-devicebyindex.md)<br/> | 唯讀<br/> | 在指定的索引處抓取裝置。<br/>        |

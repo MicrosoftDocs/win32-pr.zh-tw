@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 0cdf3293-3dcf-44e7-a80d-4eacf9d09fbf
-ms.openlocfilehash: b370056f40320561a38b1f77fbcf9a53ee35686a
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 65d8397ed07fc3ebab9fd4846b008f97c1b7e756366118314b978f94b64c8636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032806"
 ---
 # <a name="didiskquotauser-object"></a>DIDiskQuotaUser 物件
 
@@ -79,11 +79,11 @@ ms.locfileid: "109843239"
 
 ### <a name="enumerating-disk-quota-users"></a>列舉磁片配額使用者
 
-具有磁片區配額之所有使用者的 **DIDiskQuotaUser** 物件會公開為集合。 [**DiskQuotaControl**](diskquotacontrol-object.md)物件會匯出標準的枚舉器方法，可讓您列舉 **DIDiskQuotaUser** 物件的集合。 下列程式說明如何使用 Microsoft JScript 執行列舉， (與 ECMA 262 語言規格) 相容。 您可以使用類似的程式與 Visual Basic 或 Microsoft Visual Basic Scripting Edition (VBScript) 。
+具有磁片區配額之所有使用者的 **DIDiskQuotaUser** 物件會公開為集合。 [**DiskQuotaControl**](diskquotacontrol-object.md)物件會匯出標準的枚舉器方法，可讓您列舉 **DIDiskQuotaUser** 物件的集合。 下列程式說明如何使用 Microsoft JScript (與 ECMA 262 語言規格) 相容。 您可以使用與 Visual Basic 或 Microsoft Visual Basic 腳本撰寫版 (VBScript) 的類似程式。
 
 1.  建立新的 [**DiskQuotaControl**](diskquotacontrol-object.md) 物件。
 2.  使用 [**initialize**](diskquotacontrol-initialize.md)將它初始化。
-3.  建立新的 JScript **列舉** 值物件。
+3.  建立新的 JScript **枚舉器** 物件。
 4.  使用 **for** 迴圈來列舉 **DIDiskQuotaUser** 物件。 不需要設定起始值。 列舉值物件的 **moveNext** 方法會通知 **專案** 方法傳回下一個 **DIDiskQuotaUser** 物件。 當您到達清單結尾時， **atEnd** 方法會傳回 **false** 。
 5.  如有需要，請使用列舉值之 **item** 方法所傳回的 **DIDiskQuotaUser** 物件，以抓取或設定一或多個相關聯的使用者磁片配額屬性。
 

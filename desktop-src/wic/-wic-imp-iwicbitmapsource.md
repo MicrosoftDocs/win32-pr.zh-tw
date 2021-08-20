@@ -4,12 +4,12 @@ ms.assetid: d092e9e5-c041-42f5-84c8-0af52bb5c810
 title: 執行 IWICBitmapSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c88e2f7dfd073405f9de8c82b2ce6d9592b241a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b7ffd73271e8e159eea825ed40c24347ec2af98f0edbfa9ecc0d5ac584df23b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965017"
 ---
 # <a name="implementing-iwicbitmapsource"></a>執行 IWICBitmapSource
 
@@ -63,7 +63,7 @@ interface IWICBitmapSource : IUnknown
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 088156f7-fb75-4fcf-b928-87e97b13bdab
 title: 群組參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecfb674d4349f351ce36fe1e236d1ecd3b265d8e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3083c3a7ad0971d6d3334303cf9eaf4c0313c4482825c3623a04a12ae046b665
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018366"
 ---
 # <a name="grouping-parameters"></a>群組參數
 

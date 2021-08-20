@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 3dd33b1625fda513632966ea7f663da9e8089c6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e4e0d8056e82fe38f627e6222af8589bb85aa2e83c1877db0a3d3e44edb5b8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032216"
 ---
 # <a name="explorer-browser-search-sample"></a>Explorer 瀏覽器搜尋範例
 
@@ -44,7 +44,7 @@ ms.locfileid: "104026917"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [ExplorerBrowserSearch 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/ExplorerBrowserSearch) |
 

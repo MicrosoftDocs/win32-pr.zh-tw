@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7ce300375e5122a7b63266c0cd21cdddf34606b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e90dc83c47b37343c41489ca2d7b3288f727086e769e83104b57ca5b6de13b2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681638"
 ---
 # <a name="registeredtask-object"></a>RegisteredTask 物件
 
@@ -59,13 +59,13 @@ ms.locfileid: "103685650"
 
 
 
-| 屬性                                                                   | 存取類型           | Description                                                                               |
+| 屬性                                                                   | 存取類型           | 描述                                                                               |
 |:---------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------|
 | [**定義**](registeredtask-definition.md)<br/>                 | 唯讀<br/>  | 取得工作的定義。<br/>                                               |
 | [**啟用**](registeredtask-enabled.md)<br/>                       | 讀取/寫入<br/> | 取得或設定布林值，這個值會指出是否已啟用註冊的工作。<br/>  |
 | [**LastRunTime**](registeredtask-lastruntime.md)<br/>               | 唯讀<br/>  | 取得上次執行註冊工作的時間。<br/>                                |
 | [**LastTaskResult**](registeredtask-lasttaskresult.md)<br/>         | 唯讀<br/>  | 取得上次執行註冊工作時所傳回的結果。<br/> |
-| [**Name**](registeredtask-name.md)<br/>                             | 唯讀<br/>  | 取得已註冊工作的名稱。<br/>                                          |
+| [**名稱**](registeredtask-name.md)<br/>                             | 唯讀<br/>  | 取得已註冊工作的名稱。<br/>                                          |
 | [**NextRunTime**](registeredtask-nextruntime.md)<br/>               | 唯讀<br/>  | 取得已註冊的工作下次排程執行的時間。<br/>               |
 | [**NumberOfMissedRuns**](registeredtask-numberofmissedruns.md)<br/> | 唯讀<br/>  | 取得已註冊的工作已錯過排程執行的次數。<br/>       |
 | [**路徑**](registeredtask-path.md)<br/>                             | 唯讀<br/>  | 取得已註冊的工作儲存位置的路徑。<br/>                          |
@@ -86,8 +86,8 @@ ms.locfileid: "103685650"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

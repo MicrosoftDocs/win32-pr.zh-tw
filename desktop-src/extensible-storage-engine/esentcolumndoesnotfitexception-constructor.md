@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: baa514e1f5558152b6f6314e6ef9f6c70207f85b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa9e60b93b8c2f3db0166e840eb07aa3fb46ffec681854406ff001ee46fe2f94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041906"
 ---
 # <a name="esentcolumndoesnotfitexception-constructor"></a>EsentColumnDoesNotFitException 函式
 

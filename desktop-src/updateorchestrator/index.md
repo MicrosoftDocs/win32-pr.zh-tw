@@ -3,18 +3,18 @@ title: 更新 Orchestrator API
 description: UpdateOrchestrator 會排程您的自動軟體更新，並考慮使用者的影響。
 ms.date: 01/14/2021
 ms.topic: overview
-ms.openlocfilehash: a172cccdc56d2c645bb4e7d048066ca34aea07ba
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 6460446397af168a4098a7203179d5587d4dcd9a3cea813991648a5083d07334
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "103853179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966097"
 ---
 # <a name="updateorchestrator-api"></a>UpdateOrchestrator API
 
 **UpdateOrchestrator** 會排程您的自動軟體更新，並考慮使用者的影響。 此 API 可讓您排程自動下載和安裝，以及它們的需求，以在最接近使用者的影響的最佳時間執行更新。 這些功能特別能以受限或較慢的運算資源，以較低的效能系統來獲益。
 
-Windows 19H1 包含第一代解決方案，適用于 OS 更新所採用的自動軟體更新使用案例和儲存應用程式更新，並公開此 API 的初始「有限存取」版本，適用于一組更新程式的「使用者模式」應用程式，如下所述。
+Windows 19H1 包含第一代解決方案，適用于 OS 更新所採用的自動軟體更新使用案例和儲存應用程式更新，並公開此 API 的初始「有限存取」版本，適用于更新程式的一組「使用者模式」應用程式，如下所述。
 
 ## <a name="features"></a>功能
 
@@ -42,5 +42,5 @@ Windows 19H1 包含第一代解決方案，適用于 OS 更新所採用的自動
 
 此 API 可能會在公開發行之前大幅修改。   在開發 UpdateOrchestrator API 時，此初始版本為限制存取功能，僅適用于目前符合上述準則的更新程式。
 
-我們的目標是要改善此 API 的功能，並減少在 Windows 上更新程式多個自動軟體的影響。 我們會透過這 [**份簡短問卷**](https://aka.ms/UOAPISurvey) 來感謝您的輸入，以協助我們瞭解 UpdateOrchestrator API 如何能更妥善地滿足您的開發人員需求。
+我們的目標是要改善此 API 的功能，並減少 Windows 上多個自動軟體更新程式的影響。 我們會透過這 [**份簡短問卷**](https://aka.ms/UOAPISurvey) 來感謝您的輸入，以協助我們瞭解 UpdateOrchestrator API 如何能更妥善地滿足您的開發人員需求。
 

@@ -4,12 +4,12 @@ ms.assetid: 65f3d3a5-c015-4724-b9ed-45af7fde7a45
 title: 直接連接
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e357b3a4ebc765a013de05234bc8fc9be20943d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54f06fde65cf7597ccbec7f2968dbbf7662b4a6491ae59e6aa66b8baa587dc1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011626"
 ---
 # <a name="direct-connections"></a>直接連接
 

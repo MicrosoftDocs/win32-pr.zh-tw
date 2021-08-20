@@ -4,12 +4,12 @@ ms.assetid: 5ac421e5-74a4-40e8-af6f-a99a05ebc3e0
 title: 裝置拓撲
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31e0af267bb4a0fa924ee23d36a2a615ac5ae7fa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cb08221ac157738f8b13ff3dce68d70675b6e94ddc04d99514277d3f1b79b42c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077614"
 ---
 # <a name="device-topologies"></a>裝置拓撲
 
@@ -17,9 +17,9 @@ ms.locfileid: "104510725"
 
 如先前所述， [MMDEVICE api](mmdevice-api.md)、 [WASAPI](wasapi.md)和 [EndpointVolume api](endpointvolume-api.md) 會將麥克風、喇叭、耳機和其他音訊輸入和輸出裝置呈現給用戶端作為 [音訊端點裝置](audio-endpoint-devices.md)。 端點裝置模型可讓用戶端方便存取音訊裝置中的音量和靜音控制項。 只需要這些簡單控制項的用戶端可以避免將硬體裝置的內部拓撲用於音訊介面卡。
 
-在 Windows Vista 中，音訊引擎會自動設定音訊裝置的拓撲，以供音訊應用程式使用。 因此，應用程式很少需要使用 DeviceTopology API 來達到此目的。 例如，假設音訊介面卡包含可從線路輸入或麥克風捕捉串流的輸入多工器，但無法同時從兩個端點裝置捕獲資料流程。 假設使用者已啟用獨佔模式應用程式，以依照共用模式應用程式來搶先使用音訊端點裝置，如 [獨佔模式串流](exclusive-mode-streams.md)中所述。 如果共用模式應用程式在獨佔模式應用程式開始從麥克風錄製串流時，從行輸入記錄資料流程，則音訊引擎會自動將多工器從線路輸入切換至麥克風。 相反地，在舊版 Windows （包括 Windows XP）中，此範例中的獨佔模式應用程式會使用 Windows 多媒體應用程式開發介面中的 **mixerXxx** 函式來跨越介面卡裝置的拓撲、探索多工器，並設定多工器以選取麥克風輸入。 在 Windows Vista 中，不再需要這些步驟。
+在 Windows Vista 中，音訊引擎會自動設定音訊裝置的拓撲，以供音訊應用程式使用。 因此，應用程式很少需要使用 DeviceTopology API 來達到此目的。 例如，假設音訊介面卡包含可從線路輸入或麥克風捕捉串流的輸入多工器，但無法同時從兩個端點裝置捕獲資料流程。 假設使用者已啟用獨佔模式應用程式，以依照共用模式應用程式來搶先使用音訊端點裝置，如 [獨佔模式串流](exclusive-mode-streams.md)中所述。 如果共用模式應用程式在獨佔模式應用程式開始從麥克風錄製串流時，從行輸入記錄資料流程，則音訊引擎會自動將多工器從線路輸入切換至麥克風。 相反地，在舊版 Windows （包括 Windows XP）中，此範例中的獨佔模式應用程式會使用 Windows 多媒體 API 中的 **mixerXxx** 函式來跨越介面卡裝置的拓撲、探索多工器，並設定多工器以選取麥克風輸入。 在 Windows Vista 中，不再需要這些步驟。
 
-不過，某些用戶端可能需要明確控制無法透過 MMDevice API、WASAPI 或 EndpointVolume API 存取的音訊硬體控制項類型。 針對這些用戶端，DeviceTopology API 可讓您遍歷介面卡裝置的拓撲，以探索及管理裝置中的音訊控制項。 使用 DeviceTopology API 的應用程式必須謹慎設計，以避免干擾 Windows 音訊原則，並干擾與其他應用程式共用之音訊裝置的內部設定。 如需 Windows 音訊原則的詳細資訊，請參閱 [使用者模式音訊元件](user-mode-audio-components.md)。
+不過，某些用戶端可能需要明確控制無法透過 MMDevice API、WASAPI 或 EndpointVolume API 存取的音訊硬體控制項類型。 針對這些用戶端，DeviceTopology API 可讓您遍歷介面卡裝置的拓撲，以探索及管理裝置中的音訊控制項。 使用 DeviceTopology API 的應用程式必須謹慎設計，以避免干擾 Windows 的音訊原則，並干擾與其他應用程式共用之音訊裝置的內部設定。 如需 Windows 音訊原則的詳細資訊，請參閱[使用者模式音訊元件](user-mode-audio-components.md)。
 
 DeviceTopology API 提供介面來探索和管理裝置拓撲中的下列音訊控制項類型：
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_VersionCompatibilityCheck 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 446a5d0a8476a1330a5c721808ce6cad3c2d2782
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1ee17f7697114196a69352c64a5b9ab7ff582aa8aec581f9e7717ac9f32eecbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020786"
 ---
 # <a name="cim_versioncompatibilitycheck-methods"></a>CIM \_ VersionCompatibilityCheck 方法
 

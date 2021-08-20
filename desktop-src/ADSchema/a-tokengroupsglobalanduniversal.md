@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4225af8b33a59eea2263c3590380f7d363736619
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d9296396ec01ac39779cb23ef06b7aca29b35b3e571cc120bf45bdbe0ce6a7f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081332"
 ---
 # <a name="token-groups-global-and-universal-attribute"></a>權杖群組-全域和通用屬性
 

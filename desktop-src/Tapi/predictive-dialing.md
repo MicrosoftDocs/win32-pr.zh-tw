@@ -4,12 +4,12 @@ ms.assetid: c8d0b2b5-61eb-4ab0-b09d-c54c282b730e
 title: 預測撥號
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 576ebffff5d4b9925fd50ecce082e4f515065c5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d930a0a49751c7f1851600e277d2cf201f0acbe1a9da3f7be5aa9f2e4b38439c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106995862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060596"
 ---
 # <a name="predictive-dialing"></a>預測撥號
 

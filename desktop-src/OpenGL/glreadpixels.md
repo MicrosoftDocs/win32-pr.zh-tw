@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a853d67be282227168da4b90f4fdd47a49d2d212
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b03a90fcd6ee5179a900739c40e78f796c6340d9609f4cfbeb21e6a70156afe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937938"
 ---
 # <a name="glreadpixels-function"></a>glReadPixels 函式
 
@@ -135,7 +135,7 @@ void WINAPI glReadPixels(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *格式* 或 *類型* 不是可接受的值。<br/>                                                                              |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *寬度* 或 *高度* 都是負數。<br/>                                                                                   |

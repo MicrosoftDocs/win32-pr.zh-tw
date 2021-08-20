@@ -6,12 +6,12 @@ keywords:
 - IP4_ADDRESS
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2caa113670a749029b70df9772d6e2707684b7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81756daaff73e7d5afc1b7c749cd976a9ede09d74ae70eb7db05d9e5d12f2f62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076862"
 ---
 # <a name="dns-data-types"></a>DNS 資料類型
 
@@ -39,8 +39,8 @@ typedef DWORD IP4_ADDRESS;
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Windns。h</dt> </dl> |
 
 

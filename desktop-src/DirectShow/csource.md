@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a4fcecbd1973c54e30c9bf1251bed174aa4a469f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6708ce38c826aae9ccb40d077972d267a20d5e22b4f67157000c4a62e92afa1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687510"
 ---
 # <a name="csource-class"></a>CSource 類別
 
@@ -30,18 +30,18 @@ ms.locfileid: "106989660"
 **CSource** 類別是用來執行來源篩選準則的基類。 衍生自 **CSource** 的篩選包含一或多個衍生自 [**CSourceStream**](csourcestream.md) 類別的輸出圖釘。 每個輸出釘選都會建立會將媒體範例推送至下游的背景工作執行緒。
 
 > [!Note]  
-> **CSource** 類別是設計來支援資料流程的推送模型。 此類別不建議用來建立檔案讀取器篩選。 檔案讀取器應該透過 [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) 介面支援提取模型。 如需詳細資訊，請參閱 [篩選開發人員的](data-flow-for-filter-developers.md)資料流程。
+> **CSource** 類別是設計來支援資料流程的推送模型。 此類別不建議用來建立檔案讀取器篩選。 檔案讀取器應該透過 [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) 介面支援提取模型。 如需詳細資訊，請參閱[篩選開發人員的資料 Flow](data-flow-for-filter-developers.md)。
 
  
 
 
 
-| 受保護的成員變數                     | Description                                                  |
+| 受保護的成員變數                     | 描述                                                  |
 |------------------------------------------------|--------------------------------------------------------------|
 | [**m \_ iPins**](csource-m-ipins.md)            | 篩選器上的釘選數目。                                |
 | [**m \_ paStreams**](csource-m-pastreams.md)    | Pin 的陣列。                                               |
 | [**m \_ cStateLock**](csource-m-cstatelock.md)  | 保護篩選狀態的重要區段物件。      |
-| 公用方法                                 | Description                                                  |
+| 公用方法                                 | 描述                                                  |
 | [**CSource**](csource-csource.md)             | 函式方法。                                          |
 | [**~ CSource**](csource--csource.md)           | 函式方法。                                           |
 | [**GetPinCount**](csource-getpincount.md)     | 抓取篩選上的釘選數目。                  |
@@ -50,7 +50,7 @@ ms.locfileid: "106989660"
 | [**AddPin**](csource-addpin.md)               | 將新的輸出圖釘新增至篩選準則。                         |
 | [**RemovePin**](csource-removepin.md)         | 從篩選中移除指定的 pin。                     |
 | [**FindPinNumber**](csource-findpinnumber.md) | 抓取篩選上指定之圖釘的數目。       |
-| IBaseFilter 方法                            | Description                                                  |
+| IBaseFilter 方法                            | 描述                                                  |
 | [**FindPin**](csource-findpin.md)             | 使用指定的識別碼抓取 pin。             |
 
 

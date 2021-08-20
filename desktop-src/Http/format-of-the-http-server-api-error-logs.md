@@ -6,12 +6,12 @@ keywords:
 - HTTP 伺服器 API，錯誤記錄檔格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c2eb914251a809178adef28c8a61b1a174c6e86
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a5747e172aa19720a0ae992117000b08402e78d88a66501a9af7b12859a0ac88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014796"
 ---
 # <a name="format-of-the-http-server-api-error-logs"></a>HTTP 伺服器 API 錯誤記錄檔的格式
 

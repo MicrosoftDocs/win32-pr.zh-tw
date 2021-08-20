@@ -4,12 +4,12 @@ ms.assetid: 3e2995bf-e755-4665-bf97-6b9190e78ab5
 title: XMHALF2 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 013ad9ab2416b38d8c5b9ef7af086804a4bfe0fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 053d24148f52b7cf28fc764613fb0b93fb19fb0220bceceb04949fa735fce7fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118415"
 ---
 # <a name="xmhalf2-extensions"></a>XMHALF2 延伸模組
 

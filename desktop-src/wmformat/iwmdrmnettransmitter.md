@@ -1,6 +1,6 @@
 ---
 title: IWMDRMNetTransmitter 介面
-description: IWMDRMNetTransmitter 介面提供了使用網路裝置的 Windows Media DRM 作為傳輸器所需的方法。若要取得這個介面的實例，請呼叫 IWMDRMProvider CreateObject。 將 IID \_ IWMDRMNetTransmitter 傳遞為 riid 參數。
+description: IWMDRMNetTransmitter 介面提供了針對網路裝置使用 Windows 媒體 DRM 作為傳輸器所需的方法。若要取得這個介面的實例，請呼叫 IWMDRMProvider CreateObject。 將 IID \_ IWMDRMNetTransmitter 傳遞為 riid 參數。
 ms.assetid: e93db52a-8829-4d16-b839-824e34b3e582
 keywords:
 - IWMDRMNetTransmitter 介面 windows 媒體格式
@@ -14,16 +14,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a56db31bb7c03aa70aa136dcd07a8f41f1d9b84d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b7526ad349403abdb74f1e5684356af1b51b91f99b40e8e26a3b04932d4e5cf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027556"
 ---
 # <a name="iwmdrmnettransmitter-interface"></a>IWMDRMNetTransmitter 介面
 
-**IWMDRMNetTransmitter** 介面提供了使用網路裝置的 WINDOWS Media DRM 作為傳輸器所需的方法。
+**IWMDRMNetTransmitter** 介面提供了針對網路裝置使用 Windows 媒體 DRM 作為傳輸器所需的方法。
 
 若要取得這個介面的實例，請呼叫 [**IWMDRMProvider：： CreateObject**](iwmdrmprovider-createobject.md)。 將 **IID \_ IWMDRMNetTransmitter** 傳遞為 *riid* 參數。
 
@@ -43,7 +43,7 @@ ms.locfileid: "104315754"
 |:------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
 | [**GetLeafLicenseResponse**](iwmdrmnettransmitter-getleaflicenseresponse.md) | 產生分葉授權回應訊息。<br/>                                                       |
 | [**GetRootLicenseResponse**](iwmdrmnettransmitter-getrootlicenseresponse.md) | 產生根授權回應訊息<br/>                                                        |
-| [**SetLicenseChallenge**](iwmdrmnettransmitter-setlicensechallenge.md)       | 處理 Microsoft Windows Media DRM 為網路裝置接收器傳送的授權挑戰<br/> |
+| [**SetLicenseChallenge**](iwmdrmnettransmitter-setlicensechallenge.md)       | 處理 Microsoft Windows 媒體 DRM 為網路裝置接收器傳送的授權挑戰<br/> |
 
 
 

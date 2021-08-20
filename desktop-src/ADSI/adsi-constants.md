@@ -12,12 +12,12 @@ keywords:
 - DBPROPFLAGS_ADSISEARCH
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04cc4aaf5043f9fcd2a61dfa68124b6cb1a1a69b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6ca2a6b7eae4550f4bbd4c8c8373d63c9bdd121e6561f08e591cb6a943d309f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023916"
 ---
 # <a name="adsi-constants"></a>ADSI 常數
 
@@ -36,11 +36,11 @@ ms.locfileid: "103671191"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

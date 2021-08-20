@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3ea4eca49f134b8524868f6013b5905188f711d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ffd9cc099a92194c91512d11cbc53b24bb97dacfa7538b5e5463c2d6e67cf54a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043076"
 ---
 # <a name="idcompositionvisual3setoffsetz-methods"></a>IDCompositionVisual3：： SetOffsetZ 方法
 

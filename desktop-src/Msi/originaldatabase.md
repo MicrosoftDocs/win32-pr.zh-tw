@@ -4,12 +4,12 @@ ms.assetid: 985c70a4-1575-4226-a8c2-a7a21f7a0dbd
 title: OriginalDatabase 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 592bc86a9ef53602f686e48b3c98dad17a49cfe1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 28b8ec6b77d013ee89d081c0ff20e3ad00750454e1fa9299d364fdb94e69ccb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145531"
 ---
 # <a name="originaldatabase-property"></a>OriginalDatabase 屬性
 
@@ -19,7 +19,7 @@ Windows Installer 將 **OriginalDatabase** 屬性設定為用來啟動安裝的�
 
 | 安裝方式                                                                                                                                                                                  | OriginalDatabase 值                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 藉由叫用安裝套件的路徑來啟動的任何安裝 ( .msi 檔案) 。                                                                                                              | 安裝套件的路徑 ( .msi 檔案) 。 |
+| 藉由叫用安裝套件的路徑來啟動任何安裝 (.msi 檔案) 。                                                                                                              | 安裝套件的路徑 (.msi 檔案) 。 |
 | 從命令列啟動安裝。 安裝不是從封裝路徑啟動。 [**REINSTALLMODE**](reinstallmode.md)屬性中有 (-v 旗標) 的重新緩存選項。     | 來源上資料庫的路徑。           |
 | 從命令列啟動安裝。 安裝不是從封裝路徑啟動。 [**REINSTALLMODE**](reinstallmode.md)屬性中沒有重新緩存選項 (-v 旗標) 。 | 快取資料庫的路徑。                  |
 
@@ -37,7 +37,7 @@ Windows Installer 將 **OriginalDatabase** 屬性設定為用來啟動安裝的�
 
 | 需求 | 值 |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

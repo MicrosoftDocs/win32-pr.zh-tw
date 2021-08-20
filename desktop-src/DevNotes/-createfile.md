@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Msmdun80.dll
 - Sqlunirl.dll
-ms.openlocfilehash: becd7fed9e32385409b78e00169191a12b550e3b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8ff69057397fd887d4c7489c350579e7c3a31e432c3716b3107fc483315376fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956757"
 ---
 # <a name="_createfile-function"></a>\_CreateFile 函式
 

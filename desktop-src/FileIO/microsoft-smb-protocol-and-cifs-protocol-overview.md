@@ -4,16 +4,16 @@ ms.assetid: 641017fa-3721-40aa-b13c-e26c8b61ce5c
 title: Microsoft SMB 通訊協定和 CIFS 通訊協定總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30326221694ce843733f6da7a6ad49c8dff336ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09702c719d4e4c5225b35691d7e23980c90c959b7096d7995f3d60b3ef0b204b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951147"
 ---
 # <a name="microsoft-smb-protocol-and-cifs-protocol-overview"></a>Microsoft SMB 通訊協定和 CIFS 通訊協定總覽
 
-伺服器訊息區 (SMB) 通訊協定是一個網路檔案共用通訊協定，在 Microsoft Windows 中實作為實作為 Microsoft SMB 通訊協定。 定義特定通訊協定版本的訊息封包集會稱為方言。 Common Internet File System (CIFS) Protocol 是 SMB 的用語。 SMB 和 CIFS 也可在 VM、數個 Unix 版本和其他作業系統上使用。
+伺服器訊息區 (SMB) 通訊協定是一種網路檔案共用通訊協定，在 microsoft Windows 中也稱為 microsoft SMB 通訊協定。 定義特定通訊協定版本的訊息封包集會稱為方言。 Common Internet File System (CIFS) Protocol 是 SMB 的用語。 SMB 和 CIFS 也可在 VM、數個 Unix 版本和其他作業系統上使用。
 
 您可以從 [Common Internet File System (cifs) 檔案存取通訊協定](/openspecs/windows_protocols/ms-cifs/d416ff7c-c536-406e-a951-4f04b2fd1d2b)的 MICROSOFT CORPORATION 取得 CIFS 的技術參考。
 
@@ -37,7 +37,7 @@ Microsoft SMB 通訊協定是一種用戶端-伺服器的執行方式，是由�
 -   檔案存取封包會存取和操作遠端伺服器上的檔案和目錄。
 -   一般訊息封包會將資料傳送到列印佇列、mailslots 和具名管道，以及提供有關列印佇列狀態的資料。
 
-某些訊息封包可能會在一次傳輸中分組並傳送，以降低回應延遲並增加網路頻寬。 這稱為「批次處理」。 [MICROSOFT Smb 通訊協定封包交換案例](microsoft-smb-protocol-packet-exchange-scenario.md)一節說明使用封包批次處理的 Microsoft Smb 通訊協定會話範例。
+某些訊息封包可能會在一次傳輸中分組並傳送，以降低回應延遲並增加網路頻寬。 這稱為「批次處理」。 [microsoft smb 通訊協定封包 Exchange 案例](microsoft-smb-protocol-packet-exchange-scenario.md)一節說明使用封包批次處理的 microsoft smb 通訊協定會話範例。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -47,7 +47,7 @@ Microsoft SMB 通訊協定是一種用戶端-伺服器的執行方式，是由�
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Microsoft SMB 通訊協定方言](microsoft-smb-protocol-dialects.md)<br/>                                 | 若要使用 Microsoft SMB 通訊協定在用戶端與伺服器之間建立連線，您必須先使用用戶端和伺服器支援的最高層級功能來判斷方言。<br/>                                                      |
 | [Microsoft SMB 通訊協定驗證](microsoft-smb-protocol-authentication.md)<br/>                     | Microsoft SMB 通訊協定中使用的安全性模型與其他 SMB 變數所使用的模型相同，且包含兩個層級的安全性使用者和共用。 共用是可由 Microsoft SMB 通訊協定用戶端存取的檔案、目錄或印表機。<br/> |
-| [Microsoft SMB 通訊協定封包交換案例](microsoft-smb-protocol-packet-exchange-scenario.md)<br/> | 用戶端與伺服器之間的 Microsoft SMB 通訊協定封包交換範例。<br/>                                                                                                                                                                               |
+| [Microsoft SMB 通訊協定封包 Exchange 案例](microsoft-smb-protocol-packet-exchange-scenario.md)<br/> | 用戶端與伺服器之間的 Microsoft SMB 通訊協定封包交換範例。<br/>                                                                                                                                                                               |
 
 
 

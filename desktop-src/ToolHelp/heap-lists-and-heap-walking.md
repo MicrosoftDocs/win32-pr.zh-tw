@@ -4,12 +4,12 @@ description: 包含指定進程之堆積清單的快照集包含每個與指定�
 ms.assetid: 631096fd-cb2c-4b19-aa71-d47060e2715c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b5a9b8d30e2de1bf5ab37de03fdcb3fde663417
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 87cc1eaa2093715e3f42fd52cc5191bedf5a0ac137cf93df57daa5ef590e2471
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058225"
 ---
 # <a name="heap-lists-and-heap-walking"></a>堆積清單和堆積行走
 
@@ -22,8 +22,8 @@ ms.locfileid: "103682525"
 > [!Note]  
 > 在 [**HEAPENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heapentry32)結構的 **th32HeapID** 成員中指定的堆積識別碼，只有工具說明函式的意義。 它不是控制碼，也不能供其他函式使用。
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 8e6a1f4f-ba62-46ea-965e-b0c6526ece89
 title: 處理 BackupShutdown 事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 939e8e64ca9ee463b0b8331e607f8068c3325d5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61e60a063a11f0a492407daed31ace4a62aec2a13fe824e110de272d58b84bea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998248"
 ---
 # <a name="handling-backupshutdown-events"></a>處理 BackupShutdown 事件
 

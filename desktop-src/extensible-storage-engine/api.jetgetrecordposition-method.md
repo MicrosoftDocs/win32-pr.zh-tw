@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 00350853172d784c270c197e7c58ad6fa616560f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12d4e52ff2b9f2d9935ac7c585b146442f1dc418de5339b1600dc3a89e234e53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042556"
 ---
 # <a name="apijetgetrecordposition-method"></a>JetGetRecordPosition 方法
 

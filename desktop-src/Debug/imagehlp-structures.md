@@ -4,12 +4,12 @@ ms.assetid: b88c7a21-933f-450c-97e8-04cf3c5f9b11
 title: Imagehlp.dll 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc34f7d01a09e570e3b9cbcecb7592d89a22f94f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57a92ac6b39de59e4380d6131e954818f12fb5cb9143312a8878593b2fd62ae3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956987"
 ---
 # <a name="imagehlp-structures"></a>Imagehlp.dll 結構
 

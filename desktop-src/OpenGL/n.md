@@ -13,12 +13,12 @@ keywords:
 - '非統一的有理 B 曲線 (NURBS) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc8f81b022e92c0df932c2b3b308f58d3d7ffe54
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 70fe10bf562a9623e195c691296a7a187b8428bbcd0e2662e021f4efb2adadbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937047"
 ---
 # <a name="n-opengl"></a>N (OpenGL) 
 
@@ -61,7 +61,7 @@ ms.locfileid: "103933834"
 
 </dd> <dt>
 
-<span id="opengl_nurbs"></span><span id="OPENGL_NURBS"></span>**Nurbs**
+<span id="opengl_nurbs"></span><span id="OPENGL_NURBS"></span>**NURBS**
 </dt> <dd>
 
 非統一的有理 B 曲線。 指定參數曲線和表面的常見方式。

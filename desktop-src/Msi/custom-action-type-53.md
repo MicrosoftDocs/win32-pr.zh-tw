@@ -4,16 +4,16 @@ ms.assetid: d024c73e-c2dc-4187-a8ae-ed96dc7c107e
 title: 自訂動作類型53
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a016d3b3f5a282567b909215d6ab7b32759417
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 776b78c2dbc8aa233175eeacfa8d16521968dfceeb6b97504e639946c6284b84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947889"
 ---
 # <a name="custom-action-type-53"></a>自訂動作類型53
 
-此自訂動作是以 JScript 撰寫，例如 ECMA 262。 Windows Installer 不支援 JScript 1.0。 如需詳細資訊，請參閱 [腳本](scripts.md)。
+此自訂動作是以 JScript （例如 ECMA 262）來撰寫。 Windows安裝程式不支援 JScript 1.0。 如需詳細資訊，請參閱 [腳本](scripts.md)。
 
 ## <a name="source"></a>來源
 
@@ -33,7 +33,7 @@ ms.locfileid: "103944562"
 
  
 
-Windows Installer 可以在64位作業系統上使用64位自訂動作。 以腳本為基礎的64位自訂動作必須在其數數值型別中包含 **msidbCustomActionType64BitScript** 位。 如需詳細資訊，請參閱 [64 位自訂動作](64-bit-custom-actions.md)。 在 [CustomAction 資料表](customaction-table.md) 的 Type 資料行中包含下列值，以指定64位自訂動作的基本數數值型別。
+Windows安裝程式可能會在64位作業系統上使用64位自訂動作。 以腳本為基礎的64位自訂動作必須在其數數值型別中包含 **msidbCustomActionType64BitScript** 位。 如需詳細資訊，請參閱 [64 位自訂動作](64-bit-custom-actions.md)。 在 [CustomAction 資料表](customaction-table.md) 的 Type 資料行中包含下列值，以指定64位自訂動作的基本數數值型別。
 
 
 
@@ -63,11 +63,11 @@ Windows Installer 可以在64位作業系統上使用64位自訂動作。 以腳
 
 ## <a name="return-values"></a>傳回值
 
-以腳本撰寫的選擇性函式必須傳回 [JScript 和 VBScript 自訂動作](return-values-of-jscript-and-vbscript-custom-actions.md)的傳回值中所述的其中一個值。
+以腳本撰寫的選擇性函式必須傳回[JScript 和 VBScript 自訂動作](return-values-of-jscript-and-vbscript-custom-actions.md)的傳回值中所述的其中一個值。
 
 ## <a name="remarks"></a>備註
 
-以 JScript 撰寫的自訂動作需要安裝 [**會話**](session-object.md) 物件。 因為 **會話** 物件在安裝復原期間可能不存在，所以以腳本撰寫的延遲自訂動作會使用 [取得順延強制自訂動作的內容資訊](obtaining-context-information-for-deferred-execution-custom-actions.md)中所述的其中一個方法。
+在 JScript 中撰寫的自訂動作需要安裝 [**會話**](session-object.md)物件。 因為 **會話** 物件在安裝復原期間可能不存在，所以以腳本撰寫的延遲自訂動作會使用 [取得順延強制自訂動作的內容資訊](obtaining-context-information-for-deferred-execution-custom-actions.md)中所述的其中一個方法。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -5,12 +5,12 @@ ms.assetid: FB62FB7B-8C69-410A-98FF-46D1CE18F0A3
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93869d075b25bdb55034b3bc1ea270709c40e5e3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2fd6fcb496a28d4a5ad0283f767f55b9d1e5b5bd9e3c7c8e68f3b0680cb72bee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106965406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059366"
 ---
 # <a name="graphics-virtual-channels-interfaces"></a>圖形虛擬通道介面
 
@@ -23,7 +23,7 @@ ms.locfileid: "106965406"
 [**IWRdsGraphicsChannel**](/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel)
 </dt> <dd>
 
-RemoteFX 圖形服務會使用此介面來傳送和接收資料到虛擬圖形通道。
+RemoteFX 圖形服務會使用此介面來傳送和接收資料至虛擬圖形通道。
 
 </dd> <dt>
 
@@ -37,13 +37,13 @@ RemoteFX 圖形服務會使用此介面來傳送和接收資料到虛擬圖形�
 [**IWRdsGraphicsChannelManager**](/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelmanager)
 </dt> <dd>
 
-RemoteFX 圖形服務 API 會使用此介面來建立遠端圖形資料所需的圖形虛擬通道。
+RemoteFX graphics services API 會使用此介面來建立遠端圖形資料所需的圖形虛擬通道。
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

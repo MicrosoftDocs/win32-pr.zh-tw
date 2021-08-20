@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: fa7f0430631082a9690cf2083f6b075ca62ee26b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 478b4617f56c73e425d833842b313767f85c385e9142314a7ca8978b5783f492
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950227"
 ---
 # <a name="msvm_storagealert-class"></a>Msvm \_ StorageAlert 類別
 
@@ -183,7 +183,7 @@ class Msvm_StorageAlert : CIM_AlertIndication
 
 在 **OwningEntity** 屬性的範圍內唯一識別 **訊息** 屬性的格式。 這個屬性的可能值為：
 
-32930 ( 「儲存集區 QoS 不足的輸送量訊息」 ) 
+32930 ( 「儲存體集區 QoS 不足的輸送量訊息」 ) 
 
 </dd> <dt>
 
@@ -211,9 +211,9 @@ class Msvm_StorageAlert : CIM_AlertIndication
 存取類型：唯讀
 </dt> </dl>
 
-唯一識別擁有此實例中所描述之 **訊息** 格式定義的實體。 這個屬性的值一律是 "Microsoft-Windows-Hyper-v"。
+唯一識別擁有此實例中所描述之 **訊息** 格式定義的實體。 這個屬性的值一律是 "Microsoft Windows-hyper-v"。
 
-"Microsoft-Windows-Hyper-v"
+"Microsoft-Windows-hyper-v"
 
 </dd> <dt>
 
@@ -287,8 +287,8 @@ Hyper-v WMI 提供者不會引發個別虛擬磁片的事件，以避免在基�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

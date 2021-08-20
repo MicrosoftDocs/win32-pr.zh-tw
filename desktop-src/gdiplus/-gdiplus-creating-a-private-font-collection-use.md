@@ -4,12 +4,12 @@ ms.assetid: ae12afcf-12cc-4c84-9aba-de56fc39437b
 title: 建立私人字型集合
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 084e8a2d6f79f60e0719f04fbabb778b9483bd80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df673273611ed329e933c84e6540ed984088202590dc1d1c644ccdedca2c80c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977588"
 ---
 # <a name="creating-a-private-font-collection"></a>建立私人字型集合
 
@@ -18,7 +18,7 @@ ms.locfileid: "104192335"
 私用字型集合可以包含已安裝的系統字型，以及尚未安裝在電腦上的字型。 若要將字型檔案加入至私用字型集合，請呼叫 [**PrivateFontCollection**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection)物件的 [**PrivateFontCollection：： AddFontFile**](/windows/win32/api/Gdiplusheaders/nf-gdiplusheaders-privatefontcollection-addfontfile)方法。
 
 > [!Note]  
-> 當您使用 GDI + API 時，您絕不能讓應用程式從不受信任的來源下載任意字型。 作業系統需要較高的許可權，以確保所有已安裝的字型都受到信任。
+> 當您使用 GDI+ API 時，您絕不能讓應用程式從不受信任的來源下載任意字型。 作業系統需要較高的許可權，以確保所有已安裝的字型都受到信任。
 
  
 
@@ -179,22 +179,22 @@ delete pFontFamily;
 
 ![視窗的螢幕擷取畫面，其中列出九個字型名稱，每個字型都示範命名字型](images/fontstext7.png)
 
-Tff (已新增至上述程式碼範例中的私用字型集合) 是 Arial 標準樣式的字型檔。 不過請注意，程式輸出會顯示 Arial 字型系列以外的數個可用樣式。 這是因為 Windows GDI + 可以模擬一般樣式的粗體、斜體和粗體斜體樣式。 GDI + 也可以從一般樣式產生底線和 strikeouts。
+Tff (已新增至上述程式碼範例中的私用字型集合) 是 Arial 標準樣式的字型檔。 不過請注意，程式輸出會顯示 Arial 字型系列以外的數個可用樣式。 這是因為 Windows GDI+ 可以從一般樣式中模擬粗體、斜體和粗體斜體樣式。 GDI+ 也可以從一般樣式產生底線和 strikeouts。
 
-同樣地，GDI + 也可以從粗體字樣式或斜體樣式來模擬粗體斜體樣式。 程式輸出會顯示時間系列的粗體斜體樣式，即使 TimesBd。 tff (次新的羅馬、粗體) 是集合中的唯一時間。
+同樣地，GDI+ 可以從粗體字樣式或斜體樣式來模擬粗體斜體樣式。 程式輸出會顯示時間系列的粗體斜體樣式，即使 TimesBd。 tff (次新的羅馬、粗體) 是集合中的唯一時間。
 
-此資料表指定 GDI + 支援的非系統字型。
+下表指定 GDI+ 支援的非系統字型。
 
 
 
-|                     | GDI | Windows 7 上的 GDI + | Windows 8 上的 GDI + | DirectWrite |
+|                     | GDI | Windows 7 上的 GDI+ | Windows 8 上的 GDI+ | DirectWrite |
 |---------------------|-----|-------------------|-------------------|-------------|
-| .FON                | 是 | 否                | 否                | 不可以          |
-| .FNT                | 是 | 否                | 否                | 不可以          |
+| .FON                | 是 | 否                | 否                | 否          |
+| .FNT                | 是 | 否                | 否                | 否          |
 | .TTF                | 是 | 是               | 是               | 是         |
 | .使用 TrueType OTF  | 是 | 是               | 是               | 是         |
-| .Adobe CFF 的 OTF | 是 | 不可以                | 是               | 是         |
-| Adobe 類型1        | 是 | 否                | 否                | 不可以          |
+| .Adobe CFF 的 OTF | 是 | 否                | 是               | 是         |
+| Adobe 類型1        | 是 | 否                | 否                | 否          |
 
 
 

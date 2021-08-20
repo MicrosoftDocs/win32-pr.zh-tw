@@ -4,12 +4,12 @@ ms.assetid: 60892a8b-93f4-43ba-87ef-d5c7cc6fb8c6
 title: 使用 (Direct3D 9) 的壓縮紋理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 643b0618043f12ff3e1a84b806c86edb780ad929
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a0f506cef8147ee5ef1fb0c99cf862254564240bb112e954884cc7a2a07d2d12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044016"
 ---
 # <a name="using-compressed-textures-direct3d-9"></a>使用 (Direct3D 9) 的壓縮紋理
 
@@ -53,7 +53,7 @@ BOOL IsCompressedTextureFormatOk( D3DFORMAT TextureFormat,
 
 
 
-| FOURCC | Description        | Alpha 預乘？ |
+| FOURCC | 描述        | Alpha 預乘？ |
 |--------|--------------------|----------------------|
 | DXT1   | 不透明/1 位 Alpha | N/A                  |
 | DXT2   | 明確 Alpha     | Yes                  |

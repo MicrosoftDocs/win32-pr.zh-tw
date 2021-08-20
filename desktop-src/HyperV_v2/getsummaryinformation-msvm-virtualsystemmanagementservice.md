@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1399acd40f768fdb857d6a4a26e80a52d29111b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efa879cd3da0f5e8a4cc8cf1e9873390c94a94bae0eef3dd8d36c59c9e1680e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119253648"
 ---
 # <a name="getsummaryinformation-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 GetSummaryInformation 方法 \_
 
@@ -173,7 +173,7 @@ uint32 GetSummaryInformation(
 </dt> <dd>
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -187,7 +187,7 @@ uint32 GetSummaryInformation(
 </dt> <dd>
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -663,8 +663,8 @@ public class GetSummaryInformationClassV2
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

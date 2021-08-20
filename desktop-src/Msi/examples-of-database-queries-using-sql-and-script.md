@@ -4,16 +4,16 @@ ms.assetid: aa38dbe5-411d-432e-b3fe-09994fc59c75
 title: 使用 SQL 和腳本的資料庫查詢範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbd839151b40ddd5e9a265c6c370c27a4a9fd125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f137927ba47c4fae5eef4534b7dfab1fa5c8fa1af2ba28d27669cc4605f836b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947053"
 ---
 # <a name="examples-of-database-queries-using-sql-and-script"></a>使用 SQL 和腳本的資料庫查詢範例
 
-Windows [Installer 軟體發展工具組](platform-sdk-components-for-windows-installer-developers.md) 中提供使用腳本驅動資料庫查詢的範例， (SDK) 作為公用程式 WiRunSQL.vbs。 此公用程式會使用 [Sql 語法](sql-syntax.md)一節中所述的 sql Windows Installer 版本來處理資料庫查詢。
+Windows[安裝程式軟體發展工具組](platform-sdk-components-for-windows-installer-developers.md)中提供使用腳本驅動資料庫查詢的範例 (SDK) 作為公用程式 WiRunSQL.vbs。 此公用程式會使用[SQL 語法](sql-syntax.md)一節中所述的 Windows Installer 版本 SQL 來處理資料庫查詢。
 
 **從資料表中刪除記錄**
 
@@ -59,7 +59,7 @@ Windows [Installer 軟體發展工具組](platform-sdk-components-for-windows-in
 
  
 
-請注意，二進位資料無法使用 INSERT INTO 或 UPDATE SQL 查詢直接插入資料表中。 如需詳細資訊，請參閱 [使用 SQL 將二進位資料加入至資料表](adding-binary-data-to-a-table-using-sql.md)。
+請注意，二進位資料無法使用 INSERT into 或 UPDATE SQL 查詢，直接插入資料表中。 如需詳細資訊，請參閱[使用 SQL 將二進位資料加入至資料表](adding-binary-data-to-a-table-using-sql.md)。
 
 **修改資料表中的現有記錄**
 

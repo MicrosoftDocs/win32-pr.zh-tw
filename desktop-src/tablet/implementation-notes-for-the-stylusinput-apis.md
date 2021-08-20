@@ -4,12 +4,12 @@ ms.assetid: db8f0f25-3650-4843-92e4-af5460841e7e
 title: StylusInput Api 的執行注意事項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47150d6a9aff5495e89f30d29929fd7d604f9eed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c106dd0e940cf6fd9e54235af43901d14e511ead5e8908be56b464c483335b74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032376"
 ---
 # <a name="implementation-notes-for-the-stylusinput-apis"></a>StylusInput Api 的執行注意事項
 
