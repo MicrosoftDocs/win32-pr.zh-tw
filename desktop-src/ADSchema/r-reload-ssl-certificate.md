@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d103e8fdd55fd9c0589c09fa5a89a4abd43bfa3f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 06b1236c1b9a637f6bc31b2ad847a85674b79f751e6b02ef87bcdddf7f8cf646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836093"
 ---
 # <a name="reload-ssl-certificate-extended-right"></a>重載-SSL-憑證延伸許可權
 

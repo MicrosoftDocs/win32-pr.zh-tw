@@ -1,15 +1,15 @@
 ---
-title: Windows Media DRM 總覽
-description: Windows Media DRM 總覽
+title: Windows 媒體 DRM 的總覽
+description: Windows 媒體 DRM 的總覽
 ms.assetid: 944b5e0b-649f-4955-8df3-4762726b9893
 keywords:
-- 'Windows Media 格式 SDK、數位版權管理 (DRM) '
-- Windows Media Format SDK，DRM 授權
-- Windows Media Format SDK，DRM 的授權
+- 'Windows媒體格式 SDK、數位版權管理 (DRM) '
+- Windows媒體格式 SDK，DRM 授權
+- Windows媒體格式 SDK，DRM 的授權
 - 數位版權管理 (DRM) ，關於
 - DRM (數位版權管理) ，關於
-- 數位版權管理 (DRM) ，封裝 Windows Media 檔案
-- DRM (數位版權管理) ，封裝 Windows Media 檔案
+- 數位版權管理 (DRM) ，封裝 Windows 媒體檔案
+- DRM (數位版權管理) ，封裝 Windows 媒體檔案
 - 數位版權管理 (DRM) 、受保護的檔案授權
 - DRM (數位版權管理) 、受保護的檔案授權
 - 數位版權管理 (DRM) 、授權
@@ -21,20 +21,20 @@ keywords:
 - 授權，DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d14cb76fcf61346aab9bd68746afc7e50a2f146d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa6cc882d31873a05361869b9246da1b57ac3d3aebb85073d0b31f24509a615b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106983281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846413"
 ---
-# <a name="overview-of-windows-media-drm"></a>Windows Media DRM 總覽
+# <a name="overview-of-windows-media-drm"></a>Windows 媒體 DRM 的總覽
 
-Windows Media 數位 Rights Management (DRM) 是保護 Windows Media 檔案中的內容，讓未經授權的使用者無法存取的系統。 基本 DRM 週期有三個階段：封裝、授權和讀取。
+WindowsMedia 數位 Rights Management (DRM) 是保護 Windows 媒體檔案中的內容，讓未經授權的使用者無法存取的系統。 基本 DRM 週期有三個階段：封裝、授權和讀取。
 
-## <a name="packaging-windows-media-files"></a>封裝 Windows Media 檔案
+## <a name="packaging-windows-media-files"></a>封裝 Windows 媒體檔案
 
-Windows Media DRM 是設計用來處理 Windows Media 檔案。 Windows Media 檔案是符合 Advanced Systems 格式的檔案 (ASF) 規格，而且只包含使用 Windows Media 音訊和影片編解碼器壓縮的音訊和影片。
+Windows媒體 DRM 是設計用來處理 Windows 媒體檔案。 Windows 媒體檔案是符合 Advanced Systems 格式的檔案 (ASF) 規格，而且只包含使用 Windows Media 音訊和影片編解碼器壓縮的音訊和影片。
 
 將 ASF 檔案封裝之後，會在標頭中加入 DRM 特定區段。 DRM 標頭包含金鑰識別碼，可識別授權用途的內容，以及取得授權取得 URL，這是網頁的位址，可發出授權以讀取受保護的內容。 還有更多可放在 DRM 標頭中的資訊，但它是選擇性的。 DRM 標頭已簽署，因此可以驗證封裝程式。
 
@@ -55,12 +55,12 @@ Windows Media DRM 是設計用來處理 Windows Media 檔案。 Windows Media �
 
 <dl> <dt>
 
-[**關於 Windows Media DRM 用戶端擴充 Api**](about-the-windows-media-drm-client-extended-apis.md)
+[**關於 Windows 媒體 DRM 用戶端擴充 api**](about-the-windows-media-drm-client-extended-apis.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

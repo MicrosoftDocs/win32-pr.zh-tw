@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 42416723c4aaa86665f09ee8aa01d5dc1463c522
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 873a3ac0480ebe299d99dec0c026e9129e1f897bf370b81ed196fd2200cd0b40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904035"
 ---
 # <a name="servervalidationparameters-complex-type-peap"></a> (PEAP) 的 ServerValidationParameters 複雜類型
 
@@ -52,7 +52,7 @@ ms.locfileid: "103945788"
 
 
 
-| 元素                                                                                                                                                    | 類型        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 元素                                                                                                                                                    | 類型        | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DisableUserPromptForServerValidation**](mspeapconnectionpropertiesv1schema-disableuserpromptforservervalidation-servervalidationparameters-element.md) | boolean     | 指出是否應要求使用者進行伺服器驗證。 <br/> 如果 [**DisableUserPromptForServerValidation**](mspeapconnectionpropertiesv1schema-disableuserpromptforservervalidation-servervalidationparameters-element.md) 為 TRUE，則 PEAP 會執行伺服器驗證，而不需要使用者輸入;如果驗證失敗，PEAP 會驗證失敗。<br/> 如果 [**DisableUserPromptForServerValidation**](mspeapconnectionpropertiesv1schema-disableuserpromptforservervalidation-servervalidationparameters-element.md) 為 FALSE，則會提示使用者輸入已驗證的伺服器憑證或名稱，或 (CA) 的根憑證授權單位。<br/> [**DisableUserPromptForServerValidation**](mspeapconnectionpropertiesv1schema-disableuserpromptforservervalidation-servervalidationparameters-element.md)元素是選擇性的。<br/> |
 | [**ServerNames**](mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md)                                                   | complextype | 代表用戶端信任的伺服器清單。 每個伺服器名稱會以分號分隔，而且可以使用正則運算式來表示。 <br/> [**ServerNames**](mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md)元素是選擇性的。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -64,7 +64,7 @@ ms.locfileid: "103945788"
 
 
 
-| 名稱                    | 類型    | Description                                                                                                                                                                                                                  |
+| 名稱                    | 類型    | 描述                                                                                                                                                                                                                  |
 |-------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PerformServerValidation | boolean | Windows 7 或更新版本：指出是否執行伺服器驗證。 [**PerformServerValidation**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md)元素是選擇性的。<br/> |
 
@@ -76,8 +76,8 @@ ms.locfileid: "103945788"
 
 | 角色 | 最低支援作業系統版本 |
 |------|------------------------------|
-| 用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

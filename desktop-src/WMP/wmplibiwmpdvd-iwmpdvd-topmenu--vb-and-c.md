@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d59bf126a026626cc7f1ba87ea9d0eb94bd1a91
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 97f9cc1dcd528b93e9959f63a387747e510f7dd57b403ad70e41768d77006337
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930210"
 ---
 # <a name="iwmpdvdtopmenu-method"></a>IWMPDVD：： topMenu 方法
 

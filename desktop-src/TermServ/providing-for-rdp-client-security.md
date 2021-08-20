@@ -1,20 +1,20 @@
 ---
 title: 提供 RDP 用戶端安全性
-description: 遠端桌面 ActiveX 控制項物件的某些屬性會限制為特定的 Internet Explorer URL 安全性區域。
+description: 遠端桌面 ActiveX 控制項物件的某些屬性會限制為特定 Internet Explorer URL 安全性區域。
 ms.assetid: fd20ec03-a5e4-4c3e-9bf5-5fa841e869c3
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15bbb143abd3ec09a7f1aeff67a7b6dfa224b56b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bfdcfbc2b26363ff7f13ed15b3486249aab804cd1bde418f60d71db918f25567
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117940612"
 ---
 # <a name="providing-for-rdp-client-security"></a>提供 RDP 用戶端安全性
 
-為了讓用戶端免于受到可能無法信任的伺服器的攻擊，遠端桌面 ActiveX 控制項物件的某些屬性會限制為特定的 Internet Explorer URL 安全性區域。 這表示，當流覽 web 的使用者存取頁面，而且頁面的 URL 安全性區域與流覽 web 的電腦不同時，會停用這些屬性。 這些受限制的屬性可使用 [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) 介面和 [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) 介面來存取，並可在下列 Internet Explorer URL 安全性區域中取得：
+為了讓用戶端免于受到可能無法信任的伺服器的攻擊，遠端桌面 ActiveX control 物件的某些屬性會限制為特定 Internet Explorer URL 安全性區域。 這表示，當流覽 web 的使用者存取頁面，而且頁面的 URL 安全性區域與流覽 web 的電腦不同時，會停用這些屬性。 這些受限制的屬性可使用 [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) 介面和 [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) 介面來存取，並可在下列 Internet Explorer URL 安全性區域中取得：
 
 -   我的電腦
 -   近端內部網路
@@ -25,7 +25,7 @@ ms.locfileid: "103672991"
 -   網際網路
 -   限制的網站
 
-如果您在遠端桌面服務 web 應用程式中呼叫這些受限制的屬性，您應該呼叫 [**IMsTscAx：： get \_ SecuredSettings**](imstscax-securedsettings.md) 和 [**IMsTscAx：： Get \_ SecuredSettingsEnabled**](imstscax-securedsettingsenabled.md) 來存取受保護的設定屬性。
+如果您在遠端桌面服務 web 應用程式中呼叫這些受限制的屬性，您應該呼叫 [**IMsTscAx：： get \_ SecuredSettings**](imstscax-securedsettings.md)和 [**IMsTscAx：： Get \_ SecuredSettingsEnabled**](imstscax-securedsettingsenabled.md)來存取受保護的設定屬性。
 
 **IMsTscSecuredSettings** 介面所存取的受限制屬性如下：
 
@@ -36,9 +36,9 @@ ms.locfileid: "103672991"
 **IMsRdpClientSecuredSettings** 介面所存取的屬性如下：
 
 -   [**AudioRedirectionMode**](imsrdpclientsecuredsettings-autoredirectionmode.md)。 這個屬性會指定是否要在遠端桌面工作階段主機 (RD 工作階段主機) 伺服器上，重新導向聲音或播放音效。
--   [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md)。 這個屬性會指定套用 Windows 按鍵組合的方式和時間;例如，ALT + TAB。
+-   [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md)。 這個屬性會指定套用 Windows 機碼組合的方式和時間;例如，ALT + TAB。
 
-下列腳本會在連接時啟動 Microsoft Notepad.exe。 在呼叫 [**IMsTscAx：： Connect**](imstscax-connect.md) 方法之前，請先執行此腳本。
+下列腳本會在連接時啟動 Microsoft Notepad.exe。 在呼叫 [**IMsTscAx：：連線**](imstscax-connect.md)方法之前，請先執行此腳本。
 
 ``` syntax
 if MsRdpClient.SecuredSettingsEnabled then
@@ -48,9 +48,9 @@ else
 end if
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1367e5c7a8990a9172ee758d2b811b9074ed02fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e51414f70d518c37c560ee6f4db66994ed0cc0cadd95fc44e9f0d569601617ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117935837"
 ---
 # <a name="downloaditemgetiteminfo-method"></a>DownloadItem. getItemInfo 方法
 
@@ -60,7 +60,7 @@ strRetVal = DownloadItem.getItemInfo(
 
 ## <a name="remarks"></a>備註
 
-這個方法會使用 BITS 描述字串來抓取指定的屬性。 請參閱 [WINDOWS MEDIA PLAYER BITS 作業慣例](windows-media-player-bits-job-convention.md)。
+這個方法會使用 BITS 描述字串來抓取指定的屬性。 請參閱[Windows Media Player BITS 作業慣例](windows-media-player-bits-job-convention.md)。
 
 此方法支援背景下載。 使用即時下載時，您的程式碼不應呼叫這個方法。
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 刪除類別或實例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42a46a52400623e31df3e051a0b587f49326733b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37abe6c5043ec9be7acd960ba56f4f4803c6e08e03cd7f67c630720082cfb6f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925197"
 ---
 # <a name="deleting-a-class-or-instance"></a>刪除類別或實例
 

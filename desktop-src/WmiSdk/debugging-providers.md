@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: 偵錯工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d9cadb72f512c22c56db2b546b7920b96bfbd4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84e6245c92ccb47741474cb5d8d47a99b35d7e83107dda96ba8157c66b64a181
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925234"
 ---
 # <a name="debugging-providers"></a>偵錯工具
 
 提供者（除非它們是在應用程式內執行的低 [*耦合提供者*](gloss-d.md) ）會載入 Wmiprvse.exe 進程，而不會透過 Winmgmt.exe 程式 Svchost.exe。 如需詳細資訊，請參閱 [提供者裝載和安全性](provider-hosting-and-security.md)。
 
-在中斷點停止時，Visual Studio 偵錯工具會凍結整個提供者主機進程，這通常是共用主控制項 Wmiprvse.exe。 這可防止在該進程中裝載的任何其他元件（包括 WMI 伺服器總管擴充功能）進行操作。 同時也會封鎖呼叫提供者的用戶端應用程式。 由於提供者載入至 WMI 服務進程 (Winmgmt.exe) ，因此 Windows 2000 和更早版本中的問題會更糟。
+在中斷點停止時，Visual Studio 偵錯工具會凍結整個提供者主機進程，這通常是共用主控制項 Wmiprvse.exe。 這可防止在該進程中裝載的任何其他元件（包括 WMI 伺服器總管擴充功能）進行操作。 同時也會封鎖呼叫提供者的用戶端應用程式。 Windows 2000 及更早版本中產生的問題，是因為提供者已載入至 WMI 服務處理常式 (Winmgmt.exe) 。
 
 如果您在另一個實例中執行 WMI 伺服器總管則 Visual Studio IDE 不會凍結，而且您可以釋放中斷點。 建議您在開發階段期間，于不同的裝載進程中執行您的提供者，以便在中斷點停止時，只會凍結主控提供者的進程。 Wmi 中的其他函式仍可繼續存取 wmi 伺服器總管以及任何其他 WMI 應用程式或腳本。 此外，如果您的提供者損毀，就不會影響載入至相同主機進程的其他提供者作業。
 

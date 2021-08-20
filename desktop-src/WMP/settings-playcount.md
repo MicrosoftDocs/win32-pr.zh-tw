@@ -3,7 +3,7 @@ title: 設定. playCount
 description: PlayCount 屬性會指定或抓取媒體專案的播放次數。
 ms.assetid: e15d97c6-312a-414d-9b3c-2a15e9081b35
 keywords:
-- 設定. playCount Windows Media Player
+- 設定的 playCount Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe916eeb5dfea619ddf570fd0b759a4a3867b648
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5335a87160fd5b023e1f83330baa5417ebebbd57b98d21d966b9872e2f0ae5cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117933648"
 ---
 # <a name="settingsplaycount"></a>設定. playCount
 
@@ -50,7 +50,7 @@ playCount
 
 <dl> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> </dl>
 
  

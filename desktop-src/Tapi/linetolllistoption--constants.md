@@ -4,12 +4,12 @@ ms.assetid: 22878045-c1d1-45b6-a864-d979514e4b7d
 title: 'LINETOLLLISTOPTION_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 731bc284c4976ba150bda0df0c3f417b40a3a07a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a1afaf474bb05916f99755d7008f1c192e89aaff0201defc2a32377cc5597d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117944713"
 ---
 # <a name="linetolllistoption_-constants"></a>LINETOLLLISTOPTION \_ 常數
 

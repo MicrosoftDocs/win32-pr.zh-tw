@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03ce70f46bd95d4183343990b40594326ed5d3b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6bf4e0ad95ba67a1335ec6915d400b7a8ca219c37bb302036af0a5dca2cf7479
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883758"
 ---
 # <a name="mp_removal_reason-enumeration"></a>MP \_ 移除 \_ 原因列舉
 
@@ -46,7 +46,7 @@ typedef enum tagMP_REMOVAL_REASON {
 <span id="MP_REMOVAL_UNKNOWN"></span><span id="mp_removal_unknown"></span>**MP \_ 移除 \_ 不明**
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -70,8 +70,8 @@ typedef enum tagMP_REMOVAL_REASON {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>MpClient。h</dt> </dl> |
 
 

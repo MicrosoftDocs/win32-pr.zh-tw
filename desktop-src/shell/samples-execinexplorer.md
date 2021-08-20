@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7a511f7ccc7edd218edd405de163501afd530f46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a81255ae34d5e05691f4b226dc3882c884771de30e52985d6432879ab2837cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049004"
 ---
 # <a name="execute-in-explorer-sample"></a>在 Explorer 中執行範例
 
-示範如何從 Windows 檔案總管進程呼叫 [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) 函數。 從提升許可權的進程啟動停權一致程式時，這非常有用。
+示範如何從 Windows 檔案總管進程呼叫 [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea)函數。 從提升許可權的進程啟動停權一致程式時，這非常有用。
 
 本主題包含下列各節。
 
@@ -44,7 +44,7 @@ ms.locfileid: "104973297"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [ExecInExplorer 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/ExecInExplorer) |
 

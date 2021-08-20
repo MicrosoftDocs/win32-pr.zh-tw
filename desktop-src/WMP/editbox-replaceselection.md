@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6546f24c864d0b466acd17d9a42616c3f8ab01b6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 296a78bd4fbe112cbe6b0fb859c6451b6a3a892cb42ca8e91e2b4fcf911d4c20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117935280"
 ---
 # <a name="editboxreplaceselection"></a>編輯方塊. replaceSelection
 
@@ -55,7 +55,7 @@ ms.locfileid: "106997676"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

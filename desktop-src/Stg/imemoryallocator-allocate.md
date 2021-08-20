@@ -4,7 +4,7 @@ description: 當函數將 SERIALIZEDPROPERTYVALUE 資料類型轉換成 PROPVARI
 ms.assetid: aa9c9308-fb55-405c-901a-9d5abfac5395
 keywords:
 - 配置方法結構化儲存體
-- 配置方法結構化儲存體、IMemoryAllocator 介面
+- 配置方法結構化儲存體，IMemoryAllocator 介面
 - IMemoryAllocator 介面結構化儲存體，配置方法
 topic_type:
 - apiref
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7ee4b220e1c1e14ceed685e9b2adc694a44d2e4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b10a924604b0ee299eb1ac5c29a29bba9700f0523be820ffa0cc5bc4a14fd4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961763"
 ---
 # <a name="imemoryallocatorallocate-method"></a>IMemoryAllocator：： Allocate 方法
 

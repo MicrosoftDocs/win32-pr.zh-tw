@@ -4,18 +4,18 @@ ms.assetid: 72f99d32-184f-4f0b-bec1-6068c6e32f88
 title: 快速使用者切換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d79f16ef8a1ea8c97bfb61d34dfa727f3d0cef8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80ac8c8a619f715e0dd39d6df65a131bded952aa11cc4d6aef08e18c8ca20938
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050266"
 ---
 # <a name="fast-user-switching"></a>快速使用者切換
 
 當使用者登入電腦時，系統會載入其設定檔。 因為每個使用者都有唯一的使用者帳戶，所以這可讓多個使用者共用一部電腦。 當使用者登入時，他們所看到的桌面設定、檔案、我的最愛和歷程記錄會是：其他使用者無法存取它們。 當該使用者登出時，就會在下次登入時保留其設定檔。 在較舊的作業系統中，使用者必須先登出，其他使用者才能登入。 從 Windows XP 開始，使用者不需要登出以允許其他使用者登入。 相反地，多位使用者可以在其開啟的帳戶之間快速登入和切換。 這項功能稱為「 *快速切換使用者*」。 切換到另一個帳戶並不會變更使用者目前正在執行之應用程式的狀態。 比方說，假設一位使用者允許另一位使用者在第一位使用者登入時切換到其帳戶。 當第一位使用者 switchs 回到其帳戶時，他們的應用程式就會執行，並保留其網路連接。 因此，這兩個使用者會同時使用電腦。
 
-如果您的應用程式符合 Windows 2000 標誌需求，則應該在 Windows XP 及更新版本的作業系統上使用快速切換使用者。 不過，在開發應用程式時，請務必記住此案例，讓應用程式如同使用者預期般運作。 撰寫您的應用程式時，請使用下列指導方針：
+如果您的應用程式符合 Windows 2000 標誌需求，則應該在 Windows XP 和更新版本的作業系統上使用快速切換使用者。 不過，在開發應用程式時，請務必記住此案例，讓應用程式如同使用者預期般運作。 撰寫您的應用程式時，請使用下列指導方針：
 
 -   執行真正的設定檔分隔。 系統會提供基礎結構，以支援使用者資料、使用者設定和電腦設定的分隔。 例如，使用使用者的 [ **檔** ] 資料夾來儲存使用者建立的資料。 若要找出應用程式特定資料的目錄，請使用 [已知資料夾](known-folders.md)系統搭配 [**FOLDERID \_ RoamingAppData**](knownfolderid.md)) 或針對較舊的作業系統，使用 [**CSIDL \_ APPDATA**](csidl.md)) 的 [**CSIDL**](csidl.md)系統。 針對不應在其他電腦上提供給使用者的資料（例如，暫存檔案），請使用 **FOLDERID \_ LocalAppData** 或 **CSIDL \_ 本機 \_ APPDATA** 。
 -   註冊以取得使用者交換器的通知。 一般情況下，應用程式不需要在切換時收到通知。 但是，如果您的應用程式必須收到會話變更的通知，它可以註冊以接收 [**WM \_ WTSSESSION \_ 變更**](../termserv/wm-wtssession-change.md) 訊息。

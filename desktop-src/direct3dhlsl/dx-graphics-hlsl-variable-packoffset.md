@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5c92a6375f0724a1910fc0f09b47e1593614f9f1
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: d893ddbddcaa655a0da9d25a434063d96fa5615f4dfd561835a718655e08e266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117908738"
 ---
 # <a name="packoffset"></a>packoffset
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxgitype.h
-ms.openlocfilehash: 83ca500493a04f04de5352185c240d20a19009f5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ba2e4731e1fd308c3b87cb5d1856020e5471f5fe0eac8f8cc99de3e3f32ded5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117910034"
 ---
 # <a name="d3dcolorvalue-structure-dxgitypeh"></a>D3DCOLORVALUE 結構 (Dxgitype .h) 
 

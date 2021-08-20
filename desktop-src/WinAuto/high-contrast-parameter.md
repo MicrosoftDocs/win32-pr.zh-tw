@@ -4,12 +4,12 @@ description: 高對比參數表示使用者是否希望前景和背景視覺效�
 ms.assetid: ec89c4ce-4e8b-4e1f-a349-fbd47431d675
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f1255e8a99b3cb253146e2fa2c019a879c4a1b6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 82c268acbf95981e70e8e0d36843cfd9abfe9c1b459e1193dc2176032dec5a1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929639"
 ---
 # <a name="high-contrast-parameter"></a>高對比參數
 
@@ -25,6 +25,6 @@ ms.locfileid: "103933372"
 
 此外，應用程式也會使用 **spi \_ GETDISABLEOVERLAPPEDCONTENT** 和 **spi \_ SETDISABLEOVERLAPPEDCONTENT** 旗標搭配 [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) 函式來取得和設定重迭的內容參數。 顯示功能（例如背景影像、紋理材質、檔上的水位線、Alpha 混色和透明度）可以降低前景與背景的對比，讓視力較低的使用者更難看到畫面上的物件。 這個旗標可讓應用程式判斷是否已停用這類重迭的內容
 
- 
+ 
 
- 
+ 

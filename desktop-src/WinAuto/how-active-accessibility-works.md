@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility 的設計目的是協助協助工具
 ms.assetid: 29325f0a-c6ca-42b1-b85d-2671f7041034
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdeffcebd96ffba804bfc24672bf867028e9b0c7
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 7269042644cff139c9a554a93b3ede03952a8d5df5443bf34a74e5f07ba4742f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "103841844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929558"
 ---
 # <a name="how-active-accessibility-works"></a>Active Accessibility 的運作方式
 
@@ -43,9 +43,9 @@ Microsoft Active Accessibility 的設計目的是協助協助工具輔助，稱�
 -   設定 New-winevent 勾點、接收通知，然後呼叫 [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent) ，以抓取產生事件之 UI 元素的 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 介面指標。
 -   呼叫 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 方法（例如 [**accNavigate**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accnavigate) 或 [**get \_ AccParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) ）移至不同的 **IAccessible** 物件。
 
- 
+ 
 
- 
+ 
 
 
 

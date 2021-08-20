@@ -7,12 +7,12 @@ keywords:
 - 結構化儲存體 Strctd Stg.，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d048907c196c871af943e5a15cc95b367724a31
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6e9a9355005f8580861d25a2aac966de6bd3519f4a4565c9ee97118d144d0b8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117962843"
 ---
 # <a name="about-structured-storage"></a>關於結構化儲存體
 
@@ -24,11 +24,11 @@ ms.locfileid: "103672252"
 -   NTFS 檔案系統執行
 -   獨立執行
 
-本章節包含 [檔案系統](the-evolution-of-file-systems.md)、儲存 [和資料流程](storages-and-streams.md)、 [複合檔案](compound-files.md)、 [結構化儲存體基礎](structured-storage-fundamentals.md)，以及 [結構化儲存體範例](using-structured-storage.md)之演進的連結。
+本章節包含[檔案系統](the-evolution-of-file-systems.md)、[儲存體和資料流程](storages-and-streams.md)、[複合檔案](compound-files.md)、[結構化儲存體基礎結構](structured-storage-fundamentals.md)，以及[結構化儲存體範例](using-structured-storage.md)之演進的連結。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: 命令清單是可錄製和播放的 GPU 命令序列。 命令清�
 ms.assetid: 4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e27f8821645588ac7a9b48a4f6ce562c8c48cf96
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9e0f8bd70fdca1f55e5ef0c35f8aa8106f6a7777726afab22bd3ca09901172c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117913372"
 ---
 # <a name="command-list"></a>命令清單
 
@@ -38,9 +38,9 @@ ms.locfileid: "103673895"
 [多執行緒](overviews-direct3d-11-render-multi-thread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

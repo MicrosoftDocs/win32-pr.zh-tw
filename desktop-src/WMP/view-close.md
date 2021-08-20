@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 808d8930a72042009d6c855e798e717a7697ebac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5d4306ca17019ec9f3722aa5e5cc8b8410a3d1a5e59fa0c4cf3e133116afa97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117931310"
 ---
 # <a name="viewclose"></a>VIEW. 關閉
 

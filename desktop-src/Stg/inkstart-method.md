@@ -4,12 +4,12 @@ description: InkStart、InkDraw 和 InkStop 方法都使用 Win32 GUI 結構，�
 ms.assetid: a639e1d2-6d81-472b-b639-d237e202020f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e25d02c4490106180298b6977ec539bd96fd03
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc152f0c5a29219cf34320f1a228485e2aca8f6c9b2e8a77c6115d423688681e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961405"
 ---
 # <a name="inkstart-method"></a>InkStart 方法
 
@@ -19,7 +19,7 @@ CGuiPaper 層級封裝的另一個設計原因是其 **InkStart**、 [**InkDraw*
 
 當使用者未移動滑鼠，但 COPaper 的筆墨資料正在重新傳送至 CGuiPaper 以進行自動重畫時，此配置會用於重新繪製。 您可以藉 \_ 由呼叫 [**InkSaving**](cguipaper-methods.md) 方法，告知 CGuiPaper 設定 m bInkSaving 旗標。
 
-下列範例程式碼片段說明 GUIPAPER 的 **InkStart** 方法。CPP 和接收器。Cpp。
+下列範例程式碼片段說明 GUIPAPER 的 **InkStart** 方法。CPP 和接收器。CPP。
 
 ## <a name="inkstart-method-guipapercpp"></a>InkStart 方法 (GUIPAPER。CPP) 
 
@@ -111,9 +111,9 @@ STDMETHODIMP COPaperSink::CImpIPaperSink::InkStart(
 
 您也可以藉由將 **StoClien** 降到最低，然後加以還原，來測試此行為。 在此情況下，整個繪圖影像會遺失，且需要重新繪製。 若要在其中一個測試之後重新繪製繪圖影像，請使用 [接收] 功能表重新連接，然後從 [繪製] 功能表 [**中選擇 [重新繪製]**](ipaper--redraw.md) 。
 
- 
+ 
 
- 
+ 
 
 
 

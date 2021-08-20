@@ -3,7 +3,7 @@ title: 'WM_DDE_INITIATE 訊息 (的) '
 description: 動態資料交換 (DDE) 用戶端應用程式傳送 WM \_ dde \_ 的初始訊息，以起始與伺服器應用程式的交談，回應指定的應用程式和主題名稱。
 ms.assetid: d486f584-75a3-4ffd-ba5d-f95f2692cd6c
 keywords:
-- WM_DDE_INITIATE 訊息資料交換
+- WM_DDE_INITIATE 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf65e222c7711d429db44e391d4f03c35997e219
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 27d2d5cf46221e268cf27f7557349185b32aafff65bdd20b0ac20063fde151a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915146"
 ---
 # <a name="wm_dde_initiate-message"></a>WM \_ DDE \_ 起始訊息
 
@@ -78,7 +78,7 @@ ms.locfileid: "111386724"
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt> (包含 Windows. h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Dde. h (包含 Windows .h) </dt> </dl> |
 
 
 

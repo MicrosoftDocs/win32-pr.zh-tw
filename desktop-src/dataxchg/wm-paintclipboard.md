@@ -3,7 +3,7 @@ title: 'WM_PAINTCLIPBOARD 訊息 (Winuser .h) '
 description: 當剪貼簿包含 CF \_ OWNERDISPLAY 格式的資料，而剪貼簿檢視器的工作區需要重新繪製時，由剪貼簿檢視器視窗傳送給剪貼簿擁有者。
 ms.assetid: 85aeefa5-e3d9-4689-a068-47b59ec7b571
 keywords:
-- WM_PAINTCLIPBOARD 訊息資料交換
+- WM_PAINTCLIPBOARD 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8148af6b513fd1fa956d48f22dc86e618544b073
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 46f05aaac82bc97d4e67066f9761ac5949b4e3e97d432651ff5ddf61fea47e61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914859"
 ---
 # <a name="wm_paintclipboard-message"></a>WM \_ PAINTCLIPBOARD 訊息
 
@@ -68,7 +68,7 @@ ms.locfileid: "106966304"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

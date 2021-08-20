@@ -3,7 +3,7 @@ title: '參考元素 (已被取代) '
 description: '參考元素 (已被取代) '
 ms.assetid: 0a549750-abaa-43bf-8420-8fe00eb6feff
 keywords:
-- Windows Media 中繼檔，reference 元素
+- Windows媒體中繼檔，reference 元素
 - 中繼檔，reference 元素
 - reference 元素
 ms.topic: article
@@ -13,16 +13,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6c521b080609bbe51470a2de960481a86e8264c0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c724ba103f3c150bf74cbb7bad9d2ba114da3b58abbaec84dc38e359d18348f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117934180"
 ---
 # <a name="reference-element-deprecated"></a>參考元素 (已被取代) 
 
-本主題說明在目前版本的 Windows Media 中繼檔中不再使用的功能。
+本主題說明目前版本的 Windows 媒體中繼檔中不再使用的功能。
 
 **Reference** 元素包含 url 的參考清單。 清單中的每個專案都有格式 Ref *XX*  =  *URL*，其中 *XX* 是整數，而 *url* 是 Advanced 系統格式的 url (ASF) 檔。
 
@@ -69,12 +69,12 @@ ASF 檔案格式包含各種不同的媒體類型，包括音訊和影片。 ASF
 
 <dl> <dt>
 
-[**舊版的 Windows Media 中繼檔 (已淘汰)**](previous-versions-of-windows-media-metafiles--deprecated.md)
+[**舊版 Windows 媒體中繼檔 (已淘汰)**](previous-versions-of-windows-media-metafiles--deprecated.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

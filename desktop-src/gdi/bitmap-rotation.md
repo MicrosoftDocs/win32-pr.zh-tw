@@ -4,12 +4,12 @@ ms.assetid: fd5b3d9f-fdce-485e-bff8-464d96b8db34
 title: 點陣圖旋轉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c8711189182646c55aee414ef92409a6de20ca3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4de787246737e931d8caf9369512b8f0eeacc8288e938a451df267316cd3eebc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117699905"
 ---
 # <a name="bitmap-rotation"></a>點陣圖旋轉
 

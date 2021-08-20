@@ -4,12 +4,12 @@ ms.assetid: 4d2d9372-b540-4e08-9b57-8687802610b6
 title: COM + CRM 疑難排解
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b04e37d183dbf3df8d017e780917f955e14a033
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d80a02643d5fc6defde8170c8fa7664520ca347c548fa772972a3f12b4cd2145
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915659"
 ---
 # <a name="troubleshooting-the-com-crm"></a>COM + CRM 疑難排解
 
@@ -17,9 +17,9 @@ ms.locfileid: "104510627"
 
 -   **事件記錄檔訊息。** 如果 CRM 伺服器應用程式遇到嚴重的內部錯誤，則會產生 failfast (終止 CRM 伺服器應用程式進程) 並將訊息寫入 Windows 事件記錄檔。 如果遇到任何問題，請參閱事件記錄檔。
 
--   **CRM 補償器的例外狀況。** CRM 基礎結構會建立 CRM 補償器，並將交易結果通知和 CRM 背景工作所寫入的記錄檔記錄傳遞給它。 如果 CRM 補償器傳回錯誤或擲回例外狀況，則會由 CRM 基礎結構攔截，並造成 failfast。 事件記錄檔中的訊息表示從 CRM 補償器收到例外狀況。 您可以強制忽略這些例外狀況。  (，請參閱 [Com + CRM 登錄設定](com--crm-registry-settings.md)。從 crm 補償器 ) 例外狀況，很可能表示特定 crm 補償器元件中的問題，而不是在 crm 基礎結構本身。
+-   **CRM 補償器的例外狀況。** CRM 基礎結構會建立 CRM 補償器，並將交易結果通知和 CRM 背景工作所寫入的記錄檔記錄傳遞給它。 如果 CRM 補償器傳回錯誤或擲回例外狀況，則會由 CRM 基礎結構攔截，並造成 failfast。 事件記錄檔中的訊息表示從 CRM 補償器收到例外狀況。 您可以強制忽略這些例外狀況。  (請參閱[com + CRM 登錄設定](com--crm-registry-settings.md)。從 crm 補償器 ) 例外狀況，最可能表示特定 crm 補償器元件中的問題，而不是在 crm 基礎結構本身。
 
--   **復原追蹤。** 復原追蹤有助於判斷復原期間的問題。 如需啟用修復追蹤的詳細資訊，請參閱 [Com + CRM 登錄設定](com--crm-registry-settings.md)。
+-   **復原追蹤。** 復原追蹤有助於判斷復原期間的問題。 如需啟用修復追蹤的詳細資訊，請參閱[Com + CRM 登錄設定](com--crm-registry-settings.md)。
 
 -   **嘗試在未啟用 CRM 的情況下執行。** 您只需將 CRM 工作者和 CRM 補償器元件放入 COM + 伺服器應用程式中即可。 使用 COM + 應用程式屬性頁之 [ **Advanced** ] 索引標籤上的 [**啟用補償資源管理員**] 選項，就必須特別針對特定的 com + 伺服器應用程式啟用 crm 的支援。  (如需詳細資訊，請參閱設定 [COM + CRM 元件](configuring-com--crm-components.md) 。 ) 如果嘗試在未啟用 crm 的伺服器應用程式內使用 crm，錯誤碼會傳回給 Crm 背景工作。
 

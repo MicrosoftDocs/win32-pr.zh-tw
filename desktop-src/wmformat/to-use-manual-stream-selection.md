@@ -19,12 +19,12 @@ keywords:
 - 相互排除，非同步讀取器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a87c493bc8f41bc2a03ba15832ed402939adbeff
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 2d73f7829736bc36f2362fde0bc86b5c88daf88a6b9e7ef22fb5d6c46ce7ee55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106966441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653883"
 ---
 # <a name="to-use-manual-stream-selection"></a>使用手動資料流程選取
 
@@ -48,9 +48,9 @@ ms.locfileid: "106966441"
 [**使用非同步讀取器讀取檔案**](reading-files-with-the-asynchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

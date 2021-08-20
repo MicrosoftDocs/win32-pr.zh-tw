@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22ffc32e2f6b4ab05680a1413d3a66715cad3f25
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ef3db011e31c83b68285d01b4fab9f0e5f54d7c006143dfb0813f2595f668b96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117932011"
 ---
 # <a name="trackingid-attribute"></a>TrackingID 屬性
 

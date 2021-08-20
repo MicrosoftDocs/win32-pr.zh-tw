@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: f93a962e57452ac555214e42f00af8ac8a4ea3db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bc9a896df1db932e4aca0afb15d38acb34eb78ff0b56620fc6212a1c9f7ebc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926375"
 ---
 # <a name="__aggregateevent-class"></a>\_\_AggregateEvent 類別
 

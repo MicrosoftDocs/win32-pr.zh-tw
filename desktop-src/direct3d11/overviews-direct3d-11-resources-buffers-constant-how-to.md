@@ -6,12 +6,12 @@ keywords:
 - 常數緩衝區，建立
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1abb6718ad223ff389aa0b7ebf10ad1ec8bacd71
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2359698c4dfc72bfe3c3c9747e29ddfa5f6aecd2aaa32b99d75fbe38e956ac4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912819"
 ---
 # <a name="how-to-create-a-constant-buffer"></a>如何：建立常數緩衝區
 
@@ -26,7 +26,7 @@ ms.locfileid: "103682923"
     > [!Note]  
     > D3D11 系 \_ 結 \_ 常數 \_ 緩衝區旗標無法與任何其他旗標合併。
 
-     
+     
 
 4.  填入 [**D3D11 \_ subresource \_ 資料**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_subresource_data) 結構，以建立 subresource 資料描述。 **D3D11 \_ SUBRESOURCE \_ 資料** 結構的 **pSysMem** 成員必須直接指向您在步驟2中建立的頂點著色器常數資料。
 5.  傳遞 [**D3D11 \_ 緩衝區 \_ DESC**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_buffer_desc)結構、 [**D3D11 \_ SUBRESOURCE \_ 資料**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_subresource_data)結構，以及要初始化之 [**ID3D11Buffer**](/windows/desktop/api/D3D11/nn-d3d11-id3d11buffer)介面指標的位址時，呼叫 [**ID3D11Device：： CreateBuffer**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createbuffer) 。
@@ -105,7 +105,7 @@ cbuffer VS_CONSTANT_BUFFER : register(b0)
 > [!Note]  
 > 請務必將 \_ \_ c + + 中的 VS 常數緩衝區記憶體配置與 HLSL 版面配置相符。 如需 HLSL 如何處理記憶體中配置的詳細資訊，請參閱 [常數變數的封裝規則](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-packing-rules)。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -117,6 +117,6 @@ cbuffer VS_CONSTANT_BUFFER : register(b0)
 [如何使用 Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

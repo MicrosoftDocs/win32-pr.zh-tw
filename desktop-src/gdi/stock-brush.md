@@ -4,12 +4,12 @@ ms.assetid: ddbc6d54-47f6-4810-9d3a-feede80f2bed
 title: 股票筆刷
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 522337752c2d81a92302d4a6a8f025393db1ce15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: b50bcd3b6bbd09e1e547d118161f8054fa6df3c6897a57f7928e053e82108d25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117698167"
 ---
 # <a name="stock-brush"></a>股票筆刷
 

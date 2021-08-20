@@ -4,16 +4,16 @@ description: 使用主動語音
 ms.assetid: 7a89ea83-1cf0-4bfb-8f69-63081f8adf48
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d48f5a3e834364b1fdbc0947cc15c1f66331c20
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 732f28e95cec5bcfd9f9d7c6c1e6a33f976999bed05b76ed4224940e2c3d985c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882219"
 ---
 # <a name="use-the-active-voice"></a>使用主動語音
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 使用「語音輸出」來提供指示詞資訊或要得出使用者回應時，請使用主動語音，並清楚地指定使用者的預期動作。 下列範例說明差異：
 

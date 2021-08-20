@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c67f172e12b366ad5fda9ea112453786fd2784da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 014625b61a19f5df2d1b835c6db9ad8c89dd76d20147eabb4bb739385af9cd67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117931711"
 ---
 # <a name="videostretchtofit"></a>StretchToFit
 

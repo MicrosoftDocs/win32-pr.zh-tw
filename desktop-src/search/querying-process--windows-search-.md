@@ -4,12 +4,12 @@ ms.assetid: 0e5a633e-1703-4b72-8a04-6da71aec0ae2
 title: 在 Windows Search 中查詢進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3585f2cca2a6d5d8548a85ae8fac759ec94b4fa
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ffec01c7b85b54d56e4e1092004be7e18e318b736cb591a10db0973153471cd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680249"
 ---
 # <a name="querying-process-in-windows-search"></a>在 Windows Search 中查詢進程
 
@@ -32,13 +32,13 @@ Windows Search 中的查詢是以下列四種方法為基礎：
 -   結構化查詢語言 (SQL) (Structured Query Language (SQL))
 -   結構化查詢介面
 
-AQS 是 Windows Search 用來查詢索引，以及精簡和縮小搜尋參數的預設查詢語法。 AQS 主要是使用者面向的，可供使用者用來建立 AQS 查詢，但開發人員也可以使用它來以程式設計方式建立查詢。 在 Windows 7 中，已引進標準 AQS，且必須用來以程式設計方式產生 AQS 查詢。 在 Windows 7 （含）以後版本中，您可以根據是否符合 AQS 條件來使用快捷方式功能表選項。 如需詳細資訊，請參閱 [建立快捷方式功能表處理常式](../shell/context-menu-handlers.md)中的「使用 Advanced Query 語法取得靜態動詞的動態行為」。 AQS 查詢可以限制為特定類型的檔案，也就是所謂的檔案類型。 如需詳細資訊，請參閱 [檔案類型和關聯](../shell/fa-intro.md)。 如需相關屬性的參考 [檔，請參閱](../properties/props-system-kind.md) [KindText](../properties/props-system-kindtext.md)。
+AQS 是 Windows Search 用來查詢索引，以及精簡和縮小搜尋參數的預設查詢語法。 AQS 主要是使用者面向的，可供使用者用來建立 AQS 查詢，但開發人員也可以使用它來以程式設計方式建立查詢。 在 Windows 7 中引進標準 AQS，且必須用來以程式設計方式產生 AQS 查詢。 在 Windows 7 和更新版本中，可以根據是否符合 AQS 條件來使用快捷方式功能表選項。 如需詳細資訊，請參閱 [建立快捷方式功能表處理常式](../shell/context-menu-handlers.md)中的「使用 Advanced Query 語法取得靜態動詞的動態行為」。 AQS 查詢可以限制為特定類型的檔案，也就是所謂的檔案類型。 如需詳細資訊，請參閱 [檔案類型和關聯](../shell/fa-intro.md)。 如需相關屬性的參考 [檔，請參閱](../properties/props-system-kind.md) [KindText](../properties/props-system-kindtext.md)。
 
 NQS 是比 AQS 更寬鬆的查詢語法，類似于人類語言。 如果選取 NQS，而不是預設的 AQS，Windows Search 可以使用 NQS 來查詢索引。
 
-SQL 是定義查詢的文字語言。 SQL 在許多不同的資料庫技術中都很常見。 Windows Search 會使用 SQL、執行它的子集，並藉由將專案加入至語言來延伸它。 Windows Search SQL 會延伸標準的 SQL-92 和 SQL-99 資料庫查詢語法，以利用文字搜尋來增強它的實用性。 Windows Search SQL 的所有功能都與 Windows XP 和 Windows Server 2003 及更新版本上的 Windows Search 相容。 如需 Windows Search SQL 的詳細資訊，請參閱 [查詢具有 WINDOWS SEARCH Sql 語法的索引](-search-sql-windowssearch-entry.md)，以及 [Windows Search SQL 語法的總覽](-search-sql-ovwofsearchquery.md)。
+SQL 是定義查詢的文字語言。 SQL 在許多不同的資料庫技術中都很常見。 Windows搜尋會使用 SQL、執行它的子集，並藉由將專案新增至語言來加以擴充。 Windows搜尋 SQL 擴充標準的 SQL-92 和 SQL-99 資料庫查詢語法，以利用文字搜尋來增強其實用性。 Windows Search SQL 的所有功能都與 Windows XP 和 Windows Server 2003 及更新版本上的 Windows Search 相容。 如需 Windows Search SQL 的詳細資訊，請參閱[使用 Windows Search SQL 語法來查詢索引](-search-sql-windowssearch-entry.md)，以及[Windows Search 語法的總覽](-search-sql-ovwofsearchquery.md)。
 
-本主題稍後會描述結構化查詢 Api。 如需結構化查詢 Api 的參考檔，請參閱 [查詢介面](-search-querying-interfaces-entry-page.md)。 [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper)說明等介面可從一組輸入值來建立 SQL 字串。 這個介面會將 AQS 的使用者查詢轉換成 Windows Search SQL，並指定可在 SQL 中表示但無法在 AQS 中表示的查詢限制。 [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) 也會取得連接到 Windows Search 資料庫 OLE DB 連接字串。
+本主題稍後會描述結構化查詢 Api。 如需結構化查詢 Api 的參考檔，請參閱 [查詢介面](-search-querying-interfaces-entry-page.md)。 介面（例如 [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) ）有助於從一組輸入值 SQL 字串。 這個介面會將 AQS 的使用者查詢轉換成 Windows Search SQL 並指定可在 SQL 中表示的查詢限制，而不能在 AQS 中表示。 [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper)也會取得連接到 Windows Search 資料庫 OLE DB 連接字串。
 
 ### <a name="local-and-remote-queries"></a>本機和遠端查詢
 
@@ -60,7 +60,7 @@ FROM [<ComputerName>.]SystemIndex
 
 
 
-根據預設，Windows XP 和 Windows Server 2003 沒有安裝 Windows Search。 只有 Windows Search 4 (WS4) 提供遠端查詢支援。 舊版的 Windows 桌面搜尋 (WDS) ，例如3.01 和更早版本，不支援遠端查詢。 您可以使用 Windows 檔案總管來查詢遠端電腦的本機索引，以尋找 "file：" 通訊協定) 所處理的檔案系統專案 (專案。
+依預設，Windows XP 和 Windows Server 2003 未安裝 Windows Search。 只有 Windows Search 4 (WS4) 提供遠端查詢支援。 舊版的 Windows Desktop 搜尋 (WDS) （例如3.01 和更早版本）不支援遠端查詢。 您可以使用 Windows 檔案總管來查詢遠端電腦的本機索引，以尋找 "file：" 通訊協定) 所處理的檔案系統專案 (專案。
 
 若要透過遠端查詢取得專案，專案必須符合下列需求：
 
@@ -68,7 +68,7 @@ FROM [<ComputerName>.]SystemIndex
 -   存在於用戶端可存取的遠端電腦上。
 -   將其安全性設定為允許用戶端擁有讀取權限。
 
-Windows 檔案總管具有共用專案的功能，包括網路和共用中心中的「公用」共用 (的「公用」共用 \\ \\ \\ \\ ... ****) ，以及「使用者」共用 (\\ \\ 電腦 \\ 使用者 \\ ... ) 透過共用嚮導共用的專案。 在您共用 (s) 的資料夾之後，您可以在 FROM 子句中指定遠端電腦的電腦名稱稱，並在範圍子句中的遠端電腦上指定 UNC 路徑，藉以查詢本機索引。 下列範例顯示使用 FROM 和 SCOPE 子句的遠端查詢。
+WindowsExplorer 有共用專案的功能，包括網路和共用中心中的「公用」共用 (\\ \\ 電腦 \\ \\ ) ，以及「使用者」共用 (\\ \\ 電腦 \\ 使用者 \\ ... ) 透過共用嚮導共用的專案。 在您共用 (s) 的資料夾之後，您可以在 FROM 子句中指定遠端電腦的電腦名稱稱，並在範圍子句中的遠端電腦上指定 UNC 路徑，藉以查詢本機索引。 下列範例顯示使用 FROM 和 SCOPE 子句的遠端查詢。
 
 
 ```
@@ -155,7 +155,7 @@ SELECT System.ItemName FROM MachineName.SystemIndex WHERE SCOPE='file://MachineN
 
 ## <a name="querying-scenarios"></a>查詢案例
 
-下列案例說明一般查詢案例中 Windows Search 的結構化查詢 Api 用法，例如建立條件樹狀結構和查詢索引。
+下列案例說明一般查詢案例中 Windows Search 的結構化查詢 api 用法，例如建立條件樹狀結構和查詢索引。
 
 ### <a name="condition-extraction-and-query-parsing"></a>條件提取和查詢剖析
 
@@ -240,7 +240,7 @@ SELECT System.ItemName FROM MachineName.SystemIndex WHERE SCOPE='file://MachineN
 
 
 
-| 傳回查詢值的範例                        | Description                                                                                               |
+| 傳回查詢值的範例                        | 描述                                                                                               |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | `  author:relja OR author:tyler`                         | [**IQueryParser：： RestateToString**](/windows/desktop/api/Structuredquery/nf-structuredquery-iqueryparser-restatetostring)傳回的查詢文字 |
 | `?author?, ?:?, ?relja?, ?OR?, ?author?, ?:?, ?tyler?`   | 標記的細分                                                                                  |
@@ -281,7 +281,7 @@ IRichChunk** ppValueTerm);
 
 ### <a name="querying-the-index"></a>查詢索引
 
-有幾種方法可以查詢索引。 有些是以 SQL 為基礎，其他則是以 AQS 為基礎。 您也可以使用查詢 [介面](./-search-querying-interfaces-entry-page.md)，以程式設計方式查詢 Windows Search 索引。 查詢索引有三個特定的介面： [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper)、 [**IRowsetPrioritization**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization)和 [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents)。 如需概念性資訊，請參閱以程式設計 [方式查詢索引](-search-3x-wds-qryidx-overview.md)。
+有幾種方法可以查詢索引。 有些是以 SQL 為基礎，其他則是以 AQS 為基礎。 您也可以使用查詢[介面](./-search-querying-interfaces-entry-page.md)，以程式設計方式查詢 Windows Search 索引。 查詢索引有三個特定的介面： [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper)、 [**IRowsetPrioritization**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization)和 [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents)。 如需概念性資訊，請參閱以程式設計 [方式查詢索引](-search-3x-wds-qryidx-overview.md)。
 
 您可以使用 [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) 介面來開發元件或 helper 類別，以查詢索引。 這個介面會實作為 helper 類別，以 [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) (和 [**ISearchCatalogManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager2)) ，而且是藉由呼叫 [**ISearchCatalogManager：： GetQueryHelper**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper)取得。 如需概念性資訊，請參閱 [使用 ISearchQueryHelper 查詢索引](-search-3x-wds-qryidx-searchqueryhelper.md)。
 
@@ -291,7 +291,7 @@ IRichChunk** ppValueTerm);
 -   將 AQS 使用者查詢轉換成 Windows Search SQL。
 -   指定可在 SQL 中表示但無法在 AQS 中表示的查詢限制。
 
-Windows 7 和更新版本支援索引優先順序和資料列集事件。 With [**IRowsetPrioritization**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization) 有一個優先順序堆疊，可讓用戶端要求特定查詢中所使用的範圍高於一般優先順序。 [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents) 會提供資料列集內專案變更的通知，包括新增專案、刪除專案，以及修改專案資料。 使用資料列集事件通知可確保常設查詢的結果盡可能保持最新狀態。 如需概念性資訊，請參閱 [在 Windows 7 中編制優先順序和資料列集事件的索引](indexing-prioritization-and-rowset-events.md)。
+Windows 7 和更新版本支援索引優先順序和資料列集事件。 With [**IRowsetPrioritization**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization) 有一個優先順序堆疊，可讓用戶端要求特定查詢中所使用的範圍高於一般優先順序。 [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents) 會提供資料列集內專案變更的通知，包括新增專案、刪除專案，以及修改專案資料。 使用資料列集事件通知可確保常設查詢的結果盡可能保持最新狀態。 如需概念性資訊，請參閱[Windows 7 中的索引優先順序和資料列集事件](indexing-prioritization-and-rowset-events.md)。
 
 ## <a name="related-topics"></a>相關主題
 

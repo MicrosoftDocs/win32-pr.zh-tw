@@ -4,12 +4,12 @@ ms.assetid: 05a06206-3cc4-428d-b9f2-b7945e63922c
 title: portTypeDeclarations 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e19780d4a48c95cd47872b0428b368e6b7e99887
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3059909f54dc153bb1861a757061f8a0afc3e5d0d7327da77ac33693415fabb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920458"
 ---
 # <a name="porttypedeclarations-element"></a>portTypeDeclarations 元素
 

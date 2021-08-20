@@ -4,12 +4,12 @@ description: 本節包含支援動畫計時器之 Windows 動畫管理員介面�
 ms.assetid: 2D9D33C6-33EF-4C15-B156-F7486EC546AC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 624500894e06f879da64f6f2664c3d1718a84633
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bd67a44d5daa7794d6f5be35f140a8233858f961e0fd2c3732fa41673286787d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117939731"
 ---
 # <a name="animation-timer-interfaces"></a>動畫計時器介面
 

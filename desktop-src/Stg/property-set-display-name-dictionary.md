@@ -4,12 +4,12 @@ description: 屬性顯示名稱的字典可讓屬性（property）使用者將�
 ms.assetid: b6813a86-39d3-4754-86e4-51035a7c91d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd844b4d37d4f10434fc5b73f936b4b6565c1506
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90e416b41844348b80ce6db561a5c63a7717b1e6a98da1f6edead0d48f66e780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960737"
 ---
 # <a name="property-set-display-name-dictionary"></a>屬性集顯示名稱字典
 
@@ -105,6 +105,6 @@ Offset     Bytes
 -   以二進位 Unicode 字元（以0x0001 到0x001F）開頭的屬性名稱會保留供日後使用。
 -   與屬性識別碼0相關聯的屬性名稱代表整個屬性集的名稱。
 
- 
+ 
 
- 
+ 

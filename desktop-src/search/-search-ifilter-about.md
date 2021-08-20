@@ -4,12 +4,12 @@ ms.assetid: 2ee9ea19-ae03-4f14-8f06-f8aa670e204e
 title: 瞭解 Windows Search 中的篩選處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e49cc1d3e479ae03645665618c60a33bdcfe19ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0a331770fba1ed0103a770209348b4dc33a1bf17b7c3e7cfa7c3e9eb78f4d36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680906"
 ---
 # <a name="understanding-filter-handlers-in-windows-search"></a>瞭解 Windows Search 中的篩選處理常式
 
@@ -31,9 +31,9 @@ ms.locfileid: "104511102"
 
 Microsoft Windows Search 會使用篩選器來解壓縮專案的內容，以包含在全文檢索索引中。 您可以藉由撰寫篩選器來解壓縮內容，並使用屬性處理常式來解壓縮檔案的屬性，藉此擴充 Windows Search 來編制新的或專屬檔案類型的索引。
 
-[**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的設計目的是為了符合全文搜尋引擎的特定需求。 像 Windows Search 的全文搜尋引擎會呼叫 **IFilter** 方法，以將文字和屬性資訊解壓縮，並將其新增至索引。 Windows Search 將傳回的 [**IFilter：： GetText**](/windows/win32/api/filter/nf-filter-ifilter-gettext) 方法的結果分成單字，將其正規化，並將它們儲存在索引中。 如果有的話，搜尋引擎會使用文字區塊 (LCID) 的語言代碼識別碼，來執行特定語言的斷詞和正規化。
+[**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的設計目的是為了符合全文搜尋引擎的特定需求。 像 Windows Search 的全文搜尋引擎會呼叫 **IFilter** 方法，以將文字和屬性資訊解壓縮，並將其新增至索引。 Windows搜尋會將傳回的 [**IFilter：： GetText**](/windows/win32/api/filter/nf-filter-ifilter-gettext)方法的結果分成單字，將它們正規化，並將它們儲存在索引中。 如果有的話，搜尋引擎會使用文字區塊 (LCID) 的語言代碼識別碼，來執行特定語言的斷詞和正規化。
 
-Windows Search 使用下表所述的三個函式，來存取已註冊的篩選處理常式 ([**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) 介面) 的實作為。 這些函數在載入和系結至内嵌物件的篩選處理常式時特別有用。
+Windows搜尋使用下表所述的三個函式，來存取已註冊的篩選處理常式 ([**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的執行) 。 這些函數在載入和系結至内嵌物件的篩選處理常式時特別有用。
 
 | 函式               | 描述                                                                                                                                                                                               |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Windows Search 使用下表所述的三個函式，來存取已註冊的篩選�
 
 ### <a name="isolation-process"></a>隔離流程
 
-Windows Search 在具有限制許可權的本機系統安全性內容中執行 Ifilter。 在此 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) 主機隔離流程中，會移除一些許可權：
+Windows搜尋回合 Ifilter 在具有限制許可權的本機系統安全性內容中執行。 在此 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) 主機隔離流程中，會移除一些許可權：
 
 - 限制的程式碼
 - 所有人
@@ -80,7 +80,7 @@ Windows Search 在具有限制許可權的本機系統安全性內容中執行 I
 
 ### <a name="native-code"></a>機器碼
 
-您必須以機器碼撰寫篩選器，因為可能的 common language runtime (CLR) 在中執行多個增益集的進程的版本控制問題。 在 Windows 7 （含）以後版本和更新版本中，會明確封鎖以 managed 程式碼撰寫的篩選。
+您必須以機器碼撰寫篩選器，因為可能的 common language runtime (CLR) 在中執行多個增益集的進程的版本控制問題。 在 Windows 7 和更新版本和更新版本中，會明確封鎖以 managed 程式碼撰寫的篩選。
 
 ## <a name="finding-the-ifilter-class-identifier"></a>尋找 IFilter 類別識別碼
 
@@ -142,7 +142,7 @@ Windows Search 在具有限制許可權的本機系統安全性內容中執行 I
 
 ### <a name="ifiltergetchunk-and-locale-code-identifiers"></a>IFilter：： GetChunk 和地區設定碼識別碼
 
-文字的 LCID 可以在單一檔案中變更。 例如，指令手動的文字可能會在英文 (en-us) 和西班牙文 (es) ，或文字可能包含非主要語言的單一單字。 無論是哪一種情況，您的 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) 都必須在每次 LCID 變更時開始新的區塊。 因為 LCID 是用來選擇適當的斷詞工具，所以請務必正確地加以識別。 如果 **IFilter** 無法判斷文字的地區設定，則它應該會傳回值為零的 LCID 和區塊。 傳回零的 LCID 會導致 Windows Search 使用語言自動偵測 (LAD) 技術來判斷區塊的地區設定識別碼。 如果 Windows Search 找不到相符項，則會藉由呼叫 [GetSystemDefaultLocaleName 函數](/windows/win32/api/winnls/nf-winnls-getsystemdefaultlocalename) 函數) ，預設為系統預設的地區設定 (。 如需詳細資訊，請參閱 [**IFilter：： GetChunk**](/windows/win32/api/filter/nf-filter-ifilter-getchunk)、 [**區塊 \_ BREAKTYPE**](/windows/win32/api/filter/ne-filter-chunk_breaktype)、 [**CHUNKSTATE**](/windows/win32/api/filter/ne-filter-chunkstate)和 [**STAT \_ 區塊**](/windows/win32/api/filter/ns-filter-stat_chunk)。
+文字的 LCID 可以在單一檔案中變更。 例如，指令手動的文字可能會在英文 (en-us) 和西班牙文 (es) ，或文字可能包含非主要語言的單一單字。 無論是哪一種情況，您的 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) 都必須在每次 LCID 變更時開始新的區塊。 因為 LCID 是用來選擇適當的斷詞工具，所以請務必正確地加以識別。 如果 **IFilter** 無法判斷文字的地區設定，則它應該會傳回值為零的 LCID 和區塊。 傳回零的 LCID 會導致 Windows Search 使用語言自動偵測 (LAD) 技術來判斷區塊的地區設定識別碼。 如果 Windows Search 找不到相符項，則會藉由呼叫[GetSystemDefaultLocaleName 函數](/windows/win32/api/winnls/nf-winnls-getsystemdefaultlocalename)函數) ，預設為系統預設的地區設定 (。 如需詳細資訊，請參閱 [**IFilter：： GetChunk**](/windows/win32/api/filter/nf-filter-ifilter-getchunk)、 [**區塊 \_ BREAKTYPE**](/windows/win32/api/filter/ne-filter-chunk_breaktype)、 [**CHUNKSTATE**](/windows/win32/api/filter/ne-filter-chunkstate)和 [**STAT \_ 區塊**](/windows/win32/api/filter/ns-filter-stat_chunk)。
 
 如果您控制檔案格式，但目前不包含地區設定資訊，您應該新增使用者功能，以啟用適當的地區設定識別。 使用不相符的斷詞工具可能會導致使用者的查詢體驗不佳。 如需詳細資訊，請參閱 [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker)。
 
@@ -151,7 +151,7 @@ Windows Search 在具有限制許可權的本機系統安全性內容中執行 I
 
 ## <a name="additional-resources"></a>其他資源
 
-- [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample7)上提供的 [IFilterSample](-search-sample-ifiltersample.md)程式碼範例會示範如何建立用來執行 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的 ifilter 基礎類別。
+- [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample7)上提供的 [IFilterSample](-search-sample-ifiltersample.md)程式碼範例，示範如何建立用來執行 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的 ifilter 基礎類別。
 - 如需索引編制程式的總覽，請參閱 [索引](-search-indexing-process-overview.md)程式。
 - 如需檔案類型的總覽，請參閱 [檔案類型](../shell/fa-file-types.md)。
 - 若要查詢檔案類型的檔案關聯屬性，請參閱 [PerceivedTypes、SystemFileAssociations 和應用程式註冊](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85))。

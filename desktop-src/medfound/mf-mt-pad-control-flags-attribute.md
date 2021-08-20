@@ -4,12 +4,12 @@ ms.assetid: d7fec5fb-a1fe-4cc9-aa27-a3af0456ea8d
 title: 'MF_MT_PAD_CONTROL_FLAGS 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02610b54b84c2470eba19eaa696f633243df347f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6648038b92da811095be66f24587276c4149ff18ba6b17664ce86edad098fb1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877022"
 ---
 # <a name="mf_mt_pad_control_flags-attribute"></a>MF \_ MT \_ 板 \_ 控制項 \_ 旗標屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "104193018"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

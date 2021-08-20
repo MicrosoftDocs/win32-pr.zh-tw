@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a2433c8490af06d23d8dccef676ec206fdbb88c0
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: c9e52b912560cea3b9eb04f9659a27accbbdcd11252b827da6f6dec7df7498c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117908674"
 ---
 # <a name="ps_2_0"></a>ps \_ 2 \_ 0
 

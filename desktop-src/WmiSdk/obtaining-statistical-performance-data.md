@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 65892608e642b675440d81127ef9afa0badd1d36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0aad05ad1d61ee43deb713670391d8892393cdbdac45b7b80775bed59875bb19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117923479"
 ---
 # <a name="obtaining-statistical-performance-data"></a>取得統計效能資料
 

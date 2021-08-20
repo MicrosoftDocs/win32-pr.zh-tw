@@ -4,12 +4,12 @@ ms.assetid: f8487ddb-0646-419d-921b-2333827a37fc
 title: DateSent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e7a8dafb6972e259ac642253ac1d7ece01cecc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42df5ba833f2c84de9611250b4a82e8781da7977a42a0de8563b276ecdb1aa91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052900"
 ---
 # <a name="systemmessagedatesent"></a>DateSent
 

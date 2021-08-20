@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de79033c2ab9bae73aae4213e72a54590170a184
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 25de5a5ae30946c93fc27cdded10117fc29fa2a8cf587315ccdc50b922f5f10e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117941095"
 ---
 # <a name="imsrdpclienttransportsettingsgatewayissupported-property"></a>IMsRdpClientTransportSettings：： GatewayIsSupported 屬性
 

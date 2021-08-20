@@ -4,16 +4,16 @@ ms.assetid: bf8b9c67-b023-40ed-97c6-9ca030de610a
 title: 裝置標記法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c95352c191d3e2d34392f4236b926b81cf65fd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a96b1144d1ae05ea08e036b4e6732c4e3ed46104628a67e7c83c8579919cecfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117652842"
 ---
 # <a name="device-representation"></a>裝置標記法
 
-裝置有兩個主要的行為，可由 Windows 可攜式裝置 (WPD) 架構來解決：
+裝置有兩個主要行為，Windows 可攜式裝置 (WPD) 架構：
 
 -   存取和儲存內容。 例如，應用程式必須能夠將音樂檔新增到便攜音樂播放機。
 -   裝置的程式設計。 這包括簡單的作業，例如變更設定和準備裝置以進行資料捕獲，或更複雜的作業，例如上傳固件。 範例包括將「拍攝」命令發出至數位的靜止相機。
@@ -32,7 +32,7 @@ ms.locfileid: "104468956"
 
 內容: 
 
--   媒體物件。 此裝置會將影像、音樂和影片檔案儲存在儲存物件上的資料夾中。 雖然圖中顯示的檔案是儲存在一個資料夾下，裝置也可以將內容細分為依儲存的媒體類型組織的資料夾;例如，[影像資料夾]、[音樂] 資料夾和 [影片] 資料夾。
+-   媒體物件。 此裝置會將影像、音樂和影片檔案儲存在儲存體物件上的資料夾中。 雖然圖中顯示的檔案是儲存在一個資料夾下，裝置也可以將內容細分為依儲存的媒體類型組織的資料夾;例如，[影像資料夾]、[音樂] 資料夾和 [影片] 資料夾。
 -   Contact 物件。 此裝置會將連絡人資訊儲存 (例如姓名、電話號碼和位址) 作為連絡人服務的子系
 -   Message 物件。 此裝置會將 SMS 訊息儲存為 SMS 服務的子系。
 

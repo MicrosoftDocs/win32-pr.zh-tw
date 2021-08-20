@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 238e4628740fa74e055312c82de2635316f5bde5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 508162153767fc421af7e9949a03d706a8e14a8973015874fd735de2da014940
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914274"
 ---
 # <a name="id3dx10skininforemapbones-method"></a>ID3DX10SkinInfo：： RemapBones 方法
 

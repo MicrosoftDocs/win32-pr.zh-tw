@@ -15,7 +15,7 @@ ms.locfileid: "117780057"
 
 EnrollCustomCMC 範例會建立 CMC 憑證要求，並在憑證階層中註冊電腦。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
 當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollCustomCMC 資料夾中安裝範例。
 

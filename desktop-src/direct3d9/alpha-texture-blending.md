@@ -4,12 +4,12 @@ ms.assetid: 1e7c31cb-dc63-4f4a-9ddc-d1d1d0b69085
 title: " (Direct3D 9) 的 Alpha 材質混合"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad394b70b96e17b2ce858f871fb869afde0d122
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 499e915fd786e4cee40ecf6dc9b8b1965e61e41d2f9ac2968cfe1057436d1257
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117911689"
 ---
 # <a name="alpha-texture-blending-direct3d-9"></a> (Direct3D 9) 的 Alpha 材質混合
 
