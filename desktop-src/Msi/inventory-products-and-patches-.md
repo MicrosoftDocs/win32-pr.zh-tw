@@ -4,12 +4,12 @@ ms.assetid: ef95c3c8-b4c8-4305-8aa2-07ec74b3121b
 title: 使用 Windows Installer 清查產品和修補程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7915a8a58954c2e07a3dae9536ed7bae399e416b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9406d0984e58efdb8344fbf8974234690e3a6aaeb1cc697b5a76e6af940554e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013226"
 ---
 # <a name="using-windows-installer-to-inventory-products-and-patches"></a>使用 Windows Installer 清查產品和修補程式
 
@@ -30,7 +30,7 @@ ms.locfileid: "104510983"
 
 ## <a name="enumerating-products"></a>列舉產品
 
-使用 [**MsiEnumProductsEx**](/windows/desktop/api/Msi/nf-msi-msienumproductsexa) 函式來列舉系統中安裝的 Windows Installer 應用程式。 此函式可尋找應用程式的所有個別電腦安裝和個別使用者安裝 (受控和非受控) ，以供目前使用者和系統中的其他使用者使用。 使用 *dwCoNtext* 參數來指定要尋找的安裝內容。 您可以指定任何一個或任何可能的安裝內容組合。 使用 *szUserSid* 參數來指定要尋找之應用程式的使用者內容。
+使用 [**MsiEnumProductsEx**](/windows/desktop/api/Msi/nf-msi-msienumproductsexa)函式來列舉系統中安裝的 Windows Installer 應用程式。 此函式可尋找應用程式的所有個別電腦安裝和個別使用者安裝 (受控和非受控) ，以供目前使用者和系統中的其他使用者使用。 使用 *dwCoNtext* 參數來指定要尋找的安裝內容。 您可以指定任何一個或任何可能的安裝內容組合。 使用 *szUserSid* 參數來指定要尋找之應用程式的使用者內容。
 
 ## <a name="enumerating-patches"></a>列舉修補程式
 

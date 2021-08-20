@@ -3,15 +3,15 @@ title: Windows Server 2003 SP1 中的錯誤記錄
 description: Windows Server 2003 SP1 中的錯誤記錄
 ms.assetid: 8c7fcc66-5446-4e25-8e6d-1a9260c55e36
 keywords:
-- Windows Server 2003 Service Pack 1 (SP1) 中的錯誤記錄
+- 在 Windows Server 2003 Service Pack 1 (SP1) 中記錄錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b82c816dab39877f700973de3c0c7798034d124
-ms.sourcegitcommit: 7bdca1558c21be976be950a213c5a072c449f111
+ms.openlocfilehash: a71d5a84dfba8ecb9a78ed38d3ad112f0820e6b578bce77e189e5047a25f458b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "103679092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014806"
 ---
 # <a name="error-logging-in-windows-server-2003-sp1"></a>Windows Server 2003 SP1 中的錯誤記錄
 
@@ -50,11 +50,11 @@ HTTP 錯誤記錄檔已擴充為包含九個以上的欄位，可記錄有關發
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-      Services
-         HTTP
-            Parameters
+   System
+      CurrentControlSet
+      Services
+         HTTP
+            Parameters
 ```
 
 **ErrorLoggingFields** 登錄值是 DWORD 值，其中包含每個可記錄欄位的位值。 若要啟用特定欄位的記錄功能，請將其對應的位值設定為1，然後重新開機 HTTP 服務。 若要停用記錄，請將位值設定為0。 若要設定多個欄位，請使用個別值的位 OR。 例如，若要開啟 Cookie 和查閱者記錄欄位，此值應為 0x00020000 \| 0x00040000 = 0x00060000。 如果 **ErrorLoggingFields** 登錄機碼不存在，則會記錄預設欄位。 要記錄預設欄位的 **ErrorLoggingFields** 值是0x7c884c7。 若要針對下表所顯示的所有欄位啟用記錄，請將值設定為0x7dff4e7。
@@ -66,7 +66,7 @@ HKEY_LOCAL_MACHINE
 | 記錄欄位            | 預設記錄 | 位元值  |
 |----------------------|-------------------|------------|
 | Date                 | 是               | 0x00000001 |
-| Time                 | Yes               | 0x00000002 |
+| 時間                 | Yes               | 0x00000002 |
 | 伺服器電腦名稱稱 | No                | 0x00000020 |
 | 用戶端 IP 位址    | Yes               | 0x00000004 |
 | 用戶端埠          | Yes               | 0x00400000 |
@@ -78,7 +78,7 @@ HKEY_LOCAL_MACHINE
 | 使用者代理程式           | No                | 0x00010000 |
 | Cookie               | No                | 0x00020000 |
 | 引薦             | No                | 0x00040000 |
-| 主機                 | No                | 0x00100000 |
+| Host                 | No                | 0x00100000 |
 | 通訊協定狀態      | Yes               | 0x00000400 |
 | SC-Bytes             | No                | 0x00001000 |
 | CS-Bytes             | No                | 0x00002000 |
@@ -90,7 +90,7 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
 ## <a name="time-and-date-rollover"></a>日期和時間變換
 
@@ -98,11 +98,11 @@ HKEY_LOCAL_MACHINE
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            HTTP
-               Parameters
+   System
+      CurrentControlSet
+         Services
+            HTTP
+               Parameters
 ```
 
 **ErrorLoggingRolloverType** 登錄機碼會指出所需的變換類型，而且預設會設定為以大小為基礎的變換。 變換也可以設定為每日、每週、每月或每小時進行。 當檔案變換以時間為基礎時， **ErrorLoggingLocaltimeRollover** 值為0表示變換時間以 GMT 表示，而值為1則表示變換時間以當地時程表示。 **ErrorLoggingRolloverType** 索引鍵可採用從0到4的值，如下表所示。
@@ -119,13 +119,13 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
 儲存錯誤記錄檔之檔案的命名慣例，與大小、日期和以時間為基礎的變換不同。 下表列出 Http 記錄檔的命名慣例。
 
 
 
-| Tollover 類型 | 記錄檔名稱  | Description                                                                                                                         |
+| Tollover 類型 | 記錄檔名稱  | 描述                                                                                                                         |
 |---------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | 大小          | HTTPERRn .LOG   | 當記錄檔到達特定大小時，就會回收記錄檔。 n 是檔案編號，而且會在記錄檔變換時遞增。 |
 | 每日         | htYYMMDD .log   | 記錄檔每天都會回收。                                                                                                     |
@@ -135,11 +135,11 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

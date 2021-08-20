@@ -18,12 +18,12 @@ keywords:
 - 記憶體 i/o
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dd646cb3195189765d1a5b020632cd26940f817
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30437732af68bb91942a92e8b98d126687e0ce9762b913a172afb9463cb3a488
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136717"
 ---
 # <a name="multimedia-file-io"></a>多媒體檔案 i/o
 
@@ -33,9 +33,9 @@ ms.locfileid: "103840396"
 -   [使用多媒體檔案 i/o](using-multimedia-file-i-o.md)
 -   [多媒體檔案 i/o 參考](multimedia-file-i-o-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

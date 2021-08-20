@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 9f315629c810027e18dac3a337c126f4a4a4bcce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4a77c0e5687319bbea438127ce9c30b27ff3122f42359237df5d4cd158b1393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004346"
 ---
 # <a name="protectkeywithtpmandpinandstartupkey-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 ProtectKeyWithTPMAndPINAndStartupKey 方法 \_
 
@@ -145,7 +145,7 @@ uint32 ProtectKeyWithTPMAndPINAndStartupKey(
 
 
 
-| 傳回碼/值                                                                                                                                                                                | Description                                                                                                                                                                                                                                                                       |
+| 傳回碼/值                                                                                                                                                                                | 描述                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl>                                                | 此方法成功。<br/>                                                                                                                                                                                                                                             |
 | <dl> <dt>**E \_INVALIDARG**</dt> <dt>2147942487 (0x80070057)</dt> </dl>                        | 已提供 *PlatformValidationProfile* 參數，但其值不在已知範圍內，或者不符合目前作用中的群組原則設定。<br/> 提供 *ExternalKey* 參數，但它不是大小為32的陣列。<br/> |
@@ -177,8 +177,8 @@ uint32 ProtectKeyWithTPMAndPINAndStartupKey(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Enterprise 含 SP1、Windows Vista 旗艦版（含 SP1） \[ 桌面應用程式\]<br/>     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise sp1，僅 Windows vista 旗艦版（含 sp1） \[ 桌面應用程式\]<br/>     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

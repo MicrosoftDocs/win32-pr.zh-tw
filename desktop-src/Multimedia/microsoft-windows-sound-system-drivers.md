@@ -3,7 +3,7 @@ title: Microsoft Windows 音效系統驅動程式
 description: Microsoft Windows 音效系統驅動程式
 ms.assetid: 226ed685-70a0-440f-8e55-c25807cd89c1
 keywords:
-- Windows 多媒體，音效系統驅動程式
+- Windows 多媒體、音效系統驅動程式
 - 多媒體、音效系統驅動程式
 - 音效系統驅動程式
 - 多媒體音效系統驅動程式
@@ -11,12 +11,12 @@ keywords:
 - WSS NT 驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 153cb8fa8159ec34e52c9d246bfd0b6f34329a40
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 02320fd17a5c3edf20f043fab015169ff0c9bb62b4abffd71e0e66f197f8941e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137520"
 ---
 # <a name="microsoft-windows-sound-system-drivers"></a>Microsoft Windows 音效系統驅動程式
 
@@ -42,12 +42,12 @@ ms.locfileid: "103839999"
 | 聲霸16波形輸出  | MM \_ WSS \_ SB16 \_ WAVEOUT             |
 | 聲霸 Pro aux (CD)         | MM \_ WSS \_ SBPRO \_ AUX \_ CD            |
 | 聲霸 Pro aux (CD)         | MM \_ MSFT \_ SBPRO \_ AUX \_ CD           |
-| ) 中的聲霸 Pro aux (線   | MM \_ WSS \_ SBPRO \_ 輔助 \_ 線          |
-| ) 中的聲霸 Pro aux (線   | MM \_ MSFT \_ SBPRO \_ AUX \_ 線         |
+| ) 中的聲音 Blaster Pro aux (線   | MM \_ WSS \_ SBPRO \_ 輔助 \_ 線          |
+| ) 中的聲音 Blaster Pro aux (線   | MM \_ MSFT \_ SBPRO \_ AUX \_ 線         |
 | 聲霸 Pro FM 合成器  | MM \_ WSS \_ SBPRO \_ 合成              |
 | 聲霸 Pro FM 合成器  | MM \_ MSFT \_ SBPRO \_ 合成             |
-| 聲 Blaster Pro MIDI in         | MM \_ WSS \_ SBPRO \_ MIDIIN             |
-| 聲 Blaster Pro MIDI in         | MM \_ MSFT \_ SBPRO \_ MIDIIN            |
+| 聲 Blaster Pro MIDI         | MM \_ WSS \_ SBPRO \_ MIDIIN             |
+| 聲 Blaster Pro MIDI         | MM \_ MSFT \_ SBPRO \_ MIDIIN            |
 | 聲 Blaster Pro MIDI        | MM \_ WSS \_ SBPRO \_ MIDIOUT            |
 | 聲 Blaster Pro MIDI        | MM \_ MSFT \_ SBPRO \_ MIDIOUT           |
 | 聲 Blaster Pro 混音器           | MM \_ WSS \_ SBPRO \_ 混音器              |
@@ -64,11 +64,11 @@ ms.locfileid: "103839999"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

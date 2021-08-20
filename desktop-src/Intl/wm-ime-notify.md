@@ -4,12 +4,12 @@ ms.assetid: 20e064b8-2baf-4b4c-8341-36c3e4643eff
 title: 'WM_IME_NOTIFY 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca5ab1b2a1fd62d159ab4f216bf9b1bb6892ed69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a072ff41b5731662afa94e387ec48de7d14bc245906e581303fe976dcf455708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014216"
 ---
 # <a name="wm_ime_notify-message"></a>WM_IME_NOTIFY 訊息
 
@@ -84,7 +84,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                                                                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                                                                                                      |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) ;</dt><dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) ;</dt><dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

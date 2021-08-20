@@ -4,12 +4,12 @@ ms.assetid: 07dd8447-08dc-4ae3-9a22-70e914c392db
 title: Microsoft 電話語音程式設計模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0efb8947f3b428ab4a252301e3fdd5f94e29f6ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33407069c8ff489006c3cb85e03b676126eca1abedf484d9d1bb5b1305677a15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518640"
 ---
 # <a name="microsoft-telephony-programming-model"></a>Microsoft 電話語音程式設計模型
 

@@ -4,12 +4,12 @@ ms.assetid: 5dc9cdbe-9ecc-489c-a5e9-335f282ff269
 title: Winsock 傳輸服務提供者需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0de66dccc97b7e6830255746eaac062249988acd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4795118d19537bfea7c7087ab5bb9c13b37ee3ea4d42aefcf85f0ac60a119a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051316"
 ---
 # <a name="winsock-transport-service-provider-requirements"></a>Winsock 傳輸服務提供者需求
 

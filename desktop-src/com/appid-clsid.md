@@ -6,12 +6,12 @@ keywords:
 - AppID 登錄機碼 (CLSID) COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d605587d125a5555b553457056db00a6f4dcad07
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0d4737e3ca79d0e3bee805a92741fa4a19e409f761b328478340e30c07c872a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106968317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048876"
 ---
 # <a name="appid-clsid-key"></a>AppID (CLSID 金鑰) 
 

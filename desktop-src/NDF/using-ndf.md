@@ -4,12 +4,12 @@ description: 網路診斷架構 (NDF) 隨附于 Windows Vista、Windows Server 2
 ms.assetid: 1eccd402-5b5a-46a0-91df-98b5c70a5967
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 380bf4c9770ca2791a825a06ba08f409b6f3eb15
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7a5c020be46aac69190c3af2fbe4ce329e67b8ef80a9bc9de212ead111f720a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780588"
 ---
 # <a name="using-ndf"></a>使用 NDF
 
@@ -30,11 +30,11 @@ ms.locfileid: "104462457"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cc08b26ebff33a68654ed33a2cb0539af1fa2a91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 189c758c06d77925a27bb8164b0ff072ceb3c7b562c98e7b98c3f09c20f171f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890962"
 ---
 # <a name="jetupdate2-function"></a>JetUpdate2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetupdate2-function"></a>JetUpdate2 函式
 
 **JetUpdate2** 函式會執行更新作業，包括將新的資料列插入資料表或更新現有的資料列。 此函式包含在執行更新時可設定的 *grbit* 選項清單。 藉由呼叫 [JetDelete](./jetdelete-function.md)來執行刪除資料表資料列。
 
-**Windows server 2003： JetUpdate2** 是在 windows server 2003 中引進。
+**Windows server 2003： JetUpdate2** 是 Windows Server 2003 引進。
 
 **JetUpdate2** 是執行插入或更新的最後一個步驟。 此更新的開始方式是呼叫 [JetPrepareUpdate](./jetprepareupdate-function.md) ，然後呼叫 [JetSetColumn](./jetsetcolumn-function.md) 或 [JetSetColumns](./jetsetcolumns-function.md) 一或多次來設定記錄狀態。 最後，會呼叫 **JetUpdate2** 來完成更新作業。 只有 [JetUpdate](./jetupdate-function.md) 或 **JetUpdate2** 才會更新索引，而不是在 [JetSetColumn](./jetsetcolumn-function.md) 或 [JetSetColumns](./jetsetcolumns-function.md)期間更新。
 
@@ -89,7 +89,7 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>JET_bitUpdateCheckESE97Compatibility</p></td>
-<td><p>如果在 Windows 2000 版的 ESE 中不可能進行更新，此旗標會導致更新傳回錯誤，這會在每一筆記錄中強制執行較小數目的多重值資料行實例，而不是較新的 ESE 版本。 這僅適用于想要在 Windows 2000 上裝載的應用程式與 Windows Server 2003 或更新版本的 ESE 上裝載的應用程式之間複寫資料的應用程式。 大部分的應用程式都不需要這麼做。</p></td>
+<td><p>如果在 Windows 2000 版的 ese 中不可能進行更新，此旗標會導致更新傳回錯誤，這會在每一筆記錄中強制執行較小數目的多重值資料行實例，而不是較新的 ese 版本。 這僅適用于想要在裝載于 Windows 2000 的應用程式之間複寫資料的應用程式，以及在 Windows Server 2003 或更新版本的 ESE 上裝載的應用程式之間複寫資料的應用程式。 大部分的應用程式都不需要這麼做。</p></td>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -107,7 +107,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -130,7 +130,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p><strong>WINDOWS XP：</strong>  只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
+<p><strong>Windows XP：</strong> 只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidParameter</p></td>
@@ -171,7 +171,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p><strong>WINDOWS XP：</strong>  只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
+<p><strong>Windows XP：</strong> 只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -213,7 +213,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

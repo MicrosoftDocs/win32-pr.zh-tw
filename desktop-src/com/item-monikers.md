@@ -4,12 +4,12 @@ description: 另一個已執行 OLE 的標記類別是專案標記，可用來�
 ms.assetid: ddcf3669-4ad0-4a4e-80a6-eb78058cff09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57b692502ba44519a2c51a661ef62a51e133ac04
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bd76e735e9d97de32b59acad3dc659cc6f5b2bd4d20c2278eeca3dddbffb334f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117918676"
 ---
 # <a name="item-monikers"></a>專案的名字
 
@@ -44,9 +44,9 @@ ms.locfileid: "106967395"
 [指標標記](pointer-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5c05a567-cc65-411e-b049-919a442c5c57
 title: 'LINEPROXYREQUEST_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eba34a3a7f7b1f41f0c32783c4132afcfafef1aa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b869027bd801079774f2caf35de47bcf6d883dd568b30f66bd4bda37fae43c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003036"
 ---
 # <a name="lineproxyrequest_-constants"></a>LINEPROXYREQUEST \_ 常數
 

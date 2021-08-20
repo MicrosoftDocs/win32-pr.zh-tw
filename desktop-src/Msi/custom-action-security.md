@@ -4,12 +4,12 @@ ms.assetid: 62a3d103-a786-4727-b757-3a8229c8a53f
 title: 自訂動作安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e7d36e0e5c6cecc61730144fb7efdeed63ba0fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0a8011640bea177ec253f555b6ff83302541b640a050ccf861eb345c58ca13f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143308"
 ---
 # <a name="custom-action-security"></a>自訂動作安全性
 
@@ -51,7 +51,7 @@ UINT __stdcall MyImmediateCA(MSIHANDLE hInstall)
 
 如果已設定 **msidbCustomActionTypeNoImpersonate** 位，且使用系統管理員許可權來安裝受控應用程式，安裝程式可能會以較高的許可權執行自訂動作。 不過，如果使用者嘗試在沒有系統管理員許可權的情況下安裝受管理的應用程式，則安裝程式會使用使用者層級許可權來執行應用程式，而不論是否已設定 **msidbCustomActionTypeNoImpersonate** 。
 
-請注意，即使未設定 **msidbCustomActionTypeNoImpersonate** 位，自訂動作也可能會以系統許可權執行。 如果系統管理員為執行終端機伺服器角色2000服務的伺服器上的所有使用者安裝應用程式，且該動作未標記為 **msidbCustomActionTypeTSAware**，就會發生這種情況。 如果在沒有使用者內容的情況中叫用安裝，自訂動作也可以使用系統許可權來執行。 例如，在 Windows 2000 應用程式部署所叫用的安裝期間，如果目前沒有登入的使用者。
+請注意，即使未設定 **msidbCustomActionTypeNoImpersonate** 位，自訂動作也可能會以系統許可權執行。 如果系統管理員使用 Windows 2000 來為執行終端機伺服器角色服務的伺服器上的所有使用者安裝應用程式，且該動作未標記為 **msidbCustomActionTypeTSAware**，就會發生這種情況。 如果在沒有使用者內容的情況中叫用安裝，自訂動作也可以使用系統許可權來執行。 例如，如果在 Windows 2000 應用程式部署所叫用的安裝期間，目前沒有登入的使用者。
 
 建立您自己的自訂動作時，您應該一律使用安全的方法來撰寫自訂動作。 如需詳細資訊，請參閱 [保護自訂動作的指導方針](guidelines-for-securing-custom-actions.md)。
 

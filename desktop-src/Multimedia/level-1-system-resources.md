@@ -10,12 +10,12 @@ keywords:
 - MPC 層級1，最小設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b6daa3b6849d53d6a0d68cdf448df170422e25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c098850061bda909d63ae996d522b6caa9ff102a5b01def172fe35ef437c5bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139856"
 ---
 # <a name="level-1-system-resources"></a>層級1系統資源
 
@@ -27,9 +27,9 @@ ms.locfileid: "104462168"
 -   顯示器解析度為 480 640、16圖元、16色的色彩監視器
 -   提供與 Microsoft Windows 作業系統3.0 版的二進位相容性的系統軟體
 
- 
+ 
 
- 
+ 
 
 
 

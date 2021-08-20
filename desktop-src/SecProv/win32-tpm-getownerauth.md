@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: a441b07af31758212152b657ccb033d8abdeebbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c68624def56ff00dbc714f070d5f3532a257f2de0ef818221552e716c7ff571
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004096"
 ---
 # <a name="win32_tpmgetownerauth-method"></a>Win32 \_ Tpm：： GetOwnerAuth 方法
 
-取得 TPM 的擁有者授權資訊（如果登錄中有提供的話）。 如果使用預設設定在 Windows 8 中擁有或布建 TPM，TPM 擁有者授權資訊會儲存在登錄中，而且可供此方法使用。
+取得 TPM 的擁有者授權資訊（如果登錄中有提供的話）。 如果使用預設設定在 Windows 8 中擁有或布建 tpm，tpm 擁有者授權資訊會儲存在登錄中，而且可供此方法使用。
 
 只有本機系統管理員才能存取此方法。
 
@@ -56,7 +56,7 @@ TPM 的擁有者授權資訊（如果登錄中有提供的話）。
 
 
 
-| 傳回碼/值                                                                                                                                 | Description                           |
+| 傳回碼/值                                                                                                                                 | 描述                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl> | 此方法成功。<br/> |
 
@@ -74,8 +74,8 @@ TPM 的擁有者授權資訊（如果登錄中有提供的話）。
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                      |
 | 命名空間<br/>                | \\\\.\\根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                     |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

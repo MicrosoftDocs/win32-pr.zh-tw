@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec73b5cb9833c15a77c96a784e1ded88d266f9a6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 614abaf4c124aa0a6e1ca5f7da347ab4a9a2264e174c91734e6a75b188500a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014056"
 ---
 # <a name="use_epv-switch"></a>/use \_ epv 參數
 
@@ -55,6 +55,6 @@ midl /use_epv
 [**RpcServerRegisterIf**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

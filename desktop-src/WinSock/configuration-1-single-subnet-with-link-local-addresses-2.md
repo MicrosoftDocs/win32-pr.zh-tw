@@ -4,12 +4,12 @@ ms.assetid: ceed4983-e088-44e8-9cfc-26afb3c35ba0
 title: 設定1：具有連結-本機位址的單一子網
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d09feb44c222b7213da18a6745fc632f3903209
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a541edd96175dc61ec0aba3b1358c2bbd9464668e6aa1a11aeb6f2097e5b13bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051729"
 ---
 # <a name="configuration-1-single-subnet-with-link-local-addresses"></a>設定1：具有連結-本機位址的單一子網
 
@@ -92,7 +92,7 @@ Interface 1 (site 0): Loopback Pseudo-Interface
 
 **使用 IPv6 在兩個連結本機主機之間進行 ping**
 
-1.  在兩部 Windows 主機上安裝適用于 Windows 的 Microsoft IPv6 技術預覽 (主機 A 和主機 B) 位於相同連結 (子網) 。
+1.  在兩個 Windows 主機上安裝適用于 Windows 的 Microsoft IPv6 技術預覽 (主機 A 和主機 B) 位於相同連結 (子網) 。
 2.  在主機 A 上使用 ipv6，以取得乙太網路介面的連結-本機位址。
 
     範例：主機 A 的連結-本機位址是 fe80：：210：5aff： feaa：20a2。

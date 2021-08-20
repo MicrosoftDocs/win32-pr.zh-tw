@@ -4,12 +4,12 @@ ms.assetid: 176a658c-b1fd-40c5-a2ac-c9a2b7060c55
 title: 註冊附件嵌入式管理單元延伸模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7726131325433aa920ff22c9b71a4f7184000a69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7af8b586f0071a5718b420612fd552d578bf30bb083cca45a43f38198e1aee7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005016"
 ---
 # <a name="registering-an-attachment-snap-in-extension"></a>註冊附件嵌入式管理單元延伸模組
 

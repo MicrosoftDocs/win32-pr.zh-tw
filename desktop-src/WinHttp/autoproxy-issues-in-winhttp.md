@@ -4,12 +4,12 @@ ms.assetid: 9bae89b7-8f54-42ec-a240-998c97e26d25
 title: WinHTTP 中的自動代理問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22c6edbf56ec1ffc4dfac930a5d4858429cc6447
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc07ca7320fee028431ff0d89be78ee0b2dc4bb63e8191386808f0936c8a1518
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052086"
 ---
 # <a name="autoproxy-issues-in-winhttp"></a>WinHTTP 中的自動代理問題
 
@@ -24,11 +24,11 @@ WinHTTP 目前不支援指定一個以上 proxy 伺服器的 proxy 設定。 如
 處理 proxy 自動設定檔案需要執行下載的腳本程式碼。 需要考慮的一些安全性考慮：如果 PAC 檔案所在的伺服器已遭到入侵，則 PAC 腳本程式碼可能是惡意的。 因此，WinHTTP 會使用下列預防措施來保護用戶端：
 
 1.  腳本無法將任何 ActiveX 物件具現化。 這會封鎖許多可能危險的功能，例如存取檔案和執行網路 i/o 的能力。
-2.  * * Windows Server 2003： * *[**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) 會將整個 WPAD 處理委派給外部的跨進程服務，也就是在低許可權本機服務內建的使用者帳戶下執行的 WinHTTP Web Proxy 自動探索服務。
+2.  * * Windows Server 2003： * *[**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl)會將整個 WPAD 處理委派給外部跨進程服務，這是在低許可權本機服務內建使用者帳戶下執行的 WinHTTP Web Proxy 自動探索服務。
 
-3.  **WINDOWS XP SP2 和 Windows Server 2003：** PAC 腳本的執行時間不能超過60秒，在這段時間之後，就會終止腳本執行。
+3.  **Windows XP SP2 和 Windows Server 2003：** PAC 腳本的執行時間不能超過60秒，在這段時間之後，就會終止腳本執行。
 
-4.  **WINDOWS XP SP2 和 Windows Server 2003：** WinHTTP 會拒絕大於1MB 的 PAC 檔案。 一般 PAC 檔案的大小通常不超過數 kb。
+4.  **Windows XP SP2 和 Windows Server 2003：** WinHTTP 會拒絕大於1MB 的 PAC 檔案。 一般 PAC 檔案的大小通常不超過數 kb。
 
 請注意，處理 PAC 腳本的程式碼需要使用 COM，因為 WinHTTP 會使用 Microsoft JScript 元件來執行腳本。 如果 WinHTTP 無法將 WPAD 通訊協定處理委派給外部、跨進程的 Web Proxy 自動探索服務， [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) 會在呼叫期間載入應用程式進程內的 COM 執行時間。 如果應用程式本身已經在使用 COM，這就不是問題所在。
 

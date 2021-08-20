@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2b584f6472d8fbe3eb738d87652b796d9bb617f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa6f3782407f57f999117b83918460adae307c962336386301592d3408e6490d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014646"
 ---
 # <a name="cim_forwardsamong-class"></a>CIM \_ ForwardsAmong 類別
 

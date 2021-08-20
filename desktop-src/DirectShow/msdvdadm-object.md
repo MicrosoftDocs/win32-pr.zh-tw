@@ -4,26 +4,26 @@ ms.assetid: 753d2820-4d47-4e07-9f54-9b996e55f0b6
 title: MSDVDAdm 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 193d5e46837c576c61b8bf1704ec967c1b6fc246
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fa4001def80bff94920996dc627869ffecfd6dda3fbc679be79f2b321ac33a1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072972"
 ---
 # <a name="msdvdadm-object"></a>MSDVDAdm 物件
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 
 > [!Note]  
-> 此 API 即將淘汰。 如需有關在 DirectShow 播放和流覽 DVD 的詳細資訊，請參閱 [Dvd 應用程式](dvd-applications.md)。
+> 此 API 即將淘汰。 如需 DirectShow dvd 播放和流覽的相關資訊，請參閱[dvd 應用程式](dvd-applications.md)。
 
  
 
-`MSDVDAdm`"Administration" 物件的方法和屬性可讓腳本應用程式在 Microsoft® Windows® registry 中修改其預設設定。 登錄是所有 Windows 系統上的資料庫，應用程式可以在這些系統上儲存本身的相關資訊，以便在初始化時或在執行時間時使用。
+`MSDVDAdm`"administration" 物件的方法和屬性可讓腳本應用程式在 Microsoft® Windows® registry 中修改其預設設定。 登錄是所有 Windows 系統上的資料庫，應用程式可以在其上儲存本身的相關資訊，以便在初始化時或在執行時間時使用。
 
 大部分的方法和屬性都不會設定或抓取 [MSWebDVD](mswebdvd-object.md) 物件本身中的目前值。 例如，這表示當您呼叫 **GetParentalLevel** 時，傳回的值不是目前儲存在物件中的父層級。 相反地，它是儲存在登錄中的預設家長儲存層級。 若要取得目前的父層級，請呼叫 **MSWebDVD** 方法 [**GetPlayerParentalLevel**](getplayerparentallevel-method.md)。 呼叫 [**SaveParentalLevel**](saveparentallevel-method.md) 只會將新的預設家長存取層級寫入登錄;您仍然需要呼叫 **MSWebDVD** 方法 [**SelectParentalLevel**](selectparentallevel-method.md) ，讓變更立即生效于 **MSWebDVD** 物件中。 預設的地區設定識別碼 (LCID) 方法的運作方式類似。
 

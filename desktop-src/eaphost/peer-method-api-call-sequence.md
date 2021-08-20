@@ -4,12 +4,12 @@ description: 深入瞭解對等方法 API 呼叫順序。 請參閱清單，以�
 ms.assetid: aac69e89-249d-4bc8-baef-1f0681f9f7ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac9be0f6de228fd5b1ebf2d2c28320baf76e914
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 647a6a558d282ff4ae3691c23600b696b79764ee68a1007ccabb445c5a1fe65d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042786"
 ---
 # <a name="peer-method-api-call-sequence"></a>對等方法 API 呼叫順序
 
@@ -38,15 +38,15 @@ ms.locfileid: "104093312"
 [要求者 API 呼叫順序](supplicant-api-call-sequence.md)
 </dt> <dt>
 
-[驗證者方法 API 呼叫順序](authenticator-method-api-call-sequence.md)
+[Authenticator方法 API 呼叫順序](authenticator-method-api-call-sequence.md)
 </dt> <dt>
 
 [EAPHost 呼叫順序](about-eaphost-call-sequences.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
