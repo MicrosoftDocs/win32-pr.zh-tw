@@ -4,12 +4,12 @@ ms.assetid: dc98b23e-ce42-4d4a-a285-c0b7b5e2a478
 title: AccessCheck 的運作方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 730cc8f63e7d69bf4cb38344f5eda60861d08a9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04c593c0c50fa1e78639d18bc5c2f372e9c0edd0690e9b338a5126794da54509
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104566335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671968"
 ---
 # <a name="how-accesscheck-works"></a>AccessCheck 的運作方式
 

@@ -4,12 +4,12 @@ description: Microsoft Windows 8 開發人員授權隱私權聲明
 ms.assetid: 6864BFBF-755B-4FE3-8684-93D85984FF1E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc532d560c3f173571bef033050193715e9b024
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5c792e2f6aa7be33f5e57cdcaee4b01b7e05ce7240172a9afbc65e81bcaebdf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990318"
 ---
 # <a name="microsoft-windows-8-developer-license-privacy-statement"></a>Microsoft Windows 8 開發人員授權隱私權聲明
 
@@ -17,13 +17,13 @@ ms.locfileid: "108103616"
 
 Microsoft 致力於保護您的隱私權。 本隱私權聲明說明 Microsoft 與發行 Windows 8 開發人員授權 ( 「開發人員授權」 ) 的許多資料收集和使用實務。 本聲明不適用於其他線上或離線的 Microsoft 網站、產品或服務。
 
-開發人員授權服務會為您的電腦發出開發人員授權，可讓您安裝和執行 Windows Store 尚未發佈的應用程式。
+開發人員授權服務會為您的電腦發出開發人員授權，可讓您安裝和執行 Windows 存放區尚未發佈的應用程式。
 
 ### <a name="collection-and-use-of-your-information"></a>資訊的收集與使用
 
 若要取得開發人員授權，您必須使用 Microsoft 帳戶登入開發人員授權 web 服務。 這可讓服務存取您 Microsoft 帳戶設定檔中的連絡人資訊，例如您的名稱和電子郵件地址。 您也可以使用您的 Microsoft 帳戶登入許多不同的 Microsoft 網站和服務，以及精選 Microsoft 合作夥伴的服務。 只要登入一個 Microsoft 網站或服務，當您造訪其他 Microsoft 網站與服務時即會自動登入。 若要深入瞭解當您登入參與的網站時，如何使用您的認證資訊，請閱讀隱私權聲明 <https://go.microsoft.com/fwlink/p/?linkid=260845> 。
 
-當您要求開發人員授權時，Microsoft 會收集您電腦的相關資訊，以及安裝在其上的應用程式。 此資訊包含您電腦的名稱、製造商和型號;您的 IP 位址;根據您電腦的硬體設定所產生的唯一識別碼;以及您所使用的 Windows 版本。 如果您的電腦上已安裝開發人員授權 (例如，如果您要更新已過期) 的開發人員授權，Windows 也會針對您電腦上使用該開發人員授權安裝的任何應用程式，傳送應用程式名稱和發行者的相關資訊。
+當您要求開發人員授權時，Microsoft 會收集您電腦的相關資訊，以及安裝在其上的應用程式。 此資訊包含您電腦的名稱、製造商和型號;您的 IP 位址;根據您電腦的硬體設定所產生的唯一識別碼;以及您所使用的 Windows 版本。 如果您的電腦上已安裝開發人員授權 (例如，如果您要更新的開發人員授權已過期) ，則 Windows 也會針對您電腦上使用該開發人員授權所安裝的任何應用程式，傳送應用程式名稱和發行者的相關資訊。
 
 我們向您收集的個人資訊只會提供 Microsoft 與其控管的分公司及關係企業使用，目的在於啟用您使用的功能並提供服務，或執行您要求或授權的交易。 Microsoft 會儲存開發人員授權期間所收集的資訊以供稍後分析。 我們可能會使用此資訊來協助您瞭解使用模式和趨勢，以及偵測和封鎖潛在的濫用，例如應用程式盜版。 這些資訊也可用於分析及改善 Microsoft 的產品與服務。
 

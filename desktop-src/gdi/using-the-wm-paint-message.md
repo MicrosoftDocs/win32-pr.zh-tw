@@ -4,12 +4,12 @@ ms.assetid: cc56745f-95d0-4607-a206-1e7ed7109bf0
 title: 使用 WM_PAINT 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba77246e04effc74de8158aef9bfc4aaf27471c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1969d5aae7e64ad74d8070c7515daa6e9e782135ce0af54b49c7faab07f5d34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037446"
 ---
 # <a name="using-the-wm_paint-message"></a>使用 WM \_ 油漆訊息
 

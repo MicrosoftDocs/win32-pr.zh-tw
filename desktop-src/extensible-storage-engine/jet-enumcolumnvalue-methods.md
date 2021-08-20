@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103624
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 920de6d261d8c2d6ca04bfacfe827cf87e062ace
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eda515556b2f5b4a3364e757d1c46ad62a1c24ed67ada3359cf72bf6c0133dd1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104567701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119667848"
 ---
 # <a name="jet_enumcolumnvalue-methods"></a>JET_ENUMCOLUMNVALUE 方法
 

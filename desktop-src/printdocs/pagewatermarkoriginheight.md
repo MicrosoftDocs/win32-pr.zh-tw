@@ -4,12 +4,12 @@ ms.assetid: ef429727-d881-408b-95ce-2acce667654a
 title: PageWatermarkOriginHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d59e9336088d44cef1941df03319519ae69af1c3
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 25af5aa849cbf6d849afef2b11d2a39012818c8eabeccaeae8d77aa9e1925c84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034086"
 ---
 # <a name="pagewatermarkoriginheight"></a>PageWatermarkOriginHeight
 
@@ -24,7 +24,7 @@ ms.locfileid: "112395983"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                    |
 | 範圍前置詞 <br/> | 頁面<br/>                            |
@@ -78,8 +78,8 @@ ms.locfileid: "112395983"
 | MaxValue<br/>     | 整數<br/> | 小於或等於 PageImageableSize-ExtentHeight 值<br/> |
 | MinValue<br/>     | 整數<br/> | 0<br/>                                                            |
 | 多個<br/>     | 整數<br/> | 1<br/>                                                            |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/>                                              |
-| Unittype.pixel 表示<br/>     | string<br/>  | 微米<br/>                                                      |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/>                                              |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 微米<br/>                                                      |
 
 
 

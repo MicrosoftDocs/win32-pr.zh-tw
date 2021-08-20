@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 295537c0fe2c18c66d46c62f5fe3fe22549f1312
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 591facb4e6ba196acb8d351218ede3e2777f3f6ed979c8858a8a4fde2dc2fabc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104559104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119667718"
 ---
 # <a name="jet_threadstatsequals-method"></a>JET_THREADSTATS。Equals 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104559104"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

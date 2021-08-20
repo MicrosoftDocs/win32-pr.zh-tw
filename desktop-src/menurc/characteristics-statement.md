@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de681785fa2ec815b1edbdda913dd8032f8feb8e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d9910a86263d14dd928fb01347dfea4fd6c796c23b4e5d42d69cdba4bc40e14c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034308"
 ---
 # <a name="characteristics-statement"></a>特性語句
 
@@ -60,9 +60,9 @@ CHARACTERISTICS dword
 [**STRINGTABLE**](stringtable-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

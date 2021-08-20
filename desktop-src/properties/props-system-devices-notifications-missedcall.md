@@ -4,12 +4,12 @@ ms.assetid: 4d583dea-edcf-4f1b-81e2-f2a57ce3d503
 title: MissedCall。
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b474cd8efdeaeb582d22560f458ebe2c2737eac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3134f6caf40a75def70a3d13b45e3dcea47f7eb5729201b94193c4c4f4790503
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845498"
 ---
 # <a name="systemdevicesnotificationsmissedcall"></a>MissedCall。
 

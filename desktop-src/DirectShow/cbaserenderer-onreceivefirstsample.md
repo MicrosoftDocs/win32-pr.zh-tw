@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2368b0e2abda3bcdd08872d730f8b9902dad43ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 882a356f47aa146ec8ba1b06d7af43235c8213334c0d82d0a241c590654bf2a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157698"
 ---
 # <a name="cbaserendereronreceivefirstsample-method"></a>CBaseRenderer. OnReceiveFirstSample 方法
 

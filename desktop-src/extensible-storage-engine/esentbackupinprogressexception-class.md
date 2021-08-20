@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cae492abaaeac2b4f21b2afd109f8504fdc663f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6da25d0b664f891105752599787cd8d0d82ac91c1ff252e79ddb5025c6acabb5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119669718"
 ---
 # <a name="esentbackupinprogressexception-class"></a>EsentBackupInProgressException 類別
 

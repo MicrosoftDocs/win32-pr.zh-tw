@@ -4,12 +4,12 @@ ms.assetid: b5566533-4757-4882-86ea-c7c902d529d2
 title: System.servicemodel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dcea063f885ec0334cace1c4ae3e40de9432c41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 697a86a5628840bfd6c075cc00948bfad0ae1cf47deffd58ca1b6365f617cba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033496"
 ---
 # <a name="systemidentityuniqueid"></a>System.servicemodel
 

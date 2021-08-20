@@ -4,12 +4,12 @@ ms.assetid: d1e29bd6-c04a-48f1-9727-96b9450e256f
 title: 屬性定義和屬性實例結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55aa67efb5054d93184b56c53f84f9fac0893abf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8289c16bf501d36936b1aba6f292787e1b9a41babdb1225d3c0d53885c0ba31a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676810"
 ---
 # <a name="property-definition-and-property-instance-structures"></a>屬性定義和屬性實例結構
 

@@ -4,12 +4,12 @@ ms.assetid: 6de13ed8-bf15-4e2c-b42a-ea8178a6b5f9
 title: JobErrorSheetSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 656d71422c46800d6155c1dea1e221f9c6dfe021
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: b63ab692dac2ab74e571ce39ba91148c5b8c808144a7b1cce61f28c0e4ea049d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034126"
 ---
 # <a name="joberrorsheetsource"></a>JobErrorSheetSource
 
@@ -24,7 +24,7 @@ ms.locfileid: "113549386"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                    |
 | 範圍前置詞 <br/> | 文件<br/>                        |
@@ -73,8 +73,8 @@ ms.locfileid: "113549386"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
 
 
 

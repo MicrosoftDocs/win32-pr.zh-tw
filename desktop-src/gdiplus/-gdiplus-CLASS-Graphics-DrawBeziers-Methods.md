@@ -4,12 +4,12 @@ ms.assetid: af91f612-7e65-4a36-8449-32410d275b00
 title: 'DrawBeziers 方法 (Gdiplusgraphics .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 399b487036f1a76c4a69e0af156d5cddbec5a0c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ca924f8011e48672267a788d3dee627b0aa8c6911fbba304864ccf666adbed5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037426"
 ---
 # <a name="graphicsdrawbeziers-methods"></a>DrawBeziers 方法
 

@@ -4,12 +4,12 @@ ms.assetid: fbe64aed-6b07-49de-910c-18be68cb65a2
 title: 簽署檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a4ad07323a26d21f9010c3fd54c708880b90173
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef544b2c34af19282d697676d22903948355d23e18e1c646df691c720052cc4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033876"
 ---
 # <a name="sign-a-document"></a>簽署檔
 

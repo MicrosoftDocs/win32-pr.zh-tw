@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0ada39e4428040cf7e6732232ce789f7d837c9c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e1171e5f303d5b122f0d2202978415206a26e94c15e69f09af73b811c33dcb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147804"
 ---
 # <a name="msvm_guestserviceinterfacecomponentsettingdata-class"></a>Msvm \_ GuestServiceInterfaceComponentSettingData 類別
 
@@ -169,7 +169,7 @@ class Msvm_GuestServiceInterfaceComponentSettingData : CIM_ResourceAllocationSet
 
 | 值                                                                                                                                                                                                                                                                  | 意義                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt>**未知**</dt>的 <dt>0</dt> </dl>                                            | 不明。<br/>                                                                                                                                                                                                                                         |
+| <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt>**未知**</dt>的 <dt>0</dt> </dl>                                            | 未知。<br/>                                                                                                                                                                                                                                         |
 | <span id="Passed-Through"></span><span id="passed-through"></span><span id="PASSED-THROUGH"></span><dl> <dt>**傳遞至**</dt> <dt>2</dt> </dl>                | 基礎或主機資源會利用並傳遞給取用者（可能是使用資料分割）。 DeviceID 屬性中至少應該有一個專案。<br/>                                                                        |
 | <span id="Virtualized"></span><span id="virtualized"></span><span id="VIRTUALIZED"></span><dl> <dt>**虛擬化**</dt> <dt>3</dt> </dl>                            | 資源已虛擬化，而且可能不會直接對應至基礎/主機資源。 某些實現可能會支援虛擬資源的特定指派，在這種情況下，會使用 DeviceID 屬性來公開主機資源 (的) 。<br/> |
 | <span id="Not_represented"></span><span id="not_represented"></span><span id="NOT_REPRESENTED"></span><dl> <dt>**未表示**</dt> <dt>4</dt> </dl>            | 資源取用者的內容中不存在資源的標記法。<br/>                                                                                                                                                     |
@@ -547,8 +547,8 @@ class Msvm_GuestServiceInterfaceComponentSettingData : CIM_ResourceAllocationSet
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

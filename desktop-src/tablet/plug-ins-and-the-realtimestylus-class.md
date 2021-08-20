@@ -4,12 +4,12 @@ ms.assetid: 7217e2d5-ca62-4d65-bf22-9511b367c798
 title: 外掛程式和 RealTimeStylus 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08177c5f4110897fa1887857788766f67ae38167
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc522eb6f73b384d0c2c1846edb2b20cdcb89d34ef42633b08ca865950c8ce16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119843378"
 ---
 # <a name="plug-ins-and-the-realtimestylus-class"></a>外掛程式和 RealTimeStylus 類別
 

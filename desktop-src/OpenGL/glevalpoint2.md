@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fafe728249f988462b0929873bbb195fed1e7c9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6f0c188ec5f3e8171b8035e58b235bc0c5942e221d6d85a6dd4e5a8ff1786c80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106997233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675558"
 ---
 # <a name="glevalpoint2-function"></a>glEvalPoint2 函式
 
@@ -48,7 +48,7 @@ void glEvalPoint2(
 
 </dd> <dt>
 
-*J* 
+*j* 
 </dt> <dd>
 
 方格網域變數 *j* 的整數值。

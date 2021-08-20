@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b00b90f6fbb3f4bb6170c8987f3634fec4bd0bf5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0d61902765c29808941637d4ce7ebb7f4b361ac6904abc1fae5907738162347a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118094509"
 ---
 # <a name="id3dxanimationcontrollergetcurrenttrackevent-method"></a>ID3DXAnimationController：： GetCurrentTrackEvent 方法
 

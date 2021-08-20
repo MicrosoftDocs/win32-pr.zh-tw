@@ -4,12 +4,12 @@ ms.assetid: 62215ae0-b095-42b2-911c-aa7607a8b61a
 title: 以矩陣來表示轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0577cae38c401e842cff2ff14179594f9118dfd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 122d59787038cd75a9806cac6cb0d225e8660eb13d7482d3ee1f47ff0732ca5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036656"
 ---
 # <a name="matrix-representation-of-transformations"></a>以矩陣來表示轉換
 
@@ -55,7 +55,7 @@ C (i，j) = (的資料列 i) • (a B B 的資料行 j)
 
 ![圖例顯示對仿射轉換的3x3 矩陣而言，前兩個數據行是最重要的](images/aboutgdip05-art10.png)
 
-在 Windows GDI + 中，您可以在 [**矩陣**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) 物件中儲存仿射轉換。 由於矩陣的第三個數據行（代表仿射轉換）一律 (0、0、1) ，因此當您建立 **矩陣** 物件時，您只需要在前兩個數據行中指定六個數字。 語句會建立 `Matrix myMatrix(0.0f, 1.0f, -1.0f, 0.0f, 3.0f, 4.0f);` 上圖所示的矩陣。
+在 Windows GDI+ 您可以在 [**矩陣**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix)物件中儲存仿射轉換。 由於矩陣的第三個數據行（代表仿射轉換）一律 (0、0、1) ，因此當您建立 **矩陣** 物件時，您只需要在前兩個數據行中指定六個數字。 語句會建立 `Matrix myMatrix(0.0f, 1.0f, -1.0f, 0.0f, 3.0f, 4.0f);` 上圖所示的矩陣。
 
 ## <a name="composite-transformations"></a>複合轉換
 

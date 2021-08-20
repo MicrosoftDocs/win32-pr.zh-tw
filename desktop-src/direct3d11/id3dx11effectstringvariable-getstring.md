@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d15666bd70bf00395b7052b7820981dd8d0dcd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0edef49fd0965e06693fb995434c0579080f1e6243522ca4ea1489dedb791f5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118532996"
 ---
 # <a name="id3dx11effectstringvariablegetstring-method"></a>ID3DX11EffectStringVariable：： GetString 方法
 

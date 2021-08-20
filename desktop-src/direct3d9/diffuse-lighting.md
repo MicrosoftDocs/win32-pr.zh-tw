@@ -4,12 +4,12 @@ ms.assetid: 29280a02-1c26-4b54-8468-707dd96dea1d
 title: " (Direct3D 9) 的擴散照明"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f51e45093786348aaa115ec38c420acec471f718
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9906742b47b959336fd882748388a2f10776b6adb06eb98bc23effb6576793be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675756"
 ---
 # <a name="diffuse-lighting-direct3d-9"></a> (Direct3D 9) 的擴散照明
 
@@ -21,7 +21,7 @@ ms.locfileid: "104108417"
 
 
 
-| 參數       | 預設值 | 類型          | Description                                                                                                   |
+| 參數       | 預設值 | 類型          | 描述                                                                                                   |
 |-----------------|---------------|---------------|---------------------------------------------------------------------------------------------------------------|
 | Sum             | N/A           | N/A           | 每道光的擴散元件的總和。                                                                  |
 | C<sub>d</sub>   | (0,0,0,0)     | D3DCOLORVALUE | 擴散色彩。                                                                                                |
