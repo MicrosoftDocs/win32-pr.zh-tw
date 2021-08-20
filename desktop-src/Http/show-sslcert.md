@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b71c2faf370066f5ce8d5ce6a20b173a74d0f645
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 18c624354d33826efa40c0969f1239e4029d03ab51412a77a3bf8acce97e0e66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104313323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117995929"
 ---
 # <a name="show-sslcert"></a>show sslcert
 
@@ -32,7 +32,7 @@ show sslcert [ipport=]IP Address:port
 
 <dl> <dt>
 
-<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ipport = \] * * * IP 位址：埠*
+<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ ipport = \]** _IP 位址：埠_
 </dt> <dd>
 
 指定將顯示 SSL 憑證系結的 IPv4 或 IPv6 位址和埠。 未指定 ipport 會列出所有的系結。
@@ -49,9 +49,9 @@ show sslcert [ipport=]IP Address:port
 
 **顯示 sslcert ipport = \[ ：： \] ：443**
 
- 
+ 
 
- 
+ 
 
 
 

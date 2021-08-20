@@ -13,12 +13,12 @@ keywords:
 - 設定檔，設定以品質為基礎的 VBR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d0b7a6ecb83c7242f82f5626a086c8aba23881f
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 34b1181d722909478b29e1ffbe5f5b53cb919d80e3922e055eecdf34c334a382
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103933004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845633"
 ---
 # <a name="to-configure-quality-based-vbr"></a>設定 Quality-Based VBR
 
@@ -49,9 +49,9 @@ ms.locfileid: "103933004"
 [**設定 VBR 資料流程**](configuring-vbr-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

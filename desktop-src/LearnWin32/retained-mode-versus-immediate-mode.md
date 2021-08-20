@@ -4,12 +4,12 @@ description: 圖形 Api 可以分為保留模式 Api 和立即模式 Api。
 ms.assetid: 0a98e8ee-4bc1-490c-867e-42bceae8a1f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec3b89cd300f957211a9d4990c35ccbb70fa2b1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d42d981aafad39c8f8a1e9cd82a90c9b23ad83313822181caae01468465e92fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104556319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117993124"
 ---
 # <a name="retained-mode-versus-immediate-mode"></a>保留模式與立即模式
 
@@ -29,9 +29,9 @@ ms.locfileid: "104556319"
 
 [您的第一個 Direct2D 計畫](your-first-direct2d-program.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: C6E51716-1D4F-454F-9AF4-8D0E486CB885
 title: 如何定義擴充動詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb4bd8cca04b40bb0b0b77bab5fd7546fd5bff45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef73244a03101de02653625912701b81aa9e8e11d975f96dd417eaa137bfba07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859715"
 ---
 # <a name="how-to-define-extended-verbs"></a>如何定義擴充動詞
 

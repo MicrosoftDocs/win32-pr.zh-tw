@@ -4,12 +4,12 @@ ms.assetid: 0ab2896e-3634-47f7-b1f4-e7d1ffcb3592
 title: " (電話語音 API) 的登錄專案"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 035126f614e526f3b1557f5323d52b3bf6b2b12c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afd6e4e4d91b65e3ef886fd4d2d44b571f4ac4696697aef8b8d8b2715e273e18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761165"
 ---
 # <a name="registry-entries-telephony-api"></a> (電話語音 API) 的登錄專案
 
@@ -25,7 +25,7 @@ ms.locfileid: "106976374"
 
 | Terminal 類別 | 索引鍵名稱 | 公用識別碼                                                                 |
 |----------------|----------|-----------------------------------------------------------------------------------|
-| Name           | REG \_ SZ  | 終端機易記名稱                                                            |
+| 名稱           | REG \_ SZ  | 終端機易記名稱                                                            |
 | 公司        | REG \_ SZ  | 公司名稱                                                                      |
 | 版本        | REG \_ SZ  | 版本資訊                                                               |
 | CLSID          | REG \_ SZ  | COM [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 方法中使用的終端機 CLSID ()  |
@@ -42,7 +42,7 @@ ms.locfileid: "106976374"
 
 | CLSID | 索引鍵名稱 | 公用識別碼            |
 |-------|----------|------------------------------|
-| Name  | REG \_ SZ  | 終端機類別易記名稱 |
+| 名稱  | REG \_ SZ  | 終端機類別易記名稱 |
 
 
 

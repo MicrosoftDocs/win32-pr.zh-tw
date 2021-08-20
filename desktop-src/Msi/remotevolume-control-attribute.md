@@ -4,12 +4,12 @@ ms.assetid: be70cd86-6aaf-4307-a553-715d6185accd
 title: RemoteVolume 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eeabf4ea1f0174700301c23e780d0933f62743f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3154b8002eaaf0115b57ea6b09ab3d31b2b7763a4a5c72bc97bbf29efb974e83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990806"
 ---
 # <a name="remotevolume-control-attribute"></a>RemoteVolume 控制項屬性
 

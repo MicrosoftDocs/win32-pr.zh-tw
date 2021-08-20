@@ -4,12 +4,12 @@ ms.assetid: 71f80196-0a36-4a14-a115-712bc909f6d7
 title: 使用正則運算式的自訂輸入範圍
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bdd7807221aca7b05ed4dc1facf7ddb01470c8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2349893e4a4f478924a20877d0dec94d63a8adda8bea17eba8c8f029c63d5077
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118045875"
 ---
 # <a name="custom-input-scopes-with-regular-expressions"></a>使用正則運算式的自訂輸入範圍
 

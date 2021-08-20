@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 379aa3cbef4df872f8b133017b1b06a6c73e8181
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e77eb93a78553ccbc95b1671dc215012eeccc56b0bff8ea23e47f68aaf51e10b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807334"
 ---
 # <a name="callback-attribute"></a>回呼屬性
 
@@ -77,7 +77,7 @@ ms.locfileid: "104375188"
 
 ## <a name="remarks"></a>備註
 
-當伺服器必須從用戶端取得資訊時， **\[ 回檔 \]** 函式很有用。 如果 Windows 3 支援伺服器應用程式。*x*，伺服器可以呼叫 Windows 3 上的遠端程式。*x* 伺服器以取得所需的資訊。 回呼函式會完成相同的目的，並讓伺服器查詢用戶端以取得原始呼叫內容中的資訊。
+當伺服器必須從用戶端取得資訊時， **\[ 回檔 \]** 函式很有用。 如果 Windows 3 支援伺服器應用程式。*x*，伺服器可以對 Windows 3 的遠端程式進行呼叫。*x* 伺服器以取得所需的資訊。 回呼函式會完成相同的目的，並讓伺服器查詢用戶端以取得原始呼叫內容中的資訊。
 
 回呼是在單一線程中執行之遠端呼叫的特殊案例。 回呼是在遠端呼叫的內容中發出。 任何定義為與靜態回呼函式相同之介面一部分的遠端程式，都可以呼叫回呼函式。
 
@@ -149,6 +149,6 @@ ms.locfileid: "104375188"
 [**RpcCancelThread**](/windows/desktop/api/rpcdce/nf-rpcdce-rpccancelthread)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: d5042945-ba81-40d0-b204-1f08d153a788
 title: 為提供者建立陰影複製
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91cc7306e7a13ef8e96ab032016a922411a70f95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 953f9b5556b8cf0a35117d8df6756fdd52bdf033d390f0b08a7e018d1eaf5410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121843"
 ---
 # <a name="shadow-copy-creation-for-providers"></a>為提供者建立陰影複製
 
@@ -73,7 +73,7 @@ VSS 包含特殊支援，可定義陰影複製集中所有磁片區的一般時�
 提供者應該在從 [**EndPrepareSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-endpreparesnapshots)傳回之前，先完成所有時間緊迫的工作。
 
 -   [**CommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots) 應該在幾秒鐘內傳回。 **CommitSnapshots** 階段位於 [排清] 和 [按住] 視窗內。 如果未在10秒內收到後續版本，vss 核心支援將會取消保留 i/o 的排清和保留，而 VSS 將無法進行陰影複製建立程式。 系統上將會發生其他活動，因此提供者不應依賴10秒的時間。 提供者不應在認可期間呼叫 Win32 Api，因為許多會導致非預期的寫入和封鎖。 如果提供者需要幾秒鐘的時間才能完成通話，則會有很高的機率會失敗。
--   從 [**PreCommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-precommitsnapshots) 到 [**PostCommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots) 傳回的完整順序會對應到接收凍結和解除凍結事件的寫入器之間的視窗。 此視窗的寫入器預設值為60秒，但寫入器可能會以較小的超時時間覆寫此值。 例如，Microsoft Exchange Server writer 將 timeout 變更為20秒。 提供者不應在此方法中花費超過一或兩個。
+-   從 [**PreCommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-precommitsnapshots) 到 [**PostCommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots) 傳回的完整順序會對應到接收凍結和解除凍結事件的寫入器之間的視窗。 此視窗的寫入器預設值為60秒，但寫入器可能會以較小的超時時間覆寫此值。 例如，Microsoft Exchange Server 寫入器會將 timeout 變更為20秒。 提供者不應在此方法中花費超過一或兩個。
 
 在 [**CommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots) 期間，提供者必須避免任何非分頁檔 i/o;這類 i/o 有很高的死結機率。 尤其是，提供者不應同步寫入任何偵錯工具或追蹤記錄。
 

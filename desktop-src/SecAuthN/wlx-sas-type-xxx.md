@@ -4,21 +4,21 @@ ms.assetid: c0a1269b-f9d4-49e1-89ca-526fef148134
 title: 'WLX_SAS_TYPE_XXX (Winwlx) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a75c7d7a71855700c4c8c233db3cfc18e06b9d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 568308d064b576f036d18aaa2d150cb1c6b7f0a2d89ee60d9410fcad123351d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785710"
 ---
 # <a name="wlx_sas_type_xxx"></a>WLX \_ SAS \_ 類型 \_ XXX
 
-\[WLX \_ SAS \_ 類型 \_ XXX 常數不再適用于 windows Server 2008 和 windows Vista 的使用。\]
+\[WLX \_ SAS \_ 類型 \_ XXX 常數不再適用于 Windows Server 2008 和 Windows Vista 的使用。\]
 
 **WLX \_ SAS \_ 類型 \_ XXX** 值會定義特定的 sas 類型。
 
 > [!Note]  
-> 在 Windows Vista 中會忽略 GINA Dll。
+> Windows Vista 會忽略 GINA dll。
 
  
 
@@ -44,8 +44,8 @@ ms.locfileid: "106975397"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                               |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                      |
 | 標頭<br/>                   | <dl> <dt>Winwlx。h</dt> </dl> |

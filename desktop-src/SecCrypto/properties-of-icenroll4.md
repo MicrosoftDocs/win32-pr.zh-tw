@@ -4,12 +4,12 @@ ms.assetid: 46b22654-4d04-438a-89b0-a261898debf7
 title: ICEnroll4 的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 903d1e047258c0187a3f8bae8067f77406e6fddc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59107bede39c19c8c04d42b6a8d4b2f36af48a0957ef267ff05ab175dba239aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117977273"
 ---
 # <a name="properties-of-icenroll4"></a>ICEnroll4 的屬性
 

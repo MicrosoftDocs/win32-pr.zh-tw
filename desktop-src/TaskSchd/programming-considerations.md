@@ -7,12 +7,12 @@ keywords:
 - 程式設計考慮工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 599652f4a25f3d99020eda0846c41904ee76e5cf
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1fa04e5987ea375dfdfc535b0d4d27b21621d2d9678bd69ea15819c8f90bffee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106965877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117943616"
 ---
 # <a name="programming-considerations-task-scheduler"></a> (工作排程器) 的程式設計考慮
 

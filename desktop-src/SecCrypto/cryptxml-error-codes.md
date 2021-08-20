@@ -4,12 +4,12 @@ ms.assetid: c3678767-aab3-4771-b2f2-8d79545d420d
 title: 'CryptXML 錯誤碼 (Cryptxml) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5906c406f14081844ddce042f0e170668950e7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccb4b06070ca77f8b55f96d3e6c4732abc22c26970b83b6a70c720b7bade8a84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767975"
 ---
 # <a name="cryptxml-error-codes"></a>CryptXML 錯誤碼
 
@@ -17,7 +17,7 @@ ms.locfileid: "106984731"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                             | Description                                                                                                        |
+| 常數/值                                                                                                                                                                                                                                                                             | 描述                                                                                                        |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | <span id="CRYPT_XML_E_LARGE"></span><span id="crypt_xml_e_large"></span><dl> <dt>**CRYPT \_XML \_ E \_ 大型**</dt> <dt>0x80092101L</dt> </dl>                                               | 提供的值太大。<br/>                                                                        |
 | <span id="CRYPT_XML_E_ENCODING"></span><span id="crypt_xml_e_encoding"></span><dl> <dt>**CRYPT \_XML \_ E \_ 編碼**</dt> <dt>0x80092103L</dt> </dl>                                      | 不支援指定的 XML 編碼。<br/>                                                              |
@@ -45,8 +45,8 @@ ms.locfileid: "106984731"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Cryptxml。h</dt> </dl> |
 
 

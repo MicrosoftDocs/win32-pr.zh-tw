@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103926
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7f08d8fe464aec1ccf1eff51598ff8ef506d8707
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acc39967deb7fd4f636aa203f82381ee2e742d873038d46559f10d8d0a287865
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118073495"
 ---
 # <a name="jet_tablecreate-members"></a>JET_TABLECREATE 成員
 

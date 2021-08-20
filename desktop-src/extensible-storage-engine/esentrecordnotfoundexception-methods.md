@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102530
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d0c1ed97cdd70ad9cb671ce9f7551db8871d138b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8f4a22993fa034675ed612d7945c38ca2b091da86af7b1def802c365eb23eb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118079385"
 ---
 # <a name="esentrecordnotfoundexception-methods"></a>EsentRecordNotFoundException 方法
 

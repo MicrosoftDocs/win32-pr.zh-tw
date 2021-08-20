@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e87ca7a5bf12bbaf943bccacaa075a51ae75ed37
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e74720cac1287c08209ce08cabe7b364d385412d94213a83bd114dc46605b7ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117977634"
 ---
 # <a name="privatekey-object"></a>PrivateKey 物件
 
@@ -68,7 +68,7 @@ ms.locfileid: "106984287"
 
 
 
-| 屬性                                                                 | 存取類型          | Description                                                                                               |
+| 屬性                                                                 | 存取類型          | 描述                                                                                               |
 |:-------------------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------------------------------|
 | [**容器**](privatekey-containername.md)<br/>             | 唯讀<br/> | 抓取包含私密金鑰容器名稱的字串。 這是預設屬性。<br/> |
 | [**KeySpec**](privatekey-keyspec.md)<br/>                         | 唯讀<br/> | 抓取金鑰規格。<br/>                                                               |

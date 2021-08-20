@@ -4,12 +4,12 @@ ms.assetid: 554cab0d-cfa2-46a7-80d9-f41430eb4b47
 title: 編碼和解碼訊息的程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49da09c2318fffd3d1c92d6012055172709609a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81a2fa98ace21513acdbdfb7241216b605b24b05c1890c776ee9c134668cb3ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117977580"
 ---
 # <a name="procedure-for-encoding-and-decoding-messages"></a>編碼和解碼訊息的程式
 

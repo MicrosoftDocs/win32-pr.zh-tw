@@ -7,12 +7,12 @@ keywords:
 - 用於讀取結構化屬性 ADSI 的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb69bf99807d87e711d0d54d2c5b228d304149e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bcd51e5649ec0b2b9e654eb160c4fe8708f4743fbdd1dfe55e85231c7a451e2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840008"
 ---
 # <a name="example-code-for-reading-a-constructed-attribute"></a>用於讀取已建立之屬性的範例程式碼
 
@@ -93,9 +93,9 @@ HRESULT GetAttribute(IADs *pads, BSTR bstrAttribute, VARIANT *pvar)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

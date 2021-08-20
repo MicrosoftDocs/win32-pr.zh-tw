@@ -4,12 +4,12 @@ ms.assetid: fb12ba38-a4f4-44fe-bf31-e731c56bb145
 title: 'MF_MT_DRM_FLAGS 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa8ef771cb72050b2273d822ce799092ce51e64c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e38f41bf2db38528379d1d409b65e5c81190fa01f4f84f7d57f468bec748263d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060260"
 ---
 # <a name="mf_mt_drm_flags-attribute"></a>MF \_ MT \_ DRM \_ 旗標屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106979251"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

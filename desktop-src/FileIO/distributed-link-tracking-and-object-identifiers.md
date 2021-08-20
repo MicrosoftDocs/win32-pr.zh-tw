@@ -4,12 +4,12 @@ ms.assetid: 6f438c72-f23d-4ca4-83bd-fe3bc433ceeb
 title: 分散式連結追蹤和物件識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62d28e151c21fd5320a41950be7647c1e8e0a88b
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: ee6077ec45f99543f42ec8ad61b3763dab4b2a56d6e555832acdc2b3e66feaee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106975646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117997660"
 ---
 # <a name="distributed-link-tracking-and-object-identifiers"></a>分散式連結追蹤和物件識別碼
 
@@ -37,7 +37,7 @@ ms.locfileid: "106975646"
 
 Shell 快速鍵包含使用樹狀目錄搜尋演算法的啟發式連結追蹤，以找出與移動的連結來源相符的結果。 搜尋演算法是根據檔案的最後一個已知路徑，以及包含建立日期、檔案大小和檔案名與副檔名的檔案資訊。
 
-OLE 連結包含相同的啟發式連結追蹤。 Windows 也包含相同的啟發式連結追蹤，其中包含一些增強的功能，可讓您在某些常見的案例中，搜尋命名空間來產生結果。 這些增強功能包括下列程式，取決於用戶端應用程式所加諸的時間限制。
+OLE 連結包含相同的啟發式連結追蹤。 Windows 也包含相同的啟發式連結追蹤，其中有一些額外的增強功能，可讓您在某些常見的案例中，搜尋命名空間來產生結果。 這些增強功能包括下列程式，取決於用戶端應用程式所加諸的時間限制。
 
 **搜尋命名空間**
 
@@ -104,7 +104,7 @@ OLE 連結包含相同的啟發式連結追蹤。 Windows 也包含相同的啟�
 
 ## <a name="link-tracking-limitations"></a>連結追蹤限制
 
-分散式連結追蹤服務僅適用于 NTFS 檔案系統，且僅適用于 NTFS 3.0 或更新版本上的連結來源。 因此，如果連結來源移至 FAT 檔案系統磁片區，則追蹤資訊會遺失。 此外，如果在 NTFS 3.0 或更新版本之間手機連結來源，但執行移動的電腦正在執行舊版的 Windows，則會遺失連結追蹤資訊。 當連結追蹤資訊遺失時，連結來源檔案本身不會有任何損害，因為分散式連結追蹤服務並不會可追蹤。
+分散式連結追蹤服務僅適用于 NTFS 檔案系統，且僅適用于 NTFS 3.0 或更新版本上的連結來源。 因此，如果連結來源移至 FAT 檔案系統磁片區，則追蹤資訊會遺失。 此外，如果在 NTFS 3.0 或更新版本之間手機連結來源，但正在執行移動的電腦正在執行舊版 Windows，則會遺失連結追蹤資訊。 當連結追蹤資訊遺失時，連結來源檔案本身不會有任何損害，因為分散式連結追蹤服務並不會可追蹤。
 
 若要取得 NTFS 版本的磁片區，請使用系統管理員存取權限開啟命令提示字元，然後執行下列命令：
 

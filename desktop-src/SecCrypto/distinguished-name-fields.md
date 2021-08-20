@@ -4,12 +4,12 @@ ms.assetid: f0cc0e1b-370e-4548-97fe-8f6a4005540b
 title: 辨別名稱欄位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a03495d19608e29aa60f09954c96a10f6c3cde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10465a481c1efbaa9637979bb5bb82880451fbe43800b968a4c9fefc5fbc4a3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767263"
 ---
 # <a name="distinguished-name-fields"></a>辨別名稱欄位
 

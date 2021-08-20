@@ -3,7 +3,7 @@ title: 'LVM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: LVM_SETUNICODEFORMAT 訊息：設定控制項的 UNICODE 字元格式旗標。
 ms.assetid: e332ae88-821f-4341-a98d-59d8a01a126f
 keywords:
-- LVM_SETUNICODEFORMAT message Windows 控制項
+- LVM_SETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb0f700cd057bc77eddc699404f37b19a6cc9c39
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ec9830cd2f5e0ee43c4ed2cd331b15e59727643c03c4841f0e043078de85802
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830679"
 ---
 # <a name="lvm_setunicodeformat-message"></a>LVM \_ SETUNICODEFORMAT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "108120146"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

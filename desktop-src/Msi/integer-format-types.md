@@ -4,12 +4,12 @@ ms.assetid: 63fb9c0d-e7f1-4c1d-bb83-2833c5fff18d
 title: 整數格式類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 184ef6380f25474a9e2ad07be7a4eb6d00706aee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cf5d4ad0d7ef9ba8adb1ddb919e284dbd2a10b2eafc7c43f72d6d0ee777f743
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805626"
 ---
 # <a name="integer-format-types"></a>整數格式類型
 

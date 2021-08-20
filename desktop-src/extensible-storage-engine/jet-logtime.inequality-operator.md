@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1ba95b6306984fcee5749e4b97d969713541851f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed4d9faded2330e317e261a9ab0afcf2b9a21ad589230676ebeb41736c3aead8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117894138"
 ---
 # <a name="jet_logtimeinequality-operator"></a>JET_LOGTIME。不等比較運算子
 

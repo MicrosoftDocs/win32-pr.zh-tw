@@ -4,12 +4,12 @@ ms.assetid: 4b9ffc17-3917-551c-7cb5-19de505dfd21
 title: DirectXMath 程式庫類型
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32ac888e451fe1e1ba5cfc66184bf2eb7b6feffd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cd9be6da4b29ace16e1ada76571f5c1be7aebf709c1025fb58391139a2e2142
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087654"
 ---
 # <a name="directxmath-library-types"></a>DirectXMath 程式庫類型
 

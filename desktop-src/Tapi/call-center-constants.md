@@ -4,12 +4,12 @@ ms.assetid: e0d0ef59-ea56-4d9d-8582-cd1523dc3b17
 title: 撥置中心常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8caf9474662c31a6ff6bc28388e3b369ec16b6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 860ca51508b9ab5521cf388c9a73049bbe1717cc33699f63f51cbf8fbc990886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948220"
 ---
 # <a name="call-center-constants"></a>撥置中心常數
 

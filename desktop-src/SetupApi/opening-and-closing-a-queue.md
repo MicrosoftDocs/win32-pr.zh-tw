@@ -4,12 +4,12 @@ ms.assetid: 3eeb4f34-c89e-4733-8a8c-54e470a1fd30
 title: 開啟和關閉佇列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dcd8ece0e09c313857da6838a09e79e23bb46a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a8465446842521adbd320816a76d7f545819eebf68b55aee0c3a057fc0ca3ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117965151"
 ---
 # <a name="opening-and-closing-a-queue"></a>開啟和關閉佇列
 

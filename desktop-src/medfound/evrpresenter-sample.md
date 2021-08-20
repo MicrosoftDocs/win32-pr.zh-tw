@@ -4,16 +4,16 @@ ms.assetid: 791a9816-4c40-4683-8b32-22f73d7fe84d
 title: EVRPresenter 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bde85de152c41f348b1aae74a8c0d67ca746cab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe874483313d96f2ee6d9481fca7695d3ecfdba492f3e976f9f6c107c6114b1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118063652"
 ---
 # <a name="evrpresenter-sample"></a>EVRPresenter 範例
 
-示範如何將 [增強型影片](enhanced-video-renderer.md) 轉譯器的自訂展示者 (EVR) 。 自訂展示者可以與 DirectShow EVR 濾波器或 Microsoft 媒體基礎 EVR 接收器搭配使用。
+示範如何將 [增強型影片](enhanced-video-renderer.md) 轉譯器的自訂展示者 (EVR) 。 自訂展示者可以搭配 DirectShow EVR 篩選器或 Microsoft 媒體基礎 EVR 接收使用。
 
 ## <a name="apis-demonstrated"></a>示範的 Api
 
@@ -43,7 +43,7 @@ EVRPresenter 範例會建立一個 DLL，它是展示者的 COM 伺服器。 使
 
 1.  建置範例。
 2.  註冊 EvrPresenter.dll。
-3.  建立並執行 EVRPlayer 範例。 此範例隨附于 Windows SDK 中的 DirectShow 範例。
+3.  建立並執行 EVRPlayer 範例。 此範例包含在 Windows SDK 中的 DirectShow 範例。
 4.  **在 [檔案**] 功能表中，選取 [EVR 展示 **者**]。
 5.  選取要播放的檔案。
 
@@ -61,7 +61,7 @@ EVRPresenter 範例會建立一個 DLL，它是展示者的 COM 伺服器。 使
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-此範例可在 [Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip)中取得。
+此範例可在[Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip)中取得。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -1,36 +1,36 @@
 ---
-title: 在 Visual Basic .NET 方案中內嵌 Windows Media Player 控制項
-description: 在 Visual Basic .NET 方案中內嵌 Windows Media Player 控制項
+title: 在 Visual Basic .net 方案中內嵌 Windows Media Player 控制項
+description: 在 Visual Basic .net 方案中內嵌 Windows Media Player 控制項
 ms.assetid: e6428b42-5d8b-48ef-9f7a-c90a4625b745
 keywords:
-- Windows Media Player 嵌入 ActiveX 控制項
-- Windows Media Player 物件模型，嵌入 ActiveX 控制項
+- Windows Media Player，內嵌 ActiveX 控制項
+- Windows Media Player 物件模型，內嵌 ActiveX 控制項
 - 物件模型，嵌入 ActiveX 控制項
-- Windows Media Player 行動裝置，內嵌 ActiveX 控制項
-- Windows Media Player ActiveX 控制項，內嵌
-- Windows Media Player 的行動 ActiveX 控制項，內嵌
-- ActiveX 控制項，嵌入
-- Windows Media Player，Visual Basic .NET
-- Windows Media Player 物件模型，Visual Basic .NET
-- 物件模型，Visual Basic .NET
-- Windows Media Player 行動裝置，Visual Basic .NET
-- Windows Media Player ActiveX 控制項，Visual Basic .NET
-- Windows Media Player 的行動 ActiveX 控制項，Visual Basic .NET
-- ActiveX 控制項，Visual Basic .NET
-- 內嵌、Visual Basic .NET 程式
-- Visual Basic .NET 程式內嵌
+- Windows Media PlayerMobile、內嵌 ActiveX 控制項
+- Windows Media Player ActiveX 控制項、內嵌
+- Windows Media PlayerMobile ActiveX 控制項，內嵌
+- ActiveX 控制項，內嵌
+- Windows Media Player，Visual Basic .net
+- Windows Media Player 物件模型，Visual Basic .net
+- 物件模型，Visual Basic .net
+- Windows Media Player行動裝置、Visual Basic .net
+- Windows Media Player ActiveX 控制項 Visual Basic .net
+- Windows Media PlayerMobile ActiveX 控制項，Visual Basic .net
+- ActiveX 控制項，Visual Basic .net
+- 內嵌、Visual Basic .net 程式
+- Visual Basic .net 程式內嵌
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d578b456a5064f1846ead7f074f178753dbc7c97
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: 819387ac9d04f1ff229ff3665257324eddd042b15dff562a55f085a0fc86ca48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "104311690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117935250"
 ---
-# <a name="embedding-the-windows-media-player-control-in-a-visual-basic-net-solution"></a>在 Visual Basic .NET 方案中內嵌 Windows Media Player 控制項
+# <a name="embedding-the-windows-media-player-control-in-a-visual-basic-net-solution"></a>在 Visual Basic .net 方案中內嵌 Windows Media Player 控制項
 
-若要在 Visual Basic .NET 應用程式中使用 Windows Media Player 9 系列或更新版本的功能，請先將元件新增至表單，如[使用 Windows Media Player 控制項搭配 Microsoft Visual Studio](using-the-windows-media-player-control-with-microsoft-visual-studio.md)所述。
+若要在 Visual Basic .net 應用程式中使用 Windows Media Player 9 系列或更新版本的功能，請先將元件新增至表單，如[使用 Windows Media Player 控制項搭配 Microsoft Visual Studio](using-the-windows-media-player-control-with-microsoft-visual-studio.md)所述。
 
 本節說明如何建立可播放影片並擁有自訂 [播放] 和 [停止] 按鈕的應用程式。
 
@@ -108,9 +108,9 @@ AxWindowsMediaPlayer1.Ctlcontrols.stop()
 
 
 > [!Note]  
-> Windows Media Player 控制項的 managed 程式碼包裝函式會將 **控制項** 物件公開為 **Ctlcontrols** ，以避免與繼承自 **system.object** 的 **控制項** 屬性衝突。
+> Windows Media Player 控制項的 managed 程式碼包裝函式會將 **控制項** 物件公開為 **Ctlcontrols** ，以避免與繼承自 System. Windows 的 **控制項** 屬性衝突 **。表單. 控制項**。
 
- 
+ 
 
 ## <a name="add-error-handling"></a>新增錯誤處理
 
@@ -156,9 +156,9 @@ End Try
 [**在 .NET Framework 方案中內嵌 Windows Media Player 控制項**](using-the-windows-media-player-control-in-a--net-framework-solution.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

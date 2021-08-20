@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b64535aafd93fe183a48cc5e1a687ffac5183657
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 95d8015ec159b3a72ccbdf19afe76569cb3b4ce28b72c7752ac2e9bd1abd5da2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117931320"
 ---
 # <a name="viewbackgroundtiled"></a>BackgroundTiled
 

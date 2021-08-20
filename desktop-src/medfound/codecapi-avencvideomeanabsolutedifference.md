@@ -4,12 +4,12 @@ ms.assetid: 61C0F431-FBF5-4B17-8F3A-0F6AD2BA33B7
 title: 'CODECAPI_AVEncVideoMeanAbsoluteDifference 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f58a7bc0da9fce88c0b8137d800d527d4717801c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8eb0d2e515187961b020ef4896f4e6669d378dbed2ca4ddb487cf271db684591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064749"
 ---
 # <a name="codecapi_avencvideomeanabsolutedifference-property"></a>CODECAPI \_ AVEncVideoMeanAbsoluteDifference 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "106986281"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

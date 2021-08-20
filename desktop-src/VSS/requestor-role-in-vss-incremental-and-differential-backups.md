@@ -4,12 +4,12 @@ ms.assetid: a77700e3-8217-460e-bec9-1041d03eec41
 title: VSS 增量和差異備份中的要求者角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 718a5a0b22d9cc1cfa31404b3a0ac71a3a07731f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 637d4bf97b97d484080c85a2345599a05e4bbd89f88a0c1786b5bda911a83331
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122003"
 ---
 # <a name="requester-role-in-vss-incremental-and-differential-backups"></a>VSS 增量和差異備份中的要求者角色
 
@@ -40,13 +40,13 @@ ms.locfileid: "106975036"
 
 要求者表示備份是增量或差異備份，方法是在產生 [**PrepareForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup)事件之前，使用 [**>ivssbackupcomponents：： SetBackupState**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate)方法將備份類型設定為 **vss \_ bt \_ 增量** 或 **vss \_ bt \_ 差異**。
 
-[**>ivssbackupcomponents：： SetBackupState**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate)方法也用來指出要求者是否提供部分檔案 [*支援*](vssgloss-p.md)，這通常用來執行特定的增量備份和還原作業。
+[**>Ivssbackupcomponents：： SetBackupState**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate)方法也用來指出要求者是否提供部分檔案 [*支援*](vssgloss-p.md)，這通常用來執行特定的增量備份和還原作業。
 
 </dd> </dl>
 
 ## <a name="getting-writer-specifications-for-incremental-and-differential-backups"></a>取得增量和差異備份的寫入器規格
 
-[**>ivssbackupcomponents：： GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata)成功傳回之後，每個寫入器的寫入器元資料檔案中包含的檔案集層級檔案備份規格資訊 ([**VSS \_ 檔 \_ 規格 \_ 備份 \_ 類型**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type)) 可供檢查。
+[**>Ivssbackupcomponents：： GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata)成功傳回之後，每個寫入器的寫入器元資料檔案中包含的檔案集層級檔案備份規格資訊 ([**VSS \_ 檔 \_ 規格 \_ 備份 \_ 類型**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type)) 可供檢查。
 
 不過，寫入器可以加入 [*差異*](vssgloss-d.md) 檔案，或要求 [*部分檔案支援*](vssgloss-p.md) ，直到其成功處理 [*PostSnapshot*](vssgloss-p.md) 事件為止。
 
@@ -126,7 +126,7 @@ ms.locfileid: "106975036"
 
     針對根據上次修改資料來支援備份作業的寫入器 (寫入器， [**IVssExamineWriterMetadata：： GetBackupSchema**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema)傳回的寫入器包含 **VSS \_ BS \_ 上次 \_ 修改**) ，要求者使用 [**>ivsscomponent：： GetDifferencedFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile) 所傳回的路徑、檔案規格和遞迴旗標資訊，將檔案清單產生為增量備份或還原的候選項目。
 
-    [**>ivsscomponent：： GetDifferencedFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile) 也可以傳回上次修改的時間 (以 [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) 結構) 表示。
+    [**>Ivsscomponent：： GetDifferencedFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile) 也可以傳回上次修改的時間 (以 [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) 結構) 表示。
 
     如果寫入器提供的最後一項修改時間為非零值，則要求者會使用它做為基礎 (而不是檔案系統資訊或要求者自己的儲存資料) ，以判斷檔案是否應該包含在 [*增量*](vssgloss-i.md) 或 [*差異*](vssgloss-d.md) 備份中。
 

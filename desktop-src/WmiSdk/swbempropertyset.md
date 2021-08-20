@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 05ae5d5e0bfbc5ab0733e00e4649baa2849d3446
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dad54e21fabd85cd9dc5798ece7eba3f3d8b019140afd42d37bc0fb81f79935f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922075"
 ---
 # <a name="swbempropertyset-object"></a>內含物件
 
@@ -57,7 +57,7 @@ ms.locfileid: "106983904"
 
 
 
-| 屬性                                           | 存取類型          | Description                                                            |
+| 屬性                                           | 存取類型          | 描述                                                            |
 |:---------------------------------------------------|:---------------------|:-----------------------------------------------------------------------|
 | [**計數**](swbempropertyset-count.md)<br/> | 唯讀<br/> | **內含** 集合中的專案數。<br/> |
 
@@ -118,8 +118,8 @@ end if
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ 內含<br/>                                                      |
 | IID<br/>                      | IID \_ ISWbemPropertySet<br/>                                                       |

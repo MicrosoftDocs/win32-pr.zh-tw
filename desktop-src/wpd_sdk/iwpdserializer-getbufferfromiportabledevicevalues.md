@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 44f4e9e7011e6a4766183307e81ef7e783da899f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10a483331d15c09de8398d11e940453d8f239e2207fdefb82d86fd4bb1460daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843011"
 ---
 # <a name="iwpdserializergetbufferfromiportabledevicevalues-method"></a>IWpdSerializer：： GetBufferFromIPortableDeviceValues 方法
 
@@ -52,7 +52,7 @@ HRESULT GetBufferFromIPortableDeviceValues(
 *ppBuffer* \[擴展\]
 </dt> <dd>
 
-**位元組 \* *_ 的指標，其中包含已序列化的資料。Windows 可攜式裝置配置此記憶體;呼叫者必須藉由呼叫 _ CoTaskMemFree 來釋放它***。
+**位元組 \* *_ 的指標，其中包含已序列化的資料。Windows可攜式裝置配置此記憶體;呼叫者必須藉由呼叫 _ CoTaskMemFree 來釋放它***。
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ HRESULT GetBufferFromIPortableDeviceValues(
 
 
 
-| 傳回碼                                                                                   | Description                                                            |
+| 傳回碼                                                                                   | 描述                                                            |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 此方法已成功。<br/>                                       |
 | <dl> <dt>**E \_ 指標**</dt> </dl>     | 必要的指標引數為 **Null**。<br/>                   |

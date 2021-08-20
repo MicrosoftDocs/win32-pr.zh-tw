@@ -4,12 +4,12 @@ ms.assetid: 26BD3B90-16FC-4B44-8037-F5D8782F6E49
 title: WmiMonitorBrightnessMethods 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d187579eda5e3cd2c75728b725e3260d94e4a510
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f641bb9e09f69fc96ab9e5e1d16c7683c060facfc499775fc22ffd7b66d2d712
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926740"
 ---
 # <a name="wmimonitorbrightnessmethods-methods"></a>WmiMonitorBrightnessMethods 方法
 

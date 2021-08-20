@@ -3,12 +3,12 @@ description: 指定內容解密模組所使用的內容字串 (CDM 使用 MediaP
 title: MF_CONTENTDECRYPTIONMODULE_PMPSTORECONTEXT (mfcontentdecryptionmodule.h)
 ms.topic: reference
 ms.date: 01/31/2020
-ms.openlocfilehash: 49e12aeba9cce988c58fca94c33e7b4179530a56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e82bfb5bcf833957fa07ec5aa5c6dacdab346905692ab7cfcf6cbb18b940817b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060712"
 ---
 # <a name="mf_contentdecryptionmodule_pmpstorecontext-property"></a>MF \_ CONTENTDECRYPTIONMODULE \_ PMPSTORECONTEXT 屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "106969269"
 
 ## <a name="remarks"></a>備註
 
-CDM 實作者應該尋找此值，並使用屬性名稱 "PMPStoreCoNtext" 將值傳遞至 [MediaProtectionPMPServer](/uwp/api/windows.media.protection.mediaprotectionpmpserver.-ctor) 函式。
+CDM 實作者應該尋找此值，並使用屬性名稱 "Windows 將值傳遞至[MediaProtectionPMPServer](/uwp/api/windows.media.protection.mediaprotectionpmpserver.-ctor)的函式。PMPStoreCoNtext」。
 
 
 呼叫 [IMFContentDecryptionModuleAccess：： CreateContentDecryptionModule](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-createcontentdecryptionmodule)時，應用程式不應該建立這個屬性。
@@ -40,7 +40,7 @@ CDM 實作者應該尋找此值，並使用屬性名稱 "PMPStoreCoNtext" 將值
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 10 2020 年4月更新<br/>                                     |
+| 最低支援的用戶端<br/> | Windows 102020年4月更新<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>mfcontentdecryptionmodule。h</dt> </dl> |
 
 

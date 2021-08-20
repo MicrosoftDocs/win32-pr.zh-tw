@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b38cc9a030bc27a30a66624f1faeca080104e7fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd8d536b347a8fa073c145385b8b067b7603084b470a8f4206d4780276d6eb7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117977823"
 ---
 # <a name="privatekeyprovidertype-property"></a>PrivateKey. ProviderType 屬性
 
@@ -47,7 +47,7 @@ PrivateKey.ProviderType As CAPICOM_PROV_TYPE
 | <span id="CAPICOM_PROV_RSA_SIG"></span><span id="capicom_prov_rsa_sig"></span><dl> <dt>**CAPICOM \_ >PROV \_ RSA \_ SIG**</dt> </dl>                    | RSA CSP 的子集，支援雜湊和數位簽章所需的函式和演算法。<br/>                                                                                                                                                                                                                                                                                                                                     |
 | <span id="CAPICOM_PROV_DSS"></span><span id="capicom_prov_dss"></span><dl> <dt>**CAPICOM \_ >PROV \_ DSS**</dt> </dl>                                 | [*數位簽章標準*](../secgloss/d-gly.md) (DSS) CSP。 此提供者類型僅支援雜湊和數位簽章。 DSS 會使用 [*數位簽章演算法*](../secgloss/d-gly.md) (DSA) 。<br/>                                                                                     |
 | <span id="CAPICOM_PROV_FORTEZZA"></span><span id="capicom_prov_fortezza"></span><dl> <dt>**CAPICOM \_ >PROV \_ FORTEZZA**</dt> </dl>                  | 包含密碼編譯通訊協定和演算法的 CSP， (NIST) 的規範 [*標準和技術*](../secgloss/n-gly.md) 。<br/>                                                                                                                                                                          |
-| <span id="CAPICOM_PROV_MS_EXCHANGE"></span><span id="capicom_prov_ms_exchange"></span><dl> <dt>**CAPICOM \_ >PROV \_ MS \_ EXCHANGE**</dt> </dl>        | 專為 Microsoft Exchange 郵件應用程式和其他與 Microsoft Mail 相容的應用程式的密碼編譯需求而設計的 CSP。<br/>                                                                                                                                                                                                                                                                                                              |
+| <span id="CAPICOM_PROV_MS_EXCHANGE"></span><span id="capicom_prov_ms_exchange"></span><dl> <dt>**CAPICOM \_ >PROV \_ MS \_ EXCHANGE**</dt> </dl>        | 專為 microsoft Exchange mail 應用程式和其他與 microsoft mail 相容的應用程式的密碼編譯需求而設計的 CSP。<br/>                                                                                                                                                                                                                                                                                                              |
 | <span id="CAPICOM_PROV_SSL"></span><span id="capicom_prov_ssl"></span><dl> <dt>**CAPICOM \_ >PROV \_ SSL**</dt> </dl>                                 | 支援 [*安全通訊端層*](../secgloss/s-gly.md) (SSL) 通訊協定的 CSP。<br/>                                                                                                                                                                                                                                                                                  |
 | <span id="CAPICOM_PROV_RSA_SCHANNEL"></span><span id="capicom_prov_rsa_schannel"></span><dl> <dt>**CAPICOM \_ >PROV \_ RSA \_ SCHANNEL**</dt> </dl>     | 支援 RSA 和 [*Schannel*](../secgloss/s-gly.md) 通訊協定的 CSP。<br/>                                                                                                                                                                                                                                                                                                                                    |
 | <span id="CAPICOM_PROV_DSS_DH"></span><span id="capicom_prov_dss_dh"></span><dl> <dt>**CAPICOM \_ >PROV \_ DSS \_ DH**</dt> </dl>                       | 支援 [*數位簽章標準*](../secgloss/d-gly.md) (DSS) 和 [*diffie-hellman*](../secgloss/d-gly.md) 通訊協定的 CSP。<br/>                                                                                                                                                           |

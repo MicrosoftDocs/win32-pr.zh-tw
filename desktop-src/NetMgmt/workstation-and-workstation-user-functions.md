@@ -4,12 +4,12 @@ description: 網路管理工作站功能會在本機或遠端工作站上執行�
 ms.assetid: cc400f43-297b-4ff4-8353-b268839c48b8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd445746bca51abaa0cd72877bdf03dd4d00d338
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0d156c062bf65cafd96bbb1dffe3f89333ad9732b1760209dfc3d6f473d1a94c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117983065"
 ---
 # <a name="workstation-and-workstation-user-functions"></a>工作站和工作站使用者功能
 
@@ -26,7 +26,7 @@ ms.locfileid: "106969925"
 
 
 
- 
+ 
 
 工作站功能允許存取兩種不同類型的工作站資訊：
 
@@ -55,7 +55,7 @@ ms.locfileid: "106969925"
 
 
 
- 
+ 
 
 工作站使用者資訊可在下列層級取得：
 
@@ -63,6 +63,6 @@ ms.locfileid: "106969925"
 -   [**WKSTA \_ 使用者 \_ 資訊 \_ 1**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_user_info_1)
 -   [**WKSTA \_ 使用者 \_ 資訊 \_ 1101**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_user_info_1101)
 
- 
+ 
 
- 
+ 

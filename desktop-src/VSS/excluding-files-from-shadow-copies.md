@@ -4,12 +4,12 @@ ms.assetid: 4fe1ae94-7b2f-421a-9009-3a7e88822458
 title: 排除陰影複製中的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52546c8ddc6da62433dc610f2bf4fc2c46c5e53f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c39acf8c92d44bcf8786a880b6ae5eb6a88786809f5af1609dee1b342cd2fb65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122103"
 ---
 # <a name="excluding-files-from-shadow-copies"></a>排除陰影複製中的檔案
 
@@ -70,7 +70,7 @@ $AllVolumes $ 變數會將路徑字串套用至電腦上的所有陰影複製。
 
 系統管理員可以使用下列登錄機碼來停用 $UserProfile $ 變數的擴充：
 
-**HKEY \_ 本機 \_ 電腦 \\ 系統 \\ CurrentControlSet \\ 服務 \\ Vss \\ 設定**
+**HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Services \\ Vss \\ 設定**
 
 在此登錄機碼下，為值名稱指定 DisableUserProfileExpansion、為 \_ 數值型別指定 REG DWORD，並為值資料指定非零值。
 

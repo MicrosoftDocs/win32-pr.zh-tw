@@ -4,16 +4,16 @@ ms.assetid: b86c3863-b92c-4f6c-b953-3e0638bc915e
 title: 事件追蹤 MOF 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0a94fb5608ddcdd8a13df2d221adf3d032f6be8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e37d955b760eefeaa3aa98b9033ab8acee1a146df5ad8d94d412e7af056673f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814788"
 ---
 # <a name="event-tracing-mof-classes"></a>事件追蹤 MOF 類別
 
-類別是在 \\ 根 \\ wmi 命名空間中定義。 核心事件的 **EventVersion** 限定詞會將類別與特定作業系統產生關聯。 例如，版本零會與 windows 2000、Windows XP 和 Windows Server 2003 的第一版相關聯，以及第二版與 Windows Vista 相關聯。
+類別是在 \\ 根 \\ wmi 命名空間中定義。 核心事件的 **EventVersion** 限定詞會將類別與特定作業系統產生關聯。 例如，版本零與 Windows Vista 的 Windows XP 和 Windows Server 2003 以及第二版的 Windows 2000 相關聯。
 
 下列 MOF 類別會定義 ETW 事件類別。
 
@@ -60,7 +60,7 @@ ms.locfileid: "103943249"
 -   [**HWConfig \_ LogDisk**](hwconfig-logdisk.md)
 -   [**HWConfig \_ NIC**](hwconfig-nic.md)
 -   [**HWConfig \_ PhyDisk**](hwconfig-phydisk.md)
--   [**Image**](image.md)
+-   [**映像**](image.md)
 -   [**映射 \_ 載入**](image-load.md)
 -   [**影像 \_ V0**](image-v0.md)
 -   [**映射 \_ V0 \_ 載入**](image-v0-load.md)

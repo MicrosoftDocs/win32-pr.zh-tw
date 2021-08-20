@@ -3,7 +3,7 @@ title: 'TB_INSERTBUTTON 訊息 (Commctrl .h) '
 description: 在工具列中插入按鈕。
 ms.assetid: 6be27817-5d86-4649-bd63-173845197763
 keywords:
-- TB_INSERTBUTTON message Windows 控制項
+- TB_INSERTBUTTON 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e08eed328a99d4a8927a7e09084bf122f2e4e84
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 909a4e039450e001757cd054cf27a15d24af392d6a55841c2857e2312252145c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829649"
 ---
 # <a name="tb_insertbutton-message"></a>TB \_ INSERTBUTTON 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104094291"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TB \_INSERTBUTTONW** (Unicode) 和 **TB \_ INSERTBUTTONA** (ANSI) <br/>           |
 

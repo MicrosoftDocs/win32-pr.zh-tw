@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e189eb1784a4ff24b799c7a4d4482d0f56b20e3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 57682252c36284a89a3fb659c69446902c3d0181cbf82d494b200b5769e087e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106969494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808276"
 ---
 # <a name="arrays-attribute"></a>陣列屬性
 
@@ -67,14 +67,14 @@ typedef [ [type-attr-list] ] union [ tag ]
 *指標-decl* 
 </dt> <dd>
 
-指定零個或多個指標宣告子。 指標宣告子與 C 中所使用的指標宣告子相同，它是由 **\*** 指示項、 **目前** 的修飾詞和限定詞 [**const**](const.md)所構成。
+指定零個或多個指標宣告子。 指標宣告子與 C 中所使用的指標宣告子相同，它是以 **\* *_ 指示項、修飾詞（例如 _* 遠**）和限定詞 [**const**](const.md)等修飾詞所構成。
 
 </dd> <dt>
 
 *陣列-宣告子* 
 </dt> <dd>
 
-指定陣列的名稱，後面接著陣列的每個維度的下列其中一種結構： "**\[ \]**"、" **\[\*\]** "、"**\[ ***const1*** \]**" 或 "**\[ ***lower .。。*** upper \]**：*較低* 和 *上限* 是代表下限和上限的常數值。 常數 *下限* 必須評估為零。
+指定陣列的名稱，後面接著陣列的每個維度的下列其中一種結構： "**\[ \]**"、" **\[\*\]** "、" **\[** _const1_ *_\]_* " 或 " **\[** _lower .。。upper_ *_\]_* ：*較低* 和 *上限* 是代表下限和上限的常數值。 常數 *下限* 必須評估為零。
 
 </dd> <dt>
 
@@ -191,9 +191,9 @@ MIDL 中的陣列使用類似于但與 C 和 c + + 不完全相同的樣式。 �
 [**獨特**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

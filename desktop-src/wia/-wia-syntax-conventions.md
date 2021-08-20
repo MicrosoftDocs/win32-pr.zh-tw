@@ -1,5 +1,5 @@
 ---
-description: 下表列出 Windows 映像取得 (WIA) 腳本模型參考的語法語句中所使用的詞彙。
+description: 下表列出 Windows 影像取得的語法語句中所使用的詞彙 (WIA) 腳本模型參考。
 ms.assetid: 97c84691-947e-4143-a367-fcc576f1e5cc
 title: 語法慣例
 ms.topic: article
@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d9fc996131807f43691d8c0658ea8c8c2a350080
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e163f8f7fa517728d9ed18e71f28b7108fa4f9ce07c6de0bedf9c8a0f16f2209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117669172"
 ---
 # <a name="syntax-conventions"></a>語法慣例
 
-下表列出 Windows 映像取得 (WIA) 腳本模型參考的語法語句中所使用的詞彙。 
+下表列出 Windows 影像取得的語法語句中所使用的詞彙 (WIA) 腳本模型參考。 
 
 | 詞彙                      | 描述                                                    |
 |---------------------------|----------------------------------------------------------------|

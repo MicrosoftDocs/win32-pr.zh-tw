@@ -4,12 +4,12 @@ ms.assetid: 3434ea7d-edc3-a8eb-3481-9e76ba724800
 title: DirectXMath 程式庫向量載入函式
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fe794550cc3363101897c2a44fed5965dd9db31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51842e117cc55cc94e93bb5e06179d735b6e6666af138bc6c23ede9ed928028d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087711"
 ---
 # <a name="directxmath-library-vector-load-functions"></a>DirectXMath 程式庫向量載入函式
 

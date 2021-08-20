@@ -7,12 +7,12 @@ keywords:
 - COM MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9ea38ef85baa03890e323b4ba9d5eae4f295429
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8efed184c8fe241a0028b210a33f695bec197a4a6591e8837e0e2e0343ee4ed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991336"
 ---
 # <a name="files-generated-for-a-com-interface"></a>針對 COM 介面產生的檔案
 
@@ -27,6 +27,6 @@ ms.locfileid: "103933163"
 
 如需詳細資訊，請參閱 [應用程式佈建檔 (ACF)](application-configuration-file-acf-.md)、 [**/App \_ config**](-app-config.md)、 [介面定義 (IDL)](interface-definition-idl-file.md)檔案，以及 [建立和註冊 Proxy DLL](../com/building-and-registering-a-proxy-dll.md)。
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 3b1e1ebb2b948d5a933b59e86c8753b6b68a3a94
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f082a821779cc6e2182e88cf9742c87de0417e7ac297fda2f799ca5878d4ce67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975768"
 ---
 # <a name="qualifierorganizationname-property"></a>OrganizationName 屬性
 

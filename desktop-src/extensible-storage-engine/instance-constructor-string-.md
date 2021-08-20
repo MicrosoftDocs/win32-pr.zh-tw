@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8cf184fc9b8d921b1d8bd1003b960bc65a6ffb75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8d6ead15b89d2d71966c0421e496aad37715a0548f033b5f28b09d1605edb05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117895840"
 ---
 # <a name="instance-constructor-string"></a> (字串) 的實例函式
 

@@ -3,7 +3,7 @@ title: SplitButton 元素
 description: 表示標準分割按鈕控制項。
 ms.assetid: dece1100-ed04-49a3-a16d-3c5d5e7a2225
 keywords:
-- SplitButton 元素視窗功能區
+- SplitButton 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cf03d85dd0402548d02f107dafb209b68c13bb72
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 53445bc3f57f8a861800f9edcd95d8af2ecfbd54f4055cf8787695dab1f25cb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850770"
 ---
 # <a name="splitbutton-element"></a>SplitButton 元素
 
@@ -57,14 +57,14 @@ ms.locfileid: "111444399"
 <tr class="odd">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>只有在 <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> 是父元素時才有效。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 字串，其中包含0到31之間的整數清單（以逗號分隔）。<br/> 空白字元是有效的，而且會被忽略。<br/> 最大長度：250個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
@@ -80,7 +80,7 @@ ms.locfileid: "111444399"
 | 元素                                                                                   | 描述                                        |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                                 | 可能會發生一次或多次<br/> <br/> |
-| [**相應**](windowsribbon-element-checkbox.md)<br/>                             | 可能會發生一次或多次<br/> <br/> |
+| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                             | 可能會發生一次或多次<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>                 | 可能會發生一次或多次<br/> <br/> |
 | [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)<br/>       | 可能會發生一次或多次<br/> <br/> |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br/>               | 可能會發生一次或多次<br/> <br/> |
@@ -100,7 +100,7 @@ ms.locfileid: "111444399"
 |-----------------------------------------------------------------------------------|
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>             |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br/>       |
-| [**群組**](windowsribbon-element-group.md)<br/>                           |
+| [**Group**](windowsribbon-element-group.md)<br/>                           |
 | [**MenuGroup**](windowsribbon-element-menugroup.md)<br/>                   |
 | **SplitButton**<br/>                                                        |
 | [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md)<br/> |
@@ -120,7 +120,7 @@ ms.locfileid: "111444399"
 如果下列專案不是 **SplitButton** 的子項目，則 [**SplitButton MenuGroups**](windowsribbon-element-splitbutton-menugroups.md)必須發生一次：
 
 -   [**按鈕**](windowsribbon-element-button.md)
--   [**相應**](windowsribbon-element-checkbox.md)
+-   [**CheckBox**](windowsribbon-element-checkbox.md)
 -   [**DropDownButton**](windowsribbon-element-dropdownbutton.md)
 -   [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)
 -   [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)

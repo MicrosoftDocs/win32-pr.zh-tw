@@ -3,7 +3,7 @@ title: 使用標記
 description: 使用標記
 ms.assetid: b801c985-4ec7-441e-9f8a-40c69b1299a9
 keywords:
-- Windows Media Format SDK，標記
+- Windows媒體格式 SDK，標記
 - Advanced Systems Format (ASF) ，標記
 - ASF (Advanced Systems Format) ，標記
 - Advanced Systems Format (ASF) ，搜尋標記
@@ -15,12 +15,12 @@ keywords:
 - 標記，搜尋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44cc585b8c71e3bfbae85953650809ad031d36a2
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 2db0dc3db399e0c7a8a649d8be14fcae434f20845d47cdc3f558dd33ce241b2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103681561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845066"
 ---
 # <a name="using-markers"></a>使用標記
 
@@ -151,9 +151,9 @@ if (SUCCEEDED(hr))
 [**使用中繼資料**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

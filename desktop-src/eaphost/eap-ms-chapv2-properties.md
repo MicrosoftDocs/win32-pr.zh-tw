@@ -4,12 +4,12 @@ description: 瞭解 EAP MS-CHAPv2 使用者屬性。 請參閱 mschapv2userprope
 ms.assetid: f360913d-be5d-4ef0-96c9-652e4d08d9cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0082d1672d32b87fe98816fb5baeac791df343d0
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 334405e8c06105f3396ad533138128666421ba51b4c514f4a0bd99f9b9caa30a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086577"
 ---
 # <a name="eap-ms-chapv2-user-properties"></a>EAP MS-CHAPv2 使用者屬性
 
@@ -51,9 +51,9 @@ ms.locfileid: "104383134"
 [EAPHost 和舊版架構](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

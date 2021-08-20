@@ -4,12 +4,12 @@ ms.assetid: 6377d937-5739-45f5-9195-5d18be4069ce
 title: VSS 下的事件和錯誤處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7f6f1220d9d150fd0d03f7ffeff4dbdd1f6256f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 431974532a8b24fd83fbeec62d3c593842b7fd1cede0b22c58f33f891b6b1359
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122107"
 ---
 # <a name="event-and-error-handling-under-vss"></a>VSS 下的事件和錯誤處理
 
