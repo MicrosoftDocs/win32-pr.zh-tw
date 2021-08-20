@@ -4,12 +4,12 @@ ms.assetid: 18fc5b23-91ac-4c25-a7a0-e01ebc49336a
 title: IUpdateDownloader 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db2ea9b6046ab52b41f40cb3111a99c13d87986
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 124bb4120647772b8da38d919e22ef2987dd460ccab3902f79f8cc1c7d9a69c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611228"
 ---
 # <a name="iupdatedownloader-methods"></a>IUpdateDownloader 方法
 

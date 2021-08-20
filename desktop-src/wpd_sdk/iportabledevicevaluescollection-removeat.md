@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 7db15480906bee8181bb0fc589c4f3e30ce4753c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2796fd44016854d03322b8dfa0a11ce85d1afce16b9ae17cae02a6fc53804f97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963547"
 ---
 # <a name="iportabledevicevaluescollectionremoveat-method"></a>IPortableDeviceValuesCollection：： RemoveAt 方法
 
@@ -53,7 +53,7 @@ HRESULT RemoveAt(
 
 
 
-| 傳回碼                                                                                  | Description                                      |
+| 傳回碼                                                                                  | 描述                                      |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 此方法已成功。<br/>                 |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | 指定的索引超出範圍。<br/> |

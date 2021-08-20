@@ -4,12 +4,12 @@ ms.assetid: 521ba95b-1f2d-4ad0-ab9b-4f1e3343a2d3
 title: 通知 CBasePin 篩選狀態變更
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49dad6fabc162eb2384283ce2fc8914f76707036
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7193402331f150f88217e2d200279e93314c40a9056f52bc31d8100106d4f960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118152988"
 ---
 # <a name="notifying-cbasepin-of-filter-state-changes"></a>通知 CBasePin 篩選狀態變更
 

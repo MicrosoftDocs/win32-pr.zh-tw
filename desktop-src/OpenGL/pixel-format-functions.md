@@ -19,7 +19,7 @@ ms.locfileid: "119486328"
 
 
 
-| Windows功能                                               | Description                                                                                                                                                           |
+| Windows功能                                               | 描述                                                                                                                                                           |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat)                 | 取得裝置內容的像素格式，此格式最符合指定的像素格式。                                                                      |
 | [**SetPixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-setpixelformat)                       | 將裝置內容的目前像素格式設定為像素格式索引所指定的像素格式。                                                                   |

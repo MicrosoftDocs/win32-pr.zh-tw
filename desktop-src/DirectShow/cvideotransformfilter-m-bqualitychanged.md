@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6a40906a04a385d58e06a505195e9d61f07b349b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 60cf48188a4de7fe244bff2d008b3a27bd5824870aff52ee0647fbe2ad55c2d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118155862"
 ---
 # <a name="cvideotransformfilterm_bqualitychanged-member"></a>CVideoTransformFilter：： m \_ bQualityChanged 成員
 

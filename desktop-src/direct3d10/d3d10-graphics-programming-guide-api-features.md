@@ -4,16 +4,16 @@ ms.assetid: 2e24de6c-4f73-4844-b87f-3487ef069db6
 title: " (Direct3D 10) 的 API 功能"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab12285509441bb429c78d995e68ed1753ceb5bd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 416018fcddf2643ba9fbc8e633ec2f636b8158ff329780a55205034e5dbbe240
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858658"
 ---
 # <a name="api-features-direct3d-10"></a> (Direct3D 10) 的 API 功能
 
-Direct3D 10 圖形管線代表基本的架構變更，從硬體和軟體的基礎中重建，以增強下一代的遊戲和3D 多媒體應用程式。 它使用 Windows 顯示驅動程式模型 (WDDM) ，可啟用效能和行為的增強功能，例如虛擬 GPU 記憶體。
+Direct3D 10 圖形管線代表基本的架構變更，從硬體和軟體的基礎中重建，以增強下一代的遊戲和3D 多媒體應用程式。 它會使用 Windows 顯示驅動程式模型 (WDDM) ，以啟用效能和行為增強功能，例如虛擬 GPU 記憶體。
 
 熟悉 Direct3D 9 的開發人員將探索 Direct3D 10 中一系列的功能增強功能和效能改進，包括：
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - UpdateEndpointAuth.h
-ms.openlocfilehash: c978841511b7cfff895a15936a41d169a8500927
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9e3efbff48097dcede12d5c8d3117171ef622f20a3bf017b12c6d3ce13a1c00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118814710"
 ---
 # <a name="updateendpointauthtokentype-enumeration"></a>UpdateEndpointAuthTokenType 列舉
 
@@ -60,10 +60,10 @@ typedef enum tagUpdateEndpointAuthTokenType {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                              |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                              |
 | 標頭<br/>                   | <dl> <dt>UpdateEndpointAuth。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
 
 
 

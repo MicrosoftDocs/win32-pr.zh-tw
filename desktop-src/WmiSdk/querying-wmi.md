@@ -1,20 +1,20 @@
 ---
-description: Windows Management Instrumentation (WMI) 的主要工具之一，就是能夠查詢 WMI 存放庫中的類別和實例資訊。
+description: Windows Management Instrumentation (wmi) 的主要工具之一，就是能夠查詢 wmi 存放庫中的類別和實例資訊。
 ms.assetid: 0cceda42-fba0-4a08-90dd-43f022d0be41
 ms.tgt_platform: multiple
 title: 查詢 WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdae44d4c40e1127bfc4d3436d6230eafd52146a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfc9cd51946bad1df482bb286c538e38bba8e2b3337776e3cd62e0a0da652574
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817536"
 ---
 # <a name="querying-wmi"></a>查詢 WMI
 
-Windows Management Instrumentation (WMI) 的主要工具之一，就是能夠查詢 WMI 存放庫中的類別和實例資訊。 例如，您可以要求 WMI 傳回代表桌面系統關機事件的所有物件。 您也可以取出類別、實例或架構資料。 下表列出您可以進行的不同查詢類型。
+Windows Management Instrumentation (wmi) 的主要工具之一，就是能夠查詢 wmi 存放庫中的類別和實例資訊。 例如，您可以要求 WMI 傳回代表桌面系統關機事件的所有物件。 您也可以取出類別、實例或架構資料。 下表列出您可以進行的不同查詢類型。
 
 
 

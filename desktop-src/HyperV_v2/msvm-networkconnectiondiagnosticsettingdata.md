@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ec0df1957df6c925cf12ce363c89a0bdad52d3e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da7774e2cf9f36460b1f153d1b498e0c2fa18a19078442ffd5226b9d2dcdb174
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521008"
 ---
 # <a name="msvm_networkconnectiondiagnosticsettingdata-class"></a>Msvm \_ NetworkConnectionDiagnosticSettingData 類別
 

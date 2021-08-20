@@ -1,4 +1,4 @@
-- name: Windows 控制項
+- name: Windows控制
   href: window-controls.md
   items:
     - name: 關於通用控制項
@@ -11,9 +11,9 @@
         - name: 通用控制項的 Unicode 支援
           href: unicode-support.md
         - name: 通用控制項的當地語系化支援
-          href: cc-faq-localization.md
+          href: cc-faq-localization.yml
         - name: 通用控制項常見問題
-          href: cc-faq.md
+          href: cc-faq.yml
     - name: 控制訊息
       href: control-messages.md
     - name: 自訂控制項
@@ -108,7 +108,7 @@
                   items:
                     - name: 動畫控制項樣式
                       href: animation-control-styles.md
-        - name: 按鈕
+        - name: Button
           href: buttons.md
           items:
             - name: 按鈕控制項總覽
@@ -5391,9 +5391,9 @@
                     - name: 如何搭配使用熱追蹤與工具列
                       href: use-hot-tracking-with-toolbars.md
                     - name: 如何建立 Internet Explorer 樣式的工具列
-                      href: cc-faq-ietoolbar.md
+                      href: cc-faq-ietoolbar.yml
                     - name: 如何建立 Internet Explorer 樣式的功能表列
-                      href: cc-faq-iemenubar.md
+                      href: cc-faq-iemenubar.yml
             - name: Toolbar 控制項參考
               href: bumper-toolbar-toolbar-control-reference.md
               items:
@@ -5861,7 +5861,7 @@
                       href: process-trackbar-notification-messages.md
                     - name: 如何限制滑杆移動
                       href: limit-slider-movement.md
-                    - name: 如何使用好友視窗
+                    - name: 如何使用好友 Windows
                       href: use-buddy-windows.md
             - name: '[摘要] 控制項參考'
               href: bumper-trackbar-trackbar-control-reference.md

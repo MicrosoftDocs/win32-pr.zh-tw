@@ -3,7 +3,7 @@ title: 'TBM_GETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: TBM_GETUNICODEFORMAT 訊息-抓取控制項的 Unicode 字元格式旗標。
 ms.assetid: cecd7e55-f482-4381-bde8-a60b8c5173eb
 keywords:
-- TBM_GETUNICODEFORMAT message Windows 控制項
+- TBM_GETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82e7424a4e561ee8f8be79135309089fe4bb0bf9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7e15f5b12a60b58958dad1364848120f391c91906bb6057727f3a4e22b8a7813
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046168"
 ---
 # <a name="tbm_getunicodeformat-message"></a>TBM \_ GETUNICODEFORMAT 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "108104086"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

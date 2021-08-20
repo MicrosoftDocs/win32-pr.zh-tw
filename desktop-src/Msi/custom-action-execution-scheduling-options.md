@@ -4,12 +4,12 @@ ms.assetid: a3ffeecb-cdd6-43af-a3fe-48e3e843ec8b
 title: 自訂動作執行排程選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bfa5aee44f3ad357eefc6f9dd9c5ee5ae45797c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91adbee99684a5a9db0701c2371c8c517547b4d91881518d72fe7c25c0d189be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520098"
 ---
 # <a name="custom-action-execution-scheduling-options"></a>自訂動作執行排程選項
 
@@ -20,7 +20,7 @@ ms.locfileid: "106986981"
 -   預設會立即在順序資料表中執行動作。
 -   如果 sequence 資料表的條件運算式欄位評估為 False，則不會執行動作。
 -   如果內部使用者的介面層級設定為完整的 UI 模式，則處理用戶端進程中的 UI 順序資料表 (如需) 的 UI 層級描述，請參閱 [**MsiSetInternalUI**](/windows/desktop/api/Msi/nf-msi-msisetinternalui) 。
--   是使用 Windows 2000 時預設註冊的服務，在此情況下，會在安裝程式服務中處理執行順序資料表。
+-   是使用 Windows 2000 時，預設會註冊的服務，在此情況下，會在安裝程式服務中處理執行順序資料表。
 
 您可以使用下列選項旗標來控制多個立即執行自訂動作。 若要設定選項，請將此資料表中的值加入至 [CustomAction 資料表](customaction-table.md)之 [類型] 欄位中的值。 下列旗標都不應搭配延後 [執行自訂動作](deferred-execution-custom-actions.md)使用。
 

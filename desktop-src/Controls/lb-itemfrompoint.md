@@ -3,7 +3,7 @@ title: 'LB_ITEMFROMPOINT 訊息 (Winuser .h) '
 description: 取得最接近清單方塊中指定點之專案的以零為基底的索引。
 ms.assetid: 5739eccb-e708-4ddb-ac97-d3e6c6120842
 keywords:
-- LB_ITEMFROMPOINT message Windows 控制項
+- LB_ITEMFROMPOINT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5c4f06b9de8e6580c81c7faf7ddb8c287a148b3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddddd58780cb4b140501c567d699373cb1fa03cbf212332bea71611a4add3788
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575928"
 ---
 # <a name="lb_itemfrompoint-message"></a>LB \_ ITEMFROMPOINT 訊息
 
@@ -55,9 +55,9 @@ ms.locfileid: "103686288"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

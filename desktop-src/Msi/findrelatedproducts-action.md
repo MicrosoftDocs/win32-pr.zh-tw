@@ -4,12 +4,12 @@ ms.assetid: 7efcb767-9bdf-43a4-83b8-61b6fc84adf6
 title: FindRelatedProducts 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a87973631e51315df17a156bc8c57aa9facd84f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8201a2e86f9dec09931b17cd4dd594c45e4bf78de32ba438b8824a6f540563fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142877"
 ---
 # <a name="findrelatedproducts-action"></a>FindRelatedProducts 動作
 
@@ -27,7 +27,7 @@ FindRelatedProducts 動作會依序執行每個 [升級資料表](upgrade-table.
 
 FindRelatedProducts 動作會使用 [**UpgradeCode**](upgradecode.md) 屬性以及撰寫到升級資料表中的版本和語言資訊，來偵測受擱置升級影響的已安裝產品。 它會將偵測到之產品的產品代碼附加至 UpgradeTable 的 ActionProperty 資料行中的屬性。
 
-FindRelatedProducts 只會辨識已使用 Windows Installer 安裝的現有產品，以及定義 [**UpgradeCode**](upgradecode.md) 屬性、 [**ProductVersion**](productversion.md) 屬性和 [**ProductLanguage**](productlanguage.md) 屬性值的現有產品，這是 [ [**範本摘要**](template-summary.md) ] 屬性中所列的其中一種語言。
+FindRelatedProducts 只會辨識已使用 Windows Installer 安裝的現有產品，且 .msi 會定義 [**UpgradeCode**](upgradecode.md)屬性、 [**ProductVersion**](productversion.md)屬性和 [**ProductLanguage**](productlanguage.md)屬性的值，這是 [[**範本摘要**](template-summary.md)] 屬性中所列的其中一種語言。
 
 請注意，FindRelatedProducts 會使用 [**MsiGetProductInfo**](/windows/desktop/api/Msi/nf-msi-msigetproductinfoa)所傳回的語言。 若要讓 FindRelatedProducts 正常運作，封裝作者必須確定 [屬性工作表](property-table.md)中的 [**ProductLanguage**](productlanguage.md)屬性已設定為也列在 [[**範本摘要**](template-summary.md)] 屬性中的語言。 請參閱 [準備應用程式以進行未來的主要升級](preparing-an-application-for-future-major-upgrades.md)。
 

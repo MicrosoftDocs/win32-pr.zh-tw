@@ -4,16 +4,16 @@ ms.assetid: 7f05d62e-2bcc-4d98-8a71-97ed20a12af2
 title: 修改已知會議
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5bd58003b276bd3cdd54da2e7ed0df4f154311e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00b139b05f70f801a28b91ecb6c2773fd740f10df7c0fd2b8e86b904b210cc50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575598"
 ---
 # <a name="modifying-a-known-conference"></a>修改已知會議
 
-\[在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 下列程式碼片段說明會議時間範圍的修改。 預設的時間範圍是三十分鐘。 在此片段中，時間範圍設定為一年。
 

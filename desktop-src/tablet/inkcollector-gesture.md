@@ -4,12 +4,12 @@ ms.assetid: 5830f7f8-2870-4194-ab3e-b63b71e97063
 title: 'InkCollector 的軌跡事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bfc2fea09060dbb206cd7681bcecfbedbc7a6b4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 375eff3a48be71d328edfae1bd0c749e9471af44b6f1a91ec8e0bde065282c74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118043232"
 ---
 # <a name="inkcollectorgesture-event"></a>InkCollector 手勢事件
 
@@ -100,7 +100,7 @@ void Gesture(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

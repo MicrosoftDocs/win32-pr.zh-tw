@@ -4,12 +4,12 @@ ms.assetid: c1405bfc-47f8-4aaf-a055-28557935141b
 title: 元件開發
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 164183bd7d1f36b8d9f81ad4924f8775ce938bca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07482e36cf518caf0a19dad5f0d62d8d282e634f2c85b895b56621df6e4dad83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118033196"
 ---
 # <a name="component-development"></a>元件開發
 
@@ -30,7 +30,7 @@ Windows 影像處理元件 (WIC) 是可延伸的平臺，可為數字影像提�
 
 ## <a name="see-also"></a>另請參閱
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 
 
 [程式設計指南](-wic-programming-guide.md)

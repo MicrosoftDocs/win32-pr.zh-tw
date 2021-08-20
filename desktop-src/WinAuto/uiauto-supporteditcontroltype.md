@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，編輯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de7dffb572497df47d65def91dda22f3b8e59299
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 22a474b2533159fe535ae012f8e621bad7685109f497821a44fbfecc13fe79ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826141"
 ---
 # <a name="edit-control-type"></a>編輯控制項類型
 
@@ -76,7 +76,7 @@ ms.locfileid: "103839967"
 
 
 
- 
+ 
 
 執行 **編輯** 控制項類型的控制項在消費者介面自動化樹狀結構的控制項視圖中一律會有零個捲軸，因為這是單行控制項。 在某些配置案例中，單行文字可能會換行。 **編輯** 控制項類型只適用于少量的文字。
 
@@ -102,7 +102,7 @@ ms.locfileid: "103839967"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -114,7 +114,7 @@ ms.locfileid: "103839967"
 |---------------------------------------------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IRangeValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irangevalueprovider)     | 相依       | 所有採用數位範圍的編輯控制項都必須公開 [RangeValue](uiauto-implementingrangevalue.md) 控制項模式。                                                                                                                                                                                                                                                                                       |
 | [**最小值**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum)         | 請參閱備註。    | 這個屬性必須是編輯控制項內容可以設定的最小值。                                                                                                                                                                                                                                                                                                                     |
-| [**最大**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | 請參閱備註。    | 這個屬性必須是編輯控制項內容可以設定的最大值。                                                                                                                                                                                                                                                                                                                      |
+| [**最大值**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | 請參閱備註。    | 這個屬性必須是編輯控制項內容可以設定的最大值。                                                                                                                                                                                                                                                                                                                      |
 | [**SmallChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_smallchange) | 請參閱備註。    | 這個屬性必須指定該值可以設定的小數位數。 如果編輯控制項只接受整數， **SmallChange** 屬性值必須是1。 如果編輯控制項接受從1.0 到2.0 的範圍，則 **SmallChange** 屬性值必須是0.1。 如果編輯控制項接受從1.00 到2.00 的範圍，則 **SmallChange** 屬性值必須是0.001。                   |
 | [**LargeChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_largechange) | **NULL**      | 編輯控制項無須公開這個屬性。                                                                                                                                                                                                                                                                                                                                                      |
 | [**值**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_value)             | 請參閱備註。    | 這個屬性會指出編輯控制項的數值內容。 在 [ [**最小**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum) 值] 和 [ [**最大**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum) 值] 屬性指定的範圍內，消費者介面自動化用戶端設定更精確的值時，[ [**值**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_value) ] 屬性會自動四捨五入至最接近的接受值。 |
@@ -125,7 +125,7 @@ ms.locfileid: "103839967"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -154,13 +154,13 @@ ms.locfileid: "103839967"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
 編輯控制項可以當做唯讀文字欄位使用，不支援選取或編輯文字。 這類編輯控制項的行為就像是具有特定名稱和值的欄位物件。
 
-如果編輯控制項包含預留位置文字 (例如，提示橫幅) ，除非使用者可以編輯文字，然後重複使用做為預留位置文字，否則應該將文字當做 **HelpText** 屬性使用。 例如，當開啟新索引標籤時，Windows Internet Explorer 網址列會包含 "about： Tab" 文字。 這並不 **HelpText** ，因為它是程式設計的位址，可供使用者使用或編輯。
+如果編輯控制項包含預留位置文字 (例如，提示橫幅) ，除非使用者可以編輯文字，然後重複使用做為預留位置文字，否則應該將文字當做 **HelpText** 屬性使用。 例如，開啟新索引標籤時，Windows Internet Explorer 位址列包含文字 "about： tab"。 這並不 **HelpText** ，因為它是程式設計的位址，可供使用者使用或編輯。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -175,9 +175,9 @@ ms.locfileid: "103839967"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

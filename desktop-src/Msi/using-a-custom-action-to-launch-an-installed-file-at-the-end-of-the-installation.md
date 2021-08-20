@@ -4,12 +4,12 @@ ms.assetid: 6b082559-bcfa-4098-b072-27ee78092833
 title: 使用自訂動作在安裝結束時啟動已安裝的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e5c039d58830ce6a01f76a0946bced474e5091b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 108ae06dae331660fe5c4f1ff8740a5fdb7e76f5eab27794fafcd7a4495296ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141471"
 ---
 # <a name="using-a-custom-action-to-launch-an-installed-file-at-the-end-of-the-installation"></a>使用自訂動作在安裝結束時啟動已安裝的檔案
 

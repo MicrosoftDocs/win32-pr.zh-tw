@@ -4,12 +4,12 @@ ms.assetid: d3a9d73e-fb77-4be3-a881-c258bcc587fe
 title: 依名稱抓取符號資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f5f4477be4f494383c7d9c1ca462f3beb69690
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 76ec0a04ef2cac9dcd8256f8d00ff59b00bec449cdb4b5661566e7087e782cdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076362"
 ---
 # <a name="retrieving-symbol-information-by-name"></a>依名稱抓取符號資訊
 

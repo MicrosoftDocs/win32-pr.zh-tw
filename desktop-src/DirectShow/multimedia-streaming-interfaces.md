@@ -4,17 +4,17 @@ ms.assetid: 53d639e2-8717-4552-b0d3-b8c500bd38a8
 title: 多媒體串流介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d654bae73ee822f553a1494e3b374cf35b8ac4a1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6b38200d98b0f01b7260508cbf7bd19c6e65efdfb3af78f2efff77be38294e8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104514368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118152954"
 ---
 # <a name="multimedia-streaming-interfaces"></a>多媒體串流介面
 
 > [!Note]  
-> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md) 篩選器或執行自訂篩選，以從 DirectShow 篩選圖形取得資料。
+> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md)篩選器或執行自訂篩選，以從 DirectShow 的篩選圖形取得資料。
 
  
 
@@ -24,10 +24,10 @@ ms.locfileid: "104514368"
 
 | 介面                                                  | 描述                                                                                                                                             |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IAMMediaStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammediastream)                   | 處理在使用多媒體串流的應用程式中，DirectShow 篩選和篩選圖形之間的內部連接。                            |
+| [**IAMMediaStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammediastream)                   | 在使用多媒體串流的應用程式中，處理 DirectShow 篩選和篩選圖形之間的內部連接。                            |
 | [**IAMMediaTypeSample**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammediatypesample)           | 包含使用任意媒體類型運算元據流範例的方法。                                                                            |
 | [**IAMMediaTypeStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammediatypestream)           | 包含用來建立具有任意媒體類型之多媒體資料流程的方法。                                                                            |
-| [**IAMMultiMediaStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammultimediastream)         | 將 DirectShow 功能公開給多媒體串流開發人員。                                                                                       |
+| [**IAMMultiMediaStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammultimediastream)         | 公開多媒體串流開發人員的 DirectShow 功能。                                                                                       |
 | [**IAudioData**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiodata)                           | 提供可讓應用程式設定和取得音訊串流將會參考之基礎音訊資料的方法。                                   |
 | [**IAudioMediaStream**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiomediastream)             | 提供可設定和取得資料流程格式的方法，以控制音訊媒體資料流程。                                                                 |
 | [**IAudioStreamSample**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiostreamsample)           | 從基礎 [**IAudioData**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiodata) 資料物件中抓取資訊。                                                                |

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 存取 c + + 中的效能資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b076e1ab15b934f347ee491711d7d3d1b8fbbe0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e566fb5803e598e42fac06d8f04fe3e71935008668e397a47d0226a96560eec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106999947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820325"
 ---
 # <a name="accessing-performance-data-in-c"></a>存取 c + + 中的效能資料
 

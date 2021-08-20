@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 43a537728ca0874fa1dfd69b4712bcc97cf23850
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e590a09c2c6d4cc34728f5ec29db0d8f650d3a1e9cb663e5993acd2cebe4793f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157352"
 ---
 # <a name="cbaserendererwaitforrendertime-method"></a>CBaseRenderer. WaitForRenderTime 方法
 
@@ -46,7 +46,7 @@ virtual HRESULT WaitForRenderTime();
 
 
 
-| 傳回碼                                                                                           | Description                                                               |
+| 傳回碼                                                                                           | 描述                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>                                                       |
 | <dl> <dt>**VFW \_ E \_ 狀態 \_ 已變更**</dt> </dl> | 篩選準則狀態會在呈現時間到達之前變更。<br/> |

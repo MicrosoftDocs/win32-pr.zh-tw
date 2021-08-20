@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: cc7b15af3d3033487464fe7b29a93dc649ffbd62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32596a46abaa6d745223ab01f8da734e167909f01621deef85f0b21ddfc0b99e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146893"
 ---
 # <a name="msvm_securityservice-class"></a>Msvm \_ SecurityService 類別
 

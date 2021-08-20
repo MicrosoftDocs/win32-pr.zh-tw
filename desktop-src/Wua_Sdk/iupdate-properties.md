@@ -4,12 +4,12 @@ ms.assetid: d87544f1-a107-440f-8ce0-77d9f2d90578
 title: IUpdate 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df3f67f95936ea54dd09131e605da9e439caa43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b93db8e7d8d6786e3f3f827d9eb2e9f97c43aae4781edf0a05fcf6d03e8fb1f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859858"
 ---
 # <a name="iupdate-properties"></a>IUpdate 屬性
 
@@ -34,7 +34,7 @@ ms.locfileid: "104511789"
 | [**EulaText**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_eulatext)                                               | 取得與更新相關聯之 Microsoft 軟體授權條款的完整當地語系化文字。                                                                           |
 | [**HandlerID**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_handlerid)                                             | 取得更新的安裝處理常式。                                                                                                                                             |
 | [**身分識別**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_identity)                                               | 取得包含更新之唯一識別碼的介面。                                                                                                                |
-| [**Image**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_image)                                                     | 取得介面，其中包含與更新相關聯之影像的相關資訊。                                                                                      |
+| [**映像**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_image)                                                     | 取得介面，其中包含與更新相關聯之影像的相關資訊。                                                                                      |
 | [**InstallationBehavior**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_installationbehavior)                       | 取得包含更新安裝選項的介面。                                                                                                             |
 | [**IsBeta**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isbeta)                                                   | 取得布林值，指出更新是否為搶鮮版（Beta）。                                                                                                           |
 | [**IsDownloaded**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_isdownloaded)                                       | 取得布林值，指出是否在電腦上快取所有更新內容。                                                                                       |

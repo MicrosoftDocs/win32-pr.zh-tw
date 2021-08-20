@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24addeabd95de8b494f1ca1967fbe169d9f25341
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 99a5c509bc3a7119790f727f35f6f588555825cc679c59abbced5c62421a89a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580568"
 ---
 # <a name="self-membership-validated-writes"></a>Self-Membership 驗證的寫入
 

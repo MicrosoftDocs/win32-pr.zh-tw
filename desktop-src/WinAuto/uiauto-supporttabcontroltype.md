@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，Tab
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 769a03617830c33fce4a8f64c594010b2120785b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f6a83263db87a68e258598ea46ca903af2ddb39c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932342"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482494"
 ---
 # <a name="tab-control-type"></a>索引標籤控制項類型
 
@@ -50,91 +50,29 @@ ms.locfileid: "103932342"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>索引標籤
-<ul>
-<li>TabItem (1 個以上)</li>
-<li>捲軸 (0 或 1 個)
-<ul>
-<li>按鈕 (0 或 2 個)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>索引標籤
-<ul>
-<li>TabItem (1 個以上)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>索引標籤<ul><li>TabItem (1 個以上)</li><li>捲軸 (0 或 1 個)<ul><li>按鈕 (0 或 2 個)</li></ul></li></ul></li></ul> | <ul><li>索引標籤<ul><li>TabItem (1 個以上)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 索引標籤控制項根據 [TabItem](uiauto-supporttabitemcontroltype.md) 控制項類型，有子消費者介面自動化專案。 當索引標籤專案分組時 (例如 Microsoft Office 應用程式中) **選項卡** 控制項類型也可以裝載 **群組** 索引標籤專案的群組控制項類型，如下列樹狀結構所示。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>索引標籤
-<ul>
-<li>TabItem (1 個以上)</li>
-<li>Group (0 個以上)
-<ul>
-<li>TabItem (0 個以上)</li>
-</ul></li>
-<li>捲軸 (0 或 1 個)
-<ul>
-<li>按鈕 (0 或 2 個)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>索引標籤
-<ul>
-<li>TabItem (1 個以上)</li>
-<li>Group (0 個以上)
-<ul>
-<li>TabItem (0 個以上)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>索引標籤<ul><li>TabItem (1 個以上)</li><li>Group (0 個以上)<ul><li>TabItem (0 個以上)</li></ul></li><li>捲軸 (0 或 1 個)<ul><li>按鈕 (0 或 2 個)</li></ul></li></ul></li></ul> | <ul><li>索引標籤<ul><li>TabItem (1 個以上)</li><li>Group (0 個以上)<ul><li>TabItem (0 個以上)</li></ul></li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>相關屬性
 
@@ -146,7 +84,7 @@ ms.locfileid: "103932342"
 |---------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | 請參閱備註。 | 這個屬性的值在消費者介面自動化樹狀結構的原始視圖中的所有對等元素之間必須是唯一的。                                                                                                                                                                                                                                                                  |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | 請參閱備註。 | 包含整個控制項的最外層矩形。                                                                                                                                                                                                                                                                                                                      |
-| [**UIA \_ ClickablePointPropertyId**](uiauto-automation-element-propids.md)             | No         | 索引標籤控制項沒有可點按的點。                                                                                                                                                                                                                                                                                                                               |
+| [**UIA \_ ClickablePointPropertyId**](uiauto-automation-element-propids.md)             | 否         | 索引標籤控制項沒有可點按的點。                                                                                                                                                                                                                                                                                                                               |
 | [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | **Tab**    |                                                                                                                                                                                                                                                                                                                                                                               |
 | [**UIA \_ IsContentElementPropertyId**](uiauto-automation-element-propids.md)         | true       | 索引標籤控制項一律包含在消費者介面自動化樹狀結構的內容視圖中。                                                                                                                                                                                                                                                                                             |
 | [**UIA \_ IsControlElementPropertyId**](uiauto-automation-element-propids.md)         | true       | 索引標籤控制項一律包含在消費者介面自動化樹狀結構的控制項視圖中。                                                                                                                                                                                                                                                                                             |
@@ -158,7 +96,7 @@ ms.locfileid: "103932342"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -175,7 +113,7 @@ ms.locfileid: "103932342"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -199,7 +137,7 @@ ms.locfileid: "103932342"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -214,9 +152,9 @@ ms.locfileid: "103932342"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

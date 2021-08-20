@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101441
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 72418bc749ce90e473eb6b418f0b20eaa83cea77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1917c0ce6112fa820c58a7b79ca4e4d3808478256628b7ce9d550eaa323aef00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041590"
 ---
 # <a name="esentdatabasecorruptedexception-methods"></a>EsentDatabaseCorruptedException 方法
 

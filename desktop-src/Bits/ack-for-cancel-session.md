@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b85ff937b720a69ee2722cef2f02b25273ea58d
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: b23de0b23b0b87f559326c37ad61ecd09c38f697f0be48b45e92f5e7389b09fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104024300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588818"
 ---
 # <a name="ack-for-cancel-session"></a>Cancel-Session 的 Ack
 
@@ -99,9 +99,9 @@ BITS-Error-Context: error-context
 [**取消-會話**](cancel-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

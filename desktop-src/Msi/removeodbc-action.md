@@ -4,12 +4,12 @@ ms.assetid: 548984fd-e4f7-4db8-a625-87b4a0a4bdb2
 title: RemoveODBC 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1234ed736a8cb8258bccf3085de92bfb1b324cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6619bc5b8a18cff2ee33dbe45261764c682953bad75a17cb9d6e93cbe487147b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580428"
 ---
 # <a name="removeodbc-action"></a>RemoveODBC 動作
 
@@ -55,7 +55,7 @@ RemoveODBC 動作會移除在安裝期間列出要移除的資料來源、轉譯
 |-------|---------------------------------------------------------|
 | \[1\] | 驅動程式描述。 ODBC 驅動程式金鑰。                |
 | \[2\] | ComponentId                                             |
-| \[3\] | 註冊： SQL \_ 移除 \_ DSN 或 sql \_ 移除 \_ SYS \_ DSN |
+| \[3\] | 註冊： SQL \_ 移除 \_ DSN 或 SQL \_ 移除 \_ SYS \_ DSN |
 
 
 

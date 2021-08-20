@@ -4,12 +4,12 @@ ms.assetid: 832957ca-82fc-4600-b469-512621dde921
 title: 在裝載 DLL、副檔名或主控台的應用程式中啟用元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b04dd19b18c2cdce4783be47333b9afe53dd1ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23ac528c10d7ca0de903c6b132e0349c16061d63f121c390483458b4ef422d66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885538"
 ---
 # <a name="enabling-an-assembly-in-an-application-hosting-a-dll-extension-or-control-panel"></a>在裝載 DLL、副檔名或主控台的應用程式中啟用元件
 

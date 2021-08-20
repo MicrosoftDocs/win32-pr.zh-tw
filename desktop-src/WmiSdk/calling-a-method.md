@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 呼叫 WMI 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c327bbf0c4c90ad05d1c5026e3308e5fd8447aec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1db6c8a74c8125e0bb1727839b8f59f4b486161d5ae629a0c7351481ade016ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820083"
 ---
 # <a name="calling-a-wmi-method"></a>呼叫 WMI 方法
 

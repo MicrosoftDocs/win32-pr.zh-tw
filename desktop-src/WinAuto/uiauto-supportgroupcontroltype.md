@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44b630d0ef736d937e4f024c8131adc4c843b6e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe0cee05f7132a35c8dd3f998ae9af5a89ac2a71
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372127"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477744"
 ---
 # <a name="group-control-type"></a>群組控制項類型
 
@@ -50,38 +50,15 @@ ms.locfileid: "104372127"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>控制項檢視</th>
-<th>內容檢視</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Group
-<ul>
-<li>0 個以上的控制項</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Group
-<ul>
-<li>0 個以上的控制項</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 控制項檢視 | 內容檢視 | 
+|--------------|--------------|
+| <ul><li>Group<ul><li>0 個以上的控制項</li></ul></li></ul> | <ul><li>Group<ul><li>0 個以上的控制項</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 群組控制項通常包含子樹 [中的控制項](uiauto-supportlistitemcontroltype.md)類型消費者介面自動化支援，包括專案組合、 [TreeItem](uiauto-supporttreeitemcontroltype.md)和 [DataItem](uiauto-supportdataitemcontroltype.md) 控制項類型。 因為群組控制項是泛型容器，所以在樹狀結構中的群組控制項下可以有任何類型的控制項。
 
@@ -106,7 +83,7 @@ ms.locfileid: "104372127"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -120,7 +97,7 @@ ms.locfileid: "104372127"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -140,7 +117,7 @@ ms.locfileid: "104372127"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -155,9 +132,9 @@ ms.locfileid: "104372127"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

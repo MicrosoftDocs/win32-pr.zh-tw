@@ -4,12 +4,12 @@ ms.assetid: e70982ee-4c1f-41e8-915f-aa896713db9e
 title: 使用 StylusInput API 時的考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8b8def7e4e73dc893887bd92c8f35aa71e6ca22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 542cdbdafa397441f7e33fb97023c7967fc5df229ecfff14da85bbc158e55613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118045959"
 ---
 # <a name="considerations-when-using-the-stylusinput-api"></a>使用 StylusInput API 時的考慮
 

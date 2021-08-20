@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 635e153d3184e74ea581a045e3d6d54a5fea199f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37fed3fead642ecfc5370d55c9f8b954477406b4b276cac392d9776a0cefb338
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521328"
 ---
 # <a name="msvm_metricservicecapabilities-class"></a>Msvm \_ MetricServiceCapabilities 類別
 
@@ -279,7 +279,7 @@ class Msvm_MetricServiceCapabilities : CIM_MetricServiceCapabilities
 
 | 值                                                                         | 意義              |
 |-------------------------------------------------------------------------------|----------------------|
-| <dl> <dt>2</dt> </dl>  | 已啟用<br/>   |
+| <dl> <dt>2</dt> </dl>  | 啟用<br/>   |
 | <dl> <dt>3</dt> </dl>  | 禁用<br/>  |
 | <dl> <dt>4</dt> </dl>  | 關閉<br/> |
 | <dl> <dt>6</dt> </dl>  | 離線<br/>   |
@@ -331,8 +331,8 @@ class Msvm_MetricServiceCapabilities : CIM_MetricServiceCapabilities
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

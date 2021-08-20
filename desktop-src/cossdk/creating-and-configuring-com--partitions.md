@@ -4,20 +4,20 @@ ms.assetid: 15f0cd9a-cd40-49df-85b8-15c4e626f8ee
 title: 建立和設定 COM + 分割
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf654c25c75cc2e12f55b7ee826184fdeb04a214
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a3cc9623272d4aba345cc666deb5c63965584af94f42dbf869b00cf7d52a2f30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858988"
 ---
 # <a name="creating-and-configuring-com-partitions"></a>建立和設定 COM + 分割
 
 系統管理員可以使用 COM +，以程式設計方式建立和設定 COM + 分割。 事實上，系統管理員可以從元件服務或 Active Directory 消費者和電腦系統管理工具執行的所有建立和設定工作，都可以透過使用 COM + 集合、物件和介面，或透過 Active Directory 的系統介面 (ADSI) 來完成。
 
-**WINDOWS XP：** 無法使用建立、設定或委派 COM + 分割的能力。 全域分割區是唯一可用的 COM + 分割。
+**Windows XP：** 無法使用建立、設定或委派 COM + 分割的能力。 全域分割區是唯一可用的 COM + 分割。
 
-* * Windows 2000： * * COM + 分割服務無法在 Windows 2000 中使用。
+* * Windows 2000： * * Windows 2000 中無法使用 com + 分割服務。
 
 > [!Note]  
 > 預設不會啟用 COM + 分割服務。 若要使用 COM + 分割服務，您必須透過 [元件服務] 系統管理工具啟用它，或將 [**LocalComputer**](localcomputer.md) 集合上的 PartitionsEnabled 屬性變更為 True。

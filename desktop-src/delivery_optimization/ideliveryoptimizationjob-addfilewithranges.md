@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cc147f5cb3f91a2fe0b8518493dba72798ce8056
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 197aa7443123c81d1a675d321b91573823a84f15
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965329"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476125"
 ---
 # <a name="ideliveryoptimizationjobaddfilewithranges-method"></a>IDeliveryOptimizationJob：： AddFileWithRanges 方法
 
@@ -96,49 +96,16 @@ HRESULT AddFileWithRanges(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>傳回碼</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong><strong>S_OK</strong></strong></dt> </dl></td>
-<td>成功。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> </dl></td>
-<td>本機檔案名為 Null 或空字串。 <br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>E_ACCESSDENIED</strong></dt> </dl></td>
-<td>使用者沒有許可權可寫入至用戶端上指定的目錄。<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>DO_E_INVALID_RANGE</strong></dt> </dl></td>
-<td>其中一個範圍無效。 例如，InitialOffset 會設定為 <strong>BG_LENGTH_TO_EOF</strong>。<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>DO_E_OVERLAPPING_RANGES</strong></dt> </dl></td>
-<td>您無法指定重複或重迭的範圍。 <br/>
-<blockquote>
-[!Note]<br />
-範圍是依值的位移（而不是長度）來排序。 如果輸入的範圍具有相同的位移，但順序相反，則會傳回此錯誤。 例如，如果以該順序輸入100.5 和100.0，您將無法將檔案新增至作業。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>DO_E_INVALID_STATE</strong></dt> </dl></td>
-<td>無法 <strong>BG_JOB_STATE_CANCELLED</strong> 或 <strong>BG_JOB_STATE_ACKNOWLEDGED</strong>作業的狀態。<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 傳回碼 | Description | 
+|-------------|-------------|
+| <dl><dt><strong><strong>S_OK</strong></strong></dt></dl> | 成功。<br /> | 
+| <dl><dt><strong>E_INVALIDARG</strong></dt></dl> | 本機檔案名為 Null 或空字串。 <br /> | 
+| <dl><dt><strong>E_ACCESSDENIED</strong></dt></dl> | 使用者沒有許可權可寫入至用戶端上指定的目錄。<br /> | 
+| <dl><dt><strong>DO_E_INVALID_RANGE</strong></dt></dl> | 其中一個範圍無效。 例如，InitialOffset 會設定為 <strong>BG_LENGTH_TO_EOF</strong>。<br /> | 
+| <dl><dt><strong>DO_E_OVERLAPPING_RANGES</strong></dt></dl> | 您無法指定重複或重迭的範圍。 <br /><blockquote>[!Note]<br />範圍是依值的位移（而不是長度）來排序。 如果輸入的範圍具有相同的位移，但順序相反，則會傳回此錯誤。 例如，如果以該順序輸入100.5 和100.0，您將無法將檔案新增至作業。</blockquote><br /> | 
+| <dl><dt><strong>DO_E_INVALID_STATE</strong></dt></dl> | 無法 <strong>BG_JOB_STATE_CANCELLED</strong> 或 <strong>BG_JOB_STATE_ACKNOWLEDGED</strong>作業的狀態。<br /> | 
+
 
 
 
@@ -151,9 +118,9 @@ HRESULT AddFileWithRanges(
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
+| IDL<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
 | IID<br/>                      | IID_IDeliveryOptimizationJob 定義為 EE2584CF-A69C-4848-B633-2649962B3EF7<br/>         |

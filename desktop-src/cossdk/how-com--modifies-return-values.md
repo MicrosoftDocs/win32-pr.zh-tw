@@ -4,12 +4,12 @@ ms.assetid: a6997f02-8456-45b5-9f40-4b9094ee4626
 title: COM + 如何修改傳回值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2aa8270e41f1a1a96df0c17ccc1b98530fba4347
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6ba2b8a9761c7bb669982b47d94b7d522298fa6d557d197d24ea4cb5e56a0df9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118813819"
 ---
 # <a name="how-com-modifies-return-values"></a>COM + 如何修改傳回值
 
