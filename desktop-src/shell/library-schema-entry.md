@@ -4,12 +4,12 @@ ms.assetid: 12F6E6AE-2776-408c-B9AC-E885BE93C27F
 title: 程式庫描述架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a6da99820e81c55e5d705c72d4d0509ea271a4a
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 1d5881ad7e97612c93e88708e21a10eeed35e3e443a442ddbb49df7c6f5abe7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049264"
 ---
 # <a name="library-description-schema"></a>程式庫描述架構
 

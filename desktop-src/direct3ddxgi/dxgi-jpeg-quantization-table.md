@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxgitype.h
-ms.openlocfilehash: 2b0a097cb4c364ecc14e471f7c15f642aa65e912
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c94006c4a0508068fd3962dc9ec0979a92c33198b9db5f633cf71f50981b8f92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909955"
 ---
 # <a name="dxgi_jpeg_quantization_table-structure"></a>DXGI \_ JPEG \_ 量化 \_ 資料表結構
 

@@ -1,28 +1,28 @@
 ---
-title: DirectShow QASF 參考
-description: DirectShow QASF 參考
+title: DirectShowQASF 參考
+description: DirectShowQASF 參考
 ms.assetid: 66f483b5-3886-48b4-bc43-7c3517abd20d
 keywords:
-- Windows Media Format SDK、QASF
-- Windows Media Format SDK、DirectShow
-- DirectShow、QASF 參考
+- Windows媒體格式 SDK，QASF
+- Windows媒體格式 SDK，DirectShow
+- DirectShow，QASF 參考
 - QASF 篩選準則，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c509030f676b83a84f67590a242aea623656a514
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 69029c02945f181ba8faa631c3320f461ddbf650ed337cdf895ee5204a57de21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117655659"
 ---
-# <a name="directshow-qasf-reference"></a>DirectShow QASF 參考
+# <a name="directshow-qasf-reference"></a>DirectShowQASF 參考
 
-本章節包含下列 DirectShow QASF 篩選器、介面和列舉的程式設計參考。 DirectShow SDK 檔包含這些篩選器所公開的其他泛型介面（例如 **IBaseFilter** 和 **IPin**），以及舊版 QASF 元件的參考和程式設計指南材質。
+本章節包含下列 DirectShow QASF 篩選器、介面和列舉的程式設計參考。 DirectShow SDK 檔包含這些篩選器所公開的其他泛型介面（例如 **IBaseFilter** 和 **IPin**），以及舊版 QASF 元件的參考和程式設計指南。
 
-如需 QASF 名稱的說明，請參閱 [關於 DirectShow](about-directshow.md)。
+如需 QASF 名稱的說明，請參閱[關於 DirectShow](about-directshow.md)。
 
-DirectShow QASF 元件包含下列篩選。
+下列篩選準則包含在 DirectShow QASF 元件中。
 
 
 
@@ -33,7 +33,7 @@ DirectShow QASF 元件包含下列篩選。
 
 
 
- 
+ 
 
 下列介面是為了與 DirectShow QASF 元件搭配使用而定義的。
 
@@ -48,9 +48,9 @@ DirectShow QASF 元件包含下列篩選。
 
 
 
- 
+ 
 
-已定義下列列舉、結構和事件以搭配 DirectShow QASF 元件使用。
+已定義下列列舉、結構和事件，以搭配 DirectShow QASF 元件使用。
 
 
 
@@ -60,29 +60,29 @@ DirectShow QASF 元件包含下列篩選。
 
 
 
- 
+ 
 
 
 
-| 結構                                         | Description                                                                                                                                           |
+| 結構                                         | 描述                                                                                                                                           |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_WMT \_ 事件 \_ 資料**](/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data) | 包含與 [**WMT \_ 狀態**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) 事件有關的資訊，以及 WINDOWS Media 格式 SDK 所傳回的相關狀態碼。 |
+| [**\_WMT \_ 事件 \_ 資料**](/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data) | 包含與 [**WMT \_ 狀態**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status)事件有關的資訊，以及 Windows 媒體格式 SDK 所傳回之相關聯的狀態碼。 |
 
 
 
- 
+ 
 
 
 
 | 事件                                           | 描述                                                                                                     |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [EC \_ WMT \_ 活動](ec-wmt-event.md)              | 從 Windows Media 格式 SDK 轉送的事件。                                                              |
-| [EC \_ WMT \_ 索引 \_ 事件](ec-wmt-index-event.md) | 當應用程式使用 [WM ASF 寫入器](wm-asf-writer-filter.md) 來編制 Windows Media 視訊檔案的索引時傳送。 |
+| [EC \_ WMT \_ 活動](ec-wmt-event.md)              | 從 Windows 媒體格式 SDK 轉送的事件。                                                              |
+| [EC \_ WMT \_ 索引 \_ 事件](ec-wmt-index-event.md) | 當應用程式使用[WM ASF 寫入器](wm-asf-writer-filter.md)來編制 Windows Media 視訊檔案的索引時傳送。 |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

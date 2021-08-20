@@ -4,12 +4,12 @@ description: 多執行緒的設計目的是要使用一或多個執行緒同時�
 ms.assetid: b4bef1e4-8d34-455c-8aed-01af974c66c8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 527b78d8b29a507247c8eb067c20739004ace687
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f218fbbe2009e7b72978cca529c4f2de7b565184e45f25194c99acebde6b370d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912984"
 ---
 # <a name="introduction-to-multithreading-in-direct3d-11"></a>Direct3D 11 中的多執行緒簡介
 
@@ -37,7 +37,7 @@ Direct3D 11 已從頭開始設計來支援多執行緒處理。 Direct3D 10 使�
 > [!Note]  
 > 同時搭配大部分的 DXGI 介面函式使用立即內容是不正確。 針對2009年3月和更新版本的 DirectX Sdk，唯一安全的 DXGI 函式為 [**AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref)、 [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)和 [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q))。
 
- 
+ 
 
 如需搭配多個執行緒使用 DXGI 的詳細資訊，請參閱多執行緒 [考慮](/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi)。
 
@@ -48,6 +48,6 @@ Direct3D 11 已從頭開始設計來支援多執行緒處理。 Direct3D 10 使�
 [多執行緒](overviews-direct3d-11-render-multi-thread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

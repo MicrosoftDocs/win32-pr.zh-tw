@@ -4,12 +4,12 @@ ms.assetid: 59ecbc4d-88d8-4d37-a1af-ed1da536406c
 title: RectF 包含方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 7ef2671eaf50ced3a5f7779738ba87ce0944b7ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 777c31ec9b5e2f62eb510dad5155537b9ef820bce940b90174bab9d1bc4507dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117697405"
 ---
 # <a name="rectfcontains-methods"></a>RectF 包含方法
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: ff795dd028c8d8f1e18a944df60a87f1e7cee670
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bdd46a8d721de1cb5a1f1d318383f859cc6316c14a535d23e835f6a324526b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668421"
 ---
 # <a name="iwicbitmapsource_getpixelformat_proxy-function"></a>IWICBitmapSource \_ GetPixelFormat \_ Proxy 函式
 
@@ -44,16 +44,16 @@ HRESULT IWICBitmapSource_GetPixelFormat_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+類型： **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
-這個 [_ *IWICBitmapSource* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)物件的指標。
+這個 [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) 物件的指標。
 
 </dd> <dt>
 
 *pPixelFormat* \[擴展\]
 </dt> <dd>
 
-類型： **WICPixelFormatGUID \** _
+類型： **WICPixelFormatGUID \***
 
 用來接收點陣圖儲存位置之像素格式 GUID 的指標。
 
@@ -61,7 +61,7 @@ HRESULT IWICBitmapSource_GetPixelFormat_Proxy(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果此函式成功，則會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -73,8 +73,8 @@ HRESULT IWICBitmapSource_GetPixelFormat_Proxy(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

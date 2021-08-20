@@ -1,26 +1,26 @@
 ---
-title: 適用于遊戲開發人員的 Windows 防火牆
-description: 本文說明 Windows 防火牆的原因、其存在的原因，以及其運作方式。 最重要的是，它會說明如何設定您的遊戲來與防火牆搭配運作。
+title: Windows適用于遊戲開發人員的防火牆
+description: 本文說明 Windows 防火牆、其存在的原因，以及其運作方式。 最重要的是，它會說明如何設定您的遊戲來與防火牆搭配運作。
 ms.assetid: 2ee9f769-03dc-3661-5d5b-6a4ecd151fd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c7ff3c9b651b6264703732f0eec57054784034
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: c948cf23e8f42847e77f192669d64a58b03c3fcd00136bdec28312fe506c777d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117815783"
 ---
-# <a name="windows-firewall-for-game-developers"></a>適用于遊戲開發人員的 Windows 防火牆
+# <a name="windows-firewall-for-game-developers"></a>Windows適用于遊戲開發人員的防火牆
 
-本文說明 Windows 防火牆的原因、其存在的原因，以及其運作方式。 最重要的是，它會說明如何設定您的遊戲來與防火牆搭配運作。
+本文說明 Windows 防火牆、其存在的原因，以及其運作方式。 最重要的是，它會說明如何設定您的遊戲來與防火牆搭配運作。
 
 內容: 
 
 -   [什麼是防火牆？](#what-is-a-firewall)
 -   [如何判斷遊戲是否受到影響？](#how-can-i-tell-if-my-game-is-affected)
 -   [Windows XP SP2 之前的防火牆](#the-firewall-before-windows-xp-sp2)
--   [Windows XP SP2 防火牆更好用](#windows-xp-sp2-firewall-is-better)
+-   [WindowsXP SP2 防火牆更好用](#windows-xp-sp2-firewall-is-better)
 -   [使用 Windows 防火牆](#working-with-the-windows-firewall)
 -   [使用 InstallShield InstallScript 整合](#integrating-using-installshield-installscript)
 -   [Windows Installer 的明智整合](#integrating-into-wise-for-windows-installer)
@@ -37,9 +37,9 @@ ms.locfileid: "113120233"
 
 ## <a name="how-can-i-tell-if-my-game-is-affected"></a>如何判斷遊戲是否受到影響？
 
-隨著 Windows XP SP2 的抵達，Windows 防火牆已廣泛部署。 所有多人遊戲的 Windows 遊戲都會受到某種程度的影響。 用戶端通常是在良好的圖形中，而伺服器、主機和對等的對等都需要設定防火牆才能繼續運作。 具體而言，會捨棄傳入的未經要求流量。 防火牆會根據封包內容和最近的網路活動來攔截網路流量篩選封包。 防火牆會使用 [內容] 和 [活動] 來決定要轉寄或捨棄封包。 一旦正確設定防火牆之後，遊戲就能像之前一樣接受輸入的未經要求流量。
+隨著 Windows XP SP2 的抵達，已廣泛部署 Windows 防火牆。 所有多人遊戲 Windows 遊戲都會受到某種程度的影響。 用戶端通常是在良好的圖形中，而伺服器、主機和對等的對等都需要設定防火牆才能繼續運作。 具體而言，會捨棄傳入的未經要求流量。 防火牆會根據封包內容和最近的網路活動來攔截網路流量篩選封包。 防火牆會使用 [內容] 和 [活動] 來決定要轉寄或捨棄封包。 一旦正確設定防火牆之後，遊戲就能像之前一樣接受輸入的未經要求流量。
 
-誰有輸入未經要求的流量？
+神秘有輸入的未經要求流量？
 
 -   用戶端/伺服器：所有參與者連接到中央伺服器。 中央伺服器是具有連入未經要求流量的伺服器。 連線到伺服器的用戶端會請求傳回流量，如果遵循用戶端的規則，系統就會允許該流量通過防火牆。 中央伺服器必須設定為接受未經要求的流量，才能讓用戶端流量通過防火牆。
 -   大量多人 (MMP) ：所有參與者都連線至資料中心。 這相當於複雜的用戶端/伺服器關聯性，因為資料中心具有輸入的未經要求流量。 參與者是用戶端，而且通常不需要接受未經要求的流量。
@@ -51,15 +51,15 @@ ms.locfileid: "113120233"
 
 Windows XP 和 Windows Server 2003 中的網際網路連線防火牆 (ICF) 是具狀態的封包篩選器，可處理網際網路通訊協定第4版 (IPv4) 和網際網路通訊協定第6版 (IPv6) 。 不過，它並不會預設為開啟，且不支援協力廠商網路堆疊，在世界中有很大的數位，例如大型的網際網路提供者（包括全國電話公司）。
 
-針對不在 Windows XP SP2 上的，強烈建議開啟 ICF。 請參閱中的「使用網際網路防火牆」， https://www.microsoft.com/security/protect 作為保護您電腦的第一步。 網際網路連線防火牆 (ICF) 提供埠對應以覆寫封包篩選器。 基本上，您會指定要開啟的埠，並在關閉它之前保持開啟狀態。 如果使用者在關閉之前重新開機，它將保持開啟狀態，直到特別關閉為止。 防火牆的控制和埠對應的管理是透過 [**INetSharingManager**](/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager) (IPv4) 和 [**INetFwV6Mgr**](/previous-versions/windows/desktop/ics/inetfwv6mgr) (IPv6) 來完成。
+對於不在 Windows XP SP2 的程式，強烈建議您開啟 ICF。 請參閱中的「使用網際網路防火牆」， https://www.microsoft.com/security/protect 作為保護您電腦的第一步。 網際網路連線防火牆 (ICF) 提供埠對應以覆寫封包篩選器。 基本上，您會指定要開啟的埠，並在關閉它之前保持開啟狀態。 如果使用者在關閉之前重新開機，它將保持開啟狀態，直到特別關閉為止。 防火牆的控制和埠對應的管理是透過 [**INetSharingManager**](/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager) (IPv4) 和 [**INetFwV6Mgr**](/previous-versions/windows/desktop/ics/inetfwv6mgr) (IPv6) 來完成。
 
-適用于 Windows XP SP2 的 Windows 防火牆是更完整的解決方案，可支援協力廠商網路堆疊，並更聰明地處理埠：只有在需要它們的應用程式仍在使用中時，埠才會保持開啟狀態。
+Windows XP SP2 的 Windows 防火牆是更完整的解決方案，可支援協力廠商網路堆疊，並更聰明地處理埠：只有在需要它們的應用程式仍在使用中時，埠才會保持開啟狀態。
 
-## <a name="windows-xp-sp2-firewall-is-better"></a>Windows XP SP2 防火牆更好用
+## <a name="windows-xp-sp2-firewall-is-better"></a>WindowsXP SP2 防火牆更好用
 
-Windows XP SP2 將安全性選項和設定放在前方。 目標是要預設保護，並允許使用者對其電腦上允許執行哪些應用程式做出明智的選擇。
+WindowsXP SP2 將安全性選擇和設定放在前方。 目標是要預設保護，並允許使用者對其電腦上允許執行哪些應用程式做出明智的選擇。
 
-Windows XP SP2 和 Windows Server 2003 Service Pack 1 (SP1) 都有提供新的 Windows 防火牆。 就像 ICF 一樣，它是一種同時支援 IPv4 和 IPv6 的軟體防火牆，但不同于 ICF 的 Windows 防火牆：
+Windows XP SP2 和 Windows Server 2003 Service Pack 1 (SP1) 都有提供新的 Windows 防火牆。 就像 icf 一樣，它是一種同時支援 IPv4 和 IPv6 的軟體防火牆，但不同于 icf Windows 防火牆：
 
 -   具有系統的開機時間保護，在開機期間消除一小部分的弱點。
 -   支援協力廠商網路堆疊。
@@ -71,7 +71,7 @@ Windows XP SP2 和 Windows Server 2003 Service Pack 1 (SP1) 都有提供新的 W
 
 請注意，您可能會想知道它是否有安全性風險，也就是應用程式可以從例外狀況清單中新增和移除應用程式，以因應使用者的介入，或您認為較大的風險是，應用程式可以完全停用防火牆。 若要執行這些無比理智，應用程式必須具有系統管理員許可權。 如果您在系統上以系統管理員模式執行惡意程式碼，則遊戲已經結束，而且駭客已經獲勝。 駭客停用防火牆的功能只需要使用註腳。
 
-繼承應用程式（包括在使用者升級至 Windows XP SP2 之前安裝的應用程式）會以例外狀況清單快顯視窗來處理 (請參閱 [圖 1]) 。 此對話方塊會顯示當應用程式嘗試為連入流量開啟埠時，可能是使用非零埠的 UDP 呼叫 bind () ，或接受 TCP/IP 通訊協定的 () 。 您必須以系統管理員身分執行，才能「解除封鎖」應用程式，而「稍後詢問我」則不允許這段時間，但會在下一次重新詢問。
+繼承應用程式（包括在使用者升級至 Windows XP SP2 之前安裝的應用程式）會使用例外狀況清單快顯視窗來處理 (請參閱 [圖 1]) 。 此對話方塊會顯示當應用程式嘗試為連入流量開啟埠時，可能是使用非零埠的 UDP 呼叫 bind () ，或接受 TCP/IP 通訊協定的 () 。 您必須以系統管理員身分執行，才能「解除封鎖」應用程式，而「稍後詢問我」則不允許這段時間，但會在下一次重新詢問。
 
 這是未封鎖的系統強制回應對話方塊。 執行全螢幕的 Microsoft Direct3D 應用程式時，對話方塊會出現在下方;然後使用者可以在應用程式結束全螢幕模式或 alt 索引標籤回桌面時處理它。 不過，使用者在遊戲執行全螢幕時，不一定會看到這個對話方塊出現的情況，因此請務必避免使用 [**INetFwAuthorizedApplications**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications) 介面讓這個對話方塊出現，如下所述。
 
@@ -184,7 +184,7 @@ Windows XP SP2 和 Windows Server 2003 Service Pack 1 (SP1) 都有提供新的 W
 1.  在 InstallShield 編輯器中開啟 InstallScript 專案。
 2.  將 FirewallInstallHelper.dll 新增至專案做為支援檔。
 
-    1.  在 [專案助理] 索引標籤底下開啟 [應用程式檔] 索引標籤。
+    1.  在 [Project 助理] 索引標籤下，開啟 [應用程式檔] 索引標籤
     2.  按一下 [新增檔案] 按鈕，將檔案新增至應用程式目的檔案夾。
     3.  流覽至您所建立的 FirewallInstallHelper.dll，或使用 DirectX SDK 中所提供的，並將它新增至專案。
 
@@ -273,7 +273,7 @@ Windows XP SP2 和 Windows Server 2003 Service Pack 1 (SP1) 都有提供新的 W
 
     
 
-    | Name     | 資料                                                                                                                                                                          |
+    | 名稱     | 資料                                                                                                                                                                          |
     |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | 防火牆 | 將它指向 FirewallInstallHelper.dll。 此檔案將內嵌在 MSI 套件中，因此每次重新編譯 FirewallInstallHelper.dll 時，您都必須執行此步驟。 |
 
@@ -326,11 +326,11 @@ Windows XP SP2 和 Windows Server 2003 Service Pack 1 (SP1) 都有提供新的 W
 
      
 
-如需 Windows Installer 的詳細資訊，請參閱 [Windows Installer](/windows/desktop/Msi/windows-installer-portal)。
+如需 Windows Installer 的詳細資訊，請參閱[Windows Installer](/windows/desktop/Msi/windows-installer-portal)。
 
 ## <a name="recommendations"></a>建議
 
-防火牆在此保持不變。 這些建議會為您的客戶提供良好的 Windows 遊戲防火牆體驗：
+防火牆在此保持不變。 這些建議可讓您的客戶使用 Windows 遊戲的良好防火牆體驗：
 
 -   不要告訴使用者停用防火牆來播放您的遊戲。 這樣一來，即使電腦不在玩遊戲時，也會讓整個電腦容易受到攻擊。
 -   讓您的使用者無縫設定防火牆。 在安裝期間將您的應用程式新增至例外狀況清單，並在安裝期間從例外清單中移除您的應用程式。

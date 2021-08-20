@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e8b7b2260805dbf5fa144f239111b6e29f5ec78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a66eaab95195f02fd9b7ff9d824fc354ceb05f4da8b10ac6ada440b5b495adf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104187296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017159"
 ---
 # <a name="iadsprintqueue-property-methods"></a>IADsPrintQueue 屬性方法
 

@@ -4,12 +4,12 @@ description: 在目前迴圈的開頭繼續執行。
 ms.assetid: 3F0021B2-50D1-407C-9EE4-1CB679E184BF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc53b023e998fcf131a387fc009cfc8cb133ff6a
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 0abe95c445c6b339e950e051368bb6a80e6604df59e09934ecfff3b1e00a7830
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909153"
 ---
 # <a name="continue-sm4---asm"></a>繼續 (sm4-asm) 
 
@@ -22,7 +22,7 @@ ms.locfileid: "104990755"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -58,7 +58,7 @@ Token 格式包含著色器中對應迴圈指令的位移，以方便使用。
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -71,13 +71,13 @@ Token 格式包含著色器中對應迴圈指令的位移，以方便使用。
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -86,9 +86,9 @@ Token 格式包含著色器中對應迴圈指令的位移，以方便使用。
 [著色器模型4元件 (DirectX HLSL) ](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

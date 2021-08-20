@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55c01465debc42926888e2cb12a3a5b9d884498b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 50a43fd160444c2c1d29226aadb898ca60eec6038759452ca8451466337f1b3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952484"
 ---
 # <a name="isoftkbdsetsoftkeyboardtypemode-method"></a>ISoftKbd：： SetSoftKeyboardTypeMode 方法
 
@@ -74,7 +74,7 @@ HRESULT SetSoftKeyboardTypeMode(
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                   |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Softkbdc。h</dt> </dl>  |
-| Idl<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
 
 

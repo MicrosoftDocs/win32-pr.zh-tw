@@ -4,12 +4,12 @@ ms.assetid: 4fc62f00-7006-4ade-bfcc-091a3a97d889
 title: 基本曲線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5d85c0163e405a6f9346f521b4057eb936108cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3307a9cf317632a6b3fc7e7ee7cc8156f8fd3f6bb60e6135d1299d55cddc3d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117697030"
 ---
 # <a name="cardinal-splines"></a>基本曲線
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 816310f0b584f3c30d351e0d036e1f18c2f23962
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: fde032d611cb09f3da2d048bfab85bd3b0a1c8aadebf251fe8c01ecd8630a36e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808968"
 ---
 # <a name="header-switch"></a>/header 參數
 
@@ -72,9 +72,9 @@ midl /header filename
 [**/proxy**](-proxy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

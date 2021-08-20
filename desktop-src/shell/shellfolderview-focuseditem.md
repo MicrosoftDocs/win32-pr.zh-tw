@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 4f661f555f1492a3323fa3749a8dffd6f00f411d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 059a43ba0b727a8603ab87feea1e90ec1dd0105b1d17ab9bbf8d866a87a2b3ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117676690"
 ---
 # <a name="shellfolderviewfocuseditem-property"></a>ShellFolderView. FocusedItem 屬性
 
@@ -45,7 +45,7 @@ objFocusedItem = ShellFolderView.FocusedItem
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何在內嵌于 HTML 的 JScript 中正確使用這個方法。
+下列範例示範如何在 JScript 內嵌于 HTML 中，正確使用這個方法。
 
 
 ```JScript
@@ -99,10 +99,10 @@ objFocusedItem = ShellFolderView.FocusedItem
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

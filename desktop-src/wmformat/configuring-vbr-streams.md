@@ -11,12 +11,12 @@ keywords:
 - IWMPropertyVault
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6667dc9cf66932cf8af90da0b0e59ad27860ab3
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 5b3434ec508afdca9637b300ac83777cca33e0e59566b01c7fb027d547f39302
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117655966"
 ---
 # <a name="configuring-vbr-streams"></a>設定 VBR 資料流程
 
@@ -35,7 +35,7 @@ ms.locfileid: "103932924"
 
 
 
- 
+ 
 
 下列各節說明如何使用不同類型的變數位速率編碼。
 
@@ -49,7 +49,7 @@ ms.locfileid: "103932924"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -58,9 +58,9 @@ ms.locfileid: "103932924"
 [**設定資料流程**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

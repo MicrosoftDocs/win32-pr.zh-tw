@@ -4,12 +4,12 @@ ms.assetid: 7f623efa-a900-4cb0-b9c6-d4a523c2794e
 title: 使用量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb0793c71c86967169107f357101cb9f60f8db5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5f3ec65b3b8b21fea4f81e04ebc796fa1afa51b15fa9509be0318f61b00b76c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117943974"
 ---
 # <a name="usage"></a>使用量
 

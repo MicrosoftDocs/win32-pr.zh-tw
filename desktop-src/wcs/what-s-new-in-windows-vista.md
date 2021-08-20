@@ -1,38 +1,38 @@
 ---
 title: Windows Vista 的新功能
-description: 映射色彩管理的版本 1.0 (ICM) 已在 Microsoft Windows 95 中提供，並在 Windows 裝置內容中提供基本的色彩管理功能。
+description: " (ICM) 在 Microsoft Windows 95 中提供的映射色彩管理版本1.0，並在 Windows 裝置內容中提供基本的色彩管理功能。"
 ms.assetid: 3079f84c-0d6c-4f87-a041-de86f5f7d99b
 keywords:
-- Windows Color System (WCS) ，Windows Vista
+- WindowsColor System (WCS) ，Windows Vista
 - WCS (Windows Color System) ，Windows Vista
 - 影像色彩管理，Windows Vista
-- 色彩管理，Windows Vista
+- Windows Vista 的色彩管理
 - 色彩，Windows Vista
-- Windows Color System (WCS) ，作業系統
-- WCS (Windows 色彩系統) ，作業系統
+- Windows色彩系統 (WCS) ，作業系統
+- WCS (Windows 色彩系統) 、作業系統
 - 影像色彩管理，作業系統
 - 色彩管理，作業系統
 - 色彩，作業系統
 - 影像色彩管理 (ICM)
 - 'ICM (影像色彩管理) '
-- Windows Vista 色彩管理
+- WindowsVista 色彩管理
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b889dd0ba3b044f0d0f158bd2364f5c3216ec39
-ms.sourcegitcommit: 3f366316c02c411c4c5e14620a699f6f30608634
+ms.openlocfilehash: a3f6c3313a1b7ca78f0f4d3436d7bb2017b0fa794291b4bd765651aa0321166d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106997592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117670734"
 ---
 # <a name="whats-new-in-windows-vista"></a>Windows Vista 的新功能
 
-映射色彩管理的版本 1.0 (ICM) 已在 Microsoft Windows 95 中提供，並在 Windows 裝置內容中提供基本的色彩管理功能。
+ (ICM) 在 Microsoft Windows 95 中提供的映射色彩管理版本1.0，並在 Windows 裝置內容中提供基本的色彩管理功能。
 
-ICM 版本2.0 已在 Windows 98、Windows Millennium Edition、Windows 2000 和 WindowsXP 中提供，並包含各種在裝置內容以外實行色彩管理的新功能。 這些新函式適用于需求較高的色彩管理需求，並讓應用程式能更充分掌控色彩管理進程。
+ICM 2.0 版已在 Windows 98、Windows Millennium Edition、Windows 2000 和 WindowsXP 中提供，並包含在裝置內容之外實作為色彩管理的各種新功能。 這些新函式適用于需求較高的色彩管理需求，並讓應用程式能更充分掌控色彩管理進程。
 
-隨著 Windows Vista 的發行，ICM 2.0 現在已包含在 Windows Color System (WCS) 1.0，這會增加更多功能。 下表列出新的應用程式開發介面 (API) 隨附于 Windows Vista 中。
+隨著 Windows Vista 的發行，ICM 2.0 現在包含在 Windows 色彩系統中 (WCS) 1.0，這會增加更多功能。 下表列出新的應用程式設計介面， (API) 隨附于 Windows Vista 中。
 
 ## <a name="new-api-shipping-in-windows-vista"></a>Windows Vista 中的新 API 傳送
 

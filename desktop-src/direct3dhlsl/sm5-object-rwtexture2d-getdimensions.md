@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 19a6711e8f04afdb2f5ec66ff33c8aaf1d59b40c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 79d967fc1952242c4e656574c8b6ff7a1299fd5b1af180a79b23e5befc60b143
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104116148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905748"
 ---
 # <a name="rwtexture2dgetdimensions-function"></a>RWTexture2D：： GetDimensions 函數
 
@@ -78,7 +78,7 @@ void GetDimensions(out float Width,
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

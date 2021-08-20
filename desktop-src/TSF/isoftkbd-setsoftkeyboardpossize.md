@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7131d9c46c90917f2ebdf471916f872aedb2e33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b624bea0496b7d7ea8ede3fce2f74c7704b17cd9a66e7f1d9b7ce5bdbf9d98e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952565"
 ---
 # <a name="isoftkbdsetsoftkeyboardpossize-method"></a>ISoftKbd：： SetSoftKeyboardPosSize 方法
 
@@ -90,7 +90,7 @@ HRESULT SetSoftKeyboardPosSize(
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                   |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Softkbdc。h</dt> </dl>  |
-| Idl<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
 
 

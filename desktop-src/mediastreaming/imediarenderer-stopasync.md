@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a5f73d534fdd786038a242614a981f4915d92c13
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 802821e909f5882e4f7a7c64ea824fc36d1801748c763b56ee7878b680c3c0cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871102"
 ---
 # <a name="imediarendererstopasync-method"></a>IMediaRenderer：： StopAsync 方法
 
@@ -54,7 +54,7 @@ HRESULT StopAsync(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

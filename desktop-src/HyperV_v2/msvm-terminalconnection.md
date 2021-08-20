@@ -35,12 +35,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 66be5000fb7fdd4404e07c87673e3359065af6bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 124aa6e4e6ff3b823f16a6d1b2e25055554c35558d7eebc64f38bc9e43f9b86e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810618"
 ---
 # <a name="msvm_terminalconnection-class"></a>Msvm \_ TerminalConnection 類別
 
@@ -264,8 +264,8 @@ class Msvm_TerminalConnection : CIM_EnabledLogicalElement
 
 | 值                                                                        | 意義             |
 |------------------------------------------------------------------------------|---------------------|
-| <dl> <dt>2</dt> </dl> | 已啟用<br/>  |
-| <dl> <dt>3</dt> </dl> | Disabled<br/> |
+| <dl> <dt>2</dt> </dl> | 啟用<br/>  |
+| <dl> <dt>3</dt> </dl> | 已停用<br/> |
 
 
 
@@ -288,8 +288,8 @@ class Msvm_TerminalConnection : CIM_EnabledLogicalElement
 
 | 值                                                                        | 意義                   |
 |------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>2</dt> </dl> | 已啟用<br/>        |
-| <dl> <dt>3</dt> </dl> | Disabled<br/>       |
+| <dl> <dt>2</dt> </dl> | 啟用<br/>        |
+| <dl> <dt>3</dt> </dl> | 已停用<br/>       |
 | <dl> <dt>5</dt> </dl> | 不適用<br/> |
 
 
@@ -579,8 +579,8 @@ class Msvm_TerminalConnection : CIM_EnabledLogicalElement
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

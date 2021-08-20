@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bb701f591579d3113e79b0b9b74167ac8de3d75f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a95eb0e037bbebf62b710317b6e4b9b1224f9d2429712ffaec88dd1703a1c667
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117655460"
 ---
 # <a name="iconfigasfwritergetindexmode-method"></a>IConfigAsfWriter：： GetIndexMode 方法
 
@@ -31,7 +31,7 @@ ms.locfileid: "104375825"
 
 ```C++
 HRESULT GetIndexMode(
-  [out] BOOL *pbIndexFile
+  [out] BOOL *pbIndexFile
 );
 ```
 
@@ -63,6 +63,6 @@ HRESULT GetIndexMode(
 [**IConfigAsfWriter 介面**](/previous-versions/windows/desktop/legacy/dd743205(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

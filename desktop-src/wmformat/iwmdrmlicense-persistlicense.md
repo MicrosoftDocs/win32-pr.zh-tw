@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f41b61cdf448d757d13917ca22af0c3d9d9d390
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a2c002daefc7b4a27e3907ea6bc9faafc25c4c8d10862cc19518c719e2fb354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117655136"
 ---
 # <a name="iwmdrmlicensepersistlicense-method"></a>IWMDRMLicense：:P ersistLicense 方法
 
@@ -46,7 +46,7 @@ HRESULT PersistLicense();
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6d95148cb6dc51c739ee4546bd64ce22666d5fd7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 51b03a1b7a3b6a392760de91810fa99c9214615c1c6fd0a70ba6a3765335e714
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905626"
 ---
 # <a name="rwtexture2darraygetdimensions-function"></a>RWTexture2DArray：： GetDimensions 函數
 
@@ -90,7 +90,7 @@ void GetDimensions(out float Width,
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

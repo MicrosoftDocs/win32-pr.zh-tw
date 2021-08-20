@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: b75285f6dcdb0961312fa1db8f5c912b771bd786
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2cdf7751bbd4cd71c841582a9237bad035d293b4a19630243714dc0f32176d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117652742"
 ---
 # <a name="iportabledevicekeycollectiongetat-method"></a>IPortableDeviceKeyCollection：： GetAt 方法
 
@@ -61,7 +61,7 @@ HRESULT GetAt(
 
 
 
-| 傳回碼                                                                                  | Description                                          |
+| 傳回碼                                                                                  | 描述                                          |
 |----------------------------------------------------------------------------------------------|------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 此方法已成功。<br/>                     |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | 傳入的索引超出範圍。<br/>     |

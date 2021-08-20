@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 695bede631b19c028a55a2f3ca82ba994ca12ada
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 565c0f86bf806c6fed35887116055b31d855be388855f1a7fb59536d915c554b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797950"
 ---
 # <a name="nonbroadcast-ssidconfig-element"></a>非廣播 (SSIDConfig) 元素
 
@@ -27,7 +27,7 @@ ms.locfileid: "106977798"
 
 如果 [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) 設定為 **IBSS**，則這個值必須是 "false"。 如果這個元素不存在，則預設值為 "false"。
 
-Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 不支援這個元素。
+**Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 不支援這個元素。
 
 ``` syntax
 <xs:element name="nonBroadcast"
@@ -48,8 +48,8 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

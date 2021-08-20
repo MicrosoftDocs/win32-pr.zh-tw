@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 431d08b77d13540bb48621a6d5ec76f4c775f796
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6c5bd278605217b723035e53091d22b8b6f69dd0457b6cf5c12f2ad895699d1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104991998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905255"
 ---
 # <a name="texture2darraygatherredsfloatint-function"></a>Texture2DArray：： GatherRed (S，float，int) 函數
 
@@ -79,7 +79,7 @@ TemplateType GatherRed(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

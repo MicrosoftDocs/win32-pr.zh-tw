@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 063c0f7904976d50d7c1914f810e71ff84f740b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df6660ffdf9de48728a7544901c9a13488f7f5a9229ce0a2447c6188994fc501
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810503"
 ---
 # <a name="msvm_timesynccomponentsettingdata-class"></a>Msvm \_ TimeSyncComponentSettingData 類別
 
@@ -255,14 +255,14 @@ class Msvm_TimeSyncComponentSettingData : CIM_ResourceAllocationSettingData
 
 </dt> <dd>
 
-已啟用
+啟用
 
 </dd> <dt>
 
 3
 </dt> <dd>
 
-Disabled
+已停用
 
 </dd> </dl>
 
@@ -460,8 +460,8 @@ Disabled
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

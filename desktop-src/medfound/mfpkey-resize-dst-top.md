@@ -4,12 +4,12 @@ ms.assetid: 66147460-b8c2-4d80-9a87-a2eeeea66cfa
 title: 'MFPKEY_RESIZE_DST_TOP 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4887dd0f7996dca973c690752bbdb8f8716927
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f40434f876fc18e2440a5cbd9e2539bd9e41cecbd671a3c451355824a866e4b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117689566"
 ---
 # <a name="mfpkey_resize_dst_top-property"></a>MFPKEY \_ 調整 \_ DST \_ 頂端屬性的大小
 
@@ -33,8 +33,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

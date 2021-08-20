@@ -4,12 +4,12 @@ ms.assetid: 68332106-d1fe-467b-8baa-1e592b9cc243
 title: 'MF_TOPONODE_DRAIN 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 679b87d626738b82f4504673392bd0fe159e2722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26aa3d813bf92dde1bd22ecbb5615ba26425b381453154239a596193a885f4fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117691183"
 ---
 # <a name="mf_toponode_drain-attribute"></a>MF \_ TOPONODE \_ 清空屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "106967179"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

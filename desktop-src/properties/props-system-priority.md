@@ -4,12 +4,12 @@ ms.assetid: 43f81cb5-7f2e-4f8f-ad31-8aad71765f60
 title: System. Priority
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66e6930c9746d61f181c88076d10677d5cfdd787
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 542aa48f8aee45ad9bcefb0f2ad8134e6afd38dde23adca4d8c4493ab5293646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117682403"
 ---
 # <a name="systempriority"></a>System. Priority
 

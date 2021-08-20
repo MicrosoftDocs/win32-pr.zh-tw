@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: fcf23352-6603-4b17-9c3b-b353cca1c003
-ms.openlocfilehash: ca68d2e46ce74593b66aac6f995b88ddcb79796b
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 4cdb724e9a1b2bd77803f6fe104515057e69f532f62ea05d273f0178dd90e61b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047474"
 ---
 # <a name="shelluihelperissubscribed-method"></a>ShellUIHelper. IsSubscribed 方法
 
@@ -56,9 +56,9 @@ bRetVal = ShellUIHelper.IsSubscribed(
 
 ## <a name="examples"></a>範例
 
-下列範例會針對內嵌于 HTML 和 Visual Basic 中的 JScript，顯示此方法的適當用法。
+下列範例會針對內嵌于 HTML 和 Visual Basic 的 JScript，顯示此方法的正確用法。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -114,7 +114,7 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Exdisp。h</dt> </dl>                            |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |

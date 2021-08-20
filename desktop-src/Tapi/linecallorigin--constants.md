@@ -4,12 +4,12 @@ ms.assetid: b830a40e-62d9-4a6c-b43f-8318f30a7cd4
 title: 'LINECALLORIGIN_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f00495d67dcff56ef7ee34cd85600a281e006ec3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 296bcc27f3f238e20608279a14ab00c0ab04060faef458fade3f222c7fa35fe8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117944909"
 ---
 # <a name="linecallorigin_-constants"></a>LINECALLORIGIN \_ 常數
 

@@ -32,12 +32,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 595f1d459f645d26014a644d0e2b7cb608f4c6db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6cd11856ea1e500425a2d9767dd144ebc9f5e31f583cd07961376aba0ef585b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117687152"
 ---
 # <a name="resource-types"></a>資源類型
 
@@ -45,7 +45,7 @@ ms.locfileid: "106994859"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                      |
+| 常數/值                                                                                                                                                                                                                                                           | 描述                                                                                                                                                                                                                                                                                      |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="RT_ACCELERATOR"></span><span id="rt_accelerator"></span><dl> <dt>**RT \_加速器**</dt> <dt>MAKEINTRESOURCE (9)</dt> </dl>                                 | 快速鍵對應表。<br/>                                                                                                                                                                                                                                                                    |
 | <span id="RT_ANICURSOR"></span><span id="rt_anicursor"></span><dl> <dt>**RT \_ANICURSOR**</dt> <dt>MAKEINTRESOURCE (21)</dt> </dl>                                      | 動畫游標。<br/>                                                                                                                                                                                                                                                                      |
@@ -53,7 +53,7 @@ ms.locfileid: "106994859"
 | <span id="RT_BITMAP"></span><span id="rt_bitmap"></span><dl> <dt>**RT \_點陣圖**</dt> <dt>MAKEINTRESOURCE (2)</dt> </dl>                                                | 點陣圖資源。<br/>                                                                                                                                                                                                                                                                      |
 | <span id="RT_CURSOR"></span><span id="rt_cursor"></span><dl> <dt>**RT \_資料指標**</dt> <dt>MAKEINTRESOURCE (1)</dt> </dl>                                                | 硬體相依的資料指標資源。<br/>                                                                                                                                                                                                                                                   |
 | <span id="RT_DIALOG"></span><span id="rt_dialog"></span><dl> <dt>**RT \_對話方塊**</dt> <dt>MAKEINTRESOURCE (5)</dt> </dl>                                                | 對話方塊。<br/>                                                                                                                                                                                                                                                                           |
-| <span id="RT_DLGINCLUDE"></span><span id="rt_dlginclude"></span><dl> <dt>**RT \_DLGINCLUDE**</dt> <dt>MAKEINTRESOURCE (17)</dt> </dl>                                   | 允許資源編輯工具將字串與 .rc 檔產生關聯。 一般而言，此字串是提供符號名稱的標頭檔名稱。 資源編譯器會剖析字串，否則會忽略值。 例如， <br/> `1 DLGINCLUDE "MyFile.h"`<br/> |
+| <span id="RT_DLGINCLUDE"></span><span id="rt_dlginclude"></span><dl> <dt>**RT \_DLGINCLUDE**</dt> <dt>MAKEINTRESOURCE (17)</dt> </dl>                                   | 允許資源編輯工具將字串與 .rc 檔產生關聯。 一般而言，此字串是提供符號名稱的標頭檔名稱。 資源編譯器會剖析字串，否則會忽略值。 例如 <br/> `1 DLGINCLUDE "MyFile.h"`<br/> |
 | <span id="RT_FONT"></span><span id="rt_font"></span><dl> <dt>**RT \_字型**</dt> <dt>MAKEINTRESOURCE (8)</dt> </dl>                                                      | 字型資源。<br/>                                                                                                                                                                                                                                                                        |
 | <span id="RT_FONTDIR"></span><span id="rt_fontdir"></span><dl> <dt>**RT \_FONTDIR**</dt> <dt>MAKEINTRESOURCE (7)</dt> </dl>                                             | 字型目錄資源。<br/>                                                                                                                                                                                                                                                              |
 | <span id="RT_GROUP_CURSOR"></span><span id="rt_group_cursor"></span><dl> <dt>**RT \_群組資料 \_ 指標**</dt> <dt>MAKEINTRESOURCE ( (ULONG \_ PTR)  (RT \_ 游標) + 11)</dt> </dl> | 硬體獨立的資料指標資源。<br/>                                                                                                                                                                                                                                                 |
@@ -67,7 +67,7 @@ ms.locfileid: "106994859"
 | <span id="RT_RCDATA"></span><span id="rt_rcdata"></span><dl> <dt>**RT \_RCDATA**</dt> <dt>MAKEINTRESOURCE (10)</dt> </dl>                                               | 應用程式定義的資源 (原始資料) 。<br/>                                                                                                                                                                                                                                              |
 | <span id="RT_STRING"></span><span id="rt_string"></span><dl> <dt>**RT \_字串**</dt> <dt>MAKEINTRESOURCE (6)</dt> </dl>                                                | 字串資料表專案。<br/>                                                                                                                                                                                                                                                                   |
 | <span id="RT_VERSION"></span><span id="rt_version"></span><dl> <dt>**RT \_版本**</dt> <dt>MAKEINTRESOURCE (16)</dt> </dl>                                            | 版本資源。<br/>                                                                                                                                                                                                                                                                     |
-| <span id="RT_VXD"></span><span id="rt_vxd"></span><dl> <dt>**RT \_VXD**</dt> <dt>MAKEINTRESOURCE (20)</dt> </dl>                                                        | Vxd。<br/>                                                                                                                                                                                                                                                                                  |
+| <span id="RT_VXD"></span><span id="rt_vxd"></span><dl> <dt>**RT \_VXD**</dt> <dt>MAKEINTRESOURCE (20)</dt> </dl>                                                        | VXD。<br/>                                                                                                                                                                                                                                                                                  |
 
 
 

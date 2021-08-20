@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 18c7e5d58fe926d09e7ec48ee12a2336627d5db2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a44800827570710c1e133a7a473bbb0bcf5b7b0cab5c1a44aad21e446a54c107
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905805"
 ---
 # <a name="interlockedcompareexchange-function"></a>InterlockedCompareExchange 函式
 
@@ -28,10 +28,10 @@ ms.locfileid: "103682818"
 
 ``` syntax
 void InterlockedCompareExchange(
-  in  UINT dest,
-  in  UINT compare_value,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT compare_value,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -86,7 +86,7 @@ void InterlockedCompareExchange(
 > [!Note]  
 > 如果您在 [**for**](dx-graphics-hlsl-for.md)或 [**while**](dx-graphics-hlsl-while.md)計算著色器迴圈中呼叫 **InterlockedCompareExchange** ，以便正確編譯，您必須在該迴圈中使用 [ **\[ 允許 \_ uav \_ 條件 \]** ] 屬性。
 
- 
+ 
 
 下列著色器類型支援此函數：
 
@@ -98,7 +98,7 @@ void InterlockedCompareExchange(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -110,6 +110,6 @@ void InterlockedCompareExchange(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

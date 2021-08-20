@@ -7,12 +7,12 @@ keywords:
 - 目錄管理員錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69c58b3a6fad77a5b12f97947eaa815730390316
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: edd1e43971d058088b18edc60f316ce297f575751a2c44206b92aed9a02ccdea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118019089"
 ---
 # <a name="directory-manager-errors"></a>目錄管理員錯誤
 
@@ -30,7 +30,7 @@ ms.locfileid: "104183026"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -51,9 +51,9 @@ ms.locfileid: "104183026"
 「成功」
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: 4056357de5e3e479124e8f9a91d9b3d906300709
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7e26a0cde3defe987c05ba2066b6643e74239494cbb9d674577905217a63f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117862742"
 ---
 # <a name="iwordsinkendaltphrase-method"></a>IWordSink：： EndAltPhrase 方法
 
@@ -43,7 +43,7 @@ HRESULT EndAltPhrase();
 
 
 
-| 傳回碼                                                                                           | Description                                                                            |
+| 傳回碼                                                                                           | 描述                                                                            |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | <dl> <dt>**\_ \_ 僅限 WBREAK E 查詢 \_**</dt> </dl> | 查詢期間會呼叫 [**EndAltPhrase**](iwordsink-endaltphrase.md) 。<br/> |
 

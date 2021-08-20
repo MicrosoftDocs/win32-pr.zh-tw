@@ -4,12 +4,12 @@ ms.assetid: b474dfca-c4a6-4aab-a4dd-5aec7be3e02a
 title: 地址類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9438c200c9b09dd4f78342ea18d412eaaf23b646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1015c9ce501c6f82406fe80d8070a436887c86bbf7e7b59aac84daca3414760e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117949164"
 ---
 # <a name="address-type"></a>地址類型
 

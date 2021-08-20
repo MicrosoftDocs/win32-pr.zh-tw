@@ -1,5 +1,5 @@
 ---
-description: 示範如何註冊可延伸 &0034 的動詞 \# ;同步&\# 0034; 和 &\# 0034; \#在 Windows 檔案總管命令列中共用&0034; 動詞。
+description: 示範如何註冊可延伸 &0034 的動詞 \# ;同步&\# 0034; 和 &\# 0034;\#在 Windows 檔案總管命令列中共用&0034; 動詞。
 title: 同步和共用動詞
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 734d59ce7b527ad068c03be9083ca67dfca20667
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0a83f69aa866f5eb91eeff56d4313b1ff343f84c69484eb2a9d52614ea19db8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677372"
 ---
 # <a name="sync-and-share-verbs"></a>同步和共用動詞
 
@@ -42,7 +42,7 @@ ms.locfileid: "104973748"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [SyncAndShareVerbs 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appshellintegration/SyncAndShareVerbs) |
 
@@ -53,14 +53,14 @@ ms.locfileid: "104973748"
 1.  流覽至 `sync.reg` 包含該檔案的目錄
 2.  `sync.reg `在命令列中輸入，或按兩下圖示進行 `sync.reg` 註冊。
 3.  開啟 Windows 檔案總管，然後選取檔案。
-4.  按一下命令列中的 [ **同步** 處理] 選項，然後選取子選項，例如 [ **繪製**]。
+4.  按一下命令列中的 [**同步** 處理] 選項，然後選取子選項（例如 **小畫家**）。
 
 若要執行範例 (共用) ：
 
 1.  流覽至包含該檔案的目錄 `share.reg` 。
 2.  `share.reg`在命令列中輸入，或按兩下圖示進行 `share.reg` 註冊。
 3.  開啟 Windows 檔案總管然後選取檔案。 按一下命令列中的 [ **共用** ] 選項。
-4.  按一下命令列中的 [ **共用方式** ] 選項，然後選取子選項，例如 [ **繪製**]。
+4.  按一下命令列中的 [**共用方式**] 選項，然後選取子選項（例如 **小畫家**）。
 
 ## <a name="removing-the-sample"></a>移除範例
 

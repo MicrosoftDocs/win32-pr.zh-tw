@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102812
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d10ba62a57f21efc96409778f5a516bbf71b92cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8a8c4470d9cb50c82d0762a9817fd4ed0eb7bff8b7ea10688605c8cf8051a70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117896980"
 ---
 # <a name="esentslvproviderversionmismatchexception-properties"></a>EsentSLVProviderVersionMismatchException 屬性
 

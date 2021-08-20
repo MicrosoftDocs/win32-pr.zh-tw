@@ -4,12 +4,12 @@ description: 網路管理使用者強制回應功能會取得並設定與安全�
 ms.assetid: e655b9f6-2808-4bd4-998c-c8a2e980920b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c65595f78a412196b9fd54030ec1ac1f1fb8ae59
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: addea3c76d79cbcdb0e359424be154893d2c436c1f6d45157ecf50e748fc9417
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796794"
 ---
 # <a name="user-modal-functions"></a>使用者模式函數
 
@@ -26,7 +26,7 @@ ms.locfileid: "103933546"
 
 
 
- 
+ 
 
 **NetUserModalsGet** 和 **NetUserModalsSet** 函式會檢查和修改強制回應設定，這些設定是影響安全性資料庫中每個帳戶的全域參數 (例如，允許的最小密碼長度) 。 您可以藉由呼叫 **NetUserModalsSet** 來改變所有強制回應設定。 您也可以使用 **net accounts** 命令來改變大部分的 modals。 網路管理使用者強制回應功能不需要伺服器擁有使用者層級安全性。
 
@@ -49,6 +49,6 @@ ms.locfileid: "103933546"
 
 如果您正在針對 Active Directory 進行程式設計，您可以呼叫特定 Active Directory 服務介面 (ADSI) 方法，以達到您可以藉由呼叫網路管理使用者模式函式達成的相同功能。 如需詳細資訊，請參閱 [**IADsDomain**](/windows/desktop/api/iads/nn-iads-iadsdomain)。
 
- 
+ 
 
- 
+ 

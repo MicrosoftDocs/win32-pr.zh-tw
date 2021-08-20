@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: e5f3e1f39b457bce105a8ac2b4be8b5939435615
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0d5118602d179bc46692326d92176fbb364263d171e75a97a384a43791c7200
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118048687"
 ---
 # <a name="sfvm_addpropertypages-message"></a>SFVM \_ ADDPROPERTYPAGES 訊息
 

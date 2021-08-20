@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，建立有效率的查詢
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8902fd3d512b940890ebdfd4c2640786c88c82a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: fbcbda512d93a6567f5dc182b92409743368d10b8f328c1046034d94c7449712
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118020355"
 ---
 # <a name="creating-efficient-queries"></a>建立有效率的查詢
 

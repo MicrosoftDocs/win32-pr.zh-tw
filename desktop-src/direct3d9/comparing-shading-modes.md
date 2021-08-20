@@ -4,12 +4,12 @@ ms.assetid: efcaf3f7-b474-4719-adde-10096e296b9f
 title: 比較 (Direct3D 9) 的陰影模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b275f18aa7283a8109db5d6709595cff0ddd09be
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3df53df2751dc184cbb8246f47a56fbb2b3320e96432b664524a2e30018adc15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117911648"
 ---
 # <a name="comparing-shading-modes-direct3d-9"></a>比較 (Direct3D 9) 的陰影模式
 

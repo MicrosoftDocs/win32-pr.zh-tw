@@ -4,12 +4,12 @@ ms.assetid: 799afe2c-9217-4006-a4a3-644e5393993c
 title: 識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df79bd0d70564ea3e87ff4821a1cb59e3d0a5eb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35ecfab78827677d59c185164bab55e4b974950a2fcba7bca0ffc855ed894aea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680614"
 ---
 # <a name="identifiers"></a>識別碼
 

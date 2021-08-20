@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 964f8dfd8652547bdf5bef25d1abe9acde8189a2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e61e391e5bbc681d1a914acb67bae4d75d03f6095c3d0cc2c2da07a00ff17843
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806686"
 ---
 # <a name="message-attribute"></a>message 屬性
 
@@ -118,6 +118,6 @@ IDL 檔案中所定義的函式名稱。
 [**void**](void.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

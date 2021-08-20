@@ -4,12 +4,12 @@ ms.assetid: f2e4144f-f2f1-49db-bfdf-ffce3023b4cb
 title: 使用畫筆繪製線條和矩形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b335caf7e2ecbad6bc49965ff757809c3b1179c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da700d61a5c8c1ce605678ea09aa540706d569361cebba8f5a93110ccdc304bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884858"
 ---
 # <a name="using-a-pen-to-draw-lines-and-rectangles"></a>使用畫筆繪製線條和矩形
 

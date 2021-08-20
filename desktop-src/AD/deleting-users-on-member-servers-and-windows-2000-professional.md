@@ -1,26 +1,26 @@
 ---
-title: 刪除成員伺服器與 Windows 2000 Professional 上的使用者
-description: 本主題說明如何從成員伺服器或在 Windows 2000 Professional 上執行的電腦刪除使用者。
+title: 刪除成員伺服器上的使用者和 Windows 2000 Professional
+description: 本主題說明如何從成員伺服器或 Windows 2000 Professional 上執行的電腦刪除使用者。
 ms.assetid: 0c94c08b-46cb-494e-89f8-a21bfb20e34c
 ms.tgt_platform: multiple
 keywords:
-- users AD、刪除成員伺服器與 Windows 2000 Professional 上的使用者
-- Active Directory、使用、使用者、刪除成員伺服器與 Windows 2000 Professional 上的使用者
+- 使用者 AD、刪除成員伺服器上的使用者，以及 Windows 2000 Professional
+- Active Directory、使用、使用者、刪除成員伺服器上的使用者和 Windows 2000 Professional
 - 刪除使用者
 - 伺服器，刪除使用者
 - 刪除成員伺服器與 windows 2000 professional AD 上的使用者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aae4287c8b7d32e15e7df3e73f365409d7fe49a0
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: d457ad69b3bd83f6295bda262896e85e43ad35280038cbe879ebd5aaf187a47c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118019545"
 ---
-# <a name="deleting-users-on-member-servers-and-windows-2000-professional"></a>刪除成員伺服器與 Windows 2000 Professional 上的使用者
+# <a name="deleting-users-on-member-servers-and-windows-2000-professional"></a>刪除成員伺服器上的使用者和 Windows 2000 Professional
 
-本主題說明如何從成員伺服器或在 Windows 2000 Professional 上執行的電腦刪除使用者。
+本主題說明如何從成員伺服器或 Windows 2000 Professional 上執行的電腦刪除使用者。
 
 **刪除使用者**
 
@@ -32,6 +32,6 @@ ms.locfileid: "104023256"
 
     請注意，您不需要呼叫 [**IADs SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) 來認可容器的變更。 [**IADsContainer**](/windows/desktop/api/iads/nf-iads-iadscontainer-delete)呼叫會認可將使用者直接刪除到目錄的動作。
 
- 
+ 
 
- 
+ 

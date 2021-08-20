@@ -4,12 +4,12 @@ ms.assetid: 2d4e962a-809c-4d64-9549-4383b0c3b5dd
 title: 撥置中心控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d8194fda0e59cceeb36edbe5f58bf75d43c5610
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9431cfa20d00d6836f4bd493fe236d6d8a1d6464c54353df1b3b45d893a27e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948273"
 ---
 # <a name="call-center-controls"></a>撥置中心控制項
 

@@ -5,20 +5,20 @@ ms.assetid: 8c280084-fd2f-4d34-a119-d4e925a68a5c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fc8d9646f4ccc2e8c740a81ddb48422881744f5
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b0aa5e6cc32a3ee2491cc18800bcf4aa2792452ac3fd5818940a682288932fb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118019997"
 ---
 # <a name="debugging-an-active-directory-extension"></a>Active Directory 擴充功能的偵錯工具
 
 本主題中記載的 Microsoft Active Directory Directory 服務屬性工作表、內容功能表和物件建立嚮導延伸模組會實作為 COM 的內部進程伺服器。 也就是說，每個延伸模組都是在主機進程內容中執行的 DLL。 若要對延伸模組進行偵錯工具，必須將擴充功能與應用程式建立關聯，並在偵錯工具中執行應用程式。
 
-## <a name="debugging-active-directory-extensions-displayed-in-the-windows-shell"></a>在 Windows Shell 中顯示 Active Directory 擴充功能的偵錯工具
+## <a name="debugging-active-directory-extensions-displayed-in-the-windows-shell"></a>Windows Shell 中顯示 Active Directory 擴充功能的偵錯工具
 
-在 Explorer.exe 進程的內容中，會載入 Windows shell 中顯示的 Active Directory 延伸模組。 這些擴充功能可以像標準 shell 擴充功能一樣地進行調試。 如需有關偵錯工具擴充功能的詳細資訊，請參閱 [使用 shell 進行的調試](/previous-versions/windows/desktop/legacy/cc144064(v=vs.85))程式。
+Windows shell 中顯示的 Active Directory 延伸模組會載入 Explorer.exe 進程的內容中。 這些擴充功能可以像標準 shell 擴充功能一樣地進行調試。 如需有關偵錯工具擴充功能的詳細資訊，請參閱 [使用 shell 進行的調試](/previous-versions/windows/desktop/legacy/cc144064(v=vs.85))程式。
 
 ## <a name="debugging-active-directory-extensions-displayed-in-the-active-directory-mmc-snap-ins"></a>Active Directory MMC 中所顯示 Active Directory 擴充功能的調試 Snap-Ins
 
@@ -40,6 +40,6 @@ Active Directory 系統管理 MMC 嵌入式管理單元中顯示的 Active Direc
 
 當偵錯工具完成時，結束 MMC 和偵錯工具應該會正常地卸載。
 
- 
+ 
 
- 
+ 

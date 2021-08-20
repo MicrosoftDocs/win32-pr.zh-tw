@@ -4,12 +4,12 @@ ms.assetid: d3b5ed70-022f-4c50-814e-1511662e04e5
 title: Windows Search) 的語法引數 (
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95bbf8523ba3a71dc19cf172bf1416f67d04f6f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22616ce8c2ec8ed315c2540e79bdd674977fb7e5a1f117ee555c1c8e4be5a9f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864224"
 ---
 # <a name="syntax-argument-windows-search"></a>Windows Search) 的語法引數 (
 

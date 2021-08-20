@@ -4,18 +4,18 @@ ms.assetid: d392f30c-c963-4eb3-add2-1bb986919c0b
 title: 案例研究： MPEG-2 媒體來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87e1f72cc6ae6df119439bdae1942732bf8d2fa2
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b34ca3b7471770612ba53709958ba64fcbe23b57b35d4e516864dc14516aed3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104027646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871436"
 ---
 # <a name="case-study-mpeg-1-media-source"></a>案例研究： MPEG-2 媒體來源
 
 在 Microsoft 媒體基礎中，將媒體資料引進資料管線的物件稱為 *媒體來源*。 本主題深入探討 [Mpeg-2 媒體來源](mpeg1source-sample.md) SDK 範例。
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [MPEG 1 來源中使用的 c + + 類別](#c-classes-used-in-the-mpeg-1-source)
 -   [位元組資料流程處理常式](#byte-stream-handler)
 -   [簡報描述項](#presentation-descriptor)
@@ -61,7 +61,7 @@ ms.locfileid: "104027646"
 
 ## <a name="byte-stream-handler"></a>Byte-Stream 處理常式
 
-*位元組資料流程* 處理常式是建立媒體來源的物件。 位元組資料流程處理常式是由來源解析程式所建立;應用程式不會直接與位元組資料流程處理常式互動。 來源解析程式會藉由查看登錄來探索位元組資料流程處理常式。 處理常式是依副檔名或 MIME 類型來註冊。 針對 MPEG-2 來源，位元組資料流程處理常式會註冊 ". mpg" 副檔名。
+*位元組資料流程* 處理常式是建立媒體來源的物件。 位元組資料流程處理常式是由來源解析程式所建立;應用程式不會直接與位元組資料流程處理常式互動。 來源解析程式會藉由查看登錄來探索位元組資料流程處理常式。 處理常式是依副檔名或 MIME 類型來註冊。 若為 MPEG 1 來源，則會為 ".mpg" 副檔名註冊位元組資料流程處理常式。
 
 > [!Note]  
 > 如果您想要支援自訂 URL 配置，您也可以撰寫 *配置處理常式*。 MPEG-2 來源是針對本機檔案所設計，媒體基礎已經提供 "file://" Url 的配置處理常式。
@@ -599,7 +599,7 @@ HRESULT MPEG1Source::DoStart(StartOp *pOp)
 
 ## <a name="sample-requests"></a>範例要求
 
-媒體基礎使用 *提取* 模型，在此模型中，管線會從媒體來源要求範例。 這不同于 DirectShow 所使用的模型，其中來源會「推送」範例。
+媒體基礎使用 *提取* 模型，在此模型中，管線會從媒體來源要求範例。 這不同于 DirectShow 所使用的模型，在此模型中，來源會「推送」範例。
 
 若要要求新的範例，媒體基礎管線會呼叫 [**IMFMediaStream：： RequestSample**](/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample)。 這個方法會採用表示 *權杖* 物件的 **IUnknown** 指標。 Token 物件的實作為呼叫端;它只會提供一種方法讓呼叫端追蹤範例要求。 Token 參數也可以是 **Null**。
 

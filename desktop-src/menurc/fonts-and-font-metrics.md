@@ -1,34 +1,34 @@
 ---
 title: 字型和文字度量
-description: 本主題討論 Windows 所提供的大綱字型、可能在 Windows 版本之間變更的字型計量值，以及如何在傳統型應用程式中使用字型計量的指引。
+description: 本主題討論 Windows 所提供的外框字型、Windows 版本之間可能會變更的字型度量值，以及如何在傳統型應用程式中使用字型度量的指引。
 ms.assetid: B195154D-0168-4C5E-9CFB-AE7EF63D5F42
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da27d4eb5f34f5a88e4a0e3e866f9a14784c3895
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5199459c7a6afd311b120bd186df000e0fd32eef828ae986caf6da8573afe8bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117687851"
 ---
 # <a name="fonts-and-text-metrics"></a>字型和文字度量
 
-本主題討論 Windows 所提供的大綱字型、可能在 Windows 版本之間變更的字型計量值，以及如何在傳統型應用程式中使用字型計量的指引。
+本主題討論 Windows 所提供的外框字型、Windows 版本之間可能會變更的字型度量值，以及如何在傳統型應用程式中使用字型度量的指引。
 
--   如需 DirectWrite 中字型度量的特定資訊，請參閱 [文字度量](/windows/desktop/DirectWrite/text-metrics)。
+-   如需 DirectWrite 中字型度量的特定資訊，請參閱[文字度量](/windows/desktop/DirectWrite/text-metrics)。
 -   如需使用 GDI 來管理應用程式文字的詳細資訊，請參閱字型 [和文字](/windows/desktop/gdi/fonts-and-text)中的主題。
 
 如需字型使用方式和類型規格的詳細資訊，請參閱 [Microsoft 印刷樣式網站](https://www.microsoft.com/typography/default.mspx)。
 
 ## <a name="available-fonts"></a>可用的字型
 
-Windows 提供的大綱字型會以 OpenType 字型的形式傳遞， (Windows 也支援 CFF 格式) 的 OpenType 字型。 如需 Windows 所提供的所有字型清單，請參閱 [Microsoft 印刷樣式：依產品或系列](https://www.microsoft.com/typography/fonts/default.aspx)提供的字型。 所有的 Windows 大綱字型都符合最新版本的 [OpenType 規格](https://www.microsoft.com/typography/otspec/)。
+Windows 提供的大綱字型會以 OpenType 字型的形式傳遞，並使用 TrueType 大綱 (Windows 也支援 CFF 格式) 的 opentype 字型。 如需 Windows 所提供的所有字型清單，請參閱[Microsoft 印刷樣式：依產品或系列](https://www.microsoft.com/typography/fonts/default.aspx)提供的字型。 所有 Windows 大綱字型都符合最新版本的[OpenType 規格](https://www.microsoft.com/typography/otspec/)。
 
 如需所有目前和舊版 UI 字型的清單，請參閱下方的 [鎖定字型計量](#locked-font-metrics) 。
 
 ## <a name="font-modifications"></a>字型修改
 
-為了確保回溯相容性，字型很少會從視窗中移除。 不過，字型通常會經過修改。 修改可能包括新增字元、重新繪製現有的字元、修改提示，或是新增或修改先進 OpenType 功能和複雜字集成形的支援。
+為了確保回溯相容性，字型很少會從 Windows 中移除。 不過，字型通常會經過修改。 修改可能包括新增字元、重新繪製現有的字元、修改提示，或是新增或修改先進 OpenType 功能和複雜字集成形的支援。
 
 ### <a name="locked-font-metrics"></a>鎖定的字型計量
 
@@ -108,7 +108,7 @@ Windows 提供的大綱字型會以 OpenType 字型的形式傳遞， (Windows �
 
 
 
- 
+ 
 
 以下是舊版 UI 字型的清單，這些字型也會受到鎖定值的影響：
 
@@ -138,7 +138,7 @@ Windows 提供的大綱字型會以 OpenType 字型的形式傳遞， (Windows �
 
 
 
- 
+ 
 
 在 Microsoft 應用程式中會使用這些字型作為預設值，而且也會受到鎖定值的影響：
 
@@ -153,12 +153,12 @@ Windows 提供的大綱字型會以 OpenType 字型的形式傳遞， (Windows �
 
 ### <a name="dynamic-font-metrics"></a>動態字型計量
 
-除了上面所列的鎖定計量以外，也會正確地報告字型值。 如果在新版本的 Windows 中變更字型，則新的和舊的字型值會不同。 例如，當字型加入字型時，字型標頭中的值可能會變更。 如果這些值 (（包括 xMin、xMax、yMin 和 yMax），並報告字型) 中圖像的最小和最大周框方塊已鎖定，且未回報 true 值，則可能會產生裁剪。
+除了上面所列的鎖定計量以外，也會正確地報告字型值。 如果新版本的 Windows 中的字型有所變更，則新的和舊的字型值會不同。 例如，當字型加入字型時，字型標頭中的值可能會變更。 如果這些值 (（包括 xMin、xMax、yMin 和 yMax），並報告字型) 中圖像的最小和最大周框方塊已鎖定，且未回報 true 值，則可能會產生裁剪。
 
 > [!IMPORTANT]
-> 如果您在應用程式中使用動態字型值 (與 [**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica)) 中的值相同，則在未來的 Windows 版本中修改字型時，這些值將會變更。 請勿在文字必須保持靜態的情況下使用這些實際值。
+> 如果您在應用程式中使用動態字型值 (與 [**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica)) 中的值相同，則這些值會在未來的 Windows 版本中修改時變更。 請勿在文字必須保持靜態的情況下使用這些實際值。
 
- 
+ 
 
 ## <a name="guidelines-for-using-font-metrics"></a>使用字型計量的指導方針
 
@@ -167,7 +167,7 @@ Windows 提供的大綱字型會以 OpenType 字型的形式傳遞， (Windows �
     -   如果控制項只包含一行未包裝的文字，請將它們配置出來，以符合未修剪文字的全形。
     -   針對具有多行的控制項，取得總長度（除以字元長度），而且您可以使用純色寬度。 請注意，對於讀取器的單一「字元」可能是多個程式碼點的複雜字集而言，這會比較棘手。
 -   使用 [OS/2 資料表](https://www.microsoft.com/typography/otspec/os2.htm)) 的 STypoAscender、STypoDescender 和 unitsPerEm (來計算垂直間距。 sTypoAscender 是用來判斷從文字框架頂端到第一個基準的最佳位移，而 sTypoDescender 則會決定從文字框架底部到最後一個基準的最佳位移。
--   如果您使用的是 DirectWrite，請使用 [**IDWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout)建立版面配置。 **IDWriteTextLayout** 提供  +  自然配置中的 ascender **下行**  +  **lineGap** 。 您可以使用 [**DWRITE \_ 字型 \_ 計量**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics)來存取這些特定的值。 如需此介面的詳細資訊，請參閱 [文字格式設定和](/windows/desktop/DirectWrite/text-formatting-and-layout)配置。
+-   如果您是使用 DirectWrite，請使用 [**IDWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout)來建立版面配置。 **IDWriteTextLayout** 提供  +  自然配置中的 ascender **下行**  +  **lineGap** 。 您可以使用 [**DWRITE \_ 字型 \_ 計量**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics)來存取這些特定的值。 如需此介面的詳細資訊，請參閱 [文字格式設定和](/windows/desktop/DirectWrite/text-formatting-and-layout)配置。
 -   如果您使用的是 GDI，則會在螢幕上呈現，然後檢查配置 (例如，每行的行長度或字元) ，然後重新計算實際轉譯中使用的最終版面配置參數。
 -   請勿根據特定字型版本的特定值，以靜態方式建立版面配置。 實際值可能會隨著版本而變更。
 
@@ -211,6 +211,6 @@ Windows 提供的大綱字型會以 OpenType 字型的形式傳遞， (Windows �
 [Microsoft Typography](https://www.microsoft.com/typography/default.mspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

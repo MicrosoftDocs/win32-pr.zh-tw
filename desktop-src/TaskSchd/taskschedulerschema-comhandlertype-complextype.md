@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d36a92651fc46c0a1950ecff00fa59fe56e1d758
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1fb8fdaf16213f70a33ebefdead7b73df6645f3f10489add7bda419c71a8b277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117943130"
 ---
 # <a name="comhandlertype-complex-type"></a>comHandlerType 複雜類型
 
@@ -48,7 +48,7 @@ ms.locfileid: "104024884"
 
 
 
-| 元素                                                               | 類型                                                         | Description                                                        |
+| 元素                                                               | 類型                                                         | 描述                                                        |
 |-----------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------|
 | [**ClassId**](taskschedulerschema-classid-comhandlertype-element.md) | [**guidType**](taskschedulerschema-guidtype-simpletype.md)  | 指定處理常式類別的識別碼。<br/>          |
 | [**資料**](taskschedulerschema-data-comhandlertype-element.md)       | [**dataType**](taskschedulerschema-datatype-complextype.md) | 指定與處理常式相關聯的其他資料。 <br/> |
@@ -61,8 +61,8 @@ ms.locfileid: "104024884"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

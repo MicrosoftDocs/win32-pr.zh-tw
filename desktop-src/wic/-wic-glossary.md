@@ -2,17 +2,17 @@
 description: 定義 WIC 中使用的詞彙。
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: b066757a-8841-4976-b20b-989ebba5eb3b
-title: Windows 影像處理元件詞彙
+title: Windows影像處理元件詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee6812024571727c8f769df88f8233119eed13ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c851b4a0be5d5f90a5ff0cc030d68cc1010a0259c316811a7ca1c3b92c383b7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668189"
 ---
-# <a name="windows-imaging-component-glossary"></a>Windows 影像處理元件詞彙
+# <a name="windows-imaging-component-glossary"></a>Windows影像處理元件詞彙
 
 ## <a name="b"></a>B
 

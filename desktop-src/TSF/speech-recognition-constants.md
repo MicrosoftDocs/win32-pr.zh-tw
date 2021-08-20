@@ -22,12 +22,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04c9cfd340e79415d12202765a8db1578abba74e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b727603454f13f7f5ec4d6595ea35b65284c9eafda991dd0c232ace78aea9678
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117951387"
 ---
 # <a name="speech-recognition-constants"></a>語音辨識常數
 
@@ -35,7 +35,7 @@ ms.locfileid: "104093964"
 
 
 
-| 常數/值                                                                                                                                                                                                                                         | Description                                                                                                                                                                                                                                                 |
+| 常數/值                                                                                                                                                                                                                                         | 描述                                                                                                                                                                                                                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="TF_DICTATION_ON"></span><span id="tf_dictation_on"></span><dl> <dt>**TF \_0x00000001 \_ 上的聽寫**</dt> <dt></dt> </dl>                   | 如果此位為1，則語音聽寫為使用中狀態。 否則，語音聽寫為非使用中。 這個值無法與中的 TF \_ 命令結合 \_ 。 搭配 GUID 區間 [ \_ \_ 語音 \_ DICTATIONSTAT](predefined-compartments.md) 區間使用。<br/> |
 | <span id="TF_DICTATION_ENABLED"></span><span id="tf_dictation_enabled"></span><dl> <dt>**TF \_聽寫 \_ 已啟用**</dt> <dt>0x00000002</dt> </dl>    | 如果此位為1，則會啟用語音聽寫。 否則，就會停用語音聽寫。 搭配 GUID 區間 [ \_ \_ 語音 \_ DICTATIONSTAT](predefined-compartments.md) 區間使用。<br/>                                                       |
@@ -60,7 +60,7 @@ ms.locfileid: "104093964"
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                                                                    |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                                                                                         |
 | 標頭<br/>                   | <dl> <dt>Ctffunc .h;</dt><dt>Msctf .h</dt> </dl>     |
-| Idl<br/>                      | <dl> <dt>Ctffunc .idl;</dt><dt>Msctf .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Ctffunc .idl;</dt><dt>Msctf .idl</dt> </dl> |
 
 
 

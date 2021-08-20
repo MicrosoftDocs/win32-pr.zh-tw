@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45e158b348debc610682380d793b66949c5a7648
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 57eab2d4bf9b587452b4731ac9819cfde9702186cde841e5c634d785c352555b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117940008"
 ---
 # <a name="querycertcontext-method-of-the-win32_tsgatewayserversettings-class"></a>Win32 TSGatewayServerSettings 類別的 QueryCertCoNtext 方法 \_
 

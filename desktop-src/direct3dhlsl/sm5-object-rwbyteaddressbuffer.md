@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4d065926b0769e15284cbe705783be012d82554b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 931d2592c02b59a38068aa0fe9205d6be7cd1b9a504782f4407144101d09d4ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905768"
 ---
 # <a name="rwbyteaddressbuffer"></a>RWByteAddressBuffer
 
@@ -42,7 +42,7 @@ ms.locfileid: "104375372"
 | [**Load2**](rwbyteaddressbuffer-load2.md)                                                      | 取得兩個值。                    |
 | [**Load3**](rwbyteaddressbuffer-load3.md)                                                      | 取得三個值。                  |
 | [**Load4**](rwbyteaddressbuffer-load4.md)                                                      | 取得四個值。                   |
-| [**市集**](sm5-object-rwbyteaddressbuffer-store.md)                                           | 設定一個值。                     |
+| [**儲存**](sm5-object-rwbyteaddressbuffer-store.md)                                           | 設定一個值。                     |
 | [**Store2**](sm5-object-rwbyteaddressbuffer-store2.md)                                         | 設定兩個值。                    |
 | [**Store3**](sm5-object-rwbyteaddressbuffer-store3.md)                                         | 設定三個值。                  |
 | [**Store4**](sm5-object-rwbyteaddressbuffer-store4.md)                                         | 設定四個值。                   |
@@ -77,7 +77,7 @@ RWByteAddressBuffer 物件的前面可以加上儲存類別 **globallycoherent**
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

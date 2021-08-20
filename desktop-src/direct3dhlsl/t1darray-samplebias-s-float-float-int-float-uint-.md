@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4050503525345803a105d7717e96f6aa7b5c43cd
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: c8c189b38abba3d127118fcb9cc6a5efa0ead651e4f81156057b7234ab418af2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104514733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904645"
 ---
 # <a name="samplebiassamplebiassfloatfloatintfloatuint-function-for-texture1darray"></a>Texture1DArray 的 SampleBias：： SampleBias (S、float、float、int、float、uint) 函數
 

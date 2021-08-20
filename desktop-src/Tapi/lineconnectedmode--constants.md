@@ -4,12 +4,12 @@ ms.assetid: d75a5989-3f4e-4e5d-90b1-4e450def017e
 title: 'LINECONNECTEDMODE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5191d3a575ef353c54c91c0e53b3228621b703cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1b8038f7d67f5805f4e4ea6669b4a5cf0f2eb693503401cb7610f2faa56e698
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117944882"
 ---
 # <a name="lineconnectedmode_-constants"></a>LINECONNECTEDMODE \_ 常數
 

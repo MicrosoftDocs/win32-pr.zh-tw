@@ -4,12 +4,12 @@ description: 功能區架構控制項狀態或內容之屬性索引鍵的參考�
 ms.assetid: 4d002be3-fa0d-4694-bcd2-26900b34060c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a36336ce31536b357be1498aa12d4f56da41c5cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4cd521f85273ef1413f0e16b0c02c93aa10d4724b857894b38f3045caa28c53d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850417"
 ---
 # <a name="state-properties"></a>狀態屬性
 

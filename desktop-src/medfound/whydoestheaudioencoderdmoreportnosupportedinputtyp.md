@@ -4,12 +4,12 @@ ms.assetid: b3ff56bb-0ce3-422c-8b20-5c80ec710585
 title: 音訊編碼器為什麼不會報告任何支援的輸入類型？
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edf841bfc306c7e0b9ad8ce0fca466a79eade636
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20fdc65e97fc51812391f597667fc5b1dfe442b02f1f217169bc8121931b2773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117688300"
 ---
 # <a name="why-does-the-audio-encoder-report-no-supported-input-types"></a>音訊編碼器為什麼不會報告任何支援的輸入類型？
 

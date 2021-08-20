@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 854dc20d732813623ba637ce53029d8098c90908
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
-ms.translationtype: HT
+ms.openlocfilehash: 0bbb9926e3a4bc7c5298fa612cd8928b032eeb27e60d4b0fb98ac63751ee8a99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104992405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904551"
 ---
 # <a name="samplecmplevelzerosamplecmplevelzerosfloatfloatintuint-function-for-texture1darray"></a>Texture1DArray 的 SampleCmpLevelZero：： SampleCmpLevelZero (S、float、float、int、uint) 函數
 

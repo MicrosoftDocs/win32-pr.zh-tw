@@ -9,12 +9,12 @@ keywords:
 - 容器 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9039e4619ea0bd50d20c3bd425b6a8536a1034
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: be794e806a15bd7d220d5bcda0b517216d4dd75d93ed235e33ffc862eb7c18e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118021796"
 ---
 # <a name="containers-and-leaves"></a>容器和離開
 
@@ -26,6 +26,6 @@ Active Directory Domain Services 包含物件的階層，其中的所有物件�
 
 最後，您可以在與物件類別相關聯的顯示規範上設定旗標，以指出使用者介面應該一律將類別的實例顯示為「離開」而不是容器。 這有助於防止使用者介面因為太多容器而變得雜亂。 如需詳細資訊，請參閱將 [容器當作分葉節點來查看](viewing-containers-as-leaf-nodes.md)。
 
- 
+ 
 
- 
+ 

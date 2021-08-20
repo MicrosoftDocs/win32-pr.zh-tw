@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 043bed9edd08269e4e030482cbd44debea3a3695
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 220de3af18bd03a92006f8bd6addd51dd98f0a4b064c7fa6cc415324cea6e99d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904955"
 ---
 # <a name="sharevistring-message"></a>SHAREVISTRING 訊息
 
@@ -60,7 +60,7 @@ ms.locfileid: "110548763"
 
 
 
-| 傳回碼/值                                                                                                                                           | Description                                                                                                                |
+| 傳回碼/值                                                                                                                                           | 描述                                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**OFN \_SHAREFALLTHROUGH**</dt> <dt>2</dt> </dl> | 接受檔案名<br/>                                                                                            |
 | <dl> <dt>**OFN \_SHARENOWARN**</dt> <dt>1</dt> </dl>      | 拒絕檔案名，但不警告使用者。 應用程式會負責顯示警告訊息。<br/> |
@@ -86,7 +86,7 @@ ms.locfileid: "110548763"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Commdlg (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Commdlg (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **SHAREVISTRINGW** (Unicode) 和 **SHAREVISTRINGA** (ANSI) <br/>                                    |
 
 
@@ -98,7 +98,7 @@ ms.locfileid: "110548763"
 **參考**
 </dt> <dt>
 
-[**CDN \_ SHAREVIOLATION**](cdn-shareviolation.md)
+[**CDN \_SHAREVIOLATION**](cdn-shareviolation.md)
 </dt> <dt>
 
 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47ea9af3bfac85ff375f6d5433b4e9f3ed37d8f7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9493aea9a669e9ac14882e9a230e217e74c7236a68c3bb924ddbbaad7e4b93ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117806713"
 ---
 # <a name="long-attribute"></a>long 屬性
 
@@ -54,7 +54,7 @@ ms.locfileid: "103932663"
 [MIDL 基底類型](midl-base-types.md)
 </dt> <dt>
 
-[**超**](hyper.md)
+[**Hyper**](hyper.md)
 </dt> <dt>
 
 [**int**](int.md)
@@ -63,7 +63,7 @@ ms.locfileid: "103932663"
 [**short**](short.md)
 </dt> <dt>
 
-[**signed**](signed.md)
+[**簽署**](signed.md)
 </dt> <dt>
 
 [**小**](small.md)
@@ -75,9 +75,9 @@ ms.locfileid: "103932663"
 [**符號**](unsigned.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

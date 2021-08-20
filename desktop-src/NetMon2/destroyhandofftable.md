@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 7afccfd1932c57b2a0d77dbb5467afc31726c6fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec956ff4d0098b5a8992d6d28ab10afb925e76cb95b55d85ea7aa813ab2ba3c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796264"
 ---
 # <a name="destroyhandofftable-function"></a>DestroyHandoffTable 函式
 

@@ -5,12 +5,12 @@ ms.assetid: ecf71ae6-9b6f-4e3c-878a-2c6fd193da33
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9928884c8be19f9668d6f81ed9462f6fb757286f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 99ac95d03c7641f418f8976cad943f9ae321e731a87ed2179ae166aa145c5e50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "107001061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017702"
 ---
 # <a name="delegating-organizational-units"></a>委派組織單位
 
@@ -18,7 +18,7 @@ Fabrikam 公司雇用兩位系統管理員（Mike 和 Paul），分別管理東�
 
 在瞭解如何在 Mike 和 Paul 下設定這些組織單位之前，您必須瞭解如何在 Active Directory 中設定物件的存取權。 Active Directory 中的每個物件都有安全描述項。 有了安全描述項，您就可以修改物件的許可權、傳播許可權、啟用審核等等。 安全描述項本身有兩個存取控制清單 (Acl) ：任意 ACL (DACL) 和系統 ACL (SACL) 。 每個 ACL 可以包含 (Ace) 的存取控制專案。 您可以使用 ACE 來設定物件的允許或拒絕存取。 此外，您可以指定要允許或拒絕的特定動作。 動作範例包括「建立子系」、「刪除子系」、「讀取屬性」和「寫入」屬性。 這些許可權是使用 [**AccessMask**](iadsaccesscontrolentry-property-methods.md)指定的。
 
-接著，您可以指定與此 ACE 相關聯的類別或屬性。 在接下來的 Fabrikam 範例中，Joe 挑選使用者類別，讓每位系統管理員可以將使用者新增至系統。 接下來，您必須回答下列問題：「誰將是此 ACE 的受益人？」 Joe 將指定 Mike。
+接著，您可以指定與此 ACE 相關聯的類別或屬性。 在接下來的 Fabrikam 範例中，Joe 挑選使用者類別，讓每位系統管理員可以將使用者新增至系統。 接下來，您必須回答下列問題：「神秘將成為此 ACE 的受益人？」 Joe 將指定 Mike。
 
 最後，您可以設定 ACE 繼承行為，例如，您可以指定 Ace 來向下傳播階層。 總而言之，上述範例將會導致 Mike 能夠在東部銷售組織單位下建立和刪除使用者物件。
 
@@ -67,9 +67,9 @@ Set sec = Nothing
 
 如需詳細資訊，請參閱 [ADSI 安全性模型](adsi-security-model.md)。
 
- 
+ 
 
- 
+ 
 
 
 

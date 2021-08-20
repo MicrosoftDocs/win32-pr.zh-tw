@@ -4,12 +4,12 @@ ms.assetid: 7d65d00a-7294-4718-b593-89394b2e416f
 title: 使用編目範圍管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef79c9e5a2a4b1dda97bf8a8be7bbaa35d5ecd2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a440041c4af9b0ab5e1d282b91cf8fba35c041a546b8247d320884f072a641c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117681204"
 ---
 # <a name="using-the-crawl-scope-manager"></a>使用編目範圍管理員
 

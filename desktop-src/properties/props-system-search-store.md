@@ -4,18 +4,18 @@ ms.assetid: aceb0953-d46b-412a-8cdc-7848c1d711f2
 title: System.Search.Store
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01210ce56f1306749ba9dc573def30682a6270b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea612d2160657bf90d9b8f310b6bbffa086a584d5473c830b9cd3d51f08c778d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864774"
 ---
 # <a name="systemsearchstore"></a>System.Search.Store
 
 產生專案之通訊協定處理常式的識別碼。 例如，MAPI、CSC、FILE 等等。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

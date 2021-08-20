@@ -8,12 +8,12 @@ keywords:
 - Active Directory Domain Services Active Directory，備份
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52bf284804ba5a8882ecee6f6e03ae95249e5435
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b61fbe30d6c8e74a0896fe1b8b9d6ed34bf9caae2f37fc2ac7de2afd8a75c00c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022012"
 ---
 # <a name="considerations-for-active-directory-domain-services-backup"></a>Active Directory Domain Services 備份的考慮
 
@@ -27,6 +27,6 @@ ms.locfileid: "104023278"
 
 不支援 Active Directory Domain Services 的增量備份;需要完整備份。
 
- 
+ 
 
- 
+ 

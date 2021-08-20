@@ -4,12 +4,12 @@ ms.assetid: 5752ea0e-f4c0-4952-bc82-a3396e1b9e1a
 title: 應用程式手勢
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d69cda629f1bc43ffd071751d39738604e2b7b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0711b269b680cd99b44b0f7a3cc2520821ee26447894965cbf0b03a03adc8023
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118046219"
 ---
 # <a name="application-gestures"></a>應用程式手勢
 

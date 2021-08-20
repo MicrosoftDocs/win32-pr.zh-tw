@@ -5,12 +5,12 @@ ms.assetid: e2a7a42d-e854-43fc-a36b-f3031c1685a7
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de2a2b3ed4ec8cbf3c1af59e024fc5e04bc68ae8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: cdc1415e9eac4e80b9d5a3af0cee8671f06ba886e2c0c4ab10046da35cca355d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022157"
 ---
 # <a name="computer-object-user-interface-mapping"></a>消費者介面對應的電腦物件
 
@@ -24,7 +24,7 @@ ms.locfileid: "103681686"
 
 | UI 標籤                         | Active Directory Domain Services 屬性 | 註解                                         |
 |----------------------------------|--------------------------------------------|--------------------------------------------------|
-| 電腦名稱稱 (Windows 2000 之前的)  | sAMAccountName                             |                                                  |
+| 電腦名稱稱 (預先 Windows 2000)  | sAMAccountName                             |                                                  |
 | DNS 名稱                         | dNSHostName                                |                                                  |
 | 角色                             | userAccountControl                         | 切換 userAccountControl 位元遮罩中的位。 |
 | 描述                      | description                                |                                                  |
@@ -32,7 +32,7 @@ ms.locfileid: "103681686"
 
 
 
- 
+ 
 
 ## <a name="location-property-sheet"></a>位置屬性工作表
 
@@ -42,11 +42,11 @@ ms.locfileid: "103681686"
 
 | UI 標籤 | Active Directory Domain Services 屬性 |
 |----------|--------------------------------------------|
-| Location | location                                   |
+| 位置 | location                                   |
 
 
 
- 
+ 
 
 ## <a name="member-of-property-sheet"></a>屬性工作表的成員
 
@@ -61,7 +61,7 @@ ms.locfileid: "103681686"
 
 
 
- 
+ 
 
 ## <a name="operating-system-property-sheet"></a>作業系統屬性工作表
 
@@ -71,14 +71,14 @@ ms.locfileid: "103681686"
 
 | UI 標籤     | Active Directory Domain Services 屬性 |
 |--------------|--------------------------------------------|
-| Name         | operatingSystem                            |
+| 名稱         | operatingSystem                            |
 | 版本      | operatingSystemVersion                     |
 | Service Pack | operatingSystemServicePack                 |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

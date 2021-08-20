@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: aec1ac23cc6c86f768d435e4c8169117c1bbe899
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 716cbdd5492f768885b8dd91dca5a17f72c4ba50897274c2d6e11f340f563394
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104035312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117906868"
 ---
 # <a name="lrp---ps"></a>lrp-ps
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f454b5d8f3366517d91170d6a92d6a9dbed5764
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9bc76d54bc01f453559107576370bf1b1b4e1615c232cbb07599d6dafe56e8b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952893"
 ---
 # <a name="isoftkbdcreatesoftkeyboardlayoutfromresource-method"></a>ISoftKbd：： CreateSoftKeyboardLayoutFromResource 方法
 
@@ -98,7 +98,7 @@ HRESULT CreateSoftKeyboardLayoutFromResource(
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                   |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Softkbdc。h</dt> </dl>  |
-| Idl<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
 
 

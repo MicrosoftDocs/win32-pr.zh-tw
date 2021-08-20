@@ -7,12 +7,12 @@ keywords:
 - 物件 AD，控制存取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4534f383fa3747e0a53b402098f5a8338812c78
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5f8b1bb1fdb46fa2e029e4498581f5172c9cea48c92aefce9c42edbf0e75f39f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104182959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118021563"
 ---
 # <a name="controlling-access-to-objects-and-their-properties"></a>控制物件和其屬性的存取權
 
@@ -40,9 +40,9 @@ ms.locfileid: "104182959"
 -   建立可授與許可權給安全性群組，而不是單一使用者的 ACE。
 -   將 ACE 套用至群組原則的物件，以控制受原則影響的帳戶和電腦。
 
- 
+ 
 
- 
+ 
 
 
 

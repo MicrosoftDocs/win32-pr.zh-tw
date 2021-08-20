@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8b7747b710801718d9b169c8999c51dd30cefde
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 20a296c50493c5735651179febf1a55254557019aa91f8677071f4e769a35202
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117675885"
 ---
 # <a name="restore-method-of-the-systemrestore-class"></a>SystemRestore 類別的 Restore 方法
 
@@ -81,7 +81,7 @@ next
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                         |
 | 命名空間<br/>                | 根 \\ \\ 預設值<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>Sr-iov</dt> </dl> |

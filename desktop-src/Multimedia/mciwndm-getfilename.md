@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETFILENAME 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETFILENAME 訊息會抓取 MCI 裝置目前所使用的檔案名。 您可以使用 MCIWndGetFileName 宏明確地傳送此訊息。
 ms.assetid: d61b1b6d-0fae-4732-993c-41e08a4e05be
 keywords:
-- MCIWNDM_GETFILENAME message Windows 多媒體
+- MCIWNDM_GETFILENAME 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 232a1d829b5cdd6da23e7dd3fb0294b95ca79f4b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17969bd05e321594a618d0ab712ae3fdec86f079d4415689f0b8f27b1000abf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802912"
 ---
 # <a name="mciwndm_getfilename-message"></a>MCIWNDM \_ GETFILENAME 訊息
 

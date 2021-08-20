@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9a74b5cc7588220fdc5173c470f7852ee9ef763d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7b63833b893f02dcf852d9de7547818bf63af07337806601dc5d0707fa4e7860
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117908596"
 ---
 # <a name="pixel-shader-differences"></a>圖元著色器差異
 
@@ -36,13 +36,13 @@ ms.locfileid: "104375689"
 
 
 
- 
+ 
 
 如需軟體著色器限制的詳細資訊，請參閱 [軟體著色](dx9-graphics-reference-asm-software-shaders.md)器。
 
-## <a name="flow-control-nesting-limits"></a>流程式控制制的嵌套限制
+## <a name="flow-control-nesting-limits"></a>Flow控制項嵌套限制
 
--   請參閱 [流程式控制制限制](dx9-graphics-reference-asm-ps-instructions-flow-control.md)。
+-   請參閱[Flow 控制限制](dx9-graphics-reference-asm-ps-instructions-flow-control.md)。
 
 ## <a name="ps_1_x-features"></a>ps \_ 1 \_ x 功能
 
@@ -127,6 +127,6 @@ ms.locfileid: "104375689"
 [圖元著色器](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

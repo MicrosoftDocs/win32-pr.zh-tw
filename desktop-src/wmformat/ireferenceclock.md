@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 72d17ef362aa5436fe98443d86dff5ae31212650
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 97f3d84dbb04de8d8b7fa297e9547ed628f7bf340360c6d5309ddaf8f96eb351
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117655175"
 ---
 # <a name="ireferenceclock-interface"></a>IReferenceClock 介面
 

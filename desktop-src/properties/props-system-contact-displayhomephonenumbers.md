@@ -4,12 +4,12 @@ ms.assetid: 358ebb76-5e19-47e9-83dc-0ba84170ddb1
 title: DisplayHomePhoneNumbers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb92d9b95a493a342c48d0f1671ae5502f8c6ab
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d79b45fb3cebd3a6495520325444783ef3fba8fab48f7b976f6447101b590d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866903"
 ---
 # <a name="systemcontactdisplayhomephonenumbers"></a>DisplayHomePhoneNumbers
 

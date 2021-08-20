@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 5917d1e61817f401106ae14aa5a0f98cd75b0d42
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ca5a6dd95a35cae231b80fbeee9ee05bbdfe9f0ecacc70b13493ad8d16739637
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117911092"
 ---
 # <a name="d3dmemorypressure-structure-d3d9typesh"></a>D3DMEMORYPRESSURE 結構 (D3d9types .h) 
 

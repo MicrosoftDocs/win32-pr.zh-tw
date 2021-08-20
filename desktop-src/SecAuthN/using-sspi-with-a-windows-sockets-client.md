@@ -1,23 +1,23 @@
 ---
-description: 此範例程式適用于搭配 Windows 通訊端伺服器使用 SSPI 的伺服器程式。
+description: 此範例程式適用于使用 SSPI 搭配 Windows 通訊端伺服器的伺服器程式。
 ms.assetid: 7ec15770-d3bd-4488-abe8-058115fec071
 title: 使用 SSPI 搭配 Windows 通訊端用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9952d897f078ddf98ea53490ac27141430a0fbbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 545ba485e905fa0e4d021f5b2a27f183acbb9cd307678792f9635cfb8dc9a73f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785898"
 ---
 # <a name="using-sspi-with-a-windows-sockets-client"></a>使用 SSPI 搭配 Windows 通訊端用戶端
 
-此範例程式適用于搭配 [Windows 通訊端伺服器使用 SSPI](using-sspi-with-a-windows-sockets-server.md)的伺服器程式。 用戶端和伺服器範例程式是設計來一起使用。 這兩個程式都使用標頭檔 SspiExample，可在 [SSPI 用戶端和伺服器範例的標頭檔](header-file-for-sspi-client-and-server.md)中找到。 這項套裝程式括呼叫 Secur32 .lib 和 Ws2 \_ 32 .lib 中的函式，這些函數必須包含在程式庫中。
+此範例程式適用于[使用 SSPI 搭配 Windows 通訊端伺服器](using-sspi-with-a-windows-sockets-server.md)的伺服器程式。 用戶端和伺服器範例程式是設計來一起使用。 這兩個程式都使用標頭檔 SspiExample，可在 [SSPI 用戶端和伺服器範例的標頭檔](header-file-for-sspi-client-and-server.md)中找到。 這項套裝程式括呼叫 Secur32 .lib 和 Ws2 \_ 32 .lib 中的函式，這些函數必須包含在程式庫中。
 
 此程式示範下列各項：
 
--   建立與伺服器的 Windows 通訊端連接。
+-   建立與伺服器之間的 Windows 通訊端連接。
 -   使用 Negotiate SSP 初始化已驗證的 SSPI 會話。
 -   連接伺服器並建立安全的通訊會話。
 -   從伺服器接收和解密安全會話中的訊息。

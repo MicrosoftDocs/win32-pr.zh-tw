@@ -4,12 +4,12 @@ ms.assetid: 5f6a7adf-c074-4bf6-9828-76604eb7609c
 title: 呼叫控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aacad5b73d9d22caa006b734acaf8b992203d7d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0de4c7eb6eb607e317a3291a186faea29bdc1ebfb3b54af6523591f94d402a5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948112"
 ---
 # <a name="call-handles"></a>呼叫控制碼
 

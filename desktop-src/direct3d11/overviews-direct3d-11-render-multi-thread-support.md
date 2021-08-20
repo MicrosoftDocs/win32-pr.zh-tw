@@ -4,12 +4,12 @@ description: 本主題說明如何判斷多執行緒功能 (包括建立資源�
 ms.assetid: f577357c-c2e5-4e58-9870-2e995bdc6782
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae42bbb3eedb76d049479839d497a79db81b5697
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b30915f8cdd19e59f5841a77fc93946df8e3bc6c8df37f53217b4afac2be0f11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912849"
 ---
 # <a name="how-to-check-for-driver-support"></a>如何：檢查驅動程式支援
 
@@ -43,9 +43,9 @@ ms.locfileid: "104990611"
 [多執行緒](overviews-direct3d-11-render-multi-thread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
