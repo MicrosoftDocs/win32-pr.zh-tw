@@ -4,12 +4,12 @@ description: 與 HKEY \_ 本機 \_ 電腦軟體 Microsoft Windows NT CurrentVers
 ms.assetid: b72eb51a-dbaa-438e-a45e-23ecaf28a01f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d5c211c667cf10a7bf169460c8aba5d5fc58083
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 606a86db39eb46e608b1f4b737c926f26baddef14deb792bc5f752f833bab645
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048246"
 ---
 # <a name="hkey_local_machinesoftwaremicrosoftwindows-ntcurrentversion"></a>HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Windows NT \\ CurrentVersion
 
@@ -17,17 +17,17 @@ ms.locfileid: "106965787"
 
 
 
-| 子機碼                                                 | Description                                         |
+| 子機碼                                                 | 描述                                         |
 |--------------------------------------------------------|-----------------------------------------------------|
 | [**DebugObjectRPCEnabled**](debugobjectrpcenabled.md) | COM RPC 遠端偵錯程式的設定選項。 |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

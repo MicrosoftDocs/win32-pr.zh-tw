@@ -4,12 +4,12 @@ ms.assetid: 9742436a-e233-4641-a0d5-aa240cde5f28
 title: 'EC_SEGMENT_STARTED (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7e7df85bddb78fe2687a017b481e6db62ba37c6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b33d9f75dc4fa8e86b13e61c78b98a19248c16f2f627e1c1b09e536b31a73f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015916"
 ---
 # <a name="ec_segment_started"></a>\_ \_ 已開始 EC 區段
 

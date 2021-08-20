@@ -4,16 +4,16 @@ ms.assetid: cbd33b60-6041-43e1-b5ff-adbba7495a14
 title: IsFwdOrReply
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e17e5dd91e74c6325785da60020f886acaf0e735
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: efaee435619ed044971324b0c21819fd4d401c6e38270bc4ff0231b93e239896
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598448"
 ---
 # <a name="systemmessageisfwdorreply"></a>IsFwdOrReply
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

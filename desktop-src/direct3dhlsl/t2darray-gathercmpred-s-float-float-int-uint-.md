@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 79743d4d2b30049a580309aa79bf6b3d79c73d3f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0689a06d0fa694414acddfd576d15b913d4f6a7bb1d7e48f03c02ea0aae79a41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043576"
 ---
 # <a name="texture2darraygathercmpredsfloatfloatintuint-function"></a>Texture2DArray：： GatherCmpRed (S、float、float、int、uint) 函數
 
@@ -102,7 +102,7 @@ TemplateType GatherCmpRed(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

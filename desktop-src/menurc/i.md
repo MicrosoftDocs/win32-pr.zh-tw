@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: caa86fd4-ee66-48dc-9d3f-c525690a9cad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c453ac6c618425dc501e0994dcfbbeff582f763a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ec9019b6a68e1c52f2fab7e85276c4f8bc62b82d641fa3e127ec13274862d0c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034326"
 ---
 # <a name="i-menus-and-other-resources"></a>我 (功能表和其他資源) 
 
@@ -53,10 +53,10 @@ ms.locfileid: "103685434"
 
 </dd> <dt>
 
-<span id="tools.i_6_gly"></span><span id="TOOLS.I_6_GLY"></span>**無效。EXE 檔案**
+<span id="tools.i_6_gly"></span><span id="TOOLS.I_6_GLY"></span>**不正確 .EXE 檔案**
 </dt> <dd>
 
-可執行檔 ( .exe) 檔無效。 請確定連結器已正確建立，且檔案存在。
+可執行檔 (.exe) 檔無效。 請確定連結器已正確建立，且檔案存在。
 
 </dd> <dt>
 

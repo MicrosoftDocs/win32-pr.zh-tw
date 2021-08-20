@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 852b7fe71e972818227fdeedb9471054f7dd936e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3df758f0e1786d8b5fee2d722087f6da9df0483384eff844ff433ae04f5b4c5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580538"
 ---
 # <a name="unexpire-password-extended-right"></a>Unexpire-Password 擴充許可權
 

@@ -4,18 +4,18 @@ ms.assetid: df093aed-f427-41a1-b2be-f62118c3fb0f
 title: PrimaryAddressState
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 863b343aaaae2960edb0d5914e5263d2215d8da4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69274210ceeb959ed5998f8128671eac31b2c60fdf1e44b045fe672f3ca2ccfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033686"
 ---
 # <a name="systemcontactprimaryaddressstate"></a>PrimaryAddressState
 
 連絡人的主要位址狀態名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

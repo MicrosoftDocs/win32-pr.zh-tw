@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4912bb769d8ac4a6409f48832c19e6b7f9cb01c9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7f0d0979e10f72919bd143e9d1041c1ee5d45d775161e8deb75b734bec922069
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106971906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648478"
 ---
 # <a name="netboot-sif-file-attribute"></a>Netboot-SIF-檔案屬性
 

@@ -4,12 +4,12 @@ description: 開發人員可以建立位於 RAS 用戶端電腦上的自訂腳�
 ms.assetid: c27b8b02-6018-4441-a355-1fb890b9001c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c625f020d9dafcb352c5f1b382014f9dba189330
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 66ac0bd83b8d7c48ee8b0468d89a70d19a5e5e6555b9a8bc8ac86d66c8cd666e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673278"
 ---
 # <a name="ras-custom-scripting"></a>RAS 自訂腳本
 
@@ -23,11 +23,11 @@ ms.locfileid: "103933347"
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Rasman
-               Parameters
+   System
+      CurrentControlSet
+         Services
+            Rasman
+               Parameters
 ```
 
 此值的類型應為 **REG \_ EXPAND \_ SZ**。 此值應該包含自訂腳本 DLL 的路徑。 每部 RAS 用戶端電腦都只支援一個自訂腳本 DLL。
@@ -57,18 +57,18 @@ RAS 會協調伺服器與自訂腳本 DLL 之間的互動。 一般來說，伺�
 
 ## <a name="configuring-the-connection"></a>設定連接
 
-[**RasCustomScriptExecute**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn)進入點可以從 [**RASDIALDLG**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga)或 Windows XP 上的 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala)叫用。
+[**RasCustomScriptExecute**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn)進入點可以從 [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga)或從 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala)的 Windows XP 上叫用。
 
 若要從 [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga)叫用 [**RasCustomScriptExecute**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn) ，請 \_ 在連接的電話簿專案中，設定 RASEO CustomScript 選項。 如需電話簿輸入選項的說明，請參閱 [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85))的 **dwfOptions** 成員。 使用 [**RasGetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa) 和 [**RasSetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetentrypropertiesa) 函式，以程式設計方式設定此選項。
 
-**WINDOWS XP：** 若要從 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala)叫用 [**RasCustomScriptExecute**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn) ，則對 **RasDial** 的呼叫必須指定 [**RASDIALEXTENSIONS**](/previous-versions/windows/desktop/legacy/aa377029(v=vs.85))結構，而且此結構必須指定 RDEOPT \_ UseCustomScripting 旗標。 此外，連接的電話簿專案必須指定 RASEO \_ CustomScript 選項，如前面段落中所述。
+**Windows XP：** 若要從 [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala)叫用 [**RasCustomScriptExecute**](/windows/desktop/api/Ras/nc-ras-rascustomscriptexecutefn) ，則對 **RasDial** 的呼叫必須指定 [**RASDIALEXTENSIONS**](/previous-versions/windows/desktop/legacy/aa377029(v=vs.85))結構，而且此結構必須指定 RDEOPT \_ UseCustomScripting 旗標。 此外，連接的電話簿專案必須指定 RASEO \_ CustomScript 選項，如前面段落中所述。
 
 ## <a name="invoking-the-custom-scripting-dll"></a>叫用自訂腳本 DLL
 
 如果使用者針對已設定 RASEO CustomScript 的電話簿專案啟用連線，RAS 會叫用 \_ 自訂腳本 DLL。 在此案例中，RAS 會從 [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga)叫用自訂腳本 DLL。
 
-若要以程式設計方式叫用自訂腳本 DLL，請使用 [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) 函數建立連接。 在 Windows XP 上， [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) 函式也會叫用自訂腳本 DLL。
+若要以程式設計方式叫用自訂腳本 DLL，請使用 [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) 函數建立連接。 在 Windows XP 上， [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala)函數也會叫用自訂腳本 DLL。
 
- 
+ 
 
- 
+ 

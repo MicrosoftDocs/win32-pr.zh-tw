@@ -4,12 +4,12 @@ description: Mktyplib.exe 是一種命令列應用程式，可處理 IDL 檔案�
 ms.assetid: 883d380d-1d73-439b-9f11-ee89fc62fdfd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abc392351327124777c2d52d0bbe0653853dcb52
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b712ed8220dd609dd3ba189bdac6b5ee11d2805f26ff5a1f146c20f17c1f8ab9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047936"
 ---
 # <a name="mktyplib-command-line-tool"></a>Mktyplib.exe Command-Line 工具
 
@@ -21,7 +21,7 @@ Mktyplib.exe 是一種命令列應用程式，可處理 IDL 檔案以產生類�
 
 -   從命令提示字元中，執行下列命令：
 
-    **mktyplibÂ * * * 檔案名*
+    * * mktyplibÂ * *_檔案名_
 
     其中 *filename* 是 ODL 檔案的名稱。
 
@@ -38,6 +38,6 @@ Mktyplib.exe 也支援數個選擇性參數。 如需完整清單，請執行下
 [轉換成 c + +](translating-to-c--.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

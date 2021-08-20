@@ -4,16 +4,16 @@ ms.assetid: 5ffd2883-0e56-459f-b229-cc014b894237
 title: VAUX 來源 (VS) 套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f7ad2a91f1be1291b564013041e6dfa23bb014
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 477e7a3257c11d6d8b42e16d2f066251452bc42a489abe9e666e374a565fa77c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072094"
 ---
 # <a name="vaux-source-vs-pack"></a>VAUX 來源 (VS) 套件
 
-下表列出 MSDV 驅動程式用來填入 [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo)結構之 **dwDVVAuxSrc** 成員的值。 如需詳細資訊，請參閱 [MSDV 驅動程式中的 DVINFO 欄位設定](dvinfo-field-settings-in-the-msdv-driver.md)。
+下表列出 MSDV 驅動程式用來填入 [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo)結構之 **dwDVVAuxSrc** 成員的值。 如需詳細資訊，請參閱[MSDV 驅動程式中的 DVINFO 欄位設定](dvinfo-field-settings-in-the-msdv-driver.md)。
 
 **DVCR 設定**
 
@@ -143,7 +143,7 @@ VS Pack
 
  
 
-**DVCPRO 25 與 DVCPRO 50 設定 (計畫的)**
+**DVCPRO 25 與 DVCPRO 50 設定 (規劃的)**
 
 
 
@@ -271,7 +271,7 @@ VS Pack
 
  
 
-**規劃)  (DVCR 100 設定**
+**DVCR 100 設定 (規劃的)**
 
 
 

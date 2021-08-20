@@ -4,17 +4,17 @@ description: 使用滑杆時，使用者可以從連續的值範圍中選擇。
 ms.assetid: dee70fbc-6f18-43c7-9d41-4e97eac41e53
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 7ff9791ab49c338e4c11e014a3e996771571add9
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 73c6ae0cc490c338ec552d0e23e829c791689f6f822d324feaa863ccbb441d73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104560792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119349895"
 ---
 # <a name="sliders-design-basics"></a> (設計基本概念的滑杆) 
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 使用滑杆時，使用者可以從連續的值範圍中選擇。 滑杆具有顯示範圍的橫條，以及顯示目前值的指標。 選擇性刻度會顯示值。
 
@@ -56,7 +56,7 @@ ms.locfileid: "104560792"
 -   **引導滑杆以反映使用者的文化特性。** 例如，從左至右讀取的西方文化特性，因此針對水準滑杆，將範圍的下限放在左側，並將右端放置於右邊。 針對從右至左讀取的文化特性，請反向操作。
 -   **調整控制項的大小，讓使用者可以輕鬆地設定所需的值。** 設定分散值時，確定使用者可輕鬆地使用滑鼠選取任何值。
 -   **如果值範圍很大，而且使用者可能會在範圍的一端選取值，請考慮使用非線性尺規。** 例如，時間值可能是1分鐘、1小時、1天或1個月。
--   **只要可行，就能在使用者進行選取時，立即提供意見反應。** 例如，Microsoft Windows volume control 會發出嗶聲，以表示產生的音訊音量。
+-   **只要可行，就能在使用者進行選取時，立即提供意見反應。** 例如，Microsoft Windows 音量控制嗶聲，以表示產生的音訊音量。
 -   **使用標籤顯示值的範圍。**
 
     **例外狀況：** 如果滑杆是垂直方向，而且頂端標籤是 [最大值]、[高]、[更多] 或 [相等]，您可以省略其他標籤，因為意義是明確的。

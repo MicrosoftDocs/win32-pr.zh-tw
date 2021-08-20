@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cb849501404c9dea9883f239223cac0c2389ecd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7950812fcd61b9493f95392f414109735a62824dc88f7b1762fe3ad1ee0571d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649908"
 ---
 # <a name="externalappcolorbuttonshadow"></a>AppColorButtonShadow
 
@@ -28,7 +28,7 @@ ms.locfileid: "106982529"
 
  
 
-**AppColorButtonShadow** 屬性會抓取 Windows Media Player 使用者介面目前的按鈕陰影色彩。
+**appColorButtonShadow** 屬性會抓取 Windows Media Player 使用者介面目前的按鈕陰影色彩。
 
 ``` syntax
 window.external.appColorButtonShadow

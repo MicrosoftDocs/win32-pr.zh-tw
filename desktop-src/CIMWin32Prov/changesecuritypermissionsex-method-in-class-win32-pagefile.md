@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a01a214e626f9c64ccf460eb3f8c031d1b45ff85
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c22aaa6552a9879eb08a6e65ce7d5a0651df458252a2a228d7d5acd8b5fb1d07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081032"
 ---
 # <a name="changesecuritypermissionsex-method-of-the-win32_pagefile-class"></a>Win32 \_ 分頁檔類別的 ChangeSecurityPermissionsEx 方法
 
@@ -201,7 +201,7 @@ uint32 ChangeSecurityPermissionsEx(
 
 12
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

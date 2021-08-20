@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 305e5b90c45d124a8647dd5d3a0af9c4a2ca6c4f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c258e33a7b70b543bf98991291ed60b7d2ec274ac98a26ceeb2cda9fa7b27a6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022636"
 ---
 # <a name="can-upgrade-script-attribute"></a>可升級-腳本屬性
 

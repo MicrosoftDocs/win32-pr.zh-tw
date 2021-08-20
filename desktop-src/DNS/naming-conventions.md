@@ -4,12 +4,12 @@ description: 命名慣例共用常見的目標，以明確地將名稱解析為�
 ms.assetid: 1ec96d2d-bb5a-4938-88c2-4d2802a326cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2091123ed2bf1022910231cd08cb0e6cccae51a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e9b378f9383f773cb24fb47c81cb92a066094a4ce528d7f3710212c6bb7cac0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076584"
 ---
 # <a name="naming-conventions"></a>命名規範
 
@@ -17,18 +17,18 @@ ms.locfileid: "104021733"
 
 下列命名慣例可用來識別各種系統名稱解析方法中的電腦，包括 Windows 2000 方法：
 
--   [電腦名稱](#computer-name)
+-   [電腦名稱稱](#computer-name)
 -   [主機名稱](#host-name)
 -   [ (FQDN) 的完整功能變數名稱 ](#fully-qualified-domain-name)
 -   [相對辨別名稱](#relative-distinguished-name)
 
 ## <a name="computer-name"></a>電腦名稱
 
-在一般 NetBIOS 命名空間中，單一名稱會將電腦名稱稱明確解析為網路位址。 這是先前的 Windows 版本儲存在瀏覽器和主要瀏覽器清單中的名稱，可讓對等 Windows 網路流覽網路上 Windows 電腦上的資源。 在此案例中，與電腦相關聯的詞彙是 *電腦名稱稱*。 電腦名稱稱的註冊相依于網路廣播 (和主要瀏覽器，這取決於稍後的 Windows 版本號碼或 Windows NT 使用方式所贏得的選舉或) 的組合。 這適用于小型、對等式的 Windows 網路，但網路即將成長超過使用廣播和簡單一般檔案的主要瀏覽器清單可以提供服務。
+在一般 NetBIOS 命名空間中，單一名稱會將電腦名稱稱明確解析為網路位址。 這是先前 Windows 版本儲存在瀏覽器和主要瀏覽器清單中的名稱，可讓對等 Windows 網路流覽網路上 Windows 電腦上的資源。 在此案例中，與電腦相關聯的詞彙是 *電腦名稱稱*。 電腦名稱稱的註冊相依于網路廣播 (和主要瀏覽器，這取決於稍後所贏得的選舉 Windows 版本號碼或 Windows NT 使用方式，或) 的組合。 這對於小型、對等式 Windows 的網路很有用，但網路很快就會超過使用廣播和簡單一般檔案的主要瀏覽器清單所能提供的服務。
 
 ## <a name="host-name"></a>主機名稱
 
-接下來，Windows Internet 命名服務 (WINS) ，它已啟用以 NetBIOS 為基礎之電腦名稱稱的動態和集中式存放庫，儲存在 WINS 伺服器上。 這些存放庫可以為較大的網路提供服務。 透過這種開發，可將名稱解析查詢導向至 WINS 伺服器 (而不是廣播) ，而且可能會集中仲裁衝突。 使用 WINS 時，會保留「電腦名稱稱」這一詞，但「 *主機名稱* 」一詞也會出現，並與電腦名稱稱交換使用。 在此期間，WINS 是 Windows 平臺的預設名稱解析程式，但 DNS 已取得較大型和較大型網路的熱門程度和激增。
+接下來是 Windows 的網際網路命名服務 (勝出) ，它已啟用以 NetBIOS 為基礎之電腦名稱稱的動態和集中式存放庫，儲存在 wins 伺服器上。 這些存放庫可以為較大的網路提供服務。 透過這種開發，可將名稱解析查詢導向至 WINS 伺服器 (而不是廣播) ，而且可能會集中仲裁衝突。 使用 WINS 時，會保留「電腦名稱稱」這一詞，但「 *主機名稱* 」一詞也會出現，並與電腦名稱稱交換使用。 當時，WINS 是 Windows 平臺的預設名稱解析程式，但 DNS 已獲得較大型和較大型網路的熱門程度和激增。
 
 網路成長，且 WINS 變得較不能處理日益成長的名稱數量。 WINS 用來處理名稱解析負載的減少功能不是因為解決所需的處理能力，而是為大量電腦產生唯一名稱的事實，就是不斷增加的管理負擔。
 
@@ -44,9 +44,9 @@ DNS 不會在 NetBIOS 名稱的使用者上採用新的名稱或新的命名慣�
 
 ![rdn 和 dns 網域階層合併以建立 fqdn](images/fqdn.png)
 
- 
+ 
 
- 
+ 
 
 
 

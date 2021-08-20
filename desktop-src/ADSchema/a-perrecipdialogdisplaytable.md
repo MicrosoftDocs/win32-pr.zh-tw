@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 923584e765f1964a5bbbee01650844d358fda258
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 70588d52b62a10151eaa04acdea017e98ea20219ca2966da13f9f9eadc6a76de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106966584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022436"
 ---
 # <a name="per-recip-dialog-display-table-attribute"></a>每一 Recip-對話方塊-顯示資料表屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "106966584"
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -79,7 +79,7 @@ ms.locfileid: "106966584"
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -100,7 +100,7 @@ ms.locfileid: "106966584"
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -121,7 +121,7 @@ ms.locfileid: "106966584"
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -142,7 +142,7 @@ ms.locfileid: "106966584"
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -163,7 +163,7 @@ ms.locfileid: "106966584"
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |

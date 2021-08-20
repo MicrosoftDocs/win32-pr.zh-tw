@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 78af7a975d54ba832bbdf1fb7f8027f87b747660
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5aac6f7315df58a39d119c72fc481816bdc40aab3c449852041b7a490f22f44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074402"
 ---
 # <a name="ccmdqueue-class"></a>CCmdQueue 類別
 
@@ -39,7 +39,7 @@ ms.locfileid: "104108677"
 
 
 
-| 受保護的資料成員                                 | Description                                                                                            |
+| 受保護的資料成員                                 | 描述                                                                                            |
 |--------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | m \_ bRunning                                            | 執行狀態的旗標;執行時，請設定 **TRUE** 。                                                     |
 | m \_ dwAdvise                                            | 如果沒有未完成的建議) ，則建議參考時鐘中的識別碼 (零。                            |
@@ -50,11 +50,11 @@ ms.locfileid: "104108677"
 | m \_ pClock                                              | 目前的參考時鐘。                                                                               |
 | m \_ StreamTimeOffset                                    | 當 **m \_ BRunning** 為 **TRUE** 時，包含資料流程時間位移。                                      |
 | m \_ StreamTimeOffset                                    | 當 **m \_ BRunning** 為 **TRUE** 時，包含資料流程時間位移。                                      |
-| 成員函數                                       | Description                                                                                            |
+| 成員函數                                       | 描述                                                                                            |
 | [**CCmdQueue**](ccmdqueue-ccmdqueue.md)               | 結構 **CCmdQueue** 物件。                                                                     |
 | [**CheckTime**](ccmdqueue-checktime.md)               | 判斷指定的時間是否為逾期。                                                                     |
 | [**GetDueHandle**](ccmdqueue-getduehandle.md)         | 抓取將發出信號的事件控制碼。                                                      |
-| 可覆寫的成員函式                           | Description                                                                                            |
+| 可覆寫的成員函式                           | 描述                                                                                            |
 | [**EndRun**](ccmdqueue-endrun.md)                     | 切換為 [已停止] 或 [已暫停] 模式。                                                                    |
 | [**GetCommandDueFor**](ccmdqueue-getcommandduefor.md) | 抓取在指定時間排程的延後命令。                                    |
 | [**GetDueCommand**](ccmdqueue-getduecommand.md)       | 抓取下一個已到期命令的指標。                                                   |

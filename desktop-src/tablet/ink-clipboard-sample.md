@@ -4,12 +4,12 @@ ms.assetid: a0c42f1c-543d-44f8-83d9-fe810de410ff
 title: 筆墨剪貼簿範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95c5da0bc0ba9a7e3a1b4e1a5c52784f10fb2023
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73aa8acdf785321dc01706d4a4de50e0a2673a31250edbfa4316a27aecd0ce3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032326"
 ---
 # <a name="ink-clipboard-sample"></a>筆墨剪貼簿範例
 
@@ -38,7 +38,7 @@ ms.locfileid: "104511308"
 
 ## <a name="collecting-ink-and-setting-up-the-form"></a>收集筆墨並設定表單
 
-首先，請參考隨 Microsoft Windows <entity type="reg"/> XP TABLET PC Edition 軟體發展工具組一起安裝的 TABLET Pc 自動化介面 (SDK) 。
+首先，請參考隨 Microsoft Windows <entity type="reg"/> XP Tablet pc Edition 軟體發展工具組 (SDK) 一起安裝的 Tablet pc 自動化介面。
 
 
 ```C++

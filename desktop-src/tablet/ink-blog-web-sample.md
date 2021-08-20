@@ -4,12 +4,12 @@ ms.assetid: b6c3ad92-3ab1-4311-b318-13939e1a1a5a
 title: 筆墨 Blog Web 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c24f132d355a95c9cb8debebe074df3f976e3b5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8796a05861d278015205b5ba0d3775e2e47af6a57ce1fee426c5c0c5011dacd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032356"
 ---
 # <a name="ink-blog-web-sample"></a>筆墨 Blog Web 範例
 
@@ -21,13 +21,13 @@ ms.locfileid: "104112320"
  
 
 > [!Note]  
-> 如果您在已安裝 Microsoft Windows XP Tablet PC Edition 開發工具組1.7 的非平板電腦電腦上執行此範例，則筆墨標題的文字辨識功能將無法運作。 發生這種情況是因為安裝 Tablet PC SDK 1.7 的非 Tablet PC 電腦缺少辨識器。 應用程式的其餘部分會依照所述的方式執行。
+> 如果您在已安裝 Microsoft Windows XP Tablet pc Edition 開發工具組1.7 的非平板電腦電腦上執行此範例，則筆墨標題的文字辨識功能將無法運作。 發生這種情況是因為安裝 Tablet PC SDK 1.7 的非 Tablet PC 電腦缺少辨識器。 應用程式的其餘部分會依照所述的方式執行。
 
  
 
 ## <a name="overview"></a>概觀
 
-筆墨 Blog 範例會建立啟用筆墨的網路日誌。 InkBlogWeb 是 ASP.NET 應用程式。 筆墨專案是透過從 ASP.NET 網頁參考的使用者控制項來完成。
+筆墨 Blog 範例會建立啟用筆墨的網路日誌。 InkBlogWeb 是 ASP.NET 的應用程式。 筆墨專案是透過 ASP.NET 網頁所參考的使用者控制項來完成。
 
 使用者控制項會偵測是否已在用戶端電腦上安裝 Tablet PC 平臺元件。 如果是這樣，使用者控制項會在網頁上為使用者提供兩個啟用筆墨的區域：一個用來為 blog 專案的標題加上筆跡，另一個則是專案的主體。 如果未安裝 Tablet PC 平臺元件，則會為使用者提供專案標題和主體的標準文字方塊控制項。
 
@@ -35,7 +35,7 @@ ms.locfileid: "104112320"
 
 InkBlog 方案中有兩個專案： **InkBlogControls** 專案和 **InkBlogWeb** 專案。
 
-## <a name="inkblogcontrols-project"></a>InkBlogControls 專案
+## <a name="inkblogcontrols-project"></a>InkBlogControls Project
 
 **InkBlogControls** 專案是 [UserControl](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1)專案，其中包含使用者控制項的程式碼，可在網頁上啟用筆跡。 此控制項的程式碼（InkArea 控制項）位於 InkArea .cs 檔案中。
 
@@ -185,9 +185,9 @@ protected String RecognizeInkData()
 
 Control 類別的另一個重要 public 成員 `InkArea` 是 `DisposeResources` 方法。 這個方法會在內部呼叫 `Dispose` 方法，以確保會清除使用者控制項所利用的所有資源。 使用控制項的任何應用程式都 `InkArea` 必須在 `DisposeResources` 完成使用控制項時呼叫方法。
 
-## <a name="inkblogweb-project"></a>InkBlogWeb 專案
+## <a name="inkblogweb-project"></a>InkBlogWeb Project
 
-InkBlogWeb 專案是 Web 安裝程式的部署專案，它會參考 `InkArea` 控制項以提供博客功能。 如需有關 Web 安裝程式部署專案的詳細資訊，請參閱 [部署 Web 安裝專案](https://msdn.microsoft.com/library/k8kzx145(v=VS.71).aspx)。
+InkBlogWeb 專案是 Web 安裝程式的部署專案，它會參考 `InkArea` 控制項以提供博客功能。 如需有關 Web 安裝程式部署專案的詳細資訊，請參閱[Web 安裝程式的部署 Project](https://msdn.microsoft.com/library/k8kzx145(v=VS.71).aspx)。
 
 有兩個 .aspx 檔案可執行「日誌」範例： default.aspx 和 AddBlog .aspx。 預設的 .aspx 是 InkBlogWeb 應用程式的預設頁面。 此頁面的程式碼後置於檔案為 default.aspx。 此頁面提供包含新的 blog 專案表單之頁面的連結，並顯示任何現有的 blog 專案。 這項程式稍後會在下列新的 blog 專案表單頁面 AddBlog 之後描述。
 
@@ -195,7 +195,7 @@ AddBlog .aspx 及其程式碼後端檔案（AddBlog .aspx）包含用來建立�
 
 `<OBJECT id="inkBlogTitle" classid="InkBlogControls.dll#InkBlog.InkArea" width="400" height="48" VIEWASTEXT>``</OBJECT>``<br/>``<OBJECT id="inkBlogBody" classid="InkBlogControls.dll#InkBlog.InkArea" width="400" height="296" VIEWASTEXT>``</OBJECT>`
 
-InkBlogControls.dll 的元件必須存在於參考該元件的 .aspx 頁面所在的目錄中。 Web 安裝程式部署專案可確保發生這種情況，因為部署專案中的「主要輸出來自 InkBlogControls」專案證明。
+InkBlogControls.dll 的元件必須存在於參考該元件的 .aspx 頁面所在的目錄中。 Web 安裝程式部署專案可確保發生這種情況，因為部署 Project 中的「主要輸出來源 InkBlogControls」專案證明。
 
 標題控制項只會有48圖元的高度，以方便輸入標題的一行筆跡。 內文控制項的高度為296圖元，可騰出空間給多行或繪圖的大型 blog 專案。
 
@@ -205,7 +205,7 @@ InkArea 控制項會透過標準 HTML 按鈕元素的 onclick 事件處理常式
 
 頁面上也有包含三個隱藏輸入元素的 HTML 表單： BlogTitleText、BlogBodyText 和 BlogBodyInkData。 此表單用來將 blog 專案資料張貼回伺服器。 AddBlog 是針對表單定義的後端處理常式。
 
-AddBlog 函式是以 Microsoft JScript 撰寫的 <entity type="reg"/> -從 InkArea 控制項中解壓縮出 blog 資料，然後將結果張貼至伺服器。
+AddBlog 函式是以 Microsoft 撰寫 JScript <entity type="reg"/> -將 InkArea 控制項中的 blog 資料解壓縮，並將結果張貼至伺服器。
 
 
 ```C++
@@ -253,14 +253,14 @@ CreateHtm(blogPath, fileName, blogTitle, content);
 
 ## <a name="running-the-sample"></a>執行範例
 
-Tablet PC SDK 1.7 預設會安裝 Ink Blog Web 範例。 若要執行範例，請在 Internet Explorer 中，流覽至 https://localhost/TabletPCSDK\_WebSamples/InkBlogWeb/Default.aspx 。 如果您執行的是 Windows Server 2003，請以您的電腦名稱稱取代 "localhost"。
+Tablet PC SDK 1.7 預設會安裝 Ink Blog Web 範例。 若要執行範例，請在 Internet Explorer 中，流覽至 https://localhost/TabletPCSDK\_WebSamples/InkBlogWeb/Default.aspx 。 如果您正在執行 Windows Server 2003，請以您的電腦名稱稱取代 "localhost"。
 
 > [!Note]  
 > SDK 的預設安裝選項不會安裝已編譯的 web 範例。 您必須完成自訂安裝，然後選取 [預先編譯的 Web 範例] 子選項來進行安裝。
 
  
 
-您也可以在 Microsoft Visual Studio .Net 中開啟並建立專案，然後將 <entity type="reg"/> 它部署到執行 IIS 的另一部電腦，藉以執行此範例。
+您也可以在 Microsoft Visual Studio .net 中開啟並建立專案，然後將 <entity type="reg"/> 它部署到執行 IIS 的另一部電腦，藉以執行此範例。
 
 ## <a name="troubleshooting-the-sample"></a>範例疑難排解
 
@@ -274,7 +274,7 @@ Tablet PC SDK 1.7 預設會安裝 Ink Blog Web 範例。 若要執行範例，�
 
 ### <a name="recognition"></a>辨識
 
-必須安裝手寫辨識器，才能辨識 blog 標題中的筆跡。 如果您從 Windows XP Tablet PC Edition 以外的作業系統存取 InkBlog 應用程式，但安裝 Tablet PC SDK 1.7，您可以在 InkArea 控制項中撰寫筆墨，但辨識引擎不會出現，而且您的 blog 專案將不會顯示任何標題。 不過，主體中的筆墨內容仍然會出現。
+必須安裝手寫辨識器，才能辨識 blog 標題中的筆跡。 如果您從 Windows XP Tablet pc Edition 以外的作業系統存取 InkBlog 應用程式，但安裝 Tablet pc SDK 1.7，您可以在 InkArea 控制項中撰寫筆墨，但辨識引擎不會出現，而且您的 blog 專案將不會顯示任何標題。 不過，主體中的筆墨內容仍然會出現。
 
 ### <a name="machine-configuration"></a>電腦設定
 
@@ -293,7 +293,7 @@ Tablet PC SDK 1.7 預設會安裝 Ink Blog Web 範例。 若要執行範例，�
 [筆墨資料格式](ink-data-formats.md)
 </dt> <dt>
 
-[System.object 類類別](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1)
+[系統。Windows。Forms/UserControl 類別](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1)
 </dt> </dl>
 
  

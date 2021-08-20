@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 41d308af651f1aff0ff402c7070adbe631bff9eb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b8301371acc7624b4beb9b548191afa641ed267592b246cca7ba71ff170a9bdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059776"
 ---
 # <a name="principal-principaltype-element"></a>Principal (principalType) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "106966293"
 
 
 
-| 元素                                                               | 衍生自                                                             | Description                                                            |
+| 元素                                                               | 衍生自                                                             | 描述                                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [**主體**](taskschedulerschema-principals-tasktype-element.md) | [**principalsType**](taskschedulerschema-principalstype-complextype.md) | 指定與工作相關聯的安全性主體。<br/> |
 
@@ -46,7 +46,7 @@ ms.locfileid: "106966293"
 
 
 
-| 元素                                                                      | 類型                                                          | Description                                                                                                |
+| 元素                                                                      | 類型                                                          | 描述                                                                                                |
 |------------------------------------------------------------------------------|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | [**DisplayName**](taskschedulerschema-displayname-principaltype-element.md) | **string**                                                    | 指定工作排程器 UI 中顯示之主體的名稱。<br/>                 |
 | [**GroupId**](taskschedulerschema-groupid-principaltype-element.md)         | **string**                                                    | 指定執行與主體相關聯之工作所需之使用者群組的識別碼。<br/> |
@@ -59,7 +59,7 @@ ms.locfileid: "106966293"
 
 
 
-| 名稱 | 類型 | Description                                        |
+| 名稱 | 類型 | 描述                                        |
 |------|------|----------------------------------------------------|
 | 識別碼   | 識別碼   | 主體定義的識別碼。<br/> |
 
@@ -110,8 +110,8 @@ ms.locfileid: "106966293"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

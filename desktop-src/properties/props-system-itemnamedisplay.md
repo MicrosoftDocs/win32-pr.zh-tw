@@ -4,18 +4,18 @@ ms.assetid: fdb6b0fa-0741-4edc-8902-763a461313b9
 title: System.ItemNameDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf735935ee7971acad7d11ee91636e18a6542252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f34e21c0ded147789cadccc99aaf9b2a1910398430419edacc498214c6489d77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598468"
 ---
 # <a name="systemitemnamedisplay"></a>System.ItemNameDisplay
 
 「最完整」表單中的顯示名稱。 它是最適合終端使用者的專案名稱唯一標記法。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription
@@ -43,8 +43,8 @@ PKEY 值定義于 Propkey 中。
 
 **相容性注意事項：**
 
--   Windows Vista 上的 Shell 資料夾執行： \_ 當您想要 Windows 檔案總管呼叫 [**IShellFolder：： GETDISPLAYNAMEOF**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) (SHGDN \_ NORMAL) 來取得名稱的值時，請使用 PKEY ItemNameDisplay 做為名稱資料行。 \_當您想要 Windows 檔案總管呼叫資料夾的屬性存放區或 [**IShellFolder2：： GetDetailsEx**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex)來取得名稱的值時，請使用另一個 PKEY，例如 PKEY 的名稱。
--   Windows XP 上的 Shell 資料夾執行：第一個資料行必須是 [名稱] 資料行，而 Windows 檔案總管會呼叫 [**IShellFolder：： GetDisplayNameOf**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) 來取得名稱的值。 PKEY/SCID 並不重要。
+-   Windows Vista 上的 Shell 資料夾執行： \_ 當您想要 Windows 檔案總管呼叫 [**IShellFolder：： GetDisplayNameOf**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) (SHGDN \_ 一般) 來取得名稱的值時，請使用 PKEY ItemNameDisplay 做為名稱資料行。 \_當您想要 Windows 檔案總管呼叫資料夾的屬性存放區或 [**IShellFolder2：： GetDetailsEx**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex)來取得名稱的值時，請使用另一個 PKEY，例如 PKEY 的名稱。
+-   Windows XP 上的 Shell 資料夾執行：第一個資料行必須是名稱資料行，而 Windows 檔案總管呼叫 [**IShellFolder：： GetDisplayNameOf**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof)來取得名稱的值。 PKEY/SCID 並不重要。
 
 
 

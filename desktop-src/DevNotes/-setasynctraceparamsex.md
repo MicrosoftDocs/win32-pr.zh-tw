@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Exstrace.dll
-ms.openlocfilehash: 5a9dc0eee2f4ea3f65fa45914c3340a99ac2d45b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6c41369e8a0d73a56dc5d9d831d0028e87a7ecec300f2e43a625f17bd25bede1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538861"
 ---
 # <a name="setasynctraceparamsex-function"></a>SetAsyncTraceParamsEx 函式
 

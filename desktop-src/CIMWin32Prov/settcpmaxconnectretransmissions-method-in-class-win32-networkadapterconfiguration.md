@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 160d84c2a466bff34070a6dec4a34804d5a3a7fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: de612b2ece1f186fef218d8642d8ce2e28154c159df1bb5203f0fe4692f6baab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020456"
 ---
 # <a name="settcpmaxconnectretransmissions-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetTcpMaxConnectRetransmissions 方法 \_
 
@@ -418,8 +418,8 @@ IP 位址無效。
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows Vista<br/>                                                 |
-| 最低支援的伺服器<br/> | Windows Server 2008、Windows Server 2008<br/>                                     |
+| 最低支援的用戶端<br/> | Windowsvista，Windows vista<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows伺服器2008、Windows server 2008<br/>                                     |
 | 命名空間<br/>                | 根 \\ CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |

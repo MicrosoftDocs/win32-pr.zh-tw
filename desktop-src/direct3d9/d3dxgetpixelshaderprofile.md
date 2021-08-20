@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7d24e19d49a8a96f91847892f519ef6c06d25ef5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c61bbfff1f1db13afb7a3ef67b06dc29e81f48fc20c0b31c6a85667f1bea8c8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045026"
 ---
 # <a name="d3dxgetpixelshaderprofile-function"></a>D3DXGetPixelShaderProfile 函式
 
@@ -71,7 +71,7 @@ HLSL 設定檔名稱。
 <thead>
 <tr class="header">
 <th>著色器設定檔</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

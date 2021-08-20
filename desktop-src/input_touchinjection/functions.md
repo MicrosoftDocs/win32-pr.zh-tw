@@ -9,12 +9,12 @@ keywords:
 - 觸控
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: d0b094c27f72d551d9bb7823521a5391a45120bc
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: e2ed92fc950d601cde863e96bc33577963d4df018140bbfcd13fed009d7003b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106996119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611728"
 ---
 # <a name="touch-injection-functions"></a>觸控插入函數
 

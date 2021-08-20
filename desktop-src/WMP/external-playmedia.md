@@ -1,6 +1,6 @@
 ---
 title: PlayMedia 方法
-description: 本頁面記載 Windows Media Player 9 系列 SDK 和 Windows Media Player 10 SDK 的功能。 它可能在後續版本中無法使用。
+description: 本頁面記載 Windows Media Player 9 系列 sdk 和 Windows Media Player 10 sdk 的功能。 它可能在後續版本中無法使用。
 ms.assetid: 48071318-e853-4139-8fe4-17d1cdbef8f5
 keywords:
 - playMedia 方法 Windows Media Player
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf0330e7e68d8b4e3747c019e0841f872d279c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65c2a5d49da302a1cdf2b702408d02e8f5f2fc5f0da5eb7f392af75d0581b1fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648608"
 ---
 # <a name="externalplaymedia-method"></a>PlayMedia 方法
 
-本頁面記載 Windows Media Player 9 系列 SDK 和 Windows Media Player 10 SDK 的功能。 它可能在後續版本中無法使用。
+本頁面記載 Windows Media Player 9 系列 sdk 和 Windows Media Player 10 sdk 的功能。 它可能在後續版本中無法使用。
 
 > [!Note]  
 > 本主題說明針對線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。

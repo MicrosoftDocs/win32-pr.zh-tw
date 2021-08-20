@@ -6,12 +6,12 @@ keywords:
 - MachineLaunchRestriction 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14dfcfe5535871c6b5b0fe310c94b920c522f05a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4d5cd235e2dd81e596448f25adfd72ad0b16c13d2da3860eb56fb95f93ef53cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048056"
 ---
 # <a name="machinelaunchrestriction"></a>MachineLaunchRestriction
 
@@ -20,13 +20,13 @@ ms.locfileid: "104184009"
 > [!Caution]  
 > 變更這個值將會影響所有的 COM 伺服器應用程式，而且可能會讓它們無法正常運作。 如果有 COM 伺服器應用程式的限制低於全電腦限制，則減少整個電腦的限制可能會將這些應用程式公開給不必要的存取。 相反地，如果您增加全電腦的限制，則呼叫應用程式可能無法再存取某些 COM 伺服器應用程式。
 
- 
+ 
 
 ## <a name="registry-entry"></a>登錄項目
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   MachineLaunchRestriction = SECURITY_DESCRIPTOR
+   MachineLaunchRestriction = SECURITY_DESCRIPTOR
 ```
 
 ## <a name="remarks"></a>備註
@@ -44,9 +44,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 [設定 COM 應用程式的安全性](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

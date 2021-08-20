@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5efe318157f55cad5a7cae23e6e9b189608acb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 156efd0ea3f58cdab34afec5a848f98219cdd6afebb146801d0a3c874614e9d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022566"
 ---
 # <a name="ms-ts-licenseversion-attribute"></a>LicenseVersion 屬性
 
@@ -55,8 +55,8 @@ ms.locfileid: "103935515"
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
-| 已編制索引             | 對         |
+| 是-單一值       | 是         |
+| 已編制索引             | 是         |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
 | Range-Lower            | \-           |
@@ -76,8 +76,8 @@ ms.locfileid: "103935515"
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
-| 已編制索引             | 對         |
+| 是-單一值       | 是         |
+| 已編制索引             | 是         |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
 | Range-Lower            | \-           |
@@ -97,8 +97,8 @@ ms.locfileid: "103935515"
 | 連結識別碼                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | 否        |
-| 是-單一值       | 對         |
-| 已編制索引             | 對         |
+| 是-單一值       | 是         |
+| 已編制索引             | 是         |
 | 在通用類別目錄中      | 否        |
 | NT-Security-描述元 | O:BAG：不正確： S： |
 | Range-Lower            | \-           |

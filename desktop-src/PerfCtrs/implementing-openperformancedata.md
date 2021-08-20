@@ -4,12 +4,12 @@ ms.assetid: 0849d9cb-90d1-4b79-810d-b43f69cc9055
 title: 執行 OpenPerformanceData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53f5e4f9860983066f6ce106638962415dcf71b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 835c60e449e7e95264c20623dc103395d34b770feb632ba2409e3d658094d289
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579828"
 ---
 # <a name="implementing-openperformancedata"></a>執行 OpenPerformanceData
 

@@ -4,12 +4,12 @@ ms.assetid: d7c694a2-0da6-4172-b434-2b0f94e1b649
 title: 辨識器參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40e193b6098f6d82751951d1a39630ad30023c84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e2f72258ec9e5581c7a0064b55f4717c041ff903161a26e2a80e59892854d2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119031636"
 ---
 # <a name="recognizer-reference"></a>辨識器參考
 

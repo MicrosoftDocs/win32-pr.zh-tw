@@ -4,12 +4,12 @@ ms.assetid: 83d8bc62-679e-410f-a95c-ffe13952b710
 title: ICE81
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd2fef8da1027fc739ce8e6e979ca998a1cd053a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97bcf3228282339acd76ae4f20638cc24aeddf5279212b91aca0ece2b21867d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580808"
 ---
 # <a name="ice81"></a>ICE81
 
@@ -23,7 +23,7 @@ ICE81 會針對未使用或未參考的數位憑證張貼下列警告。
 
 
 
-| ICE81 警告                                                                                                                                                      | Description                                                        |
+| ICE81 警告                                                                                                                                                      | 描述                                                        |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | 在 MsiDigitalSignature、MsiPackageCertificate 或 MsiPatchCertificate 資料表中，找不到 MsiDigitalCertificate 資料表中任何記錄的參考。 | 如果未使用所有記錄，則會傳回此警告。                |
 | \[ \] 在 MsiDigitalSignature、MsiPackageCertificate 或 MsiPatchCertificate 資料表中，找不到數位憑證1的參考。                         | 如果未使用某些記錄（但不是全部），則會傳回此警告。 |
@@ -36,7 +36,7 @@ ICE81 會張貼下列錯誤。
 
 
 
-| ICE81 錯誤                                                                                                                                                              | Description                                                                                                                                                    |
+| ICE81 錯誤                                                                                                                                                              | 描述                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 媒體資料表不存在。 因此，MsiDigitalSignature 中的所有專案都不正確                                                                                   | 簽署的物件不存在。 如果媒體資料表不存在，但 MsiDigitalSignature 有專案，則會傳回此錯誤。                                |
 | \[媒體資料表中缺少已簽署的物件 2 \]                                                                                                                               | 簽署的物件 \[ 2 不 \] 存在。 如果媒體資料表存在，就會傳回此錯誤，但在 MsiDigitalSignature 中的此專案不會出現在媒體資料表中。 |

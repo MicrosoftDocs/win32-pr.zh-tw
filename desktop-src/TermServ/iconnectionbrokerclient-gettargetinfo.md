@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 366bebf398c5c776e43d5cdee4b99e28e8c580fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df214f23c09b7439843f0d7e8947d40cc32b2bf30eece887c921aac34306fbdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059186"
 ---
 # <a name="iconnectionbrokerclientgettargetinfo-method"></a>IConnectionBrokerClient：： GetTargetInfo 方法
 

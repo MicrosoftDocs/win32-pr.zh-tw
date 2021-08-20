@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b49128f7fec428da97a00693eba859d23d9d81c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fee59a007640563b3fe52f81c91ded129b898b720bd5f2ceaab9e38dcb2703ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508798"
 ---
 # <a name="isnetworkfeed-attribute"></a>IsNetworkFeed 屬性
 

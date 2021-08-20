@@ -4,17 +4,17 @@ ms.assetid: 0061feb6-e1a0-4fcd-8f80-954087c799d7
 title: '系統錯誤碼 (1000-1299)  (Winerror.h. h) '
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 592bd5c6653526d87fed05d6ec76f739355ae359
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dfda2e29a6b75acd683842509229f3bc52d7e8d3599855b01d8376f5a7daf2ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076332"
 ---
 # <a name="system-error-codes-1000-1299"></a>系統錯誤碼 (1000-1299) 
 
 > [!NOTE]
-> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[ [錯誤碼](system-error-codes.md) ] 頁面上有資源清單。
+> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[[錯誤碼](system-error-codes.md)] 頁面上有資源清單。
 
 下列清單描述錯誤1000到1299的 [系統錯誤碼](system-error-codes.md) 。 當有許多函式失敗時， [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 函式會傳回這些函數。 若要在您的應用程式中取得錯誤的描述文字，請使用 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函式，並搭配系統旗標的 **格式 \_ 訊息 \_ \_** 。
 
@@ -743,7 +743,7 @@ Configuration registry 資料庫已損毀。
 
 
 
-這項服務無法以安全模式啟動。
+這項服務無法在保管庫模式下啟動。
 
 
 </dt> </dl> </dd> <dt>
@@ -1263,7 +1263,7 @@ I/o 匯流排已重設。
 
 
 
-指定的程式是針對較早版本的 Windows 所撰寫。
+指定的程式是針對舊版 Windows 所撰寫。
 
 
 </dt> </dl> </dd> <dt>
@@ -2589,7 +2589,7 @@ Windows 無法開啟此程式，因為它已停用。
 
 
 
-因為授權強制系統已遭篡改或損毀，所以 Windows 無法開啟此程式。
+Windows 因為授權強制系統已遭篡改或損毀，所以無法開啟此程式。
 
 
 </dt> </dl> </dd> <dt>
@@ -2680,7 +2680,7 @@ Windows 無法開啟此程式，因為它已停用。
 
 
 
-嘗試延遲載入 .dll 或取得延遲載入的函式位址。 dll 失敗。
+嘗試延遲載入 .dll，或在延遲載入的 .dll 中取得函數位址失敗。
 
 
 </dt> </dl> </dd> <dt>
@@ -2876,8 +2876,8 @@ Windows 無法開啟此程式，因為它已停用。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Winerror.h。h</dt> </dl> |
 
 

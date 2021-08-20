@@ -1,6 +1,6 @@
 ---
 title: ms-PKI-認證-漫遊-權杖屬性
-description: 用於漫遊的加密使用者認證權杖 Blob 儲存體。 |ms-PKI-認證-漫遊-權杖屬性
+description: 用於漫遊之加密使用者認證權杖 Blob 的儲存體。 |ms-PKI-認證-漫遊-權杖屬性
 ms.assetid: 35500e2b-7922-47c9-a9dd-e76ea6fd4313
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c35a0f949fd69aaad18db3b1cf965d808581c86
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 10c13392807c2c23b13d046a49e4b859964f1dc894b1024e8fa42f800892b303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106985519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081642"
 ---
 # <a name="ms-pki-credential-roaming-tokens-attribute"></a>ms-PKI-認證-漫遊-權杖屬性
 
-用於漫遊的加密使用者認證權杖 Blob 儲存體。
+用於漫遊之加密使用者認證權杖 Blob 的儲存體。
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "106985519"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000080                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 

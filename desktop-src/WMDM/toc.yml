@@ -1,4 +1,4 @@
-- name: Windows Media 裝置管理員 11 SDK
+- name: WindowsMedia 裝置管理員 11 SDK
   href: windows-media-device-manager-11-sdk.md
   items:
     - name: 開始使用
@@ -6,7 +6,7 @@
       items:
         - name: SDK 隨附的功能
           href: whats-included-with-the-sdk.md
-        - name: Windows Media 裝置管理員架構
+        - name: Windows媒體裝置管理員架構
           href: windows-media-device-manager-architecture.md
         - name: 適用于開發的工具
           href: tools-for-development.md
@@ -54,7 +54,7 @@
               href: handling-protected-content.md
             - name: 取得和設定中繼資料和屬性
               href: getting-and-setting-metadata-and-attributes.md
-        - name: 建立 Windows Media 裝置管理員應用程式
+        - name: 建立 Windows 媒體裝置管理員應用程式
           href: creating-a-windows-media-device-manager-application.md
           items:
             - name: 隱私權聲明
@@ -96,7 +96,7 @@
               href: enabling-notifications.md
             - name: 計量內容使用方式
               href: metering-content-usage.md
-            - name: 將 RSS 摘要對應至 Windows Media 裝置管理員屬性
+            - name: 將 RSS 摘要對應至 Windows 媒體裝置管理員屬性
               href: mapping-rss-feeds-to-windows-media-device-manager-properties.md
         - name: 建立服務提供者
           href: creating-a-service-provider.md
@@ -753,7 +753,7 @@
                   href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-gettotalsize
                 - name: IMDSPStorageGlobals：： Initialize
                   href: /windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-initialize
-        - name: Windows Media DRM-Implemented 介面
+        - name: Windows媒體 DRM-Implemented 介面
           href: windows-media-drm-implemented-interfaces.md
           items:
             - name: IWMDRMDevice 介面

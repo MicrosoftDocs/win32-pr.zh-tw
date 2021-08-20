@@ -1,6 +1,6 @@
 ---
 title: GetObjectDataOnClearChannel 方法
-description: GetObjectDataOnClearChannel 方法會將清除通道上的物件資料區區塊轉送回 Windows Media 裝置管理員。
+description: GetObjectDataOnClearChannel 方法會將清除通道上的物件資料區區塊轉送回 Windows 媒體裝置管理員。
 ms.assetid: 62122415-b45b-436e-8c5f-28be759ba8c0
 keywords:
 - GetObjectDataOnClearChannel 方法 windows Media 裝置管理員
@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25b72df0dd27289153a97221fefbcb58f3a5ad13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c10e09697653c2ef1235ae9a3ea3a93a45437d1cf45a1f4de72ec99b0812b9b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619868"
 ---
 # <a name="getobjectdataonclearchannel-method"></a>GetObjectDataOnClearChannel 方法
 
-**GetObjectDataOnClearChannel** 方法會將清除通道上的物件資料區區塊轉送回 Windows Media 裝置管理員。
+**GetObjectDataOnClearChannel** 方法會將清除通道上的物件資料區區塊轉送回 Windows 媒體裝置管理員。
 
 此方法與 [**ISCPSecureExchange：： ObjectData**](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata) 相同，不同之處在于這個方法所傳回的資料並未加密。 因此，這個方法更有效率。
 
@@ -72,7 +72,7 @@ HRESULT GetObjectDataOnClearChannel(
 
 
 
-| 傳回碼                                                                                                | Description                                                                                 |
+| 傳回碼                                                                                                | 描述                                                                                 |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | <dl> <dt>**WMDM \_ E \_ MAC \_ 檢查 \_ 失敗**</dt> </dl> | 訊息驗證碼無效。<br/>                                    |
 | <dl> <dt>**WMDM \_ E \_ NORIGHTS**</dt> </dl>           | 呼叫端沒有執行要求的作業所需的許可權。<br/> |
@@ -86,7 +86,7 @@ HRESULT GetObjectDataOnClearChannel(
 
 ## <a name="remarks"></a>備註
 
-為了傳送資料，Windows Media 裝置管理員會呼叫 [TransferContainerDataOnClearChannel](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel) 方法來取得容器資料。 接著會呼叫 **GetObjectDataOnClearChannel** ，將物件資料的區塊從內容提供者傳送至 Windows Media 裝置管理員。 如果 \_ *pdwSize* 設定為零，則會傳回 S OK，Windows Media 裝置管理員將不會要求進一步的資料。
+若要傳送資料，Windows Media 裝置管理員呼叫[TransferContainerDataOnClearChannel](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel)方法來取得容器資料。 接著會呼叫 **GetObjectDataOnClearChannel** ，將物件資料的區塊從內容提供者傳送至 Windows 媒體裝置管理員。 如果將 \_ *pdwSize* 設為零，傳回 S OK，Windows Media 裝置管理員將不會要求進一步的資料。
 
 此方法與 [**ISCPSecureExchange：： ObjectData**](/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata) 相同，不同之處在于這個方法所傳回的資料並未加密。 因此，這個方法更有效率。
 

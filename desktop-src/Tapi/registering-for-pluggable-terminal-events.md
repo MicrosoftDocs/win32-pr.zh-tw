@@ -4,12 +4,12 @@ ms.assetid: 03854b38-4dba-480e-b931-34299d04c551
 title: 註冊可插入的終端機事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d42bf75cfd0d7e6bd4d8a2520335c374cce28c73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c71993d597cbcba7c634068813eb14939539dc7e7d43cda0105e8cf9ee615a1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060456"
 ---
 # <a name="registering-for-pluggable-terminal-events"></a>註冊可插入的終端機事件
 

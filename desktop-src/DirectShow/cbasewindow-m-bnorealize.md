@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e24368eb0da2ad16b66d7b06942c83f3e33937da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 45dddb9d596929674adf03ba042d6464718c58c225ef33e568924ef526618e91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016566"
 ---
 # <a name="cbasewindowm_bnorealize-member"></a>CBaseWindow：： m \_ bNoRealize 成員
 

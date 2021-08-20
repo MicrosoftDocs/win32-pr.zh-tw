@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 89be1aa4883e22c1b91f7b895cb9f965a5595980
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: efe9b317727889ded0451f1275df51233277ad9f80d59f505fd646acf4c57409
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539288"
 ---
 # <a name="cimagedisplayispalettised-method"></a>CImageDisplay. IsPalettised 方法
 

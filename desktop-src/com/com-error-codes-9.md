@@ -1,6 +1,6 @@
 ---
-title: 'COM 錯誤碼 (WPN、MBN、P2P、Bluetooth)  (Winerror.h .h) '
-description: '下表提供以 COM 為基礎的 Api 所使用的錯誤碼清單。 |COM 錯誤碼 (WPN、MBN、P2P、Bluetooth)  (Winerror.h .h) '
+title: 'COM 錯誤碼 (WPN、MBN、P2P、藍牙)  (Winerror.h .h) '
+description: '下表提供以 COM 為基礎的 Api 所使用的錯誤碼清單。 |COM 錯誤碼 (WPN、MBN、P2P、藍牙)  (Winerror.h .h) '
 ms.assetid: 351E28F9-89E7-4F19-B72D-FFE12C95A6B3
 topic_type:
 - apiref
@@ -171,12 +171,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20eb4273f4f0d11bb62cecf970f5958584b1c5e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 09aa0596e2a4643333a6d925449669b0579b1acc295782da4be6ceaa50a13cba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048556"
 ---
 # <a name="com-error-codes-wpn-mbn-p2p-bluetooth"></a>COM 錯誤碼 (WPN、MBN、P2P、藍牙) 
 
@@ -337,7 +337,7 @@ ms.locfileid: "106981665"
 
 
 
-設定會防止傳遞通知。
+設定防止傳遞通知。
 
 
 </dt> </dl> </dd> <dt>
@@ -376,7 +376,7 @@ ms.locfileid: "106981665"
 
 
 
-設定會防止傳遞通知類型。
+設定防止傳遞通知類型。
 
 
 </dt> </dl> </dd> <dt>

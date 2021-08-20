@@ -4,12 +4,12 @@ description: 跨單元存取介面
 ms.assetid: 4e0467b9-bbf1-410c-8aab-40450a7f963a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 626707daf721aee3b440bb79ba2d1e084d154a98
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e89e82fa29e768328e6c110349627d32e92ab010ce61fdf64141ad3ca7fe9a54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048916"
 ---
 # <a name="accessing-interfaces-across-apartments"></a>跨單元存取介面
 
@@ -26,7 +26,7 @@ Agile 物件不知道其執行所在的基礎 COM 基礎結構;換句話說，�
 > [!Note]  
 > 全域介面資料表無法跨進程或電腦界限進行移植，因此不能用來取代正常的參數傳遞機制。
 
- 
+ 
 
 如需有關建立和使用全域介面表的詳細資訊，請參閱下列主題：
 
@@ -55,9 +55,9 @@ Agile 物件不知道其執行所在的基礎 COM 基礎結構;換句話說，�
 [單一執行緒單元](single-threaded-apartments.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

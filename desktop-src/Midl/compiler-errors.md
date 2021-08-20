@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b4bb2189e824f82cc9247abc68844068d083b2f0
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 56b610025d3012446daa7938e2f37c2efcf6c2ddb7edd2ee545db0a179953fad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104093440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067449"
 ---
 # <a name="compiler-errors"></a>編譯器錯誤
 
@@ -34,7 +34,7 @@ ms.locfileid: "104093440"
 <thead>
 <tr class="header">
 <th>傳回碼</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -1463,7 +1463,7 @@ Mktyplib.exe 工具已淘汰。 請改用 MIDL 編譯器。
 </tr>
 <tr class="odd">
 <td><span id="MIDL2352"></span><span id="midl2352"></span><dl> <dt><strong>MIDL2352</strong></dt> </dl></td>
-<td><dl> <dt><span id="string__varying_array__conformant_array_and_full_pointer_parameters_may_be_incompatible_with_pipe_parameters_during_run_time"></span><span id="STRING__VARYING_ARRAY__CONFORMANT_ARRAY_AND_FULL_POINTER_PARAMETERS_MAY_BE_INCOMPATIBLE_WITH_PIPE_PARAMETERS_DURING_RUN_TIME"></span>字串、不同陣列、符合標準的陣列和完整指標參數，在執行時間中可能與管道參數不相容</dt> <dd> 結合一個或多個 [in] 字串、不同陣列、符合標準的陣列和完整指標參數和任何 [in] 管道參數的方法，會產生只在 Windows 電腦上的 <strong>ncacn_ *</strong> 和 <a href="ncalrpc.md"><strong>ncalrpc</strong></a> 通訊協定序列上執行的存根產生。 使用存根來呼叫 <strong>ncadg_ *</strong> 通訊協定序列或接受來自其他憑證 DCE RPC 廠商的呼叫，可能會在執行時間于伺服器上產生錯誤。 從 Windows Server 2003 開始，就會發生此錯誤。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="string__varying_array__conformant_array_and_full_pointer_parameters_may_be_incompatible_with_pipe_parameters_during_run_time"></span><span id="STRING__VARYING_ARRAY__CONFORMANT_ARRAY_AND_FULL_POINTER_PARAMETERS_MAY_BE_INCOMPATIBLE_WITH_PIPE_PARAMETERS_DURING_RUN_TIME"></span>字串、不同陣列、符合標準的陣列和完整指標參數，在執行時間中可能與管道參數不相容</dt> <dd> 結合一個或多個 [in] 字串、不同陣列、符合標準的陣列和完整指標參數和任何 [in] 管道參數的方法，會產生只在 Windows 電腦上<strong>ncacn_ *</strong>和<a href="ncalrpc.md"><strong>ncalrpc</strong></a>通訊協定序列上執行的存根產生。 使用存根來呼叫 <strong>ncadg_ *</strong> 通訊協定序列或接受來自其他憑證 DCE RPC 廠商的呼叫，可能會在執行時間于伺服器上產生錯誤。 從 Windows Server 2003 開始，就會發生此錯誤。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2353"></span><span id="midl2353"></span><dl> <dt><strong>MIDL2353</strong></dt> </dl></td>
@@ -1561,7 +1561,7 @@ void bar (large *s, int a);</code></pre>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2373"></span><span id="midl2373"></span><dl> <dt><strong>MIDL2373</strong></dt> </dl></td>
-<td><dl> <dt><span id="DOS__Win16_and_MAC_platforms_are_not_supported_with__robust"></span><span id="dos__win16_and_mac_platforms_are_not_supported_with__robust"></span><span id="DOS__WIN16_AND_MAC_PLATFORMS_ARE_NOT_SUPPORTED_WITH__ROBUST"></span>/Robust 不支援 DOS、Win16 和 MAC 平臺</dt> <dd> MIDL 支援 Microsoft Windows 2000 或更新版本上的 <a href="-robust.md"><strong>/robust</strong></a> 參數。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="DOS__Win16_and_MAC_platforms_are_not_supported_with__robust"></span><span id="dos__win16_and_mac_platforms_are_not_supported_with__robust"></span><span id="DOS__WIN16_AND_MAC_PLATFORMS_ARE_NOT_SUPPORTED_WITH__ROBUST"></span>/Robust 不支援 DOS、Win16 和 MAC 平臺</dt> <dd> MIDL 支援 Microsoft Windows 2000 或更新版本上的<a href="-robust.md"><strong>/robust</strong></a>參數。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2374"></span><span id="midl2374"></span><dl> <dt><strong>MIDL2374</strong></dt> </dl></td>
@@ -1651,7 +1651,7 @@ void bar(long s1, long s2, [size_is(s1,s2) long **a);//MIDL2393</code></pre>
 <td><dl> <dt><span id="type_or_construct_not_supported_in_a_library_block_because_Oleaut32.dll_support_for_64-KB_polymorphic_types_is_missing"></span><span id="type_or_construct_not_supported_in_a_library_block_because_oleaut32.dll_support_for_64-kb_polymorphic_types_is_missing"></span><span id="TYPE_OR_CONSTRUCT_NOT_SUPPORTED_IN_A_LIBRARY_BLOCK_BECAUSE_OLEAUT32.DLL_SUPPORT_FOR_64-KB_POLYMORPHIC_TYPES_IS_MISSING"></span>程式庫區塊中不支援類型或結構，因為缺少 64-KB 多型類型的 Oleaut32.dll 支援</dt> <dd> OLE automation 不支援多型類型 (例如 _int3264、INT_PTR 等) 。 這些類型在32位和64位平臺之間具有不相容的資料標記法。 在64位平臺上，遠端呼叫會在執行時間失敗。<br/>
 <blockquote>
 [!Note]<br />
-請注意，在 Windows 2000 版本中，OLE Automation 會在執行時間轉換32位 TLB 資訊，以支援64位 TLB 檔案。 因此，MIDL 只支援32位的 TLB 產生。
+請注意，從 Windows 2000 版開始，OLE Automation 會在執行時間轉換32位 tlb 資訊，以支援64位 tlb 檔案。 因此，MIDL 只支援32位的 TLB 產生。
 </blockquote>
 <br/> 如果使用 MIDL 來產生標頭檔， <a href="-notlb.md"><strong>/notlb</strong></a> 參數將會抑制 TLB 檔案的產生。<br/> </dd> </dl></td>
 </tr>
@@ -1665,11 +1665,11 @@ void bar(long s1, long s2, [size_is(s1,s2) long **a);//MIDL2393</code></pre>
 </tr>
 <tr class="even">
 <td><span id="MIDL2398"></span><span id="midl2398"></span><dl> <dt><strong>MIDL2398</strong></dt> </dl></td>
-<td><dl> <dt><span id="cannot_execute_MIDL_engine"></span><span id="cannot_execute_midl_engine"></span><span id="CANNOT_EXECUTE_MIDL_ENGINE"></span>無法執行 MIDL 引擎</dt> <dd> 從 Windows 2000 版 (MIDL 版本 5.03.279) ，會使用兩個可執行檔來執行 MIDL 編譯器： Midl.exe (驅動程式) ，以及 Midlc.exe 編譯器引擎 (。 此錯誤表示 Midl.exe 無法啟動 Midlc.exe。 請確定 Midlc.exe 與 Midl.exe 位於相同的目錄中，而且它們是相同的版本。<br/> 此錯誤可能是因為複製 Midl.exe 但無法從最新的散發 Midlx.exe 所造成。 在不含任何參數的命令列上執行 <strong>midl</strong> 和/或 <strong>midlc</strong> ，以查看可執行檔的版本號碼。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="cannot_execute_MIDL_engine"></span><span id="cannot_execute_midl_engine"></span><span id="CANNOT_EXECUTE_MIDL_ENGINE"></span>無法執行 MIDL 引擎</dt> <dd> 從 Windows 2000 版本 (MIDL 版本 5.03.279) ，會使用兩個可執行檔來執行 midl 編譯器： Midl.exe (驅動程式) ，以及 Midlc.exe 編譯器引擎 (。 此錯誤表示 Midl.exe 無法啟動 Midlc.exe。 請確定 Midlc.exe 與 Midl.exe 位於相同的目錄中，而且它們是相同的版本。<br/> 此錯誤可能是因為複製 Midl.exe 但無法從最新的散發 Midlx.exe 所造成。 在不含任何參數的命令列上執行 <strong>midl</strong> 和/或 <strong>midlc</strong> ，以查看可執行檔的版本號碼。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2399"></span><span id="midl2399"></span><dl> <dt><strong>MIDL2399</strong></dt> </dl></td>
-<td><dl> <dt><span id="bad_commands_from_driver"></span><span id="BAD_COMMANDS_FROM_DRIVER"></span>驅動程式中的命令錯誤</dt> <dd> 從 Windows 2000 版 (MIDL 版本 5.03.279) ，會使用兩個可執行檔來執行 MIDL 編譯器： Midl.exe (驅動程式) ，以及 Midlc.exe 編譯器引擎 (。 此錯誤表示用來將命令從 Midl.exe 傳遞至 Midlc.exe 的暫存檔案遺失或損毀。 請確定 Midlc.exe 與 Midl.exe 位於相同的目錄中，而且它們是相同的版本。<br/> 錯誤可能是因為嘗試直接執行 Midlc.exe，或從最新的散發套件中複製 Midl.exe 而不是 Midlc.exe 所造成。 在不含任何參數的命令列上執行 <strong>midl</strong> 和/或 <strong>midlc</strong> ，以查看可執行檔的版本號碼。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="bad_commands_from_driver"></span><span id="BAD_COMMANDS_FROM_DRIVER"></span>驅動程式中的命令錯誤</dt> <dd> 從 Windows 2000 版本 (MIDL 版本 5.03.279) ，會使用兩個可執行檔來執行 midl 編譯器： Midl.exe (驅動程式) ，以及 Midlc.exe 編譯器引擎 (。 此錯誤表示用來將命令從 Midl.exe 傳遞至 Midlc.exe 的暫存檔案遺失或損毀。 請確定 Midlc.exe 與 Midl.exe 位於相同的目錄中，而且它們是相同的版本。<br/> 錯誤可能是因為嘗試直接執行 Midlc.exe，或從最新的散發套件中複製 Midl.exe 而不是 Midlc.exe 所造成。 在不含任何參數的命令列上執行 <strong>midl</strong> 和/或 <strong>midlc</strong> ，以查看可執行檔的版本號碼。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2400"></span><span id="midl2400"></span><dl> <dt><strong>MIDL2400</strong></dt> </dl></td>
@@ -1697,11 +1697,11 @@ void bar(long s1, long s2, [size_is(s1,s2) long **a);//MIDL2393</code></pre>
 </tr>
 <tr class="even">
 <td><span id="MIDL2406"></span><span id="midl2406"></span><dl> <dt><strong>MIDL2406</strong></dt> </dl></td>
-<td><dl> <dt><span id="midl_driver_and_compiler_version_mismatch"></span><span id="MIDL_DRIVER_AND_COMPILER_VERSION_MISMATCH"></span>midl 驅動程式和編譯器版本不符</dt> <dd> 從 Windows 2000 版本 (MIDL 版本 5.03.279) 會使用兩個可執行檔來執行 MIDL 編譯器： Midl.exe (驅動程式) ，以及 Midlc.exe 編譯器引擎 (。 此錯誤指出 Midl.exe 的版本不符合 Midlc.exe 的版本。<br/> 此錯誤可能是因為複製 Midl.exe 但無法從最新的散發 Midlc.exe 所造成。 在不含任何參數的命令列上執行 <strong>midl</strong> 和/或 <strong>midlc</strong> ，以查看可執行檔的版本號碼。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="midl_driver_and_compiler_version_mismatch"></span><span id="MIDL_DRIVER_AND_COMPILER_VERSION_MISMATCH"></span>midl 驅動程式和編譯器版本不符</dt> <dd> 從 Windows 2000 版本 (midl 版本 5.03.279) 會使用兩個可執行檔來執行 midl 編譯器： Midl.exe (驅動程式) ，以及 Midlc.exe 編譯器引擎 (。 此錯誤指出 Midl.exe 的版本不符合 Midlc.exe 的版本。<br/> 此錯誤可能是因為複製 Midl.exe 但無法從最新的散發 Midlc.exe 所造成。 在不含任何參數的命令列上執行 <strong>midl</strong> 和/或 <strong>midlc</strong> ，以查看可執行檔的版本號碼。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2407"></span><span id="midl2407"></span><dl> <dt><strong>MIDL2407</strong></dt> </dl></td>
-<td><dl> <dt><span id="no_intermediate_file_specified__use_Midl.exe"></span><span id="no_intermediate_file_specified__use_midl.exe"></span><span id="NO_INTERMEDIATE_FILE_SPECIFIED__USE_MIDL.EXE"></span>未指定中繼檔案：使用 Midl.exe</dt> <dd> 從 Windows 2000 版 (MIDL 版本 5.03.279) ，會使用兩個可執行檔來執行 MIDL 編譯器： Midl.exe (驅動程式) ，以及 Midlc.exe 編譯器引擎 (。 此錯誤表示 Midlc.exe 是直接執行，而不是使用 Midl.exe。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="no_intermediate_file_specified__use_Midl.exe"></span><span id="no_intermediate_file_specified__use_midl.exe"></span><span id="NO_INTERMEDIATE_FILE_SPECIFIED__USE_MIDL.EXE"></span>未指定中繼檔案：使用 Midl.exe</dt> <dd> 從 Windows 2000 版本 (MIDL 版本 5.03.279) ，會使用兩個可執行檔來執行 midl 編譯器： Midl.exe (驅動程式) ，以及 Midlc.exe 編譯器引擎 (。 此錯誤表示 Midlc.exe 是直接執行，而不是使用 Midl.exe。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2408"></span><span id="midl2408"></span><dl> <dt><strong>MIDL2408</strong></dt> </dl></td>

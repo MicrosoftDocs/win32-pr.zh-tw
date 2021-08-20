@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d9e9f04ce3d25399866c711dad7a853f2c43c2ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d1bab0d66a081c175d997e093d7dd1ff2b0d1c9622ecff73e0b3b1473edc885
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495208"
 ---
 # <a name="istatspause-method"></a>IStats：:P ause 方法
 
@@ -46,12 +46,12 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 
 
-| 傳回碼                                                                                            | Description                                                                                                                                  |
+| 傳回碼                                                                                            | 描述                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ CAPTURE 已 \_ 暫停**</dt> </dl>  | 此 capture 已經暫停。<br/>                                                                                                    |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl>   | NPP 不會捕捉資料。 呼叫 [IStats：： start](istats-start.md) 方法來啟動 capture。<br/>                            |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>   | NPP 未連接到網路。 呼叫 [IStats：： connect](istats-connect.md) 方法，將 NPP 連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl> | NPP 已連接到網路，但不是使用 [IStats：： Connect](istats-connect.md) 方法。<br/>                                |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>   | NPP 未連接到網路。 呼叫[IStats：：連線](istats-connect.md)方法，以將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl> | NPP 是連接到網路，但不是使用[IStats：：連線](istats-connect.md)方法。<br/>                                |
 
 
 
@@ -85,7 +85,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 [IStats](istats.md)
 </dt> <dt>
 
-[IStats：： Connect](istats-connect.md)
+[IStats：：連線](istats-connect.md)
 </dt> <dt>
 
 [IStats：： Resume](istats-resume.md)

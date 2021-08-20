@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 151103366e85537368cacb7063f199f1f91bf023
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48537009b56d2b37f4508871049463a65a12965c31658e932716832955503f42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599578"
 ---
 # <a name="var-structure"></a>Var 結構
 

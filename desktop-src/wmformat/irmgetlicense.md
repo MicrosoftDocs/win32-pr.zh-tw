@@ -1,6 +1,6 @@
 ---
 title: IRMGetLicense 介面
-description: IRMGetLicense 介面是在安裝為 Windows Media Format SDK 一部分的執行時間程式庫中執行的。
+description: IRMGetLicense 介面是在安裝為 Windows 媒體格式 SDK 一部分的執行時間程式庫中執行。
 ms.assetid: 95a8cf57-72a4-496d-8d25-d094b47c3a57
 keywords:
 - IRMGetLicense 介面 windows 媒體格式
@@ -14,18 +14,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3aa63bc7b351aab0a02c36dc16cb3600e405b26f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ad5f74400fd35356967942403ae4f3c3024b6259a4ab7e62ffa544267a308b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585628"
 ---
 # <a name="irmgetlicense-interface"></a>IRMGetLicense 介面
 
-\[**IRMGetLicense** 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 請改用 [Microsoft PlayReady](https://www.microsoft.com/PlayReady/)。 \]
+\[**IRMGetLicense** 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 請改用[Microsoft PlayReady](https://www.microsoft.com/PlayReady/)。 \]
 
-**IRMGetLicense** 介面是在安裝為 Windows MEDIA Format SDK 一部分的執行時間程式庫中執行的。 它會啟用用戶端授權取得。 因為此方法是由授權簽發者透過 Web 架構應用程式所使用，所以它記載于 Windows Media Rights Manager SDK 檔中。
+**IRMGetLicense** 介面是在安裝為 Windows 媒體格式 SDK 一部分的執行時間程式庫中執行。 它會啟用用戶端授權取得。 因為此方法是由授權簽發者透過 Web 架構應用程式所使用，所以它記載于 Windows 媒體版權管理員 SDK 檔。
 
 ## <a name="members"></a>成員
 

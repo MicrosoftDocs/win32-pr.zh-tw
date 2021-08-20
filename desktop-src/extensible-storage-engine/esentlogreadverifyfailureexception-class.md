@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 937d3fa0b721b66d072817ba12c2cf8ba97d5cdd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7efebe0d273891d7f20346b22ad2c2873cd035e76f3318d7f021a936dfdcc91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040916"
 ---
 # <a name="esentlogreadverifyfailureexception-class"></a>EsentLogReadVerifyFailureException 類別
 

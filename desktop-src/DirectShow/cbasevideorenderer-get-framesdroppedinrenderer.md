@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ef81678fce8d349c7c047b0453cc480d8673f8f8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 21bd2e9c2f9edb50ca3800c95b59ba19fd91674d5ef343cf35842380ce617978
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016756"
 ---
 # <a name="cbasevideorendererget_framesdroppedinrenderer-method"></a>CBaseVideoRenderer. 取得 \_ FramesDroppedInRenderer 方法
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: c00daecccd12beee8e9e741c2906e47484fa6da3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba704a2dd232ce5c8ba08d0271e5e0a8fda72f86f9aef89d2e89b04ca9fe94b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546548"
 ---
 # <a name="ienumportabledeviceconnectorsskip-method"></a>IEnumPortableDeviceConnectors：： Skip 方法
 
@@ -53,7 +53,7 @@ HRESULT Skip(
 
 
 
-| 傳回碼                                                                             | Description                                                                                                                                                                               |
+| 傳回碼                                                                             | 描述                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 此方法已成功。<br/>                                                                                                                                                          |
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 無法略過指定的裝置數目。 其中一個可能的原因： *cConnectors* 參數指定的裝置數目超過實際保留在列舉順序中的數目。<br/> |
@@ -68,10 +68,10 @@ HRESULT Skip(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                                                                             |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                                                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                                                                                   |
 | 標頭<br/>                   | <dl> <dt>Devpkey .h;</dt><dt>Portabledeviceconnectapi .h</dt> </dl> |
-| Idl<br/>                      | <dl> <dt>Portabledeviceconnectapi .idl</dt> </dl>                                                                |
+| IDL<br/>                      | <dl> <dt>Portabledeviceconnectapi .idl</dt> </dl>                                                                |
 | 程式庫<br/>                  | <dl> <dt>PortableDeviceGuids .lib</dt> </dl>                                                                     |
 
 

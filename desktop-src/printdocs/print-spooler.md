@@ -4,12 +4,12 @@ ms.assetid: 36ffb001-78e2-4fa0-8241-3891493ac02d
 title: 列印多工緩衝處理器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dfcc6ea2e46c06b5e51032a4c43f46df7f07c04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52bac19b44ebed5762abdb00b9ea044cf775a7a7ca8193c641709ad2c39436dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033926"
 ---
 # <a name="print-spooler"></a>列印多工緩衝處理器
 
@@ -21,7 +21,7 @@ ms.locfileid: "104513444"
 
 -   增強型中繼檔 (EMF) 。
 -   ASCII 文字。
--   原始資料，包括印表機資料類型，例如 PostScript、PCL 和自訂資料類型。
+-   原始資料，其中包括印表機資料類型，例如 PostScript、PCL 和自訂資料類型。
 
 您可以藉由安裝額外的印表機驅動程式和列印處理器，將自訂資料類型新增至多工緩衝處理器。 列印工作是在內部儲存的檔，並使用其中一種支援的資料類型進行編碼，而列印工作可包含一或多個頁面的輸出。 列印工作可能包含多個表單;例如，作業可能包含一個信封和三頁的 A4 紙張。 列印工作的定義 (或由 [**StartDoc**](/windows/desktop/api/Wingdi/nf-wingdi-startdoca) 和 [**EndDoc**](/windows/desktop/api/Wingdi/nf-wingdi-enddoc) 函式) 括住。
 

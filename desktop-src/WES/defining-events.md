@@ -4,12 +4,12 @@ description: 提供者必須定義它們撰寫的所有事件。 若要定義事
 ms.assetid: f282612c-cfa5-42fe-af8a-5b35c033abe2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a4c1da0e54d1e9fc328978ebe447c8e843b540c
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: c8b28dd6f9453a0b3272e6c9e7efcc40613319591174444d14abf55d6d9f385f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104374876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056036"
 ---
 # <a name="defining-events"></a>定義事件
 

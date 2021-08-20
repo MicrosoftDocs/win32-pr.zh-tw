@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shldisp.h
-ms.openlocfilehash: d37966b13a182161c1a6248c93eabaf5dfa3597c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: baf180149419178b489f3ba00042c561268b36e7b7ed7b0e2afab54b68f78466
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032616"
 ---
 # <a name="folder-object"></a>Folder 物件
 
@@ -56,7 +56,7 @@ ms.locfileid: "104510784"
 
 
 
-| 屬性                                               | 存取類型          | Description                                          |
+| 屬性                                               | 存取類型          | 描述                                          |
 |:-------------------------------------------------------|:---------------------|:-----------------------------------------------------|
 | [**Application**](folder-application.md)<br/>   | 唯讀<br/> | 包含資料夾的應用程式物件。<br/> |
 | [**父代**](folder-parent.md)<br/>             | 唯讀<br/> | 未實作。<br/>                          |
@@ -80,10 +80,10 @@ ms.locfileid: "104510784"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                 |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                 |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
 
 
 

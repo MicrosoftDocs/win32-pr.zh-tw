@@ -4,12 +4,12 @@ ms.assetid: 28e186fb-453c-46ff-97fa-36e806bf355b
 title: 建立基本偵錯工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77cf5b3290b8c9c3cdd7394b2acb8a6c7f322832
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c76d366695f9aff09be231b30c463215f8f98a820cf6ba2ed6943f5bfdf6e7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076452"
 ---
 # <a name="creating-a-basic-debugger"></a>建立基本偵錯工具
 

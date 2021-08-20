@@ -4,12 +4,12 @@ ms.assetid: 95b0ea10-c3ab-4c62-81da-b00addfd62ba
 title: 設定物件屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb26f7f5183a5aa0981ea795de16b35c43cfb16f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 908f8f706d07b2696b1f94a43b45d759e98b46fac0f79067a8a79308f968517b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583998"
 ---
 # <a name="setting-object-properties"></a>設定物件屬性
 

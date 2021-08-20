@@ -4,19 +4,19 @@ description: Windows 是主要 \ 0034; canvas \ 0034;或桌面應用程式的 UI
 ms.assetid: E1FA78DA-D580-4B0E-AB59-29F013278766
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 5b7bb58750635af25d49208992d5583c44520a04
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 0664a6671e477f2b12f25b928fb39be69ac698ceba876aae5d8b65774e006edb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103945571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028956"
 ---
 # <a name="windows-design-basics"></a>Windows (設計基本概念) 
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
-Windows 是桌面應用程式的主要「畫布」或 UI 介面，包括主要的 windows 和快顯、對話方塊和嚮導。 當您決定要使用的介面和最佳使用方式時，請遵循這些指導方針。
+Windows 是桌面應用程式的主要「畫布」或 UI 介面，包括主視窗本身和快顯、對話方塊和嚮導。 當您決定要使用的介面和最佳使用方式時，請遵循這些指導方針。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -55,7 +55,7 @@ Windows 是桌面應用程式的主要「畫布」或 UI 介面，包括主要�
 <td>比較古怪名稱雖然很棒，但卻不是一種特殊形式的使用者介面，而且只有特定範圍的公用程式。 <br/></td>
 </tr>
 <tr class="even">
-<td><a href="win-property-win.md">屬性視窗</a><br/></td>
+<td><a href="win-property-win.md">屬性 Windows</a><br/></td>
 <td>[屬性視窗] 是下列使用者介面類別型的集體名稱 (Ui) ：<br/>
 <ul>
 <li>屬性工作表：用於 <strong>在對話方塊中，用來查看和變更物件或物件集合的屬性</strong>。</li>

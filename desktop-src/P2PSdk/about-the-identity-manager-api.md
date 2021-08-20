@@ -4,12 +4,12 @@ ms.assetid: c1b2a587-71c7-4623-a318-4624dad7feba
 title: 關於 Identity Manager
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe66e21bf6c131006ed98c7f5f211c316464ebe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d062f7324bb949c657b7687b533058cb9e74d3102eea1e484284453d3ff7f25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579918"
 ---
 # <a name="about-identity-manager"></a>關於 Identity Manager
 

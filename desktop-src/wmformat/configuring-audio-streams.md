@@ -24,12 +24,12 @@ keywords:
 - VBR (變數位速率) ，設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ad3931ec41e73c125417d39cdd177dc16056e9e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6e28c32e9d0e237e72f693bded74c7620d33845261a6137afdf58b04f35f441f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106979670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548028"
 ---
 # <a name="configuring-audio-streams"></a>設定音訊串流
 
@@ -54,20 +54,20 @@ if((pWave->nAvgBytesPerSec / pWave->nBlockAlign) >=
 
 ## <a name="getting-low-delay-audio-formats"></a>取得 Low-Delay 的音訊格式
 
-Windows Media 9.1 編解碼器和 Windows Media 音訊 9.1 Professional 編解碼器都支援低延遲格式。 這些格式的緩衝區視窗比其他音訊格式小。 低延遲音訊的目的在於改善檔案或資料流程經常切換的案例中的效能;例如，應用程式會列出在使用者介面中進行串流處理的許多歌曲，並允許使用者在兩者之間進行切換。
+Windows 媒體9.1 編解碼器和 Windows Media 音訊 9.1 Professional 編解碼器都支援低延遲格式。 這些格式的緩衝區視窗比其他音訊格式小。 低延遲音訊的目的在於改善檔案或資料流程經常切換的案例中的效能;例如，應用程式會列出在使用者介面中進行串流處理的許多歌曲，並允許使用者在兩者之間進行切換。
 
 低延遲格式只能在 CBR 模式下使用， (一次或兩次傳遞) 。 低延遲格式的描述全都包含「低延遲」字串。 您可以藉由檢查格式的位元速率值，以程式設計方式識別格式。 低延遲格式的指派位速率為1，小於相等一般格式的位元速率。 例如，Windows Media 音訊9.1 編解碼器支援使用位元速率為 192 kbps 的單一傳遞 CBR 格式。 相等的低延遲格式的位元速率為 191 kbps。 此外，除了 Windows Media 音訊9.1 編解碼器所支援的 5 kbps mono 格式之外，低延遲格式是具有奇數位元速率值的唯一格式。
 
 ## <a name="configuring-variable-bit-rate-audio"></a>設定變數位元速率音訊
 
-當您的其中一個 Windows Media 音訊編解碼器需要變數位元速率 (VBR) 格式時，您可以在 [**IWMCodecInfo3：： SetCodecEnumerationSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-setcodecenumerationsetting) 方法中設定列舉設定來取得它。 將 g \_ wszVBREnabled 設為 True，並針對以品質為基礎的 vbr 將 g wszNumPasses 設定為1，並將 \_ 兩個進行 vbr (受限或未受限制的) 設定為2。 如果您使用受限制的雙向 VBR，您必須使用 [**IWMPropertyVault**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault) 的方法（如設定 [VBR 資料流程](configuring-vbr-streams.md)中所述），手動設定資料流程的最大位元速率和緩衝區視窗。
+當您需要 Windows Media 音訊編解碼器的 (VBR) 格式時，您可以藉由在 [**IWMCodecInfo3：： SetCodecEnumerationSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-setcodecenumerationsetting)方法中設定列舉設定來取得變數的位元速率。 將 g \_ wszVBREnabled 設為 True，並針對以品質為基礎的 vbr 將 g wszNumPasses 設定為1，並將 \_ 兩個進行 vbr (受限或未受限制的) 設定為2。 如果您使用受限制的雙向 VBR，您必須使用 [**IWMPropertyVault**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault) 的方法（如設定 [VBR 資料流程](configuring-vbr-streams.md)中所述），手動設定資料流程的最大位元速率和緩衝區視窗。
 
 在以品質為基礎的 VBR 設定檔中， **WAVEFORMATEX** 結構的 **nAvgBytesPerSec** 成員會包含低序位位元組 (1 到 100) 的品質層級，而三個高序位的位元組則會設定為0x7fffff。 請勿嘗試手動修改此值以修改品質設定;您必須使用從編解碼器取出的格式。 若要使用不同的品質值，您必須列舉格式，直到找到符合您需求的格式為止。 此外， **nAvgBytesPerSec** 不會保留在 ASF 檔案中;當您取得使用 reader 物件開啟之檔案的 **WAVEFORMATEX** 結構時， **nAvgBytesPerSec** 會包含代表每秒位元組平均位元組數的近似值。
 
 > [!Note]  
 > 設定音訊串流時，您的音訊緩衝區視窗值絕對不能大於檔案中任何影片資料流程的值。 通常這並不成問題，因為音訊緩衝區視窗值的範圍應介於1.5 到3秒之間，而影片值的範圍應介於3到5秒之間。 如果 [音訊緩衝區] 視窗大於 [影片緩衝區] 視窗，檔案將會播放到與同步處理稍微不同的資料流程。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -82,6 +82,6 @@ Windows Media 9.1 編解碼器和 Windows Media 音訊 9.1 Professional 編解�
 [**尋找音訊格式**](to-find-audio-formats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

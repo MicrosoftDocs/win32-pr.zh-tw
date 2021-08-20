@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0220481b58931edace2a5dfe7298d83f7bd1325
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f02f09c0db4ec56ee592dc39ddbb7fef1ae52d328edec5d9a5c9fd17b769ef58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046556"
 ---
 # <a name="id3dx11effectblendvariablegetbackingstore-method"></a>ID3DX11EffectBlendVariable：： GetBackingStore 方法
 

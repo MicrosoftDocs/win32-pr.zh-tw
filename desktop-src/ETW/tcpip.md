@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: abcd805b417451adf2122e7baf3310be101a35ff
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0782db83d5c92a0e39578bc4e0d46e2c1d41432feb418a08bceb2e3548a45b5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069518"
 ---
 # <a name="tcpip-class"></a>TcpIp 類別
 
@@ -49,7 +49,7 @@ class TcpIp : MSNT_SystemTrace
 | 事件類型                                                            | 描述                                                                                                                                                                                   |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **活動 \_追蹤 \_ 類型 \_ 接受** (事件種類值為 15) <br/>     | 接受 IPv4 通訊協定的事件。 [**TcpIp \_ TypeGroup2**](tcpip-typegroup2.md) MOF 類別會定義此事件的事件資料。                                                            |
-| **活動 \_追蹤 \_ 類型 \_ 連接** (事件種類值為 12) <br/>    | IPv4 通訊協定的連接事件。 [**TcpIp \_ TypeGroup2**](tcpip-typegroup2.md) MOF 類別會定義此事件的事件資料。                                                           |
+| **活動 \_追蹤 \_ 類型 \_ 連接** (事件種類值為 12) <br/>    | IPv4 通訊協定的連線事件。 [**TcpIp \_ TypeGroup2**](tcpip-typegroup2.md) MOF 類別會定義此事件的事件資料。                                                           |
 | **活動 \_追蹤 \_ 類型 \_ 中斷** (事件種類值為 13) <br/> | IPv4 通訊協定的中斷線上活動。 [**TcpIp \_ TypeGroup1**](tcpip-typegroup1.md) MOF 類別會定義此事件的事件資料。                                                        |
 | **活動 \_追蹤 \_ 類型 \_ 接收** (事件種類值為 11) <br/>    | IPv4 通訊協定的接收事件。 [**TcpIp \_ TypeGroup1**](tcpip-typegroup1.md) MOF 類別會定義此事件的事件資料。                                                           |
 | **活動 \_追蹤 \_ 類型 \_ 重新連接** (事件種類值為 16) <br/>  | IPv4 通訊協定的重新連接事件。  (連線嘗試失敗，並嘗試進行其他嘗試。 ) [**TcpIp \_ TypeGroup1**](tcpip-typegroup1.md) MOF 類別定義此事件的事件資料。 |
@@ -59,7 +59,7 @@ class TcpIp : MSNT_SystemTrace
 | 事件種類值，18                                                  | IPv4 通訊協定的 TCP 複製事件。 [**TcpIp \_ TypeGroup1**](tcpip-typegroup1.md) MOF 類別會定義此事件的事件資料。                                                          |
 | 事件種類值，26                                                  | IPv6 通訊協定的傳送事件。 [**TcpIp \_ SendIPV6**](tcpip-sendipv6.md) MOF 類別會定義此事件的事件資料。                                                                  |
 | 事件種類值，27                                                  | IPv6 通訊協定的接收事件。 [**TcpIp \_ TypeGroup3**](tcpip-typegroup3.md) MOF 類別會定義此事件的事件資料。                                                           |
-| 事件種類值28                                                  | IPv6 通訊協定的連接事件。 [**TcpIp \_ TypeGroup4**](tcpip-typegroup4.md) MOF 類別會定義此事件的事件資料。                                                           |
+| 事件種類值28                                                  | IPv6 通訊協定的連線事件。 [**TcpIp \_ TypeGroup4**](tcpip-typegroup4.md) MOF 類別會定義此事件的事件資料。                                                           |
 | 事件種類值，29                                                  | IPv6 通訊協定的中斷線上活動。 [**TcpIp \_ TypeGroup3**](tcpip-typegroup3.md) MOF 類別會定義此事件的事件資料。                                                        |
 | 事件種類值30                                                  | IPv6 通訊協定的重新傳輸事件。 [**TcpIp \_ TypeGroup3**](tcpip-typegroup3.md) MOF 類別會定義此事件的事件資料。                                                        |
 | 事件種類值，31                                                  | 接受 IPv6 通訊協定的事件。 [**TcpIp \_ TypeGroup4**](tcpip-typegroup4.md) MOF 類別會定義此事件的事件資料。                                                            |
@@ -78,8 +78,8 @@ class TcpIp : MSNT_SystemTrace
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

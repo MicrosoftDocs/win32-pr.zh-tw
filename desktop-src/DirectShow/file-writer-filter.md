@@ -4,12 +4,12 @@ ms.assetid: 2bfbea8a-679f-4656-9ff3-fdf34aa0eb26
 title: 檔案寫入器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e991536d505ee1bdfcaaaca5ce8660c4480decf6
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a9f21009d8135cb42ec93c4f5727398dcdf3094ed4e5da666c325c959dbffc16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651368"
 ---
 # <a name="file-writer-filter"></a>檔案寫入器篩選
 
@@ -45,7 +45,7 @@ ms.locfileid: "107909686"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

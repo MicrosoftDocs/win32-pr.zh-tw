@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2aa54be3416087c06651a4bb58902a0469e8f0c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6e59c53d8e4c05d15d55a6ccd9d7fb2b5cd8783463d1f59d439c74240fdd93a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066938"
 ---
 # <a name="noncreatable-attribute"></a>noncreatable 屬性
 
@@ -100,6 +100,6 @@ coclass MyCoClass
 [使用 MIDL 產生類型程式庫](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

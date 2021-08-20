@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2157134d97332fc9c76267f5e0db49d2c40e96a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f61de7dd44d19cb57390adf7829766fc4bffcff82bf1019b3dae1e2979ae37ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046016"
 ---
 # <a name="id3dx11effectpassgetdomainshaderdesc-method"></a>ID3DX11EffectPass：： GetDomainShaderDesc 方法
 
