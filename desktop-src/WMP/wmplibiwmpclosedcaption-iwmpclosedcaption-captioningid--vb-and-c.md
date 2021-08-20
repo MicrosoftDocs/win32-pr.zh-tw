@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 343234fce2b93ac02255731a38025f6d7b9fac6f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 45f6d4c10beb3f0fd94da0365d67b6c5ab480d36d5a3786021f538e9dcf4e90c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116054"
 ---
 # <a name="iwmpclosedcaptioncaptioningid-property"></a>IWMPClosedCaption：： captioningId 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 26990b06-196a-4fb1-92d8-c5fa096d2b09
 title: 接收和傳送伺服器上的資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31ab20f074db750bef6459c6b9fcb5fd5636a522
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f943fe9f1c4045c087b31861bc6db5f1eb394ad800ee0133e0ec8fb668fcbe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857848"
 ---
 # <a name="receiving-and-sending-data-on-the-server"></a>接收和傳送伺服器上的資料
 

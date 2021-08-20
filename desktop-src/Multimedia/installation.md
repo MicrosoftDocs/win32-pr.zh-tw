@@ -12,12 +12,12 @@ keywords:
 - 安裝驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29f82a23a781e62553d6488331b2c832104fd770
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: a01ef47952f3d5a62c0dce246bf24689d37f11326f0f3ec251f7afc19c822fa9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140676"
 ---
 # <a name="installation-windows-multimedia"></a>安裝 (Windows 多媒體) 
 

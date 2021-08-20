@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf7150ca31caaf68fa51ae42fded223d24a8e59f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0db279f746640d09fac8b3852773afc27330fc9ca48d59a1470de7d42709e60f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864098"
 ---
 # <a name="cdromcollectioncount"></a>CdromCollection 計數
 
@@ -44,7 +44,7 @@ DVD-ROM 磁片磁碟機的計算方式與 CD 光碟機完全一樣。 不過，W
 
 ## <a name="examples"></a>範例
 
-下列 JScript 範例會使用 *CdromCollection*。顯示使用者電腦上可用的 CD 和 DVD 光碟機數目的 **計數** 。 使用 ID = "Player" 建立 player 物件。
+下列 JScript 範例會使用 *CdromCollection*。顯示使用者電腦上可用的 CD 和 DVD 光碟機數目的 **計數**。 使用 ID = "Player" 建立 player 物件。
 
 
 ```JScript

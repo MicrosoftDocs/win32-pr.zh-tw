@@ -14,12 +14,12 @@ keywords:
 - MM_WIM_OPEN 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70bb1cfe1ed0f7ba6052fc1eb6af8fca8355d87d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c709df27be25a8a3f4c5a9be6528e28b4e8bab9251b04b6c397a7ef3fc8efd9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135650"
 ---
 # <a name="using-window-messages-to-manage-waveform-audio-recording"></a>使用視窗訊息來管理 Waveform-Audio 記錄
 
@@ -35,7 +35,7 @@ ms.locfileid: "104463004"
 
 
 
- 
+ 
 
 [**MM \_ WIM \_ 資料**](mm-wim-data.md)的 *lParam* 參數會指定識別緩衝區之 [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr)結構的指標。 此緩衝區可能不會完全以波形-音訊資料填滿;記錄可能會在緩衝區填滿之前停止。 您可以使用 **WAVEHDR** 結構的 **dwBytesRecorded** 成員，判斷存在於緩衝區中的有效資料量。
 
@@ -50,6 +50,6 @@ ms.locfileid: "104463004"
 [錄製波形音訊](recording-waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

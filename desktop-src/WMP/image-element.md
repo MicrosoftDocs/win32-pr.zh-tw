@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c10b62365453f395c1aaf373e355c21260900f8d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9815844833c8068fb89589368f29b15787ad8fb18a21c9f9c6867d202e3095a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862638"
 ---
 # <a name="image-element-wmp-sdk"></a> (WMP SDK) 的 Image 元素
 
@@ -59,9 +59,9 @@ Windows Media Player 在 [服務] 功能表上顯示之影像的 URL。 此映�
 <span id="ServiceLargeURL__optional_"></span><span id="servicelargeurl__optional_"></span><span id="SERVICELARGEURL__OPTIONAL_"></span>**ServiceLargeURL** (選用) 
 </dt> <dd>
 
-針對類型1線上商店，這是 Windows Media Player 在 [ **線上商店** ] 索引標籤中顯示之影像的 URL。針對 Windows Media Player 11，此映射的寬度必須為45圖元，且高度為13圖元。 針對 Windows Media Player 12，此映射的寬度必須為45圖元，高達30圖元。 若要支援 Windows Media Player 的11和12版，您必須提供兩個不同的 ServiceInfo.xml 檔，其中每個檔都指向適當大小的 ServiceLargeURL 影像。
+針對類型1線上商店，這是 Windows Media Player 在 [**線上商店**] 索引標籤中顯示之影像的 URL。針對 Windows Media Player 11，此映射的寬度必須為45圖元，且高度為13圖元。 針對 Windows Media Player 12，此映射的寬度必須為45圖元，高達30圖元。 若要支援 Windows Media Player 的11和12版，您必須提供兩個不同的 ServiceInfo.xml 檔，其中每個檔都指向適當大小的 ServiceLargeURL 影像。
 
-針對第2類型的線上商店，這是 Windows Media Player 顯示在 [ **線上商店** ] 索引標籤旁邊或 [工作窗格] 按鈕旁邊之影像的 URL。 此映射必須是 30 x 30 圖元。
+針對第2類型的線上商店，這是 Windows Media Player 顯示在 [**線上商店**] 索引標籤旁邊或 [工作窗格] 按鈕旁邊之影像的 URL。 此映射必須是 30 x 30 圖元。
 
 </dd> <dt>
 

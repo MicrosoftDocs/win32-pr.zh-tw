@@ -4,18 +4,18 @@ ms.assetid: 985aebfe-7496-4d88-9e9c-c766969949b8
 title: System. DescriptionID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a81ae71080aa4458e1f60b36cffd2ccebd5f05cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba135aa3f59215d002fa081e289d09e9ad5e67b4e62173cdc8c717d551042dcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055104"
 ---
 # <a name="systemdescriptionid"></a>System. DescriptionID
 
 [**SHDESCRIPTIONID**](/windows/win32/api/shlobj_core/ns-shlobj_core-shdescriptionid)結構的內容，以位元組緩衝區表示。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

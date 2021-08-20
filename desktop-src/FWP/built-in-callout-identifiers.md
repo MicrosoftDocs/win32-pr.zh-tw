@@ -1,6 +1,6 @@
 ---
 title: '內建的標注識別碼 (Fwpmu .h) '
-description: 內建于 Windows 篩選平台 (WFP) 的注標函式識別碼會以 GUID 表示。 這些識別碼的定義如下。
+description: 內建于 Windows 篩選平台 (WFP) 的注標函式識別碼，分別以 GUID 表示。 這些識別碼的定義如下。
 ms.assetid: b283cb2e-7f82-4d44-982a-38499504e3bc
 topic_type:
 - apiref
@@ -33,16 +33,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c21d0428953d8b3e27590b186d931a7d902db377
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7d430f44e6e72f575d5e2ff0fd30681c04e81892f0438f0508be994d53c1643e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151424"
 ---
 # <a name="built-in-callout-identifiers"></a>內建的標注識別碼
 
-內建于 Windows 篩選平台 (WFP) 的注標函式識別碼會以 GUID 表示。 這些識別碼的定義如下。
+內建于 Windows 篩選平台 (WFP) 的注標函式識別碼，分別以 GUID 表示。 這些識別碼的定義如下。
 
 注標識別碼結尾的 V4 和 V6 尾碼會指出標注是針對 IPv4 網路堆疊或 IPv6 網路堆疊。
 
@@ -242,7 +242,7 @@ ms.locfileid: "103935046"
 向 Teredo 服務發出通知，表示應用程式需要 Teredo 位址。
 
 > [!Note]  
-> 若為 Windows 7 和更新版本，請使用 **FWPM \_ 標注 \_ EDGE \_ 遍歷 \_ ALE \_ 接聽 \_ V6**。
+> 針對 Windows 7 和更新版本，請使用 **FWPM \_ 標注 \_ EDGE \_ 遍歷 \_ ALE \_ 接聽 \_ V6**。
 
  
 
@@ -257,7 +257,7 @@ ms.locfileid: "103935046"
 向 Teredo 服務發出通知，表示應用程式需要 Teredo 位址。
 
 > [!Note]  
-> 若為 Windows 7 和更新版本，請使用 **FWPM \_ 標注 \_ EDGE \_ 遍歷 \_ ALE \_ 資源 \_ 指派 \_ V6**。
+> 針對 Windows 7 和更新版本，請使用 **FWPM \_ 標注 \_ EDGE \_ 遍歷 \_ ALE \_ 資源 \_ 指派 \_ V6**。
 
  
 
@@ -320,8 +320,8 @@ ms.locfileid: "103935046"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Fwpmu。h</dt> </dl> |
 
 

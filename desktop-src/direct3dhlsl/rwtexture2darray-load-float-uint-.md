@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 969aa0a4efa62f7072c759a1f2188e4d210d8649
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: e68659bc8d8cbca9880774de7fc4f3463742ee4cfa6d76aac432fad8e348b680
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671998"
 ---
 # <a name="rwtexture2darrayloadintuint-function"></a>RWTexture2DArray：： Load (int，uint) 函數
 
@@ -70,7 +70,7 @@ ms.locfileid: "104974193"
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

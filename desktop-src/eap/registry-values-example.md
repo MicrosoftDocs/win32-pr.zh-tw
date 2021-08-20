@@ -4,12 +4,12 @@ description: 下列範例顯示某些驗證通訊協定登錄值的可能資料�
 ms.assetid: 07772af0-db56-4cc6-ad72-cf79d3813883
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bcbc3d4ca10a3e9298177a5eea240d0d34ade04
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: b8a8bc87ef728d2524f9e7f21ad6ff69f1dd58ccee8d4836d8a2ceef4c676e00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104022886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087009"
 ---
 # <a name="registry-values-example"></a>登錄值範例
 
@@ -17,21 +17,21 @@ ms.locfileid: "104022886"
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Rasman
-               PPP
-                  EAP
-                     40
-                        Path
-                        FriendlyName
-                        ConfigUIPath
-                        IdentityPath
-                        InteractiveUIPath
-                        RequireConfigUI
-                        ConfigCLSID
-                        StandaloneSupported
+   System
+      CurrentControlSet
+         Services
+            Rasman
+               PPP
+                  EAP
+                     40
+                        Path
+                        FriendlyName
+                        ConfigUIPath
+                        IdentityPath
+                        InteractiveUIPath
+                        RequireConfigUI
+                        ConfigCLSID
+                        StandaloneSupported
 ```
 
 
@@ -49,11 +49,11 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

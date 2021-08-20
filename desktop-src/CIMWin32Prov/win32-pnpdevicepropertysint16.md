@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cdaa510dfa8bccdc87f68083a6c64a3c3e0675f0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c16368afabb8e74911ddb73d1651beadf7a6d1d367353b2bbc15a5e42acc193e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118008844"
 ---
 # <a name="win32_pnpdevicepropertysint16-class"></a>Win32 \_ PnPDevicePropertySint16 類別
 
@@ -115,7 +115,7 @@ class Win32_PnPDevicePropertySint16 : Win32_PnPDeviceProperty
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **Uint32**
@@ -504,7 +504,7 @@ class Win32_PnPDevicePropertySint16 : Win32_PnPDeviceProperty
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                          |
 | 命名空間<br/>                | 根 \\ CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Cimwin32 mof</dt> </dl> |

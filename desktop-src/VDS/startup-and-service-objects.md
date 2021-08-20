@@ -4,16 +4,16 @@ ms.assetid: ae4d18f2-4d50-480c-bc7a-4eec0334707d
 title: Startup 和 Service 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92beb0a4f825f767299a7ced74d43ef2487fa252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d60a87c7e52a263d03e80f44911f72db5f49259baf33a7b2f90680f30bb3b2fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125928"
 ---
 # <a name="startup-and-service-objects"></a>Startup 和 Service 物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 VDS 會提供物件來執行與服務相關的活動。 本主題說明每個物件。
 
@@ -69,7 +69,7 @@ VDS 通知結構會將物件 Guid 傳遞給已向 VDS 註冊的所有應用程�
 
  
 
-**\* Windows server 2003：** 在 Windows server 2003 R2 之前，不支援這些介面。
+**\* Windows server 2003：** Windows Server 2003 R2 之前，不支援這些介面。
 
 ## <a name="initiator-adapter-object"></a>啟動器介面卡物件
 
@@ -87,7 +87,7 @@ VDS 通知結構會將物件 Guid 傳遞給已向 VDS 註冊的所有應用程�
 
  
 
-**\* Windows server 2003：** 在 Windows server 2003 R2 之前，不支援此介面。
+**\* Windows server 2003：** Windows Server 2003 R2 之前，不支援此介面。
 
 ## <a name="initiator-portal-object"></a>啟動器入口網站物件
 
@@ -105,7 +105,7 @@ VDS 通知結構會將物件 Guid 傳遞給已向 VDS 註冊的所有應用程�
 
  
 
-**\* Windows server 2003：** 在 Windows server 2003 R2 之前，不支援此介面。
+**\* Windows server 2003：** Windows Server 2003 R2 之前，不支援此介面。
 
 ## <a name="hba-port-object"></a>HBA 埠物件
 
@@ -125,7 +125,7 @@ HBA 埠物件會建立光纖通道的主機匯流排介面卡 (HBA) 埠的模型
 
  
 
-**\* Windows server 2003：** 在 Windows server 2003 R2 之前，不支援此介面。
+**\* Windows server 2003：** Windows Server 2003 R2 之前，不支援此介面。
 
 ## <a name="related-topics"></a>相關主題
 

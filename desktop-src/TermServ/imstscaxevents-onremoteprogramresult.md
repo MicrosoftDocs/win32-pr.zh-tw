@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 880e4fb3f6453114415f5bcc07a0afb9c176a1bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 807fbd49cc6222925f34a7e7c007fef54cbc9a3db2566f024ebc0188e9c95113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129660"
 ---
 # <a name="imstscaxeventsonremoteprogramresult-method"></a>IMsTscAxEvents：： OnRemoteProgramResult 方法
 

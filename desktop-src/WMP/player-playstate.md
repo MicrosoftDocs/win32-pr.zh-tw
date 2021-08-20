@@ -1,6 +1,6 @@
 ---
 title: PlayState
-description: PlayState 屬性會抓取值，指出 Windows Media Player 作業的狀態。
+description: playState 屬性會抓取值，指出 Windows Media Player 作業的狀態。
 ms.assetid: 8ed1ee1f-8731-402a-aff5-5ae513a35eea
 keywords:
 - PlayState Windows Media Player
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c442b1be9e1ea15b8a54c2dafc264edf8aeb479
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0241f8ab538e985a64835065e1eb6bca0a831164cd66fbb7d9166724a72680e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118835117"
 ---
 # <a name="playerplaystate"></a>PlayState
 
-**PlayState** 屬性會抓取值，指出 Windows Media Player 作業的狀態。
+**playState** 屬性會抓取值，指出 Windows Media Player 作業的狀態。
 
 ## <a name="syntax"></a>Syntax
 
@@ -60,7 +60,7 @@ Windows Media Player 狀態不保證會以任何特定順序發生。 此外，�
 
 ## <a name="examples"></a>範例
 
-下列 JScript 程式碼顯示 *播放機* 的使用。**playState** 屬性。 HTML 文字元素（名稱為 "myText"）會顯示目前的狀態。 使用 ID = "Player" 建立 **player** 物件。
+下列 JScript 程式碼示範 *播放* 程式的使用。**playState** 屬性。 HTML 文字元素（名稱為 "myText"）會顯示目前的狀態。 使用 ID = "Player" 建立 **player** 物件。
 
 
 ```JScript

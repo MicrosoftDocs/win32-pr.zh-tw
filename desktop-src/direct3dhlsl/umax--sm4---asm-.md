@@ -4,12 +4,12 @@ description: 元件的不帶正負號的整數最大值。
 ms.assetid: 86BCF7A7-99CA-481B-82B4-E0BA30963344
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ceb1fda620facce31132f56ed888d18022ca27ec
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ac89ee5d9966e27b463b595c6d7ba105e22be6499fa69265989c39c2add50bd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119484518"
 ---
 # <a name="umax-sm4---asm"></a>umax (sm4-asm) 
 
@@ -61,9 +61,9 @@ ms.locfileid: "104373790"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

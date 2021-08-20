@@ -9,12 +9,12 @@ keywords:
 - MPC 層級1，音訊需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96a10ad4e31c9d7d3b2e2f5fdc0e3e5399f5ad48
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 407b8c5a31b9f745e6443f9ae3bb062201f0a17198020e7d89b8c02825819625
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139906"
 ---
 # <a name="level-1-audio-requirements"></a>層級1音訊需求
 
@@ -24,9 +24,9 @@ ms.locfileid: "104183335"
 -   8位的類比轉數位轉換器 (ADC) 能夠透過外部來源（例如麥克風）以 11.025 kHz 的取樣速率錄製波形音訊檔案
 -   具有四或九個 multivoice、multitimbral 容量和兩個同時 percussive 附注的內部合成器功能
 
- 
+ 
 
- 
+ 
 
 
 

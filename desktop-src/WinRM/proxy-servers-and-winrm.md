@@ -1,20 +1,20 @@
 ---
 title: Proxy 伺服器和 WinRM
-description: Windows 遠端管理 (WinRM) 會使用 HTTP 和 HTTPS 在用戶端與伺服器電腦之間傳送訊息。 一般而言，WinRM 用戶端會將訊息直接傳送至 WinRM 伺服器。 WinRM 用戶端也可以設定為使用 proxy 伺服器。
+description: Windows遠端系統管理 (WinRM) 會使用 HTTP 和 HTTPS 在用戶端與伺服器電腦之間傳送訊息。 一般而言，WinRM 用戶端會將訊息直接傳送至 WinRM 伺服器。 WinRM 用戶端也可以設定為使用 proxy 伺服器。
 ms.assetid: f8137b3a-7704-4b21-a923-6e2692e18d90
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e07bbfebb4c8f0eb9e77a8942d54677b55c60006
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 663493f9c3e71e44be000f436ad4573f911652a8e142b77ffab41acbff250b60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112936"
 ---
 # <a name="proxy-servers-and-winrm"></a>Proxy 伺服器和 WinRM
 
-Windows 遠端管理 (WinRM) 會使用 HTTP 和 HTTPS 在用戶端與伺服器電腦之間傳送訊息。 一般而言，WinRM 用戶端會將訊息直接傳送至 WinRM 伺服器。 WinRM 用戶端也可以設定為使用 proxy 伺服器。
+Windows遠端系統管理 (WinRM) 會使用 HTTP 和 HTTPS 在用戶端與伺服器電腦之間傳送訊息。 一般而言，WinRM 用戶端會將訊息直接傳送至 WinRM 伺服器。 WinRM 用戶端也可以設定為使用 proxy 伺服器。
 
 如需詳細資訊，請參閱下列各節：
 
@@ -36,7 +36,7 @@ WinRM 2.0 支援廣泛的 proxy 設定。 例如，WinRM 支援 HTTP 和 HTTPS �
 > [!Note]  
 > Proxy 伺服器的驗證與目的地伺服器的驗證無關。
 
- 
+ 
 
 ### <a name="http-based-proxy-connections"></a>HTTP-Based Proxy 連接
 
@@ -74,10 +74,10 @@ WinRM 2.0 支援使用 Negotiate、Kerberos 和 CredSSP 驗證配置透過 HTTP 
 
 ## <a name="configuring-a-proxy-server-for-winrm-11-and-earlier"></a>設定 WinRM 1.1 及更早版本的 Proxy 伺服器
 
-如果需要 proxy 才能連線到 WinRM 伺服器，WinRM 用戶端會依賴 Windows HTTP 服務 (WinHTTP) proxy 設定。 根據預設，WinHTTP 未設定為使用 proxy 伺服器。 您可以使用 [ProxyCfg.exe](/previous-versions/windows/desktop/ms761351(v=vs.85)) 或 [netsh](/previous-versions/windows/it-pro/windows-server-2003/cc785383(v=ws.10)) 命令列公用程式來變更 WinHTTP proxy 設定。
+如果需要 proxy 才能連線到 winrm 伺服器，winrm 用戶端會依賴 Windows 的 HTTP 服務 (WinHTTP) proxy 設定。 根據預設，WinHTTP 未設定為使用 proxy 伺服器。 您可以使用 [ProxyCfg.exe](/previous-versions/windows/desktop/ms761351(v=vs.85)) 或 [netsh](/previous-versions/windows/it-pro/windows-server-2003/cc785383(v=ws.10)) 命令列公用程式來變更 WinHTTP proxy 設定。
 
 **WinRM 1.1 及更早版本：** WinRM 不會使用 Internet Explorer proxy 設定。
 
- 
+ 
 
- 
+ 

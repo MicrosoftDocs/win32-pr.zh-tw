@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 33ba72935b2c3f9f9cf537469e043160f9ce2d7f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d91c5ad5d2650edb52627e41168cc0fe9b1e90824d8cc1f7d333edcf7e09919
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978059"
 ---
 # <a name="privatekeyisprotected-method"></a>PrivateKey. IsProtected 方法
 

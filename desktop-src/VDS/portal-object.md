@@ -4,16 +4,16 @@ ms.assetid: 6655bbae-07d3-416b-9e45-ddcbe3433f40
 title: 入口網站物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01328d8dccfe7a29c0686cde9b531df63d56e63e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b7004f648b11b16c8c6279a0a74bae775fa539d8f0a93fc83d7effccea68915
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864518"
 ---
 # <a name="portal-object"></a>入口網站物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 入口網站物件會建立包含在 iSCSI 子系統內的 iSCSI 入口網站模型。
 

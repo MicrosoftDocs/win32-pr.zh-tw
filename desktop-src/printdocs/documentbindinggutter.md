@@ -4,12 +4,12 @@ ms.assetid: 903ad358-a060-4c8f-b72e-5ec2eb898248
 title: DocumentBindingGutter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45839aa07d740d8498e477809b45aa823460b23f
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 202c961f0d21f0a40d45fc03a8c7c3f088f803fbecc4701a24554f9dff1ae038
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056606"
 ---
 # <a name="documentbindinggutter"></a>DocumentBindingGutter
 
@@ -24,7 +24,7 @@ ms.locfileid: "113118463"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|----------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                      |
 | 範圍前置詞 <br/> | 文件<br/>                          |
@@ -79,7 +79,7 @@ ms.locfileid: "113118463"
 | MinValue<br/>     | 整數<br/> | 未定義<br/>       |
 | 強制性<br/>    | String<br/>  | psk：條件式<br/> |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| Unittype.pixel 表示<br/>     | string<br/>  | 微米<br/>         |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 微米<br/>         |
 
 
 

@@ -3,19 +3,19 @@ title: 寫入器推送接收物件
 description: 寫入器推送接收物件
 ms.assetid: 34e48f35-13d7-4649-a8b2-ed6510b16f88
 keywords:
-- Windows Media Format SDK，寫入器推播接收物件
+- Windows媒體格式 SDK，寫入器推送接收物件
 - Advanced Systems Format (ASF) 、writer push sink 物件
 - ASF (Advanced 系統格式) 、寫入器推送接收物件
 - 物件、寫入器推送接收物件
 - 寫入器推送接收物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a19ea9855219dcb4572ef187ad93e03696b88492
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 859e4d2d5cf2530e655b74705b1d6f9ef93960d28f523c00e0da7a7336ab258d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006328"
 ---
 # <a name="writer-push-sink-object"></a>寫入器推送接收物件
 
@@ -33,7 +33,7 @@ ms.locfileid: "103932923"
 
 
 
- 
+ 
 
 下列回呼介面可以由應用程式執行，以追蹤寫入器推送接收物件的進度。
 
@@ -45,7 +45,7 @@ ms.locfileid: "103932923"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -60,9 +60,9 @@ ms.locfileid: "103932923"
 [**使用寫入器接收器**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

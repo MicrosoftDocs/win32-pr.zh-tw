@@ -20,7 +20,7 @@ ms.locfileid: "119028856"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Windows 8 中的檔案類型和 URI 關聯模型已變更。 應用程式無法再以程式設計的方式將自己設定為檔案類型或 URI 的預設處理常式。 相反地，使用者現在一律會控制檔案類型或 URI 配置的預設處理常式。
 

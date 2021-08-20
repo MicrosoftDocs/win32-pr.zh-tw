@@ -8,12 +8,12 @@ keywords:
 - 中繼資料，屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a1c2e9782b52adc274a5b3dbaf16c48ed1a892e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2dcccda2af46e60e4bb0733d17e35e1a50d1fe923e9775fa6b10d2c06e3a972a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865358"
 ---
 # <a name="about-the-metadata"></a>關於中繼資料
 
@@ -21,7 +21,7 @@ Windows Media Player 10 或更新版本會嘗試同步處理下列中繼資料�
 
 
 
-| Player 屬性 | WMDM 全域常數  | Description                                                                                                 | 所需的版本                  |
+| Player 屬性 | WMDM 全域常數  | 描述                                                                                                 | 所需的版本                  |
 |------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | AlbumArtist      | g \_ wszWMDMAlbumArtist | 以 Null 終止的 **字串** ，其中包含專輯之主要演出者的名稱。                         | Windows Media Player 11 或更新版本。 |
 | 專輯            | g \_ wszWMDMAlbumTitle  | 以 Null 終止的 **字串** ，其中包含最初發行內容的專輯標題。  | Windows Media Player 11 或更新版本。 |
@@ -36,7 +36,7 @@ Windows Media Player 10 或更新版本會嘗試同步處理下列中繼資料�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,9 +45,9 @@ Windows Media Player 10 或更新版本會嘗試同步處理下列中繼資料�
 [**加速中繼資料傳輸的裝置擴充功能**](device-extensions-for-accelerated-metadata-transfer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

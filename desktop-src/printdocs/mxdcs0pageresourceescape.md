@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: ed1d78aad1ede2a318dcde2d3a2d39fd8e666ddc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b7e937c28d3eb685770b2eac834c16dd629406a3c12850bc4414722f7796ba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056332"
 ---
 # <a name="mxdc_s0page_resource_escape_t-structure"></a>MXDC \_ S0PAGE \_ 資源 \_ ESCAPE \_ T 結構
 
@@ -88,8 +88,8 @@ P_MXDC_S0PAGE_RESOURCE_ESCAPE_T pS0PageResourceEscapeData =
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mxdc。h</dt> </dl> |
 
 

@@ -11,12 +11,12 @@ keywords:
 - 元素，BUTTONGROUP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90659a2e867a65d2751532701b71810a532c8ce6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6719bb3974b254f8d9446d45fd6d34385dbfcada4084c7bdd5c3a4e03bb06dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865187"
 ---
 # <a name="adding-buttongroup"></a>新增 BUTTONGROUP
 
@@ -56,9 +56,9 @@ ms.locfileid: "104300419"
 [**建立外觀定義檔**](creating-the-skin-definition-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

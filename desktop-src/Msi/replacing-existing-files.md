@@ -4,12 +4,12 @@ ms.assetid: 8be734c7-4f16-4f54-93db-bb8efb1ea6da
 title: 取代現有的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0b3908749e5496e4be9bf0ff68c7038a9ea6573
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1fb8075aae2c7e217235eb8c84607106efe839bcbfd12ed4b658f4ed5df6182
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990573"
 ---
 # <a name="replacing-existing-files"></a>取代現有的檔案
 

@@ -3,18 +3,18 @@ title: G
 description: G
 ms.assetid: 17900c00-ade1-4dae-8012-bcf3c5cfe846
 keywords:
-- Windows Color System (WCS) ，詞彙
+- WindowsColor System (WCS) ，詞彙
 - WCS (Windows 色彩系統) ，詞彙
 - 影像色彩管理，詞彙
 - 色彩管理，詞彙
 - 色彩，詞彙
-- Windows Color System (WCS) ，定義
-- WCS (Windows 色彩系統) ，定義
+- Windows色彩系統 (WCS) 、定義
+- WCS (Windows 色彩系統) 、定義
 - 影像色彩管理、定義
 - 色彩管理，定義
 - 色彩、定義
-- Windows Color System (WCS) ，詞彙
-- WCS (Windows 色彩系統) ，詞彙
+- Windows色彩系統 (WCS) ，詞彙
+- WCS (Windows 色彩系統) 、詞彙
 - 影像色彩管理，詞彙
 - 色彩管理，詞彙
 - 色彩、詞彙
@@ -27,12 +27,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89e251b97df23a60415235b003f29ad199aa3860
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 8f4f4d6e7cac8a0832e430acbbf55ff14d3991d5146b13fc952457ba7892e7b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106982780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007698"
 ---
 # <a name="g"></a>G
 

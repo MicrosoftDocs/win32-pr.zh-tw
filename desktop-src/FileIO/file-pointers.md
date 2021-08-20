@@ -4,12 +4,12 @@ ms.assetid: 1e8bc657-affa-4a17-8435-c93de5075a1d
 title: 檔案指標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f4fc804711665c045361d40c69fb71a4959b4c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bdfe744f341e111e7956bda85401c5b87e063718309f675c33ff551918756239
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117997029"
 ---
 # <a name="file-pointers"></a>檔案指標
 

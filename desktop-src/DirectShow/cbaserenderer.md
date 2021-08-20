@@ -50,7 +50,7 @@ ms.locfileid: "118954800"
 
 
 
-| 受保護的成員變數                                                   | Description                                                                                                                             |
+| 受保護的成員變數                                                   | 描述                                                                                                                             |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | [**m \_ bAbort**](cbaserenderer-m-babort.md)                                  | 旗標，指出是否要停止轉譯和拒絕進一步的範例。                                                               |
 | [**m \_ bEOS**](cbaserenderer-m-beos.md)                                      | 指出是否已到達資料流程結尾的旗標。                                                                                  |
@@ -71,7 +71,7 @@ ms.locfileid: "118954800"
 | [**m \_ RenderEvent**](cbaserenderer-m-renderevent.md)                        | 用來排程轉譯的事件。                                                                                                       |
 | [**m \_ SignalTime**](cbaserenderer-m-signaltime.md)                          | 目前範例的停止時間。                                                                                                        |
 | [**m \_ ThreadSignal**](cbaserenderer-m-threadsignal.md)                      | 用來釋放串流執行緒的事件。                                                                                             |
-| 公用方法                                                               | Description                                                                                                                             |
+| 公用方法                                                               | 描述                                                                                                                             |
 | [**CancelNotification**](cbaserenderer-cancelnotification.md)               | 取消排程轉譯的計時器事件。 虛擬。                                                                              |
 | [**CBaseRenderer**](cbaserenderer-cbaserenderer.md)                         | 函式方法。                                                                                                                     |
 | [**~ CBaseRenderer**](cbaserenderer--cbaserenderer.md)                       | 函式方法。                                                                                                                      |
@@ -91,7 +91,7 @@ ms.locfileid: "118954800"
 | [**SourceThreadCanWait**](cbaserenderer-sourcethreadcanwait.md)             | 保存或釋放串流執行緒。 虛擬。                                                                                        |
 | [**WaitForReceiveToComplete**](cbaserenderer-waitforreceivetocomplete.md)   | 等候 [**CBaseRenderer：： Receive**](cbaserenderer-receive.md) 方法完成。                                               |
 | [**WaitForRenderTime**](cbaserenderer-waitforrendertime.md)                 | 等候目前樣本的呈現時間。 虛擬。                                                                              |
-| 公用方法：存取子方法                                             | Description                                                                                                                             |
+| 公用方法：存取子方法                                             | 描述                                                                                                                             |
 | [**ClearPendingSample**](cbaserenderer-clearpendingsample.md)               | 釋放目前的範例。 虛擬。                                                                                                   |
 | [**GetCurrentSample**](cbaserenderer-getcurrentsample.md)                   | 抓取目前的範例。 虛擬。                                                                                                  |
 | [**GetRealState**](cbaserenderer-getrealstate.md)                           | 捕獲篩選狀態。                                                                                                             |
@@ -102,7 +102,7 @@ ms.locfileid: "118954800"
 | [**IsStreaming**](cbaserenderer-isstreaming.md)                             | 查詢篩選是否為數據流處理資料。                                                                                           |
 | [**SetAbortSignal**](cbaserenderer-setabortsignal.md)                       | 設定旗標，指出是否要停止轉譯和拒絕進一步的範例。                                                       |
 | [**SetRepaintStatus**](cbaserenderer-setrepaintstatus.md)                   | 啟用或停用重新繪製事件。                                                                                                     |
-| 公用方法： State-Change 方法                                         | Description                                                                                                                             |
+| 公用方法： State-Change 方法                                         | 描述                                                                                                                             |
 | [**使用中**](cbaserenderer-active.md)                                       | 當狀態切換為已暫停或正在執行時呼叫。 虛擬。                                                                        |
 | [**BeginFlush**](cbaserenderer-beginflush.md)                               | 開始清除作業。 虛擬。                                                                                                      |
 | [**BreakConnect**](cbaserenderer-breakconnect.md)                           | 從連接釋放輸入的 pin。 虛擬。                                                                                      |
@@ -115,14 +115,14 @@ ms.locfileid: "118954800"
 | [**就緒**](cbaserenderer-ready.md)                                         | 指示狀態轉換已完成。                                                                                            |
 | [**StartStreaming**](cbaserenderer-startstreaming.md)                       | 當篩選參數切換到執行中狀態時，起始串流處理。 虛擬。                                                               |
 | [**StopStreaming**](cbaserenderer-stopstreaming.md)                         | 當篩選參數切換到執行中狀態時，就會停止串流。 虛擬。                                                             |
-| 公用方法：資料流程結束方法                                        | Description                                                                                                                             |
+| 公用方法：資料流程結束方法                                        | 描述                                                                                                                             |
 | [**EndOfStream**](cbaserenderer-endofstream.md)                             | 通知篩選輸入 pin 收到資料流程結束通知。 虛擬。                                                 |
 | [**NotifyEndOfStream**](cbaserenderer-notifyendofstream.md)                 | 將 [**EC \_ 完成**](ec-complete.md) 事件張貼至篩選圖形管理員。                                                         |
 | [**ResetEndOfStream**](cbaserenderer-resetendofstream.md)                   | 重設資料流程結尾旗標。                                                                                                         |
 | [**ResetEndOfStreamTimer**](cbaserenderer-resetendofstreamtimer.md)         | 取消排定 EC \_ 完成通知的計時器。 虛擬。                                                                   |
 | [**SendEndOfStream**](cbaserenderer-sendendofstream.md)                     | 如果已到達資料流程結尾， \_ 則會為篩選圖形管理員排定 EC 完成事件。 虛擬。                                    |
 | [**TimerCallback**](cbaserenderer-timercallback.md)                         | 結束資料流程計時器事件的回呼方法。                                                                                      |
-| 公用方法：處理常式                                                     | Description                                                                                                                             |
+| 公用方法：處理常式                                                     | 描述                                                                                                                             |
 | [**OnReceiveFirstSample**](cbaserenderer-onreceivefirstsample.md)           | 當篩選準則在暫停時收到範例時呼叫。 虛擬。                                                                         |
 | [**OnRenderEnd**](cbaserenderer-onrenderend.md)                             | 在呈現樣本之後呼叫。 虛擬。                                                                                             |
 | [**OnRenderStart**](cbaserenderer-onrenderstart.md)                         | 當轉譯即將開始時呼叫。 虛擬。                                                                                       |
@@ -132,15 +132,15 @@ ms.locfileid: "118954800"
 | [**OnWaitStart**](cbaserenderer-onwaitstart.md)                             | 當篩選開始等候樣本的呈現時間時呼叫。 虛擬。                                                        |
 | [**PrepareRender**](cbaserenderer-preparerender.md)                         | 在篩選器呈現範例之前呼叫。 虛擬。                                                                                     |
 | [**ShouldDrawSampleNow**](cbaserenderer-shoulddrawsamplenow.md)             | 決定如何排程範例以呈現。 虛擬。                                                                            |
-| 純虛擬方法                                                         | Description                                                                                                                             |
+| 純虛擬方法                                                         | 描述                                                                                                                             |
 | [**CheckMediaType**](cbaserenderer-checkmediatype.md)                       | 判斷篩選是否接受特定的媒體類型。                                                                                 |
 | [**DoRenderSample**](cbaserenderer-dorendersample.md)                       | 呈現範例。                                                                                                                       |
-| IMediaFilter 方法                                                         | Description                                                                                                                             |
+| IMediaFilter 方法                                                         | 描述                                                                                                                             |
 | [**GetState**](cbaserenderer-getstate.md)                                   | 抓取篩選器的狀態 (執行中、已停止或已暫停) 。                                                                             |
 | [**暫停**](cbaserenderer-pause.md)                                         | 暫停篩選。                                                                                                                      |
 | [**執行**](cbaserenderer-run.md)                                             | 執行篩選。                                                                                                                        |
 | [**停止**](cbaserenderer-stop.md)                                           | 停止篩選。                                                                                                                       |
-| IBaseFilter 方法                                                          | Description                                                                                                                             |
+| IBaseFilter 方法                                                          | 描述                                                                                                                             |
 | [**FindPin**](cbaserenderer-findpin.md)                                     | 使用指定的識別碼抓取 pin。                                                                                        |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 096683a4-2d8f-49d3-b1a0-832150907f11
 title: " (Direct3D 9) 的基本剪切狀態"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e5a305118d8db5c71e0e3cfa97132052777be68
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 864d1083d7a94283ccf097de21dfbd8c7d1320d9876ceb3d7c33b6714bd169d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092773"
 ---
 # <a name="primitive-clipping-state-direct3d-9"></a> (Direct3D 9) 的基本剪切狀態
 

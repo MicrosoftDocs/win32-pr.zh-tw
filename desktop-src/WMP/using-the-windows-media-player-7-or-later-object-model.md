@@ -6,20 +6,20 @@ keywords:
 - Windows Media Player，物件模型
 - Windows Media Player 物件模型7版或更新版本
 - 物件模型7版或更新版本
-- Windows Media Player ActiveX 控制項7版或更新版本
+- Windows Media Player ActiveX 控制項（7版或更新版本）
 - ActiveX 控制項，7版或更新版本
-- Windows Media Player 的行動 ActiveX 控制項7版或更新版本
-- Windows Media Player 行動裝置，物件模型
+- Windows Media PlayerMobile ActiveX control，7版或更新版本
+- Windows Media Player行動裝置，物件模型
 - 第7版或更新版本的遷移指南
 - Windows Media Player 的版本，物件模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eb4d3d09b38e381d0cddeb25ee7cb5d7de3cb2b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa40dea2718c602bfae305703913b418d0f8a48b90278683aba099dfe0d703bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117026"
 ---
 # <a name="using-the-windows-media-player-7-or-later-object-model"></a>使用 Windows Media Player 7 或更新版本的物件模型
 
@@ -33,7 +33,7 @@ WMP64.FileName = "https://www.microsoft.com/somefile.wmv";
 
 
 
-使用 Windows Media Player 7 或更新版本的物件模型時，您必須設定 **Media Player. URL** 屬性：
+使用 Windows Media Player 7 或更新版本的物件模型時，您必須設定 **media Player. URL** 屬性：
 
 
 ```C++
@@ -59,7 +59,7 @@ WMP9.currentMedia = MyMediaItem;
 
 Windows Media Player 7 或更新版本物件模型中的大部分功能都是透過物件階層進行存取。 如上一個範例所示，您可以使用 **mediaCollection** 物件的 **getAll** 方法來取得 **播放清單** 物件，該方法是透過根 **播放機** 物件來存取。 然後，您可以使用 **播放清單** 物件的 **item** 方法，從 **播放清單** 物件取得特定 **媒體** 物件。 有五個額外的方法可透過傳回 **播放清單** 物件的 **mediaCollection** 物件存取;每個方法都可讓您根據特定條件（例如內容類型或專輯）來取得物件。
 
-Windows Media Player 7 或更新版本的 ActiveX 控制項物件模型的階層式結構，可提供更多邏輯方法來組織可供您使用的屬性、方法和事件。 Player 控制項的所有功能都包含在 **controls** 物件中，而 player 網路連接的所有功能都包含在 **network** 物件中，依此類推。 例如，若要使用6.4 版物件模型開始播放內容，您可以使用 **Player6** 方法：
+Windows Media Player 7 或更新版本 ActiveX 控制項物件模型的階層式結構，可提供更多邏輯方法來組織可供您使用的屬性、方法和事件。 Player 控制項的所有功能都包含在 **controls** 物件中，而 player 網路連接的所有功能都包含在 **network** 物件中，依此類推。 例如，若要使用6.4 版物件模型開始播放內容，您可以使用 **Player6** 方法：
 
 
 ```C++
@@ -127,9 +127,9 @@ pl.appendItem(song);
 [**物件模型遷移指南**](object-model-migration-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b68cbfc75d0a71eacedb4bbd462fcd8a93d43690
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fc99b08363e8954c8fd33d5c2f34447799ecf23b69cc5a72f40556433313030
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118084245"
 ---
 # <a name="beginexternalbackupgrbit-enumeration"></a>BeginExternalBackupGrbit 列舉
 
@@ -77,7 +77,7 @@ public enum BeginExternalBackupGrbit
 </tr>
 <tr class="even">
 <td></td>
-<td>增量</td>
+<td>累加</td>
 <td>建立增量備份，而不是完整備份。 這表示只會備份自上次完整或增量備份之後的記錄檔。</td>
 </tr>
 </tbody>

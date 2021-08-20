@@ -35,7 +35,7 @@ ms.locfileid: "118347628"
 | number        | BSTR           |
 | r4            | FLOAT          |
 | r8            | double         |
-| string        | BSTR           |
+| 字串        | BSTR           |
 | time          | 日期           |
 | time.tz       | 日期           |
 | ui1           | unsigned char  |

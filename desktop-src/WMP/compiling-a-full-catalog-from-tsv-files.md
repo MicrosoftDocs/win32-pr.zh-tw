@@ -18,12 +18,12 @@ keywords:
 - TSV (定位字元分隔值) 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b68af019a5e2302f52f615d5a1dba2180e27cfe5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: f8c5bc0648c19c3c8a6f9ddb819d77e48235bcd684d4911bc8a324a109c49daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106968082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863798"
 ---
 # <a name="compiling-a-full-catalog-from-tsv-files"></a>從 TSV 檔案編譯完整目錄
 
@@ -79,7 +79,7 @@ catcomp C:\CatalogData\210 210 debug
 > [!Note]  
 > 雖然檔案名必須有 .csv 副檔名，但檔案不是以逗號分隔值 (CSV) 格式。 檔案必須位於 Tab 分隔值 (TSV) 格式。
 
- 
+ 
 
 如果編譯成功，catcomp.exe 會建立三個輸出檔。
 
@@ -88,16 +88,16 @@ catcomp C:\CatalogData\210 210 debug
 | 檔案名稱                   | 描述                                                                                                                                                                         |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | catalog. wmdb                | 未壓縮的已編譯目錄。                                                                                                                                                      |
-| catalog. wmdb. lz             | 壓縮格式的目錄。 您的外掛程式可將此檔案的位置提供給 [IWMPContentPartner：： GetCatalogURL](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl)中的 Windows Media Player。 |
+| catalog. wmdb. lz             | 壓縮格式的目錄。 您的外掛程式可將此檔案的位置提供給[IWMPContentPartner：： GetCatalogURL](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl)中的 Windows Media Player。 |
 | 編譯的 \_ 唯一 \_words.txt | 中繼輸出檔。 Windows Media Player 未使用。                                                                                                                      |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

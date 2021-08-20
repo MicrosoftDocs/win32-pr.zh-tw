@@ -4,12 +4,12 @@ ms.assetid: 0e7b66bd-bdb0-956d-2962-b33ae52b3016
 title: DirectXMath 程式庫向量儲存函式
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 392429d9028aa0971a5b6ee6a90296c44c62066c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee06b3593b193c845b134816b23bfbf22abfa81ccd88708c4673f63890c2e4d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087674"
 ---
 # <a name="directxmath-library-vector-store-functions"></a>DirectXMath 程式庫向量儲存函式
 

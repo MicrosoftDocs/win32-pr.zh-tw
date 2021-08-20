@@ -1,5 +1,5 @@
 ---
-description: System Registry 提供者會在 Windows 上註冊為 WMI 安裝程式的一部分。
+description: 系統登錄提供者會在 Windows 的 WMI 安裝過程中註冊。
 ms.assetid: ce5d0785-6e1b-411c-91df-f25767310530
 ms.tgt_platform: multiple
 title: 註冊系統登錄提供者
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d600872c4efab5560f4fd794cac63beb4365841c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45ea97228038b173ef89cac85b9efab1385938fcaac3b2bf0d733be9f34dabe0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992498"
 ---
 # <a name="registering-the-system-registry-provider"></a>註冊系統登錄提供者
 
-System Registry 提供者會在 Windows 上註冊為 WMI 安裝程式的一部分。 如果您使用的是其他平臺，而且想要使用系統登錄提供者，您必須先依照下列步驟來註冊提供者。
+系統登錄提供者會在 Windows 的 WMI 安裝過程中註冊。 如果您使用的是其他平臺，而且想要使用系統登錄提供者，您必須先依照下列步驟來註冊提供者。
 
 下列程式說明如何註冊系統登錄提供者。
 
@@ -27,7 +27,7 @@ System Registry 提供者會在 Windows 上註冊為 WMI 安裝程式的一部�
 
 1.  將提供者註冊為 COM 伺服器。
 
-    如有必要，您可能需要建立登錄專案。 此程式適用于所有的 COM 伺服器，而且與 WMI 無關。 如需詳細資訊，請參閱 Microsoft Windows 軟體開發套件 (SDK) 中的 [COM](https://msdn.microsoft.com/library/aa139695.aspx) 檔。
+    如有必要，您可能需要建立登錄專案。 此程式適用于所有的 COM 伺服器，而且與 WMI 無關。 如需詳細資訊，請參閱 Microsoft Windows 軟體開發套件 (SDK) 中的[COM](https://msdn.microsoft.com/library/aa139695.aspx)檔。
 
 2.  建立 [**\_ \_ Win32Provider**](--win32provider.md)類別的實例，以描述系統登錄提供者的執行。
 

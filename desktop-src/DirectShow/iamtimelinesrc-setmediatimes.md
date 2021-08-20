@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: dd8255c7744a155ff8328682005e2aacafaf2d13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5de058e31da605b96f7b013c03e9c0d020daa11ec676618b4a13f5ff92e701f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154924"
 ---
 # <a name="iamtimelinesrcsetmediatimes-method"></a>IAMTimelineSrc：： SetMediaTimes 方法
 
@@ -70,7 +70,7 @@ HRESULT SetMediaTimes(
 
 若要從影片來源使用仍然的框架，請將停止時間設定為比開始時間更多的小數數量，例如100毫微秒。 將其設定為相同的值會導致轉譯錯誤。
 
-如果時間軸的持續時間不符合媒體持續時間，則來源會據以伸展或縮小。 這會使剪輯的播放速度比撰寫的速率慢或更快。  (音調變化會在音訊來源中發生 ) 。如需詳細資訊，請參閱 [DirectShow 編輯服務的時間](time-in-directshow-editing-services.md)。
+如果時間軸的持續時間不符合媒體持續時間，則來源會據以伸展或縮小。 這會使剪輯的播放速度比撰寫的速率慢或更快。  (音調變化將會在音訊來源中發生。如需詳細資訊，請參閱[DirectShow 編輯服務的時間](time-in-directshow-editing-services.md)) 。
 
 您可以藉由呼叫 [**SetMediaLength**](iamtimelinesrc-setmedialength.md) 方法來指定原始程式檔的持續時間。 如果您設定超過持續時間的媒體停止時間，DES 會截斷停止時間。
 
@@ -80,7 +80,7 @@ HRESULT SetMediaTimes(
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

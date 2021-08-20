@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 8fc30ada-1397-4d32-a242-8a70646ebf6e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36f502c79762f3c70d33c116f2412b51eaec1881
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ee6450be89c5b1b366f6fcb3fa5375a5bc6d87e0ff7a70c5620ff0da18b7ed99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106984941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862848"
 ---
 # <a name="wmdm-glossary"></a>WMDM 詞彙
 
@@ -23,7 +23,7 @@ ms.locfileid: "106984941"
 <span id="projectid114.active_template_library__atl_"></span><span id="PROJECTID114.ACTIVE_TEMPLATE_LIBRARY__ATL_"></span>**Active Template Library (ATL)**
 </dt> <dd>
 
-Microsoft Visual C++ 的範本類別集合。 它是用來在撰寫 Windows Media 裝置管理員的服務提供者時建立 COM 伺服器。
+Microsoft Visual C++ 的範本類別集合。 它是在為 Windows 媒體裝置管理員撰寫服務提供者時，用來建立 COM 伺服器。
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ Microsoft Visual C++ 的範本類別集合。 它是用來在撰寫 Windows Medi
 <span id="projectid114.clear_content"></span><span id="PROJECTID114.CLEAR_CONTENT"></span>**清除內容**
 </dt> <dd>
 
-未加密的 Windows Media 檔案。
+未加密 Windows 媒體檔案。
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ Microsoft Visual C++ 的範本類別集合。 它是用來在撰寫 Windows Medi
 <span id="projectid114.key"></span><span id="PROJECTID114.KEY"></span>**金鑰**
 </dt> <dd>
 
-將已封裝的 Windows Media 檔案解除鎖定所需的資料片段。 此金鑰包含在個別的授權中。
+解除鎖定封裝 Windows 媒體檔案所需的資料片段。 此金鑰包含在個別的授權中。
 
 </dd> <dt>
 
@@ -142,14 +142,14 @@ Microsoft Visual C++ 的範本類別集合。 它是用來在撰寫 Windows Medi
 <span id="projectid114.microsoft_secure_content_provider__scp_"></span><span id="PROJECTID114.MICROSOFT_SECURE_CONTENT_PROVIDER__SCP_"></span>**Microsoft Secure Content Provider (SCP)**
 </dt> <dd>
 
-適用于 Windows Media 裝置管理員的外掛程式，可提供 (DRM) 服務的數位版權管理。
+Windows 媒體裝置管理員的外掛程式，可提供 (DRM) 服務的數位版權管理。
 
 </dd> <dt>
 
 <span id="projectid114.microsoft_windows_media_player"></span><span id="PROJECTID114.MICROSOFT_WINDOWS_MEDIA_PLAYER"></span>**Microsoft Windows Media Player**
 </dt> <dd>
 
-從 Windows Media 伺服器或本機內容接收串流以進行播放的用戶端/控制項。 它可以做為獨立用戶端可執行程式來執行，或內嵌在 Web 網頁、c + + 程式或使用用戶端 ActiveX 控制項的 Microsoft Visual Basic 程式中。
+一種用戶端/控制項，可接收來自 Windows 媒體伺服器的資料流程或播放的本機內容。 它可以做為獨立用戶端可執行程式來執行，或內嵌在 Web 網頁、c + + 程式或使用用戶端 ActiveX 控制項的 Microsoft Visual Basic 程式中。
 
 </dd> <dt>
 
@@ -209,24 +209,24 @@ Microsoft Visual C++ 的範本類別集合。 它是用來在撰寫 Windows Medi
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_encoder"></span><span id="PROJECTID114.WINDOWS_MEDIA_ENCODER"></span>**Windows Media 編碼器**
+<span id="projectid114.windows_media_encoder"></span><span id="PROJECTID114.WINDOWS_MEDIA_ENCODER"></span>**Windows 媒體編碼器**
 </dt> <dd>
 
-一種技術，可將實況或預錄的音訊和影片壓縮成 Windows Media 串流，這些資料流程可以立即發佈或儲存為 Windows Media 檔案，以供稍後散發。
+一種技術，可將實況或預錄的音訊和影片壓縮成 Windows 媒體串流，可以立即散發或儲存為 Windows 媒體檔，以供稍後散發。
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_file"></span><span id="PROJECTID114.WINDOWS_MEDIA_FILE"></span>**Windows Media** 檔案
+<span id="projectid114.windows_media_file"></span><span id="PROJECTID114.WINDOWS_MEDIA_FILE"></span>**Windows 媒體** 檔案
 </dt> <dd>
 
-包含音訊、視訊或指令碼資料的檔案。 檔案的內容是以其中一種 Windows Media 編解碼器編碼。
+包含音訊、視訊或指令碼資料的檔案。 檔案的內容會使用其中一個 Windows 媒體編解碼器進行編碼。
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_format"></span><span id="PROJECTID114.WINDOWS_MEDIA_FORMAT"></span>**Windows Media 格式**
+<span id="projectid114.windows_media_format"></span><span id="PROJECTID114.WINDOWS_MEDIA_FORMAT"></span>**Windows 媒體格式**
 </dt> <dd>
 
-以 Windows Media 編解碼器編碼的數位媒體檔案或資料流程的格式。
+使用 Windows 媒體編解碼器編碼的數位媒體檔案或資料流程的格式。
 
 </dd> <dt>
 
@@ -237,6 +237,6 @@ Microsoft Visual C++ 的範本類別集合。 它是用來在撰寫 Windows Medi
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5d590047838c1552b0bdae6ce96b60611fd11ae6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b106c7f5d88f44809d3a270c32adee66684de2cc5915a50bd81fa63e5dbc177a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674818"
 ---
 # <a name="id3dxprtenginegetnumfaces-method"></a>ID3DXPRTEngine：： GetNumFaces 方法
 

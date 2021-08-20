@@ -21,7 +21,7 @@ ms.locfileid: "118151548"
 
 
 
-| 存取權限                 | Description                                                                                            |
+| 存取權限                 | 描述                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------------------|
 | ELF \_ LOGFILE \_ CLEAR (0x0004)  | [**ClearEventLog**](/windows/desktop/api/Winbase/nf-winbase-cleareventloga)所需。                                                    |
 | ELF \_ LOGFILE \_ READ (0x0001)   | [**OpenBackupEventLog**](/windows/desktop/api/Winbase/nf-winbase-openbackupeventloga)和 [**OpenEventLog**](/windows/desktop/api/Winbase/nf-winbase-openeventloga)所需。 |

@@ -15,12 +15,12 @@ keywords:
 - 全域桌面變更事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9ddd61ed72ae0e92a13f6b59b493427fd7be421
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9ec99a479d390c72232f28521394b2d178f1ad76c913d72ec80aa0a4c93e0d57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859568"
 ---
 # <a name="ui-automation-events-overview"></a>UI 自動化事件概觀
 
@@ -32,7 +32,7 @@ UI 自動化事件分成下列類別。
 
 
 
-| 事件類別目錄        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 事件類別目錄        | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 屬性變更       | 當消費者介面自動化元素或控制項模式上的屬性變更時引發。 例如，如果用戶端需要監視應用程式的核取方塊控制項，則可以註冊來接聽 [**IUIAutomationTogglePattern：： CurrentToggleState**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtogglepattern-get_currenttogglestate) 屬性上的屬性變更事件。 當選取或取消選取核取方塊控制項時，提供者會引發事件，而且用戶端可視需要採取動作。 |
 | 項目動作        | 當使用者或程式設計活動的 UI 結果變更時引發，例如，按一下按鈕或透過 [**IUIAutomationInvokePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationinvokepattern)叫用時。                                                                                                                                                                                                                                                     |
@@ -42,7 +42,7 @@ UI 自動化事件分成下列類別。
 
 
 
- 
+ 
 
 某些事件並不一定表示 UI 的狀態已經變更。 例如，如果使用者索引標籤是文字輸入欄位，然後按一下按鈕來更新欄位，則會引發 UIA 的 [**\_ 文字 \_ TextChangedEventId**](uiauto-event-ids.md) 事件，即使使用者未實際變更文字也是一樣。 在處理事件時，用戶端應用程式可能需要在採取動作之前檢查是否有任何實際變更。
 
@@ -62,6 +62,6 @@ UI 自動化事件分成下列類別。
 [訂閱消費者介面自動化事件](uiauto-eventsforclients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

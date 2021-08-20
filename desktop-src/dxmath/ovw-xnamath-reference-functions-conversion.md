@@ -4,12 +4,12 @@ ms.assetid: 6a0a8422-991d-00aa-0fd7-b41387adc72e
 title: DirectXMath 程式庫轉換函式
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d182089d766043d47459e859503e48c0c59c2407
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a96c8d432f15978e12472e877a629b41bfd6f750ac48016711e68bc3274efc49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118087755"
 ---
 # <a name="directxmath-library-conversion-functions"></a>DirectXMath 程式庫轉換函式
 

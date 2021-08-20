@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb45ceb166ca9c948823e516029569e457f35e27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1172fd119671a8452ac581d3c3a27efd890456cec98f1ef8d6e61340a54c4404
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861868"
 ---
 # <a name="iwmpcontrols3getaudiolanguagedescription-method"></a>IWMPControls3：： getAudioLanguageDescription 方法
 
@@ -66,7 +66,7 @@ Implements IWMPControls3.getAudioLanguageDescription
 
 ## <a name="remarks"></a>備註
 
-針對以 Windows Media 為基礎的內容，與語言選取相關的屬性和方法只支援單一輸出。
+針對 Windows 媒體型內容，與語言選取相關的屬性和方法只支援單一輸出。
 
 使用 **audioLanguageCount** 屬性來取得支援的音訊語言數目，然後使用以一為基礎的索引個別存取音訊語言。
 

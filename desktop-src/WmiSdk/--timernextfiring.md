@@ -14,12 +14,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: bbb4ea67f20101395c21588f2b5a9f6af4c1313b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c826c223a005ad0be302243c74136bbdd32415c4fdd656071b6cb18e340269d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118109662"
 ---
 # <a name="__timernextfiring-class"></a>\_\_TimerNextFiring 類別
 

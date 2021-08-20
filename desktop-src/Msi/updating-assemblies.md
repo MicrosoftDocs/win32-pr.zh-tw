@@ -4,12 +4,12 @@ ms.assetid: 60c70d48-aae2-4ea5-a880-ac9e2c83c28c
 title: 更新組件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35b185a9943ba20c81a1fa3431dd590eb05648c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a65467613206f3736f35852a919432b11a6761860bd0db22c6da2600c159ef0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141621"
 ---
 # <a name="updating-assemblies"></a>更新組件
 
@@ -20,9 +20,9 @@ ms.locfileid: "104027569"
 -   更新元件的建議方法是在 [MsiAssemblyName 資料表](msiassemblyname-table.md)中變更元件的強式名稱。 新元件版本可由新元件或提供舊版本的相同元件提供。
 -   如果新的元件版本是由相同的元件所提供，請勿將元件類型從 .NET Framework 元件變更為 Win32 元件，反之亦然。
 -   如果系統上的所有應用程式都必須使用更新的元件，您應該部署原則元件。 原則元件可以重新導向系統上的應用程式，以使用新的元件版本。 您應藉由建立新的元件來提供原則元件。
--   需要 Windows Installer 3.0 或更新版本，才能卸載元件更新。 如需詳細資訊，請參閱 [移除修補程式](removing-patches.md)。
+-   Windows卸載元件更新需要安裝程式3.0 或更新版本。 如需詳細資訊，請參閱 [移除修補程式](removing-patches.md)。
 -   較新版本的元件應該包含先前發行之元件中的相同或更高版本的檔案。
--   Windows Installer 3.0 可以透過完整的檔案取代或較小的差異更新來服務 .NET Framework 和 Win32 元件。 如需詳細資訊，請參閱 [減少修補程式大小](reducing-patch-size.md)。
+-   Windows安裝程式3.0 可以透過完整的檔案取代或較小的差異更新來服務 .NET Framework 和 Win32 元件。 如需詳細資訊，請參閱 [減少修補程式大小](reducing-patch-size.md)。
 -   如果您的更新變更元件的強式名稱，則如果 patch 封裝沒有[MsiPatchSequence](msipatchsequence-table.md)資料表，則需要[MsiPatchOldAssemblyFile](msipatcholdassemblyfile-table.md)資料表和[MsiPatchOldAssemblyName](msipatcholdassemblyname-table.md)資料表。 如果 patch 封裝在 MsiPatchSequence 資料表中有修補程式的排序資訊，則不需要 MsiPatchOldAssemblyFile 資料表和 MsiPatchOldAssemblyName 資料表。
 -   發行新的修補程式之前，請先將修補程式套用至所有先前發行的修補程式，以測試修補程式。
 

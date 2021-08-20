@@ -10,12 +10,12 @@ keywords:
 - 混色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7956c675848f454b660126a7a17869295a827438
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13548a2f08821e4f80bf63230077f9a39540ba9b8a37763e7935d211ef0dcdc0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485908"
 ---
 # <a name="porting-blending-code"></a>移植混合程式碼
 
@@ -32,7 +32,7 @@ ms.locfileid: "106969477"
 
 
 
- 
+ 
 
 OpenGL **glBlendFunc** 函式和鳶尾花 GL **blendfunction** 函數幾乎完全相同。 下表列出鳶尾花 GL blend 因數及其 OpenGL 對等專案。
 
@@ -54,13 +54,13 @@ OpenGL **glBlendFunc** 函式和鳶尾花 GL **blendfunction** 函數幾乎完�
 
 
 
- 
+ 
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

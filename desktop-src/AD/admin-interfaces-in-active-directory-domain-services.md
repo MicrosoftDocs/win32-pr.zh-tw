@@ -5,12 +5,12 @@ ms.assetid: 9b9bcbe5-bad9-49ae-8c8f-f6c09542edbe
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29c4b5b9fbe49da84741236b1d2acc4081b583df
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d4e4acf0714f2157e581ffea203d427d81cb488d1c0679f5d9f3f7168e07414b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118024715"
 ---
 # <a name="admin-interfaces-in-active-directory-domain-services"></a>Active Directory Domain Services 中的管理介面
 

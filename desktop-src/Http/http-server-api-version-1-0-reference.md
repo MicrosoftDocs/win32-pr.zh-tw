@@ -4,12 +4,12 @@ description: 下列函式、結構和列舉是用來執行使用 HTTP 版本 1.0
 ms.assetid: 20ef4628-47af-46d1-ad15-566a719f8f1c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0d2c85cb55d7368c9f8cbf57d45400e156e71c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a7b7008ad84495d4183ea3db6cef89b9f6af785a798f3c550837739f18df0a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117996216"
 ---
 # <a name="http-server-api-version-10-reference"></a>HTTP 伺服器 API 版本1.0 參考
 
@@ -21,9 +21,9 @@ ms.locfileid: "104372432"
 -   [HTTP 伺服器 API 版本1.0 宏](http-server-api-version-1-0-macros.md)
 -   [HTTP 伺服器 API 版本1.0 結構](http-server-api-version-1-0-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

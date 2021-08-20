@@ -6,12 +6,12 @@ keywords:
 - videodisc 命令集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: facea09cd84f55b2cf8acb2abf042e3232289573
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a5ca5212d1fe121f2d5f8f3bb57772780b4b694f7c3069ff48fb19cbdd21f6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135566"
 ---
 # <a name="videodisc-command-set"></a>Videodisc 命令集
 
@@ -26,7 +26,7 @@ Videodisc 裝置支援下列一組命令。
 | [**關閉**](close.md)           | [**MCI \_ 關閉**](mci-close.md)           |
 | [逃脫](escape.md)             | [**MCI \_ ESCAPE**](mci-escape.md)         |
 | [**資訊**](info.md)             | [**MCI \_ 資訊**](mci-info.md)             |
-| [**打開**](open.md)             | [**開啟的 MCI \_**](mci-open.md)             |
+| [**開啟**](open.md)             | [**開啟的 MCI \_**](mci-open.md)             |
 | [**暫停**](pause.md)           | [**MCI \_ 暫停**](mci-pause.md)           |
 | [**玩**](play.md)             | [**MCI \_ 播放**](mci-play.md)             |
 | [**恢復**](resume.md)         | [**MCI \_ 繼續**](mci-resume.md)         |
@@ -40,11 +40,11 @@ Videodisc 裝置支援下列一組命令。
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

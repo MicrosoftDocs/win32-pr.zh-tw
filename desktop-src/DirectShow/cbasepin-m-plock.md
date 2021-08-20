@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0a18755c1ea1c5c29b9839ecaf8803a84f8c8f10
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e9c9715909129629af1f7f148a0cfbb059c2ce11b53866e30df5a4418a6f899
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158150"
 ---
 # <a name="cbasepinm_plock-member"></a>CBasePin：： m \_ pLock 成員
 
