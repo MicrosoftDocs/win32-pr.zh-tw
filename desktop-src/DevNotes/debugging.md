@@ -4,12 +4,12 @@ ms.assetid: 13C9C38D-2475-4E46-BE03-BE109C0802FB
 title: " (開發人員附注) 的調試"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f085a4e0f347f78c2917ffb6a47b1c45282075f5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c8d0bd0d6d4ddcfd348d28807517dfe3f7a6fbbd34b649e421ef6e5888be6c41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654197"
 ---
 # <a name="debugging-developer-notes"></a> (開發人員附注) 的調試
 

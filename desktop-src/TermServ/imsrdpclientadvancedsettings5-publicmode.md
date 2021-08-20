@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9173b7685e77984a28d65129c79c9d1a09cf1458
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f5577c01d50b9f7e82a7430d51631c90db7f83e32c0fd20273c524eecdecb26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001346"
 ---
 # <a name="imsrdpclientadvancedsettings5publicmode-property"></a>IMsRdpClientAdvancedSettings5：:P ublicMode 屬性
 

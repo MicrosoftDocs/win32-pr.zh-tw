@@ -3,7 +3,7 @@ title: 'EM_GETMARGINS 訊息 (Winuser .h) '
 description: 取得編輯控制項左邊界和右邊界的寬度。
 ms.assetid: 2482354b-aae0-4abd-8287-65c423f30abb
 keywords:
-- EM_GETMARGINS message Windows 控制項
+- EM_GETMARGINS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 239ad7e7888f5bceef60bf2719c3b67798b56220
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 33746bc44a7b1b0aadd11c573675fedd51e565a557da7601ebe35a4442ddc96c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541068"
 ---
 # <a name="em_getmargins-message"></a>EM \_ GETMARGINS 訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "103685607"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofileui.h
-ms.openlocfilehash: bc8707378f1debc322fea258ceb8aad0c6400ea0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2003471a151677b5f0fbd9ae88e9d3cf8d975525a9dbf8340c6fc1a9f2befc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965807"
 ---
 # <a name="iscanprofileuiscanprofiledialog-method"></a>IScanProfileUI：： ScanProfileDialog 方法
 
@@ -66,10 +66,10 @@ HRESULT ScanProfileDialog(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Scanprofileui。h</dt> </dl>  |
-| Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 
 
 

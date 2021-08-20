@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: d0eecec5650ecc00b69c0745e58a3e1d0f931a00
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d8a234736631517a0e77f5ab23f07688e3d80aa4c8b74a3b2ee51351beece90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654588"
 ---
 # <a name="ctl3denabled-function"></a>Ctl3dEnabled 函式
 
@@ -43,7 +43,7 @@ BOOL Ctl3dEnabled(void);
 
 ## <a name="remarks"></a>備註
 
-在 Windows 4.0 或更新版本中， **Ctl3dEnabled** 和 [**Ctl3dRegister**](ctl3dregister.md) 會傳回 **FALSE**。
+在 Windows 4.0 或更新版本中， **Ctl3dEnabled** 和 [**Ctl3dRegister**](ctl3dregister.md)會傳回 **FALSE**。
 
 此函數沒有相關聯的匯入程式庫或標頭檔;您必須使用 [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) 和 [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) 函數來呼叫它。
 

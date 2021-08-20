@@ -4,12 +4,12 @@ ms.assetid: f02fa21d-3fe9-4838-a938-3136c34bc0e8
 title: 裝飾符號名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 791fe2220b24dfb73b314a91d1797edd739cb74f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 60432788b69f0c8779030f32a190ccfb55859434f714a13f769b328ee246a309
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104467952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076412"
 ---
 # <a name="decorated-symbol-names"></a>裝飾符號名稱
 

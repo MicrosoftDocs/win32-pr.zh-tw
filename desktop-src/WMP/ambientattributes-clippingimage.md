@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e05e05ca9c7c3efdf842ffd4297da6f9fee035d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15302483143b17075b6a6164fcd05da80eb1c7c666a83c76a460408d70ac72e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055186"
 ---
 # <a name="ambientattributesclippingimage"></a>AmbientAttributes.clippingImage
 

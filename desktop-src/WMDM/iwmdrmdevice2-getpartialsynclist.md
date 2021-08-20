@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c68c9c9a0bc47dcbea25158bb1f25db6cd084075
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0bcff91d41ce77003219336431433ee511ff144dfcb8be7880526994689a929
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055656"
 ---
 # <a name="iwmdrmdevice2getpartialsynclist-method"></a>IWMDRMDevice2：： GetPartialSyncList 方法
 
@@ -108,11 +108,11 @@ HRESULT GetPartialSyncList(
 
 ## <a name="return-value"></a>傳回值
 
-方法會傳回 **HRESULT**。 Windows Media 裝置管理員中的所有介面方法都可以傳回下列任何錯誤碼類別：
+方法會傳回 **HRESULT**。 Windows 媒體裝置管理員中的所有介面方法都可以傳回下列任何錯誤碼類別：
 
 -   標準 COM 錯誤碼
--   轉換成 HRESULT 值的 Windows 錯誤碼
--   Windows Media 裝置管理員錯誤碼
+-   Windows 轉換成 HRESULT 值的錯誤碼
+-   Windows媒體裝置管理員錯誤碼
 
 如需可能錯誤碼的詳細清單，請參閱 [錯誤碼](error-codes.md)。
 

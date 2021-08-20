@@ -14,12 +14,12 @@ api_location:
 api_name:
 - _aulldiv
 targetos: Windows
-ms.openlocfilehash: 2fce346ee9608f20667c76841a63a8a3fb9cfe21
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: 0a37dd5a88d668ed92d79f7bc939119068840741a54cfacb5a15119fcefb774e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "104462688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538898"
 ---
 # <a name="_aulldiv-routine"></a>\_aulldiv 常式
 

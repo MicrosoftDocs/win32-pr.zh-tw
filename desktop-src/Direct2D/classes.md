@@ -6,12 +6,12 @@ keywords:
 - D2D1 命名空間、類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71527ad35bdec7e2ea69be16839a5f0e5a1780fd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2b13f3fddcd1939de335dce47d26637780183894fcaa53d16bb0e01aa3ba1dcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075572"
 ---
 # <a name="direct2d-helper-classes"></a>Direct2D helper 類別
 

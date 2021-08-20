@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 266ab64bb058325ac165a2e12c2a91d442a90269
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f128eb2babfed0c70aca063832e579ad254ca1b02d6beaefb451c64598faa8d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950397"
 ---
 # <a name="initiateshutdown-method-of-the-msvm_shutdowncomponent-class"></a>Msvm ShutdownComponent 類別的 InitiateShutdown 方法 \_
 
@@ -40,7 +40,7 @@ uint32 InitiateShutdown(
 
 <dl> <dt>
 
-*Force* \[in\]
+*Force* \[在\]
 </dt> <dd>
 
 類型： **布林值**
@@ -125,8 +125,8 @@ uint32 InitiateShutdown(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | 標頭<br/>                   | <dl> <dt>Winreg. h</dt> </dl>                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |

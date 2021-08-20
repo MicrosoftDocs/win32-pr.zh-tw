@@ -4,12 +4,12 @@ ms.assetid: 9fa0d349-a793-435f-af34-270bdd0ae3ad
 title: 系統. 縮圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afe68aa360575d81d962ce367959cb98207ba262
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 577ab043b83b9b3f03af7451872cc5e5933e22a2e2cf19c9b4258cd3ffee3445
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033266"
 ---
 # <a name="systemthumbnail"></a>系統. 縮圖
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = false
 ```
 
-## <a name="windows-8-windows-7-windows-vista"></a>Windows 8、Windows 7、Windows Vista
+## <a name="windows-8-windows-7-windows-vista"></a>Windows 8，Windows 7 Windows Vista
 
 ```
 propertyDescription

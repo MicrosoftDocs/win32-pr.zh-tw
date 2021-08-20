@@ -21,12 +21,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 097e9ae7387658f983c691e56e4f90ba40dea407
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b46a992accea468b6f3c8a70c7fcfcbe63cf72667c4394c27df273767a387b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106984965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023476"
 ---
 # <a name="iadslargeinteger-property-methods"></a>IADsLargeInteger 屬性方法
 

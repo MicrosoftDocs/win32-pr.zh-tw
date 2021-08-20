@@ -14,16 +14,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: 8f76d516570725fe6da5e8a21ec5a29699276ee3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfd640aaf0bbc68e8798f62f41542d794db34808674c0bdb47587c7396ad7bc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094193"
 ---
 # <a name="findresourcewrapw-function"></a>FindResourceWrapW 函式
 
-\[**FindResourceWrapW** 可用於 Windows XP。 在後續版本中可能無法使用。 您應該改為使用 [**FindResourceW**](/windows/win32/api/winbase/nf-winbase-findresourcea) 。\]
+\[**FindResourceWrapW** 可在 Windows XP 中使用。 在後續版本中可能無法使用。 您應該改為使用 [**FindResourceW**](/windows/win32/api/winbase/nf-winbase-findresourcea) 。\]
 
 在指定的模組中，判斷具有指定之類型和名稱之資源的位置。
 
@@ -98,8 +98,8 @@ HRSRC FindResourceWrapW(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>None</dt> </dl>                               |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (5.0 版或更新版本) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **FindResourceWrapW** (Unicode) <br/>                                                                    |

@@ -4,12 +4,12 @@ ms.assetid: fac60d01-d07e-41e9-98a3-34c592d97a92
 title: 點陣圖類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4427f83e7ff0ccedbfa4fc0155ac2ef3c8968dfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0503bec0f8b029e373ff414b51a60c3b1201a37b9151b722cdfc94d4cdea46cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104557275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977298"
 ---
 # <a name="types-of-bitmaps"></a>點陣圖類型
 
@@ -49,7 +49,7 @@ ms.locfileid: "104557275"
 
 ## <a name="graphics-file-formats"></a>圖形檔案格式
 
-有許多標準格式可將點陣圖儲存在檔案中。 Windows GDI + 支援下列段落所述的圖形檔案格式。
+有許多標準格式可將點陣圖儲存在檔案中。 Windows GDI+ 支援下列段落所述的圖形檔案格式。
 
 **點陣圖 (BMP)**
 
@@ -71,7 +71,7 @@ JPEG 壓縮不適用於線條繪圖、單色區塊，以及清晰的界線。 �
 
 ![將線條繪圖的點陣圖與兩個 jpeg 對等專案和一個 gif 比較的圖例：gif 最適合保留色彩和行清晰度](images/aboutgdip03-art03a.png)
 
-JPEG 是壓縮配置，而非檔案格式。  (JFIF) 的 JPEG 檔案交換格式是一種檔案格式，常用於儲存和傳輸根據 JPEG 配置壓縮的影像。 Web 瀏覽器所顯示的 JFIF 檔案會使用 .jpg 副檔名。
+JPEG 是壓縮配置，而非檔案格式。  (JFIF) 的 JPEG 檔案交換格式是一種檔案格式，常用於儲存和傳輸根據 JPEG 配置壓縮的影像。 Web 瀏覽器所顯示的 JFIF 檔案使用 .jpg 延伸模組。
 
 **(Exif) 的交換影像檔**
 

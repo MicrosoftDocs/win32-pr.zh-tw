@@ -5,12 +5,12 @@ ms.assetid: 5627917D-AC54-40A7-ADAE-F978CF71EB61
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be1d3bba5785e62658b8c5b5644cd8674df47d8b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c717ce16fe3fb8d214746c35890f09ecba174650ef62dfeeb2c1a7c6ceae0e16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000308"
 ---
 # <a name="personal-desktop-task-agent-api-interfaces"></a>個人桌面工作代理程式 API 介面
 
@@ -34,9 +34,9 @@ ms.locfileid: "103678808"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

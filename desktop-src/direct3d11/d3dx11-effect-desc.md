@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d43b37d13a8b3f076cc3c5967dac9a95ed18a5a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d3f2c3a205a4849aed755bee01302da813cccf77bbf8255036f287d488b76591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989988"
 ---
 # <a name="d3dx11_effect_desc-structure"></a>D3DX11 \_ 效果 \_ DESC 結構
 

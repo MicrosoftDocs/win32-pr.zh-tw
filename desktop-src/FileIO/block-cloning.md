@@ -4,12 +4,12 @@ ms.assetid: E18E8D79-3985-40B8-A4C5-A73A21E5C527
 title: 封鎖複製
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b33aa1c1eee693b6ed4b502aedc6da6176ece3e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7d94afdb9b630f501de4baee0b690715f42d057a157f31b142c231e0a03f9f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582654"
 ---
 # <a name="block-cloning"></a>封鎖複製
 
@@ -19,13 +19,13 @@ ms.locfileid: "104514000"
 
 區塊複製作業不會中斷檔案之間提供的隔離。 在區塊複製完成之後，寫入來源檔案的作業不會出現在目的地中，反之亦然。
 
-區塊複製僅適用于從 Windows Server 2016 開始的 [ReFS 檔案系統](/windows/desktop/w8cookbook/resilient-file-system--refs-) 類型。
+區塊複製僅適用于以 Windows Server 2016 開頭的[ReFS 檔案系統](/windows/desktop/w8cookbook/resilient-file-system--refs-)類型。
 
 ## <a name="block-cloning-on-refs"></a>在 ReFS 上進行區塊複製
 
-Windows Server 2016 上的 ReFS 會藉由將邏輯叢集 (也就是磁片區上的實體位置) 從來源區域到目的地區域，來實行區塊複製。 然後，它會使用以配置為依據的寫入機制，以確保這些區域之間的隔離。 來源和目的地區域可以位於相同或不同的檔案中。
+Windows Server 2016 上的 ReFS 會藉由重新對應邏輯群集來執行區塊複製， (也就是磁片區上的實體位置) 從來源區域到目的地區域。 然後，它會使用以配置為依據的寫入機制，以確保這些區域之間的隔離。 來源和目的地區域可以位於相同或不同的檔案中。
 
-此執行需要將開始和結束檔案位移對齊叢集界限。 在 Windows Server 2016 的 ReFS 中，叢集預設的大小為 4 KB，但可以選擇性地設定為64KB。 叢集大小是以格式時間設定的全磁片區參數。
+此執行需要將開始和結束檔案位移對齊叢集界限。 在 Windows Server 2016 的 ReFS 中，叢集預設的大小為 4 kb，但可以選擇性地設定為64kb。 叢集大小是以格式時間設定的全磁片區參數。
 
 ## <a name="restrictions-and-remarks"></a>限制和備註
 
@@ -37,7 +37,7 @@ Windows Server 2016 上的 ReFS 會藉由將邏輯叢集 (也就是磁片區上�
 -   來源和目的地檔案必須有相同的 [**完整性資料流程**](file-attribute-constants.md) 設定 (也就是說，必須在這兩個檔案中啟用完整性資料流程，或是在兩個檔案) 中都停用。
 -   若來源檔案為疏鬆，目的檔案也必須為疏鬆。
 -   區塊複製作業會中斷共用的隨機鎖定 (也稱為 [層級 2](types-of-opportunistic-locks.md) 的隨機鎖定) 。
--   ReFS 磁片區必須已格式化為 Windows Server 2016，如果 Windows 容錯移轉叢集正在使用中，則叢集功能等級必須是 Windows Server 2016 或更新版本（格式時間）。
+-   ReFS 磁片區必須已使用 Windows Server 2016 格式化，如果 Windows 容錯移轉叢集正在使用中，則必須在格式時間 Windows Server 2016 或更新版本的叢集功能等級。
 
 ## <a name="example"></a>範例
 

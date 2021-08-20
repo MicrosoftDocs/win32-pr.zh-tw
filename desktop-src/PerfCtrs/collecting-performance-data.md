@@ -4,12 +4,12 @@ ms.assetid: 2534d387-a280-4716-9a9d-3e42f40e2f92
 title: 收集效能資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e99bd2c0e22553245e87d3844694051c88c57895
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79f65280190e67e27783ea7e7387eac0e348aad1a53ad016df3010ae0bfd2ea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061236"
 ---
 # <a name="collecting-performance-data"></a>收集效能資料
 

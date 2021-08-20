@@ -3,8 +3,8 @@ title: 使用反轉電影處理
 description: 使用反轉電影處理
 ms.assetid: 7752d1ac-34b1-446a-a69c-29463c9e10f7
 keywords:
-- Windows Media Format SDK，反向電視
-- Windows Media Format SDK，電影
+- Windows媒體格式 SDK，反向電視
+- Windows媒體格式 SDK，電影
 - Advanced Systems Format (ASF) ，反向電視
 - ASF (Advanced Systems Format) ，反向電視
 - Advanced Systems Format (ASF) ，電影
@@ -13,12 +13,12 @@ keywords:
 - 電影
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b17d4f4e3ae34c2a9efcaa4fe8e5ce7256474404
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 7885caffea83460d73b1eca26dbfd94eb50d99ac4aa8589113875ffc4358c029
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106968272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585318"
 ---
 # <a name="to-use-inverse-telecine"></a>使用反轉電影處理
 
@@ -52,9 +52,9 @@ ms.locfileid: "106968272"
 [**IWMWriterAdvanced2 介面**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

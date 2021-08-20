@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccd2798cdba03cd5ad362acb8720f75153437c28
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 81188513c785fefec22d431f69582e9c0df35652ff32a55a4c83dcb9a21af66e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021696"
 ---
 # <a name="generate-rsop-logging-extended-right"></a>產生-RSoP-記錄延伸許可權
 

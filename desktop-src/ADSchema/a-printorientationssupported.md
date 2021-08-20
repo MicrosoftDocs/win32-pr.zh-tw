@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49888caa713de7dd12616dcb9932e52b15b2a454
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ffe346318b043f988f04d3f5f99cfd6c138ffdaa984eec2b0cf06f5cfa1c92ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106996390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022366"
 ---
 # <a name="print-orientations-supported-attribute"></a>列印方向支援的屬性
 

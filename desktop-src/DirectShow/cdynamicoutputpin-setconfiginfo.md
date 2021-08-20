@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b0c14342a629a38a878649ac59d8f1f814874f12
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 23b492eaf4b5f712a51132eefcceac12a772b17b8285d8c6edb1a6cec268b1c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074232"
 ---
 # <a name="cdynamicoutputpinsetconfiginfo-method"></a>CDynamicOutputPin. SetConfigInfo 方法
 

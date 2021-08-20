@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 97b50581aa4825b31983a234a5eb47ff7b7b7e06
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e35df4f102801f7d52faeb384f9a1113e00abbf034026d19b5b7b6e7b4c90ed7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621098"
 ---
 # <a name="daysinterval-dailyscheduletype-element"></a>DaysInterval (dailyScheduleType) 元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "103934019"
 
 
 
-| 元素                                                                                | 衍生自                                                                   | Description                            |
+| 元素                                                                                | 衍生自                                                                   | 描述                            |
 |----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------|
 | [**ScheduleByDay**](taskschedulerschema-schedulebyday-calendartriggertype-element.md) | [**dailyScheduleType**](taskschedulerschema-dailyscheduletype-complextype.md) | 指定每日排程。<br/> |
 
@@ -86,8 +86,8 @@ ms.locfileid: "103934019"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

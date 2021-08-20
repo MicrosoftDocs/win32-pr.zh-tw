@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eeb3576b2c33356c942e427d92bc40697c09921a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cda91f6e678b2d968be151b20852e1bc6bd8c77821422a1aac29e0d0c774f5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618698"
 ---
 # <a name="esenttransreadonlyexception-class"></a>EsentTransReadOnlyException 類別
 

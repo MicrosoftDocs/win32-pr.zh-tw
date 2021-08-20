@@ -4,12 +4,12 @@ ms.assetid: 087104e8-ab38-4ba4-be70-23a5ea2bb130
 title: 自動代理快取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d0492bec116bad8a82da0e961cf6d851d27c787
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45d494f1491dd52484a893dbab601ed4870f03badf5f849dca413f9554a8493e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614178"
 ---
 # <a name="autoproxy-cache"></a>自動代理快取
 

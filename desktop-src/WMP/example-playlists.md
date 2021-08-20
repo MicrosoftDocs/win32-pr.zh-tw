@@ -3,13 +3,13 @@ title: 範例播放清單
 description: 範例播放清單
 ms.assetid: 130e48d0-9601-4a7a-a48f-fb557375fcb1
 keywords:
-- Windows Media 中繼檔播放清單、播放清單範例
+- Windows媒體中繼檔播放清單、播放清單範例
 - 播放清單、播放清單範例
 - 中繼檔播放清單，播放清單範例
-- Windows Media 中繼檔播放清單，範例播放清單
+- Windows媒體中繼檔播放清單，範例播放清單
 - 播放清單、範例播放清單
 - 中繼檔播放清單，範例播放清單
-- Windows Media 中繼檔播放清單、範例播放清單
+- Windows媒體中繼檔播放清單、範例播放清單
 - 播放清單、範例播放清單
 - 中繼檔播放清單，範例播放清單
 - Windows Media Player，播放清單範例
@@ -25,12 +25,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 59fa7266985d2d08234f2bfdcac8b1518e355a6d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6131e14f8bc6b0cbd93cd3e2aec853e5ec6b3629b4cda05862b6ec461d8e32cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650218"
 ---
 # <a name="example-playlists"></a>範例播放清單
 
@@ -38,7 +38,7 @@ ms.locfileid: "104183892"
 
 
 
-| 範例播放清單                                                           | Description                                               |
+| 範例播放清單                                                           | 描述                                               |
 |----------------------------------------------------------------------------|-----------------------------------------------------------|
 | [基本播放清單](a-basic-playlist.md)                                   | 簡單的播放清單。                                        |
 | [Advanced 播放清單](an-advanced-playlist.md)                           | 具有一組完整播放清單元素的播放清單。 |
@@ -46,7 +46,7 @@ ms.locfileid: "104183892"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -58,9 +58,9 @@ ms.locfileid: "104183892"
 [**中繼檔播放清單**](metafile-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

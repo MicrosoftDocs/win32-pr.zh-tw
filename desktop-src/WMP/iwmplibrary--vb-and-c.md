@@ -1,5 +1,5 @@
 ---
-title: 'IWMPLibrary (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPLibrary (VB 和 C ) 介面 (Wmp. h) '
 description: 代表程式庫。IWMPLibrary 介面會公開下列屬性。
 ms.assetid: 956b2da1-5f01-48d6-8faa-e360c225afda
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9749d3a2363c3863180639f249d7261ec1b9694
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a418192e45363b6757d7360e779b8f8134677d8a321228d81fddd3d49501075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054826"
 ---
 # <a name="iwmplibrary-vb-and-c-interface"></a>IWMPLibrary (VB 和 c # ) 介面
 
@@ -55,7 +55,7 @@ ms.locfileid: "106991129"
 
 
 
-| 屬性                                                                                      | 存取類型          | Description                                                                   |
+| 屬性                                                                                      | 存取類型          | 描述                                                                   |
 |:----------------------------------------------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------|
 | [**mediaCollection**](wmplibiwmplibrary-iwmplibrary-mediacollection--vb-and-c.md)<br/> | 唯讀<br/> | 取得目前程式庫的 **IWMPMediaCollection** 介面。<br/> |
 | [**名字**](wmplibiwmplibrary-iwmplibrary-name--vb-and-c.md)<br/>                       | 唯讀<br/> | 取得目前程式庫的顯示名稱。<br/>                      |
@@ -91,7 +91,7 @@ ms.locfileid: "106991129"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPLibraryServices. getLibraryByType (VB 和 c # )**](wmplibiwmplibraryservices-iwmplibraryservices-getlibrarybytype--vb-and-c.md)

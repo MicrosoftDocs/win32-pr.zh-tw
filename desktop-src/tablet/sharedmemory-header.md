@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 695f3ef09cb5e7e67de757ee3926df6fde7ddff5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ae596819feb4bd70aa47e7881521e5a69e5bd0a509b974e591d08907efda51c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966797"
 ---
 # <a name="sharedmemory_header-structure"></a>SHAREDMEMORY \_ 標頭結構
 
@@ -93,7 +93,7 @@ typedef struct _SHAREDMEMORY_HEADER {
 **sysEvt**
 </dt> <dd>
 
-\_ \* 與此標頭相關聯的系統事件（前置詞為 SE）。 如需詳細資訊，請參閱「備註」一節。
+\_ \* 與此標頭相關聯的系統事件（前面加上 SE）。 如需詳細資訊，請參閱「備註」一節。
 
 </dd> <dt>
 

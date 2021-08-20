@@ -4,12 +4,12 @@ ms.assetid: 705e5a79-836b-417b-a7ed-c733572f6905
 title: 'MESourceRateChangeRequested 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9973a509541f3ec3d4f6a235b8f1277a20f7ed1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7d8a88225fd3a0a95c56d549a712b295ba562cc684c08fe4b762c0169e3637c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974127"
 ---
 # <a name="mesourceratechangerequested-event"></a>MESourceRateChangeRequested 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "104191905"
 
 
 
-| VARTYPE           | Description                                             |
+| VARTYPE           | 描述                                             |
 |-------------------|---------------------------------------------------------|
 | VT \_ R4<br/> | 要求的新播放速率。<br/> <br/> |
 
@@ -45,8 +45,8 @@ ms.locfileid: "104191905"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

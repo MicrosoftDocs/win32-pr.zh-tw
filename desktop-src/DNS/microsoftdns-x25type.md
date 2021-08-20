@@ -18,12 +18,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e584119dbd45d5d6c7fae347c506c42fcda4fff7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 46f57cdd5dce38c57214d91108a548a4f4890df6d44c0909a706c8e57c383a49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655278"
 ---
 # <a name="microsoftdns_x25type-class"></a>MicrosoftDNS \_ X25Type 類別
 
@@ -56,7 +56,7 @@ class MicrosoftDNS_X25Type : MicrosoftDNS_ResourceRecord
 | 方法                             | 描述                                                                                                                                                                                                                                                                                                                                         |
 |:-----------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CreateInstanceFromPropertyData** | 根據方法輸入參數中的資料具現化 RR 的 ' X25 ' 類型：記錄的 DNS 伺服器名稱、容器名稱、擁有者名稱、類別 (預設值 = IN) 、存留時間值和 PSDN 位址。 它會將新物件的參考傳回做為輸出參數。 <br/> 限定詞：實作為、靜態<br/>              |
-| **修改**                         | 這個方法會將 TTL 和 PSDN 位址更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/> |
+| **Modify**                         | 這個方法會將 TTL 和 PSDN 位址更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/> |
 
 
 

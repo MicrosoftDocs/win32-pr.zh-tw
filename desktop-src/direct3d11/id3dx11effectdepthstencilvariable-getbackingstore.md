@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9335817b9c954958c97294a88291f83bf0e967d1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dfe2387b6cc071e9146176e6cf8b84da1870c0671572f184fea7e6cbadef03d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989838"
 ---
 # <a name="id3dx11effectdepthstencilvariablegetbackingstore-method"></a>ID3DX11EffectDepthStencilVariable：： GetBackingStore 方法
 

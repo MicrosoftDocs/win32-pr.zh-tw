@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d5e1e1b2be167466da5a4d92999646bb7c8f225
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b9ebe2849346eb85b934c93b1d79b6ab0c43744ff60f5cf056d05edf63d1ce0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989848"
 ---
 # <a name="id3dx11effectconstantbufferundosettexturebuffer-method"></a>ID3DX11EffectConstantBuffer：： UndoSetTextureBuffer 方法
 

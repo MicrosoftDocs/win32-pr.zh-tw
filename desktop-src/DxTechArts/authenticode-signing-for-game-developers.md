@@ -4,12 +4,12 @@ description: 本文討論如何開始驗證您的遊戲，以及如何將驗證�
 ms.assetid: 0b3138ea-e4ea-57fb-756b-62fdc20cf813
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 256b1cec0693787e76cfa479940524fca28d508e
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: d1e41d9b0f1149394e1aa2634f5df2a428630bfc0e7bd006e86065567e28eb6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650428"
 ---
 # <a name="authenticode-signing-for-game-developers"></a>遊戲開發人員的 Authenticode 簽署
 
@@ -180,11 +180,11 @@ Authenticode 簽章不僅適用于使用者所進行的資料驗證，也需要�
 
 驅動程式至少應該是 Authenticode 簽署的，因為未經簽署或自我簽署 (的驅動程式（使用測試憑證) 簽署）將無法安裝在許多以 Windows 為基礎的平臺上。 如需有關簽署驅動程式和程式碼和相關功能的詳細資訊，請參閱[Windows 硬體開發人員中心](https://www.microsoft.com/whdc/)上[Windows 的驅動程式簽署需求](https://www.microsoft.com/whdc/winlogo/drvsign/drvsign.mspx)。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 使用 Microsoft Authenticode 是相當簡單的流程。 一旦取得 CER 並建立私密金鑰之後，就可以使用 Microsoft 所提供的工具，簡單明瞭。 然後，您可以在 Windows Vista 和 Windows 7 （例如家長監護）中啟用重要功能，並讓客戶知道您的產品直接來自其正當擁有者。
 
-## <a name="more-information"></a>詳細資訊
+## <a name="more-information"></a>更多資訊
 
 如需有關與簽署程式碼相關之工具和程式的詳細資訊，請參閱下列連結：
 

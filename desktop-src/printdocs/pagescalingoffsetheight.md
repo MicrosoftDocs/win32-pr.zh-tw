@@ -4,12 +4,12 @@ ms.assetid: f6fa0421-a125-4ead-a540-d2f7327a26b6
 title: PageScalingOffsetHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f02370d28716dd3a8840001959bb7d963307d2f
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 434dd3faf8f5d7fdc230738e33a3715217bbaeb0d0b3c74cb0d1545fb77cd1fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113548956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034116"
 ---
 # <a name="pagescalingoffsetheight"></a>PageScalingOffsetHeight
 
@@ -24,7 +24,7 @@ ms.locfileid: "113548956"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|---------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                 |
 | 範圍前置詞 <br/> | 頁面<br/>                                         |
@@ -77,9 +77,9 @@ ms.locfileid: "113548956"
 | DefaultValue<br/> | 整數<br/> | 未定義<br/>       |
 | MaxValue<br/>     | 整數<br/> | 未定義<br/>       |
 | MinValue<br/>     | 整數<br/> | 未定義<br/>       |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| Unittype.pixel 表示<br/>     | string<br/>  | 微米<br/>         |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 微米<br/>         |
 
 
 

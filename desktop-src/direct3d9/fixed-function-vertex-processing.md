@@ -4,12 +4,12 @@ ms.assetid: a882a5c5-b05e-4659-9040-92d3e2ccd89c
 title: 修正 (Direct3D 9) 的函式頂點處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da30dd0fb6cf6e055d8b1bbb31fdfdb01d9e1e20
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 827a293a4fbd552327d93076de773aec90dbd895faf3c086f4794036978984fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988018"
 ---
 # <a name="fixed-function-vertex-processing-direct3d-9"></a>修正 (Direct3D 9) 的函式頂點處理
 
@@ -19,7 +19,7 @@ ms.locfileid: "104108845"
 
 最後一個參數旗標會決定方法的特殊處理選項。 您可以將此參數設定為0以進行預設頂點處理，或將 [D3DPV \_ DONOTCOPYDATA](other-direct3d-constants.md) 設定為在某些情況下將處理優化。 您也可以將 D3DPV \_ DONOTCOPYDATA 值與適用于目的緩衝區的一或多個 [D3DLOCK](d3dlock.md) 值結合。 當您將旗標設為0時，目的地頂點緩衝區頂點格式的頂點元件若未受到頂點作業影響，仍然會從頂點著色器複製或設定為0。 不過，使用 D3DPV \_ DONOTCOPYDATA 時， [**IDirect3DDevice9：:P rocessvertices**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-processvertices) 不會覆寫目的地緩衝區中的色彩和材質座標資訊，除非此資料是由 Direct3D 產生。 啟用光源時，會產生擴散色彩，也就是 D3DRS \_ 光源設定為 **TRUE**。 當啟用光源且已啟用反射時（也就是 D3DRS \_ SPECULARENABLE 和 D3DRS \_ 光源會設定為 **TRUE**），就會產生反射色彩。 啟用霧化時也會產生反射色彩。 啟用紋理轉換或材質產生時，就會產生材質座標。 **IDirect3DDevice9：:P rocessvertices** 會使用目前的轉譯狀態來判斷應完成的頂點處理。
 
-## <a name="fvf-usage-settings-for-destination-vertex-buffers"></a>目的地頂點緩衝區的 FVF 使用方式設定
+## <a name="fvf-usage-settings-for-destination-vertex-buffers"></a>目的地頂點緩衝區的 FVF 使用量設定
 
 [**IDirect3DDevice9：:P rocessvertices**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-processvertices)方法需要目的地頂點緩衝區之 [D3DFVF](d3dfvf.md)的特定設定。 FVF 使用方式設定必須與頂點處理的目前設定相容。
 

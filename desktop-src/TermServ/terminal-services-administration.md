@@ -5,12 +5,12 @@ ms.assetid: 85a9ed9d-79d6-4011-93a4-00847c689747
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e763a652335c85931225746334bc21db0e6e086d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 46df6277b924d25608b3c4def5074c1f156738e23d114de075af01521953e7d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000278"
 ---
 # <a name="remote-desktop-services-administration"></a>遠端桌面服務管理
 
@@ -22,7 +22,7 @@ ms.locfileid: "106965245"
 
 
 
-| 函式                                                         | 作業                                                                                                                                                                                                         |
+| 函數                                                         | 作業                                                                                                                                                                                                         |
 |------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WTSDisconnectSession**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsdisconnectsession)             | 中斷用戶端與指定會話的連線。 會話仍維持使用中狀態，且使用者可以重新登入以連接到相同的會話。                                                                         |
 | [**WTSEnumerateSessions**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsenumeratesessionsa)             | 傳回指定 RD 工作階段主機伺服器上的會話清單。                                                                                                                                               |
@@ -37,10 +37,10 @@ ms.locfileid: "106965245"
 
 
 
- 
+ 
 
 其中有幾個函式會配置緩衝區，以將資訊傳回給呼叫者。 當您完成使用緩衝區時，請呼叫 [**WTSFreeMemory**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsfreememory) 函式來釋放它。
 
- 
+ 
 
- 
+ 

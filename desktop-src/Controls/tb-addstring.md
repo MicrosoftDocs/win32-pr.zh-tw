@@ -3,7 +3,7 @@ title: 'TB_ADDSTRING 訊息 (Commctrl .h) '
 description: 將新字串加入至工具列的字串集區。
 ms.assetid: e22ee2cc-6443-49d3-aea6-a4ab256d4538
 keywords:
-- TB_ADDSTRING message Windows 控制項
+- TB_ADDSTRING 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fba57c298a2b903a65c429ae6b4f9d55fc9ed2b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c0556add41addb4a58d5734ab900af4a43c2018b533723145ed4f9c8272e3890
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078372"
 ---
 # <a name="tb_addstring-message"></a>TB \_ ADDSTRING 訊息
 
@@ -61,8 +61,8 @@ ms.locfileid: "106968600"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TB \_ADDSTRINGW** (Unicode) 和 **TB \_ ADDSTRINGA** (ANSI) <br/>                 |
 

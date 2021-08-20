@@ -4,12 +4,12 @@ ms.assetid: f47662f9-2fca-4044-ab26-617e5b1f9eae
 title: MSP 架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8c1229ddce90f79c122c47572b4567d230b0b4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7cf5d95cf568e17b53c575f6c2f8963baa4b698cc69243ee1a23e9306ad6b31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002846"
 ---
 # <a name="msp-architecture"></a>MSP 架構
 
@@ -41,7 +41,7 @@ HRESULT hr = pAddress->CreateCall(
 
 傳入的媒體類型表示應用程式在呼叫的存留期內有興趣的媒體。 例如，應用程式可能會在建立通話時指定音訊和影片，但一開始只選取音訊端子。 MSP 只會開始串流音訊，但不會拒絕稍後在呼叫的存留期內進行的本機或遠端影片要求。
 
-當應用程式接著呼叫 [**ITBasicCallControl：： Connect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect)時，TAPI 3 會呼叫 TSP 中的 [**TSPI \_ lineMakeCall**](/windows/win32/api/tspi/nf-tspi-tspi_linemakecall) 。 在建立通話之後，MSP 和 TSP 可以視需要進行通訊。
+當應用程式接著呼叫 [**ITBasicCallControl：：連線**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect)時，TAPI 3 會呼叫 TSP 中的 [**TSPI \_ lineMakeCall**](/windows/win32/api/tspi/nf-tspi-tspi_linemakecall) 。 在建立通話之後，MSP 和 TSP 可以視需要進行通訊。
 
 當通話中斷時，就會由 MSP 和 TSP 來傳達中斷通話的相關資訊。 如果應用程式呼叫 [**中斷連接**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect)，Tapi3.dll 會呼叫 [**TSPI \_ lineDrop**](/windows/win32/api/tspi/nf-tspi-tspi_linedrop) 。
 

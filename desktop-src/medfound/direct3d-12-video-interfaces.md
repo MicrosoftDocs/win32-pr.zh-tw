@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Direct3D 12 Video 介面
 ms.topic: article
 ms.date: 06/03/2019
-ms.openlocfilehash: 9ccbcfd5a0dcffb36956893e93cdbbbd8a5cb82f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fd763a3b1d2b3b6e91899810e4c97c0f3af59eaa8ea2740b6bc5af25b3aa4e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974637"
 ---
 # <a name="direct3d-12-video-interfaces"></a>Direct3D 12 Video 介面
 

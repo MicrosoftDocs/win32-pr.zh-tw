@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c0d3f9536423788fefd36b5e70a3813facaba66
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 19d4ff84e26fa649286a24cb7dd62789474fdcb6481111902e677964ff32f235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021556"
 ---
 # <a name="stringteletex-syntax"></a>字串 (Teletex) 語法
 

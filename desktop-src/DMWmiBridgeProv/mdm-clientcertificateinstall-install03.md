@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04ac690808551e05d6ceba4f3c84bcaa521d4d01
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d013341f7afd20f71bc939617e551cb018dbeaa96d5f140b37de99ea79843f37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077332"
 ---
 # <a name="mdm_clientcertificateinstall_install03-class"></a>MDM \_ ClientCertificateInstall \_ Install03 類別
 
@@ -333,7 +333,7 @@ SCEP 憑證註冊的必要參數。 用來將 SCEP cert 安裝相關要求分組
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

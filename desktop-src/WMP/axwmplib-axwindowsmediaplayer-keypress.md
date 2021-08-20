@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4a01e84b8f765d024c753d08211f3bb84e7f011
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 45b8022feacda910b28d68636c1abdcb2f6c1c9d3c2e799f762f25f5060b2b82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618788"
 ---
 # <a name="keypress-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的按鍵事件
 

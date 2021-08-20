@@ -4,12 +4,12 @@ description: 裝置類型
 ms.assetid: 6556fa6a-5906-4afb-ab7d-ef41a0e22d13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e27ed77debb663a1d90e03512832ca83e6e276d3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 167eedddfc61960de35e979480c44b8f2efab5bf89738047446196b81a95a5b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497158"
 ---
 # <a name="device-types"></a>裝置類型
 
@@ -34,13 +34,13 @@ MCI 會辨識出一組基本的 *裝置類型*。 裝置類型是共用通用命
 
 
 
- 
+ 
 
 在本檔中，裝置類型的名稱為粗體。 裝置類型名稱會與命令字串介面一起使用。 裝置類型常數可搭配命令訊息介面使用。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -18,12 +18,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2bd4cdbbec5c61f453a0ef6fae3fef0bd494edac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 082d9169bbd2ad30af6b2bc17600804f43ce7bbef5e52f15f7ac4c85b21f7b8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582198"
 ---
 # <a name="systemconfig_pnp-class"></a>SystemConfig \_ PnP 類別
 
@@ -160,8 +160,8 @@ DeviceID 字串的長度（以字元為單位）。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

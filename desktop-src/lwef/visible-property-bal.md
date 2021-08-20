@@ -4,16 +4,16 @@ description: 瞭解氣球物件的 Visible 屬性，它會針對指定的字元�
 ms.assetid: cbda7f69-889a-45a0-9549-d27eddfcec57
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ac587fa649f2a8ccb5ea83ddc077050a8548d2
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 101d454f90e01ebcf31619b935d1b90512648baf33a11883b6b971c3178fb871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975478"
 ---
 # <a name="visible-property-balloon-object"></a>Visible 屬性 (Balloon 物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

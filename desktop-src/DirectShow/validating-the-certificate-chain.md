@@ -4,12 +4,12 @@ ms.assetid: e0c36f04-1694-40d8-94a1-06ee7de08777
 title: 驗證憑證鏈
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13436513ae9199feb7ba5fcba399537da198ba85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c63aab8cca71453aff456f145e8f04affd85b4b1f80aa770cbf589970874f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072132"
 ---
 # <a name="validating-the-certificate-chain"></a>驗證憑證鏈
 

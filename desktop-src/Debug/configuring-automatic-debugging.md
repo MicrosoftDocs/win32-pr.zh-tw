@@ -4,12 +4,12 @@ ms.assetid: c3c7aa98-c298-452c-b8d0-10a08b4d82a3
 title: 設定自動調試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2630784d678e08b67a93d00ec52d9bc67c949bc7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 990f2f52e6227e4b1a2cf92656794c90fb5d465915a5d888025d0f3b2c438630
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076502"
 ---
 # <a name="configuring-automatic-debugging"></a>設定自動調試
 
@@ -17,7 +17,7 @@ ms.locfileid: "104110000"
 
 ## <a name="configuring-automatic-debugging-for-system-crashes"></a>設定系統損毀的自動偵測
 
-若要設定目的電腦在系統停止回應時產生損毀傾印檔案，請使用主控台中的 **系統** 應用程式。 按一下 [ **Advanced system settings**]，這會顯示 [ **系統** 內容] 對話方塊。 在該方塊的 [ **Advanced** ] 索引標籤上，按一下 [**啟動和** 復原] 下的 [**設定**]，然後使用適當的修復選項。 或者，您可以使用下列登錄機碼來設定損毀傾印選項：
+若要設定目的電腦在系統停止回應時產生損毀傾印檔案，請使用主控台中的 **系統** 應用程式。 按一下 [ **Advanced system settings**]，這會顯示 [ **系統** 內容] 對話方塊。 在該方塊的 [ **Advanced （Advanced** ）] 索引標籤上，按一下 [**啟動和** 復原] 下的 **設定**，然後使用適當的修復選項。 或者，您可以使用下列登錄機碼來設定損毀傾印選項：
 
 **HKEY \_本機 \_ 電腦** \\ **系統** \\ **CurrentControlSet** \\ **控制項** \\ **CrashControl**
 
@@ -57,7 +57,7 @@ ms.locfileid: "104110000"
 
 2.  將 REG \_ DWORD 值新增至 **AutoExclusionList** 子機碼，其中名稱是可執行檔的名稱，而值為1。 根據預設，桌面視窗管理員 (Dwm.exe) 會從自動偵錯工具中排除，否則如果 Dwm.exe 停止回應，則會發生系統鎖死 (使用者無法看到偵錯工具所顯示的介面，因為 Dwm.exe 沒有回應，而且 Dwm.exe 因為偵錯工具) 而無法終止。
 
-    **Windows Server 2003 和 WINDOWS XP：****AutoExclusionList** 子機碼無法使用;因此，您無法從自動偵測中排除任何應用程式（包括 Dwm.exe）。
+    **Windows Server 2003 和 Windows XP：****AutoExclusionList** 子機碼無法使用;因此，您無法從自動偵測中排除任何應用程式（包括 Dwm.exe）。
 
 預設的 **AeDebug** 登錄專案可以如下所示：
 

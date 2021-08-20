@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 69b4021ea176dc4350dce63012f6b1df15f13167
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a50533b9cf6f8688fc1fb01536e49551fb17b9245831798da24e0c31d75fc821
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623218"
 ---
 # <a name="esentbackupabortbyserverexception-constructor"></a>EsentBackupAbortByServerException 函式
 

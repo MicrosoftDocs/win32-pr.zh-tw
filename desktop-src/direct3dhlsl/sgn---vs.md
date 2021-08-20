@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8573ff7e33a127d7c30af1fe512fbd3da298d0eb
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 1a4994c807ff1df99016aad734edf71e5e1ce6efe59fd53a4fb9bb3ee91a4b25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671678"
 ---
 # <a name="sgn---vs"></a>登錄-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104373806"
 
 
 
- 
+ 
 
 其中
 
@@ -48,7 +48,7 @@ ms.locfileid: "104373806"
 
 
 
- 
+ 
 
 此指示的運作方式如下所示。
 
@@ -77,9 +77,9 @@ src1 和 src2 收取必須是不同的 [臨時](dx9-graphics-reference-asm-vs-re
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f1765829-9a5d-4e85-b898-6679279aa6d9
 title: 需要的程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0948599041c466a337d2d6828750a9996dc8d813
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8337042681d84b5f93d5d0218cff18c4bef9259543f60fd13f692ebe5611835
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621358"
 ---
 # <a name="libraries-required"></a>需要的程式庫
 

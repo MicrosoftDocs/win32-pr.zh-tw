@@ -3,7 +3,7 @@ title: 'EM_STREAMOUT 訊息 (Richedit .h) '
 description: 讓 rich edit 控制項將其內容傳遞至應用程式 \ 8211; 定義的 EditStreamCallback 回呼函式。 回呼函數接著可以將資料串流寫入檔案或它所選擇的任何其他位置。
 ms.assetid: 3f14aaac-4b17-47af-8f2b-503390631a88
 keywords:
-- EM_STREAMOUT message Windows 控制項
+- EM_STREAMOUT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cbdef51348593f8dbcfdb1ef579aca7dba6f96e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63236083c1964d29cb915e4bfc51303b30b730e01f76f2b186cc200d1dcfce6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019466"
 ---
 # <a name="em_streamout-message"></a>EM \_ STREAMOUT 訊息
 
@@ -40,7 +40,7 @@ ms.locfileid: "103934417"
 
 | 值                                                                                                                                                      | 意義                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| <span id="SF_RTF"></span><span id="sf_rtf"></span><dl> <dt>**SF \_ RTF**</dt> </dl>                   | Rtf。<br/>                                            |
+| <span id="SF_RTF"></span><span id="sf_rtf"></span><dl> <dt>**SF \_ RTF**</dt> </dl>                   | RTF。<br/>                                            |
 | <span id="SF_RTFNOOBJS"></span><span id="sf_rtfnoobjs"></span><dl> <dt>**SF \_ RTFNOOBJS**</dt> </dl> | 以空格取代 COM 物件的 RTF。<br/>        |
 | <span id="SF_TEXT"></span><span id="sf_text"></span><dl> <dt>**SF \_ 文字**</dt> </dl>                | 具有空格的文字，用來取代 COM 物件。<br/>       |
 | <span id="SF_TEXTIZED"></span><span id="sf_textized"></span><dl> <dt>**SF \_ TEXTIZED**</dt> </dl>    | 具有 COM 物件文字表示的文字。<br/> |
@@ -89,8 +89,8 @@ ms.locfileid: "103934417"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

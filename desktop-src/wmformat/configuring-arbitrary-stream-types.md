@@ -10,12 +10,12 @@ keywords:
 - GenProfile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59e04751bd33da6599fd7ff3766c4dc8350889c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 260219e408872dc21ecf82bd64b59b6c12b014c6e073a687a1b55957b290b76f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548047"
 ---
 # <a name="configuring-arbitrary-stream-types"></a>設定任意資料流程類型
 
@@ -38,7 +38,7 @@ ms.locfileid: "106965794"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -50,9 +50,9 @@ ms.locfileid: "106965794"
 [**設定資料流程**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

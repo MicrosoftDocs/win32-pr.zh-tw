@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Scsi.h
-ms.openlocfilehash: b5eacf9bee8c2cebf93b27c97a88c691852a3841
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 2f6b3bd9fd4353e396bc7fe4ff7273e598704d1348062fec1c2f64aed9380686
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106988536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075951"
 ---
 # <a name="sense_data-structure"></a>意義 \_ 資料結構
 
@@ -218,8 +218,8 @@ typedef struct _SENSE_DATA {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Scsi。h</dt> </dl> |
 
 

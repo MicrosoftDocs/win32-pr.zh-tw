@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 969badb07f53c2e54b654e2085a74f42b3a3112e
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3b32faecd35466a08d2fa18a927c0c292be7ef8f3c76659824e015d1adbb3b80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119578288"
 ---
 # <a name="setpowerstate-method-of-the-cim_mediaaccessdevice-class"></a>CIM MediaAccessDevice 類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 **ValueMap** 值。

@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility 為其公開的每個使用者介面
 ms.assetid: 64aa8fac-cea7-4466-ae34-2760956c296b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b450ebe79aa467100fe9b6fb3bc4cdfb5540b60c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4260788cc37aa6d4a33fcccb68a51fb61833d753c98ba4ae5dcff89f0d18cec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994158"
 ---
 # <a name="how-active-accessibility-exposes-user-interface-elements"></a>Active Accessibility 如何公開消費者介面元素
 
@@ -24,9 +24,9 @@ Microsoft Active Accessibility 為其公開的每個使用者介面元素建立 
 -   [確定 UI 元素的命名正確](ensure-that-ui-elements-are-named-correctly.md)
 -   [不支援的消費者介面元素](unsupported-user-interface-elements.md)
 
- 
+ 
 
- 
+ 
 
 
 

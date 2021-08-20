@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 691bd3e943f491ba93d867097ac0167c97be6108
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2b96dd7363b5c2a48a6c25826d8c2752c181bc9125955b6c73d5532eb2665514
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024666"
 ---
 # <a name="syncnamingcontext-method-of-the-msad_replneighbor-class"></a>MSAD ReplNeighbor 類別的 SyncNamingCoNtext 方法 \_
 
@@ -70,7 +70,7 @@ void SyncNamingContext(
 
 不支援這個值。
 
-**Windows server 2008 R2、Windows server 2008 和 Windows server 2003：** 從所有來源進行同步處理。
+**Windows server 2008 R2、Windows Server 2008 和 Windows Server 2003：** 從所有來源進行同步處理。
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ void SyncNamingContext(
 
 以非同步方式執行此作業。
 
-**Windows server 2008 R2、Windows server 2008 和 Windows server 2003：** 使用 **DS \_ REPSYNC \_ 所有 \_ 來源** 時的必要。
+**Windows server 2008 R2、Windows Server 2008 和 Windows Server 2003：** 使用 **DS \_ REPSYNC \_ 所有 \_ 來源** 時的必要。
 
 </dd> <dt>
 

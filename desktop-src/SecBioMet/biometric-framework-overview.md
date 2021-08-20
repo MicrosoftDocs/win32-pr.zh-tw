@@ -1,25 +1,25 @@
 ---
 title: 生物特徵辨識架構總覽
-description: 生物識別單元的原生支援會併入 Windows 中。
+description: 生物識別單元的原生支援已併入 Windows 中。
 ms.assetid: 616ba95a-27a3-4eac-b802-5217954ed04e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f524437ba60f0ad5c1518225f91ff23c789a917
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a72b7bb6eab6a062b4dae51f729641607bcadc05dc7b0c50d12f6d59d729ae9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622698"
 ---
 # <a name="biometric-framework-overview"></a>生物特徵辨識架構總覽
 
 每個人都有唯一的特性可用於識別。 這些特性通常是實體的，而且包含指紋等特性，但也可以包含行為特性，例如 gait 和輸入節奏。 生物特徵辨識詞彙包含這兩種意義。 生物特徵辨識資訊逐漸取代密碼以識別和驗證使用者。 這對使用者和系統管理員來說更安全，而且通常更方便。
 
-感應器可用來捕捉生物特徵辨識資訊。 感應器會將此資訊視為生物特徵辨識範例。 單一範例包含的資料代表一個個人的單一生物特徵辨識特性。 建立生物特徵辨識範本的平均是多個範例，且範本會安全地儲存。 之後，來自未知使用者的範例會與已儲存的範本進行比較，以建立及驗證使用者身分識別。 Windows 生物識別服務（屬於 Windows 生物特徵辨識架構 (WBF) 的一部分）提供下列功能。 您可以使用 Windows 生物特徵辨識架構 API 來利用此功能。
+感應器可用來捕捉生物特徵辨識資訊。 感應器會將此資訊視為生物特徵辨識範例。 單一範例包含的資料代表一個個人的單一生物特徵辨識特性。 建立生物特徵辨識範本的平均是多個範例，且範本會安全地儲存。 之後，來自未知使用者的範例會與已儲存的範本進行比較，以建立及驗證使用者身分識別。 Windows 生物特徵辨識服務（Windows 生物特徵辨識架構 (WBF) 的一部分）提供下列功能。 您可以使用 Windows 生物特徵辨識架構 API 來利用此功能。
 
 -   擷取生物識別樣本並用來建立範本。
 -   安全地儲存和取出生物特徵辨識範本。
--   將每個範本對應至唯一識別碼，例如 GUID 或 SID。
+-   地圖每個範本的唯一識別碼（例如 GUID 或 SID）。
 
 您也可以使用此 API 來延伸架構，以及建立生物特徵辨識感應器介面卡、相符引擎和儲存體元件。 如需建立感應器介面卡、相符引擎和儲存元件的詳細資訊，請參閱 [建立介面卡外掛程式](creating-adapter-plug-ins.md)。
 
@@ -31,11 +31,11 @@ WBDI 是一種程式設計介面，可供生物特徵辨識驅動程式用來透
 
 -   使用者模式驅動程式架構 (的 UMDF) 
 -   核心模式驅動程式架構 (KMDF) 
--   Windows Driver Model (WDM) 
+-   Windows (WDM) 的驅動程式模型
 
 WBDI 生物特徵辨識驅動程式也必須支援 WBDI 驅動程式介面 GUID 和所有必要的 i/o 控制項， (IOCTLs) 。 驅動程式開發人員應該複習 Windows 驅動程式套件 (WDK) 的檔和範例程式碼。
 
-### <a name="windows-biometric-service-wbs"></a>Windows 生物特徵辨識服務 (WBS) 
+### <a name="windows-biometric-service-wbs"></a>Windows生物識別服務 (WBS) 
 
 Windows 生物特徵辨識服務會管理已安裝的生物特徵辨識驅動程式，並支援 Windows 生物特徵辨識架構 API 來提供用戶端應用程式的裝置存取權。 WBS 會執行下列功能：
 
@@ -83,6 +83,6 @@ Windows 生物特徵辨識架構 API 可讓您建立可與 Windows 生物特徵�
 -   強制移除生物特徵辨識裝置的驅動程式。
 -   停用生物識別服務。
 
- 
+ 
 
- 
+ 

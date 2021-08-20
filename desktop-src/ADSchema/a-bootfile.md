@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff8805f12dbe04232efccdaad11033714379a8b9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3b3883029b64aedb1db00bf3e53a2bd5b88db2b25c232ed393ce0f69fb6573e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022746"
 ---
 # <a name="bootfile-attribute"></a>bootFile 屬性
 
-包含 UNIX 身分識別管理支援的開機映射名稱。
+包含 UNIX identity management 支援的開機映射名稱。
 
 
 

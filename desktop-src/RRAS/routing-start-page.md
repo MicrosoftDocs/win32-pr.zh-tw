@@ -9,12 +9,12 @@ keywords:
 - RRAS RAS，請參閱路由
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40e3b2a92a6c54f47693d657315ec0a48e660061
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe5745af9d7c4cc3da5fbe50e745506a54cfc629ebbbe3cff6aa021d8ea14acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672508"
 ---
 # <a name="routing"></a>路由
 
@@ -32,7 +32,7 @@ ms.locfileid: "103842668"
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-路由是以伺服器為基礎的技術。 路由的所有功能都整合到 Windows 2000 Server 和 Windows Server 2003 中。 路由應用程式無法在 Windows NT 工作站4.0 或用戶端作業系統（例如 Windows 95）上執行。 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的需求一節。
+路由是以伺服器為基礎的技術。 路由的所有功能都併入 Windows 2000 伺服器和 Windows server 2003 中。 路由應用程式無法在 Windows NT 工作站4.0 或用戶端作業系統上執行，例如 Windows 95。 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的需求一節。
 
 ## <a name="in-this-section"></a>本節內容
 

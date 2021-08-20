@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 694265f0a59096a5a6a58ccbf4e43c92e21fe9b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81dcff3cdca3459126751b12b86f1e11adc2b4fec8926f69211f0508253b64fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965397"
 ---
 # <a name="wiaadddevice-function"></a>WiaAddDevice 函式
 
@@ -52,8 +52,8 @@ void WINAPI WiaAddDevice(void);
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |
 

@@ -23,7 +23,7 @@ ODBCDriver 資料表具有下列資料行。
 |-------------|------------------------------|-----|----------|
 | 驅動程式      | [識別碼](identifier.md) | Y   | N        |
 | 元件\_ | [識別碼](identifier.md) | N   | N        |
-| Description | [Text](text.md)             | N   | N        |
+| 描述 | [Text](text.md)             | N   | N        |
 | 檔案\_      | [識別碼](identifier.md) | N   | N        |
 | 檔案 \_ 設定 | [識別碼](identifier.md) | N   | Y        |
 

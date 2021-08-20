@@ -1,19 +1,19 @@
 ---
 title: IPsec 設定
-description: Windows 篩選平台 (WFP) 是具有 Advanced Security 之 Windows 防火牆的基礎平臺。
+description: Windows篩選 platform (WFP) 是具有 Advanced Security Windows 防火牆的基礎平臺。
 ms.assetid: d54b5caa-daea-4231-9909-7a8d388df661
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78af8e3d0a23713c0505082555fe260bc562dfa4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 34cf20fc8c95aafe3c387195b02468cec3ce884cc97287adde44a594305ee189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069010"
 ---
 # <a name="ipsec-configuration"></a>IPsec 設定
 
-Windows 篩選平台 (WFP) 是具有 Advanced Security 之 Windows 防火牆的基礎平臺。 WFP 可用來設定網路篩選規則，其中包括使用 IPsec 保護網路流量的規則。 應用程式開發人員可以使用 WFP API 直接設定 IPsec，以利用更細微的網路流量篩選模型，而不是透過適用于具有 Advanced Security 之 Windows 防火牆的 Microsoft Management Console (MMC) 嵌入式管理單元所公開的模型。
+Windows篩選 platform (WFP) 是具有 Advanced Security Windows 防火牆的基礎平臺。 WFP 可用來設定網路篩選規則，其中包括使用 IPsec 保護網路流量的規則。 應用程式開發人員可以直接使用 WFP API 來設定 IPsec，以利用更細微的網路流量篩選模型，而不是透過 Microsoft Management Console (MMC) 嵌入式管理單元（適用于具有 Advanced Security 的 Windows 防火牆）所公開的模型。
 
 ## <a name="what-is-ipsec"></a>什麼是 IPsec
 
@@ -88,7 +88,7 @@ IPsec 原則是一組規則，可決定需要使用 IPsec 保護哪些類型的 
 
 ## <a name="how-to-use-wfp-to-configure-ipsec-policies"></a>如何使用 WFP 設定 IPsec 原則
 
-Microsoft 的 IPsec 執行會使用 Windows 篩選平台來設定 IPsec 原則。 IPsec 原則是藉由在不同的 WFP 層級新增篩選準則來執行，如下所示。
+Microsoft 的 ipsec 執行會使用 Windows 篩選平台來設定 ipsec 原則。 IPsec 原則是藉由在不同的 WFP 層級新增篩選準則來執行，如下所示。
 
 -   在 FWPM \_ LAYER \_ IKEEXT \_ V {4 \| 6} 層新增篩選器，以指定在主要模式 (MM) 交換期間， (IKE/AuthIP) 的加密模組所使用的協商原則。 驗證方法和密碼編譯演算法是在這些層級指定。
 -   在 FWPM \_ 層 \_ 中，IPSEC \_ V {4 \| 6} 層新增篩選器，以在快速模式 (QM) 和延伸模式 (EM) 交換時，指定加密模組所使用的協商原則。 IPsec 標頭 (AH/ESP) 和密碼編譯演算法是在這些層級指定。
@@ -98,7 +98,7 @@ Microsoft 的 IPsec 執行會使用 Windows 篩選平台來設定 IPsec 原則�
     > [!Note]  
     > 您可以使用 WFP API 來直接指定 (SAs) 的安全性關聯，進而忽略金鑰安全模組的協商原則。
 
-     
+     
 
 -   在 FWPM \_ 層的 \_ 輸入 \_ 傳輸 \_ v {4 \| 6} 和 FWPM \_ 層 \_ 輸出 \_ 傳輸 \_ v {4 \| 6} 層中，會新增可叫用標注並決定應保護哪些流量流程的篩選準則。
 -   在 FWPM \_ 層的 \_ ALE \_ 驗證 \_ 接收 \_ 接受 \_ V {4 \| 6} 個層級新增篩選準則，以執行身分識別篩選和個別應用程式原則。
@@ -139,7 +139,7 @@ IPsec 一經設定，就會與 WFP 整合，並藉由提供資訊，以在應用
 [界限模式中的協商探索傳輸模式](negotiation-discovery-transport-mode-in-boundary-mode.md)
 </dt> <dt>
 
-[通道模式](tunnel-mode.md)
+[Tunnel模式](tunnel-mode.md)
 </dt> <dt>
 
 [保證加密](guaranteed-encryption.md)
@@ -160,6 +160,6 @@ IPsec 一經設定，就會與 WFP 整合，並藉由提供資訊，以在應用
 [伺服器及網域隔離](/previous-versions/windows/it-pro/windows-server-2003/cc776080(v=ws.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ keywords:
 - 使用 >idirectorysearch 和 IDirectoryObject 的範圍抓取 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 591d2cf7b65b7a8159a92de324f18fbe93164f0e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 506d061dd49c98bdb3b8cc731a28d0dc0ee5fe9a0df5816abf259ece17e456ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023056"
 ---
 # <a name="using-idirectorysearch-and-idirectoryobject-for-range-retrieval"></a>使用 >idirectorysearch 和 IDirectoryObject 進行範圍抓取
 
@@ -42,7 +42,7 @@ hr = pdo->GetObjectAttributes(pszAttrs, 2, &pAttrInfo, &dwRetrieved);
 
 ## <a name="range-retrieval-with-idirectorysearch"></a>使用 >idirectorysearch 的範圍抓取
 
-[**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)介面可用於範圍抓取，方法是在呼叫 [**>idirectorysearch：： ExecuteSearch**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-executesearch)方法時，指定屬性和 *pAttributesName* 陣列中其中一個已抓取屬性的範圍。
+[**>Idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)介面可用於範圍抓取，方法是在呼叫 [**>idirectorysearch：： ExecuteSearch**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-executesearch)方法時，指定屬性和 *pAttributesName* 陣列中其中一個已抓取屬性的範圍。
 
 
 ```C++
@@ -61,9 +61,9 @@ hr = pdo->ExecuteSearch(L"(objectClass=user)", pszAttrs, 2, &hSearch);
 
 如需詳細資訊和示範如何使用 [**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) 介面進行範圍抓取的程式碼範例，請參閱 [使用 >idirectorysearch 範圍的範例程式碼](example-code-for-ranging-with-idirectorysearch.md)。
 
- 
+ 
 
- 
+ 
 
 
 

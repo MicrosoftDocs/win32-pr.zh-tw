@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f1d9a93d870882a34014ea2d0d35f29b91f54d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8292e2527fe14ec00a2bf7169b4e2ea2ca4c8229672625712ed3ad3a10e421e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648268"
 ---
 # <a name="externaltemplatebeingdisplayedinlocallibrary"></a>TemplateBeingDisplayedInLocalLibrary
 

@@ -4,12 +4,12 @@ ms.assetid: 532a876c-9b31-410e-9331-5e8aa98ccaee
 title: Winsock ATM 附錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63ec056cc2b84c9449ed466a60a15683df29744b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90f55c71b830fa8a5f27f083af0263c62766e7b037e433c04b73bfea5ba12960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118822444"
 ---
 # <a name="winsock-atm-annex"></a>Winsock ATM 附錄
 
@@ -20,7 +20,7 @@ ATM 適用于 LAN 和 WAN 環境。 ATM 網路同時傳輸了各式各樣的網�
 | 元素          | 描述                                                                                                                                                 |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 通訊協定名稱 (s)  | ATMPROTO \_ AAL5、ATMPROTO \_ AALUSER                                                                                                                           |
-| Description      | ATM AAL5 會提供以連接為導向的傳輸服務、保留的訊息界限，以及保證的 QOS。 ATMPROTO \_ AALUSER 是使用者定義的 AAL。 |
+| 描述      | ATM AAL5 會提供以連接為導向的傳輸服務、保留的訊息界限，以及保證的 QOS。 ATMPROTO \_ AALUSER 是使用者定義的 AAL。 |
 | 位址系列   | AF \_ ATM                                                                                                                                                     |
 | 標頭檔      | Ws2atm。h                                                                                                                                                    |
 

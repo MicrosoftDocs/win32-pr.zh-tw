@@ -7,12 +7,12 @@ keywords:
 - Active Directory，使用追蹤變更
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dc772f883b97eb4e7305b39f0a582448a8bc021
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: fe3d8521fbd7b04d2c317246d81e0b9af7bce888bcc8e78b7bc9fcbbdd05b0c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024566"
 ---
 # <a name="tracking-changes"></a>追蹤變更
 
@@ -25,16 +25,16 @@ ms.locfileid: "103933038"
 
     ```
     HKEY_LOCAL_MACHINE
-       SYSTEM
-          CurrentControlSet
-             Services
-                NTDS
-                   Diagnostics
+       SYSTEM
+          CurrentControlSet
+             Services
+                NTDS
+                   Diagnostics
     ```
 
     如需詳細資訊，請參閱 [事件記錄](/windows/desktop/EventLog/event-logging)。
 
--   事件追蹤。 Windows 2000 引進了事件追蹤 API，可在軟體或硬體中追蹤和記錄感興趣的事件。 Windows 作業系統和 Active Directory Domain Services 特別支援使用事件追蹤來進行容量規劃和詳細的效能分析。 如需詳細資訊，請參閱 ADSI 中的 [事件追蹤](/windows/desktop/ETW/event-tracing-portal) 和 [事件追蹤](/windows/desktop/ADSI/adsi-and-etw)。
+-   事件追蹤。 Windows 2000 引進了事件追蹤 API，可在軟體或硬體中追蹤和記錄感興趣的事件。 Windows 作業系統（特別是 Active Directory Domain Services）支援使用事件追蹤來進行容量規劃和詳細的效能分析。 如需詳細資訊，請參閱 ADSI 中的 [事件追蹤](/windows/desktop/ETW/event-tracing-portal) 和 [事件追蹤](/windows/desktop/ADSI/adsi-and-etw)。
 
 本節包含下列主題：
 
@@ -43,6 +43,6 @@ ms.locfileid: "103933038"
 -   [使用 DirSync 控制項輪詢變更](polling-for-changes-using-the-dirsync-control.md)
 -   [使用 USNChanged 輪詢變更](polling-for-changes-using-usnchanged.md)
 
- 
+ 
 
- 
+ 

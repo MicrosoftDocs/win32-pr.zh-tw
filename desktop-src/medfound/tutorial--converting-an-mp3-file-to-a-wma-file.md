@@ -4,16 +4,16 @@ ms.assetid: 2397ca78-edb5-4756-bd07-00529db28f76
 title: 教學課程：編碼 WMA 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f491a9d460771dae91a49ab42982fbe97b24c42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86301f301bb4f39f6c9258ec3eacfdd1646af8e76791e2df37ae6bf7d8f89880
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972787"
 ---
 # <a name="tutorial-encoding-a-wma-file"></a>教學課程：編碼 WMA 檔案
 
-本教學課程示範如何使用 [轉碼 API](transcode-api.md) 來編碼 Windows Media 音訊的 (WMA) 檔。
+本教學課程示範如何使用[轉碼 API](transcode-api.md)來編碼 Windows Media 音訊的 (WMA) 檔。
 
 本教學課程會重複使用教學課程中大部分的程式碼， [編碼一個](tutorial--encoding-an-mp4-file-.md)數量的檔案，因此您應該先閱讀該教學課程。 唯一不同的程式碼是函數 `CreateTranscodeProfile` ，它會建立轉碼設定檔。
 

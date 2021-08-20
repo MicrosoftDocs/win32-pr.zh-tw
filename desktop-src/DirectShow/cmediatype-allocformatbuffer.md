@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d6a9314fd06734adcc367b7be34dc8d6d1b9d996
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c53e739237f2d61a6c59c7fac96e1b97e6343fa6dd209bcf72700cefab7d599
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073982"
 ---
 # <a name="cmediatypeallocformatbuffer-method"></a>CMediaType. AllocFormatBuffer 方法
 

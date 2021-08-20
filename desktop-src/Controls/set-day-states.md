@@ -4,12 +4,12 @@ description: 本主題將示範如何設定日狀態資訊。 月曆控制項會
 ms.assetid: EA92D858-BC80-4D08-9768-29A2BBDF900C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa1fc105c94a15e1a658218013dca00129c883c2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9e3ed2c99e6faf18f0e1d06ec06eaaf9a0d573faebe6f3697e43562603447571
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078472"
 ---
 # <a name="how-to-set-day-states"></a>如何設定日期狀態
 
@@ -21,12 +21,12 @@ ms.locfileid: "103933755"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 4b16eed97c891b4b4f5bd283496868d99f9e0fbc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ebc607bf10be8b94fa5274e5539953344c99c263db13dec6f8982146f60f4551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991788"
 ---
 # <a name="swbemservicesassociatorsofasync-method"></a>SWbemServices. AssociatorsOfAsync 方法
 

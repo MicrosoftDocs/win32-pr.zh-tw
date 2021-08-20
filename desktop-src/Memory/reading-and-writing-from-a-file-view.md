@@ -4,12 +4,12 @@ ms.assetid: c2a3da09-d116-4c2c-9e6c-ec9e80c88b99
 title: 從檔案視圖讀取和寫入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d98ec50dc6cd8b0224f2ba33a17ba80c7b0fc658
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aee56f1d06e53bdfd6f7571e4ec296da0270ce0a7050b253b5900c4640d6df0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067678"
 ---
 # <a name="reading-and-writing-from-a-file-view"></a>從檔案視圖讀取和寫入
 

@@ -1,15 +1,15 @@
 - name: Windows Virtual PC
   href: virtual-pc-portal.md
   items:
-    - name: Windows Virtual PC 參考
+    - name: WindowsVirtual PC 參考
       href: virtual-pc-reference.md
       items:
-        - name: Windows Virtual PC 常數
+        - name: WindowsVirtual PC 常數
           href: windows-virtual-pc-constants.md
           items:
-            - name: Windows Virtual PC 特定的 HRESULT 代碼
+            - name: Windows Virtual PC 的特定 HRESULT 代碼
               href: hresult-codes-specific-to-windows-virtual-pc.md
-        - name: Windows Virtual PC 列舉
+        - name: WindowsVirtual PC 列舉
           href: virtual-pc-enumerations.md
           items:
             - name: VMDisplayVideoMode
@@ -54,7 +54,7 @@
               href: vmvirtualpcevent.md
             - name: VMVMState
               href: vmvmstate.md
-        - name: Windows Virtual PC 介面
+        - name: Windows虛擬 PC 介面
           href: virtual-pc-interfaces.md
           items:
             - name: IVMAccountant
@@ -886,7 +886,7 @@
                       href: ivmvirtualpcevents-oneventlogged.md
                     - name: OnVMStateChange 方法
                       href: ivmvirtualpcevents-onvmstatechange.md
-        - name: Windows Virtual PC 結構
+        - name: WindowsVirtual PC 結構
           href: windows-virtual-pc-structures.md
           items:
             - name: GUESTOSVERSIONINFOEX

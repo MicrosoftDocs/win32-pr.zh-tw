@@ -4,12 +4,12 @@ ms.assetid: c233e25b-bec6-4e67-8fbf-2bf9b70c7522
 title: Windows 影像處理元件的運作方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc9fe31ae4346f2c2d1f0b273e78ed10a0ec7e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a63fe341bbb16afe78b159caa5c50c13fdb2cb8ee7a92f4c482dd03f8d9b8a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965107"
 ---
 # <a name="how-the-windows-imaging-component-works"></a>Windows 影像處理元件的運作方式
 
@@ -77,7 +77,7 @@ WIC 針對最常見的元資料格式（ (IFD、EXIF、IPTC、XMP、APP0、APP1 
 
 WIC 編解碼器會具現化以處理單一映射，而且通常會有短暫的存留期。 它是在載入映射時建立，並在關閉映射時加以釋放。 應用程式可能會同時使用大量編解碼器和重迭的存留期 (想要透過包含數百個映射) 的目錄進行滾動，而多個應用程式可能會同時執行這項操作。
 
-雖然有些編解碼器的存留期範圍是其存留期間的存留期，但 WIC 編解碼器並非如此。 Windows Vista 影像中心、Windows 檔案總管和相片檢視器以及許多其他應用程式都是以 WIC 為基礎，而且會使用您的編解碼器來顯示影像和縮圖。 如果您編解碼器的存留期範圍為進程的存留期，則每次在 Windows Vista Explorer 中顯示影像或縮圖時，會在下次使用者重新開機電腦之前，將該映射產生的編解碼器解碼會保留在記憶體中。 如果您的編解碼器從未卸載，其資源就會生效，因為系統中的任何其他元件都無法使用它們。
+雖然有些編解碼器的存留期範圍是其存留期間的存留期，但 WIC 編解碼器並非如此。 Windows Vista 影像中心、Windows 檔案總管和相片檢視器以及許多其他應用程式都是以 WIC 為基礎，而且會使用您的編解碼器來顯示影像和縮圖。 如果您編解碼器的存留期範圍為進程的存留期，則每次在 Windows Vista Explorer 中顯示影像或縮圖時，會在下次使用者重新開機電腦之前，將該映射產生的編解碼器解碼，將會保留在記憶體中。 如果您的編解碼器從未卸載，其資源就會生效，因為系統中的任何其他元件都無法使用它們。
 
 ## <a name="how-to-wic-enabled-a-codec"></a>如何啟用 WIC 的編解碼器
 
@@ -87,11 +87,11 @@ WIC 編解碼器會具現化以處理單一映射，而且通常會有短暫的�
 4.  內嵌唯一的識別模式 (我們建議您所有影像檔案中的 GUID) 。 這可讓您的影像格式在探索期間符合您的編解碼器。 如果您要為現有的影像格式撰寫 WIC 包裝函式，您必須找到編碼器一律會寫入其影像檔案的位模式，並使用此格式做為識別模式。 ) 
 5.  在安裝時註冊您的編解碼器。 這可讓您在執行時間探索編解碼器，方法是將登錄中的識別模式與內嵌在影像檔中的模式比對。
 6.  從 Windows 7，WIC 要求編解碼器必須是 COM 單元類型 "Both"。 這表示您必須在多執行緒案例中，進行適當的鎖定來處理跨單元呼叫端和呼叫端。 如需詳細資訊，請參閱下一節中的多執行緒單元支援。
-7.  支援64位平臺：若是 Windows 7，WIC 將要求協力廠商 WIC 編解碼器同時以32位和64位原生二進位檔的形式傳遞。 此外，32位的表單必須在64位系統上安裝並執行，協力廠商 Windows 7 編解碼器安裝程式必須在64位系統上安裝32位和64位的二進位檔。
+7.  64位平臺的支援：針對 Windows 7，WIC 將要求協力廠商 WIC 編解碼器以32位和64位原生二進位檔的形式傳遞。 此外，32位的表單必須安裝並在64位系統上執行，協力廠商 Windows 7 編解碼器安裝程式必須在64位系統上安裝32位和64位二進位檔。
 
 ## <a name="multi-threaded-apartment-support-in-wic"></a>WIC 中的多執行緒單元支援
 
-多執行緒單元內的物件 (MTA) 可由 MTA 內任意數目的執行緒同時呼叫。 這可在多核心系統和某些伺服器案例上提供更佳的效能。 此外，MTA 中的 WIC 編解碼器可以呼叫 MTA 中的其他物件，而不需要與在不同 STA 單元中的執行緒之間呼叫相關聯的封送處理成本。 在 Windows 7 中，所有的內建 WIC 編解碼器都已更新為支援 Mta，包括 JPEG、TIFF、PNG、GIF、.ICO 和 BMP。 強烈建議您撰寫協力廠商編解碼器以支援 Mta。 不支援 Mta 的協力廠商編解碼器會在多執行緒應用程式中造成顯著的效能成本，因為封送處理。 啟用 MTA 支援需要在協力廠商編解碼器中執行適當的同步處理。 這些同步處理技術的確切執行已超出本檔的範圍。 如需有關同步處理 COM 物件的詳細資訊，請參閱 [瞭解及使用 Com 執行緒模型](/previous-versions/ms809971(v=msdn.10))。
+多執行緒單元內的物件 (MTA) 可由 MTA 內任意數目的執行緒同時呼叫。 這可在多核心系統和某些伺服器案例上提供更佳的效能。 此外，MTA 中的 WIC 編解碼器可以呼叫 MTA 中的其他物件，而不需要與在不同 STA 單元中的執行緒之間呼叫相關聯的封送處理成本。 在 Windows 7 中，所有內建的 WIC 編解碼器都已更新為支援 mta，包括 JPEG、TIFF、PNG、GIF、.ico 和 BMP。 強烈建議您撰寫協力廠商編解碼器以支援 Mta。 不支援 Mta 的協力廠商編解碼器會在多執行緒應用程式中造成顯著的效能成本，因為封送處理。 啟用 MTA 支援需要在協力廠商編解碼器中執行適當的同步處理。 這些同步處理技術的確切執行已超出本檔的範圍。 如需有關同步處理 COM 物件的詳細資訊，請參閱 [瞭解及使用 Com 執行緒模型](/previous-versions/ms809971(v=msdn.10))。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -109,7 +109,7 @@ WIC 編解碼器會具現化以處理單一映射，而且通常會有短暫的�
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [WIC 中繼資料總覽](-wic-about-metadata.md)
