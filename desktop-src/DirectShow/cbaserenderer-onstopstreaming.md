@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 417a18ca53240dce0e4ed6d40f551c45c24b0f1c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c61490a0719ce45d9776982b9230734d1126cef747330bb595c205500aca331
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157661"
 ---
 # <a name="cbaserendereronstopstreaming-method"></a>CBaseRenderer. OnStopStreaming 方法
 

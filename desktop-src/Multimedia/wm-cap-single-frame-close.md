@@ -3,7 +3,7 @@ title: 'WM_CAP_SINGLE_FRAME_CLOSE 訊息 (Vfw .h) '
 description: WM \_ cap \_ 單一 \_ 框架 \_ 關閉訊息會關閉由 wm \_ cap \_ 單一 \_ 框架開啟的 \_ 訊息開啟的捕獲檔案。 您可以使用 capCaptureSingleFrameClose 宏明確地傳送此訊息。
 ms.assetid: fde5f34b-0781-49a2-a509-64192a1d9ec0
 keywords:
-- WM_CAP_SINGLE_FRAME_CLOSE message Windows 多媒體
+- WM_CAP_SINGLE_FRAME_CLOSE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e35523476dde1c74c4a20447d7c46d5eafc5e529
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f304fd0c62818562e53c6129a15b266db6f1ac000de64fb779e5cdb3e437d43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118134962"
 ---
 # <a name="wm_cap_single_frame_close-message"></a>WM \_ CAP \_ 單一 \_ 框架 \_ 關閉訊息
 

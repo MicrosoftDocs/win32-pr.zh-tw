@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9b71b13d1d6a7678dba61cf30315d09e074669fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 99a04cf89d012fb9ae01ee1a48ce46c36ebf8b6731072a7a858863b7372e736e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158086"
 ---
 # <a name="cbasereferenceclockm_pschedule-member"></a>CBaseReferenceClock：： m \_ pSchedule 成員
 

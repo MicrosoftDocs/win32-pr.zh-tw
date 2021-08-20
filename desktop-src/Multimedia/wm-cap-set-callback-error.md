@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_CALLBACK_ERROR 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 設定 \_ 回呼 \_ 錯誤訊息會在用戶端應用程式中設定錯誤回呼函數。 當發生錯誤時，AVICap 會呼叫這個程式。 您可以使用 capSetCallbackOnError 宏明確地傳送此訊息。
 ms.assetid: 4eb57515-9b5a-466c-bbaa-fdee3bca19db
 keywords:
-- WM_CAP_SET_CALLBACK_ERROR message Windows 多媒體
+- WM_CAP_SET_CALLBACK_ERROR 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40f50d62112d71f78196a17b958dc7d3d10702e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2b631a66923fc614e1486405b1c8e64f152c0f0dd21c8abec292548c546d17b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135100"
 ---
 # <a name="wm_cap_set_callback_error-message"></a>WM \_ CAP \_ 設定 \_ 回呼 \_ 錯誤訊息
 

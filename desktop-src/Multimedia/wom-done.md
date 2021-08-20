@@ -3,7 +3,7 @@ title: 'WOM_DONE 訊息 (Mmsystem .h) '
 description: '\_當指定的輸出緩衝區傳回給應用程式時，WOM 完成的訊息會傳送到波形音訊輸出回呼函式。'
 ms.assetid: cac94a44-d1b0-43de-b3ec-ae34547b1fc3
 keywords:
-- WOM_DONE message Windows 多媒體
+- WOM_DONE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab64598a2dfdd329615ca116fb6382909bb83b01
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f8e54fe6f8f79c9fe5885861dbda758a663ca49b38ed559b06ba59627768055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118134813"
 ---
 # <a name="wom_done-message"></a>WOM \_ 完成訊息
 
@@ -64,7 +64,7 @@ dwParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 
