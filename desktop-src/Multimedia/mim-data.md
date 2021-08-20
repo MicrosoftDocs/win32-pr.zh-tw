@@ -1,9 +1,9 @@
 ---
 title: 'MIM_DATA 訊息 (Mmsystem .h) '
-description: '\_當 midi 輸入裝置收到 midi 訊息時，會將 MIM 資料訊息傳送至 midi 輸入回撥函式。'
+description: '\_當 midi 輸入裝置收到 midi 訊息時，會將 MIM 的資料訊息傳送至 midi 輸入回撥函式。'
 ms.assetid: 966aab84-420a-42ce-9989-da5910ced9c0
 keywords:
-- MIM_DATA message Windows 多媒體
+- MIM_DATA 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a11d2701d488fe29ae6d0bc0742c32c803b28076
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: bebbb9ca6016706605de8fed29e5fa5ebaf6055f4a730fb563323f306606b866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137287"
 ---
-# <a name="mim_data-message"></a>MIM \_ 資料訊息
+# <a name="mim_data-message"></a>MIM \_資料訊息
 
-當 MIDI 輸入裝置收到 MIDI 訊息時，會將 **MIM \_ 資料** 訊息傳送至 midi 輸入回撥函式。
+當 midi 輸入裝置收到 midi 訊息時，會將 **MIM 的 \_ 資料** 訊息傳送至 midi 輸入回撥函式。
 
 
 ```C++
@@ -85,7 +85,7 @@ dwParam2 = dwTimestamp
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 61dc0eff-2033-464a-a558-1798a92d48a2
 title: '通訊協定旗標 (Wincrypt .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c25804763e407ff2a12e5657878e343f483d353e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a71fcf5b6d6b7edcb545ae41dc29fdfd0a0962cd6d475be54fb371ac96acd70e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117976706"
 ---
 # <a name="protocol-flags"></a>通訊協定旗標
 
@@ -17,7 +17,7 @@ ms.locfileid: "103944869"
 
 
 
-| 常數/值                                                                                                                                                                                                                            | Description                                                           |
+| 常數/值                                                                                                                                                                                                                            | 描述                                                           |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
 | <span id="CRYPT_FLAG_IPSEC"></span><span id="crypt_flag_ipsec"></span><dl> <dt>**CRYPT \_旗標 \_ IPSEC**</dt> <dt>0x0010</dt> </dl>       | 網際網路通訊協定安全性 (IPsec) 通訊協定。<br/>               |
 | <span id="CRYPT_FLAG_PCT1"></span><span id="crypt_flag_pct1"></span><dl> <dt>**CRYPT \_旗標 \_ PCT1**</dt> <dt>0x0001</dt> </dl>          | 私人通訊傳輸 (PCT) 第1版通訊協定。<br/> |
@@ -34,8 +34,8 @@ ms.locfileid: "103944869"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Wincrypt。h</dt> </dl> |
 
 

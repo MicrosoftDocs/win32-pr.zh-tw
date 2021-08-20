@@ -13,18 +13,18 @@ api_type:
 - HeaderDef
 api_location:
 - Rkeysvcc.h
-ms.openlocfilehash: ce905594d1ed088eb72dc59a1fa6beec576384ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbcd0edea891ba500cbed366121d333f45e34491f1d140af8cee59f7957d98cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117974826"
 ---
 # <a name="rkeyopenkeyservice-function"></a>RKeyOpenKeyService 函式
 
 不支援 **RKeyOpenKeyService** 函數。
 
-**Windows Server 2003：****RKeyOpenKeyService** 函式會建立與遠端電腦的連線，並開啟金鑰服務控制碼。 然後， [**RKeyPFXInstall**](rkeypfxinstall.md) 函式可以使用金鑰服務控制碼。 請注意，此行為已隨著 Windows Server 2003 Service Pack 1 (SP1) 而變更。
+**Windows Server 2003：****RKeyOpenKeyService** 函式會建立與遠端電腦的連線，並開啟金鑰服務控制碼。 然後， [**RKeyPFXInstall**](rkeypfxinstall.md) 函式可以使用金鑰服務控制碼。 請注意，這種行為隨著 Windows Server 2003 Service Pack 1 (SP1) 而有所變更。
 
 ## <a name="syntax"></a>語法
 
@@ -111,7 +111,7 @@ ULONG RKeyOpenKeyService(
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Rkeysvcc。h</dt> </dl> |
 
 

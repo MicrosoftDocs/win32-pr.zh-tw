@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e0f0f6474c6ed8883eb591591eff387fe387f7d6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: adbcec006add6f06651869ae9c03c17f476ea4b3679f8ddba724a1890f73f1d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975248"
 ---
 # <a name="recipients-object"></a>收件者物件
 
@@ -51,7 +51,7 @@ ms.locfileid: "108103736"
 | 方法                              | 描述                                                                            |
 |:------------------------------------|:---------------------------------------------------------------------------------------|
 | [**添加**](recipients-add.md)       | 將 [**憑證**](certificate.md) 物件加入至集合。<br/>         |
-| [**清楚**](recipients-clear.md)   | 從集合中移除所有的 [**憑證**](certificate.md) 物件。<br/> |
+| [**清除**](recipients-clear.md)   | 從集合中移除所有的 [**憑證**](certificate.md) 物件。<br/> |
 | [**移除**](recipients-remove.md) | 從集合中移除 [**憑證**](certificate.md) 物件。<br/>    |
 
 
@@ -64,9 +64,9 @@ ms.locfileid: "108103736"
 
 
 
-| 屬性                                           | 存取類型          | Description                                                                                                                                                                                                                     |
+| 屬性                                           | 存取類型          | 描述                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](recipients-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic Scripting Edition (VBScript) 中隱藏。<br/> |
+| [**\_NewEnum**](recipients-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic 腳本版本 (VBScript) 中隱藏。<br/> |
 | [**計數**](recipients-count.md)<br/>       |                      | 收件 **者集合中的物件** 數目。<br/>                                                                                                                                                              |
 | [**項目**](recipients-item.md)<br/>         |                      | 集合中的索引物件。 這是預設屬性。<br/>                                                                                                                                                   |
 

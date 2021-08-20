@@ -15,12 +15,12 @@ keywords:
 - 檔案 i/o 參考，訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 006ba55a7ff3282abe18b0f4a363f2a58e9590df
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1aa543d976acf953512d800f2a5b183a7b1e73acd799920b6a72b48531d04161
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136990"
 ---
 # <a name="multimedia-file-io-messages"></a>多媒體檔案 i/o 訊息
 
@@ -41,9 +41,9 @@ ms.locfileid: "103674428"
 [多媒體檔案 i/o 參考](multimedia-file-i-o-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

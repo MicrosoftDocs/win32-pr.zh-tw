@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_VIDEOFORMAT 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 設定 \_ VIDEOFORMAT 訊息會設定所捕獲影片資料的格式。 您可以使用 capSetVideoFormat 宏明確地傳送此訊息。
 ms.assetid: 4f9cf90d-7ccb-4fc7-aad5-3d7e082526be
 keywords:
-- WM_CAP_SET_VIDEOFORMAT message Windows 多媒體
+- WM_CAP_SET_VIDEOFORMAT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba6154ec1532bd83f482eb81a0e286795aa3341
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c543f613fedf54518579829d6825bd20dc4738ae03cb77f0996f8a58a123cb76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135011"
 ---
 # <a name="wm_cap_set_videoformat-message"></a>WM \_ CAP \_ 設定 \_ VIDEOFORMAT 訊息
 

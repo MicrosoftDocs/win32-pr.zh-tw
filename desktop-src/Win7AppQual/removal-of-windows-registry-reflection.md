@@ -4,19 +4,19 @@ ms.assetid: 4b42d44d-cde8-4d96-96c5-24b7ab7e4cec
 title: 移除 Windows 登錄反映
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeab0109cbbac988c89d6add91fa899cea9169ad
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4a9fcd31686754f9bf2d92994bec4a53b39edaf5d94b34f464e1dfdbf1179c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118328977"
 ---
 # <a name="removal-of-windows-registry-reflection"></a>移除 Windows 登錄反映
 
 ## <a name="platform"></a>平台
 
 **客戶** 端-Windows 7  
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
 
 
@@ -35,9 +35,9 @@ ms.locfileid: "108116256"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-登錄反映程式會在兩個登錄視圖之間複製登錄機碼和值，讓它們保持同步。在64舊版的 Windows 中，此程式會反映32位和64位之間的重新導向登錄機碼子集。 但是，這種方式的執行會導致登錄的狀態不一致。  (如需登錄反映的詳細資訊，請參閱下面的 *其他資源連結* 中的對應 MSDN 文章。 ) 
+登錄反映程式會在兩個登錄視圖之間複製登錄機碼和值，讓它們保持同步。在舊版 Windows 的64位安裝中，此程式會反映32位和64位之間的重新導向登錄機碼子集。 但是，這種方式的執行會導致登錄的狀態不一致。  (如需登錄反映的詳細資訊，請參閱下面的 *其他資源連結* 中的對應 MSDN 文章。 ) 
 
 從 Windows 7 開始，我們已完全移除登錄反映，併合並用來反映的金鑰：
 
@@ -72,7 +72,7 @@ ms.locfileid: "108116256"
 
 COM 是登錄反映的主要取用者。 已更新 COM 和其他取用者以配合此變更。 此變更不會影響使用標準 COM Api 的應用程式。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 如果您要依賴登錄反映來同步處理32位和64位的視圖，請套用下列其中一個選項：
 

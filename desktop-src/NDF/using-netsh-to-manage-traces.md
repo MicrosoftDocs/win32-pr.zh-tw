@@ -4,12 +4,12 @@ description: 在 Windows 7 中，您可以從命令提示字元使用 netsh.exe 
 ms.assetid: f0f0fc7b-7cfa-43c7-89a3-3b80050875f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c1cf869f60b69e227e78e19e8e05d3765ddb67d
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 07c4be1c89c496245cb67bec4aef8614f5efef5db003e6c79cef2e54314c3071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133251"
 ---
 # <a name="using-netsh-to-manage-traces"></a>使用 Netsh 來管理追蹤
 
@@ -23,7 +23,7 @@ ms.locfileid: "113119023"
 
 您可以針對指定案例或一組案例中的所有提供者啟動追蹤。 例如，若要針對在 InternetClient 案例下啟用的所有提供者啟動追蹤，請輸入 **netsh trace start 情節 = InternetClient**。 若要為多個案例捕捉提供者，您可以指定所有適當的案例，例如 **netsh trace start 情節 = 可共用的案例 = DirectAccess**。 請注意，一次只能啟用一個追蹤會話;在不同的檔案中，不可能同時從不同的提供者集合中捕捉追蹤資訊。
 
-您也可以針對未包含在該特定案例中的其他提供者啟動追蹤。 例如，您可能想要針對在 WLAN 案例和 DHCP 提供者下啟用的所有提供者啟動追蹤。 若要這樣做，請輸入 **netsh trace start 情節 = wlan 提供者 = Microsoft-Windows-Dhcp-Client**。
+您也可以針對未包含在該特定案例中的其他提供者啟動追蹤。 例如，您可能想要針對在 WLAN 案例和 DHCP 提供者下啟用的所有提供者啟動追蹤。 若要這樣做，請輸入 **netsh trace start 情節 = wlan 提供者 = Microsoft-Windows-Dhcp 用戶端**。
 
 您也可以輸入 **netsh trace show provider** ，後面接著提供者名稱，以查看特定提供者的更多詳細資料。
 
@@ -49,7 +49,7 @@ ms.locfileid: "113119023"
 
 若要查看可以套用的篩選器清單，請輸入 **netsh trace start/？**
 
-以下是一個篩選準則的範例 **： netsh trace Start InternetClient provider = Microsoft-Windows-TCPIP level = 5 關鍵字 =： ReceivePath，ui： SendPath**。
+以下是一個篩選準則的範例 **： netsh trace start InternetClient provider = Microsoft-Windows TCPIP level = 5 關鍵字 =： ReceivePath，ui： SendPath**。
 
 在此範例中，層級會設為5，這表示會顯示最大事件數目。 下表顯示可用的設定：
 
@@ -67,7 +67,7 @@ ms.locfileid: "113119023"
 
  
 
-關鍵字 **ReceivePath** 和 Ui **： SentPath** 會篩選事件，只顯示在接收或傳送路徑上追蹤的事件。 輸入 **netsh trace show provider** ，後面接著提供者名稱，即可找到特定提供者的關鍵字完整清單。 例如，輸入 **netsh trace show Provider microsoft-windows-tcpip** 將會顯示有關 MICROSOFT windows tcpip 提供者的資訊，包括關鍵字清單。
+關鍵字 **ReceivePath** 和 Ui **： SentPath** 會篩選事件，只顯示在接收或傳送路徑上追蹤的事件。 輸入 **netsh trace show provider** ，後面接著提供者名稱，即可找到特定提供者的關鍵字完整清單。 例如，輸入 **netsh trace show provider microsoft Windows TCPIP** 將會顯示與 microsoft Windows tcpip 提供者相關的資訊，包括關鍵字清單。
 
 Netsh 也支援封包篩選功能 (類似于網路監視器) 當封包捕捉開啟 (時，請設定 **[capture = yes]**) 。 您可以使用封包篩選，在追蹤檔案中捕捉有限數量的封包。 例如， **netsh trace start capture = yes ipv4. address = = x** . x. x，其中 X.X.X.X 是 IP 位址，只會以具有該特定來源或目的地位址的 ipv4 流量來捕捉封包。
 

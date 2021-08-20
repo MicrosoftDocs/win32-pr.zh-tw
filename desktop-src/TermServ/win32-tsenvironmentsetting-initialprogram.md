@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccd41e1af990e37b8458431106bc2ec9a8489b14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9d13aaa0e4dfb4e0d16bea89bf871a7a890c0f375fd928e70fd99aed20c003be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126987"
 ---
 # <a name="initialprogram-method-of-the-win32_tsenvironmentsetting-class"></a>Win32 TSEnvironmentSetting 類別的 InitialProgram 方法 \_
 

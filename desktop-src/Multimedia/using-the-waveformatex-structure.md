@@ -9,12 +9,12 @@ keywords:
 - PCM 音訊資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1534cf660c2f2423dc526c3d29f8eca06878fc0c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4a3831d9760580f294573a4bc1bec3aef1d42cf345b2d714a897b22940a89a0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136052"
 ---
 # <a name="using-the-waveformatex-structure"></a>使用 WAVEFORMATEX 結構
 
@@ -83,6 +83,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

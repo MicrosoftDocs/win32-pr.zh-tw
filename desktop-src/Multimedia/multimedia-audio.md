@@ -9,16 +9,16 @@ keywords:
 - 音訊、關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e34c23fc0c3b2d6a2bddf00d518dcf99d7faf684
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3fa906cacb9ce554ee2c391976ecb89b0a10e6bbeacb0d4f00c064410515cb01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137115"
 ---
 # <a name="multimedia-audio"></a>多媒體音訊
 
-Windows 提供的功能可讓應用程式新增音訊服務。 多媒體音訊功能是在16位 Windows 中引進。 其中有許多功能已由 DirectX 中的功能所取代。 如需詳細資訊，請參閱 DirectX 檔。
+Windows 提供可讓應用程式新增音訊服務的功能。 多媒體音訊功能是在16位 Windows 引進。 其中有許多功能已由 DirectX 中的功能所取代。 如需詳細資訊，請參閱 DirectX 檔。
 
 多媒體音訊檔中會討論下列主題。
 
@@ -29,9 +29,9 @@ Windows 提供的功能可讓應用程式新增音訊服務。 多媒體音訊�
 
 您也可以使用媒體控制項介面來播放音訊。 如需詳細資訊，請參閱 [MCI](mci.md)。
 
- 
+ 
 
- 
+ 
 
 
 

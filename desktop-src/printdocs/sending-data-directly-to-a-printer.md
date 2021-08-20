@@ -4,12 +4,12 @@ ms.assetid: 321f2333-d88e-4042-b9b1-0d918b3209d4
 title: 如何：將資料直接傳送至 GDI 印表機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1968b435068a62ce7a7d379a66c1500d04d8936a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12d89dd847a71bbf90c04b8a585ca51ac7f68482cf579c22fac270d869ab9b05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056228"
 ---
 # <a name="how-to-send-data-directly-to-a-gdi-printer"></a>如何：將資料直接傳送至 GDI 印表機
 

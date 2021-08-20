@@ -11,12 +11,12 @@ keywords:
 - 操縱杆，輪詢頻率
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b317d5a0c8deb48b49224fd051ecb7ce5a0bbced
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 311109468485a8174d9567516e747ef786019cc105c378ee91b55fa2f123c5cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140446"
 ---
 # <a name="joystick-capabilities"></a>搖桿功能
 
@@ -28,6 +28,6 @@ ms.locfileid: "103682212"
 
 每個搖桿都有數個可供您的應用程式使用的功能。 您可以使用 [**joyGetDevCaps**](/windows/win32/api/joystickapi/nf-joystickapi-joygetdevcaps) 函式來取出搖桿的功能。 此函式會以搖桿功能填滿 [**JOYCAPS**](/windows/win32/api/joystickapi/ns-joystickapi-joycaps) 結構，例如其座標系統的最小值和最大值、搖桿上的按鈕數目，以及最小和最大輪詢頻率。
 
- 
+ 
 
- 
+ 

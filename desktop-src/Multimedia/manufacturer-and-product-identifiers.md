@@ -5,7 +5,7 @@ ms.assetid: ab68ffd2-208f-445b-9f5c-37159edb4d4b
 keywords:
 - Windows 多媒體，製造商識別碼
 - 多媒體，製造商識別碼
-- Windows 多媒體，產品識別碼
+- Windows 多媒體、產品識別碼
 - 多媒體、產品識別碼
 - 製造商識別碼
 - 產品識別碼
@@ -14,12 +14,12 @@ keywords:
 - 多媒體公司
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e559905ecd3e8db5bb791a32ea1d208bdf0d0c39
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88222f35d7e865dba201ca5dc5edf229390f5611f9d6e814394e921402f8f8c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138823"
 ---
 # <a name="manufacturer-and-product-identifiers"></a>製造商和產品識別碼
 
@@ -33,7 +33,7 @@ ms.locfileid: "103839752"
 > [!Note]  
 > Microsoft 不再針對產品識別碼維護中央登錄。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -42,9 +42,9 @@ ms.locfileid: "103839752"
 [多媒體附錄](multimedia-appendix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

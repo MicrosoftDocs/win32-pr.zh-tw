@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 614777ede63605dc7ed6936bda952c6071bda371
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f29cc4b702ba93aec44e3460279976f50c5563463accfb58b920ad79b757126a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131580"
 ---
 # <a name="schedulebyday-calendartriggertype-element"></a>ScheduleByDay (calendarTriggerType) 元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "103934866"
 
 
 
-| 元素                                                                             | 衍生自                                                                       | Description                                                                                |
+| 元素                                                                             | 衍生自                                                                       | 描述                                                                                |
 |-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | [**CalendarTrigger**](taskschedulerschema-calendartrigger-triggergroup-element.md) | [**calendarTriggerType**](taskschedulerschema-calendartriggertype-complextype.md) | 指定每日、每週、每月或每週 (DOW) 觸發程式。<br/> |
 
@@ -47,7 +47,7 @@ ms.locfileid: "103934866"
 
 
 
-| 元素                                                                            | 類型             | Description                                                         |
+| 元素                                                                            | 類型             | 描述                                                         |
 |------------------------------------------------------------------------------------|------------------|---------------------------------------------------------------------|
 | [**DaysInterval**](taskschedulerschema-daysinterval-dailyscheduletype-element.md) | **unsignedByte** | 指定排程中天數之間的間隔。<br/> |
 
@@ -88,8 +88,8 @@ ms.locfileid: "103934866"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

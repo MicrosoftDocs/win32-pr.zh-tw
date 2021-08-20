@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETERROR 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETERROR 訊息會捕獲最後發生的 MCI 錯誤。 您可以使用 MCIWndGetError 宏明確地傳送此訊息。
 ms.assetid: f110a9b3-5b05-4bf0-85d1-b49ce7396222
 keywords:
-- MCIWNDM_GETERROR message Windows 多媒體
+- MCIWNDM_GETERROR 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c2977bb079351824b48da21f4ba3cc2dc5afe7e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b748aec6cf686ecf47baf8deae621514e620971f5e1da667f8e4f0aae708ab80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137719"
 ---
 # <a name="mciwndm_geterror-message"></a>MCIWNDM \_ GETERROR 訊息
 

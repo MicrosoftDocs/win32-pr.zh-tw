@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETEND 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETEND 訊息會抓取 MCI 裝置或檔案的內容結尾位置。 您可以使用 MCIWndGetEnd 宏明確地傳送此訊息。
 ms.assetid: 3fa45928-af63-4f87-835d-f409011a797e
 keywords:
-- MCIWNDM_GETEND message Windows 多媒體
+- MCIWNDM_GETEND 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d18057619e31fa9b22d7f6354527c394c02798
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 880b1a464d671ca57e1955d4131776a999d1fb6bd8f17ad5d08139abc64a757b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137729"
 ---
 # <a name="mciwndm_getend-message"></a>MCIWNDM \_ GETEND 訊息
 
