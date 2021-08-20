@@ -1,9 +1,9 @@
 ---
 title: 'ICM_COMPRESS_FRAMES_INFO 訊息 (Vfw .h) '
-description: ICM \_ 壓縮 \_ 框架 \_ 資訊訊息會通知壓縮驅動程式，以設定暫止壓縮的參數。
+description: ICM \_ 壓縮 \_ 畫面格 \_ 資訊訊息會通知壓縮驅動程式，以設定暫止壓縮的參數。
 ms.assetid: d2f6f3b7-dff6-4fef-a642-cb77b00119af
 keywords:
-- ICM_COMPRESS_FRAMES_INFO message Windows 多媒體
+- ICM_COMPRESS_FRAMES_INFO 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbb6df0eab7706ebfc03a5e3069d4323be26ecdb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2382a930b0ce12e212adf78ddaf3c7e1b3300e47597b4671d0eae223cb536f73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140909"
 ---
-# <a name="icm_compress_frames_info-message"></a>ICM \_ 壓縮 \_ 框架 \_ 資訊訊息
+# <a name="icm_compress_frames_info-message"></a>ICM \_壓縮 \_ 框架 \_ 資訊訊息
 
-**ICM \_ 壓縮 \_ 框架 \_ 資訊** 訊息會通知壓縮驅動程式，以設定暫止壓縮的參數。
+**ICM \_ 壓縮畫面 \_ 格 \_ 資訊** 訊息會通知壓縮驅動程式，以設定暫止壓縮的參數。
 
 
 ```C++

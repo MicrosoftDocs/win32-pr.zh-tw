@@ -4,12 +4,12 @@ ms.assetid: 214debba-4256-4682-b98d-0bbfb2d68a13
 title: 比利時通道指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fb1d295c8ff4c5fc28a7c0a92f3d787f3d92ec6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8cd4bef5c934fcedb3cccc92921ec449aeb274bc764accf42d0225d85646be04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159260"
 ---
 # <a name="belgium-channel-assignments"></a>比利時通道指派
 
@@ -17,7 +17,7 @@ ms.locfileid: "104109540"
 
 如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。
 
-在 Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
+Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
 
 ## <a name="cable-assignments"></a>纜線指派
 

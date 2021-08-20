@@ -15,12 +15,12 @@ keywords:
 - 介面，System.windows.automation.provider.irangevalueprovider>
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf426069ad88ad272fd78c521a220ba7ccf72275
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae87ca25fd1ada2f57ce77412fb589875792541fd2b5d31d6eb0aa86192dee36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114859"
 ---
 # <a name="rangevalue-control-pattern"></a>RangeValue 控制項模式
 
@@ -53,13 +53,13 @@ ms.locfileid: "106968435"
 | [**值**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_value)             | 屬性    | 無  |
 | [**LargeChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_largechange) | 屬性    | 無  |
 | [**SmallChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_smallchange) | 屬性    | 無  |
-| [**最大**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | 屬性    | 無  |
+| [**最大值**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | 屬性    | 無  |
 | [**最小值**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum)         | 屬性    | 無  |
 | [**SetValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-setvalue)       | 方法      | 無  |
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -76,9 +76,9 @@ ms.locfileid: "106968435"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

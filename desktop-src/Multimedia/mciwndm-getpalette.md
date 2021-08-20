@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETPALETTE 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETPALETTE 訊息會抓取 MCI 裝置所使用的調色板控制碼。 您可以使用 MCIWndGetPalette 宏明確地傳送此訊息。
 ms.assetid: f8426344-0fee-4419-9d8a-dcee26cb4c28
 keywords:
-- MCIWNDM_GETPALETTE message Windows 多媒體
+- MCIWNDM_GETPALETTE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faec3dd5d9c401d943fbc55ca58e452d3fb25497
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 319fe1fedc21c064896c3316d0a45132c034b73c25bf107ee667269a13ed678b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137699"
 ---
 # <a name="mciwndm_getpalette-message"></a>MCIWNDM \_ GETPALETTE 訊息
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c45f004421a273f6dd2e6ab2d61810d9332ca17
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0aceb8d343859f23018a5f29777599bbc7fc479828efdacaae3a4b87bb141b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126478"
 ---
 # <a name="ui_animation_iteration_none"></a>UI \_ 動畫 \_ 反復專案 \_ 無
 
@@ -44,10 +44,10 @@ UINT32
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅適用于 Windows 7 \[ 桌面應用程式的 Windows 8、windows 7 和平臺更新\]<br/>    |
+| 最低支援的用戶端<br/> | Windows 8，僅適用于 Windows 7 \[ 桌面應用程式的 Windows 7 和平臺更新\]<br/>    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                  |
 | 標頭<br/>                   | <dl> <dt>UIAnimation。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>UIAnimation .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>UIAnimation .idl</dt> </dl> |
 
 
 

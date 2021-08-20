@@ -4,18 +4,18 @@ ms.assetid: 30f667cd-5be9-45f2-9d55-bff04834078f
 title: SPI 中的通訊協定 IndependentOut 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b53e5c7c5c8c8ad7a5985ec101dd157370c5f32f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a55e186e34e401e56017097271d5f036f2666bdc51f8bc27c6692be7e12874e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993608"
 ---
 # <a name="protocol-independentout-of-band-data-in-the-spi"></a>SPI 中的通訊協定 IndependentOut 資料
 
 頻外 (OOB) 資料是與一組連接的串流通訊端相關聯的邏輯獨立傳輸通道。 OOB 資料可能會與一般資料分開傳遞給使用者。 此抽象概念會定義 OOB 資料設施一次至少必須支援至少一個 OOB 資料區塊的可靠傳遞。 此資料區塊可能包含至少一個位元組的資料，而且至少有一個 OOB 資料區塊可能會在任何一次都有擱置的傳遞給使用者。 針對支援頻外信號的通訊協定 (也就是 TCP，也就是以一般資料) 順序傳遞緊急資料的情況下，系統通常會從一般資料流程中將 OOB 資料解壓縮，並將其分開儲存 (在一般資料流程) 中留出間距。 這可讓使用者依序接收 OOB 資料並依序接收該資料，而不需要緩衝所有的中間資料。 您可以查看 OOB 資料。
 
-使用者可以使用 [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) (SIOCATMARK) 函數，判斷是否有任何的 OOB 資料正在等候讀取。 若為通訊協定，則一般資料流程內 OOB 資料區塊位置的概念會有意義 (也就是 TCP) ，Windows 通訊端服務提供者將會維護概念性標記，指出一般資料流程內 OOB 資料最後一個位元組的位置。 **WSPIoctl** (SIOCATMARK) 功能的執行不需要這項功能，因為 OOB 資料的存在與否都是必要的。
+使用者可以使用 [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) (SIOCATMARK) 函數，判斷是否有任何的 OOB 資料正在等候讀取。 若為通訊協定，則一般資料流程內 OOB 資料區塊位置的概念有意義 (也就是 TCP) ，Windows 通訊端服務提供者將會維護概念性標記，指出一般資料流程內 oob 資料最後一個位元組的位置。 **WSPIoctl** (SIOCATMARK) 功能的執行不需要這項功能，因為 OOB 資料的存在與否都是必要的。
 
 若為通訊協定，則一般資料流程內 OOB 資料區塊位置的概念會有意義，因為這是一般資料流程的一部分，所以應用程式可能偏好以內嵌方式處理頻外資料。 這是藉由設定通訊端選項來達成，因此 \_ OOBINLINE (請參閱 [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85))) 一節。 對於 OOB 資料區塊真正獨立于一般資料流程的其他通訊協定，嘗試設定 \_ OOBINLINE 會導致錯誤。 應用程式可以使用 SIOCATMARK WSPIoctl 命令，判斷標記前面是否有任何未讀取的 OOB 資料。 例如，它可能會使用這項功能，藉由確保在適當的情況下捨棄資料流程中標示的所有資料，來重新同步處理其對等。
 

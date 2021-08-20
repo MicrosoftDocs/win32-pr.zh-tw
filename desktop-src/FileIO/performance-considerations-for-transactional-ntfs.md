@@ -1,15 +1,15 @@
 ---
-description: 最佳檔案系統交易的建議。
+description: 適用于最佳檔案系統交易的建議。
 ms.assetid: 847939ff-5322-4023-8ef7-9d845e80d65c
 title: 交易式 NTFS 的效能考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a71f7e100e1ddd8524932a4a259a12092bddcb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f32729725ecc6ba59808eabe1fa12a5b798c9413c52d1591bd22b498e6a5856d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117996712"
 ---
 # <a name="performance-considerations-for-transactional-ntfs"></a>交易式 NTFS 的效能考慮
 
@@ -33,7 +33,7 @@ TxF 運作方式的高階摘要如下所示：
 -   針對涉及檔案覆寫的交易，TxF 的效能成本可能很重要。
 -   僅涉及中繼資料作業之交易的 TxF 效能成本可能相對較低，但前提是使用大型交易。 大型交易是針對每個認可記錄有許多恢復記錄。
 
-## <a name="recommendations-for-best-performance"></a>最佳效能建議
+## <a name="recommendations-for-best-performance"></a>建議為了達到最佳效能
 
 針對較大型的交易進行分攤 TxF 負擔。 例如，如果您有 *n* 個變更集，讓每個變更都有 *m* 個步驟，而且您可以選擇將它視為 *n* 個步驟的交易（每個步驟都有 m *個步驟*），或將其全部做為具有 *m* \* *N* 步驟的單一交易，則第二個選項會更有效率。
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc0f71985d948e59b8c0f98d50445a48263d67cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ddcff262f21b4f31daff6f704dba1cb096f54bb295a21a3ae9a7c90f574af34f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116602"
 ---
 # <a name="wmproviderrating-attribute"></a>WM/ProviderRating 屬性
 
@@ -28,7 +28,7 @@ ms.locfileid: "106995269"
 -   [音訊專案](audio-item-attributes.md)
 -   [CD 播放清單](cd-playlist-attributes.md)
 -   [CD 曲目](cd-track-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 -   [DVD](dvd-attributes.md)
 -   [影片專案](video-item-attributes.md)
 
@@ -38,7 +38,7 @@ ms.locfileid: "106995269"
 
 **評** 等是此屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMProviderRating。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMProviderRating。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

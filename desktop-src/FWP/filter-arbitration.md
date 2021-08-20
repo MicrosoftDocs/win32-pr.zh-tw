@@ -4,12 +4,12 @@ description: 篩選仲裁是內建在 Windows 篩選平台 (WFP) 的邏輯，用
 ms.assetid: d097f307-113e-4dc3-ad59-ddfb85061583
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fd7df778d1c24b7480de3321e7a1ec126d8e642
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7640e94440cf040d9ca51b6c639dc66e3e8a767024d6dbcd01b9c0cd2b87a24b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151184"
 ---
 # <a name="filter-arbitration"></a>篩選仲裁
 
@@ -70,7 +70,7 @@ ms.locfileid: "103682284"
 
 
 
-| 動作 | 允許覆寫 (\_ FWPS \_ \_ 已設定正確的動作寫入)  | Description                                                                                                          |
+| 動作 | 允許覆寫 (\_ FWPS \_ \_ 已設定正確的動作寫入)  | 描述                                                                                                          |
 |--------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | 允許 | Yes                                                | 您可以在另一個子層封鎖流量。 這稱為「軟許可」。<br/>                            |
 | 允許 | No                                                 | 只有注標拒絕才能在另一個子層封鎖 **流量。** 這稱為「硬許可」。<br/> |

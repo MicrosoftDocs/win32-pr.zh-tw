@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd7d913d06ef51ac668a7e4d3c4bf692836fbc7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f184b17582e00be96dbd2e4e7a4f8a0af3acf800a0e76adebf3925acf4ac3c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115811"
 ---
 # <a name="iwmperroritemremedy-property"></a>IWMPErrorItem：：矯正屬性
 

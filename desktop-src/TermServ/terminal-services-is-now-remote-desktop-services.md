@@ -5,18 +5,18 @@ ms.assetid: 49f9e9fe-987d-43fc-9f36-642842f18aa9
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fa47c5c16d16936b61790d03913e1e4c8632d65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9996a42ab5074ad36e0a313997ff8e475a06da04a556aa4d4642404dfa1ac343
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000018"
 ---
 # <a name="terminal-services-is-now-remote-desktop-services"></a>終端機服務現在遠端桌面服務
 
 終端機服務已重新命名為遠端桌面服務。
 
-在 Windows Server 2008 R2 中，所有遠端桌面服務角色服務都已重新命名。 下表列出每個遠端桌面服務角色服務的先前名稱和新名稱。
+在 Windows Server 2008 R2 中，所有遠端桌面服務的角色服務都已重新命名。 下表列出每個遠端桌面服務角色服務的先前名稱和新名稱。
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f9def67a-c4ea-4014-929f-51fbd10d770a
 title: 還原清除和終止的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 391e029cdb109589b42240b5482f6aba2ff43555
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e8ad0b7d40f3c0e5322810f96bb120f28effe4ec3f0d4e278af924962713b2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122030"
 ---
 # <a name="overview-of-restore-clean-up-and-termination"></a>還原清除和終止的總覽
 
@@ -44,7 +44,7 @@ ms.locfileid: "104026580"
 它如何處理還原錯誤、還原到替代位置的檔案，以及未來的還原需求，完全是作者的決定。 一般動作可能包括將替代或新位置中的檔案與目前使用中的檔案進行比較、合併多個檔案的資料，或開始新的會話連接到新的資料檔案。 VSS 提供下列機制，可依元件分別支援此項：
 
 -   您可以使用 [**>ivsscomponent：： GetFileRestoreStatus**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getfilerestorestatus)，找到還原任何元件的成功或失敗。
--   [**>ivsscomponent：： GetAlternateLocationMapping**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getalternatelocationmapping)會指出在還原檔案中使用替代位置對應的方式。
+-   [**>Ivsscomponent：： GetAlternateLocationMapping**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getalternatelocationmapping)會指出在還原檔案中使用替代位置對應的方式。
 -   藉由呼叫 [**>ivsscomponent：： GetAdditionalRestores**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getadditionalrestores)，來判斷還原是否為累加式，以及是否需要進一步的還原。 需要完整還原其資料的寫入器不應重新開機，直到此方法傳回 false 為止。
 -   寫入器可以使用 [**>ivsscomponent：： GetNewTargetCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtargetcount)和 [**>ivsscomponent：： GetNewTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtarget) ，判斷要求者是否需要將檔案還原至先前未指定的位置
 

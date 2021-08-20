@@ -4,12 +4,12 @@ ms.assetid: 4c3950d7-4ad3-4518-9a98-2c8da8c4afc8
 title: COM + SOAP 服務概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49591abc1c88529abfc8a32f81f75f47ca80696d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9fb673f2411130116c4ee76fd33b1d42de5e39c6275227a77581f585b2dc47f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118102622"
 ---
 # <a name="com-soap-service-concepts"></a>COM + SOAP 服務概念
 

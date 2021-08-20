@@ -1,6 +1,6 @@
 ---
 title: Win32_TSLicenseServer 類別的 RemoveTSCGroup 方法
-description: RemoveTSCGroup 不再適用于 Windows Server 2012。
+description: RemoveTSCGroup 不再提供 Windows Server 2012 使用。
 ms.assetid: e5e3eca9-4990-4322-b41d-c6b6b3356272
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26ca693e7e98ca811ce52292fb26622b7f2174cf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ebcd3c0eacb54a14675d2794f1c42f8e7a18cd9ea78c7f6369ef883cc3d9fad3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118127503"
 ---
 # <a name="removetscgroup-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 RemoveTSCGroup 方法 \_
 
-\[**RemoveTSCGroup** 不再適用于 Windows Server 2012。\]
+\[**RemoveTSCGroup** 不再提供 Windows Server 2012 使用。\]
 
 不支援這個方法。
 

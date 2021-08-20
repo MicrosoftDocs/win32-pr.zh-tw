@@ -4,12 +4,12 @@ ms.assetid: 547fc662-f055-421e-a621-eecdfa0b13f6
 title: 語言
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc87cb8b88dc3a693eee6890276adb67ad359e7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b98e24ec0ad4d4b42dfcba02374792e10ea117db474a973eae06336a55834538
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013126"
 ---
 # <a name="language"></a>語言
 

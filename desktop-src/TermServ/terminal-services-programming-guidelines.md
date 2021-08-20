@@ -8,16 +8,16 @@ keywords:
 - 程式設計指導方針遠端桌面服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e767740a2f279c90ce4f0eb37c49919749465ad1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2f1f935ada4dfe486b418b5ec3b6f347eb6166e6b392a3adc1bd8c1e5987a773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999868"
 ---
 # <a name="remote-desktop-services-programming-guidelines"></a>遠端桌面服務程式設計指導方針
 
-大部分現有的32位或64位 Windows 架構應用程式會在先前稱為終端機服務) 環境的遠端桌面服務 (中以相同的方式執行。 不過，有些應用程式在遠端桌面服務環境中正常運作並正常運作，而有些則沒有。 下列主題提供在遠端桌面服務環境中開發應用程式的指導方針。
+大部分現有的32位或64位 Windows 架構應用程式會在先前稱為終端機服務) 環境的遠端桌面服務 (中，以相同的方式執行。 不過，有些應用程式在遠端桌面服務環境中正常運作並正常運作，而有些則沒有。 下列主題提供在遠端桌面服務環境中開發應用程式的指導方針。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -74,6 +74,6 @@ ms.locfileid: "106968705"
 [存取控制模型](/windows/desktop/SecAuthZ/access-control-model)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 7fee40cb-54db-41e0-ba42-6bc62d0ab3bd
 title: 關於檔案記錄檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f86f872589ae14e4826991f7dd51fc7954603e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26f2ba9035098290c11c014a7081a84abdb031e3bff5668db764028f9d8aed6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966393"
 ---
 # <a name="about-the-file-log"></a>關於檔案記錄檔
 

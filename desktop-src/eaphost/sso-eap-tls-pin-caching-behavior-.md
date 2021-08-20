@@ -4,12 +4,12 @@ description: 提供逐步的方法來解決會話繼續的問題，以及在 SSO
 ms.assetid: aeded6c9-315d-4115-9750-485f017dd8dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b7c4e3058598f98327570fbcd0347cfb84e5825
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: a8bc8cb112a6def55085cbd0b94068407320e4116a4b0161d7d923319257258f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104092473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085882"
 ---
 # <a name="sso-eap-tls-pin-caching-behavior"></a>SSO EAP-TLS PIN 快取行為
 
@@ -23,7 +23,7 @@ ms.locfileid: "104092473"
     > [!Note]  
     > 雖然受限於特定要求者的執行，但建議要求者保留要求者最後在 [**EapHostPeerQueryUserBlobFromCredentialInputFields**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields)呼叫中用來 EAPHost 的整個 [**EAP 設定 \_ \_ 輸入 \_ 欄位陣列**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array)結構。
 
-     
+     
 
 -   當使用者第一次漫遊和重新驗證開始時，要求者會再次使用相同的 [**EAP 設定 \_ \_ 輸入 \_ 欄位陣列**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array)結構來呼叫 [**EapHostPeerQueryUserBlobFromCredentialInputFields**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields) ; 要求者也必須在第一次成功驗證之後，傳入保留的相同使用者 BLOB。
 -   然後，EAPHost 會將使用者 BLOB 中的資訊傳遞給 EAP 方法。
@@ -40,9 +40,9 @@ ms.locfileid: "104092473"
 [SSO 和 PLAP](understanding-sso-and-plap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

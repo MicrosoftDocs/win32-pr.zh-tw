@@ -15,12 +15,12 @@ keywords:
 - 刻度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2daf5b1847456e8fb518665521e484118fead79
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f6a75be9964457c64c7c1da59cb93aab2e423f72e861ba496494a5007025461c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804738"
 ---
 # <a name="timing-information"></a>計時資訊
 
@@ -32,6 +32,6 @@ MIDI 事件的計時資訊儲存在 [**MIDIEVENT**](/windows/win32/api/mmeapi/ns
 
 SMPTE 時間分割格式會完全指定滴答的長度，而不需要節奏資訊。 使用 SMPTE 時間格式時，可以與其他的 SMPTE 事件（例如影片或等量音訊）同步處理 MIDI 序列。 「SMPTE 時間」以高序位位中的1表示，以時間為單位的單字 (位 15) 。 最重要位元組的其餘部分會將使用中的 SMPTE 格式指定為負數值。 支援的 SMPTE 格式及其對應的值 (在括弧中) 為 24 (-24) 、25 (-25) 、30 (-30) 和30卸載 (-29) 。 時間除法單字的低位元組會指定每個 SMPTE 框架的刻度數目。
 
- 
+ 
 
- 
+ 

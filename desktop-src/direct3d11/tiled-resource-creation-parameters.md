@@ -4,12 +4,12 @@ description: 您可以使用 D3D11 資源其他並排顯示旗標建立的 Direc
 ms.assetid: 19A0EA7F-888D-4102-A5D2-F3B54775EDE8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b912325371c59bd46a6cc4245289b2fe5d32a924
-ms.sourcegitcommit: 4dcafeb002cbee4f6028b32a956ec22cb95cbc44
+ms.openlocfilehash: f9668c21060cbb8f39884204780ce689b3e67196aef0bdcfef891836768f04af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "103679087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279838"
 ---
 # <a name="tiled-resource-creation-parameters"></a>磚資源建立參數
 
@@ -83,9 +83,9 @@ Direct3D 11 支援的完整範圍。 並排顯示的資源並不會限制非並�
 [建立磚資源](creating-tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

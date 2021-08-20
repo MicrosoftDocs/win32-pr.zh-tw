@@ -3,7 +3,7 @@ title: 'MMIOM_WRITEFLUSH 訊息 (Mmsystem .h) '
 description: MmioWrite 函 \_ 式會將 MMIOM WRITEFLUSH 訊息傳送至 i/o 程式，要求將該資料寫入至開啟的檔案，而且 i/o 程式所使用的任何內部緩衝區都會排清至磁片。
 ms.assetid: e04acaef-9584-410c-a020-af09fb888490
 keywords:
-- MMIOM_WRITEFLUSH message Windows 多媒體
+- MMIOM_WRITEFLUSH 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b294d4c461970a3304f09088cf63a6564acd50c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b274536e934f426ef5e545e758c2f7bf918d552c42085650fc7c81a6a47c842e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807088"
 ---
 # <a name="mmiom_writeflush-message"></a>MMIOM \_ WRITEFLUSH 訊息
 
@@ -70,7 +70,7 @@ I/o 程式負責更新 [**MMIOINFO**](/previous-versions//dd757322(v=vs.85))結�
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

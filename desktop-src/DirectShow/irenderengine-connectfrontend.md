@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 58ebd8e162f376b6ef942397e601139c46d8e4cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7e0b00d467eb56dabaf6623f129ed1eb82945a1add63386b2b21fb01f725082
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154035"
 ---
 # <a name="irenderengineconnectfrontend-method"></a>IRenderEngine：： ConnectFrontEnd 方法
 
@@ -49,7 +49,7 @@ HRESULT ConnectFrontEnd();
 
 
 
-| 傳回碼                                                                                                  | Description                                                                    |
+| 傳回碼                                                                                                  | 描述                                                                    |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                         | 成功。<br/>                                                            |
 | <dl> <dt>**S \_ 警告 \_ OUTPUTRESET**</dt> </dl>          | 已刪除圖形的轉譯部分。<br/>                         |
@@ -80,7 +80,7 @@ HRESULT ConnectFrontEnd();
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

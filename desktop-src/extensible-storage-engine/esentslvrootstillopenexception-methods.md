@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102907
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 67c6030d343cbf95cc79f3b219414e785f37b2de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12f8b9d7e79b3cb0114412d56a2a44d3c3c01d0fc58d0e8c87ef4a31b3de55a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118079088"
 ---
 # <a name="esentslvrootstillopenexception-methods"></a>EsentSLVRootStillOpenException 方法
 

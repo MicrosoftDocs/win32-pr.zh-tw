@@ -4,12 +4,12 @@ description: 使用下列傳遞最佳化 (執行) 介面，以傳輸檔案和監
 ms.assetid: 20203CCD-86CC-4551-BA4F-0A5999F8C956
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0359328f189c1a5b5d9649d8300dc59a80df4480
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 96b36b6203cc4b77c3952ec9ce4654aef40914daabf34272ef1117e1e7c80327
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118101859"
 ---
 # <a name="do-interfaces"></a>DO 介面
 

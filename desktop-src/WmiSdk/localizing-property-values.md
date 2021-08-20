@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5ccec714557934ca32a878e21fb2a75d24a211a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9c368e761e6f8004e553a0843c98e3861ef55d01f7a48843be748df4806c168
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992938"
 ---
 # <a name="localizing-property-values"></a>當地語系化屬性值
 

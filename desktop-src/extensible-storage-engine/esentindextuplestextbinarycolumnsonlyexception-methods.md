@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101862
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c4c8fc6541b4f635003b9c56ad189f793d567fb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26fe193f17c4c6bd1085b466b24939a228eda2465f7d9c5ac0d8dce5fd6955a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118080752"
 ---
 # <a name="esentindextuplestextbinarycolumnsonlyexception-methods"></a>EsentIndexTuplesTextBinaryColumnsOnlyException 方法
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - winioctl.h.h
-ms.openlocfilehash: ffda37d918406a696a29a9bf2903424523c3b830
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b4a8e71a855419023adc837f6fd6711ecb013b5b84cecb1ceecd4b987d3beabc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117996506"
 ---
 # <a name="storage_hw_firmware_info_query-structure"></a>儲存體 \_ HW \_ 固件 \_ 資訊 \_ 查詢結構
 
@@ -86,8 +86,8 @@ typedef struct _STORAGE_HW_FIRMWARE_INFO_QUERY {
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                                        |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                                        |
 | 標頭<br/>                   | <dl> <dt>Winioctl (包含 Windows .h) </dt> </dl> |
 
 

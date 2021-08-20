@@ -3,7 +3,7 @@ title: mark 命令
 description: Mark 命令控制錄影帶上的標記錄製和清除。 VCR 裝置會辨識此命令。
 ms.assetid: d5f7a546-dc46-459c-b5dc-0651bca842cb
 keywords:
-- 標示命令 Windows 多媒體
+- 將命令標示 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 570968af05424597a7fe2b59e86e0364694e0e1f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0f59f56a6d542120d088d764d1b301329a7f0b167f25952587a9e743878643e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106991304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138749"
 ---
 # <a name="mark-command"></a>mark 命令
 
@@ -94,7 +94,7 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

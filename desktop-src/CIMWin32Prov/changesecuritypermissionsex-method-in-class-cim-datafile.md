@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3c97f9b17fd148a0686a96fb46f77694a2b78b21
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e66efe81f8b45c2339dc511d283b2f349360061b580b60308c3e69b3e6c0b0cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010012"
 ---
 # <a name="changesecuritypermissionsex-method-of-the-cim_datafile-class"></a>CIM \_ 資料檔案類別的 ChangeSecurityPermissionsEx 方法
 
@@ -204,7 +204,7 @@ uint32 ChangeSecurityPermissionsEx(
 
 12
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

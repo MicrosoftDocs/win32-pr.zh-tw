@@ -1,9 +1,9 @@
 ---
 title: 'MIM_LONGDATA 訊息 (Mmsystem .h) '
-description: '\_當系統專屬緩衝區已填滿資料，並傳回給應用程式時，會將 MIM LONGDATA 訊息傳送至 MIDI 輸入回撥函式。'
+description: '\_當系統專屬的緩衝區已填滿資料，並傳回給應用程式時，會將 MIM LONGDATA 訊息傳送至 MIDI 輸入回撥函數。'
 ms.assetid: 3a11ed21-e7c5-4b78-9536-f0d862e26a02
 keywords:
-- MIM_LONGDATA message Windows 多媒體
+- MIM_LONGDATA 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc5f83b1f0468540da18d0d8317dae42cbf33bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82605835ce8ac231346014215c854abfe9ae7a55fd81e81b8d6214fb8a230327
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137209"
 ---
-# <a name="mim_longdata-message"></a>MIM \_ LONGDATA 訊息
+# <a name="mim_longdata-message"></a>MIM \_LONGDATA 訊息
 
-當系統專屬緩衝區已填滿資料，並傳回給應用程式時，會將 **MIM \_ LONGDATA** 訊息傳送至 MIDI 輸入回撥函式。
+當系統專屬的緩衝區已填滿資料，並傳回給應用程式時，會將 **MIM \_ LONGDATA** 訊息傳送至 MIDI 輸入回撥函數。
 
 
 ```C++
@@ -68,7 +68,7 @@ dwParam2 = dwTimestamp
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

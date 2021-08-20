@@ -5,12 +5,12 @@ ms.assetid: 5d467241-499c-4038-8d9c-4244457e484f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22fb8de65f7f234f85eb8071cc66743c9c26cc9b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe3161d7c8e8b295e42930af1edcc79b7c60d83b61097b4d02661c1b11b5f1a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000098"
 ---
 # <a name="remote-desktop-services-api-structures"></a>遠端桌面服務 API 結構
 
@@ -139,69 +139,69 @@ ms.locfileid: "104092756"
 
 </dd> <dt>
 
-[**WTS \_ 用戶端 \_ 位址**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_client_address)
+[**WTS \_用戶端 \_ 位址**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_client_address)
 </dt> <dd>
 
 包含遠端桌面服務會話的用戶端網路位址。
 
 </dd> <dt>
 
-[**WTS \_ 用戶端 \_ 顯示**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_client_display)
+[**WTS \_用戶端 \_ 顯示**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_client_display)
 </dt> <dd>
 
 包含遠端桌面連線 (RDC) 用戶端顯示的相關資訊。
 
 </dd> <dt>
 
-[**WTS \_ 流程 \_ 資訊**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_infoa)
+[**WTS \_進程 \_ 資訊**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_infoa)
 </dt> <dd>
 
 包含在 RD 工作階段主機伺服器上執行之進程的相關資訊。
 
 </dd> <dt>
 
-[**WTS \_ 進程 \_ 資訊， \_ 例如**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa)
+[**WTS \_進程 \_ 資訊， \_ 例如**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa)
 </dt> <dd>
 
 包含在 RD 工作階段主機伺服器上執行之進程的擴充資訊。
 
 </dd> <dt>
 
-[**WTS \_ 產品 \_ 資訊**](https://msdn.microsoft.com/library/Mt283722(v=VS.85).aspx)
+[**WTS \_產品 \_ 資訊**](https://msdn.microsoft.com/library/Mt283722(v=VS.85).aspx)
 </dt> <dd>
 
 連接到終端機伺服器所需的產品授權詳細資料。
 
 </dd> <dt>
 
-[**WTS \_ 伺服器 \_ 資訊**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_server_infoa)
+[**WTS \_伺服器 \_ 資訊**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_server_infoa)
 </dt> <dd>
 
 包含特定遠端桌面服務伺服器的相關資訊。
 
 </dd> <dt>
 
-[**WTS \_ 會話 \_ 位址**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_address)
+[**WTS \_會話 \_ 位址**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_address)
 </dt> <dd>
 
 包含指派給會話的虛擬 IP 位址。
 
 </dd> <dt>
 
-[**WTS \_ 會話 \_ 資訊**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_infoa)
+[**WTS \_會話 \_ 資訊**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_infoa)
 </dt> <dd>
 
 包含 RD 工作階段主機伺服器上用戶端會話的相關資訊。
 
 </dd> <dt>
 
-[**WTS \_ 會話 \_ 資訊 \_ 1**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_info_1a)
+[**WTS \_會話 \_ 資訊 \_ 1**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_info_1a)
 </dt> <dd>
 
 包含 RD 工作階段主機伺服器或遠端桌面虛擬化主機 (RD 虛擬化主機) 伺服器上用戶端會話的延伸資訊。
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
