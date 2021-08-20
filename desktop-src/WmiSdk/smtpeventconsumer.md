@@ -27,12 +27,12 @@ api_type:
 - DllExport
 api_location:
 - Smtpcons.dll
-ms.openlocfilehash: 76c7fad3b5cb4bbf6c3c0c03689607ba64fbcc67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f216647f7ac6796c4b94157a261e535d9e2eb9cd98e02fd1f9cec5ac3dee95d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922939"
 ---
 # <a name="smtpeventconsumer-class"></a>SMTPEventConsumer 類別
 
@@ -228,7 +228,7 @@ Windows Management Instrumentation (WMI) 傳送事件的電腦名稱稱。
 
 </dd> <dt>
 
-**主旨**
+**主體**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**

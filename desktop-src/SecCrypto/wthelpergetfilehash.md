@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wintrust.dll
-ms.openlocfilehash: 1597dfda630b1ae8cbc0d3b700b6ed9bc1a09472
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a136aaf0b5c8bbf860fa27c9b439cae89a74e5149698e4841b38cdb8d9e4f6a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117970479"
 ---
 # <a name="wthelpergetfilehash-function"></a>WTHelperGetFileHash 函式
 
@@ -105,7 +105,7 @@ LONG WINAPI WTHelperGetFileHash(
 
 
 
-| 傳回碼                                                                                               | Description                                                                                                                                           |
+| 傳回碼                                                                                               | 描述                                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**錯誤 \_ 成功**</dt> </dl>             | 檔案已簽署，並已驗證簽章。<br/>                                                                                        |
 | <dl> <dt>**錯誤 \_ 的 \_ 資料**</dt> </dl>          | *PbFileHash* 參數不是 **Null**，而且 *pcbFileHash* 參數所指定的大小不夠大，無法接收雜湊。<br/> |
@@ -123,8 +123,8 @@ LONG WINAPI WTHelperGetFileHash(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Wintrust.dll</dt> </dl> |
 
 

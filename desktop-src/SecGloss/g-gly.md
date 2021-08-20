@@ -5,12 +5,12 @@ ms.assetid: c9567a5b-bd56-4ae1-9eac-af0bb5a6842a
 title: 'G (安全性詞彙) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07cf3c047f6bfb1192c4049a408d98e3197bd743
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04245b27524d5ed716c8ecfa0273c2483d32c05a15972c80917fbffd0245afe2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117970314"
 ---
 # <a name="g-security-glossary"></a>G (安全性詞彙) 
 
@@ -18,7 +18,7 @@ ms.locfileid: "103850523"
 
 <dl> <dt>
 
-<span id="_security_gdi_gly"></span><span id="_SECURITY_GDI_GLY"></span>**Gdi**
+<span id="_security_gdi_gly"></span><span id="_SECURITY_GDI_GLY"></span>**GDI**
 </dt> <dd>
 
 請參閱 *圖形裝置介面*。
@@ -35,7 +35,7 @@ ms.locfileid: "103850523"
 <span id="_security_graphics_device_interface_gly"></span><span id="_SECURITY_GRAPHICS_DEVICE_INTERFACE_GLY"></span>**圖形裝置介面**
 </dt> <dd>
 
-從 Windows 應用程式處理圖形化函數呼叫的可執行程式，並將這些呼叫傳遞給適當的設備磁碟機，以執行產生輸出的硬體特定功能。
+可執行程式，可從 Windows 應用程式處理圖形化函數呼叫，並將這些呼叫傳遞給適當的設備磁碟機，以執行產生輸出的硬體特定函式。
 
 </dd> </dl>
 

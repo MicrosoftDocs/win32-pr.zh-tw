@@ -6,12 +6,12 @@ keywords:
 - MCIWndGetError 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37e40e78c72dc378baa37b56dbb2d5718ae2d85b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f1626b48bd04d5c7311767ab277abb4cbdd9d1a6104724ca244ab9544077a4f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117988556"
 ---
 # <a name="error-messages-and-notifications"></a>錯誤訊息和通知
 
@@ -28,6 +28,6 @@ MCIWnd 可讓您選擇兩種方式來處理錯誤訊息：
 
 您可以使用 [**MCIWndSetOwner**](/windows/desktop/api/Vfw/nf-vfw-mciwndsetowner) 宏將所有通知路由傳送到另一個視窗。
 
- 
+ 
 
- 
+ 

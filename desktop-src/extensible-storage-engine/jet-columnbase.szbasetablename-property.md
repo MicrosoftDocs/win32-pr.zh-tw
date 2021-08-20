@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 508695dfaed58ac2179cc904c8e04836b49cbb39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 072bb967f4ed021a69dd6b275007bf47bcb4fcb8fc342cf639d1f98a6bf17cda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118076074"
 ---
 # <a name="jet_columnbaseszbasetablename-property"></a>JET_COLUMNBASE szBaseTableName 屬性
 

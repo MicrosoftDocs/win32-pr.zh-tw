@@ -4,12 +4,12 @@ ms.assetid: 33165e5b-e304-42b1-9542-45d8fe8a5218
 title: 中斷用戶端連線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c6ac34036cc92386d7d68b3d5debda4d37a92ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9689a1877ee015188583ef4a530dbd054cd47a2b7ecf2da1c89d4f341e90bc8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117927877"
 ---
 # <a name="disconnecting-the-client"></a>中斷用戶端連線
 
@@ -33,7 +33,7 @@ ms.locfileid: "104318388"
 
 2.  當用戶端應用程式完成接收資料時，會呼叫 [**導致 closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) 函式來關閉通訊端。
 
-    使用 Windows 通訊端 DLL 完成用戶端應用程式時，會呼叫 [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) 函式來釋放資源。
+    當用戶端應用程式使用 Windows 通訊端 DLL 完成時，會呼叫 [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup)函式來釋放資源。
 
     ```C++
     // cleanup

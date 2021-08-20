@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcdf285572b4edda0f514cb3519b6953f9e94677
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4c7c0764f512b611968d20cca18c456604720443635f6ebfe073f407a84e993
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117933478"
 ---
 # <a name="textfontsmoothing"></a>FontSmoothing
 

@@ -4,12 +4,12 @@ description: 根據其產品而定，除了 Microsoft Active Accessibility 支�
 ms.assetid: c45009ca-6be3-4645-9097-36671a41dfce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3834c60de8f18fd5ec0719919a1cd79e22f451e3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5ba67fa0bcb11b6a87d8503d195d89b42245e680b96e98ceff96e4d05cac366f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929648"
 ---
 # <a name="exposing-additional-information-not-covered-by-iaccessible-interface"></a>公開 IAccessible 介面未涵蓋的其他資訊
 
@@ -24,6 +24,6 @@ ms.locfileid: "104316027"
 
 您無法使用 [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) 來公開自訂介面。 使用 **IServiceProvider：： QueryService** ，如下列程式所述。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 8313b83c-5a0a-4aaa-bdc8-58a987c329c7
 title: 'MF_MT_MPEG_START_TIME_CODE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73b19a041dbcd791359d704b407445779927d0fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41f6189818261c401a160070460f6b5786f8880f5fa58fc5923b50ee1974ca74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877042"
 ---
 # <a name="mf_mt_mpeg_start_time_code-attribute"></a>MF \_ MT \_ MPEG \_ 開始 \_ 時間 \_ 代碼屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106990340"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

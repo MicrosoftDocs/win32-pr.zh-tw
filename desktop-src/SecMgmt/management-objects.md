@@ -4,12 +4,12 @@ ms.assetid: cfda8839-6da1-47e6-bae3-3e426c896ef2
 title: 安全性管理物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db812097fa54c4839dbd0ea162ff67a149737d52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b889b0e83226e55f3db1630c773e188e5a1c1d139e617bc4d744bb38864e339d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117968924"
 ---
 # <a name="security-management-objects"></a>安全性管理物件
 

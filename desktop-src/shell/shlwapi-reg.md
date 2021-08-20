@@ -1,5 +1,5 @@
 ---
-description: 本節說明 Windows Shell 登錄處理功能。 本檔中所述的程式設計項目是由 Shlwapi.dll 匯出，並定義于 Shlwapi 和 Shlwapi 中。
+description: 本節說明 Windows Shell 登錄處理函式。 本檔中所述的程式設計項目是由 Shlwapi.dll 匯出，並定義于 Shlwapi 和 Shlwapi 中。
 title: Shell 登錄處理函式
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8a3e4f65904fa97635b3ef4dc3abd9f01344f6a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 7bd7204ada31db6791d3cb78d1a11087d19eae45f0cacbfdf6ae6e032ae66a04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117676497"
 ---
 # <a name="shell-registry-handling-functions"></a>Shell 登錄處理函式
 
-本節說明 Windows Shell 登錄處理功能。 本檔中所述的程式設計項目是由 Shlwapi.dll 匯出，並定義于 Shlwapi 和 Shlwapi 中。
+本節說明 Windows Shell 登錄處理函式。 本檔中所述的程式設計項目是由 Shlwapi.dll 匯出，並定義于 Shlwapi 和 Shlwapi 中。
 
 ## <a name="in-this-section"></a>本節內容
 

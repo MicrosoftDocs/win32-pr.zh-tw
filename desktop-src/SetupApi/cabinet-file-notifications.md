@@ -4,12 +4,12 @@ ms.assetid: 5a362a93-ebe8-4995-aacc-13ee10d3407a
 title: 封包檔通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3e4eb7645fc3603f026db6bde3ce92f2ed2ce7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47018d9fda41e74dac9b8e4896674cbf21ed5ecd4a915d0c86da14d9787030a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966356"
 ---
 # <a name="cabinet-file-notifications"></a>封包檔通知
 
@@ -17,7 +17,7 @@ ms.locfileid: "106970591"
 
 
 
-| 通知                                                        | Description                                                                    |
+| 通知                                                        | 描述                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [**SPFILENOTIFY \_ FILEEXTRACTED**](spfilenotify-fileextracted.md)   | 已從封包解壓縮檔案。                                  |
 | [**SPFILENOTIFY \_ FILEINCABINET**](spfilenotify-fileincabinet.md)   | 在封包中遇到檔案，應用程式是否要將它解壓縮？ |

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: ConsumerProvider 疑難排解類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 740b8c0eb1884181fa84efe26e0611dda4b1712f
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 4c74b82aaf143be5ea1d9144b396a06213940a54073e162bec318264e3fc0a4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925609"
 ---
 # <a name="consumerprovider-troubleshooting-classes"></a>ConsumerProvider 疑難排解類別
 

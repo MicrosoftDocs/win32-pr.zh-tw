@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55918b67eb88b8c2c1aca99ce6e86f190ad1a395
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d9f4de285fe6103c5a64e5a658847d7c4d46385eeff183c186076860e7498c2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117955744"
 ---
 # <a name="systemmonitorgraphtitle-property"></a>SystemMonitor. GraphTitle 屬性
 
@@ -42,7 +42,7 @@ Property GraphTitle As String
 
 圖形的標題。 標題的長度上限為128個字元。 如果標題超過128個字元，則會截斷標題。
 
-**WINDOWS XP 和 windows 2000：** 標題的長度沒有限制。
+**Windows XP 和 Windows 2000：** 標題的長度沒有限制。
 
 ## <a name="requirements"></a>規格需求
 

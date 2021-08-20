@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7d1e04a580f8de6b23d5ff1941b0000f418b52a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8c192160d319567cd38031ddf3085ed55186d42cd997d44ffc352e6ef5c8a839
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117935746"
 ---
 # <a name="dropdownplaylist"></a>DROPDOWNPLAYLIST
 

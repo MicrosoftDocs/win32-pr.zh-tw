@@ -4,12 +4,12 @@ ms.assetid: 5fd4321b-a5cc-4921-bec5-bdf625261ea2
 title: 通訊端屬性旗標和模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8da1a5f621a7d9f489f4e91782462c215659772b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2943116c58c77d53cefa4e8d238f9c5542ea71840b31f979ffbe6eb7f1c2550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117927330"
 ---
 # <a name="socket-attribute-flags-and-modes"></a>通訊端屬性旗標和模式
 

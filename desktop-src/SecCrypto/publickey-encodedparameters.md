@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 316e9737633bccea46cb644da24e4cc98fd118bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a28fff75b293189d207dcf8cbec6757a436e75e76163841b3cb51bfa856bf8bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117976102"
 ---
 # <a name="publickeyencodedparameters-property"></a>PublicKey. EncodedParameters 屬性
 

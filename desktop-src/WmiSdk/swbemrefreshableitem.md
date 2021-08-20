@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 4bc4f85145926aba2bd050052c33eb5669dfee8a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ed47d78a133269231d9e43cde3d104a3b0ba95e59240862a5d787d1651cc9de3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117921859"
 ---
 # <a name="swbemrefreshableitem-object"></a>SWbemRefreshableItem 物件
 
@@ -53,11 +53,11 @@ ms.locfileid: "103696230"
 
 
 
-| 屬性                                                       | 存取類型           | Description                                                                                                                          |
+| 屬性                                                       | 存取類型           | 描述                                                                                                                          |
 |:---------------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
 | [**指數**](swbemrefreshableitem-index.md)<br/>         | 讀取/寫入<br/> | 專案在其父 [**SWbemRefresher**](swbemrefresher.md) 物件中的索引。<br/>                                          |
 | [**IsSet**](swbemrefreshableitem-isset.md)<br/>         | 讀取/寫入<br/> | 指出 **SWbemRefreshableItem** 物件是否代表單一物件或物件集。<br/>                        |
-| [**Object**](swbemrefreshableitem-object.md)<br/>       | 讀取/寫入<br/> | 表示重新整理的單一 [**SWbemObject**](swbemobject.md) 物件。<br/>                                          |
+| [**物件**](swbemrefreshableitem-object.md)<br/>       | 讀取/寫入<br/> | 表示重新整理的單一 [**SWbemObject**](swbemobject.md) 物件。<br/>                                          |
 | [**ObjectSet**](swbemrefreshableitem-objectset.md)<br/> | 讀取/寫入<br/> | 表示要重新整理的物件集。<br/>                                                                                |
 | [**複習**](swbemrefreshableitem-refresher.md)<br/> | 唯讀<br/>  | 表示包含 **SWbemRefreshableItem** 物件的父 [**SWbemRefresher**](swbemrefresher.md)物件。<br/> |
 
@@ -127,8 +127,8 @@ MsgBox "Number of items in Refresher after DeleteAll " _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemRefreshableItem<br/>                                                  |
 | IID<br/>                      | IID \_ ISWbemRefreshableItem<br/>                                                   |

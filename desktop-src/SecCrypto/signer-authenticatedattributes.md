@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 3963ec60d699300c4cde368d4d78c39c0873edd2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a568c24f404bfc5e6aa86105133f8cc47c855df3e1dbc81d1b40dba677f5866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117973682"
 ---
 # <a name="signerauthenticatedattributes-property"></a>AuthenticatedAttributes 屬性
 

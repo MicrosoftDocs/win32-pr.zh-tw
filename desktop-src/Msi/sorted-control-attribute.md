@@ -4,12 +4,12 @@ ms.assetid: c55bf6bf-6625-47cb-867a-14b3ef8aea0a
 title: 排序的控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a84af4b0683e35c66e159602b9ed2fe1b3005d8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc11c5878bdaf524686090a9c95e59778559b6e598c126a0af9f1e16d5b221c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990111"
 ---
 # <a name="sorted-control-attribute"></a>排序的控制項屬性
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 85679bb594bdb59c41773b7f956deea95021381f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dad326baca135e9cdb04c63e9e26176ff4f6b7486b5fb7aedb71dc010391f4a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117972484"
 ---
 # <a name="storename-property"></a>Store.Name 屬性
 
@@ -60,7 +60,7 @@ Store.Name As String
 
 <dl> <dt>
 
-[**市集**](store.md)
+[**儲存**](store.md)
 </dt> </dl>
 
  

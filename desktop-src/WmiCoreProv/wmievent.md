@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 99f6804ef1dad4f37bd2727da2e91e801fb0ece2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6aaf8b3afc35f7bbf1fc2f8b1028a1218c630ce49a7c80638f93ece0545b4e64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926770"
 ---
 # <a name="wmievent-class"></a>>register-wmievent 類別
 
-**>register-wmievent** 類別是衍生所有 WMI 事件類別的基類。
+**>Register-wmievent** 類別是衍生所有 WMI 事件類別的基類。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -41,13 +41,13 @@ class WMIEvent : __ExtrinsicEvent
 
 ## <a name="members"></a>成員
 
-**>register-wmievent** 類別具有下列類型的成員：
+**>Register-wmievent** 類別具有下列類型的成員：
 
 -   [屬性](#properties)
 
 ### <a name="properties"></a>屬性
 
-**>register-wmievent** 類別具有這些屬性。
+**>Register-wmievent** 類別具有這些屬性。
 
 <dl> <dt>
 
@@ -81,7 +81,7 @@ class WMIEvent : __ExtrinsicEvent
 
 ## <a name="remarks"></a>備註
 
-**>register-wmievent** 類別衍生自 [**\_ \_ ExtrinsicEvent**](/windows/desktop/WmiSdk/--extrinsicevent)。
+**>Register-wmievent** 類別衍生自 [**\_ \_ ExtrinsicEvent**](/windows/desktop/WmiSdk/--extrinsicevent)。
 
 ## <a name="requirements"></a>規格需求
 

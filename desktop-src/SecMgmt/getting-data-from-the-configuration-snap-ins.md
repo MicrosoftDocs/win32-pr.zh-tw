@@ -4,12 +4,12 @@ ms.assetid: 1171beed-5b28-4f31-b33f-533e3c631b0d
 title: 從設定嵌入式管理單元取得資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c888cef92a354f73f01e87fca12cee2567dab48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eda9bd6beb32ec762979bbfe804e15edea9bccd5160872dbd06ab0eb404a5e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117969369"
 ---
 # <a name="getting-data-from-the-configuration-snap-ins"></a>從設定嵌入式管理單元取得資料
 

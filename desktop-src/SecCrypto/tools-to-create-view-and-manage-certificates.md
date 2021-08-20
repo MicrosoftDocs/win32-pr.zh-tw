@@ -4,12 +4,12 @@ ms.assetid: 29146de8-adae-444b-bc75-fa43a19ab8f9
 title: 用來建立、查看及管理憑證的工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2fb4595b7c7711b10271bd97a447a77f3a01c19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d46c1073228635e14ca8d5a6c0607c900b2e610af3f52f7391cb6d165b49c8bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971954"
 ---
 # <a name="tools-to-create-view-and-manage-certificates"></a>用來建立、查看及管理憑證的工具
 
@@ -20,7 +20,7 @@ CryptoAPI 工具是用來執行一般憑證管理工作的工具。
 | 工具                                | 備註                                                                                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [MakeCert](makecert.md)<br/> | 建立 [*x.509*](../secgloss/x-gly.md) 憑證的測試。<br/>                                                                                |
-| [Cert2spc.exe](cert2spc.md)<br/> | 建立 (SPC) 的測試 [*軟體發行者憑證*](../secgloss/s-gly.md) 。<br/>           |
+| [Cert2spc.exe](cert2spc.md)<br/> | [*Publisher 憑證*](../secgloss/s-gly.md) (SPC) 建立測試軟體。<br/>           |
 | [Certmgr.msc](certmgr.md)<br/>   | )  (Crl 來管理憑證、Ctl 和 [*憑證撤銷清單*](../secgloss/c-gly.md) 。<br/> |
 
 

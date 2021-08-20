@@ -1,15 +1,15 @@
 ---
 description: Windows 7 和 Windows Server 2008 R2 包含服務的下列全新和更新的程式設計項目。
 ms.assetid: 4be7e244-ad4c-440d-b04e-23afb4c7ddf2
-title: 適用于 Windows 7 的服務有哪些新功能
+title: Windows 7 的服務有哪些新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51bd2e8bfa5426447e24485ed026f27e90fdcaa1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e55cf7aae33522f141fbac68b727842b3dd2fbde21ba97fa46407cf8af6c2ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117966636"
 ---
 # <a name="whats-new-in-services-for-windows-7"></a>Windows 7 服務的新功能
 
@@ -40,7 +40,7 @@ Windows 7 和 Windows Server 2008 R2 包含服務的下列全新和更新的程�
 
 
 
-| 結構                                                                                       | Description                                                            |
+| 結構                                                                                       | 描述                                                            |
 |-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [**服務 \_ TIMECHANGE \_ 資訊**](/windows/desktop/api/winsvc/ns-winsvc-service_timechange_info)<br/>                         | 包含系統時間變更設定。 <br/>                      |
 | [**服務 \_ 觸發程式**](/windows/desktop/api/winsvc/ns-winsvc-service_trigger)<br/>                                          | 表示服務觸發程式事件。<br/>                         |

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e6ba6a7bb640a397cce9c7dfd22b5f9b6203c47
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 36a26f7bf2e996dd92adb377fa2b8bebd14800f1f9985c348c9ce49ce0625e33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930088"
 ---
 # <a name="iwmpmediagetmarkername-method"></a>IWMPMedia：： getMarkerName 方法
 

@@ -4,12 +4,12 @@ ms.assetid: a63fe4e7-7f4c-49af-84fd-876601997db4
 title: 快速鍵
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d0570dc59f10e2707150dd7493758294eaa5d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b5d13312abab33829d5975b2fccdea12e520f62fb2901055944017eec9c0edb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990138"
 ---
 # <a name="shortcut"></a>快速鍵
 

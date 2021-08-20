@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WBEMTimeSpan 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d516f22a7ecd5468d53bda44ce47edbe4504d1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83f990ecef61fdc0f1c3a3ea4441e8a689865d88daf932826dce241dd926f5c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117921265"
 ---
 # <a name="wbemtimespan-methods"></a>WBEMTimeSpan 方法
 

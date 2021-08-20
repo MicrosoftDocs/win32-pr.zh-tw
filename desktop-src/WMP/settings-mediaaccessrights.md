@@ -3,7 +3,7 @@ title: 設定. mediaAccessRights
 description: MediaAccessRights 屬性會取得值，指出目前授與存取程式庫的許可權。
 ms.assetid: 744e696d-29d2-44b1-a296-5b5d007b689f
 keywords:
-- 設定. mediaAccessRights Windows Media Player
+- 設定的 mediaAccessRights Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36bcfb667a1aa09e84ae90324736291d421a3941
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 23b78543adcdc36958c6fb2f8e4ea191156bd8c600112e4bd6e5d6e6f5427974
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117933658"
 ---
 # <a name="settingsmediaaccessrights"></a>設定. mediaAccessRights
 
@@ -47,7 +47,7 @@ mediaAccessRights
 
 ## <a name="remarks"></a>備註
 
-網頁必須先向使用者要求許可權，以讀取或寫入文件庫中的資料。 這表示，如果未授與適當的存取權限，就無法從程式碼存取某些方法、屬性和事件。 若要取得存取權限，應用程式會呼叫 *設定*。**requestMediaAccessRights**，傳遞指定所需存取權限層級的參數。
+網頁必須先向使用者要求許可權，以讀取或寫入文件庫中的資料。 這表示，如果未授與適當的存取權限，就無法從程式碼存取某些方法、屬性和事件。 為了取得存取權限，應用程式會呼叫 *設定*。**requestMediaAccessRights**，傳遞指定所需存取權限層級的參數。
 
 **Windows Media Player 10** 行動裝置版：此屬性一律會傳回 **full**。
 
@@ -66,7 +66,7 @@ mediaAccessRights
 
 <dl> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> <dt>
 
 [**設定. requestMediaAccessRights**](settings-requestmediaaccessrights.md)

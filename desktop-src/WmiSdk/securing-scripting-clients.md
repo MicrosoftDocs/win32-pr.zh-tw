@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c58a3dbade78b1dd81b0bf89eb867d8cd5c2f265
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13a84e426071c71cfc51f13711eb6bbf133c6a176ca39d08fec92b87a1924006
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922966"
 ---
 # <a name="securing-scripting-clients"></a>保護腳本用戶端
 

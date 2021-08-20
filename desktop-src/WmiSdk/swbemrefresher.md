@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: f763ec4f738b612b9f2fef32871a63d6b170f96d
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 94e29b7795f113467152b2708aba8b7c3d80b438b8e55b679bddbec4d5107f26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117921582"
 ---
 # <a name="swbemrefresher-object"></a>SWbemRefresher 物件
 
@@ -60,7 +60,7 @@ ms.locfileid: "103945673"
 
 
 
-| 屬性                                                         | 存取類型          | Description                                                                                                           |
+| 屬性                                                         | 存取類型          | 描述                                                                                                           |
 |:-----------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------------------------------------------|
 | [**AutoReconnect**](swbemrefresher-autoreconnect.md)<br/> | 唯讀<br/> | 指出如果連接中斷，重新整理程式是否會自動重新連接至遠端提供者。<br/> |
 | [**計數**](swbemrefresher-count.md)<br/>                 | 唯讀<br/> | 包含複習物件中的專案數。<br/>                                                      |
@@ -127,8 +127,8 @@ next
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemRefresher<br/>                                                        |
 | IID<br/>                      | IID \_ ISWbemRefresher<br/>                                                         |

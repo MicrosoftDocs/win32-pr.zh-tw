@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2d72cafc990d8526cadf7c5f6d149796ff846181
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7e8b3e206c4d13cfe4b4170298327a03ac8be5038873f6d2f6c1c79827923a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117702030"
 ---
 # <a name="transaction-log-parameters"></a>交易記錄檔參數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 **本文內容**  
 交易記錄檔參數  
@@ -224,7 +224,7 @@ _**適用于：** Windows |Windows Server_
 
 當此參數為 true，且記錄檔路徑所指向的交易記錄檔 (**JET_paramLogFilePath**) 都是過時的版本，則這些交易記錄檔將會自動刪除。
 
-**Windows 2000：**  將資料庫從 Windows NT 升級到 Windows 2000 時，必須小心使用此參數。 如果資料庫不是處於一致的狀態，而且舊的記錄檔遭到刪除，則資料庫的內容將會遺失。
+**Windows 2000：** 從 Windows NT 將資料庫升級至 Windows 2000 時，必須小心使用此參數。 如果資料庫不是處於一致的狀態，而且舊的記錄檔遭到刪除，則資料庫的內容將會遺失。
 
 <table>
 <colgroup>
@@ -234,8 +234,8 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000：</strong>  假</p>
-<p><strong>WINDOWS XP：</strong>  真</p></td>
+<td><p><strong>Windows 2000：</strong> 假</p>
+<p><strong>Windows XP：</strong> 真</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -286,7 +286,7 @@ _**適用于：** Windows |Windows Server_
 
 如果此參數為 true，則資料庫引擎將不會在 [JetInit](./jetinit-function.md)期間驗證交易記錄檔的版本號碼。
 
-**WINDOWS XP：**  從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
+**Windows XP：** 從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
 
 <table>
 <colgroup>
@@ -405,7 +405,7 @@ JET_bitESE98FileNames
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows Vista 和更新版本</p></td>
+<td><p>WindowsVista 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -418,7 +418,7 @@ JET_bitESE98FileNames
 
 此參數會對效能造成影響。 當資料庫引擎處於大量更新負載時，此緩衝區可能會非常快速地完成。 交易記錄檔較大的快取大小，對於在這種高負載狀況下的良好更新效能來說非常重要。 在此情況下，已知的預設值太小。
 
-**WINDOWS XP 和 windows 2000：**  在 Windows XP 和舊版中，不建議將此參數設定為較大 (位元組數的緩衝區，) 超過交易記錄檔大小的一半。
+**Windows XP 和 Windows 2000：** 在 Windows XP 和舊版中，不建議將此參數設定為大於交易記錄檔大小一半的緩衝區數目（以位元組為單位) ） (。
 
 <table>
 <colgroup>
@@ -428,8 +428,8 @@ JET_bitESE98FileNames
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong>  80</p>
-<p><strong>Windows Vista：</strong>  126</p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 80</p>
+<p><strong>Windows Vista：</strong> 126</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -437,8 +437,8 @@ JET_bitESE98FileNames
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong>  80 –2147483647</p>
-<p><strong>Windows Vista：</strong>  1-2147483647</p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 80 –2147483647</p>
+<p><strong>Windows Vista：</strong> 1-2147483647</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -481,7 +481,7 @@ JET_bitESE98FileNames
 
 此參數會設定資料庫引擎在產生指定的記錄檔磁區數目時，採取檢查點。
 
-**WINDOWS XP：**  從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
+**Windows XP：** 從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
 
 <table>
 <colgroup>
@@ -550,7 +550,7 @@ JET_bitESE98FileNames
 <tbody>
 <tr class="odd">
 <td><p>預設值：3</p></td>
-<td><p>對</p></td>
+<td><p>是</p></td>
 </tr>
 <tr class="even">
 <td><p>輸入：</p></td>
@@ -590,7 +590,7 @@ JET_bitESE98FileNames
 </tr>
 <tr class="odd">
 <td><p>可用性：</p></td>
-<td><p>Windows XP 和更新版本</p></td>
+<td><p>WindowsXP 和更新版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -686,8 +686,8 @@ JET_bitESE98FileNames
 </tr>
 <tr class="odd">
 <td><p>有效範圍：</p></td>
-<td><p><strong>Windows 2000、WINDOWS XP 及 Windows Server 2003：</strong>  128 –32768</p>
-<p><strong>Windows Vista：</strong>  64 –32768</p></td>
+<td><p><strong>Windows 2000、Windows XP 和 Windows Server 2003：</strong> 128 –32768</p>
+<p><strong>Windows Vista：</strong> 64 –32768</p></td>
 </tr>
 <tr class="even">
 <td><p>範圍：</p></td>
@@ -730,7 +730,7 @@ JET_bitESE98FileNames
 
 此參數會嘗試將長期認可所造成的記錄緩衝區排清優化，方法是在希望另一個交易共用排清的情況下，等候指定的會話數目等待永久性認可。
 
-**WINDOWS XP：**  從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
+**Windows XP：** 從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
 
 <table>
 <colgroup>
@@ -913,7 +913,7 @@ JET_bitESE98FileNames
 
 此參數會嘗試將長期認可所造成之記錄緩衝區的排清優化，方法是在希望另一個交易共用排清之前等候一段指定的時間。
 
-**WINDOWS XP：**  從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
+**Windows XP：** 從 Windows XP 起，此參數已過時，且不會影響資料庫引擎的操作。
 
 <table>
 <colgroup>
@@ -972,7 +972,7 @@ JET_bitESE98FileNames
 *JET_paramLegacyFileNames*  
 136  
 
-這個參數是用來指定要使用 Windows Server 2003 和先前的檔案命名配置來維護的檔案命名相容性功能。 如需不同檔案及其命名的詳細資訊，請參閱 [可擴充儲存引擎](./extensible-storage-engine-files.md)檔案。
+這個參數是用來指定要使用 Windows Server 2003 和先前的檔案命名配置來維護的檔案命名相容性功能。 如需有關不同檔案及其命名的詳細資訊，請參閱[可擴充的儲存體引擎](./extensible-storage-engine-files.md)檔案。
 
 JET_bitESE98FileNames 可確保用於交易記錄檔和檢查點檔案的副檔名，與 Windows Server 2003 中使用的副檔名相同。 注意：如果從 Windows Server 2003 升級，則仍不需要指定此項，因為當 JET_paramCircularLog 設定為 **true** 時，引擎會自動升級副檔名，如果 JET_paramCircularLog 為 **false**，則保留較舊的記錄檔延伸模組。
 
@@ -1046,7 +1046,7 @@ JET_bitESE98FileNames 可確保用於交易記錄檔和檢查點檔案的副檔�
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>
@@ -1058,7 +1058,7 @@ JET_bitESE98FileNames 可確保用於交易記錄檔和檢查點檔案的副檔�
 
 ## <a name="see-also"></a>另請參閱
 
-[可擴充儲存引擎檔案](./extensible-storage-engine-files.md)  
+[可擴充的儲存體引擎檔案](./extensible-storage-engine-files.md)  
 [JetCommitTransaction](./jetcommittransaction-function.md)  
 [JetCreateInstance](./jetcreateinstance-function.md)  
 [JetInit](./jetinit-function.md)  

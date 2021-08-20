@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1c8e8db03384648c45f02ca83abfde657e9686
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec2a9bd06aff011f9860e8fbc060645f04bf3524eaa0b1979a97dc03cfc5f2b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117956687"
 ---
 # <a name="counterscount-property"></a>計數器。 Count 屬性
 

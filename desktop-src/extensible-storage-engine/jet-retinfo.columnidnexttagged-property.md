@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 64114b1e998d47a2610e414304e7837ecbb17fe0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f6e00dd4d5013d2d03bc2ebbcf6791ab532879dc4ef04f358a2b8c01a5130a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117893173"
 ---
 # <a name="jet_retinfocolumnidnexttagged-property"></a>JET_RETINFO columnidNextTagged 屬性
 

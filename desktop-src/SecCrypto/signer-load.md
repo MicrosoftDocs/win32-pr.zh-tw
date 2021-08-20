@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9a817a95ca825b67b54a41fc674db10bf81b5740
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7cb6c2a5193859129f20614aa553c423a41305784ae5dace4ea24c0d5cf4f92d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117973486"
 ---
 # <a name="signerload-method"></a>簽署者. Load 方法
 

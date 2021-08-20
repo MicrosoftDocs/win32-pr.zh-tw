@@ -17,12 +17,12 @@ keywords:
 - 註冊類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45dc1b91ad1a3b1fde9a2e49b92950ce2db4876f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 391d8762ae2b7bf82a2a162f0f1eb7b3a6e52e099c90a1e0e67c37f8ab983e97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117951377"
 ---
 # <a name="text-service-registration"></a>文字服務註冊
 
@@ -78,6 +78,6 @@ BOOL RegisterTextService(CLSID clsidTextService)
 
 藉由呼叫 [ITfCategoryMgr：： UnregisterCategory](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-unregistercategory)來移除先前註冊的類別。 ITfInputProcessorProfiles：：取消註冊會移除文字服務的所有類別;當文字服務卸載時，它必須移除個別類別。
 
- 
+ 
 
- 
+ 

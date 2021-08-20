@@ -4,12 +4,12 @@ ms.assetid: ce0d8188-54be-46e8-8753-d0680f690b84
 title: 'SO_EXCLUSIVEADDRUSE 通訊端選項 (Winsock2) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90d4747150f918a7e9c4ce37ec209e7261d1a00c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de9d7b00cc2fcd01fc9d440ce2ef889a9e1be937d5d83af90cfa71bf6f83d14c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117927340"
 ---
 # <a name="so_exclusiveaddruse-socket-option"></a>所以 \_ EXCLUSIVEADDRUSE 通訊端選項
 

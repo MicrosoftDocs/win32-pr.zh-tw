@@ -4,12 +4,12 @@ ms.assetid: 37a93c67-02f2-4c4e-a000-2bb98e0ca948
 title: 撰寫自訂模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92247cd6b975bac520032dcc3aada1328f7b6c2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a2c9c07c074be48218d775acd75926ffbd4b7f04b1d6fc53a440dcc1e898c50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117970611"
 ---
 # <a name="writing-custom-modules"></a>撰寫自訂模組
 

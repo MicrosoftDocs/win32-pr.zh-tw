@@ -4,12 +4,12 @@ ms.assetid: 0fada41f-f6f8-43b3-ad65-79785e859c9c
 title: 系統映射。壓縮相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a32fdc55e2a6a962b1a3dfd9057ef25c89d942f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aecc3c216cc3aa4d80fe2185065cf68da2fd05b663ddb217941ed930df5caf00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117667618"
 ---
 # <a name="systemimagecompression-photo-metadata-policy"></a>系統映射。壓縮相片中繼資料原則
 

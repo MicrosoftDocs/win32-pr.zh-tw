@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 825555925ab0fe80b4677bb47d112f1991f1d62e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a8c9b5a9d08f8dbed5136a499c4114d657f4676d37447ea255d080dd45904bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117956282"
 ---
 # <a name="systemmonitor-methods"></a>SystemMonitor 方法
 
@@ -36,9 +36,9 @@ ms.locfileid: "103671059"
 -   [**SetLogViewRange**](systemmonitor-setlogviewrange.md)
 -   [**UpdateGraph**](systemmonitor-updategraph.md)
 
- 
+ 
 
- 
+ 
 
 
 

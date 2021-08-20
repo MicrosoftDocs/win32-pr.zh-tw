@@ -4,12 +4,12 @@ ms.assetid: 2582259d-077c-4089-9a87-1a377994f0bd
 title: 服務和重新導向的磁片磁碟機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b1435e69ded3bf13a0869a0b9ad2b90bb4682c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09073dd4ce1e98c72d027038638428d9b9ff67ae3697663661404464419341a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117967105"
 ---
 # <a name="services-and-redirected-drives"></a>服務和重新導向的磁片磁碟機
 
@@ -23,7 +23,7 @@ ms.locfileid: "103945124"
 -   如果服務將明確的認證提供給 **net use** 命令，這些認證可能不會在服務界限之外不慎共用。 相反地，服務應該使用 [用戶端](/windows/desktop/SecAuthZ/client-impersonation) 模擬來模擬使用者。
 -   在相同內容中執行的多個服務可能會互相干擾。 如果這兩個服務都執行明確的 **網路使用** ，並同時提供相同的認證，則其中一個服務會失敗，並出現「已連線」錯誤。
 
-此外，服務不應該使用 [Windows 網路功能](/windows/desktop/WNet/windows-networking-functions) 來管理對應的磁碟機號。 雖然 WNet 函式可能會傳回成功，但產生的行為並不是預期的行為。 當系統建立重新導向的磁片磁碟機時，它會以每個使用者為基礎來儲存。 只有使用者能夠管理重新導向的磁片磁碟機。 系統會根據使用者的登入安全識別碼 (SID) 來追蹤重新導向的磁片磁碟機。 登入 SID 是使用者登入會話的唯一識別碼。 單一使用者在系統上可以有多個同時登入會話。
+此外，服務不應該使用 Windows 的[網路功能](/windows/desktop/WNet/windows-networking-functions)來管理對應的磁碟機號。 雖然 WNet 函式可能會傳回成功，但產生的行為並不是預期的行為。 當系統建立重新導向的磁片磁碟機時，它會以每個使用者為基礎來儲存。 只有使用者能夠管理重新導向的磁片磁碟機。 系統會根據使用者的登入安全識別碼 (SID) 來追蹤重新導向的磁片磁碟機。 登入 SID 是使用者登入會話的唯一識別碼。 單一使用者在系統上可以有多個同時登入會話。
 
 如果服務設定為在使用者帳戶下執行，系統一律會為使用者建立新的登入會話，並在該新的登入會話中啟動該服務。 因此，服務無法管理在使用者的其他會話中建立的磁片磁碟機對應。
 

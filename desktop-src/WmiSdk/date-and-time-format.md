@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 日期和時間格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a29e8f97930efa33942fe87b2109aa7cd7ba9d93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fb33f9c252a35fba35dcaa5c07d320033d043da1b148f6a6718ad8a3c637240
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925484"
 ---
 # <a name="date-and-time-format"></a>日期和時間格式
 

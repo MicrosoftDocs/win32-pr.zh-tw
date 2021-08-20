@@ -1,5 +1,5 @@
 ---
-title: Windows Media Player BITS 作業慣例
+title: Windows Media PlayerBITS 作業慣例
 description: 如果您使用背景智慧型傳送服務 (BITS) ，Windows Media Player 可以自動下載數位媒體專案，並將其新增至程式庫。
 ms.assetid: 643faba7-9af2-4292-8d92-e321d7690a5b
 keywords:
@@ -14,21 +14,21 @@ keywords:
 - BITS 作業慣例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85278593ce151f46370ca491ccac8e1645f9bb70
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: afa62b3d5691abe6f91afde1cda4d83525159d2708cfde80d0ae3f23259003e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117931229"
 ---
-# <a name="windows-media-player-bits-job-convention"></a>Windows Media Player BITS 作業慣例
+# <a name="windows-media-player-bits-job-convention"></a>Windows Media PlayerBITS 作業慣例
 
-如果您使用 [背景智慧型傳送服務 (BITS) ](/windows/desktop/Bits/background-intelligent-transfer-service-portal)，Windows Media Player 可以自動下載數位媒體專案，並將其新增至程式庫。 若要利用這項功能，您必須將作業新增至 BITS 傳送佇列，並呼叫 **IBackgroundCopyJob：： SetDescription**，並提供使用正確格式的描述字串。
+如果您使用[背景智慧型傳送服務 (BITS) ](/windows/desktop/Bits/background-intelligent-transfer-service-portal)，Windows Media Player 可以自動下載數位媒體專案，並將其新增至程式庫。 若要利用這項功能，您必須將作業新增至 BITS 傳送佇列，並呼叫 **IBackgroundCopyJob：： SetDescription**，並提供使用正確格式的描述字串。
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 ## <a name="syntax"></a>語法
 
@@ -106,7 +106,7 @@ CD 曲目編號。
 
 *ServiceId* 參數必須包含非零的32位值。 建議您使用函數 [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) 來建立這個值。
 
-您使用 **IBackgroundCopyJob：： AddFile** 的 *localName* 參數指定的檔案名必須具有 .wma、.wmv、mp3 或 .asf 副檔名。
+您使用 **IBackgroundCopyJob：： AddFile** 的 *localName* 參數指定的檔案名必須有 .wma、.wmv、.mp3 或 .asf 副檔名。
 
 其餘的參數是設計來包含與內容相關的中繼資料值。 您可以使用 **DownloadItem getItemInfo**，從線上商店網頁取得這些值。 您可以藉由呼叫 **DownloadManager getDownloadCollection** ，並提供 *serviceId* 作為 *collectionId* 參數，來取得正確的下載集合。
 
@@ -118,13 +118,13 @@ Windows Media Player 會在播放程式執行時定期檢查 BITS 佇列。 為�
 
 
 
-| 名稱                | 類型      | Description                                                                                                                                                                                                          |
+| 名稱                | 類型      | 描述                                                                                                                                                                                                          |
 |---------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **RefreshDownload** | **Dword** | 指定 Windows Media Player 是否應該檢查 BITS 佇列中的下載作業。 如果值為零，播放程式將不會檢查 BITS 佇列。 如果此值為非零值，則播放程式必須檢查佇列。 |
+| **RefreshDownload** | **DWORD** | 指定 Windows Media Player 是否應該檢查 BITS 佇列中的下載作業。 如果值為零，播放程式將不會檢查 BITS 佇列。 如果此值為非零值，則播放程式必須檢查佇列。 |
 
 
 
- 
+ 
 
 您可以使用下列替代語法來新增 Windows Media Player 未完成的 BITS 作業，但它只會顯示狀態資訊：
 
@@ -150,6 +150,6 @@ Windows Media Player 會在播放程式執行時定期檢查 BITS 佇列。 為�
 [**類型 2 線上商店的參考**](reference-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

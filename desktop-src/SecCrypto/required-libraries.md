@@ -4,12 +4,12 @@ ms.assetid: 6c236c15-27f4-4185-a018-648b4764e7fc
 title: 必要的程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 174fa617b0b4860c3bc0bc1f63b18f91a22b6abb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b9f27c0efb4a6e279950e8745ed6d8fcdca83362b6617e693f0e3d60d5e1546
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975106"
 ---
 # <a name="required-libraries"></a>必要的程式庫
 

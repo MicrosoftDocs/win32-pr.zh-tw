@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94e40950ce4a8bf24a6a4301db133779b34ce4ec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad64425fc58e7839ae816069873fd1107e944da191c4e3a68210f3e4bff416fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106999820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117957126"
 ---
 # <a name="counteritemgetvalue-method"></a>CounterItem. GetValue 方法
 

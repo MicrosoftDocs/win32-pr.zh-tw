@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45fdbd59ca954d955fc5598b2bc2dc7a39ee14b2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fc99d62a43bc599732b09f5a9c0b892fb966732b9541d757052985cf22a41861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807314"
 ---
 # <a name="defaultcollelem-attribute"></a>defaultcollelem 屬性
 
@@ -114,6 +114,6 @@ End Sub
 [使用 MIDL 產生類型程式庫](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

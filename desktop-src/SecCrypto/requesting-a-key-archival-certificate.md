@@ -4,12 +4,12 @@ ms.assetid: a09f55c1-fb27-41e7-9a2f-617d2360c02f
 title: 要求金鑰保存憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da1f69338ed4a41986700853ef5d46ee08612e8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1054443a833012f2c97e6d87aad21990180de2500a178637ec8b60133317e799
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975184"
 ---
 # <a name="requesting-a-key-archival-certificate"></a>要求金鑰保存憑證
 

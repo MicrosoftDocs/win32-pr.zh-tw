@@ -4,12 +4,12 @@ ms.assetid: 871a7b99-bb3c-4daf-bbe0-0d9e6b02f0a1
 title: QueryFocusedSummaryWithFallback
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c49e911b5776637bbc713ad5b8d034c178f2a752
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a4a72d20c45fc678e33f87440dccf1c75db37af9819dc9d119ddd0d82f9534a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864811"
 ---
 # <a name="systemsearchqueryfocusedsummarywithfallback"></a>QueryFocusedSummaryWithFallback
 

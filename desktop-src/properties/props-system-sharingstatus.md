@@ -4,12 +4,12 @@ ms.assetid: 61d8a4fc-d9ad-467f-aa79-b0c208d0e905
 title: System. SharingStatus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a3c930309435c14e53cfc29d0fd068be6697c34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdb7e673e15cef1801967a5833a2b84cf024368e127ff93b7fa79491b69a73c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864727"
 ---
 # <a name="systemsharingstatus"></a>System. SharingStatus
 

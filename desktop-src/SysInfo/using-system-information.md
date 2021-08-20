@@ -4,12 +4,12 @@ ms.assetid: a20977f8-6c02-40c8-8335-d3400b1bcdb8
 title: 使用系統資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d232230d5666ebfb4b52fcc16be364fd3c013fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40cf5ca456ecfdecc17cb0d6290853d8f865617d721c7c6e9187582a16b0b9ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117957595"
 ---
 # <a name="using-system-information"></a>使用系統資訊
 

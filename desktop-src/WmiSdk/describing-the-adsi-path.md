@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 描述 ADSI 路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e0ba1dafac273ab3564549a5caca44180161643
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 15c320d20d8f7f9b16e760535a2017389a2a7984440ba4d0819ba2bada0e912e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925069"
 ---
 # <a name="describing-the-adsi-path"></a>描述 ADSI 路徑
 

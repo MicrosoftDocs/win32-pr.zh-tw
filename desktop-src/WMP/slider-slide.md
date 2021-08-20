@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b9f79b5016b323380c5a4d06c8af7ab5fb0b8a2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ec5d1a9480a171372ff5c90990d07bd583bd880570472b25af8d1ada945b31a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117933506"
 ---
 # <a name="sliderslide"></a>滑杆。投影片
 

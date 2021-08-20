@@ -31,12 +31,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 32442122624035ec376bed3be8b3ef20c80f8524
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 945f0dcde3568ea6d1a6bc89c583f49919a463abf228121515367df95efc77c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926331"
 ---
 # <a name="__classproviderregistration-class"></a>\_\_ClassProviderRegistration 類別
 

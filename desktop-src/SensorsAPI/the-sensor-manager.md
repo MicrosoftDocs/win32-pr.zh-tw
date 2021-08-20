@@ -4,12 +4,12 @@ ms.assetid: dd39d533-9983-41b4-a9a3-d94dcadebaac
 title: 感應器管理員物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 715448a62c058c5e6825368003939e5ae2066847
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9ce54dd72b642e599d8b7b26b8c94d1531767ec31b5ccd81a47b88746853a10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117968411"
 ---
 # <a name="the-sensor-manager-object"></a>感應器管理員物件
 

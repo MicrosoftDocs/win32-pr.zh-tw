@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 829bf96b3c7095b95644db220a5d18c7e987e44b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e37473e7c6c4b424adec570a701a8db6667d915c5084263d17db264dfc5c21b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117892184"
 ---
 # <a name="jet_threadstatsaddition-operator"></a>JET_THREADSTATS。加法運算子
 

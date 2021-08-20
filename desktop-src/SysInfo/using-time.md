@@ -4,12 +4,12 @@ ms.assetid: dbbbd72b-1dfa-47f2-b5b9-4d43610f3824
 title: 使用時間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c832062d8306d36d73995d288396903b310969b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 579c961da6aeaaa09e091a8c9e2600e7808414b399a5249c7dbca902282b0c8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117957558"
 ---
 # <a name="using-time"></a>使用時間
 

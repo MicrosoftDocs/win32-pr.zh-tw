@@ -1,19 +1,19 @@
 ---
-title: Teredo 的 Windows 篩選平台例外狀況
-description: 允許應用程式透過防火牆透過 Teredo 接收未經要求之流量的例外狀況，必須使用 Windows 篩選平台 Api 來建立。
+title: Windows篩選 Teredo 的平臺例外狀況
+description: 允許應用程式透過防火牆透過 Teredo 接收未經要求之流量的例外狀況，必須使用 Windows 篩選平台 api 來建立。
 ms.assetid: 8e562757-cd31-4c83-bf4a-92c2e0d3f2ed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cd4d84b97afeaf1157eaac3cd9cc5fc3e24aff0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 415d8b1e96ff53fe7f3b6c26625936d2c91219a528a4bb9283d60436c02f3204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117942492"
 ---
-# <a name="windows-filtering-platform-exceptions-for-teredo"></a>Teredo 的 Windows 篩選平台例外狀況
+# <a name="windows-filtering-platform-exceptions-for-teredo"></a>Windows篩選 Teredo 的平臺例外狀況
 
-允許應用程式透過防火牆透過 [Teredo](about-teredo.md) 接收未經要求之流量的例外狀況，必須使用 [Windows 篩選平台](/windows/desktop/FWP/windows-filtering-platform-start-page) api 來建立。 這是藉由開啟連入和連出的應用程式例外狀況來完成， (應用程式 <app name>) 在 IPv6 流量的「Teredo」子層級。 這可確保只有具有 Teredo 例外狀況的應用程式可以使用 Teredo。 建立這些例外狀況時，應謹慎執行。 使用 [一般] ([ \* 所有) ] 選項可能會允許未向 Teredo 子層或通道流量註冊的程式通過防火牆，以及對安全性造成威脅。
+允許應用程式透過防火牆透過[Teredo](about-teredo.md)接收未經要求之流量的例外狀況，必須使用[Windows 篩選平台](/windows/desktop/FWP/windows-filtering-platform-start-page)api 來建立。 這是藉由開啟連入和連出的應用程式例外狀況來完成， (應用程式 <app name>) 在 IPv6 流量的「Teredo」子層級。 這可確保只有具有 Teredo 例外狀況的應用程式可以使用 Teredo。 建立這些例外狀況時，應謹慎執行。 使用 [一般] ([ \* 所有) ] 選項可能會允許未向 Teredo 子層或通道流量註冊的程式通過防火牆，以及對安全性造成威脅。
 
 在任何情況下，都需要至少一個已封鎖的應用程式，但根據需要允許的應用程式數目，防火牆可能會新增零或多個允許的應用程式。
 
@@ -169,6 +169,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

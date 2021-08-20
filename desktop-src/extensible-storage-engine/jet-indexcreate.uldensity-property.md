@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: af82a2e18d08e134750e9fbfde82091f216bcc93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b9dc54ecf319c3d41dc85b49f4788a593d446e766eeeeb1e158957f9b9f39ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118075031"
 ---
 # <a name="jet_indexcreateuldensity-property"></a>JET_INDEXCREATE ulDensity 屬性
 

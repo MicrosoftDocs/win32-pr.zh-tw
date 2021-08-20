@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ec18ca1d01c1367a5f96889d825f7ecd9d446d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2001723f6699592ce8ce5b1e8b3150dd13ddec1f93d255681321e4f73c5aeb07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930760"
 ---
 # <a name="wmvideowidth-attribute"></a>WM/VideoWidth 屬性
 
@@ -30,7 +30,7 @@ ms.locfileid: "106993517"
 
 ## <a name="remarks"></a>備註
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMVideoWidth。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMVideoWidth。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

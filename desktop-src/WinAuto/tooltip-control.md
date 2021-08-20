@@ -4,12 +4,12 @@ description: 工具提示控制項會顯示一個小型的快顯視窗，其中�
 ms.assetid: d3a65d7b-b882-4a1a-bac2-6995b64cf4af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37557fd116084fc9ac53e8567afc90eda339750d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8d6bdffd240d84043e95bcbc87046d2e74ea965ba18f3f03ad1a5177654eb8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117928988"
 ---
 # <a name="tooltip-control-msaa-ui-element-reference"></a>工具提示控制項 (MSAA UI 元素參考) 
 

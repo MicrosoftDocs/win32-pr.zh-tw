@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0cdc1f9df13ec460ce780507e1bde38a2996f915
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf5affd0989f0bebf57c821b32679fcbd03b03093e9e6d66f176bb66bdbd57d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117932503"
 ---
 # <a name="themeshowerrordialog"></a>ShowErrorDialog
 
@@ -38,7 +38,7 @@ ms.locfileid: "106977529"
 
 ## <a name="remarks"></a>備註
 
-如果 **enableErrorDialogs** 為 false，則可以使用這個方法，以程式設計方式顯示錯誤對話方塊。 如果錯誤佇列中沒有任何錯誤，則不會顯示 [錯誤] 對話方塊。
+如果 **設定 enableErrorDialogs** ，則可以使用這個方法，以程式設計方式顯示錯誤對話方塊。 如果錯誤佇列中沒有任何錯誤，則不會顯示 [錯誤] 對話方塊。
 
 若為 Windows Media Player 9 系列或更新版本，則必須從錯誤事件處理常式呼叫這個方法。 Windows Media Player 9 系列或更新版本會在引發錯誤事件之後，清除面板的錯誤佇列。
 

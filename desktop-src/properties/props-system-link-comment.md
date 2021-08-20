@@ -4,16 +4,16 @@ ms.assetid: 96bf4971-a19c-4284-abb8-ad843af32c6e
 title: 系統連結。批註
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f75d64c0452b2dccf888d21df1e94165248bb0e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 59b08d6066431985f84b719d6bc0cd4d29c80aa37439ce1735d2d1b217df1887
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865655"
 ---
 # <a name="systemlinkcomment"></a>系統連結。批註
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

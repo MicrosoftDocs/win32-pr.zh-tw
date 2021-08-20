@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 74c17f9d4b8c8c1979fa7da2d6f0ff63dff74a9b
-ms.sourcegitcommit: cd9672511263d04c0e4bc41758dd1d9e89ea92b4
+ms.openlocfilehash: 93aab69cd4d4a49cc9af4601c22196d498f16e281639b96feda2d1e857fdca72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "104991834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118048660"
 ---
 # <a name="sfvm_fsnotify-message"></a>SFVM \_ FSNOTIFY 訊息
 

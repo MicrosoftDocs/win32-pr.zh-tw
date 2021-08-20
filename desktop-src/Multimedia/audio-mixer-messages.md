@@ -1,6 +1,6 @@
 ---
-title: 音訊混音器訊息
-description: 音訊混音器訊息
+title: 音訊 Mixer 訊息
+description: 音訊 Mixer 訊息
 ms.assetid: 4d2fd33d-3149-4b12-9455-9891f5c8bc77
 keywords:
 - 多媒體音訊、音訊混音器訊息
@@ -12,14 +12,14 @@ keywords:
 - 音訊 mixers 的參考，訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6225a443b7b0317931dc525137f27c9b3aed3120
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e9adb58e3c9616a25cd44af85bdc65097e9fe89b1c6590b9d0c9370c8ae08045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117989608"
 ---
-# <a name="audio-mixer-messages"></a>音訊混音器訊息
+# <a name="audio-mixer-messages"></a>音訊 Mixer 訊息
 
 下列訊息會搭配音訊 mixers 使用。
 
@@ -30,12 +30,12 @@ ms.locfileid: "104020737"
 
 <dl> <dt>
 
-[音訊混音器參考](audio-mixer-reference.md)
+[音訊 Mixer 參考](audio-mixer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103089
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4d9c3bc5edb92403e7d168e2d56893bed9615c4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8de4b0261a6c010e1c6890e8262cea4569b8283c2cab74864cadadc0a6bed3fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117896710"
 ---
 # <a name="esenttoomanyopenindexesexception-members"></a>EsentTooManyOpenIndexesException 成員
 

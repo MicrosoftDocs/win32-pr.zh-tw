@@ -5,12 +5,12 @@ ms.assetid: 3e9d7672-2314-45c8-8178-5a0afcfd0c50
 title: " (安全性詞彙) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 975df9e3638f12ba7f3766d6119685fba1fa599b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99805289ca49b0505a1bbba292ec5fc7753e684aa08d4b5f0ac464f9160633ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117969946"
 ---
 # <a name="s-security-glossary"></a> (安全性詞彙) 
 
@@ -53,7 +53,7 @@ ms.locfileid: "103944621"
 
 </dd> <dt>
 
-<span id="security.s_1_gly"></span><span id="SECURITY.S_1_GLY"></span>**Sas**
+<span id="security.s_1_gly"></span><span id="SECURITY.S_1_GLY"></span>**SAS**
 </dt> <dd>
 
 請參閱 *安全的關注順序*。
@@ -165,7 +165,7 @@ NIST 和 NSA 所設計的標準。 此標準會定義 (SHA-1) 的安全雜湊演
 <span id="_security_security_identifier_gly"></span><span id="_SECURITY_SECURITY_IDENTIFIER_GLY"></span>**安全識別碼**
 </dt> <dd>
 
- (SID) 可識別使用者、群組和電腦帳戶之可變長度的資料結構。 第一次建立帳戶時，會在網路上的每個帳戶發出唯一的 SID。 Windows 中的內部進程會參考帳戶的 SID，而不是帳戶的使用者或組名。
+ (SID) 可識別使用者、群組和電腦帳戶之可變長度的資料結構。 第一次建立帳戶時，會在網路上的每個帳戶發出唯一的 SID。 Windows 中的內部進程指的是帳戶的 SID，而不是帳戶的使用者或組名。
 
 </dd> <dt>
 
@@ -246,7 +246,7 @@ NIST 和 NSA 所設計的標準。 此標準會定義 (SHA-1) 的安全雜湊演
 <span id="_security_server_gated_cryptography_gly"></span><span id="_SECURITY_SERVER_GATED_CRYPTOGRAPHY_GLY"></span>**伺服器閘道密碼編譯**
 </dt> <dd>
 
- (SGC) *安全通訊端層* (SSL) 的延伸模組，可讓具有 INTERNET INFORMATION SERVICES (IIS) 匯出版本的公司（例如金融機構）使用強式加密 (例如128位加密) 。
+ (SGC) *安全通訊端層* (SSL) 的延伸模組，可讓具有 Internet Information Services (IIS) 匯出版本的公司（例如金融機構）使用強式加密 (例如128位加密) 。
 
 </dd> <dt>
 
@@ -303,7 +303,7 @@ NIST 和 NSA 所設計的標準。 此標準會定義 (SHA-1) 的安全雜湊演
 
 </dd> <dt>
 
-<span id="_security_shs_gly"></span><span id="_SECURITY_SHS_GLY"></span>**Shs**
+<span id="_security_shs_gly"></span><span id="_SECURITY_SHS_GLY"></span>**SHS**
 </dt> <dd>
 
 請參閱 *安全雜湊標準*。
@@ -407,11 +407,11 @@ PKCS 7 所定義的資料內容類型 \# 。 此資料類型是由任何類型�
 <span id="_security_single_sign_on_gly"></span><span id="_SECURITY_SINGLE_SIGN_ON_GLY"></span>**單一登入**
 </dt> <dd>
 
- (SSO) 將 Microsoft 帳戶 (（例如 Microsoft Outlook.com 帳戶）連結至本機帳戶的能力，讓一個登入可讓使用者使用其他支援以其) 登入的應用程式。
+ (SSO) 將 Microsoft 帳戶 (（例如 Microsoft Outlook .com 帳戶）連結至本機帳戶的能力，讓一個登入可讓使用者使用其他支援以其) 登入的應用程式。
 
 </dd> <dt>
 
-<span id="_security_sip_gly"></span><span id="_SECURITY_SIP_GLY"></span>**Sip**
+<span id="_security_sip_gly"></span><span id="_SECURITY_SIP_GLY"></span>**SIP**
 </dt> <dd>
 
 請參閱 *主體介面套件*。
@@ -460,28 +460,28 @@ PKCS 7 所定義的資料內容類型 \# 。 此資料類型是由任何類型�
 
 </dd> <dt>
 
-<span id="_security_software_publisher_certificate_gly"></span><span id="_SECURITY_SOFTWARE_PUBLISHER_CERTIFICATE_GLY"></span>**軟體發行者憑證**
+<span id="_security_software_publisher_certificate_gly"></span><span id="_SECURITY_SOFTWARE_PUBLISHER_CERTIFICATE_GLY"></span>**軟體 Publisher 憑證**
 </dt> <dd>
 
  (SPC) \# 包含 x.509 憑證的 PKCS 7 帶正負號資料物件。
 
 </dd> <dt>
 
-<span id="_security_spc_gly"></span><span id="_SECURITY_SPC_GLY"></span>**Spc**
+<span id="_security_spc_gly"></span><span id="_SECURITY_SPC_GLY"></span>**SPC**
 </dt> <dd>
 
-請參閱 *軟體發行者憑證*。
+請參閱 *軟體 Publisher 憑證*。
 
 </dd> <dt>
 
-<span id="_security_spn_gly"></span><span id="_SECURITY_SPN_GLY"></span>**Spn**
+<span id="_security_spn_gly"></span><span id="_SECURITY_SPN_GLY"></span>**SPN**
 </dt> <dd>
 
 請參閱 *服務主體名稱*。
 
 </dd> <dt>
 
-<span id="_security_ssl_gly"></span><span id="_SECURITY_SSL_GLY"></span>**Ssl**
+<span id="_security_ssl_gly"></span><span id="_SECURITY_SSL_GLY"></span>**SSL**
 </dt> <dd>
 
 請參閱 *安全通訊端層的通訊協定*。
@@ -502,7 +502,7 @@ PKCS 7 所定義的資料內容類型 \# 。 此資料類型是由任何類型�
 
 </dd> <dt>
 
-<span id="_security_sso_gly"></span><span id="_SECURITY_SSO_GLY"></span>**Sso**
+<span id="_security_sso_gly"></span><span id="_SECURITY_SSO_GLY"></span>**SSO**
 </dt> <dd>
 
 請參閱 *單一登入*。
@@ -523,7 +523,7 @@ PKCS 7 所定義的資料內容類型 \# 。 此資料類型是由任何類型�
 
 </dd> <dt>
 
-<span id="_security_sst_gly"></span><span id="_SECURITY_SST_GLY"></span>**Sst**
+<span id="_security_sst_gly"></span><span id="_SECURITY_SST_GLY"></span>**SST**
 </dt> <dd>
 
 請參閱已 *序列化的憑證存放區格式*。
@@ -558,7 +558,7 @@ PKCS 7 所定義的資料內容類型 \# 。 此資料類型是由任何類型�
 <span id="_security_subject_interface_package_gly"></span><span id="_SECURITY_SUBJECT_INTERFACE_PACKAGE_GLY"></span>**主體介面套件**
 </dt> <dd>
 
- (SIP) 軟體層的 Microsoft 專屬規格，可讓應用程式建立、儲存、取出及驗證主體簽章。 主題包括（但不限於）可攜式可執行檔映射 ( .exe) 、封包 ( .cab) 影像、一般檔案和類別目錄檔案。 每個主體類型都會針對雜湊計算使用不同的資料子集，而且需要不同的儲存和抓取程式。 因此，每個主體類型都有唯一的主體介面套件規格。
+ (SIP) 軟體層的 Microsoft 專屬規格，可讓應用程式建立、儲存、取出及驗證主體簽章。 主題包括（但不限於）可移植的可執行映射 (.exe) 、封包 (.cab) 影像、一般檔案和類別目錄檔案。 每個主體類型都會針對雜湊計算使用不同的資料子集，而且需要不同的儲存和抓取程式。 因此，每個主體類型都有唯一的主體介面套件規格。
 
 </dd> <dt>
 

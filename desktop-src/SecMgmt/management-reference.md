@@ -4,12 +4,12 @@ ms.assetid: 5487dd97-96ef-474a-8995-46f8a1377fc3
 title: 安全性管理參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a65a25b6d4fcf046a7cb4ad55a2f2b04b2a27e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a076bc99d42691b6222f1413605eeb46c38557476d30c4ea8642993ba0e65fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117968897"
 ---
 # <a name="security-management-reference"></a>安全性管理參考
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: e63323a9c8feffc0365d59f4d0d73007f2835d9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08c2d9c87768a5ed1f5e53209a4497bea2bdde28fecb964aa06f205cf1327fd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118075426"
 ---
 # <a name="jet_handleequals-method"></a>JET_HANDLE。Equals 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104194899"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

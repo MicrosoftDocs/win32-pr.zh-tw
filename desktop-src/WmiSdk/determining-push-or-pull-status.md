@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 判斷推送或提取狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bee037b4c81e43080ee119540b05568eb00cdc70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df69fcc88195f26611636fc5292521ec31dd070fce53a61ea80ffebe310a9503
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117924822"
 ---
 # <a name="determining-push-or-pull-status"></a>判斷推送或提取狀態
 

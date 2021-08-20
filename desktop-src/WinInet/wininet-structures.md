@@ -4,12 +4,12 @@ description: 以下是 WinINet 結構。
 ms.assetid: 86cae0d8-effc-486b-8141-309c7d1bfb00
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97722351dfa123681889104c73dcaaef90eb6f12
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8083fcf2a1c64e1946d538cdd33ba211582f11374faad7b71a88a6bb3dd70aef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117928258"
 ---
 # <a name="wininet-structures"></a>WinINet 結構
 
@@ -39,9 +39,9 @@ ms.locfileid: "103932056"
 [**URL \_ 元件**](/windows/desktop/api/Wininet/ns-wininet-url_componentsa)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

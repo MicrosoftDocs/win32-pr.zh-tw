@@ -1,19 +1,19 @@
 ---
-description: 下列主題說明 Windows 即服務 (WaaS) 評估平臺 API 的運作方式。
+description: 下列主題說明 Windows 即服務 (WaaS) 評量平臺 API 的運作方式。
 ms.assetid: B107AAF3-4248-40EF-ABD2-C5B31602AEF7
 title: 關於 WaaS 評定平臺
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb96dd27fdc5b8838f2e2a26e74f0046eda8f20b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79493900d508a8a613953f1f9b7bbd0f67e2a200761148b7fe31d9fb31ce3609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117958948"
 ---
 # <a name="about-the-waas-assessment-platform"></a>關於 WaaS 評定平臺
 
-下列主題說明 Windows 即服務 (WaaS) 評估平臺 API 的運作方式。
+下列主題說明 Windows 即服務 (WaaS) 評量平臺 API 的運作方式。
 
 WaaS 評量 API 會將下列資訊提供給呼叫者：
 

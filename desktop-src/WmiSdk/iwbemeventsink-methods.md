@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IWbemEventSink 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb636755c45207c8d36583bf704fe80b4376a128
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5b0d9accec98544944d0ae3c8e76eb3cf7f205bc0af79a397f703f7b78a97db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117923945"
 ---
 # <a name="iwbemeventsink-methods"></a>IWbemEventSink 方法
 

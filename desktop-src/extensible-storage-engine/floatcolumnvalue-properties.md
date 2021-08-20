@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.floa
 ms:contentKeyID: 55103212
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3a3df6ebfbe5d15edaf7d7941e551207de25f197
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce31c580cc76550998735a463d1b3925b0ae7045d02f67e0a12f6bc95abb7dbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117896393"
 ---
 # <a name="floatcolumnvalue-properties"></a>FloatColumnValue 屬性
 

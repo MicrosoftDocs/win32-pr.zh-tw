@@ -4,12 +4,12 @@ ms.assetid: d0976a7e-3c8e-4bbe-80e1-568a27ab81c6
 title: 指定演算法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f5d329486c655fbc347d35870cfe81335678cfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b45bf68025b7233b5347e320eab348a3fe3528b76ceec3ec047ef634710d90e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117972639"
 ---
 # <a name="specifying-the-algorithms"></a>指定演算法
 

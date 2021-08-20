@@ -4,16 +4,16 @@ ms.assetid: 088915d8-768c-4378-a9dd-9347a428aff9
 title: 驗證檔上的簽章
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f2886edcb9629011ddf1a0b5fb45a12a11f0556
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fb1e6bbec678f74c9761c7f4c0712249c8b557a68b5e9f80aeeb3306faede36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117970932"
 ---
 # <a name="verifying-the-signature-on-a-document"></a>驗證檔上的簽章
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 當收到簽署的檔時，可以檢查簽章或簽章的有效性。 簽章可以檢查：
 

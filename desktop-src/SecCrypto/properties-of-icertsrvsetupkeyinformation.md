@@ -4,12 +4,12 @@ ms.assetid: d805a011-8728-4687-8e4a-ad331617abe7
 title: ICertSrvSetupKeyInformation 的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d2a41647c06015c011d4d7a36cddfd81466b3b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04c3e1f95a8bac8a166e5f3046a0517d4b20442c3978219753df5ed33c13c4c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117977145"
 ---
 # <a name="properties-of-icertsrvsetupkeyinformation"></a>ICertSrvSetupKeyInformation 的屬性
 

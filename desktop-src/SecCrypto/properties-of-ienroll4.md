@@ -4,12 +4,12 @@ ms.assetid: e981b1c7-4dd4-4e37-ac80-3d0d0fe5f8cb
 title: IEnroll4 的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: caab66f1661dcd196ba49188f0ec92a2bcfbd5c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf98d32f86c9557d8f4df82ff0a1816e3896fbcc826af57e7009c70ee7f34b08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117977003"
 ---
 # <a name="properties-of-ienroll4"></a>IEnroll4 的屬性
 

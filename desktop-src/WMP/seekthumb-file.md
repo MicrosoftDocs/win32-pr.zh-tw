@@ -3,22 +3,22 @@ title: SeekThumb 檔案
 description: SeekThumb 檔案
 ms.assetid: 757aeb93-ebf0-4659-8cb0-686e54485ac4
 keywords:
-- Windows Media Player 行動外觀、美工檔案
+- Windows Media Player行動外觀、美工檔案
 - 外觀、美工檔案
 - 適用于外觀、藝術的檔案
 - 適用于外觀、SeekThumbd 檔案的美工檔案
-- Windows Media Player 行動外觀 SeekThumb 檔案
+- Windows Media Player行動外觀、SeekThumb 檔
 - 外觀，SeekThumb 檔
 - 面板中的 SeekThumb 檔案
 - thumb、SeekThumb 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc9f1e9434a614dbc02e48b63508c7c2c04f553d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: de49bf3a93b5dd3a538fc98c824e274547bf97a883c4255322336c2ba23b54cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117933721"
 ---
 # <a name="seekthumb-file"></a>SeekThumb 檔案
 
@@ -33,7 +33,7 @@ SeekThumb 檔案會定義影像，指出搜尋的播放程式在媒體專案內�
 > [!Note]  
 > 針對 Windows Media Player 10 行動裝置版或更新版本中所使用的面板所建立的 SeekThumb 檔案，必須有下列三個映射 (從左至右) ： normal、推送和停用。
 
- 
+ 
 
 您可能會想要讓 thumb 影像的特定區域變成透明的。 這可讓您在矩形以外的圖形中建立 thumb 影像。 您以 RGB 值255、0、255所指定的色彩填滿的任何 thumb 影像區域，在您的面板中將會顯示為透明。
 
@@ -44,9 +44,9 @@ SeekThumb 檔案會定義影像，指出搜尋的播放程式在媒體專案內�
 [**美工檔案**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 36ba6381-3830-4f27-937d-8808129e7d09
 title: 分析網路流量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef69b819fed54bac7870efdb7f4b776ec75bba9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79954fedc141d51443dd574c35d2c61a371c54e9f3b920ebe537cf87a9592219
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796328"
 ---
 # <a name="analyzing-network-traffic"></a>分析網路流量
 

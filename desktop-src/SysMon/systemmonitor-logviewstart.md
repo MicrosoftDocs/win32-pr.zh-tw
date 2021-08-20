@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 967c44940b195c4d8ddd3028e1d4f307827bbbfa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc1c7c4a46ac746582d62ee7ce08980b078eb8d972cb6b4d3ed787b49f2285f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117955401"
 ---
 # <a name="systemmonitorlogviewstart-property"></a>SystemMonitor. LogViewStart 屬性
 

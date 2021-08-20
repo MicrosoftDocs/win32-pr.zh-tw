@@ -4,12 +4,12 @@ description: DragPattern/DragDropPattern 元素需要名稱
 ms.assetid: DEF58FB2-5830-4162-87D0-40DEC1237529
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ecc60eeca59f4754f9c160696cdfa2556c36a5e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c0a9e2dace2568ea04f3a84ef5e19b0a5409fb29deb4b6b186702b5a0a6a361c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106980259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929629"
 ---
 # <a name="dragpatterndragdroppattern-elements-requires-name"></a>DragPattern/DragDropPattern 元素需要名稱
 
@@ -48,9 +48,9 @@ ms.locfileid: "106980259"
 [**IUIAutomationElement::CurrentName**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentname)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
