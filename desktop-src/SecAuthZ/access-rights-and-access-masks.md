@@ -4,18 +4,18 @@ ms.assetid: da67c486-d2e7-4632-ac7a-c18aabc3f21d
 title: 存取權限和存取遮罩
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32f06cdf447f9d91c1553ea5fb6b3b7d1f324dc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1238766e2e4c8629b6c3a508b30d1e8832314d2e8ddd5ffdf4a1b93085f3c64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914354"
 ---
 # <a name="access-rights-and-access-masks"></a>存取權限和存取遮罩
 
 *訪問* 許可權是位旗標，對應至執行緒可以在安全物件上執行的一組特定作業。 例如，登錄機碼具有金鑰 \_ 集 \_ 值存取權限，這會對應到執行緒在機碼下設定值的能力。 如果執行緒嘗試對物件執行作業，但沒有物件的必要存取權限，系統就不會執行此作業。
 
-[*存取遮罩*](/windows/desktop/SecGloss/a-gly)是一種32位的值，其位會對應至物件所支援的存取權。 所有 Windows 安全物件都使用 [存取遮罩格式](access-mask-format.md) ，其中包含下列存取權類型的位：
+[*存取遮罩*](/windows/desktop/SecGloss/a-gly)是一種32位的值，其位會對應至物件所支援的存取權。 所有 Windows 安全物件都會使用[存取遮罩格式](access-mask-format.md)，其中包含下列存取權類型的位：
 
 -   [一般存取權限](generic-access-rights.md)
 -   [標準存取權限](standard-access-rights.md)

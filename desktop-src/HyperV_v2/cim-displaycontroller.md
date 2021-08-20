@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 59db37a89ce1f57e01a6a9a27fb9c24177221b00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbfd67f59ba46cb17f6022296c62de05d7c0f9e6bc334cb01e2e28a059e4b384
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812636"
 ---
 # <a name="cim_displaycontroller-class"></a>CIM \_ DisplayController 類別
 

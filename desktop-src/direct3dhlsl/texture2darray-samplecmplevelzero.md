@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 37a33dbe654007d489e3a6e3ada5668d4373fec3
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 03b90e9b8eea0974de3d745da29ccfa90287e730de8060f784835f5e7a74a4e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104313358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117722459"
 ---
 # <a name="texture2darraysamplecmplevelzero-methods"></a>Texture2DArray：： SampleCmpLevelZero 方法
 

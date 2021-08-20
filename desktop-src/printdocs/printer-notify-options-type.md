@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 4a82d0bc0481533a65fc90d32a992c51116b4595
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b593a502a668345cdd0206b4f1363cf160074b6c9aa26696427b5b42a0fbdc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056275"
 ---
 # <a name="printer_notify_options_type-structure"></a>印表機 \_ 通知 \_ 選項 \_ 類型結構
 
@@ -46,7 +46,7 @@ typedef struct _PRINTER_NOTIFY_OPTIONS_TYPE {
 
 <dl> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 要監看的型別。 這個成員可以是下列其中一個值。
@@ -107,7 +107,7 @@ typedef struct _PRINTER_NOTIFY_OPTIONS_TYPE {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 
 
 

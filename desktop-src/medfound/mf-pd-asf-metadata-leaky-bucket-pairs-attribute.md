@@ -4,12 +4,12 @@ ms.assetid: e45d055f-d404-47e9-b3c8-ac743b290138
 title: 'MF_PD_ASF_METADATA_LEAKY_BUCKET_PAIRS 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7426d15a806a8c61c9a2ea1fdfb0565372c5f48f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9444292ad437551622e1f418a6f21198ecd8341f01e4e5bda0a2047f847cfd37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740746"
 ---
 # <a name="mf_pd_asf_metadata_leaky_bucket_pairs-attribute"></a>MF \_ PD \_ ASF \_ 中繼資料 \_ 有漏洞 \_ BUCKET \_ 配對屬性
 
@@ -46,7 +46,7 @@ typedef struct _WMLeakyBucketPair {
 針對每個位元速率， **msBufferWindow** 成員會指出播放開始之前要緩衝的內容量（以毫秒為單位）。 緩衝區的大小（以位元組為單位）等於 **msBufferWinow** x **dwBitrate** /8000。
 
 > [!Note]  
-> 這個屬性會對應至 Windows Media 格式 SDK 中的 **ASFLeakyBucketPairs** 屬性。
+> 這個屬性會對應至 Windows 媒體格式 SDK 中的 **ASFLeakyBucketPairs** 屬性。
 
  
 
@@ -56,8 +56,8 @@ typedef struct _WMLeakyBucketPair {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

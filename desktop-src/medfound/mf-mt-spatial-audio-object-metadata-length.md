@@ -4,12 +4,12 @@ ms.assetid: C133693D-A8D5-4520-B561-57BF11074257
 title: 'MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_LENGTH 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2cd0b3cab788dbc724ab896d2cbfeb0d42f633f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 784e1b210b616f4c42c2c3d410a207adc9c8c8ccaf751432cb027a7cc30cf951
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876809"
 ---
 # <a name="mf_mt_spatial_audio_object_metadata_length-attribute"></a>MF \_ MT \_ 空間 \_ 音訊 \_ 物件 \_ 中繼資料 \_ 長度屬性
 

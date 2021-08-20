@@ -4,12 +4,12 @@ ms.assetid: 6e690d17-da17-452a-aa9a-9701a560856b
 title: 設定 WMV 編碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6324071257dd9d56e33d1dc6ece4886ee73661ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39001edd5901d09bc618fe92d251070d24633fb94812a9c2696b11866f3cb9cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880542"
 ---
 # <a name="configuring-a-wmv-encoder"></a>設定 WMV 編碼器
 
@@ -20,7 +20,7 @@ ms.locfileid: "104111844"
 -   編碼資料流程的目標位元速率。
 -   要在編碼器上設定的設定屬性。
 
-設定屬性記載于 Windows Media 音訊和影片編解碼器和 DSP Api 檔中。 如需詳細資訊，請參閱 [編碼屬性](configuring-the-encoder.md)中的「影片資料流程屬性」。
+設定屬性記載于 Windows Media 音訊和影片編解碼器和 DSP api 檔中。 如需詳細資訊，請參閱 [編碼屬性](configuring-the-encoder.md)中的「影片資料流程屬性」。
 
 若要取得編碼器的有效輸出型別，請執行下列步驟。
 
@@ -41,15 +41,15 @@ ms.locfileid: "104111844"
 
 ### <a name="private-codec-data"></a>私用編解碼器資料
 
-私用編解碼器資料是不透明的資料結構，您必須從 WMV 編碼器取得該資料結構，並新增至壓縮類型，才能在編碼器上設定壓縮類型。 若要取得私用資料，您必須使用 Windows Media Format 11 SDK 中記載的 **IWMCodecPrivateData** 介面。
+私用編解碼器資料是不透明的資料結構，您必須從 WMV 編碼器取得該資料結構，並新增至壓縮類型，才能在編碼器上設定壓縮類型。 若要取得私用資料，您必須使用 Windows 媒體格式 11 SDK 中記載的 **IWMCodecPrivateData** 介面。
 
 若要取得私用編解碼器資料，請執行下列步驟：
 
 1.  呼叫 [**IMFTransform：： GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) ，以從編碼器取得媒體類型。  (這是上一節中的步驟6。 ) 
 2.  在媒體類型上設定 [ [**MF \_ MT \_ 平均 \_ 位元速率**](mf-mt-avg-bitrate-attribute.md) ] 屬性，以指定目標位元速率。
-3.  藉由呼叫 [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype)函式，將媒體類型轉換為一 [**\_ \_ 種媒體類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)結構。
+3.  藉由呼叫 [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype)函式，將媒體類型轉換成 [**DMO \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)結構。
 4.  查詢編碼器以取得 **IWMCodecPrivateData** 介面。
-5.  呼叫 **IWMCodecPrivateData：： SetPartialOutputType** 方法，並傳入轉換的 [**sql-dmo \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) 結構。
+5.  呼叫 **IWMCodecPrivateData：： SetPartialOutputType** 方法，並傳入已轉換的 [**DMO \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)結構。
 6.  呼叫 **IWMCodecPrivateData：： GetPrivateData** 方法兩次，一次取得私用資料的緩衝區大小，以及將資料複製到緩衝區。
 7.  藉由在類型上設定 [**MF \_ MT \_ 使用者 \_ 資料**](mf-mt-user-data-attribute.md) 屬性，將私用資料新增至媒體類型。
 
@@ -374,7 +374,7 @@ HRESULT CopyPropertyStore(IPropertyStore *pSrc, IPropertyStore *pDest)
 [具現化編碼器 MFT](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Windows Media 編碼器](windows-media-encoders.md)
+[Windows媒體編碼器](windows-media-encoders.md)
 </dt> </dl>
 
  

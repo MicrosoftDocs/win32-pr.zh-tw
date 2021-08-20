@@ -4,12 +4,12 @@ ms.assetid: 61896022-28c2-4f70-977a-c990b4b23c55
 title: 建立已簽署的訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f68511c41a10fc0f690574e71c1dfe8a354efbd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9645509c140168267bf48915f68a884b51dee6e7f5a19b2a153e3fd6ff7d5afe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769243"
 ---
 # <a name="creating-a-signed-message"></a>建立已簽署的訊息
 

@@ -4,12 +4,12 @@ ms.assetid: f9789f1d-35bf-40d6-9724-d5a160a0d06d
 title: 媒體資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a59cd8bf864aa890891873ed92a39225c6eebdf
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 29939553e64fb6558aa6480fb69b7beab208a4ccb3e2c9ce55c4d8fcbfc18cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805093"
 ---
 # <a name="media-table"></a>媒體資料表
 
@@ -46,7 +46,7 @@ ms.locfileid: "104321479"
 <span id="LastSequence"></span><span id="lastsequence"></span><span id="LASTSEQUENCE"></span>LastSequence
 </dt> <dd>
 
-此媒體之最後一個檔案的檔案序號。 LastSequence 資料行中的數位會指定 [檔案資料表中的哪些](file-table.md) 檔案是在特定的來源磁片上找到。 每個來源磁片都包含序號 (的所有檔案，如 [檔案] 資料表的 [順序] 資料行中所示) 小於或等於 [LastSequence] 資料行中的值，以及大於前一個磁片 (或大於0的 LastSequence 值（針對媒體資料表) 中的第一個專案）。 此數位必須為非負數;最大限制為32767個檔案。 如需有關使用更多檔案建立 Windows Installer 套件的詳細資訊，請參閱 [撰寫大型封裝](authoring-a-large-package.md)。
+此媒體之最後一個檔案的檔案序號。 LastSequence 資料行中的數位會指定 [檔案資料表中的哪些](file-table.md) 檔案是在特定的來源磁片上找到。 每個來源磁片都包含序號 (的所有檔案，如 [檔案] 資料表的 [順序] 資料行中所示) 小於或等於 [LastSequence] 資料行中的值，以及大於前一個磁片 (或大於0的 LastSequence 值（針對媒體資料表) 中的第一個專案）。 此數位必須為非負數;最大限制為32767個檔案。 如需有關使用更多檔案建立 Windows Installer 套件的詳細資訊，請參閱[撰寫大型封裝](authoring-a-large-package.md)。
 
 </dd> <dt>
 
@@ -60,7 +60,7 @@ ms.locfileid: "104321479"
 <span id="Cabinet"></span><span id="cabinet"></span><span id="CABINET"></span>內閣
 </dt> <dd>
 
-如果儲存在媒體上的部分或所有檔案壓縮成封包檔，則為封包的名稱。 如果未使用任何封包，則此資料行必須為空白。 封包的名稱必須使用封 [包](cabinet.md) 資料類型的語法。 Windows Installer 一律需要有效的來源，才能修復內嵌封包檔中包含的檔案。 當 Windows Installer 安裝包含內嵌封包檔的封裝時，系統會儲存封包檔的複本。 此複本無法用來修復封包檔。 若要節省磁碟空間，請使用外部封包檔，而不是內嵌的封包檔。
+如果儲存在媒體上的部分或所有檔案壓縮成封包檔，則為封包的名稱。 如果未使用任何封包，則此資料行必須為空白。 封包的名稱必須使用封 [包](cabinet.md) 資料類型的語法。 Windows安裝程式一律需要有效的來源，才能修復內嵌封包檔中包含的檔案。 當 Windows Installer 安裝包含內嵌封包檔的封裝時，系統會儲存封包檔的複本。 此複本無法用來修復封包檔。 若要節省磁碟空間，請使用外部封包檔，而不是內嵌的封包檔。
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ ms.locfileid: "104321479"
 
 如需如何將封包新增至檔案資料表和媒體資料表的詳細資訊，請參閱 [使用封包和壓縮的來源](using-cabinets-and-compressed-sources.md)。
 
-Windows Installer 要求 .msi 檔案必須位於卸載式媒體的第一個磁片上， (CD、DVD 或磁片) 用於產品的安裝。
+Windows安裝程式要求 .msi 檔案必須位於卸載式媒體的第一個磁片上， (CD、DVD 或磁片) 用於產品的安裝。
 
 **判斷 SourceMode**
 

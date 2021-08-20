@@ -4,12 +4,12 @@ ms.assetid: d10533d8-e919-4d2a-a173-16a8f723551d
 title: 關於 CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8883b5ad50a0e3e680d718afd0f448a5cd87dd18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb13c50b98c80f9ca45a72d0b0967fc8b95d209dd88e206e1a9abc498d408032
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909019"
 ---
 # <a name="about-cng"></a>關於 CNG
 
@@ -23,9 +23,9 @@ ms.locfileid: "106997077"
 
 如需 CNG 中密碼編譯基本類型的詳細資訊，請參閱 [密碼編譯基本](cryptographic-primitives.md)類型。
 
-## <a name="key-storage-and-retrieval"></a>金鑰儲存和抓取
+## <a name="key-storage-and-retrieval"></a>金鑰儲存體和抓取
 
-如需有關 CNG 中金鑰儲存和抓取的詳細資訊，請參閱 [金鑰儲存和](key-storage-and-retrieval.md)抓取。
+如需有關 CNG 中金鑰儲存和抓取的詳細資訊，請參閱[儲存體和抓取金鑰](key-storage-and-retrieval.md)。
 
 ## <a name="key-import-and-export"></a>金鑰匯入和匯出
 

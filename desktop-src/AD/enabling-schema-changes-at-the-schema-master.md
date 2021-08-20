@@ -1,31 +1,31 @@
 ---
 title: 在架構主機上啟用架構變更
-description: 根據預設，所有 Windows 2000 網域控制站上的架構修改都會停用。
+description: 根據預設，所有 Windows 2000 網域控制站都會停用架構修改。
 ms.assetid: 08806a9e-283c-48d9-9557-bcb9719fc13c
 ms.tgt_platform: multiple
 keywords:
 - 在架構主機 AD 上啟用架構變更
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4840c9928011179ce303c83f4d00ef598f38eb64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 251716adaae4dab153b749b4db361bf7adca9b6aca2a800cec1b9d73943c595b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191384"
 ---
 # <a name="enabling-schema-changes-at-the-schema-master"></a>在架構主機上啟用架構變更
 
-根據預設，所有 Windows 2000 網域控制站上的架構修改都會停用。 更新架構的能力是由架構主機網域控制站上的下列登錄值所控制：
+根據預設，所有 Windows 2000 網域控制站都會停用架構修改。 更新架構的能力是由架構主機網域控制站上的下列登錄值所控制：
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            NTDS
-               Parameters
-                  Schema Update Allowed
+   System
+      CurrentControlSet
+         Services
+            NTDS
+               Parameters
+                  Schema Update Allowed
 ```
 
 此登錄值為 **REG \_ DWORD** 值。 如果此值不存在或包含零 (0) ，則會停用架構修改。 如果這個值存在且包含零以外的值，則會啟用架構修改。
@@ -191,9 +191,9 @@ HRESULT EnableSchemaUpdate(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

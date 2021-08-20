@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - RTWorkQ.dll
-ms.openlocfilehash: b55386b2a018b0e311a1d4dbb2084b136d49c2f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 083f0ca787bb842850320b9dd1d320ef4d5b172ee0b6d9b117296e58b991bd0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793398"
 ---
 # <a name="rtwqendunregisterworkqueuewithmmcss-function"></a>RtwqEndUnregisterWorkQueueWithMMCSS 函式
 
@@ -56,8 +56,8 @@ HRESULT WINAPI RtwqEndUnregisterWorkQueueWithMMCSS(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>None</dt> </dl>        |
 | 程式庫<br/>                  | <dl> <dt>Rtworkq .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RTWorkQ.dll</dt> </dl> |

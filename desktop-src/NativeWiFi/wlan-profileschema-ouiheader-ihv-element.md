@@ -12,18 +12,18 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: a31feb123e31489c751b7844e06d5c344278778e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5293a6e69c1384922572764674cbadd9980702c49f8945518ff9b0c56beee2d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797918"
 ---
 # <a name="ouiheader-ihv-element"></a>OUIHeader (IHV) 元素
 
 OUIHeader (IHV) 元素會識別 IHV。
 
-Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 不支援這個元素。
+**Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 不支援這個元素。
 
 ``` syntax
 <xs:element name="OUIHeader">
@@ -68,7 +68,7 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 
 
 
-| 元素                                                   | 類型 | Description                                                                                |
+| 元素                                                   | 類型 | 描述                                                                                |
 |-----------------------------------------------------------|------|--------------------------------------------------------------------------------------------|
 | [**OUI**](wlan-profileschema-oui-ouiheader-element.md)   |      | 包含用來識別 IHV 的3個位元組 hexBinary。<br/>                            |
 | [**類型**](wlan-profileschema-type-ouiheader-element.md) |      | 包含1個位元組的 hexBinary，用來區分 Nic 的相同 IHV。<br/> |
@@ -81,8 +81,8 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

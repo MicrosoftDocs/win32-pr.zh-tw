@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cbe2d1116839cede8dda69f1b0b8cf9a049595e9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f1c4397f60c03968d7c8dba034865aa283a50e8d70b9836aaee86cb910d612ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104035282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905319"
 ---
 # <a name="texture1darraymipsoperator----function"></a>Texture1DArray：： mips。Operator 函數
 
@@ -80,7 +80,7 @@ float4 f = tex.mips[mip][pos_x_and_array];
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

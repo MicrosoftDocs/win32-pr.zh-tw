@@ -4,7 +4,7 @@
     - name: 關於裝置上的 Web 服務
       href: about-web-services-for-devices.md
       items:
-        - name: 探索和中繼資料交換訊息模式
+        - name: 探索和中繼資料 Exchange 訊息模式
           href: discovery-and-metadata-exchange-message-patterns.md
           items:
             - name: Hello 訊息
@@ -17,9 +17,9 @@
               href: resolve-message.md
             - name: ResolveMatches 訊息
               href: resolvematches-message.md
-            - name: 取得 (中繼資料交換) HTTP 要求和訊息
+            - name: 取得 (中繼資料 Exchange) HTTP 要求和訊息
               href: get--metadata-exchange--http-request-and-message.md
-            - name: GetResponse (中繼資料交換) 訊息
+            - name: GetResponse (中繼資料 Exchange) 訊息
               href: getresponse--metadata-exchange--message.md
             - name: 再見訊息
               href: bye-message.md
@@ -66,7 +66,7 @@
         - name: WSD 裝置開發
           href: wsd-device-development.md
           items:
-            - name: WSD 裝置實行建議
+            - name: WSD 裝置執行建議
               href: wsd-device-implementation-recommendations.md
               items:
                 - name: 執行多宿主 WSD 裝置
@@ -110,11 +110,11 @@
                   href: inspecting-adapter-and-firewall-settings.md
                 - name: 使用導向探索檢查應用程式的網路追蹤
                   href: inspecting-network-traces-for-applications-using-directed-discovery.md
-                - name: 檢查 HTTP 中繼資料交換的網路追蹤
+                - name: 檢查 HTTP 中繼資料 Exchange 的網路追蹤
                   href: inspecting-network-traces-for-http-metadata-exchange.md
                 - name: 檢查 UDP WS-Discovery 的網路追蹤
                   href: inspecting-network-traces-for-udp-ws-discovery.md
-                - name: 使用泛型主機和用戶端進行 HTTP 中繼資料交換
+                - name: 使用泛型主機和用戶端來取得 HTTP 中繼資料 Exchange
                   href: using-a-generic-host-and-client-for-http-metadata-exchange.md
                 - name: 使用泛型主機和用戶端進行 UDP WS-Discovery
                   href: using-a-generic-host-and-client-for-udp-ws-discovery.md
@@ -869,7 +869,7 @@
                   href: operation.md
                 - name: operationDeallocator
                   href: operationdeallocator.md
-                - name: 路徑
+                - name: path
                   href: path.md
                 - name: PnPXCompatibleId
                   href: pnpxcompatibleid.md

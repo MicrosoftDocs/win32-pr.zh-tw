@@ -1,5 +1,5 @@
 ---
-description: 將單一成員函式和一組選擇性的參數對應至一組對應的整數分派識別碼，可在後續呼叫 CMediaEvent：： Invoke 成員函式時使用。
+description: 地圖單一成員函式，以及一組選擇性的參數給一組對應的整數分派識別碼，可在後續呼叫 CMediaEvent：： Invoke 成員函式時使用。
 ms.assetid: 04e607e6-0b68-4371-aacf-01af308a56a3
 title: 'CMediaEvent. GetIDsOfNames 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 191fa85264e4e7e22aa67f409db20cebd68f4319
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a638861bc6a01a615355f0fad05cddc00f31d3e659fc60c0be0246eb108583f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401871"
 ---
 # <a name="cmediaeventgetidsofnames-method"></a>CMediaEvent. GetIDsOfNames 方法
 
-將單一成員函式和一組選擇性的參數對應至一組對應的整數分派識別碼，可在後續呼叫 [**CMediaEvent：： Invoke**](cmediaevent-invoke.md) 成員函式時使用。
+地圖單一成員函式，以及一組選擇性的參數給一組對應的整數分派識別碼，可在後續呼叫 [**CMediaEvent：： Invoke**](cmediaevent-invoke.md)成員函式時使用。
 
 ## <a name="syntax"></a>語法
 

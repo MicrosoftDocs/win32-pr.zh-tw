@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102909
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8abaa78d137c34a27d3edac8c930f644324e64bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c197030319b4fe165b3ecc83b98374bedeb0cf3460386296d154f762bca389c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117707688"
 ---
 # <a name="esentslvspacecorruptedexception-properties"></a>EsentSLVSpaceCorruptedException 屬性
 

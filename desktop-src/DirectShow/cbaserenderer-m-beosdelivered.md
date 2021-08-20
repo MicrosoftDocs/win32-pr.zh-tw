@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: eff219f560c6570845002f2a7e27bf47da93e1e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5df1599c4a81a27094ed251e81538e11de852dd13b15a9d3e27385e0d274919e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403187"
 ---
 # <a name="cbaserendererm_beosdelivered-member"></a>CBaseRenderer：： m \_ bEOSDelivered 成員
 

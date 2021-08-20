@@ -4,12 +4,12 @@ ms.assetid: 95474132-6d07-4575-961e-249ffafd65e4
 title: GatherTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7699b4e2853fd79ab5a4f37ab370d31d6def732
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a37329255a2cf9882f4275831d804f9b41a00bf8eaaace22aae9c22943dd84a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865034"
 ---
 # <a name="systemsearchgathertime"></a>GatherTime
 

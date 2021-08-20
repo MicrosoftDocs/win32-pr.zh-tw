@@ -4,12 +4,12 @@ ms.assetid: b8fcb68d-751e-4495-ab92-8b70c96aaa7a
 title: Ticket-Granting 票證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39dff161ba2d905f676fe6b6b5e7e7d5289ee550
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd56ef05ce2ea9149b9bd35ef17dc684973f7125026f474e5a8dd3d1d14ff4dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916380"
 ---
 # <a name="ticket-granting-tickets"></a>Ticket-Granting 票證
 

@@ -4,18 +4,18 @@ ms.assetid: d0a906a8-bae4-43b3-8b02-ee5b97c9323d
 title: 在篩選器上尋找未連接的 Pin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ee47b811c027161b70769cb04063d0e8214934a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7a76100622f0398c58eb10f2dda041ba074f4610efbd1c649d48199ea2c676eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401752"
 ---
 # <a name="find-an-unconnected-pin-on-a-filter"></a>在篩選器上尋找未連接的 Pin
 
 本主題說明如何在篩選器上尋找未連接的 pin。 當您連接篩選器時，尋找未連接的 pin 會很有用。
 
-在典型的 DirectShow 圖形建立案例中，您需要一個連接的 pin，以符合特定的釘選方向 (輸入或輸出) 。 例如，當您連接兩個篩選器時，您會將某個篩選的輸出接點連接到輸入圖釘。 這兩個 pin 都必須在連接之前都沒有連線。
+在典型的 DirectShow 圖建立案例中，您需要一個連接的 pin，以符合特定的釘選方向 (輸入或輸出) 。 例如，當您連接兩個篩選器時，您會將某個篩選的輸出接點連接到輸入圖釘。 這兩個 pin 都必須在連接之前都沒有連線。
 
 首先，我們需要一個函式來測試 pin 是否已連接到另一個 pin。 此函式會呼叫 [**IPin：： ConnectedTo**](/windows/desktop/api/Strmif/nf-strmif-ipin-connectedto) 方法，測試 pin 是否已連接到另一個 pin。
 
@@ -149,7 +149,7 @@ done:
 
 
 
-如需如何使用此函數的範例，請參閱 [連接兩個篩選器](connect-two-filters.md)。
+如需如何使用此函數的範例，請參閱[連線兩個篩選準則](connect-two-filters.md)。
 
 ## <a name="related-topics"></a>相關主題
 

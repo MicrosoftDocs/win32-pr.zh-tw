@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 198179b67a2812417e60a0a1e1512b686d52e98a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 4f462b11b406920d1fce99592fdef00fd6c15ba08c50b35f818d68650a97b923
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723411"
 ---
 # <a name="texturecubearraygathercmpalphasfloatfloatuint-function"></a>TextureCubeArray：： GatherCmpAlpha (S，float，float，uint) 函數
 
@@ -92,7 +92,7 @@ TemplateType GatherCmpAlpha(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

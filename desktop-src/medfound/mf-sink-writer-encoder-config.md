@@ -4,12 +4,12 @@ ms.assetid: 28AC864C-C63C-4BD4-9770-B7B48A2815C6
 title: 'MF_SINK_WRITER_ENCODER_CONFIG 屬性 (Mfreadwrite) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1703eaa93254c5703f544641edd0063e2190a342
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fb68348987ac406643cbe709dc6052d1add3c04e63b4e1f38d7c681a95c3ae7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118059082"
 ---
 # <a name="mf_sink_writer_encoder_config-attribute"></a>MF \_ 接收 \_ 寫入器 \_ 編碼器 \_ CONFIG 屬性
 
@@ -17,11 +17,11 @@ ms.locfileid: "103693575"
 
 ## <a name="data-type"></a>資料類型
 
-**IUnknown \** _
+**IUnknown\***
 
 ## <a name="remarks"></a>備註
 
-這個屬性的值是 [_ *IPropertyStore* *](/windows/win32/api/propsys/nn-propsys-ipropertystore)指標。
+這個屬性的值是 [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) 指標。
 
 這個屬性可讓應用程式在使用 [接收寫入器](sink-writer.md)時設定編碼屬性。 若要設定此屬性，請執行下列步驟：
 
@@ -39,8 +39,8 @@ ms.locfileid: "103693575"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mfreadwrite。h</dt> </dl> |
 
 

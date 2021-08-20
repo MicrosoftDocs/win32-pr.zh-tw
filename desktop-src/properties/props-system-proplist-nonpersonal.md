@@ -4,18 +4,18 @@ ms.assetid: c1c8de78-8a40-4c6d-89fb-9bdd9247787b
 title: PropList. NonPersonal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99eb456345b9711e4c150e5fa1051389268d05b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58dcc36528d21627e26e3454424900302637c40b41a329d539f10cc1beb58e92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465372"
 ---
 # <a name="systemproplistnonpersonal"></a>PropList. NonPersonal
 
 視為「非個人」的屬性清單。 當系統指示您從指定的檔案中移除所有非個人屬性時，系統會讓這些屬性保持不變。 在 "NonPersonal" 的 regvalue 下註冊。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

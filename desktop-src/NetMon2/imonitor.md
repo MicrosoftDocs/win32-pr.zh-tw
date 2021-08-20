@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: 1b6ba91860905010fd14a46cd4608eaee3da80fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16199568473315fb61e53428d01c72032f3efff6ea0591bfd72ca2475f854fb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133099"
 ---
 # <a name="imonitor-interface"></a>IMonitor 介面
 

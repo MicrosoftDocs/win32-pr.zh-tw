@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 0f5a1b3070c27c2954f1636b1985d2ea00c99a67
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 0f9159e3dfb86e61b717b53a763da613848f092c926ffd9e4c3c99b4964b587f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117722954"
 ---
 # <a name="texture1darraysamplelevel-methods"></a>Texture1DArray：： SampleLevel 方法
 

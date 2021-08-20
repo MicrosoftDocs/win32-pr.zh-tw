@@ -4,18 +4,18 @@ ms.assetid: 0cd86838-34ce-4e49-b4bb-f486a55ab8f6
 title: ToDoFlags
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03f90842b8b02f5bba652a7856b32051f0acd4b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca6881ced3d42bc393aeb794b516db65acc89b5a9d42720c927d50d1e6439feb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683125"
 ---
 # <a name="systemmessagetodoflags"></a>ToDoFlags
 
 識別訊息是否標記為待辦事項專案。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

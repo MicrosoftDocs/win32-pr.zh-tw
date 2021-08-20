@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6c3c337030484a2f47d296e4c0153d36f32fff77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6f326f0ad0e06a32254963945e08609ff0b74419ba161b9dad2bf7d23319824
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117900359"
 ---
 # <a name="esentlogfilepathinuseexception-constructor"></a>EsentLogFilePathInUseException 函式
 

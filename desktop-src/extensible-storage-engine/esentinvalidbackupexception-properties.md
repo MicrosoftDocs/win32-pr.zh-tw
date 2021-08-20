@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101895
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 670d81c6983f44a693d4075843681a441e2505c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d6fe74419cc0bd77b47d89d73bbb38dafcd64ea74fdcb78c43a3ed87fe91f55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117709526"
 ---
 # <a name="esentinvalidbackupexception-properties"></a>EsentInvalidBackupException 屬性
 

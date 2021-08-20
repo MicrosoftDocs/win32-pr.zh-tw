@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e422bbe59414d75541127b41e5e2cc1829adaaa7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: beb9e82a27717b33bcd0e06f5cd5bc23a3c43bc3a67cf70068f1a9eeb31b08bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911091"
 ---
 # <a name="winbio_bir-structure"></a>WINBIO \_ BIR 結構
 
@@ -75,7 +75,7 @@ typedef struct _WINBIO_BIR {
 
 使用位移而非指標，可讓您輕鬆地序列化 BIR，以及在32和64位環境之間或使用者和核心模式之間進行較不復雜的轉譯。
 
-BIR 與常見的生物特徵辨識 Exchange 格式架構相容 (CBEFF) 由 NIST 6529-A 所定義。
+BIR 可與 NIST 6529-A 所定義 (CBEFF) 的通用生物特徵辨識 Exchange 格式架構相容。
 
 如果此結構包含 *StandardDataBlock* 值， *HeaderBlock* 參數所指定之標頭的 *型* 別參數必須設定為 **WINBIO \_ ANSI \_ 381 \_ 格式 \_ 類型**。 這是目前 Windows 生物特徵辨識架構版本所支援的唯一標準資料格式。
 
@@ -85,8 +85,8 @@ BIR 與常見的生物特徵辨識 Exchange 格式架構相容 (CBEFF) 由 NIST 
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

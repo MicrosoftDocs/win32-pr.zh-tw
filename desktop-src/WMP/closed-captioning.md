@@ -6,16 +6,16 @@ keywords:
 - 'Windows Media Player，可同步的可存取媒體交換 (薩米文) '
 - 'Windows Media Player 物件模型、已同步處理的可存取媒體交換 (薩米文) '
 - '物件模型、同步的可存取媒體交換 (薩米) '
-- 'Windows Media Player 行動裝置、已同步處理的可存取媒體交換 (薩米文) '
-- 'Windows Media Player ActiveX 控制項、同步存取媒體交換 (薩米文) '
-- 'Windows Media Player 的行動 ActiveX 控制項、已同步處理的可存取媒體交換 (薩米文) '
-- 'ActiveX 控制項、同步的可存取媒體交換 (薩米) '
+- 'Windows Media Player行動裝置、已同步處理的可存取媒體交換 (薩米) '
+- 'Windows Media Player ActiveX 控制項、同步可存取媒體交換 (薩米文) '
+- 'Windows Media PlayerMobile ActiveX control、可同步存取的媒體交換 (薩米文) '
+- 'ActiveX control、可同步存取的媒體交換 (薩米文) '
 - Windows Media Player，遷移隱藏式輔助字幕
 - Windows Media Player 物件模型、Smigrating 隱藏式輔助字幕
 - 物件模型，遷移隱藏式輔助字幕
-- Windows Media Player 行動裝置，遷移隱藏式輔助字幕
+- Windows Media Player行動裝置，遷移隱藏式輔助字幕
 - Windows Media Player ActiveX 控制項、遷移隱藏式輔助字幕
-- Windows Media Player 行動 ActiveX 控制項、遷移隱藏式輔助字幕
+- Windows Media PlayerMobile ActiveX 控制項、遷移隱藏式輔助字幕
 - ActiveX 控制項，遷移隱藏式輔助字幕
 - 已同步處理的可存取媒體交換 (薩米) ，正在遷移隱藏式輔助字幕
 - 薩米文 (同步處理可存取媒體交換) ，遷移隱藏式輔助字幕
@@ -23,12 +23,12 @@ keywords:
 - 遷移指南，隱藏式輔助字幕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04cc3dfdeff7a9893b617e99cd3f0b8fb5c62f4f
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7aa83cb5fb6735475a883986673c958db9642386bd8ce2c76151ddd6c2f23ab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104092564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119596"
 ---
 # <a name="closed-captioning"></a>隱藏式字幕功能
 
@@ -69,9 +69,9 @@ Windows Media Player 軟體發展工具組 (SDK) 包含可顯示隱藏式輔助�
 [**物件模型遷移指南**](object-model-migration-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

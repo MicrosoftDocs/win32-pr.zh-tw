@@ -4,12 +4,12 @@ description: 下列結構是在 projectedfslib 中宣告。
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: 0bf72bd479e273c6c8cbdaa9ed588625298f4f95
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9524b1244406c1de129ed0056fa6e2f3f7b0cb10552087e2d06639d168bb1d13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104187265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792419"
 ---
 # <a name="projfs-structures"></a>ProjFS 結構
 

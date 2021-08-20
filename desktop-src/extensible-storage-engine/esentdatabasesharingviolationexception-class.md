@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 03d168a0235cdc31cd8e4420924f5f8b2dae90dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd6455cdd809528612aa329c84b3ada42d78f89b4885d3cb344d51fb40ca8207
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117712347"
 ---
 # <a name="esentdatabasesharingviolationexception-class"></a>EsentDatabaseSharingViolationException 類別
 

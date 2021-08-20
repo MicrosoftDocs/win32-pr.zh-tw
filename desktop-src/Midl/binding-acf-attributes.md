@@ -6,12 +6,12 @@ keywords:
 - ACF MIDL、屬性、系結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2a2e9ac9ada0ee33c4930005add6a1ca031ee5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c32b4d53cea81ed2a69a702a1a58942834a538ffbef75cb11315dd792882bf89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385224"
 ---
 # <a name="binding-acf-attributes"></a>系結 ACF 屬性
 
@@ -31,11 +31,11 @@ ms.locfileid: "104021846"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

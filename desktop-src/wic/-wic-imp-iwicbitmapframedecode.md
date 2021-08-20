@@ -4,12 +4,12 @@ ms.assetid: 7dc626ad-1158-4b67-8ca7-47b4cf88e278
 title: 執行 IWICBitmapFrameDecode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 394b5858ec5eee37ef1c7f52b766806c4a0c1a92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4b49e3636f5d81202b1060d868ecb40bb99d095dd9f26b6afd0d40c5f5fd0d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205762"
 ---
 # <a name="implementing-iwicbitmapframedecode"></a>執行 IWICBitmapFrameDecode
 
@@ -114,7 +114,7 @@ hr = m_pComponentFactory->CreateQueryReaderFromBlockReader(
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

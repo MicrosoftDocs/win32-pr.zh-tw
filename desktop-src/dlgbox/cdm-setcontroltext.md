@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89c82a9144717224871caecf44da352a4e01cac2
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 75071d465d01be024a97047a134c080226f252a1bd1ffcd41dbecd4f0d469cff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117721323"
 ---
 # <a name="cdm_setcontroltext-message"></a>CDM \_ SETCONTROLTEXT 訊息
 
@@ -74,7 +74,7 @@ void CommDlg_OpenSave_SetControlText(hwnd, wparam, lparam)
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Commdlg (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Commdlg (包含 Windows .h) </dt> </dl> |
 
 
 

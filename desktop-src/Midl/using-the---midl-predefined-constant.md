@@ -7,12 +7,12 @@ keywords:
 - _midl 預先定義的常數 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae49675b38dcc3cab2d3d41e4f48cd0637d78523
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 60fbc111ad07839d891f7bdffaf7ecaae83fbf277a0fc2c93fc483f526f9dda5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382819"
 ---
 # <a name="using-the-__midl-predefined-constant"></a>使用 \_ \_ Midl 預先定義的常數
 
@@ -20,9 +20,9 @@ ms.locfileid: "104021525"
 
 如果您選擇，可以覆寫此預設值，方法是在命令列上指定下列命令： **/u \_ \_ midl**。 如需詳細資訊，請參閱 [**/u**](-u.md)。
 
- 
+ 
 
- 
+ 
 
 
 

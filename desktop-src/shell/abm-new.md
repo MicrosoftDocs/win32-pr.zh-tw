@@ -4,12 +4,12 @@ ms.assetid: 1da9db13-6fdc-44b3-9985-de32d572675a
 title: 'ABM_NEW 訊息 (Shellapi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fad11e6712d0afd0c1a5e9de07fd3d690800db13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 400439e6808d40eb74c18fa4219109a0abca1973cdac4dcb9de5154384fd0071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460965"
 ---
 # <a name="abm_new-message"></a>ABM \_ 新訊息
 
@@ -43,7 +43,7 @@ fRegistered = (BOOL) SHAppBarMessage(ABM_NEW, pabd);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Shellapi。h</dt> </dl> |
 

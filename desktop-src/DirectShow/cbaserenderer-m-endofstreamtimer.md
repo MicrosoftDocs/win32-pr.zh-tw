@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3b9c8e62469e2529902feacf45d79e1bff282922
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6d330c6f051f6434770e00d4f9871abd43371b9c96682ed46131b1ad4c8c1c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403050"
 ---
 # <a name="cbaserendererm_endofstreamtimer-member"></a>CBaseRenderer：： m \_ EndOfStreamTimer 成員
 

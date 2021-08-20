@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2844fef209aedf6819aeaa5a5b6b8a2d698b39a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b337cff6e8a21ab859c78625c613a71da45d134f1cae0ff40d7f501fa6ce3466
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106976327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118120376"
 ---
 # <a name="event-schema-complex-types"></a>事件架構複雜類型
 
@@ -22,11 +22,11 @@ ms.locfileid: "106976327"
 
 
 
-| 複雜類型                                                                       | Description                                                                                                                                                                                               |
+| 複雜類型                                                                       | 描述                                                                                                                                                                                               |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ComplexDataType**](eventschema-complexdatatype-complextype.md)                 | 定義包含一或多個資料項目的結構。<br/>                                                                                                                                      |
 | [**資料類型**](eventschema-datafieldtype-complextype.md)                          | 定義資料項目。<br/>                                                                                                                                                                           |
-| [**DebugDataType**](eventschema-debugdatatype-complextype.md)                     | 定義可以針對 Windows 軟體追蹤預處理器 (的 WPP) 事件記錄的資料。<br/>                                                                                                      |
+| [**DebugDataType**](eventschema-debugdatatype-complextype.md)                     | 定義可以記錄 Windows 軟體追蹤預處理器 (WPP) 事件的資料。<br/>                                                                                                      |
 | [**EventDataType**](eventschema-eventdatatype-complextype.md)                     | 定義事件資料項目和包含事件資料的結構。<br/>                                                                                                                      |
 | [**EventType**](eventschema-eventtype-complextype.md)                             | 定義事件架構的根節點。<br/>                                                                                                                                                     |
 | [**ProcessingErrorDataType**](eventschema-processingerrordatatype-complextype.md) | 定義在轉譯事件的事件資料時所發生的錯誤。<br/>                                                                                                                   |

@@ -4,12 +4,12 @@ ms.assetid: e4cf8a88-1bdf-4666-8653-fe2e86c4d8ef
 title: 向量式例外狀況處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 011310b46ce8912e03b6481e9b12b986174a3ef0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 926b0499e9399aa77e6835e90c6da016da3f2dc8195a4b4872f7f5119d04978a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405579"
 ---
 # <a name="vectored-exception-handling"></a>向量式例外狀況處理
 

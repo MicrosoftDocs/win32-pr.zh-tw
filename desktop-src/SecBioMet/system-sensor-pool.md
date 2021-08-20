@@ -4,12 +4,12 @@ description: 可共用的生物識別單位集合，可讓您存取 Windows 驗�
 ms.assetid: 308306a9-e12c-4ff6-92c3-a36667a5e548
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 729ae9487b91b57b2e9568817c92e44b4b7197f7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c73a187c81812355d574b6c4fb867aad8f832c504f7ec79289879565cf73bcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911611"
 ---
 # <a name="system-sensor-pool"></a>系統感應器集區
 
@@ -41,9 +41,9 @@ ms.locfileid: "106965587"
 [系統集區行為](system-pool-behavior.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

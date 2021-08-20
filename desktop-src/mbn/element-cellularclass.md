@@ -7,12 +7,12 @@ MSHAttr:
 title: CellularClass
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1953d07176262aba35f54cc80c9b712002cd857
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42eedf13be21ca641d4a5b23d572c62db3a1996821a497645a61904309d216fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745129"
 ---
 # <a name="span-idwwan_profile_v4element_cellularclassspancellularclass"></a><span id="WWAN_profile_v4.element_CellularClass"></span>CellularClass
 
@@ -54,7 +54,7 @@ ms.locfileid: "106967118"
 <thead>
 <tr class="header">
 <th>Parent 項目</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

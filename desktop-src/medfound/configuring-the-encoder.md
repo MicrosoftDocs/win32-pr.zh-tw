@@ -4,12 +4,12 @@ ms.assetid: 6845c3fb-38a8-4b0d-aea2-e10f7e518653
 title: 編碼屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 093b72dc37501ca88882c6e3b530cda0eed1baa2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bc7a1528e68153c742ece8c8d7fcb34bfb9b7bbc08f86567f51b54754bb6da3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743490"
 ---
 # <a name="encoding-properties"></a>編碼屬性
 
@@ -76,7 +76,7 @@ Windows Media 音訊和 Windows Media 視訊編碼器支援各種編碼模式。
 [具現化編碼器 MFT](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Windows Media 編碼器](windows-media-encoders.md)
+[Windows媒體編碼器](windows-media-encoders.md)
 </dt> </dl>
 
  

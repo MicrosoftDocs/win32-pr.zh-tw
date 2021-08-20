@@ -4,12 +4,12 @@ ms.assetid: b85a04c6-9398-4cc7-a894-881216600203
 title: 搜尋連接器描述架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f502f67cdc933bf4d27a3475cd6adef70c00fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e8d8ab60ba472cca961a4208b1c551679ef93eacd46e07cf5e080a3e73f3d14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118226379"
 ---
 # <a name="search-connector-description-schema"></a>搜尋連接器描述架構
 
@@ -35,16 +35,16 @@ ms.locfileid: "106972603"
 
 ## <a name="how-do-search-connector-description-files-work"></a>搜尋連接器描述檔案的運作方式為何？
 
-當使用者的系統上已安裝搜尋連接器描述檔案時，使用者可以開啟 Windows 檔案總管，在流覽窗格中按一下 [搜尋] 連接器，然後輸入搜尋查詢。 Windows 檔案總管使用搜尋連接器描述檔案中的資訊來傳送查詢，例如要使用的提供者和搜尋的範圍。 結果會以 RSS 或 Atom 摘要專案的形式傳回，並顯示給使用者，就像是一般的 Shell 專案一樣。
+當使用者的系統上已安裝搜尋連接器描述檔案時，使用者可以開啟 Windows 檔案總管，在流覽窗格中按一下 [搜尋] 連接器，然後輸入搜尋查詢。 WindowsExplorer 會使用搜尋連接器描述檔案中的資訊來傳送查詢，例如要使用的提供者以及搜尋的範圍。 結果會以 RSS 或 Atom 摘要專案的形式傳回，並顯示給使用者，就像是一般的 Shell 專案一樣。
 
 您部署搜尋連接器描述檔案的方式取決於搜尋連接器支援的位置類型：
 
--   在 [OpenSearch 設定] (中， \* 為您的 web 服務 .osdx) 檔
+-   在 OpenSearch 設定 (\* .osdx web 服務的) 檔
 -   在通訊協定處理常式安裝過程中
 
 當使用者開啟 .osdx 檔案或安裝通訊協定處理常式時，您應該確保發生下列情況：
 
--   Searchconnector-ms 檔案會建立在使用者的 **Windows 搜尋** 資料夾 (% userprofile%/Searches) 。
+-   searchconnector-ms 檔案會建立在使用者的 **Windows 搜尋** 資料夾中 (% userprofile%/Searches) 。
 -   在使用者的 [ **連結** ] 資料夾中建立 searchconnector-ms 檔案的快捷方式 (% userprofile%/Links) 。
 
 ## <a name="what-is-the-search-connector-description-schema"></a>什麼是搜尋連接器描述架構？
@@ -133,7 +133,7 @@ ms.locfileid: "106972603"
 ## <a name="additional-resources"></a>其他資源
 
 -   如需程式庫描述架構的詳細資訊，請參閱連結 [庫描述架構](../shell/library-schema-entry.md)。
--   如需安裝搜尋連接器的詳細資訊，請參閱 [Windows 中](-search-federated-search-overview.md)的同盟搜尋。
+-   如需安裝搜尋連接器的詳細資訊，請參閱[Windows 中的同盟搜尋](-search-federated-search-overview.md)。
 
 ## <a name="related-topics"></a>相關主題
 

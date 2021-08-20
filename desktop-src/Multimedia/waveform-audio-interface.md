@@ -9,12 +9,12 @@ keywords:
 - 波形-音訊介面，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51c2108539a13f9c603198662039cec0bf1abd37
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0657381f061238d974ab7dde5fc934c2c3438a0116712b54801be0a9351f2d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800810"
 ---
 # <a name="waveform-audio-interface"></a>Waveform-Audio 介面
 
@@ -24,9 +24,9 @@ ms.locfileid: "104021042"
 -   [播放 Waveform-Audio 檔案](playing-waveform-audio-files.md)
 -   [錄製波形音訊](recording-waveform-audio.md)
 
- 
+ 
 
- 
+ 
 
 
 

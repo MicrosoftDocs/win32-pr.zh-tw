@@ -4,12 +4,12 @@ ms.assetid: f12f9847-b87f-4d5f-bee3-4d219f9ad898
 title: 檢查 UDP WS-Discovery 的網路追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f85f4acd79588ef48c7f8e1ace2a44c9a3458475
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce21e2943a37640eb091aa03c02eba0886164166b2959e31e897ee788424cd41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920752"
 ---
 # <a name="inspecting-network-traces-for-udp-ws-discovery"></a>檢查 UDP WS-Discovery 的網路追蹤
 
@@ -31,7 +31,7 @@ ms.locfileid: "104193056"
 
 ## <a name="verifying-that-messages-meet-traffic-requirements"></a>確認訊息符合流量需求
 
-WSDAPI 用戶端和主機必須傳送符合下列準則的訊息。 如需訊息模式的一般資訊，請參閱 [探索和中繼資料交換訊息模式](discovery-and-metadata-exchange-message-patterns.md)。
+WSDAPI 用戶端和主機必須傳送符合下列準則的訊息。 如需訊息模式的一般資訊，請參閱[探索和中繼資料 Exchange 訊息模式](discovery-and-metadata-exchange-message-patterns.md)。
 
 -   [探查](probe-message.md) 訊息必須由 UDP 多播傳送到埠3702。
 -   [探查](probe-message.md)訊息的 **Types** 元素必須存在，而且不可以是空的。 它必須包含主機將回應的類型。
@@ -41,7 +41,7 @@ WSDAPI 用戶端和主機必須傳送符合下列準則的訊息。 如需訊息
 -   [ProbeMatches](probematches-message.md)訊息必須在對應[探查](probe-message.md)訊息的4秒內傳送。 Windows 防火牆可能會捨棄在探查訊息之後傳送超過4秒的 ProbeMatches 訊息。
 -   如果 [ProbeMatches](probematches-message.md)訊息中未包含任何 **XAddrs** 元素，且用戶端或主機會傳送 HTTP 訊息 (例如 [取得](get--metadata-exchange--http-request-and-message.md)中繼資料交換要求或) 的服務訊息，則用戶端或主機必須透過 UDP 多播將 [解析](resolve-message.md)訊息傳送到埠3702。
 -   如果傳送了 [解析](resolve-message.md) 訊息，則必須將 [ResolveMatches](resolvematches-message.md) 訊息傳送至傳送解析訊息的 UDP 通訊埠。
--   [ResolveMatches](resolvematches-message.md)訊息必須在對應的[解析](resolve-message.md)訊息的4秒內傳送。 在解析訊息之後，Windows 防火牆可能會捨棄超過4秒的 ResolveMatchesmessage 傳送。
+-   [ResolveMatches](resolvematches-message.md)訊息必須在對應的[解析](resolve-message.md)訊息的4秒內傳送。 Windows 防火牆可能會捨棄在解析訊息之後超過4秒傳送的 ResolveMatchesmessage。
 
 如果程式所傳送的訊息不符合這些訊息需求，則會成功識別出問題的原因，而不需要進行進一步的疑難排解步驟。 重寫程式，使其產生符合標準的訊息，並重新測試程式。
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2235d50c952ce1b76e4a70eda0341f0fe3c4167c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afd19b6aba7546ec420985adf6d58d3f7acc7546913ec8f1c168c80ad3b7ffda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118402403"
 ---
 # <a name="cimagesample-class"></a>CImageSample 類別
 
@@ -31,11 +31,11 @@ ms.locfileid: "106994179"
 
 
 
-| 受保護的成員變數                        | Description                                                       |
+| 受保護的成員變數                        | 描述                                                       |
 |---------------------------------------------------|-------------------------------------------------------------------|
 | [**m \_ DibData**](cimagesample-m-dibdata.md)      | 包含此物件正在管理之 DIB 的相關資訊。  |
 | [**m \_ bInit**](cimagesample-m-binit.md)          | 指出物件是否已初始化。                |
-| 公用方法                                    | Description                                                       |
+| 公用方法                                    | 描述                                                       |
 | [**CImageSample**](cimagesample-cimagesample.md) | 函式方法。                                               |
 | [**GetDIBData**](cimagesample-getdibdata.md)     | 抓取此物件正在管理的 DIB 相關資訊。 |
 | [**SetDIBData**](cimagesample-setdibdata.md)     | 設定此物件正在管理的 DIB 相關資訊。      |

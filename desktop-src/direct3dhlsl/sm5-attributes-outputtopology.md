@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 917a927ff80d4abe1b6509fd41281992a998c945
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8d718b11c23fcf77f452e224a51439f7d6f422d3c81d5238167cbf87c7c3014a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103932819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725412"
 ---
 # <a name="outputtopology"></a>outputtopology
 
@@ -45,13 +45,13 @@ X 必須是 [**點**](dx-graphics-hlsl-geometry-shader.md)、 **線條**、 **�
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -63,9 +63,9 @@ X 必須是 [**點**](dx-graphics-hlsl-geometry-shader.md)、 **線條**、 **�
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

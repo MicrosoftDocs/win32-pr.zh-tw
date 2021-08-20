@@ -4,12 +4,12 @@ ms.assetid: 8f0ace5a-c8f9-4a45-8500-041a9f22637d
 title: 使用 CNG 簽署資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 658dd1c9a833cfb15b708a7f85013e3d9cacac9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64a05f6cf655421422945d375c9d54ec2b74ae24efe1640c0dc9f6efe9a3e45c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907149"
 ---
 # <a name="signing-data-with-cng"></a>使用 CNG 簽署資料
 
@@ -22,7 +22,7 @@ ms.locfileid: "104115176"
 **使用 CNG 建立簽章**
 
 1.  使用 CNG 雜湊函數建立資料的雜湊值。 如需建立雜湊的詳細資訊，請參閱 [使用 CNG 建立雜湊](creating-a-hash-with-cng.md)。
-2.  建立非對稱金鑰來簽署雜湊。 您可以使用 [Cng 金鑰儲存](cng-key-storage-functions.md) 函式建立持續性金鑰，或使用 [Cng 密碼編譯基本](cng-cryptographic-primitive-functions.md)函式來建立暫時金鑰。
+2.  建立非對稱金鑰來簽署雜湊。 您可以使用[Cng 金鑰儲存體](cng-key-storage-functions.md)函式建立持續性金鑰，或使用[Cng 密碼編譯基本](cng-cryptographic-primitive-functions.md)函式來建立暫時金鑰。
 3.  您可以使用 [**NCryptSignHash**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsignhash) 或 [**BCryptSignHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsignhash) 函數來簽署 (加密) 雜湊值。 此函數會使用非對稱金鑰來簽署雜湊值。
 4.  將資料和簽章合併成可以傳送給預定收件者的訊息。
 
@@ -30,7 +30,7 @@ ms.locfileid: "104115176"
 
 1.  從訊息中解壓縮資料和簽章。
 2.  使用 CNG 雜湊函數建立資料的雜湊值。 使用的雜湊演算法必須與用來簽署雜湊的演算法相同。
-3.  取得用來簽署雜湊之非對稱金鑰組的公開部分。 您取得此金鑰的方式取決於金鑰的建立和保存方式。 如果金鑰是使用 [CNG 金鑰儲存](cng-key-storage-functions.md)函式建立或載入，您將使用 [**NCryptOpenKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptopenkey) 函式來載入保存的金鑰。 如果金鑰是暫時金鑰，則必須將它儲存至金鑰 BLOB。 您必須將此金鑰 BLOB 傳遞給 [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) 或 [**NCryptImportKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) 函式。
+3.  取得用來簽署雜湊之非對稱金鑰組的公開部分。 您取得此金鑰的方式取決於金鑰的建立和保存方式。 如果使用 [CNG 金鑰](cng-key-storage-functions.md)建立或載入金鑰儲存體函式，您將使用 [**NCryptOpenKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptopenkey)函式來載入保存的金鑰。 如果金鑰是暫時金鑰，則必須將它儲存至金鑰 BLOB。 您必須將此金鑰 BLOB 傳遞給 [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) 或 [**NCryptImportKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) 函式。
 4.  將新的雜湊值、簽章和金鑰控制碼傳遞至 [**NCryptVerifySignature**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptverifysignature) 或 [**BCryptVerifySignature**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptverifysignature) 函數。 這些函式會使用公開金鑰來解密簽章，並比較解密的雜湊與步驟2中計算出的雜湊，以執行驗證。 如果簽章符合雜湊或 **狀態 \_ 無效 \_** 的簽章（如果簽章不符合雜湊），則 BCryptVerifySignature 函式會傳回 **狀態 \_ 成功**。 如果簽章與雜湊或不相符的簽章不符，則 **NCryptVerifySignature** 函式會傳回 **狀態 \_ 成功**。 **\_ \_**
 
 ## <a name="signing-and-verifying-data-example"></a>簽署和驗證資料範例

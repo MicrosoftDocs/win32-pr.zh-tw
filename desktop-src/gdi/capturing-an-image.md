@@ -5,12 +5,12 @@ title: 捕獲映射
 ms.topic: article
 ms.date: 12/03/2020
 ms.custom: contperf-fy21q2
-ms.openlocfilehash: b6029ec18a39ea034ca22e4c3d6c2d1e659635cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7516c125bd2f6953dcd91bbefee19d9ebe68c3fbbaf6ad2c029abb41d7b01542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117888111"
 ---
 # <a name="capturing-an-image"></a>捕獲映射
 
@@ -26,7 +26,7 @@ ms.locfileid: "104191957"
 
 本章節包含的程式碼範例會捕捉整個桌面的影像、將其向下調整為目前的視窗大小，然後將它儲存至檔案 (以及在工作區) 中顯示。
 
-若要試用程式碼範例，請先根據 **Windows 傳統型應用程式** 專案範本，在 Visual Studio 中建立新專案。 請務必為新的專案命名， `GDI_CapturingAnImage` 讓下面的程式碼可以編譯 (例如它包含 `GDI_CapturingAnImage.h` ，如果您將它命名為建議的) ，它就會存在於新的專案中。
+若要試用程式碼範例，請先根據 **Windows Desktop 應用程式** 專案範本，在 Visual Studio 中建立新專案。 請務必為新的專案命名， `GDI_CapturingAnImage` 讓下面的程式碼可以編譯 (例如它包含 `GDI_CapturingAnImage.h` ，如果您將它命名為建議的) ，它就會存在於新的專案中。
 
 開啟 `GDI_CapturingAnImage.cpp` 新專案中的原始程式碼檔，並將其內容取代為下列清單。 接著建置和執行。 每次調整視窗大小時，您都會看到顯示在工作區中的已捕捉螢幕擷取畫面。
 

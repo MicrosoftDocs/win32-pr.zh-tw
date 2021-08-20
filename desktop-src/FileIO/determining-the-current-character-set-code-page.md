@@ -4,12 +4,12 @@ ms.assetid: 97ed3b08-ca5d-4ac2-bf1a-7eec40f9ffc2
 title: 判斷目前的字元集字碼頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e180d908605ec423314ef2197829fd95ff51a18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f18361c0553407ade59c2d1de61ac2fb20d18d5b9d46018bcbc74dc3a114917b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150655"
 ---
 # <a name="determining-the-current-character-set-code-page"></a>判斷目前的字元集字碼頁
 

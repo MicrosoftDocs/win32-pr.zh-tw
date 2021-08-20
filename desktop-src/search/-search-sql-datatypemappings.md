@@ -4,12 +4,12 @@ ms.assetid: 213458bf-b847-4ced-8a92-686b4eee6d07
 title: 資料類型對應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9beae5a9ce1fbaafadfae54979d63c97310f57db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e25e909755c87b15526b97488285a0cf688e15dab64073fad603efc190f382b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462592"
 ---
 # <a name="data-type-mappings"></a>資料類型對應
 
@@ -55,7 +55,7 @@ ms.locfileid: "104112436"
 | CHAR              | DBTYPE \_ STR      |
 | 日期              | DBTYPE \_ 日期     |
 | DATETIME          | DBTYPE \_ 日期     |
-| Datetime。TZ       | DBTYPE \_ 日期     |
+| DATETIME。TZ       | DBTYPE \_ 日期     |
 | 已修正14。4        | DBTYPE \_ R4       |
 | FLOAT             | DBTYPE \_ R8       |
 | I1                | DBTYPE \_ I1       |

@@ -4,16 +4,16 @@ description: 語音輸入支援
 ms.assetid: 4702b941-fcc9-4d00-aba2-eca624b6d417
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8ecb6f2ddfbbe10f8b892ce922cd466eca96890
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fd777f5dca0df91a4660249b0cdda380f2f20c37ba5c1c38a04264bb871ab3bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118746249"
 ---
 # <a name="speech-input-support"></a>語音輸入支援
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 除了支援滑鼠和鍵盤互動之外，Microsoft Agent 還包含語音輸入的直接支援。 由於 Microsoft 代理程式的語音輸入支援是以 Microsoft SAPI (語音應用程式開發介面) 為基礎，因此您可以搭配使用 Microsoft Agent 與語音辨識命令和控制引擎（包括支援 SAPI 的支援）。 如需語音引擎需求的詳細資訊，請參閱 [語音引擎支援需求](requirements-for-speech-recognition-engines.md)。
 
@@ -35,6 +35,6 @@ Microsoft 提供可與 Microsoft 代理程式搭配使用的命令和控制語�
 
 如果使用者停用 [先進字元選項] 中的語音輸入，則也會停用接聽熱鍵。 同樣地，在停用語音輸入時嘗試呼叫 [**接聽**](listen-method.md) 方法會導致方法失敗。
 
- 
+ 
 
- 
+ 

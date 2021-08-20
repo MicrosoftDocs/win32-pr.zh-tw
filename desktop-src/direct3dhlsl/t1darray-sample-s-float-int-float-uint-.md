@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4a2f608d7dbbd4eec51139b6f285529849f708af
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8475bce93ec31da51b829cbd552e3fd9d9d5c784b51ca2efa883fb06cf661db5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117724086"
 ---
 # <a name="texture1darraysamplesfloatintfloatuint-function"></a>Texture1DArray：： Sample (S，float，int，float，uint) 函數
 

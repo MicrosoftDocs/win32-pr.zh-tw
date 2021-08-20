@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3ce1cc3a10890665b8bf8c5a58675f0901f1d3fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cc804e34ae4c07093201ea5711ac99713cb98714ac6b2a0bb12a949512fda2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117700902"
 ---
 # <a name="windows7grbitsenumerateinrecordonly-field"></a>Windows7Grbits. EnumerateInRecordOnly 欄位
 

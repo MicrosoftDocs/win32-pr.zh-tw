@@ -4,18 +4,18 @@ ms.assetid: 52947832-e634-4ecb-861e-c84a84a45fc0
 title: PropList
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b43b51a7d785bfdf1b485db7c8aa56d164de23b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a404f2ff685134b2f706f7a5a8f55c417a1febca1a60a021584a2d02fdfd5d0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465603"
 ---
 # <a name="systemproplistinfotip"></a>PropList
 
 要在提示中顯示的屬性清單。 將不會顯示具有空白值的屬性。 在「提示」 regvalue 下註冊。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -7,12 +7,12 @@ keywords:
 - 尋找要查詢 AD 的屬性清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4b6fb6b4d948a7cbc4d76caba9b78e189324eaa
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5e0edfee59c42a8cf07be05ab31e58c0298f7285c8a02de659257e3b3cd14bfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189188"
 ---
 # <a name="finding-a-list-of-attributes-to-query"></a>尋找要查詢的屬性清單
 
@@ -29,8 +29,8 @@ ms.locfileid: "103681661"
 > [!Note]  
 > 如需系統隨附的預先定義類別和屬性的詳細資訊，請參閱 [Active Directory Domain Services 參考](active-directory-domain-services-reference.md)。 這些頁面會列出每個物件類別的強制和選擇性屬性。 若為屬性，參考頁面會指出屬性是否已編制索引、已建立、連結或在通用類別目錄中。
 
- 
+ 
 
- 
+ 
 
- 
+ 

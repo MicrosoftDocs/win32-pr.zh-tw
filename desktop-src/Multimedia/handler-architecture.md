@@ -4,12 +4,12 @@ description: 處理常式架構
 ms.assetid: 93839b82-09cb-41af-ac0e-a8e9448bf04b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2b02d0184d364ce438dc28f8219beea01c4868
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5c0da7846f31c94202d8d50ac0566c87ef5db085a0b9efb3f9250468346512db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141091"
 ---
 # <a name="handler-architecture"></a>處理常式架構
 
@@ -19,9 +19,9 @@ ms.locfileid: "104021550"
 
 相反地，資料流程處理常式會處理一種資料類型，並顯示為應用程式的資料流程。 資料流程處理常式可以提供其所產生的資料，或從檔案或外部來源取得資料。 它會以您的應用程式可以使用的格式來提供其資料。
 
- 
+ 
 
- 
+ 
 
 
 

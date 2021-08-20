@@ -6,12 +6,12 @@ keywords:
 - WS_SECURITY_CONTEXT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c041307eadd1ebcea379f9de0880fc011bd137ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c34f201c40e3079a3c26ced97e2664679f04ccec6b7804844dd305422abadfdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192354"
 ---
 # <a name="ws_security_context"></a>WS \_ 安全性 \_ 內容
 
@@ -35,7 +35,7 @@ typedef struct _WS_SECURITY_CONTEXT WS_SECURITY_CONTEXT;
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>WebServices。h</dt> </dl> |
 
 
