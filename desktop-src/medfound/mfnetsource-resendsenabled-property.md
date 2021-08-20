@@ -4,12 +4,12 @@ ms.assetid: 7956536d-9f3d-4875-8006-17e2cd577b61
 title: 'MFNETSOURCE_RESENDSENABLED 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c2646a9ef3e23fbcc9b3dff205f87d268115177
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46cf865926ce47cfe945fddf7e4e04ed32828a7f95647cf66caea1eb3d008246
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117690633"
 ---
 # <a name="mfnetsource_resendsenabled-property"></a>MFNETSOURCE \_ RESENDSENABLED 屬性
 
@@ -45,8 +45,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

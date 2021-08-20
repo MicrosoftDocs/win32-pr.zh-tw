@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 77b43635462c4b48890599512cc1a413461de72e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da6b2d625037395ca26aa4616a5f7ee7588a4111c358015c0ccff3be8e032796
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117798458"
 ---
 # <a name="dot11_mac_address"></a>DOT11 \_ MAC \_ 位址
 
@@ -50,8 +50,8 @@ typedef DOT11_MAC_ADDRESS* PDOT11_MAC_ADDRESS;
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                       |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                                                        |
 | 標頭<br/>                   | <dl> <dt>Windot11 (包含 Windot11) </dt> </dl> |
 

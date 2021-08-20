@@ -4,12 +4,12 @@ ms.assetid: ea18baba-0e03-4471-af0e-a588773c98d2
 title: 'OPM_SET_HDCP_SRM (Opmapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9283c493598f22a1715f687eccea985a27e0e6f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23601386353e0a18ed95238cee7a11ba9c39a84fbf1855b839bde0fd841ccd17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058724"
 ---
 # <a name="opm_set_hdcp_srm"></a>OPM \_ 設定 \_ HDCP \_ SRM
 
@@ -38,7 +38,7 @@ SRMs 可用來更新已撤銷的 HDCP 裝置清單。 SRMs 是以影片內容提
 
 
 
-| 傳回碼                                            | Description                             |
+| 傳回碼                                            | 描述                             |
 |--------------------------------------------------------|-----------------------------------------|
 | 錯誤 \_ 圖形 \_ OPM \_ 不正確 \_ SRM                     | SRM 無效。                   |
 | 錯誤 \_ 圖形 \_ OPM \_ 輸出 \_ 不 \_ \_ 支援 \_ HDCP | 影片輸出不支援 HDCP。 |
@@ -55,8 +55,8 @@ SRMs 可用來更新已撤銷的 HDCP 裝置清單。 SRMs 是以影片內容提
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

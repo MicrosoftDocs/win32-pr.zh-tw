@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: f6e41b3172793f696a9ea3c2d319bdee6ca3d691
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9797a5b2349dd52c21204016d501fc2a34e4f6d2f71d7d4ee696aa208db01b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117670201"
 ---
 # <a name="ienumwiaitem2-interface"></a>IEnumWiaItem2 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "106972466"
 
 | 方法                                          | 描述                                                                                                                    |
 |:------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
-| [**克隆**](-wia-ienumwiaitem2-clone.md)       | 建立 **IEnumWiaItem2** 介面的其他實例，並將指標傳回給它。 <br/>                  |
+| [**複製**](-wia-ienumwiaitem2-clone.md)       | 建立 **IEnumWiaItem2** 介面的其他實例，並將指標傳回給它。 <br/>                  |
 | [**GetCount**](-wia-ienumwiaitem2-getcount.md) | 傳回這個列舉值所儲存的元素數目。 <br/>                                                          |
 | [**下一步**](-wia-ienumwiaitem2-next.md)         | 填滿 [**IWiaItem2**](-wia-iwiaitem2.md) 介面的指標陣列。<br/>                                       |
 | [**重設**](-wia-ienumwiaitem2-reset.md)       | 將列舉參考重設為第一個 [**IWiaItem2**](-wia-iwiaitem2.md) 物件。 <br/>                          |
@@ -54,10 +54,10 @@ ms.locfileid: "106972466"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

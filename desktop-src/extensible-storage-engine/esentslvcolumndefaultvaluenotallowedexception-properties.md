@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102733
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ef5ea98c861defda8dcdc38260a8cdc1182b6af0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bca02a158181aa29d41c0b554c4c6200e181ad6e5a7c64f117ff78e1ba2a987e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104560206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117707854"
 ---
 # <a name="esentslvcolumndefaultvaluenotallowedexception-properties"></a>EsentSLVColumnDefaultValueNotAllowedException 屬性
 

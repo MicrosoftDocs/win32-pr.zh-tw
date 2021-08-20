@@ -4,12 +4,12 @@ description: 網路管理的新功能
 ms.assetid: f805b662-1807-4703-b27e-4721895fe450
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e688d340b8282015b99ccb3d7fa6404dfa332748
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 1e857ae495491fb35cdd396f227034540ad8f208510b678c9a93eaa7d212230b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "104383233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117983075"
 ---
 # <a name="whats-new-in-network-management"></a>網路管理的新功能
 
@@ -31,7 +31,7 @@ Microsoft Windows 8 引進了新的網路管理程式設計功能。 這些新�
 
 ## <a name="windows-7-and-windows-server-2008-r2"></a>Windows 7 與 Windows Server 2008 R2
 
-Microsoft Windows 7 引進了新的網路管理程式設計功能。 這些元素會擴充網路管理的功能，以在使用 Windows 7 布建電腦時允許離線網域加入作業。
+Microsoft Windows 7 引進了新的網路管理程式設計功能。 這些元素會擴充網路管理的功能，以在布建 Windows 7 的電腦時允許離線網域加入作業。
 
 以下是新的網路管理功能：
 
@@ -48,7 +48,7 @@ Microsoft Windows Server 2003 引進了新的網路管理程式設計功能。 �
 
 ## <a name="windows-xp"></a>Windows XP
 
-Microsoft Windows XP 引進了新的網路管理程式設計功能。 這些元素擴充了 Windows XP 和更新版本上網路管理作業的功能。
+Microsoft Windows XP 引進了新的網路管理程式設計功能。 這些元素會在 Windows XP 和更新版本上擴充網路管理作業的功能。
 
 以下是新的網路管理功能：
 

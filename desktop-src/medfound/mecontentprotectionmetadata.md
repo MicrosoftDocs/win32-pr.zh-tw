@@ -4,12 +4,12 @@ ms.assetid: 249446CA-AEF7-41A1-98EB-0B9392AE4AD8
 title: 'MEContentProtectionMetadata 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd72289a900b9c9b96fe9a64d427dab13110d66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d972dc667c7119f01b39bff132b36dfa11c2810960ed638bd41a0cd9336f7d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118062285"
 ---
 # <a name="mecontentprotectionmetadata-event"></a>MEContentProtectionMetadata 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "103848321"
 
 
 
-| VARTYPE              | Description                           |
+| VARTYPE              | 描述                           |
 |----------------------|---------------------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> <br/> |
 
@@ -51,8 +51,8 @@ ms.locfileid: "103848321"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                                  |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                             |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                                  |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

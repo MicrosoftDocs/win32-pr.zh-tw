@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ee0e8fbc8cee6736b82b059742668d3e4bf7e0ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32df4166040aae9a8f3d7c4bfbee8f6aa7710beff114981c7b57c652c1119663
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118069162"
 ---
 # <a name="windows8grbitspurgecacheonattach-field"></a>Windows8Grbits. PurgeCacheOnAttach 欄位
 

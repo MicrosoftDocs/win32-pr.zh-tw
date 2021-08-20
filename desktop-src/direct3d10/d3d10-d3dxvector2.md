@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 972238650fa23e8b7aa435cd91b36f2caf8a4d9b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 608c23d4b6c6cb0d9865a5eacf9674064085791e363914bd8acb1339235e48b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914574"
 ---
 # <a name="d3dxvector2-structure-d3dx10mathh"></a>D3DXVECTOR2 結構 (D3DX10Math .h) 
 

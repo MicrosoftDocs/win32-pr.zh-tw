@@ -4,12 +4,12 @@ ms.assetid: cfb02788-9b73-4451-9e68-2ad310e0e527
 title: 座標空間和轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1098fa497d1ee2874daf5007288a3de71766d142
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e3f78aa0433d8c625ec818bc339bb64161b8f53e3c94a0a13ffaa45b60e216f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118068317"
 ---
 # <a name="coordinate-spaces-and-transformations"></a>座標空間和轉換
 

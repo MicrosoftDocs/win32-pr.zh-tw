@@ -6,12 +6,12 @@ keywords:
 - 插入登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21d12e6f4faa3151764cc1f68af5efec26fb40e0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: aaa4848fba307085c287a073bb9497949c5695139c660012857ecf36b428e459
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117919068"
 ---
 # <a name="insertable-progid-key"></a>插入 (ProgID 金鑰) 
 

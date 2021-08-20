@@ -4,12 +4,12 @@ ms.assetid: ff11e251-311f-4612-8f0d-a4cbc5b4d872
 title: COM + 佇列元件概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 729d1a8983e84d817e402454392ce95fc2b07a35
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d0ac44f834a9a85aed42008c828da91594c07a7cb7ec39abd2e9adae7a8322a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117917198"
 ---
 # <a name="com-queued-components-concepts"></a>COM + 佇列元件概念
 

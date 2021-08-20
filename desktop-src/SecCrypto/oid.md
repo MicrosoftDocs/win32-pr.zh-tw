@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a524bfd8d2eb2edcf3c97919129dd694414d5ace
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0c37fc1e85dd4d372219e142ed587f9766f9634911afa59b49ce5538023af4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117979676"
 ---
 # <a name="oid-object"></a>OID 物件
 
@@ -45,10 +45,10 @@ ms.locfileid: "106994908"
 
 
 
-| 屬性                                            | 存取類型           | Description                                                                                      |
+| 屬性                                            | 存取類型           | 描述                                                                                      |
 |:----------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------|
 | [**FriendlyName**](oid-friendlyname.md)<br/> | 讀取/寫入<br/> | 設定或抓取 OID 的顯示名稱。<br/>                                       |
-| [**Name**](oid-name.md)<br/>                 | 讀取/寫入<br/> | 為 OID 設定或抓取 CAPICOM 定義的名稱。 這是預設屬性。<br/> |
+| [**名稱**](oid-name.md)<br/>                 | 讀取/寫入<br/> | 為 OID 設定或抓取 CAPICOM 定義的名稱。 這是預設屬性。<br/> |
 | [**值**](oid-value.md)<br/>               | 讀取/寫入<br/> | 設定或抓取 OID 的 OID 點值。<br/>                      |
 
 

@@ -16,12 +16,12 @@ api_location:
 api_name:
 - D3DPERF_BeginEvent
 targetos: Windows
-ms.openlocfilehash: f6732d4ce969cbd26cdb32f4750654c7baacd324
-ms.sourcegitcommit: 517a888e0370b9ec64c451635f12d60245ff5ae3
+ms.openlocfilehash: 3958d1a9227b39dc65d702d91d0bb389b1c81ad333fd5b8def468be8fd342f7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "104374703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096930"
 ---
 # <a name="d3dperf_beginevent-function"></a>D3DPERF_BeginEvent 函式
 

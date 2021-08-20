@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3d135a63be987a4999d898c8e9c7d84251c8ece3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cffc669d71bf7f78087fe3c105c182ca86b4ebf5a689bcdb6c2807dfae3c0f21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117816359"
 ---
 # <a name="idwritefontsetgetpropertyvalues-methods"></a>IDWriteFontSet：： System.configuration.settingsprovider.getpropertyvalues 方法
 

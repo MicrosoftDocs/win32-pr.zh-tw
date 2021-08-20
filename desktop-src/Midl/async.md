@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 562b157f26078c6f4d5b3cffe47417fa18fe608d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 40c38f33cda0df1de51f95788b83aad11660af3c6d86b8245af7a4283f2ffe0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807911"
 ---
 # <a name="async-attribute"></a>async 屬性
 
@@ -61,7 +61,7 @@ ms.locfileid: "103933157"
 > [!Note]  
 > Async 屬性無法搭配 [**/osf**](-osf.md) 命令列參數使用。
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -97,6 +97,6 @@ interface AsyncIface
 [非同步 RPC](/windows/desktop/Rpc/asynchronous-rpc)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,17 +14,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2ecc5d185a3fd0a1db0ce80c11edd57019d6a4d9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a042d5962bbeedbe7230364e640110c9e634366d756d8050bcefd6618d50248c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117983615"
 ---
 # <a name="neterrorlogclear"></a>NetErrorLogClear
 
 **NetErrorLogClear** 函式已過時。 它隨附于與16位版本的 Windows 的相容性。 其他應用程式應該使用 [事件記錄](/windows/desktop/EventLog/event-logging)。
 
- 
+ 
 
- 
+ 

@@ -1,5 +1,5 @@
 ---
-description: Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬性值。 如需詳細資訊，請參閱一般裝置屬性常數。
+description: Windows影像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬性值。 如需詳細資訊，請參閱一般裝置屬性常數。
 ms.assetid: 7893137b-194c-4ea1-b15c-59d2f41f972a
 title: '攝影機裝置屬性常數 (Wiadef .h) '
 ms.topic: reference
@@ -55,21 +55,21 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: 0114fedd7fd4acf811e71db67376afecc2630cfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c67c65b311994fdb3a973494c4aa45b1d80c97e4c064b3c195c43a16cbfdeb69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118034879"
 ---
 # <a name="camera-device-property-constants"></a>攝影機裝置屬性常數
 
-Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬性值。 如需詳細資訊，請參閱 [**一般裝置屬性常數**](-wia-wiaitempropcommondevice.md)。
+Windows影像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬性值。 如需詳細資訊，請參閱 [**一般裝置屬性常數**](-wia-wiaitempropcommondevice.md)。
 
 下列裝置屬性常數（與其相關聯的字串）是數位相機專用的。 前置詞 "WIA \_ DPC \_ " 表示相機的裝置屬性，而且是 C/c + + 中使用的命名慣例。 針對腳本用途，這些常數會使用前置詞 "CameraDevice"，而且是 [WiaItemPropertyId](-wia-wiaitempropertyid.md) 列舉型別的一部分。 來自該腳本列舉的對應成員名稱，會出現在下列清單中 C/c + + 常數名稱旁邊的括弧中。
 
 > [!Note]  
-> WIA 不支援 Windows Vista 或更新版本中的相機。 針對這些版本的 Windows，請使用 Windows 驅動程式開發工具組中所述的 Windows 可攜式裝置 (WPD) API (DDK) 從相機取得映射。
+> WIA 不支援 Windows Vista 或更新版本中的相機。 針對這些版本的 Windows，請使用 Windows 驅動程式開發工具組 (DDK) 中所述的 Windows 可攜式裝置 (WPD) API，從攝影機取得映射。
 
  
 
@@ -83,7 +83,7 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <thead>
 <tr class="header">
 <th style="text-align: left;">常數/值</th>
-<th style="text-align: left;">Description</th>
+<th style="text-align: left;">描述</th>
 </tr>
 </thead>
 <tbody>
@@ -102,7 +102,7 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <thead>
 <tr class="header">
 <th>曝光模式</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -207,7 +207,7 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <thead>
 <tr class="header">
 <th>焦點模式</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -268,7 +268,7 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <thead>
 <tr class="header">
 <th>電源模式</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -355,7 +355,7 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <thead>
 <tr class="header">
 <th>效果模式</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -401,7 +401,7 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <thead>
 <tr class="header">
 <th>擷取模式</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -441,7 +441,7 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <thead>
 <tr class="header">
 <th>曝光計量模式</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -476,7 +476,7 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <thead>
 <tr class="header">
 <th>焦點計量模式</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -518,7 +518,7 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 <thead>
 <tr class="header">
 <th>白色餘額</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -586,8 +586,8 @@ Windows 映像取得 (WIA) 硬體裝置具有儲存在 Windows 登錄中的屬�
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wiadef。h</dt> </dl> |
 
 

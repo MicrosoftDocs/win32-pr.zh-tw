@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fd5c4af5b25273914a506afdfd0e3920f00c7ad
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1109c1522480d1420d84c723bfaaedd3d9440795ed9c100f8591d9459b4cd6f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106969501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870211"
 ---
 # <a name="menu-statement"></a>MENU 語句
 
@@ -44,9 +44,9 @@ MENU menuname
 MENU errmenu
 ```
 
- 
+ 
 
- 
+ 
 
 
 

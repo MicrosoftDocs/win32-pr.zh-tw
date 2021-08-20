@@ -4,12 +4,12 @@ ms.assetid: 85EE663C-94B7-47EA-ABBA-A8371342EEB2
 title: 'MEVideoCaptureDevicePreempted 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3968c0641d954741474b1d5ec7ffaa11dcad5f15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78246d6560344735167fc6efd45ba0481095534977c67dac11a76ffae0947d1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061161"
 ---
 # <a name="mevideocapturedevicepreempted-event"></a>MEVideoCaptureDevicePreempted 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106971710"
 
 
 
-| VARTYPE               | Description                           |
+| VARTYPE               | 描述                           |
 |-----------------------|---------------------------------------|
 | VT \_ 空白 <br/> | 沒有事件資料。<br/> <br/> |
 
@@ -37,8 +37,8 @@ ms.locfileid: "106971710"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                               |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 318ff6ae47946de9712be831184753390d864c2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20b66b8dbe0e19e996134c56de1a6a3380029531a105e26c5c0db0dace6aab3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117702793"
 ---
 # <a name="stringcolumnvaluetostring-method"></a>StringColumnValue ToString 方法
 

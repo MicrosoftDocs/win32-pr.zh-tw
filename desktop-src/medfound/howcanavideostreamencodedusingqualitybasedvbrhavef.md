@@ -4,12 +4,12 @@ ms.assetid: acce9c88-2ee1-4628-9fd5-ccb441f8b43e
 title: 使用以品質為基礎的 VBR 編碼的影片資料流程如何比原始串流更少的框架？
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad2af2775882155ed7ef2b0cfffdddeb30b2066e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e33ebdc4e8538bfd5cf0d8b74670d593c20cfbc4adbf237a7e3c59f9951379b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118063335"
 ---
 # <a name="how-can-a-video-stream-encoded-using-quality-based-vbr-have-fewer-frames-than-the-original-stream"></a>使用以品質為基礎的 VBR 編碼的影片資料流程如何比原始串流更少的框架？
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa8ed96adc1d6f6d66671e91f7a70bce856663e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01e8e85e110632275cea66d7e40e51fe889d4e28a46d6e5368de88d298b16676
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106995582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950853"
 ---
 # <a name="tf_es_-constants"></a>TF \_ ES \_ \* 常數
 
@@ -29,7 +29,7 @@ ms.locfileid: "106995582"
 
 
 
-| 常數/值                                                                                                                                                                                                                              | Description                                                                                                                                                                                                                                                                                                                                             |
+| 常數/值                                                                                                                                                                                                                              | 描述                                                                                                                                                                                                                                                                                                                                             |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="TF_ES_ASYNCDONTCARE"></span><span id="tf_es_asyncdontcare"></span><dl> <dt>**TF \_ES \_ ASYNCDONTCARE**</dt> <dt> ( 0 )</dt> </dl> | 編輯會話可能會以同步或非同步方式進行，由管理員自行決定。 管理員會嘗試排程同步編輯會話，以改善效能。 此值無法與 TF \_ es \_ ASYNC 或 tf \_ es \_ 同步值結合。<br/>                                                                         |
 | <span id="TF_ES_SYNC"></span><span id="tf_es_sync"></span><dl> <dt>**TF \_ES \_ 同步**</dt> <dt> ( 0x1 )</dt> </dl>                          | 編輯會話必須是同步的，否則 (會有 TF \_ E 同步) 的要求將會失敗 \_ 。 此旗標只能在記載的情況下使用 (例如按鍵處理，) 應該會成功。 否則呼叫可能會失敗。 此值無法與 TF \_ es \_ ASYNCDONTCARE 或 tf \_ es \_ ASYNC 值結合。<br/> |
@@ -49,7 +49,7 @@ ms.locfileid: "106995582"
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                 |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                      |
 | 標頭<br/>                   | <dl> <dt>Msctf。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msctf .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msctf .idl</dt> </dl> |
 
 
 

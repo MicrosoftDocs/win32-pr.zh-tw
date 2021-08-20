@@ -4,12 +4,12 @@ ms.assetid: 74246827-8f32-4292-9ca1-ecbf7c08299e
 title: DeviceInterface. WinUsb. UsbProductId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9608e56ba511c826383755b72ce4f46c8874a7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e4c1d9b731a919672b550c1d9e2b10123269e414aa1f02cf2dd5cb76f87203c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117684030"
 ---
 # <a name="systemdeviceinterfacewinusbusbproductid"></a>DeviceInterface. WinUsb. UsbProductId
 

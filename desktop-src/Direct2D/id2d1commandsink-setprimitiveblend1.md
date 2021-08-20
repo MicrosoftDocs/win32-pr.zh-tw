@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b3aa961eec873cc84e5b34ce41279c09f580e63d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7413945745b874c00b3348c33b3409a5d68f3cd408c5784277264ed735ef6307
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003092"
 ---
 # <a name="id2d1commandsink1setprimitiveblend1-method"></a>ID2D1CommandSink1：： SetPrimitiveBlend1 方法
 
@@ -73,7 +73,7 @@ HRESULT SetPrimitiveBlend1(
 
 
 
-| 基本 blend 模式                 | 鋸齒混合                            | 反鋸齒混合            | Description                                                                                                              |
+| 基本 blend 模式                 | 鋸齒混合                            | 反鋸齒混合            | 描述                                                                                                              |
 |--------------------------------------|---------------------------------------------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | D2D1 \_ 基本 \_ BLEND \_ 來源 \_ | O = (S + (1 SA) \* D) \* C + D \* (1 C)  | O = S \* C + D \* (1 SA \* C)    | 標準來源 over 目的地 blend 模式。                                                                         |
 | D2D1 \_ 基本 \_ BLEND \_ 複製         | O = S \* C + D \* (1 C)                    | O = S \* C + D \* (1 C)        | 來源會複製到目的地;系統會忽略目的地圖元。                                             |
@@ -100,8 +100,8 @@ HRESULT SetPrimitiveBlend1(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                          |
 | 支援的最小電話<br/>  | Windows Phone 8.1 \[ Windows Phone Silverlight 8.1 和 Windows 執行階段應用程式\]<br/> |
 
 

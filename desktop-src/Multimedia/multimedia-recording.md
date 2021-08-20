@@ -7,12 +7,12 @@ keywords:
 - MCIWndNew 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6b1793ff7653e87a631ce1a4599345ec78f4015
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 90b10c1d557566090343a71f760ab249093077491a1e9d1fb570dd5e97fc1f62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985201"
 ---
 # <a name="multimedia-recording"></a>多媒體錄製
 
@@ -23,11 +23,11 @@ ms.locfileid: "104372157"
 > [!Note]  
 > 有些裝置，例如 CD 音訊和 MCIAVI，僅供播放。 其他裝置（例如波形音訊裝置）可以用來錄製。 如果您指定無法錄製的裝置，MCIWnd 會省略工具列中的 [ **記錄** ] 按鈕。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

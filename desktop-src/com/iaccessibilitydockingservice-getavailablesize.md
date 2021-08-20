@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e1b9f113792b14f5fb86e0349d083ea48ffdb3fd
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f14ca5f0e657729e30a72cc70553bfda78b38352dd983c096f35021cfac10d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117919230"
 ---
 # <a name="iaccessibilitydockingservicegetavailablesize-method"></a>IAccessibilityDockingService：： GetAvailableSize 方法
 
@@ -72,7 +72,7 @@ HRESULT GetAvailableSize(
 
 
 
-| 傳回碼                                                                                                                          | Description                                                                      |
+| 傳回碼                                                                                                                          | 描述                                                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                                 | 成功。<br/>                                                              |
 | <dl> <dt>**\_WIN32 中的 HRESULT \_ (錯誤 \_ 不正確 \_ 監視器 \_ 控制碼)**</dt> </dl> | 監視器控制碼所指定的監視器不支援停駐。<br/> |

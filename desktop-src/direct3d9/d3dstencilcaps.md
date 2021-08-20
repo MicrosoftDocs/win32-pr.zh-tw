@@ -4,12 +4,12 @@ ms.assetid: 187c758c-5e7f-48ee-97cb-b1f30b709723
 title: D3DSTENCILCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8999d73044a061cb8eea8f5829351c1d04079462
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: af3a8105acb1b4000335b9c993b12225b04f409609243c0ab95b00392809afc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096667"
 ---
 # <a name="d3dstencilcaps"></a>D3DSTENCILCAPS
 

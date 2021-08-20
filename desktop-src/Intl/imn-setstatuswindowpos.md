@@ -4,12 +4,12 @@ ms.assetid: 15e65aff-67d9-4d1a-a6a7-b921cecb3aec
 title: 'IMN_SETSTATUSWINDOWPOS 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91d76a962e9cc509a6f9ffaac900b761b868f960
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0c414de9ba8e75a85d6649d747173c73af274c3527cf9f0dc5b7540a3bf8669
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810125"
 ---
 # <a name="imn_setstatuswindowpos-notification-code"></a>IMN \_ SETSTATUSWINDOWPOS 通知碼
 
@@ -56,7 +56,7 @@ IMN_SETSTATUSWINDOWPOS
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f1954dc7-d4df-4675-ab3b-a65f2354e57a
 title: ProgramMode 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6f5dffa822454509134c485e4792f4be4270912
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 260bf4ae5ca26fa26848765a76f5fdbc36eef48e2806909f46e5ab256f5acd7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118032498"
 ---
 # <a name="systemphotoprogrammode-photo-metadata-policy"></a>ProgramMode 相片中繼資料原則
 

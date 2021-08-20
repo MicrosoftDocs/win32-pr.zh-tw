@@ -4,16 +4,16 @@ description: DblClick 事件
 ms.assetid: 81ed5396-a2dc-49fe-820f-61ca0935fe85
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20b900b8a8b79345c50749a4355deeb05fdc1220
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f48e5b4574f8378930001e1cea3916d12904fcc317b3b00ff14c436fb4912574
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117693772"
 ---
 # <a name="dblclick-event"></a>DblClick 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -40,7 +40,7 @@ ms.locfileid: "104301419"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -48,9 +48,9 @@ ms.locfileid: "104301419"
 
 此事件只會傳送到字元的輸入-主動用戶端。 當使用者按兩下沒有輸入-主動用戶端的字元或其工作列圖示時，伺服器會將事件傳送至其最後一個輸入-主動用戶端。 如果顯示的字元 ([可見](visible-property.md)的  =  **True**) ，則它也會將使用中用戶端設定為目前輸入-主動用戶端，將 [**ActivateInput**](activateinput-event.md)事件傳送到該用戶端，然後傳送 **DblClick** 事件。 如果隱藏字元 (Visible = **False**) 而使用者使用按鈕1按兩下字元的工作列圖示，它也會自動顯示該字元。
 
- 
+ 
 
- 
+ 
 
 
 

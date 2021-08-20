@@ -1,9 +1,9 @@
 ---
 title: 'MIM_LONGERROR 訊息 (Mmsystem .h) '
-description: '\_當收到無效或不完整的 midi 系統專屬訊息時，會將 MIM LONGERROR 訊息傳送至 MIDI 輸入回撥函式。'
+description: '\_收到無效或不完整的 midi 系統專屬訊息時，會將 MIM LONGERROR 訊息傳送至 MIDI 輸入回撥函式。'
 ms.assetid: 7e3b0716-33c4-449c-a200-e5ba72428dc1
 keywords:
-- MIM_LONGERROR message Windows 多媒體
+- MIM_LONGERROR 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 631c4fdcd31eef01d691aea80100427d116ae7d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9d0be5f2d75ae8ba1eed61f99d1387e1defec556b5e242f713b75eee0a3f70e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985741"
 ---
-# <a name="mim_longerror-message"></a>MIM \_ LONGERROR 訊息
+# <a name="mim_longerror-message"></a>MIM \_LONGERROR 訊息
 
-當收到無效或不完整的 MIDI 系統專屬訊息時，會將 **MIM \_ LONGERROR** 訊息傳送至 MIDI 輸入回撥函式。
+收到無效或不完整的 midi 系統專屬訊息時，會將 **MIM \_ LONGERROR** 訊息傳送至 MIDI 輸入回撥函式。
 
 
 ```C++
@@ -68,7 +68,7 @@ dwParam2 = dwTimestamp
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

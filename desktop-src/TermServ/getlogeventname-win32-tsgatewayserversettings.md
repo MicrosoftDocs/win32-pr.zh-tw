@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3e9c608b7a12d3de48d75ecd5651df94d0267fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2da065826045de51b94a1f4c5dec58a78f52d761d6b694017332d9d6558cb273
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106976358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130615"
 ---
 # <a name="getlogeventname-method-of-the-win32_tsgatewayserversettings-class"></a>Win32 TSGatewayServerSettings 類別的 GetLogEventName 方法 \_
 

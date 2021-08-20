@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e9f09e9c7292754a736594a9bf3d57a70063744
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8488b689c72f64e20be6871dc95497ac08ce3e0fe45c6ae59471fed0ec0e427b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980790"
 ---
 # <a name="glpopclientattrib-function"></a>glPopClientAttrib 函式
 
@@ -48,7 +48,7 @@ void WINAPI glPopClientAttrib(void);
 
 
 
-| Name                                                                                               | 意義                                                                       |
+| 名稱                                                                                               | 意義                                                                       |
 |----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 堆疊 \_ 溢位**</dt> </dl> | 當用戶端屬性堆疊已滿時，就會呼叫此函數。<br/> |
 

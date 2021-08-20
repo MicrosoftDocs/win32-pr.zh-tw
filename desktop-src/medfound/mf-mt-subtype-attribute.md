@@ -4,12 +4,12 @@ ms.assetid: 8e600943-92f1-4936-8c00-842fc7f4cb57
 title: 'MF_MT_SUBTYPE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34f156e356a0e80d6b2c4bff1ae6f266e4d64b89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e739bba5acc4816b8f8b9c2e9506496de3468865afca2d262cf56379c600889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060010"
 ---
 # <a name="mf_mt_subtype-attribute"></a>MF \_ MT \_ 子類型屬性
 
@@ -36,8 +36,8 @@ ms.locfileid: "104026825"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

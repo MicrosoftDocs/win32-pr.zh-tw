@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 80f649770b84174dbb716967e9d941034c3966f5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 754bca59a16ef43bec477c12fcf9ffd1ebaf64f5f0fa46e7db95a80b2e96cea0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117908441"
 ---
 # <a name="destination-register-write-mask"></a>目的地註冊寫入遮罩
 
@@ -29,7 +29,7 @@ ms.locfileid: "103932583"
 
 
 
- 
+ 
 
 其中
 
@@ -51,7 +51,7 @@ ms.locfileid: "103932583"
 
 
 
- 
+ 
 
 任意的遮罩可讓任何一組通道合併以產生遮罩。 通道必須列在 order r、g、b 和 a-例如 rba，這會更新目的地的紅色、藍色和 Alpha 通道。 您可以在第1版或更高版本中取得任意的遮罩 \_ 。
 
@@ -131,7 +131,7 @@ mov r0.rba, r1
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -140,9 +140,9 @@ mov r0.rba, r1
 [圖元著色器暫存器修飾詞](dx9-graphics-reference-asm-ps-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

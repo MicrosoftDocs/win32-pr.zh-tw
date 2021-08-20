@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 9b5899b629267f74724129aeae3f66801953d8cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a81f342713bcb3e58521856aa84561c000dcc5e0d05112bc9586514a5469bfaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118035020"
 ---
 # <a name="iwiaitem2enumregistereventinfo-method"></a>IWiaItem2：： EnumRegisterEventInfo 方法
 
@@ -53,13 +53,13 @@ HRESULT EnumRegisterEventInfo(
 *pEventGUID* \[在\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
 識別碼的指標，指定您要取得註冊資訊的硬體事件。
 
 </dd> <dt>
 
-_ppIEnum * \[ out\]
+*ppIEnum* \[擴展\]
 </dt> <dd>
 
 類型： **[ **IEnumWIA \_ DEV \_ cap**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps)\*\***
@@ -86,8 +86,8 @@ _ppIEnum * \[ out\]
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl> |
 
 

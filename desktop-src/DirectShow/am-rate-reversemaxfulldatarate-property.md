@@ -4,12 +4,12 @@ ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
 title: 'AM_RATE_ReverseMaxFullDataRate 屬性 (Dvdmedia) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e70a330433c8ea6e8116db944d8fb3d2ffff4d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9c02007ec0b8f7b3f14dee8490f69d654a99ad11480512408efdc656bbbc8561
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118002373"
 ---
 # <a name="am_rate_reversemaxfulldatarate-property"></a>AM \_ RATE \_ ReverseMaxFullDataRate 屬性
 
@@ -35,7 +35,7 @@ ms.locfileid: "108099966"
 
 ## <a name="remarks"></a>備註
 
-支援順利反向播放的解碼器應該會公開此屬性。 如需詳細資訊，請參閱 [Windows Vista 中的 DVD 播放增強功能](dvd-playback-enhancements-in-windows-vista.md)。
+支援順利反向播放的解碼器應該會公開此屬性。 如需詳細資訊，請參閱[Windows Vista 中的 DVD 播放增強功能](dvd-playback-enhancements-in-windows-vista.md)。
 
 ## <a name="requirements"></a>規格需求
 

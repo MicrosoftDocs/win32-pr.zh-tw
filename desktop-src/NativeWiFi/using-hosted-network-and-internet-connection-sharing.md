@@ -4,12 +4,12 @@ description: 使用無線託管網路和網際網路連線共用
 ms.assetid: 56e86ef8-f759-4e56-a591-74e03430125a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 972774e921199e32eb70841c74c7478e2178cda9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62103074cfa6e84ef764e506a724b17a4e2d770ec656f09d1200af21e463536f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117984698"
 ---
 # <a name="use-wireless-hosted-network-internet-connection-sharing"></a>使用無線託管網路、網際網路連線共用
 
@@ -18,7 +18,7 @@ ms.locfileid: "103944146"
 -   將實體無線介面卡虛擬化為一個以上的虛擬無線介面卡，有時又稱為虛擬 Wi-fi。
 -   以軟體為基礎的無線存取點 (AP) 有時稱為 SoftAP，使用指定的虛擬無線介面卡。
 
-網際網路連線共用 (ICS) 是 Windows 中透過 Win2k3 sharedaccess 服務所提供的一項功能。 嚴格來說，Win2k3 sharedaccess 透過共用網路存取不一定提供網際網路存取權的電腦，來啟用網路共用。 因為網際網路連線共用是無線裝載網路的主要案例，且使用者群體更知道 ICS 詞彙，所以我們會在本節中交替使用「ICS」和「Win2k3 sharedaccess」一詞。
+網際網路連線共用 (ICS) 是透過 win2k3 sharedaccess 服務提供 Windows 中的一項功能。 嚴格來說，Win2k3 sharedaccess 透過共用網路存取不一定提供網際網路存取權的電腦，來啟用網路共用。 因為網際網路連線共用是無線裝載網路的主要案例，且使用者群體更知道 ICS 詞彙，所以我們會在本節中交替使用「ICS」和「Win2k3 sharedaccess」一詞。
 
 無線裝載的網路緊密地系結至 ICS，讓無線個人區域網路 (平移) 和網際網路共用案例。 本節提供應用程式開發人員的一般建議，說明如何使用公用無線裝載網路和 ICS Api 來整合無線裝載的網路和 ICS。
 
@@ -36,7 +36,7 @@ ICS 服務可在兩種可能的模式下運作：
 
 在本節中，我們會使用「完整 ICS」一詞來表示在 ICS 服務中叫用所有 ICS 功能的情況，以提供無線託管網路的所有完整 ICS 功能存取權。
 
-這兩個 ICS 作業模式與具有較高優先順序的完整 ICS 相互排斥。 ICS 服務可以從獨立模式轉換為完整模式，但無法從完整模式轉換成獨立模式。 在 Windows 7 和 Windows Server 2008 R2 上引進了 ICS 獨立模式，並將無線局域網路服務與無線裝載的網路功能一起安裝。 在舊版的 Windows 中無法使用。
+這兩個 ICS 作業模式與具有較高優先順序的完整 ICS 相互排斥。 ICS 服務可以從獨立模式轉換為完整模式，但無法從完整模式轉換成獨立模式。 ICS 獨立模式是在 Windows 7 和 Windows Server 2008 R2 中引進，而且無線局域網路服務與無線裝載的網路功能一起安裝。 在舊版 Windows 中無法使用。
 
 任何完整的 ICS 操作都牽涉到系統中的兩個不同網路介面卡：
 
@@ -80,7 +80,7 @@ ICS 服務可在兩種可能的模式下運作：
 
 ## <a name="starting-and-stopping-the-wireless-hosted-network"></a>啟動和停止無線託管網路
 
-Windows 所提供的平臺，可以讓多個並行應用程式同時管理無線裝載的網路。 具體而言，每個應用程式都可以自行啟動及停止無線裝載的網路，而不需要事先瞭解其他應用程式。
+Windows 提供一個平臺，讓一個以上的並行應用程式可以同時管理無線裝載的網路。 具體而言，每個應用程式都可以自行啟動及停止無線裝載的網路，而不需要事先瞭解其他應用程式。
 
 有兩組函式可以啟動和停止託管網路。
 

@@ -4,12 +4,12 @@ ms.assetid: 4d4d309f-edfb-439b-b2cc-3401f1118931
 title: System.servicemodel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92da13022e0b69dc153f8a421f1552367e9e9754
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a2b34dc2d7339146fb0a1d5128c2457a550c1ffa5f99046486010a70f02e69e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866714"
 ---
 # <a name="systemdevicesfriendlyname"></a>System.servicemodel
 

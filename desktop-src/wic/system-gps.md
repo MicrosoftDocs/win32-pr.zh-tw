@@ -4,12 +4,12 @@ ms.assetid: A93FA623-79CF-4f2a-875E-96E9DBE80A34
 title: GPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95473d4effe5adee3462243eeea511cdc36000f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95a12622c8c6c2a798f2dfc9f150eae7db9f9c9255aa77a51e6abb49ad632537
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118031995"
 ---
 # <a name="systemgps"></a>GPS
 

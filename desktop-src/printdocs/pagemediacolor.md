@@ -4,12 +4,12 @@ ms.assetid: 3e0e2cb2-cb51-446d-a6ff-f76aa8c305f6
 title: PageMediaColor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3041c8954048f60f52e9324f0c6565396d7fafe2
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 6f9f426db3e75869a7cc65eaf5ad5021d430f0a1e77f7cf24f4c97ad9fa9f2db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117686173"
 ---
 # <a name="pagemediacolor"></a>PageMediaColor
 
@@ -25,7 +25,7 @@ ms.locfileid: "113549156"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |
@@ -62,11 +62,11 @@ ms.locfileid: "113549156"
 
 
 
-| Name                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                      |
+| 名稱                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | string<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
-| \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
-| \_MediaColorsRGBValue\_<br/> | string<br/> | sRGB 色彩<br/> | \#AARRGGBB，其中 A、R、G、B 代表十六進位數位。<br/>                                                                                                                  | 定義實體媒體工作表的 sRGB 色彩。 <br/>             |
+| \_選項名稱\_<br/>          | 字串<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
+| \_IdentityOptionValue\_<br/> | 字串<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
+| \_MediaColorsRGBValue\_<br/> | 字串<br/> | sRGB 色彩<br/> | \#AARRGGBB，其中 A、R、G、B 代表十六進位數位。<br/>                                                                                                                  | 定義實體媒體工作表的 sRGB 色彩。 <br/>             |
 
 
 

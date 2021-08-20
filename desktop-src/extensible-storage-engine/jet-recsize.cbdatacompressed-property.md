@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 747c2f00077f6a9d13de059f742bacc9a7936d04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 469ddbd32965e551923b50f63662eb34835837d416eaa534d02af416d6c3c5f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117893349"
 ---
 # <a name="jet_recsizecbdatacompressed-property"></a>JET_RECSIZE cbDataCompressed 屬性
 

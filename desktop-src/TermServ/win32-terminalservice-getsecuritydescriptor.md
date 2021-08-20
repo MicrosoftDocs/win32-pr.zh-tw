@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea5b8a9b945048f947aa273e1ccc1f4514469681
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 13be26eb2f0c68f61cbe97ab61cd9ce2a00ab351f9a797dfe6b1ae92db7a8bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117940420"
 ---
 # <a name="getsecuritydescriptor-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 GetSecurityDescriptor 方法 (遠端桌面服務) 
 
@@ -251,7 +251,7 @@ Set objWMIService = GetObject("winmgmts:" _
 
 
 
-同樣地，在 VB.NET 中，請務必設定 "EnablePrivileges = True"，並以系統管理員身分執行應用程式。
+同樣地，在 VB .net 中，請務必設定 "EnablePrivileges = True"，並以系統管理員身分執行應用程式。
 
 
 ```VB

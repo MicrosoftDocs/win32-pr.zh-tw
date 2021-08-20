@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 9c248fdaed8235c383388a52172021921e2c78d8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d8c9054274666b41e70fa060d10a28309be929a19ee5c363ff4afeb76b25e1ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914234"
 ---
 # <a name="id3dxmatrixstackpush-method-d3dx10h"></a>ID3DXMATRIXStack：:P ush 方法 (D3DX10 .h) 
 

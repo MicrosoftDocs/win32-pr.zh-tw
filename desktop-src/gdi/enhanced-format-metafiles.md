@@ -4,12 +4,12 @@ ms.assetid: 8d7015cb-5e1d-4805-a7a8-1f8b693e0681
 title: Enhanced-Format 中繼檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afbae113c65e4dd05e67c155c2323698cd023191
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70f28a1b14d226fb3ae60dd7b620e3e04565d9c5c05f84704570bda267ca6ced
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118068165"
 ---
 # <a name="enhanced-format-metafiles"></a>Enhanced-Format 中繼檔
 

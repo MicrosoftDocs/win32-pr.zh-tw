@@ -4,12 +4,12 @@ ms.assetid: ec539038-3fd3-41b7-a0e6-e75e3f2828a7
 title: 'MF_SOURCE_READER_DISABLE_DXVA 屬性 (Mfreadwrite) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9362f067d1d6ceae426e9ee6530e08b95837595f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e34f7b0f4ce442931dec06fae4801068df4d7e61894bdbc167c9a823ee1b1e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118059052"
 ---
 # <a name="mf_source_reader_disable_dxva-attribute"></a>MF \_ 來源 \_ 讀取器 \_ 停用 \_ DXVA 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "104320471"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mfreadwrite。h</dt> </dl> |
 
 

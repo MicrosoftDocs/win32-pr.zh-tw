@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 8ef5f4a2b49139ce1ab5366dac3f6c141425653e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39b7c05a20e07f406f4036659008ad68a40d25ecc6bca3f0600d121cf6557a32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117981384"
 ---
 # <a name="htmlvaluetounicode-function"></a>HTMLValueToUnicode 函式
 

@@ -4,16 +4,16 @@ description: 使用 Microsoft 代理程式字元編輯器
 ms.assetid: c606c90b-0fd2-4899-9ffd-153fdaf9c80c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70950ea79d92041e0143c1f0db19d5f343065641
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 55ec2718777f1406ef7b5e452c00493b9676ef433aa2dc37aa18fe290e301610
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118066992"
 ---
 # <a name="using-the-microsoft-agent-character-editor"></a>使用 Microsoft 代理程式字元編輯器
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 Microsoft 代理程式字元編輯器可讓您編譯字元動畫以搭配 Microsoft Agent 使用。 您可以藉由匯入 Windows 點陣圖影像、設定其持續時間，以及選擇性地包含分支、音效效果和說話覆迭，來定義動畫。 如需設計字元動畫的詳細資訊，請參閱 [設計 Microsoft Agent 的字元](designing-characters-for-microsoft-agent.md)。
 
@@ -27,9 +27,9 @@ Microsoft 代理程式字元編輯器可讓您編譯字元動畫以搭配 Micros
 -   [命令參考](command-reference-.md)
 -   [工具列按鈕](toolbar-buttons-.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: 04cc5c5d-7049-43ca-ad06-4080f5fe68cd
 title: 'D (網路監視器) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f15654c4f94b52da9a1b385823d4c788e90cf06a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be0515ab705e5ce7cc7e323b699ab5fd75a249aff1703c412ba96e0f2ef47d13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117982852"
 ---
 # <a name="d-network-monitor"></a>D (網路監視器) 
 

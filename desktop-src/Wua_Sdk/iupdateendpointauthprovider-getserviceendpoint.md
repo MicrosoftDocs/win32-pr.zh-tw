@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: bddb77237d6d5edabab41eefe1931514fd6aed42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d5ecacaca102f965a3655d64201f48cd0804a4ef4f0552283a800c9891f7ae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117919682"
 ---
 # <a name="iupdateendpointprovidergetserviceendpoint-method"></a>IUpdateEndpointProvider：： GetServiceEndpoint 方法
 
@@ -161,10 +161,10 @@ WUA 通常會在第一次呼叫此方法時，將 *fRefreshOnline* 參數設定�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>                   |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>                |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>                   |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>                |
 | 標頭<br/>                   | <dl> <dt>UpdateEndpointAuth。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>UpdateEndpointAuth .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UpdateEndpointAuth.dll</dt> </dl> |
 

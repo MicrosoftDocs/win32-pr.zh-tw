@@ -4,12 +4,12 @@ ms.assetid: 935b9e29-224d-449e-b89f-b6062bed7702
 title: 'WM_MDIICONARRANGE 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2d50d4bccebe3e9758752cc7d0d259e973875c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bacb38a03ab71f185bd4db0618e3f0180515f7af370e0cab3cc1ac9010dd3edd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118030806"
 ---
 # <a name="wm_mdiiconarrange-message"></a>WM \_ MDIICONARRANGE 訊息
 
@@ -48,7 +48,7 @@ ms.locfileid: "104468964"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

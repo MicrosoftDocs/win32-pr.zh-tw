@@ -5,12 +5,12 @@ ms.assetid: de434615-14b1-4b66-b09b-e90468e03d58
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: ae15d0b1da304f9dfe24ff5de33a9f1582e2ca05
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 212ef4f60872bc21548de33e200aa9adb4760b7728721e45d58041abae2a0bae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "107001285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003443"
 ---
 # <a name="how-to-transform-a-geometry"></a>如何轉換幾何
 
@@ -85,6 +85,6 @@ if (SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 

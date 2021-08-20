@@ -4,12 +4,12 @@ description: 在這裡，我們將示範如何編譯著色器程式碼、將已�
 ms.assetid: ED2EB1DE-3C25-4633-BFA7-C535ABBBAD28
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90124ca9753a390b924d5ba702e1986e32eee9e5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: afb0f16d226357aca63259a9cc014a3c149d84b87d1b9340b1452b802e0df410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104991002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117906436"
 ---
 # <a name="packaging-a-shader-library"></a>封裝著色器程式庫
 
@@ -129,6 +129,6 @@ cbuffer HiddenBuffer : register(b2)
 [使用著色器連結](using-shader-linking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

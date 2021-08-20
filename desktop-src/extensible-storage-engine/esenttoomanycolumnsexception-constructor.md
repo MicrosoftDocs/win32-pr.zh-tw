@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bc61d0be4f2082a5ae13f03b562408966a32653e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 392b9e14392287005ecad937d657bc7da791e21439f2437bce9ae536422be312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117707152"
 ---
 # <a name="esenttoomanycolumnsexception-constructor"></a>EsentTooManyColumnsException 函式
 

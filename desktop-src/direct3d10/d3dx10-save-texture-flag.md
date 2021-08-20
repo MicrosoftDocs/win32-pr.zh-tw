@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: 530b4b35b91cfd194455e15fbf3fa284460dfdbd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4ded3988c49a6242df72e452db120cbaf1f1cf9ee88a5509d6694ca8f612f1aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914424"
 ---
 # <a name="d3dx10_save_texture_flag-enumeration"></a>D3DX10 \_ 儲存 \_ 材質 \_ 旗標列舉
 

@@ -7,12 +7,12 @@ keywords:
 - X 視窗系統
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8b5b5ac28d0b92c4d27d1b3bab617e2961fe468
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: cf74315bd63b83a52a1c4c53be65ccb57def5f00f2ed2d2a86af44d3ca9a0e05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104374118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980260"
 ---
 # <a name="x-y-z"></a>X Y Z
 
@@ -27,9 +27,9 @@ ms.locfileid: "104374118"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

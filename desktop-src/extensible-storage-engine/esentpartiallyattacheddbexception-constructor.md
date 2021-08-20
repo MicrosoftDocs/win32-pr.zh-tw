@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 582e8638d56895da7af6fd9f45bd2ff4d3179a49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7013ec211bc0ba51f6613d5b9b15a84c3d6aaf181777187a99470f72ee9dba53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117898305"
 ---
 # <a name="esentpartiallyattacheddbexception-constructor"></a>EsentPartiallyAttachedDBException 函式
 

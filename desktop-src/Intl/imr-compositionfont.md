@@ -4,12 +4,12 @@ ms.assetid: 46bb71ee-8dc9-4ef0-bc4e-59866c122bf7
 title: 'IMR_COMPOSITIONFONT 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8be2751944e451475fd0bde9a34d8902dcaf30e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e241605358a0b6781a5725e4d0cfabc23b06a89f8e2bc041e9556434b6c5816f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810095"
 ---
 # <a name="imr_compositionfont-notification-code"></a>IMR \_ COMPOSITIONFONT 通知碼
 
@@ -56,7 +56,7 @@ LRESULT IMR_COMPOSITIONFONT
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

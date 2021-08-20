@@ -4,12 +4,12 @@ ms.assetid: 9329dd6d-144c-418a-8caa-f724a6c2849c
 title: 關於原生 Wifi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4225c1b854b7466f8bb8b2d191be54c47c8f7fcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 243c7551d200873d3d88df32772f1178dd57a6d4339de685f492703d4a6ddaf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985059"
 ---
 # <a name="about-native-wifi"></a>關於原生 Wifi
 

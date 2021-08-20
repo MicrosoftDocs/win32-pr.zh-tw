@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 3cd5091fe19631079ff3c51d9d6ba7777970a854
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1713d12763eaaa5c43b4ef27f3d8843eefd3ba86f0a8ddfea9dfaecd9d01b10b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003759"
 ---
 # <a name="ntopensymboliclinkobject-function"></a>NtOpenSymbolicLinkObject 函式
 

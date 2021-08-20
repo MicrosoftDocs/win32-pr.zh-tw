@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: 98318ba3b2b94d334834150b219c5d453c4e0d89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2b83a1cd2638489ef0cf1a635ab32619597c395f0ca9b41d2ffaed80f59c228
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118034929"
 ---
 # <a name="iwiauiextension-interface"></a>IWiaUIExtension 介面
 
@@ -50,7 +50,7 @@ ms.locfileid: "106997493"
 
 
 
-| IUnknown 方法                                        | Description                               |
+| IUnknown 方法                                        | 描述                               |
 |---------------------------------------------------------|-------------------------------------------|
 | [IUnknown：： QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) | 傳回受支援介面的指標。 |
 | [IUnknown：： AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)                 | 遞增參考次數。               |
@@ -66,8 +66,8 @@ ms.locfileid: "106997493"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Wiadevd。h</dt> </dl> |
 
 

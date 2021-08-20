@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windot11.h
-ms.openlocfilehash: 4e8fc4a1154b9f95fad5024607435861b9e98ae1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faf6f775acac44af3f591dbcea0b32dd70d9ec80bb479c9d05145aee13d544a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117984998"
 ---
 # <a name="dot11_phy_type-enumeration"></a>DOT11 \_ PHY \_ 類型列舉
 
@@ -67,7 +67,7 @@ typedef enum _DOT11_PHY_TYPE {
 <span id="dot11_phy_type_fhss"></span><span id="DOT11_PHY_TYPE_FHSS"></span>**dot11 \_ phy \_ 類型 \_ fhss**
 </dt> <dd>
 
-指定頻率跳動頻外 (FHSS) PHY。 藍牙裝置可以使用 FHSS 或 FHSS 調整。
+指定頻率跳動頻外 (FHSS) PHY。 藍牙的裝置可以使用 FHSS 或 FHSS 的調適。
 
 </dd> <dt>
 
@@ -146,8 +146,8 @@ IHV 可以從 **dot11 \_ phy \_ type \_ ihv \_ 開始** 至 **dot11 \_ PHY \_ ty
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/>                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/>                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Windot11。h</dt> </dl> |
 

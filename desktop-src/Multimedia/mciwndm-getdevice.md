@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETDEVICE 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETDEVICE 訊息會抓取目前開啟之 MCI 裝置的名稱。 您可以使用 MCIWndGetDevice 宏明確地傳送此訊息。
 ms.assetid: e69a73a6-a927-4536-98c7-ee7d5b16668a
 keywords:
-- MCIWNDM_GETDEVICE message Windows 多媒體
+- MCIWNDM_GETDEVICE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32664508a577db9d5a077e3cb4fd00aab34fbdf3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b593d231003d4478709d3cc43223b5e68da597b59d19658f0b77e3bd9305d019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117986058"
 ---
 # <a name="mciwndm_getdevice-message"></a>MCIWNDM \_ GETDEVICE 訊息
 

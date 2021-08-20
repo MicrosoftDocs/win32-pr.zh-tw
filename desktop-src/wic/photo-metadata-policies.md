@@ -4,12 +4,12 @@ ms.assetid: ac71889b-94e5-4135-abd4-5d96690e41ea
 title: 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c057880840aa0fcda15e605892c4082e6b01a665
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b024d496821ad642b8c8f3257814d697b6ee15889939877f8a1e8fcf2f8f1000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118032015"
 ---
 # <a name="photo-metadata-policies"></a>相片中繼資料原則
 

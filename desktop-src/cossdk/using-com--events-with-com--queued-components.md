@@ -4,12 +4,12 @@ ms.assetid: 0945163b-1276-47f6-ae7f-9d932a1b586d
 title: 使用 com + 事件與 COM + 佇列元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4be31dd1088b720902295738c23173c28145cef2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dbcdd903440705b12ec49fe8bddcb57b72d5dfb4fd9920d9bf8ad3e89e081618
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915605"
 ---
 # <a name="using-com-events-with-com-queued-components"></a>使用 com + 事件與 COM + 佇列元件
 

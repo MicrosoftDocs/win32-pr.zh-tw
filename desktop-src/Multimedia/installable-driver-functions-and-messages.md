@@ -12,12 +12,12 @@ keywords:
 - 自訂驅動程式訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c66e6ebaac73bf8eb779119750cb390481152c3f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b3afe479d242e0c1a8821812566267343b54975ae1701dd987ac65166061f2d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987081"
 ---
 # <a name="installable-driver-functions-and-messages"></a>可安裝的驅動程式功能和訊息
 
@@ -32,10 +32,10 @@ ms.locfileid: "103933199"
 您可以使用可安裝的驅動程式功能和訊息來開啟和管理任何可安裝的驅動程式。 不過，開啟和管理多媒體裝置的建議動作是先使用標準服務 (例如，波形輸出裝置) 的 [**waveOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen)、 [**waveOutMessage**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutmessage)和 [**waveOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutclose) （如果有的話）。 如果多媒體驅動程式沒有標準服務存在，請使用可安裝的驅動程式功能和訊息來開啟和管理驅動程式。
 
 > [!Note]  
-> [**SendDriverMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage)和 [**GetDriverModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-getdrivermodulehandle)函數是用來將訊息傳送至驅動程式，以及取得模組實例控制碼的慣用函數。 不過，已包含舊版的 [**DrvGetModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-drvgetmodulehandle) 函式，以維持與舊版 Windows 作業系統的相容性。
+> [**SendDriverMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage)和 [**GetDriverModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-getdrivermodulehandle)函數是用來將訊息傳送至驅動程式，以及取得模組實例控制碼的慣用函數。 不過，已包含舊版的 [**DrvGetModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-drvgetmodulehandle)函式，以維持與舊版 Windows 作業系統的相容性。
 
- 
+ 
 
- 
+ 
 
- 
+ 

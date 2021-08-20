@@ -1,6 +1,6 @@
 ---
 title: Proxy-Addresses 屬性
-description: Proxy 位址是在外部郵件系統中辨識 Microsoft Exchange Server 收件者物件的位址。 所有收件者物件都需要 Proxy 位址，例如自訂收件者和通訊群組清單。
+description: proxy 位址是在外部郵件系統中識別 Microsoft Exchange Server 收件者物件的位址。 所有收件者物件都需要 Proxy 位址，例如自訂收件者和通訊群組清單。
 ms.assetid: 7bb299d8-e67a-4062-91a3-b579fd71d5c9
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a03542cef9bca48dbba1585e3837056b53673f34
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4333995a30eef76626fba8965eef4ec8e8083e4699b449fd9da69492080b5750
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836842"
 ---
 # <a name="proxy-addresses-attribute"></a>Proxy-Addresses 屬性
 
-Proxy 位址是在外部郵件系統中辨識 Microsoft Exchange Server 收件者物件的位址。 所有收件者物件都需要 Proxy 位址，例如自訂收件者和通訊群組清單。
+proxy 位址是在外部郵件系統中識別 Microsoft Exchange Server 收件者物件的位址。 所有收件者物件都需要 Proxy 位址，例如自訂收件者和通訊群組清單。
 
 
 
@@ -60,7 +60,7 @@ Proxy 位址是在外部郵件系統中辨識 Microsoft Exchange Server 收件�
 | MAPI-Id                | 0x800F                          |
 | System-Only            | 否                           |
 | 是-單一值       | 否                           |
-| 已編制索引             | 對                            |
+| 已編制索引             | 是                            |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | 1                               |
@@ -81,7 +81,7 @@ Proxy 位址是在外部郵件系統中辨識 Microsoft Exchange Server 收件�
 | MAPI-Id                | 0x800F                          |
 | System-Only            | 否                           |
 | 是-單一值       | 否                           |
-| 已編制索引             | 對                            |
+| 已編制索引             | 是                            |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | 1                               |
@@ -102,7 +102,7 @@ Proxy 位址是在外部郵件系統中辨識 Microsoft Exchange Server 收件�
 | MAPI-Id                | 0x800F                          |
 | System-Only            | 否                           |
 | 是-單一值       | 否                           |
-| 已編制索引             | 對                            |
+| 已編制索引             | 是                            |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | 1                               |
@@ -123,7 +123,7 @@ Proxy 位址是在外部郵件系統中辨識 Microsoft Exchange Server 收件�
 | MAPI-Id                | 0x800F                          |
 | System-Only            | 否                           |
 | 是-單一值       | 否                           |
-| 已編制索引             | 對                            |
+| 已編制索引             | 是                            |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | 1                               |
@@ -144,7 +144,7 @@ Proxy 位址是在外部郵件系統中辨識 Microsoft Exchange Server 收件�
 | MAPI-Id                | 0x800F                          |
 | System-Only            | 否                           |
 | 是-單一值       | 否                           |
-| 已編制索引             | 對                            |
+| 已編制索引             | 是                            |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | 1                               |
@@ -165,7 +165,7 @@ Proxy 位址是在外部郵件系統中辨識 Microsoft Exchange Server 收件�
 | MAPI-Id                | 0x800F                          |
 | System-Only            | 否                           |
 | 是-單一值       | 否                           |
-| 已編制索引             | 對                            |
+| 已編制索引             | 是                            |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | 1                               |
@@ -186,7 +186,7 @@ Proxy 位址是在外部郵件系統中辨識 Microsoft Exchange Server 收件�
 | MAPI-Id                | 0x800F                          |
 | System-Only            | 否                           |
 | 是-單一值       | 否                           |
-| 已編制索引             | 對                            |
+| 已編制索引             | 是                            |
 | 在通用類別目錄中      | 否                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                    |
 | Range-Lower            | 1                               |

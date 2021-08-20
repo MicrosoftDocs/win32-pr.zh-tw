@@ -245,7 +245,7 @@ ms.locfileid: "117863721"
 
 條件類型可以是下列其中一項：
 
-| 類型          | Description                                 | 可用的屬性                               |
+| 類型          | 描述                                 | 可用的屬性                               |
 |---------------|---------------------------------------------|----------------------------------------------------|
 | Microsoft.visualstudio.testtools.uitest.extension.andcondition.match  | 結合兩個或多個子條件 | n/a                                                |
 | orCondition   | 分離兩個以上的子條件 | n/a                                                |

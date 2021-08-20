@@ -4,12 +4,12 @@ ms.assetid: 58f03dc2-cc31-4d76-b75a-f332da1f900f
 title: 如何撰寫 WIC-Enabled 編解碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee694d9a857781e97a31cb37f5ef18c518dae964
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e54339191626aefa8d6fb6cb53c88c9d2098d3e898e0805b796535323a9f98d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668125"
 ---
 # <a name="how-to-write-a-wic-enabled-codec"></a>如何撰寫 WIC-Enabled 編解碼器
 
@@ -66,9 +66,9 @@ ms.locfileid: "103849507"
 </dl> </dd> <a href="-wic-integrationregentries.md">與 Windows Vista PhotoGallery 和 Explorer 整合</a>  
 <dl>
 
-[Windows 屬性儲存區](-wic-integrationregentries.md)  
-[Windows Vista 影像中心](-wic-integrationregentries.md)  
-[Windows Vista 縮圖快取](-wic-integrationregentries.md)  
+[Windows屬性儲存區](-wic-integrationregentries.md)  
+[WindowsVista 影像中心](-wic-integrationregentries.md)  
+[WindowsVista 縮圖快取](-wic-integrationregentries.md)  
 </dl> </dd> </dl> </dd> <a href="-wic-codecinstallandreg.md">安裝編解碼器時，更新縮圖</a>快取，[讓使用者可以使用 WIC-Enabled 編解碼器的](-wic-codecinstallandreg.md)</dl> </dd> <a href="-wic-howtowriteacodec-conclusion.md">結論</a>  
 </dl>
 
@@ -82,7 +82,7 @@ ms.locfileid: "103849507"
 [簡介 (如何撰寫 WIC-Enabled 編解碼器) ](-wic-howtowriteacodec-intro.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 933528f6-8f34-4509-887c-c7c223c79367
 title: 值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 272bee4d7a5f88899f83e439d8e1630b4026713d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 739ce465408d1cd1447de5aeac2e314e879f48f69f13735855e628c8901c2c52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117685859"
 ---
 # <a name="value"></a>值
 

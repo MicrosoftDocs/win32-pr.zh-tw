@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Direct3D 影片移動估計
 ms.topic: article
 ms.date: 08/19/2019
-ms.openlocfilehash: 7fdb6146e1bb77c673eb89d944bcf42a8babce49
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: 0a49f7d3ec5e68ee6151b706be65866f1e156d6f876909c99b485356fb4df21c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "106997299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064114"
 ---
 # <a name="direct3d-video-motion-estimation"></a>Direct3D 影片移動估計
 
@@ -51,7 +51,7 @@ VERIFY_SUCCEEDED(spVideoDevice->CreateVideoMotionEstimator(
 
 
 
-## <a name="storage-of-motion-vectors"></a>動作向量的儲存
+## <a name="storage-of-motion-vectors"></a>動作向量的儲存體
 
 [ID3D12VideoMotionVectorHeap](/windows/win32/api/d3d12video/nn-d3d12video-id3d12videomotionvectorheap)會儲存運動向量。 [ID3D12VideoEncodeCommandList：： EstimateMotion](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videoencodecommandlist-estimatemotion)所傳回的[D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_motion_estimator_output)結構會使用這個介面。 解析的輸出2D 材質是一個 [DXGI_FORMAT_R16G16_SINT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 材質，其中 R 會保存水準元件，而 G 則會保留動作向量的垂直元件。 此材質的大小調整為每個區塊保留一對元件。 呼叫 [ID3D12VideoEncodeCommandList：： ResolveMotionVectorHeap](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videoencodecommandlist-resolvemotionvectorheap) ，將 **EstimateMotion** 的動作向量輸出從硬體相依的格式轉譯成影片動作估計 api 所定義的一致格式。
 

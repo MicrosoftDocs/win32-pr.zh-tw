@@ -4,20 +4,20 @@ ms.assetid: fcbc74a6-1990-45a0-af2e-1c343a84497a
 title: WPA2-Enterprise 與 PEAP-MSCHAPv2 設定檔範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd05ac34992244eedae08f9c76becd5b2c95564e
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 5b746cd39826ed5aacb07118f2d989ebc97a380579b28a742a5732f0f4e86078
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117983935"
 ---
 # <a name="wpa2-enterprise-with-peap-mschapv2-profile-sample"></a>WPA2-Enterprise 與 PEAP-MSCHAPv2 設定檔範例
 
 此範例設定檔使用受保護的可延伸驗證通訊協定第2版 (PEAP-Eap-mschapv2) 搭配 * UserName * **/** _Password_ 來向網路進行驗證。 系統會提示使用者輸入認證。
 
-此範例設定為使用在企業模式下執行的 Wi-Fi Protected Access 2 安全性 (WPA2-Enterprise) 。 WPA2-Enterprise 的安全性類型會使用 802.1 X 作為與後端的驗證交換。 進階加密標準 (AES) 加密類型。
+此範例設定為使用 Wi-Fi 在 Enterprise 模式下執行的 Protected Access 2 安全性 (WPA2 Enterprise) 。 WPA2-Enterprise 的安全性類型會使用 802.1 X 作為與後端的驗證交換。 進階加密標準 (AES) 加密類型。
 
-Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：**[**WLANProfile**](wlan-profileschema-wlanprofile-element.md)元素的 [**name**](wlan-profileschema-name-wlanprofile-element.md)子系會被忽略。 設定檔的名稱（儲存在設定檔存放區中）是衍生自 [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md)元素的 [**名稱**](wlan-profileschema-name-ssid-element.md)子系。
+**Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：**[**WLANProfile**](wlan-profileschema-wlanprofile-element.md)元素的 [**name**](wlan-profileschema-name-wlanprofile-element.md)子系會被忽略。 設定檔的名稱（儲存在設定檔存放區中）是衍生自 [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md)元素的 [**名稱**](wlan-profileschema-name-ssid-element.md)子系。
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
