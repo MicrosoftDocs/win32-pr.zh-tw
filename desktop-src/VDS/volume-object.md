@@ -4,16 +4,16 @@ ms.assetid: 92013015-b0f5-4b92-937b-c2637f65810c
 title: 磁片區物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e47092a237e7b0e9441b08c410d95d0836dbdb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87887dae233a47ef168546bb4d0bab93389ab72e0e0617b64ea0c80fbfab0e83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125388"
 ---
 # <a name="volume-object"></a>磁片區物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 磁片區物件會建立軟體提供者所建立之邏輯儲存體單位的模型，並以磁片的形式呈現給檔案系統。 每個磁片區都包含至少一個磁片區 plex，而該磁片區是由一或多個磁片的範圍所組成。
 
@@ -29,7 +29,7 @@ VDS 支援五種磁片區類型：簡單、跨距、等量、鏡像，以及具�
 
 ### <a name="volume-creation"></a>磁片區建立
 
-基本和動態軟體提供者支援部分導向的磁片區建立;呼叫端只會指定特別感興趣的屬性，並允許提供者選擇其餘部分。 VDS 會自動掛接新建立的磁片區，但 Windows Server 2003、Enterprise Edition 和 Windows Server 2003、Datacenter Edition 平臺除外。
+基本和動態軟體提供者支援部分導向的磁片區建立;呼叫端只會指定特別感興趣的屬性，並允許提供者選擇其餘部分。 VDS 會自動掛接新建立的磁片區，除了 Windows server 2003、Enterprise Edition 和 Windows server 2003 Datacenter Edition 平臺以外。
 
 ### <a name="working-with-volumes"></a>使用磁片區
 
@@ -51,7 +51,7 @@ VDS 支援五種磁片區類型：簡單、跨距、等量、鏡像，以及具�
 
  
 
-**\* Windows Server 2003：** 在 windows Vista 之前，不支援這些介面。
+**\* Windows Server 2003：** Windows Vista 之前不支援這些介面。
 
 ## <a name="related-topics"></a>相關主題
 

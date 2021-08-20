@@ -18,12 +18,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location:
 - manipulations.h
-ms.openlocfilehash: 502d55e409f58127ddee94f5ba694a109c1ee1cb
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 81ad10d5b041469daff216b7a23a4f5b6f4b3922e3bce438c2183e2551acf5d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118030075"
 ---
 # <a name="imanipulationprocessorminimumscalerotateradius-property"></a>IManipulationProcessor：： MinimumScaleRotateRadius 屬性
 
@@ -36,11 +36,11 @@ ms.locfileid: "103678612"
 
 ```C++
 HRESULT put_MinimumScaleRotateRadius(
-  [in]  FLOAT MinimumScaleRotateRadius
+  [in]  FLOAT MinimumScaleRotateRadius
 );
 
 HRESULT get_MinimumScaleRotateRadius(
-  [out] FLOAT *MinimumScaleRotateRadius
+  [out] FLOAT *MinimumScaleRotateRadius
 );
 ```
 
@@ -57,7 +57,7 @@ HRESULT get_MinimumScaleRotateRadius(
 > [!Note]  
 > 這個屬性是在圖元) 的 centipixels (100ths 中設定。
 
- 
+ 
 
 設定此值會讓操作處理器忽略半徑太小的手勢。 如果您想要防止使用者將物件操作成太小的半徑，這會很有用。 例如，如果您使用具有圓形的操作處理器，而且想要確保它維持大於100圖元的半徑，則會將此值設定為10000。
 
@@ -77,9 +77,9 @@ pManip->put_MinimumScaleRotateRadius(4000.0f);
 [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

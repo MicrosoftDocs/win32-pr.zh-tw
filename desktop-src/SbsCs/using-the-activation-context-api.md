@@ -4,12 +4,12 @@ ms.assetid: 606147a8-435d-43d4-8fb5-79d2d1a8d870
 title: 使用啟用內容 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62b3aec5b7840e70e8fae93575e65c2f06668936
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5c2f3d1c1a6b6202619b9e39df6ee4dc60b9134ebefa9cfe7dea4db9a344bd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073298"
 ---
 # <a name="using-the-activation-context-api"></a>使用啟用內容 API
 
@@ -29,7 +29,7 @@ ms.locfileid: "104112693"
     ReleaseActCtx (&ActCtx) ;  
     </dl>
 
-    在下列程式碼片段中，API 函式會先啟用適當的啟用內容，然後再呼叫 [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca)。 當呼叫 **CallWindowProc** 時，它會使用此內容將訊息傳遞給 Windows。 當所有資源作業都完成時，此函式將會停用內容。
+    在下列程式碼片段中，API 函式會先啟用適當的啟用內容，然後再呼叫 [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca)。 當呼叫 **CallWindowProc** 時，它會使用此內容將訊息傳遞至 Windows。 當所有資源作業都完成時，此函式將會停用內容。
 
     <dl> ULONG \_ PTR ulpCookie;  
     處理 hActCtx;  

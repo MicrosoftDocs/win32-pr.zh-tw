@@ -6,12 +6,12 @@ keywords:
 - 嚴格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c2f2411f063be600571c2b401c1223ff740960d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 639d69e567849020101659105b72bfc16eda9ac5cd926582cf3fb43ba7d9d638
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113503"
 ---
 # <a name="strict-type-checking"></a>嚴格的類型檢查
 
@@ -21,9 +21,9 @@ Windows .h 標頭檔包含定義、宏和結構，可協助您撰寫可在 Windo
 -   [停用 STRICT](disabling-strict.md)
 -   [嚴格合規性](strict-compliance.md)
 
- 
+ 
 
- 
+ 
 
 
 

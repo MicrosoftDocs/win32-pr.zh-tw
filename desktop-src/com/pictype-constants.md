@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bebf8ad8f678e9b6e463ade9f149b2e1d4bab529
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa6ac7be72ba34616a1ae8d596efbad3af761760c8f5e5c2bfa5dc8362593748
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567648"
 ---
 # <a name="pictype-constants"></a>PICTYPE 常數
 
@@ -30,7 +30,7 @@ ms.locfileid: "106968544"
 
 
 
-| 常數/值                                                                                                                                                                                                                                  | Description                                                                                                                                                                                                                   |
+| 常數/值                                                                                                                                                                                                                                  | 描述                                                                                                                                                                                                                   |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="PICTYPE_UNINITIALIZED"></span><span id="pictype_uninitialized"></span><dl> <dt>**PICTYPE \_未初始化**</dt><dt>的 (-1)</dt> </dl> | 圖片物件目前未初始化。 此值僅適用于 [**圖片：： get \_ 類型**](/windows/desktop/api/OCIdl/nf-ocidl-ipicture-get_type) 的傳回值，而且不能與 [**PICTDESC**](/windows/win32/api/olectl/ns-olectl-pictdesc) 結構有效。<br/>  |
 | <span id="PICTYPE_NONE"></span><span id="pictype_none"></span><dl> <dt>**PICTYPE \_無**</dt> <dt>0</dt> </dl>                               | 建立新的圖片物件時不會有初始化的狀態。 只有在 [**PICTDESC**](/windows/win32/api/olectl/ns-olectl-pictdesc) 結構中，這個值才有效。<br/>                                                                        |

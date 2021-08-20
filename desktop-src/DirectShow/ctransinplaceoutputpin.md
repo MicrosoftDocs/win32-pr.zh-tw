@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e41fbff07a9bdeb8990bbf3ddba6d9f7455d1bad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2462843f9ad42793a9e0666dd96aaf7387a1f5f0f1749f97cc4e2ca4d3ed051a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076150"
 ---
 # <a name="ctransinplaceoutputpin-class"></a>CTransInPlaceOutputPin 類別
 
@@ -33,16 +33,16 @@ ms.locfileid: "106990040"
 
 
 
-| 受保護的成員變數                                                      | Description                                          |
+| 受保護的成員變數                                                      | 描述                                          |
 |---------------------------------------------------------------------------------|------------------------------------------------------|
 | [**m \_ pTIPFilter**](ctransinplaceoutputpin-m-ptipfilter.md)                    | 建立此釘選之篩選準則的指標。         |
-| 公用方法                                                                  | Description                                          |
+| 公用方法                                                                  | 描述                                          |
 | [**CTransInPlaceOutputPin**](ctransinplaceoutputpin-ctransinplaceoutputpin.md) | 函式方法。                                  |
 | [**CheckMediaType**](ctransinplaceoutputpin-checkmediatype.md)                 | 判斷 pin 是否接受特定的媒體類型。 |
 | [**SetAllocator**](ctransinplaceoutputpin-setallocator.md)                     | 指定連接的配置器。           |
 | [**ConnectedIMemInputPin**](ctransinplaceoutputpin-connectedimeminputpin.md)   | 抓取下游輸入圖釘的指標。     |
 | [**PeekAllocator**](ctransinplaceoutputpin-peekallocator.md)                   | 捕獲釘選配置器的指標。          |
-| IPin 方法                                                                    | Description                                          |
+| IPin 方法                                                                    | 描述                                          |
 | [**EnumMediaTypes**](ctransinplaceoutputpin-enummediatypes.md)                 | 列舉釘選的慣用媒體類型。          |
 
 

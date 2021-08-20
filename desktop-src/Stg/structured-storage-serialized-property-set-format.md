@@ -3,15 +3,15 @@ title: 結構化儲存體序列化屬性集格式
 description: 持續性屬性集會提供將資料儲存在檔案系統實體內的選項。 建議您在建立和管理它們時，使用屬性和屬性集中所述的 IPropertySetStorage 和 IPropertyStorage 介面。
 ms.assetid: f22abe40-535f-4178-9460-59bbe26ff178
 keywords:
-- 結構化儲存體 Strctd Stg.、基礎、序列化屬性集格式
+- 結構化儲存體 Strctd Stg.、基本、序列化屬性集格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ea03d5ccab337897be801840080e83a6fa86880
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5acbc5300c04b4fe5a9b2a9ce2610eefc8608b3921ef52968a7165c4362ff7cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117959772"
 ---
 # <a name="structured-storage-serialized-property-set-format"></a>結構化儲存體序列化屬性集格式
 
@@ -26,7 +26,7 @@ ms.locfileid: "106967273"
 COM 會定義屬性集的標準、序列化資料格式。 處理序列化格式，而不是使用介面時，屬性集會具有下列特性：
 
 -   屬性集可讓不同的應用程式建立自己的獨立屬性集來提供應用程式。
--   屬性集可以儲存在單一 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) 實例或包含多個資料流程的 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 實例中。 屬性集只是另一種資料類型，可儲存在記憶體中或磁片上儲存體的許多不同形式。 如需建立儲存物件之字串名稱的詳細資訊和建議慣例，請參閱 [存放裝置物件命名慣例](storage-object-naming-conventions.md)。
+-   屬性集可以儲存在單一 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) 實例或包含多個資料流程的 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 實例中。 屬性集只是另一種資料類型，可儲存在記憶體中或磁片上儲存體的許多不同形式。 如需建立儲存物件之字串名稱的詳細資訊和建議慣例，請參閱[儲存體物件命名慣例](storage-object-naming-conventions.md)。
 -   屬性集允許包含說明內容的顯示名稱字典。 建議使用一組選擇屬性名稱的慣例。 如需此選擇性字典的詳細資訊，請參閱 [保留的屬性識別碼](reserved-property-identifiers.md)，包括 [屬性識別碼 0](/windows/desktop/Stg/reserved-property-identifiers)。
 
 屬性集資料流程分為三個主要部分：
@@ -40,8 +40,8 @@ COM 會定義屬性集的標準、序列化資料格式。 處理序列化格式
 > [!Note]  
 > 本檔先前的版本描述了屬性集資料流程的延伸模組，並允許一個以上的區段，但是已經修改為可提供屬性資料流程中的一個區段。 其中一個例外狀況是 [DocumentSummaryInformation 和使用者設定的屬性集](the-documentsummaryinformation-and-userdefined-property-sets.md)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

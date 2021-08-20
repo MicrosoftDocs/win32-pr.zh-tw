@@ -4,12 +4,12 @@ ms.assetid: 0c67fc5f-2f80-481d-8cf4-989855050196
 title: 時間軸元件的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05dc6683c775a83f31f1759cdad766cd24c05497
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 531a92d6cb1b7da2640c07d767b5c37c5839d21c6d90e330b901207a70e6dc7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075728"
 ---
 # <a name="overview-of-the-timeline-components"></a>時間軸元件的總覽
 
@@ -23,7 +23,7 @@ ms.locfileid: "106971291"
 -   [時間軸物件](timeline-objects.md)
 -   [子](subobjects.md)
 
-如需時程表的詳細資訊，請參閱 [時間軸模型](the-timeline-model.md)。 如需 DES 中的元件清單，請參閱 [DirectShow 編輯服務物件](directshow-editing-services-objects.md)。
+如需時程表的詳細資訊，請參閱 [時間軸模型](the-timeline-model.md)。 如需 DES 中的元件清單，請參閱[DirectShow 編輯服務物件](directshow-editing-services-objects.md)。
 
 ## <a name="related-topics"></a>相關主題
 

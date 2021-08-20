@@ -136,7 +136,7 @@
                   href: registering-a-transient-subscription.md
                 - name: 發行事件
                   href: publishing-an-event.md
-                - name: 建立發行者篩選
+                - name: 建立 Publisher 篩選
                   href: creating-a-publisher-filter.md
         - name: COM + 檢測概念
           href: com--instrumentation-concepts.md
@@ -594,7 +594,7 @@
                   href: debugging-in-the-visual-basic-ide.md
                 - name: 已編譯的 Visual Basic 元件的調試
                   href: debugging-compiled-visual-basic-components.md
-                - name: COM + Visual Basic 支援與 MTS 對比
+                - name: com + Visual Basic 支援與 MTS 對比
                   href: com--visual-basic-debugging-support-contrasted-with-mts.md
         - name: 在 COM + 中處理錯誤
           href: handling-errors-in-com-.md
@@ -671,7 +671,7 @@
                       href: using-a-three-tier-architecture-model.md
                 - name: 實體模型：應用程式架構
                   href: the-physical-model--application-architecture.md
-            - name: 使用 COM + 的一般設計秘訣
+            - name: 使用 COM + 的一般設計提示
               href: general-design-tips-for-using-com-.md
               items:
                 - name: 擴充性設計
@@ -751,7 +751,7 @@
                   href: localcomputer.md
                 - name: MethodsForInterface
                   href: methodsforinterface.md
-                - name: 資料分割
+                - name: 分割區
                   href: partitions.md
                 - name: PartitionUsers
                   href: partitionusers.md
@@ -849,7 +849,7 @@
                   items:
                     - name: BackupREGDB 方法
                       href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-backupregdb
-                    - name: Connect 方法
+                    - name: 連線方法
                       href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect
                     - name: ExportApplication 方法
                       href: /windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-exportapplication

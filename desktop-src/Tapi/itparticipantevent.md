@@ -4,16 +4,16 @@ ms.assetid: 1199ec91-ee06-4e6c-8d8f-1585a3da3db0
 title: 'ITParticipantEvent 介面 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ac6e2b43a528bc041a71962e84b4e1be62152a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d4f47e57bf1698a97be6811316409e596c9dfb03181e50b5f487798463c5cb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118864458"
 ---
 # <a name="itparticipantevent-interface"></a>ITParticipantEvent 介面
 
-\[**ITParticipantEvent** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**ITParticipantEvent** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **ITParticipantEvent** 介面包含可取得參與者事件描述的方法。 當應用程式的 [**ITTAPIEventNotification：： Event**](/windows/desktop/api/Tapi3if/nf-tapi3if-ittapieventnotification-event)方法的實，指出 [**TAPI \_ 事件**](/windows/desktop/api/Tapi3if/ne-tapi3if-tapi_event)等於 **TE \_ 私** 用時，方法的 *pEvent* 參數就是 **ITParticipantEvent** 介面的 **IDispatch** 指標。 這個介面的方法可以用來取得發生之參與者變更的相關資訊。
 

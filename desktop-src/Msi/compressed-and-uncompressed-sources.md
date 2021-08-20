@@ -4,12 +4,12 @@ ms.assetid: e84c52ca-a1c4-4c81-9c24-31ea435054db
 title: 壓縮和未壓縮的來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43dc706a73d52f1dac35c917bd6c178a543ab300
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca7d35a5723261ab1c62866d185a8402a9607600cad906c2fb66ddc5dc85ac08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144449"
 ---
 # <a name="compressed-and-uncompressed-sources"></a>壓縮和未壓縮的來源
 
@@ -20,7 +20,7 @@ ms.locfileid: "103943672"
 <span id="_____Compressed_Sources"></span><span id="_____compressed_sources"></span><span id="_____COMPRESSED_SOURCES"></span> 壓縮的來源
 </dt> <dd>
 
-完全由壓縮檔案組成的來源應該在 [ [**字數統計摘要**](word-count-summary.md) ] 屬性中包含壓縮的旗標位。 壓縮的原始程式檔必須儲存在位於 .msi 檔案的資料流程內的封包檔中，或儲存在來源樹狀結構根目錄中的另一個封包檔中。 來源中的所有封包都必須列在 [媒體資料表](media-table.md)中。
+完全由壓縮檔案組成的來源應該在 [ [**字數統計摘要**](word-count-summary.md) ] 屬性中包含壓縮的旗標位。 壓縮的原始程式檔必須儲存在位於 .msi 檔案內之資料流程內的封包檔中，或位於來源樹狀結構根目錄之個別封包檔中的封包檔中。 來源中的所有封包都必須列在 [媒體資料表](media-table.md)中。
 
 </dd> <dt>
 
@@ -38,7 +38,7 @@ ms.locfileid: "103943672"
 
 例如，如果 [ [**字數統計**](word-count-summary.md) ] 屬性已設定壓縮的旗標，則所有檔案都會被視為壓縮成封包。 來源中任何未壓縮的檔案都必須在 [File 資料表](file-table.md)的 [屬性] 資料行中包含 msidbFileAttributesNoncompressed。 未壓縮的檔案必須位於來源樹狀結構的根目錄。
 
-如果 [ [**字數統計摘要**](word-count-summary.md) ] 屬性已設定未壓縮的旗標，則預設會將檔案視為未壓縮，而任何壓縮檔案資料表的 [屬性] 資料行中都必須包含 msidbFileAttributesCompressed。 所有的壓縮檔案都必須儲存在位於 .msi 檔案的資料流程內的封包檔中，或位於來源樹狀結構根目錄之個別的封包檔中。
+如果 [ [**字數統計摘要**](word-count-summary.md) ] 屬性已設定未壓縮的旗標，則預設會將檔案視為未壓縮，而任何壓縮檔案資料表的 [屬性] 資料行中都必須包含 msidbFileAttributesCompressed。 所有壓縮檔案都必須儲存在位於 .msi 檔案內之資料流程內的封包檔中，或位於來源樹狀結構根目錄之個別封包檔中的封包檔中。
 
 如需詳細資訊，請參閱 [使用封包和壓縮的來源](using-cabinets-and-compressed-sources.md)。
 

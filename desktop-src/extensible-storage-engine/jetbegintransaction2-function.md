@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d21bb88301a1f5d30df673a56032ef91c3847599
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bac87b442f2e8940b694c7deb75f7d1426f208eb1cb4c9e88212c1df61168287
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944918"
 ---
 # <a name="jetbegintransaction2-function"></a>JetBeginTransaction2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetbegintransaction2-function"></a>JetBeginTransaction2 函式
 
@@ -65,7 +65,7 @@ _**適用于：** Windows |Windows Server_
 <tbody>
 <tr class="odd">
 <td><p>JET_bitTransactionReadOnly</p></td>
-<td><p>交易不會修改資料庫。 如果嘗試更新，這項作業將會失敗，並 JET_errTransReadOnly。 除非指定的會話尚未存在於交易中，否則會忽略這個選項。 此選項僅適用于 Windows XP。</p></td>
+<td><p>交易不會修改資料庫。 如果嘗試更新，這項作業將會失敗，並 JET_errTransReadOnly。 除非指定的會話尚未存在於交易中，否則會忽略這個選項。 此選項只適用于 Windows XP。</p></td>
 </tr>
 </tbody>
 </table>
@@ -73,7 +73,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -83,7 +83,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -146,7 +146,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

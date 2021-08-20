@@ -4,24 +4,24 @@ description: 下列範例應用程式包含在 Windows XP 對等 SDK 中。
 ms.assetid: 26c45360-f232-4e29-90b5-44ccacb5a9c3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c15e2bf3162151a4cbf18547fdfe482c7ea77fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3999012d8c5abd04e2e3e5b1c90aade37dc0ce514893a3bf9fb04b0141509eab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119287808"
 ---
 # <a name="sample-applications-peer-infrastructure"></a> (對等基礎結構) 的範例應用程式
 
 下列範例應用程式包含在 Windows XP 對等 SDK 中。 當您使用對等基礎結構開發自己的對等應用程式時，這些範例可協助您。
 
--   [圖形聊天](#graph-chat)
+-   [Graph聊天](#graph-chat)
 -   [群組聊天](#group-chat)
 -   [群組瀏覽器](#group-browser)
 
-## <a name="graph-chat"></a>圖形聊天
+## <a name="graph-chat"></a>Graph聊天
 
-圖形聊天範例應用程式是簡單的聊天應用程式，示範如何使用對等圖形 Api 和對等名稱解析通訊協定 (PNRP) 命名空間提供者搭配 Winsock 2 API。 應用程式會示範下列工作：
+Graph chat 範例應用程式是簡單的聊天應用程式，示範如何使用對等圖形 api 和對等名稱解析通訊協定， (PNRP) 命名空間提供者搭配 Winsock 2 API。 應用程式會示範下列工作：
 
 -   建立圖形
 -   連接至現有的圖形

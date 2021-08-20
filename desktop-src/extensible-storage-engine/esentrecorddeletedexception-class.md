@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 61d09fca2e154f0a5c5e9e64b85b6a855c460593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a1707d2df7a3d40bfb712d022c1abd701ee3f6fa3cbcbdd6afde4bad0905f1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118079719"
 ---
 # <a name="esentrecorddeletedexception-class"></a>EsentRecordDeletedException 類別
 

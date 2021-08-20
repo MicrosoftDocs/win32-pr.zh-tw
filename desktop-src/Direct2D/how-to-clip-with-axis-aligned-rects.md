@@ -4,12 +4,12 @@ description: 顯示如何使用軸對齊的剪輯矩形來裁剪區域。
 ms.assetid: 4196653a-9177-4a41-9db9-4738a41313aa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9fea904f9df396918d2cdfdb5205f6dd0197d0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f666bac88d93cb8ea0f27bfb9c2d5b14975e0dc8bb67aba4f0e767178f6ebddc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104553898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569310"
 ---
 # <a name="how-to-clip-with-an-axis-aligned-clip-rectangle"></a>如何使用 Axis-Aligned 剪切矩形裁剪
 
@@ -20,7 +20,7 @@ ms.locfileid: "104553898"
 1.  從資源載入原始映射。 如需有關如何載入點陣圖的詳細資訊，請參閱 [如何從資源載入點陣圖](how-to-load-a-bitmap-from-a-resource.md)。
 2.  呼叫 [**ID2D1RenderTarget：:P ushaxisalignedclip**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)) 來指定矩形。 轉譯命令會裁剪至矩形。
 
-3.  繪製原始影像。
+3.  小畫家原始影像。
 4.  呼叫 [**ID2D1RenderTarget：:P opaxisalignedclip**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip) ，從轉譯目標中移除最後一個軸對齊的剪輯。
 
 例如，在下圖中，左邊的原始點陣圖是 200 \* 130 圖元。 右邊的點陣圖是裁剪成軸對齊剪切矩形的原始點陣圖。 維度 (20，20) 至 (100，100) 。
@@ -49,6 +49,6 @@ pRT->PopAxisAlignedClip();
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,15 +4,15 @@ description: 本主題說明可供您用來讓應用程式64位就緒的工具�
 ms.assetid: 457b7cc1-8517-4a36-9a0c-cf191ff3b374
 keywords:
 - 64位 Windows 程式設計指南64位 Windows 程式設計，工具
-- 工具64位 Windows 程式設計
+- 工具 64-位 Windows 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d87fb315200ae32eb1e1441ed330be49aa02d669
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f28084c445d664e130a9bb6dc5c087f8421cdaa5746845308258662739ee9084
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569888"
 ---
 # <a name="the-tools"></a>工具
 
@@ -20,7 +20,7 @@ ms.locfileid: "104372480"
 
 ## <a name="include-files"></a>包含檔案
 
-在 32-和64位 Windows 之間，API 元素幾乎完全相同。 Windows 標頭檔已經過修改，因此可以同時用於32和64位的程式碼。 新的64位類型和宏會定義在新的標頭檔 Basetsd 中，該檔案位於 Windows 所包含的標頭檔集中。 Basetsd 包含新的資料類型定義，可協助您使原始程式碼與單字大小無關。
+在 32-和64位 Windows 之間，API 元素幾乎完全相同。 Windows 標頭檔已經過修改，因此可以同時用於32和64位的程式碼。 新的64位類型和宏會定義在新的標頭檔 Basetsd 中，它位於 Windows .h 所包含的標頭檔集中。 Basetsd 包含新的資料類型定義，可協助您使原始程式碼與單字大小無關。
 
 ## <a name="new-data-types"></a>新的資料類型
 
@@ -114,7 +114,7 @@ void            * ULongToPtr(       const unsigned long ul )
 
 ## <a name="64-bit-linker-and-libraries"></a>64位連結器和程式庫
 
-若要建立應用程式，請使用 Windows SDK 所提供的連結器和程式庫。 大部分的32位程式庫都有相對應的64位版本，但某些舊版程式庫只有在32位版本中才可使用。 當針對64位 Windows 建立應用程式時，呼叫這些程式庫的程式碼將不會連結。
+若要建立應用程式，請使用 Windows SDK 所提供的連結器和程式庫。 大部分的32位程式庫都有相對應的64位版本，但某些舊版程式庫只有在32位版本中才可使用。 針對64位 Windows 建立應用程式時，呼叫這些程式庫的程式碼將不會連結。
 
  
 

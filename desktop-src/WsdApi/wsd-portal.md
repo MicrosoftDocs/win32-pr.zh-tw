@@ -4,12 +4,12 @@ ms.assetid: 590e0b0b-763c-44fb-a49f-606415f57b26
 title: 裝置上的 Web 服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 267f8dba0fd56c383dd3cecabb3c00959aa0d90c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 9c2046a2bdcded3eb4e6a156cb8c2908744d0a8b4366eae99fa1656cca25fb68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049656"
 ---
 # <a name="web-services-on-devices"></a>裝置上的 Web 服務
 

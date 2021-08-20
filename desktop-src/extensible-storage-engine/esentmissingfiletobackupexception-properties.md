@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102299
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 418e8d116bbfaca329e453ae6a27f5171298128c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f124eb62ea189bfa584b18d71598a5506fa4fec5492e788a5c16426434fd527f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118079913"
 ---
 # <a name="esentmissingfiletobackupexception-properties"></a>EsentMissingFileToBackupException 屬性
 

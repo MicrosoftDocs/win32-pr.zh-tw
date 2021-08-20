@@ -6,12 +6,12 @@ keywords:
 - MCI 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ade9ac3ea5c2a3c74f94bab899305cdae7ec51c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 67b411c018c55254658972d3cdc21a9d721334d5e78635b38f636892e2c80797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784318"
 ---
 # <a name="mci-functions-macros-and-messages"></a>MCI 函數宏和訊息
 
@@ -29,7 +29,7 @@ MCI 宏是您可用來建立和分解指定時間格式之值的工具。 這些
 
 
 
-| 巨集                                        | Description                                        |
+| 巨集                                        | 描述                                        |
 |----------------------------------------------|----------------------------------------------------|
 | [**MCI \_ HMS \_ HOUR**](mci-hms-hour.md)       | 從 HMS 值抓取小時元件。   |
 | [**MCI \_ HMS \_ 分鐘**](mci-hms-minute.md)   | 從 HMS 值抓取分鐘元件。 |
@@ -47,10 +47,10 @@ MCI 宏是您可用來建立和分解指定時間格式之值的工具。 這些
 
 
 
- 
+ 
 
 MCI 也提供兩個訊息： [**MM \_ MCINOTIFY**](mm-mcinotify.md) 和 [**mm \_ MCISIGNAL**](mm-mcisignal.md)。 \_只要命令指定「通知」 (mci 通知) 旗標，MM MCINOTIFY 訊息就會通知應用程式是否有 mci 命令的結果 \_ 。 MM \_ MCISIGNAL 訊息是數位視訊裝置的特定訊息; 當達到指定的位置時，就會通知應用程式。
 
- 
+ 
 
- 
+ 

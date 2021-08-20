@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用標準字串範本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffc95f4b2b9b9f22e993d1de9cc8b35915918643
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c60a28730b890a5e922489a47b5b382b545cd6712d61cb976e96b549039ef7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049936"
 ---
 # <a name="using-standard-string-templates"></a>使用標準字串範本
 

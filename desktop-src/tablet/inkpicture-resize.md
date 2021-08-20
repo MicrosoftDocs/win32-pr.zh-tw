@@ -4,12 +4,12 @@ ms.assetid: 436db420-f9ea-46f1-b922-c8663371edd5
 title: 'InkPicture： Resize 事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c4c5df298658f6ac98ddbf8fc00873f6f22dcb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a1cf2e84efc3f1d4123c31abee0218e6fc23b515a4c3bd82c570152f2a85d7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118042070"
 ---
 # <a name="inkpictureresize-event"></a>InkPicture。調整大小事件
 
@@ -77,7 +77,7 @@ void Resize(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

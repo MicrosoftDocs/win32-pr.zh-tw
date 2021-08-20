@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4422f04be1833d66280392704630fcb670eba810
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47562ac8aac79a8aa4401abd17c667df1917ee38dd2874a4208d46d8de438b05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147237"
 ---
 # <a name="modifysecuritysettings-method-of-the-msvm_securityservice-class"></a>Msvm SecurityService 類別的 ModifySecuritySettings 方法 \_
 

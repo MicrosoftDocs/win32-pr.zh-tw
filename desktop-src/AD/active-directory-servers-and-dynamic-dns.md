@@ -7,12 +7,12 @@ keywords:
 - 動態 DNS Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 971987cb73b65e46b36eda4c713054ba2796e63b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9508bd571cf60d3801cc5708276ff9399494e354ee3559efd0a3ffa0b96836a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118025198"
 ---
 # <a name="active-directory-servers-and-dynamic-dns"></a>Active Directory 伺服器和動態 DNS
 
@@ -31,9 +31,9 @@ Active Directory 伺服器透過 TCP 通訊協定提供 LDAP 服務，讓發佈�
 
 動態 DNS 是 DNS 標準的最新加入。 動態 DNS 會定義用來動態更新 DNS 伺服器與新資料的通訊協定。 在動態 DNS 之前，系統管理員必須手動設定 DNS 伺服器所儲存的記錄。
 
- 
+ 
 
- 
+ 
 
 
 

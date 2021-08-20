@@ -39,7 +39,7 @@ ms.locfileid: "118343739"
 
 
 
-| 元素                                                                | 類型                                                           | Description                       |
+| 元素                                                                | 類型                                                           | 描述                       |
 |------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------|
 | [**inType**](eventmanifestschema-intype-inputtypelisttype-element.md) | [**InputType**](eventmanifestschema-inputtype-complextype.md) | 定義輸入類型。<br/> |
 

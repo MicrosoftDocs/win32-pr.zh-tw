@@ -10,12 +10,12 @@ keywords:
 - MCIWnd 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fad9bb2d1e1dc44aab6d30e2c66a9dffbaf5a9f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a9b18ec2f70e508a912e23809eb0bef8f14011b517b74cba1322cfd84b24a6c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783388"
 ---
 # <a name="mciwnd-messages"></a>MCIWnd 訊息
 
@@ -85,9 +85,9 @@ ms.locfileid: "103839579"
 [MCIWnd 參考](mciwnd-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

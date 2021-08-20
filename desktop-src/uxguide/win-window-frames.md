@@ -4,17 +4,17 @@ description: 大部分的程式都應該使用標準的視窗框架。 沉浸式
 ms.assetid: 6613e07a-2466-4283-88a9-02f2a3fea079
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 40aa58ab48c032519f55afa7c269be6452956912
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: dee701f7aad12e348a89034010de1f44134e9d3e
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104566080"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812258"
 ---
 # <a name="window-frames"></a>窗框
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 大部分的程式都應該使用標準的視窗框架。 沉浸式應用程式可以有隱藏視窗框架的全螢幕模式。 請考慮策略性地使用半透明，以提供更簡單、更淺、更緊密的外觀。
 
@@ -30,7 +30,7 @@ ms.locfileid: "104566080"
 
 ### <a name="glass-window-frames"></a>半透明視窗框架
 
-半透明視窗框架是 Microsoft Windows 美觀嶄新的一環，也就是吸引人和輕量。 這些半透明框架提供 windows 開放式且較不侵入的外觀，協助使用者專注于內容和功能，而不是周圍的介面。
+半透明視窗框架是 Microsoft Windows 美觀的一環，這是一項吸引人和輕量的新層面。 這些半透明框架提供 windows 開放式且較不侵入的外觀，協助使用者專注于內容和功能，而不是周圍的介面。
 
 ![圍繞計算機之半透明畫面格的螢幕擷取畫面 ](images/win-window-frames-image2.png)
 
@@ -54,7 +54,7 @@ ms.locfileid: "104566080"
 
 ### <a name="custom-frames"></a>自訂框架
 
-大部分的 Windows 應用程式都應該使用標準的視窗框架。 不過，對於沉浸式全螢幕的獨立應用程式（如遊戲和 kiosk 應用程式），可能適合將自訂框架用於任何未顯示全螢幕的視窗。 使用自訂框架的動機應該是為整體體驗提供獨特的感覺，而不只是針對 [商標](exper-branding.md)。
+大部分 Windows 的應用程式都應該使用標準的視窗框架。 不過，對於沉浸式全螢幕的獨立應用程式（如遊戲和 kiosk 應用程式），可能適合將自訂框架用於任何未顯示全螢幕的視窗。 使用自訂框架的動機應該是為整體體驗提供獨特的感覺，而不只是針對 [商標](exper-branding.md)。
 
 ![影像謎題和框架的插圖 ](images/win-window-frames-image5.png)
 
@@ -109,7 +109,7 @@ ms.locfileid: "104566080"
 
 ### <a name="glass"></a>玻璃
 
-標準視窗框架會在視窗中自動使用玻璃，但您也可以在接觸視窗框架的區域中使用玻璃。
+標準視窗框架在 Windows 中會自動使用玻璃，但您也可以在接觸視窗框架的區域中使用玻璃。
 
 -   **在不使用文字的情況下，于小型區域中策略性地使用半透明的範圍。** 這樣做可以讓某個程式更簡單、更淺、更緊密的外觀，讓區域看起來像是框架的一部分。
 -   ![具有半透明邊緣之視窗的螢幕擷取畫面 ](images/win-window-frames-image3.png)

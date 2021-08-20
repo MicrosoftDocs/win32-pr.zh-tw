@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3191d3c73883d0bd27b4944718f2a0b3423e2c8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9164d4789cfa836ff5d74f358d78363c2c18f2031dc0a921621d40f634cadbcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118083337"
 ---
 # <a name="deletecolumngrbit-enumeration"></a>DeleteColumnGrbit 列舉
 

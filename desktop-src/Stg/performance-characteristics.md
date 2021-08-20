@@ -4,12 +4,12 @@ description: 呼叫 IPropertySetStorage 介面的 COM 複合檔案執行以建�
 ms.assetid: 7773e649-19a4-4df2-84ed-027d73283140
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8597862602a367ed93a3d6e5e0bcac76035c337a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2ac11200b021cae1ea1d60438b57530f0dbc8c02ea3d26b5622ab859a99224aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960828"
 ---
 # <a name="performance-characteristics"></a>效能特色
 
@@ -24,8 +24,8 @@ ms.locfileid: "103933389"
 > [!Note]  
 > 這個屬性集資料流程的大小不能超過256K 個位元組。
 
- 
+ 
 
- 
+ 
 
- 
+ 

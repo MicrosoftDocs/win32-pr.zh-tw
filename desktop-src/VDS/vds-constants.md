@@ -4,16 +4,16 @@ ms.assetid: a3a8b549-51bc-48eb-9215-04c7311e03a3
 title: VDS 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9979cd4416b5305c61f6275612422b1f4cfe43a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e9fa0c6196e1085de3a5433750b890e2ad3bc42f4a86022587f02157521eacf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125691"
 ---
 # <a name="vds-constants"></a>VDS 常數
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 VDS 常數的分類方式如下：
 

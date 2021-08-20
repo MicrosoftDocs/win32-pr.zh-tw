@@ -6,12 +6,12 @@ keywords:
 - MCI_ STATUS 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1774eb3df2a45f98558862a15349007cd299d142
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b02c014b374f83b3de5df90fd7de1952f65acd99b13f5075a59bc95d40e6380
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781651"
 ---
 # <a name="verifying-the-output-device"></a>驗證輸出裝置
 
@@ -51,9 +51,9 @@ Else
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.int6
 ms:contentKeyID: 55103335
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 966ec2b86cd46c1bd5015d4d87c240e19055feb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dd71a75fbe4a4740c28622256fee4aeae22831fe0cce11c199d8cb394b38c8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118076506"
 ---
 # <a name="int64columnvalue-properties"></a>Int64ColumnValue 屬性
 

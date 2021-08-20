@@ -4,18 +4,18 @@ ms.assetid: aa4be499-625d-4dbd-828c-4a55ff2dba2c
 title: 使用 VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c648c5cc2507c4819f98367c367099248a0e723f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6406e938a8fb49314511047bb038ec94a5af9151f5c077ad1fb14984e74474f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125864"
 ---
 # <a name="using-vds"></a>使用 VDS
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
-VDS 為腳本和 GUI 開發提供了一個介面，可以簡化管理一組異類儲存系統的 Windows server 系統管理員所執行的活動，並在一段時間內跨不同的硬體設定遷移資料。 如果您不熟悉在 VDS 開發中使用的物件，請參閱 [Vds 物件模型](vds-object-model.md)。
+VDS 為腳本和 GUI 開發提供了一個介面，可以簡化管理一組異類儲存體系統的 Windows server 系統管理員所執行的活動，並在一段時間內跨不同的硬體設定遷移資料。 如果您不熟悉在 VDS 開發中使用的物件，請參閱 [Vds 物件模型](vds-object-model.md)。
 
 開始之前的幾個要點：
 
@@ -28,9 +28,9 @@ VDS 為腳本和 GUI 開發提供了一個介面，可以簡化管理一組異�
 
 ## <a name="security"></a>安全性
 
-預設會啟用 Windows 防火牆。 這可能會導致可遠端執行的回呼介面（例如 [**IVdsAdviseSink**](/windows/desktop/api/Vds/nn-vds-ivdsadvisesink)）的驗證失敗。 如果在用戶端或伺服器上啟用了 Windows 防火牆，您必須將遠端磁片區管理新增至 Windows 防火牆的 [ **例外** ] 索引標籤。
+Windows預設會啟用防火牆。 這可能會導致可遠端執行的回呼介面（例如 [**IVdsAdviseSink**](/windows/desktop/api/Vds/nn-vds-ivdsadvisesink)）的驗證失敗。 如果用戶端或伺服器上已啟用 Windows 防火牆，您必須將遠端磁片區管理新增至 Windows 防火牆的 [**例外**] 索引標籤。
 
-**Windows Server 2003：** 在 Windows Server 2003 （含 Service Pack 2） (SP2) 和 Windows Server 2003 Service Pack 1 (SP1) 中，如果用戶端或伺服器上已啟用 Windows 防火牆，且伺服器設定為使用 NTLM 驗證，則您必須將下列設定新增至適用電腦的 Windows 防火牆的 [ **例外** ] 索引標籤。
+**Windows Server 2003：** 在 Windows Server 2003 （含 service pack 2） (SP2) 和 Windows Server 2003 Service pack 1 (SP1) 中，如果在用戶端或伺服器上啟用 Windows 防火牆，且伺服器設定為使用 NTLM 驗證，則您必須將下列設定新增至適用電腦 Windows 防火牆的 [**例外**] 索引標籤中。
 
 | 電腦                 | 例外狀況設定                                                                 |
 |--------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ VDS 為腳本和 GUI 開發提供了一個介面，可以簡化管理一組異�
 
 使用 VDS 的應用程式必須在 Backup 操作員或 Administrators 群組帳戶下執行。 如果沒有適當的許可權，應用程式可以建立服務載入器物件，但物件不會載入 VDS。 相反地，它會傳回錯誤，指出拒絕存取 VDS。
 
-如果網路使用 NTLM 驗證，用戶端電腦應該允許匿名存取。 在此情況下，如果用戶端電腦正在執行 Windows Server 作業系統，則預設會啟用匿名存取。 如果正在執行 Windows 用戶端作業系統，則必須使用 Dcomcnfg.exe 啟用匿名存取。
+如果網路使用 NTLM 驗證，用戶端電腦應該允許匿名存取。 在此情況下，如果用戶端電腦正在執行 Windows Server 作業系統，則預設會啟用匿名存取。 如果正在執行 Windows 用戶端作業系統，則必須使用 Dcomcnfg.exe 來啟用匿名存取。
 
 ## <a name="configuration-and-query-operations"></a>設定和查詢作業
 

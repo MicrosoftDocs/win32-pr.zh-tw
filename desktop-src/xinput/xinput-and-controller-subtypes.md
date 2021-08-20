@@ -4,12 +4,12 @@ description: XInput 中可用的控制器子類型資料表。
 ms.assetid: 4674028b-98cf-5346-7b93-f940150f3051
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd03fe292e2b8d59b99416bded26945a71dfb9f
-ms.sourcegitcommit: b3839bea8d55c981d53cb8802d666bf49093b428
+ms.openlocfilehash: 5dac0d356fbfa3f5f1d4b27d347ce6e00173b57694cf6e2ec1f733dcede48d09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114373212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118025795"
 ---
 # <a name="xinput-and-controller-subtypes"></a>XINPUT 和控制器子類型
 

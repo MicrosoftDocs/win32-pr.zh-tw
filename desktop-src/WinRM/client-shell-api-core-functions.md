@@ -5,12 +5,12 @@ ms.assetid: cd0e6b55-03e8-4ebe-aea8-35d268cdb18c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebfe3390b3808cd0abbe9d6bf4ea83ccb0a92338
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f36a081723af60acf08aa9b4123cc124c2635371bfb50053da457289343ceec5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113341"
 ---
 # <a name="client-shell-api-core-functions"></a>用戶端 Shell API 核心函數
 
@@ -18,7 +18,7 @@ ms.locfileid: "104372253"
 
 
 
-| 核心功能                                                   | Description                                                                                                                                                                     |
+| 核心功能                                                   | 描述                                                                                                                                                                     |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WSManCloseCommand**](/windows/desktop/api/Wsman/nf-wsman-wsmanclosecommand)                   | 關閉命令。                                                                                                                                                               |
 | [**WSManCloseOperation**](/windows/desktop/api/Wsman/nf-wsman-wsmancloseoperation)               | 關閉操作。                                                                                                                                                            |
@@ -42,11 +42,11 @@ ms.locfileid: "104372253"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

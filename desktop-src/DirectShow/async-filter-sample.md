@@ -4,16 +4,16 @@ ms.assetid: ad1f2386-6d23-4a6d-8542-bbca53df4825
 title: 非同步篩選範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 099931e9a20c977da18a67f9fe232c2ec391dd4e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ebef50035ccf1a93cbfc186e1521dbb811ef63867b943f04c0dd81d8041b46bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118001350"
 ---
 # <a name="async-filter-sample"></a>非同步篩選範例
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 非同步篩選範例是支援漸進式下載的檔案讀取器篩選器。 此範例篩選準則會執行 [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) 和 [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter) 介面。 它支援 MPEG 檔案，但非 AVI 檔。
 
@@ -29,15 +29,15 @@ ms.locfileid: "104025780"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
-此範例安裝在下列路徑下： \[ *SDK 根* \] \\ 範例 \\ 多媒體 \\ DirectShow \\ 篩選 \\ 非同步。
+此範例安裝在下列路徑下： \[ *SDK 根* \] \\ 範例 \\ 多媒體 DirectShow 會以 \\ \\ \\ 非同步方法篩選。
 
 ## <a name="related-topics"></a>相關主題
 
 
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 
 
  

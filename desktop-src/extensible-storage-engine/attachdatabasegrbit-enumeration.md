@@ -30,12 +30,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 81525e97f1b6266ba15baab50168404566bd7bcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ed3d25afcd9d53284a684e9af131f3c7a5c75ac6d9b52f5e1b7345e8adde6fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118084387"
 ---
 # <a name="attachdatabasegrbit-enumeration"></a>AttachDatabaseGrbit 列舉
 

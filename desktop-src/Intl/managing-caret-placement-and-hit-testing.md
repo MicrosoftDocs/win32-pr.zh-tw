@@ -4,12 +4,12 @@ ms.assetid: 50b4b643-af96-4a6f-80f9-27a71ce16b0e
 title: 管理插入號放置和點擊測試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60396a668c89f7392b28adde0bb123060bf50348
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02e1c6d3b9dbd54f3df2b458a3f7473d1021dceafd6772730b8482b06c4e1c4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788398"
 ---
 # <a name="managing-caret-placement-and-hit-testing"></a>管理插入號放置和點擊測試
 

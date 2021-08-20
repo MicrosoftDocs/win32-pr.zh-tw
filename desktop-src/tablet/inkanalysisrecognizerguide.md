@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - IACom.h
-ms.openlocfilehash: eab5b1d09354f021f2c0a7e66a41b53e761d51e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7beaabd14b2a6d776fd7f274a9bf4bd5cb8447a2a1734b1e59afd77f964280be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118043418"
 ---
 # <a name="inkanalysisrecognizerguide-structure"></a>InkAnalysisRecognizerGuide 結構
 
@@ -88,7 +88,7 @@ typedef struct InkAnalysisRecognizerGuide {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 

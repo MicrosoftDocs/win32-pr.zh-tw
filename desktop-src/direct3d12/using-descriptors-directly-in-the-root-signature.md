@@ -5,16 +5,16 @@ ms.assetid: 033E3D8F-3003-42F7-BF77-68A7D62802E5
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff9d459f3195a4cf722ea210edbe63e5c1bf3cc8
-ms.sourcegitcommit: 170bc12e9724d00cecbb96d57c7226c51e135dee
+ms.openlocfilehash: a3f32b423b017477e66ea3ae32eee509ec455d85
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113489170"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121813222"
 ---
 # <a name="using-descriptors-directly-in-the-root-signature"></a>直接在根簽章中使用描述項
 
-若要避免需要經過描述項堆積，您可以直接將描述項放入根簽章中。 這些描述項會佔用根簽章中的大量空間 (請參閱) 的根簽章 [限制](/windows/win32/direct3d12/root-signature-limits) ，因此建議您謹慎使用。
+若要避免需要經過描述項堆積，您可以直接將描述項放入根簽章中。 這些描述項會佔用根簽章中的大量空間 (請參閱) 的根簽章 [限制](./root-signature-limits.md) ，因此建議您謹慎使用。
 
 使用方式的範例是在根配置中放置一個常數緩衝區視圖， (CBV) 變更每個繪製。 如此一來，就不需要由應用程式每次繪製來配置描述元堆積空間 (並將描述項資料表指向描述項堆積) 的新位置。 藉由將某個內容放在根簽章中，應用程式只會將版本控制責任交給驅動程式;但那就是驅動程式已經有的基礎結構。
 

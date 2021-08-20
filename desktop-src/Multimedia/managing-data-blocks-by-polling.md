@@ -9,12 +9,12 @@ keywords:
 - WAVEHDR 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e5580ff64425eae1bc6650268b065e60b90f43
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 17c84e75eccaf34ef16ccadefb4dae42931854a0c6c4278003fb5c01b0c551f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139163"
 ---
 # <a name="managing-data-blocks-by-polling"></a>藉由輪詢管理資料區塊
 
@@ -22,6 +22,6 @@ ms.locfileid: "104023337"
 
 您可以使用 [WHDR \_ 完成] 旗標來測試 **dwFlags** 成員。 一旦在 \_ **WAVEHDR** 結構的 **DWFLAGS** 成員中設定 WHDR 完成旗標，驅動程式就會使用資料區塊完成。
 
- 
+ 
 
- 
+ 

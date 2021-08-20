@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c18be0a544ebcea2d2cecb40dcea3a08e4bd35b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f80a2ab7068ec754a89e384028f2d43989345e9801c4ededb800117d211b0f8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118128455"
 ---
 # <a name="itssbresourcepluginstoreexacquiretargetlock-method"></a>ITsSbResourcePluginStoreEx：： AcquireTargetLock 方法
 
@@ -79,7 +79,7 @@ HRESULT AcquireTargetLock(
 
  
 
-此方法可在已安裝 [KB3091411](https://support.microsoft.com/kb/3091411) 的 Windows Server 2012 R2 上使用，並安裝在 [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md) 介面中。
+在 [KB3091411](https://support.microsoft.com/kb/3091411)安裝在 [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md)介面中的 Windows Server 2012 R2 上，可以使用這個方法。
 
 ## <a name="requirements"></a>規格需求
 
@@ -90,7 +90,7 @@ HRESULT AcquireTargetLock(
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                     |
 | 最低支援的伺服器<br/> | Windows Server 2012 R2<br/>                                                             |
 | 伺服器支援結束<br/>    | Windows Server 2012 R2<br/>                                                             |
-| Idl<br/>                      | <dl> <dt>SbTsV .idl</dt> </dl>          |
+| IDL<br/>                      | <dl> <dt>SbTsV .idl</dt> </dl>          |
 | IID<br/>                      | IID \_ ITsSbResourcePluginStoreEx 定義為80b83ffd-625d-11e5-bea1-a0481c7e9064<br/> |
 
 

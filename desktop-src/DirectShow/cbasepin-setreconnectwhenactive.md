@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 10840ad60c858f69164b19f2460a0039cd332700
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf90c32af8371d9f2dd61369e21dfeb0726c7fa044758a3d8fb9beee7fd5743e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118000840"
 ---
 # <a name="cbasepinsetreconnectwhenactive-method"></a>CBasePin. SetReconnectWhenActive 方法
 
@@ -55,7 +55,7 @@ void SetReconnectWhenActive(
 
 ## <a name="remarks"></a>備註
 
-根據預設，您必須先停止篩選，才能重新連接其任何 pin。 如果在篩選準則為使用中時，pin 可以重新連接，請以 **TRUE** 的值呼叫此方法。 如需詳細資訊，請參閱 [動態圖形建築物](dynamic-graph-building.md)。
+根據預設，您必須先停止篩選，才能重新連接其任何 pin。 如果在篩選準則為使用中時，pin 可以重新連接，請以 **TRUE** 的值呼叫此方法。 如需詳細資訊，請參閱[動態 Graph 建立](dynamic-graph-building.md)。
 
 ## <a name="requirements"></a>規格需求
 

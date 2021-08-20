@@ -10,18 +10,18 @@ keywords:
 - 消費者介面自動化，樹狀結構的內容視圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c76bc9aa6568a3f4d63194d35ff0c7d8f59510c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a9e1b8776f86931882acc85e2fb974ff5d1db0be266be94e391ce242ff2a497e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570393"
 ---
 # <a name="ui-automation-tree-overview"></a>UI 自動化樹狀目錄概觀
 
 輔助技術產品和測試腳本會流覽 Microsoft 消費者介面自動化樹狀結構，以收集 UI 和其元素的相關資訊。
 
-在消費者介面自動化樹狀結構中的根項目，代表 Windows 桌面視窗 ( "desktop" ) 以及其子項目代表應用程式視窗。 每個子專案都可以包含代表 UI 片段的元素，例如功能表、按鈕、工具列和清單方塊。 這些元素可以包含專案，例如清單專案。
+消費者介面自動化樹狀結構中的根項目，表示 ( "desktop" ) 的 Windows 桌面視窗，以及其子項目代表應用程式視窗。 每個子專案都可以包含代表 UI 片段的元素，例如功能表、按鈕、工具列和清單方塊。 這些元素可以包含專案，例如清單專案。
 
 消費者介面自動化樹狀結構不是固定的結構。 因為它可能包含數千個專案，所以很少會在 totality 中看到它。 消費者介面自動化樹狀結構的元件是以用戶端的需求建立，而樹狀結構的結構會隨著專案的加入、移動或移除而變更。
 
@@ -99,9 +99,9 @@ ms.locfileid: "103839823"
 [UI 自動化基礎](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

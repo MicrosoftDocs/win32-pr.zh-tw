@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a39fe9a9599a1d85c14a226106f5c8d7080b721f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ef47b944d5d445f57779f99cb8517a773a7efba19ae3f2133f896fcba7b86548
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153156"
 ---
 # <a name="media-type-functions"></a>媒體類型函式
 
-DirectShow 基類會提供 helper 函式來處理 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type) 結構。
+DirectShow 基類會提供 helper 函式來處理 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type)結構。
 
 **AM \_ 媒體 \_ 類型** 結構包含指標 (**pbFormat** 成員) 至另一個記憶體區塊，也就是所謂的 *格式區塊*。 因此，當您使用此結構時，您必須小心處理記憶體配置，以避免記憶體流失。
 

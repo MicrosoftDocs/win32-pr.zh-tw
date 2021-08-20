@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 執行事件提供者的主要介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5621a2c6d0901a7925828149dd5c1480c2b11456
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5847f14cbe9f27460ee1477d9b76d725db7769fa147a9fd18bf275e587014e29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118108582"
 ---
 # <a name="implementing-the-primary-interface-for-an-event-provider"></a>執行事件提供者的主要介面
 

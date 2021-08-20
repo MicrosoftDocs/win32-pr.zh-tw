@@ -12,12 +12,12 @@ api_name:
 - AcceptHitAndEndSearch
 api_type:
 - NA
-ms.openlocfilehash: 25bbac15a26beb535a91155cdd4c411c3c669e0d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 35073145a9b9a4788c6aed3bbae0633f0a9f5b85
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999836"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121813038"
 ---
 # <a name="accepthitandendsearch-function"></a>AcceptHitAndEndSearch 函式
 
@@ -49,15 +49,4 @@ void AcceptHitAndEndSearch();
 
 ## <a name="see-also"></a>另請參閱
 
-<dl> <dt>
-
-[Direct3D 12 Raytracing HLSL 參考](direct3d-12-raytracing-hlsl-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Direct3D 12 raytracing HLSL 參考](direct3d-12-raytracing-hlsl-reference.md)

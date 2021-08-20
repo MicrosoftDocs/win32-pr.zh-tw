@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 144f42c42eaf3ccb804344214d396cd8ac2f8aa3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b06c76dcb807625e03712c8e5fd7d4f347dfc9b57f64310f3059134f6de7c2a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786128"
 ---
 # <a name="esentbademptypageexception-class"></a>EsentBadEmptyPageException 類別
 

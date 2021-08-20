@@ -6,12 +6,12 @@ keywords:
 - 作業系統版本結構化儲存體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd5de916d354a721834b9a10651c36d3bf389e28
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e66101cf34df7416a7169708b19e58a970212b8a0d9ec28650cba84f6b9588ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106978582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960872"
 ---
 # <a name="operating-system-versions"></a>作業系統版本
 
@@ -27,9 +27,9 @@ ms.locfileid: "106978582"
 
 
 
- 
+ 
 
-針對 Microsoft Windows 作業系統，作業系統版本是由 [**GetVersion**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversion) 函數傳回的低序位文字。 針對 Microsoft Windows，下列範例程式碼會正確地設定來源作業系統的版本。
+針對 Microsoft Windows 作業系統，作業系統版本是由 [**GetVersion**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversion)函式傳回的低序位字組。 針對 Microsoft Windows，下列範例程式碼會正確地設定來源作業系統的版本。
 
 ``` syntax
 #ifdef WIN32 
@@ -39,6 +39,6 @@ ms.locfileid: "106978582"
 #endif
 ```
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e82a11db65183e343048f594a7457c0a8febf8bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9356e3edef0b61c119ec4cca774e9ec5976ac3732e0f0a508d103bc22bb0fef0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118155504"
 ---
 # <a name="iamtimelinegroup-interface"></a>IAMTimelineGroup 介面
 
@@ -28,7 +28,7 @@ ms.locfileid: "106991250"
 
  
 
-`IAMTimelineGroup`介面會設定及抓取[DirectShow 編輯服務](directshow-editing-services.md) (DES) 中群組的屬性。
+`IAMTimelineGroup`介面會設定[DirectShow 編輯服務](directshow-editing-services.md) (DES) 中群組的屬性。
 
 群組包含一或多個追蹤，而且可能有一或多個組合，而這些組合接著會包含統一類型的來源剪輯，例如影片或音訊。 群組是時間軸中最上層的組合，也會公開 [**IAMTimelineComp**](iamtimelinecomp.md) 介面。 時間軸可以包含多個群組。
 
@@ -87,7 +87,7 @@ ms.locfileid: "106991250"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

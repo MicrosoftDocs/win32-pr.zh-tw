@@ -4,12 +4,12 @@ ms.assetid: 2d16e036-2d7f-431d-b646-1addf2f65f3f
 title: 變更目錄的目標位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 818c4e9d555244dd1637e19eb249478f13ea2d48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27adf952faeb4d37d5edb08a04bf25cc640d41e5d87732b30c80d25bba729705
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145681"
 ---
 # <a name="changing-the-target-location-for-a-directory"></a>變更目錄的目標位置
 

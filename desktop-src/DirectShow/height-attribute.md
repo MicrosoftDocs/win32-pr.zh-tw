@@ -4,12 +4,12 @@ ms.assetid: 8dbae3e2-31bb-4ab0-bba8-b79061338ea4
 title: height 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2875a7b14dfa887f200baf07463a96ce27238e27
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b5036cd5e38ad4f90827c3ee8c79ebb677992b5ad4fdc038dca5eaccab7c3085
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564608"
 ---
 # <a name="height-attribute"></a>height 屬性
 

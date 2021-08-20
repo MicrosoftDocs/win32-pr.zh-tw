@@ -4,12 +4,12 @@ ms.assetid: 9819d6bb-751b-4b47-aa2d-23d7f86c1d3d
 title: 'AVAudioSampleRate 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 816ef69a91f24444aad1f15780b30a70572743d7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f7528b1920884666da15c154044ec15577ec93881b9aab3875f7ba5a0418cb7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159979"
 ---
 # <a name="avaudiosamplerate-property"></a>AVAudioSampleRate 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104108992"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

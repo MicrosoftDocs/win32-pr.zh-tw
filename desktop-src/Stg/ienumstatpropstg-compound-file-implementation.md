@@ -6,12 +6,12 @@ keywords:
 - IEnumSTATPROPSTG Strctd Stg.，複合檔案執行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bbffce14016efdb4e2a77d60096b6776e6c2189
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6a8c00cd8111e7669030af7d201c567397c951b31d4981784704da903821368b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961817"
 ---
 # <a name="ienumstatpropstg-compound-file-implementation"></a>IEnumSTATPROPSTG-Compound 檔案的執行
 
@@ -65,6 +65,6 @@ ms.locfileid: "103933513"
 [**IPropertyStorage：： Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

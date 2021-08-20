@@ -4,12 +4,12 @@ ms.assetid: 6b5139b5-aa31-42bc-a281-8784006edfbe
 title: XAddr 驗證規則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc91ce8a0e1bba267ea92fa79a6680b481297f24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e3b167101b6012bcf20779381993cfff4ea7ea22d35eef5397ac1349baa2cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049506"
 ---
 # <a name="xaddr-validation-rules"></a>XAddr 驗證規則
 
@@ -43,7 +43,7 @@ ms.locfileid: "104192047"
 [ResolveMatches](resolvematches-message.md)
 </dt> <dt>
 
-[探索和中繼資料交換訊息模式](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息模式](discovery-and-metadata-exchange-message-patterns.md)
 </dt> </dl>
 
  

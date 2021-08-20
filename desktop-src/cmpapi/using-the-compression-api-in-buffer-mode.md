@@ -4,12 +4,12 @@ ms.assetid: 0A062E5D-E5FA-4098-B76E-E136FC74D853
 title: 在緩衝區模式中使用壓縮 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 676a5bea1ea4fa673bbf9a8fc2caf9fe84d9bc1e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 79a63b8a7dabc7b61c85abb192f855f094a6e271a99997b9e98b849614d53527
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048936"
 ---
 # <a name="using-the-compression-api-in-buffer-mode"></a>在緩衝區模式中使用壓縮 API
 
@@ -19,7 +19,7 @@ ms.locfileid: "106970118"
 
 使用緩衝區或區塊模式的應用程式，可以在呼叫 [**CreateCompressor**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) 或 [**CreateDecompressor**](/windows/desktop/api/compressapi/nf-compressapi-createdecompressor)時，選擇指定自訂記憶體配置常式。 如需簡單自訂配置常式的範例，請參閱在 [區塊模式中使用壓縮 API](using-the-compression-api-in-block-mode.md) 一節。
 
-**Windows 8 和 Windows Server 2012：** 若要使用下列範例程式碼，您必須執行 Windows 8 或 Windows Server 2012，並使用 "compressapi" 和 "cabinet.dll" 並連結至 ".Cab"。
+**Windows 8 和 Windows Server 2012：** 若要使用下列範例程式碼，您必須執行 Windows 8 或 Windows Server 2012，並具有 "compressapi .h" 和 "cabinet.dll" 並連結至 ".cab"。
 
 下列程式碼片段示範使用 XPRESS 壓縮演算法的檔案壓縮，以及在緩衝區模式中使用壓縮 API 的 Huffman 編碼。 應用程式會接受檔案、壓縮其內容，並產生壓縮檔案。 首先，應用程式會使用 **壓縮 \_ 演算法 \_ XPRESS \_ HUFF** 來呼叫 [**CreateCompressor**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) ，以產生壓縮程式。 然後，它會呼叫 [ [**壓縮**](/windows/desktop/api/compressapi/nf-compressapi-compress)]，並將 *CompressedBufferSize* 設定為0，以查詢所需的壓縮緩衝區大小。 它會將輸出緩衝區配置給 *CompressedBufferSize* 值。 應用程式會 **呼叫第二次壓縮來** 執行實際的壓縮。 最後，應用程式會將壓縮的資料寫入至輸出檔案。
 

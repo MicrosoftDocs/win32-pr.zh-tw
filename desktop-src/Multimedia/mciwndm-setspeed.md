@@ -3,7 +3,7 @@ title: 'MCIWNDM_SETSPEED 訊息 (Vfw .h) '
 description: MCIWNDM \_ SETSPEED 訊息會設定 MCI 裝置的播放速度。 您可以使用 MCIWndSetSpeed 宏明確地傳送此訊息。
 ms.assetid: 7658dd25-dc68-4bd1-b995-df06b509be16
 keywords:
-- MCIWNDM_SETSPEED message Windows 多媒體
+- MCIWNDM_SETSPEED 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 282bb3a2e135b674605be55aaccaa455d30edbcc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6de0d78fef7723dab0ae2e2d3923f73f872e38dfd9c3e0f42443f7141f020336
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119782988"
 ---
 # <a name="mciwndm_setspeed-message"></a>MCIWNDM \_ SETSPEED 訊息
 

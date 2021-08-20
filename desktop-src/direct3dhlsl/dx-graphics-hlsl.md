@@ -10,12 +10,12 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: c0876cda302d4c6215b640c210e880795273cd6c
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 9f518102b7b3305103ed85231a791c542418a04c
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104973893"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812894"
 ---
 # <a name="high-level-shader-language-hlsl"></a>高階著色器語言 (HLSL) 
 
@@ -23,7 +23,7 @@ HLSL 是一種類似 C 的高階著色器語言，您可以搭配 DirectX 中的
 
 例如，您可以使用 HLSL 來撰寫 [頂點著色器](../direct3d11/vertex-shader-stage.md)或 [圖元著色器](../direct3d11/pixel-shader-stage.md)，並在您的 [Direct3D](../direct3d12/directx-12-programming-guide.md) 應用程式中，于轉譯器的執行中使用這些著色器。
 
-或者，您也可以使用 HLSL 來撰寫計算著色器，以執行物理模擬。 不過，比方說，如果您想要撰寫自己的卷積運算子來 (影像處理) 作為計算著色器中的 HLSL，則在該案例中，如果您改用 [直接 Machine Learning (DirectML) ](../direct3d12/dml.md) ，就會獲得更好的效能。
+或者，您也可以使用 HLSL 來撰寫計算著色器，以執行物理模擬。 不過，比方說，如果您想要撰寫自己的卷積運算子來 (影像處理) 作為計算著色器中的 HLSL，則在該案例中，如果您改用[直接機器學習 (DirectML) ](/windows/ai/directml/dml) ，就會獲得更好的效能。
 
 HLSL 的建立 (從 DirectX 9 開始) 設定可程式化 3D [管線](../direct3d11/overviews-direct3d-11-graphics-pipeline.md)。 您可以使用 HLSL 指示來編寫整個管線的程式。
 

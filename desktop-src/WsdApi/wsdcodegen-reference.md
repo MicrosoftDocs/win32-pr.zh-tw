@@ -4,12 +4,12 @@ ms.assetid: 7cf6fc14-4d41-4983-979c-6f14d1c9cdd2
 title: WsdCodeGen 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b32441e566724c26c80fa6b0a7993da75388381
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae6fd87ce01bfeb6a29a0ee6161d0c8b4f5b939e464e10585b2d707dc9290cc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049556"
 ---
 # <a name="wsdcodegen-reference"></a>WsdCodeGen 參考
 

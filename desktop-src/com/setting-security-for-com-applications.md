@@ -4,12 +4,12 @@ description: 設定 COM 應用程式的安全性
 ms.assetid: 5b615007-e04b-41be-872c-20e0ea818ff1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a8dd705015aaa2ca1965d07c556ff3d55aada00
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d1168fcd8d9119226efe9469eabef617e6400cfbc8d1202a4833ac3e4d0ea20d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118104306"
 ---
 # <a name="setting-security-for-com-applications"></a>設定 COM 應用程式的安全性
 
@@ -28,9 +28,9 @@ ms.locfileid: "103840903"
 [COM 中的安全性](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

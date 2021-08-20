@@ -4,12 +4,12 @@ ms.assetid: 8f56328e-ed58-41a1-94b6-266e9c117246
 title: 檔案資料表群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2667a1b9fe2bd9d2f8260523e2386bf7751dce8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3f8a73aa46b202d184356c14ff12da9ce9ce9880b009418e922b252cc35bc54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142900"
 ---
 # <a name="file-tables-group"></a>檔案資料表群組
 
@@ -30,16 +30,16 @@ ms.locfileid: "106974363"
 -   [MoveFile 資料表](movefile-table.md)會指定在安裝期間要移動的檔案。
 -   [DuplicateFile 資料表](duplicatefile-table.md)會指定在安裝期間複製的檔案。
 -   [IniFile 資料表](inifile-table.md)會列出 .ini 檔案，以及應用程式必須在檔案中設定的資訊。
--   [RemoveIniFile 資料表](removeinifile-table.md)包含應用程式從 .ini 檔案刪除所需的資訊。
+-   [RemoveIniFile 資料表](removeinifile-table.md)包含應用程式從 .ini 檔案中刪除所需的資訊。
 -   [環境資料表](environment-table.md)是用來設定環境變數的值。
 -   [圖示表格](icon-table.md)提供在產品公告中複製到檔案的圖示資訊。
 -   [FileSFPCatalog 資料表](filesfpcatalog-table.md)會將指定的檔案與系統檔案保護類別目錄檔案產生關聯。
 
-    **Windows Vista、Windows Server 2003 和 WINDOWS XP：** 不支援。
+    **Windows Vista、Windows Server 2003 和 Windows XP：** 不支援。
 
 -   [SFPCatalog 資料表](sfpcatalog-table.md)包含系統檔案保護目錄。
 
-    **Windows Vista、Windows Server 2003 和 WINDOWS XP：** 不支援。
+    **Windows Vista、Windows Server 2003 和 Windows XP：** 不支援。
 
 -   [MsiFileHash 資料表](msifilehash-table.md)是用來儲存 Windows Installer 封裝所提供之原始程式檔的128位雜湊。
 

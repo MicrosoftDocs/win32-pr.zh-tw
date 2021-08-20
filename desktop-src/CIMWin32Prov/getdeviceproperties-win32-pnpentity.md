@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6aa9f6cad17fe48617b5bf7d28ba19d6f5370834
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 855c3c0644d8c7b5c5300c8d12d5a6f98073a4511f8d0d65f4058da7fb9d0f24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077508"
 ---
 # <a name="getdeviceproperties-method-of-the-win32_pnpentity-class"></a>Win32 PnPEntity 類別的 GetDeviceProperties 方法 \_
 
@@ -61,7 +61,7 @@ Uint32 GetDeviceProperties(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                          |
 | 命名空間<br/>                | 根 \\ CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Cimwin32 mof</dt> </dl> |

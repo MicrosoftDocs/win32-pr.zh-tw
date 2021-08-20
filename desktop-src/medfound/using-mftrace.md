@@ -31,7 +31,7 @@ MFTrace 會使用繞道程式庫連結至媒體基礎 API 呼叫並產生追蹤�
 <thead>
 <tr class="header">
 <th>命令列引數</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

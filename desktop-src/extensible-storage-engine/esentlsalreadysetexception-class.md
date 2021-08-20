@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7757740a6c07d6fedaa8b17c7a84755ade4de59b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7aa98ffbb4051d3c1c3f2786cda529d99aac04646d8637a9f65a3778aa85a4e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118080232"
 ---
 # <a name="esentlsalreadysetexception-class"></a>EsentLSAlreadySetException 類別
 

@@ -4,18 +4,18 @@ ms.assetid: bdc3d22c-d055-47f7-86ad-6e050608ad12
 title: PropGroup GPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3544f433ef83d64b65f1ad33a8d732ccf80b8181
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: a8a101c15bc819b1cbe834c387d3e44326eccb047d67569ae43818f29966996b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945098"
 ---
 # <a name="systempropgroupgps"></a>PropGroup GPS
 
 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

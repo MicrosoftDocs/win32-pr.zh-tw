@@ -13,12 +13,12 @@ keywords:
 - 金鑰組應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddd962f848343ea493204d494943a99eedcc56a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a89c23d6326e19cb5680906155d5ee2e8dbcc32735fabd8625658410ef4ddfa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781848"
 ---
 # <a name="summary-of-maps-and-midi-messages"></a>地圖和 MIDI 訊息的摘要
 
@@ -26,7 +26,7 @@ ms.locfileid: "103675068"
 
 
 
-| MIDI 狀態 | Description               | 對應類型                |
+| MIDI 狀態 | 描述               | 對應類型                |
 |-------------|---------------------------|--------------------------|
 | 0x80-0x8F   | 請注意                  | 通道對應，金鑰組應   |
 | 0x90-0x9F   | 注意                    | 通道對應，金鑰組應   |
@@ -39,15 +39,15 @@ ms.locfileid: "103675068"
 
 
 
- 
+ 
 
 -   高序位四個位代表狀態值。 低序位四個位代表通道資訊。
 -   修補程式對應只會影響主要磁碟區) 的控制器 7 (。
 -   系統訊息會傳送至通道對應中列出的所有裝置。
 
- 
+ 
 
- 
+ 
 
 
 

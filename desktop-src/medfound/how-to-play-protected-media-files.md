@@ -4,12 +4,12 @@ ms.assetid: 85d98f49-8af2-42ce-9b36-a025aee93f73
 title: 如何播放受保護的媒體檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f8f7af78881e43f2f7f85e8f333ab31b1bc2de
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c20a2b525f8acc3a602bcaae2630726d01269881beec07ac214f4d0bd02ee1cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942338"
 ---
 # <a name="how-to-play-protected-media-files"></a>如何播放受保護的媒體檔案
 
@@ -117,7 +117,7 @@ hr = pEnablerActivate->ActivateObject(
 2.  呼叫 [**IMFContentEnabler：： GetEnableData**](/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabledata) 來取得 HTTP POST 資料。
 3.  呼叫 [**IMFContentEnabler：： MonitorEnable**](/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-monitorenable)。 此方法會導致內容啟用程式監視許可權取得動作的進度。
 
-4.  使用 HTTP POST 動作將資料提交至 rights 取得 URL。 您可以使用 Internet Explorer 控制項或 Windows 網際網路 (WinINet) Api。
+4.  使用 HTTP POST 動作將資料提交至 rights 取得 URL。 您可以使用 Internet Explorer 控制項或 Windows 的網際網路 (WinINet) api。
 
 下列程式碼顯示步驟1–3。 步驟4取決於您應用程式的特定需求。
 
