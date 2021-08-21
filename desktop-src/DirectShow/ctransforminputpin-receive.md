@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2a6a3c5dd4c9f11d45e1b719498d515a536e5ef8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 51ae6614544cd7045689f674ce90e672e3bce4ea8ee36486775892f95a5385fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538541"
 ---
 # <a name="ctransforminputpinreceive-method"></a>CTransformInputPin 接收方法
 
@@ -55,7 +55,7 @@ HRESULT Receive(
 
 
 
-| 傳回碼                                                                             | Description                                                |
+| 傳回碼                                                                             | 描述                                                |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | Pin 目前正在排清;已拒絕範例。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                                        |

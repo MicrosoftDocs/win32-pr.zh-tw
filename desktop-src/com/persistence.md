@@ -4,12 +4,12 @@ description: 持續性
 ms.assetid: 4916ea52-a21c-4938-81cb-392b5ca1f6c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6cffab1c9a0f2746e57e356a90698caf9903deb
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: a3c8600307bfe6c29f72fb9d29e633358062c4e8c1c61da8898173cf190f1d08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500328"
 ---
 # <a name="persistence"></a>持續性
 
@@ -25,7 +25,7 @@ ms.locfileid: "110549283"
 
 <dl> <dt>
 
-[ActiveX 控制項](activex-controls.md)
+[ActiveX控制](activex-controls.md)
 </dt> </dl>
 
  

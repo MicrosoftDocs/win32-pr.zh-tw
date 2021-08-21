@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9c53b8252f617c6ee3b95512a5d930a93f646479
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: ed2d64ccfb06fc0fe50e5bd0075732c1fd9cbb70ca1e05bda5afd24cd5c5f98f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104383049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789538"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>著色器模型 3 (HLSL 參考) 
 
@@ -63,7 +63,7 @@ ms.locfileid: "104383049"
 
 
 
- 
+ 
 
 如需模型3著色器的詳細資訊，請參閱：
 
@@ -77,6 +77,6 @@ ms.locfileid: "104383049"
 [著色器模型與著色器設定檔](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 90a6a09a-95e1-4adf-8e0b-269f971aaa67
 title: ReceiveConnection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80fd9fe31f87a34dc3bfdfc4ecfb532255138b9c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 55a8a91cbf9870d6c53592ff823f710eb5875fa939592309425df0a0bca6f0e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072762"
 ---
 # <a name="receiveconnection"></a>ReceiveConnection
 

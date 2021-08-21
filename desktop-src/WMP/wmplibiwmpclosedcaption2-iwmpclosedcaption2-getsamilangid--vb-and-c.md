@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9aaebecf8e86c056fa9c91141042facc6bcc18
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0fc62222f98d6c056bb8ce9ffd328582a6764202bb8446617471d3f7cb4a5ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506427"
 ---
 # <a name="iwmpclosedcaption2getsamilangid-method"></a>IWMPClosedCaption2：： getSAMILangID 方法
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: e2f500bcd7f7465ca1c24f1adaab3a77dd5cb7b0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 225caf2c9b08a498e77723dbb7ab43c8fd4850262c1f58f5ae37a3157e953edd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106990012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497638"
 ---
 # <a name="d3dx10filtertexture-function"></a>D3DX10FilterTexture 函式
 

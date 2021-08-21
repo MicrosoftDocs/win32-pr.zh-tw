@@ -4,12 +4,12 @@ description: 索引標籤控制項通知
 ms.assetid: 16a5549a-59e0-4d3d-ad3a-effd3a55e55b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 975716e926e0d5e0e84029a5eba50059a85d65c0
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0dab968bf3ac27498ed50c99b3d96775537f8cccd0d42ebe6c9cefd0f048bfff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079182"
 ---
 # <a name="tab-control-notifications"></a>索引標籤控制項通知
 

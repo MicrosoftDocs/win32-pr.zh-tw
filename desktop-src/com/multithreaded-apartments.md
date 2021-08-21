@@ -4,12 +4,12 @@ description: 多執行緒單元
 ms.assetid: d3e6acd9-cd5c-4a2c-8526-4f43db3b606b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc2594f9341fc662b068fb7e007e538282a31273
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f69271b4fb6447d48c15fa9005d39020075af09bcc327b12ce539a739c33f8d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106968937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047916"
 ---
 # <a name="multithreaded-apartments"></a>多執行緒單元
 
@@ -33,7 +33,7 @@ ms.locfileid: "106968937"
 
 用戶端可以在多個執行緒中執行 COM 工作。 所有線程都屬於相同的多執行緒單元。 介面指標會直接從執行緒傳遞至多執行緒單元內的執行緒，因此介面指標不會在其執行緒之間進行封送處理。 Imessagefilter.prefiltermessage) 的訊息篩選器 (的[](/windows/desktop/api/ObjIdl/nn-objidl-imessagefilter) ，不會用於多執行緒單元。 用戶端執行緒會在對跨單元物件進行 COM 呼叫時暫停，而且會在呼叫傳回時繼續。 進程之間的呼叫仍會由 RPC 處理。
 
-以自由執行緒模型初始化的執行緒必須執行自己的同步處理。 如本節稍早所述，Windows 會透過下列同步處理原始物件來啟用此執行：
+以自由執行緒模型初始化的執行緒必須執行自己的同步處理。 如本節稍早所述，Windows 可透過下列同步處理原始物件來實現這項作業：
 
 -   事件物件提供一種方式，讓一個或多個執行緒發生事件。 進程內的任何執行緒都可以建立事件物件。 事件建立函式會傳回事件的控制碼， [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa)。 一旦建立事件物件之後，具有物件控制碼的執行緒就可以等候它，然後再繼續執行。
 -   重要區段適用于需要對某些共用資料進行獨佔存取才能執行的程式碼區段，而且只有在單一進程內的執行緒才能使用。 重要區段就像是一次只有一個執行緒可以通過的門，如下所示：
@@ -64,6 +64,6 @@ ms.locfileid: "106968937"
 [單一執行緒單元](single-threaded-apartments.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

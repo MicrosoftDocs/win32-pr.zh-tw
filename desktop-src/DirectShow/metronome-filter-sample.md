@@ -4,16 +4,16 @@ ms.assetid: bb279898-875a-4ce4-ac69-6c58f640fbbd
 title: Metronome 篩選範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 361b46aafa84590243cfcc05445d91a56ce56e83
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9ea1b321dd2602829697862e2716c9017573a44b6162b355e78e586e14d85003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072982"
 ---
 # <a name="metronome-filter-sample"></a>Metronome 篩選範例
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 此範例篩選會顯示如何執行參考時鐘。 此篩選器會使用您的預設麥克風輸入來接聽音訊尖峰 (例如點擊、手拍手聲或咳嗽) ，以用來判斷時脈速率。
 
@@ -25,7 +25,7 @@ ms.locfileid: "106970501"
 
 1.  在呈現影片資料流程的 GraphEdit 中建立篩選圖形。
 2.  刪除任何呈現的音訊串流。
-3.  將 Metronome 篩選器新增至圖形。 它會出現在 [DirectShow 篩選準則] 分類中。
+3.  將 Metronome 篩選器新增至圖形。 它會出現在 DirectShow 篩選準則分類中。
 4.  執行圖形。 影片將會以正常速度開始播放。
 5.  Clap 您的手，或使用 metronome 來設定新的速度。
 
@@ -41,7 +41,7 @@ ms.locfileid: "106970501"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
 此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ 篩選 \\ Metronome。
 
@@ -52,7 +52,7 @@ ms.locfileid: "106970501"
 [**CBaseReferenceClock 類別**](cbasereferenceclock.md)
 </dt> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> </dl>
 
  

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7bb5f965bac15e99140955e8ee2519feaadfef85
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d96fa39c912502234e7ff513badfd787032a41fd1f951b6d89f79194a6d4e72b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073722"
 ---
 # <a name="coutputqueuenotifythread-method"></a>COutputQueue. NotifyThread 方法
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 49c6d6b0bf42951766cfd813ccb4b5eed041600a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b97ee9d0f2f407c0cae2c9c1466a1904cf79eaecb353b94ac11bb3373367ed2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050246"
 ---
 # <a name="setting-up-a-fixed-port-for-wmi"></a>設定適用于 WMI 的固定埠
 

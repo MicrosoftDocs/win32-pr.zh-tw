@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9835c0cf82699e5959a48199cf063bb73c6da537
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3a71970ea5ad88998f2243f06743e6fce50fdd35f3a678ab61c6f7fad0dce86a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531388"
 ---
 # <a name="run-protect-admin-groups-task-extended-right"></a>執行-保護-管理群組-工作擴充許可權
 

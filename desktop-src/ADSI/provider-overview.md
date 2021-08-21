@@ -7,12 +7,12 @@ keywords:
 - 提供者總覽 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33d865bc138a676975781f72da1afa5391e87f26
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: f2a2fae2017f56e0d2577185b08079121f3c2c8c9d61c0216947698d179d2ec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106996134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082332"
 ---
 # <a name="provider-overview-for-adsi"></a>ADSI 的提供者總覽
 

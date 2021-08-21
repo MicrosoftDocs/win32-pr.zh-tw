@@ -4,12 +4,12 @@ description: 變動率陰影 &mdash; 或粗圖元陰影 &mdash; 是一種機制�
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/08/2019
-ms.openlocfilehash: 2f207cddee978915788291fc0ffe55160e6a93c6
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: b26d2d67a6e4a5f7b599a9fc65f324b301346fde3170262e80235a25f8cfb88b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045283"
 ---
 # <a name="variable-rate-shading-vrs"></a>可變速率陰影 (VRS) 
 

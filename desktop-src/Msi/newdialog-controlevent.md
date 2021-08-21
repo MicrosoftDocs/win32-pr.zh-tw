@@ -4,12 +4,12 @@ ms.assetid: bd1aa465-55a0-4983-8c71-7e7075ee9dfb
 title: NewDialog ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 439c459bc5bfe061cc7f888d9c0a3374afa9098b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aed643272bf5cb329e04dc73426d5448ad71cca781bd129992e29f03b02b9dd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519718"
 ---
 # <a name="newdialog-controlevent"></a>NewDialog ControlEvent
 

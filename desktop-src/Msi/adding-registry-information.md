@@ -4,16 +4,16 @@ ms.assetid: e4695018-e9c3-400c-b4bb-6160e154d2cf
 title: 新增登錄資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb299116b4e5c567d1e1f4b18f23c1e5b0447fe1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df31ad20fef317d5d67f7f45a7b877511d4c35b05b1517c529693e787306b44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066408"
 ---
 # <a name="adding-registry-information"></a>新增登錄資訊
 
-安裝資料庫的登錄 [資料表](registry-table.md)和相關資料表會保存應用程式需要在系統登錄中寫入的登錄資訊。 請參閱登錄 [資料表群組](registry-tables-group.md)。 在本節中，您會新增要在使用者電腦上由「記事本」範例註冊的資訊。
+安裝資料庫的登錄 [資料表](registry-table.md)和相關資料表會保存應用程式需要在系統登錄中寫入的登錄資訊。 請參閱登錄 [資料表群組](registry-tables-group.md)。 在本節中，您會在記事本範例中新增要在使用者電腦上註冊的資訊。
 
 使用您的資料庫編輯器開啟 MNP2000.msi，並將下列資料輸入空白的登錄資料表中。
 

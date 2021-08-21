@@ -4,12 +4,12 @@ ms.assetid: 8fc27fe1-e50a-44ba-a595-70b1fe463e24
 title: 使用角色進行用戶端授權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ae748ddfec438a79e3d0440a00ed7c2f672aed
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a808abc08d5360ba0b7fae0a7c31af80a4cab28c43e6014076c549204e6f28e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499640"
 ---
 # <a name="using-roles-for-client-authorization"></a>使用角色進行用戶端授權
 

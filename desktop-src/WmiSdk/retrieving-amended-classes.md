@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 正在抓取修改過的類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15a02c0fc4f36acd2c4856e1baa627dc332eb30e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d75af36dc4613adb56daf5c3ab35bd51ce702e2a8a5eb5200589bcad4436dfad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050346"
 ---
 # <a name="retrieving-amended-classes"></a>正在抓取修改過的類別
 

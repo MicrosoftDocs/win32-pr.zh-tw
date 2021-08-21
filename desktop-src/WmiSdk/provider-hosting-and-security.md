@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 提供者裝載和安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db6b88a5727f34fbb76baf62dcdf0488e5eb9eb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fce0853b268f3d0bef0c43cbeabc10651885f0bd3b07f79d5c1b29072b560c1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050486"
 ---
 # <a name="provider-hosting-and-security"></a>提供者裝載和安全性
 
@@ -18,7 +18,7 @@ ms.locfileid: "106975851"
 
 ## <a name="shared-provider-host-process"></a>共用提供者主機進程
 
-WMI 位於具有多個其他服務的共用服務主機中。 若要避免在提供者失敗時停止所有服務，提供者會載入名為 "Wmiprvse.exe" 的個別主控制項進程。 具有這個名稱的多個進程可以執行。 每個都可以在具有不同安全性的不同帳戶下執行。 請注意，從 Windows Vista 開始，請使用 [**winmgmt**](winmgmt.md) 命令，在個別的進程中使用固定通訊埠來執行 WMI。 如需詳細資訊，請參閱 [從 Vista 開始遠端連線到 WMI](connecting-to-wmi-remotely-starting-with-vista.md)。
+WMI 位於具有多個其他服務的共用服務主機中。 若要避免在提供者失敗時停止所有服務，提供者會載入名為 "Wmiprvse.exe" 的個別主控制項進程。 具有這個名稱的多個進程可以執行。 每個都可以在具有不同安全性的不同帳戶下執行。 請注意，從 Windows Vista 開始，請使用 [**winmgmt**](winmgmt.md)命令，在個別的進程中使用固定通訊埠來執行 WMI。 如需詳細資訊，請參閱 [從 Vista 開始遠端連線到 WMI](connecting-to-wmi-remotely-starting-with-vista.md)。
 
 共用主機可以在 Wmiprvse.exe 主機進程中的下列其中一個系統帳戶下執行：
 
@@ -26,15 +26,15 @@ WMI 位於具有多個其他服務的共用服務主機中。 若要避免在提
 -   [NetworkService](/windows/desktop/Services/networkservice-account)
 -   [LocalService](/windows/desktop/Services/localservice-account)
 
-提供者也可以是本機 COM 伺服器 ( .exe) 或自我裝載，這不需要 WMI 提供者主機。
+提供者也可以是本機 COM 伺服器 (.exe) 或自我裝載，而不需要 WMI 提供者主機。
 
 ## <a name="setting-the-hosting-model"></a>設定裝載模型
 
 因為 LocalSystem 是具有特殊許可權的帳戶，所以建議您在 Wmiprvse.exe 進程中執行提供者時，將 [**HostingModel**](--win32provider.md) 設定為 **NetworkServiceHost** 。 NetworkServiceHost 帳戶適用于不需要廣泛許可權的服務，但需要從遠端與其他系統通訊。
 
-如果您未設定 [**HostingModel**](--win32provider.md) 屬性的值，WMI 會將預設值設定為 **NetworkServiceHostOrSelfHost**。 如果 **HostingModel** 值設定為 **LocalSystemHost**，WMI 會使用追蹤，在 Windows 事件記錄檔中產生事件5603和5604。 由於本機 [LocalSystem](/windows/desktop/Services/localsystem-account) 帳戶具有高度許可權，因此不建議使用此設定。 您可以在 **事件檢視器** 中查看這些事件。 如需詳細資訊，請參閱 [追蹤 WMI 活動](tracing-wmi-activity.md)。
+如果您未設定 [**HostingModel**](--win32provider.md) 屬性的值，WMI 會將預設值設定為 **NetworkServiceHostOrSelfHost**。 如果 **HostingModel** 值設定為 **LocalSystemHost**，WMI 會使用追蹤在 Windows 事件記錄檔中產生事件5603和5604。 由於本機 [LocalSystem](/windows/desktop/Services/localsystem-account) 帳戶具有高度許可權，因此不建議使用此設定。 您可以在 **事件檢視器** 中查看這些事件。 如需詳細資訊，請參閱 [追蹤 WMI 活動](tracing-wmi-activity.md)。
 
-將低耦合提供者的 [**HostingModel**](--win32provider.md) 屬性設定為「分離： Com」。 藉 [**由在 .NET Framework 中新增**](/previous-versions//hh872326(v=vs.85)) 檢測類別所建立的提供者是低耦合提供者。 不再 ) 支援 (的 **系統管理。** 如需建立低耦合提供者的詳細資訊，請參閱 [在應用程式中併入提供者](incorporating-a-provider-in-an-application.md)。
+將低耦合提供者的 [**HostingModel**](--win32provider.md) 屬性設定為「分離： Com」。 藉 [**由在 .NET Framework 中新增**](/previous-versions//hh872326(v=vs.85))檢測類別所建立的提供者是低耦合提供者。 不再 ) 支援 (的 **系統管理。** 如需建立低耦合提供者的詳細資訊，請參閱 [在應用程式中併入提供者](incorporating-a-provider-in-an-application.md)。
 
 裝載模型是在代表提供者之 **\_ \_ Win32Provider** 實例的 [**HostingModel**](--win32provider.md)屬性中指定。
 
@@ -95,13 +95,13 @@ Instance of __Win32Provider as $NewProvider
 
 
 
-| [ **\_ \_ Win32Provider. HostingModel** 中的值](--win32provider.md) | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [ **\_ \_ Win32Provider. HostingModel** 中的值](--win32provider.md) | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SelfHost**                                                       | 提供者會開始使用本機伺服器執行，而不是同進程。 提供者執行之進程的安全性內容會決定提供者的安全性內容。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **LocalSystemHost**                                                | 提供者（如果實作為同進程）會載入至在 [LocalSystem](/windows/desktop/Services/localsystem-account) 內容下執行的共用提供者主機。 從 Windows Vista 開始，如果 WMI 提供者的 [**HostingModel**](--win32provider.md) (**\_ \_ Win32Provider**， **LocalSystemHost** 就不再是預設的裝載模型。未指定 HostingModel 屬性) 。 如需詳細資訊，請參閱 [裝載模型的安全性](#provider-hosting-and-security)。                                                                                                                                                                                                                                                                               |
 | **LocalSystemHostOrSelfHost**                                      | 此提供者會自我裝載，或載入至在 [LocalSystem](/windows/desktop/Services/localsystem-account) 帳戶下執行的 Wmiprvse.exe 進程。 由於 LocalSystem 是具有高度許可權的帳戶，因此會在 Security NT 事件記錄檔中產生專案，以通知系統管理員在此受信任狀態下執行的提供者。                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **NetworkServiceHost**                                             | 提供者（如果實作為同進程）會載入至在 [NetworkService](/windows/desktop/Services/networkservice-account) 帳戶下執行的 Wmiprvse.exe 進程。 從 Windows Vista 開始，如果 WMI 提供者的 [**HostingModel**](--win32provider.md) (**\_ \_ Win32Provider**，這就是預設的裝載模型。未指定 HostingModel 屬性) 。 如需詳細資訊，請參閱 [裝載模型的安全性](#provider-hosting-and-security)。<br/> **NetworkServiceHost** 具有有限的許可權，因此可降低權限提高攻擊的可能性。 如果提供者只在本機電腦上運作，請將 [**HostingModel**](--win32provider.md) 屬性設定為 **LocalServiceHost**。<br/> |
-| **NetworkServiceHostOrSelfHost**                                   | 此提供者會自我裝載，或載入至在 [NetworkService](/windows/desktop/Services/networkservice-account) 帳戶下執行的 WmiPrvse.exe 進程。 當 **\_ \_ Win32Provider** 中的 [**HostingModel**](--win32provider.md)屬性為 **Null** 時， **NetworkServiceHostOrSelfHost** 是預設的設定。 由於 **NetworkServiceHostOrSelfHost** 是預設值，因此舊版作業系統的提供者可以在 windows Vista、windows Server 2008 和更新版本的作業系統中繼續運作。                                                                                                                                                                                                                                             |
+| **NetworkServiceHostOrSelfHost**                                   | 此提供者會自我裝載，或載入至在 [NetworkService](/windows/desktop/Services/networkservice-account) 帳戶下執行的 WmiPrvse.exe 進程。 當 **\_ \_ Win32Provider** 中的 [**HostingModel**](--win32provider.md)屬性為 **Null** 時， **NetworkServiceHostOrSelfHost** 是預設的設定。 由於 **NetworkServiceHostOrSelfHost** 是預設值，因此舊版作業系統的提供者可以在 Windows Vista、Windows Server 2008 和更新版本的作業系統中繼續運作。                                                                                                                                                                                                                                             |
 | **LocalServiceHost**                                               | 提供者（如果實作為同進程）會載入至 [LocalService](/windows/desktop/Services/localservice-account) 帳戶下執行的 Wmiprvse.exe 進程。 這是建議的服務裝載模型，因為 LocalService 具有有限的許可權。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 
@@ -144,7 +144,7 @@ Decoupled:Com
 
 ## <a name="security-of-hosting-models"></a>裝載模型的安全性
 
-在大多數情況下， **LocalSystem** 是不必要的，而且 **NetworkServiceHost** 內容更適合。 大部分的 WMI 提供者都必須模擬用戶端安全性內容，以代表 WMI 用戶端執行要求的作業。 從 Windows Vista 開始，缺少裝載模型定義並執行的 WMI 提供 **者將無法** 正常執行。 若要修正這種情況，請變更預期的裝載模型，並確定 WMI 提供者程式碼會模擬 WMI 用戶端，以在用戶端安全性內容中執行作業。 LocalSystem 很少需要。 如果您的提供者必須擁有該層級的許可權，請使用 MOF 檔案中的下列語句來指定裝載模型。
+在大多數情況下， **LocalSystem** 是不必要的，而且 **NetworkServiceHost** 內容更適合。 大部分的 WMI 提供者都必須模擬用戶端安全性內容，以代表 WMI 用戶端執行要求的作業。 從 Windows Vista 開始，缺少裝載模型定義並執行的 WMI 提供者 **，將無法** 正確執行。 若要修正這種情況，請變更預期的裝載模型，並確定 WMI 提供者程式碼會模擬 WMI 用戶端，以在用戶端安全性內容中執行作業。 LocalSystem 很少需要。 如果您的提供者必須擁有該層級的許可權，請使用 MOF 檔案中的下列語句來指定裝載模型。
 
 ``` syntax
 HostingModel=LocalSystemHost

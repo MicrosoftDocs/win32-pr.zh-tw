@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 588572d1ddc39f17e48453acbdf021237d4439c2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 35e6afca05732dc604ff66bbabeef94443af2dbfe947fb674f1361d04fc699e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073772"
 ---
 # <a name="coutputqueuem_evflushcomplete-member"></a>COutputQueue：： m \_ evFlushComplete 成員
 

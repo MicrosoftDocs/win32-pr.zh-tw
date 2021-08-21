@@ -12,12 +12,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 52c51c3348f41f4cd3fad990a2cc7ef94a865173
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bc90f574edcf306b2141a54ccc3b34c79814e1dd5c705690af1b16103b1b8c05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513858"
 ---
 # <a name="wsdl-interface-for-custom-vdi-solutions"></a>自訂 VDI 解決方案的 WSDL 介面
 
@@ -456,6 +456,6 @@ Web 服務必須將下列元素傳回至篩選外掛程式。
 
 
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
 description: 此範例會使用核心音訊 Api 來執行螢幕顯示，以顯示透過預設音訊轉譯端點裝置播放之輸出資料流程的音量變更。
 ms.assetid: 33a1e843-f7c7-4da9-a51e-83a3f0a6ac70
-title: Osd
+title: OSD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89c4c04daf5d2dd333a25150821a831695e06a06
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 17bc0b93214cc547f0491d568abb88d696f76b494f2c562f4805f425acdcfd89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077512"
 ---
-# <a name="osd"></a>Osd
+# <a name="osd"></a>OSD
 
-此範例會使用核心音訊 Api 來執行螢幕顯示，以顯示透過預設音訊轉譯端點裝置播放之輸出資料流程的音量變更。 當使用者調整 Windows 音量控制程式中的音量層級時，會顯示幕幕畫面顯示，Sndvol.exe，且在短時間內，磁片區層級保持不變之後就會消失。
+此範例會使用核心音訊 Api 來執行螢幕顯示，以顯示透過預設音訊轉譯端點裝置播放之輸出資料流程的音量變更。 當使用者調整 Windows 音量控制程式中的音量層級時，畫面上顯示畫面會顯示 Sndvol.exe，而且在短時間內，磁片區層級會維持不變。
 
 本主題將包含以下各節。
 
@@ -24,7 +24,7 @@ ms.locfileid: "104025948"
 -   [執行範例](#running-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 這個範例會示範下列功能。
 
@@ -50,7 +50,7 @@ ms.locfileid: "104025948"
 
 
 
-| Location    | 路徑/URL                                                                             |
+| 位置    | 路徑/URL                                                                             |
 |-------------|--------------------------------------------------------------------------------------|
 | Windows SDK | \\Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ 多媒體 \\ 音訊 \\ OSD \\ .。。 |
 
@@ -61,8 +61,8 @@ ms.locfileid: "104025948"
 ## <a name="building-the-sample"></a>建立範例
 
 1.  開啟 Windows SDK 的 CMD shell，並變更為 OSD 範例目錄。
-2.  在 OSD 目錄中執行 "start .OSD" 命令，以在 Visual Studio 視窗中開啟 OSD 專案。
-3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 SDK 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 SDK 組建環境。 在此情況下，除非您明確設定用於專案檔 vcproj 的環境變數 MSSdk，否則此範例不會建立。
+2.  在 osd 目錄中執行 "start .osd" 命令，以在 Visual Studio 視窗中開啟 osd 專案。
+3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 sdk 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 sdk 組建環境。 在此情況下，除非您明確設定用於專案檔 vcproj 的環境變數 MSSdk，否則此範例不會建立。
 
 ## <a name="running-the-sample"></a>執行範例
 

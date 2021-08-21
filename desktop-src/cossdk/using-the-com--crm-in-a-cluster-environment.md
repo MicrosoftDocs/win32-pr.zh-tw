@@ -4,12 +4,12 @@ ms.assetid: 753461c5-880c-4df0-b552-b962dc06524f
 title: 在叢集環境中使用 COM + CRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14a05ff281748c35128349ef5d0d0f43d7beae86
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 31a2d0800f98c9453e7d4454cdd59185dffb837649e391ebc415c965bee6ff80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499528"
 ---
 # <a name="using-the-com-crm-in-a-cluster-environment"></a>在叢集環境中使用 COM + CRM
 

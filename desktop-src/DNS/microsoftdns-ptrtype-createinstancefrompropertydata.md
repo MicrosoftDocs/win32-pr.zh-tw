@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6123b503fff1548b7fee3f643920b49ebacf636c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3845f5ce05117ba8dc53ba856c3f102cc193c6d0fff672357b2e5eb94b77cc0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076792"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_ptrtype-class"></a>MicrosoftDNS PTRType 類別的 CreateInstanceFromPropertyData 方法 \_
 

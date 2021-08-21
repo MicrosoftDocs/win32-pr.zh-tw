@@ -9,12 +9,12 @@ keywords:
 - MCI (媒體控制介面) ，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38bfa06b23aab97a0c539c2f0d760252d4178b89
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c618c3673f9b68a806e690dab52760b5474a58dbdf83a68047a60d452506666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065668"
 ---
 # <a name="about-mci"></a>關於 MCI
 
@@ -30,9 +30,9 @@ MCI 為應用程式提供了與裝置無關的功能，可控制音訊和視覺�
 -   [特定裝置的 MCI 執行](mci-implementations-for-specific-devices.md)
 -   [裝置特定的命令集](device-specific-command-sets.md)
 
- 
+ 
 
- 
+ 
 
 
 

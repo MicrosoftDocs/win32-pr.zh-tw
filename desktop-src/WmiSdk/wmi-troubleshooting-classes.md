@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 疑難排解類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65b3972ba59c80a1495916ab24a72f6e93bef8e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9d3c5f1d40cd5da9e61ff289fc0b137ec7613ec8156fb0acc4f225e793a8407
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049856"
 ---
 # <a name="wmi-troubleshooting-classes"></a>WMI 疑難排解類別
 

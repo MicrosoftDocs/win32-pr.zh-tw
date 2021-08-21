@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 569861922514af88835fbb4e313dab3286b7c47d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fdbef5cc17a547e82dfa55876d927ef9fed87f106d9e5fa0d5d1c36a5ce269b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493918"
 ---
 # <a name="glgetpointerv-function"></a>glGetPointerv 函式
 
@@ -65,7 +65,7 @@ void WINAPI glGetPointerv(
 
 
 
-| Name                                                                                             | 意義                                       |
+| 名稱                                                                                             | 意義                                       |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl> | *pname* 不是可接受的值。<br/> |
 

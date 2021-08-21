@@ -1,6 +1,6 @@
 ---
 title: RequestReplyTcpClientWithWindowsTransportSecurityExample
-description: 此範例顯示傳送要求-回復訊息的 TCP 用戶端，並提供 Windows SSPI 傳輸安全性所提供的安全性。 它也會說明使用安全性權杖屬性的用戶端，以修改預設所允許的模擬等級。
+description: 此範例顯示的 TCP 用戶端會傳送要求-回復訊息，並 Windows SSPI 傳輸安全性所提供的安全性。 它也會說明使用安全性權杖屬性的用戶端，以修改預設所允許的模擬等級。
 ms.assetid: 8419e861-dc7f-41ca-96a4-b7c6d380a210
 keywords:
 - RequestReplyTcpClientWithWindowsTransportSecurityExample 原生 Web 服務
@@ -8,16 +8,16 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4216a05010c2e0fbca8ea0968314c2b61f4c3a2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1aa97da03ff62c704275d9f8094af40e34f49260fa5e13faf764559ebdf019ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083182"
 ---
 # <a name="requestreplytcpclientwithwindowstransportsecurityexample"></a>RequestReplyTcpClientWithWindowsTransportSecurityExample
 
-此範例顯示傳送要求-回復訊息的 TCP 用戶端，並提供 Windows SSPI 傳輸安全性所提供的安全性。 它也會說明使用安全性權杖屬性的用戶端，以修改預設所允許的模擬等級。
+此範例顯示的 TCP 用戶端會傳送要求-回復訊息，並 Windows SSPI 傳輸安全性所提供的安全性。 它也會說明使用安全性權杖屬性的用戶端，以修改預設所允許的模擬等級。
 
 -   [RequestReplyTcpClientWithWindowsTransportSecurity .cpp](#requestreplytcpclientwithwindowstransportsecuritycpp)
 -   [PurchaseOrder .wsdl](#purchaseorderwsdl)
@@ -584,9 +584,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

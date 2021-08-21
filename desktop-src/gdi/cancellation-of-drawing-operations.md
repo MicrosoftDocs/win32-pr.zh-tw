@@ -4,12 +4,12 @@ ms.assetid: 3beef852-27fe-4ee2-b38b-3dc50e5d2fcf
 title: 取消繪圖作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98e3bdb7a57c7c427e7cd15ffddb62b1c492c25b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ee2ddf90842ed7da612e046f8cc44bc8972b236232f3757bd31a295377eafab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470028"
 ---
 # <a name="cancellation-of-drawing-operations"></a>取消繪圖作業
 

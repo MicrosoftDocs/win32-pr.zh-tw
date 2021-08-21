@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dd375c3da85bd72bddfc97ed3f57e52103578441
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3f0269929cf7a854044e65c56080594dce7f44620099c68bb9399bd56c9b20f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504688"
 ---
 # <a name="delete-method-of-the-win32_scheduledjob-class"></a>Win32 Register-scheduledjob 類別的 Delete 方法 \_
 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3f0d7385499dcdf6e84c361de03950a4e78be0a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c65926c01c2ec4d2b333ba4800a355eeb42cf63d905c6c339a81b9b9ed97a891
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531338"
 ---
 # <a name="msvm_ethernetswitchportteammappingsettingdata-class"></a>Msvm \_ EthernetSwitchPortTeamMappingSettingData 類別
 

@@ -4,12 +4,12 @@ ms.assetid: e9704ea8-e67d-4278-b77e-1d4787224d52
 title: 核心交易管理員函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 221bcc13bb1cfb1f8cc67eb4d16f40a27799b921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce98208b6ac78795be95b7255e9f263971ad6f08237e75ac0ef661c38a0878a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535278"
 ---
 # <a name="kernel-transaction-manager-functions"></a>核心交易管理員函數
 

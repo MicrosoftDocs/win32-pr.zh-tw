@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 348384dd729c5c7e63a45fcb8b3f05d0189a7fec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22075c68ef30fda7360f25e76c84dbffbf7e306335a0ef20bda45559cb6dac09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472290"
 ---
 # <a name="ivmguestossuitemask-property"></a>IVMGuestOS：： SuiteMask 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 抓取虛擬機器中執行的客體作業系統 SuiteMask。
 
@@ -52,18 +52,18 @@ HRESULT get_SuiteMask(
 | 值                                                                                   | 意義                                                                                                                                                                |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>0x00000004</dt> </dl> | 已安裝 Microsoft BackOffice 元件。<br/>                                                                                                              |
-| <dl> <dt>"0x00000400"</dt> </dl> | 已安裝 Windows Server 2003 （Web Edition）。<br/>                                                                                                              |
-| <dl> <dt>"0x00004000"</dt> </dl> | 已安裝 Windows Server 2003、Compute Cluster Edition。<br/>                                                                                                  |
-| <dl> <dt>"0x00000080"</dt> </dl> | 已安裝 windows Server 2008 R2 Datacenter、Windows Server 2008 Datacenter、Windows Server 2003、Datacenter Edition 或 Windows 2000 Datacenter Server。<br/> |
-| <dl> <dt>0x00000002</dt> </dl> | 已安裝 windows Server 2008 R2 Enterprise、Windows Server 2008 Enterprise、Windows Server 2003、Enterprise Edition 或 Windows 2000 Advanced Server。<br/>   |
-| <dl> <dt>0x00000040</dt> </dl> | 已安裝 Windows XP Embedded。<br/>                                                                                                                           |
-| <dl> <dt>"0x00000200"</dt> </dl> | 已安裝 windows Vista Home Premium、Windows Vista Home Basic 或 Windows XP Home Edition。<br/>                                                              |
+| <dl> <dt>"0x00000400"</dt> </dl> | Windows伺服器2003，Web Edition 已安裝。<br/>                                                                                                              |
+| <dl> <dt>"0x00004000"</dt> </dl> | Windows已安裝 Server 2003、Compute Cluster Edition。<br/>                                                                                                  |
+| <dl> <dt>"0x00000080"</dt> </dl> | Windows已安裝 Server 2008 R2 datacenter、Windows server 2008 datacenter、Windows Server 2003、Datacenter Edition 或 Windows 2000 Datacenter Server。<br/> |
+| <dl> <dt>0x00000002</dt> </dl> | Windows已安裝 server 2008 R2 Enterprise、Windows server 2008 Enterprise、Windows Server 2003、Enterprise Edition 或 Windows 2000 Advanced Server。<br/>   |
+| <dl> <dt>0x00000040</dt> </dl> | Windows已安裝 XP Embedded。<br/>                                                                                                                           |
+| <dl> <dt>"0x00000200"</dt> </dl> | Windowsvista home 進階版、Windows vista home Basic 或 Windows XP home Edition 皆已安裝。<br/>                                                              |
 | <dl> <dt>0x00000100</dt> </dl> | 支援遠端桌面，但只支援一個互動式會話。<br/>                                                                                 |
 | <dl> <dt>0x00000001</dt> </dl> | Microsoft Small Business Server 已安裝在系統上，但可能已升級至另一個版本的 Windows。<br/>                                 |
 | <dl> <dt>0x00000020</dt> </dl> | Microsoft Small Business Server 會以強制的嚴格用戶端授權安裝。<br/>                                                                  |
-| <dl> <dt>0x00002000</dt> </dl> | 已安裝 windows Storage Server 2003 R2 或 Windows Storage Server 2003。<br/>                                                                                 |
+| <dl> <dt>0x00002000</dt> </dl> | 已安裝 Windows 儲存體 server 2003 R2 或 Windows 儲存體 server 2003。<br/>                                                                                 |
 | <dl> <dt>0x00000010</dt> </dl> | 已安裝遠端桌面服務。 一律會設定這個值。<br/>                                                                                             |
-| <dl> <dt>"0x00008000"</dt> </dl> | 已安裝 Windows Home Server。<br/>                                                                                                                           |
+| <dl> <dt>"0x00008000"</dt> </dl> | Windows已安裝 Home Server。<br/>                                                                                                                           |
 
 
 
@@ -89,7 +89,7 @@ HRESULT get_SuiteMask(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

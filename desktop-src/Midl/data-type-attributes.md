@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL、屬性、資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57fb2a97639fc17454bfd1cad60466ad277e18ab
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 85142c13d9b478c449bf07955b85dd586b6312d891e17699861afb5bc2cc658b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067368"
 ---
 # <a name="data-type-attributes"></a>資料類型屬性
 
@@ -31,11 +31,11 @@ ms.locfileid: "103675779"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

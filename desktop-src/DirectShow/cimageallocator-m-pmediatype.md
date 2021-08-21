@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7056b6bf4ea2b36f60ddc586e3ba528ca190a3e7
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 38c83e212696e665e7bb6c78337c32157e0393174b9e729232cdd728a082560f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074162"
 ---
 # <a name="cimageallocatorm_pmediatype-member"></a>CImageAllocator：： m \_ pMediaType 成員
 

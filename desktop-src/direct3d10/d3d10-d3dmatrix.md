@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 1df0d2171e828b14fba87f6587c604146360d0e2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7a8ba1b9d0aebf45ae376f6adbdf02dd4c3d8ff6590ecb49e5af8cd72d37a79f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498708"
 ---
 # <a name="d3dmatrix-structure"></a>D3DMATRIX 結構
 

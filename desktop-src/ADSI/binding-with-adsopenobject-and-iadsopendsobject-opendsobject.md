@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI、using、ADsOpenObject 和 IADsOpenDSObject Objdso.opendsobject 的系結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5a249aa3d51520d0d345b5a098f84480e5b5016
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d41ffe1e9ad0b8a78d1a8c563de250851a894012938682c4cfd0d0fd713f99bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082772"
 ---
 # <a name="binding-with-adsopenobject-and-iadsopendsobjectopendsobject"></a>使用 ADsOpenObject 和 IADsOpenDSObject：： Objdso.opendsobject 系結
 
@@ -25,9 +25,9 @@ ms.locfileid: "104024086"
 -   在每個系結作業中執行無伺服器系結或系結至相同的伺服器。
 -   從其中一個系結作業中保存物件參考，以維護開啟的會話。 釋放最後一個物件參考時，就會關閉會話。
 
-[**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) 和 [**IADsOpenDSObject：： objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) 使用 Windows NT 的 [安全性支援提供者介面 (SSPI)](/windows/desktop/SecAuthN/sspi) 以允許驗證選項的彈性。 使用這些介面的主要優點是為 Active Directory 用戶端提供不同類型的驗證，以及加密會話。 目前，ADSI 不允許傳入憑證。 因此，您可以使用 SSL 進行加密，然後使用 Kerberos、NTLM 或簡單驗證，視旗標在 *>dwreserved* 參數上的設定方式而定。
+[**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject)和 [**IADsOpenDSObject：： objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject)使用 Windows NT 的 [安全性支援提供者介面 (SSPI)](/windows/desktop/SecAuthN/sspi)以允許驗證選項的彈性。 使用這些介面的主要優點是為 Active Directory 用戶端提供不同類型的驗證，以及加密會話。 目前，ADSI 不允許傳入憑證。 因此，您可以使用 SSL 進行加密，然後使用 Kerberos、NTLM 或簡單驗證，視旗標在 *>dwreserved* 參數上的設定方式而定。
 
-雖然您一律會取得最高的喜好設定通訊協定，但是您無法在 ADSI 中要求特定的 SSPI 提供者。 在 Windows 用戶端系結至執行 Windows 的電腦時，此通訊協定為 Kerberos。 在網頁的案例中，不允許驗證憑證是可接受的，因為在執行網頁之前會先進行驗證。
+雖然您一律會取得最高的喜好設定通訊協定，但是您無法在 ADSI 中要求特定的 SSPI 提供者。 如果 Windows 用戶端系結至執行 Windows 的電腦，則此通訊協定為 Kerberos。 在網頁的案例中，不允許驗證憑證是可接受的，因為在執行網頁之前會先進行驗證。
 
 雖然開啟作業可讓您指定使用者和密碼，但您不應該這麼做。 相反地，請不要指定任何認證，並隱含地使用呼叫端安全性內容的認證。 若要使用呼叫端的認證搭配 [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) 或 [**IADsOpenDSObject：： objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject)系結至目錄物件，請指定 **Null** 做為使用者名稱和密碼。
 
@@ -38,11 +38,11 @@ ms.locfileid: "104024086"
 > [!Caution]  
 > 如果指定使用者名稱和密碼但未指定驗證旗標，則會透過網路以純文字傳輸使用者名稱和密碼，這會造成安全性風險。 請勿指定使用者名稱和密碼，而不指定驗證旗標。
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
-下列 Visual Basic 程式碼範例顯示如何使用 [**IADsOpenDSObject：： objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) 方法。
+下列 Visual Basic 程式碼範例顯示如何使用 [**IADsOpenDSObject：： objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject)方法。
 
 
 ```VB
@@ -124,6 +124,6 @@ if(SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ keywords:
 - 未排序的存取緩衝區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4b7a75ec95917a5ee819126e42dce3117994574
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: e6ab9e6f1677770b1a40766b846f4675df9eaa3809b42838783ddb834044bfe2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119566298"
 ---
 # <a name="new-resource-types"></a>新的資源類型
 
@@ -111,6 +111,6 @@ float4 myColor = mySb[27].Color;
 [計算著色器總覽](direct3d-11-advanced-stages-compute-shader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

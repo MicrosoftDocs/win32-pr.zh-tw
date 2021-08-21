@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 5d29448e2f8ae98c4e15d6c3a51747257d20c62b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f03b65a1ce009313b996fc7bede03f8c7425ff589fd29506c243f3161a851583
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938718"
 ---
 # <a name="inkrenderer-class"></a>InkRenderer 類別
 
@@ -59,7 +59,7 @@ ms.locfileid: "104195321"
 | [**GetViewTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform)                   | 抓取用來呈現筆墨的視圖轉換。<br/>                                                                                      |
 | [**InkSpaceToPixel**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel)                     | 將筆墨空間座標中的位置轉換成圖元空間。<br/>                                                                            |
 | [**InkSpaceToPixelFromPoints**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints) | 將筆墨空間座標中的點陣列轉換成圖元空間。<br/>                                                                          |
-| [**Measure**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measure)                                     | 計算裝置內容上的矩形，如果它們是使用 **InkRenderer** 物件繪製，則會包含筆劃集合。<br/> |
+| [**量值**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measure)                                     | 計算裝置內容上的矩形，如果它們是使用 **InkRenderer** 物件繪製，則會包含筆劃集合。<br/> |
 | [**MeasureStroke**](/windows/win32/api/msinkaut/nf-msinkaut-iinkrenderer-measurestroke)                         | 計算裝置內容上的矩形，如果它們是使用 **InkRenderer** 物件繪製，則會包含筆劃。<br/>                |
 | [**移動**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-move)                                           | 將翻譯套用至筆墨空間座標的視圖轉換。<br/>                                                                         |
 | [**PixelToInkSpace**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspace)                     | 將圖元座標中的位置轉換成筆墨空間。<br/>                                                                                  |
@@ -85,7 +85,7 @@ ms.locfileid: "104195321"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

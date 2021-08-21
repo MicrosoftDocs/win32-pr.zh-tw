@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4e594fd941fffecc836af26bd3d70cced82ddcaa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 16225ca289597bd8145e689912fd458a4f29d8aa4cc5ca68d6c3e0d0e3605ccc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586100"
 ---
 # <a name="cbasemediafilter-class"></a>CBaseMediaFilter 類別
 
@@ -31,21 +31,21 @@ ms.locfileid: "107000732"
 
 
 
-| 受保護的成員變數                                       | Description                                                  |
+| 受保護的成員變數                                       | 描述                                                  |
 |------------------------------------------------------------------|--------------------------------------------------------------|
 | [**m \_ 狀態**](cbasemediafilter-m-state.md)                     | 物件的目前狀態。                                 |
 | [**m \_ pClock**](cbasemediafilter-m-pclock.md)                   | 物件參考時鐘的指標。                     |
 | [**m \_ tStart**](cbasemediafilter-m-tstart.md)                   | 對應于資料流程時間0的參考時間。            |
 | [**m \_ clsid**](cbasemediafilter-m-clsid.md)                     | 物件 (CLSID) 的類別識別碼。                      |
 | [**m \_ pLock**](cbasemediafilter-m-plock.md)                     | 重要區段的指標。                               |
-| 公用方法                                                   | Description                                                  |
+| 公用方法                                                   | 描述                                                  |
 | [**CBaseMediaFilter**](cbasemediafilter-cbasemediafilter.md)    | 函式方法。                                          |
 | [**~ CBaseMediaFilter**](cbasemediafilter--cbasemediafilter.md) | 函式方法。 虛擬。                                  |
 | [**StreamTime**](cbasemediafilter-streamtime.md)                | 抓取目前的資料流程時間。 虛擬。                  |
 | [**IsActive**](cbasemediafilter-isactive.md)                    | 判斷物件是否為作用中， (執行中或已暫停) 。 |
-| IPersist 方法                                                 | Description                                                  |
+| IPersist 方法                                                 | 描述                                                  |
 | [**GetClassID**](cbasemediafilter-getclassid.md)                | 捕獲類別識別碼。                              |
-| IMediaFilter 方法                                             | Description                                                  |
+| IMediaFilter 方法                                             | 描述                                                  |
 | [**GetState**](cbasemediafilter-getstate.md)                    | 抓取物件的狀態 (執行中、已停止或已暫停) 。  |
 | [**SetSyncSource**](cbasemediafilter-setsyncsource.md)          | 設定物件的參考時鐘。                       |
 | [**GetSyncSource**](cbasemediafilter-getsyncsource.md)          | 抓取物件正在使用的參考時鐘。      |

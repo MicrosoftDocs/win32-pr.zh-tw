@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f4e4c5dc08f4e9ad27d7f4578ca5c82543253b57
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 972529480f7c63871d352685596e65a325080fd163dbeffcc556b39b71e86a03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064858"
 ---
 # <a name="invoke-method-of-the-cim_modifysettingaction-class"></a>CIM ModifySettingAction 類別的 Invoke 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: dd9edddb-d4d8-40de-85f5-34b2584ea853
 title: AepContainer. SupportsInformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3794fe070d67f84b9e05f6b26921de7892a095a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f29633b7efa7fb8edf7fe1ff1fc6f9d3c1440f5a2f53bd9bca17753ae807008
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938338"
 ---
 # <a name="systemdevicesaepcontainersupportsinformation"></a>AepContainer. SupportsInformation
 

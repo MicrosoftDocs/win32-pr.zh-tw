@@ -4,12 +4,12 @@ ms.assetid: 2ff58e01-cc47-4612-a3bc-a87ccb343bd2
 title: TAGID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e7d8b8a25633d3505936d105b0eef7ed38746ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cd4c65183170c7304bf05a670b1eadb3a5953d6f33b1f6415210f12db8898760
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075781"
 ---
 # <a name="tagid"></a>TAGID
 
@@ -48,8 +48,8 @@ typedef DWORD TAGID;
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

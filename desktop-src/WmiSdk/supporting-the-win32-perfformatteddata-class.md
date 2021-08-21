@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 支援 Win32_PerfFormattedData 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54911105f5c485d3a80ddb93b96f0af2637c9506
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bbed50bde7ef16f6362d28151744cf22d66e5d0f56df253ad48ab469b397d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106995866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050126"
 ---
 # <a name="supporting-the-win32_perfformatteddata-class"></a>支援 Win32 \_ PerfFormattedData 類別
 

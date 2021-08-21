@@ -11,12 +11,12 @@ keywords:
 - IWMPEffects 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ed6efa5cc9a0697653e558f27165b66d5f230fd
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 73392204357ec856c5c04f2a0f24028ea29e5f09c3aa203d95ed8e2cc7e4ded3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508928"
 ---
 # <a name="implementing-other-functions"></a>執行其他函數
 
@@ -41,7 +41,7 @@ ms.locfileid: "104374486"
 
 
 
- 
+ 
 
 **IWMPEffects2** 介面支援下列其他功能：
 
@@ -58,7 +58,7 @@ ms.locfileid: "104374486"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -67,9 +67,9 @@ ms.locfileid: "104374486"
 [**執行您的程式碼**](implementing-your-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

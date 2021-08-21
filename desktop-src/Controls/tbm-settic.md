@@ -3,7 +3,7 @@ title: 'TBM_SETTIC 訊息 (Commctrl .h) '
 description: 在指定的邏輯位置的 [查看] 中設定刻度。
 ms.assetid: 89b42cac-967e-40c7-9fab-2bd76f06f3f9
 keywords:
-- TBM_SETTIC message Windows 控制項
+- TBM_SETTIC 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a42839157125c8def28a19dd9c2ccce21d3b96c3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74f286a2f03e318629a10651d066da5aa6cfe70aa293f242ad7508d0ef4739a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540018"
 ---
 # <a name="tbm_settic-message"></a>TBM \_ SETTIC 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104094171"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

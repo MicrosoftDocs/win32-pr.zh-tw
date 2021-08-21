@@ -23,21 +23,21 @@ keywords:
 - VML 圖形，具現化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cfa7ec47dde492231e8bcd54f68e4637454613b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f6d815d9f5f911e1a34d558496881ae606819d328a501c635ff463a84f2926ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512643"
 ---
 # <a name="using-the-shapetype-element"></a>使用 Shapetype 元素
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 在本主題中，我們將說明如何使用 `<shapetype>` 元素來定義您自己的常用圖形，然後從 shapetype 中具現化或建立圖形。
 
@@ -140,6 +140,6 @@ path="m10860,2187c10451,1746,9529,1018,9015,730,7865,152,6685,,5415,,4175,
 
 如需此元素的詳細資訊，請參閱 [VML 規格](https://www.w3.org/TR/NOTE-VML#-toc416858387) 。
 
- 
+ 
 
- 
+ 

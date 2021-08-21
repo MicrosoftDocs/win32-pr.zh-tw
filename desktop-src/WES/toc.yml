@@ -55,7 +55,7 @@
           href: accessing-remote-computers.md
         - name: 將事件儲存至記錄檔
           href: saving-events-to-a-log-file.md
-    - name: Windows 事件記錄檔參考
+    - name: Windows事件記錄檔參考
       href: windows-event-log-reference.md
       items:
         - name: EventManifest 架構
@@ -481,13 +481,13 @@
                   href: queryschema-querylisttype-complextype.md
                 - name: QueryType 複雜類型
                   href: queryschema-querytype-complextype.md
-        - name: Windows 事件記錄檔常數
+        - name: Windows事件記錄檔常數
           href: windows-event-log-constants.md
-        - name: Windows 事件記錄檔資料類型
+        - name: Windows事件記錄檔資料類型
           href: windows-event-log-data-types.md
-        - name: Windows 事件記錄檔錯誤常數
+        - name: Windows事件記錄檔錯誤常數
           href: windows-event-log-error-constants.md
-        - name: Windows 事件記錄檔列舉
+        - name: Windows事件記錄檔列舉
           href: windows-event-log-enumerations.md
           items:
             - name: EVT_CHANNEL_CLOCK_TYPE
@@ -538,7 +538,7 @@
               href: /windows/win32/api/WinEvt/ne-winevt-evt_system_property_id
             - name: EVT_VARIANT_TYPE
               href: /windows/win32/api/WinEvt/ne-winevt-evt_variant_type
-        - name: Windows 事件記錄檔函數
+        - name: Windows事件記錄檔函數
           href: windows-event-log-functions.md
           items:
             - name: EVT_SUBSCRIBE_CALLBACK
@@ -613,14 +613,14 @@
               href: /windows/desktop/api/WinEvt/nf-winevt-evtsubscribe
             - name: EvtUpdateBookmark
               href: /windows/desktop/api/WinEvt/nf-winevt-evtupdatebookmark
-        - name: Windows 事件記錄檔結構
+        - name: Windows事件記錄檔結構
           href: windows-event-log-structures.md
           items:
             - name: EVT_RPC_LOGIN
               href: /windows/win32/api/WinEvt/ns-winevt-evt_rpc_login
             - name: EVT_VARIANT
               href: /windows/win32/api/WinEvt/ns-winevt-evt_variant
-        - name: Windows 事件記錄檔工具
+        - name: Windows事件記錄檔工具
           href: windows-event-log-tools.md
           items:
             - name: '訊息編譯器 (MC.exe) '

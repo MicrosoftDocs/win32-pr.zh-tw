@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e6155bbd4a3b21b86add57d13bc14a1185c76b73
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: fc0ff4fab514ac283e88f9b6c44253a34708628d0bf7e4e617673570ca317d87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104974738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043446"
 ---
 # <a name="samplebiassamplebiassfloatfloatintfloatuint-function-for-texture3d"></a>Texture3D 的 SampleBias：： SampleBias (S、float、float、int、float、uint) 函數
 

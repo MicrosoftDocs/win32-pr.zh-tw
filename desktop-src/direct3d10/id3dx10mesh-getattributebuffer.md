@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 161711cd28dae790fd25ff8dd192945a366e9dd5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1368ad4e783a047b6cc0e9d1e6cb47b6bd9653e3122ff10c16adbd4dc20b3839
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046946"
 ---
 # <a name="id3dx10meshgetattributebuffer-method"></a>ID3DX10Mesh：： GetAttributeBuffer 方法
 

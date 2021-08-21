@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 35622bc62804f012b4ac858f56b336dc60fbbac5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3c8c824c994cf852bc1d18eec33c4ce169b2c0ac824fc954f7207476b6a87ac1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044976"
 ---
 # <a name="d3dxloadmeshfromx-function"></a>D3DXLoadMeshFromX 函式
 

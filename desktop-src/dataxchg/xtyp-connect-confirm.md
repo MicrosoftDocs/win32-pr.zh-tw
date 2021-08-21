@@ -3,7 +3,7 @@ title: 'XTYP_CONNECT_CONFIRM 交易 (Ddeml .h) '
 description: 動態資料交換 (的 DDE) server 回呼函式 DdeCallback，會收到 XTYP \_ CONNECT \_ confirm 交易，以確認已與用戶端建立交談，以及為伺服器提供交談控制碼。
 ms.assetid: 4db67539-9322-44d7-bf2b-749bd6cfcbb4
 keywords:
-- XTYP_CONNECT_CONFIRM 交易資料交換
+- XTYP_CONNECT_CONFIRM 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e880dfffc7f7825c99ab9e4e3bf980baa978b786
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a0259540801a49bc631dc60e33979a8730b46bdfc06ac81142098e851b8a51a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499074"
 ---
 # <a name="xtyp_connect_confirm-transaction"></a>XTYP \_ CONNECT \_ 確認交易
 
@@ -108,7 +108,7 @@ ms.locfileid: "104384778"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1c2132dedb34fe71db30bf82b1c6d336f110a8f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 905fb9fb439dcf613e5abfee22f03bf968c81838c89af17d72e7f4a74d887c6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046596"
 ---
 # <a name="id3dx11effectgetgroupbyname-method"></a>ID3DX11Effect：： GetGroupByName 方法
 

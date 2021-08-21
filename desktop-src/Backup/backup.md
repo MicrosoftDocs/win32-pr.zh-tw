@@ -8,12 +8,12 @@ keywords:
 - 還原作業備份
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 689a5a4613bdf029b270947b523727ea00a6e05d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5efe2668df47c271aba5befc3ba380c313b7bc15c11162a29b8364be6eb3fead
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588888"
 ---
 # <a name="backup"></a>備份
 
@@ -34,6 +34,6 @@ Srdelayed 工具可以讓系統狀態修復應用程式移動、刪除和設定�
 [備份參考](backup-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

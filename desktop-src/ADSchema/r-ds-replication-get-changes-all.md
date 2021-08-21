@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0c80a82fdc28cc5675da9591c8039503e8b332
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 552fc61e40e39e6696d2acfd8d6ecc9d44c44aa345ffd888d1e30193a40e05cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532088"
 ---
 # <a name="ds-replication-get-changes-all-extended-right"></a>DS-複寫-取得-變更-全部延伸許可權
 
@@ -49,7 +49,7 @@ ms.locfileid: "103935583"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 62                                                                                                                               |
 
 
@@ -60,7 +60,7 @@ ms.locfileid: "103935583"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 62                                                                                                                               |
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "103935583"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 62                                                                                                                               |
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "103935583"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 62                                                                                                                               |
 
 
@@ -93,7 +93,7 @@ ms.locfileid: "103935583"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 62                                                                                                                               |
 
 
@@ -104,7 +104,7 @@ ms.locfileid: "103935583"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 62                                                                                                                               |
 
 

@@ -7,12 +7,12 @@ keywords:
 - 背景智慧型傳送服務，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bed5fba3d7857d283d7ac033b287f0d2b97c356d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3dd8998043ec59ec3764608e40b5f0ec614eac4d9df9f6af5bbb7c78df2b573e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528928"
 ---
 # <a name="bits-reference"></a>BITS 參考
 
@@ -27,9 +27,9 @@ ms.locfileid: "103931919"
 
 如需有關 BITS 的一般資訊，請參閱 [bits 起始頁面](background-intelligent-transfer-service-portal.md)。
 
- 
+ 
 
- 
+ 
 
 
 

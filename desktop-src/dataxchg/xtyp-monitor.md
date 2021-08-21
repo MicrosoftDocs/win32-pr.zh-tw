@@ -1,9 +1,9 @@
 ---
 title: 'XTYP_MONITOR 交易 (Ddeml .h) '
-description: 當系統中發生 DDE 事件時，動態資料交換 (DDE) 偵錯工具的 DDE 回呼函式 DdeCallback 接收 XTYP \_ 監視器交易。
+description: 當系統中發生 dde 事件時，動態資料交換 (dde) 偵錯工具的 dde 回呼函式 DdeCallback 接收 XTYP \_ 監視器交易。
 ms.assetid: a27791b1-c1b4-4516-b050-71da164fa80a
 keywords:
-- XTYP_MONITOR 交易資料交換
+- XTYP_MONITOR 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6a1cb86a1cbf7e0c02c082719e0a7d302d03975
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11a86235c2964bbd09d51ce3adc2e602e23fed09597df14721e92e76c0cd8109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047256"
 ---
 # <a name="xtyp_monitor-transaction"></a>XTYP \_ 監視交易
 
-當系統中發生 DDE 事件時，動態資料交換 (DDE) 偵錯工具的 DDE 回呼函式 [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)接收 **XTYP \_ 監視器** 交易。 若要接收此交易，應用程式必須在呼叫 [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea)函式時指定 **APPCLASS \_ 監視器** 值。
+當系統中發生 dde 事件時，動態資料交換 (dde) 偵錯工具的 dde 回呼函式 [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)接收 **XTYP \_ 監視器** 交易。 若要接收此交易，應用程式必須在呼叫 [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea)函式時指定 **APPCLASS \_ 監視器** 值。
 
 
 ```C++
@@ -122,7 +122,7 @@ DDE 事件。 此參數可以是下列其中一個值。
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 
