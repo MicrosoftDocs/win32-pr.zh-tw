@@ -4,16 +4,16 @@ ms.assetid: d9a04cc4-9b7d-4b01-918f-e4938c172b8e
 title: 'CallQualityProperty 列舉 (Ipmsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2ca3af31e0b85a443bb34ac1992b3d3b5c89bfa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 767a322d4a65b09acbcf1ff6e0ad4bad84c4a653f2d0f5fd1b207e99592315aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118869833"
 ---
 # <a name="callqualityproperty-enumeration"></a>CallQualityProperty 列舉
 
-\[ 此列舉無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[此列舉無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 [**ITCallQualityControl：： GetRange**](itcallqualitycontrol-getrange.md)、 [**ITCallQualityControl：： Get**](itcallqualitycontrol-get.md)和 [**ITCallQualityControl：： Set**](itcallqualitycontrol-set.md)方法會使用 **CallQualityProperty** 列舉來指出要處理的呼叫品質屬性。
 

@@ -23,12 +23,12 @@ api_type:
 - Schema
 api_location:
 - Root\snmp\SMIR
-ms.openlocfilehash: e21fcc32976c42f41cd33a519e5fa6c684acdfc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8da8533e9ac5c86dfa3291092fb5165b94e2e393e507c55f15b64c1e30cd6a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118816538"
 ---
 # <a name="snmpextendednotification-class"></a>SnmpExtendedNotification 類別
 
@@ -131,7 +131,7 @@ class SnmpExtendedNotification : __ExtrinsicEvent
 存取類型：唯讀
 </dt> </dl>
 
-與 PDU 實例相關聯的群體名稱。 群體名稱會驗證 PDU 的建立者。 這個屬性對 SNMPv1 和 SNMPv2C 都有效。
+與 PDU 實例相關聯的 Community 名稱。 群體名稱會驗證 PDU 的建立者。 這個屬性對 SNMPv1 和 SNMPv2C 都有效。
 
 </dd> <dt>
 
@@ -147,7 +147,7 @@ class SnmpExtendedNotification : __ExtrinsicEvent
 限定詞： **文字 \_ 慣例** ( "OBJECTIDENTIFIER" ) ， **編碼** ( "OBJECTIDENTIFIER" ) ， **物件 \_ 語法** ( "OBJECTIDENTIFIER" ) ， **物件 \_ 識別碼** ( "1.3.6.1.6.3.1.1.4.1" ) 
 </dt> </dl>
 
-此通知的授權識別。 直接對應到 MIB 專案 SnmpTrapOID 變數系結。 這個屬性僅適用于 SNMPv2C。
+此通知的授權識別。 直接地圖至 MIB 專案 SnmpTrapOID 變數系結。 這個屬性僅適用于 SNMPv2C。
 
 </dd> <dt>
 
@@ -199,7 +199,7 @@ class SnmpExtendedNotification : __ExtrinsicEvent
 
 包含名為 **TimeStamp** 或 **識別** 之 [物件類型](object-type-macro.md)宏參考的 [通知類型](notification-type-macro.md)宏會導致對應衝突。 如果發生這種衝突，就會優先使用必要的屬性，而且必須重新命名衝突的參考。
 
-包含名為「**社區**」之 [物件類型](object-type-macro.md)宏參考的 [通知類型](notification-type-macro.md)宏會導致對應衝突。 如果發生這種衝突，就會優先使用必要的屬性，而且必須重新命名衝突的參考。
+包含名為 **Community** 之 [物件類型](object-type-macro.md)宏參考的 [通知類型](notification-type-macro.md)宏會導致對應衝突。 如果發生這種衝突，就會優先使用必要的屬性，而且必須重新命名衝突的參考。
 
 ## <a name="requirements"></a>規格需求
 

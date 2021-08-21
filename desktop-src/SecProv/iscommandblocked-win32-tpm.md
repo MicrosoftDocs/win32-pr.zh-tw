@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 2811b7daad23b60692039683b117e2a3d51489ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25feef7de3d23a843983d9a0ef6dd6d828fe14784fe5e25883d3ff1b4e6ef783
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891889"
 ---
 # <a name="iscommandblocked-method-of-the-win32_tpm-class"></a>Win32 Tpm 類別的 IsCommandBlocked 方法 \_
 
@@ -266,8 +266,8 @@ uint32 IsCommandBlocked(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                      |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

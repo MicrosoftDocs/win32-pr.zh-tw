@@ -4,12 +4,12 @@ ms.assetid: 089f42f2-1e5b-4d4b-98a4-9ef0ca2823c1
 title: 關於 YUV 影片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b57b4a453870af34c221683bdaf613b5038081d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3499a8adfe1a43a22fe9bdd9ff4e576b7a14c398a9dafc0b945647d7225ad581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744239"
 ---
 # <a name="about-yuv-video"></a>關於 YUV 影片
 

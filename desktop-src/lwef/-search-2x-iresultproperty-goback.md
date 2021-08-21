@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e896b57fecf123780243e91c462fe4ea2cbcfd22
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a42ddd5104f795716c834ec10261ebd95a3cf9373d1ff0fd632fda0febf29bfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106986716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118755096"
 ---
 # <a name="iresultpropertygoback-method"></a>IResultProperty：： GoBack 方法
 

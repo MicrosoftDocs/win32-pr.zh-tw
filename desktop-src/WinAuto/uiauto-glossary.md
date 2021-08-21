@@ -1,18 +1,18 @@
 ---
-title: " (Windows 協助工具功能的詞彙) "
+title: '詞彙 (Windows 協助工具功能) '
 description: 詞彙頁面
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: c45583f2-a6e8-4a01-9577-9b604b5bbc62
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16679c63f0716058e53c7c9d164a24593c481dff
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ab29ee66c3aa943b4be8708cec237d9a22d0d60b4fdac21c2176206f241afc16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106967510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118827312"
 ---
-# <a name="glossary-windows-accessibility-features"></a> (Windows 協助工具功能的詞彙) 
+# <a name="glossary-windows-accessibility-features"></a>詞彙 (Windows 協助工具功能) 
 
 ## <a name="a"></a>A
 
@@ -396,7 +396,7 @@ COM 介面，其中包含 Microsoft Active Accessibility 的所有方法和屬�
 **消費者介面自動化架構**
 </dt> <dd>
 
-整數的 Windows 元件，可支援以程式設計方式存取桌面上大部分的 UI 元素。 它可讓您的輔助技術產品（例如螢幕讀取器）提供使用者介面的相關資訊給使用者，以及透過標準輸入以外的方式操作 UI。 消費者介面自動化也可讓自動化測試腳本與 UI 互動。
+支援以程式設計方式存取桌面上大部分 UI 元素的整數 Windows 元件。 它可讓您的輔助技術產品（例如螢幕讀取器）提供使用者介面的相關資訊給使用者，以及透過標準輸入以外的方式操作 UI。 消費者介面自動化也可讓自動化測試腳本與 UI 互動。
 
 </dd> <dt>
 
@@ -417,7 +417,7 @@ COM 介面，其中包含 Microsoft Active Accessibility 的所有方法和屬�
 **消費者介面自動化樹狀結構**
 </dt> <dd>
 
-Windows 桌面上所有消費者介面自動化元素的階層式標記法。 樹狀結構包含代表目前桌面的根項目，以及其子項目代表應用程式視窗的根項目。 每個子專案都可以包含代表 UI 片段的元素，例如功能表、按鈕、工具列和清單方塊。 這些元素可以包含專案，例如清單專案。
+Windows 桌面上所有消費者介面自動化元素的階層式標記法。 樹狀結構包含代表目前桌面的根項目，以及其子項目代表應用程式 Windows 的根項目。 每個子專案都可以包含代表 UI 片段的元素，例如功能表、按鈕、工具列和清單方塊。 這些元素可以包含專案，例如清單專案。
 
 </dd> <dt>
 

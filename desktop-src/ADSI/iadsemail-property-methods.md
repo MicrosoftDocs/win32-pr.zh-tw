@@ -21,12 +21,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1956d5544b36cdaefcdd9d712ae99001d42279d0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8b857eab4fee357b67f796a6289a62e887f9c12a5579c233144a39f935d5ed35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691591"
 ---
 # <a name="iadsemail-property-methods"></a>IADsEmail 屬性方法
 
@@ -64,7 +64,7 @@ HRESULT put_Address(
 
 </dt> </dl> </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl>
 
 電子郵件訊息的類型。

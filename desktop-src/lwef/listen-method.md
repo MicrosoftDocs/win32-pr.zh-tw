@@ -4,16 +4,16 @@ description: 接聽方法
 ms.assetid: ceb3b62f-2a33-4a13-b608-4cfa800be38a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6813fb155074c4cc47a51ec7241eddd332edbcc3
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bc87a57d1ebdd3f36a2d56d85e0754f5005fd6c356fc9af98760bd0db90605f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118748658"
 ---
 # <a name="listen-method"></a>接聽方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104023347"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式。***字元 * **** * * (」CharacterID * * * ) 。接聽* *  *狀態*
+*agent. ***字元 * * * * ( "**_CharacterID_*_" ) 。接聽_ *  *狀態*
 
 
 

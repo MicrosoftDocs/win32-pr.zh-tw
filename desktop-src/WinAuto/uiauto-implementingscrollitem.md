@@ -15,12 +15,12 @@ keywords:
 - 介面，IScrollItemProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7233dfe649d166a3172ff2dda3122895f259abcc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a677a761c01afb5ad6feaf04df0197299a528a22741c0bd8ff72c02f45c74b0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826888"
 ---
 # <a name="scrollitem-control-pattern"></a>ScrollItem 控制項模式
 
@@ -52,7 +52,7 @@ ms.locfileid: "104183643"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的屬性或事件。
 
@@ -72,9 +72,9 @@ ms.locfileid: "104183643"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

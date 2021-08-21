@@ -4,12 +4,12 @@ ms.assetid: 209b3024-60cf-47e0-8738-cd7795e38c2a
 title: PageMediaSizeMediaSizeHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 547077e7a63d91d6db43e8ebf6225a771bf237d8
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 60cd6b0630da5a05f29fbeeaefd6aa0f43d35622130201fbca6ba0602703da91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732651"
 ---
 # <a name="pagemediasizemediasizeheight"></a>PageMediaSizeMediaSizeHeight
 
@@ -24,7 +24,7 @@ ms.locfileid: "112395793"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|-----------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                   |
 | 範圍前置詞 <br/> | 頁面<br/>                                           |
@@ -77,9 +77,9 @@ ms.locfileid: "112395793"
 | DefaultValue<br/> | 整數<br/> | 未定義<br/>       |
 | MaxValue<br/>     | 整數<br/> | 未定義<br/>       |
 | MinValue<br/>     | 整數<br/> | 未定義<br/>       |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| Unittype.pixel 表示<br/>     | string<br/>  | 微米<br/>         |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 微米<br/>         |
 
 
 

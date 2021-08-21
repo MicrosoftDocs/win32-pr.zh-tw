@@ -4,12 +4,12 @@ ms.assetid: 8c7d38e0-1863-461f-9225-7a0b419532a3
 title: '通道 (電話語音 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b793a23c945cad79c9e2401ab6944302e908fd73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f15c6ede88635bdd93fe5a06955c91a0a13286731ff02310f0b690f9bd01445
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118869697"
 ---
 # <a name="channel-telephony-api"></a>通道 (電話語音 API) 
 

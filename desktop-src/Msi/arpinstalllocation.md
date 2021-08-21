@@ -4,12 +4,12 @@ ms.assetid: f4635241-ac18-4bc5-b043-c6e42c0b456e
 title: ARPINSTALLLOCATION 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69e4e94cf4eb07b00a5534bf9b8b366ef361c6e4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 011f77e79f3e2acd8abd7862e249c3a2daeab6c7b2b1b04d109352a1f8d4b08e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639430"
 ---
 # <a name="arpinstalllocation-property"></a>ARPINSTALLLOCATION 屬性
 
@@ -25,7 +25,7 @@ ms.locfileid: "106975726"
 
 | 需求 | 值 |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

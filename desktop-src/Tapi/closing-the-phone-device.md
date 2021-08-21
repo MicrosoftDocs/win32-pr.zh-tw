@@ -4,12 +4,12 @@ ms.assetid: 7607d779-0715-48a3-a4f2-bcf07026d7c5
 title: 關閉電話裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f137004e63b4b377e9ee88266d11f9c2b21d0af7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d7e80f3a3869df8ff508d5f4b8d9cb05f493ea0bda4e8ff0ca619d46618e7c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118869449"
 ---
 # <a name="closing-the-phone-device"></a>關閉電話裝置
 

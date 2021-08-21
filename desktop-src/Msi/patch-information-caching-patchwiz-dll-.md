@@ -4,12 +4,12 @@ ms.assetid: 8be9a83a-8c36-43f5-8dda-05fc2f3ce0d2
 title: '修補資訊快取 (Patchwiz.dll) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7000efceea62e9eef122a34f7700622e1e6e2e60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71513ea1a9418506bbf9025f66a1689c12e9a53f8e6f2e713ddeb3b3d55de580
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942619"
 ---
 # <a name="patch-information-caching-patchwizdll"></a>修補資訊快取 (Patchwiz.dll) 
 

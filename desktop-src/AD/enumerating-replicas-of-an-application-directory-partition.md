@@ -8,12 +8,12 @@ keywords:
 - 應用程式目錄分割廣告，列舉的複本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1415c147fe4320e5f8169487a656db4f365f03a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b52ff0ea5c2b4737079f4a44997f39dd027299f50c8acd96fe0456b0e5b60d03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694885"
 ---
 # <a name="enumerating-replicas-of-an-application-directory-partition"></a>列舉應用程式目錄分割的複本
 
@@ -28,6 +28,6 @@ ms.locfileid: "103933077"
 
 由於複寫延遲和已排程的 KCC 執行延遲，應用程式目錄分割的實際作用中複本可能不符合相互 [**引用**](/windows/desktop/ADSchema/c-crossref)物件的 [使用 [**NC-複本位置**](/windows/desktop/ADSchema/a-msds-nc-replica-locations)] 屬性所指示的網域控制站清單。 若要判斷應用程式目錄分割的實際使用中複本，更精確但較不有效率的方式是搜尋樹系中具有 [**hasMasterNCs**](/windows/desktop/ADSchema/a-msds-hasmasterncs)屬性的所有 [**nTDSDSA**](/windows/desktop/ADSchema/c-ntdsdsa)物件，其中包含應用程式目錄分割的辨別名稱。 **HasMasterNCs** 屬性包含網域控制站所裝載之所有可寫入目錄分割的辨別名稱，包括應用程式目錄分割。
 
- 
+ 
 
- 
+ 

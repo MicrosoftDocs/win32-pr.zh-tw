@@ -8,12 +8,12 @@ keywords:
 - 自訂通用對話方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7eaa71c4f6fc6aa038ef150eb53935f6b3ec280
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6272cbff88b7544ea945851f4f347cb43031b93ae08852bc139c7fb7ca6dd91d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786118"
 ---
 # <a name="customizing-common-dialog-boxes"></a>自訂通用對話方塊
 
@@ -42,7 +42,7 @@ ms.locfileid: "104382646"
 |-------------------------------|---------------|--------------|
 | **色彩**                     | Color. d     | ColorDlg。h   |
 | **Find**                      | Findtext，d  | Dlgs。h       |
-| **字型**                      | 字型. d      | Dlgs。h       |
+| **Font**                      | 字型. d      | Dlgs。h       |
 | **開啟** (多重選取)  | Fileopen，d  | Dlgs。h       |
 | **開啟** (單一選取)    | Fileopen，d  | Dlgs。h       |
 | **設定列印格式**                | Prnsetup，d  | Dlgs。h       |
@@ -92,7 +92,7 @@ ms.locfileid: "104382646"
 |------------------------------------------|-----------------------------------------------------|
 | **色彩**                                | [*CCHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcchookproc)                      |
 | **尋找** 或 **取代**                  | [*FRHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpfrhookproc)                      |
-| **字型**                                 | [*CFHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)                      |
+| **Font**                                 | [*CFHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)                      |
 | **開啟** 或 **另存為** (Explorer 樣式的)  | [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)                    |
 | **開啟** 或 **另存為** (舊樣式的)       | [*OFNHookProcOldStyle*](/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)) |
 | **Print**                                | [*PrintHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpprinthookproc)                |
@@ -120,18 +120,18 @@ ms.locfileid: "104382646"
 | Contants                               | 使用                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**COLOROKSTRING**](colorokstring.md) | 當使用者選取色彩，然後按一下 [**確定]** 按鈕時，[**色彩**] 對話方塊會將此訊息傳送至攔截程式。 攔截程式可以接受色彩或拒絕它，並強制對話方塊維持開啟狀態。                                                                                                                                                                                             |
-| [**FILEOKSTRING**](fileokstring.md)   | 當使用者選取檔案名，然後按一下 [確定] 按鈕時，[**開啟**] 或 **[** **另存** 新檔] 對話方塊會將此訊息傳送到攔截程式。 攔截程式可以接受檔案名，或將它拒絕，然後強制對話方塊保持開啟狀態。 若為 Explorer 樣式的 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊，此訊息已由 [**CDN \_ FILEOK**](cdn-fileok.md) 通知訊息取代。<br/> |
+| [**FILEOKSTRING**](fileokstring.md)   | 當使用者選取檔案名，然後按一下 [確定] 按鈕時，[**開啟**] 或 **[** **另存** 新檔] 對話方塊會將此訊息傳送到攔截程式。 攔截程式可以接受檔案名，或將它拒絕，然後強制對話方塊保持開啟狀態。 若為 Explorer 樣式的 [**開啟**] 和 [**另存** 新檔] 對話方塊，此訊息已被 [**CDN \_ FILEOK**](cdn-fileok.md)通知訊息取代。<br/> |
 | [**FINDMSGSTRING**](findmsgstring.md) | 當使用者按一下 [**尋找下一個**]、[**取代**] 或 [**全部取代**]，或關閉對話方塊時，[**尋找** 或 **取代**] 對話方塊會將此訊息傳送至其父視窗的視窗程式。 訊息的 *lParam* 參數是 [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) 結構的指標，其中包含使用者的輸入。                                                                               |
-| [**HELPMSGSTRING**](helpmsgstring.md) | 當使用者按一下 [說明] 按鈕 **時，所有** 通用對話方塊都會將此訊息傳送至其父視窗的視窗程式。 針對 Explorer 樣式的 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊，此訊息已由 [**CDN \_ 說明通知**](cdn-help.md) 訊息取代。<br/>                                                                                                                    |
-| [**LBSELCHSTRING**](lbselchstring.md) | [ **開啟** ] 或 [ **另存** 新檔] 對話方塊會在使用者變更 [ **檔案名** ] 清單方塊中的選取專案時，將此訊息傳送到攔截程式。 若為 Explorer 樣式的 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊，此訊息已由 [**CDN \_ SELCHANGE**](cdn-selchange.md) 通知訊息取代。<br/>                                                                                           |
+| [**HELPMSGSTRING**](helpmsgstring.md) | 當使用者按一下 [說明] 按鈕 **時，所有** 通用對話方塊都會將此訊息傳送至其父視窗的視窗程式。 若為 Explorer 樣式的 [**開啟**] 和 [**另存** 新檔] 對話方塊，此訊息已由 [**CDN \_ 說明通知**](cdn-help.md)訊息取代。<br/>                                                                                                                    |
+| [**LBSELCHSTRING**](lbselchstring.md) | [ **開啟** ] 或 [ **另存** 新檔] 對話方塊會在使用者變更 [ **檔案名** ] 清單方塊中的選取專案時，將此訊息傳送到攔截程式。 若為 Explorer 樣式的 [**開啟**] 和 [**另存** 新檔] 對話方塊，此訊息已被 [**CDN \_ SELCHANGE**](cdn-selchange.md)通知訊息取代。<br/>                                                                                           |
 | [**SETRGBSTRING**](setrgbstring.md)   | 攔截程式可以將此訊息傳送至 [ **色彩** ] 對話方塊，以設定目前的色彩選取範圍。                                                                                                                                                                                                                                                                                                                   |
-| [**SHAREVISTRING**](sharevistring.md) | 當使用者按一下 [**確定]** 按鈕時，如果選取的檔案發生共用違規，[**開啟**] 或 [**另存** 新檔] 對話方塊會將此訊息傳送至攔截程式。 若為 Explorer 樣式的 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊，此訊息已由 [**CDN \_ SHAREVIOLATION**](cdn-shareviolation.md) 通知訊息取代。<br/>                                                        |
+| [**SHAREVISTRING**](sharevistring.md) | 當使用者按一下 [**確定]** 按鈕時，如果選取的檔案發生共用違規，[**開啟**] 或 [**另存** 新檔] 對話方塊會將此訊息傳送至攔截程式。 若為 Explorer 樣式的 [**開啟**] 和 [**另存** 新檔] 對話方塊，此訊息已被 [**CDN \_ SHAREVIOLATION**](cdn-shareviolation.md)通知訊息取代。<br/>                                                        |
 
 
 
  
 
-某些常見的對話方塊會傳送和接收其他視窗訊息。 [**字型**] 對話方塊的 [攔截程式] 可將任何 **WM \_ CHOOSEFONT \_ \*** 訊息傳送至 [**字型**] 對話方塊。 如需詳細資訊，請參閱 [ [字型] 對話方塊](font-dialog-box.md)。 如果您已啟用 [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook)攔截 **程式**，則 [版面設定] 對話方塊會傳送 **WM \_ PSD \_ \*** 訊息。 如需詳細資訊，請參閱版面 [設定對話方塊](page-setup-dialog-box.md)。
+某些常見的對話方塊會傳送和接收其他視窗訊息。 [**字型**] 對話方塊的 [攔截程式] 可將任何 **WM \_ CHOOSEFONT \_ \* *_ 訊息傳送至 [_* 字型**] 對話方塊。 如需詳細資訊，請參閱 [ [字型] 對話方塊](font-dialog-box.md)。 如果您已啟用 [_PagePaintHook *](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook)攔截程式，則 [版面 **設定**] 對話方塊會傳送 **WM \_ PSD \_ \** _ 訊息。 如需詳細資訊，請參閱版面 [設定對話方塊](page-setup-dialog-box.md)。
 
 Explorer 樣式的 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊支援一組預先定義的訊息。 其中包括以 [**WM \_ 通知**](../controls/wm-notify.md) 訊息形式傳送至您的攔截程式訊息的通知訊息，以及您的攔截程式可傳送至對話方塊的訊息。 如需這些訊息的完整清單，請參閱 [Explorer 樣式的勾點程式](open-and-save-as-dialog-boxes.md)。
 
@@ -174,7 +174,7 @@ Explorer 樣式的 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊支援一
 
 若要處理攔截程式中的說明訊息，您應該處理 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 訊息。 如果此訊息的 *wParam* 參數指出使用者按下 [說明 **] 按鈕，** 攔截程式就會提供協助。 **[說明] 按鈕的** 識別碼是 Dlgs .h 檔中定義的 **pshHelp** 常數。
 
-針對 [Explorer 樣式 **開啟**] 和 [**另存** 新檔] 對話方塊的 [掛上] 程式，不會收到 [說明 **] 按鈕的** [**WM \_ 命令**](/windows/desktop/menurc/wm-command)訊息。 相反地，當您按一下 [說明 **] 按鈕時**，對話方塊會將 [**CDN \_ 說明**](cdn-help.md)通知訊息傳送到攔截程式。
+針對 [Explorer 樣式 **開啟**] 和 [**另存** 新檔] 對話方塊的 [掛上] 程式，不會收到 [說明 **] 按鈕的** [**WM \_ 命令**](/windows/desktop/menurc/wm-command)訊息。 相反地，當您按一下 [說明 **] 按鈕時**，對話方塊會傳送 [**CDN \_ 說明**](cdn-help.md)通知訊息到攔截程式。
 
  
 

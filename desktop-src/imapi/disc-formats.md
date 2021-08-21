@@ -4,12 +4,12 @@ description: IMAPI.EXE 支援三種檔案系統格式： ISO 9660、Joliet 和 U
 ms.assetid: 9cd782c0-203b-452c-9d04-3464d39453b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af9b4d4c5c5b6aa3e0c4c96598486a531c297b61
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af71733ec2747ae227ac412a7b49f0faa73639cf1000f1332db5ec1d1d55db9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758600"
 ---
 # <a name="disc-formats"></a>光碟格式
 
@@ -17,7 +17,7 @@ IMAPI.EXE 支援三種檔案系統格式： [ISO 9660](#iso-9660)、 [Joliet](#j
 
 ## <a name="iso-9660"></a>ISO 9660
 
-ISO 9660 格式是 CD 資料光碟的原始標準檔案系統。 此格式可在數個作業系統上辨識，包括 MSDOS.SYS、Mac OS、UNIX 和 Windows 作業系統。 ISO 9660 格式是由國際標準組織 (ISO) 所發行。
+ISO 9660 格式是 CD 資料光碟的原始標準檔案系統。 此格式可在數個作業系統上辨識，包括 msdos.sys、Mac OS、UNIX 和 Windows 作業系統。 ISO 9660 格式是由國際標準組織 (ISO) 所發行。
 
 格式從第16磁區開始，磁片區標頭為 CD0001;標頭的其餘部分如下。 其他衍生格式也會從第16磁區開始，但會使用另一個字串作為磁片區標頭。 例如，高塞拉里昂光碟使用字串 CD ROM0001 和光碟互動格式使用 CD I0001。
 
@@ -61,9 +61,9 @@ UDF 的功能包括下列各項：
 -   支援橋接器格式，其中的 ISO 9660、Joliet 和 UDF 格式都位於相同的光碟片上。這是在影片應用程式中使用，例如 DVD 影片、DVD + VR 和 DVD VR。
 -   支援命名資料流程和「即時」檔案。
 
- 
+ 
 
- 
+ 
 
 
 

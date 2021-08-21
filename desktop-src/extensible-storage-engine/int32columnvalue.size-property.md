@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 10710a8705dfaf63959c1287cae7195841a2f039
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 648f6b7250f31983d1a03db4e0fffceb2a5e9aaa7806c030b17fae75b755e44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118767778"
 ---
 # <a name="int32columnvaluesize-property"></a>Int32ColumnValue. Size 屬性
 

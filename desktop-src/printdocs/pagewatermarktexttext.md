@@ -4,12 +4,12 @@ ms.assetid: 3b01f05c-fe2e-4467-b2a7-5431a41200cd
 title: PageWatermarkTextText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db5ef33008f0ccb66b6af34e2cc245b90c1ebea
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: da9775f3a5a40d3efa3ccb7bf3f83654a38d2fe140145c5954e42eeec5b8c825
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731920"
 ---
 # <a name="pagewatermarktexttext"></a>PageWatermarkTextText
 
@@ -24,7 +24,7 @@ ms.locfileid: "112395963"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                    |
 | 範圍前置詞 <br/> | 頁面<br/>                            |

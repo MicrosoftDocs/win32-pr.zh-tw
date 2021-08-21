@@ -4,12 +4,12 @@ ms.assetid: a966020c-a0bd-467c-b6d3-e09267cf5574
 title: 程式庫應用程式安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d2885173f3798d33ed26a5b447fde4429b9bf96
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4f9fa2d03f21707af42fa108cb9c4ecbce6d2a352ea03714961a0eef4f028119
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118813517"
 ---
 # <a name="library-application-security"></a>程式庫應用程式安全性
 

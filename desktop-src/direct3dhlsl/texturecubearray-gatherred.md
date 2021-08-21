@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 6c867b17c1f5613b6a72a9e29d29b8b0b659b0c1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c96fc7a02855baa27c9790132df1bfb49d99cd1dca8f84ced298aa0b9656e151
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104991946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786276"
 ---
 # <a name="texturecubearraygatherred-methods"></a>TextureCubeArray：： GatherRed 方法
 

@@ -4,12 +4,12 @@ ms.assetid: f28b6811-5611-406c-a726-a2b232518518
 title: 特殊硬體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72716f991ee99f41801961b64f7086179b6ea987
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66cc2ceb23465828fd2ddc54da758a9b27951d29b6327372a5593943d080c851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118862090"
 ---
 # <a name="special-hardware"></a>特殊硬體
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bff266e056b620a45adcf58f092277399c979c88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50a4f507c9ed826b1c21888d9c837cf1518f80effff0a2d24dc4746505b18c3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118766248"
 ---
 # <a name="jet_dbinfomisclgposattach-property"></a>JET_DBINFOMISC lgposAttach 屬性
 

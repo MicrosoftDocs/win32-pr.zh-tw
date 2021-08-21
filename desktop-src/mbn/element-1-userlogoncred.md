@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: aea2cdfda61e557ff790b59e7af2a05d914d3403
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 77a4bb56e73e1f43c957cac2f8553597dda07e18fd5cee43f8ca8503a680a67f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106996547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745276"
 ---
 # <a name="span-idwwan_profile_v4element_1_userlogoncredspanmodemdmconfigprofileuserlogoncred-v4"></a><span id="WWAN_profile_v4.element_1_UserLogonCred"></span>ModemDMConfigProfile \/ ... \/UserLogonCred (v4) 
 
@@ -72,7 +72,7 @@ ms.locfileid: "106996547"
 <thead>
 <tr class="header">
 <th>子元素</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

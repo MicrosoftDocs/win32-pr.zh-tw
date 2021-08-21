@@ -4,12 +4,12 @@ ms.assetid: 43a0c881-75cc-4fbc-a0c3-b3eab9dfe4df
 title: DocumentCoverBackSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be16ab26a4aa3dd7109fee7d630ed354b9b686d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: bf2e83451cca940ab251f1ff3ceb25603d21cba8d6ec6dbd617395839917a135
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732938"
 ---
 # <a name="documentcoverbacksource"></a>DocumentCoverBackSource
 
@@ -24,7 +24,7 @@ ms.locfileid: "112409351"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                        |
 | 範圍前置詞 <br/> | 文件<br/>                            |
@@ -73,8 +73,8 @@ ms.locfileid: "112409351"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
 
 
 

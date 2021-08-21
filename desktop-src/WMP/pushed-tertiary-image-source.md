@@ -3,19 +3,19 @@ title: 推送的第三個映射來源
 description: 推送的第三個映射來源
 ms.assetid: e2d41729-87c5-4cec-931c-8702585930f2
 keywords:
-- Windows Media Player 行動外觀、按鈕影像來源
+- Windows Media Player行動外觀，按鈕影像來源
 - 外觀，按鈕影像來源
 - 外觀、按鈕的參考
 - 外觀、影像來源中的按鈕
 - 外觀、按鈕的影像來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a37f79ab3c5fbf02eed1f0a02219a517b12ce1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 649730c877f9f5063737c16638b2c27d5e25a7d5578c2c7bce75f9f4fb24b71b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118834207"
 ---
 # <a name="pushed-tertiary-image-source"></a>推送的第三個映射來源
 
@@ -42,9 +42,9 @@ Pushed @ 324,0
 [**按鈕**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

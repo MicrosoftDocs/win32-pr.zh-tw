@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 55a0f8c5fc0a8573192f25e3901b63f24e05f7c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c1b1e2760ed5015b6b682b94bd364e469edb4ed519adc371e2c348a0bf8c607
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891353"
 ---
 # <a name="setphysicalpresencerequest-method-of-the-win32_tpm-class"></a>Win32 Tpm 類別的 SetPhysicalPresenceRequest 方法 \_
 
@@ -64,16 +64,16 @@ uint32 SetPhysicalPresenceRequest(
 | <dl> <dt>9</dt> </dl>                                                        | 防止安裝 TPM 擁有者。<br/> 作業8會反轉這項作業。 <br/>                                                                                                                                                                                                  |
 | <dl> <dt>10</dt> </dl>                                                       | 啟用、啟用和允許安裝 TPM 擁有者。<br/> 作業11會反轉這項作業。<br/>                                                                                                                                                                              |
 | <dl> <dt>11</dt> </dl>                                                       | 停用、停用及防止 TPM 擁有者的安裝。<br/> 作業10會反轉這項作業。<br/>                                                                                                                                                                         |
-| <dl> <dt></dt><dt>12</dt> </dl> | 延遲的實體 PresenceunownedFieldUpgrade<br/> 實體狀態設定已更新。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 不支援這個值。<br/>                                                                       |
+| <dl> <dt></dt><dt>12</dt> </dl> | 延遲的實體 PresenceunownedFieldUpgrade<br/> 實體狀態設定已更新。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 不支援這個值。<br/>                                                                       |
 | <dl> <dt>14</dt> </dl>                                                       | 清除、啟用和啟用 TPM。<br/> 這種作業無法反轉。<br/>                                                                                                                                                                                                               |
-| <dl> <dt>15</dt> </dl>                                                       | SetNoPPIProvision \_ False<br/> 設定您必須實際存在才能設定 TPM 的布建。<br/> 作業16會反轉這項作業。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 不支援這個值。<br/>         |
-| <dl> <dt>16</dt> </dl>                                                       | SetNoPPIProvision \_ True<br/> 設定您不需要實際存在才能設定 TPM 的布建。<br/> 作業15會反轉這項作業。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 不支援這個值。<br/> |
-| <dl> <dt>17</dt> </dl>                                                       | SetNoPPIClear \_ False<br/> 設定您必須實際存在以清除 TPM 的布建。<br/> 作業18會反轉這項操作。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 不支援這個值。<br/>           |
-| <dl> <dt>達</dt> </dl>                                                       | SetNoPPIClear \_ True<br/> 設定您不需要實際存在的布建，以清除 TPM。<br/> 作業17會反轉這項作業。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 不支援這個值。<br/>   |
-| <dl> <dt>診斷</dt> </dl>                                                       | SetNoPPIMaintenance \_ False<br/> 設定您必須實際存在以維護 TPM 的布建。<br/> 作業20會反轉這項作業。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 不支援這個值。<br/>  |
-| <dl> <dt>20</dt> </dl>                                                       | SetNoPPIMaintenance \_ True<br/> 設定您不需要實際存在以維護 TPM 的布建。<br/> 作業19會反轉這項操作。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 不支援這個值。<br/>   |
-| <dl> <dt>21</dt> </dl>                                                       | 啟用 + 啟用 + 清除<br/> 啟用、啟用和清除 TPM。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 不支援這個值。<br/>                                                                                                  |
-| <dl> <dt>22</dt> </dl>                                                       | 啟用 + 啟用 + 清除 + 啟用 + 啟動<br/> 啟用、啟用和清除 TPM，然後啟用並重新啟動 TPM。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 不支援這個值。<br/>                                      |
+| <dl> <dt>15</dt> </dl>                                                       | SetNoPPIProvision \_ False<br/> 設定您必須實際存在才能設定 TPM 的布建。<br/> 作業16會反轉這項作業。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 不支援這個值。<br/>         |
+| <dl> <dt>16</dt> </dl>                                                       | SetNoPPIProvision \_ True<br/> 設定您不需要實際存在才能設定 TPM 的布建。<br/> 作業15會反轉這項作業。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 不支援這個值。<br/> |
+| <dl> <dt>17</dt> </dl>                                                       | SetNoPPIClear \_ False<br/> 設定您必須實際存在以清除 TPM 的布建。<br/> 作業18會反轉這項操作。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 不支援這個值。<br/>           |
+| <dl> <dt>達</dt> </dl>                                                       | SetNoPPIClear \_ True<br/> 設定您不需要實際存在的布建，以清除 TPM。<br/> 作業17會反轉這項作業。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 不支援這個值。<br/>   |
+| <dl> <dt>診斷</dt> </dl>                                                       | SetNoPPIMaintenance \_ False<br/> 設定您必須實際存在以維護 TPM 的布建。<br/> 作業20會反轉這項作業。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 不支援這個值。<br/>  |
+| <dl> <dt>20</dt> </dl>                                                       | SetNoPPIMaintenance \_ True<br/> 設定您不需要實際存在以維護 TPM 的布建。<br/> 作業19會反轉這項操作。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 不支援這個值。<br/>   |
+| <dl> <dt>21</dt> </dl>                                                       | 啟用 + 啟用 + 清除<br/> 啟用、啟用和清除 TPM。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 不支援這個值。<br/>                                                                                                  |
+| <dl> <dt>22</dt> </dl>                                                       | 啟用 + 啟用 + 清除 + 啟用 + 啟動<br/> 啟用、啟用和清除 TPM，然後啟用並重新啟動 TPM。<br/> **Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 不支援這個值。<br/>                                      |
 
 
 
@@ -115,8 +115,8 @@ TPM 實體存在作業不需要 TPM 擁有者授權。 不過，他們確實需�
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                      |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |
@@ -139,7 +139,7 @@ TPM 實體存在作業不需要 TPM 擁有者授權。 不過，他們確實需�
 [**停用**](disable-win32-tpm.md)
 </dt> <dt>
 
-[**清楚**](clear-win32-tpm.md)
+[**清除**](clear-win32-tpm.md)
 </dt> </dl>
 
  

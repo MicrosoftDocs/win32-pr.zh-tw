@@ -4,12 +4,12 @@ ms.assetid: 1948481b-febd-434b-a5dc-faef592ea0ed
 title: 'MFNETSOURCE_STATISTICS 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a09e6c0fe4697595ff3600135327ba093350e0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 822e9ae2e65170f3bf6e0f9ce065dd0ea5c62189a9a2b77fe2cd59beeb164248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738565"
 ---
 # <a name="mfnetsource_statistics-property"></a>MFNETSOURCE \_ 統計資料屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "104111753"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

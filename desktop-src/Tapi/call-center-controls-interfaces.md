@@ -4,12 +4,12 @@ ms.assetid: 55d9dd24-0902-4f6a-85f6-4ec11ce9fbaa
 title: 撥置中心控制項介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec8f1f6ad08db7c230dbcec9cfad592693dbe145
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b503ffd58674c92fb607615ea76234e2535c089c79cf03ede9e0f06a24aa8b27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118870796"
 ---
 # <a name="call-center-controls-interfaces"></a>撥置中心控制項介面
 

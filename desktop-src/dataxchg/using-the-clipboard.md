@@ -12,12 +12,12 @@ keywords:
 - 剪貼簿，檢視器視窗
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d7c7e7d6db6f25bc1016eefbcc5afc9f5e0db44
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 41b2b0a12af9bac8c1bbe7c895a1951c9c02513bc8222ace107e39b23bf3d6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118811554"
 ---
 # <a name="using-the-clipboard"></a>使用剪貼簿
 
@@ -677,7 +677,7 @@ LPARAM lParam;
 
 ## <a name="monitoring-clipboard-contents"></a>監視剪貼簿內容
 
-有三種方式可監視剪貼簿的變更。 最舊的方法是建立剪貼簿檢視器視窗。 Windows 2000 新增了查詢剪貼簿序號的能力，而 Windows Vista 也新增了剪貼簿格式接聽程式的支援。 支援剪貼簿檢視器視窗，以提供與舊版 Windows 的回溯相容性。 新程式應該使用剪貼簿格式接聽程式或剪貼簿序號。
+有三種方式可監視剪貼簿的變更。 最舊的方法是建立剪貼簿檢視器視窗。 Windows 2000 新增了查詢剪貼簿序號的功能，Windows Vista 新增了剪貼簿格式接聽程式的支援。 剪貼簿檢視器視窗支援舊版 Windows 的回溯相容性。 新程式應該使用剪貼簿格式接聽程式或剪貼簿序號。
 
 ## <a name="querying-the-clipboard-sequence-number"></a>查詢剪貼簿序號
 
@@ -1080,6 +1080,6 @@ BOOL WINAPI IsDisplayableFormat(UINT uFormat)
 
 
 
- 
+ 
 
- 
+ 

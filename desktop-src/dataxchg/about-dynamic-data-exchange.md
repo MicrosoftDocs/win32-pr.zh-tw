@@ -26,12 +26,12 @@ keywords:
 - DDE (動態資料交換) ，參數封裝函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d38574e9182255e8f6761520aea60575d8affbc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 50331a69fac11dbc6f49acdc6f3245f4a8f1da4434774ae8b2931d50f8921e1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118811977"
 ---
 # <a name="about-dynamic-data-exchange"></a>關於動態資料交換
 
@@ -46,7 +46,7 @@ DDEML 也提供管理 DDE 應用程式共用之字串與資料的功能。 DDE �
 本節將討論下列主題。
 
 -   [動態資料交換通訊協定](#dynamic-data-exchange-protocol)
--   [Windows 動態資料交換使用](#uses-for-windows-dynamic-data-exchange)
+-   [使用 Windows 動態資料交換](#uses-for-windows-dynamic-data-exchange)
 -   [從使用者的觀點來動態資料交換](#dynamic-data-exchange-from-the-users-point-of-view)
 -   [動態資料交換概念](#dynamic-data-exchange-concepts)
     -   [用戶端、伺服器和對話](#client-server-and-conversation)
@@ -55,17 +55,17 @@ DDEML 也提供管理 DDE 應用程式共用之字串與資料的功能。 DDE �
     -   [永久資料連結](#permanent-data-links)
     -   [原子和共用記憶體物件](#atoms-and-shared-memory-objects)
 -   [動態資料交換訊息總覽](#dynamic-data-exchange-messages-overview)
--   [動態資料交換訊息流程](#dynamic-data-exchange-message-flow)
+-   [動態資料交換訊息 Flow](#dynamic-data-exchange-message-flow)
 -   [參數封裝函數](#parameter-packing-functions)
 -   [動態資料交換和模擬](#dynamic-data-exchange-and-impersonation)
 
 ## <a name="dynamic-data-exchange-protocol"></a>動態資料交換通訊協定
 
-由於 Windows 有以訊息為基礎的架構，傳遞訊息是在應用程式之間自動傳送資訊最適當的方法。 不過，訊息只會包含兩個參數 (*wParam* 和 *lParam*) 來傳遞資料。 如此一來，當應用程式之間傳遞的資訊超過幾個字組時，這些參數必須間接參考其他資料片段。 DDE 通訊協定會明確定義應用程式應該如何使用 *wParam* 和 *lParam* 參數，透過全域原子和共用記憶體控制碼來傳遞較大的資料片段。 DDE 通訊協定具有配置和刪除全域原子和共用記憶體物件的特定規則。
+因為 Windows 有以訊息為基礎的架構，所以傳遞訊息是在應用程式之間自動傳送資訊最適當的方法。 不過，訊息只會包含兩個參數 (*wParam* 和 *lParam*) 來傳遞資料。 如此一來，當應用程式之間傳遞的資訊超過幾個字組時，這些參數必須間接參考其他資料片段。 DDE 通訊協定會明確定義應用程式應該如何使用 *wParam* 和 *lParam* 參數，透過全域原子和共用記憶體控制碼來傳遞較大的資料片段。 DDE 通訊協定具有配置和刪除全域原子和共用記憶體物件的特定規則。
 
 全域 atom 是字元字串的參考。 在 DDE 通訊協定中，原子會識別應用程式交換資料、所交換資料的本質，以及資料項目目本身。 如需原子的詳細資訊，請參閱 [關於原子](about-atom-tables.md)。
 
-## <a name="uses-for-windows-dynamic-data-exchange"></a>Windows 動態資料交換使用
+## <a name="uses-for-windows-dynamic-data-exchange"></a>使用 Windows 動態資料交換
 
 DDE 最適合不需要進行使用者互動的資料交換。 通常，應用程式會提供方法，讓使用者在應用程式交換資料之間建立連結。 不過，一旦建立該連結，應用程式就可以交換資料，而不需要進一步的使用者介入。
 
@@ -79,13 +79,13 @@ DDE 最適合不需要進行使用者互動的資料交換。 通常，應用程
 
 下列範例說明兩個 DDE 應用程式如何共同合作，如同從使用者的觀點來看。
 
-試算表使用者想要使用 Microsoft Excel 來追蹤紐約股票交流的特定股票價格。 使用者有一個稱為「報價」的應用程式，該應用程式接著可以存取 NYSE 資料。 Excel 和 Quote 之間的 DDE 交談如下所示：
+試算表使用者想要使用 Microsoft Excel 來追蹤紐約股票 Exchange 上特定股票的價格。 使用者有一個稱為「報價」的應用程式，該應用程式接著可以存取 NYSE 資料。 Excel 和引號之間的 DDE 交談如下所示：
 
 -   使用者會藉由提供應用程式的名稱 (報價) ，以提供資料和感興趣的特定主題 (NYSE) ，來起始交談。 產生的 DDE 交談會用來要求特定股票的引號。
--   Excel 會將應用程式和主題名稱廣播到目前正在系統中執行的所有 DDE 應用程式。 報價回應，與 Excel 建立有關 NYSE 主題的交談。
--   然後，使用者可以在資料格中建立試算表公式，要求試算表會在特定股票報價變更時自動更新。 例如，使用者可以藉由指定下列 Excel 公式： = ' Quote ' \| ' NYSE '，在 ZAXX 庫存的銷售價格中發生變更時，要求自動更新。ZAXX
+-   Excel 將應用程式和主題名稱廣播給目前在系統中執行的所有 DDE 應用程式。 報價回應，與 NYSE 主題的相關 Excel 建立交談。
+-   然後，使用者可以在資料格中建立試算表公式，要求試算表會在特定股票報價變更時自動更新。 例如，使用者可以藉由指定下列 Excel 公式： = ' Quote ' ' NYSE '，在 ZAXX 庫存的銷售價格中進行變更時，要求自動更新 \| ！ZAXX
 -   使用者可以隨時終止 ZAXX 股票報價的自動更新。 另外建立的其他資料連結 (例如針對其他股票的報價) 仍會在相同的 NYSE 交談下維持使用中狀態。
--   使用者也可以終止 Excel 之間的整個對話，並在 NYSE 主題中加上引號，如此就不能在不需要起始新對話的情況下，建立該主題的任何特定資料連結。
+-   使用者也可以終止 NYSE 主題上 Excel 和引述之間的整個交談，如此就不能在不需要起始新對話的情況下，建立該主題上的任何特定資料連結。
 
 ## <a name="dynamic-data-exchange-concepts"></a>動態資料交換概念
 
@@ -111,7 +111,7 @@ DDE 交談會在兩個視窗之間進行，每個參與的應用程式各一個�
 
 DDE 通訊協定會識別用戶端與伺服器之間傳遞的資料單位，這些資料單位為應用程式、主題和專案名稱的三層階層。
 
-每個 DDE 交談都是由應用程式名稱和主題唯一定義。 在 DDE 交談的開頭，用戶端和伺服器會決定應用程式名稱和主題。 應用程式名稱通常是伺服器應用程式的名稱。 例如，當 Excel 做為交談中的伺服器時，應用程式名稱就是 Excel。
+每個 DDE 交談都是由應用程式名稱和主題唯一定義。 在 DDE 交談的開頭，用戶端和伺服器會決定應用程式名稱和主題。 應用程式名稱通常是伺服器應用程式的名稱。 例如，當 Excel 作為交談中的伺服器時，會 Excel 應用程式名稱。
 
 DDE 主題是資料的一般分類，在交談期間 (交換) 多個資料項目。 針對在以檔案為基礎的檔上操作的應用程式，此主題通常是檔案名。 針對其他應用程式，主題是應用程式特定的名稱。
 
@@ -130,7 +130,7 @@ DDE 資料項目是與應用程式之間交換的交談主旨相關的資訊。 
 | 項目          | 描述                                                                                                                                                                                                                                                                                             |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 格式       | 應用程式可轉譯的剪貼簿格式清單（以 Tab 分隔）。 一般而言， **cf \_** 格式會列出已移除名稱的 "**CF \_**" 部分 (例如， **cf \_ 文字** 會列為「**文字**」 ) 。                                                                                        |
-| Help          | 簡短說明如何使用 DDE 伺服器的文字。                                                                                                                                                                                                                                                   |
+| 說明          | 簡短說明如何使用 DDE 伺服器的文字。                                                                                                                                                                                                                                                   |
 | ReturnMessage | 最近使用之 [**WM \_ DDE \_ ACK**](wm-dde-ack.md) 訊息的支援詳細資料。 當需要超過8個位的應用程式特定傳回資料時，此專案很有用。                                                                                                                |
 | 狀態        | 應用程式目前狀態的指示。 當伺服器收到這個系統主題專案的 [**wm \_ dde \_ 要求**](wm-dde-request.md) 訊息時，它應該會以適當的方式，使用包含忙碌或就緒的字串張貼一個 [**wm \_ dde \_ 資料**](wm-dde-data.md) 訊息來回應。 |
 | SysItems      | 應用程式支援的系統主題專案清單。                                                                                                                                                                                                                                                    |
@@ -139,7 +139,7 @@ DDE 資料項目是與應用程式之間交換的交談主旨相關的資訊。 
 
 
 
- 
+ 
 
 ### <a name="permanent-data-links"></a>永久資料連結
 
@@ -187,11 +187,11 @@ DDE 使用共用記憶體物件的三個用途：
 
 
 
- 
+ 
 
 應用程式會呼叫 [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) 來發出 [**wm \_ dde \_ 起始**](wm-dde-initiate.md) 訊息或傳送的 [**Wm \_ dde \_**](wm-dde-ack.md) 通知訊息，以回應 **WM \_ dde \_ 起始**。 所有其他訊息都是由 [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea)傳送。 這些呼叫的第一個參數是接收視窗的控制碼;第二個參數包含要傳送的訊息;第三個參數會識別傳送視窗;第四個參數包含訊息特定的引數。
 
-## <a name="dynamic-data-exchange-message-flow"></a>動態資料交換訊息流程
+## <a name="dynamic-data-exchange-message-flow"></a>動態資料交換訊息 Flow
 
 一般的 DDE 交談包含下列事件：
 
@@ -225,6 +225,6 @@ DDE 使用共用記憶體物件的三個用途：
 
 DDE 伺服器可以藉由呼叫 [**ImpersonateDdeClientWindow**](/windows/desktop/api/Dde/nf-dde-impersonateddeclientwindow) 函數來模擬 dde 用戶端。 DDEML 伺服器應使用 [**DdeImpersonateClient**](/windows/desktop/api/Ddeml/nf-ddeml-ddeimpersonateclient) 函數。
 
- 
+ 
 
- 
+ 

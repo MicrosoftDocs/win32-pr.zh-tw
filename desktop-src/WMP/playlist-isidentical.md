@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f800beb49da8ce6456d25c4ff1db6bd4bf536ed0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 76ad745b54c3361cebcb54be384b83afed7d229d023e29b85856e4aef3a26474
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118834543"
 ---
 # <a name="playlistisidentical-method"></a>IsIdentical 方法
 

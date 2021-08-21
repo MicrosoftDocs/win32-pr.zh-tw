@@ -4,12 +4,12 @@ ms.assetid: 0fbfc035-c9d1-4014-a28a-93d7e6adc718
 title: 'MF_TRANSCODE_SKIP_METADATA_TRANSFER 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54978d76ec1392c3be731e1452a653d1423976a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7874d7d8cc20bbf5222cd8fd2fa0ca938c0b597dbc42914ab809dad926968306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739420"
 ---
 # <a name="mf_transcode_skip_metadata_transfer-attribute"></a>MF \_ 轉碼 \_ 略過 \_ 中繼資料 \_ 傳輸屬性
 
@@ -48,8 +48,8 @@ ms.locfileid: "104191623"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

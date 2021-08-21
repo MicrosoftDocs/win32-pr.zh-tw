@@ -1,5 +1,5 @@
 ---
-description: 取得 TPM 儲存根金鑰之公開部分的模數。
+description: 取得 TPM 儲存體根金鑰公開部分的模數。
 ms.assetid: 266AE378-8BF2-4F6E-A055-E15D95E218DC
 title: Win32_Tpm：： GetSrkPublicKeyModulus 方法
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 6d78abb695f2a9bc9de3887c8128395c2403b2b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40a0cc63d00b0219ad5a86600db4ff3ebc420874e890dfec5233b33d1ba380dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890840"
 ---
 # <a name="win32_tpmgetsrkpublickeymodulus-method"></a>Win32 \_ Tpm：： GetSrkPublicKeyModulus 方法
 
-取得 TPM 儲存根金鑰之公開部分的模數。
+取得 TPM 儲存體根金鑰公開部分的模數。
 
 只有本機系統管理員才能存取此方法。
 
@@ -44,7 +44,7 @@ uint32 GetSrkPublicKeyModulus(
 *SrkPublicKeyModulus* \[擴展\]
 </dt> <dd>
 
-傳回256位元組陣列，其中包含 TPM 儲存根金鑰的公開部分的模數
+傳回256位元組陣列，其中包含 TPM 儲存體根金鑰的公開部分的模數
 
 </dd> </dl>
 
@@ -74,8 +74,8 @@ uint32 GetSrkPublicKeyModulus(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                      |
 | 命名空間<br/>                | \\\\.\\根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                     |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

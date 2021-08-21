@@ -4,12 +4,12 @@ ms.assetid: 43f36866-a9df-4035-a8ae-5ccbcb628a90
 title: 產生轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0543ae74f71155e6fcd504ebee677558f21bbfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df605dd01a494089d2e6ecd38c8b3c6d03ecb5d6335e2348682e1af16f79faf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635986"
 ---
 # <a name="generating-a-transform"></a>產生轉換
 

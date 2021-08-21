@@ -3,12 +3,12 @@ title: 端點資料遺失防止函式
 description: 端點資料遺失防止功能所使用的函數。
 ms.topic: article
 ms.date: 03/18/2021
-ms.openlocfilehash: f8713a6a6051bf477b4f9c7f6f8a7430abf70a52
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: f4a6395dacfdeccd032f7ad54719082c0e69f33692bda32798c09592c95d318e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118751630"
 ---
 # <a name="endpoint-data-loss-prevention-functions"></a>端點資料遺失防止函式
 

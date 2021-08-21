@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 90e72fbb2bf4f1d74a74dc177346387b36eb25e0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e38cd5b6cfaba4822ddecf121aa2b03c86e2a3a899e464df18bfa473322f41f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118804835"
 ---
 # <a name="d3dlight9-structure"></a>D3DLIGHT9 結構
 
@@ -51,7 +51,7 @@ typedef struct D3DLIGHT9 {
 
 <dl> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 類型： **[ **D3DLIGHTTYPE**](./d3dlighttype.md)**

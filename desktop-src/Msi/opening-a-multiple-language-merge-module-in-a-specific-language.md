@@ -4,12 +4,12 @@ ms.assetid: e815854f-a379-497a-ae37-b13de39dd516
 title: 以特定語言開啟 Multiple-Language 合併模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b552c41d7696b29a86987d027e00ef4cb19bbb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc4dd46009f0cbe4f8c0f2cfd8b4f5dcd2caf91c7987ece7b3b032f61d9161ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942869"
 ---
 # <a name="opening-a-multiple-language-merge-module-in-a-specific-language"></a>以特定語言開啟 Multiple-Language 合併模組
 
