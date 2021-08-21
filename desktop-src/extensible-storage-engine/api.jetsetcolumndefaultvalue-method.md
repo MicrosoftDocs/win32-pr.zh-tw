@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24fdb3a885e7aa558e1b3db3c4014fc65a28fcde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 643e056acc99aba255b1c94b2d72337ccaf9f7668caf9c937f08dce7f9214ead
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118084947"
 ---
 # <a name="apijetsetcolumndefaultvalue-method"></a>JetSetColumnDefaultValue 方法
 

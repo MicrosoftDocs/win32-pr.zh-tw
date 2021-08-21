@@ -1,6 +1,6 @@
 ---
 title: Active Directory 網域服務
-description: Microsoft Active Directory Domain Services 是以 Windows 2000 Server、Windows Server 2003 以及使用網域控制站的 Microsoft Windows Server 2008 作業系統為基礎的分散式網路基礎。
+description: microsoft Active Directory Domain Services 是建置於 Windows 2000 Server、Windows Server 2003 和 microsoft Windows Server 2008 使用網域控制站之作業系統的分散式網路基礎。
 ms.assetid: 9fc78c72-c59c-4c4d-ace5-00a431645c4b
 ms.tgt_platform: multiple
 keywords:
@@ -9,27 +9,27 @@ keywords:
 - Active Directory Domain Services Active Directory、起始頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0270f331a68d23ad89a8e5a999f8cabd95487020
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 54fd3814767d47124cec8c824c5de948061cc744d4105a598de98f78f970003e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104024296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118025245"
 ---
 # <a name="active-directory-domain-services"></a>Active Directory Domain Services
 
 ## <a name="purpose"></a>目的
 
-Microsoft Active Directory Domain Services 是以 Windows 2000 Server、Windows Server 2003 以及使用網域控制站的 Microsoft Windows Server 2008 作業系統為基礎的分散式網路基礎。 Active Directory Domain Services 針對網路中的物件（例如使用者、電腦、印表機和服務），提供安全、結構化、階層式的資料存放區。 Active Directory Domain Services 提供尋找和使用這些物件的支援。
+microsoft Active Directory Domain Services 是建置於 Windows 2000 Server、Windows Server 2003 和 microsoft Windows Server 2008 使用網域控制站之作業系統的分散式網路基礎。 Active Directory Domain Services 針對網路中的物件（例如使用者、電腦、印表機和服務），提供安全、結構化、階層式的資料存放區。 Active Directory Domain Services 提供尋找和使用這些物件的支援。
 
 本指南概述基本工作的 Active Directory Domain Services 和範例程式碼，例如搜尋物件和讀取屬性，到更先進的工作，例如服務發行。
 
-Windows 2000 伺服器和更新版本的作業系統提供使用者介面，讓使用者和系統管理員使用 Active Directory Domain Services 中的物件和資料。 本指南說明如何擴充和自訂該使用者介面。 它也會描述如何藉由定義新的物件類別和屬性來擴充 Active Directory Domain Services。
+Windows 2000 伺服器和更新版本的作業系統提供使用者介面，讓使用者和系統管理員可以使用 Active Directory Domain Services 中的物件和資料。 本指南說明如何擴充和自訂該使用者介面。 它也會描述如何藉由定義新的物件類別和屬性來擴充 Active Directory Domain Services。
 
 > [!Note]  
 > 下列檔適用于電腦程式設計人員。 如果您是嘗試偵測列印錯誤或家用網路問題的使用者，請參閱 [Microsoft 社區論壇](https://answers.microsoft.com)。
 
- 
+ 
 
 ## <a name="where-applicable"></a>適用時
 
@@ -70,6 +70,6 @@ Active Directory Domain Services 程式設計參考。
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

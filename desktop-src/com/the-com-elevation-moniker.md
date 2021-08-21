@@ -4,12 +4,12 @@ description: COM 提高許可權的標記可讓在 [使用者帳戶控制] 下�
 ms.assetid: 1595ebb8-65af-4609-b3e7-a21209e64391
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acc80774764cb99e63ed3334a8c0f9c8cedd2500
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8d11980c9c6a54a06991d6f2ab189640414dc5072dd913e450ce6fe33487f747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118103861"
 ---
 # <a name="the-com-elevation-moniker"></a>COM 提高許可權的標記
 
@@ -39,8 +39,8 @@ COM 提高許可權的標記可讓在 [使用者帳戶控制] 下執行的應用
 
 ```
 HKEY_LOCAL_MACHINE\Software\Classes\CLSID
-   {CLSID}
-      LocalizedString = displayName
+   {CLSID}
+      LocalizedString = displayName
 ```
 
 如果遺漏此專案，啟用會傳回錯誤（共 E），即 \_ \_ 遺漏 \_ DISPLAYNAME。 如果缺少 MUI 檔案，則會傳回 [**RegLoadMUIStringW**](/windows/desktop/api/winreg/nf-winreg-regloadmuistringa) 函式的錯誤碼。
@@ -49,9 +49,9 @@ HKEY_LOCAL_MACHINE\Software\Classes\CLSID
 
 ```
 HKEY_LOCAL_MACHINE\Software\Classes\CLSID
-   {CLSID}
-      Elevation
-         IconReference = applicationIcon
+   {CLSID}
+      Elevation
+         IconReference = applicationIcon
 ```
 
 **IconReference** 會使用與 **>localizedstring** 相同的格式：
@@ -64,9 +64,9 @@ COM 類別也必須標注為啟用 LUA。 這需要下列登錄專案：
 
 ```
 HKEY_LOCAL_MACHINE\Software\Classes\CLSID
-   {CLSID}
-      Elevation
-         Enabled = 1
+   {CLSID}
+      Elevation
+         Enabled = 1
 ```
 
 如果遺漏此專案，則啟用會傳回 \_ \_ 已停用的共同電子提高許可權錯誤 \_ 。
@@ -258,9 +258,9 @@ else
 
 ## <a name="com-permissions-and-mandatory-access-labels"></a>COM 許可權和強制存取標籤
 
-Windows Vista 引進了安全描述項中 *強制存取標籤* 的概念。 標籤會指示用戶端是否可以取得 COM 物件的執行存取權。 標籤會指定在系統存取控制清單中， (SACL) 部分的安全描述項中。 在 Windows Vista 中，COM 支援「系統 \_ 強制 \_ 標籤 \_ 無執行」卷 \_ \_ 標。 在 Windows Vista 之前的作業系統上，系統會忽略 COM 許可權中的 Sacl。
+WindowsVista 引進了安全描述項中 *強制存取標籤* 的概念。 標籤會指示用戶端是否可以取得 COM 物件的執行存取權。 標籤會指定在系統存取控制清單中， (SACL) 部分的安全描述項中。 在 Windows Vista 中，COM 支援「系統 \_ 強制 \_ 標籤 \_ 無執行」卷 \_ \_ 標。 在 Windows Vista 之前的作業系統上，系統會忽略 COM 許可權中的 sacl。
 
-在 Windows Vista 中，dcomcnfg.exe 不支援將 (IL) 的完整性層級變更為 COM 許可權。 它必須以程式設計的方式設定。
+從 Windows Vista，dcomcnfg.exe 不支援變更 COM 許可權中 (IL) 的完整性層級。 它必須以程式設計的方式設定。
 
 下列程式碼範例示範如何建立具有標籤的 COM 安全描述項，以允許來自所有低 IL 用戶端的啟動/啟用要求。 請注意，標籤對於啟動/啟用和呼叫許可權都有效。 因此，您可以撰寫不允許啟動、啟用或從具有特定 IL 之用戶端呼叫的 COM 伺服器。 For more information about integrity levels, see the section "Understanding Windows Vista's Integrity Mechanism" in [Understanding and Working in Protected Mode Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/).
 
@@ -300,19 +300,19 @@ done:
 
 ## <a name="cocreateinstance-and-integrity-levels"></a>CoCreateInstance 和完整性層級
 
-在 Windows Vista 中， [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) 的行為已變更，以防止較低的 IL 用戶端預設系結至 COM 伺服器。 伺服器必須藉由指定 SACL 來明確地允許這類系結。 **CoCreateInstance** 的變更如下：
+在 Windows Vista 中， [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)的行為已變更，以防止較低的 IL 用戶端預設系結至 COM 伺服器。 伺服器必須藉由指定 SACL 來明確地允許這類系結。 **CoCreateInstance** 的變更如下：
 
 1.  啟動 COM 伺服器進程時，伺服器進程 token 中的 IL 會設定為用戶端或伺服器權杖 IL，以較低者為准。
 2.  根據預設，COM 會防止低 IL 用戶端系結至任何 COM 伺服器的執行中實例。 若要允許系結，COM 伺服器的啟動/啟用安全描述項必須包含指定低 IL 標籤的 SACL (請參閱上一節中的範例程式碼，以建立這類安全描述項) 。
 
 ## <a name="elevated-servers-and-rot-registrations"></a>提高許可權的伺服器和 ROT 註冊
 
-如果 COM 伺服器希望在執行中的物件資料表中註冊 (的 ROT) 並允許任何用戶端存取註冊，則必須使用 ROTFLAGS \_ ALLOWANYCLIENT 旗標。 "Activate As Activator" COM 伺服器無法指定 ROTFLAGS \_ ALLOWANYCLIENT，因為 DCOM 服務控制管理員 (DCOMSCM) 強制對此旗標進行詐騙檢查。 因此，在 Windows Vista 中，COM 加入了新的登錄專案的支援，讓伺服器能夠規定將它的 ROT 註冊提供給任何用戶端使用：
+如果 COM 伺服器希望在執行中的物件資料表中註冊 (的 ROT) 並允許任何用戶端存取註冊，則必須使用 ROTFLAGS \_ ALLOWANYCLIENT 旗標。 "Activate As Activator" COM 伺服器無法指定 ROTFLAGS \_ ALLOWANYCLIENT，因為 DCOM 服務控制管理員 (DCOMSCM) 強制對此旗標進行詐騙檢查。 因此，在 Windows Vista 中，COM 加入了新的登錄專案的支援，可讓伺服器規定其衰減註冊可供任何用戶端使用：
 
 ```
 HKEY_LOCAL_MACHINE\Software\Classes\AppID
-   {APPID}
-      ROTFlags
+   {APPID}
+      ROTFlags
 ```
 
 此登錄 DWORD 專案唯一有效的值 \_ 為：
@@ -335,6 +335,6 @@ ROTREGFLAGS_ALLOWANYCLIENT 0x1
 [了解「受保護模式」Internet Explorer 並在此模式下工作](/previous-versions/windows/internet-explorer/ie-developer/)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

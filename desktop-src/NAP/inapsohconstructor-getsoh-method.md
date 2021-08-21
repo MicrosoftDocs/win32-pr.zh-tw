@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 066257aadf0ed14816efec06936d4b070087159f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d3d411d57ae77a1e5bf8c04ca0d9d980a9c33e9fcf15eb05f157ddeda98711c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133821"
 ---
 # <a name="inapsohconstructorgetsoh-method"></a>INapSoHConstructor：： GetSoH 方法
 
@@ -60,7 +60,7 @@ HRESULT GetSoH(
 
 
 
-| 傳回碼                                                                                     | Description                                                        |
+| 傳回碼                                                                                     | 描述                                                        |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> </dl>           | 作業成功。<br/>                                   |
 | <dl> <dt>**E \_ACCESSDENIED**</dt> </dl> | 許可權錯誤，拒絕存取。<br/>                       |
@@ -76,10 +76,10 @@ HRESULT GetSoH(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>NapProtocol。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapProtocol .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapProtocol .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
 
 

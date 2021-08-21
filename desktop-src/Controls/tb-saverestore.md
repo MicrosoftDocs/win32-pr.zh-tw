@@ -3,7 +3,7 @@ title: 'TB_SAVERESTORE 訊息 (Commctrl .h) '
 description: 傳送此訊息以起始儲存或還原工具列狀態。
 ms.assetid: 59f51d07-cd08-4d6f-9d19-614064ba6f20
 keywords:
-- TB_SAVERESTORE message Windows 控制項
+- TB_SAVERESTORE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e87e4ddbed87e81a88c8711c9931dcf95cf9e59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94d04c16fda40bf66736431a684398eddf313529c669cc6db9ec49fbaad4f6f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168020"
 ---
 # <a name="tb_saverestore-message"></a>TB \_ SAVERESTORE 訊息
 
@@ -61,8 +61,8 @@ ms.locfileid: "103843059"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TB \_SAVERESTOREW** (Unicode) 和 **TB \_ SAVERESTOREA** (ANSI) <br/>             |
 

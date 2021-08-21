@@ -4,12 +4,12 @@ ms.assetid: fa5405e9-116f-4b7f-8f8e-791a79942570
 title: '將靜態和動態連結程式庫連結 (Direct3D 10) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7050b8a3b5e1e2544883eb140b67d50bc3cd11
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4b5c05599371521f81b488c5d3e10467a28a3c3241efd180edae15dfd40f279c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118101481"
 ---
 # <a name="linking-static-and-dynamic-libraries-direct3d-10"></a>將靜態和動態連結程式庫連結 (Direct3D 10) 
 
@@ -34,7 +34,7 @@ DirectX SDK 隨附的程式庫會在執行時間自動載入適當的 Dll。 這
 
 
 
-| Direct3D 10 二進位檔   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Direct3D 10 二進位檔   | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | d3dx10.dll/d3dx10d.dll | 零售和 debug D3DX10 元件;零售元件可以在可轉散發套件的封包中轉散發。                                                                                                                                                                                                                                                                                                                                                                                                             |
 | d3d10ref.dll           | 參考轉譯器。 提供圖形管線的軟體執行。 只包含為 Windows SDK 或舊版 DirectX SDK 的一部分，而且無法重新散發。 參考轉譯器僅適用于偵錯工具。 不需要明確連結;嘗試建立參考設備 (請參閱 [**D3D10CreateDevice**](/windows/desktop/api/D3D10Misc/nf-d3d10misc-d3d10createdevice)) 將會載入此 dll （如果有的話）。                                                                                                    |

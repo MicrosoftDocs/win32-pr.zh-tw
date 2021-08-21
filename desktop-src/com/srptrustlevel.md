@@ -6,12 +6,12 @@ keywords:
 - SRPTrustLevel 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c1e9290cbe04cfe33e1192b95b86ca03fd5ea5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b348f4159939342693cf4da4af0aacd71d030159ddcd992008d1fde71fd7bfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118104178"
 ---
 # <a name="srptrustlevel"></a>SRPTrustLevel
 
@@ -21,8 +21,8 @@ ms.locfileid: "104372027"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      SRPTrustLevel = value
+   {AppID_GUID}
+      SRPTrustLevel = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -38,7 +38,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 
 
- 
+ 
 
 如果 **SRPTrustLevel** 值不存在， \_ \_ 就會使用 [不允許的安全 LEVELID] 的預設值。 如果 **SRPTrustLevel** 的類型錯誤或超出範圍，COM 會傳回錯誤 COMADMIN \_ E \_ SAFERINVALID。 如果任何排序的啟用因為 SRP 信任檢查而失敗，COM 會傳回錯誤共同的 \_ E \_ ACTI加值稅IONFAILED。
 
@@ -55,9 +55,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [**SRPRunningObjectChecks**](srprunningobjectchecks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

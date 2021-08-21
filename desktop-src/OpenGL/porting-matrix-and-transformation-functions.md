@@ -15,12 +15,12 @@ keywords:
 - 轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1c6219640085370202b8dbebad9a2e9d4992b4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 755e2dc0ed6b53f3a2ee5ef5310369b734a58cba27481b8b478eef63fdfe5722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132600"
 ---
 # <a name="porting-matrix-and-transformation-functions"></a>移植矩陣和轉換函數
 
@@ -86,7 +86,7 @@ ms.locfileid: "104301387"
 | **pushmatrix**                | [**glPushMatrix**](glpushmatrix.md)                                                   | 將目前的矩陣堆疊向下推一，以複製目前的矩陣。                                                                                                       |
 | **旋轉**，**rot**<br/> | [**glRotated**](glrotate.md)、[**glRotatef**](glrotate.md)<br/>                 | 透過指定的點，將目前座標系統與原點的向量旋轉。 請注意，只 **旋轉** X 軸、y 軸和 Z 軸的旋轉。 |
 | **scale**                     | [**glScaled**](glscale.md)、[**glScalef**](glscale.md)<br/>                     | 將目前的矩陣乘以縮放矩陣。                                                                                                                                 |
-| **翻譯**                 | [**glTranslatef**](gltranslate.md)、[**glTranslated**](gltranslate.md)<br/>     | 將目前的矩陣乘以平移矩陣，將座標系統原點移至指定的點。                                                              |
+| **translate**                 | [**glTranslatef**](gltranslate.md)、[**glTranslated**](gltranslate.md)<br/>     | 將目前的矩陣乘以平移矩陣，將座標系統原點移至指定的點。                                                              |
 | **視窗**                    | [**glFrustum**](glfrustum.md)                                                         | 指定裁剪平面的座標，將目前的矩陣乘以透視圖矩陣。                                                                                  |
 
 

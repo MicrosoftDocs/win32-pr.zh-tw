@@ -7,12 +7,12 @@ keywords:
 - 如何使用 VLV 搜尋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f4a24250c8e54ccb7917f86b193152c62810b93
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 060878f6e7bb21d81556dfce998c5fb311b8f78197312e2a576e121356283c28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017483"
 ---
 # <a name="how-to-search-using-vlv"></a>如何使用 VLV 搜尋
 
@@ -86,7 +86,7 @@ Active Directory 支援 (VLV) 搜尋的虛擬清單視圖。 這種搜尋樣式�
 > 7.  將 [**ads \_ 搜尋資料 \_ 行**](/windows/desktop/api/Iads/ns-iads-ads_search_column)結構的 **pADsValues->ProviderSpecific** 轉換成 [**ads \_ VLV**](/windows/desktop/api/Iads/ns-iads-ads_vlv)結構指標。
 > 8.  製作 **lpCoNtextID** 資料的複本，並將其保留供下一次 VLV 搜尋之用。
 
- 
+ 
 
 [**GetVLVItemText**](example-code-for-using-a-vlv-search.md)範例函式示範如何進行此作業。
 
@@ -115,6 +115,6 @@ Active Directory 支援 (VLV) 搜尋的虛擬清單視圖。 這種搜尋樣式�
 
 類似于依索引搜尋，也可以使用單一搜尋呼叫來取出多個資料列。 這項作業的完成方式是以同樣的方式設定 [**ADS \_ VLV**](/windows/desktop/api/Iads/ns-iads-ads_vlv)結構的 **dwBeforeCount** 和 **dwAfterCount** 成員。
 
- 
+ 
 
- 
+ 

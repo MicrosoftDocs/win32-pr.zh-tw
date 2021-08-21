@@ -24,12 +24,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68f7da3ecea0c5a5a77a45b48ff24038a5517dc1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4fb3b9db5badb8fb313d95cf04dc65681ff3f380dc1381e8b052ed7f2dee5c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130173"
 ---
 # <a name="imsrdpclientadvancedsettings7redirectdirectx-property"></a>IMsRdpClientAdvancedSettings7：： RedirectDirectX 屬性
 

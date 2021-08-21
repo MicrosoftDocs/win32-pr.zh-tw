@@ -4,12 +4,12 @@ ms.assetid: cf749ae7-ab17-4c60-b00c-b34e092c6431
 title: AF_IPX 位址系列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21508b23541b489c11fbdc38a2ff8dcf4ad53e48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3915eefab8e6fc6c18cf4e2b81835b8c6821d0cdd65f5683f509504d4d2c24bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112801"
 ---
 # <a name="af_ipx-address-family"></a>AF \_ IPX 位址系列
 

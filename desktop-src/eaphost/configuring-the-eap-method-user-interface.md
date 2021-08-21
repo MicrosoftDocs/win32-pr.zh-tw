@@ -4,12 +4,12 @@ description: 說明如何將 EAP 方法設定提供給 EAPHost，以設定要求
 ms.assetid: f6a23201-e221-4098-863f-71a81735d927
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9b82debadc075b1fcc12dad06484c0fd3617874
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: a6709e68bf20d8f38d3685f66e45313083e70e46b1a8a0bb0675616bdb4e8bcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106965214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086702"
 ---
 # <a name="configuring-the-eap-method-user-interface"></a>設定 EAP 方法消費者介面
 
@@ -21,7 +21,7 @@ ms.locfileid: "106965214"
     > [!Note]  
     > 要求者可以根據 **EAP \_ 方法 \_ 資訊 eapProperties** 中指出的方法屬性位，選擇篩選顯示的方法清單。 例如，某些方法可能不適合要求者所提供之傳輸的安全性特性。
 
-     
+     
 
 2.  當 UI 控制項填入一組可能的 EAP 方法之後，使用者會選取想要設定的方法。 通常，要求者會提供 [設定 **] 或 [** **屬性** ] 按鈕，讓使用者存取所選 EAP 方法的設定屬性。
     > [!Note]
@@ -29,7 +29,7 @@ ms.locfileid: "106965214"
     >
     > 如需詳細資訊，請參閱 [**EAP 方法屬性**](eap-method-properties.md)。
 
-     
+     
 
 3.  當使用者按一下適當的 UI 控制項時，要求者會呼叫 [**EapHostPeerInvokeConfigUI**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui)，並將要求者本身 UI 的 **HWND** 值、從查詢取得的 [**eap \_ 方法 \_ 類型**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type) 結構，以及其他必要的參數 [**傳遞至函式 \_ \_**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info) 。
 4.  呼叫 [**EapHostPeerInvokeConfigUI**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui) 會叫用 EAP 方法本身的設定 UI。 從 **EapHostPeerInvokeConfigUI** 傳回時，函式會傳回 EAP 方法設定 BLOB 做為 out 參數。
@@ -55,9 +55,9 @@ ms.locfileid: "106965214"
 [EAPHost 要求者](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ffe81266-1787-4883-a99e-5f1a537396b8
 title: ICertSrvSetup 的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6cee93b46a564310c4163580fe85177e64c41a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13e3e857a9dd3779653dac010c00c389b3c53dc8f53778e29c666e20f4f427bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117977246"
 ---
 # <a name="properties-of-icertsrvsetup"></a>ICertSrvSetup 的屬性
 

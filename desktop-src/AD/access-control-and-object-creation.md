@@ -7,12 +7,12 @@ keywords:
 - 存取控制和物件建立廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71ac54c1fe71a1821d3a02db383ca95606ae360d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 11b99251cd9c9c93177e0b6cfc362c7003078c870e809b48c9aba351e620e1a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118025721"
 ---
 # <a name="access-control-and-object-creation"></a>存取控制和物件建立
 
@@ -22,6 +22,6 @@ ms.locfileid: "104092611"
 
 如需存取控制和建立物件的詳細資訊，請參閱 [如何在新的目錄物件上設定安全描述項](how-security-descriptors-are-set-on-new-directory-objects.md)。
 
- 
+ 
 
- 
+ 

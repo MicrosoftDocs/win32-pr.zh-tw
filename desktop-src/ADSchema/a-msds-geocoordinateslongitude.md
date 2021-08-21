@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 036ff3b4088413f8641028c9c76e708a9a47c2ea
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 455b03e0f9122ab49353f5fff3dcd5e91cb70c4191ca11c83534456b8bd79891
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426704"
 ---
 # <a name="ms-ds-geocoordinates-longitude-attribute"></a>GeoCoordinates-經度屬性
 
@@ -53,8 +53,8 @@ ms.locfileid: "103845495"
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
-| 已編制索引             | 對                                                 |
+| 是-單一值       | 是                                                 |
+| 已編制索引             | 是                                                 |
 | 在通用類別目錄中      | 否                                                |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | \-                                                   |

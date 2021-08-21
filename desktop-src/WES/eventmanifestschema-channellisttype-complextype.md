@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 53293687fd4ab0d87155b86edd026189f6d7c925
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a8602594bdbdf6d39532213b0be660b5b3cfb6a90cd8281d9555ed2ff3a9d401
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106975643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121048"
 ---
 # <a name="channellisttype-complex-type"></a>ChannelListType 複雜類型
 
@@ -53,7 +53,7 @@ ms.locfileid: "106975643"
 
 
 
-| 元素                                                                            | 類型                                                                           | Description                                                                                                                  |
+| 元素                                                                            | 類型                                                                           | 描述                                                                                                                  |
 |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | [**通道**](eventmanifestschema-channel-channellisttype-element.md)             | [**ChannelType**](eventmanifestschema-channeltype-complextype.md)             | 定義可以記錄事件的通道。<br/>                                                                  |
 | [**importChannel**](eventmanifestschema-importchannel-channellisttype-element.md) | [**ImportChannelType**](eventmanifestschema-importchanneltype-complextype.md) | 識別已由另一個提供者定義或包含中繼資料區段之資訊清單中的通道。<br/> |
@@ -70,8 +70,8 @@ ms.locfileid: "106975643"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

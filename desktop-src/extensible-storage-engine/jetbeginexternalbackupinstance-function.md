@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bab2fa3d9faa7f81abea278e3d9fcf4a4022c24c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55fc5a204ce321f0be5073f2c4c9ab2a80a11a822b3bf23c87441770c3a1857b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118073016"
 ---
 # <a name="jetbeginexternalbackupinstance-function"></a>JetBeginExternalBackupInstance 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetbeginexternalbackupinstance-function"></a>JetBeginExternalBackupInstance 函式
 
 **JetBeginExternalBackupInstance** 函式會在引擎和資料庫處於線上狀態且為使用中時，起始外部備份。
 
-**Windows xp： JetBeginExternalBackupInstance** 是在 windows xp 中引進的。
+**Windows xp： JetBeginExternalBackupInstance** 是在 Windows xp 引進。
 
 ```cpp
     JET_ERR JET_API JetBeginExternalBackupInstance(
@@ -51,7 +51,7 @@ _**適用于：** Windows |Windows Server_
 
 針對 Windows 2000，無法使用接受此參數的 API 變體，因為只支援一個實例。 在此情況下，這種全域實例的使用是隱含的。
 
-若為 Windows XP 和更新版本，則只有在引擎處於舊版模式時，才會呼叫不接受這個參數的 API 變體 (Windows 2000 相容性模式) 只支援一個實例。 否則，作業將會失敗，並 JET_errRunningInMultiInstanceMode。
+針對 Windows XP 和更新版本，只有在引擎處於舊版模式時，才會呼叫不接受這個參數的 API 變體 (Windows 2000 相容性模式) 只支援一個實例。 否則，作業將會失敗，並 JET_errRunningInMultiInstanceMode。
 
 *grbit*
 
@@ -87,7 +87,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-因為呼叫此函式，所以系統可能會產生成功或失敗的代碼。 如需此 API 的完整錯誤清單，請參閱 [可擴充儲存引擎錯誤碼](./extensible-storage-engine-error-codes.md)。
+因為呼叫此函式，所以系統可能會產生成功或失敗的代碼。 如需此 API 的完整錯誤清單，請參閱[可擴展的儲存體引擎錯誤碼](./extensible-storage-engine-error-codes.md)。
 
 請參閱 [JetBeginExternalBackup](./jetbeginexternalbackup-function.md)。
 
@@ -113,7 +113,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

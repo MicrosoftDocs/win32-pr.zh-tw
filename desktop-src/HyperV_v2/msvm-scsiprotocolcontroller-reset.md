@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 40d2ea3a69d0a13b067b6bb3ca70fe18c4741715
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cf27d7c0e12ca9f7555aac79555ff69bfc97eb20ecd5131a9245f0ace485e218
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147301"
 ---
 # <a name="reset-method-of-the-msvm_scsiprotocolcontroller-class"></a>Msvm SCSIProtocolController 類別的 Reset 方法 \_
 

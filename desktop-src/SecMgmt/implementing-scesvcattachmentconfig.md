@@ -4,12 +4,12 @@ ms.assetid: c0c1c1e4-de5b-405d-abe8-33a985ce98e5
 title: 執行 SceSvcAttachmentConfig
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e98eb519e6422e3036ddfb203811322befd2713
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2eef460184773b4b09bed3ae36c88ae5854bc001cb9437aaaccce66231838eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117969305"
 ---
 # <a name="implementing-scesvcattachmentconfig"></a>執行 SceSvcAttachmentConfig
 

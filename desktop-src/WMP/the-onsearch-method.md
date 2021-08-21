@@ -10,16 +10,16 @@ keywords:
 - OnSearch 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de5c33af434028e6ee72c757c8d71def0d4109fd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49ab5cb4b26d291a940ed329e2422240e6fc36e5ba980431af169d58f1398fdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117998"
 ---
 # <a name="the-onsearch-method"></a>OnSearch 方法
 
-按一下 [ **搜尋** ] 按鈕時，Windows Media Player 會呼叫 OnSearch 方法。 這個方法會抓取目前的 **媒體** 物件，並將它傳遞給 LaunchPage 方法。
+按一下 [**搜尋**] 按鈕時，Windows Media Player 會呼叫 OnSearch 方法。 這個方法會抓取目前的 **媒體** 物件，並將它傳遞給 LaunchPage 方法。
 
 下列程式碼會用來執行此方法：
 
@@ -57,9 +57,9 @@ LRESULT OnSearch(WORD wNotifyCode, WORD wID, HWND hwndCtl, BOOL& fHandled)
 [**執行 CPluginWindow**](implementing-cpluginwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

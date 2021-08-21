@@ -46,7 +46,7 @@ ms.locfileid: "118306356"
 集合內的 [**COMAdminCatalogObject**](comadmincatalogobject.md) 物件支援下列屬性：
 
 -   [ClassName](#classname)
--   [Clsid](#clsid)
+-   [CLSID](#clsid)
 -   [InprocServer32](#inprocserver32)
 -   [LocalServer32](#localserver32)
 -   [ProgID](#progid)

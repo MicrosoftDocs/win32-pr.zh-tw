@@ -4,12 +4,12 @@ ms.assetid: 09d00a74-5873-4720-b9b9-d58395aa1094
 title: 對稱金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4707905452beba025b0d0c69fc8f0ed9ef4d234
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 554fa9f8a18289eef7c750c542594c9cac1b56a33847a84b2c8f21070a04d984
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117972285"
 ---
 # <a name="symmetric-keys"></a>對稱金鑰
 

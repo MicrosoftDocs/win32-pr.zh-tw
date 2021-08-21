@@ -7,12 +7,12 @@ keywords:
 - 核心介面 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4661902ed1a51bfb1b2cdbddbc383ebac9b5726f
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: 4d28bc10985a2496c35bf7da0fdd03a53cbfa03e28d5b78521bfaebed8b4ac94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "104022931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017662"
 ---
 # <a name="core-interfaces-adsi"></a> (ADSI) 的核心介面
 
@@ -23,9 +23,9 @@ ms.locfileid: "104022931"
 -   [**IADSNamespaces**](/windows/desktop/api/Iads/nn-iads-iadsnamespaces)
 -   [**IADSOpenDSObject**](/windows/desktop/api/Iads/nn-iads-iadsopendsobject)
 
- 
+ 
 
- 
+ 
 
 
 

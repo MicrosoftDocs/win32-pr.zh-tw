@@ -20,12 +20,12 @@ keywords:
 - 集合
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0f9a88253390ee99f5b5870fd7a09e272f1c549
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 56a4c3776d3e5eb8000a4e81578bb5df95658a37e0793944a9cda6923fc7a2e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132660"
 ---
 # <a name="porting-defs-binds-and-sets"></a>移植 Defs、系結和集合
 
@@ -75,9 +75,9 @@ glCallList( MYMATERIAL );
 
 
 
- 
+ 
 
- 
+ 
 
 
 

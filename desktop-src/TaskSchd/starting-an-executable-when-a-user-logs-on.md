@@ -6,12 +6,12 @@ keywords:
 - 工作排程器範例工作排程器，登入觸發程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ffa758546dbd08b6ccf27412f38891589cb9643
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5bd7cfc8412e33df47841cf33d2a4950061d39d77fbe76d3b896b5d220b04b8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132120"
 ---
 # <a name="starting-an-executable-when-a-user-logs-on"></a>當使用者登入時啟動可執行檔
 
@@ -23,7 +23,7 @@ ms.locfileid: "104371833"
 
 ## <a name="logontrigger-examples"></a>LogonTrigger 範例
 
-下列範例會在使用者登入之後啟動 [記事本]。
+下列範例會在使用者登入之後開始記事本。
 
 -   [登入觸發程式範例 (腳本) ](logon-trigger-example--scripting-.md)
 -   [ (c + +) 的登入觸發程式範例 ](logon-trigger-example--c---.md)
@@ -36,9 +36,9 @@ ms.locfileid: "104371833"
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

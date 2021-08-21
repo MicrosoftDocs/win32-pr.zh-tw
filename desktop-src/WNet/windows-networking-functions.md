@@ -1,19 +1,19 @@
 ---
-title: Windows 網路功能
-description: Windows 網路中使用了下列函數
+title: Windows網路功能
+description: Windows 的網路功能使用下列函式
 ms.assetid: 95e30f8f-a326-424d-bd80-5fc9b3078dad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3d962d82cc613416838fcdc75734d26c17f9d40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7b6028720b5987261398789ad00ecb2c84c283ab82332984e9dd5c7a53cf9dec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330892"
 ---
-# <a name="windows-networking-functions"></a>Windows 網路功能
+# <a name="windows-networking-functions"></a>Windows網路功能
 
-下列是 Windows 網路中使用的功能：
+Windows 的網路功能使用下列函式：
 
 <dl>
 
@@ -43,13 +43,13 @@ ms.locfileid: "104382758"
 
 ## <a name="obsolete-functions"></a>過時的函式
 
-下列函式僅提供給 Windows 16 位版本的相容性：
+下列函式僅提供給 Windows 之16位版本的相容性：
 
 <dl>
 
 [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)  
 </dl>
 
- 
+ 
 
- 
+ 
