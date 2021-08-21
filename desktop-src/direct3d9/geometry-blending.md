@@ -4,12 +4,12 @@ ms.assetid: 190d5865-c45b-42ea-8a16-10a4f0bda743
 title: " (Direct3D 9) 的幾何混合"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a19daa40f7d7d8193ae486640bc613dd7a666ec7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c71bb449b592c69ae2cf41487aef229718149eb4c1465d90f8b358d30458b69c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122156"
 ---
 # <a name="geometry-blending-direct3d-9"></a> (Direct3D 9) 的幾何混合
 

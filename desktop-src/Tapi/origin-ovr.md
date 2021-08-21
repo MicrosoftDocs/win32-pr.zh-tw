@@ -4,12 +4,12 @@ ms.assetid: d9779438-fd08-495a-ae3d-ffad9b543090
 title: 來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71105caff17850c76c1e2c388911086a4cf9ea8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a1f4dafd2b4a3ee85b3a05b3c8ab8f95656237b0ad5bf292c53a5bbb2d3bed3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002826"
 ---
 # <a name="origin"></a>來源
 

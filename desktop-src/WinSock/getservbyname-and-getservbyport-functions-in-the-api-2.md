@@ -4,12 +4,12 @@ ms.assetid: 6d4eb1d4-1498-4367-886b-6b08e87bc4a0
 title: API 中的 getservbyname 和 getservbyport 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0028b9ed090463234d01e2b13191ff2328baf2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47e5d7cc9b1811eef98cc6d337abc3230ea46bd537a19969a4b412473e671b39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132211"
 ---
 # <a name="getservbyname-and-getservbyport-functions-in-the-api"></a>API 中的 getservbyname 和 getservbyport 函式
 
@@ -28,7 +28,7 @@ ms.locfileid: "106966709"
 
 <dl> <dt>
 
-[Windows 通訊端 1.1 API 中 TCP/IP 的相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
+[Windows 通訊端 1.1 API 中的 tcp/ip 相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
 </dt> <dt>
 
 [通訊協定獨立名稱解析](protocol-independent-name-resolution-2.md)

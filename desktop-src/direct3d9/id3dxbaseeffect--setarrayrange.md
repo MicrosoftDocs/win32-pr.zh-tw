@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 59b981c1f2aff18d4bdb57f5726136945203f5fe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1cf4f51bfca29f1aa46238197818bb10bc4d0fe811218e5cedc59c24deb2446f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987628"
 ---
 # <a name="id3dxbaseeffectsetarrayrange-method"></a>ID3DXBaseEffect：： SetArrayRange 方法
 

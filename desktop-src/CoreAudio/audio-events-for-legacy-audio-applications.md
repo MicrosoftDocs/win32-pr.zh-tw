@@ -4,16 +4,16 @@ ms.assetid: 91a93b79-2563-4b25-af5d-ca5f7d35d77b
 title: 舊版音訊應用程式的音訊事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0fe99195910b1c1c68c0f3a1b39dd2706dde0be
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e030561123ba8501a66a2837bcc323a6505226a80c385f3dcaa532b2e6cd8c58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018486"
 ---
 # <a name="audio-events-for-legacy-audio-applications"></a>舊版音訊應用程式的音訊事件
 
-舊版音訊 Api （例如 DirectSound、DirectShow 和 **waveOutXxx** 功能）可讓應用程式取得和設定音訊串流的音量層級。 應用程式可以使用這些 Api 中的磁片區控制功能，在其應用程式視窗中顯示音量滑杆。
+舊版音訊 api （例如 DirectSound、DirectShow 和 **waveOutXxx** 函式）可讓應用程式取得和設定音訊串流的音量層級。 應用程式可以使用這些 Api 中的磁片區控制功能，在其應用程式視窗中顯示音量滑杆。
 
 在 Windows Vista 中，系統音量控制程式 Sndvol 可讓使用者控制個別應用程式的音訊音量層級。 應用程式所顯示的音量滑杆應連結到 Sndvol 中對應的音量滑杆。 如果使用者透過應用程式視窗中的音量滑杆來調整應用程式音量，則 Sndvol 中對應的磁片區滑杆會立即移動以指出新的音量層級。 相反地，如果使用者透過 Sndvol 來調整應用程式音量，則應用程式視窗中的音量滑杆應該會移動以指出新的音量層級。
 
@@ -134,11 +134,11 @@ AudioVolumeEvents::~AudioVolumeEvents()
 
 [**IAudioSessionEvents：： OnSimpleVolumeChanged**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsimplevolumechanged)方法會接收磁片區變更的通知。 一般來說，這個方法會更新應用程式的磁片區滑杆。
 
-在上述程式碼範例中，AudioVolumeEvents 類別的函式會在會話 GUID 值 GUID Null 所識別的進程特定 [音訊會話](audio-sessions.md) 上註冊通知 \_ 。 根據預設，舊版音訊 Api （例如 DirectSound、DirectShow 和 **waveOutXxx** 函式）會將它們的串流指派給此會話。 不過，DirectSound 或 DirectShow 應用程式可以選擇覆寫預設行為，並將其串流指派給跨進程會話，或指派給 guid 值（GUID 為 Null 以外）所識別的會話 \_ 。  (目前未提供 **waveOutXxx** 應用程式的機制，以類似的方式覆寫預設行為。如需使用此行為的 directshow 應用程式程式碼範例 ) ，請參閱 [directshow 應用程式的裝置角色](device-roles-for-directshow-applications.md)。 若要容納這類應用程式，您可以修改上述程式碼範例中的函式，以接受兩個額外的輸入參數，也就是會話 GUID 和旗標，以指出要監視的會話是跨進程或進程特定的會話。 將這些參數傳遞至函式中 [**IAudioSessionManager：： GetAudioSessionControl**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionmanager-getaudiosessioncontrol) 方法的呼叫。
+在上述程式碼範例中，AudioVolumeEvents 類別的函式會在會話 GUID 值 GUID Null 所識別的進程特定 [音訊會話](audio-sessions.md) 上註冊通知 \_ 。 根據預設，舊版音訊 api （例如 DirectSound、DirectShow 和 **waveOutXxx** 函式）會將它們的串流指派給此會話。 不過，DirectSound 或 DirectShow 的應用程式可以選擇覆寫預設行為，並將其串流指派給跨進程會話，或指派給 guid 值（guid 為 Null 以外）所識別的會話 \_ 。  (目前未提供 **waveOutXxx** 應用程式的機制，以類似的方式覆寫預設行為。如需使用此行為 DirectShow 應用程式的程式碼範例 ) ，請參閱 [DirectShow 應用程式的裝置角色](device-roles-for-directshow-applications.md)。 若要容納這類應用程式，您可以修改上述程式碼範例中的函式，以接受兩個額外的輸入參數，也就是會話 GUID 和旗標，以指出要監視的會話是跨進程或進程特定的會話。 將這些參數傳遞至函式中 [**IAudioSessionManager：： GetAudioSessionControl**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionmanager-getaudiosessioncontrol) 方法的呼叫。
 
 在函式呼叫 [**IAudioSessionControl：： RegisterAudioSessionNotification**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification) 方法來註冊通知之後，只要有 [**IAudioSessionControl**](/windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessioncontrol) 或 [**IAudioSessionManager**](/windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionmanager) 介面存在，應用程式就會繼續接收通知。 上述程式碼範例中的 AudioVolumeEvents 物件會保存這些介面的參考，直到呼叫它的函式為止。 此行為可確保應用程式會在 AudioVolumeEvents 物件的存留期內繼續接收通知。
 
-DirectSound 或舊版 Windows 多媒體應用程式可能會允許使用者從以易記名稱識別的可用裝置清單中，明確地選取裝置，而不是根據裝置角色來隱含地選取音訊裝置。 若要支援此行為，必須修改上述的程式碼範例，以產生所選裝置的音訊事件通知。 需要進行兩個修改。 首先，變更函式定義以接受 [端點識別碼字串](endpoint-id-strings.md) 做為輸入參數， (取代程式碼範例) 中的流程和角色參數。 這個字串會識別對應于所選 DirectSound 或舊版波形裝置的音訊端點裝置。 其次，將 [**IMMDeviceEnumerator：： GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) 方法的呼叫取代為 [**IMMDeviceEnumerator：： GetDevice**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice) 方法的呼叫。 **GetDevice** 呼叫會採用端點識別碼字串做為輸入參數，並建立由字串識別之端點裝置的實例。
+DirectSound 或舊版 Windows 多媒體應用程式可能會允許使用者從以易記名稱識別的可用裝置清單中明確選取裝置，而不是根據裝置角色來隱含地選取音訊裝置。 若要支援此行為，必須修改上述的程式碼範例，以產生所選裝置的音訊事件通知。 需要進行兩個修改。 首先，變更函式定義以接受 [端點識別碼字串](endpoint-id-strings.md) 做為輸入參數， (取代程式碼範例) 中的流程和角色參數。 這個字串會識別對應于所選 DirectSound 或舊版波形裝置的音訊端點裝置。 其次，將 [**IMMDeviceEnumerator：： GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) 方法的呼叫取代為 [**IMMDeviceEnumerator：： GetDevice**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice) 方法的呼叫。 **GetDevice** 呼叫會採用端點識別碼字串做為輸入參數，並建立由字串識別之端點裝置的實例。
 
 為 DirectSound 裝置或舊版波形裝置取得端點識別碼字串的技術如下所示。
 
@@ -156,9 +156,9 @@ BOOL DSEnumCallback(
 
 
 
-在 Windows Vista 中， *lpcstrModule* 參數會指向端點識別碼字串。  (在舊版 Windows 中，包括 Windows Server 2003、Windows XP 及 Windows 2000， *lpcstrModule* 參數會指向裝置的驅動程式模組名稱。 ) *lpcstrDescription* 參數指向包含裝置易記名稱的字串。 如需 DirectSound 裝置列舉的詳細資訊，請參閱 Windows SDK 檔。
+在 Windows Vista 中， *lpcstrModule* 參數會指向端點識別碼字串。  (舊版 Windows （包括 Windows Server 2003、Windows XP 和 Windows 2000）， *lpcstrModule* 參數會指向裝置的驅動程式模組名稱。 ) *lpcstrDescription* 參數指向包含裝置易記名稱的字串。 如需 DirectSound 裝置列舉的詳細資訊，請參閱 Windows SDK 檔。
 
-其次，若要取得舊版波形裝置的端點識別碼字串，請使用 **waveOutMessage** 或 **waveInMessage** 函式，將 winspool.drv \_ QUERYFUNCTIONINSTANCEID 訊息傳送到波形設備磁碟機。 如需示範如何使用此訊息的程式碼範例，請參閱 [舊版 Windows 多媒體應用程式的裝置角色](device-roles-for-legacy-windows-multimedia-applications.md)。
+其次，若要取得舊版波形裝置的端點識別碼字串，請使用 **waveOutMessage** 或 **waveInMessage** 函式，將 winspool.drv \_ QUERYFUNCTIONINSTANCEID 訊息傳送到波形設備磁碟機。 如需示範如何使用此訊息的程式碼範例，請參閱[舊版 Windows 多媒體應用程式的裝置角色](device-roles-for-legacy-windows-multimedia-applications.md)。
 
 ## <a name="related-topics"></a>相關主題
 

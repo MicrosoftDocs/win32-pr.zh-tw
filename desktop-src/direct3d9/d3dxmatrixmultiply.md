@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3d183fc3c79797bab886d3a40211448ccf57d552
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 64831287ab16f9b866ec5cd21b376fa190e8b42716453265875b2d8b5e7137d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122898"
 ---
 # <a name="d3dxmatrixmultiply-function-d3dx9mathh"></a>D3DXMatrixMultiply 函式 (D3dx9math) 
 

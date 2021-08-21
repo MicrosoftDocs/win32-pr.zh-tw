@@ -3,7 +3,7 @@ title: 'MMIOM_WRITE 訊息 (Mmsystem .h) '
 description: MmioWrite 函 \_ 式會將 MMIOM 寫入訊息傳送至 i/o 程式，以要求將資料寫入至開啟的檔案。
 ms.assetid: 46e2dd9a-c4a7-4c99-86e4-a67b424411d1
 keywords:
-- MMIOM_WRITE message Windows 多媒體
+- MMIOM_WRITE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c27cf96827f803608c369cc9022faa6235add9ec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 755b89d7e268e266b4761142dc3820bdd4d33d4bd4d86522ce5363b95e5be282
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065268"
 ---
 # <a name="mmiom_write-message"></a>MMIOM \_ 寫入訊息
 
@@ -68,7 +68,7 @@ I/o 程式負責更新 [**MMIOINFO**](/previous-versions//dd757322(v=vs.85))結�
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

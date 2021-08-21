@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 10da0e5bf0f2138c57da3fcfe962bc6a88800068
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 34c6f4d579ee7fbaee9416d7a607e3856a7793021cca7149723d3d6e5a2b4a49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986288"
 ---
 # <a name="processisolinetessfactors-function"></a>ProcessIsolineTessFactors 函式
 
@@ -28,10 +28,10 @@ ms.locfileid: "103678747"
 
 ``` syntax
 void ProcessIsolineTessFactors(
-  in  float RawDetailFactor,
-  in  float RawDensityFactor,
-  out float RoundedDetailFactor,
-  out float RoundedDensityFactor
+  in  float RawDetailFactor,
+  in  float RawDensityFactor,
+  out float RoundedDetailFactor,
+  out float RoundedDensityFactor
 );
 ```
 
@@ -93,19 +93,19 @@ void ProcessIsolineTessFactors(
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -117,9 +117,9 @@ void ProcessIsolineTessFactors(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

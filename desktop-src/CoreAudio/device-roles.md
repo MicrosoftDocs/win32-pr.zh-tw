@@ -4,12 +4,12 @@ ms.assetid: aa787004-0d3e-448b-80dd-92055f841aee
 title: 裝置角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b7182e3af6bf76af500588546a1b7c0db9eea97
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 386a3ba163a9a82d01aa7916139edaa01e531160f5245c6e751fb7169702de5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018429"
 ---
 # <a name="device-roles"></a>裝置角色
 

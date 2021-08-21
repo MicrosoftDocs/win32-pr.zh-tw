@@ -4,12 +4,12 @@ ms.assetid: 2eb140f0-ca07-4e60-b9f3-be2f466f4fca
 title: 會話的媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc8f5c7743a5d5a85003c99b2ac1abbf13f54168
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 974935baf17652c0376386eea63028ba04eeb886d1f48eba1aaf7f8469a9c374
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104514336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002876"
 ---
 # <a name="media-type-for-a-session"></a>會話的媒體類型
 

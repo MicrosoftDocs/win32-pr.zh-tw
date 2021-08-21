@@ -4,12 +4,12 @@ ms.assetid: 8d1d034f-8a09-40ae-842a-5251135bd3c8
 title: COM + 補償 Resource Manager 概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14206a54ffcb4f7e06ddf7362736a722393b0791
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b546f10e9a99f827c512e6dd7662ead05476774f7ff8dc32c40fa123b0ffe272
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047626"
 ---
 # <a name="com-compensating-resource-manager-concepts"></a>COM + 補償 Resource Manager 概念
 

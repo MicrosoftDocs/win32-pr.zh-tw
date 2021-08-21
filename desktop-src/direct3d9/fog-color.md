@@ -4,12 +4,12 @@ ms.assetid: 76366496-553d-4dbf-868d-d58b5377d36a
 title: " (Direct3D 9) 的霧化色彩"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85c9ae217a26ab38be5e3f232fb9dfcd4c2977f7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 395bb17c9d6495ade54bc7c761b8c8024c53fbd9a51f620a45ee3a807dc6e20d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987998"
 ---
 # <a name="fog-color-direct3d-9"></a> (Direct3D 9) 的霧化色彩
 

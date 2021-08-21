@@ -5,12 +5,12 @@ ms.assetid: 956F80D7-EEC8-4D88-B251-EE325614F31E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b842ce5b3e89c3877f50036e747a90f14104bce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 257af2526120df5509a38fcc0c81984aa53a954f8eed6a8ce9194fa2aadb020a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989450"
 ---
 # <a name="residency"></a>居住
 
@@ -48,7 +48,7 @@ D3D12 為其資源模型帶來更多的彈性和 orthogonality，以便為應用
 
 ## <a name="residency-priorities"></a>常駐優先順序
 
-Windows 10 建立者更新可讓開發人員在記憶體壓力需要降級某些資源時，影響哪些堆積和資源要保持常駐。 這可協助開發人員藉由充分利用執行時間無法從 API 使用方式推斷的知識，來建立更好的應用程式。 開發人員預期當開發人員從使用認可的資源轉換為 resereved 和並排顯示的資源時，將會更熟悉且能夠指定優先順序。
+Windows 10 Creators Update 可讓開發人員在記憶體壓力需要降級某些資源時，影響哪些堆積和資源要保持常駐。 這可協助開發人員藉由充分利用執行時間無法從 API 使用方式推斷的知識，來建立更好的應用程式。 開發人員預期當開發人員從使用認可的資源轉換為 resereved 和並排顯示的資源時，將會更熟悉且能夠指定優先順序。
 
 套用這些優先順序必須比 manageing 兩個動態記憶體預算更容易，因為應用程式已經可以這麼做，所以請手動降級並提升資源 bettween。 因此，「主機優先順序 API」的設計會以 coursely 的方式，將合理的預設優先順序指派給每個堆積或建立的資源。 如需詳細資訊，請參閱 [**ID3D12Device1：： SetResidencyPriority**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-setresidencypriority) 和 [**D3D12 \_ 常駐 \_ 優先權**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_residency_priority) 列舉。
 
@@ -87,6 +87,6 @@ Windows 10 建立者更新可讓開發人員在記憶體壓力需要降級某些
 [記憶體管理](memory-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

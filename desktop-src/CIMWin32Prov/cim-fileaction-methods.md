@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_FileAction 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f13a87ddb92ecafac45ec5eabb40aba32e1aaa36
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b3c33b173cf722c233c7e0d063d17e31110328bbaa2ada3de4742f2799b4a917
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080602"
 ---
 # <a name="cim_fileaction-methods"></a>CIM \_ FileAction 方法
 

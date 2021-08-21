@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cf2d5a34e1f387aadb3b044ddd1264616a61109b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: feee9a017664e71c9c96f19fda5106870c04b947dc2b668e67f376626f7ea38a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120172"
 ---
 # <a name="fwidth"></a>fwidth
 
@@ -76,7 +76,7 @@ ms.locfileid: "104093004"
 |------------------------------------------------------------------------------------|---------------------|
 | [著色器模型 3 (DIRECTX HLSL) ](dx-graphics-hlsl-sm3.md) 和更高的著色器模型 | 是                 |
 | [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md)                          | 是 (ps \_ 2 \_ x 僅)  |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)                          | 不可以                  |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)                          | 否                  |
 
 
 

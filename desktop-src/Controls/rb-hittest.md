@@ -3,7 +3,7 @@ title: 'RB_HITTEST 訊息 (Commctrl .h) '
 description: 判斷如果在該點上存在 Rebar 帶，則在螢幕上的某個點上，Rebar 區的哪個部分是在指定的點上。
 ms.assetid: 8f27db21-50d8-438f-a44c-2e65dd93fa2a
 keywords:
-- RB_HITTEST message Windows 控制項
+- RB_HITTEST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e17283bfce255672391ba9d8b6acd60fe41045b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d45f2ca2c5c6cf8de61c14404ac3bb541a8c61741896cf1b2803db29332d75e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078671"
 ---
 # <a name="rb_hittest-message"></a>RB \_ system.windows.media.visualtreehelper.hittest 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104024653"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

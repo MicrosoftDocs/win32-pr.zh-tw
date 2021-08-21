@@ -4,12 +4,12 @@ ms.assetid: fb0f0324-d72e-4759-9f4d-deedf8848e21
 title: 關於邏輯感應器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be6f8687575aaedbb006eb2ad6ebaad9cf8d3ab6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 655bb7a6e67223bb959b155e55f6cc059ffd8280bc8c08fb00d4d88cb2c8b0a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003888"
 ---
 # <a name="about-logical-sensors"></a>關於邏輯感應器
 
@@ -30,15 +30,15 @@ ms.locfileid: "106990394"
 
 [**ILogicalSensorManager**](/previous-versions/windows/desktop/legacy/dd318934(v=vs.85)) 具有下列方法：
 
--   [**連接**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85))
+-   [**連線**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85))
 -   [**中斷連線**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85))
 -   [**解除安裝**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85))
 
-當您呼叫 [**Connect**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85))時，感應器 API 會建立感應器驅動程式的實例（如果尚未存在），然後將邏輯感應器連接到平臺。 這表示邏輯感應器會與 **定位和其他感應器** 主控台中的其他感應器一起出現。 當您呼叫 [**中斷**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85))連線時，感應器 API 會中斷邏輯感應器的連線，並將其從主控台中移除。 呼叫 **中斷** 連線並不會從 **裝置管理員** 移除邏輯感應器。 因此，未來對 **連接** 的呼叫將會導致更快速地連接到邏輯感應器。
+當您呼叫 [**連線**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85))時，感應器 API 會建立感應器驅動程式的實例（如果尚未存在），然後將邏輯感應器連接到平臺。 這表示邏輯感應器會與 **定位和其他感應器** 主控台中的其他感應器一起出現。 當您呼叫 [**中斷**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85))連線時，感應器 API 會中斷邏輯感應器的連線，並將其從主控台中移除。 呼叫 **中斷** 連線並不會從 **裝置管理員** 移除邏輯感應器。 因此，未來對 **連線** 的呼叫會導致連接到邏輯感應器的速度更快。
 
 若要移除邏輯感應器，您必須呼叫 [**Uninstall**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85))。 卸載邏輯感應器會移除 **裝置管理員** 的感應器。 由於邏輯感應器裝置只存在於記憶體中，因此當使用者重新開機 Windows 時，會卸載邏輯感應器。
 
-感應器 API 會依 *邏輯識別碼*（ **GUID**）來識別特定的邏輯感應器。 每次連接到特定的邏輯感應器時，都必須提供邏輯識別碼。 每次中斷連接或卸載特定感應器時，您必須提供您用來連線的相同邏輯識別碼。 如果您使用不同的邏輯識別碼多次連線到相同的邏輯感應器驅動程式，則會為每個新的邏輯識別碼建立個別的邏輯感應器實例。 即使您為每個邏輯識別碼呼叫「 [**中斷**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85)) 連線」，這些個別的實例仍會保留在 **裝置管理員** 中，直到您針對每個邏輯感應器呼叫 [**卸載**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85)) ，或使用者重新開機 Windows 為止。
+感應器 API 會依 *邏輯識別碼*（ **GUID**）來識別特定的邏輯感應器。 每次連接到特定的邏輯感應器時，都必須提供邏輯識別碼。 每次中斷連接或卸載特定感應器時，您必須提供您用來連線的相同邏輯識別碼。 如果您使用不同的邏輯識別碼多次連線到相同的邏輯感應器驅動程式，則會為每個新的邏輯識別碼建立個別的邏輯感應器實例。 即使您為每個邏輯識別碼呼叫「[**中斷**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85))連線」，這些個別的實例仍會保留在 **裝置管理員** 中，直到您針對每個邏輯感應器呼叫 [**卸載**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85))，或使用者重新開機 Windows。
 
 ## <a name="related-topics"></a>相關主題
 

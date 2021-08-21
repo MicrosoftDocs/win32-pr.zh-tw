@@ -4,12 +4,12 @@ ms.assetid: 68db5936-f0f8-4dbd-a183-b6c3089af0f0
 title: BoundingBox 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b58c79f202304a289bf1e30447b76ba9ad6dc83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6e9cd729195d98b55fe519c4c12e81e82cdda673de45696deac27e5a273177d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985098"
 ---
 # <a name="boundingbox-methods"></a>BoundingBox 方法
 

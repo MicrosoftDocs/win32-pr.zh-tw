@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 76ba55b7544e35a07b74a41788a3befa766f87bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 528e83c72b015bdac288b9e2c7e4838f665c92991f83c6f1eb105d454cb6ac74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064152"
 ---
 # <a name="configure-callback-function"></a>設定回呼函數
 

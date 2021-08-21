@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fdf922118a1b332bfe1fe8e744114a6d1d6bf4cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bcdcdf2ec566bafc962114d691c1962533b843d4c9299d01107eaaf132ea3050
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048676"
 ---
 # <a name="authentication-level-constants"></a>驗證層級常數
 
@@ -31,7 +31,7 @@ ms.locfileid: "104509428"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                 | Description                                                                                                                                                                                                    |
+| 常數/值                                                                                                                                                                                                                                                                 | 描述                                                                                                                                                                                                    |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="RPC_C_AUTHN_LEVEL_DEFAULT"></span><span id="rpc_c_authn_level_default"></span><dl> <dt>**RPC \_C \_ 驗證 \_ 層級 \_ 預設值**</dt> <dt>0</dt> </dl>                    | 告訴 DCOM 使用其一般安全性整體協商演算法來選擇驗證等級。 如需詳細資訊，請參閱 [安全性綜合協商](security-blanket-negotiation.md)。 <br/> |
 | <span id="RPC_C_AUTHN_LEVEL_NONE"></span><span id="rpc_c_authn_level_none"></span><dl> <dt>**RPC \_C \_ 驗證 \_ 層級 \_ 無**</dt> <dt>1</dt> </dl>                             | 不執行任何驗證。<br/>                                                                                                                                                                         |

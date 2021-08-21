@@ -4,12 +4,12 @@ ms.assetid: 5f2aed2e-66d2-40e6-be35-92c3f92d17bd
 title: " (Direct3D 9) 複製表面"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50000e3b620c4d2fd217695551d898e5892430ba
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 61d31d897bcb9e1a8fefa45a7770959ecb4121f807e4ca51d26ca7da5b5f5f5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123375"
 ---
 # <a name="copying-surfaces-direct3d-9"></a> (Direct3D 9) 複製表面
 

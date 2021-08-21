@@ -4,12 +4,12 @@ ms.assetid: d302819e-c522-470a-be5e-52625c9223a4
 title: TAPI 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58307a0230b76c6ad98c57f4590098f0dcf6b236
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dd0a73a5ed845901d3cbe937a366a357c149541e8973a423310345dc241b92d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002726"
 ---
 # <a name="tapi-messages"></a>TAPI 訊息
 
@@ -33,7 +33,7 @@ ms.locfileid: "106980588"
 -   [撥打電話中心訊息](call-center-messages.md)
 -   [格式化的錯誤訊息](formatted-error-messages.md)
 -   [線路裝置訊息](line-device-messages.md)
--   [手機裝置訊息](phone-device-messages.md)
+-   [電話裝置訊息](phone-device-messages.md)
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: b08fba71-46cb-4419-9da5-a33a5b9a5ec0
 title: 筆墨資料格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7ccd0ab298e183867a9c4f8018727f22e51e7bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 088483400f6e4452f888793dd7b0ce78966050b65c35db9baf6e79c2f00061c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032306"
 ---
 # <a name="ink-data-formats"></a>筆墨資料格式
 

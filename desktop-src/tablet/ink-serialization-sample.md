@@ -4,12 +4,12 @@ ms.assetid: 468d9c2a-0b3c-4a44-a049-3f3b78e952ba
 title: 筆墨序列化範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e898f91db17efcb7579c067e7db5c422da8213a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80e71eed5c91bf4fa1524cc52af163516ced0c7362d0d20b8ecf52ac1a08ccd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032266"
 ---
 # <a name="ink-serialization-sample"></a>筆墨序列化範例
 
@@ -27,7 +27,7 @@ HTML 在格式化很重要的環境中很有用，例如在文書處理檔中。
 
 ## <a name="collecting-ink"></a>收集筆墨
 
-首先，參考隨 Windows Vista 和 Windows XP Tablet PC Edition 軟體發展工具組 (SDK) 安裝的 Tablet PC API。
+首先，參考隨 Windows Vista 和 Windows XP Tablet pc Edition 軟體發展工具組 (SDK) 所安裝的 Tablet pc API。
 
 
 ```C++

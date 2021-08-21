@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: faed7e9ed22ddcacbd8720e589463fd9a75fd87a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0ec49d6f5b9c7efcb860ba99eaf7984fa89cfb0bc12cbdfcfe8bde0db95eff1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020396"
 ---
 # <a name="stopservice-method-of-the-win32_printerdriver-class"></a>Win32 PrinterDriver 類別的 StopService 方法 \_
 

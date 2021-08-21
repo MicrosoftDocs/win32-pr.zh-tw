@@ -4,12 +4,12 @@ description: 正在執行參考計數
 ms.assetid: d4fd98c9-afa4-4c5c-a3c9-44d34881cbdb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0d4dfe2b0faf2fc6557d1b089e33ae6ce4b98cb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: efa2a3e9827d35d07fa88b62c6f1097fcb3ad3ae3b5b75764deeac1c9c271050
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106996567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048156"
 ---
 # <a name="implementing-reference-counting"></a>正在執行參考計數
 
@@ -33,6 +33,6 @@ ms.locfileid: "106996567"
 [透過參考計數來管理物件存留期](managing-object-lifetimes-through-reference-counting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

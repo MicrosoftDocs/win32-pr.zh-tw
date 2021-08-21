@@ -4,16 +4,16 @@ ms.assetid: c7c96265-4588-4f05-83b6-6ef54f02650b
 title: 'ITTime：:p ut_StartTime 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a5b574f7c90d7cc2f92204e3a045b33e6fb8480
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6b0e1fe25f2518396ec507f88d0a89c5928f676b64d626c32307336b95ef21e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003226"
 ---
 # <a name="ittimeput_starttime-method"></a>ITTime：:p ui \_ StartTime 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Put \_ StartTime** 方法會將32位 NTP (網路時間通訊協定設定) 開始時間值。 會話會在這段時間被視為有效。
 
@@ -45,7 +45,7 @@ HRESULT put_StartTime(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *Tim* e 參數無效。<br/>                   |

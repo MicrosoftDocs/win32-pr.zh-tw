@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d6cc56e5538eb45c01ba7c35115e94719119bc4e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 39b2c086442b6a235730f9ec228b377f0a8b8f39a83d7c5043cfbca56dae2345
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987358"
 ---
 # <a name="id3dxkeyframedanimationsetgettranslationkeys-method"></a>ID3DXKeyframedAnimationSet：： GetTranslationKeys 方法
 

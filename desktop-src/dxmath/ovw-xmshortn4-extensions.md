@@ -4,12 +4,12 @@ ms.assetid: 3b2532be-945f-4215-b550-f8f61ae24aac
 title: XMSHORTN4 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91bba5366380f215aee67b26a6fe70d71e519848
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1d7ea99e9ab4cd2960a36706a4a61a0728cd303633408acfed5446ba5ced420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984898"
 ---
 # <a name="xmshortn4-extensions"></a>XMSHORTN4 延伸模組
 

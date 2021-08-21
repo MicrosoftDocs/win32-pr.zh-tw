@@ -96,12 +96,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6ec9634c5ee86d6819bf8f7a45dd521276565903
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e79cb842acd2063522f901d050c3fab6db3251a39a212a234f062935cc30b87c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020106"
 ---
 # <a name="win32_potsmodem-class"></a>Win32 \_ POTSModem 類別
 
@@ -1491,7 +1491,7 @@ Windows 仍在設定裝置。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Control \\ \\ Class \| FlowControl \_ Hard" ) 
 </dt> </dl>
 
-用來啟用硬體流量控制的命令字串。 流量控制是由電腦之間傳送的信號所組成，確認兩部電腦都已準備好傳輸或接收資料。
+用來啟用硬體流量控制的命令字串。 Flow 控制項是由電腦之間傳送的信號所組成，確認兩部電腦都已準備好傳輸或接收資料。
 
 範例： "&版 k1"
 
@@ -1509,7 +1509,7 @@ Windows 仍在設定裝置。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Control \\ \\ Class \| FlowControl \_ Off" ) 
 </dt> </dl>
 
-用來停用流程式控制制的命令字串。 流量控制是由電腦之間傳送的信號所組成，確認兩部電腦都已準備好傳輸或接收資料。
+用來停用流程式控制制的命令字串。 Flow 控制項是由電腦之間傳送的信號所組成，確認兩部電腦都已準備好傳輸或接收資料。
 
 範例： "&K0"
 
@@ -1527,7 +1527,7 @@ Windows 仍在設定裝置。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Control \\ \\ Class \| FlowControl \_ Soft" ) 
 </dt> </dl>
 
-用來啟用軟體流程式控制制的命令字串。 流量控制是由電腦之間傳送的信號所組成，確認兩部電腦都已準備好傳輸或接收資料。
+用來啟用軟體流程式控制制的命令字串。 Flow 控制項是由電腦之間傳送的信號所組成，確認兩部電腦都已準備好傳輸或接收資料。
 
 範例：「&的 K2」
 
@@ -1595,7 +1595,7 @@ Windows 仍在設定裝置。
 
 範例： "1&08"
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 從 Windows Server 2016 和 Windows 10 開始，可以使用此屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 從 Windows Server 2016 開始，可以使用這個屬性，Windows 10。
 
 </dd> <dt>
 
@@ -1902,7 +1902,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -2167,7 +2167,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Control \\ \\ Class \| ResponsesKeyName" ) 
 </dt> </dl>
 
-回應此數據機可能會在連接過程中向作業系統報告。 前兩個字元會指定回應的類型。 第二個字元會指定所進行連接的相關資訊。 第二個字元僅用於協調進度或連接回應碼。 接下來八個字元會指定以每秒位元組數 (bps) 來協商的數據機到數據機線路速度。 字元代表32位不帶正負號的長整數格式， (位元組和字組反轉) 。 最後八個字元表示數據機正在變更為不同的埠或資料終端設備 (DTE) 速度。 通常不會使用此欄位，因為數據機會以鎖定的埠速度建立連線，而不論數據機對數據機或資料通訊設備 (DCE) 速度。
+回應此數據機可能會在連接過程中向作業系統報告。 前兩個字元會指定回應的類型。 第二個字元會指定所進行連接的相關資訊。 第二個字元僅用於協調進度或連線的回應碼。 接下來八個字元會指定以每秒位元組數 (bps) 來協商的數據機到數據機線路速度。 字元代表32位不帶正負號的長整數格式， (位元組和字組反轉) 。 最後八個字元表示數據機正在變更為不同的埠或資料終端設備 (DTE) 速度。 通常不會使用此欄位，因為數據機會以鎖定的埠速度建立連線，而不論數據機對數據機或資料通訊設備 (DCE) 速度。
 
 </dd> <dt>
 

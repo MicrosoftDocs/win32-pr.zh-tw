@@ -4,12 +4,12 @@ description: 指標標記會識別只能存在於作用中或正在執行狀態�
 ms.assetid: 9895f03d-7110-41c1-a934-87010f9ad380
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aebebfce908571b69a5b8ce05f589a4ca4b30977
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 4bcdf96497751b3f777c292c56d35b2c04432da84b352e20c4dd8b0917dedb16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104374194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047896"
 ---
 # <a name="pointer-monikers"></a>指標標記
 
@@ -40,9 +40,9 @@ ms.locfileid: "104374194"
 [專案的名字](item-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

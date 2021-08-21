@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 99f9e411b7d8b85ce4be8109bd823895675ec236
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
-ms.translationtype: HT
+ms.openlocfilehash: 23a6fbf3cb16d57e9da832cb6a0a35666cd3e02f49ac306de3aa11ac44f612c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986178"
 ---
 # <a name="shader-model-5-instruction-modifiers"></a>著色器模型5指令修飾詞
 
@@ -37,9 +37,9 @@ ms.locfileid: "104372177"
 [著色器模型5元件 (DirectX HLSL) ](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

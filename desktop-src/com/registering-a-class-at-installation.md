@@ -4,12 +4,12 @@ description: 如果某個類別打算隨時供用戶端使用，則在大部分�
 ms.assetid: 6d78c2ce-56d8-4866-9801-35125ec9cac4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4253c40cb3feb7e737368c947c0b20715f5becbd
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 017e4393a4c5422157c8f9b9e9b7f366c2fafc8cfe6af5722e451a3d1b9fa069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047856"
 ---
 # <a name="registering-a-class-at-installation"></a>在安裝時註冊類別
 
@@ -49,6 +49,6 @@ AppID 金鑰底下有幾個值，可定義該應用程式的特定資訊。 這�
 [自我註冊](self-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

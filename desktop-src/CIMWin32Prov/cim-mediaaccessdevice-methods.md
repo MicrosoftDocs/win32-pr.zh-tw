@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_MediaAccessDevice 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7aa2a0c86089d9ee81b083f2db75c3f395b11f28
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 38cf395dbec144cd0e60920a3ce58801bbafb225c7b6a462e3dbe4c346be9085
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106988527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080522"
 ---
 # <a name="cim_mediaaccessdevice-methods"></a>CIM \_ MediaAccessDevice 方法
 

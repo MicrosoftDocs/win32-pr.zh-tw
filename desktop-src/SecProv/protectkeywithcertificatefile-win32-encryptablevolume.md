@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: d61a0bd0d31c14f13edd9ef610e8f6d3ed20f037
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e96667af5e9c16097e951f3162082a6fb06b13d0504da3e8582b9f1b7ebfd4cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004456"
 ---
 # <a name="protectkeywithcertificatefile-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 ProtectKeyWithCertificateFile 方法 \_
 
@@ -55,7 +55,7 @@ uint32 ProtectKeyWithCertificateFile(
 
 類型： **字串**
 
-字串，指定用來啟用 BitLocker 之 .cer 檔案的位置和名稱。 加密憑證必須以 .cer 格式匯出 ([*可辨別編碼規則*](../secgloss/d-gly.md) (DER) 編碼的二進位 [*x.509*](../secgloss/x-gly.md) 或 Base-64 編碼的 x.509) 。 您可以從 Microsoft PKI、協力廠商 PKI 或自我簽署來產生加密憑證。
+字串，指定用來啟用 BitLocker 之 .cer 檔案的位置和名稱。 加密憑證必須以 .cer 格式匯出 ([*可辨別編碼規則*](../secgloss/d-gly.md) (DER) 編碼的二進位 [*x.509*](../secgloss/x-gly.md)或 Base-64 編碼的 x.509) 。 您可以從 Microsoft PKI、協力廠商 PKI 或自我簽署來產生加密憑證。
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ uint32 ProtectKeyWithCertificateFile(
 
 
 
-| 傳回碼/值                                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                    |
+| 傳回碼/值                                                                                                                                                                                           | 描述                                                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl>                                                           | 此方法成功。<br/>                                                                                                                                                                                                                                                          |
 | <dl> <dt>**FVE \_E \_ 非 \_ BITLOCKER \_ OID**</dt> <dt>2150695022 (0x8031006E)</dt> </dl>                     | 指定之憑證的 EKU 屬性不允許它用於 BitLocker 磁碟機加密。 BitLocker 不需要憑證擁有 EKU 屬性，但如果有設定，則必須將它設定為與 BitLocker 設定的 oid 相符的 OID。<br/> |
@@ -101,8 +101,8 @@ uint32 ProtectKeyWithCertificateFile(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7 企業版，僅限 Windows 7 旗艦版傳統型 \[ 應用程式\]<br/>                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 7 企業版， \[ 僅 Windows 7 旗艦版桌面應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

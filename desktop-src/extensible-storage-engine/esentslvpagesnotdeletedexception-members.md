@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102801
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a7507359e3f2539a6405c4077416cd74738ca85c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5111b1db6bd5f0c76d10a28cea97ae20fc614dd2c02c13fafc9c19179a0e1ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104551816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115048"
 ---
 # <a name="esentslvpagesnotdeletedexception-members"></a>EsentSLVPagesNotDeletedException 成員
 

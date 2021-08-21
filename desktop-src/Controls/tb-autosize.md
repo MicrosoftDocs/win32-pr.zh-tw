@@ -3,7 +3,7 @@ title: 'TB_AUTOSIZE 訊息 (Commctrl .h) '
 description: 使工具列調整大小。
 ms.assetid: 11aff184-6f18-43a2-9bdc-462fc5ba1680
 keywords:
-- TB_AUTOSIZE message Windows 控制項
+- TB_AUTOSIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5f901463888338fd9cadf67472232efe9a25f29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b363546c5a079d2d73a0a3573a582ac27d6348b4db879d6c4371d639021f5d2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018726"
 ---
 # <a name="tb_autosize-message"></a>TB 自動 \_ 調整訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104509490"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

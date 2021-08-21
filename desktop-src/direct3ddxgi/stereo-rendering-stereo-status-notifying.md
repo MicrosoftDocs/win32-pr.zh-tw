@@ -4,12 +4,12 @@ ms.assetid: FB8AC57E-38DD-47B5-8666-1F4B73488F8B
 title: 以身歷聲轉譯並通知身歷聲狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 379c6335e0bd060cf0065fe92bf2ec6c086289c3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9f17f324a884c5784c98a8f5c21ef9c9dac7b048fc72ae7ed0ea1a75e61e2551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987008"
 ---
 # <a name="rendering-in-stereo-and-notifying-about-stereo-status"></a>以身歷聲轉譯並通知身歷聲狀態
 
@@ -23,7 +23,7 @@ ms.locfileid: "104108385"
 
 -   使用者設定。
 
-    Windows 使用者可以在主控台的 [變更顯示設定] 中，啟用或停用 [啟用 stereoscopic 3D] 選項的身歷聲顯示。
+    Windows 使用者可以在主控台的 [變更顯示] 設定中，啟用或停用 [啟用 stereoscopic 3d] 選項的立體顯示。
 
 -   電腦功能和設定，包括圖形介面卡、圖形驅動程式和監視器安裝程式。
 

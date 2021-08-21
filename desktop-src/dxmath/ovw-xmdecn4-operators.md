@@ -4,12 +4,12 @@ ms.assetid: 573b102f-5e8a-49d0-a62d-6735a385118e
 title: XMDECN4 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fc2f1b5a1e9ac5a28d50d21ba872b65a1184099
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01d4da37979794d754a7b0d833baed3d17baf1dfb1f35134b60148b60cbc4727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984988"
 ---
 # <a name="xmdecn4-operators"></a>XMDECN4 運算子
 

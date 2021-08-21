@@ -4,12 +4,12 @@ ms.assetid: c4574c89-dee2-4841-9318-5383cf417111
 title: DXGI 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c49f8309552662d0edd9833ce037a256c3c09c48
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e9347fdf39f2cde6bb50e3ae4c65f2601c570e084516bf817c4dc66169a83925
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987138"
 ---
 # <a name="dxgi-enumerations"></a>DXGI 列舉
 

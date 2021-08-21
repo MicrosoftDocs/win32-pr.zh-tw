@@ -4,12 +4,12 @@ ms.assetid: fef4620d-fc97-4567-97b0-142e144bc180
 title: 擴充資料結構和類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21388cf852872676972b8132ac4981319bb69c97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e365d5eead22cdaf7431fe23b276f705d2d0aef8309a541a2480568c01260186
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003646"
 ---
 # <a name="extending-data-structures-and-types"></a>擴充資料結構和類型
 

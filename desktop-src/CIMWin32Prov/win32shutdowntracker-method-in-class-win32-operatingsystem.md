@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 44c86972d014da906b98ad8d3bd8e98d01f1cfcb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 58c83e90f5256b2b2abb681048678b7c3bb4df3e9c4f4cdade16cb9ea00c4e48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079522"
 ---
 # <a name="win32shutdowntracker-method-of-the-win32_operatingsystem-class"></a>Win32 作業系統類別的 Win32ShutdownTracker 方法 \_
 
@@ -64,7 +64,7 @@ uint32 Win32ShutdownTracker(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 用來關閉電腦的一組點陣圖旗標。 若要強制執行命令，請將 Force 旗標 (4) 新增至命令值。 在遠端電腦上使用 Force 搭配關機或重新開機，會立即關閉所有 (包括 WMI、COM 等等) ，或重新開機遠端電腦。 這會產生不定的傳回值。
@@ -141,7 +141,7 @@ uint32 Win32ShutdownTracker(
 
 ## <a name="remarks"></a>備註
 
-呼叫進程必須具有 **SE \_ SHUTDOWN \_ 名稱** 許可權。
+呼叫進程必須有 **SE \_ 關機 \_ 名稱**」許可權。
 
 ## <a name="examples"></a>範例
 

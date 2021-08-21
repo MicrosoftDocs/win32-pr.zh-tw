@@ -4,12 +4,12 @@ ms.assetid: 091429ff-a8f4-4e1b-929f-1559cd173c3d
 title: 撰寫合併模組登錄資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d10e31ac82d190c87019da5bc77408b58122a523
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03726481905d4efee2405d0b383f53833d840090fea74e2d41fc6ae67a8e5bd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066148"
 ---
 # <a name="authoring-merge-module-registry-tables"></a>撰寫合併模組登錄資料表
 
@@ -17,7 +17,7 @@ ms.locfileid: "103944011"
 
 ## <a name="typelib-class-appid-progid-extension-verb-or-mime-tables"></a>TypeLib、Class、AppId、ProgId、Extension、Verb 或 MIME 資料表
 
-針對型別程式庫、類別、延伸模組和動詞，將登錄資訊撰寫至合併模組的 [TypeLib](typelib-table.md)、 [類別](class-table.md)、 [AppId](appid-table.md)、 [ProgId](progid-table.md)、 [擴充](extension-table.md)、 [動詞](verb-table.md)或 [MIME](mime-table.md) 資料表中。 如果您使用登錄 [表](registry-table.md) 來新增這項資訊，Windows 2000 就無法為這些元件提供整個系統的公告。
+針對型別程式庫、類別、延伸模組和動詞，將登錄資訊撰寫至合併模組的 [TypeLib](typelib-table.md)、 [類別](class-table.md)、 [AppId](appid-table.md)、 [ProgId](progid-table.md)、 [擴充](extension-table.md)、 [動詞](verb-table.md)或 [MIME](mime-table.md) 資料表中。 如果您使用登錄[資料表](registry-table.md)來新增這項資訊，Windows 2000 無法針對這些元件提供整個系統的公告。
 
 合併模組作者可能會因為下列原因而決定不使用類別表進行註冊：
 

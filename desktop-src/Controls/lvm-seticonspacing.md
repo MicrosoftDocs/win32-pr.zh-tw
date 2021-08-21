@@ -3,7 +3,7 @@ title: 'LVM_SETICONSPACING 訊息 (Commctrl .h) '
 description: 在具有 LVS) 圖示樣式的清單視圖控制項中，設定圖示之間的間距 \_ 。 您可以明確地傳送此訊息，或使用 ListView \_ SetIconSpacing 宏來傳送。
 ms.assetid: 2dd3d9df-5b0d-445e-9201-d766fa218f90
 keywords:
-- LVM_SETICONSPACING message Windows 控制項
+- LVM_SETICONSPACING 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 972435190ec21bb50db90640a589cef1e394318c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5897b0ca6aec7763cc24a0ea538f336e7a2f737f2ddc0e7cb52a2145e570db47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019171"
 ---
 # <a name="lvm_seticonspacing-message"></a>LVM \_ SETICONSPACING 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "103843092"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

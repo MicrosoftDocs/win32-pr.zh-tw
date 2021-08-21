@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 20c7ff5d2a171228223d52db28d3bae6007068c5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 805ffe89b1f9d14ca70da0a8121353e6bf766b8b6e433441350d1b55c4531415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119952"
 ---
 # <a name="shader-model-4-assembly"></a>著色器模型4元件
 
-著色器模型4需要您在 HLSL 中編寫著色器。 不過，著色器編譯器會將 HLSL 程式碼編譯為在裝置上執行的元件。 如果您使用適用于 Windows 的 PIX 來對著色器進行偵測，您可以選擇在 HLSL 或元件中顯示著色器程式碼。 本節列出在您對著色器進行偵錯工具時，可能會遇到的著色器模型4和著色器模型4.1 元件指示。
+著色器模型4需要您在 HLSL 中編寫著色器。 不過，著色器編譯器會將 HLSL 程式碼編譯為在裝置上執行的元件。 如果您使用 PIX 進行 Windows 來對著色器進行偵錯工具，您可以選擇在 HLSL 或元件中顯示著色器程式碼。 本節列出在您對著色器進行偵錯工具時，可能會遇到的著色器模型4和著色器模型4.1 元件指示。
 
 <dl>
 
@@ -87,7 +87,7 @@ ms.locfileid: "104021485"
 [label](label--sm4---asm-.md)  
 [Ld](ld--sm4---asm-.md)  
 [日誌](log--sm4---asm-.md)  
-[loop](loop--sm4---asm-.md)  
+[環](loop--sm4---asm-.md)  
 [lt](lt--sm4---asm-.md)  
 [瘋狂](mad--sm4---asm-.md)  
 [max](max--sm4---asm-.md)  
@@ -151,9 +151,9 @@ ms.locfileid: "104021485"
 [著色器模型4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

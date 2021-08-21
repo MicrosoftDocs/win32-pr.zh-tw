@@ -4,12 +4,12 @@ ms.assetid: 9fc3f6eb-7103-43c5-84f8-3842757e5be7
 title: 'LINEQOSSERVICELEVEL_ 常數 (Tspi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c0629715e461a15e21e1730f86edb61d83d60db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a74a4508b54a8b56e8e9cb359f966122c5c009f0e5ede0f1b8544cd1e46330c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003006"
 ---
 # <a name="lineqosservicelevel_-constants"></a>LINEQOSSERVICELEVEL \_ 常數
 

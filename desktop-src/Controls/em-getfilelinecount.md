@@ -3,7 +3,7 @@ title: 'EM_GETFILELINECOUNT 訊息 (CommCtrl .h) '
 description: 取得多行編輯控制項中的行數，與螢幕上的線條顯示方式無關。
 ms.assetid: 9fe63c10-7395-4f98-a672-14960a70d14f
 keywords:
-- EM_GETFILELINECOUNT message Windows 控制項
+- EM_GETFILELINECOUNT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: bf48b3abeb10b98bf0c22a7dd2ef93c73a2a59c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 28539af32212a699e12d2cf1d1787fa2e7aaa224f374eb6a63717279fcad16b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019676"
 ---
 # <a name="em_getfilelinecount-message-commctrlh"></a>EM_GETFILELINECOUNT 訊息 (CommCtrl .h) 
 
@@ -60,7 +60,7 @@ ms.locfileid: "104104832"
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限 1809 desktop 應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2019 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2019 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>CommCtrl。h</dt> </dl> |
 
 

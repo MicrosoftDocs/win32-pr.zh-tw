@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6455b47d24c1c83683ce8b85c48990bb32e221ae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a1ef04c14682aa6e763222fd0c8db0e2eedf33abf747da97a16b2b1621e1c42a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119742"
 ---
 # <a name="using-shaders-in-direct3d-9"></a>在 Direct3D 9 中使用著色器
 
@@ -85,7 +85,7 @@ float4 k_s : register(c12);
 
 ## <a name="debugging-shaders"></a>調試著色器
 
-適用于 Microsoft Visual Studio .NET 的 DirectX 擴充功能可在 Visual Studio .NET 整合式開發環境中，提供完全整合的 HLSL 偵錯工具 (IDE) 。 為了準備著色器的偵錯工具，您必須在您的電腦上安裝正確的工具 (請參閱 [Visual Studio (Direct3D 9) ) 中的偵錯工具著色 ](dx-graphics-hlsl-debug-visual-studio.md) 器。
+適用于 Microsoft Visual Studio .net 的 DirectX 擴充功能可在 Visual Studio .net 整合式開發環境中，提供完全整合的 HLSL 偵錯工具 (IDE) 。 為了準備著色器的偵錯工具，您必須在您的電腦上安裝正確的工具 (請參閱[Visual Studio (Direct3D 9) ) 中的偵錯工具著色](dx-graphics-hlsl-debug-visual-studio.md)器。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -94,6 +94,6 @@ float4 k_s : register(c12);
 [HLSL 的程式設計指南](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: 執行 QueryInterface 的規則
 ms.assetid: 6db17ed8-06e4-4bae-bc26-113176cc7e0e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0e40c743d5306e7dae79bd55ec2c43c01afe742
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9c0d0df2d0382c670ed6f4a323f55dcdd1b187430282abe6699da186e574e390
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106999593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047866"
 ---
 # <a name="rules-for-implementing-queryinterface"></a>執行 QueryInterface 的規則
 
@@ -75,6 +75,6 @@ hr = pA->QueryInterface(IID_IB, &pB);
 [使用和執行 IUnknown](using-and-implementing-iunknown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

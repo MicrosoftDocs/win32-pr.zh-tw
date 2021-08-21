@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 58cbd432404fcd511140a7368999161f5e44f77f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 199b5596e05bd013f3384c2a182bbe8e905cb609ae869c194d811fb97d3d254b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121155"
 ---
 # <a name="id3dxkeyframedanimationsetgetscalekey-method"></a>ID3DXKeyframedAnimationSet：： GetScaleKey 方法
 

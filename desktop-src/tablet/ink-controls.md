@@ -4,16 +4,16 @@ ms.assetid: 03229b86-f59b-4946-8816-fa153af57630
 title: 筆墨控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1206c5e77c12c31a80dcfbca0bebf317a28e0e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54f07a26d30746f99b291053276de20ef78c5ce4b4f0c7a14afce6633684b7b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032336"
 ---
 # <a name="ink-controls"></a>筆墨控制項
 
-Tablet PC 平臺提供兩種控制項： [InkEdit](inkedit-control.md) 和 [InkPicture](inkpicture-control.md)，可讓您輕鬆地將筆跡和手寫辨識新增到 Tablet PC 應用程式。 InkEdit 控制項具有 [managed](/previous-versions/ms835842(v=msdn.10))、 [ActiveX](inkedit-control-reference.md) 和 Win32 版本，而 InkPicture 只有 managed [InkPicture](/previous-versions/ms583740(v=vs.100)) 和 [activex](inkpicture-control-reference.md) 版本。
+Tablet PC 平臺提供兩種控制項： [InkEdit](inkedit-control.md) 和 [InkPicture](inkpicture-control.md)，可讓您輕鬆地將筆跡和手寫辨識新增到 Tablet PC 應用程式。 InkEdit 控制項具有[managed](/previous-versions/ms835842(v=msdn.10))、 [ActiveX](inkedit-control-reference.md)和 Win32 版本，而 InkPicture 只有 managed [InkPicture](/previous-versions/ms583740(v=vs.100))和[ActiveX](inkpicture-control-reference.md)版本。
 
 控制項之間的主要差異在於資料的儲存方式。 [InkEdit](inkedit-control.md)控制項會依預設將筆墨儲存為文字，而[InkPicture](inkpicture-control.md)則會將筆墨儲存為筆跡。
 
@@ -43,7 +43,7 @@ System.Threading.Thread.CurrentThread.ApartmentState = System.Threading.Apartmen
 
 下列各節說明筆墨控制項，以及在應用程式中使用筆墨控制項的方式：
 
--   [將筆墨控制項新增至專案](adding-ink-controls-to-a-project.md)
+-   [將筆墨控制項新增至 Project](adding-ink-controls-to-a-project.md)
 -   [InkEdit 控制項](inkedit-control.md)
 -   [InkPicture 控制項](inkpicture-control.md)
 

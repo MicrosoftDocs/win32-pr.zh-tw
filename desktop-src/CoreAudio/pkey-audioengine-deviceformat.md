@@ -4,12 +4,12 @@ ms.assetid: eb3c734f-0bb8-47cc-a01f-99569f472cde
 title: 'PKEY_AudioEngine_DeviceFormat (Mmdeviceapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ebb80fefd59fbc4067ce4a075d27b88de3d96c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 13245d23095c25173a894a7a4c7cc11b2cdc534f6ae7198508b725d0fd1cf0b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018326"
 ---
 # <a name="pkey_audioengine_deviceformat"></a>PKEY \_ AudioEngine \_ DeviceFormat
 
@@ -25,8 +25,8 @@ ms.locfileid: "103689128"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Mmdeviceapi。h</dt> </dl> |
 
 

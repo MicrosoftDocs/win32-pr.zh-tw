@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
-ms.openlocfilehash: 1a1c024b316472be00f119485326b704a4fe8dd0
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 89ea8431df7e8cac09a041bd9a16c805633cd3ec82a2cc506cb30fcf0f0cd39b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032256"
 ---
 # <a name="ishelldispatchcontrolpanelitem-method"></a>IShellDispatch. 傳送至 get-controlpanelitem 方法
 
@@ -83,9 +83,9 @@ IShellDispatch.ControlPanelItem( _
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 [**傳送至 get-controlpanelitem**](shell-controlpanelitem.md) 來執行主控台的 **顯示內容** 專案。 JScript、VBScript 和 Visual Basic 會顯示使用方式。
+下列範例會使用 [**傳送至 get-controlpanelitem**](shell-controlpanelitem.md) 來執行主控台的 **顯示內容** 專案。 針對 JScript、VBScript 和 Visual Basic，會顯示使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -141,10 +141,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 
