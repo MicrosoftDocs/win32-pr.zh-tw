@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3b5eca7ddcc506d158175782e3e13796e56de267
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6f489f2c9dbc5685561b3105001de5ae5dca5fef4d68f80b5d2b0d41d479cd8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147163"
 ---
 # <a name="setkeyprotector-method-of-the-msvm_securityservice-class"></a>Msvm SecurityService 類別的 SetKeyProtector 方法 \_
 

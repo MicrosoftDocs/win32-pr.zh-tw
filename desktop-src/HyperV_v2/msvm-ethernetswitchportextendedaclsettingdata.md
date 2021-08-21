@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 25ae81e4f00e87e41170ac5713ced0d9b523c844
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27f94de089df73c246de887268d34c187bef2507391ceeb33dd7c8cc8068bc43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148317"
 ---
 # <a name="msvm_ethernetswitchportextendedaclsettingdata-class"></a>Msvm \_ EthernetSwitchPortExtendedAclSettingData 類別
 

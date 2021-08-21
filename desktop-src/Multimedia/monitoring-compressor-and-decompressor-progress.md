@@ -8,12 +8,12 @@ keywords:
 - ICSetStatusProc 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beb86a40bb653380dc93e758ada1b2eef6ec9ca7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 724d3e6a8bee645717ef624eddd1276d3e55e856f1aab3c6edc5f9585b3f5feb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137179"
 ---
 # <a name="monitoring-compressor-and-decompressor-progress"></a>監視壓縮和解壓縮進程進度
 
@@ -78,9 +78,9 @@ LONG CALLBACK export PreviewStatusProc(LPARAM lParam,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

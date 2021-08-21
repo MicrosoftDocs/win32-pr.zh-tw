@@ -4,18 +4,18 @@ ms.assetid: cbcb4d6d-dc85-4ae2-b0a8-110f15092733
 title: 從靜止影像 Pin 捕捉影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3510f318f3107dd698dc753704d6c09d70ddd308
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cab750fb6b847bc39d28c8906df8dcb982278f7a4447bfc3d79631ee58eb574e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158660"
 ---
 # <a name="capturing-an-image-from-a-still-image-pin"></a>從靜止影像 Pin 捕捉影像
 
 有些攝影機可以產生與 capture 串流不同的靜止影像，而且仍有影像的品質高於 capture 串流所產生的影像。 相機可能會有作為硬體觸發程式的按鈕，或可能支援觸發軟體。 支援仍影像的相機會公開靜止的影像釘選，也就是釘選類別目錄釘選 \_ 類別 \_ 。
 
-從裝置取得靜止影像的建議方式是使用 Windows 映像取得 (WIA) Api。 如需詳細資訊，請參閱 Platform SDK 檔中的「Windows 映像取得」。 不過，您也可以使用 DirectShow 來捕捉映射。
+從裝置取得靜止影像的建議方式，是使用 Windows 映像取得 (WIA) api。 如需詳細資訊，請參閱 Platform SDK 檔中的「Windows 映像取得」。 不過，您也可以使用 DirectShow 來捕捉映射。
 
 若要觸發靜止的 pin，請在圖形執行時使用 [**IAMVideoControl：： SetMode**](/windows/desktop/api/Strmif/nf-strmif-iamvideocontrol-setmode) 方法，如下所示：
 

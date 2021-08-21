@@ -4,12 +4,12 @@ description: 提供支援單一登入 (SSO) 的 EAPHost Api 總覽。
 ms.assetid: 3c01d10a-9098-4965-8983-c7f65be31884
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3c047205946293c2116c1ab3537ad4d9250857d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7a38c6dd35dd2506f8aa26412b09db0f9c9951241bd0f017ed5e55d7f5484b86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085872"
 ---
 # <a name="sso-eaphost-api-overview"></a>SSO EAPHost API 總覽
 

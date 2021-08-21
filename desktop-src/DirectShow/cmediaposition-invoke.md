@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3955848bf2a87e0983ddd7dc3bef48f157ae6648
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6dac439b94a62e9dbd11ca9e12ab80023071fc00cf22abcf6b9b4b93b07c356c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118156854"
 ---
 # <a name="cmediapositioninvoke-method"></a>CMediaPosition 方法
 
@@ -111,7 +111,7 @@ HRESULT Invoke(
 
 
 
-| 傳回碼                                                                                              | Description                                      |
+| 傳回碼                                                                                              | 描述                                      |
 |----------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                     | 成功。<br/>                              |
 | <dl> <dt>**將 \_ 電子 \_ UNKNOWNINTERFACE**</dt> </dl> | *Riid* 參數不是 IID \_ Null<br/> |

@@ -4,12 +4,12 @@ ms.assetid: 79af4bb0-1e0f-4df3-ae25-d2798842adb6
 title: ComboList 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2dcb1c51e8eccaba03c3b4d905b0501e8a3f97a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71e0a53357d91c5c5a016f65e8e1e0fb341b15cae1ea2c6cf480e536fa109067
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145377"
 ---
 # <a name="combolist-control-attribute"></a>ComboList 控制項屬性
 
@@ -25,7 +25,7 @@ ms.locfileid: "106990357"
 
 
 
-| Decimal | 十六進位 | Description                     |
+| Decimal | 十六進位 | 描述                     |
 |---------|-------------|---------------------------------|
 | 131072  | 0x00020000  | msidbControlAttributesComboList |
 

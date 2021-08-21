@@ -103,7 +103,7 @@ Microsoft RDP 用戶端控制 (可轉散發套件) -version 3a
 
 
 
-| 屬性                                                                             | 存取類型           | Description                                                                                                                                                               |
+| 屬性                                                                             | 存取類型           | 描述                                                                                                                                                               |
 |:-------------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings**](imstscax-advancedsettings.md)<br/>                     | 唯讀<br/>  | [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md)介面指標。<br/>                                                                       |
 | [**AdvancedSettings2**](imsrdpclient-advancedsettings2.md)<br/>               | 唯讀<br/>  | [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md)介面的指標，用來設定用戶端控制項的 advanced 設定。<br/> |

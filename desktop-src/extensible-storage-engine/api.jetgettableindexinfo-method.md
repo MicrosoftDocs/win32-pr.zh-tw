@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 3d4e477e15bf8c49b5923d98930345cfe57ebfef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5bcf674d8cfdea491f4435e14640b974a6cb92c2f3fc6fe156da2de7e8a7fa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085143"
 ---
 # <a name="apijetgettableindexinfo-method"></a>JetGetTableIndexInfo 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104114100"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

@@ -4,12 +4,12 @@ ms.assetid: e4d4e456-61fb-492b-b817-30629681e270
 title: 影片轉譯和重迭的介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cfa8a94765671e38c48418d37b929215e84b2fe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 48cd1ae1f90d26bdbdac40410fa9aa8484e296c338f901ddac7b2f4abb0ef055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154062"
 ---
 # <a name="interfaces-for-video-rendering-and-overlay"></a>影片轉譯和重迭的介面
 
@@ -59,19 +59,19 @@ ms.locfileid: "103688228"
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Amstream/nn-amstream-idirectdrawmediasample"><strong>IDirectDrawMediaSample</strong></a></td>
-<td>存取覆迭 <a href="overlay-mixer-filter.md">混音</a> 器所配置的 DirectDraw 介面。 (已淘汰。 ) </td>
+<td>存取覆迭<a href="overlay-mixer-filter.md">Mixer</a>篩選所配置的 DirectDraw 介面。 (已淘汰。 ) </td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/Mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a></td>
-<td>在重迭混音器上執行。 啟用無視窗用戶端（例如 ActiveX®控制項）來取得和設定影片矩形的屬性，以及建議事件篩選。</td>
+<td>在重迭 Mixer 上執行。 啟用無視窗用戶端（例如 ActiveX®控制項）來取得和設定影片矩形的屬性，以及建議事件篩選。</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify"><strong>IMixerOCXNotify</strong></a></td>
-<td>由「無視窗」用戶端執行，並由重迭混音器呼叫，以傳送影響影片顯示矩形的事件通知。</td>
+<td>由「無視窗」用戶端執行，並由重迭 Mixer 呼叫，以傳送影響影片顯示矩形的事件通知。</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig2"><strong>IMixerPinConfig2</strong></a></td>
-<td>在混合多個影片串流時，設定覆迭混音器篩選器上的影片色彩控制項。 (已取代。)</td>
+<td>混用多個影片串流時，在重迭 Mixer 篩選器上設定影片色彩控制項。 (已取代。)</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a></td>

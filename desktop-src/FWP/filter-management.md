@@ -4,12 +4,12 @@ description: 篩選管理
 ms.assetid: F5D485D1-37D0-4684-910E-11DEEBF87423
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83bd8088fbf7735bc06247abad222b94c1e6009c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2f7a87ebc20df86f507359650869bc2fc55034507fba7af1bdf89f716725607d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150996"
 ---
 # <a name="filter-management"></a>篩選管理
 
@@ -31,6 +31,6 @@ ms.locfileid: "103682283"
 -   [**FwpmFilterUnsubscribeChanges0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterunsubscribechanges0)
 -   [**FwpmGetAppIdFromFileName0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmgetappidfromfilename0)
 
- 
+ 
 
- 
+ 

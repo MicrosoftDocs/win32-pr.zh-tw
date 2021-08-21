@@ -4,12 +4,12 @@ ms.assetid: fe82392f-33e2-432a-a6e3-710e475547b3
 title: 新增效果和轉換物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e6d33ed27faa0c69a755a17c72d9c5b136a4670
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 929678759d55a51b022cd7b870ddfa7cc5abb72279bcabe1694b5cc4eef211b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160059"
 ---
 # <a name="adding-effect-and-transition-objects"></a>新增效果和轉換物件
 
@@ -40,7 +40,7 @@ pTimeline->CreateEmptyNode(&pTransObj, TIMELINE_MAJOR_TYPE_TRANSITION);
 
 時間軸物件會作為另一個物件的包裝函 *式，稱為子物件，它* 會執行實際工作。 子物件會執行資料轉換，以產生所需的效果或轉換。 如需 DES 提供的轉換和效果清單，請參閱 [轉換和效果](transitions-and-effects.md)。
 
-若要設定子物件，請在時間軸物件上呼叫 [**IAMTimelineObj：： SetSubObjectGUID**](iamtimelineobj-setsubobjectguid.md) 方法，並傳遞類別識別碼 (子物件的 CLSID) 。 DirectShow 提供可供您用來取得 CLSID 的影片效果和影片轉換的列舉值。 如需詳細資訊，請參閱 [列舉效果和轉換](enumerating-effects-and-transitions.md)。
+若要設定子物件，請在時間軸物件上呼叫 [**IAMTimelineObj：： SetSubObjectGUID**](iamtimelineobj-setsubobjectguid.md) 方法，並傳遞類別識別碼 (子物件的 CLSID) 。 DirectShow 提供影片效果和影片轉換的列舉值，您可以用來取得 CLSID。 如需詳細資訊，請參閱 [列舉效果和轉換](enumerating-effects-and-transitions.md)。
 
 下列範例會將「 [SMPTE](smpte-wipe-transition.md) 抹除」轉換設定為子物件：
 

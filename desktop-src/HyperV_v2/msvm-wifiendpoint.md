@@ -58,12 +58,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f4a0a287d85b7a229b0e8e50a10c402fca734429
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c87667a8a16ff6b8e038c84d51b7229ce53c3397dca8ef8bb4708275512593ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146167"
 ---
 # <a name="msvm_wifiendpoint-class"></a>Msvm \_ WiFiEndpoint 類別
 
@@ -540,10 +540,10 @@ LAN 端點接聽的多播位址。 這個屬性繼承自 [**CIM \_ LANEndpoint**
 <span id="PEAPv1_EAP-GTC"></span><span id="peapv1_eap-gtc"></span><span id="PEAPV1_EAP-GTC"></span>**PEAPv1/EAP-GTC** (3) 
 </dt> <dt>
 
-<span id="EAP-FAST_MSCHAPv2"></span><span id="eap-fast_mschapv2"></span><span id="EAP-FAST_MSCHAPV2"></span>**Eap-fast/eap-mschapv2** (4) 
+<span id="EAP-FAST_MSCHAPv2"></span><span id="eap-fast_mschapv2"></span><span id="EAP-FAST_MSCHAPV2"></span>**EAP-FAST/MSCHAPv2** (4) 
 </dt> <dt>
 
-<span id="EAP-FAST_GTC"></span><span id="eap-fast_gtc"></span>**Eap-fast/GTC** (5) 
+<span id="EAP-FAST_GTC"></span><span id="eap-fast_gtc"></span>**EAP-FAST/GTC** (5) 
 </dt> <dt>
 
 <span id="EAP-MD5"></span><span id="eap-md5"></span>**EAP-MD5** (6) 
@@ -558,7 +558,7 @@ LAN 端點接聽的多播位址。 這個屬性繼承自 [**CIM \_ LANEndpoint**
 <span id="EAP-AKA"></span><span id="eap-aka"></span>**EAP-也稱為** (9) 
 </dt> <dt>
 
-<span id="EAP-FAST_TLS"></span><span id="eap-fast_tls"></span>**Eap-fast/TLS** (10) 
+<span id="EAP-FAST_TLS"></span><span id="eap-fast_tls"></span>/TLS (10) **的 EAP FAST**
 </dt> <dt>
 
 <span id="DMTF_Reserved_"></span><span id="dmtf_reserved_"></span><span id="DMTF_RESERVED_"></span>**DMTF 保留** (11 )
@@ -961,8 +961,8 @@ LAN 端點可能傳送或接收之資訊欄位的最大大小（以位數為單�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

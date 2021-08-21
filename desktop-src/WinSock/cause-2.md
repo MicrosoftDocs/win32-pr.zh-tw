@@ -4,12 +4,12 @@ ms.assetid: 258b22d7-b58a-499a-be00-de548578db83
 title: 原因
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f93d2a2864db347183ca42f5458681e4de3ecc6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d0539918e745c9b158a5a56923c45f37f87d5069ce63ef74083d7270204c5a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322379"
 ---
 # <a name="cause"></a>原因
 
