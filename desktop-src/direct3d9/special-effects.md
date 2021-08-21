@@ -4,12 +4,12 @@ ms.assetid: 8a120ff4-1252-4c4f-93fc-ea59bb7a1168
 title: " (Direct3D 9) 的特殊效果"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c853193e5cf34bfedb4eb7e01b5e89dc8467d99
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b3177f44b4c557eb42be42ffef8acac6108f8f68a8d9fcb072ebac6cee44af25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092185"
 ---
 # <a name="special-effects-direct3d-9"></a> (Direct3D 9) 的特殊效果
 

@@ -4,12 +4,12 @@ ms.assetid: 9950a55c-75c5-4b49-bd8a-1ce40ac71ee5
 title: 'AVEncMPVSceneDetection 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c11ac3d0ddc79ef3c0f8746e4d25934f5248193
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e6220cf67de5a9aa169006aaa863177dcc76dc6f72c39574c814a2e08a3eb857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159344"
 ---
 # <a name="avencmpvscenedetection-property"></a>AVEncMPVSceneDetection 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103935666"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

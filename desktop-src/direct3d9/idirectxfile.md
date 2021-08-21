@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dxof.lib
 - d3dxof.dll
-ms.openlocfilehash: 0a1e084108580277432aaeb61086b43a97dbd9f7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7b2a6094b1c07a29ef354c37fe0bc8537b001dc97db95f75f3b492e2e33f2bd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103854060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118093500"
 ---
 # <a name="idirectxfile-interface"></a>IDirectXFile 介面
 

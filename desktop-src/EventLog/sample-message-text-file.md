@@ -4,12 +4,12 @@ ms.assetid: 403eaccc-07a3-4368-a39a-18c706c65537
 title: 範例訊息文字檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e4247b1e39ef94c006262f282d8d830af11851
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e60f59e6d20f53560da6f1230886fe6c8cbb54b9052b97c2293d0f49720743ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151484"
 ---
 # <a name="sample-message-text-file"></a>範例訊息文字檔
 

@@ -4,16 +4,16 @@ ms.assetid: 0e173fe5-0b9d-48e8-bcbd-403614d51558
 title: AAUX 來源 (作為) 套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe479a0740da08f42ca5d80e1f0b6f5174f6917b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 89a2d8aa11c9560b2aa59165afd9bdaae775be7755a7a7d2a5e87a80df412d1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160259"
 ---
 # <a name="aaux-source-as-pack"></a>AAUX 來源 (作為) 套件
 
-下表列出 MSDV 驅動程式用來填入 [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo)結構之 **dwDVAAuxSrc** 和 **dwDVAAuxSrc1** 成員的值。 如需詳細資訊，請參閱 [MSDV 驅動程式中的 DVINFO 欄位設定](dvinfo-field-settings-in-the-msdv-driver.md)。
+下表列出 MSDV 驅動程式用來填入 [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo)結構之 **dwDVAAuxSrc** 和 **dwDVAAuxSrc1** 成員的值。 如需詳細資訊，請參閱[MSDV 驅動程式中的 DVINFO 欄位設定](dvinfo-field-settings-in-the-msdv-driver.md)。
 
 DVCR 設定
 
@@ -227,7 +227,7 @@ AS Pack
 
  
 
-DVCR 25 與 DVCPRO 50 設定 (計畫的) 
+DVCR 25 與 DVCPRO 50 設定 (規劃的) 
 
 
 
@@ -424,7 +424,7 @@ AS Pack
 
  
 
-規劃)  (DVCR 100 設定
+DVCR 100 設定 (規劃的) 
 
 
 

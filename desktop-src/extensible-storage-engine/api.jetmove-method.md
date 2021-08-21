@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 2ed53c7c7e7a0960e65ea60356c1e15bda5d0431
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2dc1804f2807ccdb1969bcbc3b27d898498c6ab7ba76eedde6c615b4fca9b3ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085099"
 ---
 # <a name="apijetmove-method"></a>JetMove 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104320655"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

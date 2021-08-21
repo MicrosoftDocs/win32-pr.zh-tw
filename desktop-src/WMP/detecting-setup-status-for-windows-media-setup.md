@@ -1,6 +1,6 @@
 ---
-title: 偵測 Windows Media 安裝程式的安裝狀態
-description: 偵測 Windows Media 安裝程式的安裝狀態
+title: 偵測 Windows 媒體安裝程式的安裝狀態
+description: 偵測 Windows 媒體安裝程式的安裝狀態
 ms.assetid: c3acc268-934b-4a10-aab5-4b1764cb4c87
 keywords:
 - Windows Media Player，偵測安裝狀態
@@ -13,14 +13,14 @@ keywords:
 - 軟體轉散發
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e28a4df9b842a1b6491a0ec98ca0a3182630c389
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 797c7cb5fe4d34895109777c4da7e15489a0d32acd9cf42660b3346521f6f059
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340897"
 ---
-# <a name="detecting-setup-status-for-windows-media-setup"></a>偵測 Windows Media 安裝程式的安裝狀態
+# <a name="detecting-setup-status-for-windows-media-setup"></a>偵測 Windows 媒體安裝程式的安裝狀態
 
 下列程式碼可搭配 Windows Media Player 轉散發套件使用。 安裝狀態會儲存在 **InstallResult** 登錄專案的下列子機碼底下：
 
@@ -36,7 +36,7 @@ ms.locfileid: "104372558"
 
 
 
- 
+ 
 
 以下是可併入呼叫安裝應用程式中的 c + + 程式碼範例。 這段程式碼會 `fSuccess` `fRebootNeeded` 根據元件轉散發套件中 Windows Media Player 安裝程式所寫入的 **HRESULT** 值，適當地將和變數設為 **true** 或 **false**。
 
@@ -106,9 +106,9 @@ if( ERROR_SUCCESS == RegQueryValueExA(
 [**轉散發 Windows Media Player 軟體**](redistributing-windows-media-player-software.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

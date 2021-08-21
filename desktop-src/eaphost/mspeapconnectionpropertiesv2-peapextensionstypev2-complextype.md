@@ -4,12 +4,12 @@ description: 瞭解 PeapExtensionsTypeV2 複雜類型。 此類型可讓架構�
 ms.assetid: cb011182-afec-4813-bd56-add894c74c9c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 869e67f16bc9b42929d227755e08bf6924dcc737
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: baea42ec60fe84085ea5e4541848fd43b786419bedab17e938044ff0a713fa07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086027"
 ---
 # <a name="peapextensionstypev2-complex-type"></a>PeapExtensionsTypeV2 複雜類型
 
@@ -51,9 +51,9 @@ ms.locfileid: "103933626"
 [**PeapExtensionsType**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

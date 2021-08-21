@@ -4,12 +4,12 @@ ms.assetid: 0d1a62a2-7595-4c10-a1cf-d32dda337ecd
 title: 'AVEncMPVQScaleType 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8e3936acd9a74acfeb2a3bc48f2f73f1706fd4c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b7651c865828e951b13b14f2ea460c171b195669d3c4c225c9ddb5eaf2697bbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159499"
 ---
 # <a name="avencmpvqscaletype-property"></a>AVEncMPVQScaleType 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103935738"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

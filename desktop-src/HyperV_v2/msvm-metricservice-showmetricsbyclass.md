@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 93f132b24c6c20826b1551e979c128b1aa38c8d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40865847b1deef877c70c1c99349c12915a464b394a38b5b804ea9139d5d0cf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147507"
 ---
 # <a name="showmetricsbyclass-method-of-the-msvm_metricservice-class"></a>Msvm MetricService 類別的 ShowMetricsByClass 方法 \_
 
