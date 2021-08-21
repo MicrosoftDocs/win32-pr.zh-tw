@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0f43072a9673664d05702981bbaf2772bc83f42e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c616fa06f02807e31ae5e58910bea1c9900c467186f6ec5943954198cd73c9f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811808"
 ---
 # <a name="requeststatechange-method-of-the-msvm_timesynccomponent-class"></a>Msvm TimeSyncComponent 類別的 RequestStateChange 方法 \_
 

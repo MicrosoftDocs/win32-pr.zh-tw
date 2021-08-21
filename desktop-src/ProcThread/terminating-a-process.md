@@ -4,12 +4,12 @@ ms.assetid: af24d157-2719-4052-8029-1eb8010047cc
 title: 終止進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2010f1d4332a575c8ee94cf1b0f196e00ba7fb9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d1a97b2b7342b67eaab72cae244b188df4cfeafbf2875d3bd62136ab6139748
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081298"
 ---
 # <a name="terminating-a-process"></a>終止進程
 
@@ -24,7 +24,7 @@ ms.locfileid: "106983629"
 
 當進程終止時，核心物件的開啟控制碼會自動關閉，物件本身會一直存在，直到所有開啟的控制碼都關閉為止。 因此，如果另一個進程具有開啟的控制碼，則在使用它的進程結束之後，物件將會保持有效。
 
-[**>getexitcodeprocess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess)函數會傳回進程的終止狀態。 當進程正在執行時，其終止狀態仍在作用中 \_ 。 當進程結束時，其終止狀態會從 [作用中] 變更為 [進程的結束 \_ 代碼]。
+[**>Getexitcodeprocess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess)函數會傳回進程的終止狀態。 當進程正在執行時，其終止狀態仍在作用中 \_ 。 當進程結束時，其終止狀態會從 [作用中] 變更為 [進程的結束 \_ 代碼]。
 
 當進程結束時，進程物件的狀態會變成發出信號，釋出等候進程終止的任何執行緒。 如需同步處理的詳細資訊，請參閱 [同步處理多執行緒的執行](synchronizing-execution-of-multiple-threads.md)。
 

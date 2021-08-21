@@ -20,12 +20,12 @@ topic_type:
 - apiref
 product_family_name: VS
 ms.topic: reference
-ms.openlocfilehash: 5772ca08a94c27e1ae0b110e05192004b9e4df2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9479f30dc8a17c8685a33ad2990313ee85f8434d05fbde549394f3d6a68e32ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050676"
 ---
 # <a name="cimmofdeserializerdeserializeclasses-method-byteuint32ienumerablecimclass-string-string-onclassneeded-getincludedfilecontent"></a>CimMofDeserializer. DeserializeClasses 方法 (Byte \[ \] 、UInt32、IEnumerable \<CimClass\> 、string、string、OnClassNeeded、GetIncludedFileContent) 
 

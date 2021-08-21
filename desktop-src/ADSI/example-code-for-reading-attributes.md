@@ -7,12 +7,12 @@ keywords:
 - 讀取屬性 ADSI 的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2417a30ba4f4b6bf1247ec05bcfb03380f2203f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae9ef6abf864d77571383b3834a88c6a8936132b9fdcc2e01ea84603f0aab95f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082602"
 ---
 # <a name="example-code-for-reading-attributes"></a>用於讀取屬性的範例程式碼
 
@@ -800,9 +800,9 @@ Set propVal = Nothing
 
 
 
- 
+ 
 
- 
+ 
 
 
 

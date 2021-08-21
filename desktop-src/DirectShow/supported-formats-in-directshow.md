@@ -4,16 +4,16 @@ ms.assetid: cd8af779-2fb5-4724-a838-5d0c8244f0d3
 title: DirectShow 中支援的格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a6c9a0c85a3ccdfd3db092ba2efce00a191493
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10e42079f29ce89ba66fcd0c03a6520769a91538eb1a9b8901115b6895420d65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633228"
 ---
 # <a name="supported-formats-in-directshow"></a>DirectShow 中支援的格式
 
-DirectShow 是一個開放的架構，這表示它可以支援任何格式，只要有篩選器可以剖析和解碼它即可。 由 Microsoft 提供的篩選器（可透過 DirectShow 或作為 Windows 作業系統元件的可轉散發套件）提供下列檔案和壓縮格式的預設支援。
+DirectShow 是開放的架構，這表示它可以支援任何格式，只要有篩選器可以剖析和解碼它即可。 Microsoft 提供的篩選器可透過 DirectShow 或作為 Windows 作業系統元件的可轉散發套件，提供下列檔案和壓縮格式的預設支援。
 
 檔案類型：
 
@@ -26,7 +26,7 @@ DirectShow 是一個開放的架構，這表示它可以支援任何格式，只
 | AU                                                                                               | [WAVE 剖析器篩選](wave-parser-filter.md)                                                                                      |
 | 影音交錯技術 (AVI)                                                                    | [AVI Mux 篩選](avi-mux-filter.md)<br/> [AVI 分隔器篩選](avi-splitter-filter.md)<br/>                         |
 | MIDI                                                                                             | [MIDI 剖析器篩選](midi-parser-filter.md)<br/> [**MIDI 轉譯器篩選**](midi-renderer-filter.md)<br/>           |
-| Snd                                                                                              |                                                                                                                                   |
+| SND                                                                                              |                                                                                                                                   |
 | WAV                                                                                              | [WAVE 剖析器篩選](wave-parser-filter.md)                                                                                      |
 
 
@@ -56,7 +56,7 @@ DirectShow 是一個開放的架構，這表示它可以支援任何格式，只
 
  
 
-如需特定協力廠商編解碼器的可用性資訊，以便與 DirectShow 應用程式轉散發，請洽詢編解碼器製造商。
+如需特定協力廠商編解碼器的可用性資訊，以便隨 DirectShow 的應用程式轉散發，請洽詢編解碼器製造商。
 
  
 

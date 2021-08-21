@@ -5,12 +5,12 @@ ms.assetid: B20C5575-0616-43F7-9AC9-5F802E5597B5
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e60782519de6f655882717c4ea657668129a6ce3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: da14e34bfc881e000eb4f4557a0dddef3cee3d0ab55343a9e5597a483af39adc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632040"
 ---
 # <a name="multi-engine-n-body-gravity-simulation"></a>多引擎 n-內文重力模擬
 
@@ -74,7 +74,7 @@ ms.locfileid: "104548373"
 
 
 
- 
+ 
 
 ## <a name="create-the-srv-and-uav-buffers"></a>建立 SRV 和 UAV 緩衝區
 
@@ -101,7 +101,7 @@ SRV 和 UAV 緩衝區是由位置和速度資料的陣列所組成。
 
 
 
- 
+ 
 
 ## <a name="create-the-cbv-and-vertex-buffers"></a>建立 CBV 和頂點緩衝區
 
@@ -127,7 +127,7 @@ SRV 和 UAV 緩衝區是由位置和速度資料的陣列所組成。
 
 
 
- 
+ 
 
 因此，頂點著色器所使用的頂點緩衝區實際上不包含任何位置資料。
 
@@ -149,7 +149,7 @@ SRV 和 UAV 緩衝區是由位置和速度資料的陣列所組成。
 
 
 
- 
+ 
 
 針對計算管線，CBV 是一種 **結構** ，其中包含計算著色器中 n 主體重力模擬所使用的一些常數。
 
@@ -218,7 +218,7 @@ void D3D12nBodyGravity::OnRender()
 
 
 
- 
+ 
 
 為了簡化範例一點，計算執行緒會先等候 GPU 完成每個反復專案，再排程任何更多計算工作。 在實務上，應用程式可能會想要讓計算佇列保持完整，以達到 GPU 的最大效能。
 
@@ -283,7 +283,7 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 | [**ID3D12CommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist)                              |            |
 | [**ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)       |            |
 | [**InterlockedIncrement**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedincrement)                     |            |
-| [**信號**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                                 |            |
+| [**訊號**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                                 |            |
 | [**SetEventOnCompletion**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion)            |            |
 | [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject)                         |            |
 | [**InterlockedGetValue**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedcompareexchange)                |            |
@@ -295,7 +295,7 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 
 
 
- 
+ 
 
 ## <a name="run-the-sample"></a>執行範例
 

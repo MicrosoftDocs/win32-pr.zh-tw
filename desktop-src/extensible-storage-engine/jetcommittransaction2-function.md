@@ -19,12 +19,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 697a3760dc3312230bb2fe755dbfc881c1fdbacd7d21c98e64d8aa83a271ecdc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8ad6c3584f27421b14ef44ed86b423778a570b63
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118251370"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465845"
 ---
 # <a name="jetcommittransaction2-function"></a>JetCommitTransaction2 函式
 
@@ -54,39 +54,13 @@ JET_ERR JET_API JetCommitTransaction2(
 
 一組位，指定下表所列的零或多個值。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>值</p></th>
-<th><p>意義</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitCommitLazyFlush</p></td>
-<td><p>交易會正常認可，但此 API 不會等到交易被排清到交易記錄檔，然後再傳回給呼叫者。 這可大幅減少認可作業的持續時間，代價是持久性。 在下一次呼叫 <a href="gg294068(v=exchg.10).md">JetInit</a> 函式期間，任何未在損毀之前排清到記錄檔的交易都會自動中止。</p>
-<p>如果指定 JET_bitWaitLastLevel0Commit 或 JET_bitWaitAllLevel0Commit，則會忽略此選項。</p>
-<p>如果這個 <strong>JetCommitTransaction2</strong> 呼叫不符合此會話的第一次呼叫 <a href="gg294083(v=exchg.10).md">JetBeginTransaction</a> 函數，則會忽略此選項。 這是因為在最外層儲存點上發生的最後一個動作，就是整個交易實際上是否認可到磁片的決定因素。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitWaitAllLevel0Commit</p></td>
-<td><p>所有先前由尚未排清至交易記錄檔的會話所認可的交易，都會立即進行清除。 此 API 會等到交易已排清之後，再返回呼叫端。</p>
-<p>即使會話目前不在交易中，也可以使用此選項。</p>
-<p>此選項不能與任何其他選項搭配使用。</p>
-<p>從 Windows Server 2003 開始，Windows Server 作業系統的版本中有提供此選項。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitWaitLastLevel0Commit</p></td>
-<td><p>如果會話先前已認可任何交易，而且它們尚未排清到交易記錄檔，則應該立即排清它們。 此 API 會等到交易已排清之後，再返回呼叫端。 如果應用程式先前已使用 JET_bitCommitLazyFlush 認可數筆交易，而現在想要將所有交易排清到磁片上，這項功能就很有用。</p>
-<p>即使會話目前不在交易中，也可以使用此選項。</p>
-<p>此選項不能與任何其他選項搭配使用。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>值</p> | <p>意義</p> | 
+|--------------|----------------|
+| <p>JET_bitCommitLazyFlush</p> | <p>交易會正常認可，但此 API 不會等到交易被排清到交易記錄檔，然後再傳回給呼叫者。 這可大幅減少認可作業的持續時間，代價是持久性。 在下一次呼叫 <a href="gg294068(v=exchg.10).md">JetInit</a> 函式期間，任何未在損毀之前排清到記錄檔的交易都會自動中止。</p><p>如果指定 JET_bitWaitLastLevel0Commit 或 JET_bitWaitAllLevel0Commit，則會忽略此選項。</p><p>如果這個 <strong>JetCommitTransaction2</strong> 呼叫不符合此會話的第一次呼叫 <a href="gg294083(v=exchg.10).md">JetBeginTransaction</a> 函數，則會忽略此選項。 這是因為在最外層儲存點上發生的最後一個動作，就是整個交易實際上是否認可到磁片的決定因素。</p> | 
+| <p>JET_bitWaitAllLevel0Commit</p> | <p>所有先前由尚未排清至交易記錄檔的會話所認可的交易，都會立即進行清除。 此 API 會等到交易已排清之後，再返回呼叫端。</p><p>即使會話目前不在交易中，也可以使用此選項。</p><p>此選項不能與任何其他選項搭配使用。</p><p>從 Windows Server 2003 開始，Windows Server 作業系統的版本中有提供此選項。</p> | 
+| <p>JET_bitWaitLastLevel0Commit</p> | <p>如果會話先前已認可任何交易，而且它們尚未排清到交易記錄檔，則應該立即排清它們。 此 API 會等到交易已排清之後，再返回呼叫端。 如果應用程式先前已使用 JET_bitCommitLazyFlush 認可數筆交易，而現在想要將所有交易排清到磁片上，這項功能就很有用。</p><p>即使會話目前不在交易中，也可以使用此選項。</p><p>此選項不能與任何其他選項搭配使用。</p> | 
+
 
 
 *cmsecDurableCommit*
@@ -101,63 +75,19 @@ JET_ERR JET_API JetCommitTransaction2(
 
 此函數會傳回 [JET_ERR](./jet-err.md) 資料類型，其中包含下表所列的其中一個傳回碼。 如需可能的可延伸儲存體引擎 (ESE) 錯誤的詳細資訊，請參閱[可擴展的儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>描述</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>無法完成作業，因為與該會話相關聯之實例上的所有活動都已停止，因為呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a> 函數。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p>此錯誤只會由 Windows XP 起的 Windows 作業系統版本傳回。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>其中一個要求的選項無效或未執行。 當發生下列情況時， <strong>JetCommitTransaction2</strong> 函式會傳回這個錯誤：</p>
-<ul>
-<li><p>指定了不合法的 <em>grbit</em> 。</p></li>
-<li><p>JET_bitWaitLastLevel0Commit 已與另一個 <em>grbit</em>一起指定。</p></li>
-<li><p>JET_bitWaitAllLevel0Commit 已與另一個 <em>grbit</em>一起指定。</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInTransaction</p></td>
-<td><p>作業失敗，因為指定的會話不在交易中。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p>此錯誤只會由 Windows XP 起的 Windows 作業系統版本傳回。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在關閉。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>無法完成作業，因為與該會話相關聯之實例上的所有活動都已停止，因為呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a> 函數。</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p><p>此錯誤只會由 Windows XP 起的 Windows 作業系統版本傳回。</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>其中一個要求的選項無效或未執行。 當發生下列情況時， <strong>JetCommitTransaction2</strong> 函式會傳回這個錯誤：</p><ul><li><p>指定了不合法的 <em>grbit</em> 。</p></li><li><p>JET_bitWaitLastLevel0Commit 已與另一個 <em>grbit</em>一起指定。</p></li><li><p>JET_bitWaitAllLevel0Commit 已與另一個 <em>grbit</em>一起指定。</p></li></ul> | 
+| <p>JET_errNotInitialized</p> | <p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p> | 
+| <p>JET_errNotInTransaction</p> | <p>作業失敗，因為指定的會話不在交易中。</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>相同的會話無法同時用於一個以上的執行緒。</p><p>此錯誤只會由 Windows XP 起的 Windows 作業系統版本傳回。</p> | 
+| <p>JET_errTermInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在關閉。</p> | 
+
 
 
 成功時，將會認可指定會話目前儲存點期間對資料庫所做的任何變更，而且儲存點將會結束。 如果會話的最後一個儲存點已結束，則交易會選擇性地排清至交易記錄檔，而且會話將會結束交易。
@@ -170,34 +100,9 @@ JET_ERR JET_API JetCommitTransaction2(
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows 8。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2012。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows 8。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows Server 2012。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

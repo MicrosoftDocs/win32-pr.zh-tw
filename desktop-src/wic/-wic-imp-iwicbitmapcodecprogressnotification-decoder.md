@@ -4,12 +4,12 @@ ms.assetid: 686b0875-c7ec-45ee-bd3e-94bfd9e5dcda
 title: '執行 IWICBitmapCodecProgressNotification (解碼器) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f92f05f02e77886d96d794be3f974c1eb0eed9dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ff9af6bbd8c0457a5bf97f2f8b378cdeaca9269e792f7ed4696ab8e6a23b89a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088060"
 ---
 # <a name="implementing-iwicbitmapcodecprogressnotification-decoder"></a>執行 IWICBitmapCodecProgressNotification (解碼器) 
 
@@ -122,7 +122,7 @@ typedef HRESULT (*PFNProgressNotification) (
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

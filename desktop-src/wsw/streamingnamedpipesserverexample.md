@@ -4,12 +4,12 @@ description: 此範例顯示接受通道的具名管道用戶端，並以串流�
 ms.assetid: 7658FA0B-343F-453D-9427-B40BEAE50345
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d5e3c7c2330f02369ae30a58dcc73957c180c57
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0446a255b3de4955510bfdf17d85dd7652beece79b8f6f54126755967df7223d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083122"
 ---
 # <a name="streamingnamedpipesserverexample"></a>StreamingNamedPipesServerExample
 
@@ -483,9 +483,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: a5e52080-35d4-47f5-9050-90889e3bf2f8
 title: 執行緒共用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcf3565401dc57b077e333043861d42b683e810c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c581e416952e6bac14dbf12a8f87202925a5254879b7e220c7cb2d780699f9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081278"
 ---
 # <a name="thread-pooling"></a>執行緒共用
 
 有許多應用程式會建立執行緒，以在睡眠狀態下花費大量時間等待事件發生。 其他執行緒可能只會進入睡眠狀態，才能定期進行喚醒以輪詢變更或更新狀態資訊。 *執行緒* 共用可讓您的應用程式使用由系統管理的背景工作執行緒集區，讓您更有效率地使用執行緒。 至少有一個執行緒會監視佇列到執行緒集區的所有等候作業的狀態。 等候作業完成時，執行緒集區中的背景工作執行緒會執行對應的回呼函數。
 
-本主題說明原始執行緒集區 API。 Windows Vista 中引進的執行緒集區 API 更簡單、更可靠、效能更佳，並為開發人員提供更大的彈性。 如需目前線程集區 API 的詳細資訊，請參閱 [執行緒](thread-pools.md)集區。
+本主題說明原始執行緒集區 API。 Windows Vista 中引進的執行緒集區 API 更簡單、更可靠、具有更佳的效能，並為開發人員提供更大的彈性。 如需目前線程集區 API 的詳細資訊，請參閱 [執行緒](thread-pools.md)集區。
 
 您也可以將與等待作業無關的工作專案加入執行緒集區。 若要要求執行緒集區中的執行緒工作專案，請呼叫 [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem) 函數。 此函式會將參數提供給從執行緒集區選取的執行緒所呼叫的函式。 在工作專案排入佇列之後，沒有任何方法可以取消。
 

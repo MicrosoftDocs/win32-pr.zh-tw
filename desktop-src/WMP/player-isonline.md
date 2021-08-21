@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8979c180b1c8d8848d869342fb92876ff4828df1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf3f1a6b78a8a712e1fac3fe3223f292a56d8b0020dadc787f419de540d12ef4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054366"
 ---
 # <a name="playerisonline"></a>IsOnline
 

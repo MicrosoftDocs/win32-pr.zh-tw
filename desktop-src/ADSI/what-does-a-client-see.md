@@ -7,12 +7,12 @@ keywords:
 - 擴充功能 ADSI，用戶端看到的內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 398c9fd2d603c1eebb18280c435bec7cb7cd8e14
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 33d38563de47cfc80bdcf265249bf3e4cf10bc46471e18672221fed8c3047efa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104508128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082172"
 ---
 # <a name="what-does-a-client-see"></a>用戶端會看到什麼？
 
@@ -20,6 +20,6 @@ ms.locfileid: "104508128"
 -   ADSI 用戶端會看到一個 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 介面，此介面會處理物件中的所有雙重和分派介面，無論是由提供者中的匯總工具或由擴充功能來執行雙或分派介面。 請參閱 [擴充功能中自動化的函式/屬性名稱衝突解決方法](resolution-of-functionproperty-name-conflicts-in-automation-in-extensions.md)。
 -   ADSI 不會透過 [**idispatch：： GetTypeInfo**](/windows/win32/api/oaidl/nf-oaidl-idispatch-gettypeinfo) 或 [**Idispatch：： GetTypeInfoCount**](/windows/win32/api/oaidl/nf-oaidl-idispatch-gettypeinfocount) 方法公開任何類型資訊。 ADSI 會透過型別程式庫提供型別資訊。
 
- 
+ 
 
- 
+ 

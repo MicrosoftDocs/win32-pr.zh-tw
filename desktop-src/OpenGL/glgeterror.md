@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74c0abf6ec03ca0c29ede3b7d396db375fd06ac6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 212a76930e87d5a83c32a2f6707def8e2af40b89c5ede621ec0c31159d3aa0c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962398"
 ---
 # <a name="glgeterror-function"></a>glGetError 函式
 
@@ -44,7 +44,7 @@ GLenum WINAPI glGetError(void);
 
 
 
-| 傳回碼                                                                                           | Description                                                                                                                                                                  |
+| 傳回碼                                                                                           | 描述                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | 針對列舉引數指定了無法接受的值。 若未設定錯誤旗標，則會忽略有問題的函式，而不會有任何副作用。<br/>         |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | 數值引數超出範圍。 若未設定錯誤旗標，則會忽略有問題的函式，而不會有任何副作用。<br/>                                    |

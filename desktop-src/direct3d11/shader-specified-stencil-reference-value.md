@@ -4,12 +4,12 @@ description: 瞭解 Direct3D 11 圖形中的樣板參考值。 啟用圖元著�
 ms.assetid: 6E336623-9746-4872-ADC1-C5489F53D7AE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0e8a34d53bc7f30dc2a91fafabb561dff7a1e96
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 2d68d780c7a800f4291b3cce01c6f974cdeedaa8f590fc76fdf8afa8b3fb3c5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632308"
 ---
 # <a name="shader-specified-stencil-reference-value-direct3d-11-graphics"></a> (Direct3D 11 圖形) 的著色器指定樣板參考值
 

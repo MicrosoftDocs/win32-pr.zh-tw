@@ -4,16 +4,16 @@ ms.assetid: f2997905-26c9-4884-ae79-64df5ce6bc55
 title: 'PBT_APMRESUMECRITICAL (WinUser 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ef4a76e163f2e61e723f4df6572254e8ef89b40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f13214a97e99954d0649df0647bdf6ee3823b91926c0f2f2dc1212fa780a7b6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961705"
 ---
 # <a name="pbt_apmresumecritical-event"></a>PBT \_ APMRESUMECRITICAL 事件
 
-\[PBT \_ APMRESUMECRITICAL 可用於 [需求] 區段中指定的作業系統。 此事件的支援已在 Windows Vista 中移除。 請改用 [PBT \_ APMRESUMEAUTOMATIC](pbt-apmresumeautomatic.md) 。\]
+\[PBT \_ APMRESUMECRITICAL 可用於 [需求] 區段中指定的作業系統。 Windows Vista 中已移除此事件的支援。 請改用 [PBT \_ APMRESUMEAUTOMATIC](pbt-apmresumeautomatic.md) 。\]
 
 通知應用程式系統已繼續操作。 此事件可能表示部分或所有應用程式未收到 [PBT \_ APMSUSPEND](pbt-apmsuspend.md) 事件。 例如，此事件可以在失敗的電池造成重大暫停之後廣播。
 
@@ -83,11 +83,11 @@ WindowProc( HWND   hwnd,    // handle to window
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                                    |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                                           |
-| 標頭<br/>                   | <dl> <dt>WinUser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>WinUser (包含 Windows .h) </dt> </dl> |
 
 
 

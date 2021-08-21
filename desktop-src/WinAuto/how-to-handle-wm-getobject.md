@@ -4,12 +4,12 @@ description: 當它收到 \_ 包含 OBJID 用戶端的 WM GETOBJECT 訊息時 \_
 ms.assetid: 455398b7-f748-4ab0-8953-3f74439e44f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6223d75339f537ccf1939f9c9af46a42aa47bfdb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 02f066ee42ffaeee2d585ac5480e5af31acf14c87ba9994d3d338b65e6cf427a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052721"
 ---
 # <a name="how-to-handle-wm_getobject"></a>如何處理 WM \_ GETOBJECT
 
@@ -26,13 +26,13 @@ ms.locfileid: "103674011"
 > [!Note]  
 > 在本節的其餘部分中，討論到 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 介面的指標時，此指標實際上可能是包裝 **IAccessible** 介面之 proxy 物件的指標。 如需 proxy 物件的詳細資訊，請參閱 [建立 Proxy 物件](creating-proxy-objects.md)。
 
- 
+ 
 
 如需有關 [**wm \_ getobject**](wm-getobject.md)的總覽，請參閱 [Wm getobject 的 \_ 運作方式](how-wm-getobject-works.md)。
 
- 
+ 
 
- 
+ 
 
 
 

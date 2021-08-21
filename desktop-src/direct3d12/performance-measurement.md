@@ -5,12 +5,12 @@ ms.assetid: C7AEF1A0-36FB-4026-9CCF-ED0206961A58
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf316978f3dd0928692f378dd8d72b8453ad0aae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4940f6c32ac8754a8a8d41fd7c849d6023775e833988611988d3a6979bd3cace
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74105057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631988"
 ---
 # <a name="counters-queries-and-performance-measurement"></a>計數器、查詢和效能測量
 

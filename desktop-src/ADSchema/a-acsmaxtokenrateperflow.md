@@ -1,10 +1,10 @@
 ---
-title: ACS-最大權杖-每個流程的速率-每個流程屬性
+title: ACS-最大權杖-每 Flow 的屬性
 description: 特定使用者的所有單一流程可能具有的最大權杖速率。
 ms.assetid: 2898b7a6-f2b1-4e08-aba6-9e1ac655a4db
 ms.tgt_platform: multiple
 keywords:
-- ACS-最大權杖-每個流程的每個流程屬性 AD 架構
+- ACS-最大權杖-每 Flow 屬性 AD 架構
 - aCSMaxTokenRatePerFlow 屬性 AD 架構
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5165c20a27f7d1a389b9aada118d89786c015d2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 33e3c4319345e47a90b09e5f101fec875fbd97dde7d704618f39fbbb76385e14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104025539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082072"
 ---
-# <a name="acs-max-token-rate-per-flow-attribute"></a>ACS-最大權杖-每個流程的速率-每個流程屬性
+# <a name="acs-max-token-rate-per-flow-attribute"></a>ACS-最大權杖-每 Flow 的屬性
 
 特定使用者的所有單一流程可能具有的最大權杖速率。
 
@@ -29,7 +29,7 @@ ms.locfileid: "104025539"
 
 | 進入 | 值 |
 |-------------------|--------------------------------------|
-| CN                | ACS-最大權杖-每個流程的速率          |
+| CN                | ACS-最大權杖-每 Flow          |
 | Ldap-顯示名稱 | aCSMaxTokenRatePerFlow               |
 | 大小              | 8 個位元組                              |
 | 更新許可權  | \-                                   |
@@ -58,7 +58,7 @@ ms.locfileid: "104025539"
 | 連結識別碼                | \-                                                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                                                      |
 | System-Only            | 否                                                                                                                                                   |
-| 是-單一值       | 對                                                                                                                                                    |
+| 是-單一值       | 是                                                                                                                                                    |
 | 已編制索引             | 否                                                                                                                                                   |
 | 在通用類別目錄中      | 否                                                                                                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                            |
@@ -79,7 +79,7 @@ ms.locfileid: "104025539"
 | 連結識別碼                | \-                                                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                                                      |
 | System-Only            | 否                                                                                                                                                   |
-| 是-單一值       | 對                                                                                                                                                    |
+| 是-單一值       | 是                                                                                                                                                    |
 | 已編制索引             | 否                                                                                                                                                   |
 | 在通用類別目錄中      | 否                                                                                                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                            |
@@ -100,7 +100,7 @@ ms.locfileid: "104025539"
 | 連結識別碼                | \-                                                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                                                      |
 | System-Only            | 否                                                                                                                                                   |
-| 是-單一值       | 對                                                                                                                                                    |
+| 是-單一值       | 是                                                                                                                                                    |
 | 已編制索引             | 否                                                                                                                                                   |
 | 在通用類別目錄中      | 否                                                                                                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                            |
@@ -121,7 +121,7 @@ ms.locfileid: "104025539"
 | 連結識別碼                | \-                                                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                                                      |
 | System-Only            | 否                                                                                                                                                   |
-| 是-單一值       | 對                                                                                                                                                    |
+| 是-單一值       | 是                                                                                                                                                    |
 | 已編制索引             | 否                                                                                                                                                   |
 | 在通用類別目錄中      | 否                                                                                                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                            |
@@ -142,7 +142,7 @@ ms.locfileid: "104025539"
 | 連結識別碼                | \-                                                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                                                      |
 | System-Only            | 否                                                                                                                                                   |
-| 是-單一值       | 對                                                                                                                                                    |
+| 是-單一值       | 是                                                                                                                                                    |
 | 已編制索引             | 否                                                                                                                                                   |
 | 在通用類別目錄中      | 否                                                                                                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                            |
@@ -163,7 +163,7 @@ ms.locfileid: "104025539"
 | 連結識別碼                | \-                                                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                                                      |
 | System-Only            | 否                                                                                                                                                   |
-| 是-單一值       | 對                                                                                                                                                    |
+| 是-單一值       | 是                                                                                                                                                    |
 | 已編制索引             | 否                                                                                                                                                   |
 | 在通用類別目錄中      | 否                                                                                                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                            |

@@ -4,12 +4,12 @@ ms.assetid: db9a9cae-2a66-4e0d-a981-8de66d7c2a13
 title: 使用順序資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0be10082aba05429a63df69444ed28bea350aa5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16adf47a554bf70298b0efc893847f84eafd6e97313b09ba9ea3182398cdd97d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809008"
 ---
 # <a name="using-a-sequence-table"></a>使用順序資料表
 
@@ -50,11 +50,11 @@ ms.locfileid: "103849468"
 
 * * Windows Installer 3.0 和更新版本： * *
 
-從 Windows Installer 3.0 開始，修補封裝可以包含 [MsiPatchSequence 資料表](msipatchsequence-table.md)。 此表格包含安裝程式所需的所有資訊，以判斷相對於所有其他修補程式的小型更新修補程式順序。 如需詳細資訊，請參閱 [修補和升級](patching-and-upgrades.md)。
+從 Windows Installer 3.0 開始，修補封裝可以包含[MsiPatchSequence 資料表](msipatchsequence-table.md)。 此表格包含安裝程式所需的所有資訊，以判斷相對於所有其他修補程式的小型更新修補程式順序。 如需詳細資訊，請參閱 [修補和升級](patching-and-upgrades.md)。
 
 > [!Note]
 >
-> [合併模組](merge-modules.md) 可能包含可修改目標 .msi 檔案之動作順序資料表的 [合併模組資料庫資料表](merge-module-database-tables.md) 。 將模組合併到資料庫中可以修改 sequence 資料表中的資訊，但不會將這些資料表加入至 .msi 檔案。 如需詳細資訊，請參閱 [撰寫合併模組順序資料表](authoring-merge-module-sequence-tables.md)。
+> [合併模組](merge-modules.md) 可能包含 [合併模組資料庫資料表](merge-module-database-tables.md) ，這些資料表會修改目標 .msi 檔的動作順序資料表。 將模組合併到資料庫中可以修改 sequence 資料表中的資訊，但不會將這些資料表加入 .msi 檔案中。 如需詳細資訊，請參閱 [撰寫合併模組順序資料表](authoring-merge-module-sequence-tables.md)。
 
  
 

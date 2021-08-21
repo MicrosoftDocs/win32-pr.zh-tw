@@ -4,17 +4,17 @@ ms.assetid: e36a88b8-7184-44a4-8e02-204440f651bc
 title: GetKaraokeChannelContent 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd35705f1fba65eaf5c6f7c67ea55078c68e5036
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8ef0353ebda6469627b5f41209b780fc1403c51940705be72d6acaa139d8320f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106988051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812488"
 ---
 # <a name="getkaraokechannelcontent-method"></a>GetKaraokeChannelContent 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 
@@ -70,7 +70,7 @@ DVD-音訊頻道編號是以零為基礎，因此通道2、3和4是輔助的卡�
 當使用者知道每個頻道的內容之後，他或她必須能夠視需要調整音量，或開啟或關閉個別頻道。 使用 [**KaraokeAudioPresentationMode**](karaokeaudiopresentationmode-property.md) 屬性，在您的應用程式中執行這項功能。
 
 > [!Note]  
-> 若要播放卡拉卡拉5光碟，使用者系統上的音訊解碼器必須與 DirectShow 8 卡拉卡拉的執行相容。
+> 若要播放卡拉卡拉卡拉，使用者系統上的音訊解碼器必須與 DirectShow 8 的卡拉卡拉執行相容。
 
  
 

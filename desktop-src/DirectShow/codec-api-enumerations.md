@@ -4,12 +4,12 @@ ms.assetid: 5d6e48cb-d181-448e-a96e-e5ab500427d7
 title: 編解碼器 API 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc6c97da1fe45aba1d81e7036fa7ba6e75fc225a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c28b82d73d6bd6fefed5f3c9296a666d1053cd71b074a782858b31e94dc3a3ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079328"
 ---
 # <a name="codec-api-enumerations"></a>編解碼器 API 列舉
 

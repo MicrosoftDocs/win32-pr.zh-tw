@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 8c1b64d2e024f3905d171ab5ca90e59df929ffc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5f459b12d90a12b7c75aabd44d25f6fcf352aff8914e6d991471acaee400260
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079688"
 ---
 # <a name="ntopenthread-function"></a>NtOpenThread 函式
 
-\[您可以在不另行通知的情況下，從 Windows 變更或移除此功能。 請改用 [**OpenThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthread) 函數。\]
+\[您可以從 Windows 中變更或移除此函式，而不需另行通知。 請改用 [**OpenThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthread) 函數。\]
 
 使用指定的存取權開啟執行緒物件的控制碼。
 
@@ -63,7 +63,7 @@ NTSTATUS NtOpenThread(
 
 [物件 \_ 屬性](https://msdn.microsoft.com/library/aa491657.aspx)結構的指標。 此結構的 **ObjectName** 成員必須是 Null。
 
-**Windows Server 2003 和 WINDOWS XP：** 此結構的 **ObjectName** 成員可指向物件名稱。 如果 **ObjectName** 不是 Null， *ClientId* 參數必須是 null。
+**Windows Server 2003 和 Windows XP：** 此結構的 **ObjectName** 成員可指向物件名稱。 如果 **ObjectName** 不是 Null， *ClientId* 參數必須是 null。
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ NTSTATUS NtOpenThread(
 
 **用戶端 \_ 識別碼** 結構的指標，識別要開啟其執行緒的執行緒。
 
-**Windows Server 2003 和 WINDOWS XP：****用戶端 \_ 識別碼** 結構的指標，識別要開啟其執行緒的執行緒。 此參數可以是 Null。 如果這個參數不是 Null，則 *ObjectAttributes* 參數所指向之結構的 **ObjectName** 成員必須是 null。
+**Windows Server 2003 和 Windows XP：****用戶端 \_ 識別碼** 結構的指標，識別要開啟其執行緒的執行緒。 此參數可以是 Null。 如果這個參數不是 Null，則 *ObjectAttributes* 參數所指向之結構的 **ObjectName** 成員必須是 null。
 
 </dd> </dl>
 

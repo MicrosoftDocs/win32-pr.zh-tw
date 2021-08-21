@@ -4,12 +4,12 @@ ms.assetid: 0a3be209-e3ff-4177-abb2-ad0facbdf569
 title: 保護會話的安全
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00b1567303efb61f28f9c6b3e92c24287d23d4af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64ee16dc0854c6502f1347a3aa676e709920555ad91a02190db001bd80b34824
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080458"
 ---
 # <a name="secure-a-session"></a>保護會話的安全
 

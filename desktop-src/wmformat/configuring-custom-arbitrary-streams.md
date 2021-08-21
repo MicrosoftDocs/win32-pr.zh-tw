@@ -7,12 +7,12 @@ keywords:
 - 編解碼器，設定自訂任意資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29d5cf3e95a5514ddeede9eb3c25df01ed4cd2ae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b9b98b25ae9f973682ee3987ed8b590d485288e72e0b5ef7977eb7f3da0d1da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809808"
 ---
 # <a name="configuring-custom-arbitrary-streams"></a>設定自訂任意資料流程
 
@@ -35,9 +35,9 @@ ms.locfileid: "103672975"
 [**自訂任意資料流程**](custom-arbitrary-data-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

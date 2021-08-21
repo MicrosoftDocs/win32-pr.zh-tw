@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 41192cef75beca6fa80619dcafb7e176615500ba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f1e2282d5c2181a8e3d700d76c00f05376cdce62b953e5973775a9f07230698b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634358"
 ---
 # <a name="cmediasamplem_pnext-member"></a>CMediaSample：： m \_ pNext 成員
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47b19f14794186f85d0a51f21bc6b2759e512998
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 17f4a34ad8ff2e53d521d4fd7a1510332dddf8ff7197eac17bf4231a26e98f4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632658"
 ---
 # <a name="id3dx11effectgetclasslinkage-method"></a>ID3DX11Effect：： GetClassLinkage 方法
 
