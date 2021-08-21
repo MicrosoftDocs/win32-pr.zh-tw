@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 03adb1729a8a2e771ea681ccbdd180999d3adcbf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 310914d481aa477c11df0533a7cd448e5b760418aa19d4d0856a349e4a1d822a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729639"
 ---
 # <a name="id3dxprtenginecomputesurfsamplesdirectsh-method"></a>ID3DXPRTEngine：： ComputeSurfSamplesDirectSH 方法
 

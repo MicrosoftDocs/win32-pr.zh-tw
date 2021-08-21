@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 優化事件提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70eaabfbbd462b831059b10590d7959bdef05cbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 613fa6b054f979d0f7d1a33a87f927df9ef129a280cf7cd1675cbe0cf9818473
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117923405"
 ---
 # <a name="optimizing-an-event-provider"></a>優化事件提供者
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4f8f731dd90251848095f899bdc141bbc1d6748
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cdc555e0267bbec28d7627f3bb765179c34e681732893ddb1e983d0c82d64f71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117734010"
 ---
 # <a name="id3dx11effectvectorvariablesetfloatvectorarray-method"></a>ID3DX11EffectVectorVariable：： SetFloatVectorArray 方法
 

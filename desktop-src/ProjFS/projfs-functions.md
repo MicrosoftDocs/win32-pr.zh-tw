@@ -4,12 +4,12 @@ description: 下列函數是在 projectedfslib 中宣告。
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: 40f3f2aec8e52d2caafdcf1554d0871e9bb185de
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 47e4371a7d00ca6564223f7415a69ee0308bf8757041b49f5df9f214e6c978b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106965881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792605"
 ---
 # <a name="projfs-functions"></a>ProjFS 函式
 

@@ -4,12 +4,12 @@ ms.assetid: a282c31f-00dd-4df5-9b93-300bb9bc8f2d
 title: FocalLength 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfc7b36240713782c98d52e4fbf4dae5c0c06082
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfbfb1c0a5a8d88993a42ecc1d29e70f3f3d5911d3c0451cbeeaf0ace040460d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117667365"
 ---
 # <a name="systemphotofocallength-photo-metadata-policy"></a>FocalLength 相片中繼資料原則
 

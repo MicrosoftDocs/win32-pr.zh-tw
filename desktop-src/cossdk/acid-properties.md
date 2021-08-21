@@ -4,12 +4,12 @@ ms.assetid: 857d145c-710d-4097-8ed6-df11e8d52228
 title: ACID 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd2e725cae75b4aa80d25f2959d474e8baa05f70
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4588e7ed38901dd71af11bd3dcdf9890c8f5d94319b1c67b4d896ace10540852
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118103368"
 ---
 # <a name="acid-properties"></a>ACID 屬性
 

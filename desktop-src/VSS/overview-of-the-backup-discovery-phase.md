@@ -4,12 +4,12 @@ ms.assetid: 04658d50-04f0-4189-8b88-ff152f1bf482
 title: 備份探索階段總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d2d2a2d05220ecf3e25c77c18cc62b07726964f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3896abae03f9f2e53d353e5c439a5030c44faba943d4b84a04b564c2eef95cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117937902"
 ---
 # <a name="overview-of-the-backup-discovery-phase"></a>備份探索階段總覽
 

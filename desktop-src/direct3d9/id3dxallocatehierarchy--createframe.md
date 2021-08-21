@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d6a3a13dd4d3b3dfaffb26632ff6ad5cc8666f86
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: eec258c7f1166532d6ad79671e55ddae76da58ec20a927c87743def8cb78f6b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118094634"
 ---
 # <a name="id3dxallocatehierarchycreateframe-method"></a>ID3DXAllocateHierarchy：： CreateFrame 方法
 

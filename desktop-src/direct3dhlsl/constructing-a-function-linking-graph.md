@@ -4,12 +4,12 @@ description: 在這裡，我們將示範如何為著色器建立函式連結圖�
 ms.assetid: 82C3109E-8571-49D2-A8BF-298E30E1281B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c037e7ea111d11d24df173ffba7e56c8f486af82
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f58aa9f942d31e0321924a28ec9e9ea5d5e177d1631e38cfa9f14427de38212c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909214"
 ---
 # <a name="constructing-a-function-linking-graph-and-linking-it-to-compiled-code"></a>建立函式連結-圖形，並將它連結至已編譯的程式碼
 
@@ -263,7 +263,7 @@ ms.locfileid: "103842563"
 
 
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 我們使用 [**ID3D11FunctionLinkingGraph**](/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11functionlinkinggraph) 方法來建立頂點和圖元著色器圖形，並以程式設計方式指定著色器結構。
 
@@ -280,6 +280,6 @@ ms.locfileid: "103842563"
 [使用著色器連結](using-shader-linking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: 'TBM_GETBUDDY 訊息 (Commctrl .h) '
 description: 抓取指定位置上的 [查看點] 控制項好友視窗控制碼。 指定的位置是相對於控制項的方向 (水準或垂直) 。
 ms.assetid: 69e4e467-150d-4505-b1c2-2ed9dd83f1a6
 keywords:
-- TBM_GETBUDDY message Windows 控制項
+- TBM_GETBUDDY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4c076f001a1dff62541c3aa32bc12744b30c012
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e03053981ed16b97d68d5b2f0c77db64062d64fd2df7b5a347e4757736d4844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829612"
 ---
 # <a name="tbm_getbuddy-message"></a>TBM \_ GETBUDDY 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "103935153"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

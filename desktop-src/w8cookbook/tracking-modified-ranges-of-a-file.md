@@ -18,7 +18,7 @@ ms.locfileid: "117852025"
 **用戶端-** Windows 8.1 (所有 sku)   
 **伺服器-** Windows Server 2012 R2  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 NT 檔案系統 (NTFS) 小組已將新功能新增至 Windows。 USN 日誌會將更新序號輸出 (USN) 記錄，其中包含關閉時檔案的修改範圍。 引進了新的記錄類型，已 \_ 引進 USN 記錄 \_ V4 來記錄這些變更的檔案範圍。
 

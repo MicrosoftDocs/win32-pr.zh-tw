@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.syst
 ms:contentKeyID: 55104101
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e317ef4e63a33951dc55e030718d226ae3eaeec3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2ad43871c768955f98c0e372adde37cd731f8f4689bcb05b21f7e169bed715c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104550680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118070978"
 ---
 # <a name="systemparameters-members"></a>SystemParameters 成員
 

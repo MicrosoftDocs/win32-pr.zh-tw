@@ -1,9 +1,9 @@
 ---
 title: 'ICM_DECOMPRESSEX 訊息 (Vfw .h) '
-description: ICM \_ DECOMPRESSEX 訊息會通知影片壓縮驅動程式將資料框架直接解壓縮至螢幕、解壓縮至倒置的 DIB，或將來源和目的地矩形所描述的影像解壓縮。
+description: ICM 的 \_ DECOMPRESSEX 訊息會通知影片壓縮驅動程式將資料框架直接解壓縮至螢幕、解壓縮至倒置的 DIB，或將使用來源和目的地矩形所描述的影像解壓縮。
 ms.assetid: ed253280-c246-4e86-91f1-ad1e1132d732
 keywords:
-- ICM_DECOMPRESSEX message Windows 多媒體
+- ICM_DECOMPRESSEX 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d33451547bc598250a97e73682712e157aa13a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: afdbc4fc920c58c34eb8d85550c63a529860f4920130c4d8e0a43ad88f798c1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987712"
 ---
-# <a name="icm_decompressex-message"></a>ICM \_ DECOMPRESSEX 訊息
+# <a name="icm_decompressex-message"></a>ICM \_DECOMPRESSEX 訊息
 
-**ICM \_ DECOMPRESSEX** 訊息會通知影片壓縮驅動程式將資料框架直接解壓縮至螢幕、解壓縮至倒置的 DIB，或將來源和目的地矩形所描述的影像解壓縮。
+**ICM 的 \_ DECOMPRESSEX** 訊息會通知影片壓縮驅動程式將資料框架直接解壓縮至螢幕、解壓縮至倒置的 DIB，或將使用來源和目的地矩形所描述的影像解壓縮。
 
 
 ```C++
@@ -58,11 +58,11 @@ lParam = sizeof(ICDECOMPRESSEX);
 
 ## <a name="remarks"></a>備註
 
-這則訊息與 [**ICM \_ 解壓縮**](icm-decompress.md) 類似，不同之處在于它會使用 [**ICDECOMPRESSEX**](/windows/desktop/api/Vfw/ns-vfw-icdecompressex) 結構來定義其解壓縮資訊。
+這則訊息與 [**ICM \_ 解壓縮**](icm-decompress.md)類似，不同之處在于它會使用 [**ICDECOMPRESSEX**](/windows/desktop/api/Vfw/ns-vfw-icdecompressex)結構來定義其解壓縮資訊。
 
-如果您希望驅動程式將資料直接解壓縮到畫面，請傳送 [**ICM \_ 繪製**](icm-draw.md) 訊息。
+如果您希望驅動程式將資料直接解壓縮到畫面，請傳送 [**ICM \_ 繪製**](icm-draw.md)訊息。
 
-如果在 [**ICM \_ DECOMPRESSEX \_ 開始**](icm-decompressex-begin.md) 訊息之前收到此訊息，驅動程式會傳回錯誤。
+如果在 [**ICM \_ DECOMPRESSEX \_ 開始**](icm-decompressex-begin.md)訊息之前收到此訊息，驅動程式會傳回錯誤。
 
 ## <a name="requirements"></a>規格需求
 

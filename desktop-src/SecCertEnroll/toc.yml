@@ -182,7 +182,7 @@
               href: cryptographic-service-provider-functions.md
             - name: 憑證存放區功能
               href: certificate-store-functions.md
-            - name: 個人資訊交換功能
+            - name: 個人資訊 Exchange 功能
               href: personal-information-exchange-functions.md
             - name: 輔助函式
               href: helper-functions.md
@@ -226,7 +226,7 @@
               href: cryptoapi-cryptographic-service-providers.md
             - name: CNG 密碼編譯演算法提供者
               href: cng-cryptographic-algorithm-providers.md
-            - name: CNG 金鑰儲存提供者
+            - name: CNG 金鑰儲存體提供者
               href: cng-key-storage-providers.md
             - name: 列舉已安裝的提供者
               href: enumerating-installed-providers.md

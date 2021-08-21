@@ -4,12 +4,12 @@ ms.assetid: 258a76f2-2dd6-49cb-bf8c-f437792bba27
 title: Direct3D 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c1f3165c757641d83cba4bfdfc350eceac81b4a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 177847fc9cc0b330dcc4844763348ef02665ef28e3b55ee91c077b2e8cf3957d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117730621"
 ---
 # <a name="direct3d-functions"></a>Direct3D 函數
 

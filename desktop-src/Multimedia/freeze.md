@@ -3,7 +3,7 @@ title: 凍結命令
 description: 凍結命令會凍結 VCR 的影片輸入或影片輸出，或停用框架緩衝區的影片捕獲。 數位影片、影片重迭和 VCR 裝置都會辨識此命令。
 ms.assetid: 49f3ab98-e893-402a-be78-6140af3b81df
 keywords:
-- 凍結命令 Windows 多媒體
+- Windows 多媒體的凍結命令
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7b63fbb2d888fc1ca315c0b511bcb18224c8168
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ca3c3847d9c4802154e04627e06e97a2ca3f1d3f493edfcd5bb1367fd354dde6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117988350"
 ---
 # <a name="freeze-command"></a>凍結命令
 
@@ -156,7 +156,7 @@ freeze vboard at 0 0 100 100
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

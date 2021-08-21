@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8496f467e668939c5d5aa0e90266ab012d436038
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a98d70bbb9c112c5edabaa6b4c4c9d0cb26e0349d72d17ed9ea48226f4cc032e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117731718"
 ---
 # <a name="d3dxframeregisternamedmatrices-function"></a>D3DXFrameRegisterNamedMatrices 函式
 

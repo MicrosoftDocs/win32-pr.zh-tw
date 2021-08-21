@@ -4,12 +4,12 @@ description: 描述提供者如何提供預留位置資訊和檔案資料。
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/01/2018
 ms.topic: article
-ms.openlocfilehash: 341a0f1c477b605b2a437edf311c380910744ac0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4f0da65095e908ec3211bb23be654ee9e0e2853c093bb36e8a92701c24106ff4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792392"
 ---
 # <a name="providing-file-data"></a>提供檔案資料
 

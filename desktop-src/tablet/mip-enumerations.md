@@ -19,7 +19,7 @@ ms.locfileid: "117856574"
 
 
 
-| Name                                           | 描述                                                               |
+| 名稱                                           | 描述                                                               |
 |------------------------------------------------|---------------------------------------------------------------------------|
 | [**MICUIELEMENT**](/windows/win32/api/micaut/ne-micaut-micuielement)           | 指定使用者介面 (UI) 數學輸入控制項的元素 (MIC) 。 |
 | [**MICUIELEMENTSTATE**](/windows/win32/api/micaut/ne-micaut-micuielementstate) | 指定數學輸入控制項的按鈕狀態 (MIC) 。                |

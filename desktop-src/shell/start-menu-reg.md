@@ -1,29 +1,29 @@
 ---
-description: Windows XP 和 Windows Vista 中的 [開始] 功能表包含預設網際網路 (瀏覽器) 的保留位置，以及電子郵件 (mail) 用戶端，通常稱為「開始功能表網際網路應用程式」。
+description: Windows XP 和 Windows Vista 中的 [開始] 功能表包含預設網際網路 (瀏覽器的保留位置) 和電子郵件 (的電子郵件) 用戶端，通常稱為「開始功能表網際網路應用程式」。
 ms.assetid: a3d7416f-0dbd-4af2-ab38-758f9cc8aec5
-title: 如何使用 Windows [開始] 功能表註冊網際網路瀏覽器或電子郵件客戶程式
+title: 如何使用 Windows 開始功能表註冊網際網路瀏覽器或電子郵件客戶程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eccdd8fb8efe32522947b30ab2ce1a50b7058e97
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
-ms.translationtype: HT
+ms.openlocfilehash: aa40a8775a60fbdd55ba33c2039065d744734a3331727a749b2c3a2e3d564be2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118046675"
 ---
-# <a name="how-to-register-an-internet-browser-or-email-client-with-the-windows-start-menu"></a>如何使用 Windows [開始] 功能表註冊網際網路瀏覽器或電子郵件客戶程式
+# <a name="how-to-register-an-internet-browser-or-email-client-with-the-windows-start-menu"></a>如何使用 Windows 開始功能表註冊網際網路瀏覽器或電子郵件客戶程式
 
 > [!Note]  
 > 本主題適用于 Windows XP、Windows Vista 和 Windows 7。
 
  
 
-Windows XP 和 Windows Vista 中的 [開始] 功能表包含預設 **網際網路** (瀏覽器) 的保留位置，以及 **電子郵件** (mail) 用戶端，通常稱為 *「開始功能表網際網路應用程式」*。 以 [開始] 功能表的形式註冊的應用程式，會在整個系統 (每部電腦) 。 在 Windows Vista 中，使用者可以使用 [ **預設程式** ] 功能來設定每個使用者的預設值。
+Windows XP 和 Windows Vista 中的 [開始] 功能表包含預設 **網際網路** (瀏覽器的保留位置) 和 **電子郵件 (的電子郵件**) 用戶端，通常稱為 *「開始功能表網際網路應用程式」*。 以 [開始] 功能表的形式註冊的應用程式，會在整個系統 (每部電腦) 。 在 Windows Vista 中，使用者可以使用 [**預設程式**] 功能來設定每位使用者的預設值。
 
-當應用程式註冊為開始功能表網際網路應用程式時，Windows XP 和 Windows Vista 會在 [開始] 功能表上建立 **網際網路** 和 **電子郵件** 圖示。 按一下這些圖示會導致 [開始] 功能表檢查每位使用者的登錄子樹， (**HKEY \_ 目前的 \_ 使用者**) 。 如果找不到每個使用者的預設設定，[開始] 功能表會在 [ **HKEY \_ 本機 \_ 電腦** ] 子樹中尋找每部電腦的預設子機碼。
+當應用程式註冊為開始功能表網際網路應用程式時，Windows XP 和 Windows Vista 會在 [開始] 功能表上建立 **網際網路** 和 **電子郵件** 圖示。 按一下這些圖示會導致 [開始] 功能表檢查每位使用者的登錄子樹， (**HKEY \_ 目前的 \_ 使用者**) 。 如果找不到每個使用者的預設設定，[開始] 功能表會在 [ **HKEY \_ 本機 \_ 電腦**] 子樹中尋找每部電腦的預設子機碼。
 
 > [!Note]  
-> Windows 的預設安裝不會註冊每位使用者的預設網際網路或電子郵件程式，只會註冊整個系統的預設值。 這會從舊版作業系統提供順暢的升級路徑，在此版本中， \_ \_ 用戶端註冊只支援 HKEY 本機電腦子樹。
+> 預設安裝 Windows 不會註冊每位使用者的預設網際網路或電子郵件程式，只會註冊整個系統的預設值。 這會從舊版作業系統提供順暢的升級路徑，在此版本中， \_ \_ 用戶端註冊只支援 HKEY 本機電腦子樹。
 
  
 
@@ -39,7 +39,7 @@ Windows XP 和 Windows Vista 中的 [開始] 功能表包含預設 **網際網�
 ## <a name="registering-for-the-start-menu-internet-link"></a>註冊 [開始] 功能表網際網路連結
 
 > [!Note]  
-> 此註冊已從 Windows 7 淘汰，不再提供 [開始] 功能表的網際網路連結。 在 Windows 7 和更新版本中會忽略現有的註冊。 註冊為預設的 [開始] 功能表網際網路應用程式與註冊為預設網頁瀏覽器並不相同。 預設的網頁瀏覽器可用來從系統中的任何位置啟動任意 Url。 [開始] 功能表的網際網路應用程式只會控制當使用者按一下 [開始] 功能表上的網際網路圖示時所啟動的程式。
+> 此註冊已于 Windows 7 淘汰，不再提供 [開始] 功能表的網際網路連結。 Windows 7 和更新版本中會忽略現有的註冊。 註冊為預設的 [開始] 功能表網際網路應用程式與註冊為預設網頁瀏覽器並不相同。 預設的網頁瀏覽器可用來從系統中的任何位置啟動任意 Url。 [開始] 功能表的網際網路應用程式只會控制當使用者按一下 [開始] 功能表上的網際網路圖示時所啟動的程式。
 
  
 
@@ -79,9 +79,9 @@ HKEY_LOCAL_MACHINE
                LocalizedString = @C:\Program Files\LitwareInc\ResourceDLL.dll,-123
 ```
 
->localizedstring 資料是 REG \_ SZ 類型， \_ \_ 如果使用路徑變數（例如），則 reg EXPAND sz `%programfiles%` 。 >localizedstring 會提供可執行檔 ( .exe) 或程式庫 ( .dll) 檔的路徑。 請注意，路徑字串的開頭為 "at" 符號 ( @ ) 而且路徑周圍不需要任何引號，不論其內是否有空格。 十進位整數是字串資源的識別碼，包含在指定的 DLL 內，其值會顯示給使用者。 這可讓相同的註冊用於多個語言。 每種語言都提供不同的 ResourceDLL.dll。 這可讓系統根據目前選取的語言顯示正確的字串。
+>localizedstring 資料是 REG \_ SZ 類型， \_ \_ 如果使用路徑變數（例如），則 reg EXPAND sz `%programfiles%` 。 >localizedstring 會提供可執行檔 (.exe) 或程式庫 (.dll) 檔的路徑。 請注意，路徑字串的開頭為 "at" 符號 ( @ ) 而且路徑周圍不需要任何引號，不論其內是否有空格。 十進位整數是字串資源的識別碼，包含在指定的 DLL 內，其值會顯示給使用者。 這可讓相同的註冊用於多個語言。 每種語言都提供不同的 ResourceDLL.dll。 這可讓系統根據目前選取的語言顯示正確的字串。
 
-下列 REG \_ sz 或 REG \_ EXPAND \_ sz 值會通知 [開始] 功能表當使用者選取 [亮視圖] 作為 [開始] 功能表的網際網路瀏覽器時，所要顯示的預設圖示。
+下列 reg \_ sz 或 REG \_ EXPAND \_ sz 值會通知 [開始] 功能表當使用者選取 [亮視圖] 作為 [開始] 功能表的網際網路瀏覽器時，所要顯示的預設圖示。
 
 ```
 HKEY_LOCAL_MACHINE
@@ -117,7 +117,7 @@ HKEY_LOCAL_MACHINE
 ```
 
 > [!Note]
-> 在 Windows Vista 中，使用者層級的預設網頁瀏覽器應該使用 [ **預設程式** ] 工具來設定，而不是 [ [SPAD](cpl-setprogramaccess.md)]。
+> 在 Windows Vista 中，使用者層級的預設網頁瀏覽器應該使用 [**預設程式**] 工具來設定，而不是 [ [SPAD](cpl-setprogramaccess.md)]。
 > 
 > **下列資訊僅適用于 Windows XP。**
 > 
@@ -148,7 +148,7 @@ HKEY_LOCAL_MACHINE
 ## <a name="registering-for-the-start-menu-email-link"></a>註冊 [開始] 功能表電子郵件連結
 
 > [!Note]  
-> 從 Windows 7 起，已移除 [開始] 功能表電子郵件] 連結。 不過，本章節中討論的這項註冊仍應針對其對指派預設 MAPI 用戶端的影響執行。
+> [開始] 功能表的電子郵件連結已從 Windows 7 移除。 不過，本章節中討論的這項註冊仍應針對其對指派預設 MAPI 用戶端的影響執行。
 
  
 
@@ -196,13 +196,13 @@ HKEY_LOCAL_MACHINE
                LocalizedString = @C:\Program Files\LitwareInc\ResourceDLL.dll,-456
 ```
 
->localizedstring 資料是 REG \_ SZ 類型， \_ \_ 如果使用路徑變數（例如），則 reg EXPAND sz `%programfiles%` 。 >localizedstring 會提供可執行檔 ( .exe) 或程式庫 ( .dll) 檔的路徑。 請注意，路徑字串的開頭為 "at" 符號 ( @ ) 而且路徑周圍不需要任何引號，不論其內是否有空格。 十進位整數是字串資源的識別碼，包含在指定的 DLL 內，其值會顯示給使用者。 這可讓相同的註冊用於多個語言。 每種語言都提供不同的 ResourceDLL.dll。 這可讓系統根據目前選取的語言顯示正確的字串。
+>localizedstring 資料是 REG \_ SZ 類型， \_ \_ 如果使用路徑變數（例如），則 reg EXPAND sz `%programfiles%` 。 >localizedstring 會提供可執行檔 (.exe) 或程式庫 (.dll) 檔的路徑。 請注意，路徑字串的開頭為 "at" 符號 ( @ ) 而且路徑周圍不需要任何引號，不論其內是否有空格。 十進位整數是字串資源的識別碼，包含在指定的 DLL 內，其值會顯示給使用者。 這可讓相同的註冊用於多個語言。 每種語言都提供不同的 ResourceDLL.dll。 這可讓系統根據目前選取的語言顯示正確的字串。
 
 更新適當的子機碼之後，應用程式會廣播 [**WM \_ SETTINGCHANGE**](../winmsg/wm-settingchange.md) 訊息，並將其 *wParam* 參數設定為0，並將其 *lParam* 參數指向以 null 終止的字串 `"Software\Clients\Mail"` 。 這會通知作業系統預設用戶端已變更。
 
 為了與不支援當地語系化字串的應用程式回溯相容，已安裝語言中的應用程式名稱也應該設定為子機碼的預設值。
 
-下列 **reg \_ Sz** 或 **REG \_ EXPAND \_ Sz** 值會在使用者選取 Lit mail 做為 [開始] 功能表 mail 程式時，通知顯示預設圖示的 [開始] 功能表：
+下列 **reg \_ sz** 或 **REG \_ EXPAND \_ sz** 值會在使用者選取 Lit mail 做為 [開始] 功能表 mail 程式時，通知顯示預設圖示的 [開始] 功能表：
 
 ```
 HKEY_LOCAL_MACHINE
@@ -214,7 +214,7 @@ HKEY_LOCAL_MACHINE
                   (Default) = C:\Program Files\LitwareInc\LitMail.exe,1
 ```
 
-下列專案會指定當使用者按一下 [開始] 功能表上的 [ **電子郵件** ] 功能表項目時要執行的命令列，並假設 [Lit mail] 是選取的 [開始] 功能表電子郵件程式。 如果使用者從 Windows Internet Explorer [**工具**] 功能表選取 [**讀取電子郵件**]，也會執行此命令列。 資料的類型是 **REG \_ Sz** 或 **reg \_ EXPAND \_ sz**，但請注意，因為命令列路徑中有一個空格，可執行檔路徑會以引號括住。
+下列專案會指定當使用者按一下 [開始] 功能表上的 [**電子郵件**] 功能表項目時要執行的命令列，並假設 [Lit mail] 是選取的 [開始] 功能表電子郵件程式。 如果使用者選取 [Windows Internet Explorer **工具**] 功能表中的 [**讀取電子郵件**]，也會執行此命令列。 資料的類型是 **REG \_ Sz** 或 **reg \_ EXPAND \_ sz**，但請注意，因為命令列路徑中有一個空格，可執行檔路徑會以引號括住。
 
 ```
 HKEY_LOCAL_MACHINE
@@ -251,7 +251,7 @@ HKEY_LOCAL_MACHINE
 
 -   當使用者按一下 Internet Explorer [**工具**] 功能表中的 [**讀取電子郵件**] 時，就會啟動系統預設電子郵件客戶程式。
 -   當使用者按一下表單的 URL 時，即會啟動註冊的 *mailto* 處理常式 `mailto:someone@example.com` 。
--   當使用者按一下 [開始] 功能表上的 [ **電子郵件** ] 圖示時，就會啟動 [開始] 功能表電子郵件應用程式。
+-   當使用者按一下 [開始] 功能表上的 [**電子郵件**] 圖示時，就會啟動 [開始] 功能表電子郵件應用程式。
 
 如果未指定預設的 [開始] 功能表電子郵件應用程式，[開始] 功能表的電子郵件圖示就會啟動系統預設的電子郵件客戶程式。
 

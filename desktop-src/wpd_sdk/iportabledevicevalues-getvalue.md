@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 6ab5ec24e67d5259eec86c6a33d32766a5426b38
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cce387bfc08c48547603d8b30a3952952f1e2decf70e06986ea4fb477fe4fdc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843030"
 ---
 # <a name="iportabledevicevaluesgetvalue-method"></a>IPortableDeviceValues：： GetValue 方法
 
@@ -61,7 +61,7 @@ HRESULT GetValue(
 
 
 
-| 傳回碼                                                                                                            | Description                                                          |
+| 傳回碼                                                                                                            | 描述                                                          |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                   | 此方法已成功。<br/>                                     |
 | <dl> <dt>**\_ \_ \_ 找不到 WIN32 (錯誤 \_) 的 HRESULT**</dt> </dl> | 索引 *鍵* 所指定的屬性不在集合中。<br/> |

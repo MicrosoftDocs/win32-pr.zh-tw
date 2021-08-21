@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a7f86ca40df4a639a034af603d6a84f8845a92
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ea0c95f0bd5ccadba86b3684daf652756044a647bbd85b47cdda5537a0ccf0e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837831"
 ---
 # <a name="ms-ts-endpoint-plugin-attribute"></a>ms-TS-端點-外掛程式屬性
 
@@ -54,7 +54,7 @@ ms.locfileid: "103935389"
 | 連結識別碼                | \-                                        |
 | MAPI-Id                | \-                                        |
 | System-Only            | 否                                     |
-| 是-單一值       | 對                                      |
+| 是-單一值       | 是                                      |
 | 已編制索引             | 否                                     |
 | 在通用類別目錄中      | 否                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                              |
@@ -75,7 +75,7 @@ ms.locfileid: "103935389"
 | 連結識別碼                | \-                                        |
 | MAPI-Id                | \-                                        |
 | System-Only            | 否                                     |
-| 是-單一值       | 對                                      |
+| 是-單一值       | 是                                      |
 | 已編制索引             | 否                                     |
 | 在通用類別目錄中      | 否                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                              |

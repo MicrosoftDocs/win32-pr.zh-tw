@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6829d53f53bd6a4783f5873eeed614e48bbe1088
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f248f70daf589d562091f2bcc235539726b53c8f301d2f10193b13e8604fe740
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117732272"
 ---
 # <a name="d3dxcreaterendertoenvmap-function"></a>D3DXCreateRenderToEnvMap 函式
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c1bd8435bbc742d3b2135d9f3b024b3196a7e7e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 49e89bb8424106aa9cdf104ce144d4118d8aae96520ddea106ae0a5efca443ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836623"
 ---
 # <a name="serial-number-attribute"></a>Serial-Number 屬性
 
@@ -87,7 +87,7 @@ X. 500 規格的一部分。 Active Directory 未使用。
 | Range-Upper            | 64                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                        |
-| 中使用的類別        | [**裝置**](c-device.md)<br/> [**個人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
+| 中使用的類別        | [**裝置**](c-device.md)<br/> [**人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ X. 500 規格的一部分。 Active Directory 未使用。
 | Range-Upper            | 64                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                        |
-| 中使用的類別        | [**裝置**](c-device.md)<br/> [**個人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
+| 中使用的類別        | [**裝置**](c-device.md)<br/> [**人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ X. 500 規格的一部分。 Active Directory 未使用。
 | Range-Upper            | 64                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                        |
-| 中使用的類別        | [**裝置**](c-device.md)<br/> [**個人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
+| 中使用的類別        | [**裝置**](c-device.md)<br/> [**人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ X. 500 規格的一部分。 Active Directory 未使用。
 | Range-Upper            | 64                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                        |
-| 中使用的類別        | [**裝置**](c-device.md)<br/> [**個人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
+| 中使用的類別        | [**裝置**](c-device.md)<br/> [**人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ X. 500 規格的一部分。 Active Directory 未使用。
 | Range-Upper            | 64                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                        |
-| 中使用的類別        | [**裝置**](c-device.md)<br/> [**個人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
+| 中使用的類別        | [**裝置**](c-device.md)<br/> [**人**](c-person.md)<br/> [**伺服器**](c-server.md)<br/> |
 
 
 

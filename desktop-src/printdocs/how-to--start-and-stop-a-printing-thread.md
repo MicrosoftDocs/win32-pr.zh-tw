@@ -4,12 +4,12 @@ ms.assetid: CA3A81D6-332F-4867-881F-AC6859A076CF
 title: 如何：啟動和停止列印執行緒
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d9a47f81e384a135bb70e6deabefe15a3408a04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 393f1f95efbb52c7cdd81316db000de22d45ca9e5dda0eadebb82ebaa3942350
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117686710"
 ---
 # <a name="how-to-start-and-stop-a-printing-thread"></a>如何：啟動和停止列印執行緒
 

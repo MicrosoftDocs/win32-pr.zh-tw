@@ -8,12 +8,12 @@ keywords:
 - 服務主體名稱 AD，使用 SCP 撰寫服務的 Spn
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0a9c44bc603372af35e874acfea4c1e12a2433d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9e48175bc5fa3d686aab104f8e025d66d7900162235292ed5b853c3284285cd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022218"
 ---
 # <a name="composing-the-spns-for-a-service-with-an-scp"></a>使用 SCP 撰寫服務的 Spn
 
@@ -57,9 +57,9 @@ return dwStatus;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

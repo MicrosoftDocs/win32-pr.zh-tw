@@ -3,7 +3,7 @@ title: 'EM_SETRECTNP 訊息 (Winuser .h) '
 description: EM_SETRECTNP 訊息：設定多行編輯控制項的格式化矩形。
 ms.assetid: 1ab497ca-023f-4c26-b92d-b441a0d7b90c
 keywords:
-- EM_SETRECTNP message Windows 控制項
+- EM_SETRECTNP 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9a8c85d4f7abd58ed3adb33ede66254c190a7bb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 60341a41706f012064d3b7cbc79aa019f1492c3a8d535866fa51fc7ea8dfd437
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831129"
 ---
 # <a name="em_setrectnp-message"></a>EM \_ SETRECTNP 訊息
 
@@ -63,9 +63,9 @@ ms.locfileid: "108085986"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

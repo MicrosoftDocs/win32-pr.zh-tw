@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eaa9b19a8bc7dcebba5982313bb362dbcee6157
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bc3490f48e04c97c845264f514e65db390a01e115ebff7c53aca792d29f0c522
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098447"
 ---
 # <a name="cd3dx12_resource_barrier-structure"></a>CD3DX12 \_ 資源 \_ 關卡結構
 

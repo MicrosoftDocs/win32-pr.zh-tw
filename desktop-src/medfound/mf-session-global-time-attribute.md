@@ -4,12 +4,12 @@ ms.assetid: 6810a22c-f091-423c-97dd-c04fdabdb9bb
 title: 'MF_SESSION_GLOBAL_TIME 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b930ed47c5f314b12aba0075cdc9120d2179325
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 309cc46a070fed571183f7f407e0fb00ad19d4d94136b49a78f0438b21470c62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118059200"
 ---
 # <a name="mf_session_global_time-attribute"></a>MF \_ 會話 \_ GLOBAL \_ TIME 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "106981009"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

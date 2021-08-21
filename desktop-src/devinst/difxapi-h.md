@@ -4,12 +4,12 @@ description: 本節包含 Difxapi 標頭的參考主題。
 ms.assetid: 84da7e54-0677-495e-9dc5-aca4ac12c0b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c549ed3fd781d9fde4e6ab48703e1df425986d0a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5f5dcace8f7f8c8ed528849da02016f04e0ca32b2132c7b0587a96872d7cc561
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736018"
 ---
 # <a name="difxapih"></a>Difxapi.h
 

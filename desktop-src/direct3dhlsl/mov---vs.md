@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 00f207261ad8ba6ac83360c40bc6008530292816
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: dd3e476c871bf2c8d1e48075a3f43576283efff1df285f900c6d0194cf4bbbfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117906729"
 ---
 # <a name="mov---vs"></a>mov-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "103679168"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "103679168"
 
 
 
- 
+ 
 
 可以用於浮點數據。 針對版本與 \_ 1 \_ 1，也可以使用它來寫入位址註冊。 當用來更新位址暫存器時，會使用四捨五入到最接近的位置，從浮點數轉換值。
 
@@ -74,9 +74,9 @@ else
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

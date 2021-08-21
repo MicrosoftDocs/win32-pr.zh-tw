@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2385d7ff766d72300a402fccfae8eb7338b89f87
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 81c295e19c1f02bfd6d6cf7af3705ad7ed5db801d610560e6424e694fe4cd81d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117942785"
 ---
 # <a name="principals-tasktype-element"></a>主體 (taskType) 元素
 
@@ -36,9 +36,9 @@ ms.locfileid: "103934014"
 
 
 
-| 元素                                          | 衍生自                                                 | Description                                                                  |
+| 元素                                          | 衍生自                                                 | 描述                                                                  |
 |--------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------------------------------|
-| [**Task**](taskschedulerschema-task-element.md) | [**taskType**](taskschedulerschema-tasktype-complextype.md) | 定義工作排程器服務所執行的工作。<br/> |
+| [**工作**](taskschedulerschema-task-element.md) | [**taskType**](taskschedulerschema-tasktype-complextype.md) | 定義工作排程器服務所執行的工作。<br/> |
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "103934014"
 
 
 
-| 元素                                                                  | 類型                                                                   | Description                                                    |
+| 元素                                                                  | 類型                                                                   | 描述                                                    |
 |--------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------|
 | [**主要**](taskschedulerschema-principal-principaltype-element.md) | [**principalType**](taskschedulerschema-principaltype-complextype.md) | 指定主體的安全性認證。<br/> |
 
@@ -87,8 +87,8 @@ ms.locfileid: "103934014"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

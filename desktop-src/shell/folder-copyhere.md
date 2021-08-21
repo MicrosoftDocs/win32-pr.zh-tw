@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 22bf1b4c-f242-4c52-b094-c5339bb35d02
-ms.openlocfilehash: 1466e5d01715c0c820cbc7cd9809c51e4963ec56
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 52a5dc6c919db5086a95f98b3f6a76d3b694b324bf2385b5fa3e544909b7d78e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050175"
 ---
 # <a name="foldercopyhere-method"></a>CopyHere 方法
 
@@ -54,10 +54,10 @@ Folder.CopyHere(
 
 類型： **Variant**
 
-複製操作的選項。 這個值可以是零或下列值的組合。 這些值是根據定義來與 c + + [**SHFILEOPSTRUCT**](/windows/desktop/api/Shellapi/ns-shellapi-shfileopstructa)結構的 **fFlags** 成員搭配使用的旗標。 每個 Shell 命名空間都必須提供自己的這些旗標執行，而且每個命名空間都可以選擇忽略部分或甚至所有的旗標。 這些旗標不是依 Visual Basic、VBScript 或 JScript 的名稱所定義，因此您必須自行定義，或使用其對等數值。
+複製操作的選項。 這個值可以是零或下列值的組合。 這些值是根據定義來與 c + + [**SHFILEOPSTRUCT**](/windows/desktop/api/Shellapi/ns-shellapi-shfileopstructa)結構的 **fFlags** 成員搭配使用的旗標。 每個 Shell 命名空間都必須提供自己的這些旗標執行，而且每個命名空間都可以選擇忽略部分或甚至所有的旗標。 這些旗標不是由 Visual Basic、VBScript 或 JScript 的名稱所定義，因此您必須自行定義，或使用其對等數值。
 
 > [!Note]  
-> 在某些情況下（例如壓縮的 ( .zip) 檔），設計可能會忽略某些選項旗標。
+> 在某些情況下（例如壓縮的 (.zip) 檔），設計可能會忽略某些選項旗標。
 
  
 
@@ -199,9 +199,9 @@ Folder.CopyHere(
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 **CopyHere** 將 Autoexec.bat 檔案從根目錄複寫到 C： \\ Windows 目錄。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例會使用 **CopyHere** 將 Autoexec.bat 檔案從根目錄複寫到 C： \\ Windows 目錄。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -274,10 +274,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

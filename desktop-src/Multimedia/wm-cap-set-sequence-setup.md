@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_SEQUENCE_SETUP 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 設定 \_ 順序 \_ 安裝程式訊息會設定用於串流處理捕獲的設定參數。 您可以使用 capCaptureSetSetup 宏明確地傳送此訊息。
 ms.assetid: ba9adb26-6627-469b-a836-f4f277ddb7c4
 keywords:
-- WM_CAP_SET_SEQUENCE_SETUP message Windows 多媒體
+- WM_CAP_SET_SEQUENCE_SETUP 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54a2129021f31694d9e601ecd97503e2a5f5c925
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d4632b62bd208339798c0e26dda835c66c01f9257d7c4ac19157f78def3cd603
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800189"
 ---
 # <a name="wm_cap_set_sequence_setup-message"></a>WM \_ CAP \_ 設定 \_ 順序設定 \_ 訊息
 

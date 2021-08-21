@@ -8,16 +8,16 @@ keywords:
 - 應用程式目錄分割 AD、新增或刪除分割區複本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c84b19e64f6abfc5e63d6e0e3d1b3a192da3e38
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 8adfc63012a6a153d2488e4d3353683ece2d611cb0b3e8e04794eaf76231ab61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118024745"
 ---
 # <a name="adding-or-deleting-an-application-directory-partition-replica"></a>新增或刪除應用程式目錄分割複本
 
-應用程式目錄分割的第一個複本是在建立時系結至該磁碟分割的網域控制站上建立的。 您可以在樹系中的任何網域控制站上建立額外的複本，而不一定要在與初始網域控制站相同的網域中建立。 應用程式目錄分割複本只能存在於執行 Windows Server 2003 或更新版本的網域控制站上。 如需詳細資訊，請參閱這篇有關 [分割區管理](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730970(v=ws.10))的 TechNet 文章。
+應用程式目錄分割的第一個複本是在建立時系結至該磁碟分割的網域控制站上建立的。 您可以在樹系中的任何網域控制站上建立額外的複本，而不一定要在與初始網域控制站相同的網域中建立。 應用程式目錄分割複本只能存在於正在執行 Windows Server 2003 或更新版本的網域控制站上。 如需詳細資訊，請參閱這篇有關 [分割區管理](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730970(v=ws.10))的 TechNet 文章。
 
 **若要新增應用程式目錄分割的複本，請執行下列步驟**
 
@@ -33,6 +33,6 @@ ms.locfileid: "104092643"
 
 如果已移除或降級裝載應用程式目錄分割複本的網域控制站，Active Directory 伺服器將會自動從所有 [**交叉引用**](/windows/desktop/ADSchema/c-crossref)物件的 [使用中- [**-----**](/windows/desktop/ADSchema/a-msds-nc-replica-locations) -----------------------replica-
 
- 
+ 
 
- 
+ 

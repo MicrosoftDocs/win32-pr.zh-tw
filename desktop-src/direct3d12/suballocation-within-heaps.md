@@ -5,12 +5,12 @@ ms.assetid: 7E319BCF-FF3F-43CB-9C48-A9DD2A043592
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 701e68e31e698bbf2c955a252bd46876f45d6b7c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b5bdda33f1db1b0f798e9c3d18d8b3f33f7fbc30638ae6d62d38c0d5e2767463
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74103960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912134"
 ---
 # <a name="suballocation-within-heaps"></a>堆積中的子分配
 

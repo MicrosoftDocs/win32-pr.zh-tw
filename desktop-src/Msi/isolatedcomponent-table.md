@@ -1,19 +1,19 @@
 ---
-description: IsolatedComponent 資料表的每一筆記錄都會將 [元件應用程式] 資料 (行中指定的元件 \_ 與 [元件共用] 資料行中指定的元件) 產生關聯， \_ (通常是共用的 DLL) 。
+description: IsolatedComponent 資料表的每一筆記錄都會將 [元件應用程式] 資料行中指定的元件關聯 \_ (通常是 .exe) 與 [元件共用] 資料行中指定的元件 \_ (通常是共用的 DLL) 。
 ms.assetid: dc30e4c7-a938-4060-be4f-744de9c20fd9
 title: IsolatedComponent 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c3e6c5bdba6efc546a36e77fa793c0b397f6d5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9644f1e122464e1321d55c0b615892167e84a7e059472adc4f01ee6bac571720
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805616"
 ---
 # <a name="isolatedcomponent-table"></a>IsolatedComponent 資料表
 
-IsolatedComponent 資料表的每一筆記錄都會將 [元件應用程式] 資料 (行中指定的元件 \_ 與 [元件共用] 資料行中指定的元件) 產生關聯， \_ (通常是共用的 DLL) 。 [IsolateComponents 動作](isolatecomponents-action.md)會將共用的元件複本安裝 \_ 到私人位置，以供元件 \_ 應用程式使用。 這會將元件 \_ 應用程式與其他共用的元件複本隔離，而該元件 \_ 可能會安裝到電腦上的共用位置。 請參閱 [獨立元件](isolated-components.md)。
+IsolatedComponent 資料表的每一筆記錄都會將 [元件應用程式] 資料行中指定的元件關聯 \_ (通常是 .exe) 與 [元件共用] 資料行中指定的元件 \_ (通常是共用的 DLL) 。 [IsolateComponents 動作](isolatecomponents-action.md)會將共用的元件複本安裝 \_ 到私人位置，以供元件 \_ 應用程式使用。 這會將元件 \_ 應用程式與其他共用的元件複本隔離，而該元件 \_ 可能會安裝到電腦上的共用位置。 請參閱 [獨立元件](isolated-components.md)。
 
 若要連結一個 \_ 與多個元件 \_ 應用程式共用的元件，請在 IsolatedComponents 資料表中包含每個配對的個別記錄。 安裝程式會將共用的元件檔案複製 \_ 到所安裝之每個元件應用程式的目錄中 \_ 。
 
@@ -46,7 +46,7 @@ IsolatedComponent 資料表具有下列資料行。
 <span id="Component_Application"></span><span id="component_application"></span><span id="COMPONENT_APPLICATION"></span>元件 \_ 應用程式
 </dt> <dd>
 
-[元件資料表](component-table.md)中的外鍵。 元件，包含載入共用檔案的 .exe。 .Exe 應該是此元件的金鑰檔。 這必須與元件共用資料行中所列的元件不同 \_ 。
+[元件資料表](component-table.md)中的外鍵。 元件，包含載入共用檔案的 .exe。 .exe 應該是此元件的金鑰檔。 這必須與元件共用資料行中所列的元件不同 \_ 。
 
 </dd> </dl>
 

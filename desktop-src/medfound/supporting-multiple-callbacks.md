@@ -4,12 +4,12 @@ ms.assetid: d57544cc-f16c-4415-9411-d06d6c16cb2f
 title: 支援多個回呼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b77a15899488e44ea3c1499b11af65894d47483c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 614d92a50101a5ed4e7c281dc76a3edce930fa06d68e11484dc89a3cad83de05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118057703"
 ---
 # <a name="supporting-multiple-callbacks"></a>支援多個回呼
 

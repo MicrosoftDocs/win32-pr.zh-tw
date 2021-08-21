@@ -4,12 +4,12 @@ ms.assetid: 16d434fb-54df-4e67-8e69-ff635640f1b2
 title: 關於憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63dc0259ae9dc964e0962f23dafba3424835d841
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81a251fde7e6fc0c6fd2faea270883a41a9b6c028474d4a0f9a763ee91e7b50b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774070"
 ---
 # <a name="about-certificates"></a>關於憑證
 

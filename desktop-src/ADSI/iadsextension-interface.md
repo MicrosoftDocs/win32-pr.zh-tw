@@ -9,12 +9,12 @@ keywords:
 - 延伸模組 ADSI、IADsExtension
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae7d59048d29620cdc2d3703b9ba26a852441a47
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: e3da7f29c59077b5fff312888ef614f0ed9eb34f259f40289a07e7a5193d2e6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017344"
 ---
 # <a name="iadsextension-interface"></a>IADsExtension 介面
 

@@ -4,12 +4,12 @@ ms.assetid: 0f79de15-6ce9-4d89-afb5-b4a2f0cf2fe3
 title: 使用條件變數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70989ca0f62271aa5afabfd60deddaeca2187866
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c1b1bda85e0e5efecaf1572637601bc0031ac04cb91b6f7de735e1ca8590e31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106993160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765542"
 ---
 # <a name="using-condition-variables"></a>使用條件變數
 
@@ -17,7 +17,7 @@ ms.locfileid: "106993160"
 
 程式碼會呼叫 [**InitializeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) 函數來建立條件變數。 取用者執行緒會呼叫 [**SleepConditionVariableCS**](/windows/win32/api/synchapi/nf-synchapi-sleepconditionvariablecs) 函式來等候專案加入至佇列，並使用 [**WakeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-wakeconditionvariable) 函式來表示產生者已準備好用於更多專案。 生產者執行緒會呼叫 **SleepConditionVariableCS** 來等候取用者移除佇列中的專案，並使用 **WakeConditionVariable** 來指出佇列中有更多專案。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援條件變數。
+**Windows Server 2003 和 Windows XP：** 不支援條件變數。
 
 
 ```C++

@@ -5,22 +5,22 @@ ms.tgt_platform: multiple
 title: wmic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 070b21cb21381fb989b81795a6c7e0b787b5c89a
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: a0248ea4ac6a584816da20e8feb8d278d7feab0a018739fa4328c3023179d4b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107222926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920998"
 ---
 # <a name="wmic"></a>wmic
 
-WMI 命令列 (WMIC) 公用程式提供命令列介面，Windows Management Instrumentation (WMI) 。 WMIC 與現有的 shell 和公用程式命令相容。 以下是適用于 WMIC 的一般參考主題。 如需有關如何使用 WMIC 的詳細資訊和指導方針，包括別名、動詞、交換器和命令的其他資訊，請參閱 [使用 Windows Management Instrumentation 命令列](/previous-versions/windows/it-pro/windows-server-2003/cc779482(v=ws.10)) 和 [WMIC-透過 WMI 進行命令列控制](/previous-versions/windows/it-pro/windows-2000-server/bb742610(v=technet.10))。
+wmi 命令列 (WMIC) 公用程式提供命令列介面，Windows Management Instrumentation (WMI) 。 WMIC 與現有的 shell 和公用程式命令相容。 以下是適用于 WMIC 的一般參考主題。 如需有關如何使用 WMIC 的詳細資訊和指導方針，包括別名、動詞、交換器和命令的其他資訊，請參閱[使用 Windows Management Instrumentation 命令列](/previous-versions/windows/it-pro/windows-server-2003/cc779482(v=ws.10))和[WMIC-透過 WMI 進行命令列控制](/previous-versions/windows/it-pro/windows-2000-server/bb742610(v=technet.10))。
 
 ## <a name="alias"></a>Alias
 
 別名是類別、屬性或方法的易記重新命名，可讓 WMI 更容易使用和讀取。 您可以透過/，判斷哪些別名可用於 WMIC **？** 。 您也可以使用 **<className> /？** 來決定特定類別的別名。 。 如需詳細資訊，請參閱 [WMIC 別名](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10))。
 
-## <a name="switch"></a>參數
+## <a name="switch"></a>交換器
 
 交換器是您可以全域設定或選擇性設定的 WMIC 選項。 如需可用參數的清單，請參閱 [WMIC 參數](/previous-versions/windows/it-pro/windows-server-2003/cc787035(v=ws.10))。
 

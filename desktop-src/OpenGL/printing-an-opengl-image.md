@@ -7,12 +7,12 @@ keywords:
 - 列印 OpenGL 影像 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ca0c5260a084796915a7564f793f0e252b5228c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 00d5cb2e08a247ad8ebd5d333a8a680b57e38a3fc1a9c2281dfb2bd8671f4c92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980702"
 ---
 # <a name="printing-an-opengl-image"></a>列印 OpenGL 影像
 
@@ -46,6 +46,6 @@ EndDoc(hDC); // End the print job
 
 如需使用中繼檔的詳細資訊，請參閱 [增強的中繼檔作業](/windows/desktop/gdi/enhanced-metafile-operations)。
 
- 
+ 
 
- 
+ 

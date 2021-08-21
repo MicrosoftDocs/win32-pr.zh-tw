@@ -4,12 +4,12 @@ ms.assetid: ffd812cc-811e-4f2a-8736-d1cb22d5abb7
 title: 設定要共用的元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 780f7e1d9128b213b138e63b9dfa7e0f40642681
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e2640a9c038a8d0d12e1447adafbaaea91c3addddffd04bccdfad0ba4180740f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118102380"
 ---
 # <a name="configuring-a-component-to-be-pooled"></a>設定要共用的元件
 

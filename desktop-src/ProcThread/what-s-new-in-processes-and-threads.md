@@ -4,12 +4,12 @@ ms.assetid: 69cd8713-b40c-4fec-a256-9c2ee3d73da5
 title: 進程和執行緒的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee7dfb708a2890bab1fcd3fd66385f74bd8513b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efe8b53349f5c6f19dd9beda1ffe6b933fbff63533988a40937453194df57295
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792956"
 ---
 # <a name="whats-new-in-processes-and-threads"></a>進程和執行緒的新功能
 
@@ -97,7 +97,7 @@ Windows 7 和 Windows Server 2008 R2 包含下列程式和執行緒的新程式�
 
 
 
-| 結構                                                                                                 | Description                                                                                         |
+| 結構                                                                                                 | 描述                                                                                         |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [**快取 \_ 關聯性**](/windows/desktop/api/WinNT/ns-winnt-cache_relationship)<br/>                                              | 描述快取屬性。 <br/>                                                             |
 | [**群組 \_ 親和性**](/windows/desktop/api/WinNT/ns-winnt-group_affinity)<br/>                                                      | 包含處理器群組特有的親和性，例如執行緒的親和性。<br/>          |

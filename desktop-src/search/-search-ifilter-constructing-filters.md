@@ -4,12 +4,12 @@ ms.assetid: a2b5a813-573a-44d3-8780-99603e3246c1
 title: 在 Windows Search 中執行篩選處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5f326440b31b62ff5697274962f4d4a2cfe7c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b1c55f0cfc50b75a6e206e2479ff6849d102a42a35b75026f8b6d3f37766b41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680877"
 ---
 # <a name="implementing-filter-handlers-in-windows-search"></a>在 Windows Search 中執行篩選處理常式
 
@@ -46,11 +46,11 @@ CFilterCF 類別會產生 [**IFilter**](/windows/win32/api/filter/nn-filter-ifil
 
 ## <a name="inheriting-the-com-interfaces"></a>繼承 COM 介面
 
-Windows Search 3.0 和更新版本要求您使用 [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) 的原因如下：
+Windows搜尋3.0 和更新版本需要您使用[IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream)的原因如下：
 
 - 以確保效能和未來的相容性。
 - 有助於提高安全性。 使用 [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) 執行的 ifilter 比較安全，因為 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) 介面執行所在的內容不需要在磁片上或透過網路開啟檔案的許可權。
-- 雖然 Windows Search 只使用 [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream)，但 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) 介面類別別也可以繼承 [IPersistFile 介面](/windows/win32/api/objidl/nn-objidl-ipersistfile) 和/或 [IPersistStorage 介面](/windows/win32/api/objidl/nn-objidl-ipersiststorage) 介面，以提供回溯相容性。
+- 雖然 Windows Search 只使用 [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream)，但 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)介面類別別也可以繼承 [IPersistFile 介面](/windows/win32/api/objidl/nn-objidl-ipersistfile)和/或 [IPersistStorage 介面](/windows/win32/api/objidl/nn-objidl-ipersiststorage)介面，以提供回溯相容性。
 
 這些介面是在 mssdk include 目錄所包含的檔案中宣告 \\ ，並且具有預先定義的介面識別碼， (iid) 。 內容編制索引用戶端會透過 [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)查詢 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)介面，以判斷在篩選內容時要使用的介面。
 
@@ -74,9 +74,9 @@ Windows Search 3.0 和更新版本要求您使用 [IPersistStream](/windows/win3
 
 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)介面必須執行至少 [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream)，但不需要執行其他 IPersist 衍生的介面。
 
-Windows Search 不需要執行下表所列的 COM 方法。
+Windows搜尋不需要執行下表中所列的 COM 方法。
 
-| 不需要的方法                               | Description                       |
+| 不需要的方法                               | 描述                       |
 |-----------------------------------------------------------|-----------------------------------|
 | IPersistStream：： IsDirty                                   | 篩選應該會傳回 E \_ >notimpl。 |
 | IPersistStream：： Save                                      | 篩選應該會傳回 E \_ >notimpl。 |
@@ -85,7 +85,7 @@ Windows Search 不需要執行下表所列的 COM 方法。
 
 ## <a name="additional-resources"></a>其他資源
 
-- [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample)上提供的 [IFilterSample](-search-sample-ifiltersample.md)程式碼範例會示範如何建立用來執行 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的 ifilter 基礎類別。
+- [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample)上提供的 [IFilterSample](-search-sample-ifiltersample.md)程式碼範例，示範如何建立用來執行 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的 ifilter 基礎類別。
 - 如需索引編制程式的總覽，請參閱 [索引](-search-indexing-process-overview.md)程式。
 - 如需檔案類型的總覽，請參閱 [檔案類型](../shell/fa-file-types.md)。
 - 若要查詢檔案類型的檔案關聯屬性，請參閱 [PerceivedTypes、SystemFileAssociations 和應用程式註冊](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85))。

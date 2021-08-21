@@ -4,12 +4,12 @@ ms.assetid: bd273439-daa2-4263-8f12-28ec988beea0
 title: 關於網路監視器2。1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f447f4763e0c73dc0dcac4cf719a0bad4b61f073
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fb71727475b9f80e4ce0d1a5a48ec45e26c8d998d2becdaabee9b9de1047617
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117982994"
 ---
 # <a name="about-network-monitor-21"></a>關於網路監視器2。1
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: cd242efaaf3cdb44f424a603f2fc522dda540ec8
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: ca0b1f93b3c5f56cd7a074571ec6657cedc924688606e3612a66ef0f9e40d51e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "104973860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726067"
 ---
 # <a name="programming-guide-for-hlsl"></a>HLSL 程式設計指南
 
@@ -31,11 +31,11 @@ HLSL 著色器可以在作者或執行時間進行編譯，並在執行時間設
 | [在 Direct3D 9 中使用著色器](dx-graphics-hlsl-using-shaders-9.md) | |
 | [使用 Direct3D 10 中的著色器](dx-graphics-hlsl-using-shaders-10.md) | |
 | [優化 HLSL 著色器](dx-graphics-hlsl-optimize.md) | |
-| [Visual Studio 中的調試著色器](dx-graphics-hlsl-debug-visual-studio.md) | 偵錯工具的最新工具現在以 Microsoft Visual Studio 的功能形式隨附，稱為 Visual Studio 圖形偵錯工具。  |
+| [Visual Studio 中的調試著色器](dx-graphics-hlsl-debug-visual-studio.md) | 偵錯工具的最新工具現在以 Microsoft Visual Studio 的功能形式提供，稱為 Visual Studio 圖形偵錯工具。  |
 | [編譯著色器](dx-graphics-hlsl-part1.md) | 現在讓我們看看如何編譯著色器程式碼的各種方式，以及著色器程式碼副檔名的慣例。 |
-| [指定編譯器目標](specifying-compiler-targets.md) | 在這裡，我們會列出 **D3DCompile \** _ 函式和 HLSL 編譯器支援之各種設定檔的目標。 |
+| [指定編譯器目標](specifying-compiler-targets.md) | 在這裡，我們會列出 **D3DCompile \*** 函式和 HLSL 編譯器支援之各種設定檔的目標。 |
 | [\_針對 In-Place 影像編輯解壓縮和封裝 DXGI 格式](dx-graphics-hlsl-unpacking-packing-dxgi-format.md) | |
-| [使用 HLSL 最小有效位數](using-hlsl-minimum-precision.md) | 從 Windows 8 開始，圖形驅動程式可以使用任何有效位數大於或等於指定的位精確度，來執行最小有效位數 HLSL 純量 [資料類型](dx-graphics-hlsl-scalar.md) 。  |
+| [使用 HLSL 最小有效位數](using-hlsl-minimum-precision.md) | 從 Windows 8 開始，圖形驅動程式可以使用任何有效位數大於或等於指定的位精確度，來執行最小有效位數 HLSL 純量[資料類型](dx-graphics-hlsl-scalar.md)。  |
 | [HLSL 著色器模型5](overviews-direct3d-11-hlsl.md) | |
 | [HLSL 著色器模型5。1](hlsl-shader-model-5-1-features-for-direct3d-12.md) | 本節說明著色器模型5.1 的功能，在實務上適用于 D3D12 和 D3D 11.3。 所有 DirectX 12 硬體都支援著色器模型5.1。 |
 | [HLSL 著色器模型6。0](hlsl-shader-model-6-0-features-for-direct3d-12.md) | 描述新增至 HLSL 著色器模型6.0 的 wave 作業內建。 |
@@ -43,5 +43,5 @@ HLSL 著色器可以在作者或執行時間進行編譯，並在執行時間設
 
 ## <a name="related-topics"></a>相關主題
 
-_ [HLSL](dx-graphics-hlsl.md)
+* [HLSL](dx-graphics-hlsl.md)
 * [HLSL 的參考](dx-graphics-hlsl-reference.md)

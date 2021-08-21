@@ -4,12 +4,12 @@ ms.assetid: 3FDB4908-C75D-4AE0-B32E-93F840E4F30A
 title: 使用 D3D11 影片 GPU-Based 內容保護
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78097492d375d50688f2472f5d2de99cc21f8594
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3ad4301de238ed19fbb047972a15c4acb9e48be069668882fe339ac3da390b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117879141"
 ---
 # <a name="gpu-based-content-protection-with-d3d11-video"></a>使用 D3D11 影片 GPU-Based 內容保護
 

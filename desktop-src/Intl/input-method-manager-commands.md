@@ -4,12 +4,12 @@ ms.assetid: d76207c7-94d0-4e11-9a6e-fc5c90af58fd
 title: 輸入方法管理員命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 481f4d6da5c6623256425112c3ed4b95e8604371
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85b6491777ef4a93ab61ec25498c570f3b56339f9bf3c80594b727989c3dee52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810024"
 ---
 # <a name="input-method-manager-commands"></a>輸入方法管理員命令
 

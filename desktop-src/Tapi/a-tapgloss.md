@@ -5,12 +5,12 @@ ms.assetid: 3089d918-78fe-4794-8ba3-3885025cb9c4
 title: " (的電話語音 API) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f264b568c541751eabb1614f1f256ce7789eed84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4933597d580d34821f3faa4ad61ef7560f60862cb3399f4f06b42322f4b69063
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117949636"
 ---
 # <a name="a-telephony-api"></a> (的電話語音 API) 
 

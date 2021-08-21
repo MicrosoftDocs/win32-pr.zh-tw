@@ -1,19 +1,19 @@
 ---
-description: GDI + 提供 GetImageEncoders 函式，讓您可以判斷電腦上可用的影像編碼器。
+description: GDI+ 提供 GetImageEncoders 函式，讓您可以判斷電腦上可用的影像編碼器。
 ms.assetid: a261cf61-b853-4208-984b-0d5040eb1667
 title: 列出已安裝的編碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f310e9d366cdacde019373724f2b9feb3b94aef8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 072b18d226d2ad09bc79cb1d1599ea5c0c62fa695a7aae2ff5969e27031e37b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118066879"
 ---
 # <a name="listing-installed-encoders"></a>列出已安裝的編碼器
 
-GDI + 提供 [**GetImageEncoders**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders) 函式，讓您可以判斷電腦上可用的影像編碼器。 **GetImageEncoders** 會傳回 [**ImageCodecInfo**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-imagecodecinfo) 物件的陣列。 在呼叫 **GetImageEncoders** 之前，您必須配置夠大的緩衝區來接收該陣列。 您可以呼叫 [**GetImageEncodersSize**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize) 來判斷所需的緩衝區大小。
+GDI+ 提供 [**GetImageEncoders**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders)函式，讓您可以判斷電腦上可用的影像編碼器。 **GetImageEncoders** 會傳回 [**ImageCodecInfo**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-imagecodecinfo) 物件的陣列。 在呼叫 **GetImageEncoders** 之前，您必須配置夠大的緩衝區來接收該陣列。 您可以呼叫 [**GetImageEncodersSize**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize) 來判斷所需的緩衝區大小。
 
 下列主控台應用程式會列出可用的映射編碼器：
 

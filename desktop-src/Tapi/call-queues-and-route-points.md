@@ -4,12 +4,12 @@ ms.assetid: 1c801401-be05-4b5f-bc4f-628dde0f3cf7
 title: 呼叫佇列和路由點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66895101b72ca8e16810d3766edf897efcfedddd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dd9c4c137b9304fda405201fb16a6637c5fa193e3853f1d570fa288cf9a1edc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117947686"
 ---
 # <a name="call-queues-and-route-points"></a>呼叫佇列和路由點
 

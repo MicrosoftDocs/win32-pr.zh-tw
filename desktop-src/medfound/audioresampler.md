@@ -4,12 +4,12 @@ ms.assetid: bee755c4-0585-40fb-aa4d-4e964f5144a3
 title: 音訊 Resampler DSP (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dbf5e640ffd128a5b9249514284ecef16c5f57e
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: de75889aa199a4d5ddc562fbca405adc8e5f2ec284f06afbe2b7e03dfc53bd11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065208"
 ---
 # <a name="audio-resampler-dsp"></a>音訊 Resampler DSP
 
@@ -36,7 +36,7 @@ PCM 或 IEEE 浮點數
 媒體類型必須指定未壓縮的 PCM 或浮點音訊格式。
 
 -   針對 [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) 介面，請依照 [未壓縮的音訊媒體類型](uncompressed-audio-media-types.md)中所述，將媒體類型初始化。
--   針對 [**IMediaObject**](/previous-versions/ms785953%28v%3dvs.85%29) 介面，媒體類型必須是 **\_ WaveFormatEx 類型格式** 。 如需詳細資訊，請參閱 [**Sql-dmo \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)。
+-   針對 [**IMediaObject**](/previous-versions/ms785953%28v%3dvs.85%29) 介面，媒體類型必須是 **\_ WaveFormatEx 類型格式** 。 如需詳細資訊，請參閱 [**DMO \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type)。
 
 ## <a name="properties"></a>屬性
 
@@ -85,7 +85,7 @@ Resampler 需要設定下列屬性：
 
 |     | L     | R     | C     | LFE   | BL    | BR    |
 |-----|-------|-------|-------|-------|-------|-------|
-| **我**   | 0.314 | 0     | 0.222 | 0.031 | 0.268 | 0.164 |
+| **L**   | 0.314 | 0     | 0.222 | 0.031 | 0.268 | 0.164 |
 | **R**   | 0     | 0.314 | 0.222 | 0.031 | 0.164 | 0.268 |
 
 
@@ -98,7 +98,7 @@ Resampler 需要設定下列屬性：
 
 |     | L     | R     | C     | LFE   | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|
-| **我**   | 0.320 | 0     | 0.226 | 0.032 | 0.292 | 0.130 |
+| **L**   | 0.320 | 0     | 0.226 | 0.032 | 0.292 | 0.130 |
 | **R**   | 0     | 0.320 | 0.226 | 0.032 | 0.130 | 0.292 |
 
 
@@ -123,7 +123,7 @@ Resampler 需要設定下列屬性：
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| **我**   | 0.222 | 0     | 0.157 | 0.022 | 0.189 | 0.116 | 0.203 | 0.090 |
+| **L**   | 0.222 | 0     | 0.157 | 0.022 | 0.189 | 0.116 | 0.203 | 0.090 |
 | **R**   | 0     | 0.222 | 0.157 | 0.022 | 0.116 | 0.189 | 0.090 | 0.203 |
 
 
@@ -148,12 +148,12 @@ Resampler 需要設定下列屬性：
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| **我**   | 0.518 | 0     | 0     | 0     | 0     | 0     | 0.189 | 0     |
+| **L**   | 0.518 | 0     | 0     | 0     | 0     | 0     | 0.189 | 0     |
 | **R**   | 0     | 0.518 | 0     | 0     | 0     | 0     | 0     | 0.189 |
 | **C**   | 0     | 0     | 0.518 | 0     | 0     | 0     | 0     | 0     |
 | **LFE** | 0     | 0     | 0     | 0.518 | 0     | 0     | 0     | 0     |
 | **BL**  | 0     | 0     | 0     | 0     | 0.518 | 0     | 0.482 | 0     |
-| **Br**  | 0     | 0     | 0     | 0     | 0     | 0.518 | 0     | 0.482 |
+| **BR**  | 0     | 0     | 0     | 0     | 0     | 0.518 | 0     | 0.482 |
 
 
 
@@ -165,7 +165,7 @@ Resampler 需要設定下列屬性：
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| **我**   | 0.447 | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
+| **L**   | 0.447 | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
 | **R**   | 0     | 0.447 | 0     | 0     | 0     | 0     | 0     | 0     |
 | **C**   | 0     | 0     | 0.447 | 0     | 0     | 0     | 0     | 0     |
 | **LFE** | 0     | 0     | 0     | 0.447 | 0     | 0     | 0     | 0     |
@@ -200,8 +200,8 @@ R_out = R*0.314 + C*0.222 + LFE*0.031 + BL*0.164 + BR*0.268
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Resampledmo.dll</dt> </dl> |
 

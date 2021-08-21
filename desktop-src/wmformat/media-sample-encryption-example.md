@@ -3,9 +3,9 @@ title: 媒體範例加密範例
 description: 媒體範例加密範例
 ms.assetid: f57f9ffc-47fd-47fb-b553-07b9cd6abb70
 keywords:
-- Windows Media Format SDK，媒體範例加密
-- Windows Media Format SDK，範例程式碼
-- Windows Media Format SDK，程式碼範例
+- Windows媒體格式 SDK，媒體範例加密
+- Windows媒體格式 SDK，範例程式碼
+- Windows媒體格式 SDK，程式碼範例
 - 數位版權管理 (DRM) 、媒體範例加密
 - DRM (數位版權管理) 、媒體範例加密
 - 數位版權管理 (DRM) ，範例程式碼
@@ -20,12 +20,12 @@ keywords:
 - 用戶端擴充 Api，程式碼範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a669ab957aa7510cdd57daca798ec3e3ac3bf73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ccab97c5a27518d1a31c8c5cdcdbe0defe897bd2bdd47fee1c709a9192262bc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846565"
 ---
 # <a name="media-sample-encryption-example"></a>媒體範例加密範例
 
@@ -78,9 +78,9 @@ EXIT:
 [**DRM 匯入範例**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

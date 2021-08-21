@@ -1,6 +1,6 @@
 ---
-title: 音訊混音器函式
-description: 音訊混音器函式
+title: 音訊 Mixer 函式
+description: 音訊 Mixer 函式
 ms.assetid: 19f53a98-1a01-4954-a5d7-c428aa2bfa38
 keywords:
 - 多媒體音訊、音訊混音器函式
@@ -12,14 +12,14 @@ keywords:
 - 音訊 mixers、函式的參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7bed7bf6858f64e31cff5a52a8396b5290a7709
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6e560e1c3fadb46eb2caad137185050affabaaa73e310078e76e1f574d52bf09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117989662"
 ---
-# <a name="audio-mixer-functions"></a>音訊混音器函式
+# <a name="audio-mixer-functions"></a>音訊 Mixer 函式
 
 下列函式可搭配音訊 mixers 使用。
 
@@ -38,9 +38,9 @@ ms.locfileid: "104023328"
 
 <dl> <dt>
 
-[音訊混音器參考](audio-mixer-reference.md)
+[音訊 Mixer 參考](audio-mixer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

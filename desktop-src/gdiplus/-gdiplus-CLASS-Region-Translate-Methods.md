@@ -4,12 +4,12 @@ ms.assetid: 2909bf9a-3ce0-4605-b063-e41cdc9cf317
 title: Region. 轉譯方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: a1d7652e3a49bb4418b26733cccc6dba4871e2be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0a870efb9939d60307fb782eebe36e9c8bfe99a3dd6aac8112afe68da238665
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118068118"
 ---
 # <a name="regiontranslate-methods"></a>Region. 轉譯方法
 

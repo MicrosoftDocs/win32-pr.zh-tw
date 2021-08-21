@@ -5,12 +5,12 @@ ms.assetid: CB0065EF-4E53-4E16-9F7E-09A261C360FB
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 086a14beec32447cb91e2a345f4fecda8d5480fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e93ca7fb75e65c58aee2b2dffbb220830e2911f2c8d7ce9186a09926fa11373f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912242"
 ---
 # <a name="resource-binding"></a>資源系結
 

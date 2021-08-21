@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 7efd9e0865cb489a7d033772112b0aaeb8a8fb23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fe0d969892a82debe36951f34aa88343e50d9978b7522e3dd53f34b500a0571
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117984438"
 ---
 # <a name="encryption-authencryption-element"></a> (authEncryption) 元素加密
 
@@ -64,8 +64,8 @@ AES 加密方法如 [802.1 x](https://ieeexplore.ieee.org/document/1438730) 和 
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                 |
 
 

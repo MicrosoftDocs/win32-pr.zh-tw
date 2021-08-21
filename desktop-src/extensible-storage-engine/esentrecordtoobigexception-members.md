@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102538
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2e2ca45fbfa77d5552b8eb8f8b8fb0cc532c08e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c8daa7bc8bd0ad4f23e1624e29f4e96048d7e959965bec800b3f088fd0e9fb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118079304"
 ---
 # <a name="esentrecordtoobigexception-members"></a>EsentRecordTooBigException 成員
 

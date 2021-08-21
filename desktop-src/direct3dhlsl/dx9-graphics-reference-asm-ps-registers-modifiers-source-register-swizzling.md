@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4ffc655129740f112a3ade9eb40c0bbe29dfc1fb
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 2c0357a902c793165149da5c853ac953cf5989f8a472fe936c6c2b95cb9e3197
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104313791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118090111"
 ---
 # <a name="source-register-swizzling-hlsl-ps-reference"></a>來源註冊 swizzling (HLSL PS 參考) 
 
@@ -62,7 +62,7 @@ Swizzling 是指將任何來源暫存器元件複製到任何暫存登錄元件�
 
 
 
- 
+ 
 
 \* 只有當目的地寫入遮罩是. w ( 時，才可使用。) 。
 
@@ -93,9 +93,9 @@ Swizzles 可依任意順序套用至來源暫存器;也就是說，任何來源�
 [ps \_ 3 \_ 0 註冊](dx9-graphics-reference-asm-ps-registers-ps-3-0.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -20,7 +20,7 @@ ms.locfileid: "117783222"
 -   CAPRs 集合–現有 CAPR 物件的參考清單
 -    (Sid 的識別碼) 
 -   描述
--   Name
+-   名稱
 
 系統管理員啟用檔案和資料夾的存取評估期間會評估上限。 在 [**AccessCheck**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-accesscheck) 呼叫期間，端點檢查會以邏輯方式結合任意的 ACL 檢查;這表示，若要取得 CAP 套用之檔案的存取權，使用者必須根據 CAP (其相關聯的 CAPRs) 和檔案上的任意 ACL 來存取兩者。
 

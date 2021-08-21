@@ -7,12 +7,12 @@ keywords:
 - 目錄服務結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 902bc2e14b791f436b3a83c65a414ad46a7d39c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd3a88f8e3220bf968fadf74b07a5932fd4e51909e1318da672bf74c9754c035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118018796"
 ---
 # <a name="directory-service-structures"></a>目錄服務結構
 
@@ -31,9 +31,9 @@ ms.locfileid: "104462048"
 [Active Directory Domain Services 中的結構](structures-in-active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

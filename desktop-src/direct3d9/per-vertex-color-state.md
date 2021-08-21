@@ -4,12 +4,12 @@ ms.assetid: acb43921-f0d4-4151-9371-1b99e5d30c0e
 title: 'Per-Vertex 色彩狀態 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e0104b427753fa3d7b7cf5a0a5a10cfeb5d10f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4d6efd227c64785f7399ae3ba56d4623342c0910d901c3cfc404fc4a37f0d233
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117727981"
 ---
 # <a name="per-vertex-color-state-direct3d-9"></a>Per-Vertex 色彩狀態 (Direct3D 9) 
 

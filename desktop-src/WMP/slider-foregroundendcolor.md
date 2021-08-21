@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c2c12c786c1440652319c8527a51d0aecdcd2b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 68e3db4666c35e77e8d15a5fd9be045b097070a41832d6faa50658d7c4c99441
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117933628"
 ---
 # <a name="sliderforegroundendcolor"></a>滑杆. foregroundEndColor
 
