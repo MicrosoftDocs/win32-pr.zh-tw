@@ -4,12 +4,12 @@ ms.assetid: 2a6b47de-f0f7-46dc-9831-2186b1778de5
 title: SPI 中的名稱解析資料結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8075dc88039717b51b1b40f371686a92c198497
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 676c16f73ae512c67903c9caeb29e1ace0e48120c46d530b3551f0eb213bd938
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569458"
 ---
 # <a name="name-resolution-data-structures-in-the-spi"></a>SPI 中的名稱解析資料結構
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - checkbmi.h
-ms.openlocfilehash: 5ec092bdea1e3dd00de36893d1816f70ca6d7945
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 48d9deab4d87868cbc9e5418ccd6b7e2c7e9ecf93350ad70cb6c934d365e4655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074182"
 ---
 # <a name="checkvideoinfo2type-function"></a>CheckVideoInfo2Type 函式
 
@@ -57,7 +57,7 @@ HRESULT CheckVideoInfo2Type(
 
 
 
-| 傳回碼                                                                                                | Description                       |
+| 傳回碼                                                                                                | 描述                       |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | Success<br/>                |
 | <dl> <dt>**E \_ 指標**</dt> </dl>                  | **Null** 指標值<br/> |

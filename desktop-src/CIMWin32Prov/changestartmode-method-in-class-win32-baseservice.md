@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9877300a2135b7082677193696cd2d11811ab3dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dbf010482472077a876fcb8bf06fddd0d57ffa32e2ea1203c0401e56fd69b5d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081002"
 ---
 # <a name="changestartmode-method-of-the-win32_baseservice-class"></a>Win32 BaseService 類別的 ChangeStartMode 方法 \_
 
@@ -45,7 +45,7 @@ uint32 ChangeStartMode(
 *StartMode* \[在\]
 </dt> <dd>
 
-Windows 基底服務的啟動模式。 預設值為「自動」。
+Windows 基礎服務的啟動模式。 預設值為「自動」。
 
 <dt>
 

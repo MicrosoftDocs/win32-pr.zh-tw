@@ -4,12 +4,12 @@ ms.assetid: 6ba28fdf-87d5-4d39-9e12-8201585a86ee
 title: 數位監視
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2454f6886bba4e859348df929c1a35f10c3d481
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6768aa73cde3e9eaf05ea27ef1bb01bbd9c19787c01931d0640737bf365ee6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118866746"
 ---
 # <a name="digit-monitoring"></a>數位監視
 

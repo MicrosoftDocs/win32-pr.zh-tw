@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7229aca469ee83d9ac2e4b29f6d6b7c54875120
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ebb5e3e0513aa5ca2232bc8352a3ba23653c63ff17f9290557d3b7b4db97cb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574318"
 ---
 # <a name="mdm_reboot_schedule01-class"></a>MDM \_ 重新開機 \_ Schedule01 類別
 
@@ -117,7 +117,7 @@ class MDM_Reboot_Schedule01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                            |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1 mof</dt> </dl>      |

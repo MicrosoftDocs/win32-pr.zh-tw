@@ -4,12 +4,12 @@ ms.assetid: cbf2b07d-d67c-4755-888c-d40692d13cae
 title: 工作列擴充功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4df308d8045301b98937eb03af595d2e800921b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c92cb8f100da2c7b5173319c25369a0ada7284b2ff5f4adbfe9b519c0ee96485
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773748"
 ---
 # <a name="taskbar-extensions"></a>工作列擴充功能
 
@@ -140,7 +140,7 @@ ms.locfileid: "103851627"
 
 ![具有重迭的 windows messenger 工作列按鈕，表示可用的狀態](images/taskbar/taskbaroverlay.png)
 
-圖示重迭可作為狀態的內容通知，其目的是要讓個別通知區域狀態圖示的需求不會與使用者傳達該資訊。 例如，目前顯示在通知區域中的 Microsoft Outlook 新郵件狀態，現在可透過工作列按鈕上的重迭來指出。 同樣地，您必須在開發週期中決定哪一個方法最適合您的應用程式。 重迭圖示的目的是要提供重要、長期的狀態或通知，例如網路狀態、messenger 狀態或新郵件。 使用者不應該看到不斷變化的重迭或動畫。
+圖示重迭可作為狀態的內容通知，其目的是要讓個別通知區域狀態圖示的需求不會與使用者傳達該資訊。 比方說，Microsoft Outlook 中目前顯示在通知區域中的新郵件狀態，現在可透過工作列按鈕上的重迭來指出。 同樣地，您必須在開發週期中決定哪一個方法最適合您的應用程式。 重迭圖示的目的是要提供重要、長期的狀態或通知，例如網路狀態、messenger 狀態或新郵件。 使用者不應該看到不斷變化的重迭或動畫。
 
 由於單一重迭會在工作列按鈕上重迭，而不是在個別視窗縮圖上，因此這是每個群組的功能，而不是每個視窗。 您可以從工作列群組中的個別視窗接收覆迭圖示的要求，但不會將它們排入佇列。 最後收到的重迭是所顯示的重迭。
 
@@ -161,7 +161,7 @@ ms.locfileid: "103851627"
 
 ## <a name="deskbands"></a>Deskbands
 
-在 Windows 7 之前的 Windows 版本中，與縮圖工具列功能類似的內容，可以透過 deskband （在工作列中裝載的工具列）來達成。 比方說，Windows Media Player 可以將工作列最小化為一組傳輸控制項，而不是標準按鈕。 在 Windows 7 中，仍然可以執行 deskbands，而且縮圖工具列並非全部取代。 並非所有的應用程式都能成為縮圖工具列，而另一個解決方案（例如 deskband 或目的地清單中的工作）可能是您的應用程式的正確答案;您必須決定哪一個解決方案最適合您的應用程式，做為開發週期的一部分。 不過，請注意，deskbands 必須支援具有半透明度 ( 「玻璃」 ) 啟用的 Windows Aero 和 [**IDeskBand2**](/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2) 介面。
+在 Windows 7 之前的 Windows 版本中，與縮圖工具列功能類似的內容，可以透過 deskband （在工作列中裝載的工具列）來達成。 比方說，Windows Media Player 可以將工作列最小化為一組傳輸控制項，而不是標準按鈕。 在 Windows 7 中，仍可執行 deskbands，而且縮圖工具列不打算全部取代。 並非所有的應用程式都能成為縮圖工具列，而另一個解決方案（例如 deskband 或目的地清單中的工作）可能是您的應用程式的正確答案;您必須決定哪一個解決方案最適合您的應用程式，做為開發週期的一部分。 不過，請注意，deskbands 必須支援啟用半透明度 ( 「玻璃」 ) 的 Windows Aero 和 [**IDeskBand2**](/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2)介面。
 
 ### <a name="apis"></a>API
 
@@ -180,7 +180,7 @@ ms.locfileid: "103851627"
 ![代表 windows internet explorer 中個別索引標籤的三個工作列縮圖](images/taskbar/taskbarthumbnails.png)
 
 > [!Note]  
-> 在 Windows Vista 中，Aero 必須為作用中，才能查看縮圖。
+> 如同 Windows Vista 中，Aero 必須為作用中，才能查看縮圖。
 
  
 

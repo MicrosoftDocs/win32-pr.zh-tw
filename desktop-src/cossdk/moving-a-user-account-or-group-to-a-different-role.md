@@ -4,12 +4,12 @@ ms.assetid: d2cfa5cb-a143-41de-9aa2-7af7fce10ed7
 title: 將使用者帳戶或群組移至不同的角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2401d792066212269d4eaa4eb11eadfef6e2d73e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ea402b6012fa4f6e7769e4bbb29a2a11da6e750636b0c139d5f5d6701a397116
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047336"
 ---
 # <a name="moving-a-user-account-or-group-to-a-different-role"></a>將使用者帳戶或群組移至不同的角色
 

@@ -1,22 +1,22 @@
 ---
-description: 開機事件收集器 WMI 提供者可讓您存取 Windows Server 上的設定和開機事件集合功能的連接和設定資訊。
+description: 開機事件收集器 WMI 提供者可存取 Windows Server 上的安裝和開機事件集合功能的連線與設定資訊。
 ms.assetid: ab9ac8f0-69a5-4a2d-8ee5-1f003aa1bb5b
 ms.tgt_platform: multiple
 title: 開機事件收集器 WMI 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a38ef27b2989f856fdcfda82d4ee0e68c3913167
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ccebb4c4408aaa0ce58ad6ab412e4ca85fbb291c8da14ba764dfe3b19e2cbfa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579858"
 ---
 # <a name="boot-event-collector-wmi-provider"></a>開機事件收集器 WMI 提供者
 
 ## <a name="purpose"></a>目的
 
-開機事件收集器 WMI 提供者可讓您存取 Windows Server 上的設定和開機事件集合功能的連接和設定資訊。 這可讓您查看目前的連接清單，以及收集器伺服器與其目的電腦之間的連接歷程記錄。 此外，此提供者可讓您管理收集器伺服器的設定。
+開機事件收集器 WMI 提供者可存取 Windows Server 上的安裝和開機事件集合功能的連線與設定資訊。 這可讓您查看目前的連接清單，以及收集器伺服器與其目的電腦之間的連接歷程記錄。 此外，此提供者可讓您管理收集器伺服器的設定。
 
 > [!Note]  
 > 開機事件收集器 WMI 提供者會在 BEvtCol.exe 中執行。

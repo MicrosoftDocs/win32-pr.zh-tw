@@ -4,12 +4,12 @@ ms.assetid: 42e2b664-197c-4c54-9220-b6231d6439d0
 title: 使用快取點陣圖改善效能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a8e546460741342bcac8f1633e21d104984af9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ffee17a2c8d564a38235cc83d204eacc9b4edf2e8070cb5971d55f1f991169f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036326"
 ---
 # <a name="using-a-cached-bitmap-to-improve-performance"></a>使用快取點陣圖改善效能
 

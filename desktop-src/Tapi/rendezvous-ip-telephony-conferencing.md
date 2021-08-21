@@ -4,16 +4,16 @@ ms.assetid: 4da2046c-00fd-46a8-805f-503729cfa531
 title: 彙集 IP 電話語音會議
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1cbfc3a1e07fdc245af0ae6b93277c90083a75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c1486f2ca730f1efb0391fdea5a3ad22bec65385a31bce9bf233f0f230b7ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773568"
 ---
 # <a name="rendezvous-ip-telephony-conferencing"></a>彙集 IP 電話語音會議
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 TAPI 3 會合控制項可讓程式設計人員建立可建立及探索多媒體多播 IP 會議的應用程式。
 

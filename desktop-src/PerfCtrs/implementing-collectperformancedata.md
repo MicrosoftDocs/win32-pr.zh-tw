@@ -4,12 +4,12 @@ ms.assetid: 73b022df-0148-4afc-8536-8b1c766b1ee6
 title: 執行 CollectPerformanceData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5d0d01dd11a13308bceecbc7f511355c3b3899a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efc77c071a0a3394012c29e76a6de3ecce8e4f028906d35f8a6b37b69819a7eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775618"
 ---
 # <a name="implementing-collectperformancedata"></a>執行 CollectPerformanceData
 

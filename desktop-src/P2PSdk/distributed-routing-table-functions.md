@@ -4,12 +4,12 @@ ms.assetid: 1ceff217-d410-47fa-99a2-8588f001859e
 title: 分散式路由表函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cd48c3a60f458285ce5f607f9ab6bcf7a557cd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00501a1a04a3acba23fe55f90acfbf7ca8fee7427c36ea1d36d8800fb8787321
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776348"
 ---
 # <a name="distributed-routing-table-functions"></a>分散式路由表函數
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a8a69b3f3d810fe48b7a0e1d31a57a96e279d14a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 646c3e71056b163f70675db25a1427dbf18b9fc144232589676166f8f2e0cb8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079962"
 ---
 # <a name="setpowerstate-method-of-the-cim_cdromdrive-class"></a>CIM CDROMDrive 類別的 SetPowerState 方法 \_
 

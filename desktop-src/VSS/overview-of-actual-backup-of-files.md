@@ -4,12 +4,12 @@ ms.assetid: 187f26f2-f191-4703-9bde-3357f1ceef0c
 title: 檔的實際備份總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98a504ff5a41725e33a2eb27792a3c6c89d00276
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e29c4f2d4c0d43e614fe956b2ca3b3253566f0d05a7c27a4e7337ae3b2cd6784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056376"
 ---
 # <a name="overview-of-actual-backup-of-files"></a>檔的實際備份總覽
 
@@ -57,7 +57,7 @@ VSS 可讓要求者存取包含要備份之資料的磁片區陰影複製，以�
 <td>要求者會使用<a href="/windows/desktop/api/Vss/nn-vss-ivssasync"><strong>IVssAsync</strong></a>來等候所有寫入器認可<a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>>ivssbackupcomponents：： BackupComplete</strong></a>事件的接收。 它也應該驗證寫入器狀態 (請參閱 <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus"><strong>>ivssbackupcomponents：： GatherWriterStatus</strong></a>， <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus"><strong>>ivssbackupcomponents：： GetWriterStatus</strong></a>) 。 要求者目前必須呼叫 <strong>GatherWriterStatus</strong> ，使寫入器會話設定為已完成狀態。
 <blockquote>
 [!Note]<br />
-只有在 Windows Server 2008 Service Pack 2 (SP2) 及更早版本才需要此功能。
+只有 Windows Server 2008 （含 Service Pack 2） (SP2) 及更早版本才需要此功能。
 </blockquote>
 <br/></td>
 <td>無</td>
@@ -81,7 +81,7 @@ VSS 可讓要求者存取包含要備份之資料的磁片區陰影複製，以�
 
 因此，如同在探索階段 (請參閱 [備份探索階段](overview-of-the-backup-discovery-phase.md)) 的總覽，寫入器在檔案實際備份時有一些需求。
 
-備份完成後，如果要求者已產生 [*BackupComplete*](vssgloss-b.md) 事件，則 VSS 會呼叫每個寫入器的 [**CVssWriter：： OnBackupComplete**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete) 方法，預設只會傳回 **TRUE** 的虛擬方法。 但是，寫入器可以覆寫預設的執行，並採取這類動作來移除剩餘的暫存檔，或使用呼叫它的 [**IVssWriterComponents**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents)介面來檢查每個 [*包含之明確*](vssgloss-e.md)元件的備份狀態 (以及它們可能會藉由取出對應的 [**>ivsscomponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent)物件來定義) 的任何 [*元件集*](vssgloss-c.md)。 然後，寫入器可以藉由呼叫 [**>ivsscomponent： GetBackupSucceeded**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupsucceeded)，判斷備份成功或失敗。 **>ivsscomponent： GetBackupSucceeded** 所傳回的值只有在元件中明確包含的所有檔案，[*而且全部都*](vssgloss-i.md)已成功地備份任何 [*子元件*](vssgloss-s.md)時，才會是 **TRUE** 。
+備份完成後，如果要求者已產生 [*BackupComplete*](vssgloss-b.md) 事件，則 VSS 會呼叫每個寫入器的 [**CVssWriter：： OnBackupComplete**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete) 方法，預設只會傳回 **TRUE** 的虛擬方法。 但是，寫入器可以覆寫預設的執行，並採取這類動作來移除剩餘的暫存檔，或使用呼叫它的 [**IVssWriterComponents**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents)介面來檢查每個 [*包含之明確*](vssgloss-e.md)元件的備份狀態 (以及它們可能會藉由取出對應的 [**>ivsscomponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent)物件來定義) 的任何 [*元件集*](vssgloss-c.md)。 然後，寫入器可以藉由呼叫 [**>ivsscomponent： GetBackupSucceeded**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupsucceeded)，判斷備份成功或失敗。 **>Ivsscomponent： GetBackupSucceeded** 所傳回的值只有在元件中明確包含的所有檔案，[*而且全部都*](vssgloss-i.md)已成功地備份任何 [*子元件*](vssgloss-s.md)時，才會是 **TRUE** 。
 
 當 [**CVssWriter：： OnBackupComplete**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete) 的呼叫完成時，要求者應該針對每個寫入器呼叫 [**>ivssbackupcomponents：： GatherWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus) 和 [**>ivssbackupcomponents：： GetWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus) (最後一次) 。 寫入器會話狀態記憶體是有限的資源，而寫入器最後必須重複使用會話狀態。 此步驟會將寫入器的備份會話狀態標示為已完成，並通知 VSS 此備份會話位置可以由後續的備份作業重複使用。
 

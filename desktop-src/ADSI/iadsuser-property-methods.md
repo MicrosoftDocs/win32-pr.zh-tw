@@ -150,12 +150,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6689776fe1ce9102ed4bb8ad97252be41901a0ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4cd41380e2c8ca58f5ce530f4c3024eb43522b474f128c3a296aaf5b4d84937f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082372"
 ---
 # <a name="iadsuser-property-methods"></a>IADsUser 屬性方法
 
@@ -993,7 +993,7 @@ HRESULT put_NameSuffix(
 **OfficeLocations**
 </dt> <dd> <dl>
 
-作為使用者之 **BSTR** 陣列的辦公室位置。 針對 Active Directory，此屬性是單一值，且陣列有一個元素。
+Office 位置作為使用者的 **BSTR** 陣列。 針對 Active Directory，此屬性是單一值，且陣列有一個元素。
 
 <dt>
 
@@ -1186,7 +1186,7 @@ HRESULT put_Picture(
 **PostalAddresses**
 </dt> <dd> <dl>
 
-作為 **BSTR** 陣列的郵政位址。 這個屬性是多重值，用來保存超過使用者的位址。 PostalAddress 的內部格式應符合 CCITT f. 的規範，如 X. 521-1993 年所述，其會將 PostalAddress 定義為30個位元組的六個元素，其中包含街道位址， (選擇性地) 郵局箱、城市或地點、州/省、郵遞區號和國家/地區。
+作為 **BSTR** 陣列的郵政位址。 這個屬性是多重值，用來保存超過使用者的位址。 PostalAddress 的內部格式應符合 CCITT f. 的規範，如 X. 521-1993 年所述，其會將 PostalAddress 定義為30個位元組的六個元素，並保留街道位址， (選擇性地) 張貼 Office Box、城市或地點、州/省、郵遞區號和國家/地區。
 
 <dt>
 

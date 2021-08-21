@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0de083f0b34b32f9f837791719a6fedec3e4b2ec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5294a1139ffe3884c38b741faf84aae652e72146c4fb81ca79079494bfc4af71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573468"
 ---
 # <a name="balanceslider"></a>BALANCESLIDER
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9746b856c74e9603751fe85bb861e2b6869f03a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f010fc1c8d31382040d79bd811e4a472af4269d503d2810e44320717ebbc5e35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575078"
 ---
 # <a name="changerole-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 ChangeRole 方法 \_
 

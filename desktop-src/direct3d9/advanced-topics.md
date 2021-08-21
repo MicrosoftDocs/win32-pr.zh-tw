@@ -4,12 +4,12 @@ ms.assetid: 567dea5e-92f4-4c5b-8027-32de93fb2c55
 title: " (Direct3D 9) 的 Advanced 主題"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcf2e1b33e53ec9c6aeff47e15a4d3db33c2e5a7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 063ff463ee29d3c50fb906f402a55f533e9a91c472f74d20cf1926820faafcc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045216"
 ---
 # <a name="advanced-topics-direct3d-9"></a> (Direct3D 9) 的 Advanced 主題
 
