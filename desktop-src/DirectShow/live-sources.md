@@ -4,12 +4,12 @@ ms.assetid: 571fe5e5-9616-463b-837c-f8dbb8adf1be
 title: 即時來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43486cf3db797f493c9446bf782989b8beaae829
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8872cc5489ae61f3b7b9629e97303ad033630346094f8f1faa013f5da81d9142
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153196"
 ---
 # <a name="live-sources"></a>即時來源
 
@@ -20,15 +20,15 @@ ms.locfileid: "104467699"
 -   篩選準則 \_ \_ \_ \_ 會 \_ 從 [**IAMFILTERMISCFLAGS：： GetMiscFlags**](/windows/desktop/api/Strmif/nf-strmif-iamfiltermiscflags-getmiscflags) 方法傳回 AM 篩選其他旗標為來源旗標，且至少其中一個輸出圖釘會公開 [**IAMPushSource**](/windows/desktop/api/Strmif/nn-strmif-iampushsource) 介面。
 -   此篩選器會公開 [**IKsPropertySet**](ikspropertyset.md) 介面，並有 (釘選 \_ 類別 \_ 捕獲) 的捕獲 pin。 如需詳細資訊，請參閱 [釘選屬性集](pin-property-set.md) 。
 
-如果即時來源篩選器提供時鐘，則篩選圖形管理員會偏好在選擇 Graph 參考時鐘時使用時鐘。 如需詳細資訊，請參閱 [參考時鐘](reference-clocks.md) 。
+如果即時來源篩選提供時鐘，則篩選準則 Graph 管理員會在選擇 Graph 參考時鐘時偏好該時鐘。 如需詳細資訊，請參閱 [參考時鐘](reference-clocks.md) 。
 
 **延遲**
 
 篩選器的延遲是篩選器處理範例所需的時間量。 針對即時來源，延遲是由用來保存範例的緩衝區大小所決定。 例如，假設篩選圖形的影片來源的延遲為33毫秒 (ms) ，而音訊來源的延遲為500毫秒。 在比對音訊範例到達音訊轉譯器之前，每個影片框架都會抵達影片轉譯器大約470毫秒。 除非圖形針對差異進行補償，否則音訊和影片將不會同步處理。
 
-即時來源可以透過 [**IAMPushSource**](/windows/desktop/api/Strmif/nn-strmif-iampushsource) 介面進行同步處理。 除非應用程式藉由呼叫 [**IAMGraphStreams：： SyncUsingStreamOffset**](/windows/desktop/api/Strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset) 方法來啟用同步處理，否則篩選圖形管理員不會同步處理即時來源。 如果同步處理已啟用，則篩選圖形管理員會查詢每個來源篩選以進行 **IAMPushSource**。 如果篩選準則支援 **IAMPushSource**，則篩選圖形管理員會呼叫 [**IAMLatency：： GetLatency**](/windows/desktop/api/Strmif/nf-strmif-iamlatency-getlatency) 來取得篩選準則的預期延遲。 **IAMPushSource** 介面 (繼承 [**IAMLatency**](/windows/desktop/api/Strmif/nn-strmif-iamlatency)) 。從結合的延遲值，篩選圖形管理員會決定圖形中預期的最大延遲。 然後，它會呼叫 [**IAMPushSource：： SetStreamOffset**](/windows/desktop/api/Strmif/nf-strmif-iampushsource-setstreamoffset) 來提供每個來源篩選一個資料流程位移，該篩選會將它新增至它所產生的時間戳記。
+即時來源可以透過 [**IAMPushSource**](/windows/desktop/api/Strmif/nn-strmif-iampushsource) 介面進行同步處理。 除非應用程式透過呼叫 [**IAMGraphStreams：： SyncUsingStreamOffset**](/windows/desktop/api/Strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset)方法來啟用同步處理，否則篩選 Graph 管理員不會同步處理即時來源。 如果啟用同步處理，則篩選 Graph 管理員會查詢每個來源篩選以進行 **IAMPushSource**。 如果篩選準則支援 **IAMPushSource**，則篩選 Graph 管理員會呼叫 [**IAMLatency：： GetLatency**](/windows/desktop/api/Strmif/nf-strmif-iamlatency-getlatency)來取得篩選準則的預期延遲。 **IAMPushSource** 介面 (繼承 [**IAMLatency**](/windows/desktop/api/Strmif/nn-strmif-iamlatency)) 。從結合的延遲值，篩選 Graph 管理員會決定圖形中預期的最大延遲。 然後，它會呼叫 [**IAMPushSource：： SetStreamOffset**](/windows/desktop/api/Strmif/nf-strmif-iampushsource-setstreamoffset) 來提供每個來源篩選一個資料流程位移，該篩選會將它新增至它所產生的時間戳記。
 
-這個方法主要是供即時預覽之用。 不過，請注意，即時捕獲裝置上的預覽 pin (例如相機) 不會在其所提供的範例上設定時間戳記。 因此，若要將此方法與 live capture 裝置搭配使用，您必須從 capture pin 進行預覽。 如需詳細資訊，請參閱 [DirectShow 影片捕獲篩選](directshow-video-capture-filters.md)。
+這個方法主要是供即時預覽之用。 不過，請注意，即時捕獲裝置上的預覽 pin (例如相機) 不會在其所提供的範例上設定時間戳記。 因此，若要將此方法與 live capture 裝置搭配使用，您必須從 capture pin 進行預覽。 如需詳細資訊，請參閱[DirectShow 影片捕獲篩選器](directshow-video-capture-filters.md)。
 
 [VFW Capture](vfw-capture-filter.md)篩選器和 [音訊捕獲](audio-capture-filter.md)篩選器目前支援 [**IAMPushSource**](/windows/desktop/api/Strmif/nn-strmif-iampushsource)介面。
 

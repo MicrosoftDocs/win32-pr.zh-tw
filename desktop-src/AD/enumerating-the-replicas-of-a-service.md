@@ -5,12 +5,12 @@ ms.assetid: 9dc3f932-c3e1-4ce1-a945-12d68838304e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 995cd665476a55b6bf717f356fafa54b0d2e10e6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 8cce0b1a9da8eac974682514cd283f8e530388727a2b674765a39056e94a0c95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104507863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429251"
 ---
 # <a name="enumerating-the-replicas-of-a-service"></a>列舉服務的複本
 
@@ -181,6 +181,6 @@ return hr;
 
 
 
- 
+ 
 
- 
+ 

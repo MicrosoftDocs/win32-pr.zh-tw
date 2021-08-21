@@ -4,12 +4,12 @@ ms.assetid: 007b56d3-7f4b-457a-a858-bc8e96eb2d0d
 title: 基本 VSS 概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9af77c20365e25b2b633d14ae391ebd82830a631
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e2cb053634e0a7951501f392a108121d60e7ee832853c334f676753d9c51a0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118842754"
 ---
 # <a name="basic-vss-concepts"></a>基本 VSS 概念
 

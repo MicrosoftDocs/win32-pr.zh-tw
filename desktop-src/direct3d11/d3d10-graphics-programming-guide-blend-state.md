@@ -4,12 +4,12 @@ description: 在輸出值寫入轉譯目標之前，會對每個圖元著色器�
 ms.assetid: f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08acf1ea286b29a1cb96873bbfe170c6f38699f7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0de75e092a08a0dae83cd966cd986469cef9a6ea34e51c237800bf96b3a84232
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118808198"
 ---
 # <a name="configuring-blending-functionality"></a>設定混合功能
 
@@ -77,7 +77,7 @@ pd3dDevice->OMSetBlendState(g_pBlendStateNoBlend, blendFactor, sampleMask);
 > [!Note]  
 > 在取樣中，執行時間只會共用所有 **RenderTarget** 的一個涵蓋範圍。 執行時間讀取和轉換的事實。當 **AlphaToCoverageEnable** 為 TRUE 時，從輸出 [SV \_ 目標](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics)0 到涵蓋範圍的事實不會變更。如果 **RenderTarget** 發生在) 中，則會在 **RenderTarget** 0 時移至 blender 的值 (。 一般情況下，如果您啟用 Alpha 至涵蓋範圍，就不會影響圖元著色器的所有色彩輸出如何透過 [輸出合併階段](d3d10-graphics-programming-guide-output-merger-stage.md)與 **RenderTarget** 互動，不同之處在于執行時間會使用 Alpha 對涵蓋範圍遮罩來執行涵蓋範圍遮罩的 **和** 作業。 Alpha 到涵蓋範圍適用于執行時間是否可以 blend **RenderTarget** 或您是否在 **RenderTarget** 上使用 blend。
 
- 
+ 
 
 圖形硬體無法精確地指定其轉換圖元著色器 [SV \_ 目標](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics)0 的方式。 (Alpha) 至涵蓋範圍遮罩，但 0 (或較少的) 必須對應至不 (的涵蓋範圍，且小於 1) 或更高的必須對應到完整的涵蓋範圍， (在執行時間使用實際的基本涵蓋範圍) 來執行 **和** 作業之前，必須先 當 Alpha 從0變成1時，產生的涵蓋範圍通常會以單純的方式增加。 不過，硬體可能會執列區域遞色，以提供更好的 Alpha 值量化，代價是空間解析度和雜訊的成本。 NaN 的 Alpha 值 (不是數位) 會導致 (零) mask 沒有涵蓋範圍。
 
@@ -131,6 +131,6 @@ Blend 因數和著色器程式碼會一起表示需要圖元著色器，才可�
 [ (Direct3D 10) 的管線階段 ](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

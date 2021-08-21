@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102547
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 84237c616728c2413e6f0fa01cdf07f704e483fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c10b5aad869b8b7de4e26c841c997128880481add4558bf62034a138bd8d82ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104566960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118491676"
 ---
 # <a name="esentquerynotsupportedexception-properties"></a>EsentQueryNotSupportedException 屬性
 

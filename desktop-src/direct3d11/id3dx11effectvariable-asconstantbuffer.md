@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee4caca60216df0c04a773da22150dbc6f7be717
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b232a9eb98b4cb5bdd4137661198abb9b853faa126579bd86c69e8dce375a6f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531572"
 ---
 # <a name="id3dx11effectvariableasconstantbuffer-method"></a>ID3DX11EffectVariable：： AsConstantBuffer 方法
 

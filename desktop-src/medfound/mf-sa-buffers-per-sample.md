@@ -4,12 +4,12 @@ ms.assetid: A782BF8A-822A-407D-A30A-F2045BBB0BC0
 title: 'MF_SA_BUFFERS_PER_SAMPLE 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d658ae72c53d986b364b2b6a3f405ae0052ea3fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf6b54cc5b2589649c954d9f2f41923af04fdf4aa7c00714067bee0b11dabbee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740365"
 ---
 # <a name="mf_sa_buffers_per_sample-attribute"></a>\_ \_ 每個範例的 MF SA 緩衝區 \_ \_ 屬性
 
@@ -40,8 +40,8 @@ ms.locfileid: "103691264"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

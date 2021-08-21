@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0fc31954ff191f795146e3894b0394b29484fb1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e984eef21fa74aa3f3134f19c1d6e7503a24ec9fb67e0ef3bfb0daa6330cfcd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118353269"
 ---
 # <a name="imsrdpclientadvancedsettingsbitmapvirtualcache24bppsize-property"></a>IMsRdpClientAdvancedSettings：： BitmapVirtualCache24BppSize 屬性
 

@@ -54,7 +54,7 @@ HRESULT get_LogicalNetworkInterface(
 | 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>PlayToDevice。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>PlayToDevice .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>PlayToDevice .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |
 
 

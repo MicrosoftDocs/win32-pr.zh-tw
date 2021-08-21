@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 72f98021b6ba97d32974f26ac4e76ca31fa54e5c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df94a95783d15c09fd53bd8659db71f2ce0b1aefe5d855fef5f5a03e71445493
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158369"
 ---
 # <a name="cbasepinm_btrymytypesfirst-member"></a>CBasePin：： m \_ bTryMyTypesFirst 成員
 

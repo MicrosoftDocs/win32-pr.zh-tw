@@ -15,12 +15,12 @@ keywords:
 - 介面，ITransformProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eae752b34ed0b64fd2c0a7b476377fd1142f9b2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a5aceefa7d482cbbe6d9b1612c1fb9c65081796113e527d5122274ce5d8f8215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826834"
 ---
 # <a name="transform-control-pattern"></a>轉換控制項模式
 
@@ -60,7 +60,7 @@ ms.locfileid: "104508028"
 
 
 
- 
+ 
 
 執行 [**ITransformProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) 介面需要下列其他屬性和方法。
 
@@ -77,7 +77,7 @@ ms.locfileid: "104508028"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -94,6 +94,6 @@ ms.locfileid: "104508028"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

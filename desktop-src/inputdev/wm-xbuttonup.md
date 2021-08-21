@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 08/23/2019
-ms.openlocfilehash: 521faefb2e2a76e94a0517c28a5fa812ef34ef5c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55b26ae92889261e7a5fea3e57281d6407fc39fb03aad0124d00aa135f9ed438
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118757109"
 ---
 # <a name="wm_xbuttonup-message"></a>WM \_ XBUTTONUP 訊息
 
@@ -116,7 +116,7 @@ yPos = GET_Y_LPARAM(lParam);
 
  
 
-不同于 [**wm \_ LBUTTONUP**](wm-lbuttonup.md)、 [**wm \_ MBUTTONUP**](wm-mbuttonup.md)和 [**wm \_ RBUTTONUP**](wm-rbuttonup.md) 訊息，應用程式應該會在處理時從這個訊息傳回 **TRUE** 。 這麼做可讓在 Windows 2000 之前的 Windows 系統上模擬此訊息的軟體，判斷視窗程式是否已處理訊息或呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 來處理訊息。
+不同于 [**wm \_ LBUTTONUP**](wm-lbuttonup.md)、 [**wm \_ MBUTTONUP**](wm-mbuttonup.md)和 [**wm \_ RBUTTONUP**](wm-rbuttonup.md) 訊息，應用程式應該會在處理時從這個訊息傳回 **TRUE** 。 這樣做會允許在早于 Windows 2000 的 Windows 系統上模擬此訊息的軟體，以判斷視窗程式是否已處理訊息或呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)來處理訊息。
 
 ## <a name="requirements"></a>規格需求
 

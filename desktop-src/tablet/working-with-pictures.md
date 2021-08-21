@@ -1,19 +1,19 @@
 ---
-description: 本主題說明如何使用 SizeMode 屬性來調整圖片，以及如何在 Microsoft Visual Studio .NET 中顯示圖片。
+description: 本主題說明如何使用系統調整圖片。Windows。SizeMode 屬性，以及如何在 Microsoft Visual Studio .net 中顯示圖片。
 ms.assetid: 9f4f0f96-68a3-447d-a239-599c9fd3e343
 title: 使用圖片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af3a90c0d18253eaf4aea60eafc48bd1c24fcc3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad6e3331d384f30084082e8ef29c5a3a5b44232843bc834a8282bf1786a088d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449174"
 ---
 # <a name="working-with-pictures"></a>使用圖片
 
-本主題說明如何使用 [SizeMode](/dotnet/api/system.windows.forms.picturebox.sizemode?view=netcore-3.1) 屬性來調整圖片，以及如何在 Microsoft Visual Studio .net 中顯示圖片。
+本主題說明如何使用系統來調整圖片[Windows。SizeMode](/dotnet/api/system.windows.forms.picturebox.sizemode?view=netcore-3.1)屬性，以及如何在 Microsoft Visual Studio .net 中顯示圖片。
 
 ## <a name="the-sizemode-property"></a>SizeMode 屬性
 
@@ -24,9 +24,9 @@ ms.locfileid: "106971032"
 -   將影像置中在控制項框線內。
 -   將影像錨定至控制項的左上角，而不將影像或控制項調整 (如果您沒有調整影像或控制項) 的大小，則可能無法查看某些影像。
 
-## <a name="working-with-pictures-in-visual-studio-net"></a>在 Visual Studio .NET 中使用圖片
+## <a name="working-with-pictures-in-visual-studio-net"></a>在 Visual Studio .net 中使用圖片
 
-若要在設計階段于 Visual Studio .NET 中顯示影像：
+若要在設計階段顯示 Visual Studio .net 中的影像：
 
 1.  將 [InkPicture](/previous-versions/aa514604(v=msdn.10)) 控制項拖曳到表單上，或按兩下 [工具箱] 中的 [InkPicture] 控制項。
 2.  在 [ **屬性** ] 視窗中，選取 [ **影像** ] 屬性，然後按一下省略號按鈕以開啟 [ **開啟** ] 對話方塊。

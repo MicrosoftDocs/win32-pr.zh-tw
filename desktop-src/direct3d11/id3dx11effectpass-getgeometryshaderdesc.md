@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94c3b84ed9e8c245611c1442987b68a94e7b10ad
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7e93c9dfdc2525f2b730f88a9ffaeb5c68d4c9d8304410ddcf891f063cf20729
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535034"
 ---
 # <a name="id3dx11effectpassgetgeometryshaderdesc-method"></a>ID3DX11EffectPass：： GetGeometryShaderDesc 方法
 

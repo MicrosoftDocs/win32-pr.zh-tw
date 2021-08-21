@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b7f097fb950b60aaa9c7fa2d5b763b393d5e275
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0e66bb99f170e6b638587d7da5a8d3cc57a34d3cab6bb04968b049d39dcb09c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118533294"
 ---
 # <a name="id3dx11effectshadervariablegetdomainshader-method"></a>ID3DX11EffectShaderVariable：： GetDomainShader 方法
 

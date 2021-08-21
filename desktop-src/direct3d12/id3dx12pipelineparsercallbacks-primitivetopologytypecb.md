@@ -17,12 +17,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b01a2d73edd6ac94719905757d75a756c905c832
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9e67f7d3c6805c411222e6e4202e21d2f31ced78211fb364829e7ace2dac2ea1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118807228"
 ---
 # <a name="id3dx12pipelineparsercallbacksprimitivetopologytypecb-method"></a>ID3DX12PipelineParserCallbacks：:P rimitiveTopologyTypeCb 方法
 

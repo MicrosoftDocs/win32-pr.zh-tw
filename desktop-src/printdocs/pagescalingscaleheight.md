@@ -4,12 +4,12 @@ ms.assetid: ccc2ad1c-b0c2-4c45-bc95-7c15426c2534
 title: PageScalingScaleHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d51bdb5577b5e3863cfadab1fa9eb74ff40d54da
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 620f491a1bde41149dc8db4a63e41cc77ec1ba27e514a75d3c245e82d34c9879
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113548836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731966"
 ---
 # <a name="pagescalingscaleheight"></a>PageScalingScaleHeight
 
@@ -24,7 +24,7 @@ ms.locfileid: "113548836"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|---------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                 |
 | 範圍前置詞 <br/> | 頁面<br/>                                         |

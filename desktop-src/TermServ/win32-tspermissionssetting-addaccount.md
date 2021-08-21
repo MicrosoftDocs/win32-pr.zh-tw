@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de89c34bd7aab20fbfbcbdedfd9d2f91bba866bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c3bd1862dfde955d782527ca60fc0fb43ca31431ccb307574e875fe84a640655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118348553"
 ---
 # <a name="addaccount-method-of-the-win32_tspermissionssetting-class"></a>Win32 TSPermissionsSetting 類別的 AddAccount 方法 \_
 
@@ -76,7 +76,7 @@ uint32 AddAccount(
 
 </dt> <dd>
 
-帳戶具有下列許可權： Logon、Query Information、Send Message 和 Connect。
+帳戶具有下列許可權：登入、查詢資訊、傳送訊息，以及連線。
 
 </dd> <dt>
 

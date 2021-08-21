@@ -4,12 +4,12 @@ description: 頂點著色器 (與) 階段會處理來自輸入組合語言的頂
 ms.assetid: C6A39F48-A243-4049-8AED-0B521BEDFA76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b19a291b4abed572da54f9a2616ce19e926e1c6f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3815f4c26c97e68ac0b4b20b72849052710f2f6adc0722bb3e42f5c8bf7a1c89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530406"
 ---
 # <a name="vertex-shader-stage"></a>頂點著色器階段
 
@@ -35,6 +35,6 @@ ms.locfileid: "104023504"
 [ (Direct3D 10) 的管線階段 ](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

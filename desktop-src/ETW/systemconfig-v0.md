@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 24f0c579f4fb9c947ea02ff677cd433da3103cfc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6986e5ac907784a19c14fb8dc6b9c086031863f322c3c35a58edcf3fd4089ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151218"
 ---
 # <a name="systemconfig_v0-class"></a>SystemConfig \_ V0 類別
 
@@ -40,7 +40,7 @@ class SystemConfig_V0 : MSNT_SystemTrace
 
 ## <a name="remarks"></a>備註
 
-如需 Windows XP 上的硬體設定事件，請參閱 [**HWConfig**](hwconfig.md) 類別。
+如需 Windows XP 上的硬體設定事件，請參閱 [**HWConfig**](hwconfig.md)類別。
 
 ## <a name="requirements"></a>規格需求
 
@@ -49,7 +49,7 @@ class SystemConfig_V0 : MSNT_SystemTrace
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

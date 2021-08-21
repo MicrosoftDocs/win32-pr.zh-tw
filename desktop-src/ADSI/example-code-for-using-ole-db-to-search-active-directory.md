@@ -9,25 +9,25 @@ keywords:
 - 查詢 ADSI、搜尋 OLE DB、使用 OLE DB 的範例程式碼來存取 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb98e84035cdfef3c95d47919354622df3808b86
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5d55e115978025a95cc4c48f99f9ab05061c3cf384860eeb25b96f793d664605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106966070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428441"
 ---
 # <a name="example-code-for-using-ole-db-to-search-active-directory"></a>使用 OLE DB 來搜尋 Active Directory 的範例程式碼
 
 下列程式碼範例示範如何使用 c + +、COM 和 OLE DB 來搜尋 Active Directory。 這是函式的範例，此函式會採用要搜尋之容器的辨別名稱，以及用於搜尋的認證。 此範例會在指定的容器下執行子樹搜尋，以尋找所有具有「使用者」 **objectClass** 的物件。 此範例會將每個使用者的 **名稱** 和 **ADsPath** 屬性列印到主控台視窗。
 
-有兩個查詢方言可搭配 ADSI OLE DB provider、LDAP 和 SQL 使用。 此方言是在 [ICommandText：： SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85)) 方法中指定，並具有下列其中一個 guid：
+有兩個可搭配 ADSI OLE DB provider、LDAP 和 SQL 使用的查詢方言。 此方言是在 [ICommandText：： SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85)) 方法中指定，並具有下列其中一個 guid：
 
--   **Dbguid-sql \_** Sql 方言的 sql。
+-   SQL 方言的 **dbguid-sql \_ SQL** 。
 -   **Dbguid-sql \_** 適用于 LDAP 方言的 LDAPDialect。
 
 此範例使用 LDAP 方言。
 
-[ICommandText：： SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85))方法也可以接受方言的 **dbguid-sql \_ 預設** GUID。 在此情況下，ADSI 會先嘗試使用 SQL 方言;如果失敗，ADSI 將會嘗試使用 LDAP 方言。 如需詳細資訊，請參閱 [LDAP 方言](ldap-dialect.md) 和 [SQL 方言](sql-dialect.md)。
+[ICommandText：： SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85))方法也可以接受方言的 **dbguid-sql \_ 預設** GUID。 在此情況下，ADSI 將嘗試先使用 SQL 方言;如果失敗，ADSI 將會嘗試使用 LDAP 方言。 如需詳細資訊，請參閱[LDAP 方言](ldap-dialect.md)和[SQL 方言](sql-dialect.md)。
 
 如需 OLE DB 的詳細資訊，請參閱 OLE DB 程式設計人員手冊。
 
