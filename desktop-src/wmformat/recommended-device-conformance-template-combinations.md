@@ -3,21 +3,21 @@ title: 建議的裝置一致性範本組合
 description: 建議的裝置一致性範本組合
 ms.assetid: 044f3b4c-fa81-4dac-bdde-13c47be814c6
 keywords:
-- Windows Media Format SDK，裝置一致性範本
+- Windows媒體格式 SDK，裝置一致性範本
 - Advanced Systems Format (ASF) 、裝置一致性範本
 - ASF (Advanced Systems Format) 、裝置一致性範本
-- Windows Media Format SDK，建議的裝置一致性範本組合
+- Windows媒體格式 SDK，建議的裝置一致性範本組合
 - Advanced Systems Format (ASF) ，建議的裝置一致性範本組合
 - ASF (Advanced Systems Format) ，建議的裝置一致性範本組合
 - 裝置一致性範本，建議的組合
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98da6ddfba65800c5ca1b672e404843995781d07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5f59606df5328fc7ca791196868fb9143e6d13bdc7a069b39947bed0c8404249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027326"
 ---
 # <a name="recommended-device-conformance-template-combinations"></a>建議的裝置一致性範本組合
 
@@ -25,7 +25,7 @@ ms.locfileid: "103932549"
 
 
 
-| Windows Media 視訊9編解碼器 | Windows Media 音訊9編解碼器 | Windows Media 音訊9語音編解碼器 | Windows Media 音訊 9 Professional 編解碼器 |
+| Windows媒體 Video 9 編解碼器 | WindowsMedia Audio 9 編解碼器 | WindowsMedia Audio 9 語音編解碼器 | WindowsMedia Audio 9 Professional 編解碼器 |
 |-----------------------------|-----------------------------|-----------------------------------|------------------------------------------|
 | SP@LL                       | L2                          | S2                                | \-                                       |
 | SP@ML                       | L2                          | S2                                | \-                                       |
@@ -35,7 +35,7 @@ ms.locfileid: "103932549"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -50,9 +50,9 @@ ms.locfileid: "103932549"
 [**影片裝置一致性範本**](video-device-conformance-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

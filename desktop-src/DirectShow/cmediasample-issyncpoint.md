@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b8cc93c03ce3b864e1c1b0a5794d711b1b0c3d68
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 00d238bb9289ba71237bfdf8e72acde384430f72470f16211093cb2ece8d68f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074002"
 ---
 # <a name="cmediasampleissyncpoint-method"></a>CMediaSample. IsSyncPoint 方法
 

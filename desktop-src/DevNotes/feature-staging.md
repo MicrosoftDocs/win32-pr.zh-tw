@@ -4,12 +4,12 @@ ms.assetid: 9F16C420-BF94-4C92-BC7E-15DD516E5107
 title: 功能暫存
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5adcb8f20a1bba411effa9a050a4fd429e3b752a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aba8f0cbeb3aa4041f9360be39977035a28041ec433ebb60ae1da83c0a35c8fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076162"
 ---
 # <a name="feature-staging"></a>功能暫存
 

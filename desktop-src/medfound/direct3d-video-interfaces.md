@@ -4,12 +4,12 @@ ms.assetid: adddf378-f71c-4f81-bcf1-5d729a03eb58
 title: Direct3D 9 Video 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8b8dc926e1dd77de6ff56a72fecef4a43f77c98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f14eaaa67e326acd4010717ed51d3a7fadc5d8f830ebb66a9e1568756eb8da7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974617"
 ---
 # <a name="direct3d-9-video-interfaces"></a>Direct3D 9 Video 介面
 

@@ -4,12 +4,12 @@ ms.assetid: 9dcfccd2-a709-4b4e-bbb3-4c68a15cce03
 title: RenderExclusiveTimerDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb6145f65de3de9425f7ba2f023a669ec0b57a3c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6876c448aa7737683aff4e495416020af7def54cb01109c3d6ad2d1c26d20780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077442"
 ---
 # <a name="renderexclusivetimerdriven"></a>RenderExclusiveTimerDriven
 
@@ -24,7 +24,7 @@ ms.locfileid: "104468328"
 -   [查看範例檔案](#view-the-sample-files)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 這個範例會示範下列功能。
 
@@ -50,7 +50,7 @@ ms.locfileid: "104468328"
 
 
 
-| Location    | 路徑/URL                                                                                                    |
+| 位置    | 路徑/URL                                                                                                    |
 |-------------|-------------------------------------------------------------------------------------------------------------|
 | Windows SDK | \\Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ 多媒體 \\ 音訊 \\ RenderExclusiveTimerDriven \\ .。。 |
 
@@ -64,7 +64,7 @@ ms.locfileid: "104468328"
 
 1.  開啟 Windows SDK 的 CMD shell，並變更為 RenderExclusiveTimerDriven 範例目錄。
 2.  在 RenderExclusiveTimerDriven 目錄中執行命令 `start WASAPIRenderExclusiveTimerDriven.sln` ，以在 Visual Studio 視窗中開啟 WASAPIRenderExclusiveTimerDriven 專案。
-3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 SDK 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 SDK 組建環境。 在此情況下，除非您明確設定在專案檔 WASAPIRenderExclusiveTimerDriven 中使用的環境變數 MSSdk，否則此範例不會建立。
+3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 sdk 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 sdk 組建環境。 在此情況下，除非您明確設定在專案檔 WASAPIRenderExclusiveTimerDriven 中使用的環境變數 MSSdk，否則此範例不會建立。
 
 ## <a name="view-the-sample-files"></a>查看範例檔案
 

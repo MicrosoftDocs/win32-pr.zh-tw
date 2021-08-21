@@ -4,12 +4,12 @@ ms.assetid: 686fb391-d337-41b4-bb51-b70f27a0c300
 title: COM + 安全性概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ca5126f4b715f84c2b8801c8ec1adc29b3cbb83
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b93ac113cf4ff2b1c679936fd610c2d44f29689ff175930c6a67274002457d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047526"
 ---
 # <a name="com-security-concepts"></a>COM + 安全性概念
 
@@ -42,7 +42,7 @@ COM + 提供數種安全性功能，可用來協助保護您的 COM + 應用程�
 
 ## <a name="client-authentication"></a>用戶端驗證
 
-在授權用戶端能夠存取資源之前，您必須先確信它們是誰。 為了啟用此身分識別驗證，COM + 會提供驗證服務。 雖然這些服務實際上是由 COM 和 Microsoft Windows 提供更基本的層級，但 COM + 應用程式可讓您以系統管理的方式開啟驗證服務，使其在應用程式的透明範圍中運作。 如需驗證服務的描述，請參閱 [用戶端驗證](client-authentication.md)。
+在授權用戶端能夠存取資源之前，您必須先確信它們是誰。 為了啟用此身分識別驗證，COM + 會提供驗證服務。 雖然這些服務實際上是由 COM 和 Microsoft Windows 更基本的層級提供，但是 com + 應用程式可讓您以系統管理員的身份，直接開啟驗證服務，使其在應用程式的透明範圍中運作。 如需驗證服務的描述，請參閱 [用戶端驗證](client-authentication.md)。
 
 ## <a name="client-impersonation-and-delegation"></a>用戶端模擬和委派
 

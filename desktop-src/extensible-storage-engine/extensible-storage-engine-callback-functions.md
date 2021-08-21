@@ -1,6 +1,6 @@
 ---
-description: 深入瞭解：可擴充儲存引擎回呼函式
-title: 可擴充儲存引擎回呼函式
+description: 深入瞭解：可擴充的儲存體引擎回呼函式
+title: 可擴充的儲存體引擎回呼函數
 TOCTitle: Extensible Storage Engine Callback Functions
 ms:assetid: ebac3637-3786-429e-96a4-9c61fdfebc59
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294129(v=EXCHG.10)
@@ -15,21 +15,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 16ab5cd8640eaf4d8eca43306131c8e3ba2f95b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1ec6d8cf20be3897a7bf4cf459bc525d902684b204e7b1e9e5f7c7bc4017da0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980798"
 ---
-# <a name="extensible-storage-engine-callback-functions"></a>可擴充儲存引擎回呼函式
+# <a name="extensible-storage-engine-callback-functions"></a>可擴充的儲存體引擎回呼函數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
-## <a name="extensible-storage-engine-callback-functions"></a>可擴充儲存引擎回呼函式
+## <a name="extensible-storage-engine-callback-functions"></a>可擴充的儲存體引擎回呼函數
 
-您可以使用下列回呼函式來擴充可延伸的儲存引擎 API：
+您可以使用下列回呼函式來擴充可擴充的儲存體引擎 API：
 
   - [JET_CALLBACK](./jet-callback-callback-function.md)
 

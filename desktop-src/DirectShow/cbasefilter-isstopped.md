@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 681ceb0a8dcc6b82a2bd6845119e2ca7fe0128eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8e7b2e5e74eafe118c6e1297320d33b222083c0b132311a8c99ec6a40d6d4531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017176"
 ---
 # <a name="cbasefilterisstopped-method"></a>CBaseFilter. IsStopped 方法
 

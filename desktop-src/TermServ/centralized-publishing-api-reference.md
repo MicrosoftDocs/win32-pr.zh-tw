@@ -7,12 +7,12 @@ keywords:
 - 遠端桌面服務遠端桌面服務 RemoteApp 和桌面連線管理服務 API 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c738c8938f8fc3aa82e43f1cfa15f6052ada73c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 641279b03d1dfd97084d4552b614fced11180d6a8c946a4ee68b43a3baaa2c53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001596"
 ---
 # <a name="remoteapp-and-desktop-connection-management-service-api-reference"></a>RemoteApp 和桌面連線管理服務 API 參考
 
@@ -24,9 +24,9 @@ RemoteApp 和桌面連線管理服務 API 支援介面和結構，可提供可�
 -   [RemoteApp 和桌面連線管理服務結構](remoteapp-and-desktop-connection-management-service-structures.md)
 -   [RemoteApp 和桌面連線管理服務列舉](remoteapp-and-desktop-connection-management-service-enumerations.md)
 
- 
+ 
 
- 
+ 
 
 
 

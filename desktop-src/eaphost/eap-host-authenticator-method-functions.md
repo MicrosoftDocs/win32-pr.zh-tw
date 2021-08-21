@@ -1,19 +1,19 @@
 ---
-title: EAPHost 驗證器方法函數
-description: 瞭解 EAPHost 驗證器方法 API 函數，例如 EapMethodAuthenticatorFreeErrorMemory。
+title: EAPHost Authenticator 方法函數
+description: 瞭解 EAPHost Authenticator 方法 API 函式，例如 EapMethodAuthenticatorFreeErrorMemory。
 ms.assetid: 319516ee-b21d-4375-8c90-e3abe0a457e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93fac5114085fe6c620084d564bbff97cc3b4535
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 1f3cc21d636c2a1b107897c3b000fca3f279288e13c14d1219f5b13515c2e8a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106976343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984268"
 ---
-# <a name="eaphost-authenticator-method-functions"></a>EAPHost 驗證器方法函數
+# <a name="eaphost-authenticator-method-functions"></a>EAPHost Authenticator 方法函數
 
-EAPHost 驗證器方法 API 函數如下所示。
+EAPHost Authenticator 方法 API 函數如下所示。
 
 
 
@@ -35,11 +35,11 @@ EAPHost 驗證器方法 API 函數如下所示。
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

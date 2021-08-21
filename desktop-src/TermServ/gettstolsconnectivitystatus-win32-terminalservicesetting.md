@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fb73cd62c5ab5c343f44f24bbbd8de7f6343a21
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff79de8bc1740e659b8f0398c0fa84958c1bfcffda505f1a26322da442dcc19b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059566"
 ---
 # <a name="gettstolsconnectivitystatus-method-of-the-win32_terminalservicesetting-class"></a>Win32 TerminalServiceSetting 類別的 GetTStoLSConnectivityStatus 方法 \_
 
@@ -76,7 +76,7 @@ uint32 GetTStoLSConnectivityStatus(
 
 </dt> <dd>
 
-遠端桌面服務可以連接至 Windows Server 2008 R2 授權伺服器。
+遠端桌面服務可以連接到 Windows Server 2008 R2 授權伺服器。
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ uint32 GetTStoLSConnectivityStatus(
 
 </dt> <dd>
 
-遠端桌面服務可以連接至 Windows Server 2008 授權伺服器。
+遠端桌面服務可以連接到 Windows Server 2008 授權伺服器。
 
 </dd> <dt>
 
@@ -164,9 +164,9 @@ uint32 GetTStoLSConnectivityStatus(
 
 </dt> <dd>
 
-遠端桌面服務可以 (VDI) Server 連線至 Windows Server 2008 R2 虛擬桌面基礎結構。
+遠端桌面服務可以連接到 Windows server 2008 R2 虛擬桌面基礎結構 (VDI) 伺服器。
 
-**Windows Server 2008 R2：** Windows Server 2012 之前不支援這個值。
+**Windows Server 2008 R2：** Windows Server 2012 之前，不支援這個值。
 
 </dd> <dt>
 
@@ -179,7 +179,7 @@ uint32 GetTStoLSConnectivityStatus(
 
 這項功能不受支援。
 
-**Windows server 2008 r2 和 Windows server 2008 R2 SP1：** Windows Server 2012 之前不支援這個值。
+**Windows server 2008 r2 和 Windows server 2008 r2 SP1：** Windows Server 2012 之前，不支援這個值。
 
 </dd> <dt>
 
@@ -192,7 +192,7 @@ uint32 GetTStoLSConnectivityStatus(
 
 授權伺服器有效。
 
-**Windows server 2008 r2 和 Windows server 2008 R2 SP1：** Windows Server 2012 之前不支援這個值。
+**Windows server 2008 r2 和 Windows server 2008 r2 SP1：** Windows Server 2012 之前，不支援這個值。
 
 </dd> </dl> </dd> </dl>
 

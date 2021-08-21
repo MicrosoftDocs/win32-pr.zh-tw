@@ -4,12 +4,12 @@ description: 本節提供有關 XAudio2 的重要主題清單。
 ms.assetid: e9a1a384-39e3-c87a-d718-a6a4ea6785ec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 926d2b55c892f10f4fd95f2f7339553ce2ecfc4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c59588a3078832b88ac7ba876142274d22d81dd1b4e1804157466811fa83dfb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025976"
 ---
 # <a name="getting-started-with-xaudio2"></a>開始使用 XAudio2
 

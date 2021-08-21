@@ -4,12 +4,12 @@ ms.assetid: f99a572e-110d-4971-a660-e861dbe32cfe
 title: 視窗通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faede9cee74618aa29a65da601c00296fed06425
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2070211ce03418670baeb9a293354f0440b22c9e977c096e3fdf6ae83c6cb88e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028196"
 ---
 # <a name="window-notifications"></a>視窗通知
 

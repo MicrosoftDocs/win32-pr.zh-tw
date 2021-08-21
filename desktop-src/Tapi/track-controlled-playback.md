@@ -4,12 +4,12 @@ ms.assetid: 9069fb32-3978-491b-bb22-f6e736af23d7
 title: Track-Controlled 播放
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc657f0d301097edd280c358a34daafa83ef356
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc26cd1448c712b99a0e61bf94520531c1c592a289d273257c8bc907b266eea3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002616"
 ---
 # <a name="track-controlled-playback"></a>Track-Controlled 播放
 

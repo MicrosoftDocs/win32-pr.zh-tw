@@ -11,12 +11,12 @@ api_name:
 - AuthProtocol
 api_type:
 - Schema
-ms.openlocfilehash: 8626d17a234784491c5f186f800943a6ab208bf0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65b944b2966c9b5cac307f6f8efe6af2f42a1ffa5b4f2f400074caa0efe9f84e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975257"
 ---
 # <a name="authprotocol-contexttype-element"></a>AuthProtocol (coNtextType) 元素
 

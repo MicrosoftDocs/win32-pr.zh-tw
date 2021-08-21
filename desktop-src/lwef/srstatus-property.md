@@ -4,16 +4,16 @@ description: SRStatus 屬性
 ms.assetid: 67618a35-05e4-4bb3-b910-c75de6e32578
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a64cb6ba16bc024a52b65efa98c22fd089ad79da
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d7cc079c79b3539fa5ad90da4f45907236f19d3b841cf580142446b230ff7c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975678"
 ---
 # <a name="srstatus-property"></a>SRStatus 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104022116"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理。***字元 (*** 」CharacterID * * * ) 。SRStatus**
+*agent. ***字元 ( "**_CharacterID_*_" ) 。SRStatus_*
 
 
 
@@ -43,7 +43,7 @@ ms.locfileid: "104022116"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -60,9 +60,9 @@ ms.locfileid: "104022116"
 [**接聽方法**](listen-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

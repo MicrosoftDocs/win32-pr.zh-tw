@@ -3,7 +3,7 @@ title: 應用程式. 命令屬性
 description: 表示應用程式所定義之所有命令的容器。
 ms.assetid: 160d7d28-2d64-4cbc-b2b9-2da6b2f5b3c8
 keywords:
-- 應用程式命令屬性視窗功能區
+- 應用程式命令屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8de2b88b97dda96636a9c5da3ad078f678091d8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c23d7b30b45a6023c547904adbcaaacb13b8777f9047133cd8d617a1a58c32d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964317"
 ---
 # <a name="applicationcommands-property"></a>應用程式. 命令屬性
 
@@ -151,8 +151,8 @@ ms.locfileid: "104465276"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

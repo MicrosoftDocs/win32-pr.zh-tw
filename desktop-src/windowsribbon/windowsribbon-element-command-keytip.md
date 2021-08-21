@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ab16b9b8e52094d6cdc85890dfc1cf8af63942c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d70edeae49a2acbd561bd4d56e32028852993cc524a0df3882e7e0b8a8da18b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964239"
 ---
 # <a name="commandkeytip-property"></a>命令提示屬性
 
@@ -65,7 +65,7 @@ ms.locfileid: "106966141"
 
 **命令。** 只有在與索引卷 [標或](windowsribbon-controls-tab.md)[快速存取工具列](windowsribbon-controls-quickaccesstoolbar.md)內的控制項相關聯時，快速鍵才能以數位開頭。
 
-若要顯示對功能區的目前狀態有效的按鍵提示，請按下 ALT 鍵。 下列螢幕擷取畫面顯示在 Windows 7 的 Microsoft 小畫家中顯示的初始或第一個層級按鍵提示。 選取第一個層首鍵提示之後，只會顯示第二層的快速鍵提示。
+若要顯示對功能區的目前狀態有效的按鍵提示，請按下 ALT 鍵。 下列螢幕擷取畫面顯示 Windows 7 的 Microsoft 小畫家中顯示的初始或第一個層級按鍵提示。 選取第一個層首鍵提示之後，只會顯示第二層的快速鍵提示。
 
 ![microsoft 油漆中適用于 windows 7 的第一層快速鍵提示](images/properties/ui-pkey-label-keytips.png)
 
@@ -134,8 +134,8 @@ ms.locfileid: "106966141"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

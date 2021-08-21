@@ -4,18 +4,18 @@ ms.assetid: 3f2aa9bd-49ca-4fa6-b718-7cbeeef857c7
 title: 近端分享存放區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d18bf60e43aba278862fbd19f3c8909e344bc67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 945a49d174f53037427aaa2f45dc0f567dc0acdba57e4a0b0231954e7e66fe90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061376"
 ---
 # <a name="people-near-me-stores"></a>近端分享存放區
 
 能夠 [近端分享](about-people-near-me.md) (PNM) 的應用程式可以使用下列資料存放區：
 
-### <a name="windows-address-book"></a>Windows 通訊錄
+### <a name="windows-address-book"></a>Windows通訊錄
 
 Windows 通訊錄會儲存連絡人及其數位憑證的相關資訊。 代表目前登入使用者的 '**Me**' 連絡人也儲存在 Windows 通訊錄中。
 

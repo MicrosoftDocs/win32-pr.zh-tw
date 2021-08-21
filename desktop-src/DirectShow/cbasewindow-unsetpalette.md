@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c0ff691d8c8f9f95f88f319bf966e6f33c8985d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca03eb679eb4a7a849977b6cff0a6ca15e7ed0bcfad23345a7a7a2c56263be9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074492"
 ---
 # <a name="cbasewindowunsetpalette-method"></a>CBaseWindow. UnsetPalette 方法
 

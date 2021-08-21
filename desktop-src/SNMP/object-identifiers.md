@@ -4,12 +4,12 @@ description: SNMP 物件識別碼可唯一命名物件，並在管理資訊基�
 ms.assetid: b4552185-ef37-4e04-9b19-a226165e0b32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ed1f54f67b85000e508dddb42b9c784628a53ab
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1b81d52e43cb3be89551dd597bc5084d533f3913264f8bcf5c0a2ef7dbb375bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009256"
 ---
 # <a name="object-identifiers-snmp"></a> (SNMP) 的物件識別碼
 

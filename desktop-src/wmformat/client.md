@@ -1,10 +1,10 @@
 ---
-title: '用戶端記錄 (Windows Media Format 11 SDK) '
-description: 瞭解 Windows Media Format 11 SDK 的用戶端記錄。 記錄提供了一種方式，讓媒體伺服器追蹤連接到它的用戶端活動。
+title: '用戶端記錄 (Windows 媒體格式 11 SDK) '
+description: 瞭解 Windows 媒體格式 11 SDK 的用戶端記錄。 記錄提供了一種方式，讓媒體伺服器追蹤連接到它的用戶端活動。
 ms.assetid: 3e0d0fea-4370-41f8-b461-73a37de8d8bc
 keywords:
-- Windows Media Format SDK，用戶端記錄
-- Windows Media Format SDK，記錄
+- Windows媒體格式 SDK，用戶端記錄
+- Windows媒體格式 SDK，記錄
 - Advanced Systems Format (ASF) 、用戶端記錄
 - ASF (Advanced Systems Format) ，用戶端記錄
 - Advanced Systems Format (ASF) ，記錄
@@ -13,14 +13,14 @@ keywords:
 - 記錄用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 095e01fcf0730fdec8d06a931a9a988ca79ea77f
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 460058d6ad4009fab301c6ce322df3144bdd0e5d9bb4732d54126f7675cd9e2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028026"
 ---
-# <a name="client-logging-windows-media-format-11-sdk"></a>用戶端記錄 (Windows Media Format 11 SDK) 
+# <a name="client-logging-windows-media-format-11-sdk"></a>用戶端記錄 (Windows 媒體格式 11 SDK) 
 
 當讀取器物件從伺服器讀取資料時，它會將記錄資訊傳送至伺服器。 內容提供者通常會使用這項資訊來測量服務品質、產生帳單資訊或追蹤廣告。 記錄資訊不包含任何個人資料。
 

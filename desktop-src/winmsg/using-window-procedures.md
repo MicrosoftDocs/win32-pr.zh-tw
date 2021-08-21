@@ -4,12 +4,12 @@ ms.assetid: acc68991-4689-44dc-8547-a7b6153b0f62
 title: 使用視窗程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e0508119a2ba62c813c32e8fd0c00bd3dd1e85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f05e5999b216ad8c51be4de6fdec80b5f58ff94956f8c1129d74c3f7075a90eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028296"
 ---
 # <a name="using-window-procedures"></a>使用視窗程式
 
@@ -118,7 +118,7 @@ int APIENTRY WinMain(
 若要子類別化視窗的實例，請呼叫 [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga) 函式，並指定視窗的控制碼，以將 GWL \_ WNDPROC 旗標和子類別程式的指標子類別化。 **SetWindowLong** 會傳回原始視窗程式的指標;使用這個指標可將訊息傳遞至原始程式。 子類別視窗程式必須使用 [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca) 函數來呼叫原始視窗程式。
 
 > [!Note]  
-> 若要撰寫與32位和64位版本的 Windows 相容的程式碼，請使用 [**SetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra) 函數。
+> 若要撰寫與32位和64位版本的 Windows 相容的程式碼，請使用 [**SetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra)函數。
 
  
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 10afaf647862010fc8317c70fd5322b2b616e95d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5cbe78847c99c82f72777731c5f2d5b673ba339e5c883bfafe623a0699a8bce2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016556"
 ---
 # <a name="cbasewindowm_classstyles-member"></a>CBaseWindow：： m \_ ClassStyles 成員
 

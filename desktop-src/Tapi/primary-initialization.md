@@ -4,12 +4,12 @@ ms.assetid: 10df0fb4-08d6-4ba0-85f7-108cc4e237c1
 title: 主要初始化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bcf37eecdee18861732dd27a4b134face9a17d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae187692f1eb64546398a273bc823ab93f622b6a0472848c31f9d94b9ecd7e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060586"
 ---
 # <a name="primary-initialization"></a>主要初始化
 

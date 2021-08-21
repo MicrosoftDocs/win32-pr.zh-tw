@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f07bc10c67d01f957e588d1b50085e57b0fa10b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 14a177d191d3303cf44778713ebdef88db955d28ede58691bda1e9ad05aa51a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001038"
 ---
 # <a name="imsrdpclienttransportsettingsgatewayusagemethod-property"></a>IMsRdpClientTransportSettings：： GatewayUsageMethod 屬性
 

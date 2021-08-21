@@ -1,23 +1,23 @@
 ---
-title: Windows Defender 結構
+title: Windows Defender結構
 description: 應用程式在呼叫以要求掃描、簽章更新或 Windows Defender 的資訊時，所使用的結構。
 ms.assetid: EF4116D3-DA50-4078-A024-2D624945D8C1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81d690de552137ce267b9d1d7a9cec711b161528
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa735805fd5f9b7f85e61bff748ee2714d915ab1ddf7f94eabb9fff316aba710
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975378"
 ---
-# <a name="windows-defender-structures"></a>Windows Defender 結構
+# <a name="windows-defender-structures"></a>Windows Defender結構
 
 應用程式在呼叫以要求掃描、簽章更新或 Windows Defender 的資訊時，所使用的結構。
 
 
 
-| 結構                                                      | Description                                                                             |
+| 結構                                                      | 描述                                                                             |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | [**MPCALLBACK \_ 資料**](mpcallback-data.md)                    | 傳遞至回呼函數的資料。<br/>                                        |
 | [**MPCLEAN \_ 資料**](mpclean-data.md)                          | 傳遞給清除回呼函數的通知資料。<br/>                         |

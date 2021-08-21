@@ -3,13 +3,13 @@ title: 執行 DRM 的個人化
 description: 執行 DRM 的個人化
 ms.assetid: daad1a31-f0a7-43ab-b920-94b9f050a44e
 keywords:
-- Windows Media Format SDK，DRM 用戶端擴充 Api
-- Windows Media Format SDK，用戶端擴充 Api
-- Windows Media Format SDK，擴充的 Api
-- Windows Media Format SDK，Api
-- 'Windows Media 格式 SDK、數位版權管理 (DRM) '
-- Windows Media Format SDK，DRM 的個人化
-- Windows Media Format SDK，個人化
+- Windows媒體格式 SDK，DRM 用戶端擴充 Api
+- Windows媒體格式 SDK，用戶端擴充 Api
+- Windows媒體格式 SDK，擴充的 Api
+- Windows媒體格式 SDK，Api
+- 'Windows媒體格式 SDK、數位版權管理 (DRM) '
+- Windows媒體格式 SDK，DRM 的個人化
+- Windows媒體格式 SDK，個人化
 - 數位版權管理 (DRM) 、用戶端擴充 Api
 - DRM (數位版權管理) 、用戶端擴充 Api
 - 數位版權管理 (DRM) 、擴充的 Api
@@ -24,16 +24,16 @@ keywords:
 - 用戶端擴充 Api，個人化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d8f7f04add4ed626985651d5220e69ea713e4d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72c46d2cd6fccd2c6c1a8898a2d0215b6bc62a3655b12412192d1809021747ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027386"
 ---
 # <a name="performing-drm-individualization"></a>執行 DRM 的個人化
 
-「個人化」是在用戶端電腦上更新 DRM 元件、將其加密以及使其成為唯一的程式。 當電腦是個人化的時，DRM 元件會系結至電腦，而且無法在任何其他電腦上將內容解碼。 Windows Media DRM 用戶端擴充 Api 提供在用戶端電腦上 individualizing DRM 元件的支援。
+「個人化」是在用戶端電腦上更新 DRM 元件、將其加密以及使其成為唯一的程式。 當電腦是個人化的時，DRM 元件會系結至電腦，而且無法在任何其他電腦上將內容解碼。 Windows 媒體 DRM 用戶端擴充 api 提供在用戶端電腦上 individualizing DRM 元件的支援。
 
 藉由呼叫 [**IWMDRMSecurity：:P erformsecurityupdate**](iwmdrmsecurity-performsecurityupdate.md) 方法來執行個人化。 您可以呼叫 **PerformSecurityUpdate** ，只有當伺服器上的版本比用戶端電腦上安裝的版本還要新時，才會賦予，或者，您可以在不考慮相對安全性版本的情況下強制執行個人化。 視需要的個人化旗標是 WMDRM \_ 安全性 \_ 執行 \_ INDIV。 強制執行的個人化旗標為 WMDRM \_ 安全性 \_ 執行 \_ 強制 \_ INDIV。
 
@@ -58,12 +58,12 @@ ms.locfileid: "104301735"
 [**使用媒體基礎事件模型**](using-the-media-foundation-model.md)
 </dt> <dt>
 
-[Windows Media DRM 的個人化最佳作法](/previous-versions/ms867216(v=msdn.10))
+[Windows媒體 DRM 的個人化最佳作法](/previous-versions/ms867216(v=msdn.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

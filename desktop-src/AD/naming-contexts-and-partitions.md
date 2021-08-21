@@ -9,12 +9,12 @@ keywords:
 - 目錄分割廣告，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39934f0236e927bff281230c41a303f5e6d2bb0f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: d309b76b50270f093b3a4930680b343d517976e269e731082696b89bf6a58c46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025706"
 ---
 # <a name="naming-contexts-and-directory-partitions"></a>命名內容和目錄分割
 
@@ -24,10 +24,10 @@ ms.locfileid: "103933054"
 -   設定 [*磁碟分割*](/previous-versions/windows/desktop/legacy/ms681898(v=vs.85))：設定磁碟分割包含複寫拓撲，以及必須在整個樹系中複寫的其他設定資料。 樹系中的每個網域控制站都有相同設定分割區的複本。
 -   [*網域分割*](/previous-versions/windows/desktop/legacy/ms681901(v=vs.85))區：網域分割區包含與本機網域相關聯的目錄物件，例如使用者和電腦。 網域可以有多個網域控制站，而一個樹系可以有多個網域。 每個網域控制站都會針對其本機網域儲存網域分割區的完整複本，但不會儲存其他網域的網域分割區複本。
 
-Windows Server 2003 引進 *應用程式目錄分割*，可讓您控制複寫的範圍，並允許以更適合動態資料的方式放置複本。 如需應用程式目錄分割的詳細資訊，請參閱 [關於應用程式目錄](about-application-directory-partitions.md)分割。
+Windows伺服器2003引進的 *應用程式目錄分割*，可讓您控制複寫的範圍，並允許以更適合動態資料的方式放置複本。 如需應用程式目錄分割的詳細資訊，請參閱 [關於應用程式目錄](about-application-directory-partitions.md)分割。
 
 如需 Active Directory Domain Services 如何在目錄分割的各種複本之間保持一致性的詳細資訊，請參閱複寫 [和資料完整性](replication-and-data-integrity.md)。
 
- 
+ 
 
- 
+ 

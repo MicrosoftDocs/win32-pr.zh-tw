@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5526fd1a699c87e32c6acadd238c2144d00a10be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0a2fb93fb7e68f7fe3755e3595d43129c5bf7ca4fa2a767a2b6a1786a803209f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001101"
 ---
 # <a name="imsrdpclientnonscriptable2uiparentwindowhandle-property"></a>IMsRdpClientNonScriptable2：： UIParentWindowHandle 屬性
 
@@ -81,7 +81,7 @@ HRESULT get_UIParentWindowHandle(
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                      |
-| 最低支援的伺服器<br/> | Windows Server 2008、Windows Server 2008 SP1<br/>                                  |
+| 最低支援的伺服器<br/> | Windowsserver 2008、Windows server 2008 SP1<br/>                                  |
 | 類型程式庫<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | IID<br/>                      | IID \_ IMsRdpClientNonScriptable2 定義為17a5e535-4072-4fa4-af32-c8d0d47345e9<br/> |

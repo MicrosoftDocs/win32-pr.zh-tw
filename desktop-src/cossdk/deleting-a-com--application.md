@@ -4,12 +4,12 @@ ms.assetid: 5cce94c9-8eff-40b9-946d-a57749da073d
 title: 刪除 COM + 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da685e5a7ae7590fcc247caa765d49dc34d076e9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d8332cd59ecde4115daa43ea97bc87d4354338e3ea94073317bfa293102deb78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047506"
 ---
 # <a name="deleting-a-com-application"></a>刪除 COM + 應用程式
 
@@ -29,7 +29,7 @@ ms.locfileid: "104385960"
 
 6.  當系統提示您確認您的動作時，請按一下 **[是]** 。
 
-此外，如果使用 Windows Installer (的電腦上安裝了伺服器應用程式或應用程式 proxy （如 < 安裝 COM + 應用程式) 中所述），您可以在 Microsoft Windows 主控台中透過 [新增/移除程式] 公用程式來刪除它。 或者，您可以使用 Windows Installer 命令列語法來刪除已安裝的伺服器應用程式或應用程式 proxy：
+此外，如果使用 Windows Installer (的電腦上安裝了伺服器應用程式或應用程式 proxy （如 < 安裝 com + 應用程式) 中所述），您可以透過 Microsoft Windows 主控台中的 [新增/移除程式] 公用程式來刪除它。 或者，您可以使用 Windows Installer 命令列語法來刪除已安裝的伺服器應用程式或應用程式 proxy：
 
 **msiexec-x** *應用程式 \_ 名稱 * * * .msi**
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 71706551e73ed9bd52b41aae127625cd09b6d7f8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f6f64b705ac76c1b4922938d4d08a8bb8f2dd4f75d2433d2bbd8317db67e798c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044609"
 ---
 # <a name="d3dxvec2transformnormalarray-function-d3dx9mathh"></a>D3DXVec2TransformNormalArray 函式 (D3dx9math) 
 

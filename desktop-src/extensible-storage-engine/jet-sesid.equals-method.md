@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 37cadf72e6db0ed5c14c7509b48c10245d09ddff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2144af19ae817a6274e51ec85ea829b1b778fb7b88bbc6421c26aea247353c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104557746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979458"
 ---
 # <a name="jet_sesidequals-method"></a>JET_SESID。Equals 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104557746"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

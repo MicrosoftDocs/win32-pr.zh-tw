@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a149ef6ce6ebadacbac6f0dd35247d793ca7000
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70cfd95de751d51be3ab4b61bc361687738422a6d31c234576e812efcd57bd4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975968"
 ---
 # <a name="mpthreat_category-enumeration"></a>MPTHREAT \_ 類別列舉
 
@@ -82,7 +82,7 @@ typedef enum tagMPTHREAT_CATEGORY {
 
 ## <a name="constants"></a>常數
 
-威脅類別 | Description
+威脅類別 | 描述
 -|-
 <span id="MP_THREAT_CATEGORY_INVALID"></span><span id="mp_threat_category_invalid"></span>**MP \_威脅 \_ 類別 \_ 無效** | 威脅類別不存在或已拼錯。
 <span id="MP_THREAT_CATEGORY_ADWARE"></span><span id="mp_threat_category_adware"></span>**MP \_威脅 \_ 類別 \_ 廣告** | 顯示公告的潛在垃圾應用程式。
@@ -104,7 +104,7 @@ typedef enum tagMPTHREAT_CATEGORY {
 <span id="MP_THREAT_CATEGORY_NUKER"></span><span id="mp_threat_category_nuker"></span>**MP \_威脅 \_ 類別 \_ NUKER** | 惡意程式碼是設計來損毀裝置或使其變得較不穩定。
 <span id="MP_THREAT_CATEGORY_SECURITYDISABLER"></span><span id="mp_threat_category_securitydisabler"></span>**MP \_威脅 \_ 類別 \_ SECURITYDISABLER** | 停用安全性設定或產品的惡意程式碼。
 <span id="MP_THREAT_CATEGORY_JOKEPROGRAM"></span><span id="mp_threat_category_jokeprogram"></span>**MP \_威脅 \_ 類別 \_ JOKEPROGRAM** | 設計用來 amuse 或怪嚇人使用者的應用程式，而不會實際損害裝置。
-<span id="MP_THREAT_CATEGORY_HOSTILEACTIVEXCONTROL"></span><span id="mp_threat_category_hostileactivexcontrol"></span>**MP \_威脅 \_ 類別 \_ HOSTILEACTIVEXCONTROL** | 攻擊者為了損害裝置而設計的 ActiveX 控制項。 ActiveX 控制項是一種特定于 Internet Explorer 的瀏覽器附加元件。
+<span id="MP_THREAT_CATEGORY_HOSTILEACTIVEXCONTROL"></span><span id="mp_threat_category_hostileactivexcontrol"></span>**MP \_威脅 \_ 類別 \_ HOSTILEACTIVEXCONTROL** | 由攻擊者所設計的 ActiveX 控制項危害裝置。 ActiveX 控制項是一種 Internet Explorer 專用的瀏覽器附加元件。
 <span id="MP_THREAT_CATEGORY_SOFTWAREBUNDLER"></span><span id="mp_threat_category_softwarebundler"></span>**MP \_威脅 \_ 類別 \_ SOFTWAREBUNDLER** | 安裝其他潛在垃圾應用程式的軟體，例如廣告軟體或間諜軟體。 配套軟體的授權合約可能需要這些其他元件才能運作。
 <span id="MP_THREAT_CATEGORY_STEALTHNOTIFIER"></span><span id="mp_threat_category_stealthnotifier"></span>**MP \_威脅 \_ 類別 \_ STEALTHNOTIFIER** | 惡意程式碼會透過隱形連線連接到遠端伺服器，以通知攻擊者已安裝惡意程式碼。
 <span id="MP_THREAT_CATEGORY_SETTINGSMODIFIER"></span><span id="mp_threat_category_settingsmodifier"></span>**MP \_威脅 \_ 類別 \_ SETTINGSMODIFIER** | 不需要使用者的知識或同意即可變更使用者設定的潛在垃圾應用程式。
@@ -127,7 +127,7 @@ typedef enum tagMPTHREAT_CATEGORY {
 <span id="MP_THREAT_CATEGORY_VIRUS"></span><span id="mp_threat_category_virus"></span>**MP \_威脅 \_ 類別 \_ 病毒** | 複寫的惡意程式碼（通常是藉由感染系統中的其他檔案），因此在啟用這些檔案時，允許執行惡意程式碼和傳播。
 <span id="MP_THREAT_CATEGORY_KNOWN"></span><span id="mp_threat_category_known"></span>**MP \_\_ \_ 已知的威脅類別** | 未指定的惡意程式碼威脅。
 <span id="MP_THREAT_CATEGORY_UNKNOWN"></span><span id="mp_threat_category_unknown"></span>**MP \_威脅 \_ 類別 \_ 不明** | 尚未定義的未指定惡意程式碼威脅。
-<span id="MP_THREAT_CATEGORY_SPP"></span><span id="mp_threat_category_spp"></span>**MP \_威脅 \_ 類別 \_ SPP** | 需要 Windows 產品的每個安裝都能與 Microsoft 一起啟用的反盜版技術。
+<span id="MP_THREAT_CATEGORY_SPP"></span><span id="mp_threat_category_spp"></span>**MP \_威脅 \_ 類別 \_ SPP** | 一種反盜版技術，要求 Windows 產品的每個安裝都必須與 Microsoft 一起啟用。
 <span id="MP_THREAT_CATEGORY_BEHAVIOR"></span><span id="mp_threat_category_behavior"></span>**MP \_威脅 \_ 類別 \_ 行為** | 根據經常與惡意活動相關聯的檔案動作進行的偵測類型。
 <span id="MP_THREAT_CATEGORY_VULNERABILTIY"></span><span id="mp_threat_category_vulnerabiltiy"></span>**MP \_威脅 \_ 類別 \_ VULNERABILTIY** | 使裝置容易受到威脅惡意探索的任何弱點、系統管理程式或活動。
 <span id="MP_THREAT_CATEGORY_POLICY"></span><span id="mp_threat_category_policy"></span>**MP \_威脅 \_ 類別目錄 \_ 原則** | 一組由系統管理員定義的規則，可控制桌上型電腦和行動裝置上的功能，例如軟體更新。
@@ -137,5 +137,5 @@ typedef enum tagMPTHREAT_CATEGORY {
 | 需求 | 值 |
 |-|-|
 | 最低支援的用戶端 | Windows 8 只 (桌面應用程式)  |
-| 最低支援的伺服器 | 僅限 Windows Server 2012 (桌面應用程式)  |
+| 最低支援的伺服器 | Windows Server 2012 只 (桌面應用程式)  |
 | 標頭 | MpClient。h |

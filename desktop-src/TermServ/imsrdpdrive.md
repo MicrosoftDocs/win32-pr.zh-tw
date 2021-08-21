@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 032e62ca54d6adccce9b27c8f7e95160c800759b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3efccf0459375e23375b3ac40067bcbd3965ed7f6c0b51ddb60f6362fb419688
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000728"
 ---
 # <a name="imsrdpdrive-interface"></a>IMsRdpDrive 介面
 
@@ -39,9 +39,9 @@ ms.locfileid: "103685530"
 
 
 
-| 屬性                                                            | 存取類型           | Description                                              |
+| 屬性                                                            | 存取類型           | 描述                                              |
 |:--------------------------------------------------------------------|:----------------------|:---------------------------------------------------------|
-| [**Name**](imsrdpdrive-name.md)<br/>                         | 唯讀<br/>  | 抓取磁片磁碟機的名稱。<br/>              |
+| [**名稱**](imsrdpdrive-name.md)<br/>                         | 唯讀<br/>  | 抓取磁片磁碟機的名稱。<br/>              |
 | [**RedirectionState**](imsrdpdrive-redirectionstate.md)<br/> | 讀取/寫入<br/> | 指出磁片磁碟機的重新導向狀態。<br/> |
 
 

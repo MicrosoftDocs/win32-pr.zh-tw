@@ -18,21 +18,21 @@ keywords:
 - 自訂圖形大綱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba82d0ab946ef8937b68b4934f9c4d928bd25225
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6cbb27dbc2b039478903f697b02cefb14464b71a96ab2165db124d0a0053a400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057179"
 ---
 # <a name="using-the-path-element"></a>使用 Path 元素
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 您已瞭解您可以使用 VML 預先定義的圖形元素，例如、、 `<oval>` 、、、 `<line>` `<polyline>` `<curve>` `<rect>` `<roundrect>` 和 `<arc>` --繪製圖形。 在本主題中，我們將說明如何使用 `<path>` 子項目自訂圖形的外框。
 
@@ -64,6 +64,6 @@ fillcolor="blue" coordorigin="0 0" coordsize="200 200">
 
 如需此元素的詳細資訊，請參閱 [VML 規格](https://www.w3.org/TR/NOTE-VML#-toc416858391) 。
 
- 
+ 
 
- 
+ 

@@ -1,6 +1,6 @@
 ---
 title: 'IWMDRMNetTransmitter SetLicenseChallenge 方法 (Wmdrmsdk .h) '
-description: SetLicenseChallenge 方法會處理 Windows Media DRM 針對網路裝置接收者傳送的授權挑戰。
+description: SetLicenseChallenge 方法會處理由網路裝置接收器 Windows 媒體 DRM 傳送的授權挑戰。
 ms.assetid: 3d4cd029-a8f5-49fc-ba8c-d8615ff94366
 keywords:
 - SetLicenseChallenge 方法 windows Media 格式
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94b83ca615896039a592d147fe8c14d15493cec0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 211f8de60cddb153e157af64ee300a4bbaf327d70a1564fbd9e622008c055cb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027566"
 ---
 # <a name="iwmdrmnettransmittersetlicensechallenge-method"></a>IWMDRMNetTransmitter：： SetLicenseChallenge 方法
 
-**SetLicenseChallenge** 方法會處理 WINDOWS Media DRM 針對網路裝置接收者傳送的授權挑戰。
+**SetLicenseChallenge** 方法會處理由網路裝置接收器 Windows 媒體 DRM 傳送的授權挑戰。
 
 ## <a name="syntax"></a>語法
 
@@ -63,7 +63,7 @@ HRESULT SetLicenseChallenge(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

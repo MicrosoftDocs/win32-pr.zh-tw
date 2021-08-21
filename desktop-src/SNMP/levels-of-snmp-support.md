@@ -4,12 +4,12 @@ description: Microsoft WinSNMP 實行提供等級2的 SNMP 通訊支援。
 ms.assetid: 9874ad9b-4eb9-4d63-816b-fe444c5b4d8a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92b48c930266073f10e5cb8019a7462317bd798c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa76a475ed266a7a4928a79f809b7011a537c777c89ea0a97d06983d6656a9ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009456"
 ---
 # <a name="levels-of-snmp-support"></a>SNMP 支援層級
 
@@ -21,9 +21,9 @@ Microsoft WinSNMP 實行提供等級2的 SNMP 通訊支援。 層級2支援網�
 
 如果 WinSNMP 應用程式使用的是 SNMP 訊息編碼和解碼的執行，則應用程式必須執行執行時所需的轉換。 這包括將呼叫 [**SnmpRecvMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg) 函數所傳回的 SNMPv1 陷阱轉譯為 SNMPv2C 陷阱。 它也包括根據 RFC 1908，將 SNMPv1 定義的 PDU 類型轉譯為 SNMPv2C 定義的相關 PDU 類型。
 
- 
+ 
 
- 
+ 
 
 
 

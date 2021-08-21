@@ -57,7 +57,7 @@ ms.locfileid: "118984058"
 
 
 
-| 元素                                                                                                       | 類型    | Description                                                                                                                                                                                                                                                                                                                                      |
+| 元素                                                                                                       | 類型    | 描述                                                                                                                                                                                                                                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UseWinLogonCredentials**](mschapv2connectionpropertiesv1schema-usewinlogoncredentials-eaptype-element.md) | boolean | 控制 winlogin 認證的使用。 若為 TRUE，則表示 EAP MS-CHAPv2 從 winlogon 取得認證。 如果為 FALSE，則表示 EAP MS-CHAPv2 取得使用者的認證。 <br/> [**UseWinLogonCredentials (EapType)**](mschapv2connectionpropertiesv1schema-usewinlogoncredentials-eaptype-element.md)元素是選擇性的。<br/> |
 

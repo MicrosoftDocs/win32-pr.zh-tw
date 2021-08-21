@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b7e643d775d1fb8e0c19286bfb7a50d887644e99
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: e60a95394c3ba70a01097d7faf1e31ab4c1da835b7dcefa64f26259be9ab0847
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106982052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979878"
 ---
 # <a name="jet_loginfo-structure"></a>JET_LOGINFO 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_loginfo-structure"></a>JET_LOGINFO 結構
 
@@ -82,7 +82,7 @@ typedef struct {
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

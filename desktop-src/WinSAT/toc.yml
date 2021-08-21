@@ -1,4 +1,4 @@
-- name: Windows 系統評定工具
+- name: Windows系統評定工具
   href: windows-system-assessment-tool-portal.md
   items:
     - name: 使用 WinSAT

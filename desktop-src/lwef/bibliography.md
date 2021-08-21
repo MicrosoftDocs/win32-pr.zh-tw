@@ -6,20 +6,20 @@ keywords:
 - Microsoft 專員，書目
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 538767cceb9c963fcdd0d67f8f68f00734eb5b89
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9082efe04d4b788ff18d6eecae331e8d70a682fc2f4ab6e81af3564348b8ef8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976728"
 ---
 # <a name="bibliography"></a>參考書目
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 Axtell，R. *手勢：世界各地的 Do And Taboos Of Body Language*。 紐約： John Wiley & 兒子，1998。
 
-球，g. al.exe：「像是電腦的電腦字元： Microsoft Research 的角色專案」。 *軟體代理程式。* 教育. Jeff Bradshaw。 康橋，MA： MIT 按下，1996。
+球，g. 像是「像是電腦字元」：「Microsoft Research 的角色 Project」。 *軟體代理程式。* 教育. Jeff Bradshaw。 康橋，MA： MIT 按下，1996。
 
 Bates，J. "互動式世界中的字元本質和盎司。" *技術報表 CMU-CS-92-200*。 電腦科學的學校，Carnegie Mellon 大學。 Pittsburgh，PA。 1992年10月。
 
@@ -77,9 +77,9 @@ Yankelovich，N. "使用者怎麼知道怎麼說呢？" *互動*、-III. 6。 32
 
 *軟體設計的 Windows 介面指導方針。* 華盛頓州 Redmond，WA： Microsoft 按下，1995。
 
- 
+ 
 
- 
+ 
 
 
 

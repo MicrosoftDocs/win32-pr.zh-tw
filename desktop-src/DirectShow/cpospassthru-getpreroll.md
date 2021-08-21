@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e72d7c83c8cdb0fa08a4b395fd65c80edbe3fb05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b34cd565d246f4401061834b21c005306633e72a6f24cc8367a222b5f3736c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954037"
 ---
 # <a name="cpospassthrugetpreroll-method"></a>CPosPassThru. GetPreroll 方法
 

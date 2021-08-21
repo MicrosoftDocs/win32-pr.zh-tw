@@ -9,12 +9,12 @@ keywords:
 - 傳回值 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8c8dfd9f116a35edc162f6be01fd1bc1b1ad78b
-ms.sourcegitcommit: 460af18ea55f4b12d47d5b8d4b883896e21adf00
+ms.openlocfilehash: 1770be08f24d2085438cd04f8e31047e0aa0913713d898e7839241d41a7bf992
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "104374043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025076"
 ---
 # <a name="function-return-values-in-active-directory-domain-services"></a>Active Directory Domain Services 中的函數傳回值
 
@@ -26,9 +26,9 @@ ms.locfileid: "104374043"
 -   [目錄管理員錯誤](directory-manager-errors.md)
 -   [Active Directory Domain Services 中函式的記錄和復原錯誤](logging-and-recovery-errors-in-functions-in-active-directory-domain-services.md)
 
- 
+ 
 
- 
+ 
 
 
 

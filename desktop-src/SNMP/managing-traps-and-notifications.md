@@ -4,12 +4,12 @@ description: 您必須透過呼叫 SnmpRegister 函式和 SNMPAPI ON，以將 Wi
 ms.assetid: 2bccba35-bf5c-4e5c-94e4-59980f2b9776
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51e3a2d9fed1f7c34dd8191550d1dbc68ed984e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 402a768aa28efb6f2fdc18994d749cfca2f2c412f748f853fb76fcd7fe3e41d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009376"
 ---
 # <a name="managing-traps-and-notifications"></a>管理陷阱和通知
 
@@ -29,9 +29,9 @@ ms.locfileid: "103840516"
 
 如需詳細資訊，請參閱傳送 [Snmp 訊息](sending-snmp-messages.md) 和 [接收 snmp 訊息](receiving-snmp-messages.md)。 如需有關配置和解除配置陷阱和通知資源的詳細資訊，請參閱配置 [WinSNMP 記憶體物件](allocating-winsnmp-memory-objects.md)。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -21,7 +21,7 @@ ms.locfileid: "118976208"
 
 
 
-| IAgentEx 方法                                                                   | Description                                              |
+| IAgentEx 方法                                                                   | 描述                                              |
 |------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [**ShowDefaultCharacterProperties**](iagentex--showdefaultcharacterproperties.md) | 顯示預設的字元屬性。               |
 | [**GetVersion**](iagentex--getversion.md)                                         | 傳回 Microsoft Agent (server) 的版本號碼。 |

@@ -4,16 +4,16 @@ ms.assetid: 384f0732-e0c5-4b1f-b590-195e0acf90e1
 title: 執行搜尋列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acd3f2440c011267c792c79c8bc3550926c5767f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 15e86dc52f92a4800639a5dbb1659f70fbe1cfaca7cbc2f0d022df889f970ea5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015546"
 ---
 # <a name="implementing-a-seek-bar"></a>執行搜尋列
 
-本節說明如何針對媒體播放機應用程式執行搜尋列。 搜尋列會實作為提要欄位控制項。 如需在 DirectShow 中搜尋的總覽，請參閱 [搜尋篩選圖形](seeking-the-filter-graph.md)。
+本節說明如何針對媒體播放機應用程式執行搜尋列。 搜尋列會實作為提要欄位控制項。 如需在 DirectShow 中搜尋的總覽，請參閱[搜尋篩選 Graph](seeking-the-filter-graph.md)。
 
 當應用程式啟動時，請將下列程式初始化：
 
@@ -33,7 +33,7 @@ void InitSlider(HWND hwnd)
 
 除非使用者開啟媒體檔案，否則會停用這些跟蹤。 從0到100的 [程式集] 範圍設定。 在檔案播放期間，應用程式會將播放位置計算為檔案持續時間的百分比，並據以更新這些程式。 例如，程式點位置 "50" 一律對應至檔案的中間。
 
-當使用者開啟檔案時，請使用 **RenderFile** 建立檔案播放圖形。 此程式碼會顯示在 [如何播放](how-to-play-a-file.md)檔案中。 然後查詢 **IMediaSeeking** 介面的 [篩選圖形管理員]，並儲存介面指標：
+當使用者開啟檔案時，請使用 **RenderFile** 建立檔案播放圖形。 此程式碼會顯示在 [如何播放](how-to-play-a-file.md)檔案中。 然後查詢 **IMediaSeeking** 介面的篩選 Graph 管理員，並儲存介面指標：
 
 
 ```C++
@@ -65,7 +65,7 @@ if (bCanSeek)
 
 AM \_ 搜尋 \_ CanSeekAbsolute 旗標會檢查原始程式檔是否可搜尋，而 am \_ 搜尋 \_ CanGetDuration 旗標會檢查檔案的持續時間是否可以事先決定。 如果同時支援這兩項功能，應用程式會啟用此類程式並抓取檔案持續時間。
 
-如果圖表是可搜尋的，應用程式將會使用計時器來更新播放期間的程式段位置。 當您執行篩選圖形來播放檔案時，請呼叫其中一個 Windows 計時器函式（例如 **SetTimer**）來啟動計時器事件。 如需計時器的詳細資訊，請參閱 Platform SDK 中的「計時器」主題。
+如果圖表是可搜尋的，應用程式將會使用計時器來更新播放期間的程式段位置。 當您執行篩選圖形來播放檔案時，請呼叫其中一個 Windows 計時器函數（例如 **SetTimer**）來啟動計時器事件。 如需計時器的詳細資訊，請參閱 Platform SDK 中的「計時器」主題。
 
 
 ```C++
