@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4501413888d17a70610160117df3ad03fde73b76
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d52854f719830933c96bc130dbec4f0b15f1264344396382ad59099d4c37cf02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118128303"
 ---
 # <a name="itssbsessiondomain-property"></a>ITsSbSession：:D omain 屬性
 
@@ -54,7 +54,7 @@ HRESULT get_Domain(
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                            |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                       |
-| Idl<br/>                      | <dl> <dt>Sbtsv .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Sbtsv .idl</dt> </dl> |
 
 
 

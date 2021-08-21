@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1cc7d96f9b8584e81da5cfa66073b19989b0a476
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c7b5117f75fb195fe065493d942cee6c244f56eed1fe6170bdd53fd243143d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118083651"
 ---
 # <a name="columnvaluevalueasobject-property"></a>ColumnValue. ValueAsObject 屬性
 

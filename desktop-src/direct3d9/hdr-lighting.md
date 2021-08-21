@@ -4,12 +4,12 @@ ms.assetid: 537700e2-802d-4fd1-b026-142d6f4f0559
 title: " (Direct3D 9) 的 HDR 照明"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f397ccef2b1fa315e64861453b13f0f6fddfe77
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 863e8eefab6e0199904876bdb398fefa1aeb988ef2f3556b21c24d92dbc998e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118094644"
 ---
 # <a name="hdr-lighting-direct3d-9"></a> (Direct3D 9) 的 HDR 照明
 

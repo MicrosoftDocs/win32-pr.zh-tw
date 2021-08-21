@@ -11,12 +11,12 @@ keywords:
 - 領域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f48ac31c0204111173d9eb2d31a3119873ef45b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af1e0666393e923767d342d215622e0ed58bfa7b1b620e045a0054b31918a7a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118358307"
 ---
 # <a name="porting-spheres"></a>移植球體
 
@@ -41,13 +41,13 @@ ms.locfileid: "104372361"
 
 
 
- 
+ 
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

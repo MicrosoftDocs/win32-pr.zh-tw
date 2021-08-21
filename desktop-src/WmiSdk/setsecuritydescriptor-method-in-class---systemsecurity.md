@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: fcdc192801b839451cee256f57090780818d2046
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d44322820514fc676c1b3ad304375f5f3ce8966a73217c6505f24659914f7853
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315625"
 ---
 # <a name="setsecuritydescriptor-method-of-the-__systemsecurity-class"></a>\_ \_ SystemSecurity 類別的 SetSecurityDescriptor 方法
 
@@ -98,11 +98,11 @@ uint32 SetSecurityDescriptor(
 
 下列 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control) 中的值會決定是否要更新 DACL 或 SACL 或兩者。
 
--   **\_有 SE DACL \_**
+-   **SE \_DACL \_ 存在**
 
     表示 DACL 應該更新。 如果未設定此值，WMI 就會保留 DACL 的原始值。
 
--   **\_出現 SE SACL \_**
+-   **SE \_SACL \_ 存在**
 
     指出 SACL 應該更新。 如果未設定此值，WMI 就會保留 SACL 的原始值。 若要更新 SACL，帳戶必須啟用 **SeSecurityPrivilege** 許可權。 針對腳本，許可權名稱為 **SeSecurityPrivilege**。 如需詳細資訊，請參閱 [**許可權常數**](privilege-constants.md)。
 

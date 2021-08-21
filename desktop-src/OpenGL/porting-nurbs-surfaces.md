@@ -12,12 +12,12 @@ keywords:
 - '非統一的有理 B 曲線 (NURBS) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7260750db4d221743d3e764d6dd30e2de499383
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0a57de3a3b413d909ed034e9d355f4099c196a89b1e7ed93a69fe99ea72fca54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132347"
 ---
 # <a name="porting-nurbs-surfaces"></a>移植 NURBS 表面
 
@@ -33,7 +33,7 @@ ms.locfileid: "103674543"
 
 
 
- 
+ 
 
 下表列出介面類別型的鳶尾花 GL 參數及其對等的 OpenGL 參數。
 
@@ -51,7 +51,7 @@ ms.locfileid: "103674543"
 
 
 
- 
+ 
 
 如需可用評估工具類型的詳細資訊，請參閱 [**glMap2**](glmap2.md)。
 
@@ -191,9 +191,9 @@ int main(int argc, char** argv)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

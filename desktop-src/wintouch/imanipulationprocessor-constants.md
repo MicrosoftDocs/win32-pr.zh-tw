@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a686ae35f5b57a977ec77196dd3cf77bed48ef1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2070615cbd40708c6cf818bf8f7b5324d55454491cd4afd469780de7976f1713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199476"
 ---
 # <a name="constants-manipulationsh"></a>常數 (操作 .h) 
 
@@ -72,10 +72,10 @@ ms.locfileid: "103843496"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                   |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                      |
 | 標頭<br/>                   | <dl> <dt>操作。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>操作 .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>操作 .idl</dt> </dl> |
 
 
 

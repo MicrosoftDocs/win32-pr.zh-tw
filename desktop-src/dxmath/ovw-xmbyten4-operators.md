@@ -4,12 +4,12 @@ ms.assetid: 3083dd93-301d-4b57-8ad2-bfafc8576063
 title: XMBYTEN4 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cc7876d1df41d22257dc09ccf66ece55be79050
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29bbe317aec4a1a9466666d89e3f177373fee82c9fc73bd61c6b8145544097ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118501296"
 ---
 # <a name="xmbyten4-operators"></a>XMBYTEN4 運算子
 

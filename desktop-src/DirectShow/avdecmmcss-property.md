@@ -4,12 +4,12 @@ ms.assetid: 77724879-62e4-439e-9dd0-3642cd7f75ca
 title: 'AVDecMmcss 屬性 (Uuid .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0092ac516f9600929a9772d044f51e7e375548d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b9084db3cce8d555afa44097271a6b08f58cfea2f2edcb7acb5845730afc86b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159942"
 ---
 # <a name="avdecmmcss-property"></a>AVDecMmcss 屬性
 

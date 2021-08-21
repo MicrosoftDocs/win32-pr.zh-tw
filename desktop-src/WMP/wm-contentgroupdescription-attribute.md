@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4690e52f2745fa2761252fdba4ad4df31b18619
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49af85d5064da7950c3208e0307f027accb5e31b4e474eb743e629ecdf05aa0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118332447"
 ---
 # <a name="wmcontentgroupdescription-attribute"></a>WM/ContentGroupDescription 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106983000"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -34,7 +34,7 @@ ms.locfileid: "106983000"
 
 **ContentGroupDescription** 是此屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMContentGroupDistribution。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMContentGroupDistribution。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

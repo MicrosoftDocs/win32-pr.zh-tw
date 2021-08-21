@@ -1,19 +1,19 @@
 ---
-description: COM + Visual Basic 支援與 MTS 對比
+description: com + Visual Basic 支援與 MTS 對比
 ms.assetid: aa012f88-1f88-4c7f-b774-82b9e29da5e9
-title: COM + Visual Basic 支援與 MTS 對比
+title: com + Visual Basic 支援與 MTS 對比
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 038b29bbc6fbe5c8375f91f0006b85940f00b944
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c2c278fbe414b2e58c5dd4aa8a3b2d694ed8ba49b0523e118f69116ec7061868
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118102470"
 ---
-# <a name="com-visual-basic-debugging-support-contrasted-with-mts"></a>COM + Visual Basic 支援與 MTS 對比
+# <a name="com-visual-basic-debugging-support-contrasted-with-mts"></a>com + Visual Basic 支援與 MTS 對比
 
-COM + 移除或減少使用 Microsoft Visual Basic 6.0 和 MTS 進行偵錯工具的幾項限制。 下列清單摘要說明 COM + 所能預期的變更：
+com + 移除或減少使用 Microsoft Visual Basic 6.0 和 MTS 進行偵錯工具的幾項限制。 下列清單摘要說明 COM + 所能預期的變更：
 
 -   多個元件的偵錯工具：在 COM + 中，您可以在其中一個 IDE 實例中執行的用戶端呼叫任何數目的 Dll，以做為專案群組。 群組 DLL 專案中的物件可以任意地呼叫彼此，並視需要將內容流動。 當然，這也適用于當 Dll 和用戶端位於相同的 IDE 實例中的相同專案群組時。
 
@@ -23,9 +23,9 @@ COM + 移除或減少使用 Microsoft Visual Basic 6.0 和 MTS 進行偵錯工�
 
 -   監看 MTS 物件：使用 COM +，您可以為 COM + 所傳回的物件變數加入監看式，包括 [**SafeRef**](/windows/desktop/api/ComSvcs/nf-comsvcs-saferef)、 [**GetObjectCoNtext**](/windows/desktop/api/ComSvcs/nf-comsvcs-getobjectcontext)和 [**IObjectCoNtext：： CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance) 方法的傳回值。
 
--   當元件失敗時，系統會增加穩定性-在 COM + 中，元件失敗不會再停止 Visual Basic (，這會在與所) 的調試元件相同的進程中執行。 例如，支援即時 (JIT) 重新開機失敗現在可讓您在進行偵錯工具時查看物件內容。
+-   當元件失敗時，系統會增加穩定性-在 com + 中，元件失敗不會再停止 Visual Basic (，這會在與所) 的調試元件相同的進程中執行。 例如，支援即時 (JIT) 重新開機失敗現在可讓您在進行偵錯工具時查看物件內容。
 
--   偵錯工具可能會重新啟用 COM + 所發行的物件—如同使用 MTS 一樣，Visual Basic 6.0 可能會在您透過用戶端進行單一步驟的偵錯工具時，重新啟用 COM + 物件。 基於 Visual Basic 6.0 探索物件相關資訊的方式，這是預期的行為。 例如，請參考下列程式碼：
+-   偵錯工具可能會重新啟用 com + 所發行的物件—如同使用 MTS 一樣，Visual Basic 6.0 可能會在您透過用戶端進行單一步驟的偵錯工具時，重新啟用 com + 物件。 基於 Visual Basic 6.0 探索物件相關資訊的方式，這是預期的行為。 例如，請參考下列程式碼：
 
     ``` syntax
     Dim obj As Object

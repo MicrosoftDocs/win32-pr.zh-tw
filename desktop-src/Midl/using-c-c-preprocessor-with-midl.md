@@ -7,12 +7,12 @@ keywords:
 - C-預處理器 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5752bd64ee9a9b5fc26d586b5bc33c1a1fb96e83
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dac3952a342b101f0366d2bce8810426e758c4aa5b32fa267e685bc6d658f034
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382792"
 ---
 # <a name="using-cc-preprocessor-with-midl"></a>使用 C/c + +-預處理器與 MIDL
 
@@ -27,9 +27,9 @@ MIDL 會為最上層 IDL 和 ACF 檔案，以及每個以 MIDL import 指示詞�
 -   [正在儲存預處理器輸出](saving-preprocessor-output.md)
 -   [處理 \# IDL 檔案中的定義](dealing-with-defines-in-idl-files-2.md)
 
- 
+ 
 
- 
+ 
 
 
 

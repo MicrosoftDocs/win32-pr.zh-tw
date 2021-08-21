@@ -1,29 +1,29 @@
 ---
-description: 建立 Recompression 圖形
+description: 建立 Recompression Graph
 ms.assetid: 8f25c60e-30be-4cc4-b924-b8d6654604d3
-title: 建立 Recompression 圖形
+title: 建立 Recompression Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b8ea604bead34c22c123bbabe5d88e985006a9e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0432f51e5309a308b32535993fef04da1762d45f179e1ab3a6826d4c5432b02b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159089"
 ---
-# <a name="building-the-recompression-graph"></a>建立 Recompression 圖形
+# <a name="building-the-recompression-graph"></a>建立 Recompression Graph
 
 AVI 檔案 recompression 的一般篩選圖形看起來如下所示：
 
 ![avi recompression 圖形](images/avi2avi4.png)
 
-[AVI 分隔器篩選器](avi-splitter-filter.md)會從檔案[來源提取資料 (Async) 篩選器](file-source--async--filter.md)，並將它剖析成影片和音訊串流。 影片解壓縮程式會將壓縮的影片解碼，而影片壓縮程式會 recompressed 此影片。 Decompressors 的選擇取決於原始程式檔;它會由 [智慧型 Connect](intelligent-connect.md)自動處理。 應用程式必須選擇壓縮程式，通常是向使用者呈現清單。  (，請參閱 [選擇壓縮篩選](choosing-a-compression-filter.md)。 ) 
+[AVI 分隔器篩選器](avi-splitter-filter.md)會從檔案[來源提取資料 (Async) 篩選器](file-source--async--filter.md)，並將它剖析成影片和音訊串流。 影片解壓縮程式會將壓縮的影片解碼，而影片壓縮程式會 recompressed 此影片。 Decompressors 的選擇取決於原始程式檔;它會由[智慧型連線](intelligent-connect.md)自動處理。 應用程式必須選擇壓縮程式，通常是向使用者呈現清單。  (，請參閱 [選擇壓縮篩選](choosing-a-compression-filter.md)。 ) 
 
 壓縮的影片接著會進入 [AVI Mux 篩選器](avi-mux-filter.md)。 此範例中的音訊串流未壓縮，因此會直接從 AVI 分隔器移至 AVI Mux。 AVI Mux 會交錯兩個數據流，而檔案 [寫入器篩選器](file-writer-filter.md) 會將輸出寫入磁片。 請注意，即使原始檔案沒有音訊資料流程，也需要 AVI Mux。
 
-建立此篩選圖形最簡單的方式是使用「 [捕獲圖形](capture-graph-builder.md)產生器」，這是用來建立捕獲圖形和其他自訂篩選圖形的 DirectShow 元件。
+建立此篩選圖形最簡單的方式是使用[Capture Graph Builder](capture-graph-builder.md)，這是用來建立捕獲圖形和其他自訂篩選圖形的 DirectShow 元件。
 
-首先，呼叫 CoCreateInstance 以建立「捕獲圖形產生器」：
+從呼叫 CoCreateInstance 來建立 Capture Graph Builder 開始：
 
 
 ```C++
@@ -35,11 +35,11 @@ hr = CoCreateInstance(CLSID_CaptureGraphBuilder2,
 
 
 
-然後使用 [Capture Graph Builder] 來建立篩選圖形：
+然後使用 Capture Graph Builder 建立篩選圖形：
 
 1.  建立圖形的轉譯區段，其中包括 AVI Mux 篩選器和檔案 [寫入](file-writer-filter.md)器。
 2.  將來源篩選和壓縮篩選新增至圖形。
-3.  將來源篩選連接至 MUX 篩選器。 「捕獲圖形產生器」會插入剖析來源檔案時所需的任何分隔器和解碼篩選器。 它也可以透過壓縮篩選器來路由傳送影片和音訊串流。
+3.  連線來源篩選器加入至 MUX 篩選器。 「捕獲圖形產生器」會插入剖析來源檔案時所需的任何分隔器和解碼篩選器。 它也可以透過壓縮篩選器來路由傳送影片和音訊串流。
 
 下列各節將說明每個步驟。
 
@@ -72,7 +72,7 @@ MUX 篩選器會公開兩個介面來控制 AVI 格式：
 
 新增來源和壓縮篩選
 
-下一步是要將來源和壓縮篩選新增至篩選圖形。 當您呼叫 SetOutputFileName 時，「捕獲圖形產生器」會自動建立篩選圖形管理員的實例。 藉由呼叫 [**ICaptureGraphBuilder2：： GetFiltergraph**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-getfiltergraph) 方法取得其指標：
+下一步是要將來源和壓縮篩選新增至篩選圖形。 當您呼叫 SetOutputFileName 時，Capture Graph Builder 會自動建立篩選 Graph 管理員的實例。 藉由呼叫 [**ICaptureGraphBuilder2：： GetFiltergraph**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-getfiltergraph) 方法取得其指標：
 
 
 ```C++
@@ -97,7 +97,7 @@ hr = pGraph->AddFilter(pVComp, L"Compressor");
 
 ![具有來源和壓縮篩選的篩選圖形](images/avi2avi2.png)
 
-將來源連線至 Mux
+連線至 Mux 的來源
 
 最後一個步驟是透過影片壓縮程式，將來源篩選器連線到 AVI Mux 篩選器。 使用 [**ICaptureGraphBuilder2：： RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) 方法，將來源篩選上的輸出連接連接到指定的接收篩選（選擇性地透過壓縮篩選）。
 

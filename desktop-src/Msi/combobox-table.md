@@ -4,12 +4,12 @@ ms.assetid: 1d3566ac-e95d-48ed-bce4-fb4604d5f762
 title: ComboBox 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e209ac8a7c27c36fd5c1bbd3c97822617c48f5c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dea20677ab6ede02f76a1061d5f715eb0b8d6d87a1744d1eb89b7e0918a018e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118380293"
 ---
 # <a name="combobox-table"></a>ComboBox 資料表
 

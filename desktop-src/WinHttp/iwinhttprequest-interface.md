@@ -1,5 +1,5 @@
 ---
-description: IWinHttpRequest 介面提供 Microsoft Windows HTTP Services (WinHTTP) 的所有 nonevent 方法。
+description: IWinHttpRequest 介面提供適用于 Microsoft Windows HTTP 服務 (WinHTTP) 的所有 nonevent 方法。
 ms.assetid: 6417b3b5-b74a-4c7b-acf9-87e2e814a4df
 title: IWinHttpRequest 介面
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 77ebc8947ad36d2dc9efba121cdd6da2d6de359b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87a31ebe116726d70eb847fe54d563be57477f7133147226657c4c74135defa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114397"
 ---
 # <a name="iwinhttprequest-interface"></a>IWinHttpRequest 介面
 
-**IWinHttpRequest** 介面提供 [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md)的所有 nonevent 方法。
+**IWinHttpRequest** 介面提供適用于 [Microsoft Windows HTTP 服務 (WinHTTP)](about-winhttp.md)的所有 nonevent 方法。
 
 ## <a name="members"></a>成員
 
@@ -62,7 +62,7 @@ ms.locfileid: "104193072"
 
 
 
-| 屬性                                                            | 存取類型           | Description                                                           |
+| 屬性                                                            | 存取類型           | 描述                                                           |
 |:--------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------|
 | [**選項**](iwinhttprequest-option.md)<br/>                 | 讀取/寫入<br/> | WinHTTP 選項值。<br/>                                    |
 | [**ResponseBody**](iwinhttprequest-responsebody.md)<br/>     | 唯讀<br/>  | 以不帶正負號的位元組陣列形式的回應實體主體。<br/>    |
@@ -80,7 +80,7 @@ ms.locfileid: "104193072"
 Httprequest 中定義的 **IWinHttpRequest** 介面是由具有 **CLSID \_ WinHttpRequest** 識別碼的類別所執行。 應用程式會使用 **CLSID \_ WinHttpRequest** 類別識別碼和 **IID \_ IWinHttpRequest** 的介面識別碼呼叫 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)來取得這個介面。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHttp 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHttp 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -90,10 +90,10 @@ Httprequest 中定義的 **IWinHttpRequest** 介面是由具有 **CLSID \_ WinHt
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WinHTTP .lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
 

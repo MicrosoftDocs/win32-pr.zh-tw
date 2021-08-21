@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.doub
 ms:contentKeyID: 55100992
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: af11b6cf614fd818e483e77bc4407f6da0bde3b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dacdad45509a566d7a2eae8a9c279eb197f46d21a685a5959dad77be49126a4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118083281"
 ---
 # <a name="doublecolumnvalue-methods"></a>DoubleColumnValue 方法
 

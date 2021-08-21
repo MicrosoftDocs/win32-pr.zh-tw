@@ -1,19 +1,19 @@
 ---
-description: Windows Server 2008 R2 和 Windows 7 對磁碟區陰影複製服務引進了下列變更。
+description: WindowsServer 2008 R2 和 Windows 7 對磁碟區陰影複製服務引進了下列變更。
 ms.assetid: 1287f175-29e4-40be-804b-d78542e76efc
 title: 新功能： Windows Server 2008 R2 中的 VSS & Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3677f89517a770a4519369ae11f2eed7e7985414
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8eeaaf42a82e13c5766ee3cfa6ba9fe73a36a783824497482ac97fc20d058a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121524"
 ---
 # <a name="whats-new-vss-in-windows-server-2008-r2--windows-7"></a>新功能： Windows Server 2008 R2 中的 VSS & Windows 7
 
-Windows Server 2008 R2 和 Windows 7 對磁碟區陰影複製服務引進了下列變更。
+WindowsServer 2008 R2 和 Windows 7 對磁碟區陰影複製服務引進了下列變更。
 
 ## <a name="new-vss-interfaces"></a>新的 VSS 介面
 
@@ -55,7 +55,7 @@ Windows Server 2008 R2 和 Windows 7 對磁碟區陰影複製服務引進了下�
 
 ## <a name="vss-event-tracing-and-logging"></a>VSS 事件追蹤和記錄
 
-從 Windows Server 2008 R2 和 Windows 7 開始，您可以使用 VssTrace 工具、Logman 工具或 Tracelog.exe 工具來收集 VSS 基礎結構的追蹤資訊。 如需詳細資訊，請參閱搭配 [使用追蹤工具和 VSS](using-tracing-tools-with-vss.md)。
+從 Windows Server 2008 R2 和 Windows 7 開始，您可以使用 VssTrace 工具、Logman 工具或 tracelog.exe 工具來收集 VSS 基礎結構的追蹤資訊。 如需詳細資訊，請參閱搭配 [使用追蹤工具和 VSS](using-tracing-tools-with-vss.md)。
 
 ## <a name="lun-resynchronization"></a>LUN 重新同步處理
 
@@ -71,7 +71,7 @@ Windows Server 2008 R2 和 Windows 7 對磁碟區陰影複製服務引進了下�
 
 ## <a name="new-vss-writers"></a>新的 VSS 寫入器
 
-Windows Server 2008 R2 和 Windows 7 引進下列 VSS 寫入器：
+WindowsServer 2008 R2 和 Windows 7 引進下列 VSS 寫入器：
 
 -   效能計數器寫入器
 -   工作排程器寫入器

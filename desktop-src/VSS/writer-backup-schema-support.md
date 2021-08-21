@@ -4,12 +4,12 @@ ms.assetid: ea504f8e-26d9-499e-b3e9-03515b480a75
 title: 寫入器備份架構支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 593df12f552f206d5d0eedbf8d021b69ef955c6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56b037591d6deda2657acdfe4f4e4755fef96b52bafc92e4cc51e4ef7119de1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344241"
 ---
 # <a name="writer-backup-schema-support"></a>寫入器備份架構支援
 
@@ -24,7 +24,7 @@ ms.locfileid: "104191359"
 -   自訂還原位置 (VSS \_ BS \_ 寫入器 \_ 支援 \_ 新 \_ 的目標) —表示在還原時，要求者會在還原時變更其檔案的寫入器支援。 這表示已使用 [**>ivsscomponent：： GetNewTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtarget)) 將寫入器編碼為檢查這類重新配置 (，並具有使用重新放置檔案的容量。
 -   Restore with Move (VSS \_ BS \_ 寫入器 \_ 支援 \_ restore \_ with \_ move) -表示寫入器支援使用相同的類別 ID 執行多個寫入器實例，並支援要求者在還原時將元件移至不同的寫入器實例。 寫入器實例是使用做為 *wszWriterInstanceName* 參數傳遞至 [**CVssWriter：： Initialize**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-initialize) 方法的持續性寫入器實例名稱來指定。 要求者可以使用 [**IVssExamineWriterMetadataEx：： GetIdentityEx**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex) 取得寫入器實例名稱，並在還原期間使用 [**IVssBackupComponentsEx：： SetSelectedForRestoreEx**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex)來移動元件。
 
-    **Windows Server 2003 和 WINDOWS XP：** 在 Windows Server 2003 Service Pack 1 (SP1) 之前，不支援這個值。
+    **Windows Server 2003 和 Windows XP：** 在 Windows Server 2003 Service Pack 1 (SP1) 之前，不支援這個值。
 
 -   增量 (VSS \_ BS 累加 \_ 式) -指出寫入器使用 VSS API 來協助要求者，以確保只有在上一次完整或增量備份之後變更或新增的檔案才會複製到儲存媒體。
 
@@ -39,15 +39,15 @@ ms.locfileid: "104191359"
 -   增量/差異： (VSS \_ BS 獨佔累加 \_ \_ \_ 差異) 的支援限制-指出差異或增量備份架構的寫入器支援，但僅限專用：例如，您不能遵循增量備份和差異備份。
 -   獨立系統狀態 (VSS \_ BS \_ 獨立 \_ 系統 \_ 狀態) -指出寫入器支援備份屬於系統狀態的資料，但也可獨立于系統狀態時進行備份。
 
-    **Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista 之前，不支援這個值。
+    **Windows Server 2003 和 Windows XP：** 在 Windows Vista 之前，不支援這個值。
 
 -   Roll-Forward Restore (VSS \_ BS \_ 向前復原 \_ Restore) -指出寫入器支援使用 [**IVssBackupComponentsEx2：： SetRollForward**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward)設定向前復原還原點的要求者。
 
-    **Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista 之前，不支援這個值。
+    **Windows Server 2003 和 Windows XP：** 在 Windows Vista 之前，不支援這個值。
 
 -   還原重新命名 (VSS \_ BS \_ 還原 \_ 重新命名) -表示寫入器支援要求者設定使用 [**IVssBackupComponentsEx2：： SetRestoreName**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename)的還原名稱。
 
-    **Windows Server 2003 和 WINDOWS XP：** 在 Windows Vista 之前，不支援這個值。
+    **Windows Server 2003 和 Windows XP：** 在 Windows Vista 之前，不支援這個值。
 
 -   授權還原 (VSS \_ BS \_ 授權 \_ 還原) -指出寫入器支援要求者使用 [**IVssBackupComponentsEx2：： SetAuthoritativeRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setauthoritativerestore)設定授權還原。
 

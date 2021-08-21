@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a959f462d410b83588fb1a8df87cebffd879d8ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d984370150ff069b31c99abd61456037e36d01121d3abc0ed9464c9e1071d020
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158781"
 ---
 # <a name="cbasecontrolvideosetdefaultdestinationposition-method"></a>CBaseControlVideo. SetDefaultDestinationPosition 方法
 
@@ -46,7 +46,7 @@ HRESULT SetDefaultDestinationPosition();
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**NOERROR**</dt> </dl>                | 成功。<br/>                                                              |

@@ -51,12 +51,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c88fa56f37332d52ed31f5ef042c5064a82ac4d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a43ae080a9ef1c17baa262cc1154f9ae89a837f0ec6f6919d80c22376f3b995
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150891"
 ---
 # <a name="filtering-condition-flags"></a>篩選準則旗標
 
@@ -281,7 +281,7 @@ Windows 篩選平台 (WFP) 篩選準則旗標都是以位位表示。
 測試是否已透過 API （例如 [**WSASetSocketPeerTargetName**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) ）接收應用程式所要連接之對等電腦的名稱，而不是透過快取啟發學習法取得。
 
 > [!Note]  
-> 僅適用于 Windows Server 2008 R2、Windows 7 及更新版本。
+> 僅適用于 Windows Server 2008 R2、Windows 7 和更新版本。
 
  
 
@@ -310,7 +310,7 @@ Windows 篩選平台 (WFP) 篩選準則旗標都是以位位表示。
 測試連接是否經過端對端驗證，即使個別的封包尚未經過驗證也是一樣。
 
 > [!Note]  
-> 僅適用于 Windows Server 2008 R2、Windows 7 及更新版本。
+> 僅適用于 Windows Server 2008 R2、Windows 7 和更新版本。
 
  
 
@@ -330,7 +330,7 @@ Windows 篩選平台 (WFP) 篩選準則旗標都是以位位表示。
 測試篩選引擎是否將先前的系結或接聽要求。
 
 > [!Note]  
-> 僅適用于 Windows Server 2008 R2、Windows 7 及更新版本。
+> 僅適用于 Windows Server 2008 R2、Windows 7 和更新版本。
 
  
 
@@ -402,7 +402,7 @@ Windows 篩選平台 (WFP) 篩選準則旗標都是以位位表示。
 
 
 
-指出正在執行目前的分類，以接受重新導向的 Windows Store 應用程式連接至指定主機的意圖。 這類分類將包含的資料欄值與應用程式永遠不會重新導向的相同。 此旗標也會指出將會叫用未來的分類，以符合有效的重新導向目的地。 如果將應用程式重新導向至 proxy 服務進行檢查，也表示將在 proxy 連線上叫用未來的分類。 注標驅動程式通常應該允許此分類。
+指出正在執行目前的分類，以接受重新導向的 Windows 存放區應用程式連接至指定主機的意圖。 這類分類將包含的資料欄值與應用程式永遠不會重新導向的相同。 此旗標也會指出將會叫用未來的分類，以符合有效的重新導向目的地。 如果將應用程式重新導向至 proxy 服務進行檢查，也表示將在 proxy 連線上叫用未來的分類。 注標驅動程式通常應該允許此分類。
 
 > [!Note]  
 > 僅適用于 Windows 8 和 Windows Server 2012。
@@ -419,7 +419,7 @@ Windows 篩選平台 (WFP) 篩選準則旗標都是以位位表示。
 下列旗標指定之先前授權連接的原因。 您可以使用這些旗標和篩選層來定義它們，如下所示。
 
 > [!Note]  
-> 這些篩選準則僅適用于 Windows Server 2008 R2、Windows 7 及更新版本。
+> 這些篩選準則僅適用于 Windows Server 2008 R2、Windows 7 和更新版本。
 
  
 
@@ -562,7 +562,7 @@ Windows 篩選平台 (WFP) 篩選準則旗標都是以位位表示。
 下列旗標會指定與應用程式是否要接收 Edge 遍歷流量相關的通訊端屬性。 您可以使用這些旗標和篩選層來定義它們，如下所示。
 
 > [!Note]  
-> 這些篩選準則僅適用于 Windows Server 2008 R2、Windows 7 及更新版本。
+> 這些篩選準則僅適用于 Windows Server 2008 R2、Windows 7 和更新版本。
 
  
 
@@ -764,8 +764,8 @@ Windows 篩選平台 (WFP) 篩選準則旗標都是以位位表示。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Fwptypes。h</dt> </dl> |
 
 

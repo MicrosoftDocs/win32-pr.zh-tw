@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7623c321cbf2ff37724bbd99d24a4d94c1856dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a483bf8e7ded89e10b46926fee82442becdb73f0a43e879310f55c915ce18b10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116773"
 ---
 # <a name="viewcategory"></a>VIEW. category
 

@@ -8,16 +8,16 @@ keywords:
 - 說明 ADSI ADSI、參考、屬性方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 018999d4834859cdb465bba2e6cdb9a05bd38a98
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 26fa872ea1711b23d850fe7063364712bba19d28d3e1157a81f5289f247944db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106967693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017085"
 ---
 # <a name="interface-property-methods"></a>介面屬性方法
 
-許多 ADSI 介面都是設計來支援自動化，因此也是雙重介面，因為它們支援透過 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 和 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 介面的用戶端存取。 非自動化用戶端（例如以 C/c + + 撰寫的用戶端）會使用 [**IUnknown：： QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) 方法直接解析方法調用，並直接呼叫方法。 Automation 用戶端（也稱為名稱系結用戶端，例如以 Visual Basic 撰寫的用戶端，或 Visual Basic Scripting Edition (VBScript) ）必須使用分派 [**介面**](/previous-versions/windows/desktop/automat/dispinterface) 方法間接解析方法調用。
+許多 ADSI 介面都是設計來支援自動化，因此也是雙重介面，因為它們支援透過 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 和 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 介面的用戶端存取。 非自動化用戶端（例如以 C/c + + 撰寫的用戶端）會使用 [**IUnknown：： QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) 方法直接解析方法調用，並直接呼叫方法。 Automation 用戶端（也稱為名稱系結用戶端，例如以 Visual Basic 撰寫的用戶端，或 Visual Basic 腳本撰寫)  (版）必須使用分派 [**介面**](/previous-versions/windows/desktop/automat/dispinterface)方法來間接解析方法調用。
 
 支援 Automation 的 ADSI 介面會定義屬性方法，以抓取和修改執行介面之物件的屬性。 屬性方法的名稱會 \_  \_ 在適當的屬性名稱前面加上 get 和 put，例如， **get \_ User** 和 **put \_ Name**。
 
@@ -51,6 +51,6 @@ objName = Obj.Name
 
 如需有關在 ADSI 物件上取得和設定屬性的詳細資訊，請參閱 [屬性](property-cache-interfaces.md)快取。
 
- 
+ 
 
- 
+ 

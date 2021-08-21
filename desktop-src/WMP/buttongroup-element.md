@@ -10,12 +10,12 @@ keywords:
 - 元素，BUTTONGROUP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4de489e779b5e20214778b56fd8d19c7627e444
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6021d29322b98fe4cea96a67998aaf82fbd11e1abe397578a9b0f8999179ee1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118120037"
 ---
 # <a name="buttongroup-element"></a>BUTTONGROUP 元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "104092307"
 
 
 
- 
+ 
 
 **BUTTONGROUP** 元素支援下列方法。
 
@@ -56,7 +56,7 @@ ms.locfileid: "104092307"
 
 
 
- 
+ 
 
 **BUTTONGROUP** 元素支援環境屬性，並可執行環境事件處理常式。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md) 和 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -67,9 +67,9 @@ ms.locfileid: "104092307"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

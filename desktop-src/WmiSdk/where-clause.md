@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'WHERE 子句 (WMI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0587bffb1a10c4611773de8a61fdb7ac1576952
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 6a6a51657dac26a002890bde8346cd7570f6057f2ace5cdfb5350d6c90d0fee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312179"
 ---
 # <a name="where-clause-wmi"></a>WHERE 子句 (WMI) 
 

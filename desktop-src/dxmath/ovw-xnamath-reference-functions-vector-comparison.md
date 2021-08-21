@@ -4,12 +4,12 @@ ms.assetid: 8caad40f-ab8e-db2f-da11-18f3d3ccf6ef
 title: 向量比較函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a283c9c6510fba76f82e7c5de0741021008aac1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c294388aaa7e29454b189729468076f3266347ab2b0876aed71d9d0b5adad3c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500358"
 ---
 # <a name="vector-comparison-functions"></a>向量比較函數
 

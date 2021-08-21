@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c1576389a90db71ee6d371f6e68c44ea39117c05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbc984e0baad4b2a4a287c6265df35c8d4ddccdd903e0ff79b80cc95f6cf8453
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158650"
 ---
 # <a name="cbasecontrolvideoput_sourcewidth-method"></a>CBaseControlVideo. put \_ SourceWidth 方法
 
@@ -55,7 +55,7 @@ HRESULT put_SourceWidth(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>          | 無效引數。<br/>                                                     |

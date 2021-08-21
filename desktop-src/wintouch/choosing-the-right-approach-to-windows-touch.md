@@ -3,20 +3,20 @@ title: 選擇正確的方法來 Windows Touch
 description: 本節說明您可以使用 Windows Touch 不同的方法。
 ms.assetid: 983023e4-355b-45ba-8572-d93c460d2ff8
 keywords:
-- Windows Touch，不同的方法
-- Windows Touch，選擇方法
-- Windows Touch，增強應用程式
-- Windows Touch，縮放支援
-- Windows Touch，舊版支援
-- Windows Touch，RealTimeStylus 外掛程式
+- Windows觸控、不同的方法
+- Windows觸控、選擇方法
+- Windows觸控、增強應用程式
+- Windows觸控、縮放支援
+- WindowsTouch，舊版支援
+- Windows觸控、RealTimeStylus 外掛程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86cdd35b73989541fadd5449efbb3f95d76bfa5d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dd5ad8be1a460b7c91b01a4c566566c424feabc10206482cca72ae3739584c75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118030345"
 ---
 # <a name="choosing-the-right-approach-to-windows-touch"></a>選擇正確的方法來 Windows Touch
 
@@ -27,22 +27,22 @@ ms.locfileid: "104023852"
 -   您希望應用程式的行為與舊版 Windows 中的行為相同，但希望 Windows Touch 訊息的行為一致。
 -   您想要在您的應用程式中進行自訂物件旋轉、轉譯、移動或縮放支援。
 -   您希望您的應用程式能夠更精細地解讀 Windows Touch 手勢，或在特別針對 Windows Touch 輸入優化的應用程式上解讀多次觸控。
--   您有一個使用 [**RealTimeStylus**](/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus) 物件的應用程式，而且想要使用 Windows Touch 功能來增強它。
+-   您有一個使用 [**RealTimeStylus**](/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus)物件的應用程式，而且想要使用 Windows Touch 功能來增強它。
 
-## <a name="you-want-your-application-to-behave-as-it-did-in-legacy-versions-of-windows"></a>您希望應用程式的行為與舊版 Windows 相同
+## <a name="you-want-your-application-to-behave-as-it-did-in-legacy-versions-of-windows"></a>您希望應用程式的行為與舊版 Windows
 
-在 Windows 7 中，應用程式預設會產生可啟用 Windows Touch 功能的訊息。 例如，平移手勢會觸發 WM \_ \* 捲軸訊息。 除了 pan 支援之外，Windows 7 中的預設 WM 軌跡 \_ 處理常式還支援界限意見反應、縮放，以及按下和點擊。 您也可以透過舊版支援來啟用界限意見反應。 如需手勢如何對應至訊息的詳細資訊，請參閱 [Windows Touch 手勢總覽](windows-touch-gestures-overview.md) 。 只想要使用這種基本功能的開發人員不需要直接使用 Windows Touch API。
+在 Windows 7 中，應用程式預設會產生可啟用 Windows Touch 功能的訊息。 例如，平移手勢會觸發 WM \_ \* 捲軸訊息。 除了平移支援之外，Windows 7 中的預設 WM 軌跡 \_ 處理常式也支援界限意見反應、縮放，以及按下和點擊。 您也可以透過舊版支援來啟用界限意見反應。 如需手勢如何對應至訊息的詳細資訊，請參閱[Windows Touch 手勢總覽](windows-touch-gestures-overview.md)。 只想要使用這種基本功能的開發人員不需要直接使用 Windows Touch API。
 
 > [!Note]  
 > 自訂捲軸處理常式必須支援適用于 **wm \_ VSCROLL** 訊息的 **SM \_ THUMBPOSITION** 要求，且必須支援 sb **\_ HSCROLL** 訊息的 **sb \_ LINELEFT** 要求和 **sb \_ LINERIGHT** 要求。
 
- 
+ 
 
 -   [舊版對於移動捲軸的支援](legacy-support-for-panning-with-scrollbars.md)區段說明如何確保您的應用程式在 Windows 7 中的行為如同使用者預期。
 
 ## <a name="you-want-custom-object-rotation-translation-panning-or-zoom-support"></a>您想要自訂物件旋轉、轉譯、移動流覽或縮放支援
 
-如果您想讓觸控的支援有限，但 Windows 7 提供的預設行為並不適用于您的應用程式，您可以使用筆勢來增強您的應用程式。 藉由使用筆勢，您可以藉由處理 [**WM \_ 手勢**](wm-gesture.md) 訊息來解讀手勢命令。 如需筆勢的詳細資訊，請參閱 [Windows Touch 手勢](guide-multi-touch-gestures.md)一節。 如果您的應用程式只需要支援高度細微的旋轉、改善的縮放支援或單指移動，手勢就是進行 Windows Touch 開發的最佳方法。 除了解讀手勢訊息，您也可以選擇支援界限意見反應。 如需界限意見反應的詳細資訊，請參閱[Windows Touch 程式設計參考](windows-touch-programming-reference.md)的[界限意見](boundary-feedback.md)一節。 在 Windows 7 中，命令提示字元和 Internet Explorer 會利用界限意見反應和手勢。
+如果您需要有限的觸控支援，但 Windows 7 提供的預設行為對您的應用程式而言並不夠，您可以使用筆勢來增強您的應用程式。 藉由使用筆勢，您可以藉由處理 [**WM \_ 手勢**](wm-gesture.md) 訊息來解讀手勢命令。 如需筆勢的詳細資訊，請參閱[Windows Touch 手勢](guide-multi-touch-gestures.md)一節。 如果您的應用程式只需要支援高度細微的旋轉、改善的縮放支援或單指移動，手勢就是進行 Windows Touch 開發的最佳方法。 除了解讀手勢訊息，您也可以選擇支援界限意見反應。 如需界限意見反應的詳細資訊，請參閱[Windows Touch 程式設計參考](windows-touch-programming-reference.md)的[界限意見](boundary-feedback.md)一節。 在 Windows 7 中，命令提示字元和 Internet Explorer 利用界限意見反應和手勢。
 
 -   [改進單一手指移動體驗](improving-the-single-finger-panning-experience.md)一節說明如何藉由處理 [**WM \_ 手勢**](wm-gesture.md)訊息來自訂移動流覽體驗。
 
@@ -67,7 +67,7 @@ ms.locfileid: "104023852"
 > [!Note]  
 > 如果您未在多個 RealTimeStylus 中啟用多個連絡人點，則會收到軌跡訊息，例如平移和縮放。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -76,6 +76,6 @@ ms.locfileid: "104023852"
 [程式設計指南](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb3c947b774093f83d6ef627a3ddc9f08381d971
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d662c86385bb948684cab0abba161fc70b2f502442cc4d9c093bdd148a2320b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334956"
 ---
 # <a name="playlistcollectiongetall-method"></a>PlaylistCollection. getAll 方法
 

@@ -21,12 +21,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44fa97a91561a9d4cf3fd571c773288796754858
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e08041ac0878f3466712001a0a5e2cc90eb74ea1e360da9785b5d84805574389
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126518"
 ---
 # <a name="win32_tslicensereportentry-class"></a>Win32 \_ TSLicenseReportEntry 類別
 
@@ -85,7 +85,7 @@ class Win32_TSLicenseReportEntry
 
 「每個裝置訂用帳戶授權的 VDI 標準套件」
 
-「VDI Premium Suite 每個裝置訂用帳戶授權」
+「VDI 進階版 Suite 每個裝置訂用帳戶授權」
 
 「RDS 每一裝置的 CAL」
 

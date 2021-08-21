@@ -6,12 +6,12 @@ keywords:
 - 命令列參考 MIDL，一般語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14baa145c7be03467a24bd4298cf2f502d93b6ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa3d3ded263237dffa425cebe3dea49b169e3494045cfc8b0d27cc249c5ebed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384261"
 ---
 # <a name="general-midl-command-line-syntax"></a>一般 MIDL 命令列語法
 
@@ -70,11 +70,11 @@ Microsoft RPC 提供的 MIDL 編譯器會視需要叫用 C 預處理器來處理
 > [!Note]  
 > Microsoft RPC 提供的 MIDL 編譯器所使用的命令列語法與 DCE IDL 編譯器不同。
 
- 
+ 
 
 MIDL 編譯器會將 [**/env**](-env.md)、 [**/server**](-server.md)、 [**/sstub**](-sstub.md)和 [**/out**](-out.md) 切換為伺服器 stub 檔案。
 
-從 MIDL 版本6.0.359 開始，MIDL 編譯器的預設命令列選項是 [**/Oicf**](-oi.md)- [**/robust**](-robust.md)。 若要停用/robust，請指定 [**/no \_ 健全**](-no-robust.md) 的選項。
+從 MIDL 版本6.0.359 開始，MIDL 編譯器的預設命令列選項是 [**/Oicf**](-oi.md)- [**/robust**](-robust.md)。 若要停用/robust，請指定 [**/no \_ 健全**](-no-robust.md) 的選項。
 
 ## <a name="the-header-file"></a>標頭檔
 
@@ -82,9 +82,9 @@ MIDL 編譯器會將 [**/env**](-env.md)、 [**/server**](-server.md)、 [**/sst
 
 MIDL 編譯器參數 [**/header**](-header.md) 和 [**/out**](-out.md) 會影響標頭檔。
 
- 
+ 
 
- 
+ 
 
 
 

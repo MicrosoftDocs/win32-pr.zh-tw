@@ -4,12 +4,12 @@ description: HTTP cookie 為伺服器提供了一種機制，可在用戶端應�
 ms.assetid: c3574592-572f-4fde-adfa-aed3e862f13f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a6855f0b105dc73760541bf9eb7a6da80dfb38e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f0ba5b2d3917ea8f140e334f5f78b1bd730908d25506d9023667403410833c80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106990894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113712"
 ---
 # <a name="http-cookies"></a>HTTP Cookie
 
@@ -44,7 +44,7 @@ Set-Cookie: <name>=<value>[; <name>=<value>]...
 
 </dd> <dt>
 
-<span id="DD"></span><span id="dd"></span>*Dd*
+<span id="DD"></span><span id="dd"></span>*DD*
 </dt> <dd>
 
 月份的第一天 (，例如 01) 的第一天。
@@ -92,7 +92,7 @@ Set-Cookie: <name>=<value>[; <name>=<value>]...
 
 Cookie 也可以標示為安全，這會指定 cookie 只能傳送至 HTTPs 伺服器。
 
-最後，您可以將 cookie 標示為 HttpOnly (屬性不區分大小寫) ，表示 cookie 不可編寫腳本，而且不應該顯示給用戶端應用程式（基於安全考慮）。 在 Windows 網際網路中，這表示 cookie 無法透過 **InternetGetCookie** 函式抓取。
+最後，您可以將 cookie 標示為 HttpOnly (屬性不區分大小寫) ，表示 cookie 不可編寫腳本，而且不應該顯示給用戶端應用程式（基於安全考慮）。 在 Windows 網際網路中，這表示 cookie 無法透過 **InternetGetCookie** 函式來抓取。
 
 ### <a name="cookie-header"></a>Cookie 標頭
 
@@ -106,7 +106,7 @@ Cookie: <name>=<value> [;<name>=<value>]...
 
 ## <a name="generating-cookies"></a>產生 Cookie
 
-有三種方法可以產生 Microsoft Internet Explorer 的 cookie：使用 Microsoft JScript、使用 WinINet 函式，以及使用 CGI 腳本。 所有方法都必須設定包含在 Set-Cookie 標頭中的資訊。
+有三種方法可以產生 Microsoft Internet Explorer 的 cookie：使用 microsoft JScript、使用 WinINet 函式，以及使用 CGI 腳本。 所有方法都必須設定包含在 Set-Cookie 標頭中的資訊。
 
 ### <a name="generating-a-cookie-using-the-dhtml-object-model"></a>使用 DHTML 物件模型產生 Cookie
 
@@ -137,10 +137,10 @@ print "Set-Cookie:Test=test_value;
 ```
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

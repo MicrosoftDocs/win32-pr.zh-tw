@@ -4,12 +4,12 @@ ms.assetid: 76e7202e-74ce-40a3-a04b-9af5117fe20e
 title: 撰寫以資訊清單為基礎的事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2887194d731ca93379b07c9929de239cef3cdb
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 6963051f65beb652eda04e3d0be6db99925e4eed81032c5687850915a0f1c173
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112261960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151077"
 ---
 # <a name="writing-manifest-based-events"></a>撰寫以資訊清單為基礎的事件
 

@@ -4,12 +4,12 @@ description: 隨著分散式和 Web 應用程式的推出，某些方法呼叫�
 ms.assetid: 18228ff1-8c1c-430a-ae5f-0e9a56b0fe3c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e2a78f042e528036135df4865e8a454cd687da
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 59ea089f257527dfd31d7120170c8749a2d1b4d60ba006843c7ff5d43403b352
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106966891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311082"
 ---
 # <a name="canceling-method-calls"></a>取消方法呼叫
 
@@ -41,6 +41,6 @@ COM 會針對使用標準封送處理的用戶端物件和介面，自動提供�
 [**CoTestCancel**](/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

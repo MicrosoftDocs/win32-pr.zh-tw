@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ef726e8926cd1887b79e4504adbccffcff1bed63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 998bc48a0f82695fc8d6e156a92ee8d5cc77666b36ad55a93a12d76cf260c439
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118083563"
 ---
 # <a name="columnvalueofstructtvalue-property"></a>ColumnValueOfStruct \<T\> 。Value 屬性
 

@@ -4,12 +4,12 @@ description: 標注管理
 ms.assetid: 468C4564-1B3E-4136-93FC-696B4E102546
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23b65476ef5018a6c1dae2841a7b481fd4640ca3
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2d81ab6e0d8476bc989ea44b7f03d070eae8a0702bcf35c6287851830a6788ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106965011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151262"
 ---
 # <a name="callout-management"></a>標注管理
 
@@ -30,6 +30,6 @@ ms.locfileid: "106965011"
 -   [**FwpmCalloutSubscriptionsGet0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutsubscriptionsget0)
 -   [**FwpmCalloutUnsubscribeChanges0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutunsubscribechanges0)
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 99dacdbb-9c40-48dd-b5fe-2f13de7af140
 title: VSS 安全性問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af561b512dd5dbaec954707a813c76391c1ee43a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0dffc6d0e4edf48c59cc9c40e453a979d2b65e6a3544b5ff6d589bbb7a120a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121504"
 ---
 # <a name="vss-security-issues"></a>VSS 安全性問題
 

@@ -4,12 +4,12 @@ ms.assetid: ad1eabf1-23bc-4d23-8f8b-13f0bda95120
 title: 使用 Schannel Csp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 289ed57d9f312ee1ef57aecf7534a8d585859126
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd0845263d16a74f2b04aa71acb97bf200bf5218ead32e359ccd89df4e8c8f4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971512"
 ---
 # <a name="using-schannel-csps"></a>使用 Schannel Csp
 

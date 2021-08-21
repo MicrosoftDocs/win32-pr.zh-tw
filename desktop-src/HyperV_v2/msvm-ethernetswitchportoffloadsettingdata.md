@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 150a7b5e54e371c11741dd7c763b0ae145354b09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddf58a10e85003a00e0d757f29db55a49f98f0ba22e8c3124b83a593f2a3908f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148297"
 ---
 # <a name="msvm_ethernetswitchportoffloadsettingdata-class"></a>Msvm \_ EthernetSwitchPortOffloadSettingData 類別
 
@@ -328,7 +328,7 @@ I/o 虛擬化的中斷仲裁值 (插) 卸載。 預設值是 0。
 如果硬體支援，請啟用 VMMQ 卸載。預設值為 False。
 
 > [!Note]  
-> 這個屬性是在 Windows 10、1703版和 Windows Server 2016 中新增的。
+> 這個屬性是在 Windows 10、1703版和 Windows Server 2016 中加入的。
 
  
 
@@ -349,7 +349,7 @@ I/o 虛擬化的中斷仲裁值 (插) 卸載。 預設值是 0。
 啟用 VRSS 時要配置的佇列數目。 預設值是 16。
 
 > [!Note]  
-> 這個屬性是在 Windows 10、1703版和 Windows Server 2016 中新增的。
+> 這個屬性是在 Windows 10、1703版和 Windows Server 2016 中加入的。
 
  
 
@@ -386,7 +386,7 @@ I/o 虛擬化的中斷仲裁值 (插) 卸載。 預設值是 0。
 啟用 VRSS。 預設值是 true。
 
 > [!Note]  
-> 這個屬性是在 Windows 10、1703版和 Windows Server 2016 中新增的。
+> 這個屬性是在 Windows 10、1703版和 Windows Server 2016 中加入的。
 
  
 
@@ -503,8 +503,8 @@ I/o 虛擬化的中斷仲裁值 (插) 卸載。 預設值是 0。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

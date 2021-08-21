@@ -4,18 +4,18 @@ ms.assetid: 17dc4bef-a8ee-4ff2-ade0-ff5cdb0633df
 title: PathGradientBrush 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3346cfed556bfe08ec202f23a43dc76f0f9d7be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 441d5b0257fca1ea1eccd5f3d9c7b41683849bf314e844fb4c404469238e4de2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067777"
 ---
 # <a name="pathgradientbrush-methods"></a>PathGradientBrush 方法
 
 本主題列出 [**PathGradientBrush**](/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush) 類別的方法。 如需完整的類別清單，請參閱 **PathGradientBrushXX 類別**。
 
--   [**克隆**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
+-   [**複製**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
 -   [**GetBlend**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getblend)
 -   [**GetBlendCount**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount)
 -   [**GetCenterColor**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getcentercolor)

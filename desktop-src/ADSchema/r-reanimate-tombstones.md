@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 342e54c446ed7374284b4f158412a9e5067aaa07
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 49060d49acff08ef36cd028df17199dc9f2f1350c27e1d600febea904ef2fcb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010930"
 ---
 # <a name="reanimate-tombstones-extended-right"></a>Reanimate-Tombstones 擴充許可權
 
@@ -49,7 +49,7 @@ ms.locfileid: "104467174"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 64                                                                                                                               |
 
 
@@ -60,7 +60,7 @@ ms.locfileid: "104467174"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 64                                                                                                                               |
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "104467174"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 64                                                                                                                               |
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "104467174"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 64                                                                                                                               |
 
 
@@ -93,7 +93,7 @@ ms.locfileid: "104467174"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 64                                                                                                                               |
 
 
@@ -104,7 +104,7 @@ ms.locfileid: "104467174"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**配置**](c-configuration.md)<br/> [**Dmd**](c-dmd.md)<br/> |
+| Applies-To              | [**網域 DNS**](c-domaindns.md)<br/> [**組態**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | 當地語系化-顯示識別碼 | 64                                                                                                                               |
 
 

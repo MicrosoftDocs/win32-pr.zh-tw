@@ -1,20 +1,20 @@
 ---
-description: WMI 可透過 WMI 提供者取得可管理的 Windows 物件相關資料。
+description: wmi 可透過 wmi 提供者取得 Windows 可管理物件的相關資料。
 ms.assetid: 74558c6e-28b6-479f-9de6-2fbad793ae26
 ms.tgt_platform: multiple
 title: 將資料提供給 WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60df0384bd6f512b931870775067d9d9e6d4077d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f22fbff46959c001f589587f21b8b2b50ab5c5187d387338f407bf45e3e1a29d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316572"
 ---
 # <a name="providing-data-to-wmi"></a>將資料提供給 WMI
 
-WMI 可透過 WMI [*提供者*](gloss-p.md)取得可管理的 Windows 物件相關資料。 提供者會從系統元件（例如，處理常式）或已檢測的應用程式（例如 SNMP 或 IIS）抓取資料，並透過 WMI 將該資料傳遞至管理應用程式。 例如，當應用程式或腳本使用 WMI [**Win32 \_ process**](/windows/desktop/CIMWin32Prov/win32-process) 類別來要求處理資訊時，會透過預先安裝的提供者動態取得資料。
+wmi 可透過 wmi [*提供者*](gloss-p.md)取得 Windows 可管理物件的相關資料。 提供者會從系統元件（例如，處理常式）或已檢測的應用程式（例如 SNMP 或 IIS）抓取資料，並透過 WMI 將該資料傳遞至管理應用程式。 例如，當應用程式或腳本使用 WMI [**Win32 \_ process**](/windows/desktop/CIMWin32Prov/win32-process) 類別來要求處理資訊時，會透過預先安裝的提供者動態取得資料。
 
 本主題將討論下列各節：
 
@@ -71,7 +71,7 @@ WMI 提供者是實作為 COM 物件的二進位檔。 這表示每個提供者�
 
 如需有關建立結合提供者的詳細資訊，請參閱 [撰寫提供者以將資料提供給 WMI](supplying-data-to-wmi-by-writing-a-provider.md)，以及如需在應用程式中納入低耦合提供者的詳細資訊，請參閱 [在應用程式中併入提供者](incorporating-a-provider-in-an-application.md)。
 
-結合的提供者可以描述為同進程 (內建) 或跨進程的 (跨進程) 。 當結合的提供者是內建提供者時，它會在共用 WMIPRVSE.EXE WMI 裝載進程下執行，並實作為 COM 的內部進程伺服器 ( .dll) 。 當提供者是跨進程提供者時，它會在要求用戶端或事件時由 WMI 啟動，但會以分開進程的形式執行，並實作為可執行檔 ( .exe) 。
+結合的提供者可以描述為同進程 (內建) 或跨進程的 (跨進程) 。 當結合的提供者是內建提供者時，它會在共用 WMIPRVSE.EXE WMI 裝載進程下執行，並實作為 COM 的內部進程伺服器 (.dll) 。 當提供者是跨進程提供者時，它會在要求用戶端或事件時由 WMI 啟動，但會以分開進程的形式執行，並實作為可執行檔 (.exe) 。
 
 ## <a name="implementing-a-provider"></a>執行提供者
 
@@ -79,19 +79,19 @@ WMI 提供者是實作為 COM 物件的二進位檔。 這表示每個提供者�
 
 -   使用 Visual Studio 中的 ATL Wizard。
 
-    ATL Wizard 會產生可執行結合提供者的提供者程式碼。 當您使用 ATL Wizard 時，可以指定要建立同進程 ( .dll) 或非進程 ( .exe) 提供者執行時間模型。
+    ATL Wizard 會產生可執行結合提供者的提供者程式碼。 當您使用 ATL Wizard 時，可以指定您想要建立同進程 (.dll) 或非進程 (.exe) 提供者執行時間模型。
 
 -   定義要包含提供者的 COM 物件。
 
     提供者程式碼是以 c + + 撰寫。 如需詳細資訊，請參閱 [撰寫提供者以將資料提供給 WMI](supplying-data-to-wmi-by-writing-a-provider.md)。
 
--   使用 .NET Framework [**中的類別**](/previous-versions//hh872326(v=vs.85)) ，利用 managed 程式碼來建立提供者。 不再支援 (**系統. Management. Instrumentation** 命名空間。 ) 
+-   使用 .NET Framework [**中的類別**](/previous-versions//hh872326(v=vs.85))，利用 managed 程式碼來建立提供者。 不再支援 (**系統. Management. Instrumentation** 命名空間。 ) 
 
     此進程會建立低耦合提供者。
 
 ## <a name="registering-a-provider-with-wmi-and-the-system"></a>向 WMI 和系統註冊提供者
 
-使用來自取用者的提供者之前，請務必向 WMI 系統和 Windows COM 子系統註冊該提供者。
+使用來自取用者的提供者之前，請務必先向 WMI 系統和 Windows COM 子系統進行註冊。
 
 MOF 檔案可以包含相同類別的多個提供者類型。 相同的提供者名稱會註冊為，例如實例或方法提供者。 如需詳細資訊，請參閱 [註冊提供者](registering-a-provider.md)。
 

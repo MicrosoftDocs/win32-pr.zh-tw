@@ -4,12 +4,12 @@ ms.assetid: 395d7aef-4da0-4664-8328-7d31ce58fedd
 title: WinHTTP 中的 Passport 驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8fc00217c7c14fbd4635fab68398d2056c1ea5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f69d6aff7f8924c307d4e21efb77bc57ebae2469e50361b57d12dce5b348555e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114297"
 ---
 # <a name="passport-authentication-in-winhttp"></a>WinHTTP 中的 Passport 驗證
 
@@ -26,7 +26,7 @@ Passport 是 Microsoft .NET 大樓 block 服務的核心元件。 它可讓企�
 
 WinHTTP 藉由執行 Passport 1.4 驗證的用戶端通訊協定，提供 Microsoft Passport 1.4 的平臺支援。 它會從與 Passport 基礎結構互動的詳細資料，以及 Windows XP 中儲存的使用者名稱和密碼，來釋出應用程式。 與使用傳統驗證配置（例如基本或摘要）不同的是，此抽象概念可讓您從開發人員的觀點來使用 Passport。
 
-**WINDOWS XP：****HKCU \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet Settings \\ Passport \\ NumRegistrationRuns** 登錄機碼可識別 passport 驗證 Wizard 在需要 passport 驗證時所顯示的次數。 如果此索引鍵的值設定為大於5的數位，則不會顯示嚮導。
+**Windows XP：****HKCU \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet 設定 \\ Passport \\ NumRegistrationRuns** 登錄機碼可識別 passport 驗證 Wizard 在需要 passport 驗證時所顯示的次數。 如果此索引鍵的值設定為大於5的數位，則不會顯示嚮導。
 
 下列各節說明從用戶端應用程式觀點來看 Passport 驗證的相關交易。 如需伺服器端 Passport 開發，請參閱 Passport SDK 檔集總覽。
 
@@ -96,7 +96,7 @@ WinHTTP 會特別處理這種隱含的重新導向。 如果應用程式已停�
 
 ### <a name="stored-user-names-and-passwords"></a>儲存的使用者名稱與密碼
 
-Windows XP 引進了預存使用者名稱和密碼的概念。 如果使用者的 Passport 認證是透過 **Passport 註冊嚮導** 或標準 **認證對話方塊** 來儲存，則會儲存在儲存的使用者名稱和密碼中。 在 Windows XP 或更新版本上使用 WinHTTP 時，如果未明確設定認證，WinHTTP 會自動使用預存使用者名稱和密碼中的認證。 這類似于支援 NTLM/Kerberos 的預設登入認證。 不過，使用預設的 Passport 認證並不受自動登入原則設定的規定。
+WindowsXP 引進了預存使用者名稱和密碼的概念。 如果使用者的 Passport 認證是透過 **Passport 註冊嚮導** 或標準 **認證對話方塊** 來儲存，則會儲存在儲存的使用者名稱和密碼中。 在 Windows XP 或更新版本上使用 winHTTP 時，如果未明確設定認證，WinHTTP 會自動使用預存使用者名稱和密碼中的認證。 這類似于支援 NTLM/Kerberos 的預設登入認證。 不過，使用預設的 Passport 認證並不受自動登入原則設定的規定。
 
 ### <a name="disabling-passport-authentication"></a>停用 Passport 驗證
 

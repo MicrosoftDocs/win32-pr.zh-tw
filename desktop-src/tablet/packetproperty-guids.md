@@ -25,7 +25,7 @@ ms.locfileid: "118449368"
 <thead>
 <tr class="header">
 <th>GUID</th>
-<th>描述</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

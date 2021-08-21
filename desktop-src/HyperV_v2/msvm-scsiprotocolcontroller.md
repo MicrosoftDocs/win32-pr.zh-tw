@@ -60,12 +60,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b65390c7cb03f195e9de39aedc3629688717e0fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47d8b46f9ae438f99965ee8e49b15b246a38a77685a141729330d842bc8edb9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147257"
 ---
 # <a name="msvm_scsiprotocolcontroller-class"></a>Msvm \_ SCSIProtocolController 類別
 
@@ -372,7 +372,7 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 
 | 值                                                                        | 意義            |
 |------------------------------------------------------------------------------|--------------------|
-| <dl> <dt>2</dt> </dl> | 已啟用<br/> |
+| <dl> <dt>2</dt> </dl> | 啟用<br/> |
 
 
 
@@ -903,8 +903,8 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -921,7 +921,7 @@ class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 [**CIM \_ SCSIProtocolController**](/previous-versions/windows/desktop/iscsitarg/cim-protocolcontroller)
 </dt> <dt>
 
-[儲存類別](storage-classes.md)
+[儲存體類](storage-classes.md)
 </dt> </dl>
 
  

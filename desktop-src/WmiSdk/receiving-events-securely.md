@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 安全地接收事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f27d156213553ee17a346d780cbea0ff82beca83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d64db5b0289abd9a43caee6ddb3b68da94a9560b0ea8f591d95ee472cf900b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316525"
 ---
 # <a name="receiving-events-securely"></a>安全地接收事件
 
@@ -110,7 +110,7 @@ HRESULT hRes = pEventFilterInstance->Put( L"EventAccess", 0,
 
 ## <a name="sids-and-permanent-subscriptions"></a>Sid 和永久訂閱
 
-當系結、取用者和篩選準則不是由相同的使用者建立時，永久訂閱無法運作，這表示 [**\_ \_ FilterToConsumerBinding**](--filtertoconsumerbinding.md)、 [**\_ \_ EventConsumer**](--eventconsumer.md)和 [**\_ \_ >eventfilter**](--eventfilter.md)在 **CreatorSID** 屬性中必須有相同的個別安全識別碼 (SID) 值。 Windows Management Instrumentation (WMI) 儲存此值。
+當系結、取用者和篩選準則不是由相同的使用者建立時，永久訂閱無法運作，這表示 [**\_ \_ FilterToConsumerBinding**](--filtertoconsumerbinding.md)、 [**\_ \_ EventConsumer**](--eventconsumer.md)和 [**\_ \_ >eventfilter**](--eventfilter.md)在 **CreatorSID** 屬性中必須有相同的個別安全識別碼 (SID) 值。 WindowsManagement Instrumentation (WMI) 會儲存此值。
 
 ## <a name="creating-permanent-subscriptions-using-domain-accounts"></a>使用網域帳戶建立永久訂閱
 

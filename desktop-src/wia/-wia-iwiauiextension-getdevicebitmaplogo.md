@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: 51db237c93a2167eb3c4bdae648f9d79da13319a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 057216a3b482abae564126cf0bf74198b24fab279c3faf3aa02dedad8fb65a30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118034966"
 ---
 # <a name="iwiauiextensiongetdevicebitmaplogo-method"></a>IWiaUIExtension：： GetDeviceBitmapLogo 方法
 
@@ -54,13 +54,13 @@ HRESULT GetDeviceBitmapLogo(
 *phBitmap* \[擴展\]
 </dt> <dd>
 
-類型： **HBITMAP \** _
+類型： **HBITMAP \***
 
 指向將接收裝置點陣圖標誌之控制碼的記憶體位置。
 
 </dd> <dt>
 
-_nMaxWidth * \[ in\]
+*nMaxWidth* \[在\]
 </dt> <dd>
 
 類型： **ULONG**
@@ -90,8 +90,8 @@ _nMaxWidth * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Wiadevd。h</dt> </dl> |
 
 

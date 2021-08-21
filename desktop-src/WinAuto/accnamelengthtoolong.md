@@ -4,12 +4,12 @@ description: AccNameLengthTooLong
 ms.assetid: 68997AE9-91FC-4DAD-8356-FEE6C6919939
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1efcb2b7d13c83a5972cb6e100d70500f9c5ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ef9df4b9001460b9ad96cf5c987a0e8c744ec8df183901494311275052ea4146
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327704"
 ---
 # <a name="accnamelengthtoolong"></a>AccNameLengthTooLong
 
@@ -41,9 +41,9 @@ ms.locfileid: "106967446"
 [Name 屬性](name-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

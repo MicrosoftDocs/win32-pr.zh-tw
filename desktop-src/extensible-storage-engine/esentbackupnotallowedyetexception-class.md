@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d5481c51c4a0b78ea1b66b950ac53d2a04c28595
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1c6876c0b5b793f2dd0a3c8a19ddf4f8e4b4cf447a1323a49f0e0a5cbd8f15d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118083199"
 ---
 # <a name="esentbackupnotallowedyetexception-class"></a>EsentBackupNotAllowedYetException 類別
 
