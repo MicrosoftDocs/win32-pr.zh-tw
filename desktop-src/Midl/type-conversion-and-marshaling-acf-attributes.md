@@ -6,12 +6,12 @@ keywords:
 - ACF MIDL、屬性、類型轉換和封送處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14367be3df97cc1185fca64e46aafe1d342f3526
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 286de08a56aba5ffc7b73fc52791238a6af62b3f0545e95aedabcf79d5623464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382727"
 ---
 # <a name="type-conversion-and-marshaling-acf-attributes"></a>Type-Conversion 和封送處理 ACF 屬性
 
@@ -27,13 +27,13 @@ ms.locfileid: "103932461"
 
 
 
- 
+ 
 
 在 [**\_ 行**](in-line.md) 和 [**\_ \_ 行**](out-of-line.md) 中，DCE 封送處理屬性不會在 Microsoft RPC 中執行。 MIDL 編譯器會自動將複雜的資料類型封送處理。
 
- 
+ 
 
- 
+ 
 
 
 

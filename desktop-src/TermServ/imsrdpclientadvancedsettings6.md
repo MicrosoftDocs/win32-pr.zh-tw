@@ -41,7 +41,7 @@ ms.locfileid: "118352125"
 
 
 
-| 屬性                                                                                                  | 存取類型           | Description                                                                                                                        |
+| 屬性                                                                                                  | 存取類型           | 描述                                                                                                                        |
 |:----------------------------------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**AuthenticationServiceClass**](imsrdpclientadvancedsettings6-authenticationserviceclass.md)<br/> | 讀取/寫入<br/> | 指定服務主體名稱 (SPN) 用來向伺服器進行驗證。<br/>                                     |
 | [**AuthenticationType**](imsrdpclientadvancedsettings6-authenticationtype.md)<br/>                 | 唯讀<br/>  | 指定用於此連接的驗證類型。<br/>                                                          |

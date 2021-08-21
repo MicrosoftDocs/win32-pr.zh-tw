@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 882f6209cd13c2372316e6a9606a3bc4fcd60fdc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d79daa4c73e95eded95f3c7760eef43f0a01683059cc4974506e7b50f291ca1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130767"
 ---
 # <a name="getactivationstatus-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 GetActivationStatus 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: 91a79d4e-a374-4dbc-9ec9-69cf3e1087e1
 title: bitdepth 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cfe73531d9ef5cf8b9f21c62aa514c42bb9a364
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 96edc8bc2a2002f91c59e19e19326b3bd62d48dfa726e5f4fc8d1467d1ae9bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159250"
 ---
 # <a name="bitdepth-attribute"></a>bitdepth 屬性
 

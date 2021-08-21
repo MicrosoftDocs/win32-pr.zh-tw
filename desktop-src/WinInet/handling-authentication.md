@@ -4,12 +4,12 @@ description: 某些 proxy 和伺服器需要驗證，才能授與存取網際網
 ms.assetid: f3752031-30d3-4e35-8eae-1d4971b66bc2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e82d8cd93f1010c71560d856793ad06d8bc5d9d5
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 1797f34eb4f25f8d5e345b6790489acd5fad7e2bc21e6457642a1b4ffa022f9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113827"
 ---
 # <a name="handling-authentication"></a>處理驗證
 
@@ -36,7 +36,7 @@ ms.locfileid: "107380852"
 
 
 
-| 配置                                    | 類型               | DLL                  | Description                                                                                                                                                                                                                                                                                                                                        |
+| 配置                                    | 類型               | DLL                  | 描述                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------|--------------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 基本 (純文字)                          | basic              | Wininet.dll          | 使用 base64 編碼的字串，其中包含使用者名稱和密碼。                                                                                                                                                                                                                                                                             |
 | Digest                                    | 挑戰-回應 | Digest.dll           | 挑戰-回應配置，會挑戰使用 nonce (伺服器指定的資料字串) 值。 有效的回應包含使用者名稱、密碼、指定的 nonce 值、HTTP 方法，以及要求的統一資源識別項 (URI) 的總和檢查碼。 摘要式驗證支援已在 Microsoft Internet Explorer 5 中推出。 |
@@ -57,7 +57,7 @@ ms.locfileid: "107380852"
 
 ### <a name="registering-authentication-keys"></a>註冊驗證金鑰
 
-INTERNET \_ OPEN \_ TYPE \_ PRECONFIG 會查看登錄值 **ProxyEnable**、 **ProxyServer** 和 **ProxyOverride**。 這些值位於 [ **HKEY \_ CURRENT \_ USER** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Internet Settings**] 下。
+INTERNET \_ OPEN \_ TYPE \_ PRECONFIG 會查看登錄值 **ProxyEnable**、 **ProxyServer** 和 **ProxyOverride**。 這些值位於 **HKEY \_ CURRENT \_ USER** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Internet 設定**。
 
 針對 Basic 以外的驗證架構，必須將金鑰新增至登錄的 **HKEY \_ 本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Internet Explorer** \\ **安全性**。 **DWORD** 值 **旗標** 應以適當的值設定。 下列清單顯示 **旗標** 值的可能值。
 
@@ -242,7 +242,7 @@ switch (dwStatus)
 
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

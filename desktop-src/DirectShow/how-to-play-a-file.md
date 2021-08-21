@@ -4,24 +4,24 @@ ms.assetid: 3d8c5d06-8690-4298-a1d1-f21af35bcfd4
 title: 如何播放檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc84ef751db318354da36454e6a30fd2ce4bd8e7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b7d20a021ec5053746c279598d08117c6b25a5fe6a52946fed56f19eda3cafe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401146"
 ---
 # <a name="how-to-play-a-file"></a>如何播放檔案
 
-本文旨在提供您 DirectShow 程式設計的特色。 它會顯示一個簡單的主控台應用程式，可播放音訊或影片檔案。 程式只有幾行時間，但它會示範一些 DirectShow 程式設計的威力。
+本文旨在提供您 DirectShow 程式設計的特色。 它會顯示一個簡單的主控台應用程式，可播放音訊或影片檔案。 程式只有幾行時間，但它會示範 DirectShow 程式設計的一些功能。
 
-在「 [Directshow 應用程式程式設計」簡介](introduction-to-directshow-application-programming.md) 文章中，directshow 應用程式一律會執行相同的基本步驟：
+在[DirectShow 應用程式程式設計的簡介](introduction-to-directshow-application-programming.md)文章中，DirectShow 應用程式一律會執行相同的基本步驟：
 
-1.  建立 [篩選圖形管理員](filter-graph-manager.md)的實例。
-2.  使用篩選圖形管理員來建立篩選圖形。
+1.  建立[篩選準則 Graph 管理員](filter-graph-manager.md)的實例。
+2.  使用篩選 Graph 管理員來建立篩選圖形。
 3.  執行圖形，使資料在篩選準則下移動。
 
-若要編譯及連結此主題中的程式碼，請包含標頭檔 Dshow，並連結至靜態程式庫檔案 strmiids。 如需詳細資訊，請參閱 [建立 DirectShow 應用程式](setting-up-the-build-environment.md)。
+若要編譯及連結此主題中的程式碼，請包含標頭檔 Dshow，並連結至靜態程式庫檔案 strmiids。 如需詳細資訊，請參閱[建立 DirectShow 應用程式](setting-up-the-build-environment.md)。
 
 首先，呼叫 [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize) 或 [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) 初始化 COM 程式庫：
 
@@ -38,7 +38,7 @@ if (FAILED(hr))
 
 為了簡單起見，此範例會忽略傳回值，但您應該一律從任何方法呼叫中檢查 **HRESULT** 值。
 
-接下來，呼叫 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) 以建立篩選圖形管理員：
+接下來，呼叫 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)以建立篩選 Graph 管理員：
 
 
 ```C++
@@ -49,14 +49,14 @@ HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL,
 
 
 
-如所示， (CLSID) 的類別識別碼是 CLSID \_ FilterGraph。 篩選圖形管理員是由同進程 DLL 提供，因此執行內容是 **CLSCTX \_ INPROC \_ SERVER**。 DirectShow 支援自由執行緒模型，因此您也可以使用 **COINIT \_ 多執行緒** 旗標來呼叫 [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) 。
+如所示， (CLSID) 的類別識別碼是 CLSID \_ FilterGraph。 篩選 Graph 管理員是由同進程 DLL 提供，因此執行內容是 **CLSCTX \_ INPROC \_ SERVER**。 DirectShow 支援自由執行緒模型，所以您也可以使用 **COINIT \_ 多執行緒** 旗標來呼叫 [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) 。
 
 對 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) 的呼叫會傳回 [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) 介面，此介面大多包含用來建立篩選圖形的方法。 此範例需要兩個其他介面：
 
 -   [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) 控制項串流處理。 它包含用來停止和啟動圖形的方法。
--   [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent) 具有從篩選圖形管理員取得事件的方法。 在此範例中，會使用介面來等候播放完成。
+-   [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent)有方法可從篩選 Graph 管理員取得事件。 在此範例中，會使用介面來等候播放完成。
 
-這兩個介面都是由篩選圖形管理員所公開。 使用傳回的 [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) 指標來查詢它們：
+這兩個介面都是由 Filter Graph Manager 所公開。 使用傳回的 [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) 指標來查詢它們：
 
 
 ```C++
@@ -174,7 +174,7 @@ void main(void)
 
 <dl> <dt>
 
-[基本的 DirectShow 工作](basic-directshow-tasks.md)
+[基本 DirectShow 工作](basic-directshow-tasks.md)
 </dt> </dl>
 
  

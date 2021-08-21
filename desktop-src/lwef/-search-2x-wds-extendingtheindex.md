@@ -1,26 +1,26 @@
 ---
 title: " (舊版 Windows 環境功能擴充索引) "
-description: 瞭解如何在 Windows Desktop Search 2.x 中擴充索引。 針對 windows XP 和 Windows Server 2003 之後的 Windows 版本，請改用 Windows Search。
+description: 瞭解如何在 Windows Desktop Search 2.x 中擴充索引。 針對 Windows Windows XP 和 Windows Server 2003 之後的版本，請改用 Windows Search。
 ms.assetid: vs|search|~\search\wds2x\extending_index_ovr.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63408cfe1efeb8da4d6a4540cc57b99ea56ae935
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d73bbf1ab143bcac581a59467e7a3813511e7b20204434ee5ae7dd7d8893b636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480920"
 ---
 # <a name="extending-the-index-legacy-windows-environment-features"></a> (舊版 Windows 環境功能擴充索引) 
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在之後的版本中，請改用 [Windows Search](../search/-search-3x-wds-overview.md) 。
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在之後的版本中，請改用[Windows Search](../search/-search-3x-wds-overview.md) 。
 
-使用和開發 Microsoft Windows 桌面搜尋的2.x 版 (WDS) 強烈建議您改用 [Windows Search](../search/-search-3x-wds-overview.md)。
+針對2.x 版的 Microsoft Windows Desktop)  (搜尋使用和開發，強烈建議您不要使用[Windows Search](../search/-search-3x-wds-overview.md)。
 
-您可以擴充 WDS 來為新檔案類型和資料存放區的內容編制索引。 目前，WDS 2.x 包含超過200種專案類型的篩選 (包括 HTML、XML 和原始程式碼檔案等純文字專案) ，並使用與 SharePoint 服務相同的 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)和通訊協定處理常式技術。 如果您已針對新的檔案類型安裝篩選器，WDS 可以使用現有的篩選介面來為此資料編制索引。
+您可以擴充 WDS 來為新檔案類型和資料存放區的內容編制索引。 目前，WDS 2.x 包含超過200種專案類型的篩選 (包括 HTML、XML 和原始程式碼檔案等純文字專案) ，並使用與 SharePoint Services 相同的 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)和通訊協定處理常式技術。 如果您已針對新的檔案類型安裝篩選器，WDS 可以使用現有的篩選介面來為此資料編制索引。
 
-WDS 2.x 增益集可讓索引進行資料和資料結構的往返分析，以取得要新增至可搜尋目錄的資訊。 這些增益集也可以擴充 Windows Shell，將圖示和內容功能表處理常式與新的檔案類型和資料存放區產生關聯。 若要在 WDS 目錄中包含新的檔案類型，增益集必須執行 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)介面。 若要加入新的資料存放區，增益集必須是通訊協定處理常式。 如果新的資料存放區包含內嵌檔案或新的檔案類型本身，您也必須撰寫適當的篩選。
+WDS 2.x 增益集可讓索引進行資料和資料結構的往返分析，以取得要新增至可搜尋目錄的資訊。 這些增益集也可以擴充 Windows Shell，以將圖示和內容功能表處理常式與新的檔案類型和資料存放區產生關聯。 若要在 WDS 目錄中包含新的檔案類型，增益集必須執行 [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)介面。 若要加入新的資料存放區，增益集必須是通訊協定處理常式。 如果新的資料存放區包含內嵌檔案或新的檔案類型本身，您也必須撰寫適當的篩選。
 
 > [!Note]
 >

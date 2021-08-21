@@ -4,12 +4,12 @@ ms.assetid: 4a26bf84-55ab-43c0-9c2d-8d67270e19bf
 title: IWindowsDriverUpdate5 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b77eacf48a5762ba1a5141466d04235021350056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 656872ecb4df314a9b933dd896769e257bb763ebd2c0fd91603e76c33bbcc67d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118106263"
 ---
 # <a name="iwindowsdriverupdate5-properties"></a>IWindowsDriverUpdate5 屬性
 
@@ -20,7 +20,7 @@ ms.locfileid: "106972592"
 | 屬性                                                     | 描述                                                                                                                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AutoDownload**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autodownload)   | 取得 [**AutoDownloadMode**](/windows/win32/api/wuapi/ne-wuapi-autodownloadmode) 值，指出更新的自動下載模式。                                          |
-| [**AutoSelection**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autoselection) | 取得 [**AutoSelectionMode**](/windows/win32/api/wuapi/ne-wuapi-autoselectionmode) 值，指出 Windows Update 主控台中更新的自動選取模式。 |
+| [**AutoSelection**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdate5-get_autoselection) | 取得 [**AutoSelectionMode**](/windows/win32/api/wuapi/ne-wuapi-autoselectionmode)值，指出 Windows Update 主控台中更新的自動選取模式。 |
 
 
 

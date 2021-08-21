@@ -3,7 +3,7 @@ title: 'WM_CAP_FILE_GET_CAPTURE_FILE 訊息 (Vfw .h) '
 description: WM \_ CAP 檔案 \_ 取得捕獲檔案訊息會傳回 \_ 目前 CAPTURE 檔案的 \_ \_ 名稱。 您可以使用 capFileGetCaptureFile 宏明確地傳送此訊息。
 ms.assetid: 86ce2904-834d-449f-9ef8-5a158c55bbaa
 keywords:
-- WM_CAP_FILE_GET_CAPTURE_FILE message Windows 多媒體
+- WM_CAP_FILE_GET_CAPTURE_FILE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7008e0b217f29ad9602afbdc41cc97f9cb7ecaa3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 462f919458078129f6756782c2fde5322b3cd814c3108cb0ba8ee24e2f54c022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135316"
 ---
 # <a name="wm_cap_file_get_capture_file-message"></a>WM \_ CAP \_ 檔案 \_ 取得 \_ 捕獲檔案 \_ 訊息
 
@@ -41,7 +41,7 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 <span id="wSize"></span><span id="wsize"></span><span id="WSIZE"></span>*wSize*
 </dt> <dd>
 
-**>szname** 所參考的應用程式定義緩衝區大小（以位元組為單位）。
+**>Szname** 所參考的應用程式定義緩衝區大小（以位元組為單位）。
 
 </dd> <dt>
 

@@ -105,7 +105,7 @@ ms.locfileid: "118343600"
 
 
 
-| 元素                                                                       | 類型                                                                       | Description                                                                                                                                                      |
+| 元素                                                                       | 類型                                                                       | 描述                                                                                                                                                      |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**管道**](eventmanifestschema-channels-metadatatype-element.md)         | [**ChannelListType**](eventmanifestschema-channellisttype-complextype.md) | 定義提供者可以記錄事件的通道清單。 然後，提供者可以在其資訊清單中匯入一或多個通道。<br/>               |
 | [**關鍵 字**](eventmanifestschema-keywords-metadatatype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md) | 定義關鍵字清單，以決定提供者寫入的事件類別。<br/>                                                            |
@@ -123,7 +123,7 @@ ms.locfileid: "118343600"
 
 
 
-| 名稱    | 類型                                                              | Description                                                                                        |
+| 名稱    | 類型                                                              | 描述                                                                                        |
 |---------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | 字串資料表中當地語系化字串的參考。<br/>                                |
 | mid     | xs:string                                                         | 未使用。<br/>                                                                               |

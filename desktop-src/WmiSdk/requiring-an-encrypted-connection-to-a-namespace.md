@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 需要命名空間的加密連接
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e42415c0f714f99a51d6a1a0ee1a0b22f398b1b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6dc7ae1e2833937b5c902a1a9cc8994836ee3a0413d3ed54cf3fdd2819e6d3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117923064"
 ---
 # <a name="requiring-an-encrypted-connection-to-a-namespace"></a>需要命名空間的加密連接
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a76ccafcd72c57e5aaabf0f5f4981d81942cad44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a31e0420a606052f83201a967bd5396789468d910c552f1f4f5bdff4f12f41a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118485517"
 ---
 # <a name="sessiontostring-method"></a>Session ToString 方法
 

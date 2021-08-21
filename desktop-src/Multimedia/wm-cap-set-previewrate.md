@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_PREVIEWRATE 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 設定 \_ PREVIEWRATE 訊息會以預覽模式設定畫面格顯示速率。 您可以使用 capPreviewRate 宏明確地傳送此訊息。
 ms.assetid: 1189ad4a-1f32-4684-920b-ee3c26ef97f8
 keywords:
-- WM_CAP_SET_PREVIEWRATE message Windows 多媒體
+- WM_CAP_SET_PREVIEWRATE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1134255b73e579841800af6cd5f6900965217106
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa9b9a24614a40c5efb545b91a80069bf915c77c4b7d8fb289ed581f750ac0cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135080"
 ---
 # <a name="wm_cap_set_previewrate-message"></a>WM \_ CAP \_ 設定 \_ PREVIEWRATE 訊息
 

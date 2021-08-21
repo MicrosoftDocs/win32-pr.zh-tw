@@ -1,5 +1,5 @@
 ---
-description: 由 Shell 所執行，以協助編寫腳本和 Microsoft Visual Basic 開發人員使用 Shell 中提供的一些功能。 ShellUIHelper 物件沒有任何屬性或事件。 提供方法以將專案新增至 Shell。
+description: 由 shell 所執行，以協助編寫腳本和 Microsoft Visual Basic 開發人員使用 shell 中提供的一些功能。 ShellUIHelper 物件沒有任何屬性或事件。 提供方法以將專案新增至 Shell。
 title: 'ShellUIHelper 物件 (Exdisp) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9fffebc8-29b9-4064-b60c-c8c63690a79e
-ms.openlocfilehash: b77d618c4c772859a9009f3cca761c59df83257a
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 86c0030f686cb0d9396c36404df1a8b43ce6b3de6ae8599d0b867cfc129c6af5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047320"
 ---
 # <a name="shelluihelper-object"></a>ShellUIHelper 物件
 
-由 Shell 所執行，以協助編寫腳本和 Microsoft Visual Basic 開發人員使用 Shell 中提供的一些功能。 **ShellUIHelper** 物件沒有任何屬性或事件。 提供方法以將專案新增至 Shell。
+由 shell 所執行，以協助編寫腳本和 Microsoft Visual Basic 開發人員使用 shell 中提供的一些功能。 **ShellUIHelper** 物件沒有任何屬性或事件。 提供方法以將專案新增至 Shell。
 
 ## <a name="members"></a>成員
 
@@ -82,7 +82,7 @@ Windows Vista 下已不再支援此方法。 在該作業系統下，它會傳�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Exdisp。h</dt> </dl>                            |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |

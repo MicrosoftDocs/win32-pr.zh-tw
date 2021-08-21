@@ -4,12 +4,12 @@ ms.assetid: 62bb9717-cc41-4e34-af1a-ff41324bd3a9
 title: 'IMN_SETCONVERSIONMODE 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52c0ba945b9988ddb32d86c2005ec240c16f82ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ff970f5800dee660948bce84a8862f8da93b7390b3742c0de9c9cbdb21d9d7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146100"
 ---
 # <a name="imn_setconversionmode-notification-code"></a>IMN \_ SETCONVERSIONMODE 通知碼
 
@@ -56,7 +56,7 @@ IMN_SETCONVERSIONMODE
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

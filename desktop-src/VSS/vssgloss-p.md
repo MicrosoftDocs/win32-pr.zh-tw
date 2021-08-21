@@ -5,12 +5,12 @@ ms.assetid: 44279c0e-17f4-4109-bc12-af9064cd321e
 title: 'P (磁碟區陰影複製服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f018a19c1d00ff3c6530e7c45fbca2350df8fec6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3dbcf3f9d4938e407b82c58482cabab08156c3b9fabac6c1770ec20d0a40394
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121608"
 ---
 # <a name="p-volume-shadow-copy-service"></a>P (磁碟區陰影複製服務) 
 

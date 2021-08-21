@@ -4,12 +4,12 @@ ms.assetid: 4286b122-2454-4dc3-9c06-9967b7a763dd
 title: 'isDefaultNonOwnerSaveLocation 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edd39ab76ae1b99d6518ca40407d328f5da9778c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae7bbffe620e5d59b3ff7a868048f3518b8fc0ea2737a1597f3594412b8839c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118051530"
 ---
 # <a name="isdefaultnonownersavelocation-element-search-connector-schema"></a>isDefaultNonOwnerSaveLocation 元素 (搜尋連接器架構) 
 

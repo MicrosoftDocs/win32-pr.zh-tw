@@ -3,12 +3,12 @@ description: 概述您在建立應用程式時可以納入的 Windows 協助工�
 title: 開發適用於 Windows 的無障礙應用程式
 ms.topic: article
 ms.date: 04/18/2019
-ms.openlocfilehash: c49bbc4c66d7c86a3a0c245d6782535a349f0ada
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5f8c476c08806b8966cb330877357aa85f6e70b42c87f24963a3f36f429c5128
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118105949"
 ---
 # <a name="developing-accessible-applications-for-windows"></a>開發適用於 Windows 的無障礙應用程式
 

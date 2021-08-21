@@ -4,12 +4,12 @@ description: 工具提示控制項訊息
 ms.assetid: 0ca52be0-ccce-4814-8aab-14a602304d73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f182a47c8ea3eb840fbb954b91974ba832e5f72
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0d4eabfab075a2ba474dd91eb25c398169e2a39b1130a239d8b291011e036b46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106985858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118415308"
 ---
 # <a name="tooltip-control-messages"></a>工具提示控制項訊息
 

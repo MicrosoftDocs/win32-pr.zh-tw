@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WQL-Supported 日期格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01e5741de24943defc4df0e59e7255bc1a37effd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0451778d82905b5ec74d4e6feecb62a63ab630d83a9a5db81f2a10a0488b7c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118106972"
 ---
 # <a name="wql-supported-date-formats"></a>WQL-Supported 日期格式
 

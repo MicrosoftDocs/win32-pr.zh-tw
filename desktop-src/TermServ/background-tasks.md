@@ -5,12 +5,12 @@ ms.assetid: c3688319-dbe7-4be5-8895-622a8f8797d2
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b93169b248fb086b7ccad88aa57c0feae171f91
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c19590d32db21ad08e1d31cbe02e0850bd0964282c8f709207837c3c2a638a12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118131287"
 ---
 # <a name="guidelines-for-background-tasks-in-remote-desktop-services"></a>遠端桌面服務中背景工作的指導方針
 
@@ -18,9 +18,9 @@ ms.locfileid: "106969645"
 
 如需詳細資訊，請參閱偵測 [遠端桌面服務環境](detecting-the-terminal-services-environment.md)。 偵測遠端桌面服務環境之後，您可以使用您用來管理工作的一組相同 Api 來停用或重新設定應用程式的背景工作。
 
- 
+ 
 
- 
+ 
 
 
 

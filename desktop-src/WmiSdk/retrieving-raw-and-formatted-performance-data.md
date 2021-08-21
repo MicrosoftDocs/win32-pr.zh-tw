@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: 取得原始和格式化效能資料物件的檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57ab9cf66aa4536da25102511fdcbcab6bdd5202
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a28f155d89ffe8e01c3a21809c102780bcedbf461e4b3040ab876ed2836c37e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117923074"
 ---
 # <a name="retrieving-documentation-for-raw-and-formatted-performance-data-objects"></a>取得原始和格式化效能資料物件的檔
 
 下列主題描述如何取得動態建立之原始或格式化資料物件的線上程式設計檔。
 
-WMI 包含許多可追蹤效能的物件。 從 [**Win32 \_ PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) 衍生的類別包含原始或「未經處理」效能資料，而且 [效能計數器提供者](performance-counter-provider.md)支援這些資料。 相反地，從 [**Win32 \_ PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) 衍生的類別會包含 "處理後" 或格式化的資料，並受到 [格式化效能 Data Provider](formatted-performance-data-provider.md)的支援。
+WMI 包含許多可追蹤效能的物件。 從 [**Win32 \_ PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) 衍生的類別包含原始或「未經處理」效能資料，而且 [效能計數器提供者](performance-counter-provider.md)支援這些資料。 相反地，從 [**Win32 \_ PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata)衍生的類別會包含 "處理後" 或格式化的資料，並受到 [格式化效能 Data Provider](formatted-performance-data-provider.md)的支援。
 
 不過，這兩個提供者都支援許多動態建立的子類別。 由於屬性是在執行時間加入，因此這些類別可能包含未記載的屬性。 您可以使用下列程式碼來識別特定動態建立類別所擁有的屬性。
 

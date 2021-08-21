@@ -4,12 +4,12 @@ ms.assetid: ef9d594c-31fe-44c0-b707-47c01e2c5bf0
 title: 修訂1：清除明顯的
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 631bea7395000531cce542b41ace3b3aab9afff0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f5da015620727764d686a0c76649e23137de123099b978d323b94184d4df4bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118111609"
 ---
 # <a name="revision-one-cleaning-up-the-obvious"></a>修訂1：清除明顯的
 

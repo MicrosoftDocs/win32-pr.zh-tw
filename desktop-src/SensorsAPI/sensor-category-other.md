@@ -4,12 +4,12 @@ ms.assetid: 866F7BF4-15CC-4F69-9510-B5858D47C4D0
 title: 'SENSOR_CATEGORY_OTHER (的感應器 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e26ece66ae74e873c48cd973cc447beec2dd8f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a16fb192924defc3437d3ca60c85d80864831f8738ac75f67c1cf65e4f60b3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117968735"
 ---
 # <a name="sensor_category_other"></a>其他的感應器 \_ 類別 \_
 
@@ -40,7 +40,7 @@ ms.locfileid: "104026154"
 
 
 
-| 資料欄位名稱和 PID                                                                                                                                                                                                                                                                                    | Description                                                                                              |
+| 資料欄位名稱和 PID                                                                                                                                                                                                                                                                                    | 描述                                                                                              |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|
 | <span id="SENSOR_DATA_TYPE_CUSTOM_USAGE"></span><span id="sensor_data_type_custom_usage"></span><dl> <dt>**感應器 \_資料 \_ 類型 \_ 自訂 \_ 使用**</dt>方式 <dt> (PID = 5)</dt> </dl>                          | **VT \_ UI4**<br/> 可以用來區別多個自訂感應器的 HID 用途。<br/> |
 | <span id="SENSOR_DATA_TYPE_CUSTOM_BOOLEAN_ARRAY"></span><span id="sensor_data_type_custom_boolean_array"></span><dl> <dt>**感應器 \_資料 \_ 類型 \_ 自訂 \_ 布林 \_ 陣列**</dt> <dt> (PID = 6)</dt> </dl> | **VT \_ UI4**<br/> 指定自訂感應器的布林值陣列。<br/>                  |
@@ -63,7 +63,7 @@ ms.locfileid: "104026154"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                            |
 | 標頭<br/>                   | <dl> <dt>感應器。h</dt> </dl> |
 

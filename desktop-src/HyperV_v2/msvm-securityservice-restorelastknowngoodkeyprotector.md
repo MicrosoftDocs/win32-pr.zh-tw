@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2e82fb3b40f4b85e74f92ed2690a411932af2eb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ae16b3a6b3107ed4064c1036ec934f7f5e1c279e016c00967925fbe053cb2e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147217"
 ---
 # <a name="restorelastknowngoodkeyprotector-method-of-the-msvm_securityservice-class"></a>Msvm SecurityService 類別的 RestoreLastKnownGoodKeyProtector 方法 \_
 

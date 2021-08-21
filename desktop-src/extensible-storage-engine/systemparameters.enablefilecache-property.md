@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3a0714931860cf8dcce767995f9766bb5440743e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7c6635f4c7c4e6f82aa9c001fd60c7a4bbdc30b0b9b5878d320c77a1f2f1531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118484984"
 ---
 # <a name="systemparametersenablefilecache-property"></a>SystemParameters. EnableFileCache 屬性
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f59c4c342f693038040f374bbdbcdb8ab226f74d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1ac2d874f6138bcc1fbc97952d4464e56e05b0a497c7b0ff98e9c05e8c8434e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133453"
 ---
 # <a name="initializenapagentnotifier-function"></a>InitializeNapAgentNotifier 函式
 
@@ -64,7 +64,7 @@ NAPAPI HRESULT WINAPI InitializeNapAgentNotifier(
 
 
 
-| 傳回碼                                                                                                | Description                                                                                               |
+| 傳回碼                                                                                                | 描述                                                                                               |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 初始化已順利完成。<br/>                                                         |
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                     | 初始化失敗。<br/>                                                                         |
@@ -89,8 +89,8 @@ NAPAPI HRESULT WINAPI InitializeNapAgentNotifier(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>NapUtil。h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 

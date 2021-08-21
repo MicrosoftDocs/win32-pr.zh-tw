@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: a0d3a862e225e5eabfb5ffc46eef548e6205a366
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 2f741b734c985e96eeab67d17144e3439fac03fba9fff9093188d1001d8d58bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "107001262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487088"
 ---
 # <a name="jet_columnidtostring-method-overload-list"></a>JET_COLUMNID。ToString 方法多載清單
 

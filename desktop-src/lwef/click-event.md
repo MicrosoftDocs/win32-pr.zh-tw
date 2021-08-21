@@ -4,16 +4,16 @@ description: 點選事件
 ms.assetid: 772029d5-97b6-49d8-a989-04f0fc429aca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3956d19e833a3e0a5f71192b2846ef9cb270ad10
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1bc10726c91612a6d43c4b7f8ceb0509fc347904f1328c9b99a3ec05d8e2eb0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480184"
 ---
 # <a name="click-event"></a>點選事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -40,7 +40,7 @@ ms.locfileid: "104372461"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -51,11 +51,11 @@ ms.locfileid: "104372461"
 > [!Note]  
 > 按一下字元並不會停用所有其他字元輸出 (所有字元) 。 不過，按接聽鍵會排清輸入-主動字元的輸出，並觸發 [**RequestComplete**](requestcomplete-event.md) 事件，並傳遞 [要求。](status-property.md) 表示用戶端佇列已中斷的狀態。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

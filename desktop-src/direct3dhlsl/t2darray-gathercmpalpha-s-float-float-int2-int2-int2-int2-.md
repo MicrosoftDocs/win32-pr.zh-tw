@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e4fd93ed3925d9eaa27b369ffa44b2cc2ffde0f2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 55ebf6ef972f7fcaecb989873f27cb06e4eacb0cce68cbd8172f6b3d4bf9fe5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118284861"
 ---
 # <a name="texture2darraygathercmpalphasfloatfloatint2int2int2int2-function"></a>Texture2DArray：： GatherCmpAlpha (S、float、float、int2、int2、int2、int2) 函數
 
@@ -122,7 +122,7 @@ TemplateType GatherCmpAlpha(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

@@ -15,12 +15,12 @@ keywords:
 - 介面，ISynchronizedInputProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 105e75163fdac742adaad6b778c251b4b7b8ae70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91aa4ad93a30be26ebcbc463ade3a27d896d61727508965a86d1ed229b7d79be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106984933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114849"
 ---
 # <a name="synchronizedinput-control-pattern"></a>SynchronizedInput 控制項模式
 
@@ -60,7 +60,7 @@ ms.locfileid: "106984933"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -69,9 +69,9 @@ ms.locfileid: "106984933"
 [UI 自動化控制項模式概觀](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

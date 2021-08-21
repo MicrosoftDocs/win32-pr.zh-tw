@@ -4,12 +4,12 @@ ms.assetid: 26cbacc2-d26b-434b-91b5-31aedc96da13
 title: 建立、修改和刪除變更日誌
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50c8cf7296f93549e7d9ec05f5d614131cc342ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3d4cf9a597baa14fc929028eab262479da30797a2e423b779083f028927ce50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150864"
 ---
 # <a name="creating-modifying-and-deleting-a-change-journal"></a>建立、修改和刪除變更日誌
 

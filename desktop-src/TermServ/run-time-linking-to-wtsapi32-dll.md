@@ -5,12 +5,12 @@ ms.assetid: b8227e65-be08-4045-a74e-dd3f398a7b9f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c53a992955876bf812a87168d2c74b776cf0d4e6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bc686f26029ee9bfa4332215e27a587a7e57b78de9bd0d1043ee58541ef76194
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118127493"
 ---
 # <a name="run-time-linking-to-wtsapi32dll"></a>Run-Time 連結至 Wtsapi32.dll
 
@@ -27,6 +27,6 @@ ms.locfileid: "104376101"
 [一般程式設計指導方針](general-programming-guidelines.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

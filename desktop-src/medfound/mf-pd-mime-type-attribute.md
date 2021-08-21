@@ -4,12 +4,12 @@ ms.assetid: bbcfb3e6-a86a-4621-b8d9-92ace60e8c10
 title: 'MF_PD_MIME_TYPE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce1893253af139a73555d3a4fd483e9f59c5ae1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebb68e9b45d51b9fe4732957ef60a4496ca57df5be0185f46a7e28204217b4ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118059638"
 ---
 # <a name="mf_pd_mime_type-attribute"></a>MF \_ PD \_ MIME \_ 類型屬性
 
@@ -35,8 +35,8 @@ MF \_ PD \_ MIME \_ 類型和 [MIMEType](../properties/props-system-mimetype.md)
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

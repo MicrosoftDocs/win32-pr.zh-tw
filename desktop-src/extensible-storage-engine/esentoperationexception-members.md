@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102373
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: fd0f280a8f8e552b82c4a90dd085537f02a2116f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87d89ac71181be6a48c0f06a729461d04ec5467b18d1f154f905bed8640ef300
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118493626"
 ---
 # <a name="esentoperationexception-members"></a>EsentOperationException 成員
 

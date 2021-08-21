@@ -4,12 +4,12 @@ ms.assetid: 72455193-cd17-45f8-b19c-a1f735ff81bf
 title: 'IMN_SETSENTENCEMODE 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0130c5b3d7284112e64cca698b358650f51f3642
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30a5fa976bbd28e86d5b46eec074e5ed802cc0a32e1c7c1c86b0e01a4629fe13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145944"
 ---
 # <a name="imn_setsentencemode-notification-code"></a>IMN \_ SETSENTENCEMODE 通知碼
 
@@ -56,7 +56,7 @@ IMN_SETSENTENCEMODE
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

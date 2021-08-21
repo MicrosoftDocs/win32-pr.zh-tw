@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 327ac9009cf1b8fb9ccfbcc460cde78ef40b3802
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a6686d3911123eee91dabec1f8750be7f80a6d8dc9c434d893560278ad291ded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116206"
 ---
 # <a name="iwmpcdromripstartrip-method"></a>IWMPCdromRip：： startRip 方法
 
@@ -55,7 +55,7 @@ Implements IWMPCdromRip.startRip
 
 ## <a name="remarks"></a>備註
 
-使用 **IWMPCdromRip** 介面來將 CD 翻錄，與使用 Windows Media Player 使用者介面來將音樂翻錄的效果相同。 已翻錄的內容會根據使用者的喜好設定自動新增至程式庫。 如需 CD 翻錄使用者喜好設定的詳細資訊，請參閱 Windows Media Player 說明中的「從 Cd 翻錄音樂」。
+使用 **IWMPCdromRip** 介面來將 CD 翻錄，與使用 Windows Media Player 使用者介面來將音樂翻錄的效果相同。 已翻錄的內容會根據使用者的喜好設定自動新增至程式庫。 如需 CD 翻錄使用者喜好設定的詳細資訊，請參閱 Windows Media Player 說明中的「從 cd 翻錄音樂」。
 
 ## <a name="requirements"></a>規格需求
 

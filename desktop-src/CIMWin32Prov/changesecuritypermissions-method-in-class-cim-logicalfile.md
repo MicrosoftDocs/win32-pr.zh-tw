@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 929e05047af203d8e2344afa8175228e3bd969fd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0c85bbbe516fba9d86941edbb0a599b0483c4f3a843abab6fc5b13fb38f1d234
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010363"
 ---
 # <a name="changesecuritypermissions-method-of-the-cim_logicalfile-class"></a>CIM LogicalFile 類別的 ChangeSecurityPermissions 方法 \_
 
@@ -182,7 +182,7 @@ uint32 ChangeSecurityPermissions(
 
 12
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

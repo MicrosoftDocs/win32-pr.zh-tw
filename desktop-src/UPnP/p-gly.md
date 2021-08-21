@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: d11e5384-3fb8-4c3f-9668-511424cc51e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b3b5a53fc585355f3c38c2f21b12fa39db558f1
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 4e0a074f6a6759a7a3333c0cb6efc87f7e3892e7522eb9ea2b016fe7b73cfb62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126363"
 ---
 # <a name="p-upnp-apis"></a>P (UPnP Api) 
 

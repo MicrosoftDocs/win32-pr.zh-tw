@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: bc255441ca82c86542dd8dd4729564122df6c719
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: cc5e1bdbd99b234b347d0b9c10caa7125aead9b68138472e125c8e2a11180609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "103933033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437115"
 ---
 # <a name="journalrecordproc-function"></a>JournalRecordProc 函式
 
@@ -127,4 +127,4 @@ LRESULT CALLBACK JournalRecordProc(
 
 [WM_CANCELJOURNAL](wm-canceljournal.md)
 
-[鉤](hooks.md)
+[勾點](hooks.md)

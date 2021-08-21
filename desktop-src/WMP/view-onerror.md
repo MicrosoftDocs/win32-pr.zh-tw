@@ -1,6 +1,6 @@
 ---
 title: VIEW。 onerror
-description: 如果設定. enableErrorDialogs 設定為 false，onerror 事件就會處理錯誤事件。
+description: 如果設定 enableErrorDialogs 設定為 false，onerror 事件就會處理錯誤事件。
 ms.assetid: cd3ef682-edf2-47e2-a496-07e38dda824d
 keywords:
 - 查看 onerror Windows Media Player
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 92f4ee44df7d40e5ce225c14419628c8299029a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff624a9357f1362eef4d2a8c9526c64fc28354bb67bb4d44da30771abb26718f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116581"
 ---
 # <a name="viewonerror"></a>VIEW。 onerror
 
-如果設定 **. enableErrorDialogs** 設定為 false， **onerror** 事件就會處理錯誤事件。
+如果 **設定 enableErrorDialogs** 設定為 false， **onerror** 事件就會處理錯誤事件。
 
 ``` syntax
 onerror

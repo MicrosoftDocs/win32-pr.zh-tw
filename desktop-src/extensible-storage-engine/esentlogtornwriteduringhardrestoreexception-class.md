@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e0ce33334dfc45bcdc2e643a78b8cca9197f3855
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0121041f2ae0c898358ff2b1d01a86dbf6b00e458ee9c56d02fa89a4086f430f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118080276"
 ---
 # <a name="esentlogtornwriteduringhardrestoreexception-class"></a>EsentLogTornWriteDuringHardRestoreException 類別
 

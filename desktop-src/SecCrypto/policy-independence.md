@@ -4,12 +4,12 @@ ms.assetid: ad79dc0d-6457-4459-80e6-ab340436ecac
 title: 原則獨立性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c0d99b5babeced0fb87d9e603038e23a40859b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a63afc249905dc03602e38458ba326674e033648669e3187d44e58a188b122d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978964"
 ---
 # <a name="policy-independence"></a>原則獨立性
 

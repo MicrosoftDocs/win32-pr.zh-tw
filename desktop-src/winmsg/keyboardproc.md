@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: a042a1a92900713bdf49ba8d866031bfdcb5c6a8
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: ed2f3943667d09f42a7bc843adac69eaa4043454d93b409b193513b8ab43fd63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "106968689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437153"
 ---
 # <a name="keyboardproc-function"></a>KeyboardProc 函式
 
@@ -127,4 +127,4 @@ LRESULT CALLBACK KeyboardProc(
 
 [WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown)
 
-[鉤](hooks.md)
+[勾點](hooks.md)

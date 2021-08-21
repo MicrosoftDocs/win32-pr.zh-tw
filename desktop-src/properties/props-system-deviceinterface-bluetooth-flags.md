@@ -1,17 +1,17 @@
 ---
 description: 藍牙裝置旗標。
 ms.assetid: 12923ba7-51fa-4cfc-be74-91e3a5049aee
-title: DeviceInterface。
+title: DeviceInterface。藍牙。標誌
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a873989421d37a44096cd488bbbb433375ace4e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac1ab955d313f24edc0afae62d866f7396a58b09114944bedc6988486aa25498
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055094"
 ---
-# <a name="systemdeviceinterfacebluetoothflags"></a>DeviceInterface。
+# <a name="systemdeviceinterfacebluetoothflags"></a>DeviceInterface。藍牙。標誌
 
 藍牙裝置旗標。
 
