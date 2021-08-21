@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 57019ee8844f73fdb6cf6e7943e7e22f72d2c98b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c01ec87fb8e1d9b33fd88806b0d2798e2b13e76eea2ec47b4e1766a7e10201f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954147"
 ---
 # <a name="coutputqueuem_bsendanyway-member"></a>COutputQueue：： m \_ bSendAnyway 成員
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 7aff6c9e08351ce771669535a98ec817bfc4aaf5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf56f199ae0d367517558a12a0e84bf8ce26e7bdf5f70625b878066152d0b696
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905607"
 ---
 # <a name="ssllookupciphersuiteinfo-function"></a>SslLookupCipherSuiteInfo 函式
 
@@ -96,7 +96,7 @@ SECURITY_STATUS WINAPI SslLookupCipherSuiteInfo(
 
 
 
-| 傳回碼/值                                                                                                                                                    | Description                                        |
+| 傳回碼/值                                                                                                                                                    | 描述                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | <dl> 不 <dt>**超過 \_不正確 \_ 控制碼**</dt> <dt>0x80090026L</dt> </dl> | *HSslProvider* 控制碼無效。<br/> |
 
@@ -110,8 +110,8 @@ SECURITY_STATUS WINAPI SslLookupCipherSuiteInfo(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Sslprovider。h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

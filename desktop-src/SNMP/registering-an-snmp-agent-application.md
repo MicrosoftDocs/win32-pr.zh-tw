@@ -4,12 +4,12 @@ description: 除了 SNMP 管理員作業之外，WinSNMP API 版本2.0 也支援
 ms.assetid: 473560b5-4611-410e-aeae-764c9c76e765
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40922469c52e33e4b5c2f408c1c107b6784529f5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c3415e511639c7cbbc18455ed93be74e11414c1f442797c8b72f7456092757c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009126"
 ---
 # <a name="registering-an-snmp-agent-application"></a>註冊 SNMP 代理程式應用程式
 
@@ -26,9 +26,9 @@ ms.locfileid: "103932389"
 
 如需 SNMP 管理應用程式和代理程式應用程式的詳細資訊，請參閱 [關於 snmp](about-snmp.md)。
 
- 
+ 
 
- 
+ 
 
 
 

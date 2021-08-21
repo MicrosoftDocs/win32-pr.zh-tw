@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b915cde61309a64b77309e375284a4e5d9343724
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3bda4a6c3144d18e4253ea767427804ca92e8f1c5161c5c9371db749db40fd8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043416"
 ---
 # <a name="texturecubegatheralphasfloatuint-function"></a>TextureCube：： GatherAlpha (S，float，uint) 函數
 
@@ -82,7 +82,7 @@ TemplateType GatherAlpha(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'M (WMI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48b115b982b24325d9e0c23f556b763d9ef01c84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96818ce75869c873463fa983ffa4df5b0aaf4702b14557cbed698fbc7ab78c1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118819316"
 ---
 # <a name="m-wmi"></a>M (WMI) 
 
@@ -61,14 +61,14 @@ CIM 元件，描述代表 *managed 物件* 的實體和關聯性。 例如，類
 
 </dd> <dt>
 
-<span id="wmi.gloss_mib"></span><span id="WMI.GLOSS_MIB"></span>**Mib**
+<span id="wmi.gloss_mib"></span><span id="WMI.GLOSS_MIB"></span>**MIB**
 </dt> <dd>
 
 請參閱 *管理資訊基底 (MIB)*。
 
 </dd> <dt>
 
-<span id="wmi.gloss_mof"></span><span id="WMI.GLOSS_MOF"></span>**Mof**
+<span id="wmi.gloss_mof"></span><span id="WMI.GLOSS_MOF"></span>**MOF**
 </dt> <dd>
 
 請參閱 *受控物件格式 (MOF)*。

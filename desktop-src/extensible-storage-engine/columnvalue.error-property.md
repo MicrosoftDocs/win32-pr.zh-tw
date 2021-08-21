@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8ff03f39b1721aed9cb3793119e721184836ee74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ffbbb66992ecff218b7fdbd7577e2ffbd9f63694ae41967ebc8240f84ebe3f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042356"
 ---
 # <a name="columnvalueerror-property"></a>ColumnValue。 Error 屬性
 

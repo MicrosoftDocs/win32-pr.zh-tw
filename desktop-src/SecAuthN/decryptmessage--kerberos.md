@@ -4,12 +4,12 @@ ms.assetid: 9e699f7c-f738-4702-bdef-fb2c276c38fc
 title: DecryptMessage (Kerberos) 函數
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: b32968ea83ca0403a5d8dd1579c4e03f30776c19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62add8d4b33f356aeae5bbbf8fa16b19a0b5e419e0ab6c0a6847a3ed087ce726
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008536"
 ---
 # <a name="decryptmessage-kerberos-function"></a>DecryptMessage (Kerberos) 函數
 
@@ -62,7 +62,7 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 如果函數無法解密訊息，則會傳回下列其中一個錯誤碼。
 
-| 傳回碼                     | Description                                                                                                                                                                      |
+| 傳回碼                     | 描述                                                                                                                                                                      |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SEC \_ E \_ 未完成 \_ 訊息** | 輸入緩衝區中的資料不完整。 應用程式需要從伺服器讀取更多資料，並再次呼叫 [**DecryptMessage (Kerberos)**](decryptmessage--kerberos.md) 。 |
 | **SEC \_ E \_ \_ \_ 順序**   | 未以正確的順序接收訊息。                                                                                                                            |
@@ -73,14 +73,14 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 如需與 GSSAPI 交互操作的詳細資訊，請參閱 [SSPI/Kerberos 與 GSSAPI 的互通性](sspi-kerberos-interoperability-with-gssapi.md)。
 
-**WINDOWS XP：** 此函數也稱為 **UnsealMessage**。 應用程式現在應該只使用 **DecryptMessage (Kerberos)** 。
+**Windows XP：** 此函數也稱為 **UnsealMessage**。 應用程式現在應該只使用 **DecryptMessage (Kerberos)** 。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------|
-| 最低支援的用戶端 | \[僅限 WINDOWS XP desktop 應用程式\]          |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\] |
+| 最低支援的用戶端 | Windows\[僅限 XP desktop 應用程式\]          |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\] |
 | 標頭                   | Sspi (包含 Security .h)                |
 | 程式庫                  | Secur32 .lib                               |
 | DLL                      | Secur32.dll                               |

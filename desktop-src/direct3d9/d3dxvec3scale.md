@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e5357b862b9cf82e458429edea27001163eb9635
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5fe84ca9a1a718c14e582007933051d07683252915bca8a99b77316bc7fc9b22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044526"
 ---
 # <a name="d3dxvec3scale-function"></a>D3DXVec3Scale 函式
 

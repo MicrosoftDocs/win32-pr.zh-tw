@@ -4,12 +4,12 @@ ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 title: DecryptMessage (Digest) 函數
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 5363a5efc79d78c9c88e4a817c1c341e0e0f9c02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9ea0cc2f0ea0cbe10a91ba48fd7d6396532fd1867d9fe84043aa008df507446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008626"
 ---
 # <a name="decryptmessage-digest-function"></a>DecryptMessage (Digest) 函數
 
@@ -64,7 +64,7 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 如果函數無法解密訊息，則會傳回下列其中一個錯誤碼。
 
-| 傳回碼                         | Description                                                                                                                                                                  |
+| 傳回碼                         | 描述                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SEC \_ E \_ 緩衝區 \_ 太 \_ 小**      | 訊息緩衝區太小。 搭配摘要 SSP 使用。                                                                                                                   |
 | **SEC \_ E \_ 加密 \_ 系統 \_ 無效** | 不支援為 [*安全性內容*](../secgloss/s-gly.md)選擇的 [*加密*](../secgloss/c-gly.md)。 搭配摘要 SSP 使用。                                                                                       |
@@ -78,14 +78,14 @@ KERB_WRAP_NO_ENCRYPT 具有相同的值和相同的意義。</blockquote><br/></
 
 有時候，應用程式會從遠端方讀取資料、嘗試使用 **DecryptMessage (digest)** 將資料解密，併發現 **DecryptMessage (Digest)** 成功，但輸出緩衝區是空的。 這是正常行為，而且應用程式必須能夠處理它。
 
-**WINDOWS XP：** 此函數也稱為 **UnsealMessage**。 應用程式現在應該只使用 **DecryptMessage (Digest)** 。
+**Windows XP：** 此函數也稱為 **UnsealMessage**。 應用程式現在應該只使用 **DecryptMessage (Digest)** 。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |--------------------------|-------------------------------------------|
-| 最低支援的用戶端 | \[僅限 WINDOWS XP desktop 應用程式\]          |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\] |
+| 最低支援的用戶端 | Windows\[僅限 XP desktop 應用程式\]          |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\] |
 | 標頭                   | Sspi (包含 Security .h)                |
 | 程式庫                  | Secur32 .lib                               |
 | DLL                      | Secur32.dll                               |

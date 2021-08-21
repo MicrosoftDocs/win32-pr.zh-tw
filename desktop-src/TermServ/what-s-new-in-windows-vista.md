@@ -1,20 +1,20 @@
 ---
-title: Windows Vista 中適用于終端機服務的新功能
-description: Windows Vista 為終端機服務引進了下列新的程式設計項目。
+title: 適用于終端機服務 Windows Vista 的新功能
+description: WindowsVista 為終端機服務引進了下列新的程式設計項目。
 ms.assetid: f5c0311e-ae54-4871-acac-ed5dcbe353d7
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39dae6d3041c42eea7cd94fc76ab2d2771348379
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 7665b651973d63988634c0c68ed169538d35ecd639365f1a2180dcd3951e891d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106986135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118850225"
 ---
-# <a name="whats-new-in-windows-vista-for-terminal-services"></a>Windows Vista 中適用于終端機服務的新功能
+# <a name="whats-new-in-windows-vista-for-terminal-services"></a>適用于終端機服務 Windows Vista 的新功能
 
-Windows Vista 為終端機服務引進了下列新的程式設計項目。
+WindowsVista 為終端機服務引進了下列新的程式設計項目。
 
 -   [**IMsRdpClient5**](imsrdpclient5.md)
 -   [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md)

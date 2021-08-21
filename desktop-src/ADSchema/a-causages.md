@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 704d78ee9c085749fd61b65bdf3f21e3710321da
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9362d621a84b8f017d0e8a42201c54866217e535a9d29f41913aadad1b2bee3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022656"
 ---
 # <a name="ca-usages-attribute"></a>CA-Usages 屬性
 

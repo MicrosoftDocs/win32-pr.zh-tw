@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3ec3e65cfc4acb5a903bcf18d2f707d39127e975
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 869bd40b49801a1469ca08baa3a493cc23e6f6238624380411c8d91de829c79b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990368"
 ---
 # <a name="id3dx10meshgetdeviceindexbuffer-method"></a>ID3DX10Mesh：： GetDeviceIndexBuffer 方法
 

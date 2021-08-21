@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b96282bd57b6cbef248a7090ad4a297cd5a81740
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e61d28596ec84bab024299824ddd57a0979e075b98ef4136072e21420797910a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104386392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043166"
 ---
 # <a name="texturecubearraygatherbluesfloatuint-function"></a>TextureCubeArray：： GatherBlue (S，float，uint) 函數
 
@@ -82,7 +82,7 @@ TemplateType GatherBlue(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

@@ -4,12 +4,12 @@ ms.assetid: 231b7296-ca80-4918-bae6-674b976db24c
 title: 'MFPKEY_WMADRC_PEAKTARGET 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c40fa68e2b580c5d3e8550d6e46c9f6b9fe4bfc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79f54d15978bb3f6a34c015886d2aeb2a8ec48a0069669e81ea40bbd79353902
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973227"
 ---
 # <a name="mfpkey_wmadrc_peaktarget-property"></a>MFPKEY \_ WMADRC \_ PEAKTARGET 屬性
 
@@ -35,7 +35,7 @@ VT \_ I4
 
 您可以使用 [MFPKEY \_ WMADRC \_ AVGREF](mfpkey-wmadrc-avgrefproperty.md) 和 [MFPKEY \_ WMADRC \_ PEAKREF](mfpkey-wmadrc-peakrefproperty.md) 屬性來計算這個屬性的適當值。
 
-如需動態範圍控制的詳細資訊，請參閱 web 文章 [Windows Media 音訊 Professional 編解碼器功能](/previous-versions/ms867218(v=msdn.10))。
+如需動態範圍控制的詳細資訊，請參閱[Windows Media 音訊 Professional 編解碼器功能](/previous-versions/ms867218(v=msdn.10))的 web 文章。
 
 ## <a name="requirements"></a>規格需求
 
@@ -43,8 +43,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

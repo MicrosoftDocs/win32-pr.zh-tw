@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3005c8fe37a26b11f5155b639f8c151cf59c2cf0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ccde8ba8d3706d32630afebaebdecef67c661b1a00e5268cc26e67d00225b3c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118878646"
 ---
 # <a name="ienumtfrenderingmarkup-interface"></a>IEnumTfRenderingMarkup 介面
 
@@ -27,7 +27,7 @@ ms.locfileid: "104023887"
 
 
 
-| IEnumTfRenderingMarkup 方法            | Description                                                                                                                                            |
+| IEnumTfRenderingMarkup 方法            | 描述                                                                                                                                            |
 |-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [複製](ienumtfrenderingmarkup-clone.md) | **IEnumTfRenderingMarkup：： Clone** 方法會建立枚舉器物件的複本。                                                                  |
 | [下一步](ienumtfrenderingmarkup-next.md)   | **IEnumTfRenderingMarkup：： Next** 方法會從目前位置取得列舉順序中指定的元素數目。          |
@@ -36,7 +36,7 @@ ms.locfileid: "104023887"
 
 
 
- 
+ 
 
 ## <a name="members"></a>成員
 
@@ -47,8 +47,8 @@ ms.locfileid: "104023887"
 > [!Note]  
 > 這個介面目前不在公用標頭檔中。 若要使用此 API，您必須 MIDL 編譯 [原型](prototypes.md)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

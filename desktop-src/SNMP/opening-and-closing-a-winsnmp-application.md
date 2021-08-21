@@ -4,12 +4,12 @@ description: 在呼叫任何其他的 WinSNMP 函數之前，必須先成功呼�
 ms.assetid: ff2b99c9-c2fd-4bb7-8fd5-799e72c4560d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f960a22a6155d3f3eeec770af361fac2c0eb036e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a4aa18f437f8b1a430ad27b40b838859d2e00641bcb4532602715548b370acce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009246"
 ---
 # <a name="opening-and-closing-a-winsnmp-application"></a>開啟和關閉 WinSNMP 應用程式
 
@@ -17,9 +17,9 @@ ms.locfileid: "104021774"
 
 當應用程式不再需要執行程式的服務時，必須呼叫 [**SnmpCleanup**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanup) 函式。 即使 **SnmpCleanup** 可讓實施解除配置配置給應用程式的所有資源，建議應用程式先針對每個開啟的 WinSNMP 會話呼叫 [**SnmpClose**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpclose) 函式一次，以將執行效能最大化。 在終止應用程式之前，必須先呼叫 [**SnmpCleanup**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanup) 作為最後的 WinSNMP 函數。
 
- 
+ 
 
- 
+ 
 
 
 

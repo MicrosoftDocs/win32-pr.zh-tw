@@ -4,12 +4,12 @@ ms.assetid: 1fa6ea9f-fd30-4fa2-a0e6-1647273bcc35
 title: 'MF_MP2DLNA_STATISTICS 屬性 (Mfmp2dlna) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a51620c1ca093a422a5e4657edcfbfaa66ae6cd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47a80bf0682cf6e46845a968122bf512a6e9cff15df8fb8e0312e1c63c8dab0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973617"
 ---
 # <a name="mf_mp2dlna_statistics-attribute"></a>MF \_ MP2DLNA \_ 統計資料屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104512832"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Mfmp2dlna。h</dt> </dl> |
 
 

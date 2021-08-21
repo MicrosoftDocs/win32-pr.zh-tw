@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 25f7a7f3a92c07895529d6dad59df22a7389735d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 987bf0b8b84e574a83211e90dffcd1f636920b1ced0c34b9d1d239515d16cdd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106976979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055996"
 ---
 # <a name="event-opcode-element"></a>事件 (opcode) 元素
 
-\[從 Windows 7 版 Windows SDK 隨附的訊息編譯器開始，此專案已無法再使用。\]
+\[從 Windows SDK Windows 7 版隨附的訊息編譯器開始，此專案已無法再使用。\]
 
 定義工作特定作業碼的事件。
 
@@ -40,8 +40,8 @@ ms.locfileid: "106976979"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

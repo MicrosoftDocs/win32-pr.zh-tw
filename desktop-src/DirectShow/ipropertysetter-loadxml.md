@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 65127d313309ca7d670a99c912531db0657a9b51
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1779c6bcd37baad4bd423d0a46abd3741dd3a7939c1615a5871e6746729558c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952567"
 ---
 # <a name="ipropertysetterloadxml-method"></a>IPropertySetter：： LoadXML 方法
 
@@ -58,7 +58,7 @@ Microsoft XML 剖析器所建立之 XML 元素的 **IUnknown** 介面指標。
 
 
 
-| 傳回碼                                                                                                  | Description                     |
+| 傳回碼                                                                                                  | 描述                     |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                      | 沒有屬性資料。<br/>    |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                         | 成功。<br/>             |
@@ -76,7 +76,7 @@ Microsoft XML 剖析器所建立之 XML 元素的 **IUnknown** 介面指標。
 若要使用此方法，請建立 **IXMLDocument** 物件，並使用它來剖析 XML 檔案。 然後使用 **IXMLDocument** 物件來取出 **IXMLElement** 物件。 如果物件有屬性，您可以將 **IXMLElement** 指標傳遞給 **LoadXML** 方法。 方法會將屬性載入至屬性 setter。
 
 > [!Note]  
-> **IXMLDocument** 和 **IXMLElement** 介面是在 Microsoft XML Core Services (msxml) 1.0 版中執行，但不會在較新版本的 msxml 中執行。
+> **IXMLDocument** 和 **IXMLElement** 介面會在 Microsoft XML Core Services (MSXML) 1.0 版中執行，但不會在較新版本的 MSXML 中執行。
 
  
 
@@ -86,7 +86,7 @@ Microsoft XML 剖析器所建立之 XML 元素的 **IUnknown** 介面指標。
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

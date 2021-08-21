@@ -4,12 +4,12 @@ ms.assetid: ca484eec-31c6-4790-9232-3ed67263f6fb
 title: 陰影複製建立程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4239e2b671edcaeb35b404d9b9411b43316c0212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dae0d0cff8e4afdbecb5c61a934be1a9c9b731cbdbee8778afd714f6802ca2ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056356"
 ---
 # <a name="the-shadow-copy-creation-process"></a>陰影複製建立程式
 
@@ -42,13 +42,13 @@ ms.locfileid: "103690476"
 
 ### <a name="transportable-shadow-copies-on-a-san"></a>SAN 上的可轉移陰影複製
 
-從 Windows Server 2003、Datacenter Edition 和 Windows Server 2003 （Enterprise Edition）開始，VSS 在 SAN 上可提供可轉移的陰影複製集。 從提供者的觀點來看，可在主機之間傳輸 Lun 的觀點來看，不可傳輸和可轉移的陰影複製集之間幾乎沒有任何差異。
+從 Windows Server 2003、Datacenter Edition 和 Windows Server 2003 Enterprise Edition，VSS 可在 SAN 上啟用可轉移的陰影複製集。 從提供者的觀點來看，可在主機之間傳輸 Lun 的觀點來看，不可傳輸和可轉移的陰影複製集之間幾乎沒有任何差異。
 
-**Windows server 2003、Standard Edition、Windows server 2003、Web Edition 和 WINDOWS XP：** 不支援可轉移的陰影複製集。 所有版本的 Windows Server 2003 Service Pack 1 (SP1) 支援可轉移的陰影複製集。
+**Windows server 2003、Standard Edition、Windows Server 2003、Web Edition 和 Windows XP：** 不支援可轉移的陰影複製集。 所有版本的 Windows Server 2003 （含 Service Pack 1） (SP1) 都支援可轉移的陰影複製集。
 
 您必須建立可轉移的陰影複製集，並將 **vss \_ VOLSNAP \_ ATTR 可 \_ 轉移** 屬性新增至 [**\_ vss \_ 磁片區快照集 \_ \_ 屬性**](/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes)列舉所描述的陰影複製內容中。 集合中的所有磁片區都必須是可轉移的。 藉由從 [**IVssHardwareSnapshotProvider：： AreLunsSupported**](/windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported)傳回成功，提供者會指出不僅支援 lun，也可傳輸 lun。 當 VSS 在備份元件檔中記錄 LUN 資訊時，會建立可轉移的陰影複製集。 只有在初始建立之後，才能匯入陰影複製集。
 
-在接收電腦上，要求者會匯入陰影複製集。 [**>ivssbackupcomponents：： ImportSnapshots**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-importsnapshots)方法會使用描述陰影複製集做為輸入的備份元件檔。 匯入的方式如下：
+在接收電腦上，要求者會匯入陰影複製集。 [**>Ivssbackupcomponents：： ImportSnapshots**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-importsnapshots)方法會使用描述陰影複製集做為輸入的備份元件檔。 匯入的方式如下：
 
 1.  VSS 會從備份元件檔中，建立陰影複製 [**VDS \_ LUN \_ 資訊**](/windows/win32/api/vdslun/ns-vdslun-vds_lun_information) 結構的陣列。
 2.  當 VSS 呼叫 [**IVssHardwareSnapshotProvider：： LocateLuns**](/windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-locateluns)時，在 [**IVssHardwareSnapshotProvider：： GetTargetLuns**](/windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns)中產生的 [**VDS \_ LUN \_ 資訊**](/windows/win32/api/vdslun/ns-vdslun-vds_lun_information)結構陣列將會傳遞給提供者。 處理此方法時，提供者應該讓系統能夠看見這些陰影複製 Lun。 提供者不應造成匯流排重新掃描。 VSS 將會觸發重新掃描和列舉，以允許 PNP 探索 Lun，並讓磁片區上線。

@@ -4,18 +4,18 @@ ms.assetid: cce643a4-0942-4f51-b4d8-ff9307b862d2
 title: FollowupIconIndex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7de05fef41c2688aa8e7b41c9364993adadf2e06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 289f3ea35a2f05896365e717e464c84319eb1ec151efb7b7ad9b339ca7505943
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970767"
 ---
 # <a name="systemcommunicationfollowupiconindex"></a>FollowupIconIndex
 
 用於標示為後續追蹤之訊息的圖示索引。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

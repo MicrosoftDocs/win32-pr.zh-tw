@@ -4,12 +4,12 @@ ms.assetid: c8cc040e-fcce-43a0-98c1-db2b2c616ac3
 title: 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b615697e669f8d02e0530a1763309cfe74113467
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1336a690fe7ac1e19a8606912a4f7d538d3842ab6a490d17b89f90f64bbfbc13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970977"
 ---
 # <a name="enum"></a>列舉
 

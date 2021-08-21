@@ -14,18 +14,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9cf44295c9972d7549eb4a82fda7c415ba81c31d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d618a0534592ebe01a961ba9b0fdd462fcda70597b5f909b30e8fb92f6bdbeb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055626"
 ---
 # <a name="iwmdrmdeviceapp-interface"></a>IWMDRMDeviceApp 介面
 
-\[Windows Media DRM 功能已被取代，不應該使用。 請改用 [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) 。\]
+\[Windows 媒體 DRM 功能已被取代，不應該使用。 請改用[Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) 。\]
 
-**IWMDRMDeviceApp** 介面可讓應用程式計量、同步處理授權，以及更新裝置的 DRM 元件。 此介面只適用于支援可攜式裝置之 Windows Media DRM 10 的裝置。
+**IWMDRMDeviceApp** 介面可讓應用程式計量、同步處理授權，以及更新裝置的 DRM 元件。 此介面只適用于支援可攜式裝置 Windows 媒體 DRM 10 的裝置。
 
 若要取得此介面，請呼叫 **CoCreateInstance**，並傳入 CLSID \_ WMDRMDeviceApp。
 

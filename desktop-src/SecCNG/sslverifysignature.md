@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: cb2a50a7f16062f271a89b6061e3f2fa2dd16685
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b020f41822185dfc9e4e2513fc9e299bc35d9bbb258aaeddf6f1e1e8ea7b8cf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905657"
 ---
 # <a name="sslverifysignature-function"></a>SslVerifySignature 函式
 
@@ -104,7 +104,7 @@ SECURITY_STATUS WINAPI SslVerifySignature(
 
 
 
-| 傳回碼/值                                                                                                                                                    | Description                                          |
+| 傳回碼/值                                                                                                                                                    | 描述                                          |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | <dl> 不 <dt>**超過 \_不正確 \_ 控制碼**</dt> <dt>0x80090026L</dt> </dl> | 其中一個提供的控制碼無效。<br/> |
 
@@ -124,8 +124,8 @@ Windows 目前未呼叫 **SslVerifySignature** 函數。 此函式是 SSL 提供
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Sslprovider。h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

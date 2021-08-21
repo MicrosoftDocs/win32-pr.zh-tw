@@ -36,12 +36,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b8539807f21944ab6f4b2c03f04b14a53dffdb4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb14749af6dd3f1fd6cdd1db1fa64d73c8150f8a293261298bf479edbd8a2c15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023506"
 ---
 # <a name="iadsaccesscontrolentry-property-methods"></a>IADsAccessControlEntry 屬性方法
 

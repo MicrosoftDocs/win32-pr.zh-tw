@@ -4,12 +4,12 @@ ms.assetid: 6a69b75b-ee4a-4613-ba05-d2deb42759b7
 title: VShadow 工具範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b65fd2bfa1c390b1bd5310cd80f02e029dbf935f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86ec0a753f2865be98cfed76cd192a73cfc785b3fcdc487f7685c9f4ae7d52e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056346"
 ---
 # <a name="vshadow-tool-examples"></a>VShadow 工具範例
 
@@ -37,7 +37,7 @@ ms.locfileid: "103690463"
 您可以使用產生的 CMD 檔案，對陰影複製執行有限的管理作業。
 
 > [!Note]  
-> [**BackupComplete**](/windows/win32/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete)寫入器事件會在執行 **-exec** 腳本之後傳送。 VSS 會呼叫 **>ivssbackupcomponents：： BackupComplete** 方法，以向寫入器告知備份已完成，而寫入器可能會在此時截斷記錄。 因此，請務必確認陰影/備份確實已完成。 如果備份失敗，您可以在執行的腳本/命令中傳回非零的結束代碼，以取消建立進程。  (在 [Windows 命令列參考](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754340(v=ws.11))中參閱結束命令的檔。 ) 如果自訂命令傳回非零結束代碼，則會取消陰影複製建立，且不會呼叫 **>ivssbackupcomponents：： BackupComplete** 。
+> [**BackupComplete**](/windows/win32/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete)寫入器事件會在執行 **-exec** 腳本之後傳送。 VSS 會呼叫 **>ivssbackupcomponents：： BackupComplete** 方法，以向寫入器告知備份已完成，而寫入器可能會在此時截斷記錄。 因此，請務必確認陰影/備份確實已完成。 如果備份失敗，您可以在執行的腳本/命令中傳回非零的結束代碼，以取消建立進程。  (請參閱 [Windows 命令列參考](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754340(v=ws.11))中的結束命令檔。 ) 如果自訂命令傳回非零結束代碼，則會取消陰影複製建立，且不會呼叫 **>ivssbackupcomponents：： BackupComplete** 。
 
  
 

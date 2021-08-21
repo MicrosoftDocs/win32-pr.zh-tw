@@ -4,12 +4,12 @@ ms.assetid: d140b90c-3a20-49f4-883b-662b6c05dcea
 title: 選取 (Direct3D 9) 的裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfdfa1faf38007f00959ac7263b4538954044688
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f63428e15948e15790364f310d55989a9bbc7339846f7db5d301e316bee4d872
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044246"
 ---
 # <a name="selecting-a-device-direct3d-9"></a>選取 (Direct3D 9) 的裝置
 

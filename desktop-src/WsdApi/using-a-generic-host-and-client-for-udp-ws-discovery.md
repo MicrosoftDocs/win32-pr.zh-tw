@@ -4,12 +4,12 @@ ms.assetid: e82ce911-b2a7-4a57-a2f0-9aca6b74478f
 title: 使用泛型主機和用戶端進行 UDP WS-Discovery
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3289f5205e4e417fe8162b401be6c608432cfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae6af77529116e21848e22812e04322273e08f1f0cf4d107787b4039b2442b19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991488"
 ---
 # <a name="using-a-generic-host-and-client-for-udp-ws-discovery"></a>使用泛型主機和用戶端進行 UDP WS-Discovery
 
@@ -19,11 +19,11 @@ ms.locfileid: "104191722"
 
 **使用泛型主機和用戶端對 UDP WS-MANAGEMENT 進行疑難排解**
 
-1.  開啟 [命令提示字元] 視窗。
+1.  開啟命令提示字元視窗。
 2.  執行下列命令： **WSDDebug \_host.exe/mode 中繼資料/start**
 
     > [!Note]  
-    > 可能會出現 **Windows 安全性警示** ] 對話方塊。 如果是的話，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 主機執行。
+    > 可能會出現 **Windows 安全性警示**] 對話方塊。 如果是的話，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 主機執行。
 
      
 
@@ -38,7 +38,7 @@ ms.locfileid: "104191722"
 
 3.  執行下列命令： **WSDDebug \_client.exe/mode metadata/hello off/resolve** *<id>* 。 取代 *<id>* 為在步驟2中識別的裝置識別碼。
     > [!Note]  
-    > 可能會出現 **Windows 安全性警示** ] 對話方塊。 如果是，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 用戶端執行。
+    > 可能會出現 **Windows 安全性警示**] 對話方塊。 如果是，請按一下 [ **解除封鎖** ]，以允許 WSD Debug 用戶端執行。
 
      
 
@@ -74,7 +74,7 @@ WSD Debug 用戶端可能會在具有許多 DPWS 裝置的網路上產生大量�
 如果裝置識別碼與 EPR 位址不符，則應用程式失敗可能與作業系統或網路環境有關。 失敗可能有一或多個下列原因：
 
 -   應用程式正在錯誤的安全性內容中執行。 請確認應用程式使用正確的認證，而且用戶端和主機具有足夠的許可權可存取網路。
--   防火牆設定錯誤。 遵循 [檢查介面卡和防火牆設定](inspecting-adapter-and-firewall-settings.md) 中的指示，確認 Windows 防火牆設定正確無誤，而且沒有任何其他規則捨棄封包。 您也可以將用戶端和主機複製到「初始化」電腦， (一個預設作業系統安裝尚未加入網域) 的電腦，以便嘗試重現失敗。
+-   防火牆設定錯誤。 遵循[檢查介面卡和防火牆設定](inspecting-adapter-and-firewall-settings.md)中的指示，確認 Windows 防火牆設定是否正確，以及是否沒有任何其他規則捨棄封包。 您也可以將用戶端和主機複製到「初始化」電腦， (一個預設作業系統安裝尚未加入網域) 的電腦，以便嘗試重現失敗。
 -   IPSec 原則封鎖了應用程式。 將用戶端和主機複製到不受 IPSec 原則影響的電腦上，然後嘗試重現失敗。
 
 ## <a name="related-topics"></a>相關主題

@@ -7,12 +7,12 @@ keywords:
 - 延伸模組 ADSI、延伸模組架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 377409f4b9ac36d72d6885e89860b9e6e680b103
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 239a2562054f062464fc924a0f67c31ea3d9fab696fd23e532eab78e1dc66d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023862"
 ---
 # <a name="adsi-extension-architecture"></a>ADSI 擴充功能架構
 
@@ -42,8 +42,8 @@ ADSI 擴充功能會將下列增強功能新增至 COM 匯總，以滿足其需�
 ADSI 支援兩種層級的延伸模組：
 
 -   早期繫結支援。 這是延伸模組的第一個層級。 延伸模組必須支援註冊和執行新的介面。 擴充功能取用者必須使用支援早期繫結的工具或腳本主機，例如 Visual C++ Visual Basic。
--   晚期繫結支援。 當延伸模組滿足所有早期繫結需求，並執行額外的介面 [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension)時，就會發生這種情況。 延伸模組實作者可以使用任何以 Automation 控制器運作的工具，例如 Windows Script Host、Active Server Pages 或具有 VBScript 的 HTML。
+-   晚期繫結支援。 當延伸模組滿足所有早期繫結需求，並執行額外的介面 [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension)時，就會發生這種情況。 延伸模組實作者可以使用任何以 Automation 控制器運作的工具，例如 Windows 腳本主機、使用中的伺服器頁，或使用 VBScript 的 HTML。
 
- 
+ 
 
- 
+ 

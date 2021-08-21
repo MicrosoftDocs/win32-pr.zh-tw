@@ -4,12 +4,12 @@ ms.assetid: 7aa7c9a1-471b-4b40-9967-b1da946c83a5
 title: 範例 C 程式：複製雜湊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a418f1e5e615d8c4b4c0e8a0af3061b9b6f860e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19684dfd452ea887d9106453de1a8e996992042d25fb920b0f10e718cfec4ab3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007796"
 ---
 # <a name="example-c-program-duplicating-a-hash"></a>範例 C 程式：複製雜湊
 

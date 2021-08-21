@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2ebf752dbaf97ceced84b6bd9698faf7b191c07e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 44a4fc7ca8784b3472fea3b0d4f4e657ce615fae05a8cc7372aa3cca0fedb431
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106997352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055836"
 ---
 # <a name="taskeventdefinitiontype-complex-type"></a>TaskEventDefinitionType 複雜類型
 
-\[從 Windows 7 版 Windows SDK 隨附的訊息編譯器開始，就無法再使用 TaskEventDefinitionType 複雜類型。 相反地，請使用工作特定的作業碼來提供相同的功能。\]
+\[從 Windows SDK Windows 7 版隨附的訊息編譯器開始，就無法再使用 TaskEventDefinitionType 複雜類型。 相反地，請使用工作特定的作業碼來提供相同的功能。\]
 
 定義您的提供者可以記錄的工作特定事件。
 
@@ -61,7 +61,7 @@ ms.locfileid: "106997352"
 
 
 
-| 元素                                                                      | 類型                                                                               | Description                                             |
+| 元素                                                                      | 類型                                                                               | 描述                                             |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------|
 | **event**                                                                    | [**EventDefinitionType**](eventmanifestschema-eventdefinitiontype-complextype.md) | 以工作發佈的工作特定事件。<br/> |
 | [**opcode**](eventmanifestschema-opcode-taskeventdefinitiontype-element.md) |                                                                                    | 適用于事件的工作特定作業碼。 <br/>   |
@@ -85,8 +85,8 @@ ms.locfileid: "106997352"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

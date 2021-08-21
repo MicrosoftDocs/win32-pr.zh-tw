@@ -1,17 +1,17 @@
 ---
 description: 當使用者按一下 [視窗] 功能表中的 [最小化]，或應用程式呼叫 ShowWindow 函式並指定值（例如 SW 最小化）時，系統會將應用程式的主視窗減少 (重迭樣式) 至最小化的視窗 \_ 。
 ms.assetid: a52dba49-e4ec-45e2-a00f-211a58e28773
-title: 最小化視窗
+title: 最小化 Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c792a90dba2526b6d09fabf8281fc74ebfe96667
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d9633c3bcba452e4708c6a48557fe547eff03c4e2a6801e3669da2faa768272
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118760028"
 ---
-# <a name="minimized-windows"></a>最小化視窗
+# <a name="minimized-windows"></a>最小化 Windows
 
 當使用者按一下 [視窗] 功能表中的 [最小化]，或應用程式呼叫 [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) 函式並指定值（例如 SW \_ 最小化）時，系統會將應用程式的主視窗減少 (重迭樣式) 至最小化的視窗。 將視窗最小化可減少應用程式在更新主視窗時必須執行的工作量，以加速系統效能。
 

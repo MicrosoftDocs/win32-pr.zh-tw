@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 9f3c58f5-7c04-43e6-b7bc-dc6875a7fefb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5009961983c68737d97a93eebaa1c6111fa17c69
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 41c8b04f4a6b8fb6483037b487fdca8b97925cd17e716feacd18dfb87fae1996
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118879855"
 ---
 # <a name="c-text-services-framework"></a>C (文字服務架構) 
 

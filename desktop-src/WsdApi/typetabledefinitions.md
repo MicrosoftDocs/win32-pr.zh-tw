@@ -4,12 +4,12 @@ ms.assetid: caba3776-fdc2-4a08-8e4c-d8e3b583d7ba
 title: typeTableDefinitions 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed400e9c0d293599ad686354b6493fd7d04b866f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3b73f0c8925fef6f3c4d1c3b8519441f72ba87d7ae4b4c678253e2dcf44169ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991508"
 ---
 # <a name="typetabledefinitions-element"></a>typeTableDefinitions 元素
 

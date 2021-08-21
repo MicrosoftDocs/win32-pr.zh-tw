@@ -5,12 +5,12 @@ ms.assetid: 23cc4771-2dd6-478c-9c7a-43052594cb71
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76f502753a87afc81856524c7ae5565db3af678d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 39547116846cad4d75a1fd9ae1998e602a8084912965a3dd269803c86845cefc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024966"
 ---
 # <a name="initial-medial-and-final-search-strings"></a>初始、中詞和最終搜尋字串
 
@@ -28,9 +28,9 @@ ms.locfileid: "106965768"
 
 最終搜尋字串會比對字串結尾的一組指定字元，並在前面加上萬用字元。 例如，最終搜尋字串 `*ory` 會符合 "Active Directory"。
 
- 
+ 
 
- 
+ 
 
 
 

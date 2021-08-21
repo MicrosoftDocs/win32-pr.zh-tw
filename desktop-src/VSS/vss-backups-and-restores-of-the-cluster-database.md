@@ -4,12 +4,12 @@ ms.assetid: 0dc89b5f-7b95-40c2-8072-77a990bee68f
 title: 叢集資料庫的 VSS 備份和還原
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bdbe0895a0e9630badc04e1c11c6195497ab1e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62feff2cfff2235b3e31c5db8e8752d503de3391b56d452d26f3d46b9aa557b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056236"
 ---
 # <a name="vss-backups-and-restores-of-the-cluster-database"></a>叢集資料庫的 VSS 備份和還原
 

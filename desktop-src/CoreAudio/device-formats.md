@@ -4,12 +4,12 @@ ms.assetid: 591437e4-21ef-42f1-a752-7f50440cbd63
 title: 裝置格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbcd1b611075191e522cf00d959f120abfb3baa9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 332f3ecd4b30213328552077bdef040a63e31992deaf217b77838dd0cd0797f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957337"
 ---
 # <a name="device-formats"></a>裝置格式
 
@@ -19,10 +19,10 @@ ms.locfileid: "104110009"
 
 如果應用程式使用獨佔模式中的裝置，應用程式必須使用音訊硬體明確支援的串流格式。 在獨佔模式中，應用程式和裝置會直接交換音訊資料，而不會由音訊引擎介入。
 
-許多音訊裝置都支援 PCM 和非 PCM 串流格式。 不過，音訊引擎只能混合 PCM 串流。 因此，只有獨佔模式串流可以有非 PCM 格式。 此外，獨佔模式僅支援具有固定資料速率的非 PCM 格式。 固定速率非 PCM 格式的範例是 48-kHz Windows Media 音訊 Professional (WMA Pro) 音訊串流，會在不被解碼的情況下，以數位形式通過索尼/Philips 數位介面 (S/PDIF) 連結。 如需有關透過 S/PDIF 使用 WMA Pro 資料流程的詳細資訊，請參閱下列檔：
+許多音訊裝置都支援 PCM 和非 PCM 串流格式。 不過，音訊引擎只能混合 PCM 串流。 因此，只有獨佔模式串流可以有非 PCM 格式。 此外，獨佔模式僅支援具有固定資料速率的非 PCM 格式。 固定速率非 PCM 格式的範例是 48-kHz Windows Media 音訊 Professional (WMA Pro) 音訊串流，以數位形式傳遞未經過解碼的索尼/Philips 數位介面 (S/PDIF) 連結。 如需有關使用 WMA Pro stream over S/PDIF 的詳細資訊，請參閱下列檔：
 
--   \_ \_ \_ Windows DDK 檔中 wave 格式的 WMA SPDIF wave 格式標記的描述。
--   《 Windows 網站的 [音訊裝置技術](https://www.microsoft.com/whdc/device/audio/default.mspx) 》白皮書中的「音訊驅動程式支援 WMA Pro-S/PDIF 格式」白皮書。
+-   在 \_ \_ \_ Windows DDK 檔中，WAVE 格式 WMA SPDIF wave 格式標記的說明。
+-   「音訊驅動程式支援 WMA Pro over S/PDIF 格式」白皮書的白皮書，[適用于 Windows 網站的音訊裝置技術](https://www.microsoft.com/whdc/device/audio/default.mspx)。
 
 WASAPI 使用 **WAVEFORMATEX** 或 **WAVEFORMATEXTENSIBLE** 結構來指定資料流程格式。 **WAVEFORMATEXTENSIBLE** 結構實際上是一種已擴充的 **WAVEFORMATEX** 結構，可描述更大範圍的格式。 可由獨立 **WAVEFORMATEX** 結構描述的任何格式，也可以透過 **WAVEFORMATEXTENSIBLE** 結構來描述。
 
@@ -48,7 +48,7 @@ WASAPI 使用 **WAVEFORMATEX** 或 **WAVEFORMATEXTENSIBLE** 結構來指定資�
 
 在應用程式使用 **GetMixFormat** 或 **IsFormatSupported** 來尋找適當的共用模式或獨佔模式資料流程格式之後，應用程式就可以呼叫 **initialize** 方法，以使用該格式來初始化資料流程。 嘗試初始化共用模式資料流程的應用程式，其格式與從 **GetMixFormat** 方法取得的混合格式不同，但具有相同數目的通道和混合格式的取樣速率，可能會成功。 在呼叫 **initialize** 之前，應用程式可以呼叫 **IsFormatSupported** 來確認 **initialize** 將接受格式。
 
-音訊引擎用來進行共用模式資料流程內部處理的混合格式，與音訊端點裝置在共用模式中使用的資料流程格式不一定相同。 透過 Windows 多媒體控制台 Mmsys.cpl，使用者可以選取音訊端點裝置在共用模式中運作時將使用的串流格式。 步驟如下：
+音訊引擎用來進行共用模式資料流程內部處理的混合格式，與音訊端點裝置在共用模式中使用的資料流程格式不一定相同。 透過 Windows 多媒體控制台 Mmsys.cpl，使用者可以選取音訊端點裝置在共用模式中運作時將使用的流格式。 步驟如下：
 
 1.  若要執行 Mmsys.cpl，請開啟命令提示字元視窗，然後輸入下列命令：
 

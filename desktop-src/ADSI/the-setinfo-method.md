@@ -8,12 +8,12 @@ keywords:
 - 屬性 ADSI，儲存屬性的目前值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5965a46e5accd2a00adc006fe37511de13ff0df3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e732cefa2d09b92f4fefec2b56f5f2ac8a99f77b2c7720822173cfaa647d7c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023136"
 ---
 # <a name="the-setinfo-method"></a>SetInfo 方法
 
@@ -23,9 +23,9 @@ ms.locfileid: "104300052"
 
 在 [**SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) 呼叫時，如果已使用 [**PutEx**](/windows/desktop/api/Iads/nf-iads-iads-putex) 控制項程式碼（例如 ADS 屬性更新或 ads 屬性）來撰寫任何屬性快取值，則 \_ 會將 \_ \_ \_ 適當的要求傳遞至基礎目錄服務。
 
- 
+ 
 
- 
+ 
 
 
 

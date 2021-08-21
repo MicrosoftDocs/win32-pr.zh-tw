@@ -8,12 +8,12 @@ keywords:
 - ADsPath ADSI、描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b13d2d8b58dd01713fa6382f27714b72651ad6f8
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ad8e1bc59011c1279b340348572fa0681a0d301319f75603b73714df4c9cb96f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023686"
 ---
 # <a name="binding-string"></a>系結字串
 
@@ -69,7 +69,7 @@ Next
 
 
 
-| Name                      | 字元           | 描述                                                                                                                                                                                           |
+| 名稱                      | 字元           | 描述                                                                                                                                                                                           |
 |---------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 雙引號<br/>   | "<br/>        | 用來括住 ADsPath 的任何部分，其可能包含特殊字元，因此字串會以字面方式解讀。 例如，"CN = Name/Prefix"。<br/>                                     |
 | 反斜線<br/>      | \\<br/>       | 用在特殊字元之前，表示它們應該當做常值使用。 如需詳細資訊和特殊字元清單，請參閱 [分辨名稱](/previous-versions/windows/desktop/ldap/distinguished-names)。<br/> |

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: e8dc65c9bff78484f09c355f8eb3d9626372b9b4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bfc36423154bfd56f0695a3a8178b89aefce6e4dfc5a67f3866fa13a99c5e6d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990498"
 ---
 # <a name="d3dx10loadtexturefromtexture-function"></a>D3DX10LoadTextureFromTexture 函式
 

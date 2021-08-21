@@ -5,12 +5,12 @@ ms.assetid: C0F9A52C-483D-40B2-9E1F-CB92ADDC2856
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 11/27/2018
-ms.openlocfilehash: 99ec8516634a0a59262df9862e03732c9d6d579a
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 3b229932083d424d3ee767866e8465ff4f8de70dbb4bb9536f5096dcb607544b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "106993721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989697"
 ---
 # <a name="core-functions"></a>核心功能
 
