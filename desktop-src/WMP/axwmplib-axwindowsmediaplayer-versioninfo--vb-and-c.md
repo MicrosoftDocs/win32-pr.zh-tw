@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2f759c2aedb19e21c4b7d90f3634141e4c37ec8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fd7491af0fc102f03da9855b78ecef79ac0a09ca9b3ab8b49f9bf6b948f0d86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118841159"
 ---
 # <a name="axwindowsmediaplayerversioninfo-property"></a>AxWindowsMediaPlayer. versionInfo 屬性
 

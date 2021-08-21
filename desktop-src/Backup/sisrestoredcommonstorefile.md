@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 093ff5f20db42bcafe62ee0ec57d5027abcf9f22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 389d40b76614fe64038133c8cc0623706d4f2be82e68b3e096b59b3023f08bf2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529488"
 ---
 # <a name="sisrestoredcommonstorefile-function"></a>SisRestoredCommonStoreFile 函式
 
@@ -71,8 +71,8 @@ BOOL SisRestoredCommonStoreFile(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Sisbkup。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Sisbkup .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |

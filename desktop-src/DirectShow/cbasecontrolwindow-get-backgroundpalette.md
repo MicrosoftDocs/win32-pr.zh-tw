@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dd06bcec9b3c435370ec3f12340c1c3aede3904c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63ea3fa8ecbc6e644ccc5f4b1fac7a2fcd9c18270474f45dc08faa164f76cbec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660773"
 ---
 # <a name="cbasecontrolwindowget_backgroundpalette-method"></a>CBaseControlWindow. 取得 \_ BackgroundPalette 方法
 

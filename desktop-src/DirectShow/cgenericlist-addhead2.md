@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0039566f111033062bca080cb24924c7ea4324ac
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: c26667ce12af902f3d5cf355a6556dc95e5dd1f5e0cad77f944e663eeef8ce67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106992137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118656144"
 ---
 # <a name="cgenericlistaddhead-method-wxlisth---plist-parameter"></a>CGenericList. AddHead 方法 (Wxlist .h) -pList 參數
 

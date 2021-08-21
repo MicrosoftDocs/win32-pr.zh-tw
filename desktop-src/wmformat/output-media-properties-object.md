@@ -3,19 +3,19 @@ title: 輸出媒體屬性物件
 description: 輸出媒體屬性物件
 ms.assetid: 96fa7c66-59a0-4eb3-ace4-a827b139f978
 keywords:
-- Windows Media Format SDK，輸出媒體屬性物件
+- Windows媒體格式 SDK，輸出媒體屬性物件
 - Advanced Systems Format (ASF) 、output media properties 物件
 - ASF (Advanced Systems Format) 、output media properties 物件
 - 物件、輸出媒體屬性物件
 - 輸出媒體屬性物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61490464381a0b4e58be7994dfaeb0dfec2baa76
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 6848270147a1a191faf93830f062cf7768a19ccd38a77598d15617197a1967a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104023172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084628"
 ---
 # <a name="output-media-properties-object"></a>輸出媒體屬性物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "104023172"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -51,9 +51,9 @@ ms.locfileid: "104023172"
 [**讀取器物件**](reader-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

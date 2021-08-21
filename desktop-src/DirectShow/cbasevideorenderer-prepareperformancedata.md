@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 12dd61dee7416ce8ca7ac07cba62cbc769df5973
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e8cb276b37e64b6bb34751ed2d034666f7ceeddd90d8e52e47b2a1fca499ff9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658332"
 ---
 # <a name="cbasevideorendererprepareperformancedata-method"></a>CBaseVideoRenderer. PreparePerformanceData 方法
 

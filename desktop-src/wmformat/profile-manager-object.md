@@ -3,7 +3,7 @@ title: 設定檔管理員物件
 description: 設定檔管理員物件
 ms.assetid: 8d174243-334e-418e-a1c8-77486b940de7
 keywords:
-- Windows Media 格式 SDK，配置檔案管理員物件
+- Windows媒體格式 SDK，配置檔案管理員物件
 - Advanced Systems Format (ASF) 、profile manager 物件
 - ASF (Advanced Systems Format) ，profile manager 物件
 - 物件，配置檔案管理員物件
@@ -11,12 +11,12 @@ keywords:
 - 設定檔，配置檔案管理員物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ce3d77598f52e43a840c1b6b3ef58baa47f77bd
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 7ce272067e98f787d5136cacc0a2d02f474264f14f14aa785b28162945ef1b41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106969095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084645"
 ---
 # <a name="profile-manager-object"></a>設定檔管理員物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "106969095"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -55,12 +55,12 @@ ms.locfileid: "106969095"
 [**設定檔物件**](profile-object.md)
 </dt> <dt>
 
-[**配置 檔**](profiles.md)
+[**Profiles**](profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

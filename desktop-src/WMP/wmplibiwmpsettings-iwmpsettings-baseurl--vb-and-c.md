@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 393575a93bf904f6fe312b13647ad5a7557b15bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3224a43a2689fd49dee2b2a66cc768250b1a829e61863d8cfbd029e3cdf783c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568415"
 ---
 # <a name="iwmpsettingsbaseurl-property"></a>IWMPSettings：： baseURL 屬性
 
@@ -77,7 +77,7 @@ Windows Media Player 控制項不支援使用兩個句號 (。在相對 URL 中 
 
 <dl> <dt>
 
-[**AxWindowsMediaPlayer ScriptCommand 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
+[**AxWindowsMediaPlayer. ScriptCommand 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
 </dt> <dt>
 
 [**IWMPSettings 介面 (VB 和 c # )**](iwmpsettings--vb-and-c.md)

@@ -4,12 +4,12 @@ ms.assetid: 2959f574-1a39-4db1-9e4a-a303d0c7f8f3
 title: 步驟 10： 支援 COM 註冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fead7e3448d8f02fd477141699e1107ca288afd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f68efdeda754d5f7b728138a26a6bc9f4b782918f8c4b5140fd2457bcee6012f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652148"
 ---
 # <a name="step-10-support-com-registration"></a>步驟 10： 支援 COM 註冊
 

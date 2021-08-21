@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0b445c928412bc475a3269ba59be48395b254efa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1472088ae2aa094381611fa58da3a67122fddd7255ef9b8364189ee17c881644
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678169"
 ---
 # <a name="cim_physicalframe-class"></a>CIM \_ PhysicalFrame 類別
 

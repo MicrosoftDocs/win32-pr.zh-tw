@@ -6,22 +6,22 @@ keywords:
 - 'Windows Media Player，可同步的可存取媒體交換 (薩米文) '
 - 'Windows Media Player 物件模型、已同步處理的可存取媒體交換 (薩米文) '
 - '物件模型、同步的可存取媒體交換 (薩米) '
-- 'Windows Media Player 行動裝置、已同步處理的可存取媒體交換 (薩米文) '
-- 'Windows Media Player ActiveX 控制項、同步存取媒體交換 (薩米文) '
-- 'Windows Media Player 的行動 ActiveX 控制項、已同步處理的可存取媒體交換 (薩米文) '
-- 'ActiveX 控制項、同步的可存取媒體交換 (薩米) '
+- 'Windows Media Player行動裝置、已同步處理的可存取媒體交換 (薩米) '
+- 'Windows Media Player ActiveX 控制項、同步可存取媒體交換 (薩米文) '
+- 'Windows Media PlayerMobile ActiveX control、可同步存取的媒體交換 (薩米文) '
+- 'ActiveX control、可同步存取的媒體交換 (薩米文) '
 - 已同步處理的可存取媒體交換 (薩米) ，檔案
 - 薩米文 (同步處理的可存取媒體交換) 、檔案
 - 已同步處理的可存取媒體交換 (薩米) ，範例程式碼
 - " (同步處理的可存取媒體交換) ，範例程式碼"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9634de52f71b4ca1db151bdf9104c3891c8ce5d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 4d4e2ab5189f99118afae3fb2dae7374323cc8c16605bb458a04bd31810ed91a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103853271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569804"
 ---
 # <a name="sami-file-example"></a>薩米文檔案範例
 

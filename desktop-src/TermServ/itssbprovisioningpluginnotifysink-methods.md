@@ -5,12 +5,12 @@ ms.assetid: 85215405-298E-4413-A026-509A9FDA171F
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d326a3cf0e5bc5adc7ff3cecd8acb9df7601b0c5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a77eaf2d6fb2c2b2bb64bdf2efb8aeb7da4902c48f3b6220bcf8cf77f95e9d83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118605944"
 ---
 # <a name="itssbprovisioningpluginnotifysink-methods"></a>ITsSbProvisioningPluginNotifySink 方法
 
@@ -62,9 +62,9 @@ ms.locfileid: "104301251"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

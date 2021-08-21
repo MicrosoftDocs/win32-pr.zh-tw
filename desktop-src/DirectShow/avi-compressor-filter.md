@@ -4,12 +4,12 @@ ms.assetid: addde51d-2982-4964-b16a-406fea89a0ce
 title: AVI 壓縮程式篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 212ab58eb3800e0ad5531ebc5c50d3b054e7866c
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: fa074f5ad4a72fe1e1a32f45baa4888a526b1a0532a562c2fadb7753ea71e0aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159270"
 ---
 # <a name="avi-compressor-filter"></a>AVI 壓縮程式篩選
 
@@ -20,7 +20,7 @@ AVI 壓縮程式篩選器可讓影片壓縮管理員 (BC-VCM-LVM-HYPERV) 編解�
 如果編解碼器支援舊樣式的 VFW 設定對話方塊或 [關於] 對話方塊，則應用程式可以使用 [**IAMVfwCompressDialogs**](/windows/desktop/api/Strmif/nn-strmif-iamvfwcompressdialogs) 介面來顯示它。
 
 > [!Note]  
-> MPEG 壓縮機絕不會實作為 BC-VCM-LVM-HYPERV 編解碼器，而只會實作為原生的 DirectShow 篩選。
+> MPEG 壓縮機絕不會實作為 bc-vcm-lvm-hyperv 編解碼器，而只會實作為原生 DirectShow 篩選。
 
  
 
@@ -47,7 +47,7 @@ AVI 壓縮程式篩選器可讓影片壓縮管理員 (BC-VCM-LVM-HYPERV) 編解�
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

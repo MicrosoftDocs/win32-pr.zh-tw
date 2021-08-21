@@ -1,11 +1,11 @@
 ---
-title: MS-CHAP-AppleTalk 屬性
+title: 毫秒-SQL-AppleTalk 屬性
 description: AppleTalk 連接點。
 ms.assetid: f60835f9-4d7e-45c3-bb7d-769712f59a87
 ms.tgt_platform: multiple
 keywords:
-- MS-CHAP-AppleTalk 屬性 AD 架構
-- Ms-chap-AppleTalk 屬性 AD 架構
+- MS SQL-AppleTalk attribute AD 架構
+- mS SQL-AppleTalk attribute AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe81121fa453cfcf7e21e30d1eb780ae84b3ab2c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dde288e86fdba9095233d7cfd55fd7ff76a914772a28bff094f146af9a9d882a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686979"
 ---
-# <a name="ms-sql-appletalk-attribute"></a>MS-CHAP-AppleTalk 屬性
+# <a name="ms-sql-appletalk-attribute"></a>毫秒-SQL-AppleTalk 屬性
 
 AppleTalk 連接點。
 
@@ -29,8 +29,8 @@ AppleTalk 連接點。
 
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
-| CN                | MS-CHAP-AppleTalk                            |
-| Ldap-顯示名稱 | Ms-chap-AppleTalk                            |
+| CN                | MS-SQL-AppleTalk                            |
+| Ldap-顯示名稱 | mS-SQL-AppleTalk                            |
 | 大小              | \-                                          |
 | 更新許可權  | 此值是由系統所設定。            |
 | 更新頻率  | 在系統啟動時。                          |
@@ -58,7 +58,7 @@ AppleTalk 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -66,7 +66,7 @@ AppleTalk 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ AppleTalk 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -87,7 +87,7 @@ AppleTalk 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ AppleTalk 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -108,7 +108,7 @@ AppleTalk 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ AppleTalk 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -129,7 +129,7 @@ AppleTalk 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ AppleTalk 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -150,7 +150,7 @@ AppleTalk 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ AppleTalk 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -171,7 +171,7 @@ AppleTalk 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 

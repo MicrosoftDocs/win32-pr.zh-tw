@@ -4,12 +4,12 @@ ms.assetid: d20be8b6-f456-4f90-aa9e-dc122c20d20c
 title: 系統資料表群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 482333ec3f6f483d431aced9a984c7db1ae5cef4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c05bfd06bcff049d2aea847a2bb8d0c4c3fc3d1443a615f75912ac7d4f86d73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623917"
 ---
 # <a name="system-tables-group"></a>系統資料表群組
 

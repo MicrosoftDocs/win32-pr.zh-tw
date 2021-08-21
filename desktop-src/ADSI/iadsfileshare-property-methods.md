@@ -28,12 +28,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f38369a4054f1848d5e35ff8bdb2dda9e9423a87
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6daec9905990d0f5cc5826b82b5361e0fc0653fafb0c617633a34b87c7a0e995
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691416"
 ---
 # <a name="iadsfileshare-property-methods"></a>IADsFileShare 屬性方法
 

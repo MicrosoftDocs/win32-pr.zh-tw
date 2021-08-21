@@ -1,6 +1,6 @@
 ---
 title: WebHelp 方法
-description: WebHelp 方法會啟動 Windows Media Player 的 Web 說明頁，以顯示錯誤佇列中第一個錯誤的詳細資訊 (索引零) 。 |WebHelp 方法
+description: webHelp 方法會啟動 Windows Media Player 的 Web 說明頁，以顯示錯誤佇列中第一個錯誤的詳細資訊 (索引零) 。 |WebHelp 方法
 ms.assetid: 79797b41-1d47-4347-aa47-c104f7f7fbaf
 keywords:
 - webHelp 方法 Windows Media Player
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 862376be956bc8b37a778f5c9d1d2238c876208d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fee647d8f3ddca89ed36c224caab05543715864347700d35ae8e80ee45078cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577872"
 ---
 # <a name="errorwebhelp-method"></a>WebHelp 方法
 
-**WebHelp** 方法會啟動 Windows Media Player 的 Web 說明頁，以顯示錯誤佇列中第一個錯誤的詳細資訊 (索引零) 。
+**webHelp** 方法會啟動 Windows Media Player 的 Web 說明頁，以顯示錯誤佇列中第一個錯誤的詳細資訊 (索引零) 。
 
 ## <a name="syntax"></a>語法
 
@@ -50,8 +50,8 @@ Web 說明頁面一律包含 Windows Media Player 錯誤的最新和最詳細的
 
 若要直接存取 Web 說明頁面，請使用下列錯誤碼和支援中心連結。
 
--   [Windows Media Player 錯誤碼資訊](https://support.microsoft.com/kb/886273)
--   [Windows Media Player 解決方案中心](https://support.microsoft.com/ph/7763#tab0)
+-   [Windows Media Player錯誤碼資訊](https://support.microsoft.com/kb/886273)
+-   [Windows Media Player解決方案中心](https://support.microsoft.com/ph/7763#tab0)
 
 **Windows Media Player 10** 行動裝置版：這個方法一律會成功，但不會執行預定的作業。
 

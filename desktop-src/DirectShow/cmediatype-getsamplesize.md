@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cc5b80e20ad2a16af9c25c68499348ffa744c0fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 120ae54e615e96b368f44c1523703ca35f89d40313f79b450e2cbbd8923829dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118156402"
 ---
 # <a name="cmediatypegetsamplesize-method"></a>CMediaType. GetSampleSize 方法
 

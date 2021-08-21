@@ -6,12 +6,12 @@ keywords:
 - Windows 上的 OpenGL，文字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b0bf4cc99a1806d734ccde5cfae98f4d367da13
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 84202f59ca1a232bae37603b2ff657cb5c61ae0a1d3961b960b624d061ab20cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618542"
 ---
 # <a name="drawing-text-in-a-double-buffered-opengl-window"></a>在 Double-Buffered OpenGL 視窗中繪製文字
 
@@ -72,9 +72,9 @@ wglDeleteContext(hglrc);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

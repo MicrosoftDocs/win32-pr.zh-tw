@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d59ad2a29e7721309209b0a5ea9b773f64167c44
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 073465a005c66f9b85aaf8a08ea09ab1512001d7702c2ee32adb4bc9109d54aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104196090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118507774"
 ---
 # <a name="texture2dgathersfloatintuint-function"></a>Texture2D：：搜集 (S、float、int、uint) 函數
 
@@ -92,7 +92,7 @@ TemplateType Gather(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

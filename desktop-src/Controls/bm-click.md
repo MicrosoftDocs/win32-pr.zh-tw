@@ -3,7 +3,7 @@ title: 'BM_CLICK 訊息 (Winuser .h) '
 description: 模擬使用者按一下按鈕。 這則訊息會讓按鈕收到 WM \_ LBUTTONDOWN 和 WM \_ LBUTTONUP 訊息，以及按鈕的父視窗，以接收 BN 按一下的 \_ 通知碼。
 ms.assetid: f76ca5eb-170c-43fc-a239-67af15497f08
 keywords:
-- BM_CLICK message Windows 控制項
+- BM_CLICK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b86c4809ac1ded3a9b7c57d1b73b70ab1cebc3b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97fdf1e206546bcdb3fa0888276414bd44b927e96a8478be4ae8a5ce2d2a5169
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674979"
 ---
 # <a name="bm_click-message"></a>BM \_ 按一下訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "104024802"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

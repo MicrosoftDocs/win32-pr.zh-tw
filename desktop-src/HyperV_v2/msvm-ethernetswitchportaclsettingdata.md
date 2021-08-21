@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 92735718e339a0caf33910dec703276aea946a67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9cecb30265de4a86c3b6bd6b07d7047607349a74cef9da379fb384ca5a5dc9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524188"
 ---
 # <a name="msvm_ethernetswitchportaclsettingdata-class"></a>Msvm \_ EthernetSwitchPortAclSettingData 類別
 
@@ -213,7 +213,7 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
 存取類型：唯讀
 </dt> </dl>
 
-物件的簡短描述。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)，一律設定為「乙太網路交換器通訊埠 ACL 設定」。
+物件的簡短描述。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)，一律設定為「乙太網路交換器埠 ACL 設定」。
 
 </dd> <dt>
 
@@ -278,7 +278,7 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
 存取類型：唯讀
 </dt> </dl>
 
-物件的顯示名稱。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)，一律設定為「乙太網路交換器通訊埠 ACL 設定」。
+物件的顯示名稱。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)，一律設定為「乙太網路交換器埠 ACL 設定」。
 
 </dd> <dt>
 
@@ -384,8 +384,8 @@ ACL 的顯示名稱。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

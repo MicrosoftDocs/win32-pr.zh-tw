@@ -4,18 +4,18 @@ ms.assetid: b3271c47-31a5-46c9-83ac-b18c0f392def
 title: TargetExtension
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d212bcd9ad3b86c91e0ec1ceeb0cd7db9134f62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 666144876ded3e71842d4a6305f5a6b81494c7ede0b2fe3cec061c8d5bdb6f45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118726448"
 ---
 # <a name="systemlinktargetextension"></a>TargetExtension
 
 連結目標的副檔名。 請參閱 [System. FileExtension](./props-system-fileextension.md)
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

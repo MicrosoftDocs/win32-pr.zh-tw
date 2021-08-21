@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63e1e4e2dfa8822521c7b0ae039f11daff60bd75
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0ff0fe6181a2c2fe7a6d205fcc76c1247367302abb8013c2d313bd5ea16546d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106969498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086161"
 ---
 # <a name="author"></a>作者
 
@@ -38,9 +38,9 @@ g \_ wszWMAuthor
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

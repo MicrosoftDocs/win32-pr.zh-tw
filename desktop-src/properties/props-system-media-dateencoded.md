@@ -4,12 +4,12 @@ ms.assetid: 22d7aee7-6f52-48cd-80d3-746a6ca7ba86
 title: DateEncoded
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f05209a4b94730ad76998ed1ab4e9260588ff87b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 712cb133d2c28d529c72e3383853b6637ed2a139d89bd02e108dd3b095dc20b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118725609"
 ---
 # <a name="systemmediadateencoded"></a>DateEncoded
 

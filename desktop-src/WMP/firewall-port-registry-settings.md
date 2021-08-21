@@ -13,12 +13,12 @@ keywords:
 - 埠登錄設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e231732e8d62efce575ae3fdee5edc63975f23c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 140f55a4008a03c2b3bc4184e2eca92129a5e30dc69f0871da856b4555daec73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118576765"
 ---
 # <a name="firewall-port-registry-settings"></a>防火牆埠登錄設定
 
@@ -54,7 +54,7 @@ Windows Media Player 使用下列登錄專案，指出使用者是否已選擇�
 
 **與媒體媒體櫃共用相關的埠**
 
-在 Windows Vista 上，如果 **WMPNSSFirewallPortsOpen** 登錄專案的值為1，則應該開啟下列埠。
+在 Windows Vista 中，如果 **WMPNSSFirewallPortsOpen** 登錄專案的值為1，則應該開啟下列埠。
 
 
 
@@ -72,9 +72,9 @@ Windows Media Player 使用下列登錄專案，指出使用者是否已選擇�
 
 
 
- 
+ 
 
-在 Windows Vista 上，如果 **AcceptedEULA** 登錄專案的值為1，則應該開啟下列埠。
+在 Windows Vista 中，如果 **AcceptedEULA** 登錄專案的值為1，則應該開啟下列埠。
 
 
 
@@ -86,7 +86,7 @@ Windows Media Player 使用下列登錄專案，指出使用者是否已選擇�
 
 
 
- 
+ 
 
 在 Microsoft Windows XP 上，如果 **WMPNSSFirewallPortsOpen** 登錄專案的值為1，則應該開啟下列埠。
 
@@ -101,7 +101,7 @@ Windows Media Player 使用下列登錄專案，指出使用者是否已選擇�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -110,9 +110,9 @@ Windows Media Player 使用下列登錄專案，指出使用者是否已選擇�
 [**登錄設定**](registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

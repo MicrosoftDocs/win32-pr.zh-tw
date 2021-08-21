@@ -4,12 +4,12 @@ ms.assetid: d6d188c9-9cbd-45af-93f0-b78850374919
 title: 遞交
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 343815e35f1fc331c57c4aa2d9d311697cab7022
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d60668fa5c0138de137e0dab81ba8159d00b7727f7eca699d207128615db5c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118866134"
 ---
 # <a name="handoffs"></a>遞交
 

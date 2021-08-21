@@ -12,12 +12,12 @@ keywords:
 - 外觀中的主要影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed3759dbfe22eb1a9bf0e3ac8812b797b5eb89f2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1cc3877ff59536318df27d726acd2766870ebbca8d24f9e48d0ab9058608feab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571109"
 ---
 # <a name="primary-images"></a>主要映射
 
@@ -30,9 +30,9 @@ ms.locfileid: "106968626"
 [**美工檔案**](art-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

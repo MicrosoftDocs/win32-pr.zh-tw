@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5c058275948d5d96805ae24a76389321d7c69b8e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8e524ea4a4422e92068d432a91165dfeb97155cfba1d5e6bd9a06ed75b7550cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118721033"
 ---
 # <a name="ishelldispatch2shellexecute-method"></a>IShellDispatch2. ShellExecute 方法
 
@@ -104,13 +104,13 @@ IShellDispatch2.ShellExecute( _
 
 | 值                                                                                                                               | 意義                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt></dt><dt>0</dt> </dl>  | 使用隱藏視窗開啟應用程式。<br/>                                                                                                    |
+| <dl> <dt></dt> <dt>0</dt> </dl>  | 使用隱藏視窗開啟應用程式。<br/>                                                                                                    |
 | <dl> <dt></dt> <dt>1</dt> </dl>  | 使用一般視窗開啟應用程式。 如果視窗最小化或最大化，系統會將其還原為其原始大小和位置。<br/> |
 | <dl> <dt></dt> <dt>2</dt> </dl>  | 以最小化的視窗開啟應用程式。<br/>                                                                                                 |
 | <dl> <dt></dt> <dt>3</dt> </dl>  | 以最大化的視窗開啟應用程式。<br/>                                                                                                 |
-| <dl> <dt></dt> <dt>4</dt> </dl>  | 以最新的大小和位置開啟應用程式的視窗。 使用中視窗仍維持使用中狀態。<br/>                                  |
-| <dl> <dt></dt> <dt>5</dt> </dl>  | 以目前的大小和位置開啟應用程式的視窗。<br/>                                                                        |
-| <dl> <dt></dt> <dt>7</dt> </dl>  | 以最小化的視窗開啟應用程式。 使用中視窗仍維持使用中狀態。<br/>                                                               |
+| <dl> <dt></dt><dt>4</dt> </dl>  | 以最新的大小和位置開啟應用程式的視窗。 使用中視窗仍維持使用中狀態。<br/>                                  |
+| <dl> <dt></dt><dt>5</dt> </dl>  | 以目前的大小和位置開啟應用程式的視窗。<br/>                                                                        |
+| <dl> <dt></dt><dt>7</dt> </dl>  | 以最小化的視窗開啟應用程式。 使用中視窗仍維持使用中狀態。<br/>                                                               |
 | <dl> <dt></dt><dt>10</dt> </dl> | 使用應用程式所指定的預設狀態，以其視窗開啟應用程式。<br/>                                                       |
 
 
@@ -129,9 +129,9 @@ Microsoft Visual Basic 目前無法使用這個方法。
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何使用 **ShellExecute** 來開啟 [記事本]。 JScript 和 VBScript 會顯示使用方式。
+下列範例示範如何使用 **ShellExecute** 來開啟記事本。 JScript 和 VBScript 都會顯示使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -172,10 +172,10 @@ VBScript
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |
 
 

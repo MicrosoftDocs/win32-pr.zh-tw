@@ -4,18 +4,18 @@ ms.assetid: 98d2c1e3-0068-45ed-a13f-b5a09261f30f
 title: SubjectDistanceNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92a9d9c51ced7f9264c952fec26595d449961896
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02ebcef1ec4577a52800b78d0c54d05cb8c0d31556d85ea80c16b06ad51e1c34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723542"
 ---
 # <a name="systemphotosubjectdistancenumerator"></a>SubjectDistanceNumerator
 
 PKEY \_ 相片 SubjectDistance 的分子 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

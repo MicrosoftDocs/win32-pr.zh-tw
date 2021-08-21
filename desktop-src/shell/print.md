@@ -4,12 +4,12 @@ ms.assetid: b94fca60-237a-43b1-a75a-faccf9dc63fb
 title: 管理印表機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73e9625fbe17c0dd350a10c0c71dcd5332fb9154
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7086b360355d0ad85be440bc8bc9e330bfa6dd25793cc943d3aacdbaa0d4a8f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719596"
 ---
 # <a name="managing-printers"></a>管理印表機
 
@@ -30,7 +30,7 @@ Shell API 提供可用來管理網路印表機的功能。 如果檔案具有與
 
 ## <a name="printing-files-with-shellexecuteex"></a>使用 ShellExecuteEx 列印檔案
 
-如果檔案類型具有與其相關聯的列印命令，您可以使用 **print** 作為動詞來呼叫 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa)來列印檔案。 這個命令通常與用於 **open** 動詞的命令相同，加上旗標來指示應用程式列印檔案。 比方說，Microsoft WordPad 可以列印 .txt 檔。 .Txt 檔案的 **open** 動詞將對應至類似下列的命令：
+如果檔案類型具有與其相關聯的列印命令，您可以使用 **print** 作為動詞來呼叫 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa)來列印檔案。 這個命令通常與用於 **open** 動詞的命令相同，加上旗標來指示應用程式列印檔案。 比方說，Microsoft WordPad 可以列印 .txt 的檔案。 因此，.txt 檔案的 **open** 動詞會對應至類似下列的命令：
 
 
 ```C++

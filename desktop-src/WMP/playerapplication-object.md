@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 950efeb0a84f43dec904b3ffd21f715061e50d4d
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 46ac009ead54fc4d32b1a302f9228f84484ba6911b353ebb5443653378d9ce61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104313244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571829"
 ---
 # <a name="playerapplication-object"></a>PlayerApplication 物件
 
@@ -35,7 +35,7 @@ ms.locfileid: "104313244"
 
 
 
- 
+ 
 
 **PlayerApplication** 物件支援下列方法。
 
@@ -48,7 +48,7 @@ ms.locfileid: "104313244"
 
 
 
- 
+ 
 
 **PlayerApplication** 物件是透過下列屬性來存取。
 
@@ -60,7 +60,7 @@ ms.locfileid: "104313244"
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -72,9 +72,9 @@ ms.locfileid: "104313244"
 [**遠端處理 Windows Media Player 控制項**](remoting-the-windows-media-player-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

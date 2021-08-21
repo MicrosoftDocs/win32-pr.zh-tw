@@ -3,7 +3,7 @@ title: 'MCIWNDM_SETPALETTE 訊息 (Vfw .h) '
 description: MCIWNDM \_ SETPALETTE 訊息會將調色板控制碼傳送至與 MCIWnd 視窗相關聯的 MCI 裝置。 您可以使用 MCIWndSetPalette 宏明確地傳送此訊息。
 ms.assetid: d2399cb7-d83c-465c-b02f-e6a016c28ae3
 keywords:
-- MCIWNDM_SETPALETTE message Windows 多媒體
+- MCIWNDM_SETPALETTE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba7e354082de4fc15f4179555a8b635b9426af90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b4986224fd23898ef33f8fdda4c12d17880a8bc42441b29cd1865fb7fdfa687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525228"
 ---
 # <a name="mciwndm_setpalette-message"></a>MCIWNDM \_ SETPALETTE 訊息
 

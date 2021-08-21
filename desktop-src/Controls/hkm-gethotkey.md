@@ -3,7 +3,7 @@ title: 'HKM_GETHOTKEY 訊息 (Commctrl .h) '
 description: 從熱鍵控制項取得快速鍵的虛擬按鍵碼和修飾詞旗標。
 ms.assetid: 8b061411-604d-46ea-a082-3eca2d47d992
 keywords:
-- HKM_GETHOTKEY message Windows 控制項
+- HKM_GETHOTKEY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16e23e02f32a4dd6f82f61fd735688353f48ec19
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79bfbad1eb5e9a6679a1b3e419a0877e61cd90247ef0cf91b0a30c655f755a57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672266"
 ---
 # <a name="hkm_gethotkey-message"></a>HKM \_ GETHOTKEY 訊息
 
@@ -62,8 +62,8 @@ ms.locfileid: "104465044"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

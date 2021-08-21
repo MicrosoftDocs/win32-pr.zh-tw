@@ -3,7 +3,7 @@ title: String. Symbol 屬性
 description: 表示字串資源的名稱。
 ms.assetid: 7c1d0197-2c9b-4f42-afba-73fd1c366deb
 keywords:
-- String 符號屬性 Windows 功能區
+- 符號屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7bf7d30ddd8677b1c5ff0a5e55d4b9c119795ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe6c071461fcdeb5f2bbbdbb15fce0f3f6e6031edddf4bd18e034416ba8c49e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706859"
 ---
 # <a name="stringsymbol-property"></a>String. Symbol 屬性
 
@@ -82,8 +82,8 @@ ms.locfileid: "103843172"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

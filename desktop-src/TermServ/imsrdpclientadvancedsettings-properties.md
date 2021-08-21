@@ -5,12 +5,12 @@ ms.assetid: E3544072-6C0A-4DBC-84DF-9D712314622F
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 389ff37f88969c2db413c69874bf539aba3add01
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 350ac876e16cc07210c9b9aa3de7f3e61203ae711bd82d470522f2ad25ee76f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118608516"
 ---
 # <a name="imsrdpclientadvancedsettings-properties"></a>IMsRdpClientAdvancedSettings 屬性
 
@@ -71,9 +71,9 @@ ms.locfileid: "103841484"
 -   [**SmoothScroll 屬性**](imsrdpclientadvancedsettings-smoothscroll.md)
 -   [**TransportType 屬性**](imsrdpclientadvancedsettings-transporttype.md)
 
- 
+ 
 
- 
+ 
 
 
 

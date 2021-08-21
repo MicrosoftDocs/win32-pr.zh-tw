@@ -1,6 +1,6 @@
 ---
 title: Win32_SessionBrokerServiceProperties 類別的 SetBrokerHAMode 方法
-description: 將資料從本機 WID 資料庫移轉至新的 SQL server 資料庫。 它也會將訊息代理程式伺服器設定為使用中央 SQL server。
+description: 將本機 WID 資料庫的資料移轉到新的 SQL 伺服器資料庫。 它也會將訊息代理程式伺服器設定為使用中央 SQL server。
 ms.assetid: 8f14590d-3042-403c-a1cb-a3b257866284
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4526f8ded96086ccf223b3c8e5aad72d9e0262cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17b72233b51686911e4b1d0a661f4e46fa9bcaa813bb6ccc973b2f8a5b12da24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118604547"
 ---
 # <a name="setbrokerhamode-method-of-the-win32_sessionbrokerserviceproperties-class"></a>Win32 SessionBrokerServiceProperties 類別的 SetBrokerHAMode 方法 \_
 
-將資料從本機 WID 資料庫移轉至新的 SQL server 資料庫。 它也會將訊息代理程式伺服器設定為使用中央 SQL server。
+將本機 WID 資料庫的資料移轉到新的 SQL 伺服器資料庫。 它也會將訊息代理程式伺服器設定為使用中央 SQL server。
 
 ## <a name="syntax"></a>語法
 
@@ -58,7 +58,7 @@ uint32 SetBrokerHAMode(
 
 中央資料庫的次要連接字串。
 
-**Windows server 2012 R2 和 Windows server 2012：** 此參數在 Windows Server 2016 之前無法使用。
+**Windows Server 2012 R2 和 Windows Server 2012：** 此參數在 Windows Server 2016 之前無法使用。
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ uint32 SetBrokerHAMode(
 
 Active broker 名稱。
 
-**Windows server 2012 R2 和 Windows server 2012：** 此參數在 Windows Server 2016 之前無法使用。
+**Windows Server 2012 R2 和 Windows Server 2012：** 此參數在 Windows Server 2016 之前無法使用。
 
 </dd> </dl>
 

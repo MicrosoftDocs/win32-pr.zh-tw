@@ -4,12 +4,12 @@ ms.assetid: 577ad52b-ecd3-4a49-8997-481ebdb47203
 title: 'InkPicture. StrokesAdded 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e79d87a4315068cbb0cf9db25b6532bc4c09943
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b5f9418289ac996b2c2248c2cf1696e7d45b4548dbafa4dff9494e76cbedc30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118717401"
 ---
 # <a name="inkpicturestrokesadded-event"></a>InkPicture. StrokesAdded 事件
 
@@ -53,7 +53,7 @@ void StrokesAdded(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

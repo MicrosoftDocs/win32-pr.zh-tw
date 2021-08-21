@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87c0e5ba002a3941ebc1d3855309adb7851c9c7a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d4e921cb1b5f021a7c0edb2a60d80d2c8b9835af34295bb737bc403b0e733692
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685827"
 ---
 # <a name="ms-dfsr-memberreference-attribute"></a>ms-chap-MemberReference 屬性
 
@@ -56,7 +56,7 @@ ms.locfileid: "106972717"
 | 連結識別碼                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
 | System-Only            | 否                                                        |
-| 是-單一值       | 對                                                         |
+| 是-單一值       | 是                                                         |
 | 已編制索引             | 否                                                        |
 | 在通用類別目錄中      | 否                                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |
@@ -77,7 +77,7 @@ ms.locfileid: "106972717"
 | 連結識別碼                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
 | System-Only            | 否                                                        |
-| 是-單一值       | 對                                                         |
+| 是-單一值       | 是                                                         |
 | 已編制索引             | 否                                                        |
 | 在通用類別目錄中      | 否                                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |
@@ -98,7 +98,7 @@ ms.locfileid: "106972717"
 | 連結識別碼                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
 | System-Only            | 否                                                        |
-| 是-單一值       | 對                                                         |
+| 是-單一值       | 是                                                         |
 | 已編制索引             | 否                                                        |
 | 在通用類別目錄中      | 否                                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |
@@ -119,7 +119,7 @@ ms.locfileid: "106972717"
 | 連結識別碼                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
 | System-Only            | 否                                                        |
-| 是-單一值       | 對                                                         |
+| 是-單一值       | 是                                                         |
 | 已編制索引             | 否                                                        |
 | 在通用類別目錄中      | 否                                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                 |

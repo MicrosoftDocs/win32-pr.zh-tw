@@ -4,12 +4,12 @@ ms.assetid: 3e476422-ab76-4a2b-af9b-d9d065d79e5b
 title: 步驟 9. 中斷屬性頁面的連線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d59c620179e95afa3f1b949ed40cbfc3a2bca11a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcf4bcb670b8a8f29334f7ecd41ebba37a915f724be70e5dbbbfd7abea9730be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526078"
 ---
 # <a name="step-9-disconnect-the-property-page"></a>步驟 9. 中斷屬性頁面的連線
 

@@ -4,12 +4,12 @@ ms.assetid: eb6e7bd8-3ce8-4137-9592-9f278c36cdd6
 title: XMFLOAT3PK 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4540d53efa2e0f507936bec833b2a4e61b88e65b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a22639f2d7a40c61bea85d54409607ff9de15c7cd86cee9d87d4b3d37cd356f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118501268"
 ---
 # <a name="xmfloat3pk-operators"></a>XMFLOAT3PK 運算子
 

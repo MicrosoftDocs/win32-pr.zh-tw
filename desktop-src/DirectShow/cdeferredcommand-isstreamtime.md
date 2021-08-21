@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0e15b579f911f6461df30c6b5ae9d3fc29f6fa1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 82c541220a2b89ecdd23e4676175f4c7b2aacd93aac008546349b38e7bc2455a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118657201"
 ---
 # <a name="cdeferredcommandisstreamtime-method"></a>CDeferredCommand. IsStreamTime 方法
 

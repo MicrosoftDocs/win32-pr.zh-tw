@@ -1,6 +1,6 @@
 ---
 title: PLAYERAPPLICATION. playerDocked 屬性
-description: PlayerDocked 屬性會抓取值，指出 Windows Media Player 是否處於停駐狀態。
+description: playerDocked 屬性會抓取值，指出 Windows Media Player 是否處於停駐狀態。
 ms.assetid: 8b95da72-037b-4179-a564-fc9bc63368ac
 keywords:
 - PLAYERAPPLICATION. playerDocked Windows Media Player
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21abe3dd5cb14906db39e8eb50a1d18302a92ff6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8e05d186ab8123dcd4a03eff6c282cec4f7884225d8271540eebb8dc2e73eba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571785"
 ---
 # <a name="playerapplicationplayerdocked"></a>PLAYERAPPLICATION.playerDocked
 
-**PlayerDocked** 屬性會抓取值，指出 Windows Media Player 是否處於停駐狀態。
+**playerDocked** 屬性會抓取值，指出 Windows Media Player 是否處於停駐狀態。
 
 ``` syntax
         elementID.playerDocked

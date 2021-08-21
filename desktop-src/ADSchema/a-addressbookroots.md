@@ -1,6 +1,6 @@
 ---
 title: 通訊錄-根屬性
-description: 供 Exchange 使用。 Exchange 設定通訊錄容器的樹狀目錄以顯示於 MAPI 通訊錄中。 Exchange 設定物件上的這個屬性會列出通訊錄容器樹狀結構的根。 |通訊錄-根屬性
+description: 供 Exchange 使用。 Exchange 設定通訊錄容器的樹狀目錄以顯示於 MAPI 通訊錄中。 Exchange Config 物件上的這個屬性會列出通訊錄容器樹狀結構的根目錄。 |通訊錄-根屬性
 ms.assetid: 7e6d2677-9818-4870-8429-50f73f9c8c1f
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab195744bb7fb5029a9a48aeca55d703e6e05b62
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d2a1d6edd1ba18da126be413224bd32c71c707e8cb905dca9445513467b9af22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106974790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689005"
 ---
 # <a name="address-book-roots-attribute"></a>通訊錄-根屬性
 
-供 Exchange 使用。 Exchange 設定通訊錄容器的樹狀目錄以顯示於 MAPI 通訊錄中。 Exchange 設定物件上的這個屬性會列出通訊錄容器樹狀結構的根。
+供 Exchange 使用。 Exchange 設定通訊錄容器的樹狀目錄以顯示於 MAPI 通訊錄中。 Exchange Config 物件上的這個屬性會列出通訊錄容器樹狀結構的根目錄。
 
 
 

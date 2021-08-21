@@ -4,12 +4,12 @@ ms.assetid: 8dacad71-2cc3-4c9a-b5d4-d9781f4f9d51
 title: 'U (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4609520ab7599c5202a60afd4e51834034e4ae41
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 6f34f203807482f9671c2ccc38ed1718d47bf3c9bc2fa19283935637e5a0fbea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623507"
 ---
 # <a name="u-windows-installer"></a>U (Windows Installer) 
 

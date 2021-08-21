@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 173c42720d76730bff974b5571e75732d0802066
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5e636e1c350652594f2d8e5d8b200bf77384ad9c9855143baf5295ebc8a99827
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684318"
 ---
 # <a name="ms-ds-nc-repl-inbound-neighbors-attribute"></a>ms DS-NC-複寫-輸入-相鄰屬性
 

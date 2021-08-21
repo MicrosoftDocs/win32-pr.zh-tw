@@ -3,18 +3,18 @@ title: 製作草圖
 description: 製作草圖
 ms.assetid: 4030aae7-26e7-4acd-a988-6ac53ce43639
 keywords:
-- Windows Media Player 行動外觀、草圖
+- Windows Media Player行動外觀、草圖
 - 外觀、草圖
 - 建立外觀、草圖
 - 外觀中的草圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aff7edba0eaa115f6cc88c2a62f0060b700ed21a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1e498850b723645f43cb2858cac9d40f7bf06822c49b70155ae5448c9d012910
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118837223"
 ---
 # <a name="make-a-sketch"></a>製作草圖
 
@@ -35,9 +35,9 @@ ms.locfileid: "104184200"
 [**建立藝術**](creating-the-art.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

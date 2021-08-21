@@ -4,26 +4,26 @@ ms.assetid: b2f7628c-b567-40a9-9ad7-6c47077af5fb
 title: 關於 VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 911145fda8f2dd63c886530af3d8507c38d8e829
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 1215251bf86c3ac4ba9a7a342a483de19653d20a21978715261b87aa7bea31a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104553007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603710"
 ---
 # <a name="about-vds"></a>關於 VDS
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
-虛擬磁碟服務是 Microsoft Windows 服務，它會在要求使用者、腳本和應用程式時執行查詢和設定作業。 服務會以下列方式擴充 Windows Server 作業系統的現有儲存功能：
+虛擬磁碟服務是 Microsoft Windows 服務，可在要求使用者、腳本和應用程式時執行查詢和設定作業。 服務會以下列方式擴充 Windows Server 作業系統的現有儲存功能：
 
--   提供 API 給 Windows 中現有的磁片區和磁片管理功能。
+-   提供 API 給 Windows 中的現有磁片區和磁片管理功能。
 -   整合磁片區管理和獨立磁片的硬體冗餘數組， (RAID) 管理單一 API。
 
 VDS 不會執行下列儲存管理活動：
 
 -   硬體子系統管理，例如溫度監視或監視磁碟陣列的效能統計資料。
--   存放區域網路 (SAN) 網狀架構管理，例如 Host-Based Adapter (HBA) 分區和安全性。
+-   儲存體區域網路 (SAN) 網狀架構管理，例如 Host-Based Adapter (HBA) 分區和安全性。
 
 接下來的各節描述 VDS 的架構、VDS 提供者的角色，以及 API。
 

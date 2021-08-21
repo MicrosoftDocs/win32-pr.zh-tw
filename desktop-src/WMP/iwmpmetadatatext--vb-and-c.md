@@ -1,5 +1,5 @@
 ---
-title: 'IWMPMetadataText (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPMetadataText (VB 和 C ) 介面 (Wmp. h) '
 description: 提供屬性，以取得複雜文字中繼資料屬性的相關資訊。
 ms.assetid: c0f300d2-6ddb-470b-849d-771d3719bb97
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 146afd709d0805043603cfb3b14b1c1fc1838075
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 9e39e82b117bcf4425ac09d7d18357fbfe5bfb73ed5c2848087f1cc7cab95fde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575404"
 ---
 # <a name="iwmpmetadatatext-vb-and-c-interface"></a>IWMPMetadataText (VB 和 c # ) 介面
 
@@ -55,7 +55,7 @@ ms.locfileid: "110424298"
 
 **IWMPMetadataText (VB 和 c # )** 介面不會定義任何成員。
 
-## <a name="requirements"></a>需求
+## <a name="requirements"></a>規格需求
 
 
 
@@ -69,7 +69,7 @@ ms.locfileid: "110424298"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

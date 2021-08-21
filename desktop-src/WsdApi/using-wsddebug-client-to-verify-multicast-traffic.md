@@ -4,12 +4,12 @@ ms.assetid: 1b0943fb-076e-4feb-9a4f-36a06bdd19ae
 title: 使用 WSD Debug 用戶端來驗證多播流量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a814ac97512ef4b0691c22d3238d151372023a7
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 6831fa0583a4525c5df3a42d0ce4679d217f63e57e2c645ef429157fdf8cafbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552325"
 ---
 # <a name="using-wsd-debug-client-to-verify-multicast-traffic"></a>使用 WSD Debug 用戶端來驗證多播流量
 
@@ -32,7 +32,7 @@ ms.locfileid: "107380662"
 
 ## <a name="verifying-that-messages-are-being-multicast"></a>確認訊息正在多播
 
-一律確認 [探查](probe-message.md) 訊息是多播。 （選擇性）確認 [Hello](hello-message.md) 和 [Resolve](resolve-message.md) 訊息是多播。 請注意，並非所有應用程式都使用解析訊息。 如需用戶端和主機使用之訊息模式的詳細資訊，請參閱 [探索和中繼資料交換訊息模式](discovery-and-metadata-exchange-message-patterns.md) ，以及 [使用 WSDAPI 疑難排解的開始使用](getting-started-with-wsdapi-troubleshooting.md)。
+一律確認 [探查](probe-message.md) 訊息是多播。 （選擇性）確認 [Hello](hello-message.md) 和 [Resolve](resolve-message.md) 訊息是多播。 請注意，並非所有應用程式都使用解析訊息。 如需有關用戶端和主機所使用之訊息模式的詳細資訊，請參閱[使用 WSDAPI 疑難排解的](getting-started-with-wsdapi-troubleshooting.md)[探索和中繼資料 Exchange 訊息模式](discovery-and-metadata-exchange-message-patterns.md)和開始使用。
 
 必須觸發訊息，才能依照上述步驟3所述的方式傳送訊息。 WSD Debug 用戶端會將原始的 SOAP 訊息顯示為輸出。 因為所有在多播模式中由 WSD Debug 用戶端列印的訊息都會透過多播通訊端接收，所以不會顯示訊息目的地位址。
 

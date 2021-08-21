@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0876c84f0bf2fd084d87c3f64b53acd74b39eec1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c83f19861e044652dd021f104b9d251d7fb8ca7c7e08adc63591c69e595bd6ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675704"
 ---
 # <a name="setpowerstate-method-of-the-cim_keyboard-class"></a>CIM 鍵盤類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 **ValueMap** 值。

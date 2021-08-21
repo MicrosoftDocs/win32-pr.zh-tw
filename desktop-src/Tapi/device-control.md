@@ -4,12 +4,12 @@ ms.assetid: 9c787656-93ef-4e0b-9516-8822ae49a83a
 title: '裝置控制 (電話語音 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83b17336941a55a529c6b436270f7b225a1cada3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f67b33cb03b5a4ac84309bd9c463a9d73e1ebfb8bf51deb4189585f9e1ec3752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118867400"
 ---
 # <a name="device-control-telephony-api"></a>裝置控制 (電話語音 API) 
 
@@ -29,7 +29,7 @@ ms.locfileid: "106972043"
 
 -   [Device 類別](device-class-ovr.md)
 -   [裝置識別碼](device-identifier-ovr.md)
--   [地址類型](address-type-ovr.md)
+-   [網址類別型](address-type-ovr.md)
 -   [位址識別碼](address-identifier-ovr.md)
 -   [裝置事件](device-events-ovr.md)
 -   [媒體類型](media-type-ovr.md)
@@ -39,15 +39,15 @@ ms.locfileid: "106972043"
 
 如果服務提供者支援，補充特性可能會與特定裝置產生關聯。 TAPI 2.x 應用程式會使用 [**lineGetDevCaps**](/windows/win32/api/tapi/nf-tapi-linegetdevcaps) 和 [**lineGetAddressCaps**](/windows/win32/api/tapi/nf-tapi-linegetaddresscaps) 功能來探索功能。 TAPI 3.x 應用程式會針對此用途使用 [**ITAddressCapabilities**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities) 介面。
 
-TAPI 2.x 提供一組特殊的補充作業，服務提供者可能會執行這些作業，以與手機裝置搭配使用。 請參閱 [電話裝置](./opening-and-closing-phone-devices.md)。
+TAPI 2.x 提供一組特殊的補充作業，服務提供者可能會執行這些作業，以與手機裝置搭配使用。 請參閱[電話裝置](./opening-and-closing-phone-devices.md)。
 
-擴充功能是提供者專屬的，而且不會直接由 Microsoft 電話語音 API 所涵蓋。 請參閱 [擴充的行](./extended-line-functions.md)函式、擴充的 [電話語音功能](./extended-telephony-phone-functions.md)，或 [提供者特定的介面](provider-specific-interfaces.md)。
+擴充功能是提供者專屬的，而且不會直接由 Microsoft 電話語音 API 所涵蓋。 請參閱[擴充的行](./extended-line-functions.md)函式、擴充的[電話語音電話](./extended-telephony-phone-functions.md)函[式或提供者特定的介面](provider-specific-interfaces.md)。
 
 以下是 TAPI 作業的摘要，可查詢裝置特性上的服務提供者，並提供目前狀態的資料。
 
 
 
-| TAPI 2.x 函數                                                  | Description                                                                                                    |
+| TAPI 2.x 函數                                                  | 描述                                                                                                    |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [**lineGetDevCaps**](/windows/win32/api/tapi/nf-tapi-linegetdevcaps)                   | 查詢指定的線路裝置，以判斷相關位址的電話語音功能。               |
 | [**lineGetAddressCaps**](/windows/win32/api/tapi/nf-tapi-linegetaddresscaps)           | 查詢指定的線路裝置，以判斷特定位址的電話語音功能。                   |
@@ -68,10 +68,10 @@ TAPI 2.x 提供一組特殊的補充作業，服務提供者可能會執行這�
 
 
 
-| TAPI 3.x 介面或方法                                   | Description                                                                                             |
+| TAPI 3.x 介面或方法                                   | 描述                                                                                             |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [**ITAddressCapabilities**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities)           | 取得位址功能的相關資訊。                                                  |
-| [**ITAMMediaFormat**](/windows/win32/api/tapi3/nn-tapi3-itammediaformat)                       | 設定和取得 DirectShow™媒體格式。                                                                 |
+| [**ITAMMediaFormat**](/windows/win32/api/tapi3/nn-tapi3-itammediaformat)                       | 設定並取得 DirectShow™媒體格式。                                                                 |
 | [**ITBasicAudioTerminal**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal)             | 設定並取得標準音頻終端機特性，例如 volume。                                  |
 | [**ITMediaSupport**](/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport)                         | 取得位址媒體支援功能的相關資訊。                                    |
 | [**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal)                                 | 終端物件的基底介面。 取得支援終端機類別和媒體等資訊。 |
