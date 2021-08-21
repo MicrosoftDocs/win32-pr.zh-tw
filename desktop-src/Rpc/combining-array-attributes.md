@@ -4,12 +4,12 @@ description: 只要存根可以使用資訊來判斷陣列的大小以及要傳�
 ms.assetid: ff4f971f-9e46-4454-9d57-d8ebdf70b261
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffc60777caeb3950e37fe167fe09ecc181d88b8f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd440251a658dd5b888df7275f578369419d4b8b2d4f920b263bc5095c4bd948
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106983302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931751"
 ---
 # <a name="combining-array-attributes"></a>合併陣列屬性
 
@@ -45,6 +45,6 @@ interface arraytest
 
 在上述範例中，函式 fArray6 和 fArray7 中的陣列和指標參數是相等的。
 
- 
+ 
 
- 
+ 

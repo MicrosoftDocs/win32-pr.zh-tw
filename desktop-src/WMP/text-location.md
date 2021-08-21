@@ -3,18 +3,18 @@ title: 文字位置
 description: 文字位置
 ms.assetid: b05c3594-9249-4612-b4a3-f624832d1073
 keywords:
-- Windows Media Player 行動外觀、文字
+- Windows Media Player行動外觀、文字
 - 外觀，文字
 - 外觀的參考、文字
 - 外觀、位置中的文字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7b11f753cc6f85f57f04c14529752bd0fb53232
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0d02a8b7f3a2309af7e480bcd6238c070d59424fa27b3798f68be96dabf92559
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507518"
 ---
 # <a name="text-location"></a>文字位置
 
@@ -35,9 +35,9 @@ ms.locfileid: "104021149"
 [**Text**](text.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

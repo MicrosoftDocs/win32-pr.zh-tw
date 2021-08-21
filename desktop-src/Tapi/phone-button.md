@@ -4,12 +4,12 @@ ms.assetid: fe47eed7-89d1-488b-b945-9e1aedc1f63c
 title: 'PHONE_BUTTON 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da810630a937f8415e070373f359dca06a694e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aec64f754725e5926a8cab1d98b25e4cb379a444bf4208d6e8f3e976dafee82f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072998"
 ---
 # <a name="phone_button-message"></a>電話 \_ 按鈕訊息
 

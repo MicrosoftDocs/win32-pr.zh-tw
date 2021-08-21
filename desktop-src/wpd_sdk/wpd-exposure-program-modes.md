@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: a88ce90bb9e776cd45245b32a363635c2ccf0560
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dc64012c4f13f84abef55d2426c856b931eb447e61df4f04c69781c089857930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083272"
 ---
 # <a name="wpd_exposure_program_modes-enumeration"></a>WPD \_ 公開 \_ 程式 \_ 模式列舉
 

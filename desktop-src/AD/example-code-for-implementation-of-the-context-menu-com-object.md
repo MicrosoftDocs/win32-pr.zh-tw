@@ -7,12 +7,12 @@ keywords:
 - Active Directory AD、範例程式碼 C/c + +、內容功能表 COM 物件的執行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99402606b21f3b91e0511a4baf4ca18e8a2e8c23
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 1e69be602e5a1d62eca495e682a68ccfe80d31483df71d7c8ee7349c359bedd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118018239"
 ---
 # <a name="example-code-for-implementation-of-the-context-menu-com-object"></a>執行內容功能表 COM 物件的範例程式碼
 
@@ -268,6 +268,6 @@ STDMETHODIMP CContMenuExt::GetCommandString(    UINT idCommand,
 
 
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9d5a7af10a2ade5ef4408c14c117678cd87a36b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7c46c98e3077d2284a3143bb569ae706b3d81fa37439b1bf19d815d75eaca152
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532428"
 ---
 # <a name="domain-other-parameters-property-set"></a>網域參數屬性集
 

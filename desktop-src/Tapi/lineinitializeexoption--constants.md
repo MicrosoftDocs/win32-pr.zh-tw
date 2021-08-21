@@ -4,12 +4,12 @@ ms.assetid: 77674a45-7133-4518-af47-a9d58392b80b
 title: 'LINEINITIALIZEEXOPTION_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86543c367877d74562cc0af13261881b7df19982
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e92a1df7c4ea88cad126dcf5b542dbbdc33704814518dbc79cdf5d6bff5da402
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073038"
 ---
 # <a name="lineinitializeexoption_-constants"></a>LINEINITIALIZEEXOPTION \_ 常數
 

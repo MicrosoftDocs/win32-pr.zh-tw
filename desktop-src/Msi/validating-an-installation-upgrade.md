@@ -4,12 +4,12 @@ ms.assetid: c578c020-18be-47ea-8f59-c1bbd45f1260
 title: 驗證安裝升級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cab7f45d3d5c19a71dac8c7a2d0150409b3a45f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 549b53ae8d3337b8527cebb13ef819fb65d3345728b34ba632db560bcc438a2f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499168"
 ---
 # <a name="validating-an-installation-upgrade"></a>驗證安裝升級
 

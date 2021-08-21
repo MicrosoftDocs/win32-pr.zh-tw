@@ -3,7 +3,7 @@ title: 'TB_ISBUTTONINDETERMINATE 訊息 (Commctrl .h) '
 description: 判斷工具列中指定的按鈕是否不定。
 ms.assetid: b4d759b3-cdbc-417b-9da4-4ed9edc38c0e
 keywords:
-- TB_ISBUTTONINDETERMINATE message Windows 控制項
+- TB_ISBUTTONINDETERMINATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29fc024efcad9f0f48ae4882b019269903c249bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d1209147993b770dde4fa5f67078ff16f68dcc213c3ae1fc780f01b7d615b06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503748"
 ---
 # <a name="tb_isbuttonindeterminate-message"></a>TB \_ ISBUTTONINDETERMINATE 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104024851"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

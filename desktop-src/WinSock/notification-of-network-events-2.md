@@ -4,12 +4,12 @@ ms.assetid: 7b60a775-ed20-4048-bd0b-9d43d090f82c
 title: 網路事件的通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 090d3adda7d34c0fe49eb14936bc01bf20878b56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b6fb24f746cbb03860bbd28c1028d92d7865a29c44baedaf2c227cb48536cd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794758"
 ---
 # <a name="notification-of-network-events"></a>網路事件的通知
 

@@ -4,12 +4,12 @@ ms.assetid: 0a4d8f44-c7c0-4355-ac7f-6bc3315eeff0
 title: " (Direct3D 9) 的技術和傳遞"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f3a68ac40db16b3e6819adf6fcd1f8a6f790325
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9999927d96a914b80f870a2128b0eae12074616e4ae787b011551b6aab919220
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044206"
 ---
 # <a name="techniques-and-passes-direct3d-9"></a> (Direct3D 9) 的技術和傳遞
 

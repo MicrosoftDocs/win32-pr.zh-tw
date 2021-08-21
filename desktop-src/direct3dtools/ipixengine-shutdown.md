@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f8c7aa6fd5e2de441e568fa50d393f679caf1657
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a90ac1429021f6379a37d4b3e37e0e38ba9f0d483f11d9ea65a417aa1ab7c373
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949178"
 ---
 # <a name="span-idvspixengineipixengine_shutdownspanipixengineshutdown-method"></a><span id="vspixengine.ipixengine_shutdown"></span>IPixEngine：： ShutDown 方法
 

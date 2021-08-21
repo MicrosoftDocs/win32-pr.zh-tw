@@ -4,12 +4,12 @@ ms.assetid: db4c7651-b6a1-4bc3-bcf8-a5cb56c7563e
 title: " (Direct3D 10) 的效果"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70a9a863fd34c5bb99389139d09860812b16b4fa
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: bbc5df2be51bf24fb8fe2d4d4e965b07604380aaf323c9bf110b729beef43950
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118101471"
 ---
 # <a name="effects-direct3d-10"></a> (Direct3D 10) 的效果
 

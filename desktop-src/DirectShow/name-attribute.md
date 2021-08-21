@@ -4,12 +4,12 @@ ms.assetid: 50794113-067a-4614-bea8-300e6e49dff6
 title: name 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a62c37cb2fe41d9b24b9cba72d38757b6afea05c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0750921508734ead3202ff4b7e396ece164fa1d378e37a383fe6c6a243177aaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790988"
 ---
 # <a name="name-attribute"></a>name 屬性
 

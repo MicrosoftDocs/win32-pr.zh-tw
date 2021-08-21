@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9ef6984a871dc13b0f50d748f67ceaac79937d2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 697a2c4463194b5fdfa079857b91ec255071a4d0fbb14e2672301df2a72341f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793248"
 ---
 # <a name="cbaselistremoveall-method"></a>CBaseList. RemoveAll 方法
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1865d19c54b9c59654f07162d2480aa5b29c47f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: efd443389439b6d012533d3184739dfa849d672d76a8eced0e8ea244601d4122
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490248"
 ---
 # <a name="glteximage1d-function"></a>glTexImage1D 函式
 
@@ -133,7 +133,7 @@ void WINAPI glTexImage1D(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                                                        |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標* 不是 GL \_ 紋理。<br/>                                                                                                                                                                                    |
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *格式* 不是接受的 *格式* 常數。 只接受 GL 樣板 \_ \_ 索引和 gl \_ 深度 \_ 元件以外的格式常數。 如需可能值的清單，請參閱 *格式* 的參數描述。<br/> |

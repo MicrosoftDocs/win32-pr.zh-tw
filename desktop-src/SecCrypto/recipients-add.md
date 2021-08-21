@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 255d17485e3423d50cd86b092c2120605f0f1106
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 57f02da24ea864744e504ee924a3b560a5e552cf416c960b04bca5a25b116a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975420"
 ---
 # <a name="recipientsadd-method"></a>收件者. 新增方法
 

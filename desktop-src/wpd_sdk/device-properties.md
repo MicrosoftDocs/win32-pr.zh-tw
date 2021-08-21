@@ -31,7 +31,7 @@ Windows可攜式裝置支援下列裝置屬性。
 <tr class="header">
 <th>屬性</th>
 <th>VarType</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

@@ -1,22 +1,22 @@
 ---
-title: RGBA 模式和 Windows 元件管理
+title: RGBA 模式和 Windows 調色板管理
 description: 雖然大部分的 GDI 應用程式通常會使用以色彩編制索引的邏輯調色板，但通常最好是針對 OpenGL 應用程式使用 RGBA 模式。 其效果優於色彩對應的數個效果，例如陰影、光源、霧化和材質對應。
 ms.assetid: 68c35173-e792-4770-9404-5503344f475b
 keywords:
-- Windows 上的 OpenGL、RGBA 模式
-- Windows 上的 OpenGL，調色板管理
+- Windows，RGBA 模式上的 OpenGL
+- Windows 上的 OpenGL，管理元件管理
 - RGBA 模式 OpenGL
 - 調色板管理 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2e04110d1dfe489a145a8de9bdc7c3d9b726acd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 53016764636cadd9fe85e0478905958788ca2557a308375bc8d6d9826462c6b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106999804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932950"
 ---
-# <a name="rgba-mode-and-windows-palette-management"></a>RGBA 模式和 Windows 元件管理
+# <a name="rgba-mode-and-windows-palette-management"></a>RGBA 模式和 Windows 調色板管理
 
 雖然大部分的 GDI 應用程式通常會使用以色彩編制索引的邏輯調色板，但通常最好是針對 OpenGL 應用程式使用 RGBA 模式。 其效果優於色彩對應的數個效果，例如陰影、光源、霧化和材質對應。
 
@@ -297,6 +297,6 @@ main(int argc, char *argv[])
 
 
 
- 
+ 
 
- 
+ 

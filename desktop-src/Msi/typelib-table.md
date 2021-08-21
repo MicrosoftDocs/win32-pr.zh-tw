@@ -4,12 +4,12 @@ ms.assetid: 86b827ed-e707-4627-9488-78eafb444d32
 title: TypeLib 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0aa8949df75162ffb7107b633ab766d276c4b42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 862bc37e325f8c615e8158cfa431c927841f6b33c403c804726cea8fee6f0469
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499998"
 ---
 # <a name="typelib-table"></a>TypeLib 資料表
 
@@ -25,10 +25,10 @@ TypeLib 資料表具有下列資料行。
 | 語言    | [整數](integer.md)             | Y   | N        |
 | 元件\_ | [識別碼](identifier.md)       | Y   | N        |
 | 版本     | [DoubleInteger](doubleinteger.md) | N   | Y        |
-| Description | [Text](text.md)                   | N   | Y        |
+| 描述 | [Text](text.md)                   | N   | Y        |
 | 目錄\_ | [識別碼](identifier.md)       | N   | Y        |
-| 功能\_   | [識別碼](identifier.md)       | N   | N        |
-| 成本        | [DoubleInteger](doubleinteger.md) | N   | Y        |
+| 特徵\_   | [識別碼](identifier.md)       | N   | N        |
+| Cost        | [DoubleInteger](doubleinteger.md) | N   | Y        |
 
 
 

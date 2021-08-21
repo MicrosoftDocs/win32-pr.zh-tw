@@ -4,12 +4,12 @@ description: 就地更新通常比以間接方法（例如，RtmAddRouteToDest �
 ms.assetid: d4b0b14e-957a-43d5-bacc-8eee4512e2ab
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77d76d2af5d60172b890eefa1041a08d47a5221b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5dfcfdc7abd355cd70bb1295af6ce8b4fb4749dfed6c55af4d1fd06ca8257170
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073698"
 ---
 # <a name="updating-routes-in-place-using-rtmupdateandunlockroute"></a>使用 RtmUpdateAndUnlockRoute 就地更新路由
 
@@ -17,9 +17,9 @@ ms.locfileid: "104021607"
 
 如需示範如何使用這些函數的範例程式碼，請參閱 [使用 RtmUpdateAndUnlockRoute 就地更新路由](update-a-route-in-place-using-rtmupdateandunlockroute.md)。
 
- 
+ 
 
- 
+ 
 
 
 

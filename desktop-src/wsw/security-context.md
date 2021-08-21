@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cff86ea12ae7a4b8bd554e25cde534cba3b4dcb4
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 06dc1754133f47cf06c5c12e7318a94525be3c821f3db52a7e7513349c3100be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104316789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083172"
 ---
 # <a name="security-context"></a>安全性內容
 
@@ -61,7 +61,7 @@ ms.locfileid: "104316789"
 
 
 
-| Handle                                           | Description                                                 |
+| Handle                                           | 描述                                                 |
 |--------------------------------------------------|-------------------------------------------------------------|
 | [WS \_ 安全性 \_ 內容](ws-security-context.md) | 用來參考安全性內容物件的不透明類型。 |
 
@@ -71,7 +71,7 @@ ms.locfileid: "104316789"
 
 
 
-| 結構                                                               | Description                                                               |
+| 結構                                                               | 描述                                                               |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [**WS \_ 安全性 \_ 上下文 \_ 屬性**](/windows/desktop/api/WebServices/ns-webservices-ws_security_context_property) | 定義 [WS \_ 安全性 \_ 內容](ws-security-context.md)的屬性。 |
 

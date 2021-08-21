@@ -4,16 +4,16 @@ ms.assetid: c9ddd3b7-f017-4880-976a-c879a40dc17b
 title: 虛擬磁碟服務常見的傳回碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d23b2ca000461f181be17b552630420cf30a6e50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59382ae4f61d3dc1f12d745f7f7608e9c55ddcb3c65792f9303cdc2b9243f531
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864528"
 ---
 # <a name="virtual-disk-service-common-return-codes"></a>虛擬磁碟服務常見的傳回碼
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 
 

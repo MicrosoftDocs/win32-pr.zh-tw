@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 65b0b5b3ace1634a20dfa63382d82099fef0686e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50240fbf10155fae555c6cd2e30bf8c86c571b8d52b86e02eab9f5bb11ac17ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965577"
 ---
 # <a name="iwiaitem2checkextension-method"></a>IWiaItem2：： CheckExtension 方法
 
@@ -72,9 +72,9 @@ HRESULT CheckExtension(
 *pbExtensionExists* \[擴展\]
 </dt> <dd>
 
-類型： **BOOL \** _
+類型： **BOOL \***
 
-接收 _ * BOOL * * 的指標。
+接收 **BOOL** 的指標。
 
 <dt>
 
@@ -166,10 +166,10 @@ CheckImgFilter(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

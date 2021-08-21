@@ -4,12 +4,12 @@ ms.assetid: a08af015-bc42-4a31-af03-106714b08d08
 title: 如何修改點陣圖來源的圖元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8be623d540fcd313476ea5c7ec5e724231d33aec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbfa25a5f09742066c4e67af1fb1735aa038f086d6a107e88ae34e7b7c597770
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965387"
 ---
 # <a name="how-to-modify-the-pixels-of-a-bitmap-source"></a>如何修改點陣圖來源的圖元
 
@@ -17,7 +17,7 @@ ms.locfileid: "107001386"
 
 修改點陣圖來源的圖元
 
-1.  建立 [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) 物件，以建立 WINDOWS 影像處理元件 (WIC) 物件。
+1.  建立 [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory)物件，以建立 Windows 影像處理元件 (WIC) 物件。
 
     ```C++
     // Create WIC factory

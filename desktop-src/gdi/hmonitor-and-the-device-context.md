@@ -4,12 +4,12 @@ ms.assetid: c43c1401-52d3-485e-a418-205df5737040
 title: HMONITOR 和裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7da397af45b906a626f79f7b934b78aaad481f9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afb727457c388710b19d8f22bef8f65d76e9d8c5c27b0ec7dfcbf55a4acea3b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558748"
 ---
 # <a name="hmonitor-and-the-device-context"></a>HMONITOR 和裝置內容
 

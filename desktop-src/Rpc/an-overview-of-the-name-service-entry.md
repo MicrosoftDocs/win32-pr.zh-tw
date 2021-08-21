@@ -4,12 +4,12 @@ description: 名稱服務專案包含三個不同的區段。
 ms.assetid: 3059a9a9-174d-4d04-8565-e4558f17f465
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efc3855f586582b013bc47b11eb058ae461014f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b2d7982cef018ec91435c647000031ae42a25e2e2bb315a20623ac75e610197e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073558"
 ---
 # <a name="an-overview-of-the-name-service-entry"></a>名稱服務專案的總覽
 
@@ -19,9 +19,9 @@ ms.locfileid: "106968457"
 
 用戶端會呼叫 [**RpcNsBindingLookupBegin**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina) (或 [**RpcNsBindingImportBegin**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina)) 來搜尋適當的系結控制碼。 專案名稱、介面控制碼和物件 UUID 會解壓縮。 這些專案會限制傳回系結控制碼的專案。 如果專案符合搜尋準則，則會從 [**RpcNsBindingImportNext**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportnext)傳回該專案中的所有系結控制碼。
 
- 
+ 
 
- 
+ 
 
 
 

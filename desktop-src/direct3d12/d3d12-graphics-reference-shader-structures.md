@@ -7,12 +7,12 @@ keywords:
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 400d50c48b8b94fc9a59d8e48179aae43e14a4f5
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 282a2a6dafd57ab5d5957ee25b2f82519433409080642ef90034638bc72a6147
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106967511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045696"
 ---
 # <a name="shader-structures-direct3d-12-graphics"></a> (Direct3D 12 圖形) 的著色器結構
 

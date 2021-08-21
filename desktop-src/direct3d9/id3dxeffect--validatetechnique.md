@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b48ffa8707a3f78e76555d57225c11f89160fdd7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4ba3f6422c373c63a9b147ded8f288f642dcd880805cbd1d8b638b3f0e7f8f8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951698"
 ---
 # <a name="id3dxeffectvalidatetechnique-method"></a>ID3DXEffect：： ValidateTechnique 方法
 

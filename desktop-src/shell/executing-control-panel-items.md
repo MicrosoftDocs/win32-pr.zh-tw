@@ -4,12 +4,12 @@ ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: 執行主控台專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc1e2bc84ce5225176585f2da221fab6110ce79f9ff68dfc83b3c66125d623d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bb941bb7542b0d786d682e6626e8d78faea8bd7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118224274"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478414"
 ---
 # <a name="executing-control-panel-items"></a>執行主控台專案
 
@@ -139,51 +139,9 @@ WinExec("%systemroot%\system32\control.exe /name Microsoft.WindowsUpdate", SW_NO
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>control.exe 桌面</td>
-<td>啟動 <strong>顯示內容</strong> 視窗。
-<blockquote>
-[!Note]<br />
-Starter 和 Basic 版本不支援此命令。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>control.exe 色彩</td>
-<td>啟動已預先選取 [<strong>外觀</strong>] 索引標籤的 [<strong>顯示內容</strong>] 視窗。</td>
-</tr>
-<tr class="odd">
-<td>control.exe 日期/時間</td>
-<td>啟動 [ <strong>日期和時間] 屬性</strong> 視窗。</td>
-</tr>
-<tr class="even">
-<td>control.exe 國際</td>
-<td>啟動 [ <strong>地區及語言選項</strong> ] 視窗。</td>
-</tr>
-<tr class="odd">
-<td>control.exe 滑鼠</td>
-<td>啟動 <strong>滑鼠 [屬性</strong> ] 視窗。</td>
-</tr>
-<tr class="even">
-<td>control.exe 鍵盤</td>
-<td>啟動 [ <strong>鍵盤屬性</strong> ] 視窗。</td>
-</tr>
-<tr class="odd">
-<td>control.exe 印表機</td>
-<td>顯示 [ <strong>印表機和傳真</strong> ] 資料夾。</td>
-</tr>
-<tr class="even">
-<td>control.exe 字型</td>
-<td>顯示 [ <strong>字型</strong> ] 資料夾。</td>
-</tr>
-</tbody>
-</table>
+
+| | |control.exe 桌面 |啟動 <strong>顯示內容</strong> 視窗。<blockquote>[!Note]<br />Starter 和 Basic 版本不支援此命令。</blockquote><br /> | |control.exe 色彩 |啟動已預先選取 [<strong>外觀</strong>] 索引標籤的 [<strong>顯示內容</strong>] 視窗。 | |control.exe 日期/時間 |啟動 [ <strong>日期和時間] 屬性</strong> 視窗。 | |control.exe 國際 |啟動 [ <strong>地區及語言選項</strong> ] 視窗。 | |control.exe 滑鼠 |啟動 <strong>滑鼠 [屬性</strong> ] 視窗。 | |control.exe 鍵盤 |啟動 [ <strong>鍵盤屬性</strong> ] 視窗。 | |control.exe 印表機 |顯示 [ <strong>印表機和傳真</strong> ] 資料夾。 | |control.exe 字型 |顯示 [ <strong>字型</strong> ] 資料夾。 | 
+
 
 
 

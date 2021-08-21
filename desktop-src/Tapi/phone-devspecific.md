@@ -4,12 +4,12 @@ ms.assetid: e3e803dd-b041-48b7-9acf-a89989370204
 title: 'PHONE_DEVSPECIFIC 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c817f273a49fdcda36995cec335811fb06c8a917
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 578ba0960963f85ff597d9a6bc87ff3369a6c837ed58367bd82d62a13341e988
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072898"
 ---
 # <a name="phone_devspecific-message"></a>電話 \_ DEVSPECIFIC 訊息
 

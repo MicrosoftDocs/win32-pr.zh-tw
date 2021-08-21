@@ -5,12 +5,12 @@ ms.assetid: 65379edf-54b0-475b-89ee-97d544d0d809
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa36b3e9b1027e1733009d58a572a0b27c7ef0f3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd66283d2427c2c42162ce46a0a66ecbda87737cf2572d183ebdb0017232e8de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082532"
 ---
 # <a name="how-to-trap-adsi-errors"></a>如何陷阱 ADSI 錯誤
 
@@ -53,9 +53,9 @@ End Sub
 
  (當您一開始對腳本進行偵錯工具時，您可能會想要讓腳本停止執行，並顯示錯誤的問題行號，然後在基本程式流程正確之後加入錯誤處理常式。 ) 
 
- 
+ 
 
- 
+ 
 
 
 

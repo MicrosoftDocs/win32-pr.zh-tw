@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 171d539464b6b1dc4aefef9b77946e66b369bcde
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 47fff54f2265394072c7eb075627a6a537c845106722d64955b0111ffeb3f675
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508838"
 ---
 # <a name="mssfu-30-posix-member-of-attribute"></a>msSFU-30-Posix-成員屬性
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102913
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: aa6fa4d0e2f69e07e452c10c1df888222154f82d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c48bbbb67647cd88b78ae1594251e2dc80994722fa32e4abe33e2f4139a4dca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104566269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018118"
 ---
 # <a name="esentslvspacewriteconflictexception-methods"></a>EsentSLVSpaceWriteConflictException 方法
 
