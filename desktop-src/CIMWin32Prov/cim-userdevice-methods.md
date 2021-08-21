@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_UserDevice 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcf370ae9e8332be7ddba2afe449b654c8ed61ec
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: df8f7cf449206f314cb1405fc5bf59ec70c48cc496e424ae638d5d619664bff2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020796"
 ---
 # <a name="cim_userdevice-methods"></a>CIM \_ UserDevice 方法
 

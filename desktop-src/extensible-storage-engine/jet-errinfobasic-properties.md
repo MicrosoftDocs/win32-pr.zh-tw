@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104303
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 10e22b582ac26146eae6a7a29b5207a76b17d551
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8c1fbc417ce5c876216aab886a815c7df2a5c389106418afda6bc19772a322b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104555773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039286"
 ---
 # <a name="jet_errinfobasic-properties"></a>JET_ERRINFOBASIC 屬性
 

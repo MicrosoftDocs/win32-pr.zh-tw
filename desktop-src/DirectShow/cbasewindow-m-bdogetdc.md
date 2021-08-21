@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0d0b08951944c93b8873eddae26a825aacadf4be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8efb4deef07cd6109fa6f4c9d4513d664cfde9370ff7d19a81208a81adef77b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016576"
 ---
 # <a name="cbasewindowm_bdogetdc-member"></a>CBaseWindow：： m \_ bDoGetDC 成員
 

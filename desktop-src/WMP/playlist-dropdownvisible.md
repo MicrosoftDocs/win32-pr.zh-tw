@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fa397417c1d855012e72dbd8a79ca277463b7a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f90894759857bf1bbd40f1de6fef648f6ec6db4f2c44903b5901f80f2f9aeac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118834948"
 ---
 # <a name="playlistdropdownvisible"></a>播放清單。 dropDownVisible
 

@@ -4,16 +4,16 @@ description: 一般準則
 ms.assetid: 34801488-debb-4327-8ee6-1e4b350f21ab
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0babf4a3106f7a27e374fa89d8efd7314ee19070
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8877a5af1553e55fa256dba555d1eebdaa87e1d4533a89fdfb3e89eb666f9605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048276"
 ---
 # <a name="general-guidelines"></a>一般準則
 
-下列主題說明各種功能、ActiveX 控制項和 ActiveX 控制項容器開發人員的提示和秘訣，以協助維持控制項和控制項容器之間的良好互通性：
+下列主題說明 ActiveX 控制項和 ActiveX 控制容器開發人員的各種功能、提示和秘訣，以協助維持控制項和控制項容器之間的良好互通性：
 
 -   [多載 IPropertyNotifySink](overloading-ipropertynotifysink.md)
 -   [容器專用的私人介面](container-specific-private-interfaces.md)
@@ -32,12 +32,12 @@ ms.locfileid: "104092305"
 
 <dl> <dt>
 
-[ActiveX 控制項和控制項容器指導方針](activex-control-and-control-container-guidelines.md)
+[ActiveX控制和控制容器指導方針](activex-control-and-control-container-guidelines.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

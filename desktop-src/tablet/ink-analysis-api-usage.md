@@ -4,12 +4,12 @@ ms.assetid: bd190606-5bd8-4280-ba2b-267588904ed3
 title: 筆墨分析 API 使用方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24e291066d6cfd6ecdec319728b7394d730ba311
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdfada58868c7fe959f832e0c1243bc91a373fb0186d8deee2f9481d78a95714
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032346"
 ---
 # <a name="ink-analysis-api-usage"></a>筆墨分析 API 使用方式
 
@@ -31,13 +31,13 @@ ms.locfileid: "103943259"
 -    (Microsoft.Ink.Analysis.dll) 的 Microsoft Ink 分析
 -   筆墨檔分析庫 (IACore.dll) 
 
-在 Windows Forms 應用程式中，您很有可能會使用程式庫搭配在 Microsoft Tablet PC API 1.7 版元件中找到的標準 Tablet PC 平臺物件。 確定您也有下列參考：
+在 Windows Forms 應用程式中，您很有可能會使用程式庫搭配在 Microsoft Tablet pc API 1.7 版元件中找到的標準 Tablet pc 平臺物件。 確定您也有下列參考：
 
 -   Microsoft Tablet PC API v 1.7.2600.2180 (Microsoft.Ink.dll) 
 
-### <a name="windows-presentation-framework-applications"></a>Windows Presentation Framework 應用程式
+### <a name="windows-presentation-framework-applications"></a>WindowsPresentation Framework 應用程式
 
-您可以在 WPF 專案中使用筆墨分析 API，方法是將參考新增至 IAWinFX.dll 元件中的 System.object 命名空間中定義的筆墨分析成員。 SDK 會安裝此元件。
+您可以在 WPF 專案中使用筆墨分析 API，方法是將參考新增至系統中定義的筆墨分析成員。Windows。IAWinFX.dll 元件中的筆墨命名空間。 SDK 會安裝此元件。
 
 ### <a name="com-applications"></a>COM 應用程式
 
@@ -49,7 +49,7 @@ ms.locfileid: "103943259"
 
 ### <a name="rts-and-other-applications"></a>RTS 和其他應用程式
 
-筆墨分析基底圖層的運作方式不同于其他專案，它會使用點資料進行分析，而不是 [筆劃](/previous-versions/ms552692(v=vs.100)) 物件。 您可以直接使用基底層而不是使用 Windows forms 或 COM 層的範例，包括不使用第一代 Tablet PC 平臺筆墨物件的應用程式，或是使用 [**RealTimeStylus**](realtimestylus-class.md) api 來管理手寫筆輸入的應用程式，而不是使用 Tablet Pc 平臺 [筆墨](/previous-versions/ms583670(v=vs.100)) 物件。
+筆墨分析基底圖層的運作方式不同于其他專案，它會使用點資料進行分析，而不是 [筆劃](/previous-versions/ms552692(v=vs.100)) 物件。 您可以直接使用基底層，而不是使用 Windows 表單或 COM 層的範例，包括不使用第一代 Tablet PC 平臺筆墨物件的應用程式，或是使用 [**RealTimeStylus**](realtimestylus-class.md) api 來管理手寫筆輸入的應用程式，而不是使用 Tablet pc 平臺 [筆墨](/previous-versions/ms583670(v=vs.100))物件。
 
 ## <a name="32-bit-support-only"></a>僅限32位支援
 

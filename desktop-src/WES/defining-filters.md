@@ -4,12 +4,12 @@ description: 提供者可以定義篩選器，讓會話用來根據事件資料�
 ms.assetid: b43912af-0e9c-414b-b3fa-03e7e35e493c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61dd2a21b9c4e01ebc4a32a160b24022c79197b0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 37d9d065fe3a46fc22114cfb4aed5b5b51d9a89eafa3280e2e258199e06aad3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056016"
 ---
 # <a name="defining-filters"></a>定義篩選器
 

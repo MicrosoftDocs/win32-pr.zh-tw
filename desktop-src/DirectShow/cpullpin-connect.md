@@ -1,7 +1,7 @@
 ---
-description: Connect 方法會完成輸出釘選的連接。
+description: 連線方法會完成輸出釘選的連接。
 ms.assetid: fb20ef5d-e00a-4154-a6da-25bef663c0e7
-title: 'CPullPin 連接方法 (Pullpin .h) '
+title: 'CPullPin.連線方法 (Pullpin) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 97e3b0b676e02dee0e3ebd82de9def56edc2ea28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 37240be1b732410d1e91974922f8ed7dc464b57b2596faa381c646a7513daf26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073502"
 ---
-# <a name="cpullpinconnect-method"></a>CPullPin 方法
+# <a name="cpullpinconnect-method"></a>CPullPin.連線方法
 
 `Connect`方法會完成輸出釘選的連接。
 
@@ -71,7 +71,7 @@ HRESULT Connect(
 
 
 
-| 傳回碼                                                                                               | Description                                                                     |
+| 傳回碼                                                                                               | 描述                                                                     |
 |-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                      | 成功。<br/>                                                             |
 | <dl> <dt>**VFW \_ E \_ 已 \_ 連線**</dt> </dl> | 輸入 pin 已連線。<br/>                                  |

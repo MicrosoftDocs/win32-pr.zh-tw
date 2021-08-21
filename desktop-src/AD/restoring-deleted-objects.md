@@ -1,6 +1,6 @@
 ---
 title: 還原已刪除的物件
-description: Windows Server 2003 包含 \ 0034; 還原已刪除的物件 \ 0034;特徵。
+description: Windows伺服器2003包括 \ 0034; 還原已刪除的物件 \ 0034;特徵。
 ms.assetid: b64c5c91-fb76-4323-b78d-f692aa887c96
 ms.tgt_platform: multiple
 keywords:
@@ -9,18 +9,18 @@ keywords:
 - 物件 AD，還原已刪除的物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f8f1d3511bb4246826e677aa239ca594918127a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 431bcddcbd15366a6accf9b8368fa8d34377b27af923fb102803b6316462634e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104507859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025116"
 ---
 # <a name="restoring-deleted-objects"></a>還原已刪除的物件
 
-Windows Server 2003 包含「還原已刪除的物件」功能。
+Windows伺服器2003包含「還原已刪除的物件」功能。
 
-若要啟用已刪除的物件還原，網域中至少有一個網域控制站必須在 Windows Server 2003 或更新版本的 Windows 上執行。 依預設，只有網域系統管理員可以還原已刪除的物件，不過這可以委派給其他人。
+若要啟用已刪除的物件還原，網域中至少必須有一個網域控制站在 Windows Server 2003 或更新版本的 Windows 上執行。 依預設，只有網域系統管理員可以還原已刪除的物件，不過這可以委派給其他人。
 
 下列限制適用于還原已刪除的物件：
 
@@ -36,7 +36,7 @@ Windows Server 2003 包含「還原已刪除的物件」功能。
 > [!Note]  
 > 授與使用者此許可權可能會造成安全性風險，因為它可能會允許使用者還原可存取使用者通常無法存取之資源的帳戶物件。 藉由還原帳戶，使用者基本上可以取得此帳戶的控制權，因為使用者必須在帳戶還原時設定帳戶的初始密碼。
 
- 
+ 
 
 若要完整還原已刪除的物件，使用者必須：
 
@@ -53,7 +53,7 @@ Windows Server 2003 包含「還原已刪除的物件」功能。
     > [!Note]  
     > 在還原作業期間，不會驗證 **isDeleted** 屬性。 「刪除的物件」容器上的「刪除子」許可權都不會進行驗證。
 
-     
+     
 
 ## <a name="restoring-a-deleted-object"></a>還原已刪除的物件
 
@@ -62,13 +62,13 @@ Windows Server 2003 包含「還原已刪除的物件」功能。
 找到物件之後，必須在單一 LDAP 作業中完成下列作業。 這需要搭配 [**ldap \_ 伺服器 \_ 顯示 \_ 已刪除的 \_ OID**](/previous-versions/windows/desktop/ldap/ldap-server-show-deleted-oid)控制項來使用 [**ldap \_ modify \_ ext \_ s**](/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_ext_s)函數。
 
 -   移除 **isDeleted** 屬性值。 **IsDeleted** 屬性值必須移除，而不是設定為 **FALSE**。
--   取代物件的辨別名稱，使其移至 [Deleted Objects] 容器以外的容器。 這可以是任何通常可以包含物件的容器。 您可以在已刪除物件的 **lastKnownParent** 屬性中找到物件先前容器的分辨名稱。 只有在 Windows Server 2003 網域控制站上刪除了物件時，才會設定 **lastKnownParent** 屬性。 因此， **lastKnownParent** 屬性的內容可能不正確。
+-   取代物件的辨別名稱，使其移至 [Deleted Objects] 容器以外的容器。 這可以是任何通常可以包含物件的容器。 您可以在已刪除物件的 **lastKnownParent** 屬性中找到物件先前容器的分辨名稱。 只有在 Windows Server 2003 網域控制站上刪除物件時，才會設定 **lastKnownParent** 屬性。 因此， **lastKnownParent** 屬性的內容可能不正確。
 -   還原刪除期間已清除之物件的必要屬性。
 
 > [!Note]  
 > **ObjectCategory** 屬性也可以在還原物件時設定，但不是必要的。 如果未指定任何 **objectCategory** 值，則會使用物件之 **ObjectClass** 的預設 **objectCategory** 。
 
- 
+ 
 
 還原物件之後，就可以像在刪除它之前一樣存取它。 此時，應還原任何重要的選擇性屬性。 您也必須還原目錄中其他物件的物件參考。
 
@@ -246,6 +246,6 @@ HRESULT RestoreDeletedObject(LPCWSTR pwszDeletedDN, LPCWSTR pwszDestContainerDN)
 
 
 
- 
+ 
 
- 
+ 

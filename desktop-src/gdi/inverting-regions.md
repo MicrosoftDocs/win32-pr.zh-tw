@@ -4,12 +4,12 @@ ms.assetid: bcd9fe61-0f92-41bc-b953-a66e01e43a75
 title: 反轉區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7e3c4b4d01f9ed8f09e819d59bf3268a1ccae4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1920b2bcc764bcc1c6e93c3a0c18bacf84a87e5bc2536d1bd503a0d47138166b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037856"
 ---
 # <a name="inverting-regions"></a>反轉區域
 

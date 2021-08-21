@@ -5,12 +5,12 @@ ms.assetid: CC1E5BAB-4363-43FF-BF5B-6C9AEBECD6CA
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 979c51b3c88be184cb23afaa2008e90eaec1f9c5
-ms.sourcegitcommit: a1f58e231315e95bbf9178994f8c52303fc0d4a1
+ms.openlocfilehash: b84676d36523fe23d33946e164d245e1619eb41d0af11a898acc52194348e439
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "104548465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045366"
 ---
 # <a name="timing-direct3d-12-graphics"></a>執行時間 (Direct3D 12 圖形) 
 

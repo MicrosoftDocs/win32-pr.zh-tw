@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7e1b4746d2e559b567adb4cbd2305ea474b03129
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29c7399fb4bda82ffce234379d51c4cd7ceb17a281f82f3e13db8b45c6b0a449
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032186"
 ---
 # <a name="shell-library-backup-sample"></a>Shell 程式庫備份範例
 
@@ -28,7 +28,7 @@ ms.locfileid: "104973752"
 -   [建立範例](#building-the-sample)
 -   [執行範例](#running-the-sample)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 此範例是虛構的備份應用程式，示範如何透過 [一般檔案] 對話方塊來挑選程式庫。 它也會示範如何使用 Shell 命名空間檢視器來備份程式庫。
 
@@ -49,7 +49,7 @@ ms.locfileid: "104973752"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [ShellLibraryBackup 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/ShellLibraryBackup) |
 

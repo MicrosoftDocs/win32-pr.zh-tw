@@ -4,12 +4,12 @@ ms.assetid: 07aac772-f917-48b7-91a9-3b5d4cb43600
 title: 以框架為基礎的例外狀況處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12b268b5d02de83bca22a1d3311905b05be1f748
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2afb72118aca7653e9bc15e7f4ff4b75e46b1abad5bab7dee4a3397ae5f98e1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573118"
 ---
 # <a name="frame-based-exception-handling"></a>以框架為基礎的例外狀況處理
 

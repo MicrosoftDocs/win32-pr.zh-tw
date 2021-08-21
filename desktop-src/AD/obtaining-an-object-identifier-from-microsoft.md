@@ -7,12 +7,12 @@ keywords:
 - 從 Microsoft 取得物件識別碼
 ms.topic: article
 ms.date: 02/19/2021
-ms.openlocfilehash: 3daa03798afe8e887e8a33a2fde6bd04ddb5b7cb
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6eceb154d6f8a11b2322e4ad573b5db7d390db8d9d22cdcdedbe1b3423bb3cda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104514293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025546"
 ---
 # <a name="obtaining-an-object-identifier-from-microsoft"></a>從 Microsoft 取得物件識別碼
 
@@ -33,7 +33,7 @@ ms.locfileid: "104514293"
 
 
 
-| OID 基底值                            | Description                                                                                                                                                                                        |
+| OID 基底值                            | 描述                                                                                                                                                                                        |
 |-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.2.840.113556.1.8000.999999.1<br/> | 應用程式類別<br/> 第一個類別會有 OID 1.2.840.113556.1.8000.999999.1.1，第二個類別會有 OID 1.2.840.113556.1.8000.999999.1.2，依此類推。<br/>    |
 | 1.2.840.113556.1.8000.999999.2<br/> | 應用程式屬性<br/> 第一個屬性的 OID 會是1.2.840.113556.1.8000.999999.2.1，第二個屬性的 OID 會是1.2.840.113556.1.8000.999999.2.2，依此類推。<br/> |

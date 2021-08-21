@@ -7,12 +7,12 @@ keywords:
 - Active Directory Domain Services，系統錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70ff3890cb1627f90d17f45aeceef4bcf820fdf1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f4854aee59748af93f6108f3d3418f7de1872f536acb257ff0abc61cf49efa14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024626"
 ---
 # <a name="system-errors-in-active-directory-domain-services"></a>Active Directory Domain Services 中的系統錯誤
 

@@ -9,7 +9,7 @@ keywords:
 - 自訂視覺效果，建立
 - 建立視覺效果
 - Visual Studio，建立視覺效果
-- Windows Media Player 外掛程式嚮導，建立視覺效果
+- Windows Media Player外掛程式嚮導，建立視覺效果
 - 外掛程式嚮導
 - 視覺效果，預設
 - 自訂視覺效果，預設
@@ -21,12 +21,12 @@ keywords:
 - 視覺效果中的預設值，Wave 預設
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faed09c473af9a8e784b9a2e9f6891283a99a41a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c9d21cbbb67c30711919d9d0cbf559dcb83e48493687d9bca3574ce066186620
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573368"
 ---
 # <a name="building-a-visualization"></a>建立視覺效果
 
@@ -43,9 +43,9 @@ ms.locfileid: "104372139"
 [**關於自訂視覺效果**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

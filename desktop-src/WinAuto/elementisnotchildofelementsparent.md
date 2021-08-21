@@ -4,12 +4,12 @@ description: ElementIsNotChildOfElementsParent
 ms.assetid: DFD5CC2A-B5F4-49F2-B3EF-2CD447A575E2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c5a3d62a6ae656bffffca442ed3cbb9b85be8dc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 906e9debd379950a7fc8ba2fa8faf5795cd21db8d1d82c465d5c8ff410082347
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118829536"
 ---
 # <a name="elementisnotchildofelementsparent"></a>ElementIsNotChildOfElementsParent
 
@@ -41,9 +41,9 @@ ms.locfileid: "104372676"
 [**IAccessible：： get \_ accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

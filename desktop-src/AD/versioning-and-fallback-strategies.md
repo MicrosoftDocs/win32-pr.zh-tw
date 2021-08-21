@@ -7,12 +7,12 @@ keywords:
 - 版本控制和回溯策略廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45f6383ad06e73457e18dddfac53295a0c16389c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b55226efcd72cec4f6dbe65447a945733dac88a56b976661bcf24564c9b366ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024409"
 ---
 # <a name="versioning-and-fallback-strategies"></a>版本控制和回溯策略
 
@@ -20,9 +20,9 @@ ms.locfileid: "103839263"
 
 執行必須小心避免非預期的結果。 只有在偵測到部分更新或新物件尚未「生效」時，才應該使用舊版的物件。 由於應用程式「無法運作」中的某些內容，可能會規避系統管理員的意圖。 例如，兩部先前可以通訊的電腦可能會因為網際網路通訊協定安全性 (IPsec) 原則的變更，而發現自己無法這麼做。 如果這是系統管理員的一部分，受影響的系統不應該回復至允許它們進行通訊的原則，因為這會造成安全性缺口。
 
- 
+ 
 
- 
+ 
 
 
 

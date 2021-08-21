@@ -3,7 +3,7 @@ title: 描述區段
 description: 描述區段
 ms.assetid: 280a9a4d-935f-440d-a606-94aeba0007db
 keywords:
-- Windows Media Player 行動外觀、描述區段
+- Windows Media Player行動外觀、描述區段
 - 外觀，描述區段
 - 建立外觀，描述區段
 - 撰寫面板的程式碼，描述區段
@@ -11,12 +11,12 @@ keywords:
 - 外觀定義檔，描述區段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9518b6b1de128457dc3e6b3738ddab9be2a873
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 96735f07432f8075fe1842d97a4ff1737c65c25ae7ac75ddd61b805460ba6293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118839540"
 ---
 # <a name="description-section"></a>描述區段
 
@@ -50,9 +50,9 @@ ms.locfileid: "103840680"
 [**撰寫程式碼**](writing-the-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

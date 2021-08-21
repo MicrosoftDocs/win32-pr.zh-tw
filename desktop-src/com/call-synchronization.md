@@ -4,12 +4,12 @@ description: 呼叫同步處理
 ms.assetid: e74407ef-f500-4d13-aef4-ca6bb37d5858
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9254aceaaa8a6fa26d56d4a86987cc955b90dc
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9969c968294a3dfdbfbc4cb78d40e64ad65c17392bf3b9fd09fc7a5f99b9049b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048736"
 ---
 # <a name="call-synchronization"></a>呼叫同步處理
 
@@ -40,7 +40,7 @@ COM 應用程式在處理來自 COM 或作業系統的一或多個呼叫時，�
 > [!Note]  
 > 當 COM 正在處理非同步呼叫時，無法進行同步呼叫。 例如，容器應用程式的 [**OnDataChange**](/windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-ondatachange) 執行不能包含 [**IPersistStorage：： Save**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-save)的呼叫。 這些呼叫是 COM 唯一支援的非同步呼叫。 目前沒有任何方法可建立非同步自訂介面。
 
- 
+ 
 
 </dd> <dt>
 
@@ -66,6 +66,6 @@ COM 應用程式在處理來自 COM 或作業系統的一或多個呼叫時，�
 
 COM 會藉由指派稱為 *邏輯執行緒* 識別碼的識別碼來管理方法呼叫。 當使用者選取功能表命令或應用程式起始新的 COM 作業時，就會指派新的。 後續與初始 COM 呼叫相關的呼叫會被指派與初始呼叫相同的邏輯執行緒識別碼。
 
- 
+ 
 
- 
+ 

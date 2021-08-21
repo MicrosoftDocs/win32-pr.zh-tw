@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a57fb448934908ebc1530e95a298715324aaee6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4f742f863e40f4abd13ef3c24a0ddce0981922cc40ab8d55c31393d519139f03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118810312"
 ---
 # <a name="fsctl_dfs_get_pkt_entry_state-control-code"></a>FSCTL_DFS_GET_PKT_ENTRY_STATE 控制程式代碼
 

@@ -4,18 +4,18 @@ ms.assetid: a0e150bd-3ff8-4b9c-b1ea-b3852a47fee3
 title: SharpnessText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb95a9e4596c282eb122dfaeb749f3f5426e4416
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 214e298cd1d7f585b7f9a11bc5ca55c0e2012b60a2e922ed0cb00c6cc84ff60a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033276"
 ---
 # <a name="systemphotosharpnesstext"></a>SharpnessText
 
 易記[的使用者易記形式。](./props-system-photo-sharpness.md) 不打算以程式設計方式剖析。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

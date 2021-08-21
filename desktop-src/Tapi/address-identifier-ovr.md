@@ -4,12 +4,12 @@ ms.assetid: 19394db1-4408-4ba6-be48-b408c1fa0f30
 title: 位址識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb80ee463271a4d7fe9e4dcec086b08c37326551
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56fa2d3a9aead56c0354cb7ffa487c7044853a25ea40c88b00b9eea0fa7db0f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118872392"
 ---
 # <a name="address-identifiers"></a>位址識別碼
 

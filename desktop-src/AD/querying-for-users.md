@@ -8,12 +8,12 @@ keywords:
 - Active Directory、使用、使用者、查詢使用者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39037ff805dab753aae066d1f6611432b28ea73c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: d8ae6939cef858c3dfc108611a1b0e7ab0367c302a091ca436c9c69b2fb5277b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025316"
 ---
 # <a name="querying-for-users"></a>查詢使用者
 
@@ -23,6 +23,6 @@ ms.locfileid: "103681647"
 
 使用者可以放在網域的任何容器或組織單位中，也可以放在網域的根目錄中。 這表示使用者可以位於目錄階層中的多個位置。 您可以執行 " (objectCategory = user) " 的深層搜尋，以尋找容器、組織單位、網域、網域樹狀結構或樹系中的所有使用者，視您所使用的 [**>idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) 指標所系結至的物件而定。
 
- 
+ 
 
- 
+ 

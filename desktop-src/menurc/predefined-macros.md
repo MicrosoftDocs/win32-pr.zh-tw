@@ -4,12 +4,12 @@ description: RC 不支援 (\_ \_ DATE \_ \_ 、 \_ \_ FILE \_ \_ 、 \_ \_ LINE 
 ms.assetid: 2098d4a4-7c6f-4cdc-9c02-3d55907f8888
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 351674bc86ab56753bb49dba9e65edd97a7b1a04
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5f9e48b915fae430bf776b9eebab7ac795e7b69a3d79e06a7ce6422b6d6eab6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971947"
 ---
 # <a name="predefined-macros"></a>預先定義的巨集
 
@@ -27,9 +27,9 @@ RC 會定義叫 \_ 用的 rc，此功能可讓您根據編譯器是您的 C 編�
 #endif
 ```
 
- 
+ 
 
- 
+ 
 
 
 

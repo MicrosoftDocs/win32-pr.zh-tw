@@ -4,12 +4,12 @@ ms.assetid: e8e925d5-262d-45c0-be9f-21c9a103d7b7
 title: " (Direct3D 9) 的 Alpha 混色狀態"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 884ecad07fb9aefba08a0abbab92969937ec6361
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cc4bd012340fae9e7597479d846d18db37c32d6f95a42118ba7444ad63a2e1cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045206"
 ---
 # <a name="alpha-blending-state-direct3d-9"></a> (Direct3D 9) 的 Alpha 混色狀態
 

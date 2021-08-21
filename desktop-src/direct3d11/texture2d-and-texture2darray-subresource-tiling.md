@@ -4,12 +4,12 @@ description: 這些表格顯示了 Texture2D 和 Texture2DArray 子資源拼接�
 ms.assetid: 3CFA384D-2C49-4BB2-9A92-FC45B1A499B5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18a7ded22fcb7e7e476a701c7db3063dfae33fda
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 55ee7cc181845785ab978dc5d58b1e131a7f32c34a6d04006af1ac8034f089ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530433"
 ---
 # <a name="texture2d-and-texture2darray-subresource-tiling"></a>Texture2D 和 Texture2DArray 子資源拼貼
 
@@ -31,7 +31,7 @@ ms.locfileid: "104375969"
 
 
 
- 
+ 
 
 並排顯示的資源不支援格式位元數目為 96 bpp 格式、影片格式、DXGI \_ 格式 \_ R1 \_ UNORM、dxgi \_ 格式 \_ R8G8 \_ B8G8 \_ UNORM 和 dxgi \_ 格式 \_ R8R8 \_ G8B8 UNORM \_ 。
 
@@ -49,7 +49,7 @@ ms.locfileid: "104375969"
 
 
 
- 
+ 
 
  (只需要取樣計數1和4，而且可讓磚的資源支援) 。 並排顯示的資源目前不支援2、8和16，但仍會顯示。
 
@@ -64,6 +64,6 @@ ms.locfileid: "104375969"
 [磚式資源的區域如何並排顯示](how-a-tiled-resource-s-area-is-tiled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
