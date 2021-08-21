@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c31128f66304fc9a369b3c445fe5e81617287f8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 45f420f9b941858af3409b4d3b50664ed970695ef0541f5b03e7a1617a4a4686
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026546"
 ---
 # <a name="filereptoolexample"></a>FileRepToolExample
 
@@ -1048,9 +1048,9 @@ static WS_XML_STRING faultAction = WS_XML_STRING_VALUE("https://tempuri.org/File
 [FileRepServiceExample](filerepserviceexample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,20 +1,20 @@
 ---
-title: OpenGL 效能秘訣
-description: OpenGL 效能秘訣
+title: OpenGL 效能提示
+description: OpenGL 效能提示
 ms.assetid: f85bf725-1361-49b9-894c-c803b2dead60
 keywords:
 - OpenGL，效能秘訣
 - OpenGL、最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7e5b6fa33f8d6841d0fd47d1a655ef99facc84e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0fe91602d4a30767ed1e66e62d33445bf37152ede2cf9f8450e056f577cb3045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936828"
 ---
-# <a name="opengl-performance-tips"></a>OpenGL 效能秘訣
+# <a name="opengl-performance-tips"></a>OpenGL 效能提示
 
 這些程式設計實務會優化應用程式的效能：
 
@@ -40,9 +40,9 @@ ms.locfileid: "103673263"
 -   避免進行多餘的模式變更，例如將色彩設定為平面陰影多邊形的每個頂點之間的相同值。
 -   繪製或複製影像時，請停用柵格化和個別片段作業，以將資源優化。 OpenGL 可以將材質套用至圖元影像。
 
- 
+ 
 
- 
+ 
 
 
 

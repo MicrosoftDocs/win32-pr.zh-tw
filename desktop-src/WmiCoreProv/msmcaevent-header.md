@@ -1,5 +1,5 @@
 ---
-description: 代表所有 MSMCAEvent 類別使用的一般標頭。 此類別僅適用于64位的 Windows 系統。
+description: 代表所有 MSMCAEvent 類別使用的一般標頭。 此類別僅適用于64位 Windows 系統。
 ms.assetid: ff20522c-f805-47dc-bef2-4176211de698
 title: MSMCAEvent_Header 類別
 ms.topic: reference
@@ -19,16 +19,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 426f943014f3b6cfbdba5a25d331c0ea621048cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9b09e745fd3d2a6819a756ff6a012c85330f327739dae28445c2e376189d293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051266"
 ---
 # <a name="msmcaevent_header-class"></a>MSMCAEvent \_ 標頭類別
 
-**MSMCAEvent \_ 標頭** 類別代表所有 [MSMCA 類別](msmca-classes.md)使用的一般標頭。 使用標頭檔案，C 和 c + + 程式碼可以有描述所有事件之一般標頭的資料結構。 此類別已保留供內部使用。 此類別僅適用于64位的 Windows 系統。
+**MSMCAEvent \_ 標頭** 類別代表所有 [MSMCA 類別](msmca-classes.md)使用的一般標頭。 使用標頭檔案，C 和 c + + 程式碼可以有描述所有事件之一般標頭的資料結構。 此類別已保留供內部使用。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -137,7 +137,7 @@ MCA 記錄中的其他錯誤數目。
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**
@@ -146,7 +146,7 @@ MCA 記錄中的其他錯誤數目。
 存取類型：唯讀
 </dt> </dl>
 
-事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，當 Windows 事件記錄取用者提供者收到其中一個事件時，該訊息會用來插入事件記錄檔訊息。
+事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，而這些訊息是用來在接收到其中一個事件時，由 Windows 事件記錄取用者提供者插入事件記錄檔訊息。
 
 </dd> </dl>
 

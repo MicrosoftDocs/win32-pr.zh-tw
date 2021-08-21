@@ -4,12 +4,12 @@ ms.assetid: 721d0c1c-d105-4d9f-b5e9-6ca407b28c4e
 title: 使用圖形容器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80570f3a45c8d67b36f677fc404dcd63581e7938
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96292395113b80ec79f8b59d4ac7f203c3d1f2d892c2da62ce4957e49b81860d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036286"
 ---
 # <a name="using-graphics-containers"></a>使用圖形容器
 

@@ -10,12 +10,12 @@ keywords:
 - 用戶端、TextRange 控制項模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f6dae1fc5ca02af69ab3d5386461e6bd7a864d4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 655f291e9cc11d925f947617fe31be96ebd81a2dbff73506a0e474dcde9e4446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823887"
 ---
 # <a name="understanding-the-ui-automation-text-object-model"></a>瞭解消費者介面自動化 Text 物件模型
 
@@ -31,7 +31,7 @@ ms.locfileid: "103672427"
 > [!Note]  
 > 消費者介面自動化的 text 物件模型並未提供插入或修改文字的方法。 不過，某些控制項可透過 [**IUIAutomationValuePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationvaluepattern) 介面或透過直接鍵盤輸入來插入或修改文字。
 
- 
+ 
 
 ## <a name="control-specific-object-model"></a>控制項特定的物件模型
 
@@ -54,9 +54,9 @@ ms.locfileid: "103672427"
 [使用以文字為基礎的控制項](uiauto-workingwithtextbasedcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

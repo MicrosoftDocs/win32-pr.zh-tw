@@ -4,16 +4,16 @@ description: ListenStart 事件
 ms.assetid: 59feacd6-0b9f-4bf4-b544-48de49384312
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19b8cc19ad727f8e9c4606bbbfba7b2e03e7d638
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b0017b628af3ca266058de74508d379bd665c94f94c64207f4d7bef5487a0f4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976108"
 ---
 # <a name="listenstart-event"></a>ListenStart 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -37,7 +37,7 @@ ms.locfileid: "103840672"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -54,9 +54,9 @@ ms.locfileid: "103840672"
 [**ListenComplete 事件**](listencomplete-event.md)， [**接聽方法**](listen-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

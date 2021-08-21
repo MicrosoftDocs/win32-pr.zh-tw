@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_ClusterShare 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f502f4cf98914f90e9560786e3264e890026a21
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 28410ff871e949ce4f1f4056f7f0b109c5d36a948324fa7a4d29989b6ff7c076
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020296"
 ---
 # <a name="win32_clustershare-methods"></a>Win32 \_ ClusterShare 方法
 

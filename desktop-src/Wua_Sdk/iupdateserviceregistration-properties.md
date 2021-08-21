@@ -4,12 +4,12 @@ ms.assetid: 2bcde8b4-7bff-4887-8080-89da817afb5f
 title: IUpdateServiceRegistration 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 716c06f2fc8ed9a7ce12542a09440cf0ec0b5c49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 824f76c01b428d156d12752d07bb9547517df26a0e621f44a701e94f33340221
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118814805"
 ---
 # <a name="iupdateserviceregistration-properties"></a>IUpdateServiceRegistration 屬性
 

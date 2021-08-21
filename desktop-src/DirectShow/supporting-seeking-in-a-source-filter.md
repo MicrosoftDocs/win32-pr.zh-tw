@@ -1,19 +1,19 @@
 ---
-description: 本主題說明如何在 Microsoft DirectShow 來源篩選器中執行搜尋。 它使用球形濾波器範例作為起點，並說明在此篩選準則中支援搜尋所需的其他程式碼。
+description: 本主題說明如何在 Microsoft DirectShow 來源篩選準則中執行搜尋。 它使用球形濾波器範例作為起點，並說明在此篩選準則中支援搜尋所需的其他程式碼。
 ms.assetid: a2b4be09-2fd6-4aac-8ad6-c3d62377c1f2
 title: 支援在來源篩選準則中搜尋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42ac4bbb63410adf9cb4e8d69064679143b84d67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d92c52ff4bde3ea75b156e5521af9825b0902df38f0d0c6bc23cc7be99c37a55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072352"
 ---
 # <a name="supporting-seeking-in-a-source-filter"></a>支援在來源篩選準則中搜尋
 
-本主題說明如何在 Microsoft DirectShow 來源篩選器中執行搜尋。 它使用 [球形濾波器](ball-filter-sample.md) 範例作為起點，並說明在此篩選準則中支援搜尋所需的其他程式碼。
+本主題說明如何在 Microsoft DirectShow 來源篩選準則中執行搜尋。 它使用 [球形濾波器](ball-filter-sample.md) 範例作為起點，並說明在此篩選準則中支援搜尋所需的其他程式碼。
 
 [球形濾波器](ball-filter-sample.md)範例是一種來源篩選器，可建立動畫彈跳球。 本文說明如何將搜尋功能新增到此篩選器。 加入這項功能之後，您就可以在 GraphEdit 中轉譯篩選，並藉由拖曳 GraphEdit 滑杆來控制球體。
 
@@ -26,7 +26,7 @@ ms.locfileid: "103852404"
 
 ## <a name="overview-of-seeking-in-directshow"></a>在 DirectShow 中搜尋的總覽
 
-應用程式會藉由呼叫篩選圖形管理員上的 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) 方法來搜尋篩選圖形。 然後，篩選圖形管理員會將呼叫分散至圖形中的每個轉譯器。 每個轉譯器都會透過下一個上游篩選的輸出釘選，傳送呼叫上游。 呼叫會傳送上游，直到到達可執行 seek 命令的篩選準則（通常是來源篩選或剖析器篩選器）。 一般而言，產生時間戳記的篩選器也會處理搜尋。
+應用程式會藉由在篩選 Graph 管理員上呼叫 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)方法，來搜尋篩選圖形。 篩選 Graph 管理員接著會將呼叫分散至圖形中的每個轉譯器。 每個轉譯器都會透過下一個上游篩選的輸出釘選，傳送呼叫上游。 呼叫會傳送上游，直到到達可執行 seek 命令的篩選準則（通常是來源篩選或剖析器篩選器）。 一般而言，產生時間戳記的篩選器也會處理搜尋。
 
 篩選準則會回應搜尋命令，如下所示：
 
@@ -107,7 +107,7 @@ STDMETHODIMP CBallStream::NonDelegatingQueryInterface
 
 
 
-方法稱為「NonDelegating」，因為 DirectShow 基類支援元件物件模型的方式 (COM) 匯總。 如需詳細資訊，請參閱 DirectShow SDK 中的「如何執行 IUnknown」主題。
+方法稱為 "NonDelegating"，原因是 DirectShow 基類支援元件物件模型 (COM) 匯總的方式。 如需詳細資訊，請參閱 DirectShow SDK 中的 < 如何執行 IUnknown」主題。
 
 ### <a name="seeking-methods"></a>搜尋方法
 

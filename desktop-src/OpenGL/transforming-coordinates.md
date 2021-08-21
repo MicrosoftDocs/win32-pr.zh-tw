@@ -11,12 +11,12 @@ keywords:
 - 轉換座標 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 504a5a58c723dcccfc54ce2f47a01710133ccc30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe3c2e4f8c0dd9540e8ba7963640072ebf44997cf9d99e807f31914ddf8eed4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553568"
 ---
 # <a name="transforming-coordinates"></a>轉換座標
 
@@ -28,9 +28,9 @@ OpenGL 公用程式程式庫 (X.GLU 隊) 提供數個常用的矩陣轉換函數
 
 [**GluUnProject**](gluunproject.md)函式會執行反向轉換：它會使用 *modelMatrix*、 *projMatrix* 和 *視口* 來將指定的視窗座標 *winx*、 *winy* 和 *winz* 轉換成物件座標。 結果會儲存在 *objx*、 *objy* 和 *objz* 中。 如果函式成功，則傳回值為 GL \_ TRUE。 如果函式失敗，則傳回值為 GL \_ FALSE。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ description: 代理程式狀態
 ms.assetid: 8c3c5b12-81af-4ba5-b834-9f0a7ff5d075
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c371b1a2126129c03f16ce7fc7c2f95cca955a2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fbfb927cbe9ad703e733caa827df7c5a63bac67b93d49edbb8f59884c89b6ee7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976798"
 ---
 # <a name="agent-states"></a>代理程式狀態
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 Microsoft Agent 動畫服務會為您自動播放特定動畫。 例如，當您使用 [**MoveTo**](moveto-method.md) 或 [**GestureAt**](gestureat-method.md) 命令時，動畫服務會播放適當的動畫。 同樣地，在閒置時間過期之後，服務會自動播放動畫。 若要支援這些狀態，您可以定義適當的動畫，然後將它們指派給這些狀態。 即使您將它指派給狀態，還是可以使用 [**play**](play-method.md) 方法直接播放您定義的任何動畫。
 

@@ -4,12 +4,12 @@ ms.assetid: f310c6ed-52e7-4828-9d4c-2f7ced9080c5
 title: 教學課程：使用 WMContainer 物件撰寫 WMA 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d156b75ced6cde2953ec90362ed13b0cc53bb83c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4aed89eb9ef656fe9240a1ed56e712f92209ba5c7e6d5bea2cca3d909d4315ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972767"
 ---
 # <a name="tutorial-writing-a-wma-file-by-using-wmcontainer-objects"></a>教學課程：使用 WMContainer 物件撰寫 WMA 檔案
 
@@ -19,9 +19,9 @@ ms.locfileid: "103848700"
 
 本教學課程包含下列各節：
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [術語](#terminology)
--   [1. 設定專案](#1-set-up-the-project)
+-   [1. 設定 Project](#1-set-up-the-project)
 -   [2. 宣告 Helper 函數](#2-declare-helper-functions)
 -   [3. 開啟音訊檔案](#3-open-an-audio-file)
 -   [4. 設定編碼器](#4-configure-the-encoder)
@@ -37,7 +37,7 @@ ms.locfileid: "103848700"
 本教學課程假設您已句備下列條件：
 
 -   您已熟悉 ASF 檔案的結構以及媒體基礎提供的元件，以使用 ASF 物件。 這些元件包括 ContentInfo、分隔器、多工器和設定檔物件。 如需詳細資訊，請參閱 [WMCONTAINER ASF 元件](wmcontainer-asf-components.md)。
--   您熟悉 Windows Media 編碼器以及各種編碼類型，尤其是 CBR。 如需詳細資訊，請參閱 [Windows Media 編碼器](windows-media-encoders.md) 。
+-   您熟悉 Windows 媒體編碼器，以及各種編碼類型，尤其是 CBR。 如需詳細資訊，請參閱[Windows 媒體編碼器](windows-media-encoders.md)。
 -   您熟悉 [媒體緩衝區](media-buffers.md) 和位元組資料流程：具體而言，使用位元組資料流程的檔案作業，以及將媒體緩衝區的內容寫入位元組資料流程。
 
 ## <a name="terminology"></a>詞彙
@@ -52,7 +52,7 @@ ms.locfileid: "103848700"
 -   資料封包：媒體範例會公開由 [ASF](asf-multiplexer.md)多工器產生的 [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)介面;表示將寫入資料位元組資料流程的 ASF 資料封包。
 -   輸出位元組資料流程：位元組資料流程物件會公開 [**IMFByteStream**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream) 介面，其中包含輸出檔的內容。
 
-## <a name="1-set-up-the-project"></a>1. 設定專案
+## <a name="1-set-up-the-project"></a>1. 設定 Project
 
 1.  在原始程式檔中包含下列標頭：
 

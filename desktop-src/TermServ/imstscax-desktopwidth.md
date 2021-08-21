@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16cd1391c6aeb27d9ec0f87317b06e9084337fbb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ca982303208bb2badecf210c9590f627a7b3b57c5acd9ecd7f8fee0bbb70ec93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058839"
 ---
 # <a name="imstscaxdesktopwidth-property"></a>IMsTscAx：:D esktopWidth 屬性
 
@@ -102,7 +102,7 @@ HRESULT get_DesktopWidth(
 
 ## <a name="remarks"></a>備註
 
-設定 **DesktopWidth** 屬性是選擇性的，但必須在呼叫 [**Connect**](imstscax-connect.md) 方法之前設定。 如果未指定桌面寬度，或設定為零，則會將桌面寬度設定為控制項的寬度。 最小值和最大值取決於遠端桌面用戶端的作業系統版本。
+設定 **DesktopWidth** 屬性是選擇性的，但必須先設定，才能呼叫 [**連線**](imstscax-connect.md)方法。 如果未指定桌面寬度，或設定為零，則會將桌面寬度設定為控制項的寬度。 最小值和最大值取決於遠端桌面用戶端的作業系統版本。
 
 <dl> <dt>
 

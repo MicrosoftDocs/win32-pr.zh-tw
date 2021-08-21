@@ -4,12 +4,12 @@ ms.assetid: 2F6FDE88-C852-46BC-B6B1-630C266AF0AA
 title: JavaScript 物件標記法 (JSON)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1b5f12a2c4e3a4cd0a66a8f917c3cdf41ed17d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 970737e7f19c5043c418941351ea82537b36a4a2429c44428a90031699458525
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053076"
 ---
 # <a name="javascript-object-notation-json"></a>JavaScript 物件標記法 (JSON)
 
@@ -35,7 +35,7 @@ Internet Explorer 8 包含原生 JSON 物件，此物件符合「 [es 3.1 提案
 
 
 
-Windows Internet Explorer 包含原生的 JSON 支援，方法是引進具有兩個內建方法的全域 JSON 物件： **json.stringify** 和 **parse**。 全域 JSON 物件是在 JavaScript 引擎中定義，並且會在引擎初始化階段期間建立。 為了維持回溯相容性，只有當網站使用最新版的 JavaScript 功能時，才能使用「Internet Explorer 8 標準」配置 (檔) 模式。 這項功能也可能會影響依賴全域變數 JSON 或使用 [json2.js](https://github.com/douglascrockford/JSON-js/blob/master/json2.js)之網頁的行為。
+WindowsInternet Explorer 包含原生的 JSON 支援，方法是引進具有兩個內建方法的全域 JSON 物件： **json.stringify** 和 **parse**。 全域 JSON 物件是在 JavaScript 引擎中定義，並且會在引擎初始化階段期間建立。 為了維持回溯相容性，只有當網站使用最新版的 JavaScript 功能時，才能使用「Internet Explorer 8 標準」配置 (檔) 模式。 這項功能也可能會影響依賴全域變數 JSON 或使用 [json2.js](https://github.com/douglascrockford/JSON-js/blob/master/json2.js)之網頁的行為。
 
 您可以覆寫全域 JSON 物件。 但是，當網頁使用「Internet Explorer 8 標準」配置 (檔) 模式時，它再也不是未定義的物件。 因為 JavaScript 引擎會將 JSON 具現化為全域名稱，所以會檢查「如果 (！ this.JSON) 」是否評估為 False，而且必須在使用者程式碼中變更。
 

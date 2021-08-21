@@ -4,7 +4,7 @@ MS-HAID: WWAN\_profile\_v4.element\_UserName
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: UserName
+title: 使用者名稱
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 1f06d5b0-f229-4db7-a06b-9b66a8d792c1
@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 4c901a78e37bd3a4d883e0bd1c5c2006c7e2bc81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b08d80957fa61150dd5ffa9b447e2e45ccbde0c5b8162520e8d030034c4eeeb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975338"
 ---
 # <a name="span-idwwan_profile_v4element_usernamespanmbnprofileextusername-v4"></a><span id="WWAN_profile_v4.element_UserName"></span>MBNProfileExt \/ ... \/ (v4) 的使用者名稱
 
@@ -71,7 +71,7 @@ ms.locfileid: "104511349"
 <thead>
 <tr class="header">
 <th>Parent 項目</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

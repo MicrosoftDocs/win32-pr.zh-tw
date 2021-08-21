@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 範例：從本機電腦取得 WMI 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 840cd4ada941bdfd8ba7fca9b8ca9393c0b5eb55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71036d95996926ce9e5a0200587a15abb8dc992c82999aa65c54be50d0e1691b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050906"
 ---
 # <a name="example-getting-wmi-data-from-the-local-computer"></a>範例：從本機電腦取得 WMI 資料
 

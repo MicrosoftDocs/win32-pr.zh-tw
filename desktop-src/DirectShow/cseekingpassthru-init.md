@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 78176a6966f379240b5b7edd1ef5b73d7fa75b3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 91d20477f83ec79c6ae6095e81810c98454f9c26521eda995c919867b3e3ac12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953810"
 ---
 # <a name="cseekingpassthruinit-method"></a>CSeekingPassThru.Init 方法
 
@@ -63,7 +63,7 @@ HRESULT Init(
 
 
 
-| 傳回碼                                                                                   | Description                                        |
+| 傳回碼                                                                                   | 描述                                        |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 成功。<br/>                                |
 | <dl> <dt>**E \_ 失敗**</dt> </dl>        | 物件已初始化。<br/>         |

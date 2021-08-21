@@ -1,19 +1,19 @@
 ---
-description: 根據針對 Windows 通訊端2通訊協定獨立的 multipoint/多播配置所定義的分類，ATM 會落在根資料和根控制項平面的類別中。
+description: 根據針對 Windows 通訊端2與通訊協定無關的 multipoint/多播配置所定義的分類，ATM 會落在根資料和根控制項平面的類別中。
 ms.assetid: 309afa65-2cc4-4b7b-9968-4c4efb2d10a3
 title: Winsock ATM 函數詳細資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e82ca0531272490c2d3189467186535a63d6ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b089d02653ee996acc249f63144654c952ba724425fb208d9eb35cc9c2589e4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051376"
 ---
 # <a name="winsock-atm-function-details"></a>Winsock ATM 函數詳細資料
 
-根據針對 Windows 通訊端2通訊協定獨立的 multipoint/多播配置所定義的分類，ATM 會落在根資料和根控制項平面的類別中。  (如需詳細資訊，請參閱 Windows 通訊端 2 API 規格，附錄 D。 ) 作為根的應用程式會建立 c \_ 根通訊端，而分葉節點上執行的對應項會使用 c 分 \_ 葉通訊端。 根應用程式會使用 [**WSAJoinLeaf**](/windows/desktop/api/Winsock2/nf-winsock2-wsajoinleaf) 來加入新的分葉節點。 分葉節點上的對應應用程式，會將它們的 c \_ 分葉通訊端設定為接聽模式。 指定了 c \_ 根通訊端的 WSAJoinLeaf，將會對應至第一個分葉) 的安裝訊息 (，或針對任何後續的離開) 新增合作物件訊息 (。
+根據針對 Windows 通訊端2與通訊協定無關的 multipoint/多播配置所定義的分類，ATM 會落在根資料和根控制項平面的類別中。  (參閱 Windows 通訊端 2 API 規格，附錄 D 以取得詳細資訊。 ) 作為根的應用程式會建立 c \_ 根通訊端，而分葉節點上執行的對應項會使用 c 分 \_ 葉通訊端。 根應用程式會使用 [**WSAJoinLeaf**](/windows/desktop/api/Winsock2/nf-winsock2-wsajoinleaf) 來加入新的分葉節點。 分葉節點上的對應應用程式，會將它們的 c \_ 分葉通訊端設定為接聽模式。 指定了 c \_ 根通訊端的 WSAJoinLeaf，將會對應至第一個分葉) 的安裝訊息 (，或針對任何後續的離開) 新增合作物件訊息 (。
 
 > [!Note]  
 > 針對任何後續的保留，在 **WSAJoinLeaf** 中指定的 QoS 參數，應該根據 ATM 論壇單向規格加以忽略。

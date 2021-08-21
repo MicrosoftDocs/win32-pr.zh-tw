@@ -1,19 +1,19 @@
 ---
-description: 在 Windows GDI + 中，色彩是32位值，每個都有8個位，分別適用于 Alpha、紅色、綠色和藍色。
+description: 在 Windows GDI+ 中，色彩是32位值，每個都有8個位，分別適用于 Alpha、紅色、綠色和藍色。
 ms.assetid: f8c22d1a-b96b-4d16-928e-20adbae4c4a7
 title: Alpha 混色線條和填色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd13fe306dbf31c2a60a0bd38bf71b9e96edb201
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64096bbabc632ad7c2b159191ad21b3b09f3801a486f27679118008e4927e88f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977798"
 ---
 # <a name="alpha-blending-lines-and-fills"></a>Alpha 混色線條和填色
 
-在 Windows GDI + 中，色彩是32位值，每個都有8個位，分別適用于 Alpha、紅色、綠色和藍色。 Alpha 值表示色彩的透明度—色彩與背景色彩混合的範圍。 Alpha 值的範圍是從0到255，其中0代表完全透明的色彩，而255代表完全不透明的色彩。
+在 Windows GDI+ 中，色彩是32位值，每個都有8個位，分別適用于 Alpha、紅色、綠色和藍色。 Alpha 值表示色彩的透明度—色彩與背景色彩混合的範圍。 Alpha 值的範圍是從0到255，其中0代表完全透明的色彩，而255代表完全不透明的色彩。
 
 Alpha 混色是來源和背景色彩資料的圖元 x 圖元混合。 這三個元件 (紅色、綠色、藍色) 指定來源色彩會根據下列公式，與背景色彩的對應元件混合：
 

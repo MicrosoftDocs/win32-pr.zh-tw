@@ -3,9 +3,9 @@ title: 在播放時讀取中繼資料
 description: 在播放時讀取中繼資料
 ms.assetid: 48d37a9e-5e22-4298-abc4-b69998906dcb
 keywords:
-- Windows Media Format SDK，讀取中繼資料
-- Windows Media Format SDK，非同步讀取器
-- Windows Media Format SDK，同步讀取器
+- Windows媒體格式 SDK，讀取中繼資料
+- Windows媒體格式 SDK，非同步讀取器
+- Windows媒體格式 SDK，同步讀取器
 - Advanced Systems Format (ASF) ，讀取中繼資料
 - ASF (Advanced Systems Format) ，讀取中繼資料
 - Advanced Systems Format (ASF) 、非同步讀取器
@@ -17,12 +17,12 @@ keywords:
 - 中繼資料，在播放時讀取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42a2515dd62092d02a45b0261fe2b501e0833a31
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: f62100da8c2f27e626e27ae6686e08f7217867ec2775f69292aac495d218fcb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104023158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027346"
 ---
 # <a name="reading-metadata-at-playback"></a>在播放時讀取中繼資料
 
@@ -37,9 +37,9 @@ ms.locfileid: "104023158"
 [**讀取 ASF 檔案**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

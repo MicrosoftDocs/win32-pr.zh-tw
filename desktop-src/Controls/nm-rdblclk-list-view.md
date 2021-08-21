@@ -3,7 +3,7 @@ title: 'NM_RDBLCLK (清單視圖) 通知碼 (Commctrl) '
 description: 當使用者以滑鼠右鍵按一下專案時，由清單視圖控制項傳送。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
 ms.assetid: ebbb127f-07bd-48e0-bf38-7bbda5802f70
 keywords:
-- NM_RDBLCLK (清單視圖) 通知碼 Windows 控制項
+- NM_RDBLCLK (清單視圖) 通知程式碼 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41832b228fe40b212c0aba809b15022c6f7b39ce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c0197659f89392d352e2500d37cbda9dadee5487c5ee180123f502d127925a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957987"
 ---
 # <a name="nm_rdblclk-list-view-notification-code"></a>NM \_ RDBLCLK (清單視圖) 通知碼
 
@@ -59,8 +59,8 @@ NM_RDBLCLK
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

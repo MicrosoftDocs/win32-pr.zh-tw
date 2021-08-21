@@ -4,12 +4,12 @@ ms.assetid: a125aecc-57d9-4c8e-873e-d5315eaafa56
 title: ModuleInstallUISequence 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ca6771daa0b95acbc23e2d60eddda5420e417db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8bb8f2868fbad03439758cd45a79a71febb5e2a9b0b863c2ee9ea0597f5b112f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945362"
 ---
 # <a name="moduleinstalluisequence-table"></a>ModuleInstallUISequence 資料表
 

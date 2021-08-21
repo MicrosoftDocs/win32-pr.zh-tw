@@ -4,12 +4,12 @@ ms.assetid: 42FD987A-7D6C-4434-BD48-3CC289F2748D
 title: 'CODECAPI_AVEncVideoSupportedControls 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c2ce5cf01fccafec0fdcf0410c22ba673fa580
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38c3a4743e25078a97d636f5305f73d4d3973804011dc72abe1172715822c8d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974867"
 ---
 # <a name="codecapi_avencvideosupportedcontrols-property"></a>CODECAPI \_ AVEncVideoSupportedControls 屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "104111856"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

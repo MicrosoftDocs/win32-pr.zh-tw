@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 5f4f55e635e42ec34e9b3558a0784d319e4d91ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0797366a95931bec67805c9acd94e52fcab72669fe021efe6907e771a373db46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821162"
 ---
 # <a name="__absolutetimerinstruction-class"></a>\_\_AbsoluteTimerInstruction 類別
 

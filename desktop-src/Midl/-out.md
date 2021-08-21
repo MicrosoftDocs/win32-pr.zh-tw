@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d688f17957170c6f3a8887030ea2c67140c0ff8c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0b29c97438c0db1a60d94a8ae88ed99f73c33ea16a820d1aec5ca7a6be737e5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106966222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014096"
 ---
 # <a name="out-switch"></a>/out 參數
 
@@ -73,9 +73,9 @@ midl /out path-specification
 [**/sstub**](-sstub.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

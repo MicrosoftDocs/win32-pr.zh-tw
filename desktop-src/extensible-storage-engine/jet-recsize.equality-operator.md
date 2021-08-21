@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2f95ee6975a71e40d702b1f68c47ad6831881ffa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c7b0c34f94d0c59f30283cca3315466ed75ad489719a5d883f7597dd3614fb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038746"
 ---
 # <a name="jet_recsizeequality-operator"></a>JET_RECSIZE。等號比較運算子
 

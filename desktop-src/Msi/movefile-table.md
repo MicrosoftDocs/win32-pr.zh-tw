@@ -4,12 +4,12 @@ ms.assetid: 9ba47bdc-90c8-444a-ba8b-71c723b54556
 title: MoveFile 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2340626e745627c3c6146998c851a076d21ab81a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49d90afe8a5fb950f2e6fdb96ba0f8af4f8969226a5dc219bc9cd0598481beb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945093"
 ---
 # <a name="movefile-table"></a>MoveFile 資料表
 

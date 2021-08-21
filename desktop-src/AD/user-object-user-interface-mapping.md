@@ -8,12 +8,12 @@ keywords:
 - 消費者介面對應 AD、使用者物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc797be7c53ba7759051016ddd0548c8c7124cd2
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 656e8071b558b730ecb1fc0463834f6fbadb7eb9bf4c56b11640e2b95209735f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024496"
 ---
 # <a name="user-object-user-interface-mapping"></a>使用者物件使用者介面對應
 
@@ -28,10 +28,10 @@ ms.locfileid: "104462829"
 | UI 標籤         | Active Directory Domain Services 中的屬性                           |
 |------------------|-------------------------------------------------------------------------|
 | 名字       | [**givenName**](/windows/desktop/ADSchema/a-givenname)                                   |
-| 姓氏        | [**sn**](/windows/desktop/ADSchema/a-sn)                                                 |
+| 姓氏        | [**錫**](/windows/desktop/ADSchema/a-sn)                                                 |
 | 縮寫         | [**縮寫**](/windows/desktop/ADSchema/a-initials)                                     |
 | 顯示名稱     | [**displayName**](/windows/desktop/ADSchema/a-displayname)                               |
-| Description      | [**描述**](/windows/desktop/ADSchema/a-description)                               |
+| 描述      | [**描述**](/windows/desktop/ADSchema/a-description)                               |
 | Office           | [**physicalDeliveryOfficeName**](/windows/desktop/ADSchema/a-physicaldeliveryofficename) |
 | 電話號碼 | [**telephoneNumber**](/windows/desktop/ADSchema/a-telephonenumber)                       |
 | 電話：其他 | [**otherTelephone**](/windows/desktop/ADSchema/a-othertelephone)                         |
@@ -41,7 +41,7 @@ ms.locfileid: "104462829"
 
 
 
- 
+ 
 
 ## <a name="account-property-page"></a>帳戶屬性頁面
 
@@ -52,7 +52,7 @@ ms.locfileid: "104462829"
 | UI 標籤                                | Active Directory Domain Services 中的屬性                                                   | 註解                                                                                                                                                                                                                                                                                                                                                                                 |
 |-----------------------------------------|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | UserLogon 名稱                          | [**userPrincipalName**](/windows/desktop/ADSchema/a-userprincipalname)                                           | 此欄位會從 [**userPrincipalName**](/windows/desktop/ADSchema/a-userprincipalname) 屬性中最後一個 ' @ ' 字元之前的所有專案中取得。 最後的 ' @ ' 字元和其後的所有專案都放在尾碼下拉式方塊中。                                                                                                                                                      |
-| Windows 2000 前 (的使用者登入名稱)       | [**sAMAccountname**](/windows/desktop/ADSchema/a-samaccountname)                                                 | 不加評論。                                                                                                                                                                                                                                                                                                                                                                             |
+| 使用者登入名稱 (預先 Windows 2000)       | [**sAMAccountname**](/windows/desktop/ADSchema/a-samaccountname)                                                 | 不加評論。                                                                                                                                                                                                                                                                                                                                                                             |
 | 登入時數                             | [**logonHours**](/windows/desktop/ADSchema/a-logonhours)                                                         | 不加評論。                                                                                                                                                                                                                                                                                                                                                                             |
 | 登入到                               | [**logonWorkstation**](/windows/desktop/ADSchema/a-logonworkstation)                                             | 不加評論。                                                                                                                                                                                                                                                                                                                                                                             |
 | 帳戶已鎖定                   | [**lockoutTime**](/windows/desktop/ADSchema/a-lockouttime)和 [ **lockoutDuration**](/windows/desktop/ADSchema/a-lockoutduration) | 如果 [**lockoutTime**](/windows/desktop/ADSchema/a-lockouttime) 屬性不是零，就會將 [**lockoutDuration**](/windows/desktop/ADSchema/a-lockoutduration) 屬性新增至 **lockoutTime** ，並比較目前的日期和時間，以判斷帳戶是否已被鎖定。                                                                                                                                |
@@ -63,7 +63,7 @@ ms.locfileid: "104462829"
 
 
 
- 
+ 
 
 ## <a name="address-property-page"></a>位址屬性頁
 
@@ -76,13 +76,13 @@ ms.locfileid: "104462829"
 | Street          | [**streetAddress**](/windows/desktop/ADSchema/a-streetaddress)                                                 | 不加評論。                                               |
 | P. O Box         | [**postOfficeBox**](/windows/desktop/ADSchema/a-postofficebox)                                                 | 不加評論。                                               |
 | City            | [**我**](/windows/desktop/ADSchema/a-l)                                                                         | **L** 屬性名稱在地區設定中是小寫的 "l"。 |
-| 州/省  | [**st**](/windows/desktop/ADSchema/a-st)                                                                       | 不加評論。                                               |
+| 州/省  | [**聖**](/windows/desktop/ADSchema/a-st)                                                                       | 不加評論。                                               |
 | 郵遞區號 | [**postalCode**](/windows/desktop/ADSchema/a-postalcode)                                                       | 不加評論。                                               |
 | 國家/地區  | [**c**](/windows/desktop/ADSchema/a-c)、 [**co**](/windows/desktop/ADSchema/a-co)和 [**countryCode**](/windows/desktop/ADSchema/a-countrycode) | 不加評論。                                               |
 
 
 
- 
+ 
 
 ## <a name="member-of-property-page"></a>屬性頁的成員
 
@@ -97,7 +97,7 @@ ms.locfileid: "104462829"
 
 
 
- 
+ 
 
 ## <a name="organization-property-page"></a>組織屬性頁面
 
@@ -110,12 +110,12 @@ ms.locfileid: "104462829"
 | 標題          | [**標題**](/windows/desktop/ADSchema/a-title)                 | 不加評論。 |
 | department     | [**department**](/windows/desktop/ADSchema/a-department)       | 不加評論。 |
 | 公司        | [**公司**](/windows/desktop/ADSchema/a-company)             | 不加評論。 |
-| 管理員：名稱   | [**manager**](/windows/desktop/ADSchema/a-manager)             | 不加評論。 |
+| 管理員：名稱   | [**經理**](/windows/desktop/ADSchema/a-manager)             | 不加評論。 |
 | Direct Reports | [**directReports**](/windows/desktop/ADSchema/a-directreports) | 不加評論。 |
 
 
 
- 
+ 
 
 ## <a name="profile-property-page"></a>配置檔案屬性頁面
 
@@ -128,12 +128,12 @@ ms.locfileid: "104462829"
 | 設定檔路徑            | [**profilePath**](/windows/desktop/ADSchema/a-profilepath)     | 不加評論。                                                                                                             |
 | 登入腳本            | [**scriptPath**](/windows/desktop/ADSchema/a-scriptpath)       | 不加評論。                                                                                                             |
 | 主資料夾：本機路徑 | [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory) | 如果選取 **本機路徑** ，則本機路徑會儲存在 [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory) 屬性中。 |
-| 主資料夾：連接    | [**homeDrive**](/windows/desktop/ADSchema/a-homedrive)         | 如果選取 **[連接]** ，則會將對應的磁片磁碟機儲存在 [**homeDrive**](/windows/desktop/ADSchema/a-homedrive) 屬性中。          |
-| 主資料夾：到         | [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory) | 如果選取 **[連接]** ，路徑會儲存在 [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory) 屬性中。          |
+| 主資料夾：連線    | [**homeDrive**](/windows/desktop/ADSchema/a-homedrive)         | 如果選取 **連線**，則會將對應的磁片磁碟機儲存在 [**homeDrive**](/windows/desktop/ADSchema/a-homedrive)屬性中。          |
+| 主資料夾：到         | [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory) | 如果選取 **連線**，路徑會儲存在 [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory)屬性中。          |
 
 
 
- 
+ 
 
 ## <a name="telephones-property-page"></a>電話屬性頁
 
@@ -157,12 +157,12 @@ ms.locfileid: "104462829"
 
 
 
- 
+ 
 
 ## <a name="environment-sessions-remote-control-and-terminal-services-profile-property-pages"></a>環境、會話、遠端控制和終端機服務配置檔案屬性頁面
 
 系統會為使用者物件提供 **環境**、 **會話**、 **遠端控制** 和 **終端機服務設定檔** 頁面，以支援終端機服務。 這些頁面的 UI 元素不會對應到個別的屬性。 相反地，這些設定會儲存在 Active Directory Domain Services 中的私用資料。 您可以使用 [**IADsTsUserEx**](/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex) 介面來存取終端機服務設定。
 
- 
+ 
 
- 
+ 

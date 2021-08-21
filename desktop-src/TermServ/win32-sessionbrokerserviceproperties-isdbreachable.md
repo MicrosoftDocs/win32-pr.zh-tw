@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3a59b8b0eba80dd832b3967b5e626642684f0c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1cd7aaf2035251c503d85683f9aa9e9fe7b7f6285084a97133f0573ba41d79c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118848415"
 ---
 # <a name="isdbreachable-method-of-the-win32_sessionbrokerserviceproperties-class"></a>Win32 SessionBrokerServiceProperties 類別的 IsDbReachable 方法 \_
 
@@ -57,7 +57,7 @@ uint32 IsDbReachable(
 
 中央資料庫的次要連接字串。
 
-**Windows server 2012 R2 和 Windows server 2012：** 此參數在 Windows Server 2016 之前無法使用。
+**Windows Server 2012 R2 和 Windows Server 2012：** 此參數在 Windows Server 2016 之前無法使用。
 
 </dd> <dt>
 
@@ -66,7 +66,7 @@ uint32 IsDbReachable(
 
 Active broker 名稱。
 
-**Windows server 2012 R2 和 Windows server 2012：** 此參數在 Windows Server 2016 之前無法使用。
+**Windows Server 2012 R2 和 Windows Server 2012：** 此參數在 Windows Server 2016 之前無法使用。
 
 </dd> </dl>
 

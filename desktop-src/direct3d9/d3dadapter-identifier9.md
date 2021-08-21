@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 85401573956d29386b5ddabbd48711a7be140463
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 843dff64de7ad4b97b2719f469bb8fb13813f06b8045d7de1b9f5ec4215a76ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989238"
 ---
 # <a name="d3dadapter_identifier9-structure"></a>D3DADAPTER \_ IDENTIFIER9 結構
 
@@ -210,7 +210,7 @@ GDI 的裝置名稱。
 
 Direct3D 9 與 Direct3D 9Ex 之間的差異：
 
-如果是在 Windows Vista、Windows Server 2008、Windows 7 和 Windows Server 2008 R2 上執行的 Direct3D9Ex (或更多目前的作業系統) ， [**IDirect3D9：： GetAdapterIdentifier**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier) 會為 WHQL 層級傳回1，而不會檢查驅動程式的狀態。
+針對 Windows Vista 上執行的 Direct3D9Ex、Windows Server 2008、Windows 7 和 Windows Server 2008 R2 (或更多目前的作業系統) ， [**IDirect3D9：： GetAdapterIdentifier**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier)會為 WHQL 等級傳回1，而不會檢查驅動程式的狀態。
 
 </dd> </dl>
 

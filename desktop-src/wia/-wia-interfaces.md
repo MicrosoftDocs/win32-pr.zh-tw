@@ -1,19 +1,19 @@
 ---
 title: WIA 介面
-description: 本章節包含與 Windows 映像取得 (WIA) API 搭配使用之介面的相關參考資訊。
+description: 本章節包含 Windows 影像取得 (WIA) API 所使用介面的相關參考資訊。
 ms.assetid: 0b496d6b-486a-42d3-a0e5-8e9e52e27608
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a5caf7bf74dc07aa0cf74979283a3b2bdc068c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e59caca73d2f4053bc2fedf93e6e2a3a70369f32776f8b3a95bf4d1639630c25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965796"
 ---
 # <a name="wia-interfaces"></a>WIA 介面
 
-本章節包含與 Windows 映像取得 (WIA) API 搭配使用之介面的相關參考資訊。 會呈現下列介面：
+本章節包含 Windows 影像取得 (WIA) API 所使用介面的相關參考資訊。 會呈現下列介面：
 
 ## <a name="interfaces"></a>介面
 

@@ -4,16 +4,16 @@ description: 書簽事件
 ms.assetid: 6733cd4e-2ba0-4cff-b68d-abfea284f748
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0695ccd04f93eae46eaae66955c84fefb9e0c963
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8c6a6dcd072b87c6a924c8d33e6ebb73c75c927bdf955f51612703d3fc18af79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976708"
 ---
 # <a name="bookmark-event"></a>書簽事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -37,7 +37,7 @@ ms.locfileid: "104183343"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -45,9 +45,9 @@ ms.locfileid: "104183343"
 
 若要指定書簽事件，請在提供的文字中使用 [**說話**](speak-method.md) 方法與 **Mrk** 標記。 如需標記的詳細資訊，請參閱語音輸出標記。
 
- 
+ 
 
- 
+ 
 
 
 

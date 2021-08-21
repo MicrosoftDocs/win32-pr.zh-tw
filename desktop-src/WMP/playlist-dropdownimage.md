@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f583fb0cb7b10bd56c19a3863649ac750f5b254a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b3173462cc7b055639a685917b87f1560adf5eabc8d0d7678788fa6a6c72129d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054206"
 ---
 # <a name="playlistdropdownimage"></a>播放清單。 dropDownImage
 

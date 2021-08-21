@@ -4,12 +4,12 @@ ms.assetid: 3ef4f267-4dc2-421b-ade4-6b1efa364733
 title: DirectDraw 獨佔模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5b04bae9c3221a4acee9900c5f19ba4e9b0d54
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 09199e04a221299676c21fbc2876af4b8149943a743101d34893d5563ed42482
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016177"
 ---
 # <a name="directdraw-exclusive-mode"></a>DirectDraw 獨佔模式
 
@@ -22,7 +22,7 @@ ms.locfileid: "106991615"
 
 VMR 具有特殊的配置器提供者，可讓它在 DirectDraw 獨佔模式中執行。 若要將 VMR 設定為使用此配置器-展示者：
 
-1.  使用 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) 方法，建立篩選圖形並將 VMR 新增至其中。 如需程式碼範例，請參閱 [VMR 無視窗模式](vmr-windowless-mode.md)。
+1.  使用 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter)方法建立篩選 Graph，並將 VMR 新增至其中。 如需程式碼範例，請參閱 [VMR 無視窗模式](vmr-windowless-mode.md)。
 2.  建立專屬模式配置器-展示者：
     ```C++
     IVMRImagePresenterExclModeConfig* pExclModeConfig;

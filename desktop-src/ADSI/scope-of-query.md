@@ -8,12 +8,12 @@ keywords:
 - 查詢 ADSI、範圍
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dac51fc261cb418db0018acd996c248766896a25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 45a31ebe378502dd9b4ddda6dce83e3547dab580360a8d1ec07516d1e3347cf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023248"
 ---
 # <a name="scope-of-query"></a>查詢的範圍
 
@@ -37,9 +37,9 @@ ms.locfileid: "103671124"
 
 子樹搜尋（也稱為深層搜尋）包含基底物件下的所有物件，但基底物件本身除外。 此搜尋可能會產生其他伺服器的參考。 此搜尋具有最大的範圍，而且可能會傳回大型結果集。 可能的話，請搜尋至少一個索引屬性，並設定 (的 [參考] 設定。如需詳細資訊，請參閱 [效能和處理大型結果集](performance-and-handling-large-result-sets.md)) 符合您的搜尋需求。 此外，也建議您以非同步方式執行子樹搜尋的結果，並將其分頁，以降低伺服器額外負荷和網路效能。 子樹搜尋通常用來搜尋指定範圍的物件。 例如，搜尋帳戶將于30天內到期的所有使用者。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 52e405685534c0dbae7c8c205dc5e114a3dbe68b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cdca86cb374eded0eabcc1d623d2218a6dc1f4cd5613a18e16b4ec9ab93156b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118811249"
 ---
 # <a name="ideliveryoptimizationjob2getproperty-method"></a>IDeliveryOptimizationJob2：： GetProperty 方法
 
@@ -58,7 +58,7 @@ HRESULT GetProperty(
 
 這個方法會傳回下列 HRESULT 值。
 
-| 傳回碼                  | Description          |
+| 傳回碼                  | 描述          |
 |------------------------------|----------------------|
 | **S_OK**                     | Success              |
 | **DO_E_UNKNOWN_PROPERTY_ID** | 未知的屬性識別碼。 |
@@ -68,9 +68,9 @@ HRESULT GetProperty(
 | 需求 | 值 |
 |---------------------------|----------------------------------------------------------------------------------|
 | 最低支援的用戶端  | Windows 10， \[ 僅限1803版桌面應用程式\]                                   |
-| 最低支援的伺服器  | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]                               |
-| 標頭                    | >deliveryoptimization。h                                                           |
-| Idl                       | >deliveryoptimization .idl                                                         |
+| 最低支援的伺服器  | WindowsServer， \[ 僅限1709版桌面應用程式\]                               |
+| 標頭                    | >Deliveryoptimization。h                                                           |
+| IDL                       | >deliveryoptimization .idl                                                         |
 | 程式庫                   | Dosvc .lib                                                                        |
 | DLL                       | Dosvc.dll                                                                        |
 | IID                       | IID_IDeliveryOptimizationJob2 定義為18995A26-BF59-4ABE-9F8B-D5092D5A2405 |

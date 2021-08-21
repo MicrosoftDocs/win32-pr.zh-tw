@@ -1,19 +1,19 @@
 ---
-description: 本主題中所述的許多偵錯工具都是在 DirectShow 基礎類別庫中執行。 如需詳細資訊，請參閱 DirectShow 基類。
+description: 本主題中所述的許多偵錯工具都是在 DirectShow 基類庫中執行。 如需詳細資訊，請參閱 DirectShow 基類。
 ms.assetid: 40b4f2ab-e629-41a0-b979-d74ac5fe83a2
-title: 偵測 DirectShow 篩選
+title: DirectShow 篩選的調試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1198e17f438d57775ea0f74d5920f63dc4761743
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e54532b68df09b78b3b03aa95d7dda5c84cdf7d770cffd131e47228e6d88cba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953287"
 ---
-# <a name="debugging-directshow-filters"></a>偵測 DirectShow 篩選
+# <a name="debugging-directshow-filters"></a>DirectShow 篩選的調試
 
-本主題中所述的許多偵錯工具都是在 DirectShow 基礎類別庫中執行。 如需詳細資訊，請參閱 [DirectShow 基類](directshow-base-classes.md)。
+本主題中所述的許多偵錯工具都是在 DirectShow 基類庫中執行。 如需詳細資訊，請參閱[DirectShow 基類](directshow-base-classes.md)。
 
 ## <a name="assertion-checking"></a>判斷提示檢查
 
@@ -67,7 +67,7 @@ DbgLog((LOG_TRACE, 3, TEXT("Disconnected pin %d"), iPin));
 
 <dl> <dt>
 
-[在 DirectShow 中進行調試](debugging-in-directshow.md)
+[DirectShow 中的調試](debugging-in-directshow.md)
 </dt> </dl>
 
  

@@ -1,22 +1,22 @@
 ---
 title: 以程式設計方式呼叫 WDS
-description: 您可以使用 ISearchDesktop 介面中的 ExecuteQuery 和 ExecuteSQLQuery 方法，以程式設計方式查詢 Microsoft Windows 桌面搜尋 (WDS) 2.x。
+description: 您可以使用 ISearchDesktop 介面中的 ExecuteQuery 和 ExecuteSQLQuery 方法，以程式設計方式查詢 Microsoft Windows Desktop Search (WDS) 2.x。
 ms.assetid: 38426f63-2039-410e-8c70-ebd9fc269d74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dc76264b7939311273fbda334292dfb255cde8f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b8879001bcf284affd03ff472ac9327445b799acd44465b5bae9a8cb2d819b7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976898"
 ---
 # <a name="calling-wds-programmatically"></a>以程式設計方式呼叫 WDS
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在之後的版本中，請改用 [Windows Search](../search/-search-3x-wds-overview.md) 。
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在之後的版本中，請改用[Windows Search](../search/-search-3x-wds-overview.md) 。
 
-您可以使用 [**ISearchDesktop**](/previous-versions//aa965729(v=vs.85))介面中的 **ExecuteQuery** 和 **ExecuteSQLQuery** 方法，以程式設計方式查詢 Microsoft Windows 桌面搜尋 (WDS) 2.x。 **ExecuteQuery** 方法會根據以參數形式傳遞的查詢文字、資料行和限制，傳回索引中的記錄集。 **ExecuteSQLQuery** 方法也會傳回結果的記錄集，但需要傳入 (SQL) 命令的確切結構化查詢語言 (SQL) 。 大部分案例都應該使用 **ExecuteQuery** 。
+您可以使用 [**ISearchDesktop**](/previous-versions//aa965729(v=vs.85))介面中的 **ExecuteQuery** 和 **ExecuteSQLQuery** 方法，以程式設計方式查詢 Microsoft Windows Desktop Search (WDS) 2.x。 **ExecuteQuery** 方法會根據以參數形式傳遞的查詢文字、資料行和限制，傳回索引中的記錄集。 **ExecuteSQLQuery** 方法也會傳回一組結果的記錄，但需要在中傳入確切的結構化查詢語言 (SQL)  (SQL) 命令。 大部分案例都應該使用 **ExecuteQuery** 。
 
 ## <a name="regular-queries"></a>一般查詢
 
@@ -33,7 +33,7 @@ ms.locfileid: "103682295"
 | 位於        | lpcwstrQuery       | 查詢文字。 此查詢與在 Windows 桌面搜尋使用者介面的 [搜尋] 文字方塊中輸入的查詢相同。 <br/> 例如：`"from:Zara dinner plans"`<br/> |
 | 位於        | lpcwstrColumn      | 要包含的資料行（以逗號分隔）。 <br/> 例如：`"DocTitle, Url"`<br/>                                                                                            |
 | 位於        | lpcwstrSort        | 要排序的覆寫資料行，其後依 ASC 遞增或遞減（遞減）。 <br/> 例如：`"LastAuthor DESC"`<br/>                                                  |
-| 位於        | lpcwstrRestriction | 在 Windows 桌面搜尋中，透過 WHERE 子句附加的限制。 <br/> 例如：`"Contains(LastAuthor, 'Bill')"`<br/>                                       |
+| 位於        | lpcwstrRestriction | 在 Windows Desktop 搜尋中，透過 WHERE 子句附加的限制。 <br/> 例如：`"Contains(LastAuthor, 'Bill')"`<br/>                                       |
 | 外       | ppiRs              | 產生的記錄集<br/>                                                                                                                                                           |
 
 
@@ -54,7 +54,7 @@ https://msdn.microsoft.com/library/default.asp?url=/library/spssdk/html/\_tahoe\
 
 | 方向 | 變數   | 描述                                    |
 |-----------|------------|------------------------------------------------|
-| 位於        | lpcwstrSQL | 要針對 WDS 索引執行的 SQL 查詢 |
+| 位於        | lpcwstrSQL | 要對 WDS 索引執行的 SQL 查詢 |
 | 外       | ppiRs      | 產生的記錄集                       |
 
 

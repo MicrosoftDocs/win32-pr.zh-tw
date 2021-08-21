@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ca2810b1ae273ddfde3c2490d5a4b2b31bce197d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc51e7b7881a4b297ae5125ae71e96a98e67a04297984d212517e7e3d587c606
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038596"
 ---
 # <a name="windows7grbitsforcenewlog-field"></a>Windows7Grbits. ForceNewLog 欄位
 

@@ -8,12 +8,12 @@ keywords:
 - out
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eec37dbf65919f5aae9e7674cf7102eddcdf5170
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7e08e9ff23e7e12acbd5cf301afe6786599268d2e149878a326a62f79cd91f7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930637"
 ---
 # <a name="directional-parameter-attributes"></a>方向 (參數) 屬性
 
@@ -62,6 +62,6 @@ void InOutProc(short    s1,
 
 ![out 參數](images/prog-a21.png)
 
- 
+ 
 
- 
+ 

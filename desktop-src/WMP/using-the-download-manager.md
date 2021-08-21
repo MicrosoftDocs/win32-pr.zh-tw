@@ -7,16 +7,16 @@ keywords:
 - 線上商店、下載管理員
 - 輸入2個線上商店、下載管理員
 - Windows Media Player，下載管理員
-- Windows Media Player 下載管理員
+- Windows Media Player下載管理員
 - 下載管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cecb7b99ae36d3881fdf80eaad7d851205b9b2e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a271849e22d17ec406cea24aa0afb92631bf533b39ea2beb45d5cc74b635d0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118830706"
 ---
 # <a name="using-the-download-manager"></a>使用下載管理員
 
@@ -28,7 +28,7 @@ Windows Media Player SDK 包含範例網頁，示範如何使用下載管理員�
 -   顯示使用者選取時的下載狀態資訊。
 -   提供用來暫停、繼續、取消和移除下載專案的控制項。
 -   使用 cookie 維護會話之間的下載集合相關資訊。 這點很重要，因為使用者可以隨時關閉播放程式。 此外，如果使用者在播放玩家切換工作窗格，線上商店會話就會結束。
--   預設會使用即時下載。 您可以變更名為 g sDLType 的變數值，將行為變更為背景下載 \_ 。 背景下載可用於 Microsoft Windows XP 作業系統。
+-   預設會使用即時下載。 您可以變更名為 g sDLType 的變數值，將行為變更為背景下載 \_ 。 您可以使用 Microsoft Windows XP 作業系統來下載背景。
 -   將背景色彩與播放機色彩同步處理。 您可以使用這項功能，在使用者選擇變更播放程式的色彩時，讓您的線上商店變更外觀。
 
 下列各節提供詳細資訊：
@@ -46,9 +46,9 @@ Windows Media Player SDK 包含範例網頁，示範如何使用下載管理員�
 [**Type 2 線上商店的程式設計指南**](programming-guide-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

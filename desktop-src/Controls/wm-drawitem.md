@@ -3,7 +3,7 @@ title: 'WM_DRAWITEM 訊息 (Winuser .h) '
 description: 當按鈕、下拉式方塊、清單方塊或功能表的視覺外觀已變更時，傳送至主控描繪按鈕、下拉式方塊、清單方塊或功能表的父視窗。
 ms.assetid: e54bae5e-10d6-43b0-a766-1b270c8873a9
 keywords:
-- WM_DRAWITEM message Windows 控制項
+- WM_DRAWITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bd6465a560a0590ed9f5b483afae4c0d72d637
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f5d4b2addfa2de5f8c76ded636ca29a96fb3af7e0ab4157d25ac26a78c462c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957517"
 ---
 # <a name="wm_drawitem-message"></a>WM \_ DRAWITEM 訊息
 
@@ -73,9 +73,9 @@ WM_DRAWITEM
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -45,12 +45,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f17d668143beaed8000f99f761b84f5c193a51a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 04f24b74659759a7504532856f97728ae688288a5a02fae46adc452c49c55b39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052216"
 ---
 # <a name="control-pattern-identifiers"></a>控制項模式識別碼
 
@@ -58,7 +58,7 @@ ms.locfileid: "104025301"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                               | Description                                                                                                                                         |
+| 常數/值                                                                                                                                                                                                                                                                                                               | 描述                                                                                                                                         |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="UIA_AnnotationPatternId"></span><span id="uia_annotationpatternid"></span><span id="UIA_ANNOTATIONPATTERNID"></span><dl> <dt>**UIA \_AnnotationPatternId**</dt> <dt>10023</dt> </dl>                             | 識別 [Annotation](uiauto-implementingannotation.md) 控制項模式。 從 Windows 8 開始支援。<br/>                       |
 | <span id="UIA_CustomNavigationPatternId"></span><span id="uia_customnavigationpatternid"></span><span id="UIA_CUSTOMNAVIGATIONPATTERNID"></span><dl> <dt>**UIA \_CustomNavigationPatternId**</dt> <dt>10033</dt> </dl>     | 識別 [CustomNavigation](uiauto-implementingcustomnavigation.md) 控制項模式。 從 Windows 10 開始支援。<br/>          |
@@ -103,8 +103,8 @@ ms.locfileid: "104025301"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | Windows Server 2003 \[ desktop app \| UWP 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | WindowsXP \[ desktop apps \| UWP 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | WindowsServer 2003 \[ desktop app \| UWP 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Uiautomationclient.dll。h</dt> </dl> |
 
 

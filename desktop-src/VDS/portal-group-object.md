@@ -4,16 +4,16 @@ ms.assetid: e5892e96-b6ad-447a-9627-b44fc6f1b27a
 title: 入口網站群組物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c915e76debac959a1dc7684d87c9770033b4aa34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e1021d74a3c8a6a612372db56952be1dabe5380e8e4a49b1b83c5ae2fe54754
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057956"
 ---
 # <a name="portal-group-object"></a>入口網站群組物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 入口網站群組物件會建立 iscsi 目標中所含 iSCSI 入口網站群組的模型。
 

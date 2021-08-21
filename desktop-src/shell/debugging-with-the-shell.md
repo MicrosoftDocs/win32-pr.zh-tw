@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 3ca6e30809565408454976e1b07ff37dcc8f8f8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 276023e5628ab7390398fd7bd367be32e45c13825fcf96625104be1ded8735de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032826"
 ---
 # <a name="debugging-with-the-shell"></a>使用 Shell 進行偵錯工具
 
@@ -35,13 +35,13 @@ ms.locfileid: "104511055"
         1.  顯示 [ **開始** ] 功能表。
         2.  按 CTRL + SHIFT 鍵，然後以滑鼠右鍵按一下 [ **開始** ] 功能表右邊一半的背景。
         3.  從出現的功能表中選擇 [ **Exit Explorer**]。
-    -   若為 Windows XP：
+    -   針對 Windows XP：
         1.  在 [ **開始** ] 功能表中，選擇 [ **關機**]。
         2.  按 CTRL + ALT + SHIFT 鍵，然後按一下 [**關機 Windows** ] 對話方塊中的 [**否**]。
 
     Shell 現在已關閉，但其他所有應用程式仍在執行，包括偵錯工具。
 
-3.  將偵錯工具設定為使用 **Windows** 目錄中的 Explorer.exe 來執行擴充 DLL。
+3.  使用 **Windows** 目錄中的 Explorer.exe，將偵錯工具設定為執行擴充 DLL。
 4.  從偵錯工具執行專案。 Shell 會如往常般啟動，但偵錯工具會附加至 Shell 的進程。
 
 ## <a name="running-and-testing-shell-extensions"></a>執行和測試 Shell 擴充功能

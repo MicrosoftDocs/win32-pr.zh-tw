@@ -4,12 +4,12 @@ description: 包含兩種案例，示範單一登入 (SSO) 已啟用要求者的
 ms.assetid: 2a5cbcae-74fe-4241-9e20-ec1ec5d9ed8a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 975310489758e299d1100584551296476c4690ca
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 1bc9be7af26844004073f21154df5ac12cb44d4eaa04fddc457b729ffe5e1083
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104092475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042776"
 ---
 # <a name="sso-eaphost-scenario-overview"></a>SSO EAPHost 案例總覽
 
@@ -42,9 +42,9 @@ SSO 提供的功能可保留比傳統儲存在 EAP 使用者 BLOB 中更多的�
 [SSO 和 PLAP](understanding-sso-and-plap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

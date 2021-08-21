@@ -4,12 +4,12 @@ description: IKE/AuthIP 結構
 ms.assetid: 3267EA3C-FD1F-4ED1-9794-92551222EFE1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c1b5c8f69ec0ac667dee5fc541c84b8e9e66ceb
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 5de46cd72ec382dd360e6311930e946da3bf4189855adeaa49915b15ce3a9865
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104374681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069088"
 ---
 # <a name="ikeauthip-structures"></a>IKE/AuthIP 結構
 
@@ -71,9 +71,9 @@ ms.locfileid: "104374681"
 -   [**IKEEXT \_ STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_statistics1)
 -   [**IKEEXT \_ TRAFFIC0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_traffic0)
 
- 
+ 
 
- 
+ 
 
 
 

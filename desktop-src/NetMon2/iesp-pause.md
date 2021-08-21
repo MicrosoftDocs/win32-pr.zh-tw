@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 486c7aedc7092e0dd0f9f68cc1ea2ccad08d9438
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3727bbabe9c56620b313d70ed529b5ac5f43bed620e98e49a3f6c3564fd1ba3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063958"
 ---
 # <a name="iesppause-method"></a>IESP：:P ause 方法
 
@@ -55,12 +55,12 @@ HRESULT STDMETHODCALLTYPE Pause(
 
 
 
-| 傳回碼                                                                                           | Description                                                                                                                   |
+| 傳回碼                                                                                           | 描述                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ CAPTURE 已 \_ 暫停**</dt> </dl> | 此 capture 已經暫停。<br/>                                                                                     |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl>  | NPP 不會捕捉資料。 呼叫 [IESP：： start](iesp-start.md) 以開始捕獲。<br/>                            |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫 [IESP：： connect](iesp-connect.md) 以將 NPP 連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>        | NPP 已連接到網路，但不是使用 [IESP：： Connect](iesp-connect.md) 方法。<br/>                     |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫[IESP：：連線](iesp-connect.md)將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>        | NPP 是連接到網路，但不是使用[IESP：：連線](iesp-connect.md)方法。<br/>                     |
 
 
 
@@ -94,7 +94,7 @@ HRESULT STDMETHODCALLTYPE Pause(
 [IESP](iesp.md)
 </dt> <dt>
 
-[IESP：： Connect](iesp-connect.md)
+[IESP：：連線](iesp-connect.md)
 </dt> <dt>
 
 [IESP：： Resume](iesp-resume.md)

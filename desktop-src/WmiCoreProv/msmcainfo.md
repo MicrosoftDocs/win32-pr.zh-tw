@@ -1,5 +1,5 @@
 ---
-description: 從中衍生所有機器檢查架構 (MCA) 提供者資料類別（例如 MSMCAInfo RawMCAData）的抽象基類 \_ 。 此類別僅適用于64位的 Windows 系統。
+description: 從中衍生所有機器檢查架構 (MCA) 提供者資料類別（例如 MSMCAInfo RawMCAData）的抽象基類 \_ 。 此類別僅適用于64位 Windows 系統。
 ms.assetid: 22ec8343-fc4f-4b14-9354-26b5d6a6fe09
 title: MSMCAInfo 類別
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 31fc35b1d680d900af929ea8a828bcb23d222f66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cef9878ea8e9dd6c11c6b18a62d332e17f24810548360e0edb9c117e02a710c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051186"
 ---
 # <a name="msmcainfo-class"></a>MSMCAInfo 類別
 
-**MSMCAInfo** 類別是一個抽象基類，所有機器檢查架構 (MCA) 提供者資料類別（例如 [**MSMCAInfo \_ RawMCAData**](msmcainfo-rawmcadata.md)）都會衍生。 MCA 提供者也有衍生自 [**>register-wmievent**](wmievent.md)的事件類別。 此類別僅適用于64位的 Windows 系統。
+**MSMCAInfo** 類別是一個抽象基類，所有機器檢查架構 (MCA) 提供者資料類別（例如 [**MSMCAInfo \_ RawMCAData**](msmcainfo-rawmcadata.md)）都會衍生。 MCA 提供者也有衍生自 [**>register-wmievent**](wmievent.md)的事件類別。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 

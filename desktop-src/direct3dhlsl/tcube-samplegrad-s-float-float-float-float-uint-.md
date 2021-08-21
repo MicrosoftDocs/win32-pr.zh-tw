@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3e75bccaeac28aefc50620a5dea31fa62b880332
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 8f261340d64d53f8b2c56881d22f462ea636e38013d98d1b81112aee7907053c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104514721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043276"
 ---
 # <a name="samplegradsamplegradsfloatfloatfloatfloatuint-function-for-texturecube"></a>TextureCube 的 SampleGrad：： SampleGrad (S、float、float、float、float、uint) 函數
 

@@ -4,12 +4,12 @@ ms.assetid: 94d68722-a0c2-47a7-a0a0-ae315f8f31ed
 title: 解碼器磁片區控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4ce525f8b39e873d2c0002ac283014a9bcbe87c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 93e96ed9efb17a4fb32c41d8b10313edbe015c202b7f7d1f4287e1af20cca559
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953147"
 ---
 # <a name="decoder-volume-control"></a>解碼器磁片區控制
 

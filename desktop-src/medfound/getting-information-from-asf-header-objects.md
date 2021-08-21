@@ -4,12 +4,12 @@ ms.assetid: 1654af97-f4fe-427f-b562-3b109e921719
 title: 從 ASF 標頭物件取得資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f25155929c9e3ba7e59ee1b5f46ea7c5930c3e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 346e57721137fd6064e4d6b9fd21080d96c10e740bb7f7ed45bf3fef4cc92722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974437"
 ---
 # <a name="getting-information-from-asf-header-objects"></a>從 ASF 標頭物件取得資訊
 

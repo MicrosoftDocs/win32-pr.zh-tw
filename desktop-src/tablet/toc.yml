@@ -190,7 +190,7 @@
               href: basic-recognition-and-ink-analysis.md
             - name: 具有筆跡分析的資料 Proxy
               href: data-proxy-with-ink-analysis.md
-            - name: 資料 Proxy 事件流程
+            - name: Data Proxy 事件 Flow
               href: data-proxy-event-flow.md
             - name: 分隔物件
               href: the-divider-object.md
@@ -214,7 +214,7 @@
         - name: 筆墨控制項
           href: ink-controls.md
           items:
-            - name: 將筆墨控制項新增至專案
+            - name: 將筆墨控制項新增至 Project
               href: adding-ink-controls-to-a-project.md
             - name: InkEdit 控制項
               href: inkedit-control.md
@@ -2383,7 +2383,7 @@
                       href: /previous-versions/windows/desktop/legacy/dd317351(v=vs.85)
                     - name: Insert 方法
                       href: /previous-versions/windows/desktop/legacy/dd317352(v=vs.85)
-                    - name: Paint 方法
+                    - name: 小畫家方法
                       href: /previous-versions/windows/desktop/legacy/dd317353(v=vs.85)
                 - name: IMathInputControl
                   href: /windows/desktop/api/micaut/nn-micaut-imathinputcontrol
