@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 263023c9881e109efe77ec30c1e37091200c051b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 57d2b86a1b551fab103db732dd5405187c06395f37b1ae59c030c3a75a05f275
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054786"
 ---
 # <a name="libraryname-attribute"></a>>libraryname 屬性
 

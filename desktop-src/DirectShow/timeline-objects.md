@@ -4,12 +4,12 @@ ms.assetid: da426964-d5bd-45ca-a914-c19062f3564b
 title: 時間軸物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 580286b31afd77f064411dd29d60a62b80bfb51a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbcf3496770dee7664e08ffabe6537356c7b37ad13abee1dce149698748745e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072302"
 ---
 # <a name="timeline-objects"></a>時間軸物件
 

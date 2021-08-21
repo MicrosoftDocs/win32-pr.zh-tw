@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101344
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8c7686149f0e9b249b4270d2c6e29f6cb3d6ae4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3545ffafa070f694fada4f2513fbe093e5e8c06a086f8abfc38d9a39eb59a951
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041587"
 ---
 # <a name="esentdatabasedirtyshutdownexception-methods"></a>EsentDatabaseDirtyShutdownException 方法
 

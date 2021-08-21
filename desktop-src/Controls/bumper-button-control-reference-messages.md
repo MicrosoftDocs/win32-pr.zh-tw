@@ -4,12 +4,12 @@ description: 按鈕控制項訊息
 ms.assetid: 8aea1640-c962-40a4-9133-7beb78baf594
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a24aa49cfd0d807a66a942b3b115429748c6688
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c2021fd675289f7bf6377b50ddf2e634e58a5bc1a9600dcdb508742ec6eac944
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699888"
 ---
 # <a name="button-control-messages"></a>按鈕控制項訊息
 

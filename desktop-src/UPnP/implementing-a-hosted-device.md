@@ -4,12 +4,12 @@ description: 具有 UPnP 技術的裝置主機會實行核心的 UPnP 通訊協�
 ms.assetid: ab113d76-5fc9-4be2-a814-8772dd1e9600
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 172e9935dcbca73dbb285ba73270375fb5bfb6cb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e9fd12788c40d21dc84e896f1aba83085b440b86fbb54b68b4fbcfddbbe910c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008048"
 ---
 # <a name="implementing-a-hosted-device"></a>執行託管裝置
 
@@ -26,9 +26,9 @@ ms.locfileid: "103675251"
 -   維護服務的事件訂閱。
 -   當服務的狀態變更時，將事件通知傳送給訂閱者。
 
- 
+ 
 
- 
+ 
 
 
 

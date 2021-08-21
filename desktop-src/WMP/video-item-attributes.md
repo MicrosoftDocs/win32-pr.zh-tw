@@ -4,23 +4,23 @@ description: 影片專案屬性
 ms.assetid: 000bc03d-aa2e-4922-b611-7d6e8ebb22e9
 keywords:
 - Windows Media Player，影片專案屬性
-- Windows Media Player 行動裝置、影片專案屬性
+- Windows Media Player行動裝置、影片專案屬性
 - Windows Media Player 物件模型、影片專案屬性
 - 物件模型、影片專案屬性
 - ActiveX 控制項、影片專案屬性
 - Windows Media Player ActiveX 控制項、影片專案屬性
-- Windows Media Player Mobile ActiveX 控制項、影片專案屬性
+- Windows Media PlayerMobile ActiveX 控制項、影片專案屬性
 - 物件模型、影片專案屬性的參考
 - 屬性、影片專案
 - 影片專案屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ab23559ca6322ffd6ebc38517a73d802d7001ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e2b3fa64fe3898708a3df85b01fadbb372d1fad76abe99379ec914016c602585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054176"
 ---
 # <a name="video-item-attributes"></a>影片專案屬性
 
@@ -99,7 +99,7 @@ ms.locfileid: "104020715"
 -   [**WM/提供者屬性**](wm-provider-attribute.md)
 -   [**WM/ProviderRating 屬性**](wm-providerrating-attribute.md)
 -   [**WM/ProviderStyle 屬性**](wm-providerstyle-attribute.md)
--   [**WM/發行者屬性**](wm-publisher-attribute.md)
+-   [**WM/Publisher 屬性**](wm-publisher-attribute.md)
 -   [**WM/SubscriptionContentID 屬性**](wm-subscriptioncontentid-attribute.md)
 -   [**WM/子標題屬性**](wm-subtitle-attribute.md)
 -   [**WM/SubTitleDescription 屬性**](wm-subtitledescription-attribute.md)
@@ -114,9 +114,9 @@ ms.locfileid: "104020715"
 [**屬性參考**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

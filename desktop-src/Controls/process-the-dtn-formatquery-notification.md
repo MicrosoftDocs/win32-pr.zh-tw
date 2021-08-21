@@ -4,12 +4,12 @@ description: 本主題示範如何處理日期和時間選擇器所傳送的格�
 ms.assetid: 74E29438-2F50-4ADD-B0C4-DB3450BF08D7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e8de1e1a80d04f9a7f9e9d0cfcda198118e67c2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 941c148332c36711e68b7c3b773fdb47acef202c5fd2a67f5620319f06c7fbc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696938"
 ---
 # <a name="how-to-process-the-dtn_formatquery-notification"></a>如何處理 DTN \_ FORMATQUERY 通知
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933750"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -33,7 +33,7 @@ DTP 控制項會傳送 [DTN \_ FORMATQUERY](dtn-formatquery.md) 通知碼，以�
 
 下列 c + + 程式碼範例是應用程式定義的函式，它會藉由計算指定回呼欄位最大可能字串的寬度，來處理 [DTN \_ FORMATQUERY](dtn-formatquery.md) 通知程式碼。
 
-**安全性警告：** 不當使用 **lstrcmp** 可能會危及應用程式的安全性。 例如，在下列程式碼範例中呼叫 **lstrcmp** 之前，您應該確定兩個字串是以 null 結束。 您應該先複習 [安全性考慮： Microsoft Windows 控制項](sec-comctls.md) ，再繼續進行。
+**安全性警告：** 不當使用 **lstrcmp** 可能會危及應用程式的安全性。 例如，在下列程式碼範例中呼叫 **lstrcmp** 之前，您應該確定兩個字串是以 null 結束。 您應複習[安全性考慮： Microsoft Windows 控制項](sec-comctls.md)，再繼續進行。
 
 
 

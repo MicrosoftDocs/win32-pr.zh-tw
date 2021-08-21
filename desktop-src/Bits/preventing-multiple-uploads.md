@@ -4,12 +4,12 @@ description: 當您上傳檔案時，BITS 會建立會話識別碼，以識別 B
 ms.assetid: 97283f8e-d2fa-4383-9b92-a05f46680443
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae59bb1d605af7e4dd53b0c1d66618b6816e7886
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4c08555acf8bcdc99576675b0ec5852f322f7b37fea9821f3f0156352a29b61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701698"
 ---
 # <a name="preventing-multiple-uploads"></a>防止多個上傳
 
@@ -21,9 +21,9 @@ BITS 伺服器將只會嘗試將上傳檔案一次傳送至伺服器應用程式
 
 即使是單一前端伺服器，也會發生類似的情況。 例如，當用戶端將整個檔案上傳到伺服器時，最終區塊會導致伺服器將檔案轉寄至伺服器應用程式。 如果 BITS 伺服器或伺服器應用程式在處理檔案之後，但在通知傳送至用戶端之前終止，則用戶端會收到錯誤碼，並于稍後重試。 當用戶端重試時，BITS 伺服器會看到最後一個區塊已上傳，並再次將檔案轉寄至伺服器應用程式。 如果接收上傳檔案多次是您的伺服器應用程式的問題，您應該考慮在資料中包含交易識別碼。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,37 +1,38 @@
 ---
-description: 本文提供適用于 Windows 功能和技術的可用 Win32 Api 相關檔的索引。
+description: 本文提供適用于 Windows 功能和技術的可用 Win32 api 相關檔的索引。
 ms.assetid: FF115416-220F-4FCD-8690-F9C0890CD6CC
 title: 桌面應用程式技術
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b5b6e077c5f8fde2e723fbf9a971cbe09b8d008
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: fd764c23b38e7239cea1d4d26d018ecbf9711b22
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106999311"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812213"
 ---
 # <a name="desktop-app-technologies"></a>桌面應用程式技術
 
-本節提供有關 Windows 功能的深入指引和程式碼範例，這些功能可供桌面應用程式使用 WIN32 API 使用。
+本節提供有關使用 WIN32 API 的桌面應用程式可用 Windows 功能的深入指引和程式碼範例。
 
 ## <a name="in-this-section"></a>本節內容
 
 | 主題 | 描述  |  
 |----------------------------------|---|
-| [協助工具](accessibility/accessibility.md) | 提供適用于設計可存取應用程式的 Windows 開發人員、輔助技術開發人員（例如螢幕閱讀程式和放大鏡），以及建立自動化腳本來測試 Windows 應用程式的軟體測試工程師的指引。 |
+| [協助工具](accessibility/accessibility.md) | 針對設計可存取應用程式 Windows 的開發人員、輔助技術開發人員（例如螢幕閱讀程式和放大鏡），以及建立自動化腳本來測試 Windows 應用程式的軟體測試工程師，提供指引。 |
 | [傳統型使用者介面](windows-application-ui-development.md) | 提供可讓您為應用程式開發圖形使用者介面的資訊，包括 windows 和訊息、資源和控制項等功能。 |
-| [桌面環境](user-interface.md) | 提供整合和延伸桌面使用者面向功能的指引，包括工作列、桌面及檔案總管。 |
-| [應用程式安裝和維護](application-installing-and-servicing.md) | 提供有關使用 Windows 所提供的 Api 和服務來安裝、管理和服務您的桌面應用程式的資訊。 |
+| [桌面環境](user-interface.md) | 提供整合和延伸 Windows 桌面使用者面向功能的指引，包括工作列、桌上型電腦和檔案總管。 |
+| [應用程式安裝和維護](application-installing-and-servicing.md) | 提供有關使用 Windows 所提供之 api 和服務的資訊，以安裝、管理和服務您的桌面應用程式。 |
 | [音訊與視訊](audio-and-video.md) | 提供使用 Windows 所提供之音訊和影片功能的相關指引。 |
 | [資料存取與儲存](data-access-and-storage.md) | 提供您可以在桌面應用程式中使用的資料存取和儲存功能的相關資訊，包括檔案系統管理和雲端同步引擎。  |
 | [裝置](devices.md) | 說明與裝置和感應器互動的 Api。 |
 | [診斷](diagnostics.md) | 提供有關偵錯工具和錯誤處理、效能分析、網路監視和其他診斷功能的指引。 |
-| [檔和列印](printdocs/documents-and-printing.md) | 說明 Windows 的檔和列印功能，可讓應用程式儲存、查看和列印。  |
-| [圖形和遊戲](graphics-and-multimedia.md) | 提供 Windows 圖形和遊戲功能的相關資訊，包括 DirectX 和數位影像處理。  |
-| [網路功能和網際網路](networking.md) | 提供有關 Windows 網路和網際網路相關功能的指引，包括網路管理、HTTP Api 和遠端程序呼叫， (RPC) 。 |
-| [安全性與身分識別](security.md) | 提供有關 Windows 驗證、授權、加密和其他安全性功能的資訊。 |
+| [檔和列印](printdocs/documents-and-printing.md) | 描述 Windows 的檔和列印功能，可讓應用程式儲存、查看和列印。  |
+| [圖形和遊戲](graphics-and-multimedia.md) | 提供 Windows 之圖形和遊戲功能的相關資訊，包括 DirectX 和數位影像處理。  |
+| [網路功能和網際網路](networking.md) | 提供有關 Windows 的網路和網際網路相關功能的指引，包括網路管理、HTTP api，以及 (RPC) 的遠端程序呼叫。 |
+| [安全性與身分識別](security.md) | 提供有關 Windows 的驗證、授權、加密和其他安全性功能的資訊。 |
 | [系統服務](system-services.md) | 提供基本作業系統功能的相關指引，例如進程和執行緒、服務、動態連結程式庫、COM、登錄等等。 |
+| [AI 和機器學習服務](/windows/ai/) | 使用人工智慧的能力來轉換您的 Windows 應用程式。 Windows AI 能為複雜的問題提供智慧型的解決方案，讓您和您的企業能達成更多目標。 |
 
 <!--
 <br/>

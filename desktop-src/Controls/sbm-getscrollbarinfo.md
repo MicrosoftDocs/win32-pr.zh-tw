@@ -3,7 +3,7 @@ title: 'SBM_GETSCROLLBARINFO 訊息 (Winuser .h) '
 description: 由應用程式傳送以取得指定捲軸的相關資訊。
 ms.assetid: db6f704f-99ee-448c-ae7a-dd5a23399fb6
 keywords:
-- SBM_GETSCROLLBARINFO message Windows 控制項
+- SBM_GETSCROLLBARINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8bdd78eb665bd069d854538bb2bdfae1a946765
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11f779f237d0ad04fe3e3d8f3348c51c195470280c9b0c20d12c1e245d04a089
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503978"
 ---
 # <a name="sbm_getscrollbarinfo-message"></a>SBM \_ GETSCROLLBARINFO 訊息
 
@@ -55,9 +55,9 @@ ms.locfileid: "103685876"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

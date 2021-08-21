@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102789
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d2b270302413470eabfe2d4e7738ebba3d39897e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2784a644455708d48ad9527d179fe9e2a888809d559e5436f2b792b62e97f845
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116724"
 ---
 # <a name="esentslvownermapcorruptedexception-properties"></a>EsentSLVOwnerMapCorruptedException 屬性
 

@@ -3,7 +3,7 @@ title: 'TB_SETROWS 訊息 (Commctrl .h) '
 description: 設定工具列中的按鈕列數。
 ms.assetid: d8ea7b80-d23e-4593-8eb1-d23808173fc9
 keywords:
-- TB_SETROWS message Windows 控制項
+- TB_SETROWS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d0065a3f5f6a277713e368177886ebd064ea132
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b2c0e95d6f0f19c2b1c9b76cf22a37da0086987b22fe144603cdb2afa8a1ad83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119293638"
 ---
 # <a name="tb_setrows-message"></a>TB \_ SETROWS 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "104025500"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

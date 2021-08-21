@@ -4,12 +4,12 @@ ms.assetid: 444fb9ac-8626-4079-80be-6c210a69d984
 title: RightAligned 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea94807801845ee18458f6c3105c6e1e5fc3834c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc8a2df776adb167dd82575a8a926e814ecede47e1e7cc07e49c759ea3b046ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868888"
 ---
 # <a name="rightaligned-control-attribute"></a>RightAligned 控制項屬性
 
@@ -77,7 +77,7 @@ ms.locfileid: "103848504"
 
 
 
-| Decimal | 十六進位 | Description                        |
+| Decimal | 十六進位 | 描述                        |
 |---------|-------------|------------------------------------|
 | 64      | 0x00000040  | msidbControlAttributesRightAligned |
 

@@ -4,12 +4,12 @@ ms.assetid: 3749095c-f0c0-498c-969f-a6c445cfdd62
 title: 動詞資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7182c425e2613aa463f94bca0e6a1e62c1504c8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9fc546cd3db5fecb3861120fa15b1ffa3f21327b889599b77a1b067193c886c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499108"
 ---
 # <a name="verb-table"></a>動詞資料表
 
@@ -21,7 +21,7 @@ ms.locfileid: "106976606"
 
 | Column      | 類型                       | 答案 | Nullable |
 |-------------|----------------------------|-----|----------|
-| 分機\_ | [Text](text.md)           | Y   | N        |
+| 延伸模組\_ | [Text](text.md)           | Y   | N        |
 | 動詞命令        | [Text](text.md)           | Y   | N        |
 | 順序    | [整數](integer.md)     | N   | Y        |
 | Command     | [格式 化](formatted.md) | N   | Y        |

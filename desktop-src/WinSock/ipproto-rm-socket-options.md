@@ -4,12 +4,12 @@ ms.assetid: cb99960e-428b-4ef1-a6a5-e4bdb497c771
 title: 'IPPROTO_RM 通訊端選項 (Wsrm. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2144efec9b0a92c1da3f612e707bcb44366a38c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ec1710b1135d2c645f5ff55de12b2feb2d62cfbe2b257e3f28367a66a81d5171
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051486"
 ---
 # <a name="ipproto_rm-socket-options"></a>IPPROTO \_ RM 通訊端選項
 
@@ -17,13 +17,13 @@ ms.locfileid: "106977676"
 
 若要列舉通訊協定，並針對每個已安裝的通訊協定探索支援的屬性，請使用 [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa)、 [**WSCEnumProtocols**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols)或 [**WSCEnumProtocols32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols32) 函數。
 
-**WINDOWS XP：** 不支援可靠的多播程式設計 (的 PGM) 。
+**Windows XP：** 不支援可靠的多播程式設計 (的 PGM) 。
 
 有些通訊端選項需要比這些資料表可以傳達的更多說明;這類選項包含其他頁面的連結。
 
 <dl> <dt><span id="IPPROTO_RM__Socket_Options"></span><span id="ipproto_rm__socket_options"></span><span id="IPPROTO_RM__SOCKET_OPTIONS"></span>**IPPROTO \_ RM 通訊端選項**</dt> <dd> <dl> <dt> 
 
-| 選項                              | Get | 設定 | Optval 類型                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 選項                              | Get | 集合 | Optval 類型                                      | 描述                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------|-----|-----|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RM \_ 新增 \_ 接收（ \_ 如果                |     | 是 | ULONG                                            | 僅限接收者。 新增要接聽的介面 (預設值為第一個列舉) 的本機介面。 Optval 參數會指定要新增的網路介面（以網路位元組順序表示）。 指定的值會在第一次呼叫指定的通訊端時取代預設介面，並在後續的呼叫中新增其他介面。 若要取得 INADDR \_ 任何行為，則必須個別新增每個網路介面。 |
 | RM \_ DEL \_ 接收 \_                |     | 是 | ULONG                                            | 僅限接收者。 移除使用 RM ADD RECEIVE 新增的介面（若為） \_ \_ \_ 。 Optval 參數會以網路位元組順序指定要刪除的網路介面。                                                                                                                                                                                                                                                            |
@@ -44,9 +44,9 @@ ms.locfileid: "106977676"
 
  
 
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_IPPROTO_RM_options"></span><span id="windows_support_for_ipproto_rm_options"></span><span id="WINDOWS_SUPPORT_FOR_IPPROTO_RM_OPTIONS"></span>**IPPROTO RM 選項的 Windows 支援 \_**</dt> <dd> <dl> <dt> 
+</dt> </dl> </dd> <dt><span id="Windows_Support_for_IPPROTO_RM_options"></span><span id="windows_support_for_ipproto_rm_options"></span><span id="WINDOWS_SUPPORT_FOR_IPPROTO_RM_OPTIONS"></span>**WindowsIPPROTO \_ RM 選項的支援**</dt> <dd> <dl> <dt> 
 
-| 選項                              | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/我 |
+| 選項                              | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | WindowsNT4 | Windows 9x/我 |
 |-------------------------------------|-----------|---------------------|---------------|---------------------|------------|--------------|-------------|---------------|
 | RM \_ 新增 \_ 接收（ \_ 如果                | x         | x                   | x             | x                   | x          |              |             |               |
 | RM \_ DEL \_ 接收 \_                | x         | x                   | x             | x                   | x          |              |             |               |
@@ -74,7 +74,7 @@ ms.locfileid: "106977676"
 
 **IPPROTO \_ RM** 通訊端選項以及這些通訊端選項所使用的結構會定義于 *Wsrm* 標頭檔中。
 
-**IPPROTO \_ Rm** 或 IPPROTO 的 **\_ PGM** 常數可以用來指定要使用 RM 通訊端選項之 [**通訊端**](/windows/desktop/api/Winsock2/nf-winsock2-socket)函數的 *通訊協定* 參數。 在 Windows Vista （含）以後版本的 Microsoft Windows 軟體開發套件 (SDK) 上， **IPPROTO 的 \_ PGM** 常數定義于 *Ws2def .h* 標頭檔中，與 *Wsrm. h* 標頭檔中定義的 **IPPROTO \_ RM** 常數值相同。
+**IPPROTO \_ Rm** 或 IPPROTO 的 **\_ PGM** 常數可以用來指定要使用 RM 通訊端選項之 [**通訊端**](/windows/desktop/api/Winsock2/nf-winsock2-socket)函數的 *通訊協定* 參數。 在 Windows Vista 和更新版本的 Microsoft Windows 軟體開發套件 (SDK) 上， **IPPROTO 的 \_ PGM** 常數定義于 *Ws2def .h* 標頭檔中，與 *Wsrm. h* 標頭檔中定義的 **IPPROTO \_ RM** 常數值相同。
 
 ## <a name="requirements"></a>規格需求
 

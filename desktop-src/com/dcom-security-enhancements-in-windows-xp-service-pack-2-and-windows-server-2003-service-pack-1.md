@@ -1,25 +1,25 @@
 ---
-title: Windows XP Service Pack 2 和 Windows Server 2003 Service Pack 1 中的 DCOM 安全性增強功能
-description: Windows Server XP Service Pack 2 (SP2) 和 Windows Server 2003 Service Pack 1 (SP1) 為分散式元件物件模型 (DCOM) 引進增強的預設安全性設定。
+title: Windows XP service pack 2 和 Windows Server 2003 Service pack 1 中的 DCOM 安全性增強功能
+description: Windowsserver XP Service pack 2 (SP2) 和 Windows Server 2003 Service pack 1 (SP1) 為分散式元件物件模型 (DCOM) 引進增強的預設安全性設定。
 ms.assetid: 1917834c-5216-4ef3-a0c2-d8ca63cef53d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4ad51807e27a9b97e8b05e467d8a84881c3993a
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d093186f3d0a028112248409b71e0d71ed084e15cc075a1aced7a589aa0733ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501328"
 ---
-# <a name="dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1"></a>Windows XP Service Pack 2 和 Windows Server 2003 Service Pack 1 中的 DCOM 安全性增強功能
+# <a name="dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1"></a>Windows XP service pack 2 和 Windows Server 2003 Service pack 1 中的 DCOM 安全性增強功能
 
-Windows Server XP Service Pack 2 (SP2) 和 Windows Server 2003 Service Pack 1 (SP1) 為分散式元件物件模型 (DCOM) 引進增強的預設安全性設定。 具體來說，他們引進更細微的許可權，讓系統管理員能夠獨立控制本機和遠端許可權，以啟動、啟用和存取 COM 伺服器。
+Windowsserver XP Service pack 2 (SP2) 和 Windows Server 2003 Service pack 1 (SP1) 為分散式元件物件模型 (DCOM) 引進增強的預設安全性設定。 具體來說，他們引進更細微的許可權，讓系統管理員能夠獨立控制本機和遠端許可權，以啟動、啟用和存取 COM 伺服器。
 
 ## <a name="what-does-dcom-do"></a>DCOM 有哪些功能？
 
 Microsoft 元件物件模型 (COM) 是一種與平臺無關、分散式、物件導向的系統，可用來建立可互動的二進位軟體元件。 分散式元件物件模型 (DCOM) 可讓應用程式分散到對您和應用程式最有意義的所有位置。 DCOM 有線通訊協定以透明的方式提供 COM 元件之間可靠、安全且有效率的通訊支援。
 
-## <a name="who-does-this-feature-apply-to"></a>這項功能的適用物件為何？
+## <a name="who-does-this-feature-apply-to"></a>這項功能適用神秘嗎？
 
 如果您只將 COM 用於同進程 COM 元件，這項功能就不適用。
 
@@ -29,7 +29,7 @@ Microsoft 元件物件模型 (COM) 是一種與平臺無關、分散式、物件
 -   應用程式通常是由遠端 COM 用戶端啟動，而不需要使用系統管理帳戶。
 -   應用程式僅供本機使用。 這表示您可以限制 COM 伺服器應用程式，使其無法從遠端存取。
 
-## <a name="what-new-functionality-is-added-to-this-feature-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1"></a>這項功能在 Windows XP Service Pack 2 和 Windows Server 2003 Service Pack 1 中新增了哪些新功能？
+## <a name="what-new-functionality-is-added-to-this-feature-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1"></a>這項功能在 Windows XP Service pack 2 和 Windows Server 2003 Service pack 1 中新增了哪些新功能？
 
 ### <a name="computer-wide-restrictions"></a>全電腦限制
 
@@ -46,7 +46,7 @@ COM 中的變更是為了提供全電腦存取控制，可控制電腦上所有�
 
  
 
-依預設，Windows XP SP2 電腦限制設定為：
+根據預設，Windows XP SP2 電腦限制設定如下：
 
 
 
@@ -83,7 +83,7 @@ COM 中的變更是為了提供全電腦存取控制，可控制電腦上所有�
 
 COM 基礎結構包含了 RPCSS，也就是在系統啟動期間執行的系統服務，並且一律會在該時間執行。 它會管理 COM 物件的啟用和執行中的物件表，並提供 helper 服務給 DCOM 遠端處理。 它會公開可從遠端呼叫的 RPC 介面。 因為某些 COM 伺服器允許未經驗證的遠端存取，所以任何人都可以呼叫這些介面，包括未經驗證的使用者。 如此一來，在遠端、未經驗證的電腦上，惡意使用者可能會攻擊 RPCSS。
 
-在舊版的 Windows 中，系統管理員無法瞭解電腦上 COM 伺服器的暴露程度。 系統管理員可以有系統地檢查電腦上所有已註冊 COM 應用程式的已設定安全性設定，但假設 Windows 的預設安裝中有大約150的 COM 伺服器，這項工作會很困難。 沒有任何方法可以查看在軟體中納入安全性的伺服器設定，而不需要複習該軟體的原始程式碼。
+在舊版 Windows 中，系統管理員無法瞭解電腦上 COM 伺服器的暴露程度。 系統管理員可以藉由系統地檢查電腦上所有已註冊的 com 應用程式的安全性設定，但假設 Windows 的預設安裝中有大約150的 com 伺服器，這項工作會很困難。 沒有任何方法可以查看在軟體中納入安全性的伺服器設定，而不需要複習該軟體的原始程式碼。
 
 DCOM 全電腦限制減輕這三個問題。 它也可讓系統管理員停用連入 DCOM 啟用、啟動和呼叫的功能。
 
@@ -91,7 +91,7 @@ DCOM 全電腦限制減輕這三個問題。 它也可讓系統管理員停用�
 
 依預設，Everyone 群組會被授與本機啟動、本機啟用和本機存取呼叫許可權。 如此一來，所有的本機案例都可以在不修改軟體或作業系統的情況下運作。
 
-依預設，在 Windows XP SP2 中，Everyone 群組會被授與遠端存取呼叫許可權。 在 Windows Server 2003 SP1 中，每個人和匿名群組都會被授與遠端存取許可權。 這會啟用大部分的 COM 用戶端案例，包括 COM 用戶端將本機參考傳遞到遠端伺服器的常見案例，實際上會將用戶端變成伺服器。 在 Windows XP SP2 中，這可能會停用需要未經驗證的遠端存取呼叫的案例。
+根據預設，在 Windows XP SP2 中，Everyone 群組會被授與遠端存取呼叫許可權。 在 Windows Server 2003 SP1 中，每個人和匿名群組都會被授與遠端存取許可權。 這會啟用大部分的 COM 用戶端案例，包括 COM 用戶端將本機參考傳遞到遠端伺服器的常見案例，實際上會將用戶端變成伺服器。 在 Windows XP SP2 中，這可能會停用需要未經驗證的遠端存取呼叫的案例。
 
 此外，根據預設，只有 Administrators 群組的成員會被授與「遠端啟用」和「啟動」許可權。 這會禁止非系統管理員對安裝的 COM 伺服器進行遠端啟用。
 
@@ -106,7 +106,7 @@ DCOM 全電腦限制減輕這三個問題。 它也可讓系統管理員停用�
 
  
 
-您可以使用 [元件服務 Microsoft Management Console (MMC) 或 Windows 登錄來變更設定設定。
+您可以使用 [元件服務] Microsoft Management Console (MMC) 或 Windows 登錄來變更設定。
 
 如果您使用 [元件 **服務] mmc** 嵌入式管理單元，可以在您要管理的電腦上，于 [內容] 對話方塊的 [ **COM 安全性**] 索引標籤上設定這些設定。 [ **存取權限** ] 區域已經過修改，可讓您除了 COM 伺服器的標準預設設定以外，設定整個電腦的限制。 此外，您可以在 [限制] 和 [預設值] 下，為本機和遠端存取提供個別的 ACL 設定。
 
@@ -134,7 +134,7 @@ COM_RIGHTS_ACTIVATE_REMOTE 16
 您可以使用一般安全性功能來建立這些 Acl。
 
 > [!Note]  
-> 為了提供回溯相容性，ACL 可以有 Windows XP SP2 和 Windows Server 2003 SP1 之前使用的格式，它只會使用存取權限的許可權 \_ \_ 執行，或者可以存在於 WINDOWS XP SP2 和 windows SERVER 2003 SP1 中使用的新格式，此格式會 \_ \_ 搭配 com 許可權 \_ \_ 執行 \_ 本機、com \_ 許可權 \_ 執行 \_ 遠端、com \_ 許可權 \_ 啟用 \_ 本機和 com \_ 許可權 \_ 啟用 \_ 遠端。 請注意，「COM \_ 許可權 \_ 執行」> 一定要存在，但不存在此許可權會產生不正確安全描述項。 另請注意，您不能在單一 ACL 內混用舊格式和新格式; (Ace 的所有存取控制專案) 必須僅授與 COM \_ 許可權 \_ 執行存取權限，或全部都必須授與 com 許可權執行、com rights \_ \_ execute、 \_ \_ \_ com \_ rights \_ execute \_ remote、com \_ rights \_ activate \_ 本機和 com 許可權 \_ \_ 啟用 \_ 遠端的組合。
+> 為了提供回溯相容性，ACL 可以存在於 Windows XP SP2 和 Windows Server 2003 SP1 之前使用的格式。它只會使用存取權限的 \_ 許可權 \_ 執行，也可以存在於 Windows XP SP2 和 Windows Server 2003 SP1 中使用的新格式，此格式會使用 com rights execute、com rights execute、com rights \_ \_ \_ \_ \_ \_ \_ execute \_ remote、com \_ rights \_ activate \_ local 和 com \_ rights activate \_ \_ remote 的組合。 請注意，「COM \_ 許可權 \_ 執行」> 一定要存在，但不存在此許可權會產生不正確安全描述項。 另請注意，您不能在單一 ACL 內混用舊格式和新格式; (Ace 的所有存取控制專案) 必須僅授與 COM \_ 許可權 \_ 執行存取權限，或全部都必須授與 com 許可權執行、com rights \_ \_ execute、 \_ \_ \_ com \_ rights \_ execute \_ remote、com \_ rights \_ activate \_ 本機和 com 許可權 \_ \_ 啟用 \_ 遠端的組合。
 
  
 
@@ -143,11 +143,11 @@ COM_RIGHTS_ACTIVATE_REMOTE 16
 
  
 
-## <a name="what-existing-functionality-is-changing-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1"></a>Windows XP Service Pack 2 和 Windows Server 2003 Service Pack 1 中的現有功能有哪些變更？
+## <a name="what-existing-functionality-is-changing-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1"></a>Windows XP service pack 2 和 Windows Server 2003 Service pack 1 中有哪些現有的功能變更？
 
 ### <a name="rpcss-runs-as-a-network-service"></a>以網路服務的形式執行 RPCSS
 
-RPCSS 是 RPC 端點對應程式和 DCOM 基礎結構的重要服務。 這項服務在舊版 Windows 中以本機系統的形式執行。 為了減少 Windows 的受攻擊面並提供深度防禦，RPCSS 服務功能已分割成兩個服務。 具有所有原始功能但不需要本機系統許可權的 RPCSS 服務，現在會在 Network Service 帳戶下執行。 新的 DCOMLaunch 服務，其中包含需要在本機系統帳戶下執行本機系統許可權的功能。
+RPCSS 是 RPC 端點對應程式和 DCOM 基礎結構的重要服務。 這項服務在舊版 Windows 中以本機系統的形式執行。 為了降低 Windows 的攻擊面並提供深度防禦，RPCSS 服務功能已分割成兩個服務。 具有所有原始功能但不需要本機系統許可權的 RPCSS 服務，現在會在 Network Service 帳戶下執行。 新的 DCOMLaunch 服務，其中包含需要在本機系統帳戶下執行本機系統許可權的功能。
 
 ### <a name="why-is-this-change-important"></a>為什麼此變更很重要？
 
@@ -155,7 +155,7 @@ RPCSS 是 RPC 端點對應程式和 DCOM 基礎結構的重要服務。 這項�
 
 ### <a name="what-works-differently"></a>有哪些不同？
 
-這項變更對使用者來說應該是透明的，因為 RPCSS 和 DCOMLaunch 服務的組合相當於舊版 Windows 中提供的先前的「RPCSS」服務。
+這項變更對使用者來說應該是透明的，因為 RPCSS 和 DCOMLaunch 服務的組合相當於舊版 Windows 中提供的舊版 RPCSS 服務。
 
 ### <a name="more-specific-com-permissions"></a>更特定的 COM 許可權
 
@@ -195,22 +195,22 @@ COM 伺服器應用程式可能會將本身公開給未經驗證的使用者，�
 
 呼叫或啟動許可權沒有回溯相容性問題。 不過，有一個啟用許可權相容性問題。 如果在 COM 伺服器的現有安全描述項中，所設定的啟動許可權會比存取權限更嚴格，而且比用戶端啟動案例的最低需求更嚴格，則必須修改啟動許可權 ACL，以授與授權的用戶端適當的啟用許可權。
 
-若是使用預設安全性設定的 COM 應用程式，則不會有任何相容性問題。 針對使用 COM 啟用動態啟動的應用程式，大部分的相容性問題都不會有任何相容性問題，因為啟動許可權必須已包含能夠啟始物件的任何人。 否則，這類應用程式即使在套用 Windows XP SP2 或 Windows Server 2003 SP1 之前也會產生啟用失敗，但如果呼叫者沒有啟動許可權，請嘗試啟始物件，且 COM 伺服器尚未執行。
+若是使用預設安全性設定的 COM 應用程式，則不會有任何相容性問題。 針對使用 COM 啟用動態啟動的應用程式，大部分的相容性問題都不會有任何相容性問題，因為啟動許可權必須已包含能夠啟始物件的任何人。 否則，這類應用程式即使在套用 Windows XP SP2 或 Windows Server 2003 SP1 之前也會產生啟用失敗。如果呼叫者沒有啟動許可權，請嘗試啟始物件，且 COM 伺服器尚未執行。
 
 相容性問題最重要的應用程式是由某些其他機制（例如 Windows 檔案總管或服務控制管理員）啟動的 COM 應用程式。 您也可以使用先前的 COM 啟動來啟動這些應用程式，這會覆寫預設存取和啟動許可權，並指定比呼叫許可權更嚴格的啟動許可權。 如需解決此相容性問題的詳細資訊，請參閱「如何? 解決這些問題？」 在下一節中。
 
-如果升級至 Windows XP SP2 或 Windows Server 2003 SP1 的系統復原到先前的狀態，則會將已編輯為允許本機存取、遠端存取或兩者的任何 ACE 都解釋為允許本機和遠端存取。 任何已編輯為拒絕本機存取、遠端存取或兩者的 ACE 都會被解釋為拒絕本機和遠端存取。 只要卸載 service pack，您應該確保沒有新設定的 Ace 會導致應用程式停止運作。
+如果升級為 Windows XP SP2 或 Windows Server 2003 SP1 的系統復原到先前的狀態，則會將已編輯為允許本機存取、遠端存取或兩者的任何 ACE 都解釋為允許本機和遠端存取。 任何已編輯為拒絕本機存取、遠端存取或兩者的 ACE 都會被解釋為拒絕本機和遠端存取。 只要卸載 service pack，您應該確保沒有新設定的 Ace 會導致應用程式停止運作。
 
 ### <a name="how-do-i-resolve-these-issues"></a>我該如何解決這些問題？
 
-如果您執行 COM 伺服器，並覆寫預設安全性設定，請確認應用程式特定的啟動許可權 ACL 授與啟用許可權給適當的使用者。 如果沒有，您必須變更應用程式特定的啟動許可權 ACL，以授與適當的使用者啟用許可權，讓使用 DCOM 的應用程式和 Windows 元件不會失敗。 這些應用程式特定的啟動許可權會儲存在登錄中。
+如果您執行 COM 伺服器，並覆寫預設安全性設定，請確認應用程式特定的啟動許可權 ACL 授與啟用許可權給適當的使用者。 如果沒有，您必須變更應用程式特定的啟動許可權 ACL，以授與適當的使用者啟用許可權，讓使用 DCOM 的應用程式和 Windows 元件都不會失敗。 這些應用程式特定的啟動許可權會儲存在登錄中。
 
 您可以使用一般安全性功能來建立或修改 COM Acl。
 
 ## <a name="what-settings-are-added-or-changed-in-windows-xp-service-pack-2"></a>Windows XP Service Pack 2 中新增或變更了哪些設定？
 
 > [!Caution]  
-> 不當使用這些設定可能會導致使用 DCOM 的應用程式和 Windows 元件失敗。
+> 不當使用這些設定可能會導致應用程式和使用 DCOM 的 Windows 元件失敗。
 
  
 
@@ -232,14 +232,14 @@ ACL-存取控制清單
 
 
 
-| 設定名稱                                                                                         | Location                                                                                                       | 先前的預設值                                                                                                                                                                     | 預設值                                                                                                                                                                                                                                                                                                                                                             | 可能值                                                                                                                                                                                                              |
+| 設定名稱                                                                                         | 位置                                                                                                       | 先前的預設值                                                                                                                                                                     | 預設值                                                                                                                                                                                                                                                                                                                                                             | 可能值                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **MachineLaunchRestriction**<br/>                                                              | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 每個人-LL、LA、RL、RA<br/> 匿名<br/> LL、LA、RL、RA<br/>  (這是新的登錄機碼。 根據現有的行為，這些都是有效的值。 ) <br/> | 系統管理員： LL、LA、RL、RA<br/>                                                                                                                                                                                                                                                                                                                                  | Acl<br/>                                                                                                                                                                                                               |
-| **MachineAccessRestriction**<br/>                                                              | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 每個人-LC、RC<br/> 匿名-LC、RC<br/>  (這是新的登錄機碼。 根據現有的行為，這些都是有效的值。 ) <br/>                            | 每個人： LC、RC<br/> 匿名： LC<br/>                                                                                                                                                                                                                                                                                                                      | Acl<br/>                                                                                                                                                                                                               |
+| **MachineLaunchRestriction**<br/>                                                              | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 每個人-LL、LA、RL、RA<br/> 匿名<br/> LL、LA、RL、RA<br/>  (這是新的登錄機碼。 根據現有的行為，這些都是有效的值。 ) <br/> | 系統管理員： LL、LA、RL、RA<br/>                                                                                                                                                                                                                                                                                                                                  | ACL<br/>                                                                                                                                                                                                               |
+| **MachineAccessRestriction**<br/>                                                              | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 每個人-LC、RC<br/> 匿名-LC、RC<br/>  (這是新的登錄機碼。 根據現有的行為，這些都是有效的值。 ) <br/>                            | 每個人： LC、RC<br/> 匿名： LC<br/>                                                                                                                                                                                                                                                                                                                      | ACL<br/>                                                                                                                                                                                                               |
 | **CallFailureLoggingLevel**<br/>                                                               | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 不適用。<br/>                                                                                                                                                                 | 此登錄機碼不存在;不過，遺漏的索引鍵或值會被解釋為2。<br/> 依預設不會記錄此事件。 如果您將此值變更為1以開始記錄這項資訊，以協助您疑難排解問題，請務必監視事件記錄檔的大小，因為這是可以產生大量專案的事件。<br/> | 1-在 COM 伺服器進程的呼叫期間一律記錄事件記錄檔失敗。<br/> 2-永遠不會在呼叫伺服器進程的呼叫期間記錄事件記錄檔失敗。<br/>                                                  |
 | **InvalidSecurityDescriptorLoggingLevel**<br/>                                                 | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 不適用。<br/>                                                                                                                                                                 | 此登錄機碼不存在;不過，遺漏的索引鍵或值會被解釋為1。<br/> 預設會記錄此事件。 這種情況很少發生。<br/>                                                                                                                                                                                                    | 1-當 COM 基礎結構找到不正確安全描述項時，一律記錄事件記錄檔失敗。<br/> 2-當 COM 基礎結構找不到不正確安全描述項時，永遠不會記錄事件記錄檔失敗。<br/> |
-| DCOM：安全描述項定義語言中的電腦啟動限制 (SDDL) 語法<br/> |  (群組原則物件) 電腦 \\ 設定 Windows 設定 \\ 本機原則 \\ 安全性選項<br/>  | 不適用。<br/>                                                                                                                                                                 | 未定義<br/>                                                                                                                                                                                                                                                                                                                                                    | SDDL 格式的存取控制清單。 此原則的存在會覆寫 MachineLaunchRestriction 中的值（先前為）。<br/>                                                                                            |
-| DCOM：安全描述項定義語言中的電腦存取限制 (SDDL) 語法<br/> |  (群組原則物件) 電腦 \\ 設定 Windows 設定 \\ 本機原則 \\ 安全性選項<br/> | 不適用。<br/>                                                                                                                                                                 | 未定義<br/>                                                                                                                                                                                                                                                                                                                                                    | SDDL 格式的存取控制清單。 此原則的存在會覆寫 MachineAccessRestriction 中的值（先前為）。<br/>                                                                                            |
+| DCOM：安全描述項定義語言中的電腦啟動限制 (SDDL) 語法<br/> |  (群組原則物件) 電腦設定 \\ Windows 設定 \\ 本機原則 \\ 安全性選項<br/>  | 不適用。<br/>                                                                                                                                                                 | 未定義<br/>                                                                                                                                                                                                                                                                                                                                                    | SDDL 格式的存取控制清單。 此原則的存在會覆寫 MachineLaunchRestriction 中的值（先前為）。<br/>                                                                                            |
+| DCOM：安全描述項定義語言中的電腦存取限制 (SDDL) 語法<br/> |  (群組原則物件) 電腦設定 \\ Windows 設定 \\ 本機原則 \\ 安全性選項<br/> | 不適用。<br/>                                                                                                                                                                 | 未定義<br/>                                                                                                                                                                                                                                                                                                                                                    | SDDL 格式的存取控制清單。 此原則的存在會覆寫 MachineAccessRestriction 中的值（先前為）。<br/>                                                                                            |
 
 
 
@@ -248,7 +248,7 @@ ACL-存取控制清單
 ## <a name="what-settings-are-added-or-changed-in-windows-server-2003-service-pack-1"></a>Windows Server 2003 Service Pack 1 中新增或變更了哪些設定？
 
 > [!Note]  
-> 不當使用這些設定可能會導致使用 DCOM 的應用程式和 Windows 元件失敗。
+> 不當使用這些設定可能會導致應用程式和使用 DCOM 的 Windows 元件失敗。
 
  
 
@@ -270,14 +270,14 @@ ACL-存取控制清單
 
 
 
-| 設定名稱                                                                                         | Location                                                                                                       | 先前的預設值                                                                                                                                                             | 預設值                                                                                                                                                                                                                                                                                                                                                             | 可能值                                                                                                                                                                                                              |
+| 設定名稱                                                                                         | 位置                                                                                                       | 先前的預設值                                                                                                                                                             | 預設值                                                                                                                                                                                                                                                                                                                                                             | 可能值                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **MachineLaunchRestriction**<br/>                                                              | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 每個人： LL、LA、RL、RA<br/> 匿名： LL、LA、RL、RA<br/>  (這是新的登錄機碼。 根據現有的行為，這些都是有效的值。 ) <br/> | 系統管理員： LL、LA、RL、RA<br/> 每個人： LL、LA<br/> Distributed COM users： LL、LA、RL、RA<br/>                                                                                                                                                                                                                                                     | Acl<br/>                                                                                                                                                                                                               |
-| **MachineAccessRestriction**<br/>                                                              | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 每個人： LC、RC<br/> 匿名： LC、RC<br/>  (這是新的登錄機碼。 根據現有的行為，這些都是有效的值。 ) <br/>                 | 每個人： LC、RC<br/> 匿名： LC、RC<br/>                                                                                                                                                                                                                                                                                                                  | Acl<br/>                                                                                                                                                                                                               |
+| **MachineLaunchRestriction**<br/>                                                              | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 每個人： LL、LA、RL、RA<br/> 匿名： LL、LA、RL、RA<br/>  (這是新的登錄機碼。 根據現有的行為，這些都是有效的值。 ) <br/> | 系統管理員： LL、LA、RL、RA<br/> 每個人： LL、LA<br/> Distributed COM users： LL、LA、RL、RA<br/>                                                                                                                                                                                                                                                     | ACL<br/>                                                                                                                                                                                                               |
+| **MachineAccessRestriction**<br/>                                                              | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 每個人： LC、RC<br/> 匿名： LC、RC<br/>  (這是新的登錄機碼。 根據現有的行為，這些都是有效的值。 ) <br/>                 | 每個人： LC、RC<br/> 匿名： LC、RC<br/>                                                                                                                                                                                                                                                                                                                  | ACL<br/>                                                                                                                                                                                                               |
 | **CallFailureLoggingLevel**<br/>                                                               | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 不適用。<br/>                                                                                                                                                         | 此登錄機碼不存在;不過，遺漏的索引鍵或值會被解釋為2。<br/> 依預設不會記錄此事件。 如果您將此值變更為1以開始記錄這項資訊，以協助您疑難排解問題，請務必監視事件記錄檔的大小，因為這是可以產生大量專案的事件。<br/> | 1-當 COM 基礎結構找到不正確安全描述項時，一律記錄事件記錄檔失敗。<br/> 2-當 COM 基礎結構找不到不正確安全描述項時，永遠不會記錄事件記錄檔失敗。<br/> |
 | **InvalidSecurityDescriptorLoggingLevel**<br/>                                                 | **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Ole**<br/>                                                 | 不適用。<br/>                                                                                                                                                         | 此登錄機碼不存在;不過，遺漏的索引鍵或值會被解釋為1。<br/> 預設會記錄此事件。 這種情況很少發生。<br/>                                                                                                                                                                                                    | 1-當 COM 基礎結構發現不正確安全描述項時，一律記錄事件記錄檔失敗。<br/> 2-當 COM 基礎結構找不到不正確安全描述項時，永遠不會記錄事件記錄檔失敗。<br/>         |
-| DCOM：安全描述項定義語言中的電腦啟動限制 (SDDL) 語法<br/> |  (群組原則物件) 電腦 \\ 設定 Windows 設定 \\ 本機原則 \\ 安全性選項<br/> | 不適用。<br/>                                                                                                                                                         | 未定義。<br/>                                                                                                                                                                                                                                                                                                                                                   | SDDL 格式的存取控制清單。 此原則的存在會覆寫 MachineLaunchRestriction 中的值（先前為）。<br/>                                                                                            |
-| DCOM：安全描述項定義語言中的電腦存取限制 (SDDL) 語法<br/> |  (群組原則物件) 電腦 \\ 設定 Windows 設定 \\ 本機原則 \\ 安全性選項<br/> | 不適用。<br/>                                                                                                                                                         | 未定義。<br/>                                                                                                                                                                                                                                                                                                                                                   | SDDL 格式的存取控制清單。 此原則的存在會覆寫 MachineAccessRestriction 中的值（先前為）。<br/>                                                                                            |
+| DCOM：安全描述項定義語言中的電腦啟動限制 (SDDL) 語法<br/> |  (群組原則物件) 電腦設定 \\ Windows 設定 \\ 本機原則 \\ 安全性選項<br/> | 不適用。<br/>                                                                                                                                                         | 未定義。<br/>                                                                                                                                                                                                                                                                                                                                                   | SDDL 格式的存取控制清單。 此原則的存在會覆寫 MachineLaunchRestriction 中的值（先前為）。<br/>                                                                                            |
+| DCOM：安全描述項定義語言中的電腦存取限制 (SDDL) 語法<br/> |  (群組原則物件) 電腦設定 \\ Windows 設定 \\ 本機原則 \\ 安全性選項<br/> | 不適用。<br/>                                                                                                                                                         | 未定義。<br/>                                                                                                                                                                                                                                                                                                                                                   | SDDL 格式的存取控制清單。 此原則的存在會覆寫 MachineAccessRestriction 中的值（先前為）。<br/>                                                                                            |
 
 
 

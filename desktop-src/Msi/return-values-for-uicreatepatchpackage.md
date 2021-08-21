@@ -4,12 +4,12 @@ ms.assetid: 825e092c-99cb-4963-8b5a-dc2001315a5b
 title: UiCreatePatchPackage 的傳回值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3960fba504a6fe263d3519eb8fb883b7efc0587
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddf794870eb493ecc1be0c2c2f9c35752f8087cbd214319a8df77f871ac7b119
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869158"
 ---
 # <a name="return-values-for-uicreatepatchpackage"></a>UiCreatePatchPackage 的傳回值
 
@@ -101,7 +101,7 @@ ms.locfileid: "103691780"
 | 錯誤 \_ PCW \_ TFILEDATA \_ 錯誤的 \_ 目標 \_ 欄位             | [TargetFiles \_ OptionalData 資料表](targetfiles-optionaldata-table-patchwiz-dll-.md)的 [目標] 欄位中的目標無效。                                                                                 | \_PCW \_ BASE + 0x4e)  (錯誤  | 3222163791 |
 | \_PCW \_ 升級的 \_ 映射 \_ 修補程式 \_ 路徑 \_ 太 \_ 長時發生錯誤   | [UpgradedImages 資料表](upgradedimages-table-patchwiz-dll-.md)的 PatchMsiPath 欄位中的路徑太長。                                                                                                 | \_PCW \_ BASE + 0x4f)  (錯誤  | 3222163792 |
 | \_PCW \_ 升級的 \_ 映射 \_ 修補程式 \_ 路徑 \_ 不 \_ 存在時發生錯誤  | [UpgradedImages 資料表](upgradedimages-table-patchwiz-dll-.md)的 PatchMsiPath 欄位中的路徑不存在。                                                                                              | \_PCW \_ BASE + 0x50)  (錯誤  | 3222163793 |
-| \_PCW \_ 升級 \_ 映射 \_ 修補 \_ 路徑不是 \_ \_ MSI 時發生錯誤    | [UpgradedImages 資料表](upgradedimages-table-patchwiz-dll-.md)的 PatchMsiPath 欄位中的路徑不是以 .msi 檔案結尾。                                                                               | \_PCW \_ BASE + 0x51)  (錯誤  | 3222163794 |
+| \_PCW \_ 升級 \_ 映射 \_ 修補 \_ 路徑不是 \_ \_ MSI 時發生錯誤    | [UpgradedImages 資料表](upgradedimages-table-patchwiz-dll-.md)的 PatchMsiPath 欄位中的路徑結尾不是 .msi 的檔案。                                                                               | \_PCW \_ BASE + 0x51)  (錯誤  | 3222163794 |
 | \_PCW \_ DUP 升級 \_ 的 \_ 映射 \_ PACKCODE 時發生錯誤            | 升級的映射套件程式碼已複製。                                                                                                                                                                        | \_PCW \_ BASE + 0x52)  (錯誤  | 3222163795 |
 | 錯誤 \_ PCW \_ UFILEIGNORE 不 \_ 正確的 \_ 升級 \_ 欄位         | UpgradedFilesToIgnore 資料表中升級的欄位 [ (Patchwiz.dll) ](upgradedfilestoignore-table-patchwiz-dll-.md) 無效。                                                                                     | \_PCW \_ BASE + 0x53)  (錯誤  | 3222163796 |
 | ERROR \_ PCW \_ UFILEIGNORE \_ LONG \_ FILE \_ TABLE \_ KEY       | UpgradedFilesToIgnore 資料表的 FTK 欄位中的資料表索引鍵 [ (Patchwiz.dll) ](upgradedfilestoignore-table-patchwiz-dll-.md) 太長。                                                                        | \_PCW \_ BASE + 0x54)  (錯誤  | 3222163797 |

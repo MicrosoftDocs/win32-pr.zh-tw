@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 337a9efabe48dee7a5a4194c3b796b95f35a0592
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73f2b12b59cbe8e6b7c5f8e614e2aed047d4f467117fa211839521fedc7f333b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009478"
 ---
 # <a name="imstscaxeventsonreceivedtspublickey-method"></a>IMsTscAxEvents：： OnReceivedTSPublicKey 方法
 
@@ -73,7 +73,7 @@ void OnReceivedTSPublicKey(
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                               |
-| 最低支援的伺服器<br/> | Windows Server 2008、Windows Server 2008 SP1<br/>                           |
+| 最低支援的伺服器<br/> | Windowsserver 2008、Windows server 2008 SP1<br/>                           |
 | 類型程式庫<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IMsTscAxEvents 定義為336d5562-efa8-482e-8cb3-c5c0fc7a7db6<br/>           |

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6025c40465ecf2e8fe7a33dcda50ece07d34b9d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: a7703a3539ff16c7f2dc78d51c62cfe05612dcb6e935bb5c5701f9a7b59a9f1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106968875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869568"
 ---
 # <a name="optimize-attribute"></a>optimize 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106968875"
 > [!Note]  
 > 這個關鍵字是取代，不應該使用。 目前的 MIDL 編譯應該改用 [**/Oicf**](-oi.md)[**/robust**](-robust.md) 。
 
- 
+ 
 
 ``` syntax
 optimize ("optimization-options")
@@ -74,9 +74,9 @@ optimize ("i") HRESULT SmallerProcedure(...);
 [**/robust**](-robust.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

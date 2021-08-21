@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 65f3f9836b52693e3f74bac5cfd94553e02d7bf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25f8b04aa8c581d8d7e40ab1d52162d305c97d0d8ce3f7d626cb3d29e7262666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050086"
 ---
 # <a name="swbemdatetime-object"></a>SWbemDateTime 物件
 
@@ -28,7 +28,7 @@ ms.locfileid: "106986975"
 
 您可以使用物件上的方法，從 **VT \_ 日期** 或 **FILETIME** 值初始化 **SWbemDateTime** 物件，並將其格式化。 使用物件的屬性，可將值剖析為 component year、month、day、hour、分、秒或微秒。 **SWbemDateTime** 物件可以格式化為 local 或國際標準時間 (UTC) 值。 如需詳細資訊，請參閱 [日期和時間格式](date-and-time-format.md)。
 
-**SWbemDateTime** 是唯一的 WINDOWS MANAGEMENT INSTRUMENTATION (WMI) 腳本物件，該物件標示為安全的初始化和在 Internet Explorer 中的 HTML 網頁上執行的腳本。
+**SWbemDateTime** 是唯一的 Windows Management Instrumentation (WMI) 腳本物件，該物件標示為安全的初始化和在 Internet Explorer 中的 HTML 網頁上執行的腳本。
 
 ## <a name="members"></a>成員
 
@@ -60,7 +60,7 @@ ms.locfileid: "106986975"
 
 
 
-| 屬性                                                                        | 存取類型           | Description                                                                                                                     |
+| 屬性                                                                        | 存取類型           | 描述                                                                                                                     |
 |:--------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------|
 | [**天**](swbemdatetime-day.md)<br/>                                     | 讀取/寫入<br/> | CIM [日期時間](datetime.md) 值的日元件。<br/>                                                           |
 | [**DaySpecified**](swbemdatetime-dayspecified.md)<br/>                   | 讀取/寫入<br/> | 指出日期是否指定或保留為萬用字元。<br/>                                                        |
@@ -71,14 +71,14 @@ ms.locfileid: "106986975"
 | [**MicrosecondsSpecified**](swbemdatetime-microsecondsspecified.md)<br/> | 讀取/寫入<br/> | 指出是否將微秒元件指定或保留為萬用字元。<br/>                                     |
 | [**分鐘**](swbemdatetime-minutes.md)<br/>                             | 讀取/寫入<br/> | CIM [日期時間](datetime.md) 值的分鐘元件。<br/>                                                       |
 | [**MinutesSpecified**](swbemdatetime-minutesspecified.md)<br/>           | 讀取/寫入<br/> | 指出分鐘元件是否指定或保留為萬用字元。<br/>                                          |
-| [**月**](swbemdatetime-month.md)<br/>                                 | 讀取/寫入<br/> | CIM [日期時間](datetime.md) 值的月份元件。<br/>                                                         |
+| [**Month**](swbemdatetime-month.md)<br/>                                 | 讀取/寫入<br/> | CIM [日期時間](datetime.md) 值的月份元件。<br/>                                                         |
 | [**MonthSpecified**](swbemdatetime-monthspecified.md)<br/>               | 讀取/寫入<br/> | 指出月份是否已指定或保留為萬用字元。<br/>                                                      |
 | [**秒**](swbemdatetime-seconds.md)<br/>                             | 讀取/寫入<br/> | CIM [日期時間](datetime.md) 值的秒陣列件。<br/>                                                       |
 | [**SecondsSpecified**](swbemdatetime-secondsspecified.md)<br/>           | 讀取/寫入<br/> | 指出秒元件是否指定或保留為萬用字元。<br/>                                          |
-| [**Utc**](swbemdatetime-utc.md)<br/>                                     | 讀取/寫入<br/> | CIM [datetime](datetime.md) 值的 UTC 元件。<br/>                                                           |
+| [**UTC**](swbemdatetime-utc.md)<br/>                                     | 讀取/寫入<br/> | CIM [datetime](datetime.md) 值的 UTC 元件。<br/>                                                           |
 | [**UTCSpecified**](swbemdatetime-utcspecified.md)<br/>                   | 讀取/寫入<br/> | 指出 UTC 元件是否指定或保留為萬用字元。<br/>                                              |
 | [**值**](swbemdatetime-value.md)<br/>                                 | 讀取/寫入<br/> | 完整的 CIM [日期時間](datetime.md) 值。<br/>                                                                         |
-| [**年**](swbemdatetime-year.md)<br/>                                   | 讀取/寫入<br/> | CIM [日期時間](datetime.md) 值的年份元件。<br/>                                                          |
+| [**Year**](swbemdatetime-year.md)<br/>                                   | 讀取/寫入<br/> | CIM [日期時間](datetime.md) 值的年份元件。<br/>                                                          |
 | [**YearSpecified**](swbemdatetime-yearspecified.md)<br/>                 | 讀取/寫入<br/> | 指出年份是否指定或保留為萬用字元。<br/>                                                |
 
 
@@ -281,8 +281,8 @@ $dateTime.Value = $os.InstallDate
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemDateTime<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemDateTime<br/>                                                          |
@@ -296,7 +296,7 @@ $dateTime.Value = $os.InstallDate
 [WbemCimtypeEnum](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemcimtypeenum)
 </dt> <dt>
 
-[Datetime](datetime.md)
+[DATETIME](datetime.md)
 </dt> <dt>
 
 [腳本 API 物件](scripting-api-objects.md)

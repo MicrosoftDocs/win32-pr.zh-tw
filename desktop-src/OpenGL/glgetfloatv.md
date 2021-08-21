@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51751adeb1f25f11f0c5da95e902f45fbc4b4b5a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c2d32862ceba31ec30249d025e91c237fda2af10c9adde9c731cd1fd4c5fc79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119494108"
 ---
 # <a name="glgetfloatv-function"></a>glGetFloatv 函式
 
@@ -298,7 +298,7 @@ void WINAPI glGetFloatv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                  |
+| 名稱                                                                                                  | 意義                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *pname* 不是可接受的值。<br/>                                                                                            |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md)和 [**glEnd**](glend.md)的對應呼叫之間，呼叫 **glGetFloatv** 。<br/> |

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eccae96a6289d2172115763b6b6117bf184e2eb8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b2a7c16b7830afad83e4eb43b042da81ba6894f3ea300e816ee33582809bb3f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104557364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490398"
 ---
 # <a name="gltexgendv-function"></a>glTexGendv 函式
 
@@ -73,7 +73,7 @@ void WINAPI glTexGendv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                |
+| 名稱                                                                                                  | 意義                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *coord* 或 *pname* 不是接受的定義值，或 *pname* 是 GL \_ 材質 \_ GEN \_ 模式，而 *params* 不是接受的定義值。<br/> |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。 <br/>                 |

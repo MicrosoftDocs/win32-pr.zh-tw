@@ -21,12 +21,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fa63a933a6a41eec9e6e55906a940cee650c87b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 51082f31aa9e456ded5498a4711d3ddcfe3c03241235aa14c39920071b110e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082502"
 ---
 # <a name="iadsdnwithstring-property-methods"></a>IADsDNWithString 屬性方法
 

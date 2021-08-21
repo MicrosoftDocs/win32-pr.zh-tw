@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b64816589e3d4d0a2e3ace7be5c895e3d2cf22f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27a43f8ea2902af7e2847e032da18543ffdbb228c2aa3e49fde63ce7cd727512
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495008"
 ---
 # <a name="istats-interface"></a>IStats 介面
 
@@ -40,7 +40,7 @@ ms.locfileid: "106970228"
 | 方法                                                                | 描述                                                                                                                                               |
 |:----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**設定**](istats-configure.md)                                 | 設定捕獲檔案的觸發程式、模式比對和緩衝區大小。<br/>                                                                    |
-| [**連接**](istats-connect.md)                                     | 將 NPP 連接到網路。<br/>                                                                                                               |
+| [**連線**](istats-connect.md)                                     | 將 NPP 連接到網路。<br/>                                                                                                               |
 | [**中斷連線**](istats-disconnect.md)                               | 中斷 NPP 與網路的連線。<br/>                                                                                                          |
 | [**GetControlState**](istats-getcontrolstate.md)                     | [*抓取 capture*](c.md)的狀態，指出 capture 正在執行或已暫停。<br/>                        |
 | [**GetConversationStatistics**](istats-getconversationstatistics.md) | 抓取目前 capture 的 [*會話*](s.md) 和 [*工作站資訊*](s.md) 。<br/> |

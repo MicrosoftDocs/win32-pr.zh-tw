@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a36d2b9bdc2edc9565b1eac5ebae335e5fbad80752f572c48c0f1b05c9668de1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8d8169980de00338c7fdd0b804013f986a5a7ca
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118883396"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466005"
 ---
 # <a name="countersadd-method"></a>計數器。 Add 方法
 
@@ -55,28 +55,11 @@ Counters.Add( _
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>例外狀況類型</th>
-<th>條件</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>System.runtime.interopservices.outattribute. COMException</strong></td>
-<td>您可能會因為下列其中一個原因而收到此例外狀況：
-<ul>
-<li>在電腦上找不到指定的效能物件。 Err 值為0xC0000BB8。</li>
-<li>找不到指定的計數器。 Err 值為0xC0000BB9。</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| 例外狀況類型 | 條件 | 
+|----------------|-----------|
+| <strong>System.runtime.interopservices.outattribute. COMException</strong> | 您可能會因為下列其中一個原因而收到此例外狀況：<ul><li>在電腦上找不到指定的效能物件。 Err 值為0xC0000BB8。</li><li>找不到指定的計數器。 Err 值為0xC0000BB9。</li></ul> | 
+
 
 
 

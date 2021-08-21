@@ -4,23 +4,23 @@ description: 瞭解如何使用 MakeCert.exe 和 Pvk2Pfx.exe 來建立測試程�
 ms.assetid: DEDD3727-3F0E-403D-9A6E-55949E98FE74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 382771c23d57b580508017d0bbf24bd742a6eeaf
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: bdc495c27e63dc4ee3a42db1b2763f4f59f7647a3a98d20193d8049dcfad965c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049066"
 ---
 # <a name="how-to-create-an-app-package-signing-certificate"></a>如何建立應用程式套件簽署憑證
 
 > [!IMPORTANT]
 > MakeCert.exe 已被取代。 如需建立憑證的目前指導方針，請參閱 [建立封裝簽署的憑證](/windows/msix/package/create-certificate-package-signing)。
 
- 
+ 
 
-瞭解如何使用 [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) 和 [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) 來建立測試程式碼簽署憑證，讓您可以簽署 Windows 應用程式套件。
+瞭解如何使用 [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert)和 [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx)來建立測試程式碼簽署憑證，讓您可以簽署 Windows 應用程式套件。
 
-您必須在部署封裝的 Windows 應用程式之前，先對其進行數位簽署。 如果您未使用 Microsoft Visual Studio 2012 來建立和簽署應用程式套件，則需要建立及管理您自己的程式碼簽署憑證。 您可以使用 [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) 建立憑證，並 [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) Windows 驅動程式套件 (WDK) 。 然後，您可以使用憑證來簽署應用程式套件，以便在本機部署以進行測試。
+您必須在部署封裝的 Windows 應用程式之前，先對其進行數位簽署。 如果您未使用 Microsoft Visual Studio 2012 來建立和簽署應用程式套件，則需要建立及管理您自己的程式碼簽署憑證。 您可以使用 [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert)建立憑證，並 [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) Windows 驅動程式套件 (WDK) 。 然後，您可以使用憑證來簽署應用程式套件，以便在本機部署以進行測試。
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
@@ -38,7 +38,7 @@ ms.locfileid: "104023300"
 
 ### <a name="step-1-determine-the-publisher-name-of-the-package"></a>步驟1：決定封裝的發行者名稱
 
-若要讓您建立的簽署憑證可與您要簽署的應用程式套件搭配使用，簽署憑證的主體名稱必須符合該應用程式之 AppxManifest.xml 中 [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity)元素的 **發行者** 屬性。 例如，假設 AppxManifest.xml 包含：
+若要使用您想要簽署的應用程式套件來建立您所建立的簽署憑證，簽署憑證的主體名稱必須符合該應用程式 AppxManifest.xml 中 [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity)元素的 **Publisher** 屬性。 例如，假設 AppxManifest.xml 包含：
 
 ``` syntax
   <Identity Name="Contoso.AssetTracker" 
@@ -51,9 +51,9 @@ ms.locfileid: "104023300"
 > [!Note]  
 > 此參數字串以引號指定，且區分大小寫和空白字元。
 
- 
+ 
 
-針對 AppxManifest.xml 中的 [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity)專案定義的發行者屬性字串，必須與您使用 [憑證主體名稱 **]** 的 [**MakeCert**](/windows-hardware/drivers/devtest/makecert) /n 參數指定的字串相同。 盡可能複製並貼上字串。
+針對 AppxManifest.xml 中的 [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity)專案定義的 **Publisher** 屬性字串，必須與您使用 [憑證主體名稱] 的 [**MakeCert**](/windows-hardware/drivers/devtest/makecert) /n 參數指定的字串相同。 盡可能複製並貼上字串。
 
 ### <a name="step-2-create-a-private-key-using-makecertexe"></a>步驟2：使用 MakeCert.exe 建立私密金鑰
 
@@ -92,7 +92,7 @@ expirationDate /sv MyKey.pvk MyKey.cer
 > [!Note]  
 > 請勿在兩個逗號分隔值之間加上空格。
 
- 
+ 
 
 -   1.3.6.1.5.5.7.3.3 表示憑證對程式碼簽署有效。 一律指定此值以限制憑證的預期用途。
 -   1.3.6.1.4.1.311.10.3.13 指出憑證遵循存留期簽署。 一般來說，如果簽章是時間戳記，只要憑證在時間戳記的時間點有效，簽章仍會保持有效，即使憑證過期也一樣。 無論簽章是否已加上時間戳記，這個 EKU 都會強制簽章過期。
@@ -108,7 +108,7 @@ expirationDate /sv MyKey.pvk MyKey.cer
 
 如需其他選項的詳細資訊，請參閱 [**MakeCert**](/windows-hardware/drivers/devtest/makecert)。
 
-### <a name="step-3-create-a-personal-information-exchange-pfx-file-using-pvk2pfxexe"></a>步驟3：使用 Pvk2Pfx.exe 建立個人資訊交換 ( .pfx) 檔案
+### <a name="step-3-create-a-personal-information-exchange-pfx-file-using-pvk2pfxexe"></a>步驟3：使用 Pvk2Pfx.exe 建立個人資訊 Exchange ( .pfx) 檔
 
 使用 [**Pvk2Pfx**](/windows-hardware/drivers/devtest/pvk2pfx) 公用程式，將 [**MakeCert**](/windows-hardware/drivers/devtest/makecert) 建立的 pvk 和 .cer 檔案轉換成可搭配 [SignTool](/windows/desktop/SecCrypto/signtool) 使用的 .pfx 檔案來簽署應用程式套件：
 
@@ -122,7 +122,7 @@ Pvk2Pfx /pvk MyKey.pvk /pi pvkPassword /spc MyKey.cer /pfx MyKey.pfx [/po pfxPas
 
 ## <a name="remarks"></a>備註
 
-建立 .pfx 檔案之後，您可以使用 [SignTool](/windows/desktop/SecCrypto/signtool) 檔案來簽署應用程式套件。 如需詳細資訊，請參閱 [如何使用 SignTool 簽署應用程式套件](how-to-sign-a-package-using-signtool.md)。 但是，除非您將憑證安裝到本機電腦的信任憑證存放區，否則本機電腦仍不會信任憑證來部署應用程式套件。 您可以使用 Windows 隨附的 [Certutil.exe](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732443(v=ws.10))。
+建立 .pfx 檔案之後，您可以使用 [SignTool](/windows/desktop/SecCrypto/signtool) 檔案來簽署應用程式套件。 如需詳細資訊，請參閱 [如何使用 SignTool 簽署應用程式套件](how-to-sign-a-package-using-signtool.md)。 但是，除非您將憑證安裝到本機電腦的信任憑證存放區，否則本機電腦仍不會信任憑證來部署應用程式套件。 您可以使用 Windows 隨附的[Certutil.exe](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732443(v=ws.10))。
 
 **使用 WindowsCertutil.exe安裝憑證**
 
@@ -171,6 +171,6 @@ Certutil -store TrustedPeople
 [簽署應用程式套件](/previous-versions/br230260(v=vs.110))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

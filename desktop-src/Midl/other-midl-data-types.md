@@ -6,20 +6,20 @@ keywords:
 - 資料類型 MIDL、其他
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a9e61804a235a5a06569ef54de4fa880c334e60
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13e557e37e90b89e1a6e9e1e0b22ed320fe2bcaa31a2a67f3cc93ec3da2605fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869528"
 ---
 # <a name="other-midl-data-types"></a>其他 MIDL 資料類型
 
 MIDL 可辨識許多 COM 和 Automation 資料類型，例如 **BSTR**、 **VARIANT**、 **SAFEARRAY** 和 COM 控制碼，例如 **HMETAFILE \_ PICT**、 **HENHMETAFILE**、 **HMETAFILE**、 **HBITMAP**、 **HPALETTE** 和 **HGLOBAL**。 如需詳細資訊，包括使用這些類型所需的匯入檔案的名稱，請參閱 [封送處理 OLE 資料類型](marshaling-ole-data-types.md)。
 
- 
+ 
 
- 
+ 
 
 
 

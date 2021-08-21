@@ -79,16 +79,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5e5282c854bfdb1ce4b80f61a202ebecac990576
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c6a2d965a764be8925fda55958302d815b62ad6180ce4d3abb48d399fc2e817
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699998"
 ---
 # <a name="win32_computersystem-class"></a>Win32 本身 \_ 類別
 
-**\_ Win32** 系統系統的 [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 的電腦系統。
+**\_ Win32** 系統狀態 [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 的電腦系統。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。
 
@@ -204,7 +204,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "SMBIOS \| Type 24 \| 硬體 Security Settings \| AdminPasswordStatus" ) 
+限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "SMBIOS \| Type 24 \| 硬體 Security 設定 \| AdminPasswordStatus" ) 
 </dt> </dl>
 
 系統管理員密碼狀態的系統硬體安全性設定。
@@ -413,7 +413,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 此值來自 SMBIOS 資訊中 **系統開機資訊** 結構的 **開機狀態** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -512,7 +512,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 <span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>
 
-**Safe** (3) 
+**保管庫** (3) 
 
 
 </dt> <dd></dd> <dt>
@@ -556,7 +556,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 此值來自于 **系統主機殼** 的 **SKU 編號** 成員或 SMBIOS 資訊中的底座結構。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -749,7 +749,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "SMBIOS \| Type 24 \| 硬體 Security Settings \| FrontPanelResetStatus" ) 
+限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "SMBIOS \| Type 24 \| 硬體 Security 設定 \| FrontPanelResetStatus" ) 
 </dt> </dl>
 
 下表列出電腦上 [重設] 按鈕的硬體安全性設定。
@@ -800,7 +800,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 
 若 **為 True**，則表示有虛擬程式。
 
-**Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個屬性。
+**Windows server 2008 R2、Windows 7、Windows Server 2008 和 Windows Vista：** 在 Windows 8 和 Windows Server 2012 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -864,7 +864,7 @@ class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "SMBIOS \| Type 24 \| 硬體 Security Settings \| KeyboardPasswordStatus" ) 
+限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "SMBIOS \| Type 24 \| 硬體 Security 設定 \| KeyboardPasswordStatus" ) 
 </dt> </dl>
 
 鍵盤密碼狀態的系統硬體安全性設定。
@@ -1263,7 +1263,7 @@ OEM 定義的自由格式字串清單。 例如，OEM 會定義系統參考檔�
 
 </dt> <dd>
 
-小型辦公室和家用辦公室 (SOHO) Server
+小型 Office 和家用 Office (SOHO) 伺服器
 
 </dd> <dt>
 
@@ -1304,7 +1304,7 @@ OEM 定義的自由格式字串清單。 例如，OEM 會定義系統參考檔�
 
 使用中的電腦類型，例如膝上型電腦、桌上型電腦或平板電腦。
 
-**Windows server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 8.1 和 Windows Server 2012 R2 之前，不支援這個屬性。
+**Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows Server 2008 和 Windows Vista：** 在 Windows 8.1 和 Windows Server 2012 R2 之前，不支援這個屬性。
 
 <dt>
 
@@ -1502,7 +1502,7 @@ OEM 定義的自由格式字串清單。 例如，OEM 會定義系統參考檔�
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "SMBIOS \| Type 24 \| 硬體 Security Settings \| PowerOnPasswordStatus" ) 
+限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "SMBIOS \| Type 24 \| 硬體 Security 設定 \| PowerOnPasswordStatus" ) 
 </dt> </dl>
 
 Power-On 密碼狀態的系統硬體安全性設定。
@@ -1670,7 +1670,7 @@ Power-On 密碼狀態的系統硬體安全性設定。
 
 <span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>
 
-<span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>**Safe** (3) 
+<span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>**保管庫** (3) 
 
 
 </dt> <dd></dd> <dt>
@@ -1895,7 +1895,7 @@ Windows 作業系統的支援連絡人資訊清單。
 
 此值來自 SMBIOS 資訊中 **系統資訊** 結構的 **家庭** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -1915,7 +1915,7 @@ Windows 作業系統的支援連絡人資訊清單。
 
 此值來自 SMBIOS 資訊中 **系統資訊** 結構的 **SKU 編號** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -2093,7 +2093,7 @@ Windows 作業系統的支援連絡人資訊清單。
 
 <span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>
 
-**Safe** (3) 
+**保管庫** (3) 
 
 
 </dt> <dd></dd> <dt>

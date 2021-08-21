@@ -4,17 +4,17 @@ ms.assetid: 606ab850-95bf-4c60-b7cf-e3a94ceee7a7
 title: RestoreScreenSaver 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85b747aa21815bb37cc7db2296347c9890a06914
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 684250b237105e391472237a5e7093855dd82ef5b59ffbbaa20ebecf386da302
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "107000039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696968"
 ---
 # <a name="restorescreensaver-method"></a>RestoreScreenSaver 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

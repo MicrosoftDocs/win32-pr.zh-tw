@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c76b6b6bee3e7e2b47c25c7325729a3e67300522
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 420a7d49815a5f3e009af134eb4b83ac67da4a1ffaf206f269489106f0e453b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700608"
 ---
 # <a name="reset-method-of-the-cim_volumeset-class"></a>CIM VolumeSet 類別的 Reset 方法 \_
 

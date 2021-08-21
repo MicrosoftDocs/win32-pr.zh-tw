@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用 c + + 設定預設進程安全性層級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33bb51deb2c228f0958209c774e7526b4eeed958
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fcaec4ebbcd39c8cee9ee8aae002621a4a5a1853d1e4cfd4282194115c15ce3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050286"
 ---
 # <a name="setting-the-default-process-security-level-using-c"></a>使用 c + + 設定預設進程安全性層級
 
@@ -62,7 +62,7 @@ using namespace std;
 
 
 
-將驗證層級設定為 [ **RPC \_ C \_ 驗證 \_ 等級] \_ 預設值** ，可讓 DCOM 協商驗證層級，以符合目的電腦的安全性需求。 如需詳細資訊，請參閱 [使用 c + + 變更預設驗證認證](#changing-the-default-authentication-credentials-using-c) ，以及 [使用 c + + 變更預設的模擬設定](#changing-the-default-impersonation-levels-using-c)。
+將驗證層級設定為 [ **RPC \_ C \_ 驗證 \_ 等級] \_ 預設值** ，可讓 DCOM 協商驗證層級，以符合目的電腦的安全性需求。 如需詳細資訊，請參閱使用 c [+ + 變更預設驗證認證](#changing-the-default-authentication-credentials-using-c)，以及[使用 c + + 變更預設模擬設定](#changing-the-default-impersonation-levels-using-c)。
 
 ## <a name="changing-the-default-authentication-credentials-using-c"></a>使用 c + + 變更預設驗證認證
 
@@ -72,7 +72,7 @@ using namespace std;
 
 
 
-| 驗證層級                 | Description                                                                           |
+| 驗證層級                 | 描述                                                                           |
 |--------------------------------------|---------------------------------------------------------------------------------------|
 | RPC \_ C \_ 驗證 \_ 層級 \_ 預設值        | 預設安全性驗證。                                                      |
 | RPC \_ C \_ 驗證 \_ 層級 \_ 無           | 不需要驗證。                                                                    |

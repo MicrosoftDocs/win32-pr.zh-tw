@@ -4,12 +4,12 @@ description: ElementShouldBeOffScreen
 ms.assetid: 7D955A67-A296-45D5-AB01-3656D99B0E77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a19dda740d049cc8f850378e253222c245e9ae83
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0a79cacca5763c21d3ab87154c7f300cf89229913dd2cf11c89e1e9e697a7ea5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052796"
 ---
 # <a name="elementshouldbeoffscreen"></a>ElementShouldBeOffScreen
 
@@ -35,9 +35,9 @@ ms.locfileid: "103675871"
 [Name 屬性](name-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

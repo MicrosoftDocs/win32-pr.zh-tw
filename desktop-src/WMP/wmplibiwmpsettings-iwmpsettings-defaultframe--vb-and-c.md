@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28539640214165ab5b2808762ed854b19b434311
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b39352b2c49bfdcd50f3e5c74d88a9fafef6752034dbd220cda3bb34dc0ed5de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053436"
 ---
 # <a name="iwmpsettingsdefaultframe-property"></a>IWMPSettings：:d efaultFrame 屬性
 
@@ -52,7 +52,7 @@ Public Property defaultFrame As System.String
 
 如果在 **\_ WMPOCXEvents \_ ScriptCommandEvent** 事件本身中指定了目標框架，則會忽略這個屬性。
 
-使用 JAVA applet Netscape Navigator 時，會忽略這個屬性。 在 Netscape Navigator 中，每個收到的 URL 指令碼命令都會在新的瀏覽器視窗中顯示 URL，不論 **defaultFrame** 的值為何。
+使用 JAVA applet Netscape Navigator 時，會忽略這個屬性。 在 Netscape Navigator 中，每個收到的 url 指令碼命令都會在新的瀏覽器視窗中顯示 url，不論 **defaultFrame** 的值為何。
 
 ## <a name="requirements"></a>規格需求
 
@@ -70,7 +70,7 @@ Public Property defaultFrame As System.String
 
 <dl> <dt>
 
-[**AxWindowsMediaPlayer ScriptCommand 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
+[**AxWindowsMediaPlayer. ScriptCommand 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
 </dt> <dt>
 
 [**IWMPSettings 介面 (VB 和 c # )**](iwmpsettings--vb-and-c.md)

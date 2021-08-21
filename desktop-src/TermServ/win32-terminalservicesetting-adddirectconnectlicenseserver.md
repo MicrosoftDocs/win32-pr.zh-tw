@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be9bba23f5c0bfc69b4c8d7951ab38eac6690b84
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2e0a791119e83dbe9c552524b4f6f710c93383ae2d90c1cb001eacc92e2d2daa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867838"
 ---
 # <a name="adddirectconnectlicenseserver-method-of-the-win32_terminalservicesetting-class"></a>Win32 TerminalServiceSetting 類別的 AddDirectConnectLicenseServer 方法 \_
 
-\[**AddDirectConnectLicenseServer** 不再適用于 Windows Server 2008 R2。\]
+\[**AddDirectConnectLicenseServer** 已不再可供使用，Windows Server 2008 R2。\]
 
 **Windows Server 2008：** 設定新的授權伺服器，並將授權伺服器新增至登錄，藉由遠端桌面工作階段主機 (RD 工作階段主機) 伺服器來進行探索。
 

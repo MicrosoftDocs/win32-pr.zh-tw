@@ -1,19 +1,19 @@
 ---
-description: 藍牙裝置型號。
+description: 藍牙裝置型號編號。
 ms.assetid: a2b131c0-42e3-4d1e-91df-839638388f9a
-title: DeviceInterface 藍牙. ModelNumber
+title: DeviceInterface。藍牙。ModelNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d65f77aa38fb7f97c528e109f5d0dd4a76d44b65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41003a64c1ee854365bd058262f8d6d2a1bd5cf4699afd9358304e9c84ae083a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010998"
 ---
-# <a name="systemdeviceinterfacebluetoothmodelnumber"></a>DeviceInterface 藍牙. ModelNumber
+# <a name="systemdeviceinterfacebluetoothmodelnumber"></a>DeviceInterface。藍牙。ModelNumber
 
-藍牙裝置型號。
+藍牙裝置型號編號。
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、1507版、Windows 8。1
 

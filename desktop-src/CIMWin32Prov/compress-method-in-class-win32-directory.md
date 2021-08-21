@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ea694c09e11e5801016a4ea85b9774448c542991
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 15d9142abb95998fce803c30c439632775cd8ff807f3b7d99653875d08e534e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020666"
 ---
 # <a name="compress-method-of-the-win32_directory-class"></a>壓縮 Win32 \_ 目錄類別的方法
 
@@ -91,7 +91,7 @@ uint32 Compress();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 
@@ -145,7 +145,7 @@ uint32 Compress();
 
 由於壓縮 imparts 效能會稍微降低，因此不建議針對例行存取的檔案或資料夾進行存取;例如，您可能不想要壓縮資料庫檔案、記錄檔或使用者設定檔資料夾。 更好的壓縮候選項目為不常存取的檔案和資料夾。 例如，您可以撰寫腳本，以傳回一或多個月未存取之磁片磁碟機上的資料夾集合，然後壓縮每個資料夾。
 
-壓縮資料夾所釋出的磁碟空間量會根據儲存在該資料夾中的檔案類型而有所不同。 例如，.jpg 檔案已經過壓縮，而進一步的壓縮對檔案的大小沒有太大的影響。 不過，其他檔案類型的節省量可能很可觀。 例如，在 Windows 2000 測試電腦上建立新的資料夾，和 33 Microsoft Word 檔，總共占滿 15 mb 的磁碟空間 (MB) ，已複製到該資料夾。 壓縮檔時，資料夾只佔用 7 MB 的磁碟空間。
+壓縮資料夾所釋出的磁碟空間量會根據儲存在該資料夾中的檔案類型而有所不同。 例如，.jpg 的檔案已經過壓縮，而進一步的壓縮對檔案的大小沒有太大的影響。 不過，其他檔案類型的節省量可能很可觀。 例如，在 Windows 2000 測試電腦上建立新的資料夾，並在 33 Microsoft Word 檔上，將總磁碟空間占總 15 mb () mb，然後複製到該資料夾。 壓縮檔時，資料夾只佔用 7 MB 的磁碟空間。
 
 ## <a name="examples"></a>範例
 

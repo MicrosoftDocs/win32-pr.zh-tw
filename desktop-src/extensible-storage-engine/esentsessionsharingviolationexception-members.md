@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102714
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 739dbc9ff561d5c265e4b01ae8ced3de5d96c222
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bc8b5d60b8617da5c45b8fe777be22a9dfae771ad86d1cd2a33adf7530a4a8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117108"
 ---
 # <a name="esentsessionsharingviolationexception-members"></a>EsentSessionSharingViolationException 成員
 

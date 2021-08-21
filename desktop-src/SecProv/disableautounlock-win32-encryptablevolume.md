@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 6dd4e11e2ff4906627c2d790987500062136d56d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce3a6bbb396136b128e084da0e64a79ad2f403217d8ac51dcf67b57941cc4a4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004556"
 ---
 # <a name="disableautounlock-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 DisableAutoUnlock 方法 \_
 
@@ -47,7 +47,7 @@ uint32 DisableAutoUnlock();
 
 
 
-| 傳回碼/值                                                                                                                                                                       | Description                                                                                 |
+| 傳回碼/值                                                                                                                                                                       | 描述                                                                                 |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl>                                       | 此方法成功。<br/>                                                       |
 | <dl> <dt> **FVE \_ E \_ 磁片 \_ 區 \_ 未**</dt>系結 <dt>2150694935 (0x80310017)</dt> </dl> | 磁片區上的自動解除鎖定已停用。<br/>                                   |
@@ -70,8 +70,8 @@ uint32 DisableAutoUnlock();
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise，僅 Windows vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 
