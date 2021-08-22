@@ -4,16 +4,16 @@ description: IAgentCharacterEx GetOriginalSize
 ms.assetid: a27ae88f-3655-4375-b563-0cc320d012cb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97e1712587e70d9756e3d37ca9e0f3cbfdb82c33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 55abb64a8466b13ee41119e2a8a359ceeb182c92f7b4d2b1071547df07110052
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750516"
 ---
 # <a name="iagentcharacterexgetoriginalsize"></a>IAgentCharacterEx::GetOriginalSize
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetOriginalSize(
@@ -49,9 +49,9 @@ HRESULT GetOriginalSize(
 [**IAgentCharacter：： GetSize**](iagentcharacter--getsize.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

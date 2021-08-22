@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e5bed33fb66d9deb85e1f25165f3f7a0f664961
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ff75f235e8aa1787e93f9420b4d7ed27f440cdc09510547295ebced4ec494bdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118734896"
 ---
 # <a name="bitmap-resource"></a>點陣圖資源
 
@@ -69,6 +69,6 @@ disk1   BITMAP "disk.bmp"
 [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 30624c0a-e30f-4383-bc0c-b43f42403e72
 title: 以 StateBlock (Direct3D 9) 儲存圖元狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80741d9f17939d5795163a3e84c58bcdb9003c70
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eebc7cc408fe919b1569d51f5cdd4e3e5916968d05b90557a17a22377673fdfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797914"
 ---
 # <a name="saving-pixel-state-with-a-stateblock-direct3d-9"></a>以 StateBlock (Direct3D 9) 儲存圖元狀態
 

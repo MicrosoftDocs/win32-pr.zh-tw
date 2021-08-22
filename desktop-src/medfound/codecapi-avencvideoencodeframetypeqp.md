@@ -4,12 +4,12 @@ ms.assetid: 6331033F-7EEB-41B3-B166-29686D4AADB6
 title: 'CODECAPI_AVEncVideoEncodeFrameTypeQP 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76e68e0cb6cbdc076dbf523f3ae9dfd7b5870f47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e9ebd4a25f3779ce1c721eb3cb1188b487be4d313ae5dbeb02dd41e494f4c17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743841"
 ---
 # <a name="codecapi_avencvideoencodeframetypeqp-property"></a>CODECAPI \_ AVEncVideoEncodeFrameTypeQP 屬性
 
@@ -54,8 +54,8 @@ ms.locfileid: "104111860"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

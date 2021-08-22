@@ -4,12 +4,12 @@ ms.assetid: 2025583E-CE1D-4DDF-8708-D7BEA47E9B4D
 title: ISceSvcAttachmentData 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e7d6455434fd8d9468db76c8c4410fa0e7b6f55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 764097ac7986cad760ae2ae92c89c79edb8abc4025aa062cb7b431c6aef6f0cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106993164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894602"
 ---
 # <a name="iscesvcattachmentdata-methods"></a>ISceSvcAttachmentData 方法
 

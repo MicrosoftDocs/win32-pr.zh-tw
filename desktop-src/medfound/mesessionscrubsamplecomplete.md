@@ -4,12 +4,12 @@ ms.assetid: 1ae97022-3fb2-4c5e-9262-d5bdc2a62bee
 title: 'MESessionScrubSampleComplete 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b076c2f2978831cc30521fcf49d71c04620c4dee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca2fdaa6ffe9693fc6a033fd0c33ff519a73dcda3a32c303844da04e6af01404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974169"
 ---
 # <a name="mesessionscrubsamplecomplete-event"></a>MESessionScrubSampleComplete 事件
 
@@ -23,7 +23,7 @@ ms.locfileid: "103848537"
 
 
 
-| VARTYPE              | Description                           |
+| VARTYPE              | 描述                           |
 |----------------------|---------------------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> <br/> |
 
@@ -35,8 +35,8 @@ ms.locfileid: "103848537"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

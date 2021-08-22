@@ -4,12 +4,12 @@ ms.assetid: a04429c2-ff9e-4ec8-8d07-faf1479f4920
 title: ICE73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11ac0e192f7c2ab7fb6f6236e45e0e4da70157e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2e5beecbfc7b4345d3b0dd7a93b86c55acc1abde4cc4f99d72749368be9d303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635074"
 ---
 # <a name="ice73"></a>ICE73
 

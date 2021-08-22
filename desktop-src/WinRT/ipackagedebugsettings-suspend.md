@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shobjidl.idl
-ms.openlocfilehash: 385ddc856661090caec4345df6651605b67fe883
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0517ce3cca6a8e74f19b053897511062cefa252297d3a0e6633d4678c0deaa95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118822811"
 ---
 # <a name="ipackagedebugsettingssuspend-method"></a>IPackageDebugSettings：：暫止方法
 
@@ -56,7 +56,7 @@ HRESULT Suspend(
 
 
 
-| 傳回碼                                                                                            | Description                                      |
+| 傳回碼                                                                                            | 描述                                      |
 |--------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                   | 作業成功。<br/>              |
 | <dl> <dt>**E 不 \_ 合法的 \_ STATECHANGE**</dt> </dl> | 進程目前未執行。<br/> |
@@ -77,7 +77,7 @@ HRESULT Suspend(
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 8<br/>                                                                    |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                          |
-| Idl<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
 
 
 

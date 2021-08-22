@@ -4,18 +4,18 @@ ms.assetid: 2e3008b6-e427-468a-9381-f1d4866111c7
 title: AssistantTelephone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f08074906e97819126d4dc449d2f81576c8960c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22f5569604caced9eb277d642341d8a3819c2a5ebe1d03effd96e9a0fa394ab5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118730310"
 ---
 # <a name="systemcontactassistanttelephone"></a>AssistantTelephone
 
 連絡人助理的電話號碼。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

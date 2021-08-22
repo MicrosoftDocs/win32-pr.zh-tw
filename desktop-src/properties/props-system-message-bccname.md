@@ -4,18 +4,18 @@ ms.assetid: ad888d32-956d-45c1-a73d-4799cc3ed320
 title: BccName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ce478d2ac0ec553b77d41f8741ce9dcf4ee1120
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe861d6ad42cc7d293a79eeb5bf8be4cd7fe494c6a9ea430693e8d7c22d6bc81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118724828"
 ---
 # <a name="systemmessagebccname"></a>BccName
 
 [密件副本：] 欄位中的人員名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

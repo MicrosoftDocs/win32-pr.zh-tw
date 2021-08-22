@@ -4,12 +4,12 @@ description: 隱含系結控制碼可讓您的應用程式選取特定的伺服�
 ms.assetid: cf4e179b-8d97-4597-89e6-c8967b9db6c7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5fda8501224d66518ad2e86f13fb769c4b2fa0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3d49618ec505cc776c346a504fb19b65db539dadb90d030e45efbabcf08371db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929073"
 ---
 # <a name="implicit-binding-handles"></a>隱含系結控制碼
 
@@ -18,7 +18,7 @@ ms.locfileid: "104023586"
 > [!Note]  
 > 隱含系結控制碼不是安全線程。 因此，多執行緒應用程式應該避免使用隱含的系結控制碼。
 
- 
+ 
 
 當您的應用程式使用隱含系結時，用戶端必須設定系結資訊，讓它可以建立系結。 用戶端建立隱含系結之後，不需要將任何系結控制碼傳遞至遠端程式。 RPC 程式庫會處理通訊會話的其他機制。
 
@@ -55,6 +55,6 @@ status = RpcBindingFree(hHello);
 
 在上述範例中，RPC 執行時間程式庫函式 [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding) 和 [**RpcBindingFree**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree) 都需要在其參數清單中傳遞隱含系結控制碼。 不過，遠端過程 MyRemoteProcedure 並不是 RPC 執行時間程式庫函式，因此不會發生。
 
- 
+ 
 
- 
+ 

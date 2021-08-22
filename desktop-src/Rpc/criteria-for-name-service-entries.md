@@ -4,12 +4,12 @@ description: 使用遠端程序呼叫 (RPC) 的名稱服務專案準則。
 ms.assetid: f9a7b935-7104-489c-93a8-0c3793d17348
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb32314dc86b179ea98bdf07000dc5ea359bdc77
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 609c545c72687a0b9b73db56d2f08654941e464c790e091ee886159d9e9593ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931117"
 ---
 # <a name="criteria-for-name-service-entries"></a>名稱服務專案的準則
 
@@ -21,9 +21,9 @@ ms.locfileid: "104462313"
 
 如果名稱服務專案繼續生存以上所述的準則，則會收集來自這些專案的所有系結控制碼。 系統會捨棄用戶端不支援的通訊協定順序的控制碼，並將其餘的控制碼傳回給您，作為 [**RpcNsBindingLookupNext**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext)的輸出。
 
- 
+ 
 
- 
+ 
 
 
 

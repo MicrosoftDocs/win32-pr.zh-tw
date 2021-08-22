@@ -4,12 +4,12 @@ ms.assetid: 7007c751-f1a4-4ddc-a66e-d3edefc6ed97
 title: 屬性架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64d83171985c062fd2d8d4ae968c2ef4d36a29ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c3d09a2a351635547c21357477290cb3335cb8c1da042d680762140b48b03f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903235"
 ---
 # <a name="attribute-architecture"></a>屬性架構
 

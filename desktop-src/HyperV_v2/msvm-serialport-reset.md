@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7b281b6e5ca4d9eb8fd3a4a69bfebe433d35a4ef
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8dd3150be455732421eb4789f171fbf45bdf18140b254a306642a892915bff5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950597"
 ---
 # <a name="reset-method-of-the-msvm_serialport-class"></a>Msvm SerialPort 類別的 Reset 方法 \_
 

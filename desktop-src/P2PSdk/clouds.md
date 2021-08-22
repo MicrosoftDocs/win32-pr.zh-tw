@@ -4,12 +4,12 @@ ms.assetid: 01327211-0461-4922-925e-67bebe3e6158
 title: 雲端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 743d668387c78b3c22e49e98585494a36506cc74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c5ecbeee1f5b69d120c5f351f8a5bb200b6e3e5f60e4bacca5a4f5484f402dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932690"
 ---
 # <a name="clouds"></a>雲端
 

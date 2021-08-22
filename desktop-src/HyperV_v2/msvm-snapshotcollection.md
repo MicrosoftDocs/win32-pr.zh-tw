@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1e24566f1f5c5500258f14f88cbe2b7c4fa29e27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc83a12fc67192f686ddd75d6bc9626d9403244b2cbc8490270d236741174cdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950287"
 ---
 # <a name="msvm_snapshotcollection-class"></a>Msvm \_ SnapshotCollection 類別
 
@@ -89,7 +89,7 @@ class Msvm_SnapshotCollection : CIM_Collection
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                             |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                          |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |

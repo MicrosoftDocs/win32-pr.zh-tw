@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 4c76ffe70a8388e920b5f8576830e31ed23edc81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e26f7ed7f002801d3bbdf60708d83234231fe3333675a1c211488431868a4236
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731192"
 ---
 # <a name="printer_notify_info_data-structure"></a>印表機 \_ 通知 \_ 資訊 \_ 資料結構
 
@@ -51,7 +51,7 @@ typedef struct _PRINTER_NOTIFY_INFO_DATA {
 
 <dl> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 指出所提供的資訊類型。 這個成員可以是下列其中一個值。
@@ -330,7 +330,7 @@ PRINTER_ATTRIBUTE_SHARED<br />
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 
 
 

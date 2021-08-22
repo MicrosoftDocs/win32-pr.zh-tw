@@ -1,19 +1,19 @@
 ---
-description: Windows 挑戰/回應 (NTLM) 是在網路上使用的驗證通訊協定，該通訊協定包含執行 Windows 作業系統和獨立系統的系統。
+description: Windows挑戰/回應 (NTLM) 是在網路上使用的驗證通訊協定，該通訊協定包含執行 Windows 作業系統和獨立系統的系統。
 ms.assetid: 35a38858-d36f-45c9-95f4-2541a182f5ac
 title: Microsoft NTLM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9723f24d5913adefe70d4e238de0591790a34bfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcb3d7f272c831c6bf9ac5efd30b8fa67bc7ad27d78d43794e5110fb63d1fe49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921689"
 ---
 # <a name="microsoft-ntlm"></a>Microsoft NTLM
 
-Windows 挑戰/回應 (NTLM) 是在網路上使用的驗證通訊協定，該通訊協定包含執行 Windows 作業系統和獨立系統的系統。
+Windows挑戰/回應 (NTLM) 是在網路上使用的驗證通訊協定，該通訊協定包含執行 Windows 作業系統和獨立系統的系統。
 
 Microsoft [*Kerberos*](../secgloss/k-gly.md) [*安全性套件*](../secgloss/s-gly.md) 可為網路上的系統增加更高的安全性。 雖然 Microsoft *Kerberos* 是所選擇的通訊協定，但仍支援 NTLM。 NTLM 還必須用於獨立系統的登入驗證。 如需有關 Kerberos 的詳細資訊，請參閱 [Microsoft kerberos](microsoft-kerberos.md)。
 

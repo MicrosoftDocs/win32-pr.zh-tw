@@ -3,7 +3,7 @@ title: 'BM_GETSTATE 訊息 (Winuser .h) '
 description: 抓取按鈕或核取方塊的狀態。 您可以明確地傳送此訊息，或使用按鈕 \_ >getstate 宏。
 ms.assetid: ca4c2f1a-b657-490a-ac8b-5f0cfef64d76
 keywords:
-- BM_GETSTATE message Windows 控制項
+- BM_GETSTATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b5e69f067acfc13cd8661be8a585fcfc8e6fe4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd44921c61477e26cd5570fcbaa6f96a4e61f96ee22ad1c705bf553788d8cfba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674838"
 ---
 # <a name="bm_getstate-message"></a>BM \_ >getstate 訊息
 
@@ -49,7 +49,7 @@ ms.locfileid: "103933969"
 
 
 
-| 傳回碼                                                                                        | Description                                                                                                                                                                                                              |
+| 傳回碼                                                                                        | 描述                                                                                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**BST \_ 已核取**</dt> </dl>        | 按鈕已核取。<br/>                                                                                                                                                                                        |
 | <dl> <dt>**BST \_ DROPDOWNPUSHED**</dt> </dl> | [Windows Vista](common-control-versions.md)。 按鈕處於下拉式狀態。 僅適用于按鈕具有 [ [**TBSTYLE \_ ] 下拉式**](toolbar-control-and-button-styles.md) 樣式時。<br/> |
@@ -69,9 +69,9 @@ ms.locfileid: "103933969"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

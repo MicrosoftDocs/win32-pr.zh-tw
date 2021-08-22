@@ -4,12 +4,12 @@ ms.assetid: f0d119fa-8a0a-4650-814e-b3586302ff79
 title: 音訊轉譯器屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b01f9f2f3cadd63f31383537fd56cf7020ffef3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ed2d44445311c8ac9f9f29a33106f0bdcd6d395dd83ba1d374eb93f4f82ab1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975017"
 ---
 # <a name="audio-renderer-attributes"></a>音訊轉譯器屬性
 

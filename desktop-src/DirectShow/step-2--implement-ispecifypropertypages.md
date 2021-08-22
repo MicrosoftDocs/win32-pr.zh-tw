@@ -1,15 +1,15 @@
 ---
-description: 在建立自訂 DirectShow 篩選器的篩選屬性頁的過程中，于篩選器中執行 ISpecifyPropertyPages 介面。
+description: 在建立自訂 DirectShow 篩選的篩選屬性頁的過程中，于篩選器中執行 ISpecifyPropertyPages 介面。
 ms.assetid: 8be83564-07ad-47cf-9538-73136f42ba79
 title: 步驟 2： 執行 ISpecifyPropertyPages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe37a22c6ba9c14f8656ac41294360569316be1a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1c2d1df86ef6e8b3e59f14a3efe1708a286761c9ba6425a7710a692ed6dcd3bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112410051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951847"
 ---
 # <a name="step-2-implement-ispecifypropertypages"></a>步驟 2： 執行 ISpecifyPropertyPages
 

@@ -4,12 +4,12 @@ ms.assetid: 659b1dd2-7510-4962-a991-f5febcfbf26e
 title: 具有排序限制的動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13d518bca1f90d256660bdf241dd7199d749cbd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3886ce503569ae2e32e23e15bb73fa3fce13dbcadec98d1d3922056dc0c3247a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640096"
 ---
 # <a name="actions-with-sequencing-restrictions"></a>具有排序限制的動作
 

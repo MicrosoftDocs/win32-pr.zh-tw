@@ -15,12 +15,12 @@ keywords:
 - 介面，IDragProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 548f0212eca37e1890596143f27e9af70e1fb19a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 36b5e14edbeede46d210e109e63fff40ff0646d1b2ab14b42cf517ddc4e688aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118827202"
 ---
 # <a name="drag-control-pattern"></a>拖曳控制項模式
 
@@ -58,7 +58,7 @@ ms.locfileid: "104023697"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -79,6 +79,6 @@ ms.locfileid: "104023697"
 [消費者介面自動化的拖放支援](ui-automation-support-for-drag-and-drop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

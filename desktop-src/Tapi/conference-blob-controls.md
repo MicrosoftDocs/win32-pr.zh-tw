@@ -4,16 +4,16 @@ ms.assetid: 535bbb33-01cb-4484-b216-4808e47e4db5
 title: 會議 Blob 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bacf13567abd46f56c399cefa732be97b081cfd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1361951fcb830676e36acb4ec397832629dc5745983c654317a457a0d66ac336
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118867988"
 ---
 # <a name="conference-blob-controls"></a>會議 Blob 控制項
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 下圖說明與 TAPI 3 會議 blob 控制項相關的主要物件。 顯示的介面會以超連結的形式出現在相關的參考頁面中。
 

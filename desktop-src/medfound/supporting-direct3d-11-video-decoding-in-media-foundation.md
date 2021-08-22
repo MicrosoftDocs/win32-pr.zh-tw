@@ -4,12 +4,12 @@ ms.assetid: 656556AA-0266-4318-9D3C-AED75BD728F6
 title: 支援媒體基礎中的 Direct3D 11 影片解碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 542f7244922dc7947f22e4d33027fdcac1962fe5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f95a1d1bc1dd9987fe59fe807e56aa9af1ea4ad597b72c077906483d623e11e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106991397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972879"
 ---
 # <a name="supporting-direct3d-11-video-decoding-in-media-foundation"></a>支援媒體基礎中的 Direct3D 11 影片解碼
 

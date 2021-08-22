@@ -4,18 +4,18 @@ ms.assetid: 09802282-72ad-43f1-8cce-4cdc68b01e87
 title: ModuleSignature 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d75e3bb013472c49d18fa44b840ce07b11728faf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92f269215fef06af5eeacc80f1356c2ad2226c20075c1d09f1e128c062438508
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945336"
 ---
 # <a name="modulesignature-table"></a>ModuleSignature 資料表
 
 ModuleSignature 資料表是必要的資料表。 它包含識別合併模組所需的所有資訊。 合併工具會將此資料表加入至 .msi 檔案（如果尚未存在的話）。 Merge 模組中的 ModuleSignature 資料表只有一個資料列包含 ModuleID、Language 和 Version。 不過，.msi 檔案中的 ModuleSignature 資料表具有一個資料列，其中包含每個已合併至其中的 .msm 檔案的這項資訊。
 
-合併和驗證工具會檢查 .msi 檔案中的 ModuleSignature 資料表，以判斷它是否具有目前合併模組所需的所有相依合併模組 (請參閱 [ModuleDependency 資料表](moduledependency-table.md)) 以及安裝封裝是否先前與任何衝突的合併模組合併 (請參閱 [ModuleExclusion 資料表](moduleexclusion-table.md)) 。
+合併和驗證工具會檢查 .msi 檔案中的 ModuleSignature 資料表，以判斷它是否具有目前合併模組所需的所有相依合併模組 (請參閱 [ModuleDependency 資料表](moduledependency-table.md)) 以及安裝封裝是否先前與任何衝突的合併模組合併 (查看 [ModuleExclusion 表](moduleexclusion-table.md)) 。
 
 ModuleSignature 資料表具有下列資料行。
 

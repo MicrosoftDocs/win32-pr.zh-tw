@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5b31b02782c0f215f70f3bb5d2767b01294c7261
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d82c1826b865d94ae0a9a9d5a63fb535ad804ad5e874dec9563c5b5e74bd67f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949787"
 ---
 # <a name="msvm_syntheticethernetportsettingdata-class"></a>Msvm \_ SyntheticEthernetPortSettingData 類別
 
@@ -158,7 +158,7 @@ class Msvm_SyntheticEthernetPortSettingData : CIM_EthernetPortAllocationSettingD
 指出是否已啟用 VM 的 PacketDirect 投影。
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -286,7 +286,7 @@ VLAN 端點所需的設定模式。 這個屬性是用來設定與目標 Etherne
 這是唯讀屬性，但是可以使用 [**Msvm \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)類別的 [**ModifyVirtualSystemResources**](https://www.bing.com/search?q=**ModifyVirtualSystemResources**)方法來變更。
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -533,8 +533,8 @@ VLAN 端點所需的設定模式。 這個屬性是用來設定與目標 Etherne
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

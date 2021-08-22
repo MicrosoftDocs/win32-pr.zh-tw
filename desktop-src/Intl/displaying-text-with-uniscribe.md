@@ -4,12 +4,12 @@ ms.assetid: e1adc567-0445-4deb-8634-25653f82127c
 title: 使用 Uniscribe 顯示文字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baeb9a2be4d00efaa2681097ddefe3a6de4c576b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17caf7e7880a61bdf9afbaf6db5b60065b01d3d3960f2ed5629a007aa304b7b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949603"
 ---
 # <a name="displaying-text-with-uniscribe"></a>使用 Uniscribe 顯示文字
 

@@ -4,12 +4,12 @@ ms.assetid: 51FD6E36-9CDF-4005-942F-7A92CA706F38
 title: 'CODECAPI_AVEncVideoUseLTRFrame 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 252933180e8212c94c3c2b2442397c53d0f9c559
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19b4df79755ed03873f0393d93f7e21ab8046af6295309207dc976f87eb0ee99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743804"
 ---
 # <a name="codecapi_avencvideouseltrframe-property"></a>CODECAPI \_ AVEncVideoUseLTRFrame 屬性
 
@@ -77,8 +77,8 @@ ms.locfileid: "103689355"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

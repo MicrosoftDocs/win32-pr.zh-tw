@@ -1,17 +1,17 @@
 ---
-title: 其他 RPC 效能秘訣
+title: 其他 RPC 效能提示
 description: 本節討論開發高效能 RPC 伺服器的其他效能秘訣。 本節提供許多參考 RPC 用戶端的秘訣。 正確開發 RPC 用戶端可讓 RPC 伺服器執行較少的工作。
 ms.assetid: 82278f4b-1273-45e8-9078-ad919a4711f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82b0b43f996cc0a165076f1d7aab1b69e6fb9b73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c0946b83aae296f7b908babca9135c35a0afe8dbe7588a8292ad66bc19dc6488
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928067"
 ---
-# <a name="miscellaneous-rpc-performance-tips"></a>其他 RPC 效能秘訣
+# <a name="miscellaneous-rpc-performance-tips"></a>其他 RPC 效能提示
 
 本節討論開發高效能 RPC 伺服器的其他效能秘訣。 本節提供許多參考 RPC 用戶端的秘訣。 正確開發 RPC 用戶端可讓 RPC 伺服器執行較少的工作。
 
@@ -25,7 +25,7 @@ ms.locfileid: "104021081"
 
 ## <a name="use-the-rpcgetauthorizationcontextforclient-function"></a>使用 RpcGetAuthorizationCoNtextForClient 函式
 
-如果您需要在 Windows XP 中檢查存取權，請使用 [**RpcGetAuthorizationCoNtextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient) 函數。 產生的 Authz 內容可提供非常快速的存取檢查，可透過 RPC 執行時間有效率地快取。
+如果您需要在 Windows XP 中檢查存取權，請使用 [**RpcGetAuthorizationCoNtextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient)函數。 產生的 Authz 內容可提供非常快速的存取檢查，可透過 RPC 執行時間有效率地快取。
 
 ## <a name="do-not-modify-the-token-unless-necessary"></a>除非必要，否則請勿修改權杖
 
@@ -35,9 +35,9 @@ ms.locfileid: "104021081"
 
 內容控制碼的預設序列化模式會序列化 (獨佔) 。 請考慮進行所有不修改共用序列化模式中內容控制碼狀態的呼叫。 如需詳細資訊，請參閱 [**RpcSsCoNtextLockExclusive**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcsscontextlockexclusive) 。
 
- 
+ 
 
- 
+ 
 
 
 

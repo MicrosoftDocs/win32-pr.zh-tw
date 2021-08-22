@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2a9fd80e777a9d166b896c2ce51d03bd91bbabfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fd1485cdd4e96155db6540a5f07344add5f413514a92c420fcac78a008e7aca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950077"
 ---
 # <a name="calculatevideomemoryrequirements-method-of-the-msvm_synth3dvideopool-class"></a>Msvm Synth3dVideoPool 類別的 CalculateVideoMemoryRequirements 方法 \_
 
@@ -68,7 +68,7 @@ uint32 CalculateVideoMemoryRequirements(
 
 
 
-| 解決方案             | 監視器上限 |
+| 解決方法             | 監視器上限 |
 |------------------------|------------------|
 | 1024 768<br/>  | 4<br/>     |
 | 1280 1024<br/> | 4<br/>     |
@@ -94,7 +94,7 @@ uint32 CalculateVideoMemoryRequirements(
 
 
 
-| 傳回碼/值                                                                                                                                                                | Description                                           |
+| 傳回碼/值                                                                                                                                                                | 描述                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | <dl> <dt>**已完成，沒有錯誤**</dt> <dt>0</dt> </dl>                    | 成功。<br/>                                |
 | <dl> <dt>**已檢查方法參數-作業已啟動**</dt> <dt>4096</dt> </dl> | 作業已啟動。<br/>                               |
@@ -116,7 +116,7 @@ uint32 CalculateVideoMemoryRequirements(
 
 ## <a name="remarks"></a>備註
 
-通常會在主機系統上呼叫這個方法，以判斷主機是否有足夠的可用視訊記憶體來裝載 RemoteFX 虛擬機器。 若要這樣做，請將這個方法所計算的視訊記憶體數量與 [**Msvm \_ PhysicalGPUInfo. AvailableVideoMemory**](msvm-physicalgpuinfo.md) 屬性進行比較，以判斷主機電腦是否有足夠的可用視訊記憶體。 您可以使用此資訊來判斷是否可以將虛擬機器移至主機系統。
+通常會在主機系統上呼叫這個方法，以判斷主機是否有足夠的可用視訊記憶體來裝載 RemoteFX 的虛擬機器。 若要這樣做，請將這個方法所計算的視訊記憶體數量與 [**Msvm \_ PhysicalGPUInfo. AvailableVideoMemory**](msvm-physicalgpuinfo.md) 屬性進行比較，以判斷主機電腦是否有足夠的可用視訊記憶體。 您可以使用此資訊來判斷是否可以將虛擬機器移至主機系統。
 
 ## <a name="requirements"></a>規格需求
 
@@ -124,8 +124,8 @@ uint32 CalculateVideoMemoryRequirements(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

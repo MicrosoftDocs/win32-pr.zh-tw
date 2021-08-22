@@ -4,12 +4,12 @@ ms.assetid: 12930d4d-2ea5-4d95-b9cf-4f0dd351ce05
 title: 範例 C 程式：編碼和解碼副署訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5f0c87e861c9c9c85ce22624642318b841a13f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47cc8ff4528029e868ea5472720f00ccd9e2373ea121eed07f6d726d17ec8d9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007726"
 ---
 # <a name="example-c-program-encoding-and-decoding-a-countersigned-message"></a>範例 C 程式：編碼和解碼副署訊息
 

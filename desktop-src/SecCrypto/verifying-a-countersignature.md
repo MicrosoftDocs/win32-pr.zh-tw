@@ -4,12 +4,12 @@ ms.assetid: b7be0d4c-338f-4319-bd82-5cf3d158d6fe
 title: 驗證副署
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 711e15388144fbf674cbb0c42ff41883edbb5af0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23163c7b1d4345908b24fed36b6fa23bdf2cf7c46dd3faa1beaa99c76d6f0ed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896242"
 ---
 # <a name="verifying-a-countersignature"></a>驗證副署
 

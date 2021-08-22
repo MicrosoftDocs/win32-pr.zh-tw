@@ -4,18 +4,18 @@ ms.assetid: 586f6c43-7449-4d06-9201-9b4b4919871e
 title: 將摘要資訊加入自訂轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64957fcf8f29ab8793517015c7018292ba9a6e69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4ea4c9aa505d425bfd06fe5cac1f45666e794624618db14100ee5f517dd3048
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639468"
 ---
 # <a name="adding-summary-information-to-customization-transform"></a>將摘要資訊加入自訂轉換
 
 若要在產品安裝期間套用自訂轉換，您必須將 [摘要資訊資料流程](summary-information-stream.md) 新增至產生 [自訂轉換](generating-a-customization-transform.md)時產生的轉換檔 MNPtrans。
 
-您可以使用 [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa) 或 [**CreateTransformSummaryInfo 方法**](database-createtransformsummaryinfo.md)來產生轉換的摘要資訊。 下列程式碼片段（Sum.vbs）說明 [**CreateTransformSummaryInfo 方法**](database-createtransformsummaryinfo.md) ，並可用於 Windows Script Host。 請注意，此範例不會執行任何驗證，也不會隱藏任何錯誤狀況。
+您可以使用 [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa) 或 [**CreateTransformSummaryInfo 方法**](database-createtransformsummaryinfo.md)來產生轉換的摘要資訊。 下列程式碼片段 Sum.vbs 將說明 [**CreateTransformSummaryInfo 方法**](database-createtransformsummaryinfo.md)，並搭配 Windows 腳本主機使用。 請注意，此範例不會執行任何驗證，也不會隱藏任何錯誤狀況。
 
 
 ```VB

@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acd67f49c5fa689fb4418789aae7c4d6c9a305a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba06dcd8809e53c5cfdf552a2c2c80b4d51faa5b80594b72ea1b50e2e7a2c0a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118910730"
 ---
 # <a name="winbio_database_type-constants"></a>WINBIO \_ 資料庫 \_ 類型常數
 
@@ -32,7 +32,7 @@ ms.locfileid: "103685914"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                     | Description                                                                                                                  |
+| 常數/值                                                                                                                                                                                                                                                                     | 描述                                                                                                                  |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|
 | <span id="WINBIO_DATABASE_TYPE_MASK"></span><span id="winbio_database_type_mask"></span><dl> <dt>**WINBIO \_資料庫 \_ 類型 \_ 遮罩**</dt> <dt>0x0000FFFF</dt> </dl>                | 表示所有 \_ 類型位的遮罩 \_ 。<br/>                                                                   |
 | <span id="WINBIO_DATABASE_TYPE_FILE"></span><span id="winbio_database_type_file"></span><dl> <dt>**WINBIO \_資料庫 \_ 類型 \_**</dt>檔 <dt>0x00000001</dt> </dl>                | 資料庫包含在檔案中。<br/>                                                                              |
@@ -51,8 +51,8 @@ ms.locfileid: "103685914"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

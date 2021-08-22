@@ -1,5 +1,5 @@
 ---
-description: '>enablewins &\# 32;WMI 類別靜態方法可讓 Windows 網際網路命名服務 (TCP/IP 的 WINS) 設定，但與網路介面卡無關。'
+description: '>enablewins &\# 32;WMI 類別靜態方法會啟用 Windows 的網際網路命名服務 (tcp/ip 的 WINS) 設定，但與網路介面卡無關。'
 ms.assetid: ce0fb170-978f-4d70-bced-e530e43da719
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapterConfiguration 類別的 >enablewins 方法
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 77f5ba32606ff228908e8b7a1559a73ae5139e9c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1ce820e515bb72cbd2521521726f2b6962c49ee1b453781b5d17993c45e0d22d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676501"
 ---
 # <a name="enablewins-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 >enablewins 方法 \_
 
-**>enablewins** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)靜態方法可讓 WINDOWS Internet 命名服務 (tcp/ip 的 WINS) 設定，但與網路介面卡無關。
+**>enablewins** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)靜態方法會啟用 Windows 的網際網路命名服務 (tcp/ip 的 WINS) 設定，但與網路介面卡無關。
 
 本主題使用受控物件格式 (MOF) 語法。 如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。
 

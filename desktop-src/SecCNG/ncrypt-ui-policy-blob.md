@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ncrypt_provider.h
-ms.openlocfilehash: c45b53e051f021ab3dcce6dab4e2317572338624
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21f9f6c0f6956ffa89da45c9dcd23727c0b3cea2d4f31131713f9ed5a0c3a2fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907598"
 ---
 # <a name="ncrypt_ui_policy_blob-structure"></a>NCRYPT \_ UI \_ 原則 \_ BLOB 結構
 
@@ -91,7 +91,7 @@ typedef struct __NCRYPT_UI_POLICY_BLOB {
 
 ## <a name="remarks"></a>備註
 
-此結構包含在 Ncrypt \_ 提供者 .h 標頭中。 若要使用此結構，您必須從 Microsoft Connect 下載 [密碼編譯提供者開發工具組](/collaborate/connect-redirect?InvitationID=CSDK-GYTG-R2PX&ProgramID=7264) 。
+此結構包含在 Ncrypt \_ 提供者 .h 標頭中。 若要使用此結構，您必須從 Microsoft 連線下載[密碼編譯提供者開發工具組](/collaborate/connect-redirect?InvitationID=CSDK-GYTG-R2PX&ProgramID=7264)。
 
 ## <a name="requirements"></a>規格需求
 
@@ -99,8 +99,8 @@ typedef struct __NCRYPT_UI_POLICY_BLOB {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                          |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                          |
 | 標頭<br/>                   | <dl> <dt>Ncrypt \_ provider。h</dt> </dl> |
 
 

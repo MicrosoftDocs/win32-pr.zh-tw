@@ -4,12 +4,12 @@ ms.assetid: f08f751d-877b-4b17-8015-7108d5fd8195
 title: MoveFiles 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f06db0cef12753652bf94bf05875b2c2f9d4067c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b8581cd19569109c0f7697b5dfebf33e91b33da9ba84d15caf424242e4e21ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945033"
 ---
 # <a name="movefiles-action"></a>MoveFiles 動作
 
@@ -41,7 +41,7 @@ MoveFile 資料表的 SourceFolder 和 DestFolder 資料行是屬性名稱，其
 
 MoveFiles 動作不會作用於 MoveFile 資料表中的專案，其中 SourceFolder 或 DestFolder 屬性不會評估為完整路徑。
 
-MoveFiles 動作會嘗試移動或複製來原始目錄中的所有檔案，而這些檔案符合 MoveFiles 資料表的 [失敗的資料行] 中所指定的名稱。 [未通過] 資料行中的名稱可以包含 \* 或？ 允許移動或複製檔群組的萬用字元。 例如，[未使用的資料行] 可能包含 " \* .xls" 的專案，而 MoveFiles 動作則會將每個 Microsoft Excel 活頁簿從來原始目錄移動或複製到目的地。
+MoveFiles 動作會嘗試移動或複製來原始目錄中的所有檔案，而這些檔案符合 MoveFiles 資料表的 [失敗的資料行] 中所指定的名稱。 [未通過] 資料行中的名稱可以包含 \* 或？ 允許移動或複製檔群組的萬用字元。 例如，[未使用的資料行] 可能包含 " \*.xls" 的專案，而 MoveFiles 動作則會將每個 Microsoft Excel 活頁簿從來原始目錄移動或複製到目的地。
 
 您可以在 MoveFile 資料表的 DestName 資料行中，指定要提供給目的地檔案的名稱。 如果此資料行保留空白，目的地檔案名會保留原始程式檔名稱。
 

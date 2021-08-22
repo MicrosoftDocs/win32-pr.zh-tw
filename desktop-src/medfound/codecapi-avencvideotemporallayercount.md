@@ -4,12 +4,12 @@ ms.assetid: 36E1C86B-86D0-40CB-8F96-061FC653E9C3
 title: 'CODECAPI_AVEncVideoTemporalLayerCount 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85402b57c0eaf5c5fe61290eabdfd3e34a64ca4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a81ceaf82d9d202e97927e0e141aa03a4e8e27c49a28880509aa9bb3c24f9319
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743838"
 ---
 # <a name="codecapi_avencvideotemporallayercount-property"></a>CODECAPI \_ AVEncVideoTemporalLayerCount 屬性
 
@@ -35,8 +35,8 @@ CODECAPI \_ AVEncVideoTemporalLayerCount、 [CODECAPI \_ AVEncVideoUsage](codeca
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

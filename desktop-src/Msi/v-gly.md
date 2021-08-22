@@ -4,12 +4,12 @@ ms.assetid: d53147c3-5618-496f-b8b9-de20e1d33c01
 title: 'V (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22931a448c6dc1933e579af9d4f72d67ece354ca
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 087840f1791290da4cf82f1583370395a53ccd58f53beeb814ef819b9efa577d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942248"
 ---
 # <a name="v-windows-installer"></a>V (Windows Installer) 
 
@@ -20,7 +20,7 @@ ms.locfileid: "112010681"
 <span id="_msi_volume_gly"></span><span id="_MSI_VOLUME_GLY"></span>**體積**
 </dt> <dd>
 
-格式化為包含檔案和目錄的儲存媒體，例如磁片或磁帶。
+格式化為包含檔案和目錄的儲存體媒體，例如磁片或磁帶。
 
 </dd> </dl>
 

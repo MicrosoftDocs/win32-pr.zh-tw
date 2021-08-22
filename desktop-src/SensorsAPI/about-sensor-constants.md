@@ -4,12 +4,12 @@ ms.assetid: ba85ccd8-5251-4e47-84da-80899fe84c39
 title: 關於感應器常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea862d38af74058d11d3a6fa1eb11a702b3b277
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45cab8b5def4cdfa185a55dd993896fb5157563424b7753497413e5d7706465e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890253"
 ---
 # <a name="about-sensor-constants"></a>關於感應器常數
 

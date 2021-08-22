@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: ba0c2cf4744c12143090488d730a1d49bab9b431
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2046e64340167a98d838fd5a64324a410b0d0418a740550f9336117e2f1d8d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892426"
 ---
 # <a name="getexternalkeyfromfile-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 GetExternalKeyFromFile 方法 \_
 
@@ -86,8 +86,8 @@ uint32 GetExternalKeyFromFile(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise，僅 Windows vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

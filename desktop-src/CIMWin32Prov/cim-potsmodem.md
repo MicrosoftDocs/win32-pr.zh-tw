@@ -50,12 +50,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d7fbaeedd1de4006dfdccbcec313a7428d7b7f03
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 36d59280b37ae56c12330d37132bb9c35c4712810dce71e7deafe84d2e080acd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118677540"
 ---
 # <a name="cim_potsmodem-class"></a>CIM \_ POTSModem 類別
 

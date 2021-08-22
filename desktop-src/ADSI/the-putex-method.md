@@ -5,16 +5,16 @@ ms.assetid: fb9a0610-e955-424b-a2b9-da4986d0ba5f
 ms.tgt_platform: multiple
 keywords:
 - PutEx ADSI，關於
-- ADSI ADSI，範例程式碼 Visual Basic，使用 PutEx 方法
+- adsi adsi，範例程式碼 Visual Basic，使用 PutEx 方法
 - 屬性 ADSI，將單一或多重值屬性儲存至屬性快取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ea698c2dd14f3ddf8f3ad97459fad598006db22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 646c07fad5d22110d345b71a763add5483d7f0be5f6ae2c36557eb7f1563561c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023166"
 ---
 # <a name="the-putex-method"></a>PutEx 方法
 
@@ -41,9 +41,9 @@ x.SetInfo              'Now the property has no value.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

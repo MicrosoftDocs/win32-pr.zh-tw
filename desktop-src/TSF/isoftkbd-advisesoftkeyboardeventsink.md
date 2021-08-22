@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab17de2104c6104b044f027152cfc45cca968b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73a3a734e66bb319bb7e24b6ca3b27299f984f33b98772c1cc446c40e3f27426
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118877985"
 ---
 # <a name="isoftkbdadvisesoftkeyboardeventsink-method"></a>ISoftKbd：： AdviseSoftKeyboardEventSink 方法
 
@@ -98,7 +98,7 @@ HRESULT AdviseSoftKeyboardEventSink(
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                   |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Softkbdc。h</dt> </dl>  |
-| Idl<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
 
 

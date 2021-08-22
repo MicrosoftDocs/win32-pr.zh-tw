@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 61dc2798973a82cfc75c803f2bf8307c8a43b3c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e48fc7506b6b8ba8218d23bdeba75e960f2e3beca68c3d0a95b2aa4ea3c05e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890863"
 ---
 # <a name="win32_tpmgetphysicalpresenceconfirmationstatus-method"></a>Win32 \_ Tpm：： GetPhysicalPresenceConfirmationStatus 方法
 
@@ -130,8 +130,8 @@ uint32 GetPhysicalPresenceConfirmationStatus(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                      |
 | 命名空間<br/>                | \\\\.\\根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                     |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

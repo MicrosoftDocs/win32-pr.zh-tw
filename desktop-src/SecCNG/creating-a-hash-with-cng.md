@@ -4,12 +4,12 @@ ms.assetid: f36b7e36-4377-4940-8951-6caba6e3ce8a
 title: 使用 CNG 建立雜湊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 735f95182b63facee687f408ea4a07e09399e562
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f57d56c4be7dc2f947dbb1869e63fb1789f57e9b4fe6b3a7a06e3cce15580ab8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907817"
 ---
 # <a name="creating-a-hash-with-cng"></a>使用 CNG 建立雜湊
 
@@ -226,7 +226,7 @@ Cleanup:
 
 ## <a name="creating-a-reusable-hashing-object"></a>建立可重複使用的雜湊物件
 
-從 Windows 8 和 Windows Server 2012 開始，您可以在需要您快速計算多個雜湊或 Hmac 的案例中，建立可重複使用的雜湊物件。 若要這麼做，請在呼叫 [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider)函式時指定 **BCRYPT \_ HASH \_ 可重複使用的 \_ 旗** 標。 所有 Microsoft 雜湊演算法提供者都支援此旗標。 使用這個旗標建立的雜湊物件，可以在呼叫 [**BCryptFinishHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptfinishhash) 之後立即重複使用，就像是藉由呼叫 [**BCryptCreateHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptcreatehash)來最近建立的一樣。 請執行下列步驟來建立可重複使用的雜湊物件：
+從 Windows 8 和 Windows Server 2012 開始，您可以在需要您快速計算多個雜湊或 hmac 的案例中，建立可重複使用的雜湊物件。 若要這麼做，請在呼叫 [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider)函式時指定 **BCRYPT \_ HASH \_ 可重複使用的 \_ 旗** 標。 所有 Microsoft 雜湊演算法提供者都支援此旗標。 使用這個旗標建立的雜湊物件，可以在呼叫 [**BCryptFinishHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptfinishhash) 之後立即重複使用，就像是藉由呼叫 [**BCryptCreateHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptcreatehash)來最近建立的一樣。 請執行下列步驟來建立可重複使用的雜湊物件：
 
 1.  開啟支援所需雜湊演算法的演算法提供者。 呼叫 [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider)函式，並在 *pszAlgId* 參數中指定適當的演算法識別碼，並在 *dwFlags* 參數中 **BCRYPT \_ 雜湊 \_ 可重複使用的 \_ 旗** 標。 函數會傳回提供者的控制碼。
 2.  請執行下列步驟來建立雜湊物件：

@@ -4,12 +4,12 @@ ms.assetid: da55d6fe-a620-4ea7-9055-91bcd3233267
 title: 開發 IME-Aware 多執行緒應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e5730fc72ef41a84e01655116f94fc274f60548
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faf495922d347119db3b8b517af13c850f2f19dfc558609f93f24953f0a3386a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949593"
 ---
 # <a name="developing-ime-aware-multiple-thread-applications"></a>開發 IME-Aware 多執行緒應用程式
 

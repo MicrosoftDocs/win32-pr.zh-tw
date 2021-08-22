@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fe032d0614b1067c9351b643d457a718b4917a8b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fbffdf47e019494570506dac164735a2471d0617daa190ad74fb3c8910a7dede
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118659631"
 ---
 # <a name="cbasefilter-class"></a>CBaseFilter 類別
 
@@ -39,7 +39,7 @@ ms.locfileid: "106993523"
 
 
 
-| 受保護的成員變數                                     | Description                                                                                        |
+| 受保護的成員變數                                     | 描述                                                                                        |
 |----------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | [**m \_ 狀態**](cbasefilter-m-state.md)                        | 篩選準則的目前狀態。                                                                       |
 | [**m \_ pClock**](cbasefilter-m-pclock.md)                      | 篩選參考時鐘的指標。                                                           |
@@ -50,7 +50,7 @@ ms.locfileid: "106993523"
 | [**m \_ pGraph**](cbasefilter-m-pgraph.md)                      | 篩選圖形管理員的指標。                                                               |
 | [**m \_ pSink**](cbasefilter-m-psink.md)                        | 篩選圖形管理員上 [**IMediaEventSink**](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink) 介面的指標。   |
 | [**m \_ PinVersion**](cbasefilter-m-pinversion.md)              | 此篩選器上的釘選集的目前版本。                                                 |
-| 公用方法                                                 | Description                                                                                        |
+| 公用方法                                                 | 描述                                                                                        |
 | [**CBaseFilter**](cbasefilter-cbasefilter.md)                 | 函式方法。                                                                                |
 | [**~ CBaseFilter**](cbasefilter--cbasefilter.md)              | 函式方法。                                                                                 |
 | [**StreamTime**](cbasefilter-streamtime.md)                   | 抓取目前的資料流程時間。 虛擬。                                                        |
@@ -62,25 +62,25 @@ ms.locfileid: "106993523"
 | [**GetPinVersion**](cbasefilter-getpinversion.md)             | 抓取此篩選器集合的版本號碼。 虛擬。                            |
 | [**IncrementPinVersion**](cbasefilter-incrementpinversion.md) | 在一組 pin 上遞增版本號碼。                                                  |
 | [**GetSetupData**](cbasefilter-getsetupdata.md)               | 捕獲篩選的註冊資料。 虛擬。                                           |
-| 純虛擬方法                                           | Description                                                                                        |
+| 純虛擬方法                                           | 描述                                                                                        |
 | [**GetPinCount**](cbasefilter-getpincount.md)                 | 抓取釘選數目。                                                                      |
 | [**GetPin**](cbasefilter-getpin.md)                           | 捕獲 pin。                                                                                   |
-| IPersist 方法                                               | Description                                                                                        |
+| IPersist 方法                                               | 描述                                                                                        |
 | [**GetClassID**](cbasefilter-getclassid.md)                   | 捕獲類別識別碼。                                                                    |
-| IMediaFilter 方法                                           | Description                                                                                        |
+| IMediaFilter 方法                                           | 描述                                                                                        |
 | [**GetState**](cbasefilter-getstate.md)                       | 抓取篩選器的狀態 (執行中、已停止或已暫停) 。                                        |
 | [**SetSyncSource**](cbasefilter-setsyncsource.md)             | 設定篩選的參考時鐘。                                                             |
 | [**GetSyncSource**](cbasefilter-getsyncsource.md)             | 抓取篩選所使用的參考時鐘。                                            |
 | [**停止**](cbasefilter-stop.md)                               | 停止篩選。                                                                                  |
 | [**暫停**](cbasefilter-pause.md)                             | 暫停篩選。                                                                                 |
 | [**執行**](cbasefilter-run.md)                                 | 執行篩選。                                                                                   |
-| IBaseFilter 方法                                            | Description                                                                                        |
+| IBaseFilter 方法                                            | 描述                                                                                        |
 | [**EnumPins**](cbasefilter-enumpins.md)                       | 列舉此篩選器上的釘選。                                                                |
 | [**FindPin**](cbasefilter-findpin.md)                         | 使用指定的識別碼抓取 pin。                                                   |
 | [**QueryFilterInfo**](cbasefilter-queryfilterinfo.md)         | 捕獲篩選的相關資訊。                                                            |
 | [**JoinFilterGraph**](cbasefilter-joinfiltergraph.md)         | 通知篩選其已加入或離開篩選圖形。                                     |
 | [**QueryVendorInfo**](cbasefilter-queryvendorinfo.md)         | 抓取包含廠商資訊的字串。                                                  |
-| IAMovieSetup 方法                                           | Description                                                                                        |
+| IAMovieSetup 方法                                           | 描述                                                                                        |
 | [**註冊**](cbasefilter-register.md)                       | 將篩選新增至登錄。                                                                   |
 | [**登出**](cbasefilter-unregister.md)                   | 從登錄中移除篩選。                                                              |
 

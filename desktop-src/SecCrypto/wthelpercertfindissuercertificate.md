@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wintrust.dll
-ms.openlocfilehash: 99135ac22509b288726732ca4a16248b304f294b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c6c7957e969d04eaf65014e023a5f64e0826b6285fb878d9afefbd7cda25721
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895830"
 ---
 # <a name="wthelpercertfindissuercertificate-function"></a>WTHelperCertFindIssuerCertificate 函式
 
@@ -135,8 +135,8 @@ PCCERT_CONTEXT WINAPI WTHelperCertFindIssuerCertificate(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Wintrust.dll</dt> </dl> |
 
 

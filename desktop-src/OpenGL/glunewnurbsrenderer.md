@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b6e35df5abd9fb9e7757dd79066fbbe7efe8680
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 089c1a88ac0fe9ac246efd435ae941ba5e66e2412595e4f5f96dc73e85e90478
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937793"
 ---
 # <a name="glunewnurbsrenderer-function"></a>gluNewNurbsRenderer 函式
 

@@ -4,12 +4,12 @@ ms.assetid: 83defdc5-79f5-4727-a9b2-fc7422767873
 title: 適用于 SENS 的行動計算設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e04f1844e84efb1b6247e5b9f7026c71d01e68fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56b51dfaf05f8babd85a921517289faa77916ccba5323703b87faa445af4adc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890684"
 ---
 # <a name="mobile-computing-configurations-for-sens"></a>適用于 SENS 的行動計算設定
 

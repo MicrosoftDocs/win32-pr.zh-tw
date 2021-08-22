@@ -4,12 +4,12 @@ ms.assetid: 7b2fd75e-dd0d-4a63-a84b-a64f08f883f2
 title: 摘要存取通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86aa8f05580c27c866c0568dbc67c4d5ba5c2016
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45fea65fc25df87ef434e7bfea5cb81690cdc06f82b72882438fe4475a1895b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916429"
 ---
 # <a name="the-digest-access-protocol"></a>摘要存取通訊協定
 

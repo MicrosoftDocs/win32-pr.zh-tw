@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef7089a21f143b6f3b27fe9fe58563e6777bf2f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7d33b7a5255e5dc59624e7aa540246ed08e56003b1e9917b86dfe90137db5b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118851475"
 ---
 # <a name="setenabled-method-of-the-win32_sessiondirectoryvmmplugin-class"></a>Win32 SessionDirectoryVMMPlugin 類別的 SetEnabled 方法 \_
 

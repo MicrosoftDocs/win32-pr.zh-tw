@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - mfplat.dll
-ms.openlocfilehash: e43c2d7df299792d8b5be99226e9cfdbd11976a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9da3dd84d54bb514b7dda519db3de376b2ebb2bd2088d8fc8e18b4f2b848231
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739246"
 ---
 # <a name="mfcreateurlfrompath-function"></a>MFCreateURLFromPath 函式
 
@@ -62,7 +62,7 @@ HRESULT MFCreateURLFromPath(
 
 
 
-| 傳回碼                                                                             | Description                                                                                                                                                               |
+| 傳回碼                                                                             | 描述                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | *PwszFilePath* 參數中提供的字串已經是 URL 格式。 在此情況下， *pszFilePath* 只會複製到 *ppszFileURL* 而不需要修改。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 此函數已成功。 <br/>                                                                                                                                       |
@@ -81,8 +81,8 @@ HRESULT MFCreateURLFromPath(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Mfplat.dll</dt> </dl> |
 
 

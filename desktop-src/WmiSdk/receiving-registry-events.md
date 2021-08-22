@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 接收登錄事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f0da8c039f83e3d4eb1f51d6b6707d0edd6b3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d6f3c8f39be30beeb64e7c8d8ff7f1bacfba8a47b7f4bd0c70e7cf638bf726e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817454"
 ---
 # <a name="receiving-registry-events"></a>接收登錄事件
 

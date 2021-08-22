@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 18cd9ad6f8e0491700d5618e29a0a629e8045366
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1e5ce18e81e4d775fdc801517867491740a7dd5035fc730226cb084e5af7d41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732696"
 ---
 # <a name="enumforms-function"></a>EnumForms 函式
 
@@ -103,7 +103,7 @@ BOOL EnumForms(
 
 如果呼叫端是遠端的，而且 *層級* 是2，則傳回 [**表單 \_ INFO \_ 2**](form-info-2.md)結構的 **StringType** 值一律會是 **字串 \_ LANGPAIR**。
 
-在 Windows Vista 中， **EnumForms** 所傳回的表單資料，會在 *hPrinter* 指的是由列印伺服器所裝載的遠端列印伺服器或印表機時，從本機快取中取出，而且至少有一個開啟的連接可連至遠端列印伺服器上的印表機。 在所有其他設定中，會從遠端列印伺服器查詢表單資料。
+在 Windows Vista 中，當 *hPrinter* 參考到列印伺服器的遠端列印伺服器或印表機，而且遠端列印伺服器上的印表機至少有一個開啟的連接時， **EnumForms** 傳回的表單資料會從本機快取中取出。 在所有其他設定中，會從遠端列印伺服器查詢表單資料。
 
 ## <a name="requirements"></a>規格需求
 
@@ -113,7 +113,7 @@ BOOL EnumForms(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **EnumFormsW** (Unicode) 和 **EnumFormsA** (ANSI) <br/>                                             |

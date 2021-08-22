@@ -4,12 +4,12 @@ ms.assetid: 0d462340-e485-4746-b627-d823752462d9
 title: 撰寫和安裝安全性支援提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e19f827ddf2b0352acc889df3ed1d5b3dfff52c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11ac7125c386314ec7772a5e6079f423af0aaf5c9f7dd820a24c042d99834d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914747"
 ---
 # <a name="writing-and-installing-a-security-support-provider"></a>撰寫和安裝安全性支援提供者
 

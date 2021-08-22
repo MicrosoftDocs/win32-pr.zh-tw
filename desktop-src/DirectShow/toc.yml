@@ -8,12 +8,12 @@
           href: whats-new-in-directshow.md
         - name: DirectShow 中支援的格式
           href: supported-formats-in-directshow.md
-        - name: DirectShow 常見問題
+        - name: DirectShow常見問題
           href: directshow-faq.yml
     - name: 開始使用
       href: getting-started.md
       items:
-        - name: 打造 DirectShow 應用程式
+        - name: 建立 DirectShow 應用程式
           href: setting-up-the-build-environment.md
         - name: DirectShow 應用程式程式設計簡介
           href: introduction-to-directshow-application-programming.md
@@ -22,34 +22,34 @@
     - name: 關於 DirectShow
       href: about-directshow.md
       items:
-        - name: DirectShow 系統總覽
+        - name: DirectShow系統總覽
           href: directshow-system-overview.md
-        - name: 篩選圖形及其元件
+        - name: 篩選 Graph 及其元件
           href: the-filter-graph-and-its-components.md
           items:
             - name: 關於 DirectShow 篩選
               href: about-directshow-filters.md
-            - name: 關於篩選圖形管理員
+            - name: 關於篩選 Graph 管理員
               href: about-the-filter-graph-manager.md
             - name: 關於媒體類型
               href: about-media-types.md
             - name: 關於媒體範例和配置器
               href: about-media-samples-and-allocators.md
-            - name: 硬體裝置參與篩選圖形的方式
+            - name: 硬體裝置如何參與篩選 Graph
               href: how-hardware-devices-participate-in-the-filter-graph.md
-        - name: 建立篩選圖形
+        - name: 建立篩選 Graph
           href: building-the-filter-graph.md
           items:
             - name: Graph-Building 元件
               href: graph-building-components.md
-            - name: 圖表建立的總覽
+            - name: Graph 大樓的總覽
               href: overview-of-graph-building.md
-            - name: 智慧型連接
+            - name: 智慧型連線
               href: intelligent-connect.md
-        - name: 篩選圖形中的資料流程
+        - name: 篩選 Graph 中的資料 Flow
           href: data-flow-in-the-filter-graph.md
           items:
-            - name: DirectShow 中的資料流程總覽
+            - name: DirectShow 中的資料 Flow 總覽
               href: overview-of-data-flow-in-directshow.md
             - name: 傳輸
               href: transports.md
@@ -66,7 +66,7 @@
               href: overview-of-notification.md
             - name: 正在抓取事件
               href: retrieving-events.md
-            - name: 學習何時發生事件
+            - name: Learning當事件發生時
               href: learning-when-an-event-occurs.md
         - name: DirectShow 中的時間和時鐘
           href: time-and-clocks-in-directshow.md
@@ -79,7 +79,7 @@
               href: time-stamps.md
             - name: 即時來源
               href: live-sources.md
-        - name: 動態圖表建立
+        - name: 動態 Graph 大樓
           href: dynamic-graph-building.md
           items:
             - name: 動態重新連接
@@ -91,20 +91,20 @@
     - name: 使用 DirectShow
       href: using-directshow.md
       items:
-        - name: 使用 GraphEdit 模擬圖表建立
+        - name: 使用 GraphEdit 模擬 Graph 建立
           href: simulating-graph-building-with-graphedit.md
           items:
             - name: 使用 GraphEdit
               href: using-graphedit.md
-            - name: 從外部進程載入圖形
+            - name: 從外部進程載入 Graph
               href: loading-a-graph-from-an-external-process.md
-            - name: 將篩選圖形儲存至 GraphEdit 檔案
+            - name: 將篩選 Graph 儲存至 GraphEdit 檔案
               href: saving-a-filter-graph-to-a-graphedit-file.md
             - name: 以程式設計方式載入 GraphEdit 檔案
               href: loading-a-graphedit-file-programmatically.md
             - name: GraphEdit 檔案格式
               href: graphedit-file-format.md
-        - name: 基本的 DirectShow 工作
+        - name: 基本 DirectShow 工作
           href: basic-directshow-tasks.md
           items:
             - name: 影片轉譯
@@ -127,7 +127,7 @@
                   href: using-the-system-device-enumerator.md
                 - name: 使用篩選器對應程式
                   href: using-the-filter-mapper.md
-            - name: 列舉篩選圖形中的物件
+            - name: 列舉篩選 Graph 中的物件
               href: enumerating-objects-in-a-filter-graph.md
               items:
                 - name: 列舉篩選
@@ -143,17 +143,17 @@
                   href: add-a-filter-by-clsid.md
                 - name: 在篩選器上尋找未連接的 Pin
                   href: find-an-unconnected-pin-on-a-filter.md
-                - name: 連接兩個篩選器
+                - name: 連線兩個篩選
                   href: connect-two-filters.md
                 - name: 尋找篩選或釘選上的介面
                   href: find-an-interface-on-a-filter-or-pin.md
                 - name: 尋找篩選準則的對等
                   href: find-a-filters-peer.md
-                - name: 移除圖形中的所有篩選
+                - name: 移除 Graph 中的所有篩選
                   href: remove-all-the-filters-in-the-graph.md
                 - name: 使用 Capture Graph Builder 建立圖形
                   href: building-graphs-with-the-capture-graph-builder.md
-            - name: 搜尋篩選圖形
+            - name: 搜尋篩選 Graph
               href: seeking-the-filter-graph.md
               items:
                 - name: 查詢搜尋功能
@@ -166,12 +166,12 @@
                   href: time-formats-for-seek-commands.md
                 - name: 執行搜尋列
                   href: implementing-a-seek-bar.md
-            - name: 設定圖形時鐘
+            - name: 設定 Graph 時鐘
               href: setting-the-graph-clock.md
-            - name: 在 DirectShow 中進行調試
+            - name: DirectShow 中的調試
               href: debugging-in-directshow.md
               items:
-                - name: 偵測 DirectShow 篩選
+                - name: DirectShow 篩選的調試
                   href: debugging-directshow-filters.md
                 - name: 疑難排解秘訣
                   href: troubleshooting-tips.md
@@ -179,24 +179,24 @@
                   href: event-tracing-in-directshow.md
             - name: 顯示篩選的屬性頁
               href: displaying-a-filters-property-pages.md
-        - name: 在 DirectShow 播放音訊/影片
+        - name: DirectShow 中的音訊/影片播放
           href: audio-video-playback-in-directshow.md
           items:
             - name: 步驟1：宣告 DShowPlayer 類別
               href: step-1--declare-the-dshowplayer-class.md
             - name: 步驟2：宣告 CVideoRenderer 和衍生類別
               href: step-2--declare-cvideorenderer-and-derived-classes.md
-            - name: 步驟3：建立篩選圖形
+            - name: 步驟3：建立篩選 Graph
               href: step-3--build-the-filter-graph.md
             - name: 步驟4：新增影片轉譯器
               href: step-4--add-the-video-renderer.md
             - name: 步驟5：新增影片功能
               href: step-5--add-video-functionality.md
-            - name: 步驟6：處理圖形事件
+            - name: 步驟6：處理 Graph 事件
               href: step-6--handle-graph-events.md
             - name: 步驟7：傳輸控制項
               href: step-7--transport-controls.md
-            - name: DirectShow 播放範例
+            - name: DirectShow播放範例
               href: directshow-playback-example.md
               items:
                 - name: 播放。h
@@ -216,9 +216,9 @@
               href: about-the-audio-capture-filter.md
             - name: 選取捕獲裝置
               href: selecting-a-capture-device.md
-            - name: 建立音訊捕獲圖形
+            - name: 建立音訊捕獲 Graph
               href: creating-an-audio-capture-graph.md
-            - name: 使用預覽建立音訊捕獲圖形
+            - name: 使用預覽建立音訊捕獲 Graph
               href: creating-an-audio-capture-graph-with-preview.md
             - name: 設定音訊捕獲屬性
               href: setting-audio-capture-properties.md
@@ -232,7 +232,7 @@
                   href: about-the-capture-graph-builder.md
                 - name: 關於影片捕獲裝置
                   href: about-video-capture-devices.md
-                - name: DirectShow 影片捕獲篩選
+                - name: DirectShow影片捕獲篩選
                   href: directshow-video-capture-filters.md
             - name: 選取捕獲裝置
               href: selecting-a-capture-device.md
@@ -243,7 +243,7 @@
               items:
                 - name: 將影片捕獲到 AVI 檔案
                   href: capturing-video-to-an-avi-file.md
-                - name: 將影片捕獲到 Windows Media 檔案
+                - name: 將影片捕獲到 Windows 媒體檔案
                   href: capturing-video-to-a-windows-media-file.md
                 - name: 自訂檔案格式
                   href: custom-file-formats.md
@@ -253,7 +253,7 @@
                   href: capturing-to-multiple-files.md
                 - name: 結合影片捕獲和預覽
                   href: combining-video-capture-and-preview.md
-            - name: 控制捕捉圖形
+            - name: 控制 Capture Graph
               href: controlling-a-capture-graph.md
             - name: 影片捕獲工作
               href: video-capture-tasks.md
@@ -276,7 +276,7 @@
             - name: DirectShow 中的數位視訊
               href: digital-video-in-directshow.md
               items:
-                - name: 關於 DirectShow 中的數位視訊
+                - name: 關於 DirectShow 的數位視訊
                   href: about-digital-video-in-directshow.md
                 - name: 類型1與類型 2 DV AVI 檔案
                   href: type-1-vs--type-2-dv-avi-files.md
@@ -358,7 +358,7 @@
                   href: working-with-pin-categories.md
                 - name: 使用智慧的 t a 濾波器
                   href: using-the-smart-tee-filter.md
-                - name: 使用影片捕獲中的重迭混音器
+                - name: 在影片捕獲中使用重迭 Mixer
                   href: using-the-overlay-mixer-in-video-capture.md
                 - name: 影片埠釘選
                   href: video-port-pins.md
@@ -377,7 +377,7 @@
               href: dvd-support-features-in-directshow.md
             - name: DVD 基本概念
               href: dvd-basics.md
-            - name: 建立 DVD 篩選圖形
+            - name: 建立 DVD 篩選器 Graph
               href: building-the-dvd-filter-graph.md
             - name: 取得 DVD 介面指標
               href: obtaining-the-dvd-interface-pointers.md
@@ -387,7 +387,7 @@
               href: identifying-valid-dvd-operations.md
             - name: 同步處理 DVD 命令
               href: synchronizing-dvd-commands.md
-            - name: DVD 導覽器中的資料流程
+            - name: DVD 導覽器中的資料 Flow
               href: data-flow-in-the-dvd-navigator.md
             - name: 處理 DVD 事件通知
               href: handling-dvd-event-notifications.md
@@ -407,7 +407,7 @@
               href: handling-disc-ejections.md
             - name: Windows Vista 中的 DVD 播放增強功能
               href: dvd-playback-enhancements-in-windows-vista.md
-            - name: DVD 篩選圖形設定
+            - name: DVD 篩選 Graph 設定
               href: dvd-filter-graph-configuration.md
             - name: C + + DVD 參考頁面的快捷方式
               href: shortcuts-to-c-dvd-reference-pages.md
@@ -433,7 +433,7 @@
               href: using-the-mpeg-2-splitter.md
             - name: MPEG 範例屬性
               href: mpeg-sample-properties.md
-        - name: 在 DirectShow 中使用 Windows Media
+        - name: 在 DirectShow 中使用 Windows 媒體
           href: using-windows-media-in-directshow.md
           items:
             - name: 在 DirectShow 中讀取 ASF 檔案
@@ -445,7 +445,7 @@
                   href: multichannel-wma-audio-playback-in-directshow.md
                 - name: 取得讀取器物件的指標
                   href: obtaining-a-pointer-to-the-reader-object.md
-                - name: 在 DirectShow 中播放 ASF Web 串流
+                - name: DirectShow 中的 ASF Web 串流播放
                   href: asf-web-stream-playback-in-directshow.md
                 - name: DirectShow 中的 ASF 腳本資料流程
                   href: asf-script-streams-in-directshow.md
@@ -456,7 +456,7 @@
             - name: 在 DirectShow 中建立 ASF 檔案
               href: creating-asf-files-in-directshow.md
               items:
-                - name: DirectShow SDK 和 Windows Media Format SDK
+                - name: DirectShow SDK 和 Windows 媒體格式 SDK
                   href: the-directshow-sdk-and-the-windows-media-format-sdk.md
                 - name: 設定 ASF 寫入器
                   href: configuring-the-asf-writer.md
@@ -464,7 +464,7 @@
                   href: building-filter-graphs-to-write-asf-files.md
                 - name: 設定設定檔和其他 ASF 檔案屬性
                   href: configuring-profiles-and-other-asf-file-properties.md
-                - name: 解除鎖定 Windows Media Format SDK
+                - name: 解除鎖定 Windows 媒體格式 SDK
                   href: unlocking-the-windows-media-format-sdk.md
         - name: 使用影片混合轉譯器
           href: using-the-video-mixing-renderer.md
@@ -474,7 +474,7 @@
               items:
                 - name: VMR 的功能
                   href: features-of-the-vmr.md
-                - name: VMR 與先前的 DirectShow 轉譯器比較
+                - name: VMR 與上一個 DirectShow 轉譯器的比較
                   href: vmr-vs--previous-directshow-renderers.md
                 - name: VMR 系統需求
                   href: vmr-system-requirements.md
@@ -500,7 +500,7 @@
                       href: synchronizing-the-vmr-to-the-monitors-refresh-rate.md
                 - name: DirectDraw 獨佔模式
                   href: directdraw-exclusive-mode.md
-            - name: 建立 VMR 9 篩選圖形
+            - name: 建立 VMR-9 篩選 Graph
               href: building-a-vmr-9-filter-graph.md
             - name: 使用 VMR 混合模式
               href: using-vmr-mixing-mode.md
@@ -519,7 +519,7 @@
                   href: displaying-an-application-supplied-bitmap-on-the-composited-image.md
             - name: 設定交錯喜好設定
               href: setting-deinterlace-preferences.md
-            - name: 使用 VMR 來進行 DirectShow 篩選器開發人員
+            - name: 針對 DirectShow 濾波器開發人員使用 VMR
               href: using-the-vmr-for-directshow-filter-developers.md
               items:
                 - name: 解碼器的需求
@@ -565,14 +565,14 @@
                   href: copp-query-reference.md
                 - name: COPP 命令參考
                   href: copp-command-reference.md
-        - name: 撰寫 DirectShow 篩選器
+        - name: 撰寫 DirectShow 篩選
           href: writing-directshow-filters.md
           items:
-            - name: DirectShow 篩選器開發簡介
+            - name: DirectShow 濾波器開發簡介
               href: introduction-to-directshow-filter-development.md
-            - name: 建立 DirectShow 篩選器
+            - name: 建立 DirectShow 篩選
               href: building-directshow-filters.md
-            - name: 篩選準則的連接方式
+            - name: 篩選準則的連線
               href: how-filters-connect.md
               items:
                 - name: Pin 連接
@@ -585,7 +585,7 @@
                   href: providing-a-custom-allocator.md
                 - name: 重新連接釘選
                   href: reconnecting-pins.md
-            - name: 篩選開發人員的資料流程
+            - name: 篩選準則開發人員的資料 Flow
               href: data-flow-for-filter-developers.md
               items:
                 - name: 傳遞範例
@@ -628,7 +628,7 @@
                   href: stopping.md
                 - name: 取得緩衝區
                   href: getting-buffers.md
-                - name: 串流執行緒和篩選圖形管理員
+                - name: 串流處理執行緒和篩選 Graph 管理員
                   href: streaming-threads-and-the-filter-graph-manager.md
                 - name: 篩選準則執行緒的摘要
                   href: summary-of-filter-threading.md
@@ -658,7 +658,7 @@
                       href: factory-template-array.md
                     - name: DLL 函數
                       href: dll-functions.md
-                - name: 如何註冊 DirectShow 篩選器
+                - name: 如何註冊 DirectShow 篩選準則
                   href: how-to-register-directshow-filters.md
                   items:
                     - name: 登錄機碼的版面配置
@@ -676,7 +676,7 @@
             - name: 寫入來源篩選
               href: writing-source-filters.md
               items:
-                - name: 如何撰寫 DirectShow 的來源篩選
+                - name: 如何為 DirectShow 撰寫來源篩選
                   href: how-to-write-a-source-filter-for-directshow.md
                 - name: 支援在來源篩選準則中搜尋
                   href: supporting-seeking-in-a-source-filter.md
@@ -786,11 +786,11 @@
               href: choosing-a-compression-filter.md
             - name: 設定影片壓縮屬性
               href: setting-video-compression-properties.md
-            - name: 建立 Recompression 圖形
+            - name: 建立 Recompression Graph
               href: building-the-recompression-graph.md
             - name: 寫入檔案
               href: writing-the-file.md
-    - name: DirectShow 範例
+    - name: DirectShow樣品
       href: directshow-samples.md
       items:
         - name: AmCap 範例
@@ -801,7 +801,7 @@
           href: ball-filter-sample.md
         - name: CutScene 範例
           href: cutscene-sample.md
-        - name: SQL-DMO 示範範例
+        - name: DMO示範範例
           href: dmo-demo-sample.md
         - name: DMOEnum 範例
           href: dmoenum-sample.md
@@ -861,10 +861,10 @@
           href: wavdest-filter-sample.md
         - name: 無視窗範例
           href: windowless-sample.md
-    - name: DirectShow 參考
+    - name: DirectShow參考
       href: directshow-reference.md
       items:
-        - name: DirectShow 篩選
+        - name: DirectShow過濾 器
           href: directshow-filters.md
           items:
             - name: 條件式包裝函式篩選
@@ -893,7 +893,7 @@
               href: color-space-converter-filter.md
             - name: DirectSound 轉譯器篩選
               href: directsound-renderer-filter.md
-            - name: SQL-DMO 包裝函式篩選
+            - name: DMO包裝函式篩選
               href: dmo-wrapper-filter.md
             - name: DV Muxer 濾波器
               href: dv-muxer-filter.md
@@ -963,7 +963,7 @@
               href: multi-file-parser-filter.md
             - name: 重疊 Mixer 篩選器
               href: overlay-mixer-filter.md
-            - name: 覆蓋混音器2篩選
+            - name: 覆迭 Mixer 2 篩選
               href: overlay-mixer-2-filter.md
             - name: QT 解壓縮程式篩選器
               href: qt-decompressor-filter.md
@@ -997,7 +997,7 @@
               href: wave-parser-filter.md
             - name: WDM 影片捕獲篩選
               href: wdm-video-capture-filter.md
-            - name: Windows Media 來源篩選
+            - name: Windows媒體來源篩選
               href: windows-media-source-filter.md
             - name: WM ASF 讀取器篩選器
               href: wm-asf-reader-filter.md
@@ -1012,7 +1012,7 @@
           items:
             - name: 建立篩選圖形的介面
               href: interfaces-for-building-filter-graphs.md
-            - name: 控制篩選圖形的介面
+            - name: 用來控制篩選 Graph 的介面
               href: interfaces-for-controlling-a-filter-graph.md
             - name: 音訊捕捉和呈現介面
               href: audio-capture-and-rendering-interfaces.md
@@ -1026,7 +1026,7 @@
               href: interfaces-for-video-rendering-and-overlay.md
             - name: 外部裝置控制介面
               href: external-device-control-interfaces.md
-            - name: DirectShow 介面的字母順序清單
+            - name: 依字母順序排列的 DirectShow 介面清單
               href: alphabetical-list-of-directshow-interfaces.md
             - name: IAMAnalogVideoDecoder
               href: /windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder
@@ -1606,7 +1606,7 @@
             - name: IAMStreamSelect
               href: /windows/desktop/api/strmif/nn-strmif-iamstreamselect
               items:
-                - name: Count
+                - name: 計數
                   href: /windows/desktop/api/strmif/nf-strmif-iamstreamselect-count
                 - name: 啟用
                   href: /windows/desktop/api/strmif/nf-strmif-iamstreamselect-enable
@@ -3992,7 +3992,7 @@
                   href: /previous-versions/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-buildfromxmlfile
                 - name: SaveToXML
                   href: /previous-versions/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-savetoxml
-        - name: DirectShow 結構
+        - name: DirectShow結構
           href: directshow-structures.md
           items:
             - name: ALLOCATOR_PROPERTIES
@@ -4221,7 +4221,7 @@
               href: /previous-versions/dd757713(v=vs.85)
             - name: WAVEFORMATEXTENSIBLE
               href: /windows/desktop/api/mmreg/ns-mmreg-waveformatextensible
-        - name: DirectShow 列舉類型
+        - name: DirectShow列舉類型
           href: directshow-enumerated-types.md
           items:
             - name: _AM_ASFWRITERCONFIG_PARAM
@@ -4725,7 +4725,7 @@
           items:
             - name: AMGetErrorText
               href: /windows/desktop/api/errors/nf-errors-amgeterrortexta
-        - name: DirectShow 資料類型
+        - name: DirectShow資料類型
           href: directshow-data-types.md
           items:
             - name: DVD_REGISTER
@@ -5567,14 +5567,14 @@
                   href: /windows/desktop/api/codecapi/ne-codecapi-eavencvideosourcescantype
                 - name: eAVFastDecodeMode
                   href: /windows/desktop/api/codecapi/ne-codecapi-eavfastdecodemode
-        - name: DirectShow 物件
+        - name: DirectShow物件
           href: directshow-objects.md
           items:
             - name: Capture Graph Builder
               href: capture-graph-builder.md
             - name: DVD Graph Builder
               href: dvd-graph-builder.md
-            - name: 篩選圖形管理員
+            - name: 篩選 Graph 管理員
               href: filter-graph-manager.md
             - name: 篩選器對應程式
               href: filter-mapper.md
@@ -5586,14 +5586,14 @@
               href: system-reference-clock.md
             - name: 系統裝置列舉值
               href: system-device-enumerator.md
-        - name: DirectShow 基類
+        - name: DirectShow基類
           href: directshow-base-classes.md
           items:
             - name: 使用 DirectShow 基類
               href: using-the-directshow-base-classes.md
             - name: 篩選基礎類別簡介
               href: introduction-to-the-filter-base-classes.md
-            - name: DirectShow 基類參考
+            - name: DirectShow基類參考
               href: base-class-reference.md
               items:
                 - name: CAggDirectDraw
@@ -6337,7 +6337,7 @@
                       href: cbasepin-isconnected.md
                     - name: IsStopped
                       href: cbasepin-isstopped.md
-                    - name: Name
+                    - name: 名稱
                       href: cbasepin-name.md
                     - name: NewSegment
                       href: cbasepin-newsegment.md
@@ -6392,7 +6392,7 @@
                       href: cbasepropertypage-deactivate.md
                     - name: GetPageInfo
                       href: cbasepropertypage-getpageinfo.md
-                    - name: Help
+                    - name: 說明
                       href: cbasepropertypage-help.md
                     - name: IsPageDirty
                       href: cbasepropertypage-ispagedirty.md
@@ -7527,7 +7527,7 @@
                       href: coutputqueue--coutputqueue.md
                     - name: EndFlush
                       href: coutputqueue-endflush.md
-                    - name: Eos
+                    - name: EOS
                       href: coutputqueue-eos.md
                     - name: FreeSamples
                       href: coutputqueue-freesamples.md
@@ -7779,7 +7779,7 @@
                   items:
                     - name: CRendererPosPassThru
                       href: crendererpospassthru-crendererpospassthru.md
-                    - name: Eos
+                    - name: EOS
                       href: crendererpospassthru-eos.md
                     - name: GetMediaTime
                       href: crendererpospassthru-getmediatime.md
@@ -8426,17 +8426,17 @@
           items:
             - name: DMOs 的優點
               href: benefits-of-dmos.md
-            - name: SQL-DMO 架構
+            - name: DMO建築
               href: dmo-architecture.md
         - name: 使用 DMOs
           href: using-dmos.md
           items:
-            - name: 直接裝載
+            - name: 直接裝載 DMO
               href: directly-hosting-a-dmo.md
               items:
-                - name: 設定中的媒體類型
+                - name: 在 DMO 上設定媒體類型
                   href: setting-media-types-on-a-dmo.md
-                - name: 處理 SQL-DMO 中的資料
+                - name: 處理 DMO 中的資料
                   href: processing-data-in-a-dmo.md
                 - name: In-Place 處理
                   href: in-place-processing.md
@@ -8446,16 +8446,16 @@
                   href: implementing-imediabuffer.md
             - name: 在 DirectShow 中使用 DMOs
               href: using-dmos-in-directshow.md
-        - name: 撰寫 SQL-DMO
+        - name: 撰寫 DMO
           href: writing-a-dmo.md
           items:
-            - name: SQL-DMO 最低需求
+            - name: DMO最低需求
               href: dmo-minimum-requirements.md
-            - name: SQL-DMO 媒體類型
+            - name: DMO媒體類型
               href: dmo-media-types.md
-            - name: 註冊 SQL-DMO
+            - name: 註冊 DMO
               href: registering-a-dmo.md
-            - name: 使用 SQL-DMO 類別範本
+            - name: 使用 DMO 類別範本
               href: using-the-dmo-class-template.md
             - name: 使用 DMOTest 應用程式
               href: using-the-dmotest-application.md
@@ -8470,10 +8470,10 @@
               href: envelope-segments.md
             - name: 計算參數值
               href: calculating-parameter-values.md
-        - name: SQL-DMO 參考
+        - name: DMO參考
           href: dmo-reference.md
           items:
-            - name: SQL-DMO 介面
+            - name: DMO介面
               href: dmo-interfaces.md
               items:
                 - name: IDMOQualityControl
@@ -8598,7 +8598,7 @@
                       href: /previous-versions/windows/desktop/api/medparam/nf-medparam-imediaparams-setparam
                     - name: SetTimeFormat
                       href: /previous-versions/windows/desktop/api/medparam/nf-medparam-imediaparams-settimeformat
-            - name: SQL-DMO 結構
+            - name: DMO結構
               href: dmo-structures.md
               items:
                 - name: DMO_MEDIA_TYPE
@@ -8611,7 +8611,7 @@
                   href: /previous-versions/windows/desktop/api/medparam/ns-medparam-mp_envelope_segment
                 - name: MP_PARAMINFO
                   href: /previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo
-            - name: SQL-DMO 列舉類型
+            - name: DMO列舉類型
               href: dmo-enumerated-types.md
               items:
                 - name: DMO_ENUM_FLAGS
@@ -8636,7 +8636,7 @@
                   href: /previous-versions/windows/desktop/api/medparam/ne-medparam-mp_curve_type
                 - name: MP_TYPE
                   href: /previous-versions/windows/desktop/api/medparam/ne-medparam-mp_type
-            - name: SQL-DMO 函數
+            - name: DMO功能
               href: dmo-functions.md
               items:
                 - name: DMOEnum
@@ -8661,14 +8661,14 @@
                   href: /previous-versions/windows/desktop/api/dmort/nf-dmort-mofreemediatype
                 - name: MoInitMediaType
                   href: /previous-versions/windows/desktop/api/dmort/nf-dmort-moinitmediatype
-            - name: SQL-DMO 常數
+            - name: DMO常數
               href: dmo-constants.md
               items:
-                - name: SQL-DMO 錯誤碼
+                - name: DMO錯誤碼
                   href: dmo-error-codes.md
-                - name: SQL-DMO Guid
+                - name: DMOGuid
                   href: dmo-guids.md
-                - name: SQL-DMO 時間格式 Guid
+                - name: DMO時間格式 Guid
                   href: dmo-time-format-guids.md
                 - name: 參數功能旗標
                   href: parameter-capabilities-flags.md
@@ -8697,7 +8697,7 @@
                   href: /previous-versions/ms807649(v=msdn.10)
                 - name: Unlock
                   href: /previous-versions/ms809101(v=msdn.10)
-    - name: DirectShow 編輯服務
+    - name: DirectShow編輯服務
       href: directshow-editing-services.md
       items:
         - name: DirectShow 編輯服務簡介
@@ -8705,7 +8705,7 @@
         - name: 使用 DirectShow 編輯服務開始使用
           href: getting-started-with-directshow-editing-services.md
           items:
-            - name: DirectShow 編輯服務架構
+            - name: DirectShow編輯服務架構
               href: directshow-editing-services-architecture.md
             - name: 時間軸模型
               href: the-timeline-model.md
@@ -8713,7 +8713,7 @@
               href: transitions.md
             - name: 撰寫和分層
               href: composition-and-layering.md
-            - name: DirectShow 編輯服務中的時間
+            - name: DirectShow 編輯服務的時間
               href: time-in-directshow-editing-services.md
         - name: 使用 DirectShow 編輯服務
           href: using-directshow-editing-services.md
@@ -8727,14 +8727,14 @@
                   href: timeline-objects.md
                 - name: 子
                   href: subobjects.md
-            - name: 載入和預覽專案
+            - name: 載入和預覽 Project
               href: loading-and-previewing-a-project.md
               items:
-                - name: 載入專案檔
+                - name: 載入 Project 檔案
                   href: loading-a-project-file.md
-                - name: 預覽專案
+                - name: 預覽 Project
                   href: previewing-the-project.md
-                - name: 預覽專案：範例程式碼
+                - name: 預覽 Project：範例程式碼
                   href: previewing-a-project--example-code.md
             - name: 建立時間軸
               href: constructing-a-timeline.md
@@ -8773,14 +8773,14 @@
                   href: setting-properties-on-effects-and-transitions.md
                 - name: 轉換方向
                   href: transition-direction.md
-            - name: 轉譯專案
+            - name: 轉譯 Project
               href: rendering-a-project.md
               items:
                 - name: 關於轉譯引擎
                   href: about-the-render-engines.md
-                - name: 預覽專案
+                - name: 預覽 Project
                   href: previewing-a-project.md
-                - name: 將專案寫入檔案
+                - name: 將 Project 寫入檔案
                   href: writing-a-project-to-a-file.md
                 - name: 提供自訂的影片調整
                   href: providing-a-custom-video-resizer.md
@@ -8799,10 +8799,10 @@
                   href: setting-the-error-log.md
                 - name: DES 錯誤記錄：範例程式碼
                   href: des-error-logging--example-code.md
-            - name: 使用具有 DirectShow 編輯服務的 Windows Media
+            - name: 搭配 DirectShow 編輯服務使用 Windows 媒體
               href: using-windows-media-with-directshow-editing-services.md
               items:
-                - name: 以 DES 撰寫 Windows Media 檔案
+                - name: 以 DES 撰寫 Windows 媒體檔案
                   href: writing-a-windows-media-file-in-des.md
             - name: 管理影片編輯專案
               href: managing-video-editing-projects.md
@@ -8821,10 +8821,10 @@
                   href: step-3--implement-the-frame-grabbing-function.md
                 - name: 步驟4：在工作區上繪製點陣圖
                   href: step-4--draw-the-bitmap-on-the-client-area.md
-        - name: DirectShow 編輯服務 c + + 參考
+        - name: DirectShow編輯服務 c + + 參考
           href: directshow-editing-services-c---reference.md
           items:
-            - name: 適用于 DirectShow 編輯服務的介面
+            - name: DirectShow 編輯服務的介面
               href: interfaces-des.md
               items:
                 - name: IAMErrorLog
@@ -9539,7 +9539,7 @@
                   href: volume-envelope-effect.md
                 - name: 影片色彩來源
                   href: video-color-source.md
-            - name: DirectShow 編輯服務物件
+            - name: DirectShow編輯服務物件
               href: directshow-editing-services-objects.md
               items:
                 - name: 基本轉譯引擎
@@ -9548,7 +9548,7 @@
                   href: composition.md
                 - name: 效果
                   href: effect.md
-                - name: 群組
+                - name: Group
                   href: group.md
                 - name: '媒體偵測器 (MediaDet) '
                   href: media-detector--mediadet.md
@@ -9586,7 +9586,7 @@
                       href: composite-element.md
                     - name: 效果
                       href: effect-element.md
-                    - name: 群組
+                    - name: group
                       href: group-element.md
                     - name: linear
                       href: linear-element.md
@@ -9653,7 +9653,7 @@
                       href: swapinputs-attribute.md
                     - name: time
                       href: time-attribute.md
-                    - name: type
+                    - name: 類型
                       href: type-attribute.md
                     - name: userdata
                       href: userdata-attribute.md
@@ -9661,7 +9661,7 @@
                       href: userid-attribute.md
                     - name: username
                       href: username-attribute.md
-                    - name: value
+                    - name: 值
                       href: value-attribute.md
                     - name: width
                       href: width-attribute.md

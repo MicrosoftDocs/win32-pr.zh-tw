@@ -4,12 +4,12 @@ ms.assetid: c236f335-b5de-4e8b-851d-45e008791271
 title: 授權函式 (授權)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7995db6e003c043d1b8163f391a9950b92c2e182
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70bc8637fc9e17e8de4c26ae484d909fffcb2386b58eb189e6ba3a113a03e474
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914254"
 ---
 # <a name="authorization-functions-authorization"></a>授權函式 (授權)
 
@@ -199,7 +199,7 @@ ms.locfileid: "106977112"
 | [**LookupSecurityDescriptorParts**](/windows/desktop/api/Aclapi/nf-aclapi-lookupsecuritydescriptorpartsa)<br/>                                             | 從 [自我相關的安全描述項](/windows/desktop/SecGloss/s-gly)抓取安全性資訊。<br/>                                                                                                                                                                                                                                                                                                    |
 | [**MakeAbsoluteSD**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd)<br/>                                                                           | 使用[自我相關](/windows/desktop/SecGloss/s-gly)格式的安全描述項作為範本，以建立[絕對](/windows/desktop/SecGloss/a-gly)格式的[安全描述項](/windows/desktop/SecGloss/s-gly)。<br/>                                                        |
 | [**MakeSelfRelativeSD**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-makeselfrelativesd)<br/>                                                                   | 使用[絕對](/windows/desktop/SecGloss/a-gly)格式的安全描述項作為範本，以[自我相關](/windows/desktop/SecGloss/s-gly)格式建立[安全描述項](/windows/desktop/SecGloss/s-gly)。<br/>                                                        |
-| [**MapGenericMask**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-mapgenericmask)<br/>                                                                           | 將 [存取遮罩](/windows/desktop/SecGloss/a-gly) 中的一般存取權限對應至特定和標準存取權限。 函數會套用在 [**泛型 \_ 對應**](/windows/desktop/api/Winnt/ns-winnt-generic_mapping) 結構中提供的對應。<br/>                                                                                                                                                                                                                            |
+| [**MapGenericMask**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-mapgenericmask)<br/>                                                                           | 地圖[存取遮罩](/windows/desktop/SecGloss/a-gly)中特定和標準存取權限的一般存取權限。 函數會套用在 [**泛型 \_ 對應**](/windows/desktop/api/Winnt/ns-winnt-generic_mapping) 結構中提供的對應。<br/>                                                                                                                                                                                                                            |
 | [**NtCompareTokens**](ntcomparetokens.md)<br/>                                                                         | 比較兩個 [存取權杖](/windows/desktop/SecGloss/a-gly) ，並判斷它們是否相等於對 [**AccessCheck**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-accesscheck) 函數的呼叫。<br/>                                                                                                                                                                                                                                                                      |
 | [**ObjectCloseAuditAlarm**](/windows/desktop/api/Winbase/nf-winbase-objectcloseauditalarma)<br/>                                                             | 當刪除私用物件的控制碼時，會在安全性事件記錄檔中產生審核訊息。<br/>                                                                                                                                                                                                                                                                                                                                                                                            |
 | [**ObjectDeleteAuditAlarm**](/windows/desktop/api/Winbase/nf-winbase-objectdeleteauditalarma)<br/>                                                           | 在刪除物件時產生審核訊息。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |

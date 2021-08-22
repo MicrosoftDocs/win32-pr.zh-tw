@@ -7,12 +7,12 @@ keywords:
 - 動態物件介面 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3c1af00027053cf194769c1a224c59903252093
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0dc14ecdbc7e4497054cb8e0176da5ea156dad68f44c958490f711ccf35a1685
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023636"
 ---
 # <a name="dynamic-object-interfaces"></a>動態物件介面
 
@@ -26,9 +26,9 @@ ms.locfileid: "104371843"
 -   [**IADsServiceOperations**](/windows/desktop/api/Iads/nn-iads-iadsserviceoperations)
 -   [**IADsSession**](/windows/desktop/api/Iads/nn-iads-iadssession)
 
- 
+ 
 
- 
+ 
 
 
 

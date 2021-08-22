@@ -4,12 +4,12 @@ ms.assetid: 0a6ac61d-a00c-4fc8-a995-d25d17e405df
 title: TLS 和 SSL 警示的 Schannel 錯誤碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9fdba202e63d212fc85f0c02eb5ac9dc20db047
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4819c39948a2baf5889734fe7e2c08c8d85cbd22868cc9fad8a33281d13a306c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918587"
 ---
 # <a name="schannel-error-codes-for-tls-and-ssl-alerts"></a>TLS 和 SSL 警示的 Schannel 錯誤碼
 

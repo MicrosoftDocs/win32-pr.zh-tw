@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c79701560ad6256e91adcf8360e2ce5866df1e9e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 625731bfcf880de8dd78e6f3ca942edb2732612a7e4199cee8caed223043fe65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911547"
 ---
 # <a name="winbio_ansi_381_format-constants"></a>WINBIO \_ ANSI \_ 381 \_ 格式常數
 
@@ -39,8 +39,8 @@ ms.locfileid: "106967967"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

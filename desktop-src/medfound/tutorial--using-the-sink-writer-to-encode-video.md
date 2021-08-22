@@ -4,12 +4,12 @@ ms.assetid: 3E297366-0863-4E89-A0D5-438CD1FC5AF9
 title: 教學課程：使用接收寫入器編碼影片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a3e6095355e18db6c8335cadcbc4afc56b35406
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5347a82fd40355c8006b15492a59543018ae5868cb02fcefeeb1812bd26930c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972777"
 ---
 # <a name="tutorial-using-the-sink-writer-to-encode-video"></a>教學課程：使用接收寫入器編碼影片
 

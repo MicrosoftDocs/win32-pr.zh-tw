@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、開發介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68b6f720bcd492e784ad07fe20e221ac54951680
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c23829dcf143f63e791984e51194686d193d69cd575fadbc0e29c13a6f2279df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930594"
 ---
 # <a name="developing-the-interface"></a>開發介面
 
@@ -34,6 +34,6 @@ RPC 介面會描述伺服器程式所實行的遠端函式。 介面可確保用
 -   [產生介面 Uuid](generating-interface-uuids.md)
 -   [使用 MIDL](using-midl.md)
 
- 
+ 
 
- 
+ 

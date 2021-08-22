@@ -25,12 +25,12 @@ keywords:
 - 介面，ITextRangeProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f53429dc8ec137a83b6a40db377b5c84aeb36120
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 99baf1af267e67ffe3f75a83fb970c991e9ebe5674497db2a2edad8d9cc328b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104559055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826979"
 ---
 # <a name="text-and-textrange-control-patterns"></a>Text 和 TextRange 控制項模式
 
@@ -46,7 +46,7 @@ ms.locfileid: "104559055"
 
 如需 **Text** 和 **TextRange** 控制項模式的詳細資訊，請參閱 [消費者介面自動化文字內容支援](uiauto-ui-automation-textpattern-overview.md)。
 
-從 Windows 8.1 提供者開始可以執行 [**ITextRangeProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider2) 介面。 這可讓您叫用與文字範圍相關聯的內容功能表。 這可支援文字自動校正或輸入法編輯器等案例 (IME) 候選項目選取專案。
+從 Windows 8.1 提供者開始可以執行 [**ITextRangeProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider2)介面。 這可讓您叫用與文字範圍相關聯的內容功能表。 這可支援文字自動校正或輸入法編輯器等案例 (IME) 候選項目選取專案。
 
 本主題包含下列各節。
 
@@ -114,7 +114,7 @@ ms.locfileid: "104559055"
 
 
 
- 
+ 
 
 執行 [**ITextProvider2**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2) 介面需要下列其他屬性和方法。
 
@@ -127,7 +127,7 @@ ms.locfileid: "104559055"
 
 
 
- 
+ 
 
 ## <a name="required-members-for-itextrangeprovider"></a>**ITextRangeProvider** 的必要成員
 
@@ -138,7 +138,7 @@ ms.locfileid: "104559055"
 | 必要成員                                                                 | 成員類型 | 備註 |
 |----------------------------------------------------------------------------------|-------------|-------|
 | [**AddToSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-addtoselection)               | 方法      | 無  |
-| [**克隆**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-clone)                                 | 方法      | 無  |
+| [**複製**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-clone)                                 | 方法      | 無  |
 | [**比較**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-compare)                             | 方法      | 無  |
 | [**CompareEndpoints**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-compareendpoints)           | 方法      | 無  |
 | [**ExpandToEnclosingUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-expandtoenclosingunit) | 方法      | 無  |
@@ -157,7 +157,7 @@ ms.locfileid: "104559055"
 
 
 
- 
+ 
 
 執行 [**ITextRangeProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider2) 介面需要下列其他屬性和方法。
 
@@ -169,7 +169,7 @@ ms.locfileid: "104559055"
 
 
 
- 
+ 
 
 **TextRange** 控制項模式沒有相關聯的事件。
 
@@ -262,6 +262,6 @@ ms.locfileid: "104559055"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

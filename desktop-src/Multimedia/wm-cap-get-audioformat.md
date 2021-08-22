@@ -3,7 +3,7 @@ title: 'WM_CAP_GET_AUDIOFORMAT 訊息 (Vfw .h) '
 description: WM \_ CAP \_ GET \_ AUDIOFORMAT 訊息會取得音訊格式或音訊格式的大小。 您可以使用 capGetAudioFormat 和 capGetAudioFormatSize 宏明確地傳送此訊息。
 ms.assetid: 25e58863-2b1e-4ed8-9f34-c39617a15bc1
 keywords:
-- WM_CAP_GET_AUDIOFORMAT message Windows 多媒體
+- WM_CAP_GET_AUDIOFORMAT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9508972c173c9e189bdc092a63d849adf3be739
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d247c035f251b387537f8e6c360adf79e6ed479d8d40e4f8fe8180e059dab3cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940736"
 ---
 # <a name="wm_cap_get_audioformat-message"></a>WM \_ CAP \_ 取得 \_ AUDIOFORMAT 訊息
 

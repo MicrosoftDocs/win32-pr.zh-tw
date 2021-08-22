@@ -4,12 +4,12 @@ description: 元件的雙精度浮點數相加。
 ms.assetid: 416F1103-E27B-4AFC-9ED1-492FF8A93492
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e217a03a5ba9e4da0d365bbfd15e4283f1a69cb
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 4e382ea2660b587a843ecca4c3bae93251a5f9434bd2cdca5899beaf25bb2fd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118793526"
 ---
 # <a name="dadd-sm5---asm"></a>dadd (sm5-asm) 
 
@@ -145,7 +145,7 @@ F 表示有限實數。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -162,11 +162,11 @@ F 表示有限實數。
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

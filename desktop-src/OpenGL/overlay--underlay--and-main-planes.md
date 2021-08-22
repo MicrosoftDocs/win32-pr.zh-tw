@@ -3,18 +3,18 @@ title: 重迭、基礎和主要平面
 description: 您可以在應用程式中使用硬體層平面 (重迭和基礎平面) 。
 ms.assetid: fd9401b3-f2a8-4384-92e8-61b346216542
 keywords:
-- Windows 上的 OpenGL，硬體層平面
+- Windows 上的 OpenGL、硬體層平面
 - 硬體層平面 OpenGL
 - 覆蓋平面 OpenGL
 - 基礎平面 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6fe68c4bb57d431151c4d879965fcf7496c8615
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7b968a0ab028fd0a699e31ad3a3601d7140435e2b36d0188bef46c5dca7cbad9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936487"
 ---
 # <a name="overlay-underlay-and-main-planes"></a>重迭、基礎和主要平面
 
@@ -38,9 +38,9 @@ ms.locfileid: "106969656"
 -   [**wglSetLayerPaletteEntries**](/windows/desktop/api/wingdi/nf-wingdi-wglsetlayerpaletteentries)
 -   [**wglSwapLayerBuffers**](/windows/desktop/api/wingdi/nf-wingdi-wglswaplayerbuffers)
 
- 
+ 
 
- 
+ 
 
 
 
