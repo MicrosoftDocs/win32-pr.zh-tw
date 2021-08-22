@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83c7919a352819eafa6d8cd5c3c72d77255824fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3809208abddc317cff7ba9799860a4ee9ccae96e987e94eecab9ad5c3aba226f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507158"
 ---
 # <a name="userplaycountweekend-attribute"></a>UserPlaycountWeekend 屬性
 

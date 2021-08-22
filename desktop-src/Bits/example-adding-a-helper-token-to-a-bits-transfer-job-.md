@@ -4,12 +4,12 @@ description: 您可以使用額外的安全性權杖，設定背景智慧型傳�
 ms.assetid: 08670c6d-e589-41be-842d-597f460d9c97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dab12fe93ae54d91d02bef5e59e99d267571413e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c4adab6ca8cebeeca9b9883e89db28205dfdab1ea43e05c01fd119c14c26d374
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528818"
 ---
 # <a name="example-adding-a-helper-token-to-a-bits-transfer-job"></a>範例：將 Helper 權杖新增至 BITS 傳送工作
 
@@ -35,11 +35,11 @@ ms.locfileid: "104024024"
 10. 呼叫 [**IBitsTokenOptions：： SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) 方法，以模擬已登入使用者的權杖。 如果此方法失敗，此範例會呼叫 [RevertToSelf](/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself) 函式來終止模擬已登入的使用者，並擲回錯誤，且控制碼已關閉。
     > [!Note]
     >
-    > 在 Windows 10 之前的 Windows 版本中1607，作業擁有者必須具有系統管理認證，才能呼叫 [**IBitsTokenOptions：： SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) 方法。
+    > 在 Windows 10 之前的 Windows 支援版本中1607，作業擁有者必須具有系統管理認證，才能呼叫 [**IBitsTokenOptions：： SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken)方法。
     >
     > 從 Windows 10 開始，版本1607，非管理員作業擁有者可以在其擁有的 BITS 工作上設定非系統管理員協助程式權杖。 作業擁有者仍然必須具有系統管理認證，才能使用系統管理員許可權來設定 helper 權杖。
 
-     
+     
 
 11. 呼叫 [**IBitsTokenOptions：： SetHelperTokenFlags**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertokenflags) 方法，以指定要使用 helper 權杖的安全性內容存取哪些資源。
 12. 模擬完成後，此範例會呼叫 [RevertToSelf](/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself) 函式來終止模擬已登入的使用者，而控制碼已關閉。
@@ -279,6 +279,6 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
 [範例：通用類別](common-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

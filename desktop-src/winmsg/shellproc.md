@@ -32,16 +32,16 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 4add84011745aeb61659c39775b94fed91028d83
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: 3776748994b44b3a870fd4689fa9f4019bff99ae8d6f7dd7b13edbf2c98054d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "106968895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449098"
 ---
 # <a name="shellproc-function"></a>ShellProc 函式
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 搭配 [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) 函式使用的應用程式定義或程式庫定義的回呼函數。
 函式會從系統接收 Shell 事件的通知。
@@ -138,4 +138,4 @@ LRESULT CALLBACK ShellProc(
 
 [WM_COMMAND](/windows/desktop/menurc/wm-command)
 
-[鉤](hooks.md)
+[勾點](hooks.md)

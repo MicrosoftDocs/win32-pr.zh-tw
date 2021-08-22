@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f804835b5445c32f74094e8280a598785d1526
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 323240462dad32ba757897798b663b78b373ebb3ab3e60c3387dd7da8eef4c85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642858"
 ---
 # <a name="resourcelocatorresourceuri-property"></a>ResourceLocator 屬性
 
@@ -68,7 +68,7 @@ ResourceLocator.ResourceURI As string
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 

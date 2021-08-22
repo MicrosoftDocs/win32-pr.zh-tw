@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 287395b976177170c8bdffa0e1817a8755a4d397
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8e33a3a0a5028292ce7cef7b44a37433b00f942ea9459ec18e6d53e1cf9a43c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504048"
 ---
 # <a name="swbemobject-object"></a>SWbemObject 物件
 
@@ -86,7 +86,7 @@ WScript.Echo objInstancePath.Path
 |:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|
 | [**Associators of\_**](swbemobject-associators-.md)             | 抓取物件的 associators of。<br/>                                                     |
 | [**AssociatorsAsync\_**](swbemobject-associatorsasync-.md)   | 以非同步方式抓取物件的 associators of。<br/>                                      |
-| [**克隆\_**](swbemobject-clone-.md)                         | 建立目前物件的複本。<br/>                                                          |
+| [**複製\_**](swbemobject-clone-.md)                         | 建立目前物件的複本。<br/>                                                          |
 | [**CompareTo\_**](swbemobject-compareto-.md)                 | 測試兩個物件是否相等。<br/>                                                              |
 | [**刪除\_**](swbemobject-delete-.md)                       | 從 WMI 刪除物件。<br/>                                                                 |
 | [**DeleteAsync\_**](swbemobject-deleteasync-.md)             | 以非同步方式從 WMI 刪除物件。<br/>                                                  |
@@ -114,7 +114,7 @@ WScript.Echo objInstancePath.Path
 
 
 
-| 屬性                                                   | 存取類型          | Description                                                                                                                                |
+| 屬性                                                   | 存取類型          | 描述                                                                                                                                |
 |:-----------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | [**衍生\_**](swbemobject-derivation-.md)<br/> | 唯讀<br/> | 包含描述類別之衍生階層的字串陣列。<br/>                                             |
 | [**方法\_**](swbemobject-methods-.md)<br/>       | 唯讀<br/> | [**SWbemMethodSet**](swbemmethodset.md)物件，此物件為這個物件的方法集合。<br/>                           |
@@ -139,8 +139,8 @@ WScript.Echo objInstancePath.Path
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemObject<br/>                                                           |
 | IID<br/>                      | IID \_ ISWbemObject<br/>                                                            |

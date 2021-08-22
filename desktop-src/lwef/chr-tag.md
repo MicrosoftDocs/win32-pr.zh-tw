@@ -4,16 +4,16 @@ description: Chr 標記
 ms.assetid: da0cb038-24fb-453e-8687-c81e11a9d8e0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74d4bd183df25a692d6ae8bc1f75c49bd85ce42b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88b91aad9e58a0002f2389b2733dde27a8db6870da2c6e4b8b77c67568870bd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450728"
 ---
 # <a name="chr-tag"></a>Chr 標記
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

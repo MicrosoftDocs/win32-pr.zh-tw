@@ -4,12 +4,12 @@ description: 您可以使用 TaskDialog 函數或 TaskDialogIndirect 函數來�
 ms.assetid: CCEFF52F-D501-4145-9799-0A9C529017E1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76ea8e3097454505acccf60c7cba3ef56c637af0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f6f74f1922330cae1550fda1a9ad6d451221452017f3856ae5e859948019828
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504018"
 ---
 # <a name="how-to-create-task-dialogs"></a>如何建立工作對話方塊
 
@@ -19,12 +19,12 @@ ms.locfileid: "104021022"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -43,9 +43,9 @@ ms.locfileid: "104021022"
 [使用工作對話方塊](using-task-dialogs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

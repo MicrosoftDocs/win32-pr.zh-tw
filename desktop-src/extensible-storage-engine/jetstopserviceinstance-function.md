@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9b2e3307f13a63d00cbbaf33f491750bbfcdb9d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e82f7b3ea85ffb76f58dd0ada8c56b83ecdf40a4b40e799b7ae482f307d1f916
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614628"
 ---
 # <a name="jetstopserviceinstance-function"></a>JetStopServiceInstance 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetstopserviceinstance-function"></a>JetStopServiceInstance 函式
 
 **JetStopServiceInstance** 函式會準備實例以進行終止。
 
-**Windows xp：**  **JetStopServiceInstance** 是在 windows xp 中引進的。
+**Windows xp：****JetStopServiceInstance** 是在 Windows xp 引進。  
 
 ```cpp
     JET_ERR JET_API JetStopServiceInstance(
@@ -50,7 +50,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -71,7 +71,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>JET_errInvalidParameter</p></td>
 <td><p>指定的實例參數有不正確值 (不是目前正在執行) 的實例。</p>
-<p><strong>WINDOWS XP：</strong>  這個傳回值是在 Windows XP 中引進的。</p></td>
+<p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p></td>
 </tr>
 </tbody>
 </table>
@@ -91,7 +91,7 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="remarks"></a>備註
 
-此函式會減少實例終止時必須執行的工作，但不會終止實例。 如此一來，此函式只是優化，而且不一定要使用。 請注意，在 Windows 2000 和 Windows XP 中進行準備所需的工作量較小。 一旦函式成功，呼叫不再允許的函式將會傳回 JET_errClientRequestToStopJetService。 此呼叫之後仍允許的函式為： [JetRollback](./jetrollback-function.md)、 [JetCloseTable](./jetclosetable-function.md)、 [JetEndSession](./jetendsession-function.md)、 [JetCloseDatabase](./jetclosedatabase-function.md)、 [JetDetachDatabase](./jetdetachdatabase-function.md) 和 [JetResetSessionCoNtext](./jetresetsessioncontext-function.md)。
+此函式會減少實例終止時必須執行的工作，但不會終止實例。 如此一來，此函式只是優化，而且不一定要使用。 請注意，在 Windows 2000 和 Windows XP 中，進行準備所需的工作量較小。 一旦函式成功，呼叫不再允許的函式將會傳回 JET_errClientRequestToStopJetService。 此呼叫之後仍允許的函式為： [JetRollback](./jetrollback-function.md)、 [JetCloseTable](./jetclosetable-function.md)、 [JetEndSession](./jetendsession-function.md)、 [JetCloseDatabase](./jetclosedatabase-function.md)、 [JetDetachDatabase](./jetdetachdatabase-function.md) 和 [JetResetSessionCoNtext](./jetresetsessioncontext-function.md)。
 
 #### <a name="requirements"></a>規格需求
 
@@ -107,7 +107,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

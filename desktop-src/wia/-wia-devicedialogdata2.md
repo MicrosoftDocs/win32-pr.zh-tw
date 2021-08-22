@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadefd.h
-ms.openlocfilehash: 82ca6cba81101e577eed882ad45272ab81546fed
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 800f7ceb102cafcad8ddda5204990706b908a4a0137a16143af76a90345b472e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451188"
 ---
 # <a name="devicedialogdata2-structure"></a>DEVICEDIALOGDATA2 結構
 
@@ -164,8 +164,8 @@ WIA 專案的 [**IWiaItem2**](-wia-iwiaitem2.md) 介面指標，可將資料傳�
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Wiadefd。h</dt> </dl> |
 
 

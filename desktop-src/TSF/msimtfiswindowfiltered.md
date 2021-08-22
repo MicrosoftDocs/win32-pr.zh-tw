@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70ad9bd9fb61c546ec3e2f1d96d5fc9cf932613a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06f3841ed5c0436d991d02291c1e395f42d6b31b66f442a3caac0b2062fc27db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119476748"
 ---
 # <a name="msimtfiswindowfiltered-function"></a>MsimtfIsWindowFiltered 函式
 
@@ -51,7 +51,7 @@ BOOL CALLBACK MsimtfIsWindowFiltered(
 
 
 
-| 傳回碼                                                                          | Description                                                               |
+| 傳回碼                                                                          | 描述                                                               |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <dl> <dt>**真**</dt> </dl>  | 如果使用 Active Input Method Manager 篩選此視窗。<br/>     |
 | <dl> <dt>**假**</dt> </dl> | 如果這個視窗不是由作用中的輸入方法管理員進行篩選。<br/> |

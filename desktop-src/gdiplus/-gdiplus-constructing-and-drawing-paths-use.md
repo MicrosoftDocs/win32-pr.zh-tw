@@ -4,12 +4,12 @@ ms.assetid: dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4
 title: 建構和繪製路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fe5f1528e58e3df19afbc83bb6acfdc2a6fca19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d83608dfacbd75bcbe916c9b5528f4bed7be4ed65713927a65f3823670c93311
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612498"
 ---
 # <a name="constructing-and-drawing-paths"></a>建構和繪製路徑
 

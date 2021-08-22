@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c42d7c39cecc9796dddfebd981bb27353ed9594e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 626892db9421d6c5cdf27e5085c13b2b80b4079e2c540c474dfd657e2a8442af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532758"
 ---
 # <a name="certificate-enrollment-extended-right"></a>Certificate-Enrollment 擴充許可權
 

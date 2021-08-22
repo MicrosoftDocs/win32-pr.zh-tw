@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102302
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bd690d4d1fc6ecf9efacada1c625c345be4033bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dad5791ed299c5d291130ae7e85e074b090e70e1f0460053000d48933fb1642
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119478918"
 ---
 # <a name="esentnobackupdirectoryexception-methods"></a>EsentNoBackupDirectoryException 方法
 

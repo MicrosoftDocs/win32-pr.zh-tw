@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59610536d55c9eb427dc44fbccf18b98b9d74048
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e410b6b70b5424b7a8dd9b614341d1894fec7a9daf3b5d82c2e37d8cfd40e951
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531398"
 ---
 # <a name="send-as-extended-right"></a>Send-As 擴充許可權
 
-Exchange right：允許以信箱的形式傳送郵件。
+Exchange right：允許傳送郵件做為信箱。
 
 
 
@@ -49,7 +49,7 @@ Exchange right：允許以信箱的形式傳送郵件。
 
 | 進入 | 值 |
 |-------------------------|-----------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> |
 | 當地語系化-顯示識別碼 | 4                                                                           |
 
 
@@ -60,7 +60,7 @@ Exchange right：允許以信箱的形式傳送郵件。
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 4                                                                                                                               |
 
 
@@ -71,7 +71,7 @@ Exchange right：允許以信箱的形式傳送郵件。
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 4                                                                                                                               |
 
 
@@ -82,7 +82,7 @@ Exchange right：允許以信箱的形式傳送郵件。
 
 | 進入 | 值 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 4                                                                                                                               |
 
 
@@ -93,7 +93,7 @@ Exchange right：允許以信箱的形式傳送郵件。
 
 | 進入 | 值 |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 4                                                                                                                                                                                                                |
 
 
@@ -104,7 +104,7 @@ Exchange right：允許以信箱的形式傳送郵件。
 
 | 進入 | 值 |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**電腦**](c-computer.md)<br/> [**ms DS 管理-服務-帳戶**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 4                                                                                                                                                                                                                |
 
 

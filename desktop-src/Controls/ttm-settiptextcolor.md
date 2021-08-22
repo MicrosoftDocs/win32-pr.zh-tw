@@ -3,7 +3,7 @@ title: 'TTM_SETTIPTEXTCOLOR 訊息 (Commctrl .h) '
 description: 設定工具提示視窗中的文字色彩。
 ms.assetid: a6c6eb31-e6c4-47e2-b112-48e7cd21b778
 keywords:
-- TTM_SETTIPTEXTCOLOR message Windows 控制項
+- TTM_SETTIPTEXTCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fb4ead5374015c014a105056b63077779272535
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a593be5bc9bb3ba8d04b1a657785afb86824119fa8bbd5e027003f296230e99e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642508"
 ---
 # <a name="ttm_settiptextcolor-message"></a>TTM \_ SETTIPTEXTCOLOR 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104025431"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

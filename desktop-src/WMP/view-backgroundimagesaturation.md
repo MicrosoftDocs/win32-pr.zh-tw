@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9d7f5807bcb5fd90dae211d80faf78006b6b35
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 934c10ee090f99d456c38a5eb56512d3adb9b748d45b166167b49f3249d819e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506858"
 ---
 # <a name="viewbackgroundimagesaturation"></a>BackgroundImageSaturation
 

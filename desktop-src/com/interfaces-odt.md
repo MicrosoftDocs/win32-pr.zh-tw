@@ -4,12 +4,12 @@ description: 下列介面可用來執行複合檔案，以及在應用程式之�
 ms.assetid: cfc2c9e9-ddb4-4422-80f8-26e20add6f6e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7baeb70bfba550e1a9fb2cf91f016ba92e02294
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 38a245e9fd96d6fd0dff21e51fc630c2d4c8bd1879c15ef128dc345a9859f3d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500818"
 ---
 # <a name="interfaces-ole-and-data-transfer"></a> (OLE 和資料傳輸) 的介面
 

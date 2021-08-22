@@ -7,12 +7,12 @@ keywords:
 - 檔案傳輸位，新增
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: ecb46a535fee117750b8b46066d798a4525aa44c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b6c369c0a9ee207790d0370da6543c642ee294b072e0d91f1837cd734a6a625d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529268"
 ---
 # <a name="adding-files-to-a-job"></a>將檔案新增至作業
 
@@ -126,6 +126,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

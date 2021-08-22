@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: eee64e51d4717a9fe0983be849c78f99602cac9f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 09978c38c3e4be7ad8a86ccfccb43387ed4ac48232e39e1ed19001d806362c88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119304798"
 ---
 # <a name="id2d1geometrycomparewithgeometry-methods"></a>ID2D1Geometry：： CompareWithGeometry 方法
 

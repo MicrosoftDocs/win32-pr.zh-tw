@@ -4,17 +4,17 @@ ms.assetid: 4359ec30-920a-4b34-8e27-4cf1d9452aa8
 title: AudioStreamsAvailable 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb68020b30f4349fcbbb464150624d75250a0dbf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 07025a3a3bf54ad98d32c54ee3c147bc36489822ef451965e1e0e0da8fe586c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586728"
 ---
 # <a name="audiostreamsavailable-property"></a>AudioStreamsAvailable 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

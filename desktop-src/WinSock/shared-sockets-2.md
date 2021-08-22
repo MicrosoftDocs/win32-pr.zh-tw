@@ -4,12 +4,12 @@ ms.assetid: f7cf40e9-f3a6-4b62-8a78-df25464e2365
 title: 共用通訊端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb6753b01f6389254756254d2ebe196af8e2a8a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98e3f2663aa618b1bacab40b1cb29735c972e1d8b9e9db3528ee5079a336747c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612908"
 ---
 # <a name="shared-sockets"></a>共用通訊端
 

@@ -1,9 +1,9 @@
 ---
 title: 'ICM_GETBUFFERSWANTED 訊息 (Vfw .h) '
-description: ICM \_ GETBUFFERSWANTED 訊息會查詢驅動程式，以取得要配置的緩衝區數目。 您可以使用 ICGetBuffersWanted 宏明確地傳送此訊息。
+description: ICM 的 \_ GETBUFFERSWANTED 訊息會查詢驅動程式，以取得要配置的緩衝區數目。 您可以使用 ICGetBuffersWanted 宏明確地傳送此訊息。
 ms.assetid: 109e8627-7ed4-4f17-bf7f-e77f42dfc8c7
 keywords:
-- ICM_GETBUFFERSWANTED message Windows 多媒體
+- ICM_GETBUFFERSWANTED 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06de8cc3bcfe463d0318651c8e2d51b269504769
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4bd5fae6e9f008649366cf922ef117f5b6f7560a7764c4f8d81552a255de48a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495868"
 ---
-# <a name="icm_getbufferswanted-message"></a>ICM \_ GETBUFFERSWANTED 訊息
+# <a name="icm_getbufferswanted-message"></a>ICM \_GETBUFFERSWANTED 訊息
 
-**ICM \_ GETBUFFERSWANTED** 訊息會查詢驅動程式，以取得要配置的緩衝區數目。 您可以使用 [**ICGetBuffersWanted**](/windows/desktop/api/Vfw/nf-vfw-icgetbufferswanted) 宏明確地傳送此訊息。
+**ICM 的 \_ GETBUFFERSWANTED** 訊息會查詢驅動程式，以取得要配置的緩衝區數目。 您可以使用 [**ICGetBuffersWanted**](/windows/desktop/api/Vfw/nf-vfw-icgetbufferswanted) 宏明確地傳送此訊息。
 
 
 ```C++

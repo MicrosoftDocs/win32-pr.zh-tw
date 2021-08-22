@@ -1,6 +1,6 @@
 ---
-title: Windows 遠端管理和 WMI
-description: Windows 遠端管理可以用來取出 Windows Management Instrumentation 所公開的資料。
+title: Windows遠端系統管理和 WMI
+description: Windows遠端系統管理可以用來取出 Windows Management Instrumentation 所公開的資料。
 ms.assetid: a625440b-a839-487d-b862-e35934f24e1f
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6942e89ea2e63ef809f3452e6ce55a493662c938
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 4d4fab5cd1ee27f664fc43838a62db949c5892147818466edf649641eff203b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106981764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642468"
 ---
-# <a name="windows-remote-management-and-wmi"></a>Windows 遠端管理和 WMI
+# <a name="windows-remote-management-and-wmi"></a>Windows遠端系統管理和 WMI
 
-Windows 遠端管理可以用來取得 Windows Management Instrumentation ([WMI](/windows/desktop/WmiSdk/wmi-start-page) 和 [MI](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure)) 所公開的資料。 您可以使用使用 [Winrm 腳本 API](winrm-scripting-api.md) 的腳本或應用程式，或透過 **winrm** 命令列工具，來取得 WMI 資料。
+Windows遠端系統管理可以用來取出 Windows Management Instrumentation ([WMI](/windows/desktop/WmiSdk/wmi-start-page)和[MI](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure)) 所公開的資料。 您可以使用使用 [Winrm 腳本 API](winrm-scripting-api.md) 的腳本或應用程式，或透過 **winrm** 命令列工具，來取得 WMI 資料。
 
-WinRM 支援大部分常見的 WMI 類別和作業，包括內嵌的物件。 WinRM 可以利用 WMI 收集 [*資源*](windows-remote-management-glossary.md) 的相關資料，或管理以 Windows 為基礎之作業系統上的資源。 這表示您可以透過現有的 [WMI 類別](/windows/desktop/WmiSdk/wmi-classes)集，取得有關您企業中之物件（例如磁片、網路介面卡、服務或進程）的資料。 您也可以存取標準 WMI [IPMI 提供者](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)所提供的硬體資料。
+WinRM 支援大部分常見的 WMI 類別和作業，包括內嵌的物件。 WinRM 可以利用 WMI 來收集 [*資源*](windows-remote-management-glossary.md)的相關資料，或管理以 Windows 為基礎的作業系統上的資源。 這表示您可以透過現有的 [WMI 類別](/windows/desktop/WmiSdk/wmi-classes)集，取得有關您企業中之物件（例如磁片、網路介面卡、服務或進程）的資料。 您也可以存取標準 WMI [IPMI 提供者](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)所提供的硬體資料。
 
 ## <a name="identifying-a-wmi-resource"></a>識別 WMI 資源
 
@@ -70,7 +70,7 @@ URI 前置詞包含固定部分和 WMI 命名空間。 例如，Windows Server �
 
 ## <a name="locating-a-wmi-resource-with-winrm"></a>使用 WinRM 找出 WMI 資源
 
-您可以透過命令列工具、 **Winrm**，或透過使用 [winrm 腳本 API](winrm-scripting-api.md)的 VISUAL BASIC 腳本來取得 WMI 資料。 您未使用 [WMI 路徑](/windows/desktop/WmiSdk/describing-the-location-of-a-wmi-object) 來找出資源。 相反地，您會將 WMI 命名空間和階層轉換成 [*URI*](windows-remote-management-glossary.md)。
+您可以透過命令列工具、 **Winrm**，或透過使用 [winrm 腳本 API](winrm-scripting-api.md)的 Visual Basic 腳本來取得 WMI 資料。 您未使用 [WMI 路徑](/windows/desktop/WmiSdk/describing-the-location-of-a-wmi-object) 來找出資源。 相反地，您會將 WMI 命名空間和階層轉換成 [*URI*](windows-remote-management-glossary.md)。
 
 WMI 類別的 WinRM URI 包含兩個部分： [URI 前置](uri-prefixes.md) 詞和您想要存取的類別。
 

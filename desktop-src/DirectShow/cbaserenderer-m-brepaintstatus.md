@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b594309c56dfda4a99c89c6e17a26f76128cd393
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 757a008003a3d53258d4bb297d3f2089ceaed1350b5ae3901bd1598556bca80a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502738"
 ---
 # <a name="cbaserendererm_brepaintstatus-member"></a>CBaseRenderer：： m \_ bRepaintStatus 成員
 

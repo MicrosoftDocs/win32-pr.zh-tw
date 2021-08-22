@@ -4,12 +4,12 @@ ms.assetid: 27b735db-4e87-497b-b39c-e464cf44f09e
 title: IPv6 路由器公告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77a75b31a988595cba85d23dbafc1bd93ffff4ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef8a7be2139c03d94e8a84eae410e9f4f2e92da6059def1ef89997138009d351
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612938"
 ---
 # <a name="ipv6-router-advertisements"></a>IPv6 路由器公告
 

@@ -4,12 +4,12 @@ ms.assetid: 14ecb06c-3f80-47b8-9964-6a2c3b572300
 title: 讀取和寫入檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffd0e6518ce2430e18bbb11033023ee6dc274573
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b88de3510a681839a9592bed4755de6249f79db117d94985ddb00320381b92c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533318"
 ---
 # <a name="reading-from-and-writing-to-files"></a>讀取和寫入檔案
 

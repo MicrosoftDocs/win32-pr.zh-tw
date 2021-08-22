@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b34765db2063688ccc8fced0a1e25cac23b98ded
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c3a106fed07b677b74e5ec620bc58d605938809868347ec0d6ef354d0d9d28a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532267"
 ---
 # <a name="ds-execute-intentions-script-extended-right"></a>DS-執行-意圖-編寫擴充許可權
 

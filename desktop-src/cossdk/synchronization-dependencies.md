@@ -4,12 +4,12 @@ ms.assetid: 16771121-cb10-42b4-babc-59270188495a
 title: 同步處理相依性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c139d0d6e78288b25e42bd0a84b29432cebb44ca
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ed2976426d652ca50c4e7399f39e98ba13ef337d15ef8c15a2271d4a562d1790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499728"
 ---
 # <a name="synchronization-dependencies"></a>同步處理相依性
 
@@ -25,7 +25,7 @@ ms.locfileid: "103847216"
 
 | 當交易設定為時 | 同步處理可以設定為                    |
 |------------------------------|--------------------------------------------------|
-| Disabled<br/>          | 任何事項，視 JIT 啟用而定<br/> |
+| 已停用<br/>          | 任何事項，視 JIT 啟用而定<br/> |
 | 不支援<br/>     | 任何事項，視 JIT 啟用而定<br/> |
 | 支援<br/>         | 必要<br/>                              |
 | 必要<br/>          | 必要<br/>                              |
@@ -41,8 +41,8 @@ ms.locfileid: "103847216"
 
 | 當 JIT 啟用設定為時 | 同步處理可以設定為       |
 |-------------------------------|-------------------------------------|
-| 已啟用<br/>            | 必要或需要新的<br/> |
-| Disabled<br/>           | 什麼<br/>                 |
+| 啟用<br/>            | 必要或需要新的<br/> |
+| 已停用<br/>           | 什麼<br/>                 |
 
 
 

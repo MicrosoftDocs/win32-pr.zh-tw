@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbacd8f2fbded3501100809de166651ca56cca8d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 32868fbf276b5892bb5444093bf683920233483aa9756a5cc4ea63b490c0d023
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508358"
 ---
 # <a name="metadatapicturedescription"></a>MetadataPicture。描述
 

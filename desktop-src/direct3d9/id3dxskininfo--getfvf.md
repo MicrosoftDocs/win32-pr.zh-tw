@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3415f86f778fbb6fb3592927277e399584bc49a9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e7419e116cddd20aebfc61d7813ea2bd403ce04b897aa821f03a2ad48eae6965
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492288"
 ---
 # <a name="id3dxskininfogetfvf-method"></a>ID3DXSkinInfo：： GetFVF 方法
 

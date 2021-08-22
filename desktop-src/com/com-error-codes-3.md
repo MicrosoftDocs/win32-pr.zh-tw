@@ -148,12 +148,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c1c568e82a0cc145e4e075f7ce14b5690bd4b22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1641c652ed37c021e790fe44969f347c733dbfb265606982857f7c895364814a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501608"
 ---
 # <a name="com-error-codes-stg-rpc"></a>COM 錯誤碼 (STG.，RPC) 
 
@@ -163,7 +163,7 @@ ms.locfileid: "106992810"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                         | Description                                                                                                                                                            |
+| 常數/值                                                                                                                                                                                                                                                                                         | 描述                                                                                                                                                            |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="STG_E_INVALIDFUNCTION"></span><span id="stg_e_invalidfunction"></span><dl> <dt>**Stg. \_E \_ INVALIDFUNCTION**</dt> <dt>0x80030001</dt> </dl>                                                 | 無法執行要求的操作。<br/>                                                                                                                      |
 | <span id="STG_E_FILENOTFOUND"></span><span id="stg_e_filenotfound"></span><dl> <dt>**Stg. \_E \_ FILENOTFOUND**</dt> <dt>0x80030002</dt> </dl>                                                          | 找不到 。<br/>                                                                                                                                         |

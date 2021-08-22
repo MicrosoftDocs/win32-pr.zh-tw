@@ -1,22 +1,22 @@
 ---
 title: 管理對等快取
-description: 注意：從 Windows 7 開始，背景智慧型傳送服務 (位) 3.0 對等快取模型已被取代。
+description: 附注從 Windows 7 開始，背景智慧型傳送服務 (個位) 3.0 對等快取模型已被取代。
 ms.assetid: a33a43e5-02f9-4902-ad3a-ec65b0d80520
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40b3ea1dd19c9aca855ffd73e174dcb3b588a54d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f3821cc0894754b8dbc2ee9f9a189381ac69030d39938c8f6cb4bc52625ef03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588748"
 ---
 # <a name="administering-the-peer-cache"></a>管理對等快取
 
 > [!Note]  
-> 從 Windows 7 開始，背景智慧型傳送服務 (位) 3.0 對等快取模型已被取代。 如果已安裝 BITS 4.0，BITS 3.0 對等快取模型就無法使用。
+> 從 Windows 7 開始，背景智慧型傳送服務 (個位) 3.0 對等快取模型已被取代。 如果已安裝 BITS 4.0，BITS 3.0 對等快取模型就無法使用。
 
- 
+ 
 
 為了改善下載效能，BITS 可讓您從對等電腦下載內容。 若要啟用這項功能，系統管理員必須啟用 EnablePeerCaching 群組原則設定。 啟用時，對等可以從對等下載內容，並將內容提供給對等。 系統管理員也可以使用 DisablePeerCachingClient 和 DisablePeerCachingServer 原則設定，以防止從對等下載內容，或將內容分別提供給對等。
 
@@ -32,9 +32,9 @@ ms.locfileid: "103671783"
 
 在探索對等或刪除快取記錄時，您應該永遠不需要管理對等快取。 這項功能已包含在 [**IBitsPeerCacheAdministration**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibitspeercacheadministration) 介面中，以提供完整性。
 
- 
+ 
 
- 
+ 
 
 
 

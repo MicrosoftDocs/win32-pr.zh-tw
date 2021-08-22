@@ -4,12 +4,12 @@ description: 建立影像的灰階版本，如同已將其加上戳記。
 ms.assetid: 74f63875-35cd-f335-62cd-410a953e53ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dde087eb7f85fcd68615c39730bf6208024fc43
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4d0fe9b779cbad2b73b877338871f7adff3a36fb4bfb1c291be6de94f736088f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586960"
 ---
 # <a name="emboss-effect"></a>浮凸效果
 
@@ -52,8 +52,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
-| 最低支援的伺服器 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects \_ 2。h                                  |
 | 程式庫                  | d2d1 .lib，dxguid .lib                              |
 

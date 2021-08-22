@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 0e2f9fcfecc44ee6d0769e00805c0aee512b2e7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 801db7f1e14002aa6333b18349e259e40928a0cd45958c0e1aa618d1d1143be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119303328"
 ---
 # <a name="ec_dvd_still_on"></a>EC \_ DVD \_ 仍 \_ 在開啟
 

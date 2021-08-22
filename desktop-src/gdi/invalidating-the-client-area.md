@@ -4,12 +4,12 @@ ms.assetid: 41c2bc07-768b-4d27-a869-69b072f3e033
 title: 使工作區失效
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76fb02be44f600b80f87ec8f05c022fa3c35d827
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d94a3a5b4e6903c549331788f9e81947dca44e7a699bb1a633bce46525585b2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558658"
 ---
 # <a name="invalidating-the-client-area"></a>使工作區失效
 

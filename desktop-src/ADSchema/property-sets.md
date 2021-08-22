@@ -5,12 +5,12 @@ ms.assetid: 8d8bc34c-bfeb-4730-8e54-4facdf445032
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ab3f4fe3c31a98b78412da2aeb44f07dd32f7af
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: d8f4c2fd002b3ec4eb80c62dc262c9a869f5738b663de5234f90f315ede0d2f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "104022937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532848"
 ---
 # <a name="property-sets-ad-schema"></a> (AD 架構的屬性集) 
 
@@ -35,9 +35,9 @@ ms.locfileid: "104022937"
 [**Web 資訊**](r-web-information.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

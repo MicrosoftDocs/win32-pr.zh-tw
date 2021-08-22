@@ -4,12 +4,12 @@ ms.assetid: e3d06e0c-a595-4bc3-be62-168bd5122397
 title: 從裝置取得時間碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5787cf328214c1a266b7f129e4e517716b1d04f8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 265769300c0134ec9f3b3635ada3e595205e8452ced262d4062f9fb6cdaaadc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564728"
 ---
 # <a name="getting-timecode-from-the-device"></a>從裝置取得時間碼
 

@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 168ce6e371495901f2ed93fb69b605a807bc363c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c032c4c0dcb67f60f64fe2b447fd1af7061df51ed19586f4ee15b43d6a6f870c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106976430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561758"
 ---
 # <a name="disableuserpromptforservervalidation-servervalidationparameters-element-peap"></a>DisableUserPromptForServerValidation (ServerValidationParameters) 元素 (PEAP) 
 
@@ -43,8 +43,8 @@ ms.locfileid: "106976430"
 
 | 角色 | 最低支援作業系統版本 |
 |------|------------------------------|
-| 用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

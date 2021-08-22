@@ -4,12 +4,12 @@ ms.assetid: 8e355efe-2903-49c1-a9b3-792b07bd2995
 title: ATM 指向 Multipoint
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba17616feadfe1c8bf87ee8468dd967af73452c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 198d8160fdb1e942cc581374af18ca57303726bdddd41142855d366e58dfbf68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504458"
 ---
 # <a name="atm-point-to-multipoint"></a>ATM 指向 Multipoint
 

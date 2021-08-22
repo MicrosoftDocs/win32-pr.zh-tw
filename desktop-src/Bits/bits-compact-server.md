@@ -4,12 +4,12 @@ description: 背景智慧型傳送服務 (位) Compact Server 是一種獨立的
 ms.assetid: ab4cf901-6d93-433c-b1b2-ffa54d10725c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b40e2840c24e15379fac11a5a12ed76c225e7be5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 41cfbc18a8dc06bb474ab8df9df85fb7b8a96838db14bbc18aee4d94881985d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529188"
 ---
 # <a name="bits-compact-server"></a>BITS Compact Server
 
@@ -41,7 +41,7 @@ BITS Compact Server 是選擇性的伺服器元件。 您可以使用下列其�
 
 **使用 Windows PowerShell 安裝 BITS Compact Server**
 
-1.  在 Windows PowerShell 命令提示字元中，輸入下列命令： **Import-module ServerManager**。 然後按 Enter。
+1.  在 Windows PowerShell 命令提示字元中，輸入下列命令： **import-module ServerManager**。 然後按 Enter。
 2.  輸入下列命令： **ADD-WINDOWSFEATURE BITS-Compact-Server**。 然後按 Enter。
 
 下列以文字為基礎的範例示範如何使用 Windows PowerShell Cmdlet 來安裝 BITS Compact Server。
@@ -58,7 +58,7 @@ True    No             Success   {Compact Server}
 PS C:\>
 ```
 
-如需使用 Cmdlet 的詳細資訊，請參閱 [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) 檔。
+如需使用 Cmdlet 的詳細資訊，請參閱[Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx)檔。
 
 如需 Import-Module Cmdlet 的詳細資訊，請參閱 Microsoft TechNet Library 中的 [import-module](/previous-versions//dd347701(v=technet.10)) 。 如需命令列的說明，請輸入 **get-help import-module**。
 
@@ -71,7 +71,7 @@ PS C:\>
 > [!Note]  
 > 如果 Compact Server 服務已重新開機或電腦重新開機，則設定會遺失。
 
- 
+ 
 
 ## <a name="bits-compact-server-remote-management"></a>BITS Compact Server 遠端系統管理
 
@@ -86,6 +86,6 @@ BITS Compact Server 搭配 BITS 遠端系統管理，可提供更安全的遠端
 [位提供者](/previous-versions/windows/desktop/bitsprov/bits-provider)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

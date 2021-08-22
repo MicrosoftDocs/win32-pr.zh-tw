@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 30ae068c712dd04ba892220657ad64820a890040
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f757b6392ec26f809004d599f6c5603629d23e8eb7a7f4b08a4f3a4ef18791a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642848"
 ---
 # <a name="querying-for-specific-instances-of-a-resource"></a>查詢資源的特定實例
 
@@ -48,7 +48,7 @@ ms.locfileid: "106966862"
 
     
 
-3.  建立篩選字串。 Windows 遠端管理支援 [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi) 做為篩選方言。
+3.  建立篩選字串。 Windows遠端系統管理支援[WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi)做為篩選方言。
 
     ```VB
     strFilter = "SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IpEnabled=TRUE"
@@ -125,6 +125,6 @@ End Sub
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

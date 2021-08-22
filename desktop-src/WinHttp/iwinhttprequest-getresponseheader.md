@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 6e51b0973c7b078c7de592565db19bf6e029c5a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1566ea05f78f9e90a97db3a14c61f7c59cfc61ecdb1eb390823d99a32d4983ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643878"
 ---
 # <a name="iwinhttprequestgetresponseheader-method"></a>IWinHttpRequest：： GetResponseHeader 方法
 
@@ -64,7 +64,7 @@ HRESULT GetResponseHeader(
 這個方法會傳回 *標頭* 中所命名的回應標頭值。 請注意，automation 用戶端（例如 script）會將標頭資料取得為函式呼叫的傳回值，而不是透過函式參數。 只有在呼叫 [**Send**](iwinhttprequest-send.md) 方法之後，才叫用此方法。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -196,10 +196,10 @@ WScript.Echo( WinHttpReq.GetResponseHeader("Date"));
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WinHTTP .lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
 

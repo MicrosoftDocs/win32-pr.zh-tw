@@ -4,12 +4,12 @@ description: 本主題包含範例程式碼，示範如何在消費者介面自�
 ms.assetid: b613eb18-e14d-468e-833d-072bad29ba06
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 887ef914d7abcf5ed6dfc546f0930334f53215d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52998ad92fe1912a5159443642d95bbc14a28da595ddd2b2a255ebecaed8c74d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505268"
 ---
 # <a name="how-to-find-ui-elements"></a>如何尋找 UI 元素
 
@@ -140,9 +140,9 @@ cleanup:
 [消費者介面自動化用戶端的使用說明主題](uiauto-howto-topics-for-uiautomation-clients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

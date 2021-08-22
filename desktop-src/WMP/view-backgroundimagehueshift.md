@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72dcbf1dcb06939ab74398c39bb89bc512dbb47b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9cb69321fe3ac2456c71024270ddf508ff6eac0a76b336cc3115f4882b3d35a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506888"
 ---
 # <a name="viewbackgroundimagehueshift"></a>BackgroundImageHueShift
 

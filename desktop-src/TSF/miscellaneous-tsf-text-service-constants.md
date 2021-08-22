@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7ebd7d22f9cfbd59f95ee3dcfe68229536503b0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd4d9cdd73cd42512fe667b84867328c65f13fafa7281341eca7ba6379eef7d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119476768"
 ---
 # <a name="miscellaneous-tsf-text-service-constants"></a>其他 TSF 文字服務常數
 
@@ -43,7 +43,7 @@ ms.locfileid: "106965929"
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                   |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Ctffunc。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Ctffunc .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Ctffunc .idl</dt> </dl> |
 
 
 

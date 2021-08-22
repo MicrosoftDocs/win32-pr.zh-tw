@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f5a75a1fc55159fc5ea71dba09dc1ed54194b940
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a611dd5207d55fe820e03ac8fef08f0bfe44e89ba190a35eb109d1b3af5ba20d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475788"
 ---
 # <a name="jet_bklogtimeequality-operator"></a>JET_BKLOGTIME。等號比較運算子
 

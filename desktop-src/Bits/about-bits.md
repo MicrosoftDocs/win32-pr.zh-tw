@@ -8,12 +8,12 @@ keywords:
 - 傳送佇列位，節流
 ms.topic: article
 ms.date: 7/12/2019
-ms.openlocfilehash: b1ac0f587b496692ec1c2e62be06c0e64766a205
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 53693b7087d647e8d6e89a8c81e09895dc3866b964642475466bbf8f52ddbae5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529278"
 ---
 # <a name="about-bits"></a>關於 BITS
 
@@ -23,13 +23,13 @@ ms.locfileid: "104092771"
 
 BITS 會留意目前的網路成本和擁塞，讓背景工作在使用使用者的前景體驗時可能會干擾到最少。 BITS 會使用閒置的 [網路頻寬](network-bandwidth.md) 來傳輸檔案，並根據可用的閒置網路頻寬量來增加或減少傳輸檔案的速率。 如果網路應用程式開始佔用較多頻寬，BITS 便會降低其傳送速率，以保持使用者的互動體驗。 BITS 會使用應用程式指定的 [傳輸原則](how-to-block-a-bits-job-from-downloading-over-an-expensive-connection.md) 來防止檔案在有成本的網路連線上傳輸。
 
-位也會留意電源使用量。 從 Windows 10 2019 年5月更新開始，BITS 會在電腦處於 [新式待命](/windows-hardware/design/device-experiences/modern-standby) 模式且電腦已插入電源時傳輸檔案。
+位也會留意電源使用量。 從 Windows 10 2019 年5月更新開始，BITS 會在電腦處於[新式待命](/windows-hardware/design/device-experiences/modern-standby)模式且電腦已插入電源時傳輸檔案。
 
 BITS 應用程式可使用不同的位 [優先權層級](/windows/desktop/api/Bits/ne-bits-bg_job_priority) ，讓 bits 以智慧方式挑選要執行的傳送作業。 優先順序較高的工作優先於優先順序較低的工作。 優先順序層級相同的工作則會共用傳送時間，如此可防止傳送佇列中的某個大型工作阻擋其他幾個小型工作。 直到所有優先順序較高的工作都完成或處於錯誤狀態後，優先順序較低的工作才能接收傳送時間。
 
-BITS 會使用 Windows BranchCache 進行對等快取。 如需詳細資訊，請參閱 [BranchCache 總覽](/previous-versions/windows/it-pro/windows-7/dd755969(v=ws.10))。
+BITS 使用 Windows BranchCache 進行對等快取。 如需詳細資訊，請參閱 [BranchCache 總覽](/previous-versions/windows/it-pro/windows-7/dd755969(v=ws.10))。
 
-通用 Windows 平臺 (UWP) 開發人員應該使用 [Windows.networking.backgroundtransfer.contentprefetcher](/uwp/api/Windows.Networking.BackgroundTransfer) API，而不是 BITS api。
+通用 Windows 平臺 (UWP) 開發人員應該使用[Windows。Windows.networking.backgroundtransfer.contentprefetcher](/uwp/api/Windows.Networking.BackgroundTransfer) API，而不是 BITS api。
 
 有三種類型的 [**傳送作業**](/windows/desktop/api/Bits/ne-bits-bg_job_type)。 下載作業會將檔案下載到用戶端、上傳作業會將檔案上傳到伺服器，而上傳-回復作業會將檔案上傳至伺服器，並從伺服器應用程式接收回複檔案。
 

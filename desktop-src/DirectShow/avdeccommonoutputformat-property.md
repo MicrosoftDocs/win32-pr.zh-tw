@@ -4,12 +4,12 @@ ms.assetid: fdccdbfa-2814-4d21-9a7f-4121b79718e6
 title: 'AVDecCommonOutputFormat 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b69c536b3c9f1bf75e2a5741d0cdd16569b3dd8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 129f9a1171c5870eab243108fc0ed6992be4993b886cbd36d72fe91988f321b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586748"
 ---
 # <a name="avdeccommonoutputformat-property"></a>AVDecCommonOutputFormat 屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "104510281"
 
 
 
-| GUID                                                               | Description                                                                                                                                                                                                         |
+| GUID                                                               | 描述                                                                                                                                                                                                         |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CODECAPI \_ GUID \_ AVDecAudioOutputFormat \_ PCM                        | PCM 音訊，使用任意數目的頻道                                                                                                                                                                             |
 | CODECAPI \_ GUID \_ AVDecAudioOutputFormat \_ PCM \_ 耳機            | 身歷聲 PCM 音訊，使用僅限左/右 (Lo/Ro) downmix                                                                                                                                                        |
@@ -48,8 +48,8 @@ ms.locfileid: "104510281"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

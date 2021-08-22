@@ -16,19 +16,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d461670cc65f5cfcb433a52529e724a1c54bede
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 570c7371b1aa19bf5a7b3932a9560103ba0b7f25072ad7cb69d5bd53e82bb90e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500728"
 ---
 # <a name="iorpcdebugnotifyservergetbuffersize-method"></a>IOrpcDebugNotify：： ServerGetBufferSize 方法
 
 從伺服器端偵錯工具抓取 RPC 緩衝區大小。
 
 > [!Note]  
-> 包含 **ServerGetBufferSize** 函式的匯入程式庫不包含在 Microsoft WINDOWS 軟體開發套件 (SDK) 中。 應用程式可以使用 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) 和 [**GetModuleHandle**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) 函式，從 oleaut.dll 中取出 [**DllDebugObjectRPCHook**](dlldebugobjectrpchook.md) 的函式指標，並透過 [**IOrpcDebugNotify**](iorpcdebugnotify.md) 介面提供此函數。
+> 包含 **ServerGetBufferSize** 函式的匯入程式庫不包含在 Microsoft Windows 軟體開發套件 (SDK) 中。 應用程式可以使用 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) 和 [**GetModuleHandle**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) 函式，從 oleaut.dll 中取出 [**DllDebugObjectRPCHook**](dlldebugobjectrpchook.md) 的函式指標，並透過 [**IOrpcDebugNotify**](iorpcdebugnotify.md) 介面提供此函數。
 
  
 
@@ -67,7 +67,7 @@ void ServerGetBufferSize(
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                     |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>N/A</dt> </dl> |
-| Idl<br/>                      | <dl> <dt>N/A</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>N/A</dt> </dl> |
 
 
 

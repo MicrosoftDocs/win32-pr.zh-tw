@@ -5,12 +5,12 @@ ms.assetid: a7bd3c26-984c-42c8-9903-1bbee40637da
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e14da2e1ee29d2377519bcc97931e376a7219f28
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 232cdfea15a0d316b3290f41ce916eca146cb3271baa69785039d265a7776511
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533168"
 ---
 # <a name="all-classes"></a>所有類別
 
@@ -18,7 +18,7 @@ ms.locfileid: "104020998"
 
 <dl>
 
-[**account**](c-account.md)  
+[**帳戶**](c-account.md)  
 [**ACS-原則**](c-acspolicy.md)  
 [**ACS-資源-限制**](c-acsresourcelimits.md)  
 [**ACS-子網**](c-acssubnet.md)  
@@ -39,7 +39,7 @@ ms.locfileid: "104020998"
 [**類別存放區**](c-classstore.md)  
 [**Com-連接點**](c-comconnectionpoint.md)  
 [**電腦**](c-computer.md)  
-[**配置**](c-configuration.md)  
+[**組態**](c-configuration.md)  
 [**連接點**](c-connectionpoint.md)  
 [**Contact**](c-contact.md)  
 [**容器**](c-container.md)  
@@ -53,7 +53,7 @@ ms.locfileid: "104020998"
 [**DHCP 類別**](c-dhcpclass.md)  
 [**顯示規範**](c-displayspecifier.md)  
 [**顯示範本**](c-displaytemplate.md)  
-[**Dmd**](c-dmd.md)  
+[**DMD**](c-dmd.md)  
 [**Dns-Node**](c-dnsnode.md)  
 [**Dns-區域**](c-dnszone.md)  
 [**文檔**](c-document.md)  
@@ -93,7 +93,7 @@ ms.locfileid: "104020998"
 [**Ipsec-Policy**](c-ipsecpolicy.md)  
 [**ipService**](c-ipservice.md)  
 [**Leaf**](c-leaf.md)  
-[**授權-網站-設定**](c-licensingsitesettings.md)  
+[**授權-網站設定**](c-licensingsitesettings.md)  
 [**連結-追蹤-物件-移動資料表**](c-linktrackobjectmovetable.md)  
 [**連結-追蹤-OMT-Entry**](c-linktrackomtentry.md)  
 [**連結-追蹤-音量-進入**](c-linktrackvolentry.md)  
@@ -159,7 +159,7 @@ ms.locfileid: "104020998"
 [**Kds 根金鑰->prov-ServerConfiguration**](c-mskds-provserverconfiguration.md)  
 [**MSMQ-設定**](c-msmqconfiguration.md)  
 [**MSMQ-自訂-收件者**](c-msmq-custom-recipient.md)  
-[**MSMQ-企業-設定**](c-msmqenterprisesettings.md)  
+[**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)  
 [**MSMQ 群組**](c-msmq-group.md)  
 [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)  
 [**MSMQ-佇列**](c-msmqqueue.md)  
@@ -167,7 +167,7 @@ ms.locfileid: "104020998"
 [**MSMQ-網站連結**](c-msmqsitelink.md)  
 [**ms-net-ieee-80211-GroupPolicy**](c-ms-net-ieee-80211-grouppolicy.md)  
 [**ms-net-ieee-8023-GroupPolicy**](c-ms-net-ieee-8023-grouppolicy.md)  
-[**ms-PKI-企業-Oid**](c-mspki-enterprise-oid.md)  
+[**ms-chap-Enterprise-Oid**](c-mspki-enterprise-oid.md)  
 [**ms-PKI-金鑰復原-代理程式**](c-mspki-key-recovery-agent.md)  
 [**ms-PKI-私用金鑰-復原代理程式**](c-mspki-privatekeyrecoveryagent.md)  
 [**毫秒-列印-ConnectionPolicy**](c-msprint-connectionpolicy.md)  
@@ -178,13 +178,13 @@ ms.locfileid: "104020998"
 [**msSFU-30-NIS-對應-Config**](c-mssfu30nismapconfig.md)  
 [**ms SPP-啟用-物件**](c-msspp-activationobject.md)  
 [**SPP-啟用-物件-容器**](c-msspp-activationobjectscontainer.md)  
-[**OLAPCube**](c-ms-sql-olapcube.md)  
-[**OLAPDatabase**](c-ms-sql-olapdatabase.md)  
-[**Olapserver.server**](c-ms-sql-olapserver.md)  
-[**SQLDatabase**](c-ms-sql-sqldatabase.md)  
-[**SQLPublication**](c-ms-sql-sqlpublication.md)  
-[**SQLRepository**](c-ms-sql-sqlrepository.md)  
-[**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)  
+[**毫秒-SQL-OLAPCube**](c-ms-sql-olapcube.md)  
+[**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)  
+[**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)  
+[**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)  
+[**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)  
+[**毫秒-SQL-SQLRepository**](c-ms-sql-sqlrepository.md)  
+[**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)  
 [**ms-TAPI-Rt-會議**](c-mstapi-rtconference.md)  
 [**ms-TAPI-Rt-Person**](c-mstapi-rtperson.md)  
 [**ms-TPM-資訊-物件**](c-mstpm-informationobject.md)  
@@ -225,7 +225,7 @@ ms.locfileid: "104020998"
 [**組織角色**](c-organizationalrole.md)  
 [**組織單位**](c-organizationalunit.md)  
 [**套件-註冊**](c-packageregistration.md)  
-[**個人**](c-person.md)  
+[**人**](c-person.md)  
 [**實體位置**](c-physicallocation.md)  
 [**PKI-憑證-範本**](c-pkicertificatetemplate.md)  
 [**PKI-註冊-服務**](c-pkienrollmentservice.md)  
@@ -234,7 +234,7 @@ ms.locfileid: "104020998"
 [**列印佇列**](c-printqueue.md)  
 [**查詢原則**](c-querypolicy.md)  
 [**遠端郵件-收件者**](c-remotemailrecipient.md)  
-[**遠端存放服務-點**](c-remotestorageservicepoint.md)  
+[**遠端儲存體-服務點**](c-remotestorageservicepoint.md)  
 [**居住人**](c-residentialperson.md)  
 [**rFC822LocalPart**](c-rfc822localpart.md)  
 [**RID 管理員**](c-ridmanager.md)  
@@ -268,19 +268,19 @@ ms.locfileid: "104020998"
 [**網站-連結-橋接器**](c-sitelinkbridge.md)  
 [**網站-容器**](c-sitescontainer.md)  
 [**儲存體**](c-storage.md)  
-[**子**](c-subnet.md)  
+[**子網路**](c-subnet.md)  
 [**子網-容器**](c-subnetcontainer.md)  
 [**Ubschema**](c-subschema.md)  
 [**返回頁首**](c-top.md)  
 [**信任網域**](c-trusteddomain.md)  
 [**類型程式庫**](c-typelibrary.md)  
-[**User**](c-user.md)  
+[**使用者**](c-user.md)  
 [**磁碟區**](c-volume.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

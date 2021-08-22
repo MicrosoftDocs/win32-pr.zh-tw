@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5f099b74af84e1a75289313c5bb9d4de646b51a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb7b1bb73c611ce65d0c2d07059eb14e7ceba6b59b648c474bd753988d7b9232
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616138"
 ---
 # <a name="jet_signatureequals-method-jet_signature"></a>JET_SIGNATURE。Equals 方法 (JET_SIGNATURE) 
 

@@ -4,12 +4,12 @@ ms.assetid: c87be63a-58b5-9cd1-1f03-f32b5a858b2e
 title: XAudio2 簡介
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7cde958256d9126746a07764dc0c792e88289c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4a966e9682a7f605864c0374a588d4b7eb3724036fe284bd6d92c64080e9225
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589898"
 ---
 # <a name="xaudio2-introduction"></a>XAudio2 簡介
 
@@ -31,7 +31,7 @@ XAudio2 是適用于 DirectSound 的長時間等待取代。 它解決了數個�
 
     Submixing 會將數個音效合併成單一音訊串流，例如，引擎音效由複合元件組成，全都是同時播放。 此外，您也可以使用 submixing 來處理和合併遊戲的相似部分。 例如，您可以結合所有遊戲音效效果，讓使用者音量設定可以在個別設定控制音樂音量時套用。 Submixing 結合了 DSP，提供現今遊戲所需的資料路由與處理類型。 XAudio2 允許任意層級的 submixing，讓您能夠建立複雜的音效和遊戲混合。
 
-    如需 submixing 的詳細資訊，請參閱 [XAudio2 音訊圖形](xaudio2-audio-graph.md) 和 [XAudio2 聲音](xaudio2-voices.md) 。
+    如需 submixing 的詳細資訊，請參閱[XAudio2 音訊 Graph](xaudio2-audio-graph.md)和[XAudio2 聲音](xaudio2-voices.md)。
 
 -   壓縮的音訊支援
 

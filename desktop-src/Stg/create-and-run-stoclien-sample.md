@@ -6,12 +6,12 @@ keywords:
 - 建立並執行 StoClien 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f00274293c05e21e660dc8e9448ca95946cab8a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4d3d9526e81fc3fb2d6a0cfb03e8943ccf68688096588122da87861d8c88e531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663458"
 ---
 # <a name="create-and-run-stoclien-sample"></a>建立並執行 StoClien 範例
 
@@ -33,39 +33,39 @@ ms.locfileid: "106965977"
 
 
 
-| 檔案        | Description                                                                                                                      |
+| 檔案        | 描述                                                                                                                      |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------|
 | STOCLIEN.TXT | 簡短範例描述。                                                                                                        |
 | 生成     | 用來建立程式碼範例的一般 makefile。                                                                               |
 | STOCLIEN.H   | **StoClien** 應用程式的 include 檔。 包含類別宣告、函數原型和資源識別碼。   |
-| STOCLIEN.Cpp | STOCLIEN.EXE 的主要執行檔。 具有 WinMain 和 CMainWindow 的執行，以及主功能表分派。 |
+| STOCLIEN.CPP | STOCLIEN.EXE 的主要執行檔。 具有 WinMain 和 CMainWindow 的執行，以及主功能表分派。 |
 | STOCLIEN.鋼筋混凝土  | 應用程式資源定義檔。                                                                                        |
 | STOCLIEN..ICO | 應用程式圖示資源。                                                                                                   |
-| STOCLIEN.Pap | 應用程式的預設檔繪圖檔案。                                                                                |
+| STOCLIEN.PAP | 應用程式的預設檔繪圖檔案。                                                                                |
 | 鉛筆。當前   | 用戶端視窗資料指標的鉛筆影像。                                                                                     |
 | 下沉。H       | COPaperSink COM 物件類別的類別宣告。                                                                      |
-| 下沉。Cpp     | COPaperSink COM 物件類別的實檔案名。                                                                        |
+| 下沉。CPP     | COPaperSink COM 物件類別的實檔案名。                                                                        |
 | PAPFILE.H    | **CPapFile** c + + 類別的類別宣告。                                                                            |
-| PAPFILE.Cpp  | **CPapFile** c + + 類別的實檔案。                                                                              |
+| PAPFILE.CPP  | **CPapFile** c + + 類別的實檔案。                                                                              |
 | GUIPAPER.H   | **CGuiPaper** c + + 類別的類別宣告。                                                                           |
-| GUIPAPER.Cpp | **CGuiPaper** c + + 類別的實檔案。                                                                             |
-| STOCLIEN.Dsp | Microsoft Visual Studio 專案檔。                                                                                            |
+| GUIPAPER.CPP | **CGuiPaper** c + + 類別的實檔案。                                                                             |
+| STOCLIEN.DSP | Microsoft Visual Studio Project 檔。                                                                                            |
 
 
 
- 
+ 
 
 ## <a name="compound-files"></a>複合檔案
 
 **StoClien** 依賴 COPaper 來記錄繪圖資料。 它也依賴 COPaper 將資料儲存在複合檔案中。 不過，在 COM 用戶端與伺服器之間的一般人力部門中， **StoClien** 會共用檔案儲存體的部分責任。 在用戶端為容器且伺服器為内嵌物件的 COM 應用程式中，這項工作相當重要。 在這種安排中，用戶端會負責建立或開啟結構化儲存體檔案，而伺服器物件則負責將該儲存體用於自己的資料儲存用途。 這可能牽涉到伺服器物件在提供給它的儲存體中建立 substorages。 它通常涉及在儲存體中建立資料流程物件的伺服器物件。 COPaper 使用儲存體串流的詳細資訊請見 **StoClien** 範例。
 
-[**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage)介面是由用戶端和伺服器物件用來執行檔案作業。 使用結構化儲存架構的複合檔案執行。 標準服務函數用於複合檔案的作業。 例如， [**StgCreateDocfile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile) 函式一開始會建立複合檔案，並傳回可用於操作檔案的 **IStorage** 指標。 這個特定的函式會在 **StoClien** 中呼叫。 它取得的 **IStorage** 介面會以參數的形式傳遞給 COPaper，以供使用。 COPaper 物件不會自行建立或開啟複合檔案：它會使用 **IStorage** 和 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) 介面，在提供給它的複合檔案中運作。
+[**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage)介面是由用戶端和伺服器物件用來執行檔案作業。 使用結構化儲存體架構的複合檔案執行。 標準服務函數用於複合檔案的作業。 例如， [**StgCreateDocfile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile) 函式一開始會建立複合檔案，並傳回可用於操作檔案的 **IStorage** 指標。 這個特定的函式會在 **StoClien** 中呼叫。 它取得的 **IStorage** 介面會以參數的形式傳遞給 COPaper，以供使用。 COPaper 物件不會自行建立或開啟複合檔案：它會使用 **IStorage** 和 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) 介面，在提供給它的複合檔案中運作。
 
 這些 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 和 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) 介面不會在 **StoClien** 或 **StoServe** 中執行。 它們是在 COM 程式庫中執行。 當取得其中一個介面的指標時，它們的方法基本上會用來做為複合檔案上操作的一組服務。
 
- 
+ 
 
- 
+ 
 
 
 

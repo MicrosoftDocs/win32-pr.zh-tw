@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3697937f2050e2a3a6a4eeeb67d17a5e443b3d67
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a5720892964af4ccf5b7ea20c83dfdf0897f51b0c36bd97415270d6a35b69fef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507808"
 ---
 # <a name="ms-ts-secondary-desktops-attribute"></a>ms-TS-次要-桌面屬性
 
@@ -62,7 +62,7 @@ ms.locfileid: "104107688"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 

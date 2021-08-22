@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: abf31237918d533ec43586ddd3d71204f2c8ae21
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 36ef67190f43c9346bb0678276122c0149979e7785bdc7f430816d5c295cccf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504488"
 ---
 # <a name="printtestpage-method-of-the-win32_printer-class"></a>Win32 Printer 類別的 PrintTestPage 方法 \_
 

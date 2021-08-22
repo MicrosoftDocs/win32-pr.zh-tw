@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46a846454ab450968b854a815d546c33588a1afb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 522201425122ebf525c2ba4bbcc3c4f20a43fafea894082c14aab4a71048ae06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508088"
 ---
 # <a name="ms-ts-max-disconnection-time-attribute"></a>ms-TS-最大中斷連線時間屬性
 
@@ -55,7 +55,7 @@ ms.locfileid: "103935384"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -63,7 +63,7 @@ ms.locfileid: "103935384"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "103935384"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -84,7 +84,7 @@ ms.locfileid: "103935384"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -97,7 +97,7 @@ ms.locfileid: "103935384"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |

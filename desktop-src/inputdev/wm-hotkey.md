@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f09e81a964542a6a8166ae54a0df4d7127466c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 51dbd37b61fea12e559323a73cbf6b4a5cb54704a74663f865d9aa89636d3c46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557138"
 ---
 # <a name="wm_hotkey-message"></a>WM \_ 熱鍵訊息
 
@@ -66,7 +66,7 @@ ms.locfileid: "104384422"
 | <span id="MOD_ALT"></span><span id="mod_alt"></span><dl> <dt>**MOD \_ALT**</dt> <dt>0x0001</dt> </dl>             | 任一個 ALT 鍵已關閉。<br/>                                                                                                                                      |
 | <span id="MOD_CONTROL"></span><span id="mod_control"></span><dl> <dt>**MOD \_控制項**</dt> <dt>0x0002</dt> </dl> | 其中一個 CTRL 鍵已關閉。<br/>                                                                                                                                     |
 | <span id="MOD_SHIFT"></span><span id="mod_shift"></span><dl> <dt>**MOD \_SHIFT**</dt> <dt>0x0004</dt> </dl>       | 任一個 SHIFT 鍵已關閉。<br/>                                                                                                                                    |
-| <span id="MOD_WIN"></span><span id="mod_win"></span><dl> <dt>**MOD \_WIN**</dt> <dt>0x0008</dt> </dl>             | 其中一個 WINDOWS 機碼已關閉。 這些金鑰會以 Windows 標誌標記。 牽涉到 Windows 金鑰的快速鍵是保留供作業系統使用。<br/> |
+| <span id="MOD_WIN"></span><span id="mod_win"></span><dl> <dt>**MOD \_WIN**</dt> <dt>0x0008</dt> </dl>             | 其中一個 WINDOWS 機碼已關閉。 這些金鑰會以 Windows 標誌標記。 牽涉到 Windows 金鑰的快速鍵會保留給作業系統使用。<br/> |
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "104384422"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

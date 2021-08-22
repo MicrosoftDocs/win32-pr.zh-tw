@@ -1,19 +1,19 @@
 ---
-title: " (Windows 7/8) 的自訂字型集合"
-description: DirectWrite 可讓您使用 IDWriteFactory GetSystemFontCollection 方法存取系統字型集合。
+title: '自訂字型集合 (Windows 7/8) '
+description: DirectWrite 使用 IDWriteFactory GetSystemFontCollection 方法提供系統字型集合的存取權。
 ms.assetid: ec892904-6778-4fbd-93b4-62d0db5b82ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39aa764330f27b72051ef682c6ce5f1176c42c7d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ffc76214dda067b43c27c8e04e4419f147d0e33b7566b4dedc5ac3255a1c1dc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290758"
 ---
-# <a name="custom-font-collections-windows-78"></a> (Windows 7/8) 的自訂字型集合
+# <a name="custom-font-collections-windows-78"></a>自訂字型集合 (Windows 7/8) 
 
-[DirectWrite](direct-write-portal.md) 會使用 [**IDWriteFactory：： GetSystemFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection) 方法，提供系統字型集合的存取權。 這是最常使用的字型集合。 不過，有些應用程式必須使用系統上未安裝的字型，例如從包含的字型檔案或內嵌于應用程式中的字型檔案。
+[DirectWrite](direct-write-portal.md)使用 [**IDWriteFactory：： GetSystemFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection)方法提供系統字型集合的存取權。 這是最常使用的字型集合。 不過，有些應用程式必須使用系統上未安裝的字型，例如從包含的字型檔案或內嵌于應用程式中的字型檔案。
 
 如果您想要的字型不在系統字型集合中，您可以建立衍生自 [**IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection)的自訂字型集合。
 
@@ -35,18 +35,18 @@ ms.locfileid: "103682703"
 > [!Note]  
 > 註冊字型集合載入器會新增至參考計數;請勿從函式內呼叫 [**UnregisterFontCollectionLoader**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontcollectionloader) ，否則將永遠不會取消註冊集合載入器物件。
 
- 
+ 
 
 ## <a name="idwritefontcollectionloader"></a>IDWriteFontCollectionLoader
 
 您可以使用 [**IDWriteFactory：： CreateCustomFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection)建立 [**IDWriteFontFileEnumerator**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator)物件，並將它傳遞至應用程式定義的索引鍵。 索引鍵是 void 指標，而資料類型、格式和意義是由應用程式所定義，而且對字型系統而言是不透明的。
 
-雖然索引鍵可以是任何內容，但 [DirectWrite](direct-write-portal.md) 需要每個金鑰都是：
+索引鍵可以是任何內容， [DirectWrite](direct-write-portal.md)要求每個金鑰都必須是：
 
 -   在載入器範圍內的單一字型集合中是唯一的。
 -   在使用 factory 取消註冊載入器之前有效。
 
-呼叫 [**CreateCustomFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection) 方法時， [DirectWrite](direct-write-portal.md) 會呼叫回 [**IDWriteFontCollectionLoader**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader) 介面，應用程式會將它實作為單一物件。 [**IDWriteFontCollectionLoader：： CreateEnumeratorFromKey**](/windows/win32/api/dwrite/nf-dwrite-idwritefontcollectionloader-createenumeratorfromkey)回呼方法是由 DirectWrite 用來取出應用程式所執行的 [**IDWriteFontFileEnumerator**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator)物件。 用來建立集合的 [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) 物件會傳遞給這個方法，且應該由字型檔案列舉值用來建立要包含在集合中的 [**IDWriteFontFile**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) 物件。
+呼叫 [**CreateCustomFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection)方法時， [DirectWrite](direct-write-portal.md)會呼叫回 [**IDWriteFontCollectionLoader**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader)介面，應用程式會將它實作為單一物件。 [**IDWriteFontCollectionLoader：： CreateEnumeratorFromKey**](/windows/win32/api/dwrite/nf-dwrite-idwritefontcollectionloader-createenumeratorfromkey)回呼方法是由 DirectWrite 用來取出應用程式所執行的 [**IDWriteFontFileEnumerator**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator)物件。 用來建立集合的 [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) 物件會傳遞給這個方法，且應該由字型檔案列舉值用來建立要包含在集合中的 [**IDWriteFontFile**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) 物件。
 
 傳遞給這個方法的金鑰會識別字型集合，而且是傳遞給 [**CreateCustomFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection)的相同索引鍵。
 
@@ -57,7 +57,7 @@ ms.locfileid: "103682703"
 > [!Note]  
 > 字型檔案列舉值的開頭必須是在第一個元素之前，並在第一次呼叫 [**MoveNext**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-movenext)時開始。
 
- 
+ 
 
 [**IDWriteFontFile**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile)物件是由 [**IDWriteFontFileEnumerator：： GetCurrentFontFile**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-getcurrentfontfile)方法輸出。 如果目前位置沒有字型檔案，因為 [**MoveNext**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-movenext) 尚未呼叫或 hasCurrentFile 設定為 **FALSE**，則 **GetCurrentFontFile** 會傳回 **E \_ 失敗**。
 
@@ -76,10 +76,10 @@ ms.locfileid: "103682703"
 > [!Note]  
 > 如果要求的片段超出檔案範圍， [**ReadFileFragment**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-readfilefragment)的執行應該會傳回錯誤。
 
- 
+ 
 
 [**IDWriteFontFileStream**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream)可以從任何地方取得字型檔案內容，例如本機硬碟或內嵌的資源。
 
- 
+ 
 
- 
+ 

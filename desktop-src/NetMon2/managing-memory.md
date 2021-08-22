@@ -4,12 +4,12 @@ ms.assetid: b6f5749b-161e-47a7-82cf-d85ad3703ecd
 title: 管理記憶體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e2e2a6cca89a095c03c5c0cad25642b87d2c252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0c4cc5b38f5525b7c0d19e115c83ed9f770c72215c6b64825a089ec389bfc09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555878"
 ---
 # <a name="managing-memory"></a>管理記憶體
 

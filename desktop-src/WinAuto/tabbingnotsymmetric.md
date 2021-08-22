@@ -4,12 +4,12 @@ description: TabbingNotSymmetric
 ms.assetid: 1E14ED9F-27C1-4054-B0A6-702167222196
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc19efbbbce0f299044726466dd8f87b133fc26d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f6bda8de3e07f0ac6be3aa3a2a7bd750508dead1f5c2662391a056b258b36d81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644098"
 ---
 # <a name="tabbingnotsymmetric"></a>TabbingNotSymmetric
 
@@ -38,6 +38,6 @@ ms.locfileid: "104092849"
 [鍵盤使用者介面設計指導方針](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

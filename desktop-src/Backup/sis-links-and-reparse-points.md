@@ -8,12 +8,12 @@ keywords:
 - 儲存 (SIS) 備份、重新分析點的單一實例存放區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4987e7c64a83e7d0b02ed91899a182616be7943
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 00f89901df6ce1fea1635d4250f2884ec9baf68fb1552766564909486c8ed00a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588858"
 ---
 # <a name="sis-links-and-reparse-points"></a>SIS 連結和重新分析點
 
@@ -29,6 +29,6 @@ SIS 連結會實作為稀疏檔案，通常會有大部分未配置的檔案範�
 
 SIS 輔助備份所需的唯一額外負荷，是您的備份應用程式必須備份 SIS 連結和與備份檔案相關聯的資料。 所有 SIS 備份和還原作業都是特定磁片區的本機。
 
- 
+ 
 
- 
+ 

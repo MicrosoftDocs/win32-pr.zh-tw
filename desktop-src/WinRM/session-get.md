@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e4ee84cc711db312389151d1dd95fb890474dcd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c983c5f95ddfa3acc88b85b383ec85ddf85f885293031fe9bc4e4e07c90850a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642558"
 ---
 # <a name="sessionget-method"></a>Session. Get 方法
 
@@ -51,7 +51,7 @@ Session.Get( _
 
 此參數可包含下列其中一項：
 
--   具有或不含 [*選取器*](windows-remote-management-glossary.md)的 URI。 使用選取器來呼叫 **Get** 方法以取得 WMI 資源時，請使用物件的索引鍵屬性或屬性。 例如，在下列 Visual Basic Scripting Edition 中 (VBScript) 程式碼範例，則是由指定索引鍵 `Win32_Service?Name=winmgmt` 。 針對單一類別（例如 [**Win32 \_ LocalTime**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime)），您無法使用選取器。
+-   具有或不含 [*選取器*](windows-remote-management-glossary.md)的 URI。 使用選取器來呼叫 **Get** 方法以取得 WMI 資源時，請使用物件的索引鍵屬性或屬性。 例如，在下列 Visual Basic 腳本撰寫版 (VBScript) 程式碼範例中，則是由指定索引鍵 `Win32_Service?Name=winmgmt` 。 針對單一類別（例如 [**Win32 \_ LocalTime**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime)），您無法使用選取器。
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/" _ 
@@ -188,7 +188,7 @@ End Sub
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
@@ -198,7 +198,7 @@ End Sub
 
 <dl> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> </dl>
 
  

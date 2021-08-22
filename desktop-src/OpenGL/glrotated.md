@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d0678e9da6f0b68047708f45fda1c9da66d8139
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 32216eab9a7c7613f082470360d3f938bbdeaf8ae38cd875d84cd0338dfa78c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491768"
 ---
 # <a name="glrotated-function"></a>glRotated 函式
 
@@ -64,7 +64,7 @@ void WINAPI glRotated(
 
 </dd> <dt>
 
-*Z* 
+*z* 
 </dt> <dd>
 
 向量的 *z* 座標。
@@ -81,7 +81,7 @@ void WINAPI glRotated(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |
 

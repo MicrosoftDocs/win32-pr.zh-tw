@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93d7333a7e740121a1591bd9721064745d6c1096
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4ff58a2b11b26e43cf8e0d123461d5725fd5c53c038dc7a5d147754ceea76526
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119530878"
 ---
 # <a name="validated-ms-ds-additional-dns-host-name-validated-writes"></a>已驗證-DS-其他 DNS-主機名稱驗證的寫入
 

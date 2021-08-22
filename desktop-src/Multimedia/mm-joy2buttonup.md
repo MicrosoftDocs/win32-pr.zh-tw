@@ -3,7 +3,7 @@ title: 'MM_JOY2BUTTONUP 訊息 (Mmsystem .h) '
 description: MM \_ JOY2BUTTONUP 訊息會通知已捕捉到搖桿的視窗 JOYSTICKID2 已釋放按鈕。
 ms.assetid: da024466-7cd3-42ec-90a7-1468eb42841e
 keywords:
-- MM_JOY2BUTTONUP message Windows 多媒體
+- MM_JOY2BUTTONUP 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7a4f2d23739fc72a6898e2b53fc3e1c330687f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f94a1761686bd2e3ac7c470268427a213d54cdb4b8a58d54fdd6961427c2377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557308"
 ---
 # <a name="mm_joy2buttonup-message"></a>MM \_ JOY2BUTTONUP 訊息
 
@@ -96,7 +96,7 @@ yPos = HIWORD(lParam);
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

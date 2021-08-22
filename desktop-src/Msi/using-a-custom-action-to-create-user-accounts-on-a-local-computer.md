@@ -4,12 +4,12 @@ ms.assetid: fc06dd7b-46d7-45a0-85b3-26f808c64f89
 title: 使用自訂動作在本機電腦上建立使用者帳戶
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfd3bf002c0fa1d661c6bfebb6d1a18cbc4b0652
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 408c80a5fbf32d9da758322bd6c5ebc881da73501d2b241c39f64cdd779d239d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499578"
 ---
 # <a name="using-a-custom-action-to-create-user-accounts-on-a-local-computer"></a>使用自訂動作在本機電腦上建立使用者帳戶
 
@@ -17,7 +17,7 @@ ms.locfileid: "104319607"
 
 此範例符合下列規格。
 
--   安裝只會在執行 Windows 2000 時建立使用者帳戶。
+-   只有在執行 Windows 2000 時，安裝才會建立使用者帳戶。
 -   只有在安裝元件以在本機執行時，安裝才會建立使用者帳戶。 這無法在元件修復或重新安裝期間建立使用者帳戶。
 -   移除元件時，安裝程式會移除這些帳戶。
 -   系統會從安裝資料庫中的自訂資料表讀取使用者帳戶資訊，而不是硬式編碼的自訂動作程式碼。

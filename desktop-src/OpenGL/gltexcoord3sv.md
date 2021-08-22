@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f193d0a918dea09e5ca8fa65f20c1bd4a49084d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2c41d010dd5ed3a770516a22e1e2c20df6a54cfa7e33413e1e5e69cf90da9399
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490928"
 ---
 # <a name="gltexcoord3sv-function"></a>glTexCoord3sv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glTexCoord3sv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 指標，指向三個元素的陣列，接著指定 s、t 和 r 材質座標。

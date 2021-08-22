@@ -4,16 +4,16 @@ ms.assetid: ec7882f7-7197-439a-82a4-ff081505a9d7
 title: Winsock ATM QoS 擴充功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 075c9dcbd8b9148f41d39c99e2118ed638a577ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 422db2df8e4f845086120814f6cf4e6288dcc00c42693eac8da21c466448aaa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612818"
 ---
 # <a name="winsock-atm-qos-extension"></a>Winsock ATM QoS 擴充功能
 
-本節說明適用于 ATM 的通訊協定特定服務品質 ([**qos**](/windows/win32/api/winsock2/ns-winsock2-qos)) 結構，此結構包含在 **QOS** 結構的 [ProviderSpecific](/previous-versions/aa374467(v=vs.80))欄位中。 請注意，使用此 ATM 專屬的 **QOS** 結構是 Windows 通訊端2用戶端的選用專案，而且必須要有 atm 服務提供者，才能將泛型 [**FLOWSPEC**](/windows/win32/api/qos/ns-qos-flowspec) 結構對應到適當的 Q. 2931 資訊元素。 但是，如果同時指定了泛型 **FLOWSPEC** 結構和 atm 專屬的 **qos** 結構，則在有任何衝突時，ATM 特定 **qos** 結構中指定的值應該會優先。 如需 QoS 布建和 **FLOWSPEC** 結構的詳細資訊，請參閱 Windows 通訊端 2 API 規格一節2.7。
+本節說明適用于 ATM 的通訊協定特定服務品質 ([**qos**](/windows/win32/api/winsock2/ns-winsock2-qos)) 結構，此結構包含在 **QOS** 結構的 [ProviderSpecific](/previous-versions/aa374467(v=vs.80))欄位中。 請注意，Windows 通訊端2用戶端可以選擇性地使用這個 atm 專屬的 **QOS** 結構，而 ATM 服務提供者則需要將泛型 [**FLOWSPEC**](/windows/win32/api/qos/ns-qos-flowspec)結構對應到適當的2931資訊元素。 但是，如果同時指定了泛型 **FLOWSPEC** 結構和 atm 專屬的 **qos** 結構，則在有任何衝突時，ATM 特定 **qos** 結構中指定的值應該會優先。 如需 QoS 布建和 **FLOWSPEC** 結構的詳細資訊，請參閱 Windows 通訊端 2 API 規格一節2.7。
 
 適用于 ATM 的通訊協定特定 [**QOS**](/windows/win32/api/winsock2/ns-winsock2-qos) 結構是 2931 information 元素的串連， (IE) 結構，這些是在下列文字中定義的。 如果應用程式略過採用了3.x 的 IE，服務提供者應該插入合理的預設值，將 [**FLOWSPEC**](/windows/win32/api/qos/ns-qos-flowspec) 結構中的資訊納入考慮（如果適用）。
 

@@ -5,12 +5,12 @@ ms.assetid: b7a3c92e-6796-482f-9d70-18a48cce4ad8
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c00a908856a6df8233e377d917ff28029dc8468e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9c9c3d1f6f9f9d476e9b49ef309e5236e4421e0b5afa77fa1072b92f2060cfcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643258"
 ---
 # <a name="client-shell-api-structures-and-definitions"></a>用戶端 Shell API 結構和定義
 
@@ -24,11 +24,11 @@ ms.locfileid: "104375625"
 
 
 
- 
+ 
 
 
 
-| 結構                                                                      | Description                                                                                                                                 |
+| 結構                                                                      | 描述                                                                                                                                 |
 |--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WSMAN \_ 驗證認證 \_**](/windows/desktop/api/Wsman/ns-wsman-wsman_authentication_credentials) | 定義驗證方法，以及用於伺服器或 proxy 驗證的認證。                                              |
 | [**WSMAN \_ 資料**](/windows/desktop/api/Wsman/ns-wsman-wsman_data)                                              | 儲存用於 WinRM API 的輸入和輸出資料。                                                                                     |
@@ -52,8 +52,8 @@ ms.locfileid: "104375625"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

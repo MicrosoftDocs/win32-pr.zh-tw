@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: aa8093ecbd428cafbf1266179b1489cac0d69c4d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: caf429437d284a27e4cda830b51e4512375310f2d466a597e58c394a2fea551f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501628"
 ---
 # <a name="validatereadptr-macro"></a>ValidateReadPtr 宏
 
@@ -45,7 +45,7 @@ void ValidateReadPtr(
 
 <dl> <dt>
 
-*P* 
+*p* 
 </dt> <dd>
 
 記憶體區塊的指標。
@@ -65,7 +65,7 @@ void ValidateReadPtr(
 
 ## <a name="remarks"></a>備註
 
-除非包含了 DirectShow 基類標頭檔，否則會忽略這個宏，除非已定義 DEBUG、 \_ debug 或 VFWROBUST。 此宏可能會有顯著的效能成本。
+除非包含了 DirectShow 的基類標頭檔，否則會忽略這個宏，除非已定義 debug、 \_ debug 或 VFWROBUST。 此宏可能會有顯著的效能成本。
 
 ## <a name="requirements"></a>規格需求
 

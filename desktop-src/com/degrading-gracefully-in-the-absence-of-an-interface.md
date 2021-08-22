@@ -4,18 +4,18 @@ description: 由於控制項可能不支援 IUnknown 以外的任何介面，因
 ms.assetid: 1b833900-2357-4b39-b88d-5ee6321f488e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26618e00f2d959cccfd7ab4d2948fac9c1a3f020
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: fef1b329faa2d4da333cf2e201fc887764af96bc5ea2573060f41774b57c0d56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "106967877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501270"
 ---
 # <a name="degrading-gracefully-in-the-absence-of-an-interface"></a>在沒有介面時正常降級
 
 由於控制項可能不支援 [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)以外的任何介面，因此當容器遇到任何特定的介面時，就必須正常地降級。
 
-其中一個問題可能就是控制項的實用性，不只是 [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)。 但是，請考慮控制項從容器的視覺化程式設計環境接收的優點 (例如，當容器將物件辨識為控制項時，VB) ：
+其中一個問題可能就是控制項的實用性，不只是 [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)。 但是，請考慮控制項從容器的視覺化程式設計環境接收的優點 (例如 VB) 當容器將物件辨識為控制項時：
 
 -   物件的按鈕會出現在 [工具箱] 中。
 -   您可以將物件從 [工具箱] 拖曳到表單上，以建立物件。

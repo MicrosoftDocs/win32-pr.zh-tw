@@ -10,12 +10,12 @@ keywords:
 - window. external、transfer 資訊清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20fa7b3a35a6f06e2939b6c25f82d12c2b98a7f7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 48d7f4ea3f9cd392f4b0bab50e1e558613fc7485d4f44a27472cd48ad898b3ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555848"
 ---
 # <a name="using-the-transfer-manifest"></a>使用傳送資訊清單
 
@@ -47,7 +47,7 @@ Web 發佈嚮導和線上列印順序 Wizard 會使用傳輸資訊清單來傳�
 > [!Note]  
 > 每次選擇新的提供者時，就會重新建立資訊清單，讓提供者有機會將網站資訊儲存在資訊清單中。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,6 +56,6 @@ Web 發佈嚮導和線上列印順序 Wizard 會使用傳輸資訊清單來傳�
 [傳送資訊清單架構](/windows/desktop/shell/interfaces)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

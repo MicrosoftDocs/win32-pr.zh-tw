@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d978ec4c5693a5087734975c412b999ed7d5890
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: c9dbfcaeab897d55064fe11a506cefbc9d85dd6852a32d279133e6fe7a33a692
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "106967933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588798"
 ---
 # <a name="ack-for-create-session"></a>Create-Session 的 Ack
 

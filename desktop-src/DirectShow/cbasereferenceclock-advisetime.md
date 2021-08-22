@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 326fc5e0939803ab66e0466fbf32351387977019
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e50b864a63cdd021d82c0a2a73f4f9c3acb68d1afb1f6a2dcd8d8d575966a5fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502788"
 ---
 # <a name="cbasereferenceclockadvisetime-method"></a>CBaseReferenceClock. AdviseTime 方法
 
@@ -79,7 +79,7 @@ HRESULT AdviseTime(
 
 
 
-| 傳回碼                                                                                   | Description                          |
+| 傳回碼                                                                                   | 描述                          |
 |-----------------------------------------------------------------------------------------------|--------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | Success<br/>                   |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | 時間值無效<br/>       |

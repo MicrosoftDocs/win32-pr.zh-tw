@@ -4,12 +4,12 @@ description: 'Float16 至 float32 轉換的元件。 |f16tof32 (sm5-asm) '
 ms.assetid: CFAA1350-DA7F-4105-A90A-72052C5E2FB3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d53af1f2eab1f50dfded820bf27b2cda8f23e6b4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0cc4456737d5ddaaed351ae2a1cc76418c33af9c498e725099e1912d8fabe7ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562649"
 ---
 # <a name="f16tof32-sm5---asm"></a>f16tof32 (sm5-asm) 
 
@@ -47,7 +47,7 @@ Float16 至 float32 轉換的元件。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -64,11 +64,11 @@ Float16 至 float32 轉換的元件。
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
