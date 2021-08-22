@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 11/04/2020
-ms.openlocfilehash: ad4ff8c409f79a03cb4021974fe374498926c3e2
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 5f2d95d0eef67309ef1e5902ed6b968616b38bc081bd259d77418e950e4e028f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989598"
 ---
 # <a name="directml-constants"></a>DirectML 常數
 

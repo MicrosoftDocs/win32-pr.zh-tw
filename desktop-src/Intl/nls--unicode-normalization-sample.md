@@ -4,12 +4,12 @@ ms.assetid: f1f789f9-f12b-465c-8c84-33a8efa6fbc5
 title: NLS： Unicode 正規化範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92e825e81b9d42bc3c5066ec5cdfd72e1812cbd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 895a41129bcdad14a89b34b5adce9cf5337ba4a51e108d0f62ee74b6e88a9003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147111"
 ---
 # <a name="nls-unicode-normalization-sample"></a>NLS： Unicode 正規化範例
 

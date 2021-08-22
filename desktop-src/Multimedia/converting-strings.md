@@ -6,12 +6,12 @@ keywords:
 - mciSendString 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d1db4cb4b3d02a93adecc82d6ce95de436fb2e7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4efeb5801c46d89686ed3fe9fcf25b311d57d4d553c220902907ac0e70a5b7e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144791"
 ---
 # <a name="converting-strings"></a>轉換字串
 
@@ -85,10 +85,10 @@ BOOL GetSourceRect(LPTSTR lpstrAlias, LPRECT lprc)
 
 
 > [!Note]  
-> 在 MCI 中，**矩形** 結構的處理方式不同于 Windows 的其他部分;在 MCI 中，**右邊** 的成員包含矩形的寬度，而 **底部** 的成員則包含其高度。 在字串介面中，矩形會指定為 *X1*、 *Y1*、 *X2* 和 *Y2*。 座標 *X1* 和 *Y1* 指定矩形的左上角，而座標 *X2* 和 *Y2* 則指定寬度和高度。
+> 除了 Windows 的其他部分，以不同的方式處理在 MCI 中的 **矩形** 結構。在 MCI 中，**右邊** 的成員包含矩形的寬度，而 **底部** 的成員則包含其高度。 在字串介面中，矩形會指定為 *X1*、 *Y1*、 *X2* 和 *Y2*。 座標 *X1* 和 *Y1* 指定矩形的左上角，而座標 *X2* 和 *Y2* 則指定寬度和高度。
 
- 
+ 
 
- 
+ 
 
- 
+ 

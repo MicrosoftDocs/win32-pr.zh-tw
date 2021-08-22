@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0350aadc74eaf16a6dbe493d64e941453a67a145
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d9b87db1e3c12f23d0df959664638f707388d0458895d755879ed69a9fefddd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "107001304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091348"
 ---
 # <a name="level-constant"></a>層級常數
 

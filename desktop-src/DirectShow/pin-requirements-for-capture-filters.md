@@ -1,23 +1,23 @@
 ---
-description: 本主題說明在 DirectShow 捕獲篩選器上執行輸出 pin 的需求。
+description: 本主題說明在 DirectShow capture 篩選器上執行輸出 pin 的需求。
 ms.assetid: cb9cda1c-efa2-4abb-934b-21ba8cb80f30
 title: 捕獲篩選準則的 Pin 需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2a97d3e5c0f7fe0f5a9a341899651685df1cdd3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7e72c74f06970bf6124d0e5dffea458bb41bcd0a19db44acc71a51615aa2fee8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119316108"
 ---
 # <a name="pin-requirements-for-capture-filters"></a>捕獲篩選準則的 Pin 需求
 
-本主題說明在 DirectShow 捕獲篩選器上執行輸出 pin 的需求。
+本主題說明在 DirectShow capture 篩選器上執行輸出 pin 的需求。
 
 ## <a name="pin-name"></a>接腳名稱
 
-您可以為 pin 提供任何名稱。 如果 pin 名稱以波狀符號 (~) 字元開頭，則當應用程式呼叫 [**IGraphBuilder：： RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile)時，篩選圖形管理員不會自動轉譯該 pin。 例如，如果篩選具有 capture pin 和預覽 pin，您可以分別將它們命名為 "~ Capture" 和 "Preview"。 如果應用程式在圖形中轉譯該篩選，預覽 pin 將會連接到其預設轉譯器，而不會連接到捕捉釘選，這是合理的預設行為。 這也適用于傳遞不打算轉譯之資訊資料的 pin，或需要設定自訂屬性的釘選。 請注意，應用程式仍然可以手動連接具有波狀符號 (~) 前置詞的釘選。
+您可以為 pin 提供任何名稱。 如果 pin 名稱以波狀符號 (~) 字元開頭，則當應用程式呼叫 [**IGraphBuilder：： RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile)時，篩選 Graph 管理員不會自動呈現該 pin。 例如，如果篩選具有 capture pin 和預覽 pin，您可以分別將它們命名為 "~ Capture" 和 "Preview"。 如果應用程式在圖形中轉譯該篩選，預覽 pin 將會連接到其預設轉譯器，而不會連接到捕捉釘選，這是合理的預設行為。 這也適用于傳遞不打算轉譯之資訊資料的 pin，或需要設定自訂屬性的釘選。 請注意，應用程式仍然可以手動連接具有波狀符號 (~) 前置詞的釘選。
 
 ## <a name="pin-category"></a>釘選類別
 

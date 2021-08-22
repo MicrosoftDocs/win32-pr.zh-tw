@@ -6,12 +6,12 @@ keywords:
 - 內容編碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09b089ae2aa4cbacdfc9b6ebefe5cbdfc1bfc10e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9e1a91120e4ea01c4636c8d9942e968a0d69aeed50b6a037b31aa0241f3e933c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132881"
 ---
 # <a name="content-encoding"></a>內容編碼
 
@@ -39,10 +39,10 @@ ms.locfileid: "104023960"
 當設定解碼選項時，WinINet 會在應用程式呼叫 [**InternetReadFile**](/windows/desktop/api/Wininet/nf-wininet-internetreadfile)時，對要求執行解碼。 如果 WinINet 在執行內容解碼時發生錯誤，對 **InternetReadFile** 的呼叫會失敗，並出現 **錯誤 \_ 網際網路 \_ 解碼 \_ 失敗**。 解碼失敗時，應用程式有兩個選項：可以移除 Accept-Encoding 標頭並重新傳送要求，也可以將要求上的 **網際網路 \_ 選項 \_ HTTP \_ 解碼** 選項設定為 false，然後再重新傳送要求。 如果解碼選項設定為 false，則應用程式必須檢查內容編碼標頭，並在應用層級執行任何解碼。
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

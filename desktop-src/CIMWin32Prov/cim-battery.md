@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3719b2700c69cfa58921bed1242aa8a6de158466
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f43e25e072ef645168d68e40283ee344e038d2502081b4a4a531fd26793159ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080902"
 ---
 # <a name="cim_battery-class"></a>CIM \_ 電池類別
 
@@ -364,7 +364,7 @@ class CIM_Battery : CIM_LogicalDevice
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -521,7 +521,7 @@ class CIM_Battery : CIM_LogicalDevice
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 

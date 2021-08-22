@@ -12,12 +12,12 @@ api_name:
 - RAY_FLAG
 api_type:
 - NA
-ms.openlocfilehash: aad2f8b94f6ea53d500d285cac3555f5ff8b95f4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 127c12c6d87ca76ddac5b5c5e013414c96651e56ee762156e7435811ff275a05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124383"
 ---
 # <a name="any-hit-shader"></a>任何命中著色器
 

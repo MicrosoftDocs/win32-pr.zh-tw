@@ -4,12 +4,12 @@ ms.assetid: 8be382f1-f5ab-4a9d-bf0e-05275310c5b5
 title: RemoveRegistry 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8de39edd15484ac4bcda675ec8bffaca0540a0ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 170dc727eef47ac214f7a7f42af7f487f53ad0b9a0658182420b28eb5224e38d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119314878"
 ---
 # <a name="removeregistry-table"></a>RemoveRegistry 資料表
 

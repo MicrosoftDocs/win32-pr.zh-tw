@@ -4,12 +4,12 @@ ms.assetid: 86e57708-8778-44fd-a4b4-6418652d8e50
 title: 程式資訊資料表群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 916b26e39617f4f0292ff932c8a6c919d95986c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 098b6dcaa73c739bac75bfc066b0a197f9ad4a14317feb2124aebd2f84536c95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145361"
 ---
 # <a name="program-information-tables-group"></a>程式資訊資料表群組
 

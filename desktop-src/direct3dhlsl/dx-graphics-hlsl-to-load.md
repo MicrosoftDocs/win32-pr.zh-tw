@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 08d3964788a238492ff7d5189544603b35808465
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: ba394fb13fd98793401b29e6343ef4fa9ff0194b7a86f22dda1e58439737b34b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104108380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119862"
 ---
 # <a name="load-directx-hlsl-texture-object"></a>載入 (DirectX HLSL 材質物件) 
 
@@ -144,7 +144,7 @@ typeX 表示有四種可能的類型： **int**、 **int2**、 **int3** 或 **in
 
 ## <a name="example"></a>範例
 
-這個部分程式碼範例是來自 [AdvancedParticles 範例](https://msdn.microsoft.com/library/Ee416394(v=VS.85).aspx)中的油漆檔案。
+這個部分的程式碼範例是來自[AdvancedParticles 範例](https://msdn.microsoft.com/library/Ee416394(v=VS.85).aspx)中的小畫家 fx 檔案。
 
 
 ```

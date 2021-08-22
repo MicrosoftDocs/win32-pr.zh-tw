@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 702a3883acdbb7509d79e76d8fcc73af1e167e4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f70674d8e570a2640fe301179b21a9f48ec612a17de69e43bdf5c38db4e65af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063908"
 ---
 # <a name="irtcconfigure-method"></a>IRTC：： Configure 方法
 
@@ -109,7 +109,7 @@ HRESULT STDMETHODCALLTYPE Configure(
 [IRTC](irtc.md)
 </dt> <dt>
 
-[IRTC：： Connect](irtc-connect.md)
+[IRTC：：連線](irtc-connect.md)
 </dt> <dt>
 
 [網路監視器 BLOB](network-monitor-blobs.md)

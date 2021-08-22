@@ -4,12 +4,12 @@ description: 實作為驗證通訊協定的廠商也可以為通訊協定提供�
 ms.assetid: 4f8ba0a4-3b52-4e7c-9e67-748f8d81d7a2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 761799969f4e439a65534ab551f09b3788e95ba7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 811f35ac3492e45e80721f800925a003edbb8116ac8c199a1b633e08a28de675
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117778"
 ---
 # <a name="interactive-user-interface"></a>互動式消費者介面
 
@@ -29,6 +29,6 @@ ms.locfileid: "106968897"
 
 驗證服務會藉由呼叫 [**RasEapInvokeInteractiveUI**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeinteractiveui)來叫用互動式 UI。 接著，服務會在後續呼叫 [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85))時，將互動式 UI 所傳回的資料指標傳遞給驗證通訊協定。 指標會以 [**PPP \_ EAP \_ 輸入**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) 結構的成員形式傳遞。 **RasEapMakeMessage** 傳回之後，服務會呼叫 [**RasEapFreeMemory**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory)來釋放資訊所佔用的記憶體。 因此，在呼叫 **RasEapMakeMessage** 期間，驗證通訊協定應該會將資訊複製到私用記憶體緩衝區。
 
- 
+ 
 
- 
+ 

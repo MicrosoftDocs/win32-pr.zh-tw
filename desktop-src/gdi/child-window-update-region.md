@@ -4,12 +4,12 @@ ms.assetid: d8110492-c1b9-4b49-9b34-587adb7c65c9
 title: 子視窗更新區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b92e6cba93c3be253b8ed8616bdcf9301e92494
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbf702855e506424a08e5be6c6b0cfe514035f1c54348306475140fb7fc440a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105893"
 ---
 # <a name="child-window-update-region"></a>子視窗更新區域
 

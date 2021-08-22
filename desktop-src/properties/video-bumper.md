@@ -4,12 +4,12 @@ ms.assetid: 5d36b057-3712-4d00-99b7-3ddf45620b7a
 title: '影片 (Windows 屬性系統) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d0def20ed46e97dd0b0df445fb2a7fcbfb83b95
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3d2023da08536add0084146d0000e6d4c0261d892452d1b221cdaa37e529ba5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095295"
 ---
 # <a name="video-windows-property-system"></a>影片 (Windows 屬性系統) 
 

@@ -3,7 +3,7 @@ title: 'TB_SETWINDOWTHEME 訊息 (Commctrl .h) '
 description: 設定工具列控制項的視覺化樣式。
 ms.assetid: 8b05c561-af66-47e7-8ef3-7f9f81da4840
 keywords:
-- TB_SETWINDOWTHEME message Windows 控制項
+- TB_SETWINDOWTHEME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0c293e974eee2e7827225efb06cc439fdf2c39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d1f3f4ae5f6e7a3a05670a8ba9bfe533156e1ef3e6043ff2a039744da705da39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078122"
 ---
 # <a name="tb_setwindowtheme-message"></a>TB \_ SETWINDOWTHEME 訊息
 
@@ -58,8 +58,8 @@ Unicode 字串的指標，其中包含要設定的工具列視覺效果樣式。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5baa2af39a6f12b75f847d226fb15a48c35994c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 13598199ccee156ab45481ac0a3f65dde160337e8ad1e20aade134405993987f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053776"
 ---
 # <a name="wmvideoframerate-attribute"></a>WM/VideoFrameRate 屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "106995354"
 
 ## <a name="remarks"></a>備註
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMVideoFrameRate。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMVideoFrameRate。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

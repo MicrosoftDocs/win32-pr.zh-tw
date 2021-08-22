@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: '檔案和目錄存取權限常數 (Winnt. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c0ddca31034ffde79fa9d9ff902a364cf07e311
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8678627b0f7d9ce2ed7f9c8e7e39c49bdcd3b6c3a8313f7d7b3c517c379093d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131380"
 ---
 # <a name="file-and-directory-access-rights-constants"></a>檔案和目錄存取權限常數
 

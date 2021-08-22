@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a9e6990d946f32b441f0a33ceba8c0a59fdae488
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10f87fbb66f8ad1d89ff31c6653780b3fde23ecbaf55d72b6f3de2f59546b49b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073412"
 ---
 # <a name="crendererpospassthrueos-method"></a>CRendererPosPassThru. EOS 方法
 
@@ -46,7 +46,7 @@ HRESULT EOS();
 
 
 
-| 傳回碼                                                                            | Description                                               |
+| 傳回碼                                                                            | 描述                                               |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 成功。<br/>                                       |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 失敗。 可能是篩選未串流處理。<br/> |

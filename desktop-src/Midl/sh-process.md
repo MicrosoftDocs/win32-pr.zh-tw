@@ -11,12 +11,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 02/05/2021
-ms.openlocfilehash: 3652c6889c687173bbf7b397cddff4659c0329f1
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 3dc11f2980e5124bbc76d0b57fce21d8007b0c09905ca47707d5be6fbb112d41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "106981720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146271"
 ---
 # <a name="sh_process-keyword"></a>sh \_ process 關鍵字
 
@@ -53,8 +53,8 @@ interface MyInterface : IUnknown
 
 | &nbsp; | &nbsp; |
 |-|-|
-| 最低支援的用戶端 | Windows 10 年度更新版 (1607 版、組建 14393)  |
-| 最低支援的伺服器 | Windows Server 2016 (build 14393)  |
+| 最低支援的用戶端 | Windows 10年度更新 (版本1607、組建 14393)  |
+| 最低支援的伺服器 | Windows Server 2016 (組建 14393)  |
 
 ## <a name="see-also"></a>另請參閱
 

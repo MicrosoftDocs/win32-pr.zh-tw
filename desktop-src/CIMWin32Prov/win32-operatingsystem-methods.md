@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_OperatingSystem 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a55089f94ed96b486a66c766efe3427497d06aad
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4a061a3d064488e2e4e1385297f55fcc3a35ffd428674eab12d3ef6ee2989b01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079762"
 ---
 # <a name="win32_operatingsystem-methods"></a>Win32 \_ 作業系統方法
 

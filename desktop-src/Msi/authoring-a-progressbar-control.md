@@ -1,19 +1,19 @@
 ---
-description: Windows Installer 包含在動作顯示對話方塊中顯示進度指標的功能。
+description: Windows安裝套裝程式含在動作顯示對話方塊中顯示進度指標的功能。
 ms.assetid: cfc2d974-4f2d-4f52-9835-eab1dc091c9b
 title: 撰寫 ProgressBar 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b872ed2dd36fb8ed04ee48fd69e4680fce002a18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1074744220bde8734fe0cd1f65aa1037ff1f0cb26763a11845a7ea7f1b58e507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066158"
 ---
 # <a name="authoring-a-progressbar-control"></a>撰寫 ProgressBar 控制項
 
-Windows Installer 包含在動作顯示對話方塊中顯示進度指標的功能。 [ProgressBar 控制項會](progressbar-control.md)以圖形表示個別元件的安裝，以及報表在安裝完成之前，相對於剩餘時間或大約總剩餘時間的總時間。
+Windows安裝套裝程式含在動作顯示對話方塊中顯示進度指標的功能。 [ProgressBar 控制項會](progressbar-control.md)以圖形表示個別元件的安裝，以及報表在安裝完成之前，相對於剩餘時間或大約總剩餘時間的總時間。
 
 為了判斷安裝所預期的總時間，安裝程式會在執行腳本產生期間追蹤每個動作所預期的總進度刻度。 當腳本產生完成時，會儲存進度滴答總計，並開始安裝。
 

@@ -4,16 +4,16 @@ ms.assetid: b65a6874-fffb-41af-8620-27d4036cc7b2
 title: 計算計數器值
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: c37c5cf128d31011f184baaa6b8543ecfa8c48c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 466c4e4066b0e45fa36a2822ef1439617be545585fd56a5cba8fb664e91f5cc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061246"
 ---
 # <a name="calculating-counter-values"></a>計算計數器值
 
-大部分的計數器類型都會使用公式來計算計數器的可顯示值。 如需計數器類型及其公式的清單，請參閱 [Windows Server 2003 部署套件](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10))的「計數器類型」一節。 如果計數器需要兩個範例才能計算可顯示的值，則會設定計數器類型的 `PERF_DELTA_COUNTER` 旗標。
+大部分的計數器類型都會使用公式來計算計數器的可顯示值。 如需計數器類型及其公式的清單，請參閱[Windows Server 2003 部署套件](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10))的「計數器類型」一節。 如果計數器需要兩個範例才能計算可顯示的值，則會設定計數器類型的 `PERF_DELTA_COUNTER` 旗標。
 
 下列範例顯示如何使用原始資料來計算每個計數器類型的可顯示值。 這個範例是以抓取 [計數器資料](retrieving-counter-data.md)的範例為基礎。
 

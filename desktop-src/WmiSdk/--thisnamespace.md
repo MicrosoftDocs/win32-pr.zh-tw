@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 440ccdf0eda794b5d648cae756f9a9c808eb2db6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02e92bd8cb1c1827af86d23320e7347baa08c395d32def8c9b8adea2fcfd35bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132021"
 ---
 # <a name="__thisnamespace-class"></a>\_\_thisNAMESPACE 類別
 
@@ -59,7 +59,7 @@ class __thisNAMESPACE : __SystemClass
 存取類型：唯讀
 </dt> </dl>
 
-安全描述項，描述誰可以存取命名空間，以及誰可以讀取或寫入命名空間。 這個屬性繼承自 [**\_ \_ 事件**](--event.md)。 如需安全描述項格式的詳細資訊，請參閱 Windows SDK 的安全性一節中的 [安全描述項](/windows/desktop/SecAuthZ/security-descriptors) 。
+安全描述項，描述誰可以存取命名空間，以及誰可以讀取或寫入命名空間。 這個屬性繼承自 [**\_ \_ 事件**](--event.md)。 如需安全描述項格式的詳細資訊，請參閱 Windows SDK 的安全性一節中的[安全描述項](/windows/desktop/SecAuthZ/security-descriptors)。
 
 </dd> </dl>
 

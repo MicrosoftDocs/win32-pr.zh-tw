@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6a72ef8849dcbb8854786d126899924f0d835dcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 485405fdaa92297cce9df4bb80536aa0ff5b0e6ba9db7f260d77a3bfeb456002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041696"
 ---
 # <a name="esentcolumntoobigexception-class"></a>EsentColumnTooBigException 類別
 

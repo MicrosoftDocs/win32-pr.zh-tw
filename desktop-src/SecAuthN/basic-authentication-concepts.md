@@ -4,12 +4,12 @@ ms.assetid: c3e38cd3-3749-4384-80ff-0551acfe1eec
 title: 基本驗證概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723cf42913906435c8dbc3c41950da8db8ece0ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30d28aa1da3555561740dfd119603a42268ebf86056842788f7dbb1c473fe60e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141311"
 ---
 # <a name="basic-authentication-concepts"></a>基本驗證概念
 
@@ -20,7 +20,7 @@ ms.locfileid: "104114313"
 Kerberos 通訊協定利用：
 
 -   [金鑰驗證](key-authentication.md)
--   [驗證器訊息](authenticator-messages.md)
+-   [Authenticator 訊息](authenticator-messages.md)
 -   [金鑰散發](key-distribution.md)
 -   [會話票證](session-tickets.md)
 -   [票證授權票證](ticket-granting-tickets.md)

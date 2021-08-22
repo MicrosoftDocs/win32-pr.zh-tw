@@ -4,12 +4,12 @@ ms.assetid: f2a4c4cf-55e9-4129-8067-256552af49d2
 title: 關於裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3b686ec8b48492658f19531cb42161c043f178d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9439e3091b3138917e24ab4a49ff89c21a1e1b53480d4a138bd2bbad3288fcd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105873"
 ---
 # <a name="about-device-contexts"></a>關於裝置內容
 
@@ -23,7 +23,7 @@ ms.locfileid: "104114244"
 -   [圖形模式](graphic-modes.md)
 -   [裝置內容類型](device-context-types.md)
 -   [裝置內容作業](device-context-operations.md)
--   [具備 ICM 功能的裝置內容函式](icm-enabled-device-context-functions.md)
+-   [ICM 啟用的裝置內容函式](icm-enabled-device-context-functions.md)
 
 有一個重要的概念是 DC 或視窗的版面配置，其描述從左至右或由右至左) 顯示 GDI 物件和 (文字的順序。 如需詳細資訊，請參閱 [**視窗功能**](../winmsg/window-features.md) 和 [**GetLayout**](/windows/desktop/api/Wingdi/nf-wingdi-getlayout) 和 [**SetLayout**](/windows/desktop/api/Wingdi/nf-wingdi-setlayout) 函式中的「視窗版面配置和鏡像」。
 

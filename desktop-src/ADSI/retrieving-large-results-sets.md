@@ -7,12 +7,12 @@ keywords:
 - 正在抓取大型結果集 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f8902d25010690953cfae8a03ff9e500b4ebda
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7d5a8f920da20de70538a57674b00de33ac6df3a6f4b12e6027134557fd9ee28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106978559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119391798"
 ---
 # <a name="retrieving-large-results-sets"></a>正在抓取大型結果集
 
@@ -29,7 +29,7 @@ ms.locfileid: "106978559"
 > [!Note]  
 > 並非所有目錄服務都支援分頁搜尋。 Active Directory 實行頁面大小架構。
 
- 
+ 
 
 如果用戶端未指定頁面大小，許多目錄伺服器會指定可傳回的最大物件數目的管理限制。 當達到系統管理限制時，ADSI 會產生 **錯誤 \_ DS 系統 \_ 管理員 \_ 限制 \_ 超過** Win32 錯誤。
 
@@ -45,9 +45,9 @@ ADSI 會代表用戶端以透明的方式處理頁面大小。 用戶端不需�
 
 分頁搜尋對您的應用程式而言是透明的，因為 ADSI 會自動繼續抓取其他頁面的結果，直到到達結果集的結尾或您設定的時間限制結束為止。 當您使用分頁搜尋時，大小限制不會覆寫頁面大小。 只有在您抓取包含少於1000個專案的結果集時，才能使用大小限制。
 
- 
+ 
 
- 
+ 
 
 
 

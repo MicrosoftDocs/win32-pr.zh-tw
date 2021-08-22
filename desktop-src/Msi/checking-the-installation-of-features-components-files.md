@@ -4,16 +4,16 @@ ms.assetid: c4547e5d-ea71-494f-9d92-c7fef23bcc0f
 title: 檢查功能、元件、檔案的安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7cab15b4f0590ee5613865d4b7c21439eec6dbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 866b4f7b042c97660e43a92fc55eeb99e2f1e9f3574a9b03c4d3d6e6096504c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145603"
 ---
 # <a name="checking-the-installation-of-features-components-files"></a>檢查功能、元件、檔案的安裝
 
-如果在執行安裝之後，您必須確認已安裝特定功能、元件或檔案，請在安裝期間開啟詳細資訊記錄選項。 請參閱 [Windows Installer 記錄](windows-installer-logging.md) 和 [命令列選項](command-line-options.md)。
+如果在執行安裝之後，您必須確認已安裝特定功能、元件或檔案，請在安裝期間開啟詳細資訊記錄選項。 請參閱[Windows Installer 記錄](windows-installer-logging.md)和[命令列選項](command-line-options.md)。
 
 詳細資訊記錄檔包含安裝套件可能安裝的每個功能和元件的專案。 記錄檔會指出該功能或元件在安裝之前的狀態、安裝所要求的狀態，以及安裝程式離開功能或元件的狀態。 記錄檔中的功能和元件專案會顯示為下列範例。
 
@@ -36,7 +36,7 @@ MSI (s) (40:A4): Component: QuickTest; Installed: Absent;   Request:
 
 
 
-| 記錄項目              | Description                                                                                                     |
+| 記錄項目              | 描述                                                                                                     |
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | 要求： Null          | 沒有要求。                                                                                                     |
 | Action： Null           | 未採取任何動作。                                                                                                |
@@ -75,7 +75,7 @@ MSI (s) (40:A4): File: C:\Test\TESTDB.EXE;  Won't Overwrite;  Existing
 此記錄檔表示安裝程式不會覆寫現有的 Testdb.exe 檔案，因為現有的檔案與所安裝的版本相同。
 
 > [!Note]  
-> 如果您需要撰寫安裝套件，以在安裝期間在使用者電腦上搜尋現有的檔案或目錄，請使用 [搜尋現有的應用程式、檔案、登錄專案或 .ini 檔案專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)中所述的方法。
+> 如果您需要撰寫安裝套件，以在安裝期間在使用者電腦上搜尋現有的檔案或目錄，請使用 [搜尋現有的應用程式、檔案、登錄專案或 .ini 檔專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)中所述的方法。
 
  
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mfapi.h
-ms.openlocfilehash: 406f6b3f6b93ced212ccf06910b69761ac0dfd9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97dd001cfb83f6ffec07035b77558fee591599b087e30dd3b819963db1b70405
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104984"
 ---
 # <a name="mf_custom_decode_unit_type-enumeration"></a>MF \_ 自訂解碼 \_ \_ 單位 \_ 類型列舉
 
@@ -44,7 +44,7 @@ ms.locfileid: "104191897"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

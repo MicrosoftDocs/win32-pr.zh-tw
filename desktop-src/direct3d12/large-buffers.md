@@ -5,12 +5,12 @@ ms.assetid: 359E377A-8E16-4BB5-9055-09617335AB57
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d64944cb11507b8dc437d075938fad419f333433
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 63175bdb8b3937a01abe3ffc57032db78ea978768ee19e2c31d0c50db4103573
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123811"
 ---
 # <a name="suballocation-within-buffers"></a>在緩衝區內進行子分配
 
@@ -27,7 +27,7 @@ ms.locfileid: "74104117"
 | [上傳不同類型的資源](uploading-resources.md)<br/>                 | 示範如何使用一個緩衝區，將常數緩衝區資料和頂點緩衝區資料上傳至 GPU，以及如何適當地子配置和將資料放在緩衝區中。 使用單一緩衝區可增加記憶體使用量的彈性，並提供應用程式更緊密地控制記憶體使用量。 也會顯示 D3D11 和 D3D12 模型之間的差異，以便上傳不同類型的資源。<br/> |
 | [透過緩衝區上傳材質資料](upload-and-readback-of-texture-data.md)<br/> | 上傳2D 或3D 紋理資料與上傳1D 資料類似，不同之處在于應用程式必須特別注意與資料列間距相關的資料對齊。 您可以從圖形管線的多個部分 orthogonally 和並行使用緩衝區，而且非常有彈性。 <br/>                                                                                                                       |
 | [透過緩衝區讀回資料](readback-data-using-heaps.md)<br/>                    | 從 GPU 讀回資料（例如，捕捉螢幕擷取畫面）牽涉到使用 Readback 堆積。 <br/>                                                                                                                                                                                                                                                                                                     |
-| [以隔離為基礎的資源管理](fence-based-resource-management.md)<br/>            | 示範如何透過延伸來追蹤 GPU 進度，以管理資源資料的生命週期。 記憶體可以有效地重複使用，以管理記憶體中可用空間的可用性，例如在上傳堆積的通道緩衝區執行中。 <br/>                                                                                                                                                     |
+| [以隔離為基礎的資源管理](fence-based-resource-management.md)<br/>            | 示範如何透過延伸來追蹤 GPU 進度，以管理資源資料的生命週期。 記憶體可以有效地重複使用，以管理記憶體中可用空間的可用性（例如 Upload 堆積的信號緩衝區執行）。 <br/>                                                                                                                                                     |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 76d2a703-4162-428e-a4ff-643e346eacfb
 title: 註冊和列舉 MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 771a22b469d472dbc59d07c2754405276883bef4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a3110351479f2a906d68b6c054d9e23886cbcd4cdb031fc8a4951a1d4b8d1e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101827"
 ---
 # <a name="registering-and-enumerating-mfts"></a>註冊和列舉 MFTs
 
@@ -24,7 +24,7 @@ ms.locfileid: "103943725"
 若要探索在系統上註冊的 MFTs，應用程式可以呼叫 [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) 函數。
 
 > [!Note]  
-> 此函數需要 Windows 7。 在 Windows 7 之前，應用程式應該改用 [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) 函數。
+> 此函數需要 Windows 7。 在 Windows 7 之前，應用程式應該改用 [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum)函數。
 
  
 

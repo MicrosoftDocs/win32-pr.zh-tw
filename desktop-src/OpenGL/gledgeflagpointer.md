@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4390a9838fef418763aa4bcafbf815ab0cdf3466
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa648a15542a3f3f2f35f577760991da74bc978c0464c1373c8eddea38941a62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061636"
 ---
 # <a name="gledgeflagpointer-function"></a>glEdgeFlagPointer 函式
 
@@ -65,7 +65,7 @@ void WINAPI glEdgeFlagPointer(
 
 
 
-| Name                                                                                             | 意義                                      |
+| 名稱                                                                                             | 意義                                      |
 |--------------------------------------------------------------------------------------------------|----------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl> | *stride* 或 *計數* 為負數。<br/> |
 

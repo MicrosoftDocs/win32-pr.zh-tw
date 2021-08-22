@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 使用 VBScript 連接至 WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6952c42a024ebedd10d9ec8ced0bc4946d808c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06b4e71f4225a55e24432562d4c35754080b9746386489b7dbf7061cb65c9771
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131610"
 ---
 # <a name="connecting-to-wmi-with-vbscript"></a>使用 VBScript 連接至 WMI
 
-WMI 腳本可以壓縮 c + + 程式所需的許多步驟。 它們可以連接至 WMI，而不只是透過 [**wbemscripting.swbemlocator**](swbemlocator.md) 物件，也可以透過「winmgmts：」標記。 「名字標記」（namespace）是在 WMI 中尋找命名空間、類別或實例的簡短名稱。 名稱 "winmgmts：" 是告知 Windows Script Host 使用 WMI 物件、連接至預設命名空間，並取得 [**SWbemServices**](swbemservices.md) 物件的 wmi 標記。 其他連接資訊（例如模擬層級或特定類別或實例）會出現在字串後面的 [標記名稱] 中。 您可以在建立或取得 WMI 物件的呼叫中使用名字。 如需詳細資訊，請參閱 [建立標記字串](constructing-a-moniker-string.md)。
+WMI 腳本可以壓縮 c + + 程式所需的許多步驟。 它們可以連接至 WMI，而不只是透過 [**wbemscripting.swbemlocator**](swbemlocator.md) 物件，也可以透過「winmgmts：」標記。 「名字標記」（namespace）是在 WMI 中尋找命名空間、類別或實例的簡短名稱。 名稱 "winmgmts：" 是 wmi 的名字提示，告訴 Windows 腳本主機使用 wmi 物件，連接到預設的命名空間，並取得 [**SWbemServices**](swbemservices.md)物件。 其他連接資訊（例如模擬層級或特定類別或實例）會出現在字串後面的 [標記名稱] 中。 您可以在建立或取得 WMI 物件的呼叫中使用名字。 如需詳細資訊，請參閱 [建立標記字串](constructing-a-moniker-string.md)。
 
 下列程式說明如何使用 **wbemscripting.swbemlocator** 連接到 WMI。
 

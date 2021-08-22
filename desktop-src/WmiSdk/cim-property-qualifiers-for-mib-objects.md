@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: MIB 物件的 CIM 屬性限定詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34f2a25edf9c15930202d3c8cf79d3d62b0d1dd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a2fd45f250b603fcea97040a35faf43f6343311094e97a52ca06823e99bfcac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131710"
 ---
 # <a name="cim-property-qualifiers-for-mib-objects"></a>MIB 物件的 CIM 屬性限定詞
 

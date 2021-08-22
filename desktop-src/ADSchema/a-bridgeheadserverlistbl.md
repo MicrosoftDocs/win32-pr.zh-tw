@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5df941f323916682158c6c1c3ac59856b31da03f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a84974f099e037d20b349c674a71df9b376ec040e89416dbe42e18e3341f6780
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119307418"
 ---
 # <a name="bridgehead-server-list-bl-attribute"></a>橋頭-伺服器-清單-BL 屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "104107279"
 |------------------------|---------------------------------|
 | 連結識別碼                | 99                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -79,7 +79,7 @@ ms.locfileid: "104107279"
 |------------------------|---------------------------------|
 | 連結識別碼                | 99                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -100,7 +100,7 @@ ms.locfileid: "104107279"
 |------------------------|---------------------------------|
 | 連結識別碼                | 99                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -121,7 +121,7 @@ ms.locfileid: "104107279"
 |------------------------|---------------------------------|
 | 連結識別碼                | 99                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -142,7 +142,7 @@ ms.locfileid: "104107279"
 |------------------------|---------------------------------|
 | 連結識別碼                | 99                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -163,7 +163,7 @@ ms.locfileid: "104107279"
 |------------------------|---------------------------------|
 | 連結識別碼                | 99                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -184,7 +184,7 @@ ms.locfileid: "104107279"
 |------------------------|---------------------------------|
 | 連結識別碼                | 99                              |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |

@@ -4,12 +4,12 @@ ms.assetid: 40f79959-23c9-4513-363b-2f2fc85e4c0a
 title: 使用方法：建立基本音訊處理圖形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43a11601514e3bcad5536ed1a8599178bcc52aa0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5bab39c878b37a6f89ef7598f6fa6b6eb1a997654373122fe3c3980bf12f160
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082955"
 ---
 # <a name="how-to-build-a-basic-audio-processing-graph"></a>使用方法：建立基本音訊處理圖形
 

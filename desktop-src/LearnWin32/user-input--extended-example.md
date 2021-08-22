@@ -248,7 +248,7 @@ void MainWindow::SetMode(Mode m)
 
 
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>總結
 
 在本課程模組中，您已瞭解如何處理滑鼠和鍵盤輸入;如何定義鍵盤快速鍵;以及如何更新游標影像，以反映程式的目前狀態。
 

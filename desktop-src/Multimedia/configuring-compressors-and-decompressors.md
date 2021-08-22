@@ -8,12 +8,12 @@ keywords:
 - ICQueryConfigure 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88d388a52047a1aea7936cc494dafc0d1a2d6dec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 073a9ac7eb56c0870d7a08d8ed9fd221a2626bb6be83cc4683cd86c4bfa907db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144921"
 ---
 # <a name="configuring-compressors-and-decompressors"></a>設定壓縮機和 Decompressors
 
@@ -54,9 +54,9 @@ ICSetState(hIC, (LPVOID)lpData, dwStateSize); // sets new state data
 
 
 
- 
+ 
 
- 
+ 
 
 
 

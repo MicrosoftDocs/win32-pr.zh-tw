@@ -4,12 +4,12 @@ description: 請務必讓使用者知道可能的安全性問題。
 ms.assetid: f0c041fd-3cc5-491e-b088-6c93fcd61def
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b3d4214ba4582394ed555bafd58551e8b047493
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0870ecb13e195b226fbbd6e69c3c81fec256d7b35edcf2304167877e154a1dde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386138"
 ---
 # <a name="security-guideline"></a>安全性指導方針
 
@@ -46,10 +46,10 @@ ms.locfileid: "104093068"
 在連接安全性中報告這類變更的函式中， **InternetStatusCallback** 回呼函式和 **InternetConfirmZoneCrossing** 函式。
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

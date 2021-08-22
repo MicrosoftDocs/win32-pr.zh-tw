@@ -4,12 +4,12 @@ ms.assetid: 34f639e2-9363-4f3f-a8de-b7c5d12618c9
 title: 聯結 Multipoint 離開的語義
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df12683838fbad89f717b08d7a19802f24556761
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 970dc9e023ee64c89b8a1e6b20cb4326df69c1c0f70989cde25d481eb6b1f3f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384068"
 ---
 # <a name="semantics-for-joining-multipoint-leaves"></a>聯結 Multipoint 離開的語義
 

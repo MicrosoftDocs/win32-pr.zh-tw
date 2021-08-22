@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8c0f0cb9d885f643b39acfbc5148403a5c8b788
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 84b7170931c8fc266fdc335076dbc6dc687795f9bb432518b62a39d1f610b601
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119391708"
 ---
 # <a name="ambientattributesalphablend"></a>AmbientAttributes. AlphaBlend
 

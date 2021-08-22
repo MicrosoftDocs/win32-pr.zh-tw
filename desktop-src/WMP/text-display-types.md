@@ -3,17 +3,17 @@ title: 文字顯示類型
 description: 文字顯示類型
 ms.assetid: 6aa3fc89-e5f5-420f-82e0-c605676078cb
 keywords:
-- Windows Media Player 行動外觀、文字
+- Windows Media Player行動外觀、文字
 - 外觀中的文字、顯示類型
 - 外觀，文字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4fa8871d889a271bcbc59ce7b3118bc05be2eb7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 01826f35db0d3877a3ecd34c351315872760b1b9b0713a36955bb3161ed6ba8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134601"
 ---
 # <a name="text-display-types"></a>文字顯示類型
 
@@ -23,7 +23,7 @@ ms.locfileid: "103672576"
 
 以下是 text 元素可以顯示的數個屬性：
 
--   Time
+-   時間
 -   播放清單
 -   Track\#
 -   \#軌道
@@ -61,7 +61,7 @@ ms.locfileid: "103672576"
 > [!Note]  
 > 播放媒體專案時，狀態顯示會透過子標題、演出者、專輯、內容類型和目前的位元速率來旋轉。
 
- 
+ 
 
 如需透過 Status 元素建立狀態顯示的詳細資訊，請參閱面板參考的 [狀態](status.md) 區段。不過，建議您在 Text 元素中使用 status 屬性，而不要使用 Status 元素。
 
@@ -69,12 +69,12 @@ ms.locfileid: "103672576"
 
 <dl> <dt>
 
-[**Windows Media Player 行動功能**](windows-media-player-mobile-functionality.md)
+[**Windows Media Player行動功能**](windows-media-player-mobile-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

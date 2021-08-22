@@ -4,18 +4,18 @@ ms.assetid: 7c58998a-6b06-4e4c-b183-e894bcabba3c
 title: MaxApertureNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94e37cfcf104eb6be96b5b138f50f0da9680451e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f202ce3522e867a7687fa46a12bdd3d6bdad4c99c96f3b5cf009c208a7a50c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095920"
 ---
 # <a name="systemphotomaxaperturenumerator"></a>MaxApertureNumerator
 
 PKEY \_ 相片 MaxAperture 的分子 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

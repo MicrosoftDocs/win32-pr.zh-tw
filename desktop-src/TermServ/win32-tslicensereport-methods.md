@@ -5,12 +5,12 @@ ms.assetid: 3D332EBB-00C0-431A-AF87-CF300CB4137F
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37bf8e303d81416914ae37b71d9d1e8a30449341
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b901d0ba50d2a14bcd22dbffec3a2d96fbfaf5a817f0508a8a9a3d64c6b6102c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137793"
 ---
 # <a name="win32_tslicensereport-methods"></a>Win32 \_ TSLicenseReport 方法
 
@@ -27,9 +27,9 @@ ms.locfileid: "106969674"
 -   [**GenerateReport 方法**](generatereport-win32-tslicensereport.md)
 -   [**GenerateReportEx 方法**](generatereportex-win32-tslicensereport.md)
 
- 
+ 
 
- 
+ 
 
 
 

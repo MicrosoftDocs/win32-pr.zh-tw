@@ -4,12 +4,12 @@ ms.assetid: 0c8aad3e-e726-49ce-8fc9-94dbd60cc5cb
 title: 用戶端內容初始化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 615ce5c157371f1ebfec685d6227bd11a1d76531
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0c0f2912de57487c1f30fdac1ef40740553947b993ef6f5179a028625f132af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141181"
 ---
 # <a name="client-context-initialization"></a>用戶端內容初始化
 
@@ -18,7 +18,7 @@ ms.locfileid: "104114948"
 -   [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) 會取得先前取得之登入 [*認證*](/windows/desktop/SecGloss/c-gly)的參考。
 -   [**InitializeSecurityCoNtext (一般)**](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta) 會建立初始驗證要求安全性權杖。
 
-您可以在 [使用 SSPI 搭配 Windows 通訊端用戶端](using-sspi-with-a-windows-sockets-client.md)的 **GenClientCoNtext** 函式中，看到此進程的程式碼。
+在 [使用 SSPI 搭配 Windows 通訊端用戶端](using-sspi-with-a-windows-sockets-client.md)的 **GenClientCoNtext** 函式中，可以看到此進程的程式碼。
 
 如果用戶端程式除了本身的登入認證（例如不同的使用者名稱、功能變數名稱和密碼）之外，還需要使用認證，它會在 [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea)呼叫中提供它們，並指定額外 [**的認證。 \_ \_ \_**](/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a) 如需認證功能的詳細資訊，請參閱 [認證管理](authentication-functions.md)。
 

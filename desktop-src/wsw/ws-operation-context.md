@@ -6,12 +6,12 @@ keywords:
 - WS_OPERATION_CONTEXT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5454146bac2941f76df646bb58e71ca2cdfd6e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1fc355a3c594cb89d26f4f4312af93474e3bd2c2fd948cdadfab790fa6e6ee92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082992"
 ---
 # <a name="ws_operation_context"></a>WS \_ 操作 \_ 內容
 
@@ -35,7 +35,7 @@ typedef struct _WS_OPERATION_CONTEXT WS_OPERATION_CONTEXT;
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>WebServices。h</dt> </dl> |
 
 

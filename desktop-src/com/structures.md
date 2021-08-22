@@ -4,12 +4,12 @@ ms.assetid: 07f65855-f529-4d57-81fe-150167a03901
 description: 深入瞭解： COM) 的結構 (
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4926110161f103e3cdac9f55c17945e58d03fa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 638d1f4421a5fe70ec8a4ab1fd499f9a6f3c4f7d2883b5e7638edf4687bca8e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129650"
 ---
 # <a name="structures-com"></a>結構 (COM)
 

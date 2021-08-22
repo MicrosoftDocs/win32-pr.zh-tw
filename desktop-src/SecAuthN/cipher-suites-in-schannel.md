@@ -4,12 +4,12 @@ ms.assetid: 513e5e73-12f8-4b64-86e4-179518c3582d
 title: TLS/SSL (Schannel SSP) 的加密套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33fa8b47aed266c49ac306adfd2aef78af269a39
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 590012b4a1ef0c84b8216fd970d1e60c8ed449294ec110dc566e7c3679b7bb00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106986454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141214"
 ---
 # <a name="cipher-suites-in-tlsssl-schannel-ssp"></a>TLS/SSL (Schannel SSP) 的加密套件
 
@@ -27,7 +27,7 @@ ms.locfileid: "106986454"
 
 開發人員會使用 [**ALG \_ 識別碼**](/windows/desktop/SecCrypto/alg-id) 資料類型來指定這些元素。 如需詳細資訊，請參閱 [指定 Schannel 密碼和加密強度](specifying-schannel-ciphers-and-cipher-strengths.md)。
 
-在舊版的 Windows 中，TLS 加密套件和橢圓形曲線是使用單一字串來設定的：
+在舊版 Windows 中，TLS 加密套件和橢圓形曲線是使用單一字串來設定的：
 
 ![顯示密碼套件單一字串的圖表。](images/tls-cipher-suite.png)
 
@@ -55,15 +55,15 @@ ms.locfileid: "106986454"
 
 **Windows Server 2012 和 Windows 8：** 如需支援的加密套件的相關資訊，請參閱 [Windows 8 中的 TLS 加密套件](tls-cipher-suites-in-windows-8.md)
 
-**Windows Server 2008 R2 和 windows 7：** 如需支援的加密套件的相關資訊，請參閱 [Windows 7 中的 TLS 加密套件](tls-cipher-suites-in-windows-7.md)
+**Windows Server 2008 R2 和 Windows 7：** 如需支援的加密套件的相關資訊，請參閱 [Windows 7 中的 TLS 加密套件](tls-cipher-suites-in-windows-7.md)
 
 **Windows Server 2008 和 Windows Vista：** 如需支援的加密套件的相關資訊，請參閱 [Windows Vista 中的 TLS 加密套件](schannel-cipher-suites-in-windows-vista.md)
 
-**Windows Server 2003 和 WINDOWS XP：** 如需支援的加密套件的詳細資訊，請參閱下列主題。
+**Windows Server 2003 和 Windows XP：** 如需支援的加密套件的詳細資訊，請參閱下列主題。
 
 | 主題                                                                         | 描述                                                                                                                        |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [TLS 加密套件](tls-cipher-suites.md)<br/>                         | 有關 Windows Server 2003 和 Windows XP 中的 TLS 通訊協定所提供之加密套件的資訊。<br/>              |
+| [TLS 加密套件](tls-cipher-suites.md)<br/>                         | Windows Server 2003 和 Windows XP 中的 TLS 通訊協定可用之加密套件的相關資訊。<br/>              |
 | [安全通訊端層通訊協定](secure-sockets-layer-protocol.md)<br/> | SSL 2.0 和3.0 的一般資訊，包括 Windows Server 2003 和 Windows XP 中的可用加密套件。<br/> |
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "106986454"
  
 
 > [!Note]  
-> 在 Windows 10 之前，會使用橢圓曲線附加加密套件字串來決定曲線的優先順序。 Windows 10 支援橢圓曲線優先順序順序設定，因此不需要橢圓曲線尾碼，而是在提供時由新的橢圓曲線優先順序順序覆寫，以允許組織使用群組原則，以相同的加密套件來設定不同版本的 Windows。
+> 在 Windows 10 之前，會使用橢圓曲線附加加密套件字串來決定曲線的優先順序。 Windows 10 支援橢圓曲線優先順序設定，因此不需要橢圓曲線尾碼，而是在提供時由新的橢圓曲線優先順序順序覆寫，以便讓組織使用群組原則，以相同的加密套件來設定不同版本的 Windows。
 
  
 

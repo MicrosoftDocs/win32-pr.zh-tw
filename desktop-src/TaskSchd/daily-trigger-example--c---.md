@@ -1,23 +1,23 @@
 ---
 title: " (c + +) 的每日觸發程式範例"
-description: 這個 c + + 範例會示範如何建立排定每天執行「記事本」的工作。
+description: 這個 c + + 範例顯示如何建立排定每天執行記事本的工作。
 ms.assetid: f1038142-b83e-4159-9a7b-db2ae4ed3bd2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05778de5740b30f3a7593873e3c9d09c209b807a
-ms.sourcegitcommit: 4834b022f93dae550cfc43068fe9e2c63d86e364
+ms.openlocfilehash: 251ef89dec6955f7a205748589f506635565ce6bf876a3d204e66ebcba37bca6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "106968890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139551"
 ---
 # <a name="daily-trigger-example-c"></a> (c + +) 的每日觸發程式範例
 
-這個 c + + 範例會示範如何建立排定每天執行「記事本」的工作。 此工作包含每日觸發程式，以指定開始工作的開始界限和日間隔。 此範例也會顯示如何設定觸發程式的重複模式，以重複執行工作。 此工作也包含指定工作以執行 [記事本] 的動作。
+這個 c + + 範例顯示如何建立排定每天執行記事本的工作。 此工作包含每日觸發程式，以指定開始工作的開始界限和日間隔。 此範例也會顯示如何設定觸發程式的重複模式，以重複執行工作。 此工作也包含指定要執行記事本工作的動作。
 
 下列程式描述如何排程工作，以便每天啟動可執行檔。
 
-**排定每日啟動記事本**
+**排定每日開始記事本**
 
 1.  初始化 COM 並設定一般 COM 安全性。
 2.  建立 [**ITaskService**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) 物件。
@@ -42,7 +42,7 @@ ms.locfileid: "106968890"
 
 7.  使用 [**ITaskFolder：： RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition) 方法註冊工作。
 
-下列 c + + 範例示範如何排程工作每天執行「記事本」。
+下列 c + + 範例顯示如何排程工作每天執行記事本。
 
 
 ```C++
@@ -432,9 +432,9 @@ int __cdecl wmain()
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

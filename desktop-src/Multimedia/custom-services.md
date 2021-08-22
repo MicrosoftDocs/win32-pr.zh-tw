@@ -12,12 +12,12 @@ keywords:
 - mmioOpen 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e41e3c5974fee9903c0864b1cfefccc8354b26a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c8c2418d3a87669527feda37547674bee83175dd6e4533312e8b89c346048c04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144571"
 ---
 # <a name="custom-services"></a>自訂服務
 
@@ -48,6 +48,6 @@ I/o 程式必須回應下列訊息：
 
 除了處理訊息之外，i/o 程式還必須維護 **mmioOpen** 函式的 *lpmmioinfo* 參數所指向之 [**MMIOINFO**](/previous-versions//dd757322(v=vs.85))結構 (的 **lDiskOffset** 成員) 。 **LDiskOffset** 成員一律必須包含下一個 MMIOM \_ READ 或 MMIOM \_ 寫入訊息將存取之位置的檔案位移。 位移是以位元組為單位來指定，且相對於檔案的開頭。 I/o 程式可以使用 **adwInfo** 成員來維護任何必要的狀態資訊。 I/o 程式不應該修改 **MMIOINFO** 結構中的任何其他成員。
 
- 
+ 
 
- 
+ 

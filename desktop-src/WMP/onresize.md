@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8110f1a32ac3b83bd12e3e370159022b62bb23e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 71dc9da97b17afa11f4e0e6193413a7cdc08fd7216043ce6ded591735ee1a564
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119389438"
 ---
 # <a name="onresize"></a>onresize
 

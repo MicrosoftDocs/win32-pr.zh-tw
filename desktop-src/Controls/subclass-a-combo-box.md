@@ -4,12 +4,12 @@ description: 本主題將示範如何將下拉式方塊設為子類別。
 ms.assetid: 9897EA94-1BF7-4711-AED6-5E9C863C287A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b48301309597c53f02ca87d1d1748ab1fe05139
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: ea674cfecf3c84ce4a1fa2abb1f23f8f208a8b8fd220736bbcec61bea7880b34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078442"
 ---
 # <a name="how-to-subclass-a-combo-box"></a>如何子類別化下拉式方塊
 
@@ -19,12 +19,12 @@ ms.locfileid: "104024193"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -355,6 +355,6 @@ LRESULT CALLBACK SubClassProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 [ComboBox](combo-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

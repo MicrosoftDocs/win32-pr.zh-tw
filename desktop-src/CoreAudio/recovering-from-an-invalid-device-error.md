@@ -4,12 +4,12 @@ ms.assetid: 1f5c3458-70ca-45ba-ac33-5c7b9f092320
 title: 從 Invalid-Device 錯誤中復原
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca20c32be46367f53a14ce26c39f980e3649b652
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9a9f56972aeeae5cfb370a656a621c6b6e206f8caa115bec33203cab7eded3e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318558"
 ---
 # <a name="recovering-from-an-invalid-device-error"></a>從 Invalid-Device 錯誤中復原
 
@@ -44,10 +44,10 @@ WASAPI 中的許多方法會傳回錯誤碼 AUDCLNT \_ E \_ 裝置 \_ 如果用�
 應用程式可以藉由註冊在會話中斷裝置與裝置的連線時收到通知，來更精確地判斷出無效裝置錯誤的原因。 若要啟用此通知，應用程式會執行 [**IAudioSessionEvents**](/windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionevents) 介面，並呼叫 [**IAudioSessionControl：： RegisterAudioSessionNotification**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification) 方法來註冊介面。 當無效裝置錯誤導致會話中斷連接時，WASAPI 會在已註冊的介面中呼叫 [**IAudioSessionEvents：： OnSessionDisconnected**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected) 方法。 透過這個方法，WASAPI 會通知應用程式中斷連接的原因。 在 Windows Vista 中， **OnSessionDisconnected** 呼叫會識別下列原因：
 
 -   使用者已移除音訊端點裝置。
--   Windows 音訊服務已關閉。
+-   Windows 的音訊服務已關閉。
 -   針對音訊會話所連接的裝置，慣用的資料流程格式已變更。
--   使用者登出 Windows 終端機的服務 (WTS 正在執行音訊會話的) 會話。 如需有關 WTS 會話的詳細資訊，請參閱 Windows SDK 檔。
--   執行音訊會話的 WTS 會話已中斷連線。
+-   使用者登出 Windows 終端機服務 (WTS 執行音訊會話的) 會話。 如需 WTS 會話的詳細資訊，請參閱 Windows SDK 檔。
+-   正在執行音訊會話的 WTS 會話已中斷連線。
 -    (的共用模式) 音訊會話已中斷連線，讓音訊端點裝置可供獨佔模式連線使用。
 
 為了回應中斷連接事件，WASAPI 會關閉屬於會話的所有資料流程。 如果應用程式後續嘗試透過 WASAPI 方法（例如 [**IAudioClient：： GetCurrentPadding**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getcurrentpadding)）存取已關閉的資料流程，則該方法會失敗，並傳回錯誤碼 AUDCLNT \_ E \_ 裝置 \_ 無效。

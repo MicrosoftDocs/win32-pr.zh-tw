@@ -4,12 +4,12 @@ ms.assetid: 6f073e1a-2985-4e94-8174-94b1fcaf13d1
 title: SPI 中的 gethostname 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9aef10be48b264eb607184caf38bd687a5fe307
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b610016222ab8a06ed874377be9ae447ad1d194ab9605a6e07b3cf829f520093
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132261"
 ---
 # <a name="gethostname-function-in-the-spi"></a>SPI 中的 gethostname 函式
 

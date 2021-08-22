@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 22de3bcc2ad21b82e1fd8306a0c668f83c723b9e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69aef5b206bec609aefd66b33bfa838471b944292767642aeef28f734c9c47b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386418"
 ---
 # <a name="psetupstringtableaddstringex-function"></a>pSetupStringTableAddStringEx 函式
 
-\[在 Windows Vista 或 Windows Server 2008 中無法使用此功能。\]
+\[Windows Vista 或 Windows Server 2008 中無法使用此功能。\]
 
 將字串和額外的資料加入至資料表。
 
@@ -59,7 +59,7 @@ LONG pSetupStringTableAddStringEx(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 此參數的值可以是 `STRTAB_CASE_SENSITIVE | STRTAB_NEW_EXTRADATA` 。

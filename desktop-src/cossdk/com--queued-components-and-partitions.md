@@ -4,12 +4,12 @@ ms.assetid: 08b0f7b5-6c45-4471-9634-1f42fbbf500c
 title: COM + 佇列元件和分割區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 589d7cb7c3e61be8ef53a248f990cde65447cf9d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0296119d32eafefd3212ae37e32543b8fd14b884ff6401c16827717a9a6960b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129070"
 ---
 # <a name="com-queued-components-and-partitions"></a>COM + 佇列元件和分割區
 

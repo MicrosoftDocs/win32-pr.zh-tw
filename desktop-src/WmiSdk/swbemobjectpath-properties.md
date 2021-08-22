@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SWbemObjectPath 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fccec21e1d5ee829b9ae548d1ba8eb8b7947b11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b30a9592f4a8d7392804a832e3bdd873d67a551cd8ae8ef5297f5827c889a3f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383058"
 ---
 # <a name="swbemobjectpath-properties"></a>SWbemObjectPath 屬性
 

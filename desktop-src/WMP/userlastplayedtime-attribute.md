@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85fb7759c5e235575935df642f6fa1cfd53202a5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5fdff7ad1c1e129da2de930f786d995cb8eab4c9d6ba6b58847303721980ab4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134411"
 ---
 # <a name="userlastplayedtime-attribute"></a>UserLastPlayedTime 屬性
 

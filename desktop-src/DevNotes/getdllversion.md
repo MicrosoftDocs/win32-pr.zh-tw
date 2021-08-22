@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cabinet.dll
-ms.openlocfilehash: 1b1142bd2ece965a3f2fc58b6bb2f90586a8b391
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 14f2da8c6f8c786042c2abd5f41e02bdfab6f33d9b8aa42a5b5f90a6c4357103
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390708"
 ---
 # <a name="getdllversion-function"></a>GetDllVersion 函式
 

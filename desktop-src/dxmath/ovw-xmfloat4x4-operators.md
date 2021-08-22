@@ -4,12 +4,12 @@ ms.assetid: e52712dc-2d94-4bc1-a0e8-2ea274bc3062
 title: XMFLOAT4X4 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b6bc7f56e15c4186abeb400033ff495c53012dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccc7b0ef53bb4a97de713f4d3c128ecfdfcf4fb71586cbdabbd48ab4b22de717
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118425"
 ---
 # <a name="xmfloat4x4-operators"></a>XMFLOAT4X4 運算子
 

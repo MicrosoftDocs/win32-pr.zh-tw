@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_BootService 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d65cf4c42fbddfa99ee9eee7c604a51065f31f1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b31e9df23f814ea52b1810e75c42bd5139dc56db3067e1ae829a5995ba8ffd84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080892"
 ---
 # <a name="cim_bootservice-methods"></a>CIM \_ BootService 方法
 

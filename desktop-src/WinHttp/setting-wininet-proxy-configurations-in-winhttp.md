@@ -4,12 +4,12 @@ ms.assetid: c3e867d8-9d67-4e6a-8551-1fa846e089ed
 title: 在 WinHTTP 中設定 WinINet Proxy 設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91306f6591e0aab0f96fa010ee2a83d3f32c8fb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eefa060d24036a02752a5eefacc9ea6672dec9bb77bad30f653c8f382490a487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133051"
 ---
 # <a name="setting-wininet-proxy-configurations-in-winhttp"></a>在 WinHTTP 中設定 WinINet Proxy 設定
 

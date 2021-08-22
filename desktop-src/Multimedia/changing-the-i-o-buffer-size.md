@@ -13,12 +13,12 @@ keywords:
 - mmioSetBuffer 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad2171f4f09b933a3de5ec1e99750261fdda2f80
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 826fabfb7e51b80bf406721b3d5e7b094f83c1c3fe2061f7edea0810a41dc639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145081"
 ---
 # <a name="changing-the-io-buffer-size"></a>變更 i/o 緩衝區大小
 
@@ -42,6 +42,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

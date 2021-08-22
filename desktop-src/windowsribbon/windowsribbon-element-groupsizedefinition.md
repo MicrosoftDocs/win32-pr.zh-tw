@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dc3184f18bf692c333d7088ade79ff4ac5360f1a
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 7e4076730f249695cc37c473643d8f0dc20d24f79fb48ec822afaf9b8d4234b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122631356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393088"
 ---
 # <a name="groupsizedefinition-element"></a>GroupSizeDefinition 元素
 
@@ -39,10 +39,10 @@ ms.locfileid: "122631356"
 
 <table>
 <colgroup>
-<col  />
-<col  />
-<col  />
-<col  />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,7 +56,7 @@ ms.locfileid: "122631356"
 <tr class="odd">
 <td><strong>大小</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (大型) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (中) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (Small) <br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -74,7 +74,7 @@ ms.locfileid: "122631356"
 | [**ColumnBreak**](windowsribbon-element-columnbreak.md)<br/>                     | 可能會發生一次或多次<br/> <br/> |
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>                   | 可能會發生一次或多次<br/> <br/> |
 | [**ControlSizeDefinition**](windowsribbon-element-controlsizedefinition.md)<br/> | 可能會發生一次或多次<br/> <br/> |
-| [**資料列**](windowsribbon-element-row.md)<br/>                                     | 可能會發生一次或多次<br/> <br/> |
+| [**行**](windowsribbon-element-row.md)<br/>                                     | 可能會發生一次或多次<br/> <br/> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: fc11e7bab4cbbd6c8a685b289d4bde476cd465ca
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f3dd506c8349bd4b8648e2670baf815fcc7bb946d8996e196cd4a9a1fc8e8067
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990898"
 ---
 # <a name="d3dxshevalconelight-function-d3dx10h"></a>D3DXSHEvalConeLight 函式 (D3DX10) 
 

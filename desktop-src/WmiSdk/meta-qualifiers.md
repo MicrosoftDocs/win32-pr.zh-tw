@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 中繼限定詞
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8618ef8258f403a43e08be54b3acbd5bb1e923c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76609fecca3e3831372ea813e7210cd449c2e1e4fc527df605bc523efd4c1be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131172"
 ---
 # <a name="meta-qualifiers"></a>中繼限定詞
 

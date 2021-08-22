@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 0b8a940fd08e1ab19b18969a763448b65fffd9d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c3a5cd33a6a5584ea9373df22df51a09e3e763d284a0f979f0b24e3651dc3d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100526"
 ---
 # <a name="isvaliddevmode-function"></a>IsValidDevmode 函式
 
@@ -76,8 +76,8 @@ BOOL IsValidDevmode(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Winspool.drv。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl> |

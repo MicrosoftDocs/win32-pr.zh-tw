@@ -6,12 +6,12 @@ keywords:
 - WS_METADATA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1d0b7ab1b086f9e95f1df56903343039772bafa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6f9329cb418502105e13812809f04cfce0c2ed6ce0172e60102436219df9856
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119391908"
 ---
 # <a name="ws_metadata"></a>WS \_ 中繼資料
 
@@ -35,7 +35,7 @@ typedef struct _WS_METADATA WS_METADATA;
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>WebServices。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 76d60b95-a34a-4747-b0fa-9230aa60bd63
 title: 原生 Wifi 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2126627f4cf6431fbac2bf4d1f6ec58561bfd8bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4a9430fa2c1645d574f8b4ab851a8cf5ce1407139cfe63a6aabeb3ebfd57abd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064858"
 ---
 # <a name="whats-new-in-native-wifi"></a>原生 Wifi 的新功能
 
@@ -23,7 +23,7 @@ ms.locfileid: "106974584"
 
 ## <a name="windows-8-and-windows-server-2012"></a>Windows 8 與 Windows Server 2012
 
-下列功能已新增至 Windows 8 和 Windows Server 2012 上的原生 Wifi Api。
+下列功能已新增至 Windows 8 和 Windows Server 2012 上的原生 Wifi api。
 
 Wi-Fi 直接功能，以 Wi-Fi 聯盟的 Wi-Fi 對等技術規格 v1.1 開發為基礎， (查看 [Wi-fi 同盟發佈的規格](https://www.wi-fi.org/)) 。 Wi-Fi 點對點技術規格的目標是要提供解決方案來 Wi-Fi 裝置到裝置的連線能力，而不需要無線存取點， (無線 AP) 設定連線或使用現有的 Wi-Fi 臨機操作 (IBSS) 機制。
 
@@ -40,7 +40,7 @@ Wi-Fi 直接功能，以 Wi-Fi 聯盟的 Wi-Fi 對等技術規格 v1.1 開發為
 
 ## <a name="windows-7-and-windows-server-2008-r2"></a>Windows 7 與 Windows Server 2008 R2
 
-下列功能已新增至 Windows 7 和 Windows Server 2008 R2 上的原生 Wifi Api。
+下列功能已新增至 Windows 7 和 Windows Server 2008 R2 上的原生 Wifi api。
 
 無線裝載網路可讓單一實體的無線介面卡以用戶端的身分連線到 (AP) 的硬體存取點，同時作為軟體 AP，讓其他支援無線裝置的裝置能夠連線。
 

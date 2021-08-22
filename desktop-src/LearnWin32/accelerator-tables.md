@@ -4,12 +4,12 @@ description: 快速鍵對應表
 ms.assetid: 4F2CFD7C-90D3-4C3F-9A42-05B915914EF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2951ee99a31a977e0909de5639fa3110cea10e0b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 504749b6fad794f5f587e035f0dbc81662aa8b5faaf9b9eb13de365dd9a8d312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146441"
 ---
 # <a name="accelerator-tables"></a>快速鍵對應表
 

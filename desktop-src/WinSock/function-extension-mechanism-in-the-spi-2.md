@@ -4,12 +4,12 @@ ms.assetid: 5c71532a-c565-4f65-ab36-ca0e23190718
 title: SPI 中的函數延伸機制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cfa6c9dfaf3afcec8e6861a9a0d3545a7ed0c5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db2e5e32a4d79174893cfb2d9fa2ae0c0521a51ac80c40bcb6c45feab49693d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132421"
 ---
 # <a name="function-extension-mechanism-in-the-spi"></a>SPI 中的函數延伸機制
 
