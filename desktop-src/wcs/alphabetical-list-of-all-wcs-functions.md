@@ -1,9 +1,9 @@
 ---
 title: 所有 WCS 函數的字母順序清單
-description: 以下是 Windows \ 160、98和更新版本以及 Windows \ 160; 2000 和更新版本所提供之 WCS 1.0 API 函式的完整字母順序清單。
+description: 以下是 Windows \ 160; 98 和更新版本以及 Windows \ 160; 2000 和更新版本所提供之 WCS 1.0 API 函式的完整字母順序清單。
 ms.assetid: aba45dbd-6fc2-4788-87f0-043579fa53f9
 keywords:
-- Windows Color System (WCS) ，函數
+- Windows色彩系統 (WCS) ，函數
 - WCS (Windows 色彩系統) ，函數
 - 影像色彩管理，函數
 - 色彩管理，函數
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04b70208c1f1f7d87b4f5cd6f4a14f3f22e0bc2f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 18e2c9250cc9fb1e9e418079ed3b9524b3add2535dd780eed65ae998bda80ef5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106985827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706658"
 ---
 # <a name="alphabetical-list-of-all-wcs-functions"></a>所有 WCS 函數的字母順序清單
 
@@ -26,7 +26,7 @@ ms.locfileid: "106985827"
 
 
 
-| 函數或結構                                                                 | Description                                                                                                                                          |
+| 函數或結構                                                                 | 描述                                                                                                                                          |
 |---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**PCMSCALLBACKW**](/windows/win32/api/icm/nc-icm-pcmscallbackw) | \**PCMSCALLBACKW** (或 **ApplyCallbackFunction**) 是一種回呼函式，您會在執行 [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) 函式所顯示的對話方塊時，執行此函數來更新 WCS 設定資料。 |
 | [**AssociateColorProfileWithDeviceW**](/windows/win32/api/icm/nf-icm-associatecolorprofilewithdevicew)             | 將指定的色彩設定檔與指定的裝置產生關聯。                                                                                                            |
@@ -51,8 +51,8 @@ ms.locfileid: "106985827"
 | [**CMGetInfo**](/windows/win32/api/icm/nf-icm-cmgetinfo) | 抓取 (CMM) 的色彩管理模組的各種相關資訊。 |
 | [**CMGetNamedProfileInfo**](/windows/win32/api/icm/nf-icm-cmgetnamedprofileinfo) | 抓取指定之命名色彩設定檔的相關資訊。 |
 | [**CMGetPS2ColorRenderingDictionary**](/windows/desktop/api/Wingdi/)           | 取得 PostScript 色彩轉譯字典。                                                                                                        |
-| [**CMGetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-cmgetps2colorrenderingintent) | 從設定檔抓取 PostScript 層級2色彩轉譯 [意圖](rendering-intents.md) 。 |
-| [**CMGetPS2ColorSpaceArray**](/windows/desktop/api/Wingdi/)                             | 取得 PostScript 色彩空間陣列。                                                                                                                 |
+| [**CMGetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-cmgetps2colorrenderingintent) | 從設定檔抓取 PostScript 層級2色彩轉譯[意圖](rendering-intents.md)。 |
+| [**CMGetPS2ColorSpaceArray**](/windows/desktop/api/Wingdi/)                             | 取得 PostScript 的色彩空間陣列。                                                                                                                 |
 | [**CMIsProfileValid**](/windows/win32/api/icm/nf-icm-cmisprofilevalid) | 報告指定的設定檔是否為可用於色彩管理的有效 ICC 設定檔。 |
 | [**CMTranslateColors**](/windows/win32/api/icm/nf-icm-cmtranslatecolors) | 使用色彩轉換，將色彩的陣列從來源 [色彩空間](color-spaces.md) 轉譯為目的色彩空間。 |
 | [**CMTranslateRGB**](/windows/win32/api/icm/nf-icm-cmtranslatergb) | 將應用程式提供的 RGBQuad 轉譯成裝置 [色彩空間](color-spaces.md)。 |
@@ -86,15 +86,15 @@ ms.locfileid: "106985827"
 | [**GetLogColorSpace**](/windows/desktop/api/Wingdi/nf-wingdi-getlogcolorspacea)                                           | 取得裝置內容的 [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) 結構。                                                                       |
 | [**GetNamedProfileInfo**](/windows/win32/api/icm/nf-icm-getnamedprofileinfo) | 抓取第一個參數中所指定的「國際色彩協會」 (ICC) 命名色彩設定檔的相關資訊。 |
 | [**GetPS2ColorRenderingDictionary**](/windows/win32/api/icm/nf-icm-getps2colorrenderingdictionary) | 從指定的 ICC 色彩設定檔抓取 PostScript 層級2色彩轉譯字典。 |
-| [**GetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-getps2colorrenderingintent) | 從 ICC 色彩設定檔抓取 PostScript 層級2色彩轉譯 [意圖](r.md) 。 |
-| [**GetPS2ColorSpaceArray**](/windows/win32/api/icm/nf-icm-getps2colorspacearray) | 從 ICC 色彩設定檔抓取 PostScript 層級 2 [色彩空間](c.md) 陣列。 |
+| [**GetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-getps2colorrenderingintent) | 從 ICC 色彩設定檔抓取 PostScript 層級2色彩轉譯[意圖](r.md)。 |
+| [**GetPS2ColorSpaceArray**](/windows/win32/api/icm/nf-icm-getps2colorspacearray) | 從 ICC 色彩設定檔抓取 PostScript 層級 2[色彩空間](c.md)陣列。 |
 | [**GetStandardColorSpaceProfileW**](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew) | 抓取已針對指定標準 [色彩空間](c.md)註冊的色彩設定檔。 |
 | [**ICMProgressProcCallback**](icmprogressproccallback.md)                             | 應用程式提供的回呼，以報告進度。                                                                                                    |
 | [**InstallColorProfileW**](/windows/win32/api/icm/nf-icm-installcolorprofilew) | 安裝指定的設定檔，以便在指定的電腦上使用。 設定檔也會複製到 COLOR 目錄。 |
 | [**IsColorProfileTagPresent**](/windows/win32/api/icm/nf-icm-iscolorprofiletagpresent) | 報告指定的國際色彩協會 (ICC) 標記是否存在於指定的色彩設定檔中。 |
 | [**IsColorProfileValid**](/windows/win32/api/icm/nf-icm-iscolorprofilevalid) | 可讓您判斷指定的設定檔是否為有效的國際色彩協會 (ICC) 設定檔，或可用於色彩管理的有效 Windows 色彩系統 (WCS) 設定檔控制碼。 |
 | [**OpenColorProfileW**](/windows/win32/api/icm/nf-icm-opencolorprofilew) | 建立指定之色彩設定檔的控制碼。 然後，控制碼可用於其他設定檔管理功能。 |
-| [**RegisterCMMW**](/windows/win32/api/icm/nf-icm-registercmmw) | 將指定的識別值與指定的色彩管理模組動態連結程式庫產生關聯 (的 CMM DLL) 。 當此識別碼出現在色彩設定檔中時，Windows 可以找到對應的 CMM，以便建立轉換。 |
+| [**RegisterCMMW**](/windows/win32/api/icm/nf-icm-registercmmw) | 將指定的識別值與指定的色彩管理模組動態連結程式庫產生關聯 (的 CMM DLL) 。 當此識別碼出現在色彩設定檔時，Windows 可以找到對應的 CMM，以便建立轉換。 |
 | [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) | 可讓您選取慣用的色彩管理模組 (要使用的 CMM) 。 |
 | [**SetColorProfileElement**](/windows/win32/api/icm/nf-icm-setcolorprofileelement) | 設定 ICC 色彩設定檔中已標記之設定檔元素的元素資料。 |
 | [**SetColorProfileElementReference**](/windows/win32/api/icm/nf-icm-setcolorprofileelementreference) | 在指定的 ICC 色彩設定檔中，建立參考與現有標記相同資料的新標記。 |

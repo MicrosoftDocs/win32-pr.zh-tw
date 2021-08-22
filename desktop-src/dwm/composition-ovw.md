@@ -18,12 +18,12 @@ keywords:
 - 傳訊
 ms.topic: article
 ms.date: 05/30/2019
-ms.openlocfilehash: 8d7654f479896002b4bc65df613fab9506caf2a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8c5df1778436e2cfe23df85483453b01fb80884adc9a6d8ff34955deb3e0c6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741578"
 ---
 # <a name="enable-and-control-dwm-composition"></a>啟用及控制 DWM 組合
 
@@ -115,7 +115,7 @@ HRESULT DisableNCRendering(HWND hWnd)
 - [**WM \_ DWMNCRENDERINGCHANGED**](wm-dwmncrenderingchanged.md)
 - [**WM \_ DWMWINDOWMAXIMIZEDCHANGE**](wm-dwmwindowmaximizedchange.md)
 
-## <a name="disabling-dwm-composition-windows7-and-earlier"></a>停用 Windows 7 和舊版)  (的 DWM 組合
+## <a name="disabling-dwm-composition-windows-7-and-earlier"></a>停用 DWM 組合 (Windows 7 及更早版本) 
 
 > [!WARNING]
 > 本節中的資訊僅適用于 Windows 7 和舊版系統。

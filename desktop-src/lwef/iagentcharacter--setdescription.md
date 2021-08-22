@@ -4,16 +4,16 @@ description: IAgentCharacter SetDescription
 ms.assetid: ae01b9e6-1616-4806-9125-ceb4cb54aab1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9815e5c0e01537c7db2b400326f86da37af003
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0d96765d3faddafef00a28826ec5a9fdd92acb6884ac3aa659ad88ba2c091a44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609818"
 ---
 # <a name="iagentcharactersetdescription"></a>IAgentCharacter：： SetDescription
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetDescription(
@@ -39,9 +39,9 @@ HRESULT SetDescription(
 [**IAgentCharacter：： GetDescription**](iagentcharacter--getdescription.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

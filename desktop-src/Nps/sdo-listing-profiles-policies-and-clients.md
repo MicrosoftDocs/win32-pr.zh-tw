@@ -5,12 +5,12 @@ ms.assetid: 8bfbe4f6-b098-43c8-acb7-2c489ebe0ad3
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc10fb3a59a2461d9138f8b209f69d31eb3fa1fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 39f2ba190b3395a96ff8f733a136203b5c8bebbeb7b8011f513ab8b5f9b9193b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742018"
 ---
 # <a name="listing-profiles-policies-and-clients"></a>列出設定檔、原則和用戶端
 
@@ -141,6 +141,6 @@ Next 'vtClient
 [**RADIUSPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-radiusproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

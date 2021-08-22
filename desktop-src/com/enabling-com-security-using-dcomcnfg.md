@@ -4,12 +4,12 @@ description: Dcomcnfg.exe 提供使用者介面，可供修改登錄中的某些
 ms.assetid: 9aad6b71-47b8-4377-88e5-f463991d9e86
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c01139584b715fccdad923bc5eb3d6a863a63ef8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d6161cf7418e7eab705203df51710e789ad2ef7d6843051dd35399fb8388f27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678688"
 ---
 # <a name="enabling-com-security-using-dcomcnfg"></a>使用 DCOMCNFG 啟用 COM 安全性
 
@@ -25,7 +25,7 @@ Dcomcnfg.exe 提供使用者介面，可供修改登錄中的某些設定。 藉
 > [!Note]  
 > 您必須是系統管理員，才能執行 Dcomcnfg.exe。
 
- 
+ 
 
 下列主題提供有關如何使用 Dcomcnfg.exe 設定安全性的逐步程式：
 
@@ -42,9 +42,9 @@ Dcomcnfg.exe 提供使用者介面，可供修改登錄中的某些設定。 藉
 [關閉安全性](turning-off-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

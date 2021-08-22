@@ -4,12 +4,12 @@ description: Trackbars 會傳送一個 WM \_ HSCROLL 或 wm VSCROLL 訊息給父
 ms.assetid: 83F47A3E-E607-49C2-A8B5-BC8A321D90BB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c723ad1bebb5c9f3ec8c4e7aefdc658e0881aef6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e211a468c5c107a96fc6b28d12feed219799450828db07be87cd8887b5816bd1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540318"
 ---
 # <a name="how-to-process-trackbar-notification-messages"></a>如何處理資訊提示通知訊息
 
@@ -19,12 +19,12 @@ Trackbars 會傳送一個 [**wm \_ HSCROLL**](wm-hscroll.md) 或 [**wm \_ VSCROL
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -84,9 +84,9 @@ VOID WINAPI TBNotifications(
 [使用 [使用] 控制項](using-trackbar-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

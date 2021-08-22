@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3fbc6e2533270ebe1ca124b94be858631268358b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3eb23d0c7782a41b8cee946387f4819326e24318654ca0bf01dec3ccf8db056e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523788"
 ---
 # <a name="reset-method-of-the-msvm_externalethernetport-class"></a>Msvm ExternalEthernetPort 類別的 Reset 方法 \_
 

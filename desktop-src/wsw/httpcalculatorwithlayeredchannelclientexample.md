@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39ad52294b86db729e858564fca557ebb44dc54c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f5dcd9596eaff10d9415f6ffc1d6ba7a057aa47cc66b5ca2e63fca90ba8675f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545998"
 ---
 # <a name="httpcalculatorwithlayeredchannelclientexample"></a>HttpCalculatorWithLayeredChannelClientExample
 
@@ -657,9 +657,9 @@ clean:
 
 ```
 
- 
+ 
 
- 
+ 
 
 
 

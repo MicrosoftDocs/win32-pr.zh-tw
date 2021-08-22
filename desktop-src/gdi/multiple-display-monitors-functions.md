@@ -4,12 +4,12 @@ ms.assetid: a64b256c-e7a1-4ee2-a346-4b7abcab9e90
 title: 多重顯示器監視函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d0bb4477b325d0e9c79cbb7ba6d22683e31bf4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e35ab6fef353f793257721077074271915a3628859471a2f5d89694f6d47440
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779138"
 ---
 # <a name="multiple-display-monitors-functions"></a>多重顯示器監視函式
 

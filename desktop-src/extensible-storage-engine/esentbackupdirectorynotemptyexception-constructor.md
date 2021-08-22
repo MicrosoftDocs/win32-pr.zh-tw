@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 202761c708e96ac28fb705ad19e53bad60cfe041
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10608d07dae0478a9e79d6813d2a7409bda746df7f917b05b2aed9ea86923055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737418"
 ---
 # <a name="esentbackupdirectorynotemptyexception-constructor"></a>EsentBackupDirectoryNotEmptyException 函式
 

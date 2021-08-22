@@ -9,12 +9,12 @@ keywords:
 - waveOutGetPosition 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b28737cfc292dc8779b21756f38813642b82e452
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c85bc46e476786625ccae51802e0b720379a935110eb37d941c4c76d69d94783
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689048"
 ---
 # <a name="retrieving-the-current-playback-position"></a>正在抓取目前的播放位置
 
@@ -26,6 +26,6 @@ ms.locfileid: "104314674"
 
 如需 **MMTIME** 結構的詳細資訊，請參閱 [多媒體計時器](multimedia-timers.md)。
 
- 
+ 
 
- 
+ 

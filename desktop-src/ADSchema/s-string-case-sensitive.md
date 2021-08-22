@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33d9d0c9ace65e7102065e014ac4277c52f1ba83
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5a75fd1a8ee3b82251cdcbdb6e84a9b878590c3dbcdb175d41476ed4e8d527c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702508"
 ---
 # <a name="stringcase-sensitive-syntax"></a>字串 (區分大小寫) 語法
 

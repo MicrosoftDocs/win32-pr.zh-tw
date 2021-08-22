@@ -1,5 +1,5 @@
 ---
-title: Windows Web 服務回呼函數
+title: WindowsWeb 服務回呼函數
 description: 回呼可讓應用程式呼叫在另一層或層級定義的函數。
 ms.assetid: 7398ec42-388a-494c-9fe4-5bd62aa009cb
 keywords:
@@ -7,14 +7,14 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a385ca21d00e8845f89bda0d9b04221a922ba421
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a78bce5c4023d889748af103148088462cb4b267192b1c0b3845fc735fd1bb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926868"
 ---
-# <a name="windows-web-services-callback-functions"></a>Windows Web 服務回呼函數
+# <a name="windows-web-services-callback-functions"></a>WindowsWeb 服務回呼函數
 
 回呼可讓應用程式呼叫在另一層或層級定義的函數。 應用程式會將函式引數註冊為處理常式，稍後視需要以非同步方式呼叫。 如果函式以非同步方式完成，表示函式成功或錯誤，則會叫用回呼。 如果作業同步完成，則不會呼叫回呼。
 
@@ -83,9 +83,9 @@ Windows Web 服務 API 包含下列回呼函數：
 -   [**WS \_ 寫入 \_ 訊息 \_ 開始 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_write_message_start_callback)
 -   [**WS \_ 寫入 \_ 類型 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_write_type_callback)
 
- 
+ 
 
- 
+ 
 
 
 

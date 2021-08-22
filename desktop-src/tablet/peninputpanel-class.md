@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 0564f758d47e516873b8df5020f3f03a5bcb0727
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58d27b97bb6683f32c145b92c1fda65fe0a786d5cb502e644580b57366119840
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708338"
 ---
 # <a name="peninputpanel-class"></a>PenInputPanel 類別
 
@@ -106,7 +106,7 @@ ms.locfileid: "106975329"
 
 
 
-| 屬性                                                                  | 存取類型           | Description                                                                                                                                                                    |
+| 屬性                                                                  | 存取類型           | 描述                                                                                                                                                                    |
 |:--------------------------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AttachedEditWindow**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow)<br/> | 讀取/寫入<br/> | 取得或設定 **PenInputPanel** 物件所附加之控制項的視窗控制碼。<br/>                                                                     |
 | [**自動**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow)<br/>                     | 讀取/寫入<br/> | 取得或設定布林值，這個值會指定當使用畫筆設定焦點時，是否要顯示 **PenInputPanel** 物件。<br/>                                           |
@@ -136,7 +136,7 @@ ms.locfileid: "106975329"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

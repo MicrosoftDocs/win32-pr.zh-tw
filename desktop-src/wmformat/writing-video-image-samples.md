@@ -10,12 +10,12 @@ keywords:
 - 編解碼器，撰寫影片影像範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fbac644d7938477ba3d2e8b21ebb6e631a47708
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d7c05bbcc9239eede97f4ea7ca0df34004b1fb7facc0c36c8f38098c42e86fce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704818"
 ---
 # <a name="writing-video-image-samples"></a>撰寫影片影像範例
 
@@ -51,9 +51,9 @@ Windows Media 視訊9映射 v2 編解碼器會在記憶體中一次維護最多�
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

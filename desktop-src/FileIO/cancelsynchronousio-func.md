@@ -17,12 +17,12 @@ api_location:
 - KernelBase.dll
 - MinKernelBase.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: 3e0c1596603ef7c0d13362c2608cc59b88d366fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bdae4682bcbabb09778bdf5f5d3421c16af17587eda72813c9103eb16f7037f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582548"
 ---
 # <a name="cancelsynchronousio-function"></a>CancelSynchronousIo 函式
 
@@ -70,7 +70,7 @@ BOOL WINAPI CancelSynchronousIo(
 -   **已取消作業。** [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)函數傳回錯誤作業已 **\_ \_ 中止**。
 -   **作業失敗，發生另一個錯誤。** [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)函數會傳回相關的錯誤碼。
 
-在 Windows 8 和 Windows Server 2012 中，下列技術支援此功能。
+在 Windows 8 和 Windows Server 2012 中，下列技術支援此函數。
 
 
 
@@ -92,9 +92,9 @@ BOOL WINAPI CancelSynchronousIo(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                                                                                                                                                                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                                                                                                                                    |
-| 標頭<br/>                   | <dl> <dt>IoAPI (包含 Windows .h) ;</dt><dt>Windows server 2008 R2、windows 7、Windows Server 2008 和 Windows Vista (的 WinBase，包括 windows .h) </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                                                                                                                                                                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                                                                                                                                    |
+| 標頭<br/>                   | <dl> <dt>IoAPI (包含 Windows .h) ;</dt><dt>Windows server 2008 R2、Windows 7、Windows Server 2008 和 Windows Vista (的 WinBase .h 包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                 |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                 |
 

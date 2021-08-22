@@ -1,29 +1,29 @@
 ---
 title: 進階查詢語法
-description: " (AQS) 的 Advanced Query 語法，可供 Microsoft Windows 桌面搜尋 (WDS) 協助使用者和程式設計師更妥善地定義和縮小搜尋的範圍。"
+description: Advanced Query 語法 (AQS) 是由 Microsoft Windows Desktop Search (WDS) 所使用，可協助使用者和程式設計師更妥善地定義和縮小搜尋的範圍。
 ms.assetid: 8e55bd40-c7cf-44a6-bc18-24bc7a267779
 ms.topic: article
 ms.date: 05/19/2020
-ms.openlocfilehash: bd00821e60c8d950a7ec384b62d7ff062066f224
-ms.sourcegitcommit: 8bba855bfee06d018edb16c1af70fa4d4344445b
+ms.openlocfilehash: 2daf552f8f750335abacea4b550f92bd71c91c9b2b688a387b035a8180a8b3dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "106965417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601818"
 ---
 # <a name="advanced-query-syntax"></a>進階查詢語法
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在之後的版本中，請改用 [Windows Search](../search/-search-3x-wds-overview.md) 。
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在之後的版本中，請改用[Windows Search](../search/-search-3x-wds-overview.md) 。
 
- (AQS) 的 Advanced Query 語法，可供 Microsoft Windows 桌面搜尋 (WDS) 協助使用者和程式設計師更妥善地定義和縮小搜尋的範圍。 使用 AQS 可讓您輕鬆地縮小搜尋範圍，並提供更好的結果集。 下列參數可縮小搜尋範圍：
+Advanced Query 語法 (AQS) 是由 Microsoft Windows Desktop Search (WDS) 所使用，可協助使用者和程式設計師更妥善地定義和縮小搜尋的範圍。 使用 AQS 可讓您輕鬆地縮小搜尋範圍，並提供更好的結果集。 下列參數可縮小搜尋範圍：
 
 -   檔種類：資料夾、檔、簡報、圖片等等。
 -   檔案存放區：特定的資料庫和位置。
 -   檔案屬性：大小、日期、標題等等。
 -   檔案內容：關鍵字，例如「專案交付專案」、「AQS」、「藍色 suede 鞋」等等。
 
-此外，搜尋參數可以使用搜尋運算子來合併。 本節的其餘部分將說明查詢語法、參數和運算子，以及如何結合以提供目標搜尋結果。 這些表格描述與 WDS 搭配使用的語法，以及可針對 **Windows 桌面搜尋** 結果視窗中顯示的每個檔案種類查詢的屬性。
+此外，搜尋參數可以使用搜尋運算子來合併。 本節的其餘部分將說明查詢語法、參數和運算子，以及如何結合以提供目標搜尋結果。 這些表格描述與 WDS 搭配使用的語法，以及可針對 **Windows Desktop 搜尋** 結果視窗中顯示的每個檔案種類進行查詢的屬性。
 
 ## <a name="desktop-search-syntax"></a>桌面搜尋語法
 
@@ -47,7 +47,7 @@ ms.locfileid: "106965417"
 
 ### <a name="scope-locations-and-data-stores"></a>範圍：位置和資料存放區
 
-使用者可以將搜尋範圍限制在特定資料夾位置或資料存放區。 例如，如果您使用數個電子郵件帳戶，而您想要將查詢限制為 Microsoft Outlook 或 Microsoft Outlook Express，則可以使用 `store:outlook` 或分別使用或 `store:oe` 。
+使用者可以將搜尋範圍限制在特定資料夾位置或資料存放區。 例如，如果您使用數個電子郵件帳戶，而您想要將查詢限制為 microsoft Outlook 或 microsoft Outlook Express，則可以使用 `store:outlook` 或分別使用或 `store:oe` 。
 
 
 
@@ -103,7 +103,7 @@ ms.locfileid: "106965417"
 
 
 
-| 關鍵字/符號  | 範例                                              | 函式                                                                                                       |
+| 關鍵字/符號  | 範例                                              | 函數                                                                                                       |
 |-----------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | NOT             | 社交非安全性<br/>                        | 尋找包含 *社交*（但不是 *安全性*）的專案。<br/>                                              |
 |                 | 社會保障<br/>                           | 尋找包含 *社交* 和 *安全性* 的專案。<br/>                                              |
@@ -130,7 +130,7 @@ ms.locfileid: "106965417"
 
 
 
-| 屬性       | 範例                   | 函式                                                                                                        |
+| 屬性       | 範例                   | 函數                                                                                                        |
 |----------------|---------------------------|-----------------------------------------------------------------------------------------------------------------|
 | 是：附件  | 報表為：附件      | 尋找包含 *報表* 之附件的專案。 與 `isattachment:true` 相同。                           |
 | isonline:      | 報表 isonline： true      | 尋找線上且包含 *報表* 的專案。                                                         |
@@ -187,7 +187,7 @@ ms.locfileid: "106965417"
 | 收件者             | 至或 toname             | 至： bob                         |
 | 副本             | cc 或 ccname             | cc： john                        |
 | 公司        | company                  | 公司： Microsoft              |
-| Location       | location                 | 位置：「會議室102」 |
+| 位置       | location                 | 位置：「會議室102」 |
 | 類別       | category                 | 類別：商務              |
 | 關鍵字       | 關鍵字                 | 關鍵字：「銷售預測」   |
 | 專輯          | 專輯                    | 專輯：「每晚飛出」           |
@@ -264,7 +264,7 @@ ms.locfileid: "106965417"
 
 > [!Note]
 >
-> 電話號碼會依照輸入進行編制索引。 例如，如果使用者在輸入電話號碼時未包含國家或區功能變數代碼，則如果在電話號碼中使用國家或區功能變數代碼進行搜尋，則使用者將無法找到連絡人。
+> 電話數位會依照輸入進行索引。 例如，如果使用者在輸入電話號碼時未包含國家或區功能變數代碼，則如果在電話號碼中使用國家或區功能變數代碼進行搜尋，則使用者將無法找到連絡人。
 
  
 
@@ -282,7 +282,7 @@ ms.locfileid: "106965417"
 |----------------|-------------------------------|---------------------------------|
 | 寄件者           | from 或召集人             | 從： john                       |
 | 已收到       | 已接收或已傳送              | 已傳送：昨天                  |
-| 主體        | 主旨或標題              | 主旨：「每季財務」   |
+| 主旨        | 主旨或標題              | 主旨：「每季財務」   |
 | 具有附件 | hasattachments, hasattachment | hasattachment： true              |
 | 附件    | 附件或附件     | attachment:presentation.ppt     |
 | 密件副本            | 密件副本、bccname 或 bccaddress    | 密件副本： dave                        |
@@ -419,7 +419,7 @@ ms.locfileid: "106965417"
 
 | 屬性 | 用法           | 範例                                |
 |----------|---------------|----------------------------------------|
-| Name     | name、subject | name： "家人度假給海灘 05" |
+| 名稱     | name、subject | name： "家人度假給海灘 05" |
 | 分機      | ext、fileext  | ext:.avi                               |
 
 

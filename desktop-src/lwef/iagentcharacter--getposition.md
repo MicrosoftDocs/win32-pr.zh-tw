@@ -4,16 +4,16 @@ description: IAgentCharacter GetPosition
 ms.assetid: 79343337-2700-48cb-a09d-1a356ea560e0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40cdff0d6876fc7257e05014f3d9ba695db5d168
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a63e75111b7694fcb993e141b8534e8f174efd1a1a252f250167ecb597149f7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609988"
 ---
 # <a name="iagentcharactergetposition"></a>IAgentCharacter：： GetPosition
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetPosition(
@@ -49,9 +49,9 @@ HRESULT GetPosition(
 [**IAgentCharacter：： SetPosition**](iagentcharacter--setposition.md)、 [ **IAgentCharacter：： GetSize**](iagentcharacter--getsize.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

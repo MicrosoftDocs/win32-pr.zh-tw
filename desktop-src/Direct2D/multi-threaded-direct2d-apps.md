@@ -116,6 +116,6 @@ void MyApp::DrawFromThread2()
 -   您應該共用大量資源 (例如點陣圖和複雜效果圖形) ，這些會初始化一次，然後不會線上程之間修改來提高效能。
 -   您可以共用輕量資源 (例如純色筆刷和文字格式) 這些會初始化一次，然後不會線上程之間修改
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>總結
 
 當您開發多執行緒 [Direct2D](./direct2d-portal.md) 應用程式時，您必須建立多執行緒 Direct2D factory，然後從該 factory 衍生所有 Direct2D 資源。 如果執行緒會進行 [direct3d](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) 或 dxgi 呼叫，您也必須明確取得，然後套用 Direct2D 鎖定來保護這些 DIRECT3D 或 dxgi 呼叫。 此外，您必須針對每個執行緒擁有可變動資源的複本，以確保內容完整性。

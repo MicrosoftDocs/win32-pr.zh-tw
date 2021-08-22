@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a8c174b32e6b5a401a4e33b17c1beddcd5843b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 71443bd29e2c1d14c31ed96f5371ebe62e8259d7987514add63cd625bc8ec277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650738"
 ---
 # <a name="equalizersettingsnormalizationaverage"></a>EQUALIZERSETTINGS.normalizationAverage
 

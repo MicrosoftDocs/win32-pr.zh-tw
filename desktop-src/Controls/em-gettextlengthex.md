@@ -3,7 +3,7 @@ title: 'EM_GETTEXTLENGTHEX 訊息 (Richedit .h) '
 description: 以各種方式計算文字長度。 通常會在建立緩衝區之前呼叫，以接收控制項的文字。
 ms.assetid: 42c89b7b-e48d-4517-9993-ce58ff9e4e40
 keywords:
-- EM_GETTEXTLENGTHEX message Windows 控制項
+- EM_GETTEXTLENGTHEX 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de2d91674e07ef60c2ce95535983a31cf380f9e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba6cf0a094edc2288dbeae6f735e8c10fb72f943f99f9a41b15fc1ef3136168d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540937"
 ---
 # <a name="em_gettextlengthex-message"></a>EM \_ GETTEXTLENGTHEX 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103843480"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

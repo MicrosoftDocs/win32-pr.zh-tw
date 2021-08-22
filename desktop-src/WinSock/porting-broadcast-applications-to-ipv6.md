@@ -1,19 +1,19 @@
 ---
-description: 本節說明將 IPv6 廣播應用程式移植到 Windows 通訊端所提供的多播功能的最佳作法。
+description: 本節說明將 IPv6 廣播應用程式移植至 Windows 通訊端所提供的多播功能的最佳作法。
 ms.assetid: 12e491fd-650f-43b4-afa1-9f37b1c30240
 title: 將廣播應用程式移植至 IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9f7dce09db6822a6f9b0a61873ca6bbff5a256b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb54fec87be2aa6174de603d2c3e4d0e640156902002b1e87fab149a70e3d1ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641698"
 ---
 # <a name="porting-broadcast-applications-to-ipv6"></a>將廣播應用程式移植至 IPv6
 
-本節說明將 IPv6 廣播應用程式移植到 Windows 通訊端所提供的多播功能的最佳作法。
+本節說明將 IPv6 廣播應用程式移植至 Windows 通訊端所提供的多播功能的最佳作法。
 
 ## <a name="comparing-ipv4-to-ipv6"></a>比較 IPv4 與 IPv6
 
@@ -36,12 +36,12 @@ IPv6 的多播可以模擬在 IPv4 中找到的傳統廣播功能。 設定 [ipv
 
 若要移植現有的應用程式，有兩個選項可移至 IPv6 多播：使用通訊端選項和使用 IOCTLs。
 
--   使用通訊端選項是以變更為基礎的方法，可讓開發人員視需要變更通訊端屬性 (例如封鎖或解除封鎖寄件者、新增來源等) 。 這種方法比較直覺，也是建議的方法。 如需以變更為基礎的多播方法的詳細資訊，請參閱 [使用 Windows 通訊端的 MLD 和 IGMP](igmp-and-windows-sockets.md)。
+-   使用通訊端選項是以變更為基礎的方法，可讓開發人員視需要變更通訊端屬性 (例如封鎖或解除封鎖寄件者、新增來源等) 。 這種方法比較直覺，也是建議的方法。 如需以變更為基礎的多播方法的詳細資訊，請參閱[使用 Windows 通訊端的 MLD 和 IGMP](igmp-and-windows-sockets.md)。
 -   使用 IOCTLs 是以最終狀態為基礎的方法，因為它可讓開發人員提供完整設定的通訊端狀態，包括包含和排除清單，以及一個呼叫。 如需以最終狀態為基礎之方法的詳細資訊，請參閱 [最終狀態式多播程式設計](final-state-based-multicast-programming.md)。
 
 針對建立新 IPv6 多播應用程式的應用程式，建議的作法是使用通訊端選項，而不是使用 IOCTLs。
 
-另一種方法是使用 IPv6 來建立多播應用程式，而這需要使用 [**WSAJoinLeaf**](/windows/desktop/api/Winsock2/nf-winsock2-wsajoinleaf) 功能。 雖然不建議使用 **WSAJoinLeaf** 函式，但在某些情況下可能會用到它。 例如，在 Windows Server 2003 及更早版本上使用通訊端選項的其中一個缺點是它們都是 IP 版本專屬的。 在這些較舊版本的 Windows 上，IPv6 和 IPv4 必須有不同的通訊端選項。 在 Windows Vista 和更新版本上，支援的新通訊端選項可搭配 IPv4 和 IPv6 使用。 相反地， **WSAJoinLeaf** 函式是與 IP 版本和通訊協定無關，因此在建立必須在 Windows Server 2003 及更早版本上使用多個 IP 版本的應用程式時，這是很有用的方法。 在需要通訊協定和 IP 版本 agnosticism 的特定情況下，使用 **WSAJoinLeaf** 函數可能更適合。
+另一種方法是使用 IPv6 來建立多播應用程式，而這需要使用 [**WSAJoinLeaf**](/windows/desktop/api/Winsock2/nf-winsock2-wsajoinleaf) 功能。 雖然不建議使用 **WSAJoinLeaf** 函式，但在某些情況下可能會用到它。 例如，在 Windows Server 2003 及更早版本上使用通訊端選項的一項缺點，就是它們是 IP 版本特定的。 在這些舊版的 Windows 上，IPv6 和 IPv4 的不同通訊端選項必須是。 在 Windows Vista 和更新版本中，支援的新通訊端選項可同時搭配 IPv4 和 IPv6 使用。 相反地， **WSAJoinLeaf** 函式是與 IP 版本和通訊協定無關，因此在建立必須在 Windows Server 2003 及更早版本上使用多個 IP 版本的應用程式時，這是很有用的方法。 在需要通訊協定和 IP 版本 agnosticism 的特定情況下，使用 **WSAJoinLeaf** 函數可能更適合。
 
  
 

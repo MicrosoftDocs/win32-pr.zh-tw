@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a34a1e92edd279655737a2e8f3b7ce4e77e27fd5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8521497c1e2bca1bb2ae11349a4829c22c8b092a4cd0034008b314a7b69adb6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707898"
 ---
 # <a name="iwmdrmsecurityperformsecurityupdate-method"></a>IWMDRMSecurity：:P erformSecurityUpdate 方法
 
@@ -76,7 +76,7 @@ HRESULT PerformSecurityUpdate(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 
@@ -97,7 +97,7 @@ HRESULT PerformSecurityUpdate(
 
  
 
-如需使用 Windows Media DRM 用戶端擴充 Api 的非同步方法的詳細資訊，請參閱 [使用媒體基礎事件模型](using-the-media-foundation-model.md)。
+如需使用 Windows 媒體 DRM 用戶端擴充 api 的非同步方法的詳細資訊，請參閱[使用媒體基礎事件模型](using-the-media-foundation-model.md)。
 
 ## <a name="requirements"></a>規格需求
 

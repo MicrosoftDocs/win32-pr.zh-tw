@@ -4,12 +4,12 @@ ms.assetid: 101ce722-3101-4f50-b492-dad8b68a7aaf
 title: NPP 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3146d34798c57aea0bbd0f4bfec0037ed2ac879c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22fc38bd5db91354c81f88d9f0fe0a6ad23ce3ccb3ecd4a08c4b6335e25ddd33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676978"
 ---
 # <a name="npp-interfaces"></a>NPP 介面
 

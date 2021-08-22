@@ -4,18 +4,18 @@ ms.assetid: c0c62a8e-ab16-4617-936c-b64e6e3865b4
 title: 捕獲電視音訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 138ce631aedf12ddfb52be92d08ffb47da0cbdec
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1d699533480bdeaaa528e362c0773e9df8100fda3dc2195a65c055ae7f7d5bb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641008"
 ---
 # <a name="capturing-tv-audio"></a>捕獲電視音訊
 
 若要從類比電視將音訊捕獲到檔案，請使用 [音訊捕獲篩選器](audio-capture-filter.md)。 使用系統裝置列舉值建立音訊捕獲篩選器。 使用者的系統上可能有數個音訊捕獲裝置;使用者必須選取代表音效卡的裝置。
 
-將音訊捕獲輸出釘選至 mux 篩選器：
+連線音訊捕獲輸出釘選至 mux 篩選器：
 
 
 ```C++

@@ -32,16 +32,16 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: f33acbb6888bad97a03b610c513cbaf9c3750684
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: 5a9a2a0cb5ccf60fe5cfc9f495b621669ba1d85ca04eeb7ecd345cdc60d48bc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "104023198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548568"
 ---
 # <a name="lowlevelkeyboardproc-function"></a>LowLevelKeyboardProc 函式
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 搭配 [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) 函式使用的應用程式定義或程式庫定義的回呼函數。
 每次有新的鍵盤輸入事件張貼到執行緒輸入佇列時，系統就會呼叫這個函式。
@@ -114,7 +114,7 @@ LRESULT CALLBACK LowLevelKeyboardProc(
 
 值會以毫秒來表示。
 如果攔截程式超時，系統會將訊息傳遞至下一個攔截。
-不過，在 Windows 7 和更新版本上，會以無訊息方式移除攔截，而不會被呼叫。
+不過，在 Windows 7 和更新版本上，會以無訊息方式移除攔截，而不需要呼叫。
 應用程式沒有辦法知道是否已移除攔截。
 
 注意：偵錯工具攔截無法追蹤這種類型的低層級鍵盤攔截。
@@ -141,6 +141,6 @@ LRESULT CALLBACK LowLevelKeyboardProc(
 
 [WM_SYSKEYUP](/windows/desktop/inputdev/wm-syskeyup)
 
-[鉤](hooks.md)
+[勾點](hooks.md)
 
 [關於勾點](about-hooks.md)

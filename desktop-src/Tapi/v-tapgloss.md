@@ -5,12 +5,12 @@ ms.assetid: 945c16bf-e835-4759-93d1-4e27080ac873
 title: 'V (電話語音 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bf4eb1a3eb23a4afc5e54b36dfaa5c3b3ab2f3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ae00592faede6c5d3a59d5b9f91b728c4d67cebab9e90bb5e7da1f919d93d79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739128"
 ---
 # <a name="v-telephony-api"></a>V (電話語音 API) 
 
@@ -21,7 +21,7 @@ ms.locfileid: "106975447"
 <span id="tapi2.vcomm_tapgloss"></span><span id="TAPI2.VCOMM_TAPGLOSS"></span>**VCOMM**
 </dt> <dd>
 
-TAPI 內的通訊設備磁碟機。 VCOMM 可以將受保護模式指派給 TAPI 服務，讓 Windows 應用程式和驅動程式使用埠和數據機。 請參閱 [*UniModem*](u-tapgloss.md)。
+TAPI 內的通訊設備磁碟機。 VCOMM 可將受保護模式指派給 TAPI 服務，並允許 Windows 的應用程式和驅動程式使用埠和數據機。 請參閱 [*UniModem*](u-tapgloss.md)。
 
 </dd> <dt>
 

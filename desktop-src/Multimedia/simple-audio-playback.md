@@ -14,12 +14,12 @@ keywords:
 - 波形音訊，PlaySound 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 256feded06de4ee92ee415f14bb08adc7fb4456e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6388f9800f93080e995ae537c2458a22da033ab2149b4bfca114c25025d97434
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688688"
 ---
 # <a name="simple-audio-playback"></a>簡易音訊播放
 
@@ -35,7 +35,7 @@ ms.locfileid: "103933159"
 
 
 
- 
+ 
 
 **MessageBeep** 函式是 WIN32 API 的標準元件;因為其功能非常有限，並記載于其他地方，所以不會在這裡討論。
 
@@ -50,6 +50,6 @@ ms.locfileid: "103933159"
 
 針對較大的音效檔，請使用 Media Control 介面 (MCI) 服務。 如需詳細資訊，請參閱 [MCI](mci.md)。
 
- 
+ 
 
- 
+ 

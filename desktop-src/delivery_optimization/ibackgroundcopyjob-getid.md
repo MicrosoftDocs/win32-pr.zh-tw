@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ade12d72d68b43df7d9ae3d1f33010bb95b7052a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01c696985b4b632223318675fd63f842b85ed6e27297ff1befebbac1b3fa9bce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106993746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755498"
 ---
 # <a name="ibackgroundcopyjobgetid-method"></a>IBackgroundCopyJob：： GetId 方法
 
@@ -65,9 +65,9 @@ HRESULT GetId(
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
+| IDL<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
 | IID<br/>                      | IID_IBackgroundCopyJob 定義為37668D37-507E-4160-9316-26306D150B12<br/>               |

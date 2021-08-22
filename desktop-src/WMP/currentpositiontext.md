@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4b5b402e7eadce8a0d89856d99e84a53dd57a1a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f869cb40d8b85ac480ed336b03f2ff94010c0e4a51f35101aa414d1e55e039da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651608"
 ---
 # <a name="currentpositiontext"></a>CURRENTPOSITIONTEXT
 

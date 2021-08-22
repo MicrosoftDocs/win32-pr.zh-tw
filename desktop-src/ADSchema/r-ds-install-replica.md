@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b13675e0b0b03530a2eb9ace1a06573cca970ef
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f96ea0bff8aaeff8b08db06fdfd67dcc2acec9962a41ebc605034a6520cffe59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548818"
 ---
 # <a name="ds-install-replica-extended-right"></a>DS-安裝-複本擴充許可權
 

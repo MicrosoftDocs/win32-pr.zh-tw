@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cb0cc59a465f48474e2fe63f5ef78f1fea85f37c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 227cf1dcf58e5aa0bbc06305928244dd0955188c04f0d89acbd14f7433a69db8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780728"
 ---
 # <a name="jet_columnidequals-method-jet_columnid"></a>JET_COLUMNID。Equals 方法 (JET_COLUMNID) 
 

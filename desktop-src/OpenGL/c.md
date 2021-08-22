@@ -21,12 +21,12 @@ keywords:
 - 目前的點陣位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73c9534052533745b1037aa80f26f435a163ee46
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 39007e4719e1f4507555bf5aafa3187a897756d1d33580e9facc8fa0f6d8fa3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675988"
 ---
 # <a name="c-opengl"></a>C (OpenGL) 
 

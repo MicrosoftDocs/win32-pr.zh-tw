@@ -4,12 +4,12 @@ ms.assetid: cbcaa016-879e-48c2-93c6-b0e91e1eb9ed
 title: 檔案類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36b47e76f4a910b336c749a4f0d5001c8568cead
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ca7611cce64bfe036575ac611ebbf63406721085f75162b04e9163eb38840cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581748"
 ---
 # <a name="file-type"></a>檔案類型
 

@@ -4,17 +4,17 @@ ms.assetid: 735af042-9800-4f75-a5c9-e1cf17b4a472
 title: 影片串流範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90e9a738503174e7bcc6c0d0e7c1250e39348b4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a325512d18d3e7156de017c969906e02ed8834ba9522c969b5deb2166f741860
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755618"
 ---
 # <a name="video-streaming-sample-code"></a>影片串流範例程式碼
 
 > [!Note]  
-> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md) 篩選器或執行自訂篩選，以從 DirectShow 篩選圖形取得資料。
+> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md)篩選器或執行自訂篩選，以從 DirectShow 的篩選圖形取得資料。
 
  
 

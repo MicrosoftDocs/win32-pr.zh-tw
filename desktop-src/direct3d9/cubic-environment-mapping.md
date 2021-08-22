@@ -4,12 +4,12 @@ ms.assetid: 4879d59b-e6d3-4811-ab2c-bcce8f214e1c
 title: " (Direct3D 9) 的三次環境對應"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cecac83db067224195883485bcbd282aa82ae4b5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6b02f86528c52c2e8e9376eb92e4452735c2613cc9b7dda08a8a07e8473193ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565320"
 ---
 # <a name="cubic-environment-mapping-direct3d-9"></a> (Direct3D 9) 的三次環境對應
 
@@ -25,7 +25,7 @@ Cube 的每個臉部都是在世界空間中的 x/y、y/z 或 x/z 平面垂直�
 
 立方體圖的臉部不需要包含周圍場景的極詳細轉譯。 在大部分的情況下，會將環境對應套用至曲線表面。 由於大多數應用程式使用的曲率數量，產生的反射失真會在環境對應中大幅詳細地顯示記憶體和轉譯的額外負荷。
 
-## <a name="mipmapped-cubic-environment-maps"></a>Mipmapped 立方環境對應
+## <a name="mipmapped-cubic-environment-maps"></a>Mipmapped 立方環境地圖
 
 Cube 對應可以是 mipmapped 的。 若要建立 mipmapped cube 對應，請將 [**CreateCubeTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createcubetexture) 方法的 [層級] 參數設定為您想要的層級數目。 您可以想像這些表面的拓撲，如下圖所示。
 
@@ -33,7 +33,7 @@ Cube 對應可以是 mipmapped 的。 若要建立 mipmapped cube 對應，請�
 
 建立 mipmapped 立方環境對應的應用程式，可以藉由呼叫 [**GetCubeMapSurface**](/windows/desktop/api) 方法來存取每個臉部。 從 [**D3DCUBEMAP \_ 臉部**](./d3dcubemap-faces.md) 列舉型別設定適當的值開始，如 [)  (Direct3D 9 中建立三種環境的地圖](creating-cubic-environment-map-surfaces.md)介面所述。 接下來，將 **GetCubeMapSurface** 層級參數設定為您想要的 mipmap 層級，以選取要抓取的層級。 請記住，0會對應到最上層影像。
 
-## <a name="texture-coordinates-for-cubic-environment-maps"></a>三層環境對應的材質座標
+## <a name="texture-coordinates-for-cubic-environment-maps"></a>立方環境地圖的材質座標
 
 使用標準紋理套用時，以三種方式建立索引三種環境對應的材質座標不是簡單的 u、v 樣式座標。 事實上，三層環境對應根本不會使用材質座標。 為了取代一組紋理座標，三層環境對應需要3D 向量。 您必須小心指定適當的頂點格式。 除了告訴系統您的應用程式所使用的材質座標集合數目之外，您還必須提供每個集合中有多少個元素的相關資訊。 基於這個目的，Direct3D 提供了 [**D3DFVF \_ TEXCOORDSIZEN**](d3dfvf-texcoordsizen.md) 的宏集。 這些宏會接受單一參數，以識別要描述其大小的材質座標集合的索引。 在3D 向量的案例中，您會包含 D3DFVF TEXCOORDSIZE3 宏所建立的位模式 \_ 。 下列程式碼範例顯示如何使用這個宏。
 

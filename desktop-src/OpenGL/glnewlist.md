@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6135f67c07f69d24df67d4f1899404359efaa7aa
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0103baa9786cdfed0d6e999021453e30da5083571c9a2c9054da701977a9493f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106985521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741338"
 ---
 # <a name="glnewlist-function"></a>glNewList 函式
 
@@ -76,7 +76,7 @@ void WINAPI glNewList(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *清單* 為零。<br/>                                                                                                           |
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *模式* 不是可接受的值。<br/>                                                                                          |

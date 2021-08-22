@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 1b8ef79ccd00240e09b97791045bfa0869d579dd
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1fdd1533fd836c53afcb1a3242563fa1467ba58045ae573ded782b861688d94d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742588"
 ---
 # <a name="texturecubesample-methods"></a>TextureCube：： Sample 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 35a9fb47-5a73-479c-8fe0-5a2b07705536
 title: 檔案壓縮和解壓縮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73d1aa9d8d3540eff85413c03358fd1ba7e21300
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f61c19449d1bfb31dfdd6e55e8c5ffa204bda36af597c43204693c55b13254e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927798"
 ---
 # <a name="file-compression-and-decompression"></a>檔案壓縮和解壓縮
 

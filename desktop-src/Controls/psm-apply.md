@@ -3,7 +3,7 @@ title: 'PSM_APPLY 訊息 (Prsht.idl .h) '
 description: 模擬 [套用] 按鈕的選取專案，表示一或多個頁面已變更，而且需要驗證和記錄變更。
 ms.assetid: 2948fb66-ad77-4552-88b6-455418515e4c
 keywords:
-- PSM_APPLY message Windows 控制項
+- PSM_APPLY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67d798d4a9a2f780ac81cc84c90a57d0efd4e299
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f753eb2465ec835f467493bdbd83d10b8ba174b11c83abffcb91d20f8beba002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544158"
 ---
 # <a name="psm_apply-message"></a>PSM 套用 \_ 訊息
 
@@ -62,8 +62,8 @@ ms.locfileid: "103844028"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

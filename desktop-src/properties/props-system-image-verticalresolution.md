@@ -4,12 +4,12 @@ ms.assetid: 51d71fa6-8057-46b6-8427-187a5e69f1f4
 title: VerticalResolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f213928068d9e935cdbf408c9cedd984d692415b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5fb04ca0cb52f9bf2ada6b1f3e86ca8d5f64975f4f66c6a0eec14006a4c9769
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553838"
 ---
 # <a name="systemimageverticalresolution"></a>VerticalResolution
 

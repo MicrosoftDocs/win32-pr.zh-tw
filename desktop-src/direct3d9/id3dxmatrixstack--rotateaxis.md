@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3ea62b65bca73eb3fe7b2cd962e1afd9b35d53bc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6f0009eb3f6b0a2f05a76cb51261712b8b5744bff9bcc28f55449deb5d854b8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606998"
 ---
 # <a name="id3dxmatrixstackrotateaxis-method-d3dx9mathh"></a>ID3DXMATRIXStack：： RotateAxis 方法 (D3dx9math .h) 
 

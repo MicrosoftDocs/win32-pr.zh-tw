@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b23ef846c118c8d0698660175e4be700ea892055
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e35f0c6d044abf7e6c2ce520827ccf81118821178da4006fa18457f39795b325
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924908"
 ---
 # <a name="cim_controller-class-cimwin32-wmi-providers"></a>CIM_Controller 類別 (CIMWin32 WMI 提供者) 
 
@@ -989,7 +989,7 @@ Win32 設定管理員錯誤碼。
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

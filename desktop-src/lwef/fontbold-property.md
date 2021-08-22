@@ -4,16 +4,16 @@ description: Graphicswindow.fontbold 屬性
 ms.assetid: abf735f9-fea2-4d02-a821-e28583a8bc39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6439a7f6b7d6e3bf67620f27c77ce59f8402ce49
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c58706730c44a90729cb0d2d9f83eb16398b54ddc1072c66fef583d104073164
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106976317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778208"
 ---
 # <a name="fontbold-property"></a>Graphicswindow.fontbold 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "106976317"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。Graphicswindow.fontbold**
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。Graphicswindow.fontbold_*
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "106976317"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -46,9 +46,9 @@ ms.locfileid: "106976317"
 
 在 [Microsoft 代理程式字元編輯器] 中，會設定字元字提示字元之字型設定的預設值。 此外，使用者可以覆寫 Microsoft Agent 屬性工作表中所有字元的字型設定。
 
- 
+ 
 
- 
+ 
 
 
 

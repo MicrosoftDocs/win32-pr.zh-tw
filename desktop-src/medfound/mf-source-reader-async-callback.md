@@ -4,12 +4,12 @@ ms.assetid: de226a5a-03c0-4bfe-bb20-8969ce43cf53
 title: 'MF_SOURCE_READER_ASYNC_CALLBACK 屬性 (Mfreadwrite) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66542a155fbb6fa3e56958733626b1d0b750ab9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af4dedfcdcb426eb62a0ae14bec3fd75232c9a871d0bad10194860305c687fa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605150"
 ---
 # <a name="mf_source_reader_async_callback-attribute"></a>MF \_ 來源 \_ 讀取器 \_ 非同步 \_ 回呼屬性
 
@@ -17,11 +17,11 @@ ms.locfileid: "104193620"
 
 ## <a name="data-type"></a>資料類型
 
-**IMFSourceReaderCallback \** _ 儲存為 _*IUnknown \**_
+**IMFSourceReaderCallback \* *_ 儲存為 _* IUnknown\***
 
 ## <a name="getset"></a>取得/設定
 
-若要取得這個屬性，請呼叫 [_ *IMFAttributes：： GetUnknown* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。
+若要取得這個屬性，請呼叫 [**IMFAttributes：： GetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。
 
 若要設定這個屬性，請呼叫 [**IMFAttributes：： SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown)。
 
@@ -42,7 +42,7 @@ ms.locfileid: "104193620"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mfreadwrite。h</dt> </dl> |
 
 

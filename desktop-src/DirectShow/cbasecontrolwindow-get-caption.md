@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b8d743c746f833007d91afd4346f7f48c6218dde
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f05501adbd486eaa60e939aacfdd5896c0fbcae059673029f04fcca8aeb742a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640887"
 ---
 # <a name="cbasecontrolwindowget_caption-method"></a>CBaseControlWindow. 取得 \_ Caption 方法
 
@@ -55,7 +55,7 @@ HRESULT get_Caption(
 
 ## <a name="remarks"></a>備註
 
-Windows 桌上型電腦上大部分的最上層視窗都有標題 (標題) 與其相關聯。 您可以透過 [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) 介面來查詢和設定這個屬性。 只有在視窗已套用 WS 標題樣式時，才會顯示任何標題集 \_ 。 如果沒有，標題仍可 (設定，並) 抓取，但使用者看不到它。
+以 Windows 為基礎的桌面最上層視窗會有相關聯的標題 (標題) 。 您可以透過 [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) 介面來查詢和設定這個屬性。 只有在視窗已套用 WS 標題樣式時，才會顯示任何標題集 \_ 。 如果沒有，標題仍可 (設定，並) 抓取，但使用者看不到它。
 
 ## <a name="requirements"></a>規格需求
 

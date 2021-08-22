@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bd5a1bad7bf04682538fbb9ccac7f96bd765a03
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 020d0f02b752e3964cbebd673e72d1020ba474dbbad130a33e54f812b99f1850
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703778"
 ---
 # <a name="dhcp-class-class"></a>DHCP-Class 類別
 
@@ -89,8 +89,8 @@ ms.locfileid: "104106914"
 | [**建立時間戳記**](a-createtimestamp.md)                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**描述**](a-description.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**dhcp 類別**](a-dhcpclasses.md)                                     | 否     | **DHCP 類別**                  |
-| [**dhcp-旗標**](a-dhcpflags.md)                                         | 對      | **DHCP 類別**                  |
-| [**dhcp-識別**](a-dhcpidentification.md)                       | 對      | **DHCP 類別**                  |
+| [**dhcp-旗標**](a-dhcpflags.md)                                         | 是      | **DHCP 類別**                  |
+| [**dhcp-識別**](a-dhcpidentification.md)                       | 是      | **DHCP 類別**                  |
 | [**dhcp 遮罩**](a-dhcpmask.md)                                           | 否     | **DHCP 類別**                  |
 | [**dhcp-MaxKey**](a-dhcpmaxkey.md)                                       | 否     | **DHCP 類別**                  |
 | [**dhcp-Obj-Description**](a-dhcpobjdescription.md)                      | 否     | **DHCP 類別**                  |
@@ -103,8 +103,8 @@ ms.locfileid: "104106914"
 | [**dhcp-網站**](a-dhcpsites.md)                                         | 否     | **DHCP 類別**                  |
 | [**dhcp 狀態**](a-dhcpstate.md)                                         | 否     | **DHCP 類別**                  |
 | [**dhcp-子網**](a-dhcpsubnets.md)                                     | 否     | **DHCP 類別**                  |
-| [**dhcp 類型**](a-dhcptype.md)                                           | 對      | **DHCP 類別**                  |
-| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                | 對      | **DHCP 類別**                  |
+| [**dhcp 類型**](a-dhcptype.md)                                           | 是      | **DHCP 類別**                  |
+| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                | 是      | **DHCP 類別**                  |
 | [**dhcp-更新時間**](a-dhcpupdatetime.md)                              | 否     | **DHCP 類別**                  |
 | [**顯示名稱**](a-displayname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**顯示-名稱-可列印**](a-displaynameprintable.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -116,7 +116,7 @@ ms.locfileid: "104106914"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)             | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                 | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                   | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                   | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)             | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -131,10 +131,10 @@ ms.locfileid: "104106914"
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**網路位址**](a-networkaddress.md)                               | 否     | **DHCP 類別**                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                              | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                               | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                               | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                 | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**選項-描述**](a-optiondescription.md)                         | 否     | **DHCP 類別**                  |
@@ -200,7 +200,7 @@ ms.locfileid: "104106914"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -220,8 +220,8 @@ ms.locfileid: "104106914"
 | [**建立時間戳記**](a-createtimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**描述**](a-description.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**dhcp 類別**](a-dhcpclasses.md)                                       | 否     | **DHCP 類別**                  |
-| [**dhcp-旗標**](a-dhcpflags.md)                                           | 對      | **DHCP 類別**                  |
-| [**dhcp-識別**](a-dhcpidentification.md)                         | 對      | **DHCP 類別**                  |
+| [**dhcp-旗標**](a-dhcpflags.md)                                           | 是      | **DHCP 類別**                  |
+| [**dhcp-識別**](a-dhcpidentification.md)                         | 是      | **DHCP 類別**                  |
 | [**dhcp 遮罩**](a-dhcpmask.md)                                             | 否     | **DHCP 類別**                  |
 | [**dhcp-MaxKey**](a-dhcpmaxkey.md)                                         | 否     | **DHCP 類別**                  |
 | [**dhcp-Obj-Description**](a-dhcpobjdescription.md)                        | 否     | **DHCP 類別**                  |
@@ -234,8 +234,8 @@ ms.locfileid: "104106914"
 | [**dhcp-網站**](a-dhcpsites.md)                                           | 否     | **DHCP 類別**                  |
 | [**dhcp 狀態**](a-dhcpstate.md)                                           | 否     | **DHCP 類別**                  |
 | [**dhcp-子網**](a-dhcpsubnets.md)                                       | 否     | **DHCP 類別**                  |
-| [**dhcp 類型**](a-dhcptype.md)                                             | 對      | **DHCP 類別**                  |
-| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                  | 對      | **DHCP 類別**                  |
+| [**dhcp 類型**](a-dhcptype.md)                                             | 是      | **DHCP 類別**                  |
+| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                  | 是      | **DHCP 類別**                  |
 | [**dhcp-更新時間**](a-dhcpupdatetime.md)                                | 否     | **DHCP 類別**                  |
 | [**顯示名稱**](a-displayname.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**顯示-名稱-可列印**](a-displaynameprintable.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -247,7 +247,7 @@ ms.locfileid: "104106914"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -279,10 +279,10 @@ ms.locfileid: "104106914"
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**網路位址**](a-networkaddress.md)                                 | 否     | **DHCP 類別**                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**選項-描述**](a-optiondescription.md)                           | 否     | **DHCP 類別**                  |
@@ -349,7 +349,7 @@ ms.locfileid: "104106914"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -369,8 +369,8 @@ ms.locfileid: "104106914"
 | [**建立時間戳記**](a-createtimestamp.md)                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**描述**](a-description.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**dhcp 類別**](a-dhcpclasses.md)                                       | 否     | **DHCP 類別**                  |
-| [**dhcp-旗標**](a-dhcpflags.md)                                           | 對      | **DHCP 類別**                  |
-| [**dhcp-識別**](a-dhcpidentification.md)                         | 對      | **DHCP 類別**                  |
+| [**dhcp-旗標**](a-dhcpflags.md)                                           | 是      | **DHCP 類別**                  |
+| [**dhcp-識別**](a-dhcpidentification.md)                         | 是      | **DHCP 類別**                  |
 | [**dhcp 遮罩**](a-dhcpmask.md)                                             | 否     | **DHCP 類別**                  |
 | [**dhcp-MaxKey**](a-dhcpmaxkey.md)                                         | 否     | **DHCP 類別**                  |
 | [**dhcp-Obj-Description**](a-dhcpobjdescription.md)                        | 否     | **DHCP 類別**                  |
@@ -383,8 +383,8 @@ ms.locfileid: "104106914"
 | [**dhcp-網站**](a-dhcpsites.md)                                           | 否     | **DHCP 類別**                  |
 | [**dhcp 狀態**](a-dhcpstate.md)                                           | 否     | **DHCP 類別**                  |
 | [**dhcp-子網**](a-dhcpsubnets.md)                                       | 否     | **DHCP 類別**                  |
-| [**dhcp 類型**](a-dhcptype.md)                                             | 對      | **DHCP 類別**                  |
-| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                  | 對      | **DHCP 類別**                  |
+| [**dhcp 類型**](a-dhcptype.md)                                             | 是      | **DHCP 類別**                  |
+| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                  | 是      | **DHCP 類別**                  |
 | [**dhcp-更新時間**](a-dhcpupdatetime.md)                                | 否     | **DHCP 類別**                  |
 | [**顯示名稱**](a-displayname.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**顯示-名稱-可列印**](a-displaynameprintable.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -396,7 +396,7 @@ ms.locfileid: "104106914"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -431,10 +431,10 @@ ms.locfileid: "104106914"
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**網路位址**](a-networkaddress.md)                                 | 否     | **DHCP 類別**                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**選項-描述**](a-optiondescription.md)                           | 否     | **DHCP 類別**                  |
@@ -501,7 +501,7 @@ ms.locfileid: "104106914"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -521,8 +521,8 @@ ms.locfileid: "104106914"
 | [**建立時間戳記**](a-createtimestamp.md)                                 | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**描述**](a-description.md)                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**dhcp 類別**](a-dhcpclasses.md)                                          | 否     | **DHCP 類別**                  |
-| [**dhcp-旗標**](a-dhcpflags.md)                                              | 對      | **DHCP 類別**                  |
-| [**dhcp-識別**](a-dhcpidentification.md)                            | 對      | **DHCP 類別**                  |
+| [**dhcp-旗標**](a-dhcpflags.md)                                              | 是      | **DHCP 類別**                  |
+| [**dhcp-識別**](a-dhcpidentification.md)                            | 是      | **DHCP 類別**                  |
 | [**dhcp 遮罩**](a-dhcpmask.md)                                                | 否     | **DHCP 類別**                  |
 | [**dhcp-MaxKey**](a-dhcpmaxkey.md)                                            | 否     | **DHCP 類別**                  |
 | [**dhcp-Obj-Description**](a-dhcpobjdescription.md)                           | 否     | **DHCP 類別**                  |
@@ -535,8 +535,8 @@ ms.locfileid: "104106914"
 | [**dhcp-網站**](a-dhcpsites.md)                                              | 否     | **DHCP 類別**                  |
 | [**dhcp 狀態**](a-dhcpstate.md)                                              | 否     | **DHCP 類別**                  |
 | [**dhcp-子網**](a-dhcpsubnets.md)                                          | 否     | **DHCP 類別**                  |
-| [**dhcp 類型**](a-dhcptype.md)                                                | 對      | **DHCP 類別**                  |
-| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                     | 對      | **DHCP 類別**                  |
+| [**dhcp 類型**](a-dhcptype.md)                                                | 是      | **DHCP 類別**                  |
+| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                     | 是      | **DHCP 類別**                  |
 | [**dhcp-更新時間**](a-dhcpupdatetime.md)                                   | 否     | **DHCP 類別**                  |
 | [**顯示名稱**](a-displayname.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**顯示-名稱-可列印**](a-displaynameprintable.md)                       | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -548,7 +548,7 @@ ms.locfileid: "104106914"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                        | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                        | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -594,10 +594,10 @@ ms.locfileid: "104106914"
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**網路位址**](a-networkaddress.md)                                    | 否     | **DHCP 類別**                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                        | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                    | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                          | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                    | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                          | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**選項-描述**](a-optiondescription.md)                              | 否     | **DHCP 類別**                  |
@@ -664,7 +664,7 @@ ms.locfileid: "104106914"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -684,8 +684,8 @@ ms.locfileid: "104106914"
 | [**建立時間戳記**](a-createtimestamp.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**描述**](a-description.md)                                             | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**dhcp 類別**](a-dhcpclasses.md)                                            | 否     | **DHCP 類別**                  |
-| [**dhcp-旗標**](a-dhcpflags.md)                                                | 對      | **DHCP 類別**                  |
-| [**dhcp-識別**](a-dhcpidentification.md)                              | 對      | **DHCP 類別**                  |
+| [**dhcp-旗標**](a-dhcpflags.md)                                                | 是      | **DHCP 類別**                  |
+| [**dhcp-識別**](a-dhcpidentification.md)                              | 是      | **DHCP 類別**                  |
 | [**dhcp 遮罩**](a-dhcpmask.md)                                                  | 否     | **DHCP 類別**                  |
 | [**dhcp-MaxKey**](a-dhcpmaxkey.md)                                              | 否     | **DHCP 類別**                  |
 | [**dhcp-Obj-Description**](a-dhcpobjdescription.md)                             | 否     | **DHCP 類別**                  |
@@ -698,8 +698,8 @@ ms.locfileid: "104106914"
 | [**dhcp-網站**](a-dhcpsites.md)                                                | 否     | **DHCP 類別**                  |
 | [**dhcp 狀態**](a-dhcpstate.md)                                                | 否     | **DHCP 類別**                  |
 | [**dhcp-子網**](a-dhcpsubnets.md)                                            | 否     | **DHCP 類別**                  |
-| [**dhcp 類型**](a-dhcptype.md)                                                  | 對      | **DHCP 類別**                  |
-| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                       | 對      | **DHCP 類別**                  |
+| [**dhcp 類型**](a-dhcptype.md)                                                  | 是      | **DHCP 類別**                  |
+| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                       | 是      | **DHCP 類別**                  |
 | [**dhcp-更新時間**](a-dhcpupdatetime.md)                                     | 否     | **DHCP 類別**                  |
 | [**顯示名稱**](a-displayname.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**顯示-名稱-可列印**](a-displaynameprintable.md)                         | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -711,7 +711,7 @@ ms.locfileid: "104106914"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -764,10 +764,10 @@ ms.locfileid: "104106914"
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**網路位址**](a-networkaddress.md)                                      | 否     | **DHCP 類別**                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**選項-描述**](a-optiondescription.md)                                | 否     | **DHCP 類別**                  |
@@ -834,9 +834,9 @@ ms.locfileid: "104106914"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -854,8 +854,8 @@ ms.locfileid: "104106914"
 | [**建立時間戳記**](a-createtimestamp.md)                                               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**描述**](a-description.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**dhcp 類別**](a-dhcpclasses.md)                                                        | 否     | **DHCP 類別**                  |
-| [**dhcp-旗標**](a-dhcpflags.md)                                                            | 對      | **DHCP 類別**                  |
-| [**dhcp-識別**](a-dhcpidentification.md)                                          | 對      | **DHCP 類別**                  |
+| [**dhcp-旗標**](a-dhcpflags.md)                                                            | 是      | **DHCP 類別**                  |
+| [**dhcp-識別**](a-dhcpidentification.md)                                          | 是      | **DHCP 類別**                  |
 | [**dhcp 遮罩**](a-dhcpmask.md)                                                              | 否     | **DHCP 類別**                  |
 | [**dhcp-MaxKey**](a-dhcpmaxkey.md)                                                          | 否     | **DHCP 類別**                  |
 | [**dhcp-Obj-Description**](a-dhcpobjdescription.md)                                         | 否     | **DHCP 類別**                  |
@@ -868,8 +868,8 @@ ms.locfileid: "104106914"
 | [**dhcp-網站**](a-dhcpsites.md)                                                            | 否     | **DHCP 類別**                  |
 | [**dhcp 狀態**](a-dhcpstate.md)                                                            | 否     | **DHCP 類別**                  |
 | [**dhcp-子網**](a-dhcpsubnets.md)                                                        | 否     | **DHCP 類別**                  |
-| [**dhcp 類型**](a-dhcptype.md)                                                              | 對      | **DHCP 類別**                  |
-| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                                   | 對      | **DHCP 類別**                  |
+| [**dhcp 類型**](a-dhcptype.md)                                                              | 是      | **DHCP 類別**                  |
+| [**dhcp-唯一金鑰**](a-dhcpuniquekey.md)                                                   | 是      | **DHCP 類別**                  |
 | [**dhcp-更新時間**](a-dhcpupdatetime.md)                                                 | 否     | **DHCP 類別**                  |
 | [**顯示名稱**](a-displayname.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**顯示-名稱-可列印**](a-displaynameprintable.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -881,7 +881,7 @@ ms.locfileid: "104106914"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -932,7 +932,7 @@ ms.locfileid: "104106914"
 | [**ms-DS-Revealed-List-BL**](a-msds-revealedlistbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -940,10 +940,10 @@ ms.locfileid: "104106914"
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**網路位址**](a-networkaddress.md)                                                  | 否     | **DHCP 類別**                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**選項-描述**](a-optiondescription.md)                                            | 否     | **DHCP 類別**                  |

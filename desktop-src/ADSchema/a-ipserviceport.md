@@ -1,6 +1,6 @@
 ---
 title: ipServicePort 屬性
-description: 包含服務對應的區段，可指定 UNIX 服務的可用埠。
+description: 包含服務對應的區段，可指定可用 UNIX 服務的通訊埠。
 ms.assetid: b3bb0bc6-b99f-4873-b1b0-da887468df09
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aa8bf801fc33d2c8ab29fd1f41185f60b965ebd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8670c8da9dc47340c7beda9b4e3f7f9eec380e6c5465d8400c7a695378b8f0e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924898"
 ---
 # <a name="ipserviceport-attribute"></a>ipServicePort 屬性
 
-包含服務對應的區段，可指定 UNIX 服務的可用埠。
+包含服務對應的區段，可指定可用 UNIX 服務的通訊埠。
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "103935243"
 | 連結識別碼                | \-                                          |
 | MAPI-Id                | \-                                          |
 | System-Only            | 否                                       |
-| 是-單一值       | 對                                        |
+| 是-單一值       | 是                                        |
 | 已編制索引             | 否                                       |
 | 在通用類別目錄中      | 否                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                |
@@ -76,7 +76,7 @@ ms.locfileid: "103935243"
 | 連結識別碼                | \-                                          |
 | MAPI-Id                | \-                                          |
 | System-Only            | 否                                       |
-| 是-單一值       | 對                                        |
+| 是-單一值       | 是                                        |
 | 已編制索引             | 否                                       |
 | 在通用類別目錄中      | 否                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                |
@@ -97,7 +97,7 @@ ms.locfileid: "103935243"
 | 連結識別碼                | \-                                          |
 | MAPI-Id                | \-                                          |
 | System-Only            | 否                                       |
-| 是-單一值       | 對                                        |
+| 是-單一值       | 是                                        |
 | 已編制索引             | 否                                       |
 | 在通用類別目錄中      | 否                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                |
@@ -118,7 +118,7 @@ ms.locfileid: "103935243"
 | 連結識別碼                | \-                                          |
 | MAPI-Id                | \-                                          |
 | System-Only            | 否                                       |
-| 是-單一值       | 對                                        |
+| 是-單一值       | 是                                        |
 | 已編制索引             | 否                                       |
 | 在通用類別目錄中      | 否                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                |

@@ -4,20 +4,20 @@ ms.assetid: 48fa5484-1f8c-4133-b2e1-888cb1834402
 title: 第21行解碼篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 839a6ff8e77f4815b74f5de65b8f0e2a565cdc2a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a265b2b547b2ef1a18b65b5588afb9ed7e5e0215446f5f9967244ca5dbd20332
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584458"
 ---
 # <a name="line-21-decoder-filter"></a>第21行解碼篩選
 
-此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
 這一行21的解碼篩選器會解碼第21行的資料，並將標題文字繪製到點陣圖上。
 
-輸入 pin 會連接到任何第21行的資料提供者，通常是 DVD video 解碼器或 [CC 解碼器](cc-decoder-filter.md) 篩選器。 CC 解碼器提供類比電視信號 VBI 的第21行資料。 輸出圖釘會連接到重迭 [混音](overlay-mixer-filter.md) 器上的次要 pin 或其他影片轉譯器，例如 VMR。
+輸入 pin 會連接到任何第21行的資料提供者，通常是 DVD video 解碼器或 [CC 解碼器](cc-decoder-filter.md) 篩選器。 CC 解碼器提供類比電視信號 VBI 的第21行資料。 輸出連接會連線到重迭[Mixer](overlay-mixer-filter.md)上的次要 pin，或連接至另一部影片轉譯器（例如 VMR）。
 
 此篩選器會接受標準位元組配對格式的第21行資料，或以 DVD 作為整個圖片群組 (GOP) 的封包。 針對 DVD video 串流中的每個 GOP，可能會有使用者資料封包，其中包含該特定 GOP 的標頭資訊和第21行資料。 位元組組的格式定義于 EIA/CEA-608-B 標準中;如需詳細資訊，請參閱該標準。
 
@@ -34,7 +34,7 @@ ms.locfileid: "106970876"
 
  
 
-第1版的篩選器是在 Microsoft® Windows® 95/98/Me 和 Windows 2000 平臺上使用。 第2版的篩選器可在 Microsoft Windows XP 和更新版本中使用，並會在影片混合轉譯器位於圖形中時使用。
+第1版的篩選器適用于 Microsoft® Windows® 95/98/Me 和 Windows 2000 平臺。 第2版的篩選器可在 Microsoft Windows XP 及更新版本中使用，且會在影片混合轉譯器位於圖形中時使用。
 
 下表中的資訊適用于這兩個版本的篩選：
 
@@ -110,13 +110,13 @@ ms.locfileid: "106970876"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [隱藏式輔助字幕和 Teletext](closed-captions-and-teletext.md)
 </dt> <dt>
 
-[DVD 篩選圖形設定](dvd-filter-graph-configuration.md)
+[DVD 篩選 Graph 設定](dvd-filter-graph-configuration.md)
 </dt> </dl>
 
  
