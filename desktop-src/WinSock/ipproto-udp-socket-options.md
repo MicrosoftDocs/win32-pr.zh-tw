@@ -4,12 +4,12 @@ ms.assetid: 579448a1-22af-488f-a1f5-97ba69a15524
 title: IPPROTO_UDP 通訊端選項
 ms.topic: article
 ms.date: 10/02/2019
-ms.openlocfilehash: 6f1f25ebae34d7db4290ab23bbf799fc0e0b68df
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 763e45a78ffd8bfed15d09f4e77bc17be71ccc110499d8937b60b49294f499c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051476"
 ---
 # <a name="ipproto_udp-socket-options"></a>IPPROTO \_ UDP 通訊端選項
 
@@ -19,7 +19,7 @@ ms.locfileid: "106977487"
 
 ## <a name="options"></a>選項。
 
-| 選項 | Get | 設定 | Optval 類型 | Description |
+| 選項 | Get | 集合 | Optval 類型 | 描述 |
 |-|-|-|-|-|
 | UDP 總和 \_ 檢查碼 \_ 涵蓋範圍 (ws2tcpip .h)  | 是 | 是 | DWORD (布林值)  | 若 **為 TRUE**，則會使用總和檢查碼傳送 UDP 資料包。 |
 | UDP \_ NOCHECKSUM (ws2tcpip .h)  | 是 | 是 | DWORD (布林值)  | 若 **為 TRUE**，則會傳送 UDP 資料包，且總和檢查碼為零。 服務提供者所需。 如果服務提供者沒有可停用 UDP 總和檢查碼計算的機制，則可以直接儲存此選項，而不需要採取任何動作。 IPv6 不支援此選項。 |
@@ -28,14 +28,14 @@ ms.locfileid: "106977487"
 
 ## <a name="legacy-windows-support-for-ipproto_udp-options"></a>IPPROTO UDP 選項的舊版 Windows 支援 \_
 
-**UDP \_在 \_** windows 2000 和 windows NT4 上無法使用總和檢查碼涵蓋範圍。 **UDP \_Windows \_** 9X/Me 無法使用總和檢查碼涵蓋範圍和 **UDP \_ NOCHECKSUM** 。 
+**UDP \_Windows \_** 2000 和 Windows NT4 上無法使用總和檢查碼涵蓋範圍。 **UDP \_Windows \_** 9x/Me 無法使用總和檢查碼涵蓋範圍和 **UDP \_ NOCHECKSUM** 。 
 
 ## <a name="remarks"></a>備註
 
-在 Windows Vista 和更新版本的 Microsoft Windows 軟體開發套件 (SDK) 發行時，標頭檔的組織已變更，且 **IPPROTO \_ UDP** 層級定義于 *Ws2def .h* 標頭檔中，該檔案會自動包含在 *Winsock2* 標頭檔中。 **IPPROTO \_ UDP** 通訊端選項定義于 *Ws2tcpip .h* 標頭檔中。 不應直接使用 *Ws2def* 標頭檔。
+在 Windows Vista 和更新版本所發行的 Microsoft Windows 軟體開發套件 (SDK) 上，標頭檔的組織已變更，且 **IPPROTO \_ UDP** 層級定義于 *Ws2def .h* 標頭檔中，該檔案會自動包含在 *Winsock2* 標頭檔中。 **IPPROTO \_ UDP** 通訊端選項定義于 *Ws2tcpip .h* 標頭檔中。 不應直接使用 *Ws2def* 標頭檔。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |-|-|
-| 標頭<br/> | <dl> ws2ipdef (<dt>在 Windows Server 2003、WINDOWS XP 及 windows 2000 上</dt><dt>包含) ws2tcpip 和 ws2tcpip</dt> 。h </dl> |
+| 標頭<br/> | <dl> ws2ipdef (包含<dt>Windows Server 2003、Windows XP 和 Windows 2000 上的</dt> <dt>ws2tcpip .h) 和 ws2tcpip .h</dt> </dl> |

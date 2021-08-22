@@ -4,12 +4,12 @@ ms.assetid: f323ec9f-5bab-4b5d-93ef-8a552ee0d591
 title: 'LINECALLPARAMFLAGS_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e70fe2721e6fce0ac509b50290b1ec3788f3c89
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 00fb33f662357b2e7e4d6b71b90e70aac1d8698a286de9da7f5e6a5b684712dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118863864"
 ---
 # <a name="linecallparamflags_-constants"></a>LINECALLPARAMFLAGS \_ 常數
 

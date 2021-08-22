@@ -4,12 +4,12 @@ ms.assetid: 658d0c35-05d4-4b51-a4d3-a3b441a2c735
 title: 關閉通訊端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13d0c877767925f67e07427a77dc8ec8445f30c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc35b7ba401e43494d49815e17eca19bd25b0080a385c40813209037c858a456
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051686"
 ---
 # <a name="closing-sockets"></a>關閉通訊端
 

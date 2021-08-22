@@ -4,12 +4,12 @@ ms.assetid: 7afa9694-c965-40e2-8549-e32ff48def2a
 title: 產生新的 ASF 資料封包
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f3432ecf34c58247a1533adb202b75f59d770c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9473037d656bd4fcc01b91a908103fcda3e364a36e8caaf42cfc0558381e5af8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118742070"
 ---
 # <a name="generating-new-asf-data-packets"></a>產生新的 ASF 資料封包
 
@@ -37,7 +37,7 @@ ASF 多工器是 *一種 WMContainer* 層元件，可與 [ASF 資料物件](asf-
 多工器可以透過 [**ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample)，以壓縮或未壓縮的媒體範例形式接受輸入。 多工器會根據資料流程的頻寬使用量，將傳送時間指派給這些範例。 在這個過程中，多工器會檢查有漏洞值區參數 (的位元速率和緩衝區視窗使用率) ，而且可以拒絕不遵守這些值的範例。 輸入媒體範例可能會因為下列其中一個原因而導致頻寬檢查失敗：
 
 -   如果輸入媒體範例晚抵達，因為最後指派的傳送時間大於此媒體範例的時間戳記。 [**ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample) 失敗並傳回 **MF \_ E \_ 晚期 \_ 範例** 錯誤碼。
--   如果輸入媒體範例上的時間戳記早于指派的傳送時間 (這表示) 緩衝區溢位。 如果多工器已設定為在多工器初始化期間設定 MFASF 多工器 **\_ \_ AUTOADJUST \_ 位元速率** 旗標來調整位元速率，則可以忽略這種情況。 如需詳細資訊，請參閱建立多工器 [物件](creating-the-multiplexer-object.md)中的「多工器初始化和有漏洞 Bucket 設定」。 如果未設定此旗標，而多工器遇到頻寬溢出， [**ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample) 就會失敗，並傳回 **MF \_ E \_ 頻寬 \_ 溢出** 的錯誤碼。
+-   如果輸入媒體範例上的時間戳記早于指派的傳送時間 (這表示) 緩衝區溢位。 如果多工器已設定為在多工器初始化期間設定 MFASF 多工器 **\_ \_ AUTOADJUST \_ 位元速率** 旗標來調整位元速率，則可以忽略這種情況。 如需詳細資訊，請參閱建立多工器[物件](creating-the-multiplexer-object.md)中的「多工器初始化和有漏洞 Bucket 設定」。 如果未設定此旗標，而多工器遇到頻寬溢出， [**ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample) 就會失敗，並傳回 **MF \_ E \_ 頻寬 \_ 溢出** 的錯誤碼。
 
 在多工器指派傳送時間之後，輸入媒體範例會新增至 [ *傳送] 視窗*，也就是輸入媒體範例的清單，依傳送時間和準備處理到資料封包。 在資料封包結構期間，會剖析輸入媒體範例，並將相關的資料寫入資料封包作為承載。 完整的資料封包可包含一或多個輸入媒體範例中的資料。
 
@@ -131,7 +131,7 @@ HRESULT GenerateASFDataPackets(
 您必須確保在抓取所有資料封包之後呼叫 [**End**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end) 。 如果有任何封包在多工器中等候， **End** 將會失敗，並傳回 **MF \_ E \_ FLUSH \_ 需要** 的錯誤碼。 在此情況下，請在迴圈中呼叫 [**Flush**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush) 和 [**GetNextPacket**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket) ，以取得等候封包。
 
 > [!Note]  
-> 針對 VBR 編碼，在呼叫 **End** 之後，您必須在 ContentInfo 物件的編碼屬性中設定編碼統計資料。 如需此程式的詳細資訊，請參閱在 [ContentInfo 物件中設定屬性](setting-properties-in-the-contentinfo-object.md)（property）中的「使用編碼器設定來設定 ContentInfo 物件」。 下列清單顯示要設定的特定屬性：
+> 針對 VBR 編碼，在呼叫 **End** 之後，您必須在 ContentInfo 物件的編碼屬性中設定編碼統計資料。 如需此程式的詳細資訊，請參閱在[ContentInfo 物件中設定屬性](setting-properties-in-the-contentinfo-object.md)（property）中的「使用編碼器設定 ContentInfo 物件設定」。 下列清單顯示要設定的特定屬性：
 >
 > -   [**MFPKEY \_RAVG**](mfpkey-ravgproperty.md) 是 VBR 內容的平均位元速率。
 > -   [**MFPKEY \_BAVG**](mfpkey-bavgproperty.md) 是平均位元速率的緩衝區視窗。

@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be1f2a3739fe16d4a13e409d7d152645d4653336
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f7ed4c744b9e5a594f0534c6c6ce384203fa4c42cfc91a63249cf1e1f6cdaedf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104187292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018146"
 ---
 # <a name="mdm_enterprisemodernappmanagement_appmanagement01-class"></a>MDM \_ EnterpriseModernAppManagement \_ AppManagement01 類別
 
@@ -157,7 +157,7 @@ class MDM_EnterpriseModernAppManagement_AppManagement01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

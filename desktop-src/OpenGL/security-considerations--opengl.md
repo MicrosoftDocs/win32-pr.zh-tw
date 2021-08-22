@@ -7,12 +7,12 @@ keywords:
 - 安全性 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc3e904dfde988cbc485891d73df3cbacfc76aad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 843a0f4c049cca8cf4af4d8a7c1c85da66fc2246a1f4277a0fc95355a31c4275
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932903"
 ---
 # <a name="security-considerations-opengl"></a>安全性考慮： OpenGL
 
@@ -23,9 +23,9 @@ ms.locfileid: "106965377"
 -   [MSDN 安全性首頁](https://technet.microsoft.com/security/)
 -   [TechNet 安全性資源](https://technet.microsoft.com/security/default.aspx)
 
- 
+ 
 
- 
+ 
 
 
 

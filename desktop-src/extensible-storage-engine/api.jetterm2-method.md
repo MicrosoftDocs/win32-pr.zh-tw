@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2e8a4aa8c96f9a4d0242657fe7126abf1388a7f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f269bc28cf9e8b42b8c0922985cb137b05f1f52b82404320e2277e0e4954733d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983088"
 ---
 # <a name="apijetterm2-method"></a>JetTerm2 方法
 

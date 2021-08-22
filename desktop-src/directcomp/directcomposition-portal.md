@@ -8,21 +8,21 @@ keywords:
 - Microsoft DirectComposition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb34a4bb3bb7c0ffe370777888e20704fd0165d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ca1b13dbd0ee4893f1b208cd88d7fd1251b5fb7ece2400b7e0b195e84865b2d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985408"
 ---
 # <a name="directcomposition"></a>DirectComposition
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 ## <a name="purpose"></a>目的
 
-Microsoft DirectComposition 是一種 Windows 元件，可透過轉換、效果和動畫來提供高效能點陣圖組合。 應用程式開發人員可以使用 DirectComposition API 來建立視覺上吸引人的使用者介面，以提供豐富和流暢的動畫轉換 (從一種視覺效果轉換成另一種視覺效果)。
+Microsoft DirectComposition 是一個 Windows 元件，可透過轉換、效果和動畫來提供高效能點陣圖組合。 應用程式開發人員可以使用 DirectComposition API 來建立視覺上吸引人的使用者介面，以提供豐富和流暢的動畫轉換 (從一種視覺效果轉換成另一種視覺效果)。
 
 DirectComposition 可讓您藉由使用圖形硬體，以及獨立于 UI 執行緒之外運作的方式，來達到豐富且流暢的轉換。 DirectComposition 可以接受由不同轉譯程式庫（包括 Microsoft DirectX 點陣圖）所繪製的點陣圖內容，以及轉譯成視窗 (HWND 點陣圖) 的點陣圖。 此外，DirectComposition 還支援各種不同的轉換，例如2D 仿射轉換和3D 透視圖的轉換，以及像是裁剪和不透明度的基本效果。
 
@@ -30,7 +30,7 @@ DirectComposition 的設計目的是要簡化撰寫 [*視覺效果*](directcompo
 
 ## <a name="developer-audience"></a>開發人員對象
 
-DirectComposition API 適用于熟悉 C/c + + 的經驗豐富且具備高度能力的圖形開發人員，對於元件物件模型 (的 COM) 有充分的瞭解，而且熟悉 Windows 程式設計概念。
+DirectComposition API 適用于熟悉 C/c + + 的經驗豐富且具備高度能力的圖形開發人員，對於元件物件模型 (的 COM) 有充分的瞭解，並熟悉 Windows 程式設計概念。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 

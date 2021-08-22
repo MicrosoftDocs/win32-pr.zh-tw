@@ -1,23 +1,23 @@
 ---
-title: 封裝、部署及查詢 Windows 應用程式
+title: Windows 應用程式的封裝、部署和查詢
 description: 以程式設計方式建立 Windows 應用程式的應用程式套件，以及安裝、更新、查詢和卸載應用程式套件。
 ms.assetid: 4ea65e62-4878-41fd-9ad8-424b1546f02a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bfd1792e0b7b18f0dee04bca6f352e055b20f57
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: ca79d235aa8d0d69c887eb67704d30137cf36a7583471f28269ac939a26b2a85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118814271"
 ---
-# <a name="packaging-deployment-and-query-of-windows-apps"></a>封裝、部署及查詢 Windows 應用程式
+# <a name="packaging-deployment-and-query-of-windows-apps"></a>Windows 應用程式的封裝、部署和查詢
 
-您可以透過 msix/.appx 應用程式套件（以 OPC 格式為基礎）部署、管理和服務 Windows 應用程式 (包括 UWPs 和桌面) 應用程式。 每個應用程式套件都包含構成應用程式的檔案，以及描述軟體至 Windows 的資訊清單檔案。
+您可以透過 msix/.appx 應用程式套件（以 OPC 格式為基礎）部署、管理和服務 Windows 應用程式 (包括 UWPs 和桌面) 應用程式。 每個應用程式套件都包含構成應用程式的檔案，以及描述要 Windows 之軟體的資訊清單檔。
 
 ## <a name="introduction"></a>簡介
 
-開發人員通常會使用 Visual Studio 來建立和簽署應用程式套件。 如需詳細資訊，請參閱 [使用 Visual Studio 封裝 UWP 應用程式](/windows/msix/package/packaging-uwp-apps)。
+開發人員通常會使用 Visual Studio 來建立和簽署應用程式套件。 如需詳細資訊，請參閱[使用 Visual Studio 封裝 UWP 應用程式](/windows/msix/package/packaging-uwp-apps)。
 
 Microsoft Store 可讓您輕鬆地建立、提交應用程式，並將其銷售給全球各地的客戶。 如需詳細資訊，請參閱 [應用程式提交](/windows/uwp/publish/app-submissions)。
 
@@ -26,7 +26,7 @@ Windows PowerShell Cmdlet 可讓您在不使用存放區的情況下，安裝和
 您可以使用封裝、部署和查詢 Api，以程式設計方式執行下列工作：
 
 -   建立 Windows 應用程式的應用程式套件
--   部署已封裝的 Windows 應用程式
+-   部署封裝的 Windows 應用程式
 -   列舉系統上安裝的應用程式套件，並從其資訊清單取得其相關資訊
 -   使用應用程式套件的內容
 
@@ -49,12 +49,12 @@ Windows PowerShell Cmdlet 可讓您在不使用存放區的情況下，安裝和
 | [部署 API 參考](package-deployment-api.md)                                                   | 部署 API 會安裝、更新及卸載應用程式套件。                                                                                                                    |
 | [查詢 API 參考](functions.md)                                                                     | 查詢 API 會取得系統上所安裝之應用程式套件的相關資訊。                                                                                                               |
 | [工具和 PowerShell Cmdlet](appx-packaging-tools.md)                                                 | 使用這些工具和 Cmdlet 來建立、安裝及管理應用程式套件。                                                                                                              |
-| [SDK 範例](appx-packaging-samples.md)                                                                | 下載 SDK 範例，以示範適用于 Windows 應用程式的封裝、部署和查詢 Api。                                                                               |
-| [詞彙](appx-packaging-glossary.md)                                                                  | 深入瞭解封裝、部署及查詢 Windows 應用程式的相關術語。                                                                                              |
+| [SDK 範例](appx-packaging-samples.md)                                                                | 下載 SDK 範例，以示範 Windows apps 的封裝、部署和查詢 api。                                                                               |
+| [詞彙](appx-packaging-glossary.md)                                                                  | 瞭解封裝、部署和查詢 Windows apps 的相關條款。                                                                                              |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -72,10 +72,10 @@ Windows PowerShell Cmdlet 可讓您在不使用存放區的情況下，安裝和
 [應用程式套件資訊清單結構描述](/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
-[**ApplicationModel 封裝**](/uwp/api/Windows.ApplicationModel.Package)
+[**Windows。ApplicationModel 封裝**](/uwp/api/Windows.ApplicationModel.Package)
 </dt> <dt>
 
-[**ApplicationModel. PackageId**](/uwp/api/Windows.ApplicationModel.PackageId)
+[**Windows。ApplicationModel. PackageId**](/uwp/api/Windows.ApplicationModel.PackageId)
 </dt> <dt>
 
 [**Windows.Management.Deployment.PackageManager**](/uwp/api/Windows.Management.Deployment.PackageManager)
@@ -84,6 +84,6 @@ Windows PowerShell Cmdlet 可讓您在不使用存放區的情況下，安裝和
 [**Windows.Management.Deployment.PackageUserInformation**](/uwp/api/Windows.Management.Deployment.PackageUserInformation)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

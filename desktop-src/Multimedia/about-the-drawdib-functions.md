@@ -4,7 +4,7 @@ description: 關於 DrawDib 函式
 ms.assetid: 0ae993df-8393-479e-aa11-14301384715d
 keywords:
 - Windows (VFW) 的影片，DrawDib
-- 適用于 Windows) 的 VFW (影片，DrawDib
+- 適用于 Windows) 、DrawDib 的 VFW (影片
 - DrawDib，關於
 - DrawDib，色彩表
 - DrawDib，傳輸模式
@@ -13,12 +13,12 @@ keywords:
 - DrawDib，壓縮的影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 238f3e9ba822e16a7568775378b24f69bbca12de
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 18e03b41d5af776c39f7d100e9478bd408011d61d8e3d661cb80bd9ab52f08c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942086"
 ---
 # <a name="about-the-drawdib-functions"></a>關於 DrawDib 函式
 
@@ -44,6 +44,6 @@ DrawDib 函式統稱為 [**StretchDIBits**](/windows/desktop/api/wingdi/nf-wingd
 [DrawDib](drawdib.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

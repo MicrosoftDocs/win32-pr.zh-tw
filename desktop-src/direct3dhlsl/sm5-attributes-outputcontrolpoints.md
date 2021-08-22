@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 68f933293f86a368bf333ec6d18b909b4d2e5bbd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 7a4c361092665f24aad2984d48879245529866f833b33b7ec842b91a57c0ff2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986148"
 ---
 # <a name="outputcontrolpoints"></a>outputcontrolpoints
 
@@ -35,13 +35,13 @@ outputcontrolpoints(X)
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -53,9 +53,9 @@ outputcontrolpoints(X)
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

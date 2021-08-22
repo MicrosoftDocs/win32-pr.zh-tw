@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dbd0d5e20040bc2d353287eb4243c9e9d6d21dc8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8a768acaecaa77a42990b34c50cd8eccb24d61353550751f3ed830e7844d7624
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794312"
 ---
 # <a name="breakp---vs"></a>breakp-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104022820"
 
 
 
- 
+ 
 
 其中：
 
@@ -47,7 +47,7 @@ ms.locfileid: "104022820"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,9 +56,9 @@ ms.locfileid: "104022820"
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

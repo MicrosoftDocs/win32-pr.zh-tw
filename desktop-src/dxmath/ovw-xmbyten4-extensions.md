@@ -4,12 +4,12 @@ ms.assetid: 1a9090db-5e56-4beb-834a-2643dadcecd3
 title: XMBYTEN4 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 850b1931f63feeb5a86b0ba4a0b23023b861dddf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bbdff015eeaf77216893b4e93f8a208455fd035d5c639e232784994a5209260
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985028"
 ---
 # <a name="xmbyten4-extensions"></a>XMBYTEN4 延伸模組
 

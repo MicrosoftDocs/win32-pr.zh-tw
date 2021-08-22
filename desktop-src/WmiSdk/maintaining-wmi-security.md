@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 維護 WMI 安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f25cbf4a29567b263d6bd279aac9e2e6e21c523e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d79467b3baffd030cae1022f65bc0b8a97242c5e8bbe2f870753a3d3794b8705
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118818416"
 ---
 # <a name="maintaining-wmi-security"></a>維護 WMI 安全性
 
@@ -26,7 +26,7 @@ WMI 安全性著重在保護對命名空間資料的存取。 WMI 會先將存�
 
 ## <a name="namespace-security"></a>命名空間安全性
 
-命名空間安全性相依于標準 Windows 使用者 [*安全識別碼 (SID)*](gloss-s.md) 和 WMI 命名空間的 [*安全描述項*](gloss-s.md) 。
+命名空間安全性相依于標準 Windows 使用者 [*安全識別碼 (SID)*](gloss-s.md)以及 WMI 命名空間的 [*安全描述項*](gloss-s.md)。
 
 您可以藉由執行下列動作來設定命名空間安全性：
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29a0e2c7f97f782b51c145f3974f1490d0286fbe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c169def4940af3c3123e9f211a404c2926192a4d6676f3233a23bceb664e5521
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118840630"
 ---
 # <a name="buttondown"></a>按鈕。向下鍵
 

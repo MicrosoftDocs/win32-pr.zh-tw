@@ -4,12 +4,12 @@ ms.assetid: 0ba753d1-d81a-4f7a-942c-2967c46febec
 title: RealTimeStylus 外掛程式範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f593bf9e4fe0fb3d8ab12674047d6c05f28617a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a05fd9c70c11130011352d8c16d30abee672e4cd56c000c21b7fbfd2704babe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966877"
 ---
 # <a name="realtimestylus-plug-in-sample"></a>RealTimeStylus 外掛程式範例
 
@@ -143,7 +143,7 @@ public void Packets(RealTimeStylus sender,  PacketsData data)
 
 
 
-## <a name="the-realtimestyluspluginapp-project"></a>RealTimeStylusPluginApp 專案
+## <a name="the-realtimestyluspluginapp-project"></a>RealTimeStylusPluginApp Project
 
 RealTimeStylusPluginApp 專案會示範先前所述的外掛程式，以及 [**GestureRecognizer**](gesturerecognizer-class.md) 和 [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)) 外掛程式。專案的使用者介面包含：
 

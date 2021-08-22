@@ -26,4 +26,4 @@ Direct3D 是一個低層級的 API，用來繪製具有轉譯管線的基本專�
 | [Direct3D 11 圖形](./direct3d11/atoc-dx-graphics-direct3d-11.md) | 您可以使用 Microsoft Direct3D 11 圖形來建立適用于遊戲和科學和桌面應用程式的立體圖形。 |
 | [DXGI](./direct3ddxgi/dx-graphics-dxgi.md) | DXGI 會處理列舉圖形介面卡、列舉顯示模式、選取緩衝區格式、在進程之間共用資源，以及將轉譯的畫面格呈現至視窗或監視器以供顯示。 |
 | [HLSL](./direct3dhlsl/dx-graphics-hlsl.md) | HLSL 是適用于 DirectX 的高階著色器語言。 您可以使用 HLSL，為 Direct3D 管線建立類似 C 的可程式化著色器。 |
-| [Dds](./direct3ddds/dx-graphics-dds.md) |  (DDS) 的 DirectDraw 表面檔案格式支援未壓縮和壓縮的 (DXTn) 紋理、mipmap、cube 地圖和磁片區對應。 它受到 DirectXTex、DirectXTK、舊版 D3DX 和其他 DirectX 工具的支援。 |
+| [DDS](./direct3ddds/dx-graphics-dds.md) |  (DDS) 的 DirectDraw 表面檔案格式支援未壓縮和壓縮的 (DXTn) 紋理、mipmap、cube 地圖和磁片區對應。 它受到 DirectXTex、DirectXTK、舊版 D3DX 和其他 DirectX 工具的支援。 |

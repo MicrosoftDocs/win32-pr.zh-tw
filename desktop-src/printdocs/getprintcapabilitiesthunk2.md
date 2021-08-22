@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - prntvpt.dll
-ms.openlocfilehash: eb60f1cdabad6287e236fc099fc304e9e7de83ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55127d15eae41380fd5376ca54589488e255a740a7881042f54bc203873701f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971387"
 ---
 # <a name="getprintcapabilitiesthunk2-function"></a>GetPrintCapabilitiesThunk2 函式
 
@@ -98,8 +98,8 @@ HRESULT GetPrintCapabilitiesThunk2(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Prntvpt.dll</dt> </dl> |
 
 

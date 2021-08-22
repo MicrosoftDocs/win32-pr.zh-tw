@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 6e2129f9776706ce331677e75c5d9c81d82393c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd933bf0ace6f394a801ab8dc4ef1fa30344b47966c09865a3aa4b713c6f2ed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971517"
 ---
 # <a name="form_info_2-structure"></a>表單 \_ 資訊 \_ 2 結構
 
@@ -119,7 +119,7 @@ typedef struct _FORM_INFO_2 {
 **pMuiDll**
 </dt> <dd>
 
-包含當地語系化顯示名稱的 [多語系消費者介面](/windows/desktop/Intl/mui-resource-management) 當地語系化資源 DLL。
+包含當地語系化顯示名稱的[多語系消費者介面](/windows/desktop/Intl/mui-resource-management)當地語系化資源 DLL。
 
 </dd> <dt>
 
@@ -164,9 +164,9 @@ typedef struct _FORM_INFO_2 {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                      |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ 表單 \_ 資訊 \_ 2w** (Unicode) 和 **\_ 表單 \_ 資訊 \_ 2a** (ANSI) <br/>                                 |
 
 

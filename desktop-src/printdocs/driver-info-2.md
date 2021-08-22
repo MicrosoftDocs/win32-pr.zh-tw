@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: a88caf5aa10828b81dccefbe8118b3a57aebce97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcb65f066286b5f5cd2fec935fb2223c25cf87fcc64d17de274b9b182a372440
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732856"
 ---
 # <a name="driver_info_2-structure"></a>驅動程式 \_ 資訊 \_ 2 結構
 
@@ -63,7 +63,7 @@ typedef struct _DRIVER_INFO_2 {
 **pEnvironment**
 </dt> <dd>
 
-以 null 結束的字串指標，指定寫入驅動程式的環境 (例如，Windows x86、Windows IA64 和 Windows x64) 。
+以 null 結束的字串指標，指定寫入驅動程式的環境 (例如 Windows x86、Windows IA64 和 Windows x64) 。
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ typedef struct _DRIVER_INFO_2 {
 **pConfigFile**
 </dt> <dd>
 
-以 null 結束的字串指標，指定設備磁碟機設定 .dll 的檔案名或完整路徑和檔案名 (例如 "c： driver \\ \\Pscrptui.dll" ) 。
+以 null 結束的字串指標，指定設備磁碟機設定的檔案名或完整路徑和檔案名 .dll (例如 "c： \\ 驅動程式 \\Pscrptui.dll" ) 。
 
 </dd> </dl>
 
@@ -96,7 +96,7 @@ typedef struct _DRIVER_INFO_2 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ 驅動程式 \_ 資訊 \_ 2w** (Unicode) 和 **\_ 驅動程式 \_ 資訊 \_ 2a** (ANSI) <br/>                             |
 
 

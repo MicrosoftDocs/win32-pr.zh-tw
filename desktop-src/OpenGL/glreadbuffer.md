@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59f0e88cdcb2b1b3257b23606f8160e0986584db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3a25e9a799185b1a509510abb81617895fbbd0624d8816110e4c2ba8e4a7c1cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937948"
 ---
 # <a name="glreadbuffer-function"></a>glReadBuffer 函式
 
@@ -57,7 +57,7 @@ void WINAPI glReadBuffer(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *模式* 不是 12 (或更) 接受值的其中之一。<br/>                                                             |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | *模式* 指定了不存在的緩衝區。<br/>                                                                             |

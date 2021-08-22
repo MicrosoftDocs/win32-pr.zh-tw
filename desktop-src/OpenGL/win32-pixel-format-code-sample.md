@@ -1,6 +1,6 @@
 ---
-title: Windows 像素格式的程式碼範例
-description: 下列程式碼範例顯示使用 Windows 函式設定像素格式的函式。
+title: Windows像素格式的程式碼範例
+description: 下列程式碼範例顯示使用 Windows 函式設定像素格式的函式
 ms.assetid: fa863999-72f1-4280-b278-d9336f62108d
 keywords:
 - 圖元 OpenGL、Windows 範例
@@ -8,14 +8,14 @@ keywords:
 - OpenGL 移植，圖元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4328976a3622d19c3482aa2845c2094975dd7f74
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7fdd9569b6bef7dd273f6c3ff0370e2e4e44bbbbb6ec41362d1fb7dd32bd7745
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932778"
 ---
-# <a name="windows-pixel-format-code-sample"></a>Windows 像素格式的程式碼範例
+# <a name="windows-pixel-format-code-sample"></a>Windows像素格式的程式碼範例
 
 下列程式碼範例顯示使用 Windows 函式設定像素格式的函式：
 
@@ -59,9 +59,9 @@ BOOL bSetupPixelFormat(HDC hdc)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,12 +24,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a0a80b35ba682012150b4277d800bc4a3582e57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7cc6bd8ffe1e2d2f5b835090ee1dec5e3420a8bfb2d5801b3f5f903b3436bf66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118853140"
 ---
 # <a name="imstscsecuredsettingsworkdir-property"></a>IMsTscSecuredSettings：： WorkDir 屬性
 

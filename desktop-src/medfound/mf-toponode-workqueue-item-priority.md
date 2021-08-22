@@ -4,12 +4,12 @@ ms.assetid: B2FA1151-08D3-46F9-A38D-AC8908EFA6A2
 title: 'MF_TOPONODE_WORKQUEUE_ITEM_PRIORITY 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec5f7df6630e41a32eeb069c2a07b8030da79929
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ff67e48bda6ac00baeab9418b80d366c23808713b4689a013949b364f09b6e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739832"
 ---
 # <a name="mf_toponode_workqueue_item_priority-attribute"></a>MF \_ TOPONODE \_ WORKQUEUE \_ 專案 \_ 優先順序屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "104191626"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

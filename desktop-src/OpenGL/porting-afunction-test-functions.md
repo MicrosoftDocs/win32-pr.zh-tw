@@ -11,12 +11,12 @@ keywords:
 - Alpha 測試函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3abfd3ba46d99f8b70ecfb97c0160efea944ccd2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6234a80217c8ef540d31b5b4e7bb76718ef03fda9cfff8f07b6a965613055f3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936227"
 ---
 # <a name="porting-afunction-test-functions"></a>移植 afunction 測試函式
 
@@ -37,11 +37,11 @@ ms.locfileid: "103840764"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

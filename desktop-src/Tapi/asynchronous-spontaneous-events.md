@@ -4,12 +4,12 @@ ms.assetid: eaf4b014-1cab-4707-b750-9088e745083e
 title: 非同步自發事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd923ba7759ca88994fbf541c9f912ec660a7552
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 785ed97e6538b1baff9af13e64791a094d872e540fc088b74820119629d08b4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118871903"
 ---
 # <a name="asynchronous-spontaneous-events"></a>非同步自發事件
 

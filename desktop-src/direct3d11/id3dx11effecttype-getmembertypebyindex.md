@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da5023e064539f57af9998c788385f2a1316433f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 53500ec94791ff534bf6b3c9a2e7d46a51b7b69bc889f35515e9b653c5bbb422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118532320"
 ---
 # <a name="id3dx11effecttypegetmembertypebyindex-method"></a>ID3DX11EffectType：： GetMemberTypeByIndex 方法
 

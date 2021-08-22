@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，SplitButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c56cd6b22838dfa92ba25ce05e74d228f4173ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb04f75a075fdd10b1cf31db01d09c6a9d9fd9a5d78c7c0499d9196a9ff8a956
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825223"
 ---
 # <a name="splitbutton-control-type"></a>SplitButton 控制項類型
 
@@ -93,7 +93,7 @@ ms.locfileid: "103674664"
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>相關屬性
 
@@ -117,7 +117,7 @@ ms.locfileid: "103674664"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -132,7 +132,7 @@ ms.locfileid: "103674664"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -152,7 +152,7 @@ ms.locfileid: "103674664"
 
 
 
- 
+ 
 
 ## <a name="splitbutton-control-type-example"></a>SplitButton 控制項類型範例
 
@@ -207,7 +207,7 @@ ms.locfileid: "103674664"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -222,9 +222,9 @@ ms.locfileid: "103674664"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

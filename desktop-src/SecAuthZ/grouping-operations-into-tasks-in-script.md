@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: fb7fc1d4a84cd42dc0ae48af4fcbf02412b93337
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29c7dedb9944a208e5ba128f0341a8cbde3e787056c099d527be8f79260c6f7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118913572"
 ---
 # <a name="grouping-operations-into-tasks-in-script"></a>將作業分組到腳本中的工作
 

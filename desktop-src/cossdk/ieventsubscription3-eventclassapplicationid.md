@@ -14,12 +14,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3e80a8d8f557c80a1b2605328728260eb8ae7bd7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 228650f97f8662e60f7866fd36c184583316e494286b55c1f70e03a148e5e979
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118813829"
 ---
 # <a name="ieventsubscription3eventclassapplicationid-property"></a>IEventSubscription3：： EventClassApplicationID 屬性
 
