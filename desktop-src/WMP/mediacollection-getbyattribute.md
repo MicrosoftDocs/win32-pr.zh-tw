@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 533823127364416f8f4492c82381e682173c5c78
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f942f0718202d6c3e509b177c34c4c4be20c058b1e74991fa0ae89955d7711d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996307"
 ---
 # <a name="mediacollectiongetbyattribute-method"></a>MediaCollection. getByAttribute 方法
 
@@ -46,7 +46,7 @@ retVal = MediaCollection.getByAttribute(
 *屬性* \[在\]
 </dt> <dd>
 
-**字串** ，表示要搜尋的屬性名稱。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player [屬性參考](attribute-reference.md)。
+**字串** ，表示要搜尋的屬性名稱。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player[屬性參考](attribute-reference.md)。
 
 </dd> <dt>
 

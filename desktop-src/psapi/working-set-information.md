@@ -4,12 +4,12 @@ description: 進程的工作集是實際對應至其處理內容的記憶體數�
 ms.assetid: 33c42f79-cc77-4d44-84c3-8bf0a4a60019
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b56e1e4dc0a68a9d4507a94ad1f5356432f8488a
-ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
+ms.openlocfilehash: 5b6003886d50cb47b128bfce92cba4c28950ee078dbe13499d8909676d938aad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "111549860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032976"
 ---
 # <a name="working-set-information"></a>工作集資訊
 

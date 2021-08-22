@@ -10,12 +10,12 @@ keywords:
 - 屬性，環境事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a40522a741509e56d2e4c9201c305126067a0fe3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7fe9cb8353b684597ba18d7b1dc2a7fb23c3d7e6e95b6f76d847bc9aa5eb39cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055246"
 ---
 # <a name="ambient-event-attributes"></a>環境事件屬性
 
@@ -46,7 +46,7 @@ ms.locfileid: "103672023"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -55,9 +55,9 @@ ms.locfileid: "103672023"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

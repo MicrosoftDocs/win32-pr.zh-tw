@@ -13,21 +13,21 @@ keywords:
 - 檔，下載 Windows Media Player SDK
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad1515b48b9c6491ba4202e2074a17808d066d8f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8f3e1921a8b1eb87112050e9bb91508d5e32020df4210e3243cce2e8fcee4c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054976"
 ---
 # <a name="for-more-information-wmp-sdk"></a>如需詳細資訊 (WMP SDK) 
 
--   如需開發數位媒體解決方案的詳細資訊，請參閱 [Microsoft Windows Media 開發人員中心](https://msdn.microsoft.com/windowsmedia/default.aspx)。
--   如需 Windows Media 的詳細資訊，請參閱 [Windows media 網站](https://support.microsoft.com/help/18612/windows-media-player)。
--   如需 Windows Media Player 的詳細資訊，請參閱 Windows Media 網站上的 [Windows Media Player 網頁](https://support.microsoft.com/help/18612/windows-media-player) 。
--   若要下載包含 Windows Media Player SDK 的 Windows SDK，請移至 Windows 開發人員中心的 [Windows SDK](https://msdn.microsoft.com/windows/bb980924.aspx) 頁面。
--   如需使用 Microsoft 技術進行程式設計的詳細資訊，包括 Windows Media 技術和軟體發展工具組，請參閱 [MSDN library]()。
--   目前版本的 Windows Media Player SDK 是第12版。 關於 Windows Media Player 11 SDK 的相關問題，請參閱 [Windows Media Player 11 Sdk 讀我檔案](/previous-versions/aa905044(v=msdn.10))。
+-   如需有關開發數位媒體解決方案的詳細資訊，請參閱[Microsoft Windows 媒體開發人員中心](https://msdn.microsoft.com/windowsmedia/default.aspx)。
+-   如需 Windows 媒體的詳細資訊，請參閱[Windows 媒體網站](https://support.microsoft.com/help/18612/windows-media-player)。
+-   如需 Windows Media Player 的詳細資訊，請參閱 Windows 媒體網站上的[Windows Media Player 網頁](https://support.microsoft.com/help/18612/windows-media-player)。
+-   若要下載包含 Windows Media Player SDK 的 Windows SDK，請移至 Windows 開發人員中心的[Windows SDK](https://msdn.microsoft.com/windows/bb980924.aspx)頁面。
+-   如需使用 Microsoft 技術進行程式設計的詳細資訊，包括 Windows 媒體技術和軟體發展工具組，請參閱[MSDN Library]()。
+-   目前版本的 Windows Media Player SDK 是第12版。 關於 Windows Media Player 11 sdk 的相關問題，請參閱[Windows Media Player 11 sdk 讀我檔案](/previous-versions/aa905044(v=msdn.10))。
 
 ## <a name="related-topics"></a>相關主題
 

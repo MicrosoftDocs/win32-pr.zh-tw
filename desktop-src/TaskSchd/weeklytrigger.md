@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58dec9172d38b53f779f44a048b39bc709dbd54f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 51eb48b03efb49bd5642909af4b99b99bfb1f7f139b97f8410e0d5f014843ddf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001786"
 ---
 # <a name="weeklytrigger-object"></a>WeeklyTrigger 物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "103686603"
 
 
 
-| 屬性                                                            | 存取類型           | Description                                                                                                                                                                                 |
+| 屬性                                                            | 存取類型           | 描述                                                                                                                                                                                 |
 |:--------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DaysOfWeek**](weeklytrigger-daysofweek.md)<br/>           | 讀取/寫入<br/> | 取得或設定工作在一周中的哪幾天執行。<br/>                                                                                                                        |
 | [**啟用**](trigger-enabled.md)<br/>                       | 讀取/寫入<br/> | 繼承自 [**觸發**](trigger.md) 程式物件。 取得或設定布林值，這個值會指出是否已啟用觸發程式。<br/>                                                |
@@ -72,8 +72,8 @@ ms.locfileid: "103686603"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -83,7 +83,7 @@ ms.locfileid: "103686603"
 
 <dl> <dt>
 
-[**觸發**](trigger.md)
+[**觸發程序**](trigger.md)
 </dt> <dt>
 
 [**TriggerCollection**](triggercollection.md)

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: a302687b3712f2dfb61bfe80cf85e96a9c11a701
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89c819470555f96424b2eb58b487d4ac06c94ede97982401e1db163d419b5e69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983308"
 ---
 # <a name="apijetgetobjectinfo-method"></a>JetGetObjectInfo 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104112577"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

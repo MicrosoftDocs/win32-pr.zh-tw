@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6b10e9dfd43f3ad98adf8f6abb0eb7c2223d5970
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6cc0a601ee1adbff9254baeff029c26d0cea359c7b2770b4d518bad916aca09f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074282"
 ---
 # <a name="cdynamicoutputpinblock-method"></a>CDynamicOutputPin Block 方法
 
@@ -67,7 +67,7 @@ AM \_ 釘選 \_ 流程 \_ 控制 \_ 區塊：封鎖來自 PIN 的資料流程。
 
 
 
-| 傳回碼                                                                                                                    | Description                                              |
+| 傳回碼                                                                                                                    | 描述                                              |
 |--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                                        | Pin 已解除封鎖。<br/>                     |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                           | 成功。<br/>                                      |

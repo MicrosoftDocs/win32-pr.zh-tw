@@ -3,21 +3,21 @@ title: 停用的檔案
 description: 停用的檔案
 ms.assetid: 8b3339f6-a5d5-4501-826c-6ce33bfbf0cb
 keywords:
-- Windows Media Player 行動外觀、美工檔案
+- Windows Media Player行動外觀、美工檔案
 - 外觀、美工檔案
 - 適用于外觀、藝術的檔案
 - 面板的美工檔案，已停用的檔案
-- Windows Media Player 行動外觀、已停用的檔案
+- Windows Media Player行動面板，已停用的檔案
 - 外觀，已停用的檔案
 - 面板中已停用的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9608c67ded6625d46126955ad42a24548a9d002c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7b7d7c052ed0de1a3e231bc204b87a84f1e9e10262acfe43df310d76f76577b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997351"
 ---
 # <a name="disabled-file"></a>停用的檔案
 
@@ -38,9 +38,9 @@ ms.locfileid: "104021698"
 [**美工檔案**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

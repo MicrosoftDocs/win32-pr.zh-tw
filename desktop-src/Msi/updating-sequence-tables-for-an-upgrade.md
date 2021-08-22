@@ -4,12 +4,12 @@ ms.assetid: 6b733638-a665-4638-8257-a36232119ba9
 title: 更新升級的順序資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f45f1cda29a4570f3ea27a2c6611be9c274449
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4db017ff92d108018ff601dcd808952e12d4d53d9ca81eef717b4cc3989bc19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012846"
 ---
 # <a name="updating-sequence-tables-for-an-upgrade"></a>更新升級的順序資料表
 

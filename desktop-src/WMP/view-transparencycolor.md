@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b7758a63292c299ef113474dc9f65bb8a6b3d01
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 00be392baa607433d798ed22438b9b26bb21469f66c4f750ca6852114886d271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054046"
 ---
 # <a name="viewtransparencycolor"></a>TransparencyColor
 

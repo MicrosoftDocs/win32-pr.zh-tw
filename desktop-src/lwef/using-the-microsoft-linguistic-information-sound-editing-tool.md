@@ -6,18 +6,18 @@ keywords:
 - 語言資訊音效編輯工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1f4bb631af298c87b247b5a339218602adcfa08
-ms.sourcegitcommit: d8a9656168c145d5579af39ece0b116e687e2b96
+ms.openlocfilehash: b2be9633ddcaa67b97de42484e91b2d98d50150eb3103659267869f355b58f32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "106965409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036046"
 ---
 # <a name="using-the-linguistic-information-sound-editing-tool"></a>使用語言資訊音效編輯工具
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
-語言資訊音效編輯工具可讓您產生音素和斷詞資訊，以增強 Windows 音效 ( .wav) 檔案，以支援高品質的 lip 同步字元動畫。 下列各節說明如何使用此工具。
+語言資訊音效編輯工具可讓您產生音素和斷詞工具，以增強 Windows 音效 ( .wav) 檔，以支援高品質的 lip 同步字元動畫。 下列各節說明如何使用此工具。
 
 -   [安裝音效編輯器](installing-the-sound-editor.md)
 -   [啟動音效編輯器](starting-the-sound-editor.md)
@@ -30,9 +30,9 @@ ms.locfileid: "106965409"
 
 您可以使用以音效編輯器產生的語言增強音效檔案，以支援 lip 同步 Microsoft 代理程式字元輸出。 若要這樣做，只要將檔案當作參數傳遞給 [**說話**](speak-method.md) 方法即可。 如需詳細資訊，請參閱 [程式設計 Microsoft Agent 控制項](programming-the-microsoft-agent-control.md) 或 [程式設計 Microsoft agent Server 介面](programming-the-microsoft-agent-server-interface.md)。
 
- 
+ 
 
- 
+ 
 
 
 

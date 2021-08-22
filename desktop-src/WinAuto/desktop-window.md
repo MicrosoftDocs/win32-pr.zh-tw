@@ -4,12 +4,12 @@ description: 桌面視窗會顯示桌面清單視圖 (，其中包含我的電�
 ms.assetid: 3668c26e-6462-4219-95d3-507811ed7f3c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d58208b3993964a367d093174d58d705beda23d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c0a1c096ea759f9df2115a35e79e72fe7257e93b9d9a21d9f596b890644a6a67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994218"
 ---
 # <a name="desktop-window-msaa-ui-element-reference"></a>桌面視窗 (MSAA UI 元素參考) 
 

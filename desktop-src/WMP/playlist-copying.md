@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 710926a966713901733ac9bbee3d188458ebcf65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9d803986626f728db78b03933d65629e06d6021f63a5b7806503d7eec7176b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054226"
 ---
 # <a name="playlistcopying"></a>播放清單。複製
 

@@ -39,12 +39,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b26ba102ff72caf235a51d3888183ccafba9d639
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c022b1d93cb411f0cce73822a47f2d8f85b30e8093bbe2064fb3c50eab5c4870
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967937"
 ---
 # <a name="ssf-constants"></a>SSF 常數
 
@@ -179,7 +179,7 @@ ms.locfileid: "104991638"
 
 
 
-正在要求 **fDesktopHTML** 成員。 設定為 [無法使用]。 相反地，在 Windows XP 之前的 Windows 版本中，請啟用 [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop)的桌面 HTML。 不過，在 windows XP 和更新版本的 windows 中，不建議使用 **IActiveDesktop** ，而是在 windows Vista 中被取代。
+正在要求 **fDesktopHTML** 成員。 設定為 [無法使用]。 相反地，針對 Windows XP 之前的 Windows 版本，請啟用 [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop)的桌面 HTML。 但是，不建議將 **IActiveDesktop** 用於此用途，Windows XP 和更新版本的 Windows，而且在 Windows Vista 中已淘汰。
 
 
 </dt> </dl> </dd> <dt>
@@ -324,7 +324,7 @@ ms.locfileid: "104991638"
 
 
 
-**WINDOWS XP**（含）以後版本。 正在要求 **fNoNetCrawling** 成員。
+**Windows XP 及更新版本**。 正在要求 **fNoNetCrawling** 成員。
 
 
 </dt> </dl> </dd> <dt>
@@ -337,7 +337,7 @@ ms.locfileid: "104991638"
 
 
 
-**WINDOWS XP**（含）以後版本。 正在要求 **fStartPanelOn** 成員。
+**Windows XP 及更新版本**。 正在要求 **fStartPanelOn** 成員。
 
 
 </dt> </dl> </dd> <dt>
@@ -363,7 +363,7 @@ ms.locfileid: "104991638"
 
 
 
-**Windows Vista**（含）以後版本。 正在要求 **fAutoCheckSelect** 成員。
+**Windows Vista 和更新版本**。 正在要求 **fAutoCheckSelect** 成員。
 
 
 </dt> </dl> </dd> <dt>
@@ -376,7 +376,7 @@ ms.locfileid: "104991638"
 
 
 
-**Windows Vista**（含）以後版本。 正在要求 **fIconsOnly** 成員。
+**Windows Vista 和更新版本**。 正在要求 **fIconsOnly** 成員。
 
 
 </dt> </dl> </dd> <dt>
@@ -389,7 +389,7 @@ ms.locfileid: "104991638"
 
 
 
-**Windows Vista**（含）以後版本。 正在要求 **fShowTypeOverlay** 成員。
+**Windows Vista 和更新版本**。 正在要求 **fShowTypeOverlay** 成員。
 
 
 </dt> </dl> </dd> <dt>

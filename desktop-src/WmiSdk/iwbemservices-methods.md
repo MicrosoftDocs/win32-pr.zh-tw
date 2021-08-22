@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IWbemServices 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a960ec223d16bd9258ba2d9d56518d88beab50c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86a9f673e9e96e2ea3baa277a9b9ec72dddd4902b7ec54a06a019d630352bd03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106969395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050736"
 ---
 # <a name="iwbemservices-methods"></a>IWbemServices 方法
 

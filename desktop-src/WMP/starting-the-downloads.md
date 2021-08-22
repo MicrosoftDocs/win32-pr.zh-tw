@@ -10,17 +10,17 @@ keywords:
 - 線上商店，開始下載
 - 輸入2個線上商店，開始下載
 - Windows Media Player，下載管理員
-- Windows Media Player 下載管理員
+- Windows Media Player下載管理員
 - 下載管理員
 - 開始下載
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cec723bd504cc511c3ca43db90f3c613a8acefd1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d600bb037204b4dae1c07d8938e92eae2862460b94ef285567a8ca14144e72c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995068"
 ---
 # <a name="starting-the-downloads"></a>開始下載
 
@@ -59,9 +59,9 @@ g_DLI[4] = oDLC.startDownload(g_sFiles[4], g_sDLType);
 [**使用下載管理員**](using-the-download-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

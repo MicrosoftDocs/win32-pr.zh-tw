@@ -4,12 +4,12 @@ ms.assetid: 116ad2c9-7c60-418a-9083-41e9c33d5029
 title: 安全性範本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5de8f4d16c0a88d28378eaf6742c661665a7cac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 270d50a17fdf4cb6f756d0b00b9b4e04c2d0374769026b37783d628e2c0e76ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004877"
 ---
 # <a name="security-templates"></a>安全性範本
 

@@ -4,12 +4,12 @@ ms.assetid: 301d3062-29a1-4b44-bbcd-e9d5b7d7823b
 title: 磁片管理功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 677443c58aa8b9a60758d817e31e3804ef25ae66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8a90b67de9120ac7b0211e3d62c4ad729914ef34463682c84159f81de54fb58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015326"
 ---
 # <a name="disk-management-functions"></a>磁片管理功能
 

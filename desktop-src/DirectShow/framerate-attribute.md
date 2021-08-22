@@ -4,12 +4,12 @@ ms.assetid: 541a86e3-7736-4de4-b509-f8d61ef9bc58
 title: " (DirectShow) 的畫面播放速率屬性"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f1af5deb8ae2a851b328fcd6d9ffa3923328708
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2939126dbd849538bb30fcf7729e5f91dafa292b6db512398c915c8f8de2c9a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015656"
 ---
 # <a name="framerate-attribute-directshow"></a> (DirectShow) 的畫面播放速率屬性
 

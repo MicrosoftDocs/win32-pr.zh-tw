@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5088b4b6365dd60d859fda8ec563cc9c8ff8a4c8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: efb1a240c8df072d0770521f70c526f4e096c26385df85cff7acf0d229fdc252
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106986047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996918"
 ---
 # <a name="dvdisavailable"></a>IsAvailable
 
@@ -39,7 +39,7 @@ player.dvd.isAvailable(
 
 
 
-| String     | Description                                                                            |
+| String     | 描述                                                                            |
 |------------|----------------------------------------------------------------------------------------|
 | 上一步       | 判斷 **back** 方法是否可用。                                   |
 | Dvd        | 判斷是否已載入 DVD。                                                  |
@@ -58,7 +58,7 @@ player.dvd.isAvailable(
 
 ## <a name="remarks"></a>備註
 
-Windows Media Player 的 DVD 功能將無法在未安裝協力廠商 DVD 解碼器的電腦上運作。 您可以藉由呼叫 **isAvailable** ( "dvdDecoder" ) 來判斷是否有可用的解碼器。
+Windows Media Player 的 dvd 功能將無法在未安裝協力廠商 DVD 解碼器的電腦上運作。 您可以藉由呼叫 **isAvailable** ( "dvdDecoder" ) 來判斷是否有可用的解碼器。
 
 每個 DVD 的撰寫方式不同。 DVD 播放和流覽期間可用的方法取決於 DVD 的編寫方式。
 
@@ -70,9 +70,9 @@ Windows Media Player 的 DVD 功能將無法在未安裝協力廠商 DVD 解碼�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
-| 版本<br/>                  | 適用于 Windows XP 或更新版本的 Windows Media Player<br/>                            |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
+| 版本<br/>                  | Windows XP 或更新版本的 Windows Media Player<br/>                            |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

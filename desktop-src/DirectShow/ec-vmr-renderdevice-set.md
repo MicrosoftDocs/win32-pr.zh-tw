@@ -4,12 +4,12 @@ ms.assetid: 815d1254-c6e3-4a6c-ba4a-bf3da7d35d1f
 title: 'EC_VMR_RENDERDEVICE_SET (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9855b23e25a2c3b955c1499b9505efffcc5637e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fc2c8bef78156c4438e1e4e7aea45326562002ed8f4a3786377d7ee43a00a57c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015856"
 ---
 # <a name="ec_vmr_renderdevice_set"></a>EC \_ VMR \_ RENDERDEVICE \_ 集
 

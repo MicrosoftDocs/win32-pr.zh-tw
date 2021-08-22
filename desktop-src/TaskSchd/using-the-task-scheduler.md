@@ -12,12 +12,12 @@ keywords:
 - 範例工作排程器請參閱工作排程器範例工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f81dda9551917b8f6345248a316bd5941de53f0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d4ba0c50a918f6c90d48eb1603bf42ec1336f7eae9ec5696b7627dd7d06cbeaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001886"
 ---
 # <a name="using-the-task-scheduler"></a>使用工作排程器
 
@@ -29,17 +29,17 @@ ms.locfileid: "106965964"
 
 | 範例                                                                                                    | 描述                                                                            |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [在特定時間啟動可執行檔](starting-an-executable-at-a-spcific-time.md)                  | 定義在指定的時間啟動 [記事本] 的工作。                                |
-| [每天啟動可執行檔](starting-an-executable-daily.md)                                           | 定義每天啟動「記事本」的工作。                                              |
-| [在系統開機時啟動可執行檔](starting-an-executable-on-system-boot.md)                         | 定義啟動系統時啟動「記事本」的工作。                          |
-| [每週啟動可執行檔](starting-an-executable-weekly.md)                                         | 定義每週啟動「記事本」的工作。                                  |
-| [在工作註冊時啟動可執行檔](starting-an-executable-when-a-task-is-registered.md)   | 定義工作在註冊時啟動 [記事本]。                        |
-| [當使用者登入時啟動可執行檔](starting-an-executable-when-a-user-logs-on.md)               | 定義在使用者登入時啟動「記事本」的工作。                                |
+| [在特定時間啟動可執行檔](starting-an-executable-at-a-spcific-time.md)                  | 定義在指定時間開始記事本的工作。                                |
+| [每天啟動可執行檔](starting-an-executable-daily.md)                                           | 定義每日開始記事本的工作。                                              |
+| [在系統開機時啟動可執行檔](starting-an-executable-on-system-boot.md)                         | 定義啟動系統時啟動記事本的工作。                          |
+| [每週啟動可執行檔](starting-an-executable-weekly.md)                                         | 定義每週開始記事本的工作。                                  |
+| [在工作註冊時啟動可執行檔](starting-an-executable-when-a-task-is-registered.md)   | 定義在註冊工作時啟動記事本的工作。                        |
+| [當使用者登入時啟動可執行檔](starting-an-executable-when-a-user-logs-on.md)               | 定義當使用者登入時開始記事本的工作。                                |
 | [列舉工作和顯示工作資訊](enumerating-tasks-and-displaying-task-information.md) | 列舉本機電腦上的所有工作，並顯示每個工作的狀態。 |
 
 
 
- 
+ 
 
 下表列出本節中包含工作排程器1.0 範例。 
 
@@ -61,7 +61,7 @@ ms.locfileid: "106965964"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -73,9 +73,9 @@ ms.locfileid: "106965964"
 [關於工作排程器](about-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

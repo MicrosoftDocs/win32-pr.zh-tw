@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 36316815ae1d9fde1a18fb36029da92ae6263f20
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 760ec066a9d4876dd6ef754783c41ae12765db10c1595d08aef0a73258de087f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016996"
 ---
 # <a name="cbaseinputpinpassnotify-method"></a>CBaseInputPin. PassNotify 方法
 
@@ -55,7 +55,7 @@ HRESULT PassNotify(
 
 
 
-| 傳回碼                                                                                       | Description                                                |
+| 傳回碼                                                                                       | 描述                                                |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>              | 成功。<br/>                                        |
 | <dl> <dt>**\_ \_ 找不到 VFW E \_**</dt> </dl> | 找不到接受訊息的物件。<br/> |

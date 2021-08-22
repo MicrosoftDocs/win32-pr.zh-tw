@@ -4,12 +4,12 @@ ms.assetid: 955fb828-4290-4e60-a5db-d3f243b86d8d
 title: 義大利
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1e74092318cfbc889f9173685176d48d6b72fc0
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 3f10e7b6bad33e092da60877116c9306d6b9c2594f128aff77b0045847689816
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952497"
 ---
 # <a name="italy"></a>義大利
 

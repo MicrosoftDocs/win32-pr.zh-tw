@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1394f3f2a72837df5efa3b74bd2672e39c3c3b12
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 40556db0d63441e42d46a0ed7f9bd45edb8b2ce65f8d4b9b84e3a848325ddbb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013996"
 ---
 # <a name="context_handle_noserialize-attribute"></a>內容 \_ 控制碼 \_ noserialize 屬性
 
@@ -86,7 +86,7 @@ IDL 檔案中所定義的函式名稱。
 
 這個屬性可在 MIDL 5.0 版中使用。
 
-**Windows ServerÂ2003與 WINDOWS XP 或更新版本：** 單一介面可以容納序列化和非序列化的內容控制碼，在介面上啟用一種方法，以獨佔方式存取 (序列化) 的內容控制碼，而其他方法則會在共用模式中存取該內容控制碼 (非序列化) 。 這些存取功能相當於讀取/寫入鎖定機制;使用序列化內容控制碼的方法是 (寫入器) 的專屬使用者，而使用非序列化內容控制碼的方法則是 (讀取器) 的共用使用者。 損毀或修改內容控制碼狀態的方法必須序列化。 未修改內容控制碼狀態的方法（例如直接從內容控制碼讀取的方法）可以是非序列化的。 請注意，建立方法會以隱含方式序列化。
+**Windows ServerÂ2003和 windows XP 或更新版本：** 單一介面可以容納序列化和非序列化的內容控制碼，在介面上啟用一種方法，以獨佔方式存取 (序列化) 的內容控制碼，而其他方法則會在共用模式中存取該內容控制碼 (非序列化) 。 這些存取功能相當於讀取/寫入鎖定機制;使用序列化內容控制碼的方法是 (寫入器) 的專屬使用者，而使用非序列化內容控制碼的方法則是 (讀取器) 的共用使用者。 損毀或修改內容控制碼狀態的方法必須序列化。 未修改內容控制碼狀態的方法（例如直接從內容控制碼讀取的方法）可以是非序列化的。 請注意，建立方法會以隱含方式序列化。
 
 ## <a name="examples"></a>範例
 
@@ -123,6 +123,6 @@ HRESULT RemoteFunc([context_handle_noserialize] pCxHandle);
 [**著**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

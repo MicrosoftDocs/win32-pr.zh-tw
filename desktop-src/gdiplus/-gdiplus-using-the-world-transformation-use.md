@@ -4,12 +4,12 @@ ms.assetid: 22f43b29-ea7b-4faf-9795-2242bf704ed3
 title: 使用全局轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2138df1bbd2be6d3329695fc6898da49da93b3b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6288b5640e330a827e96b632541dac44e9463b87c566c16a94797810c4c92c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977238"
 ---
 # <a name="using-the-world-transformation"></a>使用全局轉換
 

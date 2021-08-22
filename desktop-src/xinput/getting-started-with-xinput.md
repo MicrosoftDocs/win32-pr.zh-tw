@@ -1,19 +1,19 @@
 ---
 title: 使用 XInput 開始使用
-description: XInput 是可讓應用程式從適用于 Windows 的 Xbox Controller 接收輸入的 API。 支援控制器 rumble 效果和語音輸入和輸出。
+description: XInput 是一種 API，可讓應用程式從 Xbox Controller 接收 Windows 的輸入。 支援控制器 rumble 效果和語音輸入和輸出。
 ms.assetid: 7b5eec3e-b3da-de5c-c926-8258c1418ef0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91f590f54bbb2641881cf89cd6d31539d75665c0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68a9ca17e3046db676887290b9b9dcbb7318f2dc89d4dd9543cbe790bf271b60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962497"
 ---
 # <a name="getting-started-with-xinput"></a>使用 XInput 開始使用
 
-XInput 是可讓應用程式從適用于 Windows 的 Xbox Controller 接收輸入的 API。 支援控制器 rumble 效果和語音輸入和輸出。
+XInput 是一種 API，可讓應用程式從 Xbox Controller 接收 Windows 的輸入。 支援控制器 rumble 效果和語音輸入和輸出。
 
 本主題簡要介紹 XInput 的功能，以及如何在應用程式中進行設定。 其中包括下列各項：
 
@@ -30,7 +30,7 @@ XInput 是可讓應用程式從適用于 Windows 的 Xbox Controller 接收輸�
 
 ## <a name="introduction-to-xinput"></a>XInput 簡介
 
-Xbox 主控台使用與 Windows 相容的遊戲控制器。 應用程式可以使用 XInput API 來與這些控制器進行通訊，這些控制器插入 Windows 電腦時 (最多可一次插入四個唯一控制器) 。
+Xbox 主控台使用與 Windows 相容的遊戲控制器。 當應用程式插入 Windows 電腦時，可以使用 XInput API 來與這些控制器通訊 (最多可一次插入四個唯一控制器) 。
 
 使用此 API，任何連線的 Xbox 控制器都可查詢其狀態，並可設定振動效果。 連接耳機的控制器也可以查詢是否有音效輸入和輸出裝置，可搭配耳機進行語音處理。
 
@@ -207,7 +207,7 @@ if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice, XAUDIO2_DEFAULT_
 若要將耳機麥克風和耳機與其適當的 [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) 介面產生關聯，您必須藉由呼叫 [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids)來取得捕獲和轉譯裝置的 DirectSoundGUIDs。
 
 > [!Note]  
-> 不建議使用舊版 [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) ，而且在 Windows Store 應用程式中無法使用。 本節中的資訊僅適用于 XInput (XInput 1.3) 的 DirectX SDK 版本。 Windows 8 版的 XInput (XInput 1.4) 只會使用 Windows 音訊會話 API (WASAPI) 透過 [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids)取得的裝置識別碼。
+> 不建議使用舊版[DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) ，也不能在 Windows Store 應用程式中使用。 本節中的資訊僅適用于 XInput (XInput 1.3) 的 DirectX SDK 版本。 Windows 8 版本的 XInput (XInput 1.4) 會以獨佔方式使用 Windows 音訊會話 API (WASAPI) 透過 [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids)取得的裝置識別碼。
 
 ```cpp
 XInputGetDSoundAudioDeviceGuids( i, &dsRenderGuid, &dsCaptureGuid );

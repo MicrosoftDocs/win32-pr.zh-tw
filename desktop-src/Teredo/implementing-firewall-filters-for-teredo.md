@@ -1,23 +1,23 @@
 ---
 title: 執行 Teredo 的防火牆篩選器
-description: Windows 可讓應用程式設定通訊端選項，以允許應用程式指示透過 Windows 篩選平台，接收傳送至主機防火牆的 Teredo 流量的明確意圖。
+description: Windows 可讓應用程式設定通訊端選項，讓應用程式能夠透過 Windows 篩選平台，來指示接收傳送至主機防火牆的 Teredo 流量的明確意圖。
 ms.assetid: 9e53e28c-e0e5-438d-b624-27d7bd65e4a3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f24d4351f10a3b37f2bf63c952e81883d97b781
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9fe854b210e6b07f0777a492d5c952f502e2f7c2b6c1c4b40497bad3a9e8248a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001804"
 ---
 # <a name="implementing-firewall-filters-for-teredo"></a>執行 Teredo 的防火牆篩選器
 
-Windows 可讓應用程式設定通訊端選項，以允許應用程式指示透過 Windows 篩選平台，接收傳送至主機防火牆的 Teredo 流量的明確意圖。 在 Windows 中，用來設定保護層級的通訊端選項，可讓應用程式定義其願意接收的流量類型。 更具體來說，在涉及 Teredo 流量的案例中，會指定 [IPV6 \_ 保護 \_ 等級](/windows/desktop/WinSock/ipv6-protection-level) 通訊端選項。 建議主機防火牆執行維護下列篩選器，以選擇性地允許應用程式的 Teredo 流量，同時封鎖沒有豁免的任何應用程式的流量。
+Windows 可讓應用程式設定通訊端選項，讓應用程式能夠透過 Windows 篩選平台，來指示接收傳送至主機防火牆的 Teredo 流量的明確意圖。 在 Windows 中，用來設定保護層級的通訊端選項，可讓應用程式定義其願意接收的流量類型。 更具體來說，在涉及 Teredo 流量的案例中，會指定 [IPV6 \_ 保護 \_ 等級](/windows/desktop/WinSock/ipv6-protection-level) 通訊端選項。 建議主機防火牆執行維護下列篩選器，以選擇性地允許應用程式的 Teredo 流量，同時封鎖沒有豁免的任何應用程式的流量。
 
 ## <a name="default-block-filter-for-edge-traversed-traffic"></a>Edge 已通過流量的預設區塊篩選
 
-如果 \_ \_ \_ \_ 流量符合指定的 **介面類別型** 通道和通道 **類型 Teredo** 條件，主機防火牆一律必須在 ALE 驗證接收接受 V6 篩選層內維護預設的區塊篩選。 執行時，此篩選準則會指出系統中有 edge 遍歷感知主機防火牆。 此篩選器會視為主機防火牆和 Windows 之間的 API 合約。 根據預設，此篩選準則會封鎖 edge 將流量流向任何應用程式。
+如果 \_ \_ \_ \_ 流量符合指定的 **介面類別型 Tunnel** 以及 **Tunnel 類型的 Teredo** 條件，則主機防火牆必須在 ALE 驗證接收接受 V6 篩選層中，一律維持預設的區塊篩選。 執行時，此篩選準則會指出系統中有 edge 遍歷感知主機防火牆。 此篩選器會視為主機防火牆和 Windows 之間的 API 合約。 根據預設，此篩選準則會封鎖 edge 將流量流向任何應用程式。
 
 ``` syntax
    filter.layerKey  = FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6;
@@ -54,7 +54,7 @@ Windows 可讓應用程式設定通訊端選項，以允許應用程式指示透
 > [!Note]  
 > 介面條件的「傳遞」、「抵達」和「下一個躍點」類別可用來控制跨介面的弱式主機模型和封包轉送。 上述範例會利用「傳遞」類別。 請參閱 WFP SDK 檔中 [每個篩選層級的可用篩選準則](/windows/desktop/FWP/filtering-conditions-available-at-each-filtering-layer) ，因為您的安全性設計必須考慮每個案例。
 
- 
+ 
 
 ## <a name="allow-filter-for-exempt-applications"></a>允許篩選豁免應用程式
 
@@ -100,7 +100,7 @@ Windows 可讓應用程式設定通訊端選項，以允許應用程式指示透
 
 ## <a name="dormancy-callout-filter"></a>活動標注篩選
 
-Windows 中的 Teredo 服務會實行活動模型。 在任何指定的時間，如果沒有任何應用程式在啟用邊緣遍歷的 UDP 或 TCP 通訊端上接聽，則服務會移至休眠狀態。 若要讓活動機制運作，主機防火牆必須針對在 TCP 的 ALE 驗證接聽 V6 篩選層內指定的每個豁免應用程式 \_ \_ \_ ，以及 \_ \_ \_ 針對以 UDP 為基礎的應用程式建立 ale 資源指派 V6 篩選層，以維護其注標篩選器。 下列範例示範 **TCP** 應用程式的活動標注。
+Windows 中的 Teredo 服務會執行活動模型。 在任何指定的時間，如果沒有任何應用程式在啟用邊緣遍歷的 UDP 或 TCP 通訊端上接聽，則服務會移至休眠狀態。 若要讓活動機制運作，主機防火牆必須針對在 TCP 的 ALE 驗證接聽 V6 篩選層內指定的每個豁免應用程式 \_ \_ \_ ，以及 \_ \_ \_ 針對以 UDP 為基礎的應用程式建立 ale 資源指派 V6 篩選層，以維護其注標篩選器。 下列範例示範 **TCP** 應用程式的活動標注。
 
 ``` syntax
    filter.layerKey = FWPM_LAYER_ALE_AUTH_LISTEN_V6;
@@ -135,6 +135,6 @@ Windows 中的 Teredo 服務會實行活動模型。 在任何指定的時間，
    filterConditions[1].conditionValue.uint32 = FWP_CONDITION_SOCKET_PROPERTY_FLAG_ALLOW_EDGE_TRAFFIC;
 ```
 
- 
+ 
 
- 
+ 

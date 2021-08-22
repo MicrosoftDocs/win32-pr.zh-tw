@@ -4,12 +4,12 @@ ms.assetid: 007c8181-089e-4e56-a31d-9d1942f90b07
 title: 薩米媒體來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9340b51815b130cb41061478358b2ab9dcf68f60
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c7567f7479b6f8d0d2439f89dbf3e6cf273fc7dcae31590ddf9b51a4d66a6940
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104027666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034816"
 ---
 # <a name="sami-media-source"></a>薩米媒體來源
 

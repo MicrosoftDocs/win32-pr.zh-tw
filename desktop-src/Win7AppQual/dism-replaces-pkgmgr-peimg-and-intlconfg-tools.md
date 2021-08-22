@@ -4,26 +4,26 @@ ms.assetid: bbfee966-121b-4b53-9e3e-08a747559da0
 title: 部署映像服務與管理 (DISM)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 234d16233927dca2d5dba296fd33fb64135f691e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0b6da1cc8ec3e77a6c63df8e44917cb5f3474ae8e7a5e34b58f49255fa34b5b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053176"
 ---
 # <a name="deployment-image-servicing-and-management-dism"></a>部署映像服務與管理 (DISM)
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
-**客戶** 端-WINDOWS Vista SP1 和更新版本的 \| windows 7  
-**伺服器** -windows SERVER 2008 RTM 和更新版本的 \| Windows server 2008 R2  
+**客戶** 端-Windows Vista SP1 和更新版本 \| Windows 7  
+**伺服器-Windows** server 2008 RTM 和更新版本 \| Windows server 2008 R2  
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-部署映射服務與管理 (DISM) 工具取代 Windows 7 中已淘汰的 pkgmgr、PEImg 和 IntlConfg 工具。 DISM 提供單一的集中式工具，以更有效率且標準化的方式來執行這三項工具的所有功能，消除這些工具目前使用者所經歷的許多挫折來源。
+部署映射服務與管理 (DISM) 工具會取代 Windows 7 中即將淘汰的 pkgmgr、PEImg 和 IntlConfg 工具。 DISM 提供單一的集中式工具，以更有效率且標準化的方式來執行這三項工具的所有功能，消除這些工具目前使用者所經歷的許多挫折來源。
 
-DISM 包含適用于 Windows Vista SP1 和更新版本的填充碼，以及 Windows Server 2008 RTM 和更新版本的填充碼，可將 pkgmgr 呼叫從 Windows 7 上執行的繼承應用程式重新導向至 DISM。 如果應用程式是在其中一個支援的作業系統上執行，填充碼會將呼叫路由傳送至 pkgmgr。 呼叫 PEImg 或 IntlConfg 的繼承應用程式不會有填充碼。
+DISM 包含 Windows Vista SP1 和更新版本的填充碼，以及適用于 Windows Server 2008 RTM 和更新版本的填充碼，可將在 Windows 7 上執行的繼承應用程式的 pkgmgr 呼叫重新導向至 DISM。 如果應用程式是在其中一個支援的作業系統上執行，填充碼會將呼叫路由傳送至 pkgmgr。 呼叫 PEImg 或 IntlConfg 的繼承應用程式不會有填充碼。
 
 ## <a name="usage"></a>使用方式
 

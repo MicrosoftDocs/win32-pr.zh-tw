@@ -1,5 +1,5 @@
 ---
-description: 指出已發生 (IPMI) 系統事件的智慧型平臺管理介面。 此錯誤會寫入 SMBIOS 系統事件記錄檔中， (SEL) 。 此類別僅適用于64位的 Windows 系統。
+description: 指出已發生 (IPMI) 系統事件的智慧型平臺管理介面。 此錯誤會寫入 SMBIOS 系統事件記錄檔中， (SEL) 。 此類別僅適用于64位 Windows 系統。
 ms.assetid: 1964f850-ac55-4639-9205-2eb0996dbaae
 title: MSMCAEvent_SystemEventError 類別
 ms.topic: reference
@@ -35,16 +35,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: f20f95fb5e1b1bf07b0f70c25d54122642b13569
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ff5d05cb1b9db7430f2f91a0f2a5ad3a97a56557c3fc5ae832eecc85d13128c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051246"
 ---
 # <a name="msmcaevent_systemeventerror-class"></a>MSMCAEvent \_ SystemEventError 類別
 
-**MSMCAEvent \_ SystemEventError** 類別指出已發生智慧型平臺管理介面 (IPMI) 系統事件。 此錯誤會寫入 SMBIOS 系統事件記錄檔中， (SEL) 。 此類別僅適用于64位的 Windows 系統。
+**MSMCAEvent \_ SystemEventError** 類別指出已發生智慧型平臺管理介面 (IPMI) 系統事件。 此錯誤會寫入 SMBIOS 系統事件記錄檔中， (SEL) 。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -369,7 +369,7 @@ class MSMCAEvent_SystemEventError : WMIEvent
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**
@@ -378,7 +378,7 @@ class MSMCAEvent_SystemEventError : WMIEvent
 存取類型：唯讀
 </dt> </dl>
 
-事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，當 Windows 事件記錄取用者提供者收到其中一個事件時，該訊息會用來插入事件記錄檔訊息。
+事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，而這些訊息是用來在接收到其中一個事件時，由 Windows 事件記錄取用者提供者插入事件記錄檔訊息。
 
 </dd> <dt>
 

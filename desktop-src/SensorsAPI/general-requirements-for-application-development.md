@@ -4,12 +4,12 @@ ms.assetid: a8d3228a-5f8b-4850-9e47-5dfb2335e655
 title: 應用程式開發 (感應器 API) 的一般需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31ec328f659bb51eddf93cc69beb2fe6236113ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 148057cd837e8eef26e73ff9cdef07ca01c70cb4a107e5f6e77f9ca43487407d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003776"
 ---
 # <a name="general-requirements-for-application-development-sensor-api"></a>應用程式開發 (感應器 API) 的一般需求
 
@@ -36,9 +36,9 @@ ms.locfileid: "104320035"
 
 ## <a name="supported-operating-systems"></a>支援的作業系統
 
-感應器 API 應用程式將會在 windows 7 Starter edition 以外的所有 Windows 7 版本上執行。
+除了 Windows 7 簡易版 edition 以外，感應器 API 應用程式將會在所有版本的 Windows 7 上執行。
 
-## <a name="windows-portable-devices-interfaces"></a>Windows 可攜式裝置介面
+## <a name="windows-portable-devices-interfaces"></a>Windows可攜式裝置介面
 
 感應器 API 會使用某些 Windows 可攜式裝置 (WPD) 物件來封裝屬性索引鍵和值。 下表描述這些物件的介面。
 

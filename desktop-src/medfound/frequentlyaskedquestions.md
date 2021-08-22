@@ -1,17 +1,17 @@
 ---
 description: 有關使用 Windows Media 音訊和影片編解碼器物件的常見問題。
 ms.assetid: 9c784dac-f32a-458c-9aa6-58012276b8bf
-title: Windows Media 編解碼器常見問題
+title: Windows媒體編解碼器常見問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdf773186bb8dbe92fb696c0a14ff4efc1513ed0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2472b4a372539f897db0563ab47dea7265ee2a3cd2e93d6bbb26eba59483864
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974457"
 ---
-# <a name="windows-media-codec-faq"></a>Windows Media 編解碼器常見問題
+# <a name="windows-media-codec-faq"></a>Windows媒體編解碼器常見問題
 
 本節提供一些常見問題的解答，並提供使用 Windows Media 音訊和影片編解碼器物件時所遇到常見問題的解決方案。 系統會回答下列問題。
 

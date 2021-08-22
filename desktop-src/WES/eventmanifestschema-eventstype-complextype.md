@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 36500aa037c8e33a48b4f9dd6e38e46eaac58da2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8d0cee50c0332d283c439448fd80c7abe319fec5065f39dcad4e053baf600bd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106991420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055986"
 ---
 # <a name="eventstype-complex-type"></a>EventsType 複雜類型
 
@@ -79,7 +79,7 @@ ms.locfileid: "106991420"
 
 ## <a name="child-elements"></a>子元素
 
-| 元素 | 類型 | Description |
+| 元素 | 類型 | 描述 |
 |---------|------|-------------|
 | message |      | 定義訊息字串。 |
 | messageTable | | 定義訊息字串的清單。 除非在下列情況下，您必須定義訊息資料表以明確地將資源編號指派給訊息字串，否則您不應該使用訊息資料表。 <ul><li>您要從郵件內文 ( 的) 檔案遷移至資訊清單，但仍將事件寫入應用程式和系統通道，以便舊版取用者繼續取用事件。 若要進行這項工作，資訊清單中所定義之訊息字串的資源識別碼必須與事件識別碼相同。 但是，訊息編譯器會自動將資源識別碼指派給訊息字串。 若要覆寫編譯器，請使用 message 資料表並將 value 屬性設為事件識別碼，並將 message 屬性設定為在資訊清單的當地語系化區段中，參考字串資料表中的字串。</li><li>如果您想要識別16個以上的提供者，則必須包含第十七個和提供者必須用來為其定義的訊息字串指派資源值的訊息資料表。 如果提供者參考了提供者1到16的訊息字串，則您不會在訊息資料表中包含這些訊息字串。</li></ul>|
@@ -87,12 +87,12 @@ ms.locfileid: "106991420"
 
 ## <a name="attributes"></a>屬性
 
-| 名稱    | 類型                                                             | Description                                                                            |
+| 名稱    | 類型                                                             | 描述                                                                            |
 |---------|------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | 字串資料表中當地語系化字串的參考。                               |
 | mid     | xs:string                                                        | 未使用。                                                                              |
 | 符號  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | 您希望訊息編譯器為此訊息字串建立的符號名稱。|
-| value   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | 要用來做為此訊息之訊息識別碼的數位。                          |
+| 值   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | 要用來做為此訊息之訊息識別碼的數位。                          |
 
 
 ## <a name="remarks"></a>備註
@@ -103,5 +103,5 @@ ms.locfileid: "106991420"
 
 | 需求 | 值 |
 |--------------------------|-------------------------------------------|
-| 最低支援的用戶端 | \[僅限 Windows Vista 桌面應用程式\]       |
-| 最低支援的伺服器 | 僅限 Windows Server 2008 \[ desktop 應用程式\] |
+| 最低支援的用戶端 | Windows\[僅限 Vista desktop 應用程式\]       |
+| 最低支援的伺服器 | Windows\[僅限 Server 2008 desktop 應用程式\] |

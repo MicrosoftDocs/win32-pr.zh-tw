@@ -4,12 +4,12 @@ ms.assetid: e893963a-6130-4f65-b925-6f3d292fc86d
 title: 填充碼資料庫類型
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 789265ea945ce068d2b0b74e3358582d5e4ccd78
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f5cc36cbb198570618fbd1a6524e4e7c6dc6812fb01bd74fe04cf1bd91b31f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075922"
 ---
 # <a name="shim-database-types"></a>填充碼資料庫類型
 
@@ -17,7 +17,7 @@ ms.locfileid: "103688515"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                | Description                                                                                   |
+| 常數/值                                                                                                                                                                                                                                                | 描述                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
 | <span id="SDB_DATABASE_MAIN"></span><span id="sdb_database_main"></span><dl> <dt>**SDB \_資料庫 \_ 主要**</dt> <dt>0x80000000</dt> </dl>                    | 主資料庫。 如果這個旗標不存在，則表示資料庫是自訂資料庫。<br/> |
 | <span id="SDB_DATABASE_SHIM"></span><span id="sdb_database_shim"></span><dl> <dt>**SDB \_資料庫 \_ 填充碼**</dt> <dt>0x00010000</dt> </dl>                    | 資料庫包含要填充的應用程式專案。<br/>                           |
@@ -42,8 +42,8 @@ ms.locfileid: "103688515"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

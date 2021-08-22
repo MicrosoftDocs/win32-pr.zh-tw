@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 255f54f78bb64659d1cd07eddb72eae55b0263c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dac8aba93cc841211cbdc02bc5e75773ab444eaa2763c4b0367fbd36ada37b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992588"
 ---
 # <a name="receiving-a-wmi-event"></a>接收 WMI 事件
 
@@ -156,7 +156,7 @@ WMI 目前使用 [**\_ \_ ArbitratorConfiguration**](--arbitratorconfiguration.m
 
 
 
-| Total/PerUser                                                                   | Quota                                                                       |
+| Total/PerUser                                                                   | 配額                                                                       |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | TemporarySubscriptionsTotal<br/> TemporarySubscriptionsPerUser<br/> | 10,000<br/> 1,000<br/>                                          |
 | PermanentSubscriptionsTotal<br/> PermanentSubscriptionsPerUser<br/> | 10,000<br/> 1,000<br/>                                          |

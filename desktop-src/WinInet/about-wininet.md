@@ -1,30 +1,30 @@
 ---
 title: 關於 WinINet
-description: Windows Internet (WinINet) 應用程式開發介面 (API) 可讓您的應用程式與 FTP 和 HTTP 通訊協定互動以存取網際網路資源。
+description: Windows internet (WinINet) 應用程式開發介面 (API) 可讓您的應用程式與 FTP 和 HTTP 通訊協定互動以存取網際網路資源。
 ms.assetid: 0a06f2af-957a-4dff-a8cc-187370181b5c
 keywords:
 - 關於 WinINet WinINet
 - WinINet WinINet，關於
 - WinINet WinINet，起始頁
-- Windows 網際網路 WinINet
+- Windows網際網路 WinINet
 - 網際網路，Windows 網際網路 WinINet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4513e5c3912a483fd4dbef96f452c5712717c8a5
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: be38840c33735a1e064e9bdc5e044651130d6e15a6fe22d004a2e8d7c29bf140
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103932968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051866"
 ---
 # <a name="about-wininet"></a>關於 WinINet
 
 > [!NOTE]
-> 針對應用程式容器，自 Windows 10，版本1709，HTTP/2 (請參閱 [RFC7540](https://tools.ietf.org/html/rfc7540)) 預設為開啟。
+> 針對應用程式容器，自 Windows 10，版本1709，HTTP/2 (請參閱[RFC7540](https://tools.ietf.org/html/rfc7540)) 預設為開啟。
 
-Windows Internet (WinINet) 應用程式開發介面 (API) 可讓您的應用程式與 FTP 和 HTTP 通訊協定互動以存取網際網路資源。 當標準演進時，這些函式會處理基礎通訊協定中的變更，讓它們能夠維持一致的行為。
+Windows internet (WinINet) 應用程式開發介面 (API) 可讓您的應用程式與 FTP 和 HTTP 通訊協定互動以存取網際網路資源。 當標準演進時，這些函式會處理基礎通訊協定中的變更，讓它們能夠維持一致的行為。
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：** 也啟用了與 Gopher 互動的應用程式。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：** 也啟用了與 Gopher 互動的應用程式。
 
 如需詳細資訊，請參閱
 
@@ -53,4 +53,4 @@ Windows Internet (WinINet) 應用程式開發介面 (API) 可讓您的應用程�
 > [!NOTE]  
 >  (這些資源可能無法在某些語言及國家/地區使用。 ) 
 
-**WINDOWS XP 和 Windows Server 2003 R2 和更早版本：** 此外也支援 Gopher 通訊協定。 請參閱 [RFC 1436](https://www.ietf.org/rfc/rfc1436.txt)（ *網際網路 Gopher 通訊協定*）。
+**Windows XP 和 Windows Server 2003 R2 和更早版本：** 此外也支援 Gopher 通訊協定。 請參閱 [RFC 1436](https://www.ietf.org/rfc/rfc1436.txt)（ *網際網路 Gopher 通訊協定*）。

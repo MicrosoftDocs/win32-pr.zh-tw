@@ -4,12 +4,12 @@ ms.assetid: cd439a29-4908-47af-b3f7-3794bd65db7c
 title: 'Windows Shell (語法引數) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cb7607718d46677284ac09eca005bb95be3525e
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 21bd015f5cde28a4050b397b92680ba05c56593c886133532469821670d06e52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968727"
 ---
 # <a name="syntax-argument-the-windows-shell"></a>Windows Shell (語法引數) 
 

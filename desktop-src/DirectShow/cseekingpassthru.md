@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 273f9b6686c4455452924dc43628801fae5d518a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ffb8436623cb5ba5f415ceb8bbdafe00e22487da2bbfaba5d02ee4c8f189c10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953767"
 ---
 # <a name="cseekingpassthru-class"></a>CSeekingPassThru 類別
 
@@ -35,12 +35,12 @@ ms.locfileid: "106990030"
 
 
 
-| 公用方法                                                  | Description                        |
+| 公用方法                                                  | 描述                        |
 |-----------------------------------------------------------------|------------------------------------|
 | [**CSeekingPassThru**](cseekingpassthru-cseekingpassthru.md)   | 函式方法。                |
 | [**~ CSeekingPassThru**](cseekingpassthru--cseekingpassthru.md) | 函式方法。                 |
 | [**CreateInstance**](cseekingpassthru-createinstance.md)       | 建立物件的實例。 |
-| ISeekingPassThru 方法                                        | Description                        |
+| ISeekingPassThru 方法                                        | 描述                        |
 | [**Init**](cseekingpassthru-init.md)                           | 初始化物件。            |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 02365401-8648-4be1-a447-fabd2cb77355
 title: 編碼器介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5367a25f1a2a4caf486711f7569312a436f8f474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6169dcf55ffafe0bf4c006b45c173ecc7486555fb001456112f8f333a8ccf2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965119"
 ---
 # <a name="encoder-interfaces"></a>編碼器介面
 
@@ -63,7 +63,7 @@ Frame-Level 編碼器介面
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

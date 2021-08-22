@@ -4,12 +4,12 @@ ms.assetid: f0df02b0-bef6-461f-a2cf-d4ac58bd5f0e
 title: 辨識器列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9086c7175f13a24bc4078d61e01143cc0065e658
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 879ebe2b0465a20f8a68468bdacda6e97f02d031980ef6487e5c6b4c3f8f7350
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119031646"
 ---
 # <a name="recognizer-enumerations"></a>辨識器列舉
 

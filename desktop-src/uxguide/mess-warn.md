@@ -4,17 +4,17 @@ description: 警告訊息是強制回應對話方塊、就地訊息、通知或�
 ms.assetid: 4a2c3be9-9dc6-4d62-bd3d-72a2e5b621f4
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 42f7c669a68790ec290f931165b4aa937b5008d5
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: e11beeb81b215182de22132dc37b04fac13a0d7033ebe2ec71f20f84415b244d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119029933"
 ---
 # <a name="warning-messages"></a>警告訊息
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 警告訊息是強制回應對話方塊、就地訊息、通知或氣球，會警示使用者可能會在未來發生問題的狀況。
 
@@ -49,7 +49,7 @@ ms.locfileid: "111524502"
 
 ### <a name="avoid-overwarning"></a>避免 overwarning
 
-我們在 Microsoft Windows 程式中 overwarn。 一般的 Windows 程式在所有地方都有警告，有一點重要性的警告。 在某些程式中，幾乎每個問題都會顯示為警告。 Overwarning 讓程式感覺像是有害的活動，而且會使真正的重大問題。
+我們在 Microsoft Windows 計畫中 overwarn。 一般的 Windows 程式在所有地方都有警告，有一點重要性的警告。 在某些程式中，幾乎每個問題都會顯示為警告。 Overwarning 讓程式感覺像是有害的活動，而且會使真正的重大問題。
 
 **不正確：**
 
@@ -109,9 +109,9 @@ Overwarning 讓您的程式感覺危險，並看起來像是由律師所設計�
 
 根據強調和措辭，某些問題可能會顯示為錯誤、警告或資訊。 例如，假設網頁無法根據目前的 Windows Internet Explorer 設定載入未簽署的 ActiveX 控制項：
 
--   **錯誤。** 「此頁面無法載入未簽署的 ActiveX 控制項。」  (片語做為現有的問題。 ) 
--   **警告。** 「此頁面可能無法如預期般運作，因為 Windows Internet Explorer 未設定為載入未簽署的 ActiveX 控制項。」 或「允許此頁面安裝未簽署的 ActiveX 控制項？ 從不受信任的來源執行此動作可能會危害您的電腦。」  (這兩個片語為可能會導致未來問題的狀況。 ) 
--   **資訊。** 「您已設定 Windows Internet Explorer 封鎖未簽署的 ActiveX 控制項。」  (片語作為事實的陳述。 ) 
+-   **錯誤。** 「此頁面無法載入未簽署的 ActiveX 控制項」。  (片語做為現有的問題。 ) 
+-   **警告。** 「此頁面可能無法如預期般運作，因為 Windows Internet Explorer 未設定為載入未簽署的 ActiveX 控制項」。 或「允許此頁面安裝不帶正負號的 ActiveX 控制項？ 從不受信任的來源執行此動作可能會危害您的電腦。」  (這兩個片語為可能會導致未來問題的狀況。 ) 
+-   **資訊。** 「您已設定 Windows Internet Explorer 封鎖未簽署的 ActiveX 控制項」。  (片語作為事實的陳述。 ) 
 
 **若要判斷適當的訊息類型，請將焦點放在使用者需要知道或採取行動之問題的最重要層面。** 一般來說，如果問題封鎖使用者繼續進行，您應該將它顯示為錯誤;如果使用者可以繼續，請將它顯示為警告。 根據焦點製作 [主要指示](text-ui.md) 或其他對應的文字，然後選擇符合文字的圖示 ([標準](vis-std-icons.md) 或) 。 主要的指令文字和圖示應該一律相符。
 
@@ -234,7 +234,7 @@ Overwarning 讓您的程式感覺危險，並看起來像是由律師所設計�
  
 
 -   **針對強制回應對話方塊：**
-    -   **在適當時使用工作對話方塊，以達成一致的外觀和配置。** 工作對話方塊需要 Windows Vista 或更新版本，因此不適用於舊版 Windows。
+    -   **在適當時使用工作對話方塊，以達成一致的外觀和配置。** 工作對話方塊需要 Windows Vista 或更新版本，因此不適用於舊版的 Windows。
     -   **每個條件只顯示一則警告訊息。** 例如，顯示單一警告以完整說明條件，而不是每個訊息一次描述一個詳細資料。 針對單一條件顯示一系列的警告對話方塊會造成混淆和討厭。
     -   **請勿針對每個條件顯示一次以上的警告。** 常數警告很快就會變得無效和討厭。 使用者通常會更專注于消除警告而非解決問題。 如果您必須針對單一條件重複發出警告，請使用 [漸進式擴大](mess-notif.md)。
 -   **不要伴隨有音效效果或嗶聲的警告。** 這麼做是 jarring 且不必要的。

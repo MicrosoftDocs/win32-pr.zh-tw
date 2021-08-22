@@ -22,12 +22,12 @@ keywords:
 - 效能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9ff1eb75227454e3e9df6035798a304096a958
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 04112e0233db056c5ff3e81b68256229aa45f60cfdb1258e565e10aea1cd43ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106995571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052356"
 ---
 # <a name="about-the-text-and-textrange-control-patterns"></a>關於 Text 和 TextRange 控制項模式
 
@@ -36,7 +36,7 @@ ms.locfileid: "106995571"
 > [!Note]  
 > [文字](uiauto-implementingtextandtextrange.md)控制項模式不提供插入或修改文字的方法。 不過，根據控制項，這可以使用 Microsoft 消費者介面自動化 [Value](uiauto-implementingvalue.md) 控制項模式或透過直接鍵盤輸入來完成。 另外還有一種 [**macos textedit**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) 模式，可支援以程式設計方式變更為文字。
 
- 
+ 
 
 本主題所述的功能對輔助技術廠商及其使用者來說非常重要。 輔助技術可以使用消費者介面自動化來收集使用者的完整文字格式資訊，並藉由 [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) (字元、單字、線條或段落) 來提供以程式設計方式流覽和選取文字。
 
@@ -79,7 +79,7 @@ TSF 是針對需要將輸入插入內容感知案例的應用程式所設計。 
 > [!Note]  
 > 提供者可以跳到下一個最大的單位（依下列順序支援），以略過對特定 [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) 的支援： **TextUnit \_ Character**、 **TextUnit \_ Format**、 **TextUnit \_ Word**、 **TextUnit \_ Line**、 **TextUnit \_ 段落**、 **TextUnit \_ 頁面** 和 **TextUnit \_ 檔**。
 
- 
+ 
 
 ## <a name="client-interfaces"></a>用戶端介面
 
@@ -132,6 +132,6 @@ TSF 是針對需要將輸入插入內容感知案例的應用程式所設計。 
 [Text Services Framework (TSF)](/windows/desktop/TSF/text-services-framework)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

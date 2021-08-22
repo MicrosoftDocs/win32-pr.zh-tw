@@ -4,12 +4,12 @@ ms.assetid: e145e862-b987-4962-a94b-f8370bbcd5ac
 title: 'EVRConfig_AllowDropToBob 屬性 (Uuid. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3940edd0945999f7300060d963806e3572a5d0fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0dea0dc405f746ad6bbcd37e5bf5428e1f50b5e32049e10c71a196b461f03f62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974477"
 ---
 # <a name="evrconfig_allowdroptobob-attribute"></a>EVRConfig \_ AllowDropToBob 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "104386028"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Uuid。h</dt> </dl> |
 
 

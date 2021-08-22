@@ -4,12 +4,12 @@ ms.assetid: 9beb1306-1378-499c-b9e1-c768a7b4c8bc
 title: 轉換屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e68240f5341319db2b06ad6160cf8153f107eca9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80d5b7a5f4ff6174a48058c81fe1cdea382b18c058985da803efa4110eb12e29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034558"
 ---
 # <a name="transform-attributes"></a>轉換屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 876a2150-40a1-42a3-bc9a-05dec94fccd3
 title: IUpdateInstaller 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77df235c49e7b6f27b0f93ec3b0c4def12135065
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49c6076e395e98ef21cd54fbf45ffdc5e57bc29fa8ceffc78c16d9a9a0d2bc4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049146"
 ---
 # <a name="iupdateinstaller-properties"></a>IUpdateInstaller 屬性
 

@@ -11,12 +11,12 @@ api_name:
 - VirtualDesktopManager
 api_type:
 - COM
-ms.openlocfilehash: 9f08a4c6b565a733593ba8b9972ce3de36907ce6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52becd94c0426c19d6a53658e2eef43c8d1f2396f1974cf5107f695c4e1734f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967787"
 ---
 # <a name="virtualdesktopmanager-class"></a>VirtualDesktopManager 類別
 
@@ -32,8 +32,8 @@ ms.locfileid: "103944176"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Shobjidl.h。h</dt> </dl> |
 
 

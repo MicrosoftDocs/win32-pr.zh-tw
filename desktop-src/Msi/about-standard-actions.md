@@ -4,12 +4,12 @@ ms.assetid: d2fd77e0-c949-4405-9fe4-41d44a76e6fb
 title: 關於標準動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6557f779876d62ce40b4efaea7fe2f76ac2fa4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc12854ad21039fac2a24044d9e63c727eaebdc4219237868d99e50b32597400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013276"
 ---
 # <a name="about-standard-actions"></a>關於標準動作
 

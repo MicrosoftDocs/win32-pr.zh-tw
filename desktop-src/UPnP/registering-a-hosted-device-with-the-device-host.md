@@ -4,12 +4,12 @@ description: 註冊託管裝置表示提供裝置描述及其裝置控制物件�
 ms.assetid: 1d85b412-9b1b-415d-8664-8d96a6644793
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4a607af4f6ada359a9ee32e98e416d8271fd502
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 486d01364b684e2aa6792b8a6c0b91ccc87a26670057c67192fe587ac049c388
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999558"
 ---
 # <a name="registering-a-hosted-device-with-the-device-host"></a>向裝置主機註冊託管裝置
 
@@ -22,7 +22,7 @@ ms.locfileid: "104183427"
 
 無論使用哪種方法，裝置主機都會在註冊後立即發佈並公告裝置。 這兩種方法之間的差異與載入裝置程式碼的方式不同。 當應用程式傳入裝置控制物件的指標時，裝置程式碼會在註冊時載入並執行。 當應用程式傳遞 ProgID 時，只會在叫用動作、查詢屬性或事件訂閱要求時載入裝置程式碼。 第二種方法會稍微提高效率。 不過，它不適用於必須在任何控制項或事件訂用帳戶要求抵達之前執行的裝置，因為使用此方法時，只會在需要時才建立裝置控制物件。 第二種方法也可能會在收到裝置類型的第一個要求時產生效能問題。
 
-如果您想要確保在電腦啟動時，網路上的裝置主機會自動宣告裝置，請叫用 [**IUPnPRegistrar：： >registerdevice.js**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-registerdevice)。 **>registerdevice.js** 可確保只有在收到控制項或事件訂閱要求時，才會載入您的裝置程式碼。
+如果您想要確保在電腦啟動時，網路上的裝置主機會自動宣告裝置，請叫用 [**IUPnPRegistrar：： >registerdevice.js**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-registerdevice)。 **>Registerdevice.js** 可確保只有在收到控制項或事件訂閱要求時，才會載入您的裝置程式碼。
 
 如果您的裝置是暫時性或橋接，請叫用 [**IUPnPRegistrar：： RegisterRunningDevice**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice)，當電腦重新開機時，不會自動重新通告裝置。
 
@@ -52,9 +52,9 @@ ms.locfileid: "104183427"
 -   [**IUPnPRegistrar::UnregisterDevice**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpregistrar-unregisterdevice)
 -   [**IUPnPReregistrar**](/windows/desktop/api/Upnphost/nn-upnphost-iupnpreregistrar)
 
- 
+ 
 
- 
+ 
 
 
 

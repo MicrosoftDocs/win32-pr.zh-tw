@@ -11,16 +11,16 @@ keywords:
 - 註冊、動態搜尋處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6476109302a176822137747353b2762b0caea8a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7be891247c36687b0305e7e9c60711a233fb9b1d4f7f8554d0103be4cc0dc5a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975772"
 ---
 # <a name="creating-search-handlers"></a>建立搜尋處理常式
 
-\[只有在 Windows XP 或更早版本才支援這項功能。 請改用 Windows Search。\]
+\[只有 Windows XP 或更早版本才支援這項功能。 請改用 Windows Search。\]
 
 Shell 支援數個搜尋公用程式，可讓使用者找出命名空間物件，例如檔案或印表機。 您可以建立自訂搜尋引擎，並藉由執行和註冊 *搜尋處理常式*，讓使用者可以使用它。
 
@@ -34,27 +34,27 @@ Shell 支援數個搜尋公用程式，可讓使用者找出命名空間物件�
 
 ## <a name="how-search-handlers-work"></a>搜尋處理常式的運作方式
 
-使用者有兩種方式可以選取搜尋引擎。 第一種方式是從 [開始] 功能表。 在 Windows 2000 之前的系統上，選取 [**開始**] 功能表上的 [**尋找**] 命令會顯示可用搜尋引擎的子功能表。 在 Windows 2000 和更新版本中， **St** 的功能表的 [ **尋找** ] 命令會重新命名為 [搜尋]。 下圖顯示 Windows XP 系統上的 [ **搜尋** ] 按鈕。
+使用者有兩種方式可以選取搜尋引擎。 第一種方式是從 [開始] 功能表。 在 Windows 2000 之前的系統上，選取 [**開始**] 功能表上的 [**尋找**] 命令會顯示可用搜尋引擎的子功能表。 使用 Windows 2000 和更新版本時， **St** 的功能表的 [**尋找**] 命令會重新命名為 [搜尋]。 下圖顯示 Windows XP 系統上的 [**搜尋**] 按鈕。
 
 ![[開始] 功能表的 [搜尋] 子功能表](images/searchhandler1.jpg)
 
-使用者也可以從 Windows 檔案總管啟動搜尋。 在 Windows 2000 之前的系統上，他們會按一下 [**工具**] 功能表上的 [**尋找**] 命令，顯示與 [**開始**] 功能表相關聯的功能表基本上是相同的功能表。 不過，Windows 2000 的 Windows 檔案總管會以非常不同的方式處理搜尋引擎。 工具列上現在有一個 [**搜尋**] 按鈕，而不是以 **工具** 功能表的子功能表來處理搜尋引擎。 按一下這個按鈕會開啟 Explorer 列的 [ **搜尋** ] 窗格。 下圖顯示 [ **搜尋檔案和資料夾** ] 搜尋窗格。
+使用者也可以從 Windows 檔案總管啟動搜尋。 在 Windows 2000 之前的系統上，他們按一下 [**工具**] 功能表上的 [**尋找**] 命令，以顯示與 [**開始**] 功能表相關聯的功能表，基本上是相同的功能表。 不過，Windows 2000 的 Windows 檔案總管會以非常不同的方式處理搜尋引擎。 工具列上現在有一個 [**搜尋**] 按鈕，而不是以 **工具** 功能表的子功能表來處理搜尋引擎。 按一下這個按鈕會開啟 Explorer 列的 [ **搜尋** ] 窗格。 下圖顯示 [ **搜尋檔案和資料夾** ] 搜尋窗格。
 
 ![windows explorer bar 的 [搜尋] 窗格](images/searchhandler2.jpg)
 
-Windows 2000 和舊版系統如何管理影響執行和註冊的搜尋處理常式有一些差異。
+Windows 2000 和舊版系統如何管理影響執行和註冊的搜尋處理常式，有幾項差異。
 
 
 
-| Windows 之前的2000                                                                                                                                                                                                       | Windows 2000 和更新版本                                                                                                                                                                                                                                                                                            |
+| 預先 Windows 2000                                                                                                                                                                                                       | Windows 2000 和更新版本                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 搜尋處理常式會實作為 [快捷方式功能表處理常式](/windows/desktop/shell/context-menu-handlers)的類型。                                                                                                                     | 搜尋處理常式可以實作為快捷方式功能表處理常式，或是動態 HTML (DHTML) 檔。                                                                                                                                                                                                               |
 | 搜尋處理常式可以是靜態或動態。 只有當使用者選取靜態處理常式時，才會載入靜態處理常式。 動態處理常式是由 Shell 在啟動時載入，而且在 Shell 結束之前不會終止。 | 實作為快捷方式功能表處理常式的處理常式可以是靜態或動態。 實作為 DHTML 檔案的處理常式必須是靜態的。                                                                                                                                                                           |
-| 搜尋處理常式會顯示在 [**開始**] 功能表的 [**尋找**] 子功能表和 [Windows 檔案總管  **工具**] 功能表的 [**尋找**] 子功能表中。                                                                                  | 搜尋處理常式只會出現在 [**開始**] 功能表的 [**搜尋**] 子功能表上。 若要透過 Windows 檔案總管的功能表列提供自訂的搜尋窗格，您必須將它實作為 [帶區物件](/previous-versions/windows/desktop/legacy/cc144099(v=vs.85))。 然後，它會列在 [Windows 檔案總管  **View** ] 功能表的 [ **Explorer Bar** ] 子功能表上。 |
+| 搜尋處理常式會顯示在 [**開始**] 功能表的 [**尋找**] 子功能表和 [Windows 檔案總管 **工具**] 功能表的 [**尋找**] 子功能表中。                                                                                  | 搜尋處理常式只會出現在 [**開始**] 功能表的 [**搜尋**] 子功能表上。 若要透過 Windows 檔案總管的功能表列提供自訂的搜尋窗格，您必須將它實作為[帶區物件](/previous-versions/windows/desktop/legacy/cc144099(v=vs.85))。 然後，它會列在 [Windows 檔案總管 **View** ] 功能表的 [ **Explorer Bar** ] 子功能表上。 |
 
 
 
- 
+ 
 
 ## <a name="registering-search-handlers"></a>註冊搜尋處理常式
 
@@ -62,12 +62,12 @@ Windows 2000 和舊版系統如何管理影響執行和註冊的搜尋處理常�
 
 ```
 HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Windows
-            CurrentVersion
-               Explorer
-                  FindExtensions
+   Software
+      Microsoft
+         Windows
+            CurrentVersion
+               Explorer
+                  FindExtensions
 ```
 
 從此時開始，註冊程式取決於處理常式是靜態或動態。 如需如何註冊 Shell 擴充處理常式的一般討論，請參閱 [建立 Shell 擴充處理](/windows/desktop/shell/handlers)程式。
@@ -78,30 +78,30 @@ HKEY_LOCAL_MACHINE
 
 ### <a name="shortcut-menu-based-search-handlers"></a>以快捷方式功能表為基礎的搜尋處理常式
 
-如果您的處理常式是實作為 [快捷方式功能表處理常式](/windows/desktop/shell/context-menu-handlers)，請將處理常式名稱子機碼的預設值設定為物件的類別識別碼， (CLSID) GUID。 在處理常式的名稱子機碼下，建立名為 **0** (零) 的子機碼，   並將其預設值設定為要顯示在 [**搜尋**] 或 [**尋找**] 子功能表中的字串。 您可以用一般方式啟用鍵盤快速鍵，方法是在快速鍵字元前面加上連字號 (&) 。 您可以在 [ **0** ] 子機碼底下建立 **DefaultIcon** 子機碼，以在功能表文字右邊顯示選擇性的小圖示。 將其預設值設定為字串，其中包含包含圖示之檔案的路徑，後面接著逗號，再接著圖示的以零為基底的索引。
+如果您的處理常式是實作為 [快捷方式功能表處理常式](/windows/desktop/shell/context-menu-handlers)，請將處理常式名稱子機碼的預設值設定為物件的類別識別碼， (CLSID) GUID。 在處理常式的名稱子機碼下，建立名為 **0** (零) 的子機碼，並將其預設值設定為要顯示在 [ **搜尋** ] 或 [ **尋找** ] 子功能表中的字串。 您可以用一般方式啟用鍵盤快速鍵，方法是在快速鍵字元前面加上連字號 (&) 。 您可以在 [ **0** ] 子機碼底下建立 **DefaultIcon** 子機碼，以在功能表文字右邊顯示選擇性的小圖示。 將其預設值設定為字串，其中包含包含圖示之檔案的路徑，後面接著逗號，再接著圖示的以零為基底的索引。
 
 下列範例會註冊 **MySearchEngine** 搜尋處理常式。 功能表文字是「我的搜尋引擎」，其中 M 指定為快速鍵。 此圖示為 C： \\ MyDir \\MySearch.dll，索引為2。
 
 ```
 HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Windows
-            CurrentVersion
-               Explorer
-                  FindExtensions
-                     Static
-                        MySearchEngine
-                           (Default) = {MySearchEngine CLSID GUID}
-                           0
-                              (Default) = &My Search Engine
-                              DefaultIcon
-                                 (Default) = c:\MyDir\MySearch.dll,2
+   Software
+      Microsoft
+         Windows
+            CurrentVersion
+               Explorer
+                  FindExtensions
+                     Static
+                        MySearchEngine
+                           (Default) = {MySearchEngine CLSID GUID}
+                           0
+                              (Default) = &My Search Engine
+                              DefaultIcon
+                                 (Default) = c:\MyDir\MySearch.dll,2
 ```
 
 ### <a name="dhtml-based-search-handlers"></a>以 DHTML 為基礎的搜尋處理常式
 
-使用 Windows 2000，您也可以將搜尋處理常式實作為 DHTML 檔案。 其名稱會列在 [**開始**] 功能表的 [**搜尋**] 子功能表中。 當使用者選取該檔案時，它會啟動 Windows 檔案總管，並開啟搜尋檔的瀏覽器列。 您也可以指定要顯示在 Explorer 列右邊的 DHTML 檔案。 沒有任何方法可以從預設的 [搜尋] 窗格啟動不同的處理常式。 您可以直接從 Windows 檔案總管啟動搜尋引擎，但必須將它們實作為 [頻外物件](/previous-versions/windows/desktop/legacy/cc144099(v=vs.85))。
+使用 Windows 2000 時，您也可以將搜尋處理常式實作為 DHTML 檔案。 其名稱會列在 [**開始**] 功能表的 [**搜尋**] 子功能表中。 當使用者選取該檔案時，它會啟動 Windows 檔案總管，並開啟搜尋檔的瀏覽器列。 您也可以指定要顯示在 Explorer 列右邊的 DHTML 檔案。 沒有任何方法可以從預設的 [搜尋] 窗格啟動不同的處理常式。 您可以直接從 Windows 檔案總管啟動搜尋引擎，但必須將它們實作為[頻外物件](/previous-versions/windows/desktop/legacy/cc144099(v=vs.85))。
 
 若要註冊以 DHTML 為基礎的搜尋處理常式，請將處理常式的名稱子機碼設定為 CLSID \_ ShellSearchExt (目前為 {169A0691-8DF9-11d1-A1C4-00C04FD75D13} ) 的字串格式，然後建立下列子機碼。
 
@@ -115,25 +115,25 @@ HKEY_LOCAL_MACHINE
 
 ```
 HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Windows
-            CurrentVersion
-               Explorer
-                  FindExtensions
-                     Static
-                        MySearchEngine
-                           (Default) = {169A0691-8DF9-11d1-A1C4-00C04FD75D13}
-                           0
-                              (Default) = &My Search Engine
-                              DefaultIcon
-                                 (Default) = c:\MyDir\MySearch.dll,2
-                                 SearchGUID
-                                    (Default) = {My Search GUID}
-                                    Url
-                                       (Default) = C:\MyDir\MySearch.htm
-                                    UrlNavNew
-                                       (Default) = C:\MyDir\MySearchPage.htm
+   Software
+      Microsoft
+         Windows
+            CurrentVersion
+               Explorer
+                  FindExtensions
+                     Static
+                        MySearchEngine
+                           (Default) = {169A0691-8DF9-11d1-A1C4-00C04FD75D13}
+                           0
+                              (Default) = &My Search Engine
+                              DefaultIcon
+                                 (Default) = c:\MyDir\MySearch.dll,2
+                                 SearchGUID
+                                    (Default) = {My Search GUID}
+                                    Url
+                                       (Default) = C:\MyDir\MySearch.htm
+                                    UrlNavNew
+                                       (Default) = C:\MyDir\MySearchPage.htm
 ```
 
 ### <a name="registering-a-dynamic-search-handler"></a>註冊動態搜尋處理常式
@@ -144,28 +144,28 @@ HKEY_LOCAL_MACHINE
 
 ```
 HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Windows
-            CurrentVersion
-               Explorer
-                  FindExtensions
+   Software
+      Microsoft
+         Windows
+            CurrentVersion
+               Explorer
+                  FindExtensions
 ```
 
 針對處理常式建立名為 **FindExtensions** 的子機碼，並將其預設值設定為處理常式的 CLSID GUID。 動態搜尋處理常式不支援功能表圖示。 下列範例會將 MySearchEngine 註冊為動態搜尋處理常式。
 
 ```
 HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Windows
-            CurrentVersion
-               Explorer
-                  FindExtensions
-                     MySearchEngine
-                        (Default) = {MySearchEngine CLSID GUID}
-                        0
-                           (Default) = &My Search Engine
+   Software
+      Microsoft
+         Windows
+            CurrentVersion
+               Explorer
+                  FindExtensions
+                     MySearchEngine
+                        (Default) = {MySearchEngine CLSID GUID}
+                        0
+                           (Default) = &My Search Engine
 ```
 
 與靜態搜尋處理常式不同的是，您不會在登錄中指定功能表文字。 載入處理常式時，Shell 會呼叫處理常式的 [**ICoNtextMenu：： QueryCoNtextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) 方法，將專案加入至 [ **尋找** ] 或 [ **搜尋** ] 子功能表。
@@ -185,6 +185,6 @@ HKEY_LOCAL_MACHINE
 
 DHTML 搜尋處理常式會實作為一般 DHTML 檔案。 它們可以包含 Windows Internet Explorer 所支援的任何 HTML、DHTML 或腳本技術。
 
- 
+ 
 
- 
+ 

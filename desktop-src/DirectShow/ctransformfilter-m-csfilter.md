@@ -1,5 +1,5 @@
 ---
-description: 保護篩選狀態的重要區段。 如需詳細資訊，請參閱篩選開發人員的資料流程。
+description: 保護篩選狀態的重要區段。 如需詳細資訊，請參閱篩選開發人員的資料 Flow。
 ms.assetid: 75b9c8b0-e911-41fd-8d07-b854dbe25551
 title: 'CTransformFilter：： m_csFilter 成員 (Transfrm .h) '
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 991b07aa654ce42a651f4fa169e757d8380fdc8e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 58fc725c29ef322cc310aae2735ffb8fcd7298d29214a51037e49682028caa81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953577"
 ---
 # <a name="ctransformfilterm_csfilter-member"></a>CTransformFilter：： m \_ csFilter 成員
 
-保護篩選狀態的重要區段。 如需詳細資訊，請參閱 [篩選開發人員的](data-flow-for-filter-developers.md)資料流程。
+保護篩選狀態的重要區段。 如需詳細資訊，請參閱[篩選開發人員的資料 Flow](data-flow-for-filter-developers.md)。
 
 ## <a name="syntax"></a>Syntax
 

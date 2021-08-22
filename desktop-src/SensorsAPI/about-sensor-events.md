@@ -4,12 +4,12 @@ ms.assetid: 2400619c-ee9c-4662-ae57-6d4bc317e730
 title: 關於感應器 API 事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e941dca86d5b7ec3aa9922220c1232b10429f60a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4af21bfed2a36c0c79fa46811221afbf2fcf87a4a5f15cf21adfbeaac8601f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003889"
 ---
 # <a name="about-sensor-api-events"></a>關於感應器 API 事件
 

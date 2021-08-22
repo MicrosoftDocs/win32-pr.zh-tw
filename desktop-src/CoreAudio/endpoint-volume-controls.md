@@ -4,12 +4,12 @@ ms.assetid: 667c3659-69ae-469d-9ae0-e32a189cbc71
 title: 端點磁片區控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57be477a86a1de4584a7590d20d4e0199e782f10
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: a08ce6bc406d928f10f705b5a76e4f6eb47d98cce659d782de3e2c7e7f07c5a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077602"
 ---
 # <a name="endpoint-volume-controls"></a>端點磁片區控制項
 

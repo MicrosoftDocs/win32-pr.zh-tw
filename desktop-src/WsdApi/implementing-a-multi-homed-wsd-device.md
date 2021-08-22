@@ -4,12 +4,12 @@ ms.assetid: d30ed536-d477-4f50-8c80-aacc35f948b9
 title: 執行多宿主 WSD 裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac3537b96a577db47419d55cb5c6f732f8f7906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24ac83b0fe3b951e02e77ef9efc6241ce5a7e1780106b1e85e4f00b987bbbe05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991738"
 ---
 # <a name="implementing-a-multi-homed-wsd-device"></a>執行多宿主 WSD 裝置
 
@@ -29,7 +29,7 @@ As mentioned in [Hello](hello-message.md) and [XAddrs](xaddr-validation-rules.md
 
 有一個替代方法，其中會傳送單一 [GetResponse](getresponse--metadata-exchange--message.md) 訊息以回應服務的所有位址。 這種方法的缺點是可能會洩漏私用資訊，例如可間接存取網路的拓撲。
 
-在 Windows Vista 中，WSDAPI 提供的中繼資料只包含對接收到中繼資料要求的介面有效的位址。
+在 Windows Vista 中，WSDAPI 所提供的中繼資料只包含對接收到中繼資料要求的介面有效的位址。
 
  
 

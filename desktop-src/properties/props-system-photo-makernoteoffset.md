@@ -4,18 +4,18 @@ ms.assetid: 473ee0c7-af11-4492-ac54-4723a103a389
 title: MakerNoteOffset
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af72d5058a153598c54d02580ef1dae0f84b921c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0658dad11198d1d9897b69cffd67c575d26d0b5c9e8a0d3431ceb5f01bf7690c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033336"
 ---
 # <a name="systemphotomakernoteoffset"></a>MakerNoteOffset
 
 [MakerNote](./props-system-photo-makernote.md)中所指定 maker 附注的位移。 如需詳細資訊，請參閱交換影像檔案 (EXIF) 2.2 規格。 這個屬性不會顯示在 Shell 中，但可透過程式設計的方式提供給應用程式。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

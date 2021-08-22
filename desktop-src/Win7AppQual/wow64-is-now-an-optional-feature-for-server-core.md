@@ -4,18 +4,18 @@ ms.assetid: 9a918cd3-60a0-4231-975a-bee12de5c812
 title: Server Core 中的 WoW64 狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fad947dac85707d3c9c89a2cffea38c4a4850a6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6f836d361e172527bf23c7e51ea0071790d3857d6611d8a12ff62185226d3f1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994467"
 ---
 # <a name="wow64-is-now-an-optional-feature-for-server-core"></a>WoW64 現在是 Server Core 的選擇性功能
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
 
 
@@ -28,11 +28,11 @@ ms.locfileid: "108084046"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-適用于 Windows Server 2008 R2 的 Server Core 安裝選項可讓您卸載 WoW64。 WoW64 現在是選擇性功能，如果不需要執行32位的程式碼，您可以將其卸載。
+Windows server 2008 R2 的 server Core 安裝選項可讓您卸載 WoW64。 WoW64 現在是選擇性功能，如果不需要執行32位的程式碼，您可以將其卸載。
 
-此外，Active Directory 和 Active Directory 輕量型目錄服務角色都需要 WoW64，才能在 Windows Server 2008 R2 中執行。
+此外，Active Directory 和 Active Directory 輕量型目錄服務角色需要 WoW64 才能在 Windows Server 2008 R2 中執行。
 
 ## <a name="manifestation-of-impact"></a>影響的表現
 
@@ -42,7 +42,7 @@ ms.locfileid: "108084046"
 
 安裝 WoW64。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 慣用的解決方案是提供64位版本的程式碼，讓它可以在 Server Core 上執行，而不需要 WoW64。
 

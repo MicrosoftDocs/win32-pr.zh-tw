@@ -6,7 +6,7 @@
     - name: 程式設計手冊
       href: '-wic-programming-guide.md'
       items:
-        - name: Windows 影像處理元件總覽
+        - name: Windows映射處理元件總覽
           href: '-wic-about-windows-imaging-codec.md'
         - name: WIC API 總覽
           href: '-wic-api.md'
@@ -173,7 +173,7 @@
                       href: '-wic-rawguidelines-metadata-encoding.md'
                 - name: 對 IWICDevelopRaw 的支援
                   href: '-wic-rawguidelines-iwicdevelopraw.md'
-                - name: 序列化 IWICDevelopRaw 設定的實施指導方針
+                - name: 序列化 IWICDevelopRaw 設定的實指導方針
                   href: '-wic-rawguidelines-iwicdevelopraw-serializing.md'
                 - name: 效能
                   href: '-wic-rawguidelines-performance.md'

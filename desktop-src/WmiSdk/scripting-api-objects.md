@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 腳本 API 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e30d3269b137686472f54cdb8cf53720b4aad978
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd639e1b1ca482a2b1aa95a4e0a6a26672480660440af290c043814ce5f8e965
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050306"
 ---
 # <a name="scripting-api-objects"></a>腳本 API 物件
 

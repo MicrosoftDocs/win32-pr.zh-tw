@@ -4,12 +4,12 @@ ms.assetid: 83a84db4-572b-48bd-bc0f-071b2089a5ca
 title: '事件記錄 (事件識別碼) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 402337cb2c7e862785a88ec604c6382152736fd7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 933ef3fafe77a2d0fbc2e62b5b11dd499eb850dc5cb6b2ecdc6c952fe1a3f205
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951437"
 ---
 # <a name="event-identifiers-event-logging"></a>事件記錄 (事件識別碼) 
 

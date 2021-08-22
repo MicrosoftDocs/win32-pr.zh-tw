@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Pwm.h
-ms.openlocfilehash: 11350c3bb0fbec0f05ab3153c339f8fa30baeed5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 448b38e66b7cfb4bf7e24c5d3b7658d0e38ccb8a5ca8c95e1155129737087c68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076182"
 ---
 # <a name="pwm_pin_is_started_output-structure"></a>PWM \_ PIN \_ 已 \_ 啟動 \_ 輸出結構
 
@@ -54,8 +54,8 @@ typedef struct _PWM_PIN_IS_STARTED_OUTPUT {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                             |
 | 最小 KMDF 版本<br/>     | 1.19<br/>                                                                                  |
 | 最小的 UMDF 版本<br/>     | 2.19<br/>                                                                                  |
 | 標頭<br/>                   | <dl> <dt>Pwm (包含 Pwm) </dt> </dl> |

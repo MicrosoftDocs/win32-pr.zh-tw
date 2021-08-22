@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，讀取 defaultSecurityDescriptor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7913b6008f1794e36f699f675cf79b5028931c29
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d0fc57830d88686ebbd23aeed26c8262d17312b35e7ce4f1ab5b7af3cc2fcea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962237"
 ---
 # <a name="example-code-for-reading-defaultsecuritydescriptor"></a>讀取 defaultSecurityDescriptor 的範例程式碼
 
@@ -166,9 +166,9 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

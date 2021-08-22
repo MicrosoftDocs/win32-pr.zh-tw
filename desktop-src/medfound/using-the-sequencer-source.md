@@ -4,12 +4,12 @@ ms.assetid: 7ce8dc67-02b1-4fd4-9e4d-6614fdb40620
 title: 使用 Sequencer 來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba99202838fbdc8be86f2f1d8931e5aa99ae9bf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2b0607d65d02e507f576a5177ea432f3f7e0fab57c3b575fbb34240a46e91be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972727"
 ---
 # <a name="using-the-sequencer-source"></a>使用 Sequencer 來源
 

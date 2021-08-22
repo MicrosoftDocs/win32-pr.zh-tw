@@ -4,12 +4,12 @@ ms.assetid: 022b87e5-76af-4253-9485-97140f294938
 title: 'EC_LOADSTATUS (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc06022a9774d851cabff6a18c0f8808f62f14f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 499f05a26f3fa1387347929f5c14a64b1f440a53ed9b5fd17830d582fb640c3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015936"
 ---
 # <a name="ec_loadstatus"></a>EC \_ LOADSTATUS
 
@@ -39,7 +39,7 @@ ms.locfileid: "106999685"
 
 ## <a name="remarks"></a>備註
 
-[WM ASF 讀取](wm-asf-reader-filter.md)器篩選器和舊版[Windows Media 來源](windows-media-source-filter.md)篩選準則會傳送此事件。 第一個事件參數具有下列其中一個值。
+[WM ASF 讀取](wm-asf-reader-filter.md)器篩選器和舊版[Windows 媒體來源](windows-media-source-filter.md)篩選器會傳送此事件。 第一個事件參數具有下列其中一個值。
 
 
 

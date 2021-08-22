@@ -1,23 +1,23 @@
 ---
 title: 如何建立應用程式套件 (C++)
-description: 瞭解如何使用封裝 API 建立 Windows 應用程式的應用程式套件。
+description: 瞭解如何使用封裝 API 為 Windows 應用程式建立應用程式套件。
 ms.assetid: FD677D75-50D5-4228-891F-73B5F40679B0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f1808ebf57d4c7125f5509db68e22b78ce949f7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9ac2e471443acd22a39128c046590eed29d320b75bafee0a65cb6d37fb4fb8d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106966236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049056"
 ---
 # <a name="how-to-create-an-app-package-c"></a>如何建立應用程式套件 (C++)
 
-瞭解如何使用 [封裝 API](interfaces.md)建立 Windows 應用程式的應用程式套件。
+瞭解如何使用[封裝 API](interfaces.md)為 Windows 應用程式建立應用程式套件。
 
 如果您想要手動建立傳統型應用程式套件，您也可以使用 MakeAppx.exe 工具來利用 [封裝 API](interfaces.md)。 如需詳細資訊，請參閱 [應用程式封裝工具 (MakeAppx.exe) ](make-appx-package--makeappx-exe-.md) 。
 
-如果您使用 Visual Studio，建議您使用 Visual Studio 封裝嚮導來封裝您的應用程式。 如需詳細資訊，請參閱 [使用 Visual Studio 封裝 UWP 應用程式](/windows/msix/package/packaging-uwp-apps)。
+如果您使用 Visual Studio，建議您使用 Visual Studio 封裝嚮導來封裝您的應用程式。 如需詳細資訊，請參閱[使用 Visual Studio 封裝 UWP 應用程式](/windows/msix/package/packaging-uwp-apps)。
 
 ## <a name="instructions"></a>指示
 
@@ -309,6 +309,6 @@ CoUninitialize();
 [**IAppxPackageWriter**](/windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagewriter)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

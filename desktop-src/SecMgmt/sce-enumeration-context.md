@@ -4,12 +4,12 @@ ms.assetid: 05629c49-e36b-4045-93d0-d0f4bc09b08a
 title: 'SCE_ENUMERATION_CONTEXT (Scesvc) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e380f6f99d68ad63199c3b82f5aa1e5ace8ddf0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16b102c1eb2998f09dbe95c79c500e0bc66f4a790464071dbf9704a17a1348c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004996"
 ---
 # <a name="sce_enumeration_context"></a>SCE \_ 列舉 \_ 內容
 
@@ -28,8 +28,8 @@ typedef ULONG SCE_ENUMERATION_CONTEXT, *PSCE_ENUMERATION_CONTEXT;
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Scesvc。h</dt> </dl> |
 
 

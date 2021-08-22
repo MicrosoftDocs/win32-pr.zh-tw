@@ -4,12 +4,12 @@ ms.assetid: 39A3FB53-DFC9-4189-A05B-6E01DB0DF922
 title: 指標裝置輸入堆疊列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d140b069c9cb19f6a9401aa4d1f517eb471c6de
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 156dd80b642774d6364cc15c333aa45d2a091feba33b60be7ac95fdd364910f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106989235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976988"
 ---
 # <a name="pointer-device-input-stack-enumerations"></a>指標裝置輸入堆疊列舉
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 26a24dc3ef1f4d0de09dbd97a5dce4c8ed8c783b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd4983d340645e916595534f17dccb2ef09e2f5c185b6eaf97cc7de2e52669dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032586"
 ---
 # <a name="folderitems3filter-method"></a>FolderItems3. Filter 方法
 
@@ -60,9 +60,9 @@ iRetVal = FolderItems3.Filter(
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何適當地使用 JScript、VBScript 和 Visual Basic 的 **篩選準則** 。
+下列範例會示範如何適當地使用 JScript、VBScript 和 Visual Basic **篩選**。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -174,7 +174,7 @@ End Sub
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |
 
 

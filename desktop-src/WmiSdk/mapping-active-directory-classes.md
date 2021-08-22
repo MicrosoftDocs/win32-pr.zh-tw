@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 對應 Active Directory 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a606cfacc2e9d56ef07973df182f5ce1a65be35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc38e91d52b59a206a0b64465d0f9710f6d515c9487853824477b7f4f6a126aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992898"
 ---
 # <a name="mapping-active-directory-classes"></a>對應 Active Directory 類別
 
@@ -199,7 +199,7 @@ N/A
 | 列印案例字串                                             | **CIM \_ 字串**                                                         |
 | 複本連結                                                  | 以下定義之類別 **Uint8Array** 的内嵌物件。<br/>       |
 | [**(Sid) 的字串**](/windows/desktop/ADSchema/s-string-sid)                      | 以下定義之類別 **Uint8Array** 的内嵌物件。<br/>       |
-| Time                                                          | **CIM \_ DATETIME**                                                       |
+| 時間                                                          | **CIM \_ DATETIME**                                                       |
 | UTC 編碼時間                                                | **CIM \_ DATETIME**                                                       |
 | Unicode 字串                                                | **CIM \_ 字串**                                                         |
 
@@ -244,7 +244,7 @@ Class DN_With_Binary
 | Active Directory 屬性-屬性名稱 | WMI 辨識符號       | 資料類型    | 對應資訊                               |
 |------------------------------------------|---------------------|--------------|---------------------------------------------------|
 | **屬性語法**                     | **AttributeSyntax** | **VT \_ BSTR** | 從 OID 的字串表示進行對應。 |
-| **一般名稱**                          | **快遞 之 家**              | **VT \_ BSTR** | 從字串值對應。                     |
+| **一般名稱**                          | **CN**              | **VT \_ BSTR** | 從字串值對應。                     |
 | **僅限系統**                          | **系統**          | **VT \_ BOOL** | 從布林值對應。                    |
 
 

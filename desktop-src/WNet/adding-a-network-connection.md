@@ -4,12 +4,12 @@ description: 若要建立 NETRESOURCE 結構所描述之網路資源的連線，
 ms.assetid: 0dab9eed-9019-4075-833b-324e5caee257
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 476e03193b919f17a2060e415db5e7ea60c8364e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8298216ab277c5f0ec4a0db8c4d6d1b6c592a8b643e6c30de96731ae2a32632b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053386"
 ---
 # <a name="adding-a-network-connection"></a>新增網路連接
 
@@ -63,10 +63,10 @@ printf("Connected to the specified resource.\n");
 
 
 
-[**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)函式支援與舊版 Windows 的工作組相容。 新的應用程式應該呼叫 [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) 函數或 [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a) 函數。
+[**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)函式支援與工作組的舊版 Windows 相容性。 新的應用程式應該呼叫 [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) 函數或 [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a) 函數。
 
 如需使用應用程式定義錯誤處理常式的詳細資訊，請參閱抓取 [網路錯誤](retrieving-network-errors.md)。
 
- 
+ 
 
- 
+ 

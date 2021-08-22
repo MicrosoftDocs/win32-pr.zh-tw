@@ -3,7 +3,7 @@ title: 'TBM_SETTICFREQ 訊息 (Commctrl .h) '
 description: 設定在 [標記] 中刻度的間隔頻率。
 ms.assetid: c391260c-d6c2-4b6a-84e8-7fe5d734035b
 keywords:
-- TBM_SETTICFREQ message Windows 控制項
+- TBM_SETTICFREQ 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b68a555a7803e663fa1708fc02214deecbb05aad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7c1b3e029abc8027d8708da31698f44db85ec78e427ba9461f0a71a740fb05a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078012"
 ---
 # <a name="tbm_setticfreq-message"></a>TBM \_ SETTICFREQ 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104024846"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

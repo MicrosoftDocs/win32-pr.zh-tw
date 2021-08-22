@@ -4,16 +4,16 @@ ms.assetid: 02f5d1b4-ba4f-424a-897f-b113d1f7cd6b
 title: 尖峰計量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ccd2f1ce0b8fd45fbf1cb3710c878c05544f7d4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e04a15ddd2e5fd91cf60845f2a939715e7a4a992f36aea3b9129e69c30d05961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077502"
 ---
 # <a name="peak-meters"></a>尖峰計量
 
-為了支援顯示尖峰計量的 Windows 應用程式， [ENDPOINTVOLUME API](endpointvolume-api.md) 包含 [**IAudioMeterInformation**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation) 介面。 此介面代表 [音訊端點裝置](audio-endpoint-devices.md)上的尖峰計量表。 針對轉譯裝置，從尖峰計量取出的值代表在先前的計量期間，輸出資料流程中遇到的最大取樣值。 若為捕獲裝置，從尖峰計量取出的值代表從裝置輸入資料流程中遇到的最大取樣值。
+為了支援顯示尖峰計量的 Windows 應用程式， [EndpointVolume API](endpointvolume-api.md)包含 [**IAudioMeterInformation**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation)介面。 此介面代表 [音訊端點裝置](audio-endpoint-devices.md)上的尖峰計量表。 針對轉譯裝置，從尖峰計量取出的值代表在先前的計量期間，輸出資料流程中遇到的最大取樣值。 若為捕獲裝置，從尖峰計量取出的值代表從裝置輸入資料流程中遇到的最大取樣值。
 
 從 [**IAudioMeterInformation**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation) 介面中的方法取得的尖峰計量值是從0.0 到1.0 的正規化範圍中的浮點數。 例如，如果 PCM 串流包含16位範例，而在特定計量期間內的尖峰樣本值為-8914，則尖峰計量所記錄的絕對值為8914，而 **IAudioMeterInformation** 介面所報告的正規化尖峰值為 8914/32768 = 0.272。
 
@@ -21,7 +21,7 @@ ms.locfileid: "104110977"
 
 如果裝置具有硬體尖峰計量，則尖峰計量在共用模式和獨佔模式下都是作用中狀態。 如果裝置缺少硬體尖峰計量表，尖峰計量會在共用模式中處於作用中狀態，但不會處於獨佔模式。 在獨佔模式中，應用程式和音訊硬體會直接交換音訊資料，略過軟體尖峰計量 (，這一律會報告尖峰值 0.0) 。
 
-下列 c + + 程式碼範例是一種 Windows 應用程式，會顯示預設轉譯裝置的尖峰計量表：
+下列 c + + 程式碼範例是 Windows 的應用程式，會顯示預設轉譯裝置的尖峰計量表：
 
 
 ```C++

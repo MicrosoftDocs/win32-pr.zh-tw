@@ -4,12 +4,12 @@ description: 您可以使用軟體裝置 API 從應用程式建立 PnP 裝置。
 ms.assetid: 203abb2c-526f-4995-95de-4eb0ecee63d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e011d806ea21310fccc6ca96517a5465cb41add1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a0bd1ae07b18171a6ed81c5db73d70083a8cf32e16deacf9d623c5a77c69a854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967947"
 ---
 # <a name="software-device-api"></a>軟體裝置 API
 

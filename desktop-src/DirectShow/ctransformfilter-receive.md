@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 67924bffc4d4d80b998e686d80d0e50afcd040ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a0c57cf6826274169a5984dd794e1ba9a5b8e78c7ffb774b00b05f16384e4a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953407"
 ---
 # <a name="ctransformfilterreceive-method"></a>CTransformFilter 接收方法
 
@@ -55,7 +55,7 @@ HRESULT Receive(
 
 
 
-| 傳回碼                                                                             | Description                                                 |
+| 傳回碼                                                                             | 描述                                                 |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 上游篩選應停止傳送範例。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                                         |

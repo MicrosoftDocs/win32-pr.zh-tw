@@ -4,12 +4,12 @@ ms.assetid: 5bccb1d0-ae53-448e-8a43-afb3c1ce98f9
 title: '開始使用 (感應器 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05ff67abab649eb034f08646799a9af5adcac289
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7048925452a158aaa17974e35a7a020930749a61cea09321650ad34e3040557
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890081"
 ---
 # <a name="getting-started-sensor-api"></a>開始使用 (感應器 API) 
 

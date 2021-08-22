@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: de5ea5b1eeaa9cf494c24e13b8b9b36f7490b84d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c29e47cd08b5c31012df92ca04e018d38f7adb7f8802ec534682289852f518b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963737"
 ---
 # <a name="iportabledevicepropvariantcollectiongettype-method"></a>IPortableDevicePropVariantCollection：： GetType 方法
 
@@ -53,7 +53,7 @@ Platform SDK **VARTYPE** 列舉值，指出集合中所有專案的資料類型�
 
 
 
-| 傳回碼                                                                               | Description                                          |
+| 傳回碼                                                                               | 描述                                          |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | 此方法已成功。<br/>                     |
 | <dl> <dt>**E \_ 指標**</dt> </dl> | 必要的指標引數為 **Null**。<br/> |
