@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1880e1a9811c8aab2660993c6c8ab05061163e1a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 84e246b81569f63c3a6eac9cafe043c837deca593072b622efa3f854a4a74862
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119515688"
 ---
 # <a name="configure-method-of-the-win32_tsgatewayserversettings-class"></a>Configure Win32 \_ TSGatewayServerSettings 類別的方法
 

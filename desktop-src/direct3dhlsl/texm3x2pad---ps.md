@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 91d161d0b3cc7a90bbbfcee17774b1a587e4c04f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 55943d2a62f49e6bdb45d893385f0824898d665ee4a4065c4f8c8ed75c2f8249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103841672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485438"
 ---
 # <a name="texm3x2pad---ps"></a>texm3x2pad-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "103841672"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "103841672"
 
 
 
- 
+ 
 
 此指令本身不能使用。
 
@@ -57,9 +57,9 @@ ms.locfileid: "103841672"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

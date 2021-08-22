@@ -4,12 +4,12 @@ ms.assetid: 57d66988-2a65-4309-957a-36a5972233b5
 title: 使用物件的函式字串來建立元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8cbbb1c156fd7ee675b6c21c8ae097494da59ab
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ec65d617c02786c03525d6e18ff894a5c585e08e75929c3f8f0fbb1d399e5160
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119372468"
 ---
 # <a name="using-an-object-constructor-string-to-construct-a-component"></a>使用物件的函式字串來建立元件
 

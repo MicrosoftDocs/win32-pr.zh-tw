@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 62c626c30f641fb4f73761454d9e56fcde0d4737
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f62cf64af00fa24d10ba82e98554a4d4f395b6ea7be98f1eff86b58488e475f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119405828"
 ---
 # <a name="span-idvspixengineipipelinestagescallback3spanipipelinestagescallback3-interface"></a><span id="vspixengine.ipipelinestagescallback3"></span>IPipeLineStagesCallback3 介面
 

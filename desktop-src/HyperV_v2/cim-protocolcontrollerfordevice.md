@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7d3ef7799cccc6e8fe8e219cddfba37cf12b8637
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f525e3e1c3576c1e0e5b15b5eeb0fa81afafb8cdaa0129ffe0bc09374a7e9fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148421"
 ---
 # <a name="cim_protocolcontrollerfordevice-class"></a>CIM \_ ProtocolControllerForDevice 類別
 

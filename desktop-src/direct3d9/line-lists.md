@@ -4,12 +4,12 @@ ms.assetid: bb02b3d6-f30f-4f2b-8b40-a7e37faf524a
 title: 行清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b27bd58ea2de6b5944b8511e99154c50f671439
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6f06ca68e3fefab1217e77bbf41bc30aa42dac9631b70480fe4bf0a98d38d913
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606791"
 ---
 # <a name="line-lists"></a>行清單
 

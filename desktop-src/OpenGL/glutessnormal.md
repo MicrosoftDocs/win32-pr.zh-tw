@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af04ab2364fafcea709ca36cab2f10a8bea1a96f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2db848c6971fe2893f2bc2cd4ca33e96811dda0d44e81e8a852cd441a6478d79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488468"
 ---
 # <a name="glutessnormal-function"></a>gluTessNormal 函式
 
@@ -64,7 +64,7 @@ void WINAPI gluTessNormal(
 
 </dd> <dt>
 
-*Z* 
+*z* 
 </dt> <dd>
 
 一般的 z 座標元件。

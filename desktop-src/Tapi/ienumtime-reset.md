@@ -4,16 +4,16 @@ ms.assetid: a9131da1-051d-493c-939d-07801fda2d49
 title: IEnumTime：： Reset 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9615fbc07edfb93c2377a7455d94b5fcd8ccd698
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 210f99d6997d91c9e2b3d68649f4472747923f6706f5f66fc27550f1cea92b52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519198"
 ---
 # <a name="ienumtimereset-method"></a>IEnumTime：： Reset 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Reset** 方法會重設為列舉序列的開頭。
 

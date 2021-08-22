@@ -4,12 +4,12 @@ ms.assetid: d1f1a90c-425a-4606-b86d-2948305ea84a
 title: 指定計數器路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f3a92f94b4bf3d2252903d92785f43bb0cac110
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a359762e4d959992bebd338c4b3ee29825c63b4cb081b70722c82fb3376b5d19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143801"
 ---
 # <a name="specifying-a-counter-path"></a>指定計數器路徑
 

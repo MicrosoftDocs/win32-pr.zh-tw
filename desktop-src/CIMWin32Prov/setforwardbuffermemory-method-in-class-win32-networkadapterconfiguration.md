@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 30179610e6eee121a86119fa347067b40ef04c2f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1672c8d60cfdf8b831cfbcae9a1da1de5a6baa6225f220856ea579f7857c6650
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440048"
 ---
 # <a name="setforwardbuffermemory-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetForwardBufferMemory 方法 \_
 

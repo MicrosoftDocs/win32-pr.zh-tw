@@ -4,12 +4,12 @@ ms.assetid: 61bc4fa1-8185-4e07-a3b5-4bd357f0f75a
 title: DLL 中的錯誤處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd21f0b9338600012d65aa19801ee57794fac294
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9a64dcfdf360a1dcc2301b5496d3f4630631cd7bfbc3fffb0e2cd5408120351
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119517468"
 ---
 # <a name="error-handling-in-the-dll"></a>DLL 中的錯誤處理
 

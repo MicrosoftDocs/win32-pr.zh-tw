@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_DirectorySpecification 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d0a5583a1b6adec35835bffdef0a9327f53bde1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a204f03e5355861a0a67f70eef08d7e165e8650294e3f8ce1c5d412bed2d584a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321448"
 ---
 # <a name="cim_directoryspecification-methods"></a>CIM \_ DirectorySpecification 方法
 

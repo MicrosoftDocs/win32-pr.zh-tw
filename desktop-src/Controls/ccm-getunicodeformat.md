@@ -3,7 +3,7 @@ title: 'CCM_GETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: 取得控制項的 Unicode 字元格式旗標。
 ms.assetid: 8a23cd1c-549e-4d48-891a-b37dbf5c524b
 keywords:
-- CCM_GETUNICODEFORMAT message Windows 控制項
+- CCM_GETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 095d49ccc57faa05e86d12df130b12ce3d542bf6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa115ba341478990b46600bc76ee02e4ecf750d5a7ccde9f1110aa8856d30fa7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438278"
 ---
 # <a name="ccm_getunicodeformat-message"></a>CCM \_ GETUNICODEFORMAT 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104104514"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

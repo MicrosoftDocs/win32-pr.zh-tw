@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dd258a4372c16a7f98f2fe3ea8b84bbfef44f69e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 23093858f034a128c08ac2c39343a51a1d73de229440b444d37e777e2b0d0ba0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439438"
 ---
 # <a name="setpowerstate-method-of-the-cim_logicaldevice-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 CIM_LogicalDevice 類別的 SetPowerState 方法) 
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 **ValueMap** 值。

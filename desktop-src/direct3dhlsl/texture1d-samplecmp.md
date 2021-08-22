@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: f4ec3cac3620ba690ba6fb8f3da83b2bd267a54a
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 4f92cb56af49e5b779e5b11b9f5b1384145877a2bab31739d91c034d6dce4acf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104022705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485268"
 ---
 # <a name="texture1dsamplecmp-methods"></a>Texture1D：： SampleCmp 方法
 

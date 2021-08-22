@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e5574c72fabd7561da0c60c903ae815faaebbfd5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8462ccfbbf306da08c67d460584a470d82301a5bda5f95a1ad09b2062702ee62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607208"
 ---
 # <a name="id3dxconstanttablegetconstantdesc-method"></a>ID3DXConstantTable：： GetConstantDesc 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 499f409c-e25a-4ab3-b0aa-e6b308fc7169
 title: 偵測監視
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4641818b7f1cd1740c2732ced5527a2e278793a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad7ce15252470b280a988f81fe221218778a0fa5e4851db0d3e419d1653fbe92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144201"
 ---
 # <a name="debugging-a-monitor"></a>偵測監視
 
@@ -29,7 +29,7 @@ ms.locfileid: "104513340"
 
 4.  在 Microsoft Visual Studio 中，啟動 Microsoft Visual C++。
 5.  從 [**檔案] 的 [****開啟** 功能表] 選項中，選取您的監視器 DLL 名稱。
-6.  Microsoft Visual C++ 載入之後，請按一下 [ **專案**]、[ **設定**]。
+6.  Microsoft Visual C++ 載入之後，請按一下 [ **Project**]，**設定**。
 7.  按一下 [**可執行檔**] 下的 [**調試** 程式] 索引標籤來進行 debug session，然後輸入 Mcsvc.exe 的完整路徑 例如，C： \\ Program files \\ Netmon2 \\Mcsvc.exe。
 8.  在程式碼中設定中斷點。
 

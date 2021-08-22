@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45854eb1e2070f334bfc906c249fbb4341ab74d0
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1b05d390c935047065febdb86e9d9c4c68758648b76641c346629c0cde4be5dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104566518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490440"
 ---
 # <a name="gltexgend-function"></a>glTexGend 函式
 
@@ -73,7 +73,7 @@ void WINAPI glTexGend(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                |
+| 名稱                                                                                                  | 意義                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *coord* 或 *pname* 不是接受的定義值，或 *pname* 是 GL \_ 材質 \_ GEN \_ 模式，而 *params* 不是接受的定義值。<br/> |
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *pname* 是 gl \_ 材質 \_ GEN \_ 模式、 *params* 是 GL \_ 球體 \_ 地圖，而 *coord* 是 gl \_ R 或 gl \_ Q<br/>                                     |

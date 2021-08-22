@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 97ead4df1d45b110c3d0a91976dc8eca6ffd72c7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 20ca9874447f4d606f7559dc60322f206c4726feb5cbe070b188bb04173427ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439998"
 ---
 # <a name="setigmplevel-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetIGMPLevel 方法 \_
 

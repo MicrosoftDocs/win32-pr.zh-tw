@@ -4,16 +4,16 @@ ms.assetid: a3d15561-229e-4eb6-a0ac-2d69f170bced
 title: 'ITFormatControl 介面 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0735e7bfaf5222948cef5e047530a35cb19a125
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ab42a9cacdf7986a652fff4e15195fec5f6b1aa319f06b631ee992541db40b82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406048"
 ---
 # <a name="itformatcontrol-interface"></a>ITFormatControl 介面
 
-\[ 在 Windows Vista、Windows Server 2008 和後續的作業系統版本中，無法使用此介面。 RTC 用戶端 API 提供類似的功能。\]
+\[這個介面無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **ITFormatControl** 介面會公開方法，以允許應用程式抓取有關呼叫之接收或傳輸資料流程格式的資訊。
 

@@ -4,12 +4,12 @@ ms.assetid: a800d2ac-3aee-4e74-a29a-a70355138ebc
 title: Windows Search 支援的語言
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 350a8861a5817a8ac5710214ccd35c780f2c9dd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 812252fa6815bb8f32df684b51d4f39bca4105d7997b07bd930ab761cb082f91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119396538"
 ---
 # <a name="languages-supported-by-windows-search"></a>Windows Search 支援的語言
 
@@ -17,11 +17,11 @@ ms.locfileid: "103689895"
 
 ## <a name="tokenization-wordbreakers-and-language-resources"></a>Token 化、文字分隔和語言資源
 
-Windows Search 與語言無關，但是跨語言搜尋的精確度可能因文字分隔 token 化文字的方式而有所不同。 文字分隔會針對語言執行各種 token 化規則，並將文字分成個別的權杖或單字，以進行編制索引或搜尋。
+Windows搜尋與語言無關，但跨語言搜尋的精確度可能因文字分隔 token 化文字的方式而有所不同。 文字分隔會針對語言執行各種 token 化規則，並將文字分成個別的權杖或單字，以進行編制索引或搜尋。
 
 索引文字和查詢字串的語言都會分成標記。 由於 token 化規則會因語言而異，因此每個語言或語言系列都有個別的文字分隔。 如果查詢語言與索引語言不相符，則結果可能無法預測。
 
-Windows Search 隨附一組妥善定義的文字分隔。 Windows Vista 和更新版本支援傳統的斷詞工具和字幹分析器元件。 如果無法判斷檔的語言，Windows Search 會嘗試偵測語言以找出最適當的斷詞工具。 Windows Search 嘗試偵測語言，方法是呼叫 [**GetSystemPreferredUILanguages**](/windows/win32/api/winnls/nf-winnls-getsystempreferreduilanguages) 函式來判斷前多個消費者介面 (的 mui) 語言 (通常是系統 UI 語言，除非) 安裝 MUI 語言套件。 如果該呼叫成功，則會使用第一個 MUI 語言的斷詞工具。 如果呼叫 **GetSystemPreferredUILanguages** 失敗，Windows Search 會呼叫 [**GetSystemDefaultLCID**](/windows/win32/api/winnls/nf-winnls-getsystemdefaultlcid) 函式，並使用與該地區設定相關聯的斷詞工具，藉以抓取系統地區設定。
+Windows搜尋隨附一組妥善定義的文字分隔。 Windows Vista 和更新版本中支援傳統的斷詞工具和字幹分析器元件。 如果無法判斷檔的語言，Windows Search 會嘗試偵測語言以找出最適當的斷詞工具。 Windows搜尋會嘗試偵測語言，方法是呼叫 [**GetSystemPreferredUILanguages**](/windows/win32/api/winnls/nf-winnls-getsystempreferreduilanguages)函式來判斷前多重消費者介面 (的 mui) 語言 (這通常是系統 UI 語言，除非已) 安裝 MUI 語言套件。 如果該呼叫成功，則會使用第一個 MUI 語言的斷詞工具。 如果呼叫 **GetSystemPreferredUILanguages** 失敗，Windows Search 會呼叫 [**GetSystemDefaultLCID**](/windows/win32/api/winnls/nf-winnls-getsystemdefaultlcid)函式，並使用與該地區設定相關聯的斷詞工具，藉以抓取系統地區設定。
 
 如果未安裝語言的斷詞工具，Windows Search 使用 **中性** 的斷詞工具來中斷空白字元。
 
@@ -49,7 +49,7 @@ HKEY_LOCAL_MACHINE
 
 當 Windows Search 需要新的斷詞工具時，會讀取 (CLSID) 的類別識別碼，並快取具現化的斷詞工具。
 
-您可以藉由執行 [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker) 介面，建立語言的自訂斷詞工具。 Windows Search 接著會在建立內容索引和執行查詢時，呼叫 **IWordBreaker** 方法。
+您可以藉由執行 [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker) 介面，建立語言的自訂斷詞工具。 Windows然後，搜尋會在建立內容索引和執行查詢時呼叫 **IWordBreaker** 方法。
 
 索引內容的地區設定資訊是從內容來源抓取。 如果來源實施者不知道已編制索引之內容的地區設定，則應該將地區設定設定為 [**\_ 中性地區**](../intl/locale-neutral.md)設定。
 
@@ -62,7 +62,7 @@ HKEY_LOCAL_MACHINE
 
 ## <a name="languages-supported-by-wordbreakers"></a>文字分隔支援的語言
 
-Windows Search 包含支援下列語言的文字分隔。
+Windows搜尋包含支援下列語言的文字分隔。
 
 
 
@@ -141,7 +141,7 @@ Windows Search 包含支援下列語言的文字分隔。
 
 ## <a name="additional-resources"></a>其他資源
 
--   如需有關如何針對其他語言和地區設定執行和使用自訂斷詞工具和字幹分析器的詳細資訊，請參閱 [Windows Search 中的擴充語言資源](extending-language-resources-in-windows-search.md)。
+-   如需有關如何針對其他語言和地區設定執行和使用自訂斷詞工具和字幹分析器的詳細資訊，請參閱[Windows Search 中的擴充語言資源](extending-language-resources-in-windows-search.md)。
 -   如果您需要識別某段文字的語言，您可以使用 Windows 7 和更新版本中提供的語言自動偵測 (LAD) 。 如需詳細資訊，請參閱 (ELS) 的 [擴充語言服務](../intl/extended-linguistic-services.md) 。
 -   如需有關管理、查詢和擴充索引的詳細資訊，請參閱《 [Windows Search 開發人員指南》](-search-developers-guide-entry-page.md)。
 

@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7424601632a9d6a0bedcbcde7ab3c27cf27c69cb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5e2f48462e8499f6bce2cf6a94e6efee1b3e3f53eadc72a812c294a05711d4d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438448"
 ---
 # <a name="cim_keyboard-class"></a>CIM \_ 鍵盤類別
 

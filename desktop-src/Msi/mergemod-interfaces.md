@@ -4,12 +4,12 @@ ms.assetid: 5bf62763-bee7-4459-a75c-65ff7730e0a5
 title: Mergemod 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c01c7d881379e2e1a917ff3acc451c4de41052c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1e66608016d0a23261f105a0e700f4354ae7a8ce99d7ea389857cf6f55a0427
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580648"
 ---
 # <a name="mergemod-interfaces"></a>Mergemod 介面
 

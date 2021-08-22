@@ -4,12 +4,12 @@ ms.assetid: 5E0E7423-85BD-4ED0-9149-9541F4D2371F
 title: 關於私用元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c7ccfe8c63a8435a33085f607c2040a0a42345c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c785b30ca8654071a9816aaf9a11ecc69a029f605d06f39f44a6a490a2a7aef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142611"
 ---
 # <a name="about-private-assemblies"></a>關於私用元件
 
@@ -17,13 +17,13 @@ ms.locfileid: "106978952"
 
 私用元件必須設計成與系統上的其他元件版本並存運作。 如需詳細資訊，請參閱 [建立並存元件的指導方針](guidelines-for-creating-side-by-side-assemblies.md)。
 
-私用元件必須伴隨著 [組件資訊清單](assembly-manifests.md)。 請注意，當封裝 DLL 做為私用元件以容納 Windows 搜尋私用元件的方式時，就適用名稱限制。 搜尋私用元件時，建議的方法是在 DLL 中包含組件資訊清單做為資源。 在此情況下，資源識別碼必須等於1，而且私用元件的名稱可能與 DLL 的名稱相同。 例如，如果 DLL 的名稱是 MICROSOFT.WINDOWS.MYSAMPLE.DLL，資訊清單之 **assemblyIdentity** 專案中所使用的 name 屬性（attribute）值也可以是 mysample。 搜尋私用元件的另一種方法是在不同的檔案中提供組件資訊清單。 在此情況下，元件的名稱及其資訊清單必須與 DLL 的名稱不同。 例如，mysampleAsm、mysampleAsm，以及 Microsoft.Windows.mysample.dll 的範例中。 如需如何並存搜尋私用元件的詳細資訊，請參閱 [元件搜尋序列](assembly-searching-sequence.md)。
+私用元件必須伴隨著 [組件資訊清單](assembly-manifests.md)。 請注意，封裝 DLL 做為私用元件時，會套用名稱限制，以配合 Windows 搜尋私用元件的方式。 搜尋私用元件時，建議的方法是在 DLL 中包含組件資訊清單做為資源。 在此情況下，資源識別碼必須等於1，而且私用元件的名稱可能與 DLL 的名稱相同。 例如，如果 DLL 的名稱是 MICROSOFT.WINDOWS.MYSAMPLE.DLL，則資訊清單的 **assemblyIdentity** 專案中所使用之 name 屬性的值也可能是 Microsoft。Windows. mysample。 搜尋私用元件的另一種方法是在不同的檔案中提供組件資訊清單。 在此情況下，元件的名稱及其資訊清單必須與 DLL 的名稱不同。 例如，Microsoft。Windows mysampleAsm，Microsoft。Windows mysampleAsm 資訊清單，並 Microsoft.Windows.mysample.dll。 如需如何並存搜尋私用元件的詳細資訊，請參閱 [元件搜尋序列](assembly-searching-sequence.md)。
 
 私用元件會安裝在應用程式目錄結構的資料夾中。 通常，這是包含應用程式可執行檔的資料夾。 私用元件可以部署在與應用程式相同的資料夾中、與元件同名的資料夾中，或是在與元件同名的特定語言子資料夾中。 例如，您可以使用下列其中一個目錄結構來部署私用元件，也就是未指定任何語言的工具。
 
 
 
-| 目錄結構                                       | Description                                                                                            |
+| 目錄結構                                       | 描述                                                                                            |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | APPDIR \\MICROSOFT.TOOLS.POP.DLL                           | 資訊清單會部署為 DLL 中的資源。                                                     |
 | Appdir \\ Microsoft. 資訊清單                      | 資訊清單會部署為個別的檔案。                                                           |
@@ -36,7 +36,7 @@ ms.locfileid: "106978952"
 
 > [!IMPORTANT]
 >
-> 針對 Windows 7 和 Windows Server 2008 R2 之前的 Windows 作業系統版本，必須將原生私用元件部署在包含應用程式可執行檔的資料夾中。 原生私用元件不支援安裝在特定語言的資料夾或與元件同名的資料夾中。
+> 在 Windows 7 和 Windows Server 2008 R2 之前的 Windows 作業系統版本中，必須將原生私用元件部署在包含應用程式可執行檔的資料夾中。 原生私用元件不支援安裝在特定語言的資料夾或與元件同名的資料夾中。
 
  
 
@@ -49,9 +49,9 @@ appdir\en-us\Microsoft.tools.pop\Microsoft.tools.pop.DLL
 appdir\en-us\Microsoft.tools.pop\Microsoft.tools.pop.MANIFEST
 ```
 
-可以將元件的檔案複製到這個資料夾中的任何安裝方法（例如 **xcopy** 命令）來安裝私用元件。 如需有關如何使用 Windows Installer 安裝私用元件的詳細資訊，請參閱 [Win32 元件的安裝](../msi/installation-of-win32-assemblies.md)。
+可以將元件的檔案複製到這個資料夾中的任何安裝方法（例如 **xcopy** 命令）來安裝私用元件。 如需有關如何使用 Windows Installer 安裝私用元件的詳細資訊，請參閱[Win32 元件的安裝](../msi/installation-of-win32-assemblies.md)。
 
-私用元件也可以安裝在 Windows XP 之前的作業系統上。 在此情況下，必須在這些作業系統上註冊元件，而不會使用資訊清單。 私用元件的複本會安裝到私人資料夾中，以供應用程式專用使用。 另一個版本的元件可以在系統上全域登錄，並且可供任何系結至該元件的應用程式使用。 元件的全域版本可能是隨應用程式安裝的版本，或是較早的版本。 如需詳細資訊，請參閱 [Windows 上的 DLL/COM](dll-com-redirection-on-windows.md)重新導向。 元件也可以安裝為共用元件，供多個應用程式使用。 如需詳細資訊，請參閱 [共用的元件](/windows/desktop/Msi/shared-assemblies)。
+私用元件也可以安裝在早于 Windows XP 的作業系統上。 在此情況下，必須在這些作業系統上註冊元件，而不會使用資訊清單。 私用元件的複本會安裝到私人資料夾中，以供應用程式專用使用。 另一個版本的元件可以在系統上全域登錄，並且可供任何系結至該元件的應用程式使用。 元件的全域版本可能是隨應用程式安裝的版本，或是較早的版本。 如需詳細資訊，請參閱[Windows 上的 DLL/COM](dll-com-redirection-on-windows.md)重新導向。 元件也可以安裝為共用元件，供多個應用程式使用。 如需詳細資訊，請參閱 [共用的元件](/windows/desktop/Msi/shared-assemblies)。
 
 請注意，建立私用元件的步驟與建立共用元件的步驟相同，但有兩個例外：
 

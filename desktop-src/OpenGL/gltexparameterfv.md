@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce74c9ee0a9a1c75c50d96c90f1612b891eed282
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 433a886ac7094a28e7c936eb02dd55743bf1abe6a94b128fb98b42bb1bad8335
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490058"
 ---
 # <a name="gltexparameterfv-function"></a>glTexParameterfv 函式
 
@@ -116,7 +116,7 @@ void WINAPI glTexParameterfv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                          |
+| 名稱                                                                                                  | 意義                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_不正確 \_ 列舉**</dt> </dl>     | *target* 或 *pname* 不是其中一個接受的定義值，或是當 *param* 應該有定義的常數值 (根據 *pname*) 的值而不是時。<br/> |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/>                                            |

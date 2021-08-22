@@ -9,21 +9,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 04e87444c2b9c473268c5e97dd9c26d04d95b93b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec4d1cc43738d623ac3a1f60ba4950b1f9d98afa48025b80dfa935cd1004e99a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393858"
 ---
 # <a name="navigating-a-tree-of-item-objects"></a>流覽專案物件的樹狀結構
 
 > [!Note]  
-> 此腳本系統已取代為 Windows 映像取得 (WIA) Automation 層。 請參閱 [Windows 映像取得自動化層](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)。
+> 此腳本系統已取代為 Windows 的影像取得 (WIA) Automation 層。 請參閱[Windows 映像取得自動化層](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)。
 
  
 
-應用程式或腳本會流覽 Windows 映像取得 (WIA) 裝置的專案樹狀結構，以尋找並選取該裝置上的影像。 應用程式會使用這項技術，在不使用對話方塊的情況下，選取並取得影像。
+應用程式或腳本會流覽 Windows 影像取得 (WIA) 裝置的專案樹狀結構，以尋找並選取該裝置上的影像。 應用程式會使用這項技術，在不使用對話方塊的情況下，選取並取得影像。
 
 WIA 裝置會以 [**專案**](-wia-item.md) 物件樹狀結構中的根專案表示。 樹狀結構中的子專案代表掃描器的資料夾和影像，或是掃描器的掃描張床。
 

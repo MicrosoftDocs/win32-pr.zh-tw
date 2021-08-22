@@ -4,12 +4,12 @@ description: 所有控制點都會執行下列工作。
 ms.assetid: f681468f-90ab-4533-8ee7-6e4f93e08cf2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5252e2db09aa8283034da20dc1bd2dc877bf0e5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a102c389a41b32fd7a79bf749ce38f1267912c3993e2461adac9b6730ea92325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513638"
 ---
 # <a name="what-are-the-basic-actions-of-the-control-point-api"></a>控制點 API 的基本動作為何？
 
@@ -29,9 +29,9 @@ ms.locfileid: "103675219"
 
 如需控制點 API 中每個介面的詳細檔，請參閱 [控制點 Api 參考](control-point-api-with-upnp-technology-reference.md)。
 
- 
+ 
 
- 
+ 
 
 
 

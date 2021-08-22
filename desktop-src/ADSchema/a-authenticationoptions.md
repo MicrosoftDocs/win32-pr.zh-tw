@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cfa9c422dfe196ab002c02c361759461f43965d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 220438034793c4cae72ab730e8c9116edff69a0524c1dc135185da3ff8b6af73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119443008"
 ---
 # <a name="authentication-options-attribute"></a>Authentication-Options 屬性
 
@@ -31,7 +31,7 @@ ADSI 中用來系結至目錄服務物件的驗證選項。
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CN                | Authentication-Options                                                                                                                                                                                                                                                       |
 | Ldap-顯示名稱 | authenticationOptions                                                                                                                                                                                                                                                        |
-| 大小              | 4個位元組。 在 IADS 中定義的值： ADS \_ 安全 \_ 驗證0X1、ads \_ 使用 \_ 加密0x2、ads \_ 使用 \_ SSL 0x2、ads \_ READONLY \_ SERVER 0x4、ads \_ 提示 \_ 認證0x8、ads \_ 無 \_ 驗證0x10、ads \_ 快速系結 \_ 0x20、ads \_ 使用 \_ 簽署0x40、ads \_ 使用 \_ 密封0x80 |
+| 大小              | 4個位元組。 在 IADS 中定義的值： ads \_ 安全 \_ 驗證0x1、ads \_ 使用 \_ 加密0x2、ads \_ 使用 \_ SSL 0x2、ads \_ READONLY \_ SERVER 0x4、ads \_ 提示 \_ 認證0x8、ads \_ 無 \_ 驗證0x10、ads \_ FAST 系結 \_ 0x20、ads \_ 使用 \_ 簽署0x40、ads \_ 使用 \_ 密封0x80 |
 | 更新許可權  | \-                                                                                                                                                                                                                                                                           |
 | 更新頻率  | \-                                                                                                                                                                                                                                                                           |
 | Attribute-Id      | 1.2.840.113556.1.4.11                                                                                                                                                                                                                                                        |
@@ -58,7 +58,7 @@ ADSI 中用來系結至目錄服務物件的驗證選項。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -79,7 +79,7 @@ ADSI 中用來系結至目錄服務物件的驗證選項。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -100,7 +100,7 @@ ADSI 中用來系結至目錄服務物件的驗證選項。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -121,7 +121,7 @@ ADSI 中用來系結至目錄服務物件的驗證選項。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -142,7 +142,7 @@ ADSI 中用來系結至目錄服務物件的驗證選項。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -163,7 +163,7 @@ ADSI 中用來系結至目錄服務物件的驗證選項。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |

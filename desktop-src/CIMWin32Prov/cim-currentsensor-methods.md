@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_CurrentSensor 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9df2fabddac728ad621cb551f0cc694f4c7a549e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c0beec72423b54c40c05b3fbedc3ad8d2d0f9d9731190149ccb9cf8b1e2217d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321728"
 ---
 # <a name="cim_currentsensor-methods"></a>CIM \_ CurrentSensor 方法
 

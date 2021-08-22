@@ -4,12 +4,12 @@ ms.assetid: 9817cbea-7336-452d-9c63-a31ed284bf54
 title: System. StorageProviderFileChecksum
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 821e77368cb3f68e3ffa98be113a3405596c39a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5699f90ae0ea5cc1babf05e5000f439b1c104b7b2da0b1262d7702ff8f8549c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119396678"
 ---
 # <a name="systemstorageproviderfilechecksum"></a>System. StorageProviderFileChecksum
 

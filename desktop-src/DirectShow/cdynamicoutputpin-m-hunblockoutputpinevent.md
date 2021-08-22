@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 82f1f74412793166ad3aaadff9b8227e5366881f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a87458b5ba24b21684ff730e7429bad379784e4d5d4a963ee434f1ca9e093612
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119389708"
 ---
 # <a name="cdynamicoutputpinm_hunblockoutputpinevent-member"></a>CDynamicOutputPin：： m \_ hUnblockOutputPinEvent 成員
 

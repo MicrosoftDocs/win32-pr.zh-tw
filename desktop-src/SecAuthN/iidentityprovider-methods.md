@@ -4,12 +4,12 @@ ms.assetid: 9F99FFCE-9797-43CF-A593-E40A4AB81E61
 title: IIdentityProvider 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c8f636b03c683391b38723cf6e9ada852428881
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67402e97d6f39bd47303b82d609bef44c06265c6bb9d7cee165c7044d0049e78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119516068"
 ---
 # <a name="iidentityprovider-methods"></a>IIdentityProvider 方法
 

@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0de0b993b4cc1da46b19b1c296fae44e855c5816
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3f00894251f2309a8e353fcf1377284ccf6dc7b41a704133c0e79ef8544858bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103853472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548228"
 ---
 # <a name="cim_mediaaccessdevice-class-cimwin32-wmi-providers"></a>CIM_MediaAccessDevice 類別 (CIMWin32 WMI 提供者) 
 
@@ -335,7 +335,7 @@ class CIM_MediaAccessDevice : CIM_LogicalDevice
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存裝置 \| 001.9 "，" MIF。DMTF \| 儲存裝置 \| 001.11 "，" MIF。DMTF \| 儲存裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ MediaAccessDevice**。**CapabilityDescriptions**") 
+限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存體裝置 \| 001.9 "，" MIF。DMTF \| 儲存體裝置 \| 001.11 "，" MIF。DMTF \| 儲存體裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ MediaAccessDevice**。**CapabilityDescriptions**") 
 </dt> </dl>
 
 媒體存取裝置的功能。
@@ -349,7 +349,7 @@ class CIM_MediaAccessDevice : CIM_LogicalDevice
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 

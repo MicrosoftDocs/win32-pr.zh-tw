@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e04c3f7e5a58ec8de345d570e36b35c7eb1e7e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e01f761b63be028e2c507644f160b6742f9d781e517ea03ce549e3ac84419c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513868"
 ---
 # <a name="setsecuritylayer-method-of-the-win32_tsgeneralsetting-class"></a>Win32 TSGeneralSetting 類別的 SetSecurityLayer 方法 \_
 

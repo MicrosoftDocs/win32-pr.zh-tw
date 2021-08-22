@@ -4,17 +4,17 @@ description: 本節說明使用 Microsoft DirectComposition \ 32 的最佳作法
 ms.assetid: 49F6E356-90C7-423A-A31A-AEE41F882D3B
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0658a9693567dfd88e9a986893048fa1d0fa1e5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 73606d34fff20c6d48a748d713ee292b36fd791ffde5cddb255ad9c60982cf1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106991093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119484728"
 ---
 # <a name="how-to-use-directcomposition"></a>如何使用 DirectComposition
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本節說明使用 Microsoft DirectComposition API 的最佳作法，並示範如何使用 API 來完成數個常見的工作。
 

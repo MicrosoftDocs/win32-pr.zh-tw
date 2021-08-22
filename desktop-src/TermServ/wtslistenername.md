@@ -12,12 +12,12 @@ keywords:
 - PWTSLISTENERNAME
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a82576fc9f4490b133916852441c50dcf77e849d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce0df52229670cd090dd900dda3c2284437297bedc25c69f12c980b9cc40d92c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513838"
 ---
 # <a name="wtslistenername"></a>WTSLISTENERNAME
 

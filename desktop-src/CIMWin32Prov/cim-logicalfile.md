@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a06d2abd1c4ad92d751afa6c8aa47c0cfaa8b1f9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 457bf0e094e4196c2ff60b05581daf5dc6a51349530d3563119962e01c94c40d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548268"
 ---
 # <a name="cim_logicalfile-class"></a>CIM \_ LogicalFile 類別
 
@@ -476,7 +476,7 @@ DOS 相容的檔案名。 範例： "c： \\ progra ~ 1"
 
 </dd> <dt>
 
-**分機**
+**延伸模組**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -670,7 +670,7 @@ DOS 相容的檔案名。 範例： "c： \\ progra ~ 1"
 限定詞：覆 [**寫**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Name" ) ， [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Name 屬性是一個字串，代表繼承的名稱，做為檔案系統內的邏輯檔案實例的索引鍵。 應提供完整路徑名稱。 範例： C： \\ Windows \\ system \\win.ini
+Name 屬性是一個字串，代表繼承的名稱，做為檔案系統內的邏輯檔案實例的索引鍵。 應提供完整路徑名稱。 範例： C： \\ Windows \\ 系統 \\win.ini
 
 </dd> <dt>
 

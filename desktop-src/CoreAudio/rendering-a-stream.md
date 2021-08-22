@@ -4,12 +4,12 @@ ms.assetid: 00bfcfd1-6592-43e3-90ad-730c92aa4cd3
 title: 呈現資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d96e720bab43c75b0a3958bb3b6137d3a3d9ef6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a49632e89e42e4e353cec48ee993f990904bc4557c0f63fcaec4d13bed5becf3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318568"
 ---
 # <a name="rendering-a-stream"></a>呈現資料流程
 
@@ -178,7 +178,7 @@ LoadData 函式會將指定的音訊畫面格數目 (第一個參數) 寫入 (�
 
 在呼叫 [**IAudioClient：： Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) 方法時，上述範例中的 PlayAudioStream 函式會要求持續期間為一秒的共用緩衝區。  (配置的緩衝區可能會有較長的持續時間。 ) 在其初始呼叫 [**IAudioRenderClient：： GetBuffer**](/windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-getbuffer) 和 [**IAudioRenderClient：： ReleaseBuffer**](/windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-releasebuffer) 方法時，此函式會先填滿整個緩衝區，然後再呼叫 [**IAudioClient：： Start**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-start) 方法來開始播放緩衝區。
 
-在主要迴圈內，此函式會以半秒的間隔反復填滿一半的緩衝區。 在對主要迴圈中的每個 Windows [**睡眠**](/windows/win32/api/synchapi/nf-synchapi-sleep) 函數呼叫之前，緩衝區已滿或幾乎已滿。 當 **睡眠** 呼叫傳回時，緩衝區大約是一半滿。 迴圈會在 LoadData 函式的最後一個呼叫之後結束，將 `flags` 變數設為 AUDCLNT \_ BUFFERFLAGS \_ 無訊息值。 屆時，緩衝區包含至少一個實際資料的畫面格，而且最多可以包含一半的實際資料。 緩衝區的其餘部分包含無回應。 迴圈之後的 **睡眠** 呼叫會提供足夠的時間 (半秒) 來播放所有剩餘的資料。 在呼叫 [**IAudioClient：： Stop**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop) 方法停止音訊串流之前，資料後面的無聲會防止不必要的聲音。 如需 **睡眠** 的詳細資訊，請參閱 Windows SDK 檔。
+在主要迴圈內，此函式會以半秒的間隔反復填滿一半的緩衝區。 在對主要迴圈中的 Windows [**Sleep**](/windows/win32/api/synchapi/nf-synchapi-sleep)函數進行每次呼叫之前，緩衝區已滿或幾乎已滿。 當 **睡眠** 呼叫傳回時，緩衝區大約是一半滿。 迴圈會在 LoadData 函式的最後一個呼叫之後結束，將 `flags` 變數設為 AUDCLNT \_ BUFFERFLAGS \_ 無訊息值。 屆時，緩衝區包含至少一個實際資料的畫面格，而且最多可以包含一半的實際資料。 緩衝區的其餘部分包含無回應。 迴圈之後的 **睡眠** 呼叫會提供足夠的時間 (半秒) 來播放所有剩餘的資料。 在呼叫 [**IAudioClient：： Stop**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop) 方法停止音訊串流之前，資料後面的無聲會防止不必要的聲音。 如需 **睡眠** 的詳細資訊，請參閱 Windows SDK 檔。
 
 在呼叫 [**IAudioClient：： Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) 方法之後，資料流程會保持開啟，直到用戶端釋出其所有對 [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) 介面的參考，以及用戶端透過 [**IAudioClient：： GetService**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice) 方法取得的所有服務介面參考。 最終 [**釋放**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) 呼叫會關閉資料流程。
 

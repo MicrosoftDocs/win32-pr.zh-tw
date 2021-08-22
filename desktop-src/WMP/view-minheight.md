@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 580c263a7def0d98a56190e5e80abc8e6bcb864a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f326ae98cc8bd2970f05096ea167705270e12aabc93b91c7f517adca14ccb14b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119375158"
 ---
 # <a name="viewminheight"></a>MinHeight
 

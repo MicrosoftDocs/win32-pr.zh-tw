@@ -4,12 +4,12 @@ ms.assetid: 14976772-c873-46d8-8687-dcdad2420d83
 title: ICE42
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebe2ea09431870ac7b52ccd69d0ae16c646286ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b913b92d82ad25a9722b289596f6b51940bbade55b5e544ebf636051e21b3ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581068"
 ---
 # <a name="ice42"></a>ICE42
 
@@ -25,7 +25,7 @@ ICE42 會針對所顯示的範例報告下列錯誤。
 
 
 
-| ICE42 錯誤                                                                                                                             | Description                                                                                                                                                                                                               |
+| ICE42 錯誤                                                                                                                             | 描述                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CLSID ' {GUID1} ' 是 InProc 伺服器，但正在執行的元件 ' Component1 ' 有 EXE ( ' test.exe ' ) 作為 KeyFile。                | 有一個可執行檔指定為 InProc 伺服器。 EXE 檔案不能是 InProc 伺服器。                                                                                                                            |
 | 內容 ' InProcServer32 ' 中的 CLSID ' {GUID1} ' 有引數。 只有 LocalServer 內容可以有引數。                              | 若要修正這個錯誤，請移除引數。                                                                                                                                                                                   |

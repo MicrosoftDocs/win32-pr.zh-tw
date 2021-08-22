@@ -1,20 +1,20 @@
 ---
-title: OpenGL 正確性秘訣
-description: OpenGL 正確性秘訣
+title: OpenGL 正確性提示
+description: OpenGL 正確性提示
 ms.assetid: 48397fbf-823d-4ea0-adfd-2c639e20e38f
 keywords:
 - OpenGL、正確性秘訣
 - OpenGL、最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5294d2e989591216ea8cf66aa380933718776f2d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 588cb53ca9e096eb768c4ce448c0bb7badae6f01e7b8d7e16c31a631ebcafb47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119486398"
 ---
-# <a name="opengl-correctness-tips"></a>OpenGL 正確性秘訣
+# <a name="opengl-correctness-tips"></a>OpenGL 正確性提示
 
 遵循下列指導方針來建立可依您預期執行的 OpenGL 應用程式：
 
@@ -50,9 +50,9 @@ ms.locfileid: "104372052"
 
 -   避免使用負 *w* 頂點座標和負 *q* 材質座標。 OpenGL 可能無法正確地裁剪這類座標，而且可能會在這類座標所定義的網底基本專案時產生插補錯誤。
 
- 
+ 
 
- 
+ 
 
 
 

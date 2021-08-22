@@ -4,12 +4,12 @@ description: 本節中的範例將示範如何建立索引標籤控制項，並�
 ms.assetid: 24157B8B-177B-471C-9DA0-548D09EA5F89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 686a9a4fe4f6be95ccdcf3bbcb597c2c48ff3b2d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d8b7d945b01c1e6409cf795d7f42f29999830ed1272bb661a9bb13e52cd1e293
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119320008"
 ---
 # <a name="how-to-create-a-tab-control-in-the-main-window"></a>如何在主視窗中建立索引標籤控制項
 
@@ -21,12 +21,12 @@ ms.locfileid: "104463769"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -189,6 +189,6 @@ BOOL OnNotify(HWND hwndTab, HWND hwndDisplay, LPARAM lParam)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

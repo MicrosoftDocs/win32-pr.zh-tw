@@ -4,12 +4,12 @@ ms.assetid: E9E2FB97-D63B-419A-AC9C-C9AC9E9B5BE0
 title: 設定常數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d3e629b24a611e5166bbcb220cd0bf75d6be24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fd52106937f5fe955d991a72aabf845ab49a8e2d49c934d9353ff6a854c7ff4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548578"
 ---
 # <a name="configuration-constants"></a>設定常數
 

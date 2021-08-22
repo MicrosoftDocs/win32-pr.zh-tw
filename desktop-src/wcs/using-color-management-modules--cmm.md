@@ -3,7 +3,7 @@ title: '使用色彩管理模組 (CMM) '
 description: 色彩管理模組 (Cmm) 是 WCS 程式碼的模組，該程式碼會使用裝置設定檔中的資訊來執行色彩轉換和色彩對應。
 ms.assetid: df119e1a-b6f5-40a3-8852-8a57b21483d0
 keywords:
-- 'Windows Color System (WCS) 、色彩管理模組 (CMM) '
+- 'Windows色彩系統 (WCS) 、色彩管理模組 (CMM) '
 - 'WCS (Windows 色彩系統) 、色彩管理模組 (CMM) '
 - '影像色彩管理、色彩管理模組 (CMM) '
 - '色彩管理、色彩管理模組 (CMM) '
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b12a087bfc972ffcbd7f9fb083a9d73d669f134
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 147c13a688942d46e400c2158c340fcea58d86616de042e9a44511861b67b802
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442348"
 ---
 # <a name="using-color-management-modules-cmm"></a>使用色彩管理模組 (CMM) 
 
@@ -29,7 +29,7 @@ ms.locfileid: "111386897"
 
  
 
-當安裝 Cmm 時，安裝程式會在 Windows 登錄中註冊它們。 應用程式可以列舉已註冊的 Cmm，並使用 [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) 函式選取其中一個。 下列範例應用程式示範如何列舉所有已註冊的 Cmm。
+安裝 cmm 時，安裝程式會在 Windows 登錄中註冊它們。 應用程式可以列舉已註冊的 Cmm，並使用 [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) 函式選取其中一個。 下列範例應用程式示範如何列舉所有已註冊的 Cmm。
 
 
 ```C++

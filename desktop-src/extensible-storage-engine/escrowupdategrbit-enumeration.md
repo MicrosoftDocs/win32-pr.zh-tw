@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d301ef801a5685057a9e33beb794f3b6cf13e646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f0e4223e0e5457be96b47894d2cc8b9ccab3dbfabe0e7a7138d2a463cb7392d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404388"
 ---
 # <a name="escrowupdategrbit-enumeration"></a>EscrowUpdateGrbit 列舉
 

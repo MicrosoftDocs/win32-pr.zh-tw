@@ -4,12 +4,12 @@ ms.assetid: a5567c3b-edc0-427a-9751-ba221611e92c
 title: 取消註冊可插入的終端機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb53f27dc7b468fd4288fd407faee00ab1ece8ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3068cd6d749dda2f1b6618672a1aabaace72ba6c3ef137c1c47952209c87f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518108"
 ---
 # <a name="unregister-a-pluggable-terminal"></a>取消註冊可插入的終端機
 

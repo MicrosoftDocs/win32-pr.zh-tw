@@ -4,12 +4,12 @@ description: 本章節包含在 rich edit 控制項中使用物件連結和內�
 ms.assetid: bfcecbf5-cc35-47b8-a713-7e5fd03f60cc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7868bd62044c87765a25f6033499460ed044e57
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 9d825a9876005cadb20e4fc7717f766582ab12224f4f86995319357875d24230
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104092601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119311678"
 ---
 # <a name="how-to-use-ole-in-rich-edit-controls"></a>如何在 Rich Edit 控制項中使用 OLE
 
@@ -19,12 +19,12 @@ ms.locfileid: "104092601"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -36,7 +36,7 @@ Rich edit 控制項會透過元件物件模型 (COM) 介面來公開部分功能
 
 ### <a name="insert-an-object-into-a-rich-edit-control"></a>將物件插入至 Rich Edit 控制項
 
-下列程式碼範例會將檔案物件插入至 rich edit 控制項。 如果程式與使用者電腦上的檔案類型相關聯 (例如，Microsoft Excel 的 .xls 檔案) ，則檔案的內容會顯示在控制項中;否則，就會出現圖示。
+下列程式碼範例會將檔案物件插入至 rich edit 控制項。 如果程式與使用者電腦上的檔案類型相關聯 (例如 Microsoft Excel .xls 檔案) ，則會在控制項中顯示檔案的內容;否則，就會出現圖示。
 
 1.  取得 [**IRichEditOle**](/windows/desktop/api/Richole/nn-richole-iricheditole) 介面。
 
@@ -336,9 +336,9 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

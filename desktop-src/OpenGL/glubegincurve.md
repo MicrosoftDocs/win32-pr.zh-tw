@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4e17bd88cfcb49801450ead865c437843d179b5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 171c6ce95acf7592fcb2c3badccfeb9f2c5d68413f963f7b5043ec63502ee720
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489738"
 ---
 # <a name="glubegincurve-function"></a>gluBeginCurve 函式
 

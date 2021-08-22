@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9d7a766f79edde4683942327c1ec6180cbf04d2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c729a5c8e434d39d27008135f10f461677635becc3d7178284fc07777edaa5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119366458"
 ---
 # <a name="columninfomaxlength-property"></a>ColumnInfo MaxLength 屬性
 

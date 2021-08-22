@@ -4,16 +4,16 @@ ms.assetid: 362c6f44-ca67-4043-8d2c-4e46b5c8edd3
 title: 設定 VSS 還原目標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e8815e552db518c447bd63b9f02ba9228850384
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76f9378fe8175970a8ccacb196414f3afafbcd583ad74f9aca438a3e9b6cf6d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119394188"
 ---
 # <a name="setting-vss-restore-targets"></a>設定 VSS 還原目標
 
-[**>ivsscomponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent)介面可讓寫入器精確微調以元件為基礎來還原檔案的方式。
+[**>Ivsscomponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent)介面可讓寫入器精確微調以元件為基礎來還原檔案的方式。
 
 因為還原期間的系統設定可能不是在備份期間所預期的，所以會提供還原目的機制。
 
@@ -25,7 +25,7 @@ ms.locfileid: "107001695"
 
 要求者和寫入器可以使用 [**>ivsscomponent：： GetRestoreTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoretarget) 檢查元件集的還原目標。
 
-[**>ivsscomponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) 支援下列還原目標，可在元件集的元件上設定：
+[**>Ivsscomponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) 支援下列還原目標，可在元件集的元件上設定：
 
 -   VSS \_ RT \_ 原始。 將遵守 [**VSS \_ RESTOREMETHOD \_ 列舉**](/windows/desktop/api/VsWriter/ne-vswriter-vss_restoremethod_enum) 列舉所指定的還原方法。
 -   VSS \_ RT \_ 替代。 這些檔案會還原至從現有替代位置對應決定的位置。 如果存在與元件集子元件中路徑相符的替代位置對應，請盡可能還原至替代位置;否則，會傳回錯誤。

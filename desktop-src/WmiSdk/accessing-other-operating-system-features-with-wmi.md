@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用 WMI 存取其他作業系統功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac4c639702c0456ed2e0560b703228ed8552e03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7828597d653153118544093c6abb4c005fc537e775ec1ed8cbace654f3688fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119374878"
 ---
 # <a name="accessing-other-operating-system-features-with-wmi"></a>使用 WMI 存取其他作業系統功能
 

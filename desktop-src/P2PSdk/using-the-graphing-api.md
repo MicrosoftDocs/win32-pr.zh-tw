@@ -4,12 +4,12 @@ ms.assetid: aecf9a7b-93eb-48d3-b70d-32c0e53d78af
 title: 使用圖形 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64be1c24c0c406f4cd8aea0b8e251b785eccb31c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 941b4d77c7082c8097198491dd309de2f30c4d4799da0d66c2468f14a8aa31d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119287588"
 ---
 # <a name="using-the-graphing-api"></a>使用圖形 API
 

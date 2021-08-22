@@ -1,6 +1,6 @@
 ---
 title: msSFU-30-網域屬性
-description: 包含已遷移至相同 AD NIS 網域的 UNIX NIS 網域清單。
+description: 包含已遷移至相同 AD NIS 網域之 UNIX NIS 網域的清單。
 ms.assetid: 7f9f3994-a46d-49d4-8d99-35762be7bc33
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d344e02f956a1476427c33792b29b016b16a6558
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a117db51b90a5a403077aa4b0bd3efd6622891910cbf9ba1d7f294edff49a456
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581978"
 ---
 # <a name="mssfu-30-domains-attribute"></a>msSFU-30-網域屬性
 
-包含已遷移至相同 AD NIS 網域的 UNIX NIS 網域清單。
+包含已遷移至相同 AD NIS 網域之 UNIX NIS 網域的清單。
 
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "103687207"
 | MAPI-Id                | \-                                                             |
 | System-Only            | 否                                                          |
 | 是-單一值       | 否                                                          |
-| 已編制索引             | 對                                                           |
+| 已編制索引             | 是                                                           |
 | 在通用類別目錄中      | 否                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                   |
 | Range-Lower            | \-                                                             |
@@ -78,7 +78,7 @@ ms.locfileid: "103687207"
 | MAPI-Id                | \-                                                             |
 | System-Only            | 否                                                          |
 | 是-單一值       | 否                                                          |
-| 已編制索引             | 對                                                           |
+| 已編制索引             | 是                                                           |
 | 在通用類別目錄中      | 否                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                   |
 | Range-Lower            | \-                                                             |
@@ -99,7 +99,7 @@ ms.locfileid: "103687207"
 | MAPI-Id                | \-                                                             |
 | System-Only            | 否                                                          |
 | 是-單一值       | 否                                                          |
-| 已編制索引             | 對                                                           |
+| 已編制索引             | 是                                                           |
 | 在通用類別目錄中      | 否                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                   |
 | Range-Lower            | \-                                                             |
@@ -120,7 +120,7 @@ ms.locfileid: "103687207"
 | MAPI-Id                | \-                                                             |
 | System-Only            | 否                                                          |
 | 是-單一值       | 否                                                          |
-| 已編制索引             | 對                                                           |
+| 已編制索引             | 是                                                           |
 | 在通用類別目錄中      | 否                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                   |
 | Range-Lower            | \-                                                             |

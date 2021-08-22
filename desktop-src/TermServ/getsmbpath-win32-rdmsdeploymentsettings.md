@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa1738faf82a6405018495dd762ba9585daa3e1b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b094fc03abd6c05e9aefd98fe960559ac347a604e97dd3cf5c27dc34f735168
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401298"
 ---
 # <a name="getsmbpath-method-of-the-win32_rdmsdeploymentsettings-class"></a>Win32 RDMSDeploymentSettings 類別的 GetSMBPath 方法 \_
 

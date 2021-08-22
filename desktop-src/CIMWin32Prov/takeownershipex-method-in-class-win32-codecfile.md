@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 36512d48fe724da42c39c0d3d0686a706f54472d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 04af6ed0953f25c5b02e988569eecad806ae62cb4757463831132e3c22dd40b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546638"
 ---
 # <a name="takeownershipex-method-of-the-win32_codecfile-class"></a>Win32 CodecFile 類別的 TakeOwnerShipEx 方法 \_
 
@@ -116,7 +116,7 @@ uint32 TakeOwnerShipEx(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

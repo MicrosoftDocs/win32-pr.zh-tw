@@ -4,20 +4,20 @@ ms.assetid: c7ab73fc-56a6-4b6c-820a-3f8e4a97cfaf
 title: 近端分享需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff6afb97800041e0fcd9a10a6d95334b832fb363
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ebbb904175184b6e9d06c807aa4b4ed645c93633114d6b9b64085e34dfa3683
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518348"
 ---
 # <a name="people-near-me-requirements"></a>近端分享需求
 
-為了讓 [近端分享](about-people-near-me.md) 為 Windows 對等網路應用程式提供順暢的連線能力和簡單的共同作業，請完成下列作業：
+為了讓[近端分享](about-people-near-me.md)能為 Windows 對等網路應用程式的使用者提供順暢的連線能力和簡單的共同作業，請完成下列步驟：
 
 ### <a name="people-discovery"></a>人們探索
 
-人們探索可讓使用者探索和顯示位於本機子網上的一組對等。 本機子網上的任何電腦都必須通告登入對等的名稱。 探索查詢之後所列的對等，是一組執行 Windows Vista 的使用者，已設定為使用 [近端分享](about-people-near-me.md)將昵稱通告給其他使用者。 這項功能預設為停用，且必須由已登入的使用者啟用。
+人們探索可讓使用者探索和顯示位於本機子網上的一組對等。 本機子網上的任何電腦都必須通告登入對等的名稱。 探索查詢之後所列的對等，是一組執行 Windows Vista 的使用者，這些使用者會設定為使用[近端分享](about-people-near-me.md)將昵稱公告給其他使用者。 這項功能預設為停用，且必須由已登入的使用者啟用。
 
 > [!Note]  
 > 在「近端分享」探索程式期間探索到的遠端對等，不一定是與探索到之對等相關聯的預期使用者。
@@ -46,7 +46,7 @@ ms.locfileid: "103849306"
 
 ### <a name="security"></a>安全性
 
-若要保護對等共同作業活動中所交換的使用者和資料，使用者可以對所公告的內容進行配置控制。 使用者也必須接受邀請，才可開始對等共同作業。 共同作業活動會使用安全通訊端層 (SSL) 加密通道進行加密 (也稱為 Schannel) 。 SSL 是一種密碼編譯通訊協定，可保護以 TCP 為基礎的通訊。 如需詳細資訊，請參閱 [SChannel](windows-vista-components-for-people-near-me.md)。 在 Windows Vista 中， [Windows 對等網路](what-is-peer-networking-.md)架構中的一組新元件支援這些需求。
+若要保護對等共同作業活動中所交換的使用者和資料，使用者可以對所公告的內容進行配置控制。 使用者也必須接受邀請，才可開始對等共同作業。 共同作業活動會使用安全通訊端層 (SSL) 加密通道進行加密 (也稱為 Schannel) 。 SSL 是一種密碼編譯通訊協定，可保護以 TCP 為基礎的通訊。 如需詳細資訊，請參閱 [SChannel](windows-vista-components-for-people-near-me.md)。 Windows Vista 的[Windows 對等網路](what-is-peer-networking-.md)架構中的一組新元件支援這些需求。
 
  
 

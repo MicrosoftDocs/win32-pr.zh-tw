@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: ad9115bf7bb0912362455986e77d5792cceec3b7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a0e69986e7415a5a12eca7c450b0d7ff064c650d33c35997b9a166b01592c41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119444798"
 ---
 # <a name="wpd_service_inheritance_types-enumeration"></a>WPD \_ 服務 \_ 繼承 \_ 類型列舉
 

@@ -4,12 +4,12 @@ ms.assetid: 12d7781e-a27d-4cbe-b7c4-6c0dfef11074
 title: 手動選取終端機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95335402690c57cc3f564f5d238ca031df4b3549
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6eaa1e0a5b8b53b1037c51b0e628d7a27ece0be65a0f9a7e86e882c722360f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514638"
 ---
 # <a name="manual-terminal-selection"></a>手動選取終端機
 
