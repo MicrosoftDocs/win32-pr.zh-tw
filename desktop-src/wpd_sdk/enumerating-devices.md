@@ -4,12 +4,12 @@ description: 瞭解應用程式如何使用 EnumerateAllDevices 函式來列舉�
 ms.assetid: 28ded3cf-b0c8-4c90-ab39-efc879adb6e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6465b04e6f1a18a0bdb74f0ce883cf9161371fb6
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: f6cfe1c1b4dee11383a4c36eaea43974f7e0439ae4ff2370a90e99b1702a8e0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083572"
 ---
 # <a name="enumerating-devices-wpd"></a> (WPD) 列舉裝置
 

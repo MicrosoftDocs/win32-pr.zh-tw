@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103870
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e11e04f435004d7a647916d6c2e348cabadfc44f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1135002e6ce86027751157cc0cd17865be010571ad9064685e36d8e532dec73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038776"
 ---
 # <a name="jet_retinfo-methods"></a>JET_RETINFO 方法
 

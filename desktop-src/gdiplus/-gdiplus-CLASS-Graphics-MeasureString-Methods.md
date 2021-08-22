@@ -4,12 +4,12 @@ ms.assetid: 947c3080-1035-4dfe-aa7d-f73753a568cf
 title: MeasureString 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 61b976e4c433d50c0a62b3fc642fa788645ba778
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f335c55296f602961ba50ec32ecf87fa53960b51dc934699524720c063a5d0e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037206"
 ---
 # <a name="graphicsmeasurestring-methods"></a>MeasureString 方法
 

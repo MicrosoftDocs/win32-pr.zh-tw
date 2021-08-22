@@ -1,15 +1,15 @@
 ---
-description: 在建立自訂 DirectShow 篩選器的篩選屬性頁時，將篩選的新介面公開給用戶端。
+description: 將篩選的新介面公開給用戶端，做為建立自訂 DirectShow 篩選準則之篩選屬性頁的一部分。
 ms.assetid: a0e52ba9-9f7c-4cf3-ba5f-b0035ed1794c
 title: 步驟 3： 支援 QueryInterface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84b62132a6f24c68453ad4e51f72cdd9a2a78c65
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0761a0ecf57bc7769cf40623c6929655a9f757b66b35bb506167d4263a7e02a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112410021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072452"
 ---
 # <a name="step-3-support-queryinterface"></a>步驟 3： 支援 QueryInterface
 

@@ -4,12 +4,12 @@ ms.assetid: b1ebd9a4-cde4-4c0c-80d2-5ccb655cd3a4
 title: 建立檔案視圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 498f7ba132efd9ecf82f9ec087492c9622824b51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eadae741e9f74e8a3e1cd68006100d6acf82aad5019a8d31b18a7761c5620b69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067878"
 ---
 # <a name="creating-a-file-view"></a>建立檔案視圖
 

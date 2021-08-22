@@ -4,12 +4,12 @@ ms.assetid: f1ac375a-3f08-49cd-8752-6f55db24a60c
 title: 容錯堆積
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b17ab2630e6dc28cb84604e48be1aa60bf208a97
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a99d6df576906c82a3c0bc95ca4dc8b8ae54b26433c9fb213da5917d596af947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053166"
 ---
 # <a name="fault-tolerant-heap"></a>容錯堆積
 
@@ -23,11 +23,11 @@ ms.locfileid: "108088396"
 **頻率-** 低  
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 容錯堆積 (FTH) 是 Windows 7 的子系統，負責監視應用程式損毀並自主套用緩和措施，以防止每個應用程式的未來損毀。 大部分的使用者都可以使用 FTH，而不需要介入或變更其部分。 不過，在某些情況下，應用程式開發人員和軟體測試人員可能需要覆寫此系統的預設行為。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 **查看容錯堆積活動**
 
@@ -35,7 +35,7 @@ ms.locfileid: "108088396"
 
 1.  按一下 [開始] 功能表。
 2.  在 [ **電腦** ] 上按一下滑鼠右鍵，然後按一下 [ **管理**]。
-3.  按一下 [**事件檢視器**  >  **應用程式及服務記錄** 檔]，以將  >  **Microsoft**  >  **Windows > 容錯堆積**
+3.  按一下 [**事件檢視器**  >  **應用程式及服務記錄檔]，**  >  **Microsoft**  >  **Windows > 容錯堆積**
 4.  查看 FTH 事件。
 
 服務停止和啟動事件不包含任何其他資料。 FTH Enabled 事件包含處理序識別碼 (PID) 、進程映射名稱和進程實例開始時間。

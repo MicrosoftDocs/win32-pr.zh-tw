@@ -4,12 +4,12 @@ description: HTTP 伺服器 API 程式設計模型包含五個活動群組。
 ms.assetid: 8485cbdc-803f-4c10-ae4c-9ca53965d747
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: def54ac8a34d6c53ea4e2825ef39884f0141df99
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 30fe49dd9a50af72fc89efa6c10c56176966fda949fa177b3f081761a0d2a568
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104558984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014728"
 ---
 # <a name="programming-model"></a>程式設計模型
 

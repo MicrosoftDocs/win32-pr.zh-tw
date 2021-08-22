@@ -4,12 +4,12 @@ ms.assetid: 0ee0c0a6-cb9f-480f-a75d-72b3659cc7fb
 title: 關於線條和曲線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa121b53b120e8840fed5f9830a5b89be774f751
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62d24e67d5c0c8e4554db03caec24bf257698c29e47f79d24ca0bbbedd768ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038376"
 ---
 # <a name="about-lines-and-curves"></a>關於線條和曲線
 

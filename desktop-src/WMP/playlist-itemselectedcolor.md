@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca82e9e8e68daefc746b5bb4a68a20452a584fdc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51cddc80450f7051c4bdaacb78ecce62ed72a4f94f9b10ee583cae89209f027c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054216"
 ---
 # <a name="playlistitemselectedcolor"></a>播放清單。 itemSelectedColor
 
@@ -29,7 +29,7 @@ ms.locfileid: "106995063"
 
 ## <a name="possible-values"></a>可能的值
 
-這個屬性是代表色彩的讀取/寫入 **字串** 。 預設值為 Windows 醒目提示文字色彩。
+這個屬性是代表色彩的讀取/寫入 **字串** 。 預設值是 Windows 醒目提示文字色彩。
 
 ## <a name="requirements"></a>規格需求
 

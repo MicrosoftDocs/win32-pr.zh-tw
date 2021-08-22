@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c544b2a32c0c04053908c2ad34e2718cc5c15519
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e216022fe74cba9632d07761782c17f6da3e805e9ffe718275a92735fe51791
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039786"
 ---
 # <a name="esentslvstreamingfilealreadyexistsexception-class"></a>EsentSLVStreamingFileAlreadyExistsException 類別
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101521
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e82a254a9c1630bce8ccba21d4945fc727159b5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f002b7c169a7ca422661984d8ec66fb7120a7bdf461cf0cac8caaae89de244d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116218"
 ---
 # <a name="esentdatabaseinvalidpagesexception-methods"></a>EsentDatabaseInvalidPagesException 方法
 

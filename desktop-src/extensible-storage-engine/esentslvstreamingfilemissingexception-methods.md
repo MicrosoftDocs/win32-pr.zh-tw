@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102941
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 30b0adfefc6b8d5c8525b39f537bc0b0528dff29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31ea15d7bff02d43a8a491c6bc3bbac1aeb7e317bc07acb3531b9078bc2083b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039693"
 ---
 # <a name="esentslvstreamingfilemissingexception-methods"></a>EsentSLVStreamingFileMissingException 方法
 

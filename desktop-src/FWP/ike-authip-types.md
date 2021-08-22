@@ -4,12 +4,12 @@ description: IKE/AuthIP 類型
 ms.assetid: DB86E625-E6C0-4999-A3BD-58F76216E9AC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa460688de13dd9e2fa86651365d5b64cf4a541
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 61b1196e074d03b3b1a85dccd947653cebdf1c033f5df39720bdf3da8fa96f78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104023128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069068"
 ---
 # <a name="ikeauthip-types"></a>IKE/AuthIP 類型
 
@@ -28,9 +28,9 @@ ms.locfileid: "104023128"
 -   [**IKEEXT \_ QM \_ SA \_ 狀態**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_qm_sa_state)
 -   [**IKEEXT \_ SA \_ 角色**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_sa_role)
 
- 
+ 
 
- 
+ 
 
 
 

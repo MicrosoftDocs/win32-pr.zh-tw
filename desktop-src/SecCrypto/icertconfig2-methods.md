@@ -4,12 +4,12 @@ ms.assetid: 210591C1-CCB9-49A3-84D7-25FD4EB0EC39
 title: ICertConfig2 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a5b7c075378e856586bc662b049ca848bc6757f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 971393bd1318194a4ccab4c5d81bc4d0496749b1db475d2ef1e6e74fc1be1813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006216"
 ---
 # <a name="icertconfig2-methods"></a>ICertConfig2 方法
 

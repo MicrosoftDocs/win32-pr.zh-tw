@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102257
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6d93645c016d9f125c4ed77ff6248c4abb50e1b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82180cd598ddeaa05d293ae8bd3ab0eb6fbbfc4ab422ebb75db5961317c27037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115578"
 ---
 # <a name="esentmemoryexception-properties"></a>EsentMemoryException 屬性
 

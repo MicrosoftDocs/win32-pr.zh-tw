@@ -4,16 +4,16 @@ ms.assetid: 3d9315fc-dcfb-483a-9437-55c440813dc2
 title: 取得 DVD 介面指標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24825b2d24ffae70e3def131e8aa522a987c11d0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 70d965dff48813800fa76821c72fa06a2d2f652e623c8aaeb7c0b44f9f9fafc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072937"
 ---
 # <a name="obtaining-the-dvd-interface-pointers"></a>取得 DVD 介面指標
 
-建立篩選圖形之後，您的應用程式可以取得所需的指標，以控制 DVD 導覽器、篩選圖形管理員和影片視窗。 下列程式碼範例將說明基本步驟（包含錯誤檢查和其他程式碼，以簡化方式）。 完整的程式碼可在 CDvdCore：： BuildGraph 方法的 DVD 範例應用程式中找到。  (需詳細資訊，請參閱 [DirectShow 範例](directshow-samples.md)。 ) 
+建立篩選圖形之後，您的應用程式可以取得控制 DVD 導覽器、篩選 Graph 管理員和影片視窗所需的指標。 下列程式碼範例將說明基本步驟（包含錯誤檢查和其他程式碼，以簡化方式）。 完整的程式碼可在 CDvdCore：： BuildGraph 方法的 DVD 範例應用程式中找到。  (需詳細資訊，請參閱[DirectShow 範例](directshow-samples.md)。 ) 
 
 
 ```C++

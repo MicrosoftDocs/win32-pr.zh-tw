@@ -4,16 +4,16 @@ ms.assetid: 663b6b3b-2a50-4586-9506-600a59869abe
 title: VFW Capture 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eadc2c8a22ed6e00ff76d79a0b7ce2db012abb4
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 679f8e736564534948d05fe25ecb1bc18bbb787df370aca0f9a3752960f719ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071952"
 ---
 # <a name="vfw-capture-filter"></a>VFW Capture 篩選
 
-此篩選器適用于使用適用于 Windows 的影片的較舊影片捕獲硬體。
+此篩選器適用于使用影片進行 Windows 的較舊影片捕獲硬體。
 
 此篩選器有兩個輸出圖釘。 其中一個稱為「Capture」，另一個稱為「預覽」或「重迭」。
 
@@ -44,7 +44,7 @@ ms.locfileid: "107908396"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [影片捕獲](video-capture.md)

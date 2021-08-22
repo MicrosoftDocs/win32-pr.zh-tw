@@ -4,12 +4,12 @@ description: 下列清單包含使用 Windows 篩選平台 (WFP) API 來開發�
 ms.assetid: 017ff210-8666-466e-8424-c95e750fd5ac
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ac43f103e0076945d566e26a1706bdec22916db
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3e0ddb6038a9fe43070f1c16e545dbd7ac8929f3363fc88556aac391428175ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069458"
 ---
 # <a name="best-practices-windows-filtering-platform"></a> (Windows 篩選平台) 的最佳作法
 
@@ -49,7 +49,7 @@ ms.locfileid: "104508248"
 
 -   在 Stream/資料包資料層執行封包檢查，而不是在傳輸層。
 
-    這適用于開發標注。 如需詳細資訊，請參閱 Windows 驅動程式套件 (WDK) 的注標 [驅動程式設計考慮](/windows-hardware/drivers/network/callout-driver-programming-considerations) 。
+    這適用于開發標注。 如需詳細資訊，請參閱 Windows 驅動程式套件 (WDK) 的注標[驅動程式設計考慮](/windows-hardware/drivers/network/callout-driver-programming-considerations)。
 
 -   使用複雜的篩選器時，請考慮效能的影響。
 

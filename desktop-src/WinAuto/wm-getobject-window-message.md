@@ -4,12 +4,12 @@ description: WM \_ GETOBJECT 視窗訊息
 ms.assetid: 56ab7e6b-a469-49f9-ab56-82e11e374b25
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ada36f9976345f5323a39967b7a5b18bc8e4ace
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 757fabb2b4fcb5ec7a030ae341c011e5b08563235c46257bdebdee44cfc9fe9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052156"
 ---
 # <a name="wm_getobject-window-message"></a>WM \_ GETOBJECT 視窗訊息
 
@@ -18,9 +18,9 @@ ms.locfileid: "104371952"
 -   [WM \_ GETOBJECT 的運作方式](how-wm-getobject-works.md)
 -   [如何處理 WM \_ GETOBJECT](how-to-handle-wm-getobject.md)
 
- 
+ 
 
- 
+ 
 
 
 

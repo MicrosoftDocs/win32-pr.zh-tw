@@ -4,12 +4,12 @@ ms.assetid: 08347831-7100-4220-a83b-693bb7b98ccb
 title: 調整色彩
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 370155306f7b1a177358d7cf28d329ebb0d75f8c
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 7877db07ff1a11dcb985f8b0ca8ec3cc017f25fe45f00e989c9108891f8ff1ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104195656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036366"
 ---
 # <a name="scaling-colors"></a>調整色彩
 
@@ -67,7 +67,7 @@ graphics.DrawImage(
 
 ![顯示四個彩色橫條圖，然後顯示具有不同色彩的相同橫條。](images/colortrans3.png)
 
-下表顯示藍色縮放前後四個橫條的色彩向量。 請注意，第四個色軸中的藍色元件是從0.8 到0.6。 這是因為 GDI + 只保留結果的小數部分。 例如， (2)  (0.8) = 1.6，1.6 的小數部分則是0.6。 只保留小數部分可確保結果一律為間隔 \[ 0，1 \] 。
+下表顯示藍色縮放前後四個橫條的色彩向量。 請注意，第四個色軸中的藍色元件是從0.8 到0.6。 這是因為 GDI+ 只保留結果的小數部分。 例如， (2)  (0.8) = 1.6，1.6 的小數部分則是0.6。 只保留小數部分可確保結果一律為間隔 \[ 0，1 \] 。
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e8c12a1d-f6a4-4850-814d-6f0a712f8f9a
 title: 將 System-Buffered i/o 資料排清到磁片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0639c5ea909d96a248bb563f1c6a08cd7a526d98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44740158ce1a5a2c3449a0fc5b90bc04bb0da525709cf7ee05c8768d10c39460
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068698"
 ---
 # <a name="flushing-system-buffered-io-data-to-disk"></a>將 System-Buffered i/o 資料排清到磁片
 

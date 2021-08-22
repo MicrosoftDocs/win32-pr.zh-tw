@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101347
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6b6bf1ece00744d9f70f29e1a4d5d00fc74a4192
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52c42afdadefe754939dba21ff34d4a89201571403a81f5e61da4a7363b038e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116648"
 ---
 # <a name="esentcolumnnotupdatableexception-properties"></a>EsentColumnNotUpdatableException 屬性
 

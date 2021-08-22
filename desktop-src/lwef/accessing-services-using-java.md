@@ -4,16 +4,16 @@ description: 使用 JAVA 存取服務
 ms.assetid: 3eced858-487a-4f36-a7a1-34ac827aad13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c24ae7508b5999e5d07f2480d49cb4c20dd89a0
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b19a9a3feb1e6cb5fc9ddb8a24b87adfdb42461ebb4581723c1cdb465739c51a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976848"
 ---
 # <a name="accessing-services-using-java"></a>使用 JAVA 存取服務
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 您也可以從 JAVA applet 存取 Microsoft Agent 服務。 許多可透過 Microsoft Agent 介面存取的函式會透過傳址方式傳遞的參數傳回值。 若要從 JAVA 傳遞這些參數，您必須在程式碼中建立單一元素的陣列，並將它們以參數形式傳遞給適當的函式。 如果您使用 Microsoft Visual c + +，並已在 Microsoft 代理程式伺服器上執行 JAVA 類型程式庫嚮導，請參閱 summary.txt 檔案，以檢查哪些函數需要陣列引數。 程式與 C 中的程式類似;您可以使用 [**IAgentEx**](https://www.bing.com/search?q=**IAgentEx**) 介面來建立伺服器的實例，然後載入該字元：
 
@@ -161,6 +161,6 @@ public void start()
 
 若要從 JAVA applet 存取 Microsoft 代理程式，您必須產生使用 applet 安裝的 JAVA 類別。 例如，您可以使用 Visual j + + JAVA 類型程式庫 Wizard 來產生這些檔案。 如果您想要在網頁上裝載小程式，您必須建立一個帶正負號的 JAVA CAB，內含隨頁面下載的產生類別檔案。 需要類別檔案才能存取 Microsoft 代理程式伺服器，因為它是在 JAVA 沙箱外部執行的 COM 物件。 若要深入瞭解 JAVA 的 Trust-Based 安全性，請參閱 <https://www.microsoft.com/java/security> 。
 
- 
+ 
 
- 
+ 

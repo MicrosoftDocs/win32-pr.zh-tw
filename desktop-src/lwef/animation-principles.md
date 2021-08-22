@@ -4,16 +4,16 @@ description: 動畫原則
 ms.assetid: 3633744c-ddb1-44bb-a390-7114386d265c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3b7468c519b282062c6ef15720b641d40b6f674
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88477f228d12c68218963d5c12f3354892e45997504497a71622e30fe249c25a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976738"
 ---
 # <a name="animation-principles"></a>動畫原則
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 有效的動畫設計所需的不僅僅是轉譯字元。 成功的 animators 遵循各種原則和技術來建立 "可信" 字元。
 
@@ -61,9 +61,9 @@ ms.locfileid: "103839520"
 
 成功的執行取決於您對觀眾的瞭解程度。 您的字元整體影像和個人應吸引您的目標物件;吸引人的是，不需要相片的真實感。 只要使用手勢、狀態和其他舉止，就可以表達字元的特質（不論其形狀有多簡單）。 開始 animators 的一般指派是針對 flour sack 或 small 地毯建立各種運算式。 具有簡單圖形的字元通常比複雜的字元更有效。 例如，假設許多常用的字元都只有三個手指和一個 thumb。
 
- 
+ 
 
- 
+ 
 
 
 

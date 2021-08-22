@@ -6,12 +6,12 @@ keywords:
 - MIDL 編譯器 MIDL、MIDL 和 RPC MIDL、為 RPC 產生的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76e6725d50bd4ccffdfb85ffc283e3f74d0f1628
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa7b1735c4312013d42f667d27498f40b502846118e61be1697ae78368a41fff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013876"
 ---
 # <a name="files-generated-for-an-rpc-interface"></a>針對 RPC 介面產生的檔案
 
@@ -21,9 +21,9 @@ MIDL 編譯器會產生在用戶端應用程式與伺服器應用程式之間建
 -   [伺服器 Stub](the-server-stub.md)
 -   [標頭檔](the-header-file.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 9d5dd89e-9084-409d-86c0-30b57645d33d
 title: VAUX 原始檔控制 (VSC) 套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed51363a15c0024dcaf3edca5d21217cb29396d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcdc91d5c4b2cea460c85b696c59bfce7799d39aed0a6bfcbc03f3d3c522a6ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072072"
 ---
 # <a name="vaux-source-control-vsc-pack"></a>VAUX 原始檔控制 (VSC) 套件
 
-下表列出 MSDV 驅動程式用來填入 [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo)結構之 **dwDVVAuxCtl** 成員的值。 如需詳細資訊，請參閱 [MSDV 驅動程式中的 DVINFO 欄位設定](dvinfo-field-settings-in-the-msdv-driver.md)。
+下表列出 MSDV 驅動程式用來填入 [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo)結構之 **dwDVVAuxCtl** 成員的值。 如需詳細資訊，請參閱[MSDV 驅動程式中的 DVINFO 欄位設定](dvinfo-field-settings-in-the-msdv-driver.md)。
 
 **DVCR 設定**
 
@@ -233,7 +233,7 @@ VSC 套件
 
  
 
-**DVCPRO 25 與 DVCPRO 50 設定 (計畫的)**
+**DVCPRO 25 與 DVCPRO 50 設定 (規劃的)**
 
 
 
@@ -401,7 +401,7 @@ VSC 套件
 
  
 
-**規劃)  (DVCPRO 100 設定**
+**DVCPRO 100 設定 (規劃的)**
 
 
 

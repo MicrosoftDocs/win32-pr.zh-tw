@@ -4,12 +4,12 @@ ms.assetid: b13018c2-cb31-45d6-ba42-f94945a0b63b
 title: XMUSHORTN2 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a7035cf34697e83e861b4c734d1e62db88b23af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6129859ff3cc9e90816ff81ee3fdb1aa05291710ee6f677de6eeeec11724ea39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984848"
 ---
 # <a name="xmushortn2-extensions"></a>XMUSHORTN2 延伸模組
 

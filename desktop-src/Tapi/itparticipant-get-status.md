@@ -4,16 +4,16 @@ ms.assetid: 03ad763b-5223-41b5-b0cf-1f13c761f5c2
 title: 'ITParticipant：： get_Status 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de39ac0833f856e35cc120b4f4e5b00bcd617de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b1585c9605447e7b515885ecf9e30d060afb7a57d14c5b29a66025f2df9da05a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060846"
 ---
 # <a name="itparticipantget_status-method"></a>ITParticipant：： get \_ Status 方法
 
-\[**取得 \_** 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用狀態。 RTC 用戶端 API 提供類似的功能。\]
+\[**取得 \_** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用狀態。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ Status** 方法會傳回 VARIANT \_ BOOL，指出參與者的狀態。
 
@@ -53,7 +53,7 @@ HRESULT get_Status(
 
 
 
-| 傳回碼                                                                                   | Description                                                               |
+| 傳回碼                                                                                   | 描述                                                               |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                              |
 | <dl> <dt>**E \_ >NOTIMPL**</dt> </dl>     | 未執行方法。<br/>                                        |

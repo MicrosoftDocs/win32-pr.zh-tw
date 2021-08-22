@@ -32,12 +32,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c402a0128286964ddeb1c53cd805e4ef6414bfb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 197025b4cfb842cf4ca38af64124c02415240ac6fc878f9c121d4e228b77f5b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001486"
 ---
 # <a name="imsrdpclient5geterrordescription-method"></a>IMsRdpClient5：： GetErrorDescription 方法
 

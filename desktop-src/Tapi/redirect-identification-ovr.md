@@ -4,12 +4,12 @@ ms.assetid: 08484b38-7c97-4acc-921e-0f566b2d3415
 title: 重新導向識別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8316b7d1566a24ead21f7b1fdf2d16b1c48a2b15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa7648167e6f60dc2e8593a576053df9a0ff54eb0fadc9a446a66127b435e5c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060446"
 ---
 # <a name="redirect-identification"></a>重新導向識別
 

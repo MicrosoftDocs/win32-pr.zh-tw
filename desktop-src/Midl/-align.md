@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 019a06be10a4937127d98d508275b57dfe508399
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 187607b783678d3045224daec021eabf436fa8ba1884128789f44b06ac4365ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104507613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067648"
 ---
 # <a name="align-switch"></a>/align 參數
 
@@ -26,7 +26,7 @@ ms.locfileid: "104507613"
 > [!Note]  
 > Mktyplib.exe 工具已淘汰。 請改用 MIDL 編譯器。
 
- 
+ 
 
 ``` syntax
 midl /align:alignment
@@ -65,9 +65,9 @@ midl /align:alignment
 [**/Zp**](-zp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3d5538a5553389bb204edeab48b571ab3d46d77a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5edd6450423c1e945231d9a4c31527ccac6b1988220f6a93dbfaadb87e22baed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039216"
 ---
 # <a name="jet_handlenil-property"></a>JET_HANDLE。Nil 屬性
 

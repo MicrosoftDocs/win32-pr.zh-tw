@@ -4,12 +4,12 @@ description: 設定 URL 群組
 ms.assetid: be222076-51ff-4907-924f-cc7b0d4fe767
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 407ca18fc5d2797c99e86661bf462eaf0a3fdc5b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3d2d335af063eb8cadc557db3f01da850b468099866e292bcd5ea2a3af314de8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014906"
 ---
 # <a name="configuring-the-url-group"></a>設定 URL 群組
 

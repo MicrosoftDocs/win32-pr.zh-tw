@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103214
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4a807a54fbd786e8c27c1e469e8829b9e6ad8353
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8100db93b4d46935cde879e3b7d28bacfe7716c4590fd133cb7fba75d05fbf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104570913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112727"
 ---
 # <a name="esentwriteconflictexception-methods"></a>EsentWriteConflictException 方法
 

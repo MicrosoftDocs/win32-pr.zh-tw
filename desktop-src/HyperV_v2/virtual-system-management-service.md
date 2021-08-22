@@ -4,12 +4,12 @@ ms.assetid: A5EB62F8-C925-4279-B802-CD40A2C282FD
 title: 虛擬系統管理服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f0385b1a70841948b18bb78d052758b815a806d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b7e7dea02aa927b34a0e91de61fb33710c93c053004f1bd55540385d182c8b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068288"
 ---
 # <a name="virtual-system-management-service"></a>虛擬系統管理服務
 

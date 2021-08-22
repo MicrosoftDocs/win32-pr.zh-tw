@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f410fa048a27e1f7626690e6308de4c1a31c2a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 17c53ded4c7459be8f0c8eb98f3770d88ff88a9b7da20cb3482c1032a4f74e96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013806"
 ---
 # <a name="implicit_handle-attribute"></a>隱含 \_ 控制碼屬性
 
@@ -89,9 +89,9 @@ interface iface
 [**包括**](include.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

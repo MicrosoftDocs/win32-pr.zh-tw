@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5a93be1f6fe75559d0284ca955ca5b6e9c516eed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 927e219e22bd0e87c444b1ca3cb63b09a5ddc2fb9ac74e63ebb8f66c6ed75437
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007316"
 ---
 # <a name="extendedkeyusage-object"></a>ExtendedKeyUsage 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509EnhancedKeyUsageExtension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509EnhancedKeyUsageExtension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1)。\]
 
 **ExtendedKeyUsage** 物件提供對憑證的「擴充金鑰使用方法」 (EKU) 屬性的唯讀存取權。
 
@@ -38,7 +38,7 @@ ms.locfileid: "106994990"
 
 
 
-| 屬性                                                     | 存取類型          | Description                                                                                                                             |
+| 屬性                                                     | 存取類型          | 描述                                                                                                                             |
 |:-------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
 | [**Eku**](extendedkeyusage-ekus.md)<br/>             | 唯讀<br/> | [**Eku**](ekus.md) 集合，其中包含憑證的 [**EKU**](eku.md) 物件。<br/>                            |
 | [**IsCritical**](extendedkeyusage-iscritical.md)<br/> | 唯讀<br/> | 抓取 **布林** 值，指出 EKU 延伸是否標記為重大。<br/>                                   |

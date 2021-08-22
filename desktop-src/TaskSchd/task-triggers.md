@@ -12,12 +12,12 @@ keywords:
 - 以時間為基礎的觸發程式工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d465dfa015be19ff220a77d3c85f0cbb223c4899
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b0060511556615c638eb8385a757e9c44147720b659bb11bfe4f0849e4499ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002296"
 ---
 # <a name="task-triggers"></a>工作觸發程式
 
@@ -55,9 +55,9 @@ ms.locfileid: "104183149"
 [關於工作排程器](about-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

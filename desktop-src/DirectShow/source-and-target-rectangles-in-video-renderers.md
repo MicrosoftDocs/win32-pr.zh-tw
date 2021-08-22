@@ -4,12 +4,12 @@ ms.assetid: fdddbffb-c44f-4364-9e2e-b721ba39c74f
 title: 影片轉譯器中的來源和目標矩形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 556aea6aad22e5ea6df61c74ed0a46d2e3984d67
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 020be0786a071c6bbdf33649405517ed3788789268052b61ee89d97a23f357f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072542"
 ---
 # <a name="source-and-target-rectangles-in-video-renderers"></a>影片轉譯器中的來源和目標矩形
 

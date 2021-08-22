@@ -4,16 +4,16 @@ ms.assetid: 9783d18c-79f6-4faa-b12d-9504c13d54e3
 title: 'ITConferenceBlob：： get_CharacterSet 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 681085672f49c75a8434c4b0311e75d2b9cea270
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 20a9dd719d2ae9742a6ec4b3295e3e22ffe871b4a38c55d07e07a3421271553d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060996"
 ---
 # <a name="itconferenceblobget_characterset-method"></a>ITConferenceBlob：： get \_ CharacterSet 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ CharacterSet** 方法會取得目前會議 blob 中所使用之字元集的 [**BLOB \_ 字元集 \_**](blob-character-set.md)描述元。
 
@@ -45,7 +45,7 @@ HRESULT get_CharacterSet(
 
 
 
-| 傳回碼                                                                                                   | Description                                                      |
+| 傳回碼                                                                                                   | 描述                                                      |
 |---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                          | 方法成功。<br/>                                     |
 | <dl> <dt>**E \_ 指標**</dt> </dl>                     | *PCharacterSet* 參數不是有效的指標。<br/> |

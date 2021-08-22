@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b67e83c41576a716d292187df4cb08fa803271c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22792c7606bb001b72b7c4751d14129bca02c5b4a5b337e0349a9a9a2120b62a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971797"
 ---
 # <a name="wm_menudrag-message"></a>WM \_ MENUDRAG 訊息
 
@@ -56,7 +56,7 @@ ms.locfileid: "106969826"
 
 
 
-| 傳回碼/值                                                                                                                                   | Description                                                                           |
+| 傳回碼/值                                                                                                                                   | 描述                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | <dl> <dt>**MND \_繼續**</dt> <dt>0</dt> </dl> | 功能表應維持使用中狀態。 如果放開滑鼠，則應該予以忽略。<br/> |
 | <dl> <dt>**MND \_ENDMENU**</dt> <dt>1</dt> </dl>  | 應結束功能表。<br/>                                                      |
@@ -79,7 +79,7 @@ ms.locfileid: "106969826"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

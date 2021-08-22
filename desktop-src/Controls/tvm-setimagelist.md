@@ -3,7 +3,7 @@ title: 'TVM_SETIMAGELIST 訊息 (Commctrl .h) '
 description: 設定樹狀檢視控制項的 [一般] 或 [狀態] 影像清單，然後使用新的影像來重新繪製控制項。 您可以使用 TreeView SetImageList 宏明確地傳送此訊息 \_ 。
 ms.assetid: 1a7bf2f8-c7db-44a8-b234-0ffc498e9000
 keywords:
-- TVM_SETIMAGELIST message Windows 控制項
+- TVM_SETIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f308cb8a56b2e74a5703af144bac03c271efc95
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df79089c7a2071c6af702da9ef862178738ede3dccff312c3fbae7dbefe4de56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018676"
 ---
 # <a name="tvm_setimagelist-message"></a>TVM \_ SETIMAGELIST 訊息
 
@@ -68,8 +68,8 @@ ms.locfileid: "103685921"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

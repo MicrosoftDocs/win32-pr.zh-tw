@@ -4,12 +4,12 @@ ms.assetid: 83e62f07-5bb5-4129-b88f-998a6f47c810
 title: 'BoundingBox (DirectXCollision 的範圍) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fc14acfb9388ed33b5c83472c20df19fbd9095f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2ac63ed1a1573d126c553d39c31bcf6dbf5cfdf2f4112da33a324010e65fdf4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985108"
 ---
 # <a name="boundingboxextents"></a>BoundingBox 範圍
 
@@ -27,7 +27,7 @@ public:
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

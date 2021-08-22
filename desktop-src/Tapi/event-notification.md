@@ -4,12 +4,12 @@ ms.assetid: 02160f10-dc3f-484c-9cd3-bcfb07ded822
 title: 事件通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63aa232b0e712a76442c298ea04e24ec7671cb4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21a83ed721ed22049baeaf3de15626ed8deecf2a7562d883658195eb1eb590f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003666"
 ---
 # <a name="event-notification"></a>事件通知
 

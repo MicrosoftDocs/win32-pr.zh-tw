@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 237b03231ac9882884aee1441877dce0de746d4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5f51c0e995e69d63cd21338704a8ad4a3a602d7e805dd39139373c9bd9b68c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053796"
 ---
 # <a name="wmproducer-attribute"></a>WM/生產者屬性
 
@@ -25,7 +25,7 @@ ms.locfileid: "107001612"
 
 ## <a name="applies-to"></a>套用至
 
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 -   [影片專案](video-item-attributes.md)
 
 ## <a name="remarks"></a>備註
@@ -34,7 +34,7 @@ ms.locfileid: "107001612"
 
 **ProducedBy** 是此屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMProducer。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMProducer。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

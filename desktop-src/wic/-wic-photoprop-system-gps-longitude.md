@@ -4,12 +4,12 @@ ms.assetid: 36539e20-d00c-4bbb-b9ee-1cf5e4b8df4b
 title: GPS. 經度相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25eb9869bc536f97adfc8f3c0f5b1f70c8bf030f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff05dd8ada6e10bbd3109187d34b220ff352ae984f92bd68281c56d3c1a29a76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087186"
 ---
 # <a name="systemgpslongitude-photo-metadata-policy"></a>GPS. 經度相片中繼資料原則
 

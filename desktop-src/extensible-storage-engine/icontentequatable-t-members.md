@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh578119(v=EXCHG.10)
 ms:contentKeyID: 39511390
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3566cb7c11ef62a2a2c2f67d287cf3be8bb5be7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fa71240dc3741a96b587cb4706d8a29bbe9954b9932609a5e59d024b128180b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104569598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039526"
 ---
 # <a name="icontentequatablet-members"></a>IContentEquatable \<T\> 成員
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4977185809372c5ec20deff15ca1eba11434881b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55020b6c0f9e3a4b970242de2e43fe771b4c90550fe65f1585a2ab67c4211182
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039426"
 ---
 # <a name="instanceparameterslogfiledirectory-property"></a>InstanceParameters. LogFileDirectory 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 5533a8d8-3621-4ce7-984c-c3895adef531
 title: 判斷計數器是否位於電腦上
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 795878e2f9c97989fe924737ec7f8e7f14bdc67c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc2cc6672125f961fc2759d264caa6c33ab68f46347c915e82d1666f667692fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061196"
 ---
 # <a name="determining-whether-a-counter-is-located-on-a-computer"></a>判斷計數器是否位於電腦上
 

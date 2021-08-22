@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f4a7edc6eff0bb04c81ba3bff3bb86ec0455b25
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b27427bf77465be119fc678cb4babf85254fa437b350c54d4409c0cd5b28024
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002006"
 ---
 # <a name="trigger-object"></a>觸發程式物件
 
@@ -39,9 +39,9 @@ ms.locfileid: "103843316"
 
 
 
-| 屬性                                                            | 存取類型           | Description                                                                                                                                         |
+| 屬性                                                            | 存取類型           | 描述                                                                                                                                         |
 |:--------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**已啟用**](trigger-enabled.md)<br/>                       | 讀取/寫入<br/> | 取得或設定布林值，這個值會指出是否已啟用觸發程式。<br/>                                                              |
+| [**啟用**](trigger-enabled.md)<br/>                       | 讀取/寫入<br/> | 取得或設定布林值，這個值會指出是否已啟用觸發程式。<br/>                                                              |
 | [**EndBoundary**](trigger-endboundary.md)<br/>               | 讀取/寫入<br/> | 取得或設定停用觸發程式的日期和時間。 觸發程式在停用之後無法啟動工作。<br/>               |
 | [**ExecutionTimeLimit**](trigger-executiontimelimit.md)<br/> | 讀取/寫入<br/> | 取得或設定允許執行觸發程式之工作的最大時間量。<br/>                                         |
 | [**Id**](trigger-id.md)<br/>                                 | 讀取/寫入<br/> | 取得或設定觸發程式的識別碼。<br/>                                                                                             |
@@ -81,8 +81,8 @@ ms.locfileid: "103843316"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

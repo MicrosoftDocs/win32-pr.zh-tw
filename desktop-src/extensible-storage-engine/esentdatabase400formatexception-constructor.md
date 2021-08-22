@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4ffda43a6c134963c2b6afa18eeffd6d325c2661
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e2a693e6beb351fef9e92c99bd765dcaee1b4807d5bfff38179d4d997e3566b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116418"
 ---
 # <a name="esentdatabase400formatexception-constructor"></a>EsentDatabase400FormatException 函式
 

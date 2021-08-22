@@ -4,12 +4,12 @@ ms.assetid: 8845b709-a8f9-4d0f-a4a6-86d23d6b01d5
 title: 在名稱和 Sid 之間轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417034a99331c09f20546f2f352bc762a86f02e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d5f67bd95e41a9813522d635e737f4fc528a61aebceeab205a2d40e1f44d7c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004806"
 ---
 # <a name="translating-between-names-and-sids"></a>在名稱和 Sid 之間轉換
 
@@ -81,7 +81,7 @@ void GetSIDInformation (LPWSTR AccountName,LSA_HANDLE PolicyHandle)
 
  
 
-Windows 存取控制也提供在 Sid 與帳戶名稱之間執行翻譯的功能： [**LookupAccountName**](/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) 和 [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida)。 如果您的應用程式需要查閱帳戶名稱或 SID，而不使用額外的 LSA 原則功能，請使用 Windows 存取控制功能，而不是使用 LSA 原則功能。 如需這些函式的詳細資訊，請參閱 [存取控制](/windows/desktop/SecAuthZ/access-control)。
+Windows存取控制也提供在 Sid 與帳戶名稱之間執行翻譯的功能： [**LookupAccountName**](/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea)和 [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida)。 如果您的應用程式需要查閱帳戶名稱或 SID，而不使用額外的 lsa 原則功能，請使用 Windows 存取控制功能，而不是使用 lsa 原則功能。 如需這些函式的詳細資訊，請參閱 [存取控制](/windows/desktop/SecAuthZ/access-control)。
 
  
 

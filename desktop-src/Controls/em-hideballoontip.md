@@ -3,7 +3,7 @@ title: 'EM_HIDEBALLOONTIP 訊息 (Commctrl .h) '
 description: 隱藏任何與編輯控制項相關聯的氣球提示。
 ms.assetid: 820b98d6-c2bd-4821-ba44-9d58e23eac81
 keywords:
-- EM_HIDEBALLOONTIP message Windows 控制項
+- EM_HIDEBALLOONTIP 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8ecececff3d12ad48cfcfb6353a717e8f8875df
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a25b9380738b29a938ff59d2d80ac996747b9996ade2f5acb773ec6c7b93a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019486"
 ---
 # <a name="em_hideballoontip-message"></a>EM \_ HIDEBALLOONTIP 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "103933989"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

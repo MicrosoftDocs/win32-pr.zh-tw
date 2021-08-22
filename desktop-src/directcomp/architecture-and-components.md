@@ -4,17 +4,17 @@ description: 本主題說明組成 Microsoft DirectComposition 的元件。
 ms.assetid: 7C79B330-41EA-4BA0-9103-BB5A0C3D4CE2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb2de495aa170560b1e7082cacf1893a8c94905a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3125a640f902bc64d55af8cdcdbf816c788e0507a48034dfb52c972fa3f068d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985454"
 ---
 # <a name="architecture-and-components"></a>架構與元件
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題說明組成 Microsoft DirectComposition 的元件。 其中包含下列各節。
 
@@ -96,6 +96,6 @@ DirectComposition 會將所有應用程式呼叫批次到 DirectComposition API�
 [DirectComposition 概念](directcomposition-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

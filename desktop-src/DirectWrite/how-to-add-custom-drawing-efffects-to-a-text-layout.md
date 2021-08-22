@@ -1,19 +1,19 @@
 ---
 title: 如何將用戶端繪製效果新增至文字版面配置
-description: 提供簡短的教學課程，說明如何將用戶端繪製效果新增至 DirectWrite 應用程式，該應用程式會使用 IDWriteTextLayout 介面和自訂文字轉譯器來顯示文字。
+description: 提供簡短的教學課程，說明如何將用戶端繪製效果新增至 DirectWrite 應用程式，以使用 IDWriteTextLayout 介面和自訂文字轉譯器來顯示文字。
 ms.assetid: b66ff814-2113-48b0-8913-3d30a5d20077
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 338dc1a720bde80c1daf2b4baf7c7a4bad6d2cff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7bae98813d8f8aa8fc8a7df0a1a53d11a0329c93abb22a7f60d60754b8edc91f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071705"
 ---
 # <a name="how-to-add-client-drawing-effects-to-a-text-layout"></a>如何將用戶端繪製效果新增至文字版面配置
 
-提供簡短的教學課程，說明如何將用戶端繪製效果新增至 [DirectWrite](direct-write-portal.md) 應用程式，該應用程式會使用 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 介面和自訂文字轉譯器來顯示文字。
+提供簡短的教學課程，說明如何將用戶端繪製效果新增至 [DirectWrite](direct-write-portal.md)應用程式，以使用 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)介面和自訂文字轉譯器來顯示文字。
 
 本教學課程的最終產品是一種應用程式，它會顯示具有不同色彩繪製效果之文字範圍的文字，如下列螢幕擷取畫面所示。
 
@@ -22,7 +22,7 @@ ms.locfileid: "104023731"
 > [!Note]  
 > 本教學課程是一個簡化的範例，說明如何建立自訂用戶端繪製效果，而不是用來繪製色彩文字的簡單方法範例。 如需詳細資訊，請參閱 [**IDWriteTextLayout：： SetDrawingEffect**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setdrawingeffect) 參考頁面。
 
- 
+ 
 
 本教學課程包含下列部分：
 
@@ -121,7 +121,7 @@ pRT_(pRT)
 
 圖像執行是一組共用相同格式的圖像，包括用戶端繪製效果。 [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun)方法會處理指定之圖像執行的文字呈現。
 
-首先，建立 [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) 和 [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink)，然後使用 [**IDWriteFontFace：： GetGlyphRunOutline**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline)來取得圖像執行大綱。 然後使用 [Direct2D](../direct2d/direct2d-portal.md) [**ID2D1Factory：： CreateTransformedGeometry**](../direct2d/id2d1factory-createtransformedgeometry.md) 方法來轉換幾何的原點，如下列程式碼所示。
+首先，建立 [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) 和 [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink)，然後使用 [**IDWriteFontFace：： GetGlyphRunOutline**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline)來取得圖像執行大綱。 然後使用 [Direct2D](../direct2d/direct2d-portal.md) [**ID2D1Factory：： CreateTransformedGeometry**](../direct2d/id2d1factory-createtransformedgeometry.md) 方法來轉換幾何的原點，如下列程式碼所示。
 
 
 ```C++
@@ -408,6 +408,6 @@ SafeRelease(&greenDrawingEffect_);
 
 
 
- 
+ 
 
- 
+ 

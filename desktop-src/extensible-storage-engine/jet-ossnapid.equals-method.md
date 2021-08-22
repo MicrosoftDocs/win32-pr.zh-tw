@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 8d2cfe038ab1b598bfeccf5750ed3d779e682d20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6d4f7d61c25722318a53625c81c3776be049e8aba09fbed8c124e2a47553388
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038886"
 ---
 # <a name="jet_ossnapidequals-method"></a>JET_OSSNAPID。Equals 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104027219"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

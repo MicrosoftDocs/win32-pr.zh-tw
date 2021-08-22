@@ -4,12 +4,12 @@ ms.assetid: 313072fc-68c9-4ece-95bb-2748ccbd7f57
 title: 點陣圖建立
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d00a0bc5a39d1b5e6053a34a87c28d6792a42b0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db37dd14f8be47ebf93c7ee7f586c54c2e55ea900402d9c255a3196987aaed43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038256"
 ---
 # <a name="bitmap-creation"></a>點陣圖建立
 

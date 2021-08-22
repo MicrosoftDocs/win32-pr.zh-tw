@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - Idndl.dll
-ms.openlocfilehash: 62e029576d53109e3c57faf4ec913472f8aea65e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df0bdb1e8968d6bb044a3f270eb9200adf1ecaa54137fe3cface0e0898a9b5be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068238"
 ---
 # <a name="downlevelverifyscripts-function"></a>DownlevelVerifyScripts 函式
 
 比較兩個腳本的列舉清單。
 
 > [!Note]  
-> 只有在 Windows Vista 之前的作業系統上執行的應用程式，才會使用此函式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式應該呼叫 [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts)。
+> 此函式僅適用于在預先 Windows Vista 作業系統上執行的應用程式。 其用途需要下載套件。 只在 Windows Vista 和更新版本上執行的應用程式應該呼叫 [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts)。
 
  
 
@@ -133,9 +133,9 @@ BOOL DownlevelVerifyScripts(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                                                         |
-| 可轉散發套件<br/>          | Microsoft 國際化功能變數名稱 (IDN) 緩和 Api 于 windows XP SP2、Windows Server 2003 SP1、orWindows Vista<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                                                         |
+| 可轉散發套件<br/>          | Microsoft 國際化功能變數名稱 (IDN) 緩和 api 于 windows XP SP2、Windows Server 2003 SP1、orWindows Vista<br/> |
 | 標頭<br/>                   | <dl> <dt>Idndl。h</dt> </dl>                                                           |
 | DLL<br/>                      | <dl> <dt>Idndl.dll</dt> </dl>                                                         |
 
