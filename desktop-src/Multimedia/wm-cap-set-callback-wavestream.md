@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_CALLBACK_WAVESTREAM 訊息 (Vfw .h) '
 description: WM \_ CAP \_ SET \_ 回呼 \_ WAVESTREAM 訊息會在應用程式中設定回呼函數。
 ms.assetid: f2554cbb-73de-4f76-b785-6c18c82c2992
 keywords:
-- WM_CAP_SET_CALLBACK_WAVESTREAM message Windows 多媒體
+- WM_CAP_SET_CALLBACK_WAVESTREAM 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d36abc7848de082e033cfc25d4f15d90c86cf3b2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e4a8ef585a3ceb35aa07fe4e31c5819ce3e56d20b0bfd2d6c5f588fc25c335b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622517"
 ---
 # <a name="wm_cap_set_callback_wavestream-message"></a>WM \_ CAP \_ 設定 \_ 回呼 \_ WAVESTREAM 訊息
 

@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_CALLBACK_YIELD 訊息 (Vfw .h) '
 description: WM \_ CAP \_ SET \_ 回呼 \_ YIELD 訊息會在應用程式中設定回呼函式。 AVICap 會在串流捕捉期間產生捕捉視窗時呼叫此程式。 您可以使用 capSetCallbackOnYield 宏明確地傳送此訊息。
 ms.assetid: d978dc3b-4336-46a4-85ae-7d588a63489b
 keywords:
-- WM_CAP_SET_CALLBACK_YIELD message Windows 多媒體
+- WM_CAP_SET_CALLBACK_YIELD 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b95c9ba0be7a0abeb99c0590e255adb0bd442343
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee12db79a9e4808442618ca295694611aa9e098a87c8f72b25f04360e156c8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622233"
 ---
 # <a name="wm_cap_set_callback_yield-message"></a>WM \_ CAP \_ 設定 \_ 回呼 \_ 產生訊息
 

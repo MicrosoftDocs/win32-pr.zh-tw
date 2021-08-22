@@ -4,12 +4,12 @@ ms.assetid: 3350b643-11b3-4474-8dd0-bc3eb1b7121e
 title: 筆墨分割範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a272d6a5530938e6fecfeefc9f46ffdd0835d045
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c74592606ba98ec913dd419deda1b2b766066e17545e95f18a14980f36dafde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452095"
 ---
 # <a name="ink-divider-sample"></a>筆墨分割範例
 
@@ -24,7 +24,7 @@ ms.locfileid: "104468776"
 | 已分析的單位        | Color              | 圖元放大 |
 |----------------------|--------------------|-------------------|
 | Word<br/>      | 綠色<br/>   | 1<br/>      |
-| 線條<br/>      | 桃紅色<br/> | 3<br/>      |
+| 折線圖<br/>      | 桃紅色<br/> | 3<br/>      |
 | Paragraph<br/> | 藍色<br/>    | 5<br/>      |
 | 繪圖<br/>   | 紅色<br/>     | 1<br/>      |
 

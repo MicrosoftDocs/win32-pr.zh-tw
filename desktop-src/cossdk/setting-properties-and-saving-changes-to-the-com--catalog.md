@@ -4,12 +4,12 @@ ms.assetid: d9af57ea-c5b3-4017-bdc2-e43b86b3ddcd
 title: 編輯 COM + 目錄中的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94ed2bade8886fe08bb7ed1ece179b35677569f1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 50ace2809fef4510a9c89b5faf31df555cb76426a06dd445aff9438c0d19e887
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546226"
 ---
 # <a name="editing-properties-in-the-com-catalog"></a>編輯 COM + 目錄中的屬性
 

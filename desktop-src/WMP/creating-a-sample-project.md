@@ -1,6 +1,6 @@
 ---
-title: 建立範例專案
-description: 建立範例專案
+title: 建立範例 Project
+description: 建立範例 Project
 ms.assetid: 9cbbd1a7-88e7-4947-8dca-e06e364102f7
 keywords:
 - Windows Media Player 線上商店，建立範例專案
@@ -19,21 +19,21 @@ keywords:
 - 專案嚮導
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4756cc7ae8d27c2a790a7ac96af638eea72d861
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: b58af81123e257a7f71ad4be00e44c671f8ca3fa6f61b3719cd02ae1f928b7ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104092574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579934"
 ---
-# <a name="creating-a-sample-project"></a>建立範例專案
+# <a name="creating-a-sample-project"></a>建立範例 Project
 
 若要使用專案嚮導建立新的專案，請遵循下列步驟：
 
 1.  開啟 Microsoft Visual Studio。
 2.  從 [檔案] 功能表，指向 [新增]，然後按一下 [專案]。
-3.  在 [ **專案類型** ] 清單方塊中，選擇 [ **Visual C++ 專案**]。
-4.  在 [ **範本** ] 清單方塊中，選擇 Windows Media Player 的 [ **線上商店] Wizard**。
+3.  在 [ **Project 類型**] 清單方塊中，選擇 [ **Visual C++ 專案**]。
+4.  在 [**範本**] 清單方塊中，選擇 Windows Media Player 的 [**線上商店] Wizard**。
 5.  輸入專案的名稱和位置。
 6.  按一下 **[確定** ] 以啟動專案嚮導。
 7.  選取 [ **類型 2] (基本整合)**，然後按 **[下一步]**。
@@ -41,7 +41,7 @@ ms.locfileid: "104092574"
     > [!Note]  
     > 您為內容散發者識別碼提供的值不能包含空格。 Wizard 會從您提供的字串中移除任何空格。
 
-     
+     
 
 9.  按一下 [完成] 以建立專案。
 
@@ -67,7 +67,7 @@ Wizard 會自動產生新的 c + + 專案，以建立可執行 **IWMPSubscriptio
 > [!Note]  
 > 您應該將 DLL 的基底位址設定為0x0F100000，以避免與 Windows Media Player 衝突。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -82,9 +82,9 @@ Wizard 會自動產生新的 c + + 專案，以建立可執行 **IWMPSubscriptio
 [**IWMPSubscriptionService2 介面**](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

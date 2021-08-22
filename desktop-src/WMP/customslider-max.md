@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74db7672bc42d6e35885afecf7668a1b14ec6853
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4d8cfe4f3c9dbed7ed84b7f07e666fd17f9da4e43c591ce378918d5b3c0f5226
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579716"
 ---
 # <a name="customslidermax"></a>CUSTOMSLIDER。最大值
 

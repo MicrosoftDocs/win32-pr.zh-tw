@@ -4,16 +4,16 @@ ms.assetid: c1c17a97-cf4b-45b7-bc32-4bad94c3ddb2
 title: 磁片磁碟機物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df8501c79f9381dba80a1fe0276014dccdf7a34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d04ec68fab408c4ed6412990296c0ebb265b8c3e4c4c9b05645b1f4bd1e625fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603418"
 ---
 # <a name="drive-object"></a>磁片磁碟機物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 磁片磁碟機物件會建立包含在子系統內的實體磁片磁碟機模型。 每個磁片磁碟機會連線至匯流排、佔用插槽，並包含一組磁片磁碟機範圍。 每個磁片磁碟機都可將範圍貢獻至任意數目的 Lun。 磁片磁碟機也可以指定為熱備用。
 

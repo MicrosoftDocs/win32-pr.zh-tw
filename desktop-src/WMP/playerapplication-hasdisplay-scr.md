@@ -1,6 +1,6 @@
 ---
 title: PLAYERAPPLICATION. hasDisplay 屬性
-description: HasDisplay 屬性會抓取值，指出影片是否可以透過遠端 Windows Media Player 控制項來顯示。
+description: hasDisplay 屬性會抓取值，指出影片是否可以透過遠端 Windows Media Player 控制項來顯示。
 ms.assetid: c6a735a4-29ae-401c-9381-d8aad2c456eb
 keywords:
 - PLAYERAPPLICATION. hasDisplay Windows Media Player
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7579c724496ee2f36ce12adb01c2f13a0962e7dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac144f7e9f96db707944cbb016028578d2446be43a0f06cd0293cb5d56f84c63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571941"
 ---
 # <a name="playerapplicationhasdisplay"></a>PLAYERAPPLICATION.hasDisplay
 
-**HasDisplay** 屬性會抓取值，指出影片是否可以透過遠端 Windows Media Player 控制項來顯示。
+**hasDisplay** 屬性會抓取值，指出影片是否可以透過遠端 Windows Media Player 控制項來顯示。
 
 ``` syntax
         elementID.hasDisplay

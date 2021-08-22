@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9013c3c99c1d6c6067386038ec4a51f37f978650
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d94d1225d0bb463345b27bfde1128bf586fbef4f635f29d8d61b80514a0d8db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784313"
 ---
 # <a name="apijetdupsession-method"></a>JetDupSession 方法
 

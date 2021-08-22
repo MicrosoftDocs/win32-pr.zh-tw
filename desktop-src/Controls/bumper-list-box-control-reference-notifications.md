@@ -4,12 +4,12 @@ description: 清單方塊通知
 ms.assetid: 933cf4f6-9796-427f-a5f4-c01090554154
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59287dceccbcc70e71a410383bb6d66ed623627f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c90e8c11f6d523ed342fec14c0d8093bf16402b26df8bbc2a470166ed194ceed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118416540"
 ---
 # <a name="list-box-notifications"></a>清單方塊通知
 

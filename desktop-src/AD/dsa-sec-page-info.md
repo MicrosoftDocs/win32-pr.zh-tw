@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e4c8602a958c50c72942d89657a812d24f64571d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26fa3dcfb983de8e1052b319bac7c3a594e256b594847c32b553353e6caee17d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695646"
 ---
 # <a name="dsa_sec_page_info-structure"></a>DSA \_ 秒 \_ 頁面 \_ 資訊結構
 

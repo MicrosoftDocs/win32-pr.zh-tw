@@ -4,12 +4,12 @@ ms.assetid: f320944c-978d-4a3c-9bf8-5c5652123e29
 title: ShutterSpeed 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8df8c9e7fda5643fed022f67c3b6b7846e7a72f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ad11550a19cd043fd5d182b2cf508aec3e26c64a0dc2ee1d1c24576ebf18f8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710097"
 ---
 # <a name="systemphotoshutterspeed-photo-metadata-policy"></a>ShutterSpeed 相片中繼資料原則
 

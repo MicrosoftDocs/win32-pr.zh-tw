@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 4e1ce08f3bf1fef74af0d77ada15716abb4530a6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b832da702942e8f84baee4303b7fa74a7fd74d683d62534cca619e8c7270e88a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118813462"
 ---
 # <a name="localcomputer-collection"></a>LocalComputer 集合
 
-包含單一物件，該物件對應至您要存取其目錄的電腦。 此物件會保存電腦層級的設定資訊。 如果您在從 [**COMAdminCatalog**](comadmincatalog.md)類別建立的物件上呼叫 [**Connect**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect)方法， **LocalComputer** 集合中的物件將會包含您要存取其目錄之遠端電腦的相關資訊。
+包含單一物件，該物件對應至您要存取其目錄的電腦。 此物件會保存電腦層級的設定資訊。 如果您在從 [**COMAdminCatalog**](comadmincatalog.md)類別建立的物件上呼叫 [**連線**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect)方法， **LocalComputer** 集合中的物件將會包含您要存取其目錄之遠端電腦的相關資訊。
 
 此集合不支援 [**COMAdminCatalogCollection**](comadmincatalogcollection.md)物件的 [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add)和 [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove)方法。
 
@@ -39,7 +39,7 @@ ms.locfileid: "103689176"
 
 您可以從下列集合流覽至這個集合：
 
--   [**根**](root.md)
+-   [**Root**](root.md)
 
 ## <a name="properties"></a>屬性
 
@@ -110,7 +110,7 @@ ms.locfileid: "103689176"
 | 描述    | 設定為 True 可在電腦上啟用 DCOM。 |
 | Access         | 讀寫                                   |
 | 類型           | Bool                                        |
-| 預設        | 對                                        |
+| 預設        | 是                                        |
 | 最小系統 | Windows 2000                                |
 
 
@@ -175,7 +175,7 @@ ms.locfileid: "103689176"
 
  
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 
 
@@ -200,7 +200,7 @@ ms.locfileid: "103689176"
 | 描述    | 指出是否將分割區對應的使用者簽入網域存放區。 |
 | Access         | 讀寫                                                                              |
 | 類型           | Bool                                                                                   |
-| 預設        | 對                                                                                   |
+| 預設        | 是                                                                                   |
 | 最小系統 | Windows Server 2003                                                                    |
 
 
@@ -266,14 +266,14 @@ ms.locfileid: "103689176"
 | 描述    | 指出是否將分割區對應的使用者簽入本機存放區。 |
 | Access         | 讀寫                                                                             |
 | 類型           | Bool                                                                                  |
-| 預設        | 對                                                                                  |
+| 預設        | 是                                                                                  |
 | 最小系統 | Windows Server 2003                                                                   |
 
 
 
  
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 
 
@@ -346,7 +346,7 @@ ms.locfileid: "103689176"
 | 描述    | 可使用資源機。 |
 | Access         | 讀寫                           |
 | 類型           | Bool                                |
-| 預設        | 對                                |
+| 預設        | 是                                |
 | 最小系統 | Windows 2000                        |
 
 
@@ -394,7 +394,7 @@ ms.locfileid: "103689176"
 | 描述    | 如果在物件上啟用安全性追蹤，則設定為 True。 |
 | Access         | 讀寫                                               |
 | 類型           | Bool                                                    |
-| 預設        | 對                                                    |
+| 預設        | 是                                                    |
 | 最小系統 | Windows 2000                                            |
 
 
@@ -410,7 +410,7 @@ ms.locfileid: "103689176"
 | 描述    | 決定軟體限制原則 (SRP) 如何處理啟動為啟動的連接。 如果設定為 True，則會將為伺服器物件設定的 SRP 信任層級與用戶端物件的 SRP 信任層級進行比較，並使用較高 (更嚴格的) 信任層級來執行伺服器物件。 如果設定為 False，則不論伺服器設定所在的 SRP 信任層級為何，伺服器物件都會以用戶端物件的 SRP 信任層級執行。 |
 | Access         | 讀寫                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 類型           | Bool                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 預設        | 對                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 預設        | 是                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 最小系統 | Windows XP                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 
@@ -426,7 +426,7 @@ ms.locfileid: "103689176"
 | 描述    | 判斷軟體限制原則 (SRP) 如何處理與現有進程的已嘗試連接。 如果設定為 False，則不會檢查是否有適當的 SRP 信任層級來連接至執行中的物件。 如果設定為 True，則執行中的物件必須有相等或更高的 (比用戶端物件更嚴格的) SRP 信任層級。 例如，具有不受限制之 SRP 信任層級的用戶端物件，無法連接到具有不允許之 SRP 信任層級的執行中物件。 |
 | Access         | 讀寫                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | 類型           | Bool                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| 預設        | 對                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 預設        | 是                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 最小系統 | Windows XP                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 
@@ -451,7 +451,7 @@ ms.locfileid: "103689176"
 
 ## <a name="example"></a>範例
 
-下列 Microsoft Visual Basic 範例示範如何連接到遠端電腦，並使用遠端電腦的 **LocalComputer** 集合來取得其 SecurityTrackingEnabled 屬性。 若要使用此範例，請新增 COM + 系統管理員類型程式庫做為您 Visual Basic 專案的參考。
+下列 Microsoft Visual Basic 範例示範如何連接到遠端電腦，並使用遠端電腦的 **LocalComputer** 集合來取得其 SecurityTrackingEnabled 屬性。 若要使用此範例，請新增 com + 系統管理員類型程式庫做為您 Visual Basic 專案的參考。
 
 
 ```VB

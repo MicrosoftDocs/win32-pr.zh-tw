@@ -4,12 +4,12 @@ ms.assetid: d0ed0c86-002f-4e6b-bff1-1ac4f116505b
 title: D3DX X 檔案函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cc803d867e62b52897e15a7b2881232ea9e75c7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f50fff1c9328a268d1e911dff8412796e154ad7b0f1dad0df2a99df772e0cc13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523389"
 ---
 # <a name="d3dx-x-file-functions"></a>D3DX X 檔案函數
 

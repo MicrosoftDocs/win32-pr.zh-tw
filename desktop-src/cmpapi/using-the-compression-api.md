@@ -1,19 +1,19 @@
 ---
-description: 許多應用程式都需要使用不失真的資料壓縮和解壓縮。 壓縮 API 透過公用 API 公開 Windows 壓縮演算法來簡化此工作。
+description: 許多應用程式都需要使用不失真的資料壓縮和解壓縮。 壓縮 api 會透過公用 API 公開 Windows 壓縮演算法來簡化此工作。
 ms.assetid: D603A7DE-D4A1-4515-9702-B03C81504661
 title: 使用壓縮 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01eff163f4ea1ccf03e1cd4ac9cb16a26afeb265
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fedc1d57ad48196290500383686b35f557c87c34099aad842b1e8ff18f00d318
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118551382"
 ---
 # <a name="using-the-compression-api"></a>使用壓縮 API
 
-許多應用程式都需要使用不失真的資料壓縮和解壓縮。 壓縮 API 透過公用 API 公開 Windows 壓縮演算法來簡化此工作。 每個壓縮演算法都有一組屬性，可控制其行為。 壓縮 API 會公開介面，讓開發人員可以設定或查詢這些屬性的值。 支援的壓縮演算法的所有屬性都有預設值，代表這些屬性常用的值。 如果壓縮和解壓縮都需要屬性，則預設值將會相同，以確保使用相同的值進行壓縮和解壓縮。
+許多應用程式都需要使用不失真的資料壓縮和解壓縮。 壓縮 api 會透過公用 API 公開 Windows 壓縮演算法來簡化此工作。 每個壓縮演算法都有一組屬性，可控制其行為。 壓縮 API 會公開介面，讓開發人員可以設定或查詢這些屬性的值。 支援的壓縮演算法的所有屬性都有預設值，代表這些屬性常用的值。 如果壓縮和解壓縮都需要屬性，則預設值將會相同，以確保使用相同的值進行壓縮和解壓縮。
 
 ## <a name="selecting-the-compression-algorithm"></a>選取壓縮演算法
 

@@ -4,12 +4,12 @@ description: '\ Undef 指示詞會移除指定之名稱的目前定義。 所有
 ms.assetid: c9a0b538-3030-4d39-bfc2-d158061967b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a04b14eeea18a05795cd8ebbb94d81d0aead6a9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3adf208ecca3f130aefc99de8d2926028f25bcd46be46d42e4cbf92e708fa0b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106995550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118473058"
 ---
 # <a name="undef"></a>\#undef
 
@@ -44,9 +44,9 @@ ms.locfileid: "106995550"
 [預處理器指示詞](preprocessor-directives.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

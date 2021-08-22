@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da0f18b87c25de8af03982bc4ad2f2d7f102964e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31c5c2298fd72d8daa09223de0132116e13bf5b5b3d50620283f6eb506615fe9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118650192"
 ---
 # <a name="idwritenumbersubstitution-interface"></a>IDWriteNumberSubstitution 介面
 

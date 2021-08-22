@@ -1,19 +1,19 @@
 ---
-description: 從 Windows 7，在 Url 的處理和剖析中仍有不一致的情況。 本主題提供流覽檔案 URL 格式不一致的限制指南。
+description: 從 Windows 7，在 url 的處理和剖析中仍有不一致的情況。 本主題提供流覽檔案 URL 格式不一致的限制指南。
 ms.assetid: E9792368-517B-4FD7-A244-6C4B7F78B66E
 title: URL 格式設定需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d08d7945578118f4d3103f44e6da60b96022e472
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ae1bb413501548922eaf1b60801b6d35495d7f8a37dc743675052d4e0e5bae4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462230"
 ---
 # <a name="url-formatting-requirements"></a>URL 格式設定需求
 
-從 Windows 7，在 Url 的處理和剖析中仍有不一致的情況。 本主題提供流覽檔案 URL 格式不一致的限制指南。
+從 Windows 7，在 url 的處理和剖析中仍有不一致的情況。 本主題提供流覽檔案 URL 格式不一致的限制指南。
 
 本主題的組織方式如下：
 
@@ -24,7 +24,7 @@ ms.locfileid: "104511075"
 
 ## <a name="url-formats-in-use"></a>使用中的 URL 格式
 
-協力廠商通訊協定負責定義其 URL 格式，並以符合其標準的方式來定義查詢。 例如，Microsoft Outlook 支援具有任一字元的資料夾名稱，包括 Url 中不合法的字元（例如 `"?"` 字元）。 MAPI 通訊協定處理常式會執行其 Url 的 URL 編碼。 因此，索引會儲存 `"%3F"` 而非 `"?"` ，而 Outlook 必須在建立查詢時將此納入考慮。
+協力廠商通訊協定負責定義其 URL 格式，並以符合其標準的方式來定義查詢。 例如，Microsoft Outlook 支援包含任一字元的資料夾名稱，包括 url 中不合法的字元（例如 `"?"` 字元）。 MAPI 通訊協定處理常式會執行其 Url 的 URL 編碼。 因此，索引會儲存 `"%3F"` 而非 `"?"` ，而 Outlook 必須在建立查詢時將此納入考慮。
 
 下表列出不同的格式，每個格式都會被指派一個字母識別碼，以便稍後在本主題中參考它們。
 

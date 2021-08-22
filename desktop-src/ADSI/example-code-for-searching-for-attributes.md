@@ -9,12 +9,12 @@ keywords:
 - ADSI、搜尋、>idirectorysearch、其他搜尋選項、只傳回屬性名稱、範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 344ce99fe9de606212d786ff2e7b88b5eba34d14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 207fcfd2bd688f5bb6ddcd19dcb9b1a87a2e40ddb0a7db1e63e9457e671f9947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428461"
 ---
 # <a name="example-code-for-searching-for-attributes"></a>用於搜尋屬性的範例程式碼
 
@@ -60,9 +60,9 @@ while( m_pSearch->GetNextColumnName( hSearch, &pszColumn ) != S_ADS_NOMORE_COLUM
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - 元素，AUTOMENU
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77dc15db3089c48723084642d68787c04436d41a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 75a77036ffd88d514e890d92921deea5bae9d9fba1856fe324bd41c70dbbfc92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582957"
 ---
 # <a name="automenu-element"></a>AUTOMENU 元素
 
@@ -31,14 +31,14 @@ ms.locfileid: "104301439"
 
 
 
- 
+ 
 
 **AUTOMENU** 元素支援下列環境屬性： left 和 top。
 
 > [!Note]  
 > 此元素需要 Windows Media Player 9 系列或更新版本。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -47,9 +47,9 @@ ms.locfileid: "104301439"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

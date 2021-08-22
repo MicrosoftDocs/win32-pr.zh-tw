@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101603
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5224489789e4859504979e742c0c54098780447c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da18a2bb2f2f5503a6fabddbb8dd1d5af56eaa5832292460881fd9156bcf7b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118779872"
 ---
 # <a name="esentdefaultvaluetoobigexception-methods"></a>EsentDefaultValueTooBigException 方法
 

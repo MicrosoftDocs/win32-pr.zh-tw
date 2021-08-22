@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76935fd4a67983847e211d8aa53f4a616bed9d4d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 32694b311482e58635ca28dc005fe68ab08495c15d251e176fb78266e7624e29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118592269"
 ---
 # <a name="ivmvirtualnetworkcollection-interface"></a>IVMVirtualNetworkCollection 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 定義 [**IVMVirtualNetwork**](ivmvirtualnetwork.md) 物件的集合。 若要取得 **IVMVirtualNetworkCollection** 物件，請使用 [**IVMVirtualPC：： VirtualNetworks**](ivmvirtualpc-virtualnetworks.md) 屬性。
 
@@ -40,11 +40,11 @@ ms.locfileid: "103686303"
 
 
 
-| 屬性                                                             | 存取類型          | Description                                                                                                   |
+| 屬性                                                             | 存取類型          | 描述                                                                                                   |
 |:---------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------|
 | [**\_NewEnum**](ivmvirtualnetworkcollection--newenum.md)<br/> | 唯讀<br/> | 集合的列舉值。<br/>                                                                  |
 | [**計數**](ivmvirtualnetworkcollection-count.md)<br/>        | 唯讀<br/> | 此集合中的虛擬網路數目。<br/>                                                 |
-| [**項目**](ivmvirtualnetworkcollection-item.md)<br/>          | 唯讀<br/> | 對應至指定之索引的 [**IVMVirtualNetwork**](ivmvirtualnetwork.md) 物件。<br/> |
+| [**Item**](ivmvirtualnetworkcollection-item.md)<br/>          | 唯讀<br/> | 對應至指定之索引的 [**IVMVirtualNetwork**](ivmvirtualnetwork.md) 物件。<br/> |
 
 
 
@@ -56,7 +56,7 @@ ms.locfileid: "103686303"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                     |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                           |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                  |

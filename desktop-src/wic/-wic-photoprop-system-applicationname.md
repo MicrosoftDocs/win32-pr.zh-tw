@@ -4,12 +4,12 @@ ms.assetid: bf4b310a-7e63-45c5-a327-2638fb31d676
 title: System.servicemodel 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e36fac2a864cabfd7c1521d72357d187a8aea50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3084f21453a82c79925d4a164f5f847c3a24968009b7b8c4236ce3a40872dad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710917"
 ---
 # <a name="systemapplicationname-photo-metadata-policy"></a>System.servicemodel 相片中繼資料原則
 

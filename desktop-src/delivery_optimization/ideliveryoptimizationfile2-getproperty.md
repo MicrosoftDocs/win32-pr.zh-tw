@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c53167287cf821ceca26782dab9b8011d40a1785
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d0f181eebe2aff8ccbbbf6d5400e3d5a78f123e2304567a413ecf4a35357229b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118542088"
 ---
 # <a name="ideliveryoptimizationfile2getproperty-method"></a>IDeliveryOptimizationFile2：： GetProperty 方法
 
@@ -71,9 +71,9 @@ HRESULT GetProperty(
 | 需求 | 值 |
 |---------------------------|----------------------------------------------------------------------------------|
 | 最低支援的用戶端  | Windows 10， \[ 僅限1803版桌面應用程式\]                                   |
-| 最低支援的伺服器  | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]                               |
-| 標頭                    | >deliveryoptimization。h                                                           |
-| Idl                       | >deliveryoptimization .idl                                                         |
+| 最低支援的伺服器  | WindowsServer， \[ 僅限1709版桌面應用程式\]                               |
+| 標頭                    | >Deliveryoptimization。h                                                           |
+| IDL                       | >deliveryoptimization .idl                                                         |
 | 程式庫                   | Dosvc .lib                                                                        |
 | DLL                       | Dosvc.dll                                                                        |
 | IID                       | IID_IDeliveryOptimizationJob2 定義為18995A26-BF59-4ABE-9F8B-D5092D5A2405 |

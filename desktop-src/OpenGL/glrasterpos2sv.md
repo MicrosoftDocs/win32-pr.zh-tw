@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e6a2c813932d4ebe1aeb1486f683423ae80b92c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5860900ccec209ed73047578b9ae793aa0569b4066d3152446d24b1da0801381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106992695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118614729"
 ---
 # <a name="glrasterpos2sv-function"></a>glRasterPos2sv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glRasterPos2sv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 兩個元素陣列的指標，指定目前點陣位置的 x 和 y 座標。

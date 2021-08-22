@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a0f33d961e8cd3645e4949980d91fe4de79119f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 85c7ea97d2388b402bd05f67c1d8f7bf417c69a6853b3485e2cf0484cedcbc5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698143"
 ---
 # <a name="wmwmshadowfilesourcedrmtype-windows-media-format-11-sdk"></a>WM/WMShadowFileSourceDRMType (Windows Media Format 11 SDK) 
 
@@ -33,7 +33,7 @@ g \_ wszWMWMShadowFileSourceDRMType
 
 ## <a name="remarks"></a>備註
 
-存在於 ASF 以外之檔案格式的內容，可以透過稱為「授權匯入」的程式，轉換成受 Windows Media DRM 保護的 Windows Media 檔案。 這類 ASF 檔案應包含此屬性以及 WM/WMShadowFileSourceFileType，以追蹤內容的來源。
+存在於 ASF 以外之檔案格式的內容，可以透過稱為「授權匯入」的程式，轉換成受 Windows 媒體 DRM 保護的 Windows 媒體檔案。 這類 ASF 檔案應包含此屬性以及 WM/WMShadowFileSourceFileType，以追蹤內容的來源。
 
 ## <a name="see-also"></a>另請參閱
 

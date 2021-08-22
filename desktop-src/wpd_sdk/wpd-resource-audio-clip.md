@@ -4,12 +4,12 @@ ms.assetid: 24c15df0-4190-4c75-b89b-0c73d645c9ca
 title: WPD_RESOURCE_AUDIO_CLIP
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7013fb59670c92903f89509f720f7c597ef916fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03fa4b81d56ceac14f1619164b3df5727fd711577e567aa21d8149e1583aced2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118696434"
 ---
 # <a name="wpd_resource_audio_clip"></a>WPD \_ 資源 \_ 音訊 \_ 剪輯
 

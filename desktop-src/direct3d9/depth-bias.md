@@ -4,12 +4,12 @@ ms.assetid: 0ab4f63b-49de-4bd0-a10f-6f90b9706c58
 title: " (Direct3D 9) 的深度偏差"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ce605ea1df161e5ebfed95c214c3dd180ab7ee6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cbc99d606a561fd6f4eec412774ce53d9b5dd5e62c7f50b118a4e90a88664a2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523806"
 ---
 # <a name="depth-bias-direct3d-9"></a> (Direct3D 9) 的深度偏差
 

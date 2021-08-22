@@ -4,12 +4,12 @@ ms.assetid: 9acf10cd-19a8-4542-8078-3e4ee275d4d5
 title: 查詢可用的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22238e04404d2b88efa81ce98d0b0fb0e09d245f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f41278e6f7ee5d12d79f65be286965264c0705ce76b8fc3c6d93de331032b2b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118812849"
 ---
 # <a name="querying-for-available-properties"></a>查詢可用的屬性
 

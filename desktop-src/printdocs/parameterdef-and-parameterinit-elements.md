@@ -4,12 +4,12 @@ ms.assetid: f1c73aed-fca4-47f6-bb98-bab40a6a9b2e
 title: ParameterDef 和 ParameterInit 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fa945ad7fec484828bd81b2052f9b330d0e1679
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 8eff240a9183fe89ff95e87b8537868a9fb8b5905cde14e55c5e1a7c063e9ebf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122475124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470948"
 ---
 # <a name="parameterdef-and-parameterinit-elements"></a>ParameterDef 和 ParameterInit 元素
 
@@ -40,19 +40,82 @@ ParameterDef 元素是由下列屬性元素所組成。 除非另有說明，否
 
 
 
-
-| 屬性名稱 | 值 | 描述 | 變？ | 
-|---------------|--------|-------------|------------|
-| DataType <br /> | 整數 <br /> decimal<br /> string<br /> 無預設值。<br /> | 指定參數值是整數、浮點數或文字字串。 參數的值會使用與對應的 XSD 基本資料類型相同的格式來表示;也就是整數、十進位或字串。 <br /> | 是<br /> | 
-| DefaultValue <br /> | DataType 屬性指定的型別。<br /> 無預設值。<br /> | 指定用來初始化使用者介面 (UI) 控制項的值。<br /><ul><li>或 <br /></li></ul>指定當 PrintTicket 中缺少相關的參數專案時，所要使用的值。<br /> | 否<br /> | 
-| 強制性 <br /> | 無條件：必須一律提供 ParameterInit 元素。 <br /> 條件式：只有在 PrintTicket 的 Option 元素內參考參數時，才需要 ParameterInit 元素。<br /> DefaultValue：條件式。<br /> | 指出 ParameterInit 元素必須明確出現的時間。 如果是條件式，則如果 PrintTicket 包含參考參數的選項，則 ParameterInit 必須初始化。<br /> 由 UI 用戶端和 PrintCapabilities 或 PrintTicket 提供者使用。 請注意，在任何條件約束中，ParameterDef 元素的強制屬性必須設定為無條件。 ParameterDef 必須有定義的值，否則無法評估相依的值或條件約束。<br /> | 否<br /> | 
-| MaxLength <br /> | 如果 DataType 屬性指定 string，則為整數。<br /> DefaultValue：不會強制執行最大值。<br /> | 若為字串值參數，則指定允許的最長字串。 UI 和 PrintCapabilities 或 PrintTicket 提供者會使用這個屬性來驗證 ParameterDef 元素。<br /> | 否<br /> | 
-| MaxValue <br /> | 如果 DataType 屬性指定整數，則為整數。<br /> 如果 DataType 屬性指定 decimal，則為 decimal。<br /> DefaultValue：不會強制執行最大值。<br /> | 若為整數或十進位值 ParameterDef 元素，則會定義最大的允許值。<br /> | 否<br /> | 
-| MinLength <br /> | 如果 DataType 屬性指定 string，則為整數。 <br /> DefaultValue：不會強制執行最小值。<br /> | 針對字串值，定義允許的最短字串。 UI 和 PrintCapabilities 或 PrintTicket 提供者會使用這個屬性來驗證 ParameterDef 元素。<br /> | 否<br /> | 
-| MinValue <br /> | 如果 DataType 屬性指定整數，則為整數。<br /> 如果 DataType 屬性指定 decimal，則為 decimal。<br /> DefaultValue：不會強制執行最小值。<br /> | 針對整數或十進位值參數，定義最小的允許值。 <br /> | 否<br /> | 
-| 多個 <br /> | 如果 DataType 屬性指定整數，則為整數。<br /> 如果 DataType 屬性指定 decimal，則為 decimal。<br /> DefaultValue：1<br /> | 若為整數或十進位值參數，參數的值應該是這個數位的倍數。 如需詳細資訊，請參閱下表的 <a href="#notes-on-multiple">多個注意事項</a> 。<br /> | 否<br /> | 
-| Unittype.pixel 表示 <br /> | 字串值，表示用於參數的單位。<br /> 無預設值。<br /> | 表示用來表示參數的單位。 例如，以十分之一度為單位的角度、microns 中的長度等等。<br /> | 是<br /> | 
-
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>屬性名稱</th>
+<th>值</th>
+<th>描述</th>
+<th>變？</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DataType <br/></td>
+<td>整數 <br/> decimal<br/> 字串<br/> 無預設值。<br/></td>
+<td>指定參數值是整數、浮點數或文字字串。 參數的值會使用與對應的 XSD 基本資料類型相同的格式來表示;也就是整數、十進位或字串。 <br/></td>
+<td>Yes<br/></td>
+</tr>
+<tr class="even">
+<td>DefaultValue <br/></td>
+<td>DataType 屬性指定的型別。<br/> 無預設值。<br/></td>
+<td>指定用來初始化使用者介面 (UI) 控制項的值。<br/>
+<ul>
+<li>或 <br/></li>
+</ul>
+指定當 PrintTicket 中缺少相關的參數專案時，所要使用的值。<br/></td>
+<td>No<br/></td>
+</tr>
+<tr class="odd">
+<td>強制性 <br/></td>
+<td>無條件：必須一律提供 ParameterInit 元素。 <br/> 條件式：只有在 PrintTicket 的 Option 元素內參考參數時，才需要 ParameterInit 元素。<br/> DefaultValue：條件式。<br/></td>
+<td>指出 ParameterInit 元素必須明確出現的時間。 如果是條件式，則如果 PrintTicket 包含參考參數的選項，則 ParameterInit 必須初始化。<br/> 由 UI 用戶端和 PrintCapabilities 或 PrintTicket 提供者使用。 請注意，在任何條件約束中，ParameterDef 元素的強制屬性必須設定為無條件。 ParameterDef 必須有定義的值，否則無法評估相依的值或條件約束。<br/></td>
+<td>No<br/></td>
+</tr>
+<tr class="even">
+<td>MaxLength <br/></td>
+<td>如果 DataType 屬性指定 string，則為整數。<br/> DefaultValue：不會強制執行最大值。<br/></td>
+<td>若為字串值參數，則指定允許的最長字串。 UI 和 PrintCapabilities 或 PrintTicket 提供者會使用這個屬性來驗證 ParameterDef 元素。<br/></td>
+<td>No<br/></td>
+</tr>
+<tr class="odd">
+<td>MaxValue <br/></td>
+<td>如果 DataType 屬性指定整數，則為整數。<br/> 如果 DataType 屬性指定 decimal，則為 decimal。<br/> DefaultValue：不會強制執行最大值。<br/></td>
+<td>若為整數或十進位值 ParameterDef 元素，則會定義最大的允許值。<br/></td>
+<td>No<br/></td>
+</tr>
+<tr class="even">
+<td>MinLength <br/></td>
+<td>如果 DataType 屬性指定 string，則為整數。 <br/> DefaultValue：不會強制執行最小值。<br/></td>
+<td>針對字串值，定義允許的最短字串。 UI 和 PrintCapabilities 或 PrintTicket 提供者會使用這個屬性來驗證 ParameterDef 元素。<br/></td>
+<td>No<br/></td>
+</tr>
+<tr class="odd">
+<td>MinValue <br/></td>
+<td>如果 DataType 屬性指定整數，則為整數。<br/> 如果 DataType 屬性指定 decimal，則為 decimal。<br/> DefaultValue：不會強制執行最小值。<br/></td>
+<td>針對整數或十進位值參數，定義最小的允許值。 <br/></td>
+<td>否<br/></td>
+</tr>
+<tr class="even">
+<td>多個 <br/></td>
+<td>如果 DataType 屬性指定整數，則為整數。<br/> 如果 DataType 屬性指定 decimal，則為 decimal。<br/> DefaultValue：1<br/></td>
+<td>若為整數或十進位值參數，參數的值應該是這個數位的倍數。 如需詳細資訊，請參閱下表的 <a href="#notes-on-multiple">多個注意事項</a> 。<br/></td>
+<td>No<br/></td>
+</tr>
+<tr class="odd">
+<td>Unittype.pixel 表示 <br/></td>
+<td>字串值，表示用於參數的單位。<br/> 無預設值。<br/></td>
+<td>表示用來表示參數的單位。 例如，以十分之一度為單位的角度、microns 中的長度等等。<br/></td>
+<td>Yes<br/></td>
+</tr>
+</tbody>
+</table>
 
 
 

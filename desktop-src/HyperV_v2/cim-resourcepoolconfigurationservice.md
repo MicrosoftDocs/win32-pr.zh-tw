@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e8dbbce21f7749b7f436e2f49acb7ce6c7340faf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a289c21f4a741778bb88a154f5923cf844f0c78390c50b558d40a5bcc32aff1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647663"
 ---
 # <a name="cim_resourcepoolconfigurationservice-class"></a>CIM \_ ResourcePoolConfigurationService 類別
 

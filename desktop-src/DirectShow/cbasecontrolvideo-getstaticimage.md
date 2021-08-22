@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 13b0515e20202373954050b6fa18f10a20a76a6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69496754c8a1f80be341c475f422229aba6108dbc0e73cd1db9506a301690ffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660828"
 ---
 # <a name="cbasecontrolvideogetstaticimage-method"></a>CBaseControlVideo. GetStaticImage 方法
 

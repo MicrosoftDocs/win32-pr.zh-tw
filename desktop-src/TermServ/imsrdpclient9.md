@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3350fd4b9153319f9a1084ffc3fd37784eb6ad3e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a84530c401398f373d9ae7e2f02619f9b3abeaa9f1d51a9f550afe55a7347e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118609279"
 ---
 # <a name="imsrdpclient9-interface"></a>IMsRdpClient9 介面
 
@@ -43,7 +43,7 @@ ms.locfileid: "104464797"
 | 方法                                                                             | 描述                                                                                                                                                                                 |
 |:-----------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attachEvent**](imsrdpclient9-attachevent.md)                                   | 附加事件。<br/>                                                                                                                                                               |
-| [**連接**](imstscax-connect.md)                                                | 使用目前在控制項上設定的屬性起始連接。<br/>                                                                                                        |
+| [**連線**](imstscax-connect.md)                                                | 使用目前在控制項上設定的屬性起始連接。<br/>                                                                                                        |
 | [**CreateVirtualChannels**](imstscax-createvirtualchannels.md)                    | 針對每個指定的虛擬通道名稱建立用戶端虛擬通道物件。<br/>                                                                                            |
 | [**Vemap.detachevent**](imsrdpclient9-detachevent.md)                                   | 卸離事件。<br/>                                                                                                                                                               |
 | [**中斷連線**](imstscax-disconnect.md)                                          | 中斷使用中連接。<br/>                                                                                                                                               |
@@ -68,7 +68,7 @@ ms.locfileid: "104464797"
 
 
 
-| 屬性                                                                             | 存取類型           | Description                                                                                                                                                                                                                                            |
+| 屬性                                                                             | 存取類型           | 描述                                                                                                                                                                                                                                            |
 |:-------------------------------------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings**](imstscax-advancedsettings.md)<br/>                     | 唯讀<br/>  | 捕獲 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) 介面指標。<br/>                                                                                                                                          |
 | [**AdvancedSettings2**](imsrdpclient-advancedsettings2.md)<br/>               | 唯讀<br/>  | 捕獲 [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md) 介面的指標。 介面可以用來設定用戶端控制項的 advanced 設定。<br/>                                             |

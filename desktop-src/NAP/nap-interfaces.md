@@ -4,19 +4,19 @@ description: NAP 介面
 ms.assetid: fff854b9-9c83-4db2-bceb-22509b261a97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ff67fe21922c5b1baf9c2825dc7ea2852f14331
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b704e8924886047b0a50aef7929f52be276a0417d118f2026e47706f95678a2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118620817"
 ---
 # <a name="nap-interfaces"></a>NAP 介面
 
 > [!Note]  
 > 從 Windows 10 開始，無法使用網路存取保護平臺
 
- 
+ 
 
 NAP 系統是由下列介面所組成。
 
@@ -50,11 +50,11 @@ NAP 系統是由下列介面所組成。
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

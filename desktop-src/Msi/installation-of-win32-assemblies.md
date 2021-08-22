@@ -4,12 +4,12 @@ ms.assetid: 09aecb55-ed45-45b3-b27a-d0946223392a
 title: Win32 元件的安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9d47847c0c69185a28fa41bbe5c5a05deec1e66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27c680d53e1c4702bab3b9a24920b18a2fdb644a86c41207712ec3726a310a8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118633838"
 ---
 # <a name="installation-of-win32-assemblies"></a>Win32 元件的安裝
 

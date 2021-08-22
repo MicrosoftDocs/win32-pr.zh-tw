@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d71149bfeceeb6c17cafa27f56bb15bb184ead06
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c3357322b2f05ba5d9abfd51dbb7d53778cabcd5dbf6f8163af0163e8cce07f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611495"
 ---
 # <a name="randomdelay-calendartriggertype-element"></a>RandomDelay (calendarTriggerType) 元素
 
@@ -38,7 +38,7 @@ ms.locfileid: "104322328"
 
 
 
-| 元素                                                                                            | 衍生自                                                                       | Description                                                                                 |
+| 元素                                                                                            | 衍生自                                                                       | 描述                                                                                 |
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [**CalendarTrigger (triggerGroup)**](taskschedulerschema-calendartrigger-triggergroup-element.md) | [**calendarTriggerType**](taskschedulerschema-calendartriggertype-complextype.md) | 指定每日、每週、每月或每週 (DOW) 觸發程式。 <br/> |
 
@@ -50,8 +50,8 @@ ms.locfileid: "104322328"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 27c28313-d8db-4c40-9972-cb03bdaa125c
 title: 使用 XPS 數位簽章 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c9037a1442a44b082caec21309c94390b3f783e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84ea6e38704efa2a348a90fec247f37b9722857a3838b10233937e63dc37fdbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469350"
 ---
 # <a name="using-xps-digital-signature-api"></a>使用 XPS 數位簽章 API
 

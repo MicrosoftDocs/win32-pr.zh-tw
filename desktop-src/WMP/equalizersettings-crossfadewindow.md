@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6e95c5cf3f3dc559a7e9d3a6d8dd2a0e3a6f571
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 678e63011ac810c18567c9560103f20a27f85b9e6e2c7d6df29142fc079737f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578393"
 ---
 # <a name="equalizersettingscrossfadewindow"></a>EQUALIZERSETTINGS.crossFadeWindow
 

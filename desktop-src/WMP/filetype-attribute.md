@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 265ed72a22120690dc81bd1bb93cee2445edc758
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b4da9fc00ee741b820d432c3b827430f11a8480764f9d1000212ec87b0a58aec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118837454"
 ---
 # <a name="filetype-attribute"></a>類型屬性
 

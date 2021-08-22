@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3622f819679c2fd2b28d66e371a8b88e0a2d2f70
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3a0f18d9e3344e05348bba0e972a18b7bf64df5edf41fde1cabc3f6a5b106d11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118541943"
 ---
 # <a name="swarmstatus-enumeration"></a>SwarmStatus 列舉
 
@@ -79,8 +79,8 @@ typedef enum _SwarmStatus {
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                     |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                     |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl> |
 
 
 

@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 3dde476ee9958952d85c66816a113b92529aa13e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff41aca0d268083132fd1a45371b0bb1ca026e5e6d693619ba1e2c2f9f2dd8f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666728"
 ---
 # <a name="rtlgetfunctiontablelisthead-function"></a>RtlGetFunctionTableListHead 函式
 
-\[您可以在不另行通知的情況下，從 Windows 變更或移除此功能。\]
+\[您可以從 Windows 中變更或移除此函式，而不需另行通知。\]
 
 讓偵錯工具檢查動態函數資料表資訊。
 

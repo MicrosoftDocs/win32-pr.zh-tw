@@ -4,12 +4,12 @@ ms.assetid: 5028df47-1689-470f-90e0-2859173a7111
 title: SPI 中的 GetXbyY 基本方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d635230bb1c1205d0f6e1aee16fe7c7ac9eab5b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba707747dd6082bfa6c8b3c4dd3c19e8d6ce968359745947227ee464d97f984f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560522"
 ---
 # <a name="basic-approach-for-getxbyy-in-the-spi"></a>SPI 中的 GetXbyY 基本方法
 

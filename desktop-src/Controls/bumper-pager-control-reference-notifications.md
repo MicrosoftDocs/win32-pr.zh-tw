@@ -4,12 +4,12 @@ description: 呼機控制項通知
 ms.assetid: fa99d4b3-1d9d-4bda-bcca-84f9d01ce79e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80471e54fbf2bf0130adb701e726ac4e1f4d809a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fe821416ec3ff61903c85c1ffb9f0f6baa6a9a28339ccb3e311ca6dc3c18f433
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106992253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118416212"
 ---
 # <a name="pager-control-notifications"></a>呼機控制項通知
 

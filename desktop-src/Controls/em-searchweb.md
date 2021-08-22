@@ -3,7 +3,7 @@ title: 'EM_SEARCHWEB 訊息 (Commctrl .h) '
 description: 開啟瀏覽器，並使用選取的文字做為搜尋字詞來執行 web 搜尋。
 ms.assetid: 1b1ff5e7-e0b8-40c1-8b7e-7003e9ef959b
 keywords:
-- EM_SEARCHWEB message Windows 控制項
+- EM_SEARCHWEB 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2e83c18db47d18648797ee3d58fe12567af941b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 21523df67acf91b8a44f59ea40b012f1af7c287185b7ac64b5dc1288005dfb17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118673174"
 ---
 # <a name="em_searchweb-message"></a>EM \_ SEARCHWEB 訊息
 
@@ -58,7 +58,7 @@ ms.locfileid: "103844043"
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限 1809 desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2019 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2019 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

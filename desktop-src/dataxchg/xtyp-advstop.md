@@ -3,7 +3,7 @@ title: 'XTYP_ADVSTOP 交易 (Ddeml .h) '
 description: 用戶端會使用 XTYP \_ ADVSTOP 交易，以伺服器結束「建議」迴圈。 當用戶端 \_ 在 DdeClientTransaction 函數中指定 XTYP ADVSTOP 時，動態資料交換 (DDE) server 回呼函式 DdeCallback 會接收此交易。
 ms.assetid: 67dfa463-6a44-43a5-93be-a39c19c87c1c
 keywords:
-- XTYP_ADVSTOP 交易資料交換
+- XTYP_ADVSTOP 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61292683377cd6c7243c3e41c5dbd9332a671163
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 37e81f1fe407186410e604a259f6e8039c074da039fc23b2f8a090c34ff58154
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106979681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544767"
 ---
 # <a name="xtyp_advstop-transaction"></a>XTYP \_ ADVSTOP 交易
 
@@ -105,7 +105,7 @@ ms.locfileid: "106979681"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

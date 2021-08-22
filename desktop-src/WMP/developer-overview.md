@@ -24,12 +24,12 @@ keywords:
 - 外掛程式嚮導
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36ec8632bd5611e081a4a17d1b0390dc99a09703
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d20988a8cf1b7923699ec9cee7990b99840b8acdf9371e74da5940ddb8fc8d4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579410"
 ---
 # <a name="developer-overview"></a>開發人員總覽
 
@@ -37,7 +37,7 @@ ms.locfileid: "104301436"
 
 ## <a name="visualization-packaging"></a>視覺效果封裝
 
-視覺效果是 Windows Media Player 用來在 Microsoft Windows 中將音訊波形轉換成動畫圖形的 COM 控制項。 COM 控制項會封裝成 Microsoft Windows 動態連結程式庫 (Dll) ，而且必須在 Windows 登錄中註冊。 當 Windows Media Player 執行時，系統會根據 Windows Media Player 正在使用的面板指示載入和查看已註冊的自訂視覺效果。
+視覺效果是 Windows Media Player 用來在 Microsoft Windows 中將音訊波形轉換成動畫圖形的 COM 控制項。 COM 控制項會封裝成 Microsoft Windows 動態連結程式庫 (dll) 且必須在 Windows 登錄中註冊。 當 Windows Media Player 執行時，系統會根據 Windows Media Player 正在使用的面板指示載入和查看已註冊的自訂視覺效果。
 
 ## <a name="audio-input"></a>音訊輸入
 
@@ -45,11 +45,11 @@ Windows Media Player 會在以秒為單位的時間間隔內，將音訊頻率�
 
 ## <a name="graphical-output"></a>圖形化輸出
 
-視覺效果的圖形化輸出是 Microsoft Windows 裝置內容。 這是標準的 Windows 繪圖介面，可讓您在每次提供音訊快照集時繪製。 所有的背景 Windows 技術都是由您負責。 您只需要使用所提供的音訊資料來繪製裝置內容。
+視覺效果的圖形輸出是 Microsoft Windows 裝置內容。 這是標準 Windows 繪圖介面，可讓您在每次提供音訊快照集時繪製。 所有背景 Windows 技術都是由您負責。 您只需要使用所提供的音訊資料來繪製裝置內容。
 
 ## <a name="drawing-tools"></a>繪圖工具
 
-您可以使用標準的 Microsoft Windows 圖形裝置介面 (GDI) 函式來繪製裝置內容，方法是使用畫筆和筆刷來建立以 Windows Media Player 提供給您的音訊資料修改的設計。 GDI 提供一組豐富的繪圖工具，可建立許多種類的視覺效果。
+您可以使用標準的 Microsoft Windows 圖形裝置介面 (GDI) 函式來繪製裝置內容，並使用畫筆和筆刷來建立以 Windows Media Player 提供給您的音訊資料修改的設計。 GDI 提供一組豐富的繪圖工具，可建立許多種類的視覺效果。
 
 ## <a name="programming-language"></a>程式設計語言
 
@@ -61,7 +61,7 @@ Windows Media Player 提供可讓您新增至 Visual C++ 的 COM wizard，以產
 
 下列主題說明視覺效果程式碼處理音訊資料的方式：
 
--   [控制流程](flow-of-control.md)
+-   [控制項 Flow](flow-of-control.md)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -70,9 +70,9 @@ Windows Media Player 提供可讓您新增至 Visual C++ 的 COM wizard，以產
 [**關於自訂視覺效果**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

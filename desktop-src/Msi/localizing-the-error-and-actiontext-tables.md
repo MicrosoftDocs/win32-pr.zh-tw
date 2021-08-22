@@ -4,16 +4,16 @@ ms.assetid: 2e3a6e73-5b06-452d-9f87-18eb6914b961
 title: 將錯誤和 ActionText 表當地語系化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c45428d9f0d3c4b8dcafbf489f7316225a83f032
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1839141b80afd1d28aa9e9317da10d79aea41232f9e7ebde0db7971d22f5141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118629463"
 ---
 # <a name="localizing-the-error-and-actiontext-tables"></a>將錯誤和 ActionText 表當地語系化
 
-Microsoft Windows 軟體開發套件 (SDK) 包含當地語系化的資源字串、當地語系化的 [錯誤資料表](error-table.md)，以及下表所列語言的當地語系化 [ActionText 資料表](actiontext-table.md) 。 以星號標示的 Langid 會指出資源字串會儲存為基底語言，因此可搭配該語言的所有方言使用。
+Microsoft Windows 軟體開發套件 (SDK) 包含當地語系化的資源字串、當地語系化的[錯誤資料表](error-table.md)，以及下表所列語言的當地語系化[ActionText 資料表](actiontext-table.md)。 以星號標示的 Langid 會指出資源字串會儲存為基底語言，因此可搭配該語言的所有方言使用。
 
 您可以使用 Msidb.exe 或 [**MsiDatabaseImport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta)，將當地語系化的錯誤和 ActionText 資料表匯入資料庫中。
 
@@ -21,7 +21,7 @@ Microsoft Windows 軟體開發套件 (SDK) 包含當地語系化的資源字串�
 
 | LANGID (decimal)  | LANGID (十六進位)  | ASCII 字碼頁 | 縮寫 | 語言                      | Language-Culture |
 |------------------|----------------------|-----------------|--------------|-------------------------------|------------------|
-| 1025\*           | 0x401                | 1256            | Ara          | 阿拉伯文 - 沙烏地阿拉伯         | ar-SA            |
+| 1025\*           | 0x401                | 1256            | ARA          | 阿拉伯文 - 沙烏地阿拉伯         | ar-SA            |
 | 1027             | 0x403                | 1252            | 貓          | 卡達隆尼亞文                       | ca-ES            |
 | 1028\*           | 0x404                | 950             | CHT          | 繁體中文 - 台灣              | zh-TW            |
 | 2052             | 0x804                | 936             | CHS          | 簡體中文 - 中國               | zh-CN            |
@@ -48,7 +48,7 @@ Microsoft Windows 軟體開發套件 (SDK) 包含當地語系化的資源字串�
 | 2070             | 0x816                | 1252            | PTG          | 葡萄牙文 - 葡萄牙         | pt-PT            |
 | 1048             | 0x418                | 1250            | 羅          | 羅馬尼亞文-羅馬尼亞            | ro-RO            |
 | 1049             | 0x419                | 1251            | RUS          | 俄文 - 俄羅斯              | ru-RU            |
-| 1050             | 0x41A                | 1250            | Hrv          | 克羅地亞語-克羅地亞            | hr-HR            |
+| 1050             | 0x41A                | 1250            | HRV          | 克羅地亞語-克羅地亞            | hr-HR            |
 | 1051             | 0x41B                | 1250            | 天空          | 斯洛伐克文-斯洛伐克             | sk-SK            |
 | 1053\*           | 0x41D                | 1252            | SVE          | 瑞典文-瑞典              | sv-SE            |
 | 1054             | 0x41E                | 874             | THA          | 泰文-泰國               | th-TH            |
@@ -61,7 +61,7 @@ Microsoft Windows 軟體開發套件 (SDK) 包含當地語系化的資源字串�
 
  
 
-**Windows Vista：** 除了上表所列的語言之外，下表中的語言也可從 Windows Vista 開始使用。
+**Windows Vista：** 除了上表所列的語言之外，下表中的語言也可以從 Windows Vista 開始使用。
 
 
 

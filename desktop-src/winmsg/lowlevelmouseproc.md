@@ -32,16 +32,16 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: df6f246e5824099d01ab2a42f887464c7177cfa5
-ms.sourcegitcommit: 36610cefb8577d0cf9aa2286c8000d8f31cc4ec2
+ms.openlocfilehash: 53f75d14395388ce22ce86ef73f8819892c3fe7285909b1f38c801af476636a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "104024279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705784"
 ---
 # <a name="lowlevelmouseproc-function"></a>LowLevelMouseProc 函式
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 搭配 [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) 函式使用的應用程式定義或程式庫定義的回呼函數。
 每次有新的滑鼠輸入事件張貼到執行緒輸入佇列時，系統就會呼叫這個函數。
@@ -111,7 +111,7 @@ LRESULT CALLBACK LowLevelMouseProc(
 
 值會以毫秒來表示。
 如果攔截程式超時，系統會將訊息傳遞至下一個攔截。
-不過，在 Windows 7 和更新版本上，會以無訊息方式移除攔截，而不會被呼叫。
+不過，在 Windows 7 和更新版本上，會以無訊息方式移除攔截，而不需要呼叫。
 應用程式沒有辦法知道是否已移除攔截。
 
 **注意：**  偵錯工具攔截無法追蹤這種類型的低層級滑鼠掛勾。
@@ -144,6 +144,6 @@ LRESULT CALLBACK LowLevelMouseProc(
 
 [WM_RBUTTONUP](/windows/desktop/inputdev/wm-rbuttonup)
 
-[鉤](hooks.md)
+[勾點](hooks.md)
 
 [關於勾點](about-hooks.md)

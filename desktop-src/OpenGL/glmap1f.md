@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eafcbfc40b3359cd8faa6f52f6635c1c86f03f17
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7547e465f940942333c3bcff3e543e77c404ced289471ccff08924da83bfc2af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104555029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118359278"
 ---
 # <a name="glmap1f-function"></a>glMap1f 函式
 

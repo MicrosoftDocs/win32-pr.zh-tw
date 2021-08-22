@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c30b148fb9a51de2718bb1ed3ffa78d32c269f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f66efc8ca3269912b076271540a4c07beaf41d7754fa3dcb19389dddb255970e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698242"
 ---
 # <a name="wmvideoheight"></a>WM/VideoHeight
 
@@ -38,9 +38,9 @@ g \_ wszWMVideoHeight
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

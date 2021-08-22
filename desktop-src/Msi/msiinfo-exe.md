@@ -4,12 +4,12 @@ ms.assetid: 3f60146e-12bf-4755-bbca-93bb1c300fb7
 title: Msiinfo.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98291c26678efa8b17b42c08bb34c0d1df16c6e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57487406533b060d9343d4afbdf7e5254c32e15149bb3385f81cc7dc3923fc71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628096"
 ---
 # <a name="msiinfoexe"></a>Msiinfo.exe
 
@@ -30,7 +30,7 @@ Msiinfo.exe 會使用下列不區分大小寫的命令列選項。 斜線分隔�
 
 
 
-| 選項 | Description                                                                                                                                                                                                                                                                                                                                                      | 屬性識別碼        | PID |
+| 選項 | 描述                                                                                                                                                                                                                                                                                                                                                      | 屬性識別碼        | PID |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----|
 | 無 | 如果未指定任何選項，則公用程式會顯示摘要資訊屬性的目前值。                                                                                                                                                                                                                                                      |                    |     |
 | -b     | 顯示字串集區中每個字串的相關資訊。 如果同時使用-d，-b 選項才有效，而-b 必須在-d 選項之前。                                                                                                                                                                                                                 |                    |     |
@@ -60,13 +60,13 @@ Msiinfo.exe 會使用下列不區分大小寫的命令列選項。 斜線分隔�
 
  
 
-此工具僅適用于 [Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+此工具僅適用于[Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[Windows Installer 開發工具](windows-installer-development-tools.md)
+[Windows安裝程式開發工具](windows-installer-development-tools.md)
 </dt> <dt>
 
 [已發行的版本、工具和可轉散發套件](released-versions-tools-and-redistributables.md)

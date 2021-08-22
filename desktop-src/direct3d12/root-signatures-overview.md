@@ -5,12 +5,12 @@ ms.assetid: 2E649DA2-6CAC-4C2A-A420-D4EC0DD6EA73
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85eb5882e4a893c2933c55281f21c49f2d7d50d7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a44ed554156818d50526c5d3335eaa02cb57fec6e5b486882db4cab52eb8f8c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118806709"
 ---
 # <a name="root-signatures-overview"></a>根簽章總覽
 
@@ -51,6 +51,6 @@ ms.locfileid: "104548419"
 [根簽章](root-signatures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86a159911e4294e2207ad4ae989d4ef9e390384c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74fd93b775d3fd239435a984cf0f0b7518558f3f57e92525365764da580f499c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606814"
 ---
 # <a name="imsrdpdevicedeviceinstanceid-property"></a>IMsRdpDevice：:D eviceInstanceId 屬性
 

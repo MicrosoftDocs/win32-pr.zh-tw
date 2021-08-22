@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 866ca7164fdaef5a93679da000779c51fb4ddb24
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4b046111e3a7e22fcf9e380fae09bb2d2007a583e49c0507b8e214142505fe02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661700"
 ---
 # <a name="cautolock-class"></a>CAutoLock 類別
 
@@ -49,10 +49,10 @@ CCritSec csMyLock;  // Critical section is not locked yet.
 
 
 
-| 受保護的成員變數                 | Description                                                      |
+| 受保護的成員變數                 | 描述                                                      |
 |--------------------------------------------|------------------------------------------------------------------|
 | [**m \_ pLock**](cautolock-m-plock.md)      | 此鎖定的重要區段。                                  |
-| 公用方法                             | Description                                                      |
+| 公用方法                             | 描述                                                      |
 | [**CAutoLock**](cautolock-cautolock.md)   | 函式方法。 鎖定指定的重要區段物件。 |
 | [**~ CAutoLock**](cautolock--cautolock.md) | 函式方法。 解除鎖定重要區段物件。          |
 

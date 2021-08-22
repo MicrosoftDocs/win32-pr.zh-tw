@@ -1,19 +1,19 @@
 ---
-description: Windows 通訊端 2 (適用于 multipoint 和多播的 Winsock) 介面元素。
+description: Windows通訊端 2 (Winsock) 適用于 multipoint 和多播的介面元素。
 ms.assetid: c6f704cf-031b-4714-9f07-2d7715a157a0
-title: 適用于 Multipoint 和多播的 Windows 通訊端2介面元素
+title: Windows適用于 Multipoint 和多播的通訊端2介面元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad86905fe19c5c4c603db488874039b7cc8a0b2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcf2422d8171a041f75ba8abed6ea490982187af3affb3d3c3d1349984210ce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558850"
 ---
-# <a name="windows-sockets-2-interface-elements-for-multipoint-and-multicast"></a>適用于 Multipoint 和多播的 Windows 通訊端2介面元素
+# <a name="windows-sockets-2-interface-elements-for-multipoint-and-multicast"></a>Windows適用于 Multipoint 和多播的通訊端2介面元素
 
-已併入 Windows 通訊端2以利用 multipoint 功能的機制可摘要如下：
+已併入 Windows 通訊端2以利用 multipoint 功能的機制，可摘要如下：
 
 -   [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)結構中有三個屬性位。
 -   針對 [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa)的 *dwFlags* 參數定義的四個旗標。

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b7bf98dd8e7a81a0dd261f22a565bec8298a86a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 720b10c75fcdf4a6b72f22a72d3b0860fc6089403385b0a951127f56286b6953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632612"
 ---
 # <a name="installercomponentpathex-property"></a>ComponentPathEx 屬性
 
@@ -45,7 +45,7 @@ propVal = Installer.ComponentPathEx
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5。0<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的安裝程式5。0<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                      |
 | IID<br/>     | IID \_ IInstaller 定義為000C1090-0000-0000-C000-000000000046<br/>                           |
 

@@ -6,12 +6,12 @@ keywords:
 - 飽和度效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d6912e64c9297a3554b4785128e1282a3974d36
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf5f9a4bff56ed47a0ca182dab855899d98022252c6f20c250aef693451df4c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118665031"
 ---
 # <a name="saturation-effect"></a>飽和度效果
 
@@ -68,7 +68,7 @@ m_d2dContext->EndDraw();
 
 
 
-| 顯示名稱和索引列舉                                  | 類型和預設值           | Description                                                                                                                                                                                                                      |
+| 顯示名稱和索引列舉                                  | 類型和預設值           | 描述                                                                                                                                                                                                                      |
 |---------------------------------------------------------------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 飽和度<br/> D2D1 \_ 飽和度 \_ 的 \_ 飽和度<br/> | FLOAT<br/> 0.5 f<br/> | 影像的飽和度。 您可以將飽和度設定為介於0和1之間的值。 如果您將它設定為1，則輸出影像會完全飽和。 如果您將它設定為0，則輸出影像為單色。 飽和度值沒有用。 |
 
@@ -82,8 +82,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

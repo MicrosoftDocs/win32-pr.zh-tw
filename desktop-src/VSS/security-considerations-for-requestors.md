@@ -4,12 +4,12 @@ ms.assetid: b01145c6-76ba-4a81-bca6-59c4ca488dac
 title: 要求者的安全性考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d3e989793dbf5a5dd1fac3224cf6f06958564de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60d64a5c817a8c45951d56d3fa12e78a03d8bee9dd742f67755f949d1f90a0e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590949"
 ---
 # <a name="security-considerations-for-requesters"></a>要求者的安全性考慮
 
@@ -33,7 +33,7 @@ VSS 基礎結構需要 VSS 要求者（例如，備份應用程式）能夠以 C
 
 要求者必須注意，當其程式做為伺服器 (例如，允許寫入器修改備份元件檔) 時，必須允許來自其他 VSS 參與者（例如，寫入器或 VSS 服務）的撥入電話。
 
-不過，根據預設，Windows 進程只會允許在相同登入會話下執行的 COM 用戶端 (自我 SID) 或在本機系統帳戶下執行。 這是潛在問題，因為這些預設值對 VSS 基礎結構而言並不足夠。 例如，寫入器可能會以「備份操作員」使用者帳戶的形式執行，該帳戶不在與要求者進程相同的登入會話中，也不是本機系統帳戶。
+不過，根據預設，Windows 進程只會允許在相同登入會話下執行的 COM 用戶端 (自助 SID) 或在本機系統帳戶下執行。 這是潛在問題，因為這些預設值對 VSS 基礎結構而言並不足夠。 例如，寫入器可能會以「備份操作員」使用者帳戶的形式執行，該帳戶不在與要求者進程相同的登入會話中，也不是本機系統帳戶。
 
 為了處理這種類型的問題，每個 COM 伺服器進程都可以進一步控制 RPC 或 COM 用戶端是否允許執行伺服器所執行的 COM 方法 (在此案例中，) 使用 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) 來設定整個進程的「預設 COM 存取檢查」許可權。
 
@@ -41,7 +41,7 @@ VSS 基礎結構需要 VSS 要求者（例如，備份應用程式）能夠以 C
 
 -   允許所有進程存取要求者進程的呼叫。
 
-    此選項可能適用于大部分的要求者，且由其他 COM 伺服器使用，例如，所有 SVCHOST 型 Windows 服務都已使用此選項，預設為所有 COM + 服務。
+    此選項可能適用于大部分的要求者，也可供其他 COM 伺服器使用，例如，所有 SVCHOST 型 Windows 服務都已使用此選項，預設為所有 com + 服務。
 
     允許所有進程執行傳入的 COM 呼叫不一定是安全性弱點。 作為 COM 伺服器的要求者（如同所有其他 COM 伺服器），一律會保留此選項，以在其處理常式中執行的每個 COM 方法上授權其用戶端。
 
@@ -49,7 +49,7 @@ VSS 基礎結構需要 VSS 要求者（例如，備份應用程式）能夠以 C
 
     若要允許所有進程對要求者進行 COM 存取，您可以傳遞 **Null** 安全描述項作為 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity)的第一個參數。  (請注意， **CoInitializeSecurity** 必須針對整個進程呼叫最多一次。 如需 **CoInitializeSecurity** 呼叫的詳細資訊，請參閱 COM 檔或 MSDN。 ) 
 
-    下列程式碼範例顯示要求者如何在 Windows 8 和 Windows Server 2012 和更新版本中呼叫 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) ，以便與適用于遠端檔案共用的 VSS 相容 (RVSS) ：
+    下列程式碼範例顯示要求者如何在 Windows 8 和 Windows Server 2012 和更新版本中呼叫 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) ，以便與遠端檔案共用的 VSS 相容 (RVSS) ：
 
     ``` syntax
     // Initialize COM security.
@@ -72,7 +72,7 @@ VSS 基礎結構需要 VSS 要求者（例如，備份應用程式）能夠以 C
     -   將模擬層級設定為 **RPC \_ C \_ IMP \_ 層級 \_** 模擬。
     -   設定 **EOAC \_ 靜態** 的掩蓋安全性功能。 如需有關掩蔽安全性的詳細資訊，請參閱「 [掩蔽](../com/cloaking.md)」。
 
-    下列程式碼範例顯示要求者如何在 Windows 7 和 Windows Server 2008 R2 和更早版本的 (或 Windows 8 和 Windows Server 2012 和更新版本中呼叫 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) ，) 不需要 RVSS 相容性：
+    下列程式碼範例會示範要求者如何在 Windows 7 和 Windows Server 2008 R2 和更早版本的 (或 Windows 8 以及 Windows Server 2012 和更新版本中呼叫 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) ，) 不需要 RVSS 相容性：
 
     ``` syntax
     // Initialize COM security.
@@ -103,11 +103,11 @@ VSS 基礎結構需要 VSS 要求者（例如，備份應用程式）能夠以 C
     -   [本機系統]
     -   本機服務
 
-        **WINDOWS XP：** 在 Windows Server 2003 之前，不支援這個值。
+        **Windows XP：** 在 Windows Server 2003 之前，不支援這個值。
 
     -   網路服務
 
-        **WINDOWS XP：** 在 Windows Server 2003 之前，不支援這個值。
+        **Windows XP：** 在 Windows Server 2003 之前，不支援這個值。
 
     -   本機 Administrators 群組的成員
     -   本機備份操作員群組的成員
@@ -176,12 +176,12 @@ HKEY_LOCAL_MACHINE
 
 如果要求者藉由備份個別檔案來執行系統狀態備份，而不是使用磁片區映射進行備份，則必須呼叫 [**FindFirstFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findfirstfilenamew) 和 [**FindNextFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findnextfilenamew) 函式來列舉位於下列目錄之檔案的永久連結：
 
--   Windows \\ system32 \\ WDI \\ perftrack\\
--   Windows \\ WINSXS\\
+-   Windows \\system32 \\ WDI \\ perftrack\\
+-   Windows \\WINSXS\\
 
 這些目錄只能由 Administrators 群組的成員存取。 基於這個理由，這類要求者必須在系統帳戶下執行，或是以 Administrators 群組成員的使用者帳戶執行。
 
-**WINDOWS XP 和 Windows Server 2003：** 在 Windows Vista 和 Windows Server 2008 之前，不支援 [**FindFirstFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findfirstfilenamew) 和 [**FindNextFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findnextfilenamew) 函數。
+**Windows XP 和 Windows Server 2003：** 在 Windows Vista 和 Windows Server 2008 之前，不支援 [**FindFirstFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findfirstfilenamew)和 [**FindNextFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findnextfilenamew)函數。
 
  
 

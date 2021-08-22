@@ -4,18 +4,18 @@ ms.assetid: 9c1a4fa4-30b9-445f-8aee-46711355ace7
 title: 執行 WIC-Enabled 編碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e65f969ba7c65e6860009b2fc998024d358301
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b7f0bf3c073b3658c6c6edda6cf0761e3d594965b83b1b54206a48b62c96727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710927"
 ---
 # <a name="implementing-a-wic-enabled-encoder"></a>執行 WIC-Enabled 編碼器
 
 ## <a name="introduction"></a>簡介
 
-執行 Windows 影像處理元件 (WIC) 編碼器需要撰寫兩個類別，也就是執行 WIC 解碼器的情況。 這些類別上的介面直接對應至 Windows 影像處理元件運作方式的 [編碼](-wic-howwicworks.md) 區段中所述的編碼器責任。
+執行 Windows 影像處理元件 (WIC) 編碼器需要撰寫兩個類別，也就是執行 WIC 解碼器的情況。 這些類別上的介面直接對應至 Windows 影像處理元件運作方式的[編碼](-wic-howwicworks.md)區段中所述的編碼器責任。
 
 其中一個類別會提供容器層級的服務，並管理容器內個別影像框架的序列化。 這個類別會實 [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) 介面。 如果您的影像格式支援容器層級的中繼資料，您也必須在這個類別上執行 [**IWICMetadataBlockWriter**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter) 介面。
 
@@ -45,7 +45,7 @@ ms.locfileid: "104193712"
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

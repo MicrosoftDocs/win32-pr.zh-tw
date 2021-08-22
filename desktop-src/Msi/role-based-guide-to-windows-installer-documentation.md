@@ -1,19 +1,19 @@
 ---
-description: Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決方案。
+description: Windows安裝程式是在 Windows 上安裝和設定應用程式的建議解決方案。
 ms.assetid: 13f41020-5275-44cd-b26b-f45483700d8a
 title: Windows Installer 檔的以角色為基礎的指南
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc8a2138e963b6d29bd161df5e09144cf0cfd36b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 029f886050f3bb0256f6f0f993e613be940cee9cd2fe748b2d17b5dc0f0f84a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625860"
 ---
 # <a name="role-based-guide-to-windows-installer-documentation"></a>Windows Installer 檔的以角色為基礎的指南
 
-Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決方案。 因此，此 SDK 中包含的部分資訊會對各式各樣的軟體發展和 IT 專業人員感興趣。 這一節是以讀者的指南來提供，想要看到依專業角色和一般工作案例組織的主題連結。 因為組織之間的角色可能會有極大的差異，所以必須將下列群組視為要開始搜尋所需資訊的位置指南。
+Windows安裝程式是在 Windows 上安裝和設定應用程式的建議解決方案。 因此，此 SDK 中包含的部分資訊會對各式各樣的軟體發展和 IT 專業人員感興趣。 這一節是以讀者的指南來提供，想要看到依專業角色和一般工作案例組織的主題連結。 因為組織之間的角色可能會有極大的差異，所以必須將下列群組視為要開始搜尋所需資訊的位置指南。
 
 -   [應用程式開發人員](#application-developers)
 -   [設定作者](#setup-authors)
@@ -22,11 +22,11 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
 
 本檔適用于想要讓應用程式使用 Windows Installer 的軟體發展人員。 SDK 是安裝程式參考資料的主要來源，提供安裝套件和安裝程式服務的相關資訊。 它包含應用程式開發介面的完整描述 (API) 和安裝程式資料庫的元素。
 
-如需詳細資訊，請參閱 [Windows Installer 資訊的其他來源](other-sources-of-windows-installer-information.md)。
+如需詳細資訊，請參閱[Windows Installer 資訊的其他來源](other-sources-of-windows-installer-information.md)。
 
 ## <a name="application-developers"></a>應用程式開發人員
 
-應用程式開發人員建立的應用程式會呼叫 Windows Installer 應用程式開發介面，並在執行時間安裝 Windows Installer 套件。 Windows Installer 可以在應用程式中工作，例如自行修復和隨選安裝。 一般來說，應用程式開發人員會執行下列動作：
+應用程式開發人員建立的應用程式會呼叫 Windows Installer 應用程式開發介面，並在執行時間安裝 Windows 安裝程式套件。 Windows Installer 可以在應用程式中工作，例如自行修復和隨選安裝。 一般來說，應用程式開發人員會執行下列動作：
 
 -   在執行時間從另一個應用程式中啟用應用程式的隨選安裝。
 
@@ -104,7 +104,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
 
     如需詳細資訊，請參閱下列：
 
-    -   [Windows Installer 元件](windows-installer-components.md)
+    -   [Windows安裝程式元件](windows-installer-components.md)
     -   [使用功能和元件](working-with-features-and-components.md)
     -   [使用可轉移的元件](using-transitive-components.md)
     -   [如果元件規則中斷，會發生什麼事？](what-happens-if-the-component-rules-are-broken.md)
@@ -114,7 +114,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
 
 ## <a name="setup-authors"></a>設定作者
 
-安裝程式作者會建立 ( .msi 檔案) 的 Windows Installer 封裝，其中包含安裝應用程式所需的安裝程式邏輯和資訊。 它們通常會使用撰寫工具（例如 [Orca.exe](orca-exe.md) ），以安裝程式邏輯和資訊填入 Windows Installer 資料庫。 一般而言，安裝程式作者會執行下列動作：
+安裝程式作者會建立 Windows Installer 套件 (.msi 檔案) ，其中包含安裝程式邏輯以及安裝應用程式所需的資訊。 它們通常會使用撰寫工具（例如[Orca.exe](orca-exe.md) ），以安裝程式邏輯和資訊填入 Windows Installer 資料庫。 一般而言，安裝程式作者會執行下列動作：
 
 -   判斷不同 Windows Installer 版本所提供的功能。
 
@@ -128,23 +128,23 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
 
     如需詳細資訊，請參閱下列：
 
-    -   [Windows Installer 元件](windows-installer-components.md)
+    -   [Windows安裝程式元件](windows-installer-components.md)
     -   [將應用程式組織成元件](organizing-applications-into-components.md)
     -   [變更元件程式碼](changing-the-component-code.md)
     -   [如果元件規則中斷，會發生什麼事？](what-happens-if-the-component-rules-are-broken.md)
-    -   [Windows Installer 範例](windows-installer-examples.md)
+    -   [Windows安裝程式範例](windows-installer-examples.md)
 
--   使用協力廠商 Windows Installer 套件撰寫工具或 SDK 工具（例如 [Orca.exe](orca-exe.md) ）來填入安裝資料庫，並建立 Windows Installer 套件。
+-   使用協力廠商 Windows Installer 套件撰寫工具或 SDK 工具（例如[Orca.exe](orca-exe.md) ）來填入安裝資料庫，並建立 Windows Installer 套件。
 
     如需詳細資訊，請參閱下列：
 
-    -   [Windows Installer 開發工具](windows-installer-development-tools.md)
+    -   [Windows安裝程式開發工具](windows-installer-development-tools.md)
     -   [安裝套件，關於安裝程式資料庫](installation-package.md)
-    -   [Windows Installer 副檔名](windows-installer-file-extensions.md)
+    -   [Windows安裝程式副檔名](windows-installer-file-extensions.md)
     -   [資料庫資料表](database-tables.md)
     -   [封裝碼](package-codes.md)
     -   [撰寫大型封裝](authoring-a-large-package.md)
-    -   [64位作業系統上的 Windows Installer](windows-installer-on-64-bit-operating-systems.md)
+    -   [Windows64位作業系統上的安裝程式](windows-installer-on-64-bit-operating-systems.md)
     -   [命名自訂資料表、屬性和動作](naming-custom-tables-properties-and-actions.md)
     -   [資料流程的 OLE 限制](ole-limitations-on-streams.md)
     -   [資料行定義格式](column-definition-format.md)
@@ -170,7 +170,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
     -   [FileSFPCatalog 資料表](filesfpcatalog-table.md)
     -   [搜尋檔案並建立保存檔案路徑的屬性](searching-for-a-file-and-creating-a-property-holding-the-file-s-path.md)
     -   [搜尋目錄和目錄中的檔案](searching-for-a-directory-and-a-file-in-the-directory.md)
-    -   [Windows Installer 範例](windows-installer-examples.md)
+    -   [Windows安裝程式範例](windows-installer-examples.md)
 
 -   撰寫安裝目錄結構和資料夾的 Windows Installer 資料庫。
 
@@ -187,7 +187,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
     -   [LockPermissions 資料表](lockpermissions-table.md)
     -   [MsiLockPermissionsEx 資料表](msilockpermissionsex-table.md)
     -   [變更目錄的目標位置](changing-the-target-location-for-a-directory.md)
-    -   [Windows Installer 範例](windows-installer-examples.md)
+    -   [Windows安裝程式範例](windows-installer-examples.md)
 
 -   撰寫會安裝登錄機碼的 Windows Installer 資料庫。
 
@@ -200,13 +200,13 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
     -   [在安裝或移除元件時新增或移除登錄機碼](adding-or-removing-registry-keys-on-the-installation-or-removal-of-components.md)
     -   [新增和移除應用程式，而不在登錄中保留任何追蹤](adding-and-removing-an-application-and-leaving-no-trace-in-the-registry.md)
     -   [安裝永久元件、檔案、字型、登錄機碼](installing-permanent-components-files-fonts-registry-keys.md)
-    -   [搜尋現有的應用程式、檔案、登錄專案或 .ini 檔案專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
+    -   [搜尋現有的應用程式、檔案、登錄專案或 .ini 的檔案專案](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
     -   [搜尋登錄專案，並建立保存登錄值的屬性](searching-for-a-registry-entry-and-creating-a-property-holding-the-value-of-the-registry.md)
     -   [Windows Installer 所寫入的元件登錄機碼](assembly-registry-keys-written-by-windows-installer-.md)
     -   [卸載登錄機碼](uninstall-registry-key.md)
     -   [SelfReg 資料表](selfreg-table.md)
     -   [指定自我註冊的順序](specifying-the-order-of-self-registration.md)
-    -   [Windows Installer 範例](windows-installer-examples.md)
+    -   [Windows安裝程式範例](windows-installer-examples.md)
 
 -   撰寫安裝服務的 Windows Installer 資料庫。
 
@@ -230,7 +230,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
     -   [移除隔離的元件](removal-of-isolated-components.md)
     -   [將 COM 元件安裝至私用位置](installing-a-com-component-to-a-private-location.md)
     -   [使現有封裝中的 COM 元件成為私用](make-a-com-component-in-an-existing-package-private.md)
-    -   [安裝具有 Windows Installer 的 COM + 應用程式](installing-a-com--application-with-the-windows-installer.md)
+    -   [安裝具有 Windows Installer 的 com + 應用程式](installing-a-com--application-with-the-windows-installer.md)
     -   [將非 COM 元件安裝至私用位置](installing-a-non-com-component-to-a-private-location.md)
     -   [將現有封裝中的非 COM 元件設為私用](make-a-non-com-component-in-an-existing-package-private.md)
 
@@ -275,7 +275,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
     -   [快速鍵資料表](shortcut-table.md)
     -   [MsiShortcutProperty 資料表](msishortcutproperty-table.md)
     -   [編輯安裝程式快捷方式](editing-installer-shortcuts.md)
-    -   [Windows Installer 範例](windows-installer-examples.md)
+    -   [Windows安裝程式範例](windows-installer-examples.md)
 
 -   撰寫安裝多個應用程式實例的 Windows Installer 資料庫。
 
@@ -322,7 +322,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
     -   [條件陳述式語法的範例](examples-of-conditional-statement-syntax.md)
     -   [要在移除期間執行的調節動作](conditioning-actions-to-run-during-removal.md)
     -   [標準動作](standard-actions.md)
-    -   [Windows Installer 範例](windows-installer-examples.md)
+    -   [Windows安裝程式範例](windows-installer-examples.md)
 
 -   準備應用程式的安裝套件，以便日後 Windows Installer 服務升級應用程式。
 
@@ -336,7 +336,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
     -   [防止舊套件安裝在較新的版本上](preventing-an-old-package-from-installing-over-a-newer-version.md)
     -   [變更產品代碼](changing-the-product-code.md)
     -   [更新組件](updating-assemblies.md)
-    -   [Windows Installer 範例](windows-installer-examples.md)
+    -   [Windows安裝程式範例](windows-installer-examples.md)
 
 -   針對開發中的 Windows Installer 套件進行疑難排解。
 
@@ -344,16 +344,16 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
 
     -   [套件驗證](package-validation.md)
     -   [內部一致性評估工具-Ices-003](internal-consistency-evaluators-ices.md)
-    -   [Windows Installer 記錄](windows-installer-logging.md)
+    -   [Windows安裝程式記錄](windows-installer-logging.md)
     -   [檢查功能、元件、檔案的安裝](checking-the-installation-of-features-components-files.md)
     -   [撰寫大型封裝](authoring-a-large-package.md)
     -   [Wilogutl.exe](wilogutl-exe.md)
-    -   [Windows Installer 開發工具](windows-installer-development-tools.md)
+    -   [Windows安裝程式開發工具](windows-installer-development-tools.md)
     -   [驗證合併模組](validating-merge-modules.md)
     -   [驗證安裝資料庫](validating-an-installation-database.md)
     -   [驗證安裝升級](validating-an-installation-upgrade.md)
     -   [搜尋中斷的功能或元件](searching-for-a-broken-feature-or-component.md)
-    -   [Windows Installer 錯誤訊息](windows-installer-error-messages.md)
+    -   [Windows安裝程式錯誤訊息](windows-installer-error-messages.md)
     -   [重新開機要求的記錄](logging-of-reboot-requests.md)
 
 -   確保應用程式的安全安裝和安裝。
@@ -426,7 +426,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
 
     如需詳細資訊，請參閱下列：
 
-    -   [引導](bootstrapping.md)
+    -   [啟動](bootstrapping.md)
     -   [Instmsi.exe](instmsi-exe.md)
     -   [網際網路下載啟動載入](internet-download-bootstrapping.md)
     -   [Msistuff.exe](msistuff-exe.md)
@@ -466,7 +466,7 @@ Windows Installer 是在 Windows 上安裝和設定應用程式的建議解決�
 
     如需詳細資訊，請參閱下列：
 
-    -   [64位作業系統上的 Windows Installer](windows-installer-on-64-bit-operating-systems.md)
+    -   [Windows64位作業系統上的安裝程式](windows-installer-on-64-bit-operating-systems.md)
     -   [64位自訂動作](64-bit-custom-actions.md)
     -   [使用64位自訂動作](using-64-bit-custom-actions.md)
     -   [使用64位合併模組](using-64-bit-merge-modules.md)
@@ -574,11 +574,11 @@ IT 專業人員和系統管理員會自訂及部署現有的 Windows Installer �
 
     如需詳細資訊，請參閱下列：
 
-    -   [Windows Installer 記錄](windows-installer-logging.md)
+    -   [Windows安裝程式記錄](windows-installer-logging.md)
     -   [檢查功能、元件、檔案的安裝](checking-the-installation-of-features-components-files.md)
     -   [Wilogutl.exe](wilogutl-exe.md)
     -   [搜尋中斷的功能或元件](searching-for-a-broken-feature-or-component.md)
-    -   [Windows Installer 錯誤訊息](windows-installer-error-messages.md)
+    -   [Windows安裝程式錯誤訊息](windows-installer-error-messages.md)
     -   [Msicert.exe](msicert-exe.md)
 
 -   使用腳本來查詢 Windows Installer 套件，以取得產品的相關資訊並修改安裝。
@@ -586,7 +586,7 @@ IT 專業人員和系統管理員會自訂及部署現有的 Windows Installer �
     如需詳細資訊，請參閱下列：
 
     -   [Automation 介面](automation-interface.md)
-    -   [Windows Installer 腳本範例](windows-installer-scripting-examples.md)
+    -   [Windows安裝程式腳本範例](windows-installer-scripting-examples.md)
     -   [搭配使用 Windows Installer 與 WMI](using-windows-installer-with-wmi.md)
 
 -   建立和維護系統管理安裝。

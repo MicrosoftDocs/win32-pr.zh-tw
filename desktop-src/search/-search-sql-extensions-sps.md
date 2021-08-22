@@ -1,19 +1,19 @@
 ---
-description: 根據 SQL-92 和 SQL-99 標準的 Microsoft Windows Search，可改善檔管理或知識管理應用程式中以檔為基礎的全文檢索搜尋。
+description: Microsoft Windows Search 以 SQL-92 和 SQL-99 標準為基礎，可改善檔管理或知識管理應用程式中以檔為基礎的全文檢索搜尋。
 ms.assetid: 136af1ea-452a-491b-bec7-8c45fa01f87f
-title: Microsoft Windows Search 中的 SQL 擴充功能
+title: SQLMicrosoft Windows Search 中的延伸模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 340766d5db99a749e8f508e2dc0bec6a549adfc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c300b0960e97cba14237bd355e33ae7e42788b1925525e60462d15a5d014e6f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462456"
 ---
-# <a name="sql-extensions-in-microsoft-windows-search"></a>Microsoft Windows Search 中的 SQL 擴充功能
+# <a name="sql-extensions-in-microsoft-windows-search"></a>SQLMicrosoft Windows Search 中的延伸模組
 
-根據 SQL-92 和 SQL-99 標準的 Microsoft Windows Search，可改善檔管理或知識管理應用程式中以檔為基礎的全文檢索搜尋。 Windows Search 的改進包括下列各項：
+Microsoft Windows Search 以 SQL-92 和 SQL-99 標準為基礎，可改善檔管理或知識管理應用程式中以檔為基礎的全文檢索搜尋。 Windows搜尋改進包含下列各項：
 
 ## <a name="128-character-identifier-names"></a>128-字元識別碼名稱
 

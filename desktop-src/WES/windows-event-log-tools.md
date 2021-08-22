@@ -1,19 +1,19 @@
 ---
-title: Windows 事件記錄檔工具
-description: Windows 事件記錄檔提供下列用來建立提供者的工具。
+title: Windows事件記錄檔工具
+description: Windows事件記錄檔提供下列用來建立提供者的工具。
 ms.assetid: 20087fdf-3e9f-4090-8103-5864f1c9753c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e604c291ff1046789ef9f3efba00ebb7305122
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: ff7a0aef85e85e096381b65d41458f1cb955ba9701452498d21c45ff25cb3058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104374884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587255"
 ---
-# <a name="windows-event-log-tools"></a>Windows 事件記錄檔工具
+# <a name="windows-event-log-tools"></a>Windows事件記錄檔工具
 
-Windows 事件記錄檔提供下列用來建立提供者的工具。
+Windows事件記錄檔提供下列用來建立提供者的工具。
 
 
 

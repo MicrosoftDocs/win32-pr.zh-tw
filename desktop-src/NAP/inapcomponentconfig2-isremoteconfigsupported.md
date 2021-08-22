@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2d144926aafff6f5ad7e243efe2a81a2955f497
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a42ae316063fc14054c8ffeb6e3987794bc33021441621ee231c9e839fc00248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118621765"
 ---
 # <a name="inapcomponentconfig2isremoteconfigsupported-method"></a>INapComponentConfig2：： IsRemoteConfigSupported 方法
 
@@ -75,7 +75,7 @@ HRESULT IsRemoteConfigSupported(
 
 ## <a name="return-value"></a>傳回值
 
-\_如果成功或其中一個標準 Windows 錯誤碼，則會傳回 S OK。
+\_如果成功，則傳回 [確定]，或其中一個標準 Windows 錯誤碼。
 
 ## <a name="remarks"></a>備註
 
@@ -88,7 +88,7 @@ HRESULT IsRemoteConfigSupported(
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>NapCommon。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
 

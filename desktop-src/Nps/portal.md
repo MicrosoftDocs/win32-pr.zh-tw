@@ -5,12 +5,12 @@ ms.assetid: d0eb41cb-e9c0-4a60-aeac-77d1dd90a75b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d1dfc680c8a23ca1e80f52230736b3ab586cc8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9d1f604d7cea69bcc8866176f612c76d2e6820bc4a00aa58d3760761ef59270b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362304"
 ---
 # <a name="network-policy-server"></a>網路原則伺服器
 
@@ -31,7 +31,7 @@ NPS 擴充功能 API 可用於擴充 NPS 和先前由 IAS 提供的驗證、授�
 > [!Note]  
 > NPS 中的網路原則相當於 IAS 中的遠端存取原則。
 
- 
+ 
 
 ## <a name="developer-audience"></a>開發人員對象
 
@@ -43,9 +43,9 @@ NPS 擴充功能 API 是專為使用 C/c + + 開發軟體的程式設計人員�
 
 Windows Server 2008 支援 NPS 擴充功能 API，並安裝 Microsoft 商用網際網路服務 (MCIS) 。
 
-Windows Server 2008 支援 Server Data Objects API。
+Windows server 2008 支援 server Data Objects API。
 
-您可以在 Windows Server 2008 上使用 NPS 安裝 Microsoft 商用網際網路服務 (MCIS) 。
+透過 Microsoft 商用網際網路服務的安裝 (MCIS) ，Windows Server 2008 提供 NPS。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -72,7 +72,7 @@ Windows Server 2008 支援 Server Data Objects API。
 
 </dd> <dt>
 
-[SQL 可程式性](sql-programmability.md)
+[SQL能力](sql-programmability.md)
 </dt> <dd>
 
 用來管理 NPS (IAS) 記錄的預存程式範例。
@@ -92,6 +92,6 @@ Windows Server 2008 支援 Server Data Objects API。
 [網路存取保護](/windows/desktop/NAP/network-access-protection-start-page)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

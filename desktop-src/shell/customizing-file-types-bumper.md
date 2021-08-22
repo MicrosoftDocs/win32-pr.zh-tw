@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 6e3442d3fb6ee760a2ce50ab2c25f6ca786430a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f9a38c4fbaca01c1af11d21c1d92ccee625b2feab2fb936f4389ba50899a628
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460241"
 ---
 # <a name="implementing-a-custom-file-format"></a>執行自訂檔案格式
 

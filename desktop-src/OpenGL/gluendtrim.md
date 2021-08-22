@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4105cc911105f0444ba17c6b57a3deb048bc96d2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3e47f1ef8a1dcbeef4bc2d582699556a87d39a786b36c01a6de930fcfbd9a6b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104035270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612944"
 ---
 # <a name="gluendtrim-function"></a>gluEndTrim 函式
 

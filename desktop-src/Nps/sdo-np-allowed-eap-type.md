@@ -5,12 +5,12 @@ ms.assetid: 5e4aa3dc-1f16-4640-a5d3-fbbec345db44
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9463e49811b2377f6a92688b7f1427f987dca97e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 45a86246edeb6c9690851a70d957d72bde28113f75ca762a82ec845c830710f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362071"
 ---
 # <a name="np-allowed-eap-type"></a>NP-允許-EAP-類型
 
@@ -22,7 +22,7 @@ ms.locfileid: "103682394"
 
 **語法：** 整數
 
-**值：  **
+* * 值： * *
 
 由網際網路指派號碼授權單位所定義 (IANA) 在可延伸驗證通訊協定中的可延伸 [驗證通訊協定 (EAP) ](https://www.iana.org/assignments/eap-numbers) 登錄檔（以 [RFC 3748](https://www.ietf.org/rfc/rfc3748.txt)為基礎
 
@@ -31,6 +31,6 @@ ms.locfileid: "103682394"
 -   **PEAP** (25) 
 -   **MS-EAP 驗證** (26) 
 
- 
+ 
 
- 
+ 

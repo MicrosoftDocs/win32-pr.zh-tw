@@ -8,16 +8,16 @@ keywords:
 - 連接快取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 857d102a52be9c7ccf40f9076892a85d5b3b8683
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa0fbf63d65a6941e986069289db201a237deb9ddc7058f291218c1496d0a40e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429025"
 ---
 # <a name="connection-caching"></a>連接快取
 
-當連接到伺服器時，會在用戶端電腦上快取連接控制碼，直到該連線關閉為止。 如果在後續連線中使用相同的伺服器、埠和認證，而且只有 **ads \_ 快速 \_** 系結或 **ads \_ 伺服器 \_** 系結驗證旗標不同，ADSI 將會重複使用現有的連接。 ADSI 會以每個進程為基礎執行此連接快取。
+當連接到伺服器時，會在用戶端電腦上快取連接控制碼，直到該連線關閉為止。 如果在後續連線中使用相同的伺服器、埠和認證，而且只有 **ads \_ FAST \_** 系結或 **ads \_ 伺服器 \_** 系結驗證旗標不同，ADSI 將會重複使用現有的連接。 ADSI 會以每個進程為基礎執行此連接快取。
 
 若要提高效能，請盡可能重複使用現有的連接。
 
@@ -64,9 +64,9 @@ Set cachedConn = Nothing
 
 
 
- 
+ 
 
- 
+ 
 
 
 

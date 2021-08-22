@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: faeeed7ea8af58103e74d9b8c3690523c893282f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 268316dd9b7f37894f60ed45878c7de9bbc8d379301daa7bbefedcadd0b8e77f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661375"
 ---
 # <a name="cbasecontrolvideoget_videowidth-method"></a>CBaseControlVideo. 取得 \_ VideoWidth 方法
 

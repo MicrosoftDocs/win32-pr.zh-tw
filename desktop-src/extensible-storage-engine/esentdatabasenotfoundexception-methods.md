@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101430
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b15e556918e9b56b467cd293fc1d8b570e22c17b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f995ca76e44a17b768e3f069755d4cf01409f8892635739a9b586c7e4aebd75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104569951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118780762"
 ---
 # <a name="esentdatabasenotfoundexception-methods"></a>EsentDatabaseNotFoundException 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 271b919c-421b-4484-8e60-afbf3cbdca44
 title: 使用 Direct3D 轉譯目標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8aca19082c5db9521cfc1c7341fd74c98270cbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19f7bacf36402b071d60989e225cdcd9533500494a0593bcf9753ddc06bb93ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118650338"
 ---
 # <a name="working-with-direct3d-render-targets"></a>使用 Direct3D 轉譯目標
 

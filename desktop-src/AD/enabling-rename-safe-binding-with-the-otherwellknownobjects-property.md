@@ -9,12 +9,12 @@ keywords:
 - Active Directory、using、binding、重新命名安全的系結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7114fa6dfb44625433d8da1c57491a13aefa7cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 446f669adc9a59f9f8aba93e852546fe3991952857469d6f37978d9cf91a7666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695317"
 ---
 # <a name="enabling-rename-safe-binding-with-the-otherwellknownobjects-property"></a>使用 otherWellKnownObjects 屬性啟用 Rename-Safe 系結
 
@@ -68,9 +68,9 @@ LDAP://<WKGUID=df447b5eaa5b11d28d5300c04f79ab81,cn=MyContainer,dc=Fabrikam,dc=co
 
 如需詳細資訊和示範如何將物件加入至 **otherWellKnownObjects** 屬性的程式碼範例，請參閱 [建立容器物件的範例程式碼](example-code-for-creating-a-container-object.md)。
 
- 
+ 
 
- 
+ 
 
 
 

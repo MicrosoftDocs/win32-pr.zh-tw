@@ -3,7 +3,7 @@ title: 啟用記錄
 description: 啟用記錄
 ms.assetid: 50fc1d71-b650-4ba5-a6e1-631c0b9fe8ad
 keywords:
-- Windows Media 裝置管理員，記錄
+- Windows媒體裝置管理員，記錄
 - 裝置管理員，記錄
 - 桌面應用程式，記錄
 - 服務提供者，記錄
@@ -11,20 +11,20 @@ keywords:
 - logging
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e95be13e93a5a58bb728d5600c6fdea9801ec2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1ff937b2a3abd16f7319c3abb73a3a2159350049fff8c89d343cc5545f8a21ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585116"
 ---
 # <a name="enabling-logging"></a>啟用記錄
 
-Windows Media 裝置管理員提供可在執行時間將資訊儲存至文字檔的記錄物件。 應用程式和服務提供者的開發人員可以使用此物件，在其應用程式或服務提供者執行時，將訊息儲存在記錄檔中。 此物件在處理受 DRM 保護的檔案時特別有用，因為 Windows Media 裝置管理員將不允許您將偵錯工具附加至處理受 DRM 保護之檔案的處理常式。
+WindowsMedia 裝置管理員提供可在執行時間將資訊儲存至文字檔的記錄物件。 應用程式和服務提供者的開發人員可以使用此物件，在其應用程式或服務提供者執行時，將訊息儲存在記錄檔中。 此物件在處理受 drm 保護的檔案時特別有用，因為 Windows 媒體裝置管理員將無法讓您將偵錯工具附加至處理受 drm 保護之檔案的處理常式。
 
 記錄器是具有類別識別碼 CLSID \_ WMDMLogger 的 COM 物件，此物件會公開一個介面 [**IWMDMLogger**](/windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger)。 元件不需要憑證就能使用記錄物件。
 
-根據預設，不論應用程式是否使用 **IWMDMLogger**，Windows Media 裝置管理員都會維護記錄檔。 此記錄檔是簡單的文字檔，且每個專案都包含一個專案，其前面會加上以 YYYYMMDDHHMMSS.FFFFFF 格式的時間戳記，並使用24小時的當地時間。 Windows Media 裝置管理員會記錄所有 API 呼叫，以及您藉由呼叫 **IWMDMLogger** 訊息加入的任何專案。 在呼叫 [**Reset**](/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-reset) 之前，所有記錄檔專案都會附加至檔案，或檔案超過其大小上限。 檔案會在每次記錄作業之後自動關閉。 應用程式專案和系統專案會使用相同的記錄檔。
+根據預設，不論應用程式是否使用 **IWMDMLogger**，Windows Media 裝置管理員都會維護記錄檔。 此記錄檔是簡單的文字檔，且每個專案都包含一個專案，其前面會加上以 YYYYMMDDHHMMSS.FFFFFF 格式的時間戳記，並使用24小時的當地時間。 Windows媒體裝置管理員會記錄所有 API 呼叫，以及您藉由呼叫 **IWMDMLogger** 訊息新增的任何專案。 在呼叫 [**Reset**](/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-reset) 之前，所有記錄檔專案都會附加至檔案，或檔案超過其大小上限。 檔案會在每次記錄作業之後自動關閉。 應用程式專案和系統專案會使用相同的記錄檔。
 
 下列步驟顯示如何使用記錄物件：
 
@@ -43,9 +43,9 @@ Windows Media 裝置管理員提供可在執行時間將資訊儲存至文字檔
 [**應用程式和服務提供者的一般工作**](tasks-common-to-applications-and-service-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

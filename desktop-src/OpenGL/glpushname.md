@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff783a108f5cb1ac34141c6c57f47b16e23531a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: cd447c4b36822e25d70f0aa387040a76738f280a2b22393b53732941a087ff45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118358328"
 ---
 # <a name="glpushname-function"></a>glPushName 函式
 

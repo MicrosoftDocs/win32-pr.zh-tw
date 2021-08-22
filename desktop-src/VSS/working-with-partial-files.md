@@ -4,12 +4,12 @@ ms.assetid: 02b74a4e-d69f-4eeb-866a-3399598b7035
 title: 使用部分檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7194f01df11f6c0e368941e17ef6ab1620b17f67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13e1aa2623788cc97d62c88d52ec7096829adc350e1d420e92cea12b8dd64d70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590452"
 ---
 # <a name="working-with-partial-files"></a>使用部分檔案
 

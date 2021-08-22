@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d8ace44a7d6df9b7a2e280db7d6f5ac68caa69ea
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 86612cf089dcaeaa26b136a3dd8c52d1e20b12f7f3850fc3a515838bf834e54c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512148"
 ---
 # <a name="endif---ps"></a>endif-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104313610"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -41,7 +41,7 @@ ms.locfileid: "104313610"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,9 +56,9 @@ ms.locfileid: "104313610"
 [其他-ps](else---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

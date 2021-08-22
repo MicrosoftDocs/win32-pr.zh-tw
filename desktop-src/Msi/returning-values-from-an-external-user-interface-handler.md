@@ -4,12 +4,12 @@ ms.assetid: a918082d-709d-4b4f-ae3b-5f16ed0ca910
 title: 從外部消費者介面處理常式傳回值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b466f6bc3cc034551a01bd2b87caa7292824e0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50b4ba5edcd87b0d4f324762f840c117425b322ea03d1dd15e103c05bcf12352
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118626078"
 ---
 # <a name="returning-values-from-an-external-user-interface-handler"></a>從外部消費者介面處理常式傳回值
 

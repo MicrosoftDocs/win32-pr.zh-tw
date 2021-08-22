@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - Scrcons.exe
-ms.openlocfilehash: 11e2886fd5d0804946433e102e24617df768dcec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acf7ef4b4207f72cbaee61c0aaad8b2279419682bdddbeb4373c36c6868b8fce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557831"
 ---
 # <a name="activescripteventconsumer-class"></a>ActiveScriptEventConsumer 類別
 
@@ -195,7 +195,7 @@ WMI 傳送事件的目標電腦名稱稱。 依照 Microsoft 標準取用者的�
 
 **ScriptText** 或 **ScriptFileName** 不能是 **Null**。 如果這兩個屬性都是 **null** 或 not **null**，則會產生錯誤。
 
-當 WMI 以服務的形式執行時，由 **ActiveScriptEventConsumer** 執行的腳本不會產生螢幕輸出。 使用 **MsgBox** 的腳本會執行，但不會在螢幕上顯示資訊。 不支援執行 WMI 服務作為可執行檔，但 WMI 允許使用 **MsgBox** 函數的腳本顯示輸出或接受使用者輸入。 [Wscript.echo](/previous-versions//at5ydy31(v=vs.85))物件提供的方法都不能使用，因為 **ActiveScriptEventConsumer** 不會使用 WINDOWS Script Host (WSH) 。
+當 WMI 以服務的形式執行時，由 **ActiveScriptEventConsumer** 執行的腳本不會產生螢幕輸出。 使用 **MsgBox** 的腳本會執行，但不會在螢幕上顯示資訊。 不支援執行 WMI 服務作為可執行檔，但 WMI 允許使用 **MsgBox** 函數的腳本顯示輸出或接受使用者輸入。 無法使用 [wscript.echo](/previous-versions//at5ydy31(v=vs.85))物件提供的任何方法，因為 **ActiveScriptEventConsumer** 不會使用 Windows 腳本主機 (WSH) 。
 
 ## <a name="examples"></a>範例
 

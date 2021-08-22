@@ -12,18 +12,18 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 609660d6f3161cbaaa5e0505daf9c6b9180b6c32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23e32d7a658e41f80eb2a4d8d743afc2c96f7a5a1b4135e646374b98e6acac26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619254"
 ---
 # <a name="pmkcachemode-security-element"></a>PMKCacheMode (安全性) 元素
 
 PMKCacheMode (security) 元素指出是否會使用 PMK 快取。 此元素只對 WPA2 定義的網路有效。 PMK 快取會在 [802.11 i](https://standards.ieee.org/findstds/standard/802.11i-2004.html) 規格中說明。
 
-Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 不支援這個元素。
+**Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 不支援這個元素。
 
 ``` syntax
 <xs:element name="PMKCacheMode"
@@ -52,8 +52,8 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 
@@ -64,7 +64,7 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 **架構中的元素定義內容**
 </dt> <dt>
 
-[**安全**](wlan-profileschema-security-msm-element.md)
+[**security**](wlan-profileschema-security-msm-element.md)
 </dt> <dt>
 
 **架構實例中可能的直屬父元素**

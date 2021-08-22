@@ -22,12 +22,12 @@ keywords:
 - 鍵盤輸入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6450a3169588b3072d1fee271f4890a7cdeafd2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8c930931df8ce401fbed8cc9af16db3cb52de08ebe9cf539109b426497318d5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472644"
 ---
 # <a name="using-carets"></a>使用游標
 
@@ -177,7 +177,7 @@ case WM_KILLFOCUS:
 
 ## <a name="adjusting-the-blink-time"></a>調整閃爍時間
 
-在16位的 Windows 中，以 Windows 為基礎的應用程式可以呼叫 [**GetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-getcaretblinktime) 函式來儲存目前的閃爍時間，然後呼叫 [**SetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-setcaretblinktime) 函式來調整在它處理 [**WM \_ SETFOCUS**](/windows/desktop/inputdev/wm-setfocus) 訊息時的閃爍時間。 應用程式會在處理 [**WM \_ KILLFOCUS**](/windows/desktop/inputdev/wm-killfocus)訊息時呼叫 **SetCaretBlinkTime** ，以還原使用其他應用程式的已儲存閃爍時間。 不過，這項技術無法在多執行緒環境中運作。 具體而言，停用某個應用程式並不會與啟用另一個應用程式同步處理，因此，如果某個應用程式停止回應，仍然可以啟動另一個應用程式。
+在16位 Windows 中，以 Windows 為基礎的應用程式可以呼叫 [**GetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-getcaretblinktime)函式來儲存目前的閃爍時間，然後呼叫 [**SetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-setcaretblinktime)函式以調整在其處理 [**WM \_ SETFOCUS**](/windows/desktop/inputdev/wm-setfocus)訊息時的閃爍時間。 應用程式會在處理 [**WM \_ KILLFOCUS**](/windows/desktop/inputdev/wm-killfocus)訊息時呼叫 **SetCaretBlinkTime** ，以還原使用其他應用程式的已儲存閃爍時間。 不過，這項技術無法在多執行緒環境中運作。 具體而言，停用某個應用程式並不會與啟用另一個應用程式同步處理，因此，如果某個應用程式停止回應，仍然可以啟動另一個應用程式。
 
 應用程式應該遵守使用者所選擇的閃爍時間。 [**SetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-setcaretblinktime)函式只能由允許使用者設定閃爍時間的應用程式呼叫。
 
@@ -495,6 +495,6 @@ LONG APIENTRY MainWndProc(
 
 
 
- 
+ 
 
- 
+ 
