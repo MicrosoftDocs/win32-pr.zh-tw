@@ -4,12 +4,12 @@ ms.assetid: a6716a43-3322-48c9-9112-3d7fdb4103b3
 title: 'ITSubStreamControl (MSPI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dd01f281d5037ad46fc9de2cf4140cd63507c25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b78a7af96e4b3b61e8417edc040d6dbcc5f1980b4d911030c85ab0964d468783
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514978"
 ---
 # <a name="itsubstreamcontrol-mspi"></a>ITSubStreamControl (MSPI) 
 

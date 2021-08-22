@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2b9bdcd7774493fcc54e1390ad199a6a56a7c51
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8c139dc314453d6ad921471857410285813afc9c9b48691bcc9c82bf33c8b517
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106979860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138401"
 ---
 # <a name="imstscaxeventsonnetworkstatuschanged-method"></a>IMsTscAxEvents：： OnNetworkStatusChanged 方法
 

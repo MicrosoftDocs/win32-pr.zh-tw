@@ -4,17 +4,17 @@ ms.assetid: 7b04a2ba-7bf9-4bff-93c8-cbb0060e069d
 title: '系統錯誤碼 (1300-1699)  (Winerror.h. h) '
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 8fa0cbc312c8d82879322f0bc0c79533ddb961ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7aeb1c3642331db8ed3215d55a6d77e1e7b2a98c3859a5eb64a1d5b60350d24a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119310918"
 ---
 # <a name="system-error-codes-1300-1699"></a>系統錯誤碼 (1300-1699) 
 
 > [!NOTE]
-> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[ [錯誤碼](system-error-codes.md) ] 頁面上有資源清單。
+> 這項資訊適用于程式設計人員偵測系統錯誤。 針對其他錯誤（例如 Windows Update 的問題），[[錯誤碼](system-error-codes.md)] 頁面上有資源清單。
 
 下列清單描述錯誤1300到1699的 [系統錯誤碼](system-error-codes.md) 。 當有許多函式失敗時， [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) 函式會傳回這些函數。 若要在您的應用程式中取得錯誤的描述文字，請使用 [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) 函式，並搭配系統旗標的 **格式 \_ 訊息 \_ \_** 。
 
@@ -2498,7 +2498,7 @@ Windows 無法剖析要求的 XML 資料。
 
 
 
-Windows Installer 服務無法安裝這個安裝套件。 您必須安裝包含較新版本之 Windows Installer 服務的 Windows service pack。
+Windows Installer 服務無法安裝這個安裝套件。 您必須安裝 Windows service pack，其中包含較新版本的 Windows Installer 服務。
 
 
 </dt> </dl> </dd> <dt>
@@ -2524,7 +2524,7 @@ Windows Installer 服務無法安裝這個安裝套件。 您必須安裝包含�
 
 
 
-SQL 查詢語法無效或不受支援。
+SQL 的查詢語法無效或不受支援。
 
 
 </dt> </dl> </dd> <dt>
@@ -2810,7 +2810,7 @@ Temp 資料夾位於已滿或無法存取的磁片磁碟機上。 釋放磁片�
 
 
 
-Windows Installer 服務無法處理此更新套件。 您必須安裝包含較新版本之 Windows Installer 服務的 Windows service pack。
+Windows Installer 服務無法處理此更新套件。 您必須安裝 Windows service pack，其中包含較新版本的 Windows Installer 服務。
 
 
 </dt> </dl> </dd> <dt>
@@ -2992,7 +2992,7 @@ XML 更新資料無效。
 
 
 
-Windows Installer 不允許更新受管理的公告產品。 套用更新之前，必須先安裝產品的至少一個功能。
+Windows安裝程式不允許更新受管理的公告產品。 套用更新之前，必須先安裝產品的至少一個功能。
 
 
 </dt> </dl> </dd> <dt>
@@ -3005,12 +3005,12 @@ Windows Installer 不允許更新受管理的公告產品。 套用更新之前�
 
 
 
-在安全模式下，無法存取 Windows Installer 服務。 請在您的電腦不是處於安全模式時再試一次，也可以使用系統還原將電腦恢復為先前的良好狀態。
+保管庫模式無法存取 Windows Installer 服務。 請在您的電腦未處於保管庫模式時再試一次，也可以使用系統還原將電腦恢復為先前的良好狀態。
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_FAIL_FAST_EXCEPTION"></span><span id="error_fail_fast_exception"></span>**錯誤 \_ 失敗 \_ 快速 \_ 例外狀況**
+<span id="ERROR_FAIL_FAST_EXCEPTION"></span><span id="error_fail_fast_exception"></span>**錯誤 \_ \_ FAST \_ 例外狀況失敗**
 </dt> <dd> <dl> <dt>
 
 1653 (0x675) 
@@ -3042,8 +3042,8 @@ Windows Installer 不允許更新受管理的公告產品。 套用更新之前�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Winerror.h。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: b36309e0-1c44-42d9-adcf-33acd753438c
 title: 著色器結構 (Direct3D 10 圖形)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e0d84096e743b15e0d5f85635dab4caf72c7e93
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e33e68732069ad39114df00d9fbe89f4468d61c1877ce42da494de8f074a0b85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409138"
 ---
 # <a name="shader-structures-direct3d-10-graphics"></a>著色器結構 (Direct3D 10 圖形)
 
@@ -17,7 +17,7 @@ ms.locfileid: "104187786"
 
 
 
-| 結構                                                                         | Description                                                                           |
+| 結構                                                                         | 描述                                                                           |
 |------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [**D3D10 \_ 著色器 \_ 緩衝區 \_ DESC**](/windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_buffer_desc)                    | 描述著色器常數緩衝區或著色器材質緩衝區。                        |
 | [**D3D10 \_ 著色器 \_ DESC**](/windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_desc)                                   | 描述著色器。                                                                   |

@@ -4,12 +4,12 @@ ms.assetid: 541fd08c-c21a-4a51-aa1c-d65cc0f5da75
 title: " (Windows Installer) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eea91c044553ec374f28309a86002a386961d2c9
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 715e051d584ada5c96fbc8ac5cdf717b666276f81ea6f94331217a766074bace
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066478"
 ---
 # <a name="a-windows-installer"></a> (Windows Installer) 
 
@@ -27,7 +27,7 @@ ms.locfileid: "112011121"
 <span id="_msi_acquisition_phase_gly"></span><span id="_MSI_ACQUISITION_PHASE_GLY"></span>**取得階段**
 </dt> <dd>
 
-安裝程式用來決定程式的安裝階段。 取得階段會在應用程式或使用者指示 [*Windows Installer*](m-gly.md) 安裝應用程式或功能時開始。 然後，安裝程式會在資料庫產生安裝的 [*執行腳本*](e-gly.md)時，查詢 [*資料庫*](i-gly.md)中的資訊。 如需有關安裝階段的詳細資訊，請參閱 [安裝機制](installation-mechanism.md)。
+安裝程式用來決定程式的安裝階段。 取得階段會在應用程式或使用者指示 [*Windows Installer*](m-gly.md)安裝應用程式或功能時開始。 然後，安裝程式會在資料庫產生安裝的 [*執行腳本*](e-gly.md)時，查詢 [*資料庫*](i-gly.md)中的資訊。 如需有關安裝階段的詳細資訊，請參閱 [安裝機制](installation-mechanism.md)。
 
 </dd> <dt>
 

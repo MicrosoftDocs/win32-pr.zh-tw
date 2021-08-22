@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msjava.dll
-ms.openlocfilehash: 522885bfdd07843549375977630d8d1a7c6776f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0a8517d32057b6434d3822cc02977f6afd72c1b387b78e85e53810bd27f00550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075852"
 ---
 # <a name="showjavaconsole-function"></a>ShowJAVAConsole 函式
 

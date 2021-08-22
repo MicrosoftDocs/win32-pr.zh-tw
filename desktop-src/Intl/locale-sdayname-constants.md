@@ -4,12 +4,12 @@ ms.assetid: a5451df7-d608-4151-92b1-7e25f8f4500d
 title: LOCALE_SDAYNAME * 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac32f5553b355b7421cb11d5dee5b11b0041097
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20d8ffd1b383cab1503e2096a2b47de7992c5a6656f4853fc5caceb2e04f4b3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147351"
 ---
 # <a name="locale_sdayname-constants"></a>地區設定 \_ SDAYNAME \* 常數
 

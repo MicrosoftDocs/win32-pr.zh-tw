@@ -4,12 +4,12 @@ description: 瞭解在 Direct3D 11 中 UAV) 具類型的載入 (未排序的存�
 ms.assetid: BA72BF21-8621-461D-8677-9DFB7D5BC6AA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c6d2cbfa51c8473dc3da51c5844c63bef944b50
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 7389ba850c68129509ca6b6a835f949dd92f5541382d9fdc2243611d409ca2a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124056"
 ---
 # <a name="typed-unordered-access-view-loads"></a>具類型的未排序存取視圖載入
 

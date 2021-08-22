@@ -3,7 +3,7 @@ title: 'MMIOM_READ 訊息 (Mmsystem .h) '
 description: MmioRead 函 \_ 式會將 MMIOM 讀取訊息傳送至 i/o 程式，以要求從開啟的檔案讀取指定的位元組數目。
 ms.assetid: db769a68-f0ac-4a79-931e-6174e438439d
 keywords:
-- MMIOM_READ message Windows 多媒體
+- MMIOM_READ 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5715bf8db51017c16997530256c6dfb83b3b3fc5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fcf5bbdbb20e2bc168f93857a7d59016197ccc4142d4ba18a2e6fd80842ff06c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065348"
 ---
 # <a name="mmiom_read-message"></a>MMIOM \_ 讀取訊息
 
@@ -68,7 +68,7 @@ I/o 程式負責更新 [**MMIOINFO**](/previous-versions//dd757322(v=vs.85))結�
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: F58B1930-F12E-4FA4-A15C-A3C2B8705033
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fee212d7c2573402ad38bc19040e5c60a89c090
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 012c405a8ee28781d8e69d61da037a385781feeb2255aa544259c45615cb8c69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989451"
 ---
 # <a name="shader-specified-stencil-reference-value-direct3d-12-graphics"></a> (Direct3D 12 圖形) 的著色器指定樣板參考值
 

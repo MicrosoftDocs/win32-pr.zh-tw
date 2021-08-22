@@ -4,17 +4,17 @@ description: 絕佳的桌面應用程式功能強大，而且也很簡單。 透
 ms.assetid: 0039a3ee-95bc-457f-a1a8-6a036ce22fd2
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 74433514f61b37ba1c9941c8134767be5458ebc8
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: a9c191a92ccf6147d37deca191a861220c4a925035bf39c92e7e7d062fa14184
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119221724"
 ---
 # <a name="how-to-design-a-great-user-experience-for-desktop-applications"></a>如何設計桌面應用程式的絕佳使用者體驗
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 絕佳的桌面應用程式功能強大，而且也很簡單。 透過仔細平衡的特徵選取和呈現，您可以同時達到強大和簡單性。
 
@@ -39,7 +39,7 @@ ms.locfileid: "104321403"
 -   **多才多藝。** 應用程式可讓使用者在各種情況下，有效地執行各種工作。
 -   **直接。** 應用程式看起來就像是直接協助使用者達成其目標，而不是取得或要求不必要的步驟。 快速鍵、鍵盤存取和宏等功能改善了 directness 的意義。
 -   **靈活。** 應用程式可讓使用者完成其工作的精確控制。
--   **綜合。** 此應用程式與 Microsoft Windows 緊密整合，讓它能夠與其他應用程式共用資料。
+-   **綜合。** 應用程式與 Microsoft Windows 緊密整合，讓它能夠與其他應用程式共用資料。
 -   **進階：** 應用程式具有在競爭解決方案中找不到的卓越、創新、最先進的功能。
 
 其中某些特性取決於使用者的認知，以及相對於使用者目前的功能。 視為強大的功能可能會隨著時間而改變，因此現今的先進搜尋功能可能會在未來很普遍。
@@ -174,7 +174,7 @@ ms.locfileid: "104321403"
 
 ## <a name="powerful-and-simple"></a>功能強大且簡單
 
-強大的功能就是讓您的使用者能夠更有效率地進行。 簡單的說，就是移除 unessential，並以正確的方式呈現功能。 藉由瞭解您的目標使用者並取得功能和簡報的適當平衡，您可以設計同時進行這兩項作業的 Windows 型應用程式。
+強大的功能就是讓您的使用者能夠更有效率地進行。 簡單的說，就是移除 unessential，並以正確的方式呈現功能。 藉由瞭解您的目標使用者並取得功能和簡報的適當平衡，您可以設計同時進行這兩項作業的 Windows 架構應用程式。
 
  
 

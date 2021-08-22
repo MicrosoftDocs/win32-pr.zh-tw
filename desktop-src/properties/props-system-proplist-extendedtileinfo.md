@@ -4,18 +4,18 @@ ms.assetid: 6ba9e943-bd96-47ca-9808-362f69fc2e3b
 title: PropList. ExtendedTileInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdcc17d0fe3e709868c33aab32fdc20c4e7c3b26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ff6d5f72f2544197d070c6cc97bf17d20c170834b61d16128393940704f0fe6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095880"
 ---
 # <a name="systemproplistextendedtileinfo"></a>PropList. ExtendedTileInfo
 
 要在延伸磚上的 listview 中顯示的屬性清單。 在 "ExtendedTileInfo" 的 regvalue 下註冊。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

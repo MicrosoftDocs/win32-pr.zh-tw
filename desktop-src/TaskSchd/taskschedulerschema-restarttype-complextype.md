@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7f83dcac376fcdd8d2059649350502111f5a732f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 996debc2c8e3d7d00ca7b42facde582f918d72736426ed326691461d800f8562
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119516477"
 ---
 # <a name="restarttype-complex-type"></a>restartType 複雜類型
 
@@ -60,7 +60,7 @@ ms.locfileid: "104509444"
 
 
 
-| 元素                                                              | 類型 | Description                                        |
+| 元素                                                              | 類型 | 描述                                        |
 |----------------------------------------------------------------------|------|----------------------------------------------------|
 | [**計數**](taskschedulerschema-count-restarttype-element.md)       |      | 重新開機工作的嘗試次數。<br/> |
 | [**間隔**](taskschedulerschema-interval-restarttype-element.md) |      | 嘗試啟動工作的時間長度。<br/>      |
@@ -73,8 +73,8 @@ ms.locfileid: "104509444"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

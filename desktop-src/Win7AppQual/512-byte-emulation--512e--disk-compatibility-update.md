@@ -1,22 +1,22 @@
 ---
-description: 本主題介紹軟體的先進格式儲存裝置效果、討論應用程式如何協助支援這種類型的媒體，以及討論 Microsoft 在 Windows 7 SP1 和 Windows Server 2008 R2 SP1 引進的基礎結構，讓開發人員能夠支援這些類型的裝置。
+description: 本主題介紹軟體的先進格式儲存裝置效果、討論應用程式如何協助支援這種類型的媒體，以及討論 Microsoft 在 Windows 7 SP1 和 Windows Server 2008 R2 SP1 推出的基礎結構，讓開發人員能夠支援這些類型的裝置。
 ms.assetid: 1D2847A7-15E9-42E0-90EB-7F43E76D3E44
 title: 512 位元組模擬 (512e) 磁碟相容性更新
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74b654473fa8be5fbea997bd063df2c1f898a7d1
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 5fd26cfe1b5417af75906431291a51650757c08464f0c1dc6966ef7f58223423
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107315001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134173"
 ---
 # <a name="512-byte-emulation-512e-disk-compatibility-update"></a>512 位元組模擬 (512e) 磁碟相容性更新
 
 ## <a name="platform"></a>平台
 
- **客戶** 端-windows Vista、windows 7、WINDOWS 7 SP1  
-**伺服器** -windows server 2008、windows Server 2008 R2、windows Server 2008 R2 SP1  
+ **客戶** 端-Windows Vista、Windows 7、Windows 7 SP1  
+**伺服器**-Windows server 2008、Windows server 2008 R2、Windows server 2008 R2 SP1  
 
 ## <a name="feature-impact"></a>功能影響
 
@@ -37,14 +37,14 @@ Areal 密度是每年增加的，而最近一次出現 3 TB 的磁片時，用�
 
 本主題介紹軟體的先進格式儲存裝置效果、討論應用程式如何協助支援此類型的媒體，以及討論可讓開發人員支援這些裝置類型的基礎結構。 雖然本主題中顯示的內容提供改善與 Advanced Format 磁片相容性的指導方針，但這項資訊通常適用于所有具有 Advanced Format 磁片的系統。 下列 Windows 版本提供查詢實體磁區大小的支援：
 
--   具有 Microsoft KB 982018 的 Windows 7
+-   Windows 7 與 Microsoft KB 982018
 -   Windows 7 SP1
--   Windows Server 2008 R2 （含 Microsoft KB 982018）
+-   WindowsServer 2008 R2 （含 Microsoft KB 982018）
 -   Windows Server 2008 R2 SP1
--   Windows Vista 與 Microsoft KB 2553708
--   Windows Server 2008 與 Microsoft KB 2553708
+-   WindowsVista 與 Microsoft KB 2553708
+-   WindowsServer 2008 與 Microsoft KB 2553708
 
-如需其他詳細資訊，請參閱 [Windows 中適用于大型磁區磁片磁碟機的 Microsoft 支援原則的相關資訊](https://support.microsoft.com/kb/2510009)。
+如需其他詳細資訊，請參閱[Windows 中的大型磁區磁片磁碟機的 Microsoft 支援原則相關資訊](https://support.microsoft.com/kb/2510009)。
 
 如需有關 Advanced Format 磁片的詳細資訊，請洽詢您的存放裝置廠商。
 
@@ -56,13 +56,13 @@ Areal 密度是每年增加的，而最近一次出現 3 TB 的磁片時，用�
 
 -   **實體磁區**：裝置的讀取和寫入作業會在單一作業中完成的單位。 這是不可部分完成的寫入單位。
 
-大部分目前的 Windows Api （例如 **IOCTL \_ 磁片 \_ 取得 \_ 磁片磁碟機 \_ 幾何**）都會傳回邏輯磁區大小，但可透過 [IOCTL \_ 儲存體 \_ 查詢 \_ 屬性](/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property)控制項程式碼抓取實體磁區大小，並以 [儲存體 \_ 存取 \_ 對齊 \_ 描述](/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor)元結構中的 **BytesPerPhysicalSector** 欄位包含相關資訊。 本文稍後會更詳細地討論。
+大部分目前的 Windows api （例如 **IOCTL \_ 磁片 \_ 取得 \_ 磁片磁碟機 \_ 幾何**）都會傳回邏輯磁區大小，但可透過 [IOCTL \_ 儲存體 \_ 查詢 \_ 屬性](/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property)控制項程式碼抓取實體磁區大小，並以 [儲存體 \_ 存取 \_ 對齊 \_ 描述](/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor)元結構中的 **BytesPerPhysicalSector** 欄位所包含的相關資訊來抓取實體磁區大小。 本文稍後會更詳細地討論。
 
 ## <a name="initial-types-of-large-sector-media"></a>大型磁區媒體的初始類型
 
 存放裝置產業很快就能針對具有 4 KB 實體磁區大小的媒體轉換成這種新的先進格式儲存體。 有兩種類型的媒體會發佈到市場：
 
--   **4 KB 原生**：此媒體沒有模擬層，並且會直接公開 4 KB 作為其邏輯和實體磁區大小。 Windows 和大部分其他作業系統目前不支援此媒體。 不過，Microsoft 會在未來的 Windows 版本中，針對支援這類媒體的可行性進行調查，並在適當時發出知識庫文章。
+-   **4 KB 原生**：此媒體沒有模擬層，並且會直接公開 4 KB 作為其邏輯和實體磁區大小。 Windows 和大部分其他作業系統目前不支援此媒體。 不過，Microsoft 會在未來版本的 Windows 中進行支援這類媒體的可行性調查，並在適當時發出知識庫文章。
 -   **512-位元組模擬 (512e)**：此媒體具有如上一節所討論的模擬層，並公開512位元組做為其邏輯磁區大小 (類似於今日的一般磁片) ，但讓其實體磁區大小資訊 (4 KB) 可用。 這是我們目前為市場推出的數個儲存體廠商。 這種新型媒體的整體問題是，大部分的應用程式和作業系統都不了解實體磁區大小是否存在，這可能會導致一些問題，如下所述。
 
 ## <a name="how-emulation-works-read-modify-write-rmw"></a>模擬的運作方式：讀取-修改-寫入 (RMW) 
@@ -100,11 +100,11 @@ Areal 密度是每年增加的，而最近一次出現 3 TB 的磁片時，用�
 
 ### <a name="issue-1-the-partition-is-not-aligned-to-a-physical-sector-boundary"></a>問題1：資料分割未對齊實體磁區界限
 
-當系統管理員/使用者分割磁片時，第一個磁碟分割可能尚未在對齊的界限上建立。 這可能會導致所有後續寫入變成未對齊實體磁區界限。 從 Windows Vista SP1 和 Windows Server 2008 開始，第一個磁碟分割會放置在磁片 4 GB 或更大的磁片 (的第一個 1024 KB，否則對齊是符合 4 KB 實體磁區界限的 64 KB) 。 不過，由於 Windows XP 中的預設資料分割、協力廠商分割公用程式或 Windows Api 的使用不正確，因此建立的分割區可能無法對齊實體磁區界限。 開發人員必須確保使用正確的 Api 來協助確保對齊。 以下列出建議的 Api 以協助確保資料分割對齊。
+當系統管理員/使用者分割磁片時，第一個磁碟分割可能尚未在對齊的界限上建立。 這可能會導致所有後續寫入變成未對齊實體磁區界限。 從 Windows Vista SP1 和 Windows Server 2008 開始，第一個磁碟分割是放置在磁片 4 gb 或更大的磁片 (的第一個 1024 KB，否則對齊是符合 4 KB 實體磁區界限的 64 KB) 。 不過，假設 Windows XP 中的預設資料分割、協力廠商分割公用程式或 Windows api 的使用不正確，則建立的資料分割可能不會與實體磁區界限對齊。 開發人員必須確保使用正確的 Api 來協助確保對齊。 以下列出建議的 Api 以協助確保資料分割對齊。
 
-建立新磁片區時， **IVdsPack：： CreateVolume** 和 **IVdsPack2：： CreateVolume2** api 不會使用指定的對齊參數，而是改用作業系統的對齊值預設 (windows vista sp1 將使用63個位元組，而 post windows vista sp1 將使用上述) 的預設值。 因此，建議需要建立分割區的應用程式改用 **IVdsCreatePartitionEx：： CreatePartitionEx** 或 **IVdsAdvancedDisk：： CreatePartition** api，這會使用指定的對齊參數。
+建立新磁片區時， **IVdsPack：： CreateVolume** 和 **IVdsPack2：： CreateVolume2** api 不會使用指定的對齊參數，而是改用作業系統的對齊值預設值 (預先 Windows vista sp1 將使用63個位元組，而 post Windows vista sp1 將會使用上述) 的預設值。 因此，建議需要建立分割區的應用程式改用 **IVdsCreatePartitionEx：： CreatePartitionEx** 或 **IVdsAdvancedDisk：： CreatePartition** api，這會使用指定的對齊參數。
 
-協助確保對齊正確的最佳方式，就是在一開始建立資料分割時正確地進行。 否則，您的應用程式在執行寫入時或在初始化時，必須考慮調整帳戶，這可能是非常複雜的事情。 從 Windows Vista SP1 來，這通常不是問題;不過，舊版的 Windows 可以建立未配置的磁碟分割，可能會導致某些 Advanced Format 磁片的效能問題。
+協助確保對齊正確的最佳方式，就是在一開始建立資料分割時正確地進行。 否則，您的應用程式在執行寫入時或在初始化時，必須考慮調整帳戶，這可能是非常複雜的事情。 從 Windows Vista SP1，這通常不是問題;不過，舊版 Windows 可以建立未對齊的資料分割，這可能會導致某些 Advanced Format 磁片的效能問題。
 
 ### <a name="issue-2-unbuffered-writes-not-aligned-to-physical-sector-size"></a>問題2：未緩衝的寫入未對齊實體磁區大小
 
@@ -132,13 +132,13 @@ Microsoft 在 MSDN 上提供了程式碼範例，詳述應用程式如何查詢�
 
 使用這個 IOCTL 來取得實體磁區大小有幾項限制：
 
--   需要更高的許可權。 如果您的應用程式未以許可權執行，您可能需要撰寫 Windows 服務應用程式，如上面所述。
+-   需要更高的許可權。 如果您的應用程式未以許可權執行，您可能需要撰寫 Windows 的服務應用程式，如上面所述。
 
--   不支援 SMB 磁片區。 您也可能需要撰寫 Windows 服務應用程式，以支援在這些磁片區上進行實體磁區大小的查詢。
+-   不支援 SMB 磁片區。 您也可能需要撰寫 Windows 的服務應用程式，以支援在這些磁片區上進行實體磁區大小查詢。
 
 -   無法發行至任何檔案控制代碼 (必須將 IOCTL 發出至磁片區控制碼) 。
 
--   只有本文開頭所列的 Windows 版本才支援。
+-   僅支援本文開頭所列的 Windows 版本。
 
 **認可記錄會填補至512個位元組的磁區**
 
@@ -174,7 +174,7 @@ Microsoft 在 MSDN 上提供了程式碼範例，詳述應用程式如何查詢�
 -   因為沒有模擬層，所以儲存體將會失敗未對齊的寫入
 -   沒有隱藏的恢復功能-應用程式可以運作或無法運作
 
-雖然 Microsoft 目前正在調查未來版本的 Windows 中支援這些類型的媒體，但在適當的情況下，應用程式開發人員應考慮事先提供這些類型媒體的支援。
+雖然 Microsoft 目前正在調查未來版本的 Windows 中這些類型媒體的支援，但在適當的情況下，應用程式開發人員應考慮事先提供這些類型媒體的支援。
 
 ## <a name="closing"></a>關閉
 
@@ -184,16 +184,16 @@ Microsoft 在 MSDN 上提供了程式碼範例，詳述應用程式如何查詢�
 
 ## <a name="links-to-other-resources"></a>其他資源的連結
 
--   **Windows 一般支援聲明**： <https://support.microsoft.com/kb/2510009>
--   **適用于 windows 7 和 Windows Server 2008 R2 的修正程式**： <https://support.microsoft.com/kb/982018>
--   **Windows Vista 和 Windows Server 2008 的修正程式**： <https://support.microsoft.com/kb/2470478>
+-   **Windows 一般支援聲明**：<https://support.microsoft.com/kb/2510009>
+-   **Windows 7 和 Windows Server 2008 R2 的修正程式**：<https://support.microsoft.com/kb/982018>
+-   **Windows Vista 和 Windows Server 2008 的修正程式**：<https://support.microsoft.com/kb/2470478>
 -   **HyperV 支援聲明**： <https://support.microsoft.com/kb/2515143>
 -   **關於 IOCTL \_ 的一般資訊儲存體 \_ 查詢 \_ 屬性控制項程式碼**： [https://msdn.microsoft.com/library/ff560590.aspx](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
 -   **IOCTL \_儲存體 \_ 查詢 \_ 屬性控制項程式碼**： [https://msdn.microsoft.com/library/ff800830.aspx](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property)
 -   **儲存體 \_ 的一般資訊存取 \_ 對齊 \_ 描述元結構**： [https://msdn.microsoft.com/library/ff566344.aspx](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_access_alignment_descriptor)
 -   **描述 Microsoft 軟體更新所用標準術語的描述**： <https://support.microsoft.com/kb/824684/>
 -   **WDK 範例程式碼**，其中包含如何在呼叫 **IOCTL \_ 儲存體 \_ 查詢 \_ 屬性** 控制項程式碼時，從 **儲存體 \_ 存取 \_ 對齊 \_ 描述** 元結構中將回報的儲存體存取調整資訊解壓縮的詳細資訊： [/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor](/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor)
--   **有關 ImageX Command-Line 選項的一般資訊**： <https://technet.microsoft.com/library/dd799302(WS.10).aspx>
+-   **ImageX Command-Line 選項的一般資訊**：<https://technet.microsoft.com/library/dd799302(WS.10).aspx>
 -   **支援 4 KB 磁區磁片磁碟機的 Intel 晶片組驅動程式需求**： <https://www.intel.com/support/chipsets/imsm/sb/CS-031502.htm>
 -   如需有關 Advanced Format 磁片的詳細資訊，請造訪下列 IDEMA 網站：
     -   <http://idema.org/?page_id=2172>

@@ -9,12 +9,12 @@ keywords:
 - 錯誤 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ae531528f83f3731b4449c7aba012f3228edd9a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c9f6c2dfd830a1240e2af107eb4a3f1799eafcd0de35ccec7f3756b3e9de5bbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146401"
 ---
 # <a name="midl-compiler-errors-and-warnings"></a>MIDL 編譯器錯誤和警告
 
@@ -26,9 +26,9 @@ IDL 和 ACF 檔案中的錯誤可以分為兩類：預處理器所攔截到的�
 -   [預處理器錯誤](preprocessor-errors.md)
 -   [編譯器錯誤](compiler-errors.md)
 
- 
+ 
 
- 
+ 
 
 
 

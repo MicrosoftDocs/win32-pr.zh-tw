@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33571309e1dd249f20e577c97b8c6e1b950eda09
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d5a39010ad7dd07ccff38291441bb0aa05a54ee65da1b865d7ac82ed77fbfdd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144561"
 ---
 # <a name="cut-command"></a>剪下命令
 
@@ -97,7 +97,7 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

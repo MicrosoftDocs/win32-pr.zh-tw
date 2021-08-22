@@ -3,7 +3,7 @@ title: 'EM_GETWORDWRAPMODE 訊息 (Richedit .h) '
 description: 取得 rich edit 控制項的目前文字換行和斷詞選項。
 ms.assetid: a87d80d6-2e9e-40ba-9348-a1cc1ef8ec10
 keywords:
-- EM_GETWORDWRAPMODE message Windows 控制項
+- EM_GETWORDWRAPMODE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efc8a2b6d17623964eb0d3714c1c099f47fc788a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aef3127e5ce3652e9103dfa0e030d66ec7b1b085bc4b60d0cf0bb3f03a30d3fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437948"
 ---
 # <a name="em_getwordwrapmode-message"></a>EM \_ GETWORDWRAPMODE 訊息
 
@@ -62,8 +62,8 @@ ms.locfileid: "104464541"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

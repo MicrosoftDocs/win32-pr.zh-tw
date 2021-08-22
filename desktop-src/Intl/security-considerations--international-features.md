@@ -4,12 +4,12 @@ ms.assetid: 4034f479-ad29-4c6f-82c6-977f420c4d4d
 title: 安全性考慮：國際功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeb9f8b849e9fb1a07f01031832449b9c9027ae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2e61566fdf51b80a76e5c8997018f35ce421dee6dd0e1b9e290888d96576249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147041"
 ---
 # <a name="security-considerations-international-features"></a>安全性考慮：國際功能
 
@@ -38,24 +38,24 @@ ms.locfileid: "104195293"
 
 -   [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia)。 根據地區設定的規則（不區分大小寫）比較兩個字元字串。 此函式會比較字串，方法是檢查第一個字元彼此、第二個字元互相對應，依此類推，直到找到不相等或到達字串的結尾為止。
 -   [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa)。 使用與 [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia)類似的技術來比較字串。 唯一的差別在於 [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa) 會執行區分大小寫的字串比較。
--   [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)、 [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) (Windows Vista 和更新版本的) 。 在應用程式提供的地區設定上執行字串比較。 [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) 與 [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)類似，但它會依 [地區設定名稱](locale-names.md) （而非 [地區設定識別碼](locale-identifiers.md)）來識別地區設定。 這些函式類似于 [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia) 和 [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa) ，不同之處在于它們會在特定地區設定上運作，而不是在使用者選取的地區設定上運作。
+-   [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)、 [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) (Windows Vista 和更新版本) 。 在應用程式提供的地區設定上執行字串比較。 [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) 與 [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)類似，但它會依 [地區設定名稱](locale-names.md) （而非 [地區設定識別碼](locale-identifiers.md)）來識別地區設定。 這些函式類似于 [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia) 和 [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa) ，不同之處在于它們會在特定地區設定上運作，而不是在使用者選取的地區設定上運作。
 -   [**CompareStringOrdinal**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal) (Windows Vista 和更新版本的) 。 比較兩個 Unicode 字串來測試二進位相等。 除了不區分大小寫的選項之外，此函式會忽略所有非二進位 equivalences，並測試所有的程式碼點是否相等，包括未在語言 [排序](sorting.md) 配置中提供任何權數的程式碼點。 請注意，本主題中提及的其他比較函數不會測試所有程式碼點是否相等。
--   [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring)、 [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) (Windows Vista 和更新版本的) 。 在另一個 Unicode 字串中找出 Unicode 字串。 [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) 與 [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring)類似，不同之處在于它會依地區設定名稱（而非地區設定識別碼）識別地區設定。
--   [**FindStringOrdinal**](/windows/desktop/api/Libloaderapi/nf-libloaderapi-findstringordinal) (Windows 7 和更新版本的) 。 在另一個 Unicode 字串中尋找一個 Unicode 字串。 應用程式應該使用此函式，而不是 [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring) 進行所有的非語言比較。
+-   [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring)、 [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) (Windows Vista 和更新版本) 。 在另一個 Unicode 字串中找出 Unicode 字串。 [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) 與 [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring)類似，不同之處在于它會依地區設定名稱（而非地區設定識別碼）識別地區設定。
+-   [**FindStringOrdinal**](/windows/desktop/api/Libloaderapi/nf-libloaderapi-findstringordinal) (Windows 7 和更新版本) 。 在另一個 Unicode 字串中尋找一個 Unicode 字串。 應用程式應該使用此函式，而不是 [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring) 進行所有的非語言比較。
 
 如同 [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia) 和 [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa)， [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) 會依字元評估字串字元。 不過，許多語言都有多個字元的元素，例如傳統西班牙文中的兩個字元元素 "CH"。 由於 [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) 會使用應用程式所提供的地區設定來識別多個字元的元素，而 [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia) 和 [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa) 會使用執行緒地區設定，因此相同的字串可能不會比較相等。
 
 [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) 會忽略未定義的字元，因此會傳回零 (，表示對許多非常相異的字串組) 的相等字串。 字串可能包含未對應到任何字元的值，或者可能包含在應用程式網域以外的字元（例如 URL 中的控制字元）。 使用此函式的應用程式應該提供錯誤處理常式和測試字串，以確保它們在使用之前都是有效的。
 
 > [!Note]  
-> 針對 Windows Vista 和更新版本， [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) 類似于 [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)。 這些功能的安全性問題都相同。
+> 針對 Windows Vista 和更新版本， [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex)類似于 [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)。 這些功能的安全性問題都相同。
 
  
 
 類似的安全性問題適用于進行隱含比較的函數（例如 [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring)）。 視所設定的旗標而定，呼叫 [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring) 以搜尋另一個字串中某個字串的結果可能會有很大的差異。
 
 > [!Note]  
-> 針對 Windows Vista 和更新版本， [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) 類似于 [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring)。 這些功能的安全性問題都相同。
+> 針對 Windows Vista 和更新版本， [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex)類似于 [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring)。 這些功能的安全性問題都相同。
 
  
 

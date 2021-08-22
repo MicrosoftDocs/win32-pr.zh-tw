@@ -20,12 +20,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6434a4dfe6bc1a79fdaf4576a89ef552cebd5e1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 066cea4044330ab79122e9346f6f32999202f854245e5508448e40aea3521fe0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422598"
 ---
 # <a name="win32_rdshserver-class"></a>Win32 \_ RDSHServer 類別
 
@@ -176,7 +176,7 @@ class Win32_RDSHServer
 
 </dt> <dd></dd> </dl>
 
-**Windows server 2012 R2 和 Windows server 2012：** 此屬性在 Windows Server 2016 之前無法使用。
+**Windows Server 2012 R2 和 Windows Server 2012：** 在 Windows Server 2016 之前，無法使用此屬性。
 
 </dd> </dl>
 

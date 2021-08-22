@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: 6d4787380344a7bf8adb70f4cb5a3eaacdea403a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cf4201a0d149c7b529e595d7f2c2ea92a6010f6cffd3e6c5c74fb3cdc040651
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450918"
 ---
 # <a name="iscanprofilesave-method"></a>IScanProfile：： Save 方法
 
@@ -49,7 +49,7 @@ HRESULT Save();
 
 如果有一個以上的進程寫入 [**IScanProfile**](-wia-iscanprofile.md) 物件，則呼叫 **IScanProfile：： Save** last 的進程是唯一儲存變更的進程。
 
-**IScanProfile：： Save** 方法會先驗證設定檔，然後再儲存。 設定檔一律會被視為有效，除非與設定檔相關聯的 Windows 映像取得 (WIA) 2.0 專案的分類為 [WIA \_ 類別] \_ 或 [wia \_ 類別 \_ 送紙器]。 如果分類為 [WIA \_ 類別] \_ 或 \_ [wia 類別]，則 \_ 如果屬性包含在設定檔中，則下列屬性必須對專案有效：
+**IScanProfile：： Save** 方法會先驗證設定檔，然後再儲存。 設定檔一律會被視為有效，除非與設定檔相關聯的 Windows 映像取得 (wia) 2.0 專案是 wia \_ 類別的 \_ 平板類別或 wia \_ 類別 \_ 送紙器。 如果分類為 [WIA \_ 類別] \_ 或 \_ [wia 類別]，則 \_ 如果屬性包含在設定檔中，則下列屬性必須對專案有效：
 
 WIA \_ IP \_ 亮度
 
@@ -69,10 +69,10 @@ WIA \_ IPA \_ 格式
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Scanprofile。h</dt> </dl>    |
-| Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 
 
 

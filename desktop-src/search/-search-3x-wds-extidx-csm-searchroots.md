@@ -4,12 +4,12 @@ ms.assetid: 0f1ff41f-7c4c-4516-bb55-bf09a8f2f3bc
 title: 管理搜尋根目錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbdd63e5e71cd18d3028c6d08019890f90c0228a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 758d3c10a4c69f336202274cd1fb40528848b0ddb431fd58646cf700d2b2d736
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095285"
 ---
 # <a name="managing-search-roots"></a>管理搜尋根目錄
 
@@ -40,7 +40,7 @@ or
 
 
 
-<protocol>區段後面必須接著兩個 (2) 正斜線 ( '/' ) ，除非它是 file： protocol， (file:///) 需要三個斜線。 <site or SID>如果搜尋根目錄必須是使用者特定的，則區段代表內容存放區或使用者安全識別碼。 <path>區段是一組容器，例如目錄或資料夾，而且可以包含萬用字元 ' \* '。 此 <item> 區段是選擇性的，也可以包含萬用字元 ' \* '。 如果您未包含專案，請務必使用斜線完成路徑區段，否則索引子會假設最後一個 subcontainer 是專案。
+<protocol>區段後面必須接著兩個 (2) 正斜線 ( '/' ) ，除非它是 file： protocol， (file:///) 需要三個斜線。 <site or SID>如果搜尋根目錄必須是使用者特定的，則區段代表內容存放區或使用者安全識別碼。 <path>區段是一組容器，例如目錄或資料夾，而且可以包含萬用字元 ' \* '。 The <item> 區段是選擇性的，也可以包含萬用字元 ' \* '。 如果您未包含專案，請務必使用斜線完成路徑區段，否則索引子會假設最後一個 subcontainer 是專案。
 
 例如，假設您已執行通訊協定處理常式 (myPH) 來處理 \* 自訂應用程式的 myext 檔案。 所有這些檔案都位於 \\ 本機電腦上的 WorkteamA ProjectFiles 資料夾中。 的搜尋根可能看起來像這樣：
 
@@ -79,7 +79,7 @@ or
 
 ## <a name="windows-7-new-crawl-scope-manager-api"></a>Windows 7：新的編目範圍管理員 API
 
-在 **Windows 7 和更新版本** 中， [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2) 擴充了 [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) 介面的功能。 [**ISearchCrawlScopeManager2：： GetVersion**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion)方法會取得編目範圍管理員 (csm) 版本，這會在 csm 的狀態變更時通知用戶端。 **ISearchCrawlScopeManager2：： GetVersion** 不會產生跨進程呼叫。 如果函式成功，則傳回的指標會維持有效，直到用戶端在指標上呼叫 **UnmapViewOfFile** ，然後在傳回的控制碼上 **CloseHandle** 。
+在 **Windows 7 和更新版本** 中， [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2)會擴充 [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager)介面的功能。 [**ISearchCrawlScopeManager2：： GetVersion**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion)方法會取得編目範圍管理員 (csm) 版本，這會在 csm 的狀態變更時通知用戶端。 **ISearchCrawlScopeManager2：： GetVersion** 不會產生跨進程呼叫。 如果函式成功，則傳回的指標會維持有效，直到用戶端在指標上呼叫 **UnmapViewOfFile** ，然後在傳回的控制碼上 **CloseHandle** 。
 
  
 
@@ -121,7 +121,7 @@ or
 移除搜尋根也會從使用者介面移除 Windows Search 選項的 URL，因此使用者可能無法使用使用者介面重新新增該容器或位置。 您也可以移除搜尋根目錄的所有使用者設定覆寫，並還原為原始搜尋根目錄和範圍規則。 如需詳細資訊，請參閱 [管理領域規則](-search-3x-wds-extidx-csm-scoperules.md)。
 
 > [!Note]  
-> 在 Windows Vista 中，如果使用者是透過主控台中的使用者設定檔移除，則 CSM 會移除所有規則和根目錄及其 SID，並從目錄中移除其索引項目目。 在 Windows XP 上，您需要手動移除使用者的根和規則。
+> 在 Windows Vista 中，如果使用者是在主控台的使用者設定檔中移除，則 CSM 會移除所有規則和根目錄及其 SID，並從目錄中移除其索引項目目。 在 Windows XP 上，您需要手動移除使用者的根和規則。
 
  
 

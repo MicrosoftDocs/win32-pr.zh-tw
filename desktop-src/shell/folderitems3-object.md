@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: e8ffe325-e6ae-4fa0-9824-22721c2d97c8
-ms.openlocfilehash: f9495516ebd6f6a149d50f8ec02997b043661a64
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 4cfee6d0f26d1e21c5ba6615e208e758c9cd7641db16c57dcecf0e31e52dceef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093068"
 ---
 # <a name="folderitems3-object"></a>FolderItems3 物件
 
@@ -68,7 +68,7 @@ ms.locfileid: "109840659"
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |
 
 

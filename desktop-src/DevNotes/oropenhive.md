@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: ba6531e7a2ab2b0b148065d9f4666812e75f2968
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86ff3d6ff15b030054d40ca7131e521cedb59ebf20c4942951f0e141f27a2840
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076012"
 ---
 # <a name="oropenhive-function"></a>OROpenHive 函式
 
@@ -74,7 +74,7 @@ Unicode 字串的指標，指定要載入記憶體中的登錄 hive 檔案的名
 
 | 需求 | 值 |
 |----------------------------|---------------------------------------------------------------------------------------|
-| 可轉散發套件<br/> | Windows Offline Registry library 1.0 版或更新版本<br/>                      |
+| 可轉散發套件<br/> | Windows離線登錄庫1.0 版或更新版本<br/>                      |
 | 標頭<br/>          | <dl> <dt>Offreg。h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

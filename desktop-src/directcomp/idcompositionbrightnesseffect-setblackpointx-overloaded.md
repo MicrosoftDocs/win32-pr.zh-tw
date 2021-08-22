@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: dd5f5903a9b309f3d3f2dec260c43bcd133aebb6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a83bc67e38fb90af22909fae9e6c01ba1c74937daca06a1ee0aff1e9b4df5df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119022"
 ---
 # <a name="idcompositionbrightnesseffectsetblackpointx-methods"></a>idcompositionbrightnesseffect：： SetBlackPointX 方法
 

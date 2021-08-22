@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 92c3158a09aeb871ef367133c07278b0f3b87390
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 611ec04a5c3a53bbb8c6c35380bd0d9f824dc697a7d27a3656b262d885fb4eac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457508"
 ---
 # <a name="if-bool---ps"></a>if bool-ps
 
@@ -29,7 +29,7 @@ If 區塊的開頭。
 
 
 
- 
+ 
 
 其中：
 
@@ -45,7 +45,7 @@ If 區塊的開頭。
 
 
 
- 
+ 
 
 如果 if 語句中的來源布林值暫存器為 true，則會執行 if 語句所括住的程式碼和對應的 [endif-ps](endif---ps.md) 或 [else-ps](else---ps.md) 。 否則，程式碼是由 else-ps 所括住 .。。endif-執行的 ps 語句。 此指令會使用一個指令位置。
 
@@ -85,9 +85,9 @@ endif
 [endif-ps](endif---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

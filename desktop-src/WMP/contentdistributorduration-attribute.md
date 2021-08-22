@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f17bad8ef5dd1ab4b0a3d1c7b5becec6fd34a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eefee789358f2d913d976432a485cf7726e3f7d6afa14e845ad9d7699d8ed4a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135751"
 ---
 # <a name="contentdistributorduration-attribute"></a>ContentDistributorDuration 屬性
 

@@ -4,18 +4,18 @@ ms.assetid: 4b2d3add-0430-480b-ad5f-bb1aa19fef21
 title: 步驟 1： 選擇基類
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1a2bbf704bb2247034bc2ba3a6f35812f46aaaa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c140beba3df02ace21d99779c152a79632fe0b4a1a916c4412c467b0f4ac5627
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315878"
 ---
 # <a name="step-1-choose-a-base-class"></a>步驟 1： 選擇基類
 
 這是 [撰寫轉換篩選](writing-transform-filters.md)之教學課程的步驟1。
 
-假設您決定要撰寫篩選而不是，則第一個步驟是選擇要使用的基類。 下列類別適用于轉換篩選：
+假設您決定要撰寫篩選而不是 DMO，則第一個步驟是選擇要使用的基類。 下列類別適用于轉換篩選：
 
 -   [**CTransformFilter**](ctransformfilter.md) 是針對使用不同輸入和輸出緩衝區的轉換篩選所設計。 這種篩選有時稱為複製轉換篩選。 當複製轉換篩選收到輸入範例時，它會將新的資料寫入至輸出範例，並將輸出範例傳遞給下一個篩選準則。
 -   [**CTransInPlaceFilter**](ctransinplacefilter.md) 是針對修改原始緩衝區中資料的篩選準則所設計，也稱為「就地記錄篩選準則」。 當就地篩選收到範例時，它會變更該範例內的資料，並傳遞相同的範例下游。 篩選器的輸入釘選和輸出 pin 一律會與相符的媒體類型連接。
@@ -34,7 +34,7 @@ ms.locfileid: "112406461"
 
 <dl> <dt>
 
-[撰寫 DirectShow 篩選器](writing-directshow-filters.md)
+[撰寫 DirectShow 篩選](writing-directshow-filters.md)
 </dt> </dl>
 
  

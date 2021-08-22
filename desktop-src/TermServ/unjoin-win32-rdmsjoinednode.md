@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 234f7cc3ad8a797fff51661528f4545ed9fea3a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5d2fae16ecb31326ae16bc08efd1fbc56ae2585140d63ce360783226101d4a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119424098"
 ---
 # <a name="unjoin-method-of-the-win32_rdmsjoinednode-class"></a>Win32 RDMSJoinedNode 類別的退出方法 \_
 

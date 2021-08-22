@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25f419a888adef946d2a7b281919a9a9293eeca5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 65bdec32d667e88d152f77c3518b02a183a794c8727c96b0772194a183e97279
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137431"
 ---
 # <a name="win32_tsvm-class"></a>Win32 \_ TSVm 類別
 
@@ -68,7 +68,7 @@ class Win32_TSVm : CIM_LogicalElement
 | 方法                                                                | 描述                                              |
 |:----------------------------------------------------------------------|:---------------------------------------------------------|
 | [**DumpVmInfo**](dumpvminfo-win32-tsvm.md)                           | 僅供測試之用。<br/>                       |
-| [**出口**](export-win32-tsvm.md)                                   | 取得 VM 的會話監視資訊<br/> |
+| [**匯出**](export-win32-tsvm.md)                                   | 取得 VM 的會話監視資訊<br/> |
 | [**QueryOfflineInformation**](queryofflineinformation-win32-tsvm.md) | 僅在離線時查詢屬性。<br/>   |
 
 

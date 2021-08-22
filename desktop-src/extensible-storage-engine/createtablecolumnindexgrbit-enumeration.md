@@ -32,12 +32,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 72f91c5d41b8262e3b2804159914b0a9ccaaaa7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7aa142dfd642f8b339ee1fa2033e0763764d0834fd4da409a7a7c37b6e91b0d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119238028"
 ---
 # <a name="createtablecolumnindexgrbit-enumeration"></a>CreateTableColumnIndexGrbit 列舉
 

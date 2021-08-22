@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4016c28de50d31338d9bc6ec50ef1497c7a561da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f49451b1f6b7b2e63079d0bebbcd0dbb43b76352ae3609ce4138b771a01e03e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137551"
 ---
 # <a name="timelimit-method-of-the-win32_tssessionsetting-class"></a>Win32 TSSessionSetting 類別的 TimeLimit 方法 \_
 

@@ -4,12 +4,12 @@ description: UiaElementDoesNotParentToRoot
 ms.assetid: 0A1EDF46-420D-46ED-BD61-CA5E40847071
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 894104ada4906aecb4c375c82f16ed3daccf5f33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bab858c17976637c7988d59f3ebf9e17a561a257d6856e2e85570d8dd998a48d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413923"
 ---
 # <a name="uiaelementdoesnotparenttoroot"></a>UiaElementDoesNotParentToRoot
 
@@ -38,9 +38,9 @@ UI 樹狀結構父子式階層的執行不正確。
 [**IUIAutomationTreeWalker**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

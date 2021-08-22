@@ -4,12 +4,12 @@ description: 本節說明非受控、COM 消費者介面自動化用戶端的介
 ms.assetid: f73acd55-2276-493a-93f7-35367ad8b3d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21c0af5dea08921f7e205bb5a8507ddc515b12c2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b94f8e5eabf890674fcaeb5329db1bafb8bc0d03dcec44b8e0f373da00a134ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133401"
 ---
 # <a name="ui-automation-clients"></a>消費者介面自動化用戶端
 
@@ -18,7 +18,7 @@ ms.locfileid: "104021010"
 > [!Note]  
 > 消費者介面自動化的用戶端介面會完全取代控制項模式函式先前提供的功能，以及已淘汰且不應使用的消費者介面自動化節點函式。
 
- 
+ 
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -38,9 +38,9 @@ ms.locfileid: "104021010"
 [消費者介面自動化用戶端程式設計人員指南](uiauto-clientportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

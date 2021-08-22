@@ -4,12 +4,12 @@ ms.assetid: 010ce7cd-010b-4fac-90ad-5745c6a38630
 title: 將啟動新增至 CustomAction 和二進位資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bbcd1b483505d7d33981d695ed0d29c3b72a3f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b362259f2ee336a540f396dc05f7745cbc3fde8fb44b8a1c06dabbd6247ba05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145961"
 ---
 # <a name="adding-launch-to-the-customaction-and-binary-tables"></a>將啟動新增至 CustomAction 和二進位資料表
 
@@ -33,7 +33,7 @@ ms.locfileid: "104115389"
 
 
 
-| Name         | 資料                          |
+| 名稱         | 資料                          |
 |--------------|-------------------------------|
 | Tutorial.dll | {*為 DLL 新增的二進位資料*} |
 

@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 342ac559f75c3bb7d65b442bfbdced5e5ed3f690
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a37f10679225fb893fad8bcf6fc6687021256e305e8c5a08e6ebe96d16b74e81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136121"
 ---
 # <a name="domainchange-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 DomainChange 事件
 

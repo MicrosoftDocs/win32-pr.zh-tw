@@ -4,12 +4,12 @@ description: RasEapMakeMessage 函式會控制驗證通訊協定和存取點之�
 ms.assetid: edc128e0-3104-4df9-80f4-b2aebcfe1087
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e486e3a10e323f28bc2f6fef4c131acfc095b48
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3aea18883225a2a34e592b73e0cdc93b019c1bf466124976f01851febb2a17d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117768"
 ---
 # <a name="access-point-and-authentication-protocol-interaction-during-authentication"></a>驗證期間的存取點和驗證通訊協定互動
 
@@ -53,6 +53,6 @@ EAP 成功封包是未認可的封包。 因此，伺服器可能會遺失且不
 
 如果在驗證程式期間， [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)) 會傳回任何不是 **\_ 錯誤** 或 **錯誤 \_ PPP 無效封 \_ \_ 包** 的值、會話已中斷連線，並在伺服器上記錄錯誤 () 或顯示給用戶端) 上的使用者 (。
 
- 
+ 
 
- 
+ 

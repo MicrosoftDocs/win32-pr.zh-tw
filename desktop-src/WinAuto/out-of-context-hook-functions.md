@@ -4,12 +4,12 @@ ms.assetid: c0156485-db1e-42d3-bbbd-c51835a597ed
 description: 深入瞭解：內容外攔截函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d5837c39850c5821d44146498f62d4c874e7802
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e41e9a6bba1f705c3c5dc8781b2663be22086955f5dee45f07022504d0ccbf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133741"
 ---
 # <a name="out-of-context-hook-functions"></a>內容外攔截函式
 

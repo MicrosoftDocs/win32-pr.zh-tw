@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc9003ea7c9106f177958f7a15def3c60393346b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bba82be4653266c94465917857eb47b014399594525a6f0f18264e4f73651684
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077252"
 ---
 # <a name="mdm_enterprisemodernappmanagement_appsettingpolicy04-class"></a>MDM \_ EnterpriseModernAppManagement \_ AppSettingPolicy04 類別
 
@@ -82,7 +82,7 @@ class MDM_EnterpriseModernAppManagement_AppSettingPolicy04
 存取類型：唯讀
 </dt> </dl>
 
-在 Windows 10 1511 版中新增。 **SettingValue** 和資料代表要針對應用程式設定的索引鍵值組。 節點代表索引鍵的名稱，而資料代表值。 您可以在 LocalSettings 的 [應用程式設定] 容器中找到此值。
+在 Windows 10 1511 版中新增。 **SettingValue** 和資料代表要針對應用程式設定的索引鍵值組。 節點代表索引鍵的名稱，而資料代表值。 您可以在 Managed.App 的 LocalSettings 中找到此值。設定容器。
 
 這項設定僅適用于支援功能的應用程式，而且只有在使用者內容中才支援。
 
@@ -121,7 +121,7 @@ class MDM_EnterpriseModernAppManagement_AppSettingPolicy04
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

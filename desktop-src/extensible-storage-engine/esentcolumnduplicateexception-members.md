@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101212
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: fd7f618009e457b54897dd9ed78be067a54ab569
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e505e799d0d55ff02febfdca779a09c772778a9e7e728470ebce475cc0ad9e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041826"
 ---
 # <a name="esentcolumnduplicateexception-members"></a>EsentColumnDuplicateException 成員
 

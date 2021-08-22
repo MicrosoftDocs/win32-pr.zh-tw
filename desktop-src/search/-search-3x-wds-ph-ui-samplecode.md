@@ -4,12 +4,12 @@ ms.assetid: 4b65ced8-8dc9-43f6-bfe1-3703aea3459f
 title: 程式碼範例：通訊協定處理常式的 Shell 擴充功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e436f1d7ad746181be8cb3c43375abe3656c544b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1f2a29fb75ee6838b207648e2b58d634e19eb977f6d0abedb01ba450968756e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033106"
 ---
 # <a name="code-sample-shell-extensions-for-protocol-handlers"></a>程式碼範例：通訊協定處理常式的 Shell 擴充功能
 
@@ -499,7 +499,7 @@ STDMETHODIMP CSampleShellFolder::SetNameOf(
 
 ## <a name="additional-resources"></a>其他資源
 
--   如需搜尋程式碼範例，請參閱 [WINDOWS SEARCH SDK 範例](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)。
+-   如需搜尋程式碼範例，請參閱[Windows Search SDK 範例](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)。
 -   針對 Shell 程式碼範例，請參閱 [SHELL SDK 範例](/previous-versions/windows/desktop/legacy/dd940376(v=vs.85))。
 
 ## <a name="related-topics"></a>相關主題

@@ -4,12 +4,12 @@ ms.assetid: c1321957-4ba5-45d0-984a-4f4267221c59
 title: D3DVS20CAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bd0905a0996e2dc9df77adb0896c9397a93450
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: a199fa5e98040cf100846a4773e1077da04fa43e9d9e77a615017ecb9b32ca83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988868"
 ---
 # <a name="d3dvs20caps"></a>D3DVS20CAPS
 

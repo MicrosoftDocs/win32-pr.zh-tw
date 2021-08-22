@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1211658bdb7d9d8760e718a8d7bc52c0626267ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7aa8ce276dc0c84f7fcf5d1d26789b87c244d849800805fb8580ab4c4ac350a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042116"
 ---
 # <a name="esentbadbackupdatabasesizeexception-constructor"></a>EsentBadBackupDatabaseSizeException 函式
 

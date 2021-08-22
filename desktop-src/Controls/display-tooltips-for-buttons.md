@@ -4,12 +4,12 @@ description: 當您指定 TBSTYLE \_ 工具提示樣式時，工具列會建立�
 ms.assetid: 0383DB63-A10E-4235-A974-AB21551E086B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb37de7c21c904673a1f656533497130d50bd8f7
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: f169c6cc9324c98ed085b38f14802fcaa3c5cfbc8bd7ee9aa29af62ef41a6adc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103841991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119319998"
 ---
 # <a name="how-to-display-tooltips-for-buttons"></a>如何顯示按鈕的工具提示
 
@@ -30,12 +30,12 @@ ms.locfileid: "103841991"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -92,9 +92,9 @@ case WM_NOTIFY:
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

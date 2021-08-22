@@ -4,12 +4,12 @@ ms.assetid: cd07dcb0-b9b5-4186-a916-604c40f88b5f
 title: AllowLockdownPatch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c85507d4f24209220ffb64411b452bbe46f3c76a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c827b23f8beecf02d3312358d7ece6b835619111428349850f4e597ce379cd53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145901"
 ---
 # <a name="allowlockdownpatch"></a>AllowLockdownPatch
 
@@ -19,7 +19,7 @@ ms.locfileid: "103944036"
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

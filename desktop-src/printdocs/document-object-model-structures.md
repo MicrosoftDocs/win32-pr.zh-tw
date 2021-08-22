@@ -4,12 +4,12 @@ ms.assetid: c3680155-fdfb-4ef6-be15-af0587a4816a
 title: XPS 檔結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be401b0c9845194248cdbb743b9cdd9ab9c1f142
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1b62d619ccaad7123df4f62b34c5b4fb277cb7ffbadf3ee657a2839deb054d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447768"
 ---
 # <a name="xps-document-structures"></a>XPS 檔結構
 
@@ -19,7 +19,7 @@ ms.locfileid: "103850687"
 
 
 
-| 結構                                                   | Description                                                                 |
+| 結構                                                   | 描述                                                                 |
 |-------------------------------------------------------------|-----------------------------------------------------------------------------|
 | [**XPS \_ 色彩**](xps-color.md)<br/>                  | 描述單一色彩值的結構。<br/>                 |
 | [**XPS \_ 破折號**](/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash)<br/>                    | 此結構描述路徑的虛線元素。<br/>               |

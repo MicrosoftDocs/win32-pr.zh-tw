@@ -4,12 +4,12 @@ ms.assetid: c7abb657-6c9d-435a-a700-2eb0f14707c0
 title: JobURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecc145ac9a393c09ecab762b84e9ac7d58870ddf
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 9c6ad4eadf3698c1ff3b0d6ae4cb45ce95defa8de3cad2a2a744b0eb7ef36fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461028"
 ---
 # <a name="joburi"></a>JobURI
 
@@ -25,7 +25,7 @@ ms.locfileid: "112408611"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|---------------------|
 | 項目類型 <br/>   | 屬性<br/> |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>      |
@@ -52,9 +52,9 @@ ms.locfileid: "112408611"
 
 
 
-| Name                       | 資料類型         | 單位 | 支援的值 | 總結 |
+| 名稱                       | 資料類型         | 單位 | 支援的值 | 摘要 |
 |----------------------------|-------------------|------|------------------|---------|
-| \_JobURIValue\_<br/> | string<br/> |      |                  |         |
+| \_JobURIValue\_<br/> | 字串<br/> |      |                  |         |
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: 您可以使用登錄專案和 .ini 檔案來擴充 Shell 的功能。
+description: 您可以使用登錄專案和 .ini 檔來擴充 Shell 的功能。
 ms.assetid: 74a81e4f-7357-4901-a118-ba44e8892f25
 title: 建立 Shell 擴充功能處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 991f3c1684b7491e2ad29fae29f48164ffdd47cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 729fad22eb86e9c32e43c459d7a30b11f68d8d06360b60cee373bb3f74d3749f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032556"
 ---
 # <a name="creating-shell-extension-handlers"></a>建立 Shell 擴充功能處理常式
 
-您可以使用登錄專案和 .ini 檔案來擴充 Shell 的功能。 雖然這種擴充 Shell 的方法很簡單，且適用于許多用途，但有限。 例如，如果您使用登錄來指定檔案類型的自訂圖示，就會針對該類型的每個檔案顯示相同的圖示。 使用登錄延伸 Shell 不允許您變更相同類型之不同檔案的圖示。 Shell 的其他層面（例如，在檔案以滑鼠右鍵按一下時可顯示的 [ **屬性** ] 屬性工作表），無法透過登錄來修改。
+您可以使用登錄專案和 .ini 檔來擴充 Shell 的功能。 雖然這種擴充 Shell 的方法很簡單，且適用于許多用途，但有限。 例如，如果您使用登錄來指定檔案類型的自訂圖示，就會針對該類型的每個檔案顯示相同的圖示。 使用登錄延伸 Shell 不允許您變更相同類型之不同檔案的圖示。 Shell 的其他層面（例如，在檔案以滑鼠右鍵按一下時可顯示的 [ **屬性** ] 屬性工作表），無法透過登錄來修改。
 
 擴充 Shell 的一個更強大且靈活的方法，就是執行 *shell 擴充處理常式*。 您可以針對 Shell 可執行檔各種動作，執行這些處理常式。 在採取動作之前，Shell 會查詢延伸模組處理常式，讓它有機會修改動作。 常見的範例是快捷方式功能表延伸模組處理常式。 如果是針對檔案類型所執行，則會在每次以滑鼠右鍵按一下其中一個檔案時進行查詢。 然後，處理常式可以依檔案逐一指定其他功能表項目，而不是對整個檔案類型使用相同的集合。
 
@@ -46,7 +46,7 @@ ms.locfileid: "104991574"
 | [複製勾點處理常式](how-to-create-copy-hook-handlers.md)          | 當資料夾或印表機物件即將移動、複製、刪除或重新命名時呼叫。 它可讓您核准或拒絕此作業。   |
 | [拖放功能處理常式](context-menu-handlers.md)                 | 在使用滑鼠右鍵拖曳檔案時呼叫。 它可讓您修改所顯示的快捷方式功能表。                     |
 | [圖示重迭處理常式](how-to-implement-icon-overlay-handlers.md) | 在顯示檔案的圖示之前呼叫。 它可讓您指定檔案圖示的覆迭。                                          |
-| [搜尋處理常式](../lwef/search-handlers.md)                             | 呼叫以啟動搜尋引擎。 它可讓您執行可從 [ **開始** ] 功能表或 Windows 檔案總管存取的自訂搜尋引擎。 |
+| [搜尋處理常式](../lwef/search-handlers.md)                             | 呼叫以啟動搜尋引擎。 它可讓您執行可從 [**開始**] 功能表或 Windows 檔案總管存取的自訂搜尋引擎。 |
 
 
 
@@ -75,7 +75,7 @@ Shell 擴充處理常式物件的許多實作為相依于其型別。 不過，�
 -   [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject)。 公開物件的 class factory。
 -   [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow)。 COM 會呼叫這個函式，以判斷物件是否為任何用戶端提供服務。 如果不是，則系統可以卸載 DLL 並釋放相關聯的記憶體。
 
-Shell 擴充處理常式和所有 COM 物件一樣，都必須執行 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面和 [class factory](../com/implementing-iclassfactory.md)。 大部分的延伸模組處理常式也都必須在 Windows XP 或更早版本中執行 [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) 或 [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) 介面。 這些已由 Windows Vista 中的 [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)、 [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) 和 [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) 取代。 Shell 會使用這些介面來初始化處理常式。
+Shell 擴充處理常式和所有 COM 物件一樣，都必須執行 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面和 [class factory](../com/implementing-iclassfactory.md)。 大部分的延伸模組處理常式也必須在 Windows XP 或更早版本中，執行 [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile)或 [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit)介面。 這些已由 Windows Vista 中的 [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)、 [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem)和 [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile)取代。 Shell 會使用這些介面來初始化處理常式。
 
 [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile)介面必須由下列各項執行：
 
@@ -229,10 +229,10 @@ HKEY_CLASSES_ROOT
 |------------------|-------------------------------|--------------------------------------------------------------------------------------------|
 | 作者           | 檔作者        | [**PIDSI \_ 作者**](../stg/the-summary-information-property-set.md)                              |
 | 標題            | 檔的標題         | [**PIDSI \_ 標題**](../stg/the-summary-information-property-set.md)                               |
-| 主體          | 主題摘要               | [**PIDSI \_ 主旨**](../stg/the-summary-information-property-set.md)                             |
+| 主旨          | 主題摘要               | [**PIDSI \_ 主旨**](../stg/the-summary-information-property-set.md)                             |
 | 註解          | 檔批註             | [**PIDSI \_批註**](../stg/the-summary-information-property-set.md) 或資料夾/驅動程式屬性 |
 | PageCount        | 頁面數目               | [**PIDSI \_ PAGECOUNT**](../stg/the-summary-information-property-set.md)                           |
-| Name             | 易記名稱                 | 標準資料夾檢視                                                                       |
+| 名稱             | 易記名稱                 | 標準資料夾檢視                                                                       |
 | OriginalLocation | 原始檔案的位置     | [公事包] 資料夾和資源回收筒資料夾                                                    |
 | DateDeleted      | 資料檔案已刪除         | 資源回收筒資料夾                                                                         |
 | 類型             | 檔案類型                  | 標準資料夾詳細資料檢視                                                               |
@@ -257,7 +257,7 @@ HKEY_CLASSES_ROOT
 
 ## <a name="enhancing-windows-search-with-shell-extension-handlers"></a>使用 Shell 擴充處理常式增強 Windows Search
 
-Shell 擴充處理常式可以用來增強 Windows Search 通訊協定處理常式所提供的使用者體驗。 若要啟用這類增強功能，支援的 Shell 擴充處理常式必須設計成與搜尋通訊協定處理常式整合，以作為資料來源。 如需有關如何透過與 Shell 擴充處理常式整合來增強 Windows Search 通訊協定處理常式的詳細資訊，請參閱 [加入圖示、預覽和快捷方式功能表](../search/-search-3x-wds-ph-ui-extensions.md)。 如需 Windows Search 通訊協定處理常式的詳細資訊，請參閱 [開發通訊協定處理常式](../search/-search-3x-wds-phaddins.md)。
+Shell 擴充處理常式可以用來增強 Windows Search 通訊協定處理常式所提供的使用者體驗。 若要啟用這類增強功能，支援的 Shell 擴充處理常式必須設計成與搜尋通訊協定處理常式整合，以作為資料來源。 如需有關如何透過與 Shell 擴充處理常式整合來增強 Windows Search 通訊協定處理常式的詳細資訊，請參閱[加入圖示、預覽和快捷方式功能表](../search/-search-3x-wds-ph-ui-extensions.md)。 如需 Windows Search 通訊協定處理常式的詳細資訊，請參閱[開發通訊協定處理常式](../search/-search-3x-wds-phaddins.md)。
 
 ## <a name="registering-shell-extension-handlers"></a>註冊 Shell 延伸模組處理常式
 
@@ -292,7 +292,7 @@ HKEY_CLASSES_ROOT
 | Copyhook 處理常式                                      | ICopyHook          | **CopyHookHandlers**      |
 | 拖放功能處理常式                                 | ICoNtextMenu       | **DragDropHandlers**      |
 | 屬性工作表處理常式                                | IShellPropSheetExt | **PropertySheetHandlers** |
-| Windows Vista) 中的資料行提供者處理常式 (已淘汰 | IColumnProvider    | **ColumnHandlers**        |
+| Windows Vista) 中 (已淘汰的資料行提供者處理常式 | IColumnProvider    | **ColumnHandlers**        |
 
 
 
@@ -324,9 +324,9 @@ HKEY_CLASSES_ROOT
 
 只有包含 [IsShortCut](./links.md)專案的檔案類型才需要指定的子機碼，以將 [釘選到 **開始] 功能表** 和 [**釘選到工作列**] 新增至專案的快捷方式功能表。
 
-在 Windows Vista 中已移除對資料行提供者處理常式的支援。 此外，從 Windows Vista 起， [**IPropertySetStorage**](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) 已被取代為 [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore)。
+Windows Vista 中已移除對資料行提供者處理常式的支援。 此外，從 Windows Vista 起， [**IPropertySetStorage**](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage)已被取代為 [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore)。
 
-雖然仍支援 [**IExtractImage**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage) ，但 Windows Vista 和更新版本的建議是 [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) 。
+雖然仍支援 [**IExtractImage**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage) ，但建議您最好將 [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider)用於 Windows Vista 和更新版本。
 
 ### <a name="predefined-shell-objects"></a>預先定義的 Shell 物件
 
@@ -343,10 +343,10 @@ HKEY_CLASSES_ROOT
 
 
 
-| 子機碼                    | Description                                                          | 可能的處理常式                                | 版本 |
+| 子機碼                    | 描述                                                          | 可能的處理常式                                | 版本 |
 |---------------------------|----------------------------------------------------------------------|--------------------------------------------------|---------|
-| **\** _                    | 所有檔案                                                            | 快速鍵功能表、屬性工作表、動詞 (請參閱以下)  | 全部     |
-| _ *AllFileSystemObjects**  | 所有檔案和檔案資料夾                                           | 快速鍵功能表、屬性工作表、動詞             | 4.71    |
+| **\***                    | 所有檔案                                                            | 快速鍵功能表、屬性工作表、動詞 (請參閱以下)  | 全部     |
+| **AllFileSystemObjects**  | 所有檔案和檔案資料夾                                           | 快速鍵功能表、屬性工作表、動詞             | 4.71    |
 | **資料夾**                | 全部資料夾                                                          | 快速鍵功能表、屬性工作表、動詞             | 全部     |
 | **目錄**             | 資料夾                                                         | 快速鍵功能表、屬性工作表、動詞             | 全部     |
 | **目錄 \\ 背景** | 檔案資料夾背景                                               | 僅快捷方式功能表                               | 4.71    |
@@ -358,7 +358,7 @@ HKEY_CLASSES_ROOT
 | *網路 \_ 提供者 \_ 名稱* | 網路提供者「*網路 \_ 提供者 \_ 名稱*」提供的所有物件 | 快速鍵功能表、屬性工作表、動詞             | 全部     |
 | **印表機**              | 所有印表機                                                         | 快速鍵功能表，屬性工作表                    | 全部     |
 | **AudioCD**               | CD 光碟機中的音訊 CD                                                 | 僅限動詞                                       | 全部     |
-| **Dvd**                   | DVD 光碟機 (Windows 2000)                                              | 快速鍵功能表、屬性工作表、動詞             | 4.71    |
+| **DVD**                   | DVD 光碟機 (Windows 2000)                                              | 快速鍵功能表、屬性工作表、動詞             | 4.71    |
 
 
 
@@ -369,7 +369,7 @@ HKEY_CLASSES_ROOT
 -   您可以用滑鼠右鍵按一下檔案資料夾，而不是在資料夾的任何內容中，來存取檔案資料夾背景快捷方式功能表。
 -   「動詞」是在 **HKEY \_ 類別 \_ 根** 子機碼 \\  \\ **Shell** \\ **動詞** 命令下註冊的特殊命令。
 -   針對 **網路** \\ **類型** \\ **\#** ，" \# " 是十進位中的網路提供者類型代碼。 網路提供者類型代碼是網路類型的最高文字。 網路類型清單是在 Winnetwk 中提供的， (WNNC \_ NET \_ \* values) 。 例如，WNNC \_ NET \_ SHIVA 是0x00330000，因此對應的型別索引鍵會是 **HKEY 類別的 \_ \_ 根** \\ **網路** \\ **類型** \\ **51** 。
--   「*網路 \_ 提供者 \_ 名稱*」是 [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea)所指定的網路提供者名稱，並已將空格轉換成底線。 例如，如果已安裝 Microsoft 網路網路提供者，其提供者名稱為「Microsoft Windows 網路」，而對應的 *網路 \_ 提供者 \_ 名稱* 為 **Microsoft \_ windows \_ network**。
+-   「*網路 \_ 提供者 \_ 名稱*」是 [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea)所指定的網路提供者名稱，並已將空格轉換成底線。 例如，如果已安裝 Microsoft 網路網路提供者，其提供者名稱為 "microsoft Windows network"，而對應的 *網路 \_ 提供者 \_ 名稱* 為 **Microsoft \_ Windows \_ network**。
 
 ### <a name="example-of-an-extension-handler-registration"></a>擴充處理常式註冊的範例
 
@@ -401,7 +401,7 @@ HKEY_CLASSES_ROOT
                (Default) = {11111111-2222-3333-4444-555555555555}
 ```
 
-本章節中討論的註冊程式必須遵循所有的 Windows 系統。
+本章節中討論的註冊程式必須遵循所有 Windows 系統。
 
 ## <a name="related-topics"></a>相關主題
 

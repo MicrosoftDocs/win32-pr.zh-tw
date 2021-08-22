@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: eaf482f6f98d695f3aea3198948616c05ed01f72
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cd7222fcb561f23f742bfe689eb8323f2f5b70ed67d5c23c7dee4943e2642167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989038"
 ---
 # <a name="d3dcubemap_faces-enumeration"></a>D3DCUBEMAP \_ 臉部列舉
 

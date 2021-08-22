@@ -4,18 +4,18 @@ ms.assetid: e4b3135a-98f4-48fe-be5b-9c77595f27b4
 title: 如何優化您的 MSDN Library 搜尋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e2918fe67d48b53ee3a7ce24f76aa7173560bac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccf3b6d6d470cfcc10bee3acc294881cc634d5d58ff6a1dcbfc7953b60e9c4ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119516028"
 ---
 # <a name="how-to-optimize-your-msdn-library-search"></a>如何優化您的 MSDN Library 搜尋
 
-若要搜尋 MSDN，請在 [ **使用 Bing 的搜尋 MSDN** ] 方塊中輸入關鍵字或字元字串。 搜尋 [Microsoft 開發人員 Network](https://msdn.microsoft.com/default.aspx) (MSDN) 網站之後，您可以在 [**依來源** 或 **依主題**] 下的 [**精簡搜尋**] 欄位中，按一下可用的選項來縮小搜尋結果的範圍。 這些選項會在您第一次嘗試搜尋之後變成可用。
+若要搜尋 msdn，請在 [**搜尋 msdn 與 Bing** ] 方塊中輸入關鍵字或字元字串。 搜尋 [Microsoft 開發人員 Network](https://msdn.microsoft.com/default.aspx) (MSDN) 網站之後，您可以在 [**依來源** 或 **依主題**] 下的 [**精簡搜尋**] 欄位中，按一下可用的選項來縮小搜尋結果的範圍。 這些選項會在您第一次嘗試搜尋之後變成可用。
 
-**若只要傳回 MSDN Library 的 Windows 開發區段中的主題**
+**若只要傳回 MSDN library 的 Windows 開發區段中的主題**
 
 1.  在 [ **依主題** ] 清單中，按一下 [ **Win32 & COM**]。 另一個稱為「 **目前** 的調整」的清單隨即出現。 **目前** 的調整線條在其中有 **WIN32 & 的 COM** 。
 2.  在 [ **依來源** ] 清單中，按一下 [ **檔 & 文章**]。 **目前的改進** 清單現在包含 **檔 & 文章**。
@@ -24,17 +24,17 @@ ms.locfileid: "104194745"
 
 **只搜尋安全性 SDK 中的主題**
 
--   在 [ **依主題** ] 清單中，按一下 [ **Windows 安全性**]。 目前的 **改進** 清單現在包含 **Windows 安全性**。
+-   在 [**依主題**] 清單中，按一下 [ **Windows 安全性**]。 目前的 **改進** 清單現在包含 **Windows 安全性**。
 
 當您輸入搜尋字串時，建議會自動出現在 [搜尋] 方塊下方。 若要搜尋 SDK 內容，請在建議中尋找 **api** 或 **windows** 。
 
-當您在搜尋結果中按一下某個主題時，您可以藉由查看出現在主題頂端的導覽路徑，快速判斷主題是否提供 SDK 內容。 例如，搜尋 **密碼** 編譯會產生包含 **密碼編譯 api** 的建議。 按一下 [建議 **密碼編譯 api**]，就會產生 [搜尋結果] 窗格，其中包含 **(Windows) 的密碼編譯功能**。 **(Windows)** 中按一下密碼編譯功能，會將您帶到主題頂端的下列流覽路徑：
+當您在搜尋結果中按一下某個主題時，您可以藉由查看出現在主題頂端的導覽路徑，快速判斷主題是否提供 SDK 內容。 例如，搜尋 **密碼** 編譯會產生包含 **密碼編譯 api** 的建議。 按一下 [建議 **密碼編譯 api**]，會產生包含密碼編譯功能的 [搜尋結果] 窗格， **(Windows)**。 按一下 [密碼編譯函式 **(Windows)**，會將您帶到主題頂端的下列流覽路徑：
 
-**MSDN > MSDN Library > Windows 開發 > 安全性 > 密碼編譯 > 密碼編譯參考 > 密碼編譯功能 >**
+**msdn > msdn Library > Windows 開發 > 安全性 > 加密 > 密碼編譯參考 > 密碼編譯功能 >**
 
 所有安全性 SDK 內容都包含該導覽路徑的這個部分：
 
-**MSDN > MSDN Library > Windows 開發 > 安全性 >**
+**msdn > msdn Library > Windows 開發 > 安全性 >**
 
 **從 MSDN 搜尋移除搜尋結果篩選**
 

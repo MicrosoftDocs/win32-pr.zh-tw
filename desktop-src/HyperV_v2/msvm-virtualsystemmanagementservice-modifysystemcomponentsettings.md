@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e9495256d1b7610bebdac1fb2cc8b70960a63304
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a1b2f2e0c2f08e5768a5078777daa61ef4f2452878575eea489db437d1f52f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119388553"
 ---
 # <a name="modifysystemcomponentsettings-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 ModifySystemComponentSettings 方法 \_
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 041b81c38f3370421c96a4c0d66201254a715e62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81bbb5f4f93026e0d6910cb7f23d0a7d2ddeea5595e87f816faa016d22986d0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119223065"
 ---
 # <a name="itabletcursorisinverted-method"></a>ITabletCursor：： IsInverted 方法
 
@@ -44,7 +44,7 @@ HRESULT IsInverted();
 
 
 
-| 傳回碼                                                                             | Description                               |
+| 傳回碼                                                                             | 描述                               |
 |-----------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 手寫筆已反轉。<br/>        |
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 手寫筆未反轉。<br/>    |
@@ -60,7 +60,7 @@ HRESULT IsInverted();
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                              |
 | 程式庫<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc8b66ac84fca9bbaea6361d4291885c5f45a17b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 9cd76121885dfe5dba3bdb794caa86bb6d539e2af1638208ae0ec374100630a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106993810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061866"
 ---
 # <a name="glcolor3sv-function"></a>glColor3sv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glColor3sv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 陣列的指標，其中包含紅色、綠色和藍色值。

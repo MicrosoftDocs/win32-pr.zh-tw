@@ -16,19 +16,19 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8b46e74e4009f6767788fa120984eca0e89fb551
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c57d08c77c9c420cdc45b158a19fa610231f53f6b409d8b650953de0de8381a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317898"
 ---
 # <a name="cbasefilterunregister-method"></a>CBaseFilter，取消註冊方法
 
 `Unregister`方法會從登錄中移除篩選。
 
 > [!Note]  
-> 這個方法已過時。 新的篩選器應該使用 [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) 函式來取消註冊。 如需詳細資訊，請參閱 [如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
+> 這個方法已過時。 新的篩選器應該使用 [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) 函式來取消註冊。 如需詳細資訊，請參閱[如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
 
  
 

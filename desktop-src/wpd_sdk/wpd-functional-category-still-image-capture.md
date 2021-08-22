@@ -4,12 +4,12 @@ ms.assetid: fb434927-1548-4c6e-bfb7-3a99eef62a4a
 title: WPD_FUNCTIONAL_CATEGORY_STILL_IMAGE_CAPTURE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88d821f1182012fbf29960fae4fc06b14ec53ecb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94fb0f6f19930780784083eaeddc1156bf55c99943aae8ad5850374c04211dbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119444808"
 ---
 # <a name="wpd_functional_category_still_image_capture"></a>WPD \_ 功能 \_ 類別 \_ 仍為 \_ 影像 \_ 捕捉
 
@@ -42,7 +42,7 @@ WPD \_ 功能 \_ 類別仍為「 \_ \_ 影像捕捉」 \_ 功能物件，會在�
 | [WPD \_ 物件 \_ \_ \_ 從資源產生縮圖 \_](object-properties.md)    | 選擇性。                                                                                                                                              |
 | [WPD \_ 物件 \_ 可以 \_ 刪除](object-properties.md)                                                                        | 如果無法刪除物件，則為必要。                                                                                                              |
 | [WPD \_ 物件 \_ 語言 \_ 地區設定](object-properties.md)                                                                   | 選擇性。                                                                                                                                              |
-| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                         | 必要。 請參閱 Windows 可攜式裝置所定義分類的 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md) 。 |
+| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                         | 必要。 如需 Windows 可攜式裝置所定義的分類，請參閱 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md)。 |
 | [WPD \_ 仍然是 \_ 映射 \_ 捕獲 \_ 解析](still-image-properties.md)                  | 必要。                                                                                                                                              |
 | [WPD \_ 仍然是 \_ 影像 \_ 捕捉 \_ 格式](still-image-properties.md)                          | 必要。                                                                                                                                              |
 | [WPD \_ 靜止 \_ 影像 \_ 壓縮 \_ 設定](still-image-properties.md)                | 選擇性。                                                                                                                                              |

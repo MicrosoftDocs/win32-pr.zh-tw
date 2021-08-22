@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 2ffabcfbfd7e8e97bef97e4e04fbe95fc720eea1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a18fcd835624f102f81e6159d32d8dbb40eb07f016d7b00c681248eac128e642
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381328"
 ---
 # <a name="patchpatchproperty-method"></a>PatchProperty 方法
 
@@ -46,7 +46,7 @@ Patch.PatchProperty(
 
 
 
-| Name          | 意義                                                                                                                                                                                                                                                                                                                      |
+| 名稱          | 意義                                                                                                                                                                                                                                                                                                                      |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | LocalPackage  | 取得產品所使用的快取修補檔案。                                                                                                                                                                                                                                                                               |
 | 轉換    | 取得上次修補安裝所套用至產品的一組修補程式轉換。 如果使用者未登入電腦，則每個使用者非受控應用程式可能無法使用此值。                                                                                                                     |
@@ -76,7 +76,7 @@ Patch.PatchProperty(
 
 | 需求 | 值 |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003、Windows XP 及 Windows 2000 上的 Windows Installer 3.0 或更新版本<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003、Windows XP 和 Windows 2000 上的安裝程式3.0 或更新版本<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ IPatch 定義為000C10A1-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                            |
 

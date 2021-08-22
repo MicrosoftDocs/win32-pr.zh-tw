@@ -10,12 +10,12 @@ keywords:
 - MSAA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce653adb2602b8fdd46bebb72d3a7607185ffd84
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2fcd5d8b0777eb80cf5b2935cc8652d328dfc219cb56bc654c1eeae0761bbd89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133591"
 ---
 # <a name="testing-tools"></a>測試工具
 
@@ -29,20 +29,20 @@ ms.locfileid: "104093216"
 
 ## <a name="tools"></a>工具
 
-[協助工具深入](https://accessibilityinsights.io/) 解析-協助開發人員尋找和修正網站和 Windows 應用程式中的協助工具問題。
+[協助工具 Insights](https://accessibilityinsights.io/) -協助開發人員尋找和修正網站和 Windows 應用程式中的協助工具問題。
 
-- [適用于 web 的協助工具深入](https://accessibilityinsights.io/docs/web/overview) 解析是適用于 Chrome 和 [Microsoft Edge Insider](https://www.microsoftedgeinsider.com) 的延伸模組，可協助開發人員尋找並修正 Web 應用程式和網站中的協助工具問題。 它支援兩種主要案例：
+- [web 的協助工具 Insights](https://accessibilityinsights.io/docs/web/overview)是適用于 Chrome 和[Microsoft Edge Insider](https://www.microsoftedgeinsider.com)的延伸模組，可協助開發人員尋找並修正 web 應用程式和網站中的協助工具問題。 它支援兩種主要案例：
   - **FastPass** -一項輕量、雙步驟的程式，可協助開發人員在五分鐘內找出常見、高衝擊的協助工具問題。  
-  - **評** 量-讓任何人都能使用協助工具標準和指導方針，確認網站是否符合100% 的規範。 [協助工具深入](https://accessibilityinsights.io/) 解析也可讓您複習消費者介面自動化專案、屬性、控制項模式和事件 (類似下一節中所述的 [檢查](/windows/desktop/winauto/inspect-objects) 和 [AccEvent](/windows/desktop/winauto/accessible-event-watcher) 舊版工具) 。
+  - **評** 量-讓任何人都能使用協助工具標準和指導方針，確認網站是否符合100% 的規範。 [協助工具 Insights](https://accessibilityinsights.io/)也可讓您查看消費者介面自動化專案、屬性、控制項模式和事件 (類似于下一節) 所述的[檢查](/windows/desktop/winauto/inspect-objects)和[AccEvent](/windows/desktop/winauto/accessible-event-watcher)舊版工具。
 
-- [適用于 windows 的協助工具見解](https://accessibilityinsights.io/docs/windows/overview) 可協助開發人員尋找和修正 windows 應用程式中的協助工具問題。 此工具支援三種主要案例：
+- [適用于 Windows 的協助工具 Insights](https://accessibilityinsights.io/docs/windows/overview)可協助開發人員尋找並修正 Windows 應用程式中的協助工具問題。 此工具支援三種主要案例：
   - **即時檢查** 可讓開發人員藉由將滑鼠暫留在專案上，或設定鍵盤焦點，來確認應用程式中的元素有正確的消費者介面自動化屬性。
   - **FastPass** -一項輕量、雙步驟的程式，可協助開發人員在五分鐘內找出常見、高衝擊的協助工具問題。
   - **疑難排解** 可讓您診斷並修正特定的協助工具問題。
 
 ### <a name="legacy-testing-tools"></a>舊版測試控管
 
-下列工具仍可在 Windows SDK 中使用，並記載于此處以取得持續支援，但建議您轉換至 [協助工具深入](https://accessibilityinsights.io/)解析。
+下列工具仍可在 Windows SDK 中使用，並記載于此處以取得持續支援，但建議您轉換至[協助工具 Insights](https://accessibilityinsights.io/)。
 
 - [**可存取的事件**](accessible-event-watcher.md)監看員：「可存取的事件監看員」 (AccEvent) 工具會檢查協助工具資料以協助驗證應用程式 ui 元素，以確保 ui 元素會在 ui 變更時引發適當的 Microsoft Active Accessibility 和消費者介面自動化事件。 AccEvent 通常用來偵測問題，並驗證自訂和擴充的控制項是否正常運作。
 

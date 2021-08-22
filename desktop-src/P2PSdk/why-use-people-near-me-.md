@@ -4,12 +4,12 @@ ms.assetid: 94e37cb0-1832-46ae-81ec-b92a5b4dcd51
 title: 為何要使用近端分享？
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 218c443e87d39b8d5ece29ca780a25ba7c4e4b5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa8dc9de18017fe9b843dcb4a267fc715013ef3173c2956071eea88eaaa10a77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119517978"
 ---
 # <a name="why-use-people-near-me"></a>為何要使用近端分享？
 

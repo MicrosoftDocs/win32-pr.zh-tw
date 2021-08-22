@@ -4,12 +4,12 @@ description: Role 屬性描述物件的使用者介面元素。 所有物件都�
 ms.assetid: f6abf95b-a77a-406d-9ca0-4663adc8245f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f2b285d9242542f83c6b4478df93e888a7a23cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2881b301537e9a25dabb260b84bc889cef4e4a6f9f6a5a2c8fab540d78daf8c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133721"
 ---
 # <a name="role-property"></a>Role 屬性
 
@@ -27,9 +27,9 @@ Microsoft Active Accessibility 提供定義于 oleacc 中的 [角色常數](obje
 
 請注意，某些角色並不容易描述。 例如，資料夾的大圖示視圖允許任意排列圖示，因此其角色可以描述為 [**角色 \_ 系統 \_ 群組**](object-roles.md)。 或者，提供固定資料列和資料行中之專案的控制項可能具有 [**角色 \_ 系統 \_ 資料表**](object-roles.md) 角色。 因為角色是用來將使用模型傳達給終端使用者，所以請務必使用適當的角色。 例如，如果您的控制項如同按鈕，則使用 [ [**角色 \_ 系統 \_**](object-roles.md)] 按鈕。
 
- 
+ 
 
- 
+ 
 
 
 

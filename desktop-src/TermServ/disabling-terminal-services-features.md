@@ -5,16 +5,16 @@ ms.assetid: 93505e3a-a4f8-4b94-8dbb-646140b6fa58
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f2f5534b062fe4e594d0400cf16adff4367af01
-ms.sourcegitcommit: da6887b92d8ef51f6b3f0d9307632822e92a8648
+ms.openlocfilehash: e994999293a23468da78724fdcec8b09f3be4a5f814b4e805923f1bff469267d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "103933795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401348"
 ---
 # <a name="disabling-remote-desktop-services-features"></a>停用遠端桌面服務功能
 
-為了加強安全性，您可以選擇停用遠端桌面服務功能，例如使用遠端桌面 ActiveX 控制項連接至遠端桌面工作階段主機 (RD 工作階段主機) 伺服器之用戶端的「剪貼簿重新導向」和「印表機重新導向」。
+為了加強安全性，您可以選擇停用遠端桌面服務功能，例如使用遠端桌面) 控制項連接至遠端桌面工作階段主機 (RD 工作階段主機 ActiveX 伺服器之用戶端的「剪貼簿重新導向」和「印表機重新導向」。
 
 **停用遠端桌面服務功能**
 

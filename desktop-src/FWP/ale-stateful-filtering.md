@@ -4,12 +4,12 @@ description: 在應用層強制安裝的篩選 (Windows 篩選平台的 ALE) 層
 ms.assetid: d5a3fcad-d55e-4a07-af21-cb40e5e9a9ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30cc1b4a5830efd0fef6dc28c88db85cd9c88cca
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ebbcb0517bb1e48c337f0ffd9589a1f39a3e4239aa0b3971dc81a71b402891f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119388908"
 ---
 # <a name="ale-stateful-filtering"></a>ALE 具狀態篩選
 
@@ -23,7 +23,7 @@ ALE 具狀態篩選只會將屬於 ALE 流程的第一個封包分類，以大�
 
 ALE 流程具有相關聯的方向，也就是流程第一個封包的方向。 藉由允許輸入起始的連接與輸出起始的連接具有不同的原則，即可提供更有彈性的原則。
 
-## <a name="tcp-ale-flow"></a>TCP ALE 流程
+## <a name="tcp-ale-flow"></a>TCP ALE Flow
 
 TCP 流量的 ALE 流程是由 TCP/IP (來源 IP 位址、目的地 IP 位址、來源埠、目的地埠和通訊協定) 的五個元組所識別。
 
@@ -31,12 +31,12 @@ TCP ALE 流程與連線的 TCP 通訊端具有相同的存留期。 連接的 TC
 
 ALE 會維護 TCP ALE 流程與 TCP 控制區塊之間的一對一關聯性， (TCB) 。
 
-## <a name="udp-ale-flow"></a>UDP ALE 流程
+## <a name="udp-ale-flow"></a>UDP ALE Flow
 
 > [!Note]  
 > 非 TCP 或 ICMP 的通訊協定會視為 UDP。
 
- 
+ 
 
 UDP 流量的 ALE 流程是由 TCP/IP (來源 IP 位址、目的地 IP 位址、來源埠、目的地埠和通訊協定) 的五個元組所識別。
 
@@ -48,7 +48,7 @@ UDP 通訊端和與其交談的遠端對等之間，有一對多關聯性。
 
 在沒有通訊端關閉的情況下，UDP 單播 ALE 流程具有 [可](ale-flow-customization.md) 設定的閒置 timeout，預設為60秒。 如果在此視窗內沒有傳送或接收任何封包，則會刪除 ALE 流程。 當整個系統的 ALE 流程數目達到特定閾值時，此預設的超時時間會逐漸縮短。
 
-## <a name="icmp-ale-flow"></a>ICMP ALE 流程
+## <a name="icmp-ale-flow"></a>ICMP ALE Flow
 
 ICMP 流量的 ALE 流程是由六個元組所識別 (來源 IP 位址、目的地 IP 位址、ICMP 類型、ICMP 代碼、通訊協定和 ICMP 識別碼) 。 ICMP 識別碼只是針對 ICMP echo/回復流量的 ALE 流程的一部分。
 
@@ -72,7 +72,7 @@ ICMP 流量的 ALE 流程是由六個元組所識別 (來源 IP 位址、目的�
 [ALE 重新授權](ale-re-authorization.md)
 </dt> <dt>
 
-[ALE 流程自訂](ale-flow-customization.md)
+[ALE Flow 自訂](ale-flow-customization.md)
 </dt> <dt>
 
 [TCP 封包流程](tcp-packet-flows.md)
@@ -84,6 +84,6 @@ ICMP 流量的 ALE 流程是由六個元組所識別 (來源 IP 位址、目的�
 [Winsock 函數](/windows/desktop/WinSock/winsock-functions)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

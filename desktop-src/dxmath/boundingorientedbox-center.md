@@ -4,12 +4,12 @@ ms.assetid: e1e118cd-4549-4609-9c8e-7ce36a0bcc3f
 title: 'BoundingOrientedBox Center (DirectXCollision .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a80cbbf7480c16c6731dfd191c68293577d9a6e7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 580749b8624974f1e06a9e9c2c28528a76792c0653056c675e8878fcd964f88f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118505"
 ---
 # <a name="boundingorientedboxcenter"></a>BoundingOrientedBox 中心
 
@@ -27,7 +27,7 @@ public:
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

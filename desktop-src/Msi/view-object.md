@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: c26cfa3c4873913d70fca63537f1d25532648a42
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5025df952ce6e3c5ce43bf3dcb93748a241702b8c4e2f52cd9d0fd00103dc49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145271"
 ---
 # <a name="view-object"></a>View 物件
 
-**View** 物件代表使用 [**資料庫**](database-object.md)物件的 [**OpenView**](database-openview.md)方法處理查詢時所取得的結果集。 在可以傳輸任何資料之前，必須使用 [**Execute**](view-execute.md) 方法來執行查詢，並將 SQL 查詢字串中指定的所有可取代參數傳遞給它。 您可以視需要使用不同的參數再次執行查詢，但只在釋放結果集之後，只要提取所有記錄或呼叫 [**Close**](view-close.md) 方法。
+**View** 物件代表使用 [**資料庫**](database-object.md)物件的 [**OpenView**](database-openview.md)方法處理查詢時所取得的結果集。 在可以傳輸任何資料之前，必須使用 [**Execute**](view-execute.md)方法來執行查詢，並將 SQL 查詢字串中指定的所有可取代參數傳遞給它。 您可以視需要使用不同的參數再次執行查詢，但只在釋放結果集之後，只要提取所有記錄或呼叫 [**Close**](view-close.md) 方法。
 
 ## <a name="members"></a>成員
 
@@ -40,10 +40,10 @@ ms.locfileid: "106994122"
 | 方法                            | 描述                                                                                                                                                                     |
 |:----------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**關閉**](view-close.md)       | 終止查詢執行並釋放資料庫資源。<br/>                                                                                                          |
-| [**執行**](view-execute.md)   | 使用問號標記來代表 SQL 查詢中的參數。 這些參數的值會傳入做為參數記錄的對應欄位。<br/> |
+| [**執行**](view-execute.md)   | 使用問號標記來表示 SQL 查詢中的參數。 這些參數的值會傳入做為參數記錄的對應欄位。<br/> |
 | [**獲取**](view-fetch.md)       | 如果結果集中有多個資料列可供使用，則傳回包含所要求資料行資料的 [**記錄**](record-object.md) 物件，否則會傳回 null。<br/>      |
 | [**GetError**](view-geterror.md) | 傳回發生錯誤的驗證錯誤和資料行名稱。<br/>                                                                                           |
-| [**修改**](view-modify.md)     | 使用 [**Fetch**](view-fetch.md)方法取得的修改 [**記錄**](record-object.md)物件來修改資料庫資料列。<br/>                                   |
+| [**Modify**](view-modify.md)     | 使用 [**Fetch**](view-fetch.md)方法取得的修改 [**記錄**](record-object.md)物件來修改資料庫資料列。<br/>                                   |
 
 
 
@@ -69,7 +69,7 @@ ms.locfileid: "106994122"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IView 定義為 000C109C-0000-0000-C000-000000000046<br/>                                                                                                                                                                                |
 
@@ -79,7 +79,7 @@ ms.locfileid: "106994122"
 
 <dl> <dt>
 
-[Windows Installer 腳本範例](windows-installer-scripting-examples.md)
+[Windows安裝程式腳本範例](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

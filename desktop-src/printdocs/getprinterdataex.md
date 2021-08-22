@@ -18,12 +18,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: bdadf2e1259445ca5285e5b12bc906140a137cf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 146c4f650b646e5b2be9e0ec809221beebe9f596fcb591fe148be615417faa04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034176"
 ---
 # <a name="getprinterdataex-function"></a>GetPrinterDataEx 函式
 
@@ -130,7 +130,7 @@ DWORD GetPrinterDataEx(
 
 | 值                                                               | 註解                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SPLREG \_ 允許 \_ 使用者 \_ MANAGEFORMS**                                | Windows XP Service Pack 2 (SP2) 和更新版本<br/> Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本<br/>                                                                                                    |
+| **SPLREG \_ 允許 \_ 使用者 \_ MANAGEFORMS**                                | WindowsXP Service Pack 2 (SP2) 和更新版本<br/> WindowsServer 2003 Service Pack 1 (SP1) 和更新版本<br/>                                                                                                    |
 | **SPLREG \_ 架構**                                            |                                                                                                                                                                                                                                 |
 | **SPLREG \_ 嗶聲 \_ 已啟用**                                           |                                                                                                                                                                                                                                 |
 | **SPLREG \_ 預設多工 \_ 緩衝處理 \_ 目錄**                               |                                                                                                                                                                                                                                 |
@@ -140,8 +140,8 @@ DWORD GetPrinterDataEx(
 | **SPLREG \_ 事件 \_ 記錄檔**                                              |                                                                                                                                                                                                                                 |
 | **SPLREG \_ 主要 \_ 版本**                                          |                                                                                                                                                                                                                                 |
 | **SPLREG \_ 次要 \_ 版本**                                          |                                                                                                                                                                                                                                 |
-| **SPLREG \_ NET \_ 快顯視窗**                                              | Windows Server 2003 和更新版本不支援<br/>                                                                                                                                                                       |
-| **SPLREG \_ NET \_ POPUP \_ 至 \_ 電腦**                                | 在成功傳回時，如果工作通知應該傳送至用戶端電腦， *.pdata* 會包含 1; 如果要將工作通知傳送給使用者，則為0。<br/> Windows Server 2003 和更新版本不支援<br/> |
+| **SPLREG \_ NET \_ 快顯視窗**                                              | Windows Server 2003 和更新版本中不支援<br/>                                                                                                                                                                       |
+| **SPLREG \_ NET \_ POPUP \_ 至 \_ 電腦**                                | 在成功傳回時，如果工作通知應該傳送至用戶端電腦， *.pdata* 會包含 1; 如果要將工作通知傳送給使用者，則為0。<br/> Windows Server 2003 和更新版本中不支援<br/> |
 | **SPLREG \_ OS \_ 版本**                                             | Windows XP 及更新版本<br/>                                                                                                                                                                                                 |
 | **SPLREG \_ OS \_ VERSIONEX**                                           |                                                                                                                                                                                                                                 |
 | **SPLREG \_ 埠 \_ 執行緒 \_ 優先順序 \_ 預設值**                         |                                                                                                                                                                                                                                 |
@@ -153,10 +153,10 @@ DWORD GetPrinterDataEx(
 | **SPLREG \_ 列印 \_ 驅動程式 \_ 隔離 \_ 執行 \_ 原則**             | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
 | **SPLREG \_ 列印 \_ 驅動程式 \_ 隔離覆 \_ 寫 \_ 原則**              | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
 | **SPLREG \_ 遠端 \_ 傳真**                                             | 在成功傳回時，如果傳真服務支援遠端用戶端， *.pdata* 會包含0x0001，否則為0。<br/>                                                                                                               |
-| **SPLREG \_ 重試 \_ 快顯視窗**                                            | 在成功傳回時，如果伺服器設定為所有作業的 [重試] 快顯視窗， *.pdata* 會包含 1; 如果伺服器不會針對所有作業重試快顯視窗，則為0。<br/> Windows Server 2003 和更新版本不支援<br/> |
+| **SPLREG \_ 重試 \_ 快顯視窗**                                            | 在成功傳回時，如果伺服器設定為所有作業的 [重試] 快顯視窗， *.pdata* 會包含 1; 如果伺服器不會針對所有作業重試快顯視窗，則為0。<br/> Windows Server 2003 和更新版本中不支援<br/> |
 | **SPLREG 排程器 \_ \_ 執行緒 \_ 優先順序**                             |                                                                                                                                                                                                                                 |
 | **SPLREG 排程器 \_ \_ 執行緒 \_ 優先順序 \_ 預設值**                    |                                                                                                                                                                                                                                 |
-| **SPLREG \_ WEBSHAREMGMT**                                            | Windows Server 2003 和更新版本<br/>                                                                                                                                                                                        |
+| **SPLREG \_ WEBSHAREMGMT**                                            | Windows伺服器2003和更新版本<br/>                                                                                                                                                                                        |
 
 
 
@@ -194,7 +194,7 @@ DWORD GetPrinterDataEx(
 
 如果 *pKeyName* 是其中一個預先定義的目錄服務 (DS) 金鑰 (請參閱 [**SetPrinter**](setprinter.md)) 和 *pValueName* 包含逗號 ( '，' ) ，則逗號之前的 *pValueName* 部分是值名稱，而逗號右邊的 *pValueName* 部分是 DS 屬性 OID。 會建立名為 OID 的子機碼，並在 OID 索引鍵底下輸入值名稱和 OID 所組成的新值。 [**SetPrinterDataEx**](setprinterdataex.md) 也會在 DS 機碼下新增值名稱和資料。
 
-在 Windows 7 和更新版本的 Windows 中，預設會在用戶端上轉譯傳送至列印伺服器的列印工作。 您可以將 *pKeyName* 設定為 "PrinterDriverData"，並 *pValueName* 至下表中的設定值，以讀取印表機的用戶端轉譯設定。
+在 Windows 7 和更新版本的 Windows 中，傳送至列印伺服器的列印工作預設會在用戶端上呈現。 您可以將 *pKeyName* 設定為 "PrinterDriverData"，並 *pValueName* 至下表中的設定值，以讀取印表機的用戶端轉譯設定。
 
 
 
@@ -215,7 +215,7 @@ DWORD GetPrinterDataEx(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **GetPrinterDataExW** (Unicode) 和 **GetPrinterDataExA** (ANSI) <br/>                               |

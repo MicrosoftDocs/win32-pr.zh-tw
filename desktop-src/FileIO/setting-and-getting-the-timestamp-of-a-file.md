@@ -4,12 +4,12 @@ ms.assetid: f8930be6-7c2a-4e50-a7a1-d25f6e2a3951
 title: 設定和取得檔案的時間戳記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34735994dd3017662f517a8c0a57be1d5c0e3096
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67e98bd87ae8224ecbebc46e5f9d0ed71ad3522097fb865afc0d16e53a828812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015126"
 ---
 # <a name="setting-and-getting-the-timestamp-of-a-file"></a>設定和取得檔案的時間戳記
 
