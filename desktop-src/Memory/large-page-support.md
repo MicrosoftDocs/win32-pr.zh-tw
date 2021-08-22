@@ -1,19 +1,19 @@
 ---
-description: 支援大型頁面可讓伺服器應用程式建立大型頁面的記憶體區域，這在64位的 Windows 上特別有用。
+description: 支援大型頁面可讓伺服器應用程式建立大型頁面的記憶體區域，在64位 Windows 上特別有用。
 ms.assetid: 060115af-38d1-499c-b30c-47cd0cf42d20
 title: Large-Page 支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ef4578b5127e6613f2ff4b6e0b8a7cffcc53c9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad61873c80d2d3fe8de6a915f5eb93f527049a437860deabedbe232cdf9cb885
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869678"
 ---
 # <a name="large-page-support"></a>Large-Page 支援
 
-支援大型頁面可讓伺服器應用程式建立大型頁面的記憶體區域，這在64位的 Windows 上特別有用。 每個大型頁面轉譯都會使用 CPU 內的單一轉譯緩衝區。 這個緩衝區的大小通常會大於原生頁面大小的三個數量級順序;這會提高轉譯緩衝區的效率，進而提高經常存取之記憶體的效能。
+支援大型頁面可讓伺服器應用程式建立大型頁面的記憶體區域，在64位 Windows 上特別有用。 每個大型頁面轉譯都會使用 CPU 內的單一轉譯緩衝區。 這個緩衝區的大小通常會大於原生頁面大小的三個數量級順序;這會提高轉譯緩衝區的效率，進而提高經常存取之記憶體的效能。
 
 下列程式說明如何使用大型頁面支援。
 

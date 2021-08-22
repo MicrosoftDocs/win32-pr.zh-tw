@@ -4,12 +4,12 @@ ms.assetid: 98aa4c21-2dac-4e7a-95ef-ca87fb5e5082
 title: BoundingOrientedBox 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdcde25a18ca6579761cfa5066be63e2ebe8fb65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e03de3d52d2b95b0072c1fc06b3f372f5e95a13d331a770b2deded63afade5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841738"
 ---
 # <a name="boundingorientedbox-methods"></a>BoundingOrientedBox 方法
 

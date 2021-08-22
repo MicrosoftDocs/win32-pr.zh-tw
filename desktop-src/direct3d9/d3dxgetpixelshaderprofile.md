@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c61bbfff1f1db13afb7a3ef67b06dc29e81f48fc20c0b31c6a85667f1bea8c8f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc609e742a4f780f3cb8c34e4dbc4cc40842ee51
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045026"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473654"
 ---
 # <a name="d3dxgetpixelshaderprofile-function"></a>D3DXGetPixelShaderProfile 函式
 
@@ -63,64 +63,18 @@ HLSL 設定檔名稱。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>著色器設定檔</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ps_1_1</td>
-<td>編譯為 ps_1_1 版本。</td>
-</tr>
-<tr class="even">
-<td>ps_1_2</td>
-<td>編譯為 ps_1_2 版本。</td>
-</tr>
-<tr class="odd">
-<td>ps_1_3</td>
-<td>編譯為 ps_1_3 版本。</td>
-</tr>
-<tr class="even">
-<td>ps_1_4</td>
-<td>編譯為 ps_1_4 版本。</td>
-</tr>
-<tr class="odd">
-<td>ps_2_0</td>
-<td>編譯為 ps_2_0 版本。</td>
-</tr>
-<tr class="even">
-<td>ps_2_a</td>
-<td>如同 ps_2_0 設定檔，具有下列可供編譯器使用的其他功能：
-<ul>
-<li> (r # ) 大於或等於22的臨時暫存器數目。</li>
-<li>任意來源 swizzle。</li>
-<li>漸層指示： dsx、dsy。</li>
-<li>預測。</li>
-<li>沒有相依材質讀取限制。</li>
-<li>材質指令數目沒有任何限制。</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>ps_2_b</td>
-<td>如同 ps_2_0 設定檔，具有下列可供編譯器使用的其他功能：
-<ul>
-<li> (r # ) 大於或等於32的臨時暫存器數目。</li>
-<li>材質指令數目沒有任何限制。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>ps_3_0</td>
-<td>編譯為 ps_3_0 版本。</td>
-</tr>
-</tbody>
-</table>
+
+| 著色器設定檔 | Description | 
+|----------------|-------------|
+| ps_1_1 | 編譯為 ps_1_1 版本。 | 
+| ps_1_2 | 編譯為 ps_1_2 版本。 | 
+| ps_1_3 | 編譯為 ps_1_3 版本。 | 
+| ps_1_4 | 編譯為 ps_1_4 版本。 | 
+| ps_2_0 | 編譯為 ps_2_0 版本。 | 
+| ps_2_a | 如同 ps_2_0 設定檔，具有下列可供編譯器使用的其他功能：<ul><li> (r # ) 大於或等於22的臨時暫存器數目。</li><li>任意來源 swizzle。</li><li>漸層指示： dsx、dsy。</li><li>預測。</li><li>沒有相依材質讀取限制。</li><li>材質指令數目沒有任何限制。</li></ul> | 
+| ps_2_b | 如同 ps_2_0 設定檔，具有下列可供編譯器使用的其他功能：<ul><li> (r # ) 大於或等於32的臨時暫存器數目。</li><li>材質指令數目沒有任何限制。</li></ul> | 
+| ps_3_0 | 編譯為 ps_3_0 版本。 | 
+
 
 
 

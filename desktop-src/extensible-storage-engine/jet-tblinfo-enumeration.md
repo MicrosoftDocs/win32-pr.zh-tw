@@ -85,7 +85,7 @@ public enum JET_TblInfo
 </tr>
 <tr class="even">
 <td></td>
-<td>Name</td>
+<td>名稱</td>
 <td>抓取資料表的名稱。 使用這個選項搭配 <a href="dn292204(v=exchg.10).md">JetGetTableInfo (JET_SESID、JET_TABLEID、字串、JET_TblInfo) </a>。</td>
 </tr>
 <tr class="odd">

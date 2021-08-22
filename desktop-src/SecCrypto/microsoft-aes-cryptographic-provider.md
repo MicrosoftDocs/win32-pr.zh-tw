@@ -4,12 +4,12 @@ ms.assetid: a01bc5db-17b9-44fe-adf8-0c2954fcd369
 title: Microsoft AES 密碼編譯提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2449c53cb828a94c8dd596133c3a8c21c9b0388
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 2ead697543c9846bbc47b61bd26d721811569b2bcea6584b75fad031d9451195
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683168"
 ---
 # <a name="microsoft-aes-cryptographic-provider"></a>Microsoft AES 密碼編譯提供者
 

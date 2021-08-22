@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102520
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 56f52cc945016b5d70029bda252821f4dbaf8f8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 653256e325b45912d91dfcf5bf310591b893ff6acd72c95c38536a00b3319544
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947026"
 ---
 # <a name="esentreadverifyfailureexception-members"></a>EsentReadVerifyFailureException 成員
 

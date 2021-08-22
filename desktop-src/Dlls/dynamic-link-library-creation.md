@@ -4,12 +4,12 @@ ms.assetid: b66ea0e8-84c3-40be-bf02-765b9dd61f9f
 title: Dynamic-Link 程式庫建立
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c12d296b1494cfcedcdfa823eb1a3dd4d408427a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89047e24fe61483b3ac807b59abc114206a00f9df18566b5fb02947268fbd792
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650448"
 ---
 # <a name="dynamic-link-library-creation"></a>Dynamic-Link 程式庫建立
 
@@ -17,7 +17,7 @@ ms.locfileid: "103691567"
 
 ## <a name="creating-source-files"></a>建立原始檔
 
-DLL 的原始程式檔包含匯出的函式和資料、內建函式和資料，以及 DLL 的選擇性 [進入點函數](dynamic-link-library-entry-point-function.md) 。 您可以使用任何支援建立以 Windows 為基礎之 Dll 的開發工具。
+DLL 的原始程式檔包含匯出的函式和資料、內建函式和資料，以及 DLL 的選擇性 [進入點函數](dynamic-link-library-entry-point-function.md) 。 您可以使用任何支援建立以 Windows 為基礎之 dll 的開發工具。
 
 如果多執行緒應用程式可能會使用您的 DLL，您應該將 DLL 設為「安全線程」。 您必須同步存取所有 DLL 的全域資料，以避免資料損毀。 您也必須確定您只連結至安全線程的程式庫。 例如，Microsoft Visual C++ 包含多個版本的 C 執行時間程式庫，其中一個不是安全線程，而兩個是。
 

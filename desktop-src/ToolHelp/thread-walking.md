@@ -9,12 +9,12 @@ keywords:
 - 執行緒，列舉執行緒
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32eff584aedaa3f6124cc358a4ee9d2a94962843
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ec4f75f4690be05a7703dab80965fb41035da03cb21f244a4b5a9039a4a61ef0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513848"
 ---
 # <a name="thread-walking"></a>執行緒走
 
@@ -27,7 +27,7 @@ ms.locfileid: "106967683"
 > [!Note]  
 > [**THREADENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-threadentry32)的 **th32ThreadID** 成員內容是執行緒識別碼，可供任何需要執行緒識別碼的函式使用。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -36,6 +36,6 @@ ms.locfileid: "106967683"
 [遍歷執行緒清單](traversing-the-thread-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

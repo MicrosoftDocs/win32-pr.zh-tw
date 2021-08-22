@@ -3,7 +3,7 @@ title: Scale 元素
 description: 透過群組 SizeDefinition 組，表示一組控制項的大小和配置喜好設定。
 ms.assetid: feef3721-c779-4c64-96c6-9d951ac32277
 keywords:
-- 縮放元素視窗功能區
+- 調整元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e3ba922b65525b92189673020f7155275bdf49f9
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 580cfad910a727f7e4392489adc8cb8baec9a0bc
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111445009"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630199"
 ---
 # <a name="scale-element"></a>Scale 元素
 
@@ -39,10 +39,10 @@ ms.locfileid: "111445009"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

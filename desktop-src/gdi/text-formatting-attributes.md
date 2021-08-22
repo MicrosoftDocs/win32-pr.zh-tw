@@ -4,12 +4,12 @@ ms.assetid: fd4d81ee-7f8f-41e8-88a5-d3ed89f4c7bd
 title: Text-Formatting 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d345bfcfe1693a7ff0b25bb323615dffe221ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e74cb8d30a0eb9b44f05be611da963b413e8798b81da2a334dc083bd3cc1651
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104569991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015278"
 ---
 # <a name="text-formatting-attributes"></a>Text-Formatting 屬性
 

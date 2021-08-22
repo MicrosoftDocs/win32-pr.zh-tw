@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 1ae74c813b4d95cc9d02694ca9edb5c030e4f342
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5bdad1db29630dcf029aab4fbc3812cfc83e0c69dab33c31edb73e21b297b9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119577168"
 ---
 # <a name="iscarddatabase-interface"></a>ISCardDatabase 介面
 
-\[**ISCardDatabase** 介面可用於 [需求] 區段中指定的作業系統。 它無法在 Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
+\[**ISCardDatabase** 介面可用於 [需求] 區段中指定的作業系統。 它無法用於 Windows Server 2003 Service Pack 1 (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
 
 **ISCardDatabase** 介面提供執行 [*智慧卡*](../secgloss/s-gly.md)[*資源管理員的*](../secgloss/r-gly.md)資料庫作業的方法。 這些作業包括列出已知的智慧卡、 [*讀取*](../secgloss/r-gly.md)器和讀取器群組，以及抓取智慧卡和其 [*主要服務提供者*](../secgloss/p-gly.md)所支援的介面。
 
@@ -69,8 +69,8 @@ ms.locfileid: "106971002"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Scardmgr。h</dt> </dl>   |

@@ -3,7 +3,7 @@ title: GroupSizeDefinition 元素
 description: 表示自訂範本中控制項群組的版面配置大小。
 ms.assetid: c0e20c80-16af-41d5-81e1-0dc32e92e3fa
 keywords:
-- GroupSizeDefinition 元素視窗功能區
+- GroupSizeDefinition 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 650301a29ace2c6df9316a315d4cdbad448e5573
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: dc3184f18bf692c333d7088ade79ff4ac5360f1a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443379"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631356"
 ---
 # <a name="groupsizedefinition-element"></a>GroupSizeDefinition 元素
 
@@ -39,10 +39,10 @@ ms.locfileid: "111443379"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

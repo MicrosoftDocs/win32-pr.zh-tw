@@ -4,12 +4,12 @@ ms.assetid: c661e018-f8c7-40bf-ab5a-211a3b9300a3
 title: XMU565 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6125ef46af422e0331929126866cd5473cb88afe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f767af5c023d773cddb2858943cff7f8d5902a7751f5975d234a7c52fd12082
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948798"
 ---
 # <a name="xmu565-extensions"></a>XMU565 延伸模組
 

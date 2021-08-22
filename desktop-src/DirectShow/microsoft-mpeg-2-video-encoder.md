@@ -4,12 +4,12 @@ ms.assetid: d52c1299-0641-405c-8960-edd738b56823
 title: 'Microsoft MPEG-2 影片編碼器 (Wmcodecdsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c96db605586c6abf0f51537689a9365df2842c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c7f7b70b9a754aefda3158ae355eb84c24b71b7e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973140"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474714"
 ---
 # <a name="microsoft-mpeg-2-video-encoder"></a>Microsoft MPEG 2 影片編碼器
 
@@ -108,7 +108,7 @@ MPEG-2 影片編碼器可以產生下列種類的輸出：
 | [**AVEncCommonMultipassMode**](avenccommonmultipassmode-property.md)                         | 1                                                                | 1                                                                                                                                                                                                                    |
 | [**AVEncCommonQuality**](avenccommonquality-property.md)                                     | 100                                                              | 1—100                                                                                                                                                                                                              |
 | [**AVEncCommonQualityVsSpeed**](avenccommonqualityvsspeed-property.md)                       | 75                                                               | 0-100                                                                                                                                                                                                              |
-| [**AVEncCommonRateControlMode**](avenccommonratecontrolmode-property.md)                     | Cbr                                                              | **eAVEncCommonRateControlMode \_ CBR**<br/> **eAVEncCommonRateControlMode \_ PeakConstrainedVBR**<br/> **eAVEncCommonRateControlMode \_ 品質**<br/>                                                   |
+| [**AVEncCommonRateControlMode**](avenccommonratecontrolmode-property.md)                     | CBR                                                              | **eAVEncCommonRateControlMode \_ CBR**<br/> **eAVEncCommonRateControlMode \_ PeakConstrainedVBR**<br/> **eAVEncCommonRateControlMode \_ 品質**<br/>                                                   |
 | [**AVEncInputVideoSystem**](avencinputvideosystem-property.md)                               | [未指定]                                                      | \_未指定 eAVEncInputVideoSystem<br/> eAVEncInputVideoSystem \_ PAL<br/> eAVEncInputVideoSystem \_ NTSC<br/>                                                                                        |
 | [**AVEncMPVDefaultBPictureCount**](avencmpvdefaultbpicturecount-property.md)                 | 2                                                                | 0-2                                                                                                                                                                                                                |
 | [**AVEncMPVFrameFieldMode**](avencmpvframefieldmode-property.md)                             | 框架模式                                                       |                                                                                                                                                                                                                      |
@@ -177,37 +177,13 @@ MPEG-2 影片編碼器可以產生下列種類的輸出：
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>模式</th>
-<th>屬性</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cbr</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  = <strong>eAVEncCommonRateControlMode_CBR</strong><br/> <a href="avenccommonqualityvsspeed-property.md"><strong>AVEncCommonQualityVsSpeed</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
-</tr>
-<tr class="even">
-<td>以品質為基礎的 VBR</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  = <strong>eAVEncCommonRateControlMode_Quality</strong><br/> <a href="avenccommonquality-property.md"><strong>AVEncCommonQuality</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br/>
-<blockquote>
-[!Note]<br />
-在此模式中，不會使用 <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a> 和 <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a> 屬性。 最低位元速率會假設為零。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>尖峰限制的 VBR</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  = <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br/> <a href="avenccommonmultipassmode-property.md"><strong>AVEncCommonMultipassMode</strong></a> = 1<br/> <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
-</tr>
-</tbody>
-</table>
+
+| [模式] | 屬性 | 
+|------|------------|
+| CBR | <a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  = <strong>eAVEncCommonRateControlMode_CBR</strong><br /><a href="avenccommonqualityvsspeed-property.md"><strong>AVEncCommonQualityVsSpeed</strong></a><br /><a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br /> | 
+| 以品質為基礎的 VBR | <a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  = <strong>eAVEncCommonRateControlMode_Quality</strong><br /><a href="avenccommonquality-property.md"><strong>AVEncCommonQuality</strong></a><br /><a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br /><blockquote>[!Note]<br />在此模式中，不會使用 <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a> 和 <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a> 屬性。 最低位元速率會假設為零。</blockquote><br /> | 
+| 尖峰限制的 VBR | <a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  = <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br /><a href="avenccommonmultipassmode-property.md"><strong>AVEncCommonMultipassMode</strong></a> = 1<br /><a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a><br /><a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br /><a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br /> | 
+
 
 
 
@@ -266,7 +242,7 @@ MPEG-2 影片編碼器可以產生下列種類的輸出：
 
 | 影片系統 | 有效的 GOP 大小 | 預設 GOP 大小 |
 |--------------|-----------------|------------------|
-| Ntsc         | 1-18            | 18 (36 欄位)    |
+| NTSC         | 1-18            | 18 (36 欄位)    |
 | PAL          | 1-15            | 15 (30 個欄位)    |
 
 
@@ -351,7 +327,7 @@ MPEG-2 影片編碼器可以產生下列種類的輸出：
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Home Premium、Windows Vista 旗艦版、Windows 7 Home Premium、Windows 7 Professional、Windows 7 企業版、僅限 Windows 7 旗艦版傳統型 \[ 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windowsvista Home 進階版、Windows vista 旗艦版、Windows 7 家用進階版、Windows 7 專業版、Windows 7 企業版 Windows 7 旗艦版 \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                                                                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl>                                                                                       |
 
@@ -361,7 +337,7 @@ MPEG-2 影片編碼器可以產生下列種類的輸出：
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [**MPEG-2 信號信號媒體類型**](mpeg-2-demultiplexer-media-types.md)

@@ -4,12 +4,12 @@ ms.assetid: 53083966-54cc-4a16-a161-caa663bea7ea
 title: CONTAINS 述詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6c821431bb5f00319fe47414dcce5240775f2ce78335998c1bb30b84dc9fe17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2885187d0dd25f38e6bbf40b3259164f0aa91e05
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117863711"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625284"
 ---
 # <a name="contains-predicate"></a>CONTAINS 述詞
 
@@ -48,9 +48,9 @@ Contains \_ 條件部分必須以單引號括住，以用於片語的單引號�
 <!-- markdownlint-disable MD033 -->
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,7 +66,7 @@ Contains \_ 條件部分必須以單引號括住，以用於片語的單引號�
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -83,7 +83,7 @@ Contains \_ 條件部分必須以單引號括住，以用於片語的單引號�
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -107,7 +107,7 @@ Or, to use a double quote mark:
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -129,7 +129,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -147,7 +147,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -176,7 +176,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -195,7 +195,7 @@ Matches &quot;computer&quot;, &quot;computers&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -218,7 +218,7 @@ Matches &quot;happy&quot;, &quot;happier&quot;,
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102374
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 418e503d98607b7c14f09eae0722a4f0daae559e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b72e2b4daa66a122ee0030c5e707db0c447a9186faab3365fcd8355344f9f88f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104552119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733928"
 ---
 # <a name="esentnotinitializedexception-properties"></a>EsentNotInitializedException 屬性
 

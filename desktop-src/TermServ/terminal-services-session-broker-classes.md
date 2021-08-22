@@ -5,12 +5,12 @@ ms.assetid: cabec269-b8e5-406e-a608-5f3313c4e874
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a573898a21727c53f4586d483b58492573485f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1cae14a57e8b8fedec45b261e142bfdbdbd1691f8df424b9076160f31baa287a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869988"
 ---
 # <a name="remote-desktop-connection-broker-classes"></a>遠端桌面連線代理人類別
 
@@ -30,7 +30,7 @@ ms.locfileid: "104021755"
 [**Win32 \_ SessionBrokerFarmAccount**](win32-sessionbrokerfarmaccount.md)
 </dt> <dd>
 
-[**Win32 \_ SessionBrokerFarmAccount**](win32-sessionbrokerfarmaccount.md)類別無法再供 Windows Server 2012 使用。
+Windows Server 2012 不能再使用 [**Win32 \_ SessionBrokerFarmAccount**](win32-sessionbrokerfarmaccount.md)類別。
 
 </dd> <dt>
 
@@ -93,11 +93,11 @@ ms.locfileid: "104021755"
 > [!Note]  
 > 在 Windows Server 2008 R2 中，終端機服務會話代理人 (TS 會話代理人) 的名稱已變更為 RD 連線代理人。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

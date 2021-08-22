@@ -4,12 +4,12 @@ description: OLE 元件物件模型
 ms.assetid: f3200d81-c2fa-4cc7-bf85-54f6c753a529
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 211c41de8c16eb1cabb1e62f475adbbf603e2c92
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 5de83641250c912efbe92d7181deb52b477af06e2b49598ee63762488a932687
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103933710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805018"
 ---
 # <a name="the-ole-component-object-model"></a>OLE 元件物件模型
 
@@ -25,6 +25,6 @@ AVIFile 程式庫所使用的物件都是 OLE 元件物件模型的一部分。 
 
 大部分的 OLE 介面方法都會傳回使用 **HRESULT** 資料類型定義的結果控制碼。 此資料類型是由嚴重性代碼、內容資訊、設施碼和狀態碼所組成。 傳回結果控制碼，指出 success 的值為零。 非零值表示失敗，而傳回結果控制碼的狀態碼成員會提供其他轉譯的基礎。 如需 OLE 傳回結果控制碼的詳細資訊，請參閱 Ole 程式設計 *人員參考*。
 
- 
+ 
 
- 
+ 

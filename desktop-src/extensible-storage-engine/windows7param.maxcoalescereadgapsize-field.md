@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bbf3dbcc7141b3358d62414f089865ee6f29dc2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cfa436619a376eaf362ab697fc8944f1806a6df91feacc7c399047dd0ba935a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038536"
 ---
 # <a name="windows7parammaxcoalescereadgapsize-field"></a>Windows7Param. MaxCoalesceReadGapSize 欄位
 

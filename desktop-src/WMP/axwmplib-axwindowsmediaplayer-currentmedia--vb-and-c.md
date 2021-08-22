@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3720a36d2a1969c652ed757f31301cf6a9ead706
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 027949872b2ff988fcfcad5a8464d9a48ed69d3389ddbca0ad4f91b2d9e3c8d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098838"
 ---
 # <a name="axwindowsmediaplayercurrentmedia-property"></a>AxWindowsMediaPlayer. currentMedia 屬性
 
@@ -115,10 +115,10 @@ currentMediaLabel.Text = (&quot;Found first media item. Name = &quot; + player.c
 [**IWMPMedia 介面 (VB 和 c # )**](iwmpmedia--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPPlaylist (VB 和 c # )**](iwmpplaylist-item--vb-and-c.md)
+[**IWMPPlaylist (VB 和 c # ) 的專案**](iwmpplaylist-item--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
+[**IWMPSettings (VB 和 c # 的 autoStart )**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> </dl>
 
  

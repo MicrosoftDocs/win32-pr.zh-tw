@@ -4,12 +4,12 @@ description: 設定相依性是指某些專案可以改變或甚至從一個 Pri
 ms.assetid: 9b1f3f49-2a4a-4413-9708-a430011314e6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20f01c8e7bd9a036a53048996ec5a38246471f67
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: a56e05e7b41ecfacf26556cdc7c38fa00087b440e92b476b2d6121f7ee082574
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950458"
 ---
 # <a name="configuration-dependency-in-the-printcapabilities-schema"></a>PrintCapabilities 架構中的設定相依性
 

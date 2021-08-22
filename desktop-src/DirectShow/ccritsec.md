@@ -31,12 +31,12 @@ ms.locfileid: "119872188"
 
 
 
-| Public 成員變數                            | Description                                              |
+| Public 成員變數                            | 描述                                              |
 |----------------------------------------------------|----------------------------------------------------------|
 | [**m \_ currentOwner**](ccritsec-m-currentowner.md) | 擁有線程的執行緒識別碼。                  |
 | [**m \_ lockCount**](ccritsec-m-lockcount.md)       | 此物件上的未完成鎖定數目。              |
 | [**m \_ fTrace**](ccritsec-m-ftrace.md)             | 指定是否要追蹤此鎖定的布林值。 |
-| 公用方法                                     | Description                                              |
+| 公用方法                                     | 描述                                              |
 | [**CCritSec**](ccritsec-ccritsec.md)              | 函式方法。                                      |
 | [**~ CCritSec**](ccritsec--ccritsec.md)            | 函式方法。                                       |
 | [**鎖定**](ccritsec-lock.md)                      | 鎖定重要區段物件。                       |

@@ -3,22 +3,22 @@ title: 影片影像轉換
 description: 影片影像轉換
 ms.assetid: 201ddbfb-567b-4893-b754-569f1e7d8466
 keywords:
-- Windows Media Format SDK、影片影像轉換
+- Windows媒體格式 SDK、影片影像轉換
 - Advanced Systems Format (ASF) 、影片影像轉換
 - ASF (Advanced 系統格式) 、影片影像轉換
 - 影片影像轉換
-- Windows Media 視訊9映射 v2 編解碼器
+- WindowsMedia Video 9 影像 v2 編解碼器
 - 編解碼器，Windows Media 視訊9映射 v2 編解碼器
 - 影片串流，Windows Media 視訊9映射 v2 編解碼器
 - 影片串流，影像轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbfd02628a78196a73750c2c0ff6b9e9c3d6729c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b0a915f34ac9a2dcc00f8bcec739d48051361c1744e8e455166d56238529d9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771238"
 ---
 # <a name="video-image-transitions"></a>影片影像轉換
 
@@ -28,7 +28,7 @@ Windows Media 視訊9映射 v2 編解碼器會將一系列的影像動畫，並�
 
 
 
-| 轉換識別碼                                                                           | Description                                                                                                                                  |
+| 轉換識別碼                                                                           | 描述                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WMT \_ VIDEOIMAGE \_ 轉換 \_ 凸起 \_ 系結**](wmt-videoimage-transition-bow-tie.md)              | 新的影像會顯示在框架相反邊的一組三角形中。                                                                  |
 | [**WMT \_ VIDEOIMAGE \_ 轉換 \_ 圓形**](wmt-videoimage-transition-circle.md)                 | 新的影像會顯示在圓形中。                                                                                                           |
@@ -50,7 +50,7 @@ Windows Media 視訊9映射 v2 編解碼器會將一系列的影像動畫，並�
 
 
 
- 
+ 
 
 每個轉換都是在它自己的主題中完整說明。
 
@@ -64,9 +64,9 @@ Windows Media 視訊9映射 v2 編解碼器會將一系列的影像動畫，並�
 [**WMT \_ VIDEOIMAGE \_ sample2.xml**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

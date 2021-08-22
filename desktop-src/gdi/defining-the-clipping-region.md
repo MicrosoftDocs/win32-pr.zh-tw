@@ -4,12 +4,12 @@ ms.assetid: 4b20f310-98c0-42c1-b3b3-eadf9bb2003c
 title: 定義裁剪區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45e49693c0e94ab9b43af817f80985af98ae2ede
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: caa56c2eb036430b90e3c8f7b6fc0894abdc37306edef77438afae796cb1cc04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115308"
 ---
 # <a name="defining-the-clipping-region"></a>定義裁剪區域
 

@@ -4,12 +4,12 @@ ms.assetid: 8e2ba659-e1f6-42be-afd6-21fc841dc8d3
 title: 設定 ASF 分隔器物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f27885e602dd52012808d330d997f9b7a7e983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7068f2c869f6c73447b3341baee7221cdf8efbacec47ecdfa3a584bfb456f199
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606148"
 ---
 # <a name="configuring-the-asf-splitter-object"></a>設定 ASF 分隔器物件
 
@@ -35,7 +35,7 @@ ASF *分隔器* 物件是 WMContainer 層物件，可剖析 Advanced Systems 格
 
 ## <a name="protected-content-setting"></a>受保護的內容設定
 
-您可以設定 **MFASF \_ 分隔器 \_ WMDRM** 至 [**IMFASFSplitter：： SetFlags**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags)，將分隔器設定為使用封包層級的加密內容。 這會指示分隔器提供 Windows Media 數位 Rights Management (DRM) 所保護之內容的範例。 當設定這個旗標時，分隔器所產生的範例會包含解密媒體資料和重建框架所需的資訊，例如 [**MFSampleExtension \_ PacketCrossOffsets**](mfsampleextension-packetcrossoffsets-attribute.md) 屬性。 這個屬性是包含 **DWORD** s 陣列的 blob。 每個 **DWORD** 都會針對框架提供相對於框架開頭的承載界限。 如果這個屬性不存在，則框架會包含在單一承載中。 一般而言，分隔器所產生的範例包含多個媒體緩衝區，應用程式可以呼叫 [**IMFSample：： ConvertToContiguousBuffer**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer)，將所有緩衝區複製到一個連續的緩衝區。 產生的緩衝區包含框架，而屬性值則包含這個緩衝區的位移。
+您可以設定 **MFASF \_ 分隔器 \_ WMDRM** 至 [**IMFASFSplitter：： SetFlags**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags)，將分隔器設定為使用封包層級的加密內容。 這會指示分隔器提供 Windows 媒體數位 Rights Management (DRM) 所保護之內容的範例。 當設定這個旗標時，分隔器所產生的範例會包含解密媒體資料和重建框架所需的資訊，例如 [**MFSampleExtension \_ PacketCrossOffsets**](mfsampleextension-packetcrossoffsets-attribute.md) 屬性。 這個屬性是包含 **DWORD** s 陣列的 blob。 每個 **DWORD** 都會針對框架提供相對於框架開頭的承載界限。 如果這個屬性不存在，則框架會包含在單一承載中。 一般而言，分隔器所產生的範例包含多個媒體緩衝區，應用程式可以呼叫 [**IMFSample：： ConvertToContiguousBuffer**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer)，將所有緩衝區複製到一個連續的緩衝區。 產生的緩衝區包含框架，而屬性值則包含這個緩衝區的位移。
 
 ## <a name="related-topics"></a>相關主題
 

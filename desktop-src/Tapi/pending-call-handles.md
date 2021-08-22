@@ -4,12 +4,12 @@ ms.assetid: 0a9d9afd-9786-4d9e-b0a2-12c9a1e13887
 title: 暫止的呼叫控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c021ff10f2a1a812c46fb77663ac1a3a3a8d791
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d082c0b9111d6d58debacec01d20ffe9af2d024aafd61b3f1085267e62d3d6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518587"
 ---
 # <a name="pending-call-handles"></a>暫止的呼叫控制碼
 

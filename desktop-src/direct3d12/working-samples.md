@@ -5,12 +5,12 @@ ms.assetid: 4C4475D4-534F-484F-8D60-9ACEA09AC109
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb1b61ec374e21c9173797121ee90ec72e789de8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d6f8bad1d20729f4caa78952feda22378ad37526b33b668e79260ef9658da53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74103620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631879"
 ---
 # <a name="working-samples"></a>工作範例
 
@@ -18,12 +18,12 @@ ms.locfileid: "74103620"
 
 ## <a name="working-samples"></a>工作範例
 
-您可以從 [GitHub/Microsoft/DirectX-Graphics 範例](https://github.com/Microsoft/DirectX-Graphics-Samples)下載以 Visual Studio 2015 專案的形式 (的工作範例) 。
+您可以從[GitHub/Microsoft/DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)下載 Visual Studio 2015) 專案格式的工作範例 (。
 
 > [!Note]  
 > 在此位置提供的完整樣本清單會因新增和更新範例而有所不同。
 
- 
+ 
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "74103620"
 <tr class="header">
 <th>範例標題</th>
 <th>描述</th>
-<th>桌上型</th>
+<th>桌面</th>
 <th>UWP</th>
 <th>逐步解說</th>
 </tr>
@@ -151,7 +151,7 @@ HelloTexture<br />
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -163,9 +163,9 @@ HelloTexture<br />
 [D3D12 程式碼逐步解說-解說](d3d12-code-walk-throughs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

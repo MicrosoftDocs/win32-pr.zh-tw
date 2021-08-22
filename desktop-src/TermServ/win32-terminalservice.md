@@ -44,12 +44,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba5646c6ac9abf41fddc023ad39884e611681a71
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 735b033017958816e8e9a40caea935847104fdcbe3e9acf3128890d88685d09e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867848"
 ---
 # <a name="win32_terminalservice-class"></a>Win32 \_ TerminalService 類別
 
@@ -109,7 +109,7 @@ class Win32_TerminalService : Win32_Service
 
 | 方法                                                                       | 描述                                                                                          |
 |:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
-| [**變更**](win32-terminalservice-change.md)                               | 修改服務。<br/>                                                                       |
+| [**改變**](win32-terminalservice-change.md)                               | 修改服務。<br/>                                                                       |
 | [**ChangeStartMode**](win32-terminalservice-changestartmode.md)             | 修改服務的啟動模式。<br/>                                                     |
 | [**建立**](win32-terminalservice-create.md)                               | 建立新的服務。<br/>                                                                    |
 | [**刪除**](win32-terminalservice-delete.md)                               | 刪除現有的服務。<br/>                                                              |
@@ -236,7 +236,7 @@ class Win32_TerminalService : Win32_Service
 
 若 **為 True**，則服務會在其他自動啟動服務啟動後加上短暫延遲之後啟動。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援此屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2016 和 Windows 10 之前，不支援這個屬性。
 
 這個屬性繼承自 [**Win32 \_ 服務**](/windows/desktop/CIMWin32Prov/win32-service)。
 
@@ -400,7 +400,7 @@ Constraint：接受與 [**Name**](/windows/desktop/CIMWin32Prov/win32-service) �
 限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| service 結構 \| [**服務 \_ 狀態**](/windows/desktop/api/winsvc/ns-winsvc-service_status) \| DwWin32ExitCode" ) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( "結束代碼" ) 
 </dt> </dl>
 
-定義啟動或停止服務時所發生之錯誤的 Windows 錯誤碼。 這個屬性會設定為 **錯誤 \_ 服務 \_ 特定 \_ 錯誤** (1066) 當此類別所代表之服務的唯一錯誤，以及錯誤的相關資訊可在 [**可見於 servicespecificexitcode**](/windows/desktop/CIMWin32Prov/win32-service) 屬性中取得。 服務會將此值設定為在執行時，以及在正常終止時， **不會 \_ 發生錯誤** 。
+Windows 錯誤碼，此錯誤碼會定義啟動或停止服務時所遇到的錯誤。 這個屬性會設定為 **錯誤 \_ 服務 \_ 特定 \_ 錯誤** (1066) 當此類別所代表之服務的唯一錯誤，以及錯誤的相關資訊可在 [**可見於 servicespecificexitcode**](/windows/desktop/CIMWin32Prov/win32-service) 屬性中取得。 服務會將此值設定為在執行時，以及在正常終止時， **不會 \_ 發生錯誤** 。
 
 這個屬性繼承自 [**Win32 \_ BaseService**](/windows/desktop/CIMWin32Prov/win32-baseservice)。
 
@@ -601,7 +601,7 @@ Constraint：接受與 [**Name**](/windows/desktop/CIMWin32Prov/win32-service) �
 限定詞： [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「啟動模式」 ) 
 </dt> </dl>
 
-Windows 基底服務的啟動模式。
+Windows 基礎服務的啟動模式。
 
 <dt>
 

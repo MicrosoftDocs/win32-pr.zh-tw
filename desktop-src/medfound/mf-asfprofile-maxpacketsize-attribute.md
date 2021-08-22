@@ -4,12 +4,12 @@ ms.assetid: c43423c2-a5f2-411c-aa47-802a3c808ad8
 title: 'MF_ASFPROFILE_MAXPACKETSIZE 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e5766ea3321159915b725358b365359f3efc085
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d76a31828c249fa25cf8be605cd480ad434465a1e688ddf993d7e1119cb2f590
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013448"
 ---
 # <a name="mf_asfprofile_maxpacketsize-attribute"></a>MF \_ ASFPROFILE \_ MAXPACKETSIZE 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106974368"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

@@ -105,7 +105,7 @@ _**適用于：** Windows |Windows伺服器_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>

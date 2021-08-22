@@ -4,12 +4,12 @@ ms.assetid: c889dd3f-82d1-4bc3-ac2c-6f468d5b2c7f
 title: 自動資源回收
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f76721df1a3858c9ad97d2f696115fff2eb6d3d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: eec280c0b0ae222cf0c63e136b7643bbd05c1fffa5589ccc4b736dd247a43b1c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730668"
 ---
 # <a name="automatic-resource-reclamation"></a>自動資源回收
 

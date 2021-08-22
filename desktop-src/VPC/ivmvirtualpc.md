@@ -1,6 +1,6 @@
 ---
 title: 'IVMVirtualPC 介面 (VPCCOMInterfaces .h) '
-description: 定義最上層的 Windows Virtual PC 應用程式物件。 所有其他 Windows Virtual PC 介面物件都會透過此物件抓取。
+description: 定義頂層 Windows Virtual PC 應用程式物件。 所有其他 Windows 的 Virtual PC 介面物件都會透過此物件抓取。
 ms.assetid: 519d3f1b-0a72-4c67-a2d9-124fda6c8b7a
 keywords:
 - IVMVirtualPC 介面 Virtual PC
@@ -15,18 +15,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d674fd1cbbe6c51881d15f91f0ebfb20f4f6749
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 69dd5eec832e95b2b93ff0fb0bee026428a937fa277f86ff14ef672bc66e0dd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124648"
 ---
 # <a name="ivmvirtualpc-interface"></a>IVMVirtualPC 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
-定義最上層的 Windows Virtual PC 應用程式物件。 所有其他 Windows Virtual PC 介面物件都會透過此物件抓取。
+定義頂層 Windows Virtual PC 應用程式物件。 所有其他 Windows 的 Virtual PC 介面物件都會透過此物件抓取。
 
 **IVMVirtualPC** 可以使用 [**IVMVirtualPCEvents**](ivmvirtualpcevents.md) 輸出介面，通知用戶端有關事件的資訊。
 
@@ -75,7 +75,7 @@ ms.locfileid: "104025221"
 
 
 
-| 屬性                                                                                   | 存取類型           | Description                                                                                                                                           |
+| 屬性                                                                                   | 存取類型           | 描述                                                                                                                                           |
 |:-------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DefaultVMConfigurationPath**](ivmvirtualpc-defaultvmconfigurationpath.md)<br/>   | 讀取/寫入<br/> | 要搜尋可用虛擬機器組態檔案的預設目錄。<br/>                                                    |
 | [**HostInfo**](ivmvirtualpc-hostinfo.md)<br/>                                       | 唯讀<br/>  | 實體電腦的相關資訊。<br/>                                                                                                   |
@@ -86,7 +86,7 @@ ms.locfileid: "104025221"
 | [**MaximumParallelPortsPerVM**](ivmvirtualpc-maximumparallelportspervm.md)<br/>     | 唯讀<br/>  | 每個虛擬機器的最大平行埠數目。<br/>                                                                                  |
 | [**MaximumSerialPortsPerVM**](ivmvirtualpc-maximumserialportspervm.md)<br/>         | 唯讀<br/>  | 每個虛擬機器的序列埠數目上限。<br/>                                                                                    |
 | [**MinimumMemoryPerVM**](ivmvirtualpc-minimummemorypervm.md)<br/>                   | 唯讀<br/>  | 每個虛擬機器的最小可允許實體記憶體數量（以 mb 為單位）。<br/>                                                       |
-| [**Name**](ivmvirtualpc-name.md)<br/>                                               | 唯讀<br/>  | Windows Virtual PC 應用程式的名稱。<br/>                                                                                            |
+| [**名稱**](ivmvirtualpc-name.md)<br/>                                               | 唯讀<br/>  | Windows Virtual PC 應用程式的名稱。<br/>                                                                                            |
 | [**SearchPaths**](ivmvirtualpc-searchpaths.md)<br/>                                 | 讀取/寫入<br/> | 用來尋找與 Windows Virtual PC 相關聯之檔案的檔案系統路徑。<br/>                                                      |
 | [**SuggestedMaximumMemoryPerVM**](ivmvirtualpc-suggestedmaximummemorypervm.md)<br/> | 唯讀<br/>  | 每個虛擬機器的最大可允許實體記憶體數量（以 mb 為單位），以避免主機上的記憶體不足狀況。<br/> |
 | [**工作**](ivmvirtualpc-tasks.md)<br/>                                             | 唯讀<br/>  | 工作的集合。<br/>                                                                                                                     |
@@ -107,7 +107,7 @@ ms.locfileid: "104025221"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

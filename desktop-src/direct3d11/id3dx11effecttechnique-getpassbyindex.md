@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6af222298cc3d00ad87e5037f9de20139e4fc40
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: efd22cd5e7745b8e5a11018b930f6b544036780b118e9c745b67e730b693cdd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565788"
 ---
 # <a name="id3dx11effecttechniquegetpassbyindex-method"></a>ID3DX11EffectTechnique：： GetPassByIndex 方法
 

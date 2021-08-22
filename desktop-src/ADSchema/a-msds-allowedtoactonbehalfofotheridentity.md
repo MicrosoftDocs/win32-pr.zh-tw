@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45dacd532b1d8a55b3656dc1d65fc1ebd940476c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: cad3ea9795dd89777d390235193ff2663e5b514125cdf539c34dfc85ad1664bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552838"
 ---
 # <a name="ms-ds-allowed-to-act-on-behalf-of-other-identity-attribute"></a>ms DS-允許對等身分的其他身分識別屬性
 
@@ -52,8 +52,8 @@ ms.locfileid: "103845507"
 |------------------------|--------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
-| System-Only            | 對                                                               |
-| 是-單一值       | 對                                                               |
+| System-Only            | 是                                                               |
+| 是-單一值       | 是                                                               |
 | 已編制索引             | 否                                                              |
 | 在通用類別目錄中      | 否                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                       |

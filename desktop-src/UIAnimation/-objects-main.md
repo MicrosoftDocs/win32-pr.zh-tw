@@ -1,19 +1,19 @@
 ---
-title: " (Windows 動畫管理員) 的物件"
-description: Windows 動畫管理員所定義物件的參考檔集。
+title: Windows 動畫管理員) 的物件 (
+description: Windows 動畫管理員所定義之物件的參考檔集。
 ms.assetid: 9b1c3473-14f8-475f-bbf0-ee40c9359e7f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9b68715e540fedb74ec43329873d7f81d6ea07a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0e652d7850ad1408594ef2c014908e4dd36eca8eb7e58e913cbf60078a255e88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867728"
 ---
-# <a name="objects-windows-animation-manager"></a> (Windows 動畫管理員) 的物件
+# <a name="objects-windows-animation-manager"></a>Windows 動畫管理員) 的物件 (
 
-Windows 動畫管理員所定義物件的參考檔集。
+Windows 動畫管理員所定義之物件的參考檔集。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -37,7 +37,7 @@ Windows 動畫管理員所定義物件的參考檔集。
 
 <dl> <dt>
 
-[Windows 動畫參考](windows-animation-reference.md)
+[Windows動畫參考](windows-animation-reference.md)
 </dt> </dl>
 
  

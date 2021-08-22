@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 38e17c5bc5ac32ab3b904456f2d97aa465fca670
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e02550fb40987906e21d588263daed9dc68aa5d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848178"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478244"
 ---
 # <a name="jetupdate-function"></a>JetUpdate 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetupdate-function"></a>JetUpdate 函式
 
@@ -70,109 +70,33 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>傳回碼</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>作業已成功完成。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBufferTooSmall</p></td>
-<td><p>記錄書簽的指定緩衝區不夠大，無法儲存記錄書簽。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errColumnIllegalNull</p></td>
-<td><p>與 JET_errNullInvalid 相同。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDiskFull</p></td>
-<td><p>更新作業需要資料庫檔案成長或記錄檔配置，但是資料庫檔案或記錄檔所在的磁片磁碟機已滿。 或者，資料庫檔案位於 FAT32 格式化的磁片區上，且資料庫檔案已4GBytes，也就是針對 FAT32 的每個檔案限制。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p><strong>WINDOWS XP：</strong>  只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p><a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a>函式中指定的<em>準備</em>參數不是有效的旗標。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errKeyDuplicate</p></td>
-<td><p>此記錄的索引鍵是資料表中已經有另一筆記錄的另一個索引鍵重複的索引鍵，且索引不允許重複。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errKeyTruncated</p></td>
-<td><p>插入或更新的記錄有一或多個索引，而產生的索引鍵會超過允許的大小上限。 因此，作業無法防止金鑰截斷。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errMultiValuedIndexViolation</p></td>
-<td><p>插入或更新的記錄中有一個索引多值資料行，其中有兩個以上的值，在為索引設定的最大長度索引鍵大小中都相同。 如此一來，該記錄在索引中會有兩個相同的專案無效。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNullInvalid</p></td>
-<td><p>要插入之記錄中的一個或多個資料行，或在要取代之記錄的更新狀態為 <strong>Null</strong> ，這違反了這些資料行的定義條件約束。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNullKeyDisallowed</p></td>
-<td><p>定義了一或多個索引，不允許 <strong>Null</strong> 索引鍵，而且所取代之記錄的插入或更新狀態違反了此定義的條件約束。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRecordPrimaryChanged</p></td>
-<td><p>記錄取代作業已更新 primary key。 主鍵資料行的更新必須透過刪除現有的記錄，並使用所需的資料插入新記錄來完成。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p><strong>WINDOWS XP：</strong>  只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>無法完成作業，因為與會話相關聯的實例正在關閉。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>在唯讀交易範圍內嘗試進行更新是不合法的。 「唯讀交易」（read only transaction）是指使用 JET_bitTransactionReadOnly 呼叫 <a href="gg269268(v=exchg.10).md">JetBeginTransaction2</a> 來啟動的交易。</p>
-<p><strong>WINDOWS XP：</strong>  只有 Windows XP 和更新版本才會傳回此錯誤。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errUpdateNotPrepared</p></td>
-<td><p>使用 JET_prepCancel 呼叫<a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a> ，但資料指標不是處於已備妥的狀態。</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errVersionStoreOutOfMemory</p></td>
-<td><p>作業失敗，因為沒有足夠的記憶體可保留有關更新的交易資訊。</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errWriteConflict</p></td>
-<td><p>另一個會話先前已鎖定記錄以進行更新。 此會話嘗試的更新將會失敗。</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>傳回碼</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>作業已成功完成。</p> | 
+| <p>JET_errBufferTooSmall</p> | <p>記錄書簽的指定緩衝區不夠大，無法儲存記錄書簽。</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>無法完成作業，因為與該會話相關聯之實例上的所有活動都不是呼叫 <a href="gg269240(v=exchg.10).md">JetStopService</a>的結果。</p> | 
+| <p>JET_errColumnIllegalNull</p> | <p>與 JET_errNullInvalid 相同。</p> | 
+| <p>JET_errDiskFull</p> | <p>更新作業需要資料庫檔案成長或記錄檔配置，但是資料庫檔案或記錄檔所在的磁片磁碟機已滿。 或者，資料庫檔案位於 FAT32 格式化的磁片區上，且資料庫檔案已4GBytes，也就是針對 FAT32 的每個檔案限制。</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p><p><strong>Windows XP：</strong> 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errInvalidParameter</p> | <p><a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a>函式中指定的<em>準備</em>參數不是有效的旗標。</p> | 
+| <p>JET_errKeyDuplicate</p> | <p>此記錄的索引鍵是資料表中已經有另一筆記錄的另一個索引鍵重複的索引鍵，且索引不允許重複。</p> | 
+| <p>JET_errKeyTruncated</p> | <p>插入或更新的記錄有一或多個索引，而產生的索引鍵會超過允許的大小上限。 因此，作業無法防止金鑰截斷。</p> | 
+| <p>JET_errMultiValuedIndexViolation</p> | <p>插入或更新的記錄中有一個索引多值資料行，其中有兩個以上的值，在為索引設定的最大長度索引鍵大小中都相同。 如此一來，該記錄在索引中會有兩個相同的專案無效。</p> | 
+| <p>JET_errNotInitialized</p> | <p>無法完成作業，因為與會話相關聯的實例尚未初始化。</p> | 
+| <p>JET_errNullInvalid</p> | <p>要插入之記錄中的一個或多個資料行，或在要取代之記錄的更新狀態為 <strong>Null</strong> ，這違反了這些資料行的定義條件約束。</p> | 
+| <p>JET_errNullKeyDisallowed</p> | <p>定義了一或多個索引，不允許 <strong>Null</strong> 索引鍵，而且所取代之記錄的插入或更新狀態違反了此定義的條件約束。</p> | 
+| <p>JET_errRecordPrimaryChanged</p> | <p>記錄取代作業已更新 primary key。 主鍵資料行的更新必須透過刪除現有的記錄，並使用所需的資料插入新記錄來完成。</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在進行還原作業。</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>相同的會話無法同時用於一個以上的執行緒。</p><p><strong>Windows XP：</strong> 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errTermInProgress</p> | <p>無法完成作業，因為與會話相關聯的實例正在關閉。</p> | 
+| <p>JET_errTransReadOnly</p> | <p>在唯讀交易範圍內嘗試進行更新是不合法的。 「唯讀交易」（read only transaction）是指使用 JET_bitTransactionReadOnly 呼叫 <a href="gg269268(v=exchg.10).md">JetBeginTransaction2</a> 來啟動的交易。</p><p><strong>Windows XP：</strong> 只有 Windows XP 和更新版本才會傳回此錯誤。</p> | 
+| <p>JET_errUpdateNotPrepared</p> | <p>使用 JET_prepCancel 呼叫<a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a> ，但資料指標不是處於已備妥的狀態。</p> | 
+| <p>JET_errVersionStoreOutOfMemory</p> | <p>作業失敗，因為沒有足夠的記憶體可保留有關更新的交易資訊。</p> | 
+| <p>JET_errWriteConflict</p> | <p>另一個會話先前已鎖定記錄以進行更新。 此會話嘗試的更新將會失敗。</p> | 
+
 
 
 成功時，資料指標上的開啟更新作業已完成。 如果為數據表定義了自動遞增資料行，就會針對插入的記錄設定這個值。 如果為數據表定義了版本資料行，則會為新插入的記錄初始化其值，或在每次取代記錄時遞增。 所有索引（包括叢集和非叢集索引）都會更新。
@@ -189,34 +113,9 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>程式庫</strong></p></td>
-<td><p>使用 ESENT。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>需要 ESENT.dll。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>程式庫</strong></p> | <p>使用 ESENT。</p> | | <p><strong>DLL</strong></p> | <p>需要 ESENT.dll。</p> | 
+
 
 
 #### <a name="see-also"></a>另請參閱

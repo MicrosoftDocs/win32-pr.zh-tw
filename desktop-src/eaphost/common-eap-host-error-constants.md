@@ -4,12 +4,12 @@ description: 深入瞭解常見的 EAPHost 常數。 請參閱 EAP 方法屬性�
 ms.assetid: 35ea5b31-0a83-47e0-acb4-e90d93c2b490
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 733aa24bda0c3788afdc03828f2a09bdbbe99585
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 6c111032777ccecbf7963922769faa63bc4d98b791d7194683ae3ca2a73f8a8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561948"
 ---
 # <a name="common-eaphost-constants"></a>常見的 EAPHost 常數
 
@@ -38,9 +38,9 @@ EAPhost API 中的要求者、驗證器和對等旗標會使用下列旗標來�
 -   [**EAP 相關的錯誤和資訊常數**](eap-related-error-and-information-constants.md)
 -   [**EAP 憑證 \_ 錯誤常數**](eap-cert-error-constants.md)
 
- 
+ 
 
- 
+ 
 
 
 

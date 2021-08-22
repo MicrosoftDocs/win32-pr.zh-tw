@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8a9aec4d1b2c5237a87fae2c0beab4e8d995db97
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: cdd9158d12ecc29073526833a7a4ca5eec03100558a9ebdc711822c7ca74c9bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949888"
 ---
 # <a name="endloop---vs"></a>endloop-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104373691"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -41,7 +41,7 @@ ms.locfileid: "104373691"
 
 
 
- 
+ 
 
 此指示的運作方式如下所示。
 
@@ -75,9 +75,9 @@ endloop
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

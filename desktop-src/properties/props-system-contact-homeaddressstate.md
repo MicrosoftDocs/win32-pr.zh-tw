@@ -4,18 +4,18 @@ ms.assetid: bbb1961f-7f80-45c1-8bbd-81dc1b6e5944
 title: HomeAddressState
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e2b9de8ad813092dc39f550d8231bdafbf271ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ae6176663aa43b71e861ce5107e1506e79426cbf480c273eeb0de4124930ade
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599758"
 ---
 # <a name="systemcontacthomeaddressstate"></a>HomeAddressState
 
 連絡人的首頁位址狀態名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

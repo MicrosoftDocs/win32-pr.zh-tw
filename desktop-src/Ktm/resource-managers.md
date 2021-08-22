@@ -4,12 +4,12 @@ ms.assetid: c717b731-cf0b-45cb-bbff-695410fcf6ce
 title: 資源管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b2ea9b1cd834daf3bfbca49bf37d3f2c0956344
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33d32d697d58705760002065d005f5927717055f235358c12fd0629de86e14b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870018"
 ---
 # <a name="resource-managers"></a>資源管理員
 

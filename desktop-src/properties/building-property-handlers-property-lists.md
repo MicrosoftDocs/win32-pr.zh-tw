@@ -4,12 +4,12 @@ ms.assetid: b7af0491-2ece-42b5-8eea-32643854632f
 title: 使用屬性清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68dc3f25b1f0223e62a969a5b0846bcbdcaaef9fd93b45c654c367a0c1fc949d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 72289612d61ebfb198ec0f2ee3d4a7d206209e91
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119397818"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477394"
 ---
 # <a name="using-property-lists"></a>使用屬性清單
 
@@ -40,63 +40,17 @@ Prop:[flags]PropertyCanonicalName;[flags]PropertyCanonicalName;
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>FullDetails</td>
-<td>屬性會顯示在 [內容<strong>] 對話方塊的</strong>[<strong>詳細資料</strong>] 索引標籤上。 這是檔案類型支援的完整屬性清單。</td>
-</tr>
-<tr class="even">
-<td>PreviewDetails</td>
-<td>屬性會顯示在 <strong>預覽窗格</strong>中。</td>
-</tr>
-<tr class="odd">
-<td>PreviewTitle</td>
-<td>屬性會顯示在 [ <strong>預覽] 窗格</strong> 的標題區域中，位於專案的縮圖旁邊。 專案的數目上限為3。 如果屬性清單包含的數目超過允許的數目上限，則會忽略其餘的專案。</td>
-</tr>
-<tr class="even">
-<td>TileInfo</td>
-<td>當清單視圖在 <strong>圖</strong> 格視圖模式中時，就會顯示內容。 專案的數目上限為3。 如果屬性清單包含的數目超過允許的數目上限，則會忽略其餘的專案。
-<blockquote>
-[!Note]<br />
-此值存在於 Windows XP 中。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>ExtendedTileInfo</td>
-<td>當清單視圖處於 <strong>擴充的並排</strong> 顯示模式時，會顯示專案的屬性。</td>
-</tr>
-<tr class="even">
-<td>InfoTip</td>
-<td>當使用者將滑鼠停留在專案上時，屬性會顯示在提示中。
-<blockquote>
-[!Note]<br />
-此值存在於 Windows XP 中。
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>QuickTip</td>
-<td>當您很難直接從專案中取得屬性時，例如當必須透過慢速網路連接來存取專案時，就會顯示內容。 建議您在此處指定的屬性（例如類型或大小）不需要開啟檔案資料流程來決定其值。
-<blockquote>
-[!Note]<br />
-此值存在於 Windows XP 中。
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| 值 | 描述 | 
+|-------|-------------|
+| FullDetails | 屬性會顯示在 [內容<strong>] 對話方塊的</strong>[<strong>詳細資料</strong>] 索引標籤上。 這是檔案類型支援的完整屬性清單。 | 
+| PreviewDetails | 屬性會顯示在 <strong>預覽窗格</strong>中。 | 
+| PreviewTitle | 屬性會顯示在 [ <strong>預覽] 窗格</strong> 的標題區域中，位於專案的縮圖旁邊。 專案的數目上限為3。 如果屬性清單包含的數目超過允許的數目上限，則會忽略其餘的專案。 | 
+| TileInfo | 當清單視圖在 <strong>圖</strong> 格視圖模式中時，就會顯示內容。 專案的數目上限為3。 如果屬性清單包含的數目超過允許的數目上限，則會忽略其餘的專案。<blockquote>[!Note]<br />此值存在於 Windows XP 中。</blockquote><br /> | 
+| ExtendedTileInfo | 當清單視圖處於 <strong>擴充的並排</strong> 顯示模式時，會顯示專案的屬性。 | 
+| InfoTip | 當使用者將滑鼠停留在專案上時，屬性會顯示在提示中。<blockquote>[!Note]<br />此值存在於 Windows XP 中。</blockquote><br /> | 
+| QuickTip | 當您很難直接從專案中取得屬性時，例如當必須透過慢速網路連接來存取專案時，就會顯示內容。 建議您在此處指定的屬性（例如類型或大小）不需要開啟檔案資料流程來決定其值。<blockquote>[!Note]<br />此值存在於 Windows XP 中。</blockquote><br /> | 
+
 
 
 

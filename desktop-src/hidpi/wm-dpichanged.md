@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aafbce1e784e1f205f0d32e045785125c1fb5aaa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d77a7d7608e9facc1e0fc6973b19a3d9db36900fa8d550896cc3058389f367bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666378"
 ---
 # <a name="wm_dpichanged-message"></a>WM \_ DPICHANGED 訊息
 
@@ -44,7 +44,7 @@ ms.locfileid: "103685991"
 *wParam* 
 </dt> <dd>
 
-*WParam* 的 [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))包含新的視窗 DPI 的 Y 軸值。 *WParam* 的 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))包含新的視窗 DPI 的 X 軸值。 例如，96、120、144或192。 針對 Windows 應用程式，X 軸和 Y 軸的值是相同的。
+*WParam* 的 [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))包含新的視窗 DPI 的 Y 軸值。 *WParam* 的 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))包含新的視窗 DPI 的 X 軸值。 例如，96、120、144或192。 X 軸和 Y 軸的值對於 Windows 應用程式而言是相同的。
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ ms.locfileid: "103685991"
 
 ## <a name="remarks"></a>備註
 
-這則訊息只適用于每個監視器感知 **\_ \_ \_ DPI \_ 感知** 應用程式的處理常式，或 **\_ \_ 每個 \_ 監視器 \_ 感知執行緒的 DPI 感知** 。 如果您的最上層視窗或進程以 **DPI** **感知或系統 DPI 感知** 的形式執行，則可能會收到特定 DPI 變更的相關資訊，但在這些情況下，可以放心忽略。 如需不同類型感知的詳細資訊，請參閱 [**處理 \_ DPI \_ 感知**](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness) 和 [**DPI \_ 感知**](/windows/desktop/api/windef/ne-windef-dpi_awareness)。 舊版 Windows 需要 DPI 感知才能系結至應用程式的層級。 這些應用程式會使用 **進程 \_ DPI \_ 感知**。 目前，DPI 感知系結至執行緒和個別的視窗，而不是整個應用程式。 這些應用程式會使用 **DPI \_ 感知**。
+這則訊息只適用于每個監視器感知 **\_ \_ \_ DPI \_ 感知** 應用程式的處理常式，或 **\_ \_ 每個 \_ 監視器 \_ 感知執行緒的 DPI 感知** 。 如果您的最上層視窗或進程以 **DPI** **感知或系統 DPI 感知** 的形式執行，則可能會收到特定 DPI 變更的相關資訊，但在這些情況下，可以放心忽略。 如需不同類型感知的詳細資訊，請參閱 [**處理 \_ DPI \_ 感知**](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness) 和 [**DPI \_ 感知**](/windows/desktop/api/windef/ne-windef-dpi_awareness)。 舊版的 Windows 需要 DPI 感知才能系結至應用程式的層級。 這些應用程式會使用 **進程 \_ DPI \_ 感知**。 目前，DPI 感知系結至執行緒和個別的視窗，而不是整個應用程式。 這些應用程式會使用 **DPI \_ 感知**。
 
 調整您的應用程式時，您只需要使用 X 軸或 Y 軸的值，因為它們是相同的。
 
@@ -132,8 +132,8 @@ DPI 的基底值定義為 **使用者 \_ 預設 \_ 畫面 \_ DPI** ，其設定�
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>WinUser。h</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ description: Insert 方法
 ms.assetid: d58cfe50-ace7-4b0f-8539-c2e13a180c96
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74eb6d76c1be9b83b7742255ee5a771ed93c64d8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d94b63da0477ee048239afa34ff57475dcce8f0d1129f4574d6b7b6543d75e49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114628"
 ---
 # <a name="insert-method"></a>Insert 方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "106966240"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 命令。 Insert* *  *Name*， *RefName*， *Before*\_
+*代理程式 ***。 ( "**_CharacterID_*" 的字元 _) 命令。 Insert_ *  *Name*， *RefName*， *Before*\_
 
 *標題*、 *語音、啟用、可見*
 

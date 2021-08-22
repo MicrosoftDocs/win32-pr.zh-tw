@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 084ea334441cb0cf545adaa3d1016f7d02da1b88
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 701a7c72e40b1efe9104d6794fa739c556b0fb4b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106995161"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473744"
 ---
 # <a name="quickaccesstoolbarapplicationdefaults-property"></a>QuickAccessToolbar. s 屬性
 
@@ -39,68 +39,17 @@ ms.locfileid: "106995161"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>元素</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="windowsribbon-element-button.md"><strong>Button</strong></a><br/></td>
-<td>必須至少發生一次。<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-checkbox.md"><strong>相應</strong></a><br/></td>
-<td>必須至少發生一次。<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-combobox.md"><strong>ComboBox</strong></a><br/></td>
-<td>必須至少發生一次。<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 和更新版本。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-dropdowngallery.md"><strong>DropDownGallery</strong></a><br/></td>
-<td>必須至少發生一次。<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 和更新版本。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-inribbongallery.md"><strong>InRibbonGallery</strong></a><br/></td>
-<td>必須至少發生一次。<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 和更新版本。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-splitbuttongallery.md"><strong>SplitButtonGallery</strong></a><br/></td>
-<td>必須至少發生一次。<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 和更新版本。
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-togglebutton.md"><strong>ToggleButton</strong></a><br/></td>
-<td>必須至少發生一次。<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| 元素 | 描述 | 
+|---------|-------------|
+| <a href="windowsribbon-element-button.md"><strong>Button</strong></a><br /> | 必須至少發生一次。<br /><br /> | 
+| <a href="windowsribbon-element-checkbox.md"><strong>CheckBox</strong></a><br /> | 必須至少發生一次。<br /><br /> | 
+| <a href="windowsribbon-element-combobox.md"><strong>ComboBox</strong></a><br /> | 必須至少發生一次。<br /><blockquote>[!Note]<br />Windows 8 和更新版本。</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-dropdowngallery.md"><strong>DropDownGallery</strong></a><br /> | 必須至少發生一次。<br /><blockquote>[!Note]<br />Windows 8 和更新版本。</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-inribbongallery.md"><strong>InRibbonGallery</strong></a><br /> | 必須至少發生一次。<br /><blockquote>[!Note]<br />Windows 8 和更新版本。</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-splitbuttongallery.md"><strong>SplitButtonGallery</strong></a><br /> | 必須至少發生一次。<br /><blockquote>[!Note]<br />Windows 8 和更新版本。</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-togglebutton.md"><strong>ToggleButton</strong></a><br /> | 必須至少發生一次。<br /><br /> | 
+
 
 
 
@@ -152,8 +101,8 @@ Windows 8 和更新版本。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

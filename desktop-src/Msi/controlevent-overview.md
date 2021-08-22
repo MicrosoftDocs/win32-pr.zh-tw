@@ -1,19 +1,19 @@
 ---
-description: 事件事件與 Win32 架構應用程式中的 Microsoft Windows 訊息類似。
+description: 事件事件與以 Win32 為基礎的應用程式中的 Microsoft Windows 訊息類似。
 ms.assetid: ac62bb94-0605-4145-996a-e91fb1a42a77
 title: ControlEvent 總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b92f8662a87bf9040b6a811fc170c25a5cf62ad7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de2736c93a728e2419f2ac9c722be2149e6e3ac681c95428f3383570262eb583
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045138"
 ---
 # <a name="controlevent-overview"></a>ControlEvent 總覽
 
-事件事件與 Win32 架構應用程式中的 Microsoft Windows 訊息類似。 但是，不是使用 [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessage) 函式來建立回呼函式，而是使用函式來接收 windows 訊息和傳送 windows 訊息，而是使用使用者介面 (UI) 安裝程式和 [控制項發行控制項](control-events.md)。 您可以指定其他控制項和安裝程式來訂閱特定的控制項，然後變更訂閱控制項的屬性。 若要將工作控制項新增至對話方塊，UI 的作者會指定在 [ControlEvent 資料表](controlevent-table.md) 中進行事件的發行，並訂閱控制項以在 [EventMapping 資料表](eventmapping-table.md)中進行事件處理。
+事件事件與以 Win32 為基礎的應用程式中的 Microsoft Windows 訊息類似。 但是，不是使用[SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessage)函式來建立回呼函式來接收 Windows 訊息和傳送 Windows 訊息，而是使用使用者介面 (UI) 安裝程式和[控制項發行控制項](control-events.md)。 您可以指定其他控制項和安裝程式來訂閱特定的控制項，然後變更訂閱控制項的屬性。 若要將工作控制項新增至對話方塊，UI 的作者會指定在 [ControlEvent 資料表](controlevent-table.md) 中進行事件的發行，並訂閱控制項以在 [EventMapping 資料表](eventmapping-table.md)中進行事件處理。
 
 安裝程式會將下列事件發行至 [EventMapping 資料表](eventmapping-table.md)中所列的訂閱控制項。 [ProgressBar 控制項](progressbar-control.md)或[佈告欄控制項](billboard-control.md)通常會訂閱 SetProgress，其餘部分則由[文字控制項](text-control.md)訂閱。
 
@@ -41,7 +41,7 @@ ms.locfileid: "103852348"
 
 [SelectionNoItems ControlEvent](selectionnoitems-controlevent.md)
 
-您可以藉由在對話方塊中與 [按鈕控制項](pushbutton-control.md) 或 [核取方塊控制項](checkbox-control.md) 互動，以使用者的意願來發行下列事件。 Checkbox 控制項只能發行 AddLocal、AddSource、Remove、Dataadapter.doaction 和 SetProperty 事件。 有了 Windows Server 2003 和更新版本隨附的 Windows Installer 版本， [SelectionTree 控制項](selectiontree-control.md) 可以發佈 Dataadapter.doaction、ControlEvent 和 SetProperty 事件。 UI 的作者應該會列出 [ControlEvent 資料表](controlevent-table.md)中的 ControlEvent。 安裝程式的 UI 處理常式是這些事件的訂閱者。
+您可以藉由在對話方塊中與 [按鈕控制項](pushbutton-control.md) 或 [核取方塊控制項](checkbox-control.md) 互動，以使用者的意願來發行下列事件。 Checkbox 控制項只能發行 AddLocal、AddSource、Remove、Dataadapter.doaction 和 SetProperty 事件。 使用 Windows Server 2003 和更新版本隨附的 Windows Installer 版本， [SelectionTree 控制項](selectiontree-control.md)可以發行 dataadapter.doaction、ControlEvent 和 SetProperty 事件。 UI 的作者應該會列出 [ControlEvent 資料表](controlevent-table.md)中的 ControlEvent。 安裝程式的 UI 處理常式是這些事件的訂閱者。
 
 [AddLocal ControlEvent](addlocal-controlevent.md)
 
@@ -91,7 +91,7 @@ ms.locfileid: "103852348"
 
 控制事件通常需要在 [*完整的 ui*](f-gly.md) 層級上執行 ui。 大部分的事件處理都不會使用 [*精簡的 ui*](r-gly.md) 或 [*基本 ui*](b-gly.md) ，因為這些層級只會顯示非強制回應對話方塊。 ActionText、AddSource、SetProgress、TimeRemaining 和 ScriptInProgress 事件都是例外狀況，並可在精簡或基本的 UI 中運作。 如需 UI 層級的詳細資訊，請參閱 [消費者介面層級](user-interface-levels.md)。
 
-您可以從[按鈕控制項](pushbutton-control.md)或[核取方塊控制項](checkbox-control.md)發佈 ControlEvent，以執行[自訂動作](custom-actions.md)。 將記錄加入至 [ControlEvent 資料表](controlevent-table.md) ，其中包含對話方塊的名稱和發行 ControlEvent 的控制項。 此控制項應發佈 [Dataadapter.doaction ControlEvent](doaction-controlevent.md) ，通知安裝程式執行自訂動作。 在 Windows XP 或舊版系統上，您無法從 [SelectionTree 控制項](selectiontree-control.md)發佈 ControlEvent 來執行自訂動作。
+您可以從[按鈕控制項](pushbutton-control.md)或[核取方塊控制項](checkbox-control.md)發佈 ControlEvent，以執行[自訂動作](custom-actions.md)。 將記錄加入至 [ControlEvent 資料表](controlevent-table.md) ，其中包含對話方塊的名稱和發行 ControlEvent 的控制項。 此控制項應發佈 [Dataadapter.doaction ControlEvent](doaction-controlevent.md) ，通知安裝程式執行自訂動作。 在 Windows XP 或舊版系統上，您無法從[SelectionTree 控制項](selectiontree-control.md)發佈 ControlEvent 來執行自訂動作。
 
 如需有關特定事件的詳細資訊，請參閱[消費者介面參考](user-interface-reference.md)中的標準[事件](control-events.md)清單。
 

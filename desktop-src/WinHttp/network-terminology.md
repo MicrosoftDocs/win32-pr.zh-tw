@@ -1,19 +1,19 @@
 ---
-description: 在開發使用 Microsoft Windows HTTP Services (WinHTTP) 的應用程式時，請務必瞭解下列與一般網路功能相關的概念和術語，尤其是 HTTP 通訊協定。
+description: 當您開發的應用程式使用 Microsoft Windows (WinHTTP) 的 HTTP 服務時，請務必瞭解與一般網路相關的下列概念和術語，尤其是 HTTP 通訊協定。
 ms.assetid: 6ea0c16f-1233-4580-97bb-14e224646857
 title: " (WinHTTP) 的網路術語"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8173b921957a95ebde7f00034c31b2f016b78ab5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bec92d5dd99247fab3ade48760db343983cd7092ea96ac8bd059ed892c9aa42a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643798"
 ---
 # <a name="network-terminology-winhttp"></a> (WinHTTP) 的網路術語
 
-在開發使用 Microsoft Windows HTTP Services (WinHTTP) 的應用程式時，請務必瞭解下列與一般網路功能相關的概念和術語，尤其是 HTTP 通訊協定。
+當您開發的應用程式使用 Microsoft Windows (WinHTTP) 的 HTTP 服務時，請務必瞭解與一般網路相關的下列概念和術語，尤其是 HTTP 通訊協定。
 
 -   [HTTP 交易](#http-transactions)
 -   [Proxy 伺服器](#proxy-servers)
@@ -62,7 +62,7 @@ WinHTTP API 包含 proxy 設定工具，可讓您為 WinHTTP 提供任何會攔�
 
 驗證是 HTTP proxy 或 HTTP 伺服器在允許存取資源之前，用來驗證使用者登入資訊的處理常式。 在網際網路上使用各種不同的驗證配置。 使用者的名稱和密碼通常會與授權清單進行比較，如果系統偵測到相符項，則會將存取權授與使用者的許可權清單中指定的範圍。
 
-WinHTTP 函數支援 HTTP 會話的伺服器和 proxy 驗證。 WinHTTP 支援下列驗證配置：基本、摘要 (請參閱 [RFC 2617](https://www.ietf.org/rfc/rfc2617.txt)) 、 [NTLM 驗證](../com/ntlmssp.md)、Negotiate/ [Kerberos](../com/kerberos-v5-protocol.md)和 Microsoft Passport 1.4。 如需驗證的詳細資訊，以及在 Microsoft Visual C++ 應用程式中使用驗證的範例，請參閱 [WinHTTP 中的驗證](authentication-in-winhttp.md)。
+WinHTTP 函數支援 HTTP 會話的伺服器和 proxy 驗證。 WinHTTP 支援下列驗證配置：基本、摘要 (請參閱 [RFC 2617](https://www.ietf.org/rfc/rfc2617.txt)) 、 [NTLM 驗證](../com/ntlmssp.md)、Negotiate/ [Kerberos](../com/kerberos-v5-protocol.md)和 Microsoft Passport 1.4。 如需驗證的詳細資訊，以及在 Microsoft Visual C++ 應用程式中使用驗證的範例，請參閱[WinHTTP 中的驗證](authentication-in-winhttp.md)。
 
 如需有關基本和 Passport 驗證之安全性考慮的詳細資訊，請參閱 [WinHTTP 安全性考慮](winhttp-security-considerations.md)。
 

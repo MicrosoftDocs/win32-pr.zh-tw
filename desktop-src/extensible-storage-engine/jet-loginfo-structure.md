@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e60a95394c3ba70a01097d7faf1e31ab4c1da835b7dcefa64f26259be9ab0847
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 167b097426e27785ad47b8295fb728d1537dbd47
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979878"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479604"
 ---
 # <a name="jet_loginfo-structure"></a>JET_LOGINFO 結構
 
@@ -70,30 +70,9 @@ typedef struct {
 
 ### <a name="requirements"></a>規格需求
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>用戶端</strong></p></td>
-<td><p>需要 Windows Vista 或 Windows XP。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>標頭</strong></p></td>
-<td><p>宣告于 Esent. h 中。</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>實作為 <strong>JET_LOGINFO_W</strong> (Unicode) 和 <strong>JET_LOGINFO_A</strong> (ANSI) 。</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>用戶端</strong></p> | <p>需要 Windows Vista 或 Windows XP。</p> | | <p><strong>伺服器</strong></p> | <p>需要 Windows server 2008 或 Windows server 2003。</p> | | <p><strong>標頭</strong></p> | <p>宣告于 Esent. h 中。</p> | | <p><strong>Unicode</strong></p> | <p>實作為 <strong>JET_LOGINFO_W</strong> (Unicode) 和 <strong>JET_LOGINFO_A</strong> (ANSI) 。</p> | 
+
 
 
 ### <a name="see-also"></a>另請參閱

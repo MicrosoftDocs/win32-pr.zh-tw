@@ -4,12 +4,12 @@ ms.assetid: 2A975374-F224-49F9-9AB8-FF983DEB0B01
 title: 列印檔案套件 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e81923f31724813ca6529ad2dc9720339641b5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e6a75244c6ce648d4fa56751d261a624aa1dc6540e2fd051c3ed07b31d83bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600316"
 ---
 # <a name="print-document-package-api"></a>列印檔案套件 API
 
@@ -33,7 +33,7 @@ Windows Store 應用程式列印 API 適用于 Windows 8 和更新版本的 Wind
 
 ## <a name="see-also"></a>另請參閱
 
-如需從以 JavaScript 和 HTML 撰寫的 Windows Store 應用程式進行列印的詳細資訊，請參閱 [使用 javascript 和 html) 列印 (Windows store 應用程式 ](/previous-versions/windows/apps/hh465225(v=win.10))。 如需從以 c #、Microsoft Visual Basic 或 c + + 和 XAML 撰寫的 Windows Store 應用程式進行列印的詳細資訊，請參閱 [使用 c) 列印 (Windows store 應用程式 ](/previous-versions/windows/apps/hh465196(v=win.10))。
+如需從 Windows 儲存以 javascript 和 html 撰寫的應用程式進行列印的詳細資訊，請參閱[使用 javascript 和 html) 列印 (Windows 儲存應用程式](/previous-versions/windows/apps/hh465225(v=win.10))。 如需從 Windows 儲存以 c #、Microsoft Visual Basic 或 c + + 和 XAML 撰寫之應用程式的詳細資訊，請參閱[使用 c)  (Windows 儲存應用程式的列印](/previous-versions/windows/apps/hh465196(v=win.10))。
 
  
 

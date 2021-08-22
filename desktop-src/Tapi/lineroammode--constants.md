@@ -4,12 +4,12 @@ ms.assetid: af0eb263-8deb-44ab-8acb-00e4ff7930ab
 title: 'LINEROAMMODE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3e40c40291567e7800b53070f882bf1e0bdac93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9c896b2d716dc1d6e57b9a2aec52c335657669a5bd0f0c20a904d725a7f5bb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514817"
 ---
 # <a name="lineroammode_-constants"></a>LINEROAMMODE \_ 常數
 

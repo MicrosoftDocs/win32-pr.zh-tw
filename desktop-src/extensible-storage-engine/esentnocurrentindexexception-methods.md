@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102361
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9acb8ad2738822e419f364a33fd2bb6252edda9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c21ce9765ec0c30d5301507c647960f855765943dd830266c1c0bcd3e3f68f8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040516"
 ---
 # <a name="esentnocurrentindexexception-methods"></a>EsentNoCurrentIndexException 方法
 

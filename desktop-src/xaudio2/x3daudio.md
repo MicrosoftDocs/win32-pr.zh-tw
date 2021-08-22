@@ -4,12 +4,12 @@ ms.assetid: 46be100f-17de-8db1-59d3-1dc2e75d1801
 title: X3DAudio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a4abd54b0d8727baadbc21eb31d83faf72c6d60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce6ff568df3475d8ad141299ea1c4379f17b895638d8ba0c9f945371d0fbc2bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805478"
 ---
 # <a name="x3daudio"></a>X3DAudio
 

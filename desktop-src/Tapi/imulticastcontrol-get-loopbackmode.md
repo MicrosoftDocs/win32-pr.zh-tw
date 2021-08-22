@@ -4,16 +4,16 @@ ms.assetid: 2499c108-f70b-4afe-aa2b-2376c95b84bd
 title: 'IMulticastControl：： get_LoopbackMode 方法 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 203d68f5b620ddf5e5ce7a36e4f8b85820deab2d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87a3f9a600ea64bacf7cafdc5071df264d79079adfefd4a771eea9569fcbb092
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013018"
 ---
 # <a name="imulticastcontrolget_loopbackmode-method"></a>IMulticastControl：： get \_ LoopbackMode 方法
 
-\[**取得 \_LoopbackMode** 無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**取得 \_LoopbackMode** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ LoopbackMode** 方法會取得多播回送模式。
 

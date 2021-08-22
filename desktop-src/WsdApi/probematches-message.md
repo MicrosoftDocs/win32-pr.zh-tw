@@ -4,12 +4,12 @@ ms.assetid: 58d3d016-ae29-4090-9b88-e1125db59c95
 title: ProbeMatches 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfd856cda51d558073585f41f3db23c75fea7f17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa395557aac7c67a82163066cf1bfbb854348e1c
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989432"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627864"
 ---
 # <a name="probematches-message"></a>ProbeMatches 訊息
 
@@ -78,15 +78,15 @@ ProbeMatches 訊息具有下列焦點點。
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>對焦點</th>
 <th>XML</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -137,7 +137,7 @@ ProbeMatches 訊息具有下列焦點點。
 
 <dl> <dt>
 
-[探索和中繼資料交換訊息](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [探查訊息](probe-message.md)

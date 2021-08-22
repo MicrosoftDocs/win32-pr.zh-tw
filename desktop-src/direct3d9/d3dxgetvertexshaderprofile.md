@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 70d6cdf79fdd91e819d54702682515aa3e4810b4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e5c646fb9779ca923480487cb96f184c76eff9ea
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114456"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473624"
 ---
 # <a name="d3dxgetvertexshaderprofile-function"></a>D3DXGetVertexShaderProfile 函式
 
@@ -63,41 +63,14 @@ HLSL 設定檔名稱。
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>著色器設定檔</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>vs_1_1</td>
-<td>編譯為 vs_1_1 版本。</td>
-</tr>
-<tr class="even">
-<td>vs_2_0</td>
-<td>編譯為 vs_2_0 版本。</td>
-</tr>
-<tr class="odd">
-<td>vs_2_a</td>
-<td>如同 vs_2_0 設定檔，具有下列可供編譯器使用的其他功能：
-<ul>
-<li> (r # ) 大於或等於13的臨時暫存器數目。</li>
-<li>動態流程式控制制指令。</li>
-<li>預測。</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>vs_3_0</td>
-<td>編譯為 vs_3_0 版本。</td>
-</tr>
-</tbody>
-</table>
+
+| 著色器設定檔 | Description | 
+|----------------|-------------|
+| vs_1_1 | 編譯為 vs_1_1 版本。 | 
+| vs_2_0 | 編譯為 vs_2_0 版本。 | 
+| vs_2_a | 如同 vs_2_0 設定檔，具有下列可供編譯器使用的其他功能：<ul><li> (r # ) 大於或等於13的臨時暫存器數目。</li><li>動態流程式控制制指令。</li><li>預測。</li></ul> | 
+| vs_3_0 | 編譯為 vs_3_0 版本。 | 
+
 
 
 

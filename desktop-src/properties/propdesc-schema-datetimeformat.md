@@ -4,12 +4,12 @@ ms.assetid: c290fb2e-ef5b-4dea-ba42-7c9e273a89dc
 title: dateTimeFormat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18a0719a5aca399af56a66d0181d6e4b175a520f789de9b5158ba0af5d8efab0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 950f10106d7850f4a5b58aeb165e8cb4cc9ffcd4
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118056093"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629170"
 ---
 # <a name="datetimeformat"></a>dateTimeFormat
 
@@ -78,8 +78,8 @@ ms.locfileid: "118056093"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -104,7 +104,7 @@ ms.locfileid: "118056093"
 <td>預設值。 使用 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shformatdatetimea"><strong>SHFormatDateTime</strong></a>格式化日期時間值。 您可以使用 <em>formatTimeAs</em> 和 <em>formatDateAs</em> 屬性來指定時間和日期的格式。 需要屬性類型為 DateTime。</td>
 </tr>
 <tr class="even">
-<td>Month</td>
+<td>月</td>
 <td>將值格式化為年份的其中一個月份。 要求屬性類型必須是 Int32。 值必須儲存為數值，1代表當年的第一個月。</td>
 </tr>
 <tr class="odd">
@@ -112,7 +112,7 @@ ms.locfileid: "118056093"
 <td>將值格式化為 &quot; 年月 &quot; 。 要求屬性類型必須是 Int32。 您必須儲存此值，讓兩個最高的位元組指定年份，而較低的兩個位元組指定月份。</td>
 </tr>
 <tr class="even">
-<td>Year</td>
+<td>年</td>
 <td>將值格式化為簡單字串。</td>
 </tr>
 </tbody>

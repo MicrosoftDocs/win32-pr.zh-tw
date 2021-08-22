@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e78e3129c60273232c4673a3cf63053f46951f3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8e118aff76c12ddf812ab7516237f00c5321a947fe3f66f290be3ffaa6c50240
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645208"
 ---
 # <a name="teletex-terminal-identifier-attribute"></a>Teletex-終端機-識別碼屬性
 

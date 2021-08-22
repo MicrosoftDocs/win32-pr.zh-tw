@@ -4,18 +4,18 @@ ms.assetid: 8fb33e53-f8cb-46d6-a480-447cce7ea95e
 title: JobTitle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cb5feb4e825a0f4e89a1e8456c968a4263279a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e5e75edcc4c86bb2563bf4a03f740fed1fc6d226d3f156c134b2bca6824cbf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599507"
 ---
 # <a name="systemcontactjobtitle"></a>JobTitle
 
 連絡人的職稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription
