@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5240112c3fef6e358cfbc90638ef867108aabeb4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d427163862d084c4a386fdf47cbd8586cb1a3489b18fb081471fbd31c86854b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601808"
 ---
 # <a name="mrmcreateresourceindexer-function"></a>MrmCreateResourceIndexer 函式
 
@@ -85,7 +85,7 @@ HRESULT HRESULT MrmCreateResourceIndexer(
 *索引子* \[in、out\]
 </dt> <dd>
 
-類型： **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md) \** _
+類型： **[ **MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)\***
 
 資源索引子控制碼的指標。
 
@@ -93,7 +93,7 @@ HRESULT HRESULT MrmCreateResourceIndexer(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果函式 \_ 成功，則為 [正常]，否則為其他值。 使用 winerror.h 中定義的成功 () 或失敗 ()  (宏) ，判斷成功或失敗。
 
@@ -104,7 +104,7 @@ HRESULT HRESULT MrmCreateResourceIndexer(
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2069a274c5d89b3198113985a11a5d8af26fd1a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0122462a3d809b59e4b3b17d5ecf82e342fac06267da7aae2875407b69b44deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730408"
 ---
 # <a name="jet_recordlistcolumnidbookmark-property"></a>JET_RECORDLIST columnidBookmark 屬性
 

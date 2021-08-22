@@ -1,5 +1,5 @@
 ---
-title: 'IWMPNetwork (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPNetwork (VB 和 C ) 介面 (Wmp. h) '
 description: 提供屬性和方法來存取與網路連接品質相關的統計資料，以及指定和取出網路 proxy 設定。IWMPNetwork 介面會公開下列屬性。
 ms.assetid: d385510f-11cf-4a2a-96be-b416cddc3d80
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 301fe5c89d2eb5df3dd4c22927e75a5607e7abd0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93110b25bd7d194c4f1d7c213228512fd8bc6000df15b726e3f32a6e6e79a62a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572448"
 ---
 # <a name="iwmpnetwork-vb-and-c-interface"></a>IWMPNetwork (VB 和 c # ) 介面
 
@@ -64,7 +64,7 @@ ms.locfileid: "106976069"
 
 
 
-| 屬性                                                                                          | 存取類型           | Description                                                                                  |
+| 屬性                                                                                          | 存取類型           | 描述                                                                                  |
 |:--------------------------------------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------|
 | [**頻寬**](wmplibiwmpnetwork-iwmpnetwork-bandwidth--vb-and-c.md)<br/>                 | 唯讀<br/>  | 取得媒體專案目前的頻寬。<br/>                                     |
 | [**位元速率**](wmplibiwmpnetwork-iwmpnetwork-bitrate--vb-and-c.md)<br/>                     | 唯讀<br/>  | 取得所接收的目前位速率。<br/>                                         |
@@ -93,7 +93,7 @@ ms.locfileid: "106976069"
 
 | Object                                                                   | 屬性                                                           |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------|
-| [AxWindowsMediaPlayer 物件](axwindowsmediaplayer-object--vb-and-c.md) | [**network**](axwmplib-axwindowsmediaplayer-network--vb-and-c.md) |
+| [AxWindowsMediaPlayer 物件](axwindowsmediaplayer-object--vb-and-c.md) | [**網路**](axwmplib-axwindowsmediaplayer-network--vb-and-c.md) |
 
 
 
@@ -113,7 +113,7 @@ ms.locfileid: "106976069"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

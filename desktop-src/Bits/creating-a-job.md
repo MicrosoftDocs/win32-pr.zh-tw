@@ -7,18 +7,18 @@ keywords:
 - 傳送工作 BITS，建立
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: 8dddb2427fde43014a31e81f72711ca74e69de34
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0241d855d60178e87f28820f14b39e497f200fe5770933f293257e62b2d1b601
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528887"
 ---
 # <a name="creating-a-job"></a>建立作業
 
 若要建立傳送作業，請呼叫 [**IBackgroundCopyManager：： >batchclient.joboperations.createjob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob) 方法。 在 BITS 建立作業之後，請 [將檔案新增至作業](adding-files-to-a-job.md) ，並視需要 [修改作業的屬性](setting-and-retrieving-the-properties-of-a-job.md) 以供您的應用程式。 若要啟動佇列中的作業，請呼叫 [**IBackgroundCopyJob：： Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume) 方法。
 
-[**>batchclient.joboperations.createjob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob)方法會建立可唯一識別作業的 GUID。 您可以使用 GUID [從傳送佇列中取出工作](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-getjob)。 當您建立作業時所提供的顯示名稱不是唯一的;有一個以上的作業可以使用相同的名稱。
+[**>Batchclient.joboperations.createjob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob)方法會建立可唯一識別作業的 GUID。 您可以使用 GUID [從傳送佇列中取出工作](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-getjob)。 當您建立作業時所提供的顯示名稱不是唯一的;有一個以上的作業可以使用相同的名稱。
 
 BITS 會將佇列中的作業數目限制為300個工作，以及使用者可以建立至60作業的工作數目。 這些限制不適用於系統管理員或服務。 若要變更這些預設限制，請參閱 [群組原則](group-policies.md)。
 
@@ -63,9 +63,9 @@ if (SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Windows 動畫錯誤碼 (Winerror.h .h) '
+title: 'Windows動畫錯誤碼 (Winerror.h .h) '
 description: 如果發生錯誤，Windows 動畫會以 HRESULT 值傳回程序代碼。 本節提供 Windows 動畫特定的錯誤碼清單。 如需一般 COM 錯誤碼的清單，請參閱 COM 錯誤碼。
 ms.assetid: 38f15d61-d415-4c7d-b454-5144fc7c9b1e
 topic_type:
@@ -33,14 +33,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb7c63066690b15ec8fad8ef5b9f74ed5cf2fbc5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44d725874de9c511558cef6ebbe8652905a7f5dac6372230385eaa3253ba3454
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513658"
 ---
-# <a name="windows-animation-error-codes"></a>Windows 動畫錯誤碼
+# <a name="windows-animation-error-codes"></a>Windows動畫錯誤碼
 
 如果發生錯誤，Windows 動畫會以 **HRESULT** 值傳回程序代碼。 本節提供 Windows 動畫特定的錯誤碼清單。 如需一般 COM 錯誤碼的清單，請參閱 [Com 錯誤碼](/windows/desktop/com/com-error-codes)。
 
@@ -343,7 +343,7 @@ ms.locfileid: "106968342"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7、Windows Vista 和 windows Vista \[ 桌面應用程式的平臺更新\]<br/> |
+| 最低支援的用戶端<br/> | Windows 7，僅適用于 Windows vista \[ 桌面應用程式的 Windows vista 和平臺更新\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                       |
 | 標頭<br/>                   | <dl> <dt>Winerror.h。h</dt> </dl>           |
 
@@ -353,7 +353,7 @@ ms.locfileid: "106968342"
 
 <dl> <dt>
 
-[Windows 動畫參考](windows-animation-reference.md)
+[Windows動畫參考](windows-animation-reference.md)
 </dt> </dl>
 
  

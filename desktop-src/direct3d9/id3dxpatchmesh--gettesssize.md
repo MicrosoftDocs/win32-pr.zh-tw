@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ef23f46baca7e05005cee83f6ca765b9a5214b8b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4668f50236684f104aedf0ad9ecad413a583facbc45d5f3fa0331abb5938bf5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493048"
 ---
 # <a name="id3dxpatchmeshgettesssize-method"></a>ID3DXPatchMesh：： GetTessSize 方法
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11147d70db78fe6bf9d02e807bbc6eafe8089a52
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8f344ed907d0d4ccb74c7138e80386fb536056e4b3b21c97ca1776ff3d1bcfe3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106992276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491418"
 ---
 # <a name="gltexcoord1dv-function"></a>glTexCoord1dv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glTexCoord1dv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 紋理座標陣列的指標。

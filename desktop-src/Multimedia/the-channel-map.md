@@ -12,12 +12,12 @@ keywords:
 - 通道訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c87027c74ebddea9b51545d15bfa90e52dee95a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f5d514b5af6df6426db7cc5a313d1c6a52070a49c22a8a04e8cd2a9c34f49d80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688281"
 ---
 # <a name="the-channel-map"></a>通道對應
 
@@ -37,9 +37,9 @@ ms.locfileid: "104092288"
 
 MIDI 系統訊息是 (狀態位元組) 從0xF0 到0xFF 的 MIDI 訊息。 沒有與 MIDI 系統訊息相關聯的通道，因此無法對應。 MIDI 系統訊息會傳送至通道對應中列出的所有 MIDI 輸出裝置。
 
- 
+ 
 
- 
+ 
 
 
 

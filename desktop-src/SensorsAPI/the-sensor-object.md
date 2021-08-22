@@ -4,12 +4,12 @@ ms.assetid: b969a153-d957-4323-bafe-6f8d62b0a627
 title: 感應器物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6034c008edf75b16a8156ab53ff66a418261d965
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01ad666153be31958bb758ca4b504e10591ccbe29c9d37355499c9d22c5aae2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666408"
 ---
 # <a name="the-sensor-object"></a>感應器物件
 

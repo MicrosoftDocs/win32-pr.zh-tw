@@ -4,16 +4,16 @@ description: MoveTo 方法
 ms.assetid: cca2b1b8-0d44-4272-9f0b-f7afd091d802
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d6a7f215de9ea6e323870ec7e10967462ab4174
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 58a245d389bc23d79d9f6cc105fec28ed14f5d511123c1dd113115ff69fc95c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609078"
 ---
 # <a name="moveto-method"></a>MoveTo 方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104023477"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。MoveTo* *  *x、y* \[ *速度*\]
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。MoveTo_ *  *x、y* \[ *速度*\]
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "104023477"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -53,13 +53,13 @@ ms.locfileid: "104023477"
 > [!Note]  
 > 如果您在顯示該字元之前，使用非零值來呼叫 **MoveTo** ，則會傳回失敗狀態，因為非零 [](/windows/desktop/lwef/the-request-object)值表示您嘗試在不顯示該字元時播放動畫。
 
- 
+ 
 
 > [!Note]  
 > *速度* 參數的實際效果可能會根據電腦處理器的速度，以及系統上執行之其他工作的優先順序而有所不同。
 
- 
+ 
 
- 
+ 
 
- 
+ 

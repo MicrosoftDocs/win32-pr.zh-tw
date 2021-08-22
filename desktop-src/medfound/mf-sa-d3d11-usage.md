@@ -4,12 +4,12 @@ ms.assetid: E9A415FA-74BF-4822-BB0E-D8AAA7D73664
 title: 'MF_SA_D3D11_USAGE 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e0609435cf42134f28e8464fd3173412836c8d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c7364b9777d94baa1a6c25aead6631ad6b11dcddc12db83698da04affebe0fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663948"
 ---
 # <a name="mf_sa_d3d11_usage-attribute"></a>MF \_ SA \_ D3D11 \_ 使用方式屬性
 
@@ -49,8 +49,8 @@ ms.locfileid: "104191629"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

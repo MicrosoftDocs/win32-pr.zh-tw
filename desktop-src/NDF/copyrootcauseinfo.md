@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5093d7af6458668a763aa206cacd22a0526aa521
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 98bb09fd9a61da536ddd17a4067838b33d4f86ffb8ee29fb404dc861220a5166
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685828"
 ---
 # <a name="copyrootcauseinfo-function"></a>CopyRootCauseInfo 函式
 
@@ -44,16 +44,16 @@ HRESULT CopyRootCauseInfo(
 *目的地* \[擴展\]
 </dt> <dd>
 
-類型： **[**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo) \** _
+類型： **[ **RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo)\***
 
 要更新的結構。
 
 </dd> <dt>
 
-_Source * \[ in\]
+*來源* \[在\]
 </dt> <dd>
 
-類型： **Const [**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo) \** _
+Type： **Const [**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo) \***
 
 要複製的現有結構。
 
@@ -61,13 +61,13 @@ _Source * \[ in\]
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 可能的傳回值包括（但不限於）下列各項。
 
 
 
-| 傳回碼                                                                                   | Description                                                                 |
+| 傳回碼                                                                                   | 描述                                                                 |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 作業成功。<br/>                                         |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | 未正確提供一或多個參數。<br/>          |
@@ -83,8 +83,8 @@ _Source * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>Ndattributils。h</dt> </dl> |
 
 

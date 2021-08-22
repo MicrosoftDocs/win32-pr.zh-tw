@@ -4,12 +4,12 @@ description: 此效果會將 Alpha 遮罩套用至影像。 它有兩個輸入�
 ms.assetid: fddad107-ec70-3a24-f4ae-9dc4f3716536
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87669608ab75ab7a655c072e174dbcd19df4bb39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed4c9c205f7f19c3fa43d95ee92a70d7d43ed709b40c924165833fab7190e3b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570548"
 ---
 # <a name="alpha-mask-effect"></a>Alpha 遮罩效果
 
@@ -27,8 +27,8 @@ ms.locfileid: "104106560"
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
-| 最低支援的伺服器 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects \_ 2。h                                  |
 | 程式庫                  | d2d1 .lib，dxguid .lib                              |
 

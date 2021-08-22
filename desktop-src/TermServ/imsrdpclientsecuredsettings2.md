@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8ceaf322b51a4b619f8d73a898c444706d61f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da6ebbc3ef1c9f3fa264e4470377d38efb60fa3f4a38e4f7fe15f502139ef5fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574078"
 ---
 # <a name="imsrdpclientsecuredsettings2-interface"></a>IMsRdpClientSecuredSettings2 介面
 
@@ -39,9 +39,9 @@ ms.locfileid: "106969160"
 
 
 
-| 屬性                                                   | 存取類型           | Description                                                                                                          |
+| 屬性                                                   | 存取類型           | 描述                                                                                                          |
 |:-----------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------|
-| [**Pcb**](imsrdpclientsecuredsettings2-pcb.md)<br/> | 讀取/寫入<br/> | 指定 preconnection BLOB (PCB) 設定，以在連接到伺服器之前使用。<br/> |
+| [**PCB**](imsrdpclientsecuredsettings2-pcb.md)<br/> | 讀取/寫入<br/> | 指定 preconnection BLOB (PCB) 設定，以在連接到伺服器之前使用。<br/> |
 
 
 

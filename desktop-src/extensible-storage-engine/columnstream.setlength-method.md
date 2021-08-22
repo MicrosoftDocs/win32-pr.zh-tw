@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fccf32d6494427811c3db8a2d2f4b71a2909a733
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5394341f097ad142398afa9ef40b848ee1ac5a33ecbe3d12bcf26b06e8022dfe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670008"
 ---
 # <a name="columnstreamsetlength-method"></a>ColumnStream. SetLength 方法
 
@@ -60,7 +60,7 @@ public override void SetLength(
 
 #### <a name="parameters"></a>參數
 
-  - value  
+  - 值  
     類型： [Int64](/dotnet/api/system.int64)  
     
     需要的長度（以位元組為單位）。

@@ -5,12 +5,12 @@ ms.assetid: 9c22dcfa-f8ee-4570-9a29-23a690587de8
 title: 'R (電話語音 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 095274faa4648310c9d72f6f90c3dfa021ec61df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7dabd928fb482161d5e491608b35d9ac926df7b32aa0a8357337f77ba622679
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659938"
 ---
 # <a name="r-telephony-api"></a>R (電話語音 API) 
 

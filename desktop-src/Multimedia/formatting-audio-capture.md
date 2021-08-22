@@ -6,12 +6,12 @@ keywords:
 - capSetAudioFormat 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5f53553804aab401a9c2a4ada5dc9ee39170269
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 36acf1f98bcb6ea5d6786264406c28da78e909e3e57c5d796eac080139229f77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496378"
 ---
 # <a name="formatting-audio-capture"></a>格式化音訊捕獲
 
@@ -42,9 +42,9 @@ capSetAudioFormat(hWndC, &wfex, sizeof(WAVEFORMATEX));
 [使用影片捕獲](using-video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

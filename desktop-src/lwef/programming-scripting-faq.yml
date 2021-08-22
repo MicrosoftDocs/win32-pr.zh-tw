@@ -5,12 +5,12 @@ metadata:
   ms.assetid: 84078c5b-7b04-48fa-9d0a-d95393c323eb
   ms.topic: article
   ms.date: 05/31/2018
-  ms.openlocfilehash: f3e9604bdc6bcd3871cbd931fb22b16400764dbd
-  ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+  ms.openlocfilehash: 2465e4a347a82ec892b5f22e32cc11809a6d9c86ba1162212ae82e04294e4fef
+  ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 07/07/2021
-  ms.locfileid: "113483645"
+  ms.lasthandoff: 08/11/2021
+  ms.locfileid: "119555858"
 title: 程式設計腳本常見問題
 summary: >
   \[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
@@ -95,7 +95,7 @@ sections:
   - question: >
       當我使用連字號 "&" 符號時，會截斷字元在字元的單字批註中的文字周圍文字。
     answer: >
-      這是已知問題。 您可以使用 map 標記來解決這個問題。 例如，若要在字元的字提示字元中顯示 "A & B"，請 \\ 在朗讀語句中使用 "a map =" 和 "=" && " \\ B"。
+      這是已知的問題。 您可以使用 map 標記來解決這個問題。 例如，若要在字元的字提示字元中顯示 "A & B"，請 \\ 在朗讀語句中使用 "a map =" 和 "=" && " \\ B"。
   - question: >
       我的應用程式可讓使用者變更預設字元，當程式完成時，程式會損毀。
     answer: >

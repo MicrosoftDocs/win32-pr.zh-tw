@@ -20,12 +20,12 @@ keywords:
 - 自動播放清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa53a4b9f56a8aa6425f137ef4a8c43bd8ed1454
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c0e32d0f95093d9550c71643330267d59a57f56db7e0d666274a492ac29b2c58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507168"
 ---
 # <a name="using-auto-playlists-to-organize-content-in-the-library"></a>使用自動播放清單來組織文件庫中的內容
 
@@ -39,7 +39,7 @@ ms.locfileid: "104507300"
 4.  將播放清單的 **WM/ContentDistributor** 屬性設定為內容轉銷商金鑰名稱。
 5.  將播放清單的 [ **>synconly** ] 屬性設定為 [true]。
 
-下列 JScript 範例程式碼顯示的函式會將名為「我的最愛點擊次數」的自動播放清單新增至程式庫中的 Proseware 節點：
+下列 JScript 程式碼範例所示範的函式會將名為「我的最愛點擊次數」的自動播放清單新增至程式庫中的 Proseware 節點：
 
 
 ```C++
@@ -81,9 +81,9 @@ function AddWPL()
 [**使用程式庫**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

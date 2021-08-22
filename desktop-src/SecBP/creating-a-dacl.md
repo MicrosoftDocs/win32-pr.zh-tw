@@ -4,12 +4,12 @@ ms.assetid: f8ec202f-4f34-4123-8f3c-cfc5960b4dc2
 title: 建立 DACL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf8213f6fbb4e2a885655b47437ec464337ea13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6af1c7c43c24c07d3d301642b93db41496f2ff70742ce8e2e95fd3f7364ad765
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119516048"
 ---
 # <a name="creating-a-dacl"></a>建立 DACL
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 5543832eb1ebc3df210237eff71d415de14b2f62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a99a20873e5adc0f0dd0a33f7bc8e765b3c50ebb2fb3d90ad65f14d8fc33c3b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643818"
 ---
 # <a name="iwinhttprequestopen-method"></a>IWinHttpRequest：： Open 方法
 
@@ -83,7 +83,7 @@ HRESULT Open(
 這個方法會使用 *方法* 中指定的 [*HTTP 指令動詞*](glossary.md)，開啟 *Url* 中所識別資源的連接。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -211,10 +211,10 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WinHTTP .lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
 

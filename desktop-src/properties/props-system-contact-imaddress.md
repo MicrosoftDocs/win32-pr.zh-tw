@@ -4,18 +4,18 @@ ms.assetid: 6a82d888-244e-4cb1-acfe-57da73cd0bc2
 title: IMAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b577dc93b894c21c64cf783aab1bc12d19731a73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdf5f71a78c792b07fa25b1ba1fbc15acf8b77fda03d68cc997b05177f1829e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554208"
 ---
 # <a name="systemcontactimaddress"></a>IMAddress
 
 連絡人的立即訊息位址。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

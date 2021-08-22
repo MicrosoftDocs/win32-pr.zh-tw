@@ -10,12 +10,12 @@ keywords:
 - 腳本，發佈嚮導
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20b3b218bbca297be446016335d90fe717a88bba
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 075e5a18b2150e504b6424fae2591ed83fdf707a6a20231b8f1186ddb6f3a67b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555808"
 ---
 # <a name="server-side-design"></a>Server-Side 設計
 
@@ -108,6 +108,6 @@ ms.locfileid: "103933245"
 [註冊服務](pubwiz-reg.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

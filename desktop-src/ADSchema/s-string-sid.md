@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 128e92bfc396c1d1c22a2535e7f9f32f24456cac
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fe7bad231327cd6a605dc07ea515f3ebb87e587744b5873c85a1c3aa51313a15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119530058"
 ---
 # <a name="stringsid-syntax"></a> (Sid) 語法的字串
 

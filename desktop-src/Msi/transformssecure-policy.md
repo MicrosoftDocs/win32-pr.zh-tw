@@ -4,18 +4,18 @@ ms.assetid: 4fe992ed-1e8c-4ee2-a325-138bdc039e44
 title: TransformsSecure 原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69180c797008f34755cfa415c7a76fb5f7721f30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6300a25db8e80003ff2a03afd56b168b9697f92764f16a26e99860c0a27796bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500291"
 ---
 # <a name="transformssecure-policy"></a>TransformsSecure 原則
 
 將 TransformsSecure 原則設定為1，會通知安裝程式在使用者電腦上的本機電腦上，將轉換快取到使用者沒有寫入存取權的位置。 設定此原則與設定 [TRANSFORMSSECURE 屬性](transformssecure.md) 相同，不同之處在于範圍不同。 設定 TransformsSecure 原則會套用至安裝至指定電腦的所有套件。 無論電腦為何，設定 TRANSFORMSSECURE 屬性都會套用至封裝。
 
-此原則的目的是要為安全轉換儲存提供 Windows 2000 的旅遊使用者。 從 Windows Server 2003 開始，此原則的預設值為1。
+此原則的目的是要提供安全轉換存放裝置給 Windows 2000 的旅遊使用者使用。 從 Windows Server 2003 開始，此原則的預設值為1。
 
 設定此原則時， [維護安裝](maintenance-installation.md) 只能使用來自受保護快取的轉換。 當安裝程式發現本機電腦上缺少轉換時，安裝程式會嘗試還原轉換。 為了讓安裝程式還原轉換，安全轉換必須位於安裝套件來源清單中的授權來源。 如需詳細資訊，請參閱 [來源復原](source-resiliency.md)。 如果轉換無法使用或無法載入，維護安裝將會失敗。
 
@@ -23,11 +23,11 @@ ms.locfileid: "103847683"
 
 如需詳細資訊，請參閱 [安全的轉換](secured-transforms.md) 。
 
-Windows Installer 會將 [TransformsAtSource 原則](transformsatsource-policy.md) 解釋為與 TransformsSecure 原則相同的原則。
+Windows安裝程式會將[TransformsAtSource 原則](transformsatsource-policy.md)解釋為與 TransformsSecure 原則相同的原則。
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

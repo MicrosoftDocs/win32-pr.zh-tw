@@ -5,12 +5,12 @@ ms.assetid: 9ba03801-8471-43a9-8e24-114a082d5776
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fde3263925a3b8bf4921dd0dfc95842a5dc5b4c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1f54634112b4a6ac3cc1e981421e4a3e33af5e32bae8ab63ec8690f2df12c7a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657988"
 ---
 # <a name="detecting-the-remote-desktop-services-environment"></a>偵測遠端桌面服務環境
 
@@ -33,7 +33,7 @@ BOOL IsRemoteSession(void)
 
 如需詳細資訊，請參閱 [執行時間連結至 Wtsapi32.dll](run-time-linking-to-wtsapi32-dll.md)。
 
-您不應該使用 **GetSystemMetrics (SM \_ REMOTESESSION)** 來判斷您的應用程式是否正在 Windows 8 和更新版本或 Windows Server 2012 及更新版本的遠端會話中執行，如果遠端會話也可以使用 Microsoft 遠端顯示通訊協定 (RDP) 的 RemoteFX vGPU 增強功能。 在此情況下， **GetSystemMetrics (SM \_ REMOTESESSION)** 會將遠端會話識別為本機會話。
+您不應該使用 **GetSystemMetrics (SM \_ REMOTESESSION)** 來判斷您的應用程式是否在 Windows 8 和更新版本的遠端會話中執行，Windows Server 2012 或在遠端會話也可能使用 Microsoft 遠端顯示通訊協定 RemoteFX RDP (的) vGPU 增強功能。 在此情況下， **GetSystemMetrics (SM \_ REMOTESESSION)** 會將遠端會話識別為本機會話。
 
 您的應用程式可以檢查下列登錄機碼，以判斷會話是否為使用 RemoteFX vGPU 的遠端會話。 如果本機會話存在，此登錄機碼會提供本機會話的識別碼。
 
@@ -106,9 +106,9 @@ IsCurrentSessionRemoteable()
 
 
 
- 
+ 
 
- 
+ 
 
 
 

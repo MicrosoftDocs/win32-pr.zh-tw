@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e527d0388b8aca7239ba1c51dccdce15de3cd8ee
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e40e916f98270c163ed8f299a8466ae66fc2775e466efaeb76a36b0953056eb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493788"
 ---
 # <a name="glgettexgenfv-function"></a>glGetTexGenfv 函式
 
@@ -85,7 +85,7 @@ void WINAPI glGetTexGenfv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *coord* 或 *pname* 不是可接受的值。<br/>                                                                              |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |

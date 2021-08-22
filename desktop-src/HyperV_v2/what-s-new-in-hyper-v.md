@@ -1,19 +1,19 @@
 ---
-description: Hyper-v WMI 提供者的第2版是 Windows 8 和 Windows Server 2012 的新功能。
+description: hyper-v WMI 提供者的第2版是 Windows 8 和 Windows Server 2012 的新功能。
 ms.assetid: A91ACF7A-AFE6-45B6-960C-C4AAA0083735
 title: Hyper-v WMI 提供者有哪些新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce222fd18955e88b9e33e1b706cf81ef5a806917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbaab65c08031c291eb11e8f865b77e256e5600deba060e0f8176ec8d13c3714
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754928"
 ---
 # <a name="whats-new-in-hyper-v-wmi-provider"></a>Hyper-v WMI 提供者的新功能
 
-Hyper-v WMI 提供者的第2版是 Windows 8 和 Windows Server 2012 的新功能。
+hyper-v WMI 提供者的第2版是 Windows 8 和 Windows Server 2012 的新功能。
 
 ## <a name="windows-10-version-1709"></a>Windows 10 (版本 1709)
 
@@ -190,7 +190,7 @@ Hyper-v WMI 提供者的第2版是 Windows 8 和 Windows Server 2012 的新功�
 
 ## <a name="windows-81-and-windows-server-2012-r2"></a>Windows 8.1 與 Windows Server 2012 R2
 
-Windows 8.1 和 Windows Server 2012 R2 包含 Hyper-v WMI 提供者第2版的新功能。
+Windows 8.1 和 Windows Server 2012 R2 包含 hyper-v WMI 提供者第2版的新功能。
 
 -   **IOPSAllocationUnits**、 **IOPSLimit**、 **IOPSReservation** 和 **PersistentReservationsSupported** 屬性已新增至 [**Msvm \_ StorageAllocationSettingData**](msvm-storageallocationsettingdata.md)類別。
 -   **VirtualDiskId** 屬性已新增至 [**Msvm \_ VirtualHardDiskSettingData**](msvm-virtualharddisksettingdata.md)類別。

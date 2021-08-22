@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a7a9da4883e952a0e4eb35ea44a26a7a5b26e9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26bf12b9a43fbe7a83cad324b2bff67421fe98de78e0f9bb36b1cfb755a3f63e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646288"
 ---
 # <a name="sliderondragbegin"></a>滑杆. onDragBegin
 

@@ -11,12 +11,12 @@ keywords:
 - bgn/end 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c25118d4e5050ea22d4b18fab596dfb9c92f562e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c63084b1f05d984fdc19254edaadaca9098d13f974a433f5c6ff7c5d370ec223
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485968"
 ---
 # <a name="porting-bgnend-commands"></a>移植 bgn/end 命令
 
@@ -64,7 +64,7 @@ glEnd();
 
 
 
- 
+ 
 
 如需三角形網格、條紋和風扇之間差異的詳細討論，請參閱 [移植三角形](porting-triangles.md)。
 
@@ -88,17 +88,17 @@ glEnd();
 
 
 
- 
+ 
 
 > [!Note]
 >
 > 如果您使用上述表格中所列的任何 OpenGL 函式，而不是在 [**glBegin**](glbegin.md)  /  [**glEnd**](glend.md)組內，您將會得到無法預期的結果，或可能發生錯誤。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

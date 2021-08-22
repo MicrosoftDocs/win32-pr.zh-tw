@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3adb270d9bbd9194822181314a697fa1d267a127
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 618823054914a609a451d6a0fe77ed6380e2d95982e14158f5965bf3f9c82260
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601918"
 ---
 # <a name="mrmcreateconfig-function"></a>MrmCreateConfig 函式
 
@@ -84,7 +84,7 @@ HRESULT HRESULT MrmCreateConfig(
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

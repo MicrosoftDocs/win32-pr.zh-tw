@@ -7,12 +7,12 @@ keywords:
 - AVIGetFromClipboard 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe46f463f22aa2d015d4ffd8496eb95c37053a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 579f7eeed3b5b7397e248bb1c9090bc086cb715c591ec436af5de7d885551c14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687838"
 ---
 # <a name="using-the-clipboard-with-avi-files"></a>使用具有 AVI 檔案的剪貼簿
 
@@ -25,11 +25,11 @@ ms.locfileid: "103673280"
 > [!Note]  
 > 如果您的應用程式將檔案複製到剪貼簿，而檔案中包含可能變更的資料流程資料，您可以使用 [**AVIMakeFileFromStreams**](/windows/desktop/api/Vfw/nf-vfw-avimakefilefromstreams) 函式來建立複製資料流程的記憶體檔。 然後，您可以將檔案放在剪貼簿上，然後釋出原始檔案而不使它失效。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1144abfc-ca0a-4d59-aa18-b245ba4b1bc3
 title: 在多個顯示器設定上放置物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd7e00104ea2d48e984fa6898f6e07f23509a6fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91e4fc577b549d2adeba4f9b1afe064f1ca1ce82a9cdd902add5b240b2bab43f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558308"
 ---
 # <a name="positioning-objects-on-a-multiple-display-setup"></a>在多個顯示器設定上放置物件
 

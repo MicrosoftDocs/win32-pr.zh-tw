@@ -4,12 +4,12 @@ description: 轉換程式設計語言的 COM 物件語法
 ms.assetid: 021e0085-c720-401e-9637-76580e67b307
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf9d1ec65e5b4ff8f3b61106a4b7a8c9ee3134b3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bb6871046a80537dd39b4c9b502d945e28e46e719e637c4e6a629179dd3c6454
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500078"
 ---
 # <a name="translating-com-object-syntax-for-programming-languages"></a>轉換程式設計語言的 COM 物件語法
 
@@ -25,7 +25,7 @@ ms.locfileid: "103839883"
 
     因為每種程式設計語言都定義了在其他語言中可能沒有對等的概念，所以某些物件的功能可能會以不同的方式運作，或完全無法使用。 例如，Visual Basic 程式設計語言無法辨識 c + + 不帶正負號的資料類型，例如 **unsignedÂ long**。 以 Visual Basic 撰寫的應用程式無法使用接受或傳回未簽署資料類型變數的 COM 方法。
 
-3.  將 COM 物件的已編譯器代碼加入至您的專案。 編譯的程式碼通常包含在 .dll 或 .ocx 檔案中。 編譯器必須要有這個步驟，才能辨識 COM 物件的類別。 新增 COM 物件之後，您的應用程式可以使用其類別和介面。
+3.  將 COM 物件的已編譯器代碼加入至您的專案。 已編譯的程式碼通常包含在 .dll 或 .ocx 檔案中。 編譯器必須要有這個步驟，才能辨識 COM 物件的類別。 新增 COM 物件之後，您的應用程式可以使用其類別和介面。
 
 下列主題描述如何以各種程式設計語言轉譯和使用 COM 物件：
 
@@ -35,9 +35,9 @@ ms.locfileid: "103839883"
 
 這些主題說明 Microsoft developer 產品所提供的轉換工具和流程。 如需有關如何使用其他公司所建立的開發工具來撰寫 COM 物件的指示，請參閱這些開發工具的檔。
 
- 
+ 
 
- 
+ 
 
 
 

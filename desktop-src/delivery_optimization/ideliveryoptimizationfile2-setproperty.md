@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 74113fca944e79e9ecba8f822f73769775631821
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 99ed42acb94f260e229abfe9df428aaa61d3658cb887892b84bb73fd6e7e63e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106986058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635718"
 ---
 # <a name="ideliveryoptimizationfile2setproperty-method"></a>IDeliveryOptimizationFile2：： SetProperty 方法
 
@@ -58,7 +58,7 @@ HRESULT SetProperty(
 
 這個方法會傳回下列 HRESULT 值。
 
-| 傳回碼                  | Description                                                        |
+| 傳回碼                  | 描述                                                        |
 |------------------------------|--------------------------------------------------------------------|
 | **S_OK**                     | Success                                                            |
 | **DO_E_UNKNOWN_PROPERTY_ID** | 未知的屬性識別碼                                                |
@@ -69,9 +69,9 @@ HRESULT SetProperty(
 | 需求 | 值 |
 |---------------------------|----------------------------------------------------------------------------------|
 | 最低支援的用戶端  | Windows 10， \[ 僅限1803版桌面應用程式\]                                   |
-| 最低支援的伺服器  | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]                               |
-| 標頭                    | >deliveryoptimization。h                                                           |
-| Idl                       | >deliveryoptimization .idl                                                         |
+| 最低支援的伺服器  | WindowsServer， \[ 僅限1709版桌面應用程式\]                               |
+| 標頭                    | >Deliveryoptimization。h                                                           |
+| IDL                       | >deliveryoptimization .idl                                                         |
 | 程式庫                   | Dosvc .lib                                                                        |
 | DLL                       | Dosvc.dll                                                                        |
 | IID                       | IID_IDeliveryOptimizationJob2 定義為18995A26-BF59-4ABE-9F8B-D5092D5A2405 |

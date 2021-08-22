@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 95ca3b5a1b81224d99aace1cefb9da0d616eedc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c03702df06aa6faf885ec0d4bda01651f4e6ab2d8163047f0756ef5806b108ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616907"
 ---
 # <a name="listboxsetselectedstate"></a>LISTBOX. setSelectedState
 
@@ -60,7 +60,7 @@ ms.locfileid: "106994068"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

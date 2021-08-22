@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c44a70716fdf19ef40564e359530bbdf5bcdc85
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 995e629b198f804f1d2a2893fb733f60be550ee16f9cf6c58cee919bd1c6281f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103696414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488338"
 ---
 # <a name="glvertex2d-function"></a>glVertex2d 函式
 

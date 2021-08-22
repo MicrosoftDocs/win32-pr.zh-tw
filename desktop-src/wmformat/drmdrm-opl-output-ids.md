@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 802787c5e373c837d639e0225bf650d80c105970
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 265e1015dd31281043d388debc802b390e7dd2d534f426ecbe24402efffd13df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658858"
 ---
 # <a name="drm_opl_output_ids-structure"></a>DRM \_ OPL \_ 輸出 \_ 識別碼結構
 

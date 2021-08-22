@@ -4,12 +4,12 @@ ms.assetid: 97f70742-8f5a-43bd-aef4-a28f1cc94bb2
 title: 'LINEQUEUESTATUS_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22da21ddfb07cee57e45a271e9573c591b4334ec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1cec8159ff836bd8eee76b74d2b8ac2808d188da84d2b6742cb5ddde10f405f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660008"
 ---
 # <a name="linequeuestatus_-constants"></a>LINEQUEUESTATUS \_ 常數
 

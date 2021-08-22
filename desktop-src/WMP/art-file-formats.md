@@ -12,12 +12,12 @@ keywords:
 - 面板封面的檔案格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b525bc316d6a9901e32e51a54b6fb938fa91208
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 95872ef6bf98f690841372471c8170439c2b44ac7d8ee8027e91f0372b4b4437
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573808"
 ---
 # <a name="art-file-formats"></a>美工檔案格式
 
@@ -25,7 +25,7 @@ ms.locfileid: "112262210"
 
 
 
-| 格式                                  | 分機   | 描述                                                                                        |
+| 格式                                  | 延伸模組   | 描述                                                                                        |
 |-----------------------------------------|-------------|----------------------------------------------------------------------------------------------------|
 | 點陣圖                                  | .bmp        | 建議使用點陣圖影像，因為它們提供對確切影像和色彩的最大控制權。 |
 | 圖形交換格式 (GIF)       | .gif        | 用於網頁的壓縮影像格式。 支援動畫 Gif。                            |

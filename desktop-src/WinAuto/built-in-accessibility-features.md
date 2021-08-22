@@ -4,12 +4,12 @@ description: 內建的協助工具功能是作業系統的延伸模組。 無論
 ms.assetid: cb2a6e26-9698-4917-8799-71fb1be91072
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98db87a5c9e54ce0baa74e97e648a82dd4a18e26
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 63a129baf6b3117c3504a11ea5ff026d8dd3b7db08e91bda276f2e2038674c5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645089"
 ---
 # <a name="built-in-accessibility-features"></a>內建協助工具功能
 
@@ -31,7 +31,7 @@ Win32 支援下列內建的協助工具功能。
 
 
 
- 
+ 
 
 [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa)函式會提供內建協助工具功能的程式設計介面。 這項功能在主控台應用程式或其他允許使用者自訂環境的程式中很有用。 **SystemParametersInfo** 函式可以執行下列工作：
 
@@ -56,8 +56,8 @@ Win32 支援下列內建的協助工具功能。
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e64415057eeeb91bfb85b664f5cbb44a66546005
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b5b9eea5c545613f05dbd828a9436175fab6bfc5a05ba2fe5f59588f78da913
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512158"
 ---
 # <a name="ivmguestosterminalserverport-property"></a>IVMGuestOS：： TerminalServerPort 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 遠端桌面服務的埠 (之前稱為「終端機服務」，可在客體作業系統中) 。
 
@@ -86,10 +86,10 @@ HRESULT get_TerminalServerPort(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                 |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                      |
-| Idl<br/>                      | <dl> <dt>IVMGuestOS .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>IVMGuestOS .idl</dt> </dl> |
 | IID<br/>                      | IID \_ IVMGuestOS 定義為99fea0db-4880-499a-b6d8-73dff9bc91be<br/>             |
 
 

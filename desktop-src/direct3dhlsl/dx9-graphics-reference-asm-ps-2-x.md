@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9efedc6011cb63b6465fd2d3ced4a7807c09f4da
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 37bc9709effeb865651ca920a155094946b88753586174ecf6e1ab06eabd2fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489408"
 ---
 # <a name="ps_2_x"></a>ps \_ 2 \_ x
 
@@ -27,7 +27,7 @@ ms.locfileid: "112010871"
 -   [圖元著色器來源暫存器](dx9-graphics-reference-asm-ps-registers-modifiers-source.md) 修飾詞在執行指令之前，會改變來源暫存器資料。
 -   [[來源登錄 Swizzling](dx9-graphics-reference-asm-ps-registers-modifiers-source-register-swizzling.md) ] 可讓您進一步控制要讀取、複製或寫入哪些註冊元件。
 
-## <a name="dynamic-flow-control"></a>動態流程式控制制
+## <a name="dynamic-flow-control"></a>動態 Flow 控制項
 
 [**DynamicFlowControlDepth**](/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0)代表動態流程式控制制指示的嵌套深度：[如果](if-bool---ps.md)[是，則為，如果是 \_](if-comp---ps.md) [ \_ pred](if-pred---ps.md)、[斷路](break---ps.md)和 break，[則 \_](break-comp---ps.md)為。 此值等於 if comp 區塊的嵌套深度 \_ 。 如果此上限為零，則裝置不支援動態流程式控制制指示。
 
@@ -35,7 +35,7 @@ ms.locfileid: "112010871"
 
 裝置支援的臨時暫存器數目。 範圍是從12到32。
 
-## <a name="static-flow-control-nesting-depth"></a>靜態流程式控制制的嵌套深度
+## <a name="static-flow-control-nesting-depth"></a>靜態 Flow 控制項的嵌套深度
 
 [**StaticFlowControlDepth**](/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0)代表兩種靜態流程式控制制指令類型的嵌套深度：[迴圈](loop---ps.md)  / [代表](rep---ps.md)和 [呼叫](call---ps.md)  / [callnz](callnz-bool---ps.md)。 迴圈/rep 指令可以嵌套至 **StaticFlowControlDepth** 深層。 呼叫/callnz 指令可以獨立地嵌套至 **StaticFlowControlDepth** 深層。
 

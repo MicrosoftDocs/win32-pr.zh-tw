@@ -76,12 +76,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7e257fa319b1d1b55562f47c7a3049a694fc27f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a05dee4d08d40874c3d1688b9bcbe9b739f5877a38d417bfeb2b9c7c1553f23e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520870"
 ---
 # <a name="msvm_physical3dgraphicsprocessor-class"></a>Msvm \_ Physical3dGraphicsProcessor 類別
 
@@ -553,7 +553,7 @@ class Msvm_Physical3dGraphicsProcessor : CIM_LogicalDevice
 存取類型：唯讀
 </dt> </dl>
 
-指定是否已啟用介面卡使用 RemoteFX。
+指定是否已啟用介面卡搭配 RemoteFX 使用。
 
 </dd> <dt>
 
@@ -1090,8 +1090,8 @@ class Msvm_Physical3dGraphicsProcessor : CIM_LogicalDevice
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

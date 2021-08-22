@@ -8,17 +8,17 @@ keywords:
 - DirectComposition 功能和優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7ad68f779abc023b7645ed9e66f8af3bf63a140
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe9b67b17869c53b393d8a1f1ecb6230a69322d898f691c21370a5b24befda21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562088"
 ---
 # <a name="why-use-directcomposition"></a>為何要使用 DirectComposition？
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題說明 Microsoft DirectComposition 的功能和優點。 它包含下列區段：
 
@@ -31,7 +31,7 @@ ms.locfileid: "106965252"
 
 ## <a name="create-a-visually-engaging-user-interface"></a>建立視覺效果吸引人的使用者介面
 
-DirectComposition 可讓您結合和製作 [*視覺效果*](directcomposition-glossary.md) ，為您的 Windows 應用程式建立視覺互動的 UI。 它可協助讓您的應用程式具有獨特的外觀和風格，以建立與其他應用程式分開設定的身分識別。
+DirectComposition 可讓您結合和製作 [*視覺效果*](directcomposition-glossary.md)，為您的 Windows 應用程式建立視覺互動的 UI。 它可協助讓您的應用程式具有獨特的外觀和風格，以建立與其他應用程式分開設定的身分識別。
 
 DirectComposition 也可以讓您的應用程式更容易使用。 例如，您可使用視覺層來建立視覺提示和動畫螢幕轉換，而後者可顯示螢幕上項目之間的關聯性。
 
@@ -45,11 +45,11 @@ DirectComposition 是一種高效能點陣圖組合引擎，其使用硬體加�
 
 ## <a name="memory-savings-though-integration-with-dwm"></a>透過與 DWM 整合來節省記憶體
 
-DirectComposition 所建立的組合和動畫會傳遞至 Windows 的內建元件，稱為 [桌面視窗管理員 (DWM) ](/windows/desktop/dwm/dwm-overview) 以轉譯至螢幕。 因此，電腦上不需要任何特殊的呈現元件或 UI 架構。
+DirectComposition 所建立的組合和動畫會傳遞至 Windows 的內建元件，稱為[桌面視窗管理員 (DWM) ](/windows/desktop/dwm/dwm-overview)以轉譯至螢幕。 因此，電腦上不需要任何特殊的呈現元件或 UI 架構。
 
 ## <a name="keep-what-you-already-have"></a>保留您現有的內容
 
-以 Windows 為基礎的現有應用程式中的 UI 程式碼代表大量投資。 在大部分的情況下，DirectComposition 可讓您撰寫現有的 UI 內容，並製作其動畫。 這表示您可以使用 DirectComposition 對您的應用程式 UI 進行重大更新和增強，而不需要對現有的 UI 程式碼基底進行大量變更。
+現有 Windows 架構應用程式中的 UI 程式碼代表大量投資。 在大部分的情況下，DirectComposition 可讓您撰寫現有的 UI 內容，並製作其動畫。 這表示您可以使用 DirectComposition 對您的應用程式 UI 進行重大更新和增強，而不需要對現有的 UI 程式碼基底進行大量變更。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -58,6 +58,6 @@ DirectComposition 所建立的組合和動畫會傳遞至 Windows 的內建元�
 [DirectComposition](directcomposition-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

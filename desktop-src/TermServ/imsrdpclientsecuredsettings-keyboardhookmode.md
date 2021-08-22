@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientSecuredSettings KeyboardHookMode 屬性
-description: 指定鍵盤重新導向設定，以指定套用 Windows 鍵盤快捷方式的方式和時機 (例如，ALT + TAB) 。
+description: 指定鍵盤重新導向設定，指定套用 Windows 鍵盤快捷方式的方式和時機 (例如，ALT + TAB) 。
 ms.assetid: 16734580-9be9-476b-b8e7-1eca3ba24d61
 ms.tgt_platform: multiple
 keywords:
@@ -19,16 +19,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 948069b689d8799a98805148017a204b719d7645
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a291eeb26f8011440b8629ed46e1bb12c8b9cfb7adb937d33f80afe60a4d5cd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657588"
 ---
 # <a name="imsrdpclientsecuredsettingskeyboardhookmode-property"></a>IMsRdpClientSecuredSettings：： KeyboardHookMode 屬性
 
-指定鍵盤重新導向設定，以指定套用 Windows 鍵盤快捷方式的方式和時機 (例如，ALT + TAB) 。
+指定鍵盤重新導向設定，指定套用 Windows 鍵盤快捷方式的方式和時機 (例如，ALT + TAB) 。
 
 這是可讀寫的屬性。
 

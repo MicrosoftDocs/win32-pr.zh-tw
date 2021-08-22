@@ -6,12 +6,12 @@ keywords:
 - 字碼頁和 Unicode 字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 508d508ec21e7e763a683e534cf485ebbeec018d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65a1d5a830d3d4e2fccbb61563e7a8a0447d74e7c427e5e2e0434e7194a2ad3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663598"
 ---
 # <a name="code-pages-and-unicode-strings"></a>字碼頁和 Unicode 字串
 
@@ -27,9 +27,9 @@ Unicode 正式具有字碼頁值1200。 若要將 Unicode 值儲存在屬性名�
 
 您可以透過呼叫 [**IPropertyStorage：： ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple)來存取屬性識別碼1。 不過，它是唯讀的，而且可能不會以 [**WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple)進行更新。 此外，它可能不會使用 [**DeleteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-deletemultiple)來刪除。
 
- 
+ 
 
- 
+ 
 
 
 

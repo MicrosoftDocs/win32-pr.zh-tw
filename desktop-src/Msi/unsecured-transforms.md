@@ -4,12 +4,12 @@ ms.assetid: feace6c3-7828-44d0-8d2b-482a02e8e0c0
 title: 不安全的轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6743898142197d87d4e3fef5d0f48778f6261ff4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6bb234a0cdee852d3a5e1717642f5325283a571b740c9d7b4a5f6901afb52c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499608"
 ---
 # <a name="unsecured-transforms"></a>不安全的轉換
 

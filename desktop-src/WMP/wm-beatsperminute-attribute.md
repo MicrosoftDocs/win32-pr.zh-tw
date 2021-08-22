@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12f5cf4f2717bf881c1c5ba6ca7a49e34ceec6eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7946becb0b76d847b0aacfa4318ae0464fc6e6c46d8a3136b88a344cdb71030c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506624"
 ---
 # <a name="wmbeatsperminute-attribute"></a>WM/BeatsPerMinute 屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "106995271"
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMBeatsPerMinute
+此屬性 Windows 媒體格式 SDK 常數為 g \_ wszWMBeatsPerMinute
 
 ## <a name="requirements"></a>規格需求
 

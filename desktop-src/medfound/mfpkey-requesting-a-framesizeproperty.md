@@ -4,12 +4,12 @@ ms.assetid: c9baeff7-53fb-425f-b07b-4066a705ca54
 title: 'MFPKEY_REQUESTING_A_FRAMESIZE 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3355e84318ba4ad7995ac5ad0f002f4d70767b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3c39d1d9ecdba27e46a1e49949f1607fc60d53501d321e49c4899f9b8928ccf1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555428"
 ---
 # <a name="mfpkey_requesting_a_framesize-property"></a>MFPKEY \_ 要求 \_ \_ FRAMESIZE 屬性
 

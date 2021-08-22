@@ -4,12 +4,12 @@ ms.assetid: a6c6d30f-fdc4-4ba5-b1a2-3c709445aedc
 title: 'LINEOFFERINGMODE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b9e04720b4ea79f5b169e4a279a3af2e0cdda39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 68c2c36d18d006cdc1e2d9fc79095d58b6f56f1e58f4939c4e08ec6936af6855
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518908"
 ---
 # <a name="lineofferingmode_-constants"></a>LINEOFFERINGMODE \_ 常數
 

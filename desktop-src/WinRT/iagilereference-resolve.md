@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - objidl.h
-ms.openlocfilehash: 1c3ac95802a44f4305abb24566744ad98c67b174
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b58013ba81bb394715a0042f3f3d7435a381fa01f5b985bd9ad81d12122441e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758771"
 ---
 # <a name="iagilereferenceresolve-method"></a>IAgileReference：： Resolve 方法
 
@@ -79,8 +79,8 @@ HRESULT Resolve(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/> |
 
 
 

@@ -19,12 +19,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 5a413b96e00514b64b3cf1b1ee451a84a9e9ff09
-ms.sourcegitcommit: 6eb53540b8d882fd035d428567d7d1c5ec17042c
+ms.openlocfilehash: 34adfd708ef3c1b8d7a6af145d9d1c9505b01beb1ba9b31834e267123ad05b69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "104463888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641498"
 ---
 # <a name="improving-the-performance-of-direct2d-apps"></a>改善 Direct2D 應用程式的效能
 
@@ -86,7 +86,7 @@ ms.locfileid: "104463888"
 > [!Note]  
 > 您無法重複使用資源來調整視窗大小。 調整視窗大小時，必須重新建立某些隨比例依存的資源，例如相容轉譯目標，而且可能需要重新建立某些圖層資源，因為視窗內容必須重新繪製。 這對於維護轉譯場景的整體品質而言很重要。
 
- 
+ 
 
 ## <a name="restrict-the-use-of-flush"></a>限制使用 flush
 
@@ -107,12 +107,12 @@ ms.locfileid: "104463888"
 > [!Note]  
 > 在視訊記憶體中建立的 Direct2D 點陣圖受限於儲存該點陣圖的介面卡所支援的點陣圖大小上限。 建立大於該點陣圖的點陣圖可能會導致錯誤。
 
- 
+ 
 
 > [!Note]  
-> 從 Windows 8 開始，Direct2D 包含可讓此程式變得更容易的 [塔效果](atlas.md) 。
+> 從 Windows 8 開始，Direct2D 包含可讓此程式變得更容易的[塔效果](atlas.md)。
 
- 
+ 
 
 ### <a name="create-shared-bitmaps"></a>建立共用點陣圖
 
@@ -121,7 +121,7 @@ ms.locfileid: "104463888"
 > [!Note]  
 > 共用點陣圖通常僅限於軟體目標或可與 DXGI 互通的目標。 使用 [**CreateBitmapFromDxgiSurface**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1_id2d1bitmap1))、 [**CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties1_id2d1bitmap1))和 [**CreateSharedBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap) 方法來建立共用點陣圖。
 
- 
+ 
 
 ### <a name="copying-bitmaps"></a>複製點陣圖
 
@@ -282,7 +282,7 @@ Direct2D 文字轉譯功能提供兩個部分。 第一個部分（公開為 [**
 
 ### <a name="drawtextlayout-vs-drawtext"></a>DrawTextLayout 與 DrawText 的比較
 
-[**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))和 [**DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)都可讓應用程式輕鬆地轉譯由 [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) API 格式化的文字。 **DrawTextLayout** 會將現有的 [**DWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) 物件繪製至 [**RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)， **DrawText** 會根據傳入的參數，為呼叫端建立 DirectWrite 配置。 如果相同的文字必須轉譯多次，請使用 **DrawTextLayout** 而不是 **DrawText**，因為 **DrawText** 會在每次呼叫它時建立版面配置。
+[**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))和 [**DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)都可讓應用程式輕鬆地轉譯 [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) API 所格式化的文字。 **DrawTextLayout** 會將現有的 [**DWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout)物件繪製至 [**RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)， **DrawText** 會根據傳入的參數，為呼叫端建立 DirectWrite 的版面配置。 如果相同的文字必須轉譯多次，請使用 **DrawTextLayout** 而不是 **DrawText**，因為 **DrawText** 會在每次呼叫它時建立版面配置。
 
 ### <a name="choosing-the-right-text-rendering-mode"></a>選擇正確的文字呈現模式
 
@@ -349,7 +349,7 @@ m_d2dContext->FillGeometry(
 
 在此程式碼範例中，當您呼叫 PushLayer 方法時，不會傳入應用程式所建立的圖層。 Direct2D 會為您建立圖層。 Direct2D 可以管理此資源的配置和終結，而不需要應用程式的任何介入。 這可讓 Direct2D 在內部重複使用圖層，並套用資源管理優化。
 
-在 Windows 8 已對層級使用進行許多優化，建議您盡可能嘗試使用層 Api，而不是 [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) 。
+在 Windows 8 已對層級使用進行許多優化，建議您盡可能嘗試使用層 api，而不是 [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) 。
 
 ### <a name="pushlayer-in-windows-8"></a>Windows 8 中的 PushLayer
 
@@ -447,6 +447,6 @@ Direct2D 可與 Direct3D 介面無縫交互操作。 這非常適合用來建立
 
 雖然 Direct2D 是硬體加速的，且適用于高效能，但您必須正確使用這些功能才能將輸送量最大化。 我們在這裡探討的技巧衍生自研究一般案例，可能不適用於所有應用程式案例。
 
- 
+ 
 
- 
+ 

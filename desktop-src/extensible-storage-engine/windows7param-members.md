@@ -7,19 +7,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104286
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a0af5c50dd702bc97a6e228cf12429cae471fab3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d94a394eb5befffe46199dcc04a24b83c3a484fa8552a4ac5db40d1ba0d1d13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119667428"
 ---
 # <a name="windows7param-members"></a>Windows7Param 成員
 
 包含受保護的成員  
 包含繼承的成員  
 
-已新增至 Windows 7 版本 ESENT 的系統參數。
+已新增至 Windows 7 版 ESENT 的系統參數。
 
 [Windows7Param](./windows7param-class.md)類型會公開下列成員。
 

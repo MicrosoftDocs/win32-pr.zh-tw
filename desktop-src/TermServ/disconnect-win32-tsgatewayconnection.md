@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53101e5ca3529c5033adc918f1f9ad11a3b45f7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 24f5f9b240fa2857d142fab855f55a26f161d5b0d219c637df52d3ac9bf5ad8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119515678"
 ---
 # <a name="disconnect-method-of-the-win32_tsgatewayconnection-class"></a>Win32 TSGatewayConnection 類別的 Disconnect 方法 \_
 

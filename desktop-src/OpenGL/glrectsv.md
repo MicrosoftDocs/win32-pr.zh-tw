@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90bdf6ce7d882db9c7cc1f78deddc3ca651a2c6e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fd497def5255d8c3875721fa53f6a742c8a0714c0e4d8e7146d3c20423c29752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519838"
 ---
 # <a name="glrectsv-function"></a>glRectsv 函式
 
@@ -48,7 +48,7 @@ void WINAPI glRectsv(
 
 </dd> <dt>
 
-*v2* 
+*2* 
 </dt> <dd>
 
 矩形相對頂點的指標。
@@ -65,7 +65,7 @@ void WINAPI glRectsv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |
 

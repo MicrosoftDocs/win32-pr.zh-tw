@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b7de3ba4fea4f8bf31b2cee480f88f1f3b26ff96
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1edf28aa95e8158eec0a4053dc8f5438b8695ed5633f9465328c044d363b311f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528368"
 ---
 # <a name="reset-method-of-the-cim_diskdrive-class"></a>CIM DiskDrive 類別的 Reset 方法 \_
 

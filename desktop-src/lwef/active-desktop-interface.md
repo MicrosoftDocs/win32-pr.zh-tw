@@ -8,16 +8,16 @@ keywords:
 - 列舉，桌面專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7e61a4a9145386fc4c84a454aa79558b8d5df79
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e6daf1b5fbc73286619f07c8af76fbbce53bcaa8962cc88cf20f5af74bbdec82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610658"
 ---
 # <a name="using-the-active-desktop-object"></a>使用 Active Desktop 物件
 
-\[只有在 Windows XP 或更早版本才支援這項功能。 \]
+\[只有 Windows XP 或更早版本才支援這項功能。 \]
 
 本文包含屬於 Windows Shell API 一部分之 **ActiveDesktop** 物件的資訊。 此物件透過其 [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) 介面，可讓您新增、移除和變更桌面上的專案。
 
@@ -27,7 +27,7 @@ ms.locfileid: "104462989"
 -   [新增桌面專案](#adding-a-desktop-item)
 -   [列舉桌面專案](#enumerating-the-desktop-items)
 
-Active Desktop 是 Microsoft Internet Explorer 4.0 中引進的一項功能，可讓您將 HTML 檔案和專案 (例如 Microsoft ActiveX 控制項和 JAVA applet) 直接加入您的桌面。 [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop)介面是 WINDOWS Shell API 的一部分，用來以程式設計方式加入、移除和修改桌面上的專案。 您也可以使用 (CDF) 檔的通道定義格式來新增 Active Desktop 專案。
+Active Desktop 是 microsoft Internet Explorer 4.0 中引進的一項功能，可讓您將 HTML 檔案和專案 (例如 Microsoft ActiveX 控制項和 JAVA applet) 直接加入您的桌面。 [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop)介面是 Windows Shell API 的一部分，用來以程式設計方式加入、移除和修改桌面上的專案。 您也可以使用 (CDF) 檔的通道定義格式來新增 Active Desktop 專案。
 
 ### <a name="accessing-the-active-desktop"></a>存取 Active Desktop
 
@@ -128,6 +128,6 @@ pActiveDesktop->Release();
 
 
 
- 
+ 
 
- 
+ 

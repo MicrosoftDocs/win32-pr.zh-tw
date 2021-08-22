@@ -4,12 +4,12 @@ description: 索引標籤控制項會針對視窗或對話方塊的相同區域�
 ms.assetid: 664dd109-3c4a-4106-9b92-e10ec5a33463
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cc8381a668701446e06df81694941ece9f5f259
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78fe3216194da590b0c0802343afc41b1f7765c13d194e533163f9af2c22b287
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505658"
 ---
 # <a name="tab-control-msaa-ui-element-reference"></a>索引標籤控制項 (MSAA UI 元素參考) 
 
@@ -18,7 +18,7 @@ ms.locfileid: "106969444"
 
  
 
-索引標籤控制項會針對視窗或對話方塊的相同區域，定義多個頁面。 每個頁面都包含一組資訊，或是當使用者選取對應的索引標籤時，應用程式所顯示的一組控制項。Windows 作業系統使用索引標籤控制項來顯示工作列按鈕，但 [ **開始** ] 按鈕除外。
+索引標籤控制項會針對視窗或對話方塊的相同區域，定義多個頁面。 每個頁面都包含一組資訊，或是當使用者選取對應的索引標籤時，應用程式所顯示的一組控制項。Windows 作業系統使用索引標籤控制項來顯示工作列按鈕，但 [**開始**] 按鈕除外。
 
 索引標籤控制項的視窗類別名稱是 WC \_ TABCONTROL，其定義為 Commctrl 中的 "SysTabControl"。
 

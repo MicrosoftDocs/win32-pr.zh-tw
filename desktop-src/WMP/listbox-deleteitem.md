@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 45f4df09c608500e9a618b310b6296febaf073c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: caa0a8aa74536692f188df4117a41c69af8ead4c510f315125ac0100e690fb1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054776"
 ---
 # <a name="listboxdeleteitem"></a>LISTBOX. deleteItem
 
@@ -53,7 +53,7 @@ ms.locfileid: "106976062"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

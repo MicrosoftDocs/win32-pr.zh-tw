@@ -3,7 +3,7 @@ title: 'WM_COMPAREITEM 訊息 (Winuser .h) '
 description: 傳送來判斷新專案在主控描繪下拉式方塊或清單方塊的排序清單中的相對位置。
 ms.assetid: 22882730-9fd6-4b45-a563-d7b00ed26564
 keywords:
-- WM_COMPAREITEM message Windows 控制項
+- WM_COMPAREITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f269b90f00e69cce2fb84e6b4efa76e554ad96f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 819df3c4dd36c784ef5747d4aa4cdf688b3a48dbd052254192a7c98574bbfa94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655768"
 ---
 # <a name="wm_compareitem-message"></a>WM \_ COMPAREITEM 訊息
 
@@ -59,7 +59,7 @@ WM_COMPAREITEM
 
 
 
-| 傳回碼                                                                          | Description                                                  |
+| 傳回碼                                                                          | 描述                                                  |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | <dl> <dt>**值**</dt> </dl> | 意義<br/>                                           |
 | <dl> <dt>**-1**</dt> </dl>    | 專案1在專案2之前的排序次序。<br/>       |
@@ -82,9 +82,9 @@ WM_COMPAREITEM
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

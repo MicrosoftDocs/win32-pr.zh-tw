@@ -4,12 +4,12 @@ ms.assetid: 954f7abd-fe06-430a-b6f7-d60852826bc9
 title: 串流和應用程式執行緒
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 432e613ff0322377c042e796d84ef7affdda99c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a90916c14395a21aa5c53481c96b03fb6bbb2a8d4162cf996ef18ac15ce5e856
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583118"
 ---
 # <a name="the-streaming-and-application-threads"></a>串流和應用程式執行緒
 
@@ -23,7 +23,7 @@ ms.locfileid: "104514157"
 
 擁有個別的串流執行緒可讓資料在應用程式執行緒等候使用者輸入時流經圖形。 不過，多個執行緒的風險是，當篩選暫停應用程式執行緒上的 (時，可能會建立資源) 、在串流方法內使用它們，並在停止 (應用程式執行緒) 時終結它們。 如果您不小心，串流執行緒可能會在終結之後嘗試使用這些資源。 解決方法是使用重要區段來保護資源，並同步處理具有狀態變更的串流方法。
 
-篩選準則需要一個重要區段來保護篩選狀態。 [**CBaseFilter**](cbasefilter.md)類別具有這個重要區段的成員變數， [**CBaseFilter：： m \_ pLock**](cbasefilter-m-plock.md)。 此重要區段稱為篩選鎖定。 此外，每個輸入 pin 都需要重要的區段，以保護串流執行緒所使用的資源。 這些重要區段稱為串流鎖定;您必須在衍生的 pin 類別中宣告它們。 最簡單的方法是使用 [**CCritSec**](ccritsec.md) 類別，此類別會包裝 Windows **重要 \_ 區段** 物件，並可使用 [**CAutoLock**](cautolock.md) 類別來鎖定。 **CCritSec** 類別也會提供一些實用的調試函數。 如需詳細資訊，請參閱 [重要區段的調試](critical-section-debugging-functions.md)程式。
+篩選準則需要一個重要區段來保護篩選狀態。 [**CBaseFilter**](cbasefilter.md)類別具有這個重要區段的成員變數， [**CBaseFilter：： m \_ pLock**](cbasefilter-m-plock.md)。 此重要區段稱為篩選鎖定。 此外，每個輸入 pin 都需要重要的區段，以保護串流執行緒所使用的資源。 這些重要區段稱為串流鎖定;您必須在衍生的 pin 類別中宣告它們。 最簡單的方法是使用 [**CCritSec**](ccritsec.md)類別，此類別會包裝 Windows 的 **重要 \_ 區段** 物件，並可使用 [**CAutoLock**](cautolock.md)類別來鎖定。 **CCritSec** 類別也會提供一些實用的調試函數。 如需詳細資訊，請參閱 [重要區段的調試](critical-section-debugging-functions.md)程式。
 
 當篩選準則停止或清除時，它必須與串流執行緒同步處理應用程式執行緒。 為了避免死結，它必須先解除封鎖串流執行緒，這可能是因為下列幾個原因所造成：
 
@@ -40,7 +40,7 @@ ms.locfileid: "104514157"
 -   開始拒絕 **接收** 中的範例，讓串流執行緒不會存取其他資源。  ([**CBaseInputPin**](cbaseinputpin.md) 類別會自動處理這種情況。 ) 
 -   **Stop** 方法必須取消認可所有篩選準則的配置器。  (**CBaseInputPin** 類別會自動處理這種情況。 ) 
 
-清除和停止兩者都會在應用程式執行緒上發生。 篩選準則會停止，以回應 [**IMediaControl：： Stop**](/windows/desktop/api/Control/nf-control-imediacontrol-stop) 方法。 篩選圖形管理員會以上游順序發出 stop 命令，從轉譯器開始，然後回溯至來源篩選器。 Stop 命令會完全在篩選器的 **CBaseFilter：： stop** 方法內執行。 當方法傳回時，篩選準則應該會處於已停止狀態。
+清除和停止兩者都會在應用程式執行緒上發生。 篩選準則會停止，以回應 [**IMediaControl：： Stop**](/windows/desktop/api/Control/nf-control-imediacontrol-stop) 方法。 篩選 Graph 管理員會以上游順序發出 stop 命令，從轉譯器開始，然後回溯至來源篩選器。 Stop 命令會完全在篩選器的 **CBaseFilter：： stop** 方法內執行。 當方法傳回時，篩選準則應該會處於已停止狀態。
 
 通常會因為搜尋命令而發生排清。 Flush 命令會從來源或剖析器篩選開始，然後傳輸下游。 清除會以兩個階段進行： [**IPin：： BeginFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-beginflush) 方法會通知篩選器捨棄所有暫止和傳入的資料; [**IPin：： EndFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) 方法表示篩選準則會再次接受資料。 排清需要兩個階段，因為 **BeginFlush** 呼叫是在應用程式執行緒上，在這段期間，串流執行緒會繼續傳遞資料。 因此，某些範例可能會在 **BeginFlush** 呼叫之後抵達。 篩選應捨棄這些。 在 **EndFlush** 呼叫之後抵達的任何範例保證都是新的，而且應該傳遞。
 

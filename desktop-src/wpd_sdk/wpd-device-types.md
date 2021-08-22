@@ -1,5 +1,5 @@
 ---
-description: WPD \_ 裝置 \_ 類型列舉類型說明不同的 Windows 可攜式裝置 (WPD) 類型通常用來判斷可攜式裝置的基本分類和視覺外觀。
+description: WPD \_ 裝置 \_ 類型列舉類型描述不同 Windows 可攜式裝置 (WPD) 類型，通常用來判斷可攜式裝置的基本分類和視覺外觀。
 ms.assetid: 51714e0f-e9b7-4474-a8bb-da3875ef5399
 title: 'WPD_DEVICE_TYPES 列舉 (PortableDevice .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 3e71acf200a95bba05b7298a5824bfa353e4a90b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 747c4631bc2c24a6550904e36e58a6fc02547bc010da7fa1d08b896c6c17489c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657458"
 ---
 # <a name="wpd_device_types-enumeration"></a>WPD \_ 裝置 \_ 類型列舉
 
-**WPD \_ 裝置 \_ 類型** 列舉類型說明不同的 WINDOWS 可攜式裝置 (WPD) 類型通常用來判斷可攜式裝置的基本分類和視覺外觀。
+**WPD \_ 裝置 \_ 類型** 列舉類型描述不同 Windows 可攜式裝置 (WPD) 類型，通常用來判斷可攜式裝置的基本分類和視覺外觀。
 
 ## <a name="syntax"></a>Syntax
 

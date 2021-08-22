@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dd595748380a35f74e591283ed3d03273c683e97
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6abd453b328a22765a9649e69bbe0f5e3e4d4bc8e45148a0777fa23901447ab3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688838"
 ---
 # <a name="cdynamicoutputpindynamicreconnect-method"></a>CDynamicOutputPin. DynamicReconnect 方法
 
@@ -55,7 +55,7 @@ HRESULT DynamicReconnect(
 
 
 
-| 傳回碼                                                                            | Description                                                                                                                                         |
+| 傳回碼                                                                            | 描述                                                                                                                                         |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 成功。<br/>                                                                                                                                 |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 失敗。 可能是擁有篩選未呼叫 [**CDynamicOutputPin：： SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md) 方法。<br/> |

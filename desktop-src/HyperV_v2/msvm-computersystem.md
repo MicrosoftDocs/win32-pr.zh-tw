@@ -59,12 +59,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ae36179e14b584bad4e68350e27d485cdc10c42b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8a81d5e1503c868865f1f1fae7238be74f024c1bd1c992f5610ce75b5702ab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104557092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531780"
 ---
 # <a name="msvm_computersystem-class"></a>Msvm 的 it \_ 類別
 
@@ -445,7 +445,7 @@ Hyper-v WMI 提供者會在每次 **Msvm \_** 系統類型的 **EnhancedSessionM
 在容錯移轉操作期間套用的復原資料點類型。
 
 > [!Note]  
-> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) 類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
+> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md)類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
 
  
 
@@ -552,7 +552,7 @@ Hyper-v WMI 提供者會在每次 **Msvm \_** 系統類型的 **EnhancedSessionM
 
 唯一識別此類別的實例。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。
 
-在 Windows 8 中，每個電腦系統或虛擬機器都有單一的 [**ReplicationSettingData**](msvm-replicationsettingdata.md) 實例。 針對 Windows 8.1，復原虛擬機器有兩個 **ReplicationSettingData** 實例。 這種變更會區分設定資料與複寫關聯性。
+在 Windows 8 中，每個電腦系統或虛擬機器都有單一的 [**ReplicationSettingData**](msvm-replicationsettingdata.md)實例。 針對 Windows 8.1，復原虛擬機器有兩個 **ReplicationSettingData** 實例。 這種變更會區分設定資料與複寫關聯性。
 
 
 
@@ -583,7 +583,7 @@ Hyper-v WMI 提供者會在每次 **Msvm \_** 系統類型的 **EnhancedSessionM
 為虛擬機器收到最後一個應用程式一致複寫的時間。
 
 > [!Note]  
-> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) 類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
+> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md)類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
 
  
 
@@ -604,7 +604,7 @@ Hyper-v WMI 提供者會在每次 **Msvm \_** 系統類型的 **EnhancedSessionM
 復原虛擬機器時，收到最後一次複寫的時間。
 
 > [!Note]  
-> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) 類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
+> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md)類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
 
  
 
@@ -625,7 +625,7 @@ Hyper-v WMI 提供者會在每次 **Msvm \_** 系統類型的 **EnhancedSessionM
 針對虛擬機器所收到的最後一個複寫類型。
 
 > [!Note]  
-> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) 類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
+> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md)類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
 
  
 
@@ -911,7 +911,7 @@ Hyper-v WMI 提供者會在每次 **Msvm \_** 系統類型的 **EnhancedSessionM
 虛擬機器的複寫健全狀況。
 
 > [!Note]  
-> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) 類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
+> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md)類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
 
  
 
@@ -1022,7 +1022,7 @@ Hyper-v WMI 提供者會在每次 **Msvm \_** 系統類型的 **EnhancedSessionM
 虛擬機器的複寫狀態。
 
 > [!Note]  
-> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) 類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
+> 從 Windows 8.1 開始，這個屬性已被取代。相反地，請在 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md)類別中使用相同名稱的屬性，以取得主要或擴充關聯性的值。
 
  
 
@@ -1264,8 +1264,8 @@ UAC 篩選可能會限制對 Msvm 的 [未使用] 類別的存取。 **\_** 如�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

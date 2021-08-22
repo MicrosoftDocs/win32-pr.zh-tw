@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9core.h
-ms.openlocfilehash: 3a0b52f258956f7b62734ca97cc5d1bf5ed00ac3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 838fc7d08eff0889049e7f0c73ae779239934e49049948b926fa956eeac3d40a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607628"
 ---
 # <a name="d3dxrts_desc-structure"></a>D3DXRTS \_ DESC 結構
 

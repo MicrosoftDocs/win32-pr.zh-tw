@@ -5,12 +5,12 @@ ms.assetid: CE2BC8B5-ED33-451C-87E0-32192BF41334
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da56cc283eec90176fc476517517783744d71caf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c980bd5e93a62ca074f77790567f1095735b7989581511287c04297a56672349
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512028"
 ---
 # <a name="iremotedesktopclient-methods"></a>IRemoteDesktopClient 方法
 
@@ -27,7 +27,7 @@ ms.locfileid: "104375781"
 
 </dd> <dt>
 
-[**Connect 方法**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)
+[**連線方法**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)
 </dt> <dd>
 
 使用目前在遠端桌面通訊協定 (RDP) 應用程式容器用戶端控制上設定的屬性來起始連線。
@@ -69,6 +69,6 @@ ms.locfileid: "104375781"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

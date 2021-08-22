@@ -4,12 +4,12 @@ ms.assetid: 7e435787-afdc-42cc-bdbc-9b8b81d23ebd
 title: 瞭解 MUI 的詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9984dcc7f87e5237c48646ad29bd8af6dc14f104
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6473ef3128d5a08707622e65d35222a6603a3b888c3a957ddb7854235e29b2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119530398"
 ---
 # <a name="glossary-for-understanding-mui"></a>瞭解 MUI 的詞彙
 
@@ -20,7 +20,7 @@ ms.locfileid: "103850615"
 
 ## <a name="globalization"></a>全球化
 
-「 *全球化* 」一詞指出平臺在所有現成都能運作的需求。 實務上，藉由在多語系內容中支援單一映射部署，以及提供 NLS Api 來取出地區設定專屬的資料，在 Windows 中實現這種視覺功能。
+「 *全球化* 」一詞指出平臺在所有現成都能運作的需求。 實務上，藉由在多國語言的內容中支援單一映射部署，以及提供 NLS api 來取出地區設定專屬的資料，在 Windows Windows Windows 中實現此願景。
 
 ## <a name="localizability"></a>本地化
 
