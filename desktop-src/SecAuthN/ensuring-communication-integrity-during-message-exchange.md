@@ -1,17 +1,17 @@
 ---
 description: 建立安全性內容之後，應用程式就可以使用訊息支援功能來傳輸防篡改的訊息。
 ms.assetid: 43d7b940-1816-429f-be6e-40978efed278
-title: 確保訊息交換期間的通訊完整性
+title: 確保訊息 Exchange 期間的通訊完整性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70545abf11a933cd3bb6d0c32f3312637fcccbe2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 394f78fcc1e5becf4bdfc7c67db52e1af177a7f3aa427d1c6182a080f0ae87bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008256"
 ---
-# <a name="ensuring-communication-integrity-during-message-exchange"></a>確保訊息交換期間的通訊完整性
+# <a name="ensuring-communication-integrity-during-message-exchange"></a>確保訊息 Exchange 期間的通訊完整性
 
 建立 [*安全性內容*](/windows/desktop/SecGloss/s-gly) 之後，應用程式就可以使用 [訊息支援](authentication-functions.md) 功能來傳輸防篡改的訊息。
 

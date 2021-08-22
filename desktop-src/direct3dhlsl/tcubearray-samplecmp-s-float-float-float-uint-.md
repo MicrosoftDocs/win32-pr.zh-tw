@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 20626fe9d209ef4bfb64805f1a12561fd324f5a2
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 0842296ad5f7f4dd85be50c6be6f7e4b9c24c9bc99b00fda0c7f4fb376d8a768
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104992403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043092"
 ---
 # <a name="samplecmpsamplecmpsfloatfloatfloatuint-function-for-texturecubearray"></a>TextureCubeArray 的 SampleCmp：： SampleCmp (S、float、float、float、uint) 函數
 

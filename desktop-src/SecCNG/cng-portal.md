@@ -4,12 +4,12 @@ ms.assetid: eaad88a1-4e1d-4246-9560-8eef60f8b70f
 title: 密碼編譯 API：新一代
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d485f8371905961c63fbab66b29d0db544e3271
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfb5be604ea1dc8bdfc38ba37f0f202d1b95f334109e592a087e4da57b678cfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908229"
 ---
 # <a name="cryptography-api-next-generation"></a>密碼編譯 API：新一代
 
@@ -19,7 +19,7 @@ ms.locfileid: "103847669"
 
 ## <a name="developer-audience"></a>開發人員對象
 
-CNG 適用于應用程式開發人員，這些應用程式可讓使用者在安全的環境中建立及交換檔和其他資料，尤其是在不安全的媒體（例如網際網路）上使用。 開發人員應該熟悉 C 和 c + + 程式設計語言和 Windows 型程式設計環境。 雖然並非必要，但建議您瞭解密碼編譯或安全性相關的主題。
+CNG 適用于應用程式開發人員，這些應用程式可讓使用者在安全的環境中建立及交換檔和其他資料，尤其是在不安全的媒體（例如網際網路）上使用。 開發人員應該熟悉 C 和 c + + 程式設計語言，以及以 Windows 為基礎的程式設計環境。 雖然並非必要，但建議您瞭解密碼編譯或安全性相關的主題。
 
 如果您正在開發 CNG 密碼編譯演算法提供者或金鑰儲存提供者，則必須從 Microsoft 下載 [密碼編譯提供者開發工具組](https://www.microsoft.com/download/details.aspx?id=30688) 。
 

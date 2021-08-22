@@ -4,12 +4,12 @@ ms.assetid: 0a276f9c-cece-4fa6-b71a-ba0daad5ca05
 title: 'IMN_CHANGECANDIDATE 通知碼 (Imm) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 197380c3cf6369e0dbfd7dbca76bb3b84334eb6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 599f064b05f4fa0bda205825d623d13eec39334683fbe2b69f1c8b7b2997026b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949249"
 ---
 # <a name="imn_changecandidate-notification-code"></a>IMN \_ CHANGECANDIDATE 通知碼
 
@@ -58,7 +58,7 @@ IMN_CHANGECANDIDATE
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

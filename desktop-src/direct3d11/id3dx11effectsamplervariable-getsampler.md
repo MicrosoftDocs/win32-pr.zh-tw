@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f53260a07e544d5f69a9575851614f694b778619
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bfc9c400f3596d380f5e671eaa04f4e4340bde385230f331e3e2fdc7ee1a92f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045826"
 ---
 # <a name="id3dx11effectsamplervariablegetsampler-method"></a>ID3DX11EffectSamplerVariable：： GetSampler 方法
 

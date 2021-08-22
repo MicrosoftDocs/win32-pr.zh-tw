@@ -4,12 +4,12 @@ ms.assetid: 8f952d68-ee52-4e63-9f09-80a14c755d31
 title: 顯示裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41d0eeb3055209ad99a6a50fd129f9f9c064bf52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e2e2bbd847d1a473ff08de7db52da7513b91377e8a891b2c6fdde04a82bf1d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761322"
 ---
 # <a name="display-device-contexts"></a>顯示裝置內容
 
@@ -19,13 +19,13 @@ ms.locfileid: "103691900"
 
 -   類別
 -   通用
--   私人
+-   Private
 -   時間範圍
 -   父代
 
 ## <a name="class-device-contexts"></a>類別裝置內容
 
-*類別裝置* 內容受到嚴格的支援，可與16位版本的 Windows 相容。 撰寫您的應用程式時，請避免使用類別裝置內容;請改用私用裝置內容。
+為了與16位版本的 Windows 相容，我們完全支援 *類別裝置* 內容。 撰寫您的應用程式時，請避免使用類別裝置內容;請改用私用裝置內容。
 
 ## <a name="common-device-contexts"></a>一般裝置內容
 

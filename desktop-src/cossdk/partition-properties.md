@@ -4,12 +4,12 @@ ms.assetid: bd6647a8-ad38-4bd9-842d-6592440099a4
 title: 分割區屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 893738955c6f137a910ab68446576318c51e641c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 60c1a1501a1144aec9c0b1355efe9553d32a72b9324c90c533f55c296218aeb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047316"
 ---
 # <a name="partition-properties"></a>分割區屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 65e17920-bb2c-4b98-a2dd-ebaee752ed0a
 title: FloppyVolume 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c70045ee5d6e16fbe1f679eafd83e6d657c9bf6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4639960fee79336048082c91088e19c1b360f857216f2cf0ad9ed07c64b52b8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947009"
 ---
 # <a name="floppyvolume-control-attribute"></a>FloppyVolume 控制項屬性
 

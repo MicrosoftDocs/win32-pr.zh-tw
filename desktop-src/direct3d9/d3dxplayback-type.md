@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 0ce95b4765ec678c43c8e0ed92008deeb9927298
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 642c3e1d49792016ea1d161352d4dda9fc1330aab544880e754659c735d1ecd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103853983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044786"
 ---
 # <a name="d3dxplayback_type-enumeration"></a>D3DXPLAYBACK \_ 類型列舉
 

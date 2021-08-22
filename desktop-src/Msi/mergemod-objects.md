@@ -4,12 +4,12 @@ ms.assetid: 7f242681-f8f3-494b-bdf7-eb35ab69fd6f
 title: Mergemod 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bbaf3e65e743bcdcf2ef4b0b7eef5b4480a5f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29489f513697d1a9df61427ff96e951f5279565777919b4fb345247fb85ef172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945485"
 ---
 # <a name="mergemod-objects"></a>Mergemod 物件
 

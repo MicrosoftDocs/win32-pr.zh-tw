@@ -14,16 +14,16 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: aca827de068ce221f013f03b35f88fd76a030dd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53e1549767c8577507b3126b3a293dfe4e523612809c144ff24c04dce4ab1ff4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697416"
 ---
 # <a name="iconnectionrequestcallback-interface"></a>IConnectionRequestCallback 介面
 
-**IConnectionRequestCallback** 介面會定義單一回呼方法。 Windows 可攜式裝置 (WPD) 應用程式會將這個選擇性元件物件模型 (COM) 介面，以接收已完成要求的通知，以及解除擱置的要求。 要求會使用 [**IPortableDeviceConnector：： Connect**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect) 和 [**IPortableDeviceConnector：:D isconnect**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect) 方法來傳送。
+**IConnectionRequestCallback** 介面會定義單一回呼方法。 Windows 的可攜式裝置 (WPD) 應用程式會將這個選擇性元件物件模型 (COM) 介面，以接收已完成要求的通知，以及解除擱置的要求。 要求會使用 [**IPortableDeviceConnector：：連線**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect)和 [**IPortableDeviceConnector：:D isconnect**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect)方法來傳送。
 
 ## <a name="members"></a>成員
 
@@ -51,10 +51,10 @@ ms.locfileid: "103945344"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                                                                             |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                                                                             |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                                                                              |
 | 標頭<br/>                   | <dl> <dt>Devpkey .h;</dt><dt>Portabledeviceconnectapi .h</dt> </dl> |
-| Idl<br/>                      | <dl> <dt>Portabledeviceconnectapi .idl</dt> </dl>                                                                |
+| IDL<br/>                      | <dl> <dt>Portabledeviceconnectapi .idl</dt> </dl>                                                                |
 | 程式庫<br/>                  | <dl> <dt>PortableDeviceGuids .lib</dt> </dl>                                                                     |
 
 

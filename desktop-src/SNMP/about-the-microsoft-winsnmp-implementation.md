@@ -4,12 +4,12 @@ description: Microsoft WinSNMP 實行符合 WinSNMP 2.0 版。
 ms.assetid: 99e11d30-d159-4d9b-94d0-baa6e49d82cf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cbf142ba85458374105af5b80ca5af30a6c5082
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 693a2fd5c6aa21d684d485f75b04160e72bfe1455c13ef8c320c863b61ab696b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009866"
 ---
 # <a name="about-the-microsoft-winsnmp-implementation"></a>關於 Microsoft WinSNMP 的執行
 
@@ -25,9 +25,9 @@ Microsoft WinSNMP 實行符合 WinSNMP 2.0 版。 它支援在 WinSNMP 1.1 版�
 
 如需有關 WinSNMP 應用程式與執行之間關聯性的詳細資訊，請參閱 [winsnmp 資料管理概念](winsnmp-data-management-concepts.md) 和 [winsnmp 會話](winsnmp-sessions.md)。
 
- 
+ 
 
- 
+ 
 
 
 

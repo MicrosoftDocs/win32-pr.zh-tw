@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dde632f01bd7ac9cbdf8bc4dc09e1337f32014b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e9bfaf180c67bea6da979877f9f768c850032adc2d085c4c65d47f3326442c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042726"
 ---
 # <a name="apiescrowupdate-method"></a>EscrowUpdate 方法
 

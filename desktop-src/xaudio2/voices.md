@@ -4,12 +4,12 @@ ms.assetid: 96463b61-3d74-b64d-0fb9-bd0c6464c71b
 title: 語音
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cbaac12387dc9bc77d82bc48a67181e42c1d04b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a64284b16356394471997da0a321d4a107a8d4c3e4a9d7d6f3859285186a30c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025956"
 ---
 # <a name="voices"></a>語音
 

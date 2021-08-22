@@ -4,12 +4,12 @@ ms.assetid: 864404f1-439d-49a2-973d-4e6e1618863e
 title: ICE02
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1975203825d079d5eeb1ec5e4183767dd68625bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b97696ee4a8f93d49237dbac8661b6bfc72e478922c87b9095620bc5c29dc546
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946652"
 ---
 # <a name="ice02"></a>ICE02
 
@@ -23,7 +23,7 @@ ICE02 會驗證[元件](component-table.md) [、檔案和登錄](file-table.md)[
 
 ## <a name="example"></a>範例
 
-ICE02 會針對包含所顯示資料庫專案的 .msi 檔案張貼下列錯誤訊息。
+ICE02 會將下列錯誤訊息張貼 .msi 檔案，其中包含所顯示的資料庫專案。
 
 ``` syntax
 File: 'Red_File' cannot be the key file for Component: 'Blue'. The file belongs to Component: 'Red'

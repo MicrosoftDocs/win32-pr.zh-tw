@@ -4,12 +4,12 @@ description: 定義指定 DXCore 介面卡屬性的常數。
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 645f0a890aac9a50cdf2987c0736a85142a91aff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: aca9093eb85971621cf232b4713d811535619b59c3d07e0b8b490d063b9d7ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042926"
 ---
 # <a name="dxcoreadapterproperty-enum"></a>DXCoreAdapterProperty 列舉
 

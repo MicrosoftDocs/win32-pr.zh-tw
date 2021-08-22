@@ -9,12 +9,12 @@ keywords:
 - WinNT 提供者 ADSI、使用者管理範例、使用者必須在下次登入時變更密碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 787be5f5f4e1534574a68c179bb699ac68c61e3e
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: be50e5cdccb4969e59a5b32516a35278b867062e8cced2e80d96b26c56c6173b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106976681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023036"
 ---
 # <a name="user-must-change-password-at-next-logon-winnt-provider"></a>使用者必須在下次登入時變更密碼 (WinNT 提供者) 
 

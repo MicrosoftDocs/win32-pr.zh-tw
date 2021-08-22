@@ -4,12 +4,12 @@ ms.assetid: bb50fcbf-3de5-4f5a-b799-cec5d68fdd9d
 title: 自訂動作類型38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b9372cd5035d27c02feaef3ed455ddeb756c449
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 361da558a6b1cf9d483d5cdb84d3a4290f9d25fb88ed844d564a26228378a14e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947939"
 ---
 # <a name="custom-action-type-38"></a>自訂動作類型38
 
@@ -33,7 +33,7 @@ ms.locfileid: "103944762"
 
  
 
-Windows Installer 可以在64位作業系統上使用64位自訂動作。 以腳本為基礎的64位自訂動作必須在其數數值型別中包含 **msidbCustomActionType64BitScript** 位。 如需詳細資訊，請參閱 [64 位自訂動作](64-bit-custom-actions.md)。 在 [CustomAction 資料表](customaction-table.md) 的 Type 資料行中包含下列值，以指定64位自訂動作的基本數數值型別。
+Windows安裝程式可能會在64位作業系統上使用64位自訂動作。 以腳本為基礎的64位自訂動作必須在其數數值型別中包含 **msidbCustomActionType64BitScript** 位。 如需詳細資訊，請參閱 [64 位自訂動作](64-bit-custom-actions.md)。 在 [CustomAction 資料表](customaction-table.md) 的 Type 資料行中包含下列值，以指定64位自訂動作的基本數數值型別。
 
 
 
@@ -67,7 +67,7 @@ Windows Installer 可以在64位作業系統上使用64位自訂動作。 以腳
 
 ## <a name="remarks"></a>備註
 
-以 JScript 或 VBScript 撰寫的自訂動作需要安裝 [**會話**](session-object.md) 物件。 安裝程式會將 **會話物件** 附加至名稱為 "Session" 的腳本。 因為 **會話** 物件在安裝復原期間可能不存在，所以在腳本中撰寫的延遲自訂動作必須使用在 [取得順延強制自訂動作的內容資訊](obtaining-context-information-for-deferred-execution-custom-actions.md)一節中所述之 **會話** 物件的其中一個方法或屬性，以取得其內容。
+以 JScript 或 VBScript 撰寫的自訂動作需要安裝 [**會話**](session-object.md)物件。 安裝程式會將 **會話物件** 附加至名稱為 "Session" 的腳本。 因為 **會話** 物件在安裝復原期間可能不存在，所以在腳本中撰寫的延遲自訂動作必須使用在 [取得順延強制自訂動作的內容資訊](obtaining-context-information-for-deferred-execution-custom-actions.md)一節中所述之 **會話** 物件的其中一個方法或屬性，以取得其內容。
 
 ## <a name="related-topics"></a>相關主題
 

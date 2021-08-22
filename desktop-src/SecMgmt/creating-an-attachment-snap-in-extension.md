@@ -4,12 +4,12 @@ ms.assetid: 6f2dc372-dee4-4793-b943-395c0587ed5e
 title: 建立附件嵌入式管理單元擴充功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 513c982acc7e5285f3b4d1510f18b7eb6c9fe1d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1a4cd4ccecf7fba6e33062fd2bb4df810316f2d66d42165ca207d855a14f961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894828"
 ---
 # <a name="creating-an-attachment-snap-in-extension"></a>建立附件嵌入式管理單元擴充功能
 

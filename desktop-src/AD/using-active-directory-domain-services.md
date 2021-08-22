@@ -12,12 +12,12 @@ keywords:
 - Active Directory Active Directory 的範例，請參閱 Active Directory Domain Services 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 540b9004311db320decbd15c4f0a29e52ec1302a
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 3e1ef5428242e6d83fcb0c517c91abaee24de8181689a3aa1922eafea4d76703
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103684169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024536"
 ---
 # <a name="using-active-directory-domain-services"></a>使用 Active Directory 網域服務
 
@@ -26,9 +26,9 @@ ms.locfileid: "103684169"
 > [!Note]  
 > 下列檔適用于電腦程式設計人員。 如果您嘗試解決 Active Directory 首頁列印錯誤，請參閱 Microsoft 社區頁面的 [下列建議](https://answers.microsoft.com/windows/forum/all/clicking-find-printer-shows-error-the-active/52bfd961-ff62-4397-b8cf-a0708f0cb3d2) ：如果沒有説明，請嘗試從 [TechNet](https://social.technet.microsoft.com/Forums/windowsserver/d6212275-24d6-4168-830a-9441f861cb76/error-message-when-attempting-to-print-active-directory-domain-service-is-currently-unavailable?forum=winserverprint)提出這些建議。
 
- 
+ 
 
-Active Directory Domain Services 符合輕量型目錄存取協定3.0 （由 RFC 2251 和其他 Rfc 所定義）。 您可以使用下列任何 API 集合來存取 Active Directory Domain Services。 每個 API 集合都有優缺點，取決於程式設計語言、程式設計環境和預定的執行方法。 本指南中的大部分範例都會使用「ADSI」（C 和 c + + 等語言所支援的）以及符合自動化規範的語言，例如 Microsoft Visual Basic 和 Visual Basic Scripting Edition。
+Active Directory Domain Services 符合輕量型目錄存取協定3.0 （由 RFC 2251 和其他 Rfc 所定義）。 您可以使用下列任何 API 集合來存取 Active Directory Domain Services。 每個 API 集合都有優缺點，取決於程式設計語言、程式設計環境和預定的執行方法。 本指南中的大部分範例都會使用「ADSI」（c 和 c + + 等語言所支援的）以及符合自動化規範的語言，例如 Microsoft Visual Basic 和 Visual Basic 腳本撰寫版。
 
 如需特定 Active Directory Domain Services 技術的詳細資訊，請參閱：
 
@@ -57,6 +57,6 @@ Active Directory Domain Services 符合輕量型目錄存取協定3.0 （由 RFC
 -   [應用程式目錄分割](application-directory-partitions.md)
 -   [偵測網域的操作模式](detecting-the-operation-mode-of-a-domain.md)
 
- 
+ 
 
- 
+ 

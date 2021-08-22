@@ -4,12 +4,12 @@ ms.assetid: 833c07eb-0ecf-41e2-9e01-8d83e51ffcef
 title: 輸入方法管理員函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 516a83e207434f5d8c2e073e770c878198bc98e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2c0f03c2e6d29b262bd97729b92f9eea5fbf99d09f52ea3fe2b3579646a6fa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948723"
 ---
 # <a name="input-method-manager-functions"></a>輸入方法管理員函數
 
@@ -30,7 +30,7 @@ ms.locfileid: "106982457"
 | [**ImmCreateCoNtext**](/windows/desktop/api/Imm/nf-imm-immcreatecontext)                       | 建立新的輸入內容、為內容配置記憶體，並將其初始化。                                        |
 | [**ImmDestroyCoNtext**](/windows/desktop/api/Imm/nf-imm-immdestroycontext)                     | 釋放輸入內容並釋出相關聯的記憶體。                                                                    |
 | [**ImmDisableIME**](/windows/desktop/api/Imm/nf-imm-immdisableime)                             | 停用執行緒或進程中所有線程的 IME。                                                             |
-| [**ImmDisableLegacyIME**](/windows/desktop/api/Imm/nf-imm-immdisablelegacyime)                 | 指出這個執行緒是 Windows Store 應用程式 UI 執行緒。                                                               |
+| [**ImmDisableLegacyIME**](/windows/desktop/api/Imm/nf-imm-immdisablelegacyime)                 | 指出這個執行緒是 Windows 存放區應用程式 UI 執行緒。                                                               |
 | [**ImmDisableTextFrameService**](/windows/desktop/api/Imm/nf-imm-immdisabletextframeservice)   | 已取代。 停用指定之執行緒的文字服務。                                                            |
 | [**ImmEnumInputCoNtext**](/windows/desktop/api/Imm/nf-imm-immenuminputcontext)                 | 抓取指定之執行緒的輸入內容。                                                                      |
 | [**ImmEnumRegisterWord**](/windows/desktop/api/Imm/nf-imm-immenumregisterworda)                 | 列舉具有指定的讀取字串、樣式和暫存器字串的暫存器字串。                           |

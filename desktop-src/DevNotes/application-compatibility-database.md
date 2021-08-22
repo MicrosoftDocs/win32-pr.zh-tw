@@ -4,12 +4,12 @@ ms.assetid: 3b35b758-18ca-40dd-8882-35d9b458264c
 title: 應用程式相容性資料庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ba33ab3a8de702f2e620b7607f4d2b6904e6165
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5787e8dbc9aa07bc8d466dae766c3fed406692dbd32e128123c4b37d9a7a5618
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956157"
 ---
 # <a name="application-compatibility-database"></a>應用程式相容性資料庫
 
@@ -29,7 +29,7 @@ ms.locfileid: "103688660"
 
 使用 Apphelp 時，會顯示自訂當地語系化訊息通知，通常是在安裝或啟動應用程式時。 其中包含簡短的文字，說明相容性問題，並提供可讓您繼續執行應用程式的選項。 不過，有些應用程式會大幅失敗，而無法執行;Apphelp 不會提供使用者繼續執行這些應用程式的選項。
 
-使用 Appfix 時，會為應用程式的元件所呼叫的 Api 安裝勾點。 這些勾點指向可以呼叫的存根函式，而不是系統函數 (也稱為 *填充碼銜接*) 。 存根函式會執行必要的作業，讓應用程式可以在已安裝的 Windows 版本上執行。 每個存根函式在完成其工作之後，可以選擇性地呼叫系統函數。 *相容性層* 或 *模式* 包含一或多個填充碼和旗標。
+使用 Appfix 時，會為應用程式的元件所呼叫的 Api 安裝勾點。 這些勾點指向可以呼叫的存根函式，而不是系統函數 (也稱為 *填充碼銜接*) 。 存根函式會執行必要的作業，讓應用程式能夠在安裝的 Windows 版本上執行。 每個存根函式在完成其工作之後，可以選擇性地呼叫系統函數。 *相容性層* 或 *模式* 包含一或多個填充碼和旗標。
 
 ## <a name="in-this-section"></a>本節內容
 

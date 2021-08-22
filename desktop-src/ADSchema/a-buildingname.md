@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0745997a562360301cceef7d04b5fb862b048a9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 91a667566292f7a698db98aa683e9470f63f30687a96a30b6062cb0999858ee6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022676"
 ---
 # <a name="buildingname-attribute"></a>>buildingname 屬性
 

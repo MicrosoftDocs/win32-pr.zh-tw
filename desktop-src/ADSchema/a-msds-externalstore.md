@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d127c2a9f4aa91c3866803a749d225b5403e68fb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 62689f358a5880c6d176782d4caf341a5c916d35e9ab97952789604c1a0a7399
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960787"
 ---
 # <a name="ms-ds-external-store-attribute"></a>ms DS-External-Store 屬性
 

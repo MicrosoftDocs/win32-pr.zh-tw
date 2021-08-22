@@ -3,17 +3,17 @@ title: XML 寫入器
 description: XML 寫入器是發出 XML 的 API。 在其核心中，XML 寫入器會一次寫入一個 XML 節點，但還有其他協助程式 Api 可讓您更輕鬆地撰寫一系列節點。
 ms.assetid: 69d50793-1d5b-4fc7-bf69-128f8e23a98d
 keywords:
-- 適用于 Windows 的 XML 寫入器 Web 服務
+- Windows 的 XML 寫入器 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 085a02b3aca33ffa3b31e4579d47068a683ee4d8
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: a75b7937ac6d8f6e9daff40289dd34729eaf235f203a02b91b5d1af3632049b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106969740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026056"
 ---
 # <a name="xml-writer"></a>XML 寫入器
 

@@ -5,12 +5,12 @@ ms.assetid: 28dba6ef-939f-4789-9789-ee6e0fef0177
 title: 'X (安全性詞彙) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74fe26b24b757e74293bff0d4679d4ad1f6a4b98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d977b5d3fe2c0625f28ccbc2ffd3cd8abf0050eff8c53f7b7f9370e60722da13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895149"
 ---
 # <a name="x-security-glossary"></a>X (安全性詞彙) 
 
@@ -69,7 +69,7 @@ ms.locfileid: "106998902"
 
 </dd> <dt>
 
-<span id="_security_xor_gly"></span><span id="_SECURITY_XOR_GLY"></span>**Xor**
+<span id="_security_xor_gly"></span><span id="_SECURITY_XOR_GLY"></span>**XOR**
 </dt> <dd>
 
 專有 **或**。 只有當其中一個運算元為 true，而另一個運算元為 false 時，才會產生 true 的布耳運算。 如果兩個運算元都相同 (true 或 false) ，則作業會產生 false。

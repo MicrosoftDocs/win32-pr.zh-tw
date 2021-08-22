@@ -1,22 +1,22 @@
 ---
-description: 啟用終端機服務時，GINA 必須呼叫 Winlogon 支援函式來完成每個使用者的設定、查詢終端機服務用戶端會話的認證，以及中斷與終端機服務網路會話的連線。注意 GINA 在 Windows Vista 中會忽略 Dll。
+description: 啟用終端機服務時，GINA 必須呼叫 Winlogon 支援函式來完成每個使用者的設定、查詢終端機服務用戶端會話的認證，以及中斷與終端機服務網路會話的連線。注意 Windows Vista 會忽略 GINA dll。
 ms.assetid: 70b55b99-b350-4638-84ba-e5580d9d992f
 title: 終端機服務 GINA 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19452fb73f00ef4ace0dd85083578334b6fb1038
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0bdd81d66d88ae280c14d71d7d65385c0d5580b3e28cef9d0f26ed1963bded1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916390"
 ---
 # <a name="terminal-services-gina-functions"></a>終端機服務 GINA 函式
 
 啟用終端機服務時， [*GINA*](../secgloss/g-gly.md) 必須呼叫 [*Winlogon*](../secgloss/w-gly.md) 支援函式來完成每個使用者的設定、查詢終端機服務用戶端會話的 [*認證*](../secgloss/c-gly.md) ，以及中斷與終端機服務網路會話的連線。
 
 > [!Note]  
-> 在 Windows Vista 中會忽略 GINA Dll。
+> Windows Vista 會忽略 GINA dll。
 
  
 

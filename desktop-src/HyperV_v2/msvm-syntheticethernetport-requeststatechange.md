@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7a751ba40be7ddeb6d71f104036487dd8acb209a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1c39bb9f97a398e566f68fda72ce71b174ea49cfd4b56dcb4848b06aebd7f159
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949867"
 ---
 # <a name="requeststatechange-method-of-the-msvm_syntheticethernetport-class"></a>Msvm SyntheticEthernetPort 類別的 RequestStateChange 方法 \_
 

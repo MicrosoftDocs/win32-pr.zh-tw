@@ -7,12 +7,12 @@ keywords:
 - 調色板感知 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67ceab4c27f63c12977d072f84e789d1800b6557
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5172d3b0a353141900bd873d8f97d6a25ce570e54d180ce1c8b1ca949e51d8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936294"
 ---
 # <a name="palette-awareness"></a>元件感知
 
@@ -20,6 +20,6 @@ ms.locfileid: "103842675"
 
 如需調色板和調色板感知的詳細資訊，請參閱 Microsoft 開發人員網路開發程式庫 compact 光碟上的「調色板感知」和「元件管理員：如何與原因」文章。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 6d045ecb-432e-4ba6-b5d2-37db82ab1884
 title: 角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc65d140faa22c72d098c7a4ba2f13e952b2713f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f884475589bc8ecef945c1fd89d1ffab647258c01d3c83a2c9b96df53300501d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911962"
 ---
 # <a name="roles"></a>角色
 

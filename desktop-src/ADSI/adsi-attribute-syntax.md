@@ -7,12 +7,12 @@ keywords:
 - 屬性 ADSI、語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b23d58b48b27fa88077f388b47535afd1dbd0a4f
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 310a678c48051909e4a3e7555b9d8ff0a508c339cfcd41ed6c66286529cadde1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023926"
 ---
 # <a name="adsi-attribute-syntax"></a>ADSI 屬性語法
 
@@ -60,7 +60,7 @@ Case 精確字串為區分大小寫的字串，而 Case Ignore 字串則是不�
 > [!Note]  
 > 目錄不一定會將其儲存為 Unicode 字串。 但是，ADSI 會接受並傳回 Unicode 字串。
 
- 
+ 
 
 範例：
 
@@ -113,7 +113,7 @@ Syntax Type: ADSTYPE_UTC_TIME
 > [!Note]  
 > 年份的前兩個數字不會儲存在此字串中。
 
- 
+ 
 
 合法值的一些範例包括 "9101311455Z"、"910131145503Z"、"9101314455-0500"、"910131145503 + 0130"。 這個字串會儲存為單一位元組 ASCII 字元，且不會儲存任何字碼頁編號。
 
@@ -257,6 +257,6 @@ Set sacl = sd.SystemAcl
 [如何指定比較值](/windows/desktop/AD/how-to-specify-comparison-values)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 270a1984-9e66-4dd2-accb-d715287f1ec0
 title: 結束字元號處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9147ed15c0dc03b76c822a38ccd7ac3c5d326454
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: af49c26ffe1a80fad3bf7b03fc18699c07e9b025e8b07b5f6bb6c377cde743b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956937"
 ---
 # <a name="terminating-the-symbol-handler"></a>結束字元號處理常式
 

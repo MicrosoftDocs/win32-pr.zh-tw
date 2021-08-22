@@ -4,12 +4,12 @@ ms.assetid: 7a6af325-4891-40db-8d33-c9782bd438e5
 title: 註冊新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 470541ed9b832ad5eaa914c1a35805dbd861a843
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff5d56153199542c11f00a3ec23d90d35a682c5fe93f91d2978dcd4f72628219
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900593"
 ---
 # <a name="registering-the-new-functionality"></a>註冊新功能
 

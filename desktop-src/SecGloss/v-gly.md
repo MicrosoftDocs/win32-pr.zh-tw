@@ -5,12 +5,12 @@ ms.assetid: 412796ce-2ad5-429b-a2a6-8d286b19ae30
 title: 'V (安全性詞彙) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24e2f5801c4bd0e697e305c4863f33eaf346b644
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd671b17ef315dcb3c27437b441ee308d4ea8566db629b2a4f2c104004543b24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895159"
 ---
 # <a name="v-security-glossary"></a>V (安全性詞彙) 
 

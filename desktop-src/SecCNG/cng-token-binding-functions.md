@@ -4,12 +4,12 @@ ms.assetid: C8770299-60A7-40DE-A2B4-158DF6DFA3C6
 title: CNG 權杖系結函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcec7b28a228106428135ee06cd43834f74464c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbc96e5881402ca8cd3d0a3f8b0fc0b27cd0bd4f6f271e06cc90ec357a41d7f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907939"
 ---
 # <a name="cng-token-binding-functions"></a>CNG 權杖系結函式
 

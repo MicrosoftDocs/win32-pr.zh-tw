@@ -7,12 +7,12 @@ keywords:
 - WinSNMP 程式設計工作 SNMP，一般
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87bedb7922e94481a23d1a424a2fdfdeca39d909
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5d5389e7828aaa8c9bbbe87b68ed9e4c95b7cdffad6a24aa5f024dfeca0ae6d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009516"
 ---
 # <a name="general-winsnmp-programming-tasks"></a>一般的 WinSNMP 程式設計工作
 
@@ -31,11 +31,11 @@ ms.locfileid: "104300587"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

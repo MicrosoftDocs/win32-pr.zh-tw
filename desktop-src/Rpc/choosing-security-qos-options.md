@@ -4,12 +4,12 @@ description: 安全性 QOS 選項會做為 SecurityQOS 參數的一部分傳遞�
 ms.assetid: 43befe3d-079a-4389-a1ff-6bda90935769
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c286b516438eae78117ef8d73939c3b4bed396d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 44c943fd9e2b4104de87a24c6078499fa38acdf1b6d1ea2122bf9d3063cd80f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932194"
 ---
 # <a name="choosing-security-qos-options"></a>選擇安全性 QOS 選項
 
@@ -23,7 +23,7 @@ ms.locfileid: "106968114"
 
 如果用戶端軟體應該只呼叫 Joe 帳戶下執行的服務，請直接撰寫 Joe 的伺服器主體名稱並進行呼叫。 如果伺服器不是 Joe，則呼叫會失敗。
 
-許多時候，服務都是以 Windows 系統服務的方式執行，這表示它們是在電腦帳戶下執行。 仍建議使用相互驗證和建立伺服器主體名稱。
+許多時候，服務會以 Windows 系統服務的方式執行，這表示它們是在電腦帳戶下執行。 仍建議使用相互驗證和建立伺服器主體名稱。
 
 ## <a name="use-the-lowest-impersonationtype-that-allows-the-call-to-go-through"></a>使用可讓呼叫進入的最低 ImpersonationType
 
@@ -31,6 +31,6 @@ ms.locfileid: "106968114"
 
 最後，某些安全性提供者或傳輸可能會以透明方式將 ImpersonationType 與指定的層級相較之下。 開發程式時，請確定您嘗試使用預期的 ImpersonationType 進行呼叫，並檢查您是否在伺服器上取得較高的 ImpersonationType。
 
- 
+ 
 
- 
+ 

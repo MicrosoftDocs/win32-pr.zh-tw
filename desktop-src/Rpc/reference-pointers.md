@@ -4,12 +4,12 @@ description: 參考指標是最簡單的指標，且需要用戶端存根的最�
 ms.assetid: 393aec84-8e8f-41b9-956f-d28a80d3a8c4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 427605f330b1a73c541c95019f8ca4bdd6cc8ef4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6338b1017f05bdf004fee2b288c4eae1ee9775eaa2ad225d5f4b6afa3e74d8ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927031"
 ---
 # <a name="reference-pointers"></a>參考指標
 
@@ -42,6 +42,6 @@ interface RefPtrInterface
 
 這個範例會將參數 *pChar* 定義為單一字元的指標，而不是字元陣列。 它是 \[ **out** \] 參數和參考指標，指向伺服器常式 RemoteFn 將填入資料的記憶體。
 
- 
+ 
 
- 
+ 

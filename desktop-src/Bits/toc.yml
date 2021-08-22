@@ -91,9 +91,9 @@
               href: preventing-multiple-uploads.md
             - name: 虛擬目錄清理
               href: virtual-directory-cleanup.md
-            - name: 上傳最佳作法
+            - name: Upload最佳做法
               href: upload-best-practices.md
-            - name: 上傳限制
+            - name: Upload限制
               href: upload-limits.md
         - name: 使用 BITS 通知要求/回應標頭
           href: using-bits-notification-request-response-headers.md
@@ -526,7 +526,7 @@
                   href: example-adding-a-helper-token-to-a-bits-transfer-job-.md
             - name: BITSAdmin 工具
               href: bitsadmin-tool.md
-        - name: 上傳作業的 BITS 伺服器設定
+        - name: Upload 作業的 BITS 伺服器設定
           href: bits-server-settings-for-upload-jobs.md
           items:
             - name: BITS IIS 擴充功能屬性
@@ -577,7 +577,7 @@
               href: /windows/win32/api/Bits5_0/ns-bits5_0-bits_file_property_value
             - name: BITS_JOB_PROPERTY_VALUE
               href: /windows/win32/api/Bits5_0/ns-bits5_0-bits_job_property_value
-        - name: BITS 上傳通訊協定
+        - name: BITS Upload 通訊協定
           href: bits-upload-protocol.md
           items:
             - name: BITS 要求封包

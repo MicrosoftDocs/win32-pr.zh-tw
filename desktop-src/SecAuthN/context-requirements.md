@@ -4,12 +4,12 @@ ms.assetid: 4a44b829-4202-46c0-b17e-04943fa067ab
 title: 內容需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86af5f71557bdd53229b5c8ed6afc14dc24edb46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4f15baafe2d6dc9d9bf383fecdd8cf30c387d3def16089128346ee60d79d0fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008936"
 ---
 # <a name="context-requirements"></a>內容需求
 

@@ -4,12 +4,12 @@ ms.assetid: 34ac0b34-1d1b-4657-a737-27a4ed9326af
 title: 回答
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e08081b32b7ba3a3a24cde3ec37c1a6118582cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5336f3dfc13690be029b68944df7339d2a3b22dfd29b5da4bb5110287b4e630
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118871961"
 ---
 # <a name="answer"></a>回答
 

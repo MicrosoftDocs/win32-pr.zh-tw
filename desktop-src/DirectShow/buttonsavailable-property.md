@@ -4,17 +4,17 @@ ms.assetid: 4df3a7e7-1be4-4cc7-ad61-567f7f45811e
 title: ButtonsAvailable 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72cab4afdd9f6e23a376bb72885810b8464f180d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a16e14675238711ef0b572477334fecba0311ca2bb54d67fc3fe012ae6d1ede9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955557"
 ---
 # <a name="buttonsavailable-property"></a>ButtonsAvailable 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

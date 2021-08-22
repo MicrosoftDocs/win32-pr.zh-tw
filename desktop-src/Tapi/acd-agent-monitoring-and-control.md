@@ -4,12 +4,12 @@ ms.assetid: 2851fe54-f807-4cef-b6ca-2dcc7e1ae6fb
 title: ACD 代理程式監視和控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a52d3cf9387819bada069920099b19da65e6a1e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8986fc31e8b30e8b32c4b347a26abfa46adbd426c20c506553ae2f41ea879a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118872655"
 ---
 # <a name="acd-agent-monitoring-and-control"></a>ACD 代理程式監視和控制
 

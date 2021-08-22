@@ -4,12 +4,12 @@ description: 當使用累加樣式序列化時，您會提供三個常式來操�
 ms.assetid: c7383b4d-94d1-4edd-ac29-c11fb5343156
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 409f8da0881719ec9273f4dd12cc99e3d36c35a3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9bf559e94b4476d5dfabdfbb8f040ce8323bc202f4111e9eae95aa257f8e2b0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929046"
 ---
 # <a name="incremental-serialization"></a>累加式序列化
 
@@ -52,9 +52,9 @@ void __RPC_USER Read (
 
 [**MesIncrementalHandleReset**](/windows/desktop/api/Midles/nf-midles-mesincrementalhandlereset)的 UserState、配置、寫入和讀取參數可以是 **Null** ，表示沒有任何變更。
 
- 
+ 
 
- 
+ 
 
 
 

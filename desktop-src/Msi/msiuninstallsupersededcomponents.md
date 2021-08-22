@@ -4,12 +4,12 @@ ms.assetid: ba9b1b2d-1667-48c8-8f1a-9958a1d170da
 title: MSIUNINSTALLSUPERSEDEDCOMPONENTS 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcc930a258d8faebe71480f466f2b097fe1eda68
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae30e142167e2d080fa4c74c046625338fbf92fd4476b0339d60f77e321ab54a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943939"
 ---
 # <a name="msiuninstallsupersededcomponents-property"></a>MSIUNINSTALLSUPERSEDEDCOMPONENTS 屬性
 
@@ -25,7 +25,7 @@ ms.locfileid: "106979508"
 
 | 需求 | 值 |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Vista、Windows XP、Windows Server 2003 和 Windows Server 2008 上的 Windows Installer 4.5 或 Windows Installer 4.5。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Vista、Windows XP、Windows Server 2003 和 Windows Server 2008 上的安裝程式4.5 或 Windows Installer 4.5。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9c40a397-19ea-4600-97ee-987dd10f4ef8
 title: 使用 SignTool 來驗證檔案簽章
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85e91df7a64a8db48d04ceba9df5fbc3fd358058
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 137a4117b64ca5d62ee2ffe5fb80a7e0751d91f840ce1270482d9e114f4dd61b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107954921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896691"
 ---
 # <a name="using-signtool-to-verify-a-file-signature"></a>使用 SignTool 來驗證檔案簽章
 
@@ -17,7 +17,7 @@ ms.locfileid: "107954921"
 
 **SignTool 確認** *MyControl.exe*
 
-如果上述範例失敗，可能是簽章使用程式碼簽署憑證。 [SignTool](signtool.md) 預設為 Windows 驅動程式原則以進行驗證。
+如果上述範例失敗，可能是簽章使用程式碼簽署憑證。 [SignTool](signtool.md)預設為驗證 Windows 的驅動程式原則。
 
 下列命令會使用預設驗證驗證原則來驗證簽章：
 

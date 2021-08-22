@@ -4,12 +4,12 @@ ms.assetid: 85e88e0b-057b-42c7-a3c8-017a30195d1e
 title: ASN. 1 類型系統
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abbf60bf61e32c5fca882f2e40c946c043ef93e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e0b5b9780057229d301bbabcdf2484c66bf06b4313587b0e70a68070885a179
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905073"
 ---
 # <a name="asn1-type-system"></a>ASN. 1 類型系統
 
@@ -76,7 +76,7 @@ AttributeSetValue ::= SET OF ANY
 
 高階要求結構 **CertificationRequestInfo** 是由其他類型的序列所組成的型別。 當類型為或只包含基本類型、字串類型或 **任何** 類型時，就無法進一步細分。 例如，[ **版本** ] 欄位是一種 **CertificationRequestInfoVersion** 型別，也就是 **整數** 類型，這是一個不是從其他型別組成的基本 asn.1 型別。
 
-型別系統可讓要求的語法以視覺化方式呈現，以方便開發人員理解，並可讓要求一致地編碼，以便透過網路傳輸。 如需編碼的詳細資訊，請參閱 [可辨別編碼規則](distinguished-encoding-rules.md)。 如需有關 asn.1 類型的詳細資訊，請參閱下列主題。
+型別系統可讓要求的語法以視覺化方式呈現，以方便開發人員理解，並可讓要求一致地編碼，以便透過網路傳輸。 如需編碼的詳細資訊，請參閱[可辨別編碼規則](distinguished-encoding-rules.md)。 如需有關 asn.1 類型的詳細資訊，請參閱下列主題。
 
 [基本類型](about-basic-types.md)
 

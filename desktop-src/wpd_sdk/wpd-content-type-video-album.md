@@ -4,12 +4,12 @@ ms.assetid: 0445a7de-1a2d-4369-b1f6-588fd6f2c999
 title: WPD_CONTENT_TYPE_VIDEO_ALBUM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4f358ebf9b3a1dad14cc4354e8bd53e86b159be
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 727fc64639c52833142eb70b681c2e4f05bbb555f08b069011238deb0df0e3c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026756"
 ---
 # <a name="wpd_content_type_video_album"></a>WPD \_ 內容 \_ 類型 \_ 影片 \_ 專輯
 

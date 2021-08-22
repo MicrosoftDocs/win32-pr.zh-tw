@@ -4,12 +4,12 @@ ms.assetid: 8f47d7a5-db45-4a41-8af2-9fc6b373a531
 title: 字型嵌入函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ece5b413be5489bf51df38fd92b6f3167823506
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fe820c8b9e6a17f148705599d77ea08bbc4b3f8d52821c171c9e86ca13e2ad1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761181"
 ---
 # <a name="font-embedding-functions"></a>字型嵌入函式
 

@@ -4,12 +4,12 @@ ms.assetid: d0124dd3-5074-4742-9565-d86576214761
 title: 安全性詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 423b3765f571d6fba98e71b294c7dd5383d241c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c123070109427cf7e0547b329cbed467605a8025ffdbcea48874d3226827b627
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895277"
 ---
 # <a name="security-glossary"></a>安全性詞彙
 

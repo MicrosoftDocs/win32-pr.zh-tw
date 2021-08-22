@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、進行非同步呼叫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa06f60b43a7dff3a29223ff1d8e9ad726c0e938
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 93d8399071cae6ea39aaac3f966e7e799b2c93b32a152048a7d18282b465f929
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928374"
 ---
 # <a name="making-the-asynchronous-call"></a>進行非同步呼叫
 
@@ -23,7 +23,7 @@ ms.locfileid: "106965441"
 
 -   事件。 用戶端可以指定當呼叫完成時要引發的事件。 如需詳細資訊，請參閱 [事件物件](/windows/desktop/Sync/event-objects)。
 -   輪詢。 用戶端可以重複呼叫 [**RpcAsyncGetCallStatus**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncgetcallstatus)。 如果傳回值是 RPC S ASYNC CALL PENDING 以外的任何其他值 \_ \_ \_ \_ ，則呼叫已完成。 這個方法所使用的 CPU 時間比這裡所述的其他方法更多。
--   Apc。 用戶端可以指定呼叫完成時呼叫的 [ (APC) 的非同步程序呼叫 ](/windows/desktop/Sync/asynchronous-procedure-calls) 。 如需 APC 函數的原型，請參閱 [**RPCNOTIFICATION \_ 常式**](/previous-versions/aa375808(v=vs.80))。 將其事件參數設定為 RpcCallComplete 時，會呼叫 APC。 若要讓 Apc 分派，用戶端執行緒必須處於可提供警示等候狀態。
+-   APC。 用戶端可以指定呼叫完成時呼叫的 [ (APC) 的非同步程序呼叫 ](/windows/desktop/Sync/asynchronous-procedure-calls) 。 如需 APC 函數的原型，請參閱 [**RPCNOTIFICATION \_ 常式**](/previous-versions/aa375808(v=vs.80))。 將其事件參數設定為 RpcCallComplete 時，會呼叫 APC。 若要讓 Apc 分派，用戶端執行緒必須處於可提供警示等候狀態。
 
     如果非同步控制碼中的 **hThread** 欄位設定為0，則 apc 會排入進行非同步呼叫的執行緒上。 如果非零，則會將 Apc 排入 m 所指定的執行緒上。
 
@@ -93,8 +93,8 @@ RpcEndExcept
 > [!Note]  
 > 如果在非同步呼叫期間引發 RPC 例外狀況，則不會從非同步 RPC 常式傳回完成的通知。
 
- 
+ 
 
- 
+ 
 
- 
+ 

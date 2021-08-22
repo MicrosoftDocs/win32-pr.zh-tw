@@ -4,18 +4,18 @@ ms.assetid: 058086ab-8ebd-4ff6-b552-8d3c19ae5d38
 title: 在 c + + 中使用商務邏輯來限定存取權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e176fb9cbb221fb52404e22c7ba61d272897082c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c187ebf5e7e532d0d807e470e4383ddfc9c31c80e8e97198b579a1a488bece7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118912114"
 ---
 # <a name="qualifying-access-with-business-logic-in-c"></a>在 c + + 中使用商務邏輯來限定存取權
 
 使用商務規則腳本來提供用來檢查存取的執行時間邏輯。 如需商務規則的詳細資訊，請參閱 [商務規則](business-rules.md)。
 
-若要將商務規則指派給工作，請先設定代表工作之 [**IAzTask**](/windows/desktop/api/Azroles/nn-azroles-iaztask)物件的 [**BizRuleLanguage**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrulelanguage)屬性。 腳本必須在 Visual Basic Scripting Edition 或 JScript 中。 指定指令碼語言之後，請使用腳本的字串表示來設定 **IAzTask** 物件的 [**BizRule**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrule)屬性。
+若要將商務規則指派給工作，請先設定代表工作之 [**IAzTask**](/windows/desktop/api/Azroles/nn-azroles-iaztask)物件的 [**BizRuleLanguage**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrulelanguage)屬性。 腳本必須在 Visual Basic 腳本撰寫版或 JScript 中。 指定指令碼語言之後，請使用腳本的字串表示來設定 **IAzTask** 物件的 [**BizRule**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrule)屬性。
 
 當檢查具有相關聯之商務規則的工作所包含之作業的存取權時，應用程式必須建立兩個相同大小的陣列，才能傳遞為 [**IAzClientCoNtext：： AccessCheck**](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-accesscheck)方法的 *varParameterNames* 和 *varParameterValues* 參數。 如需建立用戶端內容的詳細資訊，請參閱 [在 c + + 中使用授權管理員建立用戶端內容](establishing-a-client-context-with-authorization-manager-in-c--.md)。
 

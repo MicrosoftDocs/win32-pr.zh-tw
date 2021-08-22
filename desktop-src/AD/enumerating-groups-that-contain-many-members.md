@@ -8,12 +8,12 @@ keywords:
 - 群組 Active Directory，列舉具有許多成員的群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7cab63b809fdbd2666f39a09d32f601346da00e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 550ec2f4a77938b26e2273d468d3f9740d637249501aa2396fef3744cd105060
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695136"
 ---
 # <a name="enumerating-groups-that-contain-many-members"></a>列舉包含許多成員的群組
 

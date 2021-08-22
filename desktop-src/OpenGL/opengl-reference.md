@@ -6,12 +6,12 @@ keywords:
 - OpenGL、reference
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c848ea6aa274ecd2a6b233a37a52c9195c620f51
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 87f6dddf98053cae7d5c15141bb17cd402bff46cab7c01763fcc274cb99b124d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936757"
 ---
 # <a name="opengl-reference"></a>OpenGL 參考
 
@@ -21,9 +21,9 @@ OpenGL 提供的 API 元素分為下列三個部分：
 -   [GL 函數](gl-functions.md)
 -   [X.GLU 隊函式](glu-functions.md)
 
- 
+ 
 
- 
+ 
 
 
 

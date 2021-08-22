@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0bc2c16b85924a1e4e4dc7d985eeec40214d82e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2d76079422d2d09016d42752c742a5e6da761bed5cc69f4ca0be632212194ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118763980"
 ---
 # <a name="jet_recposcentriestotal-property"></a>JET_RECPOS centriesTotal 屬性
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102832
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a6c59b8501631b071da52b2b1a4f8a18beb27f69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 469455c64503ee07dd2898851e70fd94f875ff55ca5e048a8afd63334aa6bb49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118771425"
 ---
 # <a name="esentslvstreamingfilefullexception-properties"></a>EsentSLVStreamingFileFullException 屬性
 
