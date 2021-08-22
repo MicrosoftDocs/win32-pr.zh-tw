@@ -3,16 +3,16 @@ title: 緩衝處理內容
 description: 緩衝處理內容
 ms.assetid: e14e0130-aefd-4e46-b288-4302d2333de2
 keywords:
-- Windows Media Format SDK，緩衝內容
+- Windows媒體格式 SDK，緩衝內容
 - 緩衝處理內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a06b378431653f21be742c12b4e4a5ae2a994318
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3005895f7a196073566c32bb455f5808bf6f11feb491000b140e1bbf88b94b7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586988"
 ---
 # <a name="buffering-content"></a>緩衝處理內容
 
@@ -37,9 +37,9 @@ ms.locfileid: "106967807"
 [**輸入、串流和輸出**](inputs-streams-and-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

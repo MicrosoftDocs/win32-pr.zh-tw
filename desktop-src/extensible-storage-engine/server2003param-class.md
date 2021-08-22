@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5f6437a378d14be73b60274114e79708b6a97f76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b59a4621dff6e12e0c0b91f6c3c0caa78a2a6d38bfc213c3ce0d2c737ff2c4e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119559568"
 ---
 # <a name="server2003param-class"></a>Server2003Param 類別
 

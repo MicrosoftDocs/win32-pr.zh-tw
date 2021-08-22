@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - BEvtCol.exe
-ms.openlocfilehash: 7fb713f98709f65de5fa32424f8a3484edaac758
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a58168995adf81f01d20486bcb7ceeef85b9424b2034da98ef628e098a674f39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529638"
 ---
 # <a name="targetforwardinghistory-class"></a>TargetForwardingHistory 類別
 

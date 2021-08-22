@@ -11,12 +11,12 @@ keywords:
 - 外觀，範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cab7b25dc33da70a627f8b0e126d6797b1bcdd9f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1bbd50cb4ad0dbd76babd99439a885f9e77557d04e18f2698bb970effa23d6b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615923"
 ---
 # <a name="simple-art-example"></a>簡易藝術範例
 
@@ -86,7 +86,7 @@ ms.locfileid: "103672872"
 
 如需如何撰寫 XML 程式碼的詳細資料，請參閱面板 [建立指南](skin-creation-guide.md)，但為了顯示建立工作面板所需的程式碼，以下是此範例中的插圖程式碼。
 
-預先定義的按鈕用於播放和停止功能。 您必須從 Windows Media 錨點載入檔案或播放清單。 當 Windows Media Player 變更為面板模式時，螢幕右下角會出現一個小方塊。 此方塊稱為「錨點」。 按一下錨點可提供您所需的最小功能，以防面板無法返回 Windows Media Player 的完整模式。 使用者可以使用 [ **View** ] 功能表（如果處於完整模式），或是在面板模式下按一下錨點來切換模式。
+預先定義的按鈕用於播放和停止功能。 您必須從 Windows 媒體錨點載入檔案或播放清單。 當 Windows Media Player 變更為面板模式時，螢幕右下角會出現一個小方塊。 此方塊稱為「錨點」。 按一下錨點可提供您所需的最小功能，以防面板無法返回 Windows Media Player 的完整模式。 使用者可以使用 [ **View** ] 功能表（如果處於完整模式），或是在面板模式下按一下錨點來切換模式。
 
 
 ```C++
@@ -121,9 +121,9 @@ ms.locfileid: "103672872"
 [**美工檔案**](art-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

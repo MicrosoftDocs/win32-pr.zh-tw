@@ -4,18 +4,18 @@ ms.assetid: adfe6d05-f30b-40a1-b3b0-58e2593e7b25
 title: 解除擱置中的 i/o 作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3d108409eea32cf18a94f83bf7aacd282c60d3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6ca0f938420888934dccb28c9837bdff5dd8515bbdeeb1b3acf4078ae558ccd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119534118"
 ---
 # <a name="canceling-pending-io-operations"></a>解除擱置中的 i/o 作業
 
 允許使用者取消緩慢或封鎖的 i/o 要求，可以增強應用程式的可用性和穩定性。 例如，如果對 [**OpenFile**](/windows/desktop/api/WinBase/nf-winbase-openfile) 函式的呼叫因為呼叫速度非常緩慢的裝置而遭到封鎖，則取消它可讓您使用新的參數重新呼叫，而不需要終止應用程式。
 
-Windows Vista 擴充了取消功能，並包含取消同步作業的支援。
+WindowsVista 擴充了取消功能，並包含取消同步作業的支援。
 
 **注意**  呼叫 [**CancelIoEx**](cancelioex-func.md) 函數並不保證會取消 i/o 作業;正在處理作業的驅動程式必須支援取消作業，而且作業必須處於可取消的狀態。
 

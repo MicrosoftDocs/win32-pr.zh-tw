@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da38ca1d6605fdc3cd6cf73cdd017404b71961e7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b116bc4ae517d0767d794767ad5232d8537033d62a099a3906f9f2ca96a7166c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493748"
 ---
 # <a name="glgetteximage-function"></a>glGetTexImage 函式
 
@@ -89,7 +89,7 @@ void WINAPI glGetTexImage(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                |
+| 名稱                                                                                                  | 意義                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標*、 *格式* 或 *類型* 不是可接受的值。<br/>                                                                    |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *層級* 小於零或大於 *log* 2 (*max*) ，其中 *max* 是 GL \_ 最大 \_ 紋理大小的傳回值 \_ 。<br/>      |

@@ -4,12 +4,12 @@ ms.assetid: 01559d29-9c7b-4842-a1f7-16552adbda43
 title: mstop 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a63f52a1b912392165293e008074cf64a03b9751
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b9d432c3ed9ff80a9252def74fb553ed307668b36e660d96963baae0f4d0db04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072933"
 ---
 # <a name="mstop-attribute"></a>mstop 屬性
 

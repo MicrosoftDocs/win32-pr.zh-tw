@@ -139,7 +139,7 @@ HRESULT Proc6(
 [**out**](out-idl.md)
 </dt> <dt>
 
-[**string**](string.md)
+[**字串**](string.md)
 </dt> </dl>
 
  

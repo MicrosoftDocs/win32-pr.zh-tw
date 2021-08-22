@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec6e926d69d9d2c504d33591d9a72d741911193c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 201cc8350b3fb248d85b1d57fc186c526a9f814a7f3411703834ce81ca176c4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054646"
 ---
 # <a name="listboxreadonly"></a>LISTBOX. readOnly
 
@@ -48,7 +48,7 @@ ms.locfileid: "106995934"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

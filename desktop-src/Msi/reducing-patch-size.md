@@ -4,12 +4,12 @@ ms.assetid: ab5b193d-79ce-4ed4-af53-89a4197197c1
 title: 減少修補程式大小
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fa365e831ab8685073347dc254bac58269135f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f9024307ecb0971b02c93036dd0de2aefbe797dcf5645f0f07045c4df8956a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119534078"
 ---
 # <a name="reducing-patch-size"></a>減少修補程式大小
 
@@ -17,11 +17,11 @@ ms.locfileid: "106981564"
 
 **Windows Installer 2.0：** 不支援。 從 Windows Installer 3.0 開始，安裝程式會選擇性地儲存更新檔案時的相關基準資訊。
 
-Windows Installer 提供三種方法來更新和服務應用程式： [小型更新](small-updates.md)、 [次要升級](minor-upgrades.md)和 [主要升級](major-upgrades.md)。 小型更新也稱為快速修正工程 (QFE) 更新，而次要升級也稱為 service pack (SP) update。 一般的主要升級會移除先前的應用程式，並安裝新的應用程式。 Windows Installer 可以將服務資訊以 [安裝套件](installation-package.md) 的形式提供給應用程式 ( .msi 檔案) 或作為 [修補套件](patch-packages.md) ( .msp 檔) 。
+Windows安裝程式提供三種方法來更新和服務應用程式：[小型更新](small-updates.md)、[次要升級](minor-upgrades.md)和[主要升級](major-upgrades.md)。 小型更新也稱為快速修正工程 (QFE) 更新，而次要升級也稱為 service pack (SP) update。 一般的主要升級會移除先前的應用程式，並安裝新的應用程式。 Windows安裝程式可以將服務資訊以[安裝套件](installation-package.md)的形式提供給應用程式， (.msi 檔案) 或作為[修補套件](patch-packages.md) ( .msp 檔) 。
 
 針對小型更新或次要升級提供服務資訊的 Windows Installer 修補套件，通常比提供相同服務資訊的對等安裝套件小很多。 建議將修補套件用於小型和次要升級的散發。 建議您將安裝套件用於散發主要升級。
 
-Windows Installer 修補程式 ( .msp 檔) 可以從完整的檔案或檔案差異產生， (也稱為檔案差異。 ) 從檔案差異產生的 Windows Installer 修補程式可能會比對等的完整檔案修補程式小得多。 所有版本的 Windows Installer 都可以使用完整檔案修補程式或 delta 修補程式。
+Windows安裝程式修補程式 ( .msp 檔) 可以從完整的檔案或檔案差異產生 (也稱為檔案差異。 ) 從檔案差異產生的 Windows Installer 修補程式可能會比對等的完整檔案修補程式小得多。 所有版本的 Windows Installer 都可以使用完整檔案修補程式或 delta 修補程式。
 
 從 Windows Installer 版本3.0 開始，安裝程式會選擇性地儲存更新檔案時的相關基準資訊。  (RTM 版本) 的原始基底應用程式相關資訊，以及最新的次要升級 (service pack) 會在應用程式安裝或收到次要升級時儲存在私人位置。
 

@@ -4,12 +4,12 @@ ms.assetid: 31d59f17-552b-46d1-89e4-751216f54280
 title: 設定交錯喜好設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be52ae3023c8e4bc83c3305a104c389f423cffd6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 33dae356618653f501b56f8b7a7eeb98e24ee92eb196cac78466e8cd26c01610
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072572"
 ---
 # <a name="setting-deinterlace-preferences"></a>設定交錯喜好設定
 

@@ -1,21 +1,21 @@
 ---
-title: Windows Virtual PC 介面
+title: Windows虛擬 PC 介面
 description: Windows Virtual PC 支援下列介面。
 ms.assetid: de003075-8609-4303-838e-da449b91dc8d
 keywords:
-- Windows Virtual PC Virtual PC，介面
+- WindowsVirtual PC Virtual PC，介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4a505fab360214d92b844c282fe12722281770f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 963574a5293a7c48b29096e3dbc563c0f2073c7a697f84a86fa0b5750feeabe9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511758"
 ---
-# <a name="windows-virtual-pc-interfaces"></a>Windows Virtual PC 介面
+# <a name="windows-virtual-pc-interfaces"></a>Windows虛擬 PC 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 Windows Virtual PC 支援下列介面。
 
@@ -49,22 +49,22 @@ Windows Virtual PC 支援下列介面。
 | [**IVMUSBDevice**](ivmusbdevice.md)<br/>                                       | 定義連接至主機系統的 USB 裝置介面。<br/>                                    |
 | [**IVMUSBDeviceCollection**](ivmusbdevicecollection.md)<br/>                   | 定義連接至主機系統的 USB 裝置集合。<br/>                                     |
 | [**IVMVirtualMachine**](ivmvirtualmachine.md)<br/>                             | 定義 VM 的介面。<br/>                                                                        |
-| [**IVMVirtualMachineCollection**](ivmvirtualmachinecollection.md)<br/>         | 定義 Windows Virtual PC 中的 Vm 集合。<br/>                                               |
+| [**IVMVirtualMachineCollection**](ivmvirtualmachinecollection.md)<br/>         | 定義虛擬 PC Windows 內的虛擬機器集合。<br/>                                               |
 | [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md)<br/>                 | 定義 [**IVMVirtualMachine**](ivmvirtualmachine.md) 介面的外寄事件介面。<br/> |
 | [**IVMVirtualNetwork**](ivmvirtualnetwork.md)<br/>                             | 定義虛擬網路。<br/>                                                                             |
 | [**IVMVirtualNetworkCollection**](ivmvirtualnetworkcollection.md)<br/>         | 定義 [**IVMVirtualNetwork**](ivmvirtualnetwork.md) 物件的集合。<br/>                        |
-| [**IVMVirtualPC**](ivmvirtualpc.md)<br/>                                       | 定義最上層的 Windows Virtual PC 應用程式物件。<br/>                                           |
+| [**IVMVirtualPC**](ivmvirtualpc.md)<br/>                                       | 定義頂層 Windows Virtual PC 應用程式物件。<br/>                                           |
 | [**IVMVirtualPCEvents**](ivmvirtualpcevents.md)<br/>                           | 定義 [**IVMVirtualPC**](ivmvirtualpc.md) 介面的外寄事件介面。<br/>           |
 
 
 
  
 
-## <a name="note-for-developers-on-64-bit-windows"></a>適用于64位 Windows 的開發人員注意事項
+## <a name="note-for-developers-on-64-bit-windows"></a>適用于64位 Windows 開發人員注意事項
 
-在64位版本的 Windows 上，Windows Virtual PC 的類型程式庫位於% WinDir% System32 目錄中的64位二進位 (VPC.exe) \\ 。 預設不會顯示該目錄到32位進程;WOW64 預設會將% WinDir% System32 目錄的所有存取對應 \\ 至% windir% \\ SysWOW64 目錄。 Visual Studio 是32位的二進位檔案，因此無法在此位置開啟檔案。 若要產生 Windows Virtual PC 的互通性元件，請使用 Visual Studio 和 Windows SDK 隨附的 TlbImp.exe。 若要產生 *Microsoft.VirtualPC.Interop.dll*，請使用下列命令列：
+在 Windows 的64位版本上，Windows Virtual PC 的類型程式庫位於% WinDir% System32 目錄中的64位二進位 (VPC.exe) \\ 。 預設不會顯示該目錄到32位進程;WOW64 預設會將% WinDir% System32 目錄的所有存取對應 \\ 至% windir% \\ SysWOW64 目錄。 Visual Studio 是32位的二進位檔案，因此無法在此位置開啟檔案。 若要產生 Windows Virtual PC 的互通性元件，請使用 Visual Studio 和 Windows SDK 隨附的 TlbImp.exe。 若要產生 *Microsoft.VirtualPC.Interop.dll*，請使用下列命令列：
 
-**TlbImp.exe/out： * * * Microsoft.VirtualPC.Interop.dll* **/namespace： Microsoft. VirtualPC. Interop% WinDir% \\ System32 \\VPC.exe**
+**TlbImp.exe/out：** _Microsoft.VirtualPC.Interop.dll_ **/namespace： Microsoft. VirtualPC。 Interop% WinDir% \\ System32 \\VPC.exe**
 
 其他方案包括將 VPC.exe 複製到不同的目錄，讓編譯器可以找到它，或使用 Windows SDK 中的 OleView.exe 工具，從 VPC.exe 的類型程式庫中解壓縮 .idl 檔。
 

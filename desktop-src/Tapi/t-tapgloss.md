@@ -5,12 +5,12 @@ ms.assetid: 36b1d6c3-2d57-4b38-a35f-6bf632411c6e
 title: 'T (電話語音 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 342a27d4ed54458f8645ac5bb49b7ea49baafb02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fef6d897365042552429cc7679363c2e23152cef6492dfc84f25b6b32fb7a99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518398"
 ---
 # <a name="t-telephony-api"></a>T (電話語音 API) 
 
@@ -25,7 +25,7 @@ ms.locfileid: "103849226"
 
 </dd> <dt>
 
-<span id="tapi2.tapi_tapgloss"></span><span id="TAPI2.TAPI_TAPGLOSS"></span>**Tapi**
+<span id="tapi2.tapi_tapgloss"></span><span id="TAPI2.TAPI_TAPGLOSS"></span>**TAPI**
 </dt> <dd>
 
 請參閱 *(TAPI) 的電話語音應用程式設計介面*。
@@ -39,7 +39,7 @@ ms.locfileid: "103849226"
 
 </dd> <dt>
 
-<span id="tapi2.tdd_tapgloss"></span><span id="TAPI2.TDD_TAPGLOSS"></span>**Tdd**
+<span id="tapi2.tdd_tapgloss"></span><span id="TAPI2.TDD_TAPGLOSS"></span>**TDD**
 </dt> <dd>
 
 請參閱 *適用于失聰 (TDD) 的電訊裝置*。
@@ -70,7 +70,7 @@ ms.locfileid: "103849226"
 <span id="tapi2.telephony_service_provider_interface_tspi__tapgloss"></span><span id="TAPI2.TELEPHONY_SERVICE_PROVIDER_INTERFACE_TSPI__TAPGLOSS"></span>**電話語音服務提供者介面 (TSPI)**
 </dt> <dd>
 
-用來建立 Microsoft Windows 作業系統服務提供者的工具。 TSPI 會定義網路與 Windows 電話通訊的資訊，進而與 windows 電話語音應用程式溝通的 API 交談。 如需詳細資訊，請參閱 [電話語音服務提供者介面 (TSPI) ](./telephony-service-provider-interface-tspi-.md)。
+用來為 Microsoft Windows 作業系統建立服務提供者的工具。 TSPI 會定義網路如何與 Windows 的電話語音共用資訊，而這會與 API 通訊，以與 Windows 電話語音應用程式交談。 如需詳細資訊，請參閱 [電話語音服務提供者介面 (TSPI) ](./telephony-service-provider-interface-tspi-.md)。
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ ms.locfileid: "103849226"
 
 </dd> <dt>
 
-<span id="tapi2.ttl_tapgloss"></span><span id="TAPI2.TTL_TAPGLOSS"></span>**Ttl**
+<span id="tapi2.ttl_tapgloss"></span><span id="TAPI2.TTL_TAPGLOSS"></span>**TTL**
 </dt> <dd>
 
 查看 *存留時間 (TTL)*。

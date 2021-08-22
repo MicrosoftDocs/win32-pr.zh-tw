@@ -11,21 +11,21 @@ keywords:
 - 上傳檔案位
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: 9483e297e8b48ad6466846c7eceb8d53b57d3278
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 66bc9af5231454ef63d8c74f9e500baaeb7c8cec9dbdd694943a3809da4a391d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588728"
 ---
 # <a name="background-intelligent-transfer-service"></a>背景智慧型傳送服務
 
-## <a name="purpose"></a>用途
+## <a name="purpose"></a>目的
 
 程式設計師和系統管理員會使用背景智慧型傳送服務 (位) ，從檔案下載檔案或將檔案上傳至 HTTP 網頁伺服器和 SMB 檔案共用。 BITS 會考慮傳送的費用，以及網路使用量，如此一來，使用者的前景工作就越不會受到影響。 BITS 也會處理網路 interuptions、暫停和自動繼續傳輸，即使在重新開機後也一樣。 BITS 包含用於建立和管理傳輸以及 BitsAdmin 命令列公用程式的 PowerShell Cmdlet。
 
 > [!Note]  
-> Windows 可以使用 BITS 將更新下載至您的本機系統。 如果您是使用者搜尋如何針對 BITS 安裝進行疑難排解的方法，請參閱 [修正 Windows Update 問題](https://support.microsoft.com/help/10164/fix-windows-update-errors)。 
+> Windows 可以使用 BITS 將更新下載至您的本機系統。 如果您是使用者搜尋如何針對 BITS 安裝進行疑難排解的方法，請參閱[修正 Windows Update 問題](https://support.microsoft.com/help/10164/fix-windows-update-errors)。 
  
 
 ## <a name="where-applicable"></a>適用時
@@ -40,7 +40,7 @@ ms.locfileid: "110424208"
 
 ## <a name="developer-audience"></a>開發人員對象
 
-BITS 是針對 C 和 c + + 開發人員所設計的 COM 介面，也可供 .NET 開發人員使用。 UWP 開發人員應該使用 [Windows.networking.backgroundtransfer.contentprefetcher](/uwp/api/Windows.Networking.BackgroundTransfer) API，而不是 BITS api。
+BITS 是針對 C 和 c + + 開發人員所設計的 COM 介面，也可供 .NET 開發人員使用。 UWP 開發人員應該使用[Windows。Windows.networking.backgroundtransfer.contentprefetcher](/uwp/api/Windows.Networking.BackgroundTransfer) API，而不是 BITS api。
 
 ## <a name="bits-versions"></a>BITS 版本
 

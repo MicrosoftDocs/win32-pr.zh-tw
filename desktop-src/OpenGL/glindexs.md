@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cdc2036b3aec37c8f727dc38a5186998a5bc80c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 65d3e309d8288765e493cac6c586c873d4bb927ca2d0fc89c3b8c621b2e2ed31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493388"
 ---
 # <a name="glindexs-function"></a>glIndexs 函式
 

@@ -10,12 +10,12 @@ keywords:
 - 屬性，環境
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5157dc3cbb528cf546ff91d879d00c9b3ec2de8f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc81cdfb1775f985ecc63e8823bb36b3107d749a836a792dc9f72dc42b5832a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509678"
 ---
 # <a name="ambient-attributes"></a>環境屬性
 
@@ -35,7 +35,7 @@ ms.locfileid: "103839611"
 | [clippingColor](ambientattributes-clippingcolor.md)             | 指定或抓取從 **clippingImage** 點陣圖裁剪的色彩。                                                           |
 | [clippingImage](ambientattributes-clippingimage.md)             | 指定或抓取要裁剪控制項的區域。                                                                                 |
 | [elementType](ambientattributes-elementtype.md)                 | 抓取 (的元素類型，例如 **按鈕**) 。                                                                             |
-| [啟用](ambientattributes-enabled.md)                         | 指定或抓取值，指出控制項是否已啟用或停用。                                                     |
+| 「已啟用」                         | 指定或抓取值，指出控制項是否已啟用或停用。                                                     |
 | [height](ambientattributes-height.md) (高度)                           | 指定或抓取控制項的高度。                                                                                         |
 | [>horizontalalignment](ambientattributes-horizontalalignment.md) | 指定或抓取值，指出調整 **視圖** 或父子 **視圖** 大小時，控制項的水準位置。 |
 | [id](ambientattributes-id.md)                                   | 指定或抓取控制項的識別碼。 只能在設計階段設定。                                                       |
@@ -53,7 +53,7 @@ ms.locfileid: "103839611"
 
 
 
- 
+ 
 
 下列是環境的方法。
 
@@ -68,7 +68,7 @@ ms.locfileid: "103839611"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -77,9 +77,9 @@ ms.locfileid: "103839611"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

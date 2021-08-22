@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 66eba92daf420fb4bd332d3f7d537b7936618ca6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 976e6b7bd9bf69e483b987da4d8055ffc102e89c67ed83bab6aa09c4e586b1ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531838"
 ---
 # <a name="msvm_compatibilityvector-class"></a>Msvm \_ CompatibilityVector 類別
 
@@ -197,7 +197,7 @@ class Msvm_CompatibilityVector
 
 
 
-| CompareOperation | Description                                      | 虛擬虛擬的比較                |
+| CompareOperation | 描述                                      | 虛擬虛擬的比較                |
 |------------------|--------------------------------------------------|--------------------------------------|
 | VmCcEqual        | VmAttr 必須等於 HostAttr                       | 如果 (VmAttr = = HostAttr)               |
 | VmCcSuperSet     | VmAttr 必須是 HostAttr 的超集合            | 如果 ( (VmAttr & HostAttr) = = HostAttr)  |
@@ -228,8 +228,8 @@ SCVMM 必須執行下列步驟，以判斷 VM 是否與主機相容。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

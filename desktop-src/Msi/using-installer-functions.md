@@ -4,12 +4,12 @@ ms.assetid: 1cb0fd3e-5f39-4a3f-8348-93e74496903d
 title: 使用安裝程式函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da4718c462119ac0e5bef018a595d17551561684
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7dd95671d08fea4fbc3186eaa6736a33ea7e03c1d1f24cb8beb17140972a943
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499348"
 ---
 # <a name="using-installer-functions"></a>使用安裝程式函數
 

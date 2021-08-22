@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9a55e493c737b5a5864ec0a8dd38eee3abbfa586
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 69cff051ecab1a93d9fdceac20143bef7d1959ff523aa5893e5ae9c633aa80f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538138"
 ---
 # <a name="ctransformoutputpinnotify-method"></a>CTransformOutputPin。通知方法
 
@@ -63,7 +63,7 @@ HRESULT Notify(
 
 
 
-| 傳回碼                                                                                       | Description                                                |
+| 傳回碼                                                                                       | 描述                                                |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>              | 成功。<br/>                                        |
 | <dl> <dt>**\_ \_ 找不到 VFW E \_**</dt> </dl> | 找不到接受訊息的物件。<br/> |

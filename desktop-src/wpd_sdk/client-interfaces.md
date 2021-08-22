@@ -4,12 +4,12 @@ ms.assetid: fbe53f17-940a-485e-82b2-c11ae39b3300
 title: 用戶端介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d7c85ec5cb9b35e30d68b1d784cdebf230fdaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b44db8fdd42b20fb2ff7a3224bccf5214147069baa9187facdb1c832c375a59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590390"
 ---
 # <a name="client-interfaces"></a>用戶端介面
 
@@ -30,11 +30,11 @@ ms.locfileid: "103850408"
 | [**IPortableDevicePropertiesBulk**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk)                 | 以非同步方式在裝置上讀取和寫入多個物件的多個屬性。                                                                                                                                               |
 | [**IPortableDevicePropertiesBulkCallback**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback) | 由應用程式執行，以追蹤使用 **IPortableDevicePropertiesBulk** 介面開始之非同步作業的進度。                                                                          |
 | [**IPortableDeviceResources**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceresources)                           | 提供物件資料的存取權。                                                                                                                                                                                                |
-| [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                               | 僅限 Windows 7。 提供可移植裝置服務的低層級存取。                                                                                                                                                             |
-| [**IPortableDeviceServiceCapabilities**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities)              | 僅限 Windows 7。 抓取各種服務功能，包括支援的格式、命令、方法和轉譯設定檔。                                                                                                |
-| [**IPortableDeviceServiceMethods**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods)                 | 僅限 Windows 7。 以同步和非同步方式在服務上叫用方法。                                                                                                                                                      |
-| [**IPortableDeviceServiceMethodCallback**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethodcallback)   | 僅限 Windows 7。 由應用程式所執行，藉由呼叫 [ **IPortableDeviceServiceMethods：： InvokeAsync** 來追蹤非同步服務方法作業的完成。](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync) |
-| [**IPortableDeviceServiceManager**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager)                 | 僅限 Windows 7。 列舉裝置所支援的服務，並抓取與服務相關聯的裝置。                                                                                                             |
+| [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                               | 僅 Windows 7。 提供可移植裝置服務的低層級存取。                                                                                                                                                             |
+| [**IPortableDeviceServiceCapabilities**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities)              | 僅 Windows 7。 抓取各種服務功能，包括支援的格式、命令、方法和轉譯設定檔。                                                                                                |
+| [**IPortableDeviceServiceMethods**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods)                 | 僅 Windows 7。 以同步和非同步方式在服務上叫用方法。                                                                                                                                                      |
+| [**IPortableDeviceServiceMethodCallback**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethodcallback)   | 僅 Windows 7。 由應用程式所執行，藉由呼叫 [ **IPortableDeviceServiceMethods：： InvokeAsync** 來追蹤非同步服務方法作業的完成。](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync) |
+| [**IPortableDeviceServiceManager**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager)                 | 僅 Windows 7。 列舉裝置所支援的服務，並抓取與服務相關聯的裝置。                                                                                                             |
 
 
 

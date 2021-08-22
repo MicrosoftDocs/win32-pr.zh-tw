@@ -13,12 +13,12 @@ keywords:
 - 矩形函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3001153c856c616341b60c4ceacf261a757d70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b0cafbd5e928c2ed1e919a62f5992c5f07ca19c705a9cdfabaa567ec0fbccff6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492158"
 ---
 # <a name="glrect-functions"></a>glRect 函式
 
@@ -33,9 +33,9 @@ ms.locfileid: "104301219"
 -   [**glRectiv**](glrectiv.md)
 -   [**glRectsv**](glrectsv.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: 4834f0c6-4cda-4ef2-96d1-e3f66e09af92
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9462f333d54a72691daf98c58979588918cf298f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dfead20fc6cfeb868fda5cadae42b0ad904fcc0573c98468353a4cf54f6cd377
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532888"
 ---
 # <a name="extended-rights"></a>擴充許可權
 
@@ -76,9 +76,9 @@ ms.locfileid: "104020966"
 [**使用者-強制-變更-密碼**](r-user-force-change-password.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

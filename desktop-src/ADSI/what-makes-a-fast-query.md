@@ -8,18 +8,18 @@ keywords:
 - 查詢 ADSI，如何進行快速查詢
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 883db1e9de7b7b7a1179c814d6f66f774685083e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 134d391c728d543c407ee770081e2ced96afbba86d205462e814d89f74e82a57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589838"
 ---
 # <a name="what-makes-a-fast-query"></a>什麼是快速查詢？
 
 執行查詢時，請考慮下列效能增強概念：
 
--   可能的話，請只篩選索引屬性。 使用您預期會產生最少點擊次數的索引屬性。 如需詳細資訊和 Windows 索引屬性的完整清單，請參閱 [Active Directory 架構](/windows/desktop/ADSchema/active-directory-schema)。
+-   可能的話，請只篩選索引屬性。 使用您預期會產生最少點擊次數的索引屬性。 如需 Windows 的索引屬性的詳細資訊和完整清單，請參閱[Active Directory 架構](/windows/desktop/ADSchema/active-directory-schema)。
 -   搜尋 **objectCategory** 而非 **Objectclass** ，因為 **objectClass** 不是索引屬性。
 -   請留意參考。 如果您的屬性列為 GC 已複寫，請考慮搜尋通用類別目錄。
 -   避免搜尋字串中間和結尾的文字。 例如，"cn = \* hille \* " 或 "cn = \* larouse"。
@@ -30,6 +30,6 @@ ms.locfileid: "103842731"
 -   系結至物件，以保存會話其餘部分的系結控制碼。 請勿系結和解除系結每個呼叫。 如果您使用的是 ADO 或 OLE DB，請勿建立許多連線物件。
 -   讀取 rootDSE 一次，並記住其內容以供會話的其餘部分之用。
 
- 
+ 
 
- 
+ 

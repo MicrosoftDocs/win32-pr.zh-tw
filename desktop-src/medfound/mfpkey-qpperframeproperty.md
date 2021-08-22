@@ -4,12 +4,12 @@ ms.assetid: 927c2fd3-9790-4e23-98f5-f3ac0c0d77dc
 title: 'MFPKEY_QPPERFRAME 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bccaabcc5c123f16f00d43ac81b77e21c155b5c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 00c9bf24c3d4d6851fee63cc6352bdc6a1f550a380f42c58795e6fe6f27a5a0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663228"
 ---
 # <a name="mfpkey_qpperframe-property"></a>MFPKEY \_ QPPERFRAME 屬性
 

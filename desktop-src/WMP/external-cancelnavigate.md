@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55a6cbc0f749fd6ca33d78dfaed1d256634eb9c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 152594a427282a27c493f33f648b8a889a855f40a5fb13de69b7cc342099eed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649428"
 ---
 # <a name="externalcancelnavigate-method"></a>CancelNavigate 方法
 
@@ -30,7 +30,7 @@ ms.locfileid: "107000465"
 
  
 
-**CancelNavigate** 方法會通知 Windows Media Player，即使播放程式中的視圖已經變更，也不應該顯示新的 [探索] 頁面。
+**cancelNavigate** 方法會通知 Windows Media Player，即使播放程式中的視圖已經變更，也不應該顯示新的 [探索] 頁面。
 
 ## <a name="syntax"></a>語法
 

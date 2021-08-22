@@ -4,12 +4,12 @@ ms.assetid: a9aaa999-529c-46e1-9a3f-b6fdcbeb5b51
 title: 畫筆樣式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f447839627f97d7662fdef35bd7088ef7b0dcba5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42cc82510c58d36cec76039488ecc13c826609a0870b929f18d82282a87ba8cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666508"
 ---
 # <a name="pen-style"></a>畫筆樣式
 

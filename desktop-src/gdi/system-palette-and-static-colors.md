@@ -4,12 +4,12 @@ ms.assetid: be258151-36cc-42ba-8005-ff9d8e59b894
 title: 系統調色板和靜態色彩
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 537bdc87fecdd055334b83a56b0a53f9999be94c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ffc555331ea7ad14675b4155a76d14cc61f3bef3fa7e92b331ad89449b97884
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613378"
 ---
 # <a name="system-palette-and-static-colors"></a>系統調色板和靜態色彩
 

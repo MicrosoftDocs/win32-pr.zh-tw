@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 限定詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90b14dc8f1f73571fc2c449e55c30034f86c2453
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2dcf51888592949aadefec7c864dc0a24df6a4fa68f6fb34c8e3cda880da6873
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502808"
 ---
 # <a name="wmi-qualifiers"></a>WMI 限定詞
 
@@ -20,7 +20,7 @@ WMI 有數種類型的類別和屬性 [*限定詞*](gloss-q.md)。 限定詞也�
 
 
 
-| 限定詞類型                              | Description                                                                                                                           |
+| 限定詞類型                              | 描述                                                                                                                           |
 |---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | [元](meta-qualifiers.md)                 | 藉由闡明類別或屬性宣告的實際使用方式，來改善中繼結構的定義。                          |
 | [選擇性](optional-qualifiers.md)         | 解決所有符合 CIM 規範的情況下不常見的情況。                                                                 |

@@ -1,5 +1,5 @@
 ---
-description: 包含 RemoteFX 實體圖形處理器 (GPU) 的相關資訊。
+description: 包含 RemoteFX 實體圖形處理單位 (GPU) 的相關資訊。
 ms.assetid: 86B47AAE-DBFF-43EF-88C6-44836D6C3AFA
 title: Msvm_PhysicalGPUInfo 類別
 ms.topic: reference
@@ -21,16 +21,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: cd4ccf65b364620e84063ea6398c59dd0e467f67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a95310d4f2bc747ddf9d78ce485e1d3756a7507f5798d1e61b6c79dc46bf2b5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520888"
 ---
 # <a name="msvm_physicalgpuinfo-class"></a>Msvm \_ PhysicalGPUInfo 類別
 
-包含 RemoteFX 實體圖形處理器 (GPU) 的相關資訊。
+包含 RemoteFX 實體圖形處理單位 (GPU) 的相關資訊。
 
 下列語法已簡化受控物件格式 (MOF) 程式碼，並且包含所有繼承的屬性。
 
@@ -72,7 +72,7 @@ class Msvm_PhysicalGPUInfo : CIM_ManagedElement
 存取類型：唯讀
 </dt> </dl>
 
-可供 RemoteFX 使用的實體 GPU 上未使用的視訊記憶體數量（以位元組為單位）。
+RemoteFX 可使用的實體 GPU 上未使用的影片記憶體數量（以位元組為單位）。
 
 </dd> <dt>
 
@@ -172,7 +172,7 @@ class Msvm_PhysicalGPUInfo : CIM_ManagedElement
 存取類型：唯讀
 </dt> </dl>
 
-可供 RemoteFX 使用之實體 GPU 的視訊記憶體總量（以位元組為單位）。
+RemoteFX 所能使用之實體 GPU 的視訊記憶體總量（以位元組為單位）。
 
 </dd> </dl>
 
@@ -182,8 +182,8 @@ class Msvm_PhysicalGPUInfo : CIM_ManagedElement
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

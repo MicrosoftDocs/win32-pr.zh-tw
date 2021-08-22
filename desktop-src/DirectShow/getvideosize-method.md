@@ -4,17 +4,17 @@ ms.assetid: 50db2c15-4064-4d18-94f0-f6cf05f1d236
 title: GetVideoSize 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89b96d01c3f22eaae78a442f3496f3c7c7416eac
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 21746242211357e9e58e825d8e217799953dd569e91765acabe11fc2252d17c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119536588"
 ---
 # <a name="getvideosize-method"></a>GetVideoSize 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 
