@@ -3,7 +3,7 @@ title: 'LVM_GETSUBITEMRECT 訊息 (Commctrl .h) '
 description: 針對清單視圖控制項中的子工作，取得周框矩形的相關資訊。
 ms.assetid: 985876b2-6eb3-4c96-88ea-ddec67ef5b5a
 keywords:
-- LVM_GETSUBITEMRECT message Windows 控制項
+- LVM_GETSUBITEMRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd1184c52d60b86e008685b87c9f5555cf801b35
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 651be72c23113940fc30adb2e7a9de581289a8f4ddf580f27d01e2edf337c053
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119293888"
 ---
 # <a name="lvm_getsubitemrect-message"></a>LVM \_ GETSUBITEMRECT 訊息
 
@@ -81,8 +81,8 @@ ms.locfileid: "104105491"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

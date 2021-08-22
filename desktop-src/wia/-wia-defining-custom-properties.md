@@ -4,18 +4,18 @@ ms.assetid: 6adcf414-2c5a-451c-b30a-d1c161886c9a
 title: 定義自訂屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd91ee4d4e657ce0d6c01330d85e8df4ef57a36d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b78516913c898e3b3d814e96a40d227cc3cc1cc70c13a290949f91eb9f447c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119348048"
 ---
 # <a name="defining-custom-properties"></a>定義自訂屬性
 
 **定義自訂屬性**。
 
-如果 Windows 映像取得需要 (WIA) 迷你驅動程式來定義自訂屬性，則應該使用 [WIA \_ 私用 \_ DEVPROP] 屬性作為 [自訂根專案屬性]，而 [wia \_ 私用 \_ ITEMPROP] 屬性則應該用於其他專案屬性。 這些常數定義于 *wiadef* 中。
+如果 Windows 的影像取得需要 (WIA) 迷你驅動程式來定義自訂屬性，則應該將 [wia \_ 私 \_ 用 DEVPROP] 屬性用於自訂根專案屬性，而 [wia \_ 私用 \_ ITEMPROP] 屬性則應該用於其他專案屬性。 這些常數定義于 *wiadef* 中。
 
 下列範例程式碼顯示三個根專案屬性的定義。 第一個自訂根項目屬性的屬性識別碼（自訂 \_ 根項目 \_ \_ 1）是根據 WIA 私用 \_ DEVPROP 所定義 \_ 。 其他根專案屬性的屬性識別碼是根據 WIA \_ 私用 \_ DEVPROP + 1、wia 私用 \_ \_ DEVPROP + 2 等專案來定義。 如果需要額外的自訂根專案屬性，則可以繼續模式。
 

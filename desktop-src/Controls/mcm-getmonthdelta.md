@@ -3,7 +3,7 @@ title: 'MCM_GETMONTHDELTA 訊息 (Commctrl .h) '
 description: 抓取月曆控制項的滾動速率。 捲軸速率是當使用者按一下滾動按鈕時，控制項移動其顯示的月數。 您可以使用 MonthCal GetMonthDelta 宏明確地傳送此訊息 \_ 。
 ms.assetid: 6db02993-b22c-430f-8928-8bd5768b2151
 keywords:
-- MCM_GETMONTHDELTA message Windows 控制項
+- MCM_GETMONTHDELTA 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01eaa40b930e6317cc2be6b674f0cea58115ae40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c13a13d75a1655c1082b4b4611517915be14e27b0fb1c5f94fb5a17f6db973e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119319608"
 ---
 # <a name="mcm_getmonthdelta-message"></a>MCM \_ GETMONTHDELTA 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104106661"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

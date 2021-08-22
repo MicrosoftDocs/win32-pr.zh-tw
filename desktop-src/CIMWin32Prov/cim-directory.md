@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cebab65cc067018b3a57aa5f6890fffad1cb4c7a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 38f41b28689ac8ae4bebc29248e27d8e6b17eae1b265237acd91ed2b03d97c9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321598"
 ---
 # <a name="cim_directory-class"></a>CIM \_ 目錄類別
 
@@ -500,7 +500,7 @@ DOS 相容的檔案名。 這個屬性繼承自 [**CIM \_ LogicalFile**](cim-log
 
 </dd> <dt>
 
-**分機**
+**延伸模組**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**

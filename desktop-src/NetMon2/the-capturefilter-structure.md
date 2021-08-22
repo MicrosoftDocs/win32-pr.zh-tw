@@ -4,12 +4,12 @@ ms.assetid: 03cd35f2-4da5-4ef6-b73f-0bf6e0e33135
 title: CAPTUREFILTER 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3962ef9828ce13a1d03c58e4d7744d2854624858
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d5c6d8d8f8baa3710b7dff4e33c98eb8791a65dc76931caa9068bbc1280f33e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119339360"
 ---
 # <a name="the-capturefilter-structure"></a>CAPTUREFILTER 結構
 
@@ -27,7 +27,7 @@ ms.locfileid: "103943507"
 | [位址](writing-addresstable-filter-portion.md)   | 評估來源和目的地位址和位址組。 不同的旗標組合可決定要包含或排除的個別值或位址組組合。                   |
 | [模式比對](writing-the-patternmatch-filter.md) | 定義框架內的複雜模式比對。 針對不同的類型和位移提供旗標。 您可以結合模式比對與邏輯 AND 或 or 運算子語句。                              |
 | [裁剪](clipping-a-frame.md)                     | 以各種位元組值所指定的方式來剪輯框架。 您只能使用這個專案來裁剪所有框架，或將它與其他 capture 濾波器元素搭配使用;例如，若要尋找並裁剪單一畫面格。 |
-| [**觸發**](trigger.md)                           | 此 capture 篩選元素已淘汰。 觸發程式已不再是 capture 篩選準則的一部分;它們現在包含在自己的 BLOB 標籤中，這些標記是個別指定的。                                     |
+| [**觸發程序**](trigger.md)                           | 此 capture 篩選元素已淘汰。 觸發程式已不再是 capture 篩選準則的一部分;它們現在包含在自己的 BLOB 標籤中，這些標記是個別指定的。                                     |
 
 
 

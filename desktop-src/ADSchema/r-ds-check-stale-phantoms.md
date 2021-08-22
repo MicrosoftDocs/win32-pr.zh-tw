@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f280d04a60b539d6559d9e5df830947742663b1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c2dcdec83da65117b0f04b7de08f4cd83abb589cc63fd1b8cfb053d3878e5196
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532358"
 ---
 # <a name="ds-check-stale-phantoms-extended-right"></a>DS-檢查過時-幻像擴充許可權
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b18556cf519c21b01c3e80b63cbfc9cdf9d7d153
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63445f2dbfce88e9793b3563d0ce8ed9861f45fa0831680a455b1a0a04bb4bd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329268"
 ---
 # <a name="commandsmallimages-property"></a>SmallImages 屬性
 
@@ -41,7 +41,7 @@ ms.locfileid: "104466580"
 
 | 元素                                                 | 描述                                        |
 |---------------------------------------------------------|----------------------------------------------------|
-| [**圖像**](windowsribbon-element-image.md)<br/> | 可能會發生一次或多次<br/> <br/> |
+| [**映像**](windowsribbon-element-image.md)<br/> | 可能會發生一次或多次<br/> <br/> |
 
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "104466580"
 
 每個 [**命令**](windowsribbon-element-command.md)最多可能會發生一次。
 
-影像資源必須符合 Windows 中所使用的標準點陣圖 (BMP) 圖形格式。
+影像資源必須符合 Windows 中使用的標準點陣圖 (BMP) 圖形格式。
 
 ## <a name="examples"></a>範例
 
@@ -117,8 +117,8 @@ ms.locfileid: "104466580"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

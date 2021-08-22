@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 245f9282174ddeef66b130597f0f20ddf21ededc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28a525b26d49dd5df8a2be3ba6a5af5a16459c26e191368badae34ca381488e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119417628"
 ---
 # <a name="ibytebufferinitialize-method"></a>IByteBuffer：： Initialize 方法
 
-\[**Initialize** 方法可用於 [需求] 區段中指定的作業系統。 它無法在 Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本中使用。 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)介面提供類似的功能。\]
+\[**Initialize** 方法可用於 [需求] 區段中指定的作業系統。 它無法在 Windows Server 2003 Service Pack 1 (SP1) 和更新版本中使用。 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)介面提供類似的功能。\]
 
 **Initialize** 方法會準備要使用的 [**IByteBuffer**](ibytebuffer.md)物件。 在呼叫 **IByteBuffer** 介面中的任何其他方法之前，必須先呼叫這個方法。
 
@@ -87,8 +87,8 @@ if (FAILED(hr))
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Scardssp。h</dt> </dl>   |

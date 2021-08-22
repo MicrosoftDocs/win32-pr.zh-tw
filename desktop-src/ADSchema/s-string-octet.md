@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e25ef05cc450688c76be792f4e9e4e447353935
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a531759cbe94632349aeb7c0063f0264d9bcb4209f9216ab1a9dee83303a425f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106995174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119530068"
 ---
 # <a name="stringoctet-syntax"></a>字串 (八位) 語法
 

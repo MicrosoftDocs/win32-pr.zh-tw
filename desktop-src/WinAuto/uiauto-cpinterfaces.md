@@ -1,19 +1,19 @@
 ---
 title: 提供者的控制項模式介面
-description: 本節說明由消費者介面自動化提供者所執行的控制項模式介面，以公開非受控 Windows 應用程式中控制項的相關資訊。
+description: 本節說明由消費者介面自動化提供者所執行的控制項模式介面，以公開非受控 Windows 應用程式中的控制項相關資訊。
 ms.assetid: 08d0226d-845c-4564-a059-539b62fc7909
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9e4051922678951a386a54b326b82b7d21a1024
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d13a88b45e6e7401f0cb760e14bff1534aa6424400023126ccbeb898429028ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614338"
 ---
 # <a name="control-pattern-interfaces-for-providers"></a>提供者的控制項模式介面
 
-本節說明由消費者介面自動化提供者所執行的 *控制項模式* 介面，以公開非受控 Windows 應用程式中控制項的相關資訊。
+本節說明由消費者介面自動化提供者所執行的 *控制項模式* 介面，以公開非受控 Windows 應用程式中的控制項相關資訊。
 
 ## <a name="in-this-section"></a>本節內容
 

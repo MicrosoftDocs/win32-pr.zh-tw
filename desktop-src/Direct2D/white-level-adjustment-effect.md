@@ -3,12 +3,12 @@ title: 白色色調地圖效果
 description: 此效果可讓影像的白色層級以線性方式調整。 當您在顯示參考的亮度空間和場景參考的亮度空間之間轉換時，這會特別有用，反之亦然。
 ms.topic: article
 ms.date: 02/01/2019
-ms.openlocfilehash: 70a38f37f5a5461b968099bebe4be120a727c053
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 646ad47ad671618f29d1691878de93b5e5141855787c53fdad44025487835ad4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119292628"
 ---
 # <a name="white-level-adjustment-effect"></a>白色層級調整效果
 
@@ -18,17 +18,17 @@ ms.locfileid: "103934614"
 
 ## <a name="effect-properties"></a>效果屬性
 
-| 顯示名稱和索引列舉 | 類型和預設值 | Description |
+| 顯示名稱和索引列舉 | 類型和預設值 | 描述 |
 |-|-|-|
 | InputWhiteLevel、D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL | FLOAT | 輸入影像的白色層級，以 nits。 |
 | OutputWhiteLevel、D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL | FLOAT | 輸出影像的白色層級（nits）。 |
 
 ## <a name="remarks"></a>備註
-這項效果的目的是要結合 [HDR 語氣地圖效果](hdr-tone-map-effect.md) ，讓您在 Direct2D 中使用適當的色彩管理和色調對應來轉譯 HDR 影像。 如需詳細資訊，請參閱該主題的 **備註** 。 這些效果的目標是想要提供最多功能的 HDR 影像觀賞體驗，以處理所有的 Windows HDR 影像格式，並適應顯示 (無論是 HDR 或 WCG/SDR) 的架構。
+這項效果的目的是要結合 [HDR 語氣地圖效果](hdr-tone-map-effect.md) ，讓您在 Direct2D 中使用適當的色彩管理和色調對應來轉譯 HDR 影像。 如需詳細資訊，請參閱該主題的 **備註** 。 這些效果的目標是想要提供最多功能的 hdr 影像觀賞體驗，以處理所有 Windows hdr 影像格式，並適應顯示 (是否) hdr 或 WCG/SDR 的架構。
 
-在 Windows 上，所有的 SDR/WCG 內容都假設在顯示參考的亮度空間中，表示內容的白色層級應該在最後呈現之前，向上擴充至顯示器的白色層級。 不過，這不一定會讓您的應用程式負責進行此作業。 相反地，HDR 內容會假設在場景參考的亮度空間中，這表示它最後不應調整以符合顯示器的白色層級。 也就是說，在某些情況下，您的應用程式可能需要在轉譯 HDR 內容時執行調整，以確保這是淨結果。
+在 Windows 上，會假設所有的 SDR/WCG 內容都在顯示參考的亮度空間中，表示內容的白色層級應該在顯示的白色層級向上擴充，然後才會呈現。 不過，這不一定會讓您的應用程式負責進行此作業。 相反地，HDR 內容會假設在場景參考的亮度空間中，這表示它最後不應調整以符合顯示器的白色層級。 也就是說，在某些情況下，您的應用程式可能需要在轉譯 HDR 內容時執行調整，以確保這是淨結果。
 
-當 Windows 桌面處於 SDR 或 WCG 模式時，桌面會以顯示參考的亮度空間組成。 但是，如果 Windows 桌面處於 HDR 模式，則桌面電腦群組合會在場景參考的亮度空間中進行。 話雖如此，桌面視窗管理員 (DWM) 本身會執行亮度調整， (通常稱為8位組合表面的 SDRBoost) ，可簡化應用程式的情況。 即使是這樣，自動提升也表示您的應用程式從一個亮度空間轉換到另一個亮度空間的角色，取決於您的應用程式用來呈現其內容的組合格式。
+當 Windows 桌面處於 SDR 或 WCG 模式時，桌面會以顯示參考的亮度空間組成。 但是，如果 Windows desktop 處於 HDR 模式，則桌面電腦群組合會在場景參考的亮度空間中進行。 話雖如此，桌面視窗管理員 (DWM) 本身會執行亮度調整， (通常稱為8位組合表面的 SDRBoost) ，可簡化應用程式的情況。 即使是這樣，自動提升也表示您的應用程式從一個亮度空間轉換到另一個亮度空間的角色，取決於您的應用程式用來呈現其內容的組合格式。
 
 下表描述您的應用程式應該和不應執行白色層級調整的案例，以及該調整的大小。 一般而言，調整取決於三個因素。
 

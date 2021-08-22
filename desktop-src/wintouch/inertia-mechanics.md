@@ -3,9 +3,9 @@ title: 慣性機制
 description: 慣性機制
 ms.assetid: 188b6936-b36e-4e57-9118-8b61ed134c17
 keywords:
-- Windows Touch，慣性
-- Windows Touch，平滑動畫
-- Windows Touch，彈性邊界
+- Windows觸控、慣性
+- Windows觸控、平滑動畫
+- Windows觸控、彈性邊界
 - 慣性，機制
 - 慣性，計算基本概念
 - 慣性，物理總覽
@@ -15,12 +15,12 @@ keywords:
 - 彈性邊界
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be79b27900c6921c972710e7e922ab42b834afc1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51673ce3eebd2f49ef52fc8334cd3d3386cb5453bc79afde2c96ee7844eb1b32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119346294"
 ---
 # <a name="inertia-mechanics"></a>慣性機制
 
@@ -47,7 +47,7 @@ ms.locfileid: "104300360"
 
 
 
-| 狀況    | 屬性 Set                                                                       | 減速值 | 典型的速度輸入調整                                  | 備註                                                                                 |
+| 案例    | 屬性 Set                                                                       | 減速值 | 典型的速度輸入調整                                  | 附註                                                                                 |
 |-------------|------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | 翻譯 | [**DesiredDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration)               | 0.003 f             | 無。                                                           | 使用此值將會導致使用觸控輸入時的較長距離動畫。    |
 | 翻譯 | [**DesiredDeceleration**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration)               | 0.001 f             | 1/20 個觸控輸入的初始速度，無滑鼠輸入 | 使用這個值時，會在第二個指定的一般速度輸入周圍建立動畫。      |
@@ -58,7 +58,7 @@ ms.locfileid: "104300360"
 
 
 
- 
+ 
 
 ## <a name="smooth-object-animation-using-the-desired-displacement-property"></a>使用所需的置換屬性來平滑物件動畫
 
@@ -75,7 +75,7 @@ ms.locfileid: "104300360"
 > [!Note]  
 > 設定邊界屬性會向外移動界限。 例如，如果您的頂端界限設定為50，然後將最高彈性的邊界設定為10，則您的最上層界限將會有效地變成40。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -90,9 +90,9 @@ ms.locfileid: "104300360"
 [操作](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

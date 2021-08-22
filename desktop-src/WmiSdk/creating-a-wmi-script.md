@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1ef13a5f9269dbc24566e95ce37101d10afa6c90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a56eca450757086b3d334d8f64fa41c4cf297f903963498afe958bee802705eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464188"
 ---
 # <a name="creating-a-wmi-script"></a>建立 WMI 腳本
 
-您可以使用腳本來查看或操作 WMI 所提供的任何資訊。 腳本可以用任何支援 Microsoft ActiveX script 裝載的指令碼語言撰寫，包括 Visual Basic Scripting Edition (VBScript) 、PowerShell 和 Perl。 Windows Script Host (WSH) 、Active Server Pages 和 Internet Explorer 都可以裝載 WMI 腳本。
+您可以使用腳本來查看或操作 WMI 所提供的任何資訊。 腳本可以用任何支援 Microsoft ActiveX 腳本裝載的指令碼語言撰寫，包括 Visual Basic 腳本版本 (VBScript) 、PowerShell 和 Perl。 Windows腳本主機 (WSH) 、Active Server Pages 和 Internet Explorer 都可以裝載 WMI 腳本。
 
 > [!Note]
 >
@@ -29,9 +29,9 @@ ms.locfileid: "103945390"
 
 ## <a name="wmi-scripting-languages"></a>WMI 指令碼語言
 
-WMI 所支援的兩種主要語言，是透過 Windows Script Host 或 WSH)  (PowerShell 和 VBScript。
+WMI 支援的兩種主要語言為 PowerShell 和 VBScript (透過 Windows 腳本主機或 WSH) 。
 
--   **PowerShell** 是設計成與 WMI 緊密整合的概念。 因此，WMI 的許多基礎元素都內建于 WMI Cmdlet 中： [>get-wmiobject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1)、 [set-wmiinstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1)、 [>invoke-wmimethod](/powershell/module/microsoft.powershell.management/invoke-wmimethod?view=powershell-5.1)和 [Remove->get-wmiobject](/powershell/module/microsoft.powershell.management/remove-wmiobject?view=powershell-5.1)。 下表說明用來存取 WMI 資訊的一般處理常式。 請注意，雖然這些範例大多使用 >get-wmiobject，但許多 PowerShell WMI Cmdlet 都有相同的參數，例如 *類別* 或 *-認證*。 因此，其中許多程式也適用于其他物件。 如需更深入的 PowerShell 和 WMI 討論，請參閱 [使用 Get-WMiObject Cmdlet](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176860(v=technet.10)) 和 [Windows PowerShell-WMI 連接](/previous-versions/technet-magazine/cc162365(v=msdn.10))。
+-   **PowerShell** 是設計成與 WMI 緊密整合的概念。 因此，WMI 的許多基礎元素都內建于 WMI Cmdlet 中： [>get-wmiobject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1)、 [set-wmiinstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1)、 [>invoke-wmimethod](/powershell/module/microsoft.powershell.management/invoke-wmimethod?view=powershell-5.1)和 [Remove->get-wmiobject](/powershell/module/microsoft.powershell.management/remove-wmiobject?view=powershell-5.1)。 下表說明用來存取 WMI 資訊的一般處理常式。 請注意，雖然這些範例大多使用 >get-wmiobject，但許多 PowerShell WMI Cmdlet 都有相同的參數，例如 *類別* 或 *-認證*。 因此，其中許多程式也適用于其他物件。 如需更深入的 PowerShell 和 wmi 討論，請參閱[使用 Get-WMiObject Cmdlet](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176860(v=technet.10))和[Windows PowerShell-WMI 連接](/previous-versions/technet-magazine/cc162365(v=msdn.10))。
 
 -   相反地， **VBScript** 會明確呼叫 [WMI 的腳本 API](scripting-api-for-wmi.md)（如上所述）。 其他語言（例如 Perl）也可以使用適用于 WMI 的腳本 API。 不過，基於本檔的目的，大部分示範適用于 WMI 的腳本 API 的範例都會使用 VBScript。 不過，當程式設計技術是 VBScript 專屬的時候，就會呼叫它。
 
@@ -217,7 +217,7 @@ Get-WmiObject -Namespace root -Class __Namespace
 <span id="...retrieve_all_child_instances_of_a_class_"></span><span id="...RETRIEVE_ALL_CHILD_INSTANCES_OF_A_CLASS_"></span>...取出類別的所有子實例？
 </dt> <dd>
 
-針對直接針對 WMI 和 PowerShell 使用腳本 API 的語言，WMI 支援抓取基類的子類別。 因此，為了抓取子實例，您只需要搜尋父類別。 下列範例會搜尋 [**CIM \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/cim-logicaldisk)，這是預先安裝的 WMI 類別，代表 Windows 電腦系統上的邏輯磁片。 因此，搜尋這個父類別也會傳回 [**Win32 \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk)的實例，這是 Windows 用來描述硬碟的實例。 如需詳細資訊，請參閱 [通用訊息模型](common-information-model.md)。 WMI 提供這類預先安裝類別的完整架構，可讓您存取和控制受管理的物件。 如需詳細資訊，請參閱 [Win32 類別](/windows/desktop/CIMWin32Prov/win32-provider) 和 [WMI 類別](wmi-classes.md)。
+針對直接針對 WMI 和 PowerShell 使用腳本 API 的語言，WMI 支援抓取基類的子類別。 因此，為了抓取子實例，您只需要搜尋父類別。 下列範例會搜尋 [**CIM \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/cim-logicaldisk)，這是預先安裝的 WMI 類別，代表 Windows 電腦系統上的邏輯磁片。 因此，搜尋這個父類別也會傳回 [**Win32 \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk)的實例，Windows 用來描述硬碟。 如需詳細資訊，請參閱 [通用訊息模型](common-information-model.md)。 WMI 提供這類預先安裝類別的完整架構，可讓您存取和控制受管理的物件。 如需詳細資訊，請參閱 [Win32 類別](/windows/desktop/CIMWin32Prov/win32-provider) 和 [WMI 類別](wmi-classes.md)。
 
 
 ```VB

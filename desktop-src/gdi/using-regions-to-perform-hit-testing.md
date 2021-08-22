@@ -4,12 +4,12 @@ ms.assetid: a8e0cbfe-f05b-46ae-b420-ae34a5efbff3
 title: 使用區域來執行點擊測試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb50ca1f837213b85619af381b86c2bd76efcbb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d553eeaf37b954d0ec9d0b8897df98cf1a513d7ca7212ca82bc376afe1fc7163
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558118"
 ---
 # <a name="using-regions-to-perform-hit-testing"></a>使用區域來執行點擊測試
 

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: d994ef55665b03da2a7d657689682f893fdf071f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fae7fbe32b18a81557200b5c5519092bb2edd84290d9909cf884308a9173aac1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119417678"
 ---
 # <a name="ibytebufferclone-method"></a>IByteBuffer：： Clone 方法
 
-\[**複製** 方法可用於 [需求] 區段中指定的作業系統。 它無法在 Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)介面提供類似的功能。\]
+\[**複製** 方法可用於 [需求] 區段中指定的作業系統。 它無法用於 Windows Server 2003 Service Pack 1 (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統。 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)介面提供類似的功能。\]
 
 **Clone** 方法會使用它自己的 seek 指標來建立新的物件，該物件會參考與原始 [**IByteBuffer**](ibytebuffer.md)物件相同的位元組。
 
@@ -80,8 +80,8 @@ if (FAILED(hr))
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Scardssp。h</dt> </dl>   |

@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 53c1e953c9c1348a133cf4755ab04f6024c42034
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bda0a1a07de4411b9a8c683fb2c7e84156b658361df4f2eaf3aa5709c6d11a95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504288"
 ---
 # <a name="win32_bios-class"></a>Win32 \_ BIOS 類別
 
@@ -579,7 +579,7 @@ Int 13h-日文 Toshiba 1.2 mb (3.5、360 RPM) 支援
 
 此值來自于 SMBIOS 資訊中 **BIOS 資訊** 結構的 **內嵌控制器固件主要版本** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -599,7 +599,7 @@ Int 13h-日文 Toshiba 1.2 mb (3.5、360 RPM) 支援
 
 此值來自于 SMBIOS 資訊中 **BIOS 資訊** 結構的 **內嵌控制器固件次要版次** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -772,7 +772,7 @@ Int 13h-日文 Toshiba 1.2 mb (3.5、360 RPM) 支援
 存取類型：唯讀
 </dt> </dl>
 
-Windows BIOS 的發行日期（以國際標準時間 (UTC 格式）) YYYYMMDDHHMMSS.FFFFFF 的格式。MMMMMM (+-) OOO。
+Windows BIOS 的發行日期，以國際標準時間 (UTC) 格式的 yyyymmddhhmmss.ffffff。MMMMMM (+-) OOO。
 
 此值來自于 SMBIOS 資訊中 **Bios 資訊** 結構的 **bios 發行日期** 成員。
 
@@ -1052,7 +1052,7 @@ SMBIOS 所報告的 BIOS 版本。
 
 此值來自于 SMBIOS 資訊中 **Bios 資訊** 結構的 **系統 bios 主要版本** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
 
 </dd> <dt>
 
@@ -1072,7 +1072,7 @@ SMBIOS 所報告的 BIOS 版本。
 
 此值來自于 SMBIOS 資訊中 **Bios 資訊** 結構的 **系統 Bios 次要版次** 成員。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows 10 和 Windows Server 2016 之前，不支援這個屬性。
 
 </dd> <dt>
 

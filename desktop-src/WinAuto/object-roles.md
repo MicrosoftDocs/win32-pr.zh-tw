@@ -75,12 +75,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c5bbd6e5120f387357dbec01629fc91a39ac9ec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03ec3eb9574dbed208a7c38714c838e567990fc76af137fca563de65142ac5f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614658"
 ---
 # <a name="object-roles"></a>物件角色
 

@@ -4,12 +4,12 @@ ms.assetid: 576f5dec-8bd5-4686-be68-30746de1d511
 title: 驗證結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 855fdfac46ba26640594330cf110621fd8587288
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed42e076a92336a85e38435ed7be1064d7be024bf0c10fbb4c8823d64ecf0bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141381"
 ---
 # <a name="authentication-structures"></a>驗證結構
 
@@ -30,7 +30,7 @@ ms.locfileid: "104114545"
 
 
 
-| 結構                                                                   | Description                                                                                                                                                                                                                                            |
+| 結構                                                                   | 描述                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CREDSSP \_ 認證**](/windows/desktop/api/Credssp/ns-credssp-credssp_cred)                                       | 指定 Schannel 和 Negotiate [*安全性封裝* 的驗證資料](/windows/desktop/SecGloss/s-gly)                                                                                      |
 | [**秒的 \_ WINNT \_ 驗證身分 \_ 識別**](/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a)               | 用來將特定的使用者名稱和密碼傳遞至執行時間程式庫，以進行驗證。                                                                                                                                            |
@@ -70,7 +70,7 @@ ms.locfileid: "104114545"
 
 
 
-| 結構                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                        |
+| 結構                                                                 | 描述                                                                                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**.SCH \_ 認證 \_ 公用 \_ CERTCHAIN**](/windows/desktop/api/Schannel/ns-schannel-sch_cred_public_certchain)         | 包含單一憑證。 您可以從這個憑證建立憑證連結。                                                                                                                                                                                                                                                                                           |
 | [**.SCH \_ 認證 \_ 秘密 \_ PRIVKEY**](/windows/desktop/api/Schannel/ns-schannel-sch_cred_secret_privkey)             | 包含驗證用戶端或伺服器所需的 [*私密金鑰*](/windows/desktop/SecGloss/p-gly) 資訊。                                                                                                                                                                                                                                |
@@ -101,7 +101,7 @@ ms.locfileid: "104114545"
 
 
 
-| 結構                                                                   | Description                                                                                                                                                                                                   |
+| 結構                                                                   | 描述                                                                                                                                                                                                   |
 |-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**LSA \_ SECPKG \_ 函數 \_ 表**](/windows/desktop/api/Ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table)           | 「 [*本地安全機構*](/windows/desktop/SecGloss/l-gly) 」之指標的表格， (自訂安全性封裝可呼叫的 LSA) 函數。 |
 | [**SECPKG \_ 呼叫 \_ 資訊**](/windows/desktop/api/Ntsecpkg/ns-ntsecpkg-secpkg_call_info)                              | 包含執行中函式呼叫的相關資訊。                                                                                                                                                        |
@@ -132,7 +132,7 @@ ms.locfileid: "104114545"
 
 
 
-| 結構                                            | Description                                                                  |
+| 結構                                            | 描述                                                                  |
 |------------------------------------------------------|------------------------------------------------------------------------------|
 | [**NETCONNECTINFOSTRUCT**](/windows/desktop/api/Winnetwk/ns-winnetwk-netconnectinfostruct) | 包含網路連接效能的相關資訊。          |
 | [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea)                   | 包含列舉網路資源的相關資訊。                   |
@@ -152,7 +152,7 @@ ms.locfileid: "104114545"
 
 
 
-| 結構                                                                                       | Description                                                                                               |
+| 結構                                                                                       | 描述                                                                                               |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | [**WLX \_ 用戶端 \_ 認證 \_ 資訊 \_ V1 \_ 0**](/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v1_0)               | 包含用戶端認證資訊。                                                                   |
 | [**WLX \_ CONSOLESWITCH \_ 認證 \_ 資訊 \_ V1 \_ 0**](/windows/win32/api/winwlx/ns-winwlx-wlx_consoleswitch_credentials_info_v1_0) | 包含用戶端認證，允許以透明方式將認證傳送至目標會話。 |
@@ -177,7 +177,7 @@ ms.locfileid: "104114545"
 
 
 
-| 結構                                                                                    | Description                                                                                                                                                                                                                                                                                                                         |
+| 結構                                                                                    | 描述                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**網域 \_ 密碼 \_ 資訊**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-domain_password_information)                         | 包含網域密碼原則的相關資訊，例如密碼的最小長度以及密碼的唯一長度。                                                                                                                                                                                                   |
 | [**KERB \_ 新增 \_ 認證 \_ 要求**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-kerb_add_credentials_request)                      | 指定要新增、移除或取代登入會話之額外伺服器認證的訊息。<br/>                                                                                                                                                                                                                           |
@@ -204,7 +204,7 @@ ms.locfileid: "104114545"
 | [**KERB \_ 票證 \_ 登入**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-kerb_ticket_logon)                                             | 包含網路登入的設定檔資訊。                                                                                                                                                                                                                                                                                   |
 | [**KERB \_ 票證 \_ 設定檔**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-kerb_ticket_profile)                                         | 包含互動式登入設定檔的相關資訊。                                                                                                                                                                                                                                                                            |
 | [**KERB \_ 票證 \_ 解除鎖定 \_ 登入**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-kerb_ticket_unlock_logon)                              | 包含解除鎖定工作站的資訊。                                                                                                                                                                                                                                                                                       |
-| [**LSA \_ 分派 \_ 資料表**](/windows/desktop/api/Ntsecpkg/ns-ntsecpkg-lsa_dispatch_table)                                           | Windows [*驗證封裝*](/windows/desktop/SecGloss/a-gly) 可呼叫的 LSA 函式之指標的表格。                                                                                                                                               |
+| [**LSA \_ 分派 \_ 資料表**](/windows/desktop/api/Ntsecpkg/ns-ntsecpkg-lsa_dispatch_table)                                           | Windows [*驗證封裝*](/windows/desktop/SecGloss/a-gly)可呼叫的 LSA 函式之指標的表格。                                                                                                                                               |
 | [**LSA \_ 字串**](/windows/desktop/api/LsaLookup/ns-lsalookup-lsa_string)                                                            | 包含 ANSI 字串及其長度資訊。                                                                                                                                                                                                                                                                                 |
 | [**LSA \_ 樹系 \_ 信任 \_ 二進位 \_ 資料**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-lsa_forest_trust_binary_data)                     | 包含在 LSA 樹系信任作業中使用的二進位資料。                                                                                                                                                                                                                                                                           |
 | [**LSA \_ 樹系 \_ 信任 \_ 衝突 \_ 資訊**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_information) | 包含 LSA 樹系信任衝突的相關資訊。                                                                                                                                                                                                                                                                             |
@@ -244,10 +244,10 @@ ms.locfileid: "104114545"
 
 
 
-| 結構                                                                     | Description                                                                                                                                                                                                                          |
+| 結構                                                                     | 描述                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CERT \_ 認證 \_ 資訊**](/windows/desktop/api/WinCred/ns-wincred-cert_credential_info)                        | 包含憑證的參考。                                                                                                                                                                                               |
-| [**CREDENTIAL**](/windows/desktop/api/WinCred/ns-wincred-credentiala)                                              | 包含個別的認證。                                                                                                                                                                                                   |
+| [**憑據**](/windows/desktop/api/WinCred/ns-wincred-credentiala)                                              | 包含個別的認證。                                                                                                                                                                                                   |
 | [**CREDENTIAL \_ 屬性**](/windows/desktop/api/WinCred/ns-wincred-credential_attributea)                         | 包含認證的應用程式定義屬性。                                                                                                                                                                         |
 | [**認證 \_ 目標 \_ 資訊**](/windows/desktop/api/WinCred/ns-wincred-credential_target_informationa)      | 包含目的電腦的名稱、網域和樹狀目錄。                                                                                                                                                                               |
 | [**CREDUI \_ 資訊**](/windows/desktop/api/WinCred/ns-wincred-credui_infoa)                                           | 控制認證管理對話方塊的外觀。                                                                                                                                                                  |
@@ -263,7 +263,7 @@ ms.locfileid: "104114545"
 
 
 
-| 結構                                                      | Description                                                                                                     |
+| 結構                                                      | 描述                                                                                                     |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [**OPENCARD \_ 搜尋 \_ 準則**](/windows/desktop/api/Winscard/ns-winscard-opencard_search_criteriaa) | 提供 [**SCardUIDlgSelectCard**](/windows/desktop/api/Winscard/nf-winscard-scarduidlgselectcarda) 函數所使用的特定搜尋資訊。 |
 | [**OPENCARDNAME**](/windows/desktop/api/Winscard/ns-winscard-opencardnamea)                           | 提供 [**GetOpenCardName**](/windows/desktop/api/Winscard/nf-winscard-getopencardnamea) 函數所使用的資訊。                           |

@@ -4,12 +4,12 @@ ms.assetid: de3fc1e4-56da-47be-a1c8-2a1f5ad2b589
 title: 'MFPKEY_NUMTHREADSDEC 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5d36f009ae7bc64e0a697639286683ea698ffa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 14f7cf240a47a261b5be820dfcf5e0a0a3ebda353a9b9cf328bb99e3b4617fe1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119355738"
 ---
 # <a name="mfpkey_numthreadsdec-property"></a>MFPKEY \_ NUMTHREADSDEC 屬性
 

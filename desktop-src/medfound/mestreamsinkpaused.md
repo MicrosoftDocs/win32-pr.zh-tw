@@ -4,12 +4,12 @@ ms.assetid: 84ab62fc-1525-433c-8af5-70659122703c
 title: 'MEStreamSinkPaused 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17016285f2b88a1fc266b79f5eee45fea31f824c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bd3e278c4aeb72300af5ef3821a465ac493efa554ed86d798716ff6dffbf1ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119228598"
 ---
 # <a name="mestreamsinkpaused-event"></a>MEStreamSinkPaused 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106984983"
 
 
 
-| VARTYPE              | Description                           |
+| VARTYPE              | 描述                           |
 |----------------------|---------------------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> <br/> |
 
@@ -33,8 +33,8 @@ ms.locfileid: "106984983"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

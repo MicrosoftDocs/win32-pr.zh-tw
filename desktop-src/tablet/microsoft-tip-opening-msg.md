@@ -4,12 +4,12 @@ ms.assetid: 6eadd648-bffb-4227-bdcd-cd733f692734
 title: 'MICROSOFT_TIP_OPENING_MSG 訊息 (Peninputpanel .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0938b8a00e39f54817b8ec52e86e00aae52111
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0e183cc426cd5d73e52c6aaef007bc5579ceb3eb0f4ceaf3f9f4084677b7a556
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335898"
 ---
 # <a name="microsoft_tip_opening_msg-message"></a>MICROSOFT \_ 秘訣 \_ 開啟 \_ 訊息訊息
 

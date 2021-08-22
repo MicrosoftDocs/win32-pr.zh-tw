@@ -4,12 +4,12 @@ ms.assetid: d686ed98-9633-46f5-90f2-cb128b2b7e1c
 title: GraphicsPath. IsVisible 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 05e2bbdf10bf61e1a9e79daae8a15798a5074435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9aceac4cf2c6e75d213a42be721c2bf5954fb9a46842afdec594636b622306ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557858"
 ---
 # <a name="graphicspathisvisible-methods"></a>GraphicsPath. IsVisible 方法
 

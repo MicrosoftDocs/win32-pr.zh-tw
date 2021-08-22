@@ -4,12 +4,12 @@ ms.assetid: 82db6f32-ad94-4563-b8bd-8a5072c5b221
 title: 撰寫自訂媒體來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8769fa16d4dcbfd3438b66f9a9e78c34274735a5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e240277d5bbbabe5068f3a5f10bdb0312c29410def51bdced14715c1d3d68b07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106997316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343188"
 ---
 # <a name="writing-a-custom-media-source"></a>撰寫自訂媒體來源
 
@@ -145,7 +145,7 @@ ms.locfileid: "106997316"
 
 ## <a name="live-sources"></a>即時來源
 
-從 Windows 7 開始，媒體基礎會自動支援音訊和影片捕獲裝置。 若為影片，裝置必須在影片捕獲類別中提供內核串流 (KS) 迷你驅動程式。 媒體基礎使用 PnP 路徑來列舉裝置。 若是音訊，媒體基礎會使用 Windows 多媒體裝置 (MMDevice) API 來列舉音訊端點裝置。 如果裝置符合這些條件，就不需要執行自訂媒體來源。
+從 Windows 7 開始，媒體基礎會自動支援音訊和影片捕獲裝置。 若為影片，裝置必須在影片捕獲類別中提供內核串流 (KS) 迷你驅動程式。 媒體基礎使用 PnP 路徑來列舉裝置。 若是音訊，媒體基礎使用 Windows 多媒體裝置 (MMDevice) API 來列舉音訊端點裝置。 如果裝置符合這些條件，就不需要執行自訂媒體來源。
 
 不過，您可能會想要為某些其他類型的裝置或其他即時資料源，執行自訂媒體來源。 即時來源與其他媒體來源之間只有幾個差異：
 

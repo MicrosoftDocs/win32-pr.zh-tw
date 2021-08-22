@@ -1,17 +1,17 @@
 ---
-title: " (Windows 多媒體) 的裝置控制項"
+title: '裝置控制 (Windows 多媒體) '
 description: 裝置控制
 ms.assetid: b4479803-f1da-4646-909e-c4ef412ebdcd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0e0b59127d160cc44418fd4bce1f9f670d13de
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6878e5e759f3eddb5e98d241d9a8d081005e3545dc2f0054b46630619eaa06fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497238"
 ---
-# <a name="device-control-windows-multimedia"></a> (Windows 多媒體) 的裝置控制項
+# <a name="device-control-windows-multimedia"></a>裝置控制 (Windows 多媒體) 
 
 若要控制 MCI 裝置，請開啟裝置，將必要的命令傳送給它，然後關閉裝置。 命令可能非常類似，即使是完全不同的 MCI 裝置也是一樣。 例如，下列一系列的 MCI 命令會使用 [**mciSendString**](/previous-versions//dd757161(v=vs.85)) 函式來播放音訊 CD 的第六個播放軌：
 

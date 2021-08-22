@@ -4,12 +4,12 @@ ms.assetid: edf2b7ed-2676-483a-80ba-f148951e0e58
 title: 背光控制項介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ecbcc3d635d120c1049f8ec586d7296a953dfac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18a6a82cede03d18f9d237bab09a590f9bcdc0da86651dacd0912357c32d36ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143721"
 ---
 # <a name="backlight-control-interface"></a>背光控制項介面
 

@@ -3,8 +3,8 @@ title: 對話方塊程式設計考量
 description: 本總覽討論一些有關對話方塊的程式設計考慮。
 ms.assetid: 49024a0f-ea92-4d56-b063-8e5fcdbd884a
 keywords:
-- Windows 消費者介面、視窗化
-- Windows 消費者介面，對話方塊
+- Windows消費者介面、視窗化
+- Windows消費者介面，對話方塊
 - 視窗化，對話方塊
 - 對話方塊，關於
 - 對話方塊程式
@@ -21,12 +21,12 @@ keywords:
 - 對話方塊，設定
 ms.topic: article
 ms.date: 08/25/2020
-ms.openlocfilehash: 790abe7c76cdb99f86b2a90a133b15faae721e0e
-ms.sourcegitcommit: f7cf41ffc79d1ffead9de2fc61677201f94b423a
+ms.openlocfilehash: 956f700841b0a3d76b7e071f0232382507394879a0253bc4cbcea533fdbb23bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "106969543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119456248"
 ---
 # <a name="dialog-box-programming-considerations"></a>對話方塊程式設計考量
 
@@ -256,7 +256,7 @@ BOOL CALLBACK DlgProc(HWND hwndDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 對話方塊程式可以傳送訊息給控制項，方法是提供控制項識別碼並使用 [**SendDlgItemMessage**](/windows/desktop/api/Winuser/nf-winuser-senddlgitemmessagea) 函式，這與 [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) 函式相同，不同之處在于它會使用控制項識別碼而非視窗控制碼來識別要接收訊息的控制項。 指定的訊息可能會要求對話程式傳送參數和訊息，而且訊息可能會有對應的傳回值。 每個控制訊息的作業和需求取決於訊息的用途以及處理它的控制項。
 
-如需控制訊息的詳細資訊，請參閱 [Windows 控制項](../controls/window-controls.md)。
+如需控制訊息的詳細資訊，請參閱[Windows 控制項](../controls/window-controls.md)。
 
 ## <a name="custom-dialog-boxes"></a>自訂對話方塊
 

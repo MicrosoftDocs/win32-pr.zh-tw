@@ -4,12 +4,12 @@ ms.assetid: 7fc65ab2-822d-4511-84e0-d91c7247e888
 title: PenInputPanel 物件事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0bd1d1c93f4535245525ea9fe7590288f2fb89b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0cec01c2f26d05b4768a3c61581d6b681a92dfaba2c940da02b8a11c3d52664a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335568"
 ---
 # <a name="peninputpanel-object-events"></a>PenInputPanel 物件事件
 

@@ -17,23 +17,23 @@ keywords:
 - 將視窗框架擴充到工作區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fcf7378cfcaff93aa9a54ce399890ec1bfd8cc1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bfb7b357719ea3aa5a4853a933350ee2dda417842777354e2bbf1711e1cbeff1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119456074"
 ---
 # <a name="dwm-blur-behind-overview"></a>DWM 模糊背後總覽
 
 其中一個桌面視窗管理員 (DWM) 效果的簽章是透明且模糊的非工作區。 DWM Api 可讓應用程式將這些效果套用到其最上層視窗的工作區。
 
 > [!Note]  
-> Windows Vista Home Basic edition 不支援透明的半透明效果。 通常會在其他 Windows 版本上以透明半透明效果轉譯的區域會轉譯為不透明。
+> WindowsVista Home Basic edition 不支援透明的半透明效果。 通常會在其他 Windows 版本上以透明半透明效果呈現的區域會轉譯為不透明。
 > 從 Windows 8 開始，呼叫此函式並不會造成模糊效果，因為轉譯視窗的方式中的樣式變更。
 
 
- 
+ 
 
 本主題討論 DWM 啟用的下列用戶端模糊背後案例。
 
@@ -158,6 +158,6 @@ HRESULT ExtendIntoClientAll(HWND hwnd)
 [效能考慮和最佳作法](bestpractices-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

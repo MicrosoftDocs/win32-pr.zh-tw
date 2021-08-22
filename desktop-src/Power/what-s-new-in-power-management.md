@@ -4,12 +4,12 @@ ms.assetid: a956b88c-8a75-4c1c-af27-53c69feb1596
 title: 電源管理的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e6c8394c2e5e6750b5d01fd997d374a9f87e10d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2ac6ba320a98fce339f5bfacfe2d9b4a259be5a8150b2bcaabcac41179869e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143191"
 ---
 # <a name="whats-new-in-power-management"></a>電源管理的新功能
 

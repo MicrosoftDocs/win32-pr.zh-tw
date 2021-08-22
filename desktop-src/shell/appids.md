@@ -1,19 +1,19 @@
 ---
-description: Windows 7 及更新版本系統中的工作列會廣泛使用 (AppUserModelIDs) 的應用程式使用者模型識別碼，以將處理常式、檔案和視窗與特定應用程式產生關聯。
+description: " (AppUserModelIDs) 的應用程式使用者模型識別碼會由 Windows 7 和更新版本的系統中的工作列廣泛使用，以將處理常式、檔案和視窗與特定應用程式建立關聯。"
 ms.assetid: ebce2d99-6f20-4545-9f12-d79cd8d0828f
 title: '應用程式使用者模型識別碼 (AppUserModelIDs) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46b79f0bdd7fb5e6c4d5c41caa3cd6be3f4fb57e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acd0835af241a36e4d9c95237890cb63790f7fe9031476dfa8ec21254266ffd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351468"
 ---
 # <a name="application-user-model-ids-appusermodelids"></a>應用程式使用者模型識別碼 (AppUserModelIDs) 
 
-Windows 7 及更新版本系統中的工作列會廣泛使用 (AppUserModelIDs) 的應用程式使用者模型識別碼，以將處理常式、檔案和視窗與特定應用程式產生關聯。 在某些情況下，就足以依賴系統指派給進程的內部 AppUserModelID。 不過，擁有多個處理常式或在主機進程中執行之應用程式的應用程式可能需要明確地識別其本身，如此它就可以在單一工作列按鈕下將其另一個不同的視窗分組，並控制該應用程式捷徑清單的內容。
+ (AppUserModelIDs) 的應用程式使用者模型識別碼會由 Windows 7 和更新版本的系統中的工作列廣泛使用，以將處理常式、檔案和視窗與特定應用程式建立關聯。 在某些情況下，就足以依賴系統指派給進程的內部 AppUserModelID。 不過，擁有多個處理常式或在主機進程中執行之應用程式的應用程式可能需要明確地識別其本身，如此它就可以在單一工作列按鈕下將其另一個不同的視窗分組，並控制該應用程式捷徑清單的內容。
 
 -   [應用程式定義和 System-Defined AppUserModelIDs](#application-defined-and-system-defined-appusermodelids)
 -   [如何形成 Application-Defined AppUserModelID](#how-to-form-an-application-defined-appusermodelid)
@@ -36,7 +36,7 @@ Windows 7 及更新版本系統中的工作列會廣泛使用 (AppUserModelIDs) 
 下列專案描述需要明確 AppUserModelID 的一般案例。 它們也指出應該使用多個明確 AppUserModelIDs 的情況。
 
 -   具有多個模式的 UI 的單一可執行檔，會以個別的應用程式顯示給使用者，應該將不同的 AppUserModelIDs 指派給每個模式。 例如，使用者看到的部分應用程式，可以與應用程式的其餘部分分開釘選並從工作列啟動，而與主要體驗不同的是，它會有自己的 AppUserModelID。
--   具有不同引數的多個快捷方式，全都會導致使用者看到的相同應用程式，應該使用一個 AppUserModelID 來處理所有的快捷方式。 例如，Windows Internet Explorer 針對不同的模式有不同的快捷方式 (例如，啟動但不含附加元件) 但它們都應該以單一 Internet Explorer 實例的形式呈現給使用者。
+-   具有不同引數的多個快捷方式，全都會導致使用者看到的相同應用程式，應該使用一個 AppUserModelID 來處理所有的快捷方式。 例如，Windows Internet Explorer 會有不同模式的不同快捷方式 (例如，啟動但不含附加元件) 但它們都應該以單一 Internet Explorer 實例的形式呈現給使用者。
 -   做為主機進程並以應用程式形式執行目標內容的可執行檔必須 [註冊為主應用程式](#registering-an-application-as-a-host-process)，之後才能將不同的 AppUserModelIDs 指派給它所裝載的每個察覺體驗。 或者，主機進程可以允許裝載的程式設定其 AppUserModelIDs。 無論是哪一種情況，主機進程都必須保留 AppUserModelIDs 來源（本身或裝載的應用程式）的記錄。 在此情況下，沒有目標內容的主機進程的主要使用者體驗。 例如，Windows 遠端應用程式整合在本機 (滑軌) 應用程式、JAVA 執行時間、RunDLL32.exe 或 DLLHost.exe。
 
     如果是現有的託管應用程式，系統會嘗試識別個別的體驗，但新的應用程式應該使用明確的 AppUserModelIDs 來保證預期的使用者體驗。
@@ -47,7 +47,7 @@ Windows 7 及更新版本系統中的工作列會廣泛使用 (AppUserModelIDs) 
 
     如果有任何應用程式有多個視窗、快捷方式或程式，該應用程式指派的 AppUserModelID 也應套用至虛擬化環境中的每個部分。
 
-    這種情況的其中一個範例是 ClickOnce 架構，它會代表它所管理的應用程式，正確指派 AppUserModelIDs。 如同在所有這類環境中，ClickOnce 部署及管理的應用程式不應該指派明確的 AppUserModelIDs，因為這樣做會與 ClickOnce 指派的 AppUserModelIDs 發生衝突，並導致非預期的結果。
+    這種情況的其中一個範例是 ClickOnce framework，它會代表它所管理的應用程式，正確指派 AppUserModelIDs。 如同在所有這類環境中，ClickOnce 部署及管理的應用程式不應該指派明確的 AppUserModelIDs，因為這樣做會與 ClickOnce 所指派的 AppUserModelIDs 發生衝突，並導致非預期的結果。
 
 ## <a name="how-to-form-an-application-defined-appusermodelid"></a>如何形成 Application-Defined AppUserModelID
 
@@ -63,7 +63,7 @@ Windows 7 及更新版本系統中的工作列會廣泛使用 (AppUserModelIDs) 
 
 -   在應用程式快捷方式檔案的 [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) 屬性中。 快速鍵 (為 [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka)、CLSID \_ ShellLink 或 .lnk 檔案) 透過 [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) 和整個 Shell 中使用的其他屬性設定機制來支援屬性。 這可讓工作列識別適當的快捷方式來釘選，並確保屬於該進程的 windows 會適當地與工作列按鈕相關聯。
     > [!Note]  
-    > 建立快捷方式時，應將 [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) 屬性套用至快捷方式。 使用 Microsoft Windows Installer (MSI) 安裝應用程式時， [MsiShortcutProperty](../msi/msishortcutproperty-table.md) 表格可在安裝期間建立 AppUserModelID 以套用至快捷方式。
+    > 建立快捷方式時，應將 [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) 屬性套用至快捷方式。 使用 Microsoft Windows Installer (MSI) 安裝應用程式時， [MsiShortcutProperty](../msi/msishortcutproperty-table.md)表格可在安裝期間建立 AppUserModelID 以套用至快捷方式。
 
      
 
@@ -163,7 +163,7 @@ HKEY_CLASSES_ROOT
 如果下列任何一個字串（不論大小寫）都包含在快捷方式名稱中，則不會可釘選程式，也不會顯示在最常使用的清單中 (不適用於 Windows 10) ：
 
 -   文件
--   Help
+-   說明
 -   安裝
 -   其他資訊
 -   自述

@@ -4,12 +4,12 @@ ms.assetid: b3fb665e-9acf-414d-97c4-c69b81dd7309
 title: '問 (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a75b4438be8ae6ce80204d8bc8d1c77568168de5
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: bd2e135facc7b6653fb05191841f7964cd7c78770b17527effabcdecc1a96b1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558138"
 ---
 # <a name="q-windows-installer"></a>問 (Windows Installer) 
 

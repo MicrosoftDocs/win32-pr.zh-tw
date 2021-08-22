@@ -5,12 +5,12 @@ ms.assetid: 0B77E238-E8CF-466B-9188-3DE96AF97F42
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 02/10/2020
-ms.openlocfilehash: 94bc1492e3b984d96c76788430d2e63c0672ca76
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: c33321b02f22378f4d039137b8ff65559a25a32ed219c2bf336528913777791d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104548385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460788"
 ---
 # <a name="uav-counters"></a>UAV 計數器
 您可以使用未排序的存取-view (UAV) 計數器，將32位不可部分完成的計數器與未排序的存取權 (UAV) 產生關聯。

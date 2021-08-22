@@ -4,28 +4,28 @@ description: 應用程式封裝工具 (MakeAppx.exe) 會從磁片上的檔案建
 ms.assetid: 9B7BF420-8E19-4BFD-B378-D09E61F68A39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41595550f3bee7b1149959886ed649e9212224b2
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c5a75f2eede20ac21fb3b2c1f03a583f31b2e05f69363e5a21c37b1215d3ebf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119410748"
 ---
 # <a name="app-packager-makeappxexe"></a>App 封裝工具 (MakeAppx.exe)
 
 > [!Note]  
 > 如需使用此工具的 UWP 指引，請參閱使用 [MakeAppx.exe 工具建立應用程式套件](/windows/msix/package/create-app-package-with-makeappx-tool)。
 
- 
+ 
 
-應用程式封裝工具 (MakeAppx.exe) 會從磁片上的檔案建立應用程式套件，或將檔案從應用程式封裝解壓縮至磁片。 從 Windows 8.1 開始，應用程式封裝程式也會從磁片上的應用程式套件建立應用程式套件套件組合，或將應用程式套件套件組合中的應用程式套件解壓縮至磁片。 它包含在 Microsoft Visual Studio 和 Windows 軟體開發套件 (SDK) ，適用于 Windows 8 Windows 軟體開發套件或 () SDK Windows 8.1。 造訪 [下載以供開發人員]( https://msdn.microsoft.com/windows/apps/br229516.aspx) 取得。
+應用程式封裝工具 (MakeAppx.exe) 會從磁片上的檔案建立應用程式套件，或將檔案從應用程式封裝解壓縮至磁片。 從 Windows 8.1 開始，應用程式封裝程式也會從磁片上的應用程式套件建立應用程式套件套件組合，或將應用程式套件套件組合中的應用程式套件解壓縮至磁片。 它包含在 Microsoft Visual Studio 和 Windows 軟體開發套件 (sdk) ，適用于 Windows 8 Windows 軟體開發套件或 () sdk Windows 8.1。 造訪 [下載以供開發人員]( https://msdn.microsoft.com/windows/apps/br229516.aspx) 取得。
 
 MakeAppx.exe 工具通常會在下列位置找到：
 
--   在 x86： C： \\ Program files (x86) \\ windows 套件 \\ 8.0 \\ Bin \\ x86 \\makeappx.exe 或 C： \\ Program files (x86) \\ windows 套件 \\ 8.1 \\ bin \\ x86 \\makeappx.exe
+-   在 x86： C： \\ program files (x86) \\ Windows 套件 \\ 8.0 \\ bin \\ x86 \\makeappx.exe 或 C： \\ Program Files (x86) \\ Windows 套件 \\ 8.1 \\ bin \\ x86 \\makeappx.exe
 -   在 x64 上的兩個位置：
-    -   C： \\ Program files (x86) \\ windows 套件 \\ 8.0 \\ Bin \\ x86 \\makeappx.exe 或 C： \\ program files (x86) \\ Windows 套件 \\ 8.1 \\ bin \\ x86 \\makeappx.exe
-    -   C： \\ Program files (x86) \\ windows 套件 \\ 8.0 \\ Bin \\ x64 \\makeappx.exe 或 C： \\ program files (x86) \\ Windows 套件 \\ 8.1 \\ bin \\ x64 \\makeappx.exe
+    -   C： \\ program files (x86) \\ Windows 套件 \\ 8.0 \\ bin \\ x86 \\makeappx.exe 或 C： \\ program files (x86) \\ Windows 套件 \\ 8.1 \\ bin \\ x86 \\makeappx.exe
+    -   C： \\ program files (x86) \\ Windows 套件 \\ 8.0 \\ bin \\ x64 \\makeappx.exe 或 C： \\ program files (x86) \\ Windows 套件 \\ 8.1 \\ bin \\ x64 \\makeappx.exe
 
 沒有 ARM 版本的工具。
 
@@ -47,7 +47,7 @@ MakeAppx.exe 工具通常會在下列位置找到：
 > [!Note]  
 > 整個工具都支援相對路徑。
 
- 
+ 
 
 ### <a name="to-create-a-package-using-a-directory-structure"></a>使用目錄結構建立封裝
 
@@ -171,7 +171,7 @@ MakeAppx.exe 工具通常會在下列位置找到：
 
 2.  請執行這個命令：
 
-    **MakeAppx.exe 解密/p** _封裝 \_ 名稱_**. appx/ep** _未加密的 \_ 封裝 \_ 名稱_**。 eappx/kf** _keyfile \_ 名稱_**.txt**
+    **MakeAppx.exe 解密/p** _封裝 \_ 名稱_**. appx/ep** _未加密的 \_ 封裝 \_ 名稱_**. eappx/kf** _keyfile \_ 名稱_**.txt**
 
 3.  輸入封裝會使用提供的金鑰檔解密為指定的未加密封裝。
 
@@ -183,7 +183,7 @@ MakeAppx.exe 工具通常會在下列位置找到：
 
 2.  輸入封裝將會使用全域測試金鑰解密至指定的未加密封裝中。
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 命令列引數 **/p** 一律是必要的，其中包含 **/d**、 **/f** 或 **/ep**。 請注意， **/d**、 **/f** 和 **/ep** 互斥。
 
@@ -356,6 +356,6 @@ MakeAppx 會執行有限的語意驗證，其設計目的是要攔截最常見�
 
 此語意驗證未完成，而且 MakeAppx 所建立的套件不保證可供安裝。
 
- 
+ 
 
- 
+ 

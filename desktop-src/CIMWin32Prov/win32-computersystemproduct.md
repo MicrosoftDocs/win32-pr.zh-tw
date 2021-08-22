@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8cab3dc8679c606076eca2f5cf704867aa9833c9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 47312acde8f346ac4ac3b2260fe06a2a5270610f9b7265da2b627a4c92fb4b8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119294028"
 ---
 # <a name="win32_computersystemproduct-class"></a>Win32 \_ ComputerSystemProduct 類別
 
@@ -151,7 +151,7 @@ class Win32_ComputerSystemProduct : CIM_Product
 
 </dd> <dt>
 
-**Uuid**
+**UUID**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**

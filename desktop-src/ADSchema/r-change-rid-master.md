@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c184630836ea92d5d51ca34e9afd44cd05cfd02
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 12f18dc8a4ffe00cace69647dbb4f06b5e5a7c2b0dd8222c86827f3adb703926
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104187362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532598"
 ---
 # <a name="change-rid-master-extended-right"></a>變更-Rid-主要延伸許可權
 

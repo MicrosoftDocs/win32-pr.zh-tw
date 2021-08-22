@@ -3,17 +3,17 @@ title: 作業內容存留期和執行緒
 description: 作業內容的存留期（以 WS 作業 \_ \_ 內容控制碼表示）會決定它所包含之屬性的存留期。
 ms.assetid: 37caf382-2b33-464d-b6c1-e4bd3271a5aa
 keywords:
-- 適用于 Windows 的操作內容存留期和執行緒 Web 服務
+- Windows 的操作內容存留期和執行緒 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ea27b0b1dc41ccd029df7d726fe92631adc1ee4
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9dd2748f797e43bab750f4e02409e62e6293b39cb44d4cfd3626f86099502fc3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103684252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119344828"
 ---
 # <a name="operation-context-lifetime-and-threading"></a>作業內容存留期和執行緒
 

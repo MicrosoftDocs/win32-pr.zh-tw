@@ -4,12 +4,12 @@ ms.assetid: b33839c8-4829-4d90-94de-e461772d3e94
 title: 'AVDDSurroundMode 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac2bfe34d55f3ab7b45d936f5842e46188d5452
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 06b0f4be094861b8bd84b7c1fe0d801bbdcde6284d8f6d5985fffd294db302ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503168"
 ---
 # <a name="avddsurroundmode-property"></a>AVDDSurroundMode 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104385791"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

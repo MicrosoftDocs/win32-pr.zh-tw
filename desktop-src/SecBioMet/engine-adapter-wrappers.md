@@ -4,12 +4,12 @@ description: 您可以用來在引擎介面卡上呼叫函式的函式。 這些
 ms.assetid: b3d6d617-e423-4ed5-9d29-be72c5dd8b49
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c5ec0fcc3b6ea358e8238061bc74e2933d8bf87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 727d508bfffed80a5d1979a5ddb556ff68bda3a92da67447a4b212d8221f43c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119411168"
 ---
 # <a name="engine-adapter-wrappers"></a>引擎介面卡包裝函式
 

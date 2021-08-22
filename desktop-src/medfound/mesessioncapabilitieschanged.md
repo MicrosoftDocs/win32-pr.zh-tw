@@ -4,12 +4,12 @@ ms.assetid: d59fd3a0-29db-434c-b6ba-d9beb33bd965
 title: 'MESessionCapabilitiesChanged 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0612b705571c50a6adcbde4afe93b42a524a950
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc97cb5168957f34cc029a982447c6d4775075ea6f9b9b250ce7b9fd7f1791d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464868"
 ---
 # <a name="mesessioncapabilitieschanged-event"></a>MESessionCapabilitiesChanged 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "106998474"
 
 
 
-| VARTYPE              | Description                           |
+| VARTYPE              | 描述                           |
 |----------------------|---------------------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> <br/> |
 
@@ -48,8 +48,8 @@ ms.locfileid: "106998474"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

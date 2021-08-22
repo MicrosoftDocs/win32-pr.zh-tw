@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CWbemProviderGlue 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dea54ffdeaa6b74cda3b830ea65fdc17f8ffa129
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db9099528d76efe1aa165881462bc12a0e30493ce5b817da350c6feefc7297e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244508"
 ---
 # <a name="cwbemproviderglue-methods"></a>CWbemProviderGlue 方法
 

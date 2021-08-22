@@ -4,12 +4,12 @@ description: BITS 要求封包
 ms.assetid: 4d8fd5f3-7621-438f-926f-38ece7a52f52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6738f77477342f1329818ae7c2ffb5c010b074c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 60921c9adb8e1312a6b74cd129e591db5a3be7807394807b984eb3fff153b3a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588678"
 ---
 # <a name="bits-request-packets"></a>BITS 要求封包
 
@@ -29,13 +29,13 @@ ms.locfileid: "103931963"
 
 
 
- 
+ 
 
 Ping 封包是選擇性的。 您可以使用 Create-Session 封包來建立連線並協商安全性，而不是傳送 Ping 封包。 不過，針對此目的使用 Ping 封包較有效率。
 
- 
+ 
 
- 
+ 
 
 
 

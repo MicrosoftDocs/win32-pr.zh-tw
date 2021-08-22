@@ -4,12 +4,12 @@ ms.assetid: bc14d36a-b299-4c61-ade2-43fad142d21d
 title: 取得合併模組撰寫工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dac673c7cfa191cecb1b576e1b17f2f4a7a1f4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a85fb75c0317a6737393e67f12a7a03cd8b76c68a8261c9d26d10d06cbe484c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119327878"
 ---
 # <a name="obtaining-merge-module-authoring-tools"></a>取得合併模組撰寫工具
 

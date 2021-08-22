@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73bbee10c6f442c9c03f46baa26251a7f6f85c22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5081b8bf6a0f9790c7d9bc1baf3cf32e924029716241f4d38c87f1cc3e7d8fbb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615478"
 ---
 # <a name="viewbackgroundcolor"></a>BackgroundColor
 
@@ -31,7 +31,7 @@ ms.locfileid: "106989733"
 
 這個屬性是包含任何 Microsoft Internet Explorer 色彩值或值為 "none" 的讀取/寫入 **字串** 。 針對 **VIEW** 專案，其預設值為 "白色"，子視圖專案的預設 **值為 "** none"。
 
-在 Windows Media 下載封裝中，如果您為 **VIEW** 元素指定 backgroundImage 屬性，則還必須指定該元素的 **backgroundColor** 屬性。
+在 Windows 媒體下載封裝中，如果您為 **VIEW** 元素指定 backgroundImage 屬性，則還必須指定該元素的 **backgroundColor** 屬性。
 
 ## <a name="requirements"></a>規格需求
 

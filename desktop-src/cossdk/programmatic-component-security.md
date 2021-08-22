@@ -4,16 +4,16 @@ ms.assetid: 6117970c-5dbd-485e-978e-3aa96e42b359
 title: 程式設計元件安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31622608e4d4f54aeb53b403b5d8711ff9c6a9af
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3b3fc8813b6aff98f19e7c051067f3246c25b336ea7a99a2371f03c7f3f50883
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462108"
 ---
 # <a name="programmatic-component-security"></a>程式設計元件安全性
 
-當您在包含元件的 COM + 應用程式中使用以角色為基礎的安全性時，您可以從元件記憶體取程式設計的安全性功能。 您可以檢查角色成員資格，判斷是否已執行特定的程式碼區段，您可以使用安全性呼叫內容物件來存取安全性資訊，也可以判斷是否已啟用目前呼叫的安全性。 您可以使用適用于 Microsoft Visual Basic 應用程式 ([**SecurityCallCoNtext**](securitycallcontext.md) 物件的參考來執行上述所有工作) 或針對 C 和 Microsoft Visual C++ 應用程式) 的 [**ISecurityCallCoNtext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) 介面 (指標。
+當您在包含元件的 COM + 應用程式中使用以角色為基礎的安全性時，您可以從元件記憶體取程式設計的安全性功能。 您可以檢查角色成員資格，判斷是否已執行特定的程式碼區段，您可以使用安全性呼叫內容物件來存取安全性資訊，也可以判斷是否已啟用目前呼叫的安全性。 您可以使用適用于 Microsoft Visual Basic 應用程式 ([**SecurityCallCoNtext**](securitycallcontext.md)物件的參考來執行上述所有工作) 或針對 C 和 Microsoft Visual C++ 應用程式) 的 [**ISecurityCallCoNtext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext)介面 (指標。
 
 如需有關以程式設計的角色為基礎之安全性的詳細資訊，請參閱本節中的下列主題：
 

@@ -4,12 +4,12 @@ ms.assetid: 7fdfbadb-827a-4b42-9b9a-b9e46389e13c
 title: 設定文字對齊方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 538a8da060f9d854890ea004c855e2317986fd19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78edffa9febaee0fd624cc97c4a908da349ad65526799e1c4bd3450137b62a47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468418"
 ---
 # <a name="setting-the-text-alignment"></a>設定文字對齊方式
 

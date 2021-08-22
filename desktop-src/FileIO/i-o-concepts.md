@@ -4,12 +4,12 @@ ms.assetid: 61b286a0-2f0d-48d1-a0b9-bb13f1ea1b0e
 title: I/o 概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 727ae7f2b34b7938de444a82c9c4dfdf89f52ff4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a08c8b95df0f5319f9acb62c677b5448ff3f962c8a49eb43c444c391bf139ba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533678"
 ---
 # <a name="io-concepts"></a>I/o 概念
 

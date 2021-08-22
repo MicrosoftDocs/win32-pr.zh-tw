@@ -4,12 +4,12 @@ description: 正在進入執行狀態
 ms.assetid: 2173eaa9-0e60-4411-81e4-dbabc5fe89b2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 959038c8f64fe8750ab1bcf0f06b753371f04136
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0e91261df578697afef0e33dd8c8ea847eb50cfd546dd96ee0a0085d67100bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501058"
 ---
 # <a name="entering-the-running-state"></a>正在進入執行狀態
 
@@ -23,9 +23,9 @@ ms.locfileid: "103932153"
 -   當連結來源正在執行時，OLE 會系結至物件的執行中實例，而不是執行另一個實例。 如果是內嵌的内嵌物件，其中一個是連結來源，則 OLE 必須能夠在任何時間點系結至已在執行中的物件。
 -   執行物件需要存取物件的儲存區域。 當内嵌物件執行時，OLE 會在載入程式期間接收指向儲存體的指標，並將其傳遞至 OLE 伺服器應用程式。 不過，針對連結的物件，並沒有可存取儲存體的標準介面。 OLE 伺服器應用程式可能會使用檔案系統介面或其他機制。
 
- 
+ 
 
- 
+ 
 
 
 

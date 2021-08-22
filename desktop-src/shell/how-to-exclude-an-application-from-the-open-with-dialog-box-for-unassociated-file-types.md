@@ -3,12 +3,12 @@ description: 如何從沒有關聯的檔案類型的 [開啟檔案] 對話方塊
 title: 如何從非關聯檔案類型的 [開啟檔案] 對話方塊中排除應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9443416e95fca112623d487bf58f4fce1d51d13d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d90ae5ab49128df1eedd9b760286ce54f6b6498cbe00d4a945145a80f956cde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119350909"
 ---
 # <a name="how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types"></a>如何從非關聯檔案類型的 [開啟檔案] 對話方塊中排除應用程式
 

@@ -4,18 +4,18 @@ ms.assetid: d5e79055-e9e3-4a74-9b6c-805ade1438ba
 title: BccAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3bbf45a23051b2c39fa0682df2e277ce6033766
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1df0e352505e82c489430c6f114329bc834690f9026c334349baa5b248dbe225
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457198"
 ---
 # <a name="systemmessagebccaddress"></a>BccAddress
 
 [密件副本：] 欄位中的位址。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

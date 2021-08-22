@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101900
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e1acb3a31ce3eb6cf22a37c2bf08c7471a3a6c3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c3f859337017c4e62f47c0655ddbd68f9e6ec0ec8fa20461dbfae69b15113c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119236138"
 ---
 # <a name="esentinvalidbackupsequenceexception-methods"></a>EsentInvalidBackupSequenceException 方法
 

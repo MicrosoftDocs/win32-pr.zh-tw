@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bacbf7478ebfb745e5fc9b5e50959d0f1587dedf
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9c72cc825183740d856c20b9e5c76ece472f82db405d9560e6502f6e32985b60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119252108"
 ---
 # <a name="version-attribute"></a>version 屬性
 
@@ -98,12 +98,12 @@ MIDL 編譯器不支援多個版本的 COM 介面。 因此，包含物件屬性
 [**物件**](object.md)
 </dt> <dt>
 
-[**uuid**](uuid.md)
+[**Uuid**](uuid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

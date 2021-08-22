@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: e81dbf108868cbaec4c44a436f2c8271bb5f282a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6fbca42d3a9f0056bfd040b49e1426275a71bd7e6aaa8a71032389ab636f4cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119303358"
 ---
 # <a name="ec_dvd_navigationcommand"></a>EC \_ DVD \_ NavigationCommand
 

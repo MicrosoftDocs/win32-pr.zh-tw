@@ -4,12 +4,12 @@ ms.assetid: c04ade90-5f17-4e16-b82b-c99230000954
 title: 使用 Active Accessibility 來公開文字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52d475a8c576e109f47be7b5a3d61cddf543038d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 247d78149b82d15eb7c2dbd4ac2b2463d53c5d454dcb7877906197661de36ce4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119334788"
 ---
 # <a name="using-active-accessibility-to-expose-text"></a>使用 Active Accessibility 來公開文字
 

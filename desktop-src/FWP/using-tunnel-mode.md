@@ -1,17 +1,17 @@
 ---
-title: 使用通道模式
+title: 使用 Tunnel 模式
 description: 下列範例程式碼示範如何使用 Windows 篩選平台 (WFP) API 來設定點對點 IPsec 通道。
 ms.assetid: 6bbe7e94-6a5f-4984-ac61-b187dcf25366
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6727203a201c51f88558451fcd620d1a1be0c7f7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9f90a4c2068b32ce265054dc2d75e75c39622cc9745d8e320fc73aefd9c2739a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535338"
 ---
-# <a name="using-tunnel-mode"></a>使用通道模式
+# <a name="using-tunnel-mode"></a>使用 Tunnel 模式
 
 下列範例程式碼示範如何使用 Windows 篩選平台 (WFP) API 來設定點對點 IPsec 通道。
 
@@ -189,9 +189,9 @@ CLEANUP:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

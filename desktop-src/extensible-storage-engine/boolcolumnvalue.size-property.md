@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 95458e02780b1a0a96c46c857dc168be3125a816
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c06c1645ddca2461122477ff07a963bb9e0727967983c5e76ee82ef060a3200c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275278"
 ---
 # <a name="boolcolumnvaluesize-property"></a>BoolColumnValue. Size 屬性
 

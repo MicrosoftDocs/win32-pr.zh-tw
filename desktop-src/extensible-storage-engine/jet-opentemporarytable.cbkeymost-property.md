@@ -26,16 +26,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b8e608d1419cd381c507874bf1f1c334d192ae2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 225c801770bb41337ee9f3ae248092c60441cd2e9a059f64897ad19053bfe30b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107697"
 ---
 # <a name="jet_opentemporarytablecbkeymost-property"></a>JET_OPENTEMPORARYTABLE cbKeyMost 屬性
 
-取得或設定表示指定資料列之索引鍵的大小上限。 您可以設定最大索引鍵大小來控制如何截斷金鑰。 金鑰截斷很重要，因為它可能會影響資料列視為相異的時間。 如果此參數設定為0或255，則最大的索引鍵大小及其語義將會與 Windows Server 2003 所支援的最大金鑰大小保持一致。 此參數也可以設定為較大的值，做為實例 [DatabasePageSize](./jet-param-enumeration.md)之資料庫頁面大小的功能。 如需詳細資訊，請參閱 [KeyMost](./vistaparam.keymost-field.md) 。
+取得或設定表示指定資料列之索引鍵的大小上限。 您可以設定最大索引鍵大小來控制如何截斷金鑰。 金鑰截斷很重要，因為它可能會影響資料列視為相異的時間。 如果此參數設定為0或255，則最大的索引鍵大小及其語義將維持與 Windows Server 2003 所支援的最大金鑰大小相同。 此參數也可以設定為較大的值，做為實例 [DatabasePageSize](./jet-param-enumeration.md)之資料庫頁面大小的功能。 如需詳細資訊，請參閱 [KeyMost](./vistaparam.keymost-field.md) 。
 
 **命名空間：**[Microsoft. Isam](./microsoft.isam.esent.interop.vista-namespace.md) 。    
 **元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。

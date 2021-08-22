@@ -1,5 +1,5 @@
 ---
-description: ActCtx 物件的 CreateObject 方法會在目前資訊清單的內容中建立物件。
+description: Microsoft 的 CreateObject 方法。Windows。ActCtx 物件會在目前資訊清單的內容中建立物件。
 ms.assetid: 531e6501-bb68-472b-b483-1f52815ba9d7
 title: ActCtx. CreateObject 方法
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Sxsoa.dll
-ms.openlocfilehash: 2b4c4393d59ea5ab711dbf4bb1f4c88d906b6582
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4161ccdcc2562405123d8cb5276aa1f849121c0271b6c6e3f23a32551f6f3dda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142391"
 ---
 # <a name="actctxcreateobject-method"></a>ActCtx. CreateObject 方法
 
-[**ActCtx**](microsoft-windows-actctx-object.md)物件的 **CreateObject** 方法會在目前資訊清單的內容中建立物件。
+Windows 的 **CreateObject** 方法 [**。ActCtx**](microsoft-windows-actctx-object.md)物件會在目前資訊清單的內容中建立物件。
 
 ## <a name="syntax"></a>語法
 
@@ -56,8 +56,8 @@ ActCtx.CreateObject(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Sxsoa.dll</dt> </dl> |
 | IID<br/>                      | IID \_ IActCtx 定義為8FA7728F-B69B-4EE5-99F2-E2AA021BEF28<br/>           |
 

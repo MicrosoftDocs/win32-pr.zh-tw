@@ -4,12 +4,12 @@ ms.assetid: 1aed8614-d856-4885-80fe-c3f2bf3304ad
 title: 'MFPKEY_RESIZE_PANSCANAPX 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37a30f1bb97e1c21b651f975b43ad8bf871ff066
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22e127601764a9131a5dd494e3c8d6fddc2692106275ad5912bbfdd3b8026951
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119463218"
 ---
 # <a name="mfpkey_resize_panscanapx-property"></a>MFPKEY \_ RESIZE \_ PANSCANAPX 屬性
 
@@ -37,8 +37,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

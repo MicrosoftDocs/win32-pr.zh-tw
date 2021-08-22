@@ -10,12 +10,12 @@ keywords:
 - 紋理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b2cba8b105089553084a93f997517d19cf371e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a17cd79aaf8e7e5b90d0f171ddcec4b49b6d15b3615ccc1f5e44a04b3e16fae9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119339238"
 ---
 # <a name="porting-texture-functions"></a>移植材質函數
 

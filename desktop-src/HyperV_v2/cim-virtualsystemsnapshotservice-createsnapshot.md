@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ee96098477501123cffc1fd59a52734bbbea35d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ee1a2e66745ceac50cc00ba6e625a171f18c7d2b54d4e51af2c86f6711675ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532748"
 ---
 # <a name="createsnapshot-method-of-the-cim_virtualsystemsnapshotservice-class"></a>CIM VirtualSystemSnapshotService 類別的 >icloudblob.createsnapshot 方法 \_
 

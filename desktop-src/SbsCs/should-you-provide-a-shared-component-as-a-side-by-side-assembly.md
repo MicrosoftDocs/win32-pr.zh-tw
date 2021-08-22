@@ -4,12 +4,12 @@ ms.assetid: 543451cd-0608-4302-a85b-ddce79a5cfd6
 title: 您是否應該提供共用元件作為並存元件？
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 733adf400ba9ce019d9f749fcd79a1a71380c9e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92dbd205db37c769050614c60ce4cc3637b27be9108f25b3c1c8f553851df82d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141891"
 ---
 # <a name="should-you-provide-a-shared-component-as-a-side-by-side-assembly"></a>您是否應該提供共用元件作為並存元件？
 

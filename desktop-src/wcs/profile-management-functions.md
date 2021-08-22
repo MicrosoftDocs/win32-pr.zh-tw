@@ -3,15 +3,15 @@ title: 設定檔管理功能
 description: 設定檔管理功能
 ms.assetid: 185863b7-0b74-4c65-97c3-3c60b86d37fd
 keywords:
-- Windows Color System (WCS) ，函數
+- Windows色彩系統 (WCS) ，函數
 - WCS (Windows 色彩系統) ，函數
 - 影像色彩管理，函數
 - 色彩管理，函數
 - 色彩，函數
 - WCS 參考，函數
 - WCS、函數的參考
-- Windows Color System (WCS) ，設定檔
-- WCS (Windows 色彩系統) ，設定檔
+- Windows色彩系統 (WCS) ，設定檔
+- WCS (Windows 色彩系統) 、設定檔
 - 影像色彩管理，設定檔
 - 色彩管理，設定檔
 - 色彩，設定檔
@@ -21,12 +21,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0e80e300532b20148eef6d9dc362438b6714a3
-ms.sourcegitcommit: 3f366316c02c411c4c5e14620a699f6f30608634
+ms.openlocfilehash: d9f047c2dee199800fad976dd7b959fbbb54d585fd252fb8b5390c3223415db4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106993767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587768"
 ---
 # <a name="profile-management-functions"></a>設定檔管理功能
 
@@ -46,7 +46,7 @@ ms.locfileid: "106993767"
 | [**GetDeviceGammaRamp**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicegammaramp)                                       | 從直接色彩顯示面板取得 gamma 曲線。                                                                                                |
 | [**GetStandardColorSpaceProfileW**](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew) | 抓取已針對指定標準 [色彩空間](c.md)註冊的色彩設定檔。 |
 | [**InstallColorProfileW**](/windows/win32/api/icm/nf-icm-installcolorprofilew) | 安裝指定的設定檔，以便在指定的電腦上使用。 設定檔也會複製到 COLOR 目錄。 |
-| [**RegisterCMMW**](/windows/win32/api/icm/nf-icm-registercmmw) | 將指定的識別值與指定的色彩管理模組動態連結程式庫產生關聯 (的 CMM DLL) 。 當此識別碼出現在色彩設定檔中時，Windows 可以找到對應的 CMM，以便建立轉換。 |
+| [**RegisterCMMW**](/windows/win32/api/icm/nf-icm-registercmmw) | 將指定的識別值與指定的色彩管理模組動態連結程式庫產生關聯 (的 CMM DLL) 。 當此識別碼出現在色彩設定檔時，Windows 可以找到對應的 CMM，以便建立轉換。 |
 | [**SetDeviceGammaRamp**](/windows/desktop/api/Wingdi/nf-wingdi-setdevicegammaramp)                                       | 設定直接色彩顯示面板上的 gamma 曲線。                                                                                                  |
 | [**SetStandardColorSpaceProfileW**](/windows/win32/api/icm/nf-icm-setstandardcolorspaceprofilew) | 針對指定的標準 [色彩空間](c.md)，註冊指定的設定檔。 您可以使用 [GetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew)來查詢設定檔。 |
 | [**UninstallColorProfileW**](/windows/win32/api/icm/nf-icm-uninstallcolorprofilew) | 從指定的電腦移除指定的色彩設定檔。 相關聯的檔案會選擇性地從系統中刪除。 |
@@ -113,7 +113,7 @@ WCS 設定檔的副檔名為 ". cdmp" （適用于 DMPs）、". camp" （Camp）
 
  
 
-2. 所有舊版 ICM2 設定檔管理 Api 都會修改整個系統的設定，而且需要系統管理許可權。 在 Windows Vista 中，所有使用者都是在最低許可權的使用者帳戶中執行， (LUA) 設定，而系統管理員可以選擇性地提升許可權，以執行修改全系統設定的應用程式。 在 WCS 設定檔管理中，所有每個使用者的設定檔設定都可在 LUA 內容中進行設定。 設定檔管理應用程式可以執行為 LUA 設定，增加其使用範圍，並確保系統的安全性不會受到危害。
+2. 所有舊版 ICM2 設定檔管理 Api 都會修改整個系統的設定，而且需要系統管理許可權。 在 Windows Vista 中，所有使用者都是以最低許可權的使用者帳戶 (LUA) 設定執行，而且系統管理員可以選擇性地提升許可權，以執行修改全系統設定的應用程式。 在 WCS 設定檔管理中，所有每個使用者的設定檔設定都可在 LUA 內容中進行設定。 設定檔管理應用程式可以執行為 LUA 設定，增加其使用範圍，並確保系統的安全性不會受到危害。
 
 Vista 中的設定檔管理提供下列優於舊版 ICM2 基礎結構的增強功能：
 
@@ -388,7 +388,7 @@ $ {ROWSPAN2} $Legacy ICM2 Api 來進行僅支援 Vista 中全系統設定檔管�
 
 
 
-設定檔管理設定儲存層
+設定檔管理設定儲存體層
 
 與裝置無關的全域設定常式
 
@@ -398,7 +398,7 @@ $ {ROWSPAN3} $Profile 安裝和與裝置無關的預設設定檔設定管理，�
 
 裝置關聯和裝置特定的預設設定檔設定管理，在全系統和目前使用者的儲存體範圍中受到支援。
 
-Device-Specific 儲存層
+Device-Specific 儲存體層
 
 列印特定的儲存體
 

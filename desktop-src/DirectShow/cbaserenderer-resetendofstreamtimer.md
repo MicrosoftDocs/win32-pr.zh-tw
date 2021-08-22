@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 734673c4e2bd6719179eca00f03a6c2f41061132
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e589288059eabbbbaaa23904ba021199cb051d9034345cb2c92ac946a6cba9c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502678"
 ---
 # <a name="cbaserendererresetendofstreamtimer-method"></a>CBaseRenderer. ResetEndOfStreamTimer 方法
 

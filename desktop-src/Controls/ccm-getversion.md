@@ -3,7 +3,7 @@ title: 'CCM_GETVERSION 訊息 (Commctrl .h) '
 description: 取得最新的 CCM SETVERSION 訊息之控制項集的版本號碼 \_ 。
 ms.assetid: c4b401d7-bba0-430c-b368-c363d49b3411
 keywords:
-- CCM_GETVERSION message Windows 控制項
+- CCM_GETVERSION 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd302774f8821b51a4abaf72bccc403e7302e6e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb1ad49ebb00d5d57555bb07be1bcf78ab97115ada43e18a7f81cda93e29fa1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119320258"
 ---
 # <a name="ccm_getversion-message"></a>CCM \_ GETVERSION 訊息
 
@@ -54,8 +54,8 @@ ms.locfileid: "104104513"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

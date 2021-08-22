@@ -4,12 +4,12 @@ ms.assetid: f741cdb4-2eb6-42e9-81ea-a8c677e07582
 title: 'Multihead (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4617666ca623795d33bf1dafcaafeabe73323253
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 04a74f51cea282618c9471eb9a63eedf8eef73c38b4d961209064261a93c4d46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119563511"
 ---
 # <a name="multihead-direct3d-9"></a>Multihead (Direct3D 9) 
 
@@ -88,7 +88,7 @@ all swap chains are drawn and present outside of loop)
 
 <dl> <dt>
 
-[程式設計秘訣](programming-tips.md)
+[程式設計提示](programming-tips.md)
 </dt> </dl>
 
  

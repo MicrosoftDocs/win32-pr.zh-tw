@@ -4,12 +4,12 @@ ms.assetid: 853b3900-1214-43b9-bf0e-e45c1159c5f1
 title: 記錄拓撲節點活動
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 327ca83d0513b97d053e27388bd0f2a418dfb253
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65b2325b7f300ac7ebc9b11e442169ad81f5769a8b54ba0ecf4537d637a9e7cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465518"
 ---
 # <a name="logging-topology-node-activities"></a>記錄拓撲節點活動
 

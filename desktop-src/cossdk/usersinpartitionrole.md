@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2a4c134ebead08ef576337528a8ef75d8b8be21a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d07c62fc6c6cc871f803b1f752201bd500e2705c3cfca272ff350ffd018f6018
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499641"
 ---
 # <a name="usersinpartitionrole-collection"></a>UsersInPartitionRole 集合
 
@@ -47,7 +47,7 @@ ms.locfileid: "108105546"
 
 -   [使用者](#usersinpartitionrole-collection)
 
-### <a name="user"></a>User
+### <a name="user"></a>使用者
 
 
 

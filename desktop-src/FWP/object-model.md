@@ -4,12 +4,12 @@ description: 下表列出可透過 Windows 篩選平台 (WFP) 所提供的各種
 ms.assetid: 6931583f-785c-4e27-b5e4-d185d23a54ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa90b4757a39617616c6f83b6b79fe322b2e64c8
-ms.sourcegitcommit: 60ad94096619da5476f9bbcd4cc231b40b6f5358
+ms.openlocfilehash: 12acbb2ece5049a8c9bf19bb3796be88f4fed0fbba8d46d75b9d41e206522ce0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104023086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119255698"
 ---
 # <a name="object-model"></a>物件模型
 
@@ -40,7 +40,7 @@ ms.locfileid: "104023086"
 <li>條件陣列</li>
 <li>動作 (允許、封鎖、標注) </li>
 <li><a href="filter-weight-assignment.md">Weight</a></li>
-<li>Context</li>
+<li>內容</li>
 </ul></td>
 <td>&quot;封鎖 TCP 埠大於1024的流量。&quot; <br/> &quot;未受保護之所有流量的識別碼。&quot;<br/></td>
 </tr>
@@ -67,7 +67,7 @@ ms.locfileid: "104023086"
 <td><ul>
 <li>Weight</li>
 </ul></td>
-<td>IPsec 通道子層<br/></td>
+<td>IPsec Tunnel 子層<br/></td>
 </tr>
 <tr class="odd">
 <td>提供者</td>

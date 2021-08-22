@@ -4,16 +4,16 @@ description: 元件物件模型
 ms.assetid: f5f66603-466c-496b-be29-89a8ed9361dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 786a4bef59401877f642273ba7a97756232ac083
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07ad81adeaf41670468dd41bbf344a3fd7358c14f4b3cbeb2e482812a083ecfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462338"
 ---
 # <a name="the-component-object-model"></a>元件物件模型
 
-Microsoft 元件物件模型 (COM) 是一種與平臺無關、分散式、物件導向的系統，可用來建立可互動的二進位軟體元件。 COM 是 Microsoft 的 OLE (複合檔案) 、ActiveX (已啟用網際網路的元件) 和其他專案的基礎技術。
+Microsoft 元件物件模型 (COM) 是一種與平臺無關、分散式、物件導向的系統，可用來建立可互動的二進位軟體元件。 COM 是 Microsoft 的 OLE (複合檔案的基礎技術，) ，ActiveX (具備網際網路功能的元件) 和其他專案。
 
 若要瞭解 COM (以及所有以 COM 為基礎的技術) ，請務必瞭解這不是物件導向的語言，而是標準的。 COM 也不會指定應用程式的結構。語言、結構和執行的詳細資料會留給應用程式開發人員。 相反地，COM 會指定一個物件模型和程式設計需求，讓 COM 物件 (也稱為 COM 元件，或有時候只是) 與其他物件互動的 *物件* 。 這些物件可以在單一進程內、在其他進程中，甚至可以在遠端電腦上。 您可以使用不同的語言來撰寫這些語言，而且它們的結構可能相當不同，這就是為什麼 COM 稱為 *二進位標準*;在程式轉換為二進位機器碼之後套用的標準。
 
@@ -31,9 +31,9 @@ COM 會定義 COM 物件的基本性質。 一般情況下，軟體物件是由�
 -   [COM 程式庫](the-com-library.md)
 -   [管理記憶體配置](managing-memory-allocation.md)
 
- 
+ 
 
- 
+ 
 
 
 

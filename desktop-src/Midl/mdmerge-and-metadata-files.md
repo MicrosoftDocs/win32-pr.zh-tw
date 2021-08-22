@@ -8,26 +8,26 @@ keywords:
 - Windows 中繼資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2d91f8c7506dd80fd2477beb61c5b99a26b05b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a065a8ff93485728b1c5c4c0c7b43de88e3844a8a013f07caee8d85d76d721d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119252428"
 ---
 # <a name="mdmerge-and-metadata-files"></a>MDMERGE 和中繼資料檔案
 
 根據命名空間，將多個中繼資料 ( winmd) 檔案組成多個輸出中繼資料檔案。
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 使用下列命令，從命令列執行 MDMERGE：
 
-**mdmerge** *< ***選項***>*
+**mdmerge**  *<***選項**_>_
 
-其中的 *< ***選項*** >* 代表您要使用的命令列選項。
+where * < ***options** _>_ 代表您要使用的命令列選項。
 
-使用 MIDLRT.EXE 根據編譯器產生自訂 Windows 執行階段元件的中繼資料檔案。 如需詳細資訊，請參閱 [midlrt.exe 根據和 Windows 執行階段元件](midlrt-and-windows-runtime-components.md)。
+使用 midlrt.exe 根據編譯器產生自訂 Windows 執行階段元件的中繼資料檔案。 如需詳細資訊，請參閱[midlrt.exe 根據和 Windows 執行階段元件](midlrt-and-windows-runtime-components.md)。
 
 ## <a name="command-line-switches"></a>命令列參數
 
@@ -49,20 +49,20 @@ ms.locfileid: "103931947"
 
 中繼資料組合可讓多個 IDL 檔案包含相同命名空間中 Windows 執行階段元件的定義。 這可讓您無法在單一 IDL 檔案內的命名空間中定義所有類型。
 
-您的應用程式所使用的 Windows 執行階段元件可能很多。 當您執行最後一個步驟來產生可部署的 Windows 執行階段中繼資料元件時，您可以將 MDMERGE 設定為合併多個中繼資料目錄中的元件，例如與系統一起安裝的元件 (% WINDOWS% \\ system32 \\ WinMetadata) 、您的基礎類型，以及目前專案的組建目錄。 所有必要的型別都會合並到可供您針對 Windows Store 封裝的正確、可部署的中繼資料元件。
+您的應用程式所使用的 Windows 執行階段元件可能很多。 當您執行最後一個步驟來產生可部署的 Windows 執行階段中繼資料元件時，您可以將 MDMERGE 設定為合併多個中繼資料目錄中的元件，例如與系統一起安裝的元件 (% Windows% \\ system32 \\ WinMetadata) 、您的基礎類型，以及目前專案的組建目錄。 所有必要的類型都會合並到正確、可部署的中繼資料元件中，您可以為 Windows 存放區封裝。
 
-您可以使用 [**/n**](-mdmerge-n.md) 選項來指定所支援的命名空間深度，以撰寫中繼資料元件。 這可讓您設定 Windows 執行階段元件的熱分割，因此只會封裝單一的 winmd 檔案，而不是多個檔案。 這可減少 Windows Store 應用程式所需的載入時間和檔案 i/o。
+您可以使用 [**/n**](-mdmerge-n.md) 選項來指定所支援的命名空間深度，以撰寫中繼資料元件。 這可讓您設定 Windows 執行階段元件的熱分割，因此只會封裝單一的 winmd 檔案，而不是多個檔案。 這可減少您 Windows 存放區應用程式所需的載入時間和檔案 i/o。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[MIDLRT.EXE 根據和 Windows 執行階段元件](midlrt-and-windows-runtime-components.md)
+[midlrt.exe 根據和 Windows 執行階段元件](midlrt-and-windows-runtime-components.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

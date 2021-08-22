@@ -4,12 +4,12 @@ ms.assetid: b6cc0c9d-9f28-4e80-b847-39c72d98bed6
 title: 列印多工緩衝處理器 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be7287b9da3ac19d2ab9c39152d5917960e465e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64eaa89e0f28aa3bc5479e9b1bb872d0a114678ce3e641394c3919b28f37f4df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460491"
 ---
 # <a name="print-spooler-api"></a>列印多工緩衝處理器 API
 
@@ -31,7 +31,7 @@ ms.locfileid: "104027120"
 
  
 
-下圖顯示「列印多工緩衝處理器」 API 與原生 Windows 應用程式可以使用的其他列印 Api 的關聯性。
+下圖顯示「列印多工緩衝處理器」 api 與原生 Windows 應用程式可使用的其他列印 api 的關聯性。
 
 ![此圖表顯示列印多工緩衝處理器 api 與原生 windows 應用程式可以使用的其他列印 api 的關聯性](images/print-apis-ps.png)
 

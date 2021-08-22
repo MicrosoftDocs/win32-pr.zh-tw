@@ -4,12 +4,12 @@ ms.assetid: e652bebc-fb3d-48cd-af59-3ad97a79711d
 title: WPD_CONTENT_TYPE_GENERIC_FILE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8575eba29f5b4b92570f6ee8e39a4ad6405ebf3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb352d851575ab510df339915cf57b75495fc044636681e49f15f94e15288b46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083342"
 ---
 # <a name="wpd_content_type_generic_file"></a>WPD \_ 內容 \_ 類型 \_ 一般 \_ 檔案
 
@@ -55,7 +55,7 @@ ms.locfileid: "106975231"
 
 
 
-| 資源名稱                                          | 必要或選擇性 | Description             |
+| 資源名稱                                          | 必要或選擇性 | 描述             |
 |--------------------------------------------------------|----------------------|-------------------------|
 | [**WPD \_ 資源 \_ 預設**](wpd-resource-default.md) | 必要。            | 包含檔案資料。 |
 
