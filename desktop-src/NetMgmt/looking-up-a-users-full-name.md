@@ -4,12 +4,12 @@ description: 電腦可以組織成網域，也就是電腦網路的集合。 網
 ms.assetid: 296ecfd0-1b65-482c-bee1-eff2130cc14e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cb2daa6bc2bc7d7255e961537c641a999d5a0bb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 434bdff00483b38ef12355af4dcda4a48d60bf849a8fd5d6829640ae8907e426
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106976320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012516"
 ---
 # <a name="looking-up-a-users-full-name"></a>查閱使用者的完整名稱
 
@@ -75,9 +75,9 @@ BOOL GetFullName( char *UserName, char *Domain, char *dest )
 
 
 
- 
+ 
 
- 
+ 
 
 
 

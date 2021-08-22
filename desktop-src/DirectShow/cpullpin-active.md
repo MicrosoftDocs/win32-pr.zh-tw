@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 461f6554f828dc096029ee1e7a1832e12a7c262a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a6572ad0b415f4c1a51133d080e84a2e869787dea0c23614478b09c7b86296b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073522"
 ---
 # <a name="cpullpinactive-method"></a>CPullPin 方法
 
@@ -46,7 +46,7 @@ HRESULT Active();
 
 
 
-| 傳回碼                                                                                  | Description                                                           |
+| 傳回碼                                                                                  | 描述                                                           |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 成功。<br/>                                                   |
 | <dl> <dt>**E 未 \_ 預期**</dt> </dl> | Pin 連接未正確建立。<br/>          |
@@ -60,7 +60,7 @@ HRESULT Active();
 
 當擁有篩選變成作用中時，請呼叫這個方法。  (如果您的輸入 pin 衍生自 [**CBasePin**](cbasepin.md)，請覆寫 [**CBasePin：： Active**](cbasepin-active.md) 方法。 ) 
 
-在呼叫這個方法之前，請先呼叫 [**CPullPin：： Connect**](cpullpin-connect.md) 方法來建立與輸出圖釘的連接。
+在呼叫這個方法之前，請先呼叫 [**CPullPin：：連線**](cpullpin-connect.md)方法，以建立與輸出圖釘的連接。
 
 ## <a name="requirements"></a>規格需求
 

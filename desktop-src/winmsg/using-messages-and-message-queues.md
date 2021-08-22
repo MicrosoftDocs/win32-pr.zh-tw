@@ -4,12 +4,12 @@ ms.assetid: 62b4616c-37bf-4d9f-8891-7010c7035d18
 title: 使用訊息和訊息佇列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a33f422a1a7c77f2c2fcd5913f931168a350a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee617f2c48325eccf5a2fdb07741bb88b47738dea812d372acda1454c9dd3d9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028336"
 ---
 # <a name="using-messages-and-message-queues"></a>使用訊息和訊息佇列
 
@@ -26,7 +26,7 @@ ms.locfileid: "106971810"
 
 因為系統會將訊息導向至應用程式中的個別視窗，所以執行緒必須在啟動其訊息迴圈之前，至少建立一個視窗。 大部分的應用程式都包含一個建立 windows 的執行緒。 一般的應用程式會針對其主視窗註冊視窗類別、建立並顯示主視窗，然後啟動其訊息迴圈，全都在 [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) 函式中。
 
-您可以使用 [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) 和 [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) 函數來建立訊息迴圈。 如果您的應用程式必須從使用者取得字元輸入，請在迴圈中包含 [**TranslateMessage**](/windows/win32/api/winuser/nf-winuser-translatemessage) 函數。 **TranslateMessage** 會將虛擬金鑰訊息轉譯為字元訊息。 下列範例顯示簡單 Windows 應用程式之 [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) 函式中的訊息迴圈。
+您可以使用 [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) 和 [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) 函數來建立訊息迴圈。 如果您的應用程式必須從使用者取得字元輸入，請在迴圈中包含 [**TranslateMessage**](/windows/win32/api/winuser/nf-winuser-translatemessage) 函數。 **TranslateMessage** 會將虛擬金鑰訊息轉譯為字元訊息。 下列範例顯示簡單 Windows 架構應用程式的 [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain)函式中的訊息迴圈。
 
 
 ```

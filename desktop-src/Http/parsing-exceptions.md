@@ -6,12 +6,12 @@ keywords:
 - 剖析例外狀況
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa071f141539a159d09f6a53f2e78a81bf75327b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 28b546c5473641bbd5d719908903c2d9e19db25ade2ff6677a5ce5ec7ea472d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950727"
 ---
 # <a name="parsing-exceptions"></a>剖析例外狀況
 
@@ -19,18 +19,18 @@ HTTP 伺服器 API 提供登錄機碼，以支援將例外狀況剖析為 HTTP/1
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Http
-               Parameters
+   System
+      CurrentControlSet
+         Services
+            Http
+               Parameters
 ```
 
 下表列出提供的登錄機碼，可支援所列的例外狀況。 若要啟用例外狀況，請將對應的金鑰值設定為1，然後重新開機 HTTP 服務。
 
 
 
-| 索引鍵名稱                              | Description                                                                                                                                                                                                                                                                                                                                                                     |
+| 索引鍵名稱                              | 描述                                                                                                                                                                                                                                                                                                                                                                     |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AllowWeakHeaderNameSyntax (DWORD)      | 允許 HTTP 剖析器接受具有分隔符號的標頭名稱，例如 '？ '。                                                                                                                                                                                                                                                                                            |
 | AllowWeakHeaderValueSyntax (DWORD)     | 允許 HTTP 剖析器接受含有原始 (非重) 控制字元的標頭值。                                                                                                                                                                                                                                                                                   |
@@ -39,11 +39,11 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

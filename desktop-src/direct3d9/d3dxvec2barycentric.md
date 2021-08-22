@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c3210624087a3d1d5a612ba1eb628e7d85ba4fea
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0dee8da578524bd9f95efb10fe4af091facc83552e07c92d248de6c7fd9a0e80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044656"
 ---
 # <a name="d3dxvec2barycentric-function-d3dx9mathh"></a>D3DXVec2BaryCentric 函式 (D3dx9math) 
 

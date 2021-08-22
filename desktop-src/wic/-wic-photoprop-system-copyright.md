@@ -4,12 +4,12 @@ ms.assetid: 84d2f55b-5ca4-4912-b038-c18a72e6fc34
 title: System. 著作權相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fc65024458d88088e3c0cbeccc3bc9ea0211910
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b00b57bc3523feaa29da9008340bd34c32401879a8fc4e872082bbdcddd1fdf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710811"
 ---
 # <a name="systemcopyright-photo-metadata-policy"></a>System. 著作權相片中繼資料原則
 

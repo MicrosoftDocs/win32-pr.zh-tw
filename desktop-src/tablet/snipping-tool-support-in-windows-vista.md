@@ -4,12 +4,12 @@ ms.assetid: e31e63e8-8f6b-41f7-8bd6-afc5ca32456b
 title: Windows Vista 中的剪取工具支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 046dd6c8a97d1dacc20065dc1f741610fec13865
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cb2c24901524500df97461f3b3acf88d9a51f73cc24134955c1df866a457a37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966767"
 ---
 # <a name="snipping-tool-support-in-windows-vista"></a>Windows Vista 中的剪取工具支援
 
@@ -36,8 +36,8 @@ HKLM \\ Software \\ Microsoft \\ Windows \\ 平板 \\ 剪取工具 \\ LinkFinger
 | 值                        | TYPE                  | 面具            | 儲存的資訊                                          |
 |------------------------------|-----------------------|-----------------|-------------------------------------------------------------|
 | Mask<br/>              | REG \_ DWORD<br/> |                 | 指出下列哪些欄位要檢查<br/> |
-| Name<br/>              | REG \_ SZ<br/>    | 0x02<br/> | 存取範圍名稱<br/>                               |
-| Description<br/>       | REG \_ SZ<br/>    | 0x04<br/> | 協助工具描述<br/>                        |
+| 名稱<br/>              | REG \_ SZ<br/>    | 0x02<br/> | 存取範圍名稱<br/>                               |
+| 描述<br/>       | REG \_ SZ<br/>    | 0x04<br/> | 協助工具描述<br/>                        |
 | 角色<br/>              | REG \_ DWORD<br/> | 0x08<br/> | 協助工具角色<br/>                               |
 | ParentName<br/>        | REG \_ SZ<br/>    | 0x10<br/> | 父系的協助工具名稱<br/>                     |
 | ParentValue<br/>       | REG \_ SZ<br/>    | 0x20<br/> | 父系的協助工具值<br/>                    |

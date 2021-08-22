@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 70a9389ed9e9f4fff16f82610cb611bc4da2c7a3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5408b2c8133947b948bc42eb6ff0c725584b0cf2c60ccf0731a9d584d3c898a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104990671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512015"
 ---
 # <a name="evaluateattributesnapped-function"></a>EvaluateAttributeSnapped 函式
 
@@ -28,8 +28,8 @@ ms.locfileid: "104990671"
 
 ``` syntax
 numeric EvaluateAttributeSnapped(
-  in attrib numeric value,
-  in 
+  in attrib numeric value,
+  in 
             int2 offset
 );
 ```
@@ -82,7 +82,7 @@ numeric EvaluateAttributeSnapped(
 > [!Note]  
 > 圖元的左邊和上邊緣包含在位移中;但是，不包含底部和右邊的邊緣。 32位整數中的所有其他位都會被忽略。
 
- 
+ 
 
 實值可以採用著色器所提供的位移，並透過執行下列計算，取得完整的32位固定點值 (28.4) （橫跨有效範圍）：
 
@@ -114,19 +114,19 @@ fU = ((float)iU)/16
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -138,9 +138,9 @@ fU = ((float)iU)/16
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

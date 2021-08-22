@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: aecab39b655998533c80f1fff56e3f10d941f551
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: ef95e4087d2d50e00bf7637119038f35378b8ef1657c23ac8b7a11e62acad3a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046866"
 ---
 # <a name="id3dx10threadpump-interface"></a>ID3DX10ThreadPump 介面
 
@@ -66,7 +66,7 @@ ms.locfileid: "110335652"
 
 
 
-|                                                                           |  Description                                        |
+|                                                                           |  描述                                        |
 |----------------------------------------------------------------------------|------------------------------------------|
 | [**D3DX10CreateAsyncFileLoader**](d3dx10createasyncfileloader.md)         | 以非同步方式建立檔案載入器。     |
 | [**D3DX10CreateAsyncMemoryLoader**](d3dx10createasyncmemoryloader.md)     | 以非同步方式建立資料載入器。     |
@@ -80,7 +80,7 @@ ms.locfileid: "110335652"
 
 
 
-|                                                                                                 |  Description                                                                                                                                                  |
+|                                                                                                 |  描述                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DX10CreateAsyncTextureProcessor**](d3dx10createasynctextureprocessor.md)                   | 建立要搭配執行緒抽取使用的資料處理器。 此 API 類似于 D3DX10CreateAsyncTextureInfoProcessor，但它也會載入紋理。 |
 | [**D3DX10CreateAsyncTextureInfoProcessor**](d3dx10createasynctextureinfoprocessor.md)           | 建立要搭配執行緒抽取使用的資料處理器。                                                                                             |
@@ -98,7 +98,7 @@ ms.locfileid: "110335652"
 
 
 
-|                                                                                                 | Description                                                                 |
+|                                                                                                 | 描述                                                                 |
 |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [**D3DX10CompileFromFile**](d3dx10compilefromfile.md)                                           | 從檔案編譯著色器。                                    |
 | [**D3DX10CompileFromMemory**](d3dx10compilefrommemory.md)                                       | 編譯位於記憶體中的著色器。                             |

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 57421b2fd9624d9798037151a5656343e386a497
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 534d588bc1633770c35b0e0edbc2079ed8f7ab5035d3a8d2ff181042d26fdb3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074272"
 ---
 # <a name="cdynamicoutputpinchangeoutputformat-method"></a>CDynamicOutputPin. ChangeOutputFormat 方法
 
@@ -79,7 +79,7 @@ HRESULT ChangeOutputFormat(
 
 
 
-| 傳回碼                                                                                           | Description                                                                                                                              |
+| 傳回碼                                                                                           | 描述                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>                                                                                                                      |
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。 可能是擁有篩選未呼叫 [**CDynamicOutputPin：： SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md)。<br/> |

@@ -5,12 +5,12 @@ ms.assetid: 081199AD-1702-4EC8-95AD-B1148C676199
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e4fae3489d54ab7b6b7abfda56f54dd8d970962
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 15bb5893e944c5d495cf91fdb334bd6ab5f755b7f1e200648242cb46b281f695
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104548467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045755"
 ---
 # <a name="direct3d-12-conservative-rasterization"></a>Direct3D 12 保守的點陣化
 
@@ -215,9 +215,9 @@ Direct3D 12 中支援的光柵類型有時稱為「非常重要保守的點陣�
 [轉譯](rendering.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

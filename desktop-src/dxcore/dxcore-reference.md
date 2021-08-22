@@ -4,12 +4,12 @@ description: 本節涵蓋在 DXCore 中宣告的 DXCore Api，以及 dxcore_inte
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: e90981e05b81508ce54cad1019dcf405f21442c1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 14e4b6999bec8b95a2701f4ffe59b826c19f01ac3633c7597b04957307dcc07c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042956"
 ---
 # <a name="dxcore-reference"></a>DXCore 參考
 

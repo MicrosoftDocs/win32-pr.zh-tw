@@ -8,12 +8,12 @@ keywords:
 - 為應用程式和服務開發人員分組 AD、資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd23f598925c959502e1013ff43ad18bbb42ed7b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2b59a8a1ce369d9b5fa1093297f219bf6a206178a950b9d0762fde3069846551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024388"
 ---
 # <a name="what-application-and-service-developers-need-to-know-about-groups"></a>哪些應用程式和服務開發人員需要瞭解群組
 
@@ -29,7 +29,7 @@ ms.locfileid: "103681628"
     -   只有在必要時才使用萬用群組 (成員資料是使用通用類別目錄的全域需求;群組可包含任何) 的使用者/群組。 如果您使用萬用群組，請將全域群組放置在萬用群組中，並在全域群組中新增/移除使用者。 避免對萬用群組進行過多的變更，以提供複寫效率。
 -   請勿使用存取控制的群組成員資格。 相反地，請使用 ACE 並藉由讓系統執行存取檢查來控制存取權。
 
-若要控制不符合 Active Directory 網域服務中物件之預先定義存取權限的作業存取權，請使用 Windows 2000 中存取控制的 [存取控制] 存取權限功能。 如需詳細資訊，請參閱 [**ADS \_ 許可權 \_ 列舉**](/windows/win32/api/iads/ne-iads-ads_rights_enum)。
+若要控制不符合 Active Directory 網域 services 中物件之預先定義存取權限的作業存取權，請使用 Windows 2000 中存取控制的 [存取控制] 存取權限功能。 如需詳細資訊，請參閱 [**ADS \_ 許可權 \_ 列舉**](/windows/win32/api/iads/ne-iads-ads_rights_enum)。
 
 **使用控制項存取權限控制執行作業的許可權**
 
@@ -41,6 +41,6 @@ ms.locfileid: "103681628"
 
 服務應用程式也可以建立一個群組，其成員會是不同的服務實例。 例如，在整個企業中的多部電腦上安裝實例的服務，可能會有所有服務實例寫入的通用記錄檔。 服務安裝程式會建立記錄檔，並使用 DACL 將存取權授與群組的成員。 群組成員將會是執行不同服務實例的使用者帳戶，或者，如果服務是在 LocalSystem 帳戶下執行，則成員會是主機伺服器的電腦帳戶。
 
- 
+ 
 
- 
+ 

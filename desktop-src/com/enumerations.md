@@ -4,12 +4,12 @@ ms.assetid: 57faa6ef-76fa-4b81-8aae-aa3263b952fd
 description: 深入瞭解： (COM) 的列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb24dc014342027a6f3a34c35b8eedfcf4c3a81c
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: c88b1f4d72d0d0770566d59212f1403c309a28aaa4b6703ed55f5fe8269224a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104195842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048296"
 ---
 # <a name="enumerations-com"></a>COM)  (的列舉
 

@@ -4,12 +4,12 @@ ms.assetid: 18579c4a-a832-4c89-8fb1-cd2542e4375e
 title: 基本 TxF 概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7f2f5d0885795f20a8dfb5e0963468ff04bb8e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c71b2ed4e906fab881fac93a686dcf3aff6e8a95fa72d785ef14320ef92c05ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950967"
 ---
 # <a name="basic-txf-concepts"></a>基本 TxF 概念
 
@@ -48,11 +48,11 @@ TxF 提供讀取認可隔離。 這表示在交易外部看不到檔案更新。
 
 非交易
 
-讀者
+讀取者
 
 讀取器/寫入器
 
-讀者
+讀取者
 
 讀取器/寫入器
 

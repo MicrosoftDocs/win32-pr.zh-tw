@@ -4,12 +4,12 @@ ms.assetid: ec4f585d-cbd5-4c25-aaf4-1c1333fd4587
 title: 核心資料表群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a5cc87e80c60505025825353272699db574bd1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8a8704a13e71f019e3d0686384057d3f209de06530c97bda6f0a63ff352d4db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948535"
 ---
 # <a name="core-tables-group"></a>核心資料表群組
 
@@ -28,7 +28,7 @@ ms.locfileid: "103945140"
 -   [MsiAssembly 資料表](msiassembly-table.md)會指定 .NET Framework common language runtime 元件和 Win32 元件的 Windows Installer 設定。
 -   [MsiAssemblyName 資料表](msiassemblyname-table.md)會為 common language Runtime 或 Win32 元件的強式組件快取名稱指定元素的架構。
 -   [Complus 資料表](complus-table.md)包含安裝 com + 應用程式所需的資訊。
--   [IsolatedComponent 資料表](isolatedcomponent-table.md)會將 [元件應用程式] 資料 (行中指定的元件 \_ 與 [元件共用] 資料行中指定的元件) 產生關聯， \_ (通常是共用的 DLL) 。
+-   [IsolatedComponent 資料表](isolatedcomponent-table.md)會將 [元件應用程式] 資料行中指定的元件關聯 \_ (通常是 .exe) 與 [元件共用] 資料行中指定的元件 \_ (通常是共用的 DLL) 。
 -   [升級資料表](upgrade-table.md)包含[主要升級](major-upgrades.md)期間所需的資訊。
 
  

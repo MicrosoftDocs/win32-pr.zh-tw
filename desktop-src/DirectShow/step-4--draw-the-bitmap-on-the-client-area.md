@@ -4,12 +4,12 @@ ms.assetid: fb22468c-9113-46ff-a576-8dee30c458be
 title: 步驟4：在工作區上繪製點陣圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4975215e5d75de9909f029a3378bd6cc8bc60916
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 253e7d8a5b7508d5ae9f27195dbb7d59b30508ff2aacd8ec2713e0f4d6c909f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951787"
 ---
 # <a name="step-4-draw-the-bitmap-on-the-client-area"></a>步驟4：在工作區上繪製點陣圖
 
@@ -43,7 +43,7 @@ case WM_PAINT:
 
 
 
-*PBuffer* 和 *pbmi* 變數是在 [步驟1：建立 Windows Framework](step-1--create-the-windows-framework.md)中宣告，而它們的值是在 [步驟3：執行 Frame-Grabbing](step-3--implement-the-frame-grabbing-function.md)函式中取得。
+*pBuffer* 和 *pbmi* 變數是在 [步驟1：建立 Windows Framework](step-1--create-the-windows-framework.md)中宣告，而它們的值會在 [步驟3：執行 Frame-Grabbing](step-3--implement-the-frame-grabbing-function.md)函式中取得。
 
 ## <a name="related-topics"></a>相關主題
 

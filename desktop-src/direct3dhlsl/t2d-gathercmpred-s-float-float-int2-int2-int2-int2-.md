@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f84467c798337ac2cc81283637636900933c9e41
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1f5314fb143d8607a66402ca2b27fdf4902ffb08646d55b6fed0702c0979c8b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118507605"
 ---
 # <a name="texture2dgathercmpredsfloatfloatint2int2int2int2-function"></a>Texture2D：： GatherCmpRed (S、float、float、int2、int2、int2、int2) 函數
 
@@ -122,7 +122,7 @@ TemplateType GatherCmpRed(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

@@ -4,12 +4,12 @@ ms.assetid: 6a3e682c-55c6-4728-9d14-5eb0290f3dcc
 title: 執行 IWICBitmapSourceTransform
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0809e1e56fe3c05c8803bb70106c4a24a466eafe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79caa17fdb874b9cbee73a9a371c4ba454e72c6eb249a6ca7d626fdd9c86aea0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711073"
 ---
 # <a name="implementing-iwicbitmapsourcetransform"></a>執行 IWICBitmapSourceTransform
 
@@ -123,7 +123,7 @@ enum WICBitmapTransformOptions
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

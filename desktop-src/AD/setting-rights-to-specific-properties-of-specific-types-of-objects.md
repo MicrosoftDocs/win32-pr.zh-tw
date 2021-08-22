@@ -8,12 +8,12 @@ keywords:
 - Active Directory，使用，安全性，設定特定屬性的許可權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79bfa24b574639e64fbb17c33fabee1185cc014c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 86c01070b5c5b23e7524bd3b54293576e578861e0120b431e6dc95b7a5b4cc4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024736"
 ---
 # <a name="setting-rights-to-specific-properties-of-specific-types-of-objects"></a>將許可權設定為特定物件類型的特定屬性
 
@@ -30,10 +30,10 @@ ms.locfileid: "104462816"
 > [!IMPORTANT]
 > Set ADS \_ ACEFLAG \_ INHERIT \_ ACE，使 ace 成為繼承的。 此外， \_ \_ \_ \_ 如果套用此 ace 的物件類型不符合指定 ace 之容器的物件類型，則設定 ADS ACEFLAG 只會繼承 ace。 如果未這麼做，ACE 也會在容器上生效，而且可以授與非預期的許可權。
 
- 
+ 
 
 如需可用來設定這類 ACE 的詳細資訊和程式碼範例，請參閱 [在目錄物件上設定 ACE 的範例程式碼](example-code-for-setting-an-ace-on-a-directory-object.md)。
 
- 
+ 
 
- 
+ 

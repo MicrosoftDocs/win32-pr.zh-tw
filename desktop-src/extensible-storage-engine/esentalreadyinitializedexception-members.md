@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101007
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 515b4f1cfff2b65f428ed0abbb742b658e12850c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41cb08747eb6be251848501cec3077746b85b84e6456b0b554a25ad715a0bbe8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042316"
 ---
 # <a name="esentalreadyinitializedexception-members"></a>EsentAlreadyInitializedException 成員
 

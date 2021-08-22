@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ead7c5936550715d48ee1ef6a3938b6219558823
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a1a9e1c531e5dc6cd76bdd220a94730f2fb7b859eb99d9bba217a008fb02b4c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511914"
 ---
 # <a name="if-pred---ps"></a>若為 pred-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "103679116"
 
 
 
- 
+ 
 
 其中：
 
@@ -47,7 +47,7 @@ ms.locfileid: "103679116"
 
 
 
- 
+ 
 
 此指令是用來根據述詞登錄的通道，略過程式碼區塊。 每個 if \_ pred 區塊都必須以 [else-ps](else---ps.md) 或 [endif-ps](endif---ps.md) 指令結尾。
 
@@ -64,9 +64,9 @@ ms.locfileid: "103679116"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

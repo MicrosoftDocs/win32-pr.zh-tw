@@ -4,12 +4,12 @@ ms.assetid: 2cad11a8-75ad-4726-a7bb-82870b71c721
 title: 範例 C 程式：簽署、編碼、解碼和驗證訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 128b4368a75d5f7636394fdf9a3b1b2694f45176
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8b274c8db1bc36c32616c84c4771d95a144f965effc7a849e77dde9d276950b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007466"
 ---
 # <a name="example-c-program-signing-encoding-decoding-and-verifying-a-message"></a>範例 C 程式：簽署、編碼、解碼和驗證訊息
 

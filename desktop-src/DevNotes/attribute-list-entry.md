@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 67ee65a22c9e880c76d3b250c4859077f471b018
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0c0154de52dbefa6d29278ca05e924db6f6c1d84b124fe21b3092e728a0d07fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956137"
 ---
 # <a name="attribute_list_entry-structure"></a>屬性 \_ 清單 \_ 專案結構
 

@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、註冊介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d34a12de37b39c719de246ceb79a92d6a51fc361
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c444a82d30848f4f01643c08f17f484d027bc7b8c8efe3f10e7f3c194aac26a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104182980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926874"
 ---
 # <a name="registering-the-interface"></a>註冊介面
 
@@ -32,11 +32,11 @@ status = RpcServerRegisterIf(MyInterface_v1_0_s_ifspec, NULL, NULL);
 > [!Note]  
 > MIDL 會產生兩個非常類似的結構，一個用於用戶端，另一個用於伺服器。 傳遞至 [**RpcServerRegisterIf**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif) 函數的結構是 MIDL 產生之結構的伺服器版本。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

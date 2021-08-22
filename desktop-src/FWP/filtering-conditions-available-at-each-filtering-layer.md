@@ -44,12 +44,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd0c3806c7c3c7a5fa7f10af0e5e11c212bd93e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c66aaceadec9a04e926806cf95859ffff2e4fa542b592edb4a11608a621a3338
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951197"
 ---
 # <a name="filtering-conditions-available-at-each-filtering-layer"></a>篩選每個篩選層級的可用條件
 
@@ -162,7 +162,7 @@ Windows 篩選平台 (WFP) 篩選引擎在其每個篩選層都支援一組不�
 ## <a name="fwpm_layer_inbound_icmp_error_v4--fwpm_layer_inbound_icmp_error_v4_discard--fwpm_layer_inbound_icmp_error_v6--fwpm_layer_inbound_icmp_error_v6_discard"></a>FWPM_LAYER_INBOUND_ICMP_ERROR_V4/FWPM_LAYER_INBOUND_ICMP_ERROR_V4_DISCARD/FWPM_LAYER_INBOUND_ICMP_ERROR_V6/FWPM_LAYER_INBOUND_ICMP_ERROR_V6_DISCARD
 - FWPM_CONDITION_ARRIVAL_INTERFACE_INDEX
 - FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
-- FWPM_CONDITION_ARRIVAL_SUB_INTERFACE_INDEX **Windows Vista/windows 7：** FWPM_CONDITION_SUB_INTERFACE_INDEX
+- FWPM_CONDITION_ARRIVAL_SUB_INTERFACE_INDEX **Windows Vista/Windows 7：** FWPM_CONDITION_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
 - FWPM_CONDITION_FLAGS
 - FWPM_CONDITION_ICMP_CODE
@@ -177,9 +177,9 @@ Windows 篩選平台 (WFP) 篩選引擎在其每個篩選層都支援一組不�
 - FWPM_CONDITION_IP_LOCAL_ADDRESS
 - FWPM_CONDITION_IP_LOCAL_INTERFACE
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
-- FWPM_CONDITION_LOCAL_INTERFACE_INDEX **Windows Vista/windows 7：** FWPM_CONDITION_INTERFACE_INDEX
-- FWPM_CONDITION_LOCAL_INTERFACE_TYPE **Windows Vista/windows 7：** FWPM_CONDITION_INTERFACE_TYPE
-- FWPM_CONDITION_LOCAL_TUNNEL_TYPE **Windows Vista/windows 7：** FWPM_CONDITION_TUNNEL_TYPE
+- FWPM_CONDITION_LOCAL_INTERFACE_INDEX **Windows Vista/Windows 7：** FWPM_CONDITION_INTERFACE_INDEX
+- FWPM_CONDITION_LOCAL_INTERFACE_TYPE **Windows Vista/Windows 7：** FWPM_CONDITION_INTERFACE_TYPE
+- FWPM_CONDITION_LOCAL_TUNNEL_TYPE **Windows Vista/Windows 7：** FWPM_CONDITION_TUNNEL_TYPE
 ###  <a name="windows-7--and-later"></a>Windows 7 和更新版本
 - FWPM_CONDITION_ARRIVAL_INTERFACE_PROFILE_ID
 ## <a name="fwpm_layer_outbound_icmp_error_v4--fwpm_layer_outbound_icmp_error_v4_discard--fwpm_layer_outbound_icmp_error_v6--fwpm_layer_outbound_icmp_error_v6_discard"></a>FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4/FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4_DISCARD/FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6/FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6_DISCARD
@@ -275,7 +275,7 @@ Windows 篩選平台 (WFP) 篩選引擎在其每個篩選層都支援一組不�
 - FWPM_CONDITION_ALE_USER_ID
 - FWPM_CONDITION_ARRIVAL_INTERFACE_INDEX
 - FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
-- FWPM_CONDITION_ARRIVAL_SUB_INTERFACE_INDEX **Windows Vista/windows 7：** FWPM_CONDITION_SUB_INTERFACE_INDEX
+- FWPM_CONDITION_ARRIVAL_SUB_INTERFACE_INDEX **Windows Vista/Windows 7：** FWPM_CONDITION_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
 - FWPM_CONDITION_FLAGS
 - FWPM_CONDITION_IP_ARRIVAL_INTERFACE
@@ -286,9 +286,9 @@ Windows 篩選平台 (WFP) 篩選引擎在其每個篩選層都支援一組不�
 - FWPM_CONDITION_IP_PROTOCOL
 - FWPM_CONDITION_IP_REMOTE_ADDRESS
 - FWPM_CONDITION_IP_REMOTE_PORT
-- FWPM_CONDITION_LOCAL_INTERFACE_INDEX **Windows Vista/windows 7：** FWPM_CONDITION_INTERFACE_INDEX
-- FWPM_CONDITION_LOCAL_INTERFACE_TYPE **Windows Vista/windows 7：** FWPM_CONDITION_INTERFACE_TYPE
-- FWPM_CONDITION_LOCAL_TUNNEL_TYPE **Windows Vista/windows 7：** FWPM_CONDITION_TUNNEL_TYPE
+- FWPM_CONDITION_LOCAL_INTERFACE_INDEX **Windows Vista/Windows 7：** FWPM_CONDITION_INTERFACE_INDEX
+- FWPM_CONDITION_LOCAL_INTERFACE_TYPE **Windows Vista/Windows 7：** FWPM_CONDITION_INTERFACE_TYPE
+- FWPM_CONDITION_LOCAL_TUNNEL_TYPE **Windows Vista/Windows 7：** FWPM_CONDITION_TUNNEL_TYPE
 ###  <a name="windows-7--and-later"></a>Windows 7 和更新版本
 - FWPM_CONDITION_NEXTHOP_SUB_INTERFACE_INDEX
 - FWPM_CONDITION_IP_NEXTHOP_INTERFACE
@@ -522,8 +522,8 @@ Windows 篩選平台 (WFP) 篩選引擎在其每個篩選層都支援一組不�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Fwpmu。h</dt> </dl> |
 
 

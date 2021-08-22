@@ -4,12 +4,12 @@ ms.assetid: 43a97dc8-19b3-412c-a015-339099bf4f6c
 title: 建立 DXVA-HD 視頻處理器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e89c5a361335f83296eec538a5a6a710b9e19604
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4945153dfd3e14f1d2caae9b0a84f201745ea24722781bf998930477054138c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974817"
 ---
 # <a name="creating-a-dxva-hd-video-processor"></a>建立 DXVA-HD 視頻處理器
 

@@ -1,19 +1,19 @@
 ---
 title: 封裝和部署工具和 PowerShell Cmdlet
-description: 使用這些工具和 Cmdlet 來建立、部署和清查適用于 Windows 應用程式的應用程式套件。
+description: 使用這些工具和 Cmdlet 來建立、部署和清查 Windows apps 的應用程式套件。
 ms.assetid: 8D1750C3-0816-4C59-8145-98AA1DCFE050
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f8966a61fe671df723862a848aac4c4b242f33b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6b078f9a7aa7267218b0c1e232395a9622af098e8916f709d5b8edb5a147c54e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118814397"
 ---
 # <a name="packaging-and-deployment-tools-and-powershell-cmdlets"></a>封裝和部署工具和 PowerShell Cmdlet
 
-使用這些工具和 Cmdlet 來建立、部署和清查適用于 Windows 應用程式的應用程式套件。
+使用這些工具和 Cmdlet 來建立、部署和清查 Windows apps 的應用程式套件。
 
 ## <a name="app-packaging-tools-and-guidance"></a>應用程式封裝工具和指引
 
@@ -23,11 +23,11 @@ ms.locfileid: "104092648"
 -   [建立套件簽署的憑證](/windows/msix/package/create-certificate-package-signing)
 -   [使用 SignTool 簽署應用程式套件](/windows/msix/package/sign-app-package-using-signtool)
 
-或者，您可以使用 Visual Studio 來建立和簽署應用程式套件。 如需詳細資訊，請參閱 [使用 Visual Studio 封裝 UWP 應用程式](/windows/msix/package/packaging-uwp-apps)。
+或者，您可以使用 Visual Studio 來建立和簽署應用程式套件。 如需詳細資訊，請參閱[使用 Visual Studio 封裝 UWP 應用程式](/windows/msix/package/packaging-uwp-apps)。
 
 ## <a name="powershell-cmdlets"></a>PowerShell Cmdlet
 
-使用 Windows PowerShell 來安裝、清查和卸載不是儲存簽署之 Windows 應用程式的企業營運 (LOB) 。 如需詳細資訊，請參閱： [Appx 模組 Cmdlet](/powershell/module/appx/index?view=win10-ps)。
+使用 Windows PowerShell 來安裝、清查和卸載企業營運 (LOB) Windows 未進行儲存簽署的應用程式。 如需詳細資訊，請參閱： [Appx 模組 Cmdlet](/powershell/module/appx/index?view=win10-ps)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -36,6 +36,6 @@ ms.locfileid: "104092648"
 [應用程式套件資訊清單結構描述](/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

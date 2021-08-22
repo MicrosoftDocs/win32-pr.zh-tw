@@ -4,27 +4,27 @@ ms.assetid: 56fe322e-53ea-4186-9b5e-352f69b09109
 title: 停機時間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6018d97ab0eecd1182c02b734357ca13fbe12632
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e0da8fa92fc51cdceef6f0052dda7a2cd27d7b21b24d11bd8ec7b1ea4aff18b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885508"
 ---
 # <a name="interrupt-time"></a>停機時間
 
 插斷 *時間* 是系統自上次啟動以來的時間量（以 100-納秒間隔）。 當系統啟動時，停機時間計數會從零開始，而且會依時鐘滴答的長度，以每個時鐘中斷遞增。 時鐘滴答的確切長度取決於基礎硬體，而且可能會因系統而異。
 
-與 [系統時間](system-time.md)不同的是，停機時間計數並不受使用者或 Windows 時間服務的調整，因此更適合用來測量短暫的持續時間。 需要比停機時間計數更高的精確度的應用程式應該使用 [高解析度計時器](../winmsg/about-timers.md)。 您可以使用 [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) 函式來取得高解析度計時器的頻率，並使用 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 函數來取出計數器的值。
+與[系統時間](system-time.md)不同的是，停機時間計數不受使用者或 Windows 時間服務的調整，因此更適合用來測量短暫的持續時間。 需要比停機時間計數更高的精確度的應用程式應該使用 [高解析度計時器](../winmsg/about-timers.md)。 您可以使用 [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) 函式來取得高解析度計時器的頻率，並使用 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 函數來取出計數器的值。
 
 您可以使用 [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime)、 [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise)、 [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)和 [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise) 函式來取得停機時間計數。 無偏誤停機時間表示只會計算系統處於工作狀態的時間，因此，停機時間計數不會因為系統花在睡眠或休眠的時間而「偏誤」。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP/2000：** 從 Windows 7 和 Windows Server 2008 R2 開始，可以使用 [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime) 函數。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP/2000：** 從 Windows 7 和 Windows Server 2008 R2 開始，可以使用 [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)函數。
 
 [**TimeBeginPeriod**](/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod)和 [**timeEndPeriod**](/windows/desktop/api/timeapi/nf-timeapi-timeendperiod)函數所設定的計時器解析度會影響 [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime)和 [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)函式的解析度。 但是，不建議增加計時器解析度，因為它可以降低整體系統效能，並藉由防止處理器進入省電狀態來提高耗電量。 相反地，應用程式應該使用高解析度計時器。
 
 > [!Note]  
-> [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime)、 [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise)、 [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)和 [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise)函式會在 ( 「已檢查」的 Windows ) 組建上產生不同的結果，因為停機時間計數和滴答計數大約是49天。 這有助於識別在系統長時間執行之前可能不會發生的 bug。 MSDN 訂閱者可透過 [Microsoft 開發人員 Network (msdn) ](https://msdn.microsoft.com/default.aspx) 網站取得已檢查的組建。
+> [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime)、 [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise)、 [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)和 [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise)函數會在 Windows 的 debug ( 「已檢查」 ) 組建上產生不同的結果，因為停機時間計數和滴答計數大約是49天。 這有助於識別在系統長時間執行之前可能不會發生的 bug。 MSDN 訂閱者可透過 [Microsoft 開發人員 Network (msdn) ](https://msdn.microsoft.com/default.aspx) 網站取得已檢查的組建。
 
  
 

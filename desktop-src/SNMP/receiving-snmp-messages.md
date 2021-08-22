@@ -4,12 +4,12 @@ description: WinSNMP 應用程式必須呼叫 SnmpRecvMsg 函式，才能取得 
 ms.assetid: 323a5565-a8a5-4efd-aa4e-e4623b581d09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 529420deaf637cec8598a8e8becc87ab514b40b4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3bd341e71aa6b8387b82f6576599fb6cb7d3545f34e01f80267f19a73edb7cba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009176"
 ---
 # <a name="receiving-snmp-messages"></a>接收 SNMP 訊息
 
@@ -21,9 +21,9 @@ WinSNMP 應用程式必須呼叫 [**SnmpRecvMsg**](/windows/desktop/api/Winsnmp/
 
 如需有關管理呼叫 [**SnmpSendMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsendmsg) 函式和接收對應回應之間時間的詳細資訊，請參閱 [關於重新傳輸](about-retransmission.md)。 如需使用 **要求 \_ 識別碼** PDU 欄位來比對回應 PDU 與其要求 pdu 的詳細資訊，請參閱 [相符的回應和要求](matching-response-and-request-pdus.md)pdu。
 
- 
+ 
 
- 
+ 
 
 
 

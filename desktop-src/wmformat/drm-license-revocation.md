@@ -1,10 +1,10 @@
 ---
-title: " (Microsoft Windows Media DRM 用戶端) 的授權撤銷"
-description: " (Microsoft Windows Media DRM 用戶端) 的授權撤銷"
+title: '授權撤銷 (Microsoft Windows 媒體 DRM 用戶端) '
+description: '授權撤銷 (Microsoft Windows 媒體 DRM 用戶端) '
 ms.assetid: 615ddddf-4f2f-400d-9c4d-ff3a2851d699
 keywords:
-- Windows Media Format SDK，授權
-- Windows Media Format SDK，授權撤銷
+- Windows媒體格式 SDK，授權
+- Windows媒體格式 SDK，授權撤銷
 - 數位版權管理 (DRM) 、授權
 - DRM (數位版權管理) 、授權
 - 數位版權管理 (DRM) 、授權撤銷
@@ -17,14 +17,14 @@ keywords:
 - 授權撤銷，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90388a7392c79f583143e06fb78ecfe45e188612
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5f3cd295ddc1aec40c04f5284d791d7482854208a17875bdd3ed60d998f4ccf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104195672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027836"
 ---
-# <a name="license-revocation-microsoft-windows-media-drm-client"></a> (Microsoft Windows Media DRM 用戶端) 的授權撤銷
+# <a name="license-revocation-microsoft-windows-media-drm-client"></a>授權撤銷 (Microsoft Windows 媒體 DRM 用戶端) 
 
 授權撤銷是指移除本機授權存放區中的授權。 當服務提供者（例如，音樂訂閱服務）必須停用使用者電腦上的服務時，就會發生授權撤銷的常見案例。
 

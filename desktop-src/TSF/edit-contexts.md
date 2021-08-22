@@ -15,12 +15,12 @@ keywords:
 - 編輯 cookie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 020ca8713d66d9d14e387381fc21157db8bdedf1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 26e99b1fe3f167f4cc76e9496a2071f017abd0bea2f5196de3e3041e53e2259e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118879575"
 ---
 # <a name="edit-contexts"></a>編輯內容
 
@@ -76,9 +76,9 @@ ms.locfileid: "103839827"
 [ITextStoreAnchor::GetSelection](/windows/desktop/api/Textstor/nf-textstor-itextstoreanchor-getselection)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,26 +6,26 @@ keywords:
 - Windows Media Player，資料夾監控
 - Windows Media Player 物件模型，資料夾監控
 - 物件模型，資料夾監控
-- Windows Media Player 的 ActiveX 控制項、資料夾監控
+- Windows Media Player ActiveX 控制項、資料夾監控
 - ActiveX 控制項，資料夾監控
-- Windows Media Player Mobile ActiveX 控制項、資料夾監控
-- Windows Media Player 行動裝置、資料夾監控
+- Windows Media PlayerMobile ActiveX 控制項，資料夾監控
+- Windows Media Player行動、資料夾監控
 - 資料夾監控
 - 監視資料夾
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3d6af341df706cd85c4158197b27babad09c86
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b1206defcdc387659567ceedcf7347a3ab99ca45d9926a9bd32c4f75280a8a46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055506"
 ---
 # <a name="about-folder-monitoring"></a>關於資料夾監控
 
 Windows Media Player 可以監視包含數位媒體檔案的資料夾，並在新增或移除檔案時更新文件庫。 此資料夾監控功能是由 [IWMPFolderMonitorServices](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices) 介面提供。
 
-若要使用資料夾監控服務，您必須以遠端狀態建立 Player 物件。 如需遠端處理的詳細資訊，請參閱 [遠端處理 Windows Media Player 控制項](remoting-the-windows-media-player-control.md)。 當您建立了播放程式的遠端實例之後，請呼叫 [IWMPPlayer](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer)介面上的 **QueryInterface** 來取得 **IWMPFolderMonitorServices** 介面的指標。
+若要使用資料夾監控服務，您必須以遠端狀態建立 Player 物件。 如需遠端處理的詳細資訊，請參閱[遠端處理 Windows Media Player 控制項](remoting-the-windows-media-player-control.md)。 當您建立了播放程式的遠端實例之後，請呼叫 [IWMPPlayer](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer)介面上的 **QueryInterface** 來取得 **IWMPFolderMonitorServices** 介面的指標。
 
 Windows Media Player 會保留受監視的資料夾清單。 若要取得受監視的資料夾清單，請使用 [IWMPFolderMonitorServices：： get \_ Count](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_count) 和 [IWMPFolderMonitorServices：： item](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-item) 方法。 若要將資料夾加入清單或從清單中移除它們，請分別使用 [IWMPFolderMonitorServices：： add](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-add) 和 [remove](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-remove) 方法。
 
@@ -55,9 +55,9 @@ Windows Media Player 會保留受監視的資料夾清單。 若要取得受監�
 [**IWMPFolderMonitorServices 介面**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

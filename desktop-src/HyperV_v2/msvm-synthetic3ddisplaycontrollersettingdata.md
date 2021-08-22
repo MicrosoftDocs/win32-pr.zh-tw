@@ -39,16 +39,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c93bb67cd4a66c4ecc5f6820ff2de7cf3816b2b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f8b9aa97aa57089cd88be3c24111a49231fdc5f922e956e98c4842eef461713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949997"
 ---
 # <a name="msvm_synthetic3ddisplaycontrollersettingdata-class"></a>Msvm \_ Synthetic3DDisplayControllerSettingData 類別
 
-代表虛擬機器的綜合立體顯示控制器設定。 此類別只會與使用 RemoteFX 的虛擬機器搭配使用。
+代表虛擬機器的綜合立體顯示控制器設定。 此類別僅適用于使用 RemoteFX 的虛擬機器。
 
 下列語法已簡化受控物件格式 (MOF) 程式碼，並且包含所有繼承的屬性。
 
@@ -193,7 +193,7 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 
 此資源所連接的裝置。 這個屬性繼承自 [**CIM \_ ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata)。
 
-這是唯讀屬性，但如果 1) **resourcetype** 屬性為 17 (序列埠) ，或 2) **resourcetype** 屬性為 21 (儲存範圍) 且 **ResourceSubType** 屬性為 "Microsoft Virtual Hard Disk"，則可以使用 [**Msvm \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)類別的 [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md)方法來變更。
+這是唯讀屬性，但如果 1) **resourcetype** 屬性為 17 (序列埠) ，或 2) **resourcetype** 屬性為 21 (儲存體範圍) ，且 **ResourceSubType** 屬性為 "Microsoft Virtual Hard Disk"，則可以使用 [**Msvm \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)類別的 [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md)方法來變更。
 
 </dd> <dt>
 
@@ -301,7 +301,7 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 
 
 
-| 解決方案            | 監視器上限 |
+| 解決方法            | 監視器上限 |
 |-----------------------|------------------|
 | 1024 768<br/>  | 4<br/>     |
 | 1280 1024<br/> | 4<br/>     |
@@ -516,7 +516,7 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 虛擬機器的視訊記憶體大小。
 
 > [!Note]  
-> 在 Windows 10 和 Windows Server 2016 中新增。
+> 加入 Windows 10 和 Windows Server 2016。
 
  
 
@@ -582,8 +582,8 @@ class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSetti
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

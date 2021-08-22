@@ -4,12 +4,12 @@ ms.assetid: ACBE8799-A81C-44C3-B985-88ADFB1E51B4
 title: 'CODECAPI_AVEncMaxFrameRate 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c04d1fd1297f299db133cd98bd493c968fcc29c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bb4202dd2079cc013560947ef11581cdb24b92ad0aaaf544e12923d5e46b319
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974927"
 ---
 # <a name="codecapi_avencmaxframerate-property"></a>CODECAPI \_ AVEncMaxFrameRate 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "106970560"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

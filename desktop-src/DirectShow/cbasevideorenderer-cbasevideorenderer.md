@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c0ae558238b94402150e5cb15373d202065e485e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ec6a5e12d12b12f22cf1089d85ed4c07656da86cda071d8645355890996e2cd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954757"
 ---
 # <a name="cbasevideorenderercbasevideorenderer-constructor"></a>CBaseVideoRenderer. CBaseVideoRenderer 函數
 

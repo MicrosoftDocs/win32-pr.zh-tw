@@ -1,5 +1,5 @@
 ---
-description: 為 Windows 映像取得 (WIA) 2.0 裝置建立 IWiaItem2 物件的階層式樹狀結構。
+description: 建立 IWiaItem2 物件的階層式樹狀結構，以取得 Windows 的影像取得 (WIA) 2.0 裝置。
 ms.assetid: df7f3cc2-da0a-4238-b280-89c72107753c
 title: 'IWiaDevMgr2：： CreateDevice 方法 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: a548a0ef43c2621b77c4ed10acde393af21d596d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a40267e77671b807f0e6969845a3a5a7096694e4f4e7978467ee9ca5909284d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965727"
 ---
 # <a name="iwiadevmgr2createdevice-method"></a>IWiaDevMgr2：： CreateDevice 方法
 
-為 Windows 映像取得 (WIA) 2.0 裝置建立 [**IWiaItem2**](-wia-iwiaitem2.md) 物件的階層式樹狀結構。
+建立 [**IWiaItem2**](-wia-iwiaitem2.md)物件的階層式樹狀結構，以取得 Windows 的影像取得 (WIA) 2.0 裝置。
 
 ## <a name="syntax"></a>語法
 
@@ -86,10 +86,10 @@ HRESULT CreateDevice(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

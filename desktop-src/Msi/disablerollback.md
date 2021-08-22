@@ -4,12 +4,12 @@ ms.assetid: 01747de6-7478-4403-ba36-8ff1abc2b70f
 title: DisableRollback
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7f0ce15e618880f021e04adf7d2146a97f6ed65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5da8380ce5dc7ea0b711d5766a554d6dce970bc81587a75164e61f3694c6a5ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947312"
 ---
 # <a name="disablerollback"></a>DisableRollback
 
@@ -19,11 +19,11 @@ ms.locfileid: "103943577"
 
 若要針對個別使用者安裝停用復原，請在下列登錄機碼底下將 **DisableRollback** 設定為1：
 
-**HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_\_** \\  \\  \\ **Microsoft** \\ **Windows** \\ **安裝程式** 的目前使用者軟體原則
 
 若要針對每部電腦安裝停用復原，請在下列登錄機碼底下將 **DisableRollback** 設定為1。
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

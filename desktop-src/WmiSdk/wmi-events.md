@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 249bbb99650962452a47fb7556ef9654902a1268
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 070331d4c19e7e639626fd188b8c389d79e5a82a4acffba3a905d1d97256b739
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049866"
 ---
 # <a name="wmi-events"></a>WMI 事件
 

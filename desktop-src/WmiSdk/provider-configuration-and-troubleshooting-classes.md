@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 提供者設定和疑難排解類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be63fb5693898541bffae2abcb05b7595ae7fc9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77d37443047e9bbde709fc1c7367f0691d16215eff62e39196987b466aea0830
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050496"
 ---
 # <a name="provider-configuration-and-troubleshooting-classes"></a>提供者設定和疑難排解類別
 

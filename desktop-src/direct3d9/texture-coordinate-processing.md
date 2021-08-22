@@ -4,12 +4,12 @@ ms.assetid: a6126946-8f75-4b3a-b017-d1014e917e9c
 title: " (Direct3D 9) 的材質座標處理"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a161d3675a5859702368a62719124aa029ee455
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 72ce5a002e7171f97ab60c0af3cd5e8228cb8222ba70b8e718f2d93c28cebf33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044219"
 ---
 # <a name="texture-coordinate-processing-direct3d-9"></a> (Direct3D 9) 的材質座標處理
 

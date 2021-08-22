@@ -4,12 +4,12 @@ ms.assetid: 17b222e7-bf57-4cdd-8475-d9a8be03ab7f
 title: 'IMC_SETCOMPOSITIONFONT 命令 (Imm. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbb84c9e05ab19206064988a71b0ffc39b21a44b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ebc9f435371d4ae08b12191419c95fd53c69256064f0e90bb654e75fab922f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949269"
 ---
 # <a name="imc_setcompositionfont-command"></a>IMC \_ SETCOMPOSITIONFONT 命令
 
@@ -56,7 +56,7 @@ LRESULT IMC_SETCOMPOSITIONFONT
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt>Imm (包括 Windows .h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Imm (包含 Windows .h) </dt> </dl> |
 
 
 

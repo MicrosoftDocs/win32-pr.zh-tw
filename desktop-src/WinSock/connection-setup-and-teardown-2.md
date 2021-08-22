@@ -4,12 +4,12 @@ ms.assetid: 65883556-6890-4d0a-8c7f-c4ff68642caf
 title: 連接設定和卸載
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9c4ac1f32524d097e11825f8104eb41fee3c528
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c5e8c8a95c9baa90e95bd7b7da2702f3522b2a575d3d0181271428837e27b7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051716"
 ---
 # <a name="connection-setup-and-teardown"></a>連接設定和卸載
 

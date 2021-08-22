@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ FontProperties \_ Size 屬性。
 ms.assetid: bd426910-9852-48e1-91c8-b94be5ef7199
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ae991cfe5f91b4aca4fe0b49a7b7c547e71b0fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a9c013c41290f6e062b03572a9e3cb848752efcb12f1c779348a0253f94d40e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028626"
 ---
 # <a name="ui_pkey_fontproperties_size"></a>UI \_ PKEY \_ FontProperties \_ 大小
 
@@ -17,12 +17,12 @@ ms.locfileid: "106968620"
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Size
-   shellPKey = UI_PKEY_FontProperties_Size
-   formatID = 00000302-7363-696e-8441798acf5aebb7
-   propID = 302
-   typeInfo
-      type = VT_DECIMAL
+   name = UI_PKEY_FontProperties_Size
+   shellPKey = UI_PKEY_FontProperties_Size
+   formatID = 00000302-7363-696e-8441798acf5aebb7
+   propID = 302
+   typeInfo
+      type = VT_DECIMAL
 ```
 
 ## <a name="remarks"></a>備註
@@ -44,7 +44,7 @@ UI \_ PKEY \_ FontProperties \_ 大小是由應用程式用來查詢 **字型大
 > [!Note]  
 > 當字型大小以程式設計方式設定為0時， **字型大小** 控制項會設為空白，例如反白顯示執行 heterogeneously 大小的文字時。
 
- 
+ 
 
 選取 [執行 heterogeneously 大小的文字] 時，應用程式應該查詢 [UI \_ PKEY \_ FontProperties \_ DeltaSize](windowsribbon-reference-properties-uipkey-fontproperties-deltasize.md) 來捕捉 **成長字型** 和 **壓縮字型** 命令。
 
@@ -58,9 +58,9 @@ UI \_ PKEY \_ FontProperties \_ 大小是由應用程式用來查詢 **字型大
 [字型控制項](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

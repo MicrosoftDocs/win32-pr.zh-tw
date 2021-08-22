@@ -5,12 +5,12 @@ ms.assetid: ebf8d0a7-e465-4f9f-9e3d-b97dbcf321b8
 title: '我 (磁碟區陰影複製服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b043c340de5d1703587b83f72851db76d367832a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a672a8cd25792dedb6e32e0916e85ddf50634824b00491733e19bab2c30ece4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056168"
 ---
 # <a name="i-volume-shadow-copy-service"></a>我 (磁碟區陰影複製服務) 
 

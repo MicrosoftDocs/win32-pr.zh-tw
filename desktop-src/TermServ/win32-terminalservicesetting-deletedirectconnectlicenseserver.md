@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1929ee4294040e80ec9bb633bd70d4709b3e56b0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94cefd0bf27e1b285a8badb9c7fc4b33cf11f9cdac764067662a77b90021afe2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999906"
 ---
 # <a name="deletedirectconnectlicenseserver-method-of-the-win32_terminalservicesetting-class"></a>Win32 TerminalServiceSetting 類別的 DeleteDirectConnectLicenseServer 方法 \_
 
-\[**DeleteDirectConnectLicenseServer** 不再適用于 Windows Server 2008 R2。\]
+\[**DeleteDirectConnectLicenseServer** 已不再可供使用，Windows Server 2008 R2。\]
 
 **Windows Server 2008：** 從登錄中移除授權伺服器。
 

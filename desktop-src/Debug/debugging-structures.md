@@ -4,12 +4,12 @@ ms.assetid: bf1294cd-1836-49d3-9cc4-4532429a301f
 title: 偵錯結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ad7fa62ff2eff4c27ba98ef54d835a8a8f03f4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0cf805d844dfee5d6f78c088143d54fa776afb623d963ca30ff828b7ac0ec0cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104109989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957137"
 ---
 # <a name="debugging-structures"></a>偵錯結構
 

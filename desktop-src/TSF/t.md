@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bf5766c9-ac10-4f0d-bd6e-22effdf32d77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5c3b1ebe7d010fc8c4ff20a5e54f9bcdde7df58
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 4b0bf16adc0f531076d0d324bd522b560fbf9b82b58540f77ee1bf4c142d5f3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118875219"
 ---
 # <a name="t-text-services-framework"></a>T (文字服務架構) 
 

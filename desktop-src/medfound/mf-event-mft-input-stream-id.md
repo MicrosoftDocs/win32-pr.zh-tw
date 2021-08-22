@@ -4,12 +4,12 @@ ms.assetid: 2922af62-3fcc-4153-a26a-aba3c4121a0b
 title: 'MF_EVENT_MFT_INPUT_STREAM_ID 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59d3966c33dc563fc9e38ad367cc675ba6616c03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3d211eb30280e6b7390df8509795d49567c7f8a8c9016b2825786858fe888b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973807"
 ---
 # <a name="mf_event_mft_input_stream_id-attribute"></a>MF \_ 事件 \_ MFT \_ 輸入 \_ 資料流程 \_ 識別碼屬性
 
@@ -47,7 +47,7 @@ ms.locfileid: "104191516"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

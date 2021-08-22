@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC，描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ea90c08dc075fdd90ae604b0d347ba6ac5baf9a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f97c7735976428ffc4128b0c6a566ac56228921a3bf1070eda69af1579d90b99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927557"
 ---
 # <a name="overviews"></a>概觀
 
@@ -37,9 +37,9 @@ ms.locfileid: "104301560"
 -   [RPC 負載平衡](rpc-load-balancing.md) 說明如何在伺服器陣列中的多部 rpc 伺服器之間散發大量 RPC over HTTP 流量。
 -   [範例](examples.md) 包含 Microsoft 平臺軟體發展人員套件隨附的範例 RPC 程式說明。
 
- 
+ 
 
- 
+ 
 
 
 

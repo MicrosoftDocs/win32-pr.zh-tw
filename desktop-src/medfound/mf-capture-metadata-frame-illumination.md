@@ -4,12 +4,12 @@ ms.assetid: D84772C8-902F-4302-8288-0430892A1896
 title: 'MF_CAPTURE_METADATA_FRAME_ILLUMINATION 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb9aa60b5e921e99ac4f4c56cb4643af8389aa91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a23658f8f396a81180a074badc43e98d0f392fc355c1a81a4d1e731d132de12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973947"
 ---
 # <a name="mf_capture_metadata_frame_illumination-attribute"></a>MF \_ 捕獲 \_ 中繼資料 \_ 框架 \_ 照明屬性
 
@@ -34,7 +34,7 @@ ms.locfileid: "106974129"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                      |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                      |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

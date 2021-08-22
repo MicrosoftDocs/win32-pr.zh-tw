@@ -4,12 +4,12 @@ ms.assetid: d4176f99-e819-4b5a-bd06-1a2965891f9a
 title: MsiEmbeddedUI 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a52846e88e2d8f3edb439aa6b4a49c99e252173f
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 7357a0b5aa1de2218eefb58fa85fbe374e9796ad0aaa94946743f1c51d9c8daa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106986459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012946"
 ---
 # <a name="msiembeddedui-table"></a>MsiEmbeddedUI 資料表
 
@@ -79,7 +79,7 @@ MsiEmbeddedUI 資料表具有下列資料行。
 
 
 
-| 常數                           | 十六進位 | Decimal   | Description                                                                                                  |
+| 常數                           | 十六進位 | Decimal   | 描述                                                                                                  |
 |------------------------------------|-------------|-----------|--------------------------------------------------------------------------------------------------------------|
 | **INSTALLLOGMODE \_ FATALEXIT**      | 0x00001     | 1         | 提前終止。                                                                                       |
 | **INSTALLLOGMODE \_ 錯誤**          | 0x00002     | 2         | 錯誤訊息。                                                                                              |
@@ -117,7 +117,7 @@ MsiEmbeddedUI 資料表具有下列資料行。
 
 若要使用內嵌使用者介面，安裝程式開發人員必須將此功能撰寫 Windows Installer 套件中。 MsiEmbeddedUI 資料表會定義內嵌的使用者介面。 內嵌 UI 的 DLL 應該匯出 *InitializeEmbeddedUI*、 *EmbeddedUIHandler* 和 *ShutdownEmbeddedUI* 函數。 不支援內嵌使用者介面的封裝可以使用 Windows Installer 內部使用者介面。
 
-若要在內嵌使用者介面上執行 [適用于 Windows 的調試](https://www.microsoft.com/?ref=go) 程式，請使用 [偵錯工具自訂動作](debugging-custom-actions.md)中所述的技術。 將 MsiBreak 的值設定為 MsiEmbeddedUI。
+若要在內嵌使用者介面上執行[Windows 的調試](https://www.microsoft.com/?ref=go)程式，請使用偵錯工具[自訂動作](debugging-custom-actions.md)中所述的技術。 將 MsiBreak 的值設定為 MsiEmbeddedUI。
 
 如需內嵌自訂 UI 的範例，請參閱 [使用內嵌 ui](using-an-embedded-ui.md)。
 

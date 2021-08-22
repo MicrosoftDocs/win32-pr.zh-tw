@@ -4,12 +4,12 @@ description: Windows 功能區架構中補充標記元素的參考檔集。
 ms.assetid: 9f80d65b-4912-4b93-9374-25913f0def08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c5688dac144f555a4db53af7ccda44960fe1eb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b2107e0872fe9471b264011440e767a20c8b46ebb321cda1cc2bc1ea2be53592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028716"
 ---
 # <a name="others"></a>其他
 

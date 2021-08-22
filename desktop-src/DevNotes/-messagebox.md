@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Sqlunirl.dll
-ms.openlocfilehash: 9e138c3888df58b412a5e5cb306a30a117411356
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7bdc1da33b6b2ca0c917637a77ce381469aa5afbc1848d47dd89fd2dc94f9b1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956186"
 ---
 # <a name="_messagebox-function"></a>\_MessageBox 函數
 

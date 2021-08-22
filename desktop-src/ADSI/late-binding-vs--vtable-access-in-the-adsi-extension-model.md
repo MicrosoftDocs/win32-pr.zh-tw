@@ -6,15 +6,15 @@ ms.tgt_platform: multiple
 keywords:
 - ADSI 擴充模型 ADSI 中的晚期繫結與 vtable 存取
 - ADSI 擴充模型中的延伸 ADSI、晚期繫結和 vtable 存取
-- ADSI ADSI，範例程式碼 Visual Basic，使用 IADsDualInf
+- adsi adsi，範例程式碼 Visual Basic，使用 IADsDualInf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f95431fcde9a194f28cd103d93faa3f182c1968
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d8eacc2008d3da33cd8d1897eeff2c30301849f9ec306656fc494072c33608c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106983304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023356"
 ---
 # <a name="late-binding-vs-vtable-access-in-the-adsi-extension-model"></a>ADSI 擴充模型中的晚期繫結與 Vtable 存取
 
@@ -36,6 +36,6 @@ inf.Get("name") 'IADs.Get() will be invoked through direct vtable access.
 
 目前的 VBScript 和 JScript 版本也不支援 vtable 存取。 因此，VBScript 或 JScript 環境中的雙重介面會像分派介面一樣執行。
 
- 
+ 
 
- 
+ 

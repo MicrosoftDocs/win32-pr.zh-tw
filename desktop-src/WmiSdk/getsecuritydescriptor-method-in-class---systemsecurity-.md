@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: 7aece0a50678689141de9b9a38a014414578de3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77053174878db77409c525510acb54740ac8ad5c5c0505af5bf6ff8421cdf737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050856"
 ---
 # <a name="getsecuritydescriptor-method-of-the-__systemsecurity-class"></a>\_ \_ SystemSecurity 類別的 GetSecurityDescriptor 方法
 

@@ -4,12 +4,12 @@ description: 下列是 COM 所提供的介面。
 ms.assetid: aa9b11ae-7978-44ff-afe7-00c34bd235e3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed42fbdbb09ddac4379de40d04b4491c3eef52d8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c2852ce140124316cdf56040b5b633a76e7331513c4175ff02a312828cece5ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048106"
 ---
 # <a name="interfaces-com"></a>COM)  (介面
 
@@ -94,7 +94,7 @@ ms.locfileid: "104508268"
 | [**IRpcOptions**](/windows/win32/api/objidlbase/nn-objidlbase-irpcoptions)                             | 可讓呼叫端設定或查詢各種屬性的值，這些屬性會控制 COM 如何 (RPC) 來處理遠端程序呼叫。                                                                                                                                                                                                                                                                                                                                                            |
 | [**IRpcProxyBuffer**](/windows/win32/api/objidlbase/nn-objidlbase-irpcproxybuffer)                     | 控制用來在 COM 元件之間封送處理資料的 RPC proxy。                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | [**IRpcStubBuffer**](/windows/win32/api/objidlbase/nn-objidlbase-irpcstubbuffer)                       | 控制用來在 COM 元件之間封送處理資料的 RPC stub。                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [**IRunnableObject**](/windows/desktop/api/ObjIdl/nn-objidl-irunnableobject)                     | 讓容器控制其内嵌物件的執行。 如果是以本機伺服器執行的物件，呼叫 [**Run**](/windows/desktop/api/ObjIdl/nf-objidl-irunnableobject-run) 方法會啟動伺服器的。EXE 檔案。 如果是使用同進程伺服器 **來執行的物件，呼叫回合** 會導致物件。要轉換成執行中狀態的 DLL 檔案。                                                                                                                 |
+| [**IRunnableObject**](/windows/desktop/api/ObjIdl/nn-objidl-irunnableobject)                     | 讓容器控制其内嵌物件的執行。 如果是以本機伺服器執行的物件，呼叫 [**Run**](/windows/desktop/api/ObjIdl/nf-objidl-irunnableobject-run) 方法會啟動伺服器的 .EXE 檔案。 如果是使用同進程伺服器來處理的物件 **，呼叫回合** 會導致物件 .DLL 檔轉換成執行中的狀態。                                                                                                                 |
 | [**IRunningObjectTable**](/windows/desktop/api/ObjIdl/nn-objidl-irunningobjecttable)             | 管理對執行中物件資料表的存取 (ROT) 是每個工作站上可全域存取的查詢資料表。 工作站的 ROT 會持續追蹤這些物件，這些物件可由具有標記的物件識別，且目前正在工作站上執行。 當用戶端嘗試將標記系結到物件時，此標記會檢查 ROT 以查看物件是否已在執行中;這可讓標記系結至目前的實例，而不是載入新的實例。                       |
 | [**IServerSecurity**](/windows/win32/api/objidlbase/nn-objidlbase-iserversecurity)                     | 由伺服器用來協助驗證用戶端，以及管理用戶端的模擬。                                                                                                                                                                                                                                                                                                                                                                                            |
 | [**IStdMarshalInfo**](/windows/win32/api/objidlbase/nn-objidlbase-istdmarshalinfo)                     | 在標準封送處理期間，抓取識別要在目的地進程中使用之處理常式的 CLSID。                                                                                                                                                                                                                                                                                                                                                                          |

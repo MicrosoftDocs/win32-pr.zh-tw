@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 901d61f3597156853b0f2d6f93b43c3cf99ec5e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f8841e95f4097d043e7ef01abdb067c248f43b9295a8c8466ba50f07d23bd7dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074142"
 ---
 # <a name="cimagedisplaygetdisplayformat-method"></a>CImageDisplay. GetDisplayFormat 方法
 

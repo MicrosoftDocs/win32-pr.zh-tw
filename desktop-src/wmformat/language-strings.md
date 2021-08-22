@@ -3,26 +3,26 @@ title: 語言字串
 description: 語言字串
 ms.assetid: 625f7e95-0d21-4e16-8323-0f6301a04b30
 keywords:
-- Windows Media Format SDK，語言字串
+- Windows媒體格式 SDK，語言字串
 - Advanced Systems Format (ASF) ，語言字串
 - ASF (Advanced Systems Format) 、language 字串
 - 語言字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42cc82437c49feb82eac40ec5d056bbd98d99987
-ms.sourcegitcommit: 80d74c0bf4fc402865a1ad223480abe1ce4d1115
+ms.openlocfilehash: 5fbf6abfb291e111231d2bf2641633f9dc15372b3c9abb422fb5484f8e586175
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "104185491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027526"
 ---
 # <a name="language-strings"></a>語言字串
 
-Windows Media 格式 SDK 的多重語言支援功能會使用符合 RFC 1766 的語言字串。 下表列出常見的支援語言字串。
+Windows 媒體格式 SDK 的多重語言支援功能會使用符合 RFC 1766 的語言字串。 下表列出常見的支援語言字串。
 
 
 
-| 語言字串 | Description                  |
+| 語言字串 | 描述                  |
 |-----------------|------------------------------|
 | af              | 南非荷蘭文                    |
 | ar-ae           | 阿拉伯文 (阿拉伯聯合大公國)              |
@@ -133,7 +133,7 @@ Windows Media 格式 SDK 的多重語言支援功能會使用符合 RFC 1766 的
 | nl           | 荷蘭文 (比利時)              |
 | nl              | 荷蘭文 (荷蘭)          |
 | nn-否           | 挪威文 (耐諾斯克)          |
-| 不可以              | 挪威文 (巴克摩)           |
+| 否              | 挪威文 (巴克摩)           |
 | 或              | 歐迪亞文                         |
 | pa              | 旁遮普文                      |
 | pl              | 波蘭文                       |
@@ -178,7 +178,7 @@ Windows Media 格式 SDK 的多重語言支援功能會使用符合 RFC 1766 的
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -187,6 +187,6 @@ Windows Media 格式 SDK 的多重語言支援功能會使用符合 RFC 1766 的
 [**程式設計參考**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

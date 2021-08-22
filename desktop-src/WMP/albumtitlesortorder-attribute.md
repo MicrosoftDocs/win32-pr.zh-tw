@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b870b719c6884f520f6d4389dcbd5918bfd316a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea671ca999d26200a04bec2ef066ee9782b00022eccaf3153bd5d6a7d2b48487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055356"
 ---
 # <a name="albumtitlesortorder-attribute"></a>AlbumTitleSortOrder 屬性
 

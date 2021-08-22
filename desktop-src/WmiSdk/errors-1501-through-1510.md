@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 錯誤1501到1510
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4866965e832c3c1b186901ecf62364bb9f2aea95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 194ab5b28ebe95d28bc6a5aa6974c87c640acdd27a99c69a6bc6d7670f08be5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050916"
 ---
 # <a name="errors-1501-through-1510"></a>錯誤1501到1510
 
