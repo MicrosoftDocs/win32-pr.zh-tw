@@ -4,12 +4,12 @@ ms.assetid: 96b92480-cc28-4a57-a184-c52d3ddc9b05
 title: 使用 IXpsOMDocument 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5299452195dc8f14ebd08508c3fd9a6e198781a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad7e8c0908382a731532f2697f03c8d67cb732ddf902f0c1ea181fe221d075fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033756"
 ---
 # <a name="working-with-ixpsomdocument-interfaces"></a>使用 IXpsOMDocument 介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "106977305"
 
 
 
-| 介面名稱                                                                        | 邏輯子介面                                      | Description                                                                                                                                                                                                                                                                                                                 |
+| 介面名稱                                                                        | 邏輯子介面                                      | 描述                                                                                                                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IXpsOMDocument**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument)<br/>                                   | [**IXpsOMPageReference**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference)<br/> | 代表單一 FixedDocument 元件，並系結頁面參考的集合。<br/> [**IXpsOMPageReferenceCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereferencecollection) 是用來逐一查看檔中 [**IXpsOMPageReference**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference) 介面的集合介面。<br/> |
 | [**IXpsOMDocumentStructureResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentstructureresource)<br/> | 無<br/>                                               | 代表 DocumentStructure 元件。<br/>                                                                                                                                                                                                                                                                           |

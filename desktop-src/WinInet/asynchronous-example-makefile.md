@@ -4,12 +4,12 @@ description: 以下是非同步範例應用程式的 makefile。
 ms.assetid: 5d5b5578-6a2e-4311-9bf7-9b7818eb23ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 613dd67ab66819bd7f717ddc282ced1de63eff87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e45dafe17b360c5b77c1594f5879d93d27dc9d26be1212c035e21f34845ee51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051846"
 ---
 # <a name="asynchronous-example-makefile"></a>非同步範例 Makefile
 
@@ -35,9 +35,9 @@ clean:
      $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

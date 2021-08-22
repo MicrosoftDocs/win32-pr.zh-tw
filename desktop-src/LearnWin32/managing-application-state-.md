@@ -4,12 +4,12 @@ description: 視窗程式只是針對每個訊息叫用的函式，因此它原�
 ms.assetid: 2f03961e-a886-4947-8f5d-62543c6b8815
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e275833c30c612b5b40ab29d089d07ed7794b429
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6b0cde27195ba0dfc16668da11beac243821902995a9d01daa337f8962944343
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068060"
 ---
 # <a name="managing-application-state"></a>管理應用程式狀態
 
@@ -26,7 +26,7 @@ ms.locfileid: "104023451"
 
 在視窗變成可見之前，會先傳送 [**wm \_ NCCREATE**](/windows/desktop/winmsg/wm-nccreate) 和 [**wm \_ 建立**](/windows/desktop/winmsg/wm-create) 訊息。 這讓它們成為初始化 UI 的絕佳位置，例如，用來判斷視窗的初始版面配置。
 
-[**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa)的最後一個參數是 **void \*** 類型的指標。 您可以在此參數中傳遞任何您想要的指標值。 當視窗程式處理 [**wm \_ NCCREATE**](/windows/desktop/winmsg/wm-nccreate) 或 [**WM \_ 建立**](/windows/desktop/winmsg/wm-create) 訊息時，它可以從訊息資料中將此值解壓縮。
+[**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa)的最後一個參數是 **void \** _ 類型的指標。 您可以在此參數中傳遞任何您想要的指標值。 當視窗程式處理 [_ *WM \_ NCCREATE* *](/windows/desktop/winmsg/wm-nccreate)或 [**WM \_ 建立**](/windows/desktop/winmsg/wm-create)訊息時，它可以從訊息資料中將此值解壓縮。
 
 讓我們來看看如何使用此參數將應用程式資料傳遞至您的視窗。 首先，定義可保存狀態資訊的類別或結構。
 
@@ -325,7 +325,7 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 請注意，視窗控制碼會儲存在成員變數 (*m \_ hwnd*) ，因此我們不需要將它當作參數傳遞至 `HandleMessage` 。
 
-許多現有的 Windows 程式設計架構（例如，Microsoft Foundation class (MFC) 和 Active Template Library (ATL) ）使用基本上類似此處所示的方法。 當然，MFC 這類完全一般化的架構比這個相當簡單的範例更為複雜。
+許多現有的 Windows 程式設計架構（例如 Microsoft Foundation class (MFC) 和 Active Template Library (ATL) ）都會使用基本上類似此處所示的方法。 當然，MFC 這類完全一般化的架構比這個相當簡單的範例更為複雜。
 
 ## <a name="next"></a>下一個
 

@@ -1,25 +1,25 @@
 ---
-description: SystemTraceProvider 是一種核心提供者，具有 Windows 7、Windows Server 2008 R2 和更新版本支援的一組預先定義核心事件。
+description: SystemTraceProvider 是一個核心提供者，具有 Windows 7、Windows Server 2008 R2 和更新版本支援的一組預先定義核心事件。
 ms.assetid: 6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8
 title: 設定並啟動 SystemTraceProvider 會話
 ms.topic: article
 ms.date: 06/02/2021
-ms.openlocfilehash: 66e9d672a7c8e6358c2a92e7661e0d4e2a5878ab
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 0e5d46ceb800479c56ef02d0bb03c3426f73d080e79356f2d7462e27db3a259a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070248"
 ---
 # <a name="configuring-and-starting-a-systemtraceprovider-session"></a>設定並啟動 SystemTraceProvider 會話
 
-SystemTraceProvider 是一種核心提供者，具有 Windows 7、Windows Server 2008 R2 和更新版本支援的一組預先定義核心事件。 在 Windows 7 和 Windows Server 2008 R2 上，SystemTraceProvider 只能用於 NT Kernel 記錄器會話。
+SystemTraceProvider 是一個核心提供者，具有 Windows 7、Windows Server 2008 R2 和更新版本支援的一組預先定義核心事件。 在 Windows 7 和 Windows Server 2008 R2 上，SystemTraceProvider 只能用於 NT Kernel 記錄器會話。
 
-在 Windows 8、Windows Server 2012 和更新版本上，SystemTraceProvider 最多可多工記錄，最多8個記錄器會話。 記錄器會話的前兩個位置是保留給 NT 核心記錄器和圓形核心內容記錄器。
+在 Windows 8、Windows Server 2012 和更新版本上，SystemTraceProvider 最多可針對8個記錄器會話進行多工處理。 記錄器會話的前兩個位置是保留給 NT 核心記錄器和圓形核心內容記錄器。
 
 如需使用 NT Kernel 記錄器會話作為追蹤提供者的詳細資訊，請參閱設定 [和啟動 Nt Kernel 記錄器會話](configuring-and-starting-the-nt-kernel-logger-session.md)。
 
-在 Windows 10 SDK 組建20348和更新版本上，您可以透過個別的系統提供者來設定 SystemTraceProvider，這些提供者可以使用 [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) （例如 Windows 事件提供者的標準事件追蹤）來控制。 如需系統提供者、關鍵字以及對應的舊版旗標和群組的完整清單，請參閱 [系統提供者](system-providers.md)
+在 Windows 10 SDK 組建20348和更新版本上，您可以透過個別的系統提供者來設定 SystemTraceProvider，這些提供者可以使用[EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) （例如 Windows 事件提供者的標準事件追蹤）來控制。 如需系統提供者、關鍵字以及對應的舊版旗標和群組的完整清單，請參閱 [系統提供者](system-providers.md)
 
 ## <a name="enable-a-systemtraceprovider-session"></a>啟用 SystemTraceProvider 會話
 

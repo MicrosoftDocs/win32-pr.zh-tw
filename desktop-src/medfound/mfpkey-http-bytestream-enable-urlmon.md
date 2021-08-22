@@ -4,12 +4,12 @@ ms.assetid: 8B7D2FF7-D8A8-49E9-8CED-D37853B97A8F
 title: 'MFPKEY_HTTP_ByteStream_Enable_Urlmon 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1858f34a5f719caba1a48f049b95f2031b400240
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ede2b9109a7345f3a0d764f6a8fa68952686c5ca05207d01bb0a2e54cea4d32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119344378"
 ---
 # <a name="mfpkey_http_bytestream_enable_urlmon-property"></a>MFPKEY \_ HTTP \_ ByteStream \_ Enable \_ urlmon.dll 屬性
 
@@ -37,7 +37,7 @@ VT \_ BOOL
 
 如果值為 **VARIANT \_ TRUE**，HTTP 位元組資料流程會使用 Http 傳輸的 urlmon.dll。 否則，如果值為 **VARIANT \_ FALSE**，則位元組資料流程會使用 WinHTTP。
 
-Windows Store 應用程式的預設值為 **variant \_ TRUE** ，windows 傳統型應用程式的預設值為 variant **\_ FALSE** 。
+Windows Store 應用程式的預設值為 **variant \_ TRUE** ，Windows desktop 應用程式的預設值為 variant **\_ FALSE** 。
 
 ## <a name="requirements"></a>規格需求
 

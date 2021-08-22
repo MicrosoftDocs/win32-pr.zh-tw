@@ -4,12 +4,12 @@ ms.assetid: 449b19ec-dc95-40f7-87af-84fb7dacb328
 title: IWebProxy 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96628e7c799232b741e1834964a3a8ef6f6264c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b0dd5c6600f7fb8593f5cd47f5d02a45a84689bccb206359b8db8ffe6b320b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049126"
 ---
 # <a name="iwebproxy-properties"></a>IWebProxy 屬性
 

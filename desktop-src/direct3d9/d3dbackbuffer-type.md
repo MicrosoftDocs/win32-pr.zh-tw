@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 1641b37242339173fc5f591280d8e2beeff6a9e1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: af8cc963f6b8f980b5cc1807cbbcf7ccb7e41249602eb96c683f69dd10180379
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279878"
 ---
 # <a name="d3dbackbuffer_type-enumeration"></a>D3DBACKBUFFER \_ 類型列舉
 

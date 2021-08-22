@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99b96453b33f931b18d89f13413513d3baf82bfb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61bb46512414c7057d7ec9db5ff4b6fab859f8bb9e6aec5c537250b0baa24e9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422648"
 ---
 # <a name="getpendingstartserverlist-method-of-the-win32_rdshserver-class"></a>Win32 RDSHServer 類別的 GetPendingStartServerList 方法 \_
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 點陣圖和 BitValue 限定詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e60dd6b4ad5866ddc79c960316757700bc5fbb71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48b02f2d9f2b6632d5f190d1537b2f33d822d916611983da71121ffbbded943d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051076"
 ---
 # <a name="bitmap-and-bitvalue-qualifiers"></a>點陣圖和 BitValue 限定詞
 

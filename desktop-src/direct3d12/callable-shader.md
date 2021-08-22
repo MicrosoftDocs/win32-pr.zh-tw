@@ -12,12 +12,12 @@ api_name:
 - Callable Shader
 api_type:
 - NA
-ms.openlocfilehash: 65df547c5e40a46cc4c35361b88ceb797c2e8852
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b84ec6ea58fbc456db1747259f687a2fb6c8cb0fe3374b3d32396861dcd2f9b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461068"
 ---
 # <a name="callable-shader"></a>可呼叫著色器
 

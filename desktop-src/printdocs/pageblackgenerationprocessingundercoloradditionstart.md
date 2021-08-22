@@ -4,12 +4,12 @@ description: 檢查 PageBlackGenerationProcessingUnderColorAdditionStart 參數�
 ms.assetid: 6c2a7bb5-436d-40ed-a855-242a6a04bc16
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11bdbd970f30a7d573b7c803ea447e4ac3e94ca2
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: dd92834e85f4d95ea81eba7080632330e6951d6a99af29894d7f3adfcf3c18d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034096"
 ---
 # <a name="pageblackgenerationprocessingundercoloradditionstart"></a>PageBlackGenerationProcessingUnderColorAdditionStart
 
@@ -24,7 +24,7 @@ ms.locfileid: "113549346"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|------------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                    |
 | 範圍前置詞 <br/> | 頁面<br/>                                            |
@@ -77,8 +77,8 @@ ms.locfileid: "113549346"
 | MaxValue<br/>     | 整數<br/> | 100<br/>             |
 | MinValue<br/>     | 整數<br/> | 0<br/>               |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | percent<br/>         |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | percent<br/>         |
 
 
 

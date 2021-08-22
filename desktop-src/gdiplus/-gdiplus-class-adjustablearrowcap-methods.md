@@ -4,12 +4,12 @@ ms.assetid: 9d5bf8a5-2de0-4dfc-9d8d-a8e1de64a346
 title: AdjustableArrowCap 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35029a7359c8a5833ac037a57c5189ccf5d3d430
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dce514e2deb320b416028d0499f2364fcc4ceff0c7e62c5f9f8df14c925168f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557468"
 ---
 # <a name="adjustablearrowcap-methods"></a>AdjustableArrowCap 方法
 

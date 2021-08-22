@@ -4,12 +4,12 @@ ms.assetid: 53939c65-3725-44cc-bec6-775c3b921770
 title: " (Direct3D 10) 的效果變數語法"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8068571ff393e83ba0ae11eb2f9cb62f0bbb49df
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2422ba2cebf18c72a14d621ef13a98700aefd2858169c6e96566b455ec21d2ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497708"
 ---
 # <a name="effect-variable-syntax-direct3d-10"></a> (Direct3D 10) 的效果變數語法
 
@@ -21,7 +21,7 @@ ms.locfileid: "104385945"
 
 
 
-| Name         | 描述                                                                                                                                                                                 |
+| 名稱         | 描述                                                                                                                                                                                 |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DataType     | 任何 [基本](../direct3dhlsl/dx-graphics-hlsl-variable-syntax.md) 或 [紋理](../direct3dhlsl/dx-graphics-hlsl-to-type.md) 類型。                                                                        |
 | VariableName | 可唯一識別效果變數名稱的 ASCII 字串。                                                                                                                   |

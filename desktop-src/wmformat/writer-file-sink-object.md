@@ -3,23 +3,23 @@ title: 寫入器檔案接收物件
 description: 寫入器檔案接收物件
 ms.assetid: 93f44579-fb2d-498e-a271-5bc91d6f0321
 keywords:
-- Windows Media Format SDK，寫入器檔案接收物件
+- Windows媒體格式 SDK，寫入器檔案接收物件
 - Advanced Systems Format (ASF) 、writer file sink 物件
 - ASF (Advanced Systems Format) 、writer file sink 物件
 - 物件，寫入器檔案接收物件
 - 寫入器檔案接收物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82009e5be74cfc23e687001a2a81cd4546812af9
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 08efb5c404a822b0c30747864bdc01f57cb1a0618eed3f7ad26bd92f158ba625
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104023174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083642"
 ---
 # <a name="writer-file-sink-object"></a>寫入器檔案接收物件
 
-寫入 Windows Media 輸出至檔案時，會使用寫入器檔案接收物件。
+寫入檔案 Windows 媒體輸出時，會使用寫入器檔案接收物件。
 
 寫入器檔案接收物件是由函式 [**WMCreateWriterFileSink**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink)所建立，它會將指標設定為 **IWMWriterFileSink** 介面。 您可以藉由呼叫 **QueryInterface** 方法來取得寫入器檔案接收物件的其他介面。
 
@@ -37,7 +37,7 @@ ms.locfileid: "104023174"
 
 
 
- 
+ 
 
 應用程式應該執行下列回呼介面，以追蹤寫入器檔案接收物件的進度。
 
@@ -49,7 +49,7 @@ ms.locfileid: "104023174"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -61,9 +61,9 @@ ms.locfileid: "104023174"
 [**使用寫入器接收器**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

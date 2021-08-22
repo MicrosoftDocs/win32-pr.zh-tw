@@ -4,12 +4,12 @@ ms.assetid: e9f8fef5-73da-424d-a239-09779b81a02b
 title: 'AVEncVideoInputChromaSubsampling 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 958237a50c42ef7e5387c89cb7476a12ae72968f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0a956f9320f7c920e68cbb1038cf11537ef14d791205eef8affabc4c38f8f67e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342308"
 ---
 # <a name="avencvideoinputchromasubsampling-property"></a>AVEncVideoInputChromaSubsampling 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103935919"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

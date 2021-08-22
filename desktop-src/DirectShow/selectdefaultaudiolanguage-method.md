@@ -4,17 +4,17 @@ ms.assetid: 7d63b7ef-2b03-4929-822a-c4d11fb7a825
 title: SelectDefaultAudioLanguage 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 126de6daf4f5e0337058495a3ee7898594bfd704
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e4b649993cc3e110e78ba0a674e414dd4214af982dd44d64fcc1aca7646d1b04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072622"
 ---
 # <a name="selectdefaultaudiolanguage-method"></a>SelectDefaultAudioLanguage 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

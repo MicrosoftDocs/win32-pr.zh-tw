@@ -4,16 +4,16 @@ description: 本附錄包含 Microsoft Active Accessibility 橋接器的相關�
 ms.assetid: f19036c7-5a18-4faa-a98d-564e5e63a94f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df5fdc1ebc4d6e17781e383463974f78bb9334aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 14991f869706a16c4def8fdaf49ae255e3ddf413eec416cefd1e151ee470cc02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052966"
 ---
 # <a name="appendix-g-active-accessibility-bridge-to-ui-automation"></a>附錄 G： Active Accessibility 橋接器至消費者介面自動化
 
-本附錄包含 Microsoft Active Accessibility 橋接器的相關資訊。 Active Accessibility 橋接器可讓執行 Microsoft Active Accessibility 的應用程式存取可執行 Microsoft 消費者介面自動化的應用程式。 藉由橋接 Microsoft Active Accessibility 和消費者介面自動化，以 Microsoft Active Accessibility 為基礎的用戶端（例如 Windows XP 上的 screenreader）可以用程式設計方式與消費者介面自動化 Windows Presentation Foundation WPF (應用程式的消費者介面自動化型提供者互動。 它是消費者介面自動化原生核心 API (UIAutomationCore.dll) 的一部分。
+本附錄包含 Microsoft Active Accessibility 橋接器的相關資訊。 Active Accessibility 橋接器可讓執行 Microsoft Active Accessibility 的應用程式存取可執行 Microsoft 消費者介面自動化的應用程式。 藉由橋接 Microsoft Active Accessibility 和消費者介面自動化，以 Microsoft Active Accessibility 為基礎的用戶端（例如 Windows XP 上的 screenreader）可以用程式設計的方式與消費者介面自動化的消費者介面自動化提供者互動，例如 Windows Presentation Foundation (WPF) 應用程式。 它是消費者介面自動化原生核心 API (UIAutomationCore.dll) 的一部分。
 
 Active Accessibility 橋接器會將消費者介面自動化的屬性和事件對應至 Microsoft Active Accessibility 的屬性和事件。 下表將 Microsoft Active Accessibility [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 介面方法和屬性對應至消費者介面自動化。 使用這些表格來判斷用於開發以 Microsoft Active Accessibility 為基礎之用戶端的適當程式碼撰寫做法。
 
@@ -30,7 +30,7 @@ Active Accessibility 橋接器會將消費者介面自動化的屬性和事件�
 
 
 
- 
+ 
 
 ### <a name="descriptive-properties-and-methods"></a>描述性屬性和方法
 
@@ -52,7 +52,7 @@ Active Accessibility 橋接器會將消費者介面自動化的屬性和事件�
 
 
 
- 
+ 
 
 ### <a name="control-types-and-accrole"></a>控制項類型和 accRole
 
@@ -75,14 +75,14 @@ Microsoft Active Accessibility 預設角色是 [**角色 \_ 系統 \_ 用戶端*
 | [標頭](uiauto-supportheadercontroltype.md)           | [**角色 \_ 系統 \_ 清單**](object-roles.md)                 | 無                                                     |
 | [HeaderItem](uiauto-supportheaderitemcontroltype.md)   | [**角色 \_ 系統 \_ COLUMNHEADER**](object-roles.md) | 按一下                                                    |
 | [超連結](uiauto-supporthyperlinkcontroltype.md)     | [**角色 \_ 系統 \_ 連結**](object-roles.md)                 | 跳躍 (對應以叫用)                                     |
-| [影像](uiauto-supportimagecontroltype.md)             | [**角色 \_ 系統 \_ 圖形**](object-roles.md)           | 無                                                     |
+| [映像](uiauto-supportimagecontroltype.md)             | [**角色 \_ 系統 \_ 圖形**](object-roles.md)           | 無                                                     |
 | [清單](uiauto-supportlistcontroltype.md)               | [**角色 \_ 系統 \_ 清單**](object-roles.md)                 | 無                                                     |
 | [ListItem](uiauto-supportlistitemcontroltype.md)       | [**角色 \_ 系統 \_**](object-roles.md)         | 按兩下                                             |
 | [功能表](uiauto-supportmenucontroltype.md)               | [**角色 \_ 系統 \_ MENUPOPUP**](object-roles.md)       | 無                                                     |
 | [MenuBar](uiauto-supportmenubarcontroltype.md)         | [**角色 \_ 系統 \_ 功能表列**](object-roles.md)           | 無                                                     |
 | [MenuItem](uiauto-supportmenuitemcontroltype.md)       | [**角色 \_ 系統 \_ MENUITEM**](object-roles.md)         | 針對具有子系的功能表項目執行或開啟/關閉。 |
 | [窗格](uiauto-supportpanecontroltype.md)               | [**角色 \_ 系統 \_ 窗格**](object-roles.md)                 | 無                                                     |
-| [進度列](uiauto-supportprogressbarcontroltype.md) | [**角色 \_ 系統 \_ PROGRESSBAR**](object-roles.md)   | 無                                                     |
+| [ProgressBar](uiauto-supportprogressbarcontroltype.md) | [**角色 \_ 系統 \_ PROGRESSBAR**](object-roles.md)   | 無                                                     |
 | [RadioButton](uiauto-supportradiobuttoncontroltype.md) | [**角色 \_ 系統 \_ 選項按鈕**](object-roles.md)   | 勾選                                                    |
 | [ScrollBar](uiauto-supportscrollbarcontroltype.md)     | [**角色 \_ 系統 \_ 捲軸**](object-roles.md)       | 無                                                     |
 | [滑桿](uiauto-supportslidercontroltype.md)           | [**角色 \_ 系統 \_ 滑杆**](object-roles.md)             | 無                                                     |
@@ -90,7 +90,7 @@ Microsoft Active Accessibility 預設角色是 [**角色 \_ 系統 \_ 用戶端*
 | [SplitButton](uiauto-supportsplitbuttoncontroltype.md) | [**角色 \_ 系統 \_ SPLITBUTTON**](object-roles.md)   | 無                                                     |
 | [StatusBar](uiauto-supportstatusbarcontroltype.md)     | [**角色 \_ 系統 \_ 狀態列**](object-roles.md)       | 無                                                     |
 | [Tab](uiauto-supporttabcontroltype.md)                 | [**角色 \_ 系統 \_ PAGETABLIST**](object-roles.md)   | 無                                                     |
-| [TabItem](uiauto-supporttabitemcontroltype.md)         | [**角色 \_ 系統 \_ PAGETAB**](object-roles.md)           | 參數                                                   |
+| [TabItem](uiauto-supporttabitemcontroltype.md)         | [**角色 \_ 系統 \_ PAGETAB**](object-roles.md)           | 交換器                                                   |
 | [資料表](uiauto-supporttablecontroltype.md)             | [**角色 \_ 系統 \_ 資料表**](object-roles.md)               | 無                                                     |
 | [Text](uiauto-supporttextcontroltype.md)               | [**角色 \_ 系統 \_ STATICTEXT**](object-roles.md)     | 無                                                     |
 | [拇指](uiauto-supportthumbcontroltype.md)             | [**角色 \_ 系統 \_ 指標**](object-roles.md)       | 無                                                     |
@@ -103,7 +103,7 @@ Microsoft Active Accessibility 預設角色是 [**角色 \_ 系統 \_ 用戶端*
 
 
 
- 
+ 
 
 ### <a name="ui-automation-properties-and-accstate"></a>消費者介面自動化屬性和 accState
 
@@ -130,7 +130,7 @@ Microsoft Active Accessibility 預設角色是 [**角色 \_ 系統 \_ 用戶端*
 
 
 
- 
+ 
 
 ### <a name="selection-and-focus"></a>選取範圍和焦點
 
@@ -144,7 +144,7 @@ Microsoft Active Accessibility 預設角色是 [**角色 \_ 系統 \_ 用戶端*
 
 
 
- 
+ 
 
 ### <a name="ui-automation-properties-and-accselect-selflags"></a>消費者介面自動化屬性和 accSelect SELFLAGs
 
@@ -161,7 +161,7 @@ Microsoft Active Accessibility 預設角色是 [**角色 \_ 系統 \_ 用戶端*
 
 
 
- 
+ 
 
 ### <a name="spatial-mapping"></a>空間對應
 
@@ -174,7 +174,7 @@ Microsoft Active Accessibility 預設角色是 [**角色 \_ 系統 \_ 用戶端*
 
 
 
- 
+ 
 
 ### <a name="events"></a>事件
 
@@ -208,7 +208,7 @@ Microsoft Active Accessibility 預設角色是 [**角色 \_ 系統 \_ 用戶端*
 
 
 
- 
+ 
 
 
 
@@ -224,11 +224,11 @@ Microsoft Active Accessibility 預設角色是 [**角色 \_ 系統 \_ 用戶端*
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

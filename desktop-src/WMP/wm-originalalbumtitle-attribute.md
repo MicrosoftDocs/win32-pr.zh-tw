@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f0dc2344c95bf3d0b09448277f1522baa879c80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fd025d78c5d4fb3a3fca20cdb6ba6bf092c45465e7e738ddd4c1921301c6899
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053855"
 ---
 # <a name="wmoriginalalbumtitle-attribute"></a>WM/OriginalAlbumTitle 屬性
 
@@ -31,7 +31,7 @@ ms.locfileid: "106990165"
 
 這個屬性只會儲存在不在文件庫中的音樂檔案中。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMOriginalAlbumTitle。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMOriginalAlbumTitle。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

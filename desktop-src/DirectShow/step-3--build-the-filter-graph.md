@@ -1,19 +1,19 @@
 ---
-description: 本主題是在 DirectShow 中進行音訊/影片播放教學課程的步驟3。
+description: 本主題是 DirectShow 中音訊/影片播放教學課程的步驟3。
 ms.assetid: 45679c14-2671-420d-9766-61f2b2bb713a
-title: 步驟3：建立篩選圖形
+title: 步驟3：建立篩選 Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a770ad823a2578fab88a09cc44a3c7f2be4a4ca8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad4903e08b19e15721c8b62f130261bb4d05fcd94d544380b2e501f56d60704d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072502"
 ---
-# <a name="step-3-build-the-filter-graph"></a>步驟3：建立篩選圖形
+# <a name="step-3-build-the-filter-graph"></a>步驟3：建立篩選 Graph
 
-本主題是 [在 DirectShow 中進行音訊/影片播放](audio-video-playback-in-directshow.md)教學課程的步驟3。 完整的程式碼會顯示在「 [DirectShow 播放」範例](directshow-playback-example.md)中。
+本主題是[DirectShow 中音訊/影片播放](audio-video-playback-in-directshow.md)教學課程的步驟3。 完整的程式碼會顯示在[DirectShow 播放範例](directshow-playback-example.md)的主題中。
 
 下一步是建立篩選圖形來播放媒體檔案。
 
@@ -60,13 +60,13 @@ done:
 
 
 
-### <a name="creating-the-filter-graph-manager"></a>建立篩選圖形管理員
+### <a name="creating-the-filter-graph-manager"></a>建立篩選 Graph 管理員
 
 `DShowPlayer::InitializeGraph`方法會建立新的篩選圖形。 這個方法會執行下列動作：
 
-1.  呼叫 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 來建立 [篩選圖形管理員](filter-graph-manager.md)的新實例。
-2.  查詢 [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) 和 [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) 介面的篩選圖形管理員。
-3.  呼叫 [**IMediaEventEx：： SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) 來設定事件通知。 如需詳細資訊，請參閱 [DirectShow 中的事件通知](event-notification-in-directshow.md)。
+1.  呼叫 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)以建立 [篩選 Graph 管理員](filter-graph-manager.md)的新實例。
+2.  查詢 [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol)和 [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex)介面的篩選 Graph 管理員。
+3.  呼叫 [**IMediaEventEx：： SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) 來設定事件通知。 如需詳細資訊，請參閱[DirectShow 中的事件通知](event-notification-in-directshow.md)。
 
 
 ```C++
@@ -116,7 +116,7 @@ done:
 
 `DShowPlayer::RenderStreams`方法會執行下列步驟。
 
-1.  查詢 [**IFilterGraph2**](/windows/desktop/api/Strmif/nn-strmif-ifiltergraph2) 介面的篩選圖形管理員。
+1.  查詢 [**IFilterGraph2**](/windows/desktop/api/Strmif/nn-strmif-ifiltergraph2)介面的篩選 Graph 管理員。
 2.  將影片轉譯器篩選器新增至篩選圖形。
 3.  將 [DirectSound 轉譯器篩選](directsound-renderer-filter.md) 新增至篩選圖形，以支援音訊播放。 如需將篩選準則加入至篩選圖形的詳細資訊，請參閱 [依 CLSID 加入篩選](add-a-filter-by-clsid.md)。
 4.  列舉來源篩選器上的輸出圖釘。 如需列舉釘選的詳細資訊，請參閱 [列舉釘](enumerating-pins.md)選。
@@ -239,7 +239,7 @@ HRESULT RemoveUnconnectedRenderer(IGraphBuilder *pGraph, IBaseFilter *pRenderer,
 
 
 
-### <a name="releasing-the-filter-graph"></a>釋放篩選圖形
+### <a name="releasing-the-filter-graph"></a>釋放篩選 Graph
 
 當應用程式結束時，它必須釋放篩選圖形，如下列程式碼所示。
 
@@ -272,13 +272,13 @@ void DShowPlayer::TearDownGraph()
 
 <dl> <dt>
 
-[在 DirectShow 播放音訊/影片](audio-video-playback-in-directshow.md)
+[DirectShow 中的音訊/影片播放](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[DirectShow 播放範例](directshow-playback-example.md)
+[DirectShow播放範例](directshow-playback-example.md)
 </dt> <dt>
 
-[建立篩選圖形](building-the-filter-graph.md)
+[建立篩選 Graph](building-the-filter-graph.md)
 </dt> <dt>
 
 [一般 Graph-Building 技術](general-graph-building-techniques.md)

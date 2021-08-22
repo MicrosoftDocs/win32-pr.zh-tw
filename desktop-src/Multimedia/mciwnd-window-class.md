@@ -7,12 +7,12 @@ keywords:
 - 視窗類別、MCIWnd 視窗
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 464e7f587255510712ab8f3efbeb5a5a3998a072
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f3c3f131c4efa81f32e338d321bb111bd24822351350d6abeefd8516f8b43f02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429828"
 ---
 # <a name="mciwnd-window-class"></a>MCIWnd 視窗類別
 
@@ -22,9 +22,9 @@ MCIWnd 是控制多媒體裝置的視窗類別。 與 MCIWnd 相關聯的函式�
 -   [使用 MCIWnd 視窗類別](using-the-mciwnd-window-class.md)
 -   [MCIWnd 參考](mciwnd-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

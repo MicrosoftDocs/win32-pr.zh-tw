@@ -4,12 +4,12 @@ description: 若要連接到 BITS 服務，請建立 BackgroundCopyManager 物�
 ms.assetid: 2fa88277-c7a1-4f1c-a63c-e2d27a163249
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: 8146fa0def8c9c7dfd976784a930f35f20c965eb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5dacd97b78fa9c5d3a1e410a44e3c376368654e99a6f4ace9161d36b127d9a94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528938"
 ---
 # <a name="connecting-to-the-bits-service"></a>連接到 BITS 服務
 
@@ -87,6 +87,6 @@ CoUninitialize();
 [從 .net 和 c #](/windows/desktop/Bits/bits-dot-net) 對 bits 進行 Bits 的呼叫
 </dt> </dl>
 
- 
+ 
 
- 
+ 

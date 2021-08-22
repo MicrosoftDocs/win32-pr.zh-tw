@@ -4,12 +4,12 @@ ms.assetid: 6a82f03e-d8fd-4d0b-8f5d-f7934ba86759
 title: 公園
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aded4657a9d337d6d9c663622a5359856e964b90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fc09067ad40bc965a6cd909d911de0070138e1d27addb552d728eff2ed60dde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335528"
 ---
 # <a name="park"></a>公園
 

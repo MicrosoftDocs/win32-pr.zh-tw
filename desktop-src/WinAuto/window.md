@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility 將一般視窗物件建立為另一
 ms.assetid: cc32528f-c454-4522-91b9-06f87cff8bf5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d87c8601ecd6344dc82bbdb416055c694687e6e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 881eb863c6b12f8e72a9f48ba5ea290a2ad2f2471fa60683ee17e70c6271dad3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413268"
 ---
 # <a name="window-msaa-ui-element-reference"></a>視窗 (MSAA UI 元素參考) 
 
@@ -53,7 +53,7 @@ Window 物件支援下列 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleac
 
  
 
-## <a name="notes"></a>備註
+## <a name="notes"></a>附註
 
 Window 物件不會傳送 events [**事件 \_ 系統 \_ DRAGDROPSTART**](event-constants.md)、 [**事件 \_ 系統 \_ DRAGDROPEND**](event-constants.md)、 [**事件 \_ 物件 \_ 隱藏**](event-constants.md)和 [**事件 \_ 物件 \_ PARENTCHANGE**](event-constants.md) 。 這是已知的問題，並已解決。
 

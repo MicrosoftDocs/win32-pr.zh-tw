@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ad3937b8f0b3f7acd6313774f6de7cde133e69c5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e695765d57c7e74c94fe0605ca7ec7b96705d7b37d1dc24cad068a5aed6a2ca3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457758"
 ---
 # <a name="texture-coordinate-register-hlsl-vs-reference"></a>紋理座標註冊 (HLSL 與參考) 
 
@@ -27,12 +27,12 @@ ms.locfileid: "104093204"
 | 屬性        | 描述   |
 |-----------------|---------------|
 | 名稱            | oT0 - oT7     |
-| Count           | 八個向量 |
+| 計數           | 八個向量 |
 | I/o 許可權 | 唯寫    |
 
 
 
- 
+ 
 
 輸出材質座標暫存器是輸出資料暫存器的陣列。 「註冊」資料會依紋理取樣階段逐一查看並當做材質座標使用，以提供資料給圖元著色器。
 
@@ -72,7 +72,7 @@ mov oT0, v7
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -81,6 +81,6 @@ mov oT0, v7
 [頂點著色器暫存器](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

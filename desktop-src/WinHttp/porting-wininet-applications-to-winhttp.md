@@ -1,19 +1,19 @@
 ---
-description: 在需要存取 HTTP 用戶端堆疊的中介層和後端伺服器應用程式上，Microsoft Windows HTTP Services (WinHTTP) 的目標。
+description: 在需要存取 HTTP 用戶端堆疊的中介層和後端伺服器應用程式中，會將 Microsoft Windows HTTP 服務 (WinHTTP) 的目標。
 ms.assetid: 5b0cf321-8f69-4526-a628-e6ca0f9d4a58
 title: 將 WinINet 應用程式移植到 WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f64c4ecc825934d32b1d363f010bd04e1484428
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b111cd79e7ce7edfb09d43993ee2735ce09275f51c58bcfad319fb073dccc5b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052006"
 ---
 # <a name="porting-wininet-applications-to-winhttp"></a>將 WinINet 應用程式移植到 WinHTTP
 
-在需要存取 HTTP 用戶端堆疊的中介層和後端伺服器應用程式上，Microsoft Windows HTTP Services (WinHTTP) 的目標。 [Microsoft Windows Internet (WinINet) ](winhttp-start-page.md) 提供用戶端應用程式的 HTTP 用戶端堆疊，以及檔案傳輸通訊協定 (FTP) 、SOCKSv4 和 Gopher 通訊協定的存取權。 本總覽有助於判斷將您的 WinINet 應用程式移植到 WinHTTP 是否有説明。 它也會說明特定的轉換需求。
+在需要存取 HTTP 用戶端堆疊的中介層和後端伺服器應用程式中，會將 Microsoft Windows HTTP 服務 (WinHTTP) 的目標。 [Microsoft Windows Internet (WinINet) ](winhttp-start-page.md)提供用戶端應用程式的 HTTP 用戶端堆疊，以及檔案傳輸通訊協定 (FTP) 、SOCKSv4 和 Gopher 通訊協定的存取權。 本總覽有助於判斷將您的 WinINet 應用程式移植到 WinHTTP 是否有説明。 它也會說明特定的轉換需求。
 
 -   [移植 WinINet 應用程式之前應考慮的事項](#things-to-consider-before-porting-your-wininet-application)
 -   [對 WinINet 函數的 WinHTTP 對等專案](#winhttp-equivalents-to-wininet-functions)
@@ -175,7 +175,7 @@ WinHTTP 不依賴 Internet Explorer 設定來判斷自動登入原則。 相反�
 -   從 WinHttp 5.1 開始，如果伺服器憑證失敗或包含錯誤， [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) 的呼叫會報告回呼函式中的 **WinHttp \_ 回呼 \_ 狀態 \_ 安全 \_ 失敗** 。 如果忽略 **WinHttpSendRequest** 所產生的錯誤，後續對 [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) 的呼叫會失敗，並出現錯誤 WINHTTP 作業已 \_ 取消的 \_ \_ 錯誤。
 -   在 WinHTTP 5.0 中，伺服器憑證的錯誤預設不會導致要求失敗。 相反地，在具有 **WINHTTP \_ 回呼 \_ 狀態 \_ 安全 \_ 失敗** 通知的回呼函式中報告錯誤。
 
-在某些較早的平臺上，WinINet 支援私用通訊技術 (PCT) 和/或 Fortezza 通訊協定，但不能在 Windows XP 上。
+在某些較早的平臺上，WinINet 支援私用通訊技術 (PCT) 和/或 Fortezza 通訊協定，但不 Windows XP。
 
 WinHTTP 不支援任何平臺上的 PCT 和 Fortezza 通訊協定，而是依賴安全通訊端層 (SSL) 2.0、SSL 3.0 或傳輸層安全性 (TLS) 1.0。
 

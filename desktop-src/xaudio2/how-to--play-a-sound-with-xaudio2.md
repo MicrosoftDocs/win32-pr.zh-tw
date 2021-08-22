@@ -4,12 +4,12 @@ ms.assetid: 5172b31c-d2af-45aa-5bd4-b62502f3c047
 title: 使用方法：使用 XAudio2 播放音效
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ee2636ae9b6513dba9a479d63e0fd14be2c198
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cfa5cb2a7a47b7fb54e6a7e9f098a545b0c630c6c27889d7aa6eff1242121d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082905"
 ---
 # <a name="how-to-play-a-sound-with-xaudio2"></a>使用方法：使用 XAudio2 播放音效
 
@@ -55,7 +55,7 @@ ms.locfileid: "104511916"
 
 ## <a name="notes-for-windows-store-apps"></a>Windows Store 應用程式的注意事項
 
-建議您利用 [智慧型指標](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) ，以例外狀況安全的方式來管理 XAUDIO2 物件的存留期。 針對 Windows Store 應用程式，您可以使用 Windows 執行階段 C++ 範本庫 (WRL) 的 [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) 智慧型指標範本。
+建議您利用 [智慧型指標](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) ，以例外狀況安全的方式來管理 XAUDIO2 物件的存留期。 針對 Windows Store 應用程式，您可以使用 Windows 執行階段 C++ 範本庫 (WRL) 中的 [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110))智慧型指標範本。
 
 
 ```

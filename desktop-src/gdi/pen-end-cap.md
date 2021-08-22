@@ -4,12 +4,12 @@ ms.assetid: 7a808f62-5778-40db-b7ce-3cd63c9b49db
 title: 畫筆結束端點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56b3c7a66ae06d3534e1f609760fa2db4a65fa29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87f0b8eacaaab105118706cb8f3ef69098852b9c2de5560b0406e7a2f6da8495
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558368"
 ---
 # <a name="pen-end-cap"></a>畫筆結束端點
 

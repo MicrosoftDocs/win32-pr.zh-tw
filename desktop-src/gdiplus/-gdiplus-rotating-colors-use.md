@@ -4,12 +4,12 @@ ms.assetid: 099f76a3-2da3-4f2b-8f8d-557d144451dc
 title: 旋轉色彩
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea322179bd4a46021d181abedd1797d6bdda7cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fc09a84c4c51181c672c549369783ac476fa1d3c79f1598c1c29ca14604429d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036426"
 ---
 # <a name="rotating-colors"></a>旋轉色彩
 

@@ -4,17 +4,17 @@ ms.assetid: 975687c5-f93e-4473-b23b-63e0ae6bbb5d
 title: 'SaveBookmark 方法 (區段 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2013a56d3f6885f7a4235497ad42bb03f0ebf7a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f45fec3a109b97c0ccbcb9a98736a01bba625537f1369fa7986cb6b5a669d35b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072712"
 ---
 # <a name="savebookmark-method"></a>SaveBookmark 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

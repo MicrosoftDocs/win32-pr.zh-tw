@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 執行存取檢查
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9af65605b6e96a5ad8b820de876d553f8d19202
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e06f2bccab886b38b53ecc3592371555b8c93a0ed12cdad0a4f039b62d62752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050506"
 ---
 # <a name="performing-access-checks"></a>執行存取檢查
 

@@ -4,12 +4,12 @@ ms.assetid: B8CCF4CB-9407-4A96-BDDB-29290AE731F0
 title: 記憶體管理列舉
 ms.topic: article
 ms.date: 11/06/2018
-ms.openlocfilehash: baf11e16360d15e7bbe4dc91a78df1ba17db1d98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da9f3628c3661bb07bb48b5ebe591f27e4bdbf019d2f1cc4165fd88dbe0794c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067728"
 ---
 # <a name="memory-management-enumerations"></a>記憶體管理列舉
 

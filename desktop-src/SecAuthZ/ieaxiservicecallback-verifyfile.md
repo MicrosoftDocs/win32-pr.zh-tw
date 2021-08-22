@@ -1,5 +1,5 @@
 ---
-description: 針對指定的 ActiveX 物件執行安全性檢查，並傳回下載對應 .cab 檔案的位置。
+description: 在指定的 ActiveX 物件上執行安全性檢查，並傳回下載對應 .cab 檔案的位置。
 ms.assetid: ba8e4f9b-1569-43f9-b27c-a987044fff41
 title: IeAxiServiceCallback：： VerifyFile 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6d590f5e0e7ecd881a51844737f8efddf34d6727
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c8072680d42e214304cae1f0a6002b7a1fbc036fc075c5c6777dd7612733a0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414708"
 ---
 # <a name="ieaxiservicecallbackverifyfile-method"></a>IeAxiServiceCallback：： VerifyFile 方法
 
@@ -49,7 +49,7 @@ HRESULT VerifyFile(
 *bstrApprovedFileName* \[擴展\]
 </dt> <dd>
 
-已下載與 ActiveX 物件相關聯之 .cab 檔案的檔案名。
+下載與 ActiveX 物件相關聯 .cab 檔案的檔案名。
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ HRESULT VerifyFile(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Business、Windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windowsvista Business、Windows vista Enterprise、Windows vista 旗艦版傳統型 \[ 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                 |
 | IID<br/>                      | IID \_ IeAxiServiceCallback 定義為1823E7BA-EC36-447a-9B2E-B4912E15AFE7<br/>                   |
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: feeb4df94709dbb160c5f3f61f45d5744b4b24af
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ab6f1948da437bee7132699684575c42a2b0d7da59924149cb4b24b92c3f58aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498688"
 ---
 # <a name="d3dvector-structure-d3dx10mathh"></a>D3DVECTOR 結構 (D3DX10Math .h) 
 
@@ -63,7 +63,7 @@ Y 元件。
 
 </dd> <dt>
 
-**Z**
+**z**
 </dt> <dd>
 
 類型： **float**

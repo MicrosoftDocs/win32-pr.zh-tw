@@ -4,12 +4,12 @@ description: OLE 複合檔案可讓使用者在單一應用程式中運作，以
 ms.assetid: d17dc0dd-3115-4830-8c6b-694a8d1accaa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76f12e0228b7c8c1d74e4ec33d8069490351f77f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9f8add155f60a9cbbce96f6d5bc0434ec2759d3e33c42aac2a5b47c8dc1bb4a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119410478"
 ---
 # <a name="compound-documents"></a>複合檔案
 
@@ -36,7 +36,7 @@ OLE 複合檔案技術是在由 COM、結構化儲存體和制式資料傳輸所
 <span id="Uniform_Data_Transfer"></span><span id="uniform_data_transfer"></span><span id="UNIFORM_DATA_TRANSFER"></span>制式資料傳輸
 </dt> <dd>
 
-支援複合檔案的應用程式必須執行 [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) ，因為嵌入的物件和連結的物件是以使用特殊 OLE 剪貼簿格式（而非標準 Microsoft Windows 剪貼簿格式）傳輸的資料作為開頭。 換句話說，以內嵌或連結化物件的格式設定資料，只是 OLE 的制式資料傳輸模型提供的另一個選項。
+支援複合檔案的應用程式必須執行 [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) ，因為内嵌物件和連結的物件會以使用特殊 OLE 剪貼簿格式（而非標準 Microsoft Windows 剪貼簿格式）傳輸的資料開始。 換句話說，以內嵌或連結化物件的格式設定資料，只是 OLE 的制式資料傳輸模型提供的另一個選項。
 
 </dd> </dl>
 
@@ -66,6 +66,6 @@ OLE 的複合檔案技術同時也受益軟體發展人員和使用者。 軟體
 [結構化儲存體](/windows/desktop/Stg/structured-storage-start-page)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

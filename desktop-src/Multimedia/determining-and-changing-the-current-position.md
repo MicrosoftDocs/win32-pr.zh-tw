@@ -7,12 +7,12 @@ keywords:
 - MCIWndGetEnd 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84a8e7022bdfcede526a730014a07deaf22fe66d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 594aa63b4b620327cd8b9ae41c263c197e1a981405c2148545ae7b8d4df86c5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497338"
 ---
 # <a name="determining-and-changing-the-current-position"></a>判斷及變更目前的位置
 
@@ -27,13 +27,13 @@ ms.locfileid: "104462285"
 > [!Note]  
 > 用來指定位置的單位會因不同的媒體類型和裝置而有所不同。 例如，MCIAVI 裝置所使用之 AVI 檔案的播放位置會以畫面格來測量;CD 音訊、波形音訊和 MIDI 檔案的播放位置會以毫秒為單位來測量。
 
- 
+ 
 
 其他媒體類型和協力廠商裝置的裝置可能會使用其他單位。 如需決定這些單位的詳細資訊，請參閱 [播放增強功能](playback-enhancements.md)。
 
- 
+ 
 
- 
+ 
 
 
 

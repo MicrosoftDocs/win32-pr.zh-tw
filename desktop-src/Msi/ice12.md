@@ -4,12 +4,12 @@ ms.assetid: c1576aff-ff05-49be-8679-a8bfd01977f5
 title: ICE12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d02756bd357c6e85f60b0c41b72a4a66965fedb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef427ca1567680aa9a9f2a598f5a94cb8dee545487afcf3eb1fbb8d1f350fd35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119262258"
 ---
 # <a name="ice12"></a>ICE12
 

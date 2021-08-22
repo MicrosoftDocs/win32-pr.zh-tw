@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 44e56eec6a05b98295d9d076fc9e2befb6502d87
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e74f0da8764a0eacf73d675a7e1e8e5960f642ecc9b0a014fcfebff423f5dc16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119341348"
 ---
 # <a name="cbasepinm_pqsink-member"></a>CBasePin：： m \_ pQSink 成員
 

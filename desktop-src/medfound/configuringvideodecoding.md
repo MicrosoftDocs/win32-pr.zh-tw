@@ -4,12 +4,12 @@ ms.assetid: 897b8e2d-9827-428d-91ae-632038c4c8c0
 title: '設定影片解碼 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f386e3dbb39d6296756f2fe8eec1b94c5533bff0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e7c49d42b47b4b6745731287e2b0bf0ee2d21c1eb503ed561274a5fb4cc8b15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035336"
 ---
 # <a name="configuring-video-decoding-microsoft-media-foundation"></a>設定影片解碼 (Microsoft 媒體基礎) 
 

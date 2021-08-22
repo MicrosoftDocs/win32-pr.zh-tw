@@ -1,31 +1,31 @@
 ---
-title: Windows 色彩系統架構和演算法
-description: Windows 色彩系統架構和演算法
+title: Windows色彩系統架構和演算法
+description: Windows色彩系統架構和演算法
 ms.assetid: fa05ba0c-b01d-4d50-8769-94a6e19f0066
 keywords:
-- Windows Color System (WCS) ，架構
-- WCS (Windows 色彩系統) ，架構
+- Windows色彩系統 (WCS) ，架構
+- WCS (Windows 色彩系統) 、架構
 - 影像色彩管理，架構
 - 色彩管理，架構
 - 色彩，架構
-- Windows Color System (WCS) ，演算法
-- WCS (Windows 色彩系統) ，演算法
+- Windows色彩系統 (WCS) ，演算法
+- WCS (Windows 色彩系統) 、演算法
 - 影像色彩管理，演算法
 - 色彩管理，演算法
 - 色彩，演算法
-- '架構，Windows Color System (WCS) '
-- '演算法，Windows Color System (WCS) '
+- '架構，Windows 色彩系統 (WCS) '
+- '演算法，Windows 色彩系統 (WCS) '
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad5dbecbbc484f497c708c5ad781a891e480efa8
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: dc41cb433e3959b9144fc0f161d09565cd556931250672615e6ba846b8aa1390
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106988508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119348177"
 ---
-# <a name="windows-color-system-schemas-and-algorithms"></a>Windows 色彩系統架構和演算法
+# <a name="windows-color-system-schemas-and-algorithms"></a>Windows色彩系統架構和演算法
 
 **本節包含 Windows** 色彩系統所使用之架構和演算法的延伸描述。
 

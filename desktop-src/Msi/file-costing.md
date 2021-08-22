@@ -4,12 +4,12 @@ ms.assetid: 53ebb532-9eb3-46b7-9dcc-f593bfd25c60
 title: 檔案成本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55a4e6221775c2b9ecc429bd32f136e519a2b63b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ad2dc3ad9da4fab21345e74f3f9db99992445d7cf1e2266806bda55cd6ca638
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529578"
 ---
 # <a name="file-costing"></a>檔案成本
 

@@ -9,12 +9,12 @@ keywords:
 - 用戶端，SpreadsheetItem 控制項模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31495086614f34aeff378a8565200fa03f2dad62
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f09d34aeb484da056920a2b77d47ca199e11c00c99832412e9bf007807c49563
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052346"
 ---
 # <a name="accessing-spreadsheet-content"></a>存取試算表內容
 
@@ -34,6 +34,6 @@ ms.locfileid: "104316231"
 [使用以文字為基礎的控制項](uiauto-workingwithtextbasedcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

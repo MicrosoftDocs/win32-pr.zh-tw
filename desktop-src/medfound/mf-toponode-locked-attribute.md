@@ -4,12 +4,12 @@ ms.assetid: 8805ed63-1408-40bc-bb82-f3c51576dfa4
 title: 'MF_TOPONODE_LOCKED 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70776b1a5ba9c5c35cd2a2d97618de4b3a65abb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2158a44480fa2b4e884cc2e700e8f479b4af042907e351b26bc5704d7fc20fb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119356268"
 ---
 # <a name="mf_toponode_locked-attribute"></a>MF \_ TOPONODE \_ 鎖定屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103691260"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

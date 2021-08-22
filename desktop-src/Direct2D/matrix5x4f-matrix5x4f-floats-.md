@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2582e58f535ddf4f87d54e16dd2edaec2aa37e91
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3626e4af5e51555779a2d14c731fbeb4a2ad30ce542ce2ca9447116332c9faea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106979697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430628"
 ---
 # <a name="matrix5x4fmatrix5x4ffloat-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-constructor"></a>Matrix5x4F：： Matrix5x4F (FLOAT，float，float，float，FLOAT，FLOAT，FLOAT，FLOAT，float，float，float，float，float，float，float，float，FLOAT，float，float，FLOAT) 函數
 
@@ -247,8 +247,8 @@ inline Matrix5x4F(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7、windows Vista （含 SP2）和平臺更新（僅適用于 Windows Vista \[ desktop 應用程式）\]<br/>                          |
-| 最低支援的伺服器<br/> | Windows server 2008 R2、Windows Server 2008 SP2 和 Windows Server 的平臺更新（僅適用于 Windows Server 2008 \[ desktop 應用程式）\]<br/> |
+| 最低支援的用戶端<br/> | Windows 7、Windows vista （含 SP2）和僅適用于 Windows Vista \[ 桌面應用程式的平臺更新\]<br/>                          |
+| 最低支援的伺服器<br/> | Windowsserver 2008 R2、Windows server 2008 SP2 和平臺更新，適用于 Windows Server 2008 \[ desktop 應用程式\]<br/> |
 | 支援的最小電話<br/>  | Windows Phone 8.1 \[ Windows Phone Silverlight 8.1 和 Windows 執行階段應用程式\]<br/>                                           |
 | 命名空間<br/>                | D2D1<br/>                                                                                                                   |
 | 標頭<br/>                   | <dl> <dt>D2d1 \_ helper。h</dt> </dl>                                         |

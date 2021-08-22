@@ -11,12 +11,12 @@ api_name:
 - HomeProviderName
 api_type:
 - Schema
-ms.openlocfilehash: 3d0af51e4873915838f2d55f683d07e9098aad3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1868be18dc7acf9d5146f987658feb006714fbcc3db35883007afd01c308609e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035826"
 ---
 # <a name="homeprovidername-mbnprofile-element"></a>HomeProviderName (MBNProfile) 元素
 

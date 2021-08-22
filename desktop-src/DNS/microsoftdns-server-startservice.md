@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2e103b3d2648bf2c061eb047090cfdfeb907518
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b5e74de96ad24ff16ea2c2effaef78003011f5d6bd5d421336084ac5c7701f79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119432638"
 ---
 # <a name="startservice-method-of-the-microsoftdns_server-class"></a>MicrosoftDNS 伺服器類別的 StartService 方法 \_
 

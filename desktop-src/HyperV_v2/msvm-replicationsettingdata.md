@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 35bb97e531f8aca5f74801d55a71e5b3f2850c08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90e16e70f7b5bd0a075ffdef54cf0c591719d4993031f3abee19dd8186ec5996
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148251"
 ---
 # <a name="msvm_replicationsettingdata-class"></a>Msvm \_ ReplicationSettingData 類別
 
@@ -338,7 +338,7 @@ Kerberos 驗證。
 存取類型：唯讀
 </dt> </dl>
 
-物件的簡短描述。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)，一律設為「複寫設定」。
+物件的簡短描述。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)，一律設定為 "Replication 設定"。
 
 </dd> <dt>
 
@@ -501,7 +501,7 @@ Kerberos 驗證。
 限定詞：索引 **鍵**
 </dt> </dl>
 
-唯一識別此類別的實例。 這個屬性繼承自 [**CIM \_ SettingData**](/previous-versions//cc136911(v=vs.85))。 針對 Windows 8，它一律會設定為 "Microsoft：*Virtual MACHINE GUID* \\ HVR"。 針對 Windows 8.1，它會設定為 "Microsoft：*Virtual MACHINE GUID* \\ HVR \\<0/1>"。 在 Windows 8.1 值中，0表示 primary，1表示擴充複寫。 如需擴充複寫的詳細資訊，請參閱 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md)。
+唯一識別此類別的實例。 這個屬性繼承自 [**CIM \_ SettingData**](/previous-versions//cc136911(v=vs.85))。 針對 Windows 8，它一律會設定為 "Microsoft：*Virtual MACHINE GUID* \\ HVR"。 針對 Windows 8.1，它會設定為 "Microsoft：*Virtual Machine GUID* \\ HVR \\<0/1>"。 在 Windows 8.1 值中，0表示 primary，1表示擴充複寫。 如需擴充複寫的詳細資訊，請參閱 [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md)。
 
 </dd> <dt>
 
@@ -774,8 +774,8 @@ Kerberos 驗證。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

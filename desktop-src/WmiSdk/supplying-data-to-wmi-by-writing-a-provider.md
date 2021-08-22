@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 藉由撰寫提供者，將資料提供給 WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c8648eb2982dda3970cb87308ee92b6816297f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9410fd26a830df1846dd62434dc85ffc9cb033c524c7b4e76ff6db93d64dd95e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050138"
 ---
 # <a name="supplying-data-to-wmi-by-writing-a-provider"></a>藉由撰寫提供者，將資料提供給 WMI
 

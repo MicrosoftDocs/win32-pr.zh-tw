@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c9d7676ebd9309eddc7597f476e0e8796cc5bf5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 345bb6dcc3f6471bb4122c06dd3d3d53fc407625d662db3b2c1b54785b78f5ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532288"
 ---
 # <a name="ds-clone-domain-controller-extended-right"></a>DS-複製-網域控制站擴充許可權
 

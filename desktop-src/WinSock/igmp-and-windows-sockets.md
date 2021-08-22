@@ -1,23 +1,23 @@
 ---
-description: Windows 通訊端可透過使用通訊端選項和 IOCTLs，在 IPv6 和網際網路群組管理通訊協定上 (MLD) 啟用多播接聽程式探索，並 (IGMP) IPv4 上的多播應用程式。
+description: Windows通訊端可透過使用通訊端選項和 IOCTLs，在 IPv6 和網際網路群組管理通訊協定上 (MLD) 啟用多播接聽程式探索，以 (IGMP) IPv4 上的多播應用程式。
 ms.assetid: a5de4273-e86e-4f13-b068-256cb38706d4
 title: 使用 Windows 通訊端的 MLD 和 IGMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6cb9f9c345463e283adea0136037d7ccd03cebd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b2c550cf2c1463f5b646efc286c05010274d3cb44e13b9559302452bccb81c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051646"
 ---
 # <a name="mld-and-igmp-using-windows-sockets"></a>使用 Windows 通訊端的 MLD 和 IGMP
 
-Windows 通訊端可透過使用通訊端選項和 IOCTLs，在 IPv6 和網際網路群組管理通訊協定上 (MLD) 啟用多播接聽程式探索，並 (IGMP) IPv4 上的多播應用程式。 此頁面說明啟用多播程式設計的通訊端選項，並說明其使用方式。 如需每個通訊端選項的定義，請參閱 [ [通訊端選項](socket-options.md) ] 頁面。
+Windows通訊端可透過使用通訊端選項和 IOCTLs，在 IPv6 和網際網路群組管理通訊協定上 (MLD) 啟用多播接聽程式探索，以 (IGMP) IPv4 上的多播應用程式。 此頁面說明啟用多播程式設計的通訊端選項，並說明其使用方式。 如需每個通訊端選項的定義，請參閱 [ [通訊端選項](socket-options.md) ] 頁面。
 
 如需有關使用 IOCTLs 進行多播程式設計的詳細資訊，請參閱本節稍後的 [最終狀態式多播程式設計](final-state-based-multicast-programming.md) 。
 
-在 Windows Vista 和更新版本上，有一組通訊端選項可用於支援 IPv6 和 IPv4 位址的多播程式設計。 這些通訊端選項與 IP 無關，而且可以同時用於 IPv6 和 IPv4。 在 IPv6 上，這些通訊端選項使用 MLDv2。 在 IPv4 上，這些通訊端選項使用 IGMPv3。 這些 IP 中立的選項是 Windows Vista 和更新版本上多播程式設計的慣用通訊端選項。 Windows 通訊端使用下列通訊端選項： 
+在 Windows Vista 和更新版本上，有一組通訊端選項可用於支援 IPv6 和 IPv4 位址的多播程式設計。 這些通訊端選項與 IP 無關，而且可以同時用於 IPv6 和 IPv4。 在 IPv6 上，這些通訊端選項使用 MLDv2。 在 IPv4 上，這些通訊端選項使用 IGMPv3。 這些 IP 中立的選項是 Windows Vista 和更新版本的多播程式設計的慣用通訊端選項。 Windows通訊端會使用下列通訊端選項： 
 
 | 通訊端選項               | 引數類型                                            |
 |-----------------------------|----------------------------------------------------------|
@@ -32,7 +32,7 @@ Windows 通訊端可透過使用通訊端選項和 IOCTLs，在 IPv6 和網際�
 
  
 
-一組通訊端選項適用于支援 IPv6 專用位址的多播程式設計。 這些通訊端選項使用 MLDv1 或 MLDv2。 使用的 MLD 版本取決於 Windows 版本。 Windows Vista 和更新版本支援 MLDv2。 Windows 通訊端使用下列通訊端選項： 
+一組通訊端選項適用于支援 IPv6 專用位址的多播程式設計。 這些通訊端選項使用 MLDv1 或 MLDv2。 使用的 MLD 版本取決於 Windows 的版本。 Windows Vista 和更新版本支援 MLDv2。 Windows通訊端會使用下列通訊端選項： 
 
 | 通訊端選項          | 引數類型                             |
 |------------------------|-------------------------------------------|
@@ -43,7 +43,7 @@ Windows 通訊端可透過使用通訊端選項和 IOCTLs，在 IPv6 和網際�
 
  
 
-一組通訊端選項適用于僅支援 IPv4 位址的多播程式設計。 這些通訊端選項使用 IGMPv3 或 IGMPv2。 使用的 IGMP 版本取決於 Windows 版本。 Windows Vista 和更新版本支援 IGMPv3。 Windows 通訊端使用下列通訊端選項：
+一組通訊端選項適用于僅支援 IPv4 位址的多播程式設計。 這些通訊端選項使用 IGMPv3 或 IGMPv2。 使用的 IGMP 版本取決於 Windows 的版本。 Windows Vista 和更新版本支援 IGMPv3。 Windows通訊端會使用下列通訊端選項：
 
 | 通訊端選項                | 引數類型                                        |
 |------------------------------|------------------------------------------------------|

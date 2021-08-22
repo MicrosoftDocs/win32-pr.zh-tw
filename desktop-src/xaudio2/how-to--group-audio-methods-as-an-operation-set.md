@@ -4,12 +4,12 @@ ms.assetid: 1b50acc5-a6b2-e010-9e7e-0080a5ee4a58
 title: 使用方法：將音訊方法群組為操作集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5146c650ae6f89331c40f3e0db896f49484a6f0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9f5c1d27e33db4c0f7910761a7be574b72e9ac7aaa91b14329fa003792860d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082922"
 ---
 # <a name="how-to-group-audio-methods-as-an-operation-set"></a>使用方法：將音訊方法群組為操作集
 

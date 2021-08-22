@@ -4,17 +4,17 @@ ms.assetid: b631dcb6-1117-4ba2-84e3-f4a60b94a4bc
 title: 停止
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de2277293f85ce229bc41387c230e717df66063c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e76e4a77047301801050aa44c6c950603e30d63638bbeb69841022a90cdcd10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329848"
 ---
 # <a name="stop"></a>停止
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

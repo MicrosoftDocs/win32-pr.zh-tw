@@ -7,12 +7,12 @@ keywords:
 - MIDL 語言參考 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c543e8f49b2f79b49548bac3b1b0dfdb55775866
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6313497b995ccc8ccc0f47827ab871e86a95dc6b4b09e5b9841fe32ba3c76e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067138"
 ---
 # <a name="midl-language-reference"></a>MIDL 語言參考
 
@@ -42,7 +42,7 @@ ms.locfileid: "103933202"
 [**位元組 \_ 計數**](byte-count.md)  
 [**呼叫 \_ as**](call-as.md)  
 [**回撥**](callback.md)  
-[**字元**](char-idl.md)  
+[**char**](char-idl.md)  
 [**coclass**](coclass.md)  
 [**代碼**](code.md)  
 [**通訊 \_ 狀態**](comm-status.md)  
@@ -63,7 +63,7 @@ ms.locfileid: "103933202"
 [**dispinterface**](dispinterface.md)  
 [**displaybind**](displaybind.md)  
 [**dllname (str)**](dllname-str-.md)  
-[**double**](double.md)  
+[**雙**](double.md)  
 [**雙**](dual.md)  
 [**啟用 \_ 配置**](enable-allocate.md)  
 [**編碼**](encode.md)  
@@ -84,7 +84,7 @@ ms.locfileid: "103933202"
 [**helpstringcontext**](helpstringcontext.md)  
 [**helpstringdll**](helpstringdll.md)  
 [**隱藏**](hidden.md)  
-[**超**](hyper.md)  
+[**Hyper**](hyper.md)  
 [**Id**](id.md)  
 [**idempotent**](idempotent.md)  
 [**忽略**](ignore.md)  
@@ -141,7 +141,7 @@ ms.locfileid: "103933202"
 [**oleautomation**](oleautomation.md)  
 [**優化**](optimize.md)  
 [**選**](optional.md)  
-[**擴展**](out-idl.md)  
+[**out**](out-idl.md)  
 [**\_ \_ 明細**](out-of-line.md)  
 [**部分 \_ 忽略**](partial-ignore.md)  
 [**管道**](pipe.md)  
@@ -162,7 +162,7 @@ ms.locfileid: "103933202"
 [**retval**](retval.md)  
 [**形狀**](shape.md)  
 [**short**](short.md)  
-[**signed**](signed.md)  
+[**簽署**](signed.md)  
 [**大小 \_ 為**](size-is.md)  
 [**小**](small.md)  
 [**源**](source.md)  
@@ -180,7 +180,7 @@ ms.locfileid: "103933202"
 [**符號**](unsigned.md)  
 [**使用者 \_ 封送處理**](user-marshal.md)  
 [**usesgetlasterror**](usesgetlasterror.md)  
-[**uuid**](uuid.md)  
+[**Uuid**](uuid.md)  
 [**v1 \_ 列舉**](v1-enum.md)  
 [**vararg**](vararg.md)  
 [**版本**](version.md)  
@@ -189,6 +189,6 @@ ms.locfileid: "103933202"
 [**網路 \_ 封送處理**](wire-marshal.md)  
 </dl>
 
- 
+ 
 
- 
+ 

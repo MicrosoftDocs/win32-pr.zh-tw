@@ -4,12 +4,12 @@ ms.assetid: 61f6d244-7397-42af-af58-0ab9d07bf19e
 title: 便攜檔的計量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c840b1b8e8014086b97098a44890f170a6bd11d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3762846e6d8280c2680f47f3cb32cd847ea4e664dab47a8a0995f5505c393da3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558498"
 ---
 # <a name="metrics-for-portable-documents"></a>便攜檔的計量
 
@@ -17,7 +17,7 @@ ms.locfileid: "104972649"
 
 
 
-| 函式                                               | Metric                | 使用                                                                                                          |
+| 函數                                               | 計量                | 使用                                                                                                          |
 |--------------------------------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------|
 | [**>enumfontfamilies**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa)           | **ntmSizeEM**         | 設計計量的抓取;轉換成裝置計量。                                                   |
 | [**GetCharABCWidths**](/windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsa)           | **ABCWidths**         | 在邊界的開頭和結尾、圖片邊界和其他文字分隔字元的精確位置。 |

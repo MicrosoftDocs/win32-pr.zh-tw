@@ -4,12 +4,12 @@ ms.assetid: 925267a2-4421-4874-a8a2-437876c729f1
 title: 'MFT_OUTPUT_TYPES_Attributes 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 991b94b52782eb631846ee1ce182b4676a3cfd2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2699d244bc5184652d0ba1d89ebf4e1beaddb472bb1d6fa09c05d1edf99030fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462778"
 ---
 # <a name="mft_output_types_attributes-attribute"></a>MFT \_ 輸出 \_ 類型 \_ 屬性屬性
 
@@ -34,7 +34,7 @@ ms.locfileid: "106973708"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

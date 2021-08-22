@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: bbbcd1a7874cbab5c9914eee36a37b991c7f6b06
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dcb3864e16a06891e7fad8ebe59de7dc8f58bde51d2345d10ba2270ac92b480c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562328"
 ---
 # <a name="span-idvspixengineicallstackrequestspanicallstackrequest-interface"></a><span id="vspixengine.icallstackrequest"></span>ICallStackRequest 介面
 

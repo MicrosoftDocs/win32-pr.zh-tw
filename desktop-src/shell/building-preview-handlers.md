@@ -4,12 +4,12 @@ ms.assetid: 6c240a63-c184-4b65-9483-794f5de4d695
 title: 建立預覽處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a309873cf082071d5f426ce0ba6d039107c59665
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: a810f15fed66d69bce32387249a2e0d678a1eb6c0dd918ec5df2e1ddbeb5be8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032916"
 ---
 # <a name="building-preview-handlers"></a>建立預覽處理常式
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: af733cf695ac7ac0bcccf7270929ae3b1bc08b8a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e7dd51e21285e053a7c06645c23eae7a206a696cfd6fa0a35edfebaeea0f904a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108100096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119333158"
 ---
 # <a name="setpowerstate-method-of-the-cim_nonvolatilestorage-class"></a>CIM NonVolatileStorage 類別的 SetPowerState 方法 \_
 
