@@ -3,7 +3,7 @@ title: 'MCIWNDM_OPEN 訊息 (Vfw .h) '
 description: MCIWNDM \_ 開啟的訊息會開啟 MCI 裝置，並將其與 MCIWnd 視窗建立關聯。
 ms.assetid: ad1dfe0f-015b-45a9-ab88-cc0bdf0aa057
 keywords:
-- MCIWNDM_OPEN message Windows 多媒體
+- MCIWNDM_OPEN 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2f232ea9076a1e0ff8c105d8c5cf94104e455c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 03bebf9573303e3560b385425e7642106120c41456a21c1c4b80bc158328a864
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428898"
 ---
 # <a name="mciwndm_open-message"></a>MCIWNDM \_ 開啟的訊息
 

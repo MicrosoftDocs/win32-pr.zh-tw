@@ -4,12 +4,12 @@ ms.assetid: 087e47c1-2a8a-4687-85c1-ac18708174e1
 title: 'AVEncMPVQuantMatrixNonIntra 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb70fa38d263365d9de2890be9756b46e09547ec
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c4bf5898240e2504e3219d419732993b68784fd4c3848ee1928ff1db9262ea02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119258248"
 ---
 # <a name="avencmpvquantmatrixnonintra-property"></a>AVEncMPVQuantMatrixNonIntra 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104467499"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

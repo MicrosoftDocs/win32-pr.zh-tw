@@ -4,12 +4,12 @@ ms.assetid: 10c4f4ca-cb30-453c-b18d-0470bfecc14e
 title: 從影片檔案讀取目錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94d75d1101b2ad0a2ecd57dcf53acbe6a6e7d435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5bee379b0c50263463b0aa56e7ebb86bba447e70ef94ff82a6ba89e025d450bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034936"
 ---
 # <a name="reading-a-table-of-contents-from-a-video-file"></a>從影片檔案讀取目錄
 

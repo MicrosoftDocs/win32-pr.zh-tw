@@ -1,19 +1,19 @@
 ---
-description: 深入瞭解藍牙 LE 裝置的外觀。 本參考頁面會說明 Aep 屬性。」。
+description: 瞭解藍牙 LE 裝置的外觀。 本參考頁面描述 Aep。藍牙。Le 屬性。
 ms.assetid: 03c10b03-5821-476c-a1f3-3387ee4d6318
-title: Aep...。
+title: Aep。藍牙。Le. 外觀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9bc2362c361f4e44d81a304d3fa0e49a4f5eec
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: f877f1d4b1cabbe9da282c476c491f8459d710145a72d86646abc662c257ca39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119340848"
 ---
-# <a name="systemdevicesaepbluetoothleappearance"></a>Aep...。
+# <a name="systemdevicesaepbluetoothleappearance"></a>Aep。藍牙。Le. 外觀
 
-藍牙 LE 裝置外觀。
+藍牙LE 裝置外觀。
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版
 

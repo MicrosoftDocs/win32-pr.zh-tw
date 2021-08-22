@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 83984532bc51cc457a727800f9e52da69e8ae810
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca852d4ebf90b133a8475b5ff14a32f5b4002b8f509d60bf68cafbce318ae403
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119365718"
 ---
 # <a name="esentcannotnestddlexception-class"></a>EsentCannotNestDDLException 類別
 

@@ -9,12 +9,12 @@ keywords:
 - fxc.exe、著色器/效果編譯器工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7ed9941fe37cd0e3ea8cad309d4b6a34d9104a7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1ad188702db400168ee7b88b3978e8968a5741c35dafade7a9a0f2619b05167c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119369488"
 ---
 # <a name="effect-compiler-tool"></a>Effect-Compiler 工具
 

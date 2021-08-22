@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: aafb2b7307e72e97ba1508aa80638af7565f2867
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7e5db8d6245ab332c6238a7053623580c16e93caa49e0ac2623cba61723dc1d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070128"
 ---
 # <a name="image_v1-class"></a>映射 \_ V1 類別
 
@@ -44,8 +44,8 @@ class Image_V1 : MSNT_SystemTrace
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 
@@ -56,7 +56,7 @@ class Image_V1 : MSNT_SystemTrace
 [**MSNT \_ SystemTrace**](msnt-systemtrace.md)
 </dt> <dt>
 
-[**Image**](image.md)
+[**映像**](image.md)
 </dt> <dt>
 
 [**影像 \_ V0**](image-v0.md)

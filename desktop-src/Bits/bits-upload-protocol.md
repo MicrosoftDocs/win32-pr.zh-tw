@@ -1,17 +1,17 @@
 ---
-title: BITS 上傳通訊協定
+title: BITS Upload 通訊協定
 description: 本節說明 BITS 上傳和上傳-回復工作類型的網路通訊協定。
 ms.assetid: d0706ab1-1bf4-4b17-9321-ec3e00dd25e2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 642426decd0bc37390fa9fdd9b1ad2be11a0aa84
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a01fea1ff4703dba9a0429c0b37e9c34ebe0d0099016af788c972dd8ee9fddef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021235"
 ---
-# <a name="bits-upload-protocol"></a>BITS 上傳通訊協定
+# <a name="bits-upload-protocol"></a>BITS Upload 通訊協定
 
 本節說明 BITS 上傳和上傳-回復工作類型的網路通訊協定。 BITS 上傳通訊協定會分層在 HTTP 1.1 之上，並使用許多現有的 HTTP 標頭，並定義新的標頭。 BITS 上傳通訊協定支援每個會話單一上傳檔案。
 
@@ -23,9 +23,9 @@ BITS 會使用封包來描述用戶端要求和伺服器回應。 BITS 封包類
 
 用戶端會決定它如何回應 BITS 伺服器的錯誤或未預期的封包。 如果伺服器收到未預期的封包，伺服器應該傳送具有 400 (錯誤要求) 傳回碼的 Ack 封包。
 
- 
+ 
 
- 
+ 
 
 
 

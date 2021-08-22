@@ -5,12 +5,12 @@ ms.assetid: 26C4CF42-A0F1-4976-A1F8-363037482075
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9780a3a557e041853bd86fc689239feaf241b1f4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 653ea890d70dc4fbb34c961a094983f8a5aae68159203d51fef117ad13eb7fbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138391"
 ---
 # <a name="iremotedesktopclienttouchpointer-properties"></a>IRemoteDesktopClientTouchPointer 屬性
 
@@ -41,6 +41,6 @@ RDP 應用程式容器用戶端控制項上是否啟用觸控指標功能。
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

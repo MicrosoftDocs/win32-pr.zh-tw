@@ -4,12 +4,12 @@ ms.assetid: 3d40172b-6ba1-4e42-9a1a-519c8e88c2b1
 title: wsdCodeGen 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9861617854e0e75575f2993717f5b2a86515fb0f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 67ffac9696371f53b073fa71c0b1903c826544a6f695b9b741b48936c0250d2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049536"
 ---
 # <a name="wsdcodegen-element"></a>wsdCodeGen 元素
 
@@ -45,7 +45,7 @@ ms.locfileid: "107994675"
 | [**hostMetadata**](hostmetadata.md)<br/>                 | 要執行之裝置的裝載中繼資料。 此元素僅用於 (主機) 的裝置執行。<br/> <br/>                                                                                 |
 | [**layerNumber**](layernumber.md)<br/>                   | 要產生的程式碼層數目。 在執行時間資料表中，會使用圖層編號來區分另一層程式碼。 WSDAPI 本身會使用產生的程式碼，其層號為0。<br/> <br/> |
 | [**layerPrefix**](layerprefix.md)<br/>                   | 要在產生的程式碼中使用的前置詞，以確保產生的符號唯一性。 WSDAPI 使用 "WSD" 前置詞。<br/> <br/>                                                                                     |
-| [**宏觀**](macro.md)<br/>                               | 定義 [**include**](include.md) 元素要重複使用的 TEXT 或 CDATA。<br/> <br/>                                                                                                                        |
+| [**巨集**](macro.md)<br/>                               | 定義 [**include**](include.md) 元素要重複使用的 TEXT 或 CDATA。<br/> <br/>                                                                                                                        |
 | [**命名 空間**](namespace.md)<br/>                       | 描述要用於產生程式碼的命名空間。<br/> <br/>                                                                                                                                                |
 | [**relationshipMetadata**](relationshipmetadata.md)<br/> | 描述裝置的主機和託管中繼資料。<br/> <br/>                                                                                                                                               |
 | [**thisModelMetadata**](thismodelmetadata.md)<br/>       | 要執行之裝置的製造商和型號中繼資料。 此元素僅用於 (主機) 的裝置執行。<br/> <br/>                                                                  |

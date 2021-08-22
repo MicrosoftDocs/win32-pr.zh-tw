@@ -1,19 +1,19 @@
 ---
 title: 色彩字型
-description: 本主題說明色彩字型、其在 DirectWrite 和 Direct2D 方面的支援，以及如何在您的應用程式中使用它們。
+description: 本主題說明色彩字型、其在 DirectWrite 和 Direct2D 中的支援，以及如何在您的應用程式中使用它們。
 ms.assetid: 74e096c4-9d1c-8854-e9ee-f8b11ac1c71a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6774089cc1f0bed1349edc940c6a1ae715d052c7
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: a5c0154e528ab8471d40f4771db5479ca9233320177386adbbd849162dbcd598
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "104565571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329520"
 ---
 # <a name="color-fonts"></a>色彩字型
 
-本主題說明色彩字型、其在 DirectWrite 和 Direct2D 方面的支援，以及如何在您的應用程式中使用它們。
+本主題說明色彩字型、其在 DirectWrite 和 Direct2D 中的支援，以及如何在您的應用程式中使用它們。
 
 本檔包含下列部分：
 
@@ -47,14 +47,14 @@ ms.locfileid: "104565571"
 
 ## <a name="what-kinds-of-color-fonts-does-windows-support"></a>Windows 支援何種色彩字型？
 
-[OpenType 規格](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx)定義了數種在字型中內嵌色彩資訊的方式。 從 Windows 10 年度更新版開始，DirectWrite 和 Direct2D (和內建的 Windows framework) 支援所有這些方法。 下表摘要說明這些摘要：
+[OpenType 規格](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx)定義了數種在字型中內嵌色彩資訊的方式。 從 Windows 10 周年更新開始，DirectWrite 和 Direct2D (及其內建的 Windows 架構) 支援這些方法。 下表摘要說明這些摘要：
 
 
 
 | 技巧                                                                                                                        | 描述                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [COLR](/typography/opentype/spec/colr) /[CPAL](/typography/opentype/spec/cpal)資料表 | 使用彩色向量的圖層，其形狀的定義方式與單一色彩圖像外框外。 **注意：** 從 Windows 8.1 開始支援。 <br/>                                                                                                                                                 |
-| [SVG](/typography/opentype/spec/svg) 資料表                                                                 | 使用以可擴充向量圖形格式撰寫的向量影像。 **注意：** 從 Windows 10 年度更新版，DirectWrite 支援完整 SVG 規格的子集。並非所有 SVG 內容都能以 OpenType SVG 字型呈現。 如需詳細資料，請參閱 [SVG 支援](../direct2d/svg-support.md) 。 <br/> |
+| [SVG](/typography/opentype/spec/svg) 資料表                                                                 | 使用以可擴充向量圖形格式撰寫的向量影像。 **注意：** 從 Windows 10 周年更新，DirectWrite 支援完整 SVG 規格的子集。並非所有 SVG 內容都能以 OpenType SVG 字型呈現。 如需詳細資料，請參閱 [SVG 支援](../direct2d/svg-support.md) 。 <br/> |
 | [CBDT](/typography/opentype/spec/cbdt) /[CBLC](/typography/opentype/spec/cblc)資料表 | 使用內嵌的色彩點陣圖影像。                                                                                                                                                                                                                                                                                |
 | [sbix](/typography/opentype/spec/sbix) 資料表                                                               | 使用內嵌的色彩點陣圖影像。                                                                                                                                                                                                                                                                                |
 
@@ -83,7 +83,7 @@ XAML 平臺的 text 元素 (例如[TextBlock](/uwp/api/windows.ui.xaml.controls.
 
 ### <a name="using-color-fonts-in-microsoft-edge"></a>在 Microsoft Edge 中使用色彩字型
 
-色彩字型預設會在 Microsoft Edge 上執行的網站和 web 應用程式中轉譯，包括 XAML [web](/uwp/api/windows.ui.xaml.controls.webview) 程式控制項。 只要使用 HTML 和 CSS 來為您的文字建立色彩字型的樣式，就會以色彩轉譯任何色彩圖像。
+色彩字型預設會在 Microsoft Edge 上執行的網站和 web 應用程式中轉譯，包括 XAML [web](/uwp/api/windows.ui.xaml.controls.webview)程式控制項。 只要使用 HTML 和 CSS 來為您的文字建立色彩字型的樣式，就會以色彩轉譯任何色彩圖像。
 
 ### <a name="using-color-fonts-with-directwrite-and-direct2d"></a>使用色彩字型搭配 DirectWrite 和 Direct2D
 
@@ -113,7 +113,7 @@ m_deviceContext->DrawText(
 
 若要正確處理色彩字型，您的應用程式應該：
 
-1.  將圖像執行資訊傳遞給 [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun)，以及 [**DWRITE 影像處理 \_ \_ \_ 格式**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) 參數，指出應用程式準備處理的色彩圖像)  (的類型。 如果有任何色彩圖像 (根據字型和要求的 **DWRITE \_ \_ 圖像影像 \_ 格式**) ，則 DirectWrite 會將主要圖像執行分割成個別的色彩圖像執行，您可以透過步驟4中傳回的 [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) 物件來存取這些文字。
+1.  將圖像執行資訊傳遞給 [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun)，以及 [**DWRITE 影像處理 \_ \_ \_ 格式**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) 參數，指出應用程式準備處理的色彩圖像)  (的類型。 如果有任何色彩圖像 (根據字型和要求的 **DWRITE \_ \_ 圖像影像 \_ 格式**) ，則 DirectWrite 會將主要圖像執行分割成個別的色彩圖像執行，您可以透過步驟4中傳回的 [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md)物件來存取這些文字。
 2.  檢查 [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun) 傳回的 HRESULT，以判斷是否偵測到任何色彩字元執行。 **DWRITE \_ E \_ NOCOLOR** 的 **HRESULT** 指出沒有適用的色彩圖像執行。
 3.  如果 [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun) 藉由傳回 **DWRITE \_ E \_ NOCOLOR**) 來 (未回報色彩字元執行，則會將整個圖像執行視為單色，而您的應用程式應該將它繪製為所需的 (例如，使用 [**ID2D1DeviceCoNtext：:D rawglyphrun**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawglyphrun)) 。
 4.  如果 [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun) 回報色彩圖像執行的存在，則您的應用程式應該忽略主要圖像執行，並改為使用 TranslateColorGlyphRun 所傳回的色彩字元執行 (s) 。 若要這樣做，請逐一查看傳回的 [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) 物件，並依適當的圖像影像格式來繪製每個色彩圖像 (例如，您可以使用 [**DrawColorBitmapGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawcolorbitmapglyphrun) 和 [**DrawSvgGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawsvgglyphrun) 來) 分別繪製色彩點陣圖字元和 SVG 圖像。

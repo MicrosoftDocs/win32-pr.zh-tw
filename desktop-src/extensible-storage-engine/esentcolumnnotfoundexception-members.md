@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101336
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f25d69bcc3fae222a306d748503ca3be3c775e31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ee6b1a9d49a7feac6d937ac8396f925d0a16a58bec500d7c9f4f10d8e01b237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041796"
 ---
 # <a name="esentcolumnnotfoundexception-members"></a>EsentColumnNotFoundException 成員
 

@@ -60,12 +60,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0b7a7add96c523dae6b683d597ba36953c605d28
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c64fd25df2d81f7debf78fd0a50f69656b16c2c5309b1955e1aa0e96e6dde403
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119284548"
 ---
 # <a name="cim_cachememory-class"></a>CIM \_ CacheMemory 類別
 
@@ -1086,7 +1086,7 @@ Win32 設定管理員錯誤碼。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -1165,7 +1165,7 @@ Win32 設定管理員錯誤碼。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -1457,7 +1457,7 @@ CRC 錯誤。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -1770,7 +1770,7 @@ CRC 錯誤。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -1854,7 +1854,7 @@ CRC 錯誤。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -2194,7 +2194,7 @@ CRC 錯誤。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 

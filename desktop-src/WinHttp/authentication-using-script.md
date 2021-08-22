@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1d33b8042cd1fd15d46e15dfb3624e0d3b4a885b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81e2dec50ccf765239bbbd1d6a71c8f8fb2be0e4f70f2db5717b0072f0b62d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052096"
 ---
 # <a name="authentication-using-script"></a>使用腳本進行驗證
 
@@ -27,10 +27,10 @@ ms.locfileid: "106981589"
 
 ## <a name="prerequisites-and-requirements"></a>必要條件和需求
 
-除了使用 Microsoft JScript 的知識之外，此範例還需要下列各項：
+除了 Microsoft JScript 的工作知識之外，此範例還需要下列各項：
 
 -   Microsoft Windows 軟體開發套件 (SDK 的最新版本) 。
--   如果您的網際網路連線是透過 proxy 伺服器，則 proxy 設定工具可建立 Microsoft Windows HTTP Services (WinHTTP) 的 proxy 設定。 如需詳細資訊，請參閱 [Proxycfg.exe 的 Proxy 設定工具](proxycfg-exe--a-proxy-configuration-tool.md) 。
+-   如果您的網際網路連線是透過 proxy 伺服器，則可使用 proxy 設定工具來建立 Microsoft Windows HTTP 服務 (WinHTTP) 的 proxy 設定。 如需詳細資訊，請參閱 [Proxycfg.exe 的 Proxy 設定工具](proxycfg-exe--a-proxy-configuration-tool.md) 。
 -   熟悉 [網路術語](network-terminology.md) 和概念。
 
 ## <a name="accessing-a-web-site-with-authentication"></a>使用驗證存取網站

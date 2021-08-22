@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103168
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: afb7b33654377241bb4cd14145ce73b823c61ddb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89ad0721fa6be27608134ba00d21a4e2fca7c6d7f2d149d372f86a1f7d6626ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039578"
 ---
 # <a name="esentupdatemustversionexception-methods"></a>EsentUpdateMustVersionException 方法
 

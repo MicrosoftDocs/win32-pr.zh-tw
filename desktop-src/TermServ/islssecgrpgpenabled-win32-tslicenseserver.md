@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27f3d7ec9de3d98849f9680f1b2a87bf5b22922a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 688843106583ea0ca32a3cc8ac7142d51aac737ad6722ab4ef95621b63b66eb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138361"
 ---
 # <a name="islssecgrpgpenabled-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 IsLSSecGrpGPEnabled 方法 \_
 
@@ -62,7 +62,7 @@ uint32 IsLSSecGrpGPEnabled(
 
 原則設定位於本機群組原則編輯器的下列節點中：
 
-電腦設定 \\ 系統管理範本 \\ Windows 元件 \\ 終端機服務 \\ TS 授權
+電腦配置 \\ 系統管理範本 \\ Windows 元件 \\ 終端機服務 \\ TS 授權
 
 受控物件格式 (MOF) 檔包含 Windows Management Instrumentation (WMI) 類別的定義。 MOF 檔案不會安裝為 Microsoft Windows 軟體開發套件 (SDK) 的一部分。 當您使用伺服器管理員新增相關聯的角色時，它們會安裝在伺服器上。 如需 MOF 檔案的詳細資訊，請參閱 [受控物件格式 (mof) ](/windows/desktop/WmiSdk/managed-object-format--mof-)。
 

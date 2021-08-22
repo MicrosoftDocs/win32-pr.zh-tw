@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101118
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bad5eb87d14a9c6e58bbaa70f43e607aee5d2cf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1405065d9fa2308043ec8fb079ca929378feca7e31b485c4b56b7f146f98f9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117198"
 ---
 # <a name="esentbaddbsignatureexception-properties"></a>EsentBadDbSignatureException 屬性
 

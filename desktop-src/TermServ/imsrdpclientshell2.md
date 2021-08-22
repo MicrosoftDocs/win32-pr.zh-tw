@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb93fd938602b195f60877be884dbe0bd458a598
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 561e9a63e631ca88575f4b632def5e47b29b68da414d48af95d42e757dcb2da6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138651"
 ---
 # <a name="imsrdpclientshell2-interface"></a>IMsRdpClientShell2 介面
 
@@ -41,7 +41,7 @@ ms.locfileid: "103685670"
 
 
 
-| 屬性                                                                               | 存取類型          | Description                                                                                                                                                                       |
+| 屬性                                                                               | 存取類型          | 描述                                                                                                                                                                       |
 |:---------------------------------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MsRdpWorkspace**](imsrdpclientshell2-msrdpworkspace.md)<br/>                 | 唯讀<br/> | 抓取 [**IMsRdpWorkspace**](imsrdpworkspace.md) 介面的指標，該介面可用來管理 RemoteApp 和桌面連線的認證和連接。<br/> |
 | [**SecuredSettingsEnabled**](imsrdpclientshell2-securedsettingsenabled.md)<br/> | 唯讀<br/> | 抓取值，指出目前的網頁是否位於信任的 Internet Explorer URL 安全性區域中。<br/>                                                      |

@@ -4,12 +4,12 @@ ms.assetid: bc667f20-3abe-4ef3-b51e-dc74da63f651
 title: 重新安裝 ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1d2adece3f89dbe57b77f2345d1714ece64b271
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f943d7e5950c9455909dad2d1a4677178a6608d4d8fe9bdfbd4cbf7ef752f2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119339718"
 ---
 # <a name="reinstall-controlevent"></a>重新安裝 ControlEvent
 

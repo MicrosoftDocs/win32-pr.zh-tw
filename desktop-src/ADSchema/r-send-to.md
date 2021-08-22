@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0995f887f899eb31ec6d45210a07a849f1c50dde
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c3d6007cf9c222ac0ae52e75cbf79b63765ee14f46a976f761521c3b1740cbab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021566"
 ---
 # <a name="send-to-extended-right"></a>Send-To 擴充許可權
 

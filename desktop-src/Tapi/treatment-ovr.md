@@ -4,12 +4,12 @@ ms.assetid: 0b8d1023-374a-4937-b39c-04043423eb47
 title: 處理方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bbde0e602836b543e849afb3d56c33fd6df0a60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60f29f8848c76029daa7828f40061c828b625ec046dea7fac35159b390a4d106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139741"
 ---
 # <a name="treatment"></a>處理方式
 

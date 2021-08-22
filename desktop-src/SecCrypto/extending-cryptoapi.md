@@ -4,12 +4,12 @@ ms.assetid: fe87ccb8-16a3-443d-93df-0df02b8787f6
 title: 擴充 CryptoAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62417f66b8a8bb2d06d145543f944f91868d366d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0538e15f49e61dc26cacd4e81c42dd462aec092877428ebe865ab97c7729f0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007016"
 ---
 # <a name="extending-cryptoapi"></a>擴充 CryptoAPI
 

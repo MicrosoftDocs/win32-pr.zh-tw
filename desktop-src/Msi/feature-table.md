@@ -4,12 +4,12 @@ ms.assetid: 1faee1d5-6e39-43ea-bf92-a0b3986a13a1
 title: 功能資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efa91df750c4994a2d8a2308705213e48c864518
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65dcf9177c44f407876cbe339925ca4524034a1335393161bb40310d60c158ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119251758"
 ---
 # <a name="feature-table"></a>功能資料表
 
@@ -21,8 +21,8 @@ ms.locfileid: "107001354"
 |-----------------|------------------------------|-----|----------|
 | 功能         | [識別碼](identifier.md) | Y   | N        |
 | 功能 \_ 父系 | [識別碼](identifier.md) | N   | Y        |
-| 標題           | [Text](text.md)             | N   | Y        |
-| Description     | [Text](text.md)             | N   | Y        |
+| Title           | [Text](text.md)             | N   | Y        |
+| 描述     | [Text](text.md)             | N   | Y        |
 | 顯示         | [整數](integer.md)       | N   | Y        |
 | 層級           | [整數](integer.md)       | N   | N        |
 | 目錄\_     | [識別碼](identifier.md) | N   | Y        |
@@ -128,7 +128,7 @@ ms.locfileid: "107001354"
 
 
 
-| Name                                         | Decimal | 十六進位 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 名稱                                         | Decimal | 十六進位 | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------------|---------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | msidbFeatureAttributesFavorLocal             | 0       | 0x0000      | 這項功能未標示為從來源安裝的元件會安裝在本機。 由兩個或多個功能所共用的元件，其中有些功能是設定為 msidbFeatureAttributesFavorLocal，而某些是設定為 msidbFeatureAttributesFavorSource，則會安裝在本機。 [元件資料表](component-table.md)中標記為 msidbComponentAttributesSourceOnly 的元件一律會從來源 CD/伺服器執行。 Bits msidbFeatureAttributesFavorLocal 和 msidbFeatureAttributesFavorSource 會使用「 [**公告」屬性**](advertise.md)未列出的功能。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | msidbFeatureAttributesFavorSource            | 1       | 0x0001      | 這項功能未標示為本機安裝的元件，會安裝成從來源 CD-ROM 或伺服器執行。 由兩個或多個功能所共用的元件，其中有些功能是設定為 msidbFeatureAttributesFavorLocal，而某些是設定為 msidbFeatureAttributesFavorSource，則會安裝在本機執行。 [元件資料表](component-table.md)中標記為 msidbComponentAttributesLocalOnly 的元件一律會安裝在本機。 Bits msidbFeatureAttributesFavorLocal 和 msidbFeatureAttributesFavorSource 會使用「 [**公告」屬性**](advertise.md)未列出的功能。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |

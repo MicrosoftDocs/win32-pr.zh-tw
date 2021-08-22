@@ -4,12 +4,12 @@ ms.assetid: 012577cd-970e-43bc-996e-3be7c2283b60
 title: Direct3D 10 核心函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49287faa9b28076b00dd04767a81b816f47211c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7db0ab248970e76ef324c54058c4da4863aaa36f51c9501dc828e00732b9a8a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409318"
 ---
 # <a name="direct3d-10-core-functions"></a>Direct3D 10 核心函數
 

@@ -5,12 +5,12 @@ ms.assetid: ddc665dd-3a06-4383-b747-e666b8c1090c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6045c37e936afe1f5f70f4053c5ff5e134f6b79d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 879a3d46a806f9e1ade138887d47de0573dbcc7889e8eab9f0afa614441ef554
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139031"
 ---
 # <a name="remote-desktop-protocol-provider-enumerations"></a>遠端桌面通訊協定提供者列舉
 
@@ -55,28 +55,28 @@ ms.locfileid: "104507237"
 
 </dd> <dt>
 
-[**WTS \_ CERT \_ 類型**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_cert_type)
+[**WTS \_憑證 \_ 類型**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_cert_type)
 </dt> <dd>
 
 包含值，這些值會指定用來取得授權的憑證類型。
 
 </dd> <dt>
 
-[**WTS \_ 登入 \_ 錯誤 \_ 重新導向程式 \_ 回應**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response)
+[**WTS \_登入 \_ 錯誤 \_ 重新導向程式 \_ 回應**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response)
 </dt> <dd>
 
 包含值，這些值會指定通訊協定對登入錯誤的慣用回應。
 
 </dd> <dt>
 
-[**WTS \_ RCM \_ 清空 \_ 狀態**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_rcm_drain_state)
+[**WTS \_RCM \_ 清空 \_ 狀態**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_rcm_drain_state)
 </dt> <dd>
 
 包含遠端桌面工作階段主機 (RD 工作階段主機) server 的清空狀態相關資訊。
 
 </dd> <dt>
 
-[**WTS \_ RCM \_ 服務 \_ 狀態**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_rcm_service_state)
+[**WTS \_RCM \_ 服務 \_ 狀態**](/windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_rcm_service_state)
 </dt> <dd>
 
 包含遠端桌面服務服務狀態的相關資訊。
@@ -99,9 +99,9 @@ ms.locfileid: "104507237"
 [遠端桌面通訊協定提供者聯集](custom-remote-protocol-unions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0d017b4eaf460b5d5b7ecb8a0bd79201ac8bdee
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b02e404992e8fca98eba41f5ea85571160582827816a945d7ab8db505b28ba0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067268"
 ---
 # <a name="error_status_t-attribute"></a>錯誤 \_ 狀態 \_ t 屬性
 
@@ -89,7 +89,7 @@ ms.locfileid: "104312218"
 [**long**](long.md)
 </dt> <dt>
 
-[**擴展**](out-idl.md)
+[**out**](out-idl.md)
 </dt> <dt>
 
 [**著**](typedef.md)
@@ -98,9 +98,9 @@ ms.locfileid: "104312218"
 [**符號**](unsigned.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 22190b75-417c-49d3-83fe-546018fb61ea
 title: 處理常式語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 411c50b8d12a74312c8b0a843ea300d23e278e88
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5171a1de095faa0c3362a7998903d31f90eb630e51c5ec16e7e77d467117715c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260608"
 ---
 # <a name="handler-syntax"></a>處理常式語法
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3db64d7fb06ed8bfb7ba8c2483eb413f3f01a224
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f10710c5a16feb946caa78394d5e57e5d7d4884a50d45dc3e37291f40e7d283
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119455878"
 ---
 # <a name="diskquotacontrollogquotalimit-property"></a>DiskQuotaControl. LogQuotaLimit 屬性
 

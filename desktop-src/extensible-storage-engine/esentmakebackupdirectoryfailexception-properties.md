@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102250
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 71394824914d69394087a1419d779f253e41cee5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f91763e9d8b7b10c18cd3f60ef67a1afde7f5b3a95a6a7adfdf1f52fe687b31d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040836"
 ---
 # <a name="esentmakebackupdirectoryfailexception-properties"></a>EsentMakeBackupDirectoryFailException 屬性
 

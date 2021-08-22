@@ -15,16 +15,16 @@ keywords:
 - 介面，IItemContainerProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55246abde51e7053bf0c3266ccbe9c2b080b2fe7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f69c0407a8f167a3a89b908c1b5555a9d32363b38b3ce5ab4d1794e726666a8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413450"
 ---
 # <a name="itemcontainer-control-pattern"></a>>itemcontainer 控制項模式
 
-描述執行 [**IItemContainerProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iitemcontainerprovider)的方針和慣例，包括方法的相關資訊。 **>itemcontainer** 控制項模式用來支援專案虛擬化。
+描述執行 [**IItemContainerProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iitemcontainerprovider)的方針和慣例，包括方法的相關資訊。 **>Itemcontainer** 控制項模式用來支援專案虛擬化。
 
 包含大量子專案的控制項可以使用虛擬化來有效率地管理專案。 利用虛擬化，控制項在任何指定時間只會在記憶體中維護完整的資訊。 通常，子集只會包含使用者目前可見的專案。 其餘虛擬化專案的完整資訊會保存在儲存體中，並載入記憶體中或已實現（例如，當使用者可以看到新專案時）。
 
@@ -85,15 +85,15 @@ ms.locfileid: "103672659"
 
 
 
-| 必要成員                                                               | 成員類型 | 備註 |
+| 必要成員                                                               | 成員類型 | 附註 |
 |--------------------------------------------------------------------------------|-------------|-------|
 | [**FindItemByProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iitemcontainerprovider-finditembyproperty) | 方法      | 無  |
 
 
 
- 
+ 
 
-**>itemcontainer** 控制項模式沒有相關聯的屬性或事件。
+**>Itemcontainer** 控制項模式沒有相關聯的屬性或事件。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -111,9 +111,9 @@ ms.locfileid: "103672659"
 [VirtualizedItem 控制項模式](uiauto-implementingvirtualizeditem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101024
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 37dc8dd0800ef2291c3bac277c4e7d21077cbe7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e689e9803812ad8192f2a116cfc3d82933e7f95a5d9122a25f1b155b55deaac9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117438"
 ---
 # <a name="esentbackupabortbyserverexception-members"></a>EsentBackupAbortByServerException 成員
 

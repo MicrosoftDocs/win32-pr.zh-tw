@@ -4,21 +4,21 @@ ms.assetid: 4C86618D-4E79-486E-997F-9E2509FBF6B6
 title: Winsock 目錄變更追蹤詳細資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6258ca87d5d1fba2de9364e5524110bb43c76513
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae8d949caf94d3b7bbbef32945c97cb3f1db258f798b84280570712ef5299cd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051336"
 ---
 # <a name="winsock-catalog-change-tracing-details"></a>Winsock 目錄變更追蹤詳細資料
 
 > [!Note]  
-> 已淘汰分層服務提供者。 從 Windows 8 和 Windows Server 2012 開始，請使用 [Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md)。
+> 已淘汰分層服務提供者。 從 Windows 8 和 Windows Server 2012 開始，請使用[Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md)。
 
  
 
-適用于多層式服務提供者 (Lsp) 的 Winsock 目錄變更事件追蹤，與 LSP 安裝、LSP 移除、LSP 停用和 Winsock 類別目錄重設作業有關。 下列所有事件都會寫入至 *Microsoft windows-Winsock-WS2HELP/Operational* 通道，這與記錄在 Windows Vista 和更新版本上的其他 Winsock 網路事件追蹤不同。
+適用于多層式服務提供者 (Lsp) 的 Winsock 目錄變更事件追蹤，與 LSP 安裝、LSP 移除、LSP 停用和 Winsock 類別目錄重設作業有關。 下列所有事件都會寫入至 *Microsoft Windows winsock WS2HELP/操作* 通道，不同于登入 Windows Vista 和更新版本的其他 Winsock 網路事件追蹤。
 
 以下將詳細說明每個可追蹤的 Winsock LSP 事件，以及描述所記錄的參數和資訊。
 
@@ -36,12 +36,12 @@ ms.locfileid: "104114288"
 
 
 
-| 參數                                                                                                | Description                                                                                                                                                             |
+| 參數                                                                                                | 描述                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="LSP_Name"></span><span id="lsp_name"></span><span id="LSP_NAME"></span>LSP 名稱<br/>     | 從所安裝的 LSP 之 [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)結構的 **SZPROTOCOL** 成員取得的 LSP 名稱。<br/> |
 | <span id="Catalog"></span><span id="catalog"></span><span id="CATALOG"></span>目錄<br/>         | Winsock 目錄 (32 位或64位) 安裝 LSP 的位置。 這是一個整數值，也就是32或64。<br/>                                   |
 | <span id="Installer"></span><span id="installer"></span><span id="INSTALLER"></span>安裝<br/> | 讓 LSP 安裝呼叫的應用程式模組檔案名。<br/>                                                                                          |
-| <span id="GUID"></span><span id="guid"></span>Guid<br/>                                            | 要在其中安裝 LSP 之 Winsock 傳輸提供者的 GUID 值。<br/>                                                                      |
+| <span id="GUID"></span><span id="guid"></span>GUID<br/>                                            | 要在其中安裝 LSP 之 Winsock 傳輸提供者的 GUID 值。<br/>                                                                      |
 | <span id="Category"></span><span id="category"></span><span id="CATEGORY"></span>類別<br/>     | 要安裝的 LSP 之 [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)結構的 **dwCatalogEntryId** 成員。<br/>                                |
 
 
@@ -62,12 +62,12 @@ ms.locfileid: "104114288"
 
 
 
-| 參數                                                                                                | Description                                                                                                                                                           |
+| 參數                                                                                                | 描述                                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="LSP_Name"></span><span id="lsp_name"></span><span id="LSP_NAME"></span>LSP 名稱<br/>     | 從要移除的 LSP 之 [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)結構的 **SZPROTOCOL** 成員取得的 LSP 名稱。<br/> |
 | <span id="Catalog"></span><span id="catalog"></span><span id="CATALOG"></span>目錄<br/>         | Winsock 目錄 (32 位或64位) ，其中 LSP 正在移除。 這是一個整數值，也就是32或64。<br/>                                   |
 | <span id="Installer"></span><span id="installer"></span><span id="INSTALLER"></span>安裝<br/> | 讓 LSP 移除呼叫的應用程式模組檔案名。<br/>                                                                                         |
-| <span id="GUID"></span><span id="guid"></span>Guid<br/>                                            | 將 LSP 移除的 Winsock 傳輸提供者的 GUID 值。<br/>                                                                             |
+| <span id="GUID"></span><span id="guid"></span>GUID<br/>                                            | 將 LSP 移除的 Winsock 傳輸提供者的 GUID 值。<br/>                                                                             |
 | <span id="Category"></span><span id="category"></span><span id="CATEGORY"></span>類別<br/>     | 要移除的 LSP 之 [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)結構的 **dwCatalogEntryId** 成員。<br/>                                |
 
 
@@ -88,12 +88,12 @@ ms.locfileid: "104114288"
 
 
 
-| 參數                                                                                                | Description                                                                                                                                                            |
+| 參數                                                                                                | 描述                                                                                                                                                            |
 |----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="LSP_Name"></span><span id="lsp_name"></span><span id="LSP_NAME"></span>LSP 名稱<br/>     | 針對正在停用的 LSP，從 [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)結構的 **SZPROTOCOL** 成員取得的 LSP 名稱。<br/> |
 | <span id="Catalog"></span><span id="catalog"></span><span id="CATALOG"></span>目錄<br/>         | Winsock 目錄 (32 位或64位) 在 LSP 正在停用的位置。 這是一個整數值，也就是32或64。<br/>                                   |
 | <span id="Installer"></span><span id="installer"></span><span id="INSTALLER"></span>安裝<br/> | 讓 LSP 停用呼叫的應用程式模組檔案名。<br/>                                                                                         |
-| <span id="GUID"></span><span id="guid"></span>Guid<br/>                                            | 要停用 LSP 之 Winsock 傳輸提供者的 GUID 值。<br/>                                                                           |
+| <span id="GUID"></span><span id="guid"></span>GUID<br/>                                            | 要停用 LSP 之 Winsock 傳輸提供者的 GUID 值。<br/>                                                                           |
 | <span id="Category"></span><span id="category"></span><span id="CATEGORY"></span>類別<br/>     | 正在停用的 LSP 之 [**WSAPROTOCOL \_ 資訊**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)結構的 **dwCatalogEntryId** 成員。<br/>                                |
 
 
@@ -114,7 +114,7 @@ Winsock 類別目錄重設事件會記錄下列參數：
 
 
 
-| 參數                                                                                        | Description                                                                                                              |
+| 參數                                                                                        | 描述                                                                                                              |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | <span id="Catalog"></span><span id="catalog"></span><span id="CATALOG"></span>目錄<br/> | 要重設的 (32 位或64位) 的 Winsock 目錄。 這是一個整數值，也就是32或64。<br/> |
 

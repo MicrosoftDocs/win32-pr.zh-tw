@@ -4,12 +4,12 @@ ms.assetid: 0e51b7a6-53a0-4e92-9bed-f8e4f8ffd5a1
 title: 沒有 Unicode 版本的函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dec2ed214b2e5f2bd0156c0465ecd5d4a5ffc2ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d248bd34066e0e79922de32e430e51b753ed6195e9ada0f02cfbdc145ba2cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140581"
 ---
 # <a name="functions-without-unicode-versions"></a>沒有 Unicode 版本的函式
 

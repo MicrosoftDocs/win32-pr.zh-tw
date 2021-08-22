@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 413b119f250bfbd061301391fee7741362979f65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10a6d0576cefd1c28e8f05fe455b89be90dcd36386b4312ef1921511616bce2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005486"
 ---
 # <a name="ichaincontextfreecontext-method"></a>IChainCoNtext：： FreeCoNtext 方法
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。\]
 
 **FreeCoNtext** 方法會釋放 \_ \_ 透過 [**ChainCoNtext**](ichaincontext-chaincontext.md)屬性取得的 PCCERT 鏈內容。
 

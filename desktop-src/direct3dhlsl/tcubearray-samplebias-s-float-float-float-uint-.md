@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4bcd5b2239a8b2d219fde28b1c9a00a693906b5c
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 4bc3ccc761c1674ab9fd05c322ef905c910ae45afd73d86bdc28ff91dc7ef83d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106981415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119367368"
 ---
 # <a name="samplebiassamplebiassfloatfloatfloatuint-function-for-texturecubearray"></a>TextureCubeArray 的 SampleBias：： SampleBias (S、float、float、float、uint) 函數
 

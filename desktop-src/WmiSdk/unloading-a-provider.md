@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 卸載提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 123d8c4f6b9d9155cdc22dc435635466956bdb0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b831f69ba27ab3e173920cc57e7500ef543bb327a04dc5c04dc8b0b9cef31ad0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049956"
 ---
 # <a name="unloading-a-provider"></a>卸載提供者
 

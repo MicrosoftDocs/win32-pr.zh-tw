@@ -4,12 +4,12 @@ ms.assetid: 3ff6191f-d3c0-4bd3-946e-c3fbf68f368c
 title: WPD_CONTENT_TYPE_CONTACT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3fed10e0abb36a482141e5c796f5494b00b99f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a8354aa444f476e7c0b64d2e3d14d474c6eea02f90e8313c20073db2d0368fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083332"
 ---
 # <a name="wpd_content_type_contact"></a>WPD \_ 內容 \_ 類型 \_ 連絡人
 
@@ -119,7 +119,7 @@ ms.locfileid: "106985294"
 
 
 
-| 資源名稱                                                       | 必要或選擇性       | Description                        |
+| 資源名稱                                                       | 必要或選擇性       | 描述                        |
 |---------------------------------------------------------------------|----------------------------|------------------------------------|
 | [**WPD \_ 資源 \_ 預設**](wpd-resource-default.md)              | 選擇性。                  | 包含連絡人資料。         |
 | [**WPD \_ 資源 \_ 連絡人 \_ 相片**](wpd-resource-contact-photo.md) | 建議使用（如果有的話）。 | 包含連絡人的圖片。 |

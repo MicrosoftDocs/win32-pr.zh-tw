@@ -4,18 +4,18 @@ ms.assetid: 8e416d5d-a47d-4f46-8069-d0a82963a8f2
 title: ProcessingMethod
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c911b1dbf77ac869554e6263863e7843e355854
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ddac09b3635001204845c7b95fa0e1c50291d9b5e5f820d93eab33665df8690
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119352808"
 ---
 # <a name="systemgpsprocessingmethod"></a>ProcessingMethod
 
 表示用於尋找位置之方法的名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

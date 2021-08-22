@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 0e284840a078b2dac782aecaacae5490f4a06b27
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bb6cf5a36bc25763dd2bb05d57b3d6b9186b9dec95c903de40b58700f5859127
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070018"
 ---
 # <a name="process_v0-class"></a>進程 \_ V0 類別
 

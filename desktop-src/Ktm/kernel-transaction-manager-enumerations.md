@@ -4,12 +4,12 @@ ms.assetid: 0f320709-fe59-4577-be32-1a02ce9841b0
 title: 核心交易管理員列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fa7f08676b01634b1d0d8050b5a2a2d5dd35199
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 599d91c6159d8c0f3330a839990992be07cb96a51170ced1140eff7764311902
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290028"
 ---
 # <a name="kernel-transaction-manager-enumerations"></a>核心交易管理員列舉
 

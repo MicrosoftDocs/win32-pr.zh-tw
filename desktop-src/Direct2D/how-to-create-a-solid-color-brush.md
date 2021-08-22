@@ -5,12 +5,12 @@ ms.assetid: 70700b82-2294-46be-b1c0-fc89def441e2
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: bc6fbf5df42386f5e0e5a843a1906d36d4fc8c71
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 395652a33f8541a825bab9f2ababcceb4b31d7c8d46458a08148e63c85b2afff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259450"
 ---
 # <a name="how-to-create-a-solid-color-brush"></a>如何建立純色筆刷
 
@@ -65,6 +65,6 @@ ms.locfileid: "103933321"
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

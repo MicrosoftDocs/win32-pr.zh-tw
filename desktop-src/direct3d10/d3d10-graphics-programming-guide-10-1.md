@@ -4,12 +4,12 @@ ms.assetid: e60c6116-e2f9-46b7-aed8-13e3e5ae2b90
 title: Direct3D 10.1 功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99935941f60a984407c688e4ae67f0a125b0130d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f674cc3ff5763fde77c13a3dac4a86a03d8bf8373bd5b34e9ffa74b21f563a47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119371428"
 ---
 # <a name="direct3d-101-features"></a>Direct3D 10.1 功能
 
@@ -43,7 +43,7 @@ Direct3D 10.1 以下列新功能擴充 Direct3D 10.0 的功能集：
 
 新功能需要10.1 裝置類型 (查看 [**ID3D10Device1 介面**](/windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10device1)) 可透過呼叫 [**D3D10CreateDevice1**](/windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdevice1)來建立，也可以藉由呼叫 [**D3D10CreateDeviceAndSwapChain1**](/windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdeviceandswapchain1)同時建立裝置和交換鏈。
 
-在 Windows Vista Service Pack 1 中，Direct3D 10.0 和 Direct3D 10.1 Dll 會並存于系統上。 若要存取10.1 功能，請執行下列其中一項：
+在 Windows Vista Service Pack 1 中，direct3d 10.0 和 direct3d 10.1 dll 會並存于系統上。 若要存取10.1 功能，請執行下列其中一項：
 
 ## <a name="accessing-101-features-on-vista-gold-and-vista-service-pack-1"></a>存取 Vista 黃金和 Vista Service Pack 1 上的10.1 功能
 

@@ -4,12 +4,12 @@ ms.assetid: 481fdc45-82db-4128-93de-388562f636e9
 title: 排序封包、檔案資料表和媒體資料表中的檔案序號
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07f9cd530d90fb0ef4d805b8ff2c96398cd97e55
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 87f64558a570c7184da36feba8aeea6d2a7dc32c0d8add4c6963dece131c4849
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106998186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119327864"
 ---
 # <a name="ordering-file-sequence-numbers-in-a-cabinet-file-table-and-media-table"></a>排序封包、檔案資料表和媒體資料表中的檔案序號
 
@@ -17,7 +17,7 @@ ms.locfileid: "106998186"
 
 例如，假設檔案的 [順序] 資料行中輸入了92的序號。 為了判斷此檔案所在的來源磁片，安裝程式會檢查媒體資料表的記錄是否有最小 LastSequence 值大於92的專案。 DiskId 資料行是媒體資料表的主要索引鍵，而此欄位可唯一識別資料表中的磁片。
 
-Windows Installer 封裝的檔案資料表中可列出的檔案數目上限為32767個檔案。 若要建立包含更多檔案的 Windows Installer 套件，請參閱 [撰寫大型封裝](authoring-a-large-package.md)。
+Windows Installer 封裝的檔案資料表中可列出的檔案數目上限為32767個檔案。 若要建立包含更多檔案的 Windows Installer 套件，請參閱[撰寫大型封裝](authoring-a-large-package.md)。
 
 封裝作者可以壓縮原始程式檔並將它們包含在封包檔中，以縮減其安裝套件的大小。 來源檔案映射可以是壓縮、未壓縮或混合兩種類型。 如需壓縮和未壓縮來源的詳細資訊，請參閱 [壓縮和未](compressed-and-uncompressed-sources.md)壓縮的來源。 壓縮的來源檔案必須儲存在封包檔中。 封包內的壓縮檔案有自己的內部序號。 這些內部序號的值不需要符合 File 資料表內序號的值。 但是，檔案資料表中指定的檔案順序必須與封包內的實際檔案順序相同。 未壓縮檔案的序號不需要是唯一的。 例如，如果所有檔案都已解壓縮且位於一個磁片上，則檔案資料表中的所有檔案都可以有相同的序號。
 

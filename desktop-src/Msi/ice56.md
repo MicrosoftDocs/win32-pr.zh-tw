@@ -1,19 +1,19 @@
 ---
-description: ICE56 會驗證 .msi 檔案的目錄結構是否具有單一根目錄、根目錄是 TARGETDIR 屬性，以及 SourceDir 屬性值是否在目錄資料表的 DefaultDir 資料行中。
+description: ICE56 會驗證 .msi 檔的目錄結構是否具有單一根目錄、根目錄是 TARGETDIR 屬性，以及 SourceDir 屬性值是否在目錄資料表的 DefaultDir 資料行中。
 ms.assetid: 6fbb51ff-64fc-40b7-852f-490c93e592c0
 title: ICE56
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c0b83dc20c8463b80375d325dd9225de8524742
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70c1feb3e3dbab84a58809496b28a60d3a2436c3041d3a2d58f0ac8f2b5e47a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528218"
 ---
 # <a name="ice56"></a>ICE56
 
-ICE56 會驗證 .msi 檔案的目錄結構是否具有單一根目錄、根目錄是 [**TARGETDIR**](targetdir.md) 屬性，以及 [**SourceDir**](sourcedir.md) 屬性值是否在 [目錄資料表](directory-table.md)的 DefaultDir 資料行中。
+ICE56 會驗證 .msi 檔的目錄結構是否具有單一根目錄、根目錄是 [**TARGETDIR**](targetdir.md) 屬性，以及 [**SourceDir**](sourcedir.md) 屬性值是否在 [目錄資料表](directory-table.md)的 DefaultDir 資料行中。
 
 如果 .msi 檔案有多個根目錄或指定 [**TARGETDIR**](targetdir.md)以外的根目錄， [系統管理安裝](administrative-installation.md) 不會建立正確的系統管理映射。
 

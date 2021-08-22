@@ -4,12 +4,12 @@ ms.assetid: 31512657-c413-9e6e-e343-1ea677a02b8c
 title: 程式庫內部
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f7c1843a83a81e7acac241c66dd18ff26217569
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: f26d2a6171a14abebbec0665233c66f873ed7ede2c3b8f01fb70ed406ffea33b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118148"
 ---
 # <a name="library-internals"></a>程式庫內部
 
@@ -18,7 +18,7 @@ ms.locfileid: "111827232"
 -   [呼叫慣例](#calling-conventions)
 -   [圖形程式庫類型等價](#graphics-library-type-equivalence)
 -   [DirectXMath 程式庫中的全域常數](#global-constants-in-the-directxmath-library)
--   [Windows SSE 與 SSE2](#windows-sse-versus-sse2)
+-   [WindowsSSE 與 SSE2](#windows-sse-versus-sse2)
 -   [常式變數](#routine-variants)
 -   [平臺不一致](#platform-inconsistencies)
 -   [平臺特定的擴充功能](#platform-specific-extensions)
@@ -28,21 +28,21 @@ ms.locfileid: "111827232"
 
 若要增強可攜性並將資料版面配置優化，您必須針對 DirectXMath 程式庫所支援的每個平臺使用適當的呼叫慣例。 具體而言，當您傳遞 [**XMVECTOR**](xmvector-data-type.md) 物件做為參數（定義為在16位元組界限上對齊）時，會有不同的呼叫需求集合，視目標平臺而定：
 
-**適用于32位 Windows**
+**若為32位 Windows**
 
-針對32位的 Windows，有兩個呼叫慣例可用來有效率地傳遞 [ \_ \_ m128](/cpp/cpp/m128)值， (可在該平臺) 上執行 [**XMVECTOR**](xmvector-data-type.md) 。 標準是 [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall)，它可以傳遞前三個 [ \_ \_ m128](/cpp/cpp/m128)值 (**XMVECTOR** 實例，) 為 *SSE/SSE2* 登錄中函式的引數。 [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall)會透過堆疊傳遞其餘的引數。
+針對32位 Windows，有兩個呼叫慣例可用來有效率地傳遞 [ \_ \_ m128](/cpp/cpp/m128)值， (可在該平臺) 上執行 [**XMVECTOR**](xmvector-data-type.md) 。 標準是 [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall)，它可以傳遞前三個 [ \_ \_ m128](/cpp/cpp/m128)值 (**XMVECTOR** 實例，) 為 *SSE/SSE2* 登錄中函式的引數。 [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall)會透過堆疊傳遞其餘的引數。
 
 較新的 Microsoft Visual Studio 編譯器支援新的呼叫慣例 \_ \_ vectorcall，最多可傳遞六個 [ \_ \_ m128](/cpp/cpp/m128)值 ([**XMVECTOR**](xmvector-data-type.md)實例) 為 *SSE/SSE2* 暫存器中函式的引數。 如果有足夠的空間，也可以透過 *SSE/SSE2* 暫存器，傳遞異類向量匯總 (也稱為 [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) 。
 
-**適用于 Windows 的64位版本**
+**若為64位版本的 Windows**
 
-針對64位的 Windows，有兩個呼叫慣例可用來有效率地傳遞[ \_ \_ m128](/cpp/cpp/m128)值。 標準是[ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall)，它會傳遞堆疊上的所有[ \_ \_ m128](/cpp/cpp/m128)值。
+針對64位 Windows，有兩個呼叫慣例可用來有效率地傳遞[ \_ \_ m128](/cpp/cpp/m128)值。 標準是[ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall)，它會傳遞堆疊上的所有[ \_ \_ m128](/cpp/cpp/m128)值。
 
 較新的 Visual Studio 編譯器支援 \_ \_ vectorcall 呼叫慣例，其最多可傳遞六個 [ \_ \_ m128](/cpp/cpp/m128)值 ([**XMVECTOR**](xmvector-data-type.md)實例) 為 *SSE/SSE2* 登錄中函式的引數。 如果有足夠的空間，也可以透過 *SSE/SSE2* 暫存器，傳遞異類向量匯總 (也稱為 [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) 。
 
-**適用于 ARM 上的 Windows**
+**ARM 上的 Windows**
 
-ARM 上的 Windows & ARM64 支援將前四個 \_ \_ n128 值傳遞 ([**XMVECTOR**](xmvector-data-type.md)實例) 在註冊中。
+ARM 上的 Windows & ARM64 支援將前四個 \_ \_ n128 值傳遞 () 在註冊中的 [**XMVECTOR**](xmvector-data-type.md)實例。
 
 **DirectXMath 解決方案**
 
@@ -92,7 +92,7 @@ XMMATRIX XM_CALLCONV XMMatrixMultiplyTranspose(FXMMATRIX M1, CXMMATRIX M2);
 
 為了支援這些呼叫慣例，這些類型的別名定義如下 (參數必須以傳值方式傳遞給編譯器，以將其視為內建的傳遞) ：
 
-**適用于32位 Windows 應用程式**
+**若為32位 Windows 應用程式**
 
 當您使用 \_ \_ fastcall 時：
 
@@ -122,7 +122,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 
 
-**適用于64位原生 Windows 應用程式**
+**針對64位原生 Windows 應用程式**
 
 當您使用 \_ \_ fastcall 時：
 
@@ -172,7 +172,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 ## <a name="graphics-library-type-equivalence"></a>圖形程式庫類型等價
 
-為了支援使用 DirectXMath 程式庫，許多 DirectXMath 程式庫類型和結構都相當於 **D3DDECLTYPE** 和 **D3DFORMAT** 類型的 Windows 實作為，以及 [**DXGI \_ 格式**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 類型。
+為了支援使用 DirectXMath 程式庫，許多 DirectXMath 程式庫類型和結構都相當於 **D3DDECLTYPE** 和 **D3DFORMAT** 類型的 Windows 執行，以及 [**DXGI \_ 格式**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)類型。
 
 | DirectXMath                      | D3DDECLTYPE                                                                           | D3DFORMAT                                                     | DXGI \_ 格式                                                                                                                                                                                            |
 |----------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -227,12 +227,12 @@ typedef const XMMATRIX& CXMMATRIX;
 
 這些內部全域常數可能會在未來的 DirectXMath 程式庫修訂中變更。 使用可封裝常數的公用函式（可能的話），而不是直接使用 **g \_ XM** 全域值。 您也可以使用 [XMGLOBALCONST](xmglobalconst.md)宣告您自己的全域常數。
 
-## <a name="windows-sse-versus-sse2"></a>Windows SSE 與 SSE2
+## <a name="windows-sse-versus-sse2"></a>WindowsSSE 與 SSE2
 
 SSE 指令集僅提供單精確度浮點向量的支援。 DirectXMath 必須利用 SSE2 指令集來提供整數向量支援。 自 Pentium 4、所有 AMD K8 和更新版本的處理器，以及所有 x64 支援的處理器推出之後，所有 Intel 處理器都支援 SSE2。
 
 > [!Note]  
-> X86 或更新版本的 Windows 8 需要支援 SSE2。 所有版本的 Windows x64 都需要 SSE2 的支援。 ARM/ARM64 上的 Windows 需要 ARM \_ 霓虹燈。
+> x86 或更新版本的 Windows 8 需要支援 SSE2。 所有版本的 Windows x64 都需要 SSE2 的支援。 arm/ARM64 上的 Windows 需要 arm \_ 霓虹燈。
 
  
 
@@ -246,7 +246,7 @@ SSE 指令集僅提供單精確度浮點向量的支援。 DirectXMath 必須利
 
 ## <a name="platform-inconsistencies"></a>平臺不一致
 
-DirectXMath 程式庫是要用於效能相關的圖形應用程式和遊戲中。 因此，其設計目的是為了在所有支援的平臺上進行正常處理的最佳速度。 界限條件的結果，尤其是產生浮點數特殊的結果，可能會因目標而異。 此行為也將取決於其他執行時間設定，例如 Windows 32 位的非內建函式目標的 x87 控制字組，或 Windows 32 位和64位的 SSE 控制字組。 此外，不同 CPU 廠商之間的界限條件之間會有差異。
+DirectXMath 程式庫是要用於效能相關的圖形應用程式和遊戲中。 因此，其設計目的是為了在所有支援的平臺上進行正常處理的最佳速度。 界限條件的結果，尤其是產生浮點數特殊的結果，可能會因目標而異。 此行為也將取決於其他執行時間設定，例如 Windows 32 位的無內建函式目標的 x87 控制字組，或 Windows 32 位和64位的 SSE 控制字組。 此外，不同 CPU 廠商之間的界限條件之間會有差異。
 
 請勿在科學或其他應用程式中使用 DirectXMath，其中數位精確度是最重要的。 此外，這項限制會反映在缺少雙或其他延伸精確度計算的支援。
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 725691dd39b271894558567fb4f86511f75e2589
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5eb7e08b1b59899c25445373ba07d72ea9851ad4269365270b3b2ebdcd4223ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083762"
 ---
 # <a name="wmt_videoimage_transition_cross_fade"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 交叉 \_ 淡化
 

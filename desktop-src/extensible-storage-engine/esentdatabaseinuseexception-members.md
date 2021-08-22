@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101494
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 63af6426c75f64de5031296286130f4a67f92ced
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f318387745c0fec9dafe653a7c94d7fd24047bf436d804850e4785c47f2fcf51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041606"
 ---
 # <a name="esentdatabaseinuseexception-members"></a>EsentDatabaseInUseException 成員
 

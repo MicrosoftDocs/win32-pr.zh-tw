@@ -4,19 +4,19 @@ ms.assetid: 49bdfdfa-c77e-4a57-8079-bf4ff6b5010b
 title: Microsoft Message Queuing (MSMQ) 改善的佇列處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f7b7b00cfce68a183d7925f7cfab5ff7ab54b9b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ec4de125062dfdd705165e83e8a34d2bc0ef595eb08b6152d37aed5520e9ed39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053056"
 ---
 # <a name="microsoft-message-queuing-msmq---improved-queue-handling"></a>Microsoft Message Queuing (MSMQ) 改善的佇列處理
 
 ## <a name="platforms"></a>平台
 
 **客戶** 端-Windows 7  
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
 
 
@@ -35,11 +35,11 @@ ms.locfileid: "108088156"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 MSMQ 服務不會對可在系統上建立的佇列數目施加硬性限制。 但是，當建立大量的佇列時，系統的效能會受到影響。 具體來說，當有超過一千個佇列時，MSMQ 服務的啟動時間會以指數方式增加，而產生明顯的影響。
 
-Microsoft 已將 Windows 7 中的 MSMQ 服務優化，以降低將佇列載入至記憶體的查閱負荷。 即使在系統中建立了數千個佇列，這項優化也導致 MSMQ 服務的啟動時間大幅改進。
+Microsoft 已優化 Windows 7 中的 MSMQ 服務啟動，以降低將佇列載入至記憶體的查閱負荷。 即使在系統中建立了數千個佇列，這項優化也導致 MSMQ 服務的啟動時間大幅改進。
 
 ## <a name="manifestation-of-impact"></a>影響的表現
 

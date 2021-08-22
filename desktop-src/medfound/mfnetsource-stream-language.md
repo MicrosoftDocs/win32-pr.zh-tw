@@ -4,12 +4,12 @@ ms.assetid: b6ac613c-099b-4415-84ad-c0f8ad5f667b
 title: 'MFNETSOURCE_STREAM_LANGUAGE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 200c49d4a14146277c66fbb3389cf1ba6ab13fef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c44b6f55fd2f5652a41d9aa5eed76e60e73152343d2baf6c577be56bc462c94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119344538"
 ---
 # <a name="mfnetsource_stream_language-property"></a>MFNETSOURCE \_ 資料流程 \_ 語言屬性
 
@@ -23,11 +23,11 @@ PROPVARIANT 類型 (vt)
 
 PROPVARIANT 成員
 
-**WCHAR \** _
+**WCHAR\***
 
 VT \_ LPWSTR
 
-_ *pwszVal**
+**pwszVal**
 
 
 
@@ -41,8 +41,8 @@ MFNETSOURCE \_ 資料流程 \_ 語言常數會定義屬性索引鍵的 GUID。  
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

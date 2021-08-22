@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 907e94a731b2ec150a331347480c461d0d0fa319
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92fdcb9c6eff502dc5f19cb62d92af5d4db60e15890667c894f96cfb55a9e5ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132911"
 ---
 # <a name="winhttprequest-object"></a>WinHttpRequest 物件
 
@@ -106,7 +106,7 @@ var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 
 
-| 屬性                                                            | 存取類型           | Description                                                                     |
+| 屬性                                                            | 存取類型           | 描述                                                                     |
 |:--------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------|
 | [**選項**](iwinhttprequest-option.md)<br/>                 | 讀取/寫入<br/> | 設定或抓取 WinHTTP 選項值。<br/>                            |
 | [**ResponseBody**](iwinhttprequest-responsebody.md)<br/>     | 唯讀<br/>  | 以不帶正負號的位元組陣列形式捕獲回應實體主體。<br/>    |
@@ -121,10 +121,10 @@ var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 ## <a name="remarks"></a>備註
 
-**WinHttpRequest** 物件會使用 [**IErrorInfo**](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo)介面來提供錯誤資料。 您可以使用 Microsoft Visual Basic Scripting Edition (VBScript) 中的 [Err](/previous-versions//sbf5ze0e(v=vs.85)) 物件和 microsoft JScript 中的 [error](https://msdn.microsoft.com/library/dww52sbt.aspx) 物件，取得描述和數值錯誤值。 錯誤號碼的較低16位會對應到在 [**錯誤訊息**](error-messages.md)中找到的值。
+**WinHttpRequest** 物件會使用 [**IErrorInfo**](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo)介面來提供錯誤資料。 您可以使用 microsoft Visual Basic 腳本 Edition 中的[Err](/previous-versions//sbf5ze0e(v=vs.85))物件來取得描述和數值錯誤值 (VBScript) 以及 microsoft JScript 中的[error](https://msdn.microsoft.com/library/dww52sbt.aspx)物件。 錯誤號碼的較低16位會對應到在 [**錯誤訊息**](error-messages.md)中找到的值。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 [執行時間需求](winhttp-start-page.md)。
+> 如 Windows XP 和 Windows 2000，請參閱[執行時間需求](winhttp-start-page.md)。
 
  
 
@@ -134,10 +134,10 @@ var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WinHTTP .lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
 

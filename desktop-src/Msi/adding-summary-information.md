@@ -4,12 +4,12 @@ ms.assetid: 9775959f-5ab2-43cd-8cc8-9d81945b4ec6
 title: 新增摘要資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd26486e0082a05b05fbdc9609881083e10cddb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1dc43ba8df737fb4d7c30998ec6c9581376df6ef6274140e68ec767e3a416f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328578"
 ---
 # <a name="adding-summary-information"></a>新增摘要資訊
 
@@ -38,7 +38,7 @@ ms.locfileid: "104115385"
 | [**主體**](subject-summary.md)                           | MNP2000                                                                          | 檔案瀏覽器可以將此資料庫顯示為與此資料庫一起安裝的產品。                                  |
 | [**關鍵字**](keywords-summary.md)                         | 安裝程式、MSI、資料庫                                                         | 能夠搜尋關鍵字的檔案瀏覽器可以搜尋這些字。                                    |
 | [**作者**](author-summary.md)                             | Microsoft Corporation                                                            | 產品製造商的名稱。                                                                                |
-| [**註解**](comments-summary.md)                         | 此安裝程式資料庫包含安裝 [記事本] 所需的邏輯和資料。 | 通知使用者此資料庫的用途。                                                                  |
+| [**註解**](comments-summary.md)                         | 此安裝程式資料庫包含安裝記事本所需的邏輯和資料。 | 通知使用者此資料庫的用途。                                                                  |
 | [**正在建立應用程式**](creating-application-summary.md) | 逆 戟 鯨                                                                             | 用來建立安裝資料庫的應用程式。 此範例會將 Orca 資料庫編輯器指定為範例。 |
 | [**安全性**](security-summary.md)                         | 0                                                                                | 範例資料庫是不受限制的讀寫。                                                                    |
 
@@ -50,7 +50,7 @@ ms.locfileid: "104115385"
 
 例如，若要使用 MsiInfo 將摘要資訊新增至範例，請變更至包含資料庫的目錄，然後使用下列命令列。 請勿重複使用範例套件識別碼，如下所示。
 
-**Msiinfo.exe MNP2000.msi-T "安裝資料庫"-J 主旨-A "Microsoft Corporation"-K "安裝程式，MSI，資料庫"-O "此安裝程式資料庫包含安裝 Notepad 所需的邏輯與資料。"-P; 1033-V {4966AEC4-3C59-4B07-9B98-1B6A7103C0D3}-G 200-W 0-N Orca-U 0**
+**Msiinfo.exe MNP2000.msi-T "安裝資料庫"-J 主旨-A "Microsoft Corporation"-K "安裝程式，MSI，資料庫"-O "此安裝程式資料庫包含安裝記事本所需的邏輯和資料。"-P; 1033-V {4966AEC4-3C59-4B07-9B98-1B6A7103C0D3}-G 200-W 0-N Orca-U 0**
 
 如需摘要資訊的詳細資訊，請參閱 [關於摘要](about-the-summary-information-stream.md)資訊資料流程、 [使用摘要資訊資料流程](using-the-summary-information-stream.md)，以及 [摘要資訊資料流程參考](summary-information-stream-reference.md)。
 

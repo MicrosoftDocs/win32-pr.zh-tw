@@ -4,12 +4,12 @@ ms.assetid: 61ae3f25-c807-4b9c-897e-2b65d4e7cd2e
 title: DbgHelp 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ffc430f02b1d330bef01372777ea04ef9a6f44a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c868d5487b9804cdc28bd2e4ed2f57de79d6fd759e85639f0a8682180919127
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343968"
 ---
 # <a name="dbghelp-structures"></a>DbgHelp 結構
 

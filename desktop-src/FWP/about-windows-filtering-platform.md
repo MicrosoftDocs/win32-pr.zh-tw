@@ -1,25 +1,25 @@
 ---
 title: 關於 Windows 篩選平台
-description: Windows 篩選平台 (WFP) 是一種網路流量處理平臺，其設計目的是取代 Windows XP 和 Windows Server 2003 網路流量篩選介面。
+description: Windows篩選 Platform (WFP) 是一種網路流量處理平臺，其設計目的是要取代 Windows XP 和 Windows Server 2003 網路流量篩選介面。
 ms.assetid: 6faad008-b2f6-4f45-89c7-ae98c2f58ce1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ab259eca1da714bbeb8d4ea556e69513f33514c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 01a81f4f67c2f3281a6fa6b5d3220f9e2157643dfd7cf3bac34ea55743024946
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069488"
 ---
 # <a name="about-windows-filtering-platform"></a>關於 Windows 篩選平台
 
-Windows 篩選平台 (WFP) 是一種網路流量處理平臺，其設計目的是取代 Windows XP 和 Windows Server 2003 網路流量篩選介面。 WFP 是由一組網路堆疊的勾點所組成，以及一個可協調網路堆疊互動的篩選引擎。
+Windows篩選 Platform (WFP) 是一種網路流量處理平臺，其設計目的是要取代 Windows XP 和 Windows Server 2003 網路流量篩選介面。 WFP 是由一組網路堆疊的勾點所組成，以及一個可協調網路堆疊互動的篩選引擎。
 
 ## <a name="the-wfp-components"></a>WFP 元件
 
 ### <a name="filter-engine"></a>篩選引擎
 
-核心多層篩選基礎結構（裝載于核心模式和使用者模式）會取代 Windows XP 和 Windows Server 2003 網路子系統中的多個篩選模組。
+以核心模式和使用者模式裝載的核心多層篩選基礎結構，會取代 Windows XP 和 Windows Server 2003 網路子系統中的多個篩選模組。
 
 -   針對填充碼可以提供的任何資料欄位，篩選系統中任何層級的網路流量。
 -   藉由在分類期間叫用標注來執行「標注」篩選。
@@ -28,7 +28,7 @@ Windows 篩選平台 (WFP) 是一種網路流量處理平臺，其設計目的�
 
 ### <a name="base-filtering-engine-bfe"></a>基礎篩選引擎 (BFE) 
 
-控制 Windows 篩選平台操作的服務。 它會執行下列工作。
+控制 Windows 篩選平台之操作的服務。 它會執行下列工作。
 
 -   接受平臺的篩選器和其他設定。
 -   報告系統目前的狀態，包括統計資料。
@@ -48,7 +48,7 @@ Windows 篩選平台 (WFP) 是一種網路流量處理平臺，其設計目的�
 
 ### <a name="callouts"></a>圖說文字
 
-驅動程式所公開並用於特殊篩選的函式集合。 除了「允許」和「封鎖」的基本動作之外，標注還可以修改和保護輸入和輸出網路流量。 如需有關注解的詳細資訊，請參閱 Windows 驅動程式套件 (WDK) 檔中的 [Windows 篩選平台標注驅動程式](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2) 主題。 WFP 提供內建的標注，可完成下列工作。<br/>
+驅動程式所公開並用於特殊篩選的函式集合。 除了「允許」和「封鎖」的基本動作之外，標注還可以修改和保護輸入和輸出網路流量。 如需有關注解的詳細資訊，請參閱 Windows 驅動程式套件 (WDK) 檔中的[Windows 篩選平台標注驅動程式](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2)主題。 WFP 提供內建的標注，可完成下列工作。<br/>
 
 -   執行 IPsec 處理。
 -   調整具狀態的篩選行為。

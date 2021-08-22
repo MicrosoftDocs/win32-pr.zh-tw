@@ -4,12 +4,12 @@ ms.assetid: d6dd73e7-657f-4f71-8e9b-70369cb21972
 title: 'D (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d76378d636c8ae14acdc9cb882c31840e3f1550f
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: c9a2e1099386a2da176eb899c7974c60244636f6da1384543bde4975ba3a18c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119289668"
 ---
 # <a name="d-windows-installer"></a>D (Windows Installer) 
 
@@ -34,7 +34,7 @@ ms.locfileid: "112010931"
 <span id="setup.delta_patch_gly"></span><span id="SETUP.DELTA_PATCH_GLY"></span>**delta patch**
 </dt> <dd>
 
-Delta patch 是使用支援差異壓縮的工具（例如 Patchwiz.dll）所建立的差異壓縮 Windows Installer 修補程式。 使用差異壓縮的修補程式可以減少更新的大小，方法是在目的電腦上的現有檔案和所需的新檔案之間提供差異)  (差異。 然後從現有的檔案和下載的差異合成所需的新檔案。 如需差異壓縮技術的詳細資訊，請參閱 [差異壓縮應用程式開發介面](https://msdn.microsoft.com/library/ms811406.aspx)。
+delta patch 是使用支援差異壓縮的工具（例如 Patchwiz.dll）所建立的差異壓縮 Windows Installer 修補程式。 使用差異壓縮的修補程式可以減少更新的大小，方法是在目的電腦上的現有檔案和所需的新檔案之間提供差異)  (差異。 然後從現有的檔案和下載的差異合成所需的新檔案。 如需差異壓縮技術的詳細資訊，請參閱 [差異壓縮應用程式開發介面](https://msdn.microsoft.com/library/ms811406.aspx)。
 
 </dd> </dl>
 

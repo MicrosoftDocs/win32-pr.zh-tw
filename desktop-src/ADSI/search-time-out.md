@@ -7,12 +7,12 @@ keywords:
 - 搜尋即時 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cdfdc63dd4490a840a16eb61598b2461c3e1a40
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e99b287c1bc0ba0da5e39b579c4a454eae821cf2c443930a5ae0376412e2c00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082302"
 ---
 # <a name="search-time-out"></a>搜尋超時
 
@@ -26,9 +26,9 @@ ms.locfileid: "104300059"
 -   [使用 ActiveX Data Objects 搜尋](searching-with-activex-data-objects-ado.md)
 -   [使用 OLE DB 搜尋](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 
 
 
 

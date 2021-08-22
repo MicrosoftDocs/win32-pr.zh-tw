@@ -4,12 +4,12 @@ ms.assetid: 693b195e-1e69-4895-87dd-59714646cff9
 title: ICE58
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 152e3a528506861107bfc3c2d64c48935ea7320e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0be8cec8fda3a3ddc1efce397dfbd17a95a2baf37ab0392eb8e5ffd08c7df4a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528228"
 ---
 # <a name="ice58"></a>ICE58
 

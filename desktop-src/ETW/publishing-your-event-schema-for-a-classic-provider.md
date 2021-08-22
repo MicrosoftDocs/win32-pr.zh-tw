@@ -4,12 +4,12 @@ ms.assetid: eb3d8422-2352-47cf-9825-cba9916791a9
 title: 發佈傳統提供者的事件架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f51cfd30d0c9d73841ca906fb81e9d544dec88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6607e2e9b940df5afd6e8070e9235fe40566ef2b6d2b31b3c14656756835bab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069818"
 ---
 # <a name="publishing-your-event-schema-for-a-classic-provider"></a>發佈傳統提供者的事件架構
 
@@ -47,7 +47,7 @@ ms.locfileid: "104318528"
 | **sint64**， **uint64** | **格式**                        | 宣告8位元組的十進位整數。 若要指示數位是十六進位數位，請使用 **格式** 辨識符號，並將其值設定為 "x"。                                                                                                                                                                                |
 | **boolean**            |                                   | 宣告布林值。 事件取用者應該將值以 BOOL (4 位元組整數) 來解讀。                                                                                                                                                                                                                        |
 | **char16**             |                                   | 宣告寬字元。 事件取用者應該將核心事件中的 char16 陣列轉譯為寬字元字串。  (使用陣列大小來複製字串。 某些字串可能會包含開頭的 Null 字元。 )                                                                                                       |
-| **object**             | **分機**                     | 宣告二進位 blob。 **延伸** 模組辨識符號表示 blob 中的資料類型。                                                                                                                                                                                                                              |
+| **object**             | **延伸模組**                     | 宣告二進位 blob。 **延伸** 模組辨識符號表示 blob 中的資料類型。                                                                                                                                                                                                                              |
 | **string**             | **Format**、 **StringTermination** | 宣告字串值。 若要指出字串是寬字元字串，請使用 **格式** 辨識符號，並將其值設定為 "w"。 如果您未指定 **格式** 辨識符號，則字串會被視為 ANSI 字串。 若要指出字串的結束方式，請使用 **StringTermination** 限定詞。 <br/> |
 
 
@@ -97,7 +97,7 @@ class MyCategory_MyEvent : MyCategory
 
 請注意，提供者、事件和事件種類 MOF 類別名稱在整個命名空間中必須是唯一的。 若要避免命名衝突，您應該針對所有類別名稱使用唯一和描述性名稱。 類別屬性在其類別階層中也應該具有描述性和唯一的，也就是包含與父類別相同屬性名稱的子類別，會覆寫父類別的屬性。
 
-定義您的 MOF 類別之後，請使用 MOF 編譯器來產生您的事件架構，並將它新增至 CIM 存放庫。 接著，取用者可以從存放庫讀取架構，並以程式設計方式讀取事件資料。 如需 MOF 語法和使用 MOF 編譯器 (Mofcomp.exe) 將 MOF 類別新增至 CIM 存放庫的完整說明，請參閱 [受控物件格式](../wmisdk/managed-object-format--mof-.md)。 如需使用 Wbemtest.exe 來存取 CIM 存放庫的詳細資訊，請參閱 [Windows Management Instrumentation](../wmisdk/wmi-start-page.md) (WMI) 。
+定義您的 MOF 類別之後，請使用 MOF 編譯器來產生您的事件架構，並將它新增至 CIM 存放庫。 接著，取用者可以從存放庫讀取架構，並以程式設計方式讀取事件資料。 如需 MOF 語法和使用 MOF 編譯器 (Mofcomp.exe) 將 MOF 類別新增至 CIM 存放庫的完整說明，請參閱 [受控物件格式](../wmisdk/managed-object-format--mof-.md)。 如需使用 Wbemtest.exe 來存取 CIM 存放庫的詳細資訊，請參閱[Windows Management Instrumentation](../wmisdk/wmi-start-page.md) (WMI) 。
 
 ## <a name="versioning-mof-class"></a>版本設定 MOF 類別
 

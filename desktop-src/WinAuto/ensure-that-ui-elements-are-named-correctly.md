@@ -4,12 +4,12 @@ description: 本主題說明在 Microsoft Win32 應用程式中指定 UI 元素�
 ms.assetid: 5b8f23cb-9906-4cc4-83d4-73fdf96ed681
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4db3c4f1fc129aea9b793bac1935d678645b28fc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 98c047228159e011ffa9a0842f1748ee07e6af4a49ff296ae8ed65b494b8c53f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052758"
 ---
 # <a name="ensuring-that-ui-elements-are-correctly-named"></a>確定 UI 元素的命名正確
 
@@ -153,7 +153,7 @@ END
 
 ## <a name="how-to-use-direct-annotation-to-specify-the-name-property"></a>如何使用直接注釋來指定名稱屬性
 
-Microsoft Active Accessibility 執行時間元件中包含的預設 proxy Oleacc.dll，會自動為所有標準 Windows 控制項提供 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 物件。 如果您自訂標準的 Windows 控制項，預設 proxy 會為您的自訂控制項正確提供所有 **IAccessible** 屬性。 您應徹底測試自訂控制項，以確保預設 proxy 會提供精確且完整的屬性值。 如果測試顯示不正確或不完整的屬性值，您可以使用稱為直接注釋的動態注釋技術來提供正確的屬性值，並新增遺漏的屬性值。
+Microsoft Active Accessibility 執行時間元件中包含的預設 proxy Oleacc.dll，會自動為所有標準 Windows 控制項提供 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)物件。 如果您自訂標準 Windows 控制項，則預設 proxy 會盡可能精確地提供自訂控制項的所有 **IAccessible** 屬性。 您應徹底測試自訂控制項，以確保預設 proxy 會提供精確且完整的屬性值。 如果測試顯示不正確或不完整的屬性值，您可以使用稱為直接注釋的動態注釋技術來提供正確的屬性值，並新增遺漏的屬性值。
 
 請注意，動態注釋不只是 Microsoft Active Accessibility proxy 所支援的控制項。 您也可以使用它來修改或提供任何提供自身 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 執行的控制項屬性。
 
@@ -170,7 +170,7 @@ Microsoft Active Accessibility 執行時間元件中包含的預設 proxy Oleacc
     > [!Note]  
     > 若要定義 Guid，您必須在相同的檔案中包含 Initguid 之前的 Oleacc。
 
-     
+     
 
 2.  藉由呼叫 [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) 函式（通常是在應用程式初始化過程中），初始化元件物件模型 (COM) 程式庫。
 3.  建立目標控制項之後 (通常會在 [WM \_ INITDIALOG](../dlgbox/wm-initdialog.md) 訊息) 期間，建立注釋管理員的實例，並取得其 [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) 指標的指標。
@@ -272,6 +272,6 @@ HRESULT RemoveAnnotatedNameFromControl(HWND hDlg, HWND hwndCtl)
 [測試控管](testing-tools.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

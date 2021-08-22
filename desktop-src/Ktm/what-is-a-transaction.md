@@ -4,12 +4,12 @@ ms.assetid: b3da52a3-1c52-4577-a997-7e72ebc03fa8
 title: 什麼是交易？
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0c459462d3aee3d7eef556ce0951ede537e8109
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f04a21eaec081a42e1cd4bcd60cb7cf48d609075eec772ed18fd41494c47d1c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119289718"
 ---
 # <a name="what-is-a-transaction"></a>什麼是交易？
 

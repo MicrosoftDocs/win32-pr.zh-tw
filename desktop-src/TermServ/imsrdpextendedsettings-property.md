@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eadc8ce59e5a2bd50a4e61ad75b5124b24c21b8
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 7deeb0e4d6d0f393bae09bacc9ff6709defe51bf6ca6128cbeb64e2f4f6e35cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "103687352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138501"
 ---
 # <a name="imsrdpextendedsettingsproperty-property"></a>IMsRdpExtendedSettings：:P roperty 屬性
 
@@ -53,7 +53,7 @@ HRESULT get_Property(
 
 已命名的屬性值。
 
-| 屬性名稱 | 資料類型 | Access | 可以在連接開始之後變更 | Description |
+| 屬性名稱 | 資料類型 | Access | 可以在連接開始之後變更 | 描述 |
 |----------|-----------|--------|-----------------------------------------|-------------|
 | ConnectToChildSession | **VT \_ BOOL** | 讀取/寫入 | Yes | 將這個屬性設定為 **True** ，會導致用戶端控制項連接到本機電腦上的子會話，而不是遠端伺服器。 如果這個屬性設定為 **true**，您就無法連接到遠端伺服器，因為所有連接都會重新導向至 localhost。 如需子會話的詳細資訊，請參閱 [子會話](child-sessions.md)。 |
 | DisableCredentialsDelegation | **VT \_ BOOL** | 讀取/寫入 | No | 若 **為 True**，則不會將認證傳送至遠端伺服器。 |
@@ -61,7 +61,7 @@ HRESULT get_Property(
 | EnableHardwareMode | **VT \_ BOOL**  | 僅限寫入 | No | 若 **為 True**，則會嘗試進行圖形解碼的硬體協助。 |
 | IgnoreCursors | **VT \_ BOOL** | 僅限寫入 | No | 若 **為 True**，則會忽略遠端伺服器傳送的資料指標。 |
 | ManualClipboardSyncEnabled | **VT \_ BOOL** | 讀取/寫入 | Yes | 將此屬性設定為 **True** 表示本機和遠端寫字板將不會自動保持同步。相反地，您必須使用 [**IMsRdpClipboard**](imsrdpclipboard.md) 介面，將剪貼簿格式從本機剪貼簿同步到遠端剪貼簿，並將遠端剪貼簿同步至本機剪貼簿。 |
-| ZoomLevel | **_VT \_ UI4_* | 讀取/寫入 | Yes | 使用 RDP ActiveX 控制項來實行縮放功能。 您可以從 RDP 的 **系統** 功能表使用 [縮放] 功能。 **ZoomLevel** 屬性在 RemoteApp 模式和全螢幕模式中沒有任何作用。 [**IMsRdpClientAdvancedSettings：： SmartSizing**](imsrdpclientadvancedsettings-smartsizing.md) 和 **ZoomLevel** 彼此互斥。 |
+| ZoomLevel | ***VT \_ UI4** | 讀取/寫入 | Yes | 使用 RDP ActiveX 控制項來實行縮放功能。 您可以從 RDP 的 **系統** 功能表使用 [縮放] 功能。 **ZoomLevel** 屬性在 RemoteApp 模式和全螢幕模式中沒有任何作用。 [**IMsRdpClientAdvancedSettings：： SmartSizing**](imsrdpclientadvancedsettings-smartsizing.md) 和 **ZoomLevel** 彼此互斥。 |
 
 ## <a name="requirements"></a>規格需求
 

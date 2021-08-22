@@ -4,12 +4,12 @@ ms.assetid: 6d3f0a7a-051b-4057-9ca8-87e4d9f2524d
 title: XMFLOAT2 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80c547856d5adbe5c46a61a0576e31cc769a6db9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cba6868dd02a2539ab25da4d71ef936bc79af9dfdfd5477afecbe60dd0caed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118485"
 ---
 # <a name="xmfloat2-extensions"></a>XMFLOAT2 延伸模組
 

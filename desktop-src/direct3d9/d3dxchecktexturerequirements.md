@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d4fdc0998bfda2144e900c099919bc75c01e8ee3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4c7166f981c0351054a2a6c359127a4ce1959b45a6e71c44db9e2546825bc5f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496098"
 ---
 # <a name="d3dxchecktexturerequirements-function"></a>D3DXCheckTextureRequirements 函式
 

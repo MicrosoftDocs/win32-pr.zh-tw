@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1306283b098922706f39abc7ffe2514d2fba0e5c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 83250450a0510949267ffd52f17e6e9013a646d40229efcf7d5bcc7a396e1b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119372078"
 ---
 # <a name="id3dxeffectstatemanagersetlight-method"></a>ID3DXEffectStateManager：： SetLight 方法
 

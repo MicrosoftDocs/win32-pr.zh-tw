@@ -4,18 +4,18 @@ ms.assetid: f896a441-dd25-498b-b199-a2be9584381b
 title: System. ParsingBindCoNtext
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a59094e0a0a83646d6b835a1101f7fff951f1ef1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e42eda4fb23ab1a405a3eea14bac9b79abed3b064f621ace72968cdefb3d9de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033366"
 ---
 # <a name="systemparsingbindcontext"></a>System. ParsingBindCoNtext
 
 用來取得要剖析之專案的 [**IBindCtx**](/windows/win32/api/objidl/nn-objidl-ibindctx) 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

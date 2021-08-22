@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d469f9764b5e377e5f47227d3414f246441d3505
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ddd071e40d3c017a513eb0e85efb634df530a8686afaf7df59b922602d37f22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119455968"
 ---
 # <a name="dfm_mergecontextmenu-message"></a>DFM \_ MERGECONTEXTMENU 訊息
 

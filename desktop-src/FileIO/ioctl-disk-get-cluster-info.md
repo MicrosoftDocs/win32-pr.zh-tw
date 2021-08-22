@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntdddisk.h
-ms.openlocfilehash: 613c73c2fd82e76768b0fc692b63b0761938a342
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3acf923a9f0288bd3fe3a0b12d4c61b71437f61c1c4f96a3a3bef1af5f05fd95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068678"
 ---
 # <a name="ioctl_disk_get_cluster_info-control-code"></a>IOCTL \_ 磁片 \_ 取得 \_ 叢集 \_ 資訊控制項程式碼
 
@@ -125,7 +125,7 @@ DeviceIoControl( (HANDLE)       hDevice,         // handle to device
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Ntdddisk。h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cd029e47799483dfbc8ac398d44a6f7a79521b2e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e707c0219c209ba43a086d41b186cf7e6fe0d9218215b485d9106bbfec0454a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108100086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119333038"
 ---
 # <a name="setpowerstate-method-of-the-cim_parallelcontroller-class"></a>CIM ParallelController 類別的 SetPowerState 方法 \_
 

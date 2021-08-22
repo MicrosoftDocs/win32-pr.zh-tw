@@ -4,12 +4,12 @@ ms.assetid: b529b38c-a25c-42dd-aee1-5d263c94202d
 title: Stream 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c41cee586737e131d4a32508b9ba6dd9ef1bd3b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec8da9f317137904a87356bbdcc10dc68357513cf168a0b7b7ea46398ed47a81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072382"
 ---
 # <a name="stream-control"></a>Stream 控制項
 

@@ -4,12 +4,12 @@ ms.assetid: 953ddfc4-6126-41fb-81a3-0ce1f0fb223f
 title: 使用頁面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66c12c99ada03dca1e17c72c2a5f0d5360b6a98d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e47e8a352b13c12b38acca1a93f12886d83d24c4d43faa213a88cf5855b18c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067658"
 ---
 # <a name="working-with-pages"></a>使用頁面
 

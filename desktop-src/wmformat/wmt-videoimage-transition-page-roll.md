@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4167395dbe00242af42f30713438f33e88f2dda
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 05df18c3b17e127d910450a34895483215b87f7ee428a44ff7f062501cc74e5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083742"
 ---
 # <a name="wmt_videoimage_transition_page_roll"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 頁面 \_ 滾動
 
@@ -41,7 +41,7 @@ ms.locfileid: "106990531"
 <tr class="header">
 <th>參數</th>
 <th>結構成員</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

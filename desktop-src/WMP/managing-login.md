@@ -20,12 +20,12 @@ keywords:
 - 登入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 633042692ab9193f46ab83415df13237d3a279e8
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 698385f2d5a618899bd4fe440db5a552859c7647ceb2ae11e02b773c96479d52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135171"
 ---
 # <a name="managing-login"></a>管理登入
 
@@ -45,13 +45,13 @@ Windows Media Player 支援各種不同的方法，讓使用者登入類型1線�
 
 1.  使用者藉由與 Windows Media Player 使用者介面互動或與探索頁面互動，來起始登入嘗試。
 2.  Windows Media Player 會顯示一個對話方塊，提示使用者輸入使用者名稱和密碼。
-3.  當使用者按一下對話方塊中的 [登 **入** ] 按鈕時，Windows Media Player 會呼叫 [IWMPContentPartner：： Login](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-login)（由線上商店的外掛程式所執行）。
+3.  當使用者按一下對話方塊中的 [登 **入**] 按鈕時，Windows Media Player 會呼叫 [IWMPContentPartner：： Login](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-login)（由線上商店的外掛程式所執行）。
 4.  外掛程式會與線上存放區通訊，且成功或無法登入使用者。
-5.  如果登入嘗試成功，則外掛程式會藉由呼叫 **IWMPContentPartnerCallback：： Notify** 來通知 Windows Media Player，並 \_ 在 *pCoNtext* 參數的 **boolVal** 成員中傳遞 VARIANT TRUE。 如果登入嘗試失敗，外掛程式會藉由呼叫 **IWMPContentPartnerCallback：： Notify** 來通知 Windows Media Player，並在 *PCoNtext* 參數的 **ulVal** 成員中傳遞32位值。 然後，播放程式會將該32位值傳遞給 [IWMPContentPartner：： GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) ，以取得可處理失敗之網頁的 URL。
+5.  如果登入嘗試成功，則外掛程式會藉由呼叫 **IWMPContentPartnerCallback：： Notify** 來通知 Windows Media Player，並 \_ 在 *pCoNtext* 參數的 **boolVal** 成員中傳遞 VARIANT TRUE。 如果登入嘗試失敗，外掛程式會藉由呼叫 **IWMPContentPartnerCallback：： Notify** 來通知 Windows Media Player，並在 *pCoNtext* 參數的 **ulVal** 成員中傳遞32位值。 然後，播放程式會將該32位值傳遞給 [IWMPContentPartner：： GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) ，以取得可處理失敗之網頁的 URL。
 
 ## <a name="alternative-login"></a>替代登入
 
-如果 \_ \_ 已在線上商店外掛程式的 [ **功能** ] 登錄專案中設定訂用帳戶上限 ALTLOGIN 旗標，Windows Media Player 不會使用 [標準登入] 對話方塊。 相反地，Windows Media Player 會呼叫 **IWMPContentPartner：： GetItemInfo** 來取得執行登入程式之網頁的 URL。 如需 **功能** 登錄專案的詳細資訊，請參閱 [類型1線上商店的登錄機碼和專案](registry-keys-and-entries-for-a-type-1-online-store.md)。
+如果 \_ \_ 已在線上商店外掛程式的 [**功能**] 登錄專案中設定訂用帳戶上限 ALTLOGIN 旗標，Windows Media Player 不會使用 [標準登入] 對話方塊。 相反地，Windows Media Player 會呼叫 **IWMPContentPartner：： GetItemInfo** 來取得執行登入程式之網頁的 URL。 如需 **功能** 登錄專案的詳細資訊，請參閱 [類型1線上商店的登錄機碼和專案](registry-keys-and-entries-for-a-type-1-online-store.md)。
 
 播放程式會呼叫 **GetItemInfo** 兩次：一次傳遞 g \_ szItemInfo \_ ALTLoginURL 以抓取登入網頁的 URL，以及通過 g \_ szItemInfo \_ ALTLoginCaption 來取得裝載網頁之視窗的標題。 當 **GetItemInfo** 傳回登入網頁的 url 時，可以將下列參數字串附加至 URL，以指定登入視窗的大小：
 
@@ -78,7 +78,7 @@ https://proseware.com/AltLogin.htm?DlgX=800&DlgY=400
 登出進程包含下列步驟。
 
 1.  使用者藉由與 Windows Media Player 使用者介面互動或與探索頁面互動，來起始登出嘗試。
-2.  Windows Media Player 會呼叫 [IWMPContentPartner：：登出](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-logout)，這是由線上商店的外掛程式所執行。
+2.  Windows Media Player 會呼叫[IWMPContentPartner：：登出](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-logout)，這是由線上商店的外掛程式所執行。
 3.  外掛程式會與線上商店通訊，而且會成功或無法登出使用者。
 4.  如果登入嘗試成功，外掛程式會藉由呼叫 **IWMPContentPartnerCallback：： Notify** 來通知 Windows Media Player，並 \_ 在 *pCoNtext* 參數的 **boolVal** 成員中傳遞 VARIANT FALSE。
 
@@ -106,9 +106,9 @@ https://proseware.com/AltLogin.htm?DlgX=800&DlgY=400
 [**類型1線上商店的程式設計指南**](programming-guide-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

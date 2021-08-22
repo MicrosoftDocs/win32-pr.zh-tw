@@ -9,220 +9,220 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 30d7c5c275317a4330836cecf67a5fbed4f8747b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e375c3df67ab377ee81c0b120975ea34d84b182077b5282e1e5af13112be7fc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032846"
 ---
 # <a name="deprecated-shell-apis"></a>已過時的命令介面 API
 
 \[[**FOLDERSETDATA**](/windows/win32/api/shdeprecated/ns-shdeprecated-foldersetdata)可能會在作業系統或產品的後續版本中變更或無法使用。\]
 
-\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在後續版本的 Windows 中改變或無法使用。 \]
+\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在 Windows 的後續版本中變更或無法使用。 \]
 
-\[這項功能可在 Windows 2000 和 Windows XP Service Pack 2 (SP2) 中使用。 Windows Vista 不再提供此功能。\]
+\[這項功能可在 Windows 2000 和 Windows XP Service Pack 2 (SP2) 中取得。 Windows Vista 不再提供此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來使用此函式。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[此函式可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[[**CharLowerWrapW**](charlowerwrapw.md) 可用於 Windows XP。 在後續版本中可能無法使用。 您應該在其位置使用 [**CharLowerW**](/windows/win32/api/winuser/nf-winuser-charlowera) 。\]
+\[[**CharLowerWrapW**](charlowerwrapw.md)可在 Windows XP 中使用。 在後續版本中可能無法使用。 您應該在其位置使用 [**CharLowerW**](/windows/win32/api/winuser/nf-winuser-charlowera) 。\]
 
-\[[**CharUpperBuffWrapW**](charupperbuffwrapw.md) 可用於 Windows XP。 在後續版本中可能無法使用。 您應該在其位置使用 [**CharUpperBuffW**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) 。\]
+\[[**CharUpperBuffWrapW**](charupperbuffwrapw.md)可在 Windows XP 中使用。 在後續版本中可能無法使用。 您應該在其位置使用 [**CharUpperBuffW**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) 。\]
 
-\[[**CompareStringWrapW**](comparestringwrapw.md) 可用於 Windows XP。 在後續版本中將無法使用。 您應該在其位置使用 [**CompareStringW**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) 。\]
+\[[**CompareStringWrapW**](comparestringwrapw.md)可在 Windows XP 中使用。 在後續版本中將無法使用。 您應該在其位置使用 [**CompareStringW**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) 。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來使用此函式。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[此函式可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[從 Windows Vista 起，無法使用此函式。\]
+\[這項功能在 Windows Vista 中無法使用。\]
 
 \[此函式已被取代，而且可能會在後續版本中變更或無法使用。\]
 
-\[[**爸爸 \_AutoScroll**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll)可在 windows 2000 和 WINDOWS XP 中使用。 它可能會在後續版本中變更或無法使用。\]
+\[[**爸爸 \_AutoScroll**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll)可在 Windows 2000 和 Windows XP 中取得。 它可能會在後續版本中變更或無法使用。\]
 
-\[[**爸爸 \_DragEnterEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex)可在 windows 2000 和 WINDOWS XP 中使用。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ system.windows.dragdrop.dragenter>**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) 。 \]
+\[[**爸爸 \_DragEnterEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex)可在 Windows 2000 和 Windows XP 中取得。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ system.windows.dragdrop.dragenter>**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) 。 \]
 
-\[[**爸爸 \_DragEnterEx2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2)可在 windows 2000 和 WINDOWS XP 中使用。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ system.windows.dragdrop.dragenter>**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) 。\]
+\[[**爸爸 \_DragEnterEx2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2)可在 Windows 2000 和 Windows XP 中取得。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ system.windows.dragdrop.dragenter>**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) 。\]
 
-\[[**爸爸 \_DragLeave**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave)可在 windows 2000 和 WINDOWS XP 中使用。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ DragLeave**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragleave) 。\]
+\[[**爸爸 \_DragLeave**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave)可在 Windows 2000 和 Windows XP 中取得。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ DragLeave**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragleave) 。\]
 
-\[[**爸爸 \_DragMove**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove)可在 windows 2000 和 WINDOWS XP 中使用。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ DragMove**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragmove) 。 \]
+\[[**爸爸 \_DragMove**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove)可在 Windows 2000 和 Windows XP 中取得。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ DragMove**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragmove) 。 \]
 
-\[[**爸爸 \_SetDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage)可在 windows 2000 和 WINDOWS XP 中使用。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ BeginDrag**](/windows/win32/api/commctrl/nf-commctrl-imagelist_begindrag) 。\]
+\[[**爸爸 \_SetDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage)可在 Windows 2000 和 Windows XP 中取得。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ BeginDrag**](/windows/win32/api/commctrl/nf-commctrl-imagelist_begindrag) 。\]
 
-\[[**爸爸 \_ShowDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage)可在 windows 2000 和 WINDOWS XP 中使用。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ DragShowNolock**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragshownolock) 。 \]
+\[[**爸爸 \_ShowDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage)可在 Windows 2000 和 Windows XP 中取得。 它可能會在後續版本中變更或無法使用。 請改用 [**ImageList \_ DragShowNolock**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragshownolock) 。 \]
 
 \[這個函式只是為了回溯相容性而保留。 請改用 [**ExpandEnvironmentStrings**](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) 。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來使用此函式。 它可能會在後續版本的 Windows 中改變或無法使用。 \]
+\[此函式可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。 \]
 
-\[這項功能可在 Windows XP SP2 和 Windows Vista 上使用。 它可能會在後續版本的 Windows 中改變或無法使用。 用戶端應用程式應該改用 [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) 來呈現可透過電子郵件和郵件附件安全地下載和交換檔案的使用者環境。\]
+\[這項功能可在 Windows XP SP2 到 Windows Vista 上使用。 它可能會在 Windows 的後續版本中變更或無法使用。 用戶端應用程式應該改用 [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) 來呈現可透過電子郵件和郵件附件安全地下載和交換檔案的使用者環境。\]
 
-\[[**FindResourceWrapW**](findresourcewrapw.md) 可用於 Windows XP。 在後續版本中可能無法使用。 您應該改為使用 [**FindResourceW**](/windows/win32/api/winbase/nf-winbase-findresourcea) 。\]
+\[[**FindResourceWrapW**](findresourcewrapw.md)可在 Windows XP 中使用。 在後續版本中可能無法使用。 您應該改為使用 [**FindResourceW**](/windows/win32/api/winbase/nf-winbase-findresourcea) 。\]
 
-\[[**GetDateFormatWrapW**](getdateformatwrapw.md) 可用於 Windows XP。 在後續版本中將無法使用。 您應該在其位置使用 [**GetDateFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformata) 。\]
+\[[**GetDateFormatWrapW**](getdateformatwrapw.md)可在 Windows XP 中使用。 在後續版本中將無法使用。 您應該在其位置使用 [**GetDateFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformata) 。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[[**GetTimeFormatWrapW**](gettimeformatwrapw.md) 可用於 Windows XP。 在後續版本中可能無法使用。 您應該在其位置使用 [**GetTimeFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) 。\]
+\[[**GetTimeFormatWrapW**](gettimeformatwrapw.md)可在 Windows XP 中使用。 在後續版本中可能無法使用。 您應該在其位置使用 [**GetTimeFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) 。\]
 
-\[[**GUIDFromString**](guidfromstring.md)可透過 WINDOWS XP SP2 或 windows Vista 取得。 它可能會在後續版本中變更或無法使用。 應用程式應該使用 [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) 或 [**IIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-iidfromstring) 來取代此函式。\]
+\[[**GUIDFromString**](guidfromstring.md)可透過 Windows XP SP2 或 Windows Vista 取得。 它可能會在後續版本中變更或無法使用。 應用程式應該使用 [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) 或 [**IIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-iidfromstring) 來取代此函式。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[[**IsCharAlphaNumericWrapW**](ischaralphanumericwrapw.md) 可用於 Windows XP。 在後續版本中將無法使用。 您應該在其位置使用 [**IsCharAlphaNumericW**](/windows/win32/api/winuser/nf-winuser-ischaralphanumerica) 。\]
+\[[**IsCharAlphaNumericWrapW**](ischaralphanumericwrapw.md)可在 Windows XP 中使用。 在後續版本中將無法使用。 您應該在其位置使用 [**IsCharAlphaNumericW**](/windows/win32/api/winuser/nf-winuser-ischaralphanumerica) 。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。 請改用 [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) 或 [**WNetGetConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetconnectiona) 。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。 請改用 [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) 或 [**WNetGetConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetconnectiona) 。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此介面。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此介面。 Windows 的後續版本中可能不支援此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來使用此函式。 它可能會在後續版本的 Windows 中改變或無法使用。 請改用 [**InitCommonControlsEx**](/windows/win32/api/commctrl/nf-commctrl-initcommoncontrolsex) 。\]
+\[此函式可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。 請改用 [**InitCommonControlsEx**](/windows/win32/api/commctrl/nf-commctrl-initcommoncontrolsex) 。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來使用此函式。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[此函式可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[在 Windows 7 中無法使用此功能。\]
+\[Windows 7 無法使用此函數。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[在 Windows 7 中無法使用此功能。\]
+\[Windows 7 無法使用此函數。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
 \[這項功能可用於 Windows XP。 在後續版本中可能無法使用。 使用 [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) 的位置。\]
 
 \[[**ParseField**](parsefield.md)函式目前應可用於下一版的 Microsoft Windows 作業系統。 它可能會在後續版本中變更或無法使用。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來使用此函式。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[此函式可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來使用此函式。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[此函式可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
 \[Windows Vista 不支援此功能。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。 請改用 [**CoTaskMemAlloc**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) 。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。 請改用 [**CoTaskMemAlloc**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) 。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
 \[不支援此結構。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。 請改用 [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) 。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。 請改用 [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) 。\]
 
-\[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) 不會在 Windows XP 或更新版本的系統下執行。\]
+\[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw)不會在 Windows XP 或更新版本的系統下執行。\]
 
-\[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) 已不再于 Windows XP 或更新版本中執行。\]
+\[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw)已不再于 Windows XP 或更新版本中執行。\]
 
 \[這個函數已被取代。 請改用 [**CreateClassMoniker**](/windows/win32/api/objbase/nf-objbase-createclassmoniker) 。 請注意，用於呼叫 **CreateClassMoniker** 的 CLSID 必須是應用程式定義的。 請勿使用系統定義的 CLSID 來呼叫 **CreateClassMoniker** 。\]
 
 \[[**SHDestroyPropSheetExtArray**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shdestroypropsheetextarray)可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[[**SHExtractIconsW**](shextracticonsw.md)可透過 WINDOWS XP SP2 取得。 它可能會在後續版本中變更或無法使用。\]
+\[[**SHExtractIconsW**](shextracticonsw.md)可透過 Windows XP SP2 取得。 它可能會在後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 Windows Vista 和更新版本不支援此功能。 請改用 [**OleFlushClipboard**](/windows/win32/api/ole2/nf-ole2-oleflushclipboard) 。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 Windows Vista 和更新版本下不支援此功能。 請改用 [**OleFlushClipboard**](/windows/win32/api/ole2/nf-ole2-oleflushclipboard) 。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。 請改用 [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) 。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。 請改用 [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) 。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[[**SHGetMalloc**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetmalloc) 可透過 windows Vista 和 windows Server 2003 來取得，但可能會在作業系統或產品的後續版本中變更或無法使用。 如需替代建議，請參閱備註一節。\]
+\[[**SHGetMalloc**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetmalloc)可透過 Windows Vista 和 Windows Server 2003 提供，但可能會在作業系統或產品的後續版本中變更或無法使用。 如需替代建議，請參閱備註一節。\]
 
-\[[**SHGetShellStyleHInstance**](/previous-versions/windows/desktop/legacy/bb762202(v=vs.85)) 可用於 Windows XP 作業系統（最多到 SP2）。 它無法在較新版本的 Windows （例如 Windows Vista）中使用。\]
+\[[**SHGetShellStyleHInstance**](/previous-versions/windows/desktop/legacy/bb762202(v=vs.85))可在 Windows XP 作業系統（含 SP2）內使用。 在 Windows 的較新版本中無法使用，例如 Windows Vista。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
 \[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 Windows Vista 不支援此功能。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 Windows Vista 無法使用它。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 Windows Vista 中無法使用。\]
 
 \[不再支援此函式。\]
 
 \[不再支援此函式。\]
 
-\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來使用此函式。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[此函式可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這個物件可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這個物件可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這個物件可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這個物件可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這個物件可透過 Windows XP SP2 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這個物件可透過 Windows XP SP2 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[這個物件可透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這個物件可透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 提供。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此物件。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此物件。 Windows 的後續版本中可能不支援此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此物件。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此物件。 Windows 的後續版本中可能不支援此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此物件。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此物件。 Windows 的後續版本中可能不支援此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此物件。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此物件。 Windows 的後續版本中可能不支援此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此物件。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此物件。 Windows 的後續版本中可能不支援此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此物件。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此物件。 Windows 的後續版本中可能不支援此功能。\]
 
-\[在 Windows Server 2003 中，無法再使用 [**DoCoNtextMenuPopup**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenusite-docontextmenupopup)的唯一方法。\]
+\[Windows Server 2003 無法再使用 [**DoCoNtextMenuPopup**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenusite-docontextmenupopup)的唯一方法。\]
 
-\[這個介面已被取代。 它是透過 Windows XP SP2 和 Windows Server 2003 支援的。 Windows Vista 不支援此功能。\]
+\[這個介面已被取代。 Windows XP SP2 和 Windows Server 2003 都支援此功能。 Windows Vista 不支援此功能。\]
 
 \[[**IDeskBandInfo**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbandinfo)可能會在作業系統或產品的後續版本中變更或無法使用。\]
 
-\[您可以透過 Windows XPSP2 和 Windows Server 2003 來支援此介面。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows 的 XPSP2 和 Windows Server 2003 都支援此介面。 Windows 的後續版本中可能不支援此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此介面。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此介面。 Windows 的後續版本中可能不支援此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此介面。 Windows Vista 不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此介面。 Windows Vista 不支援此功能。\]
 
-\[[**IEnumSyncItems**](/previous-versions/windows/desktop/legacy/bb761957(v=vs.85))介面可透過 Windows XP 使用。 在後續版本的 Windows 中無法使用。\]
+\[[**IEnumSyncItems**](/previous-versions/windows/desktop/legacy/bb761957(v=vs.85))介面可透過 Windows XP 使用。 Windows 的後續版本中不提供此功能。\]
 
-\[[**IEnumSyncSchedules**](/previous-versions/windows/desktop/legacy/bb761937(v=vs.85))介面可透過 Windows XP 使用。 在後續版本的 Windows 中無法使用。\]
+\[[**IEnumSyncSchedules**](/previous-versions/windows/desktop/legacy/bb761937(v=vs.85))介面可透過 Windows XP 使用。 Windows 的後續版本中無法使用。\]
 
-\[[**IIdentityChangeNotify**](iidentitychangenotify.md)介面可用於 Windows 2000。 在 Windows XP 中，這項功能已由 [使用者帳戶取代為快速使用者切換和遠端桌面](fastuserswitching.md)，而且可能會在後續版本中變更或無法使用。\]
+\[[**IIdentityChangeNotify**](iidentitychangenotify.md)介面可用於 Windows 2000。 在 Windows XP 中，這項功能已由[使用者帳戶取代為快速使用者切換和遠端桌面](fastuserswitching.md)，而且可能會在後續版本中變更或無法使用。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此介面。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此介面。 Windows 的後續版本中可能不支援此功能。\]
 
 \[Windows Vista 不支援這個介面。 已從公用標頭中移除它。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此介面。 Windows Vista 不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此介面。 Windows Vista 不支援此功能。\]
 
-\[您可以透過 Windows XP SP2 和 Windows Server 2003 來支援此介面。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援此介面。 Windows 的後續版本中可能不支援此功能。\]
 
-\[[**IShellFolderView**](/windows/win32/api/shlobj_core/nn-shlobj_core-ishellfolderview)不再適用于 Windows 7。 相反地，請使用 [**IFolderView2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2) 和 [**IFolderView**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview)。\]
+\[Windows 7 不再提供使用 [**IShellFolderView**](/windows/win32/api/shlobj_core/nn-shlobj_core-ishellfolderview) 。 相反地，請使用 [**IFolderView2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2) 和 [**IFolderView**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview)。\]
 
-\[最終將不支援此介面。 建議使用 Windows GDI + Api 來取代 [**IShellImageData**](/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata) 方法。\]
+\[最終將不支援此介面。 建議使用 Windows GDI+ api 來取代 [**IShellImageData**](/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata)方法。\]
 
-\[[**IShellTaskScheduler2**](/previous-versions/windows/desktop/legacy/bb774852(v=vs.85)) 適用于 Windows XP。 它可能會在後續版本中變更或無法使用。\]
+\[[**IShellTaskScheduler2**](/previous-versions/windows/desktop/legacy/bb774852(v=vs.85))可在 Windows XP 中取得。 它可能會在後續版本中變更或無法使用。\]
 
-\[[**ISyncSchedule**](/previous-versions/windows/desktop/isync-schedule/bb774693(v=vs.85))介面可透過 Windows XP 使用。 在後續版本的 Windows 中無法使用。\]
+\[[**ISyncSchedule**](/previous-versions/windows/desktop/isync-schedule/bb774693(v=vs.85))介面可透過 Windows XP 使用。 Windows 的後續版本中不提供此功能。\]
 
-\[[**ISyncScheduleMgr**](/previous-versions/windows/desktop/isync-schedule-mgr/bb774672(v=vs.85))介面可透過 Windows XP 使用。 在後續版本的 Windows 中無法使用。\]
+\[[**ISyncScheduleMgr**](/previous-versions/windows/desktop/isync-schedule-mgr/bb774672(v=vs.85))介面可透過 Windows XP 使用。 Windows 的後續版本中不提供此功能。\]
 
-\[在 windows XP 之後的 Windows 版本中，可能不支援 [**ITravelEntry**](/windows/desktop/api/Shdeprecated/nn-shdeprecated-itravelentry) 。\]
+\[Windows 在 Windows XP 之前的版本中，可能不支援 [**ITravelEntry**](/windows/desktop/api/Shdeprecated/nn-shdeprecated-itravelentry) 。\]
 
-\[這項通知是透過 Windows XP SP2 和 Windows Server 2003 支援。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援這項通知。 Windows 的後續版本中可能不支援此功能。\]
 
-\[這項通知是透過 Windows XP SP2 和 Windows Server 2003 支援。 後續版本的 Windows 可能不支援此功能。\]
+\[Windows XP SP2 和 Windows Server 2003 都支援這項通知。 Windows 的後續版本中可能不支援此功能。\]
 
 以下是較新的 Api 已淘汰或取代的 Api。
 
@@ -471,7 +471,7 @@ ms.locfileid: "103689795"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/shell/callbacks"><strong>MLLoadLibrary</strong></a><br/></td>
-<td>根據使用者的預設 UI 語言，將適當的資源 DLL 對應至呼叫函式的位址空間。 <br/></td>
+<td>根據使用者的預設 UI 語言，地圖適當的資源 DLL 加入至呼叫函式的位址空間中。 <br/></td>
 </tr>
 <tr class="even">
 <td><a href="mlwinhelp.md"><strong>MLWinHelp</strong></a><br/></td>
@@ -544,11 +544,11 @@ ms.locfileid: "103689795"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-restartdialog"><strong>RestartDialog</strong></a><br/></td>
-<td>顯示對話方塊，提示使用者重新開機 Windows。 當使用者按一下按鈕時，此函式會呼叫 <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex"><strong>ExitWindowsEx</strong></a> 嘗試重新開機 Windows。<br/></td>
+<td>顯示對話方塊，提示使用者重新開機 Windows。 當使用者按一下按鈕時，此函式會呼叫<a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex"><strong>ExitWindowsEx</strong></a>以嘗試重新開機 Windows。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-restartdialogex"><strong>RestartDialogEx</strong></a><br/></td>
-<td>顯示對話方塊，要求使用者重新開機 Windows。 當使用者按一下按鈕時，此函式會呼叫 <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex"><strong>ExitWindowsEx</strong></a> 嘗試重新開機 Windows。<br/></td>
+<td>顯示對話方塊，要求使用者重新開機 Windows。 當使用者按一下按鈕時，此函式會呼叫<a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex"><strong>ExitWindowsEx</strong></a>以嘗試重新開機 Windows。<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddfrompropsheetextarray"><strong>SHAddFromPropSheetExtArray</strong></a><br/></td>
@@ -699,7 +699,7 @@ ms.locfileid: "103689795"
 <td>已取代。 取得 <a href="csidl.md"><strong>CSIDL</strong></a> 值所識別之資料夾的路徑。 <br/>
 <blockquote>
 [!Note]<br />
-從 Windows Vista 起，此函式只是 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath"><strong>SHGetKnownFolderPath</strong></a>的包裝函式。 CSIDL 值會轉譯成其相關聯的 <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> ，然後呼叫 <strong>SHGetKnownFolderPath</strong> 。 新的應用程式應該使用已知的資料夾系統，而不是較舊的 CSIDL 系統，僅支援回溯相容性。
+從 Windows Vista 起，此函式只是<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath"><strong>SHGetKnownFolderPath</strong></a>的包裝函式。 CSIDL 值會轉譯成其相關聯的 <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> ，然後呼叫 <strong>SHGetKnownFolderPath</strong> 。 新的應用程式應該使用已知的資料夾系統，而不是較舊的 CSIDL 系統，僅支援回溯相容性。
 </blockquote>
 <br/></td>
 </tr>
@@ -756,7 +756,7 @@ ms.locfileid: "103689795"
 <td>在印表機物件上執行命令。 <br/>
 <blockquote>
 [!Note]<br />
-從 Windows Vista 起，此函式已被取代。 建議您在其位置中，透過 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>ICoNtextMenu</strong></a> 或 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a>叫用印表機上的動詞命令。
+在 Windows Vista 中，此函式已被取代。 建議您在其位置中，透過 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>ICoNtextMenu</strong></a> 或 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a>叫用印表機上的動詞命令。
 </blockquote>
 <br/></td>
 </tr>
@@ -895,7 +895,7 @@ ms.locfileid: "103689795"
 </tr>
 <tr class="even">
 <td><a href="wowshellexecute.md"><strong>WOWShellExecute</strong></a><br/></td>
-<td>在指定的檔案上執行操作。 <a href="wowshellexecute.md"><strong>WOWShellExecute</strong></a> 僅適用于 Microsoft WINDOWS NT 虛擬 DOS 機器 (Ntvdm.exe) ，可讓磁片作業系統 (DOS) 和16位軟體在 Windows 系統上執行，而且不應該由其他人使用。 請改用 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> 。<br/></td>
+<td>在指定的檔案上執行操作。 <a href="wowshellexecute.md"><strong>WOWShellExecute</strong></a>僅適用于 Microsoft Windows NT 虛擬 DOS 機器 (Ntvdm.exe) ，可讓磁片作業系統 (DOS) 和16位軟體在 Windows 系統上執行，而且不應該由其他人使用。 請改用 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> 。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-writecabinetstate"><strong>WriteCabinetState</strong></a><br/></td>
@@ -903,7 +903,7 @@ ms.locfileid: "103689795"
 </tr>
 <tr class="even">
 <td><a href="shlwapi-wrappers.md"><strong>SHLWAPI 包裝函式</strong></a><br/></td>
-<td>本檔中的表格列出從 Shlwapi.dll 提供有限的 Unicode 功能給 Windows 95、Windows 98 以及 Windows Millennium Edition (Windows Me) 的包裝函式。<br/></td>
+<td>本檔中的表格列出 Shlwapi.dll 的包裝函式，提供有限的 Unicode 功能給 Windows 95、Windows 98 和 Windows Millennium Edition (Windows Me) 。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/shell/samples-namespacetreecontrol"><strong>FileOpen</strong></a><br/></td>
@@ -970,7 +970,7 @@ ms.locfileid: "103689795"
 <td>公開可以在 Windows 檔案總管詳細資料檢視中加入自訂資料行的方法。 <br/>
 <blockquote>
 [!Note]<br />
-Windows Vista 已移除對 <a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider"><strong>IColumnProvider</strong></a> 的支援。 Windows 屬性系統會用在它的位置。 如需說明如何使用新系統的概念材料，請參閱 <a href="/windows/desktop/properties/windows-properties-system">Windows 屬性系統</a> 。
+Windows Vista 已移除對<a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider"><strong>IColumnProvider</strong></a>的支援。 Windows 的屬性系統會用在它的位置。 如需說明如何使用新系統的概念材料，請參閱<a href="/windows/desktop/properties/windows-properties-system">Windows 屬性系統</a>。
 </blockquote>
 <br/></td>
 </tr>
@@ -995,7 +995,7 @@ Windows Vista 已移除對 <a href="/windows/desktop/api/shlobj/nn-shlobj-icolum
 <td>用來取得帶狀物件的相關資訊。<br/>
 <blockquote>
 [!Important]<br />
-在新的開發中，您應該使用 <a href="taskbar-extensions.md">縮圖工具列</a> 來取代桌面群組，這在 Windows 7 中不受支援。
+在新的開發中，您應該使用<a href="taskbar-extensions.md">縮圖工具列</a>來取代服務中心區，而不受 Windows 7 的支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1004,7 +1004,7 @@ Windows Vista 已移除對 <a href="/windows/desktop/api/shlobj/nn-shlobj-icolum
 <td>公開方法，以啟用和查詢 deskband 物件中的半透明度效果。<br/>
 <blockquote>
 [!Important]<br />
-在新的開發中，您應該使用 <a href="taskbar-extensions.md">縮圖工具列</a> 來取代桌面群組，這在 Windows 7 中不受支援。
+在新的開發中，您應該使用<a href="taskbar-extensions.md">縮圖工具列</a>來取代服務中心區，而不受 Windows 7 的支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1062,7 +1062,7 @@ Windows Vista 已移除對 <a href="/windows/desktop/api/shlobj/nn-shlobj-icolum
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/shell/syncmgr-using-from-a-program"><strong>IPassportClientServices</strong></a><br/></td>
-<td><a href="/windows/desktop/shell/syncmgr-using-from-a-program"><strong>IPassportClientServices</strong></a>介面會公開方法，以判斷 WINDOWS Live ID 是否存在。<br/></td>
+<td><a href="/windows/desktop/shell/syncmgr-using-from-a-program"><strong>IPassportClientServices</strong></a>介面會公開方法，以判斷 Windows 的 Live ID 是否存在。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/shell/thumbnail-providers"><strong>IPassportWizard</strong></a><br/></td>
@@ -1076,9 +1076,9 @@ Windows Vista 已移除對 <a href="/windows/desktop/api/shlobj/nn-shlobj-icolum
 <td><a href="/windows/desktop/shell/how-to-register-and-implement-a-property-sheet-handler-for-a-control-panel-application"><strong>IShellExecuteHook</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Shell 執行勾點已在 Windows Vista 中淘汰。
+Windows Vista 中的 Shell 執行攔截已淘汰。
 </blockquote>
-<br/> 公開擴充 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> 或 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 函數行為的方法。 它通常是由子系統所執行，這些子系統會公開使用者在按一下 Windows [<strong>開始</strong>] 按鈕之後可在 [<strong>執行</strong>] 對話方塊中指定的物件名稱。<br/></td>
+<br/> 公開擴充 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> 或 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 函數行為的方法。 它通常是由子系統所執行，這些子系統會在按一下 Windows<strong>開始</strong>] 按鈕之後，公開使用者可在 [<strong>執行</strong>] 對話方塊中指定的物件名稱。<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband"><strong>IShellFolderBand</strong></a><br/></td>
@@ -1102,7 +1102,7 @@ Shell 執行勾點已在 Windows Vista 中淘汰。
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice"><strong>IShellService</strong></a><br/></td>
-<td>已取代。 <a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice"><strong>IShellService</strong></a> 公開一種方法，在多個用戶端（例如 Windows Internet Explorer 和 Windows 檔案總管）之間共用執行特定介面的服務元件時，宣告擁有權。 <br/></td>
+<td>已取代。 <a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice"><strong>IShellService</strong></a>公開一種方法，在多個用戶端（例如 Windows Internet Explorer 和 Windows 檔案總管）之間共用執行特定介面的服務元件時，宣告擁有權。 <br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler"><strong>IShellTaskScheduler</strong></a><br/></td>
@@ -1125,7 +1125,7 @@ Shell 執行勾點已在 Windows Vista 中淘汰。
 <td>公開方法，以取得 HTML 背景圖樣的縮圖表示。 <br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 中，此介面已被取代。 它所支援的功能已不再存在於 Windows 中。
+從 Windows 7，此介面已被取代。 Windows 中已不再提供支援的功能。
 </blockquote>
 <br/></td>
 </tr>

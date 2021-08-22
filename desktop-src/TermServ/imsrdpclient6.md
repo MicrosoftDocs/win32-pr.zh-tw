@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ddb2b60d95650975955bc45abe23a354668c9bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4bbf8fb9cc532b1968b8fba99b62e49feaf4538fd618018666d0338736cc04d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138911"
 ---
 # <a name="imsrdpclient6-interface"></a>IMsRdpClient6 介面
 
@@ -39,7 +39,7 @@ ms.locfileid: "104384042"
 
 
 
-| 屬性                                                                  | 存取類型          | Description                                                                                           |
+| 屬性                                                                  | 存取類型          | 描述                                                                                           |
 |:--------------------------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings7**](imsrdpclient6-advancedsettings7.md)<br/>   | 唯讀<br/> | 要 [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md)的介面。<br/>   |
 | [**TransportSettings2**](imsrdpclient6-transportsettings2.md)<br/> | 唯讀<br/> | 要 [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md)的介面。<br/> |

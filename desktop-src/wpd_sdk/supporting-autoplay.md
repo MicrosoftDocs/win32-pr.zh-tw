@@ -4,12 +4,12 @@ ms.assetid: e91334d9-9041-4cb8-a6d0-0e2371800064
 title: 支援自動播放
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 467a4f6289492177beab0469a181297b13accfce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83091191d8468b7ea3d34146e4a4c02e8cf5bf80cb3e49c72dc43bb092d10f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083392"
 ---
 # <a name="supporting-autoplay"></a>支援自動播放
 
@@ -34,11 +34,11 @@ ms.locfileid: "103694279"
 
  
 
-如需有關在 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ AutoplayHandlers \\ 處理常式** 金鑰中找到的自動播放登錄機碼和值的詳細資訊，請參閱 MSDN 上對應的檔。
+如需有關在 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ AutoplayHandlers \\ 處理常式** 金鑰中找到的自動播放登錄機碼和值的詳細資訊，請參閱 MSDN 上的對應檔。
 
 ### <a name="the-wpd-autoplay-scheme"></a>WPD 自動播放配置
 
-WPD 自動播放配置可與 Windows Vista 自動播放功能整合。 其作法是支援三個自動播放類別，如下表所述。
+WPD 自動播放配置與 Windows Vista 自動播放功能整合。 其作法是支援三個自動播放類別，如下表所述。
 
 
 
@@ -46,7 +46,7 @@ WPD 自動播放配置可與 Windows Vista 自動播放功能整合。 其作法
 |----------|----------------------------------------------------------------------------------------------------------------------|
 | 來源   | 您可以將 WPD 裝置視為內容來源 (也就是可以從裝置) 傳送內容。        |
 | 接收     | 您可以將 WPD 裝置視為內容 (的目的地，也就是可以將內容傳輸到裝置) 。    |
-| 函式 | WPD 裝置支援可程式化或可控制的功能 (例如，它可以傳送和接收 SMS 訊息) 。 |
+| 函數 | WPD 裝置支援可程式化或可控制的功能 (例如，它可以傳送和接收 SMS 訊息) 。 |
 
 
 

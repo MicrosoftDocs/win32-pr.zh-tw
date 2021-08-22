@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1ab28da8e9c739d3deff52572fe6a5d37f862119
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91789b22b992af163e9676ef156a2a72f4316ac49b9b47b30ae5599446918bed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119334598"
 ---
 # <a name="delay-boottriggertype-element"></a>延遲 (bootTriggerType) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "103935113"
 
 
 
-| 元素                                                                     | 衍生自                                                               | Description                                                                  |
+| 元素                                                                     | 衍生自                                                               | 描述                                                                  |
 |-----------------------------------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | [**BootTrigger**](taskschedulerschema-boottrigger-triggergroup-element.md) | [**bootTriggerType**](taskschedulerschema-boottriggertype-complextype.md) | 指定啟動系統時啟動工作的觸發程式。<br/> |
 
@@ -54,8 +54,8 @@ ms.locfileid: "103935113"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

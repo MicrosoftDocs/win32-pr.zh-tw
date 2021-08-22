@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: wmiadap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa5d2de65e8566283b341c5af52048cc79cc0299
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35a58de2ca5e678cbbb99f803415572be236f2a545ed149b9ad598fb7f9a4664
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049836"
 ---
 # <a name="wmiadap"></a>wmiadap
 

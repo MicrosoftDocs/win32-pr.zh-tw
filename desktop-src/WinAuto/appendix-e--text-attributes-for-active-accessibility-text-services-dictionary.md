@@ -4,25 +4,25 @@ description: 本附錄提供 IAccDictionary 中所定義之文字屬性的相關
 ms.assetid: 9e405140-c151-4f00-91c5-777c84c41806
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 588c827764d17c2576efaa5e3117527e23d1da26
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 539583f05e5140d96594490b0038b1a629f7760b13e4de223f6a8a3304c3901b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134061"
 ---
 # <a name="appendix-e-text-attributes-for-active-accessibility-text-services-dictionary"></a>附錄 E： Active Accessibility 文字服務字典的 Text 屬性
 
 本附錄提供 [**IAccDictionary**](/windows/desktop/api/msaatext/nn-msaatext-iaccdictionary)中所定義之文字屬性的相關資訊。 它會組織成一系列的資料表。 每個資料表都包含特定屬性類別的相關資訊。 這些類別實際上是嵌套的，但會以下面的分隔，讓您可以看到屬性。
 
 > [!Note]  
-> Active Accessibility 的文字服務已淘汰。 如需有關 advanced Text 輸入和自然語言技術的詳細資訊，請參閱 [Microsoft Windows 文字服務架構](../tsf/text-services-framework.md) 。
+> Active Accessibility 的文字服務已淘汰。 如需有關 advanced Text 輸入和自然語言技術的詳細資訊，請參閱[Microsoft Windows 文字服務架構](../tsf/text-services-framework.md)。
 
  
 
 資料表中的每個專案都會提供屬性名稱和易記名稱、類型、階層式樣式表 (CSS) 對等的文字物件模型 (TOM) 相等，以及適當的任何其他批註。 TOM 對等資料行提供與屬性搭配使用的 TOM 方法的相關資訊 (部分 [**ITextFont**](/windows/desktop/api/tom/nn-tom-itextfont)、 [**ITextRange**](/windows/desktop/api/tom/nn-tom-itextrange)或 [**ITextPara**](/windows/desktop/api/tom/nn-tom-itextpara) 介面) 。 每個資料表之前的資訊指出支援屬性的介面;TOM 對等資料表中的資訊表示方法的名稱。 TOM 對應資料行中的每個專案都與兩個方法相關聯。 例如，名稱專案會與 **GetName** 和 **SetName** 方法相關聯。
 
-如需這些介面的詳細資訊，請參閱 Windows 軟體開發套件 (SDK) 中的 [Text 物件模型](../controls/text-object-model.md) 檔。
+如需這些介面的詳細資訊，請參閱 Windows 軟體開發套件 (SDK) 中的[Text 物件模型](../controls/text-object-model.md)檔。
 
 ## <a name="font"></a>字型
 
@@ -32,7 +32,7 @@ ms.locfileid: "104024040"
 
 | 屬性名稱，易記名稱       | 類型     | CSS 對等專案       | TOM 對等 | 註解           |
 |-------------------------------------|----------|----------------------|----------------|-------------------|
-| 字型 \_ FaceName、FaceName<br/> | VT \_ BSTR | 字型-系列： Verdana | Name           |                   |
+| 字型 \_ FaceName、FaceName<br/> | VT \_ BSTR | 字型-系列： Verdana | 名稱           |                   |
 | 字型 \_ SizePts、SizePts<br/>   | VT \_ I4   | Font-size： Xpt       | 大小           | 大小為點 |
 
 

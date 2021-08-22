@@ -4,16 +4,16 @@ ms.assetid: 7fc893a6-afa5-4ada-9295-29122b43b21e
 title: VMRPlayer 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2214d94628a90daf0dd543f4e3a7f0166f4968a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85c6281147e2c140541ade480e5b2a5e0f0a1d4146dde59b4871441b68fec6f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071912"
 ---
 # <a name="vmrplayer-sample"></a>VMRPlayer 範例
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 此範例使用影片混合轉譯器 9 (VMR-9) 篩選至 Alpha blend 一或兩個執行中的影片和靜態影像。
 
@@ -33,13 +33,13 @@ ms.locfileid: "103848431"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> </dl>
 
  
