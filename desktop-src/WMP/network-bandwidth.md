@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4783d86160070fc61202f97b4cf3882f2cebcfb2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 40bd97ae2efe7513bc69d308a29356cfc7b141ecc84b816bdc7fad68d79aa785
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616875"
 ---
 # <a name="networkbandwidth"></a>網路。頻寬
 
@@ -39,7 +39,7 @@ ms.locfileid: "106993271"
 
 ## <a name="examples"></a>範例
 
-下列 Microsoft JScript 範例使用 *網路*。顯示目前媒體頻寬的 **頻寬** 。 這項資訊會顯示在以 ID = "BW" 建立的 HTML DIV 中。 使用 ID = "Player" 建立 **player** 物件。
+下列 Microsoft JScript 範例會使用 *網路*。顯示目前媒體頻寬的 **頻寬**。 這項資訊會顯示在以 ID = "BW" 建立的 HTML DIV 中。 使用 ID = "Player" 建立 **player** 物件。
 
 
 ```JScript

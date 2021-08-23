@@ -4,12 +4,12 @@ ms.assetid: 7ec6004f-c71b-413f-b2fd-dc03a5bf8c57
 title: 'MF_SD_ASF_STREAMBITRATES_BITRATE 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5132ba69f88ce3c0f62160e88d11a6b794b2f5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4190ed64a1d241e17a4fad1481977a27dd62ba0f293f686b55a45f417e89d3d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605168"
 ---
 # <a name="mf_sd_asf_streambitrates_bitrate-attribute"></a>MF \_ SD \_ ASF \_ STREAMBITRATES \_ 位元速率屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106984204"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

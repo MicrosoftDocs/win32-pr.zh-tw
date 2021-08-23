@@ -30,12 +30,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0bb3fb2f3e959d41c042589f3a280e6466fe4970
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e18f6ef200481c6f2b22fe229a9e5b0ebc5cbf9d9936b33ad373d93ef19b40c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119669928"
 ---
 # <a name="endexternalbackupgrbit-enumeration"></a>EndExternalBackupGrbit 列舉
 

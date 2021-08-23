@@ -1,5 +1,5 @@
 ---
-description: 表示 MCA、已更正的機器檢查 (CMC) ，或已更正的平臺錯誤 (CPE) 資訊專案。 此類別僅適用于64位的 Windows 系統。
+description: 表示 MCA、已更正的機器檢查 (CMC) ，或已更正的平臺錯誤 (CPE) 資訊專案。 此類別僅適用于64位 Windows 系統。
 ms.assetid: 4edbca20-2525-4e35-ab79-8cf421343144
 title: MSMCAInfo_Entry 類別
 ms.topic: reference
@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: cda6abba06dc4d4f3fec3a4763391eee1fa81274
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f6146d629678c1ee209738095fea901f0edb865bccb9aff2d4eeab02d18e773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640899"
 ---
 # <a name="msmcainfo_entry-class"></a>MSMCAInfo \_ 專案類別
 
-**MSMCAInfo \_ 專案** 類別指出 MCA、已更正的機器檢查 (CMC) ，或已更正的平臺錯誤 (CPE) 資訊專案。 此類別僅適用于64位的 Windows 系統。
+**MSMCAInfo \_ 專案** 類別指出 MCA、已更正的機器檢查 (CMC) ，或已更正的平臺錯誤 (CPE) 資訊專案。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 

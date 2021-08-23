@@ -4,17 +4,17 @@ ms.assetid: 692cbd26-b7b3-4fa3-9157-ca96a33e3a1e
 title: 'UpdateOverlay (Ddraw) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2152e1f58ba161dc8dc3e04c908aaf037f1eed2a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 205b4ca002ec06862b006dc3e3b6facec2f5cb7f0ffb92f3e5a65bc2bb0a161c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650820"
 ---
 # <a name="updateoverlay"></a>UpdateOverlay
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

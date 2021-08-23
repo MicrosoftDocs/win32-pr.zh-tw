@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 404295f92671a3b02fd70aef372f49e32dfa1fd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12af5f53d368263a66c18cc4e3403ebc1d2b6e1692e94081552ab68a3b8dd6a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731120"
 ---
 # <a name="jet_enumcolumnvaluetostring-method"></a>JET_ENUMCOLUMNVALUE。ToString 方法
 

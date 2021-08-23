@@ -4,12 +4,12 @@ ms.assetid: 5347cd55-a27e-40b9-857c-09e3665a1817
 title: 控制外部裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84cb82de59877f2527c92da9123d8a9d5a59d41e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 92f530bb48f35a6e35a0ab75d0559cc3c6770c4d0d1dfb2948f871982f70eb0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652128"
 ---
 # <a name="controlling-an-external-device"></a>控制外部裝置
 

@@ -4,12 +4,12 @@ description: 在物件中流覽的 QueryInterface
 ms.assetid: 7dec015f-7609-40eb-a71e-f6e9c9b9f8ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dbd44d200bf0a992f47bc375d0782bdadacf6a3
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: bdbb25f76f87b43f6fc4fc4d3a1a3eb65c19960942769818a83f176fc62f72c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104314078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611068"
 ---
 # <a name="queryinterface-navigating-in-an-object"></a>QueryInterface：在物件中流覽
 
@@ -30,9 +30,9 @@ ms.locfileid: "104314078"
 [使用和執行 IUnknown](using-and-implementing-iunknown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

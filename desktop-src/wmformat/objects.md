@@ -3,24 +3,24 @@ title: 物件 (Windows Media Format 11 SDK)
 description: 物件
 ms.assetid: f884e115-d41a-4f36-bcef-dfaef78510af
 keywords:
-- Windows Media Format SDK，物件
+- Windows媒體格式 SDK，物件
 - Advanced Systems Format (ASF) 、objects
 - ASF (Advanced Systems Format) ，objects
 - 物件，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87d73672891395d6491009e1c62fac1f9eb81dfe
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7ccd206a548093602f609a11ed11a8d98b910bc35eefb6ba55b985427ac1d212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707448"
 ---
 # <a name="objects-windows-media-format-11-sdk"></a>物件 (Windows Media Format 11 SDK)
 
-Windows Media Format SDK 會使用數個物件來讀取、寫入、編輯及編制 ASF 檔案的索引，以及建立和編輯設定檔。 每個物件都支援數個介面。 多個物件支援某些介面。 在這些情況下，會在介面的參考區段中討論任何實作為的差異。
+Windows 媒體格式 SDK 會使用數個物件來讀取、寫入、編輯及編制 ASF 檔案的索引，以及建立和編輯設定檔。 每個物件都支援數個介面。 多個物件支援某些介面。 在這些情況下，會在介面的參考區段中討論任何實作為的差異。
 
-Windows Media 格式 SDK 中的物件符合 COM 規範。 為了簡化開發工作，每個物件都有相關聯的建立函式或方法。 您應該使用建立函式或方法來建立物件，而不是使用 COM 函數 **CoCreateInstance** 手動建立物件。
+Windows 媒體格式 SDK 中的物件符合 COM 規範。 為了簡化開發工作，每個物件都有相關聯的建立函式或方法。 您應該使用建立函式或方法來建立物件，而不是使用 COM 函數 **CoCreateInstance** 手動建立物件。
 
 某些介面的名稱後面會附加一個數位，例如 **IWMProfile2** 和 **IWMWriter3**。 在每個案例中，編號版本會繼承舊版的所有方法，並加入新功能。
 
@@ -34,7 +34,7 @@ Windows Media 格式 SDK 中的物件符合 COM 規範。 為了簡化開發工�
 |-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | [備份 Restorer](backup-restorer-object.md)                   | 備份授權（通常移至卸載式媒體），然後將這些授權還原到不同的電腦上。                                           | [**WMCreateBackupRestorer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer)                 |
 | [裝置註冊](device-registration-object.md)           | 管理裝置註冊資料庫，其中包含可透過網路連線使用之媒體播放裝置的專案。             | [**WMCreateDeviceRegistration**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedeviceregistration)         |
-| [DRM Transcryptor](drm-transcryptor-object.md)                 | 將受 DRM 保護的媒體資料轉換成資料流程，該資料流程可以傳送到使用 Windows Media DRM 10 網路裝置通訊協定的裝置。 | [**WMCreateDRMTranscryptor**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedrmtranscryptor)               |
+| [DRM Transcryptor](drm-transcryptor-object.md)                 | 將受 DRM 保護的媒體資料轉換成資料流程，該資料流程可以傳送至使用 Windows 媒體 DRM 10 用於網路裝置通訊協定的裝置。 | [**WMCreateDRMTranscryptor**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedrmtranscryptor)               |
 | [索引編製程式](indexer-object.md)                                   | 建立 ASF 檔案的索引，以啟用使用影片串流在檔案中搜尋。                                                                            | [**WMCreateIndexer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateindexer)                               |
 | [授權撤銷代理程式](license-revocation-agent-object.md) | 管理授權撤銷。                                                                                                                              | [**WMCreateLicenseRevocationAgent**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatelicenserevocationagent) |
 | [中繼資料編輯器](metadata-editor-object.md)                   | 編輯 ASF 檔案標頭中的中繼資料。                                                                                                                    | [**WMCreateEditor**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateeditor)                                 |

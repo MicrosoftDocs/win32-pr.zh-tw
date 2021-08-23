@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b885008a472c6b26249c2951754b7ac5e7ba58d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbf412969f10b144dd6c07b6e1f9e8e43800a770565aaefe11a14d3041628fd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649688"
 ---
 # <a name="externalappcolorlight-type-1"></a>AppColorLight (類型 1) 
 
@@ -28,7 +28,7 @@ ms.locfileid: "106977622"
 
  
 
-**AppColorLight** 屬性會抓取 Windows Media Player 使用者介面目前的淺色陰影色彩。
+**appColorLight** 屬性會抓取 Windows Media Player 使用者介面目前的淺色陰影色彩。
 
 ``` syntax
 window.external.appColorLight

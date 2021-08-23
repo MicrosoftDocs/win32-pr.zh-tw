@@ -4,12 +4,12 @@ description: 屬性集是使用格式識別碼來識別， (FMTID) 在 IProperty
 ms.assetid: 5f8eba37-c589-413e-9971-7ecb01dc6734
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cef9417f2f5fad7fd17dcc3d431f1d3565a3843
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e17b1125f642d3f24e24fa6040bc5e55ca3d48b2384aac551680b84c1496900f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662378"
 ---
 # <a name="names-in-istorage"></a>IStorage 中的名稱
 
@@ -22,14 +22,14 @@ ms.locfileid: "104507464"
 | FMTID                                                                                | 名稱字串                       | 語義                                                         |
 |--------------------------------------------------------------------------------------|-----------------------------------|------------------------------------------------------------------|
 | F29F85E0-4FF9-1068-AB91-08002B27B3D9                                                 | " \\ 005SummaryInformation"         | COM2 摘要資訊                                         |
-| D5CDD502-2E9C-101B-9397-08002B2CF9AE D5CDD505-2E9C-101B-9397-08002B2CF9AE<br/> | " \\ 005DocumentSummaryInformation" | Office 檔摘要資訊和使用者定義屬性。 |
+| D5CDD502-2E9C-101B-9397-08002B2CF9AE D5CDD505-2E9C-101B-9397-08002B2CF9AE<br/> | " \\ 005DocumentSummaryInformation" | Office 檔摘要資訊和使用者定義的屬性。 |
 
 
 
  
 
 > [!Note]  
-> **DocumentSummaryInformation** 和 **使用者** 設定的屬性集是唯一的，因為它包含兩個區段。 任何其他屬性集都不允許有多個區段。 如需詳細資訊，請參閱 [結構化儲存體序列化屬性集格式](structured-storage-serialized-property-set-format.md)，以及 [DocumentSummaryInformation 和使用者設定的屬性集](the-documentsummaryinformation-and-userdefined-property-sets.md)。 第一個區段已定義為 COM 的一部分;第二個是由 Microsoft Office 定義。
+> **DocumentSummaryInformation** 和 **使用者** 設定的屬性集是唯一的，因為它包含兩個區段。 任何其他屬性集都不允許有多個區段。 如需詳細資訊，請參閱[結構化儲存體序列化的屬性集格式](structured-storage-serialized-property-set-format.md)，以及[DocumentSummaryInformation 和使用者設定的屬性集](the-documentsummaryinformation-and-userdefined-property-sets.md)。 第一個區段已定義為 COM 的一部分;第二個是由 Microsoft Office 定義。
 
  
 

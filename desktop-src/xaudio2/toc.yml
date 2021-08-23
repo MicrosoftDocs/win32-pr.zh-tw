@@ -67,7 +67,7 @@
         - name: 音訊圖形
           href: audio-graphs.md
           items:
-            - name: XAudio2 音訊圖形
+            - name: XAudio2 音訊 Graph
               href: xaudio2-audio-graph.md
             - name: 使用方法：建立基本音訊處理圖形
               href: how-to--build-a-basic-audio-processing-graph.md

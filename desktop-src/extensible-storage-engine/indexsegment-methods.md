@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inde
 ms:contentKeyID: 55103253
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b65a80ba95ffd0e26a12c509bd930f2415afb8d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46274307e11be5212a5870f7cc180d25ea5610a1dda4c50eab965b3d5a12afe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731978"
 ---
 # <a name="indexsegment-methods"></a>IndexSegment 方法
 

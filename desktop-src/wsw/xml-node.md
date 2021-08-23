@@ -3,17 +3,17 @@ title: XML 節點
 description: XML 節點代表單一的 XML 片段，例如，start 元素及其屬性、end 元素、text 或 \ 0034，類型為 \ 0034;文字內容，例如整數或位元組陣列。 節點中的資料會根據 WS \_ XML \_ 節點類型而有所不同 \_ 。
 ms.assetid: c514c542-029b-46d1-a796-1f132a41b2ad
 keywords:
-- 適用于 Windows 的 XML 節點 Web 服務
+- Windows 的 XML 節點 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac212205fac02db0ee87d8acbe0b123ffcead921
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: a2b851ad0ab0a6a333fedea13036eebf11e8c727a04603c07d8f7e68e66de5ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106999806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545648"
 ---
 # <a name="xml-node"></a>XML 節點
 

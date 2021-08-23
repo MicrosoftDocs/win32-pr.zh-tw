@@ -4,12 +4,12 @@ description: Server-Side 安全性
 ms.assetid: 6c1d210e-daf0-490a-a6b9-65d99b9e1d7d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77501c395c3ae1f14c8451d4691e7e776545e756
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: bc7349b318361cfd27969817ec6be9d16accacd29dce625f572a51a7b3bc8082
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611008"
 ---
 # <a name="server-side-security"></a>Server-Side 安全性
 
@@ -30,6 +30,6 @@ ms.locfileid: "103933649"
 [COM 中的安全性](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

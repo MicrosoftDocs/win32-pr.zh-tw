@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a518968da713416729e8b4d70b4cda5356514e0
-ms.sourcegitcommit: 80ee822f6ebcbcc8f60042e0d14a39ef6989c731
+ms.openlocfilehash: 396dff22b54cc788386bd6c76f8c0dd4a1b777a5368460ec969d4493f902df22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "106999762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641918"
 ---
 # <a name="d1107-internal-error"></a>D1107：內部錯誤
 

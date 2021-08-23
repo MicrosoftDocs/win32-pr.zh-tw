@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 14458bdafa0bbf4421c67db8102491db4e1fe6b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bb466e80070fe1be5cd7af7889fc5727c81f8caad89ad60c48c7a105b688fb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705698"
 ---
 # <a name="wm_userchanged-message"></a>WM \_ USERCHANGED 訊息
 
@@ -68,9 +68,9 @@ ms.locfileid: "103945152"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                              |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                              |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -78,7 +78,7 @@ ms.locfileid: "103945152"
 
 <dl> <dt>
 
-[Windows 總覽](windows.md)
+[Windows概述](windows.md)
 </dt> </dl>
 
  

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86958c241f2399efbe342371b8cd4cfd376ff628
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7f967e812ff76dd11dfd9b4ff07a542d2575548519c3a52816fadf6302a719d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649538"
 ---
 # <a name="externalattemptlogin-method"></a>AttemptLogin 方法
 
@@ -46,7 +46,7 @@ External.attemptLogin()
 
 ## <a name="remarks"></a>備註
 
-如果登入嘗試導致登入狀態的變更，Windows Media Player 會引發 [OnLoginChange](external-onloginchange-event.md) 事件。
+如果登入嘗試導致登入狀態的變更，Windows Media Player 會引發[OnLoginChange](external-onloginchange-event.md)事件。
 
 ## <a name="requirements"></a>規格需求
 

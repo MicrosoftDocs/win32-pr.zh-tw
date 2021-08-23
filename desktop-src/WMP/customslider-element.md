@@ -10,12 +10,12 @@ keywords:
 - 元素，CUSTOMSLIDER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8f49fc6260df295e3266ae9ddf7b5b3eceee43d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8b47a64b57cd785da318bbf1af15667c8d930d06367a93fcfeab5a608cc99d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651428"
 ---
 # <a name="customslider-element"></a>CUSTOMSLIDER 元素
 
@@ -41,13 +41,13 @@ ms.locfileid: "104301316"
 
 
 
- 
+ 
 
 **CUSTOMSLIDER** 元素可以執行下列事件處理常式。
 
 
 
-| 事件處理常式                                         | Description                                                                                                          |
+| 事件處理常式                                         | 描述                                                                                                          |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [onDragBegin](customslider-ondragbegin.md)           | 處理當使用者按一下並按住滑鼠左鍵並開始拖曳滑鼠時所發生的事件。 |
 | [onDragEnd](customslider-ondragend.md)               | 處理在拖曳作業之後放開滑鼠左鍵時所發生的事件。                      |
@@ -55,7 +55,7 @@ ms.locfileid: "104301316"
 
 
 
- 
+ 
 
 **CUSTOMSLIDER** 元素支援環境屬性，並可執行環境事件處理常式。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md) 和 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -66,9 +66,9 @@ ms.locfileid: "104301316"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

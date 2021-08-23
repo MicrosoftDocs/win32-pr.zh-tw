@@ -4,12 +4,12 @@ ms.assetid: 7BFA846B-E614-4117-A196-298E065CB7F8
 title: 'MF_MT_DEPTH_MEASUREMENT 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8be6c06ea09f4017ae65935081eaa81d1ad00cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a292e5a96cec7490917ef0bb897a9a7a67dd303d29692bf6db5ff58e1d4388c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605793"
 ---
 # <a name="mf_mt_depth_measurement-attribute"></a>MF \_ MT \_ 深度 \_ 度量屬性
 
@@ -46,7 +46,7 @@ ms.locfileid: "104563918"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                      |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                      |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

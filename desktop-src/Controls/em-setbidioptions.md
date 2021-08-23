@@ -3,7 +3,7 @@ title: 'EM_SETBIDIOPTIONS 訊息 (Richedit .h) '
 description: EM \_ SETBIDIOPTIONS 訊息會在 rich edit 控制項中設定雙向選項的目前狀態。
 ms.assetid: b518e423-317a-4654-9d9f-c501028e2a0a
 keywords:
-- EM_SETBIDIOPTIONS message Windows 控制項
+- EM_SETBIDIOPTIONS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84dc4b92f7a989ab5ef283b36708094a143475de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f22d03e1738fc688d34f55a6823f7ae95c2dfc41724e827cd31a184ac7cbdfce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545018"
 ---
 # <a name="em_setbidioptions-message"></a>EM \_ SETBIDIOPTIONS 訊息
 
@@ -61,8 +61,8 @@ Rich edit 控制項必須是純文字模式，否則 **EM \_ SETBIDIOPTIONS** �
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | Rich Edit 3。0<br/>                                                              |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 

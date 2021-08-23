@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed5dfbaba3e705f100cdd373e194174f4654a7d8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 27eb96f1de72bbcceafd40c0ccbcfdd3b990ed2134739195bd29e130dbac5a64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642228"
 ---
 # <a name="wsmansessionflagusecredssp-method"></a>WSMan. SessionFlagUseCredSsp 方法
 
@@ -64,9 +64,9 @@ WSMan.SessionFlagUseCredSsp( _
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7<br/>                                                                                                        |
 | 最低支援的伺服器<br/> | Windows Server 2008 R2<br/>                                                                                           |
-| 可轉散發套件<br/>          | Windows Server 2008 （含 SP2）、Windows Vista SP1 和 Windows Vista （含 SP2）的 Windows Management Framework<br/> |
+| 可轉散發套件<br/>          | Windows Management Framework Windows Server 2008 （含 sp2）、Windows Vista （含 SP1）及 Windows vista （含 sp2）<br/> |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>                                      |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl>                                    |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl>                                    |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl>                                    |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>                                      |
 
@@ -79,7 +79,7 @@ WSMan.SessionFlagUseCredSsp( _
 [**WSMan**](wsman.md)
 </dt> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> </dl>
 
  

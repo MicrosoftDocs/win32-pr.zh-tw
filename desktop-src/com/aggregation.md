@@ -4,12 +4,12 @@ description: 「匯總」是物件重複使用機制，在此機制中，外部�
 ms.assetid: 6845b114-8f43-47ad-acdf-b63d6008d221
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a4f11f69f5d7b14047a8138cba93bd503b645a3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4855b1fa3a614d190b8f192aeee2e7cf3d3d53bbdce589a1363e0398f70430c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731718"
 ---
 # <a name="aggregation"></a>彙總
 
@@ -137,7 +137,7 @@ class CSomeObject : public IUnknown
 
 -   建立內建物件時，外部物件必須明確地要求其 [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)。
 -   外部物件必須保護其 [**發行**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) 的執行，以在其終結程式碼周圍具有人工參考計數。
--   如果外部物件查詢任何內建物件介面的指標，則必須呼叫其控制 **IUnknown** [**釋放**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) 方法。 若要釋放這個指標，外部物件會呼叫其控制 **IUnknown** [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) 方法，然後在內建物件的指標上 **放開** 。
+-   如果外部物件查詢任何內建物件介面的指標，則必須呼叫其控制 **IUnknown** [**釋放**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) 方法。 若要釋放這個指標，外部物件會呼叫其控制 **IUnknown** [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) 方法，然後在內建物件的指標上 **放開** 。
     ```C++
     // Obtaining inner object interface pointer 
     pUnkInner->QueryInterface(IID_ISomeInterface, &pISomeInterface); 
@@ -160,6 +160,6 @@ class CSomeObject : public IUnknown
 [內含專案/委派](containment-delegation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

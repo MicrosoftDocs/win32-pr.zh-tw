@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9eb82af4cd9f4eb5618c8986b323d390c81296c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: a26bc68992e7a05e59ed8030fa72f0984a47a23a3b0d79fb0454c5e321f594ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106968470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707498"
 ---
 # <a name="nsc_name"></a>.NSC \_ 名稱
 
@@ -41,9 +41,9 @@ g \_ wszWMNSCName
 [**多播站屬性**](multicast-station-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

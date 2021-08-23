@@ -3,25 +3,25 @@ title: 影片裝置一致性範本
 description: 影片裝置一致性範本
 ms.assetid: 0a91167c-8799-4ce8-a377-c4e613567d0f
 keywords:
-- Windows Media Format SDK，裝置一致性範本
+- Windows媒體格式 SDK，裝置一致性範本
 - Advanced Systems Format (ASF) 、裝置一致性範本
 - ASF (Advanced Systems Format) 、裝置一致性範本
-- Windows Media Format SDK、影片裝置一致性範本
+- Windows媒體格式 SDK、影片裝置一致性範本
 - Advanced Systems Format (ASF) 、影片裝置一致性範本
 - ASF (Advanced 系統格式) 、影片裝置一致性範本
-- Windows Media 視訊9編解碼器、影片裝置一致性範本
+- Windows媒體 Video 9 編解碼器、影片裝置一致性範本
 - 編解碼器，Windows Media 視訊9編解碼器
 - 裝置一致性範本、影片
 - 影片裝置一致性範本
 - 範本、影片裝置一致性範本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc6735d029bc2339296fa2a0af8a48ace3303ae3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: df63d40152e814f879498f0f99e386c9b21ef1e32746cf0c405aa46ab9d2fa48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584838"
 ---
 # <a name="video-device-conformance-templates"></a>影片裝置一致性範本
 
@@ -92,7 +92,7 @@ ms.locfileid: "103840804"
 | 參數                                | 值                                                                                                                  |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | 範本字串                          | "MP@ML"                                                                                                                |
-| 適當的裝置                      | 使用 DirectX Video 加速的機頂 boxesSlower 電腦<br/> 啟用 Windows Media 的 DVD 播放機<br/> |
+| 適當的裝置                      | 使用 DirectX Video 加速的機頂 boxesSlower 電腦<br/> Windows啟用媒體的 DVD 播放機<br/> |
 | 最大解析度                       | 720 x 576                                                                                                              |
 | 最大畫面播放速率                       | 30 fps @ 720 x 48025 fps @ 720 x 576<br/>                                                                        |
 | 最大位元速度                         | 10 Mbps                                                                                                                |
@@ -110,7 +110,7 @@ ms.locfileid: "103840804"
 | 參數                                | 值                                                                                                                                                                 |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 範本字串                          | "MP@HL"                                                                                                                                                               |
-| 適當的裝置                      | 使用 DirectX Video AccelerationHigh-Definition 啟用 Windows Media DVD 播放機的電腦<br/> 數位影院<br/> 高定義串流<br/> |
+| 適當的裝置                      | 使用 DirectX Video AccelerationHigh-Definition Windows 已啟用媒體的 DVD 播放機的電腦<br/> 數位影院<br/> 高定義串流<br/> |
 | 最大解析度                       | 1920 x 1080                                                                                                                                                           |
 | 最大畫面播放速率                       | 30 fps @ 1920 x 108060 fps @ 1280 x 720<br/>                                                                                                                    |
 | 最大位元速度                         | 20 Mbps                                                                                                                                                               |

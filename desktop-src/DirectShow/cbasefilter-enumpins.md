@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 66a0f88a9749ba1dabb982e2f275da8a4be2a422
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3cd0be44f768898a530eef20d3e4d5d082d230ff809133c0eb62ceb2308b524b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640578"
 ---
 # <a name="cbasefilterenumpins-method"></a>CBaseFilter. EnumPins 方法
 
@@ -55,7 +55,7 @@ HRESULT EnumPins(
 
 
 
-| 傳回碼                                                                                   | Description                          |
+| 傳回碼                                                                                   | 描述                          |
 |-----------------------------------------------------------------------------------------------|--------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | Success<br/>                   |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足<br/>       |

@@ -4,12 +4,12 @@ ms.assetid: 62a0bef2-c3c2-4a60-a5d1-6c038958e13e
 title: COM + 內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f0ae1228f89797f9124e817db07f11a23dbec12
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71c48e2fb9a118bff5fe4d6590ff859f0f053ab29687d4f4a2a070d44af37b25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730648"
 ---
 # <a name="com-contexts"></a>COM + 內容
 

@@ -4,12 +4,12 @@ ms.assetid: 2a7590ce-daf4-4892-a838-603e3f89b1bb
 title: 使用複合模式控制 Alpha 混色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db54c71ac9687a1ddf28db09b922b7799d0ebaa3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 2ea2fc9d5be10e3a73bacf7f5a6dc5cbecb8c2992ac8cd961701f55fc2cb524d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611984"
 ---
 # <a name="using-compositing-mode-to-control-alpha-blending"></a>使用複合模式控制 Alpha 混色
 

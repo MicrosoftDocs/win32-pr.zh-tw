@@ -4,12 +4,12 @@ description: '[推送] 按鈕是用來執行動作的小型矩形物件。 例�
 ms.assetid: 26dbe4a0-4110-4569-bac6-fa0a95c785dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e188b58501509fd934ab6396a21beb209857661
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d4056b1b2bd8f80e79916db0056de176962bd7d3d86c2b62420deaf57f90e8de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644488"
 ---
 # <a name="push-button-msaa-ui-element-reference"></a>推送按鈕 (MSAA UI 元素參考) 
 

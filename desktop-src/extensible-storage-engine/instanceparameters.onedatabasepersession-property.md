@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c130a00b8fcbcbcf6a8fc7bbdbbad6a4e36f218e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3707f6e1cf960888f5f403f433ede3d3b82828e300ef59190bf5734e0e4c13b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618038"
 ---
 # <a name="instanceparametersonedatabasepersession-property"></a>InstanceParameters. OneDatabasePerSession 屬性
 

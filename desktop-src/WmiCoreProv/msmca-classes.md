@@ -4,12 +4,12 @@ ms.assetid: 4e35f871-5bce-49ed-a3e8-d2d967e6e2dc
 title: MSMCA 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461d4c5c50ae5316c96c3dffc18af7b729cfa6e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea0f70bead9acbbb23fe0e2115ac12f967c7908f1f0eefa16d65cd1a57947e76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641078"
 ---
 # <a name="msmca-classes"></a>MSMCA 類別
 

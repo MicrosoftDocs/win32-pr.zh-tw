@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: f277e291a4296253d7c0b1b11c694952ddc17ddf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 825fbdc18537fa73561f8a662ecc0388ab18be0b9bf26ca2cbfeadd7bfb9b469
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732288"
 ---
 # <a name="swbemprivilegesetremove-method"></a>SWbemPrivilegeSet 方法
 
@@ -47,7 +47,7 @@ SWbemPrivilegeSet.Remove( _
 *iPrivilege* 
 </dt> <dd>
 
-必要。 這是 [**WbemPrivilegeEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum) 群組中的其中一個 WMI 常數。 這些常數基本上是代表特定許可權的整數。 例如，若要移除允許您關閉 Windows 系統的許可權，請使用 **wbemPrivilegeShutdown** 常數或相當於0x17 的數位。
+必要。 這是 [**WbemPrivilegeEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum) 群組中的其中一個 WMI 常數。 這些常數基本上是代表特定許可權的整數。 例如，若要移除可讓您關閉 Windows 系統的許可權，請使用 **wbemPrivilegeShutdown** 常數或0x17 的對等數值。
 
 </dd> </dl>
 
@@ -83,8 +83,8 @@ SWbemPrivilegeSet.Remove( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemPrivilegeSet<br/>                                                     |
 | IID<br/>                      | IID \_ ISWbemPrivilegeSet<br/>                                                      |

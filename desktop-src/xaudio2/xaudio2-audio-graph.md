@@ -1,29 +1,29 @@
 ---
 description: 所有語音的組合（包含其內含效果和其相互連線）稱為音訊處理圖形。
 ms.assetid: 4fa45dbf-3811-c91c-7561-3b896e9e1f03
-title: XAudio2 音訊圖形
+title: XAudio2 音訊 Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eb265bd6bc2547acd04ca41cceb58ad12896fbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b461b89095152f3f8073a09a230e18f5e30fd7f42ffb60b4c45a32702094f70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707018"
 ---
-# <a name="xaudio2-audio-graph"></a>XAudio2 音訊圖形
+# <a name="xaudio2-audio-graph"></a>XAudio2 音訊 Graph
 
-所有語音的組合（包含其內含效果和其相互連線）稱為音訊處理圖形。 圖形會接受來自用戶端的一組音訊串流作為輸入、進行處理，並將最終結果傳遞給音訊裝置。 所有音訊處理都是在不同的執行緒中進行，而且其週期性是由圖形的量子所定義 (目前在 Microsoft Windows 上為10毫秒，Xbox 360) 則為 5 1/3 毫秒。 在每個量子毫秒，執行緒會透過整個圖形喚醒和 disperses 音訊資料的量子毫秒。 如需建立基本音訊圖形的範例，請參閱 how to： [建立基本音訊處理圖形](how-to--build-a-basic-audio-processing-graph.md)。
+所有語音的組合（包含其內含效果和其相互連線）稱為音訊處理圖形。 圖形會接受來自用戶端的一組音訊串流作為輸入、進行處理，並將最終結果傳遞給音訊裝置。 所有音訊處理都是在不同的執行緒中進行，而且其週期性是由圖形的量子所定義 (目前在 Microsoft Windows 上為10毫秒，Xbox 360) 則是 5 1/3 毫秒。 在每個量子毫秒，執行緒會透過整個圖形喚醒和 disperses 音訊資料的量子毫秒。 如需建立基本音訊圖形的範例，請參閱 how to：[建立基本音訊處理 Graph](how-to--build-a-basic-audio-processing-graph.md)。
 
 簡單的音訊圖形：
 
 ![簡單的音訊圖形](images/xaudio2-audio-graph.png)
 
-用戶端可以在執行時動態控制圖形的狀態。 控制動作可能包括新增和移除輸入和輸出、變更內部效果和互相連線、設定效果的參數、啟用和停用圖形的元件等等。 如需動態變更音訊圖形的範例，請參閱 [如何：以動態方式新增或移除音訊圖形中的聲音](how-to--dynamically-add-or-remove-voices-from-an-audio-graph.md)。
+用戶端可以在執行時動態控制圖形的狀態。 控制動作可能包括新增和移除輸入和輸出、變更內部效果和互相連線、設定效果的參數、啟用和停用圖形的元件等等。 如需動態變更音訊圖形的範例，請參閱[如何：以動態方式新增或移除音訊 Graph 中的聲音](how-to--dynamically-add-or-remove-voices-from-an-audio-graph.md)。
 
-## <a name="processing-the-graph"></a>處理圖形
+## <a name="processing-the-graph"></a>處理 Graph
 
-任何會影響圖形中任何物件的方法呼叫都會被視為影響圖形狀態變更。 圖形狀態變更包括下列各項：
+任何會影響圖形中任何物件的方法呼叫都會被視為影響圖形狀態變更。 Graph 狀態變更包括下列各項：
 
 -   建立和終結語音
 -   啟動或停止語音

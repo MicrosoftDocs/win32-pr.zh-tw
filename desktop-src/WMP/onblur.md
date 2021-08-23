@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 490dc249a042487f348937b5ee00804578293381
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9db8cd6755d0fe2e1199cca16350451273c2bd7618f35b597687b5fbc35c70fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647218"
 ---
 # <a name="onblur"></a>onblur
 

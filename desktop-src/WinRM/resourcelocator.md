@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd110b94d3174134e6410428843de76e809d5e22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26d3287c02949326b672f550271ba3472e6cb16abb6748efb4a80de425c40e57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642868"
 ---
 # <a name="resourcelocator-object"></a>ResourceLocator 物件
 
@@ -65,7 +65,7 @@ ms.locfileid: "104094027"
 
 
 
-| 屬性                                                                          | 存取類型           | Description                                                                                                                                                                                             |
+| 屬性                                                                          | 存取類型           | 描述                                                                                                                                                                                             |
 |:----------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**FragmentDialect**](resourcelocator-fragmentdialect.md)<br/>             | 讀取/寫入<br/> | 取得或設定 [*資源*](windows-remote-management-glossary.md)[*片段*](windows-remote-management-glossary.md)的語言方言。<br/> |
 | [**FragmentPath**](resourcelocator-fragmentpath.md)<br/>                   | 讀取/寫入<br/> | 取得或設定 [*資源*](windows-remote-management-glossary.md)[*片段*](windows-remote-management-glossary.md)或屬性的路徑。<br/> |
@@ -142,7 +142,7 @@ End Sub
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0dc693135124ba5d2979fa0f1a7ff80fcca27600
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f3a8119eb774d86058d7fbf5f5ae6b96adecb9f2b3dc7214b6f41bef51dfb0d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119668735"
 ---
 # <a name="esentinvalidbuffersizeexception-class"></a>EsentInvalidBufferSizeException 類別
 

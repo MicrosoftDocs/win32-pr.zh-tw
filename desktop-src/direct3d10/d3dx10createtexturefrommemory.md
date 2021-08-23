@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 885f734cd9caeaccbab27b2fcdb258c032c5d7c5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7b64c3c429ef356fa4ab8c206682c3b1711a14fe29ee6b2024b92b8113951062
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753348"
 ---
 # <a name="d3dx10createtexturefrommemory-function"></a>D3DX10CreateTextureFromMemory 函式
 

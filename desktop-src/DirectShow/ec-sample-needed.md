@@ -4,12 +4,12 @@ ms.assetid: f1bf32ba-ecb7-435f-aefc-f60fdd355620
 title: 'EC_SAMPLE_NEEDED (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da73d02604e128fdf94edb8f84d1526cfcdb586e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0058f8d0b7f8404a59f8c7e4fc5a4029c5ebaf4bc4f5c1b2678b1ed8c0f4f90c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686118"
 ---
 # <a name="ec_sample_needed"></a>\_需要 EC 範例 \_
 

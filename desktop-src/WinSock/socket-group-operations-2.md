@@ -4,12 +4,12 @@ ms.assetid: 2ee78183-f746-43f8-9422-475840dacf01
 title: 通訊端群組作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d71397bafb7840c24041a7725a4466d86eeafa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 883da32240bc9d23835fba23063462481c88af6ddb1d1dbd17d8bc791781ac62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641588"
 ---
 # <a name="socket-group-operations"></a>通訊端群組作業
 

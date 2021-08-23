@@ -4,12 +4,12 @@ ms.assetid: 082c7783-c53a-4b73-b8f2-3f60e2c2689a
 title: 使用 ID3D10InfoQueue (Direct3D 10) 自訂調試輸出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 843ac7dd34b19cfe1fc7835a2026ae2dd28b9dcd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8212b78352ccc9139c069ca5d388993fd83aca6833d77547a91401bc40380fb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753828"
 ---
 # <a name="customize-debug-output-with-id3d10infoqueue-direct3d-10"></a>使用 ID3D10InfoQueue (Direct3D 10) 自訂調試輸出
 

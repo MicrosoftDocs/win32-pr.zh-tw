@@ -4,12 +4,12 @@ description: 如果您想要設定整個進程的安全性，有一個解決方�
 ms.assetid: 87f0a64f-f3ec-4ee2-8d65-4f82e8971f0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d303f184229cb20aef1cbf71733956a3b6ce6618
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: bc8ad3a549a78a10b15e965ba2e2a47b9e5e84f1e8790ccfbf90af622051714e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730908"
 ---
 # <a name="setting-process-wide-security-through-the-registry"></a>透過登錄設定 Process-Wide 安全性
 
@@ -43,6 +43,6 @@ AppID 是 GUID，代表一或多個類別的伺服器進程。 每個類別都�
 [設定 Process-Wide 安全性](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

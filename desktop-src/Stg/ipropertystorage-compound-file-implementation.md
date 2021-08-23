@@ -6,16 +6,16 @@ keywords:
 - IPropertyStorage Strctd Stg.、執行、複合檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03d927b0145077f12e5ba508ca65554ca33633a3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fa3c4fffe98c4bfb896f346f25ce988f75bacf1fbb194b9ec27f50e22095c8cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662608"
 ---
 # <a name="ipropertystorage-compound-file-implementation"></a>IPropertyStorage-Compound 檔案的執行
 
-結構化儲存體架構的 COM 實作為所謂的 [複合檔案](istorage-compound-file-implementation.md)。 在複合檔案中執行的儲存物件包括兩個 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage)的實作為：管理單一持續性屬性集的介面，以及管理持續性屬性集群組的介面 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage)。 如需 **IPropertyStorage** 介面的詳細資訊，請參閱 **IPropertyStorage** 和 [屬性儲存體考慮](property-storage-considerations.md)。
+結構化儲存體架構的 COM 實作為所謂的[複合檔案](istorage-compound-file-implementation.md)。 在複合檔案中實儲存體的物件包括 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage)、管理單一持續性屬性集的介面，以及管理持續性屬性集群組的介面 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage)。 如需 **IPropertyStorage** 介面的詳細資訊，請參閱 **IPropertyStorage** 和 [屬性儲存體考慮](property-storage-considerations.md)。
 
 若要取得 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage)的複合檔案執行指標，請呼叫 [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) 來建立新的複合檔案物件或 [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) ，以開啟先前建立的複合檔案物件。 在 **StgCreateStorageEx** 的案例中， *stgfmt* 參數應設為 stgfmt \_ 儲存體。 在 **StgOpenStorageEx** 的案例中， *stgfmt* 參數應設定為 stgfmt \_ 儲存體或 stgfmt \_ ANY。 在這兩種情況下，會將 *riid* 參數設定為 IID \_ IPropertySetStorage。 這兩個函數都會提供物件 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) 介面的指標。 藉由呼叫該介面的 [**Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) 或 [**Open**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open) 方法，您將會取得 **IPropertyStorage** 介面的指標，您可以用它來呼叫其任何方法。
 
@@ -28,7 +28,7 @@ ms.locfileid: "103842423"
 > [!Note]  
 > 如果您在簡單模式的屬性集儲存體上呼叫 [**StgCreateDocfile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile)、 [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex)、 [**StgOpenStorage**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage)或 [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex)來取得 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage)的指標， **IPropertyStorage** 方法會遵守簡單模式資料流程的規則。 如果是針對以 STGM simple 旗標建立或開啟的檔案取得該檔案，則該屬性集會儲存為簡單模式 \_ 。 在此情況下，不一定能讓基礎資料流程變得更大，也無法以較大的屬性取代現有的屬性。 如需詳細資訊，請參閱 [IPropertySetStorage 複合檔案執行](ipropertysetstorage-compound-file-implementation.md)。
 
- 
+ 
 
 ## <a name="ipropertystorage-and-caching"></a>IPropertyStorage 和快取
 
@@ -36,7 +36,7 @@ ms.locfileid: "103842423"
 
 ## <a name="simple-mode-property-sets"></a>簡單模式屬性集
 
-如果屬性儲存物件是從簡單模式屬性集儲存物件建立，則為簡單模式。 例如，如果從 [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) 函式取得屬性集的儲存物件，並在 \_ *GRFMODE* 參數中設定 STGM 簡單旗標，則會處於簡單模式。 請注意，「簡單模式」與「簡單屬性集」無關。 如果透過呼叫 [**IPropertySetStorage：： Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) 和 \_ *grfFlags* 參數中所設定的 PROPSETFLAG 簡單旗標，來建立屬性集，則會很簡單。 如需簡單和簡單屬性集的詳細資訊，請參閱 [屬性集的儲存和資料流程物件](storage-vs--stream-for-a-property-set.md)。
+如果屬性儲存物件是從簡單模式屬性集儲存物件建立，則為簡單模式。 例如，如果從 [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) 函式取得屬性集的儲存物件，並在 \_ *GRFMODE* 參數中設定 STGM 簡單旗標，則會處於簡單模式。 請注意，「簡單模式」與「簡單屬性集」無關。 如果透過呼叫 [**IPropertySetStorage：： Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) 和 \_ *grfFlags* 參數中所設定的 PROPSETFLAG 簡單旗標，來建立屬性集，則會很簡單。 如需簡單和簡單屬性集的詳細資訊，請參閱[儲存體和資料流程物件以取得屬性集](storage-vs--stream-for-a-property-set.md)。
 
 當您建立簡單模式屬性儲存物件時，它的使用沒有任何限制。 開啟現有的簡單模式屬性儲存物件時，無法成長儲存屬性集的基礎資料流程物件。 因此，如果變更需要較大的資料流程，就不一定能夠修改這類的屬性儲存物件。
 
@@ -90,11 +90,11 @@ VT \_ 錯誤
 
 VT \_ 變異
 
- 
+ 
 
 
 
- 
+ 
 
 當 VT \_ VARIANT 與 vt 陣列合併時 \_ ，SafeArray 本身會保存 [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) 結構。 不過，這些元素的類型必須取自上述清單，不能是 VT \_ 變異，也不能包含 vt \_ 向量、vt \_ 陣列或 vt \_ BYREF 指標。
 
@@ -167,7 +167,7 @@ VT \_ 變異
 <span id="IPropertyStorage__Revert"></span><span id="ipropertystorage__revert"></span><span id="IPROPERTYSTORAGE__REVERT"></span>[**IPropertyStorage：： Revert**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-revert)
 </dt> <dd>
 
-僅針對簡單屬性集，會呼叫基礎儲存體的 [**Revert**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-revert) 方法，並重新開啟「內容」資料流程。 針對簡單的屬性集，這個介面一律會傳回 S \_ OK。 簡單屬性集是使用 \_ [**IPropertySetStorage：： Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) 方法中的 PROPSETFLAG 簡單旗標所建立的屬性集。 如需詳細資訊，請參閱 [屬性集的儲存和資料流程物件](storage-vs--stream-for-a-property-set.md) 。
+僅針對簡單屬性集，會呼叫基礎儲存體的 [**Revert**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-revert) 方法，並重新開啟「內容」資料流程。 針對簡單的屬性集，這個介面一律會傳回 S \_ OK。 簡單屬性集是使用 \_ [**IPropertySetStorage：： Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) 方法中的 PROPSETFLAG 簡單旗標所建立的屬性集。 如需詳細資訊，請參閱[儲存體和資料流程物件的屬性集](storage-vs--stream-for-a-property-set.md)。
 
 </dd> <dt>
 
@@ -202,6 +202,6 @@ VT \_ 變異
 [**IStorage：： SetElementTimes**](/windows/desktop/api/Objidl/nf-objidl-istorage-setelementtimes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

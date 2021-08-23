@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101780
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 842a17cd62fe4c556762a59a25ae058582273b9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8f9d3e893cf7486f079f32bfe59eb70fed76d2619d0ced8a51ccb65d0ba4af3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119668988"
 ---
 # <a name="esentindextuplesinvalidlimitsexception-members"></a>EsentIndexTuplesInvalidLimitsException 成員
 

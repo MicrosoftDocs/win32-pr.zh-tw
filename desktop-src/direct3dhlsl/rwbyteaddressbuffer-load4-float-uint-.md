@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 14cb5354c21935c22833ea6f4b54b20fedc696f0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0f64fe84f17ee4cc1fed25b870b2142b474e753fa41e82cd0d385c9ef185ee9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103683063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672108"
 ---
 # <a name="load4uintuint-function"></a>Load4 (uint，uint) 函數
 
@@ -29,8 +29,8 @@ ms.locfileid: "103683063"
 
 ``` syntax
 uint4 Load4(
-  in  uint Location,
-  out uint Status
+  in  uint Location,
+  out uint Status
 );
 ```
 
@@ -70,13 +70,13 @@ uint4 Load4(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -85,6 +85,6 @@ uint4 Load4(
 [Load4 方法](rwbyteaddressbuffer-load4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

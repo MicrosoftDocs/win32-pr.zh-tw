@@ -4,12 +4,12 @@ ms.assetid: 46af4c11-042c-4580-ba9d-3aee6172de56
 title: 'MF_TOPOLOGY_PLAYBACK_MAX_DIMS 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1fc6a57c5e031bc6f35f36e688bd44986f541b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e98575a32b1d68414cb4d94a547273aa4986e03dc707023d5c40f9860b77b5a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604778"
 ---
 # <a name="mf_topology_playback_max_dims-attribute"></a>MF \_ 拓撲 \_ 播放 \_ 最大 \_ 亮度屬性
 
@@ -43,8 +43,8 @@ ms.locfileid: "104191880"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

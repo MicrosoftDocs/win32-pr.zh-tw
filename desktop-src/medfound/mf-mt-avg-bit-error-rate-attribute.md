@@ -4,12 +4,12 @@ ms.assetid: 90433ff4-a563-4751-86d9-caac0cc58194
 title: 'MF_MT_AVG_BIT_ERROR_RATE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21eb33d1bc1636dd047dbd56ce6b7ad3a683f356
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4828485dce2b8aca7a3b55c55acd39c22df6b05a71aa34cf9853270d1ac29dde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664278"
 ---
 # <a name="mf_mt_avg_bit_error_rate-attribute"></a>MF \_ MT \_ 平均 \_ 位 \_ 錯誤率 \_ 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "104191887"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

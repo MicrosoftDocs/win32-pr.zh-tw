@@ -3,21 +3,21 @@ title: Windows Media Format SDK 函式
 description: 函式
 ms.assetid: 10fa8f96-8030-4727-af5d-7c06229d05d8
 keywords:
-- Windows Media Format SDK，函數
+- Windows媒體格式 SDK，函式
 - Advanced Systems Format (ASF) 、函數
 - ASF (Advanced Systems Format) ，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cab464c3384a65776b993c2423f174debd7a89d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 560756451ee2f5b49d26b5611b38a40a45cac7643b101fdbe8ae492386901689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708258"
 ---
 # <a name="windows-media-format-sdk-functions"></a>Windows Media Format SDK 函式
 
-Windows Media Format SDK 包含用來建立物件的函式，以及協助程式函式以簡化某些程式。
+Windows 媒體格式 SDK 包含用來建立物件的函式，以及協助程式函式以簡化某些程式。
 
 此 SDK 支援下列函式來初始建立物件。 如果未列出物件，您必須使用另一個物件的介面來建立它。 如需詳細資訊，請參閱[物件](objects.md)。
 
@@ -47,7 +47,7 @@ Windows Media Format SDK 包含用來建立物件的函式，以及協助程式�
 | [**WMCreateWriterPushSink**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink)                             | 建立寫入器推送接收物件。                                                                                                                      |
 | [**WMIsAvailableOffline**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline)                                 | 確認可從快取的複本播放 ASF 檔案。                                                                                             |
 | [**WMIsContentProtected**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected)                                 | 檢查檔案是否有受 DRM 保護的內容。                                                                                                                |
-| [**WMValidateData**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)                                             | 確認檔案開頭的資料與 Windows Media Format SDK 所支援檔案類型的標頭區段一致。 |
+| [**WMValidateData**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)                                             | 確認檔案開頭的資料與 Windows 媒體格式 SDK 所支援檔案類型的標頭區段一致。 |
 
 
 
@@ -59,11 +59,11 @@ Windows Media Format SDK 包含用來建立物件的函式，以及協助程式�
 
 | 函式                                             | 描述                                                                                                                                  |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WMCheckURLExtension**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension)   | 根據副檔名，嘗試判斷 Windows Media 格式 SDK 的物件是否可以讀取檔案。              |
-| [**WMCheckURLScheme**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme)         | 判斷 Windows Media 格式 SDK 的物件是否支援網路通訊協定。                                           |
+| [**WMCheckURLExtension**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension)   | 根據副檔名，嘗試判斷 Windows 媒體格式 SDK 的物件是否可讀取檔案。              |
+| [**WMCheckURLScheme**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme)         | 判斷 Windows 媒體格式 SDK 的物件是否支援網路通訊協定。                                           |
 | [**WMIsAvailableOffline**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline) | 判斷檔案是否可離線播放。                                                                                 |
 | [**WMIsContentProtected**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected) | 檢查檔案是否有受 DRM 保護的內容。                                                                                                     |
-| [**WMValidateData**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)             | 藉由分析檔開頭的資料，嘗試判斷 Windows Media 格式 SDK 的物件是否可讀取檔案。 |
+| [**WMValidateData**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)             | 藉由分析檔開頭的資料，嘗試判斷 Windows 媒體格式 SDK 的物件是否可讀取檔案。 |
 
 
 

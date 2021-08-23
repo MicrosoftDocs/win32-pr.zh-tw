@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 5d77c78a78a6cecae0368e8d9192a0dc0efc10e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58e153da2695990f74d1268aa3e861bb9011b108ebdd1ea2d5128ff6f8e40a20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708208"
 ---
 # <a name="system_event_data-structure"></a>系統 \_ 事件 \_ 資料結構
 
@@ -93,9 +93,9 @@ typedef struct tagSYSTEM_EVENT_DATA {
 
 | 值               | 描述                  |
 |---------------------|------------------------------|
-| SE \_ 修飾詞 \_ CTRL  | 已按下控制項鍵。 |
-| SE \_ 修飾詞 \_ ALT   | 已按下 ALT 鍵。     |
-| SE \_ 修飾詞 \_ 移位 | 已按下 Shift 鍵。   |
+| SE \_修飾詞 \_ CTRL  | 已按下控制項鍵。 |
+| SE \_修飾詞 \_ ALT   | 已按下 ALT 鍵。     |
+| SE \_修飾詞 \_ 移位 | 已按下 Shift 鍵。   |
 
 
 
@@ -107,8 +107,8 @@ typedef struct tagSYSTEM_EVENT_DATA {
 
 | 值              | 描述               |
 |--------------------|---------------------------|
-| SE \_ 正常資料 \_ 指標 | 表示畫筆提示。    |
-| SE \_ 橡皮擦 \_ 游標 | 表示畫筆橡皮擦。 |
+| SE \_一般資料 \_ 指標 | 表示畫筆提示。    |
+| SE \_橡皮擦 \_ 游標 | 表示畫筆橡皮擦。 |
 
 
 
@@ -120,7 +120,7 @@ typedef struct tagSYSTEM_EVENT_DATA {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                     |
 
 

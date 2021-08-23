@@ -4,12 +4,12 @@ ms.assetid: cb9552e9-e807-4b07-b315-4550762e7026
 title: 使用 EncoderValue 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d755248150e81f963ea1c5c597ab04649c342944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 488d465d27f7884ecc5999d38fea10afdac06b74b77d29338c8d0944a1261b92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666318"
 ---
 # <a name="using-the-encodervalue-enumeration"></a>使用 EncoderValue 列舉
 

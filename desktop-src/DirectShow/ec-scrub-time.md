@@ -4,12 +4,12 @@ ms.assetid: 2c2ef8b8-7bee-4cd8-ad87-b48d6a48aa0e
 title: 'EC_SCRUB_TIME (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 530362520f8e80ef06a769383f82dee1d60d66c2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d4d3cc09d286f6955dda30aeb77288b75e90e8c66777a5f9f16246507f64b45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686088"
 ---
 # <a name="ec_scrub_time"></a>EC \_ 清理 \_ 時間
 

@@ -13,12 +13,12 @@ keywords:
 - capPaletteManual 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f09cbbe3ffc8ea21d1ecf8545f036f5ba6dfb927
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f51f9399520b5a3cefc046959c0d59d7abe9d0f1b6ab19662f750720afd16447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686708"
 ---
 # <a name="working-with-palettes"></a>使用調色板
 
@@ -36,9 +36,9 @@ WM \_ cap pal 自動建立 \_ \_ 或 WM \_ cap \_ pal \_ MANUALCREATE 訊息會�
 
 您可以使用 [**WM \_ CAP \_ PAL \_ 貼**](wm-cap-pal-paste.md) 上訊息，將 [剪貼簿] 從 [剪貼簿] 貼到 [捕獲] 視窗。 [捕獲] 視窗會將此選擇區傳送至 capture 驅動程式。 其他應用程式可以將調色板複製到剪貼簿。 您也可以使用 [ [**WM \_ CAP \_ 編輯 \_ 複製**](wm-cap-edit-copy.md) 訊息 (] 或 [ [**capEditCopy**](/windows/desktop/api/Vfw/nf-vfw-capeditcopy) 宏) ，將調色板複製到剪貼簿。 此訊息會將影片框架緩衝區（包括調色板）複製到剪貼簿。
 
- 
+ 
 
- 
+ 
 
 
 

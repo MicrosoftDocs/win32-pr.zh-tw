@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17f7153bdd95b0807f8fe94e20c9f7fef6bb17f5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: a424216d420b36ec5ff5679167fcfabdb8a4bf89e5cf6edc2eb4e1715669785b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709388"
 ---
 # <a name="bannerimagedata"></a>BannerImageData
 
@@ -42,9 +42,9 @@ g \_ wszWMBannerImageData
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

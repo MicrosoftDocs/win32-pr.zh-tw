@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acaecb559e7df60067e89ec754ec9432233500f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a651add93e32c1c2eb82827a4089a338341f2506ba26d9fbb06061aa6d185d75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648338"
 ---
 # <a name="externalshowpopup-method"></a>ShowPopup 方法
 
@@ -30,7 +30,7 @@ ms.locfileid: "106976004"
 
  
 
-**ShowPopup** 方法會指示 Windows Media Player 顯示快捷方式網頁;也就是在另一個視窗中出現的網頁。
+**showPopup** 方法會指示 Windows Media Player 顯示快捷方式網頁;也就是在另一個視窗中出現的網頁。
 
 ## <a name="syntax"></a>語法
 
@@ -74,7 +74,7 @@ Windows Media Player 不會解讀快顯索引。 識別快顯視窗的索引是�
 
 1.  探索頁面上的腳本會呼叫 **showPopup**，並傳遞 *PopupIndex* 中的整數和 *參數* 中的字串。
 
-2.  Windows Media Player 將索引傳遞給 [IWMPContentPartner：： GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) ，以抓取要顯示之網頁的 URL。
+2.  Windows Media Player 將索引傳遞給[IWMPContentPartner：： GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) ，以抓取要顯示之網頁的 URL。
 
 3.  Windows Media Player 會將 *參數* 以查詢字串的形式附加至 URL。 例如，如果 **GetItemInfo** 傳回 " https://www.Proseware.com/Pages/Popup1.htm "，且 *參數* 等於 "DlgX = 800&DlgY = 400&問候語 = Hi"，Windows Media Player 會建立下列 URL：
 

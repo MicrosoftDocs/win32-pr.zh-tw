@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2961a3c0e0d1b75a487b9bf112e76bee8c937a72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f70fd7b4a987dac3a079651f2cbc04dc50817ba8a43f8da1449a3f605683ba65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706308"
 ---
 # <a name="iwiaitem2devicecommand-method"></a>IWiaItem2：:D eviceCommand 方法
 
@@ -53,9 +53,9 @@ HRESULT DeviceCommand(
 *pCmdGUID* \[在\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
-指定要傳送至 WIA 2.0 裝置的命令。 請參閱 [_ *WIA 裝置命令* *](-wia-wia-device-commands.md)。
+指定要傳送至 WIA 2.0 裝置的命令。 請參閱 [**WIA 裝置命令**](-wia-wia-device-commands.md)。
 
 </dd> <dt>
 
@@ -76,7 +76,7 @@ HRESULT DeviceCommand(
 
 
 
-| 傳回碼                                                                                       | Description                                                                                                                                                                          |
+| 傳回碼                                                                                       | 描述                                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ CMDNOTSUPPORTED**</dt> </dl> | 此命令不會針對呼叫方法的 [**IWiaItem2**](-wia-iwiaitem2.md) 介面來執行。 尚未定義此錯誤的數值。 <br/> |
 
@@ -98,10 +98,10 @@ HRESULT DeviceCommand(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 
 
 

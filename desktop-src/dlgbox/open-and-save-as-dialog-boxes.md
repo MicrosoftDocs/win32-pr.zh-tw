@@ -14,12 +14,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: be957276f0d5a6370bb53aca4b1af5052b422011
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 57f1986f950650840ff3acfc9ee19191088e0dcbe099fc4cb8b21690fa0646c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606294"
 ---
 # <a name="open-and-save-as-dialog-boxes"></a>開啟並另存新檔對話方塊
 
@@ -32,7 +32,7 @@ ms.locfileid: "110548883"
 
 [ **另存** 新檔] 對話方塊可讓使用者指定要儲存的磁片磁碟機、目錄和檔案名。 您可以藉由初始化 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)結構並將結構傳遞給 [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)函數，來建立並顯示 [**另存** 新檔] 對話方塊。
 
-Explorer 樣式 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊提供類似于 Windows 檔案總管的使用者介面功能。 不過，系統會繼續支援舊版樣式的 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊，適用于必須與舊樣式使用者介面一致的應用程式。
+Explorer 樣式 [**開啟**] 和 [**另存** 新檔] 對話方塊提供類似于 Windows 檔案總管的使用者介面功能。 不過，系統會繼續支援舊版樣式的 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊，適用于必須與舊樣式使用者介面一致的應用程式。
 
 除了外觀上的差異以外，Explorer 樣式和舊樣式的對話方塊在使用自訂範本和攔截程式以自訂對話方塊時不同。 不過，Explorer 樣式和舊樣式的對話方塊對於大部分基本作業都具有相同的行為，例如指定檔案名篩選、驗證使用者的輸入，以及取得使用者指定的檔案名。 如需有關 Explorer 樣式和舊樣式對話方塊的詳細資訊，請參閱 [開啟和另存](#open-and-save-as-dialog-box-customization)新檔對話方塊的自訂。
 
@@ -79,7 +79,7 @@ Explorer 樣式 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊提供類似
 
 
 
-| 對話方塊樣式            | Description                                                                                                                                                                                                               |
+| 對話方塊樣式            | 描述                                                                                                                                                                                                               |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Explorer 樣式對話方塊 | 目錄和檔案名字串會以 **null** 分隔，並在最後一個檔案名之後加上額外的 **Null** 字元。 此格式可讓 Explorer 樣式的對話方塊傳回包含空格的長檔名。 |
 | 舊樣式對話方塊      | 目錄和檔案名字串會以空格分隔。 對於具有空格的檔案名，此函式會使用簡短的檔案名。                                                                                              |
@@ -120,7 +120,7 @@ ofn.nFilterIndex = 1;
 
 若為 Explorer 樣式的對話方塊，當使用者選取不同的篩選時，預設的擴充功能可能會變更。 如果使用者選取的篩選器的第一個模式是表單 \* 。*xxx* (也就是，延伸不包含萬用字元) ，此對話方塊會使用 *xxx* 作為預設副檔名。 只有當您在 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)結構的 **lpstrDefExt** 成員中指定了預設副檔名時，才會發生這種情況。 例如，如果使用者選取 [來源 \\ 0] \* 。C; \* 。CXX \\ 0 "filter，預設延伸模組會變更為" C "。 但是，如果您已經將篩選定義為「來源 \\ 0」 \* 。C \* \\ 0」，預設擴充功能不會變更，因為擴充功能包含萬用字元。
 
-[**CDN \_ INCLUDEITEM**](cdn-includeitem.md)通知訊息提供另一種方式來篩選對話方塊所顯示的名稱。 若要使用此訊息，請在建立對話方塊時，提供 [**OFNHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)攔截程式，並在 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)結構中指定 **OFN \_ ENABLEINCLUDENOTIFY** 旗標。 每次使用者開啟資料夾時，對話方塊都會針對新開啟之資料夾中的每個專案，將 **CDN \_ INCLUDEITEM** 通知傳送至您的勾點程式。 攔截程式的傳回值指出對話方塊是否應該在資料夾的專案清單中顯示專案。
+[**CDN \_ INCLUDEITEM**](cdn-includeitem.md)通知訊息提供另一種方式來篩選對話方塊所顯示的名稱。 若要使用此訊息，請在建立對話方塊時，提供 [**OFNHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)攔截程式，並在 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)結構中指定 **OFN \_ ENABLEINCLUDENOTIFY** 旗標。 每次使用者開啟資料夾時，對話方塊都會針對新開啟的資料夾中的每個專案，將 **CDN \_ INCLUDEITEM** 通知傳送至您的勾點程式。 攔截程式的傳回值指出對話方塊是否應該在資料夾的專案清單中顯示專案。
 
 ## <a name="file-and-directory-validation"></a>檔案和目錄驗證
 
@@ -134,7 +134,7 @@ ofn.nFilterIndex = 1;
 
 根據預設，對話方塊會建立長度為零的測試檔案，以判斷是否可以在選取的目錄中建立新檔案。 若要避免建立此測試檔案，請設定 **OFN \_ NOTESTFILECREATE** 旗標。
 
-如果您啟用攔截程式，此對話方塊會在使用者指定的檔案名發生網路共用違規時，通知您的攔截程式。 如果您設定 **OFN \_ EXPLORER** 旗標，此對話方塊會將 [**CDN \_ SHAREVIOLATION**](cdn-shareviolation.md) 訊息傳送到攔截程式。 如果您未設定 **OFN \_ EXPLORER**，此對話方塊會將已註冊的 [**SHAREVISTRING**](sharevistring.md) 訊息傳送到攔截程式。 若要防止對話方塊傳送任何共用違規通知，請設定 **OFN \_ SHAREAWARE** 旗標。
+如果您啟用攔截程式，此對話方塊會在使用者指定的檔案名發生網路共用違規時，通知您的攔截程式。 如果您設定 **OFN \_ EXPLORER** 旗標，此對話方塊會將 [**CDN \_ SHAREVIOLATION**](cdn-shareviolation.md)訊息傳送到攔截程式。 如果您未設定 **OFN \_ EXPLORER**，此對話方塊會將已註冊的 [**SHAREVISTRING**](sharevistring.md) 訊息傳送到攔截程式。 若要防止對話方塊傳送任何共用違規通知，請設定 **OFN \_ SHAREAWARE** 旗標。
 
 如果使用者選取 [唯讀] 核取方塊，對話方塊會在傳回時設定 **OFN \_ READONLY** 旗標。 若要隱藏 [ **開啟為唯讀** ] 核取方塊，請 **設定 \_ OFN HIDEREADONLY** 旗標。 若要防止對話方塊傳回具有唯讀屬性之現有檔案的名稱，請設定 **OFN \_ NOREADONLYRETURN** 旗標。
 
@@ -150,7 +150,7 @@ ofn.nFilterIndex = 1;
 
 
 
-| 自訂                  | Description                                                                                                                                                                                                                                                                          |
+| 自訂                  | 描述                                                                                                                                                                                                                                                                          |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Explorer 樣式的掛勾程式  | 攔截程式會接收從通用對話方塊傳送的通知訊息，以及您藉由指定子對話方塊範本所定義之任何其他控制項的訊息。 攔截程式不會接收預設對話方塊之標準控制項的訊息。 |
 | Explorer 樣式的自訂範本 | 系統會使用自訂範本來建立子對話方塊。 範本可以定義其他控制項，也可以指定標準控制項叢集的位置。 自訂範本不會取代預設範本。                                          |
@@ -229,9 +229,9 @@ HKEY_CURRENT_USER
 
 此外，也有一組訊息可傳送至 Explorer 樣式的對話方塊，以取得資訊或控制對話方塊的行為和外觀。
 
-如果您為 [Explorer 樣式] 對話方塊提供攔截程式，則預設對話方塊程式在處理其 [**WM \_ INITDIALOG**](wm-initdialog.md) 訊息時，會建立子對話方塊。 攔截程式可作為子對話方塊的對話方塊程式。 此時，攔截程式會收到自己的 **WM \_ INITDIALOG** 訊息，並將 *lParam* 參數設定為用來初始化對話方塊的 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) 結構位址。 在子對話方塊完成處理自己的 **WM \_ INITDIALOG** 訊息之後，預設的對話方塊程式會視需要移動標準控制項，以騰出空間給子對話方塊的任何其他控制項。 接著，預設的對話方塊程式會將 [**CDN \_ INITDONE**](cdn-initdone.md) 通知訊息傳送到攔截程式。
+如果您為 [Explorer 樣式] 對話方塊提供攔截程式，則預設對話方塊程式在處理其 [**WM \_ INITDIALOG**](wm-initdialog.md) 訊息時，會建立子對話方塊。 攔截程式可作為子對話方塊的對話方塊程式。 此時，攔截程式會收到自己的 **WM \_ INITDIALOG** 訊息，並將 *lParam* 參數設定為用來初始化對話方塊的 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) 結構位址。 在子對話方塊完成處理自己的 **WM \_ INITDIALOG** 訊息之後，預設的對話方塊程式會視需要移動標準控制項，以騰出空間給子對話方塊的任何其他控制項。 接著，預設的對話方塊程式會將 [**CDN \_ INITDONE**](cdn-initdone.md)通知訊息傳送到攔截程式。
 
-攔截程式會收到 [**WM \_ 通知**](../controls/wm-notify.md) 通知訊息，指出使用者在對話方塊中採取的動作。 您可以使用其中一些訊息來控制對話方塊的行為。 例如，當使用者選擇檔案名，然後按一下 [**確定]** 按鈕時，攔截程式就會收到 [**CDN \_ FILEOK**](cdn-fileok.md)訊息。 為了回應此訊息，攔截程式可以使用 [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) 函式來拒絕選取的名稱，並強制對話方塊維持開啟狀態。
+攔截程式會收到 [**WM \_ 通知**](../controls/wm-notify.md) 通知訊息，指出使用者在對話方塊中採取的動作。 您可以使用其中一些訊息來控制對話方塊的行為。 例如，當使用者選擇檔案名，然後按一下 [**確定]** 按鈕時，攔截程式就會收到 [**CDN 的 \_ FILEOK**](cdn-fileok.md)訊息。 為了回應此訊息，攔截程式可以使用 [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) 函式來拒絕選取的名稱，並強制對話方塊維持開啟狀態。
 
 每個 [**WM \_ 通知**](../controls/wm-notify.md)訊息的 *lParam* 參數都是定義動作之 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)或 [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa)結構的指標。 此結構的標頭中的程式 **代碼** 成員包含下列其中一項通知訊息。
 
@@ -239,14 +239,14 @@ HKEY_CURRENT_USER
 
 | 訊息                                           | 意義                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CDN \_ FILEOK**](cdn-fileok.md)                 | 使用者按一下 [ **確定]** 按鈕;對話方塊即將關閉。                                                                                                                                                                                                                          |
-| [**CDN \_ FOLDERCHANGE**](cdn-folderchange.md)     | 使用者開啟了新的資料夾或目錄。                                                                                                                                                                                                                                                     |
-| [**CDN \_ 說明**](cdn-help.md)                     | 使用者按一下 [說明 **] 按鈕。**                                                                                                                                                                                                                                                          |
-| [**CDN \_ INCLUDEITEM**](cdn-includeitem.md)       | 決定是否應該顯示專案。 當使用者開啟新的資料夾或目錄時，系統會傳送此通知給資料夾或目錄中的每個專案。 只有在已設定 **OFN \_ ENABLEINCLUDENOTIFY** 旗標的情況下，系統才會傳送此通知。                          |
-| [**CDN \_ INITDONE**](cdn-initdone.md)             | 系統已完成對話方塊的初始化，而對話方塊已完成了 [**WM \_ INITDIALOG**](wm-initdialog.md) 訊息的處理。 此外，系統已完成在 [通用] 對話方塊中排列控制項，以騰出空間給子對話方塊的控制項， (是否有任何) 。 |
-| [**CDN \_ SELCHANGE**](cdn-selchange.md)           | 使用者從檔案清單中選取了新的檔案或資料夾。                                                                                                                                                                                                                                     |
-| [**CDN \_ SHAREVIOLATION**](cdn-shareviolation.md) | [一般] 對話方塊在要傳回的檔案上發生共用違規。                                                                                                                                                                                                        |
-| [**CDN \_ TYPECHANGE**](cdn-typechange.md)         | 使用者從檔案類型清單中選取了新的檔案類型。                                                                                                                                                                                                                                 |
+| [**CDN \_FILEOK**](cdn-fileok.md)                 | 使用者按一下 [ **確定]** 按鈕;對話方塊即將關閉。                                                                                                                                                                                                                          |
+| [**CDN \_FOLDERCHANGE**](cdn-folderchange.md)     | 使用者開啟了新的資料夾或目錄。                                                                                                                                                                                                                                                     |
+| [**CDN \_説明**](cdn-help.md)                     | 使用者按一下 [說明 **] 按鈕。**                                                                                                                                                                                                                                                          |
+| [**CDN \_INCLUDEITEM**](cdn-includeitem.md)       | 決定是否應該顯示專案。 當使用者開啟新的資料夾或目錄時，系統會傳送此通知給資料夾或目錄中的每個專案。 只有在已設定 **OFN \_ ENABLEINCLUDENOTIFY** 旗標的情況下，系統才會傳送此通知。                          |
+| [**CDN \_INITDONE**](cdn-initdone.md)             | 系統已完成對話方塊的初始化，而對話方塊已完成了 [**WM \_ INITDIALOG**](wm-initdialog.md) 訊息的處理。 此外，系統已完成在 [通用] 對話方塊中排列控制項，以騰出空間給子對話方塊的控制項， (是否有任何) 。 |
+| [**CDN \_SELCHANGE**](cdn-selchange.md)           | 使用者從檔案清單中選取了新的檔案或資料夾。                                                                                                                                                                                                                                     |
+| [**CDN \_SHAREVIOLATION**](cdn-shareviolation.md) | [一般] 對話方塊在要傳回的檔案上發生共用違規。                                                                                                                                                                                                        |
+| [**CDN \_TYPECHANGE**](cdn-typechange.md)         | 使用者從檔案類型清單中選取了新的檔案類型。                                                                                                                                                                                                                                 |
 
 
 

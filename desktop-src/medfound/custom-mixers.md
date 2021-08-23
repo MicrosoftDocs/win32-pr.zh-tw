@@ -4,16 +4,16 @@ ms.assetid: a0af318d-9ac2-43f9-8934-f28c472256a6
 title: 自訂 Mixers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac7e56c578a7081de7c71ae3abaf9fc45d085827
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 587206f7bc34d1fad4a64a12aeff9ab8ad21e18a84c92c8f2302776fdc126a68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605988"
 ---
 # <a name="custom-mixers"></a>自訂 Mixers
 
-本主題說明如何撰寫增強型影片轉譯器的自訂混音器 (EVR) 。 您可以使用自訂混音器搭配媒體基礎 EVR 媒體接收器或 DirectShow EVR 篩選器。 如需 mixers 和展示者的詳細資訊，請參閱 [增強型影片](enhanced-video-renderer.md)轉譯器。
+本主題說明如何撰寫增強型影片轉譯器的自訂混音器 (EVR) 。 您可以使用自訂混音器搭配媒體基礎 EVR 媒體接收或 DirectShow EVR 篩選器。 如需 mixers 和展示者的詳細資訊，請參閱 [增強型影片](enhanced-video-renderer.md)轉譯器。
 
 混音器是一種媒體基礎轉換 (MFT) ，其中包含一或多個輸入 (參考資料流以及子串流) 和一個輸出。 輸入資料流程從上游接收樣本。 輸出資料流程會將範例提供給展示者。 EVR 負責呼叫混音器上的 [**IMFTransform：:P rocessinput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput) ，而展示者負責呼叫 [**IMFTransform：:P rocessoutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput)。
 
@@ -42,7 +42,7 @@ EVR 混音器至少必須執行下列介面：
 | [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)                   | 將介面（例如 [**IMFVideoMixerBitmap**](/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap) 和 [**IMFVideoProcessor**](/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor) ）公開給應用程式。 |
 | [**IMFQualityAdvise**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)             | 可讓品質管制員調整影片品質。                                                                                             |
 | [**IMFVideoMixerBitmap**](/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap)       | 讓應用程式將靜態點陣圖混合到影片上。                                                                                       |
-| [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | 將輸出影片畫面上的座標組應到輸入影片畫面上的座標。                                                                  |
+| [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | 在輸出影片畫面上地圖座標，以在輸入影片畫面上座標。                                                                  |
 | [**IMFVideoProcessor**](/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor)           | 將部分 DXVA 的影片處理功能公開給應用程式。                                                                                      |
 
 
@@ -61,7 +61,7 @@ EVR 混音器至少必須執行下列介面：
 
 當任何輸入資料流程到達資料流程的結尾時，EVR 會在 rocessMessage 上呼叫 [**IMFTransform：:P**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage) ，並以 [**MFT \_ 訊息 \_ 通知 \_ 結尾 \_ \_**](mft-message-notify-end-of-stream.md)。
 
-混音器會使用 EVR 的 [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) 介面，將下列事件傳送至 EVR。 此介面記載于 DirectShow SDK 檔中。
+混音器會使用 EVR 的 [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) 介面，將下列事件傳送至 EVR。 此介面記載于 DirectShow SDK 檔集內。
 
 
 
@@ -91,7 +91,7 @@ EVR 可能會在串流處理開始之前，于混音器上呼叫 [**ProcessOutpu
 
 當 EVR 呼叫 [**IMFTopologyServiceLookupClient：： ReleaseServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers)時，混音器必須釋放從呼叫取得的任何指標至 [**InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers)。
 
-## <a name="mixer-attributes"></a>混音器屬性
+## <a name="mixer-attributes"></a>Mixer屬性
 
 混音器應該支援下列屬性。
 
@@ -106,9 +106,9 @@ EVR 可能會在串流處理開始之前，于混音器上呼叫 [**ProcessOutpu
 
  
 
-## <a name="setting-the-mixer-on-the-evr"></a>在 EVR 上設定混音器
+## <a name="setting-the-mixer-on-the-evr"></a>在 EVR 上設定 Mixer
 
-若要在 EVR 上設定自訂混音器，請呼叫 [**IMFVideoRenderer：： InitializeRenderer**](/windows/desktop/api/evr/nf-evr-imfvideorenderer-initializerenderer)。 DirectShow EVR 濾波器和 EVR 媒體接收器都會執行此方法。
+若要在 EVR 上設定自訂混音器，請呼叫 [**IMFVideoRenderer：： InitializeRenderer**](/windows/desktop/api/evr/nf-evr-imfvideorenderer-initializerenderer)。 DirectShow EVR 篩選和 EVR 媒體接收器都會執行此方法。
 
 **EVR 啟用物件**。 如果您使用 EVR 啟始物件，您可以在 EVR 啟用物件上設定下列其中一個屬性，以提供自訂混音器：
 
