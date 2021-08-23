@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inul
 ms:contentKeyID: 39516258
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0cdf0a5a10e29198c3bdca09b3f0f3463b627f8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e376c579a51150975eef02779de29932b436c8fa82aa650f7a6079a66bf05fa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104570013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834268"
 ---
 # <a name="inullablejetstruct-properties"></a>INullableJetStruct 屬性
 

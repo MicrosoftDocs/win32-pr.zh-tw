@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: d0acb998c879e718a0e201418610bb0aa6db8c31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40184bb027f80826baa3ad56090755a2cd9ec630f9eb105e402d30a6ecf2661c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800108"
 ---
 # <a name="networktypetype-simple-type"></a>networkTypeType 簡單類型
 
@@ -47,7 +47,7 @@ NetworkTypeType 簡單類型會定義無線網路類型。 網路類型有兩種
 | 值 | 描述 |
 |-------|-------------|
 | IBSS  |             |
-| Ess   |             |
+| ESS   |             |
 
 
 
@@ -57,8 +57,8 @@ NetworkTypeType 簡單類型會定義無線網路類型。 網路類型有兩種
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

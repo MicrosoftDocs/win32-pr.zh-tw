@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 599610b0d81de283d97ca347486c4adcbe0103dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a9425668ad00422033a77233ade2822966db0f19d6e6628ada24866be9953f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794438"
 ---
 # <a name="wmisetbrightness-method-of-the-wmimonitorbrightnessmethods-class"></a>WmiMonitorBrightnessMethods 類別的 WmiSetBrightness 方法
 

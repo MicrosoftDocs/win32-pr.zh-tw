@@ -49,12 +49,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2888b56e39184b05484cacd587be140b94dc732e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 53b667bed197f196506d354406d64f9c0d3549e0375a8542adba1bb4c933e488
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820928"
 ---
 # <a name="cim_numericsensor-class"></a>CIM \_ NumericSensor 類別
 
@@ -139,7 +139,7 @@ class CIM_NumericSensor : CIM_Sensor
 
 <dl> <dt>
 
-**精確度**
+**精度**
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**

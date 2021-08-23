@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8e5296953e157182c97e113539b1b47625a0de44
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6ce98be2a78f207c3f997bf2ad1d645773ce74dba8d57d714fcba578ed469392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800978"
 ---
 # <a name="reset-method-of-the-cim_keyboard-class"></a>CIM 鍵盤類別的 Reset 方法 \_
 

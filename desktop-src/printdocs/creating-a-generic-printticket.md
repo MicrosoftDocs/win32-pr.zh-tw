@@ -4,12 +4,12 @@ ms.assetid: 1f991b6b-8443-4234-ad46-dc4220e34c5c
 title: 建立一般的 PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69e611205663138b9cc3c0d3cd315c2c19d2d7e6
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0f660b2f1c015e0d32f5bfd80d58cae96cf3450dfafb13a7758c644ad0a7576b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719728"
 ---
 # <a name="creating-a-generic-printticket"></a>建立一般的 PrintTicket
 

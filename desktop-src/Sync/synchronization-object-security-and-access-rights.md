@@ -1,19 +1,19 @@
 ---
-description: Windows 安全性模型可讓您控制事件、mutex、信號和可等候計時器物件的存取。 計時器佇列、連鎖變數和重要區段物件都不是安全的。 如需詳細資訊，請參閱 Access-Control 模型。
+description: Windows 的安全性模型可讓您控制事件、mutex、信號和可等候計時器物件的存取。 計時器佇列、連鎖變數和重要區段物件都不是安全的。 如需詳細資訊，請參閱 Access-Control 模型。
 ms.assetid: 92478298-617c-4672-a1cc-9a8e9af40327
 title: 同步處理物件安全性和存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1c4bfdb17a6e1c4d99a3e9722e67a3b48a3c788
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f85ca76002a92e305983ab97d46dfde2f36f9ae49a779e091a072d3090ceb976
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739288"
 ---
 # <a name="synchronization-object-security-and-access-rights"></a>同步處理物件安全性和存取權限
 
-Windows 安全性模型可讓您控制事件、mutex、信號和可等候計時器物件的存取。 計時器佇列、連鎖變數和重要區段物件都不是安全的。 如需詳細資訊，請參閱 [存取控制模型](../secauthz/access-control-model.md)。
+Windows 的安全性模型可讓您控制事件、mutex、信號和可等候計時器物件的存取。 計時器佇列、連鎖變數和重要區段物件都不是安全的。 如需詳細資訊，請參閱 [存取控制模型](../secauthz/access-control-model.md)。
 
 當您呼叫 [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa)、 [**CreateMutex**](/windows/win32/api/synchapi/nf-synchapi-createmutexa)、 [**CreateSemaphore**](/windows/desktop/api/WinBase/nf-winbase-createsemaphorea)或 [**CreateWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)函式時，可以指定進程同步處理物件的 [安全描述項](../secauthz/security-descriptors.md)。 如果您指定 **Null**，則物件會取得預設安全描述項。 在同步處理物件的預設安全描述項中， [ (acl) 的存取控制清單 ](../secauthz/access-control-lists.md) ，是來自建立者的主要或模擬權杖。
 

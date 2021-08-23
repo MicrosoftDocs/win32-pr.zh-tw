@@ -3,7 +3,7 @@ title: 'TVM_GETEXTENDEDSTYLE 訊息 (Commctrl .h) '
 description: 抓取樹狀檢視控制項的延伸樣式。 明確地傳送此訊息，或使用 TreeView \_ GetExtendedStyle 宏。
 ms.assetid: adc74cc5-e741-4966-bf49-a4b0c67e645a
 keywords:
-- TVM_GETEXTENDEDSTYLE message Windows 控制項
+- TVM_GETEXTENDEDSTYLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 579a00e125389ff56c7ff93370ab71945598dba7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a93eb22b3dfdbe05365d28a7c93bfa9df3619796f9b4ae9ec603c74da252c5a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834198"
 ---
 # <a name="tvm_getextendedstyle-message-commctrlh"></a>TVM_GETEXTENDEDSTYLE 訊息 (Commctrl .h) 
 
@@ -49,8 +49,8 @@ ms.locfileid: "103844252"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

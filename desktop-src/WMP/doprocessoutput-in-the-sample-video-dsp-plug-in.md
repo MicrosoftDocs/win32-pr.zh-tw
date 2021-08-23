@@ -10,12 +10,12 @@ keywords:
 - 影片 DSP 外掛程式，DoProcessOutput
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff3bc844890930209a1c6007213d3c466f0cd15b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b031ecddc4f7a1e4a83d4f8a7d8db3b975957789d7f887bf8b12438407624205
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680598"
 ---
 # <a name="doprocessoutput-in-the-sample-video-dsp-plug-in"></a>範例影片 DSP 外掛程式中的 DoProcessOutput
 
@@ -49,9 +49,9 @@ if (!m_bEnabled)
 [**執行 Video DSP 外掛程式**](implementing-a-video-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

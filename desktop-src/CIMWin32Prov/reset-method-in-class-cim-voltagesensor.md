@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4a3217eb5e433cd7b72dfffbd8e524cee10a5f2e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e401fbbd87b29e31670d52c220b2f8c5fec67e2bc984a6f67a216ab806b17076
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700698"
 ---
 # <a name="reset-method-of-the-cim_voltagesensor-class"></a>CIM 電壓感應器類別的 Reset 方法 \_
 

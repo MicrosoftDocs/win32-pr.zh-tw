@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: e9a0ba2ade1095f291d5cb325a0902e6caeac3f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9776ca62cbb61b6708f00d5e1d6d85eeab245b32798683b5afde546d835633c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779188"
 ---
 # <a name="imonitordoconfigure-method"></a>IMonitor：:D oConfigure 方法
 

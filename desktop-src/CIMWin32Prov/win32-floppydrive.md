@@ -46,16 +46,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 832b5fad0ce54d1436fd6b2e47765af0fabfd2bb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2847b8b69dc431fcc0907100d951e18589bb8d266ff269f90c982fc8c88371ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816668"
 ---
 # <a name="win32_floppydrive-class"></a>Win32 \_ FloppyDrive 類別
 
-\[**Win32 \_FloppyDrive** 不再適用于 Windows 10 和 Windows Server 2016。\]
+\[**Win32 \_FloppyDrive** 不再適用于 Windows 10 和 Windows Server 2016 的使用。\]
 
 **Win32 \_ FloppyDrive** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)會管理軟碟磁碟機的功能。
 
@@ -348,7 +348,7 @@ class Win32_FloppyDrive : CIM_DisketteDrive
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存裝置 \| 001.9 "，" MIF。DMTF \| 儲存裝置 \| 001.11 "，" MIF。DMTF \| 儲存裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
+限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存體裝置 \| 001.9 "，" MIF。DMTF \| 儲存體裝置 \| 001.11 "，" MIF。DMTF \| 儲存體裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
 </dt> </dl>
 
 媒體存取裝置的功能陣列。 例如，裝置可能支援隨機存取、卸載式媒體和自動清除。 在此情況下，會將3、7和9值寫入陣列中。
@@ -556,7 +556,7 @@ class Win32_FloppyDrive : CIM_DisketteDrive
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [ **CIM \_ LogicalDevice**](cim-logicaldevice.md)
 
@@ -1212,7 +1212,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1263,7 +1263,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 </dt> <dd>
 
-已啟用
+啟用
 
 電源管理功能目前已啟用，但實際的功能組不明，或資訊無法使用。
 

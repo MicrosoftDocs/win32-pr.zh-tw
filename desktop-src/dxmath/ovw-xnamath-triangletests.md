@@ -4,12 +4,12 @@ ms.assetid: 97c5fa38-e88c-debb-f3ed-76c5878778c4
 title: DirectXMath 三角形測試函式
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35510484edc58fa8112b23a89480b5af7f5c1f01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c695651f8dd1e9c753516db9589f680b55b2939ea38244a3f58804d6082d2a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740148"
 ---
 # <a name="directxmath-triangle-test-functions"></a>DirectXMath 三角形測試函式
 

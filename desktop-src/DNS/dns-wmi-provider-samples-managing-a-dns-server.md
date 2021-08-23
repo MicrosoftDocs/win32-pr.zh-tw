@@ -4,12 +4,12 @@ description: DNS WMI 提供者範例—管理 DNS 伺服器
 ms.assetid: 7846fbaf-cc15-4cd0-aa3f-796617380bb6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c3ea632aa7e490ce77f86e314e4d949a39335fa
-ms.sourcegitcommit: 03fb201e1ea36e353c335ff063ed993fb5993e61
+ms.openlocfilehash: ac5f1becb8b9883d22eadb46357303f3cb5fdd1d61807285d8a59e21fb0e347d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795708"
 ---
 # <a name="dns-wmi-provider-samplesmanaging-a-dns-server"></a>DNS WMI 提供者範例—管理 DNS 伺服器
 

@@ -1,20 +1,20 @@
 ---
 title: 管理託管服務的基礎結構
-description: Windows 遠端管理 2.0 (WinRM) 引進了裝載架構。 為了使用此架構，會撰寫 WinRM 外掛程式，以公開 WinRM 基礎結構內應用程式的管理資料。
+description: Windows遠端系統管理 2.0 (WinRM) 引進了裝載架構。 為了使用此架構，會撰寫 WinRM 外掛程式，以公開 WinRM 基礎結構內應用程式的管理資料。
 ms.assetid: 924dcc70-9a29-45a6-99a2-5681235e4574
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8439aca1f36d2d0c2cebb6ed3111aeaa2e4fcee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa41f7952867a121b8a4bd4847cb90ca42dafac346398954afbd5e4dc8bdf43e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795268"
 ---
 # <a name="infrastructure-for-managing-hosted-services"></a>管理託管服務的基礎結構
 
-Windows 遠端管理 2.0 (WinRM) 引進了裝載架構。 為了使用此架構，會撰寫 WinRM 外掛程式，以公開 WinRM 基礎結構內應用程式的管理資料。 支援兩種裝載模型。 其中一個是 Internet Information Services (IIS) 「基礎」，另一個則是「以服務為基礎的 WinRMâ」。 以 WinRM 為基礎的模型會使用 HTTP.sys，且不會相依于 IIS。
+Windows遠端系統管理 2.0 (WinRM) 引進了裝載架構。 為了使用此架構，會撰寫 WinRM 外掛程式，以公開 WinRM 基礎結構內應用程式的管理資料。 支援兩種裝載模型。 其中一個是 Internet Information Services (IIS) 「基礎」，另一個則是「以服務為基礎的 WinRMâ」。 以 WinRM 為基礎的模型會使用 HTTP.sys，且不會相依于 IIS。
 
 下列各節說明裝載模型：
 
@@ -55,9 +55,9 @@ WinRM 2.0 可處理 HTTP 重新導向。 建議所有重新導向都使用安全
 
 以 WinRM 服務為基礎的模型會在 HTTP.sys 上執行。 WinRM 服務是向 WinRM 用戶端處理要求的網路面向服務。 服務會判斷要求是否會路由至在主要服務中執行的外掛程式，或是透過執行協力廠商外掛程式的主機進行路由傳送。 此模型適用于受管理節點上的負載偏低的案例。 此外，此模型適用于 IIS 裝載不是選項的情況。 如需詳細資訊，請參閱 [WinRM 服務外掛程式](wsman-service-plug-in-configuration.md)設定。
 
- 
+ 
 
- 
+ 
 
 
 

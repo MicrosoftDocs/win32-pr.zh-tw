@@ -4,12 +4,12 @@ ms.assetid: e87de50f-60ec-4c18-b21c-81f7b6928752
 title: manufacturerLS 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d24950355c5439d9a99c4ef451f1330772f3459
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d5b6922e0d914048003b976ecf1f9a7b82febc2a9802334f1a125e357985e319
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794028"
 ---
 # <a name="manufacturerls-element"></a>manufacturerLS 元素
 

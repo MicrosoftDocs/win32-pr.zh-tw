@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39284eec5ce3814ec8b555ed7c447d0bb94daee9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a77622f668979ccf46f9a5e7a072e661d52a93cf6c1cd2e956bd57ed7b75d03a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703418"
 ---
 # <a name="netboot-intellimirror-oses-attribute"></a>netboot-IntelliMirror-作業系統屬性
 

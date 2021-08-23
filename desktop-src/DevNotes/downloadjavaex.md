@@ -1,5 +1,5 @@
 ---
-description: 下載 .cab 檔簽章、驗證與封裝相關聯的許可權，並根據驗證執行。
+description: 下載 .cab 檔案簽章、驗證與封裝相關聯的許可權，並根據驗證執行這些簽章。
 ms.assetid: b86a8f39-73a1-4e17-ac83-9ed095de4922
 title: DownloadJAVAEX 函式
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Javacypt.dll
-ms.openlocfilehash: 31371e91599d604db591ee3e921b42bc809aae21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 628fdb1b8b0ec9979d844c8f48fb02fbf8f6a642a96c925f427c868160dd6b27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795258"
 ---
 # <a name="downloadjavaex-function"></a>DownloadJAVAEX 函式
 
-下載 .cab 檔簽章、驗證與封裝相關聯的許可權，並根據驗證執行。
+下載 .cab 檔案簽章、驗證與封裝相關聯的許可權，並根據驗證執行這些簽章。
 
 ## <a name="syntax"></a>語法
 

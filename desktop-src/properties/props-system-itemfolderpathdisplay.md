@@ -4,18 +4,18 @@ ms.assetid: 16f67edc-ca8a-4c2e-9d9b-be8600446e51
 title: System. ItemFolderPathDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c12909b29790ea2c016154cea9fccf7c53e45630
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: e8fd2288f12073fe8e36707bf49aca2bc5e000d0bbe25d95fba0736b4e77af44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112403931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822338"
 ---
 # <a name="systemitemfolderpathdisplay"></a>System. ItemFolderPathDisplay
 
 專案之父資料夾的使用者易記顯示路徑。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -1,23 +1,23 @@
 ---
-title: Windows 部署服務結構
+title: Windows部署服務結構
 description: 下列結構會搭配 Windows 部署服務使用。
 ms.assetid: 2e52a6ae-cecb-45de-b777-108836ed5264
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c20f5b369a2bbb5d68bd77dce1751e09fed2e6b6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4315ccd3d9540334b00f43fda6522e3eae28be2d038cfdd56fcd129e9e0aed7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760248"
 ---
-# <a name="windows-deployment-services-structures"></a>Windows 部署服務結構
+# <a name="windows-deployment-services-structures"></a>Windows部署服務結構
 
 下列結構會搭配 Windows 部署服務使用。
 
 
 
-| 結構                                                                         | Description                                                                                                        |
+| 結構                                                                         | 描述                                                                                                        |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | [**PXE \_ 位址**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_address)                                               | 指定封包的網路位址。                                                                        |
 | [**PXE \_ DHCP \_ 訊息**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcp_message)                                    | 此結構會與 Windows 部署服務 PXE 伺服器 API 搭配使用。                                        |
@@ -31,22 +31,22 @@ ms.locfileid: "104021946"
 
 
 
- 
+ 
 
 從 Windows 8 和 Windows Server 2012 開始提供下列各項。
 
-| 結構                                          | Description                                               |
+| 結構                                          | 描述                                               |
 |----------------------------------------------------|-----------------------------------------------------------|
 | [**PXE \_ DHCPV6 \_ 選項**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcpv6_option)   | 與 Windows 部署服務 PXE 伺服器 API 搭配使用。 |
 | [**PXE \_ DHCPV6 \_ 訊息**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcpv6_message) | DHCPV6 訊息。                                         |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

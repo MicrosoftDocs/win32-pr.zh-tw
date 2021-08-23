@@ -10,12 +10,12 @@ keywords:
 - 裁剪平面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3b531b39daf6670a3a99d9a4cbcf55158ea2d4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f314b7c6453de3b0933970b7d520a8c161d6eef4a9bb98ea891c73665fba4933
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777118"
 ---
 # <a name="porting-clipping-planes"></a>移植裁剪平面
 
@@ -34,15 +34,15 @@ OpenGL 會以類似鳶尾花 GL 的方式來實行裁剪平面。 此外，您�
 
 
 
- 
+ 
 
 若要開啟剪式測試，請使用 GL 剪下方塊 \_ 作為參數來呼叫 glEnable \_ 。
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

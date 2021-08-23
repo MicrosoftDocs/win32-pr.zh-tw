@@ -1,19 +1,19 @@
 ---
-description: WDM (Windows Driver Model) 提供者會授與符合 WDM 模型的硬體驅動程式之類別、實例、方法和事件的存取權。
+description: wdm (Windows Driver Model) 提供者會授與符合 WDM 模型的硬體驅動程式之類別、實例、方法和事件的存取權。
 ms.assetid: 2f9749ff-b318-4228-80fd-e3846dde21d2
 title: WDM 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d96ce356214f2788d3608b2ba85943e607394cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54ba187680ec371f331aa6394c5a2408c23080259e6b275e74cee496dd5125cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794618"
 ---
 # <a name="wdm-provider"></a>WDM 提供者
 
-WDM (Windows Driver Model) 提供者會授與符合 WDM 模型的硬體驅動程式之類別、實例、方法和事件的存取權。 硬體驅動程式的類別位於「根 \\ wmi 命名空間」中。
+wdm (Windows Driver Model) 提供者會授與符合 WDM 模型的硬體驅動程式之類別、實例、方法和事件的存取權。 硬體驅動程式的類別位於「根 \\ wmi 命名空間」中。
 
 WDM 類別主要是在 Wmi 中定義。
 

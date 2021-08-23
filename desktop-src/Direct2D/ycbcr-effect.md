@@ -4,12 +4,12 @@ description: 將平面和色度 subsampled JPEG YCbCr 資料轉換為 RGB。
 ms.assetid: E4492996-54DA-4C5F-B44C-8FBE97C8DD7D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c581effbadecc19c39161d2a2ec4af051d4195d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d5302300cc539571fabb1c3d786686ffc514636133391e706fc5963002656764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636088"
 ---
 # <a name="ycbcr-effect"></a>YCbCr 效果
 
@@ -28,7 +28,7 @@ ms.locfileid: "104025313"
 
 
 
-| 顯示名稱和索引列舉                                          | Description                                                                                                                                                                                                                                                                                             |
+| 顯示名稱和索引列舉                                          | 描述                                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ChromaSubsampling<br/> D2D1 \_ YCBCR \_ 色度次 \_ 取樣<br/>    | 指定輸入色度影像的色度次取樣。 <br/> 此類型為 D2D1 \_ YCBCR \_ 色度次 \_ 取樣。<br/> 預設值為 D2D1 \_ YCBCR \_ 色度 \_ 自動取樣 \_ 。<br/>                                                                                                |
 | TransformMatrix <br/> D2D1 \_ YCBCR \_ 的 \_ \_ 樣板轉換矩陣<br/> | [3X2 矩陣](/previous-versions/dotnet/netframework-3.0/ms750596(v=vs.85))，指定影像的軸對齊仿射轉換。 以軸對齊的轉換包括縮放、翻轉和90度旋轉。 <br/> 此類型為 D2D1 \_ 矩陣 \_ 3X2 \_ F。<br/> 預設值為 Matrix3x2F：： Identity () 。<br/> |
@@ -83,8 +83,8 @@ ms.locfileid: "104025313"
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------------------|
-| 最低支援的用戶端 | Windows 8.1 \[ 桌面應用程式 \| Windows Store 應用程式\]            |
-| 最低支援的伺服器 | Windows Server 2012 R2 \[ desktop app \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 8.1 \[桌面應用程式 \| Windows 儲存應用程式\]            |
+| 最低支援的伺服器 | Windows Server 2012\[ \| Windows 儲存應用程式的 R2 desktop 應用程式\] |
 | 標頭                   | d2d1effects \_ 1. h                                              |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                          |
 

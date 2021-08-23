@@ -4,12 +4,12 @@ ms.assetid: AA7AE63E-8505-4E71-9404-2C4396E8D098
 title: IX509CertificateRequestPkcs10 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a532a644a4168546a36e98232831defde8c65622
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae4a92999dd956bd4e8b35616aeb9b639993fd865768d4e4dc404ab031f219bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119797518"
 ---
 # <a name="ix509certificaterequestpkcs10-properties"></a>IX509CertificateRequestPkcs10 屬性
 

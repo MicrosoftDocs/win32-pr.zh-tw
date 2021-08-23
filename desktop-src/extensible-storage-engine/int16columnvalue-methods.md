@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.int1
 ms:contentKeyID: 55103327
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 64dfabbfc68ab07bf52ec4a80af952cb77fb6dae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6b1de2e5c7d2087695e52f0f040b6213bb55101e47a2cecb895b1399e0d5532
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104559599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834328"
 ---
 # <a name="int16columnvalue-methods"></a>Int16ColumnValue 方法
 

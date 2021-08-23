@@ -3,7 +3,7 @@ title: 'WM_VSCROLL 訊息 (Winuser .h) '
 description: '\_當捲軸事件發生在視窗的標準垂直捲動條時，會將 WM VSCROLL 訊息傳送至視窗。'
 ms.assetid: 495733b8-1aac-4ff7-b0be-15f14581f41c
 keywords:
-- WM_VSCROLL message Windows 控制項
+- WM_VSCROLL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12c83888b83e0d5f8d3c77775347ccc9b43a59d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6bbb87f63cb0f4801787be1f2cb23b321470b1053a58b13d0f3eea34112b1341
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636708"
 ---
 # <a name="wm_vscroll-message"></a>WM \_ VSCROLL 訊息
 
@@ -95,9 +95,9 @@ WM_VSCROLL
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

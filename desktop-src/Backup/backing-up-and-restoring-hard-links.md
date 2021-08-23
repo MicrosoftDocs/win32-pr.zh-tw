@@ -6,12 +6,12 @@ keywords:
 - 永久連結備份
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c72155231295a1eb07b6b565c018b765693c8f46
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 25e5cf5a114160456e83e39cb06f441554f998df65bed2ea8f0e63b036c33c94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702218"
 ---
 # <a name="backing-up-and-restoring-hard-links"></a>備份和還原永久連結
 
@@ -60,7 +60,7 @@ ms.locfileid: "104023899"
 6.  EndWhile
 ```
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援 [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew) 和 [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew) 函數。 您可以改為使用下列虛擬程式碼範例中所述的程式。
+**Windows Server 2003 和 Windows XP：** 不支援 [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew)和 [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew)函數。 您可以改為使用下列虛擬程式碼範例中所述的程式。
 
 ## <a name="alternate-pseudocode-algorithm-for-backing-up-hard-links"></a>備份永久連結的替代虛擬程式碼演算法
 
@@ -91,6 +91,6 @@ ms.locfileid: "104023899"
 18. EndWhile
 ```
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: 'WM_CAP_PAL_MANUALCREATE 訊息 (Vfw .h) '
 description: WM \_ CAP \_ PAL \_ MANUALCREATE 訊息要求 capture 驅動程式手動取樣影片畫面，並建立新的調色板。 您可以使用 capPaletteManual 宏明確地傳送此訊息。
 ms.assetid: 96b6b2d6-084a-411e-8495-ea27e0c4f04f
 keywords:
-- WM_CAP_PAL_MANUALCREATE message Windows 多媒體
+- WM_CAP_PAL_MANUALCREATE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dfd5b6588381ede0faaae539d3d8418b041f458
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8cc313cb6eae8e757d0777642bbc0ab72fe07fcfbf5b530a6479675c8ab3c07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781289"
 ---
 # <a name="wm_cap_pal_manualcreate-message"></a>WM \_ CAP \_ PAL \_ MANUALCREATE 訊息
 

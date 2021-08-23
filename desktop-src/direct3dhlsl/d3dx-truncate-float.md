@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8768a38fbcf2ef8058c2652e177d317e5b055e90
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 296c4297b10cca14c3413dc71f1a85251fb65a83bbd1cfa0373de48dc2f5da49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673988"
 ---
 # <a name="d3dx_truncate_float-function"></a>D3DX \_ 截斷 \_ FLOAT 函數
 

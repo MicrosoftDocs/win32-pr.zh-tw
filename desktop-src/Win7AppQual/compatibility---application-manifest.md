@@ -4,19 +4,19 @@ ms.assetid: f022374d-ea3f-477f-9b59-3188b775ed64
 title: 應用程式資訊清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80c52b8eb2af87c271151be3d7989f50b2903084
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f9ea81440458bb5ac106fd891cc370ebb2b2fcc1db2a70022bf746bd81dd1acd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680208"
 ---
 # <a name="application-manifest"></a>應用程式資訊清單
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
 **客戶** 端-Windows 7  
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
 
 
@@ -35,17 +35,17 @@ ms.locfileid: "108088586"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-Windows 7 在名為「相容性」的應用程式資訊清單中引進了新的區段。 本節可協助 Windows 判斷應用程式設計成目標的 Windows 版本，並讓 Windows 根據應用程式的目標 Windows 版本提供應用程式預期的行為。
+Windows 7 在名為「相容性」的應用程式資訊清單中引進了新的區段。 本節可協助 Windows 判斷應用程式設計成目標 Windows 的版本，並可讓 Windows 根據應用程式的目標 Windows 版本提供應用程式所預期的行為。
 
-相容性區段可讓 Windows 將新的行為提供給新開發人員建立的軟體，同時維持現有軟體的相容性。 本節也可協助 Windows 在未來的 Windows 版本中提供更佳的相容性。 例如，在 [相容性] 區段中宣告僅支援 Windows 7 的應用程式將會在未來的 Windows 版本中繼續收到 Windows 7 行為。
+相容性區段可讓 Windows 將新的行為提供給新開發人員建立的軟體，同時維持現有軟體的相容性。 本節也有助於 Windows 在未來的 Windows 版本中提供更高的相容性。 例如，在相容性區段中僅針對 Windows 7 宣告支援的應用程式，將會在未來的 Windows 版本中繼續收到 Windows 7 的行為。
 
 ## <a name="manifestation-of-change"></a>變更的表現
 
-在其資訊清單中沒有相容性區段的應用程式，預設會在 Windows 7 和未來的 Windows 版本上收到 Windows Vista 行為。 請注意，Windows XP 和 Windows Vista 會忽略此資訊清單區段，而不會對它們產生任何影響。
+在其資訊清單中沒有相容性區段的應用程式，預設會在 Windows 7 和未來 Windows 版本上收到 Windows Vista 行為。 請注意，Windows XP 和 Windows Vista 會忽略此資訊清單區段，而不會對它們產生任何影響。
 
-下列 Windows 元件會根據 Windows 7 的相容性區段提供分歧的行為：
+下列 Windows 元件會根據 Windows 7 中的相容性區段，提供分歧的行為：
 
 **RPC 預設執行緒集區**
 
@@ -57,18 +57,18 @@ Windows 7 在名為「相容性」的應用程式資訊清單中引進了新的�
 
 **DirectDraw 鎖定**
 
--   **Windows 7：** 針對 Windows 7 所顯示的應用程式無法呼叫 DDRAW 中的鎖定 API 來鎖定主要桌面影片緩衝區。 這樣做會導致錯誤，而且會傳回主要複本的 **Null** 指標。 即使桌面視窗管理員組合未開啟，仍會強制執行此行為。 與 Windows 7 相容的應用程式不能鎖定主要影片緩衝區來呈現。
+-   **Windows 7：** 針對 Windows 7 所顯示的應用程式無法呼叫 DDRAW 中的鎖定 API 來鎖定主要桌面影片緩衝區。 這樣做會導致錯誤，而且會傳回主要複本的 **Null** 指標。 即使桌面視窗管理員組合未開啟，仍會強制執行此行為。 Windows 7 相容的應用程式不能鎖定主要影片緩衝區來呈現。
 -   **Windows Vista (預設) ：** 應用程式將能夠在主要影片緩衝區上取得鎖定，因為繼承應用程式相依于此行為。 執行應用程式會關閉桌面視窗管理員。
 
 **DirectDraw 位區塊傳輸 (Blt) 至主要未裁剪視窗**
 
--   **Windows 7：** 針對 Windows 7 所顯示的應用程式無法在沒有剪切視窗的情況下，執行 Blt 的主要桌面影片緩衝區。 這樣做會導致錯誤，而且不會轉譯 Blt 區域。 即使您沒有開啟桌面視窗管理員組合，Windows 仍會強制執行此行為。 與 Windows 7 相容的應用程式必須 Blt 至剪輯視窗。
+-   **Windows 7：** 針對 Windows 7 所顯示的應用程式無法在沒有剪切視窗的情況下，執行 Blt 的主要桌面影片緩衝區。 這樣做會導致錯誤，而且不會轉譯 Blt 區域。 即使您沒有開啟桌面視窗管理員組合，Windows 也會強制執行此行為。 Windows 7 相容的應用程式必須 Blt 至剪輯視窗。
 -   **Windows Vista (預設) ：** 應用程式必須能夠在不使用裁剪視窗的情況下 Blt 至主應用程式，因為繼承應用程式相依于此行為。 執行此應用程式會關閉桌面視窗管理員。
 
 **GetOverlappedResult API**
 
 -   **Windows 7：** 解決競爭條件，其中使用 GetOverlappedResult 的多執行緒應用程式可以在不重設重迭結構中的事件的情況下傳回，而導致下一次呼叫此函式傳回過早。
--   **Windows Vista (預設) ：** 針對應用程式可能相依的競爭條件提供行為。 如果應用程式想要在 Windows 7 行為之前避免此競爭情形，應等候重迭的事件，並在收到信號時呼叫 GetOverlappedResult，並使用 bWait = = **FALSE**。
+-   **Windows Vista (預設) ：** 針對應用程式可能相依的競爭條件提供行為。 希望在 Windows 7 行為之前避免此競爭的應用程式應該等候重迭的事件，並在收到信號時，呼叫 GetOverlappedResult with bWait = = **FALSE**。
 
 **程式相容性助理 (PCA)**
 
@@ -85,11 +85,11 @@ Windows 7 在名為「相容性」的應用程式資訊清單中引進了新的�
 
 -   **SupportedOS：** 支援的作業系統 GUID-對應至受支援作業系統的 Guid 如下：
 
-    -   適用于 Windows Vista 的 {e2011457-1546-43c5-a5fe-008deee3d3f0}：這是 switchback 內容的預設值。
-    -   適用于 Windows 7 的 {35138b9a-5d96-4fbd-8e2d-a2440225f93a}：在應用程式資訊清單中設定此值的應用程式會取得 Windows 7 行為。
+    -   {e2011457-1546-43c5-a5fe-008deee3d3f0} 針對 Windows Vista：這是 switchback 內容的預設值。
+    -   {35138b9a-5d96-4fbd-8e2d-a2440225f93a} 針對 Windows 7：在應用程式資訊清單中設定此值的應用程式會取得 Windows 7 行為。
 
     > [!Note]  
-    > Microsoft 會視需要產生並張貼未來 Windows 版本的 Guid。
+    > Microsoft 會視需要針對未來的 Windows 版本產生並張貼 guid。
 
      
 
@@ -121,18 +121,18 @@ Windows 7 在名為「相容性」的應用程式資訊清單中引進了新的�
 
 ## <a name="compatibility-performance-reliability-and-usability-testing"></a>相容性、效能、可靠性和可用性測試
 
-1.  使用新的相容性區段測試應用程式，並 `SupportedOS ID ={35138b9a-5d96-4fbd-8e2d-a2440225f93a}` 確保應用程式能正常運作，並使用最新的 Windows 7 行為
-2.  使用新的相容性區段測試應用程式，並 `SupportedOS ID ={e2011457-1546-43c5-a5fe-008deee3d3f0}` (或完全沒有本節) ，以確保應用程式在 windows 7 上使用 Windows Vista 行為正常運作
+1.  使用新的相容性區段測試應用程式，並 `SupportedOS ID ={35138b9a-5d96-4fbd-8e2d-a2440225f93a}` 確保應用程式能夠使用最新的 Windows 7 行為正確運作
+2.  使用新的相容性區段測試應用程式，並 `SupportedOS ID ={e2011457-1546-43c5-a5fe-008deee3d3f0}` (或完全不使用本節) ，以確保應用程式能在 Windows 7 上使用 Windows Vista 行為正常運作
 
 ## <a name="known-issues"></a>已知問題
 
-**內容不相符** 應用程式會在 Windows Vista 內容中執行，而不是在執行 Windows 7 或 Windows Server 2008 R2 x64 版本的電腦上的 Windows 7 內容中執行。
+**內容不相符** 應用程式會在 Windows Vista 內容中執行，而不是在執行 Windows 7 或 Windows Server 2008 R2 之 x64 版本的電腦上的 Windows 7 內容中執行。
 
-**解決方案** 所有支援的 x64 版本的 Windows 7 和 Windows Server 2008 R2，以及所有支援的 Itanium 架構版本的 Windows Server 2008 R2 都有更新可修正此錯誤。 移至 KB 978637 的 Microsoft 支援服務頁面 [：應用程式會在 Windows Vista 內容中執行，而不是在執行 windows 7 或 Windows Server 2008 R2 x64 版本的電腦上的 windows 7 內容中執行](https://support.microsoft.com/kb/978637) ，以取得其他詳細資料，並下載您系統的正確版本。
+**解決方案** 針對所有支援的 x64 版本的 Windows 7 和 Windows Server 2008 R2，以及所有支援的 Itanium 型 Windows Server 2008 r2 版本，都可以使用更新來修正此錯誤。 移至 KB 978637 的 Microsoft 支援服務頁面[：應用程式會在 Windows Vista 內容中執行，而不是在執行 Windows 7 或 Windows Server 2008 R2 x64 版本的電腦上的 Windows 7 內容中執行](https://support.microsoft.com/kb/978637)，以取得更多詳細資料，並下載您系統的正確版本。
 
 **封鎖損毀傾印診斷**
 
-**解決方案** 移至 KB 976038 的 Microsoft 支援服務頁面 [：在64位版本的 Windows 中執行的應用程式](https://support.microsoft.com/kb/976038) 所擲回的例外狀況會被忽略，以取得其他詳細資料。
+**解決方案** 移至 KB 976038 的 Microsoft 支援服務頁面 [：在64位版本的 Windows 中執行的應用程式](https://support.microsoft.com/kb/976038)所擲回的例外狀況會被忽略，以取得其他詳細資料。
 
 ## <a name="links-to-other-resources"></a>其他資源的連結
 

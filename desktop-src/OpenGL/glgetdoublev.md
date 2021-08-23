@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5acbb8a62141183c18cea79b3997f9490e18fb78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93b2195431ed6288281767f86db26cac96ee21023faa194a587c7c044d8c51f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742003"
 ---
 # <a name="glgetdoublev-function"></a>glGetDoublev 函式
 
@@ -298,7 +298,7 @@ void WINAPI glGetDoublev(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                  |
+| 名稱                                                                                                  | 意義                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *pname* 不是可接受的值。<br/>                                                                                            |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md)和 [**glEnd**](glend.md)的對應呼叫之間，呼叫 **glGetDoublev** 。<br/> |

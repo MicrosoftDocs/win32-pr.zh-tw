@@ -7,12 +7,12 @@ keywords:
 - 資料指標，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9014befcc41161d7491af97186b33088f508dd8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0d7be5b8e213dd1911d2227a3dce4b61078ab1a22711d4e765525c7fbd5bd08d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712608"
 ---
 # <a name="cursors"></a>資料指標
 
@@ -24,7 +24,7 @@ ms.locfileid: "104021529"
 
 
 
-| Name                                     | 描述                                                   |
+| 名稱                                     | 描述                                                   |
 |------------------------------------------|---------------------------------------------------------------|
 | [關於資料指標](about-cursors.md)       | 討論標準資料指標。<br/>                    |
 | [使用資料指標](using-cursors.md)       | 討論如何執行與資料指標相關的工作。<br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "104021529"
 
 
 
-| Name                                                 | 描述                                                                                                                                                                                                                                                                                            |
+| 名稱                                                 | 描述                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor)                     | 將游標範圍設為螢幕上的矩形區域。 如果後續的游標位置 (由 [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos) 函式所設定，或滑鼠) 位於矩形外，系統會自動調整位置，以將游標放在矩形區域內。 <br/> |
 | [**CopyCursor**](/windows/desktop/api/Winuser/nf-winuser-copycursor)                     | 複製指定的資料指標。 <br/>                                                                                                                                                                                                                                                               |
@@ -49,7 +49,7 @@ ms.locfileid: "104021529"
 | [**GetCursorInfo**](/windows/desktop/api/Winuser/nf-winuser-getcursorinfo)               | 抓取全域資料指標的相關資訊。<br/>                                                                                                                                                                                                                                              |
 | [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos)                 | 以螢幕座標抓取游標的位置。<br/>                                                                                                                                                                                                                                     |
 | [**GetPhysicalCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getphysicalcursorpos) | 抓取資料指標在實體座標中的位置。<br/>                                                                                                                                                                                                                               |
-| [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)                     | 從可執行檔 ( 載入指定的資料指標資源。EXE) 與應用程式實例相關聯的檔案。<br/>                                                                                                                                                                                |
+| [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)                     | 從可執行檔載入指定的資料指標資源， (.EXE) 與應用程式實例相關聯的檔案。<br/>                                                                                                                                                                                |
 | [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea)     | 根據檔案中包含的資料來建立資料指標。 <br/>                                                                                                                                                                                                                                        |
 | [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor)                       | 設定資料指標圖形。 <br/>                                                                                                                                                                                                                                                                     |
 | [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos)                 | 將游標移至指定的螢幕座標。 如果新座標不在最新的 [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) 函式呼叫所設定的螢幕矩形內，系統會自動調整座標，讓游標停留在矩形內。 <br/>    |
@@ -65,7 +65,7 @@ ms.locfileid: "104021529"
 
 
 
-| Name                                  | 描述                                                                                                          |
+| 名稱                                  | 描述                                                                                                          |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [**WM \_ SETCURSOR**](wm-setcursor.md) | 如果滑鼠導致游標在視窗內移動，且未捕捉到滑鼠輸入，則傳送至視窗。 <br/> |
 
@@ -77,7 +77,7 @@ ms.locfileid: "104021529"
 
 
 
-| Name                             | 描述                                    |
+| 名稱                             | 描述                                    |
 |----------------------------------|------------------------------------------------|
 | [**CURSORINFO**](/windows/win32/api/winuser/ns-winuser-cursorinfo) | 包含全域資料指標資訊。<br/> |
 

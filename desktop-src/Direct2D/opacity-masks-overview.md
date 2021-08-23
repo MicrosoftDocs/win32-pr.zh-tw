@@ -4,18 +4,18 @@ description: 本主題說明如何使用點陣圖和筆刷來定義不透明度�
 ms.assetid: 869821b0-6ebe-46c2-aab6-93177d8a92c5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49a4757a30247da465e0ae5226bd923219e3e665
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 51626fb2c76b82adeb3b12324db4652a62167db344f41e861c7b0f1d116059ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104556222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636292"
 ---
 # <a name="opacity-masks-overview"></a>不透明度遮罩概觀
 
 本主題說明如何使用點陣圖和筆刷來定義不透明度遮罩。 包含以下幾節。
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [什麼是不透明度遮罩？](#what-is-an-opacity-mask)
 -   [使用點陣圖作為 FillOpacityMask 方法的不透明度遮罩](#use-a-bitmap-as-an-opacity-mask-with-the-fillopacitymask-method)
 -   [使用 FillGeometry 方法將筆刷作為不透明度遮罩](#use-a-brush-as-an-opacity-mask-with-the-fillgeometry-method)
@@ -101,7 +101,7 @@ ms.locfileid: "104556222"
 現在已定義不透明度遮罩和筆刷，您可以在應用程式的轉譯方法中使用 [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) 方法。 當您呼叫 **FillOpacityMask** 方法時，您必須指定所使用的不透明度檢測類型： **D2D1 \_ 不透明度 \_ 遮罩 \_ 內容 \_ 圖形**、 **D2D1 \_ 不透明度 \_ 遮罩 \_ 內容 \_ 文字 \_ 自然**，以及 **D2D1 \_ 不透明度 \_ 遮罩 \_ 內容 \_ 文字 \_ \_ 與 GDI 相容**。 如需這三種類型的意義，請參閱 [**D2D1 \_ 不透明度 \_ 遮罩 \_ 內容**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content)。
 
 > [!Note]  
-> 從 Windows 8 開始，不需要 [**D2D1 不 \_ 透明度 \_ 遮罩 \_ 內容**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content) 。 請參閱 [**ID2D1DeviceCoNtext：： FillOpacityMask**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f_constd2d1_rect_f)) 方法，它沒有 **D2D1 \_ 不透明度 \_ 遮罩 \_ 內容** 參數。
+> 從 Windows 8 開始，不需要 [**D2D1 不 \_ 透明度 \_ 遮罩 \_ 內容**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content)。 請參閱 [**ID2D1DeviceCoNtext：： FillOpacityMask**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f_constd2d1_rect_f)) 方法，它沒有 **D2D1 \_ 不透明度 \_ 遮罩 \_ 內容** 參數。
 
  
 

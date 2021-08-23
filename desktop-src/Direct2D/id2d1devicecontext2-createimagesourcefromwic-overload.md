@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 20773912886840a185e1b9fc71576f89e9a40fde
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 91ca60f19a798d2c215d6810adafc08d83e96bf1923bd006f394910879cae14e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749628"
 ---
 # <a name="id2d1devicecontext2createimagesourcefromwic-methods"></a>ID2D1DeviceCoNtext2：： CreateImageSourceFromWic 方法
 

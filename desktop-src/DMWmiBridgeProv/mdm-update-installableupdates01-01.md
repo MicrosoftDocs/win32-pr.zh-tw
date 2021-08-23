@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2bcb9dd3ec026e6894d4ba7155cc41f12bc01e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6a1e8989a261ef57025210ddf15ef265df436c1a5a94166c43db38d09068ff19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795868"
 ---
 # <a name="mdm_update_installableupdates01_01-class"></a>MDM \_ Update \_ InstallableUpdates01 \_ 01 類別
 
@@ -100,7 +100,7 @@ class MDM_Update_InstallableUpdates01_01
 
 </dd> <dt>
 
-[型別](/windows/client-management/mdm/update-csp#installableupdates-installable-update-guid-type)
+[類型](/windows/client-management/mdm/update-csp#installableupdates-installable-update-guid-type)
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**
@@ -117,7 +117,7 @@ class MDM_Update_InstallableUpdates01_01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                            |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1 mof</dt> </dl>      |

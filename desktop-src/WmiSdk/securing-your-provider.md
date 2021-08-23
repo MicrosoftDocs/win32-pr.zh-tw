@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 保護您的提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b6b8fef1e90f09bc09488c058240b7fd1a88ebd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dec112c7e207a23d36700d8fb5de3b3964590b514f9cf5a6aa5fbc03243cf40
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732838"
 ---
 # <a name="securing-your-provider"></a>保護您的提供者
 

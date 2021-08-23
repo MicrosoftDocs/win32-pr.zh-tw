@@ -4,12 +4,12 @@ ms.assetid: 027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35
 title: 使用 Unicode 正規化來代表字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad452db3bc20518320afcf77e5f6483e010cd144
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62c6d091548d924919a18fe05fb9d98d2b82b13792df2facfe96489be2d7ff2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822488"
 ---
 # <a name="using-unicode-normalization-to-represent-strings"></a>使用 Unicode 正規化來代表字串
 
@@ -55,7 +55,7 @@ Forms KC 和 KD 分別類似表單 C 和 D，但這些「相容性表單」具�
 
 表單 KC 是組成的表單，而表單 KD 是分解的表單。 應用程式可以在表單 KC 與 KD 之間來回移動，但沒有一致的方式可從表單 KC 或 KD 回原始字串，即使原始字串的格式為 C 或 D。
 
-Windows、Microsoft 應用程式和 .NET Framework 通常會使用一般的輸入方法，以 C 格式產生字元。 針對大部分的 Windows 用途，表單 C 是慣用的形式。 例如，C 格式的字元是由 Windows 鍵盤輸入所產生。 不過，從 Web 和其他平臺匯入的字元可能會將其他正規化形式引入資料流程中。
+Windows，Microsoft 應用程式和 .NET Framework 通常會使用一般輸入方法來產生表單 C 中的字元。 在 Windows 的大部分情況下，表單 C 是慣用的表單。 例如，C 格式的字元是由 Windows 鍵盤輸入所產生。 不過，從 Web 和其他平臺匯入的字元可能會將其他正規化形式引入資料流程中。
 
 下列範例取自 UAX \# 15，並說明四種正規化表單之間的差異。
 

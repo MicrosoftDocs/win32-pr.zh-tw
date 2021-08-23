@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 927e561fa557ac33b1669ca7353377f7814ca448
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 505a11b9a8d3c12586e25faa822b127e0b8bb636f6655eb617125a47fb84feaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104195768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832480"
 ---
 # <a name="cmediaevent-class"></a>CMediaEvent 類別
 
@@ -31,11 +31,11 @@ ms.locfileid: "104195768"
 
 
 
-| 成員函數                                         | Description                                                                                                                                                                                   |
+| 成員函數                                         | 描述                                                                                                                                                                                   |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CMediaEvent**](cmediaevent-cmediaevent.md)           | 結構 **CMediaEvent** 物件。                                                                                                                                                          |
-| IDispatch 方法                                        | Description                                                                                                                                                                                   |
-| [**GetIDsOfNames**](cmediaevent-getidsofnames.md)       | 將單一成員和一組選擇性的參數對應至一組對應的整數分派識別碼，可在後續呼叫 **IDispatch：： Invoke** 方法時使用。 |
+| IDispatch 方法                                        | 描述                                                                                                                                                                                   |
+| [**GetIDsOfNames**](cmediaevent-getidsofnames.md)       | 地圖單一成員和一組選擇性的參數，指派給一組對應的整數分派識別碼，可在對 **IDispatch：： Invoke** 方法的後續呼叫期間使用。 |
 | [**GetTypeInfo**](cmediaevent-gettypeinfo.md)           | 抓取類型資訊物件，此物件會捕獲介面的類型資訊。                                                                                                   |
 | [**GetTypeInfoCount**](cmediaevent-gettypeinfocount.md) | 抓取物件所提供的類型資訊介面數目。                                                                                                                    |
 | [**調用**](cmediaevent-invoke.md)                     | 提供物件所公開的屬性和方法的存取權。                                                                                                                               |

@@ -4,12 +4,12 @@ ms.assetid: 97118b64-3a2f-49c0-92e7-324df08bdb12
 title: 效能計數器結構
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 0629aa1763f08dfce9e2cc646bd1b5744d6591cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00e9a505a9fe74592f571f3db108af2247a6d44889bc3ddbc2e4dae0844600b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674748"
 ---
 # <a name="performance-counters-structures"></a>效能計數器結構
 

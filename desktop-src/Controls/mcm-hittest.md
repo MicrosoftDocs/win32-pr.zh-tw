@@ -3,7 +3,7 @@ title: 'MCM_HITTEST 訊息 (Commctrl .h) '
 description: 判斷月曆控制項的哪個部分位於螢幕上的指定點。 您可以使用 MonthCal System.windows.media.visualtreehelper.hittest 宏明確地傳送此訊息 \_ 。
 ms.assetid: 51e74b07-4ed7-488d-ad5d-116f046577fc
 keywords:
-- MCM_HITTEST message Windows 控制項
+- MCM_HITTEST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3670ac8ab663ceda1786f7136a50c4da255a76c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ab43ae76a2e747ff019a5bafa32870a208851a143ad94dd0679e894366c3592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697188"
 ---
 # <a name="mcm_hittest-message"></a>MCM \_ system.windows.media.visualtreehelper.hittest 訊息
 
@@ -45,7 +45,7 @@ ms.locfileid: "103685604"
 
 
 
-| 傳回碼                                                                                           | Description                                                                                                                                                                                                                                                               |
+| 傳回碼                                                                                           | 描述                                                                                                                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**MCHT 行事 \_ 曆**</dt> </dl>         | 指定的點在行事曆內。<br/>                                                                                                                                                                                                                       |
 | <dl> <dt>**MCHT \_ CALENDARBK**</dt> </dl>       | 指定的點在行事曆的背景中。<br/>                                                                                                                                                                                                              |
@@ -75,8 +75,8 @@ ms.locfileid: "103685604"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

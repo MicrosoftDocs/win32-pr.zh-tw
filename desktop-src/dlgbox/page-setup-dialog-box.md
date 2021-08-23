@@ -3,8 +3,8 @@ title: 版面設定對話方塊
 description: 顯示模式對話方塊，可讓使用者選擇包含紙張類型、紙張來源、頁面方向和頁面邊界寬度的設定。
 ms.assetid: debde0a0-07d4-46ed-a936-e517eab1852d
 keywords:
-- Windows 消費者介面，使用者輸入
-- Windows 消費者介面、通用對話方塊程式庫
+- Windows消費者介面，使用者輸入
+- Windows消費者介面，通用對話方塊程式庫
 - 使用者輸入、通用對話方塊程式庫
 - 正在捕獲使用者輸入，通用對話方塊程式庫
 - 通用對話方塊程式庫
@@ -16,12 +16,12 @@ keywords:
 - 對話方塊，頁面設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4b9a8f7f30a8313017dc3a124cdccb7d00c872b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1af64357be8bd39217c6527dc81f7ac426f5e06e183de92b3bb479f4633c75d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741650"
 ---
 # <a name="page-setup-dialog-box"></a>版面設定對話方塊
 
@@ -67,7 +67,7 @@ ms.locfileid: "104093259"
 
 
 
- 
+ 
 
 ## <a name="customizing-the-page-setup-dialog-box"></a>自訂版面設定對話方塊
 
@@ -119,7 +119,7 @@ ms.locfileid: "104093259"
 
 
 
- 
+ 
 
 如果此攔截程式針對繪製順序的前三個訊息中的任一個傳回 **TRUE** ([**WM \_ psd \_ PAGESETUPDLG**](wm-psd-pagesetupdlg.md)、 [**wm \_ psd \_ FULLPAGERECT**](wm-psd-fullpagerect.md)或 [**WM \_ psd \_ MINMARGINRECT**](wm-psd-minmarginrect.md)) 對話方塊不會傳送其他訊息，也不會在範例頁面中繪製，直到下次系統需要重新繪製範例頁面為止。 如果這三個訊息的攔截程式都傳回 **FALSE** ，則對話方塊會傳送繪圖順序的其餘訊息。
 
@@ -127,6 +127,6 @@ ms.locfileid: "104093259"
 
 若要防止對話方塊繪製範例頁面的內容，您可以設定 **PSD \_ DISABLEPAGEPAINTING** 旗標。 此旗標不會影響您的 [**PagePaintHook**](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook)攔截程式，它仍會接收所有的 **WM \_ PSD \_ \*** 訊息，並且可以繪製範例頁面內容。
 
- 
+ 
 
- 
+ 

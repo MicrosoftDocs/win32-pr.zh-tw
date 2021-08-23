@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f46fc4e8c348b1d03d19e815f658e0f637b8f880
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e7059e0d9b2d91b6a938c67445f185a2c9be0daf5831c30b235918ab7820b1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832168"
 ---
 # <a name="cmediasamplesetmediatype-method"></a>CMediaSample. SetMediaType 方法
 
@@ -55,7 +55,7 @@ HRESULT SetMediaType(
 
 
 
-| 傳回碼                                                                                   | Description                    |
+| 傳回碼                                                                                   | 描述                    |
 |-----------------------------------------------------------------------------------------------|--------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | Success<br/>             |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足<br/> |

@@ -1,19 +1,19 @@
 ---
-description: 下列主題描述如何搭配 c + + 程式設計語言使用 GDI + API：
+description: 下列主題描述如何搭配使用 GDI+ API 與 c + + 程式設計語言：
 ms.assetid: 659881f3-ada3-4731-95b9-2ef7a8a445a9
-title: 使用 GDI +
+title: 使用 GDI+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecbf4b72d3d4519bafb035a0c9c3b20e55cd71c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9ff833fdfd5cc4a68df7ea78ce0246e3cd39395d4195152fbd32e9e8f9aaf37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778568"
 ---
-# <a name="using-gdi"></a>使用 GDI +
+# <a name="using-gdi"></a>使用 GDI+
 
-下列主題描述如何搭配 c + + 程式設計語言使用 GDI + API：
+下列主題描述如何搭配使用 GDI+ API 與 c + + 程式設計語言：
 
 -   [快速入門](-gdiplus-getting-started-use.md)
 -   [使用畫筆繪製線條和形狀](-gdiplus-using-a-pen-to-draw-lines-and-shapes-use.md)

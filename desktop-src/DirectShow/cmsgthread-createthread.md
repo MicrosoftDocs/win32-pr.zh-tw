@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8951995de18158fe4d1e5f84b1d98da701067ab6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3681716af79d0c47ae08371caa2d03d236b9748d98b08098d7a6834a93ed9b2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831868"
 ---
 # <a name="cmsgthreadcreatethread-method"></a>CMsgThread. CreateThread 方法
 
@@ -46,7 +46,7 @@ BOOL CreateThread();
 
 
 
-| 傳回碼                                                                              | Description                                     |
+| 傳回碼                                                                              | 描述                                     |
 |------------------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>TRUE * * * *</dt> </dl>  | 已成功建立執行緒。<br/>     |
 | <dl> <dt>FALSE * * * *</dt> </dl> | 未成功建立執行緒。<br/> |

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2c2f14940a2ad41bed24493396e2bacfba2f0a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54e254ce6258cf667884e2815508b413ed1455b1b6924bfebb4edc900da048c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736198"
 ---
 # <a name="externallibrarylocationtype"></a>LibraryLocationType
 
@@ -41,7 +41,7 @@ window.external.libraryLocationType
 
 ## <a name="remarks"></a>備註
 
-這個屬性與 [libraryLocationID](external-librarylocationid.md) 屬性搭配使用。 例如，假設 **libraryLocationType** 等於 CPAlbumID，而 **libraryLocationID** 等於3。 這表示 Windows Media Player 中的目前視圖顯示識別碼為3的專輯。 如需 Windows Media Player 如何讓線上商店內容的觀點有詳細的詳細資訊，請參閱 [位置和選取的專案](location-and-selected-item.md)。
+這個屬性與 [libraryLocationID](external-librarylocationid.md) 屬性搭配使用。 例如，假設 **libraryLocationType** 等於 CPAlbumID，而 **libraryLocationID** 等於3。 這表示 Windows Media Player 中的目前視圖顯示識別碼為3的專輯。 如需 Windows Media Player 如何讓線上商店內容的觀點有詳細的詳細資訊，請參閱[位置和選取的專案](location-and-selected-item.md)。
 
 ## <a name="requirements"></a>規格需求
 

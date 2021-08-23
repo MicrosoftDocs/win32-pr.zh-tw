@@ -4,12 +4,12 @@ ms.assetid: 3e96283b-1085-4ace-b004-2fd94310eeb2
 title: RemoveExistingProducts 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dea3b792b02352277e8f29fa422b093fe876b560
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c3118ebd01aa39b0d9a5dad29ad1c3563c869ed5e0ebc8dfefd5ecd5c89301f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810928"
 ---
 # <a name="removeexistingproducts-action"></a>RemoveExistingProducts 動作
 
@@ -40,7 +40,7 @@ RemoveExistingProducts 動作會經歷 [升級資料表](upgrade-table.md) 的 A
 
 ## <a name="remarks"></a>備註
 
-Windows Installer 會在執行此動作時設定 [**UPGRADINGPRODUCTCODE**](upgradingproductcode.md) 屬性。
+Windows安裝程式在執行此動作時，會設定 [**UPGRADINGPRODUCTCODE**](upgradingproductcode.md)屬性。
 
  
 

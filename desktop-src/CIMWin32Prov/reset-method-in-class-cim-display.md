@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1b9910a99cd624de8b9b160efddc8527b60c23d5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c64dc0a2c7b354a6aa134886136c2760fd86e81bdad5da81819621ae66b8285b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104467977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801028"
 ---
 # <a name="reset-method-of-the-cim_display-class"></a>CIM 顯示類別的 Reset 方法 \_
 

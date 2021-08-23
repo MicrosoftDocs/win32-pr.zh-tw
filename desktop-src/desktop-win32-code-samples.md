@@ -3,12 +3,12 @@ title: Desktop Win32 程式碼範例
 description: 關於 Win32 的範例存放庫，以及如何在這些範例中進行搜尋。
 ms.topic: article
 ms.date: 03/19/2021
-ms.openlocfilehash: 5a4083697d444f36b31c553a2d6159d4370565d4
-ms.sourcegitcommit: 46e75903326c49a6c5cc576ee2b4f67f64a6d5ff
+ms.openlocfilehash: 779ff47e8a8d9114c1dee88f441288a145811fdf870e23dc8dcec48bfa488db6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106976756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635488"
 ---
 # <a name="desktop-win32-code-samples"></a>Desktop Win32 程式碼範例
 
@@ -19,19 +19,19 @@ ms.locfileid: "106976756"
 您可以使用 Microsoft Visual Studio 來搜尋整個存放庫的原始程式碼，以查看是否正在示範特定 Windows API 的使用方式。
 
 * 複製下列各節中所列的任何存放庫， (或將 ZIP) 下載至本機檔案系統。
-* 然後在 Visual Studio 的檔案中 **尋找** 。 將 [ **查詢** ] 設定為您所複製或下載的資料夾，並搜尋您感興趣的 API 名稱。 檢查 **相符的大小寫** 可提供最佳結果。
+* 然後在 Visual Studio 的檔案中 **尋找**。 將 [ **查詢** ] 設定為您所複製或下載的資料夾，並搜尋您感興趣的 API 名稱。 檢查 **相符的大小寫** 可提供最佳結果。
 * 如果可在各種形式中呼叫 API &mdash; （例如， **CreateMutex**、 **CreateMutexA** 和 **CreateMutexW**），請小心檢查全字相符。 在這種情況下，請在未核取 **全字** 的情況下搜尋 **CreateMutex** 。
 
 > [!NOTE]
-> 您可以安裝 [Visual Studio](https://visualstudio.microsoft.com/downloads/) 而不需要支付費用。 有提供 &mdash; 免費的學生、開放原始碼參與者及個人版的社區版。 當然，您也可以使用任何範例存放庫來進行相同的動作。
+> 您可以安裝[Visual Studio](https://visualstudio.microsoft.com/downloads/)而不需要支付費用。 &mdash;學生、開放原始碼參與者及個人均可免費使用 Community 版。 當然，您也可以使用任何範例存放庫來進行相同的動作。
 
 ## <a name="the-windows-classic-samples-repo"></a>Windows 傳統範例存放庫
 
-包含使用 WIN32 API 之範例 Windows 應用程式的主要存放庫是 [Windows 傳統範例](https://github.com/Microsoft/Windows-classic-samples) 存放庫。
+包含使用 WIN32 API 之範例 Windows 應用程式的主要存放庫是[Windows 傳統範例](https://github.com/Microsoft/Windows-classic-samples)存放庫。
 
 ## <a name="directx-samples"></a>DirectX 範例
 
-請參閱適用于 DirectX 12 圖形範例的 [Directx 圖形範例](https://github.com/Microsoft/DirectX-Graphics-Samples) 存放庫，其示範如何針對 Windows 10 建立需要大量圖形的應用程式。
+請參閱適用于 DirectX 12 圖形範例的[Directx 圖形範例](https://github.com/Microsoft/DirectX-Graphics-Samples)存放庫，其示範如何針對 Windows 10 建立需要大量圖形的應用程式。
 
 另請參閱 [DirectX 範例](/windows/uwp/gaming/directx-samples)。
 

@@ -4,12 +4,12 @@ ms.assetid: 7BF17538-BE92-44FE-BA3C-6B44F61D478A
 title: 'IPV6_PKTINFO 通訊端選項 (Ws2ipdef) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5afd5b19cbaba7f6a66f5ba6fbd85d74eb2f2e3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1bee015e7a73b803d78ae914e71a863dec83e4f40fc1aea9f631a54b37c586a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733768"
 ---
 # <a name="ipv6_pktinfo-socket-option"></a>IPV6 \_ PKTINFO 通訊端選項
 
@@ -103,7 +103,7 @@ int setsockopt(
 | <dl> <dt>**[WSANOTINITIALISED](windows-sockets-error-codes-2.md)**</dt> </dl> | 在使用此函式之前，必須先進行成功的 [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) 呼叫。<br/>                                                                                                                                                     |
 | <dl> <dt>**[WSAENETDOWN](windows-sockets-error-codes-2.md)**</dt> </dl>             | 網路子系統失敗。<br/>                                                                                                                                                                                                               |
 | <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md)**</dt> </dl>                 | 其中一個 *optval* 或 *optlen* 參數指向不在使用者位址空間有效部分的記憶體。 如果 *optlen* 參數所指向的值小於 **DWORD** 值的大小，也會傳回此錯誤。<br/> |
-| <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md)**</dt> </dl>       | 封鎖的 Windows 通訊端1.1 呼叫正在進行中，或服務提供者仍在處理回呼函數。<br/>                                                                                                                            |
+| <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md)**</dt> </dl>       | 封鎖 Windows 通訊端1.1 呼叫正在進行中，或服務提供者仍在處理回呼函數。<br/>                                                                                                                            |
 | <dl> <dt>**[WSAEINVAL](windows-sockets-error-codes-2.md)**</dt> </dl>                 | 提供的引數無效。 如果 *層級* 參數未知或無效，就會傳回此錯誤。 在 Windows Vista 和更新版本上，如果通訊端處於過渡狀態，也會傳回此錯誤。<br/>                                     |
 | <dl> <dt>**[WSAENOPROTOOPT](windows-sockets-error-codes-2.md)**</dt> </dl>       | 指定的通訊協定系列未知或不支援此選項。 如果傳入 *s* 參數的通訊端描述項的 *類型* 參數不是 **SOCK \_ DGRAM** 或 **SOCK \_ RAW**，則會傳回此錯誤。 <br/>                          |
 | <dl> <dt>**[WSAENOTSOCK](windows-sockets-error-codes-2.md)**</dt> </dl>             | 描述項不是通訊端。<br/>                                                                                                                                                                                                                 |
@@ -132,8 +132,8 @@ int setsockopt(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Ws2ipdef (包含 Ws2tcpip) </dt> </dl> |
 
 

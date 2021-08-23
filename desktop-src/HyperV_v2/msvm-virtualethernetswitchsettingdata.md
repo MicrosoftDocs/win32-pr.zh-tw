@@ -42,12 +42,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3eccbd9dabe853f01c54c78ca651d590afc49f17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbd8cd77a96301187e9b5c9f8544a23b616bf9db78af6560296660b0a3995bed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681238"
 ---
 # <a name="msvm_virtualethernetswitchsettingdata-class"></a>Msvm \_ VirtualEthernetSwitchSettingData 類別
 
@@ -381,7 +381,7 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 存取類型：唯讀
 </dt> </dl>
 
-指定可由交換器提供的唯一 MAC 位址數目上限，以支援 MAC 位址學習（如 IEEE 802.1 標準所定義）。 這個屬性繼承自 **CIM \_ VirtualEthernetSwitchSettingData**。
+指定可由交換器提供的唯一 MAC 位址數目上限，以支援 MAC 位址 Learning （如 IEEE 802.1 標準所定義）。 這個屬性繼承自 **CIM \_ VirtualEthernetSwitchSettingData**。
 
 </dd> <dt>
 
@@ -410,7 +410,7 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 指定是否應該使用 PacketDirect （如果有的話）。 預設值為 **false**。
 
 > [!Note]  
-> 這個屬性是在 Windows 10 和 Windows Server 2016 中新增的。
+> 此屬性已加入 Windows 10 和 Windows Server 2016 中。
 
  
 
@@ -480,7 +480,7 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 指定是否應該使用「NIC 小組」。 預設值為 **false**。
 
 > [!Note]  
-> 此屬性已新增至 Windows 10 和 Windows Server 2016。
+> 已將此屬性新增至 Windows 10 和 Windows Server 2016。
 
  
 
@@ -531,8 +531,8 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

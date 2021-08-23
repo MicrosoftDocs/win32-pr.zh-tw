@@ -4,12 +4,12 @@ ms.assetid: f8cf70ff-8324-4308-8adf-a145aa351ca9
 title: 媒體檔案的自訂中繼資料提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2ded77492d03f7b802f6b2f9c25e1009ef97f50
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 1951fd90265299cb53369d521193740b7d4d05e0f1650583965eb670ab375cc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777598"
 ---
 # <a name="custom-metadata-providers-for-media-files"></a>媒體檔案的自訂中繼資料提供者
 
@@ -42,7 +42,7 @@ ms.locfileid: "106986673"
 -   若要將屬性處理常式提供給 Shell 屬性系統，請如 [註冊和散發屬性處理常式](../properties/prophand-reg-dist.md)中所述，註冊屬性處理常式的 DLL。
 -   媒體來源會分開註冊，如 [配置處理常式和 Byte-Stream 處理常式](scheme-handlers-and-byte-stream-handlers.md)中所述。
 
-### <a name="implementation-tips"></a>執行秘訣
+### <a name="implementation-tips"></a>執行提示
 
 如需中繼資料屬性索引鍵的清單，請參閱媒體檔案的 [中繼資料屬性](metadata-properties-for-media-files.md)。
 

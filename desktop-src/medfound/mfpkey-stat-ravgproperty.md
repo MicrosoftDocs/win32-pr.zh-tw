@@ -4,12 +4,12 @@ ms.assetid: 8ed6bfa8-5515-430d-8a50-ad9668dc3aea
 title: 'MFPKEY_STAT_RAVG 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acd8493cf55251b3ceb67d280ba57ead86f9363f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d99b56dbd8ddc38fb69302698f103e96c513c2aaaf308f5069cd706b4ff5b411
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713818"
 ---
 # <a name="mfpkey_stat_ravg-property"></a>MFPKEY \_ STAT \_ RAVG 屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "106987123"
 
 | 需求 | 值 |
 |-------------------|-----------------------------------------------------------------------------------------|
-| 用戶端<br/> | Windows XP、Windows Vista 或 Windows 7<br/>                                       |
+| 用戶端<br/> | WindowsXP、Windows Vista 或 Windows 7<br/>                                       |
 | 標頭<br/> | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

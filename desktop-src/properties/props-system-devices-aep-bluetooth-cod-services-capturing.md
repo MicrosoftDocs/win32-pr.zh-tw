@@ -1,19 +1,19 @@
 ---
-description: 裝置服務捕獲的藍牙類別。
+description: 裝置服務捕獲藍牙類別。
 ms.assetid: 56cb3cc0-0186-4230-8c1f-564ad0034c46
-title: Aep... a。
+title: Aep。藍牙。. 服務. 捕獲
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0abd6624c989a73848bd1ad82b4f895c20a0154b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f93e9621f0e943fb9f4ad04b7c63b311e6ab0cb866f0bc4dc45de99a0a03dce7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775978"
 ---
-# <a name="systemdevicesaepbluetoothcodservicescapturing"></a>Aep... a。
+# <a name="systemdevicesaepbluetoothcodservicescapturing"></a>Aep。藍牙。. 服務. 捕獲
 
-裝置服務捕獲的藍牙類別。
+裝置服務捕獲藍牙類別。
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版
 

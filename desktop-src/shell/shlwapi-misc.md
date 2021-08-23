@@ -1,5 +1,5 @@
 ---
-description: 本節說明 Shlwapi.dll 所匯出的 Windows Shell 函式，並在不屬於其他公用程式函式類別的 Shlwapi 和 Shlwapi 中定義。
+description: 本節描述 Shlwapi.dll 所匯出的 Windows Shell 函式，並在不屬於其他公用程式函式類別的 Shlwapi 和 Shlwapi 中定義。
 title: Shell 其他公用程式函式
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d60a0efbe9bffda671fb3be87d60357766d645e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87c4d7c585ce9a6cbae1702d4c49da3dcea5a0a465d32d8a6221d6c5783114ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709398"
 ---
 # <a name="shell-miscellaneous-utility-functions"></a>Shell 其他公用程式函式
 
-本節說明 Shlwapi.dll 所匯出的 Windows Shell 函式，並在不屬於其他公用程式函式類別的 Shlwapi 和 Shlwapi 中定義。
+本節描述 Shlwapi.dll 所匯出的 Windows Shell 函式，並在不屬於其他公用程式函式類別的 Shlwapi 和 Shlwapi 中定義。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -29,7 +29,7 @@ ms.locfileid: "104026905"
 | [**DllInstall**](/windows/desktop/api/Shlwapi/nf-shlwapi-dllinstall)<br/>                             | 處理 DLL 的安裝和設定。<br/>                                                                                                                                                                                                                             |
 | [**GetProcessReference**](/windows/desktop/api/Shlwapi/nf-shlwapi-getprocessreference)<br/>           | 抓取 [**SetProcessReference**](/windows/desktop/api/Shlwapi/nf-shlwapi-setprocessreference)所提供的進程特定物件，遞增參考計數以使進程保持運作。<br/>                                                                                                     |
 | [**HashData**](/windows/desktop/api/Shlwapi/nf-shlwapi-hashdata)<br/>                                 | 雜湊資料的陣列。<br/>                                                                                                                                                                                                                                              |
-| [**IsInternetESCEnabled**](/windows/desktop/api/Shlwapi/nf-shlwapi-isinternetescenabled)<br/>         | 判斷 Windows Internet Explorer 是否在增強式安全性設定中。<br/>                                                                                                                                                                               |
+| [**IsInternetESCEnabled**](/windows/desktop/api/Shlwapi/nf-shlwapi-isinternetescenabled)<br/>         | 判斷 Windows Internet Explorer 是否位於增強式安全性設定中。<br/>                                                                                                                                                                               |
 | [**Iso**](/windows/desktop/api/Shlwapi/nf-shlwapi-isos)<br/>                                         | 檢查指定的作業系統和作業系統功能。<br/>                                                                                                                                                                                                 |
 | [**IStream \_ 複製**](/windows/desktop/api/Shlwapi/nf-shlwapi-istream_copy)<br/>                        | 將資料流程複製到另一個資料流程。<br/>                                                                                                                                                                                                                                    |
 | [**IStream \_ 讀取**](/windows/desktop/api/Shlwapi/nf-shlwapi-istream_read)<br/>                        | 從指定的資料流程讀取位元組，並傳回值，這個值表示是否已成功讀取所有的位元組。<br/>                                                                                                                                                      |

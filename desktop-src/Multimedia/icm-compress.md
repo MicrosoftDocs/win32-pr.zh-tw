@@ -3,7 +3,7 @@ title: 'ICM_COMPRESS 訊息 (Vfw .h) '
 description: ICM \_ 壓縮訊息會通知視訊壓縮驅動程式，將資料框架壓縮成應用程式定義的緩衝區。
 ms.assetid: d95b943f-458d-4a5e-bab1-e3648d323395
 keywords:
-- ICM_COMPRESS message Windows 多媒體
+- ICM_COMPRESS 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8021a4c18ab47c9b5b848dd1cb097358f2714bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1230f429eb49596dd8a450b8a384e0a69856b69c51141834458c09fa41ca54d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678468"
 ---
-# <a name="icm_compress-message"></a>ICM \_ 壓縮訊息
+# <a name="icm_compress-message"></a>ICM \_壓縮訊息
 
 **ICM \_ 壓縮** 訊息會通知視訊壓縮驅動程式，將資料框架壓縮成應用程式定義的緩衝區。
 

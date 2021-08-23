@@ -14,12 +14,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: cf7cfa41c3decc964492258dad9c6a3a497f504b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1aca1eac7218528e897a2a519543d80ab4ae2be3fa5d11a4107b02f1b23f2061
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698188"
 ---
 # <a name="direct2d-and-direct3d-interoperability-overview"></a>Direct2D 和 Direct3D 互通性概觀
 
@@ -29,7 +29,7 @@ ms.locfileid: "108089186"
 
 包含以下幾節。
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [支援的 Direct3D 版本](#supported-direct3d-versions)
 -   [透過 DXGI 的互通性](#interoperability-through-dxgi)
 -   [使用 DXGI 介面轉譯目標寫入至 Direct3D 介面](#writing-to-a-direct3d-surface-with-a-dxgi-surface-render-target)
@@ -76,7 +76,7 @@ DXGI 介面轉譯目標不會執行 DXGI 介面同步處理。
 
 此外，與 DXGI 介面相關聯的 [**ID3D10Device1**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1) 必須支援 BGRA DXGI 格式，才能讓介面與 Direct2D 搭配使用。 若要確保此支援，請在呼叫 [**D3D10CreateDevice1**](/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1)方法來建立裝置時，使用 [**D3D10 \_ create \_ device \_ BGRA \_ support**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag)旗標。
 
-下列程式碼會定義建立 [**ID3D10Device1**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1)的方法。 它會選取可用的最佳功能等級，並在硬體轉譯無法使用時，切換回 [Windows Advanced 點陣化平臺 (變形) ](./installing-the-direct2d-debug-layer.md) 。
+下列程式碼會定義建立 [**ID3D10Device1**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1)的方法。 它會選取可用的最佳功能等級，並在無法使用硬體轉譯時，切換回[Windows 的 Advanced 點陣化平臺 (變形) ](./installing-the-direct2d-debug-layer.md) 。
 
 
 ```C++
@@ -392,7 +392,7 @@ DXGI 介面轉譯目標不支援 [**ID2D1RenderTarget：： Resize**](/windows/d
 [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))
 </dt> <dt>
 
-[Windows DirectX 圖形](../graphics-and-multimedia.md)
+[WindowsDirectX 圖形](../graphics-and-multimedia.md)
 </dt> </dl>
 
  

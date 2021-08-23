@@ -4,12 +4,12 @@ ms.assetid: e083f3bd-b2c5-429c-b18c-d7c443ec9abb
 title: 其他數位簽章程式設計工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6c8c6f7d75f458174bb4ab4ad3bf773efcf1cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 371956c558e3c68fb90f8ff4c392b76a6aa6a2f5938c766c44588650bdb3e086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720448"
 ---
 # <a name="additional-digital-signature-programming-tasks"></a>其他數位簽章程式設計工作
 

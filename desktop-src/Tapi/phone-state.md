@@ -4,12 +4,12 @@ ms.assetid: 74e74b62-8387-4056-83e6-2350b3da4077
 title: 'PHONE_STATE 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5db52f16d6c377087fd6ccadc5e70b5bb2865da2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90003eaa67cb3384b123c62827fcf52bae524b1e20f9f14c2391c46dc89a367c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796758"
 ---
 # <a name="phone_state-message"></a>電話 \_ 狀態訊息
 

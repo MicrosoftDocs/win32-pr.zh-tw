@@ -4,12 +4,12 @@ description: Direct3D 11 支援數個浮點數標記法。 所有浮點數計算
 ms.assetid: 33F21BD0-FDF8-4D35-95C0-0A3920814CB6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d83c87db0daa69c0393d0399ece5bdb6cf01d519
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 79d802c3ebc682ced58ceddbe3db0091755d0b30bb79ffbfc9ddb454d5d4d383
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677108"
 ---
 # <a name="floating-point-rules-direct3d-11"></a> (Direct3D 11) 的浮點規則
 
@@ -148,6 +148,6 @@ float11/float10 值 (v) 遵循下列規則：
 [紋理](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

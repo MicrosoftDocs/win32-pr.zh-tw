@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b970c979bb34ef0854755e042b6d36457c999be0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dd960081a21f51916f91d76c8235967b733848624cf36e02e20af792242b2a4e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762038"
 ---
 # <a name="msmq-site-gates-attribute"></a>MSMQ-網站-閘道屬性
 

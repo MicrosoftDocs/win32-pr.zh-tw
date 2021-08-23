@@ -4,17 +4,17 @@ description: 安裝通訊協定處理常式牽涉到將 DLL (s) 複製到 Progra
 ms.assetid: 3da32de1-2dc4-46d3-80d0-cc45a36f12f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec07f96a92b04fb489aeeb76b705efb81b5754f0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 49f6cce4337c8b2c3faf47411f76165b11ed13ff00dfebd66ac5307d6ca6a68c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716558"
 ---
 # <a name="installing-and-registering-protocol-handlers-legacy-windows-environment-features"></a> (舊版 Windows 環境功能安裝和註冊通訊協定處理常式) 
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在之後的版本中，請改用 [Windows Search](../search/-search-3x-wds-overview.md) 。
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在之後的版本中，請改用[Windows Search](../search/-search-3x-wds-overview.md) 。
 
 安裝 **通訊協定處理常式** 牽涉到將 DLL (s) 複製到 Program Files 目錄中的適當位置並加以註冊。
 
@@ -105,7 +105,7 @@ ms.locfileid: "104317083"
        (Default) = <Ver_Ind_ProgID>"
     ```
 
-4.  使用 Windows Desktop Search 註冊通訊協定處理常式：
+4.  使用 Windows 桌面搜尋來註冊通訊協定處理常式：
 
     ```
     HKEY_LOCAL_MACHINE\Software\Microsoft\RSSearch\ProtocolHandlers

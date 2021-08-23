@@ -4,12 +4,12 @@ ms.assetid: 36bf8203-aee1-4086-b23d-31f41222c86d
 title: 影像效果常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c4e12b2cd07dc95ae00aa0ecb94286def6851d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa0c964079da1bc11d03162308afddf3945bc242271b02482581448fe82d0064
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778738"
 ---
 # <a name="image-effect-constants"></a>影像效果常數
 

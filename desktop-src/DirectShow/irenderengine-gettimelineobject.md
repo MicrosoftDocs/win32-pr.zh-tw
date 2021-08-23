@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: aab8e9a5f77affc464763b1c5a5045eaa4fc042a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c21868dc705a5c9f3b40649540fcaadb1f9219a7443d58c59964606cb7ed7d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823358"
 ---
 # <a name="irenderenginegettimelineobject-method"></a>IRenderEngine：： GetTimelineObject 方法
 
@@ -58,7 +58,7 @@ HRESULT GetTimelineObject(
 
 
 
-| 傳回碼                                                                                            | Description                                    |
+| 傳回碼                                                                                            | 描述                                    |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                   | 成功。<br/>                            |
 | <dl> <dt>**E \_ 指標**</dt> </dl>              | 指標無效。<br/>                    |
@@ -78,7 +78,7 @@ HRESULT GetTimelineObject(
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

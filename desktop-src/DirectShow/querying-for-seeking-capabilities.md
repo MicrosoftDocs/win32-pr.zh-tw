@@ -4,18 +4,18 @@ ms.assetid: d1d8c708-75f2-4dc7-a33a-8dd2cea0ee00
 title: 查詢搜尋功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2aa763ab11267da0a9a13a920285491d83273a8d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7d1d4389d9e5fcf1466a039ae48bbffb2c26a41c29281101984f6a7a291789f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747448"
 ---
 # <a name="querying-for-seeking-capabilities"></a>查詢搜尋功能
 
-Microsoft® DirectShow®支援 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) 介面的搜尋。 篩選圖形管理員會公開此介面，但搜尋功能一律會由圖形中的篩選器來執行。
+Microsoft® DirectShow®支援 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)介面的搜尋。 篩選 Graph 管理員會公開此介面，但搜尋功能一律會由圖形中的篩選器來執行。
 
-某些資料無法 seeked。 例如，您不能從相機搜尋即時影片串流。 但是，如果資料流程是可搜尋的，則有各種類型的搜尋可能會受到支援。 這些包括：
+某些資料無法 seeked。 例如，您不能從相機搜尋即時影片串流。 但是，如果資料流程是可搜尋的，則有各種類型的搜尋可能會受到支援。 其中包含：
 
 -   搜尋至資料流程中的任意位置。
 -   正在抓取資料流程的持續時間。

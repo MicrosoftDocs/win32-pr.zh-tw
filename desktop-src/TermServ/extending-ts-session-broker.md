@@ -5,25 +5,25 @@ ms.assetid: f111d6e6-90ca-4eff-ab0e-02de25f7d6ad
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b84471bcf2125017b8eef273cdb78e61a9bc620
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f5c859320c11a128ab01a719d17abd9927ea96f312e0aa3df5f0be76dcc0226b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737688"
 ---
 # <a name="extending-terminal-services-session-broker"></a>擴充 Terminal Services Session Broker
 
 終端機服務會話代理人 (「TS 會話代理人」) 判斷起始連接的使用者是否已開啟會話。 如果是，TS 會話代理人會將連入連線路由傳送至遠端桌面工作階段主機 (RD 工作階段主機) 伺服器與現有的會話。 如果不是，則 TS 會話代理人會將連入連線以最少的會話路由傳送至 RD 工作階段主機伺服器。
 
-您可以使用 [**IWTSSBPlugin**](/windows/desktop/api/Tssbx/nn-tssbx-iwtssbplugin) COM 介面擴充 TS 會話代理人。 您可以使用此介面來管理 RD 工作階段主機伺服器的連線，以及任何類型的遠端桌面通訊協定 (RDP) 連線，例如在 Windows Server 2008 Hyper-v 虛擬機器主機上執行 Windows Vista Enterprise 集中化桌面 (VECD) 的來賓虛擬機器連線。
+您可以使用 [**IWTSSBPlugin**](/windows/desktop/api/Tssbx/nn-tssbx-iwtssbplugin) COM 介面擴充 TS 會話代理人。 您可以使用此介面來管理 RD 工作階段主機伺服器的連線，以及任何類型的遠端桌面通訊協定 (RDP) 連線，例如，連線至在 Windows Server 2008 hyper-v 虛擬機器主機上執行 Enterprise Vista (集中式桌面) VECD Windows 的來賓虛擬機器。
 
 [**IWTSSBPlugin**](/windows/desktop/api/Tssbx/nn-tssbx-iwtssbplugin)介面提供幾項優點：
 
 -   不需要在用戶端或 RD 工作階段主機伺服器上安裝代理程式。
 -   外掛程式可以與其他遠端桌面服務角色服務緊密互動，例如遠端桌面閘道 (RD 閘道) ，以及依賴 TS 會話代理人有關會話和電腦狀態的資訊。
 -   您可以使用外掛程式來管理支援 RDP 5.2 或更新版本之用戶端或伺服器裝置的連線。
--   您可以使用外掛程式來啟用 Windows Vista 企業集中式桌面解決方案。
+-   您可以使用外掛程式來啟用 Windows Vista Enterprise 集中式桌面解決方案。
 
 當您執行此介面的方法時，請記住下列幾點：
 
@@ -42,6 +42,6 @@ ms.locfileid: "103682855"
 [**IWTSSBPlugin**](/windows/desktop/api/Tssbx/nn-tssbx-iwtssbplugin)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

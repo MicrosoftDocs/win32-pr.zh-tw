@@ -3,7 +3,7 @@ title: 'MCIWNDM_NOTIFYMEDIA 訊息 (Vfw .h) '
 description: MCIWNDM \_ NOTIFYMEDIA 訊息會通知應用程式的父視窗已變更。
 ms.assetid: cc31502d-09a9-4580-9ff8-9c2be51c8e35
 keywords:
-- MCIWNDM_NOTIFYMEDIA message Windows 多媒體
+- MCIWNDM_NOTIFYMEDIA 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7026bd984e1d79775aac52caad56c87be6e8098e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aa64b17fb3910e518e5b5d4318f8d988cf71f8c314f047a5f2eed1ff80cc843d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783019"
 ---
 # <a name="mciwndm_notifymedia-message"></a>MCIWNDM \_ NOTIFYMEDIA 訊息
 
