@@ -4,12 +4,12 @@ ms.assetid: d2828269-6841-41a8-8d45-f864c7e85857
 title: 使用智慧的 t a 濾波器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5260469634c613fe05c25eb9f55e24e108e8c434
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8897a93e8be7582a4acce1a2822160c58cfe1df79eb2093bd5d96bad9629b64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650771"
 ---
 # <a name="using-the-smart-tee-filter"></a>使用智慧的 t a 濾波器
 

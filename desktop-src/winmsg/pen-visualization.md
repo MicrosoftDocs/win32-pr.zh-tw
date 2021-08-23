@@ -4,12 +4,12 @@ ms.assetid: 434DC272-DC1C-4091-BB38-DDCB1A635D8D
 title: '畫筆視覺效果 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e9a09aa8892647315eccbb1e8b3ca443e01c1ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60b9f75493a361cc167b65fba1783bc01f909d76211b1076e2faccc2e6f00116
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548488"
 ---
 # <a name="pen-visualization"></a>畫筆視覺效果
 
@@ -90,8 +90,8 @@ ms.locfileid: "104513436"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Winuser。h</dt> </dl> |
 
 

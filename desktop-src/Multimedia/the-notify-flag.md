@@ -6,12 +6,12 @@ keywords:
 - MCI_NOTIFY 旗標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9093e539becb4ba2f09b48d628a57d8243bd837c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cbec671a9810d31078eedf9b8557bcdc4fa7c3e82f688b7fd005f85cb4127476
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688268"
 ---
 # <a name="the-notify-flag"></a>通知旗標
 
@@ -19,6 +19,6 @@ ms.locfileid: "104375233"
 
 應用程式會在發出命令時，指定訊息的目的地視窗控制碼。 在命令字串介面中，這個控制碼是 [**mciSendString**](/previous-versions//dd757161(v=vs.85)) 函式的最後一個參數。 在命令訊息介面中，控制碼是以命令訊息所傳送之結構的 **dwCallBack** 成員的低序位字組來指定。  (與命令訊息相關聯的每個結構都包含這個成員。 ) 
 
- 
+ 
 
- 
+ 

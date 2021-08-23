@@ -4,12 +4,12 @@ ms.assetid: 713fd6de-16af-49d2-8940-763c4a6e414b
 title: 避免緩衝區溢位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c8a3456384e799380fa0041172fb2b2ea09c0c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae85d66d32b1efc29e75e187bb1afa67653084a3b9c729cd56728078f5e0c1ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622948"
 ---
 # <a name="avoiding-buffer-overruns"></a>避免緩衝區溢位
 
@@ -50,7 +50,7 @@ ms.locfileid: "106990354"
 
  
 
-安全字串處理是一種長期的問題，可繼續透過下列良好的程式設計實務來解決這兩個問題，而且通常會使用安全的字串處理函式來修整現有的系統。 適用于 Windows shell 的這類一組函式範例會以 [**StringCbCat**](/windows/win32/api/strsafe/nf-strsafe-stringcbcata)開始。
+保管庫字串處理是一種長期的問題，只要遵循良好的程式設計做法，並經常使用並修整具有安全字串處理函式的現有系統，就能繼續解決這兩個問題。 Windows shell 的這一組函式範例會以 [**StringCbCat**](/windows/win32/api/strsafe/nf-strsafe-stringcbcata)開始。
 
  
 

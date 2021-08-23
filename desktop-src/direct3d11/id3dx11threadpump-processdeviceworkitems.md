@@ -17,17 +17,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ad570785ac7dc36fb5dd9d464e97ef46f52ca93
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 07a6918e9ecea9d66c3ebca034628387ea471e9173b4b14f24e9b7f866897325
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608668"
 ---
 # <a name="id3dx11threadpumpprocessdeviceworkitems-method"></a>ID3DX11ThreadPump：:P rocessDeviceWorkItems 方法
 
 > [!Note]  
-> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 
  
 

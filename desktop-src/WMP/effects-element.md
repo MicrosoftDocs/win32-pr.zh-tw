@@ -10,12 +10,12 @@ keywords:
 - 元素、效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4b6fdcde74288b0dd4215732d1e5b6a281154f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a859414ffae934cafaa0c35b6b364eb42a5795bbeeef637857a0d81f47623379
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651138"
 ---
 # <a name="effects-element"></a>效果元素
 
@@ -42,7 +42,7 @@ ms.locfileid: "104371866"
 
 
 
- 
+ 
 
 **效果** 元素支援下列方法。
 
@@ -62,7 +62,7 @@ ms.locfileid: "104371866"
 
 
 
- 
+ 
 
 **效果** 元素支援環境屬性，並可執行環境事件處理常式。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md) 和 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -70,13 +70,13 @@ ms.locfileid: "104371866"
 
 
 
-| 預先定義的效果           | Description                                                         |
+| 預先定義的效果           | 描述                                                         |
 |------------------------------|---------------------------------------------------------------------|
 | [WMPEFFECTS](wmpeffects.md) | 逐一查看可用效果的 **效果** 元素。 |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -85,9 +85,9 @@ ms.locfileid: "104371866"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

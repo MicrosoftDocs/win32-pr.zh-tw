@@ -4,12 +4,12 @@ description: 本節包含 Windows 影像處理元件 (WIC) 常數、列舉和旗
 ms.assetid: a3f44919-bd55-48cf-9dc6-37de0059a639
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d16386f1ba21ed138ad746f3fa9725d91bb68d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee9718641dd0e0e9159a6da9998e0109e4ec97fa366b1e9cba35f9d5f1065ac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549628"
 ---
 # <a name="wic-constants-enumerations-and-flags"></a>WIC 常數、列舉和旗標
 

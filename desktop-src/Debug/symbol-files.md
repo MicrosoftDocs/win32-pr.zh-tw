@@ -4,12 +4,12 @@ ms.assetid: 610e5cd3-9dc3-462c-98f8-6a63874464f8
 title: 符號檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d964fbe0ab5f07a6c3d7cfa08b057550e1cc2c74
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 610e289a64ed807a26086f12780b45bc35ea65464946ec81a07e4169515d1132
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642178"
 ---
 # <a name="symbol-files"></a>符號檔
 

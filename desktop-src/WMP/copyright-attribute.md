@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c77a0db25663afde4f11199b23732c0cebe6226
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b42e68e0d3485824f502dea991048121e788dfbe574b8fa4921e93a3b7afb61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651958"
 ---
 # <a name="copyright-attribute"></a>著作權屬性
 
@@ -30,7 +30,7 @@ ms.locfileid: "106998790"
 -   [音訊專案](audio-item-attributes.md)
 -   [CD 播放清單](cd-playlist-attributes.md)
 -   [CD 曲目](cd-track-attributes.md)
--   [常用的 Windows Media 檔案](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案](commonly-used-windows-media-file-attributes.md)
 -   [DVD](dvd-attributes.md)
 -   [影片專案](video-item-attributes.md)
 
@@ -38,7 +38,7 @@ ms.locfileid: "106998790"
 
 這個屬性會儲存在程式庫 (或快取) 和數位媒體檔案中。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMCopyright。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMCopyright。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

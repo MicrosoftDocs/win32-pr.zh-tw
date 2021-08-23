@@ -4,12 +4,12 @@ description: 本節包含效果11結構的相關資訊。
 ms.assetid: 73e34792-eb46-4402-9424-b8e4e4819efd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 579703a3cd21fe0105a870a4ae1c79838b1fa886
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 3b8f95a32163a4b2e6bb902096940ae83313540636fd2f2ddbb5d07f0a4cb848
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104971820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119729398"
 ---
 # <a name="effects-11-structures"></a>效果11結構
 

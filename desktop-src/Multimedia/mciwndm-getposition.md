@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETPOSITION 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETPOSITION 訊息會抓取 MCI 裝置內容中目前位置的數值。
 ms.assetid: 6dc5d3bd-8515-4514-a2a5-c1bee07f7acf
 keywords:
-- MCIWNDM_GETPOSITION message Windows 多媒體
+- MCIWNDM_GETPOSITION 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e7468b0e3698a72d3dce82bbd1591d59940d9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83cf16f5945bfccbfd2f745ba22fac750f0536696aa2c4c06c2872bd318b263e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525428"
 ---
 # <a name="mciwndm_getposition-message"></a>MCIWNDM \_ GETPOSITION 訊息
 

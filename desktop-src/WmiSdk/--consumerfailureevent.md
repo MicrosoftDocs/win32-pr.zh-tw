@@ -21,12 +21,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 571785245c05d18678c10a65b192a25022fff8f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8276716a1ca706a0027f35f9b554b960efebadacf3d8841b23415a43a9663c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732936"
 ---
 # <a name="__consumerfailureevent-class"></a>\_\_ConsumerFailureEvent 類別
 

@@ -4,12 +4,12 @@ ms.assetid: 668f0f24-2f77-6d0d-33ac-93f269bb50f0
 title: 'FXREVERB 常數 (XAPOFX) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f4dd6b9e8b5f9e4108826c3bbccc9836bbfff39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0e5626ac40450906caf3975f388daf9f9bf67949773d1cfa1272e67c3cd7962
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440408"
 ---
 # <a name="fxreverb-constants"></a>FXREVERB 常數
 
@@ -32,7 +32,7 @@ ms.locfileid: "106994870"
 
 ### <a name="platform-requirements"></a>平台需求
 
-Windows 10 (XAudio 2.9) ;Windows 8、Windows Phone 8 (XAudio 2.8) ;DirectX SDK (XAudio 2.7) 
+Windows 10 (xaudio 2.9) ;Windows 8、Windows Phone 8 (XAudio 2.8) ;DirectX SDK (XAudio 2.7) 
 
 ## <a name="requirements"></a>規格需求
 

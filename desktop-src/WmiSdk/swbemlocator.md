@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 964b040fa5046aa619dc08df92838dca343ba9b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e93e9bd0bfb33c495b30afbde47bcb9b007acb4cd00dece42e1a8c3b88e99d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732789"
 ---
 # <a name="swbemlocator-object"></a>Wbemscripting.swbemlocator 物件
 
@@ -53,7 +53,7 @@ ms.locfileid: "106984208"
 
 
 
-| 屬性                                                | 存取類型          | Description                                              |
+| 屬性                                                | 存取類型          | 描述                                              |
 |:--------------------------------------------------------|:---------------------|:---------------------------------------------------------|
 | [**安全性\_**](swbemlocator-security-.md)<br/> | 唯讀<br/> | 用來讀取或變更安全性設定。<br/> |
 
@@ -66,7 +66,7 @@ ms.locfileid: "106984208"
 WMI 腳本程式庫物件模型的頂端是 Wbemscripting.swbemlocator 物件。 Wbemscripting.swbemlocator 是用來建立與 WMI 命名空間的已驗證連接，相當於 VBScript GetObject 函數和 WMI 名字 "winmgmts：" 用來建立與 WMI 的已驗證連線。 不過，Wbemscripting.swbemlocator 的設計目的是要解決兩個無法使用 GetObject 和 WMI 標記來執行的特定腳本案例。 如果需要的話，您必須使用 Wbemscripting.swbemlocator：
 
 -   提供使用者和密碼認證，以連接到遠端電腦上的 WMI。 與 GetObject 函數搭配使用的 WMI 標記不包含用來指定認證的機制。 大部分的 WMI 活動 (包括在遠端電腦上執行的所有作業) 都需要系統管理員許可權。 如果您通常使用一般使用者帳戶而非系統管理員帳戶登入，除非您在 [其他認證] 下執行腳本，否則無法執行大部分的 WMI 工作。
--   如果您是從網頁內執行 WMI 腳本，請連接至 WMI。 當您執行內嵌于 HTML 網頁中的腳本時，不能使用 GetObject 函式，因為基於安全考慮，Internet Explorer 不允許使用 GetObject。
+-   如果您是從網頁內執行 WMI 腳本，請連線至 WMI。 當您執行內嵌于 HTML 網頁中的腳本時，不能使用 GetObject 函式，因為基於安全考慮，Internet Explorer 不允許使用 GetObject。
 
 此外，如果您發現與 GetObject 混淆或很難使用的 WMI 連接字串，您可能會想要使用 Wbemscripting.swbemlocator 連接到 WMI。
 
@@ -129,8 +129,8 @@ $WbemClasses
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ wbemscripting.swbemlocator<br/>                                                          |
 | IID<br/>                      | IID \_ ISWbemLocator<br/>                                                           |

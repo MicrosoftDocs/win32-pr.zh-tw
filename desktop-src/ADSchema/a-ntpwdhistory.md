@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f41ed3196109d13d4fb6cfae7e23be7ffdfb8c7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2f247358e95b804330f245cf86ba2390c54da17e015060a0ea65a80566383558
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648178"
 ---
 # <a name="nt-pwd-history-attribute"></a>Nt-Pwd-歷程記錄屬性
 
@@ -67,7 +67,7 @@ Windows NT 單向格式的使用者密碼歷程記錄 (OWF) 。 Windows 2000 使
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Windows NT 單向格式的使用者密碼歷程記錄 (OWF) 。 Windows 2000 使
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Windows NT 單向格式的使用者密碼歷程記錄 (OWF) 。 Windows 2000 使
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Windows NT 單向格式的使用者密碼歷程記錄 (OWF) 。 Windows 2000 使
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Windows NT 單向格式的使用者密碼歷程記錄 (OWF) 。 Windows 2000 使
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 

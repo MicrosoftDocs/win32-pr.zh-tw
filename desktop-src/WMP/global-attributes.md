@@ -10,12 +10,12 @@ keywords:
 - 屬性，全域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19c3f7a605b5c277b3207cefbbeaaa641f81f026
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 69c2d52b6489a28eff20e3a7e5c7180fc9e2db9309c0fe42880bfc779a23f563
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104373667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648078"
 ---
 # <a name="global-attributes"></a>全域屬性
 
@@ -89,12 +89,12 @@ ms.locfileid: "104373667"
 
 <dl> <dt>
 
-[**雜項**](miscellaneous.md)
+[**其他**](miscellaneous.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

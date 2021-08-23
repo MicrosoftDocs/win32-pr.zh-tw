@@ -8,12 +8,12 @@ keywords:
 - MCI_INFO 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10acb53fa1a961fe7a70042350f8d889d9fdf572
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 412ccfb8819ac1c76cd3f0114fa114c877280de959f605535fd4bb83d224a91e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689088"
 ---
 # <a name="retrieving-information-about-a-device"></a>正在抓取裝置的相關資訊
 
@@ -30,9 +30,9 @@ mciSendString(
 
 針對 [必要] 和 [基本] 命令列出的旗標，可提供裝置最少的資訊數量。 許多裝置都會使用擴充旗標來補充必要和基本命令，以提供裝置的其他相關資訊。
 
- 
+ 
 
- 
+ 
 
 
 

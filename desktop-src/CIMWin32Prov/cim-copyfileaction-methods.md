@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_CopyFileAction 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60e0dcf90f1f22051b6f250f7cd05723da8cda55
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b61ab6965b2c4d22b8bd4539e7428925e2b37142cf934a7bb0fa8146248f871b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119578988"
 ---
 # <a name="cim_copyfileaction-methods"></a>CIM \_ CopyFileAction 方法
 

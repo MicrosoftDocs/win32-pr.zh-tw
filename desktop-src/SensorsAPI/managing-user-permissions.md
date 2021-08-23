@@ -4,28 +4,28 @@ ms.assetid: c755edcf-18c1-43d5-9dfe-c073e1f96b5f
 title: 管理使用者權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb65fa5a9962be4850aa4711cafa03fb7658212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f02fac57959b493683d0fe0a007602e5a7af3f78dc959d0e7eca2811595c23dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576248"
 ---
 # <a name="managing-user-permissions"></a>管理使用者權限
 
 感應器 API 提供的方法可用來提示使用者使用感應器或感應器集合的許可權。
 
-因為感應器可能會顯示機密資訊，所以 Windows 會要求使用者在您的程式可以存取任何資料之前，先啟用感應器。
+因為感應器可能會顯示機密資訊，Windows 要求使用者必須先啟用感應器，程式才能存取任何資料。
 
 當您想要使用目前 [**SENSORSTATE**](/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate) 感應器 \_ 狀態拒絕存取的感應器時，您可能會想要要求許可權 \_ \_ 。
 
-若要要求許可權，請呼叫 [**ISensorManager：： RequestPermissions**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions) 方法。 當您呼叫這個方法時，Windows 會開啟 [ **啟用感應器** ] 對話方塊，提示使用者啟用您所要求的感應器。 此對話方塊會提供使用者您所要求之感應器的名稱。 使用者可以選擇下列其中一個選項：
+若要要求許可權，請呼叫 [**ISensorManager：： RequestPermissions**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions) 方法。 當您呼叫這個方法時，Windows 會開啟 [**啟用感應器**] 對話方塊，提示使用者啟用您所要求的感應器。 此對話方塊會提供使用者您所要求之感應器的名稱。 使用者可以選擇下列其中一個選項：
 
 -   **啟用這些感應器**。
 -   **請勿啟用這些感應器**。
 -   **開啟主控台以取得更多選項**。
 
-如果使用者選擇 [ **不啟用這些感應器**]，Windows 將不會再顯示那些特定感應器的 [ **啟用感應器** ] 對話方塊，即使您的程式呼叫 [**RequestPermissions**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions)。 如果使用者選擇任何其他選項，Windows 將允許在要求時顯示對話方塊。 如果您對 **RequestPermissions** 的呼叫包含某些使用者先前選擇要保持停用的感應器，感應器 API 將會從使用者看到的感應器清單中移除這些感應器。
+如果使用者選擇 [**不啟用這些感應器**]，Windows 將不會再顯示那些特定感應器的 [**啟用感應器**] 對話方塊，即使您的程式呼叫 [**RequestPermissions**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions)。 如果使用者選擇任何其他選項，Windows 可讓您在要求時顯示對話方塊。 如果您對 **RequestPermissions** 的呼叫包含某些使用者先前選擇要保持停用的感應器，感應器 API 將會從使用者看到的感應器清單中移除這些感應器。
 
 ### <a name="modal-or-modeless-behavior"></a>強制回應或非模式行為
 

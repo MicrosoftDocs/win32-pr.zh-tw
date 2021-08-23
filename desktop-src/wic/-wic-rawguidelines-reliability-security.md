@@ -4,18 +4,18 @@ ms.assetid: 1cbfabce-3d56-4e23-b9a7-02369c67e392
 title: 可靠性和安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0f0e4a244de2c1463cdadb76162c18b041812b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a4704b84d09698fd6fabcf2d190050063ec3b3190904aa669fa78799c5d0158
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441728"
 ---
 # <a name="reliability-and-security"></a>可靠性和安全性
 
-因為 Windows 影像處理元件 (WIC) 編解碼器會從 Windows shell 和影像中心中叫用，所以編解碼器作者應盡全力確保其 WIC 編解碼器中的高可用性和安全性。
+因為 Windows 影像處理元件 (wic) 編解碼器會從 Windows shell 和影像中心中叫用，所以編解碼器作者應盡全力確保其 WIC 編解碼器中有高等級的可靠性和安全性。
 
-撰寫可靠的程式碼大多取決於良好的程式碼撰寫作法、有效的程式碼評論，以及完整的單元測試和案例測試。 此外，下列指導方針可協助確保編解碼器符合與可靠性相關的 Windows Vista 原則。
+撰寫可靠的程式碼大多取決於良好的程式碼撰寫作法、有效的程式碼評論，以及完整的單元測試和案例測試。 此外，下列指導方針可協助確保編解碼器符合有關可靠性的 Windows Vista 原則。
 
 -   啟用 i/o 取消。
 
@@ -57,7 +57,7 @@ ms.locfileid: "106996883"
 
 -   執行緒安全性。
 
-    從 Windows 7，WIC 要求原始編解碼器必須是 COM 單元類型 "Both"。 這表示您必須在多執行緒案例中，進行適當的鎖定來處理跨單元呼叫端和呼叫端。 多執行緒單元內的物件 (MTA) 可由 MTA 內任意數目的執行緒同時呼叫，以在多核心系統和某些伺服器案例上提供更佳的效能。 此外，位於 MTA 內的 WIC 編解碼器可以呼叫位於 MTA 內的其他物件，而不需要在位於不同 STA 單元的執行緒之間呼叫的封送處理成本。 在 Windows 7 中，所有的內建 WIC 編解碼器都已更新為支援 Mta，包括 JPEG、TIFF、PNG、GIF、.ICO 和 BMP。 不支援 Mta 的協力廠商編解碼器會在多執行緒應用程式中造成顯著的效能成本，因為封送處理。 啟用 MTA 支援需要在協力廠商編解碼器中執行適當的同步處理。 這些同步處理技術的確切執行已超出本檔的範圍。 以下提供同步處理 COM 物件的一般參考。
+    從 Windows 7，WIC 要求原始編解碼器必須是 COM 單元類型 "Both"。 這表示您必須在多執行緒案例中，進行適當的鎖定來處理跨單元呼叫端和呼叫端。 多執行緒單元內的物件 (MTA) 可由 MTA 內任意數目的執行緒同時呼叫，以在多核心系統和某些伺服器案例上提供更佳的效能。 此外，位於 MTA 內的 WIC 編解碼器可以呼叫位於 MTA 內的其他物件，而不需要在位於不同 STA 單元的執行緒之間呼叫的封送處理成本。 在 Windows 7 中，所有內建的 WIC 編解碼器都已更新為支援 mta，包括 JPEG、TIFF、PNG、GIF、.ico 和 BMP。 不支援 Mta 的協力廠商編解碼器會在多執行緒應用程式中造成顯著的效能成本，因為封送處理。 啟用 MTA 支援需要在協力廠商編解碼器中執行適當的同步處理。 這些同步處理技術的確切執行已超出本檔的範圍。 以下提供同步處理 COM 物件的一般參考。
 
     https://msdn.microsoft.com/library/ms809971.aspx
 
@@ -68,7 +68,7 @@ ms.locfileid: "106996883"
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [相機原始影像格式的 WIC 指導方針](-wic-rawguidelines.md)

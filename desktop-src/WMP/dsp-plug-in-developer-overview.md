@@ -11,12 +11,12 @@ keywords:
 - DSP 外掛程式，開發人員總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41fd85702f484ae39b1969bfde2dce2f57cac057
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78d9bb3e5bf64f899bb24ae6f9f71cb0cdb406a119506bfc38430a5d42987f1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651178"
 ---
 # <a name="dsp-plug-in-developer-overview"></a>DSP 外掛程式開發人員總覽
 
@@ -41,9 +41,9 @@ ms.locfileid: "106969035"
 [**關於 DSP 外掛程式**](about-dsp-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

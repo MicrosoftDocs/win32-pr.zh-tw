@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d5b52f6277459f147285f46fc791669e56061a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 977f7eaef1d6c8a505ce55d7d1683d7c9f4dabff5e59df7d8845773eefdff696
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707938"
 ---
 # <a name="iwmdrmlicensemanagementdeletelicense-method"></a>IWMDRMLicenseManagement：:D eleteLicense 方法
 
@@ -75,7 +75,7 @@ HRESULT DeleteLicense(
 
 
 
-| 傳回碼                                                                                            | Description                                                                                                         |
+| 傳回碼                                                                                            | 描述                                                                                                         |
 |--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                   | 此方法已成功。<br/>                                                                                    |
 | <dl> <dt>**DRM \_ E \_ LICENSENOTFOUND**</dt> </dl> | 指定的授權不存在於存放區中。<br/> -或-<br/> 找不到存放區。<br/> |

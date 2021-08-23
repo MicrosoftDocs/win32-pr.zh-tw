@@ -4,18 +4,18 @@ ms.assetid: db5fb8a2-719f-4bef-9ab1-0856945ed240
 title: System. ParentalRating
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3775c487921c6987810ba09f3b3ee94f60e91145
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bd27f3fd3377e60d4fa517fbd5704d6abd25a2e3a2b568ccf2718db93f173a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596818"
 ---
 # <a name="systemparentalrating"></a>System. ParentalRating
 
 以 [ParentalRatingsOrganization](./props-system-parentalratingsorganization.md)中名稱的組織所決定的一般格式所儲存的家長評等。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

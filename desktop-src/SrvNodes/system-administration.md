@@ -4,17 +4,17 @@ ms.assetid: 51a48716-53ef-493e-8974-c429bde9b6ff
 title: 系統管理
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a70263458403a621975de383f689f842ade8bc69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e86eb0beafd46abed99d14a5fb99a7f37166a150a92ad1194153e2cd96947eee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106969397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663918"
 ---
 # <a name="system-administration"></a>系統管理
 
 > [!Note]  
-> 這些主題適用于軟體發展人員。 如需客戶支援問題，請參閱 [支援-Windows](https://windows.microsoft.com/windows/support#1TC=windows-10)說明。
+> 這些主題適用于軟體發展人員。 如需客戶支援問題，請參閱[支援-Windows](https://windows.microsoft.com/windows/support#1TC=windows-10)說明。
 
  
 
@@ -25,7 +25,7 @@ ms.locfileid: "106969397"
 [開機設定資料 WMI 提供者](/previous-versions/windows/desktop/bcd/boot-configuration-data-portal)
 </dt> <dd>
 
-開機設定資料 (BCD) Windows Management Instrumentation (WMI) 提供者會提供以程式設計方式存取 BCD 存放區，以描述開機應用程式和開機應用程式設定。
+開機設定資料 (bcd) Windows Management Instrumentation (WMI) 提供者會提供以程式設計方式存取 BCD 存放區，以描述開機應用程式和開機應用程式設定。
 
 </dd> <dt>
 
@@ -74,21 +74,21 @@ NetShell 是命令列工具，可讓系統管理員從遠端系統管理及設�
 [設定管理基礎結構](/previous-versions/windows/desktop/smi/settings-management-infrastructure--smi-)
 </dt> <dd>
 
- (SMI-S) 的設定管理基礎結構會提供標準化的基礎結構，以存取和操作使用者和應用程式可修改的設定。
+設定 (SMI-S) 的管理基礎結構提供標準化的基礎結構，以存取和操作使用者和應用程式可修改的設定。
 
 </dd> <dt>
 
 [軟體清查記錄](/previous-versions/windows/desktop/sil/software-inventory-logging-portal)
 </dt> <dd>
 
-軟體清查記錄會收集安裝在 Windows 伺服器上之軟體的授權資料，並提供資料的遠端存取，讓資料中心可以輕鬆地匯總資料。
+軟體清查記錄會收集 Windows 伺服器上所安裝之軟體的授權資料，並提供資料的遠端存取，讓資料中心可以輕鬆地匯總資料。
 
 </dd> <dt>
 
 [軟體授權 API](/previous-versions/windows/desktop/secslapi/software-licensing-api-portal)
 </dt> <dd>
 
-您可以使用軟體授權 API (SLAPI) 來判斷正版 Microsoft Windows 安裝、安裝及記錄資產管理授權，以及取得軟體元件授權原則的相關資訊。
+軟體授權 API (SLAPI) 可用來判斷正版 Microsoft Windows 安裝、安裝及記錄資產管理授權，以及取得軟體元件授權原則的相關資訊。
 
 </dd> <dt>
 
@@ -116,35 +116,35 @@ NetShell 是命令列工具，可讓系統管理員從遠端系統管理及設�
 [使用者存取記錄](/previous-versions/windows/desktop/ual/user-access-logging)
 </dt> <dd>
 
-使用者存取記錄 (UAL) 是 Windows Server 角色的通用架構，可報告其各自的耗用量計量。 這個 UAL 架構是較大的授權管理解決方案的基礎和重要元件。
+使用者存取記錄 (UAL) 是 Windows 伺服器角色用來報告其各自耗用量計量的通用架構。 這個 UAL 架構是較大的授權管理解決方案的基礎和重要元件。
 
 </dd> <dt>
 
 [Windows Deployment Services](/windows/desktop/Wds/windows-deployment-services-portal)
 </dt> <dd>
 
-Windows 部署服務 (WDS) 是 (RIS) 之遠端安裝服務的修訂版本。 WDS 可讓您部署 Windows 作業系統。 您可以使用 WDS 以網路為基礎的安裝來設定新的用戶端，而不需要系統管理員造訪每部電腦或直接從 CD 或 DVD 媒體安裝。
+Windows部署服務 (WDS) 是 (RIS) 之遠端安裝服務的修訂版本。 WDS 可讓您部署 Windows 作業系統。 您可以使用 WDS 以網路為基礎的安裝來設定新的用戶端，而不需要系統管理員造訪每部電腦或直接從 CD 或 DVD 媒體安裝。
 
 </dd> <dt>
 
-[Windows 正版優點 API](/previous-versions/windows/desktop/wingen/windows-genuine-advantage-api-portal)
+[Windows正版優點 API](/previous-versions/windows/desktop/wingen/windows-genuine-advantage-api-portal)
 </dt> <dd>
 
-Windows 正版優勢 API 是用來判斷目前系統上執行的 Windows 作業系統是否為正版複本。
+Windows 真正的優點 API 是用來判斷目前系統上執行的 Windows 作業系統是否為正版複本。
 
 </dd> <dt>
 
 [Windows Management Instrumentation](/windows/desktop/WmiSdk/wmi-start-page)
 </dt> <dd>
 
-Windows Management Instrumentation (WMI) 是在以 Windows 為基礎的作業系統上管理資料和作業的基礎結構。 您可以撰寫 WMI 腳本或應用程式，將遠端電腦上的系統管理工作自動化。
+Windowsmanagement Instrumentation (WMI) 是在以 Windows 為基礎的作業系統上管理資料和作業的基礎結構。 您可以撰寫 WMI 腳本或應用程式，將遠端電腦上的系統管理工作自動化。
 
 </dd> <dt>
 
 [Windows Defender WMIv2 API](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 </dt> <dd>
 
-Windows Defender WMI Api 可透過腳本或應用程式，用來管理 malware protection。
+Windows DefenderWMI Api 可以用來透過腳本或應用程式管理惡意程式碼防護。
 
 </dd> <dt>
 
@@ -162,10 +162,10 @@ Windows 遠端管理 (WinRM) 是 Microsoft 的 WS-Management 通訊協定，它�
 
 </dd> <dt>
 
-[Windows 資源保護](/windows/desktop/Wfp/windows-resource-protection-portal)
+[Windows資源保護](/windows/desktop/Wfp/windows-resource-protection-portal)
 </dt> <dd>
 
-Windows 資源保護 (WRP) 可防止取代安裝為作業系統一部分的基本系統檔案、資料夾和登錄機碼。
+Windows資源保護 (WRP) 防止取代安裝為作業系統一部分的基本系統檔案、資料夾和登錄機碼。
 
 </dd> <dt>
 
@@ -178,7 +178,7 @@ Windows 資源保護 (WRP) 可防止取代安裝為作業系統一部分的基�
 
 </dd> <dt>
 
-[Windows 系統評定工具](/windows/desktop/WinSAT/windows-system-assessment-tool-portal)
+[Windows系統評定工具](/windows/desktop/WinSAT/windows-system-assessment-tool-portal)
 </dt> <dd>
 
 如何使用 WinSAT 來評定電腦的效能特性和功能。

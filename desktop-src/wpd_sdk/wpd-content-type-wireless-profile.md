@@ -4,12 +4,12 @@ ms.assetid: 229f6b65-4904-41b1-bb35-8873477a272b
 title: WPD_CONTENT_TYPE_WIRELESS_PROFILE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 999c8aec77c6ff046690e4c3450c0643d685e1db
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 65a29b02240e6daeb98713a9a58a1332b44464cafafddab1559e07915a4acaf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119445088"
 ---
 # <a name="wpd_content_type_wireless_profile"></a>WPD \_ 內容 \_ 類型 \_ 無線 \_ 設定檔
 

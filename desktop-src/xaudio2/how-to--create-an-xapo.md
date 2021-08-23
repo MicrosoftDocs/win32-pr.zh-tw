@@ -4,12 +4,12 @@ ms.assetid: 34f5c3d5-ee40-e304-7c97-d30c17621d26
 title: 使用方法：建立 XAPO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 549739462a0e76cbb437f0aa1403b099f72f5224
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ea17729c5a6d872d98443c85f79dc72e8eee6dd2233b99f31e189a9eb28708e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583848"
 ---
 # <a name="how-to-create-an-xapo"></a>使用方法：建立 XAPO
 

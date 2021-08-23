@@ -4,12 +4,12 @@ description: 下列主題提供隨選連接路由協助程式的詳細資料。
 ms.assetid: 39AFFD16-488E-4CA3-9161-9424F0D15948
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3049c62d7784af6430e8b93240ec79464b098043
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2e9e046c1add8703e6603d925d2c80b03aab8d7eae3a352825e56ec907f3adb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685578"
 ---
 # <a name="on-demand-connection-routing-helper-api-reference"></a>隨選連接路由協助程式 API 參考
 
@@ -17,7 +17,7 @@ ms.locfileid: "104092315"
 
 
 
-| 參考                                                                          | Description                                                                                                                                                                 |
+| 參考                                                                          | 描述                                                                                                                                                                 |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**OnDemandGetRoutingHint**](/windows/desktop/api/OnDemandConnRouteHelper/nf-ondemandconnroutehelper-ondemandgetroutinghint)                           | 查閱路由要求快取中的目的地，如果找到相符的，則會傳回對應的介面識別碼。<br/>                                               |
 | [**OnDemandRegisterNotification**](/windows/desktop/api/OnDemandConnRouteHelper/nf-ondemandconnroutehelper-ondemandregisternotification)               | 註冊，以在修改路由要求快取時收到通知。<br/>                                                                                               |

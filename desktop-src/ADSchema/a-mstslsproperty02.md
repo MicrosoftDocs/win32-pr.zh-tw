@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc364c268dcba4f23cc04470c75795db7623802e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e870e2b357aa77e951812a780032f977e4cf11a4dc363cc28a35781e03bfe9cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508298"
 ---
 # <a name="ms-tsls-property02-attribute"></a>TSLS-Property02 屬性
 
@@ -56,14 +56,14 @@ ms.locfileid: "103845028"
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
 | 是-單一值       | 否                             |
-| 已編制索引             | 對                              |
+| 已編制索引             | 是                              |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
 | Range-Lower            | 0                                 |
 | Range-Upper            | 32767                             |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -77,14 +77,14 @@ ms.locfileid: "103845028"
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
 | 是-單一值       | 否                             |
-| 已編制索引             | 對                              |
+| 已編制索引             | 是                              |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
 | Range-Lower            | 0                                 |
 | Range-Upper            | 32767                             |
 | Search-Flags           | 0x00000001                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -98,7 +98,7 @@ ms.locfileid: "103845028"
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
 | 是-單一值       | 否                             |
-| 已編制索引             | 對                              |
+| 已編制索引             | 是                              |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
 | Range-Lower            | 0                                 |

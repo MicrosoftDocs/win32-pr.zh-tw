@@ -4,12 +4,12 @@ ms.assetid: 42a1c21c-4b14-114a-d79e-15a61eb2139b
 title: 'XAudio2 錯誤碼 (Xaudio2) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7011786c3db7f660dee7a3323861abd88c57835
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bbfb29153ca55064c1019e9cfb8fd1019caaa0ffe17dfa103f123faa812f762
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545398"
 ---
 # <a name="xaudio2-error-codes"></a>XAudio2 錯誤碼
 
@@ -17,7 +17,7 @@ XAudio2 XAudio2 方法所傳回的特定錯誤碼。
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                      | Description                                                                                                                                                                                                                                                                                                                                                       |
+| 常數/值                                                                                                                                                                                                                                                                      | 描述                                                                                                                                                                                                                                                                                                                                                       |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="XAUDIO2_E_INVALID_CALL"></span><span id="xaudio2_e_invalid_call"></span><dl> <dt>**XAUDIO2 \_E \_ 不正確 \_ 呼叫**</dt> <dt>0x88960001</dt> </dl>                          | XAudio2 針對某些 API 使用錯誤所傳回的錯誤 (不正確呼叫，以及在執行時間應由標題處理的) 。  (完全肇因的 API 使用錯誤（例如不正確參數），會導致在零售組建中的偵測組建和未定義行為發生判斷提示，因此未定義任何錯誤碼。 ) <br/> |
 | <span id="XAUDIO2_E_XMA_DECODER_ERROR"></span><span id="xaudio2_e_xma_decoder_error"></span><dl> <dt>**XAUDIO2 \_E \_ XMA \_ 解碼器 \_ ERROR**</dt> <dt>0x88960002</dt> </dl>          | Xbox 360 XMA 硬體遭受無法復原的錯誤。<br/>                                                                                                                                                                                                                                                                                             |
@@ -30,7 +30,7 @@ XAudio2 XAudio2 方法所傳回的特定錯誤碼。
 
 ### <a name="platform-requirements"></a>平台需求
 
-Windows 10 (XAudio 2.9) ;Windows 8、Windows Phone 8 (XAudio 2.8) ;DirectX SDK (XAudio 2.7) 
+Windows 10 (xaudio 2.9) ;Windows 8、Windows Phone 8 (XAudio 2.8) ;DirectX SDK (XAudio 2.7) 
 
 ## <a name="requirements"></a>規格需求
 

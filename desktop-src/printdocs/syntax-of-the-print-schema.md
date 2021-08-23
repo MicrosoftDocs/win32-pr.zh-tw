@@ -4,12 +4,12 @@ ms.assetid: d67518e3-c379-4a50-aeda-31afaa7f05dd
 title: 列印架構的語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ef52dbdbdfacc2d3cc947b46558319577a75b1b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: a55fbae9b74fe9537430c926870e422cb1a9cd0e025d4aedf702865a8822c740
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662368"
 ---
 # <a name="syntax-of-the-print-schema"></a>列印架構的語法
 

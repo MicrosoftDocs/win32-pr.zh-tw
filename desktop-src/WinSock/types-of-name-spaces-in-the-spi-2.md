@@ -4,12 +4,12 @@ ms.assetid: 2968ac98-bd40-4d37-9dd7-7870c4decd40
 title: SPI 中的命名空間類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e40356987c67604755696f1a8b7224de15851ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ec933650825e891a723cbbc041ad4f631c6f54b7b2b4f6a255359b640509ef3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733188"
 ---
 # <a name="types-of-namespaces-in-the-spi"></a>SPI 中的命名空間類型
 

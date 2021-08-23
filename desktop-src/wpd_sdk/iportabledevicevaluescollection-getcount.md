@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 8304184f3323feb92a14b523dc629c6ae45f6a85
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: abf157a8a539d98c5b75826e4568df7c3209a0efc2dab49f6487250dd08ae391
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707368"
 ---
 # <a name="iportabledevicevaluescollectiongetcount-method"></a>IPortableDeviceValuesCollection：： GetCount 方法
 
@@ -53,7 +53,7 @@ HRESULT GetCount(
 
 
 
-| 傳回碼                                                                               | Description                                          |
+| 傳回碼                                                                               | 描述                                          |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | 此方法已成功。<br/>                     |
 | <dl> <dt>**E \_ 指標**</dt> </dl> | 必要的指標引數為 **Null**。<br/> |

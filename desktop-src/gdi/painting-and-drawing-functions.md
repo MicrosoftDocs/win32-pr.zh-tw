@@ -4,12 +4,12 @@ ms.assetid: ec18323e-c13b-4328-83bf-9e4ed4a712b8
 title: 繪製和繪製函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 162ce40c88766a81320f72ea7c2e4a84dd92c478
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a51b8acb0ea187c17d220d80f105ad6ae49371688d4eb8671c2a8eb5949b6e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666618"
 ---
 # <a name="painting-and-drawing-functions"></a>繪製和繪製函數
 

@@ -20,12 +20,12 @@ keywords:
 - 重新開機波形-音訊播放
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d6a4756a08317923056114259588a95bc62e97f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b04491a676a104e288d274da7dd70eb759e363adc6476805b261a9651444bf1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688488"
 ---
 # <a name="stopping-pausing-and-restarting-playback"></a>停止、暫停及重新開機播放
 
@@ -41,7 +41,7 @@ ms.locfileid: "104092657"
 
 
 
- 
+ 
 
 使用 [**waveOutPause**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutpause) 暫停波形音訊裝置可能不會立即進行;驅動程式可能會在暫停播放之前完成播放目前的區塊。
 
@@ -49,6 +49,6 @@ ms.locfileid: "104092657"
 
 您無法使用 **waveOutRestart** 重新開機已使用 [**waveOutReset**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutreset)停止的裝置;您必須使用 **waveOutWrite** 來傳送第一個資料區塊，以繼續在裝置上播放。
 
- 
+ 
 
- 
+ 

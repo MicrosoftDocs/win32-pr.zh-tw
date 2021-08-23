@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c8115ed3d9795720796b5f944c11a519ff366983
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 827a82bf76fe78b86f97efa3aa01e0ae1106cd81430952b5d5b2849b5b3dd492
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547428"
 ---
 # <a name="create-method-of-the-win32_baseservice-class"></a>Win32 BaseService 類別的 Create 方法 \_
 
@@ -195,7 +195,7 @@ uint32 Create(
 *StartMode* \[在\]
 </dt> <dd>
 
-Windows 基底服務的啟動模式。
+Windows 基礎服務的啟動模式。
 
 <dt>
 

@@ -4,8 +4,8 @@ description: 此多重值屬性是用來儲存以名稱值格式儲存的 DS 任
 ms.assetid: e7d17c8e-6264-43d1-9010-9d589f93a086
 ms.tgt_platform: multiple
 keywords:
-- ms DS-其他設定屬性 AD 架構
-- 其他設定屬性的 AD 架構
+- ms DS-其他-設定屬性 AD 架構
+- 設定屬性 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3699ac7983f33730cb73bb0f1eab0c13e72cbce
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d6a4e7a62313d905f5f26281bdc967631658d12eadd17ffbd4f4f3c1100db6ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119551949"
 ---
 # <a name="ms-ds-other-settings-attribute"></a>ms DS-其他-設定屬性
 
@@ -30,7 +30,7 @@ ms.locfileid: "103845147"
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
 | CN                | ms DS-其他-設定                        |
-| Ldap-顯示名稱 | 其他設定                         |
+| Ldap-顯示名稱 | 其他-設定                         |
 | 大小              | \-                                          |
 | 更新許可權  | \-                                          |
 | 更新頻率  | \-                                          |

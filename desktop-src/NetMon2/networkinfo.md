@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 8917966d2e090417a95a9ca20158c6c5935bda3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5b57d7f051c1409c4b691d78d9173341efda984f35498289cd1eacb8c8b3199
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555708"
 ---
 # <a name="networkinfo-structure"></a>NETWORKINFO 結構
 

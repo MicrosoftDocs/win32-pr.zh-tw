@@ -76,7 +76,7 @@
                   href: msdn-online-vml-bordertopcolor-attribute.md
                 - name: 子彈
                   href: msdn-online-vml-bullet-attribute.md
-                - name: 按鈕
+                - name: Button
                   href: msdn-online-vml-button-attribute.md
                 - name: BWMode
                   href: msdn-online-vml-bwmode-attribute.md
@@ -601,7 +601,7 @@
                   href: msdn-online-vml-mso-fit-shape-to-text-attribute.md
                 - name: MSO 符合文字到圖形的屬性
                   href: msdn-online-vml-mso-fit-text-to-shape-attribute.md
-                - name: MSO-版面配置--Alt 屬性
+                - name: MSO-Layout-Flow-Alt 屬性
                   href: msdn-online-vml-mso-layout-flow-alt-attribute.md
                 - name: MSO-下一個 Textbox 屬性
                   href: msdn-online-vml-mso-next-textbox-attribute.md

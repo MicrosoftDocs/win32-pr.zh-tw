@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 422ab72a0823e3bd1a014aca3aaed51858fdb8a3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49464f9590741d6713befb306d53473d62ca0d12ab1b7e87872ccd03177f63cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687728"
 ---
 # <a name="crendererinputpinbeginflush-method"></a>CRendererInputPin. BeginFlush 方法
 

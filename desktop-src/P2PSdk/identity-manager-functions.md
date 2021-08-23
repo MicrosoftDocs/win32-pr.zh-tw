@@ -4,12 +4,12 @@ ms.assetid: 7621d26b-92e3-40c9-b0ce-94647d67f2c4
 title: Identity Manager 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea56df6500239141038f76ba312b84148581f8f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a640aa7250cdf34fed7440d955a8de8ac7ac1a58316bef3f6e97b3564ac7fd2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518568"
 ---
 # <a name="identity-manager-functions"></a>Identity Manager 函數
 

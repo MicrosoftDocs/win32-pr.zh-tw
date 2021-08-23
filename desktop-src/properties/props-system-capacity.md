@@ -4,12 +4,12 @@ ms.assetid: 14cd6b5d-0534-4527-8439-e7ba8cdef8da
 title: 系統容量
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d62e117b11f0f689a5fbbbd301714aef87e217bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ccb62ac5ff6c55ece4e243773b21e699eb10c8eef4cfa5a0433555115388731
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662298"
 ---
 # <a name="systemcapacity"></a>系統容量
 

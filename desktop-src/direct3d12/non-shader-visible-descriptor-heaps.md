@@ -5,12 +5,12 @@ ms.assetid: 85934873-8889-4564-A717-28A00614B38C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d51d30c7a99250ee0842b79d76ccebb6150bcf9a
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 73383659727fea4ef385e56788ce97e18e7976dc5d040a4c1f3a6fc51c3616d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608278"
 ---
 # <a name="non-shader-visible-descriptor-heaps"></a>非著色器可見描述元堆積
 
@@ -37,7 +37,7 @@ ms.locfileid: "110343453"
 
 即使是描述中繼資料表，也有一些選項可讓應用程式選擇在命令清單記錄中記錄資料表內容 (而不是在執行) 時對資料表指標進行取值。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 
 

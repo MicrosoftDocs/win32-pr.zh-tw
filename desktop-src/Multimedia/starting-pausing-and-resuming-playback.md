@@ -8,12 +8,12 @@ keywords:
 - MCIWndResume 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 734a186b90b8d6701923d0ffa1f743cc8c5ae378
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49977b9bc741c6b32ce0da0c0ae9f63bd875a24268a00bb4782cd71531a4ef31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688668"
 ---
 # <a name="starting-pausing-and-resuming-playback"></a>啟動、暫停和繼續播放
 
@@ -21,9 +21,9 @@ ms.locfileid: "104184133"
 
 您可以使用 [**MCIWndPause**](/windows/desktop/api/Vfw/nf-vfw-mciwndpause) 宏暫時中斷現正播放的裝置。 若要從暫停的位置繼續播放，請使用 [**MCIWndResume**](/windows/desktop/api/Vfw/nf-vfw-mciwndresume) 宏。 有些裝置不支援暫停和繼續命令。 這些裝置通常會將 **MCIWndPause** 對應至 [**MCIWndStop**](/windows/desktop/api/Vfw/nf-vfw-mciwndstop) 宏，以停止播放或錄製。 您可以使用 **MCIWndPlay** 重新開機不支援暫停或繼續的裝置，這會從目前的播放位置開始播放。
 
- 
+ 
 
- 
+ 
 
 
 

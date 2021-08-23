@@ -3,12 +3,12 @@ description: 您可以使用命名空間延伸模組，讓使用者流覽檔案�
 title: 如何顯示檔案的根目錄檢視
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30ee16f3ce50cd79800dd98aa53256591d1f79d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c91e17ef12393b1a95316c37a18d51876cf988293c330610a3638c7995ab12a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596578"
 ---
 # <a name="how-to-display-a-rooted-view-of-a-file"></a>如何顯示檔案的根目錄檢視
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98e0b8bec096a8dce43df7bb71658c90bbfd98a4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: cdd2ec0a986a1408ba3631634c6cc85ca8007b9588224a7be65b499766f83558
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442668"
 ---
 # <a name="name-service-flags-attribute"></a>名稱-服務-旗標屬性
 
@@ -58,7 +58,7 @@ RPC 名稱服務的設定旗標。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -79,7 +79,7 @@ RPC 名稱服務的設定旗標。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -100,7 +100,7 @@ RPC 名稱服務的設定旗標。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -121,7 +121,7 @@ RPC 名稱服務的設定旗標。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -142,7 +142,7 @@ RPC 名稱服務的設定旗標。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |
@@ -163,7 +163,7 @@ RPC 名稱服務的設定旗標。
 | 連結識別碼                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | 否                                              |
-| 是-單一值       | 對                                               |
+| 是-單一值       | 是                                               |
 | 已編制索引             | 否                                              |
 | 在通用類別目錄中      | 否                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                       |

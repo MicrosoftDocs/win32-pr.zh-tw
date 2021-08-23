@@ -3,16 +3,16 @@ title: 影片捕獲訊息
 description: 影片捕獲訊息
 ms.assetid: ec5c2c4b-d0a2-4982-aedc-24f814a5ab74
 keywords:
-- 適用于 Windows (VFW) 影片捕獲訊息的影片
-- 適用于 Windows) 的 VFW (影片、影片捕獲訊息
+- 影片 Windows (VFW) 、影片捕獲訊息
+- 適用于 Windows) 、影片捕獲訊息的 VFW (影片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e6d775decf7a7514772e9291665f3fdf10233d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f45832d0712ef73ed4e66694f2a89abeb1431d14a540ecec910f3cd2cf75ae7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687638"
 ---
 # <a name="video-capture-messages"></a>影片捕獲訊息
 
@@ -79,9 +79,9 @@ ms.locfileid: "104507088"
 [影片捕獲參考](video-capture-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

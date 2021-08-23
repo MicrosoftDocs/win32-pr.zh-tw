@@ -13,12 +13,12 @@ keywords:
 - capFileSaveDIB 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cb80d320f2bd90cfd62fef83d7b3066762b6ebe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5c0d822292489be4093998ac18d70191dbe2b87327a33adaba26e8442420d93b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688598"
 ---
 # <a name="still-image-capture"></a>Still-Image Capture
 
@@ -28,9 +28,9 @@ ms.locfileid: "104092247"
 
 您的應用程式也可以使用這兩個單一畫面格捕獲訊息，依框架編輯序列框架，或建立時間間隔的攝影順序。
 
- 
+ 
 
- 
+ 
 
 
 

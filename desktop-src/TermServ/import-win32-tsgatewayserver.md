@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b35395342be7c13f2a96f73f914eda103e1ef4c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2629e8e44acd0f617e86a846cc127ab77250673c8612f2d2f53ab8c0238d9f0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574568"
 ---
 # <a name="import-method-of-the-win32_tsgatewayserver-class"></a>Win32 TSGatewayServer 類別的 Import 方法 \_
 
@@ -110,7 +110,7 @@ uint32 Import(
 
 <span id="Import_all_Server_Settings"></span><span id="import_all_server_settings"></span><span id="IMPORT_ALL_SERVER_SETTINGS"></span>
 
-<span id="Import_all_Server_Settings"></span><span id="import_all_server_settings"></span><span id="IMPORT_ALL_SERVER_SETTINGS"></span>將 **所有伺服器設定匯入** (32) 
+<span id="Import_all_Server_Settings"></span><span id="import_all_server_settings"></span><span id="IMPORT_ALL_SERVER_SETTINGS"></span>匯 **入所有伺服器設定** (32) 
 
 
 </dt> <dd>
@@ -130,7 +130,7 @@ uint32 Import(
 
 * * Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008： * *
 
-Windows Server 2016 之前不支援這個值。
+Windows Server 2016 之前，不支援這個值。
 
 </dd> </dl> </dd> <dt>
 

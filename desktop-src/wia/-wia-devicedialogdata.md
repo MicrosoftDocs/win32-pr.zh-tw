@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadefd.h
-ms.openlocfilehash: ad7b08f5396a7a6e9b1f74df3dd409303b2d548d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e20b8689e71031024c46451d3079450061e8112acf1052c12129b89ed9e0a23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451198"
 ---
 # <a name="devicedialogdata-structure"></a>DEVICEDIALOGDATA 結構
 
@@ -140,8 +140,8 @@ typedef struct {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Wiadefd。h</dt> </dl> |
 
 

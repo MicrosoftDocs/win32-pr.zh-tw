@@ -4,12 +4,12 @@ ms.assetid: 4115c587-fcb4-4170-9948-fe33bcb8742a
 title: 'WM_USER (Winuser) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1efd6f2e79180b7dc627281829539d20f5fa74d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1cb14e8ef69ae35cedd4e246f253aa7b3c16451623eb7043774d1f0940cb64f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705728"
 ---
 # <a name="wm_user"></a>WM \_ 使用者
 
@@ -55,7 +55,7 @@ ms.locfileid: "104026185"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

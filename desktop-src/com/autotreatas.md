@@ -6,12 +6,12 @@ keywords:
 - AutoTreatAs 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9ff717e17f08e5d37885f3994d03671bddaa9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 196e389780d75c0e33a20775df6e087b130e11453d5335130003bc2f0611f726
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731628"
 ---
 # <a name="autotreatas"></a>AutoTreatAs
 
@@ -21,8 +21,8 @@ ms.locfileid: "104371817"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      AutoTreatAs = value
+   {CLSID}
+      AutoTreatAs = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -36,9 +36,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 [**CoTreatAsClass**](/windows/desktop/api/Objbase/nf-objbase-cotreatasclass)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9c8a81c0-182f-4ec1-842c-efb41eca07d7
 title: 釋放其他系統資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b78812912be82b17d0ae673640cdedda3ebdbdb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c312eb85723c8ee6121ec35b715e73b64e358cc116fb46f39f43ab78ef96ab7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665388"
 ---
 # <a name="releasing-other-system-resources"></a>釋放其他系統資源
 

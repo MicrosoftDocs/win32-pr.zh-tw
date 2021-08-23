@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d46f8ab0d065d80ae2d59aae4ba5639abf442bcb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d9471b158b8b5453dc667f156525ccbcd30be8962fa00ca4574e591aed0dd16f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119551218"
 ---
 # <a name="ms-imaging-psp-string-attribute"></a>毫秒-影像處理-PSP-字串屬性
 
@@ -54,7 +54,7 @@ ms.locfileid: "103845115"
 | 連結識別碼                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
 | System-Only            | 否                                                                        |
-| 是-單一值       | 對                                                                         |
+| 是-單一值       | 是                                                                         |
 | 已編制索引             | 否                                                                        |
 | 在通用類別目錄中      | 否                                                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                 |
@@ -75,7 +75,7 @@ ms.locfileid: "103845115"
 | 連結識別碼                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
 | System-Only            | 否                                                                        |
-| 是-單一值       | 對                                                                         |
+| 是-單一值       | 是                                                                         |
 | 已編制索引             | 否                                                                        |
 | 在通用類別目錄中      | 否                                                                        |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                 |

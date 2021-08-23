@@ -4,12 +4,12 @@ ms.assetid: 525b0625-ec13-4aba-a741-dbacff3587f9
 title: 對等)  (程式設計考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89956cbdbbc8d2ed89226a490bbae505862ab18f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22d5af967503c216422e3a12572aeeaf91d751473f88d8589c2e125894721b41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518058"
 ---
 # <a name="programming-considerations-peer-to-peer"></a>對等)  (程式設計考慮
 

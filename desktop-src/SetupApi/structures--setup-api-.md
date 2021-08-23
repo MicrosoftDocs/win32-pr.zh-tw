@@ -4,12 +4,12 @@ ms.assetid: 837F1864-CE2F-4A9A-A7D9-18EB8622541E
 title: " (設定 API) 的結構"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a703b3ef34901fbadc1e2a475459f6a805fc7db3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 640a93cf4b8b325c31e55a75f92a3ba807cd51846e04a3d907351b37b3d51249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664748"
 ---
 # <a name="structures-setup-api"></a> (設定 API) 的結構
 

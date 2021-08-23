@@ -4,19 +4,19 @@ ms.assetid: 686f9ccf-5040-44c5-8633-83f12dc46586
 title: 關於原生 Wifi API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 280d4f656145430e34d79e05b88bc2bdeb54fe5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16fafbe65d162668930470712c79637a41fcd0ee0769441b745e68bca156ada4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685458"
 ---
 # <a name="about-the-native-wifi-api"></a>關於原生 Wifi API
 
 原生 Wifi API 包含支援無線網路連線能力和無線設定檔管理的功能、結構和列舉。 API 可用於基礎結構和臨機操作網路。 無線臨機操作 API 是簡化的物件導向介面，用來建立、管理和使用臨機操作網路。
 
 > [!Note]  
-> 未來的 Windows 版本可能無法使用臨機操作模式。 從 Windows 8.1 和 Windows Server 2012 R2 開始，請改用 [Wi-Fi Direct](about-the-wi-fi-direct-api.md) 。
+> 未來的 Windows 版本可能無法使用臨機操作模式。 從 Windows 8.1 和 Windows Server 2012 R2 開始，請改用[Wi-Fi Direct](about-the-wi-fi-direct-api.md) 。
 
  
 

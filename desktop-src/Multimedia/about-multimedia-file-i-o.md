@@ -16,12 +16,12 @@ keywords:
 - RIFF I/O
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fa055411819d719636d2e248ea5c565e3f060d7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 584b736ba41fb0ea7dd5f3e6411e1783964db21a9819fbb98364708196dc2943
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526638"
 ---
 # <a name="about-multimedia-file-io"></a>關於多媒體檔案 i/o
 
@@ -29,9 +29,9 @@ ms.locfileid: "106967621"
 
 大部分的應用程式只需要基本的檔案 i/o 服務和 RIFF 檔案 i/o 服務。 與檔案 i/o 效能相關的應用程式，例如即時從光碟串流資料的應用程式，可以使用服務直接存取檔案 i/o 緩衝區來將效能優化。 存取自訂存放裝置系統的應用程式（例如檔案封存和資料庫）可以提供自己的 i/o 程式，以讀取和寫入儲存系統的元素。
 
- 
+ 
 
- 
+ 
 
 
 

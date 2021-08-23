@@ -4,18 +4,18 @@ ms.assetid: d4da9616-bdb4-4919-96aa-9e45582b05dd
 title: 多播 COM 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01370372e3ea05b27dc789f90918b148075c28f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c87c231f18904e3b0287095f511cf3c82bfd263e23a9e69dd50c02eb491616d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575538"
 ---
 # <a name="multicast-com-interfaces"></a>多播 COM 介面
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
-多播 COM 介面可讓您存取網路的功能，以在多播位址上配置、更新和釋放租用。 它們會封裝一組函數和資料結構定義。 COM 介面讓程式設計師免于理解和操作這些資料結構的負擔。 此外，因為 TAPI 3 本身是以 COM 為基礎，所以這些介面可讓您以與 TAPI 3 所提供的其他功能一致的方式來存取多播位址配置。 使用 Visual Basic、JAVA 或指令碼語言所撰寫的應用程式通常無法直接存取 Windows API，因此能夠使用這些介面。
+多播 COM 介面可讓您存取網路的功能，以在多播位址上配置、更新和釋放租用。 它們會封裝一組函數和資料結構定義。 COM 介面讓程式設計師免于理解和操作這些資料結構的負擔。 此外，因為 TAPI 3 本身是以 COM 為基礎，所以這些介面可讓您以與 TAPI 3 所提供的其他功能一致的方式來存取多播位址配置。 使用 Visual Basic、JAVA 或指令碼語言所撰寫的應用程式，通常無法直接存取 Windows API，因此能夠使用這些介面。
 
 多播位址配置目前是 IETF 工作群組的主體。 若要存取目前的資訊，請使用任何網際網路搜尋引擎來查詢 "MDHCP" 或 "MADCAP" 和 "Internet draft"。 除了 MADCAP，建議的架構還包含網域內的伺服器對伺服器協調通訊協定，以及用於領域間協調的通訊協定。 雖然此架構目前不斷演進，但用戶端不需要關注此配置的詳細資料。
 

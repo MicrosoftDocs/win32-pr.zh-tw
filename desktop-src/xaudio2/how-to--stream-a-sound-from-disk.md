@@ -4,17 +4,17 @@ ms.assetid: 48b80a66-91c1-973f-069b-6f63422d7154
 title: 使用方法：從磁碟串流處理音效
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0c5598e8913514d6b0bf81b55bab5b481dbc43b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15ee06866427a8efcdd3e132740d595ec547f55a592182ebfbdced0feefca793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707098"
 ---
 # <a name="how-to-stream-a-sound-from-disk"></a>使用方法：從磁碟串流處理音效
 
 > [!Note]  
-> 此內容僅適用于桌面應用程式，且需要在 Windows Store 應用程式中使用修訂功能。 請參閱 **CreateFile2**、 [CreateEventEx](/windows/win32/api/synchapi/nf-synchapi-createeventexa)、 [WaitForSingleObjectEx](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex)、 [SetFilePointerEx](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)和 **GetOverlappedResultEx** 的檔。 請參閱 [Windows SDK 範例庫](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20stream%20effect%20sample%20(Windows%208))中的 StreamEffect Windows 8 範例。
+> 此內容僅適用于桌面應用程式，且需要修訂才能在 Windows 存放區應用程式中運作。 請參閱 **CreateFile2**、 [CreateEventEx](/windows/win32/api/synchapi/nf-synchapi-createeventexa)、 [WaitForSingleObjectEx](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex)、 [SetFilePointerEx](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)和 **GetOverlappedResultEx** 的檔。 請參閱[Windows SDK 範例庫](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20stream%20effect%20sample%20(Windows%208))中的 StreamEffect Windows 8 範例。
 
  
 

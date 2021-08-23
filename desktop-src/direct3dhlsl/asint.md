@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cb892389cc2428c3b12843ae24fc0370076023f1
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f189501216c7c60d024303bdb2c47b032cec73c6c22dc6a93bff24ce596f3169
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104507641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626608"
 ---
 # <a name="asint-function"></a>asint 函式
 
@@ -28,7 +28,7 @@ ms.locfileid: "104507641"
 
 ``` syntax
 int asint(
-  in  value
+  in  value
 );
 ```
 
@@ -56,9 +56,9 @@ int asint(
 [**(DirectX HLSL) 內建函式**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

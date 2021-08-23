@@ -4,18 +4,18 @@ ms.assetid: ea17d252-61ba-4c87-8568-af06cf64023a
 title: System. PercentFull
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55880f5133b8bf244b93a7212aa2f1de7712be9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b6b2db135b1f27421022e935ef8896a51297ba6b067289dc788f41cf62553b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661867"
 ---
 # <a name="systempercentfull"></a>System. PercentFull
 
 填滿的空間量（以百分比表示）。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

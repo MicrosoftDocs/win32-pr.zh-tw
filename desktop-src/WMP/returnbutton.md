@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 75a1ddad5e3844c32e2b46d03badc4b00af4c773
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e54cb405e9bed39bb893ca4bdba2b3da45060cf84e7cbb61a2e634c645ef7daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646808"
 ---
 # <a name="returnbutton"></a>RETURNBUTTON
 

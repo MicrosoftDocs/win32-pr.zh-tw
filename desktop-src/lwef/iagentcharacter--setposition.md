@@ -4,16 +4,16 @@ description: IAgentCharacter SetPosition
 ms.assetid: cc47b537-8154-4dfb-93e1-5ac3c3b50788
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0aee48ea26c714c570f7ae11b9b2dbc0fe92ef6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e973ec08cdab89c2d8c2501bd9ea1778866f5f7fa1757fe746e44495e41c275a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665638"
 ---
 # <a name="iagentcharactersetposition"></a>IAgentCharacter：： SetPosition
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetPosition(
@@ -47,16 +47,16 @@ HRESULT SetPosition(
 > [!Note]  
 > 與 [**MoveTo**](https://www.bing.com/search?q=**MoveTo**) 方法不同的是，此函式未排入佇列。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**IAgentCharacter：： GetPosition**](iagentcharacter--getposition.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

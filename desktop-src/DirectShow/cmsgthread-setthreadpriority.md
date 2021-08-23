@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0cfa3cd81907a251d2acf7129405e187286df3c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce293f32f765a89451ecf07b4532afc5fc4a7a132287d5b09b54962f93135215
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585668"
 ---
 # <a name="cmsgthreadsetthreadpriority-method"></a>CMsgThread. SetThreadPriority 方法
 
@@ -55,7 +55,7 @@ BOOL SetThreadPriority(
 
 
 
-| 傳回碼                                                                              | Description                               |
+| 傳回碼                                                                              | 描述                               |
 |------------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>TRUE * * * *</dt> </dl>  | 已成功設定優先順序。<br/> |
 | <dl> <dt>FALSE * * * *</dt> </dl> | 未設定優先權。<br/>          |

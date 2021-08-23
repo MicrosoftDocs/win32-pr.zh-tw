@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1762613b54e488f1f364b13b9970104287e8cf53
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7238fc2d90828bdae8e3a4c0ca7cf3700462cd27b7a180169e4a7293c1ae3472
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650928"
 ---
 # <a name="equalizersettingsgainlevel6"></a>EQUALIZERSETTINGS.gainLevel6
 

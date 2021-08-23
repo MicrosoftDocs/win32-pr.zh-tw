@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 7400c4822b61a84ab288f0424cfa84e825e69dc9
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: ec6fdf0d27edb5e1cafa575664b07dfe0807c8d124e1b066161734e75247709f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106990511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449418"
 ---
 # <a name="d3dmemorypressure-structure-d3d9typesh-for-microsoft-media-foundation"></a>Microsoft 媒體基礎的 D3DMEMORYPRESSURE 結構 (D3d9types) 
 
@@ -68,8 +68,8 @@ typedef struct _D3DMEMORYPRESSURE {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | \[僅限 Windows 7 桌面應用程式\]                                                              |
-| 最低支援的伺服器 | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]                                                 |
+| 最低支援的用戶端 | 僅 Windows 7 \[ 桌面應用程式\]                                                              |
+| 最低支援的伺服器 | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]                                                 |
 | 標頭                  | D3d9types (包含 D3d9)  |
 
 

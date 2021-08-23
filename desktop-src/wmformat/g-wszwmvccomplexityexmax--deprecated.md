@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCComplexityExMax
-description: 如需 Windows Media 編解碼器和數位訊號處理器的最新檔，請參閱 Windows Media 音訊和影片編解碼器和 DSP Api。 |g_wszWMVCComplexityExMax
+description: 如需 Windows 媒體編解碼器和數位訊號處理器的最新檔，請參閱 Windows Media 音訊和影片編解碼器和 DSP api。 |g_wszWMVCComplexityExMax
 ms.assetid: 465d31f7-f401-41c6-a060-17879e6196e8
 keywords:
 - g_wszWMVCComplexityExMax windows Media 格式
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b672ed50f4821c1909274349ee805fb0d361e5e7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1b7bf3a5826e8fdbab36641be99d57a290e2dea86b5c328989fdd61a268a3767
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585908"
 ---
 # <a name="g_wszwmvccomplexityexmax"></a>g \_ wszWMVCComplexityExMax
 
-如需 Windows Media 編解碼器和數位訊號處理器的最新檔，請參閱 [Windows Media 音訊和影片編解碼器和 DSP api。](/previous-versions//dd464626(v=vs.85))
+如需 Windows 媒體編解碼器和數位訊號處理器的最新檔，請參閱[Windows Media 音訊和影片編解碼器和 DSP api。](/previous-versions//dd464626(v=vs.85))
 
  
 

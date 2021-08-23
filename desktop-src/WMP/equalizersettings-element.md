@@ -10,12 +10,12 @@ keywords:
 - 元素，EQUALIZERSETTINGS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae20500dfba656450c3102ee80b4a06e089fe8ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: facd5d9630536947614166bc8444ad38e33020920ce679180824ef9a3b007bc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650948"
 ---
 # <a name="equalizersettings-element"></a>EQUALIZERSETTINGS 元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "104507244"
 
 
 
- 
+ 
 
 **EQUALIZERSETTINGS** 元素支援下列方法。
 
@@ -73,7 +73,7 @@ ms.locfileid: "104507244"
 
 
 
- 
+ 
 
 **EQUALIZERSETTINGS** 元素可以執行 [屬性 \_ onchange](attribute-onchange.md)事件處理常式。
 
@@ -84,9 +84,9 @@ ms.locfileid: "104507244"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

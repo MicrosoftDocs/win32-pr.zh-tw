@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f298d1d26985561863767b1db568a7bc29c4e556
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 81dedbd352c2d441ee08ffa0cffd54628ba2031c2d84263081d2d3ea8eeea61e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553068"
 ---
 # <a name="ms-dns-nsec3-current-salt-attribute"></a>ms-DNS-NSEC3-目前-Salt 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "104195930"
 | 連結識別碼                | \-                                       |
 | MAPI-Id                | \-                                       |
 | System-Only            | 否                                    |
-| 是-單一值       | 對                                     |
+| 是-單一值       | 是                                     |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                             |

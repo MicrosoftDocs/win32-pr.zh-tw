@@ -3,11 +3,11 @@ title: 波形音訊參考
 description: 此區段會列出與波形音訊相關聯的函式、結構和訊息，這些功能是在 [多媒體參考] 下記載。 這些元素的分組方式如下。
 ms.assetid: 723953f7-b38e-4f24-8d54-9849e013011d
 keywords:
-- Windows 多媒體，波形音訊參考
+- Windows 多媒體、波形音訊參考
 - 多媒體、波形音訊參考
 - 多媒體音訊、波形參考
 - 音訊、波形參考
-- Windows 多媒體，波形音訊
+- Windows 多媒體、波形音訊
 - 多媒體、波形音訊
 - 多媒體音訊、波形
 - 音訊、波形
@@ -36,12 +36,12 @@ keywords:
 - wavefore 音訊、錄製的參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c74b37984b2d3fab5dad1ea0df4f1f62dfa1855e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4fd83f843de130d247749acfc87a67c60948871bb8cd878f9aa180fcd385fb13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687418"
 ---
 # <a name="waveform-audio-reference"></a>波形音訊參考
 
@@ -161,6 +161,6 @@ ms.locfileid: "104023386"
 [波形音訊](waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

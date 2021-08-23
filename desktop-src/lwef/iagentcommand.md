@@ -4,16 +4,16 @@ description: IAgentCommand
 ms.assetid: 70873093-df71-4377-9c39-c7528400052f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53c4ba90f7d355a0baa088a78aa05b7a91e14112
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 42e2288a7b913becc54e2c0baa43eb14903e65fb7eddf6620d5cefbd78968026
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106999794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665478"
 ---
 # <a name="iagentcommand"></a>IAgentCommand
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 [**命令**](/windows/desktop/lwef/the-command-object)物件是 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合中的專案。 伺服器可讓使用者存取您的命令，讓您的用戶端應用程式變成啟用輸入。 若要取得 **命令**，請呼叫 [**IAgentCommands：： GetCommand**](iagentcommands--getcommand.md)。
 
@@ -29,15 +29,15 @@ ms.locfileid: "106999794"
 
 | Caption 屬性 | Voice-Caption 屬性 | Voice 屬性 | Visible 屬性 | 出現在字元的快顯功能表中             | 出現在 [語音命令] 視窗中                         |
 |------------------|------------------------|----------------|------------------|------------------------------------------------|----------------------------------------------------------|
-| 是              | 是                    | 是            | 對             | 是，使用 [**標題**](caption-property.md) | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
-| 是              | 是                    | 否¹            | 對             | 是，使用 [**標題**](caption-property.md) | 否                                                       |
+| 是              | 是                    | 是            | 是             | 是，使用 [**標題**](caption-property.md) | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
+| 是              | 是                    | 否¹            | 是             | 是，使用 [**標題**](caption-property.md) | 否                                                       |
 | 是              | 是                    | 是            | False            | 否                                             | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
 | 是              | 是                    | 否¹            | False            | 否                                             | 否                                                       |
 | 否¹              | 是                    | 是            | True             | 否                                             | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
 | 否¹              | 是                    | 是            | False            | 否                                             | 是，使用 [ **VoiceCaption**](voicecaption-property.md) |
 | 否¹              | Yes                    | 否¹            | True             | 否                                             | 否                                                       |
 | 否¹              | Yes                    | 否¹            | False            | 否                                             | 否                                                       |
-| 是              | 否¹                    | Yes            | 對             | 是，使用 [**標題**](caption-property.md) | 是，使用 [**標題**](caption-property.md)           |
+| 是              | 否¹                    | Yes            | 是             | 是，使用 [**標題**](caption-property.md) | 是，使用 [**標題**](caption-property.md)           |
 | Yes              | 否¹                    | 否¹            | True             | 是                                            | 否                                                       |
 | 是              | 否¹                    | Yes            | False            | 否                                             | 是，使用 [**標題**](caption-property.md)           |
 | Yes              | 否¹                    | 否¹            | False            | 否                                             | 否                                                       |
@@ -48,7 +48,7 @@ ms.locfileid: "106999794"
 
 
 
- 
+ 
 
 ¹，如果屬性設定為 null。 在某些程式設計語言中，空字串可能不會解讀為與 null 字串相同的字串。
 
@@ -62,7 +62,7 @@ ms.locfileid: "106999794"
 
 
 
-| IAgentCommand 方法                                                   | Description                                                                                                                         |
+| IAgentCommand 方法                                                   | 描述                                                                                                                         |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | [**SetCaption**](https://www.bing.com/search?q=**SetCaption**)                             | 設定 [**命令**](/windows/desktop/lwef/the-command-object)物件的 [**標題**](caption-property.md)值。                         |
 | [**GetCaption**](https://www.bing.com/search?q=**GetCaption**)                             | 傳回 [**Command**](/windows/desktop/lwef/the-command-object)物件的 [**Caption**](caption-property.md)屬性值。               |
@@ -80,8 +80,8 @@ ms.locfileid: "106999794"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

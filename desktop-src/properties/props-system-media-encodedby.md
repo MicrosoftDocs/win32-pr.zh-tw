@@ -4,16 +4,16 @@ ms.assetid: 04bcdc5a-ba44-4b9c-ae87-fee50250d18b
 title: EncodedBy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbf70589178d2ba00fd6ec4d45676a519f86587e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 57cbd7a5638c6f293dc60972786c5c329d7739dc1fdfa5612f9ef39a5ca58892
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553718"
 ---
 # <a name="systemmediaencodedby"></a>EncodedBy
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -7,12 +7,12 @@ keywords:
 - 評估 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1aef70a7a854e16cf4992d9dd44c4931ad4d044
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8a4bb6808ad1898b0c98906a543291c700ee61257a35befa8886789f3f8b7e31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553488"
 ---
 # <a name="using-evaluators"></a>使用評估工具
 
@@ -30,9 +30,9 @@ OpenGL 評估工具函數可讓您使用多項式對應來產生頂點、法線�
 [評估工具參考](evaluators-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

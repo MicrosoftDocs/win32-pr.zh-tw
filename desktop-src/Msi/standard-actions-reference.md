@@ -4,12 +4,12 @@ ms.assetid: 219b5eb6-501f-4e30-b398-4ed5e0cdf2ab
 title: 標準動作參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5104c39639ff2bc7b504996467cf707eb52bb014
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80e88b4b60e3dd13dc4830a1ea4ba2d16a439546d1ced3dc2a8b7552780548d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627628"
 ---
 # <a name="standard-actions-reference"></a>標準動作參考
 
@@ -42,7 +42,7 @@ Windows Installer 具有下列標準動作。
 | [InstallFiles](installfiles-action.md)                         | 將檔案從來源複製到目的地目錄。                                                                                                                    |
 | [InstallFinalize](installfinalize-action.md)                   | 執行包含動作順序中所有作業的腳本，這些作業是從安裝開始或上次 InstallFinalize 動作開始。 標示交易結束。 |
 | [InstallInitialize](installinitialize-action.md)               | 標示交易的開頭。                                                                                                                                         |
-| [InstallSFPCatalogFile](installsfpcatalogfile-action.md)       | InstallSFPCatalogFile 動作會安裝 Windows Me 用於 Windows 檔案保護的目錄。                                                                        |
+| [InstallSFPCatalogFile](installsfpcatalogfile-action.md)       | InstallSFPCatalogFile 動作會安裝 Windows Me 用來 Windows 檔案保護的目錄。                                                                        |
 | [InstallValidate](installvalidate-action.md)                   | 確認具有屬性化成本的所有磁片區都有足夠的空間可進行安裝。                                                                                   |
 | [IsolateComponents](isolatecomponents-action.md)               | 處理 [IsolatedComponent 資料表](isolatedcomponent-table.md)                                                                                                          |
 | [LaunchConditions](launchconditions-action.md)                 | 評估 LaunchCondition 資料表中包含的一組條件陳述式，必須全部評估為 True，才能繼續安裝。                          |
@@ -72,7 +72,7 @@ Windows Installer 具有下列標準動作。
 | [RemoveExistingProducts](removeexistingproducts-action.md)     | 移除已安裝的產品版本。                                                                                                                                      |
 | [RemoveFiles](removefiles-action.md)                           | 移除 InstallFiles 動作先前安裝的檔案。                                                                                                                |
 | [RemoveFolders](removefolders-action.md)                       | 移除連結至設定要移除之元件的空白資料夾。                                                                                                                 |
-| [RemoveIniValues](removeinivalues-action.md)                   | 刪除與 IniFile 資料表中指定之元件相關聯的 .ini 檔案資訊。                                                                                     |
+| [RemoveIniValues](removeinivalues-action.md)                   | 刪除與 IniFile 資料表中指定之元件相關聯 .ini 檔案資訊。                                                                                     |
 | [RemoveODBC](removeodbc-action.md)                             | 移除 ODBC 資料來源、轉譯程式和驅動程式。                                                                                                                          |
 | [RemoveRegistryValues](removeregistryvalues-action.md)         | 移除從登錄表建立的應用程式登錄機碼。                                                                                            |
 | [RemoveShortcuts](removeshortcuts-action.md)                   | 管理已選取要卸載其功能的已公告快捷方式移除。                                                                                   |

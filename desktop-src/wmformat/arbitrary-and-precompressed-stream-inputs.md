@@ -17,16 +17,16 @@ keywords:
 - 資料流程，precompressed 資料流程輸入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe1c95fe992c7638ac923ac07ce159fb5dc4126
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: eb0129362e8dc01b7ccf3faabbf10e22ffd4eccc082782796059b3cf4578c33a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "106996561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119448268"
 ---
 # <a name="arbitrary-and-precompressed-stream-inputs"></a>任意和 Precompressed 的資料流程輸入
 
-只有其中一個 Windows Media 編解碼器所壓縮的輸入有多個可能的輸入。 其他類型的可能輸入為任意輸入和 precompressed 輸入。 本節將說明這些類型之輸入格式的需求。
+只有一個 Windows 媒體編解碼器所壓縮的輸入有多個可能的輸入。 其他類型的可能輸入為任意輸入和 precompressed 輸入。 本節將說明這些類型之輸入格式的需求。
 
 ## <a name="arbitrary-stream-inputs"></a>任意資料流程輸入
 
@@ -45,9 +45,9 @@ ms.locfileid: "106996561"
 [**使用輸入**](working-with-inputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

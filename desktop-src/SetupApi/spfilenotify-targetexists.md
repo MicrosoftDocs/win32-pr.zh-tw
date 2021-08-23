@@ -4,12 +4,12 @@ ms.assetid: 5c6e0c59-0340-4aa6-94db-8d9a5d202758
 title: 'SPFILENOTIFY_TARGETEXISTS 訊息 (Setupapi.log .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1d0c1a1ffba520789113b0dc78246657a4fe324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c51f845d7ccb41b330f6365eff269645d08e58597e7e6dd3e9acc7a7f0300c80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664738"
 ---
 # <a name="spfilenotify_targetexists-message"></a>SPFILENOTIFY \_ TARGETEXISTS 訊息
 
@@ -49,7 +49,7 @@ SPFILENOTIFY_TARGETEXISTS
 
 
 
-| 傳回碼                                                                          | Description                                            |
+| 傳回碼                                                                          | 描述                                            |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------|
 | <dl> <dt>**真**</dt> </dl>  | 覆寫目標目錄中的檔案。<br/> |
 | <dl> <dt>**假**</dt> </dl> | 略過目前的複製操作。<br/>            |
@@ -64,8 +64,8 @@ SPFILENOTIFY_TARGETEXISTS
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Setupapi.log。h</dt> </dl> |
 
 
