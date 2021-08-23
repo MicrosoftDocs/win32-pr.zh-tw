@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dcf9eea51d3a65ad07879cca3e47ae79bde92d53
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a2453c1cb1009da0b097065686cd0ae4d23707febae8a9f6b01d9203d4579257
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816428"
 ---
 # <a name="win32_portconnector-class"></a>Win32 \_ PortConnector 類別
 
@@ -1021,7 +1021,7 @@ VHDCI 防護 (68 pin)
 121
 </dt> <dd>
 
-InfiniBand
+Infiniband
 
 </dd> </dl>
 

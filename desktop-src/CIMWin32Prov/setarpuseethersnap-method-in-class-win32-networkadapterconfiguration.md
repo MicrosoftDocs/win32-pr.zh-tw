@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 52e3ce42948d5c40bbde3329b37ee3fa506c47ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57efc6b624e10cf06d024418e3bd29104b8d50c986c2e74401dc66c4cab64ae2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760178"
 ---
 # <a name="setarpuseethersnap-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetArpUseEtherSNAP 方法 \_
 

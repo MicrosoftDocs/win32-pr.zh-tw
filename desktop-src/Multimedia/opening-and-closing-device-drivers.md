@@ -13,12 +13,12 @@ keywords:
 - 關閉 MIDI 裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d7035455baa067b81af7da980a4ae043500c7b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e935ab3d0d420e735bed6e01d08c80962e134338ea9e88eaa4899e0e81cb71f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806288"
 ---
 # <a name="opening-and-closing-device-drivers"></a>開啟和關閉設備磁碟機
 
@@ -35,7 +35,7 @@ ms.locfileid: "103681802"
 
 
 
- 
+ 
 
 開啟 MIDI 裝置的每個函式會以裝置識別碼、記憶體位置的位址，以及一些 MIDI 裝置特有的參數作為參數。 記憶體位置會以裝置控制碼填滿，用來識別呼叫其他音訊函式的開放式音訊裝置。
 
@@ -44,7 +44,7 @@ ms.locfileid: "103681802"
 > [!Note]  
 > MIDI 裝置不一定可共用，因此當使用者要求時，可能無法使用特定的裝置。 如果發生這種情況，應用程式應該會通知使用者，並讓使用者嘗試再次開啟裝置。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -53,6 +53,6 @@ ms.locfileid: "103681802"
 [MIDI 服務](midi-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

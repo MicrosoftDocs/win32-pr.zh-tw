@@ -12,12 +12,12 @@ keywords:
 - mmioSetInfo 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c89b2376f1bae68d55c76d7731b6ee78f6bf7d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9e4ab9533f0f121d42f859961b60d405477856faacee8d8cf36a0dfb975e2587
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106988024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808638"
 ---
 # <a name="accessing-a-file-io-buffer"></a>存取檔案 i/o 緩衝區
 
@@ -75,6 +75,6 @@ mmioClose(hmmio, 0);
 
 當您完成存取檔案 i/o 緩衝區時，請呼叫 [**mmioSetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetinfo)函式，並傳遞 [**mmioGetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiogetinfo)函式所填滿的 [**MMIOINFO**](/previous-versions//dd757322(v=vs.85))結構位址。 如果您已寫入緩衝區，請 \_ 在 **MMIOINFO** 結構的 **DWFLAGS** 成員中設定 MMIO DIRTY 旗標，然後再呼叫 **mmioSetInfo**。 否則，將不會將緩衝區排清到磁片。
 
- 
+ 
 
- 
+ 

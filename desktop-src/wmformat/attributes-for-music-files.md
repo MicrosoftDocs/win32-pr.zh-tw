@@ -3,19 +3,19 @@ title: 音樂檔案的屬性
 description: 音樂檔案的屬性
 ms.assetid: 098d9241-c8b0-4b0c-b9c1-668497f91e8c
 keywords:
-- Windows Media Format SDK，屬性
+- Windows媒體格式 SDK，屬性
 - Advanced Systems Format (ASF) 、屬性
 - ASF (Advanced 系統格式) ，屬性
 - 屬性、音訊檔
 - 屬性、音樂檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e5956296da5ef43ed3a8d35ecc2d7e6d0a4c97e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d9a08b895c283eb48b3de3d8266659d280470ad20233ca4ba459f30a844206df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840308"
 ---
 # <a name="attributes-for-music-files"></a>音樂檔案的屬性
 
@@ -43,7 +43,7 @@ ms.locfileid: "103672044"
 ## <a name="secondary-attributes-for-music"></a>音樂的次要屬性
 
 -   [**著作權**](copyright.md)
--   [**WM/編輯器**](wm-composer.md)
+-   [**WM/Composer**](wm-composer.md)
 -   [**WM/EncodingTime**](wm-encodingtime.md)
 -   [**WM/語言**](wm-language.md)
 -   [**WM/ParentalRating**](wm-parentalrating.md)
@@ -72,7 +72,7 @@ ms.locfileid: "103672044"
 -   [**WM/句號**](wm-period.md)
 -   [**WM/圖片**](wmpicture.md)
 -   [**WM/PromotionURL**](wm-promotionurl.md)
--   [**WM/發行者**](wm-publisher.md)
+-   [**WM/Publisher**](wm-publisher.md)
 -   [**WM/子標題**](wm-subtitle.md)
 -   [**WM/UniqueFileIdentifier**](wm-uniquefileidentifier.md)
 -   [**WM/UserWebURL**](wm-userweburl.md)
@@ -87,9 +87,9 @@ ms.locfileid: "103672044"
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

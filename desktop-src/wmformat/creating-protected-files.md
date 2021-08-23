@@ -3,8 +3,8 @@ title: 建立受保護的檔案
 description: 建立受保護的檔案
 ms.assetid: 5237e797-72ec-402e-81ec-ab379747e464
 keywords:
-- Windows Media Format SDK，建立受保護的檔案
-- Windows Media Format SDK，受保護的檔案
+- Windows媒體格式 SDK，建立受保護的檔案
+- Windows媒體格式 SDK，受保護的檔案
 - Advanced Systems Format (ASF) ，建立受保護的檔案
 - ASF (Advanced Systems Format) ，建立受保護的檔案
 - Advanced Systems Format (ASF) 、受保護的檔案
@@ -17,12 +17,12 @@ keywords:
 - DRM (數位版權管理) ，WMStubDRM .lib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160a14d96da924bdb2a307bc804514a1ec3de083
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a5be729f04f67e1a2e4319bcc8d267c798942293c2df2ee97dcc6a559af612aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809468"
 ---
 # <a name="creating-protected-files"></a>建立受保護的檔案
 
@@ -36,7 +36,7 @@ ms.locfileid: "104314262"
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -60,9 +60,9 @@ ms.locfileid: "104314262"
 [**讀取受保護的檔案**](reading-protected-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

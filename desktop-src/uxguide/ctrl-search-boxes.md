@@ -4,19 +4,19 @@ description: 使用搜尋方塊，使用者可以藉由篩選或反白顯示相�
 ms.assetid: e2d77b36-e001-403c-9b66-2d136c394a24
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: e9d1fca8fdb96b17098cee79fd5b62ecd7ab7531
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 71e0ce45e2fd0b84b0abda9462f2cb42c945790e93ea06e7dfc6ece0f65ffd65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103945574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842937"
 ---
 # <a name="search-boxes"></a>搜尋方塊
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
-使用搜尋方塊，使用者可以藉由篩選或反白顯示相符專案，快速找出一組大型資料中的特定物件或文字。 沒有標準的搜尋控制項，但您應該努力讓程式的搜尋功能與 Windows 的功能保持一致。
+使用搜尋方塊，使用者可以藉由篩選或反白顯示相符專案，快速找出一組大型資料中的特定物件或文字。 沒有標準搜尋控制項，但您應該努力讓程式的搜尋功能與 Windows 的功能一致。
 
 搜尋的類型有兩種：
 
@@ -55,17 +55,17 @@ Windows 中的搜尋方塊：
 -   具有一致的外觀和行為。
 -   既有效率又快速，提供立即搜尋模式的即時結果。
 
-在下列位置中，Windows 會使用搜尋方塊：
+在下列位置中，Windows 使用搜尋方塊：
 
 -   總管
--   體驗 (Microsoft Windows Media Player、Windows 影像中心、Windows Internet Explorer) 
+-   體驗 (Microsoft Windows Media Player、Windows 影像中心 Windows Internet Explorer) 
 -   [開始] 功能表 (尋找程式和最近使用的檔案) 
 -   主控台首頁] (尋找 [控制台] 專案和工作) 
 -   協助 (尋找相關說明主題) 
 
 ### <a name="look-and-feel"></a>外觀與風格
 
-在 Windows 中搜尋的風格，藉由支援立即搜尋來大幅增強。 有了立即的結果，讓 Windows 感覺更強大且更直接。
+藉由支援立即搜尋，可大幅增強 Windows 中搜尋的感覺。 有了立即的結果，Windows 感覺更加強大且直接。
 
 在 Windows 檔案總管和應用程式視窗中，如果是增補進入點，則搜尋位於右上角。 在此情況下，當使用者在視窗中找不到想要的內容時，就會尋找搜尋機制。 但是，如果搜尋是主要進入點，則會在視窗的頂端置中。
 
@@ -73,7 +73,7 @@ Windows 中的搜尋方塊：
 
 ![立即搜尋方塊的螢幕擷取畫面 ](images/ctrl-search-boxes-image3.png)
 
-如果沒有標籤和個別按鈕，Windows 中的即時搜尋就會有輕量的外觀。
+如果沒有標籤和個別按鈕，Windows 中的即時搜尋會有輕量的外觀。
 
 執行成功搜尋會建立搜尋結果的虛擬頁面，並將其新增至後端堆疊和位址列。 使用者有數種方式可還原原始頁面，並清除搜尋方塊，包括按一下 [上一步]、按一下網址列中的原始頁面、按下 Esc 或清除 [搜尋] 方塊。
 
@@ -87,7 +87,7 @@ Windows 中的搜尋方塊：
 
 ## <a name="guidelines"></a>指導方針
 
-### <a name="location"></a>Location
+### <a name="location"></a>位置
 
 -   若為應用程式視窗，請在右上角尋找 [搜尋]。
 -   若為快顯視窗，請在最適合且方便的地方尋找搜尋。

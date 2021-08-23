@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: e59c22a0d3b5ad7055abd3609211ec553960b409
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d75792ac4c5ed6448c8cc0ac41d4e8b1666771790ddd4d7a9ffcf7fa86bdb851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840838"
 ---
 # <a name="apijetgettablecolumninfo-method"></a>JetGetTableColumnInfo 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104194484"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

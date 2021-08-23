@@ -4,12 +4,12 @@ description: 本章節包含與月曆控制項搭配使用之程式設計項目�
 ms.assetid: vs|controls|~\controls\monthcal\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60ba999b48e99e75c7137064a1e8cd563235ac54
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4a23ebdd2d1fba5a03449e7b9aab85e89a638469424b117ef0e5c9315b8068f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799088"
 ---
 # <a name="month-calendar-control"></a>月曆控制項
 

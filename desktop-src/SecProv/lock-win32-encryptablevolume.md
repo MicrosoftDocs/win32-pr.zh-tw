@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 8fb6cd7b4134f4921cdaf57414843fb6522c5823
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5053fe027bbae51ce93feb11de5f95bde1d7b17c85a05df1386e5470b1b20fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867658"
 ---
 # <a name="lock-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 Lock 方法 \_
 
@@ -61,7 +61,7 @@ uint32 Lock(
 
 
 
-| 傳回碼/值                                                                                                                                                                           | Description                                                                                                                                                               |
+| 傳回碼/值                                                                                                                                                                           | 描述                                                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl>                                           | 此方法成功。<br/>                                                                                                                                     |
 | <dl> <dt>**E \_\_拒絕存取**</dt> <dt>2147942405 (0x80070005)</dt> </dl>               | 應用程式正在存取此磁片區。 如果所有存取都是非獨佔的，則將 *ForceDismount* 參數指定為 true，可讓方法順利執行。<br/> |
@@ -83,8 +83,8 @@ uint32 Lock(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise，僅 Windows vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

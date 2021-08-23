@@ -4,12 +4,12 @@ ms.assetid: 9aac1d61-8b61-4f0f-b037-afe4a60302de
 title: DSS 版本3公開金鑰 Blob
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 593ac69025ff046a9a8d014286c2464788c07b02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5cc4894000f284dfd5d1b1dd9e9a7353e4eee0b09a42edc63de76e8eaa93184
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875258"
 ---
 # <a name="dss-version-3-public-key-blobs"></a>DSS 版本3公開金鑰 Blob
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7d7de755aa3b8007a122e43529d16f5e39ca0cb8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 93d3f367b0aa69fd2b5782e7cf3c830c30f140389d8611caadc7b70372762625
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813788"
 ---
 # <a name="cmemallocatoralloc-method"></a>CMemAllocator 方法
 
@@ -46,7 +46,7 @@ HRESULT Alloc();
 
 
 
-| 傳回碼                                                                                       | Description                                  |
+| 傳回碼                                                                                       | 描述                                  |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>              | 成功。<br/>                          |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl>     | 記憶體不足。<br/>              |

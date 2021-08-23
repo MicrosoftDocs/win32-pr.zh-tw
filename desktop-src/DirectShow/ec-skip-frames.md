@@ -4,12 +4,12 @@ ms.assetid: 252ffbcc-e81a-499d-9dd2-170be01f7ce1
 title: 'EC_SKIP_FRAMES (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7da28321ec06940cebf637c4da89290b69765f64
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c872d2a49af5226e60cbeffe3e7e9770dce5d61ae7995dad1f0a2dc99227db51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792438"
 ---
 # <a name="ec_skip_frames"></a>EC \_ 略過 \_ 框架
 

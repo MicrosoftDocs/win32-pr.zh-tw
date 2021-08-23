@@ -6,12 +6,12 @@ keywords:
 - Direct2D，函數
 ms.topic: article
 ms.date: 09/19/2019
-ms.openlocfilehash: 9cbe07a6c1054036030395ff965610919ee48a97
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 7df417bbaba8c442f61005b35900641c379da9d7b61fa91e898d41e0d73821d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104463897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874478"
 ---
 # <a name="direct2d-functions"></a>Direct2D 函式
 

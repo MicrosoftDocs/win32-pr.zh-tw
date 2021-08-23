@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39514139
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 97e345a2894133907f3211fef681bbc951e2152c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae0bab16174f78b1203e00a41f689a476fd7b03efd3a67ce8c8742ae82147e4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833388"
 ---
 # <a name="jet_signature-members"></a>JET_SIGNATURE 成員
 
@@ -81,7 +81,7 @@ JET_SIGNATURE 結構包含可唯一識別資料庫或記錄檔順序的資訊。
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

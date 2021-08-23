@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0fde070b1b013e651c84ffea7098eb8225aed8f9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 120a9f4179819b550502c2c3764d334159b647fd4c8621d3a088516b9a669d56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747848"
 ---
 # <a name="id3dxpatchmeshgetdeclaration-method"></a>ID3DXPatchMesh：： GetDeclaration 方法
 

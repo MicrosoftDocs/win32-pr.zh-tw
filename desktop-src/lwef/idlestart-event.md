@@ -4,16 +4,16 @@ description: IdleStart 事件
 ms.assetid: 3d97c26b-b88a-42e3-9072-0bc65510efc2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 706aafc13cb1639484539e3d08b305df217ecec8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 81458d4c88bc5db4ae4231ecb4ca47f456700917f42d6ccdfe5a6013bc288849
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716048"
 ---
 # <a name="idlestart-event"></a>IdleStart 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -37,7 +37,7 @@ ms.locfileid: "106965795"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -50,9 +50,9 @@ ms.locfileid: "106965795"
 [**IdleComplete 事件**](idlecomplete-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

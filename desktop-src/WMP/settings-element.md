@@ -10,16 +10,16 @@ keywords:
 - 元素，設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 927e1f9bca078910237f19ef8534bda7503a1aa1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab3e227f700963bab6765b7facc97e52b0a3919e790fff54ed16f9d465af4dc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763588"
 ---
 # <a name="settings-element"></a>SETTINGS 元素
 
-**Settings** 元素可在面板內指定 **設定** 物件的下列屬性。
+**SETTINGS** 元素可在面板內指定 **設定** 物件的下列屬性。
 
 
 
@@ -38,21 +38,21 @@ ms.locfileid: "103840316"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> <dt>
 
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

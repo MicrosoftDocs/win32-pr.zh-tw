@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 007acbe997f555e9a439ed27740a447d3bf7fe4d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2fe91ef581490ab15869fa45c299c9e172c01df9d689a4fcd1546cbbf84621ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760438"
 ---
 # <a name="getowner-method-of-the-win32_process-class"></a>Win32 進程類別的 GetOwner 方法 \_
 

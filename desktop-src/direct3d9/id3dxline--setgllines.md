@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 131c472ef4a2254880ef560edccb9c0cf1c8774b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bea46421cd259deb87bccaaf9e97073550467674491bba9e1983a7482686efd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103854088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748138"
 ---
 # <a name="id3dxlinesetgllines-method"></a>ID3DXLine：： SetGLLines 方法
 

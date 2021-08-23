@@ -49,12 +49,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 214517fd6518cf2ca406523c61f522ae9c1adc46
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4a57da3fe2b669b950213ffeaf39d72accb3452770852885c2ebe7da51d357d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119817558"
 ---
 # <a name="cim_uninterruptiblepowersupply-class"></a>CIM \_ UninterruptiblePowerSupply 類別
 

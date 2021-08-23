@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4d6d45c642ec9045d5eb8593492e385245bc635
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f72ca21992256df6b2fbe92b34400b9e2b6e368101fc158ea513381ed0445acf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804888"
 ---
 # <a name="dns-secure-secondaries-attribute"></a>Dns-安全的次要資料庫屬性
 

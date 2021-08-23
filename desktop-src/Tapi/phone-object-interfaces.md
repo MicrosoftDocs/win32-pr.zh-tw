@@ -4,18 +4,18 @@ ms.assetid: 5bc2f595-8e2b-4938-b813-1574a9390084
 title: 電話物件介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f39b163e895a512e7adc7be5c2fb848c5849361
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e146910b8184f35057843f20ad663e2be21d2c4844852e7cca3939e1e979d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873268"
 ---
 # <a name="phone-object-interfaces"></a>電話物件介面
 
 電話物件是代表實際電話裝置及其所有控制項的實體。
 
-[**ITPhoneEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent)和 [**IEnumPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone)介面不會直接在 Phone 物件上公開，但與其緊密相關，並在此處列出以方便參考。
+[**ITPhoneEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent)和 [**IEnumPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone)介面不會在電話物件上直接公開，但與其緊密相關，並在此處列出以方便參考。
 
 
 

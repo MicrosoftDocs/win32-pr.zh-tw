@@ -4,12 +4,12 @@ ms.assetid: d31882f6-b747-47c7-83cb-a9a03fe11cb8
 title: IPv6 連結-本機和網站-本機位址
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb80b8e201adf382b10dd31fe5607de903d6c588
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22220adb2c1b0338462f7ed87b3937a97c3d0b8a8b0aa2d9858d5c5efc8b4f54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794778"
 ---
 # <a name="ipv6-link-local-and-site-local-addresses"></a>IPv6 連結-本機和網站-本機位址
 
@@ -27,17 +27,17 @@ fe80::208:74ff:feda:625c%5
 
 使用 Netsh.exe 命令所做的設定變更是永久性的，而且在重新開機電腦或 IPv6 通訊協定時不會遺失。
 
-在 Windows XP Service Pack 1 (SP1) 之前，IPv6 設定和管理使用了數種舊版命令列工具 (Net.exe、Ipv6.exe 和 Ipsec6.exe) 來設定及管理 IPv6。 使用這些較舊的工具，IPv6 變更不是永久性的，而且會在電腦或 IPv6 通訊協定重新開機時遺失。 這些舊版的命令列工具只有在 Windows XP 上才受到支援。
+在 Windows XP Service Pack 1 (SP1) 之前，IPv6 設定和管理使用了數個舊版命令列工具 (Net.exe、Ipv6.exe 和 Ipsec6.exe) 來設定和管理 ipv6。 使用這些較舊的工具，IPv6 變更不是永久性的，而且會在電腦或 IPv6 通訊協定重新開機時遺失。 這些舊版的命令列工具僅在 Windows XP 上受到支援。
 
-在 Windows XP （含 SP1）上，下列命令會顯示本機電腦上的 IPv6 介面清單，包括介面索引、介面名稱和各種其他介面屬性。
+在 Windows XP SP1 上，下列命令會在本機電腦上顯示 IPv6 介面的清單，包括介面索引、介面名稱和各種其他介面屬性。
 
 **netsh interface ipv6 show 介面**
 
-在 Windows XP （含 SP1）上，下列命令會變更與介面索引相關聯的網站識別碼。
+在 Windows XP SP1 上，下列命令會變更與介面索引相關聯的網站識別碼。
 
 **netsh interface ipv6 set interface <InterfaceIndex or Name> siteid = value**
 
-在 Windows XP 上，下列舊版命令也會將與網站-本機位址相關聯的網站識別碼變更為3。
+在 Windows XP 上，下列舊版的命令也會將與網站-本機位址相關聯的網站識別碼變更為3。
 
 **ipv6 rtu fec0：：/10 3**
 
@@ -72,7 +72,7 @@ No   Manual   256  fe80::/64      14  Wireless Network Connection
 
 如果目的地連結-本機位址解析，則會使用該介面來傳送目前的封包。 此介面也會用於傳送至相同連結-本機目的地位址的任何後續不明確範圍封包。
 
-如果鄰居探索無法解析所有介面上的目的地連結-本機位址，系統就會嘗試在最慣用的介面上傳送封包， (第一個介面嘗試) 。 網路堆疊會持續嘗試解析最慣用介面上的目的地連結-本機位址。 在所有介面上的鄰近探索失敗之後的一段時間之後，網路堆疊會再次重新開機進程，並嘗試解析所有介面上的目的地連結-本機位址。 目前，當鄰近探索在所有介面上再次嘗試時，此時間間隔為60秒。 不過，此時間間隔可能會在 Windows 版本上變更，因此應用程式不應假設。
+如果鄰居探索無法解析所有介面上的目的地連結-本機位址，系統就會嘗試在最慣用的介面上傳送封包， (第一個介面嘗試) 。 網路堆疊會持續嘗試解析最慣用介面上的目的地連結-本機位址。 在所有介面上的鄰近探索失敗之後的一段時間之後，網路堆疊會再次重新開機進程，並嘗試解析所有介面上的目的地連結-本機位址。 目前，當鄰近探索在所有介面上再次嘗試時，此時間間隔為60秒。 不過，此時間間隔可能會在 Windows 版本上變更，因此應用程式不應該採用此時間間隔。
 
 > [!Note]  
 > 如果應用程式在鄰居探索解析出連結-本機位址之後，將相同的連結-本機位址系結至不同的介面，則不會覆寫鄰居探索所傳回之連結-本機目的地位址的介面。

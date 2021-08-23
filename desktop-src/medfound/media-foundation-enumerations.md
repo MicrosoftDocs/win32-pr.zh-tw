@@ -4,12 +4,12 @@ ms.assetid: f26a730f-18c4-4247-acaf-af1dfad19086
 title: 媒體基礎列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c493d52421cd8add7ced0061d38b2395be690e53
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fe30ae75400ec9fdf86281817275f01057b26824f15c0eebcf98cd33c71ab360
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715398"
 ---
 # <a name="media-foundation-enumerations"></a>媒體基礎列舉
 
@@ -20,7 +20,7 @@ ms.locfileid: "104321615"
 | 主題                                                                                                     | 描述                                                                                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_MFDepthMeasurement**](/windows/win32/api/mfapi/ne-mfapi-mfdepthmeasurement)<br/>                                            | 針對影片畫面中的深度值指定測量系統。<br/>                                                                                                                                             |
-| [**\_MF \_ 跨 \_ 來源 \_ 原則**](/windows/desktop/api/mfidl/ne-mfidl-mf_cross_origin_policy)<br/>                                 | 對應至 HTML5 media 元素所使用 (CORS) 屬性的 W3C 跨原始來源設定<br/>                                                                                                                           |
+| [**\_MF \_ 跨 \_ 來源 \_ 原則**](/windows/desktop/api/mfidl/ne-mfidl-mf_cross_origin_policy)<br/>                                 | 地圖至 [W3C 跨原始來源] 設定 (HTML5 media 元素所使用的 CORS) 屬性<br/>                                                                                                                           |
 | [**\_MFP \_ 建立 \_ 選項**](/windows/win32/api/mfplay/ne-mfplay-_mfp_creation_options)<br/>                                      | 指定 [**MFPCreateMediaPlayer**](/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer) 函數的選項。<br/>                                                                                                                         |
 | [**\_MFP \_ 認證 \_ 旗標**](/windows/win32/api/mfplay/ne-mfplay-_mfp_credential_flags)<br/>                                      | 包含適用于 [**MFP \_ 取得 \_ 使用者 \_ 認證 \_ 事件**](/windows/desktop/api/mfplay/ns-mfplay-mfp_acquire_user_credential_event) 結構的旗標。<br/>                                                                                             |
 | [**\_MFP \_ MEDIAITEM \_ 特性**](/windows/win32/api/mfplay/ne-mfplay-_mfp_mediaitem_characteristics)<br/>                    | 包含描述媒體專案的旗標。<br/>                                                                                                                                                                       |
@@ -152,7 +152,7 @@ ms.locfileid: "104321615"
 | [**MFSESSION \_ GETFULLTOPOLOGY \_ 旗標**](/windows/desktop/api/mfidl/ne-mfidl-mfsession_getfulltopology_flags)<br/>                   | 定義 [**IMFMediaSession：： GetFullTopology**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology) 方法的旗標。 <br/>                                                                                                       |
 | [**MFSESSION \_ SETTOPOLOGY \_ 旗標**](/windows/desktop/api/mfidl/ne-mfidl-mfsession_settopology_flags)<br/>                           | 定義 [**IMFMediaSession：： SetTopology**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology) 方法的行為。<br/>                                                                                                          |
 | [**MFSHUTDOWN \_ 狀態**](/windows/desktop/api/mfidl/ne-mfidl-mfshutdown_status)<br/>                                                | 描述呼叫 [**IMFShutdown：： Shutdown**](/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown) 方法的目前狀態。<br/>                                                                                                      |
-| [**MFSINK \_ WMDRMACTION**](/windows/win32/api/wmcontainer/ne-wmcontainer-mfsink_wmdrmaction)<br/>                                              | 指定 ASF 檔案接收如何套用 Windows Media DRM。<br/>                                                                                                                                                  |
+| [**MFSINK \_ WMDRMACTION**](/windows/win32/api/wmcontainer/ne-wmcontainer-mfsink_wmdrmaction)<br/>                                              | 指定如何將 ASF 檔案接收套用 Windows 媒體 DRM。<br/>                                                                                                                                                  |
 | [**MFStandardVideoFormat**](/windows/desktop/api/mfobjects/ne-mfobjects-mfstandardvideoformat)<br/>                                         | 包含指定一般影片格式的值。<br/>                                                                                                                                                               |
 | [**MFSTREAMSINK \_ 標記 \_ 類型**](/windows/desktop/api/mfidl/ne-mfidl-mfstreamsink_marker_type)<br/>                                 | 定義 [**IMFStreamSink：:P lacemarker**](/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker) 方法的資料流程標記資訊。<br/>                                                                                                |
 | [**MFT \_ 訊息 \_ 類型**](/windows/desktop/api/mftransform/ne-mftransform-mft_message_type)<br/>                                                 | 定義媒體基礎轉換 (MFT) 的訊息。<br/>                                                                                                                                                         |

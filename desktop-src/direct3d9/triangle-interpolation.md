@@ -4,12 +4,12 @@ ms.assetid: 6fa05e56-c4cd-4623-abe9-2b1c8bbc644b
 title: " (Direct3D 9) 的三角形插補"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 405cbecd6123145d412a3e7f58f727bdf5b5a3e8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 28a411f53351ccd5d3407b358b03e705677e9bf5a96a57b162016afe09332bae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746258"
 ---
 # <a name="triangle-interpolation-direct3d-9"></a> (Direct3D 9) 的三角形插補
 
@@ -19,7 +19,7 @@ ms.locfileid: "106972952"
 
 
 
-| 陰影模式 | Description                                                                                                                                                                 |
+| 陰影模式 | 描述                                                                                                                                                                 |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 一般         | 在平面陰影模式下，只內插霧因數。 對於所有其他內插補值，三角形中第一個頂點的色彩會套用到整個面。 |
 | Gouraud      | 在所有三個頂點之間執行線性內插補點。                                                                                                               |

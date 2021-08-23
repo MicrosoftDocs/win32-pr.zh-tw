@@ -4,12 +4,12 @@ ms.assetid: 76069097-a513-42f7-bdcc-a65714e95f0a
 title: 將內容從裝置傳輸到電腦
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de06861ba74b4b7883c8d96e25cebe3fbb64e21c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a8695f8158040e75a4aae40f95386ed70af45df56a137dabc944ab6d1771e69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806518"
 ---
 # <a name="transferring-content-from-the-device-to-a-pc"></a>將內容從裝置傳輸到電腦
 

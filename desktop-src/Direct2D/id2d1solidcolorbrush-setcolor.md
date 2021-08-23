@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 580778135e840a69342ff34ffd8e415883317517
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb281265a9567db5da6252944fa1da1a6beb1bd4a0fb2a6a4d80ef1177455fc8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873948"
 ---
 # <a name="id2d1solidcolorbrushsetcolor-methods"></a>ID2D1SolidColorBrush：： SetColor 方法
 

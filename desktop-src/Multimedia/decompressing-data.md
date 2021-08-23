@@ -10,12 +10,12 @@ keywords:
 - ICDecompressEnd 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03b44ea375bb1f2b5c41a361ca7f31387439b610
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a213a4d4762f782da817773aac6e8838155561ae47129dd998dad7a82ac5a4f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785428"
 ---
 # <a name="decompressing-data"></a>解壓縮資料
 
@@ -54,9 +54,9 @@ else
 
 
 
- 
+ 
 
- 
+ 
 
 
 

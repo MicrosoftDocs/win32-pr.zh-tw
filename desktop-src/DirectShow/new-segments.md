@@ -4,12 +4,12 @@ ms.assetid: 6c470b38-481f-4e52-93b8-eb6b343dcefc
 title: 新區段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5438cb3b457ed8ea0f77bd2ac1dcc5d6d2c72698
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 28701a29a3b4edd61e9eb408aeab744297eac56408c49dc77dd4328a5afd24b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790928"
 ---
 # <a name="new-segments"></a>新區段
 

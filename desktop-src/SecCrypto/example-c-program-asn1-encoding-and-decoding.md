@@ -4,12 +4,12 @@ ms.assetid: 78108cd5-531e-4d0c-96cf-6f6264b7716c
 title: 範例 C 程式： asn.1 編碼和解碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c3d15601c35db7a32805e3d5ef20f71f18538ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98ee176995de5f150e6818290b1dcf1fda83b320a1fbcf40bf3a27ebab149447
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874008"
 ---
 # <a name="example-c-program-asn1-encoding-and-decoding"></a>範例 C 程式： asn.1 編碼和解碼
 

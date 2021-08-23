@@ -12,12 +12,12 @@ keywords:
 - 進行中的範例，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ea80796aba334e28c9ded1d06fda7e3e565fae8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9ecff1b706963689b8d6a79627bcc1642e26497ed1ba6a93807c66ed02d3dd58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804578"
 ---
 # <a name="using-the-audio-compression-manager"></a>使用音訊壓縮管理員
 
@@ -36,9 +36,9 @@ ms.locfileid: "103839572"
 -   [在應用程式中新增驅動程式](adding-drivers-within-an-application.md)
 -   [產生非標準格式](generating-a-nonstandard-format.md)
 
- 
+ 
 
- 
+ 
 
 
 

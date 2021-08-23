@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e94fc31e2113990a1862fab7288ffeefef787cff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d59c1e760565443c286969cc92b3b0c4a6b83a2513587f424ebcda366b1b8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710508"
 ---
 # <a name="commandlargehighcontrastimages-property"></a>LargeHighContrastImages 屬性
 
@@ -41,7 +41,7 @@ ms.locfileid: "104025391"
 
 | 元素                                                 | 描述                                        |
 |---------------------------------------------------------|----------------------------------------------------|
-| [**圖像**](windowsribbon-element-image.md)<br/> | 可能會發生一次或多次<br/> <br/> |
+| [**映像**](windowsribbon-element-image.md)<br/> | 可能會發生一次或多次<br/> <br/> |
 
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "104025391"
 
 每個 [**命令**](windowsribbon-element-command.md)最多可能會發生一次。
 
-影像資源必須符合 Windows 中所使用的標準點陣圖 (BMP) 圖形格式。
+影像資源必須符合 Windows 中使用的標準點陣圖 (BMP) 圖形格式。
 
 ## <a name="examples"></a>範例
 
@@ -117,8 +117,8 @@ ms.locfileid: "104025391"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

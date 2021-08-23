@@ -1,6 +1,6 @@
 ---
 title: MDM_EnterpriseModernAppManagement_AppInstallation01_01 類別
-description: MDM \_ EnterpriseModernAppManagement \_ AppInstallation01 \_ 01 類別可用來從 Windows 存放區或裝載位置安裝應用程式。
+description: MDM \_ EnterpriseModernAppManagement \_ AppInstallation01 \_ 01 類別是用來從 Windows 存放區或託管位置安裝應用程式。
 ms.assetid: fc4c4c82-6f43-41fc-863b-940c0517f28b
 keywords:
 - MDM_EnterpriseModernAppManagement_AppInstallation01_01 類別
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f6cd3fc5478e73df5276fdc9d6a1d66c9649dd6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d29cde4408cac13471e98d0c42b36779f8b23c0101f6ba22f383d97e181893e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875338"
 ---
 # <a name="mdm_enterprisemodernappmanagement_appinstallation01_01-class"></a>MDM \_ EnterpriseModernAppManagement \_ AppInstallation01 \_ 01 類別
 
 \[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。 Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]
 
-**MDM \_ EnterpriseModernAppManagement \_ AppInstallation01 \_ 01** 類別可用來從 Windows 存放區或裝載位置安裝應用程式。
+**MDM \_ EnterpriseModernAppManagement \_ AppInstallation01 \_ 01** 類別是用來從 Windows 存放區或託管位置安裝應用程式。
 
 下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。
 
@@ -63,7 +63,7 @@ class MDM_EnterpriseModernAppManagement_AppInstallation01_01
 | 方法                                                                                                    | 描述                                                                                                                                |
 |:----------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | [**HostedInstallMethod**](mdm-enterprisemodernappmanagement-appinstallation01-01-hostedinstallmethod.md) | 從託管位置執行應用程式套件安裝的方法 (這可以是本機磁片磁碟機、UNC 或 HTTPs 資料來源) 。<br/> |
-| [**StoreInstallMethod**](mdm-enterprisemodernappmanagement-appinstallation01-01-storeinstallmethod.md)   | 從 Windows 市集中執行應用程式和授權安裝的方法。<br/>                                                    |
+| [**StoreInstallMethod**](mdm-enterprisemodernappmanagement-appinstallation01-01-storeinstallmethod.md)   | 用來執行應用程式安裝和 Windows 存放區授權的方法。<br/>                                                    |
 
 
 
@@ -157,7 +157,7 @@ class MDM_EnterpriseModernAppManagement_AppInstallation01_01
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

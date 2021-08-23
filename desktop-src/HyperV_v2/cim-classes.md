@@ -4,12 +4,12 @@ ms.assetid: 16EF4297-A64E-4273-9D6E-0B81C954265E
 title: " (Hyper-v 管理) 的 CIM 類別"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d8ae1c0d9eec142c28467c09b021cb4eb19c67a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e61e72a3711d8963aba426fb9658ad3a742bde15dab02aabe9b7e6d62541a65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790568"
 ---
 # <a name="cim-classes-hyper-v-management"></a> (Hyper-v 管理) 的 CIM 類別
 

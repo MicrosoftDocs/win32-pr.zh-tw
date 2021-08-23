@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: 9582c54c42e2416d5d7a98e85eba3151fd6769a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eae5e616e8583e2a1da8f8aa0882ea25160faad3f064734620466a0353736efe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793858"
 ---
 # <a name="iupdateendpointauthtokentokenreferenceattached-method"></a>IUpdateEndpointAuthToken：： TokenReferenceAttached 方法
 
@@ -60,10 +60,10 @@ HRESULT TokenReferenceAttached(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>                   |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>                |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>                   |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>                |
 | 標頭<br/>                   | <dl> <dt>UpdateEndpointAuth。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>UpdateEndpointAuth .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UpdateEndpointAuth.dll</dt> </dl> |
 

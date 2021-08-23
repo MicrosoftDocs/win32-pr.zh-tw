@@ -9,16 +9,16 @@ keywords:
 - VISCA 驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77d884c38d224182db7eef8db0f0cd80b14e3a08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0397e56c589c357edc9e0be1999b51d358f8caced60117af5c20c7954a1edb49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804518"
 ---
 # <a name="vcr-services"></a>VCR 服務
 
-Windows 會透過設備磁碟機提供 VCR 服務，該驅動程式是以針對 Vcr 設定的 MCI 命令為基礎。 本節說明 (VISCA) 驅動程式的 MCI 影片系統控制項架構，並說明如何使用它來控制 VCR。
+Windows 透過以 vcr 的 MCI 命令集為基礎的設備磁碟機來提供 VCR 服務。 本節說明 (VISCA) 驅動程式的 MCI 影片系統控制項架構，並說明如何使用它來控制 VCR。
 
 *Vcr* 裝置類型會控制 vcr。 如需由 VCR 裝置辨識的 MCI 命令清單，請參閱 [Vcr 命令集](vcr-command-set.md)。
 
@@ -100,7 +100,7 @@ VCR 會藉由搜尋點對點（也就是目前的位置或使用 **提示**"from
 > [!Note]  
 > 當您使用 "from" 和 "to" 位置記錄時，"from" 位置會包含在編輯中，而 "to" 位置則不會。
 
- 
+ 
 
 如需錄製的詳細資訊，請參閱 [錄製](recording.md)。
 
@@ -116,9 +116,9 @@ VCR 會藉由搜尋點對點（也就是目前的位置或使用 **提示**"from
 
 若要確保等待期間夠長，請將 [ **記錄** ] 命令最後放在應用程式中，然後檢查它之前的時間。 如果間隔太短，請重新開機 **播放** 命令。 或者，您可以檢查腳本最後一個命令之後的時間，以確認有足夠的時間來傳送和完成所有命令。
 
- 
+ 
 
- 
+ 
 
 
 

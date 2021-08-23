@@ -4,12 +4,12 @@ ms.assetid: 85b3cf8e-bff3-4693-b00e-64bf5d1f5065
 title: TxF 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d490f608ef9ebfa6906d1acffa374a0c9327489b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac6acdbaac0798ef2dac3b3fefad9a1f5de505eb9781316fca82d45cfad26af0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765838"
 ---
 # <a name="txf-structures"></a>TxF 結構
 
@@ -19,7 +19,7 @@ ms.locfileid: "106983342"
 
 
 
-| 結構                                                                                                    | Description                                                                                                                                                                                        |
+| 結構                                                                                                    | 描述                                                                                                                                                                                        |
 |--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**TXFS \_ 建立 \_ 迷你迷你 \_ 資訊**](/windows/desktop/api/WinIoCtl/ns-winioctl-txfs_create_miniversion_info)<br/>                           | 包含 [**FSCTL \_ TXFS \_ CREATE \_ 迷你**](/windows/win32/api/winioctl/ni-winioctl-fsctl_txfs_create_miniversion)版所建立之迷你版的相關版本資訊。<br/>                                            |
 | [**TXFS \_ 取得 \_ 中繼資料 \_ 資訊 \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-txfs_get_metadata_info_out)<br/>                              | 包含有關所建立之迷你版的版本資訊。<br/>                                                                                                                 |

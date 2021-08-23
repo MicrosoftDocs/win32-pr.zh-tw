@@ -4,12 +4,12 @@ ms.assetid: 3dfbb5c0-b533-403f-ad6c-b9e1b52ab47a
 title: 皮卡
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e033689ffccf6ba01ad06eb071514c1c37aaca03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 288510d2d9e2eb2ed6e9a5cc5c58f6957b933b7d43db951eb330dd081a4c446f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873058"
 ---
 # <a name="pickup"></a>皮卡
 

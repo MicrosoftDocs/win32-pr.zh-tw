@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Apphelp.dll
-ms.openlocfilehash: 8db16463d2923ce3c888de4f202e1ebc36584e99
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 19477385fb70f65c560d1a13d479fc4c2ce1853220aff6ac32a75f3634a40d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815378"
 ---
 # <a name="sdbquerydataextagid-function"></a>SdbQueryDataExTagID 函式
 
@@ -118,7 +118,7 @@ EXE 專案的 [**TAGID**](tagid.md) 。
 
 
 
-| 傳回碼                                                                                                    | Description                                                            |
+| 傳回碼                                                                                                    | 描述                                                            |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | <dl> <dt>**錯誤 \_ 不正確 \_ 參數**</dt> </dl>       | 一或多個輸入參數不正確。<br/>                  |
 | <dl> <dt>**\_內部 \_ 資料庫 \_ 損毀錯誤**</dt> </dl> | 找不到 EXE 專案的資料項目目。<br/>               |
@@ -137,8 +137,8 @@ EXE 專案的 [**TAGID**](tagid.md) 。
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Apphelp.dll</dt> </dl> |
 
 

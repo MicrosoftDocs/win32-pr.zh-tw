@@ -5,12 +5,12 @@ ms.assetid: BD5A5D8E-2EAE-4806-8DE8-B6B02D9D0402
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 388712e8d9244e8d628c72c1fff80e5fc468a466
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 67cd80570441c470e5f4ea40e1a3ecd7ee6c34826f8db02940b63114466cb470
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769718"
 ---
 # <a name="win32_tsgatewayserversettings-methods"></a>Win32 \_ TSGatewayServerSettings 方法
 
@@ -49,9 +49,9 @@ ms.locfileid: "103674339"
 -   [**TSGStoreAdminMsg 方法**](tsgstoreadminmsg-win32-tsgatewayserversettings.md)
 -   [**TSGStoreConsentMsg 方法**](tsgstoreconsentmsg-win32-tsgatewayserversettings.md)
 
- 
+ 
 
- 
+ 
 
 
 
