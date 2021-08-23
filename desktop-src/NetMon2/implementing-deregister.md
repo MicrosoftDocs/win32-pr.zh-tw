@@ -4,12 +4,12 @@ ms.assetid: 936d5b00-b0ee-4a29-9396-1e2a7a91a2dd
 title: 執行取消註冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ee07c5b6b3c746e9c29811332b9e7674e49db26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 444502ba3ab19921a6372d4cda872aed85e879cbbdadc2f0176a7187bfc24491
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890478"
 ---
 # <a name="implementing-deregister"></a>執行取消註冊
 

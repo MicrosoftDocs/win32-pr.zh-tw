@@ -4,18 +4,18 @@ ms.assetid: dad7787f-417d-409c-bc7d-c7d5298bdfb0
 title: ApertureNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 401219846ab19f23bd2d632362de2eb069454122
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 838b53294f69eaef2579b068381f02f66cac2f2741c4f417beadb7f517f1b4ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716478"
 ---
 # <a name="systemphotoaperturenumerator"></a>ApertureNumerator
 
 System.servicemodel[的分子。](./props-system-photo-aperture.md)
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

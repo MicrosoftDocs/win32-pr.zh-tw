@@ -4,12 +4,12 @@ ms.assetid: 51a7a157-6808-42c6-8567-a15af9324b79
 title: 'MFPKEY_RESIZE_MINAPY 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39493fd7261ea0a74d84ab18f308f0502b4fb0be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9feb7e1134c628be16d82412cd999c9ad73f73a7f76a6439364c5c85d9b3e335
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848238"
 ---
 # <a name="mfpkey_resize_minapy-property"></a>MFPKEY \_ RESIZE \_ MINAPY 屬性
 
@@ -37,8 +37,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

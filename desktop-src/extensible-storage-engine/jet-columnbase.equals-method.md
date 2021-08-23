@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: ee2ab682377a33f74a9e9ac3d4cce1c09fe199aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 089d383a846515c95085708eb3d6555e2d9313733a0a5965c73a23d48a44fc3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721108"
 ---
 # <a name="jet_columnbaseequals-method"></a>JET_COLUMNBASE。Equals 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104564275"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

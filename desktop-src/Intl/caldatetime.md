@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 5e3f0099a8e1dd7794b960af3d753085f2a32eaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 700e11f27b673d9ff706483cc4abcf2f06cd7d8bb779ef8eaf9b51a6d81b4068
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822828"
 ---
 # <a name="caldatetime-structure"></a>CALDATETIME 結構
 
@@ -61,7 +61,7 @@ typedef struct _caldatetime {
 
 </dd> <dt>
 
-**年**
+**Year**
 </dt> <dd>
 
 瞬間的時間。
@@ -103,7 +103,7 @@ typedef struct _caldatetime {
 
 </dd> <dt>
 
-**第二**
+**Second**
 </dt> <dd>
 
 時間瞬間的第二個。
@@ -123,8 +123,8 @@ typedef struct _caldatetime {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

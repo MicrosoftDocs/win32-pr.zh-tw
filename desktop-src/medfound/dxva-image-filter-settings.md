@@ -1,15 +1,15 @@
 ---
 description: 下列旗標定義 DirectX Video 加速 (DXVA) 篩選設定。
 ms.assetid: 6514992e-8188-4d28-879c-547e9b340b28
-title: 'DXVA 影像篩選設定 (Dxva2api .h) '
+title: 'DXVA 影像篩選器設定 (Dxva2api .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dca1f6c2518401c89bddc4fbdbd8dbf7960d64c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2532644d1799db99921bf213840debeb498fe08cc1028f0fe653cb1fb0cf7af6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942589"
 ---
 # <a name="dxva-image-filter-settings"></a>DXVA 影像篩選設定
 
@@ -40,8 +40,8 @@ ms.locfileid: "106986276"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Dxva2api。h</dt> </dl> |
 
 

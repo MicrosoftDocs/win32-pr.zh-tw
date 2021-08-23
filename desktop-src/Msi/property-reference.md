@@ -4,12 +4,12 @@ ms.assetid: c91119b9-59d5-4a33-91cd-d3ba63659d12
 title: 屬性參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e2ae30800d3c718549ecc887e3438d743881f51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18958c09c3a0c4c42363d725f61b03b9de00782049928c7f03cf43d4e89043b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828468"
 ---
 # <a name="property-reference"></a>屬性參考
 
@@ -288,25 +288,25 @@ ms.locfileid: "103692964"
 
 | 屬性名稱                                                                             | 簡短描述                                                                                                                                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AdminUser**](adminuser.md)<br/>                                                 | 如果使用者具有系統管理員許可權，請在 Windows 2000 上設定。<br/>                                                                                                                                                                                                                        |
+| [**AdminUser**](adminuser.md)<br/>                                                 | 如果使用者具有系統管理員許可權，則設定為 Windows 2000。<br/>                                                                                                                                                                                                                        |
 | [**名稱**](computername.md)<br/>                                           | 目前系統的電腦名稱稱。<br/>                                                                                                                                                                                                                                                 |
 | [**MsiNetAssemblySupport**](msinetassemblysupport.md)<br/>                         | 在支援通用語言執行時間元件的系統上，安裝程式會將這個屬性的值設定為 fusion.dll 的檔案版本。 如果作業系統不支援 common language runtime 元件，安裝程式就不會設定這個屬性。<br/>                   |
-| [**MsiNTProductType**](msintproducttype.md)<br/>                                   | 指出 Windows 產品類型。<br/>                                                                                                                                                                                                                                                  |
+| [**MsiNTProductType**](msintproducttype.md)<br/>                                   | 指出 Windows 的產品類型。<br/>                                                                                                                                                                                                                                                  |
 | [**MsiNTSuiteBackOffice**](msintsuitebackoffice.md)<br/>                           | 在 Windows 2000 和更新版本的作業系統上，安裝程式只會在安裝 Microsoft BackOffice 元件時，將這個屬性設定為 1 (一個) 。<br/>                                                                                                                                      |
-| [**MsiNTSuiteDataCenter**](msintsuitedatacenter.md)<br/>                           | 在 Windows 2000 和更新版本的作業系統上，安裝程式會將這個屬性設定為 1 (只有在安裝 Windows 2000 Datacenter Server 時，才會) 。<br/>                                                                                                                                        |
-| [**MsiNTSuiteEnterprise**](msintsuiteenterprise.md)<br/>                           | 在 Windows 2000 和更新版本的作業系統上，安裝程式會將這個屬性設定為 1 (只有在安裝 Windows 2000 Advanced Server 時，才會) 。<br/>                                                                                                                                          |
-| [**MsiNTSuitePersonal**](msintsuitepersonal.md)<br/>                               | 在 Windows XP 和更新版本的作業系統上，安裝程式會將這個屬性設定為 1 (只有在作業系統為 Home (不是專業) 時，才會) 。<br/>                                                                                                                                      |
-| [**MsiNTSuiteSmallBusiness**](msintsuitesmallbusiness.md)<br/>                     | 在 Windows 2000 和更新版本的作業系統上，安裝程式會將這個屬性設定為 1 (只有在安裝 Microsoft Small Business Server 時才會) 。<br/>                                                                                                                                       |
-| [**MsiNTSuiteSmallBusinessRestricted**](msintsuitesmallbusinessrestricted.md)<br/> | 在 Windows 2000 和更新版本的作業系統上，安裝程式會將這個屬性設定為 1 (只有在使用嚴格的用戶端授權安裝 Microsoft Small Business Server 時，才會) 。<br/>                                                                                                   |
-| [**MsiNTSuiteWebServer**](msintsuitewebserver.md)<br/>                             | 在 Windows 2000 和更新版本的作業系統上，如果已安裝 web edition 的 Windows Server 2003，安裝程式會將 [**MsiNTSuiteWebServer**](msintsuitewebserver.md) 屬性設定為 1 (一個) 。 僅適用于 Windows Server 2003 版本的 Windows Installer。<br/> |
-| [**MsiTabletPC**](msitabletpc.md)<br/>                                             | 如果目前的作業系統是 Windows XP Tablet PC Edition，安裝程式會將這個屬性設定為非零值。<br/>                                                                                                                                                                 |
+| [**MsiNTSuiteDataCenter**](msintsuitedatacenter.md)<br/>                           | 在 Windows 2000 和更新版本的作業系統上，安裝程式只會在安裝 Windows 2000 Datacenter Server 時，將此屬性設定為 1 (一個) 。<br/>                                                                                                                                        |
+| [**MsiNTSuiteEnterprise**](msintsuiteenterprise.md)<br/>                           | 在 Windows 2000 和更新版本的作業系統上，安裝程式只會在安裝 Windows 2000 Advanced Server 時，將此屬性設定為 1 (一個) 。<br/>                                                                                                                                          |
+| [**MsiNTSuitePersonal**](msintsuitepersonal.md)<br/>                               | 在 Windows XP 及更新版本的作業系統上，安裝程式會將這個屬性設定為 1 (只有在作業系統為 Home (不 Professional) 時才會) 。<br/>                                                                                                                                      |
+| [**MsiNTSuiteSmallBusiness**](msintsuitesmallbusiness.md)<br/>                     | 在 Windows 2000 和更新版本的作業系統上，安裝程式只會在安裝 Microsoft Small Business Server 時，將這個屬性設定為 1 (一個) 。<br/>                                                                                                                                       |
+| [**MsiNTSuiteSmallBusinessRestricted**](msintsuitesmallbusinessrestricted.md)<br/> | 在 Windows 2000 和更新版本的作業系統上，安裝程式會將這個屬性設定為 1)  (只有在使用嚴格的用戶端授權安裝 Microsoft Small Business Server 時，才會將此屬性設定為1。<br/>                                                                                                   |
+| [**MsiNTSuiteWebServer**](msintsuitewebserver.md)<br/>                             | 在 Windows 2000 和更新版本的作業系統上，如果已安裝 Windows Server 2003 的 web 版本，安裝程式會將 [**MsiNTSuiteWebServer**](msintsuitewebserver.md)屬性設定為 1 (一個) 。 僅適用于 Windows Installer 的 Windows Server 2003 版本。<br/> |
+| [**MsiTabletPC**](msitabletpc.md)<br/>                                             | 如果目前的作業系統 Windows XP Tablet PC Edition，則安裝程式會將這個屬性設定為非零值。<br/>                                                                                                                                                                 |
 | [**MsiWin32AssemblySupport**](msiwin32assemblysupport.md)<br/>                     | 在支援 Win32 元件的系統上，安裝程式會將這個屬性的值設定為 sxs.dll 的檔案版本。 如果作業系統不支援 Win32 元件，安裝程式就不會設定這個屬性。<br/>                                                          |
 | [**OLEAdvtSupport**](oleadvtsupport.md)<br/>                                       | 如果 OLE 支援 Windows Installer，則設定。<br/>                                                                                                                                                                                                                                           |
 | [**RedirectedDllSupport**](redirecteddllsupport.md)<br/>                           | 如果執行安裝的系統支援 [隔離的元件](isolated-components.md)，安裝程式會設定 [**RedirectedDllSupport**](redirecteddllsupport.md)屬性。<br/>                                                                                              |
 | [**RemoteAdminTS**](remoteadmints.md)<br/>                                         | 當系統是執行終端機伺服器角色服務的遠端管理伺服器時，安裝程式會設定 [**RemoteAdminTS**](remoteadmints.md) 屬性。<br/>                                                                                                                   |
 | [**ServicePackLevel**](servicepacklevel.md)<br/>                                   | 作業系統 service pack 的版本號碼。<br/>                                                                                                                                                                                                                             |
 | [**ServicePackLevelMinor**](servicepacklevelminor.md)<br/>                         | 作業系統 service pack 的次要版本號碼。<br/>                                                                                                                                                                                                                       |
-| [**SharedWindows**](sharedwindows.md)<br/>                                         | 當系統作為共用視窗運作時進行設定。<br/>                                                                                                                                                                                                                                  |
+| [**SharedWindows**](sharedwindows.md)<br/>                                         | 當系統作為共用 Windows 運作時設定。<br/>                                                                                                                                                                                                                                  |
 | [**ShellAdvtSupport**](shelladvtsupport.md)<br/>                                   | 如果 shell 支援功能廣告，請設定。<br/>                                                                                                                                                                                                                                       |
 | [**SystemLanguageID**](systemlanguageid.md)<br/>                                   | 系統的預設語言識別項。<br/>                                                                                                                                                                                                                                          |
 | [**TerminalServer**](terminalserver.md)<br/>                                       | 當系統是執行終端機伺服器角色服務的伺服器時設定。<br/>                                                                                                                                                                                                            |
@@ -419,7 +419,7 @@ ms.locfileid: "103692964"
 | [**LogonUser**](logonuser.md)<br/>                     | 目前登入之使用者的使用者名稱。<br/>                           |
 | [**MsiHiddenProperties**](msihiddenproperties.md)<br/> | 防止寫入記錄檔的屬性清單。<br/>       |
 | [**PIDKEY**](pidkey.md)<br/>                           | 使用者輸入的產品識別碼部分。<br/>                                 |
-| [**產品**](productid.md)<br/>                     | 成功驗證之後的完整產品識別碼。<br/>                               |
+| [**ProductID**](productid.md)<br/>                     | 成功驗證之後的完整產品識別碼。<br/>                               |
 | [**UserLanguageID**](userlanguageid.md)<br/>           | 目前使用者的預設語言識別項。<br/>                             |
 | [**使用者**](username.md)<br/>                       | 執行安裝的使用者。<br/>                                     |
 | [**UserSID 屬性**](usersid.md)<br/>                | 根據使用者的安全識別碼 (SID) 來設定安裝程式。<br/> |

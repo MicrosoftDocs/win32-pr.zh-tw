@@ -4,12 +4,12 @@ ms.assetid: 5251234b-0280-4d5d-80f5-295d720a89d1
 title: 'WPCEVENT_IM_JOIN (Wpcevent 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b020eb3d4204f946002f59f472e5c95b715f88f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 181bc849cf89e8a78a7a5aaad97463baf0c611d99ca0dc05caf9bfaf879eb804
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951288"
 ---
 # <a name="wpcevent_im_join-event"></a>WPCEVENT \_ IM \_ 聯結事件
 
@@ -102,7 +102,7 @@ const EVENT_DESCRIPTOR WPCEVENT_IM_JOIN = {0x8, 0x0, 0x10, 0x4, 0x16, 0x8, 0x800
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 標頭<br/>                   | <dl> <dt>Wpcevent。h</dt> </dl> |
 

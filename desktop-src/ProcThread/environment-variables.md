@@ -4,12 +4,12 @@ ms.assetid: 6732b12f-ced1-4769-b947-79da8fd2237a
 title: 環境變數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f50226d12286d01c77025d1cc38e33e2778392a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 647c685aac8ed6df36c0312d7eef49793fd4b2bbfca5576e0377e59da31dd777
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910318"
 ---
 # <a name="environment-variables"></a>環境變數
 
@@ -34,7 +34,7 @@ ms.locfileid: "106974274"
 
 使用者定義環境變數的大小上限為32767個字元。 環境區塊的大小不會有任何技術上的限制。 不過，視用來存取區塊的機制而定，有一些實際的限制。 例如，批次檔無法設定的變數長度超過命令列長度上限。
 
-**Windows Server 2003 和 WINDOWS XP：** 進程的環境區塊大小上限為32767個字元。 從 Windows Vista 和 Windows Server 2008 開始，環境區塊的大小不會有任何技術上的限制。
+**Windows Server 2003 和 Windows XP：** 進程的環境區塊大小上限為32767個字元。 從 Windows Vista 和 Windows Server 2008 開始，環境區塊的大小不會有任何技術上的限制。
 
 [**GetEnvironmentVariable**](/windows/desktop/api/WinBase/nf-winbase-getenvironmentvariable)函式會判斷指定的變數是否定義在呼叫進程的環境中，如果是的話，則為其值。
 

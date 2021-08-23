@@ -1,17 +1,17 @@
 ---
 description: 裝置服務資訊的藍牙類別。
 ms.assetid: db47f362-82e1-4fce-b0aa-4fc6cd3db102
-title: Aep，資訊的資訊。
+title: Aep。藍牙資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8904a6fa70aa9f7417b9f5538564481550946bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c15db2a294da1fbb9b4e57441ad01f2b58fe2dc564f5d3fe782a031ec77cc50f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946198"
 ---
-# <a name="systemdevicesaepbluetoothcodservicesinformation"></a>Aep，資訊的資訊。
+# <a name="systemdevicesaepbluetoothcodservicesinformation"></a>Aep。藍牙資訊
 
 裝置服務資訊的藍牙類別
 

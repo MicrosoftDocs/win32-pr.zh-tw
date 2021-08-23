@@ -4,16 +4,16 @@ description: Hide 方法
 ms.assetid: c30eda78-0951-43b4-8ae1-daccbd41170d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd50c3f7b8e3d2e60ebe4c00c42375737c05eb04
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 67057464c8e505e56123f712d3a1e6d668c7d75b00bc4732e7b18195b3be9723
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725448"
 ---
 # <a name="hide-method"></a>Hide 方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104092694"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。隱藏* *  \[ *快速*\]
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。隱藏_ *  \[ *快速*\]
 
 
 

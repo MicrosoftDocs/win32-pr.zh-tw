@@ -4,12 +4,12 @@ ms.assetid: E2EC33BF-FEA0-4F10-A635-B04B32D2C1AD
 title: IX509Extensions 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51541dace2f8c68e88ac46082ee982c5874c8018
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f8c68143b42b7a9b10aa3ab3a614fd3aca334f943320de20e8eea37dc911ccb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881358"
 ---
 # <a name="ix509extensions-methods"></a>IX509Extensions 方法
 

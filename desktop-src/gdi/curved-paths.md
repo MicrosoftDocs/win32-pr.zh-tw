@@ -4,12 +4,12 @@ ms.assetid: 1ee9e6c6-5f8d-4727-b5f9-4b179c5371f1
 title: 曲線路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fe27e20d7c5c3f59ea4bd38b46049088ae9d409
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b58018b7ef95b30c5ae2751ed963caefee7b9313ca86a8c6a2a4fee246908f8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849178"
 ---
 # <a name="curved-paths"></a>曲線路徑
 

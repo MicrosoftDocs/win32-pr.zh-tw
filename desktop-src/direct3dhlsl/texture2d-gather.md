@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: ca9bc4701af65847609e4ad152c6c63b484bc1cb
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
-ms.translationtype: HT
+ms.openlocfilehash: 470f7b8031c4aea6d85d1c50df647fc97198492d7f74740b68eaed18a3c45a7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104973885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949458"
 ---
 # <a name="texture2dgather-methods"></a>Texture2D：：收集方法
 

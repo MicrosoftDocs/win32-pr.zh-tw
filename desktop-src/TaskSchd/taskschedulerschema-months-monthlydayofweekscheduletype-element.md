@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 76f13a5823e0154519dbdb093dd03ea36bbe77b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a963032a2d33f13158af249f2b867037cf50082be005efa579148031c8e30585
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959598"
 ---
 # <a name="months-monthlydayofweekscheduletype-element"></a>MonthlyDayOfWeekScheduleType) 元素 (月份
 
@@ -36,7 +36,7 @@ ms.locfileid: "104384222"
 
 
 
-| 元素                                                                                                                            | 衍生自                                                                                         | Description                                                                          |
+| 元素                                                                                                                            | 衍生自                                                                                         | 描述                                                                          |
 |------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [**ScheduleByMonthDayOfWeek (calendarTriggerType)**](taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md) | [**monthlyDayOfWeekScheduleType**](taskschedulerschema-monthlydayofweekscheduletype-complextype.md) | 指定啟動工作的觸發程式，此觸發程式會每個月的每週工作日排程。<br/> |
 
@@ -46,18 +46,18 @@ ms.locfileid: "104384222"
 
 
 
-| 元素                                                               | 類型 | Description                                           |
+| 元素                                                               | 類型 | 描述                                           |
 |-----------------------------------------------------------------------|------|-------------------------------------------------------|
-| [**4 月**](taskschedulerschema-april-monthstype-element.md)         |      | 指定工作會在四月執行。<br/>     |
+| [**四月**](taskschedulerschema-april-monthstype-element.md)         |      | 指定工作會在四月執行。<br/>     |
 | [**8 月**](taskschedulerschema-august-monthstype-element.md)       |      | 指定工作在8月執行。<br/>    |
-| [**12 月**](taskschedulerschema-december-monthstype-element.md)   |      | 指定工作會在十二月執行。<br/>  |
+| [**十二月**](taskschedulerschema-december-monthstype-element.md)   |      | 指定工作會在十二月執行。<br/>  |
 | [**2 月**](taskschedulerschema-february-monthstype-element.md)   |      | 指定工作會在二月執行。<br/>  |
-| [**1 月**](taskschedulerschema-january-monthstype-element.md)     |      | 指定工作會在一月執行。<br/>   |
+| [**一月**](taskschedulerschema-january-monthstype-element.md)     |      | 指定工作會在一月執行。<br/>   |
 | [**7 月**](taskschedulerschema-july-monthstype-element.md)           |      | 指定工作會在七月執行。<br/>      |
 | [**6 月**](taskschedulerschema-june-monthstype-element.md)           |      | 指定工作在六月執行。<br/>      |
 | [**3 月**](taskschedulerschema-march-monthstype-element.md)         |      | 指定工作在三月執行。<br/>     |
-| [**五月**](taskschedulerschema-may-monthstype-element.md)             |      | 指定工作在5月執行。<br/>       |
-| [**11 月**](taskschedulerschema-november-monthstype-element.md)   |      | 指定工作在11月執行。<br/>  |
+| [**可能**](taskschedulerschema-may-monthstype-element.md)             |      | 指定工作在5月執行。<br/>       |
+| [**十一月**](taskschedulerschema-november-monthstype-element.md)   |      | 指定工作在11月執行。<br/>  |
 | [**10 月**](taskschedulerschema-october-monthstype-element.md)     |      | 指定工作在十月執行。<br/>   |
 | [**9 月**](taskschedulerschema-september-monthstype-element.md) |      | 指定工作在九月執行。<br/> |
 
@@ -109,8 +109,8 @@ ms.locfileid: "104384222"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

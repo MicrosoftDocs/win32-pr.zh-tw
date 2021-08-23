@@ -36,7 +36,7 @@ ms.locfileid: "119959538"
 
 
 
-| 元素                                                                                     | 衍生自                                                                               | Description                                                                                  |
+| 元素                                                                                     | 衍生自                                                                               | 描述                                                                                  |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [**BootTrigger**](taskschedulerschema-boottrigger-triggergroup-element.md)                 | [**bootTriggerType**](taskschedulerschema-boottriggertype-complextype.md)                 | 指定啟動系統時啟動工作的觸發程式。<br/>                 |
 | [**CalendarTrigger**](taskschedulerschema-calendartrigger-triggergroup-element.md)         | [**calendarTriggerType**](taskschedulerschema-calendartriggertype-complextype.md)         | 指定每日、每週、每月或每週 (DOW) 觸發程式。<br/>   |
@@ -52,7 +52,7 @@ ms.locfileid: "119959538"
 
 
 
-| 元素                                                                                   | 類型     | Description                                                                                                         |
+| 元素                                                                                   | 類型     | 描述                                                                                                         |
 |-------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------|
 | [**時間**](taskschedulerschema-duration-repetitiontype-element.md)                   | duration | 指定重複模式的時間長度。<br/>                                                              |
 | [**間隔**](taskschedulerschema-interval-repetitiontype-element.md)                   | duration | 指定工作每次重新開機之間的時間量。<br/>                                           |

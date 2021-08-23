@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 517170e9d6580f69b59f71e0994351ebe0484ddc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df3eb4c515963e13d2a7919c58a6d55ca4b2a7600c429a33516093215b5ac0eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869008"
 ---
 # <a name="tsmf_support_nodedata_out-structure"></a>TSMF \_ 支援 \_ NODEDATA \_ OUT 結構
 

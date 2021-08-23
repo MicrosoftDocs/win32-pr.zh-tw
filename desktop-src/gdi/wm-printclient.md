@@ -4,12 +4,12 @@ ms.assetid: 8703ee74-812a-4ca2-8ee3-a3b8779739e7
 title: 'WM_PRINTCLIENT 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52aca68695964a35ab9a2c4e309cd71c2e9f7eca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 807c12ca4d0a5fe5f1e2a12aecd3b3148d936119f72771e811fe85d5b0af3abf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717658"
 ---
 # <a name="wm_printclient-message"></a>WM \_ PRINTCLIENT 訊息
 
@@ -66,7 +66,7 @@ LRESULT CALLBACK WindowProc(
 
 視窗可以用與 [**WM \_ 油漆**](./wm-paint.md)相同的方式來處理此訊息，但不需要呼叫 [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) 和 [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) () 提供裝置內容，而且視窗應該繪製其整個工作區，而不只是不正確區域。
 
-可以在系統中任何地方使用的視窗（例如控制項）都應該處理此訊息。 其他視窗也可能需要處理此訊息，因為它相當容易執行。
+可以在系統中任何地方使用的 Windows （例如控制項）都應該處理此訊息。 其他視窗也可能需要處理此訊息，因為它相當容易執行。
 
 [AnimateWindow](/windows/desktop/api/winuser/nf-winuser-animatewindow)函式要求以動畫顯示的視窗必須執行 **WM \_ PRINTCLIENT** 訊息。
 
@@ -78,7 +78,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

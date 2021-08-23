@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7d68374b4a9267dbc50fbb5b2cd8f1f46018e7f3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5253f0eae0acf8844e844f5bfb48fcd73b2b186c6537dfcfcb0da5fb8f46582f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879048"
 ---
 # <a name="getdescriptor-method-of-the-cim_usbhub-class"></a>CIM USBHub 類別的 GetDescriptor 方法 \_
 

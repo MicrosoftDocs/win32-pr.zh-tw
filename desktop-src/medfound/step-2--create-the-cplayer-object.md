@@ -4,12 +4,12 @@ ms.assetid: b489312f-ab8c-4ec6-8070-f5848034087e
 title: 步驟2：建立 CPlayer 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 021ffa383506c0ab1be8d6c1ca327f67ed8f52f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df004aa060a8ce8a46adbf0fdae438ca0a0cd1a454e9fc17889ad29eebef21ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847778"
 ---
 # <a name="step-2-create-the-cplayer-object"></a>步驟2：建立 CPlayer 物件
 

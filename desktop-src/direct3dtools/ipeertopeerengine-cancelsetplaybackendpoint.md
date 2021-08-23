@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 479efee10843c4e51015f3b6065d923762bef1ed
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fa96aea751d93b4078115aa69e5949680c763f4c1294b694dd22fc64cbc91dc8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892508"
 ---
 # <a name="span-idvspixengineipeertopeerengine_cancelsetplaybackendpointspanipeertopeerenginecancelsetplaybackendpoint-method"></a><span id="vspixengine.ipeertopeerengine_cancelsetplaybackendpoint"></span>IPeerToPeerEngine：： CancelSetPlaybackEndpoint 方法
 

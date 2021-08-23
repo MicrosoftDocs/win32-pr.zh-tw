@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a08e468d0acff16aa1df4a45fcacafeb676b00
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8a0b30a7bc905645523a81287eea2dfcdc408b8a4d172cc84282e0f1538e12cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895988"
 ---
 # <a name="oldtlb-switch"></a>/oldtlb 參數
 
@@ -33,7 +33,7 @@ midl /oldtlb
 
 ## <a name="remarks"></a>備註
 
-**/Oldtlb** 參數會覆寫預設值，並指示 MIDL 編譯器在目前的 Windows 版本上，使用 [CreateTypeLib](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib)而不是 [CreateTypeLib2](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib2)來產生舊格式的類型程式庫。
+**/oldtlb** 參數會覆寫預設值，並指示 MIDL 編譯器使用 [CreateTypeLib](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib) （而不是 [CreateTypeLib2](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib2)）來產生舊格式的類型程式庫（即使目前版本的 Windows 也是如此）。
 
 ## <a name="examples"></a>範例
 
@@ -51,6 +51,6 @@ midl /oldtlb
 [**/newtlb**](-newtlb.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

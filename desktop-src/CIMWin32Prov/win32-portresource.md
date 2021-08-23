@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ PORTRESOURCE WMI 類別代表執行 Windows 的電腦系統上的 i/o 埠。
+description: Win32 \_ PORTRESOURCE WMI 類別代表執行 Windows 之電腦系統上的 i/o 埠。
 ms.assetid: 820f4f49-571c-4044-aefc-69bac5d59e6f
 ms.tgt_platform: multiple
 title: Win32_PortResource 類別
@@ -25,16 +25,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e3c08424dd1aee555068c78a9308afe732634c61
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 732bd1255bf216abe3654d80abcde14b1e8b1180a69d0509663a6a83a2801895
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878578"
 ---
 # <a name="win32_portresource-class"></a>Win32 \_ PortResource 類別
 
-**Win32 \_ PortResource** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 的電腦系統上的 i/o 埠。
+**Win32 \_ PortResource** [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 之電腦系統上的 i/o 埠。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 

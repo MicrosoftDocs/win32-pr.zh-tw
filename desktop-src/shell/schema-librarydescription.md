@@ -4,12 +4,12 @@ ms.assetid: 62098944-E1B2-46e8-AC87-314C55F96B62
 title: 'libraryDescription 元素 (程式庫架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 125cb01ce1bd38418c10f5b14ff7b28f64efba87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a454321649746dc9408110e2fb96a616934977022ac80a4c0325494d354bfb46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942058"
 ---
 # <a name="librarydescription-element-library-schema"></a>libraryDescription 元素 (程式庫架構) 
 

@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2249dd00b44955a4e2712b8b7bf746793e89d57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cca08147141ddbac5a2a483a2bf4a3aaf1e776b3694be115d3ee22ae76d3f058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868908"
 ---
 # <a name="updatedirectconnectlicenseserver-method-of-the-win32_terminalservicesetting-class"></a>Win32 TerminalServiceSetting 類別的 UpdateDirectConnectLicenseServer 方法 \_
 
-\[**UpdateDirectConnectLicenseServer** 不再適用于 Windows Server 2008 R2。\]
+\[**UpdateDirectConnectLicenseServer** 已不再可供使用，Windows Server 2008 R2。\]
 
 **Windows Server 2008：** 更新探索授權伺服器的清單。 伺服器清單會以分號分隔 ( ";") 。
 

@@ -1,17 +1,17 @@
 ---
 description: 藍牙裝置上次連線時間。
 ms.assetid: b741f3a2-f4e5-4c29-b7b9-b6798e262a7c
-title: DeviceInterface 藍牙. LastConnectedTime
+title: DeviceInterface。藍牙。LastConnectedTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed1743b11bcc35c5b5273f635ab7d381ceb69c88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ca52afccb138c9d3f71acf77dd9ad5cc082a5afbc16bd479519c5a9ce475e6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946498"
 ---
-# <a name="systemdeviceinterfacebluetoothlastconnectedtime"></a>DeviceInterface 藍牙. LastConnectedTime
+# <a name="systemdeviceinterfacebluetoothlastconnectedtime"></a>DeviceInterface。藍牙。LastConnectedTime
 
 藍牙裝置上次連線時間。
 

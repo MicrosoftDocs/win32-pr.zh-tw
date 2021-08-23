@@ -1,17 +1,17 @@
 ---
 description: 下列函式可用於筆刷。
 ms.assetid: 617eb778-876c-4bbb-90da-c5f13359becb
-title: " (Windows GDI) 的筆刷函數"
+title: '筆刷函式 (Windows GDI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2170ff5c4b743e19da669bd76b340ca95ac2ef9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: c44f122592e1f13186253b349089706686d352460a364e405c404fd326f64989
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849288"
 ---
-# <a name="brush-functions-windows-gdi"></a> (Windows GDI) 的筆刷函數
+# <a name="brush-functions-windows-gdi"></a>筆刷函式 (Windows GDI) 
 
 下列函式可用於筆刷。
 
@@ -36,7 +36,7 @@ ms.locfileid: "104512924"
 
 ## <a name="obsolete-functions"></a>過時的函式
 
-下列函式僅提供給 Windows 的16位版本相容。
+下列函式僅提供給 Windows 之16位版本的相容性。
 
 [**CreateDIBPatternBrush**](/windows/desktop/api/Wingdi/nf-wingdi-createdibpatternbrush)
 

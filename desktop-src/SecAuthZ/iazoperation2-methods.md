@@ -4,12 +4,12 @@ ms.assetid: C2A96517-6328-401B-B018-6D8FE1DFD682
 title: IAzOperation2 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b633a7fa1acf60a218ca8d685b698107fbc2db2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd5a7e3a0830ba6b955530e29ebc6fc6ee5b0a0944215d25e1381e3644f2571c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908778"
 ---
 # <a name="iazoperation2-methods"></a>IAzOperation2 方法
 

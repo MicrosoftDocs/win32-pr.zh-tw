@@ -4,12 +4,12 @@ ms.assetid: d7330370-adb3-4c6a-962a-7b46c344500c
 title: 媒體基礎中支援 DXVA 2。0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce144c24a1aeeda6281ddb423757f3e339903440
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 170b9c8ccdbdb7e0844b79e5743c4a84b033b7d504378dba083be5adfb244fcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721927"
 ---
 # <a name="supporting-dxva-20-in-media-foundation"></a>媒體基礎中支援 DXVA 2。0
 
@@ -23,7 +23,7 @@ ms.locfileid: "106986017"
  
 
 > [!Note]  
-> Windows Store 應用程式必須使用 Direct3D 11。
+> WindowsStore 應用程式必須使用 Direct3D 11。
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: C2113358-07DE-426E-AF26-BD8ED9902192
 title: CXAPOParametersBase 成員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 554aa66b4166bc3d0de4db685e0f6e7b54e6ebf5
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: ededac8054229cffa7799ced71653ab19cacf74f705e77163556cc5b60b7655d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770838"
 ---
 # <a name="cxapoparametersbase-members"></a>CXAPOParametersBase 成員
 

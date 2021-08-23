@@ -27,7 +27,7 @@
             - name: 設定 SNMP 服務
               href: configuring-the-snmp-service.md
               items:
-                - name: 群體名稱
+                - name: Community名字
                   href: community-names.md
                 - name: 主機名稱和 IP 位址
                   href: host-names-and-ip-addresses.md

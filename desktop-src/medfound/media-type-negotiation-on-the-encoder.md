@@ -4,12 +4,12 @@ ms.assetid: c8ae543e-68f7-4c74-9cb7-2a200bd51820
 title: 編碼器上的媒體類型協商
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7845e9d50c5d418198dc0e08313e2e9329ffab8
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 20ac5dd5a107633feba4ce2a74da7e9aea7e9f71d51be1b5cad5b85ab4adda35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941508"
 ---
 # <a name="media-type-negotiation-on-the-encoder"></a>編碼器上的媒體類型協商
 
@@ -30,7 +30,7 @@ ms.locfileid: "103945706"
 [具現化編碼器 MFT](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Windows Media 編碼器](windows-media-encoders.md)
+[Windows媒體編碼器](windows-media-encoders.md)
 </dt> </dl>
 
  

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: aec9b97e42534d34c5033b3b86edb9c33366d639
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c3ee5826c1b4ff81f90c86a6db4517aafc41313e53672486c41ab4847e82674
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910188"
 ---
 # <a name="cdeferredcommandgetflags-method"></a>CDeferredCommand. GetFlags 方法
 
@@ -46,7 +46,7 @@ short GetFlags();
 
 
 
-| 傳回碼                                                                                             | Description                                                                                                                                                                    |
+| 傳回碼                                                                                             | 描述                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**分派 \_ 方法**</dt> </dl>         | 以方法的形式執行成員。 如果屬性具有相同的名稱，則可以設定此和分派 \_ PROPERTYGET 旗標。<br/>                                               |
 | <dl> <dt>**分派 \_ PROPERTYGET**</dt> </dl>    | 正在將成員取出為屬性或資料成員。<br/>                                                                                                         |

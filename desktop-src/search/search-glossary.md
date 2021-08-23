@@ -2,27 +2,27 @@
 description: 詞彙頁面
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 8e9b45de-c81b-4324-b00b-b11ee6749920
-title: Windows Search 詞彙
+title: Windows搜尋詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ac0620f4c85c43aac6d41300e16e3e5a8dd037f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8efe8bbe07badc7575cc3aba83100814d601bc5c8ebca24961b198950b2e5e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844648"
 ---
-# <a name="windows-search-glossary"></a>Windows Search 詞彙
+# <a name="windows-search-glossary"></a>Windows搜尋詞彙
 
 ## <a name=""></a>\#
 
 **.osd 檔案**
 
-OpenSearch 描述元檔。
+OpenSearch描述項檔。
 
 **.osdx 檔案**
 
-用於描述特定 web 資料來源之可用伺服器連接和結果格式的 OpenSearch 描述 XML 檔案。 它是用來與 Windows Shell 互動。 另請參閱： OpenSearch 描述元。
+描述適用于特定 web 資料來源之可用伺服器連接和結果格式的 OpenSearch 描述 XML 檔。 它是用來與 Windows Shell 互動。 另請參閱： OpenSearch 描述項。
 
 ## <a name="a"></a>A
 
@@ -34,13 +34,13 @@ Windows Search 用來查詢索引，以及精簡和縮小搜尋參數的預設�
 
 請參閱： Advanced Query 語法 (AQS) 的定義。
 
-**關聯**
+**協會**
 
-副檔名的對應 (例如，mp3) 或通訊協定 (例如，HTTP) 為程式設計識別碼 (ProgID) 。 這項對應會儲存在登錄中，作為每一使用者的每一電腦的回復設定。 參與預設程式系統的應用程式，會設定副檔名或通訊協定的關聯對應，以指向它們所擁有的 ProgID 金鑰。
+副檔名的對應 (例如 .mp3) 或通訊協定 (例如，HTTP) 至程式設計識別碼 (ProgID) 。 這項對應會儲存在登錄中，作為每一使用者的每一電腦的回復設定。 參與預設程式系統的應用程式，會設定副檔名或通訊協定的關聯對應，以指向它們所擁有的 ProgID 金鑰。
 
 **關聯陣列**
 
-登錄位置的排序清單，用來儲存專案類型的相關資訊，包括處理常式、動詞和其他屬性，例如類型的圖示和顯示名稱。 例如，.jpg 檔案在預設的 Windows 系統上具有下列關聯陣列： "HKCR \\ jpgfile"、"HKCR \\ SystemFileAssociations \\ .jpg"、"HKCR \\ SystemFileAssociations \\ image"、"HKCR \\ \* "、"HKCR \\ AllFileSystemObjects"。
+登錄位置的排序清單，用來儲存專案類型的相關資訊，包括處理常式、動詞和其他屬性，例如類型的圖示和顯示名稱。 例如，.jpg 檔案在預設 Windows 系統上有下列關聯陣列： "HKCR \\ jpgfile"、"HKCR \\ SystemFileAssociations \\.jpg"、"HKCR \\ SystemFileAssociations \\ image"、"HKCR \\ \* "、"HKCR \\ AllFileSystemObjects"。
 
 **Atom**
 
@@ -52,7 +52,7 @@ Windows Search 用來查詢索引，以及精簡和縮小搜尋參數的預設�
 
 載入或關聯程式碼與資料。 例如，處理常式可能會與 Shell 資料來源產生關聯。
 
-**繫結**
+**綁定**
 
 在搜尋查詢中，針對傳回的資料列集內的資料行提出要求。 系結會指定要包含在搜尋結果中的屬性。
 
@@ -100,11 +100,11 @@ Windows Search 中最高層級的組織單位。 目錄代表一組可以查詢�
 
 **內容來源**
 
-可由索引子存取的專案。 內容來源可透過 URL 定址，並由通訊協定處理常式提供給索引子。 範例包括：檔案系統檔案和資料夾、Microsoft Outlook 專案和資料夾、資料庫記錄和 Microsoft SharePoint 儲存的專案。 您可以藉由執行 Shell 資料來源，將內容來源公開為 Shell 專案。 另請參閱： content、Shell 專案。
+可由索引子存取的專案。 內容來源可透過 URL 定址，並由通訊協定處理常式提供給索引子。 範例包括：檔案系統檔案和資料夾、microsoft Outlook 專案和資料夾、資料庫記錄和 microsoft SharePoint 儲存的專案。 您可以藉由執行 Shell 資料來源，將內容來源公開為 Shell 專案。 另請參閱： content、Shell 專案。
 
 **content view (內容檢視)**
 
-在 Windows 7 和更新) 版本中提供的 Windows 檔案總管 (視圖，會根據清單的副檔名或種類關聯，顯示清單中每個專案的最相關內容。 當視窗大小減少時，內容視圖會使用調整大小的邏輯，以確保最重要的屬性仍然具有可清楚讀取的空間。 另請參閱：版面配置模式、種類、種類關聯。
+Windows 7 和更新) 版本中提供的 Windows 檔案總管 (視圖，會根據檔案的副檔名或種類關聯，顯示清單中每個專案的最相關內容。 當視窗大小減少時，內容視圖會使用調整大小的邏輯，以確保最重要的屬性仍然具有可清楚讀取的空間。 另請參閱：版面配置模式、種類、種類關聯。
 
 **內容視圖模式**
 
@@ -150,9 +150,9 @@ Windows Search 中最高層級的組織單位。 目錄代表一組可以查詢�
 
 **(DMX) 的資料庫挖掘延伸模組**
 
-用來建立和操作資料採礦的查詢語言。 適用于 Windows 7、Windows Search 和 Windows 檔案總管的系統管理範本為 admx 檔案，並且依賴 DMX 技術。 下列範本可透過群組原則自訂： admx、WindowsExplorer 和 admx。
+用來建立和操作資料採礦的查詢語言。 Windows 7、Windows Search 和 Windows 檔案總管的系統管理範本為 admx 檔案，並且依賴 DMX 技術。 下列範本可透過群組原則自訂： admx、WindowsExplorer 和 admx。
 
-**Dmx**
+**DMX**
 
 請參閱：資料庫挖掘延伸模組的定義。
 
@@ -182,7 +182,7 @@ Windows Search 中最高層級的組織單位。 目錄代表一組可以查詢�
 
 **同盟搜尋**
 
-擴充性模型，可讓您搜尋資料存放區，並以 Windows 檔案總管中的 Shell 專案表示結果。 另請參閱：同盟搜尋提供者、搜尋連接器、OpenSearch 描述元、OpenSearch 標準。
+擴充性模型，可讓您搜尋資料存放區，並以 Windows 檔案總管中的 Shell 專案表示結果。 另請參閱：同盟搜尋提供者、搜尋連接器、OpenSearch 描述元 OpenSearch 標準。
 
 **聯合搜尋連接器**
 
@@ -190,7 +190,7 @@ Windows Search 中最高層級的組織單位。 目錄代表一組可以查詢�
 
 **聯合搜尋提供者**
 
-由資料存放區所執行的 web 服務，可支援 Windows 7 所使用的通訊協定，讓 Windows 7 和更新版本可以從遠端搜尋該資料存放區。 另請參閱： OpenSearch 描述元、OpenSearch 標準。
+由資料存放區所執行的 web 服務，可支援 Windows 7 所使用的通訊協定，讓 Windows 7 和更新版本可以從遠端搜尋該資料存放區。 另請參閱： OpenSearch 描述元，OpenSearch 標準。
 
 **檔案關聯**
 
@@ -276,7 +276,7 @@ n. 儲存 Shell 專案內容和屬性的目錄，以啟用快速搜尋。 另請
 
 **種類**
 
-提供使用者易記種類名稱的屬性，而且可以與屬性清單和配置模式產生關聯。 Windows Vista 引進了一種方式，是為了表達更適合使用者的檔案類型概念，並將其定義為多重值字串屬性， (標準字串值) ，因此您可以有「音訊」、「影片」或「連結; 檔」種類的值。 某些使用者易記的種類名稱已與屬性和配置模式相關聯。 例如，與 [>ument] 相關聯的專案與 [圖片] 和 [Kind.Doc] 相關聯的專案會顯示不同的屬性，即使它們位於相同的視圖中也一樣。 每個專案種類都可以與四種獨特的版面配置模式之一建立關聯，以定義每個專案和其配置所顯示的屬性數目。 另請參閱：種類關聯、內容視圖、版面配置模式。
+提供使用者易記種類名稱的屬性，而且可以與屬性清單和配置模式產生關聯。 種類是在 Windows Vista 中引進，以表達更適合使用者的檔案類型概念，並將其定義為多重值字串屬性 (標準字串值) ，因此您可以有「音訊」、「影片」或「連結; 檔」種類的值。 某些使用者易記的種類名稱已與屬性和配置模式相關聯。 例如，與 [>ument] 相關聯的專案與 [圖片] 和 [Kind.Doc] 相關聯的專案會顯示不同的屬性，即使它們位於相同的視圖中也一樣。 每個專案種類都可以與四種獨特的版面配置模式之一建立關聯，以定義每個專案和其配置所顯示的屬性數目。 另請參閱：種類關聯、內容視圖、版面配置模式。
 
 **種類關聯**
 
@@ -286,7 +286,7 @@ n. 儲存 Shell 專案內容和屬性的目錄，以啟用快速搜尋。 另請
 
 **版面配置模式**
 
-顯示內容之數種相片順序的其中一種。 在 Windows 7 和更新版本中，當您要註冊新的檔案類型時，可以使用內容視圖來註冊檔案類型的自訂屬性清單和配置模式。 您可以從四種不同的配置模式中選擇： Alpha (適用于檔搜尋結果，其中包含程式碼片段)  (、適用于程式碼片段) 的電子郵件搜尋結果、Gamma (類似于 Alpha，但有兩行配置（而不是四) ），而 Delta (則顯示許多較短的屬性，例如使用音樂和圖片) 。 另請參閱：內容視圖、種類、種類關聯。
+顯示內容之數種相片順序的其中一種。 在 Windows 7 和更新版本中，當您註冊新的檔案類型時，可以使用內容視圖，為您的檔案類型註冊自訂屬性清單和配置模式。 您可以從四種不同的配置模式中選擇： Alpha (適用于檔搜尋結果，其中包含程式碼片段)  (、適用于程式碼片段) 的電子郵件搜尋結果、Gamma (類似于 Alpha，但有兩行配置（而不是四) ），而 Delta (則顯示許多較短的屬性，例如使用音樂和圖片) 。 另請參閱：內容視圖、種類、種類關聯。
 
 ## <a name="m"></a>M
 
@@ -332,17 +332,17 @@ n. 儲存 Shell 專案內容和屬性的目錄，以啟用快速搜尋。 另請
 
 **OpenSearch 描述元**
 
-描述特定 web 資料來源之可用伺服器連接和結果格式的 XML 檔。 此檔案包含一或多個 URL 範本，並且在與 Windows Shell 互動時使用副檔名為 .osdx 的檔。 [OpenSearch 描述] 有時稱為「搜尋」連接器，雖然它只是連接器的描述部分。 另請參閱： search connector。
+描述特定 web 資料來源之可用伺服器連接和結果格式的 XML 檔。 此檔案包含一或多個 URL 範本，並且會在與 Windows Shell 互動時使用副檔名為 .osdx 的檔案。 OpenSearch 描述有時稱為搜尋連接器，不過它只是連接器的描述部分。 另請參閱： search connector。
 
 **OpenSearch 標準**
 
-用於共用搜尋結果的簡單格式和通訊協定集合。 For more information, see the OpenSearch website (https://github.com/dewitt/opensearch).
+用於共用搜尋結果的簡單格式和通訊協定集合。 如需詳細資訊，請參閱 OpenSearch 網站 (https://github.com/dewitt/opensearch) 。
 
 ## <a name="p"></a>P
 
 **PerceivedType**
 
-廣泛分類的檔案格式類型。 PerceivedType 是在 Windows XP 中引進，並支援一組有限的已知檔案類型 (範例包括影像、文字、音訊和壓縮檔案類型) 。 檔案類型（通常是公用檔案類型）也可以有察覺的型別。 例如，圖像檔案類型 .bmp、.png、.jpg 和 .gif 也是認知型別影像。 在程式設計層，PerceivedType 是以整數表示。 由於有使用種類和 PerceivedType 的程式碼，因此檔案格式擁有者必須註冊這兩者。 例如，「全部播放」取決於 PerceivedType。 另請參閱：檔案類型。
+廣泛分類的檔案格式類型。 PerceivedType 是在 Windows XP 中引進，並支援一組有限的已知檔案類型 (範例包括影像、文字、音訊和壓縮檔案類型) 。 檔案類型（通常是公用檔案類型）也可以有察覺的型別。 例如，影像檔案類型 .bmp、.png、.jpg 和 .gif 也是認知類型（影像）。 在程式設計層，PerceivedType 是以整數表示。 由於有使用種類和 PerceivedType 的程式碼，因此檔案格式擁有者必須註冊這兩者。 例如，「全部播放」取決於 PerceivedType。 另請參閱：檔案類型。
 
 **預覽處理常式**
 
@@ -426,7 +426,7 @@ XML 檔案，其中包含資料存放區的相關資訊。 已針對同盟搜尋
 
 **Shell 專案**
 
-單一內容片段。 某些 Shell 專案為內容來源，有些則不是。 例如，一個資料夾是一個內容來源，但是 .jpg 檔案並不是。 檔案類型處理常式會公開 Shell 專案。 在某些內容中，會使用「專案」來區別容器與 noncontainers。 另請參閱：容器、內容來源、檔案類型處理常式。
+單一內容片段。 某些 Shell 專案為內容來源，有些則不是。 例如，一個資料夾是一個內容來源，但是 .jpg 檔案則不是。 檔案類型處理常式會公開 Shell 專案。 在某些內容中，會使用「專案」來區別容器與 noncontainers。 另請參閱：容器、內容來源、檔案類型處理常式。
 
 **Shell 命名空間延伸模組**
 
@@ -466,7 +466,7 @@ XML 檔案，其中包含資料存放區的相關資訊。 已針對同盟搜尋
 
 ## <a name="v"></a>V
 
-**動詞命令**
+**動詞**
 
 可由 Shell 專案呼叫的個別動作。 範例包括 [開啟] 和 [列印]。 動詞有時也稱為命令或 task。 另請參閱：動態動詞、快捷方式功能表處理常式、靜態動詞。
 
@@ -484,10 +484,10 @@ XML 檔案，其中包含資料存放區的相關資訊。 已針對同盟搜尋
 
 請參閱： Windows Search 服務的定義。
 
-**Windows Search 屬性存放區**
+**Windows搜尋屬性存放區**
 
 在 Windows Search 服務的執行中所使用之屬性值的快取。 您可以使用 Windows Search OLE DB 提供者，以程式設計方式查詢這些屬性值。 當編制檔（例如 Word 檔）的索引時，Windows Search 屬性存放區會收集並儲存由篩選處理常式或屬性處理常式所發出的屬性。 重建索引時，會捨棄並重建此存放區。
 
-**Windows Search 服務**
+**Windows搜尋服務**
 
 是指 Windows Search 3.0 和更新版本。 這項服務會分析一組檔、解壓縮有用的資訊，然後組織解壓縮的資訊，以便有效率地傳回這些檔的屬性來回應查詢。 另請參閱：目錄。

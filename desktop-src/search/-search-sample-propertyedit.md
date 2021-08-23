@@ -4,12 +4,12 @@ ms.assetid: 5918b4f6-6b6f-4229-8f29-1c41f80b3b02
 title: PropertyEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa248b9e86f8ab93cccba3d5d6b169d7e8699dbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 944419f990c8f1f8b52706dbab0b08102829e77a5bfa8a91c72a5bc16eddfa63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944667"
 ---
 # <a name="propertyedit"></a>PropertyEdit
 
@@ -42,7 +42,7 @@ PropertyEdit 程式碼範例示範如何將標準屬性名稱轉換成 PROPERTYK
 
 
 
-| Location      | 路徑 URL                                                                  |
+| 位置      | 路徑 URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
 | GitHub  | [PropertyEdit 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/PropertyEdit)    |
 
@@ -53,7 +53,7 @@ PropertyEdit 程式碼範例示範如何將標準屬性名稱轉換成 PROPERTYK
  
 
 > [!Note]  
-> 針對所有 Windows 版本（包括 Windows 7），建議您直接從 GitHub 下載最新版本的範例。
+> 針對所有版本的 Windows （包括 Windows 7），建議您直接從 GitHub 下載這些範例，以取得最新版本。
 
  
 

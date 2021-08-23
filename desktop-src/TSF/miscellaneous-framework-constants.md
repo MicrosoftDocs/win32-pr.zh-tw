@@ -23,12 +23,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9eab083f6763d4244d0720b04c2a22744febc3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f9bcd6ad253e71d662cbc713398e65c6a250863e18a9fe2d461a2d93717fb7b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906008"
 ---
 # <a name="miscellaneous-framework-constants"></a>其他架構常數
 
@@ -36,7 +36,7 @@ ms.locfileid: "104466445"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                      | Description                                                                                                                                                                                                                                                   |
+| 常數/值                                                                                                                                                                                                                                                      | 描述                                                                                                                                                                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="TF_CLIENTID_NULL"></span><span id="tf_clientid_null"></span><dl> <dt>**TF \_CLIENTID \_ Null**</dt> <dt> ( (TfClientId) 0)</dt> </dl>                        | 指出用戶端已停用的文字服務。 請參閱 [TfClientId](tfclientid.md)。<br/>                                                                                                                                                      |
 | <span id="TF_INVALID_GUIDATOM"></span><span id="tf_invalid_guidatom"></span><dl> <dt>**TF \_不正確 \_ GUIDATOM**</dt> <dt> ( (TfGuidAtom) 0)</dt> </dl>               | 目前進程的 [TfGuidAtom](tfguidatom.md) 值無效。<br/>                                                                                                                                                                         |
@@ -63,7 +63,7 @@ ms.locfileid: "104466445"
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                 |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                      |
 | 標頭<br/>                   | <dl> <dt>Msctf。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msctf .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msctf .idl</dt> </dl> |
 
 
 

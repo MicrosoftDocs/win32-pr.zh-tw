@@ -34,19 +34,19 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 911bb0b2a544197ca6db761e05adac79e97c3f69
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: f2d8eaab0f17647a6f548a0243199073baef074c88dad6a3f7100cfbca1a02be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "104990875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941328"
 ---
 # <a name="shischildorself-function"></a>SHIsChildOrSelf 函式
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 \[這項功能可透過 Windows XP 和 Windows Server 2003 取得。
-它可能會在後續版本的 Windows 中改變或無法使用。\]
+它可能會在 Windows 的後續版本中變更或無法使用。\]
 
 比較視窗是否等於第二個視窗的子系、的子系或子代。
 

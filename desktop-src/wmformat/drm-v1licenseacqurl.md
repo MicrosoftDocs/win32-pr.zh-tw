@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5caa3ee399dacb4a1b5bdd4c593dd342fa51d940
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8d68f1d190aab15a33214361ccbf88999e3f4b2b6b54c69e5019c73de809dfba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930788"
 ---
 # <a name="drm_v1licenseacqurl"></a>DRM \_ V1LicenseAcqURL
 
@@ -42,9 +42,9 @@ g \_ wszWMDRM \_ V1LicenseAcqURL
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

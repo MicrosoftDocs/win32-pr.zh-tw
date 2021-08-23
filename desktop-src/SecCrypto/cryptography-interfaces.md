@@ -4,12 +4,12 @@ ms.assetid: f94f0264-78b8-4a28-9d3a-dda55db29897
 title: 密碼編譯介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccf5284f5c2107e741fd91e2936ff3dea0853e71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5937dce6da8ffa3396c885d00c895b845de9889c2688c6daef4eba5db0beb90b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876098"
 ---
 # <a name="cryptography-interfaces"></a>密碼編譯介面
 

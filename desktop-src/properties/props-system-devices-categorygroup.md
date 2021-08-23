@@ -4,12 +4,12 @@ ms.assetid: a695adab-99f7-4660-a5a3-2b3ec619a0f8
 title: CategoryGroup
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e22dc53cb52b957fa439d2d55215aa65e07d44f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5cb917ef8300bd9a2a10b2bd25db9bf796b163456205ff1ece5d9571ea67a35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938328"
 ---
 # <a name="systemdevicescategorygroup"></a>CategoryGroup
 

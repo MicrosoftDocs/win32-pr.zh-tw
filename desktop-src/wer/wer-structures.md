@@ -3,15 +3,15 @@ title: WER 結構
 ms.assetid: 59b4d44a-2681-4ec1-9f43-7ceaec98c55e
 description: 深入瞭解： WER 結構
 keywords:
-- Windows 錯誤報告 Windows 錯誤報告，結構
+- Windows 錯誤報告 Windows 錯誤報告、結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78cc6228e7f5775306dd5f45f8d335b66e0d1785
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f27770d998965c238dbd8d6fac825fa4accdcdf270395ebd9e46a77b8ba0fad8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772888"
 ---
 # <a name="wer-structures"></a>WER 結構
 

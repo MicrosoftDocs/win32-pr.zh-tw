@@ -4,12 +4,12 @@ ms.assetid: 39D432A7-54F8-4135-B98C-7290F95B054A
 title: '電源設定 Guid (WinNT. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b67dfd619d93f4318dbcfe2b44b5f8ba24460bd3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b05909509e0c3ed581582ebe90b10e5df4e91a31b7ab050b3fd1ef6679b1a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887028"
 ---
 # <a name="power-setting-guids"></a>電源設定 Guid
 
@@ -65,7 +65,7 @@ A7AD8041-B45A-4CAE-87A3-EECBB468A9E1
 
 目前監視器的顯示狀態已變更。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 從 Windows 8 和 Windows Server 2012 開始，可以取得這項通知。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此通知從 Windows 8 和 Windows Server 2012 開始提供。
 
 **資料** 成員是具有下列其中一個值的 **DWORD** 。
 
@@ -94,7 +94,7 @@ A7AD8041-B45A-4CAE-87A3-EECBB468A9E1
 
 此通知只會傳送服務以及在會話0中執行的其他程式。 使用者模式應用程式應該改為註冊 **GUID \_ 會話使用者的 \_ \_ 狀態** 。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 從 Windows 8 和 Windows Server 2012 開始，可以取得這項通知。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此通知從 Windows 8 和 Windows Server 2012 開始提供。
 
 **資料** 成員是具有下列其中一個值的 **DWORD** 。
 
@@ -141,7 +141,7 @@ A7AD8041-B45A-4CAE-87A3-EECBB468A9E1
 0x1-監視器已開啟。
 </dt> </dl>
 
-**Windows 8 和 Windows Server 2012：** 新的應用程式應該使用 **GUID \_ 主控台 \_ 顯示 \_ 狀態** ，而不是這項通知。
+**Windows 8 和 Windows Server 2012：** 新的應用程式應該使用 **GUID \_ 主控台 \_ 顯示 \_ 狀態**，而不是這項通知。
 
 </dl> </dd> <dt>
 
@@ -220,7 +220,7 @@ E00958C0-C213-4ACE-AC77-FECCED2EEEA5
 
 與應用程式會話相關聯的顯示器已開啟或關閉。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 從 Windows 8 和 Windows Server 2012 開始，可以取得這項通知。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此通知從 Windows 8 和 Windows Server 2012 開始提供。
 
 此通知只會傳送至使用者模式應用程式。 在會話0中執行的服務和其他程式不會收到此通知。 **資料** 成員是具有下列其中一個值的 **DWORD** 。
 
@@ -247,7 +247,7 @@ E00958C0-C213-4ACE-AC77-FECCED2EEEA5
 
 與應用程式會話相關聯的使用者狀態已變更。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 從 Windows 8 和 Windows Server 2012 開始，可以取得這項通知。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此通知從 Windows 8 和 Windows Server 2012 開始提供。
 
 此通知只會傳送到在互動式會話中執行的使用者模式應用程式。 在會話0中執行的服務和其他程式應該註冊 **GUID \_ 全域使用者的 \_ \_ 狀態**。 **資料** 成員是具有下列其中一個值的 **DWORD** 。
 

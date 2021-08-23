@@ -4,12 +4,12 @@ ms.assetid: 2c1d912e-464e-48d2-ba4f-c0b9a811b25e
 title: 快速入門手冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6060de551d3fb663e148cf80f661c4d517a51b93
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d2730048a001f33563ad6beb95ea2e3c17974e8f29f11425a077f86bbf97c51f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824058"
 ---
 # <a name="quick-starter-guide"></a>快速入門手冊
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102137
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 75a45f94185afb62ae836ffd1be60a4792e0393c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f548e427b9112b34c3c0b86968bcd54386a1b1a313c10b45adc1d53bd994689
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723351"
 ---
 # <a name="esentlogcorruptduringhardrecoveryexception-properties"></a>EsentLogCorruptDuringHardRecoveryException 屬性
 

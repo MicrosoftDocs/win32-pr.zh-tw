@@ -4,12 +4,12 @@ ms.assetid: 5a760492-bd52-40b8-a652-8a62646db6ae
 title: 如何建立播放清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2e6e19766c3fa569a701fea9bed0f05d11a4324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57d2a36735d29510e0622882a399fff199fd2289261453a51f281414b5076826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828168"
 ---
 # <a name="how-to-create-a-playlist"></a>如何建立播放清單
 
@@ -27,7 +27,7 @@ Sequencer 來源會在媒體會話開始播放目前的拓撲之前，初始化�
 
 本逐步解說包含下列步驟：
 
-1.  [先決條件](#prerequisites)
+1.  [必要條件](#prerequisites)
 2.  [正在初始化媒體基礎](#initializing-media-foundation)
 3.  [建立媒體基礎物件](#creating-media-foundation-objects)
 4.  [建立媒體來源](#creating-the-media-source)

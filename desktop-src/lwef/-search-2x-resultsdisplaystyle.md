@@ -14,17 +14,17 @@ api_type:
 - IDLDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26d564e0a7bb8a10b44e2957f26aa20a07afa535
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 97a045765b53f29e978c286a14a1d82b86ffb21b5046dee606029a957ee0434c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726520"
 ---
 # <a name="resultsdisplaystyle-enumeration"></a>ResultsDisplayStyle 列舉
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在更新版本中，請改用 [WINDOWS SEARCH API](../search/-search-reference-entry-page.md) 。 
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在更新版本中，請改用[Windows Search API](../search/-search-reference-entry-page.md) 。 
 
 由 [**IResultsViewer：： ResultsStyle**](-search-2x-iresultsviewer-resultsstyle.md) 用來設定或決定結果的顯示方式。
 
@@ -64,7 +64,7 @@ typedef enum ResultsDisplayStyleEnum {
 
 | 需求 | 值 |
 |----------------|----------------------------------------------------------------------------------------|
-| Idl<br/> | <dl> <dt>WdsView .idl</dt> </dl> |
+| IDL<br/> | <dl> <dt>WdsView .idl</dt> </dl> |
 
 
 

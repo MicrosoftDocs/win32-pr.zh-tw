@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 924204068dbb66b22cc06d28966511d8922e0068
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff87f55218d8c84b1cb95a75e1801783e57b17288c36057323589ab44a47d3c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891338"
 ---
 # <a name="inapcomponentconfig3newconfig-method"></a>INapComponentConfig3：： >newconfig.json 方法
 
@@ -30,7 +30,7 @@ ms.locfileid: "104094247"
 
  
 
-**>newconfig.json** 方法是由系統健康狀態驗證 (shv) 來提供一種方法，以建立特定設定識別碼的設定資料。 呼叫此函式時，SHV 必須配置新的設定資料，並填入預設設定資料的複本。
+**>Newconfig.json** 方法是由系統健康狀態驗證 (shv) 來提供一種方法，以建立特定設定識別碼的設定資料。 呼叫此函式時，SHV 必須配置新的設定資料，並填入預設設定資料的複本。
 
 ## <a name="syntax"></a>語法
 
@@ -60,7 +60,7 @@ HRESULT NewConfig(
 
 
 
-| 傳回碼                                                                                                 | Description                                                                                   |
+| 傳回碼                                                                                                 | 描述                                                                                   |
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> </dl>                       | 作業成功。<br/>                                                       |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>                | *ConfigID* 為 0 (保留給預設設定) 的值。<br/>                  |
@@ -72,7 +72,7 @@ HRESULT NewConfig(
 
 ## <a name="remarks"></a>備註
 
-**>newconfig.json** 建立新的設定之後，應該使用 [**GetConfigFromID**](inapcomponentconfig3-getconfigfromid.md)、 [**InvokeUIFromConfigBlob**](inapcomponentconfig2-invokeuifromconfigblob.md)和 [**SetConfigToID**](inapcomponentconfig3-setconfigtoid.md)方法來視需要變更設定。
+**>Newconfig.json** 建立新的設定之後，應該使用 [**GetConfigFromID**](inapcomponentconfig3-getconfigfromid.md)、 [**InvokeUIFromConfigBlob**](inapcomponentconfig2-invokeuifromconfigblob.md)和 [**SetConfigToID**](inapcomponentconfig3-setconfigtoid.md)方法來視需要變更設定。
 
 ## <a name="requirements"></a>規格需求
 
@@ -81,9 +81,9 @@ HRESULT NewConfig(
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>NapCommon。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
 
 
 

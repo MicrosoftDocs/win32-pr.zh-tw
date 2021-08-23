@@ -4,12 +4,12 @@ ms.assetid: 6e6c1104-5cde-4c07-9ee2-d87062675dac
 title: 搜尋元件檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7be73b162ea41fd9eeb0a042a1fc2e202b8115
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b55614278d58913c8fb92371e302ffd71fd28b48b7828351d8ce6b37ae0eddc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884868"
 ---
 # <a name="searching-for-assembly-files"></a>搜尋元件檔
 

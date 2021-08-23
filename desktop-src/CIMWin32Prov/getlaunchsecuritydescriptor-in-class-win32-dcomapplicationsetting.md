@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6d434c0cc9a4d236350f3dd4d15cf9d8c8e5ad4d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3b76a37db5b1edbc230c4cc4aed712ef4eee9dd4221cc4cb85fb8f205db69d35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878948"
 ---
 # <a name="getlaunchsecuritydescriptor-method-of-the-win32_dcomapplicationsetting-class"></a>Win32 DCOMApplicationSetting 類別的 GetLaunchSecurityDescriptor 方法 \_
 

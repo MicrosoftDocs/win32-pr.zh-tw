@@ -4,12 +4,12 @@ description: 如需有關在 XPS OM 中使用文字的詳細資訊，請參閱�
 ms.assetid: ac347964-cd97-4077-afad-8cab9b57a33d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d8f466f0accf460043665adfb2b5fc1dc4ede67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96535fd843542ce09ef86934a4ccae682d6ccfc2427f32af5d8fbbc7823fd73d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823868"
 ---
 # <a name="working-with-xps-om-text-graphics-and-image-interfaces"></a>使用 XPS OM 文字、圖形和影像介面
 

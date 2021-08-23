@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7a6da220e50b43ce990c090c61d1caf84afec653
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 764c3b992cd248a8900c3762c7c9e68abd3bed973ca4f7d44b1705122984f321
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726738"
 ---
 # <a name="dcl_samplertype-sm2-sm3---ps-asm"></a>dcl \_ samplerType (sm2、sm3-ps asm) 
 

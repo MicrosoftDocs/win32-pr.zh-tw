@@ -4,12 +4,12 @@ ms.assetid: db79fd4b-6a15-4bf9-a0d9-5f6415f6c75f
 title: 關於視窗類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b683176c3fd7904cf3f89b385ce0fa393b89e9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fcb46d862bf5b9249bb4f13b111ac10c441c3e687dd3fb1784f355c40d14b72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932328"
 ---
 # <a name="about-window-classes"></a>關於視窗類別
 
@@ -53,7 +53,7 @@ ms.locfileid: "104194567"
 
 系統會線上程第一次呼叫使用者或 Windows 圖形裝置介面 (GDI) 函式時，註冊進程的系統類別。
 
-每個應用程式都會收到自己的系統類別複本。 相同的 VDM 中所有16位 Windows 應用程式都會共用系統類別，就像在16位的 Windows 上一樣。
+每個應用程式都會收到自己的系統類別複本。 在相同的 VDM 中，所有以16位 Windows 為基礎的應用程式會共用系統類別，就像在16位 Windows 上所做的一樣。
 
 下表描述可供所有進程使用的系統類別。
 
@@ -61,13 +61,13 @@ ms.locfileid: "104194567"
 
 | 類別     | 描述                         |
 |-----------|-------------------------------------|
-| 按鈕    | 按鈕的類別。             |
+| Button    | 按鈕的類別。             |
 | ComboBox  | 下拉式方塊的類別。          |
 | 編輯      | 編輯控制項的類別。      |
 | ListBox   | 清單方塊的類別。           |
 | MDIClient | MDI 用戶端視窗的類別。 |
 | ScrollBar | 捲軸的類別。         |
-| Static    | 靜態控制項的類別。     |
+| 靜態    | 靜態控制項的類別。     |
 
 
 
@@ -96,11 +96,11 @@ ms.locfileid: "104194567"
 
 [應用程式全域類別](#application-global-classes)是由可執行檔或 DLL 註冊的視窗類別，可供進程中的所有其他模組使用。 例如，您的 .dll 可以呼叫 [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexa) 函式，以註冊將自訂控制項定義為應用程式全域類別的視窗類別，讓載入 .dll 的進程可以建立自訂控制項的實例。
 
-若要建立可用於每個進程的類別，請在 .dll 中建立視窗類別，並在每個進程中載入 .dll。 若要在每個進程中載入 .dll，請在下列登錄機碼中，將其名稱加入至 **AppInit \_ dll** 值：
+若要建立可用於每個進程的類別，請在 .dll 中建立視窗類別，並在每個進程中載入 .dll。 若要在每個進程中載入 .dll，請將其名稱新增至下列登錄機碼中的 **AppInit \_ dll** 值：
 
 **HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Windows**
 
-每次處理常式啟動時，系統就會在新啟動的進程的內容中載入指定的 .dll，然後呼叫其進入點函數。 .Dll 必須在其初始化程式中註冊類別，而且必須指定 **CS \_ GLOBALCLASS** 樣式。 如需詳細資訊，請參閱 [類別樣式](#class-styles)。
+每當進程啟動時，系統就會在新啟動的進程內容中載入指定的 .dll，然後再呼叫其進入點函式。 .dll 必須在其初始化程式中註冊類別，而且必須指定 **CS \_ GLOBALCLASS** 樣式。 如需詳細資訊，請參閱 [類別樣式](#class-styles)。
 
 若要移除應用程式全域類別並釋放與其相關聯的儲存體，請使用 [**UnregisterClass**](/windows/win32/api/winuser/nf-winuser-unregisterclassa) 函數。
 
@@ -130,7 +130,7 @@ ms.locfileid: "104194567"
 
 註冊類別的可執行檔或 DLL 是類別的擁有者。 當註冊類別時，系統會從傳遞給 [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexa)函式之 [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa)結構的 **hInstance** 成員判斷類別擁有權。 若為 Dll， **hInstance** 成員必須是 .dll 實例的控制碼。
 
-當擁有它的 .dll 卸載時，不會終結類別。 因此，如果系統呼叫該類別之視窗的視窗程式，則會造成存取違規，因為包含視窗程式的 .dll 已不在記憶體中。 此程式必須在卸載 .dll 之前使用類別終結所有視窗，然後呼叫 [**UnregisterClass**](/windows/win32/api/winuser/nf-winuser-unregisterclassa) 函數。
+當擁有它的 .dll 卸載時，不會終結類別。 因此，如果系統呼叫該類別視窗的視窗程式，則會造成存取違規，因為包含視窗程式的 .dll 已不在記憶體中。 在卸載 .dll 之前，進程必須使用類別終結所有視窗，然後呼叫 [**UnregisterClass**](/windows/win32/api/winuser/nf-winuser-unregisterclassa) 函數。
 
 ## <a name="elements-of-a-window-class"></a>視窗類別的元素
 

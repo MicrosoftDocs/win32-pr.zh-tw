@@ -4,12 +4,12 @@ ms.assetid: c8445f74-659a-470b-9007-07ea98d36dcd
 title: 建立主要金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b35a6aef52525bdce622355ede4ae9723f7cd8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dea47c64348f89563340a4e25d411ed3174ee9d18ba1705d9707eab6b39633b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876528"
 ---
 # <a name="creating-the-master-key"></a>建立主要金鑰
 

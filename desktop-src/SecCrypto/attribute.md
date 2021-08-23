@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 34c0800874dc9380b8c9034df2867fc3d1fb578d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c3e07c771a34e89cfbcbba5695450e195ef55482e0a27bee008f3ea8251bf8bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879868"
 ---
 # <a name="attribute-object"></a>Attribute 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista、Windows XP。 請改用 [**system.string 命名空間中的**](/previous-versions/windows/) [**CryptographicAttributeObject 類別**](/dotnet/api/system.security.cryptography.cryptographicattributeobject?view=dotnet-plat-ext-3.1&preserve-view=true)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista Windows XP。 請改用 [**system.string 命名空間中的**](/previous-versions/windows/) [**CryptographicAttributeObject 類別**](/dotnet/api/system.security.cryptography.cryptographicattributeobject?view=dotnet-plat-ext-3.1&preserve-view=true)。\]
 
 **Attribute** 物件代表單一已驗證的屬性。
 
@@ -45,9 +45,9 @@ ms.locfileid: "106984755"
 
 
 
-| 屬性                                    | 存取類型           | Description                                                                                   |
+| 屬性                                    | 存取類型           | 描述                                                                                   |
 |:--------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------|
-| [**Name**](attribute-name.md)<br/>   | 讀取/寫入<br/> | 設定或抓取屬性的 CAPICOM 名稱。 這是預設屬性。<br/> |
+| [**名稱**](attribute-name.md)<br/>   | 讀取/寫入<br/> | 設定或抓取屬性的 CAPICOM 名稱。 這是預設屬性。<br/> |
 | [**值**](attribute-value.md)<br/> | 讀取/寫入<br/> | 設定或抓取屬性的值。<br/>                                      |
 
 

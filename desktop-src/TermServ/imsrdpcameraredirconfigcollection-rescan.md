@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 3e615afa5f534c7e8fb71a88a5113782ba42da0e
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: cb2cef653d99ab6727f56f4ed1281b02956a4466108eedfe096977f3fbb4a48b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "106970873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771818"
 ---
 # <a name="imsrdpcameraredirconfigcollectionrescan-method"></a>IMsRdpCameraRedirConfigCollection：：重新掃描方法
 

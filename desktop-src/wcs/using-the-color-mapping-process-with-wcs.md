@@ -3,19 +3,19 @@ title: 使用具有 WCS 的色彩對應進程
 description: WCS 色彩對應以裝置設定檔為基礎。
 ms.assetid: df4d390e-0c9e-40dc-864a-2177934895db
 keywords:
-- Windows Color System (WCS) 、色彩對應
-- WCS (Windows 色彩系統) ，色彩對應
+- Windows色彩系統 (WCS) 、色彩對應
+- WCS (Windows 色彩系統) 、色彩對應
 - 影像色彩管理、色彩對應
 - 色彩管理、色彩對應
 - 色彩、色彩對應
 - 色彩對應
-- Windows Color System (WCS) 、裝置設定檔
+- Windows色彩系統 (WCS) 、裝置設定檔
 - WCS (Windows 色彩系統) 、裝置設定檔
 - 影像色彩管理、裝置設定檔
 - 色彩管理，裝置設定檔
 - 色彩、裝置設定檔
-- Windows Color System (WCS) ，設定檔
-- WCS (Windows 色彩系統) ，設定檔
+- Windows色彩系統 (WCS) ，設定檔
+- WCS (Windows 色彩系統) 、設定檔
 - 影像色彩管理，設定檔
 - 色彩管理，設定檔
 - 色彩，設定檔
@@ -23,12 +23,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 428b09749f3781def44e56ff6cea0539259d0464
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: fe785af9fa4160c2aa1e54c6765857edc9c7aacb1a8fa40a0ad04e634b4ab602
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106997591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934258"
 ---
 # <a name="using-the-color-mapping-process-with-wcs"></a>使用具有 WCS 的色彩對應進程
 
@@ -36,7 +36,7 @@ WCS 色彩對應以 [裝置設定檔](d.md)為基礎。 這些是由彩色硬體
 
 裝置設定檔可以內嵌至映射本身。 因此，即使是透過網際網路，裝置設定檔也會與影像一起移動。 使用者不需要來源裝置來取得正確的色彩對應。 如果映射沒有裝置設定檔，則會使用 sRGB 空間作為預設值。 如需詳細資訊，請參閱 [使用網際網路上的色彩管理](using-color-management-on-the-internet.md)。
 
-請注意，使用 WCS 的應用程式絕對不應該將 sRGB 設定檔內嵌至映射。 SRGB 色彩空間提供可在所有裝置上移植的標準化色彩空間。 Windows 98 和更新版本以及 Windows 2000 和更新版本的使用者會自動使用此功能。 因此，它不需要隨影像移動。
+請注意，使用 WCS 的應用程式絕對不應該將 sRGB 設定檔內嵌至映射。 SRGB 色彩空間提供可在所有裝置上移植的標準化色彩空間。 它會自動提供給 Windows 98 和更新版本的使用者，以及 Windows 2000 和更新版本。 因此，它不需要隨影像移動。
 
 在 [電腦](p.md)中的影像色彩之後，WCS 會存取目的地裝置的裝置設定檔。 它會取得 CMM，以將影像色彩從電腦轉換成目的地裝置的範圍。
 

@@ -4,16 +4,16 @@ description: 聆聽，不只是辨識
 ms.assetid: 74bb2122-98c1-4a51-b894-93e1481aa46b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e972a8c98460e58d0f7080d7de7641fb856c8317
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b226b9172b10c70e4e699a98df49acc002dcd5add95986c9efbdf9e8f057648d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888088"
 ---
 # <a name="listen-dont-just-recognize"></a>聆聽，不只是辨識
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 成功的通訊牽涉到比字詞更多的識別。 對話的程式意指交換提示，以指示輪流學習和理解。 字元可以藉由提供提示（如 head 傾斜、節點或訪談）來指出語音引擎處於接聽狀態的時間，以及辨識某個物件時，可以改善對話介面。 例如，當使用者在偵測到語句時，當使用者按下對話接聽按鍵和指派給 **聽力** 狀態的動畫時，Microsoft Agent 會播放指派給 **接聽** 狀態的動畫。 定義您自己的字元時，請務必建立適當的動畫並指派給這些狀態。 如需設計字元的詳細資訊，請參閱 [設計 Microsoft Agent 的字元](designing-characters-for-microsoft-agent.md)。
 
@@ -23,9 +23,9 @@ Microsoft Agent 提供的介面可讓您存取最符合的專案，以及語音�
 
 交談或對話的本質暗示應該要有語音輸入的回應。 因此，使用者的輸入應該一律使用指出已執行動作或遇到問題的口頭或視覺回饋來回應，或提供適當的回復。
 
- 
+ 
 
- 
+ 
 
 
 

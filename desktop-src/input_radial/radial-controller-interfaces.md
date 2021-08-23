@@ -4,12 +4,12 @@ ms.assetid: 44FED16E-63FB-466B-9615-8B744F861AE9
 title: 放射狀控制器介面
 ms.topic: article
 ms.date: 02/04/2020
-ms.openlocfilehash: 522071a7e15c95da77113c6d6422705ac22d18ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33e6c1eb49e9927c1043b162b14d829b51a9f4fcffaa272f41f39e9a36ffcf75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848918"
 ---
 # <a name="radial-controller-interfaces"></a>放射狀控制器介面
 
@@ -19,9 +19,9 @@ ms.locfileid: "106977279"
 
 | 主題 | 描述 |
 |---|---|
-| [**IRadialControllerConfigurationInterop**](/windows/win32/api/radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop)<br/> | 啟用與通用 Windows 平臺 (UWP) [**RadialControllerConfiguration**](/uwp/api/Windows.UI.Input.RadialControllerConfiguration) 物件的互通性，並提供 **RadialControllerConfiguration** 成員的存取權來自訂 [**RadialController**](/uwp/api/Windows.UI.Input.RadialController) 功能表。<br/> |
+| [**IRadialControllerConfigurationInterop**](/windows/win32/api/radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop)<br/> | 啟用與通用 Windows 平臺 (UWP) [**RadialControllerConfiguration**](/uwp/api/Windows.UI.Input.RadialControllerConfiguration)物件的互通性，並提供 **RadialControllerConfiguration** 成員的存取權來自訂 [**RadialController**](/uwp/api/Windows.UI.Input.RadialController)功能表。<br/> |
 | [**IRadialControllerInterop**](/windows/win32/api/radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerinterop)<br/> | 啟用與 UWP [**RadialController**](/uwp/api/Windows.UI.Input.RadialController) 物件的互通性，並提供 **RadialController** 成員的存取權，以自訂互動體驗。<br/> |
 
 ## <a name="related-topics"></a>相關主題
 
-[放射狀控制器輸入](radialcontroller-portal.md)、 [Surface Dial 互動](/windows/uwp/design/input/windows-wheel-interactions)、 [通用 Windows 平臺範例 (C \# 和 c + +) ](https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController)、 [Windows 傳統桌面範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController)
+[放射型控制器輸入](radialcontroller-portal.md)、 [Surface Dial 互動](/windows/uwp/design/input/windows-wheel-interactions)、[通用 Windows 平臺範例 (C \# 和 c + +) ](https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController)、 [Windows 傳統桌面範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController)

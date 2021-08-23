@@ -4,17 +4,17 @@ description: Microsoft Windows 通用對話方塊包含 [開啟檔案]、[儲存
 ms.assetid: 3f9fb0c9-bc1a-48c4-b021-99f155f8ea9e
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 9d64dee640037fe70b88c10294ed04bfbc74fac4
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 9ddd0bf5af0a609c07550ec91e7482ce35270c85b81d553d4a5e262db6ed3683
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935608"
 ---
 # <a name="common-dialogs"></a>一般對話
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 Microsoft Windows 通用對話方塊包含 [開啟檔案]、[儲存檔案]、[開啟資料夾]、[尋找和取代]、[列印]、[版面設定]、[字型] 和 [色彩] 對話方塊。
 
@@ -89,7 +89,7 @@ Microsoft Windows 通用對話方塊包含 [開啟檔案]、[儲存檔案]、[�
 
 **是的！使用通用對話方塊可獲得一致的使用者體驗。請勿建立您自己的。** 建立可正確且安全地流覽命名空間的自訂 Ui，會更加困難。 請注意，您可以視需要自訂通用對話方塊。
 
-在 Windows Vista 中，開啟的檔案和儲存檔案具有新的可擴充架構，可讓您更輕鬆地公開其他功能。 這項機制有足夠的彈性，可符合主要獨立軟體廠商 (Isv) 的最低需求，但不會被未來的 Windows 版本所打破。
+針對 Windows Vista，開啟檔案和儲存檔案具有新的可延伸架構，可讓您更輕鬆地公開額外的功能。 這項機制有足夠的彈性，可符合主要獨立軟體廠商 (Isv) 的最低需求，但不會因 Windows 的未來版本而中斷。
 
 ## <a name="guidelines"></a>指導方針
 

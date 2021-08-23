@@ -4,12 +4,12 @@ ms.assetid: 1b253fc9-ee0e-455a-9034-ead5202c6fff
 title: System. StorageProviderFileVersionWaterline
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6589eaac31023b66de33bc77c11a3dbafff42416
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7068eb440a6f3d8389f1b3482f9519a7b60d22d958e27e53e76b91abdd1a9721
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938108"
 ---
 # <a name="systemstorageproviderfileversionwaterline"></a>System. StorageProviderFileVersionWaterline
 

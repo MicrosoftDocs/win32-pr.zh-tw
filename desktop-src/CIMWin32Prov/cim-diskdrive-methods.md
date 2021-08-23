@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_DiskDrive 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d2c90d95e36a12043c1ab763eba173f6fe4d21d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c946a8f48f289d9c5510215dbeec1c524e67062627cb346d151305a3bd08e77a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924148"
 ---
 # <a name="cim_diskdrive-methods"></a>CIM \_ DiskDrive 方法
 

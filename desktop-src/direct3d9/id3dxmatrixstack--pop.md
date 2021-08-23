@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c8d9185d10b9ef98a1fc3499f49c2ccc9c17a366
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 32a3658994f0938c5024818b1664207d700270e8f02effbcb28ecb80841f186e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847688"
 ---
 # <a name="id3dxmatrixstackpop-method-d3dx9mathh"></a>ID3DXMATRIXStack：:P op 方法 (D3dx9math .h) 
 

@@ -4,12 +4,12 @@ ms.assetid: 65d4b98b-369f-4863-a28c-f9e3b4c2b55d
 title: 'OPM_GET_CURRENT_HDCP_SRM_VERSION (Opmapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e05ad53ae58e2141c63179c84a90f90cea86fb4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee36516510d04fec067bbc692387e2e36b9da083db1a6daae0f51948a992cc83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887488"
 ---
 # <a name="opm_get_current_hdcp_srm_version"></a>OPM \_ 取得 \_ 目前的 \_ HDCP \_ SRM \_ 版本
 
@@ -37,7 +37,7 @@ SRMs 可用來更新已撤銷 High-Bandwidth 數位內容保護 (HDCP) 裝置的
 
 
 
-| 傳回碼                                            | Description                             |
+| 傳回碼                                            | 描述                             |
 |--------------------------------------------------------|-----------------------------------------|
 | 錯誤 \_ 圖形 \_ OPM \_ \_ \_ 尚未設定 HDCP \_ SRM            | 應用程式未設定 SRM。     |
 | 錯誤 \_ 圖形 \_ OPM \_ 輸出 \_ 不 \_ \_ 支援 \_ HDCP | 影片輸出不支援 HDCP。 |
@@ -52,8 +52,8 @@ SRMs 可用來更新已撤銷 High-Bandwidth 數位內容保護 (HDCP) 裝置的
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

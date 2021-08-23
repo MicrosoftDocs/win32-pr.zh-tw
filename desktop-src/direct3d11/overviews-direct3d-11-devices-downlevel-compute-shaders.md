@@ -4,12 +4,12 @@ description: 本主題將討論如何在 Direct3D 10 硬體上的 Direct3D 11 �
 ms.assetid: b864269f-c1f7-4253-888d-04d1ed3e6587
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e77214e917d4d74b0e1eebcc3de245d136157976
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 673397d6974d2191acc1f5e30ccf8cae8b5b5f4b0ab5cae305360fef3e7186f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104024302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894468"
 ---
 # <a name="compute-shaders-on-downlevel-hardware"></a>下層硬體上的計算著色器
 
@@ -67,8 +67,8 @@ Direct3D 11 提供使用 [計算著色](direct3d-11-advanced-stages-compute-shad
 
 這項限制特別適用于下列各項：
 
--   [**>id3d11devicecoNtext：:D ispatch**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatch)— *ThreadGroupCountZ* 引數必須是1。
--   [**>id3d11devicecoNtext：:D ispatchindirect**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatchindirect)-在舊版硬體上不支援此功能。
+-   [**>Id3d11devicecoNtext：:D ispatch**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatch)— *ThreadGroupCountZ* 引數必須是1。
+-   [**>Id3d11devicecoNtext：:D ispatchindirect**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatchindirect)-在舊版硬體上不支援此功能。
 -   [numthreads](/windows/desktop/direct3dhlsl/sm5-attributes-numthreads)-Z 值必須是1。
 
 ### <a name="thread-group-shared-memory-tgsm"></a>執行緒群組共用記憶體 (TGSM) 
@@ -102,7 +102,7 @@ Direct3D 11 提供使用 [計算著色](direct3d-11-advanced-stages-compute-shad
 
 
 
- 
+ 
 
 計算著色器執行緒可能會從任何位置讀取 TGSM。
 
@@ -117,6 +117,6 @@ Direct3D 11 提供使用 [計算著色](direct3d-11-advanced-stages-compute-shad
 [舊版硬體上的 Direct3D 11](overviews-direct3d-11-devices-downlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

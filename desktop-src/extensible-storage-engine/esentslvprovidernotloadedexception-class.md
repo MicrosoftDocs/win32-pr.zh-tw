@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 778a77a92146241c0fff5d389c11880b76adf65c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17de26c77dec57d40fb58a0e7f5a7771a87530bb8586b85bb1165a70ba974ab8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850678"
 ---
 # <a name="esentslvprovidernotloadedexception-class"></a>EsentSLVProviderNotLoadedException 類別
 

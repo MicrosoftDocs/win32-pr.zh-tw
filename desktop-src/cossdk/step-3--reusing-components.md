@@ -4,12 +4,12 @@ ms.assetid: d9c14cf8-5bc9-4a6c-9421-c16c3f41b10d
 title: 步驟3：重複使用元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f44446ee20baa6dc8c947ef0650f4478847a1c
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 9cf500746e7c9052a421691299903437e129108405b49c7753a841e8ca505518
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104566724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895803"
 ---
 # <a name="step-3-reusing-components"></a>步驟3：重複使用元件
 
@@ -20,9 +20,9 @@ ms.locfileid: "104566724"
 -   可重複使用的元件。
 -   如何規劃重複可重複的方案。
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-這個 COM + 服務入門的前兩個部分， [步驟1：建立](step-1--creating-a-transactional-component.md) 交易式元件和 [步驟2：跨多個元件延伸交易](step-2--extending-a-transaction-across-multiple-components.md) 示範如何撰寫一個元件來呼叫第二個元件，以協助完成一些工作、更新 Microsoft SQL Server Pubs 資料庫中的作者資訊;所有工作都是由單一交易保護。 範例元件著重于更新作者的資料以及驗證作者的位址，以及 COM + 提供的交易處理、 [JIT 啟用](com--just-in-time-activation.md)和 [並行保護](com--synchronization.md)的工作。
+這個 com + 服務入門的前兩個部分，[步驟1：建立](step-1--creating-a-transactional-component.md)交易式元件和[步驟2：跨多個元件延伸交易](step-2--extending-a-transaction-across-multiple-components.md)示範如何撰寫一個元件來呼叫第二個元件，以協助完成一些工作、更新 Microsoft SQL Server Pubs 資料庫中的作者資訊;所有工作都是由單一交易保護。 範例元件著重于更新作者的資料以及驗證作者的位址，以及 COM + 提供的交易處理、 [JIT 啟用](com--just-in-time-activation.md)和 [並行保護](com--synchronization.md)的工作。
 
 此步驟示範如何重複使用步驟1和2中建立的元件，並查看這對這些元件的設計有何意義。 如下圖所示，這表示建立新的元件，藉 `AddNewAuthor` 由呼叫將新作者新增至資料庫 `UpdateAuthorAddress` 。
 
@@ -227,7 +227,7 @@ End Function
 
 
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 -   有時您不希望元件在交易中投票。
 -   COM + 不會在非交易式元件上強制執行 JIT 啟用或平行存取保護。 您可以另外設定這些服務。

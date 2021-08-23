@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3ad276126548ac6d5fdc2c828f722c90b43ad679
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3313a1744a1fb9a3b34549ca32bb9b0c7cf18977c7785075900c4a11425b5949
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908348"
 ---
 # <a name="ieaxiservicecallback-interface"></a>IeAxiServiceCallback 介面
 
@@ -59,7 +59,7 @@ interface IeAxiServiceCallback : IUnknown
 
 | 方法                                                | 描述                                                                                                                                    |
 |:------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**VerifyFile**](ieaxiservicecallback-verifyfile.md) | 針對指定的 ActiveX 物件執行安全性檢查，並傳回下載對應 .cab 檔案的位置。<br/> |
+| [**VerifyFile**](ieaxiservicecallback-verifyfile.md) | 在指定的 ActiveX 物件上執行安全性檢查，並傳回下載對應 .cab 檔案的位置。<br/> |
 
 
 
@@ -71,7 +71,7 @@ interface IeAxiServiceCallback : IUnknown
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Business、Windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windowsvista Business、Windows vista Enterprise、Windows vista 旗艦版傳統型 \[ 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                 |
 | IID<br/>                      | IID \_ IeAxiServiceCallback 定義為1823E7BA-EC36-447a-9B2E-B4912E15AFE7<br/>                   |
 
