@@ -17,18 +17,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eff03f95d4ebbb068bccbfd9f68a930c00f0b00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 673916c3a538f21ceea5b0b7578bb9e8f225ec2a349e38015eab0b50d73935aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512338"
 ---
 # <a name="imstscaxeventsonfocusreleased-method"></a>IMsTscAxEvents：： OnFocusReleased 方法
 
 在按下放開焦點按鍵組合時呼叫。 例如，當使用者按下 CTRL + ALT + 向左鍵或 CTRL + ALT + 向右鍵按鍵組合時，就會呼叫此事件。
 
-此事件可讓 ActiveX 控制項容器離開 ActiveX 控制項的控制權。 例如，這在您沒有滑鼠的情況下很有用，而像 ALT + TAB 等特殊按鍵組合會重新導向至伺服器。 在此情況下，您沒有辦法將鍵盤焦點傳回本機桌面。 不過，使用 CTRL + ALT + 向左鍵或 CTRL + ALT + 向右鍵組合時，ActiveX 容器可以接聽此事件，並將焦點從 ActiveX 控制項移出以回應。
+此事件可讓 ActiveX 控制容器離開 ActiveX 控制項的控制權。 例如，這在您沒有滑鼠的情況下很有用，而像 ALT + TAB 等特殊按鍵組合會重新導向至伺服器。 在此情況下，您沒有辦法將鍵盤焦點傳回本機桌面。 不過，使用 ctrl + alt + 向左鍵或 ctrl + alt + 向右鍵組合時，ActiveX 容器可以接聽此事件，並將焦點離開 ActiveX 控制項來回應。
 
 ## <a name="syntax"></a>語法
 

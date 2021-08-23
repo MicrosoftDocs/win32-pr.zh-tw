@@ -17,12 +17,12 @@ api_location:
 - kernelbase.dll
 - mincoredload.dll
 - minkernelbase.dll
-ms.openlocfilehash: 019729cacb45cce87de2cc4015c661c494125108
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 359de5c52417f09c35e2fc994e36f0efd054f2a18dc3063be71dc12d588c60e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571548"
 ---
 # <a name="resolvedelayloadedapi-function"></a>ResolveDelayLoadedAPI 函式
 

@@ -3,7 +3,7 @@ title: 點陣圖區段
 description: 點陣圖區段
 ms.assetid: db2801e5-c55a-4681-9fe9-6027f28653e0
 keywords:
-- Windows Media Player 行動外觀、點陣圖
+- Windows Media Player行動外觀、點陣圖
 - 外觀，點陣圖
 - 建立外觀、點陣圖區段
 - 撰寫程式碼的外觀、點陣圖區段
@@ -11,12 +11,12 @@ keywords:
 - 外觀定義檔，點陣圖區段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf4a5e41e8e2b095b199a072e31abde3c1cbaa29
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3062a8679e916fc8eaa733ab82c3df51845969873fcf83534be5f9ec6e4c6f14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573458"
 ---
 # <a name="bitmaps-section"></a>點陣圖區段
 
@@ -43,7 +43,7 @@ ms.locfileid: "104021365"
 > [!Note]  
 > 區域和超級點陣圖在 Windows Media Player 10 個行動裝置版或更新版本的外觀中已被取代。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -52,9 +52,9 @@ ms.locfileid: "104021365"
 [**撰寫程式碼**](writing-the-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

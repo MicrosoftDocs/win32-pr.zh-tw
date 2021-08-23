@@ -18,12 +18,12 @@ keywords:
 - 服務工作窗格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86035215f822c67bb40c528f141422977efc8653
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9f54a82f2637fe11b0a2a7703cc241c47e799999a89b56ba8ba19c079b7393de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647578"
 ---
 # <a name="navigating-between-service-task-panes"></a>在服務工作窗格之間流覽
 
@@ -135,9 +135,9 @@ https://www.proseware.com/service/html/Video.asp?locale=409&geoid=f4&version=10.
 [**類型2線上商店的流覽**](navigation-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

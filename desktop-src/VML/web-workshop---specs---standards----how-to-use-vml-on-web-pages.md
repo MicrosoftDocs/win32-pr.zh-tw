@@ -18,21 +18,21 @@ keywords:
 - '向量圖形，全球資訊網協會 (W3C) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 189353fd5a6c50ffbdcf3fe2ad3efe7e82b8e219
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6e81b740bba53c46cb92129ca53d0fa41c48f2179065e268335787c90b9ef117
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106991294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512558"
 ---
 # <a name="how-to-use-vml-on-webpages"></a>如何在網頁上使用 VML
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 本檔補充提交至全球資訊網協會 (W3C) [Vector Markup Language (VML) 規格](https://www.w3.org/TR/NOTE-datetime.html) 。 使用此檔和完整的 VML 規格時，您應該能夠使用 VML 來設計網頁。 我們假設您已經具備 HTML 的實用知識。
 
@@ -63,8 +63,8 @@ ms.locfileid: "106991294"
 > [!Note]  
 > 本參考中提供的範例是針對 Internet Explorer 所設計。 我們也盡可能提供圖例。
 
- 
+ 
 
- 
+ 
 
- 
+ 

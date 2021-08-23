@@ -5,12 +5,12 @@ ms.assetid: 976D9B30-77A5-4616-80E7-AE8F5A9F8534
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7db021cf45e38b27bbd4ed594d01878d78a0633e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db7a0298540a820d2b23943ed1a572121a5dc6863017725dd169bad8e81ee125
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512478"
 ---
 # <a name="imstscaxevents-methods"></a>IMsTscAxEvents 方法
 
@@ -51,9 +51,9 @@ ms.locfileid: "104021126"
 -   [**OnUserNameAcquired 方法**](imstscaxevents-onusernameacquired.md)
 -   [**OnWarning 方法**](imstscaxevents-onwarning.md)
 
- 
+ 
 
- 
+ 
 
 
 

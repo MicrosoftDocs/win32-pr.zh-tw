@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f8a9bbe3459109946b7a4789d9b9f0fb7473ff05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8636f42026fe44131e149b0e378089b70c7d4f49b9e23b5d48ebe50aa5721d79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594808"
 ---
 # <a name="isearchprotocoluigetsearchitemforurl-method"></a>ISearchProtocolUI：： GetSearchItemForUrl 方法
 
@@ -52,9 +52,9 @@ Null 資料終止的 Unicode 字串指標，其中包含要存取之 URL 的搜�
 *pPropertyBag* \[在\]
 </dt> <dd>
 
-類型： **IItemPropertyBag \** _
+類型： **IItemPropertyBag \***
 
-[_ *IItemPropertyBag* *](iitempropertybag.md)物件的指標，其中包含搜尋專案的相關資訊，包括專案的屬性。
+[**IItemPropertyBag**](iitempropertybag.md)物件的指標，其中包含搜尋專案的相關資訊，包括專案的屬性。
 
 </dd> <dt>
 
@@ -75,9 +75,9 @@ Null 資料終止的 Unicode 字串指標，其中包含要存取之 URL 的搜�
 
 ## <a name="remarks"></a>備註
 
-只有在 Windows XP 和 Windows Server 2003 上才支援 **ISearchProtocolUI：： GetSearchItemForUrl** 方法，且不應再使用。
+只有 Windows XP 和 Windows Server 2003 才支援 **ISearchProtocolUI：： GetSearchItemForUrl** 方法，且不應再使用。
 
-若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能需要使用 [**ISearchProtocolUI**](-search-isearchprotocolui.md) 介面和下列 Api： [**IItemPreviewerExt**](-search-iitempreviewerext.md)、 [**IItemPropertyBag**](iitempropertybag.md) 和 [**ISearchItem**](-search-isearchitem.md) 介面、 [**LINKINFO**](-search-linkinfo.md) 結構和 [**LINKTYPE**](-search-linktype.md) 列舉。
+若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能需要使用 [**ISearchProtocolUI**](-search-isearchprotocolui.md)介面和下列 api： [**IItemPreviewerExt**](-search-iitempreviewerext.md)、 [**IItemPropertyBag**](iitempropertybag.md)和 [**ISearchItem**](-search-isearchitem.md)介面、 [**LINKINFO**](-search-linkinfo.md)結構和 [**LINKTYPE**](-search-linktype.md)列舉。
 
 ## <a name="requirements"></a>規格需求
 
@@ -85,9 +85,9 @@ Null 資料終止的 Unicode 字串指標，其中包含要存取之 URL 的搜�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
-| 可轉散發套件<br/>          | Windows 桌面搜尋 (WDS) 3。0<br/>          |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
+| 可轉散發套件<br/>          | Windows (WDS 的桌面搜尋) 3。0<br/>          |
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101108
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 13e9eee6bebe2c25a9f5b97b426039d2bd713680
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b877962be139d3eca7ad634f43d97580cf6df49634f88dc18665cb0dbff7b80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622538"
 ---
 # <a name="esentbadslvsignatureexception-members"></a>EsentBadSLVSignatureException 成員
 

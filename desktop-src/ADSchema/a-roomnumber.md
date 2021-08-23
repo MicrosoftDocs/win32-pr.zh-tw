@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1c79c3d67a601f288b265105b93fa4db2385685
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1242d623057ab23e8c7e92ae2cb89a43386ca3e1f896a865ac1227d2c051353c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646628"
 ---
 # <a name="roomnumber-attribute"></a>roomNumber 屬性
 
@@ -64,7 +64,7 @@ ms.locfileid: "104107960"
 | Range-Upper            | \-                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000000                                                                                                              |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**房間**](c-room.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**房間**](c-room.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "104107960"
 | Range-Upper            | \-                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000000                                                                                                              |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**房間**](c-room.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**房間**](c-room.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -106,7 +106,7 @@ ms.locfileid: "104107960"
 | Range-Upper            | \-                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000000                                                                                                              |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**房間**](c-room.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**房間**](c-room.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -127,7 +127,7 @@ ms.locfileid: "104107960"
 | Range-Upper            | \-                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000000                                                                                                              |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**房間**](c-room.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**房間**](c-room.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 

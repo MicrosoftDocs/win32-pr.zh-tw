@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - mspatchc.dll
-ms.openlocfilehash: 40835a0b88558046ff9086ffcd7ec4609d1ed863
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 626bd53e3361f4d29cc76e17ae2788ddea3bc8b99b580196bcbf77c27a6983d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571798"
 ---
 # <a name="extractpatchheadertofileaw-function"></a>ExtractPatchHeaderToFileA/W 函數
 

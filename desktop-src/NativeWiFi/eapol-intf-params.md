@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - wzcsapi.h
-ms.openlocfilehash: dd9e0664fe41b471162beccd31bf2c22fbfa1640
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3359454196735b8100ea40a9b4add2e8e0398c336bf254eb507b0a4e63a86e1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685238"
 ---
 # <a name="eapol_intf_params-structure"></a>EAPOL \_ INTF \_ PARAMS 結構
 
-\[**EAPOL \_Windows \_** Vista 和 windows Server 2008 已不再支援 INTF 參數。 相反地，請使用 [原生 WIFI API](native-wifi-reference.md)，它會提供類似的功能。 如需詳細資訊，請參閱 [關於原生 WIFI API](about-the-native-wifi-api.md)。\]
+\[**EAPOL \_Windows \_** Vista 和 Windows Server 2008 已不再支援 INTF 參數。 相反地，請使用 [原生 WIFI API](native-wifi-reference.md)，它會提供類似的功能。 如需詳細資訊，請參閱 [關於原生 WIFI API](about-the-native-wifi-api.md)。\]
 
 包含 EAPOL 設定參數。
 
@@ -98,9 +98,9 @@ Windows SDK 不提供標頭檔 wzcsapi。
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/>                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
-| 用戶端支援結束<br/>    | Windows XP （含 SP3）<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/>                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
+| 用戶端支援結束<br/>    | WindowsXP SP3<br/>                                                       |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Wzcsapi。h</dt> </dl> |
 

@@ -37,12 +37,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ce24bc7efc501afb08a906f066bebcb370a16cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa7f3c6444aa931c733ffe95c3cfbc3d508000f0b4ff1917192874da7bfa8582
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119543008"
 ---
 # <a name="toolbar-control-and-button-styles"></a>Toolbar 控制項和按鈕樣式
 

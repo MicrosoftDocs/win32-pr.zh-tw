@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c91f7ce8c92e8a81437d90bb0d80383b9ad334ee
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 17c51a0805fefe9dbb8ddbeca3da89e3f5b3e66714b562af57cebc7975875cda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544418"
 ---
 # <a name="ms-ds-spn-suffixes-attribute"></a>ms DS-SPN-尾碼屬性
 

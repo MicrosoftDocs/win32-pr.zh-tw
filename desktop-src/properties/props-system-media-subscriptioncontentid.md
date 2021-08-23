@@ -4,16 +4,16 @@ ms.assetid: c55647d8-0e6e-4da5-a822-3a91fba179ea
 title: SubscriptionContentId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36321c4552f7f35de0580bec27d7378518c80dad
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b4a4390ea6328a5ce7c7331793692014c232025e1fb98f2b0a6e4dbb54485ded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597498"
 ---
 # <a name="systemmediasubscriptioncontentid"></a>SubscriptionContentId
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

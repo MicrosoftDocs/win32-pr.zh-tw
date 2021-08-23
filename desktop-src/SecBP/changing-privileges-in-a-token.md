@@ -4,12 +4,12 @@ ms.assetid: b8e47d04-07c1-4d57-8209-6b0c397476e5
 title: 變更權杖中的許可權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a8b77d966acf90db101269b77a767550bcae3ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c511ca66c5d4739057f5ea75cae589ee97e849f659002a612e7d22fd6be8eecb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622748"
 ---
 # <a name="changing-privileges-in-a-token"></a>變更權杖中的許可權
 

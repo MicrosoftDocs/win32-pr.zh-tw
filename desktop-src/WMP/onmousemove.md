@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d18dcbfee95b1e8c96c3074efe41ae3769b8e1a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5dcb53be16f2a3422e88328561f9cb2a9613b1ee3860ad8a23cf922d01afd9aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647018"
 ---
 # <a name="onmousemove"></a>onmousemove
 

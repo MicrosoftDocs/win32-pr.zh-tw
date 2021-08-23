@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e5e080b4531d05160bebd42a68145842c4783bea
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bca2231f36c3d37f58bb740ddf55132d1c63babba6054629b2a76cc5d7866646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687218"
 ---
 # <a name="ctransforminputpinendflush-method"></a>CTransformInputPin. EndFlush 方法
 
@@ -46,7 +46,7 @@ HRESULT EndFlush();
 
 
 
-| 傳回碼                                                                                           | Description                             |
+| 傳回碼                                                                                           | 描述                             |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>                     |
 | <dl> <dt>**VFW \_ E \_ 未 \_ 連線**</dt> </dl> | 輸出 pin 未連接。<br/> |

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7731a42c8e1317355b129acb6921676c0a33f4a3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b26d21f67496f345324efdca93dbf85e59947f1616e0c5620faead2807a6ed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647908"
 ---
 # <a name="mediacollectionadd-method"></a>MediaCollection 新增方法
 
@@ -63,7 +63,7 @@ retVal = MediaCollection.add(
 
 ## <a name="examples"></a>範例
 
-下列 Microsoft JScript 範例會將三個媒體物件新增至 Windows Media Player 媒體集合。 使用 ID = "Player" 建立 **player** 物件。
+下列 Microsoft JScript 範例將三個媒體物件新增至 Windows Media Player 媒體集合。 使用 ID = "Player" 建立 **player** 物件。
 
 
 ```JScript

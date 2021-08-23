@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101175
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d16e745213723663005a2379778937ac85a143f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4692bb786effae9fef0692e10095aeda89f2c9bf0c787ddd5c71162ba519e157
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104557558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622463"
 ---
 # <a name="esentbuffertoosmallexception-methods"></a>EsentBufferTooSmallException 方法
 

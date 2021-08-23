@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fa009faa0e21bcd3bc2e79d5b2b68775653d0dd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 43efe216755bb72e8733f86c94b4294270a02a02206c8f7c90c5a10251040561
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646519"
 ---
 # <a name="rpc-ns-codeset-attribute"></a>rpc-Ns-Codeset 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 71b89f87-43ba-41cd-a969-765d45da4ba4
 title: 文字格式類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4a8f05a0804569667a74c52392d322f3fed2818
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a77ef5e6948320deba8df992e2cf9447cbda82d6a20fc4329f97e761f425164
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626328"
 ---
 # <a name="text-format-types"></a>文字格式類型
 
@@ -19,7 +19,7 @@ ms.locfileid: "106976586"
 
 [任意文字](arbitrary-text-type.md)
 
-[Rtf](rtf-type.md)
+[RTF](rtf-type.md)
 
 [格式 化](formatted-type.md)
 

@@ -14,12 +14,12 @@ keywords:
 - 服務工作窗格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4f882e46a7252792db5b551b25869c7711f9d31
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d445e3fa5393dddb8e3dcc835317c8e5a284cb46f0a4a0e2b1f65fe2ea2d7b30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646508"
 ---
 # <a name="service-task-panes"></a>服務工作窗格
 
@@ -50,9 +50,9 @@ ms.locfileid: "104021594"
 [**適用于 Type 2 線上商店的 ServiceInfo 檔**](serviceinfo-document-for-a-type-2-online-store.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

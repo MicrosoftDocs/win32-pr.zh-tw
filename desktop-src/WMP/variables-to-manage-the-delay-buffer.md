@@ -13,12 +13,12 @@ keywords:
 - 緩衝區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09d7f9657d16d0805ff2fc85d2238635fbfa6e5e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5be71bc7f2ded34dcd5f29bc10ce01796b6498d36a9a194a48b0bfdec0e14662
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571738"
 ---
 # <a name="variables-to-manage-the-delay-buffer"></a>管理延遲緩衝區的變數
 
@@ -53,9 +53,9 @@ m_cbDelayBuffer = 0;
 [**使用串流資源**](working-with-streaming-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

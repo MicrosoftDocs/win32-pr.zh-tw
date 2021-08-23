@@ -26,12 +26,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0743fc2778b3ef693646327fe8206ebedcb89e81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e44d863e82cf126c62262a564e5bf8366fbe71dbb75cc6d47bd16634d798cfcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544538"
 ---
 # <a name="imagelistdrawflags"></a>IMAGELISTDRAWFLAGS
 
@@ -39,7 +39,7 @@ ms.locfileid: "103934201"
 
 
 
-| 常數/值                                                                                                                                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 常數/值                                                                                                                                                                                                                            | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="ILD_NORMAL"></span><span id="ild_normal"></span><dl> <dt>**I ... \_正常**</dt> <dt>0x00000000</dt> </dl>                      | 使用影像清單的背景色彩繪製影像。 如果背景色彩是 CLR \_ 無值，則會使用遮罩以透明的方式繪製影像。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="ILD_TRANSPARENT"></span><span id="ild_transparent"></span><dl> <dt>**I ... \_透明**</dt> <dt>0x00000001</dt> </dl>       | 使用遮罩以透明的方式繪製影像，不論背景色彩為何。 如果影像清單不包含遮罩，則此值沒有任何作用。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -55,7 +55,7 @@ ms.locfileid: "103934201"
 | <span id="ILD_PRESERVEALPHA"></span><span id="ild_preservealpha"></span><dl> <dt>**I ... \_PRESERVEALPHA**</dt> <dt>0x00001000</dt> </dl> | 保留目的地中的 Alpha 通道。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="ILD_SCALE"></span><span id="ild_scale"></span><dl> <dt>**I ... \_調整**</dt> <dt>0x00002000</dt> </dl>                         | 使影像縮放至 cx、cy 而不是裁剪。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <span id="ILD_DPISCALE"></span><span id="ild_dpiscale"></span><dl> <dt>**I ... \_DPISCALE**</dt> <dt>0x00004000</dt> </dl>                | 將影像縮放至顯示器的目前 DPI。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| <span id="ILD_ASYNC"></span><span id="ild_async"></span><dl> <dt>**I ... \_非同步**</dt> <dt>0x00008000</dt> </dl>                         | **Windows Vista （含）以後版本。** 如果映射可在快取中使用，請繪製影像。 請勿自動將其解壓縮。 呼叫的繪圖方法會將 E 暫止傳回 \_ 給呼叫的元件，然後再採取替代動作，例如，提供另一個影像並將背景工作排入佇列，以強制透過 [**FORCEIMAGEPRESENT**](/windows/desktop/api/Commoncontrols/nf-commoncontrols-iimagelist2-forceimagepresent) 使用 ILFIP ALWAYS 旗標來載入映射 \_ 。 I ... \_ ASYNC 旗標接著會防止解壓縮作業封鎖目前的執行緒，而且如果從使用者介面呼叫 draw 方法 (UI) 執行緒，就特別重要。<br/> |
+| <span id="ILD_ASYNC"></span><span id="ild_async"></span><dl> <dt>**I ... \_非同步**</dt> <dt>0x00008000</dt> </dl>                         | **WindowsVista 和更新版本。** 如果映射可在快取中使用，請繪製影像。 請勿自動將其解壓縮。 呼叫的繪圖方法會將 E 暫止傳回 \_ 給呼叫的元件，然後再採取替代動作，例如，提供另一個影像並將背景工作排入佇列，以強制透過 [**FORCEIMAGEPRESENT**](/windows/desktop/api/Commoncontrols/nf-commoncontrols-iimagelist2-forceimagepresent) 使用 ILFIP ALWAYS 旗標來載入映射 \_ 。 I ... \_ ASYNC 旗標接著會防止解壓縮作業封鎖目前的執行緒，而且如果從使用者介面呼叫 draw 方法 (UI) 執行緒，就特別重要。<br/> |
 
 
 
@@ -65,8 +65,8 @@ ms.locfileid: "103934201"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

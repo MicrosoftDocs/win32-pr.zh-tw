@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 205dc1ac05f5dca44297f8d80653ad51b7518d38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7958df7d153db0abafd8e463f22a181f2e5a639afa5c21cb7529a9cd5c005c5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511691"
 ---
 # <a name="islspreventupgradegpenabled-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 IsLSPreventUpgradeGPEnabled 方法 \_
 
@@ -62,7 +62,7 @@ uint32 IsLSPreventUpgradeGPEnabled(
 
 原則設定位於本機群組原則編輯器的下列節點中：
 
-電腦設定 \\ 系統管理範本 \\ Windows 元件 \\ 終端機服務 \\ TS 授權
+電腦配置 \\ 系統管理範本 \\ Windows 元件 \\ 終端機服務 \\ TS 授權
 
 受控物件格式 (MOF) 檔包含 Windows Management Instrumentation (WMI) 類別的定義。 MOF 檔案不會安裝為 Microsoft Windows 軟體開發套件 (SDK) 的一部分。 當您使用伺服器管理員新增相關聯的角色時，它們會安裝在伺服器上。 如需 MOF 檔案的詳細資訊，請參閱 [受控物件格式 (mof) ](/windows/desktop/WmiSdk/managed-object-format--mof-)。
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101075
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6190520bf228bf4b9839a607de7a9bd84d38c04a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d666a6695003b10b30628a0a1de9c09338154f7e2168d0ad9d29111e71cffa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622888"
 ---
 # <a name="esentbaditagsequenceexception-properties"></a>EsentBadItagSequenceException 屬性
 

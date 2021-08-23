@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbb4dae862db9fc363b22647bd5e56a98e9e60b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c8885a557e8fbec17d6d58d68fdea0f99039f0e09e34a8da01954dc7b4979fc3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645028"
 ---
 # <a name="title-attribute-ad-schema"></a>標題屬性 (AD 架構) 
 
@@ -58,7 +58,7 @@ ms.locfileid: "103845280"
 | 連結識別碼                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
 | System-Only            | 否                                                                                                                           |
-| 是-單一值       | 對                                                                                                                            |
+| 是-單一值       | 是                                                                                                                            |
 | 已編制索引             | 否                                                                                                                           |
 | 在通用類別目錄中      | 否                                                                                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                    |
@@ -79,7 +79,7 @@ ms.locfileid: "103845280"
 | 連結識別碼                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
 | System-Only            | 否                                                                                                                           |
-| 是-單一值       | 對                                                                                                                            |
+| 是-單一值       | 是                                                                                                                            |
 | 已編制索引             | 否                                                                                                                           |
 | 在通用類別目錄中      | 否                                                                                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                    |
@@ -100,7 +100,7 @@ ms.locfileid: "103845280"
 | 連結識別碼                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
 | System-Only            | 否                                                                                                                           |
-| 是-單一值       | 對                                                                                                                            |
+| 是-單一值       | 是                                                                                                                            |
 | 已編制索引             | 否                                                                                                                           |
 | 在通用類別目錄中      | 否                                                                                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                    |
@@ -121,7 +121,7 @@ ms.locfileid: "103845280"
 | 連結識別碼                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
 | System-Only            | 否                                                                                                                           |
-| 是-單一值       | 對                                                                                                                            |
+| 是-單一值       | 是                                                                                                                            |
 | 已編制索引             | 否                                                                                                                           |
 | 在通用類別目錄中      | 否                                                                                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                    |
@@ -142,7 +142,7 @@ ms.locfileid: "103845280"
 | 連結識別碼                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
 | System-Only            | 否                                                                                                                           |
-| 是-單一值       | 對                                                                                                                            |
+| 是-單一值       | 是                                                                                                                            |
 | 已編制索引             | 否                                                                                                                           |
 | 在通用類別目錄中      | 否                                                                                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                    |
@@ -163,7 +163,7 @@ ms.locfileid: "103845280"
 | 連結識別碼                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
 | System-Only            | 否                                                                                                                           |
-| 是-單一值       | 對                                                                                                                            |
+| 是-單一值       | 是                                                                                                                            |
 | 已編制索引             | 否                                                                                                                           |
 | 在通用類別目錄中      | 否                                                                                                                           |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                    |

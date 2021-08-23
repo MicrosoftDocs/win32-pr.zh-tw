@@ -3,7 +3,7 @@ title: 'WM_CAP_PAL_PASTE 訊息 (Vfw .h) '
 description: WM \_ CAP \_ PAL \_ 貼上訊息會從剪貼簿複製元件，並將它傳遞至 capture 驅動程式。 您可以使用 capPalettePaste 宏明確地傳送此訊息。
 ms.assetid: d49c7fd9-be40-4a07-8339-b85f7c4c331e
 keywords:
-- WM_CAP_PAL_PASTE message Windows 多媒體
+- WM_CAP_PAL_PASTE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3daf88c69edbb8bad6257456b95a86c8a68df328
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7bedb760a444abe9b0667592855d701dc24a02b8ee57ea15ab30912a5e216d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686828"
 ---
 # <a name="wm_cap_pal_paste-message"></a>WM \_ CAP \_ PAL \_ 貼上訊息
 

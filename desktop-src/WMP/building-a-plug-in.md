@@ -9,12 +9,12 @@ keywords:
 - 建立外掛程式，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ccad3f252d8166795d5aafe5f5f11f64557a2ab
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 075716d31d83f58d0fb921efd926fe2557b7344a7807e257bc9c86666e74cf0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573418"
 ---
 # <a name="building-a-plug-in"></a>建立外掛程式
 
@@ -29,18 +29,18 @@ Windows Media Player SDK 包含一個外掛程式嚮導，您可用來建立數�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[Windows Media Player 外掛程式](windows-media-player-plug-ins.md)
+[Windows Media Player外掛程式](windows-media-player-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

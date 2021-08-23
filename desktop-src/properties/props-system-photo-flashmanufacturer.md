@@ -4,18 +4,18 @@ ms.assetid: f95042dc-abc5-4851-9703-5f79dc7edb2f
 title: FlashManufacturer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a49b95cac839fad25696f7d3d0e4866236dd1fa1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63fdfec257a11bb3555e8a4944317e5c2beb88a7d0063dfeee3da3da797ea918
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119595428"
 ---
 # <a name="systemphotoflashmanufacturer"></a>FlashManufacturer
 
 字串，表示用來拍攝圖片的閃光燈製造商。 可以空白或不存在。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

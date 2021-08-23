@@ -131,12 +131,12 @@ api_type:
 - DllExport
 api_location:
 - openCL.dll
-ms.openlocfilehash: 4a904c3ec1d251c52849c09014a83383fa58eb2b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e557fe0ad8f278954309d632bddcffc7792e5a5c21615bfed55f87b201429d75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572098"
 ---
 # <a name="opencl"></a>OpenCL
 

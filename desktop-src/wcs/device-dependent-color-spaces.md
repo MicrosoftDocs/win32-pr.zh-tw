@@ -3,8 +3,8 @@ title: Device-Dependent 色彩空間
 description: 大部分的色彩空間都與裝置相依。
 ms.assetid: 657ec64b-8605-4d05-a7d6-9f8bb71e6a71
 keywords:
-- Windows Color System (WCS) 、裝置相關的色彩空間
-- WCS (Windows 色彩系統) ，與裝置相關的色彩空間
+- Windows色彩系統 (WCS) 、裝置相關的色彩空間
+- WCS (Windows 色彩系統) 、裝置相關的色彩空間
 - 影像色彩管理、裝置相關的色彩空間
 - 色彩管理、裝置相關的色彩空間
 - 色彩、裝置相關的色彩空間
@@ -15,12 +15,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22a1523ee6ba81dcdc3b69a468546871cfd21913
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: fe10ad9d48e750f9869b113a45f1235d2aa692532702ea4443ec3629d32276ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106986421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593618"
 ---
 # <a name="device-dependent-color-spaces"></a>Device-Dependent 色彩空間
 

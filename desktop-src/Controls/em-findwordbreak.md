@@ -3,7 +3,7 @@ title: 'EM_FINDWORDBREAK 訊息 (Richedit .h) '
 description: 尋找指定字元位置之前或之後的下一個字組，或抓取位於該位置之字元的相關資訊。
 ms.assetid: b5df1365-4672-4c82-8ae4-ebf8b60bf871
 keywords:
-- EM_FINDWORDBREAK message Windows 控制項
+- EM_FINDWORDBREAK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6533358c0f4f521bc7021e290dfe11d66d4499e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8eaa2a58c8af1181ca22ddd767392749b2c838238e933c52a96268542be0240
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541138"
 ---
 # <a name="em_findwordbreak-message"></a>EM \_ FINDWORDBREAK 訊息
 
@@ -66,12 +66,12 @@ ms.locfileid: "104465577"
 
 
 
-| 傳回碼                                                                                    | Description                                                                                                            |
+| 傳回碼                                                                                    | 描述                                                                                                            |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**wParam**</dt> </dl>          | 傳回值<br/>                                                                                                |
 | <dl> <dt>**WB \_ 分類**</dt> </dl>    | 傳回字元類別和字元在指定位置的斷詞旗標。<br/>                |
 | <dl> <dt>**WB \_ ISDELIMITER**</dt> </dl> | 如果指定位置的字元是分隔符號，則傳回 **TRUE** ;否則會傳回 **FALSE**。<br/> |
-| <dl> <dt>**其他**</dt> </dl>          | 傳回斷字的字元索引。<br/>                                                              |
+| <dl> <dt>**別人**</dt> </dl>          | 傳回斷字的字元索引。<br/>                                                              |
 
 
 
@@ -89,8 +89,8 @@ ms.locfileid: "104465577"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

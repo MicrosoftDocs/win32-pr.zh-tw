@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: add72c6a4ebf062015003455f0c03a7f19c23e1c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 20364f97704dcd52c764b73b4f7e81dcbd0fc4233651a8ea47783b0209b39092
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549188"
 ---
 # <a name="sam-domain-class"></a>Sam-Domain 類別
 
@@ -112,7 +112,7 @@ ms.locfileid: "104106745"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**GP-連結**](a-gplink.md)                                               | 否     | **Sam-網域**                                                                        |
 | [**GP-選項**](a-gpoptions.md)                                         | 否     | **Sam-網域**                                                                        |
-| [**實例類型**](a-instancetype.md)                                   | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**實例類型**](a-instancetype.md)                                   | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)             | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**已刪除**](a-isdeleted.md)                                         | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**是-DL 的成員**](a-memberof.md)                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -139,10 +139,10 @@ ms.locfileid: "104106745"
 | [**下一步-Rid**](a-nextrid.md)                                             | 否     | **Sam-網域** [ **sam-網域-基礎**](c-samdomainbase.md)<br/>                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                   | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**NT-混合網域**](a-ntmixeddomain.md)                                | 否     | **Sam-網域**                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 對      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                  | 是      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                              | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件-類別**](a-objectcategory.md)                               | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件類別**](a-objectclass.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件-類別**](a-objectcategory.md)                               | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件類別**](a-objectclass.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件-Guid**](a-objectguid.md)                                       | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件 Sid**](a-objectsid.md)                                         | 否     | [**Sam-網域-基礎**](c-samdomainbase.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -217,7 +217,7 @@ ms.locfileid: "104106745"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -260,7 +260,7 @@ ms.locfileid: "104106745"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**GP-連結**](a-gplink.md)                                                         | 否     | **Sam-網域**                                                                        |
 | [**GP-選項**](a-gpoptions.md)                                                   | 否     | **Sam-網域**                                                                        |
-| [**實例類型**](a-instancetype.md)                                             | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**實例類型**](a-instancetype.md)                                             | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**已刪除**](a-isdeleted.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**是-DL 的成員**](a-memberof.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -308,10 +308,10 @@ ms.locfileid: "104106745"
 | [**下一步-Rid**](a-nextrid.md)                                                       | 否     | **Sam-網域** [ **sam-網域-基礎**](c-samdomainbase.md)<br/>                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**NT-混合網域**](a-ntmixeddomain.md)                                          | 否     | **Sam-網域**                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                            | 對      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                            | 是      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件-類別**](a-objectcategory.md)                                         | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件類別**](a-objectclass.md)                                               | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件-類別**](a-objectcategory.md)                                         | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件類別**](a-objectclass.md)                                               | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件-Guid**](a-objectguid.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件 Sid**](a-objectsid.md)                                                   | 否     | [**Sam-網域-基礎**](c-samdomainbase.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -387,7 +387,7 @@ ms.locfileid: "104106745"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -430,7 +430,7 @@ ms.locfileid: "104106745"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**GP-連結**](a-gplink.md)                                                         | 否     | **Sam-網域**                                                                        |
 | [**GP-選項**](a-gpoptions.md)                                                   | 否     | **Sam-網域**                                                                        |
-| [**實例類型**](a-instancetype.md)                                             | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**實例類型**](a-instancetype.md)                                             | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**已刪除**](a-isdeleted.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**是-DL 的成員**](a-memberof.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -481,10 +481,10 @@ ms.locfileid: "104106745"
 | [**下一步-Rid**](a-nextrid.md)                                                       | 否     | **Sam-網域** [ **sam-網域-基礎**](c-samdomainbase.md)<br/>                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**NT-混合網域**](a-ntmixeddomain.md)                                          | 否     | **Sam-網域**                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                            | 對      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                            | 是      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件-類別**](a-objectcategory.md)                                         | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件類別**](a-objectclass.md)                                               | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件-類別**](a-objectcategory.md)                                         | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件類別**](a-objectclass.md)                                               | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件-Guid**](a-objectguid.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件 Sid**](a-objectsid.md)                                                   | 否     | [**Sam-網域-基礎**](c-samdomainbase.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -560,7 +560,7 @@ ms.locfileid: "104106745"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -603,7 +603,7 @@ ms.locfileid: "104106745"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**GP-連結**](a-gplink.md)                                                         | 否     | **Sam-網域**                                                                        |
 | [**GP-選項**](a-gpoptions.md)                                                   | 否     | **Sam-網域**                                                                        |
-| [**實例類型**](a-instancetype.md)                                             | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**實例類型**](a-instancetype.md)                                             | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**已刪除**](a-isdeleted.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**是-DL 的成員**](a-memberof.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -665,10 +665,10 @@ ms.locfileid: "104106745"
 | [**下一步-Rid**](a-nextrid.md)                                                       | 否     | **Sam-網域** [ **sam-網域-基礎**](c-samdomainbase.md)<br/>                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**NT-混合網域**](a-ntmixeddomain.md)                                          | 否     | **Sam-網域**                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                            | 對      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                            | 是      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件-類別**](a-objectcategory.md)                                         | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件類別**](a-objectclass.md)                                               | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件-類別**](a-objectcategory.md)                                         | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件類別**](a-objectclass.md)                                               | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件-Guid**](a-objectguid.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件 Sid**](a-objectsid.md)                                                   | 否     | [**Sam-網域-基礎**](c-samdomainbase.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -744,7 +744,7 @@ ms.locfileid: "104106745"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -787,7 +787,7 @@ ms.locfileid: "104106745"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**GP-連結**](a-gplink.md)                                                         | 否     | **Sam-網域**                                                                        |
 | [**GP-選項**](a-gpoptions.md)                                                   | 否     | **Sam-網域**                                                                        |
-| [**實例類型**](a-instancetype.md)                                             | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**實例類型**](a-instancetype.md)                                             | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                       | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**已刪除**](a-isdeleted.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**是-DL 的成員**](a-memberof.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -856,10 +856,10 @@ ms.locfileid: "104106745"
 | [**下一步-Rid**](a-nextrid.md)                                                       | 否     | **Sam-網域** [ **sam-網域-基礎**](c-samdomainbase.md)<br/>                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                             | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**NT-混合網域**](a-ntmixeddomain.md)                                          | 否     | **Sam-網域**                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                            | 對      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                            | 是      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件-類別**](a-objectcategory.md)                                         | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件類別**](a-objectclass.md)                                               | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件-類別**](a-objectcategory.md)                                         | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件類別**](a-objectclass.md)                                               | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件-Guid**](a-objectguid.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件 Sid**](a-objectsid.md)                                                   | 否     | [**Sam-網域-基礎**](c-samdomainbase.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                           | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -935,9 +935,9 @@ ms.locfileid: "104106745"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -978,7 +978,7 @@ ms.locfileid: "104106745"
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**GP-連結**](a-gplink.md)                                                                  | 否     | **Sam-網域**                                                                        |
 | [**GP-選項**](a-gpoptions.md)                                                            | 否     | **Sam-網域**                                                                        |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**是-DL 的成員**](a-memberof.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -1043,7 +1043,7 @@ ms.locfileid: "104106745"
 | [**ms-DS-Revealed-List-BL**](a-msds-revealedlistbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
@@ -1053,10 +1053,10 @@ ms.locfileid: "104106745"
 | [**下一步-Rid**](a-nextrid.md)                                                                | 否     | **Sam-網域** [ **sam-網域-基礎**](c-samdomainbase.md)<br/>                  |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**NT-混合網域**](a-ntmixeddomain.md)                                                   | 否     | **Sam-網域**                                                                        |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> [**Sam-網域-基礎**](c-samdomainbase.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                       |
 | [**物件 Sid**](a-objectsid.md)                                                            | 否     | [**Sam-網域-基礎**](c-samdomainbase.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                       |

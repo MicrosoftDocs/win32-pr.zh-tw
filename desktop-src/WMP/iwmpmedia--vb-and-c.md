@@ -1,5 +1,5 @@
 ---
-title: 'IWMPMedia (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPMedia (VB 和 C ) 介面 (Wmp. h) '
 description: 提供一種方式來設定和取出媒體專案的屬性。IWMPMedia 介面會公開下列屬性。
 ms.assetid: 4f67336e-d1d3-4f18-b063-086edf9d9094
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c60a3396710ea4c426bd41c96db34e1e59cc690
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8d36fc2a7c4f65856b68c00147e32f9b3af4cc3e649a9717e7734583d4516b44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572458"
 ---
 # <a name="iwmpmedia-vb-and-c-interface"></a>IWMPMedia (VB 和 c # ) 介面
 
@@ -62,7 +62,7 @@ ms.locfileid: "106980163"
 
 
 
-| 屬性                                                                                      | 存取類型          | Description                                                                                                                                          |
+| 屬性                                                                                      | 存取類型          | 描述                                                                                                                                          |
 |:----------------------------------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attributeCount**](wmplibiwmpmedia-iwmpmedia-attributecount--vb-and-c.md)<br/>       | 唯讀<br/> | 取得可針對媒體專案查詢及/或設定的屬性數目。<br/>                                                          |
 | [**時間**](wmplibiwmpmedia-iwmpmedia-duration--vb-and-c.md)<br/>                   | 唯讀<br/> | 取得目前媒體專案的持續時間（以秒為單位）。<br/>                                                                                   |
@@ -106,7 +106,7 @@ ms.locfileid: "106980163"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPMedia2 介面 (VB 和 c # )**](iwmpmedia2--vb-and-c.md)

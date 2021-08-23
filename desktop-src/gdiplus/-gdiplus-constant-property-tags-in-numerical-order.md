@@ -1,19 +1,19 @@
 ---
-description: 下表依數位順序列出 Windows GDI + 影像屬性標記。
+description: 下表列出 Windows 的 GDI+ 影像屬性標記（依數位順序排列）。
 ms.assetid: 44417090-a468-47c9-996c-bc7629a6e53f
 title: 以數位順序排序的屬性標記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fee3f21a67bf21b86014c5bfc50527ada1d9790
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46d4a03a97159cb40262da6e4ccf3c84fb5cc1253cc3d5bdf5a4729c5b3f113f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666358"
 ---
 # <a name="property-tags-in-numerical-order"></a>以數位順序排序的屬性標記
 
-下表依數位順序列出 Windows GDI + 影像屬性標記。
+下表列出 Windows 的 GDI+ 影像屬性標記（依數位順序排列）。
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "104991383"
 | [PropertyTagCellHeight](-gdiplus-constant-property-item-descriptions.md)                                         | 0x0109 |
 | [PropertyTagFillOrder](-gdiplus-constant-property-item-descriptions.md)                                           | 0x010A |
 | [PropertyTagDocumentName](-gdiplus-constant-property-item-descriptions.md)                                     | 0x010D |
-| [PropertyTagImageDescription](-gdiplus-constant-property-item-descriptions.md)                             | 0x010E |
+| [PropertyTagImageDescription](-gdiplus-constant-property-item-descriptions.md)                             | 0x000d |
 | [PropertyTagEquipMake](-gdiplus-constant-property-item-descriptions.md)                                           | 0x010F |
 | [PropertyTagEquipModel](-gdiplus-constant-property-item-descriptions.md)                                         | 0x0110 |
 | [PropertyTagStripOffsets](-gdiplus-constant-property-item-descriptions.md)                                     | 0x0111 |
@@ -69,8 +69,8 @@ ms.locfileid: "104991383"
 | [PropertyTagMinSampleValue](-gdiplus-constant-property-item-descriptions.md)                                 | 0x0118 |
 | [PropertyTagMaxSampleValue](-gdiplus-constant-property-item-descriptions.md)                                 | 0x0119 |
 | [PropertyTagXResolution](-gdiplus-constant-property-item-descriptions.md)                                       | 0x011A |
-| [PropertyTagYResolution](-gdiplus-constant-property-item-descriptions.md)                                       | 0x011B |
-| [PropertyTagPlanarConfig](-gdiplus-constant-property-item-descriptions.md)                                     | 0x011C |
+| [PropertyTagYResolution](-gdiplus-constant-property-item-descriptions.md)                                       | 0x001c |
+| [PropertyTagPlanarConfig](-gdiplus-constant-property-item-descriptions.md)                                     | 0x001b |
 | [PropertyTagPageName](-gdiplus-constant-property-item-descriptions.md)                                             | 0x011D |
 | [PropertyTagXPosition](-gdiplus-constant-property-item-descriptions.md)                                           | 0x011E |
 | [PropertyTagYPosition](-gdiplus-constant-property-item-descriptions.md)                                           | 0x011F |

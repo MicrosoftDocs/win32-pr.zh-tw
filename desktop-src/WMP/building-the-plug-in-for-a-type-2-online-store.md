@@ -20,24 +20,24 @@ keywords:
 - 建立外掛程式，輸入2個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6911813fcdba56c9e1c5ee6fa9c072b4d610ef8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f4462e6a29c694428a70cd4d3720f7df3036f371a641d9c183d5ef64824994c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573344"
 ---
 # <a name="building-the-plug-in-for-a-type-2-online-store"></a>建立 Type 2 線上商店的外掛程式
 
-您可以使用線上商店外掛程式嚮導來建立 type 2 online store 外掛程式。 專案嚮導隨附于 Windows Media Player SDK，這是 Windows SDK 的一部分。 Wizard 是 Microsoft Visual Studio 的增益集，可建立 c + + 專案並產生範例程式碼，您可以使用此程式碼做為開發您自己的線上商店的起點。
+您可以使用線上商店外掛程式嚮導來建立 type 2 online store 外掛程式。 專案嚮導隨附于 Windows Media Player SDK，這是 Windows SDK 的一部分。 wizard 是 Microsoft Visual Studio 的增益集，可建立 c + + 專案並產生範例程式碼，您可以使用此程式碼做為開發您自己的線上商店的起點。
 
 下列主題說明如何使用線上商店外掛程式 wizard：
 
--   [安裝專案嚮導](installing-the-project-wizard.md)
--   [建立範例專案](creating-a-sample-project.md)
--   [編譯範例專案](compiling-the-sample-project.md)
--   [執行範例專案](running-the-sample-project.md)
--   [自訂範例專案](customizing-the-sample-project.md)
+-   [安裝 Project Wizard](installing-the-project-wizard.md)
+-   [建立範例 Project](creating-a-sample-project.md)
+-   [編譯範例 Project](compiling-the-sample-project.md)
+-   [執行範例 Project](running-the-sample-project.md)
+-   [自訂範例 Project](customizing-the-sample-project.md)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -46,9 +46,9 @@ ms.locfileid: "104183396"
 [**Type 2 線上商店的程式設計指南**](programming-guide-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

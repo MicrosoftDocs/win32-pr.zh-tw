@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f545953899883933286f3c38def62d9f254dfdc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63dcb4c0062acbd5f457cd09b9c1370ff9c4f7683fd8758a4a64ce5f510a6948
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647838"
 ---
 # <a name="mediacollectionsetdeleted-method"></a>MediaCollection. setDeleted 方法
 
@@ -100,7 +100,7 @@ else
 
 | 需求 | 值 |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 的 Windows Media Player 7.0 版、Windows Media Player 7.1 版或 Windows Media Player。 Windows Media Player 9 系列或更新版本不支援這個方法。<br/> |
+| 版本<br/> | Windows XP Windows Media Player 版本7.0、Windows Media Player 7.1 版或 Windows Media Player。 Windows Media Player 9 系列或更新版本不支援這個方法。<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                                                                                              |
 
 

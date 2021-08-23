@@ -4,18 +4,18 @@ ms.assetid: 3c257edc-b7f7-498d-8347-0be4fca41023
 title: System. ItemNamePrefix
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf669dd867c8cf60046f226e33dae18f46060cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd7830f63c3e9e0f6026099c95d11820a1d8592928cece72ebe72d76936d8467
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598458"
 ---
 # <a name="systemitemnameprefix"></a>System. ItemNamePrefix
 
 專案的前置詞，用於主體開頭為 "Re：" 前置詞的電子郵件訊息。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

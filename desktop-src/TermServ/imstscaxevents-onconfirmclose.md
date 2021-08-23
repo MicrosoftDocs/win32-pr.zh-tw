@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 623196033e23a964857a6a604c7eca3904f32c60
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2effd50552ab227e8e065844b8b19da0e022f6b8e36d1d86701ad0614b821126
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512468"
 ---
 # <a name="imstscaxeventsonconfirmclose-method"></a>IMsTscAxEvents：： OnConfirmClose 方法
 

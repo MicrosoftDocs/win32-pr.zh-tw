@@ -16,17 +16,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9c1bcd97ae2137ea66d215d3c17a314194d9e99
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aba3598912ad548677da789b7bbdc730396e5881e0ac0670819c9db59136fa95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665788"
 ---
 # <a name="iresultsviewerupdate-method"></a>IResultsViewer：： Update 方法
 
 > [!NOTE]
-> Windows Desktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集形式提供。 在更新版本中，請改用 [WINDOWS SEARCH API](../search/-search-reference-entry-page.md) 。 
+> WindowsDesktop Search 2.x 是一種淘汰的技術，最初是以 Windows XP 和 Windows Server 2003 的增益集的形式提供。 在更新版本中，請改用[Windows Search API](../search/-search-reference-entry-page.md) 。 
 
 套用任何查詢變更，並將視圖導覽至新的結果集。
 
@@ -54,7 +54,7 @@ void Update();
 | 需求 | 值 |
 |-------------------|----------------------------------------------------------------------------------------|
 | 標頭<br/> | <dl> <dt>WdsView。h</dt> </dl>   |
-| Idl<br/>    | <dl> <dt>WdsView .idl</dt> </dl> |
+| IDL<br/>    | <dl> <dt>WdsView .idl</dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: 'HDM_GETIMAGELIST 訊息 (Commctrl .h) '
 description: 取得已針對現有標題控制項設定之影像清單的控制碼。 您可以明確地傳送此訊息，或使用標頭 \_ GetImageList 或標頭 \_ GetStateImageList 宏。
 ms.assetid: 3e1a979c-60c5-4538-bd4d-16238829062e
 keywords:
-- HDM_GETIMAGELIST message Windows 控制項
+- HDM_GETIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e199d603af873f1957d33855ccf5c59a90a4002
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8149dd4914ceb1835e9e04442492855e9c25340604ed4e4eeb2619c62b88e69f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540908"
 ---
 # <a name="hdm_getimagelist-message"></a>HDM \_ GETIMAGELIST 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103686102"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

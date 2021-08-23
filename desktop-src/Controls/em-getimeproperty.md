@@ -3,7 +3,7 @@ title: 'EM_GETIMEPROPERTY 訊息 (Richedit .h) '
 description: 抓取輸入方法編輯器的屬性和功能 (IME) 與目前的輸入地區設定相關聯。
 ms.assetid: 0cbe52d4-c3e7-40bd-a6f6-da0a11056976
 keywords:
-- EM_GETIMEPROPERTY message Windows 控制項
+- EM_GETIMEPROPERTY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94c081aa99c99f4cd0995c0f9d2f5256e2958dc6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b96ad255d9d68cc76869b6f9163aedf549da19ff0c3ddba756f8da42267135c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541108"
 ---
 # <a name="em_getimeproperty-message"></a>EM \_ GETIMEPROPERTY 訊息
 
@@ -130,7 +130,7 @@ ms.locfileid: "104105125"
 | 需求 | 值 |
 |--------------|---------------------------------------------|
 | IMEVER \_ 0310 | 已針對 Windows 3.1 建立 IME。        |
-| IMEVER \_ 0400 | 為 Windows 95 或更新版本建立的 IME |
+| IMEVER \_ 0400 | 已針對 Windows 95 或更新版本建立 IME |
 
 
 
@@ -144,8 +144,8 @@ ms.locfileid: "104105125"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 111d1281-ad83-49bc-868c-1106a0e25a2a
 title: 停止服務以供要求者還原
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 548af25a4b4550d35a8e6fa4d4c0e791897b6e0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaa8051fc20c5ba1bd930da8c7da5c40829c07772572c2b1fb795250d34b8c92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511618"
 ---
 # <a name="stopping-services-for-restore-by-requesters"></a>停止服務以供要求者還原
 

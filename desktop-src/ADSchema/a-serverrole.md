@@ -1,6 +1,6 @@
 ---
 title: Server-Role 屬性
-description: 相容于 Windows 2000 之前的伺服器伺服器。 執行 Windows NT Server 的電腦可以是獨立伺服器、主域控制站 (PDC) ，或 (BDC) 的備份網域控制站。
+description: 與預先 Windows 的2000伺服器伺服器相容。 執行 Windows NT Server 的電腦可以是獨立伺服器、主域控制站 (PDC) ，或 (BDC) 的備份網域控制站。
 ms.assetid: 0c2e5b18-14ad-4f77-a62c-eeb95aabbb99
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58a127a94cd1ecc2bfce3701c11ee2a5e0c2376c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4e46345362e78590cd50e75e2ea592f55f3bda2db96c4c412c85afccc5eb6f2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106976989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646118"
 ---
 # <a name="server-role-attribute"></a>Server-Role 屬性
 
-相容于 Windows 2000 之前的伺服器伺服器。 執行 Windows NT Server 的電腦可以是獨立伺服器、主域控制站 (PDC) ，或 (BDC) 的備份網域控制站。
+與預先 Windows 的2000伺服器伺服器相容。 執行 Windows NT Server 的電腦可以是獨立伺服器、主域控制站 (PDC) ，或 (BDC) 的備份網域控制站。
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "106976989"
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -79,7 +79,7 @@ ms.locfileid: "106976989"
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -100,7 +100,7 @@ ms.locfileid: "106976989"
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -121,7 +121,7 @@ ms.locfileid: "106976989"
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -142,7 +142,7 @@ ms.locfileid: "106976989"
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |
@@ -163,7 +163,7 @@ ms.locfileid: "106976989"
 | 連結識別碼                | \-                                                    |
 | MAPI-Id                | \-                                                    |
 | System-Only            | 否                                                 |
-| 是-單一值       | 對                                                  |
+| 是-單一值       | 是                                                  |
 | 已編制索引             | 否                                                 |
 | 在通用類別目錄中      | 否                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                          |

@@ -4,16 +4,16 @@ ms.assetid: 2332e3cc-087c-49cf-bde9-7f86f65158e7
 title: 正在抓取裝置所支援的轉譯功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 523f1f9bbcaefe1c502c7c74252582fddcadad4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5b5e4fd09417585954ae205fc28fc8cf0e78ab02fdd3add616859b35b4237ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546228"
 ---
 # <a name="retrieving-the-rendering-capabilities-supported-by-a-device"></a>正在抓取裝置所支援的轉譯功能
 
-支援轉譯資訊功能類別目錄 (WPD 功能類別轉譯資訊的 Windows 可攜式裝置 \_ \_ \_ \_) 會在查詢時傳回轉譯資訊。 轉譯資訊描述在嘗試將內容寫入至裝置的應用程式上所強加的需求和限制。
+Windows支援轉譯資訊功能類別目錄 (WPD 功能類別轉譯資訊的可攜式裝置 \_ \_ \_ \_) 會在查詢時傳回轉譯資訊。 轉譯資訊描述在嘗試將內容寫入至裝置的應用程式上所強加的需求和限制。
 
 ListRenderingCapabilityInformation 函式、SupportsFunctionalCategory helper 函式和 DeviceCapabilities 中的 ReadProfileInformationProperties helper 函數會示範如何抓取所選裝置的轉譯功能。
 

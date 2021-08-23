@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5d2324b4e1e06650f2eed7b63337f2bd48520498
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 37b1e33ccb92b2d46effa9f0575f0331fa064e79d172715b8746355d5e99d2b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622268"
 ---
 # <a name="keyusage-object"></a>KeyUsage 物件
 
@@ -38,7 +38,7 @@ ms.locfileid: "106999066"
 
 
 
-| 屬性                                                                           | 存取類型          | Description                                                                                                                                 |
+| 屬性                                                                           | 存取類型          | 描述                                                                                                                                 |
 |:-----------------------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IsCritical**](keyusage-iscritical.md)<br/>                               | 唯讀<br/> | 抓取布林值，指出 **KeyUsage** 延伸模組是否標記為重大。<br/>                                  |
 | [**IsCRLSignEnabled**](keyusage-iscrlsignenabled.md)<br/>                   | 唯讀<br/> | 抓取布林值，指出是否已設定 CRLSign 位。<br/>                                                         |

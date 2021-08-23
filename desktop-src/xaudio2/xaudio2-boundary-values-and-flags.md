@@ -4,12 +4,12 @@ ms.assetid: 074ac40e-a17e-7366-1954-6699407b82f7
 title: 'XAudio2 界限值和旗標 (Xaudio2 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe59f229ea406eb5bf6c6b3f5c124d6d0d19c047
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 198fae838e8c990f3d1aaebf58bb79fb6e75e79623b6b44ff6b05231d10676c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545458"
 ---
 # <a name="xaudio2-boundary-values-and-flags"></a>XAudio2 界限值和旗標
 
@@ -141,7 +141,7 @@ Windows 8 或 Windows 10 不支援此旗標。
 
 ### <a name="platform-requirements"></a>平台需求
 
-Windows 10 (XAudio 2.9) ;Windows 8、Windows Phone 8 (XAudio 2.8) ;DirectX SDK (XAudio 2.7) 
+Windows 10 (xaudio 2.9) ;Windows 8、Windows Phone 8 (XAudio 2.8) ;DirectX SDK (XAudio 2.7) 
 
 ## <a name="requirements"></a>規格需求
 

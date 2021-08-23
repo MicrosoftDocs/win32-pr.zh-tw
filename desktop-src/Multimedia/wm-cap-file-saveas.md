@@ -3,7 +3,7 @@ title: 'WM_CAP_FILE_SAVEAS 訊息 (Vfw .h) '
 description: WM \_ CAP 檔案 \_ 的 \_ SAVEAS 訊息會將 capture 檔案的內容複寫到另一個檔案。 您可以使用 capFileSaveAs 宏明確地傳送此訊息。
 ms.assetid: fab37bee-3160-4ebc-b58f-46021ed49b55
 keywords:
-- WM_CAP_FILE_SAVEAS message Windows 多媒體
+- WM_CAP_FILE_SAVEAS 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aca099fefab7ca0f4ef391b1b65e89938a947a01
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a200b8e73d81072961ec4e6aa7c8e1dd989bf2d8c3e0480c75908a8761ee93b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687008"
 ---
 # <a name="wm_cap_file_saveas-message"></a>WM \_ CAP \_ FILE \_ SAVEAS 訊息
 

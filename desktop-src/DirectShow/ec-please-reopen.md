@@ -4,12 +4,12 @@ ms.assetid: f99df68f-d7e8-4dbf-b958-84fe3f0821f0
 title: 'EC_PLEASE_REOPEN (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1c02b1a945a773717f1dd1f1cfe237b764faa09
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: efafbcd441dc62b48612e325a3520f9b3cfbdeb9b3b4d5b11144e12f9f22acd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686178"
 ---
 # <a name="ec_please_reopen"></a>EC \_ 請 \_ 重新開啟
 
@@ -39,7 +39,7 @@ ms.locfileid: "106989244"
 
 ## <a name="remarks"></a>備註
 
-舊版 [Windows Media 來源](windows-media-source-filter.md) 篩選傳送此事件。 新的篩選器不應傳送此事件。
+舊版[Windows 媒體來源](windows-media-source-filter.md)篩選傳送此事件。 新的篩選器不應傳送此事件。
 
 ## <a name="requirements"></a>規格需求
 

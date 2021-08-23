@@ -1,24 +1,24 @@
 ---
-description: 由於影像資料傳輸是以資料流程為基礎，在 Windows 映像取得 (WIA) 2.0 中，因此您不需要指定目的地類型 (例如
+description: 因為影像資料傳輸是以資料流程為基礎，Windows 影像取得 (WIA) 2.0，所以您不需要指定目的地類型 (例如
 ms.assetid: ebb9fce5-9450-4ffe-b480-b21670b60f90
 title: 在 WIA 2.0 中傳送影像資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85ded5c6cd8fb94b1beccd86c3cd8aef3018aed0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66aca2179c477f49bc76197795ddf9d59792ca242da8729c169c39aa69553161
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592958"
 ---
 # <a name="transferring-image-data-in-wia-20"></a>在 WIA 2.0 中傳送影像資料
 
 > [!Note]  
-> 本教學課程示範如何在 Windows Vista 或更新版本上執行的應用程式中傳送影像資料。 如需在 Windows XP 或更早版本上執行的應用程式中傳送影像資料的相關資訊，請參閱 [WIA 1.0 中的傳輸影像資料](-wia-transferring-image-data.md) 。
+> 本教學課程示範如何在 Windows Vista 或更新版本上執行的應用程式中傳送影像資料。 如需有關在 Windows XP 或更早版本上執行的應用程式中傳送影像資料的資訊，請參閱[WIA 1.0 中的傳輸影像資料](-wia-transferring-image-data.md)。
 
  
 
-因為影像資料傳輸在 Windows 映像取得中是以資料流程為基礎 (WIA) 2.0，所以您不需要指定目的地類型 (例如記憶體或檔案) 。 應用程式只會提供 WIA 2.0 要使用的資料流程，驅動程式會讀取或寫入資料流程。 資料流程可以是檔案資料流程、記憶體資料流程或任何其他類型的資料流程，並且對驅動程式是透明的。 使用資料流程也可讓您輕鬆地與影像處理篩選器整合。
+因為影像資料傳輸是以資料流程為基礎，Windows 影像取得 (WIA) 2.0，所以您不需要指定目的地類型 (例如記憶體或檔案) 。 應用程式只會提供 WIA 2.0 要使用的資料流程，驅動程式會讀取或寫入資料流程。 資料流程可以是檔案資料流程、記憶體資料流程或任何其他類型的資料流程，並且對驅動程式是透明的。 使用資料流程也可讓您輕鬆地與影像處理篩選器整合。
 
 使用 [**IWiaTransfer**](-wia-iwiatransfer.md) 介面的方法，將資料從 WIA 2.0 裝置傳送至應用程式。 這個介面可透過 [**IWiaItem2**](-wia-iwiaitem2.md) 介面取得。 **IWiaTransfer** 介面具有在裝置上要求上傳或下載資料的方法。 這些方法會取得應用程式所提供的回呼，並使用應用程式為數據傳輸的實際目的地所提供的 [IStream](/windows/win32/api/objidl/nn-objidl-istream) 。
 

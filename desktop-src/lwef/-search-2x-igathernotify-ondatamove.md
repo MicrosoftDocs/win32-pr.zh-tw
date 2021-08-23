@@ -5,7 +5,7 @@ ms.assetid: cc223d0f-6508-4e38-b365-c60660db5324
 keywords:
 - OnDataMove (淘汰的) 方法舊版 Windows 環境功能
 - OnDataMove (淘汰的) 方法舊版 Windows 環境功能，IGatherNotify 介面
-- IGatherNotify 介面舊版 Windows 環境功能，OnDataMove (已淘汰的) 方法
+- IGatherNotify 介面舊版 Windows 環境功能，OnDataMove (已淘汰) 方法
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9fe38cd11e9072981334e5b724445ea3393d4361
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2f3d4f7d91bc9e9741f227812997a820ab4180ccf438d52ae8cfea93f67dc0bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665868"
 ---
 # <a name="igathernotifyondatamove-deprecated-method"></a>IGatherNotify：： OnDataMove (已淘汰的) 方法
 

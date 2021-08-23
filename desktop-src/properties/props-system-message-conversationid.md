@@ -4,16 +4,16 @@ ms.assetid: 99fe6242-f8bd-46de-bbf3-af788377fada
 title: ConversationID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfea116eebbe1ac393bfa552ddc39d7ce1f917c4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7e313dd89c0c59b9edeba1e29c2e30f0590c046680f412709b49e336de39e117
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597368"
 ---
 # <a name="systemmessageconversationid"></a>ConversationID
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

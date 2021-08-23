@@ -4,12 +4,12 @@ ms.assetid: 4cbd5ebe-7987-40eb-a770-0ab217562b70
 title: System.Doc>ument。DateSaved
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e48b177e14c1a5abeb5f981098c2e0be4caf36b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e9c936981121736fc11102f2525246cc1b5a9494462aa661582704512fdbcb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598188"
 ---
 # <a name="systemdocumentdatesaved"></a>System.Doc>ument。DateSaved
 

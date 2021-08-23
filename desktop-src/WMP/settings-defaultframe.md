@@ -3,7 +3,7 @@ title: 設定. defaultFrame
 description: DefaultFrame 屬性會指定或抓取用來顯示 ScriptCommand 事件中所接收之 URL 的框架名稱。
 ms.assetid: c2edb253-a545-4820-85aa-8fb7badf4d81
 keywords:
-- 設定. defaultFrame Windows Media Player
+- 設定的 defaultFrame Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6182a635e4bd73a946c3cf85efb7d39966c0007
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0240864cd19c1a4d84c30abfc6e6b8ecb08457d26c3c660d19fc18d228b19615
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571808"
 ---
 # <a name="settingsdefaultframe"></a>設定. defaultFrame
 
@@ -37,7 +37,7 @@ defaultFrame
 
 如果在 **ScriptCommand** 事件本身指定了目標框架，則會忽略這個屬性。
 
-使用 JAVA applet Netscape Navigator 時，會忽略這個屬性。 在 [導覽器] 中，每個收到的 URL 指令碼命令都會在新的瀏覽器視窗中顯示 URL，不論 *設定* 的值為何。**defaultFrame**。
+使用 JAVA applet Netscape Navigator 時，會忽略這個屬性。 在 [導覽器] 中，每個收到的 url 指令碼命令都會在新的瀏覽器視窗中顯示 url，不論 *設定* 的值為何。**defaultFrame**。
 
 **Windows Media Player 10** 行動裝置版：此屬性是唯讀的，而且一律會傳回空字串。
 
@@ -59,7 +59,7 @@ defaultFrame
 [**ScriptCommand 事件**](player-player-scriptcommand.md)
 </dt> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> <dt>
 
 [**使用 Windows Media Player 搭配 Netscape 7.1**](using-windows-media-player-with-netscape-7-1.md)

@@ -1,19 +1,19 @@
 ---
-description: 應用程式會流覽 Windows 映像取得 (WIA) 裝置的專案樹狀結構，以尋找並選取該裝置上的影像。 應用程式會使用這項技術來選取並取得影像，而不會向使用者呈現對話方塊。
+description: 應用程式會流覽 Windows 影像取得 (WIA) 裝置的專案樹狀結構，以尋找並選取該裝置上的影像。 應用程式會使用這項技術來選取並取得影像，而不會向使用者呈現對話方塊。
 ms.assetid: 1f124b4a-45fb-4181-b45a-e810a61ac37d
 title: 流覽專案樹狀結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 787ff3b53690ae7db4ff69fd5de2f4f4186f8e43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5a8ef11fc534a621c31461df897c8cc81f987ef83163a1300b0e392ce4f190e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593018"
 ---
 # <a name="navigating-an-item-tree"></a>流覽專案樹狀結構
 
-應用程式會流覽 Windows 映像取得 (WIA) 裝置的專案樹狀結構，以尋找並選取該裝置上的影像。 應用程式會使用這項技術來選取並取得影像，而不會向使用者呈現對話方塊。
+應用程式會流覽 Windows 影像取得 (WIA) 裝置的專案樹狀結構，以尋找並選取該裝置上的影像。 應用程式會使用這項技術來選取並取得影像，而不會向使用者呈現對話方塊。
 
 WIA 裝置會表示為 [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) 或 [**IWiaItem2**](-wia-iwiaitem2.md) 物件樹狀結構中的根專案。 樹狀結構中的子專案代表掃描器的影像，或是掃描器的掃描張床。
 

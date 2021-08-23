@@ -4,12 +4,12 @@ ms.assetid: c17b3b58-65ab-4e83-91f2-54a995f22ddf
 title: 篩選鏈
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d22ee33f7bc24495bc5099d0abeca7b8c70bc6d4
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: f4650c49dd796ff3aa7ddecbd21076a4e217def9bfb6504149fdb740c2810b48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685474"
 ---
 # <a name="filter-chains"></a>篩選鏈
 
@@ -37,7 +37,7 @@ ms.locfileid: "107909056"
 
  
 
-沒有任何特定的方法可以新增鏈。 若要加入鏈，請使用 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) 方法插入新的篩選準則。 然後藉由呼叫 [**IGraphBuilder：： connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect)、 [**IGraphBuilder：： Render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render)或類似的方法來連接篩選。
+沒有任何特定的方法可以新增鏈。 若要加入鏈，請使用 [**IFilterGraph：： AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) 方法插入新的篩選準則。 然後藉由呼叫 [**IGraphBuilder：：連線**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect)、 [**IGraphBuilder：： Render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render)或類似的方法來連接篩選。
 
 當圖形正在執行時，篩選鏈可以在執行和停止之間切換。 當圖形暫停時，它可以在暫停和停止之間切換。 這些是唯一可以使用篩選鏈進行的狀態轉換。
 
@@ -62,7 +62,7 @@ ms.locfileid: "107909056"
 
 <dl> <dt>
 
-[動態圖表建立](dynamic-graph-building.md)
+[動態 Graph 大樓](dynamic-graph-building.md)
 </dt> </dl>
 
  

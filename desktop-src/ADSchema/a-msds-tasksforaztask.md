@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ce6fee08b86772f3d541cc2d0252979158cd6f2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f13f893ecb27e83aaf26a505dc5c86f7f2eb7add8e0c80f701f9f90445a10b0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544218"
 ---
 # <a name="ms-ds-tasks-for-az-task-attribute"></a>ms DS-工作--Az-Task 屬性
 

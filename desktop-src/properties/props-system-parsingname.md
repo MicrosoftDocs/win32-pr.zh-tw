@@ -4,18 +4,18 @@ ms.assetid: 8d17d99f-a4c2-489e-97b3-74586b191cf2
 title: System. ParsingName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b36e11d95141abd546f8e5f2721eb7d4ed270a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9f41b16b2d38378fa4212712f2f2d98d2310fe4b7403a466d8fae9e7de0920e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598338"
 ---
 # <a name="systemparsingname"></a>System. ParsingName
 
 相對於父資料夾之專案的 Shell 命名空間名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

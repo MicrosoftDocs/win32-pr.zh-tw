@@ -8,18 +8,18 @@ keywords:
 - 物件模型、CD 翻錄
 - Windows Media Player ActiveX 控制項、CD 翻錄
 - ActiveX 控制項，CD 翻錄
-- Windows Media Player 的行動 ActiveX 控制項、CD 翻錄
-- Windows Media Player 行動電話、CD 翻錄
+- Windows Media PlayerMobile ActiveX control、CD 翻錄
+- Windows Media Player行動電話、CD 翻錄
 - CD 翻錄，選取專案
 - 將 Cd 翻錄，選取專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfc18ded43b609be6c7ac1f16833b0c8a33505ae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ea677028fab6b3c39466e916bd8bb59ea8cee4d370730c096cbb98978f4abc49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646648"
 ---
 # <a name="selecting-items-for-ripping"></a>選取要進行翻錄的專案
 
@@ -131,9 +131,9 @@ HRESULT CMainDlg::SelectTrack (long lIndex, bool bSelected)
 [**正在抓取 Rip 狀態**](retrieving-the-rip-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

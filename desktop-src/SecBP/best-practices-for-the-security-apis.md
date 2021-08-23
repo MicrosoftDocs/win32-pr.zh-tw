@@ -1,15 +1,15 @@
 ---
-description: 適用于應用程式開發 Windows 安全性軟體和安全軟體發展的應用程式安全性評定建議，包括應用程式安全性測試。
+description: 適用于應用程式開發的應用程式安全性評定建議 Windows 安全性軟體和安全軟體發展，包括應用程式安全性測試。
 ms.assetid: bb0ddae2-f559-4785-97c7-182fc204fa60
 title: 安全性 Api 的最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa821cfbaa9874d17559ad0e81f636fbaddd14f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 934bf52d99456d599f91ec23c6e5472bb4e130565cf1acb56763f29f6396c0b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622878"
 ---
 # <a name="best-practices-for-the-security-apis"></a>安全性 Api 的最佳作法
 
@@ -31,7 +31,7 @@ ms.locfileid: "106978142"
 
 ## <a name="service-packs-and-security-updates"></a>Service Pack 和安全性更新
 
-組建和測試環境應該鏡像相同的 service pack 層級和目標使用者群的安全性更新。 建議您為任何屬於組建和測試環境的 Microsoft 平臺或應用程式安裝最新的 service pack 和安全性更新，並鼓勵您的使用者針對完成的應用程式環境進行相同的動作。 如需有關 service pack 和安全性更新的詳細資訊，請參閱 [microsoft Windows Update](https://www.update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=en-us) 和 [microsoft 安全性](https://www.microsoft.com/security)。
+組建和測試環境應該鏡像相同的 service pack 層級和目標使用者群的安全性更新。 建議您為任何屬於組建和測試環境的 Microsoft 平臺或應用程式安裝最新的 service pack 和安全性更新，並鼓勵您的使用者針對完成的應用程式環境進行相同的動作。 如需有關 service pack 和安全性更新的詳細資訊，請參閱[microsoft Windows Update](https://www.update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=en-us)和[microsoft 安全性](https://www.microsoft.com/security)。
 
 ## <a name="authorization"></a>授權
 

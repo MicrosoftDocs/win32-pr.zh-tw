@@ -4,12 +4,12 @@ ms.assetid: 0dec3d25-0da7-4054-8d5c-55e81be16489
 title: NoWrap 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51ee40b52fbec1c8add841f7055a7f42667eca94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1ef67a58dd0898b4c1e6d1577d35d67e8810649d49425087fecc3e0b3518cbb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519638"
 ---
 # <a name="nowrap-control-attribute"></a>NoWrap 控制項屬性
 

@@ -5,12 +5,12 @@ title: 知名的 Sid
 ms.topic: article
 ms.date: 03/04/2020
 ms.custom: 19H1
-ms.openlocfilehash: 1fdde933b3e4f844e63785ff130aaf89204fe0af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17fe8827100f9e3684ac0219fc83f183581017cc5738af5933b7bb7cc4ea3ff8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623088"
 ---
 # <a name="well-known-sids"></a>知名的 Sid
 
@@ -20,9 +20,9 @@ ms.locfileid: "106985000"
 -   \_建立者擁有者，用來做為可繼承 ACE 中的預留位置。 當 ACE 被繼承時，系統會將建立者擁有者 SID 取代為物件的建立 \_ 者 sid。
 -   本機電腦上內建網域的 Administrators 群組。
 
-有 [*通用的已知 sid*](/windows/desktop/SecGloss/u-gly)，在使用此安全性模型（包括 Windows 以外的作業系統）的所有安全系統上都有意義。 此外，也有已知的 Sid，只有在 Windows 系統上有意義。
+有 [*通用的已知 sid*](/windows/desktop/SecGloss/u-gly)，在使用此安全性模型的所有安全系統（包括 Windows 以外的作業系統）上都有意義。 此外，也有已知的 sid，只有在 Windows 系統上有意義。
 
-Windows API 會為知名的識別碼授權單位和 [*相對識別碼*](/windows/desktop/SecGloss/r-gly) 定義一組常數， (RID) 值。 您可以使用這些常數來建立知名的 Sid。 下列範例結合了安全性 \_ 世界 \_ sid 授權單位 \_ 和安全性 \_ 世界 \_ RID 常數，以顯示代表所有使用者 (Everyone 或 WORLD) 之特殊群組的通用已知 SID：
+Windows API 會為知名的識別碼授權單位定義一組常數，並為 (RID) 值定義 [*相關的識別碼*](/windows/desktop/SecGloss/r-gly)。 您可以使用這些常數來建立知名的 Sid。 下列範例結合了安全性 \_ 世界 \_ sid 授權單位 \_ 和安全性 \_ 世界 \_ RID 常數，以顯示代表所有使用者 (Everyone 或 WORLD) 之特殊群組的通用已知 SID：
 
 S-1-1-0
 
@@ -48,7 +48,7 @@ S-1-1-0
 
  
 
-下表列出預先定義的識別碼授權單位常數。 前四個值與通用的已知 Sid 搭配使用;最後一個值會與 Windows 已知的 Sid 搭配使用。
+下表列出預先定義的識別碼授權單位常數。 前四個值與通用的已知 Sid 搭配使用;最後一個值會搭配 Windows 已知的 sid 使用。
 
 
 
@@ -81,7 +81,7 @@ S-1-1-0
 
  
 
-SECURITY \_ NT \_ 授權單位 (S-1-5) 預先定義的識別碼授權單位會產生非通用的 sid，但只有在 Windows 安裝上有意義。 您可以使用下列 RID 值 \_ 搭配 SECURITY NT \_ 授權單位來建立已知的 sid。
+SECURITY \_ NT \_ 授權單位 (S-1-5) 預先定義的識別碼授權單位會產生非通用的 sid，但只有在 Windows 安裝時才有意義。 您可以使用下列 RID 值 \_ 搭配 SECURITY NT \_ 授權單位來建立已知的 sid。
 
 
 
@@ -95,7 +95,7 @@ SECURITY \_ NT \_ 授權單位 (S-1-5) 預先定義的識別碼授權單位會�
 | 安全性 \_ 服務 \_ RID<br/>                 | S-1-5-6<br/>         | 授權以服務登入的帳戶。 這是在處理常式記錄為服務時，新增至進程權杖的群組識別碼。 對應的登入類型為 LOGON32 \_ logon \_ SERVICE。<br/>                                                                                                                                                                                                                                                                                                                    |
 | 安全性 \_ 匿名 \_ 登入 \_ RID<br/>        | S-1-5-7<br/>         | 匿名登入或 null 會話登入。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | 安全性 \_ PROXY \_ RID<br/>                   | S-1-5-8<br/>         | 代理。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| 安全性 \_ 企業 \_ 控制器 \_ RID<br/> | S-1-5-9<br/>         | 企業控制器。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 安全性 \_ 企業 \_ 控制器 \_ RID<br/> | S-1-5-9<br/>         | Enterprise 控制器。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | 安全性 \_ 主體的 \_ 自我 \_ RID<br/>         | S-1-5-10<br/>        | PRINCIPAL \_ SELF security 識別碼可以用在使用者或群組物件的 ACL 中。 在存取檢查期間，系統會將 SID 取代為物件的 SID。 主體 SELF SID 適用于指定可繼承 \_ 的 ace，以套用至繼承 ace 的使用者或群組物件。 這是在架構的預設 [*安全描述項*](/windows/desktop/SecGloss/s-gly) 中表示所建立物件 SID 的唯一方法。<br/> |
 | 安全性 \_ 驗證 \_ 使用者 \_ RID<br/>     | S-1-5-11<br/>        | 已驗證的使用者。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | 安全 \_ 限制的程式 \_ 代碼 \_ RID<br/>        | S-1-5-12<br/>        | 限制的程式碼。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -125,7 +125,7 @@ SECURITY \_ NT \_ 授權單位 (S-1-5) 預先定義的識別碼授權單位會�
 | 網域 \_ 群組 \_ RID \_ CERT \_ 管理員<br/>                              | 0x00000205 | 憑證發行者的群組。 執行憑證服務的電腦是此群組的成員。<br/>                                                                                                                                      |
 | 網域 \_ 群組 \_ RID \_ 企業 \_ 唯讀 \_ 域 \_ 控制器<br/> | 0x000001F2 | 企業唯讀網域控制站的群組。<br/>                                                                                                                                                                                     |
 | 網域 \_ 群組 \_ RID \_ 架構 \_ 管理員<br/>                            | 0x00000206 | 架構系統管理員群組。 此群組的成員可以修改 Active Directory 架構。<br/>                                                                                                                                           |
-| 網域 \_ 群組 \_ RID \_ 企業系統 \_ 管理員<br/>                        | 0x00000207 | 企業系統管理員群組。 此群組的成員具有 Active Directory 樹系中所有網域的完整存取權。 企業系統管理員負責樹系層級的作業，例如新增或移除新網域。<br/> |
+| 網域 \_ 群組 \_ RID \_ 企業系統 \_ 管理員<br/>                        | 0x00000207 | 企業系統管理員群組。 此群組的成員具有 Active Directory 樹系中所有網域的完整存取權。 Enterprise 系統管理員負責樹系層級的作業，例如新增或移除新網域。<br/> |
 | 網域 \_ 群組 \_ RID \_ 原則 \_ 管理員<br/>                            | 0x00000208 | 原則系統管理員群組。<br/>                                                                                                                                                                                                         |
 | 網域 \_ 群組 \_ RID \_ READONLY \_ 控制器<br/>                     | 0x00000209 | 唯讀網域控制站的群組。<br/>                                                                                                                                                                                                |                                             
 | 網域 \_ 群組 \_ RID \_ CLONEABLE \_ 控制器<br />                   | 0x0000020A | Cloneable 網域控制站的群組。<br/>                                                                                                                                                                                                |
@@ -172,7 +172,7 @@ SECURITY \_ NT \_ 授權單位 (S-1-5) 預先定義的識別碼授權單位會�
 | 網域 \_ 別名 \_ RID \_ 備份 \_ OPS<br/>                       | 0x00000227<br/> | S-1-5-32-551<br/> | 本機群組，用於控制檔案備份和還原許可權的指派。<br/>                                                                                                                                                                                            |
 | 網域 \_ 別名 \_ RID \_ 複製器<br/>                        | 0x00000228<br/> | S-1-5-32-552<br/> | 負責將安全性資料庫從網域主控站複製到備份網域控制站的本機群組。 這些帳戶僅供系統使用。<br/>                                                                                                       |
 | 網域 \_ 別名 \_ RID \_ RAS \_ 伺服器<br/>                      | 0x00000229<br/> | S-1-5-32-553<br/> | 代表 RAS 和 資訊存取伺服器的本機群組。 此群組允許存取使用者物件的各種屬性。<br/>                                                                                                                                                             |
-| 網域 \_ 別名 \_ RID \_ PREW2KCOMPACCESS<br/>                  | 0x0000022A<br/> | S-1-5-32-554<br/> | 只存在於執行 Windows 2000 伺服器之系統上的本機群組。 如需詳細資訊，請參閱 [允許匿名存取](allowing-anonymous-access.md)。<br/>                                                                                                                    |
+| 網域 \_ 別名 \_ RID \_ PREW2KCOMPACCESS<br/>                  | 0x0000022A<br/> | S-1-5-32-554<br/> | 只存在於執行 Windows 2000 Server 之系統上的本機群組。 如需詳細資訊，請參閱 [允許匿名存取](allowing-anonymous-access.md)。<br/>                                                                                                                    |
 | 網域 \_ 別名 \_ RID \_ 遠端 \_ 桌面 \_ 使用者<br/>            | 0x0000022B<br/> | S-1-5-32-555<br/> | 代表所有遠端桌面使用者的本機群組。<br/>                                                                                                                                                                                                                         |
 | 網域 \_ 別名 \_ RID \_ 網路 \_ 設定 \_ OPS<br/>       | 0x0000022C<br/> | S-1-5-32-556<br/> | 代表網路設定的本機群組。 <br/>                                                                                                                                                                                                                       |
 | 網域 \_ 別名 \_ RID 連 \_ 入 \_ 樹系 \_ 信任 \_ 產生器<br/> | 0x0000022D<br/> | S-1-5-32-557<br/> | 代表任何樹系信任使用者的本機群組。<br/>                                                                                                                                                                                                                           |

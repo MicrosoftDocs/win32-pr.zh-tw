@@ -4,12 +4,12 @@ ms.assetid: e6b082af-719b-4426-8217-0fc940f5884d
 title: 備份前工作總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 709345b8aa0421699efe26ad2901cc497b7d4ac0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af8dd6ea99215d486b8be7d07d30bcbdb5258548078fd642028dd6a93ca42796
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511738"
 ---
 # <a name="overview-of-pre-backup-tasks"></a>備份前工作總覽
 
