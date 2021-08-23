@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102609
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: cfe57d5b5e1924ec2ef067cd352cb780a3bd4e46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 903b211da1079a16a0296773f89dc82145d3ebdb22aff32dfb57665e71d052ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118774508"
 ---
 # <a name="esentrecoveredwithoutundodatabasesconsistentexception-properties"></a>EsentRecoveredWithoutUndoDatabasesConsistentException 屬性
 

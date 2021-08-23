@@ -4,16 +4,16 @@ description: Activate 方法
 ms.assetid: 8111139d-1453-416e-8f08-38c06669ff4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21df1965abaeed35e9e440a0f559f5e12d68d6fe
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5032c7c7f2faf7ec53028a0cc0ce55847fe300864bb531968fc8190b4e00d164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118753157"
 ---
 # <a name="activate-method"></a>Activate 方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "106969099"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。啟用* *  \[ *狀態*\]
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。啟用_ *  \[ *狀態*\]
 
 
 

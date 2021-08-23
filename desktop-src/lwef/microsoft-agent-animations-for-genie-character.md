@@ -4,16 +4,16 @@ description: 適用于瓶精靈字元的 Microsoft Agent 動畫
 ms.assetid: 56c42d7a-32af-47cb-8578-0a89507a41ed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4f583fc6540b5fe13cc157542d69352a8ea5b31
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 204da244b74e96e239d540662dabf73af82001748b395da8e660f53fe4cf85e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976098"
 ---
 # <a name="microsoft-agent-animations-for-genie-character"></a>適用于瓶精靈字元的 Microsoft Agent 動畫
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 [Microsoft Agent 瓶精靈字元](https://www.microsoft.com/downloads/details.aspx?FamilyID=da86ba4e-bc2d-4c1d-b5a0-3183fe206414)是 Microsoft Corporation 的受版權保護工作。
 
@@ -27,7 +27,7 @@ ms.locfileid: "104375312"
 
 
 
-| 動畫                 | 返回動畫         | 支援說話 | 音效 | 指派至狀態                            | Description                                                    |
+| 動畫                 | 返回動畫         | 支援說話 | 音效 | 指派至狀態                            | 描述                                                    |
 |---------------------------|--------------------------|-------------------|---------------|----------------------------------------------|----------------------------------------------------------------|
 | **承認**           | 無                     | No                | **否**        | 無                                         | 節點 head                                                      |
 | **警示**                 | 是，使用結束分支 | Yes               | **否**        | **聽**                                | Straightens 並引發眉毛                                |

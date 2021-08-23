@@ -4,12 +4,12 @@ ms.assetid: 7E5E7C60-9C3F-406B-A7DD-A953181CD314
 title: 'MFStreamExtension_PinholeCameraIntrinsics 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ee9ad848f0b8cc12c2496544d98b4ef17332151
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c0a77f7d49770e084dfe258169863a713311be02f1711c6f637c7bfc16b4e55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973177"
 ---
 # <a name="mfstreamextension_pinholecameraintrinsics-attribute"></a>MFStreamExtension \_ PinholeCameraIntrinsics 屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "103943870"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

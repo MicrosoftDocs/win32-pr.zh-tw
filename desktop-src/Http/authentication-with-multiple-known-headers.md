@@ -4,12 +4,12 @@ description: HTTP \_ MULTIPLE \_ 已知 \_ 標頭結構可讓伺服器應用程�
 ms.assetid: d517fd61-9547-4e1c-b0fd-1eb3d0098db2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8afbce3c2a41ea143003723acebc7eb83dc463d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fbb8fd2071626d8a12f046ac0c3b6c50fcffc794462d5109a89a974f441879bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "107001064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950927"
 ---
 # <a name="authentication-with-multiple-known-headers"></a>使用多個已知標頭進行驗證
 
@@ -20,7 +20,7 @@ ms.locfileid: "107001064"
 1.  交涉
 2.  NTLM
 3.  Digest
-4.  基本
+4.  Basic
 
 如果驗證配置不是這些配置的其中一個，則應用程式必須指定 **HTTP \_ 回應 \_ 資訊 \_ 旗標 \_ 保留 \_ 順序旗標** 。
 
@@ -42,9 +42,9 @@ ms.locfileid: "107001064"
 
 當應用程式將多個驗證挑戰傳送至未知要求標頭中的用戶端時，HTTP 伺服器 API 會將這些挑戰傳送給用戶端，而不需要介入。 但不建議使用這種方式。
 
- 
+ 
 
- 
+ 
 
 
 

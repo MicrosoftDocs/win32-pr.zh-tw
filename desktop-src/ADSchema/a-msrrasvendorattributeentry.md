@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28ee353122107db5b1247860e9799db861b4d6bf
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: efaaddb014b57e5d786ecb4ac7f45ace24adc7a2384bcd90c7e1316d1310b260
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960317"
 ---
 # <a name="ms-rras-vendor-attribute-entry-attribute"></a>ms RRAS-廠商-屬性-Entry 屬性
 

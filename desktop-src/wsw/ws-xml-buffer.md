@@ -6,12 +6,12 @@ keywords:
 - WS_XML_BUFFER
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f84bc755d24d07e8e2ed9bacf91b644c883871
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 576c901434bb1d05aecbadc52ce51b163023b99e3c7c8959f0169e2e9b0badad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962757"
 ---
 # <a name="ws_xml_buffer"></a>WS \_ XML \_ 緩衝區
 
@@ -35,7 +35,7 @@ typedef struct _WS_XML_BUFFER WS_XML_BUFFER;
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>WebServices。h</dt> </dl> |
 
 

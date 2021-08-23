@@ -4,12 +4,12 @@ ms.assetid: 1ba019c7-9ba6-429d-bbdc-7e182d93ab75
 title: 字型內嵌參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90f6420bc37130d441fe1e46a1bd97f66fe55951
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb170f6d6eabb0602aa62741526f3b80efbc4c98a89f212534f0ee229cff7d02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761136"
 ---
 # <a name="font-embedding-reference"></a>字型內嵌參考
 

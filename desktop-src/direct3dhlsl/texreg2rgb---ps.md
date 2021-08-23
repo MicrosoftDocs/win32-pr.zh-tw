@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f8bcd2bbd7e57ba9dc692f34404a5610cdc517f3
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5c32ee8e6b1560bfcebf6a914a45be2c74b19e94568c9d4e9b24084bf56c3f01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104507720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043046"
 ---
 # <a name="texreg2rgb---ps"></a>texreg2rgb-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104507720"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104507720"
 
 
 
- 
+ 
 
 此指示適用于色彩空間重新對應作業。 它支援二維 (2D) 和三維 (3D) 座標。 它的使用方式就像是 [texreg2ar-ps](texreg2ar---ps.md) 或 [texreg2gb-ps](texreg2gb---ps.md) ，可重新對應2d 資料。 不過，此指示也支援3D 資料，因此可用於 cube 地圖和3D 音量材質。
 
@@ -76,9 +76,9 @@ t (m) <sub>rgba</sub> = TextureSample (階段 m) <sub>RGBA</sub> 使用 t (n) <s
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

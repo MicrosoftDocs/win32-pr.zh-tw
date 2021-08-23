@@ -4,12 +4,12 @@ ms.assetid: 3f9ba728-8e78-4f1f-a0c1-76799fd62c9d
 title: 連接的識別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59fdb2f11b27bf9281b381170aa0d5b5ab027088
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df3052287658d06372f30c9d1fa5ae79c13ab0f7ff10dd9c134b7f730439cc6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118867755"
 ---
 # <a name="connected-identification"></a>連接的識別
 

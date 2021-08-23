@@ -4,12 +4,12 @@ ms.assetid: e7870e72-1386-4818-bf6f-73430ae942a8
 title: Microsoft Kerberos (英文)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a03787bcc65959838ea02c49958d9ca4e0405649
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 680a55581394d9d36da5b54cb2365d07384893069e26f9787163209daf2eabd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921790"
 ---
 # <a name="microsoft-kerberos"></a>Microsoft Kerberos (英文)
 

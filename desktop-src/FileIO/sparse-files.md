@@ -4,12 +4,12 @@ ms.assetid: 7326041d-f11e-4b80-ac4e-07173e418ce7
 title: 疏鬆檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21c282ca89c9dc9e44800a2a7fc969c3f883006b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb89a8fd3e8c067d5328756e57d511d4c38d615f2bb19c579208462c3f5bdbf3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951047"
 ---
 # <a name="sparse-files"></a>疏鬆檔案
 

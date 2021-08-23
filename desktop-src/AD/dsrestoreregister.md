@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 610d49c73ade9bab47c95e90af73bac606f4bd23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f3e878a5d2b9567ae7a483344a2240d3480620ea00706db1ed0c834fd2c5553a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962457"
 ---
 # <a name="dsrestoreregister-function"></a>DsRestoreRegister 函式
 
-\[此函式可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 從 Windows Vista 開始，請改用 [磁碟區陰影複製服務 (VSS) ](../vss/volume-shadow-copy-service-overview.md) 。\]
+\[此函式可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 從 Windows Vista 開始，請改用[磁碟區陰影複製服務 (VSS) ](../vss/volume-shadow-copy-service-overview.md) 。\]
 
 **DsRestoreRegister** 函數會註冊還原作業。此函式會 interlocks 所有後續的還原作業，並防止還原目標啟動，直到呼叫 [**DsRestoreRegisterComplete**](dsrestoreregistercomplete.md)函數為止。
 

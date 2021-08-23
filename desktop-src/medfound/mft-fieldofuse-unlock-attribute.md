@@ -4,12 +4,12 @@ ms.assetid: 7f48967e-375a-4019-b14f-2f457b616cc0
 title: 'MFT_FIELDOFUSE_UNLOCK_Attribute 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85f02fbc032f16406a2b4407b197dc6140774001
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 476ae7ffdc6de506b4dbc2f49ec7a6b19b01affafd53f0c9495f9f5c396c5caf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973067"
 ---
 # <a name="mft_fieldofuse_unlock_attribute-attribute"></a>MFT \_ FIELDOFUSE \_ 解除鎖定 \_ 屬性屬性
 
@@ -17,11 +17,11 @@ ms.locfileid: "103692312"
 
 ## <a name="data-type"></a>資料類型
 
-**[](/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock) IMFFieldOfUseMFTUnlock \** _ 儲存為 _*IUnknown \**_
+**[**IMFFieldOfUseMFTUnlock**](/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock) \**_ 儲存為 _* IUnknown\***
 
 ## <a name="getset"></a>取得/設定
 
-若要取得這個屬性，請呼叫 [_ *IMFAttributes：： GetUnknown* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。
+若要取得這個屬性，請呼叫 [**IMFAttributes：： GetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown)。
 
 若要設定這個屬性，請呼叫 [**IMFAttributes：： SetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown)。
 
@@ -38,7 +38,7 @@ ms.locfileid: "103692312"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

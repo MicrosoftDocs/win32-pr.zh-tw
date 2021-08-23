@@ -4,12 +4,12 @@ ms.assetid: 6b20ab30-2cd9-4f2e-a26b-316980c4bc78
 title: 會話票證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 762223311dd71f8bded5e021372d3a281f711eda
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7b514abc76eabcbe70f00c1e879b9389c83ad333d7b5c10d4150478f03db6a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918067"
 ---
 # <a name="session-tickets"></a>會話票證
 

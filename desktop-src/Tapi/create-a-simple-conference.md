@@ -4,12 +4,12 @@ ms.assetid: fb55853d-b882-41c8-99e6-bfa897b2dabf
 title: 建立簡單的會議
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aa0bfd8fede9fa61aedb6b630a2451803e2257d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61ca284e0629fa4318765b3ae12a63a9319beb585baf41a8dd636b1023c16329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118867510"
 ---
 # <a name="create-a-simple-conference"></a>建立簡單的會議
 

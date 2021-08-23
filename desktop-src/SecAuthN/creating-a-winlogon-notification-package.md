@@ -4,12 +4,12 @@ ms.assetid: a2a26bac-93b6-4d94-94fc-42c9821935a0
 title: 建立 Winlogon 通知套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0127674967ee3155d42e143a1b142d8c83137c56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c84d0290f7afeba7a427f5c50caf1638fd88bfdb4b52ee513a9b1c0506aed9df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008866"
 ---
 # <a name="creating-a-winlogon-notification-package"></a>建立 Winlogon 通知套件
 

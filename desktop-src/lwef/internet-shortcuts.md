@@ -8,12 +8,12 @@ keywords:
 - IPropertySetStorage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f14bc2ed58f75522e59b9008ded7b0f1416a21fe
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2aba53c320ed740fe7d91a2425b4d47d66e28d78aa35e4ce893efeed12380c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749406"
 ---
 # <a name="internet-shortcuts"></a>網際網路快速鍵
 
@@ -67,7 +67,7 @@ ms.locfileid: "104023441"
 
 
 
-| PROPID               | Variant 類型 | Description                                 |
+| PROPID               | Variant 類型 | 描述                                 |
 |----------------------|--------------|---------------------------------------------|
 | PID \_ 是 \_ URL         | VT \_ LPWSTR   | 快速鍵導向的 URL             |
 | PID \_ 為 \_ NAME        | VT \_ LPWSTR   | 網際網路快捷方式的名稱               |
@@ -84,13 +84,13 @@ ms.locfileid: "104023441"
 
 
 
- 
+ 
 
 下列屬性識別碼可針對 FMTID \_ InternetSite 要求。
 
 
 
-| PROPID                     | Variant 類型 | Description                                       |
+| PROPID                     | Variant 類型 | 描述                                       |
 |----------------------------|--------------|---------------------------------------------------|
 | PID \_ INTSITE \_ >WHATSNEW.CASTING     | VT \_ LPWSTR   | 新功能文字                                   |
 | PID \_ INTSITE \_ 作者       | VT \_ LPWSTR   | 作者                                            |
@@ -115,7 +115,7 @@ ms.locfileid: "104023441"
 
 
 
- 
+ 
 
 以下是網際網路網站旗標。
 
@@ -130,13 +130,13 @@ ms.locfileid: "104023441"
 
 
 
- 
+ 
 
 以下是網際網路漫遊歷程記錄所使用的值。
 
 
 
-| 已漫遊的 PID \_ INTSITE 值 \_         | Description                                                                                                                                                              |
+| 已漫遊的 PID \_ INTSITE 值 \_         | 描述                                                                                                                                                              |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 值未設定或 PIDISR \_ \_ 為最 \_ 新狀態 | 漫遊未修改此快取專案。                                                                                                                       |
 | PIDISR \_ 需要 \_ 新增                    | 漫遊已將此快取專案新增至快取。 \_ \_ 完成專案的處理之後，將 PIDISR 設定為最新狀態 \_ 。                                                   |
@@ -145,7 +145,7 @@ ms.locfileid: "104023441"
 
 
 
- 
+ 
 
 ## <a name="interfaces"></a>介面
 
@@ -181,6 +181,6 @@ ms.locfileid: "104023441"
 -   [**TranslateURL**](/windows/desktop/api/intshcut/nf-intshcut-translateurla)
 -   [**URLAssociationDialog**](/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga)
 
- 
+ 
 
- 
+ 

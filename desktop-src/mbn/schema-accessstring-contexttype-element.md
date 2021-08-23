@@ -11,12 +11,12 @@ api_name:
 - AccessString
 api_type:
 - Schema
-ms.openlocfilehash: 8cf0d37b8a1870011ae6ae3ea6febf22a98cdeb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 603c4aa04bb3e86891ec121233474fa96ffd792cbcb6880bad9e76599003d979
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975277"
 ---
 # <a name="accessstring-contexttype-element"></a>AccessString (coNtextType) 元素
 

@@ -4,12 +4,12 @@ ms.assetid: aad719e8-86b3-4b2b-b417-db55013f8d3a
 title: 對話方塊樣式位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f22392ef9a88c547bd8fde5bc7df2f4839d66ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43742c61c8dfe0827d0d51c7f9c8a2de60116500b6fdca3e404a08e120ac4348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947440"
 ---
 # <a name="dialog-style-bits"></a>對話方塊樣式位
 
@@ -19,7 +19,7 @@ ms.locfileid: "106987657"
 
 
 
-| Name                                                      | Decimal | 十六進位 | 常數                                                                                                                                       |
+| 名稱                                                      | Decimal | 十六進位 | 常數                                                                                                                                       |
 |-----------------------------------------------------------|---------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Visible](visible-dialog-style-bit.md)                   | 1       | 0x00000001  | **msidbDialogAttributesVisible**                                                                                                               |
 | [強制回應](modal-dialog-style-bit.md)                       | 2       | 0x00000002  | **msidbDialogAttributesModal**                                                                                                                 |

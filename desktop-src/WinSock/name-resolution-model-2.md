@@ -4,12 +4,12 @@ ms.assetid: 4139a8c2-d940-41e0-a3e8-fce3b70a1ff3
 title: 名稱解析模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcb209254dcee2419e1ed92c017fc7d37dc9c0a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f23395cc6db5a93ec572f59e0d5ac6aaa7890c5c42a7966b86601eb190a54796
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118822777"
 ---
 # <a name="name-resolution-model"></a>名稱解析模型
 
@@ -23,11 +23,11 @@ ms.locfileid: "104511428"
 -   Static
 -   持續性
 
-動態命名空間可讓服務即時註冊命名空間，並讓用戶端在執行時間探索可用的服務。 動態命名空間經常依賴廣播來指出網路服務的持續可用性。 較舊的動態命名空間範例包含 (在 NetWare 環境中使用的 SAP) 命名空間的服務廣告通訊協定，以及 AppleTalk 使用的名稱系結通訊協定 (NBP) 命名空間。 在 Windows 上使用的對等名稱解析通訊協定 (PNRP) 命名空間是較新的動態命名空間範例。
+動態命名空間可讓服務即時註冊命名空間，並讓用戶端在執行時間探索可用的服務。 動態命名空間經常依賴廣播來指出網路服務的持續可用性。 較舊的動態命名空間範例包含 (在 NetWare 環境中使用的 SAP) 命名空間的服務廣告通訊協定，以及 AppleTalk 使用的名稱系結通訊協定 (NBP) 命名空間。 Windows 上使用的對等名稱解析通訊協定 (PNRP) 命名空間是較新的動態命名空間範例。
 
-靜態命名空間需要預先註冊所有服務，也就是建立命名空間的時候。 靜態命名空間的範例包括大部分 TCP/IP 執行所使用的 *主機*、 *通訊協定* 和 *服務* 檔案。 在 Windows 中，這些檔案通常位於 *C： \\ Windows \\ system32 \\ 驅動程式 \\ 等* 資料夾中。
+靜態命名空間需要預先註冊所有服務，也就是建立命名空間的時候。 靜態命名空間的範例包括大部分 TCP/IP 執行所使用的 *主機*、 *通訊協定* 和 *服務* 檔案。 在 Windows 上，這些檔案通常位於 *C： \\ Windows \\ system32 \\ 驅動程式 \\ 等* 資料夾中。
 
-持續性命名空間可讓服務即時註冊命名空間。 但不同于動態命名空間，持續性命名空間會保留靜態儲存體中的註冊資訊，在此情況下，它會一直保留到服務要求移除時為止。 持續性的命名空間是由目錄服務（例如 X. 500 和 NDS (NetWare 目錄服務) ）所 typified。 這些環境可讓您新增、刪除和修改服務屬性。 此外，代表目錄服務內之服務的服務物件可以有各種與服務相關聯的屬性。 用戶端應用程式最重要的屬性是服務的定址資訊。 DNS 是永久性命名空間的另一個範例。 雖然有程式設計方式可使用 Windows 通訊端來解析 DNS 名稱，但 Windows 中的 DNS 命名空間提供者不支援使用 Winsock 註冊新的 DNS 名稱。 您必須直接使用 DNS 功能來註冊 DNS 名稱。 如需詳細資訊，請參閱 [DNS 參考](../dns/dns-reference.md)。
+持續性命名空間可讓服務即時註冊命名空間。 但不同于動態命名空間，持續性命名空間會保留靜態儲存體中的註冊資訊，在此情況下，它會一直保留到服務要求移除時為止。 持續性的命名空間是由目錄服務（例如 X. 500 和 NDS (NetWare 目錄服務) ）所 typified。 這些環境可讓您新增、刪除和修改服務屬性。 此外，代表目錄服務內之服務的服務物件可以有各種與服務相關聯的屬性。 用戶端應用程式最重要的屬性是服務的定址資訊。 DNS 是永久性命名空間的另一個範例。 雖然有程式設計方式可使用 Windows 通訊端來解析 dns 名稱，但 Windows 中的 DNS 命名空間提供者不支援使用 Winsock 註冊新的 dns 名稱。 您必須直接使用 DNS 功能來註冊 DNS 名稱。 如需詳細資訊，請參閱 [DNS 參考](../dns/dns-reference.md)。
 
 ## <a name="namespace-organization"></a>命名空間組織
 

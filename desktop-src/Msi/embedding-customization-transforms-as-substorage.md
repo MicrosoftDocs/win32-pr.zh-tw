@@ -4,16 +4,16 @@ ms.assetid: d4c022d2-a8c4-4b4e-8a6c-b14e1bc6effe
 title: 將自訂轉換內嵌為 Substorage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfd275d36b37b2e29ae166a2a464a62495d2ca9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 175c2bd1e52a58d6c73e1e46f8b95501b016bc0e4e1069b86c9c53f47859f20c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106993188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946999"
 ---
 # <a name="embedding-customization-transforms-as-substorage"></a>將自訂轉換內嵌為 Substorage
 
-您可以將自訂轉換儲存在 Windows Installer 套件的儲存體中，以保證當安裝套件可用時，一律可使用轉換。 請參閱 [內嵌轉換](embedded-transforms.md)。 Windows Installer SDK 中提供的範例是公用程式 WiSubStg.vbs。 下列程式碼片段 Emb.vbs，也會說明如何使用 [ [儲存體] 資料表](-storages-table.md) 來新增內嵌的轉換，並可用於 Windows Script Host。
+您可以將自訂轉換儲存在 Windows Installer 套件的儲存體中，以保證當安裝套件可用時，一律可使用轉換。 請參閱 [內嵌轉換](embedded-transforms.md)。 Windows Installer SDK 中提供的範例是公用程式 WiSubStg.vbs。 下列程式碼片段 Emb.vbs，也會說明如何使用 [[儲存體] 資料表](-storages-table.md)來新增內嵌的轉換，並用於 Windows 腳本主機。
 
 
 ```VB

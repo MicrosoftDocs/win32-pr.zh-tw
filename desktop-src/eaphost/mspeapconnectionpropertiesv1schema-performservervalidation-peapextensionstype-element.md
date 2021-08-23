@@ -12,12 +12,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 256d942d68c30788180f2d8080f963c1d79b401a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 74be4614d1a08baf27b08cee7ffa46d36f658c36176e39f80714387981d45f13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106976653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042826"
 ---
 # <a name="performservervalidation-peapextensionstype-element-v1-schema"></a>PerformServerValidation (PeapExtensionsType) 元素 (v1 架構) 
 
@@ -42,8 +42,8 @@ ms.locfileid: "106976653"
 
 | 角色 | 最低支援作業系統版本 |
 |------|------------------------------|
-| 用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

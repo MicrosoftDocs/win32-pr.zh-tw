@@ -4,12 +4,12 @@ ms.assetid: 10a5210d-7992-4832-9435-67ac2b851a97
 title: 範例 C 程式：列舉 CSP 提供者和提供者類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a109aab8bbf3788bd539d078f00f7a28926f98de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 372ea5f228008856d2a7701a7f11dbff462d239f8e0d39486a2c1634379ddec4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007646"
 ---
 # <a name="example-c-program-enumerating-csp-providers-and-provider-types"></a>範例 C 程式：列舉 CSP 提供者和提供者類型
 

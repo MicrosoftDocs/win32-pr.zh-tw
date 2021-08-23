@@ -4,12 +4,12 @@ ms.assetid: c2dd494b-b51d-4d3a-ab8f-f6d64a62feb3
 title: DirectoryCombo 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76729786c1e305e0ed4902750bd47f6a10427f57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a61e53a526b2d045ec72ce5de90ad99400624a62769fbe95b7def044f74c62d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947332"
 ---
 # <a name="directorycombo-control"></a>DirectoryCombo 控制項
 
@@ -27,7 +27,7 @@ PathEdit、DirectoryCombo 和 DirectoryList 控制項都與相同的字串值屬
 
 
 
-| 屬性識別碼                                               | 十六進位位                  | Description                                                                                                                                                                                                                                                                                                                                                                          |
+| 屬性識別碼                                               | 十六進位位                  | 描述                                                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [IndirectPropertyName](indirectpropertyname-control-attribute.md) |                                  | 這是與控制項相關聯之間接屬性的名稱。 如果已設定間接屬性位，控制項會顯示或變更具有這個名稱的屬性值。 如果設定了間接屬性位，此名稱也會是 [控制資料表](control-table.md)之屬性資料行中所列屬性的值。                                   |
 | [位置](position-control-attribute.md)                         |                                  | 對話方塊中控制項的位置。 將控制項左上角的控制項寬度、高度和座標，輸入控制項 [資料表](control-table.md)的 Width、Height、X 和 Y 資料行中。 使用 [安裝程式單位](installer-units.md) 來表示長度和距離。<br/>                                                                                        |

@@ -4,12 +4,12 @@ ms.assetid: fe6aae0f-93eb-4aba-a6ac-45e71c251c51
 title: 權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cccedffdf5786da07dd2cfd77c3de428ee15ba94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7c0289ea66f4c1d2f94cb74112a1160dd93cc873125ae5183bd6a6fab5834b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118912134"
 ---
 # <a name="privileges"></a>權限
 
@@ -24,7 +24,7 @@ ms.locfileid: "103943563"
 
 若要判斷存取權杖中所持有的許可權，請呼叫 [**GetTokenInformation**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-gettokeninformation) 函式，這也表示已啟用哪些許可權。 預設會停用大部分許可權。
 
-Windows API 會定義一組字串常數（例如 SE \_ ASSIGNPRIMARYTOKEN \_ 名稱），以識別各種許可權。 這些常數在所有系統上都相同，並定義于 Winnt. h 中。 如需 Windows 所定義之許可權的表格，請參閱 [許可權常數](authorization-constants.md)。 不過，取得和調整存取權杖中之許可權的函式會使用 [**LUID**](/windows/desktop/api/Winnt/ns-winnt-luid) 類型來識別許可權。 許可權的 **LUID** 值可能會與另一部電腦不同，以及在同一部電腦上的另一部開機。 若要取得對應至其中一個字串常數的目前 **LUID** ，請使用 [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) 函數。 您可以使用 [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) 函式，將 **LUID** 轉換為其對應的字串常數。
+Windows API 會定義一組字串常數（例如 SE \_ ASSIGNPRIMARYTOKEN \_ 名稱），以識別各種許可權。 這些常數在所有系統上都相同，並定義于 Winnt. h 中。 如需 Windows 所定義之許可權的表格，請參閱[許可權常數](authorization-constants.md)。 不過，取得和調整存取權杖中之許可權的函式會使用 [**LUID**](/windows/desktop/api/Winnt/ns-winnt-luid) 類型來識別許可權。 許可權的 **LUID** 值可能會與另一部電腦不同，以及在同一部電腦上的另一部開機。 若要取得對應至其中一個字串常數的目前 **LUID** ，請使用 [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) 函數。 您可以使用 [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) 函式，將 **LUID** 轉換為其對應的字串常數。
 
 系統會提供一組描述每個許可權的顯示名稱。 當您需要對使用者顯示許可權的描述時，這些功能就很有用。 您可以使用 [**LookupPrivilegeDisplayName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegedisplaynamea) 函式，來取得對應至許可權之字串常數的描述字串。 例如，在使用美式英文的系統上，SE \_ SYSTEMTIME 名稱許可權的顯示名稱 \_ 為「變更系統時間」。
 

@@ -4,12 +4,12 @@ ms.assetid: f312796c-cbe6-4be9-9886-52fdb34ced6b
 title: 資料包內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d233a0ba397e67a13b1c25588cf81b6f12c31d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51cade151c77b9ceec037de57e08bcc3a90638ddeb56f27764d5ad2799abc523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008646"
 ---
 # <a name="datagram-contexts"></a>資料包內容
 

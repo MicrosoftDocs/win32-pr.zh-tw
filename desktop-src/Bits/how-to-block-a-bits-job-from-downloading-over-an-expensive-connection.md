@@ -7,12 +7,12 @@ keywords:
 - 下載 BITS，避免昂貴
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: 6326838f08f1879929d9a6be67ef94c4aa035e00
-ms.sourcegitcommit: 00e0a8e56d28c4c720b97f0cf424c29f547460d7
+ms.openlocfilehash: 7cb09dbd277d9ec74ce4988db210bf80c22d97ccaa3054a170fc1c9913282cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "103841752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959487"
 ---
 # <a name="control-a-bits-download-over-an-expensive-connection"></a>透過昂貴的連接控制 BITS 下載
 
@@ -240,9 +240,9 @@ cancel:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

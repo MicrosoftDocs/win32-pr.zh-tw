@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08f6dcdf7faf3bcb93bcb029a373e19faed68e91
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 02a3e77e19ebc8cb0f9277e529a2d249bb53f60260e121823082524d9bed1b46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104025534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022666"
 ---
 # <a name="ca-certificate-dn-attribute"></a>CA 憑證-DN 屬性
 
@@ -58,9 +58,9 @@ CA 憑證的完整分辨名稱。
 | 連結識別碼                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
 | System-Only            | 否                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                       |
+| 是-單一值       | 是                                                                                                                                       |
 | 已編制索引             | 否                                                                                                                                      |
-| 在通用類別目錄中      | 對                                                                                                                                       |
+| 在通用類別目錄中      | 是                                                                                                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -79,9 +79,9 @@ CA 憑證的完整分辨名稱。
 | 連結識別碼                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
 | System-Only            | 否                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                       |
+| 是-單一值       | 是                                                                                                                                       |
 | 已編制索引             | 否                                                                                                                                      |
-| 在通用類別目錄中      | 對                                                                                                                                       |
+| 在通用類別目錄中      | 是                                                                                                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -100,9 +100,9 @@ CA 憑證的完整分辨名稱。
 | 連結識別碼                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
 | System-Only            | 否                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                       |
+| 是-單一值       | 是                                                                                                                                       |
 | 已編制索引             | 否                                                                                                                                      |
-| 在通用類別目錄中      | 對                                                                                                                                       |
+| 在通用類別目錄中      | 是                                                                                                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -121,9 +121,9 @@ CA 憑證的完整分辨名稱。
 | 連結識別碼                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
 | System-Only            | 否                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                       |
+| 是-單一值       | 是                                                                                                                                       |
 | 已編制索引             | 否                                                                                                                                      |
-| 在通用類別目錄中      | 對                                                                                                                                       |
+| 在通用類別目錄中      | 是                                                                                                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -142,9 +142,9 @@ CA 憑證的完整分辨名稱。
 | 連結識別碼                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
 | System-Only            | 否                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                       |
+| 是-單一值       | 是                                                                                                                                       |
 | 已編制索引             | 否                                                                                                                                      |
-| 在通用類別目錄中      | 對                                                                                                                                       |
+| 在通用類別目錄中      | 是                                                                                                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |
@@ -163,9 +163,9 @@ CA 憑證的完整分辨名稱。
 | 連結識別碼                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
 | System-Only            | 否                                                                                                                                      |
-| 是-單一值       | 對                                                                                                                                       |
+| 是-單一值       | 是                                                                                                                                       |
 | 已編制索引             | 否                                                                                                                                      |
-| 在通用類別目錄中      | 對                                                                                                                                       |
+| 在通用類別目錄中      | 是                                                                                                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                               |
 | Range-Lower            | \-                                                                                                                                         |
 | Range-Upper            | \-                                                                                                                                         |

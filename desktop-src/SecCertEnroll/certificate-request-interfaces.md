@@ -4,12 +4,12 @@ ms.assetid: 6021db79-ac90-4e0c-afbd-0f926abcab78
 title: 憑證要求介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43e18a4f8e1ce60348ffdf52afe210247f6d20a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ba4f16c6aba1be724fcf2639dd64d7988e40b79a5b29a2d500beb3ae66f4ca2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902557"
 ---
 # <a name="certificate-request-interfaces"></a>憑證要求介面
 

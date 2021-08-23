@@ -4,12 +4,12 @@ description: 效能計數器會根據所要求或接收的資料量、大小、�
 ms.assetid: 1b264144-7600-402e-86f8-674a2d02f9f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de90607cbda0542ee385b83f44bec878927d509f
-ms.sourcegitcommit: fc3f2a28a55e590ac38846048f10b64ba527a98d
+ms.openlocfilehash: f92afacf959c72735adea25c3ace60c8ae032da66394dda6731fdab913407e21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "107001092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950717"
 ---
 # <a name="scenario-3-performance-counters"></a>案例3：效能計數器
 
@@ -17,7 +17,7 @@ ms.locfileid: "107001092"
 
 ## <a name="performance-counters-for-httpsys"></a>HTTP.sys 的效能計數器
 
-從 Windows Vista 和 Windows Server 2008 開始，HTTP.sys 具有下列效能計量計數器，可協助您監視、診斷和規劃網頁伺服器的容量： HTTP 伺服器 API 元件具有下列效能計數器，可協助您監視、診斷和規劃 Web 服務器的容量：
+從 Windows Vista 和 Windows Server 2008 開始，HTTP.sys 具有下列效能度量計數器，可協助您監視、診斷和規劃網頁伺服器的容量： HTTP 伺服器 API 元件具有下列效能計數器，可協助您監視、診斷和規劃 web 伺服器的容量：
 
 - HTTP 服務計數器：
   - 快取中的 Uri 數目，自啟動後新增、自啟動後刪除，以及快取排清數目

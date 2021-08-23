@@ -4,12 +4,12 @@ ms.assetid: 84851b84-39a7-42fc-a471-9cf52b985f9d
 title: 磁片提示和錯誤處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ab29e95b9df6fc28072944abaa6a6c95be9ebdd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ee4ace7d676d5b82f0995e8bcfed8935a87b1471d07ef11fc65741f9c2a53ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887374"
 ---
 # <a name="disk-prompting-and-error-handling"></a>磁片提示和錯誤處理
 

@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1afad0f1b2e80a747bb518cb3eafc75d494de62a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3038984180dbd0888fe4131ffa7bad972ef341a4e4312b55308769a00479e2f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950037"
 ---
 # <a name="msvm_synth3dvideopool-class"></a>Msvm \_ Synth3dVideoPool 類別
 
@@ -358,7 +358,7 @@ class Msvm_Synth3dVideoPool : CIM_ResourcePool
 存取類型：唯讀
 </dt> </dl>
 
-指定主機系統是否支援3-d 影片。 如果支援3-d 影片，則包含非零值，否則為零。 為了支援3-d 影片，RemoteFX 主機必須有第二層位址轉譯 (SLAT) 功能，而且至少有一個支援 RemoteFX 的實體 GPU。
+指定主機系統是否支援3-d 影片。 如果支援3-d 影片，則包含非零值，否則為零。 若要支援3-d 影片，RemoteFX 主機必須具有第二層位址轉譯 (SLAT) 功能，而且至少有一個支援 RemoteFX 的實體 GPU。
 
 </dd> <dt>
 
@@ -371,7 +371,7 @@ class Msvm_Synth3dVideoPool : CIM_ResourcePool
 存取類型：唯讀
 </dt> </dl>
 
-指定主機是否有支援 RemoteFX 的 Gpu，以及其 DirectX 版本是否符合最低需求。
+指定主機是否有支援 RemoteFX 的 gpu，以及其 DirectX 版本是否符合最低需求。
 
 </dd> <dt>
 
@@ -390,7 +390,7 @@ class Msvm_Synth3dVideoPool : CIM_ResourcePool
 指定主機是否有第二層位址轉譯 (SLAT) 可支援的 CPU。
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中淘汰。
+> 在 Windows 10、1703版和 Windows Server 2016 中已淘汰。
 
  
 
@@ -669,8 +669,8 @@ class Msvm_Synth3dVideoPool : CIM_ResourcePool
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

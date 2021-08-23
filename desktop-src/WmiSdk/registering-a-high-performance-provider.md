@@ -1,16 +1,16 @@
 ---
-description: 如同其他執行個體提供者，您可以向 Microsoft Windows&160 註冊高效能的提供者 \# ;Management Instrumentation (WMI) ，方法是建立 \_ \_ Win32Provider 和 \_ \_ InstanceProviderRegistration 類別的實例。
+description: 如同其他執行個體提供者，您可以向 Microsoft Windows&160）註冊高效 \# 能提供者;Management Instrumentation (WMI) ，方法是建立 \_ \_ Win32Provider 和 \_ \_ InstanceProviderRegistration 類別的實例。
 ms.assetid: 6ff3f8c6-71ca-4589-bca7-b864e24a473d
 ms.tgt_platform: multiple
 title: 註冊 High-Performance 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e38653be78747bbfe68ce01d610e9b65b4c981d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2ee52db95290810a046d23781dbccf666cd63a19b01bf9414b2e224b8137f8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992568"
 ---
 # <a name="registering-a-high-performance-provider"></a>註冊 High-Performance 提供者
 

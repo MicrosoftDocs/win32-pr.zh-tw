@@ -4,12 +4,12 @@ ms.assetid: 9d5e60dc-9133-4c6e-9a47-dd341f2757fa
 title: 建立可由 End-User 設定的合併模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2db6ff7bd85fb1b6704fc2452c488b8a3bbc06b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0d1b4ffebe21659d33640c3872e9e6c7875518654b86d256ea4b858444ef39e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948131"
 ---
 # <a name="creating-a-merge-module-that-can-be-configured-by-the-end-user"></a>建立可由 End-User 設定的合併模組
 

@@ -4,12 +4,12 @@ description: 透過指標來變更記憶體的能力通常需要伺服器和用�
 ms.assetid: 8a49582a-9ae4-4f26-a172-bc8fe2aab65a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cdd4c51207de093dfe2d32ec0c275aa7a05a317
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 23d634b209c1f6369429c432d5fad5d4e64b47aeae16778efd8916c00e65911e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927358"
 ---
 # <a name="pointers-and-memory-allocation"></a>指標和記憶體配置
 
@@ -40,6 +40,6 @@ void __RPC_API midl_user_free(void __RPC_FAR * ptr)
 
 
 
- 
+ 
 
- 
+ 

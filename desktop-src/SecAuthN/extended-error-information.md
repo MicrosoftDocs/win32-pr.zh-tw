@@ -4,12 +4,12 @@ ms.assetid: a15c61f0-03cc-462f-b5c1-8e7f062e9523
 title: 延伸錯誤資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a4f59c53da452a3254ff6faaebeb30983498161
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bdd93de1691a01802f65397abb1607612f5b7e61a311c9f801854a00c1ab4f05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008216"
 ---
 # <a name="extended-error-information"></a>延伸錯誤資訊
 

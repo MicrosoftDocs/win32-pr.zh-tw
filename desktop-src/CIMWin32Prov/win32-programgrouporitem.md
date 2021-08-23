@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bb12576acbc8b50befa5d0856343b61e325b9478
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dbc3624b0712c39bf4498efbe1615d463cb21758d505aae00ed7e571a28f7d9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958907"
 ---
 # <a name="win32_programgrouporitem-class"></a>Win32 \_ ProgramGroupOrItem 類別
 

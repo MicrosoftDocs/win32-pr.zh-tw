@@ -1,15 +1,15 @@
 ---
-description: 連接到特定的智慧卡並與其通訊。
+description: 連線，並與特定智慧卡通訊。
 ms.assetid: 37d92491-174b-471e-b36e-46d9285dd404
 title: 智慧卡與讀者存取功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7202b2d6165b49bfe80e55f15c4d69cb4a6909a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b571764ae2d31865082e823996e8cc1ecde9d9d3e2dd618f28e528fd465a567
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917953"
 ---
 # <a name="smart-card-and-reader-access-functions"></a>智慧卡與讀者存取功能
 
@@ -19,7 +19,7 @@ ms.locfileid: "106980596"
 
 | 主題                                                  | 描述                                                                                                                                                                                                                                |
 |--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SCardConnect**](/windows/desktop/api/Winscard/nf-winscard-scardconnecta)                   | 連接到卡片。                                                                                                                                                                                                                         |
+| [**SCardConnect**](/windows/desktop/api/Winscard/nf-winscard-scardconnecta)                   | 連線到卡片。                                                                                                                                                                                                                         |
 | [**SCardReconnect**](/windows/desktop/api/Winscard/nf-winscard-scardreconnect)               | 重新建立連接。                                                                                                                                                                                                                  |
 | [**SCardDisconnect**](/windows/desktop/api/Winscard/nf-winscard-scarddisconnect)             | 終止連接。                                                                                                                                                                                                                    |
 | [**SCardBeginTransaction**](/windows/desktop/api/Winscard/nf-winscard-scardbegintransaction) | 啟動 [*交易*](../secgloss/t-gly.md)，封鎖其他應用程式存取卡片。                                                                                            |

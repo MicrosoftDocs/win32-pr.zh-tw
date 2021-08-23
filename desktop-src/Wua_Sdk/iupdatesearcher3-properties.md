@@ -4,12 +4,12 @@ ms.assetid: 213aaf24-f94a-46cc-8fba-ce47bfca3199
 title: IUpdateSearcher3 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 713348b93a6706f73ff8e0cf0f4f07f03cfa5c3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f6a170874f9d2710be752a51d24564aa1baee778019a1d33268668a006164f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118815279"
 ---
 # <a name="iupdatesearcher3-methods"></a>IUpdateSearcher3 方法
 

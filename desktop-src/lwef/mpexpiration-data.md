@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df5e417b1ce6b1d1f4c15d646b44b0ea6c1fade2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a5f270b7d433e6de7cd1eb3e7a3cfc88c9cb85c6087c20371ac804ec61d949d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106980286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976028"
 ---
 # <a name="mpexpiration_data-structure"></a>MPEXPIRATION \_ 資料結構
 
@@ -55,7 +55,7 @@ typedef struct tagMPEXPIRATION_DATA {
 
 | 值                                                                                                                                                                                                                                | 意義                |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
-| <span id="MP_EXPIRED_UNKNOWN"></span><span id="mp_expired_unknown"></span><dl> <dt>**MP \_過期的 \_ 未知**</dt> <dt>0</dt> </dl> | 不明。<br/>    |
+| <span id="MP_EXPIRED_UNKNOWN"></span><span id="mp_expired_unknown"></span><dl> <dt>**MP \_過期的 \_ 未知**</dt> <dt>0</dt> </dl> | 未知。<br/>    |
 | <span id="MP_EXPIRED_EVAL"></span><span id="mp_expired_eval"></span><dl> <dt>**MP \_過期的 \_ EVAL**</dt> <dt>1</dt> </dl>          | 評價。<br/> |
 | <span id="MP_EXPIRED_WAT"></span><span id="mp_expired_wat"></span><dl> <dt>**MP \_過期的 \_ WAT**</dt> <dt>2</dt> </dl>             | 笏。<br/>        |
 
@@ -95,8 +95,8 @@ typedef struct tagMPEXPIRATION_DATA {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>MpClient。h</dt> </dl> |
 
 

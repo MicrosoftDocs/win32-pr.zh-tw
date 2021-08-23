@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92133278d73851fa43353c116a2385da9b0fd3da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d214719e2e40eaa680786188cf4815623d915c1e1e70e36f94eb80b6c4a6c25b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106996584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975448"
 ---
 # <a name="webviewfoldercontentsscript-property"></a>WebViewFolderContents。 Script 屬性
 
@@ -44,7 +44,7 @@ objScript = WebViewFolderContents.Script
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何在內嵌于 HTML 的 JScript 中，適當使用此屬性。
+下列範例示範如何在 JScript 內嵌于 HTML 中，適當使用此屬性。
 
 
 ```HTML
@@ -84,10 +84,10 @@ objScript = WebViewFolderContents.Script
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

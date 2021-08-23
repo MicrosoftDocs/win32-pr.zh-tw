@@ -4,12 +4,12 @@ ms.assetid: dbebe23f-84ff-4a3e-8b8c-fa3bda10fa57
 title: '登錄專案 (驗證) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d50b413d99d2bc31a7af4e8e101ab27e51a8892
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 388cbe42d085543d5e7d4df1c9705504864b370cf94eb32f4025eaba12b89ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919444"
 ---
 # <a name="registry-entries-authentication"></a>登錄專案 (驗證) 
 

@@ -4,12 +4,12 @@ ms.assetid: 340a63ee-8e31-467d-88d2-f320ccc0f054
 title: IUpdateServiceCollection 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4292a128587d961447c29acf22aa7badc9c62e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d63a99d15f95c086bb8c1b062e76015f00d8214f64e5b4f73ed2832f1f5fab99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118815001"
 ---
 # <a name="iupdateservicecollection-properties"></a>IUpdateServiceCollection 屬性
 

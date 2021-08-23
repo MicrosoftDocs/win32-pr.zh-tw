@@ -4,12 +4,12 @@ ms.assetid: d316f159-4fe3-4b78-9efc-177906875918
 title: 網路提供者 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc68184f60639a603614cbaf71631a2521012cf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 359104da668ee3dbe63efa538b58f224f93f52575ed20992fced0e10517fe5f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921324"
 ---
 # <a name="network-provider-api"></a>網路提供者 API
 

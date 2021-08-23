@@ -8,12 +8,12 @@ keywords:
 - 消費者介面自動化，文字單位清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ff4257c70b34cea01a149b30dff2bf2fbe691a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cc5c40604f3c524c1e9f3bcdb36458e099563eb7279fa61133dcfa7ea3fde90b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118824161"
 ---
 # <a name="ui-automation-text-units"></a>消費者介面自動化文字單位
 
@@ -102,7 +102,7 @@ ms.locfileid: "104315268"
 
 當 [**TextUnit \_ Word**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) 用來設定文字範圍的界限時，產生的文字範圍應包含出現在單字結尾，但在下一個單字開頭之前的任何斷詞字元。
 
-### <a name="line"></a>線條
+### <a name="line"></a>折線圖
 
 [**TextUnit \_線條**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) 是一種文字單位，代表控制項的各方面所呈現的單一文字行。 使用 **TextUnit \_ 線** 設定文字範圍的界限時，提供者應該在控制字元中斷該行的點之後立即設定界限，或讓控制項的視口將文字換行至新行。 界限應該在新行開始時設定。
 

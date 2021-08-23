@@ -4,12 +4,12 @@ ms.assetid: 47A7308E-4E87-4052-A615-E28F7110761B
 title: ISCardFileAccess 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53df6c8e07a950336ed3d12cd876aeea7bddf623
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4d611807cba5d9cc84ef63053a25f6a5612ec5900332fa0ae15b0a4c30099f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923305"
 ---
 # <a name="iscardfileaccess-methods"></a>ISCardFileAccess 方法
 

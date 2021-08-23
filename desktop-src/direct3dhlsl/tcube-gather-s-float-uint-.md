@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e9710343ff9b09e4425bc133db6dab4d118d807e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0a1151ce9dd74df45321ceb74942253d87b7cfe69badb022cd1191e83d25045a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104973964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043426"
 ---
 # <a name="texturecubegathersfloatuint-function"></a>TextureCube：：搜集 (S、float、uint) 函數
 
@@ -82,7 +82,7 @@ TemplateType Gather(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

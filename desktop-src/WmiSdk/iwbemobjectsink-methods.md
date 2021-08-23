@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IWbemObjectSink 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5072066acfb44b73ca7829ab0a17db67654289d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bde8cd2eb17c384e65412ac9578fcfedcd0683773df70ed5649968f6f104e39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993018"
 ---
 # <a name="iwbemobjectsink-methods"></a>IWbemObjectSink 方法
 

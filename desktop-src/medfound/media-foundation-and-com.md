@@ -4,12 +4,12 @@ ms.assetid: d58ca46f-8f3a-4a12-b948-1ea7ab568788
 title: 媒體基礎和 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdb7d05bac6a3f4deef2c004c6980ef1351c3823
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: bb43fa29063da453a17275fca0b5c441e89f75aab8016a1abcf1702f5433fd71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106975602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974209"
 ---
 # <a name="media-foundation-and-com"></a>媒體基礎和 COM
 
@@ -173,7 +173,7 @@ private:
 
 使用長期函式工作佇列 (**MFASYNC \_ 回呼 \_ 佇列 \_ 長期 \_** 函式的元件) 必須更小心。 Long 函數中的執行緒 workqueue 建立自己的 STA。 使用 long 函式 workqueue 回呼的元件應避免在這些執行緒上建立 COM 物件，並視需要小心將 proxy 封送處理至 STA。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 如果應用程式與來自 MTA 執行緒的媒體基礎互動，則應用程式會有更多的時間，但是使用來自 STA 執行緒的媒體基礎可能會有一些小心。 媒體基礎不會處理 STA 元件，而且應用程式應該小心不要將 STA 物件傳遞給媒體基礎 Api。 有些物件有額外的需求，特別是在跨進程的情況下執行的物件。 遵循這些指導方針將有助於避免發生 COM 錯誤、鎖死和非預期的媒體處理延遲。
 

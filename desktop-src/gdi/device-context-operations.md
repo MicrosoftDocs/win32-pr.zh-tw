@@ -4,12 +4,12 @@ ms.assetid: dd95ffa0-fa9b-403e-9a3a-bfbed6fe3bc5
 title: 裝置內容作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1841fb17cd700816a971f40b3c5038a31f0a2b17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b756cad569cb4daf33db3ac11bc2c5a7a3f99f8fd45a1cdc4c04e2cf344b9330
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761782"
 ---
 # <a name="device-context-operations"></a>裝置內容作業
 

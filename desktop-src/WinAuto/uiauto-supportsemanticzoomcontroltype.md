@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，SemanticZoom
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b17d4712aa4f10489081b1b5d0f69fed849080bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 49609b7bc2b3958b6041bcf3a8c2c6442ce38501f95ff75a6c0f2145d497436f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825474"
 ---
 # <a name="semanticzoom-control-type"></a>SemanticZoom 控制項類型
 
@@ -34,7 +34,7 @@ ms.locfileid: "104092752"
 
 「語義縮放」是 Windows 8 引進的一項技術，可在單一視圖內呈現和導覽大型相關資料集或內容，例如相片專輯、應用程式清單或通訊錄。 語義縮放會使用兩種不同的分類模式（或 *縮放層級*）來組織和呈現內容。 低層級 (或 *放大*) 模式會以平面、「全功能」結構顯示專案;而高階 (或 *放大*) 模式會顯示群組中的專案，讓使用者可以快速流覽和流覽內容。 例如，縮放城市清單可能會變更為包含這些城市的州清單。 縮放程式清單可能會變更為邏輯程式群組清單。
 
-如需有關語義縮放的詳細資訊（特別是用於 Windows Store 應用程式），請參閱 [語義縮放的指導方針](/windows/uwp/controls-and-patterns/semantic-zoom)。
+如需語義縮放的詳細資訊（特別是用於 Windows Store 應用程式），請參閱[語義縮放的指導方針](/windows/uwp/controls-and-patterns/semantic-zoom)。
 
 **SemanticZoom** 控制項類型的使用方式模型很不尋常，因為它主要是用來進行程式設計存取。 Microsoft 消費者介面自動化用戶端可以監視和操作語義縮放控制項，以控制清單的放大狀態。 未使用輔助技術的使用者通常會透過觸控手勢或鍵盤快速鍵直接操作語義縮放控制項。
 

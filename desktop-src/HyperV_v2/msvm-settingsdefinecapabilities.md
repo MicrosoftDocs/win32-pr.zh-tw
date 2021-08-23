@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7a312d3453b783c3d72f909ec6cb0b37d83feb9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7194632af7bc1154e6a9bbca1dd5ef0bcca0fb46ab13693d20160ea404068adf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950459"
 ---
 # <a name="msvm_settingsdefinecapabilities-class"></a>Msvm \_ SettingsDefineCapabilities 類別
 
@@ -131,7 +131,7 @@ class Msvm_SettingsDefineCapabilities : CIM_SettingsDefineCapabilities
 </dt> <dd>
 
 > [!Note]  
-> 在 Windows 10 1703 版中 **非生產** 。
+> 在 Windows 10 1703 版中 **非生產**。
 
  
 
@@ -195,8 +195,8 @@ class Msvm_SettingsDefineCapabilities : CIM_SettingsDefineCapabilities
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

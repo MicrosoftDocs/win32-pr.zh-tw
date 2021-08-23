@@ -4,12 +4,12 @@ ms.assetid: 271d4c68-1f6d-4483-a9a1-703220de761f
 title: 逾時
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db31fafc0f4d98832f1fb7fa5d22b32cba33d73
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4d6226e8a2d13020bd4dc90a416e7ef359fbd919cf54e886c5e691e5fca2cdea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956787"
 ---
 # <a name="time-outs"></a>逾時
 

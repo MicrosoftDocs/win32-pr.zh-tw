@@ -4,12 +4,12 @@ ms.assetid: ca38396c-6f97-4c1c-99fb-2bd64c74c626
 title: " (電話語音 API) 的狀態"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44a9a93fdd97d32b477545ba0fb9f73f10b45021
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32fd9191d4b1808ca2dc5ff20ce509b58ad27a78a354aeca4ca83f8aa60dafa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118861825"
 ---
 # <a name="status-telephony-api"></a> (電話語音 API) 的狀態
 

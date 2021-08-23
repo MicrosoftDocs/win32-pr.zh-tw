@@ -7,12 +7,12 @@ keywords:
 - 建立屬性廣告的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62ecd0d0c85db3d7dee5855010f35a7ed798ba17
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: f2fd20980ff184f612e4639ed0e1a31e1a3a84451bddc971b491670c0afac71f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962298"
 ---
 # <a name="example-code-for-creating-an-attribute"></a>建立屬性的範例程式碼
 
@@ -477,6 +477,6 @@ HRESULT CreateAttribute(
 
 
 
- 
+ 
 
- 
+ 

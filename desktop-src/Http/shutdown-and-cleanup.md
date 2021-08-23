@@ -4,12 +4,12 @@ description: 若要讓應用程式正常終止，它必須執行下列清除作�
 ms.assetid: fc07adb8-103c-42d8-8187-3f5ee083c6d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf1c59534b73fee21489439c7818c286874185d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a551ad57ddbf63c6ff598814794bc5837da646e98169d8250e543575abd013a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950688"
 ---
 # <a name="shutdown-and-cleanup"></a>關機和清除
 
@@ -21,9 +21,9 @@ ms.locfileid: "104021553"
 -   藉由呼叫 [**HttpCloseRequestQueue**](/windows/desktop/api/Http/nf-http-httpcloserequestqueue)來關閉要求佇列的控制碼。
 -   藉由呼叫 HttpTerminate 函式，針對應用程式最初對 [**HttpInitialize**](/windows/desktop/api/Http/nf-http-httpinitialize)所進行的每個呼叫，呼叫具有相符旗標設定的 [](/windows/desktop/api/Http/nf-http-httpterminate)函數，以終止 HTTP 伺服器 API 所建立的資源。 每個呼叫都會結束通話 [**HttpInitialize**](/windows/desktop/api/Http/nf-http-httpinitialize)時所建立的所有資源。
 
- 
+ 
 
- 
+ 
 
 
 

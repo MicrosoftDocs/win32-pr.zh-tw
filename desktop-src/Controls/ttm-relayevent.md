@@ -3,7 +3,7 @@ title: 'TTM_RELAYEVENT 訊息 (Commctrl .h) '
 description: 將滑鼠訊息傳遞至工具提示控制項以進行處理。
 ms.assetid: 76d6d0ed-f357-479e-83d8-03d2e988cbd3
 keywords:
-- TTM_RELAYEVENT message Windows 控制項
+- TTM_RELAYEVENT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8648303a318f1f71eb16e8070235910ecfb8760
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 051a0b7ab8ecd93b15ceb9187eefd6f566b55d653b751889cd29acec58366716
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166361"
 ---
 # <a name="ttm_relayevent-message"></a>TTM \_ RELAYEVENT 訊息
 
@@ -32,7 +32,7 @@ ms.locfileid: "104322276"
 *wParam* 
 </dt> <dd>
 
-必須為零。 **Windows 7 和更新版本：** 如果工具提示的位置是從游標位置位移 (的順序不會被手指或指向裝置) 的阻礙，此參數可能會包含從 [**WM \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) 訊息取得的額外資訊。 使用 [**GetMessageExtraInfo**](/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo)取出此額外資訊。
+必須為零。 **Windows 7 和更新版本：** 如果工具提示的位置是從游標位置位移 (的順序不會被手指或指向裝置) 的阻礙，此參數可能會包含從 [**WM \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove)訊息取得的額外資訊。 使用 [**GetMessageExtraInfo**](/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo)取出此額外資訊。
 
 </dd> <dt>
 
@@ -68,8 +68,8 @@ ms.locfileid: "104322276"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

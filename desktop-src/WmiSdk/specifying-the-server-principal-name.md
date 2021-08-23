@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 指定伺服器主體名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a2f5aa4053b5ae7452e5f5e9c0ddcac15630ae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc8b3d05d6933653a7d2a1737d36f00f6ca65c39bd7739e5f2e9f4232eb507f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118816421"
 ---
 # <a name="specifying-the-server-principal-name"></a>指定伺服器主體名稱
 
@@ -18,7 +18,7 @@ Kerberos 驗證服務會指定伺服器主體名稱，以確保它所連接之�
 
 Kerberos 需要此參數才能支援相互驗證。 不過，使用預設的伺服器主體名稱不允許相互驗證。 相互驗證很重要的用戶端，必須指定符合 WMI 服務所使用之伺服器身分識別的伺服器主體名稱。 如需設定 proxy 安全性的詳細資訊，以及顯示如何設定伺服器主體名稱的 c + + 範例，請參閱 [設定 IWbemServices 和其他 proxy 的安全性](setting-the-security-on-iwbemservices-and-other-proxies.md)。
 
-如需有關在腳本和 Visual Basic 中設定伺服器主體名稱的詳細資訊，請參閱 [**wbemscripting.swbemlocator. ConnectServer**](swbemlocator-connectserver.md) 及 [連接到遠端電腦上的 WMI](connecting-to-wmi-on-a-remote-computer.md)。
+如需有關在腳本和 Visual Basic 中設定伺服器主體名稱的詳細資訊，請參閱 [**wbemscripting.swbemlocator. ConnectServer**](swbemlocator-connectserver.md)及 [連接到遠端電腦上的 WMI](connecting-to-wmi-on-a-remote-computer.md)。
 
 不同于 Windows Management Instrumentation (WMI) 的大部分安全性通訊協定，以及 (COM) 的元件物件模型，您無法在 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity)的呼叫中設定伺服器主體。 不過，您可以使用 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver)的 *BstrAuthority* 參數或 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket)的 *pServerPrincName* 參數來設定伺服器主體。
 

@@ -4,12 +4,12 @@ ms.assetid: 4cf745ab-66ae-40f2-b5c4-3f72f1b9badb
 title: 'MF_MP2DLNA_ENCODE_QUALITY 屬性 (Mfmp2dlna) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c785ff12524d45d096d566014a5c0a5e24eea8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a612dae32aabe4276ece76e7edff1aef431cc5d93f8aeaae0dbc9087620374c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973657"
 ---
 # <a name="mf_mp2dlna_encode_quality-attribute"></a>MF \_ MP2DLNA \_ 編碼 \_ 品質屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "104026830"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Mfmp2dlna。h</dt> </dl> |
 
 

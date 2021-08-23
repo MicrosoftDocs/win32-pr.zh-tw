@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a368afb652be93ea436f1b3cae403ce4cd690820
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9bb87c394b3ff51ef6425b50b6847f79b4f4a1749b028077f08d1edd860d236
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118767063"
 ---
 # <a name="jet_columnlist-constructor"></a>JET_COLUMNLIST 的函式
 

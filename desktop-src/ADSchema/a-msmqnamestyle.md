@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9f61b3ec820e4f4771c3e470a19cf79c83e85aa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 365426143fca985ec5cd39cc6444994c5c6b1b734bbb2cd8b35540c1da88a720
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960487"
 ---
 # <a name="msmq-name-style-attribute"></a>MSMQ-名稱樣式屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "103845092"
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -66,7 +66,7 @@ ms.locfileid: "103845092"
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "103845092"
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -87,7 +87,7 @@ ms.locfileid: "103845092"
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "103845092"
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -108,7 +108,7 @@ ms.locfileid: "103845092"
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "103845092"
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -129,7 +129,7 @@ ms.locfileid: "103845092"
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "103845092"
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -150,7 +150,7 @@ ms.locfileid: "103845092"
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "103845092"
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -171,7 +171,7 @@ ms.locfileid: "103845092"
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 

@@ -4,20 +4,20 @@ ms.assetid: 653bbf45-ac2c-4f8a-a978-960e0c42e6e4
 title: 動作傳回值的記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaaa203fee1fbb02bef070d065a9838383ea588b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 756fa633ef486c3dae4b689acf439f8dbf7786c20f740fb4784de30e764dc9fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945893"
 ---
 # <a name="logging-of-action-return-values"></a>動作傳回值的記錄
 
-當動作傳回這些錯誤碼時，安裝程式會將下列值寫入記錄檔中。 如需 Windows Installer 函式所傳回之錯誤碼的完整清單，請呼叫 MsiExec.exe 和 InstMsi.exe，請參閱 [錯誤碼](error-codes.md)。
+當動作傳回這些錯誤碼時，安裝程式會將下列值寫入記錄檔中。 如需 Windows Installer 函式所傳回之錯誤碼的完整清單，請呼叫 MsiExec.exe 和 InstMsi.exe，請參閱[錯誤碼](error-codes.md)。
 
 
 
-| 錯誤碼                       | 函式呼叫傳回的值 MsiExec.exe，以及 InstMsi.exe | 出現在記錄檔中的值。 | Description                                                                                                                                                                                                                                                                     |
+| 錯誤碼                       | 函式呼叫傳回的值 MsiExec.exe，以及 InstMsi.exe | 出現在記錄檔中的值。 | 描述                                                                                                                                                                                                                                                                     |
 |----------------------------------|----------------------------------------------------------------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_ \_ 未 \_ 呼叫錯誤函式     | 1626                                                           | 0                              | 無法執行函數。                                                                                                                                                                                                                                               |
 | 錯誤 \_ 成功                   | 0                                                              | 1                              | 已成功完成動作。                                                                                                                                                                                                                                               |
@@ -37,7 +37,7 @@ ms.locfileid: "106997586"
 
 <dl> <dt>
 
-[Windows Installer 記錄](windows-installer-logging.md)
+[Windows安裝程式記錄](windows-installer-logging.md)
 </dt> </dl>
 
  

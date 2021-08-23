@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4aed9748f74e08ae621d6391185b41f97aa702e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f0e3a5b4ae4f01e0c5af0a46e13238237dde5e006e8a83a5a7082dc97c121f05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960957"
 ---
 # <a name="ms-dfsr-computerreferencebl-attribute"></a>ms-chap-ComputerReferenceBL 屬性
 

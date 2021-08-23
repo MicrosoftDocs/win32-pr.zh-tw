@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5088312a16102153ad78afffdcd9ea1275d34e0d
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2fa79b7aa50bc734ddc1f9fb1fd54e4130c48518dd47ed429b4177b8fb867d95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104092455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794455"
 ---
 # <a name="break_comp---ps"></a>中斷 \_ 複合-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104092455"
 
 
 
- 
+ 
 
 其中：
 
@@ -46,7 +46,7 @@ ms.locfileid: "104092455"
 
     
 
-     
+     
 
 -   src0 是來源註冊。 如果選取單一元件，則需要複寫 swizzle。
 -   src1 是來源註冊。 如果選取單一元件，則需要複寫 swizzle。
@@ -63,7 +63,7 @@ ms.locfileid: "104092455"
 
 
 
- 
+ 
 
 當比較結果為 true 時，它會中斷目前的迴圈，如下所示。
 
@@ -82,9 +82,9 @@ if (!(src0 comparison src1))
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

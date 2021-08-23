@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b193d173fa0592a44ba437543659dec456e432ea
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 027f720ee5b4a6be6f36a568e343ca42d097d61619098c171ce2cc279c6f202a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958887"
 ---
 # <a name="win32_systemsystemdriver-class"></a>Win32 \_ SystemSystemDriver 類別
 

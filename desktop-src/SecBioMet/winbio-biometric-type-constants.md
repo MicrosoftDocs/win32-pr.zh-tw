@@ -1,6 +1,6 @@
 ---
 title: 'WINBIO_BIOMETRIC_TYPE 常數 (Winbio \_ 類型 .h) '
-description: 美國國家標準與技術資訊局所定義的標準生物特徵辨識類型 (NISTIR) 6529-A，亦稱為一般生物特徵辨識交換格式架構 (CBEFF) Patron 格式 A。
+description: 美國國家標準與技術資訊局所定義的標準生物特徵辨識類型 (NISTIR) 6529-A，亦稱為一般生物特徵辨識 Exchange 格式架構 (CBEFF) Patron 格式 A。
 ms.assetid: DCBDB5F9-FF81-44C1-B439-2B8C02483212
 topic_type:
 - apiref
@@ -36,16 +36,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2d2ab5c41a3c2af26312c97a67d1179b50fd759
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c1b6475433d2c0d1432e7501e6cbda46436c5a54fd13d5f254f79b678b3f7bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911067"
 ---
 # <a name="winbio_biometric_type-constants"></a>WINBIO \_ 生物特徵辨識 \_ 類型常數
 
-下列常數代表國家/地區協會標準和技術資訊所定義的標準生物特徵辨識類型 (NISTIR) 6529-A，亦稱為一般生物特徵辨識交換格式架構 (CBEFF) Patron 格式 A。目前只支援 **WINBIO \_ 類型 \_ 指紋** 。
+下列常數代表國家/地區協會標準和技術資訊所定義的標準生物特徵辨識類型 (NISTIR) 6529-A，也稱為一般生物特徵辨識 Exchange 格式架構 (CBEFF) Patron 格式 A。目前只支援 **WINBIO \_ 類型 \_ 指紋**。
 
 
 
@@ -85,8 +85,8 @@ ms.locfileid: "106969976"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                                                                                  |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                                                                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                                                                                  |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含適用于 Winbio 的用戶端應用程式或 Winbio 的 .h \_) </dt> </dl> |
 
 

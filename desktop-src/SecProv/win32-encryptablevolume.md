@@ -1,5 +1,5 @@
 ---
-description: 針對磁片磁碟機加密或建立加密安全性軟體，您可以使用 Windows 加密軟體（BitLocker 磁碟機加密）使用 Win32 \_ ENCRYPTABLEVOLUME WMI 提供者類別可使用的加密 API。
+description: 針對磁片磁碟機加密或建立加密安全性軟體，您可以使用 Windows 加密軟體，BitLocker 磁碟機加密，您可以使用 Win32 \_ EncryptableVolume WMI 提供者類別來使用加密 API。
 ms.assetid: 464fa664-4330-43fa-a5e0-144d1e73cf58
 title: Win32_EncryptableVolume 類別
 ms.topic: reference
@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: b202a536f3c20126c05f072c029fe316f90ce4fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3beb3498cf9e3d2873ea7dcfe3a108618eeddb513bc8207d1e819cce2fe976d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891001"
 ---
 # <a name="win32_encryptablevolume-class"></a>Win32 \_ EncryptableVolume 類別
 
@@ -239,8 +239,8 @@ class Win32_EncryptableVolume
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise，僅 Windows vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

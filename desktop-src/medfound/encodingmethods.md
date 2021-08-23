@@ -4,12 +4,12 @@ ms.assetid: 17ab5ecc-0173-4c5c-9d65-40e506ab7e07
 title: '編碼方法 (Microsoft 媒體基礎) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4366f11ea9d120d638c5600f84fc16f6c5320f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fa11e9545aa38358e5e1c0fdb4dfc4b7a2c3ee13f24b0fa38fe76b9e8bddcc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974527"
 ---
 # <a name="encoding-methods-microsoft-media-foundation"></a>編碼方法 (Microsoft 媒體基礎) 
 
@@ -21,7 +21,7 @@ ms.locfileid: "106991656"
 
 其中一個 Windows Media 音訊和視頻編碼器所編碼之資料流程的位元速率不是常數。 固定位元速率 (CBR) 編碼方式是有點誤導的詞彙。 CBR 編碼資料流程的區別功能是一個小型的緩衝區視窗，會限制樣本大小的變化。 CBR 編碼主要用於透過網路串流至其目的地的內容。 在這種情況下，務必要能夠依賴一致的頻寬使用方式。
 
-從設定的觀點來看，CBR 編碼方式與開始編碼之前的其他模式不同，您可以設定輸出內容的平均位元速率，以及套用至該位元速率的緩衝區視窗。 在其他模式中，當您設定編碼器時，這兩個值的其中之一或兩者都是未知的，並且會在編碼時由編解碼器計算。 CBR 是 Windows Media 編碼器 DMOs 所使用的標準編碼模式。
+從設定的觀點來看，CBR 編碼方式與開始編碼之前的其他模式不同，您可以設定輸出內容的平均位元速率，以及套用至該位元速率的緩衝區視窗。 在其他模式中，當您設定編碼器時，這兩個值的其中之一或兩者都是未知的，並且會在編碼時由編解碼器計算。 CBR 是 Windows 媒體編碼器 DMOs 所使用的標準編碼模式。
 
 ## <a name="two-pass-constant-bit-rate-encoding"></a>Two-Pass 常數位速率編碼
 
@@ -29,7 +29,7 @@ ms.locfileid: "106991656"
 
 雙通路 CBR 編碼有許多優點。 它通常會產生高品質的標準 CBR 編碼方式，而不需要變更任何緩衝需求。 這會讓此編碼模式非常適合透過網路進行串流處理的內容。 只有當您編碼來自即時來源的內容，而且無法使用第二次傳遞時，才會發生兩次傳遞 CBR 的情況。
 
-雙傳遞 CBR 資料流程的輸出媒體類型與標準 CBR 資料流程的輸出媒體類型相同;您仍然可以指定要使用的位元速率與緩衝區視窗。 設定 SQL-DMO 時，您必須將它設定為執行兩次行程。 當您完成第一次行程的傳送範例時，您必須通知。
+雙傳遞 CBR 資料流程的輸出媒體類型與標準 CBR 資料流程的輸出媒體類型相同;您仍然可以指定要使用的位元速率與緩衝區視窗。 在設定 DMO 時，您必須將它設定為執行兩次傳遞。 當您完成第一次行程的傳送範例時，您必須通知 DMO。
 
 ## <a name="quality-based-variable-bit-rate-encoding"></a>Quality-Based 變數位速率編碼
 

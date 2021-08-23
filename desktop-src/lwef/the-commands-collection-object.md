@@ -4,16 +4,16 @@ description: 命令集合物件
 ms.assetid: 8726ce04-77d3-4ae3-bd46-e75f42b36d6f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2367035d86f92d57dc459564943b9e7797ecb04
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d30f7933bd973ae500b75abb51c47899fa60322444d49fe0835f6bfa3efab97f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104374989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975658"
 ---
 # <a name="the-commands-collection-object"></a>命令集合物件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 Microsoft 代理程式伺服器會維護使用者目前可用的命令清單。 這份清單包含伺服器為一般互動所定義的命令 (例如隱藏和開啟 [語音命令] 視窗) 、可用 (清單，但是非輸入主動) 用戶端，以及目前作用中用戶端所定義的命令。 前兩組命令是全域命令;也就是說，無論輸入-主動用戶端為何，都可以隨時使用它們。 用戶端定義的命令只有在該用戶端為輸入-主動且可看見該字元時才可使用。
 
@@ -32,6 +32,6 @@ Microsoft 代理程式伺服器會維護使用者目前可用的命令清單。 
 -   [命令物件方法](commands-object-methods.md)
 -   [命令物件屬性](commands-object-properties.md)
 
- 
+ 
 
- 
+ 

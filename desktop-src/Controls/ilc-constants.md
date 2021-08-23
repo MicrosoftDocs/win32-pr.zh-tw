@@ -24,12 +24,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f27f9a83c119b8e201ba41c002bf7c166ba3e4dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac1197604750e5da9248200b2dbcf37e53611d83842a401aafc3d2ded70c9179
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958687"
 ---
 # <a name="image-list-creation-flags"></a>影像清單建立旗標
 
@@ -50,8 +50,8 @@ ms.locfileid: "104465041"
 | <span id="ILC_PALETTE"></span><span id="ilc_palette"></span><dl> <dt>**Ilc.out \_調色板**</dt> <dt>0x00000800</dt> </dl>                            | 未實作。<br/>                                                                                                                                                                  |
 | <span id="ILC_MIRROR"></span><span id="ilc_mirror"></span><dl> <dt>**Ilc.out \_鏡像**</dt> <dt>0x00002000</dt> </dl>                               | 如果進程已鏡像，則鏡像包含的圖示<br/>                                                                                                                            |
 | <span id="ILC_PERITEMMIRROR"></span><span id="ilc_peritemmirror"></span><dl> <dt>**Ilc.out \_PERITEMMIRROR**</dt> <dt>0x00008000</dt> </dl>          | 導致鏡像程式碼在插入一組影像（與整個區域）時，將每個專案鏡像。<br/>                                                                             |
-| <span id="ILC_ORIGINALSIZE"></span><span id="ilc_originalsize"></span><dl> <dt>**Ilc.out \_ORIGINALSIZE**</dt> <dt>0x00010000</dt> </dl>             | **Windows Vista （含）以後版本。** Imagelist 應接受小於設定的影像，並根據新增的影像套用原始大小。<br/>                                                        |
-| <span id="ILC_HIGHQUALITYSCALE"></span><span id="ilc_highqualityscale"></span><dl> <dt>**Ilc.out \_HIGHQUALITYSCALE**</dt> <dt>0x00020000</dt> </dl> | **Windows Vista （含）以後版本。** 保留的。<br/>                                                                                                                                            |
+| <span id="ILC_ORIGINALSIZE"></span><span id="ilc_originalsize"></span><dl> <dt>**Ilc.out \_ORIGINALSIZE**</dt> <dt>0x00010000</dt> </dl>             | **WindowsVista 和更新版本。** Imagelist 應接受小於設定的影像，並根據新增的影像套用原始大小。<br/>                                                        |
+| <span id="ILC_HIGHQUALITYSCALE"></span><span id="ilc_highqualityscale"></span><dl> <dt>**Ilc.out \_HIGHQUALITYSCALE**</dt> <dt>0x00020000</dt> </dl> | **WindowsVista 和更新版本。** 保留的。<br/>                                                                                                                                            |
 
 
 
@@ -61,8 +61,8 @@ ms.locfileid: "104465041"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Shlobj.h。h</dt> </dl> |
 
 
