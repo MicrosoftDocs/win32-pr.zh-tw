@@ -4,12 +4,12 @@ description: 本主題包含範例應用程式，示範如何使用 HTTP 伺服�
 ms.assetid: 49952ff5-ac8b-4192-a446-5a117f9a8e52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42c659d007d6e9325c89b6cef40e8b56f22d376b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b2e6db90d82f723614f6a49f83c4a0b2a63c6bde0159d72720bd2176a98b245b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682908"
 ---
 # <a name="http-server-sample-application"></a>HTTP 伺服器範例應用程式
 
@@ -813,9 +813,9 @@ Done:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

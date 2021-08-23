@@ -3,17 +3,17 @@ title: 訊息 (Windows Web 服務)
 description: 訊息是封裝傳輸或接收之資料的物件。
 ms.assetid: edc810d9-7d78-4b79-8cbb-e87401f6ae41
 keywords:
-- 適用于 Windows 的訊息 Web 服務
+- Windows 的訊息 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 704df318e10521bd56e62632af16e683b7baccfc
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: f1722cbe4a956ef16a1b7195158b695f551419ad600c64f552e92700d3e4ee57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104567110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657091"
 ---
 # <a name="message-windows-web-services"></a>訊息 (Windows Web 服務)
 
@@ -46,7 +46,7 @@ ms.locfileid: "104567110"
 
 下列 API 元素會與訊息一起使用。
 
-| 回呼                                                        | Description                                                                                                                                                                                                                              |
+| 回呼                                                        | 描述                                                                                                                                                                                                                              |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WS \_ 訊息 \_ 完成 \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_message_done_callback) | 通知呼叫端訊息已完成使用提供給 WsReadEnvelopeStart 函式的 WS \_ xml \_ 讀取器結構，或 \_ \_ 提供給 WsWriteEnvelopeStart 函數的 ws xml 寫入器結構。 |
 
@@ -104,7 +104,7 @@ ms.locfileid: "104567110"
 
 
 
-| Handle                        | Description                                         |
+| Handle                        | 描述                                         |
 |-------------------------------|-----------------------------------------------------|
 | [WS \_ 訊息](ws-message.md) | 用來參考訊息物件的不透明類型。 |
 
@@ -114,7 +114,7 @@ ms.locfileid: "104567110"
 
 
 
-| 結構                                                | Description                                                                          |
+| 結構                                                | 描述                                                                          |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [**WS \_ 錯誤**](/windows/desktop/api/WebServices/ns-webservices-ws_fault)                            | 在訊息本文中攜帶的錯誤值，指出處理失敗。 |
 | [**WS \_ \_ 錯誤碼**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_code)                 | 代表錯誤碼。                                                             |

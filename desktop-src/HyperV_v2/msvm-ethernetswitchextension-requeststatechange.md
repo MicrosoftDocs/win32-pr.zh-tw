@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 693537ef9324d6c77670b0a2471f452ad8ff0f1b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 63ba89b1a6ae93d3680e34ffaa34ed5410732d9e44d48e8e8b105e480e32481a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524568"
 ---
 # <a name="requeststatechange-method-of-the-msvm_ethernetswitchextension-class"></a>Msvm EthernetSwitchExtension 類別的 RequestStateChange 方法 \_
 

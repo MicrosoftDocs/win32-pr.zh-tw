@@ -4,12 +4,12 @@ ms.assetid: 8cb91b21-f6db-4f49-827d-1ec739ff4f45
 title: MsiPrint ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cb0dd876f1a98e68c6ad61c7c122e1b51fa9c16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbd2107e4930e7d2d410846f656f25143926f8675f354976d866b2ee5d547b0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519778"
 ---
 # <a name="msiprint-controlevent"></a>MsiPrint ControlEvent
 

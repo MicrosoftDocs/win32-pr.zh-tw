@@ -4,12 +4,12 @@ ms.assetid: 8997a391-bf61-4ec9-8ffc-fe3e6b92d63a
 title: midi/in
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d8119990af37cb030211b7dcc3a75d5261411f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d309fe510b08a1e86ef6a00b34a9e3d3282c993babe78eb45aeb6ebb0dab1eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659948"
 ---
 # <a name="midiin"></a>midi/in
 

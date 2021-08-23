@@ -4,12 +4,12 @@ ms.assetid: 9147cd20-eeae-4ad4-8d51-ac1d68a4b2c5
 title: 瞭解國際化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df3fc38ab844ec991c0e87f286ffb48c3d48ec7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed47364da56e2c5ab5e13001b1b49360b23caa39997484e5058022516f437b60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638788"
 ---
 # <a name="understanding-internationalization"></a>瞭解國際化
 

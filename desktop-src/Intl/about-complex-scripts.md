@@ -4,12 +4,12 @@ ms.assetid: bceeb0d6-bda3-43bf-984e-87fbfb327578
 title: 關於複雜字集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edb1929a58e7810fb51bcb2b7a6bf9d5a762282e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1e865b7638419178e3339169e56e8ceb111bcc65b925d9c337b5b71d0341827
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520648"
 ---
 # <a name="about-complex-scripts"></a>關於複雜字集
 

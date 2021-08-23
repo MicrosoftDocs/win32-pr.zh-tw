@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: a7c8fcf85bd23c13f0e7501d59c3db62c2bf82f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 084ee3ce04a560ce50c3ab0391f808bc09aed1bb90da6a34b86755b9b64ae772
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684208"
 ---
 # <a name="nairealm-hotspot2-element"></a>NAIRealm (Hotspot2) 元素
 

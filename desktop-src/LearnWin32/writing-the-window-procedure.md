@@ -4,12 +4,12 @@ description: 撰寫視窗程式
 ms.assetid: f022bb88-6e4c-4ec4-9eef-f125ad92167e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 832aba88211a7decf20c233f5d9ab4fbeb1b1c27
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 853f5effe693e10ad0c5515e9d2ea87d200a1e7dd9b0c79da46228909e53deef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520458"
 ---
 # <a name="writing-the-window-procedure"></a>撰寫視窗程式
 
@@ -25,7 +25,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 - *uMsg* 是訊息代碼;例如， [**WM \_ 大小**](/windows/desktop/winmsg/wm-size) 訊息表示視窗已調整大小。
 - *wParam* 和 *lParam* 包含與訊息相關的其他資料。 確切的意義取決於訊息碼。
 
-**LRESULT** 是您的程式傳回給 Windows 的整數值。 它包含您的程式對特定訊息的回應。 此值的意義取決於訊息碼。 **回呼** 是函數的呼叫慣例。
+**LRESULT** 是您的程式傳回 Windows 的整數值。 它包含您的程式對特定訊息的回應。 此值的意義取決於訊息碼。 **回呼** 是函數的呼叫慣例。
 
 一般的視窗程式只是在訊息程式碼上切換的大型 switch 語句。 針對您想要處理的每個訊息新增案例。
 
@@ -84,7 +84,7 @@ return DefWindowProc(hwnd, uMsg, wParam, lParam);
 
 當您的視窗程式執行時，它會封鎖在相同執行緒上建立之 windows 的任何其他訊息。 因此，請避免在您的視窗程式內進行冗長的處理。 例如，假設您的程式開啟了 TCP 連線，並無限期等待伺服器回應。 如果您在視窗程式中這麼做，則在要求完成之前，您的 UI 將不會回應。 在這段時間內，視窗無法處理滑鼠或鍵盤輸入、重新繪製或甚至關閉。
 
-相反地，您應該使用 Windows 內建的多工工具之一，將工作移至另一個執行緒：
+相反地，您應該使用內建于 Windows 中的其中一個多工設備，將工作移至另一個執行緒：
 
 - 建立新的執行緒。
 - 使用執行緒集區。

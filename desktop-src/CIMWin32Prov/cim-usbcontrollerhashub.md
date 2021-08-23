@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ba0f6d9a618a194faa8d16f9b2f53c6ce10653cf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f218fa125470793a680251fe9ae5b3d0be4a211626915d2214358c351b8f0cd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547748"
 ---
 # <a name="cim_usbcontrollerhashub-class"></a>CIM \_ USBControllerHasHub 類別
 

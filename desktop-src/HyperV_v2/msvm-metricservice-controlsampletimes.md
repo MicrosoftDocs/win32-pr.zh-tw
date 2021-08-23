@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1bb3797523153592610714406306035f59fc844c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea13050c2c8e52d5786a97b3b749f10e48a73c4ecf1274e0415967ad25c9d9ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521478"
 ---
 # <a name="controlsampletimes-method-of-the-msvm_metricservice-class"></a>Msvm MetricService 類別的 ControlSampleTimes 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: b37337b7-b3be-4f49-b350-df5e3c88e3cf
 title: C + + DVD 參考頁面的快捷方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc7caed2aea59e41cf666c6ed63d220f986a8e36
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 48fa7d2f78b7bbdfbcbfa5c71a91034a19b108b2f785cf3cec47017e46d6d7f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583258"
 ---
 # <a name="shortcuts-to-c-dvd-reference-pages"></a>C + + DVD 參考頁面的快捷方式
 

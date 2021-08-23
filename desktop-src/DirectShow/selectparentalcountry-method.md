@@ -4,17 +4,17 @@ ms.assetid: 70368351-c7b9-4640-a4f7-7d972b8e4628
 title: SelectParentalCountry 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2216d2b2ed72436aca003b42cbf811c8a01bd8fa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d148145f2c38cdb01da209e02f6400301da851e1d2b41e5adaf84b2338ad21c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684058"
 ---
 # <a name="selectparentalcountry-method"></a>SelectParentalCountry 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ee7fa33f142e47b9493e53aa5bc4779623d6ef40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed353e0d9c4d3049e120b00a11bc3d1bf85e3a0b42e52deb4ed277b9bde9b96b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523290"
 ---
 # <a name="msvm_guestclusterinformation-class"></a>Msvm \_ GuestClusterInformation 類別
 
@@ -167,7 +167,7 @@ VM 的客體作業系統所屬叢集中的節點數目。
 上次移動其中一個共用磁片資源時的時鐘滴答計數。
 
 > [!Note]  
-> 這個屬性是在 Windows 10、1703版和 Windows Server 2016 中新增的。
+> 這個屬性是在 Windows 10、1703版和 Windows Server 2016 中加入的。
 
  
 
@@ -211,7 +211,7 @@ VM 的客體作業系統所屬叢集中的節點數目。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                             |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                          |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |

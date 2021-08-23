@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d9123b7f63238cdb2007ecea49aaf0bca236a7b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6dc70b6be08d658549dc97a5d7ef89e56ade28e4e62c0dc8878a549dfb33fdd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513508"
 ---
 # <a name="delete-method-of-the-win32_tsgatewayresourcegroup-class"></a>Win32 TSGatewayResourceGroup 類別的 Delete 方法 \_
 

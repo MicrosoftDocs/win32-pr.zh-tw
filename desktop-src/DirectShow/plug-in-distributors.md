@@ -4,12 +4,12 @@ ms.assetid: 80ff713d-f704-40d3-9317-cbf33d932207
 title: 外掛程式散發者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7817e5e31b29444cc596b0be583be2198adc018
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e70d253066fdde4f082a964c56a221331cfd127c0984db2a7b1933a0bb352425
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "107000040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583658"
 ---
 # <a name="plug-in-distributors"></a>外掛程式散發者
 

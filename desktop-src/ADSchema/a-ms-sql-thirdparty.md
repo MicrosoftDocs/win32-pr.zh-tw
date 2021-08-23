@@ -1,11 +1,11 @@
 ---
-title: ThirdParty 屬性
+title: ThirdParty 屬性的 MS SQL
 description: 這個屬性會指出發行集資料是否來自 SQL Server 以外的資料來源。 如果是來自另一個來源，則會設定為 TRUE。
 ms.assetid: 84d93b9f-0acc-47da-9f1b-44d8468ad53e
 ms.tgt_platform: multiple
 keywords:
-- ThirdParty 屬性 AD 架構
-- ThirdParty 屬性 AD 架構
+- ThirdParty 屬性 AD 架構的 MS SQL
+- ThirdParty 屬性 AD 架構的 mS SQL
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cc2b60f9589990f6357ee3c4cd24215e8af21df
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4f39ff1ba6d4c6ff20e73aef4af5c9c20fae295632127fb0ad0ea809dc0702c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583298"
 ---
-# <a name="ms-sql-thirdparty-attribute"></a>ThirdParty 屬性
+# <a name="ms-sql-thirdparty-attribute"></a>ThirdParty 屬性的 MS SQL
 
 這個屬性會指出發行集資料是否來自 SQL Server 以外的資料來源。 如果是來自另一個來源，則會設定為 **TRUE**。
 
@@ -29,8 +29,8 @@ ms.locfileid: "103686827"
 
 | 進入 | 值 |
 |-------------------|--------------------------------------|
-| CN                | ThirdParty                    |
-| Ldap-顯示名稱 | ThirdParty                    |
+| CN                | 毫秒-SQL-ThirdParty                    |
+| Ldap-顯示名稱 | 毫秒-SQL-ThirdParty                    |
 | 大小              | 4 個位元組                              |
 | 更新許可權  | 此值是由系統所設定。     |
 | 更新頻率  | 當複寫設定時。           |
@@ -58,7 +58,7 @@ ms.locfileid: "103686827"
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -66,7 +66,7 @@ ms.locfileid: "103686827"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "103686827"
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -87,7 +87,7 @@ ms.locfileid: "103686827"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "103686827"
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -108,7 +108,7 @@ ms.locfileid: "103686827"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "103686827"
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -129,7 +129,7 @@ ms.locfileid: "103686827"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "103686827"
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -150,7 +150,7 @@ ms.locfileid: "103686827"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "103686827"
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
 | 在通用類別目錄中      | 否                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
@@ -171,7 +171,7 @@ ms.locfileid: "103686827"
 | Range-Upper            | \-                                                                  |
 | Search-Flags           | 0x00000000                                                          |
 | System-Flags           | 0x00000010                                                          |
-| 中使用的類別        | [**SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)<br/> |
 
 
 

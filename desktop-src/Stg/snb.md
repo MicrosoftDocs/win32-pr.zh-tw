@@ -6,12 +6,12 @@ keywords:
 - 瑞士 央行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69d6860204d9f232c2ffafa4f1f16a1187fee8de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e49a7868912b9d7d1e3d9f3b1f82805e6e285d815eacbc559c887febd23e9e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682778"
 ---
 # <a name="snb"></a>瑞士 央行
 
@@ -45,10 +45,10 @@ typedef OLESTR** SNB;
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Objidl.idl。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Objidl.idl .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Objidl.idl .idl</dt> </dl> |
 
 
 

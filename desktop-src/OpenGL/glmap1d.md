@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35aee409ab814f9ec2f09add79a700fde4b43998
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 90f1d17312cae14da955641d0009235a45fa23e65a3a04e35f692a4bb5418722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103696366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520428"
 ---
 # <a name="glmap1d-function"></a>glMap1d 函式
 
@@ -115,7 +115,7 @@ void WINAPI glMap1d(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標* 不是可接受的值。<br/>                                                                                        |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *u1* 等於 *u2*。<br/>                                                                                                    |

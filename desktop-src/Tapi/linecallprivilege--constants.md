@@ -4,12 +4,12 @@ ms.assetid: a58b7e9e-696e-4421-9b31-1ba8afe6e03b
 title: 'LINECALLPRIVILEGE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac2569ec255d2da3ad384292eb87afaa285f54b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c00dd43442345c545bb5e0b1718131b6815fd236f9c7d770c0f3b47b10b47a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660048"
 ---
 # <a name="linecallprivilege_-constants"></a>LINECALLPRIVILEGE \_ 常數
 

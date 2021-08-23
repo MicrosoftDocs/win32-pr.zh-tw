@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30947d059f9115cbf7c63b03380e86dad72775b5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 56160df9d77876c9c06de0a68921712099ca1d243d96f2c3da31e437c717a271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553008"
 ---
 # <a name="ms-dns-parent-has-secure-delegation-attribute"></a>ms-DNS-父系-具有-安全委派屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "104108164"
 | 連結識別碼                | \-                                       |
 | MAPI-Id                | \-                                       |
 | System-Only            | 否                                    |
-| 是-單一值       | 對                                     |
+| 是-單一值       | 是                                     |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                             |

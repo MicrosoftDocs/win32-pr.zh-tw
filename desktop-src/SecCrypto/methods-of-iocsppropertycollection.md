@@ -4,12 +4,12 @@ ms.assetid: 7273a8ed-cf0e-40d8-8cac-4effbdf41ae8
 title: IOCSPPropertyCollection 的方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 794fb3118a9ee8734eadfc0761c7b1d16df6bbbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36114a69b182610b860dfe031fc07546921013b72bc1982c76a21edb390b8d5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683188"
 ---
 # <a name="methods-of-iocsppropertycollection"></a>IOCSPPropertyCollection 的方法
 

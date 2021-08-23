@@ -4,12 +4,12 @@ ms.assetid: 9fc0a9e5-934c-4510-8fbb-1fb2817aa0ea
 title: 存取安全性呼叫內容資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6d7e5160c766783b6d43822571d624e0a595c9e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 38e438ce3cfa137ece28bce70d2c820becede231b1b0381da38dd7c6bcc21cb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104190966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639118"
 ---
 # <a name="accessing-security-call-context-information"></a>存取安全性呼叫內容資訊
 
@@ -38,13 +38,13 @@ ms.locfileid: "104190966"
 
  
 
-如需有關如何使用此集合的詳細資訊，Microsoft Visual Basic 開發人員應該會看到 [**SecurityCallCoNtext**](securitycallcontext.md) 類別。 C 和 c + + 開發人員應該參考 [**ISecurityCallCoNtext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext)。
+如需有關如何使用此集合的詳細資訊，Microsoft Visual Basic 開發人員應該會看到 [**SecurityCallCoNtext**](securitycallcontext.md)類別。 C 和 c + + 開發人員應該參考 [**ISecurityCallCoNtext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext)。
 
 ## <a name="securitycallers-collection"></a>SecurityCallers 集合
 
 [**SecurityCallers**](securitycallers.md)集合表示可以使用介於0和1（含）之間的索引來取出的呼叫端。 每個呼叫端都會以 [**SecurityIdentity**](securityidentity.md) 物件表示。
 
-如需此集合的詳細資訊，Visual Basic 開發人員應該會看到 [**SecurityCallers**](securitycallers.md) 類別。 C 和 c + + 開發人員應該參考 [**ISecurityCallersColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll)。
+如需此集合的詳細資訊，Visual Basic 開發人員應該會看到 [**SecurityCallers**](securitycallers.md)類別。 C 和 c + + 開發人員應該參考 [**ISecurityCallersColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll)。
 
 ## <a name="securityidentity-collection"></a>SecurityIdentity 集合
 
@@ -62,7 +62,7 @@ ms.locfileid: "104190966"
 
  
 
-如需此集合的詳細資訊，Visual Basic 開發人員應該會看到 [**SecurityIdentity**](securityidentity.md) 類別。 C 和 c + + 開發人員應該參考 [**ISecurityIdentityColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll)。
+如需此集合的詳細資訊，Visual Basic 開發人員應該會看到 [**SecurityIdentity**](securityidentity.md)類別。 C 和 c + + 開發人員應該參考 [**ISecurityIdentityColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll)。
 
 ## <a name="related-topics"></a>相關主題
 

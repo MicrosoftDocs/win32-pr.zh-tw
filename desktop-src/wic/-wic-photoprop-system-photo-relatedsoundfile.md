@@ -4,12 +4,12 @@ ms.assetid: 3b212d90-7ae2-4b7c-b77a-2017490aca40
 title: RelatedSoundFile 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07a29adb71f572868f21b1b8427e71b09616b24c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0aae80ad39b8d3dab271aacf4815836e8b386c150ec80be63a83a4ab5937635e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549428"
 ---
 # <a name="systemphotorelatedsoundfile-photo-metadata-policy"></a>RelatedSoundFile 相片中繼資料原則
 

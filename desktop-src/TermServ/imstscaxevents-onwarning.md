@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aadc7013f34c93406f93841896a9041bbb1b7cfb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bbcebe5c86bb50913ba11d4485f30757f399467aa30730f8cd27de50e360c0cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657138"
 ---
 # <a name="imstscaxeventsonwarning-method"></a>IMsTscAxEvents：： OnWarning 方法
 

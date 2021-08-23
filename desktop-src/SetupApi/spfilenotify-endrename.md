@@ -4,12 +4,12 @@ ms.assetid: 8d5a8d17-de4f-4100-aa72-dfefeb8d4db9
 title: 'SPFILENOTIFY_ENDRENAME 訊息 (Setupapi.log .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a316d4dfe72ee9eb7d85fdb70eb90e1cf3d3f463
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f34ad30cc103e8a13277d3383bad8c2e46409eaabe6f957ace27aebc9759990
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683118"
 ---
 # <a name="spfilenotify_endrename-message"></a>SPFILENOTIFY \_ ENDRENAME 訊息
 
@@ -53,8 +53,8 @@ SPFILENOTIFY_ENDRENAME
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Setupapi.log。h</dt> </dl> |
 
 

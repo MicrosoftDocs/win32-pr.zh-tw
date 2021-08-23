@@ -4,17 +4,17 @@ ms.assetid: d815f7f1-9e11-40a5-99e5-23eb478c33a1
 title: 'SelectLowerButton 方法 (區段 .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd254438436641cc0367e4d85f8f17e77e3bb96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 89d932cfd4ca87c17674e9bf27799989c5a8d2ee64b106d32fcd25dba0973a4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684088"
 ---
 # <a name="selectlowerbutton-method"></a>SelectLowerButton 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

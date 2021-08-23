@@ -4,12 +4,12 @@ ms.assetid: 1cfba455-9a15-45f3-8d56-74b8348e080e
 title: 'LINE_MONITORMEDIA 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7b6e3d0d2928ab3256b844a27727657978dbe0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9fec42f0e8aa630b518f989a9237762edc71281767b281f7af78eb54210138d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519018"
 ---
 # <a name="line_monitormedia-message"></a>行 \_ MONITORMEDIA 訊息
 
@@ -57,7 +57,7 @@ ms.locfileid: "106994280"
 *dwParam3* 
 </dt> <dd>
 
-「滴答計數」 (從 Windows 啟動) 偵測到指定媒體的毫秒數。 若是早于2.0 的 TAPI 版本，則不會使用此參數。
+從偵測到指定媒體的) 開始 Windows 開始，「滴答計數」 (毫秒數。 若是早于2.0 的 TAPI 版本，則不會使用此參數。
 
 </dd> </dl>
 

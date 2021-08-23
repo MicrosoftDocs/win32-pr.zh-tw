@@ -6,12 +6,12 @@ keywords:
 - MIDL 和 RPC MIDL、介面、標頭檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61331d8bb72d322987c13d02b04632c95424e755
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3cd107bbf741f3259ac474d03a3ec1eba5c4ab8217df3ff6afa5ef45e7b4945a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582128"
 ---
 # <a name="the-header-file"></a>標頭檔
 
@@ -19,9 +19,9 @@ ms.locfileid: "104021783"
 
 MIDL 編譯器參數 [**/header**](-header.md) 和 [**/out**](-out.md) 會影響標頭檔。
 
- 
+ 
 
- 
+ 
 
 
 

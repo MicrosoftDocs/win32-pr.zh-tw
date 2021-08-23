@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: be85c51cb507fea3cea14f1706ffa8f67af06c42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f2f543cff29464d76f1b2729efa9bca1a0c677d3cd7173975f59d2007aafb7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682708"
 ---
 # <a name="checkvirtualsystemismigratabletosystem-method-of-the-cim_virtualsystemmigrationservice-class"></a>CIM VirtualSystemMigrationService 類別的 CheckVirtualSystemIsMigratableToSystem 方法 \_
 
@@ -92,7 +92,7 @@ uint32 CheckVirtualSystemIsMigratableToSystem(
 
 
 
-| 傳回碼/值                                                                                                                                                | Description                                                                                                                                                                                                                                                                                                                                                                     |
+| 傳回碼/值                                                                                                                                                | 描述                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**已完成，沒有錯誤**</dt> <dt>0</dt> </dl>    | 檢查已執行;透過 \[ Out \] *IsMigratable* 參數值回報的結果。<br/>                                                                                                                                                                                                                                                                          |
 | <dl> <dt>**不支援**</dt> <dt>1</dt> </dl>              | 實作為不支援的方法。 沒有透過 \[ Out \] *IsMigratable* 參數值回報的結果。<br/>                                                                                                                                                                                                                                                |

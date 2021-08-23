@@ -4,12 +4,12 @@ ms.assetid: 88de8dea-56d5-4bfc-8837-03da81b7d0f9
 title: Windows 上的 WSD 應用程式開發
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 167cd1ad013ea387a6e33b6de449f3f84d49db13
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c3d02810f55cc7ae450323543d7a0ee88f055b247fed589057e7d77710f4f86d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639348"
 ---
 # <a name="wsd-application-development-on-windows"></a>Windows 上的 WSD 應用程式開發
 
@@ -21,4 +21,4 @@ Windows SDK 包含一些範例 WSDL 檔案、WsdCodeGen 設定檔案和產生的
 
 如果您想要使用 WSD 通訊協定來列舉裝置，並查詢 WSD 裝置中繼資料，您可以改用函式 [探索](/previous-versions/windows/desktop/fundisc/fd-portal) API。
 
-如果您想要執行不會執行 Windows 的 WSD 裝置，請參閱 [Wsd 裝置開發](wsd-device-development.md)。
+如果您想要執行未 Windows 執行的 wsd 裝置，請參閱[wsd 裝置開發](wsd-device-development.md)。

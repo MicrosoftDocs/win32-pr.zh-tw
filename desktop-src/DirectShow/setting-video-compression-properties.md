@@ -4,12 +4,12 @@ ms.assetid: 2be03a2c-39a5-46da-9bbc-af42c08150ab
 title: 設定影片壓縮屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d29ed7e42745ffd51fca14b7da5f72c749281e7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d3f1d73d27acb99e5a197ec4501411669278a6fd5c7b857875141d8831c7173f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583278"
 ---
 # <a name="setting-video-compression-properties"></a>設定影片壓縮屬性
 

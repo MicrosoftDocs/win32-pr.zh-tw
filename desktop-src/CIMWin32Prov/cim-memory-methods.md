@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_Memory 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8e77165e2a9b8487362302573d8b0011c054d2a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 625a58f6f1947eb25f2a0b4f85da95bf005ad50bfbb7d49f24205f4904b00af3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548188"
 ---
 # <a name="cim_memory-methods"></a>CIM \_ 記憶體方法
 

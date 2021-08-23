@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8720d5b401a1a1cec5240920bfb4a3811012420
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 1a11731fbe212c8b87cd52300da1885206230c7329491a6512ab3c261923c74e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104185468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658218"
 ---
 # <a name="use_advanced_drm"></a>使用 \_ Advanced \_ DRM
 
@@ -42,9 +42,9 @@ g \_ wszWMUse \_ Advanced \_ DRM
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 32161538-c1bd-41a0-bb4f-a32883fe8285
 title: 更新登錄資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4aa6a77f231f3a4fe754b589e3f20ed67e78e548
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 579ef64739bbe063d6fed19234a74b89b86b8b257793a1a26e83fd651256d189
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683048"
 ---
 # <a name="updating-registry-information"></a>更新登錄資訊
 

@@ -4,12 +4,12 @@ ms.assetid: 43d78acd-1f02-417d-97be-1682e90a81a2
 title: 使用自訂控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c713d2b3912d2bbe4a689c7d8d05d4d977a6eb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70699a141f0319f917953e25363db0e0cd38eb21ecc06345c581b55526ad6bbb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119551878"
 ---
 # <a name="using-custom-controls"></a>使用自訂控制項
 

@@ -4,12 +4,12 @@ ms.assetid: ea3c669f-cb44-4201-974a-2bc1ff56b462
 title: TSPI 2.2 版的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0518a86722c452eccb9ddd382fa5380bf66da5f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c826b7eab023d1851f7031d2b632b25fde36aeb5dd1bf04706012ffb779b01bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659797"
 ---
 # <a name="whats-new-for-tspi-version-22"></a>TSPI 2.2 版的新功能
 

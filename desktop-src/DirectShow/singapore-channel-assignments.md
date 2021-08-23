@@ -4,12 +4,12 @@ ms.assetid: 77d4f4fc-76ec-4996-8f25-05ad8840d49f
 title: 新加坡通道指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccf7ae41242244ace47cc457950eedd0c82a0f5a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe915305fd5aaaace3599cafae6281774f4bf35c501bb587fe82e8d9752fd556
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683588"
 ---
 # <a name="singapore-channel-assignments"></a>新加坡通道指派
 
@@ -17,7 +17,7 @@ ms.locfileid: "103687799"
 
 如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。
 
-在 Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
+Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
 
 -   [廣播指派](#broadcast-assignments)
 -   [纜線指派](#cable-assignments)

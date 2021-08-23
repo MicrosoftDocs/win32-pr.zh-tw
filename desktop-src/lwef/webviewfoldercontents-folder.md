@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e88fd7a54971fa088bdddbc78d3d8df4af610875
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: af475d55351d9278ca954a9ebb896ef03928538b9984a2f87478ed3358a1741e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607838"
 ---
 # <a name="webviewfoldercontentsfolder-property"></a>WebViewFolderContents 資料夾屬性
 
@@ -44,7 +44,7 @@ Folder = WebViewFolderContents.Folder
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何在內嵌于 HTML 的 JScript 中，適當使用此屬性。
+下列範例示範如何在 JScript 內嵌于 HTML 中，適當使用此屬性。
 
 
 ```HTML
@@ -84,10 +84,10 @@ Folder = WebViewFolderContents.Folder
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

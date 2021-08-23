@@ -4,12 +4,12 @@ description: 使用全域介面資料表的時機
 ms.assetid: def8f7f8-9d0d-49a4-9d5c-40233903eea5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f89bbd7437b65c85abe89e8d647cbd73555c2d6a
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 37457e0e1b35c0c1acb2c8f84750f3d0f08c1344eaf27e0361c442aea3be23ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639228"
 ---
 # <a name="when-to-use-the-global-interface-table"></a>使用全域介面資料表的時機
 
@@ -18,7 +18,7 @@ ms.locfileid: "104024137"
 > [!Note]  
 > 如果介面指標只是取消封送一次，您可能會想要使用 [**CoMarshalInterThreadInterfaceInStream**](/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream) 函數。 它也可以用來將介面指標從某個執行緒傳遞至相同進程中的另一個執行緒。
 
- 
+ 
 
 [**IGlobalInterfaceTable**](/windows/desktop/api/ObjIdl/nn-objidl-iglobalinterfacetable)介面也會讓程式設計人員更容易發生另一個困難的問題。 當下列條件成立時，就會發生此問題：
 
@@ -36,6 +36,6 @@ ms.locfileid: "104024137"
 [建立全域介面資料表](creating-the-global-interface-table.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

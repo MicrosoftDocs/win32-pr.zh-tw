@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 226054fc7b1371bb088deb70ec9e87ea5a340b07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 31e40da93f0e29fb183cea540b0f195d61c4969d65c2b7829bf86d8e3c8eba81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512398"
 ---
 # <a name="imstscaxeventsonenterfullscreenmode-method"></a>IMsTscAxEvents：： OnEnterFullScreenMode 方法
 

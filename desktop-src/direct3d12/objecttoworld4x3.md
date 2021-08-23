@@ -12,12 +12,12 @@ api_name:
 - ObjectToWorld4x3
 api_type:
 - NA
-ms.openlocfilehash: bc91c6e98aceb13af3f589f873a4b96c2b1843c4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 22ad7bfafae89e33001d1d72878bc268ebfbd44649176b118a447fa16cf97d76
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608268"
 ---
 # <a name="objecttoworld4x3"></a>ObjectToWorld4x3
 

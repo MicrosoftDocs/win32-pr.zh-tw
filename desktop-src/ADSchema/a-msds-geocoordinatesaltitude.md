@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f700e1bdd296019f87396f2cb5f1a919c46b3f2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e3fc5a17a3fd87070ee9e0bd94022d237fffd129ec9e895320b64c46dbb3c9a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552369"
 ---
 # <a name="ms-ds-geocoordinates-altitude-attribute"></a>GeoCoordinates-海拔屬性
 
@@ -53,8 +53,8 @@ ms.locfileid: "104467360"
 | 連結識別碼                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | 否                                                |
-| 是-單一值       | 對                                                 |
-| 已編制索引             | 對                                                 |
+| 是-單一值       | 是                                                 |
+| 已編制索引             | 是                                                 |
 | 在通用類別目錄中      | 否                                                |
 | NT-Security-描述元 | O:BAG：不正確： S：                                         |
 | Range-Lower            | \-                                                   |

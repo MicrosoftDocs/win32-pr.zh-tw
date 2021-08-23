@@ -1,30 +1,30 @@
 ---
-title: IMsTscAx Connect 方法
+title: IMsTscAx 連線方法
 description: 使用目前在控制項上設定的屬性起始連接。
 ms.assetid: 9bcbdc13-6c66-4737-82a4-98329f173743
 ms.tgt_platform: multiple
 keywords:
-- Connect 方法遠端桌面服務
-- Connect 方法遠端桌面服務，IMsTscAx 介面
-- IMsTscAx 介面遠端桌面服務，Connect 方法
-- Connect 方法遠端桌面服務，IMsRdpClient 介面
-- IMsRdpClient 介面遠端桌面服務，Connect 方法
-- Connect 方法遠端桌面服務，IMsRdpClient2 介面
-- IMsRdpClient2 介面遠端桌面服務，Connect 方法
-- Connect 方法遠端桌面服務，IMsRdpClient3 介面
-- IMsRdpClient3 介面遠端桌面服務，Connect 方法
-- Connect 方法遠端桌面服務，IMsRdpClient4 介面
-- IMsRdpClient4 介面遠端桌面服務，Connect 方法
-- Connect 方法遠端桌面服務，IMsRdpClient5 介面
-- IMsRdpClient5 介面遠端桌面服務，Connect 方法
-- Connect 方法遠端桌面服務，IMsRdpClient6 介面
-- IMsRdpClient6 介面遠端桌面服務，Connect 方法
-- Connect 方法遠端桌面服務，IMsRdpClient7 介面
-- IMsRdpClient7 介面遠端桌面服務，Connect 方法
-- Connect 方法遠端桌面服務，IMsRdpClient8 介面
-- IMsRdpClient8 介面遠端桌面服務，Connect 方法
-- Connect 方法遠端桌面服務，IMsRdpClient9 介面
-- IMsRdpClient9 介面遠端桌面服務，Connect 方法
+- 連線方法遠端桌面服務
+- 連線方法遠端桌面服務，IMsTscAx 介面
+- IMsTscAx 介面遠端桌面服務，連線方法
+- 連線方法遠端桌面服務，IMsRdpClient 介面
+- IMsRdpClient 介面遠端桌面服務，連線方法
+- 連線方法遠端桌面服務，IMsRdpClient2 介面
+- IMsRdpClient2 介面遠端桌面服務，連線方法
+- 連線方法遠端桌面服務，IMsRdpClient3 介面
+- IMsRdpClient3 介面遠端桌面服務，連線方法
+- 連線方法遠端桌面服務，IMsRdpClient4 介面
+- IMsRdpClient4 介面遠端桌面服務，連線方法
+- 連線方法遠端桌面服務，IMsRdpClient5 介面
+- IMsRdpClient5 介面遠端桌面服務，連線方法
+- 連線方法遠端桌面服務，IMsRdpClient6 介面
+- IMsRdpClient6 介面遠端桌面服務，連線方法
+- 連線方法遠端桌面服務，IMsRdpClient7 介面
+- IMsRdpClient7 介面遠端桌面服務，連線方法
+- 連線方法遠端桌面服務，IMsRdpClient8 介面
+- IMsRdpClient8 介面遠端桌面服務，連線方法
+- 連線方法遠端桌面服務，IMsRdpClient9 介面
+- IMsRdpClient9 介面遠端桌面服務，連線方法
 topic_type:
 - apiref
 api_name:
@@ -44,14 +44,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c267b24c3dd27dd875d895674d98e1350f757c82
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4372b19c9dba51714c6927d5e54468e143033689bfd9c74db78bbff8812e45ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513108"
 ---
-# <a name="imstscaxconnect-method"></a>IMsTscAx：： Connect 方法
+# <a name="imstscaxconnect-method"></a>IMsTscAx：：連線方法
 
 使用目前在控制項上設定的屬性起始連接。
 
@@ -76,11 +76,11 @@ HRESULT Connect();
 
 唯一必要的屬性是伺服器名稱。 請參閱 [**伺服器**](imstscax-server.md) 屬性。
 
-控制項會以非同步方式連接，因此從 Connect 呼叫傳回時，只會指出已成功初始化連接，而不是已完成。 您應該回應 [**IMsTscAxEvents**](imstscaxevents-interface.md) 介面上的事件，以判斷控制項何時成功連接 (或已中斷連線。 ) 
+控制項會以非同步方式連接，因此從連線呼叫傳回時，只會指出已成功初始化連接，而不是已完成。 您應該回應 [**IMsTscAxEvents**](imstscaxevents-interface.md) 介面上的事件，以判斷控制項何時成功連接 (或已中斷連線。 ) 
 
 如果控制項已經連接或處於連接狀態，則這個方法會傳回 **E \_ FAIL** 。
 
-呼叫 **Connect** 之後，您就無法再設定大部分的控制項屬性，直到控制項返回已中斷連線的狀態。
+呼叫 **連線** 之後，就無法再設定大部分的控制項屬性，直到控制項回到中斷連接狀態為止。
 
 如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。
 

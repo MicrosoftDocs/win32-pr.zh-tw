@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9f1acae94ea29d2d57b2952c0b0adc267ad3066c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a7788c894646b3ebb07fc9d3d98aeeda54b9172b5dde01e7eb65975bb2d95d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547408"
 ---
 # <a name="create-method-of-the-win32_scheduledjob-class"></a>Win32 Register-scheduledjob 類別的 Create 方法 \_
 
@@ -569,7 +569,7 @@ StartTime 屬性值的 " (+-) OOO" 區段是本地時間轉譯目前的偏差。
 
 ## <a name="remarks"></a>備註
 
-如果您的排程工作啟動了互動式程式，例如「記事本」，則 **InteractWithDeskto** 屬性必須設定為 **True** ，否則就看不到該程式的畫面。 即使此程式未出現在畫面上，仍會出現在 **工作管理員** 中。
+如果您的排程工作啟動了互動式程式（例如記事本），則 **InteractWithDeskto** 屬性必須設定為 **True** ，否則就看不到該程式的畫面。 即使此程式未出現在畫面上，仍會出現在 **工作管理員** 中。
 
 ## <a name="requirements"></a>規格需求
 

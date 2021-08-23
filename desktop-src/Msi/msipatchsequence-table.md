@@ -4,12 +4,12 @@ ms.assetid: ae8319ad-8136-4201-9fcf-ea58ce05f88b
 title: MsiPatchSequence 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e63252b98156a5eac1ebdc5ed5d94c7a42ec93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc529c0f7d1a4cdd1bab568f64507922d6e28f539636600f88dea603c4fe1a52
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519798"
 ---
 # <a name="msipatchsequence-table"></a>MsiPatchSequence 資料表
 
@@ -66,7 +66,7 @@ Windows Installer 不會以任何不同的方式來解讀 PatchFamily 值，而�
 
 在任何情況下， [小的更新](small-updates.md) 修補程式無法取代 [次要升級](minor-upgrades.md) 或 [重大升級](major-upgrades.md) 修補程式（即使已設定 **msidbPatchSequenceSupersedeEarlier** ）。 
 
-| Name                                   | 值 | 意義                                                           |
+| 名稱                                   | 值 | 意義                                                           |
 |----------------------------------------|-------|-------------------------------------------------------------------|
 |                                        | 0x00  | 指出簡單的排序值。                              |
 | **msidbPatchSequenceSupersedeEarlier** | 0x01  | 表示取代此系列中較早修補程式的修補程式。 |

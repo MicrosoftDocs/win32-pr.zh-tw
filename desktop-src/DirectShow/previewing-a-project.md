@@ -1,17 +1,17 @@
 ---
-description: 預覽專案
+description: 預覽 Project
 ms.assetid: 2efa3f25-a93f-4362-b461-b67475e5d78c
-title: 預覽專案
+title: 預覽 Project
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cd9d299a99a0a7315cec986fbc044d427385647
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 159303c175c459b4d5d93ba4c7b4b2622caddac2a35d3474a3059ac703d62645
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583557"
 ---
-# <a name="previewing-a-project"></a>預覽專案
+# <a name="previewing-a-project"></a>預覽 Project
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
@@ -38,7 +38,7 @@ hr = pRender->RenderOutputPins();
 
 
 
-現在執行篩選圖形。 首先，呼叫 [**IRenderEngine：： GetFilterGraph**](irenderengine-getfiltergraph.md) 方法，以取得篩選圖形管理員 [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) 介面的指標。 然後查詢 [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) 介面的篩選圖形管理員，然後呼叫 [**IMediaControl：： Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run)，如下列程式碼所示：
+現在執行篩選圖形。 首先，呼叫 [**IRenderEngine：： GetFilterGraph**](irenderengine-getfiltergraph.md)方法，以取得篩選 Graph 管理員的 [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder)介面指標。 然後查詢 [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol)介面的篩選 Graph 管理員，然後呼叫 [**IMediaControl：： Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run)，如下列程式碼所示：
 
 
 ```C++
@@ -51,7 +51,7 @@ hr = pControl->Run();
 
 
 
-使用篩選圖形管理員的 [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) 介面來等候預覽完成。 您也可以使用篩選圖形管理員的 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) 介面來搜尋圖形，就像使用檔案播放圖表一樣。
+使用 Filter Graph Manager 的 [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex)介面來等候預覽完成。 您也可以使用 Filter Graph Manager 的 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)介面來搜尋圖形，就像使用檔案播放圖表一樣。
 
 若要再次預覽專案，請將圖形向上搜尋至時間零，然後再次呼叫 **執行** 。 如果您變更時間軸的內容，請執行下列動作：
 
@@ -77,7 +77,7 @@ hr = pControl->Run();
 
 
 
-如需載入和預覽專案檔的完整範例，請參閱 [載入和預覽專案](loading-and-previewing-a-project.md)。
+如需載入和預覽專案檔的完整範例，請參閱[載入和預覽 Project](loading-and-previewing-a-project.md)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -86,7 +86,7 @@ hr = pControl->Run();
 [管理影片編輯專案](managing-video-editing-projects.md)
 </dt> <dt>
 
-[轉譯專案](rendering-a-project.md)
+[轉譯 Project](rendering-a-project.md)
 </dt> </dl>
 
  

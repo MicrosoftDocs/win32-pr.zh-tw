@@ -4,29 +4,29 @@ description: .NET Framework 4.5 是預設值，.NET Framework 3.5 是選擇性�
 ms.assetid: 19B53C82-812A-49AC-87C6-C08E7C199208
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab1f91acc8739b2c660bfb1ba1392ea192511d1c
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: e875f7508bc0940689afde5eb9b3f00407dd2c7dd70e35de52fe580717c8ad53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "106991112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549788"
 ---
 # <a name="net-framework-45-is-default-and-net-framework-35-is-optional"></a>.NET Framework 4.5 是預設值，.NET Framework 3.5 是選擇性的
 
 ## <a name="platforms"></a>平台
 
-**用戶端**   Windows 8  
-**伺服器**   Windows Server 2012  
+**用戶端** Windows 8     
+**伺服器** Windows Server 2012     
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-預設會在 Windows 8 中啟用 .NET Framework 4.5。 Windows 8 預設不包含 .NET 3.5，但 Windows 8 安裝媒體上有提供適用于 .NET 3.5 的檔案做為選擇性功能。
+預設會在 Windows 8 中啟用 .NET Framework 4.5。 Windows 8 預設不包含 .net 3.5，但 Windows 8 安裝媒體上有提供適用于 .net 3.5 的檔案做為選擇性功能。
 
-如果使用者是從 Windows 7 升級至 Windows 8，.NET Framework 3.5 已完全啟用，以確保電腦上的任何應用程式都能正常運作。
+如果使用者要從 Windows 7 升級到 Windows 8，則 .NET Framework 3.5 已完全啟用，以確保電腦上的任何應用程式都能正常運作。
 
 ## <a name="manifestation"></a>表現
 
-如果使用者執行 Windows 8 的全新安裝，然後安裝需要 .NET Framework 3.5 (或 2.0) 的應用程式，則會觸發必要 .NET 3.5 檔案的要求。 通常會在要求使用者提供許可權) 之後，從 Windows Update (下載遺失的檔案，但如果不能存取 Windows Update，除非已指定遺漏檔案的替代來源，否則啟用 .NET Framework 3.5 將會失敗。
+如果使用者執行 Windows 8 的全新安裝，然後安裝需要 .NET Framework 3.5 (或 2.0) 的應用程式，則會觸發必要 .net 3.5 檔案的要求。 通常會在要求使用者提供許可權) 之後，從 Windows Update (下載遺失的檔案，但如果不能存取 Windows Update，除非已指定遺漏檔案的替代來源，否則啟用 .NET Framework 3.5 將會失敗。
 
 ## <a name="mitigation"></a>降低
 
@@ -52,11 +52,11 @@ ms.locfileid: "106991112"
 
 
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 **針對取用者：**
 
-Windows 8 包含一種機制，可在嘗試安裝可轉散發套件或需要 .NET 3.5 的應用程式安裝程式叫用可轉散發套件時，自動啟用 .NET Framework 3.5。
+Windows 8 包含一種機制，可在嘗試安裝可轉散發套件或需要 .net 3.5 的應用程式安裝程式叫用可轉散發套件時，自動啟用 .NET Framework 3.5。
 
 **針對應用程式開發人員 (和 IT 系統管理員) ：**
 
@@ -95,7 +95,7 @@ IT 系統管理員可以根據已安裝的) ，將 .NET 3.5 應用程式設定�
 
 **適用于企業：**
 
-針對設定為使用 WSUS 進行服務的電腦，您可以設定登錄專案以允許電腦使用 Windows Update 來啟用 .NET 3.5，而不是 WSUS (服務仍會從 WSUS 執行（如果您這樣做) ）。
+針對設定為使用 wsus 進行服務的電腦，您可以設定登錄專案以允許電腦使用 Windows Update 來啟用 .net 3.5，而不是 wsus (服務仍會從 wsus 執行（如果您這樣做) ）。
 
 -   設定 regkey：
     ```
@@ -106,11 +106,11 @@ IT 系統管理員可以根據已安裝的) ，將 .NET 3.5 應用程式設定�
 
 此登錄專案也可以透過群組原則 (本機電腦原則-> 電腦設定-> 系統管理範本 > 系統設定。 選取 [指定選用元件安裝和元件修復的設定]。
 
-如果您選取 [連絡人] Windows Update 直接下載修復內容，而不是 Windows Server Update Services (WSUS) ，則任何新增 Windows 功能的嘗試 (例如 .NET Framework 3.5) 或修復功能都會從 Windows Update 觸發檔案下載。 目的電腦需要此選項的網際網路和 WU 存取權。 正常的服務作業如果已設定為來源，則會繼續使用 WSUS。
+如果您直接選取 [Contact Windows Update] 以下載修復內容，而不是 Windows Server Update Services (WSUS) ，則 Windows 3.5 (或修復功能的任何嘗試新增 .NET Framework 功能都會從) 觸發檔案下載。 目的電腦需要此選項的網際網路和 WU 存取權。 正常的服務作業如果已設定為來源，則會繼續使用 WSUS。
 
 **關於透過登錄專案設定本機來源位置的注意事項**
 
-IT 系統管理員可以透過登錄專案設定 .NET 3.5 檔案的本機來源位置 (s) ，讓使用者可以使用 [新增/移除 Windows 功能] 對話方塊來啟用具有遺失承載的功能，而不需指定來源位置。 您可以透過群組原則來控制登錄專案的值。
+IT 系統管理員可以透過登錄專案設定 .net 3.5 檔案的本機來源位置 (s) ，讓使用者可以使用 [新增/移除 Windows 功能] 對話方塊來啟用具有遺失承載的功能，而不需指定來源位置。 您可以透過群組原則來控制登錄專案的值。
 
 支援此登錄專案：
 
@@ -121,7 +121,7 @@ IT 系統管理員可以透過登錄專案設定 .NET 3.5 檔案的本機來源�
 <tr class="header">
 <th>進入</th>
 <th>類型</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

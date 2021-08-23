@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e53a092bdca26eee0c46db1d75f7fc040d5ce7e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8522a6f8c24f2f80728a878435b42ac4179432e1cca4234feb29261fe2c11f8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106983313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119510788"
 ---
 # <a name="ivmharddiskconnection-interface"></a>IVMHardDiskConnection 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 定義虛擬機器內硬碟的連接。 從 [**IVMVirtualMachine：： AddHardDiskConnection**](ivmvirtualmachine-addharddiskconnection.md)方法傳回的 **IVMHardDiskConnection** 物件。 您也可以從 [**IVMVirtualMachine：： HardDiskConnections**](ivmvirtualmachine-harddiskconnections.md)屬性傳回的 [**IVMHardDiskConnectionCollection**](ivmharddiskconnectioncollection.md)物件中取出 **IVMHardDiskConnection** 物件。
 
@@ -55,7 +55,7 @@ ms.locfileid: "106983313"
 
 
 
-| 屬性                                                              | 存取類型          | Description                                                                       |
+| 屬性                                                              | 存取類型          | 描述                                                                       |
 |:----------------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------|
 | [**BusNumber**](ivmharddiskconnection-busnumber.md)<br/>       | 唯讀<br/> | 磁片磁碟機映射所連接的匯流排編號。<br/>                   |
 | [**DeviceNumber**](ivmharddiskconnection-devicenumber.md)<br/> | 唯讀<br/> | 磁片磁碟機映射所連接的裝置編號。<br/>                |
@@ -72,7 +72,7 @@ ms.locfileid: "106983313"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

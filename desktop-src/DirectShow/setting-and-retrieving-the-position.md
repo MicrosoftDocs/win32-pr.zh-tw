@@ -4,12 +4,12 @@ ms.assetid: 06b0e2d7-9539-41ad-a631-7e8da556feeb
 title: 設定和取出位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 776a32eb6193ef456d693b5a133c87d800a0b64e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe7951ce12fe498a4f230ab3d1ac84796621e04ed025010678f1c43a39d88eb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683688"
 ---
 # <a name="setting-and-retrieving-the-position"></a>設定和取出位置
 
@@ -37,7 +37,7 @@ hr = pSeek->SetPositions(
 
 
 > [!Note]  
-> 一秒是10000000的參考時間單位。 為了方便起見，此範例會將此值定義為一 \_ 秒。 如果您使用的是 DirectShow 基類程式庫，常數單位會有相同的值。
+> 一秒是10000000的參考時間單位。 為了方便起見，此範例會將此值定義為一 \_ 秒。 如果您使用 DirectShow 的基類程式庫，常數單位會有相同的值。
 
  
 

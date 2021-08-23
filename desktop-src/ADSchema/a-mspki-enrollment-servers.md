@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10a05f040dbe4f32df824d8f6596b515c3e1f792
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c25e11ee7b18f02dc8df79124d217f2acfea21f538f8caacb378d11b948e1fe8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582238"
 ---
 # <a name="ms-pki-enrollment-servers-attribute"></a>ms PKI-註冊-伺服器屬性
 
@@ -56,7 +56,7 @@ ms.locfileid: "103845423"
 | System-Only            | 否                                                               |
 | 是-單一值       | 否                                                               |
 | 已編制索引             | 否                                                               |
-| 在通用類別目錄中      | 對                                                                |
+| 在通用類別目錄中      | 是                                                                |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
 | Range-Lower            | \-                                                                  |
 | Range-Upper            | \-                                                                  |
@@ -77,7 +77,7 @@ ms.locfileid: "103845423"
 | System-Only            | 否                                                               |
 | 是-單一值       | 否                                                               |
 | 已編制索引             | 否                                                               |
-| 在通用類別目錄中      | 對                                                                |
+| 在通用類別目錄中      | 是                                                                |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
 | Range-Lower            | \-                                                                  |
 | Range-Upper            | \-                                                                  |

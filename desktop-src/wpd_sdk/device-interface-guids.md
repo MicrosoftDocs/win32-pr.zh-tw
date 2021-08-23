@@ -1,5 +1,5 @@
 ---
-description: 您可以使用 GUID 值來描述裝置介面。 Windows 可攜式裝置會定義下列裝置介面。
+description: 您可以使用 GUID 值來描述裝置介面。 Windows可攜式裝置會定義下列裝置介面。
 ms.assetid: 47b8d3dd-ea12-461d-935d-2de2c0157f88
 title: '裝置介面 Guid (PortableDevice .h) '
 ms.topic: reference
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: c2f97e050f839a268048aaaabac46b9e7698ee9d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6f4bd170aeae46f738f5ce4a5a98bc694583a19fe3e7fa6eccc21c86fdc871d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657918"
 ---
 # <a name="device-interface-guids"></a>裝置介面 Guid
 
-您可以使用 **GUID** 值來描述裝置介面。 Windows 可攜式裝置會定義下列裝置介面。
+您可以使用 **GUID** 值來描述裝置介面。 Windows可攜式裝置會定義下列裝置介面。
 
 
 

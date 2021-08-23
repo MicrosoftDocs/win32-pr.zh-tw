@@ -12,17 +12,17 @@
           href: choosing-the-right-approach-to-windows-touch.md
         - name: 針對應用程式進行疑難排解
           href: troubleshooting-applications.md
-        - name: Windows Touch 輸入
+        - name: Windows觸控輸入
           href: guide-multi-touch-input.md
           items:
             - name: 具有 Windows Touch 訊息的開始使用
               href: getting-started-with-multi-touch-messages.md
             - name: 偵測和追蹤多個觸控點
               href: detecting-and-tracking-multiple-touch-points.md
-        - name: Windows Touch 手勢
+        - name: Windows觸控手勢
           href: guide-multi-touch-gestures.md
           items:
-            - name: Windows Touch 手勢總覽
+            - name: Windows觸控手勢總覽
               href: windows-touch-gestures-overview.md
             - name: 使用 Windows Touch 手勢開始使用
               href: getting-started-with-multi-touch-gestures.md
@@ -63,21 +63,21 @@
       items:
         - name: 操作和慣性範例
           href: manipulation-and-inertia-sample.md
-        - name: 'Windows Touch 手勢範例 (MTGestures) '
+        - name: 'Windows觸控手勢範例 (MTGestures) '
           href: windows-touch-gesture-sample--mtgestures-.md
-        - name: 'C # 範例中的 Windows Touch 手勢 (MTGesturesCS) '
+        - name: 'WindowsC # 範例中的觸控手勢 (MTGesturesCS) '
           href: windows-touch-gestures-in-c--sample--mtgesturescs-.md
-        - name: 'Windows Touch 操作範例 (MTManipulation) '
+        - name: 'Windows觸控操作範例 (MTManipulation) '
           href: windows-touch-manipulation-sample--mtmanipulation-.md
-        - name: 'Windows Touch (的 c + + 範例) '
+        - name: 'Windows觸控簿範例 (c + +) '
           href: windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md
-        - name: 'Windows Touch (的 c # 範例 ) '
+        - name: 'Windows觸控簿範例 (c # ) '
           href: windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md
-        - name: '使用即時手寫筆範例 (c + + 的 Windows Touch 便箋) '
+        - name: Windows使用即時手寫筆範例 (c + +) 的觸控式便箋
           href: windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md
-        - name: '使用 Real-Time 手寫筆範例 Windows Touch 的便箋 (c # ) '
+        - name: 'Windows使用 Real-Time 手寫筆範例 (c # ) 的觸控式便箋'
           href: windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md
-    - name: Windows Touch 程式設計參考
+    - name: Windows觸控程式設計參考
       href: windows-touch-programming-reference.md
       items:
         - name: 界限意見反應
@@ -221,13 +221,13 @@
               items:
                 - name: MANIPULATION_PROCESSOR_MANIPULATIONS
                   href: /windows/desktop/api/manipulations/ne-manipulations-manipulation_processor_manipulations
-        - name: Windows Touch 手勢
+        - name: Windows觸控手勢
           href: multi-touch-gestures.md
           items:
             - name: 常數
               href: constants.md
               items:
-                - name: Windows Touch 手勢
+                - name: Windows觸控手勢
                   href: windows-touch-gestures-constants.md
             - name: 函式
               href: mtgfunctions.md
@@ -265,7 +265,7 @@
                   href: /windows/win32/api/winuser/ns-winuser-gestureinfo
                 - name: GESTURENOTIFYSTRUCT
                   href: /windows/win32/api/winuser/ns-winuser-gesturenotifystruct
-        - name: Windows Touch 輸入
+        - name: Windows觸控輸入
           href: multi-touch-input.md
           items:
             - name: 巨集
@@ -298,5 +298,5 @@
               items:
                 - name: TOUCHINPUT
                   href: /windows/win32/api/winuser/ns-winuser-touchinput
-    - name: Windows Touch 詞彙
+    - name: Windows觸控詞彙
       href: glossary.md

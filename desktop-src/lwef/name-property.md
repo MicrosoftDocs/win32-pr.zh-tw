@@ -1,19 +1,19 @@
 ---
 title: 'Name 屬性 (字元物件) '
-description: 深入瞭解字元物件的 Name 屬性。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 深入瞭解字元物件的 Name 屬性。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: vs|msagent|~\pacontrol_2bxm.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7365550d5d4d4071cf4292e505f16e7047628cf1
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: e08509d5d2a349c56548259db4846203da6f632ff76c86309db87e6aa90583a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608648"
 ---
 # <a name="name-property-characters-object"></a>Name 屬性 (字元物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

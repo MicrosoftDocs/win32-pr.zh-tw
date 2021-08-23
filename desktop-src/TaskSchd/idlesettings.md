@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 819ff226386f30483de96fac6213b35d7dd51a52
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7597f2232d95d6ddd5f8001be8cf88178ccf5dacd3694c2a8e179d371e54c898
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659598"
 ---
 # <a name="idlesettings-object"></a>IdleSettings 物件
 
@@ -39,7 +39,7 @@ ms.locfileid: "104384366"
 > [!NOTE]
 > *IdleDuration* 和 *WaitTimeout* 設定已淘汰。 它們仍然存在於工作排程器的使用者介面中，而且其介面方法可能仍會傳回有效值，但不再使用這些值。
 
-| 屬性                                                       | 存取類型           | Description                                                                                                                                                     |
+| 屬性                                                       | 存取類型           | 描述                                                                                                                                                     |
 |:---------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**RestartOnIdle**](idlesettings-restartonidle.md)<br/> | 讀取/寫入<br/> | 取得或設定布林值，這個值表示當電腦迴圈進入閒置條件超過一次時，是否重新開機工作。<br/>            |
 | [**StopOnIdleEnd**](idlesettings-stoponidleend.md)<br/> | 讀取/寫入<br/> | 取得或設定布林值，這個值表示如果閒置條件在工作完成之前結束，工作排程器將終止工作。<br/> |
