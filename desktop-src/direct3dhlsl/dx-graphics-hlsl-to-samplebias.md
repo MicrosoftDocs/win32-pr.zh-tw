@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 01087ab36bdbe90ff73643899229c7ec6ccfbdbe
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 0e1cb91c7564bfff6e21fb1cdf0dcdbf28f68d928b85274e33c964a290f3231e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119772"
 ---
 # <a name="samplebias-directx-hlsl-texture-object"></a>SampleBias (DirectX HLSL 材質物件) 
 

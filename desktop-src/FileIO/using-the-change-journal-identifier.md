@@ -4,12 +4,12 @@ ms.assetid: 5ae79460-b69a-4901-a417-1d5358dcba29
 title: 使用變更日誌識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 692acf98403e45b6bdafd3cd4791a64dd1beb532
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0483c171b69bcee0faf8df9f325d4ee8ffcb6e904f6aa0cd3c720b83df326e3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015066"
 ---
 # <a name="using-the-change-journal-identifier"></a>使用變更日誌識別碼
 

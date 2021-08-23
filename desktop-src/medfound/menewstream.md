@@ -4,12 +4,12 @@ ms.assetid: 1bc8b265-b7a1-4068-89f7-c0da03dfb874
 title: 'MENewStream 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60394d442b24dcdc234ada2dd3fd418e6ab7b54c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 499b7899c499e87a45e9b7f043db94724b41d729d3b836e7c9f8d71d83616841
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119228768"
 ---
 # <a name="menewstream-event"></a>MENewStream 事件
 
@@ -29,7 +29,7 @@ ms.locfileid: "106980760"
 
 
 
-| VARTYPE                | Description                                                                                                   |
+| VARTYPE                | 描述                                                                                                   |
 |------------------------|---------------------------------------------------------------------------------------------------------------|
 | VT \_ 不明<br/> | 包含資料流程 [**IMFMediaStream**](/windows/desktop/api/mfidl/nn-mfidl-imfmediastream) 介面的指標。<br/> <br/> |
 
@@ -41,8 +41,8 @@ ms.locfileid: "106980760"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

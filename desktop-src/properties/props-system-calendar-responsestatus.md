@@ -4,12 +4,12 @@ ms.assetid: 5cbc0306-20c7-4f12-bb8b-3889b93dfd69
 title: ResponseStatus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7af8f69d177dba751ead02a0ee71f5ea4a42ae4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3900e95e6cd0a9d9becc9e86b44c391e06ad02bf1f592d75e8ea6d2896b1316
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098545"
 ---
 # <a name="systemcalendarresponsestatus"></a>ResponseStatus
 

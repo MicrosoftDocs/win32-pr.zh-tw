@@ -4,12 +4,12 @@ description: 快照集是工具說明功能的核心。 快照集是一或多個
 ms.assetid: a8122960-f078-4efb-8e01-bf6fb69ee0dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab6f9a45ad2e12eda53d3143e43c9234c20aae3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 30dde3a4383bf56bdef46c59c55611ffe9b22a7a201abb4f0f11af85594c4f0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137411"
 ---
 # <a name="snapshots-of-the-system"></a>系統的快照集
 
@@ -35,7 +35,7 @@ ms.locfileid: "103842484"
 > [!Note]  
 > 快照集控制碼的運作方式就像是檔案控制代碼，並且受限於可使用它之進程和執行緒的相同規則。 若要指定控制碼是可繼承的，請使用 **TH32CS \_ INHERIT** 值來建立快照集。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -44,6 +44,6 @@ ms.locfileid: "103842484"
 [拍攝快照集和觀看進程](taking-a-snapshot-and-viewing-processes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

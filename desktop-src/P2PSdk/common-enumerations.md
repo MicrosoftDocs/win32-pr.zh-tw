@@ -4,12 +4,12 @@ ms.assetid: 457db259-b1f0-4711-a8f0-201ff314cb1e
 title: 一般常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2346d47aafa9fd1b44a1bae43a5ebda1beb97fef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fbe6246f98c32f6b7201f7bd81f8e6fabb3b481b1a724367a202006de50e1ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011706"
 ---
 # <a name="common-constants"></a>一般常數
 

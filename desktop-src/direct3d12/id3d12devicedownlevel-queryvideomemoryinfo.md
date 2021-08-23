@@ -16,16 +16,16 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
-ms.openlocfilehash: 32b93fcbbe44aaae0916e6d8f3f403eb960e26eb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 526d25e8331fc949eb470c0813a083774afddc94312ed6751aaab9672e557d3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124106"
 ---
 # <a name="id3d12devicedownlevelqueryvideomemoryinfo-method"></a>ID3D12DeviceDownlevel：： QueryVideoMemoryInfo 方法
 
-提供 Windows 7 的記憶體統計資料。 這個方法相當於 [IDXGIAdapter3：： QueryVideoMemoryInfo](/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo)，無法在 Windows 7 上使用。
+提供 Windows 7 的記憶體統計資料。 這個方法相當於 Windows 7 上未提供的[IDXGIAdapter3：： QueryVideoMemoryInfo](/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo)。
 
 ## <a name="syntax"></a>語法
 
@@ -70,6 +70,6 @@ HRESULT QueryVideoMemoryInfo(
 
 ## <a name="see-also"></a>另請參閱
 * [ID3D12DeviceDownlevel](id3d12devicedownlevel.md)
-* [Windows 7 上的 Direct3D 12 介面](direct3d-12on7-interfaces.md)
-* [Windows 7 上的 Direct3D 12 參考 (d3d12downlevel .h) ](direct3d-12on7-reference.md)
+* [Windows 7 介面上的 Direct3D 12](direct3d-12on7-interfaces.md)
+* [Windows 7 參考上的 Direct3D 12 (d3d12downlevel .h) ](direct3d-12on7-reference.md)
 * [Windows 7 上的 Direct3D 12](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/)

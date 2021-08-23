@@ -13,12 +13,12 @@ keywords:
 - OnStatus 回呼方法，執行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2f19e81df5ee4769e1353c299a14626cb1a9aed
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: dc00523ae28ec14feefb8249ff86a2b1600629c84cb245eb627b59b619a28a17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104314514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027286"
 ---
 # <a name="to-implement-the-onsample-callback"></a>若要執行 OnSample 回呼
 
@@ -48,9 +48,9 @@ ms.locfileid: "104314514"
 [**使用回呼方法**](using-the-callback-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

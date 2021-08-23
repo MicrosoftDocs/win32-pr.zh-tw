@@ -1,23 +1,23 @@
 ---
 title: '時間觸發程式範例 (c + +) '
-description: 這個 c + + 範例示範如何建立排定在指定時間執行「記事本」的工作。
+description: 這個 c + + 範例示範如何建立排定在指定時間執行記事本的工作。
 ms.assetid: e45b18b0-5a7f-4283-b42f-15e9ffcfaff7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39f7f8d3c8bd1f179b0def9be069d710a2e126a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 227d6fe24aa63b430376a7ce50d23b4b8ecd282f807315384b42175b9903d1b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059647"
 ---
 # <a name="time-trigger-example-c"></a>時間觸發程式範例 (c + +) 
 
-這個 c + + 範例示範如何建立排定在指定時間執行「記事本」的工作。 此工作包含以時間為基礎的觸發程式，指定工作的開始界限和結束界限。 此工作也包含指定工作以執行 [記事本] 的動作。 此工作是使用互動式登入類型來註冊，這表示工作會在執行應用程式之使用者的安全性內容下執行。 此工作也包含閒置設定，指定當電腦處於閒置狀態時，工作排程器如何執行工作。
+這個 c + + 範例示範如何建立排定在指定時間執行記事本的工作。 此工作包含以時間為基礎的觸發程式，指定工作的開始界限和結束界限。 此工作也包含指定要執行記事本工作的動作。 此工作是使用互動式登入類型來註冊，這表示工作會在執行應用程式之使用者的安全性內容下執行。 此工作也包含閒置設定，指定當電腦處於閒置狀態時，工作排程器如何執行工作。
 
 下列程式描述如何排程工作，以便在特定時間啟動可執行檔。
 
-**將記事本排定在特定時間啟動**
+**排程記事本在特定時間開始**
 
 1.  初始化 COM 並設定一般 COM 安全性。
 2.  建立 [**ITaskService**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) 物件。
@@ -42,7 +42,7 @@ ms.locfileid: "103672139"
 
 7.  使用 [**ITaskFolder：： RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition) 方法註冊工作。
 
-下列 c + + 範例示範如何排程工作，以便在工作註冊後一分鐘執行「記事本」。
+下列 c + + 範例示範如何排程工作，以便在工作註冊之後記事本一分鐘的時間執行。
 
 
 ```C++
@@ -418,9 +418,9 @@ int __cdecl wmain()
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

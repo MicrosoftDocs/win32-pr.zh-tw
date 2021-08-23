@@ -4,12 +4,12 @@ ms.assetid: fb8ce5d3-3215-4e05-a916-4d4a803464d2
 title: Shell 剪貼簿格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674ccc33db3a35a1a60abb549f5e1ab5b5c96760
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fccd73f5b364c247454d874f5b9bb7586e3187150ebce28620cc6dc01f8298d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351388"
 ---
 # <a name="shell-clipboard-formats"></a>Shell 剪貼簿格式
 
@@ -104,9 +104,9 @@ CFSTR_FILEDESCRIPTOR 格式通常用來傳送資料，就像是一組檔案一�
 
 此格式識別碼是用來在載入的磁片區上傳送路徑。 它類似于 [CF_HDROP](#cf_hdrop)，但它只包含單一路徑，而且可以處理在資料夾上掛接磁片區時，可能需要用來代表路徑的較長路徑字串。 資料是由包含全域記憶體物件的 [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) 結構所組成。 結構的 **hGlobal** 成員指向單一以 **null** 終止的字串，其中包含完整的檔案路徑。 路徑字串的結尾必須是 ' \\ ' 字元，後面接著終止的 **Null**。
 
-在 Windows 2000 之前，只能將磁片區掛接在磁碟機號上。 針對具有 NTFS 格式化磁片磁碟機的 Windows 2000 和更新版本的系統，您也可以在空的資料夾上裝載磁片區。 這項功能可讓您掛接磁片區，而不需要佔用磁碟機號。 載入的磁片區可以使用任何目前支援的格式，包括 FAT、FAT32、NTFS 和 CDFS.SYS。
+在 Windows 2000 之前，只能將磁片區掛接在磁碟機號上。 若為具有 NTFS 格式化磁片磁碟機的 Windows 2000 和更新版本的系統，您也可以在空的資料夾上裝載磁片區。 這項功能可讓您掛接磁片區，而不需要佔用磁碟機號。 載入的磁片區可以使用任何目前支援的格式，包括 FAT、FAT32、NTFS 和 CDFS.SYS。
 
-您可以藉由執行 [屬性工作表處理常式](propsheet-handlers.md)，將頁面加入至磁片磁碟機屬性屬性工作表。 如果磁片區是掛接在磁碟機號上，Shell 會將路徑資訊傳遞給具有 [CF_HDROP](#cf_hdrop) 格式的處理常式。 在 Windows 2000 和更新版本的系統中，將磁片區掛接到磁碟機號時，就會使用 CF_HDROP 格式，就像舊版系統一樣。 但是，如果磁片區掛接在資料夾上，則會使用 [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume) 格式識別碼，而不是 CF_HDROP。
+您可以藉由執行 [屬性工作表處理常式](propsheet-handlers.md)，將頁面加入至磁片磁碟機屬性屬性工作表。 如果磁片區是掛接在磁碟機號上，Shell 會將路徑資訊傳遞給具有 [CF_HDROP](#cf_hdrop) 格式的處理常式。 使用 Windows 2000 和更新版本的系統時，會在磁片區掛接到磁碟機號時使用 CF_HDROP 格式，就像舊版系統一樣。 但是，如果磁片區掛接在資料夾上，則會使用 [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume) 格式識別碼，而不是 CF_HDROP。
 
 如果只會使用磁碟機號來裝載磁片區，則只會使用 [CF_HDROP](#cf_hdrop) ，而現有的屬性工作表處理常式會像處理舊版系統一樣運作。 但是，如果您想要讓處理常式針對掛接于資料夾以及磁碟機號的磁片區顯示頁面，則處理常式必須能夠同時瞭解 CSFTR_MOUNTEDVOLUME 和 CF_HDROP 格式。
 
@@ -145,7 +145,7 @@ CFSTR_SHELLIDLIST 格式可以用來傳送檔案系統和虛擬物件。 不過�
 
 ### <a name="cfstr_netresources"></a>CFSTR_NETRESOURCES
 
-傳輸網路資源（例如網域或伺服器）時，會使用此格式識別碼。 資料是包含全域記憶體物件的 [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) 結構。 結構的 **hGlobal** 成員會指向 [**NRESARRAY**](/windows/desktop/api/shlobj_core/ns-shlobj_core-nresarray) 結構。 該結構的 **nr** 成員表示 [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) 結構，其 **lpRemoteName** 成員包含可識別網路資源的以 **null** 終止的字串。 然後，卸載目標可將資料與任何 [Windows 網路 (WNet)](../wnet/windows-networking-wnet-.md) API 函式（例如 [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)）搭配使用，以在物件上執行網路作業。
+傳輸網路資源（例如網域或伺服器）時，會使用此格式識別碼。 資料是包含全域記憶體物件的 [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) 結構。 結構的 **hGlobal** 成員會指向 [**NRESARRAY**](/windows/desktop/api/shlobj_core/ns-shlobj_core-nresarray) 結構。 該結構的 **nr** 成員表示 [**NETRESOURCE**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) 結構，其 **lpRemoteName** 成員包含可識別網路資源的以 **null** 終止的字串。 然後，您可以使用資料搭配任何 [Windows 網路 (WNet)](../wnet/windows-networking-wnet-.md) API 函式（例如 [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)）來執行物件的網路作業。
 
 ### <a name="cfstr_printergroup"></a>CFSTR_PRINTERGROUP
 
@@ -217,7 +217,7 @@ CFSTR_SHELLIDLIST 格式可以用來傳送檔案系統和虛擬物件。 不過�
 
 ### <a name="cfstr_untrusteddragdrop"></a>CFSTR_UNTRUSTEDDRAGDROP
 
-Windows Internet Explorer 和 Windows Shell 會使用此格式識別碼，以提供一種機制，用來封鎖或提示源自 Internet Explorer 的拖放作業，以及 [**URLACTION_SHELL_ENHANCED_DRAGDROP_SECURITY**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537178(v=vs.85)) 旗標。
+Windows Internet Explorer 和 Windows Shell 會使用此格式識別碼，以提供一種機制，以封鎖或提示從 Internet Explorer 與 [**URLACTION_SHELL_ENHANCED_DRAGDROP_SECURITY**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537178(v=vs.85))旗標一起產生的拖放作業。
 
 **CFSTR_UNTRUSTEDDRAGDROP** 是由拖放作業的來源加入，以指定資料物件可能包含不信任的資料。 資料是由包含全域記憶體物件的 [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) 結構所表示。 結構的 **hGlobal** 成員會指向一個 **DWORD** 設定為適當的 [**URL 動作**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537178(v=vs.85))旗標，以使用 [**PUAF_ENFORCERESTRICTED**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537171(v=vs.85))旗標，透過 [**IInternetSecurityManager：:P rocessurlaction**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537136(v=vs.85))方法來檢查原則。
 
@@ -225,7 +225,7 @@ Windows Internet Explorer 和 Windows Shell 會使用此格式識別碼，以提
 
 這種格式會在拖放作業中用來識別物件的拖曳影像 (視窗) ，讓其視覺效果資訊可以動態更新。 將物件拖曳至放置目標上時，應用程式會更新其 [**DROPDESCRIPTION**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription) 結構，以回應 [**IDropTarget：:D ragover**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragover) 或 [**IDropSource：： system.windows.dragdrop.givefeedback>**](/windows/win32/api/oleidl/nf-oleidl-idropsource-givefeedback) 方法。 **DROPDESCRIPTION** 會更新為新的 [**DROPIMAGETYPE**](/windows/desktop/api/shlobj_core/ne-shlobj_core-dropimagetype)值，指出要套用至拖曳視窗視覺效果的裝飾;例如，指出檔案正在複製而不是移動，或物件無法卸載至該位置。 不過，在物件收到 [**DDWM_UPDATEWINDOW**](ddwm-updatewindow.md) 訊息之前，不會更新視覺效果。 此格式會將收件者拖曳視窗的 **HWND** 提供給 **DDWM_UPDATEWINDOW** 訊息的傳送者。
 
-剪貼簿資料的類型 [**TYMED_HGLOBAL**](/windows/win32/api/objidl/ne-objidl-tymed)。 它是 **HWND** 的 **DWORD** 標記法。 資料可以傳遞至 **ULongToHandle** 函數（定義于 Basetsd 中），以提供要在64位 Windows 上使用的64位 **HWND** 。
+剪貼簿資料的類型 [**TYMED_HGLOBAL**](/windows/win32/api/objidl/ne-objidl-tymed)。 它是 **HWND** 的 **DWORD** 標記法。 資料可以傳遞至 **ULongToHandle** 函式（定義于 Basetsd 中），以提供64位 **HWND** 以用於64位 Windows。
 
 此格式不需要包含 Shlobj.h。
 

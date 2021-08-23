@@ -3,8 +3,8 @@ title: 處理非受控碼中的慣性
 description: 本節說明如何使用 IInertiaProcessor 介面處理非受控碼中的慣性。
 ms.assetid: 3261b461-add2-4e92-9a51-b2d46630fb4f
 keywords:
-- Windows Touch，慣性
-- Windows Touch，操作處理器
+- Windows觸控、慣性
+- Windows觸控、操作處理器
 - 慣性，非受控碼
 - 慣性、IInertiaProcessor 介面
 - 慣性、操作處理器
@@ -12,12 +12,12 @@ keywords:
 - IInertiaProcessor 介面，非受控碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3de56d06547f426de252a89ef5172df3fe4ca439
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6e112605b1f998b850c3a04a045166b376fc3a12d98615b9c2af72e756a1c1b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119346498"
 ---
 # <a name="handling-inertia-in-unmanaged-code"></a>處理非受控碼中的慣性
 
@@ -149,14 +149,14 @@ CManipulationEventSink::CManipulationEventSink(IInertiaProcessor *pInert, HWND h
 > [!Note]  
 > 系統會將來自操作處理器事件接收的事件接收類別實作為慣性處理器的事件接收器重複使用。
 
- 
+ 
 
 現在，當您將這個類別 **CManipulationEventSink** 時，可以將它視為操作處理器的事件接收器，或是作為慣性處理器的事件接收器。 當它被視為慣性處理器事件接收器時，會將 **fExtrapolating** 旗標設為 true，表示應該推斷操作事件。
 
 > [!Note]  
 > [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor)和 [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor)介面都會引發 [**system.windows.uielement.manipulationstarted>**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted) 。
 
- 
+ 
 
 當操作開始時，會設定 [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) 介面屬性。 下列程式碼顯示如何處理已啟動的事件。
 
@@ -377,9 +377,9 @@ IInertiaProcessor*      g_pIInertProc;
 [慣性](getting-started-with-inertia.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

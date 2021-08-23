@@ -4,12 +4,12 @@ description: 分類元件
 ms.assetid: 4d805532-96c9-400d-b78a-f8d0d9bdbf83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53ea1547c219a44262fdeaf7edb02f65c7a3aac6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0e8382c1cbada72c2a8ab480ded78702424736850299b9e5e9fad7b328e3280
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048706"
 ---
 # <a name="classifying-components"></a>分類元件
 
@@ -28,9 +28,9 @@ ms.locfileid: "103840500"
 [註冊 COM 應用程式](registering-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

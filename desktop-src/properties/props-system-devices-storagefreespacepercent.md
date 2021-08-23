@@ -4,12 +4,12 @@ ms.assetid: ede845c6-abd8-4bb1-b0d8-c1f3facffa41
 title: StorageFreeSpacePercent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df717e488d1fabac811a2629a75160a2e7f81df9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64c46cd5e8eef5c7daf90f27844555c1511e4a4604cfd27e0ed4b2829b30316d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097057"
 ---
 # <a name="systemdevicesstoragefreespacepercent"></a>StorageFreeSpacePercent
 

@@ -4,12 +4,12 @@ ms.assetid: a84f83b2-181b-4f65-82bd-bc7f0689aad3
 title: 強式密碼強制執行和 Passfilt.dll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63b7be524511d52048e06ae83ab110384c3bf5c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c3e34e77b15ca9797240ce5647aa58decf3efa05f04cd431b3d723b148bf406
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004894"
 ---
 # <a name="strong-password-enforcement-and-passfiltdll"></a>強式密碼強制執行和 Passfilt.dll
 

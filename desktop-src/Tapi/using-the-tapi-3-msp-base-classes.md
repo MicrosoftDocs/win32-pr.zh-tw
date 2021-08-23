@@ -4,12 +4,12 @@ ms.assetid: 7485c34a-3c8a-412f-9cb9-8eb895084292
 title: 使用 TAPI 3 MSP 基類
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb8ad4fd160cf0fc4c7dd682a44f3a4ff0bcec25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6131d44b6746075c43fc61c9d35decbe0564773db4746bba6d72b0da4697cabd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139711"
 ---
 # <a name="using-the-tapi-3-msp-base-classes"></a>使用 TAPI 3 MSP 基類
 

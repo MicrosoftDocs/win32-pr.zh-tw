@@ -4,12 +4,12 @@ ms.assetid: fd12abaf-dc0f-4db1-837d-c116627bcc7e
 title: 驗證檔簽章和憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47dfee91437f7cc36e754e8c1f97fa89cd2387af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: adfc3dbb6eefedcc3bc14d79340893b60dc32dc7cd9b50b653913c1261d8eac6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033836"
 ---
 # <a name="verify-document-signatures-and-certificates"></a>驗證檔簽章和憑證
 

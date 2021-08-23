@@ -1,36 +1,36 @@
 ---
 title: 舊版支援移動捲軸
-description: 本節說明如何在以 Windows 為基礎的應用程式中使用捲軸來移動流覽。
+description: 本節說明在 Windows 應用程式中使用捲軸來移動流覽的支援。
 ms.assetid: a8906b48-b804-4f3a-bb9b-dc94b632e2f7
 keywords:
-- Windows Touch，舊版支援
+- WindowsTouch，舊版支援
 - 使用捲軸移動流覽
-- Windows Touch，使用捲軸移動
-- Windows Touch、捲軸
+- Windows觸控、移動捲軸
+- Windows觸控、捲軸
 - 捲軸、移動流覽
 - 捲軸，舊版支援
-- Windows Touch，手勢
+- Windows觸控、手勢
 - 手勢，使用捲軸移動
-- Windows Touch，筆觸
+- Windows觸控、筆觸
 - 筆觸，使用捲軸移動
 - 筆觸，停用
-- Windows Touch，滑鼠滾輪訊息
+- Windows觸控、滑鼠滾輪訊息
 - 滑鼠滾輪訊息
-- Windows Touch，自訂移動
+- Windows觸控、自訂移動
 - 移動流覽、捲軸
 - 移動流覽，舊版支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57f6b9dd47821205a6aa5b6f07e5053e31597358
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 97190d637cae5cc6936ecd78dca31e1e6c0f9ef1037b292b6080f973fc4e8701
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104558925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086301"
 ---
 # <a name="legacy-support-for-panning-with-scroll-bars"></a>舊版支援移動捲軸
 
-本節說明如何在以 Windows 為基礎的應用程式中使用捲軸來移動流覽。
+本節說明在 Windows 應用程式中使用捲軸來移動流覽的支援。
 
 在 Windows 7 中，移動手勢會產生 WM \_ \* 捲軸訊息，以啟用移動的舊版支援。 因為您的應用程式可能不支援所有的 WM \_ \* 捲軸訊息，所以移動流覽可能無法正常運作。 本主題說明您必須採取的步驟，以確保應用程式中的舊版移動流覽體驗如使用者預期般運作。
 
@@ -308,7 +308,7 @@ ms.locfileid: "104558925"
 > [!Note]  
 > 這適用于需要立即針對觸控或觸控事件進行回應的應用程式，而不是測試時間或距離閾值。
 
- 
+ 
 
 
 ```C++
@@ -342,15 +342,15 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow){
 
 ## <a name="customize-the-panning-experience"></a>自訂移動流覽體驗
 
-根據預設，您可能會想要使用 Windows 7 提供的不同移動流覽體驗。 若要改善移動流覽體驗，您必須加入 [**WM \_ 手勢**](wm-gesture.md) 訊息的處理常式。 如需詳細資訊，請參閱 [改善 Single-Finger 移動體驗](improving-the-single-finger-panning-experience.md)。
+根據預設，您可能會想要不同于 Windows 7 提供的移動流覽體驗。 若要改善移動流覽體驗，您必須加入 [**WM \_ 手勢**](wm-gesture.md) 訊息的處理常式。 如需詳細資訊，請參閱 [改善 Single-Finger 移動體驗](improving-the-single-finger-panning-experience.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[Windows Touch 手勢](guide-multi-touch-gestures.md)
+[Windows觸控手勢](guide-multi-touch-gestures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

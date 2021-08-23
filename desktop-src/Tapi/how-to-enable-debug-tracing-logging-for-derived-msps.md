@@ -4,12 +4,12 @@ ms.assetid: 52381397-df75-4d81-a048-f0ed408ac6b8
 title: 如何啟用衍生 Msp 的偵錯工具追蹤/記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3883d12c050f245cc58595c9a52586c4f01ba27f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 565b66055a43edbe7556e640f8e368aab84fab206bced431c22578a7e21a94ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140521"
 ---
 # <a name="how-to-enable-debug-tracinglogging-for-derived-msps"></a>如何啟用衍生 Msp 的偵錯工具追蹤/記錄
 

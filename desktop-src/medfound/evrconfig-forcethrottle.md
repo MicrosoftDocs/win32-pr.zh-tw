@@ -4,12 +4,12 @@ ms.assetid: e81e67d6-aa72-44c1-90e9-72ab18bca1c9
 title: 'EVRConfig_ForceThrottle 屬性 (Uuid. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f39cef0bd032eeaf84129e74274b59dbafadbc47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad09d0c3133039975a04a026ec84233987dfd4033b120a4b8fc6272e2fd72b9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119346138"
 ---
 # <a name="evrconfig_forcethrottle-attribute"></a>EVRConfig \_ ForceThrottle 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "104317968"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Uuid。h</dt> </dl> |
 
 

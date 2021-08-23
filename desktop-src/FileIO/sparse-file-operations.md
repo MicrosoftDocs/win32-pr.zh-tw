@@ -4,12 +4,12 @@ ms.assetid: a08f6bbc-c139-4396-8964-4aa63285f3f5
 title: 稀疏檔案作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c23d26fc1c52db32ca7674aec2fc487a826e9a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9835d550a414c047e578eb90fc9b55afbefb760d31d8333a290f00da7162f839
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015106"
 ---
 # <a name="sparse-file-operations"></a>稀疏檔案作業
 

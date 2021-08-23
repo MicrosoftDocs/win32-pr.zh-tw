@@ -4,12 +4,12 @@ ms.assetid: 4253c7fb-85f5-441d-90bf-492e802ad0f8
 title: 原則物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcceec080d51f9c432ab2d63b8eeb26b3211cd28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d49e3dd7a33fd83107f9338783e3b8bdcc68eee7d8c4f927f67a7df1c0262c3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005058"
 ---
 # <a name="policy-object"></a>原則物件
 

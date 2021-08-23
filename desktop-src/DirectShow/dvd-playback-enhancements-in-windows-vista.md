@@ -4,12 +4,12 @@ ms.assetid: b3cf043f-c974-4240-8291-5c717bd8afaa
 title: Windows Vista 中的 DVD 播放增強功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 159056d2c7acaec18a73a30b21f79bcd6267ca33
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6d5757f5dd73dc547ae123490fd8de84b0606d1ade8490c9600486df0b846541
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148711"
 ---
 # <a name="dvd-playback-enhancements-in-windows-vista"></a>Windows Vista 中的 DVD 播放增強功能
 
@@ -17,16 +17,16 @@ ms.locfileid: "106970080"
 
 **指定解碼器**
 
-在舊版的 DirectShow 中，建立 DVD 播放圖形時，很難指定特定的 MPEG-2 解碼器。 從 Windows Vista 開始，應用程式可以指定解碼器，如下所示：
+在舊版 DirectShow 中，建立 DVD 播放圖形時，很難指定特定的 mpeg-2 解碼器。 從 Windows Vista 開始，應用程式可以指定解碼器，如下所示：
 
 1.  在呼叫 [**IDvdGraphBuilder：： RenderDvdVideoVolume**](/windows/desktop/api/Strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume)之前，先將此解碼器新增至圖形。
 2.  呼叫 **RenderDvdVideoVolume** 並設定 AM \_ DVD 不 \_ \_ \_ 清除旗標。 DVD 導覽器會為您新增的解碼器提供喜好設定。
 
 **增強型影片轉譯器的支援**
 
-建議針對 Windows Vista 或更新版本所撰寫的應用程式使用 [**增強型影片**](enhanced-video-renderer-filter.md) 轉譯器 (EVR) 播放影片。 若要在 DVD 播放應用程式中使用 EVR，請在 \_ 呼叫 RenderDvdVideoVolume 時，設定 AM DVD \_ EVR \_ ONLY 旗標。 
+建議針對 Windows Vista 或更新版本所撰寫的應用程式使用 [**增強型影片**](enhanced-video-renderer-filter.md)轉譯器 (EVR) 播放影片。 若要在 DVD 播放應用程式中使用 EVR，請在 \_ 呼叫 RenderDvdVideoVolume 時，設定 AM DVD \_ EVR \_ ONLY 旗標。 
 
-若要在建立圖形之前設定 EVR，請呼叫 [**IDvdGraphBuilder：： GetDvdInterface**](/windows/desktop/api/Strmif/nf-strmif-idvdgraphbuilder-getdvdinterface) ，然後查詢 **IEVRFilterConfig** 或 **IMFVideoRenderer** 介面。  (這些介面記載于媒體基礎 SDK 檔集 ) 。如需有關在 DVD 播放圖形中設定影片轉譯器的詳細資訊，請參閱 [建立 Dvd 篩選圖形](building-the-dvd-filter-graph.md)。
+若要在建立圖形之前設定 EVR，請呼叫 [**IDvdGraphBuilder：： GetDvdInterface**](/windows/desktop/api/Strmif/nf-strmif-idvdgraphbuilder-getdvdinterface) ，然後查詢 **IEVRFilterConfig** 或 **IMFVideoRenderer** 介面。  (這些介面記載于媒體基礎 SDK 檔集 ) 。如需有關在 DVD 播放圖形中設定影片轉譯器的詳細資訊，請參閱[建立 Dvd 篩選器 Graph](building-the-dvd-filter-graph.md)。
 
 除非解碼器的 [**IAMDecoderCaps：： GetDecoderCaps**](/windows/desktop/api/Strmif/nf-strmif-iamdecodercaps-getdecodercaps) 方法傳回 AM \_ GETDECODERCAP \_ QUERY \_ EVR \_ SUPPORT 旗標，否則 DVD 導覽器不會使用 EVR。 定義此旗標是為了確保應用程式與現有的解碼器相容。 如果 **RenderDvdVideoVolume** 無法使用 AM \_ DVD \_ EVR 旗標，則會在沒有旗標的 \_ 情況下再次呼叫方法，以切換回另一個影片轉譯器。
 
@@ -70,9 +70,9 @@ DVD 導覽器會在此範例) 的 VOBU (F1 和 F5 中的第一個範例上設定
 
 **計時器解析度**：應用程式可以藉由呼叫 **timeBeginPeriod** 函式來要求最小計時器解析度。 較高的解析度 (較短的期間) 會提高系統對週期性事件的回應，例如超時，但也會增加執行緒內容切換的頻率。
 
-根據預設，DirectShow 中的參考時鐘會將計時器解析度設定為1毫秒。 在該解析度上，CPU 將不會進入任何省電模式。 從 Windows Vista 開始，DVD 導覽器會藉由在參考時鐘上呼叫 [**IReferenceClockTimerControl：： SetDefaultTimerResolution**](/windows/desktop/api/Strmif/nf-strmif-ireferenceclocktimercontrol-setdefaulttimerresolution) ，來覆寫參考時鐘的預設行為。 這會移除時鐘對1毫秒計時器解析度的要求。 這可能會讓 CPU 進入省電模式。
+根據預設，DirectShow 中的參考時鐘將計時器解析度設定為1毫秒。 在該解析度上，CPU 將不會進入任何省電模式。 從 Windows Vista 開始，DVD 導覽器會藉由在參考時鐘上呼叫 [**IReferenceClockTimerControl：： SetDefaultTimerResolution**](/windows/desktop/api/Strmif/nf-strmif-ireferenceclocktimercontrol-setdefaulttimerresolution) ，來覆寫參考時鐘的預設行為。 這會移除時鐘對1毫秒計時器解析度的要求。 這可能會讓 CPU 進入省電模式。
 
-計時器解析度是全域設定;Windows 挑選要求的最低值。 影片混合轉譯器 (VMR) 篩選 (VMR-7 和 VMR-9) 將計時器解析度設定為1毫秒。 EVR 通常會將解析度設定為4到8毫秒之間的值，取決於是否啟用桌面電腦群組合，以及 EVR 是否處於全螢幕模式。 其他應用程式也可能會設定解決方法。
+計時器解析度是全域設定;Windows 會挑選要求的最低值。 影片混合轉譯器 (VMR) 篩選 (VMR-7 和 VMR-9) 將計時器解析度設定為1毫秒。 EVR 通常會將解析度設定為4到8毫秒之間的值，取決於是否啟用桌面電腦群組合，以及 EVR 是否處於全螢幕模式。 其他應用程式也可能會設定解決方法。
 
 快取 **大小**：應用程式可以 \_ 在 [**IDvdControl2：： SETOPTION**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption)方法中設定 dvd CACHESIZEINMB 選項，以指定 dvd 瀏覽器快取的資料量。 如果應用程式將此旗標設定為大數值 (> 50 MB) ，DVD 光碟機可能會在初始預先提取之後關閉，視硬體而定，這可能會降低耗電量。
 

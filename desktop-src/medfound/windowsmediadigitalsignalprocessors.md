@@ -4,16 +4,16 @@ ms.assetid: cd3952ca-3958-4944-8fde-f0163a47bff9
 title: 數位訊號處理器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0961554d9c9902e68f74c6b2b57662b23846614f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 88f5c9aa0ee3c4cc2a8c7f725b3a8444f4852c8c5b52ee3713b533ec435f4a3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100940"
 ---
 # <a name="digital-signal-processors"></a>數位訊號處理器
 
-本節說明 Windows 所提供的數位訊號處理器 (DSP) 物件。
+本節說明 Windows 提供的 (DSP) 物件的數位訊號處理器。
 
 Microsoft 使用「 *數位訊號處理器* 」一詞來指定一組 COM 物件，這些物件會在未壓縮的音訊和影片資料上執行轉換。 此 SDK 中所述的 Dsp 會以各種未壓縮的格式轉換音訊和影片。
 
@@ -36,7 +36,7 @@ Dsp 可以單獨使用，或結合音訊和視頻編解碼器。 除了語音捕
 
 
 
-| Dsp                                                      | Description                                          |
+| DSP                                                      | 描述                                          |
 |----------------------------------------------------------|------------------------------------------------------|
 | [音訊 Resampler DSP](audioresampler.md)                | 轉換音訊串流的取樣率。       |
 | [色彩控制轉換 DSP](colorcontroltransform.md) | 調整影片資料流程的色彩特性。 |

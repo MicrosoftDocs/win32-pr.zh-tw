@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 在 c + + 中建立參數物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c200958f4ad00ced5455462e7a2909ac6a58cfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eaa97753eab9554e402a91cfce72a6435d44298b6b68a83de96fd4beccd83bd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244518"
 ---
 # <a name="creating-parameters-objects-in-c"></a>在 c + + 中建立參數物件
 

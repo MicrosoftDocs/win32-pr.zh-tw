@@ -4,16 +4,16 @@ description: IAgentCharacterEx 考慮
 ms.assetid: 64bfa388-0db7-423c-a4af-64a9f7351e9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bd1bedfc2665c80d522ccb38c7c3073580136db
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a513a070104605df0cf3e0e722852a2b68d5845f4bcdb1ef6073954b3f9a18c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105436"
 ---
 # <a name="iagentcharacterexthink"></a>IAgentCharacterEx：：試想
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT Think(
@@ -51,13 +51,13 @@ Microsoft Agent 自動斷詞字組會使用空白字元來中斷文字 (例如�
 > [!Note]  
 > 使用 [**IAgentCharacterEx：： SetLanguageID**](iagentcharacterex--setlanguageid.md) ，將字元的語言識別項設定為 (，然後再使用 [**IAgentCharacter：：**](iagentcharacter--speak.md) using 方法，以確保文字氣球內適當的文字顯示。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**IAgentBalloon：： GetEnabled**](iagentballoon--getenabled.md)、 [**IAgentBalloonEx：： >setstyle**](iagentballoonex--setstyle.md)、 [**IAgentCharacter：：說話**](iagentcharacter--speak.md)
 
 
- 
+ 
 
- 
+ 

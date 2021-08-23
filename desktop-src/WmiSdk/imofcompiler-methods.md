@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IMofCompiler 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f894509c824bb36cfb5fb61e5b66842c130afd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a51f2bb7caa4bc14757320f03f51f8f7fe606fba8a19b0a13da46e910b08d3e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244258"
 ---
 # <a name="imofcompiler-methods"></a>IMofCompiler 方法
 

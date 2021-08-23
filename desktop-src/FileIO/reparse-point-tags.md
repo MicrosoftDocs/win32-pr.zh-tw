@@ -4,12 +4,12 @@ ms.assetid: d02a2f50-d374-4149-bc04-49b7db052f62
 title: 重新分析點標記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a53b65034347e2a2c07afcd6c1f03e31f73cef7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b31d4a1765266295b85c95c0955ae9c51faeb34ae07f3af48288a17a50f2166
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015186"
 ---
 # <a name="reparse-point-tags"></a>重新分析點標記
 
@@ -35,7 +35,7 @@ ms.locfileid: "106985022"
 
 
 
-| bit | Description                                                                                                  |
+| bit | 描述                                                                                                  |
 |-----|--------------------------------------------------------------------------------------------------------------|
 | M   | Microsoft 位。 如果設定此位，則標記是由 Microsoft 所擁有。 所有其他標記都必須使用零來表示此位。 |
 | R   | 保護所有非 Microsoft 標記都必須是零。                                                           |

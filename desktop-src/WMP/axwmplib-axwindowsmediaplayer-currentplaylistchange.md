@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f99f34f0e02d03352a61bbfca6767295d63d59a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 07ff3c076f9b670e3cd234a53b93f3ea9c0963d2dea1f12a3963f12300e9532e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136141"
 ---
 # <a name="currentplaylistchange-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 CurrentPlaylistChange 事件
 
@@ -160,7 +160,7 @@ End Sub
 [**AxWindowsMediaPlayer. currentPlaylist (VB 和 c # )**](axwmplib-axwindowsmediaplayer-currentplaylist--vb-and-c.md)
 </dt> <dt>
 
-[**AxWindowsMediaPlayer PlaylistChange 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-playlistchange.md)
+[**AxWindowsMediaPlayer. PlaylistChange 事件 (VB 和 c # )**](axwmplib-axwindowsmediaplayer-playlistchange.md)
 </dt> <dt>
 
 [**WMPPlaylistChangeEventType**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaylistchangeeventtype)

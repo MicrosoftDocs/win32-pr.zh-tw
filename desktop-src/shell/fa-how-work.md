@@ -4,12 +4,12 @@ ms.assetid: A1C05857-26F8-4d4a-977B-4782E8AFA317
 title: 檔案關聯的運作方式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf307e40bb6165da4a2547fb8dafc1791a11ee6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbd12386ec7e850d160a6377ddff9b807e6dccfe101ad45285bdc9d7f2661a0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032726"
 ---
 # <a name="how-file-associations-work"></a>檔案關聯的運作方式
 
@@ -37,7 +37,7 @@ ms.locfileid: "104192705"
 
 使用者可以控制檔案關聯的某些層面，以自訂 Shell 如何使用 [ **開啟** 檔案] UI 或編輯登錄來處理檔案類型。
 
-在以下螢幕擷取畫面所示的 [Windows 檔案總管] 視窗中，Shell 會根據與檔案類型相關聯的圖示，為每個檔案顯示不同的圖示。 如果使用者按兩下檔案 **範例點陣圖影像**，則 Shell 會啟動油漆，並用它來開啟檔案，因為在這個系統上，油漆與 .bmp 檔案相關聯。 人們可以使用檔案關聯來控制這些動作。
+在以下螢幕擷取畫面所示的 [Windows 檔案總管] 視窗中，Shell 會根據與檔案類型相關聯的圖示，為每個檔案顯示不同的圖示。 如果使用者按兩下檔案 **範例點陣圖影像**，命令介面會啟動小畫家，並使用它來開啟檔案，因為在這個系統上，小畫家與 .bmp 的檔案相關聯。 人們可以使用檔案關聯來控制這些動作。
 
 ![檔案關聯在實務上的運作方式圖例](images/file-assoc/fileassoc-icons.png)
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 1be17ca90b7138294be3e1b34fa3fcb4dcb4227a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e6fbef1a8e34746d3b430faa5cb03f93613bc7c35e047cdd35afeb4921a37fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032296"
 ---
 # <a name="shell-developers-guide"></a>Shell 開發人員指南
 

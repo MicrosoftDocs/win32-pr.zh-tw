@@ -4,12 +4,12 @@ ms.assetid: 21098fa7-a8b6-432b-a715-54ae53a9ba1c
 title: Microsoft RSA 簽名密碼編譯提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46656689d995432b85c3481e6f27ccb27e478d09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7dfb794316c4457fffa84c19293bda07c60a645dbea07718e9c044d593ac0fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425348"
 ---
 # <a name="microsoft-rsa-signature-cryptographic-provider"></a>Microsoft RSA 簽名密碼編譯提供者
 

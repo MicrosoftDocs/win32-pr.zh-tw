@@ -4,12 +4,12 @@ ms.assetid: e6912177-8add-4520-b396-c28060b359c7
 title: TrackRef 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95fc63de6eaffd697798c08ff74a46c3d15c7818
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34a523f801b8e82fc4191b54bf0bb5fee659ab4f5b09c326d5d1adf14c713f13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087176"
 ---
 # <a name="systemgpstrackref-photo-metadata-policy"></a>TrackRef 相片中繼資料原則
 

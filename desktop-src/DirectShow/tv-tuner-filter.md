@@ -4,12 +4,12 @@ ms.assetid: a8e101dc-78ab-495f-9086-7b1d1e87c357
 title: 電視調諧器篩選器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90f1fa68d7fc2723839882dd232e630dbe128634
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: b101dfcce4877570a2072d9e4c116466223e56889fb5e66de3e6ef0ec24afad6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015516"
 ---
 # <a name="tv-tuner-filter"></a>電視調諧器篩選器
 
@@ -38,7 +38,7 @@ ms.locfileid: "107909026"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

@@ -5,12 +5,12 @@ ms.assetid: c220627e-49bd-49f2-a03c-9cdef4b973ca
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: f8537b6ca9627a15470115a20f99082dae80e040
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: fa6853846695c02aabf85d0be865254608b9d4c00f39a372e99f1332e6eb4003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "104093480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012456"
 ---
 # <a name="op_joinprov2_part-structure"></a>OP_JOINPROV2_PART 結構
 

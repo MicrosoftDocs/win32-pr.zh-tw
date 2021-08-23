@@ -18,12 +18,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d68f70c6e40e823df0a6827e1114f40dae7937be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 571f13642116be0e846fe1350cd932d52087d9f0422b8f40d695e4fef99df5cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025776"
 ---
 # <a name="msad_namingcontext-class"></a>MSAD \_ NamingCoNtext 類別
 

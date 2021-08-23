@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 6d82e8e6ff4f56a3c67fa29c48e982ebe0fd4599
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb88cef081010f1319fb194904933ba2366d6593f0d2517c696bb6d6490ace20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119353838"
 ---
 # <a name="enumprinters-function"></a>>enumprinters 函式
 
-**>enumprinters** 函式會列舉可用的印表機、列印伺服器、網域或列印提供者。
+**>Enumprinters** 函式會列舉可用的印表機、列印伺服器、網域或列印提供者。
 
 ## <a name="syntax"></a>語法
 
@@ -47,7 +47,7 @@ BOOL EnumPrinters(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 函數應該列舉的列印物件類型。 這個值可以是下列一或多個值。
@@ -155,7 +155,7 @@ BOOL EnumPrinters(
 
 如果 **>enumprinters** 傳回印表機列舉容器所指定的 [**印表機 \_ 資訊 \_ 1**](printer-info-1.md) 結構 \_ \_ ，則表示有印表機物件的階層。 應用程式可以再次呼叫 **>enumprinters** 來列舉階層，並將 *名稱* 設定為 **印表機 \_ 資訊 \_ 1** 結構的 **pName** 成員的值。
 
-**>enumprinters** 函數不會取得安全性資訊。 如果 *pPrinterEnum* 所指向的陣列中傳回 [**印表機 \_ 資訊 \_ 2**](printer-info-2.md)結構，其 *pSecurityDescriptor* 成員將會設定為 **Null**。
+**>Enumprinters** 函數不會取得安全性資訊。 如果 *pPrinterEnum* 所指向的陣列中傳回 [**印表機 \_ 資訊 \_ 2**](printer-info-2.md)結構，其 *pSecurityDescriptor* 成員將會設定為 **Null**。
 
 若要取得預設印表機的相關資訊，請呼叫 [**GetDefaultPrinter**](getdefaultprinter.md)。
 
@@ -197,7 +197,7 @@ BOOL EnumPrinters(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **EnumPrintersW** (Unicode) 和 **EnumPrintersA** (ANSI) <br/>                                       |

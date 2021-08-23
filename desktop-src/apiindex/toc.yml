@@ -1,9 +1,9 @@
 - name: API 索引
   href: api-index-portal.md
   items:
-    - name: Windows API 清單
+    - name: WindowsAPI 清單
       href: windows-api-list.md
-    - name: Windows API 集合
+    - name: WindowsAPI 集合
       items:
         - name: 概觀
           href: windows-apisets.md

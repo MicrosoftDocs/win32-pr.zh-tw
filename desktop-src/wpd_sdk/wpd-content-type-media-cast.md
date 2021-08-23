@@ -4,12 +4,12 @@ ms.assetid: 368e7381-8978-421a-b450-59915f8e70e2
 title: WPD_CONTENT_TYPE_MEDIA_CAST
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d45c9bc1e8e41bae526f02102d341ef00fad435
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: e4454053400c783b53437dd025e5adc8e845ea08c1b95b8d9b1fd358f39e326f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083312"
 ---
 # <a name="wpd_content_type_media_cast"></a>WPD \_ 內容 \_ 類型 \_ 媒體 \_ 轉換
 
@@ -155,7 +155,7 @@ RSS 饋送中的元素具有下列階層和屬性。
 | category            | 選擇性。                | [WPD \_ 媒體內容類型 \_](media-properties.md)                       |
 | cloud               | 不適用。          | 不適用。                                                                 |
 | 著作權           | 選擇性。                | [WPD \_ 媒體 \_ 著作權](media-properties.md)               |
-| 描述         | 必要。                | [WPD \_ 媒體 \_ 描述](media-properties.md)           |
+| description         | 必要。                | [WPD \_ 媒體 \_ 描述](media-properties.md)           |
 | docs                | 不適用。          | 不適用。                                                                 |
 | 產生器           | 不適用。          | 不適用。                                                                 |
 | 語言            | 不適用。          | 不適用。                                                                 |
@@ -181,7 +181,7 @@ RSS 饋送中的元素具有下列階層和屬性。
 
 | Image 元素 | RSS 饋送需求 | Mediacast 屬性                     |
 |-------------------|--------------------------|--------------------------------------------------------------------------------|
-| 描述       | 選擇性。                | [WPD \_ 媒體 \_ 描述](media-properties.md)          |
+| description       | 選擇性。                | [WPD \_ 媒體 \_ 描述](media-properties.md)          |
 | 身高            | 選擇性。                | [WPD \_ 媒體 \_ 高度](media-properties.md)                    |
 | link              | 選擇性。                | [WPD \_ 媒體 \_ 目的地 \_ URL](media-properties.md) |
 | title             | 選擇性。                | [WPD \_ 物件 \_ 名稱](object-properties.md)                     |
@@ -201,7 +201,7 @@ RSS 饋送中的元素具有下列階層和屬性。
 | 編寫           |               | 選擇性。                | [WPD \_ MEDIA \_ 演出者](media-properties.md)                    |
 | category         |               | 選擇性。                | [WPD \_ 媒體內容類型 \_](media-properties.md)                      |
 |                  | 網域        | 不適用。          | 不適用。                                                                |
-| 描述      |               | 選擇性。                | [WPD \_ 媒體 \_ 描述](media-properties.md)          |
+| description      |               | 選擇性。                | [WPD \_ 媒體 \_ 描述](media-properties.md)          |
 | 外殼        |               | 選擇性。                |                                                                                |
 |                  | url           | 必要。                | [WPD \_ 媒體 \_ 來源 \_ URL](media-properties.md)           |
 |                  | 長度        | 必要。                | [WPD \_ 物件 \_ 大小](object-properties.md)                     |

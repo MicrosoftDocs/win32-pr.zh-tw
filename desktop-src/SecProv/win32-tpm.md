@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: d8d6eac9fba875484ba2f08e149608c9994a1087
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53fbe055e469dc4327ae747ab3e20873724923980f1e765d266a5f8143b545c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004016"
 ---
 # <a name="win32_tpm-class"></a>Win32 \_ Tpm 類別
 
@@ -65,7 +65,7 @@ class Win32_Tpm
 |:-----------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddBlockedCommand**](addblockedcommand-win32-tpm.md)                                 | 將 TPM 命令新增至 Windows 上封鎖的本機命令清單。<br/>                                                                                                             |
 | [**ChangeOwnerAuth**](changeownerauth-win32-tpm.md)                                     | 變更 TPM 擁有者授權值。<br/>                                                                                                                                       |
-| [**清楚**](clear-win32-tpm.md)                                                         | 將 TPM 重設為其原廠預設狀態。<br/>                                                                                                                                     |
+| [**清除**](clear-win32-tpm.md)                                                         | 將 TPM 重設為其原廠預設狀態。<br/>                                                                                                                                     |
 | [**ConvertToOwnerAuth**](converttoownerauth-win32-tpm.md)                               | 將使用者提供的複雜密碼轉換成20位元組的擁有者授權值，可用來與 TPM 互動。<br/>                                                            |
 | [**CreateEndorsementKeyPair**](createendorsementkeypair-win32-tpm.md)                   | 在 TPM 上建立2048位簽署金鑰組。<br/>                                                                                                                              |
 | [**停用**](disable-win32-tpm.md)                                                     | 允許 TPM 擁有者停用 TPM。<br/>                                                                                                                                         |
@@ -83,7 +83,7 @@ class Win32_Tpm
 | [**IsOwnershipAllowed**](isownershipallowed-win32-tpm.md)                               | 指出是否可以安裝 TPM 擁有者。<br/>                                                                                                                                  |
 | [**IsPhysicalClearDisabled**](isphysicalcleardisabled-win32-tpm.md)                     | 指出 TPM 實體存在作業是否可以清除 TPM。<br/>                                                                                                           |
 | [**IsPhysicalPresenceHardwareEnabled**](isphysicalpresencehardwareenabled-win32-tpm.md) | 指出此電腦是否支援專用硬體路徑來表示實體存在。<br/>                                                                                  |
-| [**IsSrkAuthCompatible**](issrkauthcompatible-win32-tpm.md)                             | 指出儲存根金鑰 (SRK) 授權是否與 Windows 相容。<br/>                                                                                           |
+| [**IsSrkAuthCompatible**](issrkauthcompatible-win32-tpm.md)                             | 指出儲存體根金鑰 (SRK) 授權是否與 Windows 相容。<br/>                                                                                           |
 | [**RemoveBlockedCommand**](removeblockedcommand-win32-tpm.md)                           | 從 Windows 封鎖的本機命令清單中移除 TPM 命令。<br/>                                                                                                        |
 | [**ResetAuthLockOut**](resetauthlockout-win32-tpm.md)                                   | 重設 TPM 製造商所實行的超時時間或其他機制，以防止 TPM 上的字典攻擊。<br/>                                                 |
 | [**ResetSrkAuth**](resetsrkauth-win32-tpm.md)                                           | 重設儲存體根金鑰 (SRK) 授權值，以與 Windows 相容。<br/>                                                                                             |
@@ -247,8 +247,8 @@ TPM 的其他製造商特定版本資訊。
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                      |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

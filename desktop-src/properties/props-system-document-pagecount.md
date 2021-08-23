@@ -4,16 +4,16 @@ ms.assetid: a812f2b2-fde8-432a-bd1b-1c13d7cbb573
 title: System.Doc>ument。PageCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab87b14a18d7421c108b0c9b08aa93d5ee072eb6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0e43025554fdc5a00190025ad845748fee316f7e1c548a203bc92ea9ae1b31b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108101056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096987"
 ---
 # <a name="systemdocumentpagecount"></a>System.Doc>ument。PageCount
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

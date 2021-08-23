@@ -8,12 +8,12 @@ keywords:
 - 寫入器統計資料，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8c6620a2410b08d4d605c4dc116366c24b1e52c
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: a1cedd96f1e94b8d3c9499fe08e3eeebb2100e866b141b756483cfb07bb7cb0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103933008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083963"
 ---
 # <a name="to-get-writer-statistics"></a>取得寫入器統計資料
 
@@ -34,9 +34,9 @@ ms.locfileid: "103933008"
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

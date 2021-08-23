@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3cecf46250fface0f716adbf287cda3269b86f04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 555c8683933b2242d119fc00f29c6d0a33188f6404ca48a00e8a127dd59aa791
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119424468"
 ---
 # <a name="eventtrigger-triggergroup-element"></a>EventTrigger (triggerGroup) 元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "104466284"
 
 
 
-| 元素                                                           | 衍生自                                                         | Description                                            |
+| 元素                                                           | 衍生自                                                         | 描述                                            |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------|
 | [**觸發程序**](taskschedulerschema-triggers-tasktype-element.md) | [**triggersType**](taskschedulerschema-triggerstype-complextype.md) | 指定啟動工作的觸發程式。<br/> |
 
@@ -47,14 +47,14 @@ ms.locfileid: "104466284"
 
 
 
-| 元素                                                                                              | 類型                                                                     | Description                                                                                                                        |
+| 元素                                                                                              | 類型                                                                     | 描述                                                                                                                        |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | [**延遲 (eventTriggerType)**](taskschedulerschema-delay-eventtriggertype-element.md)               | duration                                                                 | 指定事件發生時間和工作啟動時間之間的時間量。<br/>                                |
 | [**已啟用 (triggerBaseType)**](taskschedulerschema-enabled-triggerbasetype-element.md)             | boolean                                                                  | 指定啟用觸發程序。<br/>                                                                                  |
 | [**EndBoundary (triggerBaseType)**](taskschedulerschema-endboundary-triggerbasetype-element.md)     | dateTime                                                                 | 指定停用觸發程式的日期和時間。 觸發程式在停用之後無法啟動工作。<br/> |
 | [**重複 (triggerBaseType)**](taskschedulerschema-repetition-triggerbasetype-element.md)       | [**repetitionType**](taskschedulerschema-repetitiontype-complextype.md) | 指定執行工作的頻率，以及啟動工作之後重複模式重複的時間長度。<br/>          |
 | [**StartBoundary (triggerBaseType)**](taskschedulerschema-startboundary-triggerbasetype-element.md) | dateTime                                                                 | 指定啟動觸發程式的日期和時間。<br/>                                                              |
-| [**訂用帳戶 (eventTriggerType)**](taskschedulerschema-subscription-eventtriggertype-element.md) | 字串                                                                   | 指定 XPath 查詢，以識別引發觸發程式的事件。<br/>                                             |
+| [**訂用帳戶 (eventTriggerType)**](taskschedulerschema-subscription-eventtriggertype-element.md) | string                                                                   | 指定 XPath 查詢，以識別引發觸發程式的事件。<br/>                                             |
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "104466284"
 
 
 
-| 名稱 | 類型 | Description                           |
+| 名稱 | 類型 | 描述                           |
 |------|------|---------------------------------------|
 | 識別碼   | 識別碼   | 觸發程式的識別碼。<br/> |
 
@@ -86,8 +86,8 @@ ms.locfileid: "104466284"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

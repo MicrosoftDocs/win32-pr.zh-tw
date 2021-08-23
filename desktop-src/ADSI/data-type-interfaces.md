@@ -7,12 +7,12 @@ keywords:
 - 資料類型介面 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1329637121c60325424fe4ddf2d204053983d8c8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 643b71204775224e1e7090f455a2bfb1d9fb590b9e544c0bd7dfa7caa2049470
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082702"
 ---
 # <a name="data-type-interfaces"></a>資料類型介面
 
@@ -35,9 +35,9 @@ ms.locfileid: "103671163"
 -   [**IADsTimestamp**](/windows/desktop/api/Iads/nn-iads-iadstimestamp)
 -   [**IADsTypedName**](/windows/desktop/api/Iads/nn-iads-iadstypedname)
 
- 
+ 
 
- 
+ 
 
 
 

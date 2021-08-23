@@ -4,19 +4,19 @@ ms.assetid: 024744d3-362f-4162-8d0a-d4dac61de808
 title: 使用多重文件介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e24aed7abc3640b441345520203c8a02e025e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09453e6f4a9301c8cdfc9d675ae1efd7853594fc472a446a021e3bd3e075fc50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028326"
 ---
 # <a name="using-the-multiple-document-interface"></a>使用多重文件介面
 
 本節說明如何執行下列工作：
 
 -   [註冊子系和框架視窗類別](#registering-child-and-frame-window-classes)
--   [建立框架和子視窗](#creating-frame-and-child-windows)
+-   [建立框架和子 Windows](#creating-frame-and-child-windows)
 -   [寫入主要訊息迴圈](#writing-the-main-message-loop)
 -   [撰寫框架視窗程式](#writing-the-frame-window-procedure)
 -   [撰寫子視窗程式](#writing-the-child-window-procedure)
@@ -75,7 +75,7 @@ BOOL WINAPI InitializeApplication()
 
 
 
-## <a name="creating-frame-and-child-windows"></a>建立框架和子視窗
+## <a name="creating-frame-and-child-windows"></a>建立框架和子 Windows
 
 在註冊其視窗類別之後，MDI 應用程式即可建立其視窗。 首先，它會使用 [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) 或 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) 函數來建立框架視窗。 在建立框架視窗之後，應用程式會使用 **CreateWindow** 或 **CreateWindowEx** 再次建立其用戶端視窗。 應用程式應該將 MDICLIENT 指定為用戶端視窗的類別名稱; **MDICLIENT** 是系統定義的預先註冊視窗類別。 **CreateWindow** 或 **CreateWindowEx** 的 *lpvParam* 參數應指向 [**CLIENTCREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-clientcreatestruct)結構。 此結構包含下表中描述的成員：
 

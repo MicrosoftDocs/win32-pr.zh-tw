@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08e124c7f2757a0d6d1d2ac0904052b6d3c255ad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a9ac39a453a007e4ad81f0369dc1d78f268f3496ffb4aa9b371a2d3f5ca0baa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119354468"
 ---
 # <a name="wm_menugetobject-message"></a>WM \_ MENUGETOBJECT 訊息
 
@@ -56,7 +56,7 @@ ms.locfileid: "104509463"
 
 
 
-| 傳回碼/值                                                                                                                                                | Description                                                                                                            |
+| 傳回碼/值                                                                                                                                                | 描述                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**MNGO \_>AAD-USERREADUSINGALTERNATIVESECURITYID-NOERROR**</dt> <dt>0x00000001</dt> </dl>     | 在 [**MENUGETOBJECTINFO**](/windows/win32/api/winuser/ns-winuser-menugetobjectinfo)的 **pvObj** 成員中傳回介面指標<br/> |
 | <dl> <dt>**MNGO \_NOINTERFACE**</dt> <dt>0x00000000</dt> </dl> | 不支援此介面。<br/>                                                                             |
@@ -73,7 +73,7 @@ ms.locfileid: "104509463"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

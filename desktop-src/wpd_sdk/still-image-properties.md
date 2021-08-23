@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置支援下列仍為影像的屬性。
+description: Windows可攜式裝置支援下列仍為影像的屬性。
 ms.assetid: 0b5a126c-5064-48e5-a635-00c3e9ab6a2c
 title: '靜止影像屬性 (PortableDevice) '
 ms.topic: reference
@@ -13,26 +13,26 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 3bc06428dc153dc8ff205e283b1000ef0a171b6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2076c03b479b5b720b1c09d5c443b1332f1ea00ecf74ea381efb224b56b72bec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083442"
 ---
 # <a name="still-image-properties"></a>靜止影像屬性
 
-Windows 可攜式裝置支援下列仍為影像的屬性。
+Windows可攜式裝置支援下列仍為影像的屬性。
 
 
 
-| 屬性                                                                                                                                                       | VarType        | Description                                                                                                                                                                                                                                                                                                                  |
+| 屬性                                                                                                                                                       | VarType        | 描述                                                                                                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ 靜止 \_ 影像 \_ 演出者**                                                                                                                                  | **VT \_ LPWSTR** | 裝置的擁有者/使用者名稱。                                                                                                                                                                                                                                                                                    |
 | <span id="wpd_still_image_burst_interval"></span><span id="WPD_STILL_IMAGE_BURST_INTERVAL"></span>**WPD \_ 仍然是影像高載 \_ \_ \_ 間隔**                       | **VT \_ UI4**    | 在高載模式映射捕捉中，映射捕獲之間的延遲時間（以毫秒為單位）。                                                                                                                                                                                                                                       |
 | <span id="wpd_still_image_burst_number"></span><span id="WPD_STILL_IMAGE_BURST_NUMBER"></span>**WPD \_ 仍然是影像高載 \_ \_ \_ 數目**                             | **VT \_ UI4**    | 在高載模式映射捕捉中，要捕捉的映射數目。                                                                                                                                                                                                                                                              |
 | **WPD \_ 仍然是 \_ 映射 \_ 捕捉 \_ 延遲**                                                                                                                          | **VT \_ UI4**    | 指定命令捕獲映射與實際捕獲之間的時間延遲（以毫秒為單位）。                                                                                                                                                                                                                    |
-| **WPD \_ 仍然是 \_ 影像 \_ 捕捉 \_ 格式**                                                                                                                         | **VT \_ CLSID**  | 用來捕捉影像的格式。 這是 Windows 可攜式裝置所定義的其中一個 [格式 GUID 值](object-format-guids.md) 。                                                                                                                                                                        |
+| **WPD \_ 仍然是 \_ 影像 \_ 捕捉 \_ 格式**                                                                                                                         | **VT \_ CLSID**  | 用來捕捉影像的格式。 這是 Windows 可攜式裝置所定義的其中一個[格式 GUID 值](object-format-guids.md)。                                                                                                                                                                        |
 | <span id="wpd_still_image_capture_mode"></span><span id="WPD_STILL_IMAGE_CAPTURE_MODE"></span>**WPD \_ 仍然是 \_ 影像 \_ 捕捉 \_ 模式**                             | **VT \_ UI4**    | [**WPD \_ capture \_ 模式**](wpd-capture-modes.md)列舉值，指定用來捕捉映射的捕獲模式。                                                                                                                                                                                                    |
 | **WPD \_ 仍然是 \_ 映射 \_ 捕獲 \_ 解析**                                                                                                                     | **VT \_ LPWSTR** | 字串，指定要捕捉的影像大小。 映射大小是以圖元為單位指定，格式為「*寬度* x *高度*」。 例如：「800x600」。                                                                                                                                                                          |
 | **WPD \_ 靜止 \_ 影像 \_ 壓縮 \_ 設定**                                                                                                                    | **VT \_ UI8**    | 描述在捕獲映射時所使用的影像壓縮設定。 這是裝置特定的。                                                                                                                                                                                                                     |

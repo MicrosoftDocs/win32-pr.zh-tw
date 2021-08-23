@@ -1,19 +1,19 @@
 ---
 title: " (c + +) 解壓縮應用程式套件內容"
-description: 瞭解如何使用封裝 API，從適用于 Windows 應用程式的應用程式套件中解壓縮檔案。
+description: 瞭解如何使用封裝 API 將 Windows 應用程式的應用程式封裝解壓縮檔案。
 ms.assetid: 72C368F9-2EBA-4930-81CF-9B85717CC0AA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8830ba7bc21553a9f8145bc97a6b98b3e32729af
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 4960a2b30ad7946f1f68e11df5170ae5246f3c36564a7e5e9bc27595be0b7903
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104374940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049046"
 ---
 # <a name="extract-app-package-contents-c"></a> (c + +) 解壓縮應用程式套件內容
 
-瞭解如何使用 [封裝 API](interfaces.md)，從適用于 Windows 應用程式的應用程式套件中解壓縮檔案。
+瞭解如何使用[封裝 API](interfaces.md)將 Windows 應用程式的應用程式封裝解壓縮檔案。
 
 您也可以使用 MakeAppx.exe 工具，從應用程式套件或套件組合中解壓縮檔案。 如需詳細資訊，請參閱 [從套件或套件組合解壓縮檔](/windows/msix/package/create-app-package-with-makeappx-tool#extract-files-from-a-package-or-bundle) 案。
 
@@ -456,6 +456,6 @@ CoUninitialize();
 [**IAppxPackageReader**](/windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagereader)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

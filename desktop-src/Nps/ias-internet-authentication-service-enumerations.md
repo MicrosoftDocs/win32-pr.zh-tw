@@ -5,19 +5,19 @@ ms.assetid: 6bf9c421-f0f6-4c75-bb4d-dbe91dcb8d01
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b727fee91a1ca3431fb6ced3c7640fb4ead12b40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8aa794bea36a704de71cc65f81a9cec2186134f21d4b8b6cde2d9f92e8ffe844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063548"
 ---
 # <a name="nps-extensions-enumerations"></a>NPS 擴充功能列舉
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。
 
- 
+ 
 
 開發 NPS 擴充 Dll 時，請使用下列列舉類型。
 
@@ -29,6 +29,6 @@ ms.locfileid: "104376073"
 -   [**RADIUS \_ 擴充 \_ 點**](/windows/desktop/api/authif/ne-authif-radius_extension_point)
 -   [**RADIUS \_ 拒絕 \_ 原因 \_ 碼**](/windows/desktop/api/authif/ne-authif-radius_reject_reason_code)
 
- 
+ 
 
- 
+ 

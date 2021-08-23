@@ -4,12 +4,12 @@ description: RPC 子系統支援在同步和非同步模式中使用 MSMQ 做為
 ms.assetid: c3f96a91-b7bb-4c2a-8699-2100324af165
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a647fe4111e3ba4fc2ad0fe05fb7bcb48729a4c2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ab18f4476815929e8a7e6fb4e4a1eef0a4e4e34754ac134f023c8551899e0138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010676"
 ---
 # <a name="using-msmq-as-an-rpc-transport"></a>使用 MSMQ 做為 RPC 傳輸
 
@@ -21,6 +21,6 @@ RPC 子系統支援在同步和非同步模式中使用 MSMQ 做為傳輸。
 
 您可以執行非同步 MSMQ，如同同步 MSMQ 一樣。 您必須使用已知的端點，並定義要 [ncadg \_ mq](/windows/desktop/Midl/ncadg-mq)的傳輸通訊協定。 在 IDL 檔案中，將 [message](/windows/desktop/Midl/message) 屬性套用至使用非同步訊息佇列的函數。 請注意，訊息函數 \[ 只能有 in \] 參數。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 80b028f5-7756-4bb8-b5e3-ebc8343e168c
 title: 'MF_AUDIO_RENDERER_ATTRIBUTE_SESSION_ID 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4952a60d4438e610677b494290e9738e469770d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5830a3deeb32ca6a3f766bad1858a803948b7e2c07a36f1f1e3222d00ba6199a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104994"
 ---
 # <a name="mf_audio_renderer_attribute_session_id-attribute"></a>MF \_ 音訊轉譯器 \_ \_ 屬性 \_ 會話 \_ 識別碼屬性
 
@@ -36,8 +36,8 @@ ms.locfileid: "103850691"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

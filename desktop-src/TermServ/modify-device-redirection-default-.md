@@ -5,12 +5,12 @@ ms.assetid: 03F2617C-D478-4A51-9EEC-E9643CA831B7
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 925099b94c75dca39d381bdf57ae9730fb840da7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2b74515f6bf79b42c129ec7c113729b9871d4e4bfb0101f845f91dcac0d49237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138166"
 ---
 # <a name="modify-device-redirection-default"></a>修改裝置重新導向預設值
 
@@ -22,9 +22,9 @@ ms.locfileid: "103840176"
 
 當此機碼存在時，遠端桌面閘道將不會強制執行裝置重新導向。
 
- 
+ 
 
- 
+ 
 
 
 

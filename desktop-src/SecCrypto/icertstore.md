@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 119609399709340049bc43693ac51f6259021416
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a48913b4bfb1fc28b612437a8f3b6934941c19b22683913f68d59f3f11d9e1c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005576"
 ---
 # <a name="icertstore-interface"></a>ICertStore 介面
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。\]
 
 **ICertStore** 介面可讓您存取 CAPICOM [**存放區**](store.md)物件的內容。 此內容允許將 CAPICOM 憑證存放區用於其他的 CryptoAPI 衍生。
 
@@ -57,7 +57,7 @@ ms.locfileid: "106989833"
 
 
 
-| 屬性                                                     | 存取類型           | Description                                                                                                         |
+| 屬性                                                     | 存取類型           | 描述                                                                                                         |
 |:-------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------|
 | [**StoreHandle**](icertstore-storehandle.md)<br/>     | 讀取/寫入<br/> | 設定或抓取證書存儲的 HCERTSTORE 控制碼。<br/>                                          |
 | [**StoreLocation**](icertstore-storelocation.md)<br/> | 讀取/寫入<br/> | 設定或抓取證書存儲的 [**CAPICOM \_ 存放區 \_ 位置**](capicom-store-location.md) 。<br/> |

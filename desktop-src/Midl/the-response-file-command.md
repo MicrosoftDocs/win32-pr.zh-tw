@@ -6,12 +6,12 @@ keywords:
 - 命令列參考 MIDL，回應檔案命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26cf4d07ce8465239874ff666537646da2c4c564
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: d9c40d8f4255b15a7b95b9bdca9e72ae2cba8e7ea1d42281f441326090a9529d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013526"
 ---
 # <a name="the-response-file-command"></a>回應檔命令
 

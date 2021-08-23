@@ -1,17 +1,17 @@
 ---
-title: Windows Web 服務結構
+title: WindowsWeb 服務結構
 ms.assetid: 7e40a287-c983-4fb0-9c98-293af12c5dd0
 description: 深入瞭解： Windows Web 服務結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eeaff493a60a2684262f4754272f2904f25813c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55028f93b29a72707653a6a20c06a243cfa93bad1964cf2550d41fa710c702ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119219498"
 ---
-# <a name="windows-web-services-structures"></a>Windows Web 服務結構
+# <a name="windows-web-services-structures"></a>WindowsWeb 服務結構
 
 Windows Web 服務 API 包含下列結構和等位：
 

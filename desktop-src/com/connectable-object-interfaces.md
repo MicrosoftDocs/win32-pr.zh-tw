@@ -4,12 +4,12 @@ description: 可連線物件介面
 ms.assetid: 136fb7bd-7a38-4051-b47b-3d08f1dbee79
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dc2d747d7aabe25788c34d80bddb8ca1466e9c5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 540da5b21669908892115a3f3fd60a12a3eeef2252c446b37717b4b5f981df51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119410398"
 ---
 # <a name="connectable-object-interfaces"></a>可連線物件介面
 
@@ -20,7 +20,7 @@ ms.locfileid: "103840792"
 -   列舉值物件上的 [**IEnumConnectionPoints**](/windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints)
 -   列舉值物件上的 [**IEnumConnections**](/windows/desktop/api/ocidl/nn-ocidl-ienumconnections)
 
-後兩個會定義為 **IConnectionPoint \*** 和 [**CONNECTDATA**](/windows/win32/api/ocidl/ns-ocidl-connectdata)類型的標準枚舉器。
+後兩個會定義為類型 **IConnectionPoint \** _ 和 [_ *CONNECTDATA* *](/windows/win32/api/ocidl/ns-ocidl-connectdata)的標準枚舉器。
 
 此外，可連線物件也可以選擇性地支援 [**IProvideClassInfo**](/windows/desktop/api/OCIdl/nn-ocidl-iprovideclassinfo) 和 [**iprovideclassinfo2.getguid**](/windows/desktop/api/OCIdl/nn-ocidl-iprovideclassinfo2) ，以提供足夠的資訊給用戶端，讓用戶端可以在執行時間提供輸出介面的支援。
 
@@ -39,9 +39,9 @@ ms.locfileid: "103840792"
 [可連線物件的架構](architecture-of-connectable-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

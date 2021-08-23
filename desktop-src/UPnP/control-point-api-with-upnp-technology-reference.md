@@ -1,19 +1,19 @@
 ---
 title: 控制點 API 參考
-description: 下列介面是具有 UPnP 技術之控制點 API 的一部分。 控制點 API 支援 Microsoft Visual Basic Scripting Edition (VBScript) 、Microsoft Visual Basic 和 c + +。
+description: 下列介面是具有 UPnP 技術之控制點 API 的一部分。 控制點 API 支援 microsoft Visual Basic 腳本版本 (VBScript) 、Microsoft Visual Basic 和 c + +。
 ms.assetid: 6f73bf8c-0423-430f-a654-58d076712aae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 691a0d764f612d957ac11b3b052859f081bc7285
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24b3dab16874ebeb7b43ef1e8cf28def13d3ef1d7169a5aae4836b39da66636b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058116"
 ---
 # <a name="control-point-api-reference"></a>控制點 API 參考
 
-下列介面是具有 UPnP 技術之控制點 API 的一部分。 控制點 API 支援 Microsoft Visual Basic Scripting Edition (VBScript) 、Microsoft Visual Basic 和 c + +。
+下列介面是具有 UPnP 技術之控制點 API 的一部分。 控制點 API 支援 microsoft Visual Basic 腳本版本 (VBScript) 、Microsoft Visual Basic 和 c + +。
 
 
 
@@ -37,11 +37,11 @@ ms.locfileid: "104300535"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

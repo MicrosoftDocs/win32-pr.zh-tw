@@ -3,18 +3,18 @@ title: 將腳本資料新增至標頭
 description: 將腳本資料新增至標頭
 ms.assetid: 25f63d9e-c81a-4098-81d4-e848659a60e5
 keywords:
-- Windows Media Format SDK，將腳本資料新增至標頭
+- Windows媒體格式 SDK，將腳本資料新增至標頭
 - Advanced Systems Format (ASF) ，將腳本資料新增至標頭
 - ASF (Advanced Systems Format) ，將腳本資料新增至標頭
 - 腳本，將資料加入至標頭
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8052d8a5ae04b0ea821d716bf1931352c591f892
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: b19a8ad34a69427dc26435a6a599b8d91db2ebe2b8be700483189b2e7ba22846
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106969893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027316"
 ---
 # <a name="to-add-script-data-to-the-header"></a>將腳本資料新增至標頭
 
@@ -33,7 +33,7 @@ ms.locfileid: "106969893"
 > [!Note]  
 > 使用 DRM 加密檔案時，沒有指令碼命令可以有0的呈現時間。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -48,9 +48,9 @@ ms.locfileid: "106969893"
 [**使用指令碼命令**](using-script-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

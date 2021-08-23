@@ -4,12 +4,12 @@ ms.assetid: 257ad7ea-636b-45f2-b514-4a213939d107
 title: 關於分散式路由表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dfca9f81cc609d97584ef5a11f999722c696858
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc8e82b25fee0bb6733bb21db82193d14e6cc8d621148b6d5c671fb04a3b2d85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011836"
 ---
 # <a name="about-distributed-routing-tables"></a>關於分散式路由表
 
@@ -19,7 +19,7 @@ ms.locfileid: "103849323"
 
 DRT 金鑰是256位不帶正負號的整數。 索引鍵之間的接近程度會以兩者之間的數值差異來定義。 將 DRT keyspace 視為圓形。 例如，第一個可能的索引鍵值和最後一個可能的金鑰值視為相鄰。
 
-在安全的 DRT 中，需要有節點來驗證它們所發佈的金鑰。 當您初始化了 DRT 時，必須使用 DRT API 來設定節點用來驗證金鑰的機制。 這是藉由選擇適用于 DRT 的安全性提供者來完成。 安全性提供者是一個模組，可產生用來驗證金鑰的權杖，以及驗證其他節點所產生的權杖。 它必須執行本檔中定義的安全性提供者介面。 Windows 7 DRT 隨附兩個完全實行的安全性提供者，可用於建立 Windows 應用程式。
+在安全的 DRT 中，需要有節點來驗證它們所發佈的金鑰。 當您初始化了 DRT 時，必須使用 DRT API 來設定節點用來驗證金鑰的機制。 這是藉由選擇適用于 DRT 的安全性提供者來完成。 安全性提供者是一個模組，可產生用來驗證金鑰的權杖，以及驗證其他節點所產生的權杖。 它必須執行本檔中定義的安全性提供者介面。 Windows 7 DRT 隨附兩個完全實行的安全性提供者，可用來建立 Windows 的應用程式。
 
 在初始化期間，應用程式也必須提供啟動程式提供者的 DRT。 啟動載入器提供者是一個模組，可抓取在 DRT 網狀中已存在之節點的網路端點，並在建立新節點時由該模組呼叫。 和安全性提供者模組一樣，啟動載入器提供者必須執行妥善定義的介面。 Windows 7 DRT 隨附兩個完全實行的啟動程式提供者。
 

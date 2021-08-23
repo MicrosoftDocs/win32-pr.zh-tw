@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f487c470f612a30919d2dae006f2ccbe64f26c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c32ad6138f0442fdcb4c76b0f50bb75158410cd2980cc32d4b6774a2cec18320
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119417268"
 ---
 # <a name="buttondowntooltip"></a>按鈕. downToolTip
 

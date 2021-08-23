@@ -4,12 +4,12 @@ ms.assetid: 6b8d0801-14e6-4aff-8815-81d884955488
 title: StorageFull。
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a882cf4abce08abec012eb96b7303d697efbfe6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe39999e1ea3ef9cfe0c8fdbe6323ae48a89b7f410e8d3543b41e68ecf50f5be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119353198"
 ---
 # <a name="systemdevicesnotificationsstoragefull"></a>StorageFull。
 

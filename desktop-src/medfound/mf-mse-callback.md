@@ -4,12 +4,12 @@ ms.assetid: A5783F9B-6261-4384-9484-275F550709E2
 title: MF_MSE_CALLBACK 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25f1eefeaf0cc258080a5dc145c867a3dd74e516
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cc64fea1afa67542ddc1e24899e229a38db38ee6f714f57a40bb86c18bee2d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106969388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104594"
 ---
 # <a name="mf_mse_callback-attribute"></a>MF \_ MSE \_ 回呼屬性
 
@@ -25,9 +25,9 @@ ms.locfileid: "106969388"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                      |
-| Idl<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                      |
+| IDL<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: 'IPM_SETADDRESS 訊息 (Commctrl .h) '
 description: 在 IP 位址控制項中設定所有四個欄位的位址值。
 ms.assetid: 52e72437-3558-4789-844f-5ab5b0b7967c
 keywords:
-- IPM_SETADDRESS message Windows 控制項
+- IPM_SETADDRESS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e8e4fa69791f93094d24f990ad62207cad33dc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 54817d2206295432e9b477532268a000fc43047ae928ab02224d668912474519
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434488"
 ---
 # <a name="ipm_setaddress-message"></a>IPM \_ SETADDRESS 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104104465"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

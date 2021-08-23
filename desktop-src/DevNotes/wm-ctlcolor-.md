@@ -1,22 +1,22 @@
 ---
-description: 在 \_ 16 位版本的 Windows 中，會使用 WM CTLCOLOR 訊息來變更清單方塊的色彩配置、下拉式方塊的清單方塊、訊息方塊、按鈕控制項、編輯控制項、靜態控制項和對話方塊。請注意，如需此訊息和32位版本 Windows 的相關資訊，請參閱備註。
+description: 在 \_ Windows 的16位版本中，會使用 WM CTLCOLOR 訊息來變更清單方塊的色彩配置、下拉式方塊的清單方塊、訊息方塊、按鈕控制項、編輯控制項、靜態控制項和對話方塊。請注意，如需此訊息和32位版本之 Windows 的相關資訊，請參閱備註。
 ms.assetid: e654cf48-550f-4210-9952-20470b9a397a
 title: 'WM_CTLCOLOR 訊息 (WindowsX .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8166979c17b7d2eef50af062e5df13712e9d32ae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c53f18bc42737e44a2137e0c9763dfc41de44f65661ca4754915f7a21317641
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343288"
 ---
 # <a name="wm_ctlcolor-message"></a>WM \_ CTLCOLOR 訊息
 
-在16位版本的 Windows 中，會使用 **WM \_ CTLCOLOR** 訊息來變更清單方塊的色彩配置、下拉式方塊的清單方塊、訊息方塊、按鈕控制項、編輯控制項、靜態控制項和對話方塊。
+在 Windows 的16位版本中，會使用 **WM \_ CTLCOLOR** 訊息來變更清單方塊的色彩配置、下拉式方塊的清單方塊、訊息方塊、按鈕控制項、編輯控制項、靜態控制項和對話方塊。
 
 > [!Note]  
-> 如需此訊息和32位版本 Windows 的相關資訊，請參閱備註。
+> 如需此訊息和32位版本之 Windows 的相關資訊，請參閱備註。
 
  
 

@@ -5,12 +5,12 @@ ms.assetid: BC9894F7-D496-46F2-A5C3-C7CA31FD4BA8
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dad04055a5acdeeeaead3a56f0bd04e64aa90fe0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7797b933a759afd0ccfb959672e5c595cefa21712f3488e61b4f99b8a57b0893
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123800"
 ---
 # <a name="memory-management-strategies"></a>記憶體管理原則
 
