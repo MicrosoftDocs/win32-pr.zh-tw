@@ -1,6 +1,6 @@
 - name: Windows 協助工具功能
   href: about-windows-accessibility-features.md
-- name: Windows 協助工具功能參考
+- name: Windows協助工具功能參考
   items:
     - name: 協助工具參數
       items:
@@ -56,9 +56,9 @@
       href: checking-the-state-of-an-accessibility-parameter.md
     - name: 啟用內建協助工具功能
       href: enabling-a-built-in-accessibility-feature.md
-- name: Windows 協助工具 API 參考
+- name: Windows協助工具 API 參考
   items:
-    - name: Windows 協助工具 API 總覽
+    - name: Windows協助工具 API 總覽
       href: windows-automation-api-portal.md
     - name: Microsoft Active Accessibility 和消費者介面自動化比較
       href: microsoft-active-accessibility-and-ui-automation-compared.md
@@ -108,7 +108,7 @@
                   href: uiauto-uiautomationtextunits.md
             - name: 消費者介面自動化的拖放支援
               href: ui-automation-support-for-drag-and-drop.md
-            - name: 使用安全陣列的最佳作法
+            - name: 使用保管庫陣列的最佳作法
               href: uiauto-workingwithsafearrays.md
             - name: UI 自動化規格和社群承諾
               href: uiauto-specandcommunitypromise.md
@@ -3109,11 +3109,11 @@
             - name: 附錄 D： Visual Basic 開發人員的注意事項
               href: appendix-d--notes-for-visual-basic-developers.md
               items:
-                - name: Visual Basic 方法附注： accName
+                - name: Visual Basic方法附注： accName
                   href: visual-basic-method-notes--accname.md
-                - name: Visual Basic 方法附注： accValue
+                - name: Visual Basic方法附注： accValue
                   href: visual-basic-method-notes--accvalue.md
-                - name: Visual Basic 範例程式
+                - name: Visual Basic範例程式
                   href: visual-basic-sample-programs.md
             - name: 附錄 E： Active Accessibility 文字服務字典的 Text 屬性
               href: appendix-e--text-attributes-for-active-accessibility-text-services-dictionary.md
@@ -3170,14 +3170,14 @@
               href: implementing-iaccessibleex-for-providers.md
             - name: 從用戶端使用 IAccessibleEx
               href: using-iaccessibleex-from-a-client.md
-        - name: 無視窗的 ActiveX 控制項協助工具
+        - name: 無視窗 ActiveX 控制項協助工具
           href: windowless-activex-control-accessibility.md
           items:
-            - name: 如何使用消費者介面自動化使無視窗的 ActiveX 控制項可供存取
+            - name: 如何使用消費者介面自動化使無視窗 ActiveX 控制項可供存取
               href: use-ui-automation-to-make-an-windowless-activex-control-accessible.md
             - name: 使用 MSAA 讓無視窗的 ActiveX 控制項可供存取
               href: use-msaa-to-make-an-windowless-activex-control-accessible.md
-            - name: 裝載消費者介面自動化無視窗的 ActiveX 控制項
+            - name: 裝載消費者介面自動化無視窗 ActiveX 控制項
               href: host-a-ui-automation-windowless-activex-control.md
             - name: 如何裝載 MSAA 無視窗 ActiveX 控制項
               href: host-an-msaa-windowless-activex-control.md

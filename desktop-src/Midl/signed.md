@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 500b87c849f31082a036d605db0947650e914bed
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6f3db15bc46d6d8ab3ec108c648d094ebf706d9286a8c4b0a823fa409e118e3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103840968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641330"
 ---
 # <a name="signed-attribute"></a>已簽署屬性
 
@@ -82,9 +82,9 @@ ms.locfileid: "103840968"
 [**wchar \_ t**](wchar-t.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

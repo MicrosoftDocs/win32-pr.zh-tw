@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 7bb14f23d041ec2634b9710d5620382d8b93da2b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a2ab3d030a2bf4c037b72e07244694c20ab7e94fb5c70f75ff0eb37e4205f70f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119407868"
 ---
 # <a name="d3dxmatrixa16-structure-d3dx9mathh"></a>D3DXMATRIXA16 結構 (D3dx9math .h) 
 

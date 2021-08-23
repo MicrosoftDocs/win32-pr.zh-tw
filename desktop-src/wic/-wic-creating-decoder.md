@@ -4,12 +4,12 @@ ms.assetid: 9dc8d2ec-5cc5-45fa-8a4d-5bdc3072c90c
 title: 解碼總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a15e6a9c914cfa220e1aad5bff4badeb8fc8cc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d14300c9857702ceff5f07fcc127a4ef4182f9e77ad46f0598edc12abf91f240
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711399"
 ---
 # <a name="decoding-overview"></a>解碼總覽
 
@@ -95,7 +95,7 @@ WIC 的其中一個核心功能是擴充性架構，可讓編解碼器開發人�
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [編碼總覽](-wic-creating-encoder.md)

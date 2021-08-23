@@ -4,18 +4,18 @@ ms.assetid: 448c50f9-1138-4774-97e3-1ed94576fd2a
 title: 授權物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a4d3f50e4a50fed532b07f1185bb7830d164177
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c033f92662625b5d8900d261e3db9c9b6724e840922c0c14b0f3c08101be533b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914088"
 ---
 # <a name="authorization-objects"></a>授權物件
 
 下列物件會與授權應用程式搭配使用。
 
-ActiveX 安裝程式會提供下列物件。
+ActiveX安裝程式會提供下列物件。
 
 ## <a name="in-this-section"></a>本節內容
 

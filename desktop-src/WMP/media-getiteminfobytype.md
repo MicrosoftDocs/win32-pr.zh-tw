@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2aff2bee7641075bbac1dd04526ee751ea077a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa180834d70c8dd078beafc360400c931e7058994f1cc46d4e9abb011987d158
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135121"
 ---
 # <a name="mediagetiteminfobytype-method"></a>GetItemInfoByType 方法
 
@@ -47,7 +47,7 @@ retVal = Media.getItemInfoByType(
 *名稱* \[在\]
 </dt> <dd>
 
-包含屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player [屬性參考](attribute-reference.md)。
+包含屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player[屬性參考](attribute-reference.md)。
 
 </dd> <dt>
 
@@ -97,7 +97,7 @@ retVal = Media.getItemInfoByType(
 
 若要使用此方法，需要有程式庫的讀取權限。 如需詳細資訊，請參閱連結 [庫存取](library-access.md)。
 
-這個方法可能會造成錯誤。 當您呼叫這個方法時，應該包含錯誤處理常式代碼。 例如，在 JScript 中，您可以使用 [try ...] 來執行錯誤處理。 **抓住。。。finally** 結構。
+這個方法可能會造成錯誤。 當您呼叫這個方法時，應該包含錯誤處理常式代碼。 例如，在 JScript 您可以使用 [try ...] 來執行錯誤處理。 **抓住。。。finally** 結構。
 
 **Windows Media Player 10** 行動裝置版：不支援這個方法。
 

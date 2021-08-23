@@ -4,12 +4,12 @@ ms.assetid: 82cb0d96-f49f-408e-a8c6-a0d1ee9af8c7
 title: 這兩個檔案都沒有版本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5360bb7b6b4deda54156006073f353ab65ab2b2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a68a6d74a26a810f2ddb33e1c13b2ed7b372a75d5b262a8b6d8d7ecaca1c99f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104566056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065930"
 ---
 # <a name="neither-file-has-a-version"></a>這兩個檔案都沒有版本
 

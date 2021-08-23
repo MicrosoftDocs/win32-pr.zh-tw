@@ -4,16 +4,16 @@ ms.assetid: af541a51-fabc-4abd-ae67-268bd984ab92
 title: 傳輸層安全性通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf35fbfb59fee80617e6eccab66d7cec538e61ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bed6bc76b6a491105607c3110cda32723bbba75fdf55abe97f7667f397060209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915590"
 ---
 # <a name="transport-layer-security-protocol"></a>傳輸層安全性通訊協定
 
-Schannel 支援 [*傳輸層安全性 (TLS) 通訊協定*](../secgloss/t-gly.md)的1.0、1.1 和1.2 版。 此通訊協定是一種業界標準，其設計目的是要保護透過網際網路所傳達資訊的隱私權。 TLS 假設連接導向傳輸（通常是 TCP）正在使用中。 TLS 通訊協定可讓用戶端/伺服器應用程式偵測下列安全性風險：
+Schannel 支援 [*傳輸層安全性 (TLS) 通訊協定*](../secgloss/t-gly.md)的1.0、1.1 和1.2 版。 通訊協定是一種業界標準，旨在保護透過網際網路通訊的資訊隱私權。 TLS 假設連接導向傳輸（通常是 TCP）正在使用中。 TLS 通訊協定可讓用戶端/伺服器應用程式偵測下列安全性風險：
 
 -   訊息篡改
 -   訊息攔截

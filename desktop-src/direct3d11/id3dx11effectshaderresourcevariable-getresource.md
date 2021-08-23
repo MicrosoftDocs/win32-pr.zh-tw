@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cea841ae63646958603396d5b65305c242961942
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 9a11cf0878078ac3152f23a088290f4dd1d046f516dae50e77d22cb7e5ea70a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118533570"
 ---
 # <a name="id3dx11effectshaderresourcevariablegetresource-method"></a>ID3DX11EffectShaderResourceVariable：： GetResource 方法
 

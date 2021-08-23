@@ -4,12 +4,12 @@ ms.assetid: ac6d15f3-0917-4cc1-8c83-e34d3d063289
 title: Dynamic-Renderer 外掛程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11c3f1a33c3cd7faef2e899bcb198ea64aa5bd76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6426dfc9f1dae8561802d2cf6c5613fb786600504cc8600046c4df781239abf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092677"
 ---
 # <a name="dynamic-renderer-plug-ins"></a>Dynamic-Renderer 外掛程式
 
@@ -20,7 +20,7 @@ ms.locfileid: "104553832"
 [**RealTimeStylus**](realtimestylus-class.md)物件會實 [**IStylusSyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylussyncplugin)介面。 [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85))物件會在繪製時即時呈現筆墨。 在啟用 **DynamicRenderer** 物件時呼叫 [**Refresh**](/windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-refresh)方法時， **DynamicRenderer** 物件會重新繪製目前正在收集的筆劃。 **DynamicRenderer** 物件的 [**Enabled**](/windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_enabled)屬性一開始會設為 **FALSE**。
 
 > [!Note]  
-> 從 managed 程式碼中的 [繪製](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1)事件處理常式內呼叫 [**DynamicRenderer**](/previous-versions/ms826345(v=msdn.10))物件的 [**Refresh**](/previous-versions/ms826370(v=msdn.10))方法時，請將 **DynamicRenderer** 物件的 [**ClipRectangle**](/previous-versions/ms826346(v=msdn.10))屬性設定為 [PaintEventArgs](/dotnet/api/system.windows.forms.painteventargs?view=netcore-3.1)物件的 [ClipRectangle](/dotnet/api/system.windows.forms.painteventargs.cliprectangle?view=netcore-3.1)屬性。
+> 從 managed 程式碼中的 [小畫家](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1)事件處理常式內呼叫 [**DynamicRenderer**](/previous-versions/ms826345(v=msdn.10))物件的 [**Refresh**](/previous-versions/ms826370(v=msdn.10))方法時，請將 **DynamicRenderer** 物件的 [**ClipRectangle**](/previous-versions/ms826346(v=msdn.10))屬性設定為 [PaintEventArgs](/dotnet/api/system.windows.forms.painteventargs?view=netcore-3.1)物件的 [ClipRectangle](/dotnet/api/system.windows.forms.painteventargs.cliprectangle?view=netcore-3.1)屬性。
 
  
 

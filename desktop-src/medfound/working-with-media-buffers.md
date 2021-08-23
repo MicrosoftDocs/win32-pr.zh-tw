@@ -4,12 +4,12 @@ ms.assetid: c7e079e0-99f3-4bff-9163-1c5a022c14ae
 title: '使用媒體緩衝區 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db63843ded32be6b1baa9c62e21a33f6563a43d5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c559e54d38c5a601a51bf3d6a879cbfe5b8403e1df48117e15d23f6264554437
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103853428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118736609"
 ---
 # <a name="working-with-media-buffers-microsoft-media-foundation"></a>使用媒體緩衝區 (Microsoft 媒體基礎) 
 

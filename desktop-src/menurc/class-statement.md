@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d31eba66a1e4527a24a55a24e4623f3c49dc204
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0a71485603944dc8b7eaf1a3a773051096776e6538aecdd8fb01396a3f0ea5fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118734652"
 ---
 # <a name="class-statement"></a>CLASS 語句
 
@@ -60,6 +60,6 @@ CLASS "myclass"
 [**對話 框**](dialog-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

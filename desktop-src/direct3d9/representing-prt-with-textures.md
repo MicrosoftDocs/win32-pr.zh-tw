@@ -4,12 +4,12 @@ ms.assetid: cee049e8-3245-4fce-ab2f-ba251eacc72a
 title: 使用 (Direct3D 9) 的材質表示 PRT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4647cfc85451ede9507e007ed556a203a3cd890a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e827e24258d75a91aa75c9eb51ed6563d476ab16f75fedc31a7071bca28a4a78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797919"
 ---
 # <a name="representing-prt-with-textures-direct3d-9"></a>使用 (Direct3D 9) 的材質表示 PRT
 

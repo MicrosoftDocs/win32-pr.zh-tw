@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 8ed659efe388f4eb9c9ac8afd6aa2c74fd0af7d3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c2b5187ab0afb432e845c74d29144c02edf94cdb62f291ae69e88ea5a5fdf198
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063868"
 ---
 # <a name="irtcgettotalstatistics-method"></a>IRTC：： GetTotalStatistics 方法
 
@@ -65,8 +65,8 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 
 | 傳回碼                                                                                          | Description                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫 [IRTC：： connect](irtc-connect.md) 以將 NPP 連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>  | NPP 已連接到網路，但不是使用 [IRTC：： Connect](irtc-connect.md) 方法。<br/>                     |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫[IRTC：：連線](irtc-connect.md)將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>  | NPP 是連接到網路，但不是使用[IRTC：：連線](irtc-connect.md)方法。<br/>                     |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl> | NPP 不會捕捉資料。 呼叫 [IRTC：： start](irtc-start.md) 以開始捕獲資料。<br/>                         |
 
 
@@ -99,7 +99,7 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 [IRTC](irtc.md)
 </dt> <dt>
 
-[IRTC：： Connect](irtc-connect.md)
+[IRTC：：連線](irtc-connect.md)
 </dt> <dt>
 
 [IRTC::GetConversationStatistics](irtc-getconversationstatistics.md)

@@ -3,7 +3,7 @@ title: 'TBM_SETBUDDY 訊息 (Commctrl .h) '
 description: 將視窗指派為 [查看] 控制項的合作者視窗。 [並排顯示] 視窗會自動顯示在相對於控制項方向 (水準或垂直) 的位置。
 ms.assetid: ab35911f-bf81-47f3-98aa-0901aa877dea
 keywords:
-- TBM_SETBUDDY message Windows 控制項
+- TBM_SETBUDDY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab33e53117933390d7a34ec75a49724003255108
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4f2586c84740cb2d5e8b1f1aadfb910cd241270d3e18363accf1f166c3c35ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167184"
 ---
 # <a name="tbm_setbuddy-message"></a>TBM \_ SETBUDDY 訊息
 
@@ -71,8 +71,8 @@ ms.locfileid: "104024796"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

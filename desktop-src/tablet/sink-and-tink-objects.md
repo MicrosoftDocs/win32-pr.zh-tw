@@ -4,12 +4,12 @@ ms.assetid: fbd7bdf0-63b4-48d1-be91-eabbbb3f1618
 title: sInk 和 tInk 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ef7ed1c06d256fe8eda9fad4bf15afa19fcb833
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8e25e1f258ac789382475666878c986f5053323a1b19bf8f4b6110c096f2fd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091294"
 ---
 # <a name="sink-and-tink-objects"></a>sInk 和 tInk 物件
 
@@ -22,7 +22,7 @@ ms.locfileid: "106983924"
 
 您可以透過下列方式使用 tInk 和接收物件：
 
--   Microsoft Word 2002 支援 tInk 和接收物件。 使用者可以使用 Word 2002 中提供的「書寫」和「繪製文字輸入面板」，將筆墨插入 Word 檔中。 這個筆墨會以具有接收器或 tInk 物件之 CLSID 的 OLE 物件形式內嵌至 Word 檔案。
+-   Microsoft Word 2002 都支援 tInk 和接收物件。 使用者可以使用 Word 2002 中提供的「書寫」和「繪製文字輸入面板」，將筆墨插入 Word 檔中。 這個筆墨會以具有接收器或 tInk 物件之 CLSID 的 OLE 物件形式內嵌至 Word 檔案。
 -   Tablet PC [InkEdit](/previous-versions/ms552265(v=vs.100)) 控制項會使用 tInk 物件。 InkEdit 控制項是標準 [RichTextBox](/dotnet/api/system.windows.forms.richtextbox?view=netcore-3.1) 控制項的子類別。 筆墨會以 tInk 物件的形式插入 InkEdit 控制項的 RTF 資料流程中。
 -   當應用程式將選取的 [筆墨](/previous-versions/aa515768(v=msdn.10)) 物件移到剪貼簿時，Ole 物件剪貼簿位置會包含 TInk 或接收 ole 物件。
 

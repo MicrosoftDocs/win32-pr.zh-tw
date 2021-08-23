@@ -18,12 +18,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89ad6599ad058f65beba961f00c1bd6c43663487
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ccea0cc9c30fb8a46debedaa2aeb0811ed63b08005919c7f189d771fd7daed2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163262"
 ---
 # <a name="microsoftdns_mbtype-class"></a>MicrosoftDNS \_ MBType 類別
 
@@ -56,7 +56,7 @@ class MicrosoftDNS_MBType : MicrosoftDNS_ResourceRecord
 | 方法                             | 描述                                                                                                                                                                                                                                                                                                                               |
 |:-----------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CreateInstanceFromPropertyData** | 根據方法的輸入參數中的資料具現化 MB RR：記錄的 DNS 伺服器名稱、信箱名稱、信箱的擁有者名稱、類別 (預設值 = IN) 、存留時間值和信箱主機。 它會將新物件的參考傳回做為輸出參數。 <br/> 限定詞：實作為、靜態<br/> |
-| **修改**                         | 將 TTL 和 MB 主機更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>        |
+| **Modify**                         | 將 TTL 和 MB 主機更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>        |
 
 
 

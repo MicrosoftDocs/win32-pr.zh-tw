@@ -4,12 +4,12 @@ ms.assetid: 437ceef2-730f-47ae-9b1f-dfc7c6d2d132
 title: EnableUserControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 257496be3815a20bbc855b456bb74e4cc8f61684
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 911d8c56b1ea4d161030b252141e1930bd8298cea98b52b09511175d132e6a2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637004"
 ---
 # <a name="enableusercontrol"></a>EnableUserControl
 
@@ -17,11 +17,11 @@ ms.locfileid: "104114569"
 
 如果每一電腦的 [系統原則](system-policy.md) 設定為 "1"，則安裝程式可以在使用較高許可權的受控安裝期間，將所有 [公用屬性](public-properties.md) 傳遞至伺服器端。 設定此原則的效果與設定 **EnableUserControl** 屬性相同。 設定此原則可讓所有公用屬性都傳遞至服務，並由非管理員使用者進行變更。 依預設，不會啟用此原則;只有受限制的公用屬性會傳遞至伺服器端，並由非系統管理員的使用者進行變更。 所有其他公用屬性都會被忽略。
 
-如果作業系統是 Windows 2000、使用者不是系統管理員，而且應用程式或產品是以較高的許可權安裝，則不是系統管理員的使用者只能覆寫受限制公用屬性的核准清單。 如需詳細資訊，請參閱 [限制的公用屬性](restricted-public-properties.md)。
+如果作業系統是 Windows 2000，則使用者不是系統管理員，而且以較高的許可權安裝應用程式或產品，則不是系統管理員的使用者只能覆寫受限制公用屬性的核准清單。 如需詳細資訊，請參閱 [限制的公用屬性](restricted-public-properties.md)。
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

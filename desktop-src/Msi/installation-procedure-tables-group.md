@@ -4,12 +4,12 @@ ms.assetid: dff7cf4a-89a2-47b0-9038-93b79c0d915a
 title: 安裝程式資料表群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbb3c5eb0306941d3cdd02bf7f994270ca0d6490
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98c66cc377fdf36969699f0e150fc30a02363ed24aa1848c4492917bffda7bc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118633583"
 ---
 # <a name="installation-procedure-tables-group"></a>安裝程式資料表群組
 
@@ -31,7 +31,7 @@ ms.locfileid: "104320879"
 下表將在安裝期間擴充安裝程式的功能，以操作檔案和資料夾。
 
 -   [RemoveFile 資料表](removefile-table.md)包含在安裝期間移除的檔案清單。
--   [RemoveIniFile 資料表](removeinifile-table.md)包含應用程式需要從 .ini 檔案移除的資訊。
+-   [RemoveIniFile 資料表](removeinifile-table.md)包含應用程式需要從 .ini 檔案中移除的資訊。
 -   [RemoveRegistry 資料表](removeregistry-table.md)包含已選取要安裝的對應元件時，從系統登錄刪除的資訊。
 -   [CreateFolder 資料表](createfolder-table.md)會列出在安裝期間必須建立的資料夾。 雖然安裝程式會在需要時建立資料夾，但它們會在空白時立即移除。 在卸載元件之前，不會刪除 CreateFolder 資料表中的資料夾清單。
 -   [MoveFile 資料表](movefile-table.md)包含要從使用者電腦上指定的來原始目錄移動或複製到目的地目錄的檔案清單。 您不需要使用 MoveFile 資料表來描述與您要安裝之元件相關聯的檔案。

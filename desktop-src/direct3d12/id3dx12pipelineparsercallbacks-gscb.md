@@ -17,12 +17,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 768e64ccdf06eccce731cafd0d40a9862b695e1d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3ac125bef8559e5f145e32bfdc528ae8fb3f198eaa89669a3a53bb6f6f104785
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118807353"
 ---
 # <a name="id3dx12pipelineparsercallbacksgscb-method"></a>ID3DX12PipelineParserCallbacks：： GSCb 方法
 

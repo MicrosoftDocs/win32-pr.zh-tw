@@ -4,12 +4,12 @@ ms.assetid: 8219f157-585d-4733-8e10-c05813b398ba
 title: 自訂動作類型23
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05576c44ab634dc117501a89e6b86594f5483458
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0eeeb7e1056b9644baecdc8a4e5da959ad7320c960ea1de2ad38f9868f6e4c4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637871"
 ---
 # <a name="custom-action-type-23"></a>自訂動作類型23
 

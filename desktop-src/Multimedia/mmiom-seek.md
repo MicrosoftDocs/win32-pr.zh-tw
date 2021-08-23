@@ -3,7 +3,7 @@ title: 'MMIOM_SEEK 訊息 (Mmsystem .h) '
 description: '\_MmioSeek 函數會將 MMIOM 搜尋訊息傳送至 i/o 程式，以要求移動目前的檔案位置。'
 ms.assetid: 428b231a-6e00-4458-9ba2-e9b0b028843a
 keywords:
-- MMIOM_SEEK message Windows 多媒體
+- MMIOM_SEEK 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4855ec4e610f1456e1bf26ee05800e31933f05fd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ea33db15de3a4617561c437f2d5086afbf4bff2155e657677b171b1413b1c96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065298"
 ---
 # <a name="mmiom_seek-message"></a>MMIOM \_ 搜尋訊息
 
@@ -80,7 +80,7 @@ I/o 程式負責維護 [**MMIOINFO**](/previous-versions//dd757322(v=vs.85))結�
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

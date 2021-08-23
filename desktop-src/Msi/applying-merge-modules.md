@@ -4,12 +4,12 @@ ms.assetid: 2c14dfcc-6447-4c08-8e59-f3eaeb621de1
 title: 套用合併模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5734722f24bf8992b8369da3d31622d609076442
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b573c8dc89f26fb49729d17a46b44af331e751f404a7a9dc8899405256e444d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639450"
 ---
 # <a name="applying-merge-modules"></a>套用合併模組
 

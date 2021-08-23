@@ -4,12 +4,12 @@ ms.assetid: 36418331-bec7-40c9-8fdf-fe4b958a1443
 title: ModuleDependency 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bb0c550f8c5ae480a07ca10401d1d3b67c496ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08d527ba5874c8fffb0234dbf8f041f424b7bf9aecff5e8f29005324f2a17fdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628580"
 ---
 # <a name="moduledependency-table"></a>ModuleDependency 資料表
 

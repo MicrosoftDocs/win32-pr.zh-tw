@@ -25,7 +25,7 @@
                 - name: 64 位元 Windows 程式設計手冊
                   tocHref: /windows/win32/winprog64/
                   topicHref: /windows/win32/winprog64/programming-guide-for-64-bit-windows
-                - name: 適用于 Windows 的相容性操作手冊
+                - name: Windows 的相容性操作手冊
                   tocHref: /windows/win32/w8cookbook/
                   topicHref: /windows/win32/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal
                 - name: Windows 7 和 Windows Server 2008 R2 應用程式品質操作手冊
@@ -125,22 +125,22 @@
                     - name: 高 DPI
                       tocHref: /windows/win32/hidpi/
                       topicHref: /windows/win32/hidpi/high-dpi-desktop-application-development-on-windows
-                    - name: Windows 動畫管理員
+                    - name: Windows動畫管理員
                       tocHref: /windows/win32/uianimation/
                       topicHref: /windows/win32/uianimation/-main-portal
-                    - name: Windows 控制項
+                    - name: Windows控制
                       tocHref: /windows/win32/controls/
                       topicHref: /windows/win32/controls/window-controls
-                    - name: Windows 功能區架構
+                    - name: Windows功能區架構
                       tocHref: /windows/win32/windowsribbon/
                       topicHref: /windows/win32/windowsribbon/-uiplat-windowsribbon-entry
                 - name: 桌面環境
                   topicHref: /windows/win32/user-interface
                   items:
-                    - name: Windows Shell
+                    - name: Windows殼
                       tocHref: /windows/win32/shell/
                       topicHref: /windows/win32/shell/shell-entry
-                    - name: Windows 屬性系統
+                    - name: Windows屬性系統
                       tocHref: /windows/win32/properties/
                       topicHref: /windows/win32/properties/windows-properties-system
                     - name: Windows 搜尋
@@ -158,7 +158,7 @@
                     - name: 隔離應用程式和並存組件
                       tocHref: /windows/win32/sbscs/
                       topicHref: /windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal
-                    - name: 封裝、部署及查詢 Windows 應用程式
+                    - name: Windows 應用程式的封裝、部署和查詢
                       tocHref: /windows/win32/appxpkg/
                       topicHref: /windows/win32/appxpkg/appx-portal
                     - name: 開發人員授權
@@ -182,19 +182,19 @@
                     - name: Microsoft 媒體基礎
                       tocHref: /windows/win32/medfound/
                       topicHref: /windows/win32/medfound/microsoft-media-foundation-sdk
-                    - name: Windows Media Format 11 SDK
+                    - name: Windows媒體格式 11 SDK
                       tocHref: /windows/win32/wmformat/
                       topicHref: /windows/win32/wmformat/windows-media-format-11-sdk
-                    - name: Windows Media Player SDK
+                    - name: Windows Media PlayerSDK
                       tocHref: /windows/win32/wmp/
                       topicHref: /windows/win32/wmp/windows-media-player-sdk
-                    - name: Windows Media 串流 API
+                    - name: Windows媒體串流 API
                       tocHref: /windows/win32/mediastreaming/
                       topicHref: /windows/win32/mediastreaming/media-streaming-api-portal
-                    - name: Windows 多媒體
+                    - name: Windows多媒體
                       tocHref: /windows/win32/multimedia/
                       topicHref: /windows/win32/multimedia/windows-multimedia-start-page
-                - name: 資料存取和儲存
+                - name: 資料存取和儲存體
                   topicHref: /windows/win32/data-access-and-storage
                   items:
                     - name: 背景智慧型傳送服務
@@ -209,7 +209,7 @@
                     - name: 分散式檔案系統
                       tocHref: /windows/win32/dfs/
                       topicHref: /windows/win32/dfs/distributed-file-system
-                    - name: 可擴充儲存引擎
+                    - name: 可擴充的儲存體引擎
                       tocHref: /windows/win32/extensible-storage-engine/
                       topicHref: /windows/win32/extensible-storage-engine/extensible-storage-engine
                     - name: 映射主控 API
@@ -218,7 +218,7 @@
                     - name: 本機檔案系統
                       tocHref: /windows/win32/fileio/
                       topicHref: /windows/win32/fileio/file-systems
-                    - name: Windows 投射的檔案系統
+                    - name: Windows投射的檔案系統
                       tocHref: /windows/win32/projfs/
                       topicHref: /windows/win32/projfs/projected-file-system
                     - name: 虛擬儲存體
@@ -254,7 +254,7 @@
                     - name: Windows Image Acquisition (WIA)
                       tocHref: /windows/win32/wia/
                       topicHref: /windows/win32/wia/-wia-startpage
-                - name: Windows Media 裝置管理員 11 SDK
+                - name: WindowsMedia 裝置管理員 11 SDK
                   tocHref: /windows/win32/wmdm/
                   topicHref: /windows/win32/wmdm/windows-media-device-manager-11-sdk
                 - name: Windows 可攜式裝置
@@ -454,7 +454,7 @@
                     - name: SNMP 服務
                       tocHref: /windows/win32/snmp/
                       topicHref: /windows/win32/snmp/snmp-start-page
-                    - name: Tapi
+                    - name: TAPI
                       tocHref: /windows/win32/tapi/
                       topicHref: /windows/win32/tapi/telephony-application-programming-interfaces
                     - name: Teredo
@@ -466,16 +466,16 @@
                     - name: Windows 篩選平台
                       tocHref: /windows/win32/fwp/
                       topicHref: /windows/win32/fwp/windows-filtering-platform-start-page
-                    - name: Windows 網路
+                    - name: Windows網路
                       tocHref: /windows/win32/wnet/
                       topicHref: /windows/win32/wnet/windows-networking-wnet-
-                    - name: Windows 通訊端2
+                    - name: Windows通訊端2
                       tocHref: /windows/win32/winsock/
                       topicHref: /windows/win32/winsock/windows-sockets-start-page-2
                     - name: WirelessNetworking
                       topicHref: /windows/win32/wireless-networking
                       items:
-                        - name: Bluetooth
+                        - name: 藍牙
                           tocHref: /windows/win32/bluetooth/
                           topicHref: /windows/win32/bluetooth/bluetooth-start-page
                         - name: 行動寬頻
@@ -493,13 +493,13 @@
                     - name: WebDAV
                       tocHref: /windows/win32/webdav/
                       topicHref: /windows/win32/webdav/webdav-portal
-                    - name: Windows HTTP 服務
+                    - name: WindowsHTTP 服務
                       tocHref: /windows/win32/winhttp/
                       topicHref: /windows/win32/winhttp/winhttp-start-page
-                    - name: Windows 網際網路
+                    - name: Windows互聯網
                       tocHref: /windows/win32/wininet/
                       topicHref: /windows/win32/wininet/portal
-                    - name: Windows Web 服務
+                    - name: WindowsWeb 服務
                       tocHref: /windows/win32/wsw/
                       topicHref: /windows/win32/wsw/portal
                 - name: 安全性及身分識別
@@ -619,16 +619,13 @@
                     - name: Windows 系統資訊
                       tocHref: /windows/win32/sysinfo/
                       topicHref: /windows/win32/sysinfo/windows-system-information
-                - name: Windows Machine Learning
-                  tocHref: /windows/win32/machinelearning/
-                  topicHref: /windows/win32/machinelearning/machine-learning-portal
                 - name: 開發人員注意事項
                   tocHref: /windows/win32/devnotes/
                   topicHref: /windows/win32/devnotes/developer-notes
             - name: 伺服器技術
               topicHref: /windows/win32/server-and-system-technologies
               items:
-                - name: 目錄、身分識別和存取服務
+                - name: 目錄、身分識別和 Access Services
                   topicHref: /windows/win32/srvnodes/directory--identity--and-access-services
                   items:
                     - name: 目錄服務
@@ -706,7 +703,7 @@
                     - name: MDM 橋接器 WMI 提供者
                       tocHref: /windows/win32/dmwmibridgeprov/
                       topicHref: /windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal
-                    - name: Windows 系統評定工具
+                    - name: Windows系統評定工具
                       tocHref: /windows/win32/winsat/
                       topicHref: /windows/win32/winsat/windows-system-assessment-tool-portal
                     - name: WMI 核心提供者
@@ -715,7 +712,7 @@
                     - name: Windows 遠端管理
                       tocHref: /windows/win32/winrm/
                       topicHref: /windows/win32/winrm/portal
-                    - name: Windows 資源保護
+                    - name: Windows資源保護
                       tocHref: /windows/win32/wfp/
                       topicHref: /windows/win32/wfp/windows-resource-protection-portal
                 - name: Windows Virtual PC
@@ -724,9 +721,9 @@
             - name: API 索引
               tocHref: /windows/win32/apiindex/
               topicHref: /windows/win32/apiindex/api-index-portal
-            - name: Windows 執行階段 c + + 參考
+            - name: Windows執行時間 c + + 參考
               tocHref: /windows/win32/winrt/
               topicHref: /windows/win32/winrt/reference
-            - name: Windows 認證
+            - name: Windows認證
               tocHref: /windows/win32/win_cert/
               topicHref: /windows/win32/win_cert/windows-certification-portal

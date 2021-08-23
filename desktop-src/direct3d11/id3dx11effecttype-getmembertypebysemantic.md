@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de5f0894c83ff2d0885ae3b951e0e324343fae8e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: d9e1add6ddc485f803512050795b9ba240f2a29d145fb01e864b88bc8ba84ee7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118532330"
 ---
 # <a name="id3dx11effecttypegetmembertypebysemantic-method"></a>ID3DX11EffectType：： GetMemberTypeBySemantic 方法
 

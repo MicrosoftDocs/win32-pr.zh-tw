@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60aebaf8df3328d9263e7416f6fa2dfaae6e7826
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e88c6b32742b55e0e4d6988f603130100cedbb2992ce5d2b7600fc29fbbe0a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134991"
 ---
 # <a name="metadatatexttext"></a>MetadataText。文字
 

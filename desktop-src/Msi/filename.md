@@ -4,12 +4,12 @@ ms.assetid: af59e1b8-0699-4031-895f-415752611e21
 title: 檔案名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fc049fa0808efc180afbd715e311a124bfdada9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19d125a1151520fb4d3b885bd815b0a5bf58d2b00ec61581fc7773f1da1bd29e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636202"
 ---
 # <a name="filename"></a>檔案名稱
 
@@ -20,7 +20,7 @@ Filename 資料類型是包含檔案名或資料夾的文字字串。 根據預�
 例如，下列兩個字串是有效的：
 
 -   status.txt
--   project ~1.txt\| 專案 Status.txt
+-   project ~1.txt\| Project Status.txt
 
 簡短和完整檔案名不得包含下列字元：
 

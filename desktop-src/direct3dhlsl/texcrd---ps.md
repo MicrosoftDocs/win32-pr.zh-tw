@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e1b7bda7ab06c4af43eaa40393d2c5d64b09d9f4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 795dacbec01abdfa49527e36fefc9194a6168a99c1d9ab425b30f987e5445096
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118506424"
 ---
 # <a name="texcrd---ps"></a>texcrd-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104990923"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104990923"
 
 
 
- 
+ 
 
 此指令會將座標資料解讀為色彩資料 (RGBA) 。
 
@@ -105,6 +105,6 @@ texcrd  r(m).rg,  t(n)_dw.xyw
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

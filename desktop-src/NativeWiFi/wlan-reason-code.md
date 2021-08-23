@@ -4,18 +4,18 @@ ms.assetid: 7b267f0b-b3f7-4729-bab4-de3bdd0a35a2
 title: 'WLAN_REASON_CODE (Wlanapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba0ae705244541063564431809cffa953a0f3fd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f24b0ab902610408eb7b80b4a962fcc81d4598244714b8f30f0ebf350a7e628
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064558"
 ---
 # <a name="wlan_reason_code"></a>WLAN \_ 原因 \_ 代碼
 
 [ **Wlan \_ 原因 \_** ] 程式碼類型指出 wlan 操作失敗的原因。
 
-您可以使用 [**WlanReasonCodeToString**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanreasoncodetostring) 函式來對應數值的原因代碼 (例如，0x00050007) 到其文字意義。 您也可以使用查閱資料表來協助解讀原因碼的數值。 若要查看查閱資料表，請參閱附錄 E： [疑難排解 Windows Vista 802.11 無線](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))連線的檔中的原因代碼與事件訊息的對應。
+您可以使用 [**WlanReasonCodeToString**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanreasoncodetostring) 函式來對應數值的原因代碼 (例如，0x00050007) 到其文字意義。 您也可以使用查閱資料表來協助解讀原因碼的數值。 若要查看查閱資料表，請參閱附錄 E：將原因代碼對應至檔中的事件訊息[疑難排解 Windows Vista 802.11 無線連接](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))。
 
 
 ```C++
@@ -275,13 +275,13 @@ typedef DWORD WLAN_REASON_CODE, *PWLAN_REASON_CODE;
 
 ## <a name="remarks"></a>備註
 
-Windows XP Service Pack 3 (SP3) 和適用于 Windows XP Service Pack 2 (SP2) 的無線區域網路 API 支援一組有限的原因代碼。 Windows XP SP3 和 Windows XP 含 SP2 的無線區域網路 API 支援的設定檔驗證錯誤碼如下所示：
+Windows xp service pack 3 (SP3) 以及 Windows XP service pack 2 (SP2) 的無線區域網路 API 支援一組有限的原因代碼。 Windows XP SP3 和 Windows XP SP2 的無線區域網路 API 支援的設定檔驗證錯誤碼如下所示：
 
 -   WLAN \_ 原因 \_ 代碼 \_ 不正確 \_ 設定檔 \_ 架構
 -   \_缺少 WLAN 原因 \_ 代碼 \_ 設定檔 \_
 -   WLAN \_ 原因 \_ 代碼 \_ 設定檔 \_ SSID \_ 無效
 
-Windows XP SP3 和 Windows XP （含 SP2）的無線區域網路 API 支援的 MSM 安全性錯誤碼如下所示：
+Windows XP SP3 和 Windows XP SP2 的無線區域網路 API 支援的 .msm 安全性錯誤碼如下所示：
 
 -   WLAN \_ 原因 \_ 代碼 \_ MSMSEC \_ 設定檔的 \_ \_ \_ 索引鍵索引無效
 -   WLAN \_ 原因 \_ 代碼 \_ MSMSEC \_ 設定檔 \_ 金鑰 \_ 長度
@@ -294,7 +294,7 @@ Windows XP SP3 和 Windows XP （含 SP2）的無線區域網路 API 支援的 M
 -   WLAN \_ 原因 \_ 代碼 \_ MSMSEC \_ 設定檔 \_ KEYMATERIAL \_ CHAR
 -   WLAN \_ 原因 \_ 代碼 \_ MSMSEC \_ 設定檔 \_ 錯誤的 \_ KEYTYPE
 
-Windows XP SP3 和 Windows XP 含 SP2 的無線區域網路 API 支援的 802.1 x 錯誤碼如下所示：
+Windows XP SP3 和 Windows XP SP2 的無線區域網路 API 支援的 802.1 x 錯誤碼如下所示：
 
 -   ONEX \_ 設定檔 \_ 不正確 \_ 長度
 -   ONEX \_ 配置 \_ 檔 \_ 無效 \_ 的 EAP 類型 \_ 或 \_ 旗標
@@ -307,8 +307,8 @@ Windows XP SP3 和 Windows XP 含 SP2 的無線區域網路 API 支援的 802.1 
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/>                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/>                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Wlanapi。h</dt> </dl> |
 

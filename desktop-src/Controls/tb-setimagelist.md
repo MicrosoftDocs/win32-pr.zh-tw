@@ -3,7 +3,7 @@ title: 'TB_SETIMAGELIST 訊息 (Commctrl .h) '
 description: 設定工具列用來顯示處於預設狀態之按鈕的影像清單。
 ms.assetid: 432ffdfc-bb63-4405-90da-9392910fdbb6
 keywords:
-- TB_SETIMAGELIST message Windows 控制項
+- TB_SETIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb0b7ad631e8b56824ae65a2b262c5478611e75f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6a7110084f2abe39cbae51815d1e59972cb016ea267275f0481d21e1f8b908a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167458"
 ---
 # <a name="tb_setimagelist-message"></a>TB \_ SETIMAGELIST 訊息
 
@@ -107,8 +107,8 @@ ms.locfileid: "106969186"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

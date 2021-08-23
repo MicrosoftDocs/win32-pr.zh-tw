@@ -3,23 +3,23 @@ description: 瞭解如何使用雲端檔案 API 來建立使用預留位置檔�
 title: 建立支援預留位置檔案的雲端同步處理引擎
 ms.topic: article
 ms.date: 11/12/2020
-ms.openlocfilehash: 4f1330285d0c8ef0359639f2be84162f8bc2ef3b
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d7d1efae4a56e6f52473002953730fb9f1f9459f1ed8dc82e0ba75ddebf05dc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104553584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118551567"
 ---
 # <a name="build-a-cloud-sync-engine-that-supports-placeholder-files"></a>建立支援預留位置檔案的雲端同步處理引擎
 
-同步處理引擎是同步檔案的服務，通常是在遠端主機和本機用戶端之間。 Windows 上的同步處理引擎通常會透過 Windows 檔案系統和檔案總管，將這些檔案呈現給使用者。 在 1709 Windows 10 之前，Windows 中的同步處理引擎支援僅限於情節中立的臨機操作介面，例如檔案總管的流覽窗格、Windows 系統匣，以及適用于其他技術應用程式) 檔案系統篩選器驅動程式的 (。
+同步處理引擎是同步檔案的服務，通常是在遠端主機和本機用戶端之間。 Windows 上的同步處理引擎通常會透過 Windows 檔案系統和檔案總管，將這些檔案呈現給使用者。 在 1709 Windows 10 之前，Windows 中的同步處理引擎支援僅限於情節中立的臨機動作表面，例如檔案總管的流覽窗格、Windows 系統匣，以及 (檔案系統篩選器驅動程式的更多技術應用程式。
 
 Windows 10 版本 1709 (也稱為「秋季建立者」更新) 引進「雲端檔案」 *API*。 此 API 是新的平臺，可正規化對同步引擎的支援。 雲端檔案 API 以提供許多新優勢給開發人員和使用者的方式，支援同步處理引擎。
 
-雲端檔案 API 包含下列原生 Win32 Api 和 Windows 執行階段 (WinRT) Api：
+雲端檔案 API 包含下列原生 Win32 api 和 Windows 執行階段 (WinRT) api：
 
 * [雲端篩選 api](cloud-filter-reference.md)：這個原生 WIN32 API 會在使用者模式與檔案系統之間的界限提供功能。 此 API 會處理預留位置檔案和目錄的建立和管理。
-* [Windows. Provider 命名空間](/uwp/api/windows.storage.provider)：此 WinRT API 可讓應用程式設定雲端存放裝置提供者，並向作業系統註冊同步根。
+* [Windows。儲存體。提供者命名空間](/uwp/api/windows.storage.provider)：此 WINRT API 可讓應用程式設定雲端存放裝置提供者，並向作業系統註冊同步根。
 
 > [!NOTE]
 > 雲端檔案 API 目前不支援在 UWP 應用程式中執行雲端同步引擎。 雲端同步引擎必須在桌面應用程式中執行。
@@ -30,8 +30,8 @@ Windows 10 版本 1709 (也稱為「秋季建立者」更新) 引進「雲端檔
 
 ### <a name="placeholder-files"></a>預留位置檔案
 
-* 同步處理引擎可以建立只針對 filesystem 標頭使用 1 KB 儲存空間的預留位置檔案，而且會在正常使用方式下自動以提供至完整檔案。 預留位置檔案會顯示為應用程式的一般檔案，以及 Windows Shell 中的終端使用者。
-* 預留位置檔案會從 Windows 核心垂直整合到 Windows Shell，而與預留位置檔案的應用程式相容性通常是沒有問題的。 無論您是使用檔案系統 Api、命令提示字元或桌面或 UWP 應用程式來存取預留位置檔案，檔案都不需要額外的程式碼變更即可以提供，而且該應用程式可以正常使用該檔案。
+* 同步處理引擎可以建立只針對 filesystem 標頭使用 1 KB 儲存空間的預留位置檔案，而且會在正常使用方式下自動以提供至完整檔案。 預留位置檔案會以一般檔案的形式呈現給應用程式，並在 Windows Shell 中呈現給終端使用者。
+* 預留位置檔案會從 Windows 核心垂直整合至 Windows Shell，而與預留位置檔案的應用程式相容性通常是不成問題的問題。 無論您是使用檔案系統 Api、命令提示字元或桌面或 UWP 應用程式來存取預留位置檔案，檔案都不需要額外的程式碼變更即可以提供，而且該應用程式可以正常使用該檔案。
 * 檔案可以有三種狀態：
   * **預留位置** 檔案：檔案的空白標記法，而且只有在同步處理服務可用時才可使用。
   * **完整** 檔案：已隱含水合檔案，而且如果需要空間，系統可能會凍結該檔案。
@@ -64,19 +64,19 @@ Windows 10 版本 1709 (也稱為「秋季建立者」更新) 引進「雲端檔
   * 向雲端檔案 API 註冊同步根目錄會導致同步根 (與圖示和自訂名稱) 出現在檔案總管的流覽窗格中。
 * 檔案總管內容功能表：
   * 使用雲端檔案 API 註冊同步根目錄會自動提供數個動詞 (功能表項目，) 在檔案總管的內容功能表中，讓使用者控制其檔案的序列化狀態。
-  * 您可以使用傳統型橋接器相容的 Api，將其他動詞新增至內容功能表的這個區段。
+  * 您可以使用傳統型橋接器相容的 api，將其他動詞新增至內容功能表的這個區段。
 * File 序列化的使用者控制：
   * 使用者一律可以控制檔案序列化，即使使用者未明確水合檔案也是一樣。 會顯示互動式快顯通知，讓背景序列化警示使用者並提供選項。 下圖示范 hydrating 檔案的快顯通知。
     ![針對背景檔案序列化顯示的互動式快顯範例](images/file-hydration-interactive-toast.png)
-  * 如果使用者透過互動式快顯從 hydrating 檔案封鎖應用程式，他們就可以在 [**設定**] 的 [**自動檔案下載**] 頁面中解除封鎖應用程式。
+  * 如果使用者透過互動式快顯從 hydrating 檔案封鎖應用程式，他們可以在 **設定** 的 [自動檔案 **下載**] 頁面中解除封鎖應用程式。
     ![自動下載檔案設定的螢幕擷取畫面](images/allow-automatic-file-downloads-setting.png)
-* Windows 10 Insider Preview 組建19624和更新版本中支援的 (連結複製引擎作業) ：
+* Windows 10 Insider preview 組建19624和更新版本中支援的 (連結複製引擎作業) ：
   * 雲端儲存體提供者可以註冊 shell 複製攔截器，以便監視其同步根內的檔案作業。
   * 提供者會將其同步根登錄機碼底下的 **CopyHook** 登錄值設定為其 COM 本機伺服器物件的 CLSID，以註冊其複製攔截。 這個本機伺服器物件會執行 [IStorageProviderCopyHook](../shell/nn-shobjidl-istorageprovidercopyhook.md) 介面。
 
 ### <a name="desktop-bridge"></a>傳統型橋接器
 
-* 使用雲端檔案 Api 的同步處理引擎是設計來使用 [傳統型橋接器](/windows/uwp/porting/desktop-to-uwp-root) 作為實作為需求。
+* 使用雲端檔案 api 的同步處理引擎是設計來使用[傳統型橋接器](/windows/uwp/porting/desktop-to-uwp-root)作為實作為需求。
 
 ## <a name="cloud-mirror-sample"></a>雲端鏡像範例
 
@@ -102,9 +102,9 @@ Windows 10 版本 1709 (也稱為「秋季建立者」更新) 引進「雲端檔
 此範例刻意簡單明瞭。 它會使用靜態類別，使其不需要傳遞實例指標。 以下是範例中的主要類別：
 
 * **FakeCloudProvider**：這個最上層類別會控制下列背景工作類別：
-  * **CloudProviderRegistrar**：使用 Windows Shell 註冊同步的根資訊。
+  * **CloudProviderRegistrar**：使用 Windows Shell 來註冊同步的根資訊。
   * **預留位置**：在同步根路徑中產生預留位置檔案。
-  * **ShellServices**：為內容功能表、縮圖和其他服務建立 Windows Shell 提供者。
+  * **ShellServices**：為內容功能表、縮圖和其他服務，構造 Windows Shell 提供者。
   * **CloudProviderSyncRootWatcher**：具現化 DirectoryWatcher，以監視同步處理根路徑的變更，並對變更採取動作。
   * **FileCopierWithProgress**：從伺服器資料夾將檔案複製到用戶端資料夾的速度緩慢，以模擬從真實的雲端伺服器下載這些檔案。 提供進度指示，讓快顯通知和檔案總管 UI 向使用者顯示有用的資訊。
 
@@ -122,7 +122,7 @@ Cldflt.sys 目前僅支援 NTFS 磁片區，因為它相依于 NTFS 特有的某
 
 ## <a name="hydration-policies"></a>序列化原則
 
-Windows 支援各種 [主要序列化原則](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary) 和 [次要序列化原則](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_modifier) 修飾詞。 主要序列化原則的順序如下：
+Windows 支援各種[主要序列化原則](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary)和[次要序列化原則](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_modifier)修飾詞。 主要序列化原則的順序如下：
 
   **Always full > Full > 漸進 > 部分**
 

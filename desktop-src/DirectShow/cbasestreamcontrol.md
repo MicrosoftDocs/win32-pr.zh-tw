@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c20a4f08040bdb2c71bdd8f09aa657719228efa5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb1d8d747d88a416792d59af79af41c047cb51aa61688aef9d6b105790bbae8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157197"
 ---
 # <a name="cbasestreamcontrol-class"></a>CBaseStreamControl 類別
 
@@ -37,7 +37,7 @@ class CMyInputPin : public CBaseInputPin, public CBaseStreamControl
 
 
 
-| 公用方法                                                        | Description                                                                                          |
+| 公用方法                                                        | 描述                                                                                          |
 |-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [**CBaseStreamControl**](cbasestreamcontrol-cbasestreamcontrol.md)   | 函式方法。                                                                                  |
 | [**~ CBaseStreamControl**](cbasestreamcontrol--cbasestreamcontrol.md) | 函式方法。                                                                                   |
@@ -46,7 +46,7 @@ class CMyInputPin : public CBaseInputPin, public CBaseStreamControl
 | [**NotifyFilterState**](cbasestreamcontrol-notifyfilterstate.md)     | 當篩選準則的狀態變更時，通知 pin。                                                    |
 | [**SetFilterGraph**](cbasestreamcontrol-setfiltergraph.md)           | 指定資料流程控制事件的事件接收器。                                                  |
 | [**SetSyncSource**](cbasestreamcontrol-setsyncsource.md)             | 通知目前參考時鐘的基類。                                              |
-| IAMStreamControl 方法                                              | Description                                                                                          |
+| IAMStreamControl 方法                                              | 描述                                                                                          |
 | [**GetInfo**](cbasestreamcontrol-getinfo.md)                         | 抓取目前資料流程控制設定的相關資訊，包括開始和停止時間。 |
 | [**StartAt**](cbasestreamcontrol-startat.md)                         | 通知 pin 何時開始傳遞資料。                                                       |
 | [**StopAt**](cbasestreamcontrol-stopat.md)                           | 通知 pin 何時停止傳遞資料。                                                        |
@@ -60,7 +60,7 @@ class CMyInputPin : public CBaseInputPin, public CBaseStreamControl
 此類別需要 pin 和擁有篩選準則，以在發生各種事件時通知類別，例如加入圖形或接收新的參考時鐘的篩選準則。 您應該呼叫下列類別方法：
 
 -   在篩選的 [**IMediaFilter：： SetSyncSource**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-setsyncsource) 方法中，呼叫 [**CBaseStreamControl：： SetSyncSource**](cbasestreamcontrol-setsyncsource.md) 方法。 這個方法會通知目前參考時鐘的類別。
--   在篩選的 [**CBaseFilter：： JoinFilterGraph**](cbasefilter-joinfiltergraph.md) 方法中，呼叫 [**CBaseStreamControl：： SetFilterGraph**](cbasestreamcontrol-setfiltergraph.md) 方法。 這個方法會為類別提供篩選圖形管理員的指標，讓類別可以傳送正確的資料流程控制事件。
+-   在篩選的 [**CBaseFilter：： JoinFilterGraph**](cbasefilter-joinfiltergraph.md) 方法中，呼叫 [**CBaseStreamControl：： SetFilterGraph**](cbasestreamcontrol-setfiltergraph.md) 方法。 這個方法會為類別提供篩選 Graph 管理員的指標，讓類別可以傳送正確的資料流程控制事件。
 -   每當篩選變更狀態 (為 [執行中]、[已暫停] 或 [已停止]) 時，請呼叫 [**CBaseStreamControl：： NotifyFilterState**](cbasestreamcontrol-notifyfilterstate.md) 方法。
 -   在釘選的 [**IPin：： BeginFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-beginflush) 和 [**IPin：： EndFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) 方法中，呼叫 [**CBaseStreamControl：：**](cbasestreamcontrol-flushing.md) 排清方法。
 

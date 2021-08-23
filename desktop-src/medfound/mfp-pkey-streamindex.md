@@ -4,12 +4,12 @@ ms.assetid: 086fcb1e-f75a-4f38-9fe1-77d30f64bc89
 title: 'MFP_PKEY_StreamIndex 屬性 (Mfplay) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 341368a9a2a3e4911279df4c0bc116b4c6c1bc52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a08fe432dc18caf2bf1a7ec946236aa6560382b2f19b6b98e4b0a1369dc278a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738492"
 ---
 # <a name="mfp_pkey_streamindex-property"></a>MFP \_ PKEY \_ StreamIndex 屬性
 
@@ -42,8 +42,8 @@ VT \_ UI4
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Mfplay。h</dt> </dl> |
 
 
