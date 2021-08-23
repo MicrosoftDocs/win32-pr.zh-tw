@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7ab16959d1f1cd4405cb661a6026f3734a134f8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c1d092061dfebcea8e9a0e4f4a060010e16102108d1e2e74f05e6df2db706141
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106971265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544338"
 ---
 # <a name="ms-ds-supported-encryption-types-attribute"></a>支援 ms DS-加密類型屬性
 
@@ -60,7 +60,7 @@ ms.locfileid: "106971265"
 | 連結識別碼                | \-                                                                                     |
 | MAPI-Id                | \-                                                                                     |
 | System-Only            | 否                                                                                  |
-| 是-單一值       | 對                                                                                   |
+| 是-單一值       | 是                                                                                   |
 | 已編制索引             | 否                                                                                  |
 | 在通用類別目錄中      | 否                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                           |
@@ -68,7 +68,7 @@ ms.locfileid: "106971265"
 | Range-Upper            | \-                                                                                     |
 | Search-Flags           | 0x00000000                                                                             |
 | System-Flags           | 0x00000010                                                                             |
-| 中使用的類別        | [**信任網域**](c-trusteddomain.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**信任網域**](c-trusteddomain.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -81,7 +81,7 @@ ms.locfileid: "106971265"
 | 連結識別碼                | \-                                                                                     |
 | MAPI-Id                | \-                                                                                     |
 | System-Only            | 否                                                                                  |
-| 是-單一值       | 對                                                                                   |
+| 是-單一值       | 是                                                                                   |
 | 已編制索引             | 否                                                                                  |
 | 在通用類別目錄中      | 否                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                           |
@@ -89,7 +89,7 @@ ms.locfileid: "106971265"
 | Range-Upper            | \-                                                                                     |
 | Search-Flags           | 0x00000000                                                                             |
 | System-Flags           | 0x00000010                                                                             |
-| 中使用的類別        | [**信任網域**](c-trusteddomain.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**信任網域**](c-trusteddomain.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -102,7 +102,7 @@ ms.locfileid: "106971265"
 | 連結識別碼                | \-                                                                                     |
 | MAPI-Id                | \-                                                                                     |
 | System-Only            | 否                                                                                  |
-| 是-單一值       | 對                                                                                   |
+| 是-單一值       | 是                                                                                   |
 | 已編制索引             | 否                                                                                  |
 | 在通用類別目錄中      | 否                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                           |

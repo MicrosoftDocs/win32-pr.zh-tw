@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: b1c71fedbaf7a0e4f5e7b6ee83547a67f1dcf04e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8cdb61627f63debd6c23712ff41e6a64703b9445f9df8b6ce76d8fbd8ccf9299
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503198"
 ---
 # <a name="id2d1geometryfillcontainspoint-methods"></a>ID2D1Geometry：： FillContainsPoint 方法
 

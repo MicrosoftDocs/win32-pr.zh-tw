@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: baa1713b828fc2d2c3dea885ec9a642c53710260
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08059a66646834aac55c03c65ad9c80f6e1a60309a15c1867ef616c48036036d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572198"
 ---
 # <a name="onmouseup"></a>onmouseup
 

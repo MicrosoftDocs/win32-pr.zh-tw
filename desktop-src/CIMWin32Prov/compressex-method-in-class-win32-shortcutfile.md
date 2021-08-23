@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 512511b690ed6769895e9c4f9922d479d66f847e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71302c86cdf1928bdc451a3062c20885bb808dbc60c8c7ede70314b5aa01ba2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505088"
 ---
 # <a name="compressex-method-of-the-win32_shortcutfile-class"></a>Win32 ShortcutFile 類別的 CompressEx 方法 \_
 
@@ -121,7 +121,7 @@ uint32 CompressEx(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

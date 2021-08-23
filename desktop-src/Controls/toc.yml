@@ -11,9 +11,9 @@
         - name: 通用控制項的 Unicode 支援
           href: unicode-support.md
         - name: 通用控制項的當地語系化支援
-          href: cc-faq-localization.yml
+          href: cc-faq-localization.md
         - name: 通用控制項常見問題
-          href: cc-faq.yml
+          href: cc-faq.md
     - name: 控制訊息
       href: control-messages.md
     - name: 自訂控制項
@@ -5391,9 +5391,9 @@
                     - name: 如何搭配使用熱追蹤與工具列
                       href: use-hot-tracking-with-toolbars.md
                     - name: 如何建立 Internet Explorer 樣式的工具列
-                      href: cc-faq-ietoolbar.yml
+                      href: cc-faq-ietoolbar.md
                     - name: 如何建立 Internet Explorer 樣式的功能表列
-                      href: cc-faq-iemenubar.yml
+                      href: cc-faq-iemenubar.md
             - name: Toolbar 控制項參考
               href: bumper-toolbar-toolbar-control-reference.md
               items:

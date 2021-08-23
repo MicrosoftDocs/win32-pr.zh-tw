@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Sqlunirl.dll
-ms.openlocfilehash: 8832f8ee08877edae695a858874c3a2f87a2c286
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0c66230d9e7f074fe50ca826ab196ab75a239942257899362b738296b329074
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572550"
 ---
 # <a name="_setwindowtext-function"></a>\_SetWindowText 函式
 

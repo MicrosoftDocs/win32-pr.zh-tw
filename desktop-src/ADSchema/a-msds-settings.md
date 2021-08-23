@@ -1,11 +1,11 @@
 ---
-title: ms DS-Settings 屬性
+title: ms DS-設定屬性
 description: 用來儲存物件的設定。 其用途僅由物件的擁有者決定。 建議您使用它來儲存名稱/值配對。 例如，藍色。
 ms.assetid: 44e3a9e2-5528-4328-9cb7-1b6a4a77950a
 ms.tgt_platform: multiple
 keywords:
 - ms DS-設定屬性 AD 架構
-- 設定屬性的 AD 架構
+- 設定屬性 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f466bd5aa5a904482ff9c84c1f818c12205f69c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6dd39e64c096049bb39379aa48d97444982e51746808ae59987e4ddcad2de30c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544568"
 ---
-# <a name="ms-ds-settings-attribute"></a>ms DS-Settings 屬性
+# <a name="ms-ds-settings-attribute"></a>ms DS-設定屬性
 
 用來儲存物件的設定。 其用途僅由物件的擁有者決定。 建議您使用它來儲存名稱/值配對。 例如，color = blue。
 

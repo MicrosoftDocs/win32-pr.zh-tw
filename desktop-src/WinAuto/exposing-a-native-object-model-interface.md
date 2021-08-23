@@ -4,12 +4,12 @@ description: 如果 UI 元素支援 Microsoft Active Accessibility 或消費者�
 ms.assetid: 430abeaf-e5ca-48c4-aa35-8d52a8cee2f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e52543908e89a1cea57c981d60bf7cb2b9fbd1fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 701ed721e8259aa3b707fa1d7a6f2e80b9da13a3760b9850edef22b169d772e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644918"
 ---
 # <a name="exposing-a-native-object-model-interface"></a>公開原生物件模型介面
 
@@ -17,9 +17,9 @@ ms.locfileid: "104021678"
 
 用戶端可以藉由呼叫 [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow) 函式，並將 [**OBJID \_ NATIVEOM**](object-identifiers.md) 指定為第二個參數，從支援原生物件模型的 UI 元素取出介面。
 
- 
+ 
 
- 
+ 
 
 
 

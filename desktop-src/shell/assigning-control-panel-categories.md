@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: bade62cda23c2d2f66ffdfd70f3f555a243f3efc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d70854177baecf6261d550bc5ad37cf5319eed323ae9b17f5fd281118acd8b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593628"
 ---
 # <a name="assigning-control-panel-categories"></a>指派主控台分類
 
@@ -34,9 +34,9 @@ ms.locfileid: "104972076"
 <thead>
 <tr class="header">
 <th>類別目錄識別碼</th>
-<th> (Windows 7) 的類別名稱</th>
-<th>Windows Vista)  (的類別名稱</th>
-<th> (Windows XP) 的類別名稱</th>
+<th>類別名稱 (Windows 7) </th>
+<th>Windows Vista) 的類別名稱 (</th>
+<th>Windows XP) 的類別名稱 (</th>
 </tr>
 </thead>
 <tbody>
@@ -149,9 +149,9 @@ ms.locfileid: "104972076"
 
  
 
-在 Windows XP 中，[ **新增或移除程式** ] 和 [ **使用者帳戶** ] 類別的運作方式與主控台中其他類別的運作方式稍有不同。 當一或多個專案新增至這兩個類別的其中一個時，主控台中的相關聯連結會開啟 [類別目錄] 頁面。 註冊的專案會出現在頁面的下半部的 [或挑選主控台圖示] 標題下方。 如果未針對其中一個類別註冊任何專案，主控台中的相關連結會直接叫用該類別的標準 Windows 專案。 在 Windows Vista 和更新版本中，[ **程式** ] 類別和 [ **使用者帳戶** ] 類別沒有此屬性。
+在 Windows XP 中，[**新增或移除程式**] 和 [**使用者帳戶**] 類別的運作方式與主控台中其他類別的運作方式稍有不同。 當一或多個專案新增至這兩個類別的其中一個時，主控台中的相關聯連結會開啟 [類別目錄] 頁面。 註冊的專案會出現在頁面的下半部的 [或挑選主控台圖示] 標題下方。 如果未針對其中一個類別註冊任何專案，主控台中的相關連結會直接叫用該類別的標準 Windows 專案。 在 Windows Vista 和更新版本中，[**程式**] 類別和 [**使用者帳戶**] 類別沒有此屬性。
 
-只有在 Windows XP SP2 中提供的「 **安全性中心** 」類別也有點非標準。 按一下此類別會在新視窗中開啟 [ **安全性中心** ] 頁面。 針對「 **安全性中心** 」註冊的專案會出現在該頁面下半部的 [ **管理安全性設定：**] 標題下方。 按一下圖示會開啟主控台專案。
+「**安全性中心**」類別（僅適用于 Windows XP SP2）也有點非標準。 按一下此類別會在新視窗中開啟 [ **安全性中心** ] 頁面。 針對「 **安全性中心** 」註冊的專案會出現在該頁面下半部的 [ **管理安全性設定：**] 標題下方。 按一下圖示會開啟主控台專案。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -181,7 +181,7 @@ ms.locfileid: "104972076"
 [建立主控台專案的可搜尋工作連結](creating-searchable-task-links.md)
 </dt> <dt>
 
-[在 Windows Vista 下存取安全模式下的主控台](accessing-the-cp-in-safe-mode-under-vista.md)
+[在 Windows Vista 下存取保管庫模式下的主控台](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

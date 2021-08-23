@@ -5,18 +5,18 @@ ms.assetid: 21e03d78-bce1-471e-a826-e676d32990ba
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 776b3f5883075ddf549330c422efec558195c8fa
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: a8f49d1433d8263dff2c1d50007f9aa0daf1573c09ebc8d7a513eda658c51997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643148"
 ---
 # <a name="dmtf-profile-discovery-through-association-traversal"></a>透過關聯遍歷進行的 DMTF 設定檔探索
 
 Windows Management Instrumentation (WMI) 基礎結構的重要元件，是系統中可管理之實體的面向物件模型。 此模型符合桌面管理工作強制 ([DMTF](https://www.dmtf.org/standards/wsman)) 所維護的標準，也稱為通用訊息模型 (CIM) 。 模型中的某些類別，例如 [CIM \_ 資料檔案](../cimwin32prov/cim-datafile.md) 或 [Win32 \_ 進程](../cimwin32prov/win32-process.md)，會直接對應至可管理的實體。 模型中的其他類別（例如 [Win32 \_ SystemServices](../cimwin32prov/win32-systemservices.md)）表示可管理實體之間的關聯性。 這些關聯性模型類別稱為「關聯類別」（Association class）。
 
-您可以使用 WMI 特定的查詢語言（WQL）來取出類別的實例，這些實例代表可管理的實體或關聯類別的實例。 但是 WQL 是特定的實作為。 它只適用于 Windows 對 DMTF 標準 (WMI) 的執行。 此外，用於抓取關聯類別的 WQL 語法相當複雜。
+您可以使用 WMI 特定的查詢語言（WQL）來取出類別的實例，這些實例代表可管理的實體或關聯類別的實例。 但是 WQL 是特定的實作為。 它只適用于 Windows 的 DMTF 標準 (WMI) 執行。 此外，用於抓取關聯類別的 WQL 語法相當複雜。
 
 Windows 遠端管理 (WinRM) 基礎結構可提供絕佳的方法來利用 WMI 的功能。 舊版 WinRM 必須使用 WQL 來取出關聯類別的實例。 WinRM 2.0 包含透過關聯進行的新功能，稱為「DMTF 設定檔探索」。 關聯性的「關聯」（association）可讓 WinRM 的使用者使用「DMTF CIM」系結規格中定義的標準篩選機制（AssociationFilter 方言）來取出關聯類別的實例。 如需有關關聯遍歷的詳細資訊，請參閱 WS-Management CIM 系結規格 ([https://www.dmtf.org/standards/wsman]( https://www.dmtf.org/standards/ws-man)) 。
 
@@ -34,7 +34,7 @@ Winrm 公用程式現在支援關聯要求的方言。 您可以使用 winrm 公
 
 
 
- 
+ 
 
 ## <a name="retrieving-instances-of-an-association-class-by-using-the-associationfilter-dialect"></a>使用 AssociationFilter 方言來抓取關聯類別的實例
 
@@ -112,6 +112,6 @@ Win32_Service
     WaitHint = 0
 ```
 
- 
+ 
 
- 
+ 

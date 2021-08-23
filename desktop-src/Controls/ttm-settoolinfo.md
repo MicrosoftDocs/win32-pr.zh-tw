@@ -3,7 +3,7 @@ title: 'TTM_SETTOOLINFO 訊息 (Commctrl .h) '
 description: 設定工具提示控制項為工具維護的資訊。
 ms.assetid: ba18f651-2e52-46e2-871b-c1760e94ab59
 keywords:
-- TTM_SETTOOLINFO message Windows 控制項
+- TTM_SETTOOLINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 327dd853e3304f8233b95c947a890c4f49298cc7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d0843039e94d5da7d14a5a9daa01cd83705a34df549ed5bf67f42a48ff4942e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542836"
 ---
 # <a name="ttm_settoolinfo-message"></a>TTM \_ SETTOOLINFO 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104466797"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TTM \_SETTOOLINFOW** (Unicode) 和 **TTM \_ SETTOOLINFOA** (ANSI) <br/>           |
 

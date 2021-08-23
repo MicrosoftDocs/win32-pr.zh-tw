@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dcdb496702e80a432ebe25872f8ccf6a13b3f284
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 28f14029804a027aff7c60a8b8749dace0815b813c20739e58bb8dd878afd45a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544308"
 ---
 # <a name="ms-ds-tasks-for-az-role-bl-attribute"></a>ms-DS--------BL 屬性
 
@@ -56,7 +56,7 @@ ms.locfileid: "104509696"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2025                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -77,7 +77,7 @@ ms.locfileid: "104509696"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2025                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -98,7 +98,7 @@ ms.locfileid: "104509696"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2025                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -119,7 +119,7 @@ ms.locfileid: "104509696"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2025                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -140,7 +140,7 @@ ms.locfileid: "104509696"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2025                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |

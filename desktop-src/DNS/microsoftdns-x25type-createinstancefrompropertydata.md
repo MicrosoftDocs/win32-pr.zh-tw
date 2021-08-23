@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f198bf7b843b5633acd0b1515e9e3573f5ebb55d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f619bd2291d420a6feab6bb1869510d899e79d6171e164c821685999ad93bae6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573590"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_x25type-class"></a>MicrosoftDNS X25Type 類別的 CreateInstanceFromPropertyData 方法 \_
 

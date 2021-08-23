@@ -4,12 +4,12 @@ ms.assetid: 556794dd-aa62-46fa-a79a-54ca6a69bb38
 title: 資源列舉結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2d7afc6046ec724a90803d39ecedc32630e141c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cbe920e92115f34a1b6e8c10fac5711adeeffb6378f37c564a6b0f0954803cc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541538"
 ---
 # <a name="resource-enumeration-structures"></a>資源列舉結構
 

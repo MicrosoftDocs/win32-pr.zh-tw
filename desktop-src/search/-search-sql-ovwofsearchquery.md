@@ -1,17 +1,17 @@
 ---
 description: Windows Search 結構化查詢語言 (SQL)  (SQL) 類似于標準的 SQL 查詢。
 ms.assetid: 7d992fa2-4606-46ca-904c-b45056a9bbc2
-title: SQL 語法 Windows Search 總覽
+title: Windows Search SQL 語法的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ff6a755312e4358dc2eaa9ea7ae97f22ef783f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f34f321bef35ab9f5198345a2630d20b80275b794f53a0c47aabf7667f2e238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594738"
 ---
-# <a name="overview-of-windows-search-sql-syntax"></a>SQL 語法 Windows Search 總覽
+# <a name="overview-of-windows-search-sql-syntax"></a>Windows Search SQL 語法的總覽
 
 Windows Search 結構化查詢語言 (SQL)  (SQL) 類似于標準的 SQL 查詢。 它會顯示在下列兩個語法中：
 
@@ -53,7 +53,7 @@ Windows Search 查詢語法支援許多選項，可啟用更複雜的查詢。
 
 ### <a name="code-samples"></a>程式碼範例
 
-WSSQL 程式碼範例會示範如何透過 SQL 在 Microsoft OLE DB 和 Windows Search 之間進行通訊。 WSOleDB 程式碼範例說明 Active Template Library (ATL) OLE DB Windows Search 應用程式的存取權，以及兩種從 Windows Search 抓取結果的額外方法。 這兩個範例都可在 [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)上取得。
+WSSQL 程式碼範例會示範如何透過 SQL 在 Microsoft OLE DB 和 Windows Search 之間進行通訊。 WSOleDB 程式碼範例說明 Active Template Library (ATL) OLE DB Windows Search 應用程式的存取權，以及兩種從 Windows Search 抓取結果的額外方法。 這兩個範例都可在[GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)上取得。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -71,9 +71,9 @@ WSSQL 程式碼範例會示範如何透過 SQL 在 Microsoft OLE DB 和 Windows 
 
 ### <a name="conceptual"></a>概念
 
-[Microsoft Windows Search 中的 SQL 擴充功能](-search-sql-extensions-sps.md)
+[SQLMicrosoft Windows Search 中的延伸模組](-search-sql-extensions-sps.md)
 
-[Microsoft Windows Search 中無法使用 SQL 功能](-search-sql-featuresunavailableinspssearch.md)
+[SQLMicrosoft Windows Search 中無法使用的功能](-search-sql-featuresunavailableinspssearch.md)
 
 [識別碼](-search-sql-identifiers.md)
 

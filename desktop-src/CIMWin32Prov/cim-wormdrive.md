@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 08133d1abdcb6fc401ee4ad730d82ef97fb30200
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2c98d8a696d6ad7ed6c644c06993205318b3cf91da128331e6f633d57fcdfec3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505428"
 ---
 # <a name="cim_wormdrive-class"></a>CIM \_ WORMDrive 類別
 
@@ -339,7 +339,7 @@ class CIM_WORMDrive : CIM_MediaAccessDevice
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存裝置 \| 001.9 "，" MIF。DMTF \| 儲存裝置 \| 001.11 "，" MIF。DMTF \| 儲存裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
+限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存體裝置 \| 001.9 "，" MIF。DMTF \| 儲存體裝置 \| 001.11 "，" MIF。DMTF \| 儲存體裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
 </dt> </dl>
 
 媒體存取裝置的功能。 這個屬性繼承自 [**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。
@@ -554,7 +554,7 @@ class CIM_WORMDrive : CIM_MediaAccessDevice
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1192,7 +1192,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
+Windows隨插即用邏輯裝置的裝置識別碼。 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
 範例： " \* PNP030b"
 

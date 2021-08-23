@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: aa63d06187c76c5add433502d012cdb63905795a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c7e15d5ff6e381b2e87aaa1b15ade624ac598a0880b1ff736a6f46ba6aa66bb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506868"
 ---
 # <a name="cim_memorycapacity-class"></a>CIM \_ MemoryCapacity 類別
 

@@ -15,12 +15,12 @@ keywords:
 - 介面，IAnnotationProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c1a0441816e548faaa9076b3a9717c0aa76f08a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2cdc5c37c61878513b5d01812ab73c086f87d182d4b2c955efaf8706d52e4bcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505251"
 ---
 # <a name="annotation-control-pattern"></a>Annotation 控制項模式
 
@@ -71,11 +71,11 @@ ms.locfileid: "106966044"
 | [**AnnotationTypeName**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypename) | 屬性    | 無。 |
 | [**作者**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_author)                         | 屬性    | 無。 |
 | [**Datetime**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_datetime)                     | 屬性    | 無。 |
-| [**目標**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_target)                         | 屬性    | 無。 |
+| [**Target**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_target)                         | 屬性    | 無。 |
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -92,6 +92,6 @@ ms.locfileid: "106966044"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

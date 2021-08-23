@@ -17,12 +17,12 @@ keywords:
 - 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d9a89df1b9d2afc401e07b6cd77d1307d912f11
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a0e8dd4cb2d810ad8423c1fa4f75020a9489ceb72acbe1483cb439e943b5676
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505298"
 ---
 # <a name="subscribing-to-ui-automation-events"></a>訂閱消費者介面自動化事件
 
@@ -33,14 +33,14 @@ Microsoft 消費者介面自動化可讓用戶端訂閱感興趣的事件。 這
 > [!Note]  
 > 請勿假設所有可能的事件都是由消費者介面自動化提供者引發。 例如，並非所有屬性變更都會導致 Windows Forms 和 Microsoft Win32 控制項的標準 proxy 提供者引發事件。
 
- 
+ 
 
 如需更廣泛的消費者介面自動化事件查看，請參閱 [消費者介面自動化事件總覽](uiauto-eventsoverview.md)。
 
 > [!Note]  
 > 在執行事件處理常式之前，您應該先熟悉 [瞭解執行緒問題](uiauto-threading.md)中所述的執行緒問題。
 
- 
+ 
 
 本主題包含下列各節。
 
@@ -64,7 +64,7 @@ Microsoft 消費者介面自動化可讓用戶端訂閱感興趣的事件。 這
 
 
 
- 
+ 
 
 當用戶端將所有子系的事件處理常式加入 (Treescope.children 下階) 時，消費者介面自動化只針對子樹的根目錄新增一個處理常式，而處理常式會接聽所有子代。 [**\_**](/windows/desktop/api/UIAutomationClient/ne-uiautomationclient-treescope) 消費者介面自動化不會以遞迴方式加入事件處理常式。
 
@@ -77,7 +77,7 @@ Microsoft 消費者介面自動化可讓用戶端訂閱感興趣的事件。 這
 > [!Note]  
 > 消費者介面自動化用戶端不應該使用多個執行緒來新增或移除事件處理常式。 如果在相同的用戶端進程中新增或移除一個事件處理常式，可能會導致未預期的行為。
 
- 
+ 
 
 
 
@@ -92,7 +92,7 @@ Microsoft 消費者介面自動化可讓用戶端訂閱感興趣的事件。 這
 
 
 
- 
+ 
 
 在取消訂閱處理常式之後，如果事件同時與取消訂閱事件的要求同時收到，就可能會將事件傳遞至事件處理常式。 最佳作法是遵循元件物件模型 (COM) 標準，並避免在其參考計數達到零時終結事件處理常式物件。 在取消訂閱事件之後立即終結事件處理常式，可能會在延遲傳遞事件時導致存取違規。
 
@@ -113,9 +113,9 @@ Microsoft 消費者介面自動化可讓用戶端訂閱感興趣的事件。 這
 [瞭解執行緒問題](uiauto-threading.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
