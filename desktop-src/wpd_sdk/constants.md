@@ -1,19 +1,19 @@
 ---
 title: WPD 常數
-description: 這些文章說明 Windows 可攜式裝置的常數類型，例如一般常數、錯誤常數和事件常數。
+description: 這些文章說明 Windows 可攜式裝置的常數型別，例如一般常數、錯誤常數和事件常數。
 ms.assetid: 523d88ac-7a8c-4de3-b973-60ec87334a67
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0e336fb4395c17e015194ed5a26725eb99c7477
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: bf4dbc99057b5780116705a04991d69cd1105d34d8cd8d351b928520f758cd9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083602"
 ---
 # <a name="wpd-constants"></a>WPD 常數
 
-Windows 可攜式裝置會定義下列常數類型。
+Windows可攜式裝置會定義下列常數類型。
 
 
 

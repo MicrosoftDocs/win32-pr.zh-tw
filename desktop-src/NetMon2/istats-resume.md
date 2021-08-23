@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: ee7818da3d8a02e41488d473d3cf26607d3b84ff
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 72c73107ea4bf4662d4251a7c9e06ed1844feca88cb0ce6700887e65f6f08021
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063818"
 ---
 # <a name="istatsresume-method"></a>IStats：： Resume 方法
 
@@ -50,8 +50,8 @@ HRESULT STDMETHODCALLTYPE Resume();
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>       | NPP 未連接到網路。<br/>                                                                                          |
 | <dl> <dt>**NMERR \_ CAPTURE \_ 未 \_ 暫停**</dt> </dl> | 捕捉未暫停。 呼叫 [IStats：:P ause](istats-pause.md) 方法以暫時停止捕捉。<br/>                     |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>       | NPP 未連接到網路。 呼叫 [IStats：： connect](istats-connect.md) 方法，將 NPP 連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl>     | NPP 已連接到網路，但不是使用 [IStats：： Connect](istats-connect.md) 方法。<br/>                                |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>       | NPP 未連接到網路。 呼叫[IStats：：連線](istats-connect.md)方法，以將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 不是 \_ 統計資料 \_**</dt> </dl>     | NPP 是連接到網路，但不是使用[IStats：：連線](istats-connect.md)方法。<br/>                                |
 
 
 
@@ -85,7 +85,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 [IStats](istats.md)
 </dt> <dt>
 
-[IStats：： Connect](istats-connect.md)
+[IStats：：連線](istats-connect.md)
 </dt> <dt>
 
 [IStats：:P ause](istats-pause.md)

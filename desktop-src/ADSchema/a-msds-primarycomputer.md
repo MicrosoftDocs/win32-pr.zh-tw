@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47f960bccd6067b8d31e7782a0d8d46a806ee7bb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8193ed84eab93e36d12d3ef370362df7d7b407863c921981b867525a32e3c015
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119294358"
 ---
 # <a name="ms-ds-primary-computer-attribute"></a>ms DS-主要-電腦屬性
 
@@ -54,8 +54,8 @@ ms.locfileid: "106970056"
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
 | 是-單一值       | 否                                                                 |
-| 已編制索引             | 對                                                                  |
-| 在通用類別目錄中      | 對                                                                  |
+| 已編制索引             | 是                                                                  |
+| 在通用類別目錄中      | 是                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
 | Range-Lower            | \-                                                                    |
 | Range-Upper            | \-                                                                    |

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2e38a79738dbf0258de2e6f2539c9dc16bc71fa
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6ebf4bebd746a821221f11e64800aa57e588c4b266200d417dccc88ced7b4657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084038"
 ---
 # <a name="wmlyrics_synchronised"></a>WM/歌詞 \_ 內容
 
@@ -38,9 +38,9 @@ g \_ wszWMLyrics \_ 內容
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

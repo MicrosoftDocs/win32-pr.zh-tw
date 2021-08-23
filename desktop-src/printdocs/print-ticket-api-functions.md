@@ -4,12 +4,12 @@ ms.assetid: 9e942a1d-660b-4691-9282-ffb49e0b9848
 title: 列印票證 API 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5dfda941d0b0f7d99b0ffbef703a98e357ccc6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75a908da3aee9e9fa1c3b7181261164860be95193cb4dc0d34a7fe17e6f2a4bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033916"
 ---
 # <a name="print-ticket-api-functions"></a>列印票證 API 函式
 

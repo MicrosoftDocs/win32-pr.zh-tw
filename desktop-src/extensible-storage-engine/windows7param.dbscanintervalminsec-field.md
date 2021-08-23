@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 171403c223fa9b9729900fb6db5cb3f540912785
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e6b0446393d0a405c8258e0214ece23eb02bdda7cd80e2000dcbc184a0dc01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038546"
 ---
 # <a name="windows7paramdbscanintervalminsec-field"></a>Windows7Param. DbScanIntervalMinSec 欄位
 

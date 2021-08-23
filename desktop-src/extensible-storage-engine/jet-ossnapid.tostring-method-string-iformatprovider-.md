@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 95e93fd3a6bbf7f2fa3505fcb9480367b780ecc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56e86765839434f2cd3a67c18f6395dd5443f21f8b905e6f86e6e85ad9915c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038866"
 ---
 # <a name="jet_ossnapidtostring-method-string-iformatprovider"></a>JET_OSSNAPID。ToString 方法 (字串，IFormatProvider) 
 

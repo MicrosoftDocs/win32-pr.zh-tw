@@ -4,12 +4,12 @@ ms.assetid: 86a8bc81-914d-46a2-99fd-65dfd03bbcdd
 title: 檔案對應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7f49162a4545d0e087e6b291e429d89049dbf57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8efa02b7de4565adc6ec9cc4c252a7b3114169f1897a2950340a492035409008
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067850"
 ---
 # <a name="file-mapping"></a>檔案對應
 

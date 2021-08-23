@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 895d528780b8dc0f51f9072a0ca0a2cfb7095104
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 28a46be5c66fb2dc6f9f6739a57778deef04b113f174208c5d56fe0712589aaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053806"
 ---
 # <a name="wmperiod-attribute"></a>WM/Period 屬性
 
@@ -27,7 +27,7 @@ ms.locfileid: "106994208"
 
 -   [音訊專案](audio-item-attributes.md)
 -   [CD 曲目](cd-track-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -35,7 +35,7 @@ ms.locfileid: "106994208"
 
 **Period** 是這個屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMPeriod。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMPeriod。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

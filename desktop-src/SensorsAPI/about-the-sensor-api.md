@@ -4,12 +4,12 @@ ms.assetid: 128478c3-c890-4df3-bbb8-1bb57a17d8e9
 title: 關於感應器 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbac0e631909d503711be171926a5e05558333da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 553673b353163934598b3b4d557d870790877dd5fe1d16ba76fd928141dc57ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003876"
 ---
 # <a name="about-the-sensor-api"></a>關於感應器 API
 

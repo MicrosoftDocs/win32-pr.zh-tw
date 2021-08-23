@@ -4,12 +4,12 @@ ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
 title: " (WinHTTP. h) 的查詢資訊旗標"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3d8a7f95f0e093f175901e4bed30f4055a04b8
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: c66fd75ad1258123c3047dee4cafa4e57cb4dadd6675eb02deaa307085acbd55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051956"
 ---
 # <a name="query-info-flags-winhttph"></a> (WinHTTP. h) 的查詢資訊旗標
 
@@ -825,8 +825,8 @@ ms.locfileid: "112396623"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]      |
-| 最低支援的伺服器 | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]   |
+| 最低支援的用戶端 | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]      |
+| 最低支援的伺服器 | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]   |
 | 標頭                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 ## <a name="see-also"></a>另請參閱

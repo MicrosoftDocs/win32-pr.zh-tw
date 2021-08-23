@@ -4,12 +4,12 @@ ms.assetid: 4b8c4de4-9c1c-459c-a640-367e86a9b9cc
 title: HexToUnicode IME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88042ce276082755613b28a7e4d070c8b3d695f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5a57ce56821f200c9fd9ff80560908f5a72ecfdb0f51ce981e1aff40ce785b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068148"
 ---
 # <a name="hextounicode-ime"></a>HexToUnicode IME
 

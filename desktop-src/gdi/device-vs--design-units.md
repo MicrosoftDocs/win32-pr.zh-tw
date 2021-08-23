@@ -4,12 +4,12 @@ ms.assetid: 3eaabc8b-e244-4b65-918b-a20043afa535
 title: 裝置與設計單位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fb52a671727a2fa84d5514b469be5bd320f3318
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 456ac0ed7ad02ced5390201000fbc76217b8c579116bf36b356b13880d5d0158
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119354408"
 ---
 # <a name="device-vs-design-units"></a>裝置與設計單位
 

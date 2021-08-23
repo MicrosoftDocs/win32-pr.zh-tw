@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e2f8b4a58a6a1257be4c28cc6aa6bc5400bb81bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad93b954a657c1d4c01f0121a187c289ad47c3c9e5dd3c763605d4ee9de46f28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037016"
 ---
 # <a name="matrixmatrix-constructors"></a>Matrix. 矩陣函數
 

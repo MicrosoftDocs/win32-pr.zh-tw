@@ -1,5 +1,5 @@
 ---
-description: 取得 TPM 儲存根金鑰公開部分之指定模數的儲存根金鑰指紋。
+description: 取得 TPM 儲存體根目錄之公開部分的指定模數儲存體的根機碼指紋。
 ms.assetid: 08CBEB19-ECF5-4E43-B4A4-0F35987173E1
 title: Win32_Tpm：： GetSrkADThumbprint 方法
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 81e1ec53596a3d5ce469d412e9bd7ca17e1ad8b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9be4b7f02a9b645c29b431a9d974f5871ad5a95fc001e43df17bfe459483974e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004106"
 ---
 # <a name="win32_tpmgetsrkadthumbprint-method"></a>Win32 \_ Tpm：： GetSrkADThumbprint 方法
 
-取得 TPM 儲存根金鑰公開部分之指定模數的儲存根金鑰指紋。 如果透過群組原則設定啟用 TPM 擁有者授權資訊的 Active Directory 備份，則會使用指紋來為 Active Directory 伺服器上的儲存體根金鑰編制索引。
+取得 TPM 儲存體根目錄之公開部分的指定模數儲存體的根機碼指紋。 如果透過群組原則設定啟用 TPM 擁有者授權資訊的 Active Directory 備份，則會使用指紋來編制 Active Directory 伺服器上儲存體根金鑰的索引。
 
 > [!Note]  
 > 從 Windows 10 1607 版開始，TPM 擁有者授權永遠不會備份到 Active Directory。
@@ -50,7 +50,7 @@ uint32 GetSrkADThumbprint(
 *SrkPublicKeyModulus* \[在\]
 </dt> <dd>
 
-TPM 儲存根金鑰之公開部分的模數。 您也可以使用 [Win32 \_ TPM](win32-tpm.md)類別的 [**GetSrkPublicKeyModulus**](win32-tpm-getsrkpublickeymodulus.md)方法來取得它。
+TPM 的公開部分的模數儲存體根金鑰。 您也可以使用 [Win32 \_ TPM](win32-tpm.md)類別的 [**GetSrkPublicKeyModulus**](win32-tpm-getsrkpublickeymodulus.md)方法來取得它。
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ TPM 儲存根金鑰之公開部分的模數。 您也可以使用 [Win32 \_ TPM]
 
 
 
-| 傳回碼/值                                                                                                                                 | Description                           |
+| 傳回碼/值                                                                                                                                 | 描述                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl> | 此方法成功。<br/> |
 
@@ -87,8 +87,8 @@ TPM 儲存根金鑰之公開部分的模數。 您也可以使用 [Win32 \_ TPM]
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                      |
 | 命名空間<br/>                | \\\\.\\根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                     |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

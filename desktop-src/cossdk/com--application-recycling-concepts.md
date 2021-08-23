@@ -4,12 +4,12 @@ ms.assetid: bf98318b-4d87-44cc-85a1-68faf5547e06
 title: COM + 應用程式回收概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab37376ff3bc6d03f454f63822641ed69fad0b47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ba6a635487427fce3f17203f11426261996348a5e4057ab8bceebcae552d51bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129260"
 ---
 # <a name="com-application-recycling-concepts"></a>COM + 應用程式回收概念
 
@@ -18,7 +18,7 @@ ms.locfileid: "104385904"
 應用程式回收的運作方式是建立與應用程式相關聯的 Dllhost.exe 進程複本。 這種重複的 Dllhost.exe 程式會提供未來所有物件要求的服務，讓舊的 Dllhost.exe 完成服務剩餘的物件要求。 當舊的 Dllhost.exe 進程偵測到進程中物件的所有外部參考，或達到到期超時值時，就會關閉。 透過此行為，應用程式回收可確保用戶端應用程式不會遇到服務中斷。
 
 > [!Note]  
-> 您無法回收已設定為以 Windows 服務形式執行的 COM + 應用程式。 此外，程式庫應用程式具有其主機進程的回收和共用屬性。
+> 您無法回收已設定為以 Windows 服務的方式執行的 com + 應用程式。 此外，程式庫應用程式具有其主機進程的回收和共用屬性。
 
  
 

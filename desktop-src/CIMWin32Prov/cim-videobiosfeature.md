@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 45f9fd2feabdcd1f9e650e7e7a913a394e8ef67d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b84ec8a1f9a00b29e21706dd7fabe978740cb756675952b061d406dad8e233c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020756"
 ---
 # <a name="cim_videobiosfeature-class"></a>CIM \_ VideoBIOSFeature 類別
 
@@ -399,7 +399,7 @@ class CIM_VideoBIOSFeature : CIM_SoftwareFeature
 限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**廠商**") ， [**CIM \_ Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)， [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.1 ") 
 </dt> </dl>
 
-產品供應商的名稱，其對應至「DMTF 解決方案交換標準 (SE) 之 product 物件中的「 **廠商** 」屬性。
+產品供應商的名稱，其對應至 DMTF 解決方案之 product 物件中的 **廠商** 屬性，Exchange Standard (SES) 。
 
 這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。
 

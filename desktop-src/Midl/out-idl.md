@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b590cadeb12a77cff859991efb6356393072823
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 32bdbd18c6412f943a124a62badb9c154fa9aeb64573919970ffc1dc4af17798
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106965234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066798"
 ---
 # <a name="out-attribute"></a>out 屬性
 
@@ -159,6 +159,6 @@ HRESULT MyFunction([out] short * pcount);
 [**獨特**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

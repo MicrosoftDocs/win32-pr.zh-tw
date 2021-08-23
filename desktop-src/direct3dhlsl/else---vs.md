@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 97481d7cb651719fdf0843fd1b985c6586e54b3b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 5db315372e7c93232f9d821d9d7e91ec402661c37b8410ac4c8470a4db9e8997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119522"
 ---
 # <a name="else---vs"></a>else-vs
 

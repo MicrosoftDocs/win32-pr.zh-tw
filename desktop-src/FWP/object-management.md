@@ -4,12 +4,12 @@ description: 本節涵蓋 Windows 篩選平台 (WFP) API 物件類型的正確�
 ms.assetid: 2625ef9a-0e62-4e21-ba93-047965d0d782
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc41560bb85a7e79c0262d77c0b34fe6c1d9bfd6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c5cb51d4e78049d7911a4a5ed265091e05bc1cbb00ce470e332d59dd23c6026d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068848"
 ---
 # <a name="object-management"></a>物件管理
 
@@ -64,6 +64,6 @@ WFP API 是交易式的，大部分的函式呼叫都是在交易的內容中進
 
 所有核心模式的 WFP API 物件 (FWPS) 是由本機唯一識別碼 (**luid**) 所識別，並依其 LUID 參考其他物件。 從 **GUID** 切換至 **LUID** 可讓 WFP 節省非分頁的集區，並將執行時間處理優化。 **LUID** 的寬度取決於物件類型，以及從 **UINT16** 到 **UINT64** 的範圍。 **LUID** 一律會由 BFE 指派。
 
- 
+ 
 
- 
+ 

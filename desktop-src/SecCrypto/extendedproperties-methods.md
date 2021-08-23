@@ -4,12 +4,12 @@ ms.assetid: F09E45C2-F8BA-4A4E-B3EE-13C2A7AACF8A
 title: ExtendedProperties 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d31521dd63dc56c5b91eff3fda2456d455887243
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03b9dbfceb14702c2e22adb0cbc9a45bd464542dda957d6d39f93d525c4b969a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007226"
 ---
 # <a name="extendedproperties-methods"></a>ExtendedProperties 方法
 

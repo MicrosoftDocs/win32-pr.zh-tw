@@ -4,12 +4,12 @@ ms.assetid: c0ac70cc-4ab9-47e5-b0e6-c0b373d16b25
 title: 使用重迭 i/o 的具名管道伺服器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a3f9134582a50c2053893cf6ee4908e447e3cf4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69ff4cd28ddb73e3f82f2502452aeaa2ee44cbb9b69c181a44febf48d84a5ccd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119359318"
 ---
 # <a name="named-pipe-server-using-overlapped-io"></a>使用重迭 i/o 的具名管道伺服器
 

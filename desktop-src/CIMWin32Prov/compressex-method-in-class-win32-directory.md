@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3ee300919efa388d27ae9d594bc2b6c27def88e6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d6340b4fa46ddebd579ab8622d502ebdd2d8eacea215a18407f0be4c222d2d03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080222"
 ---
 # <a name="compressex-method-of-the-win32_directory-class"></a>Win32 目錄類別的 CompressEx 方法 \_
 
@@ -123,7 +123,7 @@ uint32 CompressEx(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

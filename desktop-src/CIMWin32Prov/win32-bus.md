@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ 匯流排 WMI 類別代表執行 Windows 作業系統的電腦所見到的實體匯流排。 Windows bus 的任何實例都是此類別 (或成員) 的子系。
+description: Win32 \_ 匯流排 WMI 類別代表執行 Windows 作業系統的電腦所見到的實體匯流排。 Windows 匯流排的任何實例都是此類別的子系 (或成員) 。
 ms.assetid: 76ba15f4-8c7b-4713-b5a2-e444fbab064a
 ms.tgt_platform: multiple
 title: Win32_Bus 類別
@@ -37,16 +37,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ac31a2187ee7e4974e1ddedbf084efd482748753
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 343b2a359af4aac7eabc86864063829ef229ebaa7fd6d069734ffc5ad5eb969e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020316"
 ---
 # <a name="win32_bus-class"></a>Win32 \_ 匯流排類別
 
-**Win32 \_ 匯流排** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 作業系統的電腦所見到的實體匯流排。 Windows bus 的任何實例都是此類別 (或成員) 的子系。
+**Win32 \_ 匯流排** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 作業系統的電腦所見到的實體匯流排。 Windows 匯流排的任何實例都是此類別的子系 (或成員) 。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。
 
@@ -1016,7 +1016,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 

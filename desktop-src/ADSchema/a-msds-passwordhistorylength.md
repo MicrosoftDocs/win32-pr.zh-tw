@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cfd79771e29e8fe755064e008510c5c18fd4e64
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7baa73decb4658e788125536cfafb6ef04f1641728cb37fa32b40b10d4ba2ef9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119294618"
 ---
 # <a name="ms-ds-password-history-length-attribute"></a>ms DS-密碼歷程記錄長度屬性
 
@@ -55,7 +55,7 @@ ms.locfileid: "103687028"
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
@@ -76,7 +76,7 @@ ms.locfileid: "103687028"
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |
@@ -97,7 +97,7 @@ ms.locfileid: "103687028"
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |

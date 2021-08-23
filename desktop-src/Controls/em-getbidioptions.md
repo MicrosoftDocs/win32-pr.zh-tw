@@ -3,7 +3,7 @@ title: 'EM_GETBIDIOPTIONS 訊息 (Richedit .h) '
 description: 指出 rich edit 控制項中雙向選項的目前狀態。
 ms.assetid: 055581c0-ae59-4601-a3e9-416705af429a
 keywords:
-- EM_GETBIDIOPTIONS message Windows 控制項
+- EM_GETBIDIOPTIONS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fade63ac94007bedbf58642dc7a9451eb158fc3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90b377e0fd3a439737fea9efbc403d2ccc64d6cf78eab1c7e31feeffd6c4b0f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019906"
 ---
 # <a name="em_getbidioptions-message"></a>EM \_ GETBIDIOPTIONS 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104104046"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | Rich Edit 3。0<br/>                                                              |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 

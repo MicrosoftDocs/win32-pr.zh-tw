@@ -4,12 +4,12 @@ description: BITS 支援基本驗證、Passport 驗證，以及數個挑戰/回�
 ms.assetid: cfd4aec3-79d0-4971-93f8-df797e5c0f75
 ms.topic: article
 ms.date: 10/09/2018
-ms.openlocfilehash: 5d970956676a3348dd4b8c4b420e044bd4714775
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9cb3d50f6689ed28889c68388969c1cb7d06ea912bc5d5ed4384f45a4e740f79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021286"
 ---
 # <a name="authentication-bits"></a>驗證 (位) 
 

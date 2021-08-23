@@ -4,12 +4,12 @@ ms.assetid: c18868a9-6912-46fd-93f5-d8021937b049
 title: 日、月、年和年代格式的圖片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c83439cc33c1caf067b5c6f41234a6f1ddc4dcc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63ae1adf82a202ebb08f199bb252e59c0f35aab8ad35b60ac57a8ebbe102711c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068268"
 ---
 # <a name="day-month-year-and-era-format-pictures"></a>日、月、年和年代格式的圖片
 
@@ -32,7 +32,7 @@ ms.locfileid: "103851819"
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | d           | 一個月中的日，表示單一位數的天數沒有前置零的數位。                                                                                                                                                                                                                                                                                                   |
 | dd          | 一個月中的第幾天，表示一位數的天數，前置零。                                                                                                                                                                                                                                                                                                      |
-| ddd         | 以 [地區設定 \_ SABBREVDAYNAME \*](locale-sabbrev-constants.md)值指定的一周縮寫日期，例如，英文的 "週一" (美國) 。**Windows Vista 和更新版本：** 如果需要一天的簡短版本，您的應用程式應該使用 [地區設定 \_ SSHORTESTDAYNAME \*](locale-sshortestdayname-constants.md)常數。<br/> |
+| ddd         | 以 [地區設定 \_ SABBREVDAYNAME \*](locale-sabbrev-constants.md)值指定的一周縮寫日期，例如，英文的 "週一" (美國) 。**WindowsVista 和更新版本：** 如果需要一天的簡短版本，您的應用程式應該使用 [地區設定 \_ SSHORTESTDAYNAME \*](locale-sshortestdayname-constants.md)常數。<br/> |
 | dddd        | 依[地區設定 \_ SDAYNAME \* ](locale-sdayname-constants.md)值指定之周中的日。                                                                                                                                                                                                                                                                              |
 
 

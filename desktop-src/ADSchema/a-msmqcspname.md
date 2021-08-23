@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 784fc9143a811f71feb2e0ba87b8414569d0db1b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d408da8006de454c846e86983922698601e8d9b1dd0e1fc386af121875cedf0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106985379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081902"
 ---
 # <a name="msmq-csp-name-attribute"></a>MSMQ-CSP-Name 屬性
 
@@ -58,7 +58,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -66,7 +66,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -87,7 +87,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -108,7 +108,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -129,7 +129,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -150,7 +150,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | 連結識別碼                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
-| 是-單一值       | 對                                                                    |
+| 是-單一值       | 是                                                                    |
 | 已編制索引             | 否                                                                   |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
@@ -171,7 +171,7 @@ MSMQ 使用的密碼編譯提供者類型。
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| 中使用的類別        | [**MSMQ-企業-設定**](c-msmqenterprisesettings.md)<br/> |
+| 中使用的類別        | [**MSMQ-Enterprise-設定**](c-msmqenterprisesettings.md)<br/> |
 
 
 

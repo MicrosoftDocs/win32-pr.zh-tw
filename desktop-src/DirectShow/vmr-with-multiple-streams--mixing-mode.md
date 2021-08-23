@@ -4,12 +4,12 @@ ms.assetid: 053edb70-8631-4fe4-a137-2fe54e02ab9e
 title: '具有多個資料流程 (混合模式的 VMR) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a21a954b0ad78afbceabf0fde493f920961b90dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88f958d8c95372325229dffc1cc37aff579213c48940f93ad090d0fbd9359b79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290778"
 ---
 # <a name="vmr-with-multiple-streams-mixing-mode"></a>具有多個資料流程 (混合模式的 VMR) 
 
@@ -28,7 +28,7 @@ VMR 可以呈現多個輸入資料流程。 在此設定中，稱為混合模式
 
 1.  在連接任何 VMR 的輸入圖釘之前，請以資料流程的數目呼叫 [**IVMRFilterConfig：： SetNumberOfStreams**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams) 方法。 這會導致 VMR 載入混音器和組合器，並建立指定數目的輸入圖釘。
 2.  呼叫 [**IVMRFilterConfig：： SetRenderingPrefs**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setrenderingprefs) 來指定各種轉譯喜好設定。
-3.  將釘選到上游篩選器。 最簡單的方法是針對每個輸入資料流程呼叫 [**IGraphBuilder：： RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) 。 如果上游篩選器上的輸出 pin (通常是) 的解碼器，而且 VMR 上的輸入 pin 不能同意連接，則會建立具有預設設定的 VMR 實例。 這會導致標題列中有 "ActiveMovie" 的新視窗。 為了避免發生這種情況，應用程式應該一律透過呼叫方法（例如 [**IPin：： ConnectedTo**](/windows/desktop/api/Strmif/nf-strmif-ipin-connectedto)）來確認 VMR 的正確實例正在使用中。 另一個選項是新增來源篩選器，然後使用 **IGraphBuilder：： connect** 連接 pin。
+3.  連線釘選到上游篩選器。 最簡單的方法是針對每個輸入資料流程呼叫 [**IGraphBuilder：： RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) 。 如果上游篩選器上的輸出 pin (通常是) 的解碼器，而且 VMR 上的輸入 pin 不能同意連接，則會建立具有預設設定的 VMR 實例。 這會導致標題列中有 "ActiveMovie" 的新視窗。 為了避免發生這種情況，應用程式應該一律透過呼叫方法（例如 [**IPin：： ConnectedTo**](/windows/desktop/api/Strmif/nf-strmif-ipin-connectedto)）來確認 VMR 的正確實例正在使用中。 另一個選項是新增來源篩選器，然後使用 **IGraphBuilder：：連線** 來連接釘選。
 4.  使用 VMR 上的 [**IVMRMixerControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrmixercontrol) 介面來控制每個資料流程的參數，例如 Alpha 值、Z 順序和輸出矩形。
 5.  執行篩選圖形。
 

@@ -4,12 +4,12 @@ ms.assetid: 7669049d-de56-4485-be4f-939900ca6a4f
 title: 關於網路共用管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 882b8d9ac423b8088f8979a48573793e3167fd50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8d803eb94e1319ba4a2d9e4c6b62f474e248ee7fb01d2050fb8d4232a205087
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119292048"
 ---
 # <a name="about-network-share-management"></a>關於網路共用管理
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea90b7be72bcb10a8ec0d3c49116f3effceb9a93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7df5e8cd2032d772cbd781d0b45794e86cc19eff7c730a6a963778d54a6f283d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054396"
 ---
 # <a name="playercurrentmedia"></a>CurrentMedia
 
@@ -84,7 +84,7 @@ document.write("Found first media item. Name = " + Player.currentMedia.name);
 [**播放清單。專案**](playlist-item.md)
 </dt> <dt>
 
-[**設定。 autoStart**](settings-autostart.md)
+[**設定 autoStart**](settings-autostart.md)
 </dt> </dl>
 
  

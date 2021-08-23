@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2400136395a17f039d552373fa35cba0f3545a5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1f4fc5191457996aabe4a70fefcf64235b3a9573cf12733f9ca7bff2ece6356e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104462545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034286"
 ---
 # <a name="icon-control"></a>圖示控制項
 
@@ -76,9 +76,9 @@ ICON "myicon", 901, 30, 30
 [**圖示**](icon-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

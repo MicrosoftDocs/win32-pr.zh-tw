@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 16d90dbef3a9318ad144303e5720cea0abbde03e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 38b318b1a97a910101e5fc9c61bd30fc278ca7d5e1a2a86e3d4c764e3b44a80b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079852"
 ---
 # <a name="setspeed-method-of-the-cim_fan-class"></a>CIM 風扇類別的 SetSpeed 方法 \_
 

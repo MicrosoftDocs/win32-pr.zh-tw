@@ -6,26 +6,26 @@ keywords:
 - Windows Media Player，程式庫
 - Windows Media Player 物件模型，程式庫
 - 物件模型，程式庫
-- Windows Media Player 行動裝置、物件模型的程式庫
-- Windows Media Player ActiveX 控制項，物件模型的程式庫
-- Windows Media Player 的行動 ActiveX 控制項、物件模型的程式庫
+- Windows Media Player適用于物件模型的 Mobile、library
+- Windows Media Player ActiveX 控制項、物件模型的程式庫
+- Windows Media PlayerMobile ActiveX 控制項，物件模型的程式庫
 - ActiveX 控制項，物件模型的程式庫
 - Windows Media Player 程式庫，管理媒體專案
 - 媒體櫃，管理媒體專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf984c2f884ae828bd6426dd2a3f6da19a78ddea
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: ac689bd6951f09b39db20975d52f6a8ccfc08668d3266d5964c2b7eac28cfd38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054626"
 ---
 # <a name="managing-media-items"></a>管理媒體專案
 
 **媒體** 物件代表一個媒體專案。 它具有可用來抓取資訊並向使用者顯示資訊的屬性和方法，或根據您抓取的值採取不同的動作。
 
-**媒體** 物件的大部分工作都牽涉到與媒體專案內容相關的中繼資料（稱為屬性）。 主題 [媒體專案屬性](media-item-attributes.md) 說明如何讀取和變更屬性值。 除了本主題之外，請參閱 Microsoft 網站上的 [Windows Media 中繼資料使用指導方針](/previous-versions/ms867702(v=msdn.10)) ，以取得有關屬性及其用途的詳細資訊。
+**媒體** 物件的大部分工作都牽涉到與媒體專案內容相關的中繼資料（稱為屬性）。 主題 [媒體專案屬性](media-item-attributes.md) 說明如何讀取和變更屬性值。 除了本主題之外，請參閱 Microsoft 網站上的[Windows 媒體中繼資料使用指導方針](/previous-versions/ms867702(v=msdn.10))，以取得有關屬性及其用途的詳細資訊。
 
 **媒體** 物件具有直接取出部分屬性的屬性和方法，例如專案的名稱或持續時間。 針對影片專案，您可以抓取影像的高度和寬度，也可以根據標記的名稱或索引來取得標記資訊。 您也可以判斷特定媒體專案是否包含在特定的播放清單中。
 

@@ -4,12 +4,12 @@ ms.assetid: 21b912d6-34aa-4ac0-b019-be3c851cc96d
 title: 'LINE_REMOVE 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 567ead3ad2941845dd22405f0d8706eca74bfbd8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f13f36123cb8cb77bd2d4b78c3e69a2da1c027aef4dad1fc9dfd7f3c6a00399
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335918"
 ---
 # <a name="line_remove-message"></a>行 \_ 移除訊息
 

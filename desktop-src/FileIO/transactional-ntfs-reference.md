@@ -4,12 +4,12 @@ ms.assetid: 7a610ba4-88d5-4274-b068-8cbde9a67a95
 title: 交易式 NTFS 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37457bff5de3ea781dd23d90bd2c0de2dbd0f03d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 013ee627d659d445f65f31b7c42fbf38894bac0fcd220e4d016bb26f593006ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290268"
 ---
 # <a name="transactional-ntfs-reference"></a>交易式 NTFS 參考
 

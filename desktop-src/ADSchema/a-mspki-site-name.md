@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5d9ce7b94f983ae9e6bc413b2fbd70b874e64e8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2ca80dccbda813050c213a210738f96f9e6b5c619b58f6fef9fe1648d4b8b28f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081602"
 ---
 # <a name="ms-pki-site-name-attribute"></a>ms-PKI-網站名稱屬性
 
@@ -54,9 +54,9 @@ CA 電腦所屬 Active Directory 網站。
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
-| 在通用類別目錄中      | 對                                                                |
+| 在通用類別目錄中      | 是                                                                |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
 | Range-Lower            | \-                                                                  |
 | Range-Upper            | \-                                                                  |
@@ -75,9 +75,9 @@ CA 電腦所屬 Active Directory 網站。
 | 連結識別碼                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
 | System-Only            | 否                                                               |
-| 是-單一值       | 對                                                                |
+| 是-單一值       | 是                                                                |
 | 已編制索引             | 否                                                               |
-| 在通用類別目錄中      | 對                                                                |
+| 在通用類別目錄中      | 是                                                                |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                        |
 | Range-Lower            | \-                                                                  |
 | Range-Upper            | \-                                                                  |

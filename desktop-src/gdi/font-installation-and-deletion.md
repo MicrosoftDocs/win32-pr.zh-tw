@@ -4,12 +4,12 @@ ms.assetid: b422b981-8760-4484-9965-f212287c421e
 title: 字型安裝和刪除
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0184054973c769462ed8c1620e5534ff909576ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 112cfbff6bebdfc2fa4d46993f1fa60dcc19285bc3e16ebc2fd929e3a43ba679
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037926"
 ---
 # <a name="font-installation-and-deletion"></a>字型安裝和刪除
 

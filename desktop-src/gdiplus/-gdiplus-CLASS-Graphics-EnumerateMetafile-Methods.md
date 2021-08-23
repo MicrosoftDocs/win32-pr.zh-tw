@@ -4,12 +4,12 @@ ms.assetid: 167a04d5-24f4-4885-b97c-b4536e41e125
 title: 'EnumerateMetafile 方法 (Gdiplusgraphics .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: a64cc087fbf1c9e51071e72d8ddfec419365dc69
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 89636515ca930d154b91fae8e1bd3fccf01f7afe494217c0e3a6fb91f5849916
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037256"
 ---
 # <a name="graphicsenumeratemetafile-methods"></a>EnumerateMetafile 方法
 

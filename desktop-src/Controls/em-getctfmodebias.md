@@ -3,7 +3,7 @@ title: 'EM_GETCTFMODEBIAS 訊息 (Richedit .h) '
 description: 取得 Microsoft Rich Edit 控制項的文字服務架構模式偏差值。
 ms.assetid: 2421d37d-169d-480f-a5f7-4c6033ca6c1a
 keywords:
-- EM_GETCTFMODEBIAS message Windows 控制項
+- EM_GETCTFMODEBIAS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 109d5eabbddca1c13fefae99c29d8c550fbd274e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 60d6e030e3080ec9bf3d801583b9ade182483ba8560b3eccb2fb9813be7d39cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019746"
 ---
 # <a name="em_getctfmodebias-message"></a>EM \_ GETCTFMODEBIAS 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104104040"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: aa4ff8b8-cbbb-4b18-83b3-279e52d9f6d3
 title: 撰寫密碼輸入的消費者介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b37cd7bb9531cbf63a443011656f200717dc0214
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b558243e24e4977d8e28311ac7643c118a26cdf62c89366694a16227b30c1969
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066068"
 ---
 # <a name="authoring-the-user-interface-for-password-input"></a>撰寫密碼輸入的消費者介面
 
@@ -21,7 +21,7 @@ ms.locfileid: "106971752"
 
 
 
-| 對話\_ | 控制項\_            | 類型 | X   | Y   | 寬度 | 高度 | 屬性 | 屬性         | Text | 控制 \_ 下一步 | Help |
+| 對話\_ | 控制項\_            | 類型 | X   | Y   | 寬度 | 高度 | 屬性 | 屬性         | Text | 控制 \_ 下一步 | 說明 |
 |----------|----------------------|------|-----|-----|-------|--------|------------|------------------|------|---------------|------|
 | MyDialog | TestUserPasswordEdit | 編輯 | 25  | 120 | 300   | 20     | 2097155    | TESTUSERPASSWORD |      | 取消        |      |
 

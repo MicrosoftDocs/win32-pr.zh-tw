@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97d302a1c58f1a77aafa7611f437f3d445f29f9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f9cbd0386af86ebe5e1fdc5e6350cebfb305f44544f8822e0f2bde4d46cb55f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065238"
 ---
 # <a name="freerootcauseinfos-function"></a>FreeRootCauseInfos 函式
 
@@ -45,13 +45,13 @@ VOID FreeRootCauseInfos(
 *pInfo* \[在\]
 </dt> <dd>
 
-類型： **[**RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo) \** _
+類型： **[ **RootCauseInfo**](/windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo)\***
 
 結構的陣列。 將釋放這些結構所指向的配置記憶體。
 
 </dd> <dt>
 
-_RootCauseCount * 
+*RootCauseCount* 
 </dt> <dd>
 
 類型： **ULONG**
@@ -79,8 +79,8 @@ _RootCauseCount *
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>Ndattributils。h</dt> </dl> |
 
 
