@@ -3,17 +3,17 @@ title: 結構描述支援
 description: WsUtil.exe 支援 XML 架構所指定的 XSD 架構。
 ms.assetid: 33096cda-9dbe-44d2-8d08-410bc33ae81c
 keywords:
-- 適用于 Windows 的架構支援 Web 服務
+- Windows 的架構支援 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dcf9d192c999333ee8b4e341e7722cd6bd59ff5
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 8c0f55c5ea3828c72456989f7053e2ff008e524e41552b281b88839653229863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103932965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962897"
 ---
 # <a name="schema-support"></a>結構描述支援
 
@@ -272,7 +272,7 @@ wsutil.exe 會為上述的相符原型產生下列定義，請注意，在欄位
 
 ## <a name="structures"></a>結構
 
-序列中具有多個元素的 complexType 是一個結構。 例如，
+序列中具有多個元素的 complexType 是一個結構。 例如
 
 ``` syntax
 <xs:schema xmlns:tns="http://Example.org" elementFormDefault="qualified" 
@@ -670,9 +670,9 @@ HRESULT CALLBACK SimpleMethod (
 
 請參閱[Wsutil 編譯器工具](wsutil-compiler-tool.md)和[序列化](serialization.md)中的安全性一節
 
- 
+ 
 
- 
+ 
 
 
 

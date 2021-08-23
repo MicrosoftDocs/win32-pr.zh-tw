@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ceafcc73f38e5413e312d00bf8aa8eba4eaf2c35
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44c178cb0b9c19fde0814f15729ffd49a0a0dbea65023bde06673cd843aeb668
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884000"
 ---
 # <a name="systemmonitoroncounterdeleted-event"></a>SystemMonitor. OnCounterDeleted 事件
 

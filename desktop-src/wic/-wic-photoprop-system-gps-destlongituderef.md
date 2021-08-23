@@ -4,12 +4,12 @@ ms.assetid: 2a0abb9b-41e3-49ba-a60b-3096d9c032bd
 title: DestLongitudeRef 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8139fcf5218d9863393888d7ab7b188a53e7f55f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fca1095138b35767da94e2eeed85a11892ba6edea3fa32f37ea6bd85fb76462
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964947"
 ---
 # <a name="systemgpsdestlongituderef-photo-metadata-policy"></a>DestLongitudeRef 相片中繼資料原則
 

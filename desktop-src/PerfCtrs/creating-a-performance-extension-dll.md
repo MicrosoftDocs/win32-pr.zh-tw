@@ -4,12 +4,12 @@ ms.assetid: bbb777fe-b97e-4777-b797-ec8525065610
 title: 建立效能延伸模組 DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d397f1581454aca1b25c447b35f250eefd215f57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1ef4509af77bcc1a4016e494a2834d40162305a837349e32a573cbf36d994d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011316"
 ---
 # <a name="creating-a-performance-extension-dll"></a>建立效能延伸模組 DLL
 
@@ -18,7 +18,7 @@ ms.locfileid: "103849294"
 
 [V1 提供者](providing-counter-data.md)會使用提供計數器資料給取用者的效能 DLL。 效能 DLL 必須匯出 [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85))、 [**CollectPerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_collect_proc)和 [**ClosePerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_close_proc) 函數。 一般來說，您會使用模組定義 ( .def) 檔案，從 DLL 匯出函式。 當取用者查詢效能資料時，系統會呼叫這些函數。
 
-當取用者第一次呼叫 [**RegQueryValueEx**](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa)，或取用者使用 [**RegOpenKey**](/windows/desktop/api/winreg/nf-winreg-regopenkeya)或 [**RegConnectRegistry**](/windows/desktop/api/winreg/nf-winreg-regconnectregistrya)函式來開啟時 `HKEY_PERFORMANCE_DATA` ，系統會針對電腦上 [註冊](adding-performance-counters.md)的每個提供者呼叫 [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85))函數。 如果提供者在的區段中指定了支援的物件清單，就會發生例外狀況 `[objects]` 。INI 檔案。 在此情況下，只有在其中一個查詢的物件符合清單中的物件時，系統才會呼叫提供者。
+當取用者第一次呼叫 [**RegQueryValueEx**](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa)，或取用者使用 [**RegOpenKey**](/windows/desktop/api/winreg/nf-winreg-regopenkeya)或 [**RegConnectRegistry**](/windows/desktop/api/winreg/nf-winreg-regconnectregistrya)函式來開啟時 `HKEY_PERFORMANCE_DATA` ，系統會針對電腦上 [註冊](adding-performance-counters.md)的每個提供者呼叫 [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85))函數。 如果提供者在 .INI 檔的區段中指定了支援的物件清單，就會發生例外狀況 `[objects]` 。 在此情況下，只有在其中一個查詢的物件符合清單中的物件時，系統才會呼叫提供者。
 
 [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85))函數可讓每個提供者有機會初始化其效能資料結構。 然後，如果 **OpenPerformanceData** 函數傳回成功，系統就會呼叫提供者的 [**CollectPerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_collect_proc) 函式。 後續呼叫 [**RegQueryValueEx**](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) 會導致系統呼叫 **CollectPerformanceData** 函式。
 

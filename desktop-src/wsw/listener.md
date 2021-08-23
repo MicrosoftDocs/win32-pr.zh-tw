@@ -3,17 +3,17 @@ title: 接聽程式
 description: 用戶端會使用接聽程式來接受來自服務的傳入通道。
 ms.assetid: fffda587-23f5-4c7a-93c5-f03d9d3fafb2
 keywords:
-- 適用于 Windows 的接聽程式 Web 服務
+- Windows 的接聽程式 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e372f3fa9109647e009f0258c059cc4c2065f6bc
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 26a2f9951dedefd5fb686de7935a76ce3b6ef24dcea140d5414b713e89ad1f1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026376"
 ---
 # <a name="listener"></a>接聽程式
 

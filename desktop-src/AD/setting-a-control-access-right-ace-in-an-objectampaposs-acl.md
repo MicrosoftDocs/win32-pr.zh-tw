@@ -7,12 +7,12 @@ keywords:
 - 在物件的 ACL 中設定 Control 存取權限 ACE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f41b870ad3ed5432060fb51fe14c29a81ce4665
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 09f4a4406bfa3d16a3e3be228bf4a0f131d77ad68cb99a6b9b2a8d328f15215e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024806"
 ---
 # <a name="setting-a-control-access-right-ace-in-an-objects-acl"></a>在物件的 ACL 中設定 Control 存取權限 ACE
 

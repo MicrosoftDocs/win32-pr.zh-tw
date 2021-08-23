@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e4a51c49d9373dc210cbf216089e4c82835bf2c4
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: ebaa411ccb6075cfe9aab429912c3644c50e2c8bf1db99faec3328f318700268
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104514740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043296"
 ---
 # <a name="samplegradsamplegradsfloatfloatfloatfloat-function-for-texturecube"></a>SampleGrad：： SampleGrad (S，float，float，float，float) function for TextureCube
 

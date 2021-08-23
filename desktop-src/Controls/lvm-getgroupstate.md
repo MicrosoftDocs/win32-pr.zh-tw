@@ -3,7 +3,7 @@ title: 'LVM_GETGROUPSTATE 訊息 (Commctrl .h) '
 description: 取得指定群組的狀態。 明確地傳送此訊息，或使用 ListView \_ GetGroupState 宏。
 ms.assetid: f087d17f-9066-44fb-b21b-ac7ceb56eb45
 keywords:
-- LVM_GETGROUPSTATE message Windows 控制項
+- LVM_GETGROUPSTATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17b5bb25fd517816afd04bb700211222e6985f5d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66272dd259e80f239804ffadbd706370f948a2505173cc03aaa40057b273a629
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958427"
 ---
 # <a name="lvm_getgroupstate-message"></a>LVM \_ GETGROUPSTATE 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104464413"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

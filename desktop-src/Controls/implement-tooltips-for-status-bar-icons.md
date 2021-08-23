@@ -4,12 +4,12 @@ description: 顯示狀態列圖示之解釋性訊息的不造成干擾方式是�
 ms.assetid: AA7F17F2-63A4-4954-9DAB-788B73984628
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 277fb8d15654ae51565c1a461a9a8414d3e9213c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0a2bd100dc6edb2aac7b4c8c5df3781e76391ae2d9d0ad456533384ed8701f14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958577"
 ---
 # <a name="how-to-implement-tooltips-for-status-bar-icons"></a>如何執行狀態列圖示的工具提示
 
@@ -19,12 +19,12 @@ ms.locfileid: "104463785"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -71,6 +71,6 @@ Shell_NotifyIcon(NIM_MODIFY, &IconData);
 [使用工具提示控制項](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

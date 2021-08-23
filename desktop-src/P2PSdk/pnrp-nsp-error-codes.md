@@ -4,12 +4,12 @@ ms.assetid: adf40b1a-c5d6-418d-a012-cf6ba7d4fa24
 title: PNRP NSP 錯誤碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47b02959c921c8e3a468cadfa87dba6fb8d3c29d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acee7465a86d56af9b2e07a1ae6948dd1b1a1e9145cee2165b7dd4e90f2a5f1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061346"
 ---
 # <a name="pnrp-nsp-error-codes"></a>PNRP NSP 錯誤碼
 

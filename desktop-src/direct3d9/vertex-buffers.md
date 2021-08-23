@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\vertex_buffers.htm
 title: " (Direct3D 9) 的頂點緩衝區"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e38feb34e7b9f637f383bf451bff812d9ee6fb1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8ceec0f5aee30597b20142945a4ffd3cbcd29500db4113ac2c8dcdd27d045d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043996"
 ---
 # <a name="vertex-buffers-direct3d-9"></a> (Direct3D 9) 的頂點緩衝區
 
@@ -20,7 +20,7 @@ ms.locfileid: "103687732"
 -   [說明](#description)
 -   [記憶體集區和使用量](#memory-pool-and-usage)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 頂點緩衝區的功能描述如下：如果它只能存在於系統記憶體中，則為，如果只用于寫入作業，以及它可以包含的頂點類型和數目。 所有這些特性都會保留在 [**D3DVERTEXBUFFER \_ DESC**](d3dvertexbuffer-desc.md) 結構中。
 

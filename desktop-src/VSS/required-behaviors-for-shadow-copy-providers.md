@@ -4,12 +4,12 @@ ms.assetid: 49baeb89-1dc9-45c2-a532-071085a8e52f
 title: 陰影複製提供者的必要行為
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f451dea7154a313cd64a3a46fbcc3b5fe663ec12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97153d3780701fce6edcde4a4a7740ae1d296b58b2bb44ea38c51f3ab1204499
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056386"
 ---
 # <a name="required-behaviors-for-shadow-copy-providers"></a>陰影複製提供者的必要行為
 
@@ -29,9 +29,9 @@ VSS 會在每個受影響的 LUN 上設定旗標，如此一來，當執行 Wind
 
 VSS 僅支援將基礎 LUN 對應為讀取/寫入的硬體陰影複製。 這必須在建立陰影複製之前完成;它無法在事實之後完成。 硬體提供者不應修改這些旗標。 如需 VSS 如何使用這些旗標的詳細資訊，請參閱 [陰影複製建立](the-shadow-copy-creation-process.md)程式。
 
-## <a name="auto-import-hardware-shadow-copies-are-not-supported-on-windows-cluster-service"></a>Windows 叢集服務不支援自動匯入硬體陰影複製
+## <a name="auto-import-hardware-shadow-copies-are-not-supported-on-windows-cluster-service"></a>Windows Cluster Service 不支援自動匯入硬體陰影複製
 
-Windows 叢集服務無法容納具有重複簽章和分割區配置的 Lun。 陰影複製 Lun 必須傳輸到叢集外部的主機。 如需詳細資訊，請參閱 [使用可轉移陰影複製磁片](fast-recovery-using-transportable-shadow-copied-volumes.md)區的快速復原。
+Windows叢集服務無法容納具有重複簽章和資料分割配置的 Lun。 陰影複製 Lun 必須傳輸到叢集外部的主機。 如需詳細資訊，請參閱 [使用可轉移陰影複製磁片](fast-recovery-using-transportable-shadow-copied-volumes.md)區的快速復原。
 
 ## <a name="shadow-copies-that-contain-dynamic-disks-must-be-transported-to-a-different-host"></a>包含動態磁碟的陰影複製必須傳輸至不同的主機
 

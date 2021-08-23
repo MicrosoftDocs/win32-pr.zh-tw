@@ -4,12 +4,12 @@ ms.assetid: 2e8637e2-2ff3-404a-a56c-fe99adeeba50
 title: 使用加密
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d307596a630f96d720648ffc15dda1d51bcccc7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b6191951d92f125342209825023c09de56649fe6366761ece6f224d4278ff9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896812"
 ---
 # <a name="using-cryptography"></a>使用加密
 
@@ -22,7 +22,7 @@ ms.locfileid: "106980952"
 | [範例程式慣例](sample-program-conventions.md)                                                       | 範例程式限制;編譯和連結考慮;必要的金鑰容器、金鑰和憑證;正在抓取未知長度的資料;和一般用途函數 |
 | [取得密碼編譯內容並產生金鑰](acquiring-a-cryptographic-context-and-generating-keys.md) | 取得密碼編譯內容和產生金鑰的範例和程式                                                                                                |
 | [編碼和解碼](encoding-and-decoding.md)                                                                 | 編碼和解碼的範例和程式                                                                                                                                |
-| [雜湊](hashing.md)                                                                                             | 雜湊的範例和程式                                                                                                                                              |
+| [散 列](hashing.md)                                                                                             | 雜湊的範例和程式                                                                                                                                              |
 | [簽署資料](signing-data.md)                                                                                   | 簽署資料的範例和程式                                                                                                                                         |
 | [建立和接收封包的資料訊息](creating-and-receiving-enveloped-data-messages.md)               | 建立和接收封包資料訊息的範例和程式                                                                                                       |
 | [加密和解密](encrypting-and-decrypting.md)                                                         | 加密和解密的範例和程式                                                                                                                            |

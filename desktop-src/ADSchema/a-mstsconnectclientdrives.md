@@ -1,10 +1,10 @@
 ---
-title: ms-TS-Connect-用戶端-磁片磁碟機屬性
+title: ms-TS-連線-用戶端-磁片磁碟機屬性
 description: 終端機服務會話連線用戶端磁片磁碟機指定登入時是否重新連線到對應的用戶端磁片磁碟機。
 ms.assetid: 647d41d1-8b4e-4521-bcef-34b7df8d012e
 ms.tgt_platform: multiple
 keywords:
-- ms-TS-Connect-用戶端-磁片磁碟機屬性 AD 架構
+- ms-TS-連線-用戶端-磁片磁碟機屬性 AD 架構
 - msTSConnectClientDrives 屬性 AD 架構
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c74890b77ba0d3077d04b975344fb950ca61c9bc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8679dee80eadb5dbd6b793991cf1e70cf3335662effc55a1164f1b9c5fa53005
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960257"
 ---
-# <a name="ms-ts-connect-client-drives-attribute"></a>ms-TS-Connect-用戶端-磁片磁碟機屬性
+# <a name="ms-ts-connect-client-drives-attribute"></a>ms-TS-連線-用戶端-磁片磁碟機屬性
 
 終端機服務會話連線用戶端磁片磁碟機指定登入時是否重新連線到對應的用戶端磁片磁碟機。
 
@@ -55,7 +55,7 @@ ms.locfileid: "104107699"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -63,7 +63,7 @@ ms.locfileid: "104107699"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "104107699"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -84,7 +84,7 @@ ms.locfileid: "104107699"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -97,7 +97,7 @@ ms.locfileid: "104107699"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |

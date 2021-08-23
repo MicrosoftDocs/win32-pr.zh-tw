@@ -5,12 +5,12 @@ ms.assetid: 174661a6-f6be-4aac-837a-43dbee9cd839
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c38901d9901ab05d28f9ead90da3f95004acde5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 346cc3f3bc57e567c53961f16f5d8718014a6e6cfb253b41cfdd0e32d2378f06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000048"
 ---
 # <a name="remote-desktop-services-audioendpoint-structures"></a>遠端桌面服務 AudioEndpoint 結構
 
@@ -38,9 +38,9 @@ ms.locfileid: "104507160"
 
 遠端桌面服務 AudioEndpoint API 適用于遠端桌面案例;它不適用於用戶端應用程式。
 
- 
+ 
 
- 
+ 
 
 
 

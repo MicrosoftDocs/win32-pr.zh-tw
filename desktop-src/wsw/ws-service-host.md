@@ -6,12 +6,12 @@ keywords:
 - WS_SERVICE_HOST
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b846fe1b57b1d77756503d4dc041970795466cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ae60e8096ea7c3cfec1e1391c7e30838f2b241cfacc9b79f8ffb776cc135750
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962767"
 ---
 # <a name="ws_service_host"></a>WS \_ 服務 \_ 主機
 
@@ -34,8 +34,8 @@ typedef struct _WS_SERVICE_HOST WS_SERVICE_HOST;
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>WebServices。h</dt> </dl> |
 
 

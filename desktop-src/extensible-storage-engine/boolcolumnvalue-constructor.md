@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b48948c3e1ba36fc60c7a2e0277d24a4d857ca1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec71df1f390ff0e1afc2a19549d8787c08f0b34efa1999f9d2d7a86cc79a23c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982848"
 ---
 # <a name="boolcolumnvalue-constructor"></a>BoolColumnValue 函式
 

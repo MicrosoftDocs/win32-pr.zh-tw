@@ -4,12 +4,12 @@ description: 裝置搜尋工具物件可啟用同步和非同步搜尋。 同步
 ms.assetid: fa22cd53-6468-4958-b4e3-b1a41b3cb2f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1890829dfe8386cd79627dde039264dc81e473c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f852957bed4bb73d9b31d0e26e099eb545b804953718d8cfd4e3cb44ea5f6c62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999498"
 ---
 # <a name="synchronous-searching"></a>同步搜尋
 
@@ -18,7 +18,7 @@ ms.locfileid: "106969870"
 > [!Note]  
 > 同步搜尋至少需要九秒的時間才會返回。 延遲的原因是因為必須多次傳送初始的 UDP 搜尋訊息。 這是程度基礎網路通訊協定的重複帳戶。 同步搜尋最適合命令列介面。 不建議針對圖形化使用者介面使用它們。
 
- 
+ 
 
 [**IUPnPDeviceFinder：： FindByType**](/windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-findbytype)方法會依裝置或服務類型來搜尋。 這個方法會採用類型 URI 做為輸入參數，並傳回裝置物件的集合。 裝置物件代表個別裝置。
 
@@ -95,9 +95,9 @@ IUPnPDevices *FindMediaPlayerDevices(IUPnPDeviceFinder *pDeviceFinder)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

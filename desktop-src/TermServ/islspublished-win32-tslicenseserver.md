@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69add751497ed52a107ea7183bb4b7cce4ea88c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6a5ca1fd4159b5b632dde5930f25b28ccbc7fcbad41ee2ee2da126252c6eb086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000648"
 ---
 # <a name="islspublished-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 IsLSPublished 方法 \_
 

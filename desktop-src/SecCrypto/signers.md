@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 75eba0ecb2592bf7efc27ecdd63288179e306651
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 62c5f59fc90d0d34226b4442b8fa443ad734d474e8077bf210df8bfdf752b1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898331"
 ---
 # <a name="signers-object"></a>簽署者物件
 
@@ -48,7 +48,7 @@ ms.locfileid: "106990035"
 
 | 屬性                                        | 存取類型          | Description                                                                                                                                                                                                                     |
 |:------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](signers-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic Scripting Edition (VBScript) 中隱藏。<br/> |
+| [**\_NewEnum**](signers-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic 腳本版本 (VBScript) 中隱藏。<br/> |
 | [**計數**](signers-count.md)<br/>       | 唯讀<br/> | 集合中的 [**簽署者**](signer.md) 物件數目。<br/>                                                                                                                                                        |
 | [**項目**](signers-item.md)<br/>         | 唯讀<br/> | 抓取代表索引簽署者的 [**簽署者**](signer.md) 物件。 這是預設屬性。<br/>                                                                                                      |
 

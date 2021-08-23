@@ -4,12 +4,12 @@ ms.assetid: 85033c35-6012-4146-871d-e95d789a60b2
 title: 裝置上的 Web 服務介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f60483df9fa8e6fadd07f695aa28cc110b9f94fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 562b78f0b6b59445967422672d675a55c6effba3dc6182ff50e2bde6ab26285b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991448"
 ---
 # <a name="web-services-on-devices-interfaces"></a>裝置上的 Web 服務介面
 

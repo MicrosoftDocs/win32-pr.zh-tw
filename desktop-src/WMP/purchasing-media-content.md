@@ -13,12 +13,12 @@ keywords:
 - 購買媒體內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e420f1dce607e1c596c48490d10bbe8a2a5a5f61
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: fc830d4b1351b7649343f1f76f347c89da9a8ed9ceffedc3663c3156be6b7ead
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995638"
 ---
 # <a name="purchasing-media-content"></a>購買媒體內容
 
@@ -26,7 +26,7 @@ ms.locfileid: "103932913"
 
 如果使用中的線上商店是類型1存放區，Windows Media Player 可以存取線上商店目錄中的追蹤、專輯和清單價格。 目錄中的價格是只有線上商店才能瞭解格式的字串。 Windows Media Player 不會解讀價格字串;它只會顯示在使用者介面專案中，例如購買按鈕。
 
-當 Windows Media Player 設定一組媒體專案的購買專案時，它會呼叫 [IWMPContentPartner：： CanBuySilent](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-canbuysilent)，將媒體專案的識別碼和價格傳遞給內容合作夥伴外掛程式。 屆時，外掛程式可以檢查玩家所提供的價格。 這些是使用者預期支付的價格;也就是播放程式向使用者顯示的價格。 根據播放程式所提供的媒體識別碼和價格，外掛程式會計算總價格，並在 *bstrTotalPrice* 參數中返回播放程式。 播放程式傳遞給 **CanBuySilent** 的價格會提供外掛程式資訊，但不會商都必須外掛程式以傳回特定的總價。 外掛程式可以計算出合適的總價格。
+當 Windows Media Player 設定一組媒體專案的購買專案時，它會呼叫[IWMPContentPartner：： CanBuySilent](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-canbuysilent)，將媒體專案的識別碼和價格傳遞給內容合作夥伴外掛程式。 屆時，外掛程式可以檢查玩家所提供的價格。 這些是使用者預期支付的價格;也就是播放程式向使用者顯示的價格。 根據播放程式所提供的媒體識別碼和價格，外掛程式會計算總價格，並在 *bstrTotalPrice* 參數中返回播放程式。 播放程式傳遞給 **CanBuySilent** 的價格會提供外掛程式資訊，但不會商都必須外掛程式以傳回特定的總價。 外掛程式可以計算出合適的總價格。
 
 除了計算購買的總價格之外， **CanBuySilent** 還會判斷 purchace 是否能以無訊息方式繼續進行;也就是說，不會顯示對話方塊。 如果 **CanBuySilent** 傳回 **True**，Windows Media Player 只會變更 [購買] 按鈕上的文字，以提示使用者確認購買。 如果 **CanBuySilent** 傳回 **False**，Windows Media Player 會顯示一個對話方塊，提示使用者確認購買。 對話方塊會提供使用者資訊，以摘要列出購買的資訊，例如專輯數量、個別曲目數目，以及外掛程式) 所傳回的總價格 (。
 
@@ -39,9 +39,9 @@ ms.locfileid: "103932913"
 [**類型1線上商店的程式設計指南**](programming-guide-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

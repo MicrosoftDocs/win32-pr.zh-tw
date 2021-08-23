@@ -4,12 +4,12 @@ ms.assetid: a61ab1e6-dad9-4dc0-a908-f8440619f610
 title: Device-Redirecting 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 577f8d108b6bfdeb01f786478cd736e6c84cc83d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af4929052ed2691d6264791cac431e59faaacdb92f7f96bb610d99fdd4ded471
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008446"
 ---
 # <a name="device-redirecting-functions"></a>Device-Redirecting 函式
 

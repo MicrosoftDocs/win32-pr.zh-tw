@@ -4,12 +4,12 @@ ms.assetid: 59976b01-9032-4226-a160-e9b2d4b8b23b
 title: 建立數學輸入控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5084f29943395bc6781fe20598f86bdc08c6c61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ee8cca2a799bd44e79ef2f32691614bb3f22c933b40aa23dc4aa0cd6cfb6fb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104561519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967717"
 ---
 # <a name="creating-a-math-input-control"></a>建立數學輸入控制項
 

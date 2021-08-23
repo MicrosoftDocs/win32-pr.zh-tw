@@ -4,12 +4,12 @@ ms.assetid: f967d4c7-94d2-440b-9e52-423feefec66d
 title: 範圍篩選範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f74ba823e68da1cd1faadd3e1e3acc4e613e2f42
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a931238b21dd604e7ca5de7943fcb2e85446f002a04ea0826dee9322dc6c7100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951957"
 ---
 # <a name="scope-filter-sample"></a>範圍篩選範例
 
@@ -31,7 +31,7 @@ ms.locfileid: "104467641"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
 此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ 篩選 \\ 範圍。
 
@@ -39,7 +39,7 @@ ms.locfileid: "104467641"
 
 <dl> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> </dl>
 
  

@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7f946f0d095526c9fc0894cdf0270cbf7cc0c81
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9daf64189735d79e1ad3eb4f7b3637ca68cfdae489cda9423bb60acdd1f9185c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055166"
 ---
 # <a name="ambientattributeshorizontalalignment"></a>AmbientAttributes. >horizontalalignment
 
-**>horizontalalignment** 屬性會指定或抓取值，指出調整 **視圖** 或父子 **視圖** 大小時，控制項的水準位置。
+**>Horizontalalignment** 屬性會指定或抓取值，指出調整 **視圖** 或父子 **視圖** 大小時，控制項的水準位置。
 
 ``` syntax
         elementID.horizontalAlignment

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a8540ba556bb74dd9779e49c628df1bfe7f9a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 074ed96c2f63ac59ad9997696f9b90ec312ac43b628f85760e0cd4172da07a84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883676"
 ---
 # <a name="counteritempath-property"></a>CounterItem 路徑屬性
 

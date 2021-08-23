@@ -7,12 +7,12 @@ keywords:
 - 遠端桌面服務遠端桌面服務，API 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f47f9555cd09a15a771ec00c7f70d95c1204920
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ef4c5240baf494a47dfdefe71e2a26a2a7a1a00b711bfa6dff906f209656195
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000188"
 ---
 # <a name="remote-desktop-services-api-reference"></a>遠端桌面服務 API 參考
 
@@ -37,9 +37,9 @@ ms.locfileid: "104507164"
 [使用遠端桌面服務 API](using-the-terminal-services-api.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

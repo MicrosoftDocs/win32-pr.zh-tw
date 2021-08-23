@@ -4,12 +4,12 @@ description: IMAPI.EXE 能夠建立多會話資料光碟。 建立多會話光�
 ms.assetid: 02405a32-53d5-4618-bfa0-c9a9f5e3c51b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fc41dba861ce29bd3d3e25e33ba0ba5ab5bf38a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7477b108a6b7b07d6d82230362899da26e7264e62a460c197338e223f0e95078
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977118"
 ---
 # <a name="creating-discs-with-multiple-sessions"></a>建立具有多個會話的光碟
 
@@ -21,9 +21,9 @@ IMAPI.EXE 能夠建立多會話資料光碟。 建立多會話光碟時，有幾
 
 關閉光碟上的第一個會話需要 21 MB。 每個額外的會話都需要 11 MB 來關閉。
 
- 
+ 
 
- 
+ 
 
 
 

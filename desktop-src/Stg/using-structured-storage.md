@@ -7,12 +7,12 @@ keywords:
 - 結構化儲存體 Strctd Stg.，使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0042d949dbcdb2901f9073b123e21fc93ae13701
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f97b56f77e7032f9ce61ef3cd760aefbac0fb0bc77ac99dec61d3cc7eff790eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886527"
 ---
 # <a name="using-structured-storage"></a>使用結構化儲存體
 
@@ -27,9 +27,9 @@ ms.locfileid: "103675440"
 -   [管理屬性](managing-properties.md)
 -   [管理屬性集](managing-property-sets.md)
 
- 
+ 
 
- 
+ 
 
 
 

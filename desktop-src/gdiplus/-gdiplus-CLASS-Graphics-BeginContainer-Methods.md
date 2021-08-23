@@ -4,12 +4,12 @@ ms.assetid: f4a031db-eb60-4d01-b8e1-43ba7de41630
 title: 'BeginContainer 方法 (Gdiplusgraphics .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 5e1c2ac616f4c6bca222248757a205f317ba5d6e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cee702c9b4fa6103bb0075372f63fa084a7adbc0011469ab342bfe256eb207a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977878"
 ---
 # <a name="graphicsbegincontainer-methods"></a>BeginContainer 方法
 

@@ -7,16 +7,16 @@ keywords:
 - 常數 SNMP，SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e060c3979f2176120d285b60438bb89e51d208
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: aafd752c2f2ef115d669544359c9470fc87edf046fc282055e0a2755dea8a6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009016"
 ---
 # <a name="snmp-constants"></a>SNMP 常數
 
-\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 MICROSOFT 對 ws-atomictransaction 的實。\]
+\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用[Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 Microsoft 對 ws-atomictransaction 的實。\]
 
 SNMP API 會定義要在許多功能區域中使用的常數。 下表列出並描述這些功能區域。
 
@@ -33,8 +33,8 @@ SNMP API 會定義要在許多功能區域中使用的常數。 下表列出並�
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

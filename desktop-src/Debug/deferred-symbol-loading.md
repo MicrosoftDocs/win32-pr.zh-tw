@@ -4,12 +4,12 @@ ms.assetid: 40c9384f-00ed-40cd-9687-b76b69e74f87
 title: 延遲的符號載入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d64d05a3ad7ad0fe4017f1ba6fa99625af33c2cc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8682de9ac8eaea78e037bf85ea8a17cd88e63bb56468ab39df3d1887fcc66801
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957147"
 ---
 # <a name="deferred-symbol-loading"></a>延遲的符號載入
 

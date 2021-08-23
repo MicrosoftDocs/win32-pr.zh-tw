@@ -4,12 +4,12 @@ ms.assetid: ab6db262-f99e-4027-9525-7597fcf02e72
 title: Address 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3ae91e70d6d8efb56321ca4619c6eb973799024
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9265663692b77ad8bf7c71b5efabf6485edc747da9cbf68de387df77089305f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118872362"
 ---
 # <a name="address-object"></a>Address 物件
 

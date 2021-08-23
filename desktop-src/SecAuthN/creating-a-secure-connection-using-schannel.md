@@ -4,12 +4,12 @@ ms.assetid: 94eb15c3-225b-4b6f-b29c-41e5d356a847
 title: 使用 Schannel 建立安全連線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 335713a400804bc84fffa078496c53c9178e389b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 374955b67bfa0026da5e8f8e9e88ce71da24231e218cb869cb532d05d4171bbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008906"
 ---
 # <a name="creating-a-secure-connection-using-schannel"></a>使用 Schannel 建立安全連線
 

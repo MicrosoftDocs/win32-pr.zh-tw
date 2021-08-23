@@ -7,12 +7,12 @@ keywords:
 - 組合查詢字串 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e56dec34f63a4a3e12385a36ad5fe5339a0f3d9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 610ba78d6536d9cfe12f296fcbfa46d04cd572ae05cdb7d3bb8b0e1e7b5d32a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962192"
 ---
 # <a name="assembling-query-strings"></a>組合查詢字串
 
@@ -22,9 +22,9 @@ ms.locfileid: "106967599"
 
 可能的話，請搜尋已編制索引的屬性。 索引屬性會儲存在所有網域控制站上，因此查詢最可能會比搜尋非索引屬性更快。
 
- 
+ 
 
- 
+ 
 
 
 

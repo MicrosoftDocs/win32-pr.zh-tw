@@ -3,21 +3,21 @@ title: 自訂任意資料流程
 description: 自訂任意資料流程
 ms.assetid: 23e93b5d-719f-47dc-9f3b-7bef14161b90
 keywords:
-- Windows Media Format SDK，自訂任意資料流程
+- Windows媒體格式 SDK，自訂任意資料流程
 - Advanced Systems Format (ASF) 、自訂任意資料流程
 - ASF (Advanced Systems Format) ，自訂任意資料流程
-- Windows Media Format SDK，資料流程
+- Windows媒體格式 SDK，資料流程
 - Advanced Systems Format (ASF) 、串流
 - ASF (Advanced Systems Format) ，資料流程
 - 自訂任意資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c031e6d02864cae326a9cadb48577e1ea76c0e1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fde40c7283620aba9c0bbdd0a1b376538ce7e4f22ac12e9fcdfe78d75195a516
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027936"
 ---
 # <a name="custom-arbitrary-data-streams"></a>自訂任意資料流程
 
@@ -35,9 +35,9 @@ ms.locfileid: "106968258"
 [**設定自訂任意資料流程**](configuring-custom-arbitrary-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

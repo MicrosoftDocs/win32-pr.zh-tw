@@ -3,10 +3,10 @@ title: 若要建立轉散發設定
 description: 若要建立轉散發設定
 ms.assetid: cf2c8fa1-cfd6-47cc-b572-ba1b95d59105
 keywords:
-- Windows Media Format SDK，軟體轉散發
+- Windows媒體格式 SDK，軟體轉散發
 - Advanced Systems Format (ASF) 、軟體轉散發
 - ASF (Advanced Systems Format) ，軟體轉散發
-- Windows Media Format SDK，轉散發
+- Windows媒體格式 SDK，轉散發
 - Advanced Systems Format (ASF) ，轉散發
 - ASF (Advanced Systems Format) ，轉散發
 - 軟體轉散發，建立
@@ -16,12 +16,12 @@ keywords:
 - WMFDist.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70f0c2f241d8c1ad164bc14608103f423a7aba78
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4bb26b63a2379a72e2d97df876d91d8c57a6da9249c4e40525e81edacaf86542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027296"
 ---
 # <a name="to-create-a-redistribution-setup"></a>若要建立轉散發設定
 
@@ -43,9 +43,9 @@ ms.locfileid: "104183435"
 [**軟體轉散發**](software-redistribution.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

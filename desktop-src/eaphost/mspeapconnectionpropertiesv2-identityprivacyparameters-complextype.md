@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8360065e2ce124531bec63637e2b6560cfc32f54
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 18bef3eb69ab2799f7139fe2886d89e996fb8fb47d178997694c568450fb8340
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104092481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983898"
 ---
 # <a name="identityprivacyparameters-complex-type"></a>IdentityPrivacyParameters 複雜類型
 
@@ -40,14 +40,14 @@ ms.locfileid: "104092481"
 
 
 
-| 元素                                                                                                               | 類型    | Description                                                                                                                                                                                                                                                                                                                                          |
+| 元素                                                                                                               | 類型    | 描述                                                                                                                                                                                                                                                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**EnableIdentityPrivacy**](mspeapconnectionpropertiesv2-enableidentityprivacy-identityprivacyparameters-element.md) | boolean | 指出是否傳送使用者的真實身分識別或匿名身分識別。                                                                                                                                                                                                                                                                           |
 | [**AnonymousUserName**](mspeapconnectionpropertiesv2-anonymoususername-identityprivacyparameters-element.md)         | 字串  | 包含用來取代使用者真正識別的匿名身分識別。 當身分 **識別** 以純文字傳送時，會在 PEAP 驗證的第一個階段傳送。 匿名身分識別的使用方式取決於 [**EnableIdentityPrivacy**](mspeapconnectionpropertiesv2-enableidentityprivacy-identityprivacyparameters-element.md) 元素。 |
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -66,9 +66,9 @@ IdentityPrivacyParameters 元素是選擇性的。
 [mspeapconnectionpropertiesv2 複雜類型](mspeapconnectionpropertiesv2schema-complex-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

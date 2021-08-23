@@ -4,12 +4,12 @@ ms.assetid: 4d78b2ea-517a-4c58-87ad-c6039d928a50
 title: WPF 使用的列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4322c35701fa568b4afe4d9d57daa12c7bbb10eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2c15d2b0d55af8284c518775b73208144475e84d910bb66d2e4147c47728a2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967677"
 ---
 # <a name="enumerations-used-by-wpf"></a>WPF 使用的列舉
 

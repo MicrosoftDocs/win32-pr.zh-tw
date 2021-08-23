@@ -4,27 +4,27 @@ description: 依字母順序排列屬性參考
 ms.assetid: 12fdeba6-14db-4689-a3cb-cb36dbc9204f
 keywords:
 - Windows Media Player，媒體專案的屬性
-- Windows Media Player 行動裝置，媒體專案的屬性
+- Windows Media Player行動電話，媒體專案的屬性
 - Windows Media Player 物件模型，參考
 - 物件模型，參考
 - ActiveX 控制項，參考
-- Windows Media Player ActiveX 控制項，參考
-- Windows Media Player Mobile ActiveX 控制項，參考
+- Windows Media Player ActiveX 控制項、參考
+- Windows Media PlayerMobile ActiveX 控制項，參考
 - 物件模型、屬性的參考
 - Windows Media Player 物件模型，媒體專案的屬性
 - 物件模型、媒體專案的屬性
 - Windows Media Player ActiveX 控制項、媒體專案的屬性
-- Windows Media Player 的行動 ActiveX 控制項、媒體專案的屬性
-- ActiveX 控制項、媒體專案的屬性
+- Windows Media Player行動 ActiveX 控制項、媒體專案的屬性
+- ActiveX 控制項，媒體專案的屬性
 - 屬性，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eed878b474098e68701ad8bdde0e3d207c4b8596
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 41fae63365e9670119d89d11a2faf2d2d9979e7c21aeac2fc5975f072a07f086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055316"
 ---
 # <a name="alphabetical-attribute-reference"></a>依字母順序排列屬性參考
 
@@ -156,7 +156,7 @@ ms.locfileid: "104183232"
 -   [**WM/AlbumArtist 屬性**](wm-albumartist-attribute.md)
 -   [**WM/AlbumTitle 屬性**](wm-albumtitle-attribute.md)
 -   [**WM/Category 屬性**](wm-category-attribute.md)
--   [**WM/編輯器屬性**](wm-composer-attribute.md)
+-   [**WM/Composer 屬性**](wm-composer-attribute.md)
 -   [**WM/導體屬性**](wm-conductor-attribute.md)
 -   [**WM/ContentDistributor 屬性**](wm-contentdistributor-attribute.md)
 -   [**WM/ContentDistributorType 屬性**](wm-contentdistributortype-attribute.md)
@@ -186,7 +186,7 @@ ms.locfileid: "104183232"
 -   [**WM/提供者屬性**](wm-provider-attribute.md)
 -   [**WM/ProviderRating 屬性**](wm-providerrating-attribute.md)
 -   [**WM/ProviderStyle 屬性**](wm-providerstyle-attribute.md)
--   [**WM/發行者屬性**](wm-publisher-attribute.md)
+-   [**WM/Publisher 屬性**](wm-publisher-attribute.md)
 -   [**WM/SubscriptionContentID 屬性**](wm-subscriptioncontentid-attribute.md)
 -   [**WM/子標題屬性**](wm-subtitle-attribute.md)
 -   [**WM/SubTitleDescription 屬性**](wm-subtitledescription-attribute.md)
@@ -210,9 +210,9 @@ ms.locfileid: "104183232"
 [**屬性參考**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

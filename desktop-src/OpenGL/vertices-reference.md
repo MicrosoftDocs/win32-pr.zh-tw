@@ -8,12 +8,12 @@ keywords:
 - OpenGL、頂點參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e83e356c62d6a6b23eb136d8fa8d46fb31a5203
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e77b208b5e337ef3560b283408fb3b44df9e926d7aa3ca18568d6a67cec4d92e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011866"
 ---
 # <a name="vertices-reference"></a>頂點參考
 
@@ -44,9 +44,9 @@ ms.locfileid: "104507272"
 -   [**glTranslate\***](gltranslate.md)
 -   [**glVertex\***](glvertex-functions.md)
 
- 
+ 
 
- 
+ 
 
 
 

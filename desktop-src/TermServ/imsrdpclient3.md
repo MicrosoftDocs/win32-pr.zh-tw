@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6911f839a26aae67fbc1e57494e5a75291721663
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 444f022c2f4db57c1c62f1405b30625bf7fed291674255ed6287026c9451e825
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059006"
 ---
 # <a name="imsrdpclient3-interface"></a>IMsRdpClient3 介面
 
@@ -39,7 +39,7 @@ ms.locfileid: "104466905"
 
 
 
-| 屬性                                                                | 存取類型          | Description                                                                                                                                                       |
+| 屬性                                                                | 存取類型          | 描述                                                                                                                                                       |
 |:------------------------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings4**](imsrdpclient3-advancedsettings4.md)<br/> | 唯讀<br/> | [**IMsRdpClientAdvancedSettings3**](imsrdpclientadvancedsettings3.md)介面的指標，用來設定用戶端控制項的 advanced 設定。<br/> |
 

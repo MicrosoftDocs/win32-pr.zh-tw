@@ -4,12 +4,12 @@ ms.assetid: 219d5b70-3f07-f973-f9ec-1cb3cf0be37e
 title: XAudio2 預設通道對應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06d77371223ccef02d6f0831a7aea182326f8477
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b42bb2f67709586532a19d86a916d3b7852652e76f9b6ce1ae115f1fc670e37a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025946"
 ---
 # <a name="xaudio2-default-channel-mapping"></a>XAudio2 預設通道對應
 

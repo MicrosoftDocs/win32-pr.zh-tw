@@ -4,16 +4,16 @@ ms.assetid: 91c4b8cf-3d24-4a11-b19c-b0297734e52b
 title: 預設品質控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 864cd187df71c56441edcfd00fcd6785d96afe84
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9df737855376db52a35476c0f01da4b850e3678ec20595ee82720b7b928237ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953129"
 ---
 # <a name="default-quality-control"></a>預設品質控制項
 
-[DirectShow 基類](directshow-base-classes.md)會針對視頻品質控制項來實行一些預設行為。
+[DirectShow 的基類](directshow-base-classes.md)會針對視頻品質控制項來執行一些預設行為。
 
 品質訊息從轉譯器開始。 影片轉譯器的基類是 [**CBaseVideoRenderer**](cbasevideorenderer.md)，其行為如下：
 

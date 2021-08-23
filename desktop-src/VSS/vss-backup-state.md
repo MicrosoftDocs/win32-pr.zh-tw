@@ -4,12 +4,12 @@ ms.assetid: 43dcdac7-ed8e-4150-83eb-585e0e92f13c
 title: VSS 備份狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9aa9250139aee9f48f9880fd4a657fa7c6c4991
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35701e1b576d9ea2e5464516589ae419dc73b74898768af06e974da05afffa8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056216"
 ---
 # <a name="vss-backup-state"></a>VSS 備份狀態
 
@@ -56,7 +56,7 @@ VSS 支援在完全可開機的設定中儲存正在執行的系統狀態。 不
 
 即使未選取 [可開機的系統狀態]，也會建立系統檔案的陰影複製，而且可能會備份檔案案。
 
-但是，如果備份未儲存可開機的系統狀態，請務必小心還原系統檔案 (請參閱 [備份及還原 Windows server 2003 R2 和 Windows server 2003 SP1 中的系統狀態](backing-up-and-restoring-system-state-under-vss.md)) 。
+但是，如果備份未儲存可開機的系統狀態，請務必小心還原系統檔案 (查看[Windows Server 2003 R2 和 Windows server 2003 SP1) 中的系統狀態備份和還原](backing-up-and-restoring-system-state-under-vss.md)。
 
 您無法從已抓取的備份元件檔中復原這項資訊，因此要求者作者應儲存系統是否以可開機的系統狀態備份。
 

@@ -4,16 +4,16 @@ description: IAgentCommand SetCaption
 ms.assetid: f4fdd37a-28b4-4e00-885c-58addedec659
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88453f54ffa59b413f30d27c58aa6cd2dcc6e12e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 73ffccf42a972ec9635c929fb954d58bfaff967af364d24ae505e1dbb2bd8772
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976358"
 ---
 # <a name="iagentcommandsetcaption"></a>IAgentCommand::SetCaption
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetCaption(
@@ -41,6 +41,6 @@ HRESULT SetCaption(
 [**IAgentCommand：： GetCaption**](iagentcommand--getcaption.md)、 [**IAgentCommand：： SetEnabled**](iagentcommand--setenabled.md)、 [**IAgentCommand：： SetVisible**](iagentcommand--setvisible.md)、 [**IAgentCommand：： SetVoice**](iagentcommand--setvoice.md)、 [**IAgentCommands：： Add**](iagentcommands--add.md)、 [**IAgentCommands：： Insert**](iagentcommands--insert.md)
 
 
- 
+ 
 
- 
+ 

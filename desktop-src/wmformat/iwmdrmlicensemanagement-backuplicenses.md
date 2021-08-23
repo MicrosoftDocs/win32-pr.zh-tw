@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c7f676b532353c839a428571f6d28540851bee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3905f8fd464645f7fcd22551360e6a9610913eeea7f191d7e770e24f5ea8cd49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027646"
 ---
 # <a name="iwmdrmlicensemanagementbackuplicenses-method"></a>IWMDRMLicenseManagement：： BackupLicenses 方法
 
@@ -72,7 +72,7 @@ HRESULT BackupLicenses(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 
@@ -84,7 +84,7 @@ HRESULT BackupLicenses(
 
 這個方法會以非同步方式執行。 它會在呼叫後立即傳回，然後在處理完成時產生一連串的 **MEWMDRMLicenseBackupProgress** 事件，後面接著 **MEWMDRMLicenseBackupCompleted** 事件。 藉由呼叫 **IMFMediaEvent：： GetValue** 取得的每個 **MEWMDRMLicenseBackupProgress** 事件的值都是 **IUnknown** 指標。 您可以呼叫所抓取 **IUnknown** 介面的 **QueryInterface** 方法，以取得 [**IWMDRMLicenseBackupRestoreStatus**](iwmdrmlicensebackuprestorestatus.md)介面的實例。
 
-如需使用 Windows Media DRM 用戶端擴充 Api 的非同步方法的詳細資訊，請參閱 [使用媒體基礎事件模型](using-the-media-foundation-model.md)。
+如需使用 Windows 媒體 DRM 用戶端擴充 api 的非同步方法的詳細資訊，請參閱[使用媒體基礎事件模型](using-the-media-foundation-model.md)。
 
 並非所有授權都可進行備份。 這個方法只會備份允許的授權。
 

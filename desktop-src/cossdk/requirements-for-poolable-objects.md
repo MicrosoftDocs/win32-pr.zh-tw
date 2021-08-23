@@ -4,12 +4,12 @@ ms.assetid: 2cd4211e-be12-4197-8b43-5cb9f2321016
 title: 共用物件的需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78d6834210f180ad8b514b51b6926b5cd30714fd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1af3e3b67f7d796c199649b64f711ec32a75374bff60ebf900b34871ed4bc310
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047286"
 ---
 # <a name="requirements-for-poolable-objects"></a>共用物件的需求
 
@@ -24,7 +24,7 @@ ms.locfileid: "103936262"
 共用物件無法系結至特定的執行緒;否則，效能可能會造成災難性的後果。 基於這個理由，共用物件不能標示為在單元模型中執行;它們必須在多執行緒單元或中立的單元中執行。 此外，共用物件不應該使用執行緒區域儲存區，也不應該匯總無限制執行緒封送處理器。 如需 COM + 中線程的詳細資訊，請參閱 [Com + 執行緒模型](com--threading-models.md)。
 
 > [!Note]  
-> Microsoft Visual Basic 6.0 及更早版本的開發環境只能建立單元模型元件。 不過，在 Visual Basic .NET 中，可以將元件共用。
+> Microsoft Visual Basic 6.0 及更早版本的開發環境只能建立單元模型元件。 不過，在 Visual Basic .net 中，可以將元件共用。
 
  
 
@@ -42,7 +42,7 @@ ms.locfileid: "103936262"
 
 ## <a name="language-restrictions"></a>語言限制
 
-使用 Microsoft Visual Basic 6.0 及更早版本所開發的元件無法進行集區，因為這些元件將會是單元模型執行緒。 不過，在 Visual Basic .NET 中，可以將元件共用。
+使用 Microsoft Visual Basic 6.0 及更早版本所開發的元件無法進行集區，因為這些元件將會是單元模型執行緒。 不過，在 Visual Basic .net 中，可以將元件共用。
 
 ## <a name="legacy-components"></a>傳統元件
 

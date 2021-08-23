@@ -4,12 +4,12 @@ ms.assetid: bc373ac5-a986-483f-a136-60cdc2e2c6b0
 title: 費率
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40747c26a98d8eb69e8161fb04302c5187121dff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce0af0b2dd6dfe34759753f52773bafe0bdf2bf8f4472ed863dcc6c8b0f10a0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060556"
 ---
 # <a name="rate"></a>費率
 

@@ -4,12 +4,12 @@ ms.assetid: f2fac1d3-f643-43c9-a445-112015baecdd
 title: 流覽計數器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd4bae5ce5ae7a21ae247cf66515f7386b8d0265
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c63278e0a531ec882bad6e102c89f6db0e0946a0d2a0a14b8736e7ee3aef6a8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011406"
 ---
 # <a name="browsing-counters"></a>流覽計數器
 

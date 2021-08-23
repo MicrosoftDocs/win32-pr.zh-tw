@@ -4,17 +4,17 @@ ms.assetid: f32706eb-7f97-433d-854a-17d57cc60190
 title: KaraokeAudioPresentationMode 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 429f15c99d58136d4c423c4f66b19d12c93802a9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: af634a3beaade7e497cdc6d158ccf1121ebb09542bdec92ceaae823b1b91ccdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952377"
 ---
 # <a name="karaokeaudiopresentationmode-property"></a>KaraokeAudioPresentationMode 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

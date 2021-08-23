@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: b901e8fcfa065813e4c0942632f80901800ef0a9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 02fa273b3bedea78884e15d2dedb5b7d2f675c78330c735e3bfb1896bc9d5199
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963727"
 ---
 # <a name="iportabledevicepropvariantcollectiongetat-method"></a>IPortableDevicePropVariantCollection：： GetAt 方法
 
@@ -61,7 +61,7 @@ HRESULT GetAt(
 
 
 
-| 傳回碼                                                                                  | Description                                               |
+| 傳回碼                                                                                  | 描述                                               |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 此方法已成功。<br/>                          |
 | <dl> <dt>**E \_ 指標**</dt> </dl>    | 必要的指標引數為 **Null**。<br/>      |

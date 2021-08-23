@@ -50,12 +50,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d2c94dcf7d454c5f0ea11fcee0bd46655099dfd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2bd26a3dac291d78b101aa56f186d9b31f7a927b1eca3e29febc7773e3c0939
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042456"
 ---
 # <a name="columndefgrbit-enumeration"></a>ColumndefGrbit 列舉
 
@@ -110,7 +110,7 @@ public enum ColumndefGrbit
 <tr class="even">
 <td></td>
 <td>ColumnNotNull</td>
-<td>資料行絕對不能設定為 Null 值。 在 Windows XP 上，這只能套用至固定的資料行， (位、位元組、整數等) 。</td>
+<td>資料行絕對不能設定為 Null 值。 在 Windows XP 上，這只能套用至固定資料行 (位、位元組、整數等) 。</td>
 </tr>
 <tr class="odd">
 <td></td>

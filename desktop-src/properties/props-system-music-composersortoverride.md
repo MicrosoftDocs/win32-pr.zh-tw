@@ -1,19 +1,19 @@
 ---
-description: 這個選擇性的字串值允許覆寫 becorrectly 的標準排序次序。這對於正確排序日文的音樂檔案很重要，因為在沒有此欄位的情況下，將無法排序的發音 (使用者預期的順序) 。它也可以用來自訂非東亞案例中的排序，例如允許使用者移除用於排序的文章。
+description: 這個選擇性字串值允許覆寫系統的標準排序次序。Composer。這對於正確排序日文中的音樂檔案而言非常重要，因為如果沒有此欄位，就不能 becorrectly 排序的發音 (使用者預期的順序) 。它也可以用來自訂非東亞案例中的排序，例如允許使用者移除用於排序的文章。
 ms.assetid: f087cbd3-7d0e-48c8-8e59-383d6b47cb12
 title: ComposerSortOverride
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db97b28d685182b98cafdc95662e5da5f5615349
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98847c7c07964f230c0baab5055cb15894dcd435e1c45403276954601b1423a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970227"
 ---
 # <a name="systemmusiccomposersortoverride"></a>ComposerSortOverride
 
-這個選擇性的字串值允許覆寫 becorrectly 的標準排序次序。這對於正確排序日文的音樂檔案很重要，因為在沒有此欄位的情況下，將無法排序的發音 (使用者預期的順序) 。它也可以用來自訂非東亞案例中的排序，例如允許使用者移除用於排序的文章。
+這個選擇性字串值允許覆寫系統的標準排序次序。Composer。這對於正確排序日文中的音樂檔案而言非常重要，因為如果沒有此欄位，就不能 becorrectly 排序的發音 (使用者預期的順序) 。它也可以用來自訂非東亞案例中的排序，例如允許使用者移除用於排序的文章。
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8
 

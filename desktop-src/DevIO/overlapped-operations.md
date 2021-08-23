@@ -4,12 +4,12 @@ ms.assetid: 8c0eb20d-685a-4750-8253-a87089b68509
 title: 重迭的作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19d8dc9e39386e25129d3e7d7a5281a8299d54ed
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 31ba148d0b2085e2c44e71c4c8d309f9a068223eebe8de8e239f13095c8ddd39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956887"
 ---
 # <a name="overlapped-operations"></a>重迭的作業
 

@@ -612,7 +612,7 @@
                   href: wm-settingchange.md
                 - name: WM_WININICHANGE
                   href: wm-wininichange.md
-    - name: 鉤
+    - name: 勾點
       href: hooks.md
       items:
         - name: 勾點總覽

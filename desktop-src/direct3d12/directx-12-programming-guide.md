@@ -6,12 +6,12 @@ ms.custom: 19H1
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/19/2019
-ms.openlocfilehash: 94afd9125a2e73665e3783419651f34fd72285ca
-ms.sourcegitcommit: bf6a52b91604d8a9432bf646097e3f31e44967d7
+ms.openlocfilehash: c7dfaf55b44da4a05616db7b7f64c262a3c5b6920ab2c0665e1196d70b539215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "104548444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045486"
 ---
 # <a name="direct3d-12-programming-guide"></a>Direct3D 12 程式設計指南
 
@@ -23,7 +23,7 @@ Direct3D 12 提供的 API 和平臺可讓應用程式利用配備一或多個 Di
 |-|-|
 | [什麼是 Direct3D 12？](what-is-directx-12-.md) | DirectX 12 引進了下一版的 Direct3D，也就是 DirectX 核心的3D 圖形 API。 這個版本的 Direct3D 比之前的版本更快且更有效率。 Direct3D 12 提供更豐富的場景、更多物件、更複雜的效果，以及新式 GPU 硬體的完整使用率。  |
 | [Direct3D 12 的新功能](new-releases.md) | 描述最新 SDK 版本所提供的最重要新檔。 |
-| [瞭解 Direct3D 12](directx-12-getting-started.md) | 若要撰寫適用于 Windows 10 和 Windows 10 行動裝置版的3D 遊戲和應用程式，您必須瞭解 Direct3D 12 技術的基本概念，以及如何準備在您的遊戲和應用程式中使用它。 |
+| [瞭解 Direct3D 12](directx-12-getting-started.md) | 若要撰寫 Windows 10 和 Windows 10 行動裝置版的3d 遊戲和應用程式，您必須瞭解 Direct3D 12 技術的基本概念，以及如何準備在您的遊戲和應用程式中使用它。 |
 | [在 Direct3D 12 中提交工作](command-queues-and-command-lists.md) | 為了改善 Direct3D 應用程式的 CPU 效率，Direct3D 12 不再支援與裝置相關聯的立即內容。 相反地，應用程式會記錄並提交包含繪圖和資源管理呼叫的 *命令清單*。 您可以從多個執行緒將這些命令清單提交至一或多個命令佇列，以管理命令的執行。 這項基本變更可讓應用程式預先計算轉譯工作以供稍後重複使用，以增加單一執行緒的效率，並且藉由將轉譯工作分散到多個執行緒來利用多核心系統。  |
 | [Direct3D 12 中的資源繫結](resource-binding.md) | 系結是將資源物件連結至圖形管線著色器的程式。  |
 | [Direct3D 12 中的記憶體管理](memory-management.md) | 移至 D3D12 牽涉到適當的同步處理和管理記憶體存放區。 管理記憶體存放區表示需要進行更多的同步處理。 本節涵蓋記憶體管理原則，以及在堆積和緩衝區內的子分配。  |

@@ -4,16 +4,16 @@ description: IAgentCommandsEx
 ms.assetid: 6c354677-4cdb-4a74-9c41-2d0bf6f8dd55
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d16616ccb86bf109dad85a8ee2ac5d2bd009827
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3ff4ff8e6dc87eb1a5fa5c3e79fe26b00d8bd3c8eb18a5fc6ca7cac22d3dfd07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106980274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976258"
 ---
 # <a name="iagentcommandsex"></a>IAgentCommandsEx
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 [**IAgentCommandsEx**](iagentcommandex.md) 會定義擴充 [**IAgentCommands**](iagentcommands.md) 介面的介面。
 
@@ -21,7 +21,7 @@ ms.locfileid: "106980274"
 
 
 
-| IAgentCommandsEx 方法                                                             | Description                                                                                                   |
+| IAgentCommandsEx 方法                                                             | 描述                                                                                                   |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | [SetDefaultID](iagentcommandsex--setdefaultid.md)                                   | 設定字元快顯功能表的預設命令。                                                     |
 | [GetDefaultID](iagentcommandsex--getdefaultid.md)                                   | 傳回字元快顯功能表的預設命令。                                                  |
@@ -40,8 +40,8 @@ ms.locfileid: "106980274"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

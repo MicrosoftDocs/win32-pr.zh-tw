@@ -4,19 +4,19 @@ ms.assetid: 3559d1f5-988c-41d9-ba9a-dfa4ba643ee2
 title: AppUserModel. RelaunchIconResource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc79c246fef7be5641c6488dcc34169cd5bbf98b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b43394bd5ee7dca6084526224dac268500f6881317215d63d6fc0e9a126c5b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970837"
 ---
 # <a name="systemappusermodelrelaunchiconresource"></a>AppUserModel. RelaunchIconResource
 
 指定當使用者選擇將應用程式釘選到工作列或透過按鈕的捷徑清單啟動新實例時，在工作列上建立的快捷方式所使用的圖示。 這是用於工作列群組的圖示，會針對已釘選的應用程式顯示（無論應用程式是否正在執行）。 這應該以下列其中一種格式來指定：
 
 -   標準資源格式，例如 "% systemdir% \\ system32 \\shell32.dll，-128"。 需要資源識別碼之前的 '-' 字元。 請勿在路徑字串的前方使用 ' @ ' 字元。
--   圖示檔的直接路徑，例如 "% programfiles% \\ Microsoft \\ notepad \\ notepad .ico，0"。 請注意，因為 .ico 檔案可以包含多個圖示資源，所以字串中必須有資源識別碼。 如果 .ico 檔案是單一映射，請使用 "0" (不含 '-' 字元) 作為資源識別碼。
+-   圖示檔的直接路徑，例如 "% programfiles% \\ Microsoft \\ 記事本 \\ 記事本 .ico、0"。 請注意，因為 .ico 檔案可以包含多個圖示資源，所以字串中必須有資源識別碼。 如果 .ico 檔案是單一映射，請使用 "0" (不含 '-' 字元) 作為資源識別碼。
 
 [AppUserModel. RelaunchIconResource]() 是選擇性屬性。 如果未設定，則會使用重新開機命令的靶心圖表標 ([AppUserModel. RelaunchCommand](./props-system-appusermodel-relaunchcommand.md)) 。 不過，因為這可能會導致不想要的結果，所以強烈建議您透過這個屬性明確提供圖示。
 

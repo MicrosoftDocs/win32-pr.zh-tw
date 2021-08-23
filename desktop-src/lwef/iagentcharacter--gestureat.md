@@ -4,16 +4,16 @@ description: IAgentCharacter GestureAt
 ms.assetid: ece84652-383e-4397-a6d9-f0209dd80767
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 266dc2d5e797ec0c7b30f7f827a094cd01c04195
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9bde86f9e1e60820aa7e1bc3a3f839dc920efda001f5b15e4f1ec7df4fc0cd7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976448"
 ---
 # <a name="iagentcharactergestureat"></a>IAgentCharacter::GestureAt
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GestureAt(
@@ -52,9 +52,9 @@ HRESULT GestureAt(
 
 伺服器會根據字元目前的位置和指定的位置，自動決定並播放適當的 gesturing 動畫。 使用 HTTP 通訊協定來存取字元和動畫資料時，請使用 [**Prepare**](iagentcharacter--prepare.md) 方法，以確保在呼叫這個方法之前可以使用動畫。
 
- 
+ 
 
- 
+ 
 
 
 

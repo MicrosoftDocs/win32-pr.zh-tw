@@ -5,12 +5,12 @@ ms.assetid: 482ba056-0de7-4c91-816c-dd3c926662ef
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d17adca523833f3418661cd3f9851d7c814cdc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19e498c7520d3c69fce970ed299ef02ef8fb6a7504da4c436994b539c0df397d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000058"
 ---
 # <a name="remote-desktop-gateway-classes"></a>遠端桌面閘道類別
 
@@ -76,9 +76,9 @@ ms.locfileid: "103675060"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

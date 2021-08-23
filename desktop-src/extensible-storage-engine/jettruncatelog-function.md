@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e196a1570f769d8ae2619e962521bb181d506d63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 885eb780c89cfdf5ca2ada641a819e31af5959a50b8047de88e3834796eaada9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978748"
 ---
 # <a name="jettruncatelog-function"></a>JetTruncateLog 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jettruncatelog-function"></a>JetTruncateLog 函式
 
@@ -44,7 +44,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -54,7 +54,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -65,7 +65,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>JET_errBackupAbortByServer</p></td>
 <td><p>作業失敗，因為目前的外部備份已被 <a href="gg294067(v=exchg.10).md">JetStopBackup</a>的呼叫中止。</p>
-<p><strong>Windows Server 2003：</strong>  此傳回值是在 Windows Server 2003 中引進。</p></td>
+<p><strong>Windows Server 2003：</strong> 此傳回值會在 Windows Server 2003 中引進。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errClientRequestToStopJetService</p></td>
@@ -74,7 +74,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>作業無法完成，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p><strong>WINDOWS XP：</strong>  這個傳回值是在 Windows XP 中引進的。</p></td>
+<p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidBackupSequence</p></td>
@@ -83,7 +83,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>JET_errInvalidParameter</p></td>
 <td><p>提供的其中一個參數包含未預期的值，或數個參數的組合產生了非預期的結果。 當指定的實例控制碼無效時， <strong>JetTruncateLog</strong> 就會發生這種情況。</p>
-<p><strong>WINDOWS XP：</strong>  這個傳回值是在 Windows XP 中引進的。</p></td>
+<p><strong>Windows XP：</strong> 此傳回值會在 Windows XP 中引進。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errNoBackup</p></td>
@@ -127,7 +127,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>
@@ -147,7 +147,7 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="see-also"></a>另請參閱
 
-[可擴充儲存引擎檔案](./extensible-storage-engine-files.md)  
+[可擴充的儲存體引擎檔案](./extensible-storage-engine-files.md)  
 [JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
 [JET_ERR](./jet-err.md)  
 [JET_INSTANCE](./jet-instance.md)  

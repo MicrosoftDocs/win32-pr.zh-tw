@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0a261d63ad47dcf12728b8bcd0025ec578ede0b4
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3c33242ec23070a78e8adee159d35c19121dcc7c3dfe2c013c3d00adceb16477
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043776"
 ---
 # <a name="logp---vs"></a>logp-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104022827"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104022827"
 
 
 
- 
+ 
 
 下列程式碼片段會顯示已執行的作業。
 
@@ -70,9 +70,9 @@ else
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

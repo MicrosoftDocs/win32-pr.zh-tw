@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8e0f4fad5ff9026ce70fc21712506eb4796d76b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b169412104a5e22ae973542457d08bead328ea4ded5a34691499ea8dbfd8b7b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055638"
 ---
 # <a name="iwmdrmdeviceappquerydevicestatus-method"></a>IWMDRMDeviceApp：： QueryDeviceStatus 方法
 
@@ -60,7 +60,7 @@ HRESULT QueryDeviceStatus(
 
 | 狀態                      | 描述                                  |
 |-----------------------------|----------------------------------------------|
-| WMDRM \_ 裝置 \_ ISWMDRM      | 裝置支援 Windows Media DRM。       |
+| WMDRM \_ 裝置 \_ ISWMDRM      | 裝置支援 Windows 媒體 DRM。       |
 | WMDRM \_ 裝置 \_ NEEDCLOCK    | 裝置沒有安全的時鐘。     |
 | 已 \_ 撤銷 WMDRM 裝置 \_      | 裝置已遭撤銷。                 |
 | WMDRM \_ 用戶端 \_ NEEDINDIV    | DRM 安全性需要個人化。 |
@@ -78,7 +78,7 @@ HRESULT QueryDeviceStatus(
 
 
 
-| 傳回碼                                                                                                              | Description                                                               |
+| 傳回碼                                                                                                              | 描述                                                               |
 |--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                     | 此方法已成功。<br/>                                          |
 | <dl> <dt>**DRM \_ E \_ INVALIDARG**</dt> </dl>                        | 輸入引數無效。<br/>                               |
@@ -91,11 +91,11 @@ HRESULT QueryDeviceStatus(
 
 ## <a name="remarks"></a>備註
 
-在對 DRM 內容執行任何受限制的動作之前，應該先呼叫這個方法，例如將 DRM 內容傳送到裝置，或取得計量資訊。 如果 *pdwStatus* 所抓取的值表示需要執行某些動作，例如桌上型電腦的 (，或取得裝置) 的時鐘，則應用程式應該呼叫 [**AcquireDeviceData**](iwmdrmdeviceapp-acquiredevicedata.md) ，並將從這個函式取出的 *pdwStatus* 值傳遞給 **AcquireDeviceData** 中的 *dwFlags* 參數。 如果傳回零，裝置不支援可攜式裝置的 Windows Media DRM 10，且不需要採取任何動作。 如需詳細資訊，請參閱 [處理應用程式中受保護的內容](handling-protected-content-in-the-application.md) 。
+在對 DRM 內容執行任何受限制的動作之前，應該先呼叫這個方法，例如將 DRM 內容傳送到裝置，或取得計量資訊。 如果 *pdwStatus* 所抓取的值表示需要執行某些動作，例如桌上型電腦的 (，或取得裝置) 的時鐘，則應用程式應該呼叫 [**AcquireDeviceData**](iwmdrmdeviceapp-acquiredevicedata.md) ，並將從這個函式取出的 *pdwStatus* 值傳遞給 **AcquireDeviceData** 中的 *dwFlags* 參數。 如果傳回零，裝置不支援可攜式裝置 Windows 媒體 DRM 10，且不需要採取任何動作。 如需詳細資訊，請參閱 [處理應用程式中受保護的內容](handling-protected-content-in-the-application.md) 。
 
 ## <a name="examples"></a>範例
 
-下列 c + + 程式碼範例會建立 **WMDRMDeviceApp** 物件、確認裝置是 WINDOWS Media DRM 10 裝置、其時鐘是否正確，然後要求計量資料。
+下列 c + + 程式碼範例會建立 **WMDRMDeviceApp** 物件、確認裝置是 Windows 媒體 DRM 10 裝置、其時鐘是否正確，然後要求計量資料。
 
 
 ```C++

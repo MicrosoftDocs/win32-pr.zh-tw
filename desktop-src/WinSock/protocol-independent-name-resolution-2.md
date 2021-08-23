@@ -4,12 +4,12 @@ ms.assetid: f55219b9-1518-4b49-a0da-6a3fa025cca3
 title: Protocol-Independent 名稱解析
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21cafed9759a4ca5431dafb230e7f09578ff1c75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f214619d4bf54f3ac39d24008f07aa12715fc75ac1bf6ea74280ed80d31d7bb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993598"
 ---
 # <a name="protocol-independent-name-resolution"></a>Protocol-Independent 名稱解析
 

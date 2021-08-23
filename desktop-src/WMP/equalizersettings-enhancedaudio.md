@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 641e00c1b5020ebc705cdd5a00109b94dc3b72cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ac8579490f76648d2f1664e8cac4e6e473035c820ab0f2f7e8881e5424d5834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996648"
 ---
 # <a name="equalizersettingsenhancedaudio"></a>EQUALIZERSETTINGS.enhancedAudio
 

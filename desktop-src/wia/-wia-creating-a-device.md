@@ -4,12 +4,12 @@ ms.assetid: 807695c2-4c42-4318-9a5d-d34ac9014f0f
 title: 建立裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2622d22a55c4273dcc13cc1421537b94037a3bb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6319e493c6b99e1f23d8f4ccb9be1e10628fae45e8d4ba7df0aa8112be39dba6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965897"
 ---
 # <a name="creating-a-device"></a>建立裝置
 

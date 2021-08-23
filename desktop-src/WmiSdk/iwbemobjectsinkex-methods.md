@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IWbemObjectSinkEx 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9b093baf44b17d4e1eff503934547596a312b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b280846647167bfc7050620222b4d8f0fe62d69c0936245e32a564ae81a833e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993008"
 ---
 # <a name="iwbemobjectsinkex-methods"></a>IWbemObjectSinkEx 方法
 

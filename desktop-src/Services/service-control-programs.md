@@ -4,12 +4,12 @@ ms.assetid: e7ba295f-2937-44ad-89e8-40200c5e58b6
 title: 服務控制程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78b34232f5f87d84bdf30acd51f57afbf79a8385
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb11e8224a23edcebd0688039502c5bc38da929d47cba470e6f397f4430e444f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889041"
 ---
 # <a name="service-control-programs"></a>服務控制程式
 

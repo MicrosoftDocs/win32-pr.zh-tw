@@ -9,12 +9,12 @@ keywords:
 - 外觀定義檔，結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a64226fb918bcbf93c95ece52075e2c8e7ed13e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6c708e46f93e2d00820015a04b0f467da2deafe59e4dbafb0b9e4f3fb8660271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995278"
 ---
 # <a name="skin-definition-file-structure"></a>外觀定義檔案結構
 
@@ -46,7 +46,7 @@ ms.locfileid: "104021715"
 
 ## <a name="initializing-windows-media-player"></a>正在初始化 Windows Media Player
 
-您可以使用 [ **播放** 程式]、[ **設定**] 和 [ **控制項** ] 元素，設定 Windows Media Player 的特定初始屬性。 例如，您可以將磁片區設定為初始層級，或指定檔案名的預設值。
+您可以使用 [**播放** 程式]、[**設定**] 和 [**控制項**] 元素，設定 Windows Media Player 的特定初始屬性。 例如，您可以將磁片區設定為初始層級，或指定檔案名的預設值。
 
 下列程式碼顯示如何在面板中設定 **URL** 值：
 
@@ -185,9 +185,9 @@ ms.locfileid: "104021715"
 [**面板檔案**](skin-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

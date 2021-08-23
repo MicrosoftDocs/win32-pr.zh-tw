@@ -7,12 +7,12 @@ keywords:
 - Active Directory Domain Services Active Directory，複寫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41009a733f99366e499a25baca989f4f28794aea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e7548ecf146f1d23b97b9db6a0307b21a6c39d359576c2de02285331d165fad4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025136"
 ---
 # <a name="replication-behavior-in-active-directory-domain-services"></a>Active Directory Domain Services 中的複寫行為
 
@@ -24,9 +24,9 @@ ms.locfileid: "103839271"
 -   部分更新：套用至指定來源複本的部分變更已傳播到指定的目的地複本。 讀取來源複本的應用程式會看到新的資訊，而讀取目的地的應用程式會將舊的和新的資訊混用 (或只有一些新的資訊，如果是第一次加入的新資訊) 。 部分更新適用于使用兩個或多個相關物件來儲存其資訊的目錄服務取用者。
 -   完整複寫狀態：套用至指定來源複本的所有變更都會傳播到指定的目的地複本。 來源和目的地複本上的應用程式會看到相同的資訊。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6f9817f2-c965-4205-b6fd-45dbf1bffab9
 title: 物件類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a969d2f53643d2ce8cdece663920bc33b76608fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5bbf3dbc5a0136ea03b6e0bd3f895bca4cd333d05a55f9d576aad0c7e36364c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885373"
 ---
 # <a name="object-categories"></a>物件類別
 
@@ -23,7 +23,7 @@ ms.locfileid: "103944740"
 | 插入點             | [游標](../menurc/carets.md)                                                                     |
 | 資料指標            | [資料指標](../menurc/cursors.md)                                                                   |
 | DDE 交談  | [動態資料交換管理程式庫](../dataxchg/dynamic-data-exchange-management-library.md) |
-| 鉤              | [鉤](../winmsg/hooks.md)                                                                       |
+| 鉤              | [勾點](../winmsg/hooks.md)                                                                       |
 | 圖示              | [圖示](../menurc/icons.md)                                                                       |
 | 功能表              | [功能表](../menurc/menus.md)                                                                       |
 | 時間範圍            | [Windows](../winmsg/windows.md)                                                                   |
@@ -76,7 +76,7 @@ ms.locfileid: "103944740"
 | Pipe                  | [管道](/windows/desktop/ipc/pipes)                                                             |
 | 處理序               | [進程和執行緒](/windows/desktop/ProcThread/processes-and-threads)                             |
 | Semaphore             | [同步處理](/windows/desktop/Sync/synchronization)                                         |
-| 插座                | [Windows 通訊端2](/windows/desktop/WinSock/windows-sockets-start-page-2)                       |
+| 插座                | [Windows通訊端2](/windows/desktop/WinSock/windows-sockets-start-page-2)                       |
 | Thread                | [進程和執行緒](/windows/desktop/ProcThread/processes-and-threads)                             |
 | 計時器                 | [同步處理](/windows/desktop/Sync/synchronization)                                         |
 | 計時器佇列           | [同步處理](/windows/desktop/Sync/synchronization)                                         |

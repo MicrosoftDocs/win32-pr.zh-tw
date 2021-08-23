@@ -4,12 +4,12 @@ ms.assetid: be355b08-95c1-4ad3-bb05-6f646d5db5cd
 title: 範例 C 程式：解密檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57e65b7e33ba58a80fe87cc51a25912c66bf3589
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac4aa59245600fa99f9992a08bda9dd7cdaa39bbd899851052559ee22b08997e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007866"
 ---
 # <a name="example-c-program-decrypting-a-file"></a>範例 C 程式：解密檔案
 

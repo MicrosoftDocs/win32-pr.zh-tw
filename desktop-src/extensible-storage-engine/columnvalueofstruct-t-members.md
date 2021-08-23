@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn334217(v=EXCHG.10)
 ms:contentKeyID: 55101002
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e96cbcc8210206b4f9dff01600a30ee22188d7a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 290a6180765992b23a386bb36ba4d5be85efaf1183875eeca0b02543bb1f1c08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042346"
 ---
 # <a name="columnvalueofstructt-members"></a>ColumnValueOfStruct \<T\> 成員
 
