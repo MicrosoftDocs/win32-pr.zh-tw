@@ -4,12 +4,12 @@ ms.assetid: ae8ab98f-dc3b-414d-85c9-6bf204c2f776
 title: 消費者介面語言管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 852fe20d3edb9795c2c2a9d3ec45c1e8ffe053ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5aaf20ca6183109f81572eeb706673812fc988eca87ea2522f437eafd22774b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631838"
 ---
 # <a name="user-interface-language-management"></a>消費者介面語言管理
 
@@ -21,7 +21,7 @@ MUI 可讓您的應用程式以兩種方式管理使用者介面語言。 應用
 
 系統預設 UI 語言是用來設定 Windows 之當地語系化版本的語言。 除非使用者選取不同的語言，否則所有功能表、對話方塊、錯誤訊息和說明檔都會以這種語言表示。
 
-在 Windows Vista 和更新版本上，系統預設的 UI 語言稱為「安裝語言」，並且扮演較有限的角色。 在大部分的情況下，它會由系統慣用的 UI 語言取代。 不過，在某些內容中，有一種一律已知完全支援的單一安裝語言會很有用。
+在 Windows Vista 和更新版本上，系統預設 UI 語言稱為「安裝語言」，且扮演較有限的角色。 在大部分的情況下，它會由系統慣用的 UI 語言取代。 不過，在某些內容中，有一種一律已知完全支援的單一安裝語言會很有用。
 
 沒有可設定系統預設 UI 語言的 MUI 函數。 若要取得此語言，應用程式可以呼叫 [**GetSystemDefaultUILanguage**](/windows/desktop/api/Winnls/nf-winnls-getsystemdefaultuilanguage)。
 
@@ -34,15 +34,15 @@ MUI 可讓您的應用程式以兩種方式管理使用者介面語言。 應用
 
  
 
-沒有可設定系統 UI 語言的 MUI 函數。 若要取得此值，以 Windows Vista 和更新版本為目標的應用程式可以呼叫 [**GetSystemPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages) ，並取得系統慣用 UI 語言清單中的第一種語言。 以 Windows Vista 之前的作業系統為目標的應用程式無法使用 [**GetSystemPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages) ，而且應該根據系統 ui 語言永遠與系統預設 ui 語言相同的假設。
+沒有可設定系統 UI 語言的 MUI 函數。 若要取得此值，以 Windows Vista 和更新版本為目標的應用程式可以呼叫 [**GetSystemPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages) ，並取得系統慣用 UI 語言清單中的第一種語言。 以預先 Windows Vista 作業系統為目標的應用程式無法使用 [**GetSystemPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages) ，而且應該根據系統 ui 語言永遠與系統預設 ui 語言相同的假設。
 
 ### <a name="user-ui-language"></a>使用者 UI 語言
 
-使用者 UI 語言會決定用於功能表、對話方塊、說明檔等的使用者介面語言。 您可以在主控台的 [地區及語言選項] 部分的 [ **語言** ] 索引標籤中設定目前的使用者。 只有在電腦上安裝了一個以上的使用者介面語言時，才可以變更此語言。 請注意，使用者必須登出再重新登入，才會看到效果。 例如，跨國公司想要在其所有子公司中部署 Windows。 該公司會建立全域安裝作業，這會在所有用戶端上安裝英文版的 Windows，無論位置為何。 同時，它會根據電腦所屬的組織單位，安裝特定的語言模組。 當使用者第一次登入新安裝的作業系統時，Windows 會顯示為當地語系化版本。
+使用者 UI 語言會決定用於功能表、對話方塊、說明檔等的使用者介面語言。 您可以在主控台的 [地區及語言選項] 部分的 [ **語言** ] 索引標籤中設定目前的使用者。 只有在電腦上安裝了一個以上的使用者介面語言時，才可以變更此語言。 請注意，使用者必須登出再重新登入，才會看到效果。 例如，跨國公司想要在其所有子公司中部署 Windows。 該公司會建立全域安裝作業，這會將英文版的 Windows 安裝在所有用戶端上（不論位置為何）。 同時，它會根據電腦所屬的組織單位，安裝特定的語言模組。 當使用者第一次登入新安裝的作業系統時，Windows 會顯示為當地語系化版本。
 
-在 Windows Vista 和更新版本中，使用者 UI 語言是使用者慣用 UI 語言清單中的第一種語言。 請注意，如果特定資源無法用於此語言，則可以使用回溯語言。
+在 Windows Vista 和更新版本中，使用者 ui 語言是使用者慣用 ui 語言清單中的第一種語言。 請注意，如果特定資源無法用於此語言，則可以使用回溯語言。
 
-在 Windows Vista 之前的作業系統上，使用者 UI 語言通常與系統預設 UI 語言相同。 不過，對於 Windows MUI，這兩種語言可能會不同。
+在預先 Windows Vista 作業系統上，使用者 ui 語言通常與系統預設 ui 語言相同。 不過，針對 Windows MUI，這兩種語言可能會不同。
 
 若要取得使用者 UI 語言，應用程式可以呼叫 [**GetUserDefaultUILanguage**](/windows/desktop/api/Winnls/nf-winnls-getuserdefaultuilanguage) 或 [**GetUserPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getuserpreferreduilanguages)。 應用程式無法變更使用者 UI 語言，因為沒有可設定的函式。
 
@@ -62,7 +62,7 @@ MUI 可讓您的應用程式以兩種方式管理使用者介面語言。 應用
 
 ### <a name="thread-preferred-ui-languages-list"></a>執行緒慣用 UI 語言清單
 
-在 Windows Vista 和更新版本上，資源載入器會使用執行緒慣用的 UI 語言清單，其中包含由 MUI 應用程式執行中進程中的執行緒所設定的最多五個有效語言。 這些語言可用於自訂應用程式使用者介面語言，並使其與作業系統語言不同。 執行緒慣用 UI 語言清單是以使用者慣用的 UI 語言、系統慣用 UI 語言和系統預設 UI 語言為基礎。
+在 Windows Vista 和更新版本上，資源載入器會使用執行緒慣用 UI 語言清單，其中包含由 MUI 應用程式執行中進程中的執行緒所設定的最多五個有效語言。 這些語言可用於自訂應用程式使用者介面語言，並使其與作業系統語言不同。 執行緒慣用 UI 語言清單是以使用者慣用的 UI 語言、系統慣用 UI 語言和系統預設 UI 語言為基礎。
 
 若要設定執行緒慣用 UI 語言，應用程式應該呼叫 [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages)。 為了取得這些語言，應用程式會呼叫 [**GetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getthreadpreferreduilanguages)。
 
@@ -76,7 +76,7 @@ MUI 可讓您的應用程式以兩種方式管理使用者介面語言。 應用
 
 ## <a name="language-fallback-in-the-resource-loader"></a>資源載入器中的語言回退
 
-Windows Vista 和更新版本會在資源載入器所使用的 preordered fallback 語言清單中排列使用者介面語言設定。 為了形成清單，作業系統結合了數種語言，如下所示：
+WindowsVista 和更新版本會將使用者介面語言設定排列在資源載入器所使用的 preordered fallback 語言清單中。 為了形成清單，作業系統結合了數種語言，如下所示：
 
 -   執行緒慣用 UI 語言，由執行緒使用者介面語言和其中性形式組成。 範例為法國 (法國) 的 fr-fr，以及其中性形式 "fr" 和西班牙文 (西班牙) 和其中性形式 "es" 的 es。
 -   處理慣用的 UI 語言，由進程使用者介面語言和其中性形式組成。 例如，德國 (德國) 和其中性形式「de」的解除刪除。

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b2ac11f93409128eccc88c1d916144615d77476
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1fabab78fe60120110f72176885e3b5825699b83782272dfbef0b48c165d1d02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761028"
 ---
 # <a name="iwmpcontrolsplayitem-method"></a>IWMPControls：:p layItem 方法
 
@@ -135,10 +135,10 @@ player.Ctlcontrols.playItem(Media)
 [**IWMPControls (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPPlaylist (VB 和 c # )**](iwmpplaylist-item--vb-and-c.md)
+[**IWMPPlaylist (VB 和 c # ) 的專案**](iwmpplaylist-item--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings (VB 和 c # )**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
+[**IWMPSettings (VB 和 c # 的 autoStart )**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> </dl>
 
  

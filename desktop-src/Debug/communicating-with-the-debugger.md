@@ -4,12 +4,12 @@ ms.assetid: d9e1d565-fb76-4d91-8aa7-4ff0ff31f71f
 title: 與偵錯工具通訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f982d89ac99a0f0de159579212323e298a773aa2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dee4d78fc2b0cef1df9f0597a816966585d00e1041711d4712d1a1fa66639e37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692058"
 ---
 # <a name="communicating-with-the-debugger"></a>與偵錯工具通訊
 

@@ -4,12 +4,12 @@ description: Digital-Video 命令集
 ms.assetid: 408587b1-3ead-4720-a063-5fb749273043
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a37e093b1363fdf8485f63be803a2fce1627706
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3b17c57bf6aa6c00fcf075492a1be9691925ddf569f54c456d0259175faecd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678868"
 ---
 # <a name="digital-video-command-set"></a>Digital-Video 命令集
 
@@ -27,13 +27,13 @@ ms.locfileid: "104021820"
 | [**複製**](copy.md)             | [**MCI \_ 複製**](mci-copy.md)             |
 | [**提示**](cue.md)               | [**MCI \_ 提示**](mci-cue.md)               |
 | [**削減**](cut.md)               | [**MCI \_ 剪下**](mci-cut.md)               |
-| [**刪除**](delete.md)         | [**MCI \_ 刪除**](mci-delete.md)         |
+| [**delete**](delete.md)         | [**MCI \_ 刪除**](mci-delete.md)         |
 | [**凍結**](freeze.md)         | [**MCI \_ 凍結**](mci-freeze.md)         |
 | [**資訊**](info.md)             | [**MCI \_ 資訊**](mci-info.md)             |
 | [**list**](list.md)             | [**MCI \_ 清單**](mci-list.md)             |
 | [**負荷**](load.md)             | [**MCI \_ 負載**](mci-load.md)             |
 | [**監控**](monitor.md)       | [**MCI \_ 監視**](mci-monitor.md)       |
-| [**打開**](open.md)             | [**開啟的 MCI \_**](mci-open.md)             |
+| [**開啟**](open.md)             | [**開啟的 MCI \_**](mci-open.md)             |
 | [**粘貼**](paste.md)           | [**MCI \_ 貼上**](mci-paste.md)           |
 | [**暫停**](pause.md)           | [**MCI \_ 暫停**](mci-pause.md)           |
 | [**玩**](play.md)             | [**MCI \_ 播放**](mci-play.md)             |
@@ -49,7 +49,7 @@ ms.locfileid: "104021820"
 | [**設置**](set.md)               | [**MCI \_ 組**](mci-set.md)               |
 | [**setaudio**](setaudio.md)     | [**MCI \_ SETAUDIO**](mci-setaudio.md)     |
 | [**setvideo**](setvideo.md)     | [**MCI \_ SETVIDEO**](mci-setvideo.md)     |
-| [**signal**](signal.md)         | [**MCI \_ 信號**](mci-signal.md)         |
+| [**信號**](signal.md)         | [**MCI \_ 信號**](mci-signal.md)         |
 | [**地位**](status.md)         | [**MCI \_ 狀態**](mci-status.md)         |
 | [**步**](step.md)             | [**MCI \_ 步驟**](mci-step.md)             |
 | [**停止**](stop.md)             | [**MCI \_ 停止**](mci-stop.md)             |
@@ -57,16 +57,16 @@ ms.locfileid: "104021820"
 | [**撤銷**](undo.md)             | [**MCI \_ 復原**](mci-undo.md)             |
 | [**解凍**](unfreeze.md)     | [**MCI \_ 解除凍結**](mci-unfreeze.md)     |
 | [**更新**](update.md)         | [**MCI \_ 更新**](mci-update.md)         |
-| [**其中**](where.md)           | [**MCI \_ ，其中**](mci-where.md)           |
+| [**：**](where.md)           | [**MCI \_ ，其中**](mci-where.md)           |
 | [**視窗**](window.md)         | [**MCI \_ 視窗**](mci-window.md)         |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

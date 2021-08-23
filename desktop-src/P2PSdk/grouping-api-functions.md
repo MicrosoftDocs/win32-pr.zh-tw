@@ -4,12 +4,12 @@ ms.assetid: 56ea2880-b468-4816-b6c9-5780c807b3f1
 title: 群組 API 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17d2970ca68d69b16a32cf7a6d546a5852b07dd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 888a64096f66a9adf048d91c2d577d71203a03da6d1b698f2ea305396c4be0db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776168"
 ---
 # <a name="grouping-api-functions"></a>群組 API 函數
 

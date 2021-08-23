@@ -4,12 +4,12 @@ ms.assetid: d33383c2-5c0d-401f-ab28-2a985f6508e0
 title: 產生摘要挑戰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 511ec4f01c90acf08669835f9728cc711dfd1023
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08a01a7edfa6498ed621e351c114e65a6d4ff6ef7a75b459cb29e00f0dc668a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623328"
 ---
 # <a name="generating-the-digest-challenge"></a>產生摘要挑戰
 

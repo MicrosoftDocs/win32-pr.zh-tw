@@ -11,12 +11,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 15966d009f0690a1db24c21460da5b9e08a38347
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5750e7f30293328fbdd8318b9f2fdd5a99b77b1bee8ad485df98db17e4bc12d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672778"
 ---
 # <a name="routing-and-remote-access-error-codes"></a>路由和遠端存取錯誤代碼
 
@@ -32,7 +32,7 @@ ms.locfileid: "104024777"
 <thead>
 <tr class="header">
 <th>傳回碼/值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -61,7 +61,7 @@ ms.locfileid: "104024777"
 <td>無法設定指定的埠資訊。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -74,7 +74,7 @@ ms.locfileid: "104024777"
 <td>偵測到不正確事件。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -95,7 +95,7 @@ ms.locfileid: "104024777"
 <td>指定了無法使用的路由。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -108,7 +108,7 @@ ms.locfileid: "104024777"
 <td>指定的壓縮無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -141,7 +141,7 @@ ms.locfileid: "104024777"
 <td>無法判斷任何端點。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -170,7 +170,7 @@ ms.locfileid: "104024777"
 <td>無法載入字串。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -207,7 +207,7 @@ ms.locfileid: "104024777"
 <td>無法在遠端網路上註冊您的電腦。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -224,7 +224,7 @@ ms.locfileid: "104024777"
 <td>偵測到無法轉換的字串。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -237,7 +237,7 @@ ms.locfileid: "104024777"
 <td>沒有任何可用的非同步網路。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -246,7 +246,7 @@ ms.locfileid: "104024777"
 <td>涉及 NetBIOS 時發生錯誤。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -255,7 +255,7 @@ ms.locfileid: "104024777"
 <td>他的伺服器無法配置支援用戶端所需的 NetBIOS 資源。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -264,7 +264,7 @@ ms.locfileid: "104024777"
 <td>其中一部電腦的 NetBIOS 名稱已在遠端網路上註冊。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -273,7 +273,7 @@ ms.locfileid: "104024777"
 <td>伺服器上的網路介面卡失敗。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -282,7 +282,7 @@ ms.locfileid: "104024777"
 <td>您將不會收到網路訊息快顯視窗。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -311,7 +311,7 @@ ms.locfileid: "104024777"
 <td>遠端存取服務器沒有回應。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -345,11 +345,11 @@ ms.locfileid: "104024777"
 </tr>
 <tr class="odd">
 <td><span id="ERROR_DEVICENAME_TOO_LONG"></span><span id="error_devicename_too_long"></span><dl> <dt><strong>ERROR_DEVICENAME_TOO_LONG</strong></dt> <dt>658</dt> </dl></td>
-<td>裝置中的裝置名稱。INF 或媒體。INI 檔案太長。 <br/></td>
+<td>裝置中的裝置名稱。INF 或媒體 .INI 檔案太長。 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_DEVICENAME_NOT_FOUND"></span><span id="error_devicename_not_found"></span><dl> <dt><strong>ERROR_DEVICENAME_NOT_FOUND</strong></dt> <dt>659</dt> </dl></td>
-<td>媒體。INI 檔案參考未知的裝置名稱。<br/></td>
+<td>媒體 .INI 檔案參考未知的裝置名稱。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_NO_RESPONSES"></span><span id="error_no_responses"></span><dl> <dt><strong>ERROR_NO_RESPONSES</strong></dt> <dt>660</dt> </dl></td>
@@ -365,7 +365,7 @@ ms.locfileid: "104024777"
 </tr>
 <tr class="even">
 <td><span id="ERROR_UNKNOWN_DEVICE_TYPE"></span><span id="error_unknown_device_type"></span><dl> <dt><strong>ERROR_UNKNOWN_DEVICE_TYPE</strong></dt> <dt>663</dt> </dl></td>
-<td>媒體。INI 檔案參考未知的裝置類型。<br/></td>
+<td>媒體 .INI 檔案參考未知的裝置類型。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_ALLOCATING_MEMORY"></span><span id="error_allocating_memory"></span><dl> <dt><strong>ERROR_ALLOCATING_MEMORY</strong></dt> <dt>664</dt> </dl></td>
@@ -381,7 +381,7 @@ ms.locfileid: "104024777"
 </tr>
 <tr class="even">
 <td><span id="ERROR_READING_INI_FILE"></span><span id="error_reading_ini_file"></span><dl> <dt><strong>ERROR_READING_INI_FILE</strong></dt> <dt>667</dt> </dl></td>
-<td>無法讀取媒體。INI 檔案。<br/></td>
+<td>無法讀取媒體 .INI 檔。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_NO_CONNECTION"></span><span id="error_no_connection"></span><dl> <dt><strong>ERROR_NO_CONNECTION</strong></dt> <dt>668</dt> </dl></td>
@@ -389,36 +389,36 @@ ms.locfileid: "104024777"
 </tr>
 <tr class="even">
 <td><span id="ERROR_BAD_USAGE_IN_INI_FILE"></span><span id="error_bad_usage_in_ini_file"></span><dl> <dt><strong>ERROR_BAD_USAGE_IN_INI_FILE</strong></dt> <dt>669</dt> </dl></td>
-<td>Media .ini 檔案中的 usage 參數無效。<br/></td>
+<td>媒體 .ini 檔中的 usage 參數無效。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_READING_SECTIONNAME"></span><span id="error_reading_sectionname"></span><dl> <dt><strong>ERROR_READING_SECTIONNAME</strong></dt> <dt>670</dt> </dl></td>
-<td>無法讀取媒體中的區段名稱。INI 檔案。<br/></td>
+<td>無法讀取媒體 .INI 檔中的區段名稱。<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_READING_DEVICETYPE"></span><span id="error_reading_devicetype"></span><dl> <dt><strong>ERROR_READING_DEVICETYPE</strong></dt> <dt>671</dt> </dl></td>
-<td>無法從媒體讀取裝置類型。INI 檔案。<br/></td>
+<td>無法從媒體 .INI 檔讀取裝置類型。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_READING_DEVICENAME"></span><span id="error_reading_devicename"></span><dl> <dt><strong>ERROR_READING_DEVICENAME</strong></dt> <dt>672</dt> </dl></td>
-<td>無法從媒體讀取裝置名稱。INI 檔案。<br/></td>
+<td>無法從媒體 .INI 檔讀取裝置名稱。<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_READING_USAGE"></span><span id="error_reading_usage"></span><dl> <dt><strong>ERROR_READING_USAGE</strong></dt> <dt>673</dt> </dl></td>
-<td>無法讀取媒體的使用量。INI 檔案。<br/></td>
+<td>無法從媒體 .INI 檔讀取使用量。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_READING_MAXCONNECTBPS"></span><span id="error_reading_maxconnectbps"></span><dl> <dt><strong>ERROR_READING_MAXCONNECTBPS</strong></dt> <dt>674</dt> </dl></td>
-<td>系統無法讀取媒體的最大電訊廠商連線速度。INI 檔案。<br/>
+<td>系統無法從媒體 .INI 檔讀取最大的電訊廠商連線速度。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_READING_MAXCARRIERBPS"></span><span id="error_reading_maxcarrierbps"></span><dl> <dt><strong>ERROR_READING_MAXCARRIERBPS</strong></dt> <dt>675</dt> </dl></td>
-<td>無法讀取媒體的使用量。INI 檔案。<br/></td>
+<td>無法從媒體 .INI 檔讀取使用量。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_LINE_BUSY"></span><span id="error_line_busy"></span><dl> <dt><strong>ERROR_LINE_BUSY</strong></dt> <dt>676</dt> </dl></td>
@@ -445,7 +445,7 @@ ms.locfileid: "104024777"
 <td>數據機 (或其他連接的裝置) 回報了一般錯誤。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -483,7 +483,7 @@ ms.locfileid: "104024777"
 </tr>
 <tr class="odd">
 <td><span id="ERROR_EMPTY_INI_FILE"></span><span id="error_empty_ini_file"></span><dl> <dt><strong>ERROR_EMPTY_INI_FILE</strong></dt> <dt>690</dt> </dl></td>
-<td>媒體。INI 檔案是空的。<br/></td>
+<td>媒體 .INI 檔案是空的。<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_AUTHENTICATION_FAILURE"></span><span id="error_authentication_failure"></span><dl> <dt><strong>ERROR_AUTHENTICATION_FAILURE</strong></dt> <dt>691</dt> </dl></td>
@@ -550,7 +550,7 @@ ms.locfileid: "104024777"
 <td>寫入初始連線速度時發生錯誤。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -579,7 +579,7 @@ ms.locfileid: "104024777"
 <td>雙向埠正在初始化。 等候幾秒鐘後重撥。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -592,7 +592,7 @@ ms.locfileid: "104024777"
 <td>沒有任何 ISDN 通道可以進行呼叫。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -601,7 +601,7 @@ ms.locfileid: "104024777"
 <td>因為電話線路品質不佳而發生太多錯誤。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -622,7 +622,7 @@ ms.locfileid: "104024777"
 <td>遠端電腦已終止連接。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -647,7 +647,7 @@ ms.locfileid: "104024777"
 <td>IPX 通訊協定無法在數據機 (或其他連線的裝置) 上撥出，因為這部電腦未設定為撥出 (它是 IPX 路由器) 。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -656,7 +656,7 @@ ms.locfileid: "104024777"
 <td>IPX 通訊協定無法在數據機 (或其他連線的裝置) 上撥入，因為此電腦未設定為在 (未安裝 IPX 路由器) 中進行撥號。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -669,7 +669,7 @@ ms.locfileid: "104024777"
 <td>無法存取 TCPCFG.DLL。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -686,7 +686,7 @@ ms.locfileid: "104024777"
 <td>電腦註冊未完成。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -743,7 +743,7 @@ ms.locfileid: "104024777"
 <td>遠端電腦需要資料加密。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -752,7 +752,7 @@ ms.locfileid: "104024777"
 <td>系統無法使用遠端電腦指派的 IPX 網路編號。 事件記錄檔中會提供其他資訊。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -761,7 +761,7 @@ ms.locfileid: "104024777"
 <td>會話管理模組 (SMM) 無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -770,7 +770,7 @@ ms.locfileid: "104024777"
 <td>SMM 未初始化。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -779,7 +779,7 @@ ms.locfileid: "104024777"
 <td>沒有適用于埠的 MAC。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -788,7 +788,7 @@ ms.locfileid: "104024777"
 <td>SMM 超時。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -801,7 +801,7 @@ ms.locfileid: "104024777"
 <td>指定了錯誤的 SMM。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -810,7 +810,7 @@ ms.locfileid: "104024777"
 <td>回呼號碼包含不正確字元。 只允許下列18個字元：0到9、T、P、W、 (、) 、-、@ 和 space。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -843,7 +843,7 @@ ms.locfileid: "104024777"
 <td>連接上已啟用 (ICS) 的網際網路連線共用。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -852,7 +852,7 @@ ms.locfileid: "104024777"
 <td>變更現有的網際網路連線共用設定時發生錯誤。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -861,7 +861,7 @@ ms.locfileid: "104024777"
 <td>啟用路由功能時發生錯誤。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -870,7 +870,7 @@ ms.locfileid: "104024777"
 <td>啟用連接的網際網路連線共用時發生錯誤。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -879,7 +879,7 @@ ms.locfileid: "104024777"
 <td>設定局域網路進行共用時發生錯誤。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -888,7 +888,7 @@ ms.locfileid: "104024777"
 <td>無法啟用網際網路連線共用。 除了要共用的連線之外，還有一個以上的 LAN 連接。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -957,7 +957,7 @@ ms.locfileid: "104024777"
 <td>若要使用此連接撥出，您必須使用智慧卡。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -970,7 +970,7 @@ ms.locfileid: "104024777"
 <td>因為找不到有效的憑證，所以加密嘗試失敗。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中已淘汰。
+Windows Vista 和更新版本的 Windows 已淘汰。
 </blockquote>
 <br/></td>
 </tr>
@@ -1028,7 +1028,7 @@ ms.locfileid: "104024777"
 </tr>
 <tr class="even">
 <td><span id="ERROR_WRONG_TUNNEL_TYPE"></span><span id="error_wrong_tunnel_type"></span><dl> <dt><strong>ERROR_WRONG_TUNNEL_TYPE</strong></dt> <dt>795</dt> </dl></td>
-<td>此使用者的通道類型 RADIUS 屬性不正確。 <br/></td>
+<td>此使用者的 Tunnel 類型 RADIUS 屬性不正確。 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_UNKNOWN_SERVICE_TYPE"></span><span id="error_unknown_service_type"></span><dl> <dt><strong>ERROR_UNKNOWN_SERVICE_TYPE</strong></dt> <dt>796</dt> </dl></td>
@@ -1047,12 +1047,12 @@ ms.locfileid: "104024777"
 <td>因為網路上的 IP 位址衝突，所以無法啟用 (ICS) 的網際網路連線共用。 ICS 要求主機必須設定為使用 <strong>192.168.0.1</strong>。 確定網路上沒有其他用戶端設定為使用 <strong>192.168.0.1</strong>。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/>
 <blockquote>
 [!Note]<br />
-Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</strong>
+Windows 7 和更新版本：主機必須設定為使用<strong>192.168.137.1</strong>
 </blockquote>
 <br/></td>
 </tr>
@@ -1061,7 +1061,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>無法建立 VPN 連線。 可能無法連線到 VPN 伺服器，或可能未正確設定此連線的安全性參數。 <br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1070,7 +1070,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>此連接設定為驗證存取伺服器的身分識別，但 Windows 無法驗證服務器所傳送的數位憑證。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1079,7 +1079,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>提供的卡片無法辨識。 請檢查卡片是否已正確插入，並且安全地納入。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP SP1 和更新版本的 Windows 中支援。
+支援 Windows XP SP1 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1088,7 +1088,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>儲存在會話 cookie 中的 PEAP 設定不符合目前的會話設定。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP SP1 和更新版本的 Windows 中支援。
+支援 Windows XP SP1 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1097,7 +1097,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>儲存在會話 cookie 中的 PEAP 身分識別不符合目前的身分識別。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP SP1 和更新版本的 Windows 中支援。
+支援 Windows XP SP1 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1106,7 +1106,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>您無法在登入時使用此連接撥號，因為它已設定為使用目前登入的使用者認證。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP SP1 和更新版本的 Windows 中支援。
+支援 Windows XP SP1 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1115,7 +1115,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>您的電腦與 VPN 伺服器之間的連接已啟動，但無法完成 VPN 連線。 最常見的原因是至少有一個網際網路裝置 (例如，您的電腦與 VPN 伺服器之間的防火牆或路由器) 未設定成允許 (GRE) 通訊協定封包的一般路由封裝。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1124,7 +1124,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>電腦與 VPN 伺服器之間的網路連線已中斷。 這可能是因為 VPN 傳輸中的問題所造成，而且通常是因為網際網路等待時間，或是您的 VPN 伺服器已達到容量。 嘗試重新連線至 VPN 伺服器。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1133,7 +1133,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>無法建立您的電腦與 VPN 伺服器之間的網路連線，因為遠端伺服器拒絕了連接。 這通常是因為伺服器的設定與連線設定不相符所造成。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1142,7 +1142,7 @@ Windows 7 和更新版本：主機必須設定為使用 <strong>192.168.137.1</s
 <td>因為遠端伺服器沒有回應，所以無法建立您的電腦與 VPN 伺服器之間的網路連線。 這可能是因為其中一個網路裝置 (例如，您的電腦與遠端伺服器之間的防火牆、NAT、路由器) 未設定成允許 VPN 連線。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1160,7 +1160,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>因為遠端伺服器沒有回應，所以無法建立您的電腦與 VPN 伺服器之間的網路連線。 這通常是因為用戶端與伺服器之間的預先共用金鑰問題所造成。 預先共用金鑰是用來確保您是在 IP 安全性 (IPSec) 通訊週期的身分。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1169,7 +1169,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>因為您 RAS/VPN 伺服器設定的原則，連線被禁止。 具體而言，伺服器用來驗證您的使用者名稱和密碼的驗證方法，可能不符合連線設定檔中設定的驗證方法。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1178,7 +1178,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>當先前的寬頻連線已使用相同的裝置或埠建立時，您已嘗試建立第二個寬頻連線。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1187,7 +1187,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>找不到寬頻連線所需的基礎乙太網路連接。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1196,7 +1196,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>因為遠端伺服器沒有回應，所以無法在您的電腦上建立寬頻網路連接。 這可能是因為值對此連接的 [服務名稱] 欄位無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1205,7 +1205,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>遠端存取服務已不再支援您嘗試啟用的功能或設定。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1214,7 +1214,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>連接時無法刪除連接。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1223,7 +1223,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>網路存取保護 (NAP) 強制用戶端無法建立遠端存取連線的系統資源。 某些網路服務或資源可能無法使用。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1232,7 +1232,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>網路存取保護代理程式 (NAP 代理程式) 服務已停用或未安裝在這部電腦上。 某些網路服務或資源可能無法使用。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1241,7 +1241,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>網路存取保護 (NAP) 強制用戶端無法向網路存取保護代理程式註冊 (NAP 代理程式) 服務。 某些網路服務或資源可能無法使用。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1250,7 +1250,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>網路存取保護 (NAP) 強制用戶端無法處理要求，因為遠端存取連接不存在。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1259,7 +1259,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>網路存取保護 (NAP) 強制用戶端沒有回應。 某些網路服務或資源可能無法使用。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1268,7 +1268,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>收到的 Crypto-Binding 類型長度-值 (的 TLV) 無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1277,7 +1277,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>未收到 Crypto-Binding 的 TLV。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1286,7 +1286,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>點對點通道通訊協定 (PPTP) 與 IPv6 不相容。 將虛擬私人網路的類型變更為 (L2TP) 的第二層通道通訊協定。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1295,7 +1295,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>EAPTLS 快取認證的驗證失敗。 捨棄快取的認證。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1304,7 +1304,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>無法完成 L2TP/IPsec 連線，因為 IKE 和 AuthIP IPSec 金鑰模組服務及/或基礎篩選引擎服務未執行。 必須要有這些服務，才能建立 L2TP/IPSec 連線。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1313,7 +1313,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>因為閒置超時，所以已終止連接。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1322,7 +1322,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>數據機 (或其他連接的裝置) 因連結失敗而中斷連線。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1331,7 +1331,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>因為使用者已登出，所以已終止連接。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1340,7 +1340,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>因為發生使用者切換，所以已終止連接。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1349,7 +1349,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>連接因休眠而終止。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1358,7 +1358,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>因為系統已暫止，所以已終止連接。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1367,7 +1367,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>連接已終止，因為遠端存取連線管理員已停止。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1376,7 +1376,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>L2TP 連接嘗試失敗，因為安全性層無法驗證遠端電腦。 這可能是因為遠端伺服器所提供之憑證的一或多個欄位無法驗證為屬於目標目的地。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1385,16 +1385,16 @@ Windows Vista 和更新版本的 Windows 支援
 <td>電腦不支援 NAP。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 和更新版本的 Windows 中支援。
+Windows Vista 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_TUNNELID"></span><span id="error_invalid_tunnelid"></span><dl> <dt><strong>ERROR_INVALID_TUNNELID</strong></dt> <dt>837</dt> </dl></td>
-<td>不正確通道識別碼。<br/>
+<td>不正確 Tunnel 識別碼。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1403,7 +1403,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>另一個更新連接要求正在進行中。 RAS 一次只允許一個更新連接要求。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1412,7 +1412,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>使用設定的通訊協定進行協商是停用的。 編輯連線屬性，並選取不同的通訊協定進行協商，然後再試一次。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1421,7 +1421,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>內部位址協商失敗。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1430,7 +1430,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>用戶端必須要求內部 IPv4 或 IPv6 位址。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1439,7 +1439,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>流量選取器協商失敗。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1448,7 +1448,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>此連接已停用行動性。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1457,7 +1457,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>因為隔離狀態變更，所以 VPN 連線仍在連線或重新驗證。 只有當連接狀態為 [已連線] 時，才會起始行動更新。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1466,7 +1466,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>伺服器拒絕用戶端驗證，因為 TLV 的非預期的 TLV 或值不符。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1475,7 +1475,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>使用者未選取任何 VPN 目的地喜好設定，或它不再有效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1484,7 +1484,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>快取的智慧卡認證無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>
@@ -1599,7 +1599,7 @@ Windows Vista 和更新版本的 Windows 支援
 <thead>
 <tr class="header">
 <th>傳回碼/值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -1800,7 +1800,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>在 RADIUS 伺服器的封包中收到的簽章長度無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1809,7 +1809,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>在 RADIUS 伺服器的封包中收到的簽章無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1818,7 +1818,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>未收到來自 RADIUS 伺服器的簽章和 EAPMessage。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1827,7 +1827,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>在 RADIUS 伺服器的封包中收到的長度或識別碼無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1836,7 +1836,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>在具有 RADIUS 伺服器之屬性的封包中收到的長度無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1845,16 +1845,16 @@ Windows Vista 和更新版本的 Windows 支援
 <td>從 RADIUS 伺服器收到的封包無效。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_AUTHENTICATOR_MISMATCH"></span><span id="error_authenticator_mismatch"></span><dl> <dt><strong>ERROR_AUTHENTICATOR_MISMATCH</strong></dt> <dt>955</dt> </dl></td>
-<td>驗證器不符合 RADIUS 伺服器的封包。<br/>
+<td>Authenticator 不符合 RADIUS 伺服器的封包。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows XP 和更新版本的 Windows 中支援。
+Windows XP 和更新版本的 Windows 支援。
 </blockquote>
 <br/></td>
 </tr>
@@ -1863,7 +1863,7 @@ Windows Vista 和更新版本的 Windows 支援
 <td>路由及遠端存取服務器未設定或未執行。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows 7 和更新版本的 Windows 中支援。
+支援 Windows 7 和更新版本的 Windows。
 </blockquote>
 <br/></td>
 </tr>

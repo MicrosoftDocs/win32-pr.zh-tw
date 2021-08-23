@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24dd07faecc66bc50c408eab36bcbd8c93c460ef
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 942fcf03d97c7d787231e896199bce0d4c53cf78d16f6b25741e604238bf06b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741758"
 ---
 # <a name="fileokstring-message"></a>FILEOKSTRING 訊息
 
@@ -72,7 +72,7 @@ ms.locfileid: "110549213"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Commdlg (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Commdlg (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **FILEOKSTRINGW** (Unicode) 和 **FILEOKSTRINGA** (ANSI) <br/>                                      |
 
 
@@ -84,7 +84,7 @@ ms.locfileid: "110549213"
 **參考**
 </dt> <dt>
 
-[**CDN \_ FILEOK**](cdn-fileok.md)
+[**CDN \_FILEOK**](cdn-fileok.md)
 </dt> <dt>
 
 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: aaa51bad8e1c5c133497666b6272dee0b590e43e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b4f85cdc52ed96b2a370ba5e4e02a5981e05fbcf540492e3de91a74363600c70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634208"
 ---
 # <a name="coutputqueuem_bterminate-member"></a>COutputQueue：： m \_ bTerminate 成員
 

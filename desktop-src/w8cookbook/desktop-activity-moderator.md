@@ -9,40 +9,40 @@ keywords:
 - 節流
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b8bb3d7925633d3feca8bb6ed5af191670af681
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: b465bbb377a06fdad50d04d5fcf788cb2e687fdf5db852125e4143fd971773d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "103683212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815418"
 ---
 # <a name="desktop-activity-moderator"></a>桌面活動仲裁者
 
 ## <a name="platform"></a>平台
 
-**用戶端** – Windows 8 
+**用戶端**– Windows 8 
 
 
 > [!Note]  
 > 只有在支援連線待命的 Windows 8 用戶端電腦上才會出現此 DAM。 伺服器 Sku 上沒有該 DAM。
 
- 
+ 
 
   
 
 > [!Note]  
-> 針對 Windows 8 所建立的 Windows Store 應用程式不會受到 DAM 的影響。
+> Windows針對 Windows 8 所建立的商店應用程式不會受到 DAM 的影響。
 
- 
+ 
 
   
 </dl>
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 我們的客戶轉向更輕量、更小、更多行動平臺，以滿足其運算需求。 在轉移至行動裝置的過程中，使用者已越來越在意其裝置的電池壽命。 「桌面活動仲裁者」 (「DAM) 是 Windows 8 的其中一項新功能，其設計目的是為了確保支援連線待命的裝置具有一致且長時間的電池壽命。
 
-當裝置開啟電源，但畫面已關閉時，就會發生連線待命。 在此電源狀態中，系統在技術上一律會「開啟」 (，以支援郵件、VoIP、社交網路和 Windows Store 應用程式的立即訊息) 等重要案例。 它類似于當使用者按下電源按鈕時，智慧型手機所在的狀態。
+當裝置開啟電源，但畫面已關閉時，就會發生連線待命。 在此電源狀態中，系統在技術上一律「開啟」 (，以支援郵件、VoIP、社交網路和立即訊息，以及 Windows Store 應用程式) 的立即訊息。 它類似于當使用者按下電源按鈕時，智慧型手機所在的狀態。
 
 因此，軟體 (包括應用程式和作業系統軟體) 在連線待命期間必須有良好的行為。 建立的 DAM 是為了隱藏桌面應用程式執行，其方式類似于 ACPI 裝置上的睡眠狀態 (S3) 。 這樣做的方法是，在連線待命專案的情況下，暫停或節流整個系統上的桌面軟體處理常式。 這可讓支援連線待命的系統提供最小化的資源使用量和長時間一致的電池壽命，同時讓 Windows Store 應用程式能夠提供其所保證的連線體驗。
 
@@ -58,13 +58,13 @@ ms.locfileid: "103683212"
 > [!Note]  
 > 針對 Windows 8，工作物件可以嵌套。 這表示，使用工作物件的 DAM 時，不會干擾應用程式的現有工作物件使用方式。
 
- 
+ 
 
 當畫面開啟時，會未佔用 DAM，且不會影響系統上的任何處理程式。 當系統處於連線待命狀態時，根據系統上的活動而定，DAM 可能會節流或暫停處理常式。
 
 -   受擱置的進程會擱置其所有線程 (不允許在任何情況下執行) ;維護應用程式狀態 (進程記憶體) 
 -   受擱置和 unsuspended 之間的節流週期所限制的進程， (很長的時間會花在暫停的狀態) 
-    -   請注意，Windows 可能也會偵測到重要的活動發生，而且可能會在此活動期間，在較長的時間內將節流的服務暫停
+    -   請注意，Windows 也可以偵測到重大活動發生，而且可能會在此活動期間，讓節流服務的時間變長一段時間。
     -   此外，請注意，在連線待命環境中，感應器和網路可能無法使用，因此，您應該針對大部分的程式設計節流的程式以復原網路狀況不佳的 (情況，這並不需要進行任何變更) 
 
 當您參與或未佔用 DAM 暫止時，會觸發將 WM \_ POWERBROADCAST 訊息傳遞給那些處理常式的處理常式，而這些進程可能會透過 API 呼叫或相容性填充碼來進入訊息傳遞 (，稍後) 所述。 在幾秒鐘的延遲之後，DAM 會暫停處理常式。
@@ -86,9 +86,9 @@ ms.locfileid: "103683212"
 
 建立或相依于網站之軟體的廠商，應該考慮程式暫止如何影響連接存留期和交握。 此外，因為在連線待命模式時可能無法使用網路連線能力，所以在會話0中建立之進程的開發人員應該特別注意間歇性網路連接對進程有何影響。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
-Microsoft Store 應用程式不會受到 DAM 的影響。 如果您的桌面應用程式受到了 DAM 的影響，您可以在暫停進行之前要求通知 (例如，使用下列其中一種方法來儲存狀態或關閉網路連接) ：
+WindowsMicrosoft Store 應用程式不會受到 DAM 的影響。 如果您的桌面應用程式受到了 DAM 的影響，您可以在暫停進行之前要求通知 (例如，使用下列其中一種方法來儲存狀態或關閉網路連接) ：
 
 -   如果您的應用程式有 (HWND) 的視窗，而您想要透過視窗程式處理這些通知，請呼叫 [RegisterSuspendResumeNotification](/windows/win32/api/winuser/nf-winuser-registersuspendresumenotification) 來註冊這些訊息 (或 [UnregisterSuspendResumeNotification](/windows/win32/api/winuser/nf-winuser-unregistersuspendresumenotification) 以取消註冊) 。 您可以使用 \_ \_ \_ 旗標參數中的裝置通知視窗控制碼，並將視窗的 HWND 以收件者參數的形式傳遞。 收到的訊息是 WM \_ POWERBROADCAST 訊息。
 -   如果您的應用程式沒有 (HWND) 的視窗，或您想要直接回呼，請呼叫 [PowerRegisterSuspendResumeNotification](/windows/win32/api/powerbase/nf-powerbase-powerregistersuspendresumenotification) 來註冊這些訊息 (或 [PowerUnregisterSuspendResumeNotification](/windows/win32/api/powerbase/nf-powerbase-powerunregistersuspendresumenotification) 以取消註冊) 。 您必須 \_ \_ 在旗標參數中使用裝置通知回呼，並 \_ \_ \_ 在收件者參數中傳遞類型 PDEVICE 通知訂閱參數的值。
@@ -106,7 +106,7 @@ Resume 訊息是 \_ 具有 wParam = PBT APMRESUME 的 WM POWERBROADCAST \_ ; 此
 
 ## <a name="resources"></a>資源
 
--   [適用于 Windows 7 的行動電池壽命解決方案](/previous-versions/windows/hardware/design/dn641606(v=vs.85))
+-   [Windows 7 的行動電池壽命解決方案](/previous-versions/windows/hardware/design/dn641606(v=vs.85))
 -   [系統 \_ 電源 \_ 功能](/windows/win32/api/winnt/ns-winnt-system_power_capabilities)
 -   [CallNtPowerInformation 函式](/windows/win32/api/powerbase/nf-powerbase-callntpowerinformation)
 -   [工作物件](../procthread/job-objects.md)
@@ -116,6 +116,6 @@ Resume 訊息是 \_ 具有 wParam = PBT APMRESUME 的 WM POWERBROADCAST \_ ; 此
 -   [PowerUnregisterSuspendResumeNotification](/windows/win32/api/powerbase/nf-powerbase-powerunregistersuspendresumenotification)
 -   [AppCompat 工具組](../win7appqual/application-compatibility-toolkit--act-.md)
 
- 
+ 
 
- 
+ 

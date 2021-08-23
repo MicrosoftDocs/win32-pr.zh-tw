@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - OcManage.dll
-ms.openlocfilehash: 2e747c19db5e5a79e2827dc3bcfb88b97fae2ba6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 399bdb936befb4f7ff45f9f5a3b132245b984bf2a5201ce054ee0fbeb50f5598
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833348"
 ---
 # <a name="octerminate-function"></a>OcTerminate 函式
 

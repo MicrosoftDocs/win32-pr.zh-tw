@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa92c3bc2ee82facf2f2e1043e71467a0c55bd8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa9494a594a396550028f083cc2b646f2093f6369ab27ae5494bf70c13628d4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619778"
 ---
 # <a name="iwmdrmdevicegetsecureclock-method"></a>IWMDRMDevice：： GetSecureClock 方法
 
@@ -68,7 +68,7 @@ HRESULT GetSecureClock(
 
 | 旗標                     | 描述                            |
 |--------------------------|----------------------------------------|
-| WMDRM \_ 裝置 \_ ISWMDRM   | 裝置支援 Windows Media DRM。 |
+| WMDRM \_ 裝置 \_ ISWMDRM   | 裝置支援 Windows 媒體 DRM。 |
 | WMDRM \_ 裝置 \_ NEEDCLOCK | 裝置需要時鐘。                |
 | 已 \_ 撤銷 WMDRM 裝置 \_   | 裝置已遭撤銷。           |
 
@@ -84,7 +84,7 @@ HRESULT GetSecureClock(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ 目錄&\# 32;WMI 類別代表執行 Windows 的電腦系統上的目錄專案。
+description: Win32 \_ 目錄&\# 32;WMI 類別代表執行 Windows 之電腦系統上的目錄專案。
 ms.assetid: d61cb5ee-8e87-4604-95e6-325c9b543411
 ms.tgt_platform: multiple
 title: Win32_Directory 類別
@@ -45,16 +45,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6185b9c0d427b7410d36f3fddfaf70c0ed8d364b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1247a965f5d447ab2e6e86737feff96b205a6a74e3cab5e3e94cade9a2f8394c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104190990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699848"
 ---
 # <a name="win32_directory-class"></a>Win32 \_ 目錄類別
 
-**Win32 \_ 目錄** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 的電腦系統上的目錄專案。 目錄是一種以邏輯方式將資料檔案分組，並提供群組檔案之路徑資訊的檔案類型。 範例： C： \\ TEMP。 **Win32 \_目錄** 不包含網路磁碟機機的目錄。
+**Win32 \_ 目錄** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 之電腦系統上的目錄專案。 目錄是一種以邏輯方式將資料檔案分組，並提供群組檔案之路徑資訊的檔案類型。 範例： C： \\ TEMP。 **Win32 \_目錄** 不包含網路磁碟機機的目錄。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 
@@ -376,7 +376,7 @@ class Win32_Directory : CIM_Directory
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「Win32」 ) ， [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「壓縮」 ) 
 </dt> </dl>
 
-指出資料夾是否已壓縮。 WMI 會辨識使用 WMI 本身或使用圖形化使用者介面壓縮的資料夾;但是，它並不會辨識。壓縮的壓縮檔案。 若 **為 True**，則會壓縮檔案。
+指出資料夾是否已壓縮。 WMI 會辨識使用 WMI 本身或使用圖形化使用者介面壓縮的資料夾;不過，它不會辨識壓縮的 .ZIP 檔案。 若 **為 True**，則會壓縮檔案。
 
 這個屬性繼承自 [**CIM \_ LogicalFile**](cim-logicalfile.md)。
 
@@ -566,7 +566,7 @@ class Win32_Directory : CIM_Directory
 
 </dd> <dt>
 
-**分機**
+**延伸模組**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -786,7 +786,7 @@ class Win32_Directory : CIM_Directory
 限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Name 屬性是一個字串，代表繼承的名稱，做為檔案系統內的邏輯檔案實例的索引鍵。 應提供完整路徑名稱。 範例： C： \\ Windows \\ system \\win.ini
+Name 屬性是一個字串，代表繼承的名稱，做為檔案系統內的邏輯檔案實例的索引鍵。 應提供完整路徑名稱。 範例： C： \\ Windows \\ 系統 \\win.ini
 
 這個屬性繼承自 [**CIM \_ LogicalFile**](cim-logicalfile.md)。
 
@@ -984,7 +984,7 @@ WMI 使用 **Win32 \_ 目錄** 類別來管理資料夾。 此類別中提供的
 
 [**Win32 \_ 子目錄**](win32-subdirectory.md)關聯類別也用來管理檔案和資料夾。 **Win32 \_ 子目錄** 類別會關聯資料夾及其直屬子資料夾。 例如，在資料夾結構 C： \\ scripts 記錄檔中 \\ ，記錄是腳本的子資料夾，而腳本是根資料夾 C：的子資料夾 \\ 。 不過，記錄不會被視為 C：的子資料夾 \\ 。
 
-您可以使用 **Win32 \_ 目錄** 類別取出檔案系統中任何資料夾的屬性。 使用這個類別的可用屬性會顯示在表11.1 中。 若要抓取單一資料夾的屬性，請將 Windows 查詢語言 (WQL) Query 中的 **Win32 \_ 目錄** 類別，確定您包含資料夾的名稱。 例如，此查詢系結至資料夾 D： \\ Archive：
+您可以使用 **Win32 \_ 目錄** 類別取出檔案系統中任何資料夾的屬性。 使用這個類別的可用屬性會顯示在表11.1 中。 若要抓取單一資料夾的屬性，請為 **Win32 \_ 目錄** 類別建立 Windows 的查詢語言 (WQL) 查詢，確定您包含資料夾的名稱。 例如，此查詢系結至資料夾 D： \\ Archive：
 
 `        Copy     "SELECT * FROM Win32_Directory WHERE Name = 'D:\\Archive'"`
 

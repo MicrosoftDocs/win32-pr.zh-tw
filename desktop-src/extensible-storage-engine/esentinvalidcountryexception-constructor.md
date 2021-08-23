@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d47e39c6a9b94a20b3a39fb642c911cea3591469
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7027b7893c01325f11cc668783464b6527fb4061c44fe05e7671c3e29bb6e51c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723758"
 ---
 # <a name="esentinvalidcountryexception-constructor"></a>EsentInvalidCountryException 函式
 

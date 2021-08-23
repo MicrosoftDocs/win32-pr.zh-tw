@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadef.h
-ms.openlocfilehash: 8da33f0b257168712f1b16fb7f940df5db862d3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b4e89f47737788fa9ebf238f06f6420eafbc31d7b27ab7933372d0716fb6588
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812948"
 ---
 # <a name="wia_raw_header-structure"></a>WIA \_ 原始 \_ 標頭結構
 
-**WIA \_ 原始 \_ 標頭** 結構會以裝置的原始資料格式來定義影像，並可讓應用程式在 WINDOWS 映射取得 (WIA) 傳輸中使用原始格式。
+**WIA \_ 原始 \_ 標頭** 結構會以裝置的原始資料格式來定義影像，並可讓應用程式在 Windows 映像取得 (WIA) 傳輸中使用原始格式。
 
 ## <a name="syntax"></a>語法
 
@@ -282,8 +282,8 @@ WIA \_ IPA \_ PHOTOMETRIC \_ INTERP 值，指定影像的 PHOTOMETRIC 轉譯。
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wiadef。h</dt> </dl> |
 
 

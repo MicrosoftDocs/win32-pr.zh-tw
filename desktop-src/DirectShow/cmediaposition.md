@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 60d06a08badf3302ef4ddb352d840842a2605600
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7305d5eded589e167352ce7ff13194b52965b939daf907e8381b64684a03d1bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634848"
 ---
 # <a name="cmediaposition-class"></a>CMediaPosition 類別
 
@@ -37,11 +37,11 @@ ms.locfileid: "106984001"
 
 
 
-| 公用方法                                              | Description                                                                                                         |
+| 公用方法                                              | 描述                                                                                                         |
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [**CMediaPosition**](cmediaposition-cmediaposition.md)     | 函式方法。                                                                                                 |
-| IDispatch 方法                                           | Description                                                                                                         |
-| [**GetIDsOfNames**](cmediaposition-getidsofnames.md)       | 將一組名稱對應至一組對應的 Dispid。                                                              |
+| IDispatch 方法                                           | 描述                                                                                                         |
+| [**GetIDsOfNames**](cmediaposition-getidsofnames.md)       | 地圖一組名稱一組對應的 Dispid。                                                              |
 | [**GetTypeInfo**](cmediaposition-gettypeinfo.md)           | 抓取物件的型別資訊，然後用來取得介面的型別資訊。 |
 | [**GetTypeInfoCount**](cmediaposition-gettypeinfocount.md) | 抓取物件提供的類型資訊介面數目。                                            |
 | [**調用**](cmediaposition-invoke.md)                     | 提供物件所公開之屬性和方法的存取權。                                                    |
@@ -65,7 +65,7 @@ ms.locfileid: "106984001"
 
 <dl> <dt>
 
-[DirectShow 基類](directshow-base-classes.md)
+[DirectShow基類](directshow-base-classes.md)
 </dt> </dl>
 
  

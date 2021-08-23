@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f3334ac273a733c3f0591b76af7e76460997a199
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: af266e22cb8ee5a2ff5d5d233dc6cfc623e37cd0d34c073db4dbab71d9c221ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635478"
 ---
 # <a name="cbasefilterstreamtime-method"></a>CBaseFilter. StreamTime 方法
 
@@ -55,7 +55,7 @@ virtual HRESULT StreamTime(
 
 
 
-| 傳回碼                                                                                      | Description                                 |
+| 傳回碼                                                                                      | 描述                                 |
 |--------------------------------------------------------------------------------------------------|---------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>             | 成功。<br/>                         |
 | <dl> <dt>**VFW \_ E \_ NO \_ CLOCK**</dt> </dl> | 沒有可用的參考時鐘。<br/> |

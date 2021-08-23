@@ -3,7 +3,7 @@ title: 'EM_GETLANGOPTIONS 訊息 (Richedit .h) '
 description: 取得 rich edit 控制項的 [輸入方法編輯器] 選項設定， (IME) 和亞洲語言支援。
 ms.assetid: 9fd9d27c-7713-454e-b49f-8ecdba848d2e
 keywords:
-- EM_GETLANGOPTIONS message Windows 控制項
+- EM_GETLANGOPTIONS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a27254ccb10093059eb9161410f4e25efdc59306
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6e3fa3602259ff0b754c79c69d91048c68c60b2703d4cd06a7da4630fcdf646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800198"
 ---
 # <a name="em_getlangoptions-message"></a>EM \_ GETLANGOPTIONS 訊息
 
@@ -49,7 +49,7 @@ ms.locfileid: "103843164"
 
 
 
-| 傳回碼                                                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 傳回碼                                                                                                     | 描述                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**IMF \_ AUTOFONT**</dt> </dl>                    | 如果設定此旗標，當使用者明確變更為不同的鍵盤配置時，控制項會自動變更字型。 針對通用 Unicode 字型關閉 **IMF \_ AUTOFONT** 相當有用。 預設會開啟此選項 (1) 。<br/>                                                                                                                                                                     |
 | <dl> <dt>**IMF \_ AUTOFONTSIZEADJUST**</dt> </dl>          | 如果設定此旗標，控制項會根據腳本，從插入點大小調整字型系結的字型大小。 例如，亞洲字型比西方字體稍微大一點。 預設會開啟此選項 (1) 。<br/>                                                                                                                                                                                              |
@@ -79,8 +79,8 @@ ms.locfileid: "103843164"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

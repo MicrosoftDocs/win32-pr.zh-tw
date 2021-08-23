@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dc732ee761ee6c294ffb14dac832c36d5821927
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3d2283f49719ed188f6dbcfa1837105b4ac6112b56175dfb66bb51759668526d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656688"
 ---
 # <a name="domain-wide-policy-attribute"></a>全網域原則屬性
 

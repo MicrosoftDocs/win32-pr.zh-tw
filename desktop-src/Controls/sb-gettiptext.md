@@ -3,7 +3,7 @@ title: 'SB_GETTIPTEXT 訊息 (Commctrl .h) '
 description: 抓取狀態列中某部分的工具提示文字。 您必須使用 SBT \_ 工具提示樣式來建立狀態列，才能啟用工具提示。
 ms.assetid: a3936830-a855-4ef6-b179-3aa3730cd0b8
 keywords:
-- SB_GETTIPTEXT message Windows 控制項
+- SB_GETTIPTEXT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d492bc19f82300f460666b3213c545fe95b8db85
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 89a78fa6650d850cad2b6de8cc77f1d44b49b8325bf6856b989953fc6511f56f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637128"
 ---
 # <a name="sb_gettiptext-message"></a>SB \_ GETTIPTEXT 訊息
 
@@ -51,7 +51,7 @@ ms.locfileid: "103844000"
 
 ## <a name="remarks"></a>備註
 
-**安全性警告：** 不當使用此訊息可能會導致您的應用程式發生問題。 例如，如果文字對 *lParam* 緩衝區來說太大，可能會造成緩衝區溢位。 您應該先複習 [安全性考慮： Microsoft Windows 控制項](sec-comctls.md) ，再繼續進行。
+**安全性警告：** 不當使用此訊息可能會導致您的應用程式發生問題。 例如，如果文字對 *lParam* 緩衝區來說太大，可能會造成緩衝區溢位。 您應該先複習[安全性考慮： Microsoft Windows 控制項](sec-comctls.md)，再繼續進行。
 
 ## <a name="requirements"></a>規格需求
 
@@ -59,8 +59,8 @@ ms.locfileid: "103844000"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **SB \_GETTIPTEXTW** (Unicode) 和 **SB \_ GETTIPTEXTA** (ANSI) <br/>               |
 

@@ -4,12 +4,12 @@ ms.assetid: 101e6b59-3791-450c-9dc6-8930bd665a93
 title: 將自訂動作新增至 ProgressBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ff2b6da9e72a37329b26cfce7590bab5f9792db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d83dfeb806eb0ed6f1e251dd48b97911d8e0f583c8b65cb48ef0d04df059ebb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811058"
 ---
 # <a name="adding-custom-actions-to-the-progressbar"></a>將自訂動作新增至 ProgressBar
 

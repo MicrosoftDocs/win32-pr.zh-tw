@@ -4,12 +4,12 @@ description: 元件的最小浮點數。
 ms.assetid: 8EDD5503-76D5-4078-BFBA-1DA9260C6E68
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8791589b77edc66eeab4b48f10f4a9b16b5cb2d9
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: eddabe79f70255cddc0f94302eb8147037e378c3197f3656a6d3369bb68e3e36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672578"
 ---
 # <a name="min-sm4---asm"></a>最小 (sm4-asm) 
 

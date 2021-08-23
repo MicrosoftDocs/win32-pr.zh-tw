@@ -5,19 +5,19 @@ ms.assetid: 3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05878a5243774046c1ca052052d59be9378483d6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 204fff8d97548e79eed3e317b3e14291e7288b55c51384c25ef8b912ad2d6095
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106994964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799460"
 ---
 # <a name="about-nps-extensions"></a>關於 NPS 擴充功能
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
 
- 
+ 
 
 本節說明如何執行 Dll 以擴充 NPS 的功能。 它描述 NPS 和 Dll 之間的互動，並提供有關 Dll 的一些設計考慮。
 
@@ -34,14 +34,14 @@ NPS 提供驗證和授權服務。 NPS 會在內建 NPS 驗證和授權之前呼
 > [!Note]  
 > 當有多個驗證延伸模組 Dll 時，也會略過其餘的延伸模組 Dll。 如需詳細資訊，請參閱 [設定擴充 dll](/windows/desktop/Nps/ias-setting-up-the-extension-and-authorization-dlls) 。
 
- 
+ 
 
 如果驗證延伸模組 DLL 傳回 CONTINUE，封包會前往 NPS 驗證，然後傳送到 NPS 授權。
 
 > [!Note]  
 > 當有多個驗證延伸模組 Dll 時，會在 NPS 驗證之前叫用其餘的驗證延伸模組 Dll。
 
- 
+ 
 
 下列主題會更詳細地說明擴充 Dll：
 
@@ -49,6 +49,6 @@ NPS 提供驗證和授權服務。 NPS 會在內建 NPS 驗證和授權之前呼
 -   [叫用擴充 Dll](/windows/desktop/Nps/ias-authentication-and-authorization-process)
 -   [使用者識別屬性](/windows/desktop/Nps/ias-user-identification-attributes)
 
- 
+ 
 
- 
+ 

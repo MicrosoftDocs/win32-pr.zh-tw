@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103050
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 722b2a6ac168fac2da2b1629f307ab5c4b51ef24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76c1be7ee9228d5fba8d3be56388794b22e65d97642f152c0c94685e2dfa5d5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834738"
 ---
 # <a name="esenttoomanyactiveusersexception-methods"></a>EsentTooManyActiveUsersException 方法
 

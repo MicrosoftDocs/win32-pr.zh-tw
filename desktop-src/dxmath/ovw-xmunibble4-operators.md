@@ -4,12 +4,12 @@ ms.assetid: a0f959a2-b093-42e3-ab64-cc09bd3fc860
 title: XMUNIBBLE4 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 964425f5f2178540b7d9480144616864dc90b619
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 129022bf28c500d2a650ae77c11b6266ace747e2f781f083e3a4585eb5c5ff6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740358"
 ---
 # <a name="xmunibble4-operators"></a>XMUNIBBLE4 運算子
 

@@ -4,12 +4,12 @@ description: 網路管理使用功能檢查和管理連線 (在工作站和伺�
 ms.assetid: ddf1b8dc-f13b-402a-9e4e-e4944a29ac31
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbd2660b911fd87c39b9db10b0dbfea0e47c484c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f61019f6c6e2785f03eb4e2e9a47ed1953e14662c5664dca41465bc83d7c683d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779508"
 ---
 # <a name="use-functions"></a>使用函式
 
@@ -26,7 +26,7 @@ ms.locfileid: "103842639"
 
 
 
- 
+ 
 
 這些函式只適用于 (LAN Manager 工作站) 用戶端的伺服器訊息區。 **NetUseGetInfo** 函數不支援 (DFS) 共用分散式檔案系統。 若要使用不同的網路提供者來抓取共用資源的連接資訊 (WebDAV 或 DFS 共用（例如) ），請使用 [**WNetGetConnection**](/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona) 函式。
 
@@ -44,6 +44,6 @@ ms.locfileid: "103842639"
 -   [**使用 \_ 資訊 \_ 1**](/windows/desktop/api/Lmuse/ns-lmuse-use_info_1)
 -   [**使用 \_ 資訊 \_ 2**](/windows/desktop/api/Lmuse/ns-lmuse-use_info_2)
 
- 
+ 
 
- 
+ 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3eb6331fdf3c494c0df6537712e86b3de0b873da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 190665f2990884ea959976311731d7c553b7c9db89e59faf685f5aefd9b0c6d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732518"
 ---
 # <a name="esentslvfilestaleexception-constructor"></a>EsentSLVFileStaleException 函式
 

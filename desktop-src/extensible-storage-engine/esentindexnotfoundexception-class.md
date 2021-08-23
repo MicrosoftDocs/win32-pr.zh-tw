@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 559716b8d579f8293f09f0e328ef63e813067eef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efe5514814daa0078c4ee0bb033185328cfcfed33f2dda32bfc1f764128ccf22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724408"
 ---
 # <a name="esentindexnotfoundexception-class"></a>EsentIndexNotFoundException 類別
 

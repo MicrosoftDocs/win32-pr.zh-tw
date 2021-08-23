@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: a105025ba22c7e188b8dd20df67f5e8ad28fce01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27e79305295d078912169a2a12a99aa516372486f9b5dcd1997161a030103dee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719248"
 ---
 # <a name="getprintprocessordirectory-function"></a>GetPrintProcessorDirectory 函式
 
@@ -56,7 +56,7 @@ BOOL GetPrintProcessorDirectory(
 *pEnvironment* \[在\]
 </dt> <dd>
 
-以 null 結束的字串指標，指定環境 (例如，Windows x86、Windows IA64 或 Windows x64) 。 如果此參數為 **Null**，則會使用目前的呼叫應用程式和用戶端電腦的環境 (不是目的地應用程式，而列印伺服器) 。
+以 null 結束的字串指標，指定環境 (例如 Windows x86、Windows IA64 或 Windows x64) 。 如果此參數為 **Null**，則會使用目前的呼叫應用程式和用戶端電腦的環境 (不是目的地應用程式，而列印伺服器) 。
 
 </dd> <dt>
 
@@ -70,7 +70,7 @@ BOOL GetPrintProcessorDirectory(
 *pPrintProcessorInfo* \[擴展\]
 </dt> <dd>
 
-接收路徑之緩衝區的指標。 請注意，如果是 Windows Server 2003 SP 1 之前的作業系統，則路徑是伺服器的本機格式，而不是真正的遠端格式。 例如，路徑會被指定為「% Windir% System32 多工 \\ \\ 緩衝處理 \\ Prtprocs \\ % 環境%」，而不是「 \\ \\ ServerName \\ Print $ \\ Prtprocs \\ % 環境%」，即使是針對遠端伺服器呼叫也是一樣。 若是 Windows Server 2003 SP 1 和更新版本的作業系統，則會傳回真正的遠端路徑。
+接收路徑之緩衝區的指標。 請注意，如果是 Windows server 2003 SP 1 之前的作業系統，則路徑是伺服器的本機格式，而不是真正的遠端格式。 例如，路徑會被指定為「% Windir% System32 多工 \\ \\ 緩衝處理 \\ Prtprocs \\ % 環境%」，而不是「 \\ \\ ServerName \\ Print $ \\ Prtprocs \\ % 環境%」，即使是針對遠端伺服器呼叫也是一樣。 若為作業系統 Windows Server 2003 SP 1 和更新版本，則會傳回真正的遠端路徑。
 
 </dd> <dt>
 
@@ -109,7 +109,7 @@ BOOL GetPrintProcessorDirectory(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **GetPrintProcessorDirectoryW** (Unicode) 和 **GetPrintProcessorDirectoryA** (ANSI) <br/>           |

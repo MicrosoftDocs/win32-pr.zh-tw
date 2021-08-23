@@ -4,12 +4,12 @@ ms.assetid: 882a01f2-8f5c-4640-a8ac-f4f5860d7ed1
 title: 媒體會話事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0e128fc5e11f70fe47d02356ce44629b98bfdfe
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: bffecb3f4e3f4b3a3b30be95fcc45adcb81c1a84dd04ed8cf637bad759512a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106982146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724008"
 ---
 # <a name="media-session-events"></a>媒體會話事件
 

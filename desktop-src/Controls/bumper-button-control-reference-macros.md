@@ -4,12 +4,12 @@ description: 按鈕控制項宏
 ms.assetid: ca4b0301-ede8-45c8-88b6-2fb2ee967d8a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9df33f93cf97c516ff83bd7fe6baa34740e553e0
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b400298d73ca130d05739f595f4835e273c8a34bf70a613985c053a0ba152955
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699948"
 ---
 # <a name="button-control-macros"></a>按鈕控制項宏
 

@@ -6,12 +6,12 @@ keywords:
 - CallFailureLoggingLevel 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4432f21f333d5aa5f8b3cebbd6f0fa339cf0f13a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 819d132a8cd0f1741eb3b825a17f02387b200e80f2dba6913821e77f9a0913cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793818"
 ---
 # <a name="callfailurelogginglevel"></a>CallFailureLoggingLevel
 
@@ -21,7 +21,7 @@ ms.locfileid: "103839771"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   CallFailureLoggingLevel = value
+   CallFailureLoggingLevel = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -37,7 +37,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -46,9 +46,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 [設定 COM 應用程式的安全性](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

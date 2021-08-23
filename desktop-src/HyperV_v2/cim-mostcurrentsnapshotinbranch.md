@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 078a7c9f1669a2aa0449dce01022eba0eadcb2c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de94bf0e6f88240ac89eb62de881540f5c747b7a1d0ec13307e7e5d35fe53da4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694968"
 ---
 # <a name="cim_mostcurrentsnapshotinbranch-class"></a>CIM \_ MostCurrentSnapshotInBranch 類別
 

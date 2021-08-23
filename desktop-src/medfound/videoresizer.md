@@ -4,12 +4,12 @@ ms.assetid: 4acd6366-1abf-43f3-b6c9-4ea17a335cec
 title: " (Wmcodecdsp 的影片尺寸調整) "
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7826f21cadc6d30bc2b8b04bbcc741c2bf31bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58d26dcc53baf38336656d870acc5583066e0816a0bf963217db1da54513ee18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721318"
 ---
 # <a name="video-resizer-dsp"></a>影片尺寸調整 DSP
 
@@ -29,7 +29,7 @@ CLSID \_ CResizerDMO
 
 ## <a name="formats"></a>格式
 
-影片調整器 DSP 在作為 DirectX 媒體物件時，支援下列輸入/輸出媒體子類型 (的) 。
+影片調整器 DSP 可在作為 DirectX 媒體物件時，支援下列輸入/輸出媒體子類型 (DMO) 。
 
 -   MEDIASUBTYPE \_ IYUV
 -   MEDIASUBTYPE \_ YUY2
@@ -87,9 +87,9 @@ CLSID \_ CResizerDMO
 
 ## <a name="remarks"></a>備註
 
-影片調整器 DSP 會實作為可做為 www.contoso.com 或 MFT 的 COM 物件。 此物件具有單一類別識別碼 (CLSID) ，不論它是否可作為一或一個 MFT。 如需有關 DSP 作為一或是 MFT 之時機的詳細資訊，請參閱 [數位訊號處理器](windowsmediadigitalsignalprocessors.md)。
+影片調整器 DSP 會實作為 COM 物件，該物件可以作為 DMO 或 MFT。 物件具有單一類別識別碼 (CLSID) ，不論它是否作為 DMO 或 MFT。 如需有關 DSP 作為 DMO 或 MFT 之時機的詳細資訊，請參閱[數位訊號處理器](windowsmediadigitalsignalprocessors.md)。
 
-針對 RGB 媒體子類型 (Guid) 的全域唯一識別碼，會根據 DSP 是以 SQL-DMO 或 MFT 的方式而有所不同。 非 RGB 媒體子類型的 Guid 是相同的，不論 DSP 是以 SQL-DMO 或 MFT 作為的。 如需表示媒體子類型之 Guid 的詳細資訊，請參閱 [影片子類型 guid](video-subtype-guids.md)。
+RGB 媒體子類型 (guid) 的全域唯一識別碼，會根據 DSP 是否做為 DMO 或 MFT 而有所不同。 非 RGB 媒體子類型的 guid 相同，無論 DSP 是否做為 DMO 或 MFT。 如需表示媒體子類型之 Guid 的詳細資訊，請參閱 [影片子類型 guid](video-subtype-guids.md)。
 
 這個 DSP 可以在影片影像上執行裁剪和縮放。 輸出類型的格式必須符合輸入類型的格式。 DSP 不會執行色彩空間轉換。
 
@@ -115,7 +115,7 @@ DSP 會複製來源矩形所定義之來源影像的部分，並將它伸展或�
 
 幾何光圈、最小顯示光圈和平移/掃描區域不會影響 DSP 調整影片的大小。 不過，它們可能會影響下游元件解讀影片框架的方式。 尤其是，增強型影片轉譯器 (EVR) 在計算圖片外觀比例和顯示區域時，會使用這些值。
 
-如果您使用媒體基礎媒體類型，則可以直接在輸出媒體類型中設定幾何光圈、最小顯示光圈和平移/掃描區域。 否則，如果您使用的是 SQL-DMO 媒體類型，請使用屬性進行設定。
+如果您使用媒體基礎媒體類型，則可以直接在輸出媒體類型中設定幾何光圈、最小顯示光圈和平移/掃描區域。 否則，如果您使用 DMO 媒體類型，請使用屬性進行設定。
 
 如需詳細資訊，請參閱下列主題：
 
@@ -129,8 +129,8 @@ DSP 會複製來源矩形所定義之來源影像的部分，並將它伸展或�
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vidreszr.dll</dt> </dl> |
 

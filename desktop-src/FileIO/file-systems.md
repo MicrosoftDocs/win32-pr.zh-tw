@@ -3,12 +3,12 @@ description: 管理目錄專案資料表、目錄控制碼、重新分析點的�
 title: 本機檔案系統
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92f624ef1999b81adb63ba1d5b7e349259cabd53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77aa77c1029ce4dc19529b148dde1798084acf91afcf6e4435adf8fb2ab266f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696228"
 ---
 # <a name="local-file-systems"></a>本機檔案系統
 
@@ -18,7 +18,7 @@ ms.locfileid: "103692256"
 
 Windows 支援的所有檔案系統都有下列儲存元件：
 
--   卷。 *磁片* 區是目錄和檔案的集合。
+-   磁碟區。 *磁片* 區是目錄和檔案的集合。
 -   目錄。 *目錄* 是目錄和檔案的階層式集合。
 -   檔案 檔案 *是相關資料的邏輯* 群組。
 
@@ -29,7 +29,7 @@ Windows 支援的所有檔案系統都有下列儲存元件：
 | 主題                                                                | 描述                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [目錄管理](directory-management.md)<br/>          | *目錄* 是目錄和檔案的階層式集合。 單一目錄中可包含之檔案數目的唯一條件約束，是目錄所在磁片的實體大小。<br/> |
-| [磁碟管理](disk-management.md)<br/>                    | 硬碟是電腦內的 *固定* 磁片，可儲存並提供相對快速的大量資料存取。 這是最常用於 Windows 的儲存體類型。 系統也支援卸載式媒體。<br/>    |
+| [磁碟管理](disk-management.md)<br/>                    | 硬碟是電腦內的 *固定* 磁片，可儲存並提供相對快速的大量資料存取。 這是最常搭配 Windows 使用的儲存體類型。 系統也支援卸載式媒體。<br/>    |
 | [檔案管理](file-management.md)<br/>                    | *File 物件* 提供資源的表示 (實體裝置或實體裝置上的資源，可由 i/o 系統管理) 。<br/>                                                            |
 | [交易式 NTFS (TxF) ](transactional-ntfs-portal.md)<br/> | 交易式 NTFS (TxF) 允許在一筆交易中執行 NTFS 檔案系統磁片區上的檔案作業。<br/>                                                                                                                 |
 | [磁碟區管理](volume-management.md)<br/>                | 檔案系統中的最高層級組織是 *磁片* 區。 檔案系統位於磁片區上。<br/>                                                                                                                        |

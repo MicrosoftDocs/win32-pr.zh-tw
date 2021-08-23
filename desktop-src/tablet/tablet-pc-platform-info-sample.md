@@ -4,12 +4,12 @@ ms.assetid: 0b379dc9-a86f-40c0-9403-d9c9091ca8c3
 title: Tablet PC 平臺資訊範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d815f21233b1edcc90d456df68b3736c170a5fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1731fc30e0405b2702bb45d0a9d0556b861ad09994ac683d739da33afe018088
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819978"
 ---
 # <a name="tablet-pc-platform-info-sample"></a>Tablet PC 平臺資訊範例
 
@@ -21,7 +21,7 @@ ms.locfileid: "106990438"
 
 ## <a name="components"></a>單元
 
-使用可轉散發合併模組，Tablet PC 平臺 API 的某些部分可能會安裝在 Vista 和 Windows XP Professional 的非平板電腦版本上。 GetSystemMetrics 呼叫只會指出已安裝 Windows XP Tablet PC Edition。 應用程式應該一律判斷指定的元件是否可用。 若要判斷是否已安裝 API 的元件，正確的方式是嘗試建立物件或控制項的實例，並在嘗試使用它之前檢查它是否存在，如下列範例所示。
+使用可轉散發合併模組，tablet PC 平臺 API 的某些部分可能會安裝在非平板電腦版本的 Vista 和 Windows XP Professional 上。 GetSystemMetrics 呼叫只會指出已安裝 Windows XP Tablet PC Edition。 應用程式應該一律判斷指定的元件是否可用。 若要判斷是否已安裝 API 的元件，正確的方式是嘗試建立物件或控制項的實例，並在嘗試使用它之前檢查它是否存在，如下列範例所示。
 
 
 ```C++

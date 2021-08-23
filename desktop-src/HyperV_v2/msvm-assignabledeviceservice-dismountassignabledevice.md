@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 53036cd09113430d1045c8e9eae7a8d782b35960
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9b602a26f789b0d7ccded487bafe8c0295133f6e4dd9457d51ce33ee24a8d0c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693478"
 ---
 # <a name="dismountassignabledevice-method-of-the-msvm_assignabledeviceservice-class"></a>Msvm AssignableDeviceService 類別的 DismountAssignableDevice 方法 \_
 

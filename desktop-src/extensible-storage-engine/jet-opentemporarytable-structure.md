@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 51ae9026098e82538940bde2ef182ba0a7a11c80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b17c16e1d0a3c5cd2eb42151df415487750c44f0a8a2976cb44262b2740ab4d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720278"
 ---
 # <a name="jet_opentemporarytable-structure"></a>JET_OPENTEMPORARYTABLE 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_opentemporarytable-structure"></a>JET_OPENTEMPORARYTABLE 結構
 
 **JET_OPENTEMPORARYTABLE** 結構包含可輕鬆擴充的 **JET_OPENTEMPORARYTABLE** 函式參數集合。 此結構是與 [JET_TABLECREATE](./jet-tablecreate-structure.md) 結構相等的臨時表。
 
-**Windows Vista：** 在 Windows Vista 中引進 **JET_OPENTEMPORARYTABLE** 結構。
+**Windows Vista：** Windows Vista 引進了 **JET_OPENTEMPORARYTABLE** 結構。
 
 ```cpp
     typedef struct tagJET_OPENTEMPORARYTABLE {
@@ -122,7 +122,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>JET_bitTTUnique</p></td>
 <td><p>會從臨時表的最後一組記錄中，移除具有重複索引鍵的記錄。</p>
-<p>在 Windows Server 2003 之前，資料庫引擎一律會假設這個選項有作用，因為所有叢集索引也必須是主鍵，因此必須是唯一的。 從 Windows Server 2003 開始，當同時指定 JET_bitTTForwardOnly 選項時，現在可以建立不會移除重複專案的臨時表。</p>
+<p>在 Windows Server 2003 之前，資料庫引擎一律會假設這個選項有作用，因為所有叢集索引也必須是主鍵，因此必須是唯一的。 從 Windows Server 2003 開始，當也指定了 JET_bitTTForwardOnly 選項時，現在可以建立不會移除重複專案的臨時表。</p>
 <p>一般情況下，不可能知道哪些複製成功，以及哪些重複專案會被捨棄。 不過，當要求 JET_bitTTErrorOnDuplicateInsertion 選項時，具有要插入至臨時表之指定索引鍵的第一個記錄一律會成功。</p></td>
 </tr>
 <tr class="odd">
@@ -152,7 +152,7 @@ _**適用于：** Windows |Windows Server_
 <td><p>JET_bitTTForwardOnly</p></td>
 <td><p>只有當臨時表管理員可以使用針對中繼查詢結果優化的執行時，才會建立臨時表。 如果臨時表的任何特性會防止使用這項優化，則作業會失敗並 JET_errCannotMaterializeForwardOnlySort。</p>
 <p>此選項的副作用是允許臨時表包含具有重複索引鍵的記錄。 如需詳細資訊，請參閱 JET_bitTTUnique。</p>
-<p><strong>Windows Server 2003：  </strong>此選項僅適用于 Windows Server 2003 和更新版本。</p></td>
+<p><strong>Windows Server 2003：</strong>此選項僅適用于 Windows Server 2003 和更新版本。</p></td>
 </tr>
 </tbody>
 </table>
@@ -170,7 +170,7 @@ _**適用于：** Windows |Windows Server_
 
 您可以設定最大索引鍵大小來控制如何截斷金鑰。 金鑰截斷很重要，因為它可能會影響資料列視為相異的時間。
 
-如果此參數設定為0或 JET_cbKeyMostMin (255) 那麼，最大金鑰大小及其語義將會與 Windows Server 2003 和舊版所支援的最大金鑰大小保持一致。 此參數也可以設定為較大的值，做為實例 (JET_paramDatabasePageSize) 之資料庫頁面大小的功能。 如需詳細資訊，請參閱 JET_paramKeyMost。
+如果此參數設定為0或 JET_cbKeyMostMin (255) 則最大的索引鍵大小及其語義將維持與 Windows Server 2003 和舊版所支援的最大金鑰大小相同。 此參數也可以設定為較大的值，做為實例 (JET_paramDatabasePageSize) 之資料庫頁面大小的功能。 如需詳細資訊，請參閱 JET_paramKeyMost。
 
 **cbVarSegMac**
 
@@ -215,4 +215,4 @@ _**適用于：** Windows |Windows Server_
 [JET_COLUMNID](./jet-columnid.md)  
 [JET_TABLEID](./jet-tableid.md)  
 [JetOpenTemporaryTable](./jetopentemporarytable-function.md)  
-[可擴充儲存引擎系統參數](./extensible-storage-engine-system-parameters.md)
+[可擴充的儲存體引擎系統參數](./extensible-storage-engine-system-parameters.md)

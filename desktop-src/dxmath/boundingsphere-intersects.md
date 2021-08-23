@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e6b64cd56a6e222ad9f245c6d9e35b48edbf96ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 968eccc8488dbf39838ffcf55b98d199bc7e0574d283169dc23ce25f6e60b757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740778"
 ---
 # <a name="boundingsphereintersects-methods"></a>BoundingSphere 交集方法
 

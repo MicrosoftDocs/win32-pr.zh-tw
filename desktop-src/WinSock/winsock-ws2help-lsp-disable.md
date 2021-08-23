@@ -12,17 +12,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6d785bfbd96d35717be7bbf76dab8f28f41c9fc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 578479710856e149760202699be13d4b30b50709f6ea9b389e055793a8b0ca94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733128"
 ---
 # <a name="winsock_ws2help_lsp_disable-event"></a>WINSOCK \_ WS2HELP \_ LSP \_ 停用事件
 
 > [!Note]  
-> 已淘汰分層服務提供者。 從 Windows 8 和 Windows Server 2012 開始，請使用 [Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md)。
+> 已淘汰分層服務提供者。 從 Windows 8 和 Windows Server 2012 開始，請使用[Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md)。
 
  
 
@@ -86,8 +86,8 @@ Winsock **\_ WS2HELP \_ lsp \_ 停** 用事件是在 winsock 類別目錄中停�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

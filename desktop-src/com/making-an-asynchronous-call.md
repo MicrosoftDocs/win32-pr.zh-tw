@@ -4,12 +4,12 @@ description: 進行同步呼叫的程式很簡單，用戶端會在伺服器物�
 ms.assetid: ab65d38d-836a-48d4-87c1-8812cbc8ff92
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22dcd7a6509cd07e12357a96222baa04f9e4c942
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 384a153b826e570920fca2a92f5b53ed2079c561cbcda899b793cef1f39473bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755988"
 ---
 # <a name="making-an-asynchronous-call"></a>進行非同步呼叫
 
@@ -56,7 +56,7 @@ ms.locfileid: "104382997"
 > [!Note]  
 > 如果用戶端和伺服器物件位於相同的單元中，則不保證對 [**ICallFactory：： CreateCall**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall) 的呼叫會成功。 如果伺服器物件不支援對特定介面進行非同步呼叫，則嘗試建立呼叫物件將會失敗，而且用戶端必須使用同步介面。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -71,6 +71,6 @@ ms.locfileid: "104382997"
 [模擬和非同步呼叫](impersonation-and-asynchronous-calls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

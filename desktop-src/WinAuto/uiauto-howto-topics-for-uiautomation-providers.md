@@ -4,12 +4,12 @@ description: 本章節包含的程式碼範例會示範為 UI 元素撰寫 Micro
 ms.assetid: 49a2c425-76a9-4cb4-8223-c7c085facff3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33229cdf59b21c739890e86bdd56f481ce033344
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72bf290be21a613ebd8c7e622a776f6e99cc1dacbaebec54453b2865f6d2cc75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759178"
 ---
 # <a name="how-to-topics-for-ui-automation-providers"></a>消費者介面自動化提供者的 How-To 主題
 
@@ -31,9 +31,9 @@ ms.locfileid: "104372094"
 [消費者介面自動化提供者程式設計人員指南](uiauto-providerportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

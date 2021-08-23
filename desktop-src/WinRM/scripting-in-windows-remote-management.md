@@ -5,7 +5,7 @@ ms.assetid: fda2042a-8fca-4cd8-bb55-fd1c3591921e
 ms.tgt_platform: multiple
 keywords:
 - Windows 遠端管理中的腳本
-- Windows 遠端管理，腳本
+- Windows遠端系統管理，腳本
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 75af10fea03853de99c884eda0a74ce340683b49
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3c10d36420b2826162a6ed5e3fb6bf69408a74032faafac75c84c25a754cf534
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795428"
 ---
 # <a name="scripting-in-windows-remote-management"></a>Windows 遠端管理中的腳本
 
@@ -26,17 +26,17 @@ ms.locfileid: "104092749"
 
 Windows 遠端管理中的 WinRM 腳本 API 可支援所有 WS-Management 的通訊協定作業（其中一個除外）。 它不允許訂閱事件。 若要訂閱來自 BMC 系統事件記錄檔的事件，您必須使用 >wecutil 或 Wevtutil 命令列工具。 如需詳細資訊，請參閱[事件](events.md)。
 
-WinRM 腳本 API 是由 Winrm.vbs 的命令列工具所呼叫，它是以 Visual Basic Scripting Edition (VBScript) 撰寫的。 Winrm.vbs 提供如何使用 [WinRM 腳本 API](winrm-scripting-api.md)的範例。
+WinRM 腳本 API 是由 Winrm.vbs 的命令列工具所呼叫，它是以 Visual Basic 腳本撰寫版 (VBScript) 撰寫的。 Winrm.vbs 提供如何使用 [WinRM 腳本 API](winrm-scripting-api.md)的範例。
 
 ## <a name="using-wsman-compared-to-using-wmi-scripting"></a>相較于使用 WMI 腳本，使用 WSman
 
 WMI 會透過 DCOM 連接到遠端電腦，這需要在 [遠端電腦上連線至 WMI](/windows/desktop/WmiSdk/connecting-to-wmi-on-a-remote-computer)所述的設定。 WinRM 不會使用 DCOM 來連接遠端電腦。 相反地，WS-Management 的通訊協定會傳送 SOAP 訊息，而服務會針對 HTTP 使用單一端口，並使用埠進行 HTTPS 傳輸。
 
-不同于 **winrm** 命令列工具，腳本必須提供傳遞給 WS-Management 通訊協定訊息所需的 XML。 它們也必須提供 Uri。 如需詳細資訊，請參閱 [資源 uri](resource-uris.md) 和 [Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)。
+不同于 **winrm** 命令列工具，腳本必須提供傳遞給 WS-Management 通訊協定訊息所需的 XML。 它們也必須提供 Uri。 如需詳細資訊，請參閱[資源 uri](resource-uris.md)和[Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)。
 
 WMI 腳本 API 適用于物件（例如 [**Win32 \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk)的實例），代表電腦上的資源。 此 WMI 類別定義于 [*受控物件格式 (MOF)*](/windows/desktop/WmiSdk/gloss-m) 檔中，這些檔案會以二進位格式儲存在 WMI 存放庫中。 在 WMI 中，單一資源或查詢有多個實例的 Get 作業會傳回 WMI 物件。
 
-WinRM 腳本不會傳回物件，而是 XML 文字的資料流程。 如需詳細資訊，請參閱 [Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)。
+WinRM 腳本不會傳回物件，而是 XML 文字的資料流程。 如需詳細資訊，請參閱[Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)。
 
 ## <a name="displaying-xml-output-from-winrm-scripts"></a>顯示 WinRM 腳本的 XML 輸出
 
@@ -168,6 +168,6 @@ WinRM 腳本的輸出會以 Unicode 編碼。 如果您建立 [FileSystemObject]
 [DOM 參考](/previous-versions/windows/desktop/ms764730(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

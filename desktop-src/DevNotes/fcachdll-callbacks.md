@@ -4,12 +4,12 @@ ms.assetid: 59521B1E-6124-44FB-8C11-A955EE3D6A95
 title: FCachDLL 回呼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ba98aac6c1660f3774c05bbe1d98b0fa7d456e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4f232deec1ad3ca77c1b68ea60df9587170c97313ad8b8154fff74480195afc7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758608"
 ---
 # <a name="fcachdll-callbacks"></a>FCachDLL 回呼
 

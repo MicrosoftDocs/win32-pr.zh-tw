@@ -4,17 +4,17 @@ description: 索引標籤可讓您在個別標記的頁面上顯示相關的資�
 ms.assetid: d90228ce-aa95-4359-be8e-ea2014d71ae6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: d6922865abcaa060cc2e4b13e4768d57bcd17aa8
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 167b74bab228398eb0334452a5eacd359578d5bfc01efecb52ccafbcd90d376d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119818979"
 ---
 # <a name="tabs"></a>定位點
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 索引標籤可讓您在個別標記的頁面上顯示相關的資訊。
 
@@ -135,14 +135,14 @@ ms.locfileid: "111524472"
 
 -   **請勿在索引標籤頁上使用捲軸。** 索引標籤的功能類似于捲軸，以增加視窗的有效區域。 其中一個機制應該就已足夠。
 -   **使用簡潔的索引標籤標籤。** 使用可清楚描述頁面內容的一或兩個字組。 較長的標籤會耗用螢幕空間，特別是當標籤已當地語系化時。
--   **使用有意義的特定索引標籤標籤。** 避免可套用至任何索引標籤的一般索引標籤標籤，例如 [一般]、[Advanced] 或 [設定]。
+-   **使用有意義的特定索引標籤標籤。** 避免可能套用至任何索引標籤的一般索引標籤標籤，例如 [一般]、[Advanced] 或 [設定]。
 -   **如果索引標籤不會套用至目前的內容，而且使用者不會預期它，請將它移除。** 這麼做可簡化 UI，且使用者不會錯過。
 
     **不正確：**
 
     ![選項視窗的螢幕擷取畫面，索引標籤名稱為暗灰色 ](images/ctrl-tabs-image12.png)
 
-    在此範例中，使用 Microsoft Word 作為電子郵件編輯器時，會不正確地停用 [檔案位置] 索引標籤。 由於使用者不會預期會在此內容中查看或變更檔案位置，而不是停用此索引標籤。
+    在此範例中，當 Microsoft Word 當做電子郵件編輯器使用時，會不正確地停用 [檔案位置] 索引標籤。 由於使用者不會預期會在此內容中查看或變更檔案位置，而不是停用此索引標籤。
 
 -   **如果索引標籤不適用於目前的內容，使用者可能會預期：**
 

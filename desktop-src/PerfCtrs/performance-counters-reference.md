@@ -4,12 +4,12 @@ ms.assetid: 8600f48f-0ef5-4ac2-bdb9-6d9700cae306
 title: 效能計數器參考
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: e716d44c08a847f7f64dc07bc4382faa9adf8f0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca2d7f0593aff143ab4612c5ed9489bb8a48c76e7726d2289f8387fcb38a257e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775298"
 ---
 # <a name="performance-counters-reference"></a>效能計數器參考
 
@@ -21,7 +21,7 @@ ms.locfileid: "106971798"
 - [效能計數器列舉](performance-counter-enumerations.md)
 - [效能計數器類型](performance-counters-types.md)
 - [效能資料協助程式錯誤碼](pdh-error-codes.md)
-- [SQL 記錄檔架構](sql-log-file-schema.md)
+- [SQL記錄檔架構](sql-log-file-schema.md)
 
 本節也會說明：
 

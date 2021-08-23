@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 58c73f392ab6e380c29374aa8116918e788e1ddd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: da5cd756e3f0a56aa51f5de7ef388973d25542853ca29ed4e247ed991ac45698
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700248"
 ---
 # <a name="reset-method-of-the-cim_cachememory-class"></a>CIM CacheMemory 類別的 Reset 方法 \_
 

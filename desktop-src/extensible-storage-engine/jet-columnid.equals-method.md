@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 67a60002a1cb880ec6a987894e14f8941c23651a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffa3b2d79de464b05beca0aee184f718bfa6a2c0ba5e8a9605387c7da6a7d4e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780748"
 ---
 # <a name="jet_columnidequals-method"></a>JET_COLUMNID。Equals 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "103851947"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

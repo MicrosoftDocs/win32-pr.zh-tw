@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3620b3c8ffb1315a4d34eb0b4b2497c1cb3d805
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f010224e5339ef89e05d1d96630dbedc0cb453eb8dafb4dd5e9c6edb3c24cc00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811368"
 ---
 # <a name="msc_ver-switch"></a>/msc \_ ver 參數
 
@@ -42,9 +42,9 @@ midl /msc_ver version_number
 
 特別是，1100或更高版本的版本值會導致 MIDL 編譯器使用 **\_ \_ declspec (uuid () )** 指示詞來產生程式碼。 它也會啟用使用 **\_ \_ declspec (selectany)** 和 **\_ \_ declspec (novtable)** 指示詞的宏。
 
- 
+ 
 
- 
+ 
 
 
 

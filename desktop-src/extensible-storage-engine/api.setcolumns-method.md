@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f4ed75c668c0000c1d01d521a57ead46055bc8e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7d1fa66826fc32c02d8a33fb42d86e1ad0ca62941c52c8cc432fadb10a99466
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738628"
 ---
 # <a name="apisetcolumns-method"></a>SetColumns 方法
 

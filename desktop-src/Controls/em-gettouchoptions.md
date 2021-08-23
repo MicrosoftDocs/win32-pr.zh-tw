@@ -3,7 +3,7 @@ title: 'EM_GETTOUCHOPTIONS 訊息 (Richedit .h) '
 description: 抓取與 rich edit 控制項相關聯的觸控選項。
 ms.assetid: 1D367818-5625-4A5A-A7A1-330FED516990
 keywords:
-- EM_GETTOUCHOPTIONS message Windows 控制項
+- EM_GETTOUCHOPTIONS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812d37de1972c6da205944d9913dc3fa046c205d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f4771cd11fd8aaf16925c97a3242918ba8f7b56e4e580a6f3cd70672a134399b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799988"
 ---
 # <a name="em_gettouchoptions-message"></a>EM \_ GETTOUCHOPTIONS 訊息
 
@@ -71,8 +71,8 @@ ms.locfileid: "104025335"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

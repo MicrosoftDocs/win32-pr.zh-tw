@@ -4,12 +4,12 @@ ms.assetid: 1ef522a4-9786-427c-a18a-ae1f0a05cc50
 title: 郵筒名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf03718a7e603fe891e00d82c2b0b06fab63f8f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6f96cc5300b3472abe7d6e824266bd0abd0e7b668e38f9f3462eee3cbf3dfb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716898"
 ---
 # <a name="mailslot-names"></a>郵筒名稱
 

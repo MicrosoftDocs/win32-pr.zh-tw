@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9effect.h
-ms.openlocfilehash: 35dd483a983f17371d6a77e6c020b3a45d9e9360
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7e835c0eac067825942568464df8d5d345a06b530b71b7eaf7f319eae5f5d366
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119630728"
 ---
 # <a name="d3dxtechnique_desc-structure"></a>D3DXTECHNIQUE \_ DESC 結構
 

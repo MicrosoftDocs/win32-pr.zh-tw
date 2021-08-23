@@ -4,12 +4,12 @@ ms.assetid: 0348684f-aebd-4d2d-a69b-85fea551c0cd
 title: 定義應用程式的角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f8e46eb2cb857a2b2dee2aabe41cb571e12ed98
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7cc4b4fb6aaee557eea69dec405254925cd669d18ac73cdea229f548145d8701
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637708"
 ---
 # <a name="defining-roles-for-an-application"></a>定義應用程式的角色
 
@@ -23,7 +23,7 @@ ms.locfileid: "106991632"
 
 3.  在 [ **角色**] 對話方塊中，于提供的方塊中輸入新角色的名稱。
 
-4.  按一下 [確定]  。
+4.  按一下 [確定]。
 
 > [!Note]  
 > 將角色新增至應用程式之後，您必須確定將角色指派給適當的元件、介面和方法。 否則，如果已選擇並啟用以角色為基礎的安全性，而且已新增但未指派角色，則對應用程式的所有呼叫都會失敗。 如需詳細資訊，請參閱 [將角色指派給元件、介面或方法](assigning-roles-to-components--interfaces--or-methods.md)。

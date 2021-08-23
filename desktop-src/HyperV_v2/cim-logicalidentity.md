@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 71382910dc195c0fa6ef2456e1811d66d90a41e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9520817a2099901d1b6e61ab37ccacf1c2e2a61e76c57a9f327bdef32df63285
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695448"
 ---
 # <a name="cim_logicalidentity-class-hyper-v-management"></a>CIM_LogicalIdentity 類別 (Hyper-v 管理) 
 

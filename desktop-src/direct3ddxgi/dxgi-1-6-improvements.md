@@ -4,12 +4,12 @@ ms.assetid: C68EC437-7600-43A8-8DEA-5A6AEE75D5AA
 title: DXGI 1.6 改進
 ms.topic: article
 ms.date: 12/04/2019
-ms.openlocfilehash: 03961b4f9af50675ee157c4840b9ed744c54f423
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 748878cc041b0987a013608556cd9ec30aaf638e0fcac1ef9386a4675f57ef0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727578"
 ---
 # <a name="dxgi-16-improvements"></a>DXGI 1.6 改進
 
@@ -17,20 +17,20 @@ ms.locfileid: "104510257"
 
 ## <a name="windows-10-october-2018-update"></a>Windows 10 2018 年 10 月更新
 
-這些 Api 已新增至 Windows 10 版本 1809 (10.0;組建 17763) &mdash; 也稱為 Windows 10 2018 年10月更新。
+這些 api 已新增至 Windows 10 版本 1809 (10.0;組建 17763) &mdash; 也稱為 Windows 10 2018 年10月更新。
 
 - [**IDXGIFactory7**](/windows/win32/api/dxgi1_6/nn-dxgi1_6-idxgifactory7) 介面和其方法。
 
 ## <a name="windows-10-april-2018-update"></a>Windows 10 2018 4 月更新
 
-這些 Api 已針對 Windows 10，1803版 (10.0;組建 17134) &mdash; 也稱為 Windows 10 2018 年4月更新。
+這些 api 已針對 Windows 10，1803版 (10.0;組建 17134) &mdash; 也稱為 Windows 10 2018 年4月更新。
 
 - [**DXGI_GPU_PREFERENCE**](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_gpu_preference) 列舉。
 - [**IDXGIFactory6**](/windows/win32/api/dxgi1_6/nn-dxgi1_6-idxgifactory6) 介面和其方法。
 
 ## <a name="windows-10-fall-creators-update"></a>Windows 10 Fall Creators Update
 
-若為 Windows 10，1709版 (10.0;組建 16299) &mdash; 也稱為 Windows 10 Fall Creators Update &mdash; 這些常數已新增至 [**DXGI_ADAPTER_FLAG3**](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_adapter_flag3) 列舉。 
+若為 Windows 10，1709版 (10.0;組建 16299) &mdash; 也稱為 Windows 10 Fall Creators Update &mdash; 這些常數已新增至 [**DXGI_ADAPTER_FLAG3**](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_adapter_flag3)列舉。 
 
 - **DXGI_ADAPTER_FLAG3_SUPPORT_MONITORED_FENCES**
 - **DXGI_ADAPTER_FLAG3_SUPPORT_NON_MONITORED_FENCES**
@@ -38,7 +38,7 @@ ms.locfileid: "104510257"
 
 ## <a name="windows-10-creators-update"></a>Windows 10 Creators Update
 
-若為 Windows 10，1703版 (10.0;組建 15063) &mdash; 也稱為 Windows 10 Creators Update &mdash; 下列功能已新增至 Microsoft DIRECTX GRAPHIC INFRASTRUCTURE (DXGI) 1.6 以偵測 HDR 顯示器。
+若為 Windows 10，1703版 (10.0;組建 15063) &mdash; 也稱為 Windows 10 Creators Update &mdash; 下列功能已新增至 Microsoft DirectX Graphic Infrastructure (DXGI) 1.6 以偵測 HDR 顯示器。
 
 ### <a name="high-dynamic-range-hdr-detection"></a>高動態範圍 (HDR) 偵測
 

@@ -4,12 +4,12 @@ description: 不執行任何動作。
 ms.assetid: 0FFCBD8D-F67F-418B-B37A-0428DA27A778
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99b5653750e66071883a8843b92c25f867274cfd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f26b705f5da7c00ad2a0a72f73b4beee7734180f7667eee7817cc833f83ddf21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854049"
 ---
 # <a name="nop-sm4---asm"></a>nop (sm4-asm) 
 
@@ -22,7 +22,7 @@ ms.locfileid: "104990803"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -36,7 +36,7 @@ ms.locfileid: "104990803"
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -49,13 +49,13 @@ ms.locfileid: "104990803"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -64,9 +64,9 @@ ms.locfileid: "104990803"
 [著色器模型4元件 (DirectX HLSL) ](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

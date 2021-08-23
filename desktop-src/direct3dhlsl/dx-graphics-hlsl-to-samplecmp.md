@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6991bead4bfc42451c26fe5476b4c114626eb7e8
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: a606ad9081f1ca1fdc4261d862ea6edfef4460989bb6d51d839d85f5797c1466
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104991050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854638"
 ---
 # <a name="samplecmp-directx-hlsl-texture-object"></a>SampleCmp (DirectX HLSL 材質物件) 
 

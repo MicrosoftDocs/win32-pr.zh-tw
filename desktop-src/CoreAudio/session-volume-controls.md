@@ -4,12 +4,12 @@ ms.assetid: e6d112f9-08c9-4d95-b37b-267beebd0d7f
 title: 會話磁片區控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: add29b18b39c942c54926190ef9c0f85e447bb88
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cfe45dce825dedd116c8f9c65684ac665eb6483f95dec3d247071f66408e8ed2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758888"
 ---
 # <a name="session-volume-controls"></a>會話磁片區控制項
 

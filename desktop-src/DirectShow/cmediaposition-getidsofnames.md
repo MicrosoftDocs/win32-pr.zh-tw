@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 26a348e58fa84aa4134ce9f2ea756874b9ce2724
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: eebd32638afdf957024f54f6a601e95bae274dc4ab9a8265e9a618d635a23530
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634791"
 ---
 # <a name="cmediapositiongetidsofnames-method"></a>CMediaPosition. GetIDsOfNames 方法
 
@@ -87,7 +87,7 @@ HRESULT GetIDsOfNames(
 
 
 
-| 傳回碼                                                                                         | Description                                         |
+| 傳回碼                                                                                         | 描述                                         |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                | 成功。<br/>                                 |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl>       | 記憶體不足。<br/>                     |

@@ -1,19 +1,19 @@
 ---
 title: 字型控制項
-description: 為了在需要文字處理和文字編輯功能的應用程式中簡化字型支援的整合和設定，Windows 功能區架構會提供特製化的字型控制項，以公開字型名稱、樣式、點大小和效果等範圍的字型屬性。
+description: 為了在需要文字處理和文字編輯功能的應用程式中簡化字型支援的整合和設定，Windows 的功能區架構會提供特製化的字型控制項，以公開字型名稱、樣式、點大小和效果等範圍的字型屬性。
 ms.assetid: 6052f2e3-2c9e-432e-9ed6-c1e3a50843d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e179296ae03163bf03e08d2fbf7287264792e6e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e2c80ce84e17573925b8bf64637df1330c7447b6bebe501de1f20ebc4b1ac79d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710655"
 ---
 # <a name="font-control"></a>字型控制項
 
-為了在需要文字處理和文字編輯功能的應用程式中簡化字型支援的整合和設定，Windows 功能區架構會提供特製化的字型控制項，以公開字型名稱、樣式、點大小和效果等範圍的字型屬性。
+為了在需要文字處理和文字編輯功能的應用程式中簡化字型支援的整合和設定，Windows 的功能區架構會提供特製化的字型控制項，以公開字型名稱、樣式、點大小和效果等範圍的字型屬性。
 
 -   [簡介](#introduction)
 -   [一致的體驗](#a-consistent-experience)
@@ -29,7 +29,7 @@ ms.locfileid: "104375832"
 
 字型控制項是由按鈕、切換按鈕、下拉式清單方塊和下拉式方塊組成的複合控制項，它們全都是用來指定特定的字型屬性或格式選項。
 
-下列螢幕擷取畫面顯示 Windows 7 的 WordPad 中的功能區字型控制項。
+下列螢幕擷取畫面顯示 Windows 7 之 WordPad 中的功能區字型控制項。
 
 ![fontcontrol 專案的螢幕擷取畫面，其中 richfont 屬性設定為 true。](images/controls/fontcontrol.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "104375832"
 -   跨功能區應用程式的標準化字型標記法。
 -   自動，在 Windows 7 中，以字型 **[控制台]** 中每個字型的 [**顯示**] 或 [**隱藏**] 設定為基礎的字型啟用。 字型控制項只會顯示已設定為 **顯示** 的字型。
     > [!Note]  
-    > 在 Windows Vista 中， **[字型** ] 控制台不提供 **顯示** 或 **隱藏** 功能，因此所有字型都會啟用。
+    > 在 Windows Vista 中， **[字型**] 控制台不提供 **顯示** 或 **隱藏** 功能，因此所有字型都會啟用。
 
      
 
@@ -59,7 +59,7 @@ ms.locfileid: "104375832"
     -   以輸入裝置為基礎的字型清單。
 
     > [!Note]  
-    > 在 Windows 7 之前的任何平臺上，都無法使用此功能的支援。
+    > Windows 7 之前的任何平臺都無法使用此功能的支援。
 
      
 
@@ -77,11 +77,11 @@ ms.locfileid: "104375832"
 字型控制項的其他功能包括
 
 -   自動、DPI 感知的 WYSIWYG 世代 (您所看到的內容，就是您在 [ **字型系列** ] 功能表中為每個字型取得) 點陣圖表示的結果。
--   [Windows 圖形裝置介面 (GDI) ](../gdi/windows-gdi.md) 整合。
+-   [Windows 圖形裝置介面 (GDI) ](../gdi/windows-gdi.md)整合。
 -   當地語系化的字型系列點陣圖和工具提示。
 -   用來管理和呈現字型的字型列舉、群組和中繼資料。
     > [!Note]  
-    > 在 Windows 7 之前的任何平臺上，都無法使用此功能的支援。
+    > Windows 7 之前的任何平臺都無法使用此功能的支援。
 
      
 
@@ -90,9 +90,9 @@ ms.locfileid: "104375832"
 
 ## <a name="alignment-with-common-gdi-text-structures"></a>與常用 GDI 文字結構對齊
 
-[Windows 圖形裝置介面 (GDI) ](../gdi/windows-gdi.md) 文字堆疊元件可用來透過功能區字型控制項來公開字型選取和格式化功能。 [LOGFONT 結構](/windows/win32/api/wingdi/ns-wingdi-logfonta)、 [CHOOSEFONT 結構](/windows/win32/api/commdlg/ns-commdlg-choosefonta)和[CHARFORMAT2 結構](/windows/win32/api/richedit/ns-richedit-charformat2a)所支援的各種字型功能都是透過字型控制項中所包含的子控制項來公開。
+[Windows 圖形裝置介面 (GDI) ](../gdi/windows-gdi.md)文字堆疊元件可用來透過功能區字型控制項來公開字型選取和格式化功能。 [LOGFONT 結構](/windows/win32/api/wingdi/ns-wingdi-logfonta)、 [CHOOSEFONT 結構](/windows/win32/api/commdlg/ns-commdlg-choosefonta)和[CHARFORMAT2 結構](/windows/win32/api/richedit/ns-richedit-charformat2a)所支援的各種字型功能都是透過字型控制項中所包含的子控制項來公開。
 
-字型控制項中顯示的子控制項，取決於在功能區標記中宣告的 *FontType* 範本。 下節 (詳細討論的 *FontType* 範本，) 是設計來配合一般 [WINDOWS 圖形裝置介面 (GDI)](../gdi/windows-gdi.md) 文字結構。
+字型控制項中顯示的子控制項，取決於在功能區標記中宣告的 *FontType* 範本。 下節 (詳細討論的 *FontType* 範本，) 是設計來配合一般 [Windows 圖形裝置介面 (GDI)](../gdi/windows-gdi.md)文字結構。
 
 ## <a name="add-a-fontcontrol"></a>新增 FontControl
 
@@ -497,7 +497,7 @@ ms.locfileid: "104375832"
 
  
 
-多語系消費者介面 (MUI 的建議首碼) EN-US 功能區是 ' F '，如下列範例所示。
+多語系消費者介面 (MUI 的建議首碼) en-us 功能區是 ' F '，如下列範例所示。
 
 
 ```C++
@@ -575,7 +575,7 @@ FCSAMPLE_RIBBON    UIFILE    "Debug\\FCSample.bml"
 
 除了字型控制項本身所支援的屬性之外，功能區架構也會定義每個字型控制項子控制項的 [屬性索引鍵](windowsribbon-reference-properties.md) 。 架構會透過 [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) 介面執行來公開這些屬性索引鍵及其值，此介面會定義用來管理集合的方法，也稱為屬性包（名稱和值組）。
 
-應用程式會將字型結構轉譯成可透過 [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) 介面方法存取的屬性。 此模型強調字型控制項和 Windows 圖形裝置介面 (GDI) 文字堆疊元件之間的差異， ([LOGFONT 結構](/windows/win32/api/wingdi/ns-wingdi-logfonta)、 [CHOOSEFONT 結構](/windows/win32/api/commdlg/ns-commdlg-choosefonta)，以及 Framework 所支援的 [CHARFORMAT2 結構](/windows/win32/api/richedit/ns-richedit-charformat2a)) 。
+應用程式會將字型結構轉譯成可透過 [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) 介面方法存取的屬性。 此模型強調字型控制項和 Windows 圖形裝置介面 (的 GDI) 文字堆疊元件， (架構所支援的[LOGFONT 結構](/windows/win32/api/wingdi/ns-wingdi-logfonta)、 [CHOOSEFONT 結構](/windows/win32/api/commdlg/ns-commdlg-choosefonta)和[CHARFORMAT2 結構](/windows/win32/api/richedit/ns-richedit-charformat2a)) 。
 
 下表列出個別控制項與其相關聯的屬性索引鍵。
 
@@ -791,7 +791,7 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**FontControl 元素**](windowsribbon-element-fontcontrol.md)

@@ -4,12 +4,12 @@ ms.assetid: 09b30c95-0ce2-401c-a4ae-99c801a2048a
 title: 使用自訂屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eca9f8092afa5b8af22080b154fff79a32a6f304
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ee01bc0df80acecec9805ea15cd8da65fa23a441c9c7818a88223aa47b963d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813628"
 ---
 # <a name="using-custom-properties"></a>使用自訂屬性
 

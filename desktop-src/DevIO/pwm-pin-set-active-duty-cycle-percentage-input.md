@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Pwm.h
-ms.openlocfilehash: 98811ace7ce8fce760e10757b8bf012cc2b9b27d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ca6b2ee6aa4d4d2da3f94aa7cc471de12c1f8040b597edf568bf061c8e392aa1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758848"
 ---
 # <a name="pwm_pin_set_active_duty_cycle_percentage_input-structure"></a>PWM 釘選設定使用中的工作 \_ \_ \_ \_ \_ 週期 \_ 百分比 \_ 輸入結構
 
@@ -54,8 +54,8 @@ typedef struct _PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT {
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                             |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                             |
 | 最小 KMDF 版本<br/>     | 1.19<br/>                                                                                  |
 | 最小的 UMDF 版本<br/>     | 2.19<br/>                                                                                  |
 | 標頭<br/>                   | <dl> <dt>Pwm (包含 Pwm) </dt> </dl> |

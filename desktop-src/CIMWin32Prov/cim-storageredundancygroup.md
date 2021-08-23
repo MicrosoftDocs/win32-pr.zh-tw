@@ -22,16 +22,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bef8cb8029c62957446ee5d7aefcf67fe5d7acb8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 888da618a0c51fbbb81923e8ff5885d815c3327ab99f8bfa4f76571602059d9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119817808"
 ---
 # <a name="cim_storageredundancygroup-class"></a>CIM \_ StorageRedundancyGroup 類別
 
-**CIM \_ StorageRedundancyGroup** 類別代表大量儲存體相關的重複資訊。 儲存體冗余群組是用來保護使用者資料。 它們是由一或多個實體範圍，或一或多個匯總實體範圍所組成。 儲存體冗余群組可能會重迭;但是，重迭內的基礎範圍不應該包含任何檢查資料。
+**CIM \_ StorageRedundancyGroup** 類別代表大量儲存體相關的重複資訊。 儲存體的冗余群組可用來保護使用者資料。 它們是由一或多個實體範圍，或一或多個匯總實體範圍所組成。 儲存體的冗余群組可能會重迭;但是，重迭內的基礎範圍不應該包含任何檢查資料。
 
 > [!IMPORTANT]
 > DMTF (分散式管理工作強制) CIM (通用訊息模型) 類別是用來建立 WMI 類別的父類別。 WMI 目前僅支援 [CIM 2.x 版的架構](https://dmtf.org/standards/cim/schemas)。
@@ -181,7 +181,7 @@ class CIM_StorageRedundancyGroup : CIM_RedundancyGroup
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 

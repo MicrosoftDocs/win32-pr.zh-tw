@@ -4,12 +4,12 @@ ms.assetid: B63F0660-4731-405B-9828-C57106E685F8
 title: Hyper-v virtual 光纖通道 API 參考
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e21b6d46652bacbc012c85e020b76686b9073970
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b80d45e3fea50ce58816cfaa5067588b7074e5a67874ee01409cab6cf9c008f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694648"
 ---
 # <a name="hyper-v-virtual-fibre-channel-api-reference"></a>Hyper-v virtual 光纖通道 API 參考
 

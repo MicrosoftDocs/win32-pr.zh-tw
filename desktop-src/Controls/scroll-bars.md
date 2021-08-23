@@ -4,12 +4,12 @@ description: 本章節包含有關捲軸所使用之程式設計項目的資訊�
 ms.assetid: vs|controls|~\controls\scrollbars\scrollbars.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38cf549a37fd5d4a271f6e12642a9bfd45b65d79
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: cca1aa4dc1b676cd5ce4f98c23035e462b9f4f87f8c20265848a8f0bcde80964
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636988"
 ---
 # <a name="scroll-bar"></a>Scroll Bar
 

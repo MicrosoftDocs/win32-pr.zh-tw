@@ -4,12 +4,12 @@ ms.assetid: 204cf253-be35-4213-ab84-45a952beffd1
 title: StorageCapacity
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da5ac9b89927bfaf6c3e40154d6e7cbc9e3c49c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f674d1c675fce2f95c980cc044dd3f0ce23c3839bd3d6e0cef8d1b35d1d3cff6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775438"
 ---
 # <a name="systemdevicesstoragecapacity"></a>StorageCapacity
 

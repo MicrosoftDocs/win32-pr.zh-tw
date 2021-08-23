@@ -3,7 +3,7 @@ title: 'HDM_DELETEITEM 訊息 (Commctrl .h) '
 description: 從標題控制項刪除專案。 您可以明確地傳送此訊息，或使用標頭 \_ DeleteItem 宏。
 ms.assetid: 1dd1f233-2812-41ae-8a36-c42b9ac70ffc
 keywords:
-- HDM_DELETEITEM message Windows 控制項
+- HDM_DELETEITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6a3ec4b48c3dcc77579f70d26cd55b7127f5a6d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 28b0a48d769117ffd68f2ba2af9695fe7fce00031f297626ae48c111d4574dd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697348"
 ---
 # <a name="hdm_deleteitem-message"></a>HDM \_ DELETEITEM 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104025253"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

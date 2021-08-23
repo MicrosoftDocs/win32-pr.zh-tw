@@ -1,29 +1,29 @@
 ---
-description: Windows GDI + 提供了中繼檔類別，讓您可以記錄和顯示中繼檔。
+description: Windows GDI+ 提供中繼檔類別，讓您可以記錄和顯示中繼檔。
 ms.assetid: a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077
-title: " (GDI +) 的中繼檔"
+title: '中繼檔 (GDI+) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae75c2185670563f9a9e624d868da5b0e299cbec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 190d03edd8857da3e840c2b3fde04314fa1fb1ddb01c8e69c684bccecf3e708d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778678"
 ---
-# <a name="metafiles-gdi"></a> (GDI +) 的中繼檔
+# <a name="metafiles-gdi"></a>中繼檔 (GDI+) 
 
-Windows GDI + 提供了 [**中繼檔**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) 類別，讓您可以記錄和顯示中繼檔。 中繼檔（也稱為向量影像）是儲存為一系列繪製命令和設定的影像。 在 **中繼檔** 物件中記錄的命令和設定可以儲存在記憶體中，或儲存至檔案或資料流程。
+Windows GDI+ 提供 [**中繼檔**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile)類別，讓您可以記錄和顯示中繼檔。 中繼檔（也稱為向量影像）是儲存為一系列繪製命令和設定的影像。 在 **中繼檔** 物件中記錄的命令和設定可以儲存在記憶體中，或儲存至檔案或資料流程。
 
-GDI + 可以顯示以下列格式儲存的中繼檔：
+GDI+ 可以顯示以下列格式儲存的中繼檔：
 
--   Windows 中繼檔格式 (WMF) 
+-   Windows (WMF) 的元檔案格式
 -   加強型中繼檔 (EMF) 
 -   EMF +
 
-GDI + 可以記錄 EMF 和 EMF + 格式的中繼檔，但不能以 WMF 格式記錄。
+GDI+ 可以記錄 emf 和 emf + 格式的中繼檔，但不能以 WMF 格式記錄。
 
-EMF + 是 EMF 的延伸模組，可讓您儲存 GDI + 記錄。 EMF + 格式有兩種變化： [僅限 EMF +] 和 [EMF + 雙重]。 僅限 EMF + 的中繼檔只包含 GDI + 記錄。 GDI + 可能會顯示這類中繼檔，但 Windows 圖形裝置介面 (GDI) 。 EMF + 雙重中繼檔包含 GDI + 和 GDI 記錄。 EMF + 雙重中繼檔中的每個 GDI + 記錄都會與替代的 GDI 記錄配對。 GDI + 或 GDI 可以顯示這類中繼檔。
+emf + 是 emf 的延伸模組，可讓您儲存 GDI+ 記錄。 EMF + 格式有兩種變化： [僅限 EMF +] 和 [EMF + 雙重]。 僅限 EMF + 中繼檔只包含 GDI+ 記錄。 GDI+ 可以顯示這類中繼檔，而不是 Windows 圖形裝置介面 (GDI) 。 EMF + 雙重中繼檔包含 GDI+ 和 GDI 記錄。 EMF + 雙重中繼檔中的每個 GDI+ 記錄都會與替代的 GDI 記錄配對。 這類中繼檔可透過 GDI+ 或 GDI 來顯示。
 
 下列範例會在磁片檔案中記錄一個設定和一個繪圖命令。 請注意，此範例會建立 [**graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件，而 **graphics** 物件的函式會接收 [**中繼檔**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) 物件的位址做為引數。
 

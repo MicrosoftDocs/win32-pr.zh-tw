@@ -4,12 +4,12 @@ ms.assetid: df59eedd-45ec-4564-96a5-8cecb345cfcc
 title: 用於偵錯工具的執行緒函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff168d4840032a6199ef03e0cf2117c8ea87f4d6
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d46e9c94ef776cd14bc76afb2c824f2150a1e7c0eb8c94176b237e1c6d54430f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112403981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655218"
 ---
 # <a name="thread-functions-for-debugging"></a>用於偵錯工具的執行緒函數
 

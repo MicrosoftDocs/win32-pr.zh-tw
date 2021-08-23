@@ -4,12 +4,12 @@ ms.assetid: 64ec1042-0ab5-496f-9a88-2f293b412704
 title: 'WM_PALETTEISCHANGING 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa2127dc9c682bba1fc4cea4e10b2b96ecc92102
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b0de17e7957e4b03c0a8fb942e7c0e4f94a3329e53cb039ce1d7f0a8c33aa89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717678"
 ---
 # <a name="wm_paletteischanging-message"></a>WM \_ PALETTEISCHANGING 訊息
 
@@ -65,7 +65,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

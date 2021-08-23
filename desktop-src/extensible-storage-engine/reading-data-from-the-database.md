@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294080(v=EXCHG.10)
 ms:contentKeyID: 32765695
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 176cd3189dd1c2701331eff0ef5387827da19b94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d33aa2640c07018186a5516d985fd4e46194d39cd4b12b7254f430f889e2484
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780258"
 ---
 # <a name="reading-data-from-the-database"></a>從資料庫讀取資料
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="reading-data-from-the-database"></a>從資料庫讀取資料
 

@@ -17,23 +17,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1bf4db5d8d34a741e57f72e8f237f1497de0bacf
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 52f67063ecd4c2cf3828ecccacf4e37a4c30fb1aad534cd6ae1853411d6a28c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104116320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719168"
 ---
 # <a name="jetgeterrorinfow-function"></a>JetGetErrorInfoW 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetgeterrorinfow-function"></a>JetGetErrorInfoW 函式
 
 資料庫引擎的 **JetGetErrorInfoW** 函數 BAS_。
 
-注意：本檔是以可延伸儲存引擎的初步發行版本為基礎。 此資訊可能隨時變更。
+注意：本檔是以可延伸儲存體引擎的初步發行版本為基礎。 此資訊可能隨時變更。
 
 ```cpp
 JET_ERR JET_API JetGetErrorInfoW( 
@@ -90,7 +90,7 @@ JET_ERR JET_API JetGetErrorInfoW(
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回 [JET_ERR](./extensible-storage-engine-error-codes.md) 資料類型，其中包含下表所列的其中一個傳回碼。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回 [JET_ERR](./extensible-storage-engine-error-codes.md) 資料類型，其中包含下表所列的其中一個傳回碼。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -100,7 +100,7 @@ JET_ERR JET_API JetGetErrorInfoW(
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>

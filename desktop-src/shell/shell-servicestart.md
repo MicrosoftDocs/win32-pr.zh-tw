@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 9c88b1980d215ad088a4a24362f17147b5d6e432
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: afdc1e7cac8d50de08e21cfad5cb492b5b51dcb647e963b4c003e9600a924244
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709548"
 ---
 # <a name="shellservicestart-method"></a>ServiceStart 方法
 
@@ -91,9 +91,9 @@ Microsoft Visual Basic 目前無法使用這個方法。
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何使用 **ServiceStart** 來啟動 Messenger 服務。 JScript 和 VBScript 會顯示使用方式。
+下列範例示範如何使用 **ServiceStart** 來啟動 Messenger 服務。 JScript 和 VBScript 都會顯示使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -135,10 +135,10 @@ VBScript
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |
 
 
