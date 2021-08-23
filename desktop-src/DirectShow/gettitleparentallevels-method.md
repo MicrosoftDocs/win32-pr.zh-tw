@@ -4,17 +4,17 @@ ms.assetid: 076808d7-6cb6-4d81-b26d-c7945db298f2
 title: GetTitleParentalLevels 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db82ca21c2fdd023aa472e4c3428260464a8612
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 88ef462767c280f5e6f1c58679a78ee876e58042dce632f30711c198b4ca574a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119536668"
 ---
 # <a name="gettitleparentallevels-method"></a>GetTitleParentalLevels 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

@@ -9,18 +9,18 @@ keywords:
 - '設定檔，多位元率 (MBR) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be77c7615845d10d07982676dfdb4dc8c617cebe
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c31c7954f6aa5098f6cc221a7a761428ff15fd6a4c2c0a6e5c8cea2b6622a84b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119446968"
 ---
 # <a name="using-multiple-bit-rate-mutual-exclusion"></a>使用多個位速率互斥
 
 當您想要針對各種不同的播放案例編碼內容時， (MBR) 互斥的多重位元速率很有用。 MBR 影片輸出包含單一輸入編碼多次，每個輸入都有不同的位元速率設定。 當讀取具有 MBR 編碼的檔案時，讀取器會根據可用的頻寬來決定要使用的資料流程。
 
-Windows Media Format SDK 支援適用于影片和音訊串流的 MBR 編碼。 此外，您還可以建立一種特殊類型的 MBR 編碼，稱為多重影片大小的 MBR 編碼。 多個影片大小 MBR 影片的功能與一般 MBR 影片相同，不同之處在于您可以針對相互排除的影片資料流程指定不同的影像大小。
+Windows 媒體格式 SDK 支援適用于影片和音訊串流的 MBR 編碼。 此外，您還可以建立一種特殊類型的 MBR 編碼，稱為多重影片大小的 MBR 編碼。 多個影片大小 MBR 影片的功能與一般 MBR 影片相同，不同之處在于您可以針對相互排除的影片資料流程指定不同的影像大小。
 
 下列範例示範如何為具有多種影片大小的 MBR 影片設定設定檔。 它會建立新的設定檔，其中包含三個不同位速率和大小的影片串流，並將它們包含在相互排除物件中。
 
@@ -164,9 +164,9 @@ pProfileMgr = NULL;
 [**WM \_ 媒體 \_ 類型**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Journal.dll
-ms.openlocfilehash: 7576996d341f13518879310f08c0a48996e1293f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff0151432e38a3e611e09efe2d5192eefb8c1d3e6cb0e79296e992b728c5a16a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590309"
 ---
 # <a name="ijournalreader-interface"></a>IJournalReader 介面
 
@@ -157,7 +157,7 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                     |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                         |
 | 標頭<br/>                   | <dl> <dt>.H (也需要日記 \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Journal.dll</dt> </dl>                            |

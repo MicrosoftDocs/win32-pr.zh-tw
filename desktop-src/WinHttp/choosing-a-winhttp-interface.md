@@ -1,19 +1,19 @@
 ---
-description: 在開始開發 Microsoft Windows HTTP 服務 (WinHTTP) 應用程式之前，您必須先決定要使用 C/c + + API 或 COM 介面。
+description: 在開始開發 Microsoft Windows HTTP 服務 (WinHTTP) 應用程式之前，您必須先決定是否要使用 C/c + + API 或 COM 介面。
 ms.assetid: 451ad247-962f-4af1-bb21-0aed4ef5f93c
 title: 選擇 WinHTTP 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc529e6052b0de2de19a7c15ff1cfad226cee2cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7d00777215ae94d32783f9cb98d0367c7e6499d6b3cd420a86859eac6d7654a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570298"
 ---
 # <a name="choosing-a-winhttp-interface"></a>選擇 WinHTTP 介面
 
-在開始開發 Microsoft Windows HTTP 服務 (WinHTTP) 應用程式之前，您必須先決定要使用 C/c + + API 或 COM 介面。 下表摘要說明每個方法的相關優點和缺點。
+在開始開發 Microsoft Windows HTTP 服務 (WinHTTP) 應用程式之前，您必須先決定是否要使用 C/c + + API 或 COM 介面。 下表摘要說明每個方法的相關優點和缺點。
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "106989454"
 </ul></td>
 <td><ul>
 <li>COM 介面不提供對 WinHTTP 完整功能集的存取權。</li>
-<li>在某些指令碼語言（如 VBScript 和 JScript）中，很難處理二進位資料類型。</li>
+<li>很難處理某些指令碼語言中的二進位資料類型，例如 VBScript 和 JScript。</li>
 <li>COM 介面不支援自動代理。</li>
 <li>應用程式必須使用 COM APARTMENT_THREADED 模型。</li>
 <li>在開始處理回應之前，必須先接收和緩衝處理整個回應。</li>

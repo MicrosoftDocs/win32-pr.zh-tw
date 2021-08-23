@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 在 WMI 內建立階層
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5743c8da8c40fc0419a96a8ec9c65e7e112573a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a2649fb764c1710613b27e1c9bbe518dd4cb8d02215df935ddccb59c9d7e922
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568778"
 ---
 # <a name="creating-hierarchies-within-wmi"></a>在 WMI 內建立階層
 

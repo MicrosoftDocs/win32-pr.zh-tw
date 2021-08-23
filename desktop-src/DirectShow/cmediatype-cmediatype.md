@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0b688c5b12fa82269ba18ff032abcbe82ebe859a
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 7e6a579cb7ff0210a7c820b3dc22bccb6838ac41196da306431d90a0b5a6e105
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106986777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119566408"
 ---
 # <a name="cmediatypecmediatype-constructor-mtypeh---no-parameters"></a>CMediaType. CMediaType (Mtype. h) -沒有參數
 

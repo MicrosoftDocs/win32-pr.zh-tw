@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0bdf6443557477c15497a36d4976b13d0cfea2fc
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 0ee314862aad1237036d5a7fa6a5627f42a6185d1ab6914f1e11ec19a831b755
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104507653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616698"
 ---
 # <a name="player-object"></a>Player 物件
 
@@ -43,12 +43,12 @@ Player 物件支援下列屬性。 以星號 () 標記的屬性 \* 無法供面�
 | [isOnline](player-isonline.md)                      | 抓取值，指出使用者是否已連接到網路。                                                                     |
 | [isRemote](player-isremote.md)\*                   | 抓取值，指出 Windows Media Player 控制項是否正在遠端模式中執行。                                             |
 | [mediaCollection](player-mediacollection.md)        | 抓取 [MediaCollection](mediacollection-object.md) 物件。                                                                          |
-| [network](player-network.md)                        | 抓取 [Network](network-object.md) 物件。                                                                                          |
+| [網路](player-network.md)                        | 抓取 [Network](network-object.md) 物件。                                                                                          |
 | [openState](player-openstate.md)                    | 抓取值，指出內容來源的狀態。                                                                                |
-| [playerApplication](player-playerapplication.md)\* | 當遠端 Windows Media Player 控制項正在執行時，會抓取 [PlayerApplication](playerapplication-object.md) 物件。               |
+| [playerApplication](player-playerapplication.md)\* | 當遠端 Windows Media Player 控制項正在執行時，會抓取[PlayerApplication](playerapplication-object.md)物件。               |
 | [playlistCollection](player-playlistcollection.md)  | 抓取 [PlaylistCollection](playlistcollection-object.md) 物件。                                                                    |
 | [playState](player-playstate.md)                    | 抓取值，指出 Windows Media Player 操作的狀態。                                                                |
-| [設定](player-settings.md)                      | 抓取 [Settings](settings-object.md) 物件。                                                                                        |
+| [設定](player-settings.md)                      | 抓取[設定](settings-object.md)物件。                                                                                        |
 | [status](player-status.md)                          | 抓取值，指出 Windows Media Player 的目前狀態。                                                                     |
 | [stretchToFit](player-stretchtofit.md)\*           | 指定或抓取值，指出影片是否會延展以符合 Windows Media Player 控制項影片顯示的大小。          |
 | [uiMode](player-uimode.md)\*                       | 指定或抓取值，指出當 Windows Media Player 內嵌在網頁中時，使用者介面中所顯示的控制項。 |
@@ -58,7 +58,7 @@ Player 物件支援下列屬性。 以星號 () 標記的屬性 \* 無法供面�
 
 
 
- 
+ 
 
 \* 無法存取外觀。
 
@@ -76,7 +76,7 @@ Player 物件支援下列方法。
 
 
 
- 
+ 
 
 Player 物件支援下列事件。 以星號 () 標記的事件 \* 無法供面板存取。 如需在面板中處理滑鼠和鍵盤事件的相關資訊，請參閱 [外來事件](external-events.md)。
 
@@ -131,7 +131,7 @@ Player 物件支援下列事件。 以星號 () 標記的事件 \* 無法供面�
 
 
 
- 
+ 
 
 \* 無法存取外觀。 如需有關在外觀中處理滑鼠和鍵盤事件的詳細資訊，請參閱 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -144,9 +144,9 @@ Player 物件支援下列事件。 以星號 () 標記的事件 \* 無法供面�
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

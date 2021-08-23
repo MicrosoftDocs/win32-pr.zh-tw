@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 612dcd638939b34803b7296babf7445a07cdad22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 683b8eb5beb9946db7f37d4db53a84c96d5bff7fc91fa4864020fffde5554824
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567078"
 ---
 # <a name="cenumpinsnext-method"></a>CEnumPins. Next 方法
 
@@ -71,7 +71,7 @@ HRESULT Next(
 
 
 
-| 傳回碼                                                                                                | Description                                                                            |
+| 傳回碼                                                                                                | 描述                                                                            |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                    | 未依要求抓取多少 pin。<br/>                                 |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 成功。<br/>                                                                    |

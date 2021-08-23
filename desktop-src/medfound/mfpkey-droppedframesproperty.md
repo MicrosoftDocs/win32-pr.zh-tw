@@ -4,12 +4,12 @@ ms.assetid: e55db53e-ab70-42ce-b5cd-2e59a4e96b7b
 title: 'MFPKEY_DROPPEDFRAMES 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b31404218e4e179e19f53e30f5750976c71e0d7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c701399684b15d07ca287813cf6bf9875bab7c17261bb1ae7b9fe2bda2e5254c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663547"
 ---
 # <a name="mfpkey_droppedframes-property"></a>MFPKEY \_ DROPPEDFRAMES 屬性
 
@@ -33,8 +33,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

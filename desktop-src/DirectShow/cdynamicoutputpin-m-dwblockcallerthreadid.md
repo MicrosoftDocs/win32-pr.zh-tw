@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9aa2de66f1afe690715ab658483c01cdfeb3f451
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b52bd7f718798ea9dd2cf9d227f6d22e069d2c1a59bb8591f6126c20599af9f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539748"
 ---
 # <a name="cdynamicoutputpinm_dwblockcallerthreadid-member"></a>CDynamicOutputPin：： m \_ dwBlockCallerThreadID 成員
 

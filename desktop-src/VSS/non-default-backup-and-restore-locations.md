@@ -4,12 +4,12 @@ ms.assetid: 7609c392-d5f8-48c2-8e7e-f35f56cf94f8
 title: 非預設備份和還原位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c809b886886c1d84de1cc3960163a7cc94179cb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db5f0da35e0353a45cf14dcc60795eb1a02453fb5f1b71d3fb5e808cc07978fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471098"
 ---
 # <a name="non-default-backup-and-restore-locations"></a>非預設備份和還原位置
 

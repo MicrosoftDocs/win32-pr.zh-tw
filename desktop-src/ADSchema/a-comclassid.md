@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 606a3d1dd54496217c69f9fac412d1cb4460ddc8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a38532d970ef58bd23b6a7dcd760a08fec8e071e4dff24d4bffbb646c6d68254
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509688"
 ---
 # <a name="com-classid-attribute"></a>COM-ClassID 屬性
 
@@ -59,7 +59,7 @@ ms.locfileid: "104509726"
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | 否                                                                                                             |
 | 是-單一值       | 否                                                                                                             |
-| 已編制索引             | 對                                                                                                              |
+| 已編制索引             | 是                                                                                                              |
 | 在通用類別目錄中      | 否                                                                                                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                      |
 | Range-Lower            | \-                                                                                                                |
@@ -80,7 +80,7 @@ ms.locfileid: "104509726"
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | 否                                                                                                             |
 | 是-單一值       | 否                                                                                                             |
-| 已編制索引             | 對                                                                                                              |
+| 已編制索引             | 是                                                                                                              |
 | 在通用類別目錄中      | 否                                                                                                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                      |
 | Range-Lower            | \-                                                                                                                |
@@ -101,7 +101,7 @@ ms.locfileid: "104509726"
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | 否                                                                                                             |
 | 是-單一值       | 否                                                                                                             |
-| 已編制索引             | 對                                                                                                              |
+| 已編制索引             | 是                                                                                                              |
 | 在通用類別目錄中      | 否                                                                                                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                      |
 | Range-Lower            | \-                                                                                                                |
@@ -122,7 +122,7 @@ ms.locfileid: "104509726"
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | 否                                                                                                             |
 | 是-單一值       | 否                                                                                                             |
-| 已編制索引             | 對                                                                                                              |
+| 已編制索引             | 是                                                                                                              |
 | 在通用類別目錄中      | 否                                                                                                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                      |
 | Range-Lower            | \-                                                                                                                |
@@ -143,7 +143,7 @@ ms.locfileid: "104509726"
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | 否                                                                                                             |
 | 是-單一值       | 否                                                                                                             |
-| 已編制索引             | 對                                                                                                              |
+| 已編制索引             | 是                                                                                                              |
 | 在通用類別目錄中      | 否                                                                                                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                      |
 | Range-Lower            | \-                                                                                                                |
@@ -164,7 +164,7 @@ ms.locfileid: "104509726"
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | 否                                                                                                             |
 | 是-單一值       | 否                                                                                                             |
-| 已編制索引             | 對                                                                                                              |
+| 已編制索引             | 是                                                                                                              |
 | 在通用類別目錄中      | 否                                                                                                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                      |
 | Range-Lower            | \-                                                                                                                |

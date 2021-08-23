@@ -4,12 +4,12 @@ ms.assetid: 70ffe06c-e72d-4bb8-a13c-e2946ff72fa6
 title: 'SPFILENOTIFY_FILEEXTRACTED 訊息 (Setupapi.log .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efdd66c7f218e632ba817d00a6e6c9447052e350
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56b5028dec11cf2317be080fb82b79bf155be007c66abcbee33492aa229d6317
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665108"
 ---
 # <a name="spfilenotify_fileextracted-message"></a>SPFILENOTIFY \_ FILEEXTRACTED 訊息
 
@@ -49,7 +49,7 @@ SPFILENOTIFY_FILEEXTRACTED
 
 
 
-| 傳回碼                                                                               | Description                                                                                                                                                                                          |
+| 傳回碼                                                                               | 描述                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**沒有 \_ 錯誤**</dt> </dl>  | 未發生任何錯誤，請繼續處理封包。<br/>                                                                                                                                |
 | <dl> <dt>**錯誤 \_ XXX**</dt> </dl> | 發生指定的類型時發生錯誤。 [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) 會傳回零。 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 將會傳回指定的錯誤碼。<br/> |
@@ -69,8 +69,8 @@ SPFILENOTIFY_FILEEXTRACTED
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Setupapi.log。h</dt> </dl> |
 
 

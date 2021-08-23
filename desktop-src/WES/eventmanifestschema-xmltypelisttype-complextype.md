@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 388161572ec9c84ed46d5b40987df5fb8d1ed077
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e30ca23a0e4ab0168ff7479a5246acfb4b34e3a43bc62886d988d5f54549672b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620318"
 ---
 # <a name="xmltypelisttype-complex-type"></a>XmlTypeListType 複雜類型
 
@@ -60,7 +60,7 @@ ms.locfileid: "104317295"
 
 
 
-| 元素                                                                | 類型 | Description                      |
+| 元素                                                                | 類型 | 描述                      |
 |------------------------------------------------------------------------|------|----------------------------------|
 | [**xmlType**](eventmanifestschema-xmltype-xmltypelisttype-element.md) |      | 定義 XML 類型。 <br/> |
 
@@ -88,8 +88,8 @@ ms.locfileid: "104317295"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

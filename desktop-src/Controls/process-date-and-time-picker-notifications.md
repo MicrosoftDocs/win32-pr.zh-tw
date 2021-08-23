@@ -4,12 +4,12 @@ description: 本節示範如何處理日期和時間選擇器的通知。
 ms.assetid: DBF624F0-89E0-435B-BE96-60B7A4CEDA61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffa1214ebd671b4ae222990bde4b44586e6d7b11
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 81846d22f3c946d1bfdf661823429fd092b78647cf0ebcb0d683d2600ddcaf17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540477"
 ---
 # <a name="how-to-process-date-and-time-picker-notifications"></a>如何處理日期和時間選擇器通知
 
@@ -19,12 +19,12 @@ ms.locfileid: "110424178"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

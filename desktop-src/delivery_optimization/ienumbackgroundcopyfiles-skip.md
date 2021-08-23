@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5d88a7d971ab93b90c844fc8d9d92d7f154c0ebf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 174b8ac3e0286a4d2a19e211773969d408c7f7762e8b2dd4fe743f0b4b2aabeb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567358"
 ---
 # <a name="ienumbackgroundcopyfilesskip-method"></a>IEnumBackgroundCopyFiles：： Skip 方法
 
@@ -56,7 +56,7 @@ HRESULT Skip(
 
 
 
-| 傳回碼                                                                              | Description                                                       |
+| 傳回碼                                                                              | 描述                                                       |
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | <dl> <dt>S_OK * * * *</dt> </dl> | 已成功跳過要求的元素數目。<br/> |
 | <dl> <dt>**S_FALSE**</dt> </dl>  | 略過小於要求的元素數目。<br/>    |
@@ -72,9 +72,9 @@ HRESULT Skip(
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
+| IDL<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
 | IID<br/>                      | IID_IEnumBackgroundCopyFiles 定義為 CA51E165-C365-424C-8D41-24AAA4FF3C40<br/>         |

@@ -5,12 +5,12 @@ ms.assetid: eaeb6cfd-de62-46f1-972d-a11e0ccc11d9
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 979281fb7fa6e034894bffaecbd6246fe8a9aa94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0c2258938020593014b5b6f5ea77516e7770f8589601cf4139971b3532b22fff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569341"
 ---
 # <a name="how-to-clip-to-a-geometric-mask"></a>如何裁剪成幾何遮罩
 
@@ -66,7 +66,7 @@ SafeRelease(&pSink);
 > [!Note]  
 > 從 Windows 8 開始，您不需要呼叫 [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer))。 在大部分情況下，如果您未呼叫此方法，而 Direct2D 管理層資源，則效能會比較好。
 
- 
+ 
 
 使用幾何遮罩呼叫 [**PushLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) 來推送圖層。 將內容繪製到剪輯，然後呼叫 [**PopLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer) 以彈出圖層。 這會產生星形繪圖。 下列程式碼示範如何執行這項操作。
 
@@ -121,6 +121,6 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 833a212c-83a8-4046-8ac7-2bce35b2a982
 title: 'MF_MT_MAX_KEYFRAME_SPACING 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81f1e7a7e8cfe6ab14d5aebffcf0f10d1487b979
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54df6ffe9b54196a67a663e82f33c8cebe5db15f28b36db4a2a69529efbfd203
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664258"
 ---
 # <a name="mf_mt_max_keyframe_spacing-attribute"></a>MF \_ MT \_ 最大主要畫面格 \_ \_ 間距屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "104026263"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: b21db1cf-cac3-41d6-8189-6e01c8f91a7d
 title: COPP 命令參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50dfeebe42b877604ab880ef1855035242d6eca8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ef1a706863464b6f303e05cb88e28a075dffbfba7b6bf54f8289a2699e66a76f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565968"
 ---
 # <a name="copp-command-reference"></a>COPP 命令參考
 

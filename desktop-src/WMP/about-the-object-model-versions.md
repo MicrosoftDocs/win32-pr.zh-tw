@@ -8,23 +8,23 @@ keywords:
 - 物件模型，版本
 - Windows Media Player ActiveX 控制項，物件模型的版本
 - ActiveX 控制項，物件模型的版本
-- Windows Media Player 的行動 ActiveX 控制項，物件模型的版本
-- Windows Media Player 行動版，物件模型的版本
+- Windows Media PlayerMobile ActiveX 控制項，物件模型的版本
+- Windows Media Player行動版，物件模型的版本
 - Windows Media Player 的版本，物件模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59886f5750b6fc42112f73d6bb6e05e8d013ffdc
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: ce90455d93d71f6fde62b97d3b4d38e34963307e60b831c8110a914cc535cffd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104374780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119510058"
 ---
 # <a name="about-the-object-model-versions"></a>關於物件模型版本
 
-Windows Media Player 7.0 引進了新的物件模型。 此物件模型已透過 Windows Media Player 7.1、適用于 Windows XP 的 Windows Media Player、Windows Media Player 9 系列、Windows Media Player 10、Windows Media Player 11 和 Windows Media Player 12 進行擴充。 物件模型參考中的每個主題都包含一個需求區段，以詳細說明個別屬性、方法或事件的最小需求。 下列清單詳細說明自7.0 版以來針對每個版本新增的新物件、方法、屬性和事件。 這些清單也包含新的 c + + 介面、方法和事件。
+Windows Media Player 7.0 引進了新的物件模型。 此物件模型已透過 Windows Media Player 7.1、Windows Media Player Windows XP、Windows Media Player 9 系列、Windows Media Player 10、Windows Media Player 11 和 Windows Media Player 12 擴充。 物件模型參考中的每個主題都包含一個需求區段，以詳細說明個別屬性、方法或事件的最小需求。 下列清單詳細說明自7.0 版以來針對每個版本新增的新物件、方法、屬性和事件。 這些清單也包含新的 c + + 介面、方法和事件。
 
-當新的或更新的介面也公開為物件時，只會列出物件。 若要找出介面，請參閱 [c + + 的物件模型參考](object-model-reference-for-c.md)。 通常，您只需要將 IWMP 前置詞加入至物件名稱。 如果新介面擴充了現有介面，您可能需要尋找最新的版本號碼。 例如，Windows Media Player 9 系列引進了可從 [**Settings**](settings-object.md) 物件取得的新屬性和方法。 在 c + + 中，這些可透過 [**IWMPSettings2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings2) 介面取得，而這個介面會擴充 [**IWMPSettings**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings)。
+當新的或更新的介面也公開為物件時，只會列出物件。 若要找出介面，請參閱 [c + + 的物件模型參考](object-model-reference-for-c.md)。 通常，您只需要將 IWMP 前置詞加入至物件名稱。 如果新介面擴充了現有介面，您可能需要尋找最新的版本號碼。 例如，Windows Media Player 9 系列引進了可從 [**設定**](settings-object.md)物件取得的新屬性和方法。 在 c + + 中，這些可透過 [**IWMPSettings2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings2) 介面取得，而這個介面會擴充 [**IWMPSettings**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings)。
 
 ## <a name="added-for-windows-media-player-71"></a>已針對 Windows Media Player 7.1 新增
 
@@ -78,9 +78,9 @@ Windows Media Player 7.0 引進了新的物件模型。 此物件模型已透過
 -   [**PlayerApplication 屬性**](player-playerapplication.md)
 -   [**StatusChange 事件**](player-player-statuschange.md)
 -   [**PlayerApplication 物件**](playerapplication-object.md)
--   [**DefaultAudioLanguage 屬性**](settings-defaultaudiolanguage.md)
--   [**MediaAccessRights 屬性**](settings-mediaaccessrights.md)
--   [**RequestMediaAccessRights 方法**](settings-requestmediaaccessrights.md)
+-   [**設定 defaultAudioLanguage 屬性**](settings-defaultaudiolanguage.md)
+-   [**設定 mediaAccessRights 屬性**](settings-mediaaccessrights.md)
+-   [**設定 requestMediaAccessRights 方法**](settings-requestmediaaccessrights.md)
 
 ## <a name="added-for-windows-media-player-10"></a>針對 Windows Media Player 10 新增
 
@@ -136,9 +136,9 @@ Windows Media Player 7.0 引進了新的物件模型。 此物件模型已透過
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

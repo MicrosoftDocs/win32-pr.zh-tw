@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5dde02c31ed0ef72e6df36a6cf0364b7f184304e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7135a07aedb879503d36011b274bdeab8035924b91bb5d9bc656d6d89dfbe201
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567000"
 ---
 # <a name="cenumpins-class"></a>CEnumPins 類別
 
@@ -39,12 +39,12 @@ ms.locfileid: "106994363"
 
 
 
-| 公用方法                             | Description                                                     |
+| 公用方法                             | 描述                                                     |
 |--------------------------------------------|-----------------------------------------------------------------|
 | [**CEnumPins**](cenumpins-cenumpins.md)   | 函式方法。                                             |
 | [**~ CEnumPins**](cenumpins--cenumpins.md) | 函式方法。 虛擬。                                     |
-| IEnumPins 方法                          | Description                                                     |
-| [**克隆**](cenumpins-clone.md)           | 使用相同的列舉狀態建立列舉值的複本。 |
+| IEnumPins 方法                          | 描述                                                     |
+| [**複製**](cenumpins-clone.md)           | 使用相同的列舉狀態建立列舉值的複本。 |
 | [**下一步**](cenumpins-next.md)             | 抓取指定的 pin 數目。                           |
 | [**重設**](cenumpins-reset.md)           | 將列舉序列重設為開頭。               |
 | [**跳過**](cenumpins-skip.md)             | 略過指定的 pin 數目。                          |

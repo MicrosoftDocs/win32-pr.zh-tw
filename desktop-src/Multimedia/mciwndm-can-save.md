@@ -3,7 +3,7 @@ title: 'MCIWNDM_CAN_SAVE 訊息 (Vfw .h) '
 description: MCIWNDM \_ 可以 \_ 儲存訊息，以判斷 MCI 裝置是否可以儲存資料。 您可以使用 MCIWndCanSave 宏明確地傳送此訊息。
 ms.assetid: b4e27190-b095-494b-9ed3-10653bea187b
 keywords:
-- MCIWNDM_CAN_SAVE message Windows 多媒體
+- MCIWNDM_CAN_SAVE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b60b8a5d93ac80befc8beeb6665399efe44f1e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ccab622381208b8213414ed8b156a84e431afffc55acdf2323b0c0a2d31014f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429628"
 ---
 # <a name="mciwndm_can_save-message"></a>MCIWNDM \_ 可以 \_ 儲存訊息
 

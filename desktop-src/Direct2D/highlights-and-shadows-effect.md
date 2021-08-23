@@ -4,12 +4,12 @@ description: 調整影像的醒目顯示和陰影。
 ms.assetid: ebbb7d99-9144-ffff-af73-d89e7d269924
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d595a5b82a2df0b0b0bab14c03e6a807511ed61
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3335de3bc6b115221c1a2a343cac9c5c5154a6d868c9fa8f63b2cfa719e287c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104553668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569610"
 ---
 # <a name="highlights-and-shadows-effect"></a>醒目顯示和陰影效果
 
@@ -53,8 +53,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
-| 最低支援的伺服器 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects \_ 2。h                                  |
 | 程式庫                  | d2d1 .lib，dxguid .lib                              |
 

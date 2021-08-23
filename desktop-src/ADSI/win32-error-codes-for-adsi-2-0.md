@@ -7,12 +7,12 @@ keywords:
 - ADSI 2.0 ADSI 的 Win32 錯誤碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e079fa6a98df28625f6307f774ce194712a52a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ea81b4d277ad43cb2278d23549e370df1d11b3058be1e9c8b0f8b9329eabe26e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589748"
 ---
 # <a name="win32-error-codes-for-adsi-20"></a>ADSI 2.0 的 Win32 錯誤碼
 
@@ -75,13 +75,13 @@ ms.locfileid: "103839111"
 
 
 
- 
+ 
 
 在 ADSI 2.0 中，有數個 LDAP 錯誤訊息會對應至 Win32 錯誤碼，並為 **錯誤 \_ 延伸 \_ 錯誤**。 呼叫 [**ADsGetLastError**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetlasterror) 以取得伺服器傳回的錯誤字串。 如需詳細資訊，請參閱以下的 [ADSI 擴充錯誤訊息](adsi-extended-error-messages.md) 。
 
- 
+ 
 
- 
+ 
 
 
 

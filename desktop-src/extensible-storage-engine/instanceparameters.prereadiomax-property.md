@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 68a6b569a59c2a4a80137f9dafed62ca62a85a13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc3af75d137b07df729d987ac4942612ac88aded08d546378b89146d5ae121ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119617928"
 ---
 # <a name="instanceparametersprereadiomax-property"></a>InstanceParameters. PrereadIOMax 屬性
 

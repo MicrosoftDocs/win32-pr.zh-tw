@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Kernel32.dll
-ms.openlocfilehash: f80e51dc417cd637b2abaf8d5dfdc5c0d00f6578
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f6bf6408fb7bd72b1757b8ca2219e1bbd2cc612829359fdcaf090786e8e7e98b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570888"
 ---
 # <a name="termsrvappinstallmode-function"></a>TermsrvAppInstallMode 函式
 

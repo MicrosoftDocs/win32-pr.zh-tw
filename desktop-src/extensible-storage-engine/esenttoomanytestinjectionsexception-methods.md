@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103124
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a3eb109800f63e8fd45eb4bfeb91f214e4430878
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c95a84a09c196a65eb3083b9176a1f3cac1bdad012b9dae1b6d1f8f6588f2a20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618748"
 ---
 # <a name="esenttoomanytestinjectionsexception-methods"></a>EsentTooManyTestInjectionsException 方法
 

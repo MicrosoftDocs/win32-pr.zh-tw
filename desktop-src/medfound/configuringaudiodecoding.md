@@ -4,12 +4,12 @@ ms.assetid: 362bd3bc-1474-4132-a8a8-e5dc0bba80e7
 title: '設定音訊解碼 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4da4d6a9d41b5c504ff60f25db20265072218caf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee274fd714065a1c89c9d634dd80de4d59c9eb567d67ed8045d2b89bece87d74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664640"
 ---
 # <a name="configuring-audio-decoding-microsoft-media-foundation"></a>設定音訊解碼 (Microsoft 媒體基礎) 
 

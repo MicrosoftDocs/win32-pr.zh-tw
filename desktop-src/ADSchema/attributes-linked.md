@@ -5,12 +5,12 @@ ms.assetid: ed64c0bd-3d55-48c4-83b8-771025f3582a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c57d86384f2df83453b8f6384dee1c5958c51f4
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: 4315e274df16ba3d8b380c7a8386eea0fdc72aec1faba97807546f971a92d324
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "104022938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644201"
 ---
 # <a name="linked-attributes-ad-schema"></a>連結屬性 (AD 架構) 
 
@@ -33,7 +33,7 @@ ms.locfileid: "104022938"
 [**是-許可權-持有者**](a-isprivilegeholder.md)  
 [**管理者**](a-managedby.md)  
 [**Managed 物件**](a-managedobjects.md)  
-[**經理**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**主要**](a-masteredby.md)  
 [**成員**](a-member.md)  
 [**netboot-SCP-BL**](a-netbootscpbl.md)  
@@ -71,7 +71,7 @@ ms.locfileid: "104022938"
 [**是-許可權-持有者**](a-isprivilegeholder.md)  
 [**管理者**](a-managedby.md)  
 [**Managed 物件**](a-managedobjects.md)  
-[**經理**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**主要**](a-masteredby.md)  
 [**成員**](a-member.md)  
 [**PartitionLink**](a-mscom-partitionlink.md)  
@@ -168,7 +168,7 @@ ms.locfileid: "104022938"
 [**是-許可權-持有者**](a-isprivilegeholder.md)  
 [**管理者**](a-managedby.md)  
 [**Managed 物件**](a-managedobjects.md)  
-[**經理**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**主要**](a-masteredby.md)  
 [**成員**](a-member.md)  
 [**PartitionLink**](a-mscom-partitionlink.md)  
@@ -240,7 +240,7 @@ ms.locfileid: "104022938"
 [**是-許可權-持有者**](a-isprivilegeholder.md)  
 [**管理者**](a-managedby.md)  
 [**Managed 物件**](a-managedobjects.md)  
-[**經理**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**主要**](a-masteredby.md)  
 [**成員**](a-member.md)  
 [**PartitionLink**](a-mscom-partitionlink.md)  
@@ -332,7 +332,7 @@ ms.locfileid: "104022938"
 [**是-許可權-持有者**](a-isprivilegeholder.md)  
 [**管理者**](a-managedby.md)  
 [**Managed 物件**](a-managedobjects.md)  
-[**經理**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**主要**](a-masteredby.md)  
 [**成員**](a-member.md)  
 [**PartitionLink**](a-mscom-partitionlink.md)  
@@ -435,7 +435,7 @@ ms.locfileid: "104022938"
 [**是-許可權-持有者**](a-isprivilegeholder.md)  
 [**管理者**](a-managedby.md)  
 [**Managed 物件**](a-managedobjects.md)  
-[**經理**](a-manager.md)  
+[**Manager**](a-manager.md)  
 [**主要**](a-masteredby.md)  
 [**成員**](a-member.md)  
 [**ms Authz-成員--內建-存取原則**](a-msauthz-memberrulesincentralaccesspolicy.md)  
@@ -454,7 +454,7 @@ ms.locfileid: "104022938"
 [**ms DS--------可能值-**](a-msds-claimsharespossiblevalueswith.md)  
 [**ms-chap--------可能-值-BL**](a-msds-claimsharespossiblevalueswithbl.md)  
 [**ms-DS-宣告類型-適用于類別**](a-msds-claimtypeappliestoclass.md)  
-[**ms DS-輸出-宣告-轉換-原則**](a-msds-egressclaimstransformationpolicy.md)  
+[**ms-DS-Egress-宣告-轉換-原則**](a-msds-egressclaimstransformationpolicy.md)  
 [**啟用 ms DS-功能**](a-msds-enabledfeature.md)  
 [**啟用 ms DS-功能-BL**](a-msds-enabledfeaturebl.md)  
 [**ms-DS-Nc**](a-msds-hasdomainncs.md)  
@@ -500,7 +500,7 @@ ms.locfileid: "104022938"
 [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)  
 [**ms DS-工作--Az-Task**](a-msds-tasksforaztask.md)  
 [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)  
-[**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)  
+[**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)  
 [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)  
 [**ms-DS-數值型別參考**](a-msds-valuetypereference.md)  
 [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)  
@@ -536,9 +536,9 @@ ms.locfileid: "104022938"
 [**Template-Roots2**](a-templateroots2.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

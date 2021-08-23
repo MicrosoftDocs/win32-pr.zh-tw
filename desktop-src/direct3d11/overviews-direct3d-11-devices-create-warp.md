@@ -4,12 +4,12 @@ description: 本主題說明如何建立可執行高速度軟體轉譯器的變�
 ms.assetid: 6daf661e-bc24-4b90-83a7-031acb57cf87
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deda409971d22f46132a1cb9b008d3dd1eb7c407
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f78d3e8b5224018fb9f45df2c6eec5ee6f9d88cdd664715a31050eaab4ddd948
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119407798"
 ---
 # <a name="how-to-create-a-warp-device"></a>如何：建立變形裝置
 
@@ -36,7 +36,7 @@ ms.locfileid: "104990966"
 
     
 
-2.  要求可執行應用程式所需功能的功能層級。 您可以成功地為功能層級 **d3d 功能層 \_ 級 \_ \_ \_ 2 1** 到 **D3D \_ 功能 \_ 層級 \_ 10 \_ 1** 建立變形裝置，並從所有功能等級的 Windows 8 開始。
+2.  要求可執行應用程式所需功能的功能層級。 您可以成功地為功能層級 **d3d 功能層 \_ 級 \_ \_ \_ 2 1** 到 **d3d \_ 功能 \_ 層級 \_ 10 \_ 1** 建立變形裝置，並從所有功能等級的 Windows 8 開始。
 
     ```
         D3D_FEATURE_LEVEL FeatureLevels = D3D_FEATURE_LEVEL_10_1;
@@ -76,7 +76,7 @@ ms.locfileid: "104990966"
 
 ## <a name="new-for-windows-8"></a>Windows 8 的新
 
-當電腦的主要顯示器介面卡是「Microsoft 基本顯示器介面卡」 (變形介面卡) 時，該電腦也會有第二張介面卡。 第二張介面卡是僅限轉譯的裝置，沒有顯示輸出。 如需僅限轉譯裝置的詳細資訊，請參閱 [關於列舉介面卡的 Windows 8 中的新資訊](/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi)。
+當電腦的主要顯示器介面卡是「Microsoft 基本顯示器介面卡」 (變形介面卡) 時，該電腦也會有第二張介面卡。 第二張介面卡是僅限轉譯的裝置，沒有顯示輸出。 如需僅限轉譯裝置的詳細資訊，請參閱[關於列舉介面卡的 Windows 8 中的新資訊](/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -88,6 +88,6 @@ ms.locfileid: "104990966"
 [如何使用 Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

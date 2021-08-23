@@ -3,27 +3,27 @@ title: 寫入 ASF 檔案
 description: 寫入 ASF 檔案
 ms.assetid: d722b676-bf65-4f91-8118-bb12d3bbb6cb
 keywords:
-- Windows Media Format SDK，寫入 ASF 檔案
-- Windows Media Format SDK，建立 ASF 檔案
-- 'Windows Media Format SDK、Advanced Systems Format (ASF) '
+- Windows媒體格式 SDK，寫入 ASF 檔案
+- Windows媒體格式 SDK，建立 ASF 檔案
+- 'Windows媒體格式 SDK、Advanced Systems Format (ASF) '
 - Advanced Systems Format (ASF) ，寫入檔案
 - ASF (Advanced Systems Format) ，寫入檔案
 - Advanced Systems Format (ASF) ，建立檔案
 - ASF (Advanced Systems Format) ，建立檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c13c1af0d3699c89d26f007e00675ea563639c4e
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ff4bec466a9f38dfedaa7e860fdc5e3eda56e0ca5fa1f1240bc18c54dfd51513
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103841892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590618"
 ---
 # <a name="writing-asf-files"></a>寫入 ASF 檔案
 
-您可以使用 Windows Media Format SDK 的寫入器物件，從數位媒體資料建立 ASF 檔案。 若要建立寫入器物件的實例，請呼叫 [**WMCreateWriter**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter) 函數。 寫入器物件會協調許多元件的功能，包括 Windows Media 格式 SDK 外部的編解碼器。
+您可以使用 Windows 媒體格式 SDK 的寫入器物件，從數位媒體資料建立 ASF 檔案。 若要建立寫入器物件的實例，請呼叫 [**WMCreateWriter**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter) 函數。 寫入器物件會協調許多元件的功能，包括 Windows 媒體格式 SDK 外部的編解碼器。
 
-寫入器物件的基本功能可細分為下列步驟。 在這些步驟中，「應用程式」指的是您使用 Windows Media Format SDK 撰寫的程式。
+寫入器物件的基本功能可細分為下列步驟。 在這些步驟中，「應用程式」是指您使用 Windows 媒體格式 SDK 撰寫的程式。
 
 1.  應用程式會為寫入器提供用來建立 ASF 檔案的設定檔。 當寫入器載入設定檔資料時，它會將輸入編號指派給設定檔的每個連接。
 2.  應用程式會為寫入器提供要寫入之檔案的輸出檔名稱。 寫入器會建立寫入器檔案接收物件，以管理檔案建立和輸入。 如需詳細資訊，請參閱 [寫入器檔案接收物件](writer-file-sink-object.md)。
@@ -68,7 +68,7 @@ ms.locfileid: "103841892"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -86,9 +86,9 @@ ms.locfileid: "103841892"
 [**寫入器物件**](writer-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9c77445268ca0bcdd24efcde1bb3b08ff80e1317
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 565e375db9b6ac2c64e554a3b575cf961e7acdb9e5c378ec1f29c12e5ac4b335
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509238"
 ---
 # <a name="imagebutton"></a>IMAGEBUTTON
 

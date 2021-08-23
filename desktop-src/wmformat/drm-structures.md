@@ -1,29 +1,29 @@
 ---
-title: Microsoft Windows Media DRM 用戶端結構
-description: Microsoft Windows Media DRM 用戶端結構
+title: Microsoft Windows 媒體 DRM 用戶端結構
+description: Microsoft Windows 媒體 DRM 用戶端結構
 ms.assetid: 794de1b7-d60c-435e-9f77-c4df109b5372
 keywords:
-- Windows Media Format SDK，結構
+- Windows媒體格式 SDK，結構
 - 數位版權管理 (DRM) 、結構
 - DRM (數位版權管理) 、結構
 - DRM 用戶端擴充 Api，結構
 - 用戶端擴充 Api，結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43264c37ed9830026f87998823017d17c9d75f7e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 145381cc6d702dd338176ffa89983de137285dcd7aef946d3ece956eb450880c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447838"
 ---
-# <a name="microsoft-windows-media-drm-client-structures"></a>Microsoft Windows Media DRM 用戶端結構
+# <a name="microsoft-windows-media-drm-client-structures"></a>Microsoft Windows 媒體 DRM 用戶端結構
 
-Windows Media DRM 用戶端擴充 Api 支援下列結構。
+Windows 媒體 DRM 用戶端擴充 api 支援下列結構。
 
 
 
-| 結構或列舉                                                                    | Description                                                                                                                                                 |
+| 結構或列舉                                                                    | 描述                                                                                                                                                 |
 |---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DRM \_ 音訊 \_ 輸出 \_ 保護 \_ 識別碼**](drm-audio-output-protection-ids.md)              | 包含音訊輸出保護識別碼的清單。                                                                                                     |
 | [**DRM \_ 音訊 \_ 輸出 \_ 保護 \_ 識別碼， \_ 例如**](drm-audio-output-protection-ids-ex.md)       | 包含音訊輸出保護識別碼的清單。 此結構會藉由新增版本號碼來擴充 **DRM \_ 音訊 \_ 輸出 \_ 保護 \_ 識別碼** 。          |
@@ -46,10 +46,10 @@ Windows Media DRM 用戶端擴充 Api 支援下列結構。
 | [**WMDRM \_ 授權 \_ 篩選**](wmdrm-license-filter.md)                                      | 包含用來建立授權列舉的篩選資訊。                                                                                           |
 | [**WMDRM \_ 輸出 \_ 保護 \_ 層級**](wmdrm-output-protection-levels.md)                 | 包含授權用來執行各種動作所需的輸出保護層級。                                                                    |
 | [**WMDRMCryptoData**](wmdrmcryptodata.md)                                                  | 包含用來加密和解密內容之密碼編譯演算法的相關資訊。                                                                 |
-| [**WMDRMNET \_ 原則**](wmdrmnet-policy.md)                                                 | 包含用於網路裝置作業之 Windows Media DRM 的原則。                                                                        |
-| [**WMDRMNET \_ 原則的 \_ 全域 \_ 需求**](wmdrmnet-policy-global-requirements.md)       | 保留網路裝置的 Windows Media DRM 全域需求。                                                                                        |
-| [**WMDRMNET \_ 原則的 \_ 最小 \_ 環境**](wmdrmnet-policy-minimum-environment.md)       | 包含網路裝置的 Windows Media DRM 的最低安全性需求。                                                                       |
-| [**WMDRMNET \_ 原則 \_ TRANSCRYPTPLAY**](wmdrmnet-policy-transcryptplay.md)                  | 保存針對網路裝置使用 Windows Media DRM 播放內容的原則資訊。                                                               |
+| [**WMDRMNET \_ 原則**](wmdrmnet-policy.md)                                                 | 包含用於網路裝置作業 Windows 媒體 DRM 的原則。                                                                        |
+| [**WMDRMNET \_ 原則的 \_ 全域 \_ 需求**](wmdrmnet-policy-global-requirements.md)       | 保留網路裝置 Windows 媒體 DRM 的全域需求。                                                                                        |
+| [**WMDRMNET \_ 原則的 \_ 最小 \_ 環境**](wmdrmnet-policy-minimum-environment.md)       | 包含網路裝置 Windows 媒體 DRM 的最低安全性需求。                                                                       |
+| [**WMDRMNET \_ 原則 \_ TRANSCRYPTPLAY**](wmdrmnet-policy-transcryptplay.md)                  | 保留使用網路裝置 Windows 媒體 DRM 播放內容的原則資訊。                                                               |
 
 
 

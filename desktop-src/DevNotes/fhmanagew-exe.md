@@ -4,18 +4,18 @@ ms.assetid: 31A6E1AC-492A-4080-9095-3180FD60A575
 title: FhManagew.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f7c7cdaa5ddba46dc2ead3e4e9a462416758e1e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bbcf8480117dd9d10bf001682bd2c789290e2cebb0369d72afe9624ea1aefd48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538738"
 ---
 # <a name="fhmanagewexe"></a>FhManagew.exe
 
 FhManagew.exe 程式會從目前指派的檔案歷程記錄目標裝置刪除超過指定年齡的檔案版本。
 
-此程式可在 Windows 8 和 Windows Server 2012 及更新版本中使用。
+此程式可在 Windows 8 和 Windows Server 2012 和更新版本中使用。
 
 若要執行此程式，請移至 [ **開始** ] 功能表，按一下 [ **執行**]，然後輸入下列命令。
 
@@ -31,7 +31,7 @@ FhManagew.exe 程式會從目前指派的檔案歷程記錄目標裝置刪除超
 <thead>
 <tr class="header">
 <th>參數</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

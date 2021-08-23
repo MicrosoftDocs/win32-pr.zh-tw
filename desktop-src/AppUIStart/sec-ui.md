@@ -1,25 +1,25 @@
 ---
 title: 安全性考慮 Windows 消費者介面
-description: 本主題提供有關 Windows 消費者介面中安全性考慮的資訊。
+description: 本主題提供 Windows 消費者介面中安全性考慮的相關資訊。
 ms.assetid: D560E59A-D6C8-40a9-AABB-DE5A47C94E6E
 keywords:
-- Windows 消費者介面，安全性
+- Windows消費者介面，安全性
 - Windows 消費者介面的安全性
 - 字串安全性
 - 使用者輸入，驗證
 - 驗證使用者輸入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71b714de3ab12cb10d6e5d9a2e251c34eeeff7a5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f8d8281684dde5a78d458816c3d90c8c75fd96bb8ae7160004667ea302794c37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589198"
 ---
 # <a name="security-considerations-windows-user-interface"></a>安全性考慮： Windows 消費者介面
 
-本主題提供有關 Windows 消費者介面中安全性考慮的資訊。 本主題不提供您需要瞭解的安全性問題。 相反地，請使用它作為此技術領域的起點和參考。
+本主題提供 Windows 消費者介面中安全性考慮的相關資訊。 本主題不提供您需要瞭解的安全性問題。 相反地，請使用它作為此技術領域的起點和參考。
 
 隨著電腦互連能力的增加，開發人員現在必須關注應用程式安全性。 不過，安全性也增強了一般的應用程式安全性和穩定性;因此，開發人員可以使用另一種方式來提供絕佳的使用者體驗。 下列主題將討論使用 Windows 消費者介面時的一些潛在安全性考慮。
 
@@ -42,7 +42,7 @@ ms.locfileid: "104023900"
 
 ## <a name="user-input"></a>使用者輸入
 
-Windows 使用者介面是關於取得和回應使用者的資訊。 不過，輸入不正確資料的使用者可能會中斷您的應用程式，不論他們是否想要這樣做。 因此，基本規則是必須驗證所有輸入。
+Windows 的使用者介面與取得和回應使用者的資訊有關。 不過，輸入不正確資料的使用者可能會中斷您的應用程式，不論他們是否想要這樣做。 因此，基本規則是必須驗證所有輸入。
 
 主要考慮是字串資料，會在 [字串考慮](#string-considerations)中加以討論。 不過，所有類型的輸入都應該先經過驗證，您的應用程式才能使用。 另一個問題是當資料在某個時間點進行驗證，但在使用之前發生變更時，例如，收到提供文字長度的訊息時。 因此，如果資料可能會變更，您應該在使用資料之前檢查資料
 
@@ -72,7 +72,7 @@ Windows 使用者介面是關於取得和回應使用者的資訊。 不過，�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -93,6 +93,6 @@ Windows 使用者介面是關於取得和回應使用者的資訊。 不過，�
 [安全性 Api 的最佳作法](/windows/desktop/SecBP/best-practices-for-the-security-apis)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

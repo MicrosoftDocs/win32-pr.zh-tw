@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 43f051bf90afa231d3b677045468f26d06d55150
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c624ac933228c769248c2980a250a9f89e9ebdaf386aeff951e70ba966311586
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537301"
 ---
 # <a name="cenummediatypesclone-method"></a>CEnumMediaTypes 複製方法
 
@@ -55,7 +55,7 @@ HRESULT Clone(
 
 
 
-| 傳回碼                                                                                                | Description                                                                         |
+| 傳回碼                                                                                                | 描述                                                                         |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 成功。<br/>                                                                 |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl>              | 記憶體不足。<br/>                                                     |

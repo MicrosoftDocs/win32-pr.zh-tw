@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IVectorChangedEventArgs.h
-ms.openlocfilehash: a843574bcaf93ec524173ba76800cc15012c89fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2476f9563b4e2a0cabf9babbcfc265ee4f3549416c2fdfda0dbb0f204b7ca9bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504808"
 ---
 # <a name="ivectorchangedeventargsget_collectionchange-method"></a>IVectorChangedEventArgs：： get \_ CollectionChange 方法
 
@@ -42,9 +42,9 @@ HRESULT get_CollectionChange(
 *值* \[退出，retval\]
 </dt> <dd>
 
-類型： **CollectionChange \** _
+類型： **CollectionChange \***
 
-描述變更之 [_ *CollectionChange* *](/uwp/api/Windows.Foundation.Collections.CollectionChange?view=winrt-19041)列舉中的值。
+[**CollectionChange**](/uwp/api/Windows.Foundation.Collections.CollectionChange?view=winrt-19041)列舉中的值，可描述變更。
 
 </dd> </dl>
 

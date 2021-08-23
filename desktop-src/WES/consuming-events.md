@@ -1,21 +1,21 @@
 ---
-title: '使用事件 (Windows 事件記錄檔) '
+title: '使用事件 (Windows 事件記錄) '
 description: 您可以使用通道或記錄檔中的事件。
 ms.assetid: 17204d3f-0875-42c5-9af4-caca6349a67d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb3fb1b36a0cd4ecf836a8893bc1abc14e46451
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f131f0f3b02485c3c838e9180ea1daaebb4121b8846e5a124f36cfdb6bf377f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106976349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620378"
 ---
-# <a name="consuming-events-windows-event-log"></a>使用事件 (Windows 事件記錄檔) 
+# <a name="consuming-events-windows-event-log"></a>使用事件 (Windows 事件記錄) 
 
 您可以使用通道或記錄檔中的事件。 若要取用事件，您可以使用所有事件，也可以指定 XPath 運算式來識別您想要取用的事件。 若要判斷您可以在 XPath 運算式中使用之事件的元素和屬性，請參閱 [事件架構](eventschema-schema.md)。
 
-Windows 事件記錄檔支援 XPath 1.0 的子集。 如需限制的詳細資訊，請參閱 [XPath 1.0 限制](#xpath-10-limitations)。
+Windows事件記錄檔支援 XPath 1.0 的子集。 如需限制的詳細資訊，請參閱 [XPath 1.0 限制](#xpath-10-limitations)。
 
 下列範例顯示簡單的 XPath 運算式。
 
@@ -86,12 +86,12 @@ XPath Query: *[System[(Level <= 3) and TimeCreated[timediff(@SystemTime) <= 8640
 使用事件的標準終端使用者工具組括：
 
 -   [事件檢視器](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc766042(v=ws.11))
--   Windows PowerShell [new-winevent](/previous-versions//dd367894(v=technet.10)) 指令 Cmdlet
+-   Windows PowerShell [new-winevent](/previous-versions//dd367894(v=technet.10))指令 Cmdlet
 -   [**WevtUtil**](windows-event-log-tools.md)
 
 ## <a name="xpath-10-limitations"></a>XPath 1.0 限制
 
-Windows 事件記錄檔支援 XPath 1.0 的子集。 主要限制是，事件選取器只可以選取代表事件的 XML 元素。 未選取事件的 XPath 查詢無效。 所有有效的選取器路徑都以 \* 或 "Event" 開頭。 所有位置路徑都是在事件節點上運作，並且由一系列步驟組成。 每個步驟都是三個部分的結構：軸、節點測試與述詞。 如需有關這些元件以及 XPath 1.0 的詳細資訊，請參閱 [XML 路徑語言 (XPath) ](https://www.w3.org/TR/xpath)。 Windows 事件記錄檔會在運算式上放置下列限制：
+Windows事件記錄檔支援 XPath 1.0 的子集。 主要限制是，事件選取器只可以選取代表事件的 XML 元素。 未選取事件的 XPath 查詢無效。 所有有效的選取器路徑都以 \* 或 "Event" 開頭。 所有位置路徑都是在事件節點上運作，並且由一系列步驟組成。 每個步驟都是三個部分的結構：軸、節點測試與述詞。 如需有關這些元件以及 XPath 1.0 的詳細資訊，請參閱 [XML 路徑語言 (XPath) ](https://www.w3.org/TR/xpath)。 Windows事件記錄檔會在運算式上放置下列限制：
 
 -   軸：僅支援子 (預設) 和屬性 (以及其速記 "@" ) 軸。
 -   節點測試：僅支援節點名稱和 NCName 測試。 支援 " \* " 字元（可選取任何字元）。

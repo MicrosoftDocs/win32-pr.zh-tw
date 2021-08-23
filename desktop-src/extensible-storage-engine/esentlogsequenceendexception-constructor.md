@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2fddeea7b996a8599a8dfb7abf52fda387b43dfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb1a7c3eac4e357f72050b18f23e446e018e7f6021722acf423b27b8ee8b150a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620148"
 ---
 # <a name="esentlogsequenceendexception-constructor"></a>EsentLogSequenceEndException 函式
 

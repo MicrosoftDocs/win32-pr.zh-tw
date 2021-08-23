@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a2cde35ade1b1e8cbb3705a4c2f1b08f943139c5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 268b30348ac7cb05d99e4f44dc36b6f887adb05a4d0238f2dd9632549360be78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642938"
 ---
 # <a name="uncompress-method-of-the-cim_logicalfile-class"></a>CIM LogicalFile 類別的解壓縮方法 \_
 

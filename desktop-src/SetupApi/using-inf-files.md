@@ -4,12 +4,12 @@ ms.assetid: 128e856c-7c3e-404e-b01e-144ab30bbb48
 title: 使用 INF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f96c0f0aecc548999791dba977e06a2a3147af8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11ad05461e2653945deb32bb324168686581fd196bd5e475e9326f0de13dbb7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664618"
 ---
 # <a name="using-inf-files"></a>使用 INF 檔案
 

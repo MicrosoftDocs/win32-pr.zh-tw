@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 160f97a3a00ddc7bbf69989991b2794ab3d6e5e8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 50dde79e57ca7edf838f05b1fa1b4d10f5da5cc936b3cbf563c7838703650806
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567028"
 ---
 # <a name="id3dx10meshcommittodevice-method"></a>ID3DX10Mesh：： CommitToDevice 方法
 

@@ -3,7 +3,7 @@ title: 'LVM_GETHOTCURSOR 訊息 (Commctrl .h) '
 description: 在啟用熱追蹤時，抓取指標在專案上方時所使用的 HCURSOR 值。 您可以明確地傳送此訊息，或使用 ListView \_ GetHotCursor 宏。
 ms.assetid: 064d04b2-d74e-4a80-aec6-97a3c53fc4fb
 keywords:
-- LVM_GETHOTCURSOR message Windows 控制項
+- LVM_GETHOTCURSOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddd8fa4c038bf2fb1c10816319504dd9de32c0e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e5703d252d239124b78656c4a5991efdecb2107552fb6e2ab0f87701af4e18d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540798"
 ---
 # <a name="lvm_gethotcursor-message"></a>LVM \_ GETHOTCURSOR 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103686284"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

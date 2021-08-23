@@ -67,12 +67,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 854a90f5b0fa4d331bd0478d104e50dd70b0cd65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c4a42432a11b5cde0df657ba2a9725a68d76a055fce3787bce56c10dfd227ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539268"
 ---
 # <a name="microsoftdns_server-class"></a>MicrosoftDNS \_ 伺服器類別
 
@@ -635,7 +635,7 @@ DNS 伺服器 debug 記錄檔的檔案名和路徑。 預設值為% system32% \\
 | <span id="512"></span><dl> <dt>**512**</dt> </dl>               | 答案。<br/>                                 |
 | <span id="4096"></span><dl> <dt>**4096**</dt> </dl>             | Send。<br/>                                    |
 | <span id="8192"></span><dl> <dt>**8192**</dt> </dl>             | 接收。<br/>                                 |
-| <span id="16384"></span><dl> <dt>**16384**</dt> </dl>           | Udp。<br/>                                     |
+| <span id="16384"></span><dl> <dt>**16384**</dt> </dl>           | UDP。<br/>                                     |
 | <span id="32768"></span><dl> <dt>**32768**</dt> </dl>           | TCP。<br/>                                     |
 | <span id="65535"></span><dl> <dt>**65535**</dt> </dl>           | 所有封包。<br/>                             |
 | <span id="65536"></span><dl> <dt>**65536**</dt> </dl>           | NT 目錄服務寫入交易。<br/>  |
@@ -808,7 +808,7 @@ DNS 伺服器放棄遞迴查詢之前經過的秒數。 如果屬性未定義或
 | <span id="0"></span><dl> <dt>**0**</dt> </dl> | 無<br/>        |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | TCP<br/>         |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | 具名管道<br/> |
-| <span id="4"></span><dl> <dt>**4**</dt> </dl> | Lpc<br/>         |
+| <span id="4"></span><dl> <dt>**4**</dt> </dl> | LPC<br/>         |
 
 
 

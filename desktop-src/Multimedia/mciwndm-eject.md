@@ -3,7 +3,7 @@ title: 'MCIWNDM_EJECT 訊息 (Vfw .h) '
 description: MCIWNDM \_ 退出訊息會將命令傳送至 MCI 裝置，以將其媒體退出。 您可以使用 MCIWndEject 宏明確地傳送此訊息。
 ms.assetid: a492f504-8b58-480e-9766-bc2878466c44
 keywords:
-- MCIWNDM_EJECT message Windows 多媒體
+- MCIWNDM_EJECT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e41686ce41b82dc48ee6c22ac556606c79c5b24a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66c752f192e8f74f2c6e861e581fd22a561bafd9ff6c0f369ba669bc4bf87fb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429428"
 ---
 # <a name="mciwndm_eject-message"></a>MCIWNDM \_ 退出訊息
 

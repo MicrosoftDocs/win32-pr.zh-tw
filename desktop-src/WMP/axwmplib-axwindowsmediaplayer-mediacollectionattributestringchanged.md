@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b83d8036ca0dca7f79e2a9ba721830447f9c5a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5dcc755d1a183525923b91ce2de7937860582c3cf795d13cbf4a8c22d7c9c37f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618778"
 ---
 # <a name="mediacollectionattributestringchanged-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 MediaCollectionAttributeStringChanged 事件
 
@@ -47,7 +47,7 @@ Private Sub player_MediaCollectionAttributeStringChanged(
 
 | 屬性         | 描述                                                                                                                                                                                  |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| bstrAttribName   | StringSpecifies 屬性的名稱。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 [屬性參考](attribute-reference.md)。<br/> |
+| bstrAttribName   | StringSpecifies 屬性的名稱。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱[屬性參考](attribute-reference.md)。<br/> |
 | bstrOldAttribVal | StringSpecifies 屬性的舊值。<br/>                                                                                                                            |
 | bstrNewAttribVal | StringSpecifies 屬性的新值。<br/>                                                                                                                            |
 

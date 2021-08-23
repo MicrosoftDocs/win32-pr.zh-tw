@@ -4,12 +4,12 @@ ms.assetid: 0e198e36-c025-4745-a841-3a23ea3d40aa
 title: Winsock SPI 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da37b5a7ea166af3e3c335f2d520034509e57391
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ef3c516bd695ecbf249556aa05bafda47b8e87d36c487c10217bc010ffa8f5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569058"
 ---
 # <a name="winsock-spi-structures"></a>Winsock SPI 結構
 
@@ -17,7 +17,7 @@ ms.locfileid: "104191730"
 
 
 
-| Winsock SPI 結構                                         | Description                                                                                                   |
+| Winsock SPI 結構                                         | 描述                                                                                                   |
 |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | [**NSP \_ 常式**](/windows/desktop/api/Ws2spi/ns-ws2spi-nsp_routine)                           | 包含命名空間服務提供者第1版 (NSPv1) 提供者所執行函數的資訊。 |
 | [**NSPV2 \_ 常式**](/windows/desktop/api/Ws2spi/ns-ws2spi-nspv2_routine)                       | 包含命名空間服務提供程式第2版 (NSPv2) 提供者所執行函數的資訊。 |

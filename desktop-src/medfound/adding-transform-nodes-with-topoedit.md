@@ -4,12 +4,12 @@ ms.assetid: e1725c37-3f04-4208-9c09-56ce9a854138
 title: 使用 TopoEdit 新增轉換節點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97fa39457f8808070f93a4e5de31e181525ca33b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b9357b08230b706dc9215cebdbc60d226cadaf0a3f1d7b29f533324ae2e3b1f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664928"
 ---
 # <a name="adding-transform-nodes-with-topoedit"></a>使用 TopoEdit 新增轉換節點
 

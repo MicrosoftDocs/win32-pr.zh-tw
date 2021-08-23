@@ -4,12 +4,12 @@ ms.assetid: 53D393B4-BFF1-430F-9CD1-5071336E6F04
 title: 'MF_SA_MINIMUM_OUTPUT_SAMPLE_COUNT 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf168158fd6a5f9a173d4d5d25dda3fa5b16d2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79a7d00fcb5a11d756ed4848e3e600a6fd1cca32203ff7234cb01963dfcb5149
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663908"
 ---
 # <a name="mf_sa_minimum_output_sample_count-attribute"></a>MF \_ SA \_ 最小 \_ 輸出 \_ 範例 \_ 計數屬性
 
@@ -34,8 +34,8 @@ ms.locfileid: "104191628"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

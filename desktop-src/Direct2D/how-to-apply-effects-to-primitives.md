@@ -4,18 +4,18 @@ description: 本主題說明如何將一連串效果套用至 Direct2D 和 Direc
 ms.assetid: 9782C22E-5D4C-494D-A0B1-19474C2CA900
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aafb171c20c567d1fbd6385d23cc3b2925efc154
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c17cbf1efe17d1c23c90382f3b95fb41e33946a93935b0be02fc5b41f314a8c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569576"
 ---
 # <a name="how-to-apply-effects-to-primitives"></a>如何將效果套用至基本專案
 
-本主題說明如何將一連串效果套用至 [Direct2D](./direct2d-portal.md) 和 [DirectWrite](direct2d-and-directwrite.md) 基本專案。
+本主題說明如何將一連串效果套用至[Direct2D](./direct2d-portal.md)和[DirectWrite](direct2d-and-directwrite.md)基本專案。
 
-您可以使用 [Direct2D 效果 API](effects-overview.md) ，將效果圖形套用至 [Direct2D](./direct2d-portal.md) 轉譯成影像的基本專案。 這裡的範例有兩個圓角矩形和文字 "Direct2D"。 使用 Direct2D 繪製矩形和 [DirectWrite](direct2d-and-directwrite.md) 來繪製文字。
+您可以使用 [Direct2D 效果 API](effects-overview.md) ，將效果圖形套用至 [Direct2D](./direct2d-portal.md) 轉譯成影像的基本專案。 這裡的範例有兩個圓角矩形和文字 "Direct2D"。 使用 Direct2D 繪製矩形， [DirectWrite](direct2d-and-directwrite.md)繪製文字。
 
 ![內有文字 "direct2d" 的矩形。](images/direct2d-rounded.png)
 
@@ -157,6 +157,6 @@ ms.locfileid: "104376153"
 
     
 
- 
+ 
 
- 
+ 

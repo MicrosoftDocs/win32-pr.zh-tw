@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103910
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b1a130b67384b238a8ea70a130d04cd8d5885e02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7548a46f71c128bd8607f8537e4646c98cdb07772357cf253fdd3d39f0cc2617
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104557678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473128"
 ---
 # <a name="jet_snprog-properties"></a>JET_SNPROG 屬性
 

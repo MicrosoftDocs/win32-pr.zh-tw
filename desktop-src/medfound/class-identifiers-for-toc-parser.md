@@ -4,12 +4,12 @@ ms.assetid: f82d92dc-fbce-4274-a10f-72fa8dd776cc
 title: '目錄剖析器的類別識別碼 (Wmcodecdsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5108855c687085e77ce36aa14b3424732e25572
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12c340ec32b8de4ce42619d57f6e44da9d77d0eead4940dc94d90baec4d349ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664688"
 ---
 # <a name="class-identifiers-for-table-of-contents-parser"></a>目錄剖析器的類別識別碼
 
@@ -79,8 +79,8 @@ __uuidof(CTocGeneratorDmo)
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmvdspa.dll</dt> </dl>  |
 

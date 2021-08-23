@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca6b66b910251c641832cde3ddd93d6479f66be7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6dc40a45cc28179acd8e5dc9fff17df8b8accddd8dffda3ea299571e11d46564
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642628"
 ---
 # <a name="sessionenumerate-method"></a>Session. 列舉方法
 
@@ -79,7 +79,7 @@ Session.Enumerate( _
 *方言* \[在中，選擇性\]
 </dt> <dd>
 
-篩選所使用的語言。 [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi)（WMI 所使用的 SQL 子集）是唯一支援的語言。
+篩選所使用的語言。 [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi)是 WMI 使用的 SQL 子集，是唯一支援的語言。
 
 如果您有 *resourceURI* 參數的 [**ResourceLocator**](resourcelocator.md)物件，則不應使用此參數。
 
@@ -152,7 +152,7 @@ End Sub
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
@@ -162,7 +162,7 @@ End Sub
 
 <dl> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> <dt>
 
 [查詢資源的特定實例](querying-for-specific-instances-of-a-resource.md)

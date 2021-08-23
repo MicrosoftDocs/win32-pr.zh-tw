@@ -5,12 +5,12 @@ ms.assetid: 984e21cf-3671-4aca-9e8e-bcad1fa2f02c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4630bfc41ecbc0cc9372ae6bb99ce6d3184e4b6e
-ms.sourcegitcommit: 2e9db3c7d9a3dbea15196b03c883846fad6f32be
+ms.openlocfilehash: 0a39042997fd61b3e8bb96eb7fb8030d0fbe1c91d7aa84b9c1482319355db411
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103679027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620688"
 ---
 # <a name="display-event-collector-subscription-properties"></a>顯示事件收集器訂用帳戶屬性
 
@@ -22,7 +22,7 @@ ms.locfileid: "103679027"
 >
 > **>wecutil gs** *SubscriptionName*
 
- 
+ 
 
 若要顯示其屬性，請指定訂用帳戶的名稱。 如需如何在本機電腦上列出目前訂用帳戶名稱的詳細資訊和 c + + 程式碼範例，請參閱 [列出事件收集器](listing-event-collector-subscriptions.md)訂用帳戶，或者您可以在命令提示字元中輸入下列命令：
 
@@ -777,12 +777,12 @@ std::wstring ConvertEcSubscriptionType(DWORD code)
 [列出事件收集器訂閱](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Windows 事件收集器參考](windows-event-collector-reference.md)
+[Windows事件收集器參考](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

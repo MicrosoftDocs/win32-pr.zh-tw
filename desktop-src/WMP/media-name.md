@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9de8095d88c3ddec9049e0b43461adcf5553ec74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3abe6df00b5674cfbd443a5838b208814e30c5ecf75875586907314fc3a39d9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616854"
 ---
 # <a name="medianame"></a>Media.name
 
@@ -43,7 +43,7 @@ ms.locfileid: "106999365"
 
 ## <a name="examples"></a>範例
 
-下列 JScript 範例會使用 *媒體*。要變更目前媒體專案名稱的 **名稱** 。 名為 NameText 的 HTML 文字輸入元素可讓使用者輸入新名稱的文字字串。 使用 ID = "Player" 建立 **player** 物件。
+下列 JScript 範例會使用 *媒體*。要變更目前媒體專案名稱的 **名稱**。 名為 NameText 的 HTML 文字輸入元素可讓使用者輸入新名稱的文字字串。 使用 ID = "Player" 建立 **player** 物件。
 
 
 ```JScript

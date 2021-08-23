@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility 直接批註、值對應注釋和伺
 ms.assetid: 113fea65-982e-4291-9d60-bbb57282f3f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0453d3b5d05e2713d1a57fb0f475d4ec2a481b02
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c58d30abe3d34fc61a9c85ebce0f6f6e38d51a43b70bef7d28f82adc4b476d74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570928"
 ---
 # <a name="types-of-dynamic-annotation"></a>動態注釋的類型
 
@@ -21,7 +21,7 @@ Microsoft Active Accessibility 中支援三種動態注釋類型： *直接批�
 
 ## <a name="value-map-annotation"></a>值對應注釋
 
-除了直接批註 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 屬性以外，通常還需要將控制項特定的值轉換成可由使用者理解的字串。 例如，在 [設定] 索引標籤的 [**設定**] 索引標籤下的 [螢幕解析度] 滑杆控制項， (**主控台**) 的 **顯示內容**。 雖然每個滑杆位置都對應至不同的解析度 (例如，640 x 480、1024 x 768) 、控制項並不知道此關聯性，也無法將這項資訊傳遞給 Microsoft Active Accessibility。
+除了直接批註 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 屬性以外，通常還需要將控制項特定的值轉換成可由使用者理解的字串。 例如，在 [**顯示內容**] 視窗的 [**設定**] 索引標籤下的 [螢幕解析度] 滑杆控制項， (**主控台**) 。 雖然每個滑杆位置都對應至不同的解析度 (例如，640 x 480、1024 x 768) 、控制項並不知道此關聯性，也無法將這項資訊傳遞給 Microsoft Active Accessibility。
 
 值對應批註可讓這項工作更容易。 您可以使用這種形式的注釋來指定滑杆值的字串，並指定清單和樹狀檢視中圖示的角色、狀態和描述。 如需詳細資訊，請參閱 [值對應注釋](value-map-annotation.md)。
 
@@ -31,9 +31,9 @@ Microsoft Active Accessibility 中支援三種動態注釋類型： *直接批�
 
 伺服器批註的一個特別有用的功能是，可以註冊一次伺服器來處理容器及其所有子系的要求。 比方說，單一伺服器可以設定一次，以處理所有專案的要求是一個清單方塊。 如需詳細資訊，請參閱 [伺服器注釋](server-annotation.md)。
 
- 
+ 
 
- 
+ 
 
 
 

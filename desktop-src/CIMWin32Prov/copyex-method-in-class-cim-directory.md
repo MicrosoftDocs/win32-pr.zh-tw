@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1d7502c46c616d9b8e1fffeebf5aefcd022dd4cc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6ef84023cc5c6f42aa398cf1591ab381a634330b3423f381f5b386607e305b79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504878"
 ---
 # <a name="copyex-method-of-the-cim_directory-class"></a>CIM 目錄類別的 CopyEx 方法 \_
 
@@ -145,7 +145,7 @@ uint32 CopyEx(
 
 12
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

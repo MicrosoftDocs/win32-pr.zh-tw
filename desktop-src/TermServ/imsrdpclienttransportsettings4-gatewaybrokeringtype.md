@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98d0a8588331d775cecb667375e0db6d873f59e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aab168b185a20f0a6371e9d3182b1e120ec5b52d27331a412bb3c71564b8edd1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620768"
 ---
 # <a name="imsrdpclienttransportsettings4gatewaybrokeringtype-property"></a>IMsRdpClientTransportSettings4：： GatewayBrokeringType 屬性
 

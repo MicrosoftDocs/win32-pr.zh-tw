@@ -1,5 +1,5 @@
 ---
-title: 'IWMPQuery (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPQuery (VB 和 C ) 介面 (Wmp. h) '
 description: 表示複合查詢。
 ms.assetid: b9cfeec9-f928-4b12-88c2-0f78b26f8687
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85468f6118f013bdd101ecbc527aa5d76e222088
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5e3b101d7fdc650eda5df3c34f8290e4dafc0d0d159f5f174bc84c48cf14c017
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508578"
 ---
 # <a name="iwmpquery-vb-and-c-interface"></a>IWMPQuery (VB 和 c # ) 介面
 
@@ -73,7 +73,7 @@ ms.locfileid: "106979892"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPMediaCollection2. createQuery (VB 和 c # )**](wmplibiwmpmediacollection2-iwmpmediacollection2-createquery--vb-and-c.md)

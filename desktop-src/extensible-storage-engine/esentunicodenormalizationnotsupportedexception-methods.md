@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103149
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 59fd3b5e8e3f560788a6fe3bf7e9ed6b2bee53b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9500bfd81da28c9309bf2a22560f22a502acc7cc1ac32352ddf87e8d2d3033d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618468"
 ---
 # <a name="esentunicodenormalizationnotsupportedexception-methods"></a>EsentUnicodeNormalizationNotSupportedException 方法
 

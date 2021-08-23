@@ -21,12 +21,12 @@ keywords:
 - 控制項模式，>itemcontainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb29232b06304079ad5b9dfdfb589ad510a5b51f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0e2c0e84f91af6bcaadef5af373b73057fb4a137480255f3ee1af4456e45eaf1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570368"
 ---
 # <a name="working-with-virtualized-items"></a>使用虛擬化專案
 
@@ -67,9 +67,9 @@ ms.locfileid: "104301580"
 [UI 自動化控制項模式概觀](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
