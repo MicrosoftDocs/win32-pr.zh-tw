@@ -4,12 +4,12 @@ ms.assetid: 21aaf8f0-13b7-4f97-ad4a-3557a7020337
 title: '筆觸常數 (Tabflicks .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b9a83f9a35a2c1a9cbd7c4b048a8c985f5eea34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e927d0715c9f34e7e1db979c32545a0d8c8efad18186192a751f2cdbed13172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092645"
 ---
 # <a name="flicks-constants"></a>筆觸常數
 
@@ -19,7 +19,7 @@ ms.locfileid: "104113420"
 
 | 常數/值                                                                                                                                                                                                                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="FLICK_WM_HANDLED_MASK"></span><span id="flick_wm_handled_mask"></span><dl> <dt>**筆鋒 \_WM \_ 處理的 \_ 遮罩**</dt> <dt>0x1</dt> </dl> | 處理 [**WM \_ TABLET \_ 筆鋒訊息**](wm-tablet-flick-message.md) 訊息之後要傳回的值。 如果傳回了 [筆觸 **\_ WM \_ 處理的 \_ 遮罩** ]，就不會進行任何進一步的動作。 否則，Windows 會傳送後續通知（例如， [**wm \_ APPCOMMAND**](/windows/desktop/inputdev/wm-appcommand)、 [**WM \_ VSCROLL**](/windows/desktop/Controls/wm-vscroll)或 [**wm \_ KEYDOWN**](/windows/desktop/inputdev/wm-keydown)），這取決於與筆觸相關聯的動作。 <br/> |
+| <span id="FLICK_WM_HANDLED_MASK"></span><span id="flick_wm_handled_mask"></span><dl> <dt>**筆鋒 \_WM \_ 處理的 \_ 遮罩**</dt> <dt>0x1</dt> </dl> | 處理 [**WM \_ TABLET \_ 筆鋒訊息**](wm-tablet-flick-message.md) 訊息之後要傳回的值。 如果傳回了 [筆觸 **\_ WM \_ 處理的 \_ 遮罩** ]，就不會進行任何進一步的動作。 否則，Windows 會傳送後續通知，例如 [**wm \_ APPCOMMAND**](/windows/desktop/inputdev/wm-appcommand)、 [**WM \_ VSCROLL**](/windows/desktop/Controls/wm-vscroll)或 [**WM \_ KEYDOWN**](/windows/desktop/inputdev/wm-keydown)，取決於與筆觸相關聯的動作。 <br/> |
 | <span id="NUM_FLICK_DIRECTIONS"></span><span id="num_flick_directions"></span><dl> <dt>**NUM \_筆鋒 \_ 方向**</dt> <dt>8</dt> </dl>       | 在 [**FLICKDIRECTION**](/windows/desktop/api/tabflicks/ne-tabflicks-flickdirection) 列舉中定義的方向數目。<br/>                                                                                                                                                                                                                                                                                                                                                              |
 
 
@@ -30,8 +30,8 @@ ms.locfileid: "104113420"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Tabflicks。h</dt> </dl> |
 
 

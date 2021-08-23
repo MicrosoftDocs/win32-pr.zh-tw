@@ -4,16 +4,16 @@ description: 建立可用來產生進一步 DXCore 物件的 DXCore 介面卡 fa
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 3f5164578da87af8f4d92c3bedcecb6f3dbaa95e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90567d732f6febc5d95b460b2ff88929dd12b2f22275de9db0d6bc5f88ef99ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985178"
 ---
 # <a name="dxcorecreateadapterfactory-function"></a>DXCoreCreateAdapterFactory 函式
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 建立可用來產生進一步 DXCore 物件的 DXCore 介面卡 factory。 如需程式設計指引和程式碼範例，請參閱 [使用 DXCore 來列舉介面卡](../dxcore-enum-adapters.md)。
 

@@ -4,12 +4,12 @@ ms.assetid: 17add726-3d95-46bc-8e15-3be0e570c49c
 title: 'Direct3d (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08729cc7252c39ddf71048991a796469f2e8b0b2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 529320673eca39cf4b9afdb96377295d595191fd79cd81c316b258841d82ae6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988198"
 ---
 # <a name="direct3d-surfaces-direct3d-9"></a>Direct3d (Direct3D 9) 
 

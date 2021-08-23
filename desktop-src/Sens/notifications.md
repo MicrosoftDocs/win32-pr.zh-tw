@@ -4,12 +4,12 @@ ms.assetid: 19311dec-4611-4104-b6e4-ff8f7c8af0e7
 title: '通知 (系統事件通知服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 272f0ea60369015328e34d3a83231ab0b254253a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4db908c48c38ccd39c6c9a427b77e3cefffc7b9bf8fad6e464ebdf146a138e57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003966"
 ---
 # <a name="notifications-system-event-notification-service"></a>通知 (系統事件通知服務) 
 
@@ -29,7 +29,7 @@ SENS 可以通知應用程式有三個系統事件類別：
 -   剩餘電池計量的百分比在指定的參數內
 -   發生使用同步處理管理員的已排程事件
 
-**Windows Server 2008 R2 和 windows 7：** 訂閱者最多需要3分鐘的時間，才能回應 [**ISensLogon**](/windows/desktop/api/Sensevts/nn-sensevts-isenslogon) 和 [**ISensLogon2**](/windows/desktop/api/Sensevts/nn-sensevts-isenslogon2) 介面上的通知。 3分鐘之後，SENS 會取消對訂閱者的呼叫，並解除封鎖通知執行緒。 如果需要較長的作業來回應通知，請儘快傳回 **ISensLogon** 或 **ISensLogon2** ，然後開啟另一個執行緒進行處理。
+**Windows Server 2008 R2 和 Windows 7：** 訂閱者最多需要3分鐘的時間，才能回應 [**ISensLogon**](/windows/desktop/api/Sensevts/nn-sensevts-isenslogon)和 [**ISensLogon2**](/windows/desktop/api/Sensevts/nn-sensevts-isenslogon2)介面上的通知。 3分鐘之後，SENS 會取消對訂閱者的呼叫，並解除封鎖通知執行緒。 如果需要較長的作業來回應通知，請儘快傳回 **ISensLogon** 或 **ISensLogon2** ，然後開啟另一個執行緒進行處理。
 
  
 

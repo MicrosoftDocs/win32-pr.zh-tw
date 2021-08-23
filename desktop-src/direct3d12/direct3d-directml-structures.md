@@ -5,12 +5,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: f6138bc04ce317a014345bfe8fd91ae335288a4e
-ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
+ms.openlocfilehash: 40e670865ee1d2b1610793ca667e7583620867b9be2250e49c55c340718da31c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113353611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989538"
 ---
 # <a name="directml-structures"></a>DirectML 結構
 

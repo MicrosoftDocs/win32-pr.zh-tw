@@ -3,7 +3,7 @@ title: 'TB_INDETERMINATE 訊息 (Commctrl .h) '
 description: 在工具列中設定或清除指定之按鈕的不定狀態。
 ms.assetid: 6a0f2b82-8241-4c2e-b349-606975ba1a24
 keywords:
-- TB_INDETERMINATE message Windows 控制項
+- TB_INDETERMINATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7f1de35f9621de4f51d371bb50dbda637d720cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90845f269d0af1e690d5ddeb02f2a8ec2a2f63ff4f698f1dd0f3e2729d98b72c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078262"
 ---
 # <a name="tb_indeterminate-message"></a>TB \_ 不定訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104024921"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

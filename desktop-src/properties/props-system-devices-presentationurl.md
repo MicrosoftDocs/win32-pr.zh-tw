@@ -4,12 +4,12 @@ ms.assetid: 58c116db-ca0e-470d-830f-464436f87853
 title: PresentationUrl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b229b904a1919e91b066205d36dd280688d551
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e558e7afaa0353f8e5932c87a5d812bee220ad8699680b4d6a926d3f4e182c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097267"
 ---
 # <a name="systemdevicespresentationurl"></a>PresentationUrl
 

@@ -4,12 +4,12 @@ ms.assetid: 53002298-5ef3-4c5d-bd9d-70f8c82789e9
 title: Status1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aba6dcd4190c262f91947e8dc17e6bf6e63e4ac4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc6a23ca19a1dac4d82eb31c60b78294e63cf383d49b45511ab9c7d155744a35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097087"
 ---
 # <a name="systemdevicesstatus1"></a>Status1
 

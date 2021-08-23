@@ -4,16 +4,16 @@ ms.assetid: 69de5232-e2f9-4aed-935d-5fbcd7998cc9
 title: 準備開始使用 CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6fc1ad0dbfe3d4f8c4dae3286eb3ffa5e1ae03d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83a6b76c293395fd0979cf5c304b27bae75622996279bd891b8c0c1301dca82e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006627"
 ---
 # <a name="getting-ready-to-use-capicom"></a>準備開始使用 CAPICOM
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 使用 CAPICOM 物件的應用程式必須使用 CAPICOM.dll 建立。 CAPICOM.dll 也必須存在，並且在執行時間註冊以使用 CAPICOM 物件。 CAPICOM.dll 應新增至 Visual Basic 專案參考，才能使用 CAPICOM 物件。
 
@@ -37,7 +37,7 @@ ms.locfileid: "106988930"
 
 **建立自我簽署憑證**
 
-1.  安裝簽署工具。 這些會安裝為 Microsoft Windows 軟體開發套件 (SDK) 、平臺軟體發展工具組 (SDK) 或 .NET Framework SDK 的一部分。
+1.  安裝簽署工具。 這些會安裝為 Microsoft Windows 軟體開發套件 (sdk) 、平臺軟體發展工具組 (SDK) 或 .NET Framework sdk 的一部分。
 2.  下載 Makecert.exe 之後，請在命令提示字元中執行下列命令、將使用者名稱 *取代為使用者* 名稱、 *OrganizationName* 的組織名稱，以及用於公司 *名稱的公司名稱：*
 
     **makecert-r-n "cn =**_UserName_*_，ou =_*_OrganizationName_*_，o =_*_公司名稱_*_"-ss my_*

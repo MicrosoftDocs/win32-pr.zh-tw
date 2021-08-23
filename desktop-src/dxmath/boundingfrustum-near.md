@@ -4,12 +4,12 @@ ms.assetid: e94d30e5-a63a-4dab-8947-d0c77e7db044
 title: 'BoundingFrustum： Near (DirectXCollision. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2db0c2ff928133df279d018b4abb7ee1d3dd3465
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8d0d7335fbb180ced71ae85f97d128b32df4bd9330c673fa66e72d147098afd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985078"
 ---
 # <a name="boundingfrustumnear"></a>BoundingFrustum 近
 
@@ -27,7 +27,7 @@ public:
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

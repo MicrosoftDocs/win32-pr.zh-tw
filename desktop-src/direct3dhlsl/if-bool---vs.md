@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 261ff572cbaf519cc0099f3ab68d1a0becca706f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b113c806342d786d258713128bc2cadcbb000235c2639f49e5b57ce3fa3bd2e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986528"
 ---
 # <a name="if-bool---vs"></a>if bool-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104022792"
 
 
 
- 
+ 
 
 其中 bool 是 bool 暫存器號碼。 請參閱 [常數布林值](dx9-graphics-reference-asm-vs-registers-constant-boolean.md)暫存器。
 
@@ -43,7 +43,7 @@ ms.locfileid: "104022792"
 
 
 
- 
+ 
 
 如果 if 語句中的來源布林值暫存器為 true，則會執行 if 語句所括住的程式碼和相符的 else。 否則，程式碼會以 [其他](else---vs.md).。。[endif-執行 vs](endif---vs.md) 語句。 此指令會使用一個指令位置。
 
@@ -85,9 +85,9 @@ endif
 [endif-vs](endif---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

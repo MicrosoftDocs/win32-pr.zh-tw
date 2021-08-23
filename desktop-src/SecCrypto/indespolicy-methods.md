@@ -4,12 +4,12 @@ ms.assetid: 9F254D08-9B92-4E6F-91CF-CC105AFE6373
 title: INDESPolicy 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bcc182da589fd806710b601fcf06453adf7cb57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd6176e69c2884ce36f2f425ec9046717938babeb2baf8681a382882248379c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005306"
 ---
 # <a name="indespolicy-methods"></a>INDESPolicy 方法
 

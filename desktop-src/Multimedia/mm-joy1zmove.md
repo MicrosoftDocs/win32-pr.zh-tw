@@ -3,7 +3,7 @@ title: 'MM_JOY1ZMOVE 訊息 (Mmsystem .h) '
 description: MM \_ JOY1ZMOVE 訊息會通知視窗，該視窗已捕捉至 Z 軸上的搖桿位置已變更的搖桿 JOYSTICKID1。
 ms.assetid: 25d98963-03e6-4276-a132-256e8bbfa73b
 keywords:
-- MM_JOY1ZMOVE message Windows 多媒體
+- MM_JOY1ZMOVE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7d4db3db8c1817f0502ce14cc5328ad666b32c9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6b0efe11870ac822f7fe8aa0f7aa1deb4856bd8f1394bd1533362d78a3aee00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065538"
 ---
 # <a name="mm_joy1zmove-message"></a>MM \_ JOY1ZMOVE 訊息
 
@@ -73,7 +73,7 @@ zPos = LOWORD(lParam);
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: 'LVM_INSERTGROUP 訊息 (Commctrl .h) '
 description: 將群組插入清單視圖控制項。
 ms.assetid: d43e21bc-e212-42dd-af88-48813d40cd50
 keywords:
-- LVM_INSERTGROUP message Windows 控制項
+- LVM_INSERTGROUP 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94dbae780f7de26a5c791477e1a7321794054056
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f31504226663b0df91e0297ed29abf784ff239dfcee5f323e8617f73dff65acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106996186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019246"
 ---
 # <a name="lvm_insertgroup-message"></a>LVM \_ INSERTGROUP 訊息
 
@@ -58,8 +58,8 @@ ms.locfileid: "106996186"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

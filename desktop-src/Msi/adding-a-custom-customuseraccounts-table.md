@@ -4,18 +4,18 @@ ms.assetid: 1545b4f1-3ccf-4745-90d8-15f1f79d8455
 title: 新增自訂 CustomUserAccounts 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d58366c725ecc135b9583c926a16383a5ad5a01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ede08ad733e2870e970416da3de345bfc89b7e63147bc848f3d36ffe66721585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066458"
 ---
 # <a name="adding-a-custom-customuseraccounts-table"></a>新增自訂 CustomUserAccounts 資料表
 
 範例的規格是從安裝資料庫中的自訂資料表讀取使用者帳戶資訊，而不是硬式編碼為自訂動作。
 
-將自訂資料表新增至名為 CustomUserAccounts 的範例安裝資料庫，以保存使用者帳戶資訊。 如需如何加入自訂資料表的範例，請參閱 [使用 SQL 和腳本的資料庫查詢範例](examples-of-database-queries-using-sql-and-script.md) 。 針對 CustomUserAccounts 資料表使用下列架構。 如需資料行類型的說明，請參閱資料 [行定義格式](column-definition-format.md) 。
+將自訂資料表新增至名為 CustomUserAccounts 的範例安裝資料庫，以保存使用者帳戶資訊。 如需如何加入自訂資料表的範例，請參閱[使用 SQL 和腳本的資料庫查詢範例](examples-of-database-queries-using-sql-and-script.md)。 針對 CustomUserAccounts 資料表使用下列架構。 如需資料行類型的說明，請參閱資料 [行定義格式](column-definition-format.md) 。
 
 
 
@@ -49,9 +49,9 @@ CustomUserAccounts 資料表
 
 
 
-| 資料表              | 資料行     | Nullable | MinValue | MaxValue   | KeyTable | KeyColumn | 類別                     | 設定 | Description |
+| 資料表              | 資料行     | Nullable | MinValue | MaxValue   | KeyTable | KeyColumn | 類別                     | 集合 | 描述 |
 |--------------------|------------|----------|----------|------------|----------|-----------|------------------------------|-----|-------------|
-| CustomUserAccounts | UserName   | N        |          |            |          |           | [Text](text.md)             |     |             |
+| CustomUserAccounts | 使用者名稱   | N        |          |            |          |           | [Text](text.md)             |     |             |
 | CustomUserAccounts | 密碼   | N        |          |            |          |           | [識別碼](identifier.md) |     |             |
 | CustomUserAccounts | 屬性 | Y        | 0        | 2147483647 |          |           | null                         |     |             |
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a339a1549b76f61499b7192a48edc7c1b86a6c67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c918065515322696a33114d2d9b09b7b72d12eb6b74e120a7963835a23321fe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002476"
 ---
 # <a name="emailaction-object"></a>EmailAction 物件
 
@@ -40,13 +40,13 @@ ms.locfileid: "103844156"
 
 
 
-| 屬性                                                    | 存取類型           | Description                                                                                               |
+| 屬性                                                    | 存取類型           | 描述                                                                                               |
 |:------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------|
 | [**附件**](emailaction-attachments.md)<br/>   | 讀取/寫入<br/> | 取得或設定與電子郵件訊息一起傳送的附件陣列。<br/>                      |
 | [**密件副本**](emailaction-bcc.md)<br/>                   | 讀取/寫入<br/> | 取得或設定要在電子郵件訊息中密件副本的電子郵件地址。<br/>         |
 | [**主體**](emailaction-body.md)<br/>                 | 讀取/寫入<br/> | 取得或設定包含電子郵件訊息的電子郵件內文。<br/>                            |
 | [**Cc**](emailaction-cc.md)<br/>                     | 讀取/寫入<br/> | 取得或設定要在電子郵件訊息中抄送的電子郵件地址。<br/>          |
-| [**寄件者**](emailaction-from.md)<br/>                 | 讀取/寫入<br/> | 取得或設定要傳送電子郵件的電子郵件地址。<br/>                           |
+| [**從**](emailaction-from.md)<br/>                 | 讀取/寫入<br/> | 取得或設定要傳送電子郵件的電子郵件地址。<br/>                           |
 | [**HeaderFields**](emailaction-headerfields.md)<br/> | 讀取/寫入<br/> | 取得或設定要傳送的電子郵件中的標頭資訊。<br/>                        |
 | [**Id**](action-id.md)<br/>                          | 讀取/寫入<br/> | 繼承自 [**動作**](action.md) 物件。 取得或設定動作的識別碼。<br/> |
 | [**ReplyTo**](emailaction-replyto.md)<br/>           | 讀取/寫入<br/> | 取得或設定要回復的電子郵件地址。<br/>                                      |
@@ -75,8 +75,8 @@ ms.locfileid: "103844156"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                    |
 | 伺服器支援結束<br/>    | Windows Server 2008 R2<br/>                                                       |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |

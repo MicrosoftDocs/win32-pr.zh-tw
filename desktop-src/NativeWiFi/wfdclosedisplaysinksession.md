@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - wifidisplay.dll
-ms.openlocfilehash: 7697bc7ff1aa42569cf954b3f0b037f66ec67ded
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e8169c541535eb2c5adfd0959da47cee4951750687f7d926798534ddc7cbf88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064898"
 ---
 # <a name="wfddisplaysinkclosesession-function"></a>WFDDisplaySinkCloseSession 函式
 
@@ -60,8 +60,8 @@ DWORD WINAPI WFDCloseDisplaySinkSession(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows 10<br/>                                                                      |
 | 伺服器支援結束<br/>    | Windows Server 2016<br/>                                                             |
 | 標頭<br/>                   | <dl> <dt>Wfdsink。h</dt> </dl>       |

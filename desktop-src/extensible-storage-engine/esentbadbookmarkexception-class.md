@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 94cbe082e08316e74f34963b12eb1a0267da9e0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5b2fce3fc2c03afb39dd16c6d562e937a8be608430a9175addf431633b604a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117368"
 ---
 # <a name="esentbadbookmarkexception-class"></a>EsentBadBookmarkException 類別
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fee207d7a17f12cc81036fbd4f82ec49a99f4a31
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e31829829a99dc613cfeeeda7ad8a9871c1a3ec4fee99220b804b171bbdcdc29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074782"
 ---
 # <a name="cbasepincompleteconnect-method"></a>CBasePin. CompleteConnect 方法
 
@@ -55,7 +55,7 @@ virtual HRESULT CompleteConnect(
 
 ## <a name="remarks"></a>備註
 
-在連接程式結束時，會在這兩個 pin 上呼叫這個方法。 連接的 pin 會從 [**CBasePin：： Connect**](cbasepin-connect.md) 方法內呼叫它，而接收的 pin 會從 [**CBasePin：： ReceiveConnection**](cbasepin-receiveconnection.md) 方法中呼叫它。
+在連接程式結束時，會在這兩個 pin 上呼叫這個方法。 連接的 pin 會從 [**CBasePin：：連線**](cbasepin-connect.md)方法內呼叫它，而接收的 pin 會從 [**CBasePin：： ReceiveConnection**](cbasepin-receiveconnection.md)方法中呼叫它。
 
 在基類中，此方法只會傳回 S \_ OK。 如果衍生類別具有完成連接的任何需求，則應該覆寫這個方法。 例如， [**CBaseOutputPin**](cbaseoutputpin.md) 類別會使用此方法來決定記憶體配置器。
 

@@ -4,12 +4,12 @@ description: 編輯控制項通知
 ms.assetid: 04ec89f4-a061-4c3f-99de-fdb42596ecca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f595252a51ae8eaaf6249244d1ebad3a08d73f60
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 69e217fa881cf451846a0cf84758b192e9b7f0eb487fb5b3fb69fe49b4d91bd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019956"
 ---
 # <a name="edit-control-notifications"></a>編輯控制項通知
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: cafa79844e89602d3b88756e04ca460f611516dd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 857a52692fe0ef2390628f0d838129e6e00d1202e7615577f1e2e20b2ce74268
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121404"
 ---
 # <a name="id3dxfileenumobjectgetchildren-method"></a>ID3DXFileEnumObject：： GetChildren 方法
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f558a5fee10d0403eeaacab9dc29ff3ea52b427c
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 28392f7bb9c2f59bd766e42ec21fb87a854b08bedd8336ebb6f7249b7eccb940
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104022870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119572"
 ---
 # <a name="predicate-register-hlsl-vs-reference"></a>述詞 Register (HLSL 與參考) 
 
@@ -30,19 +30,19 @@ ms.locfileid: "104022870"
 
 
 
- 
+ 
 
 以下是註冊屬性。
 
 
 
-| 註冊類型 | Count | R/W | \# 讀取埠 | \# 讀取/inst | 維度 | RelAddr | Defaults | 需要 DCL |
+| 註冊類型 | 計數 | R/W | \# 讀取埠 | \# 讀取/inst | 尺寸 | RelAddr | Defaults | 需要 DCL |
 |---------------|-------|-----|---------------|---------------|-----------|---------|----------|--------------|
 | 述詞 (p)   | 1     | R/W | 1             | 1             | 4         | N/A     | 無     | N            |
 
 
 
- 
+ 
 
 您可以使用 [setp \_ 複合-vs](setp-comp---vs.md)來修改述詞註冊。此暫存器沒有預設值，因此應用程式必須在使用之前先設定註冊。
 
@@ -53,9 +53,9 @@ ms.locfileid: "104022870"
 [頂點著色器暫存器](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

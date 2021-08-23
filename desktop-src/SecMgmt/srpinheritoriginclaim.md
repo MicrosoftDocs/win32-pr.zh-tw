@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - srpapi.dll
-ms.openlocfilehash: 3edf274622bc1a2611bc49d710a809bd80bd501a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64436c699f5cb24b2a12675342078242a340fb2e53de3a6a8f3224d8b88beac0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004884"
 ---
 # <a name="srpinheritoriginclaim-function"></a>srpInheritOriginClaim 函式
 
@@ -74,8 +74,8 @@ HRESULT WINAPI srpInheritOriginClaim(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Srpapi.dll</dt> </dl> |
 
 

@@ -1,7 +1,7 @@
 ---
-description: Connect 方法會將 pin 連接到另一個 pin。 這個方法會實 IPin：： Connect 方法。
+description: 連線方法會將釘選連接到另一個 pin。 這個方法會實 IPin：：連線方法。
 ms.assetid: 8ea99d2f-09da-4b15-a3b0-04ceb7888bc1
-title: 'CBasePin 連接方法 (Amfilter .h) '
+title: 'CBasePin.連線方法 (Amfilter) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ed8bcdab7e0909e59e7d9ec00645786f8ce48c02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a134b87e9c7c4d0f665ae37df7ec9cd0ecb3a37c0d0548f27835ead7b8ecca21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074792"
 ---
-# <a name="cbasepinconnect-method"></a>CBasePin 方法
+# <a name="cbasepinconnect-method"></a>CBasePin.連線方法
 
-方法會將 `Connect` 釘選連接到另一個 pin。 這個方法會實 [**IPin：： Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) 方法。
+方法會將 `Connect` 釘選連接到另一個 pin。 這個方法會實 [**IPin：：連線**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect)方法。
 
 ## <a name="syntax"></a>語法
 
@@ -63,7 +63,7 @@ HRESULT Connect(
 
 
 
-| 傳回碼                                                                                                  | Description                                                                        |
+| 傳回碼                                                                                                  | 描述                                                                        |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                         | 成功。<br/>                                                                |
 | <dl> <dt>**VFW \_ E \_ 已 \_ 連線**</dt> </dl>    | Pin 已連線。<br/>                                           |

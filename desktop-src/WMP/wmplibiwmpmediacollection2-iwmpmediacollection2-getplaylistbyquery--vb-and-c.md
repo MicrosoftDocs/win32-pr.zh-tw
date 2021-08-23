@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 109f6e49e77d1cfa8c6d3b45bef1d011faf21a8b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: acd80467c78aac832c5ac2784281abcf07975a1956ee304c734b2b45b82901fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053576"
 ---
 # <a name="iwmpmediacollection2getplaylistbyquery-method"></a>IWMPMediaCollection2：： getPlaylistByQuery 方法
 

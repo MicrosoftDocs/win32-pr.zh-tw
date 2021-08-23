@@ -1,23 +1,23 @@
 ---
-description: 本主題說明如何在 DirectShow 捕獲篩選器上執行預覽圖釘。
+description: 本主題說明如何在 DirectShow capture 篩選器上執行預覽 pin。
 ms.assetid: 60306702-97d4-4627-8fbe-e7c8750f3902
 title: " (選用) 來執行預覽 Pin"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d1e09d070be2aa154428cb8684ff1c405fac959
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7de47b86df70500c83c794fe1074dc927622d571e78ef6175b944702277da492
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015556"
 ---
 # <a name="implementing-a-preview-pin-optional"></a> (選用) 來執行預覽 Pin
 
-本主題說明如何在 DirectShow 捕獲篩選器上執行預覽圖釘。
+本主題說明如何在 DirectShow capture 篩選器上執行預覽 pin。
 
 如果您的篩選準則有預覽 pin，預覽 pin 必須傳送由 capture pin 所傳遞的資料複本。 當您這樣做時，只會從預覽 pin 傳送資料，並不會導致 capture 釘選框架。 捕捉 pin 一律優先于預覽 pin。
 
-捕捉 pin 和預覽 pin 必須傳送相同格式的資料。 因此，他們必須使用相同的媒體類型進行連接。 如果捕捉 pin 先連接，預覽 pin 應提供相同的媒體類型，並拒絕任何其他類型。 如果預覽 pin 會先連線，而且捕捉 pin 與不同的媒體類型連接，預覽 pin 應使用新的媒體類型重新連接。 如果預覽 pin 的下游篩選器拒絕新的類型，則捕捉 pin 也應該拒絕類型。 您可以使用 [**IPin：： QueryAccept**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryaccept) 方法來查詢來自預覽 pin 的下游篩選，並使用 [**IFilterGraph：： reconnect**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-reconnect) 方法來重新連接 pin。 如果篩選圖形管理員重新連接捕捉 pin，也適用這些規則。
+捕捉 pin 和預覽 pin 必須傳送相同格式的資料。 因此，他們必須使用相同的媒體類型進行連接。 如果捕捉 pin 先連接，預覽 pin 應提供相同的媒體類型，並拒絕任何其他類型。 如果預覽 pin 會先連線，而且捕捉 pin 與不同的媒體類型連接，預覽 pin 應使用新的媒體類型重新連接。 如果預覽 pin 的下游篩選器拒絕新的類型，則捕捉 pin 也應該拒絕類型。 您可以使用 [**IPin：： QueryAccept**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryaccept) 方法來查詢來自預覽 pin 的下游篩選，並使用 [**IFilterGraph：： reconnect**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-reconnect) 方法來重新連接 pin。 如果篩選 Graph 管理員重新連接捕捉 pin，也適用這些規則。
 
 下列範例顯示此程式的大綱：
 
@@ -88,7 +88,7 @@ CPreviewPin::CheckMediaType(CMediaType *pmt)
 
 <dl> <dt>
 
-[篩選準則的連接方式](how-filters-connect.md)
+[篩選準則的連線](how-filters-connect.md)
 </dt> <dt>
 
 [寫入捕獲篩選器](writing-capture-filters.md)

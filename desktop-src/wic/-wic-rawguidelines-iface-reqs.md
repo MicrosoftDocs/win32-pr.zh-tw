@@ -4,12 +4,12 @@ ms.assetid: 8c2afeb3-3e0b-4f8a-a2f4-df7c9ce4b098
 title: 介面方法需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9cabe02900fa789773f4104cf282ab326bd4930
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8525f7b04fe82247ecd64a38f5f1acc298be5d3ace56303072268fed6a4a3cfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086921"
 ---
 # <a name="interface-method-requirements"></a>介面方法需求
 
@@ -145,7 +145,7 @@ ms.locfileid: "106978079"
 
 [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe)
 
-[**Commit**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-commit)
+[**認可**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-commit)
 
 選擇性
 
@@ -189,7 +189,7 @@ ms.locfileid: "106978079"
 
 [**WriteSource**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-writesource)
 
-[**Commit**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-commit)
+[**認可**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-commit)
 
 選擇性
 
@@ -230,7 +230,7 @@ ms.locfileid: "106978079"
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [相機原始影像格式的 WIC 指導方針](-wic-rawguidelines.md)

@@ -4,16 +4,16 @@ ms.assetid: c8efe9e6-7d1d-4ec2-ab1b-70ee0798a6a3
 title: 媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 931b1242f5651e80aa15809f22cec4442f2feae1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 00262a020bdae9911fce956c6b5daacc3cbe0a1ae318169f673023a0a6dc62e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073052"
 ---
 # <a name="media-types-directshow"></a>媒體類型 (DirectShow) 
 
-Microsoft® DirectShow®使用 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type) 結構來描述媒體範例。 此結構包含主要類型、子類型和格式類型的 **GUID** 成員。 本節摘要說明針對 DirectShow 定義的主要類型和子類型 Guid。 協力廠商篩選器可能會定義自己的媒體類型 Guid。
+Microsoft® DirectShow®會使用 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type)結構來描述媒體範例。 此結構包含主要類型、子類型和格式類型的 **GUID** 成員。 本節摘要說明針對 DirectShow 所定義的主要類型和子類型 Guid。 協力廠商篩選器可能會定義自己的媒體類型 Guid。
 
 -   [**主要類型**](major-types.md)
 -   [**音訊子類型**](audio-subtypes.md)

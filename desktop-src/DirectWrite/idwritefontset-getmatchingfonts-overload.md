@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 5b19917ebdd2c169b3a3877f03e2b81fe481f717
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 205a5debda8e53bd5bf9fb14ebb8c46917f6cf8fd54f3b3680a8bdd1d0b58ed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071672"
 ---
 # <a name="idwritefontsetgetmatchingfonts-methods"></a>IDWriteFontSet：： GetMatchingFonts 方法
 

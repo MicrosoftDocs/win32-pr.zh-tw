@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0240ef40f4c37f6c5528c979b2e89b43b03b3451
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3709a5f487855148b8ad4042f61b74fbe6029ef64e00b751672bf478f1da866e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016366"
 ---
 # <a name="cmediasamplesetmediatime-method"></a>CMediaSample. SetMediaTime 方法
 
@@ -67,7 +67,7 @@ HRESULT SetMediaTime(
 
 *暫* 止的參數會指定絕對媒體時間，但 [**CMediaSample：： m \_ MediaEnd**](cmediasample-m-mediaend.md)成員變數會計算為 *pStart* 的位移。 換句話說， **m \_ MediaEnd**  =  \* *pTimeEnd* \* *pTimeStart*。  
 
-如需媒體時間的相關資訊，請參閱 [DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
+如需媒體時間的相關資訊，請參閱[DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
 
 ## <a name="requirements"></a>規格需求
 

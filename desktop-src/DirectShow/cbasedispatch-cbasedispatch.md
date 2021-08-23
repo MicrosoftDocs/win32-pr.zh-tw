@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e41ffe3b766cf553691f7bf7de354fa7d6bfb479
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ba381997eda20c447b018a5df32aeeae2b4ec23a1cba63cacc777c03ec39e8ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017196"
 ---
 # <a name="cbasedispatchcbasedispatch-constructor"></a>CBaseDispatch. CBaseDispatch 函數
 

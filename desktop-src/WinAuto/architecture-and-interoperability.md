@@ -4,12 +4,12 @@ description: 本主題簡要說明 Microsoft Active Accessibility 和 Microsoft 
 ms.assetid: 7309819c-7c72-4bb3-ab9c-608a27c56d42
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f318e46a6a0ad833b7aedb114974240fc4e52c08
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: a1b146fa2d628ff64d2dcf714a1f860bee28c2f0f816e057f6b411e8344462fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104092505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052988"
 ---
 # <a name="architecture-and-interoperability"></a>架構和互通性
 
@@ -73,7 +73,7 @@ Microsoft Active Accessibility 橋接器的消費者介面自動化可讓 Micros
 
 <dl> <dt>
 
-[Windows Automation API 總覽](windows-automation-api-overview.md)
+[Windows自動化 API 總覽](windows-automation-api-overview.md)
 </dt> <dt>
 
 [IAccessibleEx 介面](iaccessibleex.md)
@@ -82,9 +82,9 @@ Microsoft Active Accessibility 橋接器的消費者介面自動化可讓 Micros
 [輔助技術的安全性考慮](uiauto-securityoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

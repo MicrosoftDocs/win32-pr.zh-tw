@@ -6,12 +6,12 @@ keywords:
 - 正在抓取觸發字串工作排程器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f44708fdbb4025f5d99409297dda65504a909aec
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68a05f95f19aaa68927059c87f7a73f162266454137fbe088923b25dce7ed3ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002376"
 ---
 # <a name="retrieving-trigger-strings-example"></a>正在抓取觸發字串範例
 
@@ -41,7 +41,7 @@ ms.locfileid: "106968294"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -50,6 +50,6 @@ ms.locfileid: "106968294"
 [工作排程器1.0 範例](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

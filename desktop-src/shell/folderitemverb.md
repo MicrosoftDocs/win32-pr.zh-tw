@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 22f52e3f-875e-4dde-8875-3228639bc7f1
-ms.openlocfilehash: 167fe7b48d68622b108aeb0caf0302c0cabce9f6
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 4f6eb78486516448c65ecbd67b88249251c4d215b65df6f1c6af2e8af003c7c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032576"
 ---
 # <a name="folderitemverb-object"></a>FolderItemVerb 物件
 
@@ -54,7 +54,7 @@ ms.locfileid: "109840629"
 | 屬性                                                     | 存取類型          | 描述                          |
 |:-------------------------------------------------------------|:---------------------|:-------------------------------------|
 | [**Application**](folderitemverb-application.md)<br/> | 唯讀<br/> | 未實作。<br/>          |
-| [name - **](folderitemverb-name.md)<br/>               | 唯讀<br/> | 包含動詞的名稱。<br/> |
+| [**名稱**](folderitemverb-name.md)<br/>               | 唯讀<br/> | 包含動詞的名稱。<br/> |
 | [**父代**](folderitemverb-parent.md)<br/>           | 唯讀<br/> | 未實作。<br/>          |
 
 
@@ -67,10 +67,10 @@ ms.locfileid: "109840629"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: ecadea9f-750e-4dc1-95c4-898d34866627
 title: 會話存取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4162635c4ee29b75deb38ec28460502841dd811c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c31266298bb36a1ad7e214db3a597e98b3665a200af84831960d83514cc173b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002786"
 ---
 # <a name="session-access"></a>會話存取
 

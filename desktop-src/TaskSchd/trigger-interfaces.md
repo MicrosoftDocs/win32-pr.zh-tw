@@ -7,12 +7,12 @@ keywords:
 - 觸發程式工作排程器、介面、描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5357bb745b43c51707d9571c7582a44c9225a7fe
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: f5515f2b1e2f5b4a7694dec28bb8831c690da0d303cda53338714c1b0e03ddaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104316816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002180"
 ---
 # <a name="trigger-interfaces"></a>觸發程式介面
 
@@ -31,7 +31,7 @@ ms.locfileid: "104316816"
 
 -   [**TaskDefinition**](taskdefinition.md)
 -   [**TriggerCollection**](triggercollection.md)
--   [**觸發**](trigger.md)
+-   [**觸發程序**](trigger.md)
 -   [**BootTrigger**](boottrigger.md)
 -   [**DailyTrigger**](dailytrigger.md)
 -   [**EventTrigger**](eventtrigger.md)

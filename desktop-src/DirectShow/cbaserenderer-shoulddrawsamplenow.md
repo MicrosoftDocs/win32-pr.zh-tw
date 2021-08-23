@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 27fbf603fd670cac2a39831114a7f141b17ffd2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 818a7682fed504028ebee1c3a5ff5d35a268e1daad8756b110bcfcb2ca8d9f80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016866"
 ---
 # <a name="cbaserenderershoulddrawsamplenow-method"></a>CBaseRenderer. ShouldDrawSampleNow 方法
 
@@ -71,7 +71,7 @@ virtual HRESULT ShouldDrawSampleNow(
 
 
 
-| 傳回碼                                                                               | Description                                                                        |
+| 傳回碼                                                                               | 描述                                                                        |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | 範例應立即轉譯。<br/>                              |
 | <dl> <dt>**S \_ FALSE**</dt> </dl>   | 此範例應根據時間戳記來排程轉譯。<br/> |

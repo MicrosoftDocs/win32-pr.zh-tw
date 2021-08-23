@@ -6,12 +6,12 @@ keywords:
 - 磁帶輸入和輸出備份
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5946659f1ad0246e37981201e4e08611b45b70b1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e281eb6104cb71fbd5e7f0b3d9072cefe562ac7b9cc54e05ede53bece8755178
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021267"
 ---
 # <a name="tape-input-and-output"></a>磁帶輸入和輸出
 
@@ -38,6 +38,6 @@ ms.locfileid: "104315898"
 
 磁帶備份應用程式必須使用 [**BackupRead**](/windows/desktop/api/Winbase/nf-winbase-backupread) 和 [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) 來複製與檔案相關的所有資訊。 不過，這些函式不會讀取或寫入檔案特性，例如屬性、檔案建立時間等等。 應用程式必須使用檔案輸入和輸出函式（例如 [**GetFileAttributes**](/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa) 和 [**SetFileAttributes**](/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa)）來取得和設定這些值。
 
- 
+ 
 
- 
+ 

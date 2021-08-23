@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 9e2c56a2-0572-48b6-a2ef-650f1cf1b62e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c12f3c021988f0349d9eaf6a2bdbd9505ca8a6
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9a0c4c1aa78c81484666311dfcdd6bae8b4e6daaa45581af98f50171f48b4b58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106969940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048506"
 ---
 # <a name="com-glossary"></a>COM 詞彙
 
@@ -184,7 +184,7 @@ COM 物件，該物件會執行 [**IClassFactory**](/windows/win32/api/unknwn/nn
 
 </dd> <dt>
 
-<span id="com.clsid_gloss"></span><span id="COM.CLSID_GLOSS"></span>**Clsid**
+<span id="com.clsid_gloss"></span><span id="COM.CLSID_GLOSS"></span>**CLSID**
 </dt> <dd>
 
 與 OLE 類別物件相關聯 (GUID) 的全域唯一識別碼。 如果類別物件將用來建立多個物件實例，則相關聯的伺服器應用程式應該在系統登錄中註冊其 CLSID，讓用戶端可以找出並載入與物件 (的) 相關聯的可執行程式碼。 允許連結至其内嵌物件的每個 OLE 伺服器或容器，都必須為每個支援的物件定義註冊一個 CLSID。
@@ -637,7 +637,7 @@ COM 的功能，可控制物件的建立。 授權物件只能由獲得授權使
 <span id="com.local_server_gloss"></span><span id="COM.LOCAL_SERVER_GLOSS"></span>**本機伺服器**
 </dt> <dd>
 
-實作為的跨進程伺服器。EXE 應用程式在與用戶端應用程式相同的電腦上執行。
+在與用戶端應用程式相同的電腦上執行的跨進程伺服器，會實作為 .EXE 應用程式。
 
 </dd> <dt>
 
@@ -739,7 +739,7 @@ OLE 伺服器應用程式在編輯内嵌物件時所使用的資料。
 
 </dd> <dt>
 
-<span id="com.ole_gloss"></span><span id="COM.OLE_GLOSS"></span>**Ole**
+<span id="com.ole_gloss"></span><span id="COM.OLE_GLOSS"></span>**OLE**
 </dt> <dd>
 
 Microsoft 以物件為基礎的技術，可跨進程與電腦界限共用資訊與服務。
@@ -749,7 +749,7 @@ Microsoft 以物件為基礎的技術，可跨進程與電腦界限共用資訊�
 <span id="com.out_of_process_server_gloss"></span><span id="COM.OUT_OF_PROCESS_SERVER_GLOSS"></span>**跨進程伺服器**
 </dt> <dd>
 
-實作為的伺服器。EXE 應用程式，它會在其用戶端的進程之外執行，不論是在同一部電腦或遠端電腦上。
+以 .EXE 應用程式的形式執行的伺服器，它會在其用戶端的進程之外執行，不論是在同一部電腦或遠端電腦上。
 
 </dd> <dt>
 
@@ -779,7 +779,7 @@ Out 參數是由呼叫的函式所配置，且由呼叫端釋放。
 <span id="com.persistent_storage_gloss"></span><span id="COM.PERSISTENT_STORAGE_GLOSS"></span>**持續性儲存體**
 </dt> <dd>
 
-將檔案或物件儲存在像是檔案系統或資料庫等媒體中，如此一來，當檔案關閉之後再重新開啟時，物件和其資料就會保存下來。
+儲存體檔案或物件（例如檔案系統或資料庫），如此一來，當檔案關閉後再重新開啟時，物件和其資料就會保存下來。
 
 </dd> <dt>
 
@@ -1012,7 +1012,7 @@ OLE 的技術，可將複合檔案儲存在原生檔案系統中。
 <span id="com.system_registry_gloss"></span><span id="COM.SYSTEM_REGISTRY_GLOSS"></span>**系統登錄**
 </dt> <dd>
 
-Windows 所支援資訊的全系統儲存機制，其中包含有關系統和其應用程式（包括 OLE 用戶端和伺服器）的資訊。
+Windows 所支援的全系統資訊存放庫，其中包含有關系統和其應用程式（包括 OLE 用戶端和伺服器）的資訊。
 
 </dd> <dt>
 
@@ -1058,6 +1058,6 @@ Windows 所支援資訊的全系統儲存機制，其中包含有關系統和其
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 678c6261-cbd0-4865-a1dd-03de55eca996
 title: 步驟1：建立 Windows Framework
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ff1712f631db520ff30065e8943d13b280f3d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: feba710c8df948e34c0da0ca9e7a1de85622bfae462290cbce3f36777854cb6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072512"
 ---
 # <a name="step-1-create-the-windows-framework"></a>步驟1：建立 Windows Framework
 

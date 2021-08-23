@@ -4,12 +4,12 @@ description: 工作排程器1.0 會使用數個結構來定義觸發程式的準
 ms.assetid: dd2ae4f6-fb2d-41f8-9400-7426b7ca4546
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a03f28f85782d87ee3349582929babe6f907e8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a70688597f7684a6b6a0bedba90cb23d34135cd732aaed37cd74970867b3b02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002052"
 ---
 # <a name="trigger-structures-for-task-scheduler-10"></a>工作排程器1.0 的觸發程式結構
 
@@ -18,7 +18,7 @@ ms.locfileid: "104021580"
 > [!Note]  
 > 如需工作排程器2.0 觸發程式的詳細資訊，請參閱 [觸發程式介面](trigger-interfaces.md)。
 
- 
+ 
 
 ## <a name="task-scheduler-10-structures"></a>工作排程器1.0 結構
 
@@ -47,9 +47,9 @@ ms.locfileid: "104021580"
 [觸發程式介面](trigger-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

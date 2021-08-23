@@ -1,19 +1,19 @@
 ---
-description: 檔案系統辨識功能能夠辨識包含尚未定義之有效檔案系統/磁片區配置的存放媒體，但是媒體能夠透過 Windows 在內部定義的辨識結構來識別本身。
+description: 檔案系統辨識功能能夠辨識包含尚未定義之有效檔案系統/磁片區配置的存放媒體，但是媒體可透過 Windows 在內部定義的辨識結構來識別本身。
 ms.assetid: 23ed6de0-25ff-4841-91f6-94b487dee613
 title: 取得檔案系統識別資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18cafa9f1c7cf6cbbe11d434aff3db424a1cd0a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c10b538f9e98ecab3f8f8f72784ef658c068f780388dc7b600be68b76380757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148502"
 ---
 # <a name="obtaining-file-system-recognition-information"></a>取得檔案系統識別資訊
 
-[檔案系統](file-system-recognition.md) 辨識功能能夠辨識包含尚未定義之有效檔案系統/磁片區配置的存放媒體，但是媒體能夠透過 Windows 在內部定義的辨識結構來識別本身。
+[檔案系統](file-system-recognition.md)辨識功能能夠辨識包含尚未定義之有效檔案系統/磁片區配置的存放媒體，但是媒體可透過 Windows 在內部定義的辨識結構來識別本身。
 
 由於沒有任何現有的檔案系統會辨識新的磁片配置，因此「原始」檔案系統會掛接磁片區，並提供直接封鎖層級的存取。 「原始」檔案系統（併入 *ntoskrnl.exe*）將能夠讀取檔案系統辨識結構，並透過檔案系統控制要求 [**FSCTL \_ 查詢 \_ 檔 \_ 系統 \_ 識別**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_file_system_recognition)，提供對這類結構的應用程式存取權，如下列範例所示。
 

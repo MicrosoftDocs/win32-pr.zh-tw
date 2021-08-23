@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 7c022b9df4302683a184b4fc8329561b22d341d5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 61035976610cac4bb428687d9742b3a493e0ba458c8a050f4ad77891f01c26b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991128"
 ---
 # <a name="d3dxquaternionexp-function-d3dx10mathh"></a>D3DXQuaternionExp 函式 (D3DX10Math) 
 

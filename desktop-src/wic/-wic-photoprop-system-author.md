@@ -4,12 +4,12 @@ ms.assetid: 2de9c452-93be-40a4-a72b-5da590534dfd
 title: System. 作者相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb90345257ef1623f7cda1ce4318af7a9f472df5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b898f450fe1d370f94a9be2922eb650db47ac8c2e414c27d9eede23f0dada276
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088000"
 ---
 # <a name="systemauthor-photo-metadata-policy"></a>System. 作者相片中繼資料原則
 

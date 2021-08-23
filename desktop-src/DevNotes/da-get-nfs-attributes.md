@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4427dd48190bd12f7837c4841a98e15f7ddaff5f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e3e2b974d58888c35c24e18f16e1e75da46a180bb8123e9745170e074cd448de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956107"
 ---
 # <a name="da_get_nfs_attributes-control-code"></a>DA \_ GET \_ NFS \_ 屬性控制項程式碼
 
@@ -207,7 +207,7 @@ typedef struct _DA_FILE_ATTRIBUTES {
 
 
 
-| NFS 檔案類型                                                                              | Description                          |
+| NFS 檔案類型                                                                              | 描述                          |
 |--------------------------------------------------------------------------------------------|--------------------------------------|
 | <span id="NFS_TYPE_REG"></span><span id="nfs_type_reg"></span>NFS \_ 類型 \_ REG<br/>    | 一般檔案。<br/>           |
 | <span id="NFS_TYPE_DIR"></span><span id="nfs_type_dir"></span>NFS \_ 類型 \_ 目錄<br/>    | 目錄。<br/>              |
@@ -240,7 +240,7 @@ typedef struct _DA_FILE_ATTRIBUTES {
 <span id="Uid"></span><span id="uid"></span><span id="UID"></span>**Uid**
 </dt> <dd>
 
-UNIX 使用者識別碼 (UID) 。
+UNIX 的使用者識別碼 (UID) 。
 
 </dd> <dt>
 

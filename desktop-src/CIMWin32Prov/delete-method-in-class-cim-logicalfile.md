@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d8462d097834015883d47ec3da0d70e517a4ead0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e8d5457d35f2385136a8280a73f819fcc475f8a86229f045dd00f2b7cf330fcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020566"
 ---
 # <a name="delete-method-of-the-cim_logicalfile-class"></a>CIM LogicalFile 類別的 Delete 方法 \_
 
@@ -110,7 +110,7 @@ uint32 Delete();
 
 12
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

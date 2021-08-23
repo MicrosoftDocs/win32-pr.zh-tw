@@ -4,12 +4,12 @@ ms.assetid: 905fbba5-0a04-4048-80bd-f8707c4879da
 title: WavSource 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 050edb9df75032384f93c6e1f37c52e89f14a748
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffba8ab5bfd5ae1ccfb4df4c90b447c412e9e835a403d496834224f012f8bad7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972537"
 ---
 # <a name="wavsource-sample"></a>WavSource 範例
 
@@ -54,7 +54,7 @@ WavSource 範例會建立一個 DLL，它是媒體來源和媒體來源位元組
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-此範例可在 [Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/wavsource)中取得。
+此範例可在[Windows 傳統範例 github 存放庫](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/wavsource)中取得。
 
 ## <a name="related-topics"></a>相關主題
 

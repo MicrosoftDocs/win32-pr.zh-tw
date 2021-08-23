@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d4ad803a2f419056845327a0bf57142b83b38cdd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a7ef34a35ae5ef08f091a9d90233cbcf61933d2442440f4ce2844763a18e3675
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119042"
 ---
 # <a name="idcompositionarithmeticcompositeeffectsetcoefficient1-methods"></a>IDCompositionArithmeticCompositeEffect：： setcoefficient1 方法
 

@@ -4,23 +4,23 @@ description: OBJECT 元素中的 PARAM 元素
 ms.assetid: f9229d92-3a7e-4ba4-a84c-20e60f2482dc
 keywords:
 - Windows Media Player，OBJECT 元素中的 PARAM 元素
-- Windows Media Player 物件模型、OBJECT 元素中的 PARAM 元素
+- Windows Media Player 物件模型、object 元素中的 PARAM 元素
 - 物件模型、OBJECT 元素中的 PARAM 專案
-- Windows Media Player Mobile、OBJECT 元素中的 PARAM 元素
+- Windows Media PlayerOBJECT 元素中的 Mobile、PARAM 元素
 - Windows Media Player ActiveX 控制項、OBJECT 元素中的 PARAM 元素
-- Windows Media Player 行動 ActiveX 控制項、OBJECT 元素中的 PARAM 元素
-- ActiveX 控制項、OBJECT 元素中的 PARAM 元素
+- Windows Media PlayerMobile ActiveX control、OBJECT 元素中的 PARAM 元素
+- ActiveX 控制項，物件元素中的 PARAM 元素
 - 內嵌、網頁
 - 物件元素中的網頁內嵌、PARAM 元素
 - OBJECT 元素中的 PARAM 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0fc5b9f64fa462386ec037eba34ed4e0659bb1
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: 7da684a39739703038793abb2f4fdd32b924f35cdffc0c0f9d796fb7dbb5532b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "103840931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054426"
 ---
 # <a name="param-elements-in-an-object-element"></a>OBJECT 元素中的 PARAM 元素
 
@@ -52,33 +52,33 @@ Windows Media Player 使用 PARAM 元素來定義控制項的特定啟動條件�
 | [captioningID](closedcaption-captioningid.md)        | 是               | 是                                         | 是                              |
 | [currentMarker](controls-currentmarker.md)           | 是               | 是                                         | 是                              |
 | [currentPosition](controls-currentposition.md)       | 是               | 是                                         | 是                              |
-| [defaultFrame](settings-defaultframe.md)             | 是               | 否                                          | 不可以                               |
+| [defaultFrame](settings-defaultframe.md)             | 是               | 否                                          | 否                               |
 | [enableCoNtextMenu](player-enablecontextmenu.md)     | 是               | 是                                         | 是                              |
-| [啟用](player-enabled.md)                         | 是               | 是                                         | 是                              |
-| [enableErrorDialogs](settings-enableerrordialogs.md) | 是               | 是                                         | 不可以                               |
-| **檔案名**                                          | 不可以                | 是                                         | 是                              |
-| [全屏](player-fullscreen.md)                   | 是               | 否                                          | 不可以                               |
-| [invokeURLs](settings-invokeurls.md)                 | 是               | 否                                          | 不可以                               |
+| 「已啟用」                         | 是               | 是                                         | 是                              |
+| [enableErrorDialogs](settings-enableerrordialogs.md) | 是               | 是                                         | 否                               |
+| **檔案名**                                          | 否                | 是                                         | 是                              |
+| [全屏](player-fullscreen.md)                   | 是               | 否                                          | 否                               |
+| [invokeURLs](settings-invokeurls.md)                 | 是               | 否                                          | 否                               |
 | [靜音](settings-mute.md)                             | 是               | 是                                         | 是                              |
-| [playCount](settings-playcount.md)                   | 是               | 是                                         | 不可以                               |
+| [playCount](settings-playcount.md)                   | 是               | 是                                         | 否                               |
 | [率](settings-rate.md)                             | 是               | 是                                         | 是                              |
 | [SAMIFileName](closedcaption-samifilename.md)        | 是               | 是                                         | 是                              |
 | [SAMILang](closedcaption-samilang.md)                | 是               | 是                                         | 是                              |
 | [SAMIStyle](closedcaption-samistyle.md)              | 是               | 是                                         | 是                              |
-| **Src**                                               | 不可以                | 是                                         | 是                              |
-| [stretchToFit](player-stretchtofit.md)               | 是               | 是                                         | 不可以                               |
+| **SRC**                                               | 否                | 是                                         | 是                              |
+| [stretchToFit](player-stretchtofit.md)               | 是               | 是                                         | 否                               |
 | [URL](player-url.md)                                 | 是               | 是                                         | 是                              |
 | [體積](settings-volume.md)                         | 是               | 是                                         | 是                              |
 | [windowlessVideo](player-windowlessvideo.md)         | 是               | 是                                         | 是                              |
 
 
 
- 
+ 
 
 > [!Note]  
 > Firefox 外掛程式支援 **fileName** 和 **SRC** PARAM 元素，但 Internet Explorer 不支援。 它們都執行與 **URL** PARAM 元素相同的功能。
 
- 
+ 
 
 如需有關每個名稱屬性值的詳細資訊，請參閱 [腳本的物件模型參考](object-model-reference-for-scripting.md) 。
 
@@ -89,9 +89,9 @@ Windows Media Player 使用 PARAM 元素來定義控制項的特定啟動條件�
 [**在 Web 網頁中使用 Windows Media Player 控制項**](using-the-windows-media-player-control-in-a-web-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

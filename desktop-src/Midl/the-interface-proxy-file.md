@@ -6,12 +6,12 @@ keywords:
 - MIDL 和 COM MIDL、介面、proxy 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7be52b3561af03df0375212d729f64f41e3cdd7b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dedb9de50d00524b1e038f027448be5aaab369aa5d92243d2a3425bf603cd65a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013536"
 ---
 # <a name="the-interface-proxy-file"></a>介面 Proxy 檔案
 
@@ -31,9 +31,9 @@ ms.locfileid: "103932401"
 
 從檔案產生之 proxy 檔案的預設名稱。 .idl 是 file \_ p. c. 使用 [**/proxy**](-proxy.md) MIDL 編譯器參數覆寫介面 proxy 檔案的預設名稱。 [**/Env**](-env.md)和 [**/out**](-out.md)參數會影響這個檔案。
 
- 
+ 
 
- 
+ 
 
 
 

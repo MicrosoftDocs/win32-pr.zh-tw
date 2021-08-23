@@ -6,12 +6,12 @@ keywords:
 - 動詞登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ef025ee0807ca3e75577f26f81951db22dfb0ac
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 05ef70e4a3f748b1f00a364f25755d60a3adfd9091cd2df3032e347f53f55519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106966889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047716"
 ---
 # <a name="verb"></a>動詞命令
 
@@ -21,11 +21,11 @@ ms.locfileid: "106966889"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      Verb
-         1 = verb1
-         2 = verb2
-         3 = ...
+   {CLSID}
+      Verb
+         1 = verb1
+         2 = verb2
+         3 = ...
 ```
 
 ## <a name="remarks"></a>備註
@@ -53,6 +53,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 [**OLEVERBATTRIB**](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

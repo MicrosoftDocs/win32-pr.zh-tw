@@ -4,12 +4,12 @@ description: 本章節涵蓋的步驟，內容為設定深度樣板緩衝區及�
 ms.assetid: e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bf48b0ba9a782be25568ac3fc0569314dae76e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e994c5a11215d245d8101edff410a91ffb788583b07f651fdfbd1f2771d7deab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990188"
 ---
 # <a name="configuring-depth-stencil-functionality"></a>設定 Depth-Stencil 功能
 
@@ -212,6 +212,6 @@ Direct3D 應用程式使用印花來控制從特定原始影像繪製到轉譯�
 [ (Direct3D 10) 的管線階段 ](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

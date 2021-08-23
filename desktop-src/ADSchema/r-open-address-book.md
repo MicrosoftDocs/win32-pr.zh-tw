@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb628760997484051eb219c0b4bcec90a6be7117
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: af918007992a9debe2bdef1d02fd559be4b0cdc6cd65d2900293cafdb5fc5382
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104025520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021606"
 ---
 # <a name="open-address-book-extended-right"></a>開啟-Address Book 擴充許可權
 

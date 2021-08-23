@@ -3,7 +3,7 @@ title: 'EM_GETCUEBANNER 訊息 (Commctrl .h) '
 description: 取得在編輯控制項中顯示為文字提示或提示的文字。
 ms.assetid: 311b783a-cd78-440f-bfc2-f5108ae7d1f8
 keywords:
-- EM_GETCUEBANNER message Windows 控制項
+- EM_GETCUEBANNER 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d28d4aeea5a206c74f2e6b41cee27b5073448ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e5a47811adcd13c0f2531bd645a9ea607dd68c4dd2c1154f226a54cf108b291
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019716"
 ---
 # <a name="em_getcuebanner-message"></a>EM \_ GETCUEBANNER 訊息
 
@@ -60,8 +60,8 @@ Unicode 緩衝區的指標，此緩衝區會以文字提示的形式接收文字
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

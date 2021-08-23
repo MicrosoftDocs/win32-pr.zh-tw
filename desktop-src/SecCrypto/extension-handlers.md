@@ -4,12 +4,12 @@ ms.assetid: fb106cab-8a61-4a83-8fb4-7c045d905575
 title: 延伸模組處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfcf1b47fcc97b87f5956f4584aee07acce04222
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cba61c5896887471038325eba0dbed75f43061cff81452727933a3013c37f8aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006926"
 ---
 # <a name="extension-handlers"></a>延伸模組處理常式
 

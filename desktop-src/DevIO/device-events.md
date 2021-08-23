@@ -4,12 +4,12 @@ ms.assetid: c89da4ac-57dd-4d95-ac86-3eb137dee0bc
 title: '裝置事件 (IoEvent .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce58ba5dd21cdd505e945687603ddb54e77b2440
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a44e6160ef3a59821e5d2b2a3d4e42ee1d14d5c2fb7deda689fb1c9c3186b428
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076252"
 ---
 # <a name="device-events-ioeventh"></a>裝置事件 (IoEvent .h) 
 
@@ -35,7 +35,7 @@ bc56c139-7a10-47ee-a294-4c6a38f0149a
 
 已鎖定 CD-ROM 裝置以進行獨佔存取。
 
-**Windows Server 2003 和 WINDOWS XP：** 此值的支援需要 IMAPI.EXE 2.0。 如需詳細資訊，請參閱 [影像主控 API](/windows/desktop/imapi/portal)。
+**Windows Server 2003 和 Windows XP：** 此值的支援需要 IMAPI.EXE 2.0。 如需詳細資訊，請參閱 [影像主控 API](/windows/desktop/imapi/portal)。
 
 
 </dt> </dl> </dd> <dt>
@@ -50,7 +50,7 @@ a3b6d27d-5e35-4885-81e5-ee18c00ed779
 
 已鎖定為獨佔存取的 CD-ROM 裝置已解除鎖定。
 
-**Windows Server 2003 和 WINDOWS XP：** 此值的支援需要 IMAPI.EXE 2.0。 如需詳細資訊，請參閱 [影像主控 API](/windows/desktop/imapi/portal)。
+**Windows Server 2003 和 Windows XP：** 此值的支援需要 IMAPI.EXE 2.0。 如需詳細資訊，請參閱 [影像主控 API](/windows/desktop/imapi/portal)。
 
 
 </dt> </dl> </dd> <dt>
@@ -91,7 +91,7 @@ d07433c0-a98e-11d2-917a-00a0c9068ff3
 
 卸除式媒體已新增至裝置。 **Dbch \_ 資料** 成員是 [**類別 \_ 媒體 \_ 變更 \_ 內容**](/windows/desktop/api/WinIoCtl/ns-winioctl-class_media_change_context)結構的指標。 **NewState** 成員提供狀態資訊。 例如， **MediaUnavailable** 的值表示媒體無法使用 (例如，因為使用中的錄製會話) 。
 
-**WINDOWS XP：****Dbch \_ 資料** 成員是 **ULONG** 值，代表從系統啟動之後變更媒體的次數。
+**Windows XP：****Dbch \_ 資料** 成員是 **ULONG** 值，代表從系統啟動之後變更媒體的次數。
 
 
 </dt> </dl> </dd> <dt>
@@ -119,7 +119,7 @@ d07433c1-a98e-11d2-917a-00a0c9068ff3
 
 卸載式媒體已從裝置移除或無法使用。 **Dbch \_ 資料** 成員是 [**類別 \_ 媒體 \_ 變更 \_ 內容**](/windows/desktop/api/WinIoCtl/ns-winioctl-class_media_change_context)結構的指標。 **NewState** 成員提供狀態資訊。 例如， **MediaUnavailable** 的值表示媒體無法使用 (例如，因為使用中的錄製會話) 。
 
-**WINDOWS XP：****Dbch \_ 資料** 成員是 **ULONG** 值，代表從系統啟動之後變更媒體的次數。
+**Windows XP：****Dbch \_ 資料** 成員是 **ULONG** 值，代表從系統啟動之後變更媒體的次數。
 
 
 </dt> </dl> </dd> <dt>
@@ -147,7 +147,7 @@ d07433c1-a98e-11d2-917a-00a0c9068ff3
 
 磁片區上的檔案系統大小已變更。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援這個值。
+**Windows Server 2003 和 Windows XP：** 不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -188,7 +188,7 @@ e3c5b178-105d-11d2-8ffd-00a0c9a06d32
 
 磁片區的 BitLocker 磁碟機加密狀態已變更。 當 BitLocker 啟用或停用，或加密開始、結束、暫停或繼續時，就會發出此事件的信號。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援這個值。
+**Windows Server 2003 和 Windows XP：** 不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -255,7 +255,7 @@ b5804878-1a96-11d2-8ffd-00a0c9a06d32
 
 檔案系統在磁片區上偵測到損毀。 應用程式應該會在磁片區上執行 CHKDSK，或通知使用者這麼做。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援這個值。
+**Windows Server 2003 和 Windows XP：** 不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -283,7 +283,7 @@ c79eb16e-0dac-4e7a-a86c-b25ceeaa88f6
 
 檔案系統正在準備要取出的光碟。 例如，檔案系統正在停止背景格式化作業，或在一次性寫入媒體上關閉會話。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援這個值。
+**Windows Server 2003 和 Windows XP：** 不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -298,7 +298,7 @@ af39da42-6622-41f5-970b-139d092fa3d9
 
 磁片區的唯一識別碼已變更。 如需有關唯一識別碼的詳細資訊，請參閱 [**IOCTL \_ MOUNTDEV \_ QUERY \_ unique \_ ID**](/windows-hardware/drivers/ddi/content/mountdev/ni-mountdev-ioctl_mountdev_query_unique_id)。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 在 Windows Server 2008 R2 和 Windows 7 之前，不支援這個值。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 在 Windows Server 2008 R2 和 Windows 7 之前，不支援這個值。
 
 
 </dt> </dl> </dd> <dt>
@@ -326,7 +326,7 @@ af39da42-6622-41f5-970b-139d092fa3d9
 
 媒體正在磨損。當檔案系統判斷磁片區的錯誤率太高，或其瑕疵更換空間即將耗盡時，就會傳送此事件。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援這個值。
+**Windows Server 2003 和 Windows XP：** 不支援這個值。
 
 
 </dt> </dl> </dd> </dl>

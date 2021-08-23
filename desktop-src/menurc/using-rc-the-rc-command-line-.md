@@ -4,12 +4,12 @@ description: 若要啟動 RC，請使用下列命令。
 ms.assetid: da087e15-ecb5-4d03-b534-be872cf7d8b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c34e24fdf7b9b648a9baf9c6db8981f05d5434ef
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e560ebee4312dccc2463caf123f05a5ad9831cd293c9976350e6de7ee13cb64a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971917"
 ---
 # <a name="using-rc-the-rc-command-line"></a>使用 RC (RC 命令列)
 
@@ -19,7 +19,7 @@ ms.locfileid: "103933166"
 
 *腳本* 檔案參數會指定資源定義檔的名稱，其中包含要編譯之資源的名稱、類型、檔案名和描述。
 
-RC 可以針對同時具有非語言相關和語言專屬資源的應用程式，產生個別的資源檔。 開發人員可以使用 [資源設定檔](/windows/desktop/Intl/preparing-resources) 案或設定命令列選項，來選取哪些資源類型和專案是非當地語系化的 [語言 (LN) ](/windows/desktop/Intl/mui-resource-management) 檔案的不可當地語系化資源，以及哪些是特定語言的 MUI 檔案的可當地語系化資源。 如需詳細資訊，請參閱 [多語系消費者介面](/windows/desktop/Intl/multilingual-user-interface)。
+RC 可以針對同時具有非語言相關和語言專屬資源的應用程式，產生個別的資源檔。 開發人員可以使用 [資源設定檔](/windows/desktop/Intl/preparing-resources) 案或設定命令列選項，來選取哪些資源類型和專案是非當地語系化的 [語言 (LN) ](/windows/desktop/Intl/mui-resource-management) 檔案的不可當地語系化資源，以及哪些是特定語言的 MUI 檔案的可當地語系化資源。 如需詳細資訊，請參閱[多語系消費者介面](/windows/desktop/Intl/multilingual-user-interface)。
 
 *Options* 參數可以是下列一或多個命令列選項。
 
@@ -53,7 +53,7 @@ RC 可以針對同時具有非語言相關和語言專屬資源的應用程式�
 
 RC 會建立一個語言中立的。RES 檔案和與語言相依 (MUI) 。使用 *指令檔的* RES 檔案。 此選項必須與 **/fo** *resname* 選項一起使用。 RC 會以非語言相關的名稱來命名。RES file *resname* 和 language 相依 (MUI) 的名稱。RES file *mresname .res*。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) 和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) 函數。
+**Windows Server 2003 和 Windows XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya)和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary)函數。
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ RC 會建立。使用腳本檔案名稱為 *resname* *的* RES 檔案。
 
 如果同時設定了 **/fm** *MRESNAME* 選項，RC 就會建立一個非語言相關。RES 檔案和與語言相依 (MUI) 。RES 檔。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) 和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) 函數。
+**Windows Server 2003 和 Windows XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya)和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary)函數。
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ RC 會建立。使用腳本檔案名稱為 *resname* *的* RES 檔案。
 
 可當地語系化的資源類型 RC 會放入與語言相依的 (MUI) 。RES 檔。 如果 **/q** 選項也已設定，則會忽略此選項，且 RC 設定檔中的資訊會優先。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) 和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) 函數。
+**Windows Server 2003 和 Windows XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya)和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary)函數。
 
 </dd> <dt>
 
@@ -103,7 +103,7 @@ RC 會建立。使用腳本檔案名稱為 *resname* *的* RES 檔案。
 
 RC 同時放入非語言相關的重迭資源類型。RES 和與語言相依的 (MUI) 。RES 檔。 **/K** 選項所指定的資源類型必須是 **/j** 選項所指定的子集。 例如，？J2?J3 接?K3 指定 RC 會在語言中性和語言相依 (MUI) 檔中放置資源類型3。 如果 **/q** 選項也已設定，則會忽略此選項，且 RC 設定檔中的資訊會優先。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) 和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) 函數。
+**Windows Server 2003 和 Windows XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya)和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary)函數。
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ Null 會終止字串資料表中的所有字串。
 
 遵循 RC 設定檔案格式的 RC 設定檔案。 RC 設定檔案格式可讓元件自行描述資源的資訊，例如資源版本控制、MUI 檔案路徑、資源類型和專案。 此檔案會指定哪些資源要進入非語言相關。RES 檔案，以及哪些資源會進入與語言相依的 (MUI) 。RES 檔。 此選項以及 RC 設定檔中提供的資訊，會覆寫命令列選項 **/j** 和 **/k**。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) 和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) 函數。
+**Windows Server 2003 和 Windows XP/2000：** 此選項無法使用，也不會在更新的系統上使用 [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya)和 [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary)函數。
 
 </dd> <dt>
 
@@ -185,6 +185,6 @@ RC 不會在下列情況下產生 MUI 檔案。
 [多語系使用者介面](/windows/desktop/Intl/multilingual-user-interface)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

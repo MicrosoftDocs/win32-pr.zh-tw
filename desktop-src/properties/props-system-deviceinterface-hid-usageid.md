@@ -4,12 +4,12 @@ ms.assetid: fce0abc2-f56b-4f92-9e77-170275d6f491
 title: DeviceInterface. UsageId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cde33cf7c659ef47ca511c4be7d468416e5c16f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06e730d389ed673d9559bc8ef00b671e46758aa2a6720cd51cf537bc1e1e26ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033636"
 ---
 # <a name="systemdeviceinterfacehidusageid"></a>DeviceInterface. UsageId
 

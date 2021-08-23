@@ -1,19 +1,19 @@
 ---
 title: '介面 (功能區架構) '
-description: Windows 功能區架構介面的參考檔。
+description: Windows 功能區架構介面的參考檔集。
 ms.assetid: d5fd6e4f-ca10-4010-aab4-d2728b0ac53c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5c168a342b7f362d2d679d578a88011c9d14977
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e159d66b8eac8501f231e847555823da431e7d1be3417e0fb803f0929be679bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028666"
 ---
 # <a name="interfaces-ribbon-framework"></a>介面 (功能區架構) 
 
-Windows 功能區架構介面的參考檔。
+Windows 功能區架構介面的參考檔集。
 
 ### <a name="interfaces"></a>介面
 
@@ -40,7 +40,7 @@ Windows 功能區架構介面的參考檔。
 
 <dl> <dt>
 
-[Windows 功能區架構參考](windowsribbon-reference-entry.md)
+[Windows功能區架構參考](windowsribbon-reference-entry.md)
 </dt> </dl>
 
  

@@ -3,7 +3,7 @@ title: 'MCIWNDM_REALIZE 訊息 (Vfw .h) '
 description: MCIWNDM \_ 實現訊息會在 MCIWnd 視窗中瞭解 MCI 裝置目前所使用的調色板。 這個宏是使用 MCIWNDM 的實現訊息來定義的 \_ 。 您可以使用 MCIWndRealize 宏明確地傳送此訊息。
 ms.assetid: fe8803b5-3500-44b4-97f7-784bedf0b362
 keywords:
-- MCIWNDM_REALIZE message Windows 多媒體
+- MCIWNDM_REALIZE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ef3a803791a4f8dfe94d128d42ea06a7b28e739
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d3fdbee3757e1fd3aada5292b86cc37577ccb718315c5b81140ceb14278c37c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012616"
 ---
 # <a name="mciwndm_realize-message"></a>MCIWNDM \_ 實現訊息
 

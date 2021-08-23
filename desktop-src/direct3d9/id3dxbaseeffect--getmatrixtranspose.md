@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f52a7b528a7853278f5e1b902c3907e8d48fa40f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 59a23e8cde059446dea33d65f90dca9fb7cb2aaf41ab00949e02e34189420b3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987778"
 ---
 # <a name="id3dxbaseeffectgetmatrixtranspose-method"></a>ID3DXBaseEffect：： GetMatrixTranspose 方法
 
