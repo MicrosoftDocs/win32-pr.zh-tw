@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac4ba3bb5df95e9ee53e2a6c3aecbd1e9a355882
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dec885de319153383b82359e35208d19031fa7378749b39033402aba11f8dbd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055008"
 ---
 # <a name="axwindowsmediaplayercdromcollection-property"></a>AxWindowsMediaPlayer. cdromCollection 屬性
 

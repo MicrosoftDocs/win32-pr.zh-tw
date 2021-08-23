@@ -4,12 +4,12 @@ ms.assetid: 86ace8b8-c1cb-4646-bc92-86bd578a82c5
 title: 接收服務中的事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b95f7329383ffc8aea08102a2fe8cf8b49e0ef9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efe2312989208d5b6587067e64f10401c32229c2b19a7b4846163444576e63ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003706"
 ---
 # <a name="receiving-events-in-a-service"></a>接收服務中的事件
 

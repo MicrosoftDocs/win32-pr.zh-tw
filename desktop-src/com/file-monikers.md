@@ -4,12 +4,12 @@ description: 檔案名字
 ms.assetid: 923f798d-d789-4e6d-b27e-dd5a72f92abf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5c18beeff04804b11f04c0a2c211f2dd09dd60d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa51d000964bcfe7cad29db333bbbbc68b3a94d0f977c47b29affab4eed0b139
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048286"
 ---
 # <a name="file-monikers"></a>檔案名字
 
@@ -38,9 +38,9 @@ OLE 提供 helper 函式 [**CreateFileMoniker**](/windows/desktop/api/Objbase/nf
 [指標標記](pointer-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -504,7 +504,7 @@
                   href: taskdefinition-principal.md
                 - name: TaskDefinition. RegistrationInfo
                   href: taskdefinition-registrationinfo.md
-                - name: TaskDefinition 設定
+                - name: TaskDefinition.設定
                   href: taskdefinition-settings.md
                 - name: TaskDefinition 觸發程式
                   href: taskdefinition-triggers.md
@@ -569,7 +569,7 @@
             - name: TaskService
               href: taskservice.md
               items:
-                - name: TaskService 連接
+                - name: TaskService.連線
                   href: taskservice-connect.md
                 - name: TaskService。已連線
                   href: taskservice-connected.md
@@ -1132,7 +1132,7 @@
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal
                     - name: ITaskDefinition 的 RegistrationInfo 屬性
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_registrationinfo
-                    - name: ITaskDefinition 的 Settings 屬性
+                    - name: 設定ITaskDefinition 的屬性
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings
                     - name: ITaskDefinition 的 trigger 屬性
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_triggers
@@ -1229,7 +1229,7 @@
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_highestversion
                     - name: ITaskService 的 TargetServer 屬性
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver
-                    - name: ITaskService：： Connect
+                    - name: ITaskService：：連線
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect
                     - name: ITaskService：： GetFolder
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-getfolder
@@ -1625,7 +1625,7 @@
                   href: taskschedulerschema-server-sendemailtype-element.md
                 - name: SessionStateChangeTrigger (triggerGroup) 元素
                   href: taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md
-                - name: ' (taskType) 元素設定'
+                - name: 設定 (taskType) 元素
                   href: taskschedulerschema-settings-tasktype-element.md
                 - name: ShowMessage (actionGroup) 元素
                   href: taskschedulerschema-showmessage-actiongroup-element.md

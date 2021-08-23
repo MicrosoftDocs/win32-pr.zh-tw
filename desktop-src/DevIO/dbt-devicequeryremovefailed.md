@@ -4,12 +4,12 @@ ms.assetid: a24916a9-b67a-4622-b9f3-4b4f26bf4d6b
 title: 'DBT_DEVICEQUERYREMOVEFAILED (Dbt 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 848c7378cdbac95729eee70c70a1e323373b8e85
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 605c2689d7d986b4e85fda6d8ce5f24fa6483641de46a6a84f3e4e96ba473897
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076302"
 ---
 # <a name="dbt_devicequeryremovefailed-event"></a>DBT \_ DEVICEQUERYREMOVEFAILED 事件
 

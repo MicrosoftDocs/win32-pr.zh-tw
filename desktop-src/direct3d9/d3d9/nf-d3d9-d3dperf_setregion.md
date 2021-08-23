@@ -16,12 +16,12 @@ api_location:
 api_name:
 - D3DPERF_SetRegion
 targetos: Windows
-ms.openlocfilehash: 650cc6063865da5ce30b97ed1468c1718ace5da6
-ms.sourcegitcommit: 517a888e0370b9ec64c451635f12d60245ff5ae3
+ms.openlocfilehash: 05884fe8a3b104588a941dcaf3089a1c0f6f8eab4f4a01e143470f73454ad4ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "106966443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989258"
 ---
 # <a name="d3dperf_setregion-function"></a>D3DPERF_SetRegion 函式
 

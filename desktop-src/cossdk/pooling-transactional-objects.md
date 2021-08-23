@@ -4,12 +4,12 @@ ms.assetid: 32e2f830-c30a-4dbc-8e69-dd2038851998
 title: 共用交易對象
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 006ba32ad2ac550be4fa4418dde322ded26c64c7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4c60180011305d0a03fee10fe1a4838f847306393709dc1bfef39f0ea8f69e18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047306"
 ---
 # <a name="pooling-transactional-objects"></a>共用交易對象
 

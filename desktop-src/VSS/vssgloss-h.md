@@ -5,12 +5,12 @@ ms.assetid: e99de576-ed73-4b91-a58c-4fae739d6709
 title: 'H (磁碟區陰影複製服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b285e503b8105481cbafa49ef25d8085f72250d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 235776eed621d744054be5cee9dc31b34af59a563def4f5eb2481b04a0c3ebf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056169"
 ---
 # <a name="h-volume-shadow-copy-service"></a>H (磁碟區陰影複製服務) 
 
@@ -28,7 +28,7 @@ ms.locfileid: "106971215"
 <span id="base.vssgloss_hidden_shadow_copy"></span><span id="BASE.VSSGLOSS_HIDDEN_SHADOW_COPY"></span>**隱藏陰影複製**
 </dt> <dd>
 
-隱藏磁片區，也就是未掛接且未在 Windows 命名空間中公開為磁碟機號或掛接資料夾的磁片區。
+隱藏磁片區，這是未掛接且未在 Windows 命名空間中公開為磁碟機號或掛接資料夾的磁片區。
 
 </dd> </dl>
 

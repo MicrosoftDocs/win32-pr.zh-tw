@@ -3,7 +3,7 @@ title: 設定. baseURL
 description: BaseURL 屬性會指定或抓取基底 URL，這個基底 URL 使用內嵌在媒體專案中的 URL 指令碼命令來解析相對路徑。
 ms.assetid: bb2db144-6d1e-4ed6-baed-dc5dbff44aa0
 keywords:
-- 設定. baseURL Windows Media Player
+- 設定的 baseURL Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed77d90c8ffadc4dd8da0951f7e6a477db3f9de3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69e06275a3028df6b90d25665e11aab3c2a0961dfa6c525cde0636434f06986b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995378"
 ---
 # <a name="settingsbaseurl"></a>設定. baseURL
 
@@ -66,7 +66,7 @@ baseURL
 [**ScriptCommand 事件**](player-player-scriptcommand.md)
 </dt> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> </dl>
 
  

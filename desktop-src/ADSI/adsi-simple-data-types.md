@@ -17,12 +17,12 @@ keywords:
 - ADS_UTC_TIME
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5530fda2ca1f4fe967eaf376b668a0bedc29c4b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 422fc0e20195e576f3ade8b39948992d61a376b58fd22f399ca1009db79cbdb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023696"
 ---
 # <a name="adsi-simple-data-types"></a>ADSI 單一資料型別
 

@@ -4,12 +4,12 @@ ms.assetid: DD7401E1-9991-48D8-AD23-4D34238EA4AF
 title: DXGI 1.5 改進
 ms.topic: article
 ms.date: 03/05/2021
-ms.openlocfilehash: 58df3ef78781437ee033530a2ed2179bb9a132d8
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 52661018941f84a14f45c112ba7ed68800d0cf0f2fb69f7a1d3333651fb17787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987128"
 ---
 # <a name="dxgi-15-improvements"></a>DXGI 1.5 改進
 

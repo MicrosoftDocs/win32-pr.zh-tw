@@ -4,12 +4,12 @@ ms.assetid: 7753a54d-5136-4e46-a5ba-024bcfb961dc
 title: GDI 列印 API 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e9ae427af0112061e6b90afa71cc2b65427d477
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e5af0087ed47123b29d6712df2c842a7f05c0d77997df7c3049cc42e0677a0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971467"
 ---
 # <a name="gdi-print-api-structures"></a>GDI 列印 API 結構
 
@@ -17,7 +17,7 @@ ms.locfileid: "106984604"
 
 
 
-| 結構                                                      | Description                                                                                                                                                                                                                                                            |
+| 結構                                                      | 描述                                                                                                                                                                                                                                                            |
 |----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**版**](/windows/win32/api/wingdi/ns-wingdi-devmodea)<br/>                          | [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)資料結構包含有關印表機或顯示裝置之初始化和環境的資訊。 <br/>                                                                                                              |
 | [**DOCINFO**](/windows/desktop/api/Wingdi/ns-wingdi-docinfoa)<br/>                          | [**DOCINFO**](/windows/desktop/api/wingdi/ns-wingdi-docinfoa)結構包含 [**StartDoc**](/windows/desktop/api/Wingdi/nf-wingdi-startdoca)函數所使用的輸入和輸出檔案名以及其他資訊。<br/>                                                                                                  |

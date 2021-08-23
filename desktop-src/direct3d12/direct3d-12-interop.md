@@ -5,12 +5,12 @@ ms.assetid: 1AB98335-30B1-4244-B244-F8573524B38C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b200da0708b9b990b102a77867669217318f1d67
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 462febfc36c15e2af50f0d4f031bec026bbd8cd3713dafbd9678e733978f484e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74103612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989688"
 ---
 # <a name="working-with-direct3d-11-direct3d-10-and-direct2d"></a>使用 Direct3D 11、Direct3D 10 和 Direct2D
 

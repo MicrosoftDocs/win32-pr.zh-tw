@@ -5,12 +5,12 @@ ms.assetid: 4f7f0e9d-3e06-47c9-83ce-cabed8692c15
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77bf9c346585e8604968c3f708dfdc62ee8d248f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9872f16ddeee2e7a01e05be0d3c98aed5e66a9e6bce310565c001f831bd46e02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025326"
 ---
 # <a name="reading-an-objects-objectguid-and-creating-a-string-representation-of-the-guid"></a>讀取物件的 objectGUID 並建立 GUID 的字串標記法
 
@@ -18,10 +18,10 @@ Active Directory Domain Services 中每個物件的 **objectGUID** 屬性會以�
 
 下列程式碼範例會顯示一個函式，該函式會讀取 **objectGUID** 屬性，並傳回用來系結至物件之 GUID 的字串表示。
 
--   [Visual Basic 範例](#visual-basic-example)
+-   [Visual Basic例子](#visual-basic-example)
 -   [C + + 範例](#c-example)
 
-## <a name="visual-basic-example"></a>Visual Basic 範例
+## <a name="visual-basic-example"></a>Visual Basic例子
 
 
 ```VB
@@ -178,6 +178,6 @@ void wmain(int argc, wchar_t *argv[])
 
 
 
- 
+ 
 
- 
+ 

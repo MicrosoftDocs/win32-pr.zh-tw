@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bb58235584b6b4d408efb0e9240e2f4412c756ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48e72f35e9d0e1a17a1fab174042259259018dca96680e1cd18539dfa1039bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040061"
 ---
 # <a name="esentrecordtoobigexception-constructor"></a>EsentRecordTooBigException 函式
 

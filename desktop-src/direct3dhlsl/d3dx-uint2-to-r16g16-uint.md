@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a59a20b62fc5d8078152ed483ae49afceeeda4f6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 31d938f74874748715a0e90e4eace54f222699b61fbb4655238b2ebca8ace7ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986791"
 ---
 # <a name="d3dx_uint2_to_r16g16_uint-function"></a>D3DX \_ UINT2 \_ to \_ R16G16 \_ UINT 函數
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 94768cb098183654b7a0fa9464221989b407d880
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dce06ffa85b3736eca17f1ecb8303a41afb142fcc8b0d369e1f264a0cf47b2d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955207"
 ---
 # <a name="cbasecontrolvideoisusingdefaultsource-method"></a>CBaseControlVideo. IsUsingDefaultSource 方法
 

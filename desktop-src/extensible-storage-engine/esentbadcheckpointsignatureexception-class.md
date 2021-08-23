@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 96ddfa89c1fdf6a4b7727a00f736bbcc1c1c925e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b91644d3a48c0fb83a3d84bba3baebdc8648d931db1939aff2054ef16aeac9ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042106"
 ---
 # <a name="esentbadcheckpointsignatureexception-class"></a>EsentBadCheckpointSignatureException 類別
 

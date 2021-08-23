@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - winspool.drv
-ms.openlocfilehash: a1b2f2674c9ef186338c91ed2e4500d8408964d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bbe08e82fb8f753d6e4fd23776618cb5f555b390434fdd0feddd231aaebc635
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971347"
 ---
 # <a name="getprintexecutiondata-function"></a>GetPrintExecutionData 函式
 
@@ -57,7 +57,7 @@ BOOL WINAPI GetPrintExecutionData(
 
 ## <a name="remarks"></a>備註
 
-印表機驅動程式應該呼叫 winspool.drv. winspool.drv 模組上的 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) 來取得 **GetPrintExecutionData** 函式的位址，因為 Windows Vista 或舊版 windows 不支援 **GetPrintExecutionData** 。
+印表機驅動程式應該呼叫 winspool.drv. winspool.drv 模組上的 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)來取得 **GetPrintExecutionData** 函式的位址，因為 Windows Vista 或舊版的 Windows 不支援 **GetPrintExecutionData** 。
 
 只有當 *.pdata* 的值為 **Null** 時， **GetPrintExecutionData** 才會失敗。
 
@@ -69,9 +69,9 @@ BOOL WINAPI GetPrintExecutionData(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                   |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 
 

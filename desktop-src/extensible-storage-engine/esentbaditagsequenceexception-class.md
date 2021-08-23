@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 978cc93c4d64d4b96e0200b78cc05ab7b1e47fa2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f640aea27e0ddb3620b88c8d3c77acc0060c68eae9469f5e87e4f6d58586b980
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117168"
 ---
 # <a name="esentbaditagsequenceexception-class"></a>EsentBadItagSequenceException 類別
 

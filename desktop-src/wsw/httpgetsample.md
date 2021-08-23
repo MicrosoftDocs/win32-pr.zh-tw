@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5d0a39fb8411facd9e20ba30580d85173787ed7
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: d16255865fdde1d29001094defc74f46c53fda1bfd781f340cd4ac6dc8cc7256
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104374174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963267"
 ---
 # <a name="httpgetsample"></a>HttpGetSample
 
@@ -949,9 +949,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

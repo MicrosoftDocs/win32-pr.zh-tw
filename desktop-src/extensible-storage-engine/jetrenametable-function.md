@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 624b194a1cad836b8927e6e7e4b8490fcad250b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c666364dca0e71627d79bf8f2e6ab2afa0d131ef0c9af4eccae067a829a4327
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978810"
 ---
 # <a name="jetrenametable-function"></a>JetRenameTable 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetrenametable-function"></a>JetRenameTable 函式
 
@@ -65,7 +65,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -75,7 +75,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -94,7 +94,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="even">
 <td><p>JET_errInvalidDatabase</p></td>
 <td><p>指定的資料庫無效。</p>
-<p>此錯誤只會在暫存資料庫上嘗試資料表重新命名作業時，在 Windows 2000 中傳回。 在稍後的版本中，會傳回此案例的 JET_errInvalidDatabaseId。</p></td>
+<p>此錯誤只有在暫存資料庫上嘗試資料表重新命名作業時，才會在 Windows 2000 中傳回。 在稍後的版本中，會傳回此案例的 JET_errInvalidDatabaseId。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidDatabaseId</p></td>
@@ -167,7 +167,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

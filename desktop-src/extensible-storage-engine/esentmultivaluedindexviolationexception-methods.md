@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102326
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 49ad284c3d9cb2c2d9715bd4ceac595233ace0b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6513ab2791d582c15edd0931d8b38b4f99e9aff7367570a0a2e41262bf17ebe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040570"
 ---
 # <a name="esentmultivaluedindexviolationexception-methods"></a>EsentMultiValuedIndexViolationException 方法
 

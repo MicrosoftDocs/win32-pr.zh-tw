@@ -11,12 +11,12 @@ keywords:
 - Echo DSP 外掛程式範例，濕混合屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad6af8e7b4857ccbf6b725044575d1b8524aaf50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f743cc25ce25aed1e7ff5695c022d65e30c1680eee4121eb3952698d6f0da94f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055416"
 ---
 # <a name="adding-the-wet-mix-property"></a>新增濕混合屬性
 
@@ -87,9 +87,9 @@ HRESULT put_wetmix([in] double newVal);
 [**Echo 範例屬性**](echo-sample-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

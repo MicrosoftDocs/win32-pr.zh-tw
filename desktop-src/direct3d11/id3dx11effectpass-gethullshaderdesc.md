@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2fb35ddd251b6f25163b5ee4ac15ed448dc7884
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 609a41a71dad2918665b28bd600b89fa699b05a712aa776ea91fb438333c4f7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046006"
 ---
 # <a name="id3dx11effectpassgethullshaderdesc-method"></a>ID3DX11EffectPass：： GetHullShaderDesc 方法
 

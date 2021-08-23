@@ -9,12 +9,12 @@ keywords:
 - Active Directory，使用來抓取已刪除的物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62b2062c747e38bc0b3a9b1b793a102006c11512
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5b033a992599fecfc372bf578c1bade54867fd8332c3e114103a69264f736b48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025086"
 ---
 # <a name="retrieving-deleted-objects"></a>正在抓取刪除的物件
 
@@ -22,7 +22,7 @@ ms.locfileid: "104462833"
 
 您可以藉由系結至 Ntdsapi 中定義的已知 GUID **guid \_ Deleted \_ Objects \_ 容器** 來取得已刪除的物件容器。 如需有關系結至已知 Guid 的詳細資訊，請參閱 [使用 WKGUID 系結至 Well-Known 物件](binding-to-well-known-objects-using-wkguid.md)。
 
-系結至已刪除的物件容器時，指定 **ADS \_ FAST \_ BIND** 選項。 這表示，用來處理 Active Directory Domain Services 中的物件（例如 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 和 [**IADSPROPERTYLIST**](/windows/desktop/api/iads/nn-iads-iadspropertylist)）的 ADSI 介面，不能用於已刪除的物件容器。 如需詳細資訊和示範如何系結至 Deleted Objects 容器的程式碼範例，請參閱下面的 GetDeletedObjectsContainer 範例函式。
+系結至已刪除的物件容器時，指定 **ADS \_ FAST \_** 系結選項。 這表示，用來處理 Active Directory Domain Services 中的物件（例如 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 和 [**IADSPROPERTYLIST**](/windows/desktop/api/iads/nn-iads-iadspropertylist)）的 ADSI 介面，不能用於已刪除的物件容器。 如需詳細資訊和示範如何系結至 Deleted Objects 容器的程式碼範例，請參閱下面的 GetDeletedObjectsContainer 範例函式。
 
 -   [列舉已刪除的物件](#enumerating-deleted-objects)
 -   [尋找特定已刪除的物件](#finding-a-specific-deleted-object)
@@ -32,7 +32,7 @@ ms.locfileid: "104462833"
 
 ## <a name="enumerating-deleted-objects"></a>列舉已刪除的物件
 
-[**>idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch)介面是用來搜尋已刪除的物件。
+[**>Idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch)介面是用來搜尋已刪除的物件。
 
 **列舉已刪除的物件**
 
@@ -435,6 +435,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - WmiPerfInst.dll
-ms.openlocfilehash: c28d0366c80e8838b36e17cd0fa1074b6ad33629
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55a765102d5fcc40caff41a7fa68184afea114838152dd84157d506a62c15da5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020136"
 ---
 # <a name="win32_perfformatteddata-class"></a>Win32 \_ PerfFormattedData 類別
 
-預先安裝的計算資料類別的抽象基類。 這類類別的範例為 [**Win32 \_ PerfFormattedData \_ PerfDisk \_ LogicalDisk**](../wmisdk/retrieving-raw-and-formatted-performance-data.md)。 這些類別包含高效能 [格式化效能 Data Provider](../wmisdk/formatted-performance-data-provider.md)所提供的計算值。
+預先安裝的計算資料類別的抽象基類。 這類類別的範例為 [**Win32 \_ PerfFormattedData \_ PerfDisk \_ LogicalDisk**](../wmisdk/retrieving-raw-and-formatted-performance-data.md)。 這些類別包含高效能[格式化效能 Data Provider](../wmisdk/formatted-performance-data-provider.md)所提供的計算值。
 
 下列語法簡化自 MOF 程式碼，並顯示所有繼承的屬性。
 
@@ -125,7 +125,7 @@ class Win32_PerfFormattedData : Win32_Perf
 存取類型：唯讀
 </dt> </dl>
 
-**Frequency \_ PerfTime** 屬性每秒的頻率（以刻度為單位）。 您可以藉由呼叫 Windows 函式 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)來取得值。
+**Frequency \_ PerfTime** 屬性每秒的頻率（以刻度為單位）。 您可以藉由呼叫 Windows 函數 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)來取得值。
 
 如需在腳本中使用 **uint64** 值的詳細資訊，請參閱 [WMI 中的腳本](/previous-versions//aa393262(v=vs.85))。
 
@@ -194,7 +194,7 @@ class Win32_PerfFormattedData : Win32_Perf
 存取類型：唯讀
 </dt> </dl>
 
-High 效能計數器時間戳記。 您可以藉由呼叫 Windows 函式 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)來取得值。
+High 效能計數器時間戳記。 您可以藉由呼叫 Windows 函數 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)來取得值。
 
 如需在腳本中使用 **uint64** 值的詳細資訊，請參閱 [WMI 中的腳本](/previous-versions//aa393262(v=vs.85))。
 

@@ -4,12 +4,12 @@ description: 描述新增至 HLSL 著色器模型6.0 的 wave 作業內建。
 ms.assetid: BF968CD3-AC67-48DB-B93F-EF54B680106F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7e55661e3f91125597c8c7842a1be16129cefe0
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 10f0f06050c4c387b8e50c1c0cfb39dc5689d45d0e31bd7df5a81f45c63815a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986538"
 ---
 # <a name="hlsl-shader-model-60"></a>HLSL 著色器模型6。0
 

@@ -5,12 +5,12 @@ ms.assetid: f35c4eef-95b9-40ca-ae49-d6c6024e898c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59c1e8fbcc41d5f297124d7536c7165a780989bd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6efc1b9d77feb77b13f0f9962a103a64b9efdbc0906d30fefae19792e455bb23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024986"
 ---
 # <a name="script-samples-for-managing-service-connection-points"></a>管理服務連接點的腳本範例
 
@@ -18,12 +18,12 @@ ms.locfileid: "104183000"
 
 範例：
 
--   [用來建立或刪除服務連接點的 Excel 宏](excel-macros-for-managing-service-connection-points.md)
--   [用來顯示所有服務連接點的 VB 腳本](vb-script-listing-all-service-connection-points.md)
+-   [Excel用來建立或刪除服務連接點的宏](excel-macros-for-managing-service-connection-points.md)
+-   [VB顯示所有服務連接點的腳本](vb-script-listing-all-service-connection-points.md)
 
- 
+ 
 
- 
+ 
 
 
 

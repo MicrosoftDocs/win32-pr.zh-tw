@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Aux_klib.h
-ms.openlocfilehash: 1ee7300ec2c2d84e1ddadc4149135dab53d2336b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e1a25af780016c226acf46348573def8505669e16f1f645fcfce1c9324bb086d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956147"
 ---
 # <a name="aux_module_basic_info-structure"></a>AUX \_ 模組 \_ 基本 \_ 資訊結構
 
@@ -56,7 +56,7 @@ typedef struct _AUX_MODULE_BASIC_INFO {
 
 | 需求 | 值 |
 |----------------------------|----------------------------------------------------------------------------------------|
-| 可轉散發套件<br/> | Windows 輔助 API 程式庫1.0 版或更新版本<br/>                          |
+| 可轉散發套件<br/> | Windows輔助 API 程式庫1.0 版或更新版本<br/>                          |
 | 標頭<br/>          | <dl> <dt>Aux \_ klib。h</dt> </dl> |
 
 

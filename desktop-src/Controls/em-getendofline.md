@@ -3,7 +3,7 @@ title: 'EM_GETENDOFLINE 訊息 (Commctrl .h) '
 description: 抓取插入 linebreak 時所使用的行尾字元。 明確地傳送此訊息，或使用 Edit \_ GetEndOfLine 宏。
 ms.assetid: 557f796e-c9d1-4ea1-b8a6-44ae0bed5ffc
 keywords:
-- EM_GETENDOFLINE message Windows 控制項
+- EM_GETENDOFLINE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: 98d537d2ea4239ab3f511666aeba46be93a2b881
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 64ddb55ce592b71c7abaa8c35b1bf14a004b324586094f27a3b418a67e5b24e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019686"
 ---
 # <a name="em_getendofline-message"></a>EM \_ GETENDOFLINE 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104464545"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 版本1809桌面應用程式\]<br/>                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2019 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 10 版本 1809 \[僅限桌面應用程式\]<br/>                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2019 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

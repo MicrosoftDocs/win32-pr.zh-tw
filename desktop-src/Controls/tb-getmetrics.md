@@ -3,7 +3,7 @@ title: 'TB_GETMETRICS 訊息 (Commctrl .h) '
 description: 抓取工具列控制項的度量。
 ms.assetid: 19c735cf-09f8-443e-8a73-dd64af0193a1
 keywords:
-- TB_GETMETRICS message Windows 控制項
+- TB_GETMETRICS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f1ee299f56b367eef649a05657d713e22206a7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 733932b28dce34d06df0cbfc1d704763401b36a68380dc0aa8958b9bc3aff32f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078342"
 ---
 # <a name="tb_getmetrics-message"></a>TB \_ GETMETRICS 訊息
 
@@ -56,8 +56,8 @@ ms.locfileid: "103843988"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

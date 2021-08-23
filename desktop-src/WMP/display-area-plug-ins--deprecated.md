@@ -10,12 +10,12 @@ keywords:
 - 顯示區域外掛程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb398d4c0a1c0886183f4d6213874e4e54656965
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c3be1b5232baf0b05ae2994860b8339f340b04874968c0e665d3d7ececdde17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997328"
 ---
 # <a name="display-area-plug-ins-deprecated"></a> (取代的顯示區域外掛程式) 
 
@@ -26,14 +26,14 @@ ms.locfileid: "104372678"
 顯示區域外掛程式適合用來顯示大量資訊。 例如，顯示區域外掛程式可以取得目前播放媒體專案的相關資訊，並顯示相關文章、訪談和評論。 顯示區域外掛程式可以裝載 Microsoft Internet Explorer 瀏覽器視窗，以使用 HTML 顯示此資訊。
 
 > [!Note]  
-> 裝載的瀏覽器視窗可以內嵌 Windows Media Player 的 ActiveX 版本，但不建議這樣做，因為內嵌的控制項無法與包含它的獨立播放機進行通訊。
+> 裝載的瀏覽器視窗可以內嵌 Windows Media Player 的 ActiveX 版本，但不建議這樣做，因為內嵌的控制項無法與包含它的獨立播放程式進行通訊。
 
- 
+ 
 
 > [!Note]  
 > 當使用者播放包含影片的內容時，Windows Media Player 關閉任何開啟的顯示區域外掛程式。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -42,9 +42,9 @@ ms.locfileid: "104372678"
 [**UI 外掛程式總覽**](ui-plug-in-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

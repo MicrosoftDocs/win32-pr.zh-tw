@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: de9abcef7f2b78b471bdfdbc9678a8df7fc54425
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7b108cc8a70ac1068750f6fef37c5a2efab527bd234f4a6bde66a3083fd645f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979798"
 ---
 # <a name="jet_logtimetostring-method"></a>JET_LOGTIME。ToString 方法
 

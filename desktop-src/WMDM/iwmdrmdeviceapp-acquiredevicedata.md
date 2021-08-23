@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 268572e5dad3dffd0fe15956a0ff145f277fb6db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9280a358c7124a3f16e3d303026f36506610b6dc6fe0453fdf3e7b2432682719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055639"
 ---
 # <a name="iwmdrmdeviceappacquiredevicedata-method"></a>IWMDRMDeviceApp：： AcquireDeviceData 方法
 
@@ -104,11 +104,11 @@ HRESULT AcquireDeviceData(
 
 
 
-| 傳回碼                                                                                                                             | Description                                                                                                                         |
+| 傳回碼                                                                                                                             | 描述                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                                    | 此方法已成功。<br/>                                                                                                    |
 | <dl> <dt>**DRM \_ E \_ INVALIDARG**</dt> </dl>                                       | 一或多個引數無效。<br/>                                                                                     |
-| <dl> <dt>**NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置**</dt> </dl>                        | 指定的裝置不是 Windows Media DRM 相容裝置。<br/>                                                       |
+| <dl> <dt>**NS \_ E \_ 裝置 \_ 不是 \_ WMDRM \_ 裝置**</dt> </dl>                        | 指定的裝置不是 Windows 媒體 DRM 相容裝置。<br/>                                                       |
 | <dl> <dt>**NS \_ E \_ DRM \_ 無法 \_ \_ 取得 \_ 安全 \_ 時鐘**</dt> </dl>               | 無法從裝置取得安全的時鐘挑戰，或無法從挑戰中取得安全的時鐘 URL。<br/> |
 | <dl> <dt>**NS \_ E \_ DRM \_ 無法 \_ \_ \_ \_ \_ 從伺服器取得安全時鐘 \_**</dt> </dl> | 無法從安全的時鐘伺服器取得安全的時鐘回應。<br/>                                               |
 | <dl> <dt>**NS \_ E \_ DRM \_ 無法 \_ \_ 設定 \_ 安全 \_ 時鐘**</dt> </dl>               | 無法將安全時鐘挑戰傳送到裝置，或裝置無法設定時鐘。<br/>                          |

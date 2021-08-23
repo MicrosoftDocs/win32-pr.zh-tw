@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ DEVICEMEMORYADDRESS WMI 類別代表執行 Windows 的電腦系統上的裝置記憶體位址。
+description: Win32 \_ DEVICEMEMORYADDRESS WMI 類別代表執行 Windows 之電腦系統上的裝置記憶體位址。
 ms.assetid: f0a70724-5ced-47fe-b17e-e153e65b80df
 ms.tgt_platform: multiple
 title: Win32_DeviceMemoryAddress 類別
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4aa7472e3c20808ff52f6f45b0dca57fd19f9dd6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 31d49baca4e11ce1908ba1d057819f216153f49353415c8b5465e70e3a607e00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020246"
 ---
 # <a name="win32_devicememoryaddress-class"></a>Win32 \_ DeviceMemoryAddress 類別
 
-**Win32 \_ DeviceMemoryAddress** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 的電腦系統上的裝置記憶體位址。
+**Win32 \_ DeviceMemoryAddress** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 之電腦系統上的裝置記憶體位址。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 

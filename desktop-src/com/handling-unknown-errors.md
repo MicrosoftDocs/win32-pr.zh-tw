@@ -4,12 +4,12 @@ description: 處理未知的錯誤
 ms.assetid: d6a4cc60-8320-4b67-9f2e-7c4bea6c37fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8c3d9e70b89a9a78be62d2940ad8a69ac34c8f7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 38fb0e8aaaef8fc3ff4ae9bb76f76a845c325c4b5a5dc4d409dbd0ab35734ce4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048256"
 ---
 # <a name="handling-unknown-errors"></a>處理未知的錯誤
 
@@ -71,9 +71,9 @@ else
 [COM 中的錯誤處理](error-handling-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

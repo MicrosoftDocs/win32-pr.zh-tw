@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ SERIALPORTCONFIGURATION WMI 類別代表以 Windows 為基礎之序列埠上的資料傳輸設定。 這包括建立連接和錯誤檢查的設定。
+description: Win32 \_ SerialPortConfiguration WMI 類別代表以 Windows 為基礎之序列埠上的資料傳輸設定。 這包括建立連接和錯誤檢查的設定。
 ms.assetid: 688cdcce-8325-4b4d-93ab-5a602e9e3f8e
 ms.tgt_platform: multiple
 title: Win32_SerialPortConfiguration 類別
@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 065d069b261472e3347a115cfbbff652812b6622
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 07052c0366b32904ef6bf6f52b15f3ea98022ba8385120ec60cdefe5714e2c4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079692"
 ---
 # <a name="win32_serialportconfiguration-class"></a>Win32 \_ SerialPortConfiguration 類別
 
@@ -168,7 +168,7 @@ class Win32_SerialPortConfiguration : CIM_Setting
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32API \| Communication 結構 \| [**DCB**](/windows/win32/api/winbase/ns-winbase-dcb) \| ByteSize" ) 
 </dt> </dl>
 
-Windows 序列埠的每個位元組資料傳輸和接收的位元組數目。 此數目可能會隨著控制項和錯誤更正位（例如同位檢查位）而有所不同。
+針對 Windows 序列埠之每個位元組的資料傳輸和接收的位元組數目。 此數目可能會隨著控制項和錯誤更正位（例如同位檢查位）而有所不同。
 
 範例：8
 

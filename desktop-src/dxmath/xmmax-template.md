@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.reference.xmmax(t,t)
 title: 'XMMax template (DirectXMath) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6f8de32a32004289249cea269400d711831d640
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 362f486861400223024da5442c5103722bf35dcf8cba715da1397ad4b54c19b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117968"
 ---
 # <a name="xmmax-template"></a>XMMax 範本
 
@@ -56,7 +56,7 @@ template<class T> T XMMax(
  
 
 > [!Note]  
-> 在理想情況下，請使用 std：： max 而不是 `XMMax` 。 若要避免與具有 std：： max 的 Windows 標頭髮生衝突，您必須 \# 先定義 NOMINMAX，然後再包含 windows 標頭。
+> 在理想情況下，請使用 std：： max 而不是 `XMMax` 。 若要避免與具有 std：： max 的 Windows 標頭髮生衝突，您必須 \# 先定義 NOMINMAX，然後再包含 Windows 標頭。
 
  
 
@@ -64,7 +64,7 @@ template<class T> T XMMax(
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

@@ -4,12 +4,12 @@ ms.assetid: 76bb9bb7-3383-4e5a-ae75-a11c40f318e2
 title: TaskStatus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd74f25400093d9719607a718b4d1fc727ff36de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 982f0b1be8b4cd284f50d0132d9fda02fc434a226fba61fc8cc83ca046cd7f99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970727"
 ---
 # <a name="systemcommunicationtaskstatus"></a>TaskStatus
 

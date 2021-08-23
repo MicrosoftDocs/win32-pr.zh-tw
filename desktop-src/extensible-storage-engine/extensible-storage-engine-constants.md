@@ -1,6 +1,6 @@
 ---
-description: 深入瞭解：可擴充儲存引擎常數
-title: 可擴充儲存引擎常數
+description: 深入瞭解：可擴充的儲存體引擎常數
+title: 可擴充的儲存體引擎常數
 TOCTitle: Extensible Storage Engine Constants
 ms:assetid: 9a361b83-491d-442d-971d-6696f88ad42e
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269351(v=EXCHG.10)
@@ -15,21 +15,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ab478b7972206f462cd0bd0031f74865d850dbee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 563efe09c011830ef17001c13a6f3d4564b26567940245aee3fcb272f562aa69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980808"
 ---
-# <a name="extensible-storage-engine-constants"></a>可擴充儲存引擎常數
+# <a name="extensible-storage-engine-constants"></a>可擴充的儲存體引擎常數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
-## <a name="extensible-storage-engine-constants"></a>可擴充儲存引擎常數
+## <a name="extensible-storage-engine-constants"></a>可擴充的儲存體引擎常數
 
-可延伸儲存引擎常數區段包含下列各節：
+可擴充的儲存體引擎常數區段包含下列各節：
 
   - [JET_CBTYP](./jet-cbtyp.md)
 
@@ -45,7 +45,7 @@ _**適用于：** Windows |Windows Server_
 
   - [事件記錄常數](./event-logging-constants.md)
 
-  - [可擴充儲存引擎系統參數](./extensible-storage-engine-system-parameters.md)
+  - [可擴充的儲存體引擎系統參數](./extensible-storage-engine-system-parameters.md)
 
   - [不正確控制碼常數](./invalid-handle-constants.md)
 

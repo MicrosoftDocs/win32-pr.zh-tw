@@ -4,16 +4,16 @@ description: IAgentCharacter Play
 ms.assetid: a0158693-ff62-4da4-8b68-402e8d5b1c2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 996929271156254377f08b9fc41da3932aee9da4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 320572322d7a28b52693c80eb918ebf78fcb50083e012e35c65df3a7bffdf0a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976398"
 ---
 # <a name="iagentcharacterplay"></a>IAgentCharacter：:P 的版面配置
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT Play(
@@ -51,9 +51,9 @@ HRESULT Play(
 [**IAgentCharacter：:P 準備**](iagentcharacter--prepare.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

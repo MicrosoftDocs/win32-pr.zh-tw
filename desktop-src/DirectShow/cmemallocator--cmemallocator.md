@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 43b0505ee34df72ab82e4204b08440ac1a2558b5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 588b370fc56f6af547ead19c7a52758a3851dd7e46d88b90f8f621ed6002d6e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954377"
 ---
 # <a name="cmemallocatorcmemallocator-destructor"></a>CMemAllocator. ~ CMemAllocator 的函式
 

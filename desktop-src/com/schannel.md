@@ -4,12 +4,12 @@ description: 安全通道 (Schannel) 安全性套件，其驗證服務識別碼�
 ms.assetid: 03a5f987-f668-4f19-9b58-d62711f58734
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eccc9f82a05d1542e7585426128f10cdf452d31d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 01ab40ed9d87013f646137e23ccc755dfdf9ab6b8f2ded367940b4ae630d7b4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047846"
 ---
 # <a name="schannel"></a>Schannel
 
@@ -31,7 +31,7 @@ ms.locfileid: "104316570"
 > [!Note]  
 > 在這些章節中，TLS 通訊協定的所有相關資訊也適用于 SSL 和 PCT 通訊協定。
 
- 
+ 
 
 ## <a name="when-to-use-tls"></a>使用 TLS 的時機
 
@@ -226,6 +226,6 @@ void ClientChangesSecurity ()
 [COM 和安全性封裝](com-and-security-packages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
