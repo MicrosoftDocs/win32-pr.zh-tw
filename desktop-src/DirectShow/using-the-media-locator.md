@@ -4,12 +4,12 @@ ms.assetid: 07840a37-7065-41e8-aee5-855c9f89fb77
 title: 使用媒體定位器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fce934b06d92c0bec66d9260a485516d3acaf5a9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: be064a375f121f7c4e3dad54c2615bf8d6f7df489e119ec9cbb2c6f4b4294628
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633128"
 ---
 # <a name="using-the-media-locator"></a>使用媒體定位器
 

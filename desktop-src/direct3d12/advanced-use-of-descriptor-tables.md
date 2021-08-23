@@ -5,12 +5,12 @@ ms.assetid: BB0CA29C-65CB-48B1-8351-EE13CC470B54
 ms.date: 05/31/2018
 ms.localizationpriority: high
 ms.topic: article
-ms.openlocfilehash: 79dad6914cff07726c2d40ed2ee27cccb6a0cf1e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 044c02b87591f7ad53212ce37d7549ade68308a648092a260a67c97395959c98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632588"
 ---
 # <a name="advanced-use-of-descriptor-tables"></a>描述項資料表的 Advanced 使用
 
@@ -52,9 +52,9 @@ D3D12 會負責管理透過描述元堆積和描述中繼資料表管理之物�
 [描述中繼資料表](descriptor-tables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

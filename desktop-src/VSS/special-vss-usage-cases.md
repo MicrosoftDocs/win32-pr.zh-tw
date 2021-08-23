@@ -4,12 +4,12 @@ ms.assetid: df25cf67-d5a6-47f4-9a7f-cf0e9b15b2c2
 title: 特殊 VSS 使用案例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10fafbcf50f4979484ec095b9a5c1d9fb9063da2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4d4a90bad368b53798c3234bcd4220e0d8095bc6468f9b7038332aaa5d03523
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509968"
 ---
 # <a name="special-vss-usage-cases"></a>特殊 VSS 使用案例
 

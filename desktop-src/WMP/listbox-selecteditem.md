@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6ec30032e62713436e85f3924f63344c96944ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd236e288bf91d77cdf79b2b5f4f4cb2e8ebcf4b2bcb6eb876c6978dc2249335
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508489"
 ---
 # <a name="listboxselecteditem"></a>LISTBOX. selectedItem
 
@@ -41,7 +41,7 @@ ms.locfileid: "106999220"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

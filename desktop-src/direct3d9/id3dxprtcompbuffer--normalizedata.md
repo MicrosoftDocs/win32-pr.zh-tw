@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9a69dacb25d04b56a14e27a43487911e56a038ef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 64c704fd22fc3d2b87a792dd5cf12a82f14713fe17dbf7c7086ef0e5b01ac502
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629078"
 ---
 # <a name="id3dxprtcompbuffernormalizedata-method"></a>ID3DXPRTCompBuffer：： NormalizeData 方法
 

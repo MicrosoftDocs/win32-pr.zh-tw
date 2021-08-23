@@ -4,18 +4,18 @@ ms.assetid: f8d74807-562f-429b-93a1-e65d0f15163b
 title: 管理影片編輯專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 491cfcb9a6e94874d2cae43567b61666bbd43cd3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe226f4fdc43889daac8e978086c67bd81c5d8d822902e7c041bf500f2836fb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584448"
 ---
 # <a name="managing-video-editing-projects"></a>管理影片編輯專案
 
 \[此 API 不受支援，而且可能會在未來變更或無法使用。\]
 
-下列秘訣可協助您管理 [DirectShow 編輯服務](directshow-editing-services.md)中的專案。
+下列秘訣可協助您在[DirectShow 編輯服務](directshow-editing-services.md)中管理專案。
 
 變更至時間軸
 

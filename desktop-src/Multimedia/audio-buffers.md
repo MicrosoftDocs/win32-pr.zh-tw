@@ -9,12 +9,12 @@ keywords:
 - capCaptureSetSetup 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1a67f120dc2d2ff956148e5dd4e3992a960641d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7993e3dc89abda520c0f1c5bda90f3eb209aca31e36071a304af01fb420d821e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692098"
 ---
 # <a name="audio-buffers"></a>音訊緩衝區
 
@@ -28,9 +28,9 @@ ms.locfileid: "103672319"
 
 根據預設，音訊會包含在捕獲操作中，並配置四個音訊緩衝區。 **FCaptureAudio** 的預設值為 **TRUE**。 預設的緩衝區大小 (**dwAudioBufferSize**) 的值可以包含0.5 秒的音訊資料或10k （以較大者為准）。
 
- 
+ 
 
- 
+ 
 
 
 

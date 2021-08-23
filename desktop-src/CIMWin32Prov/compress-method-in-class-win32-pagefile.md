@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: eabbe266356a5a5f4b0645b897bf36288b6174de
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 67219703bcc5a1f829d595e0e32ec2dbe85fc2259861e475c2d645139c88fff6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547718"
 ---
 # <a name="compress-method-of-the-win32_pagefile-class"></a>壓縮 Win32 \_ 分頁檔類別的方法
 
@@ -91,7 +91,7 @@ uint32 Compress();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

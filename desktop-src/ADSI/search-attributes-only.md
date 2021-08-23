@@ -7,12 +7,12 @@ keywords:
 - 僅搜尋屬性 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5c2a97873dfb52f56b123919c3eedd277a63a74
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 33b1775c759975a508f5382ef2a30f290ac4a96b3b92120d4face6b1d0556426
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119443928"
 ---
 # <a name="search-attributes-only"></a>僅搜尋屬性
 
@@ -39,9 +39,9 @@ Phone Number
 -   [使用 ActiveX Data Objects 搜尋](searching-with-activex-data-objects-ado.md)
 -   [使用 OLE DB 搜尋](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 
 
 
 

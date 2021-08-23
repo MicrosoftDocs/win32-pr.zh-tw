@@ -17,17 +17,17 @@
           href: '-search-3x-wds-support.md'
         - name: URL 格式設定需求
           href: url-formatting-requirements.md
-        - name: 適用于 Windows 7 搜尋的新
+        - name: Windows 7 搜尋的新
           href: new-for-windows-7-search.md
         - name: 在 Windows 7 中編制優先順序和資料列集事件的索引
           href: indexing-prioritization-and-rowset-events.md
-        - name: Windows Shell 程式庫
+        - name: WindowsShell 程式庫
           href: '-search-win7-development-scenarios.md'
         - name: Windows Search 支援的語言
           href: '-search-3x-wds-language-support.md'
         - name: 搭配 Shell 資料和 Windows Search 使用 Managed 程式碼
           href: '-search-3x-wds-managed-code.md'
-    - name: Windows Search 開發人員指南
+    - name: Windows搜尋開發人員指南
       href: '-search-developers-guide-entry-page.md'
       items:
         - name: 管理索引
@@ -71,14 +71,14 @@
             - name: 使用 Windows Search SQL 語法來查詢索引
               href: '-search-sql-windowssearch-entry.md'
               items:
-                - name: SQL 語法 Windows Search 總覽
+                - name: Windows Search SQL 語法的總覽
                   href: '-search-sql-ovwofsearchquery.md'
                 - name: 一般查詢語言資訊
                   href: '-search-sql-generalqueryinfo.md'
                   items:
-                    - name: Microsoft Windows Search 中的 SQL 擴充功能
+                    - name: SQLMicrosoft Windows Search 中的延伸模組
                       href: '-search-sql-extensions-sps.md'
-                    - name: Microsoft Windows Search 中無法使用 SQL 功能
+                    - name: SQLMicrosoft Windows Search 中無法使用的功能
                       href: '-search-sql-featuresunavailableinspssearch.md'
                     - name: 識別碼
                       href: '-search-sql-identifiers.md'
@@ -97,7 +97,7 @@
                     - name: 使用當地語系化的搜尋
                       href: '-search-sql-usinglocsearches.md'
                       items:
-                        - name: 檔和系統地區設定
+                        - name: 檔和系統地區設定設定
                           href: '-search-sql-docandlocalesystemsettings.md'
                         - name: 指定語言
                           href: '-search-sql-specifyinglanguages.md'
@@ -220,10 +220,10 @@
                   href: miscellaneous-linguistic-and-unicode-considerations.md
             - name: 疑難排解語言資源和最佳作法
               href: troubleshooting-language-resources.md
-    - name: Windows Search 參考
+    - name: Windows搜尋參考
       href: '-search-reference-entry-page.md'
       items:
-        - name: Windows Search 介面
+        - name: Windows搜尋介面
           href: '-search-interfaces-entry-page.md'
           items:
             - name: 通訊協定處理常式介面
@@ -424,7 +424,7 @@
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-getrelationship
                     - name: MetaData
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-metadata
-                    - name: Name
+                    - name: 名稱
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-name
                     - name: NamedEntities
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-namedentities
@@ -505,13 +505,13 @@
                   items:
                     - name: DefaultPhrase
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-defaultphrase
-                    - name: Destination
+                    - name: 目的地
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-destination
                     - name: 以色列
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-isreal
                     - name: MetaData
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-metadata
-                    - name: Name
+                    - name: 名稱
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-name
                 - name: IRichChunk
                   href: /windows/desktop/api/Structuredquerycondition/nn-structuredquerycondition-irichchunk
@@ -1013,7 +1013,7 @@
                   items:
                     - name: OnChange
                       href: /windows/desktop/api/searchapi/nf-searchapi-isearchviewchangedsink-onchange
-        - name: Windows Search 結構
+        - name: Windows搜尋結構
           href: '-search-structures-entry-page.md'
           items:
             - name: AUTHENTICATION_INFO
@@ -1052,7 +1052,7 @@
               href: /windows/win32/api/Indexsrv/ns-indexsrv-text_source
             - name: TIMEOUT_INFO
               href: /windows/win32/api/Searchapi/ns-searchapi-timeout_info
-        - name: Windows Search 常數和列舉
+        - name: Windows搜尋常數和列舉
           href: '-search-constants-and-enumerations-entry-page.md'
           items:
             - name: 搜尋通訊協定處理常式錯誤訊息
@@ -1129,7 +1129,7 @@
           href: '-search-3x-wds-propertymappings.md'
         - name: 儲存的搜尋檔案格式
           href: '-search-savedsearchfileformat.md'
-    - name: Windows Search 程式碼範例
+    - name: Windows搜尋程式碼範例
       href: '-search-samples-ovw.md'
       items:
         - name: CrawlScopeCommandLine
@@ -1163,7 +1163,7 @@
           href: '-search-federated-search-web-service.md'
         - name: 在 Windows 同盟搜尋中啟用資料存放區
           href: '-search-federated-search-data-store.md'
-        - name: 在 Windows 同盟搜尋中建立 OpenSearch 描述檔案
+        - name: 在 Windows 同盟搜尋中建立 OpenSearch 的描述檔案
           href: '-search-federated-search-osdx-file.md'
         - name: 遵循 Windows 同盟搜尋的最佳作法
           href: '-search-fedsearch-best.md'
@@ -1230,5 +1230,5 @@
               href: search-schema-sconn-isindexed.md
     - name: 相關搜尋技術
       href: '-search-3x-wds-sampleentry.md'
-    - name: Windows Search 詞彙
+    - name: Windows搜尋詞彙
       href: search-glossary.md

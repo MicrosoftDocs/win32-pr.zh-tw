@@ -1,9 +1,9 @@
 ---
 title: 'ICM_DRAW_SETTIME 訊息 (Vfw .h) '
-description: ICM \_ DRAW \_ SETTIME 提供同步處理資訊給轉譯驅動程式，以處理繪製框架的時間。
+description: ICM \_ DRAW \_ SETTIME 會提供同步處理資訊給轉譯驅動程式，以處理繪製框架的時間。
 ms.assetid: 211e8ecc-ef36-4598-aa1d-cb0a06e64f14
 keywords:
-- ICM_DRAW_SETTIME message Windows 多媒體
+- ICM_DRAW_SETTIME 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ce1e37709477ba6080219e5225b3fde02dfed75
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 62c291b736b0138386c235703c29fffdae470d011f55284e8aaac4c4cfd604a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691138"
 ---
-# <a name="icm_draw_settime-message"></a>ICM \_ 繪圖 \_ SETTIME 訊息
+# <a name="icm_draw_settime-message"></a>ICM \_繪製 \_ SETTIME 訊息
 
-**ICM \_ DRAW \_ SETTIME** 提供同步處理資訊給轉譯驅動程式，以處理繪製框架的時間。 同步處理資訊是要繪製的框架樣本數。 您可以使用 [**ICDrawSetTime**](/windows/desktop/api/Vfw/nf-vfw-icdrawsettime) 宏明確地傳送此訊息。
+**ICM \_ DRAW \_ SETTIME** 會提供同步處理資訊給轉譯驅動程式，以處理繪製框架的時間。 同步處理資訊是要繪製的框架樣本數。 您可以使用 [**ICDrawSetTime**](/windows/desktop/api/Vfw/nf-vfw-icdrawsettime) 宏明確地傳送此訊息。
 
 
 ```C++

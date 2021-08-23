@@ -16,12 +16,12 @@ keywords:
 - " (音效壓縮管理員) 的本機驅動程式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 000bf7bded89b778f271599d5ce0f8d7f7bd5f72
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c4cce1310a487e772ac6f65680221f065335951d7d1d6c6dd22c4178c0d985f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692328"
 ---
 # <a name="adding-drivers-within-an-application"></a>在應用程式中新增驅動程式
 
@@ -32,9 +32,9 @@ ms.locfileid: "104021464"
 -   新增為全域驅動程式的驅動程式不會與其他應用程式共用。
 -   應用程式可以藉由呼叫 [**acmDriverPriority**](/windows/desktop/api/Msacm/nf-msacm-acmdriverpriority) 函式，直接改變全域驅動程式 (的優先順序，而不是本機驅動程式) 。 當您在尋找適當的驅動程式來提供函式呼叫的執行時，會進行優先的搜尋。 [進行中] 會在優先順序高於全域驅動程式時，提供本機驅動程式。 最近新增的本機驅動程式具有最高優先順序。
 
- 
+ 
 
- 
+ 
 
 
 

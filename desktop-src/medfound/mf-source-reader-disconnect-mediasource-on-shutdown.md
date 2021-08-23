@@ -4,12 +4,12 @@ ms.assetid: c85f5994-8005-48c9-8a05-0316f48f4142
 title: 'MF_SOURCE_READER_DISCONNECT_MEDIASOURCE_ON_SHUTDOWN 屬性 (Mfreadwrite) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a9474e7fb19bb6531baf31a97238bbe6b10e46
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 323340a0b95fd6f52d4ac7e8db2e9ff53bf70edb30442369f1ffd8f2f2c55fa1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663888"
 ---
 # <a name="mf_source_reader_disconnect_mediasource_on_shutdown-attribute"></a>MF \_ 來源 \_ 讀取 \_ 器 \_ \_ 在 \_ SHUTDOWN 屬性中斷 MEDIASOURCE
 
@@ -42,7 +42,7 @@ ms.locfileid: "104321663"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mfreadwrite。h</dt> </dl> |
 
 

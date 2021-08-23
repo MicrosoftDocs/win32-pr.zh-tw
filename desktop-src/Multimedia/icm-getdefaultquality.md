@@ -1,9 +1,9 @@
 ---
 title: 'ICM_GETDEFAULTQUALITY 訊息 (Vfw .h) '
-description: ICM \_ GETDEFAULTQUALITY 訊息會查詢視訊壓縮驅動程式，以提供其預設品質設定。 您可以使用 ICGetDefaultQuality 宏明確地傳送此訊息。
+description: ICM 的 \_ GETDEFAULTQUALITY 訊息會查詢視訊壓縮驅動程式，以提供其預設品質設定。 您可以使用 ICGetDefaultQuality 宏明確地傳送此訊息。
 ms.assetid: bba7f451-52c2-4684-a7c9-e4b05cb946c5
 keywords:
-- ICM_GETDEFAULTQUALITY message Windows 多媒體
+- ICM_GETDEFAULTQUALITY 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4350539851ca720e3538d297f955a56fedfc4a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df9c27527cea53c4b4eca6cf75babef3a41f80732d8ecf7a18528c07d6d9311b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525908"
 ---
-# <a name="icm_getdefaultquality-message"></a>ICM \_ GETDEFAULTQUALITY 訊息
+# <a name="icm_getdefaultquality-message"></a>ICM \_GETDEFAULTQUALITY 訊息
 
-**ICM \_ GETDEFAULTQUALITY** 訊息會查詢視訊壓縮驅動程式，以提供其預設品質設定。 您可以使用 [**ICGetDefaultQuality**](/windows/desktop/api/Vfw/nf-vfw-icgetdefaultquality) 宏明確地傳送此訊息。
+**ICM 的 \_ GETDEFAULTQUALITY** 訊息會查詢視訊壓縮驅動程式，以提供其預設品質設定。 您可以使用 [**ICGetDefaultQuality**](/windows/desktop/api/Vfw/nf-vfw-icgetdefaultquality) 宏明確地傳送此訊息。
 
 
 ```C++

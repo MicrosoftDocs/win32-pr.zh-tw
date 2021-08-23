@@ -6,12 +6,12 @@ keywords:
 - OpenGL、模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 427e04b856c79c9adfdfebf4061f7e96f09db835
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec448fa94c8ed0983be68f8aa1dbbef0974d2e040c4f68b002b026b300406981
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553978"
 ---
 # <a name="managing-modes-and-execution"></a>管理模式和執行
 
@@ -28,9 +28,9 @@ ms.locfileid: "106965975"
 [模式和執行參考](modes-and-execution-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e64b232db640d41ca9a1e1f75d6ab766597d6511
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 76e51a08dac2bbf55509d4964218fc4b844581c797220294464b84c05de5e05b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580198"
 ---
 # <a name="glfeedbackbuffer-function"></a>glFeedbackBuffer 函式
 
@@ -73,7 +73,7 @@ void WINAPI glFeedbackBuffer(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                                                |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *類型* 不是可接受的值。<br/>                                                                                                                                                                           |
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *大小* 為負數。<br/>                                                                                                                                                                                        |

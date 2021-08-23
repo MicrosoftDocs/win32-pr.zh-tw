@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e26abbf2f19d50ec6a10ebbafe12afae8576f34
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 46dab1bdcb511e4c96374b17bc6a98be95e48fd64d005eb856c9ec247af48f2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647878"
 ---
 # <a name="mediacollectiongetbyattributeandmediatype-method"></a>MediaCollection. getByAttributeAndMediaType 方法
 

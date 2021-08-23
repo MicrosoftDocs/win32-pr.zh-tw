@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b59d7d1231ed88e61a0ecf94cef50041ca772f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 954015ffdb01a8655a7762d3c364abe3440a8cfd19ec7eabf5ad8db5cf11c8c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692558"
 ---
 # <a name="modify-method-of-the-microsoftdns_minfotype-class"></a>Modify MicrosoftDNS \_ MINFOType 類別的方法
 

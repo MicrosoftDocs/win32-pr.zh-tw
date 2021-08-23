@@ -4,12 +4,12 @@ ms.assetid: 2c5ab425-6959-418a-8d9a-c8155257fc7e
 title: 記錄搜尋查詢格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02b475c8a449e3bcd360df5757fef508b1a744d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23457cfde6955927b3efdcce5ae2dff94480c7cf56849b418547fe2503a36830
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119517958"
 ---
 # <a name="record-search-query-format"></a>記錄搜尋查詢格式
 
@@ -191,11 +191,11 @@ ms.locfileid: "103850891"
 
 某些字元可以用來表示比對模式，或換用其他特殊字元。 下表將說明這些字元。 
 
-| 字元模式 | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 字元模式 | 描述                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \*                | 萬用字元。 當子句值中遇到此字元時，它會比對任何值的 0-n 字元，包括空白字元和非英數位元。 例如：<br/> "<clause attrib="peercreatorid" type="string" compare="equal">James P \* </clause>"<br/> 這個子句會比對名字為 "James" 和姓氏開頭為 "P" 的所有 **peercreatorid** 值。<br/> |
 | \\\*              | 轉義的星號。 此序列符合星號字元。                                                                                                                                                                                                                                                                                                                                                                       |
-| ?                 | 單一字元的萬用字元。 當子句值中遇到此字元時，它會比對任何單一字元，包括空白字元和英數位元。例如：<br/> 「<clause attrib="filename" type="string" compare="equal">data-0？」。xml</clause>"<br/> 這個子句會比對 **檔案名** 值，例如 "data-01.xml" 和 "data-0B.xml"。<br/>                              |
+| ?                 | 單一字元的萬用字元。 當子句值中遇到此字元時，它會比對任何單一字元，包括空白字元和英數位元。例如：<br/> 「<clause attrib="filename" type="string" compare="equal">data-0？ .xml</clause>」<br/> 這個子句會比對 **檔案名** 值，例如 "data-01.xml" 和 "data-0B.xml"。<br/>                              |
 | \\?               | 已標記的問號。 此序列符合問號字元。                                                                                                                                                                                                                                                                                                                                                              |
 | \\\\              | 已轉義的反斜線。 此序列符合單一反斜線字元。                                                                                                                                                                                                                                                                                                                                                               |
 

@@ -4,12 +4,12 @@ ms.assetid: 9ffd365f-11a5-420b-af5e-6a8be79a304c
 title: MeshVertexColors
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba55d601b29e0962c5d56e86ae052c454bf3adc7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 035f8d51ae692b0edd20f7b06b5ab8e756ff73d9cd8265d64700ce5374f9a15b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628328"
 ---
 # <a name="meshvertexcolors"></a>MeshVertexColors
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 487feeadcf1db97dc28695ba9dfcd497c2656a9a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9bdf975322ee1391abd4825326a2db05016ea0276a16c50cce92a4c53a4ccf6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705988"
 ---
 # <a name="gp-link-attribute"></a>GP-Link 屬性
 
@@ -58,9 +58,9 @@ ms.locfileid: "104107058"
 | 連結識別碼                | \-                                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                                            |
 | System-Only            | 否                                                                                                                                         |
-| 是-單一值       | 對                                                                                                                                          |
+| 是-單一值       | 是                                                                                                                                          |
 | 已編制索引             | 否                                                                                                                                         |
-| 在通用類別目錄中      | 對                                                                                                                                          |
+| 在通用類別目錄中      | 是                                                                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                  |
 | Range-Lower            | \-                                                                                                                                            |
 | Range-Upper            | \-                                                                                                                                            |
@@ -79,15 +79,15 @@ ms.locfileid: "104107058"
 | 連結識別碼                | \-                                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                                |
 | System-Only            | 否                                                                                                                                                                                             |
-| 是-單一值       | 對                                                                                                                                                                                              |
+| 是-單一值       | 是                                                                                                                                                                                              |
 | 已編制索引             | 否                                                                                                                                                                                             |
-| 在通用類別目錄中      | 對                                                                                                                                                                                              |
+| 在通用類別目錄中      | 是                                                                                                                                                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                                      |
 | Range-Lower            | \-                                                                                                                                                                                                |
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| 中使用的類別        | [**配置**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
+| 中使用的類別        | [**組態**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
 
 
 
@@ -100,15 +100,15 @@ ms.locfileid: "104107058"
 | 連結識別碼                | \-                                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                                |
 | System-Only            | 否                                                                                                                                                                                             |
-| 是-單一值       | 對                                                                                                                                                                                              |
+| 是-單一值       | 是                                                                                                                                                                                              |
 | 已編制索引             | 否                                                                                                                                                                                             |
-| 在通用類別目錄中      | 對                                                                                                                                                                                              |
+| 在通用類別目錄中      | 是                                                                                                                                                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                                      |
 | Range-Lower            | \-                                                                                                                                                                                                |
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| 中使用的類別        | [**配置**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
+| 中使用的類別        | [**組態**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
 
 
 
@@ -121,15 +121,15 @@ ms.locfileid: "104107058"
 | 連結識別碼                | \-                                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                                |
 | System-Only            | 否                                                                                                                                                                                             |
-| 是-單一值       | 對                                                                                                                                                                                              |
+| 是-單一值       | 是                                                                                                                                                                                              |
 | 已編制索引             | 否                                                                                                                                                                                             |
-| 在通用類別目錄中      | 對                                                                                                                                                                                              |
+| 在通用類別目錄中      | 是                                                                                                                                                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                                      |
 | Range-Lower            | \-                                                                                                                                                                                                |
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| 中使用的類別        | [**配置**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
+| 中使用的類別        | [**組態**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
 
 
 
@@ -142,15 +142,15 @@ ms.locfileid: "104107058"
 | 連結識別碼                | \-                                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                                |
 | System-Only            | 否                                                                                                                                                                                             |
-| 是-單一值       | 對                                                                                                                                                                                              |
+| 是-單一值       | 是                                                                                                                                                                                              |
 | 已編制索引             | 否                                                                                                                                                                                             |
-| 在通用類別目錄中      | 對                                                                                                                                                                                              |
+| 在通用類別目錄中      | 是                                                                                                                                                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                                      |
 | Range-Lower            | \-                                                                                                                                                                                                |
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| 中使用的類別        | [**配置**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
+| 中使用的類別        | [**組態**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
 
 
 
@@ -163,15 +163,15 @@ ms.locfileid: "104107058"
 | 連結識別碼                | \-                                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                                |
 | System-Only            | 否                                                                                                                                                                                             |
-| 是-單一值       | 對                                                                                                                                                                                              |
+| 是-單一值       | 是                                                                                                                                                                                              |
 | 已編制索引             | 否                                                                                                                                                                                             |
-| 在通用類別目錄中      | 對                                                                                                                                                                                              |
+| 在通用類別目錄中      | 是                                                                                                                                                                                              |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                                                      |
 | Range-Lower            | \-                                                                                                                                                                                                |
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| 中使用的類別        | [**配置**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
+| 中使用的類別        | [**組態**](c-configuration.md)<br/> [**組織單位**](c-organizationalunit.md)<br/> [**Sam-網域**](c-samdomain.md)<br/> [**網站**](c-site.md)<br/> |
 
 
 

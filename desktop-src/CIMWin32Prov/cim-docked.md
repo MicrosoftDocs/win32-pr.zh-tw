@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 899b85d63293861f0a36df3d3c30610f8cff05ac
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6988606cc419c2a5340b4a964a8fa8328b989f286fe544153452fcce48fa7c8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438838"
 ---
 # <a name="cim_docked-class"></a>CIM 停駐 \_ 類別
 

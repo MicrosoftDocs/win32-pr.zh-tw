@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c092cbc119506c4c52bc0565cd969426feffc481
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d32224a24261bf604f4adaa8256f1fc0c61959eae41505e0da5dc9cadac58888
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520988"
 ---
 # <a name="msvm_pciexpresssettingdata-class"></a>Msvm \_ PciExpressSettingData 類別
 

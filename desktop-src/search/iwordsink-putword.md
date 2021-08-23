@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: 5f622e09c2b82bc8de986dafcc83247617caec75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e860aafbef633e226933281aaaa0be5c6429387542e7c3ae2d65d3026fd7fe37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597598"
 ---
 # <a name="iwordsinkputword-method"></a>IWordSink：:P utWord 方法
 
@@ -76,7 +76,7 @@ HRESULT PutWord(
 
 
 
-| 傳回碼                                                                                              | Description                                                                                                                                               |
+| 傳回碼                                                                                              | 描述                                                                                                                                               |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                     | 作業已順利完成。 也指出沒有其他文字可用來重填緩衝區。<br/>                                  |
 | <dl> <dt>**語言 \_S \_ 大型 \_ 單字**</dt> </dl> | *Cwc* 的值大於 [**IWordBreaker：： Init**](/windows/win32/api/indexsrv/nf-indexsrv-iwordbreaker-init)中指定的 *ulMaxTokenSize* 值。 <br/> |

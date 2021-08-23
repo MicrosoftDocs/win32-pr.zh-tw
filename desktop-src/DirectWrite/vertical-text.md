@@ -1,19 +1,19 @@
 ---
 title: 垂直文字
-description: 從 Windows 8 開始，DirectWrite 有一些新的 Api，可讓您在應用程式中使用垂直文字。
+description: 從 Windows 8 開始，DirectWrite 有一些新的 api，可讓您在應用程式中使用垂直文字。
 ms.assetid: F40A79AE-F7BF-4CAC-9480-1489CD212DA8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0db8788a6be97a55911694942a930e17dc69976a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6aa5e6626ae77e610c38bfb90def7cfe068db80f7f300f58a734969fb107a46a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632540"
 ---
 # <a name="vertical-text"></a>垂直文字
 
-從 Windows 8 開始， [DirectWrite](direct-write-portal.md) 有一些新的 api，可讓您在應用程式中使用垂直文字。
+從 Windows 8 開始， [DirectWrite](direct-write-portal.md)有一些新的 api，可讓您在應用程式中使用垂直文字。
 
 ## <a name="drawing-vertical-text"></a>繪製垂直文字
 
@@ -45,6 +45,6 @@ ms.locfileid: "103933283"
 
 現在，您應用程式中的文字會以正確的字元方向垂直繪製。
 
- 
+ 
 
- 
+ 

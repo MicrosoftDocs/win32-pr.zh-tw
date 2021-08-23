@@ -4,19 +4,19 @@ ms.assetid: 035e9c8b-2490-438d-8f02-7e0f039f960f
 title: 吉娜
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 084a65ad42bdbe030e697481501a4dc60e54baef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dad8917a24100fbf5c6c36eab3bbfc5b67baf62b378f9207626378fe864b672
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623138"
 ---
 # <a name="gina"></a>吉娜
 
 [*GINA*](/windows/desktop/SecGloss/g-gly)會在 [*Winlogon*](/windows/desktop/SecGloss/w-gly)進程的 [*內容*](/windows/desktop/SecGloss/c-gly)中運作，因此，GINA DLL 在開機過程中會提早載入。 GINA DLL 必須遵循規則，才能維持系統的完整性（特別是與使用者互動的相關）。
 
 > [!Note]  
-> 在 Windows Vista 中會忽略 GINA Dll。
+> Windows Vista 會忽略 GINA dll。
 
  
 

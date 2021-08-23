@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f81e3e278b3c37531a4e537fe45583421bce8928
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1f6e66bac8dcf2653d7b4f82eb73a80e852c6f8902ddddec50ae601ed80e37ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552968"
 ---
 # <a name="ms-dns-signature-inception-offset-attribute"></a>ms DNS-簽章-開始位移屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "104467362"
 | 連結識別碼                | \-                                       |
 | MAPI-Id                | \-                                       |
 | System-Only            | 否                                    |
-| 是-單一值       | 對                                     |
+| 是-單一值       | 是                                     |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                             |

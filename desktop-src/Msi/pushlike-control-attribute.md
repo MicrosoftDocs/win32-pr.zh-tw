@@ -4,12 +4,12 @@ ms.assetid: c30b383a-7fae-413a-a6e6-8e958009f10c
 title: PushLike 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 839adfceb0484bc908b8c8c6d14616cfd03acdb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ab516038538849ac97d273d5fb3ede2be5be17417c48cf9a5624af98789867c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692477"
 ---
 # <a name="pushlike-control-attribute"></a>PushLike 控制項屬性
 

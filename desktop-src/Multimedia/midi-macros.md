@@ -12,12 +12,12 @@ keywords:
 - MIDI 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 359fbbbfff8e3d8003c72fb999c7a55105c608b6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6f99ddea6b509eecdd01616890980c7ca6b0376d6a8964ea8b18459717d38b80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525188"
 ---
 # <a name="midi-macros"></a>MIDI 宏
 
@@ -33,6 +33,6 @@ ms.locfileid: "103842244"
 [MIDI 參考](midi-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

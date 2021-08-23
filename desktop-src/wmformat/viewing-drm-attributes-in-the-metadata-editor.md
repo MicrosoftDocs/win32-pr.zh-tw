@@ -3,13 +3,13 @@ title: 在中繼資料編輯器中查看 DRM 屬性
 description: 在中繼資料編輯器中查看 DRM 屬性
 ms.assetid: e25fb8c8-8f4d-40fd-aa6f-675921e0ccdd
 keywords:
-- Windows Media Format SDK，DRM 屬性查看
+- Windows媒體格式 SDK，DRM 屬性查看
 - 數位版權管理 (DRM) ，屬性查看
 - DRM (數位版權管理) ，屬性查看
-- Windows Media Format SDK，中繼資料編輯器
+- Windows媒體格式 SDK，中繼資料編輯器
 - 數位版權管理 (DRM) ，中繼資料編輯器
 - DRM (數位版權管理) ，中繼資料編輯器
-- Windows Media Format SDK，IWMDRMEditor 介面
+- Windows媒體格式 SDK，IWMDRMEditor 介面
 - 數位版權管理 (DRM) ，IWMDRMEditor 介面
 - DRM (數位版權管理) 、IWMDRMEditor 介面
 - 中繼資料編輯器，DRM 屬性查看
@@ -17,12 +17,12 @@ keywords:
 - IWMDRMEditor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a8541444ad7704ecc340476929f1205f11ccd61
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 129f20457f2e359584e6c37eee499b902988f95c0993cf5cd31a85b81d60d162
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584818"
 ---
 # <a name="viewing-drm-attributes-in-the-metadata-editor"></a>在中繼資料編輯器中查看 DRM 屬性
 
@@ -31,7 +31,7 @@ ms.locfileid: "104314316"
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -43,9 +43,9 @@ ms.locfileid: "104314316"
 [**IWMDRMEditor 介面**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

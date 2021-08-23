@@ -4,12 +4,12 @@ ms.assetid: a36e838b-8b11-4851-9dd2-efd9fe070770
 title: 'Microsoft MPEG-2 音訊編碼器 (Wmcodecdsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43d055acd379d9e966f43eac284e38a10c05a86c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 030821905862a9698ee24c3227f2846cd8c892e20c501d2776cdf2f9bb88f3e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584118"
 ---
 # <a name="microsoft-mpeg-2-audio-encoder"></a>Microsoft MPEG-2 音訊編碼器
 
@@ -140,7 +140,7 @@ MPEG-2 音訊編碼器可以產生下列種類的輸出：
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Home Premium、Windows Vista 旗艦版、Windows 7 Home Premium、Windows 7 Professional、Windows 7 企業版、僅限 Windows 7 旗艦版傳統型 \[ 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windowsvista Home 進階版、Windows vista 旗艦版、Windows 7 家用進階版、Windows 7 專業版、Windows 7 企業版 Windows 7 旗艦版 \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                                                                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl>                                                                                       |
 
@@ -150,7 +150,7 @@ MPEG-2 音訊編碼器可以產生下列種類的輸出：
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [**MPEG-2 信號信號媒體類型**](mpeg-2-demultiplexer-media-types.md)

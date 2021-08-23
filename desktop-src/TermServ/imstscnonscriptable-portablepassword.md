@@ -47,12 +47,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5259e83087287395e6114bb8ffe3eb7e859ab52
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fad57f972d3f33f199a3908f1c088f889fa7a56933878cd616feadd418f9424f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512038"
 ---
 # <a name="imstscnonscriptableportablepassword-property"></a>IMsTscNonScriptable：:P ortablePassword 屬性
 

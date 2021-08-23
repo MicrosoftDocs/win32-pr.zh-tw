@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2aea2588a70ff4bdab89eae58b65715152d6c7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 08e3b824ccabe86e842d4ef6f61799b33110b5d28a58658a6d4cbedc824c134b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692418"
 ---
 # <a name="getobjectbytextrepresentation-method-of-the-microsoftdns_resourcerecord-class"></a>MicrosoftDNS ResourceRecord 類別的 GetObjectByTextRepresentation 方法 \_
 

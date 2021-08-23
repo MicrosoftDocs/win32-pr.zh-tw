@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8d59a19c58c775ee22d78e17bc09add2825948e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 081a8714d29cb48236bdb9191c15e92db96b18a9f8c1d9c2388c5baee7783296
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104386407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705648"
 ---
 # <a name="drm_individualization_status-enumeration-drmexternalsh"></a>DRM_INDIVIDUALIZATION_STATUS 列舉 (Drmexternals .h) 
 
@@ -108,7 +108,7 @@ typedef enum DRM_INDIVIDUALIZATION_STATUS {
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                      |
-| 版本<br/>                  | Windows Media Format 7 SDK 或更新版本的 SDK<br/>                       |
+| 版本<br/>                  | WindowsMedia Format 7 SDK 或更新版本的 SDK<br/>                       |
 | 標頭<br/>                   | <dl> <dt>Drmexternals。h</dt> </dl> |
 
 

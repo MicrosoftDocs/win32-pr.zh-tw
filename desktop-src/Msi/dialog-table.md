@@ -4,12 +4,12 @@ ms.assetid: 981386dd-4fee-4003-8c62-16933cc5bd14
 title: 對話方塊資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09a210ad051eec950dcff8f8f940a1df11bf74c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 554bc551b41a7ebeaa8b63b2a0d1b74a0f55cfb1d7a087936a394a060286caba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692838"
 ---
 # <a name="dialog-table"></a>對話方塊資料表
 

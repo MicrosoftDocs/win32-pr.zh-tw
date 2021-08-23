@@ -4,20 +4,20 @@ ms.assetid: ee290c78-dbfa-4414-8489-aa886360652b
 title: enrollSimpleUserCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0956455afa814af54cc86661f2d7733a6d16dd8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4763e3ae68404e47207dccdb75c759fc30394e849bee07a71f2c54c649347a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119669908"
 ---
 # <a name="enrollsimpleusercert"></a>enrollSimpleUserCert
 
 EnrollSimpleUserCert 範例會使用範本、主體名稱和金鑰長度（以位為單位），向使用者註冊憑證授權單位單位 (CA) 。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，根據預設，系統會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollSimpleUserCert 資料夾中安裝 c + + 版本的範例。 C # 版本安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ X509 憑證註冊 \\ CSharp \\ EnrollSimpleUserCert 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，根據預設，會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows 7.0 版的 \\ \\ \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollSimpleUserCert 資料夾中安裝 c + + 版本的範例。 c # 版本安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows 7.0 版 \\ \\ 範例 \\ X509 憑證註冊 \\ CSharp \\ EnrollSimpleUserCert 資料夾中。
 
 ## <a name="discussion"></a>討論
 

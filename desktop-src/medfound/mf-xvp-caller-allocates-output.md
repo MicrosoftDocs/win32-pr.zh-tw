@@ -4,12 +4,12 @@ ms.assetid: CAB41B22-AD96-4932-9686-66474CB26C38
 title: 'MF_XVP_CALLER_ALLOCATES_OUTPUT 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: def1b1d138c031393e1a1b1a3832c1ad6d066306
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31da89bec9c9573d9d968077e51d413e1861bca28cb606667d402fab5a408f96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599968"
 ---
 # <a name="mf_xvp_caller_allocates_output-attribute"></a>MF \_ XVP \_ 呼叫端配置 \_ \_ 輸出屬性
 
@@ -36,10 +36,10 @@ ms.locfileid: "104512257"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Mfidl .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Mfidl .idl</dt> </dl> |
 
 
 

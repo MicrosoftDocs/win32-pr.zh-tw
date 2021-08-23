@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 944e2e4229f0d36f0009ce337fd3806020322dbf
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f378ec3ff735ed916567ea91e211a1d8a1685580b1f1ea80d448b92203b39a3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492608"
 ---
 # <a name="glpushclientattrib-function"></a>glPushClientAttrib 函式
 
@@ -69,7 +69,7 @@ void WINAPI glPushClientAttrib(
 
 
 
-| Name                                                                                               | 意義                                                                       |
+| 名稱                                                                                               | 意義                                                                       |
 |----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 堆疊 \_ 溢位**</dt> </dl> | 當用戶端屬性堆疊已滿時，就會呼叫此函數。<br/> |
 

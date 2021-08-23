@@ -1,15 +1,15 @@
 ---
-description: 描述您可以從 Windows Media 編解碼器取出的統計資料。
+description: 描述您可以從 Windows 媒體編解碼器取出的統計資料。
 ms.assetid: 86c029af-e0fb-436a-b758-3f7d10c8bdeb
 title: '取得編碼統計資料 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92fb298b35e9cd4114d1a5ba2f5badfad36c09c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfa718a27894ea3e91faa953cb7b23e6c92b57c93d4b0fc0cf2c15b6995f28b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449158"
 ---
 # <a name="getting-encoding-statistics-microsoft-media-foundation"></a>取得編碼統計資料 (Microsoft 媒體基礎) 
 
@@ -19,9 +19,9 @@ ms.locfileid: "103689287"
 
 您可以取出的部分影片統計資料會處理編碼器所處理的畫面格數。 您可以從影片編碼器讀取三個框架編號屬性：
 
--   [MFPKEY \_TOTALFRAMES](mfpkey-totalframesproperty.md) 是透過輸入資料流程處理的框架數。
+-   [MFPKEY \_TOTALFRAMES](mfpkey-totalframesproperty.md)是透過 DMO 的輸入資料流程處理的框架數。
 -   [MFPKEY \_CODEDFRAMES](mfpkey-codedframesproperty.md) 是已編碼的框架數目。 藉由從傳遞的框架總數減去此值，您可以判斷已卸載的框架數。
--   [MFPKEY \_ZEROBYTEFRAMES](mfpkey-zerobyteframesproperty.md) 是未編碼的框架數目，因為它們已包含重複的內容。 此值不會從 < i 部所報告的編碼框架數目減去。
+-   [MFPKEY \_ZEROBYTEFRAMES](mfpkey-zerobyteframesproperty.md) 是未編碼的框架數目，因為它們已包含重複的內容。 此值不會減去 DMO 所報告的程式碼框架數目。
 
 在編碼期間，您可以隨時讀取影片畫面的屬性。 這有助於判斷編碼設定是否適用于您的內容;如果總畫面格和程式碼框架之間有很大的差異，則壓縮的內容可能不符合您的品質需求。 完成編碼之後，您可以讀取最終的值。
 

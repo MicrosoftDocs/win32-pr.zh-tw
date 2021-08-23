@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b5ec232f559e8d4af10369ebe98dd0aea71e36b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d77cee8aeec55aa09ead5df227fd018d14d6682e08a047d40a1121a11839083
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519758"
 ---
 # <a name="gltexenviv-function"></a>glTexEnviv 函式
 
@@ -73,7 +73,7 @@ void WINAPI glTexEnviv(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                           |
+| 名稱                                                                                                  | 意義                                                                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *target* 或 *pname* 不是其中一個可接受的定義值，或當 *params* 應該有定義的常數值 (根據 *pname*) 的值而不是時。<br/> |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/>                                             |

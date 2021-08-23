@@ -4,12 +4,12 @@ ms.assetid: 40871179-d383-43d0-810d-0805c88dbbd6
 title: 執行緒和安全物件之間的互動
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f3e2b18f707ece4d651eeca1c6897bb67aad334
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b27ab85aa461892d0e6fdf6bdbd9adc8aa7b78a3d9bf1b3896d53ad8e2e236de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670811"
 ---
 # <a name="interaction-between-threads-and-securable-objects"></a>執行緒和安全物件之間的互動
 

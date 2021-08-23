@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d459263ddaa3fad6f6cc86654f82b82db232838f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 896c63c3a6f64e377cf7f3bdbdfbb3ac2240c660e0ab625153f40fd1aeb41f74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604948"
 ---
 # <a name="esentmakebackupdirectoryfailexception-constructor"></a>EsentMakeBackupDirectoryFailException 函式
 

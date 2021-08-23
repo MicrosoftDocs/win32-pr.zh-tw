@@ -4,12 +4,12 @@ description: 本節包含有關 D3DCSX 公用程式程式庫的參考資訊，�
 ms.assetid: 59904848-C179-4DBA-9A52-F1D9E0404EC7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05eb4b29d89c88da1302b2ae0a2b3e7df5ae25bf
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: e9ffab5d205e2cbe664adbea29cdef253d3c5c7cb632788f88cae205dc387a1c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103842891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119729408"
 ---
 # <a name="d3dcsx-11-reference"></a>D3DCSX 11 參考
 

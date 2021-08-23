@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 86ef0e22143ffd424ee3acee616504e45d8125bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 751e5f3256da82d2b7cae2da17a8b9dfb54bc5331ebf2679e745bc67c0b4d3b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524540"
 ---
 # <a name="msvm_ethernetswitchhardwareoffloadsettingdata-class"></a>Msvm \_ EthernetSwitchHardwareOffloadSettingData 類別
 

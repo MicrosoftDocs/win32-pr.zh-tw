@@ -3,7 +3,7 @@ title: 'EM_REQUESTRESIZE 訊息 (Richedit .h) '
 description: 強制 rich edit 控制項將 EN \_ REQUESTRESIZE 通知程式碼傳送至其父視窗。
 ms.assetid: efc22771-9b9f-4a30-a906-f02095607c21
 keywords:
-- EM_REQUESTRESIZE message Windows 控制項
+- EM_REQUESTRESIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec41e7be8e0f30d5c1ec011247f3964292c2218e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7113f52e2fa3a293549443f779ba937bf20b85736c6751cd9ab77bdbecd45c3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104187312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440158"
 ---
 # <a name="em_requestresize-message"></a>EM \_ REQUESTRESIZE 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104187312"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

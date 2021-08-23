@@ -4,12 +4,12 @@ ms.assetid: cd16705c-c617-4843-a303-52d1019a60bb
 title: 金鑰長度比較
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a82bd4ffe942a58bba4c246f92e83fa1e1ef03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c65615f6ffb9679b922600c4617e401067d565ac7dd62a258ae07a757d2cec7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622343"
 ---
 # <a name="key-length-comparison"></a>金鑰長度比較
 
@@ -21,10 +21,10 @@ Microsoft 增強型密碼編譯提供者提供的應用程式安全性比 Micros
 
 | 演算法                                                                                | 基底提供者 | 強大且增強的提供者 |
 |------------------------------------------------------------------------------------------|---------------|-------------------------------|
-| RSA 金鑰交換                                                                         | 512位       | 1024位                     |
+| RSA 金鑰 Exchange                                                                         | 512位       | 1024位                     |
 | RSA 簽章                                                                            | 512位       | 1024位                     |
-| RC2                                                                                      | 40位        | 128位                       |
-| RC4                                                                                      | 40位        | 128位                       |
+| RC2                                                                                      | 40位        | 128 位元                       |
+| RC4                                                                                      | 40位        | 128 位元                       |
 | DES                                                                                      | 不支援 | 56位                        |
 | [*三重 DES*](../secgloss/t-gly.md) (2-金鑰)  | 不支援 | 112位                       |
 | 三重 DES (3-金鑰)                                                                        | 不支援 | 168位                       |

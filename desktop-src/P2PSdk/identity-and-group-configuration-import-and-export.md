@@ -4,12 +4,12 @@ ms.assetid: 876d9c57-15f6-4f5e-8035-792e15f8035e
 title: 身分識別和群組設定匯入和匯出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a356f2747e3c8276446568b6f82bcbd773b14af8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0102bda821b7157edc512aeea4a8e315c0dbfa1def85f9a61919ec0f2c86da39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103693043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519328"
 ---
 # <a name="identity-and-group-configuration-import-and-export"></a>身分識別和群組設定匯入和匯出
 

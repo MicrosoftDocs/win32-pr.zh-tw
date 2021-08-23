@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 418c89d92fbec4fd7df04e23cc18c09679362134
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4b658bd3b2abf9e2a8319e2edee33abe461fd7e701c2918952e86bc49ff84a6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647098"
 ---
 # <a name="onkeydown"></a>onkeydown
 

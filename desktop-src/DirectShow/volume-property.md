@@ -4,17 +4,17 @@ ms.assetid: b6e22d07-525b-4af2-898c-ce3ed16ea9c1
 title: Volume 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9c85bc2d20a613e61d454f75b9663284188c16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc3c7ebd89b971e8a8f934608ff38dc741c0db91ac2d25f717d7354b3d6294b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632878"
 ---
 # <a name="volume-property"></a>Volume 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

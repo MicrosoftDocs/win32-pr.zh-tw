@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52225c4db8eaa31c17d12a25590b918cf94b4c3b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94ec260f0e4e5475cc834c786bc1ba7249b30fabd087030caf3426273adc3012
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493308"
 ---
 # <a name="gllighti-function"></a>glLighti 函式
 
@@ -85,7 +85,7 @@ void WINAPI glLighti(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                                                   |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *light* 或 *pname* 不是可接受的值。<br/>                                                                                                                                                                  |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | 指定的點指數值超出範圍0、 \[ 128 \] 或點截止值的範圍 \[ 0、90 (， \] 但特殊值 180) 或指定的負面衰減因數除外。<br/> |

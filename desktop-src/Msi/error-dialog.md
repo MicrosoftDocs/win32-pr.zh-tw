@@ -4,12 +4,12 @@ ms.assetid: 11d4fe8b-ec5f-4576-95e5-c86344f0195c
 title: 錯誤對話方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a153f5e6ee38235f830937d794a9ca9b81314583
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff8582996ad4380d8adc62f684f638092857b45d464e7e8ef150c1fed141027f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692498"
 ---
 # <a name="error-dialog"></a>錯誤對話方塊
 
@@ -30,13 +30,13 @@ ms.locfileid: "104512161"
 
 針對錯誤對話方塊， \_ 會忽略對話方塊資料表中的 [控制項預設值] 和 [控制項 \_ 取消 []](dialog-table.md) 欄位。 \_錯誤對話方塊的控制項第一個欄位必須指定 ErrorText 控制項。
 
-如果此對話方塊中包含名為 ErrorIcon 的 [圖示控制項](icon-control.md) ，則會顯示下列標準 Windows 圖示：
+如果此對話方塊中包含名為 ErrorIcon 的[圖示控制項](icon-control.md)，則會顯示下列標準 Windows 圖示：
 
 -   IDI \_ 錯誤，以回應 imtFatalExit 訊息。
 -   IDI \_ 警告以回應 imtError 和 imtWarning 訊息。
 -   IDI \_ 資訊以回應 imtOutOfDiskSpace 訊息。
 
-應建立 ErrorIcon 控制項，並設定 [FixedSize control 屬性](fixedsize-control-attribute.md) ，以避免標準 Windows 圖示的大小不適當。
+應建立 ErrorIcon 控制項，並設定[FixedSize control 屬性](fixedsize-control-attribute.md)，以避免標準 Windows 圖示的大小不適當。
 
  
 

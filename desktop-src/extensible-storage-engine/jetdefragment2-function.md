@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4bcde8d55032d2e07466668b5a4d96b9a447d843
-ms.sourcegitcommit: 35baf9ba19918a38c4ca8714f88c004af0c6f518
+ms.openlocfilehash: 7cf6dfa2ca38fb488d2234efa8798f2619bab09a19578c8aec64e47747fdf7ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107838802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728471"
 ---
 # <a name="jetdefragment2-function"></a>JetDefragment2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetdefragment2-function"></a>JetDefragment2 函式
 
 **JetDefragment2** 函式會啟動並停止資料庫重組工作，這些工作會改善資料庫中的資料組織，並提供回呼參數以報告磁碟重組的進度。 這樣做的目的是要在資料庫內更有效率地使用現有的磁片配置，以限制資料庫成長。 它也可以確保資料更緊密地封裝，藉此減少工作集。 最後，它可以透過更妥善的資料組織來加速一般作業，藉以改善應用程式效能。
 
-**Windows xp：**  **JetDefragment2** 是在 windows xp 中引進的。
+**Windows xp：****JetDefragment2** 是在 Windows xp 引進。  
 
 **JetDefragment2** 也包含回呼函式參數，可用來報告磁碟重組程式的進度。
 
@@ -145,7 +145,7 @@ JET_ERR JET_API JetDefragment2(
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -155,7 +155,7 @@ JET_ERR JET_API JetDefragment2(
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -245,7 +245,7 @@ JET_ERR JET_API JetDefragment2(
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

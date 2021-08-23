@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 02c061d8821dffa82eca8756ab26acadc6bb9281
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d02b14fa056940a8139e87d9b471f6eaef84c311eb095073f274a9b4adf3c6dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119516968"
 ---
 # <a name="calendartrigger-triggergroup-element"></a>CalendarTrigger (triggerGroup) 元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "106968366"
 
 
 
-| 元素                                                           | 衍生自                                                         | Description                                            |
+| 元素                                                           | 衍生自                                                         | 描述                                            |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------|
 | [**觸發程序**](taskschedulerschema-triggers-tasktype-element.md) | [**triggersType**](taskschedulerschema-triggerstype-complextype.md) | 指定啟動工作的觸發程式。<br/> |
 
@@ -47,7 +47,7 @@ ms.locfileid: "106968366"
 
 
 
-| 元素                                                                                                                            | 類型                                                                                                 | Description                                                                                                                        |
+| 元素                                                                                                                            | 類型                                                                                                 | 描述                                                                                                                        |
 |------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | [**已啟用 (triggerBaseType)**](taskschedulerschema-enabled-triggerbasetype-element.md)                                           | boolean                                                                                              | 指定啟用觸發程序。<br/>                                                                                  |
 | [**EndBoundary (triggerBaseType)**](taskschedulerschema-endboundary-triggerbasetype-element.md)                                   | dateTime                                                                                             | 指定停用觸發程式的日期和時間。 觸發程式在停用之後無法啟動工作。<br/> |
@@ -65,7 +65,7 @@ ms.locfileid: "106968366"
 
 
 
-| 名稱 | 類型 | Description                               |
+| 名稱 | 類型 | 描述                               |
 |------|------|-------------------------------------------|
 | 識別碼   | 識別碼   | 觸發程式的識別碼。<br/> |
 
@@ -101,8 +101,8 @@ ms.locfileid: "106968366"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

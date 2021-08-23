@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d24c305b28641fcee366b4e906b87008decac014
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d199a406fa1934fb63625cd258baee8d69c20c17992a7d1d3bbd2c83956a1f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633890"
 ---
 # <a name="ctransformfilter-class"></a>CTransformFilter 類別
 
@@ -47,7 +47,7 @@ ms.locfileid: "106984000"
 
 在輸入 pin 連線之前，輸出 pin 會拒絕所有連線，而且不會傳回任何慣用的媒體類型。 連接輸入連接之後，輸出圖釘會藉由呼叫篩選器的 [**GetMediaType**](ctransformfilter-getmediatype.md) 方法來傳回慣用類型清單。 它會透過篩選的 [**CheckTransform**](ctransformfilter-checktransform.md) 方法來檢查連接的輸出類型。  (兩種方法都是純虛擬的。 ) 通常，輸入類型會部分決定可接受的輸出類型。
 
-根據篩選準則，您可能會想要註冊某些篩選器支援的媒體類型，讓 [篩選器](filter-mapper.md) 對應程式物件可以找到您的篩選準則。 如需詳細資訊，請參閱 [如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
+根據篩選準則，您可能會想要註冊某些篩選器支援的媒體類型，讓 [篩選器](filter-mapper.md) 對應程式物件可以找到您的篩選準則。 如需詳細資訊，請參閱[如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
 
 ## <a name="streaming"></a>串流
 
@@ -57,7 +57,7 @@ ms.locfileid: "106984000"
 
 
 
-| 受保護的成員變數                                                | Description                                                                                             |
+| 受保護的成員變數                                                | 描述                                                                                             |
 |---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [**m \_ bEOSDelivered**](ctransformfilter-m-beosdelivered.md)              | 指出篩選是否已傳送資料流程結束通知的旗標。                          |
 | [**m \_ bSampleSkipped**](ctransformfilter-m-bsampleskipped.md)            | 指出最近樣本是否已卸載的旗標。                                         |
@@ -66,7 +66,7 @@ ms.locfileid: "106984000"
 | [**m \_ csReceive**](ctransformfilter-m-csreceive.md)                      | 保護串流狀態的重要區段。                                                     |
 | [**m \_ pInput**](ctransformfilter-m-pinput.md)                            | 輸入釘選的指標。                                                                               |
 | [**m \_ pOutput**](ctransformfilter-m-poutput.md)                          | 輸出圖釘的指標。                                                                              |
-| 公用方法                                                            | Description                                                                                             |
+| 公用方法                                                            | 描述                                                                                             |
 | [**CTransformFilter**](ctransformfilter-ctransformfilter.md)             | 函式方法。                                                                                     |
 | [**~ CTransformFilter**](ctransformfilter--ctransformfilter.md)          | 函式方法。                                                                                      |
 | [**GetPinCount**](ctransformfilter-getpincount.md)                       | 抓取篩選上的釘選數目。 虛擬。                                                    |
@@ -85,15 +85,15 @@ ms.locfileid: "106984000"
 | [**BeginFlush**](ctransformfilter-beginflush.md)                         | 開始清除作業。 虛擬。                                                                      |
 | [**EndFlush**](ctransformfilter-endflush.md)                             | 結束清除操作。 虛擬。                                                                        |
 | [**NewSegment**](ctransformfilter-newsegment.md)                         | 通知篩選此呼叫之後所收到的媒體範例會分組為區段。 虛擬。      |
-| 純虛擬方法                                                      | Description                                                                                             |
+| 純虛擬方法                                                      | 描述                                                                                             |
 | [**CheckInputType**](ctransformfilter-checkinputtype.md)                 | 檢查輸入是否可接受指定的媒體類型。                                          |
 | [**CheckTransform**](ctransformfilter-checktransform.md)                 | 檢查輸入媒體類型是否與輸出媒體類型相容。                             |
 | [**DecideBufferSize**](ctransformfilter-decidebuffersize.md)             | 設定輸出釘選的緩衝區需求。                                                              |
 | [**GetMediaType**](ctransformfilter-getmediatype.md)                     | 抓取輸出圖釘的慣用媒體類型。                                                    |
-| IMediaFilter 方法                                                      | Description                                                                                             |
+| IMediaFilter 方法                                                      | 描述                                                                                             |
 | [**停止**](ctransformfilter-stop.md)                                     | 停止篩選。                                                                                       |
 | [**暫停**](ctransformfilter-pause.md)                                   | 暫停篩選。                                                                                      |
-| IBaseFilter 方法                                                       | Description                                                                                             |
+| IBaseFilter 方法                                                       | 描述                                                                                             |
 | [**FindPin**](ctransformfilter-findpin.md)                               | 使用指定的識別碼抓取 pin。                                                        |
 
 

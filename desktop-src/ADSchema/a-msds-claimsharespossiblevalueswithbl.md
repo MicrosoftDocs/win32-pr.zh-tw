@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d51e4316f4c87a1b8055df7256f586b3cc13f02e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a90ca04d9dfcfbc17eb8ff0e33b459503e8b7a5bae281cfd1101f14f529a4fff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552668"
 ---
 # <a name="ms-ds-claim-shares-possible-values-with-bl-attribute"></a>ms DS-------BL 屬性
 

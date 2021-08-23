@@ -4,12 +4,12 @@ description: 命名空間是指必須明確解析所有物件名稱的內容。
 ms.assetid: 7731f6b5-1efa-43bc-bd31-9b5183ec90dc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb79ba44bfaab1ea50dd89961503176dc8fbd1a7
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 2ce9119b49cde888cb51f65e6e6b677fb364d640e1b78fe48c739b7c1206936d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106988157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692198"
 ---
 # <a name="namespace"></a>命名空間
 

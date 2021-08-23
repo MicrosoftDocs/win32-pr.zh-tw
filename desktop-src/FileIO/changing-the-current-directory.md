@@ -4,12 +4,12 @@ ms.assetid: b08e7739-55d4-4690-9ce5-2a8cb29214e9
 title: 變更目前的目錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e507d206bcd988a7c00f557bde2b8a0ad39c79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60cf742c872bab7d37e115afa815fff961d2f975bfbd3db75ff61a5e992d64a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632108"
 ---
 # <a name="changing-the-current-directory"></a>變更目前的目錄
 

@@ -1,25 +1,25 @@
 ---
 title: 分鏡腳本總覽
-description: 本總覽著重于如何在 Windows 動畫中使用轉換和分鏡腳本。
+description: 本總覽著重在 Windows 動畫中如何使用轉換和分鏡腳本。
 ms.assetid: d37718ac-0256-4a24-a26c-d29173593be0
 keywords:
-- Windows 動畫視窗動畫、分鏡腳本總覽
-- 分鏡腳本視窗動畫，說明
-- 轉換 Windows 動畫，說明
+- Windows動畫 Windows 動畫、分鏡腳本總覽
+- 分鏡腳本 Windows 動畫，說明
+- Windows 動畫的轉換，描述
 - 轉換 Windows 動畫，自訂
 - interpolators Windows 動畫，說明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58210ae98f6d3a96c554276466ad72b3364d72a1
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: ca78e4638ad7c3930be25b9ff826e5fa533d2af62cc4907b7a17d4c5b636f239
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514090"
 ---
 # <a name="storyboard-overview"></a>分鏡腳本總覽
 
-本總覽著重于如何在 Windows 動畫中使用轉換和分鏡腳本。 如需 Windows 動畫元件的總覽，請參閱 [Windows 動畫總覽](scenic-animation-api-overview.md)。
+本總覽著重在 Windows 動畫中如何使用轉換和分鏡腳本。 如需 Windows 動畫元件的總覽，請參閱[Windows 動畫總覽](scenic-animation-api-overview.md)。
 
 本主題包含下列幾節：
 
@@ -37,7 +37,7 @@ ms.locfileid: "111524282"
 
 ## <a name="transitions"></a>轉換
 
-轉換會定義單一動畫變數在特定時間間隔內的變更方式。 Windows 動畫包含一般轉換的程式庫，可供開發人員套用至一或多個動畫變數。 不同類型的轉換具有不同的參數集，這些參數可能會在轉換完成時包括變數的值、轉換的持續時間，或是基礎數學函數的唯一數量（例如加速或震盪的範圍）。
+轉換會定義單一動畫變數在特定時間間隔內的變更方式。 Windows動畫包含一般轉換的程式庫，可讓開發人員將其套用至一或多個動畫變數。 不同類型的轉換具有不同的參數集，這些參數可能會在轉換完成時包括變數的值、轉換的持續時間，或是基礎數學函數的唯一數量（例如加速或震盪的範圍）。
 
 所有轉換都會共用兩個隱含參數：數學函式的初始值和初始速度 (斜率) 。 這些可以由應用程式明確指定，但通常會在轉換開始時，由動畫管理員設定為動畫變數的值和速度。
 

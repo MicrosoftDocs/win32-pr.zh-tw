@@ -4,12 +4,12 @@ ms.assetid: d4cb80fe-cf44-4260-a132-9d264c3efb22
 title: 'MFPKEY_STAT_BMAX 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0941d92cb6e71b3eabaaae5cad14aa080cdaeffc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0161fee759d2e7eea7d40dc9c4bf2e3c28c1aae829b7c38096b3119487090ef5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555338"
 ---
 # <a name="mfpkey_stat_bmax-property"></a>MFPKEY \_ STAT \_ BMAX 屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "106980160"
 
 | 需求 | 值 |
 |-------------------|-----------------------------------------------------------------------------------------|
-| 用戶端<br/> | Windows XP、Windows Vista 或 Windows 7<br/>                                       |
+| 用戶端<br/> | WindowsXP、Windows Vista 或 Windows 7<br/>                                       |
 | 標頭<br/> | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

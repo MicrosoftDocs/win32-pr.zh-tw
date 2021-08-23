@@ -4,12 +4,12 @@ description: 在 Direct2D 中使用色彩
 ms.assetid: 74b1f12c-b1de-4df1-85ba-0cf7a0009499
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb195a4ad0bdd9ff32f1123a8a57ff2ce0aadbde
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: efe6ded6d181ebcbca402161fe6af0b8fb8dd65f7d082632474136a9bd1ff551
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631516"
 ---
 # <a name="using-color-in-direct2d"></a>在 Direct2D 中使用色彩
 
@@ -85,7 +85,7 @@ B = (0 * 0.6 + 1.0 * 0.4) =. 40
 
 
 
-| 像素格式                                                                                                                           | Description                                                                                                                                                                                                                                                       |
+| 像素格式                                                                                                                           | 描述                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DXGI_FORMAT_B8G8R8A8_UNORM"></span><span id="dxgi_format_b8g8r8a8_unorm"></span>**DXGI \_ 格式 \_ B8G8R8A8 \_ UNORM**<br/> | 這是最常見的像素格式。 所有圖元元件 (紅色、綠色、藍色和 Alpha) 為8位不帶正負號的整數。 元件會以 *BGRA* 順序排列在記憶體中。  (請參閱下面的圖例。 ) <br/>                                          |
 | <span id="DXGI_FORMAT_R8G8B8A8_UNORM"></span><span id="dxgi_format_r8g8b8a8_unorm"></span>**DXGI \_ 格式 \_ R8G8B8A8 \_ UNORM**<br/> | 圖元元件是以 *RGBA* 順序為8位不帶正負號的整數。 換句話說，會交換紅色和藍色的元件，相對於 **DXGI \_ FORMAT \_ B8G8R8A8 \_ UNORM**。 只有硬體裝置才支援此格式。<br/>                             |

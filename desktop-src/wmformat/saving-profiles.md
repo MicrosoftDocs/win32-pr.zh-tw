@@ -3,19 +3,19 @@ title: 正在儲存設定檔
 description: 正在儲存設定檔
 ms.assetid: 07c1ef16-6696-4314-aed8-58cda464b0db
 keywords:
-- Windows Media Format SDK，儲存設定檔
-- Windows Media Format SDK，設定檔儲存
+- Windows媒體格式 SDK，儲存設定檔
+- Windows媒體格式 SDK，設定檔儲存
 - 設定檔，儲存
 - 設定檔，IWMProfileManager 介面
 - IWMProfileManager，儲存設定檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 276b002f0b7f98de2e84f2c27a4f52bde25726bb
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 6befb09d7e0d628462bdd22e1e905c351be58dc077959089883ce3707dc493d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547038"
 ---
 # <a name="saving-profiles"></a>正在儲存設定檔
 
@@ -24,7 +24,7 @@ ms.locfileid: "104374395"
 > [!Note]  
 > 您絕對不應該變更寫入檔案的設定檔字串。 您要對設定檔進行的任何變更，都應該以程式設計的方式進行。 變更 prx 檔案中的值可能會導致無法預期的結果。
 
- 
+ 
 
 下列範例是使用標準 C 樣式檔案 i/o 將設定檔儲存至檔案的函式。 若要編譯使用此範例的應用程式，您必須在專案中包含 stdio.h。
 
@@ -94,9 +94,9 @@ HRESULT ProfileToFile(IWMProfileManager* pProfileMgr,
 [**使用設定檔**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

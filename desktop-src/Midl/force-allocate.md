@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f73d0386d786e4d3004c78b1acccda7e9be8fc16
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c9c82e1665e4c49461c3c7bd1c315b31f4f72c7e3f0e5331d9f0326347d36105
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582158"
 ---
 # <a name="force_allocate-attribute"></a>強制 \_ 配置屬性
 
@@ -72,6 +72,6 @@ Func2([force_allocate] pData);
 [**分配**](allocate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
