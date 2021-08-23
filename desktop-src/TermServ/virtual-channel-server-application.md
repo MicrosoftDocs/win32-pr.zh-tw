@@ -5,12 +5,12 @@ ms.assetid: b593df5d-5e22-46c6-8f59-9e3fdfe765ad
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 377732b91d6f93645e23b0f0b93cc203a65ef471
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d63a758f4860a0ab606f18c4a5086d305b1f627475bf7bab588648cea8aabd41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119423560"
 ---
 # <a name="virtual-channel-server-application"></a>虛擬通道伺服器應用程式
 
@@ -41,7 +41,7 @@ ms.locfileid: "103673808"
 > [!Note]  
 > 遠端桌面服務目前未使用此函數。
 
- 
+ 
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ ms.locfileid: "103673808"
 > [!Note]  
 > 遠端桌面服務目前未使用此函數。
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,9 +78,9 @@ ms.locfileid: "103673808"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

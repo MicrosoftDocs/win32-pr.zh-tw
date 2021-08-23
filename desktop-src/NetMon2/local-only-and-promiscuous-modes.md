@@ -4,12 +4,12 @@ ms.assetid: 4646f5bb-e3e3-4929-91b7-f68c5b70ccb3
 title: Local-Only 和混合模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd1188760d8de31836de3fbd437854a5df138402
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8155c968f82154712ec8926f114e63380cdb1099bf7908d5a4dde86d7646dc20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555888"
 ---
 # <a name="local-only-and-promiscuous-modes"></a>Local-Only 和混合模式
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: fe83baa32be8ae18948ae5a80e3e0b218cd4fa4a
-ms.sourcegitcommit: 80ee822f6ebcbcc8f60042e0d14a39ef6989c731
+ms.openlocfilehash: 12e7321fd40437bc262439c6ddb319a0aa6dba145d05d3feebba2813c904bbce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "106994927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537968"
 ---
 # <a name="d1105-threading-violation"></a>D1105：執行緒違規
 

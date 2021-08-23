@@ -9,12 +9,12 @@ keywords:
 - Microsoft 介面定義語言 MIDL、起始頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e274d66ae234205f5db1f41b2d191ea409561bd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9062d5b2af18f7c3aa5ad57a4cb8f606cccc43333e4eff17d3518f72b7a064a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119534968"
 ---
 # <a name="microsoft-interface-definition-language"></a>Microsoft 介面定義語言
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 23ab8615421eee7289e5f0bb58582bf8e0d48f17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 5b741b40d0947119109d3496a214ccdd75c59272fd7c5f4d0eac569a5b24c3a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119591898"
 ---
 # <a name="shelllinkobjecthotkey-property"></a>ShellLinkObject 熱鍵屬性
 
@@ -88,9 +88,9 @@ ALT 鍵
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何在 JScript、VBScript 和 Visual Basic 中正確使用此屬性。
+下列範例顯示在 JScript、VBScript 和 Visual Basic 中，此屬性的正確用法。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -220,10 +220,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows 2000 Professional 含 SP3 \[ desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | \[只有 SP3 desktop 應用程式 Windows 2000 Professional\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |
 
 

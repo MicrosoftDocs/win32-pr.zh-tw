@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8306da8451d4af7da8ce4f4c7d4d3f6fd367e1ec
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 2850d08726337f1ff43ad09319aea8b0af95d107ad9dad9c0f89ce94474c7261
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106995135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073192"
 ---
 # <a name="csourcestreamgetmediatype-method-sourceh"></a>CSourceStream. GetMediaType 方法 (Source .h) 
 
@@ -55,7 +55,7 @@ virtual HRESULT GetMediaType(
 
 
 
-| 傳回碼                                                                                            | Description                      |
+| 傳回碼                                                                                            | 描述                      |
 |--------------------------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                   | 成功。<br/>              |
 | <dl> <dt>**VFW \_ S \_ 沒有 \_ 其他 \_ 專案**</dt> </dl> | 索引超出範圍。<br/>   |

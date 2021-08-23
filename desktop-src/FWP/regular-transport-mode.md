@@ -4,12 +4,12 @@ description: 傳輸模式 IPsec 原則案例需要所有相符流量的 IPsec �
 ms.assetid: 303f7cdc-fb7a-4e5c-8291-cadcb45035cb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8335854c80850e44b860530bbebab05aa3f14273
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: eebfb6dad27340bfc72397307c58fddfe2bdf6eeadb65081faa0e1941de2c052
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535888"
 ---
 # <a name="transport-mode"></a>傳輸模式
 

@@ -4,16 +4,16 @@ ms.assetid: 5177f120-4b93-40bc-9481-aedf65a8dee9
 title: 'ITSdp：： get_SessionId 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ad593b61f4c935a220e59383ae170569f04af54
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 67f7e8ea9bef17e5cb34ca23443b1f16f815c964c3cf76b9b122878e8662d051
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621538"
 ---
 # <a name="itsdpget_sessionid-method"></a>ITSdp：： get \_ SessionId 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **取得 \_ SessionId** 方法會取得32位 NTP (網路時間通訊協定) 值，作為會話識別碼。 這是在會話建立時自動產生的。
 
@@ -45,7 +45,7 @@ HRESULT get_SessionId(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *PSessionId* 參數無效。<br/>             |

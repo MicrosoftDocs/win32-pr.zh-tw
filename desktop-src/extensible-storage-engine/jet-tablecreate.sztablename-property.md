@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 34d80a4392beea5b6c81fa29cf70ccc3bc40d25b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9baac6af448dd600c19d1f3535e5b9164862547073fec220a1d295e51ce665c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615978"
 ---
 # <a name="jet_tablecreatesztablename-property"></a>JET_TABLECREATE szTableName 屬性
 

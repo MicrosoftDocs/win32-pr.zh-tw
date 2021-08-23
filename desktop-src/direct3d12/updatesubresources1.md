@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 885ee058aacbfca238448830f2b7b1b54a298f89
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bb1e48f4bc574d0b032b878c19c7749f63f86aba21a659c1c0a8f6f526f5bce5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496598"
 ---
 # <a name="updatesubresources-function"></a>UpdateSubresources 函式
 

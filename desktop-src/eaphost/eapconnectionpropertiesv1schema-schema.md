@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f9522b91f007eab8821f6d7f24bbcca3014d8b76
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 8fa0b76edadba7592000019057cc7d51751c3156e2996916f7b870206fc5b43b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561858"
 ---
 # <a name="eapconnectionpropertiesv1-schema"></a>eapconnectionpropertiesv1 架構
 
@@ -29,9 +29,9 @@ Eapconnectionpropertiesv1 架構會定義通用設定架構元素。
 [EAPHost 和舊版架構](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

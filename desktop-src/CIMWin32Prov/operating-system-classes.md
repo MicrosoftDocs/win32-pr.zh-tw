@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 作業系統類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f47df8a949e3ac07bf2099ea708d496bed87298
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cc5cbb168b2a322b5ceae8a2bd73985d14a74b4f1df227fd3e6cce384c554742
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588288"
 ---
 # <a name="operating-system-classes"></a>作業系統類別
 
@@ -26,7 +26,7 @@ ms.locfileid: "106973185"
 -   [工作物件](#job-objects)
 -   [記憶體和分頁檔案](#memory-and-page-files)
 -   [多媒體音訊或視覺效果](#multimedia-audio-or-visual)
--   [網路功能](#networking)
+-   [網路](#networking)
 -   [作業系統事件](#operating-system-events)
 -   [作業系統設定](#operating-system-settings)
 -   [處理序](#processes)
@@ -36,7 +36,7 @@ ms.locfileid: "106973185"
 -   [服務](#services)
 -   [共用](#shares)
 -   [[開始] 功能表](#start-menu)
--   [存放裝置](#storage)
+-   [儲存體](#storage)
 -   [使用者](#users)
 -   [Windows 產品啟用](#windows-product-activation)
 
@@ -79,7 +79,7 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 | 類別                                           | 描述                                                                                                                        |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | [**Win32 \_ 桌面**](win32-desktop.md)         | Instance 類別<br/> 代表使用者桌面的一般特性。<br/>                                    |
-| [**Win32 \_ 環境**](win32-environment.md) | Instance 類別<br/> 代表執行 Windows 的電腦系統上的環境或系統內容設定。<br/> |
+| [**Win32 \_ 環境**](win32-environment.md) | Instance 類別<br/> 代表執行 Windows 之電腦系統上的環境或系統內容設定。<br/> |
 | [**Win32 \_ 時區**](win32-timezone.md)       | Instance 類別<br/> 代表執行 Windows 之電腦系統的時區資訊。<br/>                   |
 | [**Win32 \_ UserDesktop**](win32-userdesktop.md) | Association 類別<br/> 將使用者帳戶與其專屬的桌面設定產生關聯。<br/>                   |
 
@@ -110,15 +110,15 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 | 類別                                                                               | 描述                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Win32 \_ CIMLogicalDeviceCIMDataFile**](win32-cimlogicaldevicecimdatafile.md)     | Association 類別<br/> 關聯邏輯裝置和資料檔案，指出裝置所使用的驅動程式檔案。<br/>                                                      |
-| [**Win32 \_ 目錄**](win32-directory.md)                                         | Instance 類別<br/> 代表執行 Windows 的電腦系統上的目錄專案。<br/>                                                                              |
+| [**Win32 \_ 目錄**](win32-directory.md)                                         | Instance 類別<br/> 代表執行 Windows 之電腦系統上的目錄專案。<br/>                                                                              |
 | [**Win32 \_ DirectorySpecification**](/previous-versions/windows/desktop/msiprov/win32-directoryspecification)               | Instance 類別<br/> 表示產品的目錄版面配置。<br/>                                                                                                |
 | [**Win32 \_ DiskDriveToDiskPartition**](win32-diskdrivetodiskpartition.md)           | Association 類別<br/> 將磁片磁碟機和現有磁碟分割相關聯。<br/>                                                                                         |
-| [**Win32 \_ DiskPartition**](win32-diskpartition.md)                                 | Instance 類別<br/> 表示在執行 Windows 的電腦系統上，實體磁片之資料分割區域的功能和管理容量。<br/>              |
+| [**Win32 \_ DiskPartition**](win32-diskpartition.md)                                 | Instance 類別<br/> 表示執行 Windows 之電腦系統上的實體磁片之分割區的功能和管理功能。<br/>              |
 | [**Win32 \_ DiskQuota**](/previous-versions/windows/desktop/wmipdskq/win32-diskquota)                                    | Association 類別<br/> 追蹤 NTFS 檔案系統磁片區的磁碟空間使用量。<br/>                                                                                        |
 | [**Win32 \_ LogicalDisk**](win32-logicaldisk.md)                                     | 表示在執行 Windows 的電腦系統上，解析為實際本機儲存裝置的資料來源。<br/>                                                            |
 | [**Win32 \_ LogicalDiskRootDirectory**](win32-logicaldiskrootdirectory.md)           | Association 類別<br/> 建立邏輯磁片與其目錄結構的關聯。<br/>                                                                                          |
 | [**Win32 \_ LogicalDiskToPartition**](win32-logicaldisktopartition.md)               | Association 類別<br/> 關聯邏輯磁片磁碟機和其所在的磁碟分割。<br/>                                                                           |
-| [**Win32 \_ MappedLogicalDisk**](win32-mappedlogicaldisk.md)                         | 表示在執行 Windows 的電腦系統上對應為邏輯磁片的網路存放裝置。<br/>                                                               |
+| [**Win32 \_ MappedLogicalDisk**](win32-mappedlogicaldisk.md)                         | 代表網路儲存裝置，這些裝置會在執行 Windows 的電腦系統上對應為邏輯磁片。<br/>                                                               |
 | [**Win32 \_ OperatingSystemAutochkSetting**](/previous-versions//aa394240(v=vs.85)) | Association 類別<br/> 代表 [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md) 實例與其定義之設定之間的關聯。<br/> |
 | [**Win32 \_ QuotaSetting**](/previous-versions/windows/desktop/wmipdskq/win32-quotasetting)                              | Instance 類別<br/> 包含磁片區上磁片配額的設定資訊。<br/>                                                                                       |
 | [**Win32 \_ ShortcutFile**](win32-shortcutfile.md)                                   | Instance 類別<br/> 代表做為其他檔案、目錄和命令之快捷方式的檔案。<br/>                                                                  |
@@ -168,10 +168,10 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 
 | 類別                                                                 | 描述                                                                                                                                   |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Win32 \_ 分頁檔**](win32-pagefile.md)                             | Instance 類別<br/> 表示用來處理 Windows 系統上虛擬記憶體檔案交換的檔案。<br/>                  |
+| [**Win32 \_ 分頁檔**](win32-pagefile.md)                             | Instance 類別<br/> 表示用來處理 Windows 系統上的虛擬記憶體檔案交換的檔案。<br/>                  |
 | [**Win32 \_ PageFileElementSetting**](win32-pagefileelementsetting.md) | Association 類別<br/> 在正常使用期間，將分頁檔案的初始設定與這些設定的狀態產生關聯。<br/>        |
 | [**Win32 \_ PageFileSetting**](win32-pagefilesetting.md)               | Instance 類別<br/> 表示分頁檔的設定。<br/>                                                                  |
-| [**Win32 \_ PageFileUsage**](win32-pagefileusage.md)                   | Instance 類別<br/> 表示在執行 Windows 的電腦系統上用來處理虛擬記憶體檔案交換的檔案。<br/> |
+| [**Win32 \_ PageFileUsage**](win32-pagefileusage.md)                   | Instance 類別<br/> 代表用來處理執行 Windows 之電腦系統上的虛擬記憶體檔案交換的檔案。<br/> |
 
 
 
@@ -203,9 +203,9 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 | [**Win32 \_ IP4PersistedRouteTable**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4persistedroutetable) | Instance 類別<br/> 表示保存的 IP 路由。<br/>                                                             |
 | [**Win32 \_ IP4RouteTable**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetable)                   | Instance 類別<br/> 表示控制網路資料封包路由的資訊。<br/>                    |
 | [**Win32 \_ IP4RouteTableEvent**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetableevent)         | 事件類別<br/> 表示 IP 路由變更事件。<br/>                                                             |
-| [**Win32 \_ NetworkClient**](win32-networkclient.md)                              | Instance 類別<br/> 代表執行 Windows 的電腦系統上的網路用戶端。<br/>                           |
+| [**Win32 \_ NetworkClient**](win32-networkclient.md)                              | Instance 類別<br/> 代表執行 Windows 之電腦系統上的網路用戶端。<br/>                           |
 | [**Win32 \_ NetworkConnection**](win32-networkconnection.md)                      | Instance 類別<br/> 代表 Windows 環境中的使用中網路連接。<br/>                           |
-| [**Win32 \_ NetworkProtocol**](win32-networkprotocol.md)                          | Instance 類別<br/> 表示在執行 Windows 的電腦系統上的通訊協定和其網路特性。<br/> |
+| [**Win32 \_ NetworkProtocol**](win32-networkprotocol.md)                          | Instance 類別<br/> 代表執行 Windows 之電腦系統上的通訊協定和其網路特性。<br/> |
 | [**Win32 \_ NTDomain**](/previous-versions/windows/desktop/cimwin32a/win32-ntdomain)                                        | Instance 類別<br/> 代表 Windows NT 網域。<br/>                                                             |
 | [**Win32 \_ PingStatus**](/previous-versions/windows/desktop/wmipicmp/win32-pingstatus)                               | Instance 類別<br/> 代表標準 **ping** 命令所傳回的值。<br/>                            |
 | [**Win32 \_ ProtocolBinding**](win32-protocolbinding.md)                          | Association 類別<br/> 將系統層級的驅動程式、網路通訊協定和網路介面卡相關聯。<br/>                    |
@@ -243,7 +243,7 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 
 ## <a name="operating-system-settings"></a>作業系統設定
 
-作業系統設定子類別目錄會將代表作業系統及其設定的類別分組。
+作業系統設定子類別目錄會群組代表作業系統及其設定的類別。
 
 
 
@@ -289,7 +289,7 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 
 | 類別                                                 | 描述                                                                                                     |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [**Win32 \_ 進程**](win32-process.md)               | Instance 類別<br/> 代表執行 Windows 的電腦系統上的一系列事件。<br/>      |
+| [**Win32 \_ 進程**](win32-process.md)               | Instance 類別<br/> 代表執行 Windows 之電腦系統上的事件順序。<br/>      |
 | [**Win32 \_ ProcessStartup**](win32-processstartup.md) | Instance 類別<br/> 代表執行 Windows 之電腦系統的啟動設定。<br/> |
 | [**Win32 \_ 執行緒**](win32-thread.md)                 | Instance 類別<br/> 表示執行的執行緒。<br/>                                          |
 
@@ -305,7 +305,7 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 
 | 類別                                     | 描述                                                                                               |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [**Win32 \_ 登錄**](win32-registry.md) | Instance 類別<br/> 代表執行 Windows 的電腦系統上的系統登錄。<br/> |
+| [**Win32 \_ 登錄**](win32-registry.md) | Instance 類別<br/> 代表執行 Windows 之電腦系統上的系統登錄。<br/> |
 
 
 
@@ -372,7 +372,7 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 | 類別                                           | 描述                                                                                                                                             |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Win32 \_ BaseService**](win32-baseservice.md) | Instance 類別<br/> 代表安裝在服務控制管理員所維護之登錄資料庫中的可執行物件。<br/> |
-| [**Win32 \_ 服務**](win32-service.md)         | Instance 類別<br/> 代表執行 Windows 的電腦系統上的服務。<br/>                                                         |
+| [**Win32 \_ 服務**](win32-service.md)         | Instance 類別<br/> 代表執行 Windows 之電腦系統上的服務。<br/>                                                         |
 
 
 
@@ -396,7 +396,7 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 | [**Win32 \_ SessionConnection**](/previous-versions/windows/desktop/wmipsess/win32-sessionconnection) | Association 類別<br/> 代表遠端電腦上的使用者與本機伺服器建立的會話之間的關聯，以及相依于會話的連接。<br/> |
 | [**Win32 \_ SessionProcess**](win32-sessionprocess.md)       | Association 類別<br/> 表示登入會話與與該會話相關聯之進程之間的關聯。<br/>                                                            |
 | [**Win32 \_ ShareToDirectory**](win32-sharetodirectory.md)   | Association 類別<br/> 將電腦系統上的共用資源與其對應的目錄相關聯。<br/>                                                                    |
-| [**Win32 \_ 共用**](win32-share.md)                         | Instance 類別<br/> 代表執行 Windows 的電腦系統上的共用資源。<br/>                                                                                              |
+| [**Win32 \_ 共用**](win32-share.md)                         | Instance 類別<br/> 代表執行 Windows 之電腦系統上的共用資源。<br/>                                                                                              |
 
 
 
@@ -410,7 +410,7 @@ COM 子類別目錄群組類別，這些類別表示 COM 和 DCOM 設定、類�
 
 | 類別                                                                                   | 描述                                                                                                                                                              |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Win32 \_ LogicalProgramGroup**](win32-logicalprogramgroup.md)                         | Instance 類別<br/> 代表執行 Windows 的電腦系統中的程式群組。<br/>                                                                    |
+| [**Win32 \_ LogicalProgramGroup**](win32-logicalprogramgroup.md)                         | Instance 類別<br/> 代表執行 Windows 之電腦系統中的程式群組。<br/>                                                                    |
 | [**Win32 \_ LogicalProgramGroupDirectory**](win32-logicalprogramgroupdirectory.md)       | Association 類別<br/> 將邏輯程式群組關聯至 [開始] 功能表) 中的 (群組，以及儲存它們的檔案目錄。<br/>                 |
 | [**Win32 \_ LogicalProgramGroupItem**](win32-logicalprogramgroupitem.md)                 | Instance 類別<br/> 代表 **Win32 \_ ProgramGroup** 實例所包含的專案，它本身不是另一個 **win32 \_ ProgramGroup** 實例。<br/> |
 | [**Win32 \_ LogicalProgramGroupItemDataFile**](win32-logicalprogramgroupitemdatafile.md) | Association 類別<br/> 使 [開始] 功能表的程式群組專案和儲存這些專案的檔案產生關聯。<br/>                                       |
@@ -453,15 +453,15 @@ Users 子類別會將代表使用者帳戶資訊的類別分組，例如群組�
 
 | 類別                                                                 | 描述                                                                                                                                      |
 |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Win32 \_ 帳戶**](win32-account.md)                               | Instance 類別<br/> 代表執行 Windows 的電腦系統已知的使用者帳戶和群組帳戶的相關資訊。<br/> |
+| [**Win32 \_ 帳戶**](win32-account.md)                               | Instance 類別<br/> 表示執行 Windows 之電腦系統已知的使用者帳戶和群組帳戶的相關資訊。<br/> |
 | [**Win32 \_ 群組**](win32-group.md)                                   | Instance 類別<br/> 代表群組帳戶的相關資料。<br/>                                                                      |
 | [**Win32 \_ GroupInDomain**](/previous-versions/windows/desktop/cimwin32a/win32-groupindomain)                   | Association 類別<br/> 識別與 Windows NT 網域相關聯的群組帳戶。<br/>                                       |
 | [**Win32 \_ GroupUser**](win32-groupuser.md)                           | Association 類別<br/> 讓群組和屬於該群組成員的帳戶產生關聯。<br/>                                           |
 | [**Win32 \_ LogonSession**](win32-logonsession.md)                     | Instance 類別<br/> 描述與登入 Windows 的使用者相關聯的登入會話或會話。<br/>                        |
 | [**Win32 \_ LogonSessionMappedDisk**](/windows/desktop/CIMWin32Prov/win32-logonsessionmappeddisk) | Instance 類別<br/> 表示與會話相關聯的對應邏輯磁片。<br/>                                            |
-| [**Win32 \_ NetworkLoginProfile**](win32-networkloginprofile.md)       | Instance 類別<br/> 代表執行 Windows 的電腦系統上特定使用者的網路登入資訊。<br/>           |
+| [**Win32 \_ NetworkLoginProfile**](win32-networkloginprofile.md)       | Instance 類別<br/> 代表執行 Windows 之電腦系統上特定使用者的網路登入資訊。<br/>           |
 | [**Win32 \_ SystemAccount**](win32-systemaccount.md)                   | Instance 類別<br/> 表示系統帳戶。<br/>                                                                                |
-| [**Win32 \_ UserAccount**](win32-useraccount.md)                       | Instance 類別<br/> 代表執行 Windows 的電腦系統上使用者帳戶的相關資訊。<br/>                           |
+| [**Win32 \_ UserAccount**](win32-useraccount.md)                       | Instance 類別<br/> 代表執行 Windows 之電腦系統上使用者帳戶的相關資訊。<br/>                           |
 | [**Win32 \_ UserInDomain**](/previous-versions/windows/desktop/cimwin32a/win32-userindomain)                     | Association 類別<br/> 建立使用者帳戶和 Windows NT 網域的關聯。<br/>                                                          |
 
 
@@ -476,7 +476,7 @@ Windows 事件記錄子類別目錄會將代表事件、事件記錄檔專案、
 
 | 類別                                                         | 描述                                                                                                                                                                   |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Win32 \_ NTEventlogFile**](/previous-versions/windows/desktop/legacy/aa394225(v=vs.85))         | Instance 類別<br/> 代表儲存在 Windows 事件記錄檔中的資料。<br/>                                                                                      |
+| [**Win32 \_ NTEventlogFile**](/previous-versions/windows/desktop/legacy/aa394225(v=vs.85))         | Instance 類別<br/> 表示儲存在 Windows 事件記錄檔中的資料。<br/>                                                                                      |
 | [**Win32 \_ NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent)                 | Instance 類別<br/> 表示 Windows 事件。<br/>                                                                                                               |
 | [**Win32 \_ NTLogEventComputer**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogeventcomputer) | Association 類別<br/> 使 [**win32 \_ NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent) 和 win32 的 [**實例 \_**](win32-computersystem.md)產生關聯。<br/>         |
 | [**Win32 \_ NTLogEventLog**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogeventlog)           | Association 類別<br/> 將 [**win32 \_ NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent) 和 [**win32 \_ NTEventlogFile**](/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)) 類別的實例產生關聯。<br/> |
@@ -486,9 +486,9 @@ Windows 事件記錄子類別目錄會將代表事件、事件記錄檔專案、
 
  
 
-## <a name="windows-product-activation"></a>Windows 產品啟用
+## <a name="windows-product-activation"></a>Windows產品啟用
 
-Windows 產品啟用 (WPA) 是一種 antipiracy 的技術，可減少軟體的偶爾複製。
+Windows (WPA) 的產品啟用是一種 antipiracy 技術，可減少軟體的偶爾複製。
 
 
 

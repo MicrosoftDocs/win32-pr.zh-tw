@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cca22790cc7cc45199be939a9acad944ab2f613e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d6a6a02ee75f7e12400a87acab99b738e9fd23a10e1e79428857965ae583bce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119477828"
 ---
 # <a name="esentrecordnocopyexception-class"></a>EsentRecordNoCopyException 類別
 

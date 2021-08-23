@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1fa5b664b39541b9d697dfbbfd0493f7a6f7cf96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4dd36db457099aaa9c134593fa385f21480e036e15629d10c32e716e604a462
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119426928"
 ---
 # <a name="applysnapshot-method-of-the-msvm_collectionsnapshotservice-class"></a>Msvm CollectionSnapshotService 類別的 ApplySnapshot 方法 \_
 

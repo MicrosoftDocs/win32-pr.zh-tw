@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 6d77fd25e57d18948287fc48d381bdc687da2a25
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: 18dfdc90ccd2339f3f245b5c663fe120436d0664bcae398e29512db8a68b838d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104195704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406078"
 ---
 # <a name="texture2darraygatherred-methods"></a>Texture2DArray：： GatherRed 方法
 

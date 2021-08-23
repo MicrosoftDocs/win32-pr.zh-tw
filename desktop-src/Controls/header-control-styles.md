@@ -22,12 +22,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d8450ad39cdb965e3e4be15f0093ec4737a87c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe76446196c565796388a5bcd402e9fb3a071e1b14626d7ead949ab9eb0e3b61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435098"
 ---
 # <a name="header-control-styles"></a>標題控制項樣式
 

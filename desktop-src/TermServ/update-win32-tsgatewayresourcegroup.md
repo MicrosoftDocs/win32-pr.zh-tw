@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7b1610fc14aa522fa4d8b7caf03fccd7b37375
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0c2f32e7f0c06f67ad0d32a7754c701097320564c5c01de3c348b9935b8b702
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119423908"
 ---
 # <a name="update-method-of-the-win32_tsgatewayresourcegroup-class"></a>Win32 TSGatewayResourceGroup 類別的 Update 方法 \_
 

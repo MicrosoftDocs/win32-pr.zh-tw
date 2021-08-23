@@ -4,12 +4,12 @@ ms.assetid: 90eca1e0-960f-4355-aef7-6e923100a6d8
 title: Microsoft 增強式 DSS & Diffie-Hellman 密碼編譯提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70c42b4e504c1e5d4cb8ccfea7405580e37362f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3eb3e70d90224b2d97612c5d63380171d3239e11915da4cdd8a38a0faea0b8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425438"
 ---
 # <a name="microsoft-enhanced-dss--diffie-hellman-cryptographic-provider"></a>Microsoft 增強式 DSS & Diffie-Hellman 密碼編譯提供者
 
@@ -21,7 +21,7 @@ Microsoft 增強式 DSS 和 [*Diffie-hellman*](../secgloss/d-gly.md) 密碼編�
 
 此密碼編譯提供者支援下列演算法。
 
-| 演算法識別碼          | 演算法類型  | 預設大小 (位)  | Description                                                                                                                                                |
+| 演算法識別碼          | 演算法類型  | 預設大小 (位)  | 描述                                                                                                                                                |
 |-----------------------|-----------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CALG \_ CYLINK \_ MEK** | 資料加密 | 40                  | CYLINK 訊息加密演算法。                                                                                                                       |
 | **CALG \_ RC2**         | 資料加密 | 128                 | RSA RC2。                                                                                                                                                   |

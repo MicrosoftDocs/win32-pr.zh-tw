@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 189be6ff6872cfb85c2f336c29dedef2e435382e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 00fd0cd84aedb32e2da567a92ffc421f41394a991872f9216b06a4f28f895183
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119566888"
 ---
 # <a name="id3dx10meshgetvertexcount-method"></a>ID3DX10Mesh：： GetVertexCount 方法
 

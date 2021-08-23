@@ -4,12 +4,12 @@ ms.assetid: 1b624702-de25-4b1a-9dac-21f359ee97f7
 title: 修補資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 061b2082f88a8c7c3967652900bb6bf6e1c29802
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9e5f41f206557589bf0b90d9ffb125a80d05d39ce809dc01a8e687a21045475
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558458"
 ---
 # <a name="patch-table"></a>修補資料表
 
@@ -46,7 +46,7 @@ Patch 資料表有下列資料行。
 <span id="Sequence"></span><span id="sequence"></span><span id="SEQUENCE"></span>序列
 </dt> <dd>
 
-這是修補檔案的位置，以媒體映射上檔案的順序排列。 順序必須對應至修補封裝封包檔中的檔案順序。 這是此資料表的主要索引鍵。 最大限制為32767個檔案，若要建立具有更多檔案的 Windows Installer 封裝，請參閱 [撰寫大型封裝](authoring-a-large-package.md)。
+這是修補檔案的位置，以媒體映射上檔案的順序排列。 順序必須對應至修補封裝封包檔中的檔案順序。 這是此資料表的主要索引鍵。 最大限制為32767個檔案，若要建立具有更多檔案的 Windows Installer 封裝，請參閱[撰寫大型封裝](authoring-a-large-package.md)。
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ Patch 資料表有下列資料行。
 
 
 
-| 常數                         | 十六進位 | Decimal | Description                                                          |
+| 常數                         | 十六進位 | Decimal | 描述                                                          |
 |----------------------------------|-------------|---------|----------------------------------------------------------------------|
 | (無)                           | 0x000       | 0       | 無法套用此修補程式是嚴重錯誤。                        |
 | **msidbPatchAttributesNonVital** | 0x001       | 1       | 指出套用此修補程式的失敗不是嚴重錯誤。 |

@@ -3,7 +3,7 @@ title: 'EM_GETAUTOCORRECTPROC 訊息 (Richedit .h) '
 description: 取得應用程式定義之 AutoCorrectProc 函數的指標。
 ms.assetid: 90821036-F27D-4AC3-9AB8-40A94486B938
 keywords:
-- EM_GETAUTOCORRECTPROC message Windows 控制項
+- EM_GETAUTOCORRECTPROC 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc4d730d15ca8631e6d663e3d4f971f115d5c268
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4dc6b5068c1e72c05d7a1b85ee02e57b788cf417f732fe3c2bab8c66d0dcf383
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541088"
 ---
 # <a name="em_getautocorrectproc-message"></a>EM \_ GETAUTOCORRECTPROC 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104465573"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

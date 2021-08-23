@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00fa4c1f963841d0c1ea0375cdf11913b28d0286
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 47975b2c4586728fc4727044b7340d87c275c5a5f47aac1c68ab3d9fdafbda6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119424408"
 ---
 # <a name="imsrdpclientadvancedsettingshotkeyctrlaltdel-property"></a>IMsRdpClientAdvancedSettings：： HotKeyCtrlAltDel 屬性
 

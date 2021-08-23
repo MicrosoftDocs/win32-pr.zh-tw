@@ -4,12 +4,12 @@ ms.assetid: 67f7b6f0-9dd5-49de-b29c-e2a7343aaf73
 title: 瑞士通道指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 103a43c8e2ddf0e084f31dbfac1bb126988317ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5005d1194e835882abe82d2024d28b60f134f2061bd8210b15362274dffe4c6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072342"
 ---
 # <a name="switzerland-channel-assignments"></a>瑞士通道指派
 
@@ -17,7 +17,7 @@ ms.locfileid: "106978388"
 
 如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。
 
-在 Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
+Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
 
 ## <a name="cable-assignments"></a>纜線指派
 

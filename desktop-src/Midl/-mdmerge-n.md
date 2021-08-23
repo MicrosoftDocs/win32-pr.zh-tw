@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78197c0f79c6bbe21ae4eb883620b95e6f0bd4c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d3e9575995d80a4c61b5e91be7c5cfc1c802abed892af8cfa653f62c66e602b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430968"
 ---
 # <a name="n-switch"></a>/n 參數
 
@@ -44,7 +44,7 @@ mdmerge /n namespace_depth
 
 
 
-| 值格式                   | Description                                                                     |
+| 值格式                   | 描述                                                                     |
 |--------------------------------|---------------------------------------------------------------------------------|
 | Int32 > 0                   | 在參數中指定的命名空間深度撰寫所有類型。               |
 | -1                             | 將所有類型撰寫為每個命名空間一個 IDL 檔案。                              |
@@ -57,19 +57,19 @@ mdmerge /n namespace_depth
 
 下表顯示使用這些命名空間的不同 **/n** 參數組合的結果。
 
--   Iiterable<t>。
--   DirectUI. Button （控制項）
--   DirectUI （ListView）
--   PlayTo. Target （應用程式）
--   Web.config。 RSS
+-   Windows。Iiterable<t>
+-   Windows。Ui。DirectUI 按鈕
+-   Windows。Ui。DirectUI： ListView
+-   Windows。Ui。PlayTo。目標
+-   Windows。Web.config。 RSS
 
 
 
 | 交換器                         | 結果                                                                                                                                                                                                                                                       | 說明                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **/n：-1**  /**n：1**               | Windows.winmd                                                                                                                                                                                                                                                | 最後一個/n 參數會覆寫所有先前的-n 參數。                                                                                                                                                                                                                                                                           |
-| **/n：-1/n： Windows。 UI：2**         | <dl> <dt>Windows</dt> <dt>. winmd.</dt> <dt>...</dt> .。 </dl> | <dl> <dt>**Windows Foundation** 一律是在-n:2. 上撰寫</dt> <dt>**Windows. UI** 類型為群組。</dt> <dt>**Web.config** 的組成 n:-1。</dt> </dl>       |
-| **/n： 1/n： DirectUI：3** | <dl> <dt>Windows.Foundation.winmd</dt> <dt>Windows.UI.DirectUI.winmd </dt> <dt>Windows.winmd</dt> </dl>       | <dl> <dt>**Windows Foundation** 一律是在-n:2. 上撰寫</dt> <dt>**DirectUI** 是在層級3撰寫。</dt> <dt>所有其他類型都是在層級1上組成。</dt> </dl> |
+| **/n：-1/n： Windows。UI：2**         | <dl> <dt>Windows。基礎 winmd</dt> <dt>Windows。</dt> <dt>Windows 的使用者介面。Web.config</dt> </dl> | <dl> <dt>**Windows。基礎** 一律會在-n:2. 上撰寫</dt> <dt>**Windows。UI** 類型為群組。</dt> <dt>**Windows。Web.config** 的組成方式為 n:-1。</dt> </dl>       |
+| **/n： 1/n： Windows。Ui。DirectUI：3** | <dl> <dt>Windows。基礎 winmd</dt> <dt>Windows。Ui。DirectUI winmd</dt> <dt>Windows winmd</dt> </dl>       | <dl> <dt>**Windows。基礎** 一律會在-n:2. 上撰寫</dt> <dt>**Windows。Ui。DirectUI** 是在層級3撰寫。</dt> <dt>所有其他類型都是在層級1上組成。</dt> </dl> |
 
 
 
@@ -83,7 +83,7 @@ mdmerge /n namespace_depth
 
 ## <a name="examples"></a>範例
 
-**mdmerge.exe 中繼資料 \_ dir $ (SDK \_ 中繼資料 \_ 路徑) -i $ (內部 \_ SDK \_ 中繼資料 \_ 路徑) -o $ (OBJ \_ 路徑) \\ $O \\ SystemMetadata-v-n:-1-n:Windows.Foundation：2**
+**mdmerge.exe 中繼資料 \_ dir $ (SDK \_ 中繼資料 \_ 路徑) -i $ (內部 \_ SDK \_ 中繼資料 \_ 路徑) -o $ (OBJ \_ 路徑) \\ $O \\ SystemMetadata-v-n:-1-n： Windows。Foundation：2**
 
 ## <a name="requirements"></a>規格需求
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9a9e8b547790049c93360f060e944aafcea4511
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83abb24f665cbcbf978a6423868751794371606cf412f609876a8f17d42c115a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489528"
 ---
 # <a name="gludisk-function"></a>gluDisk 函式
 

@@ -13,12 +13,12 @@ keywords:
 - 材質函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39821469b3d361294c60f16144645c25c6512335
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 472c588a771b85a7e183f405dab26e68b47dc932f9ccbcb66b503f730fb53866
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490618"
 ---
 # <a name="gltexenv-functions"></a>glTexEnv 函式
 
@@ -29,9 +29,9 @@ ms.locfileid: "103674919"
 -   [**glTexEnvfv**](gltexenvfv.md)
 -   [**glTexEnviv**](gltexenviv.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b3ec506bdbc636051e7723af4942f33f2d449ae6
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
-ms.translationtype: HT
+ms.openlocfilehash: c9700f3e70c57a8ccd96d0a88d12a88bdfcbbcabb85a79d65f2b658b35d40552
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104974745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489658"
 ---
 # <a name="tex1d-hlsl-reference---select-the-mip-level"></a>tex1D (HLSL 參考) -選取 mip 層級
 
@@ -56,7 +56,7 @@ ms.locfileid: "104974745"
 
 
 
-| Name | 輸入/輸出 | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小 |
+| 名稱 | 輸入/輸出 | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小 |
 |------|--------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
 | s    | in     | [**物件**](dx-graphics-hlsl-intrinsic-functions.md) | [sampler1D](dx-graphics-hlsl-sampler.md)                      | 1    |
 | t    | in     | [**向量**](dx-graphics-hlsl-intrinsic-functions.md) | [**FLOAT**](/windows/desktop/WinProg/windows-data-types)                        | 1    |
@@ -79,7 +79,7 @@ ms.locfileid: "104974745"
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是 (只) 圖元著色器  |
 | [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 是 (只) 圖元著色器 |
 | [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 是 (只) 圖元著色器 |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以                       |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否                       |
 
 
 

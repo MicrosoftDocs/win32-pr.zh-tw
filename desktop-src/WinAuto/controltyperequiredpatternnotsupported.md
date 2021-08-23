@@ -4,12 +4,12 @@ description: ControlTypeRequiredPatternNotSupported
 ms.assetid: D3DFB577-0F46-4598-A90F-C91A6A360AAC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3609936de79203838a277c3b12fb3eccb78c735a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 498d477ef06e369f0ebb14b370953914b37c7d124ed18bcdcb6042d8f27fb32e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614768"
 ---
 # <a name="controltyperequiredpatternnotsupported"></a>ControlTypeRequiredPatternNotSupported
 
@@ -43,9 +43,9 @@ ControlType 為的元素 {0} 應可支援， {1} 但此元素不會
 [UI 自動化控制項模式概觀](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -18,12 +18,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6a3ccbb5e1e08a036fb9973d552db73ee1607c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ab65d00cd4be793556929d3049db549ad8ab9729d1e2e2752e550c3e2cf357d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422508"
 ---
 # <a name="win32_sessionbrokerfarm-class"></a>Win32 \_ SessionBrokerFarm 類別
 

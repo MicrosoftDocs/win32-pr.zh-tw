@@ -4,12 +4,12 @@ ms.assetid: b3206b30-56b4-4d56-a778-af3a6b3b8d9c
 title: DirectX 標準注釋和語義參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c989f4aed7c01c62d6133e01fe035223b74c8d3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6da1489f92fce16e4717d501a64ab862fb9292c271397aa4a77e00e74c2e7952
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119373630"
 ---
 # <a name="directx-standard-annotations-and-semantics-reference"></a>DirectX 標準注釋和語義參考
 

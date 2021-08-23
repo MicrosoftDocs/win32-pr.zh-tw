@@ -7,12 +7,12 @@ keywords:
 - 使用 ADSI 擴充功能遠端桌面服務遠端桌面服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f115fecf1cce5c518e93206402f76e077109611
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe63a725531c21b64ed0ac10abdeb4f710465532ab95f7c416c88f6142f1d55e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119423688"
 ---
 # <a name="using-the-adsi-extension-for-remote-desktop-services-user-configuration"></a>使用遠端桌面服務使用者設定的 ADSI 擴充功能
 
@@ -31,6 +31,6 @@ ms.locfileid: "103933544"
 
 如需使用 ADSI 命名慣例和 AdsPath 字串的詳細資訊，請參閱[Active Directory Service 介面](/windows/desktop/ADSI/active-directory-service-interfaces-adsi)平臺軟體發展工具組 (SDK) 檔中個別[ADSI 服務提供者](/windows/desktop/ADSI/adsi-system-providers)的相關資訊。
 
- 
+ 
 
- 
+ 

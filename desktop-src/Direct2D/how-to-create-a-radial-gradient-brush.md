@@ -5,12 +5,12 @@ ms.assetid: 663743c9-16e9-4e3a-90b2-883ef0b8d5cf
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: fe3509a80f80132f4a5e5d65f62476be1cac61d1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1932dc6506c625332d61f4e549ae2dd169060731bfbea344f64c3aa826540ae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569261"
 ---
 # <a name="how-to-create-a-radial-gradient-brush"></a>如何建立放射狀漸層筆刷
 
@@ -55,9 +55,9 @@ ms.locfileid: "104186014"
 3.  您可以使用 [**ID2D1RenderTarget：： CreateGradientStopCollection**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection))方法，從先前宣告的 [**D2D1 \_ 梯度 \_ 停**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop)用結構陣列建立 [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection)集合。 然後，使用 [**CreateRadialGradientBrush**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)) 建立放射狀漸層筆刷。
 
     > [!Note]  
-    > 從 Windows 8 開始，您可以使用 [**ID2D1DeviceCoNtext：： CreateGradientStopCollection**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) 方法來建立 [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) 集合，而不是 [**ID2D1RenderTarget：： CreateGradientStopCollection**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)) 方法。 此介面會以直線或 prmultiplied 色彩新增高彩漸層和漸層的插補。 如需詳細資訊，請參閱 **ID2DDeviceCoNtext：： CreateGradientStopCollection** 頁面。
+    > 從 Windows 8 開始，您可以使用 [**ID2D1DeviceCoNtext：： CreateGradientStopCollection**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection)方法來建立 [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1)集合，而不是 [**ID2D1RenderTarget：： CreateGradientStopCollection**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection))方法。 此介面會以直線或 prmultiplied 色彩新增高彩漸層和漸層的插補。 如需詳細資訊，請參閱 **ID2DDeviceCoNtext：： CreateGradientStopCollection** 頁面。
 
-     
+     
 
     ```C++
     // The center of the gradient is in the center of the box.
@@ -92,6 +92,6 @@ ms.locfileid: "104186014"
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

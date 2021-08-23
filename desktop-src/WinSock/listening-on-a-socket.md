@@ -4,12 +4,12 @@ ms.assetid: 83c9f0e7-2e6d-449b-8d97-3d13154112cd
 title: 在通訊端上接聽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48c36fe1718493d1b92ca52bb3c648ebd1aa5b0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6d6d98a13fc6e994fb5a264827b6b93047fd24e03d3e3f9953203b1fa15140f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569778"
 ---
 # <a name="listening-on-a-socket"></a>在通訊端上接聽
 

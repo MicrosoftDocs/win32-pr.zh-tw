@@ -8,12 +8,12 @@ keywords:
 - 備份備份，建立應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77409a0c74ee61e333b92dad8b22d9c68ed92eba
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3086e51bce928b682d3e61518de29118abdc48461a77f79e48a4a4cb4b0f2c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529478"
 ---
 # <a name="creating-a-backup-application"></a>建立備份應用程式
 
@@ -42,6 +42,6 @@ hTape = CreateFile(TEXT("\\\\.\\TAPE0"),         // tape dev to open
 
 如果 [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) 緩衝區中的其中一個資料流程有 **備份 \_ 連結** 資料流程識別碼，應用程式必須建立永久連結。 如果建立連結所需的資料不存在， **BackupWrite** 就會失敗。 應用程式可以使用預先存在的目錄來找出並還原原始資料，也可以通知使用者要還原的檔案資料位於不同的位置。
 
- 
+ 
 
- 
+ 

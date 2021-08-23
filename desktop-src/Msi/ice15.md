@@ -4,12 +4,12 @@ ms.assetid: 8a38c8d2-324d-4de9-932b-d188ff5ccbaf
 title: ICE15
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb39b3c617db41e9e58a226f1eeb92c3d733ebad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ce1e5e54dedd2663a9f849abee43e244c73d7aa5835426be05d4e0163f599ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529308"
 ---
 # <a name="ice15"></a>ICE15
 
@@ -34,7 +34,7 @@ ICE15 會針對所顯示的範例張貼兩則錯誤訊息：
 
 
 
-| ContentType   | 分機\_ |
+| ContentType   | 延伸模組\_ |
 |---------------|-------------|
 | 測試/x 測試   | Tst         |
 | 翼翼/x 翼 | flp         |
@@ -47,7 +47,7 @@ ICE15 會針對所顯示的範例張貼兩則錯誤訊息：
 
 
 
-| 分機 | MIME\_        |
+| 延伸模組 | MIME\_        |
 |-----------|---------------|
 | Tst       | 翼翼/x 翼 |
 | flp       | Null          |

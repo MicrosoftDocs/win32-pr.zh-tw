@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cce6b9ca7c103e9a9e9151a7ff0467a59786b1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b065b9c7499beb2433c0b7c76180a6073b13be589f710aec0810299ab249b91c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119389108"
 ---
 # <a name="playermarkerhit-event"></a>MarkerHit 事件
 
@@ -55,7 +55,7 @@ Player.MarkerHit(
 
 ## <a name="remarks"></a>備註
 
-事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入之 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
+事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
 
 ## <a name="requirements"></a>規格需求
 

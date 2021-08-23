@@ -6,12 +6,12 @@ keywords:
 - Direct2D，如何使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a54d44419631f9f4f272fba310723522e508fbaa
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ace9e9250466c45af7a1bcac6da3d9d12fbe8dd05cc828275c7ecd2f047c890e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569168"
 ---
 # <a name="how-to-topics-direct2d"></a> (Direct2D) 的 how to 主題
 

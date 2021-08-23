@@ -10,16 +10,16 @@ keywords:
 - 外觀，範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f2df762857b34edc91969b7f58eb294a10fbbcc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d29932f5116f8acf3b2d5cbdc16c37ee0a03b4d8b6d8bb2b3e99c200904bda9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615128"
 ---
 # <a name="why-make-skins"></a>為何要建立外觀？
 
-當有人在圖形化運算環境（例如 Microsoft Windows）中使用程式時，使用者互動的視覺元件會構成使用者介面。 Microsoft Windows 的目的之一是提供標準使用者介面，讓所有程式都能以類似、熟悉的方式運作。 例如，Microsoft 建議您在 Microsoft Windows 使用者體驗中，每個程式都在程式主視窗的右上角提供 [ **關閉** ] 按鈕。
+當有人在圖形化運算環境（例如 Microsoft Windows）中使用程式時，使用者互動的視覺元件會構成使用者介面。 Microsoft Windows 的其中一種用途是提供標準使用者介面，讓所有程式都能以類似、熟悉的方式運作。 例如，microsoft 建議在 microsoft Windows 使用者體驗中，每個程式都在程式主視窗的右上角提供 [**關閉**] 按鈕。
 
 Windows Media Player 提供建立您自己的使用者介面的功能。 如果您想要將 [ **關閉** ] 按鈕放在畫面中間，可以這麼做。 您可能不喜歡 [ **關閉** ] 按鈕的外觀 (看起來像是方塊內的 X) ;如果您想要讓它看起來像是 skull 和 crossbones，您可以建立一個使用者介面，其中的 [ **關閉** ] 按鈕就是這樣！ Windows Media Player 提供您建立自訂使用者介面來播放音樂和影片所需的所有工具：按鈕、滑杆列、影片視窗、視覺效果視窗、均衡列等等。
 
@@ -36,9 +36,9 @@ Windows Media Player 提供建立您自己的使用者介面的功能。 如果�
 [**關於外觀**](about-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

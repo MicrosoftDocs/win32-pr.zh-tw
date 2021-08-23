@@ -4,12 +4,12 @@ ms.assetid: fd9ce912-5cec-4bec-b7d8-5a4f71000c95
 title: 建立 PenInputPanel 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4072d5dca28801ee45b7747504a93d755443cfb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad0e1c54bd8555521cae00fe10c70f8980d7d8b6a5d17d810d90b945feacece8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119395284"
 ---
 # <a name="creating-a-peninputpanel-object"></a>建立 PenInputPanel 物件
 
@@ -24,7 +24,7 @@ PenInputPanel thePenInputPanel = new PenInputPanel(InkEdit1);
 
 
 
-Visual Basic .NET 中的相同範例看起來像這樣：
+Visual Basic .net 中的相同範例看起來像這樣：
 
 
 ```C++

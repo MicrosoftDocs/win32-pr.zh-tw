@@ -4,12 +4,12 @@ ms.assetid: dfe44c8c-43ec-461f-952f-b87256b82ee6
 title: Debug Output 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87470b44717bb76c1a029bd885bb9149a4636b5d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 252e1020ca99bd5b4f2f46d7f2169fa6835dea83a25d599dba142f370bb794f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537738"
 ---
 # <a name="debug-output-functions"></a>Debug Output 函數
 
@@ -39,7 +39,7 @@ ms.locfileid: "106973360"
 
 **登錄機碼**
 
-DirectShow 中的 debug output 函數會使用一組登錄機碼。 這些登錄機碼的位置取決於 Windows 版本。
+DirectShow 中的 debug output 函數會使用一組登錄機碼。 這些登錄機碼的位置取決於 Windows 的版本。
 
 在 *Windows Vista 之前*，調試機碼位於下列路徑底下：
 
@@ -47,15 +47,15 @@ DirectShow 中的 debug output 函數會使用一組登錄機碼。 這些登錄
 
 在 Windows Vista 或更新版本中，它們位於下列路徑：
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **DirectShow** \\ **Debug**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **DirectShow** 的 \\ **調試** 程式
 
-若為協力廠商篩選，位置取決於用來建立篩選器的 [DirectShow 基類](directshow-base-classes.md) 版本。 Windows Vista 的 Windows SDK 中包含的版本會使用較新的路徑。 先前的版本會使用較舊的路徑。
+若為協力廠商篩選，位置取決於用來建立篩選的[DirectShow 基類](directshow-base-classes.md)版本。 Windows Vista 的 Windows SDK 中包含的版本會使用較新的路徑。 先前的版本會使用較舊的路徑。
 
 在接下來的備註中，標籤 *<DebugRoot>* 是用來表示這兩個路徑。 根據 Windows 版本或基類版本，取代正確的路徑。
 
 **Debug 記錄**
 
-DirectShow 定義了數種訊息類型，如下表所示。
+DirectShow 定義數個訊息類型，如下表所示。
 
 
 
@@ -72,7 +72,7 @@ DirectShow 定義了數種訊息類型，如下表所示。
 
  
 
-每個 DirectShow debug 記錄函式都會指定訊息類型和記錄層級。 只有當該訊息類型目前的調試層級等於或大於記錄函式中指定的層級時，才會顯示此偵錯工具訊息。 否則會忽略此訊息。
+每一個 DirectShow 的 debug 記錄函數都會指定訊息類型和記錄層級。 只有當該訊息類型目前的調試層級等於或大於記錄函式中指定的層級時，才會顯示此偵錯工具訊息。 否則會忽略此訊息。
 
 例如，如果記錄 \_ 追蹤層級為3或更高，則下列程式碼會輸出字串 "This a debug message"：
 
@@ -107,7 +107,7 @@ Debug 程式庫會使用較大的層級，也就是全域層級或模組層級�
 
 如果此索引鍵的值為 `Console` ，則輸出會移至主控台視窗。 如果值為 `Deb` 、 `Debug` 、 `Debugger` 或空字串，則輸出會移至偵錯工具視窗。 否則，輸出會寫入登錄機碼所指定的檔案。
 
-在可執行檔使用 DirectShow debug 程式庫之前，必須先呼叫 [**DbgInitialise**](dbginitialise.md) 函數。 之後，它必須呼叫 [**DbgTerminate**](dbgterminate.md) 函數。 Dll 不需要呼叫這些函式，因為在基類庫中 (定義 DLL 進入點) 會自動呼叫這些函式。
+在可執行檔使用 DirectShow debug 程式庫之前，必須先呼叫 [**DbgInitialise**](dbginitialise.md)函數。 之後，它必須呼叫 [**DbgTerminate**](dbgterminate.md) 函數。 Dll 不需要呼叫這些函式，因為在基類庫中 (定義 DLL 進入點) 會自動呼叫這些函式。
 
 ## <a name="related-topics"></a>相關主題
 

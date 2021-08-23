@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102515
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1544120a641650fee095fef8deab394c652b4c9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e2ddd6ff0973d87b387a3c0df1bc21ff4730d8a38d9c55317ca2726673b5c52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619978"
 ---
 # <a name="esentoutofobjectidsexception-methods"></a>EsentOutOfObjectIDsException 方法
 

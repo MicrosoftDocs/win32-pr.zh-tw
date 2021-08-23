@@ -6,10 +6,10 @@ keywords:
 - Windows Media Player，程式庫
 - Windows Media Player 物件模型，程式庫
 - 物件模型，程式庫
-- Windows Media Player ActiveX 控制項，物件模型的程式庫
+- Windows Media Player ActiveX 控制項、物件模型的程式庫
 - ActiveX 控制項，物件模型的程式庫
-- Windows Media Player 的行動 ActiveX 控制項、物件模型的程式庫
-- Windows Media Player 行動裝置、物件模型的程式庫
+- Windows Media PlayerMobile ActiveX 控制項，物件模型的程式庫
+- Windows Media Player適用于物件模型的 Mobile、library
 - Windows Media Player 程式庫，以程式設計方式存取
 - 程式庫，存取
 - 以程式設計方式存取 Windows Media Player 程式庫
@@ -28,12 +28,12 @@ keywords:
 - 中繼資料，正在抓取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d40e03e91b2a67a24cb49b0ac1810ceb7b9544c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6b575d1ed265d5c8e65beab9cc8e937b3639d8547867dacf473b2db21fe99198
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619428"
 ---
 # <a name="accessing-the-library-programmatically"></a>以程式設計方式存取程式庫
 
@@ -73,7 +73,7 @@ var media = playlist.item(0);
 
 ## <a name="retrieving-metadata-from-a-media-item"></a>從媒體專案中取出中繼資料
 
-取得 **媒體** 物件之後，您可以讀取與內容相關聯的屬性值。 在最簡單的情況下，您可能只想要知道單一值，例如執行音樂播放軌的演出者名稱。下列 JScript 範例示範如何使用 [getItemInfo](media-getiteminfo.md) 方法，從上一個範例中取出的媒體取出演出者的名稱：
+取得 **媒體** 物件之後，您可以讀取與內容相關聯的屬性值。 在最簡單的情況下，您可能只想要知道單一值，例如執行音樂播放軌的演出者名稱。下列 JScript 範例示範如何使用[getItemInfo](media-getiteminfo.md)方法，從上一個範例中取出的媒體取出演出者的名稱：
 
 
 ```C++
@@ -88,7 +88,7 @@ var author = media.getItemInfo("Artist");
 
 ## <a name="removing-media-items-from-the-library"></a>從媒體櫃移除媒體專案
 
-從媒體櫃移除數位媒體內容也很簡單。 只要呼叫 **MediaCollection**，就會提供代表專案的 **媒體** 物件做為第一個引數，並將值 **true** 做為第二個引數。 下列 JScript 範例會從程式庫移除先前範例) 中， (抓取名為 Jeanne 的檔案：
+從媒體櫃移除數位媒體內容也很簡單。 只要呼叫 **MediaCollection**，就會提供代表專案的 **媒體** 物件做為第一個引數，並將值 **true** 做為第二個引數。 下列 JScript 範例會從程式庫移除先前範例) 中所抓取的名為 Jeanne 的檔案 (：
 
 
 ```C++
@@ -115,9 +115,9 @@ playst.mediaCollection.remove(media, true);
 [**使用程式庫**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

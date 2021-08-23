@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7da95f1545996a83adeb27deaceb7fab6290005e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0a6bab8865dec475087743f658429fd633fc9bb1443da14bd1198e8a7c73b0fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488738"
 ---
 # <a name="gluscaleimage-function"></a>gluScaleImage 函式
 

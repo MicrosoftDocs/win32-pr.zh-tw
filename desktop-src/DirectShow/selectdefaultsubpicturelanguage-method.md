@@ -4,17 +4,17 @@ ms.assetid: e83980d1-c7cd-4755-9a27-3b0c2548009e
 title: SelectDefaultSubpictureLanguage 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9d7dd4d66ae9d0580bf863ede9fff1e51d373e2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3aaa6b927d33626299258ac54136e1a67b0dedb40427a35d9c79465be3e9a15d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072582"
 ---
 # <a name="selectdefaultsubpicturelanguage-method"></a>SelectDefaultSubpictureLanguage 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

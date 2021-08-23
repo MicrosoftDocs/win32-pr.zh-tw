@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 8b824080c28da3265be6dc0333f236b8c9a4cbaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0048da80026029274a89d089f5c232311a481a6010c0aad32d8b1a6ae6cc6786
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571468"
 ---
 # <a name="rtlextendedintegermultiply-function"></a>RtlExtendedIntegerMultiply 函式
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101397
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 315588722ca0ef8db9fd0ab895a3f2d7fb246086
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fe012cd76d7953c1aa3f43288eceeafade112ca72e6b998312c3eada8d7ab5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041916"
 ---
 # <a name="esentcheckpointfilenotfoundexception-methods"></a>EsentCheckpointFileNotFoundException 方法
 

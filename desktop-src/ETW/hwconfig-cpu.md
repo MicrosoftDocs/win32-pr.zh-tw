@@ -18,12 +18,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 493952e25080d4a64e018477ca1b45033c8747af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9987095c8c2a1e9b9abbb54eb66816277428e2296c98395d36340297cc541bfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070188"
 ---
 # <a name="hwconfig_cpu-class"></a>HWConfig \_ CPU 類別
 
@@ -160,7 +160,7 @@ PageSize
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                   |
 
 

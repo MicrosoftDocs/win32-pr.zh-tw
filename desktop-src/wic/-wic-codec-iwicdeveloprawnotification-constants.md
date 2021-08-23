@@ -4,12 +4,12 @@ ms.assetid: 4e94b4f4-abd9-4395-87ec-a08e49a2cf88
 title: 'IWICDevelopRawNotificationCallback 常數 (Wincodec) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c8bf5d7cb2f4ac0e6fddd1f2e9151c95143b0cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 885a99ea21ccafdb3961387013d0f6d9f466e48ffe542a3349af7e658b1b1786
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592458"
 ---
 # <a name="iwicdeveloprawnotificationcallback-constants"></a>IWICDevelopRawNotificationCallback 常數
 
@@ -17,7 +17,7 @@ ms.locfileid: "103944994"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                                                                                                            | Description                                                                                                          |
+| 常數/值                                                                                                                                                                                                                                                                                                                                                                                            | 描述                                                                                                          |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
 | <span id="WICRawChangeNotification_ExposureCompensation"></span><span id="wicrawchangenotification_exposurecompensation"></span><span id="WICRAWCHANGENOTIFICATION_EXPOSURECOMPENSATION"></span><dl> <dt>**WICRawChangeNotification \_ExposureCompensation**</dt> <dt>0x00000001</dt> </dl>             | 用來報告曝光補償變更的遮罩。<br/>                                                       |
 | <span id="WICRawChangeNotification_NamedWhitePoint"></span><span id="wicrawchangenotification_namedwhitepoint"></span><span id="WICRAWCHANGENOTIFICATION_NAMEDWHITEPOINT"></span><dl> <dt>**WICRawChangeNotification \_NamedWhitePoint**</dt> <dt>0x00000002</dt> </dl>                                 | 用來報告 [**WICNamedWhitePoint**](/windows/desktop/api/Wincodec/ne-wincodec-wicnamedwhitepoint) 變更的遮罩。<br/>                 |
@@ -42,8 +42,8 @@ ms.locfileid: "103944994"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Wincodec。h</dt> </dl> |
 
 

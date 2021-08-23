@@ -4,12 +4,12 @@ ms.assetid: ab7d5224-62de-40a8-909f-564f61c45d01
 title: 調整影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40ce5d1584c905bbf46f10e29e512af95ddbc55c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd7445c64bcf7ca4332612de0689e9ebeb55850372a5be2b4fb19c1593bbf339
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613738"
 ---
 # <a name="scaling-an-image"></a>調整影像
 

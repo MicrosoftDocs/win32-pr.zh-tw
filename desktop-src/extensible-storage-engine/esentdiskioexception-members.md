@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101524
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c686a520a9249e8a8ab069c8c32736ca3eddb229
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0ab7ece4ff6b8244bec35ca9382b170a8e8c918fe706feb85f773f5f00902a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104554792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119481338"
 ---
 # <a name="esentdiskioexception-members"></a>EsentDiskIOException 成員
 

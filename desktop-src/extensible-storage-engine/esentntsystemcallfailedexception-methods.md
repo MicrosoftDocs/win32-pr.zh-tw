@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102385
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b09a4822f444f8765529dcad71c2f1a9b3030efe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bb748dbfbc92af95c360c7d43ec493b00fefb3cd74302245b51086c18eb8b68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040329"
 ---
 # <a name="esentntsystemcallfailedexception-methods"></a>EsentNTSystemCallFailedException 方法
 

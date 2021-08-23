@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ecd7a57aff2166f3605d7007cd194f5cff04784
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1fa303bdc24637a7963f460ed3a4f2839f6c038323d8a06c66d98dce3ba6545f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106995887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488158"
 ---
 # <a name="glvertex2fv-function"></a>glVertex2fv 函式
 
@@ -40,7 +40,7 @@ void WINAPI glVertex2fv(
 
 <dl> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 兩個元素的陣列指標。 元素是頂點的 x 和 y 座標。

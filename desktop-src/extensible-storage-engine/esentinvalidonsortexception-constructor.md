@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ee2d98dd135348bf990e725cfc94920ada740f81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8267deaa4d13b3768690a73f24bd13b0b2b9ccb7c2152039ec1493f1511829de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041036"
 ---
 # <a name="esentinvalidonsortexception-constructor"></a>EsentInvalidOnSortException 函式
 

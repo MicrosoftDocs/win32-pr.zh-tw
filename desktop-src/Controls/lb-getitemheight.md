@@ -3,7 +3,7 @@ title: 'LB_GETITEMHEIGHT 訊息 (Winuser .h) '
 description: 取得清單方塊中專案的高度。
 ms.assetid: ee96fce6-babd-4581-ac0e-2eb955fe543b
 keywords:
-- LB_GETITEMHEIGHT message Windows 控制項
+- LB_GETITEMHEIGHT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f44aa9e9b6d52c082a5f33a10280837a33372245
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29c232c172f14774db9dd7c783e18a10f0888190708432b9336208570f0d5031
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434328"
 ---
 # <a name="lb_getitemheight-message"></a>LB \_ GETITEMHEIGHT 訊息
 
@@ -55,9 +55,9 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *wParam* 參�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

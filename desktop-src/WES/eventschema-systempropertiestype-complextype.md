@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ce78a804c52ed492bd4b2a42332f8eda36b4c3be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f7391362938502f0c307faab4d7b9166633647b093e5154b3aa56512c6ee4e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620238"
 ---
 # <a name="systempropertiestype-complex-type"></a>SystemPropertiesType 複雜類型
 
@@ -193,9 +193,9 @@ ms.locfileid: "103686213"
 
 
 
-| 元素                                                                         | 類型                                                        | Description                                                                                                                                                                                                                                                                                                                                  |
+| 元素                                                                         | 類型                                                        | 描述                                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**通路**](eventschema-channel-systempropertiestype-element.md)             | anyURI                                                      | 要記錄事件的通道。<br/>                                                                                                                                                                                                                                                                                        |
+| [**通道**](eventschema-channel-systempropertiestype-element.md)             | anyURI                                                      | 要記錄事件的通道。<br/>                                                                                                                                                                                                                                                                                        |
 | [**電腦**](eventschema-computer-systempropertiestype-element.md)           | 字串                                                      | 發生事件之電腦的名稱。<br/>                                                                                                                                                                                                                                                                             |
 | [**相關**](eventschema-correlation-systempropertiestype-element.md)     |                                                             | 取用者可用來將相關事件群組在一起的活動識別碼。<br/>                                                                                                                                                                                                                                                 |
 | [**EventID**](eventschema-eventid-systempropertiestype-element.md)             |                                                             | 提供者用來識別事件的識別碼。<br/>                                                                                                                                                                                                                                                                      |
@@ -206,7 +206,7 @@ ms.locfileid: "103686213"
 | [**OpCode**](eventschema-opcode-systempropertiestype-element.md)               | unsignedByte                                                | 事件中定義的操作碼。 工作和 opcode 的 typcially 是用來識別應用程式中記錄事件的位置。<br/>                                                                                                                                                                                  |
 | [**提供者**](eventschema-provider-systempropertiestype-element.md)           |                                                             | 識別記錄事件的提供者。 如果提供者使用檢測資訊清單來定義其事件，則會包含 **Name** 和 **Guid** 屬性;否則，如果舊版事件提供者 (使用 [事件記錄](/windows/desktop/EventLog/event-logging)API) 記錄事件，則會包含 **EventSourceName** 屬性。<br/> |
 | [**安全性**](eventschema-security-systempropertiestype-element.md)           |                                                             | 識別記錄事件的使用者。<br/>                                                                                                                                                                                                                                                                                        |
-| [**Task**](eventschema-task-systempropertiestype-element.md)                   | unsignedShort                                               | 事件中定義的工作。 工作和 opcode 通常用來識別應用程式中記錄事件的位置。<br/>                                                                                                                                                                                    |
+| [**工作**](eventschema-task-systempropertiestype-element.md)                   | unsignedShort                                               | 事件中定義的工作。 工作和 opcode 通常用來識別應用程式中記錄事件的位置。<br/>                                                                                                                                                                                    |
 | [**TimeCreated**](eventschema-timecreated-systempropertiestype-element.md)     |                                                             | 識別事件記錄時間的時間戳記。 時間戳記會包含 **SystemTime** 屬性或 **RawTime** 屬性。<br/>                                                                                                                                                                           |
 | [**版本**](schema-version-systempropertiestype-element.md)                  | unsignedByte                                                | 事件定義的版本號碼。<br/>                                                                                                                                                                                                                                                                                     |
 
@@ -216,13 +216,13 @@ ms.locfileid: "103686213"
 
 
 
-| 名稱              | 類型                                                | Description                                                                                                                                                                                                                                                                                             |
+| 名稱              | 類型                                                | 描述                                                                                                                                                                                                                                                                                             |
 |-------------------|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ActivityID        | [**GUIDType**](eventschema-guidtype-simpletype.md) | 識別目前活動的全域唯一識別碼。 以此識別碼發佈的事件是相同活動的一部分。<br/>                                                                                                                                         |
 | EventSourceName   | 字串                                              | 如果事件來源來自舊版 [事件記錄](/windows/desktop/EventLog/event-logging) API) ，則發佈事件 (事件來源的名稱。<br/>                                                                                                                                                      |
 | Guid              | [**GUIDType**](eventschema-guidtype-simpletype.md) | 可唯一識別提供者的全域唯一識別碼。<br/>                                                                                                                                                                                                                        |
 | KernelTime        | unsignedInt                                         | 核心模式指令的已耗用執行時間，以 CPU 時間單位表示。 如果您使用的是 ETW 私用會話，請改用 ProcessorTime 成員中的值。 僅適用于記錄至事件追蹤記錄檔的事件，)  ( etl 檔。<br/>                                               |
-| Name              | anyURI                                              | 提供者的名稱。<br/>                                                                                                                                                                                                                                                                    |
+| 名稱              | anyURI                                              | 提供者的名稱。<br/>                                                                                                                                                                                                                                                                    |
 | ProcessID         | unsignedInt                                         | 識別已產生事件的處理序。<br/>                                                                                                                                                                                                                                             |
 | ProcessorID       | unsignedByte                                        | 處理事件之處理器的識別碼。 僅適用于記錄至事件追蹤記錄檔的事件，)  ( etl 檔。<br/>                                                                                                                                             |
 | ProcessorTime     | unsignedInt                                         | 針對 ETW 私用會話，使用者模式指示的經過執行時間，以 CPU 滴答為單位。 僅適用于記錄至事件追蹤記錄檔的事件，)  ( etl 檔。<br/>                                                                                                                    |
@@ -256,8 +256,8 @@ HKEY_LOCAL_MACHINE
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -6,12 +6,12 @@ ms.assetid: 46B0F055-7E4F-4F8D-9915-3D195FD695B7
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a84b4b2e5a993b33b4c322b91682c8f9b5499bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c4a7ad8d9c925d4bd3b82a3c7dd177a58afd7f50fb82836bed56fac6a20c8f6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496878"
 ---
 # <a name="direct3d-12-glossary"></a>Direct3D 12 詞彙
 
@@ -211,7 +211,7 @@ Predication 是一項功能，可啟用 GPU 而非 CPU 來決定不繪製、複�
 <span id="direct3d12.directx_12_glossary_resource_heaps"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_RESOURCE_HEAPS"></span>**資源堆積**
 </dt> <dd>
 
-資源堆積是堆積的一般詞彙，記憶體緩衝區會保留這些資源，因為它們會在 GPU 之間傳輸。 傳送至 GPU 需要一個上傳堆積，從 GPU 到 CPU 都需要 Readback 堆積，而 GPU 的持續性堆積會在多個轉譯畫面上維持，稱為預設堆積。
+資源堆積是堆積的一般詞彙，記憶體緩衝區會保留這些資源，因為它們會在 GPU 之間傳輸。 傳送至 gpu 需要 Upload 的堆積，從 GPU 到 CPU 都需要 Readback 堆積，而 gpu 的持續性堆積會在多個轉譯畫面上維持，稱為預設堆積。
 
 </dd> <dt>
 
@@ -229,7 +229,7 @@ Predication 是一項功能，可啟用 GPU 而非 CPU 來決定不繪製、複�
 
 </dd> <dt>
 
-<span id="direct3d12.directx_12_glossary_srv"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_SRV"></span>**(SRV) 的著色器資源檢視**
+<span id="direct3d12.directx_12_glossary_srv"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_SRV"></span>**資源檢視 (SRV) 的著色器**
 </dt> <dd>
 
 在著色器資源中查看資料的格式特定方式，例如紋理。
@@ -306,6 +306,6 @@ Predication 是一項功能，可啟用 GPU 而非 CPU 來決定不繪製、複�
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

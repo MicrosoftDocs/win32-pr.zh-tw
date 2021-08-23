@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba2d5bc6f966d9b10c0dadccb221086e64de827
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b9c7f345c33b7f6049da19d64a8cb5b2247ae5045ba7e979f9880d34d32b19fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490238"
 ---
 # <a name="glteximage2d-function"></a>glTexImage2D 函式
 
@@ -141,7 +141,7 @@ void WINAPI glTexImage2D(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                                                        |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標* 不是 GL \_ 紋理 \_ 2d。<br/>                                                                                                                                                                                |
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *格式* 不是接受的 *格式* 常數。 只接受 GL 樣板 \_ \_ 索引和 gl \_ 深度 \_ 元件以外的格式常數。 如需可能值的清單，請參閱 *格式* 的參數描述。<br/> |

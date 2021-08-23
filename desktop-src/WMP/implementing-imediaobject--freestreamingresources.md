@@ -11,12 +11,12 @@ keywords:
 - Echo DSP 外掛程式範例，釋放記憶體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a31a293cfc68caf43496d031426de2441c9c1d05
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30da5f92ec8420ccc90f74256003aae02664a57a8ffad3470901f672cf37aa73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119617318"
 ---
 # <a name="implementing-imediaobjectfreestreamingresources"></a>執行 IMediaObject：： FreeStreamingResources
 
@@ -43,9 +43,9 @@ if (m_pbDelayBuffer)
 [**使用串流資源**](working-with-streaming-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

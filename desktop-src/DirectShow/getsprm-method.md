@@ -4,17 +4,17 @@ ms.assetid: c6177f43-2809-4ef2-bc94-ac9a28f94621
 title: GetSPRM 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc8b6898902eda55e0e877878343a25d82d03660
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e254d23f0d70890516bc5655f6c4ea38133a8a3733360955cabf9040207f3afd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119536988"
 ---
 # <a name="getsprm-method"></a>GetSPRM 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 
@@ -60,7 +60,7 @@ ms.locfileid: "103935630"
 | 10       | Nav 的 PGC 跳躍。 計時器         |
 | 11       | 卡拉卡拉音訊簡報模式 |
 | 12       | >PROCMONTRACE.PML 國家/地區碼         |
-| 13       | Pml                             |
+| 13       | PML                             |
 | 14       | 影片設定                   |
 | 15       | 音訊功能                |
 | 16       | 音訊語言                  |

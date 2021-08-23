@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d9f61ad26c32cfeec285874edfcc26038d57b117
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 870ddbf77d1a29a34703d4b43ee21d02b676e8fafac9ee688384246339465732
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073322"
 ---
 # <a name="csourceseekinggetstopposition-method"></a>CSourceSeeking. GetStopPosition 方法
 
@@ -55,7 +55,7 @@ HRESULT GetStopPosition(
 
 
 
-| 傳回碼                                                                               | Description                       |
+| 傳回碼                                                                               | 描述                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>      | Success<br/>                |
 | <dl> <dt>**E \_ 指標**</dt> </dl> | **Null** 指標值<br/> |

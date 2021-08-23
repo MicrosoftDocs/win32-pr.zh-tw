@@ -15,12 +15,12 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7fac5627c74123c977aac379826d5264d767ba6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ec65cc8c14cd1c659a9ed9634c124ea0d5355c35e4eb56221e28112f5ac1b1ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103854068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119378358"
 ---
 # <a name="d3d11_rect"></a>D3D11 \_ RECT
 
@@ -34,7 +34,7 @@ typedef RECT D3D11_RECT;
 
 ## <a name="remarks"></a>備註
 
-[**>id3d11devicecoNtext：： RSGetScissorRects**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-rsgetscissorrects)和 [**>id3d11devicecoNtext：： RSSetScissorRects**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-rssetscissorrects)的剪式矩形會使用此結構。
+[**>Id3d11devicecoNtext：： RSGetScissorRects**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-rsgetscissorrects)和 [**>id3d11devicecoNtext：： RSSetScissorRects**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-rssetscissorrects)的剪式矩形會使用此結構。
 
 ## <a name="requirements"></a>規格需求
 

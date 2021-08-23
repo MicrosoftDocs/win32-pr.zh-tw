@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msmdun80.dll
-ms.openlocfilehash: 69697956009ed1d154c1f9fc0625aaa25c25b9a9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2b585c9024b8248eedae7fa28fcab98af297b654c26ba76fbb3b8f86f1eafb3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390768"
 ---
 # <a name="_findresource-function"></a>\_FindResource 函式
 
