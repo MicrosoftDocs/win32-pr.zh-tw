@@ -3,7 +3,7 @@ title: 'UDM_SETACCEL 訊息 (Commctrl .h) '
 description: 設定上下按鈕控制項的加速。
 ms.assetid: af1d0a34-13ba-4bda-82f5-d7afab6bb1ed
 keywords:
-- UDM_SETACCEL message Windows 控制項
+- UDM_SETACCEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b43ed290ce1668ffcaa9fb086a99ad52e5129ad6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bc746e33c14de0dd177ecc31fc237be7cb8be36280bb2a5ceadff31d2b286ec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957737"
 ---
 # <a name="udm_setaccel-message"></a>UDM \_ SETACCEL 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104025493"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

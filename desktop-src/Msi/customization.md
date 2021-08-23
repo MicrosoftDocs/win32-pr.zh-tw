@@ -4,12 +4,12 @@ ms.assetid: 98c5cda2-a01a-4bdd-840f-76c0ffacd194
 title: 自訂
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5238cc145bc4a47bff459cb6caa30be37e1ca6ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62ece84afd2b9ca5ce547d9ea96aed23786f78c89f01f5b5b5eaa78e2791e86b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947852"
 ---
 # <a name="customization"></a>自訂
 

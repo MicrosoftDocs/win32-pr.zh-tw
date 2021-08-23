@@ -4,12 +4,12 @@ description: 網路管理功能可以分成下列群組。
 ms.assetid: 4b5d3554-f81a-4ecf-bf31-ee4753509f38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bce5c0fb3dd70facb0ebbbb2479b968d428c49e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3e49a8c45c59031a12653f5cb863fef320a33c93bc60cabdd4cd6fb4aece9dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012506"
 ---
 # <a name="network-management-function-groups"></a>網路管理功能群組
 
@@ -43,6 +43,6 @@ ms.locfileid: "104023646"
 -   WNet 函式與網路無關，而網路管理功能只能在 Microsoft 網路上運作。
 -   如果 Microsoft 作業系統的未來版本已被取代，可能不支援某些功能。 除非有對等或更好的功能可供使用，否則 Microsoft 不打算移除特定功能。
 
- 
+ 
 
- 
+ 

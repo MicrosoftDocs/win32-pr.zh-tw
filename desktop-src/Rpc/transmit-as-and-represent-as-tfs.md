@@ -4,12 +4,12 @@ description: 傳送 \_ as 和表示為共用相同的版面配置，但不含 \_
 ms.assetid: 70fbb4bf-0892-4c26-9790-9fc21ff8c0dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69267741536314c3e30e2270e7be61edfdb5caff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6ada873ee6e928a08dfe1d9a93928e3b00835c9f2394bde3a5194b56cce58911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011216"
 ---
 # <a name="transmit_as-and-represent_as"></a>傳送 \_ as 和表示 \_ 為
 
@@ -48,6 +48,6 @@ Quintuple \_ 索引<2> 是回呼常式 quintuple 的索引 (這實際上是四�
 
 傳輸的 \_ 類型 \_ 位移<2> 是傳輸類型格式字串的一般相對類型位移。
 
- 
+ 
 
- 
+ 

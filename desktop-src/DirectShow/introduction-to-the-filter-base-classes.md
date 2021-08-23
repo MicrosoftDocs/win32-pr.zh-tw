@@ -4,16 +4,16 @@ ms.assetid: db6324d7-1914-44a8-a202-dff752b61c1a
 title: 篩選基礎類別簡介
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f44c104d8fe155a7c9f0edba72770a508c8ec43d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9f52c0682a5ba9f6a051506911cf143474d9958f1caa926464d9a4c236366e99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952557"
 ---
 # <a name="introduction-to-the-filter-base-classes"></a>篩選基礎類別簡介
 
-本文說明 Microsoft 的 DirectShow 基礎類別庫。 此程式庫適用于篩選開發人員，但應用程式寫入器可能會發現某些協助程式類別和偵測公用程式很有用。 但是，不需要基底類別庫來進行 DirectShow 程式設計。
+本文描述 Microsoft DirectShow 基類庫。 此程式庫適用于篩選開發人員，但應用程式寫入器可能會發現某些協助程式類別和偵測公用程式很有用。 不過，DirectShow 程式設計不需要基類庫。
 
 下列各節摘要說明程式庫中最重要的基類。
 
@@ -38,7 +38,7 @@ ms.locfileid: "104385509"
 
 **篩選和釘選類別**
 
-下列類別支援建立 DirectShow 篩選器和釘選物件：
+下列類別支援建立 DirectShow 濾波器和釘選物件：
 
 
 

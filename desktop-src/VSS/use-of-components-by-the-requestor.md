@@ -4,12 +4,12 @@ ms.assetid: 641abfbe-fc72-4468-9ef6-69c452adb1b3
 title: 要求者使用元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83efdb9e80ac0331289c3b611978e66a58098de6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec3149800a3f8cb52afff044e593f6b01177b27054c64a2ee19c19cb570ed633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998078"
 ---
 # <a name="use-of-components-by-the-requester"></a>要求者使用元件
 

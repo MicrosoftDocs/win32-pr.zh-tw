@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 59972f12f0f746ef68c267e3fbd0d071d54193c3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5fc61250f75cc8a49d699a5f3bee97b707c59e134864a23eac9887dfb34618f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953797"
 ---
 # <a name="crendererpospassthrucrendererpospassthru-constructor"></a>CRendererPosPassThru. CRendererPosPassThru 函數
 

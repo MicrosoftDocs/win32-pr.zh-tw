@@ -4,12 +4,12 @@ ms.assetid: 3cf36f88-b282-4f75-84fe-8106fea66825
 title: 網路重定向器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fce8c887cba779fe3f6aee9811819c6638d926f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ed44bb8479c4aea5056b667688cb27ae0f1fe1ebf4f43d066a49143d5bfeadc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951077"
 ---
 # <a name="network-redirectors"></a>網路重定向器
 

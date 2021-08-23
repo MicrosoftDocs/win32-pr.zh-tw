@@ -10,12 +10,12 @@ keywords:
 - 服務主體名稱 AD、關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa34b7d90803a324faced7d67b56c0b6a1f13af
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b6639ade82f029a89cb378de20bb279348962c4a991899f95e7f1b06157cd7ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024816"
 ---
 # <a name="service-principal-names"></a>服務主要名稱
 
@@ -55,6 +55,6 @@ ms.locfileid: "103842023"
 [使用 Kerberos 進行相互驗證](mutual-authentication-using-kerberos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

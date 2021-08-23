@@ -6,32 +6,32 @@ keywords:
 - Windows Media Player，可攜式裝置
 - Windows Media Player 物件模型，可攜式裝置
 - 物件模型，可攜式裝置
-- Windows Media Player 的 ActiveX 控制項、可攜式裝置
-- ActiveX 控制項、可攜式裝置
-- Windows Media Player Mobile ActiveX 控制項、可攜式裝置
-- Windows Media Player Mobile、可攜式裝置
+- Windows Media Player ActiveX 控制、可攜式裝置
+- ActiveX 控制，可攜式裝置
+- Windows Media PlayerMobile ActiveX control、可攜式裝置
+- Windows Media Player行動裝置、可攜式裝置
 - 可攜式裝置，管理同步播放清單
 - 裝置同步處理，播放清單
 - 同步處理裝置、播放清單
 - Windows Media Player，同步播放清單
 - Windows Media Player 物件模型，同步播放清單
 - 物件模型，同步處理播放清單
-- Windows Media Player 行動裝置、同步播放清單
-- Windows Media Player ActiveX 控制項，同步播放清單
-- Windows Media Player 的行動 ActiveX 控制項、同步播放清單
+- Windows Media Player行動裝置，同步播放清單
+- Windows Media Player ActiveX 控制項、同步播放清單
+- Windows Media Player行動 ActiveX 控制項、同步播放清單
 - ActiveX 控制項，同步播放清單
 - 播放清單，同步處理
 - 中繼檔播放清單，同步處理
-- Windows Media 中繼檔播放清單，同步處理
+- Windows媒體中繼檔播放清單，同步處理
 - 同步播放清單，管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be0fe084918c0b69b827dbb941388246cbd177ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 10253d7f08c618d62079ccc1767fdaf85560861eae68d39cd897e7959eaffcad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996368"
 ---
 # <a name="managing-synchronization-playlists"></a>管理同步播放清單
 
@@ -152,9 +152,9 @@ CComPtr<IWMPPlaylist> m_spPlaylist;
 [**使用可攜式裝置**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

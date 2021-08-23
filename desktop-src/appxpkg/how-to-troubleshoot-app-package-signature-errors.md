@@ -4,29 +4,29 @@ description: 應用程式部署失敗的原因可能是無法驗證應用程式�
 ms.assetid: CE868296-87F6-4BD5-8AC5-914E429EDEBC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b6f50dc5ff428e74f4928fc20775b13de7c3be9
-ms.sourcegitcommit: 784b5954a1646e2406cd4ee27a9e4f50e28ee9b7
+ms.openlocfilehash: bdec41d2d058a48153d6126fea534c1efaf16e16ccabef5d5e940daa73e839a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106976309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048946"
 ---
 # <a name="how-to-troubleshoot-app-package-signature-errors"></a>如何針對應用程式封裝簽章錯誤進行疑難排解
 
 應用程式部署失敗的原因可能是無法驗證應用程式套件的數位簽章。 瞭解如何辨識這些失敗，以及該怎麼做。
 
-當您部署已封裝的 Windows 應用程式時，Windows 一律會嘗試驗證應用程式套件上的數位簽章。 簽章驗證期間的失敗會封鎖封裝的部署。 但是，為什麼封裝未進行驗證可能並不明顯。 尤其是，如果您使用私人憑證簽署套件以進行本機測試，您通常也必須管理這些憑證的信任。 不正確的憑證信任設定可能會導致簽章驗證失敗。
+當您部署封裝 Windows 應用程式時，Windows 一律會嘗試驗證應用程式套件上的數位簽章。 簽章驗證期間的失敗會封鎖封裝的部署。 但是，為什麼封裝未進行驗證可能並不明顯。 尤其是，如果您使用私人憑證簽署套件以進行本機測試，您通常也必須管理這些憑證的信任。 不正確的憑證信任設定可能會導致簽章驗證失敗。
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
 ### <a name="technologies"></a>技術
 
--   [封裝、部署及查詢 Windows 應用程式](appx-portal.md)
+-   [Windows 應用程式的封裝、部署和查詢](appx-portal.md)
 -   [憑證信任驗證](/windows/desktop/SecCrypto/certificate-trust-verification)
 
 ### <a name="prerequisites"></a>必要條件
 
--   用來診斷安裝失敗的[Windows 事件記錄](/windows/desktop/WES/windows-event-log)檔。
+-   [Windows 事件記錄](/windows/desktop/WES/windows-event-log)檔，以診斷安裝失敗。
 -   [用於](/previous-versions/orphan-topics/ws.10/cc772898(v=ws.10)) 在疑難排解期間管理憑證存放區操作之憑證的 Certutil 工作
 
 ## <a name="instructions"></a>指示
@@ -39,12 +39,12 @@ ms.locfileid: "106976309"
 
 1.  執行 **eventvwr.msc services.msc**。
 2.  移至 **事件檢視器 (本機)**  >  **應用程式和服務記錄**  >  **Microsoft**  >  **Windows**。
-3.  第一個要檢查的記錄是 **AppxPackagingOM**  >  **Microsoft-Windows-AppxPackaging/Operational**。
+3.  第一個要檢查的記錄是 **AppxPackagingOM**  >  **Microsoft Windows-AppxPackaging/Operational**。
 4.  部署相關錯誤會記錄在 **appxdeployment-server-Server**  >  **Microsoft-Windows-AppXDeploymentServer/Operational** 中。
 
     針對部署錯誤，請搜尋最新的錯誤事件404。 此錯誤事件會為您提供錯誤碼，以及部署失敗原因的說明。 如果錯誤事件465之前是404事件，開啟封裝時發生問題。
 
-如果未發生465錯誤，請參閱一般針對 [封裝、部署及查詢 Windows 應用程式進行疑難排解](troubleshooting.md)。 否則，請參閱此表格，以取得可在錯誤事件465的錯誤字串中顯示的常見錯誤碼：
+如果未發生465錯誤，請參閱[Windows 應用程式封裝、部署和查詢的一般疑難排解](troubleshooting.md)。 否則，請參閱此表格，以取得可在錯誤事件465的錯誤字串中顯示的常見錯誤碼：
 
 | 錯誤碼 | 錯誤                                 | 描述                                                                                                          | 建議                                                                                                                                                                                                 |
 |------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

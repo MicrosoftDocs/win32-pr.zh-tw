@@ -7,12 +7,12 @@ keywords:
 - 物件廣告，建立嚮導
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bc3dbacaf6eee5670fdacd9a587a497397c4d1b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b97c5c8f1b521d28c926d53830135dbb1b1fc907758e7047bc91c68856eedc70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025583"
 ---
 # <a name="object-creation-wizards"></a>物件建立的嚮導
 
@@ -43,6 +43,6 @@ ms.locfileid: "104092632"
 
 如果未針對物件類別註冊建立嚮導，則系統管理嵌入式管理單元會提供一般建立嚮導。 一般建立嚮導是在執行時間根據所建立物件之類別的強制屬性清單所建立。 針對每個必要的屬性，會將頁面加入至 UI。 一般建立嚮導是不可延伸的。 如果需要擴充性，必須將它取代為主要物件建立延伸模組。
 
- 
+ 
 
- 
+ 

@@ -5,12 +5,12 @@ ms.assetid: 37691fd1-212d-4786-ac9c-861c1a6a4918
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e650d324f0826e00d8ffff08348597112f6d5cc4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 96fbbb37f3337912780e5882918c0fcbc146c41f8dc60ddf3ba5d2a35c82c1bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045388"
 ---
 # <a name="shader-visible-descriptor-heaps"></a>著色器可見的描述元堆積
 
@@ -41,7 +41,7 @@ ms.locfileid: "74104609"
 > [!Note]  
 > CPU (可寫入的 GPU 本機記憶體數量的 GPU 硬體通常會有限制，稱為描述項堆積的寫入合併記憶體) 。 這項限制通常會在所有進程的96MB 周圍。 例如，具有32byte 描述項的1000000成員描述元堆積會使用多個32MB。 如果有需要，驅動程式將會在系統記憶體上回複，但最好不要建立大量的大型描述元堆積。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -50,9 +50,9 @@ ms.locfileid: "74104609"
 [描述元堆積](descriptor-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

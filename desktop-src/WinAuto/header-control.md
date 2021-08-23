@@ -1,24 +1,24 @@
 ---
 title: '標題控制項 (MSAA UI 元素參考) '
-description: 標題控制項會在資訊的資料行頂端顯示標題，並讓使用者按一下標題來排序資訊。 當選取 [詳細資料] 視圖時，Windows 檔案總管使用標題控制項。
+description: 標題控制項會在資訊的資料行頂端顯示標題，並讓使用者按一下標題來排序資訊。 Windows當選取 [詳細資料] 視圖時，Explorer 會使用標題控制項。
 ms.assetid: 669d6bb8-7bc4-4e6f-bf4f-207887f44b83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6d069770b14ad3ba58022af28ad07fc78cb8c5b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f0c378bb0244e94f4cb95c8b2ba90512d2b17542bdef7428197ee58479dbfde1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994178"
 ---
 # <a name="header-control-msaa-ui-element-reference"></a>標題控制項 (MSAA UI 元素參考) 
 
 > [!Note]  
 > 本主題將描述用於 MSAA UI 元素參考的 **標題控制項** 物件。 此處未說明如何在各種 UI 架構中建立 **標題控制項** 物件。 請參閱您所使用之 UI 架構的 API 參考檔。
 
- 
+ 
 
-標題控制項會在資訊的資料行頂端顯示標題，並讓使用者按一下標題來排序資訊。 當選取 [詳細資料] 視圖時，Windows 檔案總管使用標題控制項。
+標題控制項會在資訊的資料行頂端顯示標題，並讓使用者按一下標題來排序資訊。 Windows當選取 [詳細資料] 視圖時，Explorer 會使用標題控制項。
 
 標題控制項的視窗類別名稱是 WC \_ 標頭，其定義為 Commctrl 中的 "SysHeader32"。
 
@@ -38,7 +38,7 @@ ms.locfileid: "104301599"
 
 
 
- 
+ 
 
 ## <a name="iaccessible-properties"></a>IAccessible 屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "104301599"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -67,9 +67,9 @@ ms.locfileid: "104301599"
 [IAccessible 介面](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

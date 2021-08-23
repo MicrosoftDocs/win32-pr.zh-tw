@@ -17,12 +17,12 @@ keywords:
 - 顯示說明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf3458518fbdd199af5fba5d9a62bb1702c6a170
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7c7a2305f53b29b3cd23067cef7073b4a8c745b9ed5cd68147d59c4fd45bd2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997248"
 ---
 # <a name="displaying-help"></a>顯示說明
 
@@ -36,9 +36,9 @@ catcomp
 
 
 
- 
+ 
 
- 
+ 
 
 
 

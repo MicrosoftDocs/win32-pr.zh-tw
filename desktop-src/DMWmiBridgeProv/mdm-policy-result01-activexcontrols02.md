@@ -1,6 +1,6 @@
 ---
 title: MDM_Policy_Result01_ActiveXControls02 類別
-description: MDM \_ Policy \_ Result01 \_ ActiveXControls02 類別代表可用的 ActiveX 控制項原則。
+description: MDM \_ Policy \_ Result01 \_ ActiveXControls02 類別代表可用 ActiveX 控制原則。
 ms.assetid: 46778743-59d7-4d37-836c-3f263bb8a083
 keywords:
 - MDM_Policy_Result01_ActiveXControls02 類別
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36ee572cfbbd823ce9e819688d9399b22f5d564c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ec2a78dc1271a71349fae1cc6e352eeb1086b0b74c07a209b2bbca0c9234b80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077112"
 ---
 # <a name="mdm_policy_result01_activexcontrols02-class"></a>MDM \_ 原則 \_ Result01 \_ ActiveXControls02 類別
 
 \[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。 Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]
 
-MDM \_ Policy \_ Result01 \_ ActiveXControls02 類別代表可用的 ActiveX 控制項原則。
+MDM \_ Policy \_ Result01 \_ ActiveXControls02 類別代表可用 ActiveX 控制原則。
 
 下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。
 
@@ -101,7 +101,7 @@ class MDM_Policy_Result01_ActiveXControls02
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

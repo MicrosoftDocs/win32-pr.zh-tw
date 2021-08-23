@@ -4,12 +4,12 @@ ms.assetid: a175e3f8-3b15-4ef9-b19b-2f3602f7c187
 title: IDownloadResult 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28e33d68a7a6b9315dbbe83d689bd0f1f73646b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f96a4044ea581c6a6c0a9cdbda62e47e72c3088f83bc0ad1c74192b650e62080
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049376"
 ---
 # <a name="idownloadresult-properties"></a>IDownloadResult 屬性
 

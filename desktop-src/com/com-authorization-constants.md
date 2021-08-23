@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed2c46ad729e02fd63eb9b8088d31f05515c2ef8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb89786a0c27c66177bc29861fdcf53a9341f73e498b5627e1cb826e83f61cc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048666"
 ---
 # <a name="authorization-constants"></a>授權常數
 
@@ -28,7 +28,7 @@ ms.locfileid: "103686532"
 
 
 
-| 常數/值                                                                                                                                                                                                                                    | Description                                                                                                                                                                                                                                                                                       |
+| 常數/值                                                                                                                                                                                                                                    | 描述                                                                                                                                                                                                                                                                                       |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="RPC_C_AUTHZ_NONE"></span><span id="rpc_c_authz_none"></span><dl> <dt>**RPC \_C \_ AUTHZ \_ 無**</dt> <dt>0</dt> </dl>                   | 伺服器不會執行任何授權。 目前，RPC \_ c \_ 驗證 \_ WINNT、rpc \_ c \_ 驗證 \_ gss \_ SCHANNEL 和 rpc \_ c \_ 驗證 \_ GSS \_ KERBEROS 全都只使用 rpc \_ c \_ 授權 \_ 無。<br/>                                                                                                                |
 | <span id="RPC_C_AUTHZ_NAME"></span><span id="rpc_c_authz_name"></span><dl> <dt>**RPC \_C \_ AUTHZ \_ 名稱**</dt> <dt>1</dt> </dl>                   | 伺服器會根據用戶端的主體名稱執行授權。 <br/>                                                                                                                                                                                                               |

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c9fbd5c8da7671180ea01f741e85cfc2427f1393
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f048d29fdf079409091b7e5e2b764d06ad6de877e132e59ede3a67274b178ba1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043636"
 ---
 # <a name="texture2dgathercmpbluesfloatfloatint2int2int2int2uint-function"></a>Texture2D：： GatherCmpBlue (S、float、float、int2、int2、int2、int2、uint) 函數
 
@@ -132,7 +132,7 @@ TemplateType GatherCmpBlue(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

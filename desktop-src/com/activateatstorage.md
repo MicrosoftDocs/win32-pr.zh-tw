@@ -6,12 +6,12 @@ keywords:
 - 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ddd1330191d7b7baf37973dbfb40e267a2f87e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8087313b8527ed95e7122d0e8dbe4fbd1ef028d7009f25937b3dc4300e9a4103
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048896"
 ---
 # <a name="activateatstorage"></a>ActivateAtStorage
 
@@ -21,8 +21,8 @@ ms.locfileid: "104024182"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      ActivateAtStorage = value
+   {AppID_GUID}
+      ActivateAtStorage = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -57,6 +57,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [註冊 COM 伺服器](registering-com-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

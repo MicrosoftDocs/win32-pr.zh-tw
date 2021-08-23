@@ -30,22 +30,22 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17c1ec7a25490737dd31b2962c09d2e0f36c72d2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 583394dfc3093f4f0d5cf3d7c7cef68d7ff6d57930e3abf957d857defec227c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008926"
 ---
 # <a name="snmp-error-codes"></a>SNMP 錯誤碼
 
-\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 MICROSOFT 對 ws-atomictransaction 的實。\]
+\[SNMP 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用[Windows 遠端管理](/windows/desktop/WinRM/portal)，也就是 Microsoft 對 ws-atomictransaction 的實。\]
 
 Microsoft 會實行 SNMPv2C 規格所定義的下列 SNMP 錯誤碼。
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                              | Description                                                                                                                                                    |
+| 常數/值                                                                                                                                                                                                                                                                              | 描述                                                                                                                                                    |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SNMP_ERRORSTATUS_NOERROR"></span><span id="snmp_errorstatus_noerror"></span><dl> <dt>**SNMP \_ERRORSTATUS \_ >aad-userreadusingalternativesecurityid-noerror**</dt> <dt>0</dt> </dl>                                      | 代理程式報告傳輸期間未發生任何錯誤。<br/>                                                                                      |
 | <span id="SNMP_ERRORSTATUS_TOOBIG"></span><span id="snmp_errorstatus_toobig"></span><dl> <dt>**SNMP \_ERRORSTATUS \_ TOOBIG**</dt> <dt>1</dt> </dl>                                         | 代理程式無法將要求的 SNMP 操作的結果放在單一 SNMP 訊息中。<br/>                                                     |

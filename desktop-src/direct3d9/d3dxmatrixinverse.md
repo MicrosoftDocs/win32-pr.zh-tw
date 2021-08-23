@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0109481beaea282a785564c081e498fe4c7571b6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6cacb0c8ccff72506c82f0145955cb2a95d4c1084f3e9e6c508682d2761189e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044886"
 ---
 # <a name="d3dxmatrixinverse-function-d3dx9mathh"></a>D3DXMatrixInverse 函式 (D3dx9math) 
 

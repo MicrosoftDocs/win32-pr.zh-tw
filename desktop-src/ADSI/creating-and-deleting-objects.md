@@ -8,12 +8,12 @@ keywords:
 - ADSI、建立及刪除物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4730c4cc6a95ad37bfd3953474d3d488fcf05abb
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 36bf2e351fb9bae919e8c40b0682b456b793f2e4419a66c64242791fad1d6cae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023646"
 ---
 # <a name="creating-and-deleting-objects"></a>建立和刪除物件
 
@@ -45,6 +45,6 @@ ms.locfileid: "104463704"
 
 刪除的物件會發生什麼事取決於基礎目錄服務。 如需刪除 Active Directory 物件的詳細資訊，請參閱 [建立和刪除 Active Directory 物件](/windows/desktop/AD/creating-and-deleting-objects-in-active-directory-domain-services)。
 
- 
+ 
 
- 
+ 

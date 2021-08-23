@@ -4,12 +4,12 @@ description: 根據系統控制項公開控制項
 ms.assetid: 9291b79e-3ed0-4f3c-a610-38215d84f5ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea2fe31eae8c2283c020de93b0c1f3350bd0f417
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 09349819cbc8e36d879947fe0cbd0914a1de630171ef70e3b132f58c60c87228
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118829095"
 ---
 # <a name="exposing-controls-based-on-system-controls"></a>根據系統控制項公開控制項
 
@@ -28,7 +28,7 @@ ms.locfileid: "104376240"
 > [!Note]  
 > Superclassing 或子類別化可存取的控制項時，請注意 [**CreateStdAccessibleObject**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleobject) 函式所抓取的物件可能只會執行 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 介面。 它可能包含其他介面，例如 [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl-ienumvariant)。 您可能需要包裝這些額外的介面，以保留控制項原始實作所提供的協助工具支援。
 
- 
+ 
 
 [**CreateStdAccessibleProxy**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleproxya)和 [**CreateStdAccessibleObject**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleobject)函式會為指定的系統控制項取出 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)介面指標。 這些函式的差異在於， **CreateStdAccessibleObject** 會使用從 *hwnd* 參數取得的視窗類別名稱，而 **CreateStdAccessibleProxy** 則會使用其 *szClassName* 參數中所指定的視窗類別名稱。 因此，如果您決定使用這些函式，請使用 **CreateStdAccessibleProxy** 來公開 superclass 控制項的相關資訊，並使用子類別化控制項來執行這兩項功能。
 
@@ -78,6 +78,6 @@ STDMETHODIMP CAccCustomButton::get_accDescription( VARIANT varChild,
 
 如需有關系統控制項的 [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) 屬性和方法的詳細資訊，請參閱 [附錄 A：支援的消費者介面元素參考](appendix-a--supported-user-interface-elements-reference.md)。
 
- 
+ 
 
- 
+ 

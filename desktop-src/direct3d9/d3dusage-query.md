@@ -4,12 +4,12 @@ ms.assetid: d2030002-bd44-443f-8235-978919ebbda6
 title: D3DUSAGE_QUERY
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 038cb64b1ad4f5f7ee2dd78ffc2e2a5ebab90d0e
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 7d681b093b8dacbd78e42ff2d8fa700954b3efb02b571d0b33097d29152e1d82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988858"
 ---
 # <a name="d3dusage_query"></a>D3DUSAGE \_ 查詢
 
@@ -17,7 +17,7 @@ ms.locfileid: "110342983"
 
 
 
-| \#定義                                   | Description                                                                                                                                                                                                                                                                                                                                         |
+| \#定義                                   | 描述                                                                                                                                                                                                                                                                                                                                         |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DUSAGE \_ 查詢 \_ 篩選                    | 查詢資源格式，以查看它是否支援 D3DTEXF 點以外的材質篩選器類型， \_ (一律支援) 。                                                                                                                                                                                                                         |
 | D3DUSAGE \_ 查詢 \_ LEGACYBUMPMAP             | 查詢有關舊版凹凸地圖的資源。                                                                                                                                                                                                                                                                                                         |

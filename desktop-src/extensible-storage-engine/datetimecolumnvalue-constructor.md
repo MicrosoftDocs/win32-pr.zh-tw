@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c7293d9241b69d90669df5bbd8a94c75d8b3a607
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba024ecc69b17739bbcb7fdd9d2cbda13f635cf3441e44e2f3d248b455f5d237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042256"
 ---
 # <a name="datetimecolumnvalue-constructor"></a>DateTimeColumnValue 函式
 

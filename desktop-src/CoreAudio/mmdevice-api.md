@@ -4,16 +4,16 @@ ms.assetid: 3a8fd734-0761-4b5b-ba04-677c7c040988
 title: 關於 MMDevice API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82843bbecf004d0931575d73ec2459c3e72a3cf3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 23e2f33c6969e00006c12b0bc6dc1ba37b70c5ff38ea2846633d5eb61da03b19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077542"
 ---
 # <a name="about-mmdevice-api"></a>關於 MMDevice API
 
-Windows 多媒體裝置 (MMDevice) API 可讓音訊用戶端探索 [音訊端點裝置](audio-endpoint-devices.md)、判斷其功能，以及為這些裝置建立驅動程式實例。
+Windows 多媒體裝置 (MMDevice) API 可讓音訊用戶端探索[音訊端點裝置](audio-endpoint-devices.md)、判斷其功能，以及為這些裝置建立驅動程式實例。
 
 標頭檔 Mmdeviceapi 會定義 MMDevice API 中的介面。
 

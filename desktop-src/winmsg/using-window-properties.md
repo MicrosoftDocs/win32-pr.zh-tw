@@ -4,12 +4,12 @@ ms.assetid: cdf196ec-300c-4c7b-8a4f-68088c4a2507
 title: 使用視窗屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 736682eb34191a061aa9753ef9d5e8c7e366fbe3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b59fcb4cb0346554ee2df5c1b2fc92df7675cd61d11799b891156b13f26fb213
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028266"
 ---
 # <a name="using-window-properties"></a>使用視窗屬性
 

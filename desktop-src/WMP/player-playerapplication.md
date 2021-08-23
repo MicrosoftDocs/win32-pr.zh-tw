@@ -1,6 +1,6 @@
 ---
 title: PlayerApplication
-description: 當遠端 Windows Media Player 控制項正在執行時，playerApplication 屬性會捕獲 PlayerApplication 物件。
+description: 當遠端 Windows Media Player 控制項正在執行時，playerApplication 屬性會捕獲 playerApplication 物件。
 ms.assetid: 09a8a63f-455f-4f81-8fdb-7de337139dea
 keywords:
 - PlayerApplication Windows Media Player
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 401ebaae52efb746e7119419774d87d72c642fc4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c47400fcba1cb1cd1679e747d4fdd49b155df921ec33a721f74df2ec25259600
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995848"
 ---
 # <a name="playerplayerapplication"></a>PlayerApplication
 
@@ -35,7 +35,7 @@ ms.locfileid: "106994682"
 
 ## <a name="remarks"></a>備註
 
-只有在遠端處理 Windows Media Playercontrol 時，才會使用這個屬性。 如果值為 null，則不會在遠端模式中內嵌 Windows Media Playercontrol。
+只有在遠端 Windows 媒體 Playercontrol 時，才會使用此屬性。 如果值為 null，則 Windows 媒體 Playercontrol 不會內嵌在遠端模式中。
 
 這個屬性只能在 c + + 程式碼中存取，或透過 playerApplication 全域變數在外觀的腳本中存取。
 

@@ -5,22 +5,22 @@ ms.tgt_platform: multiple
 title: 設定 IWbemServices 和其他 proxy 的安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d593c52091182b1f0580908624e0b4068ed3f8d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4da997b9d4a8f91cf31e8619af983209d4a07a571932c85304d372379d7f752b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050266"
 ---
 # <a name="setting-the-security-on-iwbemservices-and-other-proxies"></a>設定 IWbemServices 和其他 proxy 的安全性
 
 在 c + + 中，您可以在透過 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver)連接至 WMI 之前呼叫 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) ，以設定整個進程的安全性。 您也可以在取得 WMI proxy 指標的呼叫中，變更驗證等級、模擬等級或驗證服務，例如 [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) 或 [**IWbemCallResult**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult)。 呼叫 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) 也可讓您變更 (KERBEROS、NTLM 或 negotiate) 的驗證服務。
 
-腳本和 Visual Basic 應用程式只會透過呼叫 [**SWbemServices**](swbemservices.md) 和其他 automation 物件，間接設定 proxy 上的安全性。 如需有關在腳本中設定和變更驗證和模擬的詳細資訊，請參閱 [使用 VBScript 設定預設進程安全性等級](setting-the-default-process-security-level-using-vbscript.md)。
+腳本和 Visual Basic 應用程式只會透過呼叫 [**SWbemServices**](swbemservices.md)和其他 automation 物件，間接設定 proxy 上的安全性。 如需有關在腳本中設定和變更驗證和模擬的詳細資訊，請參閱 [使用 VBScript 設定預設進程安全性等級](setting-the-default-process-security-level-using-vbscript.md)。
 
 在執行不同作業系統的遠端電腦上連線至 WMI 時，變更安全性層級或服務主要是一項考慮。 如需詳細資訊，請參閱 [在不同的作業系統之間進行連接](/windows/desktop/WmiSdk/troubleshooting-a-remote-wmi-connection)。
 
-用戶端應用程式會使用身分識別連接到 WMI proxy。 身分識別是包含使用者名稱、密碼和授權設定的資料物件。 針對 WMI 用戶端應用程式，呼叫 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) 介面會建立初始身分識別。 [**ConnectServer**](swbemlocator-connectserver.md)方法會採用一組三個參數中的身分識別，您可以將其設定為 **Null** 以表示目前的使用者。 您也可以指定非 **Null** 參數，以指出特定的使用者和網域。 如果呼叫成功， **ConnectServer** 會傳回可讓您存取各種遠端進程的指標，例如 WMI 服務或 Windows 作業系統。
+用戶端應用程式會使用身分識別連接到 WMI proxy。 身分識別是包含使用者名稱、密碼和授權設定的資料物件。 針對 WMI 用戶端應用程式，呼叫 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) 介面會建立初始身分識別。 [**ConnectServer**](swbemlocator-connectserver.md)方法會採用一組三個參數中的身分識別，您可以將其設定為 **Null** 以表示目前的使用者。 您也可以指定非 **Null** 參數，以指出特定的使用者和網域。 如果呼叫成功， **ConnectServer** 會傳回指標，讓您可以存取各種遠端進程，例如 WMI 服務或 Windows 作業系統。
 
 如同許多 COM 介面， [**ConnectServer**](swbemlocator-connectserver.md) 會傳回 proxy 的指標。 Proxy 是代表遠端進程的資料物件，例如 WMI 或遠端提供者。 COM 會使用 proxy 來允許開發人員存取遠端資料，就像是在本機資料一樣。
 

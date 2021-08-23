@@ -4,12 +4,12 @@ ms.assetid: 6d0b2450-7d90-4a24-b710-faed26969876
 title: UI 注釋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eef6af352b7dea25df34ce8a5712ad30143d6426
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 7a9e8816bb34ada52794694a2c6ae63ff663787a5db7419e9bf27a40f5aa0cce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044066"
 ---
 # <a name="ui-annotation"></a>UI 注釋
 
@@ -37,7 +37,7 @@ ControlType
 
 
 
-| ControlType | Description                                                                                                                                                                     | 內部資料類型                                                                                 | 控制項屬性注釋                                                                                 |
+| ControlType | 描述                                                                                                                                                                     | 內部資料類型                                                                                 | 控制項屬性注釋                                                                                 |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | 無        | 不應顯示任何控制項。 請注意，如果 [SasUiVisible](#sasuivisible) 為 True，而且控制項類型是 [無] 以外的任何類型，就會顯示控制項。                           | n/a                                                                                                | n/a                                                                                                          |
 | 任意         | 這表示不會要求任何特殊的控制項。 呈現的控制項是應用程式定義的行為結果。                                                         | n/a                                                                                                | n/a                                                                                                          |
@@ -46,7 +46,7 @@ ControlType
 | FilePicker  | 可讓使用者流覽和選取檔案的對話方塊。                                                                                                                  | 字串                                                                                             | 無                                                                                                         |
 | ListPicker  | 字串值的清單，使用者可以從中選取一個專案。 這些值是從 [SasUiEnum](#sasuienum) 批註產生的。                                         | 字串的陣列，以及包含所選字串值索引的整數值。 | [SasUiEnum](#sasuienum)                                                                                      |
 | 數值     | 一組數位輸入控制項 (例如文字方塊) 。                                                                                                                         | 浮點數 *m* x *N* ，其中 *M* 和 *N* 是1到4（含）。                                               | [SasUiMin](#sasuimin)、 [SasUiMax](#sasuimax)、 [SasUiStride](#sasuistride)                                    |
-| 滑桿      | 一組滑杆。                                                                                                                                                               | 浮點數 *m* x *N* ，其中 *M* 和 *N* 是1到4（含）                                                | [SasUiMin](#sasuimin)、 [SasUiMax](#sasuimax)、 [SasUiSteps](#sasuisteps)、 [SasUiStepsPower](#sasuistepspower) |
+| Slider      | 一組滑杆。                                                                                                                                                               | 浮點數 *m* x *N* ，其中 *M* 和 *N* 是1到4（含）                                                | [SasUiMin](#sasuimin)、 [SasUiMax](#sasuimax)、 [SasUiSteps](#sasuisteps)、 [SasUiStepsPower](#sasuistepspower) |
 | String      | 用來編輯字串內容的文字方塊。                                                                                                                                         | 字串                                                                                             | 無                                                                                                         |
 
 
@@ -95,7 +95,7 @@ string SasUiLabel = "some label;
 
 
 
-請看以下範例：
+以下是範例：
 
 
 ```
@@ -122,7 +122,7 @@ bool SasUiVisible = false;
 
 如果設定為 True，則主應用程式應該會顯示 UI 控制項來編輯批註效果參數。 若為 false，則不會在主應用程式中顯示任何 UI。
 
-請看以下範例：
+以下是範例：
 
 
 ```

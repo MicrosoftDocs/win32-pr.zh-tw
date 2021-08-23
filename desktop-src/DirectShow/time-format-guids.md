@@ -4,12 +4,12 @@ ms.assetid: 510c7146-ff3c-4812-a7ad-b4051aa82ef3
 title: '時間格式 Guid (Uuid .h) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eac144a2a631602848286864c4bac10a81edc918
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd12f9c460f0874845a2b323975f577631f9d99abf2e2d654b21c2a2b0824e02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951697"
 ---
 # <a name="time-format-guids"></a>時間格式 Guid
 
@@ -17,7 +17,7 @@ ms.locfileid: "106990566"
 
 
 
-| GUID                                                                                                                                                                                       | Description                                       |
+| GUID                                                                                                                                                                                       | 描述                                       |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------|
 | <span id="TIME_FORMAT_NONE"></span><span id="time_format_none"></span><dl> <dt>**時間 \_ 格式 \_ 無**</dt> </dl>                    | 沒有格式。<br/>                             |
 | <span id="TIME_FORMAT_FRAME"></span><span id="time_format_frame"></span><dl> <dt>**時間 \_ 格式 \_ 框架**</dt> </dl>                 | 影片畫面。<br/>                          |

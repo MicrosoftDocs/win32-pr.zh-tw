@@ -4,12 +4,12 @@ ms.assetid: dc532791-39e1-4acb-9e62-21d8f25be870
 title: 'MF_MT_AM_FORMAT_TYPE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18a8faf88128075e5c5b51c1b5ace39329d4e1fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eff59e148f7532cc07e47acf033de91b5eaeb8969f0c39376850738fd54e758e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973627"
 ---
 # <a name="mf_mt_am_format_type-attribute"></a>MF \_ MT \_ \_ 格式 \_ 類型屬性
 
@@ -21,9 +21,9 @@ ms.locfileid: "104318804"
 
 ## <a name="remarks"></a>備註
 
-當 DirectShow 媒體類型轉換成媒體基礎媒體類型時，可能會設定此屬性。 屬性工作表示原始的 DirectShow 格式類型。 值會對應至 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type) 結構的 formattype 成員。
+當 DirectShow 媒體類型轉換成媒體基礎媒體類型時，可能會設定此屬性。 屬性工作表示原始 DirectShow 格式類型。 值會對應至 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type) 結構的 formattype 成員。
 
-若是音訊格式，如果無法辨識 DirectShow 格式類型，則 [**MF \_ MT \_ 使用者 \_ 資料**](mf-mt-user-data-attribute.md) 屬性可能會包含原始的格式區塊。
+若是音訊格式，如果無法辨識 DirectShow 格式類型，則 [**MF \_ MT \_ 使用者 \_ 資料**](mf-mt-user-data-attribute.md)屬性可能會包含原始的格式區塊。
 
 除非您要轉換 DirectShow 格式結構，否則請勿在媒體類型上設定此屬性。
 
@@ -35,8 +35,8 @@ ms.locfileid: "104318804"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

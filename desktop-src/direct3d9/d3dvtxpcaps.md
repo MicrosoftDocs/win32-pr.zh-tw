@@ -4,12 +4,12 @@ ms.assetid: 2d3e548f-8559-4a36-b814-6d598bead1d0
 title: D3DVTXPCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b544f3e4a69de23607366832aca110e42c61d6d
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: a230b7eeba5f10ec24e4a33f9fe85b90b67e6b55502250ec1df18af0e5fff15f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988848"
 ---
 # <a name="d3dvtxpcaps"></a>D3DVTXPCAPS
 
@@ -17,7 +17,7 @@ ms.locfileid: "112011081"
 
 
 
-| \#定義                                | Description                                                                                                                                                                                        |
+| \#定義                                | 描述                                                                                                                                                                                        |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DVTXPCAPS \_ DIRECTIONALLIGHTS          | 裝置可以進行方向燈。                                                                                                                                                                  |
 | D3DVTXPCAPS \_ LOCALVIEWER                | 裝置可以進行本機檢視器。                                                                                                                                                                        |

@@ -4,17 +4,17 @@ ms.assetid: 9d545438-9a3d-4c57-a3df-5e75af2e4d1b
 title: CurrentDomain 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ead6d61cd622fceac2a4d133a0297892992e763a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bf022d44cc3580a4d5208c5bc96413dfa445b0f2fcbf74eeb938ee77fa0677bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953387"
 ---
 # <a name="currentdomain-property"></a>CurrentDomain 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

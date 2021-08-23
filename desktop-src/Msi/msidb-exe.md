@@ -4,12 +4,12 @@ ms.assetid: 2eee535f-e7f6-4e1a-9667-df4b8067b132
 title: Msidb.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86f2e1fa6a1cf1a9dc8a01b9f9d6542607dd9275
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71bff646ae3e933be5dbe37a774b72c10a0183fe9c793305292c9a11c4f417be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012927"
 ---
 # <a name="msidbexe"></a>Msidb.exe
 
@@ -27,7 +27,7 @@ Msidb.exe 會使用下列不區分大小寫的命令列選項。 斜線分隔符
 
 
 
-| 選項 | Description                                                                                                                                                                                                                                                                                                                         |
+| 選項 | 描述                                                                                                                                                                                                                                                                                                                         |
 |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | -i     | 從資料夾將文字封存檔匯入至資料庫。 匯入資料表名稱的檔案名為8個字元，副檔名為 "idt"。 如果匯入命令提供了較長的名稱，則會截斷為8個字元。 您可以使用標準萬用字元規格。                                                                 |
 | -E     | 將選取的資料表從資料庫匯出至資料夾中的文字保存檔案。 匯出的資料表名稱是資料表名稱。 只可以使用萬用字元規格 " \* "。 資料表可以從唯讀資料庫匯出。                                                                                                               |
@@ -54,13 +54,13 @@ Msidb.exe 會使用下列不區分大小寫的命令列選項。 斜線分隔符
 
  
 
-此工具僅適用于 [Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+此工具僅適用于[Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[Windows Installer 開發工具](windows-installer-development-tools.md)
+[Windows安裝程式開發工具](windows-installer-development-tools.md)
 </dt> <dt>
 
 [已發行的版本、工具和可轉散發套件](released-versions-tools-and-redistributables.md)

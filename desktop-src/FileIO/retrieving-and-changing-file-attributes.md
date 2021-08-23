@@ -4,18 +4,18 @@ ms.assetid: f6eaea8a-0cc2-4fb6-bec5-7fb12b20c075
 title: 取出和變更檔案屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c980ddd6390f016b2057392f42f6bf645859307
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d2609030d1657b78c266ed6b10841159e0df4d40a2e3b07b0fce42e98b45d54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015136"
 ---
 # <a name="retrieving-and-changing-file-attributes"></a>取出和變更檔案屬性
 
 應用程式可以使用 [**GetFileAttributes**](/windows/desktop/api/FileAPI/nf-fileapi-getfileattributesa) 或 [**GetFileAttributesEx**](/windows/desktop/api/FileAPI/nf-fileapi-getfileattributesexa) 函式來取得檔案屬性。 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea)和 [**SetFileAttributes**](/windows/desktop/api/FileAPI/nf-fileapi-setfileattributesa)函數可以設定許多屬性。 但是，應用程式無法設定所有屬性。
 
-本主題中的程式碼範例會使用 [**CopyFile**](/windows/desktop/api/WinBase/nf-winbase-copyfile) 函式，將目前目錄中 ( .txt) 的所有文字檔，複製到唯讀檔案的新目錄。 必要時，新目錄中的檔案會變更為唯讀。
+本主題中的程式碼範例使用 [**CopyFile**](/windows/desktop/api/WinBase/nf-winbase-copyfile) 函式，將目前目錄中 (.txt) 的所有文本檔案複製到唯讀檔案的新目錄。 必要時，新目錄中的檔案會變更為唯讀。
 
 應用程式會使用 [**CreateDirectory**](/windows/desktop/api/FileAPI/nf-fileapi-createdirectorya) 函式，建立指定為參數的目錄。 目錄還不能存在。
 

@@ -3,7 +3,7 @@ title: 'TB_SETPARENT 訊息 (Commctrl .h) '
 description: 設定工具列控制項傳送通知訊息的視窗。
 ms.assetid: 4863bd9f-021b-4295-9483-459fc19325d9
 keywords:
-- TB_SETPARENT message Windows 控制項
+- TB_SETPARENT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8137406c8e6854f86ed81d8d6b96293074ae67b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd97cdab230317feea65f2bffce74a7dec34ee336d69bb46ec4c6963ca9b3eff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078142"
 ---
 # <a name="tb_setparent-message"></a>TB \_ SETPARENT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103844195"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

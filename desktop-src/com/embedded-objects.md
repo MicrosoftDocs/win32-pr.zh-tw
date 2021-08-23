@@ -4,12 +4,12 @@ description: 内嵌物件
 ms.assetid: 1f863fd4-fead-4dd3-b855-8820e015b52a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8da9938b17130209fec024f94ee99061ad690693
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1df671850dc167a0751f69cbc57f8c19698db06a0454dd6283553c4d8ffa1609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048356"
 ---
 # <a name="embedded-objects-com"></a>COM)  (的内嵌物件
 

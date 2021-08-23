@@ -5,12 +5,12 @@ ms.assetid: 917f8e65-df2c-457e-bfd8-3f1ce0d0fbae
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ff18046841b5603be235266e33a7252049f93c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: d2d35d29b4e10d27b1369c0f064e17a0ed4430cbe2d6cc59329380724cd444e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025016"
 ---
 # <a name="schema-implementation"></a>架構執行
 
@@ -38,6 +38,6 @@ ms.locfileid: "104023220"
 -   無法還原架構新增專案。 當新的類別或屬性加入至架構時，就無法將它移除。 現有的屬性或類別可以停用，但不能移除。 如需詳細資訊，請參閱 [停用現有的類別和屬性](disabling-existing-classes-and-attributes.md)。
 -   停用類別或屬性不會影響現有的類別或屬性實例，但是會防止建立新的實例。 如果屬性包含在未停用的任何類別中，就無法停用屬性。
 
- 
+ 
 
- 
+ 

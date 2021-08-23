@@ -15,16 +15,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: f14291f3777dcdc8b661f96f94d987209100a365
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6bce160cfb326f0c44b2fca1c6676b895d9eeeec434826d7fc595fc178c47d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008137"
 ---
 # <a name="iscardcmd-interface"></a>ISCardCmd 介面
 
-\[**ISCardCmd** 介面可用於 [需求] 區段中指定的作業系統。 它無法在 Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
+\[**ISCardCmd** 介面可用於 [需求] 區段中指定的作業系統。 它無法用於 Windows Server 2003 Service Pack 1 (SP1) 和更新版本、Windows Vista、Windows Server 2008 和後續版本的作業系統。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
 
 **ISCardCmd** 介面提供了建立和管理 [*智慧卡*](../secgloss/s-gly.md)[*應用程式協定資料單位*](../secgloss/a-gly.md) (APDU) 所需的方法。 此介面會封裝兩個緩衝區：
 
@@ -59,7 +59,7 @@ ms.locfileid: "104026096"
 | 方法                                       | 描述                                                                                                |
 |:---------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
 | [**BuildCmd**](iscardcmd-buildcmd.md)       | 為傳輸到智慧卡的有效命令 APDU 進行結構化。<br/>                               |
-| [**清楚**](iscardcmd-clear.md)             | 清除 APDU 和回復 APDU 訊息緩衝區。<br/>                                             |
+| [**清除**](iscardcmd-clear.md)             | 清除 APDU 和回復 APDU 訊息緩衝區。<br/>                                             |
 | [**封裝**](iscardcmd-encapsulate.md) | 將指定的命令 APDU 封裝到另一個命令 APDU，以傳輸至智慧卡。<br/> |
 
 
@@ -72,7 +72,7 @@ ms.locfileid: "104026096"
 
 
 
-| 屬性                                                              | 存取類型           | Description                                                                                                                                                         |
+| 屬性                                                              | 存取類型           | 描述                                                                                                                                                         |
 |:----------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AlternateClassId**](iscardcmd-get-alternateclassid.md)<br/> | 讀取/寫入<br/> | 目前的替代類別識別碼值。<br/>                                                                                                                        |
 | [**Apdu**](iscardcmd-get-apdu.md)<br/>                         | 讀取/寫入<br/> | 原始 [*應用程式協定資料單位*](../secgloss/a-gly.md) (APDU) 。<br/> |
@@ -91,7 +91,7 @@ ms.locfileid: "104026096"
 | [**ReplyStatus**](iscardcmd-get-replystatus.md)<br/>           | 讀取/寫入<br/> | [*回復 APDU*](../secgloss/r-gly.md) 訊息狀態字組。<br/>                                                    |
 | [**ReplyStatusSW1**](iscardcmd-get-replystatussw1.md)<br/>     | 唯讀<br/>  | 回復 APDU 的 message SW1 status byte。<br/>                                                                                                                    |
 | [**ReplyStatusSW2**](iscardcmd-get-replystatussw2.md)<br/>     | 唯讀<br/>  | 回復 APDU 的 message SW2 status byte。<br/>                                                                                                                    |
-| **型別**<br/>                                                   | 唯讀<br/>  | 保留供未來使用。<br/>                                                                                                                                 |
+| **類型**<br/>                                                   | 唯讀<br/>  | 保留供未來使用。<br/>                                                                                                                                 |
 
 
 
@@ -103,8 +103,8 @@ ms.locfileid: "104026096"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                   |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Scarddat。h</dt> </dl>   |

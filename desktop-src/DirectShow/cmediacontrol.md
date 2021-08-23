@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ae3a528263af4bd2fe5e4eccbe28793799c373a0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 119ffb93cb307db1da3bc8c7562851d63c5f9eeb8e0e3b80be62c8110181c32b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103853479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074074"
 ---
 # <a name="cmediacontrol-class"></a>CMediaControl 類別
 
@@ -33,11 +33,11 @@ Odl 中定義的 [**IMediaControl**](/windows/desktop/api/Control/nn-control-ime
 
 
 
-| 成員函數                                           | Description                                                                                                                                                                                                                             |
+| 成員函數                                           | 描述                                                                                                                                                                                                                             |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CMediaControl**](cmediacontrol-cmediacontrol.md)       | 結構 **CMediaControl** 物件。                                                                                                                                                                                                  |
-| IDispatch 方法                                          | Description                                                                                                                                                                                                                             |
-| [**GetIDsOfNames**](cmediacontrol-getidsofnames.md)       | 將單一成員和一組選擇性的參數對應至一組對應的整數分派識別碼 (Dispid) ，可在後續呼叫 [**CMediaControl：： Invoke**](cmediacontrol-invoke.md) 方法期間使用。 |
+| IDispatch 方法                                          | 描述                                                                                                                                                                                                                             |
+| [**GetIDsOfNames**](cmediacontrol-getidsofnames.md)       | 地圖單一成員和一組選擇性的參數，對應至一組對應的整數分派識別碼 (Dispid) ，可在後續呼叫 [**CMediaControl：： Invoke**](cmediacontrol-invoke.md)方法期間使用。 |
 | [**GetTypeInfo**](cmediacontrol-gettypeinfo.md)           | 抓取類型資訊物件，此物件可以取得介面的類型資訊。                                                                                                                                          |
 | [**GetTypeInfoCount**](cmediacontrol-gettypeinfocount.md) | 抓取物件所提供的類型資訊介面數目。                                                                                                                                                              |
 | [**調用**](cmediacontrol-invoke.md)                     | 提供物件所公開的屬性和方法的存取權。                                                                                                                                                                         |

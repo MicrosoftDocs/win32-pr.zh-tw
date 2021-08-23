@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7670f8b311532d096b9957ebbefcf1f6fb15d952
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dc48eb9f2fd6ee5fee6c04936801997145a5ea21542b9b5ff8ec6d257eee80e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987818"
 ---
 # <a name="id3dxanimationcontrollerregisteranimationoutput-method"></a>ID3DXAnimationController：： RegisterAnimationOutput 方法
 

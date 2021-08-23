@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eaec9f740e7b251c73ed12f5897ff9d95b023886
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6b5b190e67c07978207823cef9992243be772d430e2f03f40695ae6510c39a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054816"
 ---
 # <a name="isvbr-attribute"></a>IsVBR 屬性
 
@@ -25,14 +25,14 @@ ms.locfileid: "106999244"
 
 ## <a name="applies-to"></a>套用至
 
--   [常用的 Windows Media 檔案](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案](commonly-used-windows-media-file-attributes.md)
 -   [影片專案](video-item-attributes.md)
 
 ## <a name="remarks"></a>備註
 
 這個屬性只會儲存在數位媒體檔案中。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMIsVBR。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMIsVBR。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

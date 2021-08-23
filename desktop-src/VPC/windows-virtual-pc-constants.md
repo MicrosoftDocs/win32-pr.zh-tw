@@ -1,33 +1,33 @@
 ---
-title: Windows Virtual PC 常數
-description: Windows Virtual PC 常數
+title: WindowsVirtual PC 常數
+description: WindowsVirtual PC 常數
 ms.assetid: 4bc841c8-f031-4b88-97e8-e536e6ecf1c2
 keywords:
-- Windows Virtual PC Virtual PC，常數
+- WindowsVirtual PC 虛擬電腦，常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ad98ade3f0737ae0148e943adbff1eb10c086cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b6c2ba8ef4fd8c17393c70e143c95000d415fb6b3f7d2cf835bc4f75829559ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998298"
 ---
-# <a name="windows-virtual-pc-constants"></a>Windows Virtual PC 常數
+# <a name="windows-virtual-pc-constants"></a>WindowsVirtual PC 常數
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
-Windows Virtual PC 常數會根據使用方式進行分類，如下所示：
+Windows虛擬電腦的常數會根據使用方式進行分類，如下所示：
 
--   [**Windows Virtual PC 特定的 HRESULT 代碼**](hresult-codes-specific-to-windows-virtual-pc.md)
+-   [**Windows Virtual PC 的特定 HRESULT 代碼**](hresult-codes-specific-to-windows-virtual-pc.md)
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[Windows Virtual PC 參考](virtual-pc-reference.md)
+[WindowsVirtual PC 參考](virtual-pc-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

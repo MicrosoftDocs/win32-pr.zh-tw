@@ -3,17 +3,17 @@ title: 服務作業
 description: 服務作業是與服務的特定作業相關聯的程式碼和中繼資料。
 ms.assetid: 788940a0-b1d9-45d7-a4b5-6f0926026c7d
 keywords:
-- 適用于 Windows 的服務操作 Web 服務
+- Windows 的服務操作 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59e7883c0988189db3d977a78615c024dc92df36
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 5acde0c2151dea483a3e82f45c7031fa201614076f7a5ea624926fbe08e7588b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "103945582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026259"
 ---
 # <a name="service-operation"></a>服務作業
 

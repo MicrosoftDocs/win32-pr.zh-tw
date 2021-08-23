@@ -8,12 +8,12 @@ keywords:
 - DACL AD，正在抓取物件的 DACL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db74cb235b5cb322f0edf3dc4cfb32f50b4c00c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b515e6c5d28be7003734510300fc7f6d2de776b479b56e62ad521567c76dce4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104314608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025106"
 ---
 # <a name="retrieving-an-objects-dacl"></a>正在抓取物件的 DACL
 
@@ -30,6 +30,6 @@ ms.locfileid: "104314608"
 -   [ (Acl 的存取控制清單) ](/windows/desktop/SecAuthZ/access-control-lists)
 -   [ (Ace 的存取控制專案) ](/windows/desktop/SecAuthZ/access-control-entries)
 
- 
+ 
 
- 
+ 

@@ -3,19 +3,19 @@ title: 範例無線電站播放清單
 description: 範例無線電站播放清單
 ms.assetid: 99b33036-6391-446c-816c-8d5d76107d37
 keywords:
-- Windows Media 中繼檔播放清單、播放清單範例
+- Windows媒體中繼檔播放清單、播放清單範例
 - 播放清單、播放清單範例
 - 中繼檔播放清單，播放清單範例
-- Windows Media 中繼檔播放清單，範例播放清單
+- Windows媒體中繼檔播放清單，範例播放清單
 - 播放清單、範例播放清單
 - 中繼檔播放清單，範例播放清單
-- Windows Media 中繼檔播放清單、範例播放清單
+- Windows媒體中繼檔播放清單、範例播放清單
 - 播放清單、範例播放清單
 - 中繼檔播放清單，範例播放清單
-- Windows Media 中繼檔播放清單，程式碼範例
+- Windows媒體中繼檔播放清單，程式碼範例
 - 播放清單，程式碼範例
 - 中繼檔播放清單，程式碼範例
-- Windows Media 中繼檔播放清單，無線電站播放清單範例
+- Windows媒體中繼檔播放清單，無線電站播放清單範例
 - 播放清單、無線電站播放清單範例
 - 中繼檔播放清單，無線電站播放清單範例
 - Windows Media Player，播放清單範例
@@ -32,12 +32,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: da797937ee461ccb3afbfb000e7704486d6896e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6db52d8eb9f109df870e65f79906761cfadee4a7871f4776fae3122dd93c8605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055026"
 ---
 # <a name="an-example-radio-station-playlist"></a>範例無線電站播放清單
 
@@ -112,15 +112,15 @@ ms.locfileid: "104372068"
 [**中繼檔播放清單**](metafile-playlists.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔指南**](windows-media-metafile-guide.md)
+[**Windows媒體中繼檔指南**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

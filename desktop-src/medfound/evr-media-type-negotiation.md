@@ -4,12 +4,12 @@ ms.assetid: 3a12b80d-7aac-437d-b515-aab37c1e81b2
 title: EVR 媒體類型的協商
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb1f87a24db866c9e80b211b0385c12dcd6b594
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6255a32f876a48d0c6193c0a9b470d20ee178ee0ae6fe4c0504b110a353075b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974487"
 ---
 # <a name="evr-media-type-negotiation"></a>EVR 媒體類型的協商
 

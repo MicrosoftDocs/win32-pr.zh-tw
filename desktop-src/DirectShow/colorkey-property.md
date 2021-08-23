@@ -4,17 +4,17 @@ ms.assetid: 4d4b38e6-bd29-4e16-8f82-a5da9312d272
 title: '>colorkey 屬性'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75620be88a861e02915c27324978382feefc5835
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: abca1dabbdb67f4380dbe32acbf2948862695b7c424dfd08629ec16237bb88c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073732"
 ---
 # <a name="colorkey-property"></a>>colorkey 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

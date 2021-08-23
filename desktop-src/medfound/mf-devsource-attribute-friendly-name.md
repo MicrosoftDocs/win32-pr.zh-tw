@@ -4,12 +4,12 @@ ms.assetid: 3f6c7faf-2ecd-4510-adc2-252c3619d70f
 title: 'MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ab0d2bb3c0e75d547e1249a83261b7c804743ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e90e019b37b251ad8ec00efbd3bd0395659b96c6dd2e3a1cad247ea17ace3ece
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973827"
 ---
 # <a name="mf_devsource_attribute_friendly_name-attribute"></a>MF \_ DEVSOURCE \_ 屬性 \_ 易記 \_ 名稱屬性
 
@@ -17,11 +17,11 @@ ms.locfileid: "106967164"
 
 ## <a name="data-type"></a>資料類型
 
-**WCHAR \** _
+**WCHAR\***
 
 ## <a name="getset"></a>取得/設定
 
-若要取得這個屬性，請呼叫 [_ *IMFAttributes：： GetString* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring)。
+若要取得這個屬性，請呼叫 [**IMFAttributes：： GetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring)。
 
 若要設定這個屬性，請呼叫 [**IMFAttributes：： SetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring)。
 
@@ -40,8 +40,8 @@ ms.locfileid: "106967164"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

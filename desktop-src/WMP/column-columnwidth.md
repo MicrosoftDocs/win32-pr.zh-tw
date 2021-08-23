@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c12a9037c47fb051dbd0eff909b861390b38794f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6dd9278cd495007825d109ccb13857f3c4e258d373c1830a4b7545f5bf718f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997668"
 ---
 # <a name="columncolumnwidth"></a>ColumnWidth
 

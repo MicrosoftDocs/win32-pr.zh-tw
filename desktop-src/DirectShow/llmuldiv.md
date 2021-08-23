@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e45d22eec1536517bd2b57d875dd596e4a1e28db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df58175955106906027a6d2d10c465b82ad6313cd493e3ef9ef3ba279cd0115f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952347"
 ---
 # <a name="llmuldiv-function"></a>llMulDiv 函式
 
@@ -90,7 +90,7 @@ LONGLONG WINAPI Int64x32Div32(
 
 
 
-| 傳回碼                                                                                       | Description                                                              |
+| 傳回碼                                                                                       | 描述                                                              |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | <dl> <dt>**0x7FFFFFFFFFFFFFFF**</dt> </dl> | 發生溢位，因為結果太大 (正) 。<br/> |
 | <dl> <dt>**0x8000000000000000**</dt> </dl> | 發生溢位，因為結果太大 (負) 。<br/> |

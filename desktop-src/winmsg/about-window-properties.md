@@ -4,12 +4,12 @@ ms.assetid: 67ca264e-af8e-41bf-b9d1-d3db8cf1cdc3
 title: 關於視窗屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea646c594186b05bb74e70e6829f13a83cd0ec1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c88657cba4cf12ed7ecedb07aeb545f8e4bf64109d34297637d734743d32dd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028496"
 ---
 # <a name="about-window-properties"></a>關於視窗屬性
 

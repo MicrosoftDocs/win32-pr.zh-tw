@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1a4c89652ef7ffffdc731614cfc57572b3edcde
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5aefb2b7862902bebd91aad910fb52656b15d7a3a6ff2b2652a33d6f4a034e16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104025522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022456"
 ---
 # <a name="previous-parent-ca-attribute"></a>上一個-父系-CA 屬性
 

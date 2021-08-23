@@ -4,12 +4,12 @@ ms.assetid: 8c6ec901-1eeb-46b0-8a3a-26d8eff99f6d
 title: 開發 COM + 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ee6495b7d8f7b2cc059b113f4250042cfd59b99
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 54526cc0fd900dbf92f8a69986b9aafc8e41a59f3964eafa2317b196ffbf6f0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047480"
 ---
 # <a name="developing-com-applications"></a>開發 COM + 應用程式
 
